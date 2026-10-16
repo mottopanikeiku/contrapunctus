@@ -65,7 +65,7 @@ Q:1/8=160
 K:C
 V:1 name="Duration"
 %%MIDI program 0
-"2"C2 | "3"C3 | "5"C5 | "8"C8 |]`,
+"2"C2 | "3"C3 | "5"C4-C | "8"C8 |]`,
       caption: 'A schematic, not a passage from a Gubaidulina score. One pitch lasts for 2, 3, 5 and 8 quavers; each duration after the first two is their sum. The bars separate spans rather than indicate a recurring metre. This demonstrates the numerical relationship behind some of her temporal planning, not the actual proportions of a named movement.',
     },
     {
