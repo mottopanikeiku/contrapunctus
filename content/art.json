@@ -54,6 +54,17 @@
   "license": "Public domain",
   "credit": "ÖNB, Bildarchiv Austria , Inventarnummer Pb 580.555-F 293 ( https://www.bildarchivaustria.at/Pages/ImageDetail.aspx?p_iBildID=10450741 )"
  },
+ "File:An Experiment on a Bird in an Air Pump by Joseph Wright of Derby, 1768.jpg": {
+  "id": "an-experiment-on-a-bird-in-an-air-pump-by-joseph-wright-of-derby-1768",
+  "src": "assets/img/art/an-experiment-on-a-bird-in-an-air-pump-by-joseph-wright-of-derby-1768.webp",
+  "w": 1280,
+  "h": 960,
+  "page": "https://commons.wikimedia.org/wiki/File:An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby,_1768.jpg",
+  "artist": "Joseph Wright of Derby",
+  "date": "1768 date QS:P571,+1768-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "National Gallery, London"
+ },
  "File:Andrey Rublev - Св. Троица - Google Art Project.jpg": {
   "id": "andrey-rublev-google-art-project",
   "src": "assets/img/art/andrey-rublev-google-art-project.webp",
@@ -75,6 +86,17 @@
   "date": "Taken on 24 November 1941",
   "license": "Public domain",
   "credit": "\"The Eastern Front in Photographs\", John Erickson // http://waralbum.ru/51876/ // http://visualrian.ru/media/2352163.html"
+ },
+ "File:Anton Webern in Stettin, October 1912.jpg": {
+  "id": "anton-webern-in-stettin-october-1912",
+  "src": "assets/img/art/anton-webern-in-stettin-october-1912.webp",
+  "w": 951,
+  "h": 1298,
+  "page": "https://commons.wikimedia.org/wiki/File:Anton_Webern_in_Stettin,_October_1912.jpg",
+  "artist": "",
+  "date": "",
+  "license": "Public domain",
+  "credit": ""
  },
  "File:Arnold Böcklin - Die Toteninsel I (Basel, Kunstmuseum).jpg": {
   "id": "arnold-bocklin-die-toteninsel-i-basel-kunstmuseum",
@@ -153,6 +175,17 @@
   "license": "Public domain",
   "credit": "eBay listing ( archived 25 April 2015 ) of publicity photograph from London Records , which marketed records to the United States."
  },
+ "File:Bernardo Strozzi - Claudio Monteverdi (c.1630).jpg": {
+  "id": "bernardo-strozzi-claudio-monteverdi-c-1630",
+  "src": "assets/img/art/bernardo-strozzi-claudio-monteverdi-c-1630.webp",
+  "w": 1280,
+  "h": 1600,
+  "page": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg",
+  "artist": "Bernardo Strozzi",
+  "date": "circa 1630 date QS:P571,+1630-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "credit": "1. Tiroler Landesmuseum 2. The New York Times , 6 May 2017"
+ },
  "File:Blaues Selbstportrait.jpg": {
   "id": "blaues-selbstportrait",
   "src": "assets/img/art/blaues-selbstportrait.webp",
@@ -185,6 +218,28 @@
   "date": "between 1819 and 1820 date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1819-00-00T00:00:00Z/9,P1326,+1820-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Google Cultural Institute"
+ },
+ "File:Chicago, Illinois. Double header Pennsylvania railroad train pulling out of Union station. The building in the background is the United States Post Office.tif": {
+  "id": "chicago-illinois-double-header-pennsylvania-railroad-train-pulling-out-of-union-",
+  "src": "assets/img/art/chicago-illinois-double-header-pennsylvania-railroad-train-pulling-out-of-union-.webp",
+  "w": 1280,
+  "h": 1410,
+  "page": "https://commons.wikimedia.org/wiki/File:Chicago,_Illinois._Double_header_Pennsylvania_railroad_train_pulling_out_of_Union_station._The_building_in_the_background_is_the_United_States_Post_Office.tif",
+  "artist": "Delano, Jack, 1914-1997",
+  "date": "January 1943",
+  "license": "Public domain",
+  "credit": "https://www.loc.gov/pictures/item/2017843756/"
+ },
+ "File:Cinderella by Gustav Dore (136548285).jpg": {
+  "id": "cinderella-by-gustav-dore-136548285",
+  "src": "assets/img/art/cinderella-by-gustav-dore-136548285.webp",
+  "w": 1280,
+  "h": 1026,
+  "page": "https://commons.wikimedia.org/wiki/File:Cinderella_by_Gustav_Dore_(136548285).jpg",
+  "artist": "Gustave Doré",
+  "date": "1867",
+  "license": "Public domain",
+  "credit": "National Library of Poland"
  },
  "File:Claude Debussy by Atelier Nadar - Original.jpg": {
   "id": "claude-debussy-by-atelier-nadar-original",
@@ -263,6 +318,17 @@
   "license": "CC BY-SA 3.0 de",
   "credit": "Fotothek_df_roe-neg_0002792_002_Portrait_Dmitri_Dmitrijewitsch_Schostakowitchs_im_Publikum_der_Bachfeier.jpg"
  },
+ "File:Edmund Blair Leighton - Tristram and Isolde (Royal Academy of Arts, 1907).jpg": {
+  "id": "edmund-blair-leighton-tristram-and-isolde-royal-academy-of-arts-1907",
+  "src": "assets/img/art/edmund-blair-leighton-tristram-and-isolde-royal-academy-of-arts-1907.webp",
+  "w": 1280,
+  "h": 712,
+  "page": "https://commons.wikimedia.org/wiki/File:Edmund_Blair_Leighton_-_Tristram_and_Isolde_(Royal_Academy_of_Arts,_1907).jpg",
+  "artist": "Edmund Blair Leighton",
+  "date": "Unknown date",
+  "license": "Public domain",
+  "credit": "Royal Academy pictures and sculpture , 1907, p. 70"
+ },
  "File:Edward Elgar.jpg": {
   "id": "edward-elgar",
   "src": "assets/img/art/edward-elgar.webp",
@@ -273,6 +339,17 @@
   "date": "by 1905 date QS:P,+1905-00-00T00:00:00Z/7,P1326,+1905-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://www.geocities.com/hansenk69/elgar3.jpg (broken link)"
+ },
+ "File:Erik Satie - BNF1.jpeg": {
+  "id": "erik-satie-bnf1",
+  "src": "assets/img/art/erik-satie-bnf1.webp",
+  "w": 1280,
+  "h": 1830,
+  "page": "https://commons.wikimedia.org/wiki/File:Erik_Satie_-_BNF1.jpeg",
+  "artist": "Unattributed",
+  "date": "between 1900 and 1975 date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1900-00-00T00:00:00Z/9,P1326,+1975-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "This file comes from Gallica Digital Library and is available under the digital ID btv1b8424759w"
  },
  "File:Esterhaza Palace 1920.jpg": {
   "id": "esterhaza-palace-1920",
@@ -318,6 +395,17 @@
   "license": "Public domain",
   "credit": "https://www.library.yale.edu/musiclib/exhibits/mendelssohn/edited/FannyMendelssohnHensel_adjusted.jpg"
  },
+ "File:Felix Mendelssohn Bartholdy by Eduard Magnus (1833).jpg": {
+  "id": "felix-mendelssohn-bartholdy-by-eduard-magnus-1833",
+  "src": "assets/img/art/felix-mendelssohn-bartholdy-by-eduard-magnus-1833.webp",
+  "w": 1280,
+  "h": 1650,
+  "page": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg",
+  "artist": "Eduard Magnus",
+  "date": "1833 date QS:P571,+1833-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Berlin State Library"
+ },
  "File:Firebird (big).jpeg": {
   "id": "firebird-big",
   "src": "assets/img/art/firebird-big.webp",
@@ -328,6 +416,28 @@
   "date": "1900s date QS:P,+1900-00-00T00:00:00Z/8",
   "license": "Public domain",
   "credit": "http://fotki.yandex.ru/users/sunday1989/view/56128/?page=16"
+ },
+ "File:François Couperin.jpg": {
+  "id": "francois-couperin",
+  "src": "assets/img/art/francois-couperin.webp",
+  "w": 1280,
+  "h": 1652,
+  "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin.jpg",
+  "artist": "Jean Charles Flipart / After André Bouys",
+  "date": "1735 date QS:P571,+1735-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "This file comes from Gallica Digital Library and is available under the digital ID btv1b84166980"
+ },
+ "File:Frank Bernard Dicksee - Romeo and Juliet, 1884.jpg": {
+  "id": "frank-bernard-dicksee-romeo-and-juliet-1884",
+  "src": "assets/img/art/frank-bernard-dicksee-romeo-and-juliet-1884.webp",
+  "w": 1000,
+  "h": 1450,
+  "page": "https://commons.wikimedia.org/wiki/File:Frank_Bernard_Dicksee_-_Romeo_and_Juliet,_1884.jpg",
+  "artist": "Frank Bernard Dicksee",
+  "date": "1884 date QS:P571,+1884-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "http://www.odysseetheater.com/romeojulia/romeojulia.htm"
  },
  "File:Franz Kafka, 1923.jpg": {
   "id": "franz-kafka-1923",
@@ -373,6 +483,17 @@
   "license": "Public domain",
   "credit": "Internet"
  },
+ "File:Ghent Altarpiece - Singing Angels (left).jpg": {
+  "id": "ghent-altarpiece-singing-angels-left",
+  "src": "assets/img/art/ghent-altarpiece-singing-angels-left.webp",
+  "w": 991,
+  "h": 2014,
+  "page": "https://commons.wikimedia.org/wiki/File:Ghent_Altarpiece_-_Singing_Angels_(left).jpg",
+  "artist": "Jan van Eyck / Hubert van Eyck",
+  "date": "1432",
+  "license": "Public domain",
+  "credit": "Web Gallery of Art : Image Info about artwork wga QS:P11807,\"e/eyck_van/jan/09ghent/1open\""
+ },
  "File:Giacomo Puccini by Mario Nunes Vais.jpg": {
   "id": "giacomo-puccini-by-mario-nunes-vais",
   "src": "assets/img/art/giacomo-puccini-by-mario-nunes-vais.webp",
@@ -417,6 +538,17 @@
   "license": "Public domain",
   "credit": "https://digital.belvedere.at/objects/4737/beethovenfries-die-sehnsucht-nach-dem-gluck-nach-richard"
  },
+ "File:Gustav Klimt, Judith II.jpg": {
+  "id": "gustav-klimt-judith-ii",
+  "src": "assets/img/art/gustav-klimt-judith-ii.webp",
+  "w": 1280,
+  "h": 2756,
+  "page": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt,_Judith_II.jpg",
+  "artist": "Gustav Klimt",
+  "date": "1909 date QS:P571,+1909-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "https://www.flickr.com/photos/freeparking/1000807342"
+ },
  "File:Hartmann -- Plan for a City Gate.jpg": {
   "id": "hartmann-plan-for-a-city-gate",
   "src": "assets/img/art/hartmann-plan-for-a-city-gate.webp",
@@ -439,6 +571,17 @@
   "license": "Public domain",
   "credit": "http://www.geocities.jp/tatsuyabanno/Bilderausstellung/Bilderausstellung-e.html"
  },
+ "File:Harvard Theatre Collection - Bakst, MS Thr 414.4 (9).jpg": {
+  "id": "harvard-theatre-collection-bakst-ms-thr-414-4-9",
+  "src": "assets/img/art/harvard-theatre-collection-bakst-ms-thr-414-4-9.webp",
+  "w": 1280,
+  "h": 912,
+  "page": "https://commons.wikimedia.org/wiki/File:Harvard_Theatre_Collection_-_Bakst,_MS_Thr_414.4_(9).jpg",
+  "artist": "Léon Bakst",
+  "date": "1912 date QS:P571,+1912-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "MS Thr 414.4 (9), Harvard Theatre Collection , Houghton Library, Harvard University"
+ },
  "File:Hector Berlioz - d'après le portrait de Signol (1831) - btv1b84157254.jpg": {
   "id": "hector-berlioz-d-apres-le-portrait-de-signol-1831-btv1b84157254",
   "src": "assets/img/art/hector-berlioz-d-apres-le-portrait-de-signol-1831-btv1b84157254.webp",
@@ -449,6 +592,17 @@
   "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Bibliothèque nationale de France"
+ },
+ "File:Hildegard von Bingen.jpg": {
+  "id": "hildegard-von-bingen",
+  "src": "assets/img/art/hildegard-von-bingen.webp",
+  "w": 1280,
+  "h": 1872,
+  "page": "https://commons.wikimedia.org/wiki/File:Hildegard_von_Bingen.jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "",
+  "license": "Public domain",
+  "credit": "Miniature from the Rupertsberg Codex of Liber Scivias."
  },
  "File:Igor Stravinsky LOC 32392u.jpg": {
   "id": "igor-stravinsky-loc-32392u",
@@ -571,6 +725,17 @@
   "license": "Public domain",
   "credit": "http://artuk.org/discover/artworks/joseph-haydn-17321809-215845"
  },
+ "File:Joseph Mallord William Turner - Staffa, Fingal's Cave - Google Art Project.jpg": {
+  "id": "joseph-mallord-william-turner-staffa-fingal-s-cave-google-art-project",
+  "src": "assets/img/art/joseph-mallord-william-turner-staffa-fingal-s-cave-google-art-project.webp",
+  "w": 1280,
+  "h": 948,
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Staffa,_Fingal%27s_Cave_-_Google_Art_Project.jpg",
+  "artist": "J. M. W. Turner",
+  "date": "between 1831 and 1832 date QS:P571,+1831-00-00T00:00:00Z/8,P1319,+1831-00-00T00:00:00Z/9,P1326,+1832-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "UwGUbiwJ5MsHvQ at Google Cultural Institute maximum zoom level"
+ },
  "File:Kaija Saariaho in 2022.png": {
   "id": "kaija-saariaho-in-2022",
   "src": "assets/img/art/kaija-saariaho-in-2022.webp",
@@ -637,6 +802,28 @@
   "license": "Public domain",
   "credit": "Retouched from File:L'Embarquement pour Cythere, by Antoine Watteau, from C2RMF.jpg , originally C2RMF: Galerie de tableaux en très haute définition : image page"
  },
+ "File:Le Petit Poucet (136547871).jpg": {
+  "id": "le-petit-poucet-136547871",
+  "src": "assets/img/art/le-petit-poucet-136547871.webp",
+  "w": 1280,
+  "h": 1624,
+  "page": "https://commons.wikimedia.org/wiki/File:Le_Petit_Poucet_(136547871).jpg",
+  "artist": "Gustave Doré",
+  "date": "1867",
+  "license": "Public domain",
+  "credit": "National Library of Poland"
+ },
+ "File:LenbachRichardWagner.jpg": {
+  "id": "lenbachrichardwagner",
+  "src": "assets/img/art/lenbachrichardwagner.webp",
+  "w": 1280,
+  "h": 1490,
+  "page": "https://commons.wikimedia.org/wiki/File:LenbachRichardWagner.jpg",
+  "artist": "Franz von Lenbach",
+  "date": "circa 1882/83",
+  "license": "Public domain",
+  "credit": "Zeno.org , ID number 20004130197"
+ },
  "File:Léon Bakst (1866-1924) - The Sleeping Beauty, The Prince Out Hunting Sees the Castle Where the Princess Lies Sleeping - 89.1995.6 - Waddesdon Manor.jpg": {
   "id": "leon-bakst-1866-1924-the-sleeping-beauty-the-prince-out-hunting-sees-the-castle-",
   "src": "assets/img/art/leon-bakst-1866-1924-the-sleeping-beauty-the-prince-out-hunting-sees-the-castle-.webp",
@@ -658,6 +845,28 @@
   "date": "1910 date QS:P571,+1910-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "The Yorck Project (2002) 10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH. ISBN : 3936122202 ."
+ },
+ "File:Machaut 1.jpg": {
+  "id": "machaut-1",
+  "src": "assets/img/art/machaut-1.webp",
+  "w": 844,
+  "h": 662,
+  "page": "https://commons.wikimedia.org/wiki/File:Machaut_1.jpg",
+  "artist": "",
+  "date": "",
+  "license": "Public domain",
+  "credit": ""
+ },
+ "File:Maurice Ravel 1925.jpg": {
+  "id": "maurice-ravel-1925",
+  "src": "assets/img/art/maurice-ravel-1925.webp",
+  "w": 1280,
+  "h": 1708,
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_1925.jpg",
+  "artist": "Unknown author Unknown author The image holder, the Bibliothèque nationale de France has not identified a photographer. (Follow link and click on \"Detailed information\".)",
+  "date": "1925 date QS:P571,+1925-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Bibliothèque nationale de France"
  },
  "File:Monet - Impression, Sunrise.jpg": {
   "id": "monet-impression-sunrise",
@@ -681,6 +890,17 @@
   "license": "CC0",
   "credit": "Nationaal Archief"
  },
+ "File:Pérotin - Viderunt omnes.jpg": {
+  "id": "perotin-viderunt-omnes",
+  "src": "assets/img/art/perotin-viderunt-omnes.webp",
+  "w": 439,
+  "h": 398,
+  "page": "https://commons.wikimedia.org/wiki/File:P%C3%A9rotin_-_Viderunt_omnes.jpg",
+  "artist": "música de Pérotin",
+  "date": "13 th century date QS:P,+1250-00-00T00:00:00Z/7",
+  "license": "Public domain",
+  "credit": "[1]"
+ },
  "File:Photo of Gustav Mahler by Moritz Nähr 10.jpg": {
   "id": "photo-of-gustav-mahler-by-moritz-nahr-10",
   "src": "assets/img/art/photo-of-gustav-mahler-by-moritz-nahr-10.webp",
@@ -691,6 +911,17 @@
   "date": "1907",
   "license": "Public domain",
   "credit": "https://mahlerfoundation.org/mahler/chronology/1898-1907-vienna/year-1907/"
+ },
+ "File:Pierre Puvis de Chavannes - The Poor Fisherman - Google Art Project.jpg": {
+  "id": "pierre-puvis-de-chavannes-the-poor-fisherman-google-art-project",
+  "src": "assets/img/art/pierre-puvis-de-chavannes-the-poor-fisherman-google-art-project.webp",
+  "w": 1280,
+  "h": 1042,
+  "page": "https://commons.wikimedia.org/wiki/File:Pierre_Puvis_de_Chavannes_-_The_Poor_Fisherman_-_Google_Art_Project.jpg",
+  "artist": "Pierre Puvis de Chavannes",
+  "date": "1881 date QS:P571,+1881-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "qwEqQiy4PXmwKw at Google Cultural Institute maximum zoom level"
  },
  "File:Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893).jpg": {
   "id": "portrat-des-komponisten-pjotr-i-tschaikowski-1840-1893",
@@ -703,6 +934,17 @@
   "license": "Public domain",
   "credit": "Nikolai Dimitriyevich Kuznetsov 's (1850 - 1929)"
  },
+ "File:Postcard-1910 Strauss Richard.jpg": {
+  "id": "postcard-1910-strauss-richard",
+  "src": "assets/img/art/postcard-1910-strauss-richard.webp",
+  "w": 1280,
+  "h": 1934,
+  "page": "https://commons.wikimedia.org/wiki/File:Postcard-1910_Strauss_Richard.jpg",
+  "artist": "unidentified photograph",
+  "date": "~ 1900 - 1910",
+  "license": "Public domain",
+  "credit": "archives de -- FinitoR Originally uploaded in ruwiki by ru:Участник:Финитор as ru:Postcard-1910_Strauss_Richard.jpg ."
+ },
  "File:PPN663944058 Fanny Hensel, geb. Mendelsohn-Bartholdy (1847).jpg": {
   "id": "ppn663944058-fanny-hensel-geb-mendelsohn-bartholdy-1847",
   "src": "assets/img/art/ppn663944058-fanny-hensel-geb-mendelsohn-bartholdy-1847.webp",
@@ -713,6 +955,17 @@
   "date": "1847 date QS:P571,+1847-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://resolver.sub.uni-hamburg.de/goobi/PPN663944058"
+ },
+ "File:Prokofieff (i.e. Prokofiev) LCCN2014708419 Crop 2.jpg": {
+  "id": "prokofieff-i-e-prokofiev-lccn2014708419-crop-2",
+  "src": "assets/img/art/prokofieff-i-e-prokofiev-lccn2014708419-crop-2.webp",
+  "w": 1280,
+  "h": 1792,
+  "page": "https://commons.wikimedia.org/wiki/File:Prokofieff_(i.e._Prokofiev)_LCCN2014708419_Crop_2.jpg",
+  "artist": "Bain News Service, publisher. Restored by User:MyCatIsAChonk",
+  "date": "circa 1918 date QS:P,+1918-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "credit": "Library of Congress Catalog: https://lccn.loc.gov/2014708419 Image download: https://cdn.loc.gov/service/pnp/ggbain/28200/28259v.jpg Original url: https://www.loc.gov/pictures/item/2014708419/"
  },
  "File:Rachmaninoff at Ivanovka.jpg": {
   "id": "rachmaninoff-at-ivanovka",
@@ -735,6 +988,28 @@
   "date": "1504 date QS:P571,+1504-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": ""
+ },
+ "File:Raphael School of Athens.jpg": {
+  "id": "raphael-school-of-athens",
+  "src": "assets/img/art/raphael-school-of-athens.webp",
+  "w": 1280,
+  "h": 836,
+  "page": "https://commons.wikimedia.org/wiki/File:Raphael_School_of_Athens.jpg",
+  "artist": "Raphael",
+  "date": "1511",
+  "license": "Public domain",
+  "credit": "wikimedia commons"
+ },
+ "File:Rhinegold and the Valkyries p 004.jpg": {
+  "id": "rhinegold-and-the-valkyries-p-004",
+  "src": "assets/img/art/rhinegold-and-the-valkyries-p-004.webp",
+  "w": 1280,
+  "h": 1802,
+  "page": "https://commons.wikimedia.org/wiki/File:Rhinegold_and_the_Valkyries_p_004.jpg",
+  "artist": "Arthur Rackham",
+  "date": "1910",
+  "license": "Public domain",
+  "credit": "; Rackham, Arthur (illus) (1910) The Rhinegold & the Valkyrie , London : William Heinemann, p. p. 4 Retrieved on 23 June 2011."
  },
  "File:Richard Gerstl Familie Schönberg 1908.jpg": {
   "id": "richard-gerstl-familie-schonberg-1908",
@@ -769,6 +1044,17 @@
   "license": "CC0",
   "credit": "This file was donated to Wikimedia Commons as part of a project by the National Gallery of Art . Please see the Gallery's Open Access Policy ."
  },
+ "File:Roerich 02 Idols.jpg": {
+  "id": "roerich-02-idols",
+  "src": "assets/img/art/roerich-02-idols.webp",
+  "w": 1280,
+  "h": 1096,
+  "page": "https://commons.wikimedia.org/wiki/File:Roerich_02_Idols.jpg",
+  "artist": "Nikolai Roerich (Никола́й Константи́нович Ре́рих)",
+  "date": "1901-12-31",
+  "license": "Public domain",
+  "credit": "Scan from Nikolai Roerich Album of Reproductions, Published by Goznak, Moscow"
+ },
  "File:Roerich Rite of Spring.jpg": {
   "id": "roerich-rite-of-spring",
   "src": "assets/img/art/roerich-rite-of-spring.webp",
@@ -801,6 +1087,17 @@
   "date": "ca. 1875 - ca. 1900",
   "license": "CC0",
   "credit": "http://hdl.handle.net/10934/RM0001.COLLECT.592977"
+ },
+ "File:Segantini - Nature (La natura), 1897–1899.jpg": {
+  "id": "segantini-nature-la-natura-1897-1899",
+  "src": "assets/img/art/segantini-nature-la-natura-1897-1899.webp",
+  "w": 1280,
+  "h": 738,
+  "page": "https://commons.wikimedia.org/wiki/File:Segantini_-_Nature_(La_natura),_1897%E2%80%931899.jpg",
+  "artist": "Giovanni Segantini",
+  "date": "1897",
+  "license": "Public domain",
+  "credit": "https://segantini-museum.ch/en/picture-gallery/"
  },
  "File:Sergei Rachmaninoff LOC 30160 cropped.jpg": {
   "id": "sergei-rachmaninoff-loc-30160-cropped",
@@ -846,6 +1143,39 @@
   "license": "CC BY-SA 4.0",
   "credit": "Own work"
  },
+ "File:Steve Reich, composer, cropped.jpg": {
+  "id": "steve-reich-composer-cropped",
+  "src": "assets/img/art/steve-reich-composer-cropped.webp",
+  "w": 558,
+  "h": 920,
+  "page": "https://commons.wikimedia.org/wiki/File:Steve_Reich,_composer,_cropped.jpg",
+  "artist": "Gotfryd, Bernard, photographer",
+  "date": "between 1982 and 1984 date QS:P,+1982-00-00T00:00:00Z/8,P1319,+1982-00-00T00:00:00Z/9,P1326,+1984-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Steve Reich, composer"
+ },
+ "File:Suzanne Valadon - Portrait d'Erik Satie.jpg": {
+  "id": "suzanne-valadon-portrait-d-erik-satie",
+  "src": "assets/img/art/suzanne-valadon-portrait-d-erik-satie.webp",
+  "w": 1280,
+  "h": 2330,
+  "page": "https://commons.wikimedia.org/wiki/File:Suzanne_Valadon_-_Portrait_d%27Erik_Satie.jpg",
+  "artist": "Suzanne Valadon",
+  "date": "1893 date QS:P571,+1893-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "(1993) 1893 : l'Europe des peintres : Paris, Musée d'Orsay, 22 février-23 mai 1993 , Éditions de la Réunion des Musées Nationaux"
+ },
+ "File:The Attack by Vereshchagin (1887-1895, GIM).jpg": {
+  "id": "the-attack-by-vereshchagin-1887-1895-gim",
+  "src": "assets/img/art/the-attack-by-vereshchagin-1887-1895-gim.webp",
+  "w": 1280,
+  "h": 1694,
+  "page": "https://commons.wikimedia.org/wiki/File:The_Attack_by_Vereshchagin_(1887-1895,_GIM).jpg",
+  "artist": "Vasily Vereshchagin",
+  "date": "between 1887 and 1895 date QS:P571,+1850-00-00T00:00:00Z/7,P1319,+1887-00-00T00:00:00Z/9,P1326,+1895-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "own photo by user:shakko"
+ },
  "File:The dance to the music of time c. 1640.jpg": {
   "id": "the-dance-to-the-music-of-time-c-1640",
   "src": "assets/img/art/the-dance-to-the-music-of-time-c-1640.webp",
@@ -856,6 +1186,28 @@
   "date": "between 1634 and 1636 date QS:P,+1634-00-00T00:00:00Z/8,P1319,+1634-00-00T00:00:00Z/9,P1326,+1636-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "https://www.oxfordartonline.com/page/wallace-collection-guide"
+ },
+ "File:The Hand of Guido.jpg": {
+  "id": "the-hand-of-guido",
+  "src": "assets/img/art/the-hand-of-guido.webp",
+  "w": 1280,
+  "h": 1392,
+  "page": "https://commons.wikimedia.org/wiki/File:The_Hand_of_Guido.jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "2011-06-08",
+  "license": "Public domain",
+  "credit": "Manuscript from 1274. Biblioteca Ambrosiana, Milan, Italy. MS D.75 inf, fol. 6r"
+ },
+ "File:The Lute Player-Caravaggio (Hermitage).jpg": {
+  "id": "the-lute-player-caravaggio-hermitage",
+  "src": "assets/img/art/the-lute-player-caravaggio-hermitage.webp",
+  "w": 1280,
+  "h": 1014,
+  "page": "https://commons.wikimedia.org/wiki/File:The_Lute_Player-Caravaggio_(Hermitage).jpg",
+  "artist": "Caravaggio",
+  "date": "circa 1600 date QS:P571,+1600-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "credit": "Hermitage Museum"
  },
  "File:The Triumph of Death by Pieter Bruegel the Elder.jpg": {
   "id": "the-triumph-of-death-by-pieter-bruegel-the-elder",
@@ -911,6 +1263,17 @@
   "date": "1911 date QS:P571,+1911-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "https://arthive.com/fr/wassilykandinsky/works/212376~Composition_5"
+ },
+ "File:Watteau, Jean-Antoine - Les Plaisirs du Bal - Google Art Project.jpg": {
+  "id": "watteau-jean-antoine-les-plaisirs-du-bal-google-art-project",
+  "src": "assets/img/art/watteau-jean-antoine-les-plaisirs-du-bal-google-art-project.webp",
+  "w": 1280,
+  "h": 1024,
+  "page": "https://commons.wikimedia.org/wiki/File:Watteau,_Jean-Antoine_-_Les_Plaisirs_du_Bal_-_Google_Art_Project.jpg",
+  "artist": "Watteau, Jean-Antoine (1684 - 1721) – Artist Details on Google Art Project",
+  "date": "c. 1715-17",
+  "license": "Public domain",
+  "credit": "ygEIIXQmEkmkNA at Google Cultural Institute maximum zoom level"
  },
  "File:William Hogarth - A Rake's Progress, Plate VIII, In Bedlam - B1981.25.1418 - Yale Center for British Art.jpg": {
   "id": "william-hogarth-a-rake-s-progress-plate-viii-in-bedlam-b1981-25-1418-yale-center",

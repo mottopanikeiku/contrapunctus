@@ -51,7 +51,7 @@ export default {
     { year: '1990', title: 'Hommage à R. Sch.', cat: 'Op. 15d', forces: 'Clarinet, viola and piano, with bass drum', note: 'Six movements refer to Schumann’s imagined characters and musical predecessors; the final movement greatly enlarges the preceding miniatures’ scale.' },
     { year: '1994', title: 'Stele', cat: 'Op. 33', forces: 'Large orchestra', note: 'Three movements, written for Claudio Abbado and the Berlin Philharmonic. The title denotes an upright memorial stone.' },
     { year: '2003', title: '…concertante…', cat: 'Op. 42', forces: 'Violin, viola and orchestra', note: 'The two soloists preserve the responsiveness of chamber music within a large orchestral work.' },
-    { year: '2010–17', title: 'Fin de partie', cat: 'Op. 56', forces: 'Four singers and orchestra', note: 'Kurtág’s opera on Beckett’s French text, premiered at La Scala in 2018 under Markus Stenz, in Pierre Audi’s staging.' },
+    { year: '2010–17', title: 'Fin de partie', forces: 'Four singers and orchestra', note: 'Kurtág’s opera on Beckett’s French text, premiered at La Scala in 2018 under Markus Stenz, in Pierre Audi’s staging.' },
   ],
   score: [
     {
