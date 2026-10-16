@@ -9,7 +9,7 @@ import { normalizeTitle } from '../tools/commons.mjs';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'docs');
 const C = await loadContent();
-const { eras, composers, pages, site, art } = C;
+const { eras, composers, pages, site, art, listens } = C;
 const bySlug = new Map(composers.map((c) => [c.slug, c]));
 const eraBySlug = new Map(eras.map((e) => [e.slug, e]));
 const SITE_URL = 'https://mottopanikeiku.github.io/contrapunctus/';
@@ -112,7 +112,8 @@ const fonts = `<link rel="preconnect" href="https://fonts.googleapis.com"><link 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Cormorant+SC:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Music&display=swap" rel="stylesheet">`;
 
 const NAV = [
-  ['eras', 'Eras', 'index.html#movements'],
+  ['listen', 'Listen', 'index.html'],
+  ['eras', 'Atlas', 'atlas.html'],
   ['composers', 'Composers', 'composers/index.html'],
   ['origins', 'Origins', 'origins.html'],
   ['workshop', 'Workshop', 'workshop.html'],
@@ -140,7 +141,7 @@ ${fonts}
 <body class="${dark ? 'is-over-dark' : ''}"${style}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="masthead"><div class="wrap">
-<a class="brand" href="${ctx.base}index.html"><span class="glyph" aria-hidden="true">𝄞</span>Contrapunctus</a>
+<a class="brand" href="${ctx.base}atlas.html"><span class="glyph" aria-hidden="true">𝄞</span>Contrapunctus</a>
 <button class="nav-toggle" aria-expanded="false" aria-controls="nav">menu</button>
 <ul class="nav" id="nav">${NAV.map(([k, t, u]) => `<li><a href="${ctx.base}${u}"${nav === k ? ' aria-current="page"' : ''}>${t}</a></li>`).join('')}</ul>
 </div></header>
@@ -365,6 +366,176 @@ function creditsPage() {
   return layout(ctx, { title: 'Image credits — Contrapunctus', body, nav: '' });
 }
 
+// ---------------------------------------------------------------- listening room
+async function resolveStreams() {
+  const { audioInfo } = await import('../tools/commons.mjs');
+  const file = path.join(ROOT, 'content/audio.json');
+  let cache = {};
+  try { cache = JSON.parse(await readFile(file, 'utf8')); } catch {}
+  for (const l of listens) {
+    const key = normalizeTitle(l.source.file);
+    if (cache[key]) continue;
+    const i = await audioInfo(l.source.file);
+    if (!i?.stream) { warnings.push(`listen/${l.id}: no stream for ${l.source.file}`); continue; }
+    cache[key] = { stream: i.stream, page: i.page, license: i.license, artist: i.artist, duration: i.duration };
+  }
+  const live = new Set(listens.map((l) => normalizeTitle(l.source.file)));
+  const sorted = Object.fromEntries(Object.entries(cache).filter(([k]) => live.has(k)).sort(([a], [b]) => a.localeCompare(b)));
+  await writeFile(file, JSON.stringify(sorted, null, 1) + '\n');
+  return sorted;
+}
+
+function background(ctx, c) {
+  const paras = [...(c.life ?? '').matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].slice(0, 2).map((m) => `<p>${rich(ctx, m[1])}</p>`);
+  return paras.join('');
+}
+
+async function programme() {
+  const streams = await resolveStreams();
+  const ctx = { base: '', page: 'index' };
+  const rank = new Map(composers.map((c, i) => [c.slug, i]));
+  const list = listens
+    .filter((l) => bySlug.has(l.composer) && streams[normalizeTitle(l.source.file)])
+    .sort((a, b) => rank.get(a.composer) - rank.get(b.composer) || (a.order ?? 1) - (b.order ?? 1));
+  return list.map((l) => {
+    const c = bySlug.get(l.composer);
+    const e = eraBySlug.get(c.era);
+    const s = streams[normalizeTitle(l.source.file)];
+    const p = art[normalizeTitle(c.portrait.file)];
+    return {
+      id: l.id,
+      composer: {
+        slug: c.slug, name: c.name, given: c.given, family: c.family, dates: lifespan(c),
+        born: `${c.born.date ?? c.born.year}, ${c.born.place}`, died: c.died ? `${c.died.date ?? c.died.year}, ${c.died.place}` : null,
+        epithet: c.epithet, portrait: p?.src ?? null, focus: c.portrait.focus ?? '50% 25%',
+        facts: (c.facts ?? []).map(([k, v]) => [k, rich(ctx, v)]),
+        quote: c.quote ?? null, background: background(ctx, c),
+      },
+      era: e ? { slug: e.slug, numeral: e.numeral, name: e.name, span: e.span, accent: e.accent, hero: art[normalizeTitle(e.hero.file)]?.src ?? null, heroCaption: `${e.hero.artist}, ${e.hero.title}` } : null,
+      tuning: l.tuning ?? 440, work: l.work, movement: l.movement ?? '', year: l.year, key: l.key ?? '', forces: l.forces, performers: l.performers, recorded: l.recorded ?? '',
+      intro: l.intro, stream: s.stream, sourcePage: s.page, license: l.license ?? s.license, duration: s.duration,
+      sections: l.sections ?? [],
+      cues: (l.cues ?? []).map(({ t, kind, title, text }) => ({ t, kind, title, text: rich(ctx, text) })),
+    };
+  });
+}
+
+async function roomPage() {
+  const prog = await programme();
+  const json = JSON.stringify(prog);
+  const vRoom = createHash('md5').update(json).digest('hex').slice(0, 8);
+  await writeFile(path.join(OUT, 'assets/listen/programme.json'), json);
+  const vcss = await ver('assets/css/room.css');
+  const vjs = await ver('assets/js/room.js');
+  const first = prog[0];
+  const eraList = eras.map((e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug) })).filter((x) => x.tracks.length);
+  const fmt = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}`;
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Listening Room — Contrapunctus</title>
+<meta name="description" content="A concert from Bach to the present: real recordings, a live visualizer of pitch and harmony, and notes that explain the music as it plays.">
+<meta property="og:title" content="The Listening Room — Contrapunctus">
+<meta property="og:description" content="A concert from Bach to the present, explained as it plays.">
+${first?.era?.hero ? `<meta property="og:image" content="${SITE_URL}${first.era.hero}"><meta name="twitter:card" content="summary_large_image">` : ''}
+<meta name="theme-color" content="#0d0b09">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+${fonts}
+<link rel="stylesheet" href="assets/css/room.css?v=${vcss}">
+</head>
+<body class="room">
+<div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
+<header class="r-top">
+  <a class="r-brand" href="atlas.html"><span class="glyph">𝄞</span>Contrapunctus</a>
+  <nav class="r-nav">${NAV.filter(([k]) => k !== 'listen').map(([, t, u]) => `<a href="${u}">${t}</a>`).join('')}</nav>
+</header>
+
+<main class="stage">
+  <section class="now" aria-live="polite">
+    <div class="now-era"><span class="era-num"></span><span class="era-name"></span></div>
+    <h1 class="now-composer"><span class="given"></span><span class="family"></span></h1>
+    <p class="now-work"><span class="work"></span><span class="movement"></span></p>
+    <p class="now-meta"></p>
+  </section>
+
+  <section class="viz" aria-label="Live visualizer">
+    <div class="spectro-frame">
+      <canvas class="spectro" aria-hidden="true"></canvas>
+      <canvas class="keys" aria-hidden="true"></canvas>
+      <div class="spectro-axis" aria-hidden="true"></div>
+      <div class="spectro-label">Pitch over time · each band is an octave of C</div>
+    </div>
+    <div class="viz-row">
+      <div class="wheel-wrap">
+        <canvas class="wheel" aria-hidden="true"></canvas>
+        <div class="wheel-centre"><span class="chord">—</span><span class="chord-cap">heard harmony</span></div>
+      </div>
+      <dl class="readouts">
+        <div><dt>Bass</dt><dd class="ro-bass">—</dd></div>
+        <div><dt>Strongest pitches</dt><dd class="ro-top">—</dd></div>
+        <div><dt>Loudness</dt><dd><span class="meter"><span></span></span></dd></div>
+        <div><dt>Brightness</dt><dd><span class="meter bright"><span></span></span></dd></div>
+      </dl>
+      <figure class="cameo-r"><span class="oval-r"><img alt=""></span><figcaption></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="notes">
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="live">As it plays</button>
+      <button role="tab" aria-selected="false" data-tab="composer">The composer</button>
+      <button role="tab" aria-selected="false" data-tab="piece">This recording</button>
+    </div>
+    <div class="tab tab-live" data-panel="live">
+      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><span class="cue-next"></span></article>
+      <ol class="cue-past"></ol>
+    </div>
+    <div class="tab tab-composer" data-panel="composer" hidden></div>
+    <div class="tab tab-piece" data-panel="piece" hidden></div>
+  </section>
+</main>
+
+<footer class="transport">
+  <div class="t-buttons">
+    <button class="t-prev" aria-label="Previous piece">⏮</button>
+    <button class="t-play" aria-label="Play">▶</button>
+    <button class="t-next" aria-label="Next piece">⏭</button>
+  </div>
+  <span class="t-time t-cur">0:00</span>
+  <div class="timeline" tabindex="0" role="slider" aria-label="Position in the piece" aria-valuemin="0">
+    <canvas class="tl-canvas"></canvas>
+    <div class="tl-sections"></div>
+    <div class="tl-head"></div>
+  </div>
+  <span class="t-time t-dur">0:00</span>
+  <button class="t-prog" aria-expanded="false">Programme</button>
+</footer>
+
+<aside class="programme" hidden>
+  <header><h2>The programme</h2><p>${prog.length} pieces, in order of the composers’ births. It plays straight through; choose anything to jump there.</p><button class="prog-close" aria-label="Close">×</button></header>
+  ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t) => `<li><button data-id="${t.id}"><span class="p-c">${esc(t.composer.name)}</span><span class="p-w">${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`).join('')}</ol></section>`).join('')}
+</aside>
+
+<div class="curtain" hidden>
+  <div class="curtain-inner">
+    <span class="kicker">The Listening Room</span>
+    <h2>A concert from Bach to the present</h2>
+    <p>${prog.length} recordings play one after another. A visualizer beside each one traces pitch and harmony as you hear them, and notes explain the music and its composer as it unfolds.</p>
+    <button class="begin">Begin the concert</button>
+    <small>Browsers need one click before a page may play sound. After that, the music plays on its own.</small>
+  </div>
+</div>
+<div class="interlude" hidden><span class="i-era"></span><span class="i-name"></span><span class="i-work"></span></div>
+
+<script>window.PROGRAMME_URL = 'assets/listen/programme.json?v=${vRoom}';</script>
+<script src="assets/js/room.js?v=${vjs}" defer></script>
+</body>
+</html>
+`;
+}
+
 // ---------------------------------------------------------------- write
 async function emit(rel, html) {
   const file = path.join(OUT, rel);
@@ -375,7 +546,8 @@ async function emit(rel, html) {
 const written = new Set();
 const out = async (rel, html) => { written.add(rel); await emit(rel, html); };
 
-await out('index.html', indexPage());
+await out('atlas.html', indexPage());
+await out('index.html', await roomPage());
 await out('composers/index.html', composersIndex());
 for (const [i, c] of composers.entries()) await out(`composers/${c.slug}.html`, composerPage(c, i));
 for (const e of eras) await out(`eras/${e.slug}.html`, eraPage(e));
