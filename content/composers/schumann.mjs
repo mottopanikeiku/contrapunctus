@@ -50,7 +50,7 @@ export default {
     { year: '1841', title: 'Symphony No. 1 in B♭ major “Spring”', cat: 'Op. 38', forces: 'Orchestra', note: 'An opening brass call supplies material for a four-movement symphonic design rather than a sequence of seasonal pictures.' },
     { year: '1841; revised 1851', title: 'Symphony No. 4 in D minor', cat: 'Op. 120', forces: 'Orchestra', note: 'Connected movements and recurring material; the two versions differ in orchestration and details of formal continuity.' },
     { year: '1842', title: 'Piano Quintet in E♭ major', cat: 'Op. 44', forces: 'Piano and string quartet', note: 'A march-like slow movement and a finale that combines themes from different movements in counterpoint.' },
-    { year: '1841–45', title: 'Piano Concerto in A minor', cat: 'Op. 54', forces: 'Piano and orchestra', note: 'Expanded from an earlier Fantasy; the opening theme moves between piano and woodwind rather than belonging exclusively to the soloist.' },
+    { year: '1845; from an 1841 Fantasy', title: 'Piano Concerto in A minor', cat: 'Op. 54', forces: 'Piano and orchestra', note: 'Expanded from an earlier Fantasy; the opening theme moves between piano and woodwind rather than belonging exclusively to the soloist.' },
     { year: '1845–46', title: 'Symphony No. 2 in C major', cat: 'Op. 61', forces: 'Orchestra', note: 'A brass motto frames an argument in which the Adagio’s singing line and imitative writing are central.' },
     { year: '1850', title: 'Cello Concerto in A minor', cat: 'Op. 129', forces: 'Cello and orchestra', note: 'Three connected movements; the soloist’s continuity matters more than a conventional succession of orchestral contests.' },
     { year: '1850', title: 'Symphony No. 3 in E♭ major “Rhenish”', cat: 'Op. 97', forces: 'Orchestra', note: 'Five movements, including a solemn fourth whose compact contrapuntal writing interrupts the surrounding public energy.' },
@@ -108,7 +108,6 @@ my longing and desire.`, note: `<p>Schumann opens <i>Dichterliebe</i> with this 
   reading: [
     'John Daverio, <i>Robert Schumann: Herald of a “New Poetic Age”</i> (Oxford, 1997) — literary culture and compositional technique considered together.',
     'Charles Rosen, <i>The Romantic Generation</i> (Harvard, 1995) — particularly useful on fragment, memory and the relation between the played and imagined voice.',
-    'Peter Ostwald, <i>Schumann: The Inner Voices of a Musical Genius</i> (Northeastern University Press, 1985) — a medical interpretation to read critically beside the documentary biographies.',
     '<a href="https://www.schumann-portal.de/">Schumann Portal</a> — documents, chronology and research on both Robert and Clara.',
   ],
 };

@@ -4,7 +4,7 @@ export default {
   died: { year: 1869, date: '8 March 1869', place: 'Paris' },
   era: 'romantic', featured: false,
   epithet: 'He made orchestral colour, the position of a sound in space, and the return of a remembered melody into structural events.',
-  portrait: { file: 'File:Hector Berlioz - d’après le portrait de Signol (1831) - btv1b84157254.jpg'.replace('d’après', "d'après"), caption: 'Reproduction of Émile Signol’s portrait of the young Berlioz; Bibliothèque nationale de France.', focus: '50% 25%' },
+  portrait: { file: "File:Hector Berlioz - d'après le portrait de Signol (1831) - btv1b84157254.jpg", caption: 'Reproduction of Émile Signol’s portrait of the young Berlioz; Bibliothèque nationale de France.', focus: '50% 25%' },
   facts: [
     ['Trained', 'Flute and guitar as a boy; Paris Conservatoire with Jean-François Le Sueur and Anton Reicha'],
     ['Livelihood', 'Critic for the <i>Journal des débats</i>; Conservatoire librarian; touring conductor'],
