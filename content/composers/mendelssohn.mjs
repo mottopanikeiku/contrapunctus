@@ -1,0 +1,80 @@
+export default {
+  slug: 'mendelssohn', name: 'Felix Mendelssohn', given: 'Felix', family: 'Mendelssohn',
+  born: { year: 1809, date: '3 February 1809', place: 'Hamburg' },
+  died: { year: 1847, date: '4 November 1847', place: 'Leipzig' },
+  era: 'romantic', featured: false,
+  epithet: 'A composer-conductor who turned quicksilver string writing, Bachian counterpoint and remembered landscapes into tightly organised concert music.',
+  portrait: { file: 'File:Felix Mendelssohn Bartholdy by Eduard Magnus (1833).jpg', caption: 'Portrait by Eduard Magnus, mid-1840s; the date in the image filename is misleading.', focus: '50% 25%' },
+  facts: [
+    ['Trained', 'Piano with Ludwig Berger; composition with Carl Friedrich Zelter in Berlin'],
+    ['Posts', 'Music director, Düsseldorf, 1833–35; Gewandhaus conductor, Leipzig, from 1835; founder of Leipzig Conservatoire, 1843'],
+    ['Family', 'Brother of [[fanny-hensel|Fanny Hensel]]; married Cécile Jeanrenaud in 1837; five children'],
+    ['Output', 'Symphonies, concert overtures, concertos, oratorios, chamber music and <i>Songs without Words</i>'],
+  ],
+  life: `
+<p class="dropcap">Felix Mendelssohn was born in Hamburg in 1809 and grew up in Berlin, where his father Abraham’s banking wealth supported an unusually extensive education. His grandfather was the Jewish philosopher Moses Mendelssohn; Felix and his siblings were baptised as Christians in 1816, and the family used the additional surname Bartholdy. He studied piano with Ludwig Berger and composition with Carl Friedrich Zelter, alongside his elder sister [[fanny-hensel|Fanny]]. The family’s concerts gave them something a classroom could not: repeated opportunities to hear their own music, revise it and discuss it with experienced performers.</p>
+<p>Zelter’s teaching joined Bach’s counterpoint to classical forms. The boy wrote string symphonies, concertos and chamber works before the pieces usually treated as his starting point. At sixteen he composed the E♭ major Octet, Op. 20, for four violins, two violas and two cellos. Its eight independent parts are not simply two quartets taking turns: the first violin’s long ascent, the other instruments’ pulsing accompaniments and the finale’s fugal entries create different densities inside one ensemble. The scherzo’s soft, rapid articulation became a recurrent technical problem in his later orchestral writing.</p>
+<h3><span class="sc">1826–29</span>Shakespeare and Bach</h3>
+<p>The overture to <i>A Midsummer Night’s Dream</i>, written in 1826, begins with four wind chords before the strings move into a hushed E minor scurry. It makes distinct musical populations out of Shakespeare’s fairies, lovers and tradesmen while retaining the tonal argument of a concert overture. Mendelssohn did not add the incidental music, including the wedding march and nocturne, until 1842, for a Prussian court production. The opening chords therefore returned across a gap of sixteen years, linking a teenage conception to the practical demands of a complete theatrical evening.</p>
+<aside class="note"><b>Not a first rediscovery</b>Bach’s music had never vanished. Mendelssohn’s 1829 <i>St Matthew Passion</i> performance was nevertheless a decisive public event: a shortened, adapted presentation in Berlin’s Sing-Akademie, not a modern complete performance with period instruments.</aside>
+<p>In March 1829 he conducted the <i>St Matthew Passion</i> in Berlin, assisted by the singer Eduard Devrient and the Sing-Akademie’s musicians. The performance helped make Bach’s large vocal works a subject for public concert life. Mendelssohn’s later oratorios drew on that inheritance without simply reproducing it: narrative soloists, crowd choruses, reflective arias and contrapuntal movements serve nineteenth-century halls and choral societies. His promotion of earlier music also extended to Handel and Beethoven, while contemporary programmes included music by friends and colleagues rather than an exclusively historical canon.</p>
+<h3><span class="sc">Travel</span>A sketch before the cave</h3>
+<p>His first British visit in 1829 brought conducting and piano appearances, followed by a Scottish tour with Karl Klingemann. He sent his family a musical sketch from Tobermory on 7 August; the visit to Staffa and Fingal’s Cave followed the next day. The familiar story of an overture conceived inside the cave reverses the order of the evidence. <i>The Hebrides</i> developed through later revision, retaining the low, falling opening figure but transforming it through a sonata design. The sea supplied a remembered experience, not a bar-by-bar programme of waves and weather.</p>
+<p>Italy prompted another work whose eventual form resisted its initial circumstances. The A major ‘Italian’ Symphony was performed in London in 1833, but Mendelssohn continued revising it and withheld it from publication. Its finale, a fast Saltarello, turns to A minor and does not restore a major-key ending. The ‘Scottish’ Symphony, begun after the 1829 tour and completed in 1842, similarly required years of distance. Its four movements are intended to follow without substantial breaks; its final A major section changes metre and character rather than merely speeding up the preceding finale.</p>
+<aside class="note"><b>Publication is not chronology</b>The numbered symphonies are ordered largely by publication. The ‘Italian’, No. 4, precedes the completed ‘Scottish’, No. 3; the ‘Reformation’, No. 5, was composed earlier than either completed score.</aside>
+<h3><span class="sc">Leipzig</span>An institution and its music</h3>
+<p>After a difficult appointment in Düsseldorf, Mendelssohn took charge of Leipzig’s Gewandhaus concerts in 1835. He married Cécile Jeanrenaud in 1837; they had five children. Leipzig became the centre of work that combined conducting, composing, correspondence, teaching and the organisation of performances. In 1839 he conducted the first public performance of [[schubert|Schubert]]’s ‘Great’ C major Symphony, whose manuscript [[schumann|Schumann]] had brought to the publishers’ attention. In 1843 he helped establish the Leipzig Conservatoire, bringing practical ensemble music and a rigorous compositional curriculum into the same institution.</p>
+<p>The D minor Piano Trio of 1839 and E minor Violin Concerto, completed in 1844, test classical forms from within. The concerto puts the soloist’s principal theme almost at the beginning, places the written cadenza before the first movement’s recapitulation, and connects its movements. Consultation with the violinist Ferdinand David helped make its passagework specific to the instrument. <i>Elijah</i>, first performed in Birmingham in 1846, addresses another kind of virtuosity: the large amateur chorus, which must become crowd, commentator and contrapuntal ensemble. Its English premiere was followed by further revision.</p>
+<p>Fanny’s sudden death in May 1847 was followed by a sharp deterioration in Mendelssohn’s health. His String Quartet in F minor, Op. 80, belongs to that summer: tremolo, forceful accents and close contrapuntal exchanges replace the lightness often made to stand for his entire style. He died in Leipzig on 4 November, aged thirty-eight. Later antisemitic criticism, especially Wagner’s, helped caricature his music as facile; the manuscripts, revision history and practical demands of the scores preserve a less convenient record of labour.</p>`,
+  sound: [
+    { aspect: 'String articulation', glyph: '𝄞', html: `<p>Soft, rapid notes require coordinated bow strokes and carefully spaced entries. In the Octet scherzo and <i>Midsummer Night’s Dream</i>, the effect depends on rests and lightness of attack as much as on speed. A thick legato obscures the written texture.</p>` },
+    { aspect: 'Counterpoint', glyph: '𝄢', html: `<p>Bach’s procedures remain available inside sonata movements, scherzos and oratorios. The Octet finale builds an eight-part fugato and later recalls the scherzo: contrapuntal accumulation and cyclic memory reinforce one another.</p>` },
+    { aspect: 'Form without pauses', glyph: '𝄋', html: `<p>The Violin Concerto moves its cadenza before the recapitulation, allowing the orchestra to re-enter over the soloist’s continuing arpeggios. A held bassoon note links the first and second movements. Formal continuity is made with an audible sustained sound.</p>` },
+    { aspect: 'Song at the keyboard', glyph: '𝅘𝅥', html: `<p>The <i>Songs without Words</i> ask a percussion instrument to sustain a vocal phrase above a separately articulated accompaniment. Their titles do not imply missing poems that must be supplied; melodic rhythm, register and harmony already make distinctions that words might narrow.</p>` },
+    { aspect: 'Landscape & tonality', glyph: '♭', html: `<p><i>The Hebrides</i> begins in the middle and low registers, with a descending figure that opens into changing harmonic perspectives. The ‘Italian’ Symphony moves from an A major first movement to an A minor finale. A geographical title does not predict either work’s tonal destination.</p>` },
+  ],
+  works: [
+    { year: '1825', title: 'Octet in E♭ major', cat: 'Op. 20', forces: 'Four violins, two violas and two cellos', note: 'Eight-part chamber writing with orchestral changes of density; the scherzo returns inside the fugal finale.' },
+    { year: '1826; 1842', title: 'A Midsummer Night’s Dream', cat: 'Opp. 21 and 61', forces: 'Overture; later incidental music with voices and orchestra', note: 'The overture predates the incidental music by sixteen years. Fairies, lovers and tradesmen have different registers, articulations and rhythmic types.' },
+    { year: '1829–45', title: 'Songs without Words', forces: 'Piano', note: 'The main body of the published collections: melody and accompaniment remain distinct even when shared between the hands.' },
+    { year: '1830–32', title: 'The Hebrides', cat: 'Op. 26', forces: 'Orchestra', note: 'A B minor concert overture grown from an 1829 Scottish sketch; also known as <i>Fingal’s Cave</i>.' },
+    { year: '1833; later revisions', title: 'Symphony No. 4 in A major “Italian”', cat: 'Op. 90', forces: 'Orchestra', note: 'The Saltarello finale stays in A minor. The composer’s dissatisfaction kept the work unpublished during his life.' },
+    { year: '1836', title: 'St Paul', cat: 'Op. 36', forces: 'Soloists, chorus and orchestra', note: 'An oratorio that places chorales and contrapuntal choruses inside a continuous account of conversion and preaching.' },
+    { year: '1839', title: 'Piano Trio No. 1 in D minor', cat: 'Op. 49', forces: 'Piano, violin and cello', note: 'The cello’s opening melody spans the piano’s continuous motion; the scherzo demands a different, sharply articulated kind of coordination.' },
+    { year: '1842', title: 'Symphony No. 3 in A minor “Scottish”', cat: 'Op. 56', forces: 'Orchestra', note: 'Four connected movements and a concluding A major transformation; the Scottish sketches began in 1829.' },
+    { year: '1844', title: 'Violin Concerto in E minor', cat: 'Op. 64', forces: 'Violin and orchestra', note: 'Premiered by Ferdinand David in 1845. The soloist enters almost immediately, and the cadenza prepares rather than follows the recapitulation.' },
+    { year: '1846', title: 'Elijah', cat: 'Op. 70', forces: 'Soloists, chorus and orchestra', note: 'Written for Birmingham’s festival; the chorus changes between a desperate population, worshippers of Baal and reflective narrator.' },
+  ],
+  score: [
+    { kicker: 'The Hebrides · opening bar', title: 'A falling figure in the low register', abc: `X:1
+T:The Hebrides — opening bar, repeated
+M:C
+L:1/16
+Q:1/4=108
+K:Bm
+V:1 name="Low theme" clef=bass
+%%MIDI program 42
+z2 (F,2 D,2 C,D, B,,4 F,,4) | z2 (F,2 D,2 C,D, B,,4 F,,4) |]`, caption: 'The first bar’s pitches and rhythm, quoted at sounding pitch and then repeated for comparison; the second bar here is not the score’s second bar. The line is heard in bassoons and lower strings. F♯–D–C♯–D–B–F♯ outlines B minor while the semiquaver neighbour C♯ briefly interrupts the descent. The opening rest matters: the figure emerges after the pulse has begun. <a href="https://commons.wikimedia.org/wiki/File:Hebrides_Overture_opening_theme_02.png">Notation source</a>.' },
+  ],
+  arts: [
+    { type: 'painting', frame: 'gilt', file: "File:Joseph Mallord William Turner - Staffa, Fingal's Cave - Google Art Project.jpg", artist: 'J. M. W. Turner', title: 'Staffa, Fingal’s Cave', date: '1831–32; exhibited 1832', medium: 'Oil on canvas', collection: 'Yale Center for British Art, Paul Mellon Collection', note: `<p>Turner visited Staffa in 1831, two years after Mendelssohn. His painting includes a steamship: Romantic access to the apparently remote landscape depended on modern transport. The overture and painting are independent responses to the same Hebridean destination, not an illustration and its soundtrack. Turner blurs sea, smoke and atmosphere; Mendelssohn keeps a precisely articulated motif audible while its orchestral surroundings change. <a href="https://collections.britishart.yale.edu/catalog/tms:5018">Collection record</a>.</p>` },
+    { type: 'poem', author: 'William Shakespeare', title: 'A Midsummer Night’s Dream · Act V, scene 1', date: 'First published 1600', lang: 'English', original: `If we shadows have offended,
+Think but this, and all is mended,
+That you have but slumbered here
+While these visions did appear.
+And this weak and idle theme,
+No more yielding but a dream,`, note: `<p>Puck’s epilogue supplies a theatrical exit from confusion rather than an explanation of it. Mendelssohn’s 1842 incidental score returns to the 1826 overture’s wind chords at the end, making musical recollection serve a comparable closing function. The quick string writing is not generic woodland music: it belongs to a play that repeatedly changes the status of what its characters think they have seen.</p>` },
+  ],
+  recordings: [
+    { work: 'Symphonies Nos. 3 and 4', performers: 'London Symphony Orchestra, Claudio Abbado', label: 'Deutsche Grammophon', note: 'Useful for following the lower-string articulation beneath the first violin lines and the relation of tempo across movements.' },
+    { work: 'Violin Concerto in E minor', performers: 'Nathan Milstein, Philharmonia Orchestra, Léon Barzin', label: 'EMI', note: 'The solo line remains rhythmically explicit inside the connected form; the cadenza is not treated as a detached recital.' },
+    { work: 'Songs without Words', performers: 'Daniel Barenboim', label: 'Deutsche Grammophon', note: 'A complete survey of the familiar collections; compare pieces with a clearly separate soprano line to those with intertwined voices.' },
+    { work: 'Octet', performers: 'Emerson String Quartet with additional players', label: 'Deutsche Grammophon', note: 'The eight-part texture permits a close hearing of the finale’s accumulating entries and the returning scherzo material.' },
+  ],
+  lineage: { from: ['bach', 'handel', 'mozart', 'beethoven', 'fanny-hensel'], to: ['schumann', 'brahms', 'Arthur Sullivan'], note: `<p>Mendelssohn’s historical repertory and contemporary composing were interdependent. His Leipzig institutions helped sustain [[schumann|Schumann]]’s music, while the concert overture, piano song and fast scherzo became usable models for later composers. [[fanny-hensel|Fanny]] was an active musical interlocutor throughout, not merely the dedicatee of a family tradition.</p>` },
+  reading: [
+    'R. Larry Todd, <i>Mendelssohn: A Life in Music</i> (Oxford, 2003) — the standard modern account, attentive to revision and the family’s musical culture.',
+    'R. Larry Todd, <i>Mendelssohn: The Hebrides and Other Overtures</i> (Cambridge, 1993) — how the concert overtures are constructed.',
+    '<a href="https://artandmusic.yale.edu/romantic-landscapes/mendelssohn-scotland/mendelssohn-gallery2-letter-his-family">Yale: Mendelssohn’s letter to his family, August 1829</a> — documentary evidence for the Hebrides sketch before the visit to Staffa.',
+  ],
+};

@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Static generator: content/*.mjs -> docs/*.html. No dependencies.
-import { mkdir, writeFile, readdir, unlink } from 'node:fs/promises';
+import { mkdir, writeFile, readdir, unlink, readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
-import { loadContent, artId } from './content.mjs';
+import { loadContent } from './content.mjs';
 import { normalizeTitle } from '../tools/commons.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -12,12 +13,34 @@ const { eras, composers, pages, site, art } = C;
 const bySlug = new Map(composers.map((c) => [c.slug, c]));
 const eraBySlug = new Map(eras.map((e) => [e.slug, e]));
 const warnings = [];
+const ver = async (rel) => createHash('md5').update(await readFile(path.join(OUT, rel))).digest('hex').slice(0, 8);
+const V = { css: await ver('assets/css/style.css'), js: await ver('assets/js/site.js') };
 
 // ---------------------------------------------------------------- helpers
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const attr = esc;
 const dash = (a, b) => (b == null ? `b. ${a}` : `${a}–${b}`);
 const lifespan = (c) => dash(c.born.year, c.died?.year);
+
+/** Partials 1–16 over C2: bar height ~ 1/n, label = nearest note and deviation from equal temperament. */
+function harmonicSeriesSvg() {
+  const names = ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B'];
+  const W = 960, H = 300, base = 250, left = 40, step = (W - left - 30) / 15;
+  const parts = [];
+  for (let n = 1; n <= 16; n++) {
+    const cents = 1200 * Math.log2(n);
+    const semis = Math.round(cents / 100);
+    const dev = Math.round(cents - semis * 100);
+    const oct = 2 + Math.floor(semis / 12);
+    const name = `${names[((semis % 12) + 12) % 12]}${oct}`;
+    const x = left + (n - 1) * step;
+    const h = 200 / n + 8;
+    const off = Math.abs(dev) > 20;
+    parts.push(`<g class="h" data-n="${n}" tabindex="0" role="button" aria-label="Partial ${n}, ${name}"><rect x="${x - 7}" y="${base - h}" width="14" height="${h}"${off ? ' class="off"' : ''} fill="currentColor" opacity=".85"/><text x="${x}" y="${base + 20}" text-anchor="middle" font-size="15" font-style="italic" fill="currentColor">${n}</text><text x="${x}" y="${base + 40}" text-anchor="middle" font-size="13" fill="currentColor">${name}</text><text x="${x}" y="${base + 56}" text-anchor="middle" font-size="11" fill="currentColor" opacity=".65">${dev === 0 ? '±0' : (dev > 0 ? '+' : '−') + Math.abs(dev)}¢</text></g>`);
+  }
+  return `<figure class="series-fig" style="margin:2.2rem 0;max-width:none"><svg class="series" viewBox="0 0 ${W} ${H + 20}" role="img" aria-label="The harmonic series over C: partials 1 to 16">${[0, 1, 2, 3, 4].map((i) => `<line x1="${left - 20}" x2="${W - 10}" y1="${base - 40 * i - 0.5}" y2="${base - 40 * i - 0.5}" stroke="currentColor" opacity="${i ? 0.12 : 0.6}"/>`).join('')}${parts.join('')}</svg>
+<figcaption class="label" style="border-left-color:var(--accent)"><span class="who">The harmonic series over C</span>Bar height ≈ relative strength (1/<i>n</i>). Gold partials are more than 20 cents away from the nearest equal-tempered note — the 7th, 11th, 13th and 14th are the ones no keyboard can play. Click a partial to hear it against the fundamental.</figcaption></figure>`;
+}
 
 function href(ctx, target) {
   const [page, hash] = target.split('#');
@@ -31,7 +54,7 @@ function href(ctx, target) {
 
 /** Expand [[target|label]] cross-references in authored HTML. */
 function rich(ctx, html = '') {
-  return html.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => {
+  return html.replace(/<p>\s*\{\{harmonic-series\}\}\s*<\/p>|\{\{harmonic-series\}\}/g, () => harmonicSeriesSvg()).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => {
     const url = href(ctx, target.trim());
     const text = label ?? bySlug.get(target.trim())?.family ?? bySlug.get(target.trim())?.name ?? target;
     if (!url) { warnings.push(`${ctx.page}: unresolved link [[${target}]]`); return text; }
@@ -111,7 +134,7 @@ ${ogImage ? `<meta property="og:image" content="${attr(ogImage)}">` : ''}
 <meta name="theme-color" content="#13110e">
 <link rel="icon" href="${ctx.base}assets/favicon.svg" type="image/svg+xml">
 ${fonts}
-<link rel="stylesheet" href="${ctx.base}assets/css/style.css">
+<link rel="stylesheet" href="${ctx.base}assets/css/style.css?v=${V.css}">
 </head>
 <body class="${dark ? 'is-over-dark' : ''}"${style}>
 <a class="skip" href="#main">Skip to content</a>
@@ -132,7 +155,7 @@ ${body}
 </div></footer>
 <dialog class="lightbox"><button type="button" aria-label="Close">×</button><img alt=""><p></p></dialog>
 ${needsAbc ? `<script src="${ctx.base}assets/vendor/abcjs-basic-min.js" defer></script>` : ''}
-<script src="${ctx.base}assets/js/site.js" defer></script>
+<script src="${ctx.base}assets/js/site.js?v=${V.js}" defer></script>
 </body>
 </html>
 `;
@@ -246,7 +269,7 @@ function indexPage() {
 
 function composersIndex() {
   const ctx = { base: '../', page: 'composers/index' };
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composers in seven chapters, ordered by year of birth. Those marked ✦ have extended portraits.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth. Those marked ✦ have extended portraits.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
 <div class="wrap section">${eras.map((e) => `<section class="era-group" style="--accent:${e.accent}"><header><span class="n">${e.numeral}</span><h3><a href="../eras/${e.slug}.html">${esc(e.name)}</a></h3><span class="sc">${esc(e.span)}</span></header><div class="composer-grid">${composers.filter((c) => c.era === e.slug).map((c) => card(ctx, c)).join('')}</div></section>`).join('')}</div>`;
   return layout(ctx, { title: 'Composers — Contrapunctus', body, nav: 'composers' });
 }
@@ -310,7 +333,7 @@ function galleryPage() {
   const ctx = { base: '', page: 'gallery' };
   const items = allArt().map(({ a, ownerHtml }) => painting(ctx, a, { sizes: '(max-width: 700px) 100vw, 33vw', extra: '' }).replace('</figcaption>', `<span class="for">Hung beside ${ownerHtml}</span></figcaption>`)).join('');
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The salon</span><h1>Sister Arts</h1><p class="lede">${rich(ctx, site.galleryLede ?? '')}</p></div><span class="bg-glyph" aria-hidden="true">𝄋</span></header>
-<div class="section"><div class="wrap salon">${items}</div></div>`;
+<div class="section wall"><div class="wrap salon">${items}</div></div>`;
   return layout(ctx, { title: 'Sister Arts — Contrapunctus', body, nav: 'gallery' });
 }
 

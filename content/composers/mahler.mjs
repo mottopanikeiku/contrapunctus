@@ -97,15 +97,15 @@ K:C
       abc: `X:3
 T:Ewig
 M:4/4
-L:1/2
+L:1/4
 Q:1/4=40
 K:C
 V:1 name="Alto"
 V:2 name="Orch." clef=bass
 V:1
 %%MIDI program 52
-E2 D2 | z4 | E2 D2 | z4 | E4- | E4 |]
-w: e-wig, e-wig, e-
+E2 D2 | z4 | E2 D2 | z4 | E2 D2- | D4 |]
+w: e-wig, e-wig, e-wig
 V:2
 %%MIDI program 46
 [C,E,G,A,]4 | [C,E,G,A,]4 | [C,E,G,A,]4 | [C,E,G,A,]4 | [C,E,G,A,]4 | [C,E,G,A,]4 |]`,
