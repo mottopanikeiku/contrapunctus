@@ -846,6 +846,17 @@
   "license": "Public domain",
   "credit": "What We Hear in Music , Anne S. Faulkner, Victor Talking Machine Co. , 1913."
  },
+ "File:Jean-Philippe Rameau by Jacques Aved.jpg": {
+  "id": "jean-philippe-rameau-by-jacques-aved",
+  "src": "assets/img/art/jean-philippe-rameau-by-jacques-aved.webp",
+  "w": 1280,
+  "h": 1680,
+  "page": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_by_Jacques_Aved.jpg",
+  "artist": "Attributed to Joseph Aved / Formerly attributed to Jean-Baptiste-Siméon Chardin",
+  "date": "circa 1728 date QS:P571,+1728-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "CC BY-SA 4.0",
+  "credit": "Yelkrokoyade"
+ },
  "File:Johann Sebastian Bach 1746.jpg": {
   "id": "johann-sebastian-bach-1746",
   "src": "assets/img/art/johann-sebastian-bach-1746.webp",
@@ -1033,6 +1044,17 @@
   "license": "Public domain",
   "credit": "The Yorck Project (2002) 10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH. ISBN : 3936122202 ."
  },
+ "File:Leoš Janáček.jpg": {
+  "id": "leos-janacek",
+  "src": "assets/img/art/leos-janacek.webp",
+  "w": 625,
+  "h": 816,
+  "page": "https://commons.wikimedia.org/wiki/File:Leo%C5%A1_Jan%C3%A1%C4%8Dek.jpg",
+  "artist": "Anonymous Unknown author",
+  "date": "1899",
+  "license": "Public domain",
+  "credit": "https://ndk.cz/view/uuid:9d452470-905f-11dd-9c34-000d606f5dc6?page=uuid:a8426d20-cbba-11e6-b22f-5ef3fc9ae867"
+ },
  "File:Lili Boulanger, 1er Grand Prix de Rome de musique - btv1b9022337j.jpg": {
   "id": "lili-boulanger-1er-grand-prix-de-rome-de-musique-btv1b9022337j",
   "src": "assets/img/art/lili-boulanger-1er-grand-prix-de-rome-de-musique-btv1b9022337j.webp",
@@ -1054,6 +1076,17 @@
   "date": "1913 date QS:P571,+1913-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Bibliothèque nationale de France"
+ },
+ "File:Liska Bystrouska 9.png": {
+  "id": "liska-bystrouska-9",
+  "src": "assets/img/art/liska-bystrouska-9.webp",
+  "w": 1280,
+  "h": 670,
+  "page": "https://commons.wikimedia.org/wiki/File:Liska_Bystrouska_9.png",
+  "artist": "Stanislav Lolek",
+  "date": "1920",
+  "license": "Public domain",
+  "credit": "Fotokopie vlastního vydání"
  },
  "File:Louis Carrogis dit Carmontelle - Portrait de Wolfgang Amadeus Mozart (Salzbourg, 1756-Vienne, 1791) jouant à Paris avec son père Jean... - Google Art Project.jpg": {
   "id": "louis-carrogis-dit-carmontelle-portrait-de-wolfgang-amadeus-mozart-salzbourg-175",
@@ -1109,6 +1142,17 @@
   "date": "1782-1783",
   "license": "Public domain",
   "credit": "[1]"
+ },
+ "File:Mucha-Moravian Teachers' Choir-1911.jpg": {
+  "id": "mucha-moravian-teachers-choir-1911",
+  "src": "assets/img/art/mucha-moravian-teachers-choir-1911.webp",
+  "w": 1205,
+  "h": 1658,
+  "page": "https://commons.wikimedia.org/wiki/File:Mucha-Moravian_Teachers%27_Choir-1911.jpg",
+  "artist": "Alphonse Mucha",
+  "date": "1911 date QS:P571,+1911-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Art Renewal Center Museum , image 4444"
  },
  "File:Olivier Messiaen (1986).jpg": {
   "id": "olivier-messiaen-1986",
@@ -1560,6 +1604,17 @@
   "date": "1723 date QS:P571,+1723-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://www.deutschefotothek.de/documents/obj/33063445"
+ },
+ "File:Title page of Rameau’s New System of Musical Theory.jpg": {
+  "id": "title-page-of-rameau-s-new-system-of-musical-theory",
+  "src": "assets/img/art/title-page-of-rameau-s-new-system-of-musical-theory.webp",
+  "w": 1131,
+  "h": 1498,
+  "page": "https://commons.wikimedia.org/wiki/File:Title_page_of_Rameau%E2%80%99s_New_System_of_Musical_Theory.jpg",
+  "artist": "Jean-Philippe Rameau",
+  "date": "1726-01-01",
+  "license": "CC0",
+  "credit": "https://www.loc.gov/resource/muspre1800.101949/?sp=2&st=gallery"
  },
  "File:Tsarevna-Lebed by Mikhail Vrubel.jpg": {
   "id": "tsarevna-lebed-by-mikhail-vrubel",
