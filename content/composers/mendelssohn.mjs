@@ -4,7 +4,7 @@ export default {
   died: { year: 1847, date: '4 November 1847', place: 'Leipzig' },
   era: 'romantic', featured: false,
   epithet: 'A composer-conductor who turned quicksilver string writing, Bachian counterpoint and remembered landscapes into tightly organised concert music.',
-  portrait: { file: 'File:Felix Mendelssohn Bartholdy by Eduard Magnus (1833).jpg', caption: 'Portrait by Eduard Magnus, mid-1840s; the date in the image filename is misleading.', focus: '50% 25%' },
+  portrait: { file: 'File:Felix Mendelssohn Bartholdy by Eduard Magnus (1833).jpg', caption: 'Felix Mendelssohn, portrait by Eduard Magnus, mid-1840s.', focus: '50% 25%' },
   facts: [
     ['Trained', 'Piano with Ludwig Berger; composition with Carl Friedrich Zelter in Berlin'],
     ['Posts', 'Music director, Düsseldorf, 1833–35; Gewandhaus conductor, Leipzig, from 1835; founder of Leipzig Conservatoire, 1843'],
@@ -69,7 +69,7 @@ No more yielding but a dream,`, note: `<p>Puck’s epilogue supplies a theatrica
     { work: 'Symphonies Nos. 3 and 4', performers: 'London Symphony Orchestra, Claudio Abbado', label: 'Deutsche Grammophon', note: 'Useful for following the lower-string articulation beneath the first violin lines and the relation of tempo across movements.' },
     { work: 'Violin Concerto in E minor', performers: 'Nathan Milstein, Philharmonia Orchestra, Léon Barzin', label: 'EMI', note: 'The solo line remains rhythmically explicit inside the connected form; the cadenza is not treated as a detached recital.' },
     { work: 'Songs without Words', performers: 'Daniel Barenboim', label: 'Deutsche Grammophon', note: 'A complete survey of the familiar collections; compare pieces with a clearly separate soprano line to those with intertwined voices.' },
-    { work: 'Octet', performers: 'Emerson String Quartet with additional players', label: 'Deutsche Grammophon', note: 'The eight-part texture permits a close hearing of the finale’s accumulating entries and the returning scherzo material.' },
+    { work: 'Octet', performers: 'Emerson String Quartet, recording all eight parts by overdubbing', year: '2005', label: 'Deutsche Grammophon', note: 'The four musicians recorded two layers rather than adding a second quartet. Compare the resulting articulation across all eight parts and the finale’s returning scherzo material.' },
   ],
   lineage: { from: ['bach', 'handel', 'mozart', 'beethoven', 'fanny-hensel'], to: ['schumann', 'brahms', 'Arthur Sullivan'], note: `<p>Mendelssohn’s historical repertory and contemporary composing were interdependent. His Leipzig institutions helped sustain [[schumann|Schumann]]’s music, while the concert overture, piano song and fast scherzo became usable models for later composers. [[fanny-hensel|Fanny]] was an active musical interlocutor throughout, not merely the dedicatee of a family tradition.</p>` },
   reading: [

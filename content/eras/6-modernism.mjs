@@ -61,7 +61,7 @@ K:C
 V:1 name="Piano"
 V:1
 %%MIDI program 0
-"Prime"C ^F D | _A E _B | ^C G _E | A F B | "Inversion"C F _B | E _A D | B ^F A | _E G _D |]`,
+"Prime"C ^F D | _A E _B | ^C G _E | A F B | "Inversion"C ^F _B | E _A D | B F A | _E G _D |]`,
       caption: 'An invented row, not music by Schoenberg or Webern. Bars 1–4 contain each pitch class once. Bars 5–8 invert the pitch-class intervals around C: the opening upward tritone remains a tritone, while the move from C to D becomes C to B♭. Octave placement has been adjusted for readability; the operation concerns pitch classes, not a literal mirror of the written register.',
     },
     {

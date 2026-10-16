@@ -41,11 +41,11 @@ export default {
   works: [
     { year: '1827', title: 'Variations on “Là ci darem la mano”', cat: 'Op. 2', forces: 'Piano and orchestra', note: 'Mozart’s duet becomes a sequence of contrasting piano textures; the work prompted Schumann’s early public advocacy.' },
     { year: '1829–30', title: 'Piano Concerto No. 2 in F minor', cat: 'Op. 21', forces: 'Piano and orchestra', note: 'Composed before No. 1. Its Larghetto makes operatic ornament the centre of the solo part.' },
-    { year: '1830', title: 'Piano Concerto No. 1 in E minor', cat: 'Op. 11', forces: 'Piano and orchestra', note: 'A broad first movement, an E major Romance and a finale whose syncopations draw on the krakowiak.' },
     { year: '1829–32', title: 'Twelve Études', cat: 'Op. 10', forces: 'Piano', note: 'Each technical problem produces a distinctive texture; No. 2 combines a right-hand chromatic scale with accompanying notes in the same hand.' },
+    { year: '1830', title: 'Piano Concerto No. 1 in E minor', cat: 'Op. 11', forces: 'Piano and orchestra', note: 'A broad first movement, an E major Romance and a finale whose syncopations draw on the krakowiak.' },
     { year: '1831–35', title: 'Ballade No. 1 in G minor', cat: 'Op. 23', forces: 'Piano', note: 'A large single movement whose transformed thematic returns prepare a fast coda rather than a conventional rondo refrain.' },
     { year: '1832–37', title: 'Twelve Études', cat: 'Op. 25', forces: 'Piano', note: 'Includes studies in thirds, sixths, octaves and contrary motion; the technical task always has a harmonic and melodic function.' },
-    { year: '1836', title: 'Two Nocturnes', cat: 'Op. 27', forces: 'Piano', note: 'C♯ minor and D♭ major share a tonic pitch under different spellings; the second sustains a decorated duet above its rocking accompaniment.' },
+    { year: '1835', title: 'Two Nocturnes', cat: 'Op. 27', forces: 'Piano', note: 'C♯ minor and D♭ major share a tonic pitch under different spellings; the second sustains a decorated duet above its rocking accompaniment. Published in 1836.' },
     { year: '1836–39', title: 'Twenty-four Preludes', cat: 'Op. 28', forces: 'Piano', note: 'Major and relative-minor pairs move around the circle of fifths, allowing extreme contrasts of scale, register and duration.' },
     { year: '1837–39', title: 'Piano Sonata No. 2 in B♭ minor', cat: 'Op. 35', forces: 'Piano', note: 'The funeral march predates the complete sonata; the finale’s unison writing removes the usual distinction between melody and harmony.' },
     { year: '1842', title: 'Ballade No. 4 in F minor', cat: 'Op. 52', forces: 'Piano', note: 'Variation and counterpoint gradually intensify the main theme; quiet chords make a break before the coda.' },
