@@ -1,0 +1,13 @@
+{
+  "name": "contrapunctus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An illustrated atlas of classical composers, Bach to the present.",
+  "scripts": {
+    "art": "node tools/art.mjs fetch",
+    "build": "node src/build.mjs",
+    "validate": "node tools/validate.mjs content/composers/*.mjs content/eras/*.mjs content/pages/*.mjs",
+    "serve": "python3 -m http.server 8080 -d docs"
+  }
+}
