@@ -437,6 +437,7 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .lab .readout { font-size: .98rem; color: var(--ink-2); font-feature-settings: 'lnum', 'tnum'; }
 .series { width: 100%; height: auto; display: block; color: var(--ink); }
 .series .h { cursor: pointer; }
+.series .off { fill: var(--gold); }
 .series .h:hover rect, .series .h.on rect { fill: var(--rubric); }
 
 /* ---------- Timeline ---------- */
