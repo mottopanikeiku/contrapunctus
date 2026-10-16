@@ -34,9 +34,9 @@ export async function mount(main, app) {
   function draw() {
     if (!W) return;
     ctx.clearRect(0, 0, W, H);
-    const left = 70, right = 12, gap = 26, laneH = (H - gap - 40) / 2;
+    const left = 10, right = 12, gap = 46, laneH = (H - gap - 58) / 2;
     const X = (x) => left + (x / P) * (W - left - right);
-    const lanes = [{ key: 'a', side: d.A, y0: 22 }, { key: 'b', side: d.B, y0: 22 + laneH + gap }];
+    const lanes = [{ key: 'a', side: d.A, y0: 40 }, { key: 'b', side: d.B, y0: 40 + laneH + gap }];
     // change highlights
     ctx.fillStyle = css('--accent-soft');
     for (const ch of d.changes) {
@@ -48,7 +48,7 @@ export async function mount(main, app) {
     ctx.font = `600 13px ${css('--ui')}`; ctx.textBaseline = 'middle';
     for (const lane of lanes) {
       const Y = (m) => lane.y0 + laneH - ((m - lo) / (hi - lo)) * laneH;
-      ctx.fillStyle = css('--ink-2'); ctx.fillText(lane.side.label, 4, lane.y0 + laneH / 2, left - 10);
+      ctx.fillStyle = css('--ink'); ctx.font = `600 13px ${css('--ui')}`; ctx.fillText(lane.side.label, left, lane.y0 - 27);
       // bar lines and numbers
       ctx.font = `500 11px ${css('--ui')}`;
       d.pairs.forEach((p, i) => {
@@ -78,16 +78,21 @@ export async function mount(main, app) {
   {
     const w = 640, h = 180, l = 34, r = 8, t = 10, b = 22;
     const ds = d.pairs.flatMap((p) => [p.a?.d, p.b?.d]).filter(Boolean);
-    const max = Math.max(...ds) * 1.08, min = Math.min(...ds) * 0.92;
+    const sorted = [...ds].sort((x, y) => x - y);
+    const p95 = sorted[Math.floor(sorted.length * 0.95)] ?? sorted.at(-1);
+    const cap = Math.min(sorted.at(-1), p95 * 1.6);
+    const max = cap * 1.08, min = sorted[0] * 0.92;
+    const outliers = [];
+    d.pairs.forEach((p, i) => ['a', 'b'].forEach((k) => { if (p[k]?.d > cap) outliers.push({ i, k, n: p[k].n, v: p[k].d }); }));
     const X = (i) => l + ((i + 0.5) / P) * (w - l - r);
     const Y = (v) => t + (1 - (v - min) / (max - min)) * (h - t - b);
     const line = (k, col) => {
       let dpath = '', pen = false;
-      d.pairs.forEach((p, i) => { const v = p[k]?.d; if (v == null) { pen = false; return; } dpath += `${pen ? 'L' : 'M'}${X(i).toFixed(1)},${Y(v).toFixed(1)}`; pen = true; });
+      d.pairs.forEach((p, i) => { const v = p[k]?.d; if (v == null) { pen = false; return; } dpath += `${pen ? 'L' : 'M'}${X(i).toFixed(1)},${Y(Math.min(v, max)).toFixed(1)}`; pen = true; });
       return `<path d="${dpath}" fill="none" stroke="${col}" stroke-width="2"/>`;
     };
     const ticks = [min, (min + max) / 2, max].map((v) => `<text x="${l - 4}" y="${Y(v) + 4}" text-anchor="end" font-size="11" fill="${css('--muted')}" font-family="${css('--ui')}">${v.toFixed(1)}s</text>`).join('');
-    host.innerHTML = `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto;display:block" role="img" aria-label="Seconds per corresponding bar, first time and return">${ticks}${line('a', css('--ink'))}${line('b', css('--accent'))}<text x="${l}" y="${h - 4}" font-size="11" fill="${css('--muted')}" font-family="${css('--ui')}">bars in order →</text></svg>`;
+    host.innerHTML = `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto;display:block" role="img" aria-label="Seconds per corresponding bar, first time and return">${ticks}${line('a', css('--ink'))}${line('b', css('--accent'))}${outliers.map((o) => `<text x="${Math.min(w - 120, X(o.i) + 4)}" y="${t + 10}" font-size="11" fill="${css('--ink-2')}" font-family="${css('--ui')}">↑ bar ${o.n}: ${o.v.toFixed(1)} s (off the scale)</text>`).join('')}<text x="${l}" y="${h - 4}" font-size="11" fill="${css('--muted')}" font-family="${css('--ui')}">bars in order →</text></svg>`;
   }
 
   // playback of spans

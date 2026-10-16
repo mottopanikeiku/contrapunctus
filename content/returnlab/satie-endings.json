@@ -1,0 +1,62 @@
+{
+  "id": "satie-endings",
+  "track": "satie-gymnopedie-1",
+  "title": "Satie: one melody, two endings",
+  "question": "What changes when the melody reaches its second ending?",
+  "kind": "varied return",
+  "status": "provisional",
+  "intro": "Satie repeats the same 31 bars, then changes the last eight. Both endings take the same number of bars, but the final D-major chord becomes D minor. The numbers follow Mutopia’s compact repeat notation: the second ending is 40–47, not 71–78. Timing is aligned automatically, not checked by ear.",
+  "first": {
+    "label": "First statement · first ending",
+    "from": { "n": "1", "occ": 1 },
+    "to": { "n": "39", "occ": 1 }
+  },
+  "second": {
+    "label": "Return · second ending",
+    "from": { "n": "1", "occ": 2 },
+    "to": { "n": "47", "occ": 1 }
+  },
+  "scoreChanges": [
+    {
+      "a": ["33", 1],
+      "b": ["41", 1],
+      "text": "Both endings begin with the same G over bass E in bars 32 and 40. The next bar changes: the melody’s F♯ becomes F♮, while bass F♯ becomes E. The accompaniment changes from A–C♯–F♯ to A–D–F–A, with the two As an octave apart."
+    },
+    {
+      "a": ["34", 1],
+      "b": ["42", 1],
+      "text": "The melody’s B–A–B becomes the rising B–C–F. Under it, B–D–F♯ over bass B becomes A–C–F over bass E. The return therefore changes the bass and chord as well as the tune."
+    },
+    {
+      "a": ["35", 1],
+      "b": ["43", 1],
+      "text": "Bars 35–36 repeat the rising C♯–D–E; bars 43–44 repeat the falling E–D–C. Their accompaniment replaces C♯ with C♮ and, in the second bar, F♯ with F♮. The low E stays the same."
+    },
+    {
+      "a": ["36", 1],
+      "b": ["44", 1],
+      "text": "The written diminuendo — the instruction to get quieter — starts on D, the second beat of bar 36, but on C, the third beat of bar 44. It ends at the penultimate chord in bar 38 the first time, and at the final chord in bar 47 the second time."
+    },
+    {
+      "a": ["37", 1],
+      "b": ["45", 1],
+      "text": "The melody drops to a long F♯ in bar 37 but F♮ in bar 45, in the same register and with the same written length. The bass E, the inner B–E movement and the accompanying A–D then B–D–G chords are unchanged."
+    },
+    {
+      "a": ["39", 1],
+      "b": ["47", 1],
+      "text": "The penultimate A–C–E–G chord is identical in bars 38 and 46. The final chord replaces F♯ with F♮: D–F♯–A becomes D–F–A, changing D major to D minor. The surrounding Ds and As keep their pitches and registers; both final chords last a full three-beat bar."
+    }
+  ],
+  "listenFor": "Follow the changed melody and bass in the last eight bars, then compare the final F♯ and F♮ without confusing a written pitch change with a measured timing difference.",
+  "sources": [
+    {
+      "title": "Mutopia 37: Satie, Gymnopédie No. 1 — Dover reproduction of the original, encoded by Evin Robertson",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37"
+    },
+    {
+      "title": "LilyPond source: identical repeated bars 1–31; alternative endings 32–39 and 40–47 in the top, middle and bottom definitions",
+      "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.ly"
+    }
+  ]
+}

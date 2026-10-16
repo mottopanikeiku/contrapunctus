@@ -110,3 +110,26 @@ Display wording:
 | not applicable | "Not applicable — this field does not apply to this recording." |
 
 Never turn an upload date into a session date. Use `not applicable` only when a field truly cannot apply (a born-digital session has no matrix number). Never use it for something nobody looked up.
+
+## Transitions: `content/listen/<id>.mjs` → `transitions[]`
+
+What the composer does at the joins between sections: how one section is left and the next arrived at. Shown as "How it's joined" on the Listen page, marked on the map and in the score views.
+
+```js
+{
+  id: 'into-development',                 // unique within the file
+  title: 'Two notes become a cliff edge', // ≤ 8 words
+  from: 'Exposition',                     // section names as listed in `sections` (label prefix is enough)
+  to: 'Development',
+  at: { bar: { n: '125', occ: 1 } } | { t: 101.5 },   // the join point: bar-anchored for score-aligned pieces
+  span: [95, 112],                        // OPTIONAL seconds: the stretch to play ("Hear the join"); default at−8 … at+8
+  how: '<p>…</p>',                        // ≤ 110 words: the technical means, in plain English with exact terms
+  devices: ['retransition', 'dominant pedal'],   // from the controlled vocabulary below
+  basis, precision, evidence,             // as for cues
+}
+```
+
+`how` says what the composer did, concretely: the harmony at the join (pivot chord, the route between keys, the cadence type), the bass, the texture and orchestration, the rhythm and tempo, and the motivic link that carries over. Name keys, chords and instruments. For pieces without a score alignment, describe the written join from the score structure. Keep `precision: 'passage'`, and phrase it so it stays true ±10 s.
+
+Controlled `devices` vocabulary:
+perfect cadence, half cadence, deceptive cadence, plagal cadence, elision, pivot chord, common-tone modulation, direct modulation, enharmonic reinterpretation, chromatic slide, sequence, dominant pedal, tonic pedal, retransition, standing on the dominant, liquidation, motivic link, fermata, general pause, medial caesura, crescendo build, decrescendo, texture change, orchestration change, register change, tempo change, metre change, link passage, cadenza, attacca, fade.

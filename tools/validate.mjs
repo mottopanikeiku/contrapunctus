@@ -118,6 +118,23 @@ for (const f of files) {
         const words = (c.text ?? '').split(/\s+/).length;
         if (words > 58) err(f, `cue at ${c.t} has ${words} words (max 55)`);
       }
+      const DEVICES = new Set(['perfect cadence', 'half cadence', 'deceptive cadence', 'plagal cadence', 'elision', 'pivot chord', 'common-tone modulation', 'direct modulation', 'enharmonic reinterpretation', 'chromatic slide', 'sequence', 'dominant pedal', 'tonic pedal', 'retransition', 'standing on the dominant', 'liquidation', 'motivic link', 'fermata', 'general pause', 'medial caesura', 'crescendo build', 'decrescendo', 'texture change', 'orchestration change', 'register change', 'tempo change', 'metre change', 'link passage', 'cadenza', 'attacca', 'fade']);
+      const tids = new Set();
+      for (const tr of mod.transitions ?? []) {
+        const name = tr.title ?? tr.id;
+        if (!tr.id || tids.has(tr.id)) err(f, `transition ${name}: missing or duplicate id`); tids.add(tr.id);
+        if (!tr.title || tr.title.split(/\s+/).length > 8) err(f, `transition ${name}: title missing or > 8 words`);
+        if (!tr.from || !tr.to) err(f, `transition ${name}: needs from/to`);
+        if (!tr.at || (tr.at.t == null && !tr.at.bar)) err(f, `transition ${name}: needs at { t } or at { bar }`);
+        if (tr.at?.t != null && (tr.at.t < 0 || tr.at.t > dur)) err(f, `transition ${name}: at.t outside recording`);
+        if (tr.at?.bar && tr.basis !== 'score-aligned') err(f, `transition ${name}: bar anchors require basis score-aligned`);
+        const words = (tr.how ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+        if (!words || words > 115) err(f, `transition ${name}: how must be 1–110 words (has ${words})`);
+        for (const dv of tr.devices ?? []) if (!DEVICES.has(dv)) err(f, `transition ${name}: unknown device "${dv}"`);
+        if (!(tr.devices ?? []).length) err(f, `transition ${name}: needs at least one device`);
+        if (!BASES.has(tr.basis) || !['moment', 'passage'].includes(tr.precision) || !tr.evidence) err(f, `transition ${name}: needs basis, precision, evidence`);
+        if (tr.precision === 'moment' && !['score-aligned', 'audio-feature'].includes(tr.basis)) err(f, `transition ${name}: moment precision needs score-aligned or audio-feature basis`);
+      }
       const gaps = cues.slice(1).map((c, i) => c.t - cues[i].t);
       const maxGap = Math.max(0, ...gaps, dur - (cues.at(-1)?.t ?? 0));
       if (maxGap > 75) warn(f, `longest stretch without a cue: ${Math.round(maxGap)} s`);
