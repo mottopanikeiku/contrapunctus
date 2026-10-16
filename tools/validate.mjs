@@ -45,6 +45,42 @@ for (const f of files) {
     }
   }
 
+  if (f.includes('/listen/')) {
+    const { audioInfo } = await import('./commons.mjs');
+    for (const k of ['id', 'composer', 'work', 'year', 'forces', 'performers', 'source', 'intro', 'sections', 'cues']) if (mod[k] == null) err(f, `missing field ${k}`);
+    if (mod.id && path.basename(f, '.mjs') !== mod.id) err(f, `file name must be ${mod.id}.mjs`);
+    if (mod.composer && !slugs.has(mod.composer)) err(f, `unknown composer ${mod.composer}`);
+    const info = mod.source?.file ? await audioInfo(mod.source.file) : null;
+    if (!info) err(f, `recording not found on Commons: ${mod.source?.file}`);
+    else {
+      if (!info.stream) err(f, 'recording has no MP3 stream');
+      if (!/public domain|^pd|cc0|cc[- ]by/i.test(info.license)) err(f, `licence not allowed: ${info.license}`);
+      if (info.duration < 90) err(f, `recording too short (${info.duration}s)`);
+      const dur = info.duration;
+      const check = (list, name) => list.forEach((c, i) => {
+        if (typeof c.t !== 'number' || c.t < 0 || c.t > dur) err(f, `${name}[${i}] time ${c.t} outside 0–${Math.round(dur)}`);
+        if (i && c.t <= list[i - 1].t) err(f, `${name}[${i}] not after previous`);
+      });
+      check(mod.sections ?? [], 'sections');
+      check(mod.cues ?? [], 'cues');
+      const cues = mod.cues ?? [];
+      if (cues[0]?.t !== 0) err(f, 'first cue must be at t: 0');
+      const kinds = new Set(['music', 'form', 'listen', 'life', 'world']);
+      for (const c of cues) {
+        if (!kinds.has(c.kind)) err(f, `bad cue kind ${c.kind}`);
+        if (!c.title || !c.text) err(f, `cue at ${c.t} needs title and text`);
+        const words = (c.text ?? '').split(/\s+/).length;
+        if (words > 58) err(f, `cue at ${c.t} has ${words} words (max 55)`);
+        if (['music', 'form', 'listen'].includes(c.kind) && c.t > 0 && !c.evidence && /\b(enter|enters|arrives|returns|begins|climax|now|here)\b/i.test(c.text)) warn(f, `cue at ${c.t} describes a timed event without evidence`);
+      }
+      const gaps = cues.slice(1).map((c, i) => c.t - cues[i].t);
+      const maxGap = Math.max(0, ...gaps, dur - (cues.at(-1)?.t ?? 0));
+      if (maxGap > 75) warn(f, `longest stretch without a cue: ${Math.round(maxGap)} s`);
+      const lw = cues.filter((c) => c.kind === 'life' || c.kind === 'world').length;
+      if (lw < 3) warn(f, `only ${lw} life/world cues`);
+    }
+  }
+
   for (const m of text.matchAll(/\[\[([^\]|\"\[]+)(?:\|[^\]]+)?\]\]/g)) {
     const [page] = m[1].trim().split('#');
     const ok = slugs.has(page) || pages.has(page) || (page.startsWith('era:') && eras.has(page.slice(4)));
