@@ -1,0 +1,17 @@
+export default {
+  id: 'schubert-impromptu-gflat',
+  composer: 'schubert',
+  order: 1,
+  work: 'Impromptu in G♭ major, D. 899 No. 3',
+  movement: 'Andante',
+  year: '1827',
+  key: 'G♭ major',
+  forces: 'Piano',
+  performers: 'Chiara Bertoglio',
+  recorded: '',
+  license: 'CC BY 3.0',
+  source: { file: 'File:Schubert\'s Impromptu no. 3 in G-flat major, D.899 - Chiara Bertoglio.ogg' },
+  intro: 'The right hand has two jobs: carrying the melody and keeping the broken chords in motion underneath it. Schubert makes a single pianist sustain a singer, an accompaniment and a bass line at three different levels of weight.',
+  sections: [],
+  cues: [],
+};

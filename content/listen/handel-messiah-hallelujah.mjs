@@ -1,0 +1,17 @@
+export default {
+  id: 'handel-messiah-hallelujah',
+  composer: 'handel',
+  order: 1,
+  work: 'Messiah, HWV 56',
+  movement: 'Hallelujah',
+  year: '1741',
+  key: 'D major',
+  forces: 'Chorus and orchestra with trumpets and timpani',
+  performers: 'London Symphony Orchestra; London Philharmonic Choir; Hermann Scherchen, conductor; Frederick Jackson, chorus master',
+  recorded: '1953',
+  license: 'Public domain',
+  source: { file: 'File:Handel - Messiah, Part 2 (Scherchen) - 45. Hallelujah.ogg' },
+  intro: 'The chorus that closes Part II alternates three kinds of speech: a tune sung together, a line passed between voices, and long notes held above moving counterpoint. Its force comes from those changes of texture, not from singing everything loudly.',
+  sections: [],
+  cues: [],
+};

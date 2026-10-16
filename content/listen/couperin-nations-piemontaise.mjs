@@ -1,0 +1,50 @@
+// Life and context: https://www.operaroyal-versailles.fr/genre-event/couperin/
+// Sonade and preface: https://earlymusicreview.com/francois-couperin-les-nations-1726/
+// Movement order: https://imslp.org/wiki/Les_nations_(Couperin,_Fran%C3%A7ois)
+// [INFERENCE] Approximate A = 415: the G-minor score consistently analyses a
+// semitone lower; spectral sampling also confirms the low historical pitch.
+export default {
+  id: 'couperin-nations-piemontaise',
+  composer: 'couperin',
+  order: 1,
+  work: 'Les Nations',
+  movement: 'La Piémontaise · Sonade',
+  year: '1726, publication',
+  key: 'G minor',
+  forces: 'Two treble instruments and continuo; here violin, flute, viola da gamba and keyboard',
+  performers: 'New Comma Baroque: Matthew C. Cataldi, Baroque violin; Leighann Daihl, Baroque flute; Phillip W. Serna, viola da gamba; Emily J. Morlan, historical keyboards',
+  recorded: '10 September 2012',
+  license: 'CC BY-SA 3.0',
+  tuning: 415,
+  source: { file: "File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg" },
+  intro: 'Couperin puts an Italian-style trio sonata before the French dances of La Piémontaise. Two treble lines exchange phrases above a bass shared by viol and keyboard; the four players make three written parts.',
+  sections: [
+    { t: 0, label: 'Gravement · opening dialogue' },
+    { t: 90, label: 'Vivement' },
+    { t: 134, label: 'Gravement' },
+    { t: 202, label: 'Vivement et marqué' },
+    { t: 274, label: 'Airs · gracieusement' },
+    { t: 514, label: 'Gravement et marqué' },
+    { t: 545, label: 'Légèrement · conclusion' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'Three parts, four players', text: 'Violin and flute carry the two upper lines; viol and keyboard share the bass. In this slow opening, listen for notes held across a change of harmony: one part waits to resolve while the others have already moved.', evidence: 'Opening sound at 0:00; low onset density, 1.4–2.4/s through 1:05, matches the opening Gravement. Performing forces documented on the Commons page; no individual entrance time asserted.' },
+    { t: 38, kind: 'listen', title: 'A lower concert pitch', text: 'The period instruments play at approximately A = 415 Hz, about a semitone below modern concert pitch. The score’s G minor consequently sounds lower than the same notes on a modern piano; the relationships between the parts remain unchanged.', evidence: 'Written G minor corresponds to the report’s F♯-minor region at 0:35–0:40 and throughout 1:10–2:05. The approximate pitch standard is inferred from this consistent shift, not documented on the file page.' },
+    { t: 73, kind: 'life', title: 'An inherited organ loft', text: 'Couperin’s father Charles was organist of Saint-Gervais in Paris. When Charles died in 1679, the post was reserved for the ten-year-old François; Lalande held it until the boy could take over.' },
+    { t: 95, kind: 'music', title: 'The lines move faster', text: 'The sustained opening gives way to quicker exchanges. Follow the little figures between violin and flute rather than treating one as melody and the other as accompaniment: their positions in the argument keep changing.', evidence: 'Onsets rise from 2.0/s at 1:25 to 3.2 at 1:30 and 4.2 at 1:35, continuing at 3.2–4.6/s until 2:00; this fits the first Vivement.' },
+    { t: 134, kind: 'form', title: 'The slow paragraph returns', text: 'The quick passage closes and the notes lengthen again. Couperin’s sonade is built from these changes of pace, not from a single dance rhythm carried through from beginning to end.', evidence: 'Boundaries at 2:08 and 2:14; loudness falls to −34.9 dB at 2:10, then sound resumes with only 1.4–2.4 onsets/s through 2:35. Score order: Vivement then Gravement.' },
+    { t: 170, kind: 'world', title: 'An Italian disguise', text: 'In the preface to Les Nations, Couperin says he first presented one of his sonatas as the work of an Italian whose name was an anagram of his own. Its success encouraged him to write more. The account is Couperin’s own.' },
+    { t: 202, kind: 'form', title: 'Vivement et marqué', text: 'The next quick section asks for marked articulation. The bass supplies a regular foundation while the upper parts exchange shorter figures; crisp beginnings make their imitation easier to follow.', evidence: 'Boundary at 3:18; −30.3 dB at 3:20 rises to −17.0 at 3:25, with 3.8–4.2 onsets/s at 3:25–3:40. This follows the second Gravement in the documented movement order.' },
+    { t: 240, kind: 'life', title: 'A royal chapel organist', text: 'In 1693 Couperin became one of Louis XIV’s royal chapel organists. His work crossed church and chamber: organ masses, small sacred vocal works, keyboard lessons and music for an intimate instrumental company.' },
+    { t: 274, kind: 'form', title: 'An air, not an aria', text: 'After the pause, the music becomes quieter and less busy. Couperin labels this part an air and asks for gracefulness: the melodic outline now matters more than the quick section’s running exchanges.', evidence: 'Strong boundary at 4:30 (0.94); −41.8 dB at 4:30 followed by −21.2 at 4:35. Onsets fall from around 3.8/s in the previous section to 1.8–2.6/s; score gives Air, gracieusement.' },
+    { t: 310, kind: 'listen', title: 'Ornament and main note', text: 'Throughout these airs, distinguish a line’s principal notes from the ornaments around them. A trill can delay the arrival on a stable note; it is part of the phrase’s timing, not an extra layer applied after the melody.', evidence: 'General listening instruction within the sustained air texture: 2.0–3.0 onsets/s and −18.0 to −21.7 dB at 4:55–5:30. No particular trill onset is claimed.' },
+    { t: 345, kind: 'world', title: 'Four names in print', text: 'Les Nations appeared in 1726 as four ordres: La Françoise, L’Espagnole, L’Impériale and La Piémontaise. Each joins an Italian-style sonata to French dances. The national titles do not turn the pieces into collections of local folk tunes.' },
+    { t: 380, kind: 'music', title: 'Minor colour within the airs', text: 'The airs do not remain in one mode. Listen for the darker third of the minor and for the bass moving underneath the treble lines: a change of harmony can alter the character without requiring a louder sound.', evidence: 'The sounding F♯-major region at 5:35–5:50 changes to F♯ minor at 5:55–6:10, then E major/C♯ minor at 6:15–6:40. At low pitch these correspond approximately to written G minor, F major and D minor. Loudness remains mostly −16 to −25 dB.' },
+    { t: 416, kind: 'life', title: 'Teaching the release', text: 'Couperin published L’Art de toucher le clavecin in 1716. It treats fingering, ornaments and articulation as practical questions. On a plucked keyboard, the instant when a finger leaves a key can matter as much as the attack.' },
+    { t: 450, kind: 'listen', title: 'Major without a crescendo', text: 'The major mode has returned, but the ensemble does not need a large increase in volume to announce it. Listen to the altered third of the chord and to the way a phrase settles over the bass.', evidence: 'Sounding F♯ major at 7:15–7:25, r=0.84–0.96, after F♯ minor at 6:50–7:05; at historical pitch this is written G major after G minor. Loudness stays between −24.8 and −17.8 dB at 7:10–7:25.' },
+    { t: 485, kind: 'world', title: 'Corelli beside Lully', text: 'Couperin also wrote musical apotheoses of Corelli and Lully. These named tributes make his aim explicit: Italian sonata writing and French dance could belong to the same repertory, rather than demand opposing allegiances.' },
+    { t: 518, kind: 'form', title: 'A marked final paragraph', text: 'A cadence separates the airs from the conclusion. The sound gains weight again, with a measured pace before the final quick section. The change comes from articulation and harmonic movement within the same small ensemble.', evidence: 'Cadential dip to −30.1 dB at 8:30, followed by −16.1 at 8:35 and −13.6 at 8:45; onset density stays around 1.4–2.4/s until 9:00, matching the final Gravement et marqué.' },
+    { t: 550, kind: 'form', title: 'The last quick exchange', text: 'The final Légèrement sets the parts moving again. Keep the bass in view beneath the upper lines: its regular progress prevents the shorter figures from obscuring where each phrase is heading.', evidence: 'Onset density rises from 1.4/s at 9:00 to 4.6 at 9:05, then 4.0–4.4 at 9:10–9:20. The score’s final Légèrement follows the marked slow passage.' },
+    { t: 590, kind: 'music', title: 'A cadence, then release', text: 'The quick movement reaches its final cadence and the instruments release together. This ends the sonade; in the complete La Piémontaise, an allemande begins the French dance sequence that follows.', evidence: 'Onsets fall from 4.8/s at 9:45 to 0.8 at 9:55 and zero at 10:00; loudness falls from −14.8 to −29.1 and then −72.8 dB. The following allemande is documented in the score’s movement list.' },
+  ],
+};

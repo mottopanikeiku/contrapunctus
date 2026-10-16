@@ -1,0 +1,17 @@
+export default {
+  id: 'scarlatti-sonata-k119',
+  composer: 'scarlatti',
+  order: 1,
+  work: 'Sonata in D major, K. 119',
+  movement: 'Allegro',
+  year: '1749, Venice manuscript',
+  key: 'D major',
+  forces: 'Keyboard; performed here on piano',
+  performers: 'Marcelle Meyer, piano',
+  recorded: '1954',
+  license: 'Public domain',
+  source: { file: 'File:Domenico Scarlatti - Sonate en ré majeur Kk.119 (Marcelle Meyer, 1954).flac' },
+  intro: 'A keyboard sonata built from repeated attacks, changes of register and chords containing notes that refuse to agree. Its two repeated halves give Scarlatti room to make the same disturbances lead towards different keys.',
+  sections: [],
+  cues: [],
+};

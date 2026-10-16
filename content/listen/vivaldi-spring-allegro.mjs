@@ -1,0 +1,35 @@
+// Life and publication: https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi
+// Sonnet and score correspondences: https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)
+export default {
+  id: 'vivaldi-spring-allegro',
+  composer: 'vivaldi',
+  order: 1,
+  work: 'The Four Seasons · Spring, RV 269',
+  movement: 'I. Allegro',
+  year: '1725, publication',
+  key: 'E major',
+  forces: 'Solo violin, strings and continuo',
+  performers: 'John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor',
+  recorded: '6 February 2000',
+  license: 'CC BY-SA 4.0',
+  source: { file: 'File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga' },
+  intro: 'The opening refrain gives the orchestra something to return to while the solo violin pursues the birds, streams and storm of the accompanying sonnet. Programme and concerto form occupy the same bars.',
+  sections: [
+    { t: 0, label: 'Opening ritornello · E major' },
+    { t: 34, label: 'Birdsong episode' },
+    { t: 68, label: 'Returns and flowing water' },
+    { t: 116, label: 'Storm and minor-key aftermath' },
+    { t: 166, label: 'E major returns' },
+    { t: 194, label: 'Closing ritornello' },
+  ],
+  cues: [
+    { t: 0, kind: 'form', title: 'A refrain to remember', text: 'The strings establish E major with short phrases and their quieter echoes. This is the ritornello: orchestral material that will return between the solo episodes, sometimes shortened or moved into another key.', evidence: 'E-major estimate r=0.86–0.93 throughout 0:00–0:30, with E/G♯/B prominent. Loudness alternates −14.6 at 0:05, −20.1 at 0:10, −13.0 at 0:15 and −21.1 at 0:25, matching the score’s echo contrasts.' },
+    { t: 34, kind: 'music', title: 'The birds answer', text: 'The violin writing breaks into trills, repeated notes and little answering calls. These are the sonnet’s birds greeting spring; the change from a shared orchestral phrase to separate calls also marks the first episode.', evidence: 'Boundary at 0:34 (0.68); brightness rises from 1,794 Hz at 0:30 to 2,635–2,712 at 0:35–0:45. Onsets increase to 5.0/s at 0:40 while loudness remains lower than the opening tutti. Score places birdsong after the opening ritornello.' },
+    { t: 70, kind: 'life', title: 'The Pietà’s violin teacher', text: 'Vivaldi became violin teacher at Venice’s Ospedale della Pietà in 1703. The institution cared for abandoned children and maintained an exceptionally trained ensemble of girls and women; teaching and composing belonged to the same employment.' },
+    { t: 102, kind: 'world', title: 'A poem beside the parts', text: 'The Four Seasons appeared in Amsterdam in 1725, with sonnets linked to the instrumental parts. The poems’ author is uncertain. They describe musical events already specified in the score, rather than supplying a later listener’s invented story.' },
+    { t: 116, kind: 'music', title: 'Thunder breaks the pattern', text: 'The storm episode interrupts the settled major-key exchanges. Repeated-note tremors and rushing violin figures represent thunder and lightning; the harmony moves away from the opening E major towards the minor.', evidence: 'Boundaries at 1:52 and 1:56 (0.55, 0.75); brightness rises from 1,489 Hz at 1:50 to 2,209 at 2:05. The B-major region loses stability around 1:55–2:00, followed by C♯ minor at 2:05–2:40. This matches the score’s storm and minor-key ritornello/aftermath, without assigning an exact lightning entrance.' },
+    { t: 148, kind: 'life', title: 'Priest and theatre musician', text: 'Vivaldi was ordained in 1703, the year of his Pietà appointment. His first surviving opera, Ottone in villa, reached the stage in Vicenza in 1713; he subsequently combined composing with the financial and practical work of an opera impresario.' },
+    { t: 166, kind: 'form', title: 'The refrain comes home', text: 'E major reappears after the minor-key stretch. Listen for the familiar orchestral gesture rather than a new theme: the ritornello makes the return of the home key recognisable even when the surrounding violin figures change.', evidence: 'Boundary at 2:46 (0.88); C♯ minor at 2:35–2:40 changes to E major at 2:45, r=0.92, with a rise from −21.3 to −13.1 dB. E-major pitch classes dominate again through the close.' },
+    { t: 197, kind: 'music', title: 'The orchestra has the ending', text: 'The closing refrain gives the ensemble the last word. Its compact phrases and echo dynamics replace the soloist’s more mobile writing; the final E major chord is allowed to decay before the recording ends.', evidence: 'Boundary at 3:14; onset density falls from 4.4/s at 3:10 to 2.8 at 3:15. Loudness drops from −13.1 dB at 3:15 to −23.6 at 3:20, then −37.5 with no onsets at 3:30; E-major estimate persists.' },
+  ],
+};

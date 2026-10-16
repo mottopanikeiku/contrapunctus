@@ -1,0 +1,16 @@
+export default {
+  id: 'beethoven-109-variations',
+  composer: 'beethoven',
+  order: 2,
+  work: 'Piano Sonata No. 30, Op. 109',
+  movement: 'III. Gesangvoll, mit innigster Empfindung',
+  year: '1820',
+  key: 'E major',
+  forces: 'Piano',
+  performers: 'Artur Schnabel',
+  recorded: '1932',
+  source: { file: 'File:Klaviersonate Nr. 30 E-Dur op. 109 - III. Andante.ogg' },
+  intro: 'A sixteen-bar theme supports six variations, then returns without its accumulated decoration. The central problem is how far Beethoven can change rhythm, texture and register while keeping the theme’s harmonic outline audible.',
+  sections: [],
+  cues: [],
+};

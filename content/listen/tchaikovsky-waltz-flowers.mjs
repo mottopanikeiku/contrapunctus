@@ -1,0 +1,43 @@
+// Work history: https://en.tchaikovsky-research.net/pages/The_Nutcracker
+// Suite history: https://en.tchaikovsky-research.net/pages/The_Nutcracker_(suite)
+// This recording is Lawrence Odom’s band arrangement, not the original string scoring.
+export default {
+  id: 'tchaikovsky-waltz-flowers',
+  composer: 'tchaikovsky',
+  order: 1,
+  work: 'The Nutcracker, Op. 71',
+  movement: 'Act II, No. 13 · Waltz of the Flowers',
+  year: '1891–92',
+  key: 'D major',
+  forces: 'Concert band; arrangement by Lawrence Odom',
+  performers: 'United States Air Force Band, Concert Band',
+  recorded: '1996',
+  license: 'Public domain',
+  source: { file: 'File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3' },
+  intro: 'The ballet’s large ensemble waltz, heard in Lawrence Odom’s concert-band arrangement. Listen for the three-beat accompaniment continuing underneath melodies that stretch across several bars.',
+  sections: [
+    { t: 0, label: 'Introduction' },
+    { t: 26, label: 'Cadenza · suspended dance pulse' },
+    { t: 86, label: 'Principal waltz' },
+    { t: 220, label: 'Contrasting dance melodies' },
+    { t: 302, label: 'Principal waltz returns' },
+    { t: 376, label: 'Coda · changing keys' },
+    { t: 400, label: 'Final drive' },
+  ],
+  cues: [
+    { t: 0, kind: 'listen', title: 'Before the dancers move', text: 'The introduction holds back the regular waltz accompaniment. This recording uses Lawrence Odom’s concert-band arrangement: follow the melody and bass separately rather than expecting the string colours of Tchaikovsky’s orchestral score.', evidence: 'Opening A/C♯/E pitch classes, −27.1 to −20.5 dB at 0:00–0:15; onset density falls to zero at 0:15–0:20, before boundary 0:26.' },
+    { t: 30, kind: 'music', title: 'A cadenza delays the dance', text: 'The opening gives way to an extended cadenza, a passage that loosens the regular pulse. Fast decoration and pauses alternate; the three-beat accompaniment has not yet established its stride.', evidence: 'Boundary 0:26, strength 0.85; −30.2 dB at 0:30, increasing attack density at 0:40–0:55, then −37.9 at 1:05 and −38.6 at 1:20.' },
+    { t: 64, kind: 'world', title: 'Hoffmann through Dumas', text: '<i>The Nutcracker</i> reached Tchaikovsky through Alexandre Dumas’s adaptation of E. T. A. Hoffmann’s story. The ballet’s scenario was prepared by the theatre director Ivan Vsevolozhsky and choreographer Marius Petipa.' },
+    { t: 96, kind: 'music', title: 'Three beats underneath', text: 'The principal waltz establishes D major. Hear the bass mark the beginning of each bar while the accompaniment fills the remaining beats; the melody stretches across those regular units instead of stopping at every bar line.', evidence: 'Boundary 1:26, strength 0.85; D/F♯/A pitch classes at 1:30 and D major estimates r=0.77–0.88 through 1:50, following the introduction’s A-centred region.' },
+    { t: 133, kind: 'listen', title: 'A broader answering phrase', text: 'The dance grows fuller without losing its three-beat foundation. Listen for the longer melodic arc above the accompaniment: the tune and the bass organise time at different scales.', evidence: 'Loudness rises from −27.1 dB at 1:50 to −16.0 at 2:00; 2:10–2:30 remains around −18 to −14 dB, with brightness around 900–1040 Hz.' },
+    { t: 168, kind: 'life', title: 'Work interrupted by travel', text: 'Tchaikovsky began the ballet in 1891, the year he travelled to America for concerts marking the opening of Carnegie Hall. He resumed sustained work after returning to Russia; the orchestration followed in 1892.' },
+    { t: 205, kind: 'music', title: 'Expansion, then a smaller sound', text: 'The phrase swells and then abruptly lightens. The waltz continues through the change; reduced volume makes the next melody feel like a new group of dancers rather than a new piece.', evidence: '−17.1 dB at 3:25 rises to −13.1 at 3:35, then falls to −24.9 at 3:40; D major remains strongly supported at 3:40–4:05.' },
+    { t: 240, kind: 'world', title: 'The suite came first', text: 'Tchaikovsky conducted the concert suite in Saint Petersburg on 19 March 1892, nine months before the ballet’s premiere. He placed the <i>Waltz of the Flowers</i> last in the suite; in the theatre further dances still follow it.' },
+    { t: 275, kind: 'music', title: 'The minor side of D', text: 'The middle of the waltz spends time in B minor, D major’s relative minor. The dance metre stays intact, so the change of colour comes from the melody and harmony rather than a different step.', evidence: 'Boundary 4:10; B/D/F♯ pitch classes and B minor estimates r=0.85–0.95 at 4:15–4:40; D major reappears in estimates at 4:45–4:50.' },
+    { t: 310, kind: 'form', title: 'The main waltz returns', text: 'The principal material returns in D major. Repetition gives the movement its balance: the contrasting melodies have occupied the middle, and now the original dance can be heard with more accumulated weight.', evidence: 'Boundary 5:02, strength 0.49; D/A/F♯ and D/A/C♯ pitch classes at 5:05–5:25 match the principal waltz at 1:30–1:50.' },
+    { t: 347, kind: 'listen', title: 'Preparing the larger finish', text: 'Listen for the orchestra’s weight increasing before the final run. The melody still keeps its broad shape while the accompaniment prepares a more forceful close.', evidence: '−14.7 dB at 5:50 subsides to −17.7 at 6:00, then rises to −8.6 at 6:05 and the loudest window, −6.2, at 6:10.' },
+    { t: 376, kind: 'music', title: 'The coda changes direction', text: 'A darker harmonic turn briefly interrupts the major-key dance. The closing passage uses that detour to make the eventual return to D major more emphatic.', evidence: 'Strongest boundary 6:16, strength 1.00; D minor estimates at 6:15–6:20, F major at 6:25–6:30, then D major from 6:45.' },
+    { t: 410, kind: 'music', title: 'More attacks, greater weight', text: 'The closing figures become more active while the full band reinforces the dance. Listen for the quick movement above the bass: the waltz’s familiar pulse is now carrying a much denser surface.', evidence: 'Onset density reaches 3.8/s at 6:40, 3.6 at 6:55 and 7:10; D major estimates r=0.82–0.90 from 6:45 through 7:10, with another −6.2 dB peak at 7:10.' },
+    { t: 440, kind: 'form', title: 'A concert ending', text: 'The emphatic final chords close the waltz. In the ballet the great pas de deux follows; the concert suite instead makes this D major ending its destination.', evidence: 'Boundary 7:16, strength 0.54; −6.4 dB at 7:15 drops to −41.8 at 7:20, with no further detected onsets.' },
+  ],
+};
