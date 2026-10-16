@@ -269,7 +269,7 @@ function indexPage() {
 
 function composersIndex() {
   const ctx = { base: '../', page: 'composers/index' };
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composers in seven chapters, ordered by year of birth. Those marked ✦ have extended portraits.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth. Those marked ✦ have extended portraits.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
 <div class="wrap section">${eras.map((e) => `<section class="era-group" style="--accent:${e.accent}"><header><span class="n">${e.numeral}</span><h3><a href="../eras/${e.slug}.html">${esc(e.name)}</a></h3><span class="sc">${esc(e.span)}</span></header><div class="composer-grid">${composers.filter((c) => c.era === e.slug).map((c) => card(ctx, c)).join('')}</div></section>`).join('')}</div>`;
   return layout(ctx, { title: 'Composers — Contrapunctus', body, nav: 'composers' });
 }
@@ -333,7 +333,7 @@ function galleryPage() {
   const ctx = { base: '', page: 'gallery' };
   const items = allArt().map(({ a, ownerHtml }) => painting(ctx, a, { sizes: '(max-width: 700px) 100vw, 33vw', extra: '' }).replace('</figcaption>', `<span class="for">Hung beside ${ownerHtml}</span></figcaption>`)).join('');
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The salon</span><h1>Sister Arts</h1><p class="lede">${rich(ctx, site.galleryLede ?? '')}</p></div><span class="bg-glyph" aria-hidden="true">𝄋</span></header>
-<div class="section"><div class="wrap salon">${items}</div></div>`;
+<div class="section wall"><div class="wrap salon">${items}</div></div>`;
   return layout(ctx, { title: 'Sister Arts — Contrapunctus', body, nav: 'gallery' });
 }
 
