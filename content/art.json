@@ -373,6 +373,17 @@
   "license": "Public domain",
   "credit": "Google Cultural Institute"
  },
+ "File:Caspar David Friedrich - Winterlandschaft mit Kirche (National Gallery London).jpg": {
+  "id": "caspar-david-friedrich-winterlandschaft-mit-kirche-national-gallery-london",
+  "src": "assets/img/art/caspar-david-friedrich-winterlandschaft-mit-kirche-national-gallery-london.webp",
+  "w": 1280,
+  "h": 946,
+  "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Winterlandschaft_mit_Kirche_(National_Gallery_London).jpg",
+  "artist": "Caspar David Friedrich",
+  "date": "probably 1811",
+  "license": "Public domain",
+  "credit": "Bridgeman Art Library : Object 376639"
+ },
  "File:Charles Ives grad photo.jpg": {
   "id": "charles-ives-grad-photo",
   "src": "assets/img/art/charles-ives-grad-photo.webp",
@@ -1406,6 +1417,17 @@
   "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "art database"
+ },
+ "File:Moritz von Schwind Schubertiade large.jpg": {
+  "id": "moritz-von-schwind-schubertiade-large",
+  "src": "assets/img/art/moritz-von-schwind-schubertiade-large.webp",
+  "w": 1280,
+  "h": 772,
+  "page": "https://commons.wikimedia.org/wiki/File:Moritz_von_Schwind_Schubertiade_large.jpg",
+  "artist": "Moritz von Schwind",
+  "date": "1868 date QS:P571,+1868-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Unknown Unknown , uploaded by User:LeastCommonAncestor as a version of File:Moritz von Schwind Schubertiade.jpg"
  },
  "File:Mozart-Lange.jpg": {
   "id": "mozart-lange",
