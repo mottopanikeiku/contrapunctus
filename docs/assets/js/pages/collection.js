@@ -5,6 +5,7 @@ export function mount(main) {
   const controller = new AbortController();
   const { signal } = controller;
   const records = [...main.querySelectorAll('[data-collection-record]')];
+  const pairings = new Map(records.map((record) => [record, JSON.parse(record.dataset.pairings)]));
   const content = dialog.querySelector('[data-viewer-content]');
   const close = dialog.querySelector('[data-viewer-close]');
   const count = main.querySelector('[data-collection-count]');
@@ -19,9 +20,9 @@ export function mount(main) {
     let images = 0;
     let texts = 0;
     for (const record of records) {
-      const matches = (!relation || record.dataset.relations.split(' ').includes(relation))
-        && (!period || record.dataset.periods.split(' ').includes(period))
-        && (!maker || record.dataset.maker.includes(maker));
+      const matches = (!maker || record.dataset.maker.includes(maker))
+        && pairings.get(record).some((pair) => (!relation || pair.relation === relation)
+          && (!period || pair.periods.includes(period)));
       record.hidden = !matches;
       if (matches) record.classList.contains('text-item') ? texts++ : images++;
     }

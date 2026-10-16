@@ -880,3 +880,21 @@ dialog.viewer::backdrop { background: rgba(21, 26, 25, .7); }
 .lesson .series-scroll { overflow-x: auto; overscroll-behavior-x: contain; }
 .lesson .series { min-width: 56rem; }
 .lesson .series text { font-size: 16px; }
+
+/* Collection — the object title leads on phones; the full record scrolls as one. */
+.collection-viewer .viewer-heading { grid-column: 2; grid-row: 1; padding: 1.5rem 1.5rem 0; }
+.collection-viewer .viewer-body > .img { grid-column: 1; grid-row: 1 / span 2; top: 4.5rem; }
+.collection-viewer .viewer-body > .txt { grid-column: 2; grid-row: 2; max-height: none; overflow: visible; padding-top: 0; }
+@media (max-width: 860px) {
+  .collection-viewer .viewer-heading { grid-column: 1; grid-row: 1; padding: 1.25rem 1.25rem 0; }
+  .collection-viewer .viewer-body > .img { grid-column: 1; grid-row: 2; }
+  .collection-viewer .viewer-body > .txt { grid-column: 1; grid-row: 3; padding-top: 1rem; }
+}
+@media (max-width: 760px) {
+  .collection-toc .wrap { flex-wrap: wrap; overflow: visible; }
+  .collection-page { padding-top: 1.5rem; }
+}
+
+/* ---------- Return Lab ---------- */
+.rl-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1rem; }
+.rl-board canvas { height: clamp(18rem, 46vh, 26rem); }

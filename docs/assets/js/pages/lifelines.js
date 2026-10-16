@@ -81,7 +81,7 @@ export function mount(main) {
       node.style.display = year < from || year > to ? 'none' : '';
       set(node.querySelector('line'), { y1: 28 * s, y2: layout.height });
       const text = node.querySelector('text');
-      if (text) set(text, { x: yearX(year) + 5 * s, y: 21 * s });
+      if (text) set(text, { x: Math.min(yearX(year) + 5 * s, layout.left + layout.width - 50 * s), y: 21 * s });
     }
     for (const node of list.querySelectorAll('[data-life-row]')) node.hidden = Number(node.dataset.born) > to || Number(node.dataset.died) < from;
     for (const group of list.querySelectorAll('[data-life-group]')) group.hidden = ![...group.querySelectorAll('[data-life-row]')].some((node) => !node.hidden);
