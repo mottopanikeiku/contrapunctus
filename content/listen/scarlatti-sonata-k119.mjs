@@ -1,3 +1,5 @@
+// Biography and manuscript tradition: https://en.wikipedia.org/wiki/Domenico_Scarlatti
+// 1749 Venice source: https://commons.wikimedia.org/wiki/File:Scarlatti,_Sonate_K._119_-_ms._Venise_XV,22.jpg
 export default {
   id: 'scarlatti-sonata-k119',
   composer: 'scarlatti',
@@ -8,10 +10,26 @@ export default {
   key: 'D major',
   forces: 'Keyboard; performed here on piano',
   performers: 'Marcelle Meyer, piano',
-  recorded: '1954',
+  recorded: 'November 1954',
   license: 'Public domain',
   source: { file: 'File:Domenico Scarlatti - Sonate en ré majeur Kk.119 (Marcelle Meyer, 1954).flac' },
   intro: 'A keyboard sonata built from repeated attacks, changes of register and chords containing notes that refuse to agree. Its two repeated halves give Scarlatti room to make the same disturbances lead towards different keys.',
-  sections: [],
-  cues: [],
+  sections: [
+    { t: 0, label: 'First half · D major to A major' },
+    { t: 68, label: 'First half repeated' },
+    { t: 132, label: 'Second half · returning to D' },
+    { t: 204, label: 'Second half repeated' },
+    { t: 258, label: 'Closing phrases' },
+  ],
+  cues: [
+    { t: 0, kind: 'form', title: 'Two halves, each repeated', text: 'The opening establishes D major with a sharply articulated keyboard figure. This sonata has two repeated halves, not the later three-part plan of exposition, development and recapitulation. The first half moves away from D; the second has to find its way back.', evidence: 'Opening D-major estimate r=0.85–0.93 through 0:15, with 3.0–4.4 onsets/s. The later A-major closing region at 0:50–1:05 and D-major restart around 1:08 corroborate the score’s binary first half and repeat.' },
+    { t: 28, kind: 'music', title: 'Space, then crowded chords', text: 'After a moment of space, the quick attacks resume. Scarlatti crowds notes into the harmony so that the chord’s impact matters as much as its melodic outline. Do not try to tidy every collision into a smooth, singing line.', evidence: 'Boundary at 0:28; loudness falls to −21.1 dB at 0:25, then rises to −14.2 at 0:30. Onsets jump from 1.4/s at 0:25 to 4.6 at 0:30 and 5.0 at 0:35, matching the score’s abrupt textural contrast.' },
+    { t: 63, kind: 'life', title: 'An opera composer’s son', text: 'Domenico was born in Naples in 1685, the same year as Bach and Handel. His father Alessandro was an established opera composer. Domenico also wrote operas and sacred music before the keyboard sonatas became the centre of his surviving output.' },
+    { t: 98, kind: 'listen', title: 'The disturbance happens twice', text: 'The first half is being repeated. This second hearing lets you recognise the interruptions before they arrive: the same gap and renewed attacks lead back towards the same A major destination. The apparent disruption belongs to the design.', evidence: 'Repeat boundary at 1:08, with D-major return at 1:10; the quiet gap at 1:30, −21.4 dB and 0.6 onsets/s, matches 0:25. Boundary at 1:34 and renewed 4.4 onsets/s at 1:35 reproduce the earlier contrast; A major returns at 1:55–2:05.' },
+    { t: 133, kind: 'form', title: 'The second half begins', text: 'The new half begins from the tonal ground reached by the first. Its task is different: passages that previously led away from D must now contribute to a return. Scarlatti keeps the physical gestures recognisable while changing their destination.', evidence: 'Boundary at 2:12 after the first half’s repeated A-major cadence, r=0.92–0.94 at 2:00–2:05. Onsets rise from 2.2/s at 2:05 to 4.4 at 2:15; less stable harmony follows around the strong 2:24 boundary.' },
+    { t: 169, kind: 'music', title: 'Insist on the dissonance', text: 'The chordal writing becomes more forceful. Repetition makes the clashes unmistakably intentional: the same pressure is applied again instead of being softened into a passing decoration. Listen for the bass beneath those attacks, still directing the phrase towards its cadence.', evidence: 'Boundary at 2:46; onsets remain 4.2–4.4/s at 2:45–2:55 while loudness rises from −12.3 to −7.6 dB and then −6.3 at 3:00. The score’s dissonant chordal passage is followed by a stable D-major close at 3:05–3:20.' },
+    { t: 205, kind: 'life', title: 'Following a royal pupil', text: 'Scarlatti entered Portuguese royal service in 1719 and taught Maria Bárbara. When she married the Spanish heir in 1729, he followed her to Spain. Their long association made the royal household a setting for sustained keyboard composition and teaching.' },
+    { t: 238, kind: 'world', title: 'A copy, not a birthday', text: 'K. 119 survives in a Venice manuscript dated 1749. That dates the copy, not necessarily the composition. The K. number comes from Ralph Kirkpatrick’s catalogue; the surviving manuscripts do not provide a secure year-by-year chronology for all 555 sonatas.' },
+    { t: 272, kind: 'music', title: 'The closing phrases settle', text: 'D major is now firmly established. The repeated attacks give way to the final cadence, and Meyer lets the piano’s resonance decay. The second half ends at home rather than adding a separate return of the entire opening.', evidence: 'D-major estimates r=0.92–0.95 from 4:20–4:35; onsets fall from 3.2/s at 4:30 to 1.8 at 4:35 and zero at 4:40. Loudness falls from −7.4 to −13.1 and then −71.3 dB.' },
+  ],
 };

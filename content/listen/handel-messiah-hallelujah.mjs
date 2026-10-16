@@ -1,3 +1,4 @@
+// Text, premiere and Foundling performances: https://handelandhaydn.org/interactive-program-notes-handels-messiah/
 export default {
   id: 'handel-messiah-hallelujah',
   composer: 'handel',
@@ -12,6 +13,20 @@ export default {
   license: 'Public domain',
   source: { file: 'File:Handel - Messiah, Part 2 (Scherchen) - 45. Hallelujah.ogg' },
   intro: 'The chorus that closes Part II alternates three kinds of speech: a tune sung together, a line passed between voices, and long notes held above moving counterpoint. Its force comes from those changes of texture, not from singing everything loudly.',
-  sections: [],
-  cues: [],
+  sections: [
+    { t: 0, label: 'Orchestral opening and acclamation' },
+    { t: 36, label: 'Choral exchanges' },
+    { t: 104, label: 'Accumulating proclamations' },
+    { t: 138, label: 'D major confirmed' },
+    { t: 186, label: 'Final cadence' },
+  ],
+  cues: [
+    { t: 0, kind: 'form', title: 'The close of Part Two', text: 'A short orchestral opening leads into the choral acclamation. This is the end of Messiah’s second part, not the end of the whole oratorio. D major and the trumpet-supported orchestral sound give the chorus its ceremonial frame.', evidence: 'D-major estimate r=0.77–0.81 at 0:00–0:10; loudness rises from −27.2 dB at 0:00 to −19.6 at 0:05 and −13.5 at 0:10. Score establishes the introduction and scoring; no isolated trumpet entrance is claimed.' },
+    { t: 30, kind: 'world', title: 'Jennens supplies the words', text: 'Charles Jennens compiled Messiah’s text from the Bible and Prayer Book Psalter. Handel set it in 1741. There is no continuously enacted plot: prophecy, suffering and resurrection are presented through changing texts and musical forms.' },
+    { t: 70, kind: 'music', title: 'The sound withdraws and answers', text: 'The choral weight falls back before another emphatic statement. Listen for the distinction between voices moving together on the same syllables and voices pursuing one another: Handel can change the force of a declaration by changing its texture.', evidence: 'Loudness falls from −8.7 dB at 1:05 to −16.2 at 1:10, then rises to −6.7 at 1:20; brightness falls from 1,901 to 1,519 Hz and returns to 1,893. The cue describes the measured contrast, not an unverified word entrance.' },
+    { t: 105, kind: 'world', title: 'A Dublin charitable benefit', text: 'Messiah was first performed at Dublin’s Music Hall in Fishamble Street on 13 April 1742, for charity. The London premiere followed in 1743. This familiar English-language work began its public life in Ireland, not in a London church.' },
+    { t: 133, kind: 'music', title: 'Long notes against short', text: 'The choral sound reaches its strongest surge. Sustained notes and shorter moving figures occupy the same texture: one line can prolong a proclamation while others repeat and develop it. Listen through the volume for those different speeds of movement.', evidence: 'Strong boundaries at 1:58, 2:04, 2:10 and 2:14; loudness climbs from −8.3 dB at 1:55 to the peak window of −3.9 at 2:15, then drops to −11.8 at 2:20. The score’s layered long-note and moving choral writing supports the texture description.' },
+    { t: 161, kind: 'life', title: 'Handel and the Foundling Hospital', text: 'Handel’s first benefit for London’s Foundling Hospital was in 1749; its first Messiah performance followed in 1750. The annual performances helped make the work a regular part of London musical life and raised money for the institution.' },
+    { t: 190, kind: 'music', title: 'The last word is separated', text: 'The rapid choral exchange stops for the final cadential gestures. Listen to the space around the last “Hallelujah”: withholding the next attack gives the final chord its weight. The orchestra and choir then release into silence.', evidence: 'Boundary at 3:06; onsets drop from 2.6/s at 3:00 to 0.2 at 3:05, 0.4 at 3:10 and 0.2 at 3:15. A loud final window at 3:10, −5.6 dB, is followed by decay to −59.9 at 3:20.' },
+  ],
 };
