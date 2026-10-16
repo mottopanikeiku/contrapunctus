@@ -112,6 +112,7 @@ export async function mount(main, app) {
     board.innerHTML = '';
     board.setAttribute('aria-labelledby', `lens-${name}`);
     if (name === 'score') view = await scoreView();
+    else if (name === 'sheet') view = await sheetView();
     else if (name === 'map') view = mapView(board, { big: true });
     else view = soundView();
     strip.hidden = name === 'map';
@@ -326,6 +327,104 @@ export async function mount(main, app) {
       basisLabel.textContent = sounding.length ? `Sounding now: ${[...new Set(sounding)].join(' · ')}` : 'From the score';
     }
     return { draw, destroy() { ro.disconnect(); canvas.remove(); legend.remove(); ex.remove(); basisLabel.textContent = ''; } };
+  }
+
+  // ------------------------------------------------------------ sheet music (engraved with LilyPond, follows the recording)
+  async function sheetView() {
+    if (!score) score = await fetch(new URL(`assets/data/${data.id}/score.json`, app.base)).then((r) => r.json()).catch(() => null);
+    const wrap = document.createElement('div');
+    wrap.className = 'sheet';
+    wrap.innerHTML = '<div class="placeholder">Engraving the score…</div>';
+    board.append(wrap);
+    const ex = document.createElement('div');
+    ex.className = 'explain';
+    ex.innerHTML = `<b>The written score, engraved from ${escapeHtml(score?.source?.title ?? 'a public-domain edition')}${score?.source?.edition ? ` (${escapeHtml(score.source.edition)})` : ''}.</b> The highlighted bar follows the recording, and notes darken as they are reached. The following is aligned automatically and is provisional until checked by ear. Select any bar to hear it.`;
+    board.append(ex);
+    basisLabel.textContent = 'Engraved score';
+    const svgText = await fetch(new URL(`assets/data/${data.id}/sheet.svg`, app.base)).then((r) => r.text()).catch(() => '');
+    if (!alive) return { draw() {}, destroy() {} };
+    wrap.innerHTML = svgText || '<div class="placeholder">The score could not be loaded.</div>';
+    const svg = wrap.querySelector('svg');
+    if (!svg || !score) return { draw() {}, destroy() { wrap.remove(); ex.remove(); } };
+    svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', `Engraved score of ${data.work}`);
+    // index noteheads and rests by bar; estimate bar length (whole notes) from positions
+    const byBar = new Map();
+    let maxPos = 0;
+    for (const el of svg.querySelectorAll('[data-bar]')) {
+      const b = el.getAttribute('data-bar');
+      const pos = Number(el.getAttribute('data-pos')) || 0;
+      maxPos = Math.max(maxPos, pos);
+      if (!byBar.has(b)) byBar.set(b, []);
+      byBar.get(b).push({ el, pos });
+    }
+    const barLen = [0.5, 0.75, 1, 1.5, 2, 3].find((m) => m > maxPos + 1e-6) ?? maxPos + 0.25;
+    // highlight layer under the notes
+    const NS = 'http://www.w3.org/2000/svg';
+    const hl = document.createElementNS(NS, 'rect');
+    hl.setAttribute('class', 'sheet-hl');
+    svg.insertBefore(hl, svg.firstChild);
+    const boxCache = new Map();
+    const boxOf = (b) => {
+      if (boxCache.has(b)) return boxCache.get(b);
+      const items = byBar.get(b);
+      if (!items?.length) return null;
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      for (const { el } of items) { const r = el.getBBox(); const m = el.getCTM && el.getCTM(); const sm = svg.getCTM(); let x = r.x, y = r.y;
+        if (m && sm) { const inv = sm.inverse().multiply(m); x = inv.a * r.x + inv.c * r.y + inv.e; y = inv.b * r.x + inv.d * r.y + inv.f; }
+        x0 = Math.min(x0, x); y0 = Math.min(y0, y); x1 = Math.max(x1, x + r.width); y1 = Math.max(y1, y + r.height); }
+      const box = { x: x0 - 1.2, y: y0 - 2, w: x1 - x0 + 2.4, h: y1 - y0 + 4 };
+      boxCache.set(b, box);
+      return box;
+    };
+    let current = null, userScrolled = 0;
+    wrap.addEventListener('scroll', () => { if (!wrap._auto) userScrolled = performance.now(); wrap._auto = false; }, { passive: true });
+    svg.addEventListener('click', (e) => {
+      const el = e.target.closest('[data-bar]');
+      let n = el?.getAttribute('data-bar');
+      if (!n) {
+        // nearest bar to the click
+        const pt = svg.createSVGPoint(); pt.x = e.clientX; pt.y = e.clientY;
+        const p = pt.matrixTransform(svg.getScreenCTM().inverse());
+        let best = null, bd = Infinity;
+        for (const b of byBar.keys()) { const bx = boxOf(b); if (!bx) continue; const dx = Math.max(bx.x - p.x, 0, p.x - bx.x - bx.w), dy = Math.max(bx.y - p.y, 0, p.y - bx.y - bx.h); const dd = dx * dx + dy * dy * 4; if (dd < bd) { bd = dd; best = b; } }
+        n = best;
+      }
+      if (!n) return;
+      const cands = score.bars.filter((x) => x.n === n);
+      if (!cands.length) return;
+      const t = now();
+      const pick = cands.reduce((a, c) => (Math.abs(c.t - t) < Math.abs(a.t - t) ? c : a));
+      userScrolled = 0;
+      seekTo(pick.t);
+    });
+    let lastLit = [];
+    function draw(t) {
+      let i = -1;
+      for (let k = 0; k < score.bars.length; k++) { if (score.bars[k].t <= t + 0.02) i = k; else break; }
+      const bar = score.bars[Math.max(0, i)];
+      const next = score.bars[Math.max(0, i) + 1];
+      const frac = next ? Math.max(0, Math.min(1, (t - bar.t) / (next.t - bar.t))) : 1;
+      if (current !== bar.n) {
+        current = bar.n;
+        const bx = boxOf(bar.n);
+        if (bx) { hl.setAttribute('x', bx.x); hl.setAttribute('y', bx.y); hl.setAttribute('width', bx.w); hl.setAttribute('height', bx.h); hl.style.display = ''; }
+        else hl.style.display = 'none';
+        // keep the current system in view
+        if (bx && performance.now() - userScrolled > 4000) {
+          const scale = svg.clientWidth / svg.viewBox.baseVal.width;
+          const top = bx.y * scale, bottom = (bx.y + bx.h) * scale;
+          if (top < wrap.scrollTop + 20 || bottom > wrap.scrollTop + wrap.clientHeight - 20) {
+            wrap._auto = true;
+            wrap.scrollTo({ top: Math.max(0, top - wrap.clientHeight * 0.3), behavior: app.reduced.matches ? 'auto' : 'smooth' });
+          }
+        }
+      }
+      lastLit.forEach((el) => el.classList.remove('lit'));
+      lastLit = (byBar.get(bar.n) ?? []).filter((x) => x.pos / barLen <= frac + 0.02).map((x) => x.el);
+      lastLit.forEach((el) => el.classList.add('lit'));
+    }
+    return { draw, destroy() { wrap.remove(); ex.remove(); basisLabel.textContent = ''; } };
   }
 
   // ------------------------------------------------------------ sound (live spectrogram, honestly labelled)

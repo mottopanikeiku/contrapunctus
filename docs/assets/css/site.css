@@ -902,3 +902,11 @@ dialog.viewer::backdrop { background: rgba(21, 26, 25, .7); }
 /* Lifelines and About — stable chart strokes and usable source-link targets. */
 .lifelines-page .tl .grid line, .lifelines-page .tl .event line { vector-effect: non-scaling-stroke; stroke-width: 1; }
 .about-page .credits td:nth-child(2) > a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+
+/* ---------- Sheet music lens ---------- */
+.sheet { height: clamp(22rem, 62vh, 44rem); overflow-y: auto; background: #fffdf8; color: #1b1d1a; padding: .5rem clamp(.25rem, 2vw, 1.5rem); scroll-behavior: auto; overscroll-behavior: contain; }
+.sheet svg { display: block; width: 100%; height: auto; cursor: pointer; }
+.sheet .sheet-hl { fill: color-mix(in oklab, var(--accent) 13%, transparent); rx: 2; }
+.sheet .nh, .sheet .rs { transition: fill .12s; }
+.sheet .nh.lit path, .sheet .nh.lit { fill: var(--accent); color: var(--accent); }
+.sheet text { font-family: 'EB Garamond', serif; }

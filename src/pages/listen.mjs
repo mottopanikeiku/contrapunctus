@@ -1,5 +1,6 @@
 // Listen: one page per recording, the recordings index with routes, and the data the player needs.
 import { writeFile, mkdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { page, icon } from '../shell.mjs';
 import {
@@ -91,7 +92,8 @@ export async function build(out) {
       id: l.id, url: `listen/${l.id}.html`, composer: c.name, work: l.work, movement: l.movement ?? '', duration: s.duration, stream: s.stream,
       tuning, env: env?.env ?? [], sections: l.sections ?? [], relations: rel, cues, hasScore: !!sc, next: next?.id ?? null, prev: prev?.id ?? null,
     };
-    const lenses = [sc ? ['score', 'Score'] : null, ['map', 'Map'], ['sound', 'Sound']].filter(Boolean);
+    const hasSheet = existsSync(path.join(OUT, 'assets/data', l.id, 'sheet.svg'));
+    const lenses = [sc ? ['score', 'Notes'] : null, hasSheet ? ['sheet', 'Sheet music'] : null, ['map', 'Map'], ['sound', 'Sound']].filter(Boolean);
     const first = music[0] ?? cues[0];
     const firstCtx = context[0];
     const movement = l.movement ? `<span class="mvt">${esc(l.movement)}</span>` : '';
