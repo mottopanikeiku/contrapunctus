@@ -1,0 +1,37 @@
+// Context and score landmarks: https://charlesives.org/node/6616
+// Biography: https://charlesives.org/ives-man-his-life
+export default {
+  id: 'ives-concord-alcotts',
+  composer: 'ives',
+  order: 1,
+  work: 'Piano Sonata No. 2 “Concord, Mass., 1840–60”',
+  movement: 'III. The Alcotts',
+  year: '1911–19',
+  key: '',
+  forces: 'Piano',
+  performers: 'Eric Xi Xin Liang',
+  recorded: '2024',
+  license: 'CC BY 4.0',
+  source: { file: 'File:Ives - Piano Sonata No.2 - III. The Alcotts (Eric Xi Xin Liang).flac' },
+  intro: 'Ives imagines music-making in the Alcott family’s house in Concord. Hymn-like chords and the rhythm of Beethoven’s Fifth share a piano whose hands do not always agree about the key.',
+  sections: [
+    { t: 0, label: 'Quiet chordal opening' },
+    { t: 74, label: 'Competing harmonies' },
+    { t: 178, label: 'Parlour-music episode' },
+    { t: 262, label: 'Chromatic transition' },
+    { t: 288, label: 'The theme in C major' },
+    { t: 330, label: 'Close' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'A hymn at home', text: 'The piano begins with quiet, widely spaced chords and a melody shaped like a hymn. This is the sonata’s recurring “human faith” melody, heard here much more plainly than in the crowded first two movements.', evidence: 'Opening −25.9 dB, 1.0 onsets/s; B♭–D–F prominent at 0:00–0:15. Opening thematic identity follows Kyle Gann’s Ives Society guide.' },
+    { t: 35, kind: 'world', title: 'Three members of one family', text: 'Ives’s accompanying essay names Bronson Alcott, the philosopher; Louisa May, the novelist; and Elizabeth, the family pianist who became Beth in Little Women. His portrait includes domestic piano-playing as well as the Transcendentalists’ arguments.' },
+    { t: 74, kind: 'music', title: 'The chords harden', text: 'The quiet opening breaks into louder, more densely struck writing. Listen for the short-short-short-long rhythm of Beethoven’s Fifth: Ives folds it into his own melody rather than quoting a whole passage of the symphony.', evidence: 'Boundary 1:14 (1.00); −27.0 dB and 1.0 onsets/s at 1:10 become −13.9 dB and 2.4 at 1:15. Gann identifies Beethoven-based material in this first series of climaxes.' },
+    { t: 112, kind: 'listen', title: 'A rhythm survives the collision', text: 'The first big climax gathers around C minor. The repeated-note rhythm remains recognisable even when the chords crowd it with conflicting notes; follow that rhythm through the thicker piano sound.', evidence: 'Boundary 1:52 (0.98); loudest window 1:55 at −7.8 dB; C minor estimates r=0.78–0.89 from 1:50–2:10 confirm the expected Beethoven-based climax.' },
+    { t: 150, kind: 'life', title: 'Music after the office', text: 'Ives studied composition with Horatio Parker at Yale, then entered the New York insurance business in 1898. He remained a church organist until 1902; later, his successful agency with Julian Myrick paid for composing, copying and publishing music outside the concert profession.' },
+    { t: 178, kind: 'form', title: 'The parlour episode', text: 'The middle episode borrows the manner of nineteenth-century parlour music: a singable tune with an accompaniment, rather than the previous collisions of heavy chords. B♭ major now holds for long stretches.', evidence: 'Boundary 2:58 (0.78) after the low-activity pause at 2:45–2:55; B♭ major estimates r=0.79–0.94 across most of 3:00–4:15. Parlour episode identified in Gann’s account.' },
+    { t: 214, kind: 'world', title: 'Printed for strangers', text: 'Ives paid to print the sonata in 1920 and mailed copies to two hundred people in January 1921. Individual movements reached audiences first; John Kirkpatrick gave the complete public premiere at New York’s Town Hall on 20 January 1939.' },
+    { t: 250, kind: 'music', title: 'Pressure returns', text: 'The tune grows louder and the accompaniment fills in. A more chromatic transition follows: the earlier B♭ harmony no longer holds the phrases in place, and the piano presses towards another broad statement of the theme.', evidence: '−31.1 dB at 3:55 rises to −12.0 at 4:10; boundary 4:22 (1.00), followed by 3.2–4.2 onsets/s at 4:25–4:40 and weaker tonal estimates before C major settles at 4:50.' },
+    { t: 288, kind: 'form', title: 'The theme assembled', text: 'The “human faith” melody arrives in C major, in broad chords. In the complete sonata, material scattered through “Emerson” and “Hawthorne” now joins into a continuous tune; the Beethoven rhythm belongs inside that tune.', evidence: 'Boundary 4:48 (0.48); C major estimates r=0.80–0.82 at 4:50–4:55, with C–G–E prominent at 5:10 and 5:20. This is the final complete statement identified by Gann.' },
+    { t: 330, kind: 'music', title: 'One last resonance', text: 'The harmony briefly looks back towards B♭ before the final C major chord. Listen to how long the piano’s resonance remains after the last attack: the ending includes the decay of the instrument, not just the written notes.', evidence: 'Boundary 5:30 (0.91), B♭–F–D pitch classes; −33.0 dB and 0.2 onsets/s at 5:35, then no detected attacks at 5:40–5:45. B♭ recollection and final C chord follow Gann; the last low-level key estimates are not used.' },
+  ],
+};
