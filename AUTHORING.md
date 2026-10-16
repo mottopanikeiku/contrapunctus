@@ -43,11 +43,21 @@ export default {
 ```
 
 - `life`: the first paragraph has `class="dropcap"`. `<aside class="note">` is a margin note (a technical aside, a source, a definition) — place it immediately *before* the paragraph it annotates; 2–4 per life. `<h3><span class="sc">…</span>…</h3>` splits long lives into sections.
-- Glyphs for `sound` aspects (Unicode musical symbols): 𝄞 𝄢 𝄡 ♮ ♯ ♭ 𝄪 𝄫 𝅘𝅥 𝅗𝅥 𝄾 𝄽 𝄐 𝄋 𝄌 𝄆 𝄇 𝆑 𝆏 𝆒 𝆓.
+- `sound` aspects are displayed as plain text labels; the v3 templates do not render decorative glyphs.
 - Cross-links: `[[slug]]` or `[[slug|label]]` for composers; `[[era:romantic|Romanticism]]`; `[[workshop#sonata-form|sonata form]]`; `[[origins#chant|plainchant]]`.
 
 Workshop anchors: `counterpoint`, `fugue`, `figured-bass`, `temperament`, `sonata-form`, `harmony`, `chromaticism`, `tristan-chord`, `leitmotif`, `modes`, `whole-tone`, `octatonic`, `atonality`, `twelve-tone`, `rhythm`, `orchestration`, `minimalism`, `spectralism`.
 Origins anchors: `monochord`, `chant`, `notation`, `organum`, `ars-nova`, `polyphony`, `instruments`, `opera`, `continuo`.
+
+### Composer and period pages
+
+The v3 builders are `src/pages/composers.mjs` and `src/pages/periods.mjs`. Composer URLs are `composers/<slug>.html`; period URLs are `periods/<slug>.html`. Both retain the authored prose, margin notes, notation, objects and reading. A sticky contents map remains available on narrow screens.
+
+The composer directory keeps birth order and supports shareable `q`, `period` and `rec=1` query parameters. Search is accent-insensitive and includes work titles and catalogue numbers. Without JavaScript, all composers remain readable.
+
+Playable recordings come from `content/listen/`, matched by composer slug. Work-list buttons match the title or catalogue number; explicit collection/version links live in `WORK_LINKS` in the composer builder. Keep numbered works distinct, and name the movement or arrangement beside the button. The separate `recordings` array is labelled “Recordings worth seeking out (not hosted here)”.
+
+Lineage entries are connections, not an implied teaching chain. Specific chip labels in `LINEAGE_LABELS` must be supported by the authored lineage note; keep the note’s qualifications. Portraits and period hero objects are displayed uncropped, with captions.
 
 ## Sister arts
 

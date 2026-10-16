@@ -23,7 +23,8 @@ from synctoolbox.feature.pitch import audio_to_pitch_features
 from synctoolbox.feature.pitch_onset import audio_to_pitch_onset_features
 from synctoolbox.feature.chroma import pitch_to_chroma
 from synctoolbox.feature.dlnco import pitch_onset_features_to_DLNCO
-from synctoolbox.dtw.mrmsdtw import sync_via_mrmsdtw, sync_via_mrmsdtw_with_anchors
+from synctoolbox.dtw.mrmsdtw import sync_via_mrmsdtw_with_anchors
+from synctoolbox.dtw.utils import make_path_strictly_monotonic
 
 from score_events import HERE, IDS
 ROOT = HERE.parent.parent
@@ -128,11 +129,10 @@ def score_features(events, scale):
 
 
 def path_map(path):
-    x = np.unique(path[0])
-    starts = np.searchsorted(path[0], x)
-    stops = np.searchsorted(path[0], x, side='right')
-    y = np.array([np.median(path[1, a:b]) for a, b in zip(starts, stops)])
-    return x / FPS, y / FPS
+    # Sync Toolbox's standard conversion discards ambiguous horizontal/vertical
+    # DTW runs before interpolation. It does not clamp individual note durations.
+    strict = make_path_strictly_monotonic(path)
+    return strict[0] / FPS, strict[1] / FPS
 
 
 def nearest_error(times, targets):
@@ -152,10 +152,10 @@ def recurrence(chroma, start, second, length, search=4):
     for b0 in np.arange(second - search, second + search + 0.25, 0.5):
         b = a - a[0] + int(round(b0 * 2))
         if len(a) and a[-1] < c.shape[1] and b[0] >= 0 and b[-1] < c.shape[1]:
-            candidates.append((float(np.mean(np.sum(c[:, a] * c[:, b], axis=0))), float(b0)))
+            candidates.append((float(np.mean(np.sum(c[:, a] * c[:, b], axis=0))), float(b[0] / 2)))
     similarity, best = max(candidates)
-    return {'aStart': start, 'aEnd': start + length, 'predictedBStart': second, 'bestBStart': best,
-            'offsetSeconds': best - start, 'boundaryResidualSeconds': best - second, 'cosine': similarity,
+    return {'aStart': float(a[0] / 2), 'aEnd': float((a[-1] + 1) / 2), 'predictedBStart': second, 'bestBStart': best,
+            'offsetSeconds': best - float(a[0] / 2), 'boundaryResidualSeconds': best - second, 'cosine': similarity,
             'searchRadiusSeconds': search}
 
 
@@ -250,6 +250,7 @@ def checks(ident, events, data, sx, ay, scale, score_chroma, path, sections):
                'p95AbsoluteOnsetDeviation': float(np.percentile(deviations, 95)),
                'fractionWithin150ms': float(np.mean(deviations <= .15)),
                'worstFiveOnsetRegions': sorted(regions, key=lambda r: (-r['median'], -r['p95']))[:5],
+               'worstFiveAdaptiveRegions': sorted(regions, key=lambda r: (-r['adaptiveMedian'], -r['adaptiveP95']))[:5],
                'worstFiveHarmonicRegions': sorted(harmonic_regions, key=lambda r: r['meanCosine'])[:5],
                'sections': section_rows, 'anchors': anchor_rows, 'heldNotes': held, 'recurrence': returns,
                'zeroOrNegativeDurations': int(np.sum(durations < .0005)),
@@ -279,7 +280,9 @@ def run(ident, publish=False):
     score_chroma, score_onset = score_features(events, scale)
     kwargs = dict(f_chroma1=score_chroma, f_chroma2=data['chroma'][:, origin_frame:end_frame + 1].astype(float),
                   f_onset1=score_onset, f_onset2=data['dlnco'][:, origin_frame:end_frame + 1].astype(float), input_feature_rate=FPS,
-                  threshold_rec=100000, verbose=False, alpha=.5)
+                  threshold_rec=100000, verbose=False, alpha=.5,
+                  step_sizes=np.array([[1, 0], [0, 1], [1, 1]], dtype=np.int32),
+                  step_weights=np.ones(3))
     endpoint_pairs = [(a['scoreQ'] * scale, a['audioSeconds'] - origin) for a in endpoints if a['scoreQ'] > 0]
     linear = [-1] + ([0] if endpoints[0]['scoreQ'] > 0 else [])
     path = sync_via_mrmsdtw_with_anchors(**kwargs, anchor_pairs=endpoint_pairs.copy(), linear_inp_idx=linear)
@@ -324,7 +327,7 @@ def run(ident, publish=False):
         reasons.append('DTW collapses score note durations or distinct attacks.')
     if any(a['nearestOnsetDeviation'] > .5 for a in diagnostics['anchors']):
         reasons.append('A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds.')
-    if any(r['adaptiveMedian'] > .3 for r in diagnostics['worstFiveOnsetRegions']):
+    if any(r['adaptiveMedian'] > .3 for r in diagnostics['worstFiveAdaptiveRegions']):
         reasons.append('An eight-second region has median deviation above 0.3 seconds even with local onset normalisation.')
     diagnostics.update({'id': ident, 'tuningHz': score['tuningHz'], 'audioSha256': str(data['audio_sha256']),
                         'software': {p: importlib.metadata.version(p) for p in ('librosa', 'synctoolbox', 'numpy', 'scipy', 'mido')},
@@ -333,6 +336,9 @@ def run(ident, publish=False):
                         'adaptiveOnsetCount': len(data['adaptive_onsets']),
                         'adaptiveMedianDeviation': float(np.median(nearest_error(mapq(np.unique(np.asarray(events['notes'])[:, 0])), data['adaptive_onsets']))),
                         'gateReasons': reasons, 'elapsedSeconds': time.monotonic() - begun})
+    diagnostics['dtwSteps'] = kwargs['step_sizes'].tolist()
+    diagnostics['dtwStepWeights'] = kwargs['step_weights'].tolist()
+    diagnostics['counts'] = {'bars': len(score['bars']), 'notes': len(score['notes']), 'voices': len(score['voices'])}
     write_json(HERE / 'work' / (ident + '-candidate.json'), score)
     write_json(HERE / 'work' / (ident + '-checks.json'), diagnostics)
     np.savez_compressed(HERE / 'work' / (ident + '-path.npz'), score_seconds=sx, audio_seconds=ay, scale=scale)
@@ -345,6 +351,7 @@ def run(ident, publish=False):
         if reasons:
             raise ValueError('Refusing publication: ' + ' '.join(reasons))
         write_json(ROOT / 'docs/assets/data' / ident / 'score.json', score)
+        write_json(HERE / 'results' / (ident + '.json'), diagnostics)
         print('PUBLISHED', ident, 'provisional; not checked by ear', flush=True)
 
 

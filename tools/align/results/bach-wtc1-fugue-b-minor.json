@@ -1,0 +1,374 @@
+{
+  "uniqueScoreAttacks": 1109,
+  "audioDetectedOnsets": 1139,
+  "medianAbsoluteOnsetDeviation": 0.023462674543509365,
+  "noteWeightedMedianDeviation": 0.02294172932330696,
+  "p95AbsoluteOnsetDeviation": 0.050488632295014185,
+  "fractionWithin150ms": 0.9990982867448152,
+  "worstFiveOnsetRegions": [
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 10,
+      "median": 0.03810970879579756,
+      "p95": 0.06357448681227068,
+      "max": 0.06580260174245467,
+      "adaptiveMedian": 0.046006385010141315,
+      "adaptiveP95": 0.07122410192146873
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 8,
+      "median": 0.033007518796997815,
+      "p95": 0.10971119763695111,
+      "max": 0.12558807733620014,
+      "adaptiveMedian": 0.038812507459130785,
+      "adaptiveP95": 0.1213211749612135
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 16,
+      "median": 0.03287228487887717,
+      "p95": 0.05506582676931515,
+      "max": 0.055246747821939834,
+      "adaptiveMedian": 0.036615497076027737,
+      "adaptiveP95": 0.06667580409358465
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 22,
+      "median": 0.03237192684090928,
+      "p95": 0.053141566714383255,
+      "max": 0.06498821458407633,
+      "adaptiveMedian": 0.0424121315192707,
+      "adaptiveP95": 0.06475154403865133
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 17,
+      "median": 0.032330528702715355,
+      "p95": 0.10043579186062741,
+      "max": 0.12326978159683222,
+      "adaptiveMedian": 0.042678273063614824,
+      "adaptiveP95": 0.07125933882328464
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 10,
+      "median": 0.03810970879579756,
+      "p95": 0.06357448681227068,
+      "max": 0.06580260174245467,
+      "adaptiveMedian": 0.046006385010141315,
+      "adaptiveP95": 0.07122410192146873
+    },
+    {
+      "start": 296.0,
+      "end": 304.0,
+      "attacks": 21,
+      "median": 0.031664279747019464,
+      "p95": 0.04156537176265829,
+      "max": 0.0506177646497008,
+      "adaptiveMedian": 0.043274257071232114,
+      "adaptiveP95": 0.05317534908692778
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 11,
+      "median": 0.03148257548633637,
+      "p95": 0.052784938536817094,
+      "max": 0.05695906432748643,
+      "adaptiveMedian": 0.04309255281059876,
+      "adaptiveP95": 0.06312238930659575
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 17,
+      "median": 0.032330528702715355,
+      "p95": 0.10043579186062741,
+      "max": 0.12326978159683222,
+      "adaptiveMedian": 0.042678273063614824,
+      "adaptiveP95": 0.07125933882328464
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 22,
+      "median": 0.03237192684090928,
+      "p95": 0.053141566714383255,
+      "max": 0.06498821458407633,
+      "adaptiveMedian": 0.0424121315192707,
+      "adaptiveP95": 0.06475154403865133
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 472.0,
+      "meanCosine": 0.5643674368604821
+    },
+    {
+      "start": 152.0,
+      "meanCosine": 0.6915314791465565
+    },
+    {
+      "start": 48.0,
+      "meanCosine": 0.7033214536232382
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.7155050451129842
+    },
+    {
+      "start": 312.0,
+      "meanCosine": 0.7341317547835604
+    }
+  ],
+  "sections": [
+    {
+      "bar": "22",
+      "occ": 1,
+      "editorial": 138,
+      "aligned": 137.82210526315788,
+      "difference": -0.17789473684211998,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "31",
+      "occ": 1,
+      "editorial": 194,
+      "aligned": 192.33157894736843,
+      "difference": -1.6684210526315724,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "43",
+      "occ": 1,
+      "editorial": 264,
+      "aligned": 264.1042105263158,
+      "difference": 0.10421052631579641,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "52",
+      "occ": 1,
+      "editorial": 318,
+      "aligned": 317.67368421052635,
+      "difference": -0.3263157894736537,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "64",
+      "occ": 1,
+      "editorial": 392,
+      "aligned": 390.64631578947365,
+      "difference": -1.3536842105263531,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "76",
+      "occ": 1,
+      "editorial": 466,
+      "aligned": 465.1178947368421,
+      "difference": -0.8821052631578823,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.5,
+      "audioSeconds": 0.7851315789473684,
+      "nearestOnsetDeviation": 0.01595685642678124
+    },
+    {
+      "label": "middle",
+      "bar": "41",
+      "occ": 1,
+      "scoreQ": 161.5,
+      "audioSeconds": 254.3975,
+      "nearestOnsetDeviation": 0.011933106575952479
+    },
+    {
+      "label": "last",
+      "bar": "76",
+      "occ": 1,
+      "scoreQ": 300.0,
+      "audioSeconds": 465.1178947368421,
+      "nearestOnsetDeviation": 0.010593149540511604
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "76",
+      "occ": 1,
+      "midi": 47,
+      "voice": "bass",
+      "durationQ": 4.0,
+      "onset": 465.1178947368421,
+      "offset": 477.36,
+      "durationSeconds": 12.242105263157896
+    },
+    {
+      "bar": "76",
+      "occ": 1,
+      "midi": 59,
+      "voice": "alto",
+      "durationQ": 4.0,
+      "onset": 465.1178947368421,
+      "offset": 477.36,
+      "durationSeconds": 12.242105263157896
+    },
+    {
+      "bar": "76",
+      "occ": 1,
+      "midi": 63,
+      "voice": "alto",
+      "durationQ": 4.0,
+      "onset": 465.1178947368421,
+      "offset": 477.36,
+      "durationSeconds": 12.242105263157896
+    },
+    {
+      "bar": "76",
+      "occ": 1,
+      "midi": 71,
+      "voice": "soprano",
+      "durationQ": 4.0,
+      "onset": 465.1178947368421,
+      "offset": 477.36,
+      "durationSeconds": 12.242105263157896
+    }
+  ],
+  "recurrence": [
+    {
+      "method": "Strongest 60-second fixed-lag chroma diagonal, offsets ≥20 s",
+      "cosine": 0.5883526303235206,
+      "offsetSeconds": 168.5,
+      "interpretation": "Diagnostic only; no whole-texture repeat inserted."
+    }
+  ],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.19628289473683935,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.8014365716968935,
+  "endAnchor": {
+    "scoreQ": 304.0,
+    "audioSeconds": 477.36,
+    "decodedDuration": 482.19537414965987,
+    "activeEndMinus45dB": 477.36743764172337
+  },
+  "id": "bach-wtc1-fugue-b-minor",
+  "tuningHz": 442.8,
+  "audioSha256": "d0530fc62c954b7d3182e9e4992ecb56c8f99130a582a06fc7190cf110d1251d",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Compile soprano, alto, tenore and basso separately from notes.lyi, retaining their cross-staff notes and internal subdivisions. The explicit bar-23 cross-voice F♯ tie is one event assigned to its originating Alto voice, not a new Soprano attack. The aggregate pitch/onset set equals the published MIDI. Isolated variables avoid the anonymous child-voice reuse that places the alto’s closing D♯ in the published soprano MIDI track."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      0.7851315789473684,
+      0.78
+    ],
+    [
+      132.08,
+      138.0
+    ],
+    [
+      190.1,
+      194.0
+    ],
+    [
+      263.7,
+      264.0
+    ],
+    [
+      320.68,
+      318.0
+    ],
+    [
+      397.18,
+      392.0
+    ],
+    [
+      471.07894736842104,
+      465.08
+    ]
+  ],
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.5,
+      "audioSeconds": 0.78,
+      "peakSeconds": 0.82,
+      "window": [
+        0.6,
+        1.05
+      ],
+      "midiPitches": [
+        66
+      ],
+      "basis": "Pitch-energy inspection: first F♯4 of the alto subject; final B-major chord. Unanchored DTW placed the final chord about five seconds into its decay."
+    },
+    {
+      "label": "last",
+      "scoreQ": 300.0,
+      "audioSeconds": 465.08,
+      "peakSeconds": 465.14,
+      "window": [
+        464.95,
+        465.5
+      ],
+      "midiPitches": [
+        47,
+        59,
+        63,
+        71
+      ],
+      "basis": "Pitch-energy inspection: first F♯4 of the alto subject; final B-major chord. Unanchored DTW placed the final chord about five seconds into its decay."
+    }
+  ],
+  "adaptiveOnsetCount": 1255,
+  "adaptiveMedianDeviation": 0.033215031626696145,
+  "gateReasons": [],
+  "elapsedSeconds": 0.8447843220201321,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 76,
+    "notes": 1808,
+    "voices": 4
+  }
+}

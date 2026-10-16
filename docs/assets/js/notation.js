@@ -56,7 +56,7 @@ export async function mount(main, app) {
         btn.textContent = 'Loading…';
         const ac = audioCtx(); await ac.resume();
         const synth = new ABCJS.synth.CreateSynth();
-        try { await synth.init({ audioContext: ac, visualObj: fig._visual }); await synth.prime(); }
+        try { await synth.init({ audioContext: ac, visualObj: fig._visual, options: {} }); await synth.prime(); }
         catch (err) { btn.textContent = 'Sound unavailable'; console.warn(err); return; }
         btn.classList.add('on'); btn.textContent = 'Stop';
         let lit = [];

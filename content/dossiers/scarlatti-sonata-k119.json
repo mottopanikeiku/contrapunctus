@@ -1,0 +1,180 @@
+{
+  "id": "scarlatti-sonata-k119",
+  "work": {
+    "title": "Keyboard Sonata in D major",
+    "catalogue": "K. 119",
+    "movement": "",
+    "version": {
+      "value": "Keyboard sonata performed on piano.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performer’s instrument is identified; the edition used is not."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Marcelle Meyer",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "November 1954",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The author field explicitly identifies this session month. The separate September 2023 file-description and upload dates are not performance or transfer dates.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Salle Adyar, Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Les Discophiles Français",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DF 139 1-2 (source notation)",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons supplies this reference for the Médiathèque musicale Mahler’s Discophiles français collection. The spacing and punctuation are retained; the reference has not been silently reinterpreted as a catalogue number, matrix or side pair."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Médiathèque musicale Mahler’s Discophiles français collection is credited as the source, but no transfer or mastering engineer is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration, equalisation, noise-reduction or editing procedure is documented for the upstream audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Domenico_Scarlatti_-_Sonate_en_r%C3%A9_majeur_Kk.119_%28Marcelle_Meyer%2C_1954%29.flac/Domenico_Scarlatti_-_Sonate_en_r%C3%A9_majeur_Kk.119_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 282.58666666666664
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons applies PD-old-70-1923 to the composition.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The historic recording has its own separate rights statement."
+    },
+    "recording": {
+      "value": "Commons applies PD-EU-audio: expiry of European performers’ and phonogram producers’ rights.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-audio",
+        "eu-extension",
+        "us-recordings",
+        "us-record-tag"
+      ],
+      "note": "This is a territory-specific expiry claim, not CC0 or permission from the record company. The 70-year extension did not revive recordings whose earlier term had already expired by 1 November 2013. It does not establish public-domain status in the United States. The file also carries PD-US-record. Despite its name, that template warns of continuing US protection for historic sound recordings; it is not a US public-domain declaration."
+    },
+    "creditLine": "Domenico Scarlatti, Sonata in D major, K. 119; Marcelle Meyer, piano, Salle Adyar, Paris, November 1954. Les Discophiles Français, source reference ‘DF 139 1-2’; Médiathèque musicale Mahler; Wikimedia Commons. European expiry claim only; US recording rights are not cleared here.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Domenico Scarlatti - Sonate en ré majeur Kk.119 (Marcelle Meyer, 1954).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_r%C3%A9_majeur_Kk.119_(Marcelle_Meyer,_1954).flac?oldid=1208738189",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_r%C3%A9_majeur_Kk.119_(Marcelle_Meyer,_1954).flac#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recordings",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-record-tag",
+      "title": "Wikimedia Commons — PD-US-record warning",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-US-record",
+      "locator": "Current template text and documentation: pre-1972 recordings may remain protected; not a free-use licence.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

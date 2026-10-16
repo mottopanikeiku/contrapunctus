@@ -1,0 +1,239 @@
+{
+  "id": "haydn-94-andante",
+  "work": {
+    "title": "Symphony No. 94 in G major “Surprise”",
+    "catalogue": "Hob. I:94",
+    "movement": "II. Andante",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Boston Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Serge Koussevitzky",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive",
+      "dahr-a",
+      "dahr-b"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "22 April 1929",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-a",
+        "dahr-b"
+      ],
+      "note": "Both Andante sides were recorded on this day. The complete symphony also required a session on 24 April; Commons’ 1 January 1929 is not the session day.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Symphony Hall, Boston, Massachusetts, United States",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-a",
+        "dahr-b"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-a",
+        "dahr-b"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "M-55; Andante issued on Victor 7059",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-a",
+        "dahr-b"
+      ],
+      "note": "The upstream transfer identifies set M-55. DAHR supplies the disc number for the two Andante sides."
+    },
+    "matrixTakeSides": {
+      "value": "CVE-48984, take 1: Andante, part 3; CVE-48985, take 3: Andante concluded, part 4.",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-a",
+        "dahr-b"
+      ],
+      "note": "These are the issued takes listed for M-55. No run-out inspection or aural take comparison has been performed on the digital surrogate."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Bob Varney — transfer from original Victor 78s",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": ""
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Transfer from the original Victor 78 rpm set M-55.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The transfer is documented; stylus, playback curve, side-join locations and noise treatment are not. The Commons movement is extracted from an upstream complete-symphony file, but the extraction procedure is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 438.26560090702947
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "The composer died in 1809. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Conflicting recording-rights metadata: PD-EU-audio in wikitext; CC0 in Structured data.",
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "commons-data",
+        "archive",
+        "eu-audio",
+        "us-recordings"
+      ],
+      "note": "The Internet Archive item links to a legacy public-domain dedication. That does not establish authority to waive Victor’s recording rights. US protection depends on first publication under § 1401 and is not cleared by an EU expiry tag.",
+      "alternatives": [
+        {
+          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "sourceIds": [
+            "commons",
+            "eu-audio"
+          ]
+        },
+        {
+          "value": "CC0 — dedication asserted by Commons Structured data.",
+          "sourceIds": [
+            "commons-data"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Joseph Haydn, Symphony No. 94, II; Boston Symphony Orchestra, Serge Koussevitzky, 22 April 1929. Victor M-55 / 7059; transfer by Bob Varney, Internet Archive, via Wikimedia Commons. Rights metadata conflicts; no worldwide recording clearance is asserted.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_2._Andante.ogg?oldid=638011151",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_2._Andante.ogg#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Haydn Symphony No. 94",
+      "url": "https://archive.org/metadata/Haydn_Symphony_No_94_Surprise",
+      "locator": "metadata.description: Koussevitzky and Boston Symphony, 1929; transfer from original Victor 78 set M-55 by Bob Varney. Uploaded in December 2008; upload is not the session or transfer date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "dahr-a",
+      "title": "DAHR — Victor matrix CVE-48984",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022770",
+      "locator": "Second movement, Andante, part 3; master take 1, 22 April 1929, Symphony Hall, Boston; Victor 7059 and M-55. The disc uses the older symphony number 6; DAHR identifies Hob. I:94.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "dahr-b",
+      "title": "DAHR — Victor matrix CVE-48985",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022771",
+      "locator": "Second movement, Andante concluded, part 4; take 3, 22 April 1929, Symphony Hall, Boston; Victor 7059 and M-55.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Joseph Haydn — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Haydn",
+      "locator": "Lead paragraph: composer’s death year.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recordings",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

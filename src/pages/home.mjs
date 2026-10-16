@@ -45,7 +45,7 @@ export async function build(out) {
       <p class="promise">Real performances, with a short guide to what is happening as the music plays. No score-reading needed.</p>
       <div class="feature">
         <span class="label">Start here · ${esc(c.name)}, ${esc(f.year ?? '')}</span>
-        <h2>${esc(f.work)}</h2>
+        <h2>${esc(f.work)}${f.movement ? `: ${esc(f.movement)}` : ""}</h2>
         <p class="q">${esc(f.question ?? '')}</p>
         <div style="display:flex;gap:.75rem;flex-wrap:wrap">
           <button class="btn primary" type="button" data-play-id="${f.id}">${icon.play}<span>Play the complete piece · ${fmt(s.duration)}</span></button>

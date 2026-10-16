@@ -13,7 +13,7 @@ export default {
   key: 'G minor',
   forces: 'Piano',
   performers: 'Frank Lévy',
-  recorded: 'c. 2014',
+  recorded: '',
   source: { file: 'File:Chopin - Ballade No. 1 in G minor, Op. 23 (Frank Levy).flac' },
   intro: 'Chopin gives the piano the title of a narrative poem without supplying a plot. Two themes return in altered proportions, and a fast coda overturns the measured pace of the opening.',
   question: 'How does a quiet theme become a forceful return?',

@@ -75,9 +75,9 @@ export function harmonicSeriesSvg() {
     const x = left + (n - 1) * step;
     const h = 200 / n + 8;
     const off = Math.abs(dev) > 20;
-    parts.push(`<g class="h" data-n="${n}" tabindex="0" role="button" aria-label="Partial ${n}, ${name}, ${dev} cents from equal temperament"><rect x="${x - 7}" y="${base - h}" width="14" height="${h}"${off ? ' class="off"' : ''} fill="currentColor" opacity=".85"/><text x="${x}" y="${base + 20}" text-anchor="middle" font-size="16" fill="currentColor">${n}</text><text x="${x}" y="${base + 40}" text-anchor="middle" font-size="14" fill="currentColor">${name}</text><text x="${x}" y="${base + 56}" text-anchor="middle" font-size="12" fill="currentColor" opacity=".7">${dev === 0 ? '±0' : (dev > 0 ? '+' : '−') + Math.abs(dev)}¢</text></g>`);
+    parts.push(`<g class="h" data-n="${n}" tabindex="0" role="button" aria-label="Partial ${n}, ${name}, ${dev} cents from equal temperament"><rect class="hit" x="${x - step / 2}" y="20" width="${step}" height="${H - 20}" fill="transparent"/><rect x="${x - 7}" y="${base - h}" width="14" height="${h}"${off ? ' class="off"' : ''} fill="currentColor" opacity=".85"/><text x="${x}" y="${base + 20}" text-anchor="middle" font-size="16" fill="currentColor">${n}</text><text x="${x}" y="${base + 40}" text-anchor="middle" font-size="14" fill="currentColor">${name}</text><text x="${x}" y="${base + 56}" text-anchor="middle" font-size="12" fill="currentColor" opacity=".7">${dev === 0 ? '±0' : (dev > 0 ? '+' : '−') + Math.abs(dev)}¢</text></g>`);
   }
-  return `<figure class="series-fig"><svg class="series" viewBox="0 0 ${W} ${H + 20}" role="img" aria-label="The harmonic series over C: partials 1 to 16">${[0, 1, 2, 3, 4].map((i) => `<line x1="${left - 20}" x2="${W - 10}" y1="${base - 40 * i - 0.5}" y2="${base - 40 * i - 0.5}" stroke="currentColor" opacity="${i ? 0.12 : 0.6}"/>`).join('')}${parts.join('')}</svg>
+  return `<figure class="series-fig"><div class="series-scroll"><svg class="series" viewBox="0 0 ${W} ${H + 20}" role="img" aria-label="The harmonic series over C: partials 1 to 16">${[0, 1, 2, 3, 4].map((i) => `<line x1="${left - 20}" x2="${W - 10}" y1="${base - 40 * i - 0.5}" y2="${base - 40 * i - 0.5}" stroke="currentColor" opacity="${i ? 0.12 : 0.6}"/>`).join('')}${parts.join('')}</svg></div>
 <figcaption>The harmonic series over C. Bar height is roughly the relative strength of each partial (1/<i>n</i>). Ochre partials lie more than 20 cents from the nearest note of twelve-tone equal temperament; the 7th, 11th, 13th and 14th are the ones an ordinary equal-tempered keyboard does not reproduce. Select a partial to hear it against the fundamental.</figcaption></figure>`;
 }
 
@@ -147,8 +147,8 @@ export function arts(ctx, list = []) {
 /** Notation examples. Each is labelled as a quotation or a schematic, never both. */
 export function scoresHtml(ctx, list = []) {
   return list.map((s, i) => {
-    const text = `${s.title} ${s.caption ?? ''}`;
-    const schematic = /schematic|invented|illustrat|not a (quotation|transcription)/i.test(text);
+    const text = `${s.kicker ?? ''} ${s.title} ${s.caption ?? ''}`;
+    const schematic = s.kind ? s.kind === 'schematic' : /schematic|invented|illustrat|not a (quotation|transcription)/i.test(text);
     return `<figure class="score" id="${attr(s.id ?? `ex-${i + 1}`)}"><div class="score-head"><h4>${s.kicker ? `<span class="sc">${esc(s.kicker)}</span>` : ''}${esc(s.title)}<br><span class="score-kind ${schematic ? 'schematic' : 'quote'}">${schematic ? 'Teaching schematic' : 'From the score'}</span></h4><button class="play" type="button">Play example</button></div>
 <div class="abc"></div><script type="text/vnd.abc">${s.abc.trim().replace(/<\/script/gi, '<\\/script')}</script>
 ${s.caption ? `<figcaption>${rich(ctx, s.caption)}</figcaption>` : ''}</figure>`;
@@ -195,7 +195,14 @@ export function resolveCues(l) {
 
 export function recordingLine(l) {
   const d = dossiers.get(l.id);
-  const perf = d?.performers?.value?.length ? d.performers.value.map((p) => p.name + (p.role && !/ensemble|orchestra/i.test(p.role) ? ` (${p.role})` : '')).join(', ') : l.performers;
+  const names = (v) => (Array.isArray(v) ? v : v ? [v] : []).map((p) => (typeof p === 'string' ? p : p.name + (p.role && !/ensemble|orchestra|choir|band/i.test(p.role) ? ` (${p.role})` : ''))).join(', ');
+  let perf = l.performers;
+  if (d?.performers) {
+    const f = d.performers;
+    if (f.status === 'disputed' && f.alternatives?.length) perf = `${f.alternatives.map((a) => names(a.value)).join(' or ')} (attribution disputed)`;
+    else if (names(f.value)) perf = names(f.value) + (f.status === 'inferred' ? ' (inferred)' : '');
+    else if (f.status === 'unknown') perf = 'Performers not identified';
+  }
   const date = d?.session?.date?.value && d.session.date.status !== 'unknown' ? `${d.session.date.status === 'disputed' ? 'recorded ' : 'recorded '}${d.session.date.value}${d.session.date.status === 'inferred' ? ' (inferred)' : d.session.date.status === 'disputed' ? ' (disputed)' : ''}` : (l.recorded ? `recorded ${l.recorded}` : '');
   return [perf, date].filter(Boolean).join(' · ');
 }

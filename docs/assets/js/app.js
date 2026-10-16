@@ -158,7 +158,7 @@ document.addEventListener('click', (e) => {
 });
 
 // menu
-$('[data-open-menu]')?.addEventListener('click', (e) => openDialog($('[data-menu]'), e.currentTarget));
+document.addEventListener('click', (e) => { const b = e.target.closest('[data-open-menu]'); if (b) openDialog($('[data-menu]'), b); });
 
 // programme (choose music)
 async function openProgramme(opener) {
@@ -221,7 +221,7 @@ function renderResults(q) {
   scored.sort((a, b) => b[0] - a[0]);
   box.innerHTML = scored.slice(0, 30).map(([, e], i) => `<li><a href="${new URL(e.url, BASE).href}" role="option"${i === 0 ? ' aria-selected="true"' : ''}><span class="t">${e.type}</span><span><span class="n">${e.title}</span><span class="s">${e.sub ?? ''}${e.audio ? ' · <span class="audio">recording</span>' : ''}</span></span></a></li>`).join('') || '<li class="search-empty">No matches. Try fewer words.</li>';
 }
-$('[data-open-search]')?.addEventListener('click', (e) => openSearch(e.currentTarget));
+document.addEventListener('click', (e) => { const b = e.target.closest('[data-open-search]'); if (b) { e.preventDefault(); openSearch(b); } });
 $('[data-search-input]')?.addEventListener('input', (e) => renderResults(e.target.value));
 $('[data-search-input]')?.addEventListener('keydown', (e) => {
   const opts = $$('[data-search-results] a');
