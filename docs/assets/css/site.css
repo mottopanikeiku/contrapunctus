@@ -898,3 +898,7 @@ dialog.viewer::backdrop { background: rgba(21, 26, 25, .7); }
 /* ---------- Return Lab ---------- */
 .rl-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1rem; }
 .rl-board canvas { height: clamp(18rem, 46vh, 26rem); }
+
+/* Lifelines and About — stable chart strokes and usable source-link targets. */
+.lifelines-page .tl .grid line, .lifelines-page .tl .event line { vector-effect: non-scaling-stroke; stroke-width: 1; }
+.about-page .credits td:nth-child(2) > a { display: inline-flex; align-items: center; min-height: 2.75rem; }
