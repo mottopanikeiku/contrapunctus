@@ -1,0 +1,48 @@
+// Historical sources: https://www.bso.org/works/piano-concerto-no-2-6
+// https://www.rachmaninoffdiary.com/diary-entry/conductor?page=1
+// https://www.bfi.org.uk/film/9fb16d4b-9efa-5913-b073-90bff73bf1e4/brief-encounter
+// Score outline: https://en.wikipedia.org/wiki/Piano_Concerto_No._2_(Rachmaninoff)
+export default {
+  id: 'rachmaninoff-concerto-2-moderato',
+  composer: 'rachmaninoff',
+  order: 1,
+  work: 'Piano Concerto No. 2, Op. 18',
+  movement: 'I. Moderato',
+  year: '1900–01',
+  key: 'C minor',
+  forces: 'Piano and orchestra',
+  performers: 'Sviatoslav Richter, Warsaw National Philharmonic Orchestra, Stanisław Wisłocki',
+  recorded: '1959',
+  source: { file: 'File:Sergei Rachmaninov - Concerto no. 2 for Piano and Orchestra in C minor - 1. Moderato (Sviatoslav Richter, Stanisław Wisłocki, Warsaw National Philharmonic Orchestra, 1959).flac' },
+  intro: 'The piano begins alone with tolling chords, then gives the first melody to the orchestra. Listen for the changing division of labour: the soloist supplies accompaniment, sings, and turns the same material into a march.',
+  sections: [
+    { t: 0, label: 'Introduction · piano bells' },
+    { t: 24, label: 'First subject · C minor' },
+    { t: 150, label: 'Second subject · E♭ major' },
+    { t: 240, label: 'Development' },
+    { t: 380, label: 'Climax and return' },
+    { t: 500, label: 'Second subject · horn' },
+    { t: 596, label: 'Closing section · C minor' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'Not yet C minor', text: 'Repeated piano chords answer a low F. Although the concerto is in C minor, these opening harmonies circle F minor; each toll grows louder before the orchestra arrives.', evidence: 'F in bass throughout 0:00–0:20; F minor estimates 0:00–0:15; loudness rises from −45.9 dB at 0:00 to −14.5 at 0:20.' },
+    { t: 24, kind: 'form', title: 'The orchestra takes the melody', text: 'The orchestra takes the first melody in C minor while the piano supplies running broken chords. Keep the two layers separate: the tune advances mainly by steps; the keyboard fills the space between them.', evidence: 'Strong boundary 0:24 (0.87); C/G/E♭ pitch classes and C minor r=0.88 at 0:25; sustained louder span 0:25–0:55.' },
+    { t: 62, kind: 'life', title: 'After the First Symphony', text: 'The failure of Rachmaninoff’s First Symphony in 1897 damaged his confidence for roughly three years. He composed little, but did not stop working: conducting and teaching continued through the period that preceded this concerto.' },
+    { t: 101, kind: 'listen', title: 'Melody versus activity', text: 'Throughout this opening section, distinguish the bass, the running figures and the slower melodic line. Rachmaninoff can give the most notes to a player who is not carrying the tune; the piano is often the accompaniment rather than the speaker.', evidence: 'First-subject span after boundary 0:24; C-minor pitch framework persists through 1:40, followed by the quieter transition at 1:45–2:10. General texture cue, not a new entrance.' },
+    { t: 140, kind: 'life', title: 'The doctor in the dedication', text: 'From January to April 1900 Rachmaninoff consulted Nikolai Dahl, a physician who used hypnosis and repeated encouragement. Dahl was also an amateur musician. The concerto’s dedication names him, not a pianist or patron.' },
+    { t: 160, kind: 'form', title: 'The piano becomes the singer', text: 'The second subject belongs first to the piano, in E♭ major, the relative major of C minor. Instead of decorating someone else’s melody, the soloist shapes a sustained line above its own accompaniment.', evidence: 'Quiet reset at 2:25 (−31.2 dB); onset activity resumes at 2:30; E♭/B♭/G pitch classes and E♭ major r=0.85–0.86 at 2:40–2:45 confirm the score’s second-subject region.' },
+    { t: 199, kind: 'music', title: 'The phrase expands', text: 'The sound grows fuller and louder without leaving the second subject’s tonal region. Follow the long melodic notes through the piano’s smaller figures: a phrase can broaden even while the number of attacks increases.', evidence: 'Loudness rises from −24.0 dB at 3:00 to −13.8 at 3:25; boundaries 3:26 and 3:38; onset density reaches 3.2/s at 3:35, with E♭ major retained.' },
+    { t: 240, kind: 'form', title: 'The development begins quietly', text: 'The settled E♭ major span gives way to quieter music. In the development, fragments of the two subjects travel between keys instead of returning as complete tunes; recognition depends on rhythm and contour as much as on the original harmony.', evidence: 'E♭-major span through 3:50 gives way to C minor at 4:00 (r=0.90); loudness falls from −13.5 dB at 3:55 to −24.0 at 4:00. Subsequent boundaries 4:32, 4:56 and 5:08 divide the developing material.' },
+    { t: 275, kind: 'world', title: 'Moscow, November 1901', text: 'Rachmaninoff played the complete concerto’s premiere in Moscow on 9 November 1901, with Alexander Siloti conducting. Siloti was his cousin and former piano teacher. The first movement was finished last, after the other two had already been performed.' },
+    { t: 315, kind: 'listen', title: 'Held sound, moving sound', text: 'This relatively sustained passage is a pause before another increase in activity. Listen for the piano’s attacks to tighten into a more insistent pattern over the next few phrases.', evidence: 'Boundary 5:08; onset density stays at 0.4/s from 5:05 to 5:20, then jumps to 4.6/s at 5:25 after boundary 5:24.' },
+    { t: 352, kind: 'music', title: 'Harmony without a resting place', text: 'The middle of the movement passes through several key regions in quick succession. The bass keeps relocating beneath fragments of themes already introduced; the rising pressure comes from harmonic motion as well as increasing volume.', evidence: 'Boundaries 5:24, 5:48 and 6:04; bass changes from B♭ at 5:40 to A, A♭ and back to A at 5:50–6:00; loudness rises from −17.2 dB at 5:45 to −10.2 at 6:05.' },
+    { t: 382, kind: 'form', title: 'The return, made martial', text: 'At the central peak, the piano’s chordal attacks compete with the orchestra rather than decorate it. The first subject returns against a march-like piano part: the same melody has acquired a different accompaniment.', evidence: 'C minor returns at 6:20 (r=0.79), coinciding with the loudest five-second window (−5.9 dB); dense attacks, 4.6/s, and sustained high volume through 7:00 anchor the score’s climactic recapitulation.' },
+    { t: 419, kind: 'music', title: 'The peak falls away', text: 'The full sound begins to recede. Notice how quickly Rachmaninoff reduces the pressure after sustaining the climax: the melody continues, but the accompaniment no longer has to strike with the same weight.', evidence: 'Loudness falls from −7.4 dB at 7:00 to −19.5 at 7:10; brightness drops from 1483 to 759 Hz over the same interval.' },
+    { t: 456, kind: 'life', title: 'A pianist in the opera pit', text: 'During the 1897–98 season Rachmaninoff conducted at Savva Mamontov’s Moscow Private Russian Opera and worked with the bass Feodor Chaliapin. In 1898 he conducted Chaliapin as the Mayor in Rimsky-Korsakov’s <i>May Night</i>: his experience of melody included accompanying a singer from the pit.' },
+    { t: 500, kind: 'music', title: 'The second subject changes hands', text: 'The second subject is recast as a horn solo, with the piano no longer its singer. The quieter, sustained texture makes a melodic return sound different without needing a new tune.', evidence: 'Onset density drops to 0–0.2/s during 8:20–8:45; −25.3 dB at 8:20 and −25.7 at 8:35; A♭/E♭/C pitch classes at 8:35–8:40 match the score’s A♭-major horn restatement.' },
+    { t: 539, kind: 'world', title: 'A concerto in the cinema', text: 'David Lean’s <i>Brief Encounter</i> used the Second Concerto in 1945. Its railway-station meetings and restrained conversations gave the music another setting: Celia Johnson and Trevor Howard play two married people whose affair cannot become a shared life.' },
+    { t: 578, kind: 'listen', title: 'A brief opening into major', text: 'A short major-key colouring interrupts the return towards C minor. Listen for E♭ to reassert the minor mode: the concerto’s first movement does not adopt the major-key ending that Rachmaninoff reserves for the finale.', evidence: 'Strong boundary 9:40; C/G/E pitch classes and C major estimate at 9:50, followed by C/F♯/E♭ at 9:55 and firm C minor at 10:00 (r=0.92). The major arpeggio is also part of the score’s closing sequence.' },
+    { t: 615, kind: 'form', title: 'The ending holds back', text: 'The closing section draws on the first subject, still quietly. Rachmaninoff delays the final acceleration: a coda can spend time reducing the music before it makes its last, concentrated burst.', evidence: 'Boundary 9:56 begins the sustained C-minor closing span; −22.6 dB at 10:15 and −26.3 at 10:20, with C minor retained through the final buildup.' },
+    { t: 651, kind: 'music', title: 'The last acceleration', text: 'The attacks become more frequent and the volume rises sharply. The final chords close in C minor; the earlier major-key glimpse has not changed the destination.', evidence: 'Boundary 10:52; onset density rises from 1.4/s at 10:40 to 4.0/s at 10:55, loudness from −20.9 to −7.5 dB; C minor r=0.89 at 10:55, then decay to −52.3 dB at 11:05.' },
+  ],
+};
