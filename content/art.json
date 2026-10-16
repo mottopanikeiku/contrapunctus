@@ -120,6 +120,28 @@
   "license": "Public domain",
   "credit": "\"The Eastern Front in Photographs\", John Erickson // http://waralbum.ru/51876/ // http://visualrian.ru/media/2352163.html"
  },
+ "File:Anton Bruckner (Kaulbach).jpg": {
+  "id": "anton-bruckner-kaulbach",
+  "src": "assets/img/art/anton-bruckner-kaulbach.webp",
+  "w": 1280,
+  "h": 1610,
+  "page": "https://commons.wikimedia.org/wiki/File:Anton_Bruckner_(Kaulbach).jpg",
+  "artist": "Hermann Kaulbach",
+  "date": "1885 date QS:P571,+1885-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Scan aus: Rudolf Lehr – Landeschronik Oberösterreich , Wien: Verlag Christian Brandstätter 2008 S. 276 ISBN 978-3-85498-331-6"
+ },
+ "File:Anton Bruckner und Richard Wagner. Schattenbild von Otto Böhler (1847–1913).jpg": {
+  "id": "anton-bruckner-und-richard-wagner-schattenbild-von-otto-bohler-1847-1913",
+  "src": "assets/img/art/anton-bruckner-und-richard-wagner-schattenbild-von-otto-bohler-1847-1913.webp",
+  "w": 529,
+  "h": 734,
+  "page": "https://commons.wikimedia.org/wiki/File:Anton_Bruckner_und_Richard_Wagner._Schattenbild_von_Otto_B%C3%B6hler_(1847%E2%80%931913).jpg",
+  "artist": "Otto Böhler",
+  "date": "circa 1885 date QS:P,+1885-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "credit": "ÖNB, Bildarchiv Austria , Inventarnummer Pf 373 : E (4) ( https://www.bildarchivaustria.at/Pages/ImageDetail.aspx?p_iBildID=14690007 )"
+ },
  "File:Anton Webern in Stettin, October 1912.jpg": {
   "id": "anton-webern-in-stettin-october-1912",
   "src": "assets/img/art/anton-webern-in-stettin-october-1912.webp",
@@ -637,6 +659,17 @@
   "license": "Public domain",
   "credit": "photo Shonagon 2024-04-05"
  },
+ "File:Fux-Gradus-ad-Parnassum.jpg": {
+  "id": "fux-gradus-ad-parnassum",
+  "src": "assets/img/art/fux-gradus-ad-parnassum.webp",
+  "w": 663,
+  "h": 968,
+  "page": "https://commons.wikimedia.org/wiki/File:Fux-Gradus-ad-Parnassum.jpg",
+  "artist": "Johann Joseph Fux",
+  "date": "1725",
+  "license": "Public domain",
+  "credit": "http://www.oeaw.ac.at/kmf/projekte/fux/fux_g.jpg"
+ },
  "File:Gabriel Fauré - Ch. Reutlinger, Paris - btv1b8417644r.jpg": {
   "id": "gabriel-faure-ch-reutlinger-paris-btv1b8417644r",
   "src": "assets/img/art/gabriel-faure-ch-reutlinger-paris-btv1b8417644r.webp",
@@ -823,6 +856,17 @@
   "date": "5 January 2008 (original upload date) ( Original text: 1-4-2008 )",
   "license": "CC BY-SA 3.0",
   "credit": "http://earbox.com/images/JA-portrait-1-LW.jpg"
+ },
+ "File:Jacques-Émile Blanche - Portrait de Francis Poulenc - PPP3772 - Musée des Beaux-Arts de la ville de Paris.jpg": {
+  "id": "jacques-emile-blanche-portrait-de-francis-poulenc-ppp3772-musee-des-beaux-arts-d",
+  "src": "assets/img/art/jacques-emile-blanche-portrait-de-francis-poulenc-ppp3772-musee-des-beaux-arts-d.webp",
+  "w": 1280,
+  "h": 1636,
+  "page": "https://commons.wikimedia.org/wiki/File:Jacques-%C3%89mile_Blanche_-_Portrait_de_Francis_Poulenc_-_PPP3772_-_Mus%C3%A9e_des_Beaux-Arts_de_la_ville_de_Paris.jpg",
+  "artist": "Jacques-Émile Blanche",
+  "date": "1920",
+  "license": "Public domain",
+  "credit": "Paris Musées"
  },
  "File:Jacques-Louis David, Le Serment des Horaces.jpg": {
   "id": "jacques-louis-david-le-serment-des-horaces",
@@ -1033,6 +1077,17 @@
   "license": "Public domain",
   "credit": "Retouched from File:L'Embarquement pour Cythere, by Antoine Watteau, from C2RMF.jpg , originally C2RMF: Galerie de tableaux en très haute définition : image page"
  },
+ "File:Le Dromadaire (Apollinaire - Le Bestiaire, ou Cortège d'Orphée).jpg": {
+  "id": "le-dromadaire-apollinaire-le-bestiaire-ou-cortege-d-orphee",
+  "src": "assets/img/art/le-dromadaire-apollinaire-le-bestiaire-ou-cortege-d-orphee.webp",
+  "w": 1280,
+  "h": 1342,
+  "page": "https://commons.wikimedia.org/wiki/File:Le_Dromadaire_(Apollinaire_-_Le_Bestiaire,_ou_Cort%C3%A8ge_d%27Orph%C3%A9e).jpg",
+  "artist": "Raoul Dufy",
+  "date": "1911 date QS:P571,+1911-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "File:Apollinaire - Le Bestiaire, ou Cortège d'Orphée.djvu"
+ },
  "File:Le Petit Poucet (136547871).jpg": {
   "id": "le-petit-poucet-136547871",
   "src": "assets/img/art/le-petit-poucet-136547871.webp",
@@ -1087,6 +1142,17 @@
   "date": "1899",
   "license": "Public domain",
   "credit": "https://ndk.cz/view/uuid:9d452470-905f-11dd-9c34-000d606f5dc6?page=uuid:a8426d20-cbba-11e6-b22f-5ef3fc9ae867"
+ },
+ "File:Les Six Tableau.jpg": {
+  "id": "les-six-tableau",
+  "src": "assets/img/art/les-six-tableau.webp",
+  "w": 1280,
+  "h": 2174,
+  "page": "https://commons.wikimedia.org/wiki/File:Les_Six_Tableau.jpg",
+  "artist": "Jacques-Émile Blanche",
+  "date": "1922 date QS:P571,+1922-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Cropped from the file found here"
  },
  "File:Lili Boulanger, 1er Grand Prix de Rome de musique - btv1b9022337j.jpg": {
   "id": "lili-boulanger-1er-grand-prix-de-rome-de-musique-btv1b9022337j",
@@ -1230,6 +1296,17 @@
   "date": "1907",
   "license": "Public domain",
   "credit": "https://mahlerfoundation.org/mahler/chronology/1898-1907-vienna/year-1907/"
+ },
+ "File:Piero della Francesca - Madonna del Parto - WGA17613.jpg": {
+  "id": "piero-della-francesca-madonna-del-parto-wga17613",
+  "src": "assets/img/art/piero-della-francesca-madonna-del-parto-wga17613.webp",
+  "w": 1000,
+  "h": 1260,
+  "page": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Madonna_del_Parto_-_WGA17613.jpg",
+  "artist": "Piero della Francesca",
+  "date": "1467 date QS:P571,+1467-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Web Gallery of Art : Image Info about artwork wga QS:P11807,\"p/piero/3/10parto\""
  },
  "File:Pierre Boulez , Franse dirigent, Bestanddeelnr 921-1210.jpg": {
   "id": "pierre-boulez-franse-dirigent-bestanddeelnr-921-1210",
@@ -1407,6 +1484,17 @@
   "license": "CC0",
   "credit": "This file was donated to Wikimedia Commons as part of a project by the National Gallery of Art . Please see the Gallery's Open Access Policy ."
  },
+ "File:Robert Schumann 1839.jpg": {
+  "id": "robert-schumann-1839",
+  "src": "assets/img/art/robert-schumann-1839.webp",
+  "w": 1280,
+  "h": 1280,
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_1839.jpg",
+  "artist": "Josef Kriehuber",
+  "date": "1839 date QS:P571,+1839-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "This image has been extracted from another file"
+ },
  "File:Roerich 02 Idols.jpg": {
   "id": "roerich-02-idols",
   "src": "assets/img/art/roerich-02-idols.webp",
@@ -1472,6 +1560,17 @@
   "date": "Unknown date",
   "license": "Public domain",
   "credit": "Library of Congress / http://hdl.loc.gov/loc.pnp/ggbain.30160"
+ },
+ "File:Siegfried and the Twilight of the Gods p 004.jpg": {
+  "id": "siegfried-and-the-twilight-of-the-gods-p-004",
+  "src": "assets/img/art/siegfried-and-the-twilight-of-the-gods-p-004.webp",
+  "w": 1280,
+  "h": 1906,
+  "page": "https://commons.wikimedia.org/wiki/File:Siegfried_and_the_Twilight_of_the_Gods_p_004.jpg",
+  "artist": "Arthur Rackham",
+  "date": "1911; New Impression's plates are the same as those of the first edition.",
+  "license": "Public domain",
+  "credit": "; Rackham, Arthur (illus) (August 1924) [ 1911 ] Siegfried & The Twilight of the Gods (New Impression ed.), London : William Heinemann, p. p. 4 Retrieved on 22 June 2011."
  },
  "File:Sofia Gubaidulina (2016-11-03).jpg": {
   "id": "sofia-gubaidulina-2016-11-03",
@@ -1648,6 +1747,17 @@
   "date": "1726-01-01",
   "license": "CC0",
   "credit": "https://www.loc.gov/resource/muspre1800.101949/?sp=2&st=gallery"
+ },
+ "File:Topographia Austriae superioris modernae - Closter Florian.jpg": {
+  "id": "topographia-austriae-superioris-modernae-closter-florian",
+  "src": "assets/img/art/topographia-austriae-superioris-modernae-closter-florian.webp",
+  "w": 1280,
+  "h": 962,
+  "page": "https://commons.wikimedia.org/wiki/File:Topographia_Austriae_superioris_modernae_-_Closter_Florian.jpg",
+  "artist": "Georg Matthäus Vischer",
+  "date": "erstmals erschienen 1674, Ausgabe 1677",
+  "license": "Public domain",
+  "credit": "Georg Matthäus Vischer: Topographia Austriae superioris modernae , Tafel 45 (Digitalisat der Oberösterreichischen Landesbibliothek ) aufgerufen am 28. Februar 2013"
  },
  "File:Tsarevna-Lebed by Mikhail Vrubel.jpg": {
   "id": "tsarevna-lebed-by-mikhail-vrubel",

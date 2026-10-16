@@ -56,7 +56,7 @@ V:1 name="Upper parts"
 V:2 name="Pedal" clef=bass
 V:1
 %%MIDI program 48
-[DFA]4 | [_EGB]4 | [DFA]4 | [CEG]4 |]
+[DFA]4 | [_EG_B]4 | [DFA]4 | [CEG]4 |]
 V:2
 %%MIDI program 19
 D,,4 | D,,4 | D,,4 | D,,4 |]`, caption: 'An invented study of a sustained bass, not a quotation from Psalm 130. The D remains while the upper triad moves from D minor to E♭ major; E♭ against D creates semitone friction across the registers. Returning to D minor releases that particular friction without requiring a dominant chord. The example isolates one way to hear bass persistence and changing choral sonority in Boulanger’s larger works.' },
