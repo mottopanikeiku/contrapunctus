@@ -76,3 +76,36 @@ export async function search(q, limit = 12) {
   const data = await res.json();
   return data.query.search.map((s) => s.title);
 }
+
+const stripAudio = (s = '') => s.replace(/<[^>]+>/g, ' ').replace(/&nbsp;|&#160;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+
+export async function commonsApi(params) {
+  const url = new URL(API);
+  url.search = new URLSearchParams({ format: 'json', formatversion: '2', ...params });
+  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  if (!res.ok) throw new Error(`Commons ${res.status}`);
+  return res.json();
+}
+
+/** Resolve a Commons audio file to metadata and a browser-streamable MP3 URL (CORS-enabled). */
+export async function audioInfo(file) {
+  const d = await commonsApi({ action: 'query', titles: normalizeTitle(file), prop: 'videoinfo', viprop: 'url|size|mime|extmetadata|derivatives', redirects: '1' });
+  const p = d.query.pages[0];
+  const vi = p.videoinfo?.[0];
+  if (p.missing || !vi) return null;
+  const m = vi.extmetadata ?? {};
+  const mp3 = vi.mime === 'audio/mpeg' ? vi.url : vi.derivatives?.find((x) => x.type?.startsWith('audio/mpeg'))?.src;
+  return {
+    title: p.title,
+    duration: vi.duration,
+    mime: vi.mime,
+    stream: mp3?.split('?')[0],
+    page: vi.descriptionurl,
+    artist: stripAudio(m.Artist?.value),
+    license: stripAudio(m.LicenseShortName?.value),
+    date: stripAudio(m.DateTimeOriginal?.value),
+    description: stripAudio(m.ImageDescription?.value).slice(0, 500),
+    credit: stripAudio(m.Credit?.value).slice(0, 300),
+  };
+}
+

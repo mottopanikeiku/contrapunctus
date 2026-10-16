@@ -1,3 +1,5 @@
 node_modules/
 .DS_Store
 docs/assets/img/art/*.src
+.venv/
+cache/
