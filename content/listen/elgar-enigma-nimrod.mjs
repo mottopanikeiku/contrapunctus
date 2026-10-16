@@ -1,0 +1,28 @@
+export default {
+  id: 'elgar-enigma-nimrod',
+  composer: 'elgar',
+  order: 1,
+  work: 'Variations on an Original Theme “Enigma”, Op. 36',
+  movement: 'IX. Nimrod — Adagio',
+  year: '1898–99',
+  key: 'E♭ major',
+  forces: 'Orchestra',
+  performers: 'Hallé Orchestra, John Barbirolli',
+  recorded: '1947',
+  source: { file: 'File:Elgar; Enigma variations, Theme IX. Nimrod.ogg' },
+  intro: 'A portrait of August Jaeger, the publisher’s reader who encouraged Elgar when he was close to giving up. Listen for the quiet retreats between its broad orchestral swells.',
+  sections: [
+    { t: 0, label: 'Quiet opening' },
+    { t: 32, label: 'First expansion' },
+    { t: 92, label: 'Sustained climax' },
+    { t: 156, label: 'Withdrawal' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'An Adagio in three', text: 'The quiet string melody moves in three beats to the bar, not the four of the original Enigma theme. Listen for the difference between the steady beat and the longer phrase: the tune does not stop at each bar line.', evidence: 'Opening −28.4 dB at 0:00, rising to −16.2 at 0:15; low onset density 0:05–0:20. Metre and phrasing from the score.' },
+    { t: 31, kind: 'life', title: 'The friend behind Nimrod', text: 'August Jaeger worked for Elgar’s publisher, Novello, and encouraged him through periods of discouragement. This variation remembers their friendship; the complete set is dedicated “to my friends pictured within”.', evidence: 'https://elgar.org/3enigma.htm' },
+    { t: 65, kind: 'world', title: 'A public breakthrough', text: 'Hans Richter conducted the first performance of the <i>Enigma Variations</i> at St James’s Hall, London, on 19 June 1899. Elgar was forty-two; the work established a national reputation after years of teaching and provincial music-making.', evidence: 'https://elgar.org/3enigma.htm; https://www.elgar.org/2english.htm' },
+    { t: 100, kind: 'music', title: 'The strongest swell', text: 'This is the recording’s strongest swell, though another follows before the end. Listen beneath the melody: moving inner parts keep the harmony changing even while the upper line sustains a note.', evidence: 'Loudest five-second window at 1:40, −4.4 dB; sustained loud span 1:30–2:25. A later swell reaches −6.1 dB at 2:25; inner-part motion is a general score-based listening point.' },
+    { t: 130, kind: 'life', title: 'Scores in the shop', text: 'Elgar’s father kept a music shop in Worcester and played the organ at St George’s Catholic Church. Elgar learned from its scores and from practical work as a violinist, teacher and organist, rather than a conservatoire composition course.', evidence: 'https://www.elgar.org/2english.htm; https://www.elgarfoundation.org/biography.html' },
+    { t: 156, kind: 'music', title: 'The final withdrawal', text: 'The orchestra withdraws quickly after the last swell. E♭ major remains, but the volume drains away: Elgar closes the variation by reducing its weight rather than adding another emphatic cadence.', evidence: 'Strongest boundary 2:36; −6.1 dB at 2:25 → −21.7 at 2:35 → −48.5 at 2:50; E♭–G–B♭ chroma in the last window.' },
+  ],
+};
