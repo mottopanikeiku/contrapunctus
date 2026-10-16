@@ -1,0 +1,35 @@
+// Score and history: https://www.bso.org/works/brahms-symphony-no-3
+// Life: https://www.brahms-institut.de/application/files/6915/9282/6446/press_info_brahms_biography_engl.pdf
+export default {
+  id: 'brahms-3-poco-allegretto',
+  composer: 'brahms',
+  order: 1,
+  work: 'Symphony No. 3 in F major, Op. 90',
+  movement: 'III. Poco allegretto',
+  year: '1883',
+  key: 'C minor',
+  forces: 'Orchestra',
+  performers: 'Musopen Symphony',
+  recorded: '2012',
+  source: { file: 'File:Brahms - Symphony No. 3 in F major, Op. 90 - III. Poco allegretto (Musopen Symphony).flac' },
+  intro: 'Instead of a scherzo, Brahms writes a C minor song in three beats. Trumpets and timpani remain silent while the melody passes between the strings and solo winds.',
+  sections: [
+    { t: 0, label: 'A · C minor song' },
+    { t: 110, label: 'B · middle section' },
+    { t: 214, label: 'A′ · horn-led return' },
+    { t: 330, label: 'Coda' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'A melody for cellos', text: 'The cellos begin the main tune over a gently moving accompaniment. Its phrases lean across the three-beat bars; the melody’s breathing and the accompaniment’s pulse do not always coincide.', evidence: 'Opening sound with C/G/E♭; C minor r=0.79–0.96 through 0:20, at −22.6 to −13.1 dB. Cello melody and 3/8 metre are established by the score.' },
+    { t: 35, kind: 'listen', title: 'Follow the smaller swell', text: 'The phrase grows towards a local high point, then relaxes without a full orchestral outburst. Listen beneath the tune: the accompanying parts keep moving even when the melody holds a note.', evidence: '−16 dB at 0:30 rises to −11.4 at 0:40, then falls to −16.9 at 0:45; 1.8–2.6 onsets/s across the phrase.' },
+    { t: 70, kind: 'life', title: 'A summer in Wiesbaden', text: 'Brahms wrote the Third Symphony in Wiesbaden during the summer of 1883. He was fifty. His First had appeared only seven years earlier, after a long gestation; the Third belongs to a period when a new symphony no longer required decades of preparation.' },
+    { t: 110, kind: 'form', title: 'The middle section', text: 'The opening song gives way to shorter, more insistently repeated gestures. The accompaniment becomes more active while the volume falls; a change of section does not need a louder entrance.', evidence: 'Boundaries 1:50 (0.50) and 1:56 (0.71); −9.6 dB at 1:40 falls to −20.9 at 2:05, while onsets rise to 3.6/s and the pitch collection leaves C minor.' },
+    { t: 146, kind: 'music', title: 'A brief expansion', text: 'The middle section opens into a brighter, fuller phrase, then contracts again. This is a local expansion within the interlude, not yet the return of the first melody.', evidence: 'Strongest boundary 2:26 (1.00); brightness rises from 995 Hz at 2:20 to 1784 at 2:30; −10.3 dB at 2:35 falls to −19.4 at 2:45.' },
+    { t: 180, kind: 'life', title: 'Schumann’s public prediction', text: 'In 1853, Robert Schumann’s article “Neue Bahnen” announced the twenty-year-old Brahms before his music was widely published. The praise helped launch his career, but also made each large work answer a public prediction made thirty years before this symphony.' },
+    { t: 214, kind: 'form', title: 'The horn takes over', text: 'The opening melody returns in C minor, now led by the horn rather than the cellos. The tune is recognisable, but its sustained notes have a different attack and a different way of tapering away.', evidence: 'Boundary 3:34 (0.66); C minor r=0.95 at 3:35 after the quiet 3:30 window; brightness drops from 1333 to 953 Hz. The score assigns the returning melody to solo horn.' },
+    { t: 250, kind: 'listen', title: 'No trumpets or drums', text: 'Throughout this movement, Brahms keeps the trumpets and timpani silent. Notice how much variety he obtains from changes within the middle register: a familiar line can alter character without acquiring either percussion or a brass fanfare.', evidence: 'Returning passage 4:05–4:20 stays between −16.1 and −14.9 dB, with brightness 1236–1273 Hz. Instrumental restriction is a whole-movement score fact, not a newly timed entrance.' },
+    { t: 285, kind: 'world', title: 'Vienna, December 1883', text: 'Hans Richter conducted the Vienna Philharmonic in the premiere on 2 December 1883. All four movements end quietly. The Third therefore withholds the emphatic ending an audience might expect not only here, but at every major stopping point.' },
+    { t: 315, kind: 'music', title: 'The strings fill out', text: 'The returning song now has a fuller string sound. Brahms brings violins and cellos together for its late statement, increasing the weight of the melody without changing its basic contour.', evidence: 'Boundary 5:04 (0.77); brightness 1857–1950 Hz and −12.4 to −9.7 dB at 5:05–5:20, against 988–1005 Hz at 4:50–4:55. Late combined violin/cello statement is confirmed by the score.' },
+    { t: 345, kind: 'music', title: 'One swell, then quiet', text: 'The coda makes one last swell, the largest in this performance, before the volume drops sharply. The closing C minor harmony is quiet; the movement does not turn its final cadence into a change of mood.', evidence: '−5.0 dB at 5:50 is the loudest window; boundary 5:54 (0.90), then −23.9 at 5:55 and −37.4 at 6:05; C/G/E♭ and C minor r=0.89 at 6:05.' },
+  ],
+};

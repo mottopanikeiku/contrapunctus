@@ -1,0 +1,37 @@
+export default {
+  id: 'faure-requiem-agnus-dei',
+  composer: 'faure',
+  order: 1,
+  work: 'Requiem, Op. 48',
+  movement: 'V. Agnus Dei',
+  year: '1887–1900',
+  key: 'F major',
+  forces: 'Mixed chorus, orchestra and organ',
+  performers: 'Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo, Louis Frémaux',
+  recorded: '1962',
+  source: { file: 'File:Fauré - Requiem - V. Agnus Dei.flac' },
+  intro: 'The prayer for rest begins in F major, with a string melody that moves independently of the voices. Fauré then joins it to the Communion’s prayer for eternal light and recalls the opening of the Requiem itself.',
+  // Biography: https://brahms.ircam.fr/fr/composer/gabriel-faure/biography
+  // Text, history and score outline: https://en.wikipedia.org/wiki/Requiem_(Faur%C3%A9)
+  sections: [
+    { t: 0, label: 'Agnus Dei · first petition' },
+    { t: 55, label: 'The fuller choral petition' },
+    { t: 92, label: 'Return of the tenor line' },
+    { t: 138, label: 'Lux aeterna' },
+    { t: 238, label: 'The Introit recalled' },
+    { t: 304, label: 'Instrumental close' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'Two melodies, not one', text: 'Before the voices, a moving string line establishes F major. When the tenors take up the prayer, that line does not stop: the accompaniment has a melody of its own.', evidence: 'Opening F major estimate r=0.92–0.93 at 0:00–0:05; F/C/A pitch classes; sustained opening span through 0:25. The score places six instrumental bars before the tenor entry.' },
+    { t: 36, kind: 'life', title: 'A school for church musicians', text: 'Fauré entered the École Niedermeyer at nine. Plainchant and counterpoint belonged to his training; Saint-Saëns later taught him piano and introduced him to Schumann, Liszt and Wagner. The church musician and the experimental harmonist had the same education.' },
+    { t: 72, kind: 'music', title: 'The petition gains weight', text: 'The fuller choir makes the plea more insistent. The string motion continues, but the chords beneath the words no longer keep the opening’s F major settled; changes of harmony supply the pressure without a change of basic pulse.', evidence: 'Rise from −21.3 dB at 0:50 to −7.2 at 1:05 and −5.3 at 1:20; opening F-major region gives way to less stable estimates from 0:55. Score: second Agnus Dei for full choir.' },
+    { t: 108, kind: 'listen', title: 'The tenor line returns', text: 'The tenors recover the opening prayer and the volume falls back. Follow the string line underneath: Fauré can restore the same melody without making its accompaniment merely double the singers.', evidence: 'Boundary 1:32; F major r=0.88–0.91 at 1:35–1:40; level drops to −23.8 dB at 1:35 after the −5.3 dB peak at 1:20.' },
+    { t: 138, kind: 'form', title: 'From rest to light', text: 'The text turns to “Lux aeterna”: let eternal light shine upon them. The sopranos’ held note begins a new section; the harmony opens beneath it, replacing the earlier melody-and-accompaniment texture with sustained choral chords.', evidence: 'Boundary 2:18, followed by 2:30; quiet C/G/E region at 2:15–2:20 moves into altered pitch collections at 2:25–2:35, with level rising from −23.7 to −15.2 dB. Score: sustained soprano C begins Lux aeterna.' },
+    { t: 177, kind: 'world', title: 'An ordinary Paris funeral', text: 'Fauré conducted the first version of the Requiem at the Madeleine on 16 January 1888, for the funeral of the architect Joseph Lesoufaché. It had five movements. The Offertoire and Libera me joined it later; the enlarged orchestral version followed in 1900.' },
+    { t: 211, kind: 'music', title: 'The choir holds together', text: 'Listen to the weight of voices moving in chords rather than answering one another in imitation. The sustained choral sound grows stronger across this passage; the changing bass gives those long notes a direction.', evidence: 'Extended loud span 3:15–3:50: −8.1 dB at 3:15, −4.4 at 3:25 and −4.3 at 3:40; low onset density until 3:40 supports sustained rather than rapid activity.' },
+    { t: 238, kind: 'form', title: 'The whole Requiem remembered', text: 'The prayer “Requiem aeternam” returns with music from the work’s opening movement. This is a quotation across movements, not another statement of the Agnus Dei tune: Fauré brings the larger work into this movement’s closing pages.', evidence: 'Boundary 3:58; abrupt reduction from −7.1 dB at 3:50 to −26.1 at 3:55, with D-minor estimates continuing through 4:15. Score: reprise of the Introit after Lux aeterna.' },
+    { t: 278, kind: 'music', title: 'One last choral swell', text: 'The recollection grows into the movement’s strongest swell. Notice how briefly the choir holds that weight before the sound withdraws; the passage does not turn into a separate fast section.', evidence: 'Boundary 4:38; −13.5 dB at 4:35 rises to the loudest five-second window, −2.5 at 4:45, then falls to −21.8 at 5:05. Onsets remain sparse.' },
+    { t: 308, kind: 'life', title: 'The teacher of Ravel', text: 'In 1896 Fauré became composition professor at the Paris Conservatoire; his pupils included Ravel, Koechlin and Nadia Boulanger. He became its director in 1905, although he had never studied there. Hearing trouble had already begun in 1903.' },
+    { t: 335, kind: 'listen', title: 'An ending without voices', text: 'The voices have finished, leaving the orchestra to close the movement. The instrumental melody recalls the opening, but there is no final choral declaration: the last sound belongs to the accompaniment that was never merely an accompaniment.', evidence: 'Instrumental closing span follows boundary 5:04; brightness falls to 971 Hz at 5:35 and 935 Hz at 5:40, with decay from −19.2 dB at 5:40 to −32.7 at 5:45. Score: orchestral reprise after the Introit quotation.' },
+  ],
+};

@@ -524,3 +524,11 @@ dialog.lightbox button { position: fixed; top: 1rem; right: 1.4rem; background: 
 .series .h:focus:not(:focus-visible) { outline: none; }
 .oval-in { display: block; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; }
 .cameo { align-content: start; }
+
+/* links from composer pages into the Listening Room */
+.listen-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; align-items: center; }
+.listen-links .sc { width: 100%; font-size: .74rem; color: var(--gold-hi); letter-spacing: .2em; }
+.listen-links a { display: inline-flex; align-items: center; gap: .6rem; padding: .45rem 1rem .45rem .6rem; border: 1px solid rgba(230, 203, 133, .45); border-radius: 999px; text-decoration: none; font: italic 500 1.05rem var(--display); color: var(--night-ink); }
+.listen-links a:hover { background: rgba(230, 203, 133, .12); color: var(--gold-hi); }
+.play-dot { width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--gold-hi); position: relative; flex: none; }
+.play-dot::after { content: ''; position: absolute; left: 55%; top: 50%; translate: -50% -50%; border-left: .45rem solid #13110e; border-top: .28rem solid transparent; border-bottom: .28rem solid transparent; }

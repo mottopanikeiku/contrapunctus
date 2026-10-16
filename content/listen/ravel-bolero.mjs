@@ -1,0 +1,58 @@
+// Historical and scoring sources:
+// https://www.clevelandorchestra.com/posts/ravels-bolero
+// https://en.wikipedia.org/wiki/Bol%C3%A9ro
+// https://www.montfortlamaury.fr/culture-tourisme/sites-et-monuments/la-maison-musee-de-maurice-ravel/?lang=en
+// Commons gives 1959 in the filename but November 1956 in the description;
+// the recording date is deliberately left blank.
+export default {
+  id: 'ravel-bolero',
+  composer: 'ravel',
+  order: 1,
+  work: 'Boléro',
+  movement: '',
+  year: '1928',
+  key: 'C major',
+  forces: 'Orchestra',
+  performers: 'Berlin Symphonic Orchestra, Ferenc Fricsay',
+  recorded: '',
+  source: { file: 'File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg' },
+  intro: 'Two melodies and a two-bar drum rhythm survive an almost continuous crescendo. Ravel makes the changing instruments do the work that changing themes and keys usually do.',
+  sections: [
+    { t: 0, label: 'The rhythm and the first soloists' },
+    { t: 100, label: 'The second melody' },
+    { t: 190, label: 'New solo colours' },
+    { t: 360, label: 'Composite instruments' },
+    { t: 525, label: 'Strings join the melody' },
+    { t: 690, label: 'The final statements' },
+    { t: 770, label: 'E major · the pattern breaks' },
+    { t: 788, label: 'C major · collapse' },
+  ],
+  cues: [
+    { t: 0, kind: 'form', title: 'Two tunes, one crescendo', text: 'The snare drum establishes a two-bar rhythm in three beats. Above it, Ravel repeats two melodies, usually twice each before changing to the other; the principal development is the growing orchestra.', evidence: 'opening rises from −63.6 dB at 0:00 to −37.2 at 0:10; score supplies the ostinato and alternating 18-bar statements' },
+    { t: 13, kind: 'music', title: 'The flute alone', text: 'A flute gives the first melody over the drum and plucked strings. Its notes belong to C major; the bass keeps returning to C and G rather than following the tune through a succession of new harmonies.', evidence: 'boundaries 0:12 (0.97) and 0:18 (1.00); C/G prominent at 0:10–0:15; opening flute statement in the score' },
+    { t: 56, kind: 'music', title: 'The clarinet repeats it', text: 'The clarinet takes the same melody. Compare its sustained reed tone with the flute’s breathier attack: the tune has not developed, but its delivery has changed.', evidence: 'boundary 0:54 (0.89); −34.9 dB at 0:50 rises to −23.9 at 1:05, centroid falls from 1085 to 932 Hz; second statement follows the opening flute' },
+    { t: 80, kind: 'world', title: 'A replacement for Albéniz', text: 'Ida Rubinstein commissioned a ballet from Ravel in 1928. He initially planned to orchestrate music from Albéniz’s <i>Iberia</i>; difficulties over the orchestration rights led him instead to write a new piece.' },
+    { t: 104, kind: 'music', title: 'Bassoon, high in its range', text: 'The bassoon introduces the second melody, playing well above the register usually associated with the instrument. This tune ranges farther than the first and brings flattened notes against the unchanged bass.', evidence: 'boundaries 1:36–1:50; −30 dB at 1:40 rises to −23.1 at 1:45; B♭ appears among leading pitch classes; third statement is the bassoon’s second theme' },
+    { t: 148, kind: 'music', title: 'The small clarinet', text: 'The E♭ clarinet repeats the bassoon’s melody. This smaller member of the clarinet family gives the same line a more penetrating upper register; the snare pattern continues underneath.', evidence: 'centroid rises from 845 Hz at 2:15 to 1141 at 2:30 and 1290 at 2:35; fourth statement in score order is E♭ clarinet' },
+    { t: 170, kind: 'life', title: 'Ciboure and Paris', text: 'Ravel was born in Ciboure in 1875 to a Basque mother and a Swiss-born engineer father. The family moved to Paris when he was three months old; his musical education was Parisian, while Spanish dance remained a recurring subject.' },
+    { t: 190, kind: 'music', title: 'The oboe d’amore', text: 'The first melody returns on the oboe d’amore, pitched between the oboe and cor anglais. Ravel has not transposed the tune: a new instrument supplies the contrast that a new key might otherwise provide.', evidence: 'centroid changes from 947 Hz at 3:05 to 1194 at 3:15; C/G remain prominent; fifth 18-bar statement follows the E♭ clarinet and restores the first theme' },
+    { t: 232, kind: 'music', title: 'Trumpet inside the flute', text: 'A muted trumpet and a flute share the melody, the flute an octave above. Listen for the combined tone rather than two competing solos: the instruments agree on the line but contribute different attacks and overtones.', evidence: 'centroid dips to 902 Hz at 3:50 then rises to 1189 at 3:55; sixth statement in score order combines muted trumpet and flute' },
+    { t: 258, kind: 'world', title: 'A dance on a table', text: 'At the Paris Opéra premiere on 22 November 1928, Rubinstein danced in Bronislava Nijinska’s choreography. The scenario placed her on a table in a Spanish tavern; Alexandre Benois supplied the designs.' },
+    { t: 282, kind: 'music', title: 'The tenor saxophone', text: 'The second melody passes to the tenor saxophone. Its single reed gives the long notes a different edge from the bassoon’s earlier statement; the accompaniment is accumulating without abandoning its repeated pattern.', evidence: '−22.2 dB at 4:35 rises to −18.6 at 4:40; centroid reaches 1378 Hz at 4:45; seventh statement is the tenor saxophone' },
+    { t: 323, kind: 'music', title: 'A higher saxophone', text: 'The saxophone colour moves higher for the repeated melody. Follow the long line over the short drum strokes: the melody crosses the bar lines while the accompaniment keeps counting in three.', evidence: '−22.2 dB at 5:15 rises to −16.6 at 5:20; centroid reaches 1463 Hz at 5:30; eighth statement contains the high saxophone parts' },
+    { t: 362, kind: 'music', title: 'An invented composite tone', text: 'Horn, celesta and two piccolos combine on the first melody. The celesta adds high octaves; the piccolos reinforce other upper pitches. Ravel constructs a composite tone by making separate instruments behave like components of one sound.', evidence: '−18.6 dB at 5:55 rises to −14.1 at 6:00; ninth statement in score order is horn, celesta and piccolos' },
+    { t: 384, kind: 'life', title: 'The house at Montfort', text: 'Ravel settled at Le Belvédère in Montfort-l’Amaury in 1921. The small house still preserves his piano and collections, including coffee cups with holes: objects whose appearances conceal deliberate tricks.' },
+    { t: 404, kind: 'music', title: 'A choir of reeds', text: 'Oboe, oboe d’amore, cor anglais and clarinets take over the first melody. The solo succession is becoming a succession of mixtures; several wind players now shape the tune together.', evidence: 'centroid rises from 1046 Hz at 6:30 to 1494 at 6:45; tenth statement is the grouped reed scoring, following horn, piccolos and celesta' },
+    { t: 447, kind: 'music', title: 'The exposed trombone', text: 'A solo trombone takes the second melody high in its range. The line’s wide descent is now a brass solo rather than a woodwind one, with the drum still refusing to change its rhythm.', evidence: 'centroid falls from 1463 Hz at 7:15 to 1042 at 7:20 while loudness rises to −11.4 dB at 7:25; eleventh statement is the trombone solo' },
+    { t: 488, kind: 'music', title: 'The winds answer together', text: 'A larger woodwind combination repeats the second melody. The change from one exposed trombone to several winds widens the sound without providing another tune.', evidence: '−13.7 dB and 1163 Hz at 8:00 become −8.6 dB and 1496 Hz at 8:05; twelfth statement in the score is the grouped woodwind answer' },
+    { t: 530, kind: 'music', title: 'The violins take the tune', text: 'The first violins join the melodic foreground with the winds. Until this stage, the strings have principally served the accompaniment; bowed string tone now becomes part of the tune’s increasing weight.', evidence: 'centroid rises from 1070 Hz at 8:40 to 1466 at 8:45; loudness rises from −11.4 to −9 dB; thirteenth statement introduces first violins into the melody' },
+    { t: 570, kind: 'music', title: 'More strings, wider spacing', text: 'The second violins join the first in the melody’s next statement. Doubling the line across registers increases its breadth; repetition is now also a test of how much sound the same notes can carry.', evidence: '−9.6 dB and 1097 Hz at 9:20 become −7.7 dB and 1610 Hz at 9:25; fourteenth statement adds second violins to the melodic scoring' },
+    { t: 596, kind: 'world', title: 'Factories rather than taverns', text: 'In a 1932 interview with the <i>London Evening Standard</i>, Ravel connected <i>Boléro</i> with his fascination for factory machinery. He said he wanted a vast factory in the background of a staging, rather than treating the tavern as the only possible setting.' },
+    { t: 612, kind: 'listen', title: 'Find the original bass', text: 'Through the thicker strings and winds, try to keep hold of the repeated bass and snare rhythm. The foreground keeps acquiring players, but those simple underlying patterns are what make each addition measurable.', evidence: 'centroid rises from 1229 Hz at 10:05 to 1672 at 10:15; C/G continue among leading pitch classes; score retains the ostinato through this orchestral expansion' },
+    { t: 652, kind: 'music', title: 'A sharper orchestral edge', text: 'Another increase in weight and upper-register sound brings the second melody closer to the final orchestral statements. The phrases still descend to their familiar endings; the crescendo does not rewrite them.', evidence: '−10.8 dB and 1196 Hz at 10:45 become −7.2 dB and 1797 Hz at 10:50; sixteenth melodic statement in score order' },
+    { t: 692, kind: 'form', title: 'The first tune’s last round', text: 'The first melody makes its final complete statement. Compare this massed sound with the solitary flute at the beginning: orchestration has supplied nearly all the large-scale change.', evidence: '−8.4 dB at 11:25 rises to −5.9 at 11:30; centroid rises from 1298 to 1640 Hz; seventeenth statement is the last full first theme' },
+    { t: 733, kind: 'listen', title: 'One more second melody', text: 'The second melody returns at almost the full weight of the orchestra. Keep listening beneath it: the decisive change will be in the harmonic foundation, after so many repetitions over C and G.', evidence: '−7.6 dB at 12:05 rises to −5.9 at 12:15 and −5.4 at 12:20; eighteenth statement precedes the 12:50 structural break' },
+    { t: 770, kind: 'form', title: 'The sudden E major', text: 'The harmony finally moves to E major, a major third above C. After nearly thirteen minutes of a fixed tonal centre, eight bars in another key carry the force of a much larger disruption.', evidence: 'boundary 12:50 (0.89); leading pitch classes change from C/G/B at 12:45 to E/F/B at 12:50; E major estimates at 12:55–13:00 confirm the score’s eight-bar modulation' },
+    { t: 788, kind: 'music', title: 'The final rupture', text: 'C returns amid trombone slides and percussion. The orchestra takes up the rhythm that the snare has maintained from the opening; the last dissonance falls onto C major, and the sound cuts off rather than fading through a diminuendo.', evidence: 'boundary 13:08 (0.94); C/G return among leading pitch classes at 13:10; −4.4 dB at 13:15 drops to −64.8 at 13:20; final orchestration and cadence from the score' },
+  ],
+};

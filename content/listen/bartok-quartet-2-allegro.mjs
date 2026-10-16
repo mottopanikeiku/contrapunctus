@@ -1,0 +1,40 @@
+// Catalogue and premiere: https://zti.hu/en/ba/bartok-compositions/chronology
+// Score landmarks: https://www.gresham.ac.uk/watch-now/bartok-quartet-no-2
+// Fieldwork: https://bartok-nepzene.zti.hu/en/introduction/
+export default {
+  id: 'bartok-quartet-2-allegro',
+  composer: 'bartok',
+  order: 1,
+  work: 'String Quartet No. 2, Op. 17',
+  movement: 'II. Allegro molto capriccioso',
+  year: '1914–17',
+  key: '',
+  forces: 'Two violins, viola and cello',
+  performers: 'Carmel Quartet',
+  recorded: '2007',
+  license: 'CC BY 3.0',
+  source: { file: 'File:Bartok Op. 17, Second Movement.OGG' },
+  intro: 'The fast movement of Bartók’s Second Quartet sets repeated notes against shifting accents. Its narrow melodic figures owe something to the Arab music he recorded in Algeria, rather than to a Hungarian dance tune.',
+  sections: [
+    { t: 0, label: 'Fast dance · repeated D' },
+    { t: 104, label: 'Renewed drive' },
+    { t: 142, label: 'Contrasting episodes' },
+    { t: 320, label: 'Refrain returns' },
+    { t: 388, label: 'Prestissimo coda' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'A pitch that stays put', text: 'After a short opening gesture, the second violin repeats D in octaves while the other instruments move around it. The accompaniment behaves like a drone with a pulse: its pitch stays fixed, but its repeated attacks keep the dance moving.', evidence: 'D is prominent from 0:05 onwards; 5.6–6.4 onsets/s at 0:05–0:25. Instrument and octave identification follow Roger Parker’s score-based Gresham lecture on the movement’s opening.' },
+    { t: 35, kind: 'listen', title: 'An anchor, not a key', text: 'A repeated pitch does not necessarily establish a major or minor key. Listen to D as an anchor against changing notes around it; the dissonances come from the moving parts, not from a new bass chord on every beat.', evidence: 'D remains among the strongest pitch classes at 0:30–0:45, while neighbouring pitch classes and bass estimates change; 4.0–6.8 onsets/s. Parker describes the movement as organised around repeated notes rather than conventional key progressions.' },
+    { t: 70, kind: 'life', title: 'Algeria, 1913', text: 'Bartók travelled to Biskra and nearby settlements in Algeria in June 1913 to record Arab music. The narrow melodies and repeated rhythmic figures of this movement absorb aspects of that music; the quartet is not an arrangement of a collected Hungarian tune.' },
+    { t: 105, kind: 'music', title: 'The repeated attacks return', text: 'The rapid reiterations return after a less densely articulated passage. Four bowed instruments can behave like a percussion ensemble without losing their separate pitches: listen for the repeated notes against the more mobile lines.', evidence: 'Boundary 1:44 (0.47); onset density rises from 1.6/s at 1:40 to 5.6–6.0/s at 1:45–1:55, with loudness increasing from −19.3 to −9.5 dB.' },
+    { t: 140, kind: 'form', title: 'The dance breaks apart', text: 'The continuous drive gives way to quieter, separated gestures. This movement works like a loose rondo: the insistent dance can return between episodes whose thinner textures interrupt its momentum.', evidence: 'Boundaries at 2:18, 2:22, 2:30 and 2:34; −9.1 dB at 2:15 falls to −25.4 at 2:30 and −34.5 at 2:40. The rondo description follows Bartók’s account as discussed by Parker.' },
+    { t: 175, kind: 'life', title: 'A recording and a notebook', text: 'Bartók began collecting with a phonograph in 1906, but kept writing melodies down in the field as well. A wax cylinder preserved one performance; the notebook let him compare verses and correct a singer’s accidental slip rather than treating the recording as definitive.' },
+    { t: 210, kind: 'music', title: 'Almost below the surface', text: 'The quartet sinks to one of the movement’s quietest passages. Short figures and gaps replace the earlier stream of repeated attacks; listen for the individual parts rather than trying to maintain the opening’s pounding pulse.', evidence: '−30.7 to −35.3 dB across 3:30–3:45, with only 0.6 onsets/s at 3:40, compared with −11.0 dB at 3:20 and about 6 onsets/s in the opening dance.' },
+    { t: 245, kind: 'world', title: 'A quartet during the war', text: 'Bartók completed the work in 1917 and dedicated it to the Waldbauer–Kerpely Quartet, which gave the Budapest premiere on 3 March 1918. This fast movement is enclosed by a Moderato and a slow finale: the whole quartet does not end with the dance.' },
+    { t: 280, kind: 'listen', title: 'A sharper edge', text: 'Listen for the increasingly bright edge to the string sound as this passage continues. Longer-held notes can intensify the texture without increasing the number of attacks; the next return of the repeated figures will change that balance again.', evidence: 'Brightness rises from 1,871 Hz at 4:40 to 2,483–2,595 at 4:55–5:00, while detected onsets fall from 2.2/s to 0.2–0.6/s at 4:55–5:05.' },
+    { t: 320, kind: 'form', title: 'The drive comes back', text: 'The repeated-note drive returns at full force. Hear the change in articulation as well as volume: the sustained sounds of the previous passage give way to tightly packed attacks.', evidence: 'Boundary 5:20 (0.68); 6.0–6.2 onsets/s at 5:20–5:30, against 0.2–0.6 at 4:55–5:05; −10.2 to −11.4 dB in the returning fast passage.' },
+    { t: 355, kind: 'music', title: 'Pressure, then withdrawal', text: 'A forceful crest gives way to a long drop in volume. The quieter ending that follows is not a slow movement: Bartók is preparing to combine extreme speed with restrained sound.', evidence: 'Loudest window at 5:55, −8.6 dB; falls through −24.1 at 6:10 to −32.3 at 6:25, before the expected Prestissimo coda.' },
+    { t: 388, kind: 'form', title: 'Prestissimo under the breath', text: 'The closing rush is marked Prestissimo, but also pianissimo and muted. A mute damps a string instrument’s bridge, changing its colour as well as its volume; the rapid notes need not sound like another loud climax.', evidence: 'Strongest boundary at 6:28 (1.00), following the large dynamic withdrawal; brightness falls to 905 Hz at 6:30, against 1,668 at 5:55. The score’s muted, pianissimo Prestissimo coda is described by Parker; onset detection does not reliably resolve this rapid soft texture.' },
+    { t: 425, kind: 'music', title: 'The final burst', text: 'The quiet coda turns sharply louder for its last gestures. The cutoff comes quickly after this final burst; within the complete quartet, a slow Lento follows rather than another fast conclusion.', evidence: 'Boundary 7:08 (0.49); −18.3 dB at 7:05 rises to −9.4 at 7:10 and −9.1 at 7:20, then drops to −42.1 at 7:25 and −62.9 at 7:30.' },
+  ],
+};

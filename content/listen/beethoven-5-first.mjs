@@ -1,0 +1,46 @@
+export default {
+  id: 'beethoven-5-first',
+  composer: 'beethoven',
+  order: 1,
+  work: 'Symphony No. 5, Op. 67',
+  movement: 'I. Allegro con brio',
+  year: '1804–08',
+  key: 'C minor',
+  forces: 'Orchestra',
+  performers: 'Skidmore College orchestra',
+  recorded: '',
+  source: { file: 'File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg' },
+  intro: 'The four-note opening is not just a tune. Beethoven uses its rhythm as accompaniment, transition and punctuation, so that a whole sonata movement can grow from something the listener remembers after two seconds.',
+  // Sources: https://www.bso.org/works/beethoven-symphony-no-5
+  // https://www.beethoven.de/en/g/zeittafel-beethoven-in-wien
+  // https://www.esm.rochester.edu/beethoven/symphony-no-5/
+  // The exposition repeat is taken; its second-theme region recurs about 102 seconds later.
+  sections: [
+    { t: 0, label: 'Exposition · C minor' },
+    { t: 54, label: 'Second theme · E♭ major' },
+    { t: 102, label: 'Exposition repeated' },
+    { t: 204, label: 'Development' },
+    { t: 292, label: 'Recapitulation' },
+    { t: 350, label: 'Second theme · C major' },
+    { t: 404, label: 'Coda · a second development' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'A rest, then four notes', text: 'Each opening gesture begins after a rest. Three short notes drive into a held note, but the second held note occupies more written time than the first; the two statements are not exact rhythmic copies.', evidence: 'Separated opening attacks, with onset density falling to 0.4/s at 0:05; E♭/F/G then D/F/C chroma. Score bars 1–5 contain the rests, fermatas and longer second hold.' },
+    { t: 30, kind: 'listen', title: 'Rhythm underneath the tune', text: 'Throughout the first-theme group, follow the short-short-short-long rhythm as it passes through the texture. Beethoven can make it an accompaniment or an answering figure without giving it a new melodic identity.', evidence: 'C-minor region at 0:30–0:40; onset density increases from 3.6 to 4.8/s while loudness rises from −23.2 to −11.5 dB. The score distributes the opening cell through these parts.' },
+    { t: 54, kind: 'form', title: 'A major-key second theme', text: 'The second group turns towards E♭ major, the relative major of C minor. Its more sustained melody contrasts with the opening, but the short rhythmic cell persists underneath: contrast does not require wholly unrelated material.', evidence: 'Boundary 0:50; onset density falls to 0.0/s at 0:55–1:00, with a B♭-dominant region followed by E♭-major r=0.95 at 1:05.' },
+    { t: 85, kind: 'world', title: 'The long premiere concert', text: 'The Fifth was first performed at Vienna’s Theater an der Wien on 22 December 1808. The same concert included the Sixth Symphony, the Choral Fantasy and the first public performance of the Fourth Piano Concerto, with Beethoven as soloist.' },
+    { t: 102, kind: 'form', title: 'The exposition is repeated', text: 'The opening comes back because the players take Beethoven’s repeat. This is not the recapitulation: we hear the exposition’s departure from C minor to E♭ major a second time before the development begins.', evidence: 'Opening-like low-density passage 1:45–1:55, boundaries 1:48 and 1:52; the second-theme transition at 0:50 recurs at 2:32, followed by the same B♭/E♭ regions. Repeat offset is about 102 seconds.' },
+    { t: 138, kind: 'listen', title: 'Recognise the same route', text: 'On the repeat, listen beyond the famous opening. The rising pressure of the transition and the softer second group occur in the same order; remembering that route makes the later changes in the recapitulation audible.', evidence: 'Repeated C-minor build 2:15–2:25 reaches −10.5 dB and 5.0 onsets/s; boundary 2:32 then leads to the quieter B♭/E♭ passage, mirroring 0:30–1:05.' },
+    { t: 172, kind: 'life', title: 'Several works at once', text: 'Beethoven first sketched the Fifth in 1804, then returned to it in 1807. Between those stages came work on Leonore, the Fourth Symphony, the Violin Concerto and the “Razumovsky” quartets; the Fifth was not written in one uninterrupted burst.' },
+    { t: 204, kind: 'form', title: 'Development: the ground moves', text: 'The development begins without another complete exposition. Beethoven takes the short cell through changing harmonies and separates its components, making a familiar rhythm work without the familiar sequence of themes.', evidence: 'Boundary 3:24 after the repeated E♭/B♭ closing region; change of pitch-class balance at 3:25–3:40, followed by G-minor and G-major regions. This follows two matching exposition spans.' },
+    { t: 238, kind: 'music', title: 'Less than a melody', text: 'Listen for how short the working units become. A rhythm, a sustained note or an exchange between orchestral groups can carry the development after the complete opening tune has disappeared.', evidence: 'Active development at 3:45–4:00, including 5.2 onsets/s at 3:50; changing pitch regions and the subsequent drop in onset density at 4:20–4:30 support the fragmentation described by the score.' },
+    { t: 270, kind: 'listen', title: 'The texture loses weight', text: 'The sound thins during the later development. The return will be effective partly because Beethoven has reduced the orchestra’s weight before restoring the opening gesture.', evidence: 'Boundaries 4:24 and 4:28; −25.1 to −26.1 dB at 4:30–4:35, with 1.2–1.8 onsets/s, before the loud surge at 4:50–4:55.' },
+    { t: 292, kind: 'form', title: 'Recapitulation: the opening enlarged', text: 'The opening rhythm returns with much greater orchestral weight. This is the recapitulation: the movement’s earlier materials now have to stay connected to C, rather than establish E♭ as a second tonal centre.', evidence: 'Loudest windows 4:50 and 4:55 at −8.9 and −8.7 dB after the thin development; renewed opening-like held gestures at 5:00–5:05. Score return at bar 248, after the development’s 123 bars.' },
+    { t: 316, kind: 'music', title: 'The oboe interrupts', text: 'The recapitulation pauses for an oboe’s short, unaccompanied Adagio. This interruption has no equivalent at the same point in the exposition: one player briefly suspends the orchestral pulse.', evidence: 'Boundary 5:16; the quietest internal windows are 5:15–5:20, −28.1 to −29.7 dB and 0.8–1.0 onsets/s, before activity returns at 5:25–5:30. Score’s oboe Adagio is at bar 268.' },
+    { t: 350, kind: 'form', title: 'The second theme comes home', text: 'The second group returns in C major rather than E♭ major. Changing the tonic’s mode allows the lyrical material to remain major, but the movement has not yet secured a major-key ending.', evidence: 'Quiet, low-density return at 5:50–6:05, following the forte transition; C/G/D chroma and C-major r=0.86 at 6:00. The score transposes the second group into C major.' },
+    { t: 385, kind: 'life', title: 'The unsent testament', text: 'In 1802 Beethoven wrote to his brothers about his worsening hearing and isolation while staying at Heiligenstadt. The document remained unsent. The Fifth followed years later; its rhythmic argument is not a literal transcription of that letter.' },
+    { t: 404, kind: 'form', title: 'Coda: another development', text: 'The coda is not a few closing chords. It renews the pressure, turns away from the recapitulation’s major mode and works the small rhythmic units again before the final C minor close.', evidence: 'Loudness strengthens from −13.1 dB at 6:40 to −10.2 at 6:45; F-minor region at 6:45–6:50 follows the C-major closing group. Corresponds approximately to bar 374, after the 126-bar recapitulation and its oboe interruption.' },
+    { t: 440, kind: 'music', title: 'The rhythm keeps working', text: 'Throughout this extended ending, hear the opening cell as a means of continuation, not just recognition. Repeated attacks and replies keep postponing a cadence that could otherwise have ended the movement much sooner.', evidence: 'Sustained coda activity 7:00–7:45, roughly 2.0–3.4 onsets/s and −10 to −15 dB; C/G-centred pitch classes remain prominent. General score-based listening cue across the coda.' },
+    { t: 475, kind: 'listen', title: 'Only the first movement', text: 'The movement closes in C minor. The symphony’s C major breakthrough belongs to the finale, two movements later, where Beethoven adds piccolo, contrabassoon and trombones; none of those instruments is part of this opening movement.', evidence: 'Final strong window 7:55, followed by low-density held gestures at 8:00–8:05 and renewed cadential attacks at 8:10–8:15; end at 8:20. Final minor mode and later added instruments follow the score, not the dominant-biased local estimates.' },
+  ],
+};

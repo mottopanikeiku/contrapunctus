@@ -1,0 +1,36 @@
+export default {
+  id: 'debussy-cathedrale-engloutie',
+  composer: 'debussy',
+  order: 2,
+  work: 'Préludes, Book I',
+  movement: 'X. La cathédrale engloutie',
+  year: '1910',
+  key: 'C major',
+  forces: 'Piano',
+  performers: 'Marcelle Meyer',
+  recorded: '1956',
+  source: { file: 'File:Claude Debussy - Préludes (Livre I) - X. La Cathédrale engloutie (Marcelle Meyer, 1956).flac' },
+  intro: 'A submerged cathedral takes shape through piano resonance: bare intervals grow into broad chords, then recede. Marcelle Meyer’s 1956 recording makes the distance between the quiet opening and the full keyboard part of the form.',
+  // Biography: https://brahms.ircam.fr/fr/composer/claude-debussy/biography
+  // Legend, notation and score outline: https://en.wikipedia.org/wiki/La_cath%C3%A9drale_engloutie
+  sections: [
+    { t: 0, label: 'Bare intervals' },
+    { t: 74, label: 'Emerging · B major' },
+    { t: 106, label: 'The broad chordal span' },
+    { t: 184, label: 'A second ascent' },
+    { t: 268, label: 'The distant echo' },
+    { t: 305, label: 'Closing bells' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'Fifths before full chords', text: 'The piano begins with open fifths: G and D, without the third that would identify a major or minor chord. These bare intervals move upwards together. The gaps between attacks leave the instrument’s resonance audible.', evidence: 'Opening G/D pitch classes and G bass at 0:00–0:05; −35.2 to −33.1 dB, with 0.6–1.2 onsets per second. Score: rising parallel fifths in the opening bars.' },
+    { t: 34, kind: 'world', title: 'The drowned city of Ys', text: 'The title refers to the Breton legend of Ys, a city swallowed by the sea. In the story associated with this prelude, a cathedral rises from the water and its bells, chants and organ can be heard. Debussy supplies those suggestions with a piano alone.' },
+    { t: 74, kind: 'form', title: 'Emerging from the mist', text: 'The bass settles on B and the movement becomes more continuous. Debussy’s instruction in this part of the score is “Peu à peu sortant de la brume”: gradually emerging from the mist. The change is made through register, rhythm and increasing weight, not a new instrument.', evidence: 'Boundary 1:14, novelty 0.95; B bass and B-major estimates r=0.89–0.87 at 1:15–1:20; level rises from −28.0 dB at 1:00 to −17.8 at 1:20. Score: B-major section beginning at bar 16.' },
+    { t: 110, kind: 'listen', title: 'A melody made of chords', text: 'Follow the top of each chord while also hearing the notes underneath move with it. This parallel motion lets a melodic line acquire thickness without becoming a tune over an independent accompaniment. The spacing of the chord is part of the sound you recognise.', evidence: 'Boundary 1:46 follows the rising, increasingly active span at 1:30–1:40; the sustained louder chordal region continues through 2:40. General listening point for the score’s parallel chord writing, not a claim of an entrance at 1:50.' },
+    { t: 145, kind: 'music', title: 'An organ without pipes', text: 'The broad chords suggest an organ, but the piano cannot sustain them indefinitely. Listen to each attack and the decay that follows it. Debussy asks for “Sonore sans dureté” — sonorous without harshness — rather than a percussive hammering of the tune.', evidence: 'Sustained loud span 2:00–2:40, −7.9 to −12.6 dB, with 0.6–1.8 onsets per second and low spectral centroids around 630–730 Hz. Score: the broad, organ-like chordal statement marked Sonore sans dureté.' },
+    { t: 180, kind: 'life', title: 'Trained inside the rules', text: 'Debussy entered the Paris Conservatoire at ten, studied piano with Marmontel and composition with Guiraud, and won the Prix de Rome in 1884. His later treatment of chords came from a musician who had mastered the institution’s harmonic exercises, not avoided them.' },
+    { t: 220, kind: 'music', title: 'A second ascent', text: 'After the quiet withdrawal, the sound gathers weight again. This rise is shorter than the first great expansion; listen for the approach to the peak and the rapid retreat afterwards, rather than expecting a literal repeat of the earlier passage.', evidence: 'Boundary 3:40; level climbs from −34.3 dB at 3:05 to −9.6 at 3:55, then drops to −25.1 at 4:05. This is the second substantial loudness arc in the report.' },
+    { t: 268, kind: 'form', title: 'The same phrase, farther away', text: 'The broad melody returns at a reduced volume and in a lower register. Debussy labels this return an echo of the phrase heard earlier. The accompanying motion continues underneath, so the recollection has a different texture from the first declaration.', evidence: 'Boundaries 4:28 and 4:32; return to a C-major region, r=0.76–0.88 at 4:30–4:35, with centroid 570–694 Hz. Levels around −19 to −24 dB contrast with the earlier −8 to −12 dB chordal span. Score: lower-register echo over oscillating accompaniment.' },
+    { t: 305, kind: 'world', title: 'The title comes afterwards', text: 'Debussy published the first book of twelve Préludes in 1910 and the second in 1913. On the printed page each title appears after its piece, in parentheses. The pianist encounters the notes before the composer names the image.' },
+    { t: 327, kind: 'listen', title: 'Let the resonance finish', text: 'The final chord leaves C, G and the added D in the resonance. That extra note does not have to resolve into a plain triad. Let the fading sound finish the phrase; the last attack is not the end of what the piano contributes.', evidence: 'Closing C/G/E classes at 5:20–5:25, then G/D/C at 5:30; −31.7 dB at 5:20 falls to −47.3 at 5:30 and −68.3 at 5:35, with no further detected attacks. Score: final C-major sonority with added second.' },
+  ],
+};

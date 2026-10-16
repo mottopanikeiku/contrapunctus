@@ -1,0 +1,45 @@
+// Programme and composer’s account: https://www.laphil.com/works/scheherazade
+// Biography: https://www.laphil.com/works/scheherazade-last-movement
+// Composition date: https://www.curtis.edu/curtis-studio/scheherazade/
+// Personnel and session dates are transcribed from the Commons file page.
+export default {
+  id: 'rimsky-korsakov-scheherazade-prince',
+  composer: 'rimsky-korsakov',
+  order: 1,
+  work: 'Scheherazade, Op. 35',
+  movement: 'III. The Young Prince and the Young Princess',
+  year: '1888',
+  key: 'G major',
+  forces: 'Orchestra with solo violin',
+  performers: 'San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin',
+  recorded: '3–4 March 1942',
+  license: 'CC0',
+  source: { file: 'File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 03 The Young Prince And Princess.ogg' },
+  intro: 'A string melody and a lighter dance occupy the third movement of this orchestral suite. The solo violin belongs to the storytelling frame: Rimsky-Korsakov warns against assigning a separate plot incident to every musical detail.',
+  sections: [
+    { t: 0, label: 'A · broad string melody' },
+    { t: 155, label: 'B · lighter dance' },
+    { t: 260, label: 'A′ · lyrical return' },
+    { t: 300, label: 'Reduced texture · solo episode' },
+    { t: 342, label: 'Renewed orchestral song' },
+    { t: 410, label: 'Final expansion' },
+    { t: 450, label: 'Quiet close' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'A melody in long breaths', text: 'The violins introduce the broad G major melody. Listen to the tune’s small turns and ornaments against the slower accompaniment: the decoration extends a singing line rather than replacing it with a separate display.', evidence: 'Sound rises from −36.5 dB at 0:00 to −13.6 at 0:05; G/B/D pitch classes establish the opening, with G major estimated at 0:10.' },
+    { t: 35, kind: 'life', title: 'A composer in the navy', text: 'Rimsky-Korsakov sailed aboard the clipper <i>Almaz</i> from 1862 to 1865 while working on his First Symphony. His naval training preceded his career as a conservatory professor; practical knowledge of wind instruments later grew through inspecting naval bands.' },
+    { t: 70, kind: 'music', title: 'The line keeps extending', text: 'The melody moves through another span rather than closing after its first statement. Follow the bass under the sustained upper notes: changes below can redirect the harmony while the tune keeps its vocal shape.', evidence: 'Boundary 0:58, strength 0.61; −18.3 dB at 0:50 rises to −8.6 at 1:05; B/D/F♯-weighted region at 1:05–1:25.' },
+    { t: 105, kind: 'listen', title: 'Breathing between the phrases', text: 'Listen for the dip in volume before the next swell. These withdrawals articulate the long melody without needing a heavy accent at every phrase ending.', evidence: 'Boundary 1:44, strength 0.43; −10.1 dB at 1:40 falls to −18.4 at 1:45 and −19.2 at 1:50, then rises to −8.7 at 1:55.' },
+    { t: 140, kind: 'music', title: 'Song yields to dance', text: 'The large lyrical phrase reaches a crest, then gives way to quicker, lighter activity. Listen for the smaller notes becoming more prominent as the overall volume decreases.', evidence: 'Boundary 2:20, strength 0.63; −5.7 dB at 2:25 falls to −21.7 at 2:40; onsets rise from 0.8/s at 2:25–2:30 to 4.6 at 2:40.' },
+    { t: 175, kind: 'world', title: 'Titles, not a screenplay', text: 'The suite draws on <i>The Thousand and One Nights</i>. In his autobiography Rimsky-Korsakov said the movement titles were only hints for listeners; he did not intend each recurring theme to remain tied to one character or event.' },
+    { t: 210, kind: 'music', title: 'Decoration with changing weight', text: 'The dance alternates stronger gestures with lighter responses. Notice the upper sound continuing to brighten even when the volume briefly drops: colour and loudness are not the same thing.', evidence: '−6.4 dB at 3:30 falls to −18.3 at 3:35 while brightness rises from 1483 to 1692 Hz; the next window rebounds to −9.0 dB and 1719 Hz.' },
+    { t: 245, kind: 'form', title: 'Back towards the opening song', text: 'The broad lyrical material regains the foreground and returns to G major. The quicker dance has changed the surrounding texture, but the movement’s long melodic span remains recognisable.', evidence: 'D-centred pitch classes at 4:00–4:15 turn to G/B/D at 4:25, with G major r=0.92; onset density falls to 0.8/s at 4:20–4:25.' },
+    { t: 280, kind: 'life', title: 'The professor studies privately', text: 'Rimsky-Korsakov became a professor at the Saint Petersburg Conservatory in 1871. He later admitted how much theory he still had to learn: systematic study of harmony, counterpoint and fugue accompanied his early years of teaching.' },
+    { t: 315, kind: 'listen', title: 'The soloist and the frame', text: 'The solo violin is the suite’s recurring storytelling voice. In this reduced passage, listen for the freer movement of an exposed line rather than the measured weight of the full string section.', evidence: 'Texture falls to −33.1 dB at 5:00 and −34.5 at 5:30, while brightness remains above 2100 Hz in several windows; small-scale attacks at 5:05–5:25 support the score’s solo episode.' },
+    { t: 350, kind: 'music', title: 'The orchestra fills out', text: 'The lyrical sound grows back into an ensemble statement. The melody gains weight from its support; its sustained notes do not have to become fast for the passage to build.', evidence: 'Boundary 5:42, strength 0.49; G major estimates from 5:45; −15.3 dB at 5:45 rises to −4.8 at 6:05 as onset density decreases from 1.6 to 0.6/s.' },
+    { t: 385, kind: 'world', title: 'San Francisco, March 1942', text: 'Pierre Monteux recorded this performance with the San Francisco Symphony on 3–4 March 1942 in the War Memorial Opera House. Naoum Blinder plays the solo violin; the surviving transfer comes from the Victor 78-rpm set.' },
+    { t: 410, kind: 'music', title: 'The largest final expansion', text: 'A quiet preparation gives way to the movement’s last large orchestral span. Listen for the sharp increase in weight, then for the sustained line riding above it rather than turning into a march.', evidence: 'Strongest boundary 6:50, strength 1.00; −24.1 dB at 6:45 jumps to −9.1 at 6:50; loudest window at 7:05, −4.7 dB.' },
+    { t: 450, kind: 'listen', title: 'The melody sheds its weight', text: 'The full sound withdraws into a quieter close. Follow the familiar melodic outline as its accompaniment becomes less prominent: a return can be made by subtraction as well as by adding instruments.', evidence: '−8.1 dB at 7:25 drops to −13.6 at 7:30 and −15.4 at 7:40; brightness falls from 1398 to 968 Hz at 7:30; G major remains strongly supported.' },
+    { t: 485, kind: 'form', title: 'A quiet G major', text: 'The movement closes quietly in G major. The suite still has its final movement to come: the festival, sea and shipwreck are outside this self-contained lyrical scene.', evidence: 'Boundary 8:02, strength 0.43; D/G/A at 8:05 and D/G/B at 8:10; loudness falls from −18.9 dB at 8:05 to −42.5 at 8:10 and −54.0 at 8:15.' },
+  ],
+};

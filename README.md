@@ -4,6 +4,18 @@ An illustrated atlas of Western art music, from Bach to the present: composer po
 
 **Site:** https://mottopanikeiku.github.io/contrapunctus/
 
+## The Listening Room (home page)
+
+A continuous concert from Couperin and Bach to Stravinsky, Ives and Bartók: 55 real recordings (7½ hours) streamed from Wikimedia Commons, in order of the composers' births. Beside the music:
+
+- **Live visualizer** (Web Audio): a scrolling spectrogram on a pitch axis with a glowing keyboard, a circle-of-fifths pitch wheel with the heard harmony, the bass note, loudness and brightness.
+- **Notes timed to the recording** (809 of them): what is happening in the music now, where you are in the form, what to listen for, and the composer's life and world. Every timed musical claim is anchored in an audio analysis of that specific recording (`tools/analyze.py`).
+- A loudness timeline with the formal sections, the composer's background, and the recording's credits and licence.
+
+Browsers allow sound only after one click; after that the concert plays on its own. Keys: space (play/pause), ←/→ (seek), N/P (next/previous).
+
+Post-war composers are absent from the concert because their music is under copyright and no free recordings exist; their pages remain in the Atlas.
+
 ## What's inside
 
 - **60 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès; extended portraits of Mahler, Rachmaninoff, Ravel and Prokofiev.
@@ -23,6 +35,8 @@ An illustrated atlas of Western art music, from Bach to the present: composer po
 | `src/build.mjs` | Static generator (no dependencies) → `docs/` |
 | `tools/art.mjs` | Wikimedia Commons search / check / fetch (images re-encoded to WebP) |
 | `tools/validate.mjs` | Schema, links, ABC notation and image checks for content files |
+| `content/listen/*.mjs` | One file per recording: metadata, formal sections and timed cues (see `LISTENING.md`) |
+| `tools/audio.mjs`, `tools/analyze.py` | Find Commons recordings; analyse them (librosa) for cue timing |
 | `tools/barcheck.mjs` | Checks every bar of every score example against its time signature |
 | `AUTHORING.md` | House style and schema for contributors |
 
