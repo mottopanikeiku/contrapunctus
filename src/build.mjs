@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Static generator: content/*.mjs -> docs/*.html. No dependencies.
-import { mkdir, writeFile, readdir, unlink } from 'node:fs/promises';
+import { mkdir, writeFile, readdir, unlink, readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { loadContent } from './content.mjs';
 import { normalizeTitle } from '../tools/commons.mjs';
@@ -12,6 +13,8 @@ const { eras, composers, pages, site, art } = C;
 const bySlug = new Map(composers.map((c) => [c.slug, c]));
 const eraBySlug = new Map(eras.map((e) => [e.slug, e]));
 const warnings = [];
+const ver = async (rel) => createHash('md5').update(await readFile(path.join(OUT, rel))).digest('hex').slice(0, 8);
+const V = { css: await ver('assets/css/style.css'), js: await ver('assets/js/site.js') };
 
 // ---------------------------------------------------------------- helpers
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -131,7 +134,7 @@ ${ogImage ? `<meta property="og:image" content="${attr(ogImage)}">` : ''}
 <meta name="theme-color" content="#13110e">
 <link rel="icon" href="${ctx.base}assets/favicon.svg" type="image/svg+xml">
 ${fonts}
-<link rel="stylesheet" href="${ctx.base}assets/css/style.css">
+<link rel="stylesheet" href="${ctx.base}assets/css/style.css?v=${V.css}">
 </head>
 <body class="${dark ? 'is-over-dark' : ''}"${style}>
 <a class="skip" href="#main">Skip to content</a>
@@ -152,7 +155,7 @@ ${body}
 </div></footer>
 <dialog class="lightbox"><button type="button" aria-label="Close">×</button><img alt=""><p></p></dialog>
 ${needsAbc ? `<script src="${ctx.base}assets/vendor/abcjs-basic-min.js" defer></script>` : ''}
-<script src="${ctx.base}assets/js/site.js" defer></script>
+<script src="${ctx.base}assets/js/site.js?v=${V.js}" defer></script>
 </body>
 </html>
 `;

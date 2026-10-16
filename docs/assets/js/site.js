@@ -84,7 +84,7 @@
     const target = $('.abc', fig);
     const [visual] = ABCJS.renderAbc(target, src, {
       responsive: 'resize', add_classes: true, paddingtop: 6, paddingbottom: 6, paddingleft: 0, paddingright: 0,
-      staffwidth: 760, foregroundColor: 'currentColor', format: { titlefont: '"EB Garamond" 1', gchordfont: '"EB Garamond" 14', vocalfont: '"EB Garamond" 13', annotationfont: '"EB Garamond" italic 13', partsfont: '"EB Garamond" 13', voicefont: '"Cormorant SC" 12' },
+      staffwidth: 760, foregroundColor: 'currentColor', format: { tempofont: '"EB Garamond" italic 15', titlefont: '"EB Garamond" 1', gchordfont: '"EB Garamond" 14', vocalfont: '"EB Garamond" 13', annotationfont: '"EB Garamond" italic 13', partsfont: '"EB Garamond" 13', voicefont: '"Cormorant SC" 12' },
     });
     fig._visual = visual;
     fig.dataset.done = '1';
