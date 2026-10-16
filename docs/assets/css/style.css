@@ -513,3 +513,10 @@ dialog.lightbox button { position: fixed; top: 1rem; right: 1.4rem; background: 
   body::after, .masthead, .toc, .play, .colophon { display: none; }
   .night, .c-hero { background: none; color: var(--ink); }
 }
+
+/* wide figures inside prose take the margin column too */
+.series-fig { margin: 2.2rem 0; }
+.prose > .series-fig { max-width: none; margin-right: calc(-1 * (var(--margin-col) + 3rem)); }
+@media (max-width: 1080px) { .prose > .series-fig { margin-right: 0; } }
+.series text { font-family: var(--text); }
+.series .h:focus:not(:focus-visible) { outline: none; }

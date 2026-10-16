@@ -98,6 +98,17 @@
   "license": "Public domain",
   "credit": ""
  },
+ "File:Antonio Vivaldi (by Pier Leone Ghezzi) Rom, Bibl Vat - Codici Ottoboniani latini 3114, fol26.jpg": {
+  "id": "antonio-vivaldi-by-pier-leone-ghezzi-rom-bibl-vat-codici-ottoboniani-latini-3114",
+  "src": "assets/img/art/antonio-vivaldi-by-pier-leone-ghezzi-rom-bibl-vat-codici-ottoboniani-latini-3114.webp",
+  "w": 1280,
+  "h": 1968,
+  "page": "https://commons.wikimedia.org/wiki/File:Antonio_Vivaldi_(by_Pier_Leone_Ghezzi)_Rom,_Bibl_Vat_-_Codici_Ottoboniani_latini_3114,_fol26.jpg",
+  "artist": "Pier Leone Ghezzi",
+  "date": "1730-1740?",
+  "license": "Public domain",
+  "credit": "scanned from Ralph Kirkpatrick: Domenico Sarlatti. Princeton University Press, Princeton, New Jersey 1953"
+ },
  "File:Arnold Böcklin - Die Toteninsel I (Basel, Kunstmuseum).jpg": {
   "id": "arnold-bocklin-die-toteninsel-i-basel-kunstmuseum",
   "src": "assets/img/art/arnold-bocklin-die-toteninsel-i-basel-kunstmuseum.webp",
@@ -196,6 +207,17 @@
   "date": "1910 date QS:P571,+1910-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Arnold Schönberg Center, Wien, 29 January 2008 (original upload date)"
+ },
+ "File:Canaletto (Giovanni Antonio Canal) - Bacino di San Marco, Venice - Google Art Project.jpg": {
+  "id": "canaletto-giovanni-antonio-canal-bacino-di-san-marco-venice-google-art-project",
+  "src": "assets/img/art/canaletto-giovanni-antonio-canal-bacino-di-san-marco-venice-google-art-project.webp",
+  "w": 1280,
+  "h": 772,
+  "page": "https://commons.wikimedia.org/wiki/File:Canaletto_(Giovanni_Antonio_Canal)_-_Bacino_di_San_Marco,_Venice_-_Google_Art_Project.jpg",
+  "artist": "Giovanni Antonio Canal",
+  "date": "1738",
+  "license": "Public domain",
+  "credit": "Google Arts & Culture — 9wFUXnpnDkgUNQ"
  },
  "File:Carl Philipp Emanuel Bach.jpg": {
   "id": "carl-philipp-emanuel-bach",
@@ -317,6 +339,17 @@
   "date": "between 1904 and 1905 date QS:P571,+1904-00-00T00:00:00Z/8,P1319,+1904-00-00T00:00:00Z/9,P1326,+1905-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "GQFLgGpbd8zd3Q at Google Cultural Institute maximum zoom level"
+ },
+ "File:Design for The Magic Flute- The Hall of Stars in the Palace of the Queen of the Night, Act 1, Scene 6 MET DT214829.jpg": {
+  "id": "design-for-the-magic-flute-the-hall-of-stars-in-the-palace-of-the-queen-of-the-n",
+  "src": "assets/img/art/design-for-the-magic-flute-the-hall-of-stars-in-the-palace-of-the-queen-of-the-n.webp",
+  "w": 1280,
+  "h": 912,
+  "page": "https://commons.wikimedia.org/wiki/File:Design_for_The_Magic_Flute-_The_Hall_of_Stars_in_the_Palace_of_the_Queen_of_the_Night,_Act_1,_Scene_6_MET_DT214829.jpg",
+  "artist": "Karl Friedrich Schinkel",
+  "date": "1847–49",
+  "license": "CC0",
+  "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy"
  },
  "File:Dmitri Shostakovich credit Deutsche Fotothek adjusted.jpg": {
   "id": "dmitri-shostakovich-credit-deutsche-fotothek-adjusted",
@@ -857,6 +890,17 @@
   "license": "Public domain",
   "credit": "The Yorck Project (2002) 10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH. ISBN : 3936122202 ."
  },
+ "File:Louis Carrogis dit Carmontelle - Portrait de Wolfgang Amadeus Mozart (Salzbourg, 1756-Vienne, 1791) jouant à Paris avec son père Jean... - Google Art Project.jpg": {
+  "id": "louis-carrogis-dit-carmontelle-portrait-de-wolfgang-amadeus-mozart-salzbourg-175",
+  "src": "assets/img/art/louis-carrogis-dit-carmontelle-portrait-de-wolfgang-amadeus-mozart-salzbourg-175.webp",
+  "w": 1280,
+  "h": 2006,
+  "page": "https://commons.wikimedia.org/wiki/File:Louis_Carrogis_dit_Carmontelle_-_Portrait_de_Wolfgang_Amadeus_Mozart_(Salzbourg,_1756-Vienne,_1791)_jouant_%C3%A0_Paris_avec_son_p%C3%A8re_Jean..._-_Google_Art_Project.jpg",
+  "artist": "Louis Carrogis Carmontelle",
+  "date": "1763 date QS:P571,+1763-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "pAG4oubzF9IxKg at Google Cultural Institute maximum zoom level"
+ },
  "File:Machaut 1.jpg": {
   "id": "machaut-1",
   "src": "assets/img/art/machaut-1.webp",
@@ -889,6 +933,17 @@
   "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "art database"
+ },
+ "File:Mozart-Lange.jpg": {
+  "id": "mozart-lange",
+  "src": "assets/img/art/mozart-lange.webp",
+  "w": 1280,
+  "h": 1500,
+  "page": "https://commons.wikimedia.org/wiki/File:Mozart-Lange.jpg",
+  "artist": "Joseph Lange",
+  "date": "1782-1783",
+  "license": "Public domain",
+  "credit": "[1]"
  },
  "File:Olivier Messiaen (1986).jpg": {
   "id": "olivier-messiaen-1986",
