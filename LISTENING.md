@@ -27,12 +27,15 @@ export default {
   year: '1901–02', key: 'F major' | '', forces: 'Strings and harp',
   performers: 'Exactly as documented on the Commons file page; leave out what is not documented',
   recorded: '1958' | '',
+  tuning: 415,   // ONLY for period-instrument recordings at a non-modern pitch (A = 415, 430, 392…); omit for A = 440/442
   source: { file: 'File:<exact Commons title>' },
   intro: 'One or two sentences: why this piece, what to listen for.',
   sections: [{ t: seconds, label: 'Exposition · first theme' }, ...],  // 3–8 large formal sections
   cues: [{ t: seconds, kind, title, text, evidence? }, ...],
 };
 ```
+
+Period-instrument ensembles often play at A = 415 Hz, a semitone below modern pitch, and the audio analysis will then read every key a semitone low (G minor appears as F♯ minor). If the performers use historical pitch, set `tuning` (and say so in a cue), and interpret the report's keys and pitch classes as shifted accordingly.
 
 Then run `node tools/audio.mjs analyze content/listen/<id>.mjs`. It downloads the recording and writes the analysis report to `cache/analysis/<id>.txt`. Read the report before you write a single timestamp.
 

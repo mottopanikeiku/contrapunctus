@@ -20,7 +20,8 @@ export async function loadContent() {
   const site = (await import(pathToFileURL(path.join(C, 'site.mjs')).href)).default;
   let art = {};
   try { art = JSON.parse(await readFile(path.join(C, 'art.json'), 'utf8')); } catch {}
-  return { eras, composers, pages, site, art };
+  const listens = await importDir(path.join(C, 'listen'));
+  return { eras, composers, pages, site, art, listens };
 }
 
 /** Every Commons title referenced anywhere in the content tree (keys named `file`). */
