@@ -178,6 +178,12 @@ const chip = (ctx, s) => {
 };
 
 // ---------------------------------------------------------------- pages
+function listenLinks(c) {
+  const mine = listens.filter((l) => l.composer === c.slug).sort((a, b) => (a.order ?? 1) - (b.order ?? 1));
+  if (!mine.length) return '';
+  return `<div class="listen-links"><span class="sc">Hear it in the Listening Room</span>${mine.map((l) => `<a href="../index.html#${l.id}"><span class="play-dot" aria-hidden="true"></span>${esc(l.work)}${l.movement ? ` · ${esc(l.movement)}` : ''}</a>`).join('')}</div>`;
+}
+
 function composerPage(c, i) {
   const ctx = { base: '../', page: `composers/${c.slug}` };
   const era = eraBySlug.get(c.era);
@@ -203,6 +209,7 @@ function composerPage(c, i) {
 <h1><span class="given">${esc(c.given ?? '')}</span>${esc(c.family ?? c.name)}</h1>
 <div class="lifespan"><span>Born <b>${esc(c.born.date ?? c.born.year)}</b>, ${esc(c.born.place)}</span>${c.died ? `<span>Died <b>${esc(c.died.date ?? c.died.year)}</b>, ${esc(c.died.place)}</span>` : ''}</div>
 <p class="epithet">${esc(c.epithet)}</p>
+${listenLinks(c)}
 ${facts ? `<dl class="facts">${facts}</dl>` : ''}
 </div></div></section>
 <div class="wrap c-body"><nav class="toc" aria-label="On this page"><ol>${toc.map(([id, n, t]) => `<li><a href="#${id}"><span class="n">${n}</span>${t}</a></li>`).join('')}</ol></nav>
@@ -425,6 +432,8 @@ async function roomPage() {
   const json = JSON.stringify(prog);
   const vRoom = createHash('md5').update(json).digest('hex').slice(0, 8);
   await writeFile(path.join(OUT, 'assets/listen/programme.json'), json);
+  const keep = new Set([...listens.map((l) => `${l.id}.json`), 'programme.json']);
+  for (const f of await readdir(path.join(OUT, 'assets/listen'))) if (!keep.has(f)) await unlink(path.join(OUT, 'assets/listen', f));
   const vcss = await ver('assets/css/room.css');
   const vjs = await ver('assets/js/room.js');
   const first = prog[0];

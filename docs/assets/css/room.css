@@ -194,8 +194,15 @@ body.waiting .backdrop img { filter: blur(0) brightness(.5) saturate(.95); trans
 /* ---------- small screens: let the page scroll ---------- */
 @media (max-width: 900px) {
   body.room { height: auto; min-height: 100svh; overflow: auto; }
-  .stage { grid-template-columns: 1fr; grid-template-areas: 'now' 'viz' 'notes'; padding-bottom: 7rem; }
-  .viz { grid-template-rows: 34svh auto; }
+  .stage { grid-template-columns: 1fr; grid-template-areas: 'now' 'spectro' 'notes' 'wheel'; padding-bottom: 7rem; }
+  .viz { display: contents; }
+  .spectro-frame { grid-area: spectro; height: 30svh; }
+  .viz-row { grid-area: wheel; }
+  .notes { grid-area: notes; }
+  .tl-sections { display: none; }
+  .timeline { height: 2.6rem; }
+  .tl-head { top: 0; }
+  .now-composer { font-size: 2.6rem; }
   .viz-row { grid-template-columns: auto 1fr; }
   .cameo-r { display: none; }
   .notes { border-left: 0; padding-left: 0; }
