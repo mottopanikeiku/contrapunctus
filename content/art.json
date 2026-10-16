@@ -263,6 +263,17 @@
   "license": "Public domain",
   "credit": "Arnold Schönberg Center, Wien, 29 January 2008 (original upload date)"
  },
+ "File:Canaletto - Westminster Bridge, with the Lord Mayor's Procession on the Thames - Google Art Project.jpg": {
+  "id": "canaletto-westminster-bridge-with-the-lord-mayor-s-procession-on-the-thames-goog",
+  "src": "assets/img/art/canaletto-westminster-bridge-with-the-lord-mayor-s-procession-on-the-thames-goog.webp",
+  "w": 1280,
+  "h": 962,
+  "page": "https://commons.wikimedia.org/wiki/File:Canaletto_-_Westminster_Bridge,_with_the_Lord_Mayor%27s_Procession_on_the_Thames_-_Google_Art_Project.jpg",
+  "artist": "Giovanni Antonio Canal",
+  "date": "1747",
+  "license": "Public domain",
+  "credit": "Google Arts & Culture — twH5GpSm6omCqw"
+ },
  "File:Canaletto (Giovanni Antonio Canal) - Bacino di San Marco, Venice - Google Art Project.jpg": {
   "id": "canaletto-giovanni-antonio-canal-bacino-di-san-marco-venice-google-art-project",
   "src": "assets/img/art/canaletto-giovanni-antonio-canal-bacino-di-san-marco-venice-google-art-project.webp",
@@ -692,6 +703,17 @@
   "license": "Public domain",
   "credit": "blogspot http://www.the-athenaeum.org/art/detail.php?ID=57403 image"
  },
+ "File:George Frideric Handel by Thomas Hudson.jpg": {
+  "id": "george-frideric-handel-by-thomas-hudson",
+  "src": "assets/img/art/george-frideric-handel-by-thomas-hudson.webp",
+  "w": 1280,
+  "h": 1616,
+  "page": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Thomas_Hudson.jpg",
+  "artist": "Thomas Hudson (died 1779)",
+  "date": "Unknown date , but author died in 1779",
+  "license": "Public domain",
+  "credit": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through s"
+ },
  "File:Gerstl, Richard - Arnold Schoenberg Seated (1906).jpg": {
   "id": "gerstl-richard-arnold-schoenberg-seated-1906",
   "src": "assets/img/art/gerstl-richard-arnold-schoenberg-seated-1906.webp",
@@ -823,6 +845,17 @@
   "date": "",
   "license": "Public domain",
   "credit": "Miniature from the Rupertsberg Codex of Liber Scivias."
+ },
+ "File:Hogarth coram.jpg": {
+  "id": "hogarth-coram",
+  "src": "assets/img/art/hogarth-coram.webp",
+  "w": 1280,
+  "h": 2122,
+  "page": "https://commons.wikimedia.org/wiki/File:Hogarth_coram.jpg",
+  "artist": "William Hogarth",
+  "date": "1740 date QS:P571,+1740-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Unknown source Unknown source"
  },
  "File:Igor Stravinsky LOC 32392u.jpg": {
   "id": "igor-stravinsky-loc-32392u",
@@ -1209,6 +1242,17 @@
   "license": "Public domain",
   "credit": ""
  },
+ "File:Marc - Tierschicksale (Die Bäume zeigten ihre Ringe, die Tiere ihre Adern), 1913, Inv. 1739.jpg": {
+  "id": "marc-tierschicksale-die-baume-zeigten-ihre-ringe-die-tiere-ihre-adern-1913-inv-1",
+  "src": "assets/img/art/marc-tierschicksale-die-baume-zeigten-ihre-ringe-die-tiere-ihre-adern-1913-inv-1.webp",
+  "w": 1280,
+  "h": 940,
+  "page": "https://commons.wikimedia.org/wiki/File:Marc_-_Tierschicksale_(Die_B%C3%A4ume_zeigten_ihre_Ringe,_die_Tiere_ihre_Adern),_1913,_Inv._1739.jpg",
+  "artist": "Franz Marc",
+  "date": "",
+  "license": "Public domain",
+  "credit": "http://sammlungonline.kunstmuseumbasel.ch/eMuseumPlus?service=direct/1/ResultDetailView/result.t1.collection_detail.$TspReferenceLink.link&sp=10&sp=Scollection&sp=SelementList&sp=1&sp=3&sp=999&sp=SdetailView&sp=0&sp=Sdetail&sp=0&sp=F&sp=Sartist&sp=l4944"
+ },
  "File:Maurice Ravel 1925.jpg": {
   "id": "maurice-ravel-1925",
   "src": "assets/img/art/maurice-ravel-1925.webp",
@@ -1297,6 +1341,17 @@
   "license": "Public domain",
   "credit": "https://mahlerfoundation.org/mahler/chronology/1898-1907-vienna/year-1907/"
  },
+ "File:Photograph of Alexander Scriabin in 1914.jpg": {
+  "id": "photograph-of-alexander-scriabin-in-1914",
+  "src": "assets/img/art/photograph-of-alexander-scriabin-in-1914.webp",
+  "w": 915,
+  "h": 1260,
+  "page": "https://commons.wikimedia.org/wiki/File:Photograph_of_Alexander_Scriabin_in_1914.jpg",
+  "artist": "Anonymous Unknown author",
+  "date": "1914",
+  "license": "Public domain",
+  "credit": "https://www.meisterdrucke.us/fine-art-prints/Anonymous-Anonymous/1052447/Portrait-of-the-Composer-Alexander-Scriabin-%281872-1915%29.html"
+ },
  "File:Piero della Francesca - Madonna del Parto - WGA17613.jpg": {
   "id": "piero-della-francesca-madonna-del-parto-wga17613",
   "src": "assets/img/art/piero-della-francesca-madonna-del-parto-wga17613.webp",
@@ -1384,6 +1439,28 @@
   "date": "circa 1918 date QS:P,+1918-00-00T00:00:00Z/9,P1480,Q5727902",
   "license": "Public domain",
   "credit": "Library of Congress Catalog: https://lccn.loc.gov/2014708419 Image download: https://cdn.loc.gov/service/pnp/ggbain/28200/28259v.jpg Original url: https://www.loc.gov/pictures/item/2014708419/"
+ },
+ "File:Prométhée (1907) - Jean Delville.jpg": {
+  "id": "promethee-1907-jean-delville",
+  "src": "assets/img/art/promethee-1907-jean-delville.webp",
+  "w": 1280,
+  "h": 2172,
+  "page": "https://commons.wikimedia.org/wiki/File:Prom%C3%A9th%C3%A9e_(1907)_-_Jean_Delville.jpg",
+  "artist": "Jean Delville",
+  "date": "1907",
+  "license": "Public domain",
+  "credit": "\"Light Bearer of Beauty\". Jean Delville (1867-1953). Painter, Poet, Writer: Initiate of Spiritual Beauty - Blog by art historian Brendan Cole https://lightbearerofbeauty.wordpress.com/art/works-1900-1947/"
+ },
+ "File:Prometheus, The Poem of Fire, Op. 60, by Alexander Scriabin, cover, 1911, from Boston Symphony Orchestra collection.jpg": {
+  "id": "prometheus-the-poem-of-fire-op-60-by-alexander-scriabin-cover-1911-from-boston-s",
+  "src": "assets/img/art/prometheus-the-poem-of-fire-op-60-by-alexander-scriabin-cover-1911-from-boston-s.webp",
+  "w": 1280,
+  "h": 1744,
+  "page": "https://commons.wikimedia.org/wiki/File:Prometheus,_The_Poem_of_Fire,_Op._60,_by_Alexander_Scriabin,_cover,_1911,_from_Boston_Symphony_Orchestra_collection.jpg",
+  "artist": "Daderot",
+  "date": "12 April 2024 (according to Exif data)",
+  "license": "Public domain",
+  "credit": "Own work"
  },
  "File:Rachmaninoff at Ivanovka.jpg": {
   "id": "rachmaninoff-at-ivanovka",

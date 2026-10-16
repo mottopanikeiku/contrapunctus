@@ -505,7 +505,7 @@ V:1
           caption: 'Original schematics, not quotations. Bars 2–3 make three equal minims across two triple bars; the tie hides the intervening barline from the sounding rhythm. The last bar lengthens the preceding bar’s first note by one quaver, an added value.',
         },
         {
-          kicker: 'Schematic · three against two', title: 'Two divisions of the same half-bar span',
+          kicker: 'Schematic · three against two', title: 'Three attacks against two',
           abc: `X:2
 T:Three against two
 M:2/4
@@ -616,7 +616,7 @@ A A c c | e c c A |]`,
 <p>The seventh harmonic illustrates why conventional notation needs qualification. Above an E fundamental it lies near D, about 31.17 cents below the equal-tempered pitch; the fifth harmonic lies about 13.69 cents below an equal-tempered G♯. Quarter-tone or finer notation can approximate these relations, but a normal piano cannot tune them independently. The example deliberately plays equal-tempered landmarks, not a counterfeit microtonal excerpt from <i>Partiels</i>. Grisey’s later <i>L’Icône paradoxale</i> adds another form of modelling: Piero della Francesca’s spatial proportions and writings on perspective enter the construction of musical time and vocal material.</p>`,
       score: [
         {
-          kicker: 'Schematic · equal-tempered landmarks only', title: 'The first eight partial positions above E',
+          kicker: 'Schematic · equal-tempered landmarks only', title: 'An equal-tempered map of eight partials',
           abc: `X:1
 T:Tempered landmarks of the E harmonic series
 M:4/4
