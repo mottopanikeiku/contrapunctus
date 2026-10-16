@@ -16,6 +16,8 @@ export default {
     ['Output', 'Two operas, two piano concertos, ballets, songs, chamber music and piano works; no symphony'],
   ],
 
+  quote: { text: 'Does it never occur to these people that I may be artificial by nature?', source: 'Ravel, as remembered by his friend M. D. Calvocoressi' },
+
   life: `
 <p class="dropcap">Ravel was born in Ciboure, across the harbour from Saint-Jean-de-Luz, to Marie Delouart, a Basque woman who had lived in Madrid, and Pierre-Joseph Ravel, a Swiss-born engineer. The family moved to Paris when Maurice was three months old. His father encouraged music as well as an interest in machinery; his mother’s songs gave him an early acquaintance with Spanish idioms. Basque ancestry and Spanish musical theatre remained distinct resources: the uneven pulse of the Piano Trio is not the habanera of the <i>Rapsodie espagnole</i>. He returned to the Basque coast for holidays and composition, but received his musical education in Paris.</p>
 <h3><span class="sc">1889–1905</span>A student the examinations could not accommodate</h3>
@@ -172,11 +174,31 @@ And when I answered that I loved a mortal woman, sullen and vexed, she shed a fe
       note: `<p>The lantern isolates seven children beneath the ogre’s house; the architectural scale makes their physical vulnerability measurable. Ravel’s <i>Petit Poucet</i>, the second piece of <i>Ma mère l’Oye</i>, uses the same Perrault tale but an earlier incident: the lost breadcrumb trail. Wandering lines and changing bar lengths replace a secure processional pulse; birds enter the orchestral version as instrumental calls. The pairing is through a shared text, not a claim that this particular Doré impression stood on Ravel’s piano.</p>`,
     },
     {
-      type: 'painting', frame: 'mat',
-      file: 'File:Hartmann -- Plan for a City Gate.jpg',
-      artist: 'Viktor Hartmann', title: 'Plan for a City Gate in Kyiv', date: '1869',
-      medium: 'Watercolour', collection: 'Institute of Russian Literature, Pushkin House, Russian Academy of Sciences, Saint Petersburg',
-      note: `<p>Hartmann’s unbuilt gate supplied the subject of the final movement of Mussorgsky’s <i>Pictures at an Exhibition</i> (1874). Ravel’s 1922 orchestration adds a second translation between media: architecture became piano music, then orchestral music. The large arch and helmet-shaped tower correspond to the score’s monumental scale, but the sounding bells belong to the musical realisation. Compare the brass chorales and percussion with the piano original rather than treating Ravel’s colour as part of Hartmann’s drawing.</p>`,
+      type: 'painting', frame: 'gilt',
+      file: 'File:Wilhelm Gause Hofball in Wien.jpg',
+      artist: 'Wilhelm Gause', title: 'Court Ball in Vienna', date: '1900',
+      medium: 'Watercolour', collection: 'Wien Museum, Vienna',
+      note: `<p>Ravel planned a homage to Johann Strauss as early as 1906, provisionally titled <i>Wien</i>; he finished it after the war, in 1919–20, as <i>La Valse</i>. Gause’s view of a Habsburg court ball — chandeliers, uniforms, a floor packed with turning couples — is the scene the score’s preface names. What Ravel did to it is the point: the waltz is assembled from fragments emerging out of murk in the double basses, built to a brilliant climax, and then driven past it until the three-beat metre breaks apart.</p>`,
+    },
+    {
+      type: 'poem',
+      author: 'Maurice Ravel', title: 'Preface to the score of La Valse', date: '1920',
+      lang: 'French', translator: 'Our translation',
+      original: `Des nuées tourbillonnantes laissent entrevoir,
+par éclaircies, des couples de valseurs.
+Elles se dissipent peu à peu : on distingue
+une immense salle peuplée d’une foule tournoyante.
+La scène s’éclaire progressivement.
+La lumière des lustres éclate au ff.
+Une Cour impériale, vers 1855.`,
+      translation: `Whirling clouds give glimpses,
+through gaps, of waltzing couples.
+Little by little they scatter: one makes out
+an immense hall filled with a turning crowd.
+The stage grows gradually brighter.
+The light of the chandeliers bursts out at the ff.
+An imperial court, about 1855.`,
+      note: `<p>Ravel printed this scenario at the head of the score of his “poème chorégraphique”. It is also a set of orchestration instructions in disguise: the clouds are the muted, divided double basses that open the piece; the gaps are the first waltz fragments surfacing in the bassoons; “éclate au ff” marks the exact dynamic at which the full orchestra arrives. Ravel insisted the setting was 1855, not 1914 — but the score’s violent ending has been heard as an epitaph for that court ever since.</p>`,
     },
   ],
 

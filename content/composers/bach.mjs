@@ -8,7 +8,7 @@ export default {
   era: 'baroque',
   featured: false,
   epithet: 'An organist, teacher and church musician who made a bass line, a dance rhythm and a fugue subject carry the same argument.',
-  portrait: { file: 'File:Johann Sebastian Bach 1746.jpg', caption: 'Elias Gottlob Haussmann, 1746. Bach holds the six-part canon BWV 1076.', focus: '50% 25%' },
+  portrait: { file: 'File:Johann Sebastian Bach - Google Arts Project.jpg', caption: 'Elias Gottlob Haussmann, second version, 1748. Bach-Archiv, Leipzig.', focus: '50% 25%' },
   facts: [
     ['Trained', 'Family musicians in Eisenach and Ohrdruf; school at Lüneburg; study of German, French and Italian scores'],
     ['Posts', 'Arnstadt · Mühlhausen · Weimar · Köthen · Thomaskantor in Leipzig, 1723–50'],

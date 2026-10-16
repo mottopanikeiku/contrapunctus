@@ -208,6 +208,17 @@
   "license": "CC BY 2.0",
   "credit": "Flickr"
  },
+ "File:Baigneurs a Asnieres.jpg": {
+  "id": "baigneurs-a-asnieres",
+  "src": "assets/img/art/baigneurs-a-asnieres.webp",
+  "w": 1280,
+  "h": 850,
+  "page": "https://commons.wikimedia.org/wiki/File:Baigneurs_a_Asnieres.jpg",
+  "artist": "Georges Seurat",
+  "date": "1884",
+  "license": "Public domain",
+  "credit": "National Gallery, London"
+ },
  "File:Barbaradebragança.jpg": {
   "id": "barbaradebraganca",
   "src": "assets/img/art/barbaradebraganca.webp",
@@ -339,6 +350,17 @@
   "date": "between 1809 and 1810 date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1809-00-00T00:00:00Z/9,P1326,+1810-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Google Arts & Culture — UAEmmuxqtNUt-g"
+ },
+ "File:Caspar David Friedrich - Mann und Frau in Betrachtung des Mondes - Alte Nationalgalerie Berlin.jpg": {
+  "id": "caspar-david-friedrich-mann-und-frau-in-betrachtung-des-mondes-alte-nationalgale",
+  "src": "assets/img/art/caspar-david-friedrich-mann-und-frau-in-betrachtung-des-mondes-alte-nationalgale.webp",
+  "w": 1280,
+  "h": 982,
+  "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Mann_und_Frau_in_Betrachtung_des_Mondes_-_Alte_Nationalgalerie_Berlin.jpg",
+  "artist": "Caspar David Friedrich",
+  "date": "1824",
+  "license": "Public domain",
+  "credit": "The Yorck Project (2002) 10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH. ISBN : 3936122202 ."
  },
  "File:Caspar David Friedrich - Two Men Contemplating the Moon - Google Art Project.jpg": {
   "id": "caspar-david-friedrich-two-men-contemplating-the-moon-google-art-project",
@@ -780,6 +802,17 @@
   "license": "Public domain",
   "credit": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through s"
  },
+ "File:Gerard ter Borch (der Jüngere) (1617 - 1681) - The Concert - 791G - Gemäldegalerie.jpg": {
+  "id": "gerard-ter-borch-der-jungere-1617-1681-the-concert-791g-gemaldegalerie",
+  "src": "assets/img/art/gerard-ter-borch-der-jungere-1617-1681-the-concert-791g-gemaldegalerie.webp",
+  "w": 1280,
+  "h": 1630,
+  "page": "https://commons.wikimedia.org/wiki/File:Gerard_ter_Borch_(der_J%C3%BCngere)_(1617_-_1681)_-_The_Concert_-_791G_-_Gem%C3%A4ldegalerie.jpg",
+  "artist": "Gerard ter Borch",
+  "date": "1670s date QS:P,+1670-00-00T00:00:00Z/8 / between 1670 and 1680 date QS:P,+1650-00-00T00:00:00Z/7,P1319,+1670-00-00T00:00:00Z/9,P1326,+1680-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Staatliche Museen zu Berlin"
+ },
  "File:Gerstl, Richard - Arnold Schoenberg Seated (1906).jpg": {
   "id": "gerstl-richard-arnold-schoenberg-seated-1906",
   "src": "assets/img/art/gerstl-richard-arnold-schoenberg-seated-1906.webp",
@@ -1021,6 +1054,17 @@
   "date": "circa 1728 date QS:P571,+1728-00-00T00:00:00Z/9,P1480,Q5727902",
   "license": "CC BY-SA 4.0",
   "credit": "Yelkrokoyade"
+ },
+ "File:Johann Sebastian Bach - Google Arts Project.jpg": {
+  "id": "johann-sebastian-bach-google-arts-project",
+  "src": "assets/img/art/johann-sebastian-bach-google-arts-project.webp",
+  "w": 1280,
+  "h": 1562,
+  "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Google_Arts_Project.jpg",
+  "artist": "Elias Gottlob Haussmann",
+  "date": "1748",
+  "license": "Public domain",
+  "credit": "https://artsandculture.google.com/asset/portrait-of-johann-sebastian-bach-elias-gottlob-hau%C3%9Fmann/AAFgIvNxE70ByQ?hl=en"
  },
  "File:Johann Sebastian Bach 1746.jpg": {
   "id": "johann-sebastian-bach-1746",
@@ -1329,6 +1373,28 @@
   "date": "1925 date QS:P571,+1925-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Bibliothèque nationale de France"
+ },
+ "File:Mezzetin MET DP170811.jpg": {
+  "id": "mezzetin-met-dp170811",
+  "src": "assets/img/art/mezzetin-met-dp170811.webp",
+  "w": 1280,
+  "h": 1628,
+  "page": "https://commons.wikimedia.org/wiki/File:Mezzetin_MET_DP170811.jpg",
+  "artist": "Jean-Antoine Watteau",
+  "date": "circa 1718 date QS:P571,+1718-00-00T00:00:00Z/9,P1480,Q5727902 –20",
+  "license": "CC0",
+  "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy"
+ },
+ "File:Modest Musorgskiy, 1870.jpg": {
+  "id": "modest-musorgskiy-1870",
+  "src": "assets/img/art/modest-musorgskiy-1870.webp",
+  "w": 459,
+  "h": 604,
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Musorgskiy,_1870.jpg",
+  "artist": "",
+  "date": "1870",
+  "license": "Public domain",
+  "credit": "Self-scanned"
  },
  "File:Monet - Impression, Sunrise.jpg": {
   "id": "monet-impression-sunrise",
@@ -1989,6 +2055,17 @@
   "date": "c. 1715-17",
   "license": "Public domain",
   "credit": "ygEIIXQmEkmkNA at Google Cultural Institute maximum zoom level"
+ },
+ "File:Wilhelm Gause Hofball in Wien.jpg": {
+  "id": "wilhelm-gause-hofball-in-wien",
+  "src": "assets/img/art/wilhelm-gause-hofball-in-wien.webp",
+  "w": 1024,
+  "h": 738,
+  "page": "https://commons.wikimedia.org/wiki/File:Wilhelm_Gause_Hofball_in_Wien.jpg",
+  "artist": "Wilhelm Gause",
+  "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "allegromusik.com"
  },
  "File:William Hogarth - A Rake's Progress, Plate VIII, In Bedlam - B1981.25.1418 - Yale Center for British Art.jpg": {
   "id": "william-hogarth-a-rake-s-progress-plate-viii-in-bedlam-b1981-25-1418-yale-center",
