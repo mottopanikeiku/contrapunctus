@@ -208,6 +208,17 @@
   "license": "Public domain",
   "credit": "http://www.cpebach.org/"
  },
+ "File:Caspar David Friedrich - Abtei im Eichwald - Google Art Project.jpg": {
+  "id": "caspar-david-friedrich-abtei-im-eichwald-google-art-project",
+  "src": "assets/img/art/caspar-david-friedrich-abtei-im-eichwald-google-art-project.webp",
+  "w": 1280,
+  "h": 820,
+  "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg",
+  "artist": "Caspar David Friedrich",
+  "date": "between 1809 and 1810 date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1809-00-00T00:00:00Z/9,P1326,+1810-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Google Arts & Culture — UAEmmuxqtNUt-g"
+ },
  "File:Caspar David Friedrich - Two Men Contemplating the Moon - Google Art Project.jpg": {
   "id": "caspar-david-friedrich-two-men-contemplating-the-moon-google-art-project",
   "src": "assets/img/art/caspar-david-friedrich-two-men-contemplating-the-moon-google-art-project.webp",
@@ -912,6 +923,17 @@
   "license": "Public domain",
   "credit": "https://mahlerfoundation.org/mahler/chronology/1898-1907-vienna/year-1907/"
  },
+ "File:Pierre Boulez , Franse dirigent, Bestanddeelnr 921-1210.jpg": {
+  "id": "pierre-boulez-franse-dirigent-bestanddeelnr-921-1210",
+  "src": "assets/img/art/pierre-boulez-franse-dirigent-bestanddeelnr-921-1210.webp",
+  "w": 1280,
+  "h": 1284,
+  "page": "https://commons.wikimedia.org/wiki/File:Pierre_Boulez_,_Franse_dirigent,_Bestanddeelnr_921-1210.jpg",
+  "artist": "Joost Evers / Anefo",
+  "date": "1968-02-28",
+  "license": "CC0",
+  "credit": "http://proxy.handle.net/10648/ab37ceaa-d0b4-102d-bcf8-003048976d84"
+ },
  "File:Pierre Puvis de Chavannes - The Poor Fisherman - Google Art Project.jpg": {
   "id": "pierre-puvis-de-chavannes-the-poor-fisherman-google-art-project",
   "src": "assets/img/art/pierre-puvis-de-chavannes-the-poor-fisherman-google-art-project.webp",
@@ -922,6 +944,17 @@
   "date": "1881 date QS:P571,+1881-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "qwEqQiy4PXmwKw at Google Cultural Institute maximum zoom level"
+ },
+ "File:Polyphony, 1932 Paul Klee.jpg": {
+  "id": "polyphony-1932-paul-klee",
+  "src": "assets/img/art/polyphony-1932-paul-klee.webp",
+  "w": 1280,
+  "h": 784,
+  "page": "https://commons.wikimedia.org/wiki/File:Polyphony,_1932_Paul_Klee.jpg",
+  "artist": "Paul Klee",
+  "date": "1932",
+  "license": "Public domain",
+  "credit": "Own work"
  },
  "File:Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893).jpg": {
   "id": "portrat-des-komponisten-pjotr-i-tschaikowski-1840-1893",
@@ -1021,6 +1054,17 @@
   "date": "July 1908 date QS:P571,+1908-07-00T00:00:00Z/10",
   "license": "Public domain",
   "credit": "http://www.richardgerstl.com/chronology-of-gerstls-works/gmunden-1908-gerstls-suicide/die-familie-schonberg"
+ },
+ "File:Rimsky-Korsakov by Repin.jpg": {
+  "id": "rimsky-korsakov-by-repin",
+  "src": "assets/img/art/rimsky-korsakov-by-repin.webp",
+  "w": 844,
+  "h": 1184,
+  "page": "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov_by_Repin.jpg",
+  "artist": "Ilya Repin",
+  "date": "1893 date QS:P571,+1893-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "http://www.lappeenranta.fi/images/20060206152825.jpg"
  },
  "File:Robert Havell after John James Audubon, The Mocking Bird, 1827, NGA 32162.jpg": {
   "id": "robert-havell-after-john-james-audubon-the-mocking-bird-1827-nga-32162",
@@ -1187,6 +1231,17 @@
   "license": "Public domain",
   "credit": "https://www.oxfordartonline.com/page/wallace-collection-guide"
  },
+ "File:The Golden Cockerel (Bilibin) 10.jpg": {
+  "id": "the-golden-cockerel-bilibin-10",
+  "src": "assets/img/art/the-golden-cockerel-bilibin-10.webp",
+  "w": 1280,
+  "h": 1026,
+  "page": "https://commons.wikimedia.org/wiki/File:The_Golden_Cockerel_(Bilibin)_10.jpg",
+  "artist": "Ivan Bilibin",
+  "date": "1907",
+  "license": "Public domain",
+  "credit": "http://book-graphics.blogspot.ru/2014/02/skazka-o-zolotom-petouchke.html"
+ },
  "File:The Hand of Guido.jpg": {
   "id": "the-hand-of-guido",
   "src": "assets/img/art/the-hand-of-guido.webp",
@@ -1241,6 +1296,17 @@
   "date": "1723 date QS:P571,+1723-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://www.deutschefotothek.de/documents/obj/33063445"
+ },
+ "File:Tsarevna-Lebed by Mikhail Vrubel.jpg": {
+  "id": "tsarevna-lebed-by-mikhail-vrubel",
+  "src": "assets/img/art/tsarevna-lebed-by-mikhail-vrubel.webp",
+  "w": 1178,
+  "h": 1736,
+  "page": "https://commons.wikimedia.org/wiki/File:Tsarevna-Lebed_by_Mikhail_Vrubel.jpg",
+  "artist": "Mikhail Vrubel",
+  "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "http://www.bibliotekar.ru/rusVrubel/28.files/image002.jpg"
  },
  "File:Wassily Kandinsky - Impression III (Concert) - Google Art Project.jpg": {
   "id": "wassily-kandinsky-impression-iii-concert-google-art-project",
