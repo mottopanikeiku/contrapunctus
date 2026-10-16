@@ -1,0 +1,51 @@
+// Historical sources:
+// https://artandmusic.yale.edu/romantic-landscapes/mendelssohn-scotland/mendelssohn-gallery2-letter-his-family
+// https://www.theportobelloorchestra.co.uk/ProgrammeNotes/MendelssohnHebrides.php
+// https://interactive.britishart.yale.edu/critique-of-reason/360/staffa-fingals-cave
+// https://www.mphil.de/en/ueber-uns/musicians/details/felix-mendelssohn-bartholdy
+export default {
+  id: 'mendelssohn-hebrides',
+  composer: 'mendelssohn',
+  order: 1,
+  work: 'The Hebrides, Op. 26',
+  movement: 'Allegro moderato',
+  year: '1830–32',
+  key: 'B minor',
+  forces: 'Orchestra',
+  performers: 'Musopen Symphony',
+  recorded: '2012',
+  source: { file: 'File:Mendelssohn - Hebrides Overture, Op. 26 (Musopen Symphony).flac' },
+  intro: 'A falling figure in the bassoons and lower strings generates an entire concert overture. Mendelssohn keeps its outline recognisable while changing the harmony, register and weight around it.',
+  sections: [
+    { t: 0, label: 'Exposition · the falling figure' },
+    { t: 120, label: 'Lyrical contrast' },
+    { t: 200, label: 'First orchestral crest' },
+    { t: 256, label: 'Development · changing ground' },
+    { t: 455, label: 'Return' },
+    { t: 510, label: 'Quiet major-key passage' },
+    { t: 570, label: 'Closing drive' },
+    { t: 670, label: 'Withdrawal' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'Begin below the violins', text: 'Bassoons, violas and cellos introduce the falling figure in B minor. It begins after a rest, so the pulse is already moving when the melody appears; listen for that small gap each time the figure returns.', evidence: 'opening sound in B minor, r=0.86 at 0:00; low-brightness opening, 992–1,244 Hz at 0:00–0:15; opening instrumentation and rest from the score' },
+    { t: 38, kind: 'life', title: 'Before entering the cave', text: 'On 7 August 1829 Mendelssohn sent his family a letter containing the overture’s opening twenty-one bars. He visited Fingal’s Cave the following day. The musical sketch therefore preceded the celebrated visit, rather than being composed inside the cave.' },
+    { t: 76, kind: 'listen', title: 'A figure beneath the surface', text: 'Throughout the opening, follow the short descending figure rather than only the highest melody. Its repetitions supply continuity while changing harmonies and orchestral layers prevent it from becoming a fixed accompaniment.', evidence: 'opening B/F♯ emphasis continues through 1:20; predominantly low onset density and brightness around 946–1,100 Hz at 1:05–1:20 support the sustained passage; a general listening instruction, not a new entrance' },
+    { t: 120, kind: 'form', title: 'A longer singing phrase', text: 'The lyrical second subject expands the short opening gesture into a longer line. The harmony moves towards D major, B minor’s relative major, while the accompaniment retains the motion that made the opening restless.', evidence: 'quieter passage at 1:50–2:15, −24.7 to −20.2 dB; D/A/F♯ chroma at 2:00 and sustained D major confirmation at 2:20–2:30 and 2:45–2:50; second-subject identity follows the score, not the key estimate alone' },
+    { t: 155, kind: 'listen', title: 'Two rates of movement', text: 'Listen beneath the broad melody for the smaller moving notes. Mendelssohn separates melodic pace from accompanimental activity: a phrase can seem to float even while the instruments underneath it keep working.', evidence: 'quiet second-subject region, −24.8 dB at 2:35 and −25.6 at 2:45; general texture instruction within the score’s lyrical passage, with no claimed instrumental entrance' },
+    { t: 190, kind: 'music', title: 'The first large crest', text: 'The orchestral sound gathers weight. The following half-minute brings the loudest sustained passage of this recording; the compact opening material can now carry a whole ensemble rather than a low-register murmur.', evidence: '−25.4 dB at 3:00 rises to −12.9 at 3:15 and −7.2 at 3:20; loudest windows 3:20–3:35' },
+    { t: 225, kind: 'world', title: 'An overture without an opera', text: '<i>The Hebrides</i> was written for the concert hall, not to introduce a stage work. Its first performance took place in London on 14 May 1832; Mendelssohn continued revising the score after that performance.' },
+    { t: 256, kind: 'form', title: 'The development opens out', text: 'The large orchestral crest subsides, and the harmony starts moving through less settled territory. This is development: familiar fragments are recombined and moved into new surroundings rather than replaced by a new main tune.', evidence: 'boundaries at 4:16 and 4:20 (both 0.57), then 4:34 (0.73) and 4:40 (0.88); −24.0 dB at 4:10; chroma changes from B/F♯ through E/G to B♭/D/F by 4:40' },
+    { t: 290, kind: 'music', title: 'The bass changes the view', text: 'Listen to the low notes under the recurring material. Changes there alter the harmonic meaning of a familiar contour; the overture can move far from B minor without abandoning its opening vocabulary.', evidence: 'boundary 4:54 (0.58) and 4:58 (0.73); bass moves through F at 4:45, B at 4:50, F♯ at 4:55 and A at 5:00; contrasting pitch collections across this development passage' },
+    { t: 325, kind: 'world', title: 'Turner visits Staffa', text: 'Turner visited Staffa in 1831, two years after Mendelssohn, and exhibited <i>Staffa, Fingal’s Cave</i> in 1832. His painting includes a steamship. The supposedly remote landscape was already a destination reached through modern transport.' },
+    { t: 360, kind: 'music', title: 'A sudden change of weight', text: 'A brief swell gives way to a much darker-coloured orchestral sound. Listen for the difference between volume and colour: a passage can become less bright without disappearing or losing its forward motion.', evidence: 'boundary 6:04 (0.81); centroid falls from 2,231 Hz at 6:00 to 947 at 6:05; −17.4 to −22.0 dB, followed by −12.1 at 6:15' },
+    { t: 395, kind: 'music', title: 'Repeated attacks gather force', text: 'The texture becomes more insistently articulated. Repeated short attacks give the music a firmer tread, and the gradual increase in volume turns that articulation into another orchestral build-up.', evidence: 'onsets rise from 0–0.2/s at 6:05–6:20 to 2.8–3.4/s at 6:25–6:45; loudness rises from −26.9 dB at 6:25 to −10.0 at 7:00' },
+    { t: 430, kind: 'listen', title: 'Keep the contour in mind', text: 'Through this louder passage, keep the opening’s downward contour in memory. Sonata form makes recognition a practical listening task: the return matters because a short idea has remained traceable through the development.', evidence: 'sustained louder span at 7:05–7:25, −13.3 to −9.2 dB; B/F♯ remains prominent before the withdrawal at 7:35; anticipatory listening instruction rather than an asserted entrance' },
+    { t: 455, kind: 'form', title: 'The opening ground returns', text: 'The sound withdraws and the opening material returns around B minor. This recapitulation restores the overture’s starting ground, but it does not simply replay the earlier sequence unchanged.', evidence: '−9.9 dB at 7:25 falls to −25.6 at 7:35; B/F♯ bass and B minor r=0.81 at 7:40; boundary 7:46 (0.52); return located by the score’s formal proportions and the matching tonal withdrawal' },
+    { t: 495, kind: 'music', title: 'The orchestra draws back', text: 'The volume falls further. In this exposed passage, small changes of attack and balance matter more than the size of the orchestra; listen for how a quiet line remains audible without being forced.', evidence: '−21.1 dB at 8:15 falls to −35.3 at 8:30; boundary 8:22 (0.61); 8:30 and 8:35 are among the quietest non-terminal windows' },
+    { t: 535, kind: 'life', title: 'Building a musical institution', text: 'Mendelssohn became conductor of Leipzig’s Gewandhaus concerts in 1835. In 1843 he founded the Leipzig Conservatoire. Composing, rehearsing an orchestra and organising musical education belonged to the same working life.' },
+    { t: 570, kind: 'music', title: 'The closing drive begins', text: 'The quiet span gives way to sharper attacks and a growing orchestral sound. B minor reasserts itself as the overture approaches its close; the familiar material now has less space between its surges.', evidence: 'boundary 9:30 (0.76); onsets rise from 0.2/s at 9:20 to 2.6 at 9:30; −26.8 dB at 9:25 rises to −9.8 at 9:50; B minor r=0.94 at 9:50' },
+    { t: 610, kind: 'listen', title: 'Follow the separate attacks', text: 'Listen for the separation between notes inside the fuller sound. Mendelssohn’s fast orchestral writing needs coordinated articulation as well as volume; blurring the attacks would hide the smaller figures that carry the movement.', evidence: 'onset density 1.6–2.8/s at 10:05–10:20; brightness 1,521–1,801 Hz; general articulation instruction within the closing span' },
+    { t: 650, kind: 'music', title: 'One more gathering of force', text: 'The sound swells once more before the final withdrawal. The overture does not maintain its orchestral weight to the last instant: its ending makes room for the low, falling material to be heard without that mass.', evidence: '−14.1 dB at 10:45 rises to −9.8 at 10:55, then falls to −20.7 at 11:10 and −25.9 at 11:15; B/F♯ remains prominent' },
+    { t: 673, kind: 'music', title: 'The figure outlasts the surge', text: 'The closing sound contracts into B minor. After the full-orchestra passages, the reduced ending makes the opening figure’s small scale audible again.', evidence: '−25.9 dB at 11:15 to −35.6 at 11:20; brightness 1,052→691 Hz and B minor estimates r=0.78–0.73; terminal withdrawal matches the score’s reduced close' },
+  ],
+};
