@@ -1,0 +1,38 @@
+// Context: https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67418%2F9
+// Life: https://www.liszt.org/p/chronology.html
+export default {
+  id: 'liszt-hungarian-rhapsody-6',
+  composer: 'liszt',
+  order: 1,
+  work: 'Hungarian Rhapsody No. 6, S. 244/6',
+  movement: '',
+  year: 'Published 1853',
+  key: 'D♭ major',
+  forces: 'Piano',
+  performers: 'Martha Argerich',
+  recorded: '1962',
+  source: { file: 'File:Franz Liszt - Hungarian Rhapsody in D-flat major, S. 244 no. 6 (Martha Argerich, 1962).flac' },
+  intro: 'Four sharply separated sections turn a piano into a band: march, quick dance, slow declamation and a finale driven by repeated octaves. Argerich makes the changes of pace as conspicuous as the changes of register.',
+  sections: [
+    { t: 0, label: 'Tempo giusto · march' },
+    { t: 85, label: 'Presto · quick dance' },
+    { t: 126, label: 'Andante · slow song' },
+    { t: 248, label: 'Allegro · friss' },
+    { t: 288, label: 'Octave variations' },
+    { t: 355, label: 'Final drive · B♭ major' },
+  ],
+  cues: [
+    { t: 0, kind: 'form', title: 'Four sections, one pianist', text: 'The opening is a measured march in D♭ major, with the melody above a regular chordal bass. Liszt will replace this tread with a quick dance, then a slow song, before the extended fast finale.', evidence: 'Opening sound; 0:05–0:25, −9.4 to −5.9 dB with 1.8–2.6 onsets/s; D♭/F/A♭ pitch classes. The score supplies Tempo giusto and the four-section design.' },
+    { t: 35, kind: 'life', title: 'After the touring years', text: 'Liszt ended his regular career as a travelling virtuoso in 1847. When this rhapsody appeared in 1853, he was based in Weimar, conducting and composing rather than moving from one paid recital to the next.' },
+    { t: 70, kind: 'music', title: 'The march breaks apart', text: 'The volume drops and a light run loosens the march’s regular pulse. A cadenza is a passage where the soloist can suspend the beat; here it separates two kinds of dance rather than ending a concerto.', evidence: '−10.9 dB at 1:00 falls to −30.6 at 1:10; brightness rises to 1378 Hz and onsets to 4.8/s at 1:15, before the accented arrival at 1:20.' },
+    { t: 100, kind: 'world', title: 'Whose Hungarian music?', text: 'The rhapsodies draw on songs, published dances and the improvisatory playing of Romani bands. These are not the same sources as the rural songs Bartók later collected. Liszt reshapes an existing performing culture for the concert piano.' },
+    { t: 126, kind: 'form', title: 'The slow song', text: 'The quick dance stops and the Andante enters B♭ minor. The melody has room for pauses and ornaments; the bass no longer needs to mark every step of a dance.', evidence: 'Boundary 2:06 (0.67); onsets fall from 4.0/s at 2:00 to 1.0 at 2:05 and 0.8 at 2:15; B♭/F/D♭ and B♭ minor estimate at 2:15 confirm the score’s Andante.' },
+    { t: 165, kind: 'world', title: 'A song before Liszt', text: 'The slow section’s melody is by Ádám Pálóczi Horváth and was published in 1813. Liszt had already used it in his earlier “Rumanian Rhapsody”. This apparently spontaneous piano song has a written history stretching back forty years before publication.' },
+    { t: 200, kind: 'life', title: 'Conducting another exile’s opera', text: 'In Weimar, Liszt conducted the first performance of Wagner’s Lohengrin on 28 August 1850. Wagner, wanted after the Dresden uprising, could not attend. Liszt’s work for other composers continued after he had stopped touring for his own income.' },
+    { t: 230, kind: 'music', title: 'A second cadenza', text: 'A rapid flourish breaks out of the slow section. The notes spread across the keyboard, then leave a quiet gap before the fast finale: register and silence make the join audible.', evidence: 'Boundaries 3:46 (0.90) and 3:58 (0.87); 3:50 reaches 1978 Hz and 5.4 onsets/s, followed by −33.1 dB at 4:00.' },
+    { t: 248, kind: 'form', title: 'The friss begins', text: 'The final fast dance starts quietly in B♭ major. Listen to the repeated bass rhythm: it gives the pianist a fixed support while the melody is enlarged into increasingly demanding versions.', evidence: 'Boundary 4:08 (0.67); B♭/D/F and B♭ major r=0.85 at 4:10; onsets grow from 2.2/s at 4:05 to 4.8 at 4:20.' },
+    { t: 285, kind: 'music', title: 'The octave machinery', text: 'The dance gains weight and speed. Liszt doubles the tune in octaves, requiring the hand to repeat and move as a unit; the technical problem is to keep a melody audible inside that repeated attack.', evidence: 'Boundary 4:48 (0.84); −21 dB and 4.8 onsets/s at 4:45 rise to −14.2 and 7.0 at 4:50. Repeated octave writing belongs to the score’s final section.' },
+    { t: 320, kind: 'listen', title: 'More than fast notes', text: 'The playing is now much louder, but the tune still has to be phrased. Follow the longer melodic notes through the repeated octaves, rather than treating each attack as a separate musical event.', evidence: '−5.6 dB at 5:20; B♭ major region persists through 5:35, with 4.2–6.2 onsets/s and brightness around 1057–1230 Hz.' },
+    { t: 355, kind: 'music', title: 'A different home key', text: 'The rhapsody finishes in B♭ major, not the D♭ major in which it began. The final drive includes some of the performance’s heaviest attacks, followed by a short resonance rather than a gradual fade.', evidence: 'B♭ major r=0.94 at 5:55 and 6:00; −4.1 dB at 6:05, then −43.6 with no onsets at 6:15. Final B♭ major agrees with the score.' },
+  ],
+};
