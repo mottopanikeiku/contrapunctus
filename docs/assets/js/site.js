@@ -182,6 +182,7 @@
 
   // ---- harmonic series: click a partial to hear it against the fundamental
   $$('svg.series').forEach((svg) => {
+    $$('.h', svg).forEach((g) => g.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); g.dispatchEvent(new Event('click')); } }));
     $$('.h', svg).forEach((g) => g.addEventListener('click', async () => {
       const ac = ctxAudio(); await ac.resume();
       const n = Number(g.dataset.n), f0 = 65.41; // C2

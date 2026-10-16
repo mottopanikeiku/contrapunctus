@@ -8,7 +8,7 @@ export default {
   era: 'fin-de-siecle',
   featured: true,
   epithet: 'A composer-pianist who built long melodies over tolling basses, and carried Russian chant into the concertos and dances of his American exile.',
-  portrait: { file: 'File:Sergei Rachmaninoff LOC 30160 cropped.jpg', caption: 'Rachmaninoff photographed by the Bain News Service; date unrecorded. Library of Congress.', focus: '50% 23%' },
+  portrait: { file: 'File:Sergei Rachmaninoff LOC 30160 cropped.jpg', caption: 'Rachmaninoff photographed by the Bain News Service; date unrecorded. Library of Congress.', focus: '50% 23%', cameo: { zoom: 1.65, origin: '52% 16%' } },
   facts: [
     ['Trained', 'Moscow Conservatory: piano with Nikolai Zverev and Alexander Siloti; counterpoint with Sergei Taneyev, composition with Anton Arensky'],
     ['Conducted', 'Mamontov’s Moscow Private Russian Opera, 1897–98 · Bolshoi Theatre, 1904–06'],

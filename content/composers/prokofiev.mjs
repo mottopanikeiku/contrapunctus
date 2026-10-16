@@ -8,7 +8,7 @@ export default {
   era: 'modernism',
   featured: true,
   epithet: 'A pianist who made the keyboard strike like percussion, and a theatre composer whose longest melodies keep their footing through abrupt changes of key.',
-  portrait: { file: 'File:Prokofieff (i.e. Prokofiev) LCCN2014708419 Crop 2.jpg', caption: 'Prokofiev, c. 1918. Bain News Service photograph, Library of Congress; restored crop.', focus: '50% 24%' },
+  portrait: { file: 'File:Prokofieff (i.e. Prokofiev) LCCN2014708419 Crop 2.jpg', caption: 'Prokofiev, c. 1918. Bain News Service photograph, Library of Congress; restored crop.', focus: '50% 24%', cameo: { zoom: 1.9, origin: '62% 12%' } },
   facts: [
     ['Trained', 'Glière at Sontsovka, 1902–03; St Petersburg Conservatory, 1904–14: Rimsky-Korsakov, Lyadov, Tcherepnin and Esipova'],
     ['Lived', 'Russia until 1918 · United States, France and Bavaria · Paris from 1923 · settled in Moscow with his family in 1936'],

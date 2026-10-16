@@ -522,3 +522,5 @@ dialog.lightbox button { position: fixed; top: 1rem; right: 1.4rem; background: 
 @media (max-width: 1080px) { .prose > .series-fig { margin-right: 0; } }
 .series text { font-family: var(--text); }
 .series .h:focus:not(:focus-visible) { outline: none; }
+.oval-in { display: block; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; }
+.cameo { align-content: start; }
