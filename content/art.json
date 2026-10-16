@@ -76,6 +76,17 @@
   "license": "Public domain",
   "credit": "ÖNB, Bildarchiv Austria , Inventarnummer Pb 580.555-F 293 ( https://www.bildarchivaustria.at/Pages/ImageDetail.aspx?p_iBildID=10450741 )"
  },
+ "File:Amigoni e friends.png": {
+  "id": "amigoni-e-friends",
+  "src": "assets/img/art/amigoni-e-friends.webp",
+  "w": 1051,
+  "h": 728,
+  "page": "https://commons.wikimedia.org/wiki/File:Amigoni_e_friends.png",
+  "artist": "Felton Bequest, 1950",
+  "date": "between circa 1750 and circa 1752",
+  "license": "CC BY-SA 4.0",
+  "credit": "National Gallery of Victoria, Melbourne"
+ },
  "File:An Experiment on a Bird in an Air Pump by Joseph Wright of Derby, 1768.jpg": {
   "id": "an-experiment-on-a-bird-in-an-air-pump-by-joseph-wright-of-derby-1768",
   "src": "assets/img/art/an-experiment-on-a-bird-in-an-air-pump-by-joseph-wright-of-derby-1768.webp",
@@ -197,6 +208,17 @@
   "license": "CC BY 2.0",
   "credit": "Flickr"
  },
+ "File:Barbaradebragança.jpg": {
+  "id": "barbaradebraganca",
+  "src": "assets/img/art/barbaradebraganca.webp",
+  "w": 1280,
+  "h": 1546,
+  "page": "https://commons.wikimedia.org/wiki/File:Barbaradebragan%C3%A7a.jpg",
+  "artist": "Jean Ranc",
+  "date": "1729",
+  "license": "Public domain",
+  "credit": "[1]"
+ },
  "File:Bartók Béla Csík megyei vándorútján.jpg": {
   "id": "bartok-bela-csik-megyei-vandorutjan",
   "src": "assets/img/art/bartok-bela-csik-megyei-vandorutjan.webp",
@@ -262,6 +284,17 @@
   "date": "1910 date QS:P571,+1910-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Arnold Schönberg Center, Wien, 29 January 2008 (original upload date)"
+ },
+ "File:Boldini - Ritratto di Giuseppe Verdi (1886) Google Art Project.jpg": {
+  "id": "boldini-ritratto-di-giuseppe-verdi-1886-google-art-project",
+  "src": "assets/img/art/boldini-ritratto-di-giuseppe-verdi-1886-google-art-project.webp",
+  "w": 1280,
+  "h": 1556,
+  "page": "https://commons.wikimedia.org/wiki/File:Boldini_-_Ritratto_di_Giuseppe_Verdi_(1886)_Google_Art_Project.jpg",
+  "artist": "Giovanni Boldini",
+  "date": "1886",
+  "license": "Public domain",
+  "credit": "Google Arts & Culture — FgEQF8uoob7fhg"
  },
  "File:Canaletto - Westminster Bridge, with the Lord Mayor's Procession on the Thames - Google Art Project.jpg": {
   "id": "canaletto-westminster-bridge-with-the-lord-mayor-s-procession-on-the-thames-goog",
@@ -614,6 +647,17 @@
   "date": "1900s date QS:P,+1900-00-00T00:00:00Z/8",
   "license": "Public domain",
   "credit": "http://fotki.yandex.ru/users/sunday1989/view/56128/?page=16"
+ },
+ "File:Francesco Hayez - Ritratto di Alessandro Manzoni.jpg": {
+  "id": "francesco-hayez-ritratto-di-alessandro-manzoni",
+  "src": "assets/img/art/francesco-hayez-ritratto-di-alessandro-manzoni.webp",
+  "w": 1280,
+  "h": 1688,
+  "page": "https://commons.wikimedia.org/wiki/File:Francesco_Hayez_-_Ritratto_di_Alessandro_Manzoni.jpg",
+  "artist": "Francesco Hayez",
+  "date": "1841",
+  "license": "Public domain",
+  "credit": "The Yorck Project (2002) 10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH. ISBN : 3936122202 ."
  },
  "File:François Couperin.jpg": {
   "id": "francois-couperin",
@@ -1319,6 +1363,17 @@
   "license": "CC0",
   "credit": "Nationaal Archief"
  },
+ "File:Othello et Desdémone à Venise - Théodore Chassériau - Musée du Louvre Peintures RF 3897.jpg": {
+  "id": "othello-et-desdemone-a-venise-theodore-chasseriau-musee-du-louvre-peintures-rf-3",
+  "src": "assets/img/art/othello-et-desdemone-a-venise-theodore-chasseriau-musee-du-louvre-peintures-rf-3.webp",
+  "w": 1280,
+  "h": 1620,
+  "page": "https://commons.wikimedia.org/wiki/File:Othello_et_Desd%C3%A9mone_%C3%A0_Venise_-_Th%C3%A9odore_Chass%C3%A9riau_-_Mus%C3%A9e_du_Louvre_Peintures_RF_3897.jpg",
+  "artist": "Théodore Chassériau",
+  "date": "1850",
+  "license": "Public domain",
+  "credit": "photo Shonagon 2026-01-02"
+ },
  "File:Pérotin - Viderunt omnes.jpg": {
   "id": "perotin-viderunt-omnes",
   "src": "assets/img/art/perotin-viderunt-omnes.webp",
@@ -1395,6 +1450,17 @@
   "date": "1881 date QS:P571,+1881-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "qwEqQiy4PXmwKw at Google Cultural Institute maximum zoom level"
+ },
+ "File:Piet Mondrian, 1942 - Broadway Boogie Woogie.jpg": {
+  "id": "piet-mondrian-1942-broadway-boogie-woogie",
+  "src": "assets/img/art/piet-mondrian-1942-broadway-boogie-woogie.webp",
+  "w": 1280,
+  "h": 1282,
+  "page": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg",
+  "artist": "Piet Mondrian",
+  "date": "between 1942 and 1943 date QS:P571,+1942-00-00T00:00:00Z/8,P1319,+1942-00-00T00:00:00Z/9,P1326,+1943-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Transferred from en.wikipedia to Commons."
  },
  "File:Polyphony, 1932 Paul Klee.jpg": {
   "id": "polyphony-1932-paul-klee",
@@ -1505,6 +1571,17 @@
   "date": "1511",
   "license": "Public domain",
   "credit": "wikimedia commons"
+ },
+ "File:Retrato de Domenico Scarlatti.jpg": {
+  "id": "retrato-de-domenico-scarlatti",
+  "src": "assets/img/art/retrato-de-domenico-scarlatti.webp",
+  "w": 1280,
+  "h": 1616,
+  "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Domenico_Scarlatti.jpg",
+  "artist": "Domingo Antonio Velasco",
+  "date": "1738 date QS:P571,+1738-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "http://intoclassics.net/_nw/305/77701004.jpg"
  },
  "File:Rhinegold and the Valkyries p 004.jpg": {
   "id": "rhinegold-and-the-valkyries-p-004",
