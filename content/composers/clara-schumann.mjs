@@ -1,0 +1,113 @@
+export default {
+  slug: 'clara-schumann', name: 'Clara Schumann', given: 'Clara', family: 'Schumann',
+  born: { year: 1819, date: '13 September 1819', place: 'Leipzig' },
+  died: { year: 1896, date: '20 May 1896', place: 'Frankfurt am Main' },
+  era: 'romantic', featured: false,
+  epithet: 'A concert pianist for more than sixty years, she composed songs, chamber music and piano works whose technical demands arise from the independence of their voices.',
+  portrait: { file: 'File:Franz Hanfstaengl - Clara Schumann (1857).jpg', caption: 'Clara Schumann, photograph by Franz Hanfstaengl, 1857.', focus: '50% 23%' },
+  facts: [
+    ['Trained', 'Piano with her father Friedrich Wieck; harmony, counterpoint, composition and languages with private teachers'],
+    ['Career', 'Public debut in Leipzig, 1828; international touring; final public performance, 1891'],
+    ['Teaching', 'Hoch Conservatoire, Frankfurt, 1878–92'],
+    ['Output', 'Piano Concerto; Piano Trio; variations, romances, scherzos, songs and arrangements'],
+  ],
+  life: `
+<p class="dropcap">Clara Wieck was born in Leipzig in 1819 to two professional musicians. Her mother, Mariane, was a pianist and singer; her father, Friedrich, taught piano and dealt in instruments. After their marriage broke down, Clara remained chiefly under her father’s control. He organised a systematic education in piano playing, theory, composition, languages and physical exercise, and managed her early career. Her public debut came in Leipzig in 1828. By her early teens she was touring, meeting established musicians and presenting her own compositions as part of the repertory expected of a virtuoso.</p>
+<p>The young Clara’s programmes included variations, opera-based fantasies and other display pieces, but her published works already ask more than fluent passagework. The <i>Romance variée</i>, Op. 3, transforms a melody through changing texture; [[schumann|Robert Schumann]] used its theme in his own Op. 5 Impromptus. Her A minor Piano Concerto began with the finale, for which Robert helped with orchestration, and acquired its complete three-movement form by 1835. She played it at the Gewandhaus under [[mendelssohn|Mendelssohn]] that November. The middle movement withdraws from the orchestra into a duet between piano and solo cello before the finale returns.</p>
+<h3><span class="sc">1838–40</span>A performer’s independence</h3>
+<p>In Vienna in 1838 she was named an imperial and royal chamber virtuosa, an exceptional honour for a young foreign woman. Her relationship with Robert, who had studied with her father, created a conflict Friedrich Wieck could not settle by professional management alone. He opposed their marriage and attempted to restrict their communication. Clara’s 1839 Paris visit without him was part of a difficult process of personal and financial separation. After court proceedings, she and Robert married at Schönefeld near Leipzig on 12 September 1840, the day before her twenty-first birthday.</p>
+<aside class="note"><b>Two opus numbers</b>The 1841 collection <i>Zwölf Gedichte aus Rückerts Liebesfrühling</i> combines Robert’s Op. 37 with Clara’s Op. 12. Her three contributions are separate compositions, not arrangements of his songs.</aside>
+<p>Marriage did not remove the conflict between artistic work and household requirements. Clara bore eight children between 1841 and 1854; seven survived infancy. She taught, practised, performed and managed finances while Robert needed quiet for composition. Their diaries and letters record encouragement, mutual study and frustration rather than a simple division into supportive wife and productive husband. Clara’s songs for the joint Rückert collection demonstrate her own treatment of text: recurring verbal patterns can retain a recognisable musical shape while changes of harmony give the final stanza a different force.</p>
+<p>Touring remained an economic and artistic necessity. Robert accompanied her to Russia in 1844, but her international reputation was then more established than his. After their return and his worsening health, the family moved to Dresden. The G minor Piano Trio, Op. 17, followed in 1846. Its four movements distinguish sonata argument, scherzo, slow song and contrapuntal finale. The piano does not merely fill gaps between string melodies: it supplies thematic entries and a changing harmonic surface, while violin and cello can answer, combine or sustain lines that the keyboard cannot physically hold.</p>
+<h3><span class="sc">1853</span>The last concentrated period of composition</h3>
+<p>In Düsseldorf, where Robert became music director in 1850, Clara continued performing and assisting with musical work. The year 1853 produced her Variations on a Theme by Robert Schumann, Op. 20, and two sets of Three Romances, Opp. 21 and 22, for piano and for violin with piano respectively. The violin pieces were dedicated to Joseph Joachim, an important performing partner over subsequent decades. Brahms met the couple that autumn. His later Op. 9 Variations use the same Robert Schumann theme as Clara’s Op. 20, placing three composers’ treatments of one musical object in direct comparison.</p>
+<aside class="note"><b>A shared theme</b>Clara’s Op. 20 takes its theme from Robert’s <i>Bunte Blätter</i>, Op. 99 No. 4, in F♯ minor. The sequence of variations changes figuration and contrapuntal density while retaining a recognisable harmonic framework.</aside>
+<p>Robert’s crisis in February 1854 and admission to Endenich transformed the family’s circumstances. Doctors largely prevented Clara from visiting him; she continued to give concerts and bore their youngest child, Felix, that June. Brahms helped the household and remained a close correspondent and musical adviser. After Robert’s death in 1856 she sustained the family through teaching and touring. Her own composition became intermittent rather than a continuing professional project. That change should not erase the completed concerto, trio, songs and piano works, or convert their scarcity into a claim about what she could have written under different conditions.</p>
+<h3><span class="sc">The concert repertory</span>Performance as editorial work</h3>
+<p>Her later programmes helped establish a durable place for Bach, Beethoven, Chopin, Robert Schumann and Brahms in public piano concerts. She did not invent playing from memory or single-handedly replace virtuoso display, but her long career gave these choices institutional force. Partnerships with Joachim placed chamber music beside solo repertory. Her editions of Robert’s music preserved practical knowledge while also making decisions that later scholarship has had to examine. The withholding of his Violin Concerto, in which Joachim and Brahms were also involved, shows that preservation could include exclusion as well as advocacy.</p>
+<p>In 1878 she joined the Hoch Conservatoire in Frankfurt, teaching advanced pianists while her daughters assisted with other pupils. Students carried her approach to phrasing, tone and repertory into several countries. Family responsibilities continued through the deaths and illnesses of adult children and the support of grandchildren. Her last public performance took place in 1891, and she retired from the conservatoire the following year. She died in Frankfurt in May 1896 and was buried beside Robert in Bonn. Surviving letters, programmes, annotated scores and pupils’ recollections document the choices of a working musician across six decades; no sound recording preserves her playing.</p>`,
+  sound: [
+    { aspect: 'Voicing', glyph: '𝄢', html: `<p>Keyboard figuration can contain an independent middle part rather than a decorative filling. The Variations, Op. 20, require the pianist to distinguish the theme’s structural line from new moving voices. A uniform legato and dynamic level conceal the variation’s argument.</p>` },
+    { aspect: 'Vocal phrase', glyph: '𝅘𝅥', html: `<p>The romances and songs share a concern with sustained melody, but the phrase does not stand outside its harmony. Appoggiaturas and delayed resolutions determine where a line leans and where it can release; a singer’s breath or a pianist’s timing must make that difference audible.</p>` },
+    { aspect: 'Concerto intimacy', glyph: '𝄡', html: `<p>The A minor Concerto’s Romance excludes orchestral mass and introduces a solo cello beside the pianist. Its chamber texture is a formal event between the outer movements, not a reduced version of their virtuosity.</p>` },
+    { aspect: 'Variation & dialogue', glyph: '𝄋', html: `<p>Op. 20 treats an existing theme as material for harmonic and contrapuntal work. The Trio’s finale likewise gives imitation a structural role. These are procedures she studied and practised with Robert, but their particular distributions of voices belong to her scores.</p>` },
+    { aspect: 'Rhythmic character', glyph: '𝄾', html: `<p>The C minor Scherzo, Op. 14, demands strongly articulated motion and rapid changes of register. Its attack differs from the broad line of a romance; ‘lyrical’ is not a sufficient description of a catalogue that also includes dances and public concert pieces.</p>` },
+  ],
+  works: [
+    { year: '1831–33', title: 'Romance variée in C major', cat: 'Op. 3', forces: 'Piano', note: 'Dedicated to Robert Schumann; its melody became material for his Op. 5 Impromptus.' },
+    { year: '1833–35', title: 'Piano Concerto in A minor', cat: 'Op. 7', forces: 'Piano and orchestra', note: 'Three connected movements. The central Romance becomes a piano–cello duet; Clara premiered the complete concerto under Mendelssohn in 1835.' },
+    { year: '1838–39', title: 'Three Romances', cat: 'Op. 11', forces: 'Piano', note: 'A set in E♭ major, G minor and A♭ major; the melodic surface depends on careful separation of moving inner parts.' },
+    { year: '1841', title: 'Three songs from Rückert’s Liebesfrühling', cat: 'Op. 12', forces: 'Voice and piano', note: 'Published within the joint collection with Robert’s Op. 37; includes <i>Liebst du um Schönheit</i>.' },
+    { year: '1841', title: 'Scherzo No. 2 in C minor', cat: 'Op. 14', forces: 'Piano', note: 'A concert work whose forceful articulation and registral contrasts differ sharply from the romances.' },
+    { year: '1846', title: 'Piano Trio in G minor', cat: 'Op. 17', forces: 'Piano, violin and cello', note: 'Four movements; the finale integrates contrapuntal entries into a sustained sonata argument.' },
+    { year: '1853', title: 'Variations on a Theme by Robert Schumann', cat: 'Op. 20', forces: 'Piano', note: 'Seven variations on <i>Bunte Blätter</i>, Op. 99 No. 4, in F♯ minor; Brahms later used the same theme for his Op. 9.' },
+    { year: '1853', title: 'Three Romances', cat: 'Op. 21', forces: 'Piano', note: 'The opening A minor movement and the contrasting F major and G minor pieces explore different kinds of sustained keyboard line.' },
+    { year: '1853', title: 'Three Romances', cat: 'Op. 22', forces: 'Violin and piano', note: 'Dedicated to Joseph Joachim; the piano carries active harmonic and contrapuntal material rather than merely supporting a solo melody.' },
+  ],
+  score: [
+    { kicker: 'Variation workshop', title: 'Changing the surface, retaining the bass', abc: `X:1
+T:Theme and variation — schematic
+M:2/4
+L:1/8
+Q:1/4=66
+K:F#m
+V:1 name="Upper line"
+%%MIDI program 0
+c2 B A | G2 F2 | c/B/c/B/ A/G/A/F/ | G/F/G/^E/ F2 |]
+V:2 name="Harmonic support" clef=bass
+%%MIDI program 0
+F,, [A,C] [A,C] [A,C] | C, [^E,G,] F,, [A,C] | F,, [A,C] [A,C] [A,C] | C, [^E,G,] F,, [A,C] |]`, caption: 'An invented four-bar schematic, not a quotation from Op. 20. Bars 3–4 retain the bass and harmonic support of bars 1–2 while subdividing and decorating the upper line. Clara’s actual variations go further, changing register and contrapuntal relationships. The common theme in her Op. 20 and Brahms’s Op. 9 makes those choices directly comparable.' },
+  ],
+  arts: [
+    { type: 'painting', frame: 'mat', file: 'File:Robert and Clara Schumann.jpg', artist: 'After Ernst Rietschel; reproductive artist unidentified', title: 'Robert and Clara Schumann', date: 'Reproduced in 1918', medium: 'Book illustration after a portrait relief', collection: 'Published in Modern Music & Musicians, University Society, New York', note: `<p>Rietschel belonged to the Schumanns’ Dresden circle. The double profile gives their marriage a single commemorative object, but Clara’s separate performance history extends for forty years beyond Robert’s death. Read the paired image alongside the joint Rückert publication: collaboration produced a shared title page without abolishing the authorship of individual songs. The reproduction’s source is documented; its reproductive artist is not.</p>` },
+    { type: 'poem', author: 'Friedrich Rückert', title: 'Liebst du um Schönheit', date: 'From Liebesfrühling; Clara’s setting 1841', lang: 'German', translator: 'Our translation', original: `Liebst du um Schönheit,
+O nicht mich liebe!
+Liebe die Sonne,
+Sie trägt ein gold’nes Haar!
+
+Liebst du um Jugend,
+O nicht mich liebe!
+Liebe den Frühling,
+Der jung ist jedes Jahr!
+
+Liebst du um Schätze,
+O nicht mich liebe!
+Liebe die Meerfrau,
+Sie hat viel Perlen klar!
+
+Liebst du um Liebe,
+O ja, mich liebe!
+Liebe mich immer,
+Dich lieb’ ich immerdar!`, translation: `If beauty is why you love,
+do not choose me!
+Give your love to the sun:
+she wears golden hair.
+
+If youth is why you love,
+do not choose me!
+Give your love to spring:
+it is young again each year.
+
+If riches are why you love,
+do not choose me!
+Give your love to the mermaid:
+she owns many bright pearls.
+
+If love is why you love,
+then yes, choose me!
+Keep loving me always;
+my love for you will not end.`, note: `<p>Clara’s Op. 12 No. 2 belongs to the 1841 collection she published with Robert. Three stanzas reject an external reason for love; the fourth changes ‘nicht’ to ‘ja’. That verbal alteration makes a small musical change carry a large formal consequence. [[mahler|Mahler]] set the same poem much later, in 1902: the shared text allows comparison without making either setting a preparation for the other. <a href="https://oxfordsong.org/song/liebst-du-um-sch%C3%B6nheit-2">German text and work identification</a>.</p>` },
+  ],
+  recordings: [
+    { work: 'Piano Concerto · piano music · Violin Romances', performers: 'Isata Kanneh-Mason; Royal Liverpool Philharmonic Orchestra, Holly Mathieson; Elena Urioste', year: '2019', label: 'Decca', note: 'The album <i>Romance</i> places the teenage concerto beside solo works and the 1853 violin pieces, avoiding a single-period portrait of the composer.' },
+    { work: 'Piano Trio in G minor', performers: 'Beaux Arts Trio', label: 'Philips', note: 'The chamber work heard alongside Robert’s trios; follow the piano’s independent thematic entries as well as the string melodies.' },
+    { work: 'Piano Trio in G minor', performers: 'Nash Ensemble', label: 'Hyperion', note: 'Paired with Fanny Hensel’s Trio and Quartet, documenting different responses to nineteenth-century chamber forms.' },
+  ],
+  lineage: { from: ['bach', 'beethoven', 'chopin', 'Friedrich Wieck', 'schumann'], to: ['brahms', 'Fanny Davies', 'Adelina de Lara'], note: `<p>Her effect on [[brahms|Brahms]] includes performances, criticism and a lifetime of correspondence, not just the variation theme they shared. Her pupils transmitted a practical tradition of voicing and repertory. Robert’s music also travelled through that teaching, but Clara’s own compositions require attention as scores rather than merely evidence about his.</p>` },
+  reading: [
+    'Nancy B. Reich, <i>Clara Schumann: The Artist and the Woman</i> (Cornell, revised edition 2001) — the documentary biography that re-established the scale of her professional career.',
+    'Joe Davies, editor, <i>Clara Schumann Studies</i> (Cambridge, 2021) — composition, performance, reception and the work of musical institutions.',
+    '<a href="https://www.schumann-portal.de/Part_II.html">Schumann Portal: Clara’s biography</a> — career, family, tours and teaching; the English page contains a birth-year typo, so the header here follows the established 1819 date.',
+    '<a href="https://www.kannehmasons.com/project/romance-the-piano-music-of-clara-schumann/">Romance: recording and personnel</a> — the documented Decca programme.',
+  ],
+};

@@ -637,6 +637,17 @@
   "license": "Public domain",
   "credit": "http://www.odysseetheater.com/romeojulia/romeojulia.htm"
  },
+ "File:Franz Hanfstaengl - Clara Schumann (1857).jpg": {
+  "id": "franz-hanfstaengl-clara-schumann-1857",
+  "src": "assets/img/art/franz-hanfstaengl-clara-schumann-1857.webp",
+  "w": 1280,
+  "h": 1630,
+  "page": "https://commons.wikimedia.org/wiki/File:Franz_Hanfstaengl_-_Clara_Schumann_(1857).jpg",
+  "artist": "Franz Hanfstaengl",
+  "date": "1857",
+  "license": "Public domain",
+  "credit": "Self-scanned"
+ },
  "File:Franz Kafka, 1923.jpg": {
   "id": "franz-kafka-1923",
   "src": "assets/img/art/franz-kafka-1923.webp",
@@ -1538,6 +1549,17 @@
   "date": "Unknown date",
   "license": "CC0",
   "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy"
+ },
+ "File:Robert and Clara Schumann.jpg": {
+  "id": "robert-and-clara-schumann",
+  "src": "assets/img/art/robert-and-clara-schumann.webp",
+  "w": 1199,
+  "h": 1194,
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_and_Clara_Schumann.jpg",
+  "artist": "",
+  "date": "",
+  "license": "Public domain",
+  "credit": "Modern Music & Musicians , University Society, New York, 1918"
  },
  "File:Robert Havell after John James Audubon, The Mocking Bird, 1827, NGA 32162.jpg": {
   "id": "robert-havell-after-john-james-audubon-the-mocking-bird-1827-nga-32162",
