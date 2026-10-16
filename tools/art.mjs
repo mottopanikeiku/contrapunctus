@@ -45,6 +45,11 @@ if (cmd === 'search') {
     await writeFile(tmp, Buffer.from(await res.arrayBuffer()));
     await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', tmp, '-frames:v', '1',
       '-vf', "scale='min(1280,iw)':-2", '-c:v', 'libwebp', '-quality', '72', '-compression_level', '6', out]);
+    if ((await stat(out)).size > 450 * 1024) {
+      // dense images (gold leaf, mosaics, crackle) get a second, lighter encode
+      await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', tmp, '-frames:v', '1',
+        '-vf', "scale='min(1280,iw)':-2", '-c:v', 'libwebp', '-quality', '55', '-compression_level', '6', out]);
+    }
     await unlink(tmp);
     const { stdout } = await run('ffprobe', ['-v', 'error', '-select_streams', 'v:0',
       '-show_entries', 'stream=width,height', '-of', 'csv=p=0', out]);
