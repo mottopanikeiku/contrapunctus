@@ -93,7 +93,7 @@ E,,6 | E,,6 | E,,6 | E,,6 |]`,
     },
     {
       kicker: 'Tristan und Isolde, Prelude — pitch-cell schematic',
-      title: 'Four successive semitones of ascent',
+      title: 'A four-note chromatic ascent',
       abc: `X:3
 T:Tristan ascending cell
 M:4/4
