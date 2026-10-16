@@ -12,6 +12,7 @@ const C = await loadContent();
 const { eras, composers, pages, site, art } = C;
 const bySlug = new Map(composers.map((c) => [c.slug, c]));
 const eraBySlug = new Map(eras.map((e) => [e.slug, e]));
+const SITE_URL = 'https://mottopanikeiku.github.io/contrapunctus/';
 const warnings = [];
 const ver = async (rel) => createHash('md5').update(await readFile(path.join(OUT, rel))).digest('hex').slice(0, 8);
 const V = { css: await ver('assets/css/style.css'), js: await ver('assets/js/site.js') };
@@ -130,7 +131,7 @@ function layout(ctx, { title, description, body, dark = false, accent, nav, need
 <meta name="description" content="${attr(description ?? site.description)}">
 <meta property="og:title" content="${attr(title)}">
 <meta property="og:description" content="${attr(description ?? site.description)}">
-${ogImage ? `<meta property="og:image" content="${attr(ogImage)}">` : ''}
+${ogImage ? `<meta property="og:image" content="${attr(SITE_URL + ogImage)}">\n<meta name="twitter:card" content="summary_large_image">` : ''}
 <meta name="theme-color" content="#13110e">
 <link rel="icon" href="${ctx.base}assets/favicon.svg" type="image/svg+xml">
 ${fonts}
@@ -210,7 +211,7 @@ ${parts.join('\n')}
 </div></div>`;
   return layout(ctx, {
     title: `${c.name} (${lifespan(c)}) — Contrapunctus`, description: c.epithet, body, dark: true,
-    accent: era?.accent, nav: 'composers', needsAbc: !!c.score?.length,
+    accent: era?.accent, nav: 'composers', needsAbc: !!c.score?.length, ogImage: art[normalizeTitle(c.portrait.file)]?.src,
   });
 }
 
@@ -234,7 +235,7 @@ function eraPage(e) {
 <p class="hero-caption"><b>${esc(h.artist)}</b><cite>${esc(h.title)}</cite>, ${esc(h.date)}${h.collection ? `<br>${esc(h.collection)}` : ''}</p></div></section>
 <div class="wrap">${parts.join('\n')}
 <nav class="pager">${prev ? `<a href="${prev.slug}.html"><span class="sc">← ${prev.numeral}</span><span class="nm">${esc(prev.name)}</span></a>` : '<a href="../origins.html"><span class="sc">← Prelude</span><span class="nm">Before Bach</span></a>'}${next ? `<a href="${next.slug}.html"><span class="sc">${next.numeral} →</span><span class="nm">${esc(next.name)}</span></a>` : '<a href="../timeline.html"><span class="sc">Coda →</span><span class="nm">Lifelines</span></a>'}</nav></div>`;
-  return layout(ctx, { title: `${e.numeral}. ${e.name} (${e.span}) — Contrapunctus`, description: e.subtitle, body, dark: true, accent: e.accent, nav: 'eras', needsAbc: !!e.score?.length });
+  return layout(ctx, { title: `${e.numeral}. ${e.name} (${e.span}) — Contrapunctus`, description: e.subtitle, body, dark: true, accent: e.accent, nav: 'eras', needsAbc: !!e.score?.length, ogImage: art[normalizeTitle(e.hero.file)]?.src });
 }
 
 function indexPage() {
@@ -264,7 +265,7 @@ function indexPage() {
 <div class="reveal"><span class="kicker">Before Bach</span><h2 style="margin:.8rem 0 1rem"><a href="origins.html" style="text-decoration:none">Origins</a></h2><p>${rich(ctx, pages.origins?.lede ?? '')}</p><a class="more" href="origins.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Begin with the monochord →</a></div>
 <div class="reveal"><span class="kicker">How it works</span><h2 style="margin:.8rem 0 1rem"><a href="workshop.html" style="text-decoration:none">The Workshop</a></h2><p>${rich(ctx, pages.workshop?.lede ?? '')}</p><a class="more" href="workshop.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Open the workshop →</a></div>
 </div></section>`;
-  return layout(ctx, { title: `Contrapunctus — ${site.kicker}`, body, dark: true, nav: '' });
+  return layout(ctx, { title: `Contrapunctus — ${site.kicker}`, body, dark: true, nav: '', ogImage: art[normalizeTitle(site.heroSlides[0].file)]?.src });
 }
 
 function composersIndex() {
@@ -382,6 +383,7 @@ for (const p of Object.values(pages)) await out(`${p.slug}.html`, longPage(p));
 await out('timeline.html', timelinePage());
 await out('gallery.html', galleryPage());
 await out('credits.html', creditsPage());
+await out('404.html', layout({ base: '/contrapunctus/', page: '404' }, { title: 'Not found — Contrapunctus', nav: '', body: `<header class="page-hero"><div class="wrap"><span class="kicker">Tacet</span><h1>A rest, not a note</h1><p class="lede">This page does not exist. The <a href="/contrapunctus/composers/index.html">composers</a> and the <a href="/contrapunctus/index.html">seven chapters</a> are where you left them.</p></div><span class="bg-glyph" aria-hidden="true">𝄽</span></header>` }));
 
 // remove stale generated pages
 for (const dir of ['composers', 'eras']) {
