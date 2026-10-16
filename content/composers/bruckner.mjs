@@ -116,7 +116,7 @@ it is without fault.`,
   ],
   lineage: {
     from: ['beethoven', 'schubert', 'wagner', 'Simon Sechter', 'Catholic liturgy'],
-    to: ['mahler', 'Jean Langlais', 'Franz Schmidt'],
+    to: ['mahler', 'Hans Rott', 'Franz Schmidt'],
     note: `<p>[[mahler|Mahler]] attended Bruckner’s university lectures and supported his music, but populated the inherited symphonic span with songs, marches and sharply differentiated social voices. Franz Schmidt continued the Austrian combination of symphonic form, contrapuntal craft and organ thinking. The sacred works offer a separate inheritance from the large symphonies: compact settings in which modal or chromatic detail remains intelligible through vocal part-writing.</p>`,
   },
   reading: [

@@ -85,7 +85,7 @@ K:Em
 V:1 name="Violin"
 %%MIDI program 40
 B2 G2 | e2 c2 | a2 f2 | ^d2 B2 |]`,
-      caption: 'The opening pitch sequence, with durations regularised: a schematic reduction rather than a quotation of Brahms’s rhythm. Each successive pitch belongs to a descending chain of thirds when octave displacement is removed. Rising sixths redistribute that chain across the violin’s register. A lyrical line therefore contains a compact intervallic rule which can be continued, inverted, compressed or passed into the bass.',
+      caption: 'The exact opening pitch classes, with durations and octave placement regularised: a schematic rather than a transcription of the violin line. Each successive pitch belongs to a descending chain of thirds when octave displacement is removed. Brahms redistributes parts of that chain as rising sixths. A lyrical line therefore contains a compact intervallic rule which can be continued, inverted, compressed or passed into the bass.',
     },
     {
       kicker: 'Hemiola — schematic',

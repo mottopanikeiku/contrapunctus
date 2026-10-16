@@ -714,6 +714,17 @@
   "license": "Public domain",
   "credit": "Sotheby's"
  },
+ "File:Franz Schubert, watercolor portrait by Wilhelm August Rieder, 1825.jpg": {
+  "id": "franz-schubert-watercolor-portrait-by-wilhelm-august-rieder-1825",
+  "src": "assets/img/art/franz-schubert-watercolor-portrait-by-wilhelm-august-rieder-1825.webp",
+  "w": 798,
+  "h": 710,
+  "page": "https://commons.wikimedia.org/wiki/File:Franz_Schubert,_watercolor_portrait_by_Wilhelm_August_Rieder,_1825.jpg",
+  "artist": "Wilhelm August Rieder",
+  "date": "1825 date QS:P571,+1825-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Österreichische Nationalbibliothek, Inventarnummer Pg 502: I(3) POR MAG, bildarchivaustria.at # 10C7DAAD"
+ },
  "File:Frédéric Chopin - Eugène Delacroix - Musée du Louvre Peintures RF 1717.jpg": {
   "id": "frederic-chopin-eugene-delacroix-musee-du-louvre-peintures-rf-1717",
   "src": "assets/img/art/frederic-chopin-eugene-delacroix-musee-du-louvre-peintures-rf-1717.webp",
