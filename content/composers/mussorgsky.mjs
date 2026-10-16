@@ -8,7 +8,7 @@ export default {
   era: 'romantic',
   featured: false,
   epithet: 'He made Russian speech, public crowds and the noises of ordinary life determine the shape of opera.',
-  portrait: { file: 'File:Ilya Repin - Портрет композитора М.П.Мусоргского - Google Art Project.jpg', caption: 'Mussorgsky in hospital, painted by Ilya Repin in March 1881. Tretyakov Gallery, Moscow.', focus: '50% 25%' },
+  portrait: { file: 'File:Modest Musorgskiy, 1870.jpg', caption: 'Photograph, 1870; photographer unrecorded.', focus: '50% 30%' },
   facts: [
     ['Trained', 'Piano with Anton Gerke; composition informally with Mily Balakirev; no conservatory education'],
     ['Employment', 'Guards officer until 1858; civil servant, including work in the Forestry Department'],

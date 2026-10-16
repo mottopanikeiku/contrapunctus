@@ -16,6 +16,8 @@ export default {
     ['Output', 'Four piano concertos, three symphonies, three completed operas, choral music, songs and piano works'],
   ],
 
+  quote: { text: 'I feel like a ghost wandering in a world grown alien. I cannot cast out the old way of writing, and I cannot acquire the new.', source: 'Interview with Leonard Liebling, The Musical Courier, 1939' },
+
   life: `
 <p class="dropcap">Rachmaninoff learnt the sound of Russian worship before he learnt orchestration. His grandmother took him to Orthodox services, where unaccompanied voices and bells occupied different parts of the ceremony: chant inside the church, metal sounding above and outside it. His music repeatedly brings the two together. A melody moves in narrow steps while bass notes toll beneath it; a chord is struck again before its previous resonance has died. The C♯ minor Prelude, the Second Piano Concerto and <i>The Bells</i> make this audible without requiring an actual church bell. The <i>All-Night Vigil</i> removes the instruments altogether, leaving a choir to produce both the sustained line and the accumulating weight of the harmony.</p>
 <aside class="note"><b>Two calendars</b>His birthday was 20 March in the Julian calendar then used in Russia, 1 April in the Gregorian calendar. Full dates here use the Gregorian calendar; the difference was twelve days in the nineteenth century and thirteen in the twentieth.</aside>

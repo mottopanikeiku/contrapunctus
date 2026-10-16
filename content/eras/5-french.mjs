@@ -81,24 +81,35 @@ V:1
   ],
   arts: [
     {
-      type: 'painting', frame: 'mat',
-      file: 'File:Katsushika Hokusai - Thirty-Six Views of Mount Fuji- The Great Wave Off the Coast of Kanagawa - Google Art Project.jpg',
-      artist: 'Katsushika Hokusai', title: 'Under the Wave off Kanagawa', date: 'c. 1830–32',
-      medium: 'Colour woodblock print', collection: 'Tokyo National Museum',
-      note: '<p>An adapted crop of Hokusai’s design appeared on the first edition of [[debussy|Debussy]]’s <i>La Mer</i> in 1905; the <a href="https://www.esm.rochester.edu/sibley/La-mer2/">Sibley Music Library</a> documents that cover. This is a Tokyo National Museum impression, not a claim to reproduce Debussy’s own print. The wave’s repeated contours, displaced scale and tightly framed movement offer a concrete visual partner to music that builds large spans from recurring figures rather than a literal sequence of maritime events.</p>',
+      type: 'painting', frame: 'gilt',
+      file: 'File:Baigneurs a Asnieres.jpg',
+      artist: 'Georges Seurat', title: 'Bathers at Asnières', date: '1884, retouched c. 1887',
+      medium: 'Oil on canvas', collection: 'National Gallery, London',
+      note: `<p>Seurat built his colour from separate touches meant to combine in the viewer’s eye, following the colour theory of Chevreul and Ogden Rood; when he reworked this canvas around 1887 he added small dots of complementary colour to the boy’s hat and the water. The comparison with French orchestration in this chapter is technical, not biographical: [[debussy|Debussy]] and [[ravel|Ravel]] repeatedly avoid doubling a line in several instruments at once, setting pure colours side by side — a flute’s low register beside muted horns, a harp harmonic on a string chord — so that the blend happens in the ear.</p>`,
     },
     {
-      type: 'poem', author: 'Stéphane Mallarmé', title: 'L’Après-midi d’un faune — opening', date: '1876; text of the 1887 edition',
+      type: 'poem',
+      author: 'Paul Verlaine', title: 'Art poétique — first and fourth stanzas', date: 'written 1874; published in Jadis et naguère, 1884',
       lang: 'French', translator: 'Our translation',
-      original: `Ces nymphes, je les veux perpétuer.
-Si clair,
-Leur incarnat léger qu’il voltige dans l’air
-Assoupi de sommeils touffus.`,
-      translation: `These nymphs: I want to make them last.
-So bright,
-Their delicate flesh-pink floats through the air,
-Drowsy with dense sleep.`,
-      note: '<p>The faun attempts to preserve an experience whose status the poem will question. [[debussy|Debussy]]’s 1894 orchestral prelude responds through repeated approaches to its opening flute figure and changing harmonic contexts, not a word-by-word illustration. The <a href="https://fr.wikisource.org/wiki/L%E2%80%99Apr%C3%A8s-Midi_d%E2%80%99un_faune_(Po%C3%A9sies_1887)">1887 text</a> retains the broken syntax across these opening lines; the English translation keeps that suspension rather than supplying a completed narrative.</p>',
+      original: `De la musique avant toute chose,
+Et pour cela préfère l’Impair
+Plus vague et plus soluble dans l’air,
+Sans rien en lui qui pèse ou qui pose.
+
+Car nous voulons la Nuance encor,
+Pas la Couleur, rien que la nuance !
+Oh ! la nuance seule fiance
+Le rêve au rêve et la flûte au cor !`,
+      translation: `Music before everything else,
+and for that, prefer the odd-numbered line,
+vaguer and more soluble in air,
+with nothing in it that weighs or poses.
+
+For what we want is Nuance still,
+not Colour — nothing but nuance!
+Oh, nuance alone can betroth
+dream to dream, and flute to horn!`,
+      note: `<p>A manifesto in nine-syllable lines — <i>l’Impair</i>, the odd count Verlaine recommends, which cannot divide into the symmetrical halves of the classical alexandrine. The musical analogue is the French line’s distrust of four-square phrasing and emphatic arrival. Verlaine was the poet these composers set most: [[faure|Fauré]]’s <i>La Bonne Chanson</i> and <i>Cinq mélodies “de Venise”</i>, Debussy’s <i>Ariettes oubliées</i> and two sets of <i>Fêtes galantes</i>.</p>`,
     },
   ],
 };
