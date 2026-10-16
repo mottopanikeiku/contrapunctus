@@ -395,6 +395,17 @@
   "license": "Public domain",
   "credit": "GQFLgGpbd8zd3Q at Google Cultural Institute maximum zoom level"
  },
+ "File:David - Napoleon crossing the Alps - Malmaison1.jpg": {
+  "id": "david-napoleon-crossing-the-alps-malmaison1",
+  "src": "assets/img/art/david-napoleon-crossing-the-alps-malmaison1.webp",
+  "w": 1169,
+  "h": 1372,
+  "page": "https://commons.wikimedia.org/wiki/File:David_-_Napoleon_crossing_the_Alps_-_Malmaison1.jpg",
+  "artist": "Jacques-Louis David",
+  "date": "1800",
+  "license": "Public domain",
+  "credit": "histoire image: info pic"
+ },
  "File:Delacroix - Dessin préparatoire pour le double portrait de Frédéric Chopin et George Sand, RF 9357, Recto.jpg": {
   "id": "delacroix-dessin-preparatoire-pour-le-double-portrait-de-frederic-chopin-et-geor",
   "src": "assets/img/art/delacroix-dessin-preparatoire-pour-le-double-portrait-de-frederic-chopin-et-geor.webp",
@@ -482,6 +493,17 @@
   "date": "between 1900 and 1975 date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1900-00-00T00:00:00Z/9,P1326,+1975-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "This file comes from Gallica Digital Library and is available under the digital ID btv1b8424759w"
+ },
+ "File:Eroica Beethoven title.jpg": {
+  "id": "eroica-beethoven-title",
+  "src": "assets/img/art/eroica-beethoven-title.webp",
+  "w": 1024,
+  "h": 680,
+  "page": "https://commons.wikimedia.org/wiki/File:Eroica_Beethoven_title.jpg",
+  "artist": "",
+  "date": "",
+  "license": "Public domain",
+  "credit": ""
  },
  "File:Esterhaza Palace 1920.jpg": {
   "id": "esterhaza-palace-1920",
@@ -922,6 +944,17 @@
   "date": "1791 date QS:P571,+1791-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://artuk.org/discover/artworks/joseph-haydn-17321809-215845"
+ },
+ "File:Joseph Karl Stieler's Beethoven mit dem Manuskript der Missa solemnis.jpg": {
+  "id": "joseph-karl-stieler-s-beethoven-mit-dem-manuskript-der-missa-solemnis",
+  "src": "assets/img/art/joseph-karl-stieler-s-beethoven-mit-dem-manuskript-der-missa-solemnis.webp",
+  "w": 1280,
+  "h": 1594,
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+  "artist": "Joseph Karl Stieler",
+  "date": "1820 date QS:P571,+1820-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Google Arts & Culture , rotated and cropped to remove the potentially copyrighted photo of the frame."
  },
  "File:Joseph Mallord William Turner - Staffa, Fingal's Cave - Google Art Project.jpg": {
   "id": "joseph-mallord-william-turner-staffa-fingal-s-cave-google-art-project",
