@@ -258,7 +258,7 @@ function indexPage() {
 <div class="four">${four.map((c) => `<a class="cameo reveal" href="composers/${c.slug}.html"><span class="oval">${img(ctx, c.portrait.file, c.name, { sizes: '(max-width: 1000px) 45vw, 22vw' }).replace('<img ', `<img style="object-position:${c.portrait.focus ?? '50% 25%'}" `)}</span><span class="dates">${lifespan(c)}</span><h3>${esc(c.name)}</h3>${c.quote ? `<blockquote>“${esc(c.quote.text)}”</blockquote>` : ''}</a>`).join('')}</div></div></section>
 <section class="section" id="movements"><div class="wrap"><div class="section-head"><span class="kicker">Seven movements</span><h2>${esc(site.erasTitle)}</h2><p>${rich(ctx, site.erasLede)}</p></div>
 <div class="movements">${movements}</div></div></section>
-<section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Who overlapped with whom</h2><p>Every composer in the atlas on one axis. Bach died the year Haydn turned eighteen; Brahms attended Mahler's early career; Rachmaninoff outlived Ravel and Mahler and died two years before Bartók.</p></div>
+<section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Who overlapped with whom</h2><p>Every composer in the atlas on one axis. Bach died the year Haydn turned eighteen; Brahms heard the thirty-year-old Mahler conduct <i>Don Giovanni</i> in Budapest in 1890 and praised it; Rachmaninoff outlived Ravel and Mahler and died two years before Bartók.</p></div>
 <div class="tl-wrap">${timelineSvg(ctx, { compact: true, dark: true })}</div><p style="margin-top:1.6rem"><a class="more" style="color:var(--gold-hi)" href="timeline.html">The full timeline, with history and painting alongside →</a></p></div></section>
 <section class="section"><div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));gap:4rem">
 <div class="reveal"><span class="kicker">Before Bach</span><h2 style="margin:.8rem 0 1rem"><a href="origins.html" style="text-decoration:none">Origins</a></h2><p>${rich(ctx, pages.origins?.lede ?? '')}</p><a class="more" href="origins.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Begin with the monochord →</a></div>
@@ -286,32 +286,51 @@ function longPage(p) {
 function timelineSvg(ctx, { compact = false } = {}) {
   const y0 = 1640, y1 = 2030, W = 1400, left = 20, right = 20;
   const x = (y) => left + ((y - y0) / (y1 - y0)) * (W - left - right);
-  const rowH = compact ? 15 : 22;
-  const top = compact ? 40 : 60 + 24 * 2;
+  const rowH = compact ? 15 : 21;
   const thisYear = 2026;
+  const charW = 6.1; // approximate advance of 12–13px Garamond
+
+  // Events: greedy row packing so labels never collide.
+  const laneTop = 44, laneH = 19;
+  const lanes = [];
+  const placed = compact ? [] : [...(site.events ?? [])].sort((a, b) => a.year - b.year).map((ev) => {
+    const ex = x(ev.year);
+    const text = `${ev.year} ${ev.label}`;
+    const w = text.length * charW + 14;
+    let lane = lanes.findIndex((end) => end < ex - 4);
+    if (lane === -1) { lane = lanes.length; lanes.push(0); }
+    lanes[lane] = ex + w;
+    return { ev, ex, text, lane };
+  });
+  const top = compact ? 34 : laneTop + lanes.length * laneH + 22;
+  const H = top + composers.length * rowH + 16;
+
   const rows = composers.map((c, i) => {
     const e = eraBySlug.get(c.era);
     const a = x(c.born.year), b = x(c.died?.year ?? thisYear);
     const yy = top + i * rowH;
     const living = !c.died;
-    return `<a class="life" href="${ctx.base}composers/${c.slug}.html"><rect x="${a}" y="${yy}" width="${b - a}" height="${rowH - 6}" rx="1" fill="${e?.accent ?? '#888'}" opacity=".78"${living ? ` mask="url(#fade)"` : ''}/><text x="${b + 6}" y="${yy + rowH - 9}">${esc(c.name)} <tspan class="yr">${lifespan(c)}</tspan></text></a>`;
+    const label = `${esc(c.name)} <tspan class="yr">${lifespan(c)}</tspan>`;
+    const labelW = (c.name.length + lifespan(c).length + 1) * charW + 10;
+    const after = b + 6 + labelW < W - 4;
+    return `<a class="life" href="${ctx.base}composers/${c.slug}.html"><title>${esc(c.name)}, ${lifespan(c)}</title><rect x="${a.toFixed(1)}" y="${yy}" width="${(b - a).toFixed(1)}" height="${rowH - 6}" rx="1" fill="${e?.accent ?? '#888'}" opacity=".8"${living ? ` mask="url(#fade)"` : ''}/><text x="${(after ? b + 6 : a - 6).toFixed(1)}" y="${yy + rowH - 9}"${after ? '' : ' text-anchor="end"'}>${label}</text></a>`;
   }).join('');
-  const H = top + composers.length * rowH + 20;
+
   const grid = [];
-  for (let y = 1650; y <= 2025; y += 25) grid.push(`<line x1="${x(y)}" x2="${x(y)}" y1="${compact ? 22 : 30}" y2="${H}" opacity="${y % 50 ? .45 : 1}"/>${y % 50 ? '' : `<text x="${x(y) + 4}" y="${compact ? 16 : 22}">${y}</text>`}`);
-  const bands = eras.map((e) => `<g class="era-band"><rect x="${x(e.from)}" y="${compact ? 22 : 30}" width="${x(e.to) - x(e.from)}" height="${H - 30}" fill="${e.accent}"/>${compact ? '' : `<text x="${x(e.from) + 6}" y="${46}" fill="${e.accent}">${e.numeral}. ${esc(e.name)}</text>`}</g>`).join('');
-  const events = compact ? '' : (site.events ?? []).map((ev, i) => {
-    const ex = x(ev.year);
-    const ly = 66 + (i % 2) * 22;
-    return `<g class="${ev.kind === 'art' ? 'art-event' : 'event'}"><line x1="${ex}" x2="${ex}" y1="${ly + 4}" y2="${H}"/><circle cx="${ex}" cy="${ly}" r="3"/><text x="${ex + 6}" y="${ly + 4}">${ev.year} ${esc(ev.label)}</text></g>`;
+  for (let y = 1650; y <= 2025; y += 25) grid.push(`<line x1="${x(y)}" x2="${x(y)}" y1="22" y2="${H}" opacity="${y % 50 ? .35 : .9}"/>${y % 50 ? '' : `<text x="${x(y) + 4}" y="16">${y}</text>`}`);
+  const events = placed.map(({ ev, ex, text, lane }) => {
+    const ly = laneTop + lane * laneH;
+    return `<g class="${ev.kind === 'art' ? 'event art-event' : 'event'}"><line x1="${ex}" x2="${ex}" y1="${ly + 4}" y2="${H}"/><circle cx="${ex}" cy="${ly}" r="3"/><text x="${ex + 6}" y="${ly + 4}">${esc(text)}</text></g>`;
   }).join('');
-  return `<svg class="tl" viewBox="0 0 ${W} ${H}" role="img" aria-label="Lifespans of composers, 1640 to the present"><defs><linearGradient id="fadeg"><stop offset=".8" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="fade" maskContentUnits="objectBoundingBox"><rect width="1" height="1" fill="url(#fadeg)"/></mask></defs>${bands}<g class="grid">${grid.join('')}</g>${events}${rows}</svg>`;
+  return `<svg class="tl${compact ? ' compact' : ''}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Lifespans of composers, 1640 to the present"><defs><linearGradient id="fadeg"><stop offset=".8" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="fade" maskContentUnits="objectBoundingBox"><rect width="1" height="1" fill="url(#fadeg)"/></mask></defs><g class="grid">${grid.join('')}</g>${events}${rows}</svg>`;
 }
+
+const eraLegend = () => `<ul class="tl-legend">${eras.map((e) => `<li><span style="background:${e.accent}"></span><a href="eras/${e.slug}.html">${e.numeral}. ${esc(e.name)}</a></li>`).join('')}</ul>`;
 
 function timelinePage() {
   const ctx = { base: '', page: 'timeline' };
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Coda</span><h1>Lifelines</h1><p class="lede">${rich(ctx, site.timelineLede ?? '')}</p></div><span class="bg-glyph" aria-hidden="true">𝄇</span></header>
-<div class="section"><div class="wrap"><div class="tl-wrap">${timelineSvg(ctx)}</div><p style="font-size:.95rem;color:var(--muted);margin-top:1rem">Red markers: historical events. Gold markers: painting, literature and theatre. Bars are coloured by chapter; click a name to open the portrait.</p></div></div>`;
+<div class="section"><div class="wrap">${eraLegend()}<div class="tl-wrap">${timelineSvg(ctx)}</div><p style="font-size:.95rem;color:var(--muted);margin-top:1rem">Red markers: historical events. Gold markers: painting, literature and theatre. Bars are coloured by chapter; click a name to open the portrait.</p></div></div>`;
   return layout(ctx, { title: 'Lifelines — Contrapunctus', body, nav: 'timeline' });
 }
 
