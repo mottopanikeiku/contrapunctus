@@ -119,6 +119,7 @@ D, F, A,, | B,, A,, D, | D, F, A,, | B,, A,, D, |]`,
 
   arts: [
     {
+      relation: 'documented-encounter',
       type: 'painting', frame: 'mat',
       file: 'File:KustodievDSCH.jpg',
       artist: 'Boris Kustodiev', title: 'Portrait of Mitya Shostakovich', date: '1919',
@@ -126,6 +127,7 @@ D, F, A,, | B,, A,, D, | D, F, A,, | B,, A,, D, |]`,
       note: `<p>Kustodiev drew Shostakovich in the year he entered the Petrograd Conservatory and inscribed the portrait to his young friend. The <a href="https://shostakovich.ru/20ru">memorial apartment’s catalogue</a> distinguishes this 1919 drawing from a second portrait made at Gaspra in 1923; the reproduced Commons file is the earlier work. It documents an actual connection with the painter, before the First Symphony made the student an internationally performed composer.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Anti aircraft Leningrad 1941.JPG',
       artist: 'Boris Kudoyarov', title: 'Anti-aircraft guns near St Isaac’s Cathedral, Leningrad', date: '24 November 1941',
@@ -133,6 +135,7 @@ D, F, A,, | B,, A,, D, | D, F, A,, | B,, A,, D, |]`,
       note: `<p>Kudoyarov photographed an anti-aircraft battery firing beside St Isaac’s during the siege. Shostakovich had already been evacuated and was completing the Seventh Symphony in Kuibyshev; the picture records the city to which he dedicated it. The symphony was performed inside Leningrad on 9 August 1942. Commons identifies this file as public domain under its <a href="https://commons.wikimedia.org/wiki/File:Anti_aircraft_Leningrad_1941.JPG">Russian archival-rights declaration</a>.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Nikolai Gogol', title: 'The Nose — the nose refuses its owner', date: '1836',
       lang: 'Russian', translator: 'Our translation',

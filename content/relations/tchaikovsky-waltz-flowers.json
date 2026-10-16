@@ -1,0 +1,20 @@
+{
+  "id": "tchaikovsky-waltz-flowers",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        158.5,
+        213.5
+      ],
+      "b": [
+        307.0,
+        362.0
+      ],
+      "label": "The principal waltz returns",
+      "basis": "The principal D-major waltz returns after the contrasting dance melodies. The first excerpt comes from its earlier restatement, and the later excerpt lies in the return marked near 302 s; both belong to the same principal group in Odom’s band arrangement. CENS diagonal mean 0.938, sustained 55 s, fixed pitch-class shift 0 semitones and time offset 148.5 s (cache/form/tchaikovsky-waltz-flowers.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Several other paths match internal restatements of the principal group or overlap this large return. The 13.5 s contrasting-dance repeat and 14.5 s coda repetition are not additional returns of the opening waltz. No orchestral string or harp entrance is inferred from this concert-band recording."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ravel-pavane",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        21.0,
+        46.5
+      ],
+      "b": [
+        131.5,
+        157.0
+      ],
+      "label": "The refrain returns",
+      "basis": "The first return of A follows the contrasting B episode in the work’s A–B–A–C–A design; the later excerpt lies inside the refrain marked near 114 s. CENS diagonal mean 0.925, sustained 25.5 s, fixed pitch-class shift 0 semitones and time offset 110.5 s (cache/form/ravel-pavane.txt, candidate 4; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        114.5,
+        142.0
+      ],
+      "b": [
+        246.5,
+        274.0
+      ],
+      "label": "The refrain returns for the close",
+      "basis": "After the broader C episode, the refrain returns again near 244 s. This pair compares the earlier refrain return with the final one, rather than claiming a new theme. CENS diagonal mean 0.954, sustained 27.5 s, fixed pitch-class shift 0 semitones and time offset 132 s (cache/form/ravel-pavane.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The broad central episode has its own 36.5 s repeated paragraph, and the first episode has a shorter internal repetition; neither is another occurrence of the main refrain. Overlapping refrain paths are omitted. The different offsets describe local matched excerpts, not a uniform tempo relation for whole sections."
+}

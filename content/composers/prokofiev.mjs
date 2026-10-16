@@ -137,6 +137,7 @@ V:1 name="Pulse"
 
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:Frank Bernard Dicksee - Romeo and Juliet, 1884.jpg',
       artist: 'Frank Dicksee', title: 'Romeo and Juliet', date: '1884',
@@ -144,6 +145,7 @@ V:1 name="Pulse"
       note: `<p>Dicksee and Prokofiev work from the same Shakespeare play. The painting concentrates the lovers’ encounter into an embrace on the balcony; the ballet gives the encounter a sequence of approaches, withdrawals and sustained phrases. Compare the image with the end of Act I. The contrast between the private meeting and the Capulets’ public ceremonial behaviour, heard in the knights’ dance usually detached from the score, is already built into Shakespeare’s arrangement of scenes.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:The Attack by Vereshchagin (1887-1895, GIM).jpg',
       artist: 'Vasily Vereshchagin', title: 'Fix Bayonets! Hurrah! Hurrah! (The Attack)', date: '1887–95',
@@ -151,6 +153,7 @@ V:1 name="Pulse"
       note: `<p>One of Vereshchagin’s <i>Napoleon I in Russia</i> paintings, dealing with the same 1812 campaign that occupies the war scenes of Prokofiev’s opera. The advancing soldiers fill the foreground, bringing the viewer into the movement of bodies. The link is the campaign; use of the canvas as a source is undocumented. Set it beside the opera’s Borodino scene and Tolstoy’s insistence that no general can encompass a battle’s simultaneous actions.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Cinderella by Gustav Dore (136548285).jpg',
       artist: 'Gustave Doré', title: 'Cinderella', date: '1867 edition',
@@ -158,6 +161,7 @@ V:1 name="Pulse"
       note: `<p>Doré’s illustration belongs to an edition of Perrault’s tales; Nikolai Volkov also used Perrault for the scenario of Prokofiev’s <i>Cinderella</i>. The shared source matters because the fairy’s transformation, the ball and the time limit require different kinds of stage time. Prokofiev gives each a musical mechanism: changes of orchestral colour for transformation, extended dances for the ball, and repeated clock figures for the limit.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Roerich 02 Idols.jpg',
       artist: 'Nicholas Roerich', title: 'Idols, sketch', date: '1901',
@@ -165,6 +169,7 @@ V:1 name="Pulse"
       note: `<p>Roerich’s fenced sanctuary belongs to his imagined ancient Rus. He later devised the scenario and designs for Stravinsky’s <i>The Rite of Spring</i>; Diaghilev’s subsequent prehistoric commission to Prokofiev produced <i>Ala and Lolli</i> and, after its rejection, the <i>Scythian Suite</i>. The link is the Ballets Russes interest in a reconstructed pagan past. Roerich’s repeated posts and carved figures offer a visual counterpart to the suite’s blocks of repeated rhythm.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Leo Tolstoy', title: 'War and Peace: Natasha at the window', date: '1865–69; Volume II, Part III, Chapter II',
       lang: 'Russian prose', translator: 'Our translation',

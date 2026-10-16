@@ -1,0 +1,168 @@
+{
+  "id": "tchaikovsky-waltz-flowers",
+  "work": {
+    "title": "The Nutcracker Suite",
+    "catalogue": "Op. 71a",
+    "movement": "VIII. Waltz of the Flowers",
+    "version": {
+      "value": "Concert-band arrangement by Lawrence Odom.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source identifies the suite, Op. 71a, movement VIII, rather than a complete ballet performance. The music corresponds to the ballet’s Waltz of the Flowers."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "United States Air Force Band, Concert Band",
+        "role": "concert band"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "structured"
+    ],
+    "note": "No conductor is named in the retrieved source."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "1996 identifies the album Christmas on Stage and Screen in the Commons description. No recording-session date is separately documented.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "United States Air Force",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Credited as recording producer; the physical carrier and original label imprint have not been independently inspected."
+    },
+    "catalogue": {
+      "value": "Christmas on Stage and Screen (1996), track 6",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Album and track identifier only; no carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Commons master: MP3, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3, 44.1 kHz, 2 channels",
+    "durationSeconds": 450.2258
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-auto-expired, deathyear=1893. The separate Lawrence Odom arrangement is tagged as a U.S. Air Force federal-government work; no worldwide claim is made for that arrangement."
+    },
+    "recording": {
+      "value": "Public domain in the United States: U.S. Air Force arrangement, performance and recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "The description reports the Air Force’s public-domain representation; the source page was inaccessible during this research. This does not extend federal-government status to Tchaikovsky’s underlying composition."
+    },
+    "creditLine": "United States Air Force Band, Concert Band; Lawrence Odom, arranger. Christmas on Stage and Screen (1996), track 6, via Wikimedia Commons. Arrangement and recording: U.S. federal-government work, public domain in the United States.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3",
+      "url": "https://commons.wikimedia.org/wiki/File:Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3?oldid=1191098375",
+      "locator": "File-description wikitext revision 1191098375; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M107018409",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M107018409&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1191098375. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AWaltz+of+the+Flowers+-+Concert+Band+-+United+States+Air+Force+Band.mp3&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "United States Air Force: public-domain music collection",
+      "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
+      "locator": "The source cited by Commons; retrieval returned HTTP 403. The Commons description transcribes the Air Force’s file metadata and explicitly warns that it has not necessarily been independently verified.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

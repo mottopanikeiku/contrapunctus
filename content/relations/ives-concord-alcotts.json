@@ -1,0 +1,20 @@
+{
+  "id": "ives-concord-alcotts",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        177.0,
+        206.0
+      ],
+      "b": [
+        217.5,
+        246.5
+      ],
+      "label": "The parlour melody returns",
+      "basis": "The paired spans lie in the middle parlour-music episode, whose melodic paragraph recurs. Kyle Gann describes its two turns towards Wagner’s wedding tune at https://charlesives.org/node/6616; this link concerns the longer paragraph, not an individually timed quotation. CENS diagonal mean 0.940, sustained 29 s, fixed pitch-class shift 0 semitones and time offset 40.5 s (cache/form/ives-concord-alcotts.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "No qualifying path connects the opening with the final C-major statement of the human-faith melody. The shared Beethoven rhythm is too short to justify an arc by itself. The one retained match is local to the middle episode and is not labelled a recapitulation of the entire movement."
+}

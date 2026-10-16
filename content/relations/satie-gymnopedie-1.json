@@ -1,0 +1,20 @@
+{
+  "id": "satie-gymnopedie-1",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        18.0,
+        71.5
+      ],
+      "b": [
+        105.5,
+        159.0
+      ],
+      "label": "The opening music returns",
+      "basis": "The piece makes two large statements with different endings. The 87.5 s offset agrees with the return near 88 s, and the matched excerpt covers the repeated body rather than certifying the altered close. CENS diagonal mean 0.939, sustained 53.5 s, fixed pitch-class shift 0 semitones and time offset 87.5 s (cache/form/satie-gymnopedie-1.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Matches separated by about 17–18 s connect the recurring bass-and-chord pattern inside each statement. Those are not additional full returns of the melody. The shorter path at an 88 s offset supports the same large return and is omitted as redundant; no claim is made that the two endings are identical."
+}

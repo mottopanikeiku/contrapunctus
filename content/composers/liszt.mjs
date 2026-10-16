@@ -86,6 +86,7 @@ V:1 name="Piano"
   ],
   arts: [
     {
+      relation: 'documented-use',
       type: 'painting', frame: 'gilt',
       file: 'File:Raffaello - Spozalizio - Web Gallery of Art.jpg',
       artist: 'Raphael', title: 'The Marriage of the Virgin (Lo Sposalizio)', date: '1504',
@@ -93,6 +94,7 @@ V:1 name="Piano"
       note: `<p>The direct source for <i>Sposalizio</i>, the first piece of the Italian <i>Années</i>. Raphael’s central temple and radiating pavement give the crowded ceremony a strict perspective. Liszt’s small opening idea expands through repetition and harmonic enlargement until it can sustain a ceremonial climax. The connection is named in the score.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'painting', frame: 'mat',
       file: "File:Sculptuur van Lorenzo op de graftombe van Lorenzo de' Medici door Michelangelo in de Cappelle Medicee te Florence Michelangelo. Florence, Nieuwe Sacristy bij S. Lorenzo. Lorenzo. Detail van de grafto, RP-F-00-4388.jpg",
       artist: 'Michelangelo; photograph by an unidentified photographer', title: 'Lorenzo de’ Medici, called Il Pensieroso', date: 'Sculpture, c. 1526–34; photograph, c. 1875–1900',
@@ -100,6 +102,7 @@ V:1 name="Piano"
       note: `<p>The helmeted, seated figure from the tomb of Lorenzo, Duke of Urbino, supplied the title of Liszt’s <i>Il penseroso</i>. Its low register, dotted tread and chromatic harmonies make a deliberate contrast with the preceding <i>Sposalizio</i>. Liszt also printed Michelangelo’s four-line answer to a poem about the adjacent figure of Night: he connected the chapel’s sculpture with sleep, stone and the wish not to be awakened.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Francesco Petrarca', title: 'Pace non trovo — opening quatrain', date: 'Fourteenth century; Liszt’s Sonetto 104', lang: 'Italian', translator: 'Our translation',
       original: `Pace non trovo, et non ò da far guerra;
 e temo, et spero; et ardo, et son un ghiaccio;

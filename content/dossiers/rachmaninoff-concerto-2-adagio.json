@@ -1,0 +1,215 @@
+{
+  "id": "rachmaninoff-concerto-2-adagio",
+  "work": {
+    "title": "Piano Concerto No. 2 in C minor",
+    "catalogue": "Op. 18",
+    "movement": "II. Adagio sostenuto",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sviatoslav Richter",
+        "role": "piano"
+      },
+      {
+        "name": "Warsaw National Philharmonic Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Stanisław Wisłocki",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "embedded",
+      "reissue"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1959",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "embedded",
+        "discography"
+      ],
+      "note": "Commons gives 1 January 1959, but the embedded tag gives only the year. The dated 9/59 sleeve is a release-carrier date, not a session date. No day or month is adopted without session documentation.",
+      "precision": "year"
+    },
+    "place": {
+      "value": "Warsaw",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "The original issue identifies the recording collaboration with Polskie Nagrania in Warsaw; a particular hall is not documented in this source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Deutsche Grammophon",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "discography"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "138 076 SLPM",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "Documented original stereo issue. The precise LP, CD or digital edition copied into the Commons FLAC is unknown."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "reissue",
+        "embedded"
+      ],
+      "note": "The original recording credits name Heinz Wildhagen (recording engineer) and Hans Weber (recording supervisor). They are not documented as the transfer or restoration staff for this FLAC."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: libFLAC 1.3.2 20170101. Commons master: FLAC, 16-bit, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_2._Adagio_sostenuto_%28Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959%29.flac/Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_2._Adagio_sostenuto_%28Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959%29.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; Commons master: FLAC, 16-bit, 44.1 kHz, 2 channels",
+    "durationSeconds": 714.2666666666667
+  },
+  "rights": {
+    "composition": {
+      "value": "Original composition is public domain in ordinary life-plus-70 jurisdictions.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer-authority",
+        "author-term"
+      ],
+      "note": "The composer died in 1943. Rights in the 1959 recording are separate; this is not a worldwide clearance for every edition."
+    },
+    "recording": {
+      "value": "Commons asserts public-domain status in the European Union under PD-EU-audio.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-recording",
+        "us-recording-law"
+      ],
+      "note": "This is not a worldwide licence. US pre-1972 sound-recording terms differ under 17 U.S.C. § 1401; US reuse of this recording and any separately protected restoration is not established by the Commons tag."
+    },
+    "creditLine": "Sviatoslav Richter, piano; Warsaw National Philharmonic Orchestra; Stanisław Wisłocki, conductor. Deutsche Grammophon source, via Wikimedia Commons. Commons asserts EU public-domain recording status (PD-EU-audio); rights elsewhere are not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Sergei Rachmaninov - Concerto no. 2 for Piano and Orchestra in C minor - 2. Adagio sostenuto (Sviatoslav Richter, Stanisław Wisłocki, Warsaw National Philharmonic Orchestra, 1959).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_2._Adagio_sostenuto_(Sviatoslav_Richter,_Stanis%C5%82aw_Wis%C5%82ocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac?oldid=718748653",
+      "locator": "File-description wikitext revision 718748653; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M69642757",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M69642757&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 718748653. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3ASergei+Rachmaninov+-+Concerto+no.+2+for+Piano+and+Orchestra+in+C+minor+-+2.+Adagio+sostenuto+%28Sviatoslav+Richter%2C+Stanis%C5%82aw+Wis%C5%82ocki%2C+Warsaw+National+Philharmonic+Orchestra%2C+1959%29.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "discography",
+      "title": "Discogs: Deutsche Grammophon 138 076 SLPM",
+      "url": "https://www.discogs.com/release/6484253",
+      "locator": "1959 German stereo LP; notes transcribe “Aufnahme mit Polskie Nagrania, Warschau” and a sleeve date of 9/59.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "reissue",
+      "title": "Discogs: Deutsche Grammophon 2535 475",
+      "url": "https://www.discogs.com/release/3459331",
+      "locator": "1982 reissue credits: Richter, Warsaw Philharmonic Orchestra, Wislocki; recording engineer Heinz Wildhagen, recording supervisor Hans Weber. Refers to original issue 138 076.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer-authority",
+      "title": "New York Public Library: Rachmaninoff authority heading",
+      "url": "https://www.nypl.org/research/research-catalog/bib/b16031975",
+      "locator": "Author authority: Rachmaninoff, Sergei, 1873–1943. This entry describes a different Richter/Sanderling recording and is cited only for the composer’s lifespan.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "author-term",
+      "title": "Directive 2006/116/EC: authors’ copyright terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-recording",
+      "title": "Commons: scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template text and documentation: performers’ and producers’ rights in the EU; explicitly not a composition-rights tag.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recording-law",
+      "title": "17 U.S.C. § 1401: pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication, with separate periods for 1923–1946, 1947–1956 and later recordings.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

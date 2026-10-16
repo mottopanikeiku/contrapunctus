@@ -1,0 +1,20 @@
+{
+  "id": "brahms-4-finale",
+  "relations": [
+    {
+      "kind": "tonal return",
+      "a": [
+        136.0,
+        151.5
+      ],
+      "b": [
+        154.0,
+        169.5
+      ],
+      "label": "The harmonic cycle returns",
+      "basis": "The passacaglia uses recurring eight-bar harmonic cycles. These neighbouring passages sit inside the opening variations, where the listening note near 140 s describes the retained cycle; the relation is harmonic, not a claim of an unchanged tune. CENS diagonal mean 0.918, sustained 15.5 s, fixed pitch-class shift 0 semitones and time offset 18 s (cache/form/brahms-4-finale.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The full-orchestra return near 365 s is a score-based landmark, but no opening-to-return path met the detector’s sustained threshold. One adjacent-cycle match is shown; it must not be read as an alignment or numbering of all thirty variations."
+}

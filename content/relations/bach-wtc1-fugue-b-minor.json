@@ -1,0 +1,5 @@
+{
+  "id": "bach-wtc1-fugue-b-minor",
+  "relations": [],
+  "candidatesRejected": "No fixed-shift diagonal lasted at least 12 s with mean similarity 0.90. This is a fugue with recurring subjects, not a piece without repetition: changing counterpoint prevents a whole-texture chroma match from identifying an individual voice’s entry. No subject-entry arc is inferred from the tonal section labels."
+}

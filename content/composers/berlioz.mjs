@@ -76,13 +76,16 @@ V:2 name="Low brass" clef=bass
 z4 | [C,E,G,]4 | z4 | [C,E,G,]4 |]`, caption: 'An invented schematic. The same C major triad alternates between a high flute register and low brass. The harmony holds while weight, attack and distance change categorically. Actual Berlioz scoring also depends on the number of players and the hall; MIDI reproduces neither.' },
   ],
   arts: [
-    { type: 'painting', frame: 'mat', file: 'File:Eugène Delacroix - Illustrations for Faust- Marguerite with the wheel - 1933.145.11 - Cleveland Museum of Art.jpg', artist: 'Eugène Delacroix', title: 'Marguerite with the Spinning Wheel, from the Faust illustrations', date: '1828', medium: 'Lithograph', collection: 'Cleveland Museum of Art', note: `<p>Delacroix’s seventeen <i>Faust</i> lithographs accompanied Albert Stapfer’s French translation in 1828. Berlioz read Gérard de Nerval’s translation that year and composed his <i>Huit scènes de Faust</i> in 1828–29. The two artists approached Goethe independently: Marguerite’s enclosed room and repetitive labour oppose Faust’s restless movement. In <i>La Damnation</i>, her solitary songs similarly arrest the succession of public scenes.</p>` },
-    { type: 'poem', author: 'William Shakespeare', title: 'Romeo and Juliet · Act III, scene 5', date: 'First published 1597', lang: 'English', original: `Wilt thou be gone? It is not yet near day.
+    { relation: 'shared-context',
+      type: 'painting', frame: 'mat', file: 'File:Eugène Delacroix - Illustrations for Faust- Marguerite with the wheel - 1933.145.11 - Cleveland Museum of Art.jpg', artist: 'Eugène Delacroix', title: 'Marguerite with the Spinning Wheel, from the Faust illustrations', date: '1828', medium: 'Lithograph', collection: 'Cleveland Museum of Art', note: `<p>Delacroix’s seventeen <i>Faust</i> lithographs accompanied Albert Stapfer’s French translation in 1828. Berlioz read Gérard de Nerval’s translation that year and composed his <i>Huit scènes de Faust</i> in 1828–29. The two artists approached Goethe independently: Marguerite’s enclosed room and repetitive labour oppose Faust’s restless movement. In <i>La Damnation</i>, her solitary songs similarly arrest the succession of public scenes.</p>` },
+    { relation: 'documented-use',
+      type: 'poem', author: 'William Shakespeare', title: 'Romeo and Juliet · Act III, scene 5', date: 'First published 1597', lang: 'English', original: `Wilt thou be gone? It is not yet near day.
 It was the nightingale, and not the lark,
 That pierced the fearful hollow of thine ear;
 Nightly she sings on yon pomegranate-tree.
 Believe me, love, it was the nightingale.`, note: `<p>Juliet tries to misidentify the sound that requires Romeo to leave. Berlioz saw Harriet Smithson as Juliet in 1827. His 1839 dramatic symphony transfers the lovers’ dialogue to the orchestra, asking instruments to distinguish appeal, interruption and consent without words. The play’s dependence on heard signals makes that transfer unusually exact.</p>` },
-    { type: 'poem', author: 'Virgil', title: 'Aeneid · IV, 651–654', date: 'First century BCE', lang: 'Latin', translator: 'Our translation', original: `Dulces exuviae, dum fata deusque sinebat,
+    { relation: 'documented-use',
+      type: 'poem', author: 'Virgil', title: 'Aeneid · IV, 651–654', date: 'First century BCE', lang: 'Latin', translator: 'Our translation', original: `Dulces exuviae, dum fata deusque sinebat,
 accipite hanc animam meque his exsolvite curis.
 vixi et quem dederat cursum fortuna peregi,
 et nunc magna mei sub terras ibit imago.`, translation: `Dear relics, while fate and the god allowed it,

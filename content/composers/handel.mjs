@@ -83,16 +83,19 @@ V:1 name="Strings"
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Hogarth coram.jpg',
       artist: 'William Hogarth', title: 'Captain Thomas Coram', date: '1740', medium: 'Oil on canvas', collection: 'Foundling Museum, London',
       note: `<p>Coram founded the Foundling Hospital in 1739. Hogarth donated this portrait and encouraged other artists to support the institution, helping make it a public destination for painting. Handel’s benefit performances added music to the same philanthropic project. His 1749 benefit introduced the <i>Foundling Hospital Anthem</i>; <i>Messiah</i> followed there in 1750. The <a href="https://foundlingmuseum.org.uk/our-art-and-objects/foundling-collections/hogarth-and-company/">Foundling Museum’s collection</a> preserves the material connection.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Canaletto - Westminster Bridge, with the Lord Mayor\'s Procession on the Thames - Google Art Project.jpg',
       artist: 'Canaletto', title: 'Westminster Bridge, with the Lord Mayor’s Procession on the Thames', date: '1747', medium: 'Oil on canvas', collection: 'Yale Center for British Art, New Haven',
       note: `<p>The procession displays the river as a route for public ceremony, with decorated barges, spectators and the city’s new bridge. Painted thirty years after the documented <i>Water Music</i> excursion, it shows the continuing civic practice that makes a floating royal concert intelligible: the Thames could function as an auditorium as well as a commercial waterway.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'John Dryden', title: 'Alexander’s Feast — closing stanza', date: '1697', lang: 'English',
       original: `Let old Timotheus yield the prize,
 Or both divide the crown:

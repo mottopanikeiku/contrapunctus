@@ -24,6 +24,39 @@ if (!files.length) { console.log('usage: node tools/validate.mjs <content file>.
 
 for (const f of files) {
   let mod;
+  if (f.endsWith('.json')) {
+    try { mod = JSON.parse(await (await import('node:fs/promises')).readFile(f, 'utf8')); }
+    catch (e) { err(f, `invalid JSON: ${e.message}`); continue; }
+    const STATUS = new Set(['documented', 'inferred', 'disputed', 'unknown', 'not applicable']);
+    const field = (v, name) => {
+      if (!v || typeof v !== 'object' || !('value' in v) || !STATUS.has(v.status)) { err(f, `${name} must be a Field {value, status, sourceIds, note}`); return; }
+      if (!Array.isArray(v.sourceIds)) err(f, `${name}.sourceIds must be an array`);
+      if (v.status === 'documented' && !v.sourceIds.length) err(f, `${name} is documented but cites no source`);
+      if (v.status === 'disputed' && !(v.alternatives?.length >= 2)) err(f, `${name} is disputed but lists fewer than two alternatives`);
+      for (const id of [...v.sourceIds, ...(v.alternatives ?? []).flatMap((a) => a.sourceIds ?? [])]) if (!(mod.sources ?? []).some((s) => s.id === id)) err(f, `${name} cites unknown source ${id}`);
+    };
+    if (f.includes('/dossiers/')) {
+      if (path.basename(f, '.json') !== mod.id) err(f, 'file name must equal id');
+      field(mod.work?.version, 'work.version'); field(mod.performers, 'performers');
+      field(mod.session?.date, 'session.date'); field(mod.session?.place, 'session.place');
+      for (const k of ['label', 'catalogue', 'matrixTakeSides']) field(mod.carrier?.[k], `carrier.${k}`);
+      for (const k of ['credits', 'date', 'processing']) field(mod.transfer?.[k], `transfer.${k}`);
+      field(mod.rights?.composition, 'rights.composition'); field(mod.rights?.recording, 'rights.recording');
+      if (!mod.rights?.creditLine) err(f, 'rights.creditLine missing');
+      if (!(mod.sources ?? []).length) err(f, 'no sources');
+      for (const s of mod.sources ?? []) if (!s.id || !s.url || !s.accessed) err(f, `source ${s.id ?? '?'} needs id, url, accessed`);
+    }
+    if (f.includes('/relations/')) {
+      const KINDS = new Set(['literal repeat', 'varied return', 'tonal return', 'transposed return']);
+      for (const r of mod.relations ?? []) {
+        if (!KINDS.has(r.kind)) err(f, `relation kind ${r.kind}`);
+        if (!(Array.isArray(r.a) && Array.isArray(r.b) && r.a[0] < r.a[1] && r.b[0] < r.b[1] && r.a[0] < r.b[0])) err(f, `relation "${r.label}" spans invalid`);
+        if (!r.label || !r.basis || !['provisional', 'reviewed'].includes(r.status)) err(f, `relation "${r.label}" needs label, basis, status`);
+      }
+    }
+    console.log(`${bad ? '' : 'ok    '}${f}`);
+    continue;
+  }
   try { mod = (await import(pathToFileURL(path.resolve(f)).href + `?t=${Date.now()}`)).default; }
   catch (e) { err(f, `does not import: ${e.message}`); continue; }
   const text = JSON.stringify(mod);
@@ -62,16 +95,28 @@ for (const f of files) {
         if (i && c.t <= list[i - 1].t) err(f, `${name}[${i}] not after previous`);
       });
       check(mod.sections ?? [], 'sections');
-      check(mod.cues ?? [], 'cues');
       const cues = mod.cues ?? [];
-      if (cues[0]?.t !== 0) err(f, 'first cue must be at t: 0');
+      // cues anchored to a score bar get their time from docs/assets/data/<id>/score.json at build time
+      const timed = cues.filter((c) => !c.bar);
+      check(timed, 'cues');
+      if (cues[0] && !cues[0].bar && cues[0].t !== 0) err(f, 'first cue must be at t: 0');
+      const BASES = new Set(['score-aligned', 'score-proportion', 'audio-feature', 'documented', 'general']);
+      for (const c of cues) {
+        if (!BASES.has(c.basis)) err(f, `cue "${c.title}" needs basis (one of ${[...BASES].join(', ')})`);
+        if (['music', 'form', 'listen'].includes(c.kind)) {
+          if (!['moment', 'passage'].includes(c.precision)) err(f, `cue "${c.title}" needs precision 'moment' or 'passage'`);
+          if (c.precision === 'moment' && !['score-aligned', 'audio-feature'].includes(c.basis)) err(f, `cue "${c.title}": precision 'moment' requires basis score-aligned or audio-feature`);
+          if (c.basis === 'score-aligned' && !c.bar) err(f, `cue "${c.title}": basis score-aligned requires bar: { n, occ }`);
+          if (!c.evidence) err(f, `cue "${c.title}" needs evidence (shown to readers under "How we know")`);
+        }
+        if (c.bar && (typeof c.bar.n !== 'string' || !c.bar.occ)) err(f, `cue "${c.title}": bar must be { n: '12', occ: 1 }`);
+      }
       const kinds = new Set(['music', 'form', 'listen', 'life', 'world']);
       for (const c of cues) {
         if (!kinds.has(c.kind)) err(f, `bad cue kind ${c.kind}`);
         if (!c.title || !c.text) err(f, `cue at ${c.t} needs title and text`);
         const words = (c.text ?? '').split(/\s+/).length;
         if (words > 58) err(f, `cue at ${c.t} has ${words} words (max 55)`);
-        if (['music', 'form', 'listen'].includes(c.kind) && c.t > 0 && !c.evidence && /\b(enter|enters|arrives|returns|begins|climax|now|here)\b/i.test(c.text)) warn(f, `cue at ${c.t} describes a timed event without evidence`);
       }
       const gaps = cues.slice(1).map((c, i) => c.t - cues[i].t);
       const maxGap = Math.max(0, ...gaps, dur - (cues.at(-1)?.t ?? 0));

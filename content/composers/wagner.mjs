@@ -108,16 +108,19 @@ V:1 name="Oboe"
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:Rhinegold and the Valkyries p 004.jpg',
       artist: 'Arthur Rackham', title: 'The Frolic of the Rhine-Maidens', date: '1910', medium: 'Colour book illustration', collection: 'Published in The Rhinegold & The Valkyrie, translated by Margaret Armour',
       note: `<p>Rackham’s illustration belongs to an edition of Wagner’s own dramas. The swimming figures and curling water answer the beginning of <i>Rheingold</i>, where the stage is submerged and the orchestra is still emerging from its sustained E♭. The book makes visible the physical setting from which the gold is stolen; Wagner’s later motifs keep recalling that loss after the scene has changed.</p>`,
     },
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'mat', file: 'File:Edmund Blair Leighton - Tristram and Isolde (Royal Academy of Arts, 1907).jpg',
       artist: 'Edmund Blair Leighton', title: 'Tristram and Isolde', date: 'Exhibited 1907', medium: 'Photomechanical reproduction of an oil painting', collection: 'Reproduced in Royal Academy Pictures and Sculpture, 1907',
       note: `<p>Leighton exhibited this parallel treatment of the medieval legend at the Royal Academy in 1907, decades after the opera. Its historical costume fixes the lovers in a visible medieval setting; Wagner’s second act strips much of that social world away through darkness and the lovers’ argument against “day”. The image’s legible bodies contrast with the music’s unsettled harmony.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Mathilde Wesendonck', title: 'Im Treibhaus — opening stanzas', date: '1858', lang: 'German', translator: 'Our translation',
       original: `Hochgewölbte Blätterkronen,
 Baldachine von Smaragd:
@@ -140,6 +143,7 @@ rises upward, sweet fragrance.`,
       note: `<p>Wagner labelled this song a study for <i>Tristan und Isolde</i>; its material is connected with the desolate Prelude to Act III. The greenhouse gives the poem a precise condition: living things have been transported from their native climate and cannot return. The first two of six stanzas are quoted here; the <a href="https://oxfordsong.org/song/im-treibhaus">complete German text</a> carries the comparison into human exile.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Richard Wagner', title: 'Hans Sachs’s Wahn monologue — opening', date: 'Libretto completed 1862; opera completed 1867', lang: 'German', translator: 'Our translation',
       original: `Wahn! Wahn!
 Überall Wahn!

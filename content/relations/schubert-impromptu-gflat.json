@@ -1,0 +1,20 @@
+{
+  "id": "schubert-impromptu-gflat",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        2.5,
+        42.0
+      ],
+      "b": [
+        221.0,
+        260.5
+      ],
+      "label": "The G♭ melody returns",
+      "basis": "The outer melody returns after the contrasting E♭-minor-centred middle. The 218.5 s measured offset agrees with the A′ marker near 218 s; the later continuation and coda are not assumed identical. CENS diagonal mean 0.964, sustained 39.5 s, fixed pitch-class shift 0 semitones and time offset 218.5 s (cache/form/schubert-impromptu-gflat.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The remaining candidates connect later phrases or internal repetitions in the outer sections. They support the same ternary return but do not give a second independent large-scale reprise. Continuous broken chords are not by themselves identified as the melody, and the shifted phrase lengths prevent a single offset for the complete outer sections."
+}

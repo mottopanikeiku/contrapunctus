@@ -85,6 +85,7 @@ V:1
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt',
       file: 'File:An Experiment on a Bird in an Air Pump by Joseph Wright of Derby, 1768.jpg',
       artist: 'Joseph Wright of Derby', title: 'An Experiment on a Bird in the Air Pump', date: '1768',
@@ -92,6 +93,7 @@ V:1
       note: '<p>A scientific demonstration becomes a scene of differentiated attention: the children fear for the bird, one spectator watches the mechanism, and others turn inward or towards one another. The comparison with a Mozart ensemble concerns the organisation of simultaneous responses. Both give several viewpoints a shared frame. The <a href="https://www.nationalgallery.org.uk/paintings/joseph-wright-of-derby-an-experiment-on-a-bird-in-the-air-pump/">National Gallery</a> identifies the bird as a cockatoo and describes the experiment’s place in public scientific demonstration.</p>',
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Friedrich Schiller', title: 'An die Freude — first stanza', date: '1785; revised c. 1803',
       lang: 'German', translator: 'Our translation',
       original: `Freude, schöner Götterfunken,

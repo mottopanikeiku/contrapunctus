@@ -1,0 +1,20 @@
+{
+  "id": "debussy-cathedrale-engloutie",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        139.0,
+        151.5
+      ],
+      "b": [
+        280.5,
+        293.0
+      ],
+      "label": "The broad melody returns as an echo",
+      "basis": "Debussy recalls the broad chordal melody in the quieter, lower-register echo section. The matched excerpts lie within the first chordal statement and the echo marked near 268 s. CENS diagonal mean 0.908, sustained 12.5 s, fixed pitch-class shift 0 semitones and time offset 141.5 s (cache/form/debussy-cathedrale-engloutie.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The overlapping 13.5 s echo candidate represents the same return. The twelve-second path shifted by four semitones inside the emerging passage is a local sequence, not a separate formal return. Chroma does not identify the octave displacement or the piano’s register."
+}

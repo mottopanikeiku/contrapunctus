@@ -93,11 +93,13 @@ V:1
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:William Hogarth 017.jpg',
       artist: 'William Hogarth', title: 'Ferdinand Courting Miranda, from The Tempest', date: 'c. 1736', medium: 'Oil on canvas', collection: 'National Trust, Nostell, West Yorkshire',
       note: `<p>Hogarth gathers Ferdinand, Miranda, Prospero, Ariel and Caliban into an imagined scene. The link is Shakespeare’s Act I; no influence on the score is documented. Adès’s opera assigns this same set of relations distinct vocal registers and forms of musical agency. Hogarth places a controlling father, an invisible musician and two lovers in a single artistic space.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'William Shakespeare', title: 'Ariel’s song: Full fathom five', date: 'The Tempest, c. 1610–11; printed 1623', lang: 'English',
       original: `Full fathom five thy father lies.
 Of his bones are coral made.
@@ -108,6 +110,7 @@ Into something rich and strange.`,
       note: `<p>Ariel sings to Ferdinand about his supposedly drowned father in <a href="https://www.folger.edu/explore/shakespeares-works/the-tempest/read/1/2/">Act I, scene 2</a>. Meredith Oakes rewrites Shakespeare’s song for the opera. Its dramatic function remains musical deception, bringing Ferdinand towards Miranda. The very high soprano register gives the voice an audible distance from ordinary human speech; the transformation in the poem has a counterpart in the treatment of the singer.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'painting', frame: 'gilt', file: 'File:L\'Embarquement pour Cythère, by Antoine Watteau, from C2RMF retouched.jpg',
       artist: 'Jean-Antoine Watteau', title: 'Pilgrimage to the Island of Cythera', date: '1717', medium: 'Oil on canvas', collection: 'Musée du Louvre, Paris',
       note: `<p>This is a direct source for <i>L’Embarquement</i>, the fifth movement of <i>Arcadiana</i>. Watteau’s couples occupy the island associated with Venus while the ship and attendant cupids make departure part of the image. Adès places the movement among the quartet’s aquatic scenes; its high string writing and changing figuration also glance towards [[debussy|Debussy]]’s <i>L’Isle joyeuse</i>. The reference concerns an idyll already in the act of disappearing.</p>`,

@@ -1,0 +1,48 @@
+{
+  "id": "mahler-4-bedaechtig",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        6.0,
+        34.5
+      ],
+      "b": [
+        208.0,
+        236.5
+      ],
+      "label": "The opening returns within the exposition",
+      "basis": "Mahler brings opening material back before the development; the listening note near 235 s explicitly distinguishes this internal return from the later recapitulation. CENS diagonal mean 0.913, sustained 28.5 s, fixed pitch-class shift 0 semitones and time offset 202 s (cache/form/mahler-4-bedaechtig.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        48.5,
+        68.0
+      ],
+      "b": [
+        579.0,
+        598.5
+      ],
+      "label": "The opening group returns after development",
+      "basis": "The matched continuation belongs to the recapitulation marked near 568 s. Its changed surrounding sequence makes this a varied return, not an exposition repeat. CENS diagonal mean 0.913, sustained 19.5 s, fixed pitch-class shift 0 semitones and time offset 530.5 s (cache/form/mahler-4-bedaechtig.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "transposed return",
+      "a": [
+        120.5,
+        133.5
+      ],
+      "b": [
+        662.0,
+        675.0
+      ],
+      "label": "The second theme comes home",
+      "basis": "The broad second theme moves from the exposition’s D major into G major in the recapitulation. A five-semitone upward pitch-class shift agrees with that home-key return. CENS diagonal mean 0.923, sustained 13 s, fixed pitch-class shift +5 semitones and time offset 541.5 s (cache/form/mahler-4-bedaechtig.txt, candidate 6; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Development matches with low contrast and isolated fanfare correspondences are not treated as new formal returns. The closing-group match near 796 s and overlapping exposition paths are omitted to avoid several arcs for the same sonata-form restatement. The excerpts do not establish the exact starts of the bell figure or cello melody."
+}

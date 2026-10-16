@@ -82,7 +82,8 @@ V:1 name="Pulse" clef=bass
 "2"!>!D, A, "3"!>!D, A, A, | "2"!>!G, D "3"!>!G, D D |]`, caption: 'An invented accompaniment pattern illustrating the Sixth Symphony’s metre. Each bar divides into two crotchets plus three: the third beat starts a new group within the bar. Tchaikovsky’s second movement sustains this unequal dance metre with supple phrasing; this pattern isolates the count.' },
   ],
   arts: [
-    { type: 'poem', author: 'Alexander Pushkin', title: 'Tatyana’s letter, from Eugene Onegin', date: 'Chapter III, published 1827', lang: 'Russian', translator: 'Our translation', original: `Я к вам пишу — чего же боле?
+    { relation: 'documented-use',
+      type: 'poem', author: 'Alexander Pushkin', title: 'Tatyana’s letter, from Eugene Onegin', date: 'Chapter III, published 1827', lang: 'Russian', translator: 'Our translation', original: `Я к вам пишу — чего же боле?
 Что я могу еще сказать?
 Теперь, я знаю, в вашей воле
 Меня презреньем наказать.
@@ -95,8 +96,10 @@ To punish me with contempt.
 But if for my unhappy fate
 You keep even a drop of pity,
 You will not abandon me.`, note: `<p>Tchaikovsky’s letter scene enlarges a private act of writing into an extended sequence of orchestral anticipation, hesitation and release. Pushkin presents the letter as a translation from Tatyana’s French; the opera gives it directly to her singing voice. The original is available in the <a href="https://www.culture.ru/poems/4418/pismo-tatyany-k-oneginu-otryvok-iz-romana-evgenii-onegin">Russian text of the passage</a>.</p>` },
-    { type: 'painting', frame: 'gilt', file: 'File:Léon Bakst (1866-1924) - The Sleeping Beauty, The Prince Out Hunting Sees the Castle Where the Princess Lies Sleeping - 89.1995.6 - Waddesdon Manor.jpg', artist: 'Léon Bakst', title: 'The Prince Out Hunting Sees the Castle Where the Princess Lies Sleeping', date: '1913–22', medium: 'Oil on canvas', collection: 'Waddesdon Manor, Buckinghamshire', note: `<p>One of Bakst’s seven paintings on the <i>Sleeping Beauty</i> story, commissioned as a mural cycle for James de Rothschild. It is separate from Petipa’s 1890 production. Bakst also designed Diaghilev’s London staging of Tchaikovsky’s ballet in 1921: the same artist carried the fairy tale between domestic decoration and the modern stage.</p>` },
-    { type: 'poem', author: 'William Shakespeare', title: 'Romeo and Juliet, Act II, scene 2', date: 'c. 1595', lang: 'English', original: `But, soft! what light through yonder window breaks?
+    { relation: 'shared-context',
+      type: 'painting', frame: 'gilt', file: 'File:Léon Bakst (1866-1924) - The Sleeping Beauty, The Prince Out Hunting Sees the Castle Where the Princess Lies Sleeping - 89.1995.6 - Waddesdon Manor.jpg', artist: 'Léon Bakst', title: 'The Prince Out Hunting Sees the Castle Where the Princess Lies Sleeping', date: '1913–22', medium: 'Oil on canvas', collection: 'Waddesdon Manor, Buckinghamshire', note: `<p>One of Bakst’s seven paintings on the <i>Sleeping Beauty</i> story, commissioned as a mural cycle for James de Rothschild. It is separate from Petipa’s 1890 production. Bakst also designed Diaghilev’s London staging of Tchaikovsky’s ballet in 1921: the same artist carried the fairy tale between domestic decoration and the modern stage.</p>` },
+    { relation: 'documented-use',
+      type: 'poem', author: 'William Shakespeare', title: 'Romeo and Juliet, Act II, scene 2', date: 'c. 1595', lang: 'English', original: `But, soft! what light through yonder window breaks?
 It is the east, and Juliet is the sun.
 Arise, fair sun, and kill the envious moon,
 Who is already sick and pale with grief,

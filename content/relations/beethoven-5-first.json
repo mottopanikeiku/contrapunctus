@@ -1,0 +1,48 @@
+{
+  "id": "beethoven-5-first",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        2.5,
+        49.5
+      ],
+      "b": [
+        104.5,
+        151.5
+      ],
+      "label": "Exposition repeat",
+      "basis": "The performed exposition repeat is documented in the listening notes near 102 s; these excerpts match the opening group, before the second theme. CENS diagonal mean 0.959, sustained 47 s, fixed pitch-class shift 0 semitones and time offset 102 s (cache/form/beethoven-5-first.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        28.5,
+        47.5
+      ],
+      "b": [
+        327.0,
+        346.0
+      ],
+      "label": "The first group returns",
+      "basis": "The first-theme group returns in the recapitulation, but the oboe interruption changes its course; these excerpts compare the continuation after that interruption, not the opening attacks. CENS diagonal mean 0.936, sustained 19 s, fixed pitch-class shift 0 semitones and time offset 298.5 s (cache/form/beethoven-5-first.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "transposed return",
+      "a": [
+        86.5,
+        98.5
+      ],
+      "b": [
+        389.0,
+        401.0
+      ],
+      "label": "The closing group returns lower",
+      "basis": "The exposition’s E♭-major closing material is recast in C major in the recapitulation; the measured downward three-semitone shift agrees with that tonal change. CENS diagonal mean 0.921, sustained 12 s, fixed pitch-class shift -3 semitones and time offset 302.5 s (cache/form/beethoven-5-first.txt, candidate 6; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The second exposition group also gives a 43.5 s unshifted match, but is omitted as another arc for the same repeat. The overlapping 15 s recapitulation match is redundant. Short repetitions of the four-note rhythm are not promoted to whole-theme returns, and the recapitulation is not labelled a literal repeat."
+}

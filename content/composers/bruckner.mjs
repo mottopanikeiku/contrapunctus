@@ -89,16 +89,19 @@ V:1 name="Rhythm"
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:Topographia Austriae superioris modernae - Closter Florian.jpg',
       artist: 'Georg Matthäus Vischer', title: 'St Florian Abbey', date: '1677 edition; first published 1674', medium: 'Copper engraving', collection: 'Topographia Austriae superioris modernae',
       note: `<p>The abbey where Bruckner became a choirboy in 1837, later worked as teacher and organist, and was buried in 1896. Vischer’s engraving records the institution and its setting before the Baroque rebuilding. Behind the familiar “cathedral in sound” metaphor stand the actual buildings and daily musical work that formed him.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:Anton Bruckner und Richard Wagner. Schattenbild von Otto Böhler (1847–1913).jpg',
       artist: 'Otto Böhler', title: 'Anton Bruckner and Richard Wagner', date: 'c. 1885', medium: 'Published silhouette', collection: 'Issued by R. Lechner, Vienna',
       note: `<p>Böhler shows Bruckner accepting snuff from Wagner. The caricature records the public image of the deferential admirer, an image encouraged by the Third Symphony’s dedication. Bruckner’s contrapuntal finales and three-group sonata expositions belong to his independent symphonic practice; the print documents his reception.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Roman Catholic liturgy', title: 'Locus iste', date: 'Traditional Latin gradual; Bruckner’s setting, 1869', lang: 'Latin', translator: 'Our translation',
       original: `Locus iste a Deo factus est,
 inaestimabile sacramentum,

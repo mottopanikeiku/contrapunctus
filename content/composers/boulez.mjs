@@ -88,11 +88,13 @@ V:1
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'lacquer', file: 'File:Polyphony, 1932 Paul Klee.jpg',
       artist: 'Paul Klee', title: 'Polyphony', date: '1932', medium: 'Oil and chalk on canvas', collection: 'Emanuel Hoffmann Foundation, on deposit at Kunstmuseum Basel',
       note: `<p>Boulez first encountered Klee’s work in Avignon in 1947 and returned to it in <i>Le pays fertile: Paul Klee</i> (1989). Klee’s dots, coloured fields and overlapping divisions make several organisations visible at once. Boulez valued his demonstrations of how elementary operations can generate a complex form. The painting’s title names the musical analogy explicitly.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Stéphane Mallarmé', title: 'Une dentelle s’abolit', date: '1887', lang: 'French', translator: 'Our translation',
       original: `Une dentelle s’abolit
 Dans le doute du Jeu suprême

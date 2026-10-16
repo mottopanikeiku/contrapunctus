@@ -65,8 +65,10 @@ K:C
 "Chorale in A"A B ^c ^d | "Row ending"B ^c ^d ^e |]`, caption: 'Pitch-only schematic in equal crotchets. Johann Rudolph Ahle’s chorale tune begins with three ascending whole tones, A–B–C♯–D♯ in Bach’s A major setting at the end of Cantata BWV 60. Transposed up a tone, that opening becomes B–C♯–D♯–E♯: enharmonically the last four notes of Berg’s row, B–C♯–E♭–F. Berg quotes Bach’s harmonisation in the concerto.' },
   ],
   arts: [
-    { type: 'painting', frame: 'lacquer', file: 'File:Arnold Schönberg Alban Berg 1910.jpg', artist: 'Arnold Schoenberg', title: 'Portrait of Alban Berg', date: '1910', medium: 'Oil on canvas', collection: 'Wien Museum, Vienna', note: `<p>Schoenberg painted his pupil in the year of the String Quartet, Op. 3. The tall, narrow canvas belongs to the teacher’s concentrated period of portrait painting; it depicts a working relationship that began with harmony lessons in 1904 and continued after Berg’s operatic success.</p>` },
-    { type: 'poem', author: 'Charles Baudelaire', title: 'De profundis clamavi — opening quatrain', date: '1857; text from the 1861 edition', lang: 'French', translator: 'Our translation', original: `J’implore ta pitié, Toi, l’unique que j’aime,
+    { relation: 'documented-encounter',
+      type: 'painting', frame: 'lacquer', file: 'File:Arnold Schönberg Alban Berg 1910.jpg', artist: 'Arnold Schoenberg', title: 'Portrait of Alban Berg', date: '1910', medium: 'Oil on canvas', collection: 'Wien Museum, Vienna', note: `<p>Schoenberg painted his pupil in the year of the String Quartet, Op. 3. The tall, narrow canvas belongs to the teacher’s concentrated period of portrait painting; it depicts a working relationship that began with harmony lessons in 1904 and continued after Berg’s operatic success.</p>` },
+    { relation: 'documented-use',
+      type: 'poem', author: 'Charles Baudelaire', title: 'De profundis clamavi — opening quatrain', date: '1857; text from the 1861 edition', lang: 'French', translator: 'Our translation', original: `J’implore ta pitié, Toi, l’unique que j’aime,
 Du fond du gouffre obscur où mon cœur est tombé.
 C’est un univers morne à l’horizon plombé,
 Où nagent dans la nuit l’horreur et le blasphème ;`, translation: `I beg your pity, you, the only one I love,

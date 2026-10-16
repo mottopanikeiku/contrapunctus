@@ -1,0 +1,20 @@
+{
+  "id": "brahms-3-poco-allegretto",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        32.0,
+        62.0
+      ],
+      "b": [
+        250.5,
+        280.5
+      ],
+      "label": "The C minor song returns",
+      "basis": "The ternary movement restores its opening song after the middle section, with changed scoring; the matched phrases lie inside the opening A and the A′ section marked near 214 s. CENS diagonal mean 0.937, sustained 30 s, fixed pitch-class shift 0 semitones and time offset 218.5 s (cache/form/brahms-3-poco-allegretto.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Several overlapping paths describe the same large return and are not separate arcs. Matches of 12–14 s inside the opening song and middle section reflect phrase repetition; they do not establish additional large formal sections. The paired spans do not time the horn’s entrance."
+}

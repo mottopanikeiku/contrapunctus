@@ -1,0 +1,173 @@
+{
+  "id": "couperin-nations-piemontaise",
+  "work": {
+    "title": "Les Nations",
+    "catalogue": "",
+    "movement": "La Piémontaise · Sonade",
+    "version": {
+      "value": "Trio-sonata performance with Baroque violin, Baroque flute, viola da gamba and historical keyboards; estimated pitch approximately A = 415 Hz",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "The instrumentation is documented on Commons. The pitch is an editorial inference from the semitone offset between the score and the project’s machine analysis (cache/analysis/couperin-nations-piemontaise.txt, opening pitch-class windows). It is not stated by the performers and has not been checked by ear; the performing edition is unidentified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "New Comma Baroque",
+        "role": "ensemble"
+      },
+      {
+        "name": "Matthew C. Cataldi",
+        "role": "Baroque violin"
+      },
+      {
+        "name": "Leighann Daihl",
+        "role": "Baroque flute"
+      },
+      {
+        "name": "Phillip W. Serna",
+        "role": "viola da gamba"
+      },
+      {
+        "name": "Emily J. Morlan",
+        "role": "historical keyboards"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "2012-09-10",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The description explicitly says ‘Recorded September 10th, 2012’; this is not the November upload date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Adlai E. Stevenson High School Recital Hall, Lincolnshire, Illinois",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Named in the description of the programme Tous les Matins du Monde."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original release label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Phillipwserna is credited as uploader and the file is described as own work; no separate recording, transfer or mastering engineer is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No source-transfer or restoration processing is disclosed. The access-file encoding is recorded separately."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Francois_Couperin_%28c.1631-1708-12%29_-_Sonade_from_Quatri%C3%A8me_Ordre_La_Piemontaise_L%27Astree_from_Les_Nations_Sonades_et_Suites_de_Simphonies_en_Trio_%28Paris%2C_1726%29.ogg/Francois_Couperin_%28c.1631-1708-12%29_-_Sonade_from_Quatri%C3%A8me_Ordre_La_Piemontaise_L%27Astree_from_Les_Nations_Sonades_et_Suites_de_Simphonies_en_Trio_%28Paris%2C_1726%29.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 603
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in jurisdictions applying an unextended life-plus-70-year term",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "François Couperin died in 1733. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The uploader’s self-licence applies to the recording. The filename’s composer life dates are erroneous; the Author field correctly gives 1668–1733."
+    },
+    "creditLine": "François Couperin: Les Nations, La Piémontaise · Sonade — New Comma Baroque: Matthew C. Cataldi, Leighann Daihl, Phillip W. Serna and Emily J. Morlan, 10 September 2012. Recording supplied by Phillipwserna, CC BY-SA 3.0, via Wikimedia Commons; MP3 access derivative.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1259997577",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AFrancois+Couperin+%28c.1631-1708-12%29+-+Sonade+from+Quatri%C3%A8me+Ordre+La+Piemontaise+L%27Astree+from+Les+Nations+Sonades+et+Suites+de+Simphonies+en+Trio+%28Paris%2C+1726%29.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "score",
+      "title": "IMSLP — Les Nations",
+      "url": "https://imslp.org/wiki/Les_nations_(Couperin,_Fran%C3%A7ois)",
+      "locator": "General Information: publication in 1726, fourth ordre and trio instrumentation. This source does not document the pitch used at the 2012 session.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

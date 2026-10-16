@@ -1,0 +1,34 @@
+{
+  "id": "scarlatti-sonata-k119",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        17.5,
+        66.0
+      ],
+      "b": [
+        83.0,
+        131.5
+      ],
+      "label": "The first half repeats",
+      "basis": "The sonata has two repeated halves; the first moves from D towards A. The measured pair falls inside that first half and its repeat, marked near 68 s. CENS diagonal mean 0.967, sustained 48.5 s, fixed pitch-class shift 0 semitones and time offset 65.5 s (cache/form/scarlatti-sonata-k119.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "literal repeat",
+      "a": [
+        156.5,
+        199.0
+      ],
+      "b": [
+        228.5,
+        271.0
+      ],
+      "label": "The second half repeats",
+      "basis": "The second half returns towards D and is repeated near 204 s. These excerpts compare its later phrases, not the first half or a later Classical sonata-form recapitulation. CENS diagonal mean 0.941, sustained 42.5 s, fixed pitch-class shift 0 semitones and time offset 72 s (cache/form/scarlatti-sonata-k119.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The shorter paths at 66.5 s and 73 s offsets cover the beginnings of the same two repeats and are not extra formal events. Slightly changing offsets reflect performance timing; no single fixed offset is claimed for either entire half. Local repeated attacks are not separately mapped."
+}

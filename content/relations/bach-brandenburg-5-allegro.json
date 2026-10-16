@@ -1,0 +1,20 @@
+{
+  "id": "bach-brandenburg-5-allegro",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        4.5,
+        21.5
+      ],
+      "b": [
+        571.0,
+        588.0
+      ],
+      "label": "The opening ritornello returns",
+      "basis": "The opening and final ritornellos frame the solo episodes and written-out cadenza; the section map places the final tutti near 568 s. CENS diagonal mean 0.954, sustained 17 s, fixed pitch-class shift 0 semitones and time offset 566.5 s (cache/form/bach-brandenburg-5-allegro.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Solo-episode matches, including a 25.5 s path shifted by five semitones, were not assigned a separate formal return without a score-level phrase identification. Cadenza matches of 12–19 s have much lower contrast against neighbouring paths and can reflect repeated keyboard figuration or dominant harmony."
+}

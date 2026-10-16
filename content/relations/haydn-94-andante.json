@@ -1,0 +1,62 @@
+{
+  "id": "haydn-94-andante",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        46.0,
+        63.5
+      ],
+      "b": [
+        66.5,
+        84.0
+      ],
+      "label": "The theme’s second half repeats",
+      "basis": "The binary theme repeats both strains; these excerpts compare the second strain with its repeat before Variation I. CENS diagonal mean 0.969, sustained 17.5 s, fixed pitch-class shift 0 semitones and time offset 20.5 s (cache/form/haydn-94-andante.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "literal repeat",
+      "a": [
+        87.0,
+        103.0
+      ],
+      "b": [
+        107.0,
+        123.0
+      ],
+      "label": "Variation I repeats its first half",
+      "basis": "The first variation preserves the binary repeat scheme while decorating the theme; both spans precede its second strain. CENS diagonal mean 0.968, sustained 16 s, fixed pitch-class shift 0 semitones and time offset 20 s (cache/form/haydn-94-andante.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "literal repeat",
+      "a": [
+        127.5,
+        142.5
+      ],
+      "b": [
+        146.5,
+        161.5
+      ],
+      "label": "Variation I repeats its second half",
+      "basis": "The first variation’s second strain is repeated before the minor-mode variation begins. CENS diagonal mean 0.982, sustained 15 s, fixed pitch-class shift 0 semitones and time offset 19 s (cache/form/haydn-94-andante.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "literal repeat",
+      "a": [
+        165.0,
+        180.5
+      ],
+      "b": [
+        184.5,
+        200.0
+      ],
+      "label": "The minor variation repeats its opening",
+      "basis": "Variation II changes C major to C minor but retains a repeated opening strain; both excerpts lie in that minor variation. CENS diagonal mean 0.964, sustained 15.5 s, fixed pitch-class shift 0 semitones and time offset 19.5 s (cache/form/haydn-94-andante.txt, candidate 4; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The famous quiet opening repeat and its surprise chord did not yield a qualifying long path, so no arc is added solely from the score. Nor are the later variations equated with the original theme just because their harmonic plan is retained. The four published links are within-section repeats, not four unchanged restatements of the theme."
+}

@@ -113,6 +113,7 @@ V:1 name="Piano"
 
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Moritz von Schwind Schubertiade large.jpg',
       artist: 'Moritz von Schwind', title: 'Ein Schubert-Abend bei Josef von Spaun (A Schubert Evening at Josef von Spaun’s)', date: '1868',
@@ -120,6 +121,7 @@ V:1 name="Piano"
       note: `<p>Schwind places Schubert at the piano with Vogl beside him and the circle of friends arranged as listeners. The drawing was made forty years after the composer’s death; its crowded room commemorates that circle. It identifies the social machinery behind the songs: a pianist-composer, an experienced singer and friends who supplied poems, rooms, introductions and subscriptions. The <a href="https://sammlung.wienmuseum.at/en/object/1003233-ein-schubert-abend-bei-josef-von-spaun/">museum catalogue</a> records the mixed drawing technique.</p>`,
     },
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt',
       file: 'File:Caspar David Friedrich - Winterlandschaft mit Kirche (National Gallery London).jpg',
       artist: 'Caspar David Friedrich', title: 'Winter Landscape', date: 'Probably 1811',
@@ -127,6 +129,7 @@ V:1 name="Piano"
       note: `<p>A man has put aside his crutches beside a boulder and prays before a crucifix; beyond the fir trees, a Gothic church emerges through mist. The link with <i>Winterreise</i> is shared subject matter. Friedrich gives his solitary traveller a religious object towards which to turn. Müller’s walker in <i>Das Wirtshaus</i> approaches a cemetery as an inn, finds no room there and must continue. The <a href="https://www.nationalgallery.org.uk/paintings/caspar-david-friedrich-winter-landscape">National Gallery’s account</a> identifies the painting’s Christian signs of renewal: a different outcome from the song cycle’s unanswered final question.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Wilhelm Müller', title: 'Der Leiermann — first and last stanzas', date: 'Published 1823; collected 1824; set by Schubert 1827',
       lang: 'German', translator: 'Our translation',

@@ -1,0 +1,246 @@
+{
+  "id": "sibelius-valse-triste",
+  "work": {
+    "title": "Valse triste",
+    "catalogue": "Op. 44 No. 1",
+    "movement": "",
+    "version": {
+      "value": "Arrangement for cello with piano accompaniment; arranger unidentified.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "embedded"
+      ],
+      "note": "Neither the source discography nor the embedded tags name the arranger."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Judith Bokor",
+        "role": "cello"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "upstream",
+      "embedded"
+    ],
+    "note": "Piano accompaniment is documented, but the pianist is unnamed. The upstream biographical account mentions Louis Schnitzler and Theo van der Pas; it does not assign either pianist to this matrix."
+  },
+  "session": {
+    "date": {
+      "value": "5 June 1925",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured",
+        "upstream",
+        "embedded"
+      ],
+      "note": "The date is attached to matrix FX 51 in the source discography, not inferred from the upload timestamp.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "embedded"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "D 12801",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "embedded"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "FX 51 — Valse triste",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "embedded"
+      ],
+      "note": "The same catalogue record is paired with Lalo’s Chants russes, matrix FX 56. No take suffix or side letter is supplied for FX 51."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "upstream",
+        "embedded"
+      ],
+      "note": "The Internet Archive item supplies a transfer and discographic table but does not explicitly identify its transfer or restoration engineer. Its uploader account is not treated as an engineering credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: libFLAC 1.3.2 20190804. Commons master: FLAC, 16-bit, 44.1 kHz, 1 channel.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Judith_Bokor_plays_Valse_triste_by_Sibelius.flac/Judith_Bokor_plays_Valse_triste_by_Sibelius.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: FLAC, 16-bit, 44.1 kHz, 1 channel",
+    "durationSeconds": 262.1310657596372
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in the United States; Commons’ life-plus-70 claim is not supported as of 2026.",
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "old70-tag",
+        "work-source",
+        "composer-authority",
+        "author-term",
+        "us-work-term"
+      ],
+      "note": "The 1904 publication supports US expiry. Sibelius died in 1957, so an ordinary life-plus-70 term runs through 31 December 2027. This conflicts with the file’s unqualified PD-old-70 tag. The unidentified arranger’s rights are also unestablished.",
+      "alternatives": [
+        {
+          "value": "Commons applies PD-old-70, asserting expiry in the source country and life-plus-70 jurisdictions.",
+          "sourceIds": [
+            "commons",
+            "old70-tag"
+          ]
+        },
+        {
+          "value": "The standard life-plus-70 term for Sibelius’s composition runs through 31 December 2027; US publication-based expiry is separate.",
+          "sourceIds": [
+            "composer-authority",
+            "author-term",
+            "work-source",
+            "us-work-term"
+          ]
+        }
+      ]
+    },
+    "recording": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "us-work-term",
+        "us-recording-law"
+      ],
+      "note": "Commons labels the file public domain using PD-US-expired and PD-old-70. Those general-work tags do not establish the recording-specific US term. The source documents a 1925 session but not first publication; under § 1401, US expiry depends on first publication. A worldwide recording clearance is not established."
+    },
+    "creditLine": "Judith Bokor, cello; pianist unidentified. Columbia D 12801, matrix FX 51; Internet Archive transfer, via Wikimedia Commons. Commons claims public domain; composition and recording rights require territorial review.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Valse_triste_by_Sibelius.flac"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Judith Bokor plays Valse triste by Sibelius.flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Valse_triste_by_Sibelius.flac?oldid=1220972757",
+      "locator": "File-description wikitext revision 1220972757; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M192847627",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M192847627&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1220972757. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AJudith+Bokor+plays+Valse+triste+by+Sibelius.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Internet Archive: Judith Bokor — Columbia, 1924–1925",
+      "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309",
+      "locator": "Description discography row 6: Valse triste, matrix FX 51, 5 June 1925, Columbia D 12801. File: 6 Judith Bokor - Col D 12801 FX 51 Sibelius.flac; addeddate is 22 September 2023.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-source",
+      "title": "Boston Symphony Orchestra: Sibelius, Valse triste",
+      "url": "https://www.bso.org/works/sibelius-valse-triste",
+      "locator": "Richard Dyer’s programme note: composed as incidental music in 1903; published separately in 1904.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer-authority",
+      "title": "Boston Symphony Orchestra: Jean Sibelius",
+      "url": "https://www.bso.org/profiles/jean-sibelius",
+      "locator": "Composer biography gives death on 20 September 1957.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "old70-tag",
+      "title": "Commons: meaning of PD-old-70",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-old-70",
+      "locator": "Template claims expiry in the source country and life-plus-70 jurisdictions; intended for authors who died more than 70 years ago.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-work-term",
+      "title": "Commons: US expiry for published compositions",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+      "locator": "Published works before 1931 are public domain in the United States as of 2026; the template expressly excludes sound recordings.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recording-law",
+      "title": "17 U.S.C. § 1401: pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication, with separate periods for 1923–1946, 1947–1956 and later recordings.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "author-term",
+      "title": "Directive 2006/116/EC: authors’ copyright terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "berlioz-fantastique-march",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        96.0,
+        137.0
+      ],
+      "b": [
+        137.5,
+        178.5
+      ],
+      "label": "The major-key march returns",
+      "basis": "The march’s second theme returns with a more active accompaniment, rather than an exposition restart; this agrees with the major-key march region in the listening notes and the structural account at https://human.libretexts.org/Bookshelves/Music/Ethnomusicology/Resonances_-_Engaging_Music_in_its_Cultural_Context_(Morgan-Ellis_Ed.)/02%3A_Music_for_Storytelling/06%3A_Stories_without_Words/6.02%3A_Hector_Berlioz_-_Fantastical_Symphony. CENS diagonal mean 0.955, sustained 41 s, fixed pitch-class shift 0 semitones and time offset 41.5 s (cache/form/berlioz-fantastique-march.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The 219–231.5 s to 270–282.5 s match has mean 0.906 but only 0.033 contrast against nearby paths; common march and cadential harmony is insufficient to connect the build-up with the execution ending. The late idée fixe quotation has no earlier complete counterpart in this recording."
+}

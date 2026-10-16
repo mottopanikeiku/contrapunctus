@@ -95,6 +95,7 @@ EFBc dFEc BFdc | EFBc dFEc BFdc | FBcd FEcB FdcE | FBcd FEcB FdcE |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Chicago, Illinois. Double header Pennsylvania railroad train pulling out of Union station. The building in the background is the United States Post Office.tif',
       artist: 'Jack Delano', title: 'Pennsylvania Railroad train leaving Union Station, Chicago', date: 'January 1943',
@@ -102,6 +103,7 @@ EFBc dFEc BFdc | EFBc dFEc BFdc | FBcd FEcB FdcE | FBcd FEcB FdcE |]`,
       note: `<p>Delano’s government photograph records the American railway system at almost the same moment as Reich’s childhood journeys of 1939–42. <i>Different Trains</i> returns to that passenger world through a governess’s memories, a Pullman porter’s testimony and recorded train sounds, then places it against deportation trains in Europe. The photograph supplies historical context.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Psalm 19, verses 2–3 in Hebrew numbering', title: 'The heavens tell', date: 'Ancient Hebrew text',
       lang: 'Hebrew', translator: 'Our translation',
       original: `השמים מספרים כבוד אל

@@ -1,0 +1,163 @@
+{
+  "id": "mahler-4-bedaechtig",
+  "work": {
+    "title": "Symphony No. 4 in G major",
+    "catalogue": "",
+    "movement": "I. Bedächtig. Nicht eilen",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [],
+    "status": "unknown",
+    "sourceIds": [
+      "commons",
+      "embedded"
+    ],
+    "note": "European Archive is the source attribution, not a performing ensemble. No orchestra, conductor or other performer is identified in the retrieved description or audio comments."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "structured",
+        "embedded"
+      ],
+      "note": "30 January 2021 is the Commons item date and structured inception. Neither source identifies a recording session; the original performance date remains unknown.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical release is identified. European Archive and Musopen are repository credits, not proven record labels."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "European Archive; distributed through Musopen.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Repository chain as attributed on Commons. No transfer engineer, restoration credit or source carrier is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Lavf58.20.100. Commons master: Ogg Vorbis, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Mahler_Symphony_No.4_in_G_major_1._Badachtig_Nicht_ellen_%28Mahler%29_European_Archive.ogg/Mahler_Symphony_No.4_in_G_major_1._Badachtig_Nicht_ellen_%28Mahler%29_European_Archive.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 907.2583673469388
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-100-1923. This does not license a later edition, arrangement or recording."
+    },
+    "recording": {
+      "value": "Public-domain dedication attributed to Musopen.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "This records the source’s dedication, not an independent worldwide legal clearance. The Public Domain Mark is a notice, not a Creative Commons attribution licence. The unidentified original recording and missing European Archive item prevent an independent check of the rights chain."
+    },
+    "creditLine": "Performers and session unidentified. European Archive / Musopen source, via Wikimedia Commons. Commons attributes a public-domain dedication to Musopen; original recording identity and rights chain remain unverified.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Mahler Symphony No.4 in G major 1. Badachtig Nicht ellen (Mahler) European Archive.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No.4_in_G_major_1._Badachtig_Nicht_ellen_(Mahler)_European_Archive.ogg?oldid=808915645",
+      "locator": "File-description wikitext revision 808915645; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M99399573",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M99399573&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 808915645. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AMahler+Symphony+No.4+in+G+major+1.+Badachtig+Nicht+ellen+%28Mahler%29+European+Archive.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Musopen: Symphony No. 4 in G major",
+      "url": "https://musopen.org/music/1089-symphony-no-4-in-g-major/",
+      "locator": "The Commons source names this work page and labels the contributor European Archive. Retrieval returned HTTP 403; no European Archive item identifier, orchestra or conductor was recovered.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

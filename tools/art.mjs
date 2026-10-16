@@ -15,6 +15,14 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const IMG = path.join(ROOT, 'docs/assets/img/art');
 const CACHE = path.join(ROOT, 'content/art.json');
 
+/** Smaller renditions for srcset: <id>-480.webp and <id>-960.webp. */
+export async function derivatives(file) {
+  for (const w of [480, 960]) {
+    const dst = file.replace(/\.webp$/, `-${w}.webp`);
+    await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', file, '-vf', `scale='min(${w},iw)':-2`, '-c:v', 'libwebp', '-quality', '74', dst]);
+  }
+}
+
 const [cmd, ...args] = process.argv.slice(2);
 
 if (cmd === 'search') {
@@ -51,6 +59,7 @@ if (cmd === 'search') {
         '-vf', "scale='min(1280,iw)':-2", '-c:v', 'libwebp', '-quality', '55', '-compression_level', '6', out]);
     }
     await unlink(tmp);
+    await derivatives(out);
     const { stdout } = await run('ffprobe', ['-v', 'error', '-select_streams', 'v:0',
       '-show_entries', 'stream=width,height', '-of', 'csv=p=0', out]);
     const [w, h] = stdout.trim().split(',').map(Number);
@@ -64,12 +73,16 @@ if (cmd === 'search') {
     .filter(([t]) => liveTitles.has(t)).sort(([a], [b]) => a.localeCompare(b)));
   await writeFile(CACHE, JSON.stringify(sorted, null, 1) + '\n');
   // Drop images no longer referenced.
-  const live = new Set([...liveTitles].map((t) => `${artId(t)}.webp`));
+  const live = new Set([...liveTitles].flatMap((t) => [`${artId(t)}.webp`, `${artId(t)}-480.webp`, `${artId(t)}-960.webp`]));
   for (const f of await readdir(IMG)) if (!live.has(f)) await unlink(path.join(IMG, f));
   if (missing.length) {
     console.log(`\nMISSING on Commons:\n  ${missing.join('\n  ')}`);
     process.exitCode = 1;
   }
+} else if (cmd === 'derive') {
+  const files = (await readdir(IMG)).filter((f) => /^[^]+(?<!-480|-960)\.webp$/.test(f));
+  for (const f of files) await derivatives(path.join(IMG, f));
+  console.log(`derived ${files.length} images`);
 } else {
   console.log('usage: node tools/art.mjs search <query> | check <File:...>... | fetch');
 }
