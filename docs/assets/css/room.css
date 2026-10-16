@@ -69,7 +69,7 @@ body.waiting .backdrop img { filter: blur(0) brightness(.5) saturate(.95); trans
 .now-meta { margin: .35rem 0 0; font-size: .92rem; color: var(--muted); }
 
 /* ---------- visualizer ---------- */
-.viz { grid-area: viz; min-height: 0; display: grid; grid-template-rows: minmax(9rem, 1fr) auto; gap: 1rem; }
+.viz { grid-area: viz; min-height: 0; display: grid; grid-template-rows: auto minmax(9rem, 1fr) auto; gap: .8rem; }
 .spectro-frame { position: relative; min-height: 0; border: 1px solid var(--rule); background: rgba(5, 4, 3, .55); box-shadow: inset 0 0 60px rgba(0, 0, 0, .7), 0 30px 60px -30px rgba(0, 0, 0, .9); overflow: hidden; }
 .spectro-frame::before { content: ''; position: absolute; inset: 5px; border: 1px solid rgba(230, 203, 133, .08); pointer-events: none; z-index: 2; }
 .spectro { position: absolute; inset: 0 26px 0 0; width: calc(100% - 26px); height: 100%; display: block; }
@@ -194,7 +194,9 @@ body.waiting .backdrop img { filter: blur(0) brightness(.5) saturate(.95); trans
 /* ---------- small screens: let the page scroll ---------- */
 @media (max-width: 900px) {
   body.room { height: auto; min-height: 100svh; overflow: auto; }
-  .stage { grid-template-columns: 1fr; grid-template-areas: 'now' 'spectro' 'notes' 'wheel'; padding-bottom: 7rem; }
+  .stage { grid-template-columns: 1fr; grid-template-areas: 'now' 'views' 'spectro' 'notes' 'wheel'; padding-bottom: 7rem; }
+  .views { grid-area: views; }
+  .spectro-frame.scored { height: 52svh; }
   .viz { display: contents; }
   .spectro-frame { grid-area: spectro; height: 30svh; }
   .viz-row { grid-area: wheel; }
@@ -216,3 +218,123 @@ body.waiting .backdrop img { filter: blur(0) brightness(.5) saturate(.95); trans
   .cue-now.enter h2, .cue-now.enter p, .cue-now.enter .cue-kind { animation: none; }
   .backdrop img { transition: none; }
 }
+
+/* ==========================================================================
+   The hall, extended: views of the music (score, notes, orchestra, sound),
+   the joins between sections, how-we-know, the recording dossier.
+   ========================================================================== */
+.views { display: flex; gap: .3rem; align-items: center; justify-self: start; padding: .2rem; border: 1px solid var(--rule); border-radius: 999px; background: rgba(13, 11, 9, .5); }
+.views:empty { display: none; }
+.views button { padding: .38rem 1rem .42rem; border-radius: 999px; font: 600 .74rem var(--caps); letter-spacing: .18em; text-transform: lowercase; font-variant: small-caps; color: var(--muted); transition: color .3s, background .3s; }
+.views button:hover { color: var(--ink); }
+.views button[aria-selected='true'] { color: var(--night); background: linear-gradient(180deg, var(--gold-hi), var(--gold)); box-shadow: 0 0 18px -4px rgba(233, 207, 140, .6); }
+
+.view-layer { position: absolute; inset: 0; z-index: 3; display: flex; flex-direction: column; }
+.spectro-frame.scored .spectro, .spectro-frame.scored .keys, .spectro-frame.scored .spectro-axis { visibility: hidden; }
+
+/* -- the engraved score: ivory paper in a gilt frame, inside the dark hall */
+.spectro-frame.paper { background: #1a1611; border-color: rgba(230, 203, 133, .5); box-shadow: inset 0 0 0 5px #0d0b09, inset 0 0 0 6px rgba(230, 203, 133, .28), 0 30px 80px -30px rgba(0, 0, 0, .9); }
+.sheet { flex: 1; min-height: 0; overflow-y: auto; margin: 11px; background: radial-gradient(ellipse at 50% 0%, #fbf5e6, #f1e7d1 70%, #e8dcc1); color: #2a221a; border-radius: 1px; scrollbar-width: thin; scrollbar-color: rgba(120, 90, 40, .4) transparent; cursor: pointer; box-shadow: inset 0 0 40px rgba(120, 90, 40, .18); }
+.sheet svg { display: block; width: 100%; height: auto; }
+.sheet .sheet-page + .sheet-page { border-top: 1px dashed rgba(120, 90, 40, .25); }
+.sheet .sheet-page { position: relative; }
+.sheet .sheet-page > svg { position: relative; }
+.sheet-hl { position: absolute; z-index: 0; pointer-events: none; background: rgba(212, 168, 70, .22); box-shadow: 0 0 0 1px rgba(168, 120, 30, .6), 0 0 18px rgba(212, 168, 70, .35); border-radius: 2px; transition: left .25s var(--ease), top .25s var(--ease), width .25s var(--ease), height .25s var(--ease); }
+.sheet-page > svg { z-index: 1; }
+.sheet .nh, .sheet .rs { transition: fill .2s, color .2s; }
+.sheet .lit, .sheet .lit * { fill: #9b2a17; color: #9b2a17; }
+.sheet-wait { padding: 3rem; text-align: center; font: italic 1.2rem var(--display); color: #7a6a52; }
+.sheet-cap { margin: 0; padding: .45rem 1rem .55rem; font-size: .8rem; line-height: 1.35; color: var(--muted); background: rgba(13, 11, 9, .85); border-top: 1px solid var(--rule); }
+.spectro-frame.paper .sheet-cap { margin: 0 11px 11px; }
+
+/* -- the gold note-roll */
+.roll { flex: 1; min-height: 0; width: 100%; display: block; }
+.voice-legend { display: flex; flex-wrap: wrap; gap: .25rem .4rem; padding: .45rem .8rem .6rem; border-top: 1px solid var(--rule); background: rgba(13, 11, 9, .7); }
+.voice-legend button { display: inline-flex; align-items: center; gap: .4rem; padding: .15rem .55rem; border-radius: 999px; font-size: .82rem; color: var(--ink-2); border: 1px solid transparent; }
+.voice-legend button i { width: .6rem; height: .6rem; border-radius: 50%; box-shadow: 0 0 8px currentColor; }
+.voice-legend button[aria-pressed='false'] { opacity: .35; }
+.voice-legend button:hover { border-color: var(--rule); }
+
+/* -- the orchestra on its stage */
+.stage-svg { flex: 1; min-height: 0; width: 100%; display: block; }
+.stage-svg .sec rect { fill: rgba(233, 207, 140, .05); stroke: rgba(230, 203, 133, .3); transition: fill .3s, stroke .3s; }
+.stage-svg .sec.on rect { fill: rgba(233, 207, 140, .2); stroke: rgba(246, 227, 168, .95); }
+.stage-svg .st-n { font: italic 500 27px var(--display); fill: var(--ink-2); }
+.stage-svg .sec.on .st-n { fill: #fff3cf; }
+.stage-svg .st-p { font: 500 21px var(--text); fill: var(--gold-hi); letter-spacing: .06em; }
+.stage-svg .st-cond { font: 600 12px var(--caps); letter-spacing: .3em; fill: var(--muted); }
+
+/* -- the join: what the composer does between sections */
+.join-card {
+  position: relative; margin: 0 0 1.4rem; padding: 1.1rem 1.2rem 1.15rem 1.3rem;
+  background: linear-gradient(160deg, rgba(60, 46, 22, .5), rgba(20, 17, 13, .7));
+  border: 1px solid rgba(230, 203, 133, .55);
+  box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .6), inset 0 0 0 5px rgba(230, 203, 133, .2), 0 24px 60px -30px rgba(0, 0, 0, .9);
+}
+.join-card::before { content: ''; position: absolute; left: -1px; top: 18%; bottom: 18%; width: 2px; background: linear-gradient(var(--gold-hi), transparent); }
+.join-card.enter { animation: join-in 1s var(--ease) both; }
+@keyframes join-in { from { opacity: 0; transform: translateX(1.5rem); filter: blur(3px); } to { opacity: 1; transform: none; filter: none; } }
+.join-k { display: block; font: 600 .68rem var(--caps); letter-spacing: .18em; text-transform: lowercase; font-variant: small-caps; color: var(--gold-hi); }
+.join-k .arrow { color: var(--accent); }
+.diamond { display: inline-block; color: var(--gold-hi); text-shadow: 0 0 10px rgba(233, 207, 140, .8); font-size: .9em; }
+.join-card h3, .join-item h3 { margin: .45rem 0 .5rem; font: italic 500 1.45rem/1.12 var(--display); color: var(--ink); text-wrap: balance; }
+.join-how { color: var(--ink-2); font-size: 1.02rem; line-height: 1.5; }
+.join-how p { margin: 0 0 .5rem; }
+.join-how i { color: var(--gold-hi); }
+.join-dev { display: flex; flex-wrap: wrap; gap: .3rem; margin: .7rem 0 .2rem; }
+.join-dev span { padding: .12rem .55rem; border: 1px solid rgba(230, 203, 133, .35); border-radius: 999px; font: 600 .62rem var(--caps); letter-spacing: .14em; text-transform: lowercase; font-variant: small-caps; color: var(--ink-2); }
+.join-again { margin-top: .6rem; font: 600 .7rem var(--caps); letter-spacing: .18em; text-transform: lowercase; font-variant: small-caps; color: var(--gold-hi); border-bottom: 1px solid rgba(230, 203, 133, .4) !important; padding: 0 0 .1rem; }
+.join-again::before { content: '↺ '; }
+.join-again:hover { color: #fff3cf; }
+.joins-intro { color: var(--muted); font-style: italic; margin: 0 0 1rem; }
+.join-item { padding: 1rem 0 1.1rem; border-bottom: 1px solid var(--rule); }
+
+/* -- diamonds on the timeline */
+.tl-joins { position: absolute; left: 0; right: 0; top: .95rem; height: 0; z-index: 2; }
+.tl-joins button { position: absolute; translate: -50% -50%; width: 1.1rem; height: 1.1rem; display: grid; place-items: center; font-size: .6rem; line-height: 1; color: var(--gold-hi); text-shadow: 0 0 8px rgba(233, 207, 140, .9); transition: transform .2s; }
+.tl-joins button:hover { transform: scale(1.5); }
+
+/* -- how we know */
+.cue-how { margin-top: .9rem; max-width: 34rem; }
+.cue-how summary { cursor: pointer; list-style: none; display: inline-flex; gap: .4rem; align-items: center; font: 600 .64rem var(--caps); letter-spacing: .2em; text-transform: lowercase; font-variant: small-caps; color: var(--muted); }
+.cue-how summary::-webkit-details-marker { display: none; }
+.cue-how summary::before { content: '§'; font: italic 1rem var(--display); color: var(--gold); letter-spacing: 0; }
+.cue-how summary:hover { color: var(--gold-hi); }
+.cue-how p { margin: .5rem 0 0 !important; font-size: .92rem !important; color: var(--ink-2) !important; line-height: 1.45 !important; }
+
+/* -- the recording dossier */
+.tab-h { margin: 1.6rem 0 .5rem; font: 600 .7rem var(--caps); letter-spacing: .22em; text-transform: lowercase; font-variant: small-caps; color: var(--gold-hi); border-bottom: 1px solid var(--rule); padding-bottom: .35rem; }
+.tab-piece .question { font: italic 500 1.35rem/1.3 var(--display); color: var(--gold-hi); margin: .6rem 0; }
+.dossier > div { border-left: 2px solid rgba(230, 203, 133, .25); padding-left: .7rem; }
+.dossier > div.st-documented { border-left-color: #9fc3c6; }
+.dossier > div.st-inferred { border-left-color: #e6a96b; }
+.dossier > div.st-disputed { border-left-color: #e08c7a; }
+.dossier dd small { display: block; font-size: .8rem; color: var(--muted); margin-top: .1rem; }
+.dossier dd small.alt { color: #e08c7a; font-style: italic; }
+.dossier sup { color: var(--gold); font-size: .7em; }
+.tab-piece .sources { list-style: decimal; padding-left: 1.3rem; font-size: .88rem; }
+.tab-piece .sources li { display: list-item; cursor: auto; border: 0; padding: .15rem 0; color: var(--ink-2); }
+.tab-piece .credit { font-size: .85rem; color: var(--muted) !important; }
+.tab-piece .cite { font-size: .9rem; padding: .7rem .9rem; border: 1px dashed var(--rule); color: var(--ink-2) !important; }
+
+/* -- programme: mark pieces that show the score */
+.p-score { display: inline-block; margin-left: .35rem; padding: 0 .4rem; border: 1px solid rgba(230, 203, 133, .5); border-radius: 999px; font: 600 .56rem/1.5 var(--caps); letter-spacing: .14em; color: var(--gold-hi); vertical-align: .2em; }
+
+/* -- glossary terms inside the hall */
+.cue-now a.term, .join-how a.term, .tab a.term { color: inherit; text-decoration: underline dotted rgba(233, 207, 140, .6); text-underline-offset: .2em; }
+
+@media (max-width: 900px) {
+  .sheet { margin: 7px; }
+  .stage-svg .st-n { font-size: 32px; }
+  .stage-svg .st-p { font-size: 26px; }
+  .tl-joins { top: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .join-card.enter { animation: none; } .sheet-hl { transition: none; } }
+
+/* When the score or orchestra is shown, it is the centre of the hall: the instruments row steps back. */
+.viz:has(.spectro-frame.scored) { grid-template-rows: auto minmax(14rem, 1fr) auto; }
+.viz:has(.spectro-frame.scored) .wheel-wrap { width: clamp(132px, 10vw, 160px); }
+.viz:has(.spectro-frame.scored) .chord-cap { font-size: .5rem; letter-spacing: .12em; }
+.viz:has(.spectro-frame.scored) .oval-r { width: clamp(64px, 5.5vw, 84px); }
+.viz:has(.spectro-frame.scored) .readouts { gap: .5rem 1.4rem; }
+.viz:has(.spectro-frame.scored) .readouts dd { font-size: 1.1rem; }

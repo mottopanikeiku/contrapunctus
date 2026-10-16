@@ -76,7 +76,7 @@ export default {
       to: 'Quicker episode',
       at: { t: 465 },
       span: [451, 482],
-      how: '<p>The minor-key lament draws inward before the little scherzo-like episode changes both mode and motion. C♯ remains the centre, but E♯ restores its major third; short wind and string figures replace the preceding longer phrases and measured bass steps. The quicker surface is not yet the great orchestral climax. Dvořák first builds a lighter, articulated texture, then lets its repetitions gather weight. The shared tonic connects the contrasting characters without requiring a journey through a distant key.</p>',
+      how: '<p>The minor-key lament draws inward before the little scherzo-like episode changes both mode and motion. C♯ remains the centre, but E♯ restores its major third; short wind and string figures replace the preceding longer phrases and measured bass steps. The quicker surface is not yet the great orchestral climax. Dvořák first builds a lighter, articulated texture, then lets its repetitions gather weight. The shared tonic connects the contrasting characters without a modulation to a distant key.</p>',
       devices: ['direct modulation', 'tempo change', 'texture change', 'crescendo build'],
       basis: 'score-proportion',
       precision: 'passage',

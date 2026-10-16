@@ -1,73 +1,78 @@
-// The Listening Room: continuous concert, live analysis of the sound, notes timed to the recording.
-(() => {
+// The Concert Hall: continuous concert, the score and the orchestra as they sound, notes and joins timed to the recording.
+// Mounted by app.js when body.room is present; the audio itself lives in player.js so it survives navigation.
+const SHARP = ['C', 'C♯', 'D', 'D♯', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'A♯', 'B'];
+const FLAT = ['C', 'D♭', 'D', 'E♭', 'E', 'F', 'G♭', 'G', 'A♭', 'A', 'B♭', 'B'];
+const MIXED = ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B'];
+/** Pitch names spelled for the piece's key: flats in flat keys, sharps in sharp keys. */
+function spelling(key = '') {
+  const m = /^([A-G])([♭♯b#]?)\s*(major|minor)?/i.exec(key.trim());
+  if (!m) return MIXED;
+  const pc = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 }[m[1].toUpperCase()] + (/[♭b]/.test(m[2]) ? -1 : /[♯#]/.test(m[2]) ? 1 : 0);
+  const major = /minor/i.test(m[3] ?? '') ? (pc + 3) % 12 : (pc + 12) % 12;   // relative major
+  const fifths = [0, 7, 2, 9, 4, 11, 6, 1, 8, 3, 10, 5].indexOf(major);         // 0 = C, 1 = G … 11 = F
+  if (fifths === 0) return MIXED;
+  if (fifths >= 1 && fifths <= 5) return SHARP;
+  if (fifths === 6) return /[♭b]/.test(m[2]) || /^(E♭|Eb)/.test(key) ? FLAT : SHARP;
+  return FLAT;
+}
+let NAMES = MIXED;
+const FIFTHS = [0, 7, 2, 9, 4, 11, 6, 1, 8, 3, 10, 5];
+const KIND = { music: 'In the music', form: 'The form', listen: 'Listen for', life: 'The life', world: 'The world around it' };
+const GOLDS = ['#e9cf8c', '#9fc3c6', '#e08c7a', '#b7a6d8', '#c9d58a', '#e6a96b', '#8fb3e0', '#d79bb6', '#a8d4b0', '#f0dfa8', '#c7a0e0', '#e4b38a'];
+const VIEW_LABEL = { score: 'Score', notes: 'Notes', orchestra: 'Orchestra', sound: 'Sound' };
+
+export async function mount(app) {
+  const { player, fmt } = app;
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
-  const fmt = (t) => { t = Math.max(0, t || 0); return `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`; };
-  const NAMES = ['C', 'D♭', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B'];
-  const FIFTHS = [0, 7, 2, 9, 4, 11, 6, 1, 8, 3, 10, 5];
-  const KIND = { music: 'In the music', form: 'The form', listen: 'Listen for', life: 'The life', world: 'The world around it' };
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const cleanups = [];
+  const on = (t, ev, f, o) => { t.addEventListener(ev, f, o); cleanups.push(() => t.removeEventListener(ev, f, o)); };
+  let alive = true;
 
-  let P = [];          // programme
-  let idx = 0;         // current track
-  let track = null;
-  let env = null;      // loudness envelope of current track
-  let cueIdx = -1;
-  let sectionIdx = -1;
-  let started = false;
-  let A4 = 440;        // reference pitch of the current recording
-  let advancing = false;
+  const P = await player.getProgramme();
+  let track = null, env = null, score = null, A4 = 440;
+  let cueIdx = -2, sectionIdx = -1, joinIdx = -2, view = 'sound', viewObj = null;
 
-  // ------------------------------------------------------------- audio graph
-  const audio = new Audio();
-  audio.crossOrigin = 'anonymous';
-  audio.preload = 'auto';
-  let ctx = null, analyser = null, freq = null, wave = null;
-  function ensureGraph() {
-    if (ctx) return;
-    ctx = new (window.AudioContext || window.webkitAudioContext)();
-    const src = ctx.createMediaElementSource(audio);
-    analyser = ctx.createAnalyser();
-    analyser.fftSize = 8192;
-    analyser.smoothingTimeConstant = 0.55;
-    analyser.minDecibels = -100;
-    analyser.maxDecibels = -20;
-    src.connect(analyser);
-    analyser.connect(ctx.destination);
-    freq = new Float32Array(analyser.frequencyBinCount);
-    wave = new Float32Array(analyser.fftSize);
-  }
-
-  // ------------------------------------------------------------- UI refs
   const ui = {
     backdrop: $$('.backdrop img'), eraNum: $('.era-num'), eraName: $('.era-name'), given: $('.now-composer .given'), family: $('.now-composer .family'),
     work: $('.now-work .work'), movement: $('.now-work .movement'), meta: $('.now-meta'),
-    cue: $('.cue-now'), kind: $('.cue-kind'), cueTitle: $('.cue-title'), cueText: $('.cue-text'), cueNext: $('.cue-next'), past: $('.cue-past'),
-    tabComposer: $('.tab-composer'), tabPiece: $('.tab-piece'),
-    play: $('.t-play'), cur: $('.t-cur'), dur: $('.t-dur'), timeline: $('.timeline'), tlCanvas: $('.tl-canvas'), tlSections: $('.tl-sections'), head: $('.tl-head'),
+    cue: $('.cue-now'), kind: $('.cue-kind'), cueTitle: $('.cue-title'), cueText: $('.cue-text'), cueHow: $('.cue-how p'), cueNext: $('.cue-next'), past: $('.cue-past'),
+    join: $('.join-card'), tabJoins: $('.tab-joins'), tabComposer: $('.tab-composer'), tabPiece: $('.tab-piece'),
+    play: $('.t-play'), cur: $('.t-cur'), dur: $('.t-dur'), timeline: $('.timeline'), tlCanvas: $('.tl-canvas'), tlSections: $('.tl-sections'), tlJoins: $('.tl-joins'), head: $('.tl-head'),
     progBtn: $('.t-prog'), prog: $('.programme'), curtain: $('.curtain'), interlude: $('.interlude'),
-    cameo: $('.oval-r img'), cameoCap: $('.cameo-r figcaption'), chord: $('.chord'), bass: $('.ro-bass'), top: $('.ro-top'),
+    cameo: $('.oval-r img'), cameoCap: $('.cameo-r figcaption'), chord: $('.chord'), chordCap: $('.chord-cap'), bass: $('.ro-bass'), bassLabel: $('.ro-bass-label'), top: $('.ro-top'), topLabel: $('.ro-top-label'),
     loud: $('.meter:not(.bright) span'), bright: $('.meter.bright span'), axis: $('.spectro-axis'), spectro: $('.spectro'), wheel: $('.wheel'),
+    frame: $('.spectro-frame'), layer: $('.view-layer'), views: $('.views'), label: $('.spectro-label'),
   };
   let backdropFront = 0;
 
-  // ------------------------------------------------------------- load a track
-  async function load(i, { autoplay = true } = {}) {
-    idx = (i + P.length) % P.length;
-    track = P[idx];
-    cueIdx = -1; sectionIdx = -1; env = null;
-    A4 = track.tuning || 440;
-    const t = track, c = t.composer;
-    document.body.style.setProperty('--accent', t.era?.accent ?? '#c9a65a');
-    history.replaceState(null, '', `#${t.id}`);
-    document.title = `${c.name} — ${t.work} · The Listening Room`;
+  // ================================================================= track display
+  // Per-piece detail (notes, joins, dossier, biography) is fetched when the piece is shown, then kept.
+  const detail = (t) => (t._detail ??= fetch(new URL(`assets/hall/${t.id}.json?v=${document.documentElement.dataset.prog ?? ''}`, app.root)).then((r) => r.json()).then((d) => {
+    const { composer, ...rest } = d;
+    Object.assign(t, rest);
+    Object.assign(t.composer, composer);
+    return t;
+  }));
 
-    // backdrop crossfade when the period's painting changes
+  async function show(t) {
+    await detail(t);
+    if (player.track !== t) return;
+    track = t;
+    cueIdx = -2; sectionIdx = -1; joinIdx = -2; env = null; score = null;
+    A4 = t.tuning || 440;
+    NAMES = spelling(t.key);
+    const c = t.composer;
+    document.body.style.setProperty('--accent', t.era?.accent ?? '#c9a65a');
+    history.replaceState(history.state, '', `#${t.id}`);
+    document.title = `${c.name} — ${t.work} · The Concert Hall`;
     if (t.era?.hero) {
       const front = ui.backdrop[backdropFront];
-      if (!front.src.endsWith(t.era.hero)) {
+      const src = new URL(t.era.hero, app.root).href;
+      if (front.src !== src) {
         const back = ui.backdrop[1 - backdropFront];
-        back.src = t.era.hero;
+        back.src = src;
         back.onload = () => { back.classList.add('on'); front.classList.remove('on'); backdropFront = 1 - backdropFront; };
       }
     }
@@ -77,77 +82,351 @@
     ui.family.textContent = c.family ?? c.name;
     ui.work.textContent = t.work;
     ui.movement.textContent = t.movement;
-    ui.meta.textContent = [t.year, t.key, t.forces, t.performers, A4 !== 440 ? `pitch A = ${A4} Hz (the visualizer listens at this pitch)` : ''].filter(Boolean).join(' · ');
-    ui.cameo.src = c.portrait ?? '';
+    ui.meta.textContent = [t.year, t.key, t.forces, t.performers, A4 !== 440 ? `pitch A ≈ ${A4} Hz${t.tuningStatus === 'inferred' ? ' (inferred)' : ''}` : ''].filter(Boolean).join(' · ');
+    ui.cameo.src = c.portrait ? new URL(c.portrait, app.root).href : '';
     ui.cameo.style.objectPosition = c.focus;
     ui.cameo.alt = c.name;
     ui.cameoCap.textContent = c.dates;
-    renderComposerTab(); renderPieceTab();
+    renderComposerTab(); renderPieceTab(); renderJoinsTab();
     ui.past.innerHTML = '';
-    showCue(-1);
-    renderSections();
+    ui.join.hidden = true;
+    renderSections(); renderJoinMarkers();
     $$('.programme li button').forEach((b) => b.classList.toggle('on', b.dataset.id === t.id));
-
-    audio.src = t.stream;
-    audio.load();
     ui.dur.textContent = fmt(t.duration);
-    fetch(`assets/listen/${t.id}.json`).then((r) => r.ok ? r.json() : null).then((j) => { if (track === t) { env = j; drawTimeline(); } }).catch(() => {});
-    if ('mediaSession' in navigator) {
-      navigator.mediaSession.metadata = new MediaMetadata({ title: `${t.work}${t.movement ? ' · ' + t.movement : ''}`, artist: c.name, album: 'The Listening Room — Contrapunctus', artwork: c.portrait ? [{ src: new URL(c.portrait, location.href).href }] : [] });
+    fetch(new URL(`assets/listen/${t.id}.json`, app.root)).then((r) => (r.ok ? r.json() : null)).then((j) => { if (track === t) { env = j; drawTimeline(); } }).catch(() => {});
+    if (t.hasScore) score = await loadScore(t);
+    if (track !== t) return;
+    // views available for this recording
+    const views = [];
+    if (t.hasSheet) views.push('score');
+    if (score) views.push('notes');
+    if (score && score.voices.length >= 6) views.push('orchestra');
+    views.push('sound');
+    ui.views.innerHTML = views.length > 1 ? views.map((v) => `<button role="tab" data-view="${v}">${VIEW_LABEL[v]}</button>`).join('') : '';
+    ui.views.hidden = views.length < 2;
+    setView(views[0]);
+    showCue(cueAt(player.time));
+    tick(true);
+  }
+
+  // ================================================================= views
+  function setView(v) {
+    view = v;
+    $$('button', ui.views).forEach((b) => b.setAttribute('aria-selected', String(b.dataset.view === v)));
+    viewObj?.destroy?.(); viewObj = null;
+    ui.layer.innerHTML = '';
+    ui.layer.hidden = v === 'sound';
+    ui.frame.classList.toggle('paper', v === 'score');
+    ui.frame.classList.toggle('scored', v !== 'sound');
+    ui.label.textContent = v === 'sound' ? 'Pitch over time · each band is an octave of C' : '';
+    ui.chordCap.textContent = score ? 'from the score' : 'heard harmony · estimate';
+    ui.bassLabel.textContent = score ? 'Lowest note' : 'Bass';
+    ui.topLabel.textContent = score ? 'Sounding now' : 'Strongest pitches';
+    if (v === 'score') viewObj = sheetView();
+    else if (v === 'notes') viewObj = rollView();
+    else if (v === 'orchestra') viewObj = orchestraView();
+    if (v === 'sound') requestAnimationFrame(() => { setupSpectro(); setupKeys(); });
+  }
+  on(ui.views, 'click', (e) => { const b = e.target.closest('[data-view]'); if (b) setView(b.dataset.view); });
+
+  // Notes sorted by onset, with the longest duration, so the sounding set is found by binary search.
+  const scores = new Map();
+  function loadScore(t) {
+    if (!scores.has(t.id)) scores.set(t.id, fetch(new URL(`assets/data/${t.id}/score.json`, app.root)).then((r) => r.json()).then((sc) => {
+      sc.notes.sort((a, b) => a[0] - b[0]);
+      sc.onsets = Float64Array.from(sc.notes, (n) => n[0]);
+      sc.maxDur = sc.notes.reduce((m, n) => Math.max(m, n[1]), 0);
+      sc.lo = Math.min(...sc.notes.map((n) => n[2])); sc.hi = Math.max(...sc.notes.map((n) => n[2]));
+      return sc;
+    }).catch(() => null));
+    return scores.get(t.id);
+  }
+  const firstOnset = (x) => { const a = score.onsets; let lo = 0, hi = a.length; while (lo < hi) { const m = (lo + hi) >> 1; if (a[m] < x) lo = m + 1; else hi = m; } return lo; };
+  /** Notes overlapping [t0, t1]. */
+  function notesIn(t0, t1) {
+    const out = [];
+    for (let i = firstOnset(t0 - score.maxDur); i < score.notes.length; i++) {
+      const n = score.notes[i];
+      if (n[0] > t1) break;
+      if (n[0] + n[1] >= t0) out.push(n);
     }
-    if (autoplay && started) play();
-    drawTimeline();
+    return out;
   }
 
-  function play() {
-    ensureGraph();
-    ctx.resume();
-    return audio.play().then(() => { started = true; ui.curtain.hidden = true; document.body.classList.remove('waiting'); }).catch((e) => {
-      if (e.name === 'NotAllowedError') ui.curtain.hidden = false; document.body.classList.add('waiting');
+  /** Score bar at time t: { i, bar, frac } */
+  function barAt(t) {
+    const bars = score.bars; let lo = 0, hi = bars.length;
+    while (lo < hi) { const m = (lo + hi) >> 1; if (bars[m].t <= t + 0.02) lo = m + 1; else hi = m; }
+    const i = Math.max(0, lo - 1);
+    const nxt = bars[i + 1];
+    return { i, bar: bars[i], frac: nxt ? Math.max(0, Math.min(1, (t - bars[i].t) / (nxt.t - bars[i].t))) : 1 };
+  }
+  const sounding = (t) => (score ? notesIn(t, t).filter((n) => n[0] <= t && n[0] + n[1] > t) : []);
+
+  // ---- engraved sheet music: pages load as they approach view; bar boxes come precomputed in index.json
+  // (tools/sheetpack), so following the music never reads layout from the SVG.
+  function sheetView() {
+    const base = new URL(`assets/data/${track.id}/sheet/`, app.root);
+    const wrap = document.createElement('div');
+    wrap.className = 'sheet';
+    wrap.innerHTML = '<p class="sheet-wait">Opening the score…</p>';
+    const cap = document.createElement('p');
+    cap.className = 'sheet-cap';
+    cap.innerHTML = `The written score${track.scoreSource?.title ? `: ${track.scoreSource.title}` : ''}${track.scoreSource?.edition ? `, ${track.scoreSource.edition}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Touch a bar to hear it.`;
+    ui.layer.append(wrap, cap);
+    const t0 = track;
+    let pack = null, pages = [], current = null, lit = [], userScroll = 0, barLen = 0.25, io = null;
+    const hl = document.createElement('div');
+    hl.className = 'sheet-hl';
+    const heads = new Map();   // bar n → [{ el, pos }] for loaded pages
+
+    async function loadPage(P) {
+      if (P.state) return;
+      P.state = 'loading';
+      const txt = await fetch(new URL(P.src, base)).then((r) => r.text());
+      if (!alive || track !== t0) return;
+      P.el.insertAdjacentHTML('afterbegin', txt);
+      P.state = 'ready';
+      let maxPos = 0;
+      for (const el of P.el.querySelectorAll('[data-bar]')) {
+        const n = el.getAttribute('data-bar'), pos = Number(el.getAttribute('data-pos')) || 0;
+        maxPos = Math.max(maxPos, pos);
+        if (!heads.has(n)) heads.set(n, []);
+        heads.get(n).push({ el, pos });
+      }
+      barLen = Math.max(barLen, [0.5, 0.75, 1, 1.5, 2, 3].find((m) => m > maxPos + 1e-6) ?? maxPos + 0.25);
+      current = null;
+    }
+
+    fetch(new URL('index.json', base)).then((r) => r.json()).then((j) => {
+      if (!alive || track !== t0 || view !== 'score') return;
+      pack = j;
+      wrap.innerHTML = '';
+      pages = j.pages.map((p, i) => {
+        const el = document.createElement('div');
+        el.className = 'sheet-page';
+        el.style.aspectRatio = `${p.w} / ${p.h}`;
+        el.dataset.i = i;
+        wrap.append(el);
+        return { ...p, el, state: null, i };
+      });
+      io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) loadPage(pages[+e.target.dataset.i]); }), { root: wrap, rootMargin: '120% 0px' });
+      pages.forEach((P) => io.observe(P.el));
+      tick(true);
     });
+
+    const onScroll = () => { if (!wrap._auto) userScroll = performance.now(); wrap._auto = false; };
+    wrap.addEventListener('scroll', onScroll, { passive: true });
+    wrap.addEventListener('click', (e) => {
+      if (!pack) return;
+      const pageEl = e.target.closest('.sheet-page'); if (!pageEl) return;
+      const P = pages[+pageEl.dataset.i], r = pageEl.getBoundingClientRect();
+      const x = ((e.clientX - r.left) / r.width) * P.w, y = ((e.clientY - r.top) / r.height) * P.h;
+      let hit = null;
+      for (const [n, boxes] of Object.entries(pack.bars)) for (const [pi, bx, by, bw, bh] of boxes) if (pi === P.i && x >= bx && x <= bx + bw && y >= by && y <= by + bh) hit = n;
+      if (hit == null) return;
+      const cands = score.bars.filter((b) => b.n === hit);
+      if (!cands.length) return;
+      const t = player.time;
+      seek(cands.reduce((a, c) => (Math.abs(c.t - t) < Math.abs(a.t - t) ? c : a)).t);
+      userScroll = 0;
+    });
+
+    return {
+      draw(t) {
+        if (!pack || !score) return;
+        const { bar, frac } = barAt(t);
+        if (current !== bar.n) {
+          current = bar.n;
+          const box = pack.bars[bar.n]?.[0];
+          if (box) {
+            const [pi, x, y, w, h] = box, P = pages[pi];
+            if (!P.state) loadPage(P);
+            if (hl.parentNode !== P.el) P.el.append(hl);
+            Object.assign(hl.style, { left: `${(x / P.w) * 100}%`, top: `${(y / P.h) * 100}%`, width: `${(w / P.w) * 100}%`, height: `${(h / P.h) * 100}%`, display: '' });
+            if (performance.now() - userScroll > 3500) {
+              const top = P.el.offsetTop + (y / P.h) * P.el.offsetHeight, bottom = top + (h / P.h) * P.el.offsetHeight;
+              if (top < wrap.scrollTop + 24 || bottom > wrap.scrollTop + wrap.clientHeight - 24) { wrap._auto = true; wrap.scrollTo({ top: Math.max(0, top - wrap.clientHeight * 0.28), behavior: reduced ? 'auto' : 'smooth' }); }
+            }
+          } else hl.style.display = 'none';
+        }
+        const next = (heads.get(bar.n) ?? []).filter((x) => x.pos / barLen <= frac + 0.02).map((x) => x.el);
+        if (next.length !== lit.length || next.some((el, i) => el !== lit[i])) {
+          lit.forEach((el) => el.classList.remove('lit'));
+          lit = next;
+          lit.forEach((el) => el.classList.add('lit'));
+        }
+      },
+      destroy() { io?.disconnect(); },
+    };
   }
 
-  // ------------------------------------------------------------- cues
-  function cueAt(t) {
-    const cs = track.cues; let i = -1;
-    for (let k = 0; k < cs.length; k++) { if (cs[k].t <= t + 0.05) i = k; else break; }
-    return i;
+  // ---- gold note-roll (Malinowski-style), from the aligned score
+  function rollView() {
+    const cv = document.createElement('canvas');
+    cv.className = 'roll';
+    const legend = document.createElement('div');
+    legend.className = 'voice-legend';
+    legend.innerHTML = score.voices.map((v, i) => `<button type="button" data-v="${i}" aria-pressed="true"><i style="background:${GOLDS[i % GOLDS.length]}"></i>${v.name}</button>`).join('');
+    ui.layer.append(cv, legend);
+    const muted = new Set();
+    legend.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-v]'); if (!b) return;
+      const i = +b.dataset.v;
+      const solo = muted.size === score.voices.length - 1 && !muted.has(i);
+      muted.clear(); if (!solo) score.voices.forEach((_, k) => { if (k !== i) muted.add(k); });
+      $$('[data-v]', legend).forEach((x) => x.setAttribute('aria-pressed', String(!muted.has(+x.dataset.v))));
+    });
+    const g = cv.getContext('2d');
+    const lo = score.lo - 2, hi = score.hi + 2;
+    let W = 0, H = 0;
+    const fit = () => { const dpr = Math.min(2, devicePixelRatio || 1); W = cv.clientWidth; H = cv.clientHeight; cv.width = W * dpr; cv.height = H * dpr; g.setTransform(dpr, 0, 0, dpr, 0, 0); };
+    fit(); const ro = new ResizeObserver(fit); ro.observe(cv);
+    return {
+      draw(t) {
+        if (!W) return;
+        const span = W < 600 ? 9 : 14, t0 = t - span * 0.32, t1 = t0 + span;
+        const X = (s) => ((s - t0) / span) * W;
+        const top = 26, bottom = H - 14;
+        const Y = (m) => bottom - ((m - lo) / (hi - lo)) * (bottom - top);
+        const nh = Math.max(5, Math.min(12, ((bottom - top) / (hi - lo)) * 0.82));
+        g.clearRect(0, 0, W, H);
+        g.font = '500 11px "EB Garamond", serif'; g.textBaseline = 'top';
+        for (const b of score.bars) {
+          if (b.t < t0 - 1 || b.t > t1) continue;
+          const x = X(b.t);
+          g.strokeStyle = 'rgba(230,203,133,.14)'; g.beginPath(); g.moveTo(x, 14); g.lineTo(x, H); g.stroke();
+          g.fillStyle = 'rgba(233,207,140,.55)'; g.fillText(b.occ > 1 ? `${b.n}′` : b.n, x + 3, 4);
+        }
+        for (const [on, d, m, v] of notesIn(t0, t1)) {
+          const active = on <= t && on + d > t, past = on + d <= t, dim = muted.has(v);
+          const x = X(on), w = Math.max(3, (d / span) * W - 1.5), y = Y(m) - nh / 2;
+          const col = GOLDS[v % GOLDS.length];
+          g.globalAlpha = dim ? 0.08 : past ? 0.32 : active ? 1 : 0.62;
+          if (active && !dim) { g.shadowColor = col; g.shadowBlur = 14; }
+          g.fillStyle = col;
+          g.beginPath(); g.roundRect ? g.roundRect(x, y, w, nh, Math.min(4, nh / 2)) : g.rect(x, y, w, nh); g.fill();
+          g.shadowBlur = 0;
+        }
+        g.globalAlpha = 1;
+        const hx = X(t);
+        const grad = g.createLinearGradient(hx - 30, 0, hx, 0); grad.addColorStop(0, 'rgba(233,207,140,0)'); grad.addColorStop(1, 'rgba(233,207,140,.12)');
+        g.fillStyle = grad; g.fillRect(hx - 30, 0, 30, H);
+        g.strokeStyle = '#e9cf8c'; g.lineWidth = 1.5; g.beginPath(); g.moveTo(hx, 0); g.lineTo(hx, H); g.stroke(); g.lineWidth = 1;
+      },
+      destroy() { ro.disconnect(); },
+    };
   }
+
+  // ---- the orchestra on its stage: each section glows when its written part is sounding
+  function orchestraView() {
+    const SEATS = [
+      // [match, x, y, w, h] on a 1000×520 stage seen from the hall; strings in front, winds behind, brass and timpani at the back
+      [/^(violins? i|violin 1|violini? i)$/i, 120, 330, 230, 110], [/^(violins? ii|violin 2|violini? ii)$/i, 250, 215, 200, 95], [/viol(a|e)s?\b/i, 550, 215, 200, 95], [/cell/i, 650, 330, 230, 110], [/bass(es)?\b|contrab/i, 790, 205, 170, 95],
+      [/flute|flauti/i, 330, 120, 150, 70], [/oboe|oboi/i, 520, 120, 150, 70], [/clarinet/i, 330, 45, 150, 66], [/bassoon|fagott/i, 520, 45, 150, 66],
+      [/horn|corni/i, 100, 100, 180, 80], [/trumpet|trombe/i, 700, 45, 150, 66], [/timpani|timp/i, 860, 70, 120, 70], [/trombone/i, 700, 120, 150, 66],
+    ];
+    const vs = score.voices.map((v, i) => {
+      const s = SEATS.find(([re]) => re.test(v.name));
+      return { i, name: v.name, box: s ? s.slice(1) : null };
+    });
+    let free = 0;
+    for (const v of vs) if (!v.box) { v.box = [40 + (free % 4) * 230, 470, 210, 44]; free++; }
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 1000 540');
+    svg.setAttribute('class', 'stage-svg');
+    svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', 'The orchestra on stage; each section lights when its written part is sounding');
+    svg.innerHTML = `<defs><radialGradient id="glow"><stop offset="0" stop-color="#ffe9a8" stop-opacity=".95"/><stop offset=".55" stop-color="#e9cf8c" stop-opacity=".35"/><stop offset="1" stop-color="#e9cf8c" stop-opacity="0"/></radialGradient></defs>
+<path d="M60,470 Q500,560 940,470" fill="none" stroke="rgba(230,203,133,.25)"/><text x="500" y="530" text-anchor="middle" class="st-cond">conductor</text>` +
+      vs.map((v) => `<g class="sec" data-v="${v.i}"><ellipse class="halo" cx="${v.box[0] + v.box[2] / 2}" cy="${v.box[1] + v.box[3] / 2}" rx="${v.box[2] * 0.62}" ry="${v.box[3] * 0.9}" fill="url(#glow)" opacity="0"/><rect x="${v.box[0]}" y="${v.box[1]}" width="${v.box[2]}" height="${v.box[3]}" rx="${v.box[3] / 2}"/><text x="${v.box[0] + v.box[2] / 2}" y="${v.box[1] + v.box[3] / 2 - 4}" text-anchor="middle" class="st-n">${v.name}</text><text x="${v.box[0] + v.box[2] / 2}" y="${v.box[1] + v.box[3] / 2 + 15}" text-anchor="middle" class="st-p"></text></g>`).join('');
+    const cap = document.createElement('p');
+    cap.className = 'sheet-cap';
+    cap.textContent = 'Each section lights while its written part is sounding (from the score, aligned automatically to this recording); the note names show what it plays.';
+    ui.layer.append(svg, cap);
+    const groups = vs.map((v) => ({ g: svg.querySelector(`[data-v="${v.i}"]`), level: 0 }));
+    return {
+      draw(t) {
+        const now = sounding(t);
+        groups.forEach((G, i) => {
+          const mine = now.filter((n) => n[3] === i);
+          const target = mine.length ? Math.min(1, 0.45 + mine.length * 0.18) : 0;
+          G.level += (target - G.level) * (target > G.level ? 0.5 : 0.08);
+          G.g.querySelector('.halo').setAttribute('opacity', G.level.toFixed(2));
+          G.g.classList.toggle('on', mine.length > 0);
+          G.g.querySelector('.st-p').textContent = [...new Set(mine.map((n) => NAMES[n[2] % 12]))].join(' ');
+        });
+      },
+    };
+  }
+
+  // ================================================================= cues and joins
+  const cueAt = (t) => { const cs = track.cues; let i = -1; for (let k = 0; k < cs.length; k++) { if (cs[k].t <= t + 0.05) i = k; else break; } return i; };
   function showCue(i) {
     cueIdx = i;
-    const c = track.cues[Math.max(0, i)] ?? { kind: 'listen', title: track.work, text: track.intro };
+    const c = track.cues[Math.max(0, i)] ?? { kind: 'listen', title: track.question || track.work, text: track.intro, how: '' };
     ui.cue.dataset.kind = c.kind;
     ui.kind.textContent = KIND[c.kind] ?? c.kind;
     ui.cueTitle.textContent = c.title;
     ui.cueText.innerHTML = c.text;
+    ui.cueHow.innerHTML = `${c.how ?? ''} ${escapeHtml(c.evidence ?? '')}${c.precision === 'passage' ? ' This note describes a stretch of music, so it may appear a little before or after what it describes.' : ''}`;
+    $('.cue-how').hidden = !(c.how || c.evidence);
     if (!reduced) { ui.cue.classList.remove('enter'); void ui.cue.offsetWidth; ui.cue.classList.add('enter'); }
-    ui.past.innerHTML = track.cues.slice(0, Math.max(0, i)).reverse().map((p) => `<li data-kind="${p.kind}" data-t="${p.t}"><span class="tm">${fmt(p.t)}</span><div><b>${p.title}</b><span>${p.text}</span></div></li>`).join('');
+    ui.past.innerHTML = track.cues.slice(0, Math.max(0, i)).reverse().map((p) => `<li data-kind="${p.kind}" data-t="${p.t}" tabindex="0"><span class="tm">${fmt(p.t)}</span><div><b>${p.title}</b><span>${p.text}</span></div></li>`).join('');
   }
-  ui.past.addEventListener('click', (e) => { const li = e.target.closest('li'); if (li) seek(+li.dataset.t); });
+  on(ui.past, 'click', (e) => { const li = e.target.closest('li'); if (li) seek(+li.dataset.t); });
+
+  const joinAt = (t) => track.transitions.findIndex((j) => t >= j.at - 7 && t <= Math.max(j.at + 9, j.span[1]));
+  function showJoin(i) {
+    joinIdx = i;
+    if (i < 0) { ui.join.hidden = true; return; }
+    const j = track.transitions[i];
+    ui.join.innerHTML = `<span class="join-k"><span class="diamond">◆</span> The join · ${escapeHtml(j.from)} <span class="arrow">→</span> ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span>
+<h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div>
+<div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div>
+<button type="button" class="join-again" data-span="${j.span[0]}">Hear the join again</button>`;
+    ui.join.hidden = false;
+    if (!reduced) { ui.join.classList.remove('enter'); void ui.join.offsetWidth; ui.join.classList.add('enter'); }
+  }
+  on(ui.join, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
+
+  function renderJoinsTab() {
+    const js = track.transitions;
+    ui.tabJoins.innerHTML = js.length ? `<p class="joins-intro">How ${escapeHtml(track.composer.family ?? track.composer.name)} gets from one section to the next. Each join appears in <em>As it plays</em> when the music reaches it.</p>` + js.map((j) => `<article class="join-item"><span class="join-k"><span class="diamond">◆</span> ${fmt(j.at)} · ${escapeHtml(j.from)} → ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span><h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div><div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div><button type="button" class="join-again" data-span="${j.span[0]}">Hear this join</button></article>`).join('')
+      : '<p class="joins-intro">This piece runs as one continuous span; there are no section joins to dissect.</p>';
+  }
+  on(ui.tabJoins, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
 
   function renderComposerTab() {
     const c = track.composer;
-    ui.tabComposer.innerHTML = `<div class="bio-head">${c.portrait ? `<img src="${c.portrait}" alt="" style="object-position:${c.focus}">` : '<span></span>'}<div><h3>${c.name}</h3><span class="dates">${c.dates}</span></div></div>
+    const portrait = c.portrait ? new URL(c.portrait, app.root).href : '';
+    ui.tabComposer.innerHTML = `<div class="bio-head">${portrait ? `<img src="${portrait}" alt="" style="object-position:${c.focus}">` : '<span></span>'}<div><h3>${c.name}</h3><span class="dates">${c.dates}</span></div></div>
 <p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>— ${c.quote.source}</small></blockquote>` : ''}${c.background}
 <dl><div><dt>Born</dt><dd>${c.born}</dd></div>${c.died ? `<div><dt>Died</dt><dd>${c.died}</dd></div>` : ''}${c.facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
-<a class="more-link" href="composers/${c.slug}.html">The full portrait: life, scores, paintings →</a>`;
+<a class="more-link" href="${new URL(`composers/${c.slug}.html`, app.root).href}">The full portrait: life, scores, paintings →</a>`;
   }
   function renderPieceTab() {
-    const t = track;
+    const t = track, d = t.dossier;
+    const dossier = d ? `<dl class="dossier">${d.fields.map((f) => `<div class="st-${f.status.replace(' ', '-')}"><dt>${f.label}</dt><dd>${escapeHtml(f.value || '—')}${f.src.length ? ` <sup>${f.src.join(',')}</sup>` : ''}<small>${f.statusText}${f.note ? ` — ${escapeHtml(f.note)}` : ''}</small>${f.alts.map((a) => `<small class="alt">or: ${escapeHtml(a)}</small>`).join('')}</dd></div>`).join('')}</dl>
+<p class="credit">${escapeHtml(d.credit)}${d.licenseUrl ? ` · <a href="${d.licenseUrl}" target="_blank" rel="noopener">licence</a>` : ''}</p>
+<ol class="sources">${d.sources.map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a>${s.locator ? ` — ${escapeHtml(s.locator)}` : ''}</li>`).join('')}</ol>`
+      : `<dl class="dossier"><div><dt>Performers</dt><dd>${escapeHtml(t.performers)}</dd></div><div><dt>Recording</dt><dd><a href="${t.sourcePage}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${escapeHtml(t.license)}</dd></div></dl>`;
+    const cite = `${t.composer.name}, <i>${escapeHtml(t.work)}</i>${t.movement ? `, ${escapeHtml(t.movement)}` : ''}. ${escapeHtml(t.performers)}. Audio: <a href="${t.sourcePage}" target="_blank" rel="noopener">Wikimedia Commons</a>. Notes: Contrapunctus, ${location.href.split('#')[0]}#${t.id}.`;
     ui.tabPiece.innerHTML = `<h3>${t.work}${t.movement ? `<br><small style="font-style:italic;font-size:.75em">${t.movement}</small>` : ''}</h3>
-<p class="intro">${t.intro}</p>
-<dl>${t.year ? `<div><dt>Composed</dt><dd>${t.year}</dd></div>` : ''}${t.key ? `<div><dt>Key</dt><dd>${t.key}</dd></div>` : ''}<div><dt>Forces</dt><dd>${t.forces}</dd></div><div><dt>Performers</dt><dd>${t.performers}${t.recorded ? `, ${t.recorded}` : ''}</dd></div><div><dt>Recording</dt><dd><a href="${t.sourcePage}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${t.license}</dd></div></dl>
-<dt style="font:600 .66rem var(--caps);letter-spacing:.2em;color:var(--accent);font-variant:small-caps">Form</dt><ol class="sec-list">${t.sections.map((s) => `<li data-t="${s.t}"><span>${fmt(s.t)}</span><span>${s.label}</span></li>`).join('')}</ol>
-<dt style="font:600 .66rem var(--caps);letter-spacing:.2em;color:var(--accent);font-variant:small-caps">Every note in this recording</dt><ol class="cue-list">${t.cues.map((c) => `<li data-t="${c.t}" data-kind="${c.kind}"><span>${fmt(c.t)}</span><span>${c.title}</span></li>`).join('')}</ol>`;
+${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class="intro">${t.intro}</p>
+<dl>${t.year ? `<div><dt>Composed</dt><dd>${t.year}</dd></div>` : ''}${t.key ? `<div><dt>Key</dt><dd>${t.key}</dd></div>` : ''}<div><dt>Forces</dt><dd>${t.forces}</dd></div></dl>
+<h4 class="tab-h">The recording</h4>${dossier}
+<h4 class="tab-h">Form</h4><ol class="sec-list">${t.sections.map((s) => `<li data-t="${s.t}"><span>${fmt(s.t)}</span><span>${s.label}</span></li>`).join('')}</ol>
+<h4 class="tab-h">All listening notes</h4><ol class="cue-list">${t.cues.map((c) => `<li data-t="${c.t}" data-kind="${c.kind}"><span>${fmt(c.t)}</span><span>${c.title}</span></li>`).join('')}</ol>
+<h4 class="tab-h">How to cite</h4><p class="cite">${cite}</p>`;
   }
-  ui.tabPiece.addEventListener('click', (e) => { const li = e.target.closest('li[data-t]'); if (li) seek(+li.dataset.t); });
-
-  $$('.tabs button').forEach((b) => b.addEventListener('click', () => {
+  on(ui.tabPiece, 'click', (e) => { const li = e.target.closest('li[data-t]'); if (li) seek(+li.dataset.t); });
+  $$('.tabs button').forEach((b) => on(b, 'click', () => {
     $$('.tabs button').forEach((x) => x.setAttribute('aria-selected', String(x === b)));
     $$('.tab').forEach((p) => { p.hidden = p.dataset.panel !== b.dataset.tab; });
   }));
 
-  // ------------------------------------------------------------- timeline
+  // ================================================================= timeline
   function renderSections() {
     const d = track.duration;
     ui.tlSections.innerHTML = track.sections.map((s, i) => {
@@ -155,24 +434,27 @@
       return `<span style="left:${(s.t / d) * 100}%;width:${((end - s.t) / d) * 100}%" title="${s.label}">${s.label}</span>`;
     }).join('');
   }
+  function renderJoinMarkers() {
+    const d = track.duration;
+    ui.tlJoins.innerHTML = track.transitions.map((j, i) => `<button type="button" style="left:${(j.at / d) * 100}%" data-join="${i}" title="The join: ${escapeHtml(j.title)}" aria-label="Join at ${fmt(j.at)}: ${escapeHtml(j.title)}">◆</button>`).join('');
+  }
+  on(ui.tlJoins, 'pointerdown', (e) => e.stopPropagation());
+  on(ui.tlJoins, 'click', (e) => { const b = e.target.closest('[data-join]'); if (b) seek(track.transitions[+b.dataset.join].span[0]); });
   function drawTimeline() {
     const cv = ui.tlCanvas, dpr = Math.min(2, devicePixelRatio || 1);
     const w = cv.clientWidth, h = cv.clientHeight;
-    if (!w) return;
+    if (!w || !track) return;
     if (cv.width !== w * dpr) { cv.width = w * dpr; cv.height = h * dpr; }
     const g = cv.getContext('2d');
     g.setTransform(dpr, 0, 0, dpr, 0, 0);
     g.clearRect(0, 0, w, h);
-    const d = track?.duration || 1;
-    const now = audio.currentTime || 0;
-    const mid = h * 0.55;
+    const d = track.duration || 1, now = player.time, mid = h * 0.55;
     if (env?.env?.length) {
       const n = env.env.length;
       for (let x = 0; x < w; x++) {
         const k = Math.min(n - 1, Math.floor((x / w) * n));
         const v = env.env[k] ** 1.6;
-        const played = (x / w) * d <= now;
-        g.fillStyle = played ? 'rgba(233,207,140,.85)' : 'rgba(233,207,140,.22)';
+        g.fillStyle = (x / w) * d <= now ? 'rgba(233,207,140,.85)' : 'rgba(233,207,140,.22)';
         const a = v * mid * 0.95;
         g.fillRect(x, mid - a, 1, a * 1.55);
       }
@@ -180,10 +462,9 @@
       g.fillStyle = 'rgba(233,207,140,.2)'; g.fillRect(0, mid, w, 1);
       g.fillStyle = 'rgba(233,207,140,.8)'; g.fillRect(0, mid, (now / d) * w, 1);
     }
-    for (const c of track?.cues ?? []) {
-      const x = (c.t / d) * w;
+    for (const c of track.cues) {
       g.fillStyle = getComputedStyle(document.body).getPropertyValue(`--k-${c.kind}`) || '#e9cf8c';
-      g.beginPath(); g.arc(Math.max(2, x), h - 2.5, 2, 0, Math.PI * 2); g.fill();
+      g.beginPath(); g.arc(Math.max(2, (c.t / d) * w), h - 2.5, 2, 0, Math.PI * 2); g.fill();
     }
     ui.head.style.left = `${(now / d) * 100}%`;
     ui.timeline.setAttribute('aria-valuemax', String(Math.round(d)));
@@ -191,81 +472,99 @@
     ui.timeline.setAttribute('aria-valuetext', `${fmt(now)} of ${fmt(d)}`);
   }
   function seek(t) {
-    audio.currentTime = Math.max(0, Math.min(track.duration - 0.5, t));
-    if (!started) play();
+    player.seek(t);
+    if (!player.playing) begin();
     tick(true);
   }
   let dragging = false;
   const posToTime = (e) => { const r = ui.timeline.getBoundingClientRect(); return ((e.clientX - r.left) / r.width) * track.duration; };
-  ui.timeline.addEventListener('pointerdown', (e) => { dragging = true; ui.timeline.setPointerCapture(e.pointerId); seek(posToTime(e)); });
-  ui.timeline.addEventListener('pointermove', (e) => { if (dragging) seek(posToTime(e)); });
-  ui.timeline.addEventListener('pointerup', () => { dragging = false; });
-  ui.timeline.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight') seek(audio.currentTime + 10); if (e.key === 'ArrowLeft') seek(audio.currentTime - 10); });
+  on(ui.timeline, 'pointerdown', (e) => { dragging = true; ui.timeline.setPointerCapture(e.pointerId); seek(posToTime(e)); });
+  on(ui.timeline, 'pointermove', (e) => { if (dragging) seek(posToTime(e)); });
+  on(ui.timeline, 'pointerup', () => { dragging = false; });
+  on(ui.timeline, 'keydown', (e) => { if (e.key === 'ArrowRight') { e.preventDefault(); seek(player.time + 10); } if (e.key === 'ArrowLeft') { e.preventDefault(); seek(player.time - 10); } });
 
-  // ------------------------------------------------------------- transport
-  ui.play.addEventListener('click', () => { if (audio.paused) play(); else audio.pause(); });
-  $('.t-next').addEventListener('click', () => next());
-  $('.t-prev').addEventListener('click', () => (audio.currentTime > 5 ? seek(0) : load(idx - 1)));
-  audio.addEventListener('play', () => { ui.play.textContent = '❚❚'; ui.play.setAttribute('aria-label', 'Pause'); });
-  audio.addEventListener('pause', () => { ui.play.textContent = '▶'; ui.play.setAttribute('aria-label', 'Play'); });
-  audio.addEventListener('ended', () => next(true));
-  audio.addEventListener('error', () => { if (track && started) { ui.cueText.textContent = 'This recording could not be loaded; moving on.'; setTimeout(() => next(), 2500); } });
-  addEventListener('keydown', (e) => {
-    if (e.target.closest('input, textarea')) return;
+  // ================================================================= transport
+  async function begin() {
+    const ok = await player.play();
+    ui.curtain.hidden = ok;
+    document.body.classList.toggle('waiting', !ok);
+  }
+  const playState = () => { const p = player.playing; ui.play.textContent = p ? '❚❚' : '▶'; ui.play.setAttribute('aria-label', p ? 'Pause' : 'Play'); };
+  on(ui.play, 'click', () => (player.playing ? player.pause() : begin()));
+  on($('.t-next'), 'click', () => player.next());
+  on($('.t-prev'), 'click', () => (player.time > 5 ? seek(0) : player.prev()));
+  on(window, 'keydown', (e) => {
+    if (e.target.closest('input, textarea, button, a, [role="slider"], summary') || document.querySelector('dialog[open]')) return;
     if (e.code === 'Space') { e.preventDefault(); ui.play.click(); }
-    if (e.key === 'n' || e.key === 'N') next();
-    if (e.key === 'p' || e.key === 'P') load(idx - 1);
+    if (e.key === 'n' || e.key === 'N') player.next();
+    if (e.key === 'p' || e.key === 'P') player.prev();
   });
-  if ('mediaSession' in navigator) {
-    navigator.mediaSession.setActionHandler('nexttrack', () => next());
-    navigator.mediaSession.setActionHandler('previoustrack', () => load(idx - 1));
-    navigator.mediaSession.setActionHandler('play', () => play());
-    navigator.mediaSession.setActionHandler('pause', () => audio.pause());
-  }
-
-  function next(withInterlude = false) {
-    if (advancing) return;
-    const n = P[(idx + 1) % P.length];
-    if (!withInterlude || reduced) { load(idx + 1); return; }
-    advancing = true;
-    ui.interlude.style.setProperty('--accent', n.era?.accent ?? '#c9a65a');
-    $('.i-era', ui.interlude).textContent = n.era ? `${n.era.numeral} · ${n.era.name}` : '';
-    $('.i-name', ui.interlude).textContent = n.composer.name;
-    $('.i-work', ui.interlude).textContent = `${n.work}${n.movement ? ' · ' + n.movement : ''}`;
-    ui.interlude.hidden = false;
-    setTimeout(() => { load(idx + 1); }, 1600);
-    setTimeout(() => { ui.interlude.hidden = true; advancing = false; }, 4200);
-  }
-
-  // programme drawer
-  ui.progBtn.addEventListener('click', () => { ui.prog.hidden = !ui.prog.hidden; ui.progBtn.setAttribute('aria-expanded', String(!ui.prog.hidden)); });
-  $('.prog-close').addEventListener('click', () => { ui.prog.hidden = true; });
-  ui.prog.addEventListener('click', (e) => {
+  on(ui.progBtn, 'click', () => { ui.prog.hidden = !ui.prog.hidden; ui.progBtn.setAttribute('aria-expanded', String(!ui.prog.hidden)); });
+  on($('.prog-close'), 'click', () => { ui.prog.hidden = true; });
+  on(ui.prog, 'click', async (e) => {
     const b = e.target.closest('button[data-id]'); if (!b) return;
-    load(P.findIndex((t) => t.id === b.dataset.id));
     ui.prog.hidden = true;
-    if (!started) play();
+    await player.load(b.dataset.id, { play: true });
   });
-  $('.begin').addEventListener('click', () => play());
-  ui.curtain.addEventListener('click', (e) => { if (e.target === ui.curtain) play(); });
+  on($('.begin'), 'click', () => begin());
+  on(ui.curtain, 'click', (e) => { if (e.target === ui.curtain) begin(); });
+  on(window, 'hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id && id !== track?.id) player.load(id, { play: true }); });
 
-  // ------------------------------------------------------------- per-frame update
+  const offs = [
+    player.on('play', playState), player.on('pause', playState),
+    player.on('track', (t) => show(t)),
+    player.on('blocked', (b) => { ui.curtain.hidden = !b; document.body.classList.toggle('waiting', b); }),
+    player.on('advance', ({ to, interlude }) => {
+      if (!interlude || reduced || !to) return;
+      ui.interlude.style.setProperty('--accent', to.era?.accent ?? '#c9a65a');
+      $('.i-era', ui.interlude).textContent = to.era ? `${to.era.numeral} · ${to.era.name}` : '';
+      $('.i-name', ui.interlude).textContent = to.composer.name;
+      $('.i-work', ui.interlude).textContent = `${to.work}${to.movement ? ' · ' + to.movement : ''}`;
+      ui.interlude.hidden = false;
+      setTimeout(() => { ui.interlude.hidden = true; }, 3400);
+    }),
+    player.on('seek', () => tick(true)),
+  ];
+  cleanups.push(() => offs.forEach((f) => f()));
+
+  // ================================================================= per-frame update
   let lastTl = 0;
   function tick(force = false) {
     if (!track) return;
-    const t = audio.currentTime || 0;
+    const t = player.time;
     ui.cur.textContent = fmt(t);
     const i = cueAt(t);
     if (i !== cueIdx) showCue(i);
+    const j = joinAt(t);
+    if (j !== joinIdx) showJoin(j);
     const nextCue = track.cues[i + 1];
-    ui.cueNext.textContent = nextCue && !audio.paused ? `next note in ${fmt(nextCue.t - t)}` : '';
+    ui.cueNext.textContent = nextCue && player.playing ? `next note in ${fmt(nextCue.t - t)}` : '';
     let s = -1; track.sections.forEach((x, k) => { if (x.t <= t + 0.05) s = k; });
     if (s !== sectionIdx) { sectionIdx = s; $$('span', ui.tlSections).forEach((el, k) => el.classList.toggle('on', k === s)); }
     const now = performance.now();
     if (force || now - lastTl > 120) { drawTimeline(); lastTl = now; }
+    viewObj?.draw?.(t);
+    if (score) scoreReadouts(t);
   }
 
-  // ------------------------------------------------------------- spectrogram
+  // ---- readouts from the written score (accurate where the score is aligned)
+  let lastScoreRead = 0;
+  function scoreReadouts(t) {
+    const nowMs = performance.now();
+    if (nowMs - lastScoreRead < 90) return;
+    lastScoreRead = nowMs;
+    const notes = sounding(t);
+    for (let p = 0; p < 12; p++) chroma[p] *= 0.5;
+    for (const n of notes) chroma[n[2] % 12] = Math.min(1, chroma[n[2] % 12] + 0.6);
+    const low = notes.reduce((a, n) => (a == null || n[2] < a ? n[2] : a), null);
+    ui.bass.innerHTML = low == null ? '—' : `${NAMES[low % 12]}<small style="font-size:.6em;opacity:.6">${Math.floor(low / 12) - 1}</small>`;
+    ui.top.textContent = notes.length ? [...new Set(notes.map((n) => NAMES[n[2] % 12]))].slice(0, 5).join(' · ') : '—';
+    const ch = (score.chords ?? []).find((c) => c.t0 <= t && c.t1 > t);
+    ui.chord.textContent = ch ? ch.label : '—';
+    chordTones = [...new Set(notes.map((n) => n[2] % 12))];
+  }
+
+  // ================================================================= spectrogram, keyboard, wheel (the live visualizer)
   const LUT = (() => {
     const stops = [[0, [6, 5, 4, 0]], [0.18, [40, 12, 10, 120]], [0.38, [120, 32, 22, 210]], [0.58, [181, 78, 38, 240]], [0.76, [214, 170, 92, 255]], [0.9, [240, 220, 165, 255]], [1, [255, 250, 235, 255]]];
     const lut = new Uint8ClampedArray(256 * 4);
@@ -276,41 +575,40 @@
     }
     return lut;
   })();
-  const FMIN = 32.703, OCT = 8; // C1 .. C9
-  let sg = null, rows = null, colImg = null, sgW = 0, sgH = 0, dprS = 1;
+  const OCT = 8;
+  let sg = null, rows = null, colImg = null, sgW = 0, sgH = 0, dprS = 1, rowsA4 = 0;
+  let analyser = null, freq = null, wave = null;
+  function ensureAnalyser() {
+    if (analyser) return true;
+    try { const g = player.graph(); analyser = g.analyser; freq = new Float32Array(analyser.frequencyBinCount); wave = new Float32Array(analyser.fftSize); return true; } catch { return false; }
+  }
   function setupSpectro() {
     const cv = ui.spectro; dprS = Math.min(1.5, devicePixelRatio || 1);
     sgW = Math.round(cv.clientWidth * dprS); sgH = Math.round(cv.clientHeight * dprS);
     if (!sgW || !sgH) return;
     cv.width = sgW; cv.height = sgH;
-    sg = cv.getContext('2d', { willReadFrequently: false });
+    sg = cv.getContext('2d');
     sg.fillStyle = '#060504'; sg.fillRect(0, 0, sgW, sgH);
     colImg = sg.createImageData(3, sgH);
     rows = null;
-    ui.axis.innerHTML = [1, 2, 3, 4, 5, 6, 7, 8].map((o) => { const y = (1 - o / OCT) * 100 + (0 / OCT); return `<span style="top:${(1 - (o - 1 + 0) / OCT) * 100 - (100 / OCT) * 0}%"><b>C${o}</b></span>`; }).join('');
-    // position labels precisely
-    $$('span', ui.axis).forEach((el, k) => { const o = k; el.style.top = `${(1 - o / OCT) * 100}%`; });
+    ui.axis.innerHTML = Array.from({ length: OCT }, (_, o) => `<span style="top:${(1 - o / OCT) * 100}%"><b>C${o + 1}</b></span>`).join('');
   }
   function buildRows() {
-    const sr = ctx.sampleRate, n = analyser.frequencyBinCount, binHz = sr / analyser.fftSize;
-    rows = new Int32Array(sgH * 2);
+    const binHz = analyser.context.sampleRate / analyser.fftSize, n = analyser.frequencyBinCount;
+    const FMIN = A4 * 2 ** ((24 - 69) / 12);   // C1 relative to this recording's pitch
+    rows = new Int32Array(sgH * 2); rowsA4 = A4;
     for (let y = 0; y < sgH; y++) {
       const f0 = FMIN * 2 ** ((1 - (y + 1) / sgH) * OCT), f1 = FMIN * 2 ** ((1 - y / sgH) * OCT);
       const lo = Math.max(1, Math.floor(f0 / binHz)), hi = Math.min(n - 1, Math.max(lo, Math.ceil(f1 / binHz)));
       rows[y * 2] = lo; rows[y * 2 + 1] = hi;
     }
   }
-  // vertical keyboard along the pitch axis: each key glows with the energy at its pitch
   let kb = null, kbW = 0;
-  function setupKeys() {
-    const cv = $('.keys'); if (!cv) return;
-    kbW = Math.round(cv.clientWidth * dprS); cv.width = kbW; cv.height = sgH;
-    kb = cv.getContext('2d');
-  }
+  function setupKeys() { const cv = $('.keys'); if (!cv) return; kbW = Math.round(cv.clientWidth * dprS); cv.width = kbW; cv.height = sgH; kb = cv.getContext('2d'); }
   const BLACK = new Set([1, 3, 6, 8, 10]);
   function drawKeys() {
     if (!kb || !rows) return;
-    const sr = ctx.sampleRate, binHz = sr / analyser.fftSize;
+    const binHz = analyser.context.sampleRate / analyser.fftSize;
     kb.clearRect(0, 0, kbW, sgH);
     const keyH = sgH / (OCT * 12);
     for (let m = 24; m < 24 + OCT * 12; m++) {
@@ -318,17 +616,14 @@
       const lo = Math.max(1, Math.floor((f * 2 ** (-1 / 24)) / binHz)), hi = Math.max(lo, Math.ceil((f * 2 ** (1 / 24)) / binHz));
       let v = -200; for (let k = lo; k <= hi && k < freq.length; k++) if (freq[k] > v) v = freq[k];
       let e = (v + 80) / 45; e = e < 0 ? 0 : e > 1 ? 1 : e;
-      const y = sgH - (m - 24 + 1) * keyH;
-      const black = BLACK.has(m % 12);
-      kb.fillStyle = black ? '#17130f' : '#d8ccb6';
-      const w = black ? kbW * 0.62 : kbW;
-      kb.fillRect(kbW - w, y + 0.5, w, Math.max(1, keyH - 1));
+      const y = sgH - (m - 24 + 1) * keyH, black = BLACK.has(m % 12), w = black ? kbW * 0.62 : kbW;
+      kb.fillStyle = black ? '#17130f' : '#d8ccb6'; kb.fillRect(kbW - w, y + 0.5, w, Math.max(1, keyH - 1));
       if (e > 0.02) { kb.fillStyle = `rgba(246,${200 - e * 70},${110 - e * 60},${e})`; kb.fillRect(kbW - w, y + 0.5, w, Math.max(1, keyH - 1)); }
     }
   }
   function drawSpectro() {
     if (!sg) return;
-    if (!rows) buildRows();
+    if (!rows || rowsA4 !== A4) buildRows();
     const dx = Math.max(2, Math.round(1.6 * dprS));
     if (colImg.width !== dx) colImg = sg.createImageData(dx, sgH);
     sg.drawImage(ui.spectro, -dx, 0);
@@ -343,100 +638,79 @@
     sg.putImageData(colImg, sgW - dx, 0);
   }
 
-  // ------------------------------------------------------------- pitch analysis
+  // live pitch analysis (used when no aligned score exists): triads and sevenths, held for stability
   const chroma = new Float32Array(12);
   const TEMPLATES = [];
   for (let r = 0; r < 12; r++) {
-    TEMPLATES.push({ name: `${NAMES[r]} major`, root: r, tones: [r, (r + 4) % 12, (r + 7) % 12] });
-    TEMPLATES.push({ name: `${NAMES[r]} minor`, root: r, tones: [r, (r + 3) % 12, (r + 7) % 12] });
+    const add = (suf, iv, w = 1) => TEMPLATES.push({ suf, root: r, tones: iv.map((x) => (r + x) % 12), w });
+    add(' major', [0, 4, 7]); add(' minor', [0, 3, 7]); add('7', [0, 4, 7, 10], 0.97); add('maj7', [0, 4, 7, 11], 0.97); add('m7', [0, 3, 7, 10], 0.97); add('°7', [0, 3, 6, 9], 0.95);
   }
   let chordHold = { name: '', n: 0 }, shownChord = '', chordTones = [], lastRead = 0;
   function analyse() {
-    const sr = ctx.sampleRate, binHz = sr / analyser.fftSize, n = freq.length;
-    const raw = new Float32Array(12);
-    const kLo = Math.ceil(80 / binHz), kHi = Math.min(n - 2, Math.floor(4200 / binHz));
-    let maxDb = -200;
-    for (let k = kLo; k <= kHi; k++) if (freq[k] > maxDb) maxDb = freq[k];
-    const floor = Math.max(-85, maxDb - 38);
-    for (let k = kLo; k <= kHi; k++) {
-      const v = freq[k];
-      if (v < floor || v < freq[k - 1] || v < freq[k + 1]) continue;
-      const midi = 69 + 12 * Math.log2((k * binHz) / A4);
-      const pc = ((Math.round(midi) % 12) + 12) % 12;
-      raw[pc] += 10 ** ((v - floor) / 20) - 1;
-    }
-    const mx = Math.max(...raw);
-    for (let p = 0; p < 12; p++) { const v = mx > 0 ? raw[p] / mx : 0; chroma[p] += (v - chroma[p]) * (v > chroma[p] ? 0.35 : 0.08); }
-
-    // readouts at ~8 Hz
+    const binHz = analyser.context.sampleRate / analyser.fftSize, n = freq.length;
     const now = performance.now();
+    analyser.getFloatTimeDomainData(wave);
     if (now - lastRead < 120) return;
     lastRead = now;
-    // loudness (RMS)
-    analyser.getFloatTimeDomainData(wave);
-    let s = 0; for (let i = 0; i < wave.length; i++) s += wave[i] * wave[i];
-    const db = 10 * Math.log10(s / wave.length + 1e-12);
+    let s2 = 0; for (let i = 0; i < wave.length; i++) s2 += wave[i] * wave[i];
+    const db = 10 * Math.log10(s2 / wave.length + 1e-12);
     ui.loud.style.width = `${Math.max(0, Math.min(1, (db + 60) / 50)) * 100}%`;
-    // brightness: spectral centroid 60 Hz–10 kHz
     let num = 0, den = 0;
     for (let k = Math.ceil(60 / binHz); k < Math.min(n, 10000 / binHz); k++) { const m = 10 ** (freq[k] / 20); num += m * k * binHz; den += m; }
     const cent = den ? num / den : 0;
     ui.bright.style.width = `${Math.max(0, Math.min(1, Math.log2(Math.max(1, cent) / 250) / 4)) * 100}%`;
+    if (score) return;   // pitch readouts come from the written score instead
+    const raw = new Float32Array(12);
+    const kLo = Math.ceil(80 / binHz), kHi = Math.min(n - 2, Math.floor(4200 / binHz));
+    let maxDb = -200; for (let k = kLo; k <= kHi; k++) if (freq[k] > maxDb) maxDb = freq[k];
+    const floor = Math.max(-85, maxDb - 38);
+    for (let k = kLo; k <= kHi; k++) {
+      const v = freq[k];
+      if (v < floor || v < freq[k - 1] || v < freq[k + 1]) continue;
+      const pc = ((Math.round(69 + 12 * Math.log2((k * binHz) / A4)) % 12) + 12) % 12;
+      raw[pc] += 10 ** ((v - floor) / 20) - 1;
+    }
+    const mx = Math.max(...raw);
+    for (let p = 0; p < 12; p++) { const v = mx > 0 ? raw[p] / mx : 0; chroma[p] += (v - chroma[p]) * (v > chroma[p] ? 0.35 : 0.12); }
     const silent = db < -58;
-    // bass: lowest spectral peak within 14 dB of the strongest one in 38–260 Hz
     const bLo = Math.ceil(38 / binHz), bHi = Math.floor(260 / binHz);
     let bMax = -200; for (let k = bLo; k <= bHi; k++) if (freq[k] > bMax) bMax = freq[k];
-    let bass = '—', bassMidi = null;
-    if (!silent && bMax > -78) {
-      for (let k = bLo; k <= bHi; k++) {
-        if (freq[k] >= bMax - 14 && freq[k] >= freq[k - 1] && freq[k] >= freq[k + 1]) {
-          const midi = Math.round(69 + 12 * Math.log2((k * binHz) / A4));
-          bassMidi = midi;
-          bass = `${NAMES[((midi % 12) + 12) % 12]}<small style="font-size:.6em;opacity:.6">${Math.floor(midi / 12) - 1}</small>`;
-          break;
-        }
-      }
+    let bass = '—', bassPc = -1;
+    if (!silent && bMax > -78) for (let k = bLo; k <= bHi; k++) if (freq[k] >= bMax - 14 && freq[k] >= freq[k - 1] && freq[k] >= freq[k + 1]) {
+      const midi = Math.round(69 + 12 * Math.log2((k * binHz) / A4));
+      bassPc = ((midi % 12) + 12) % 12;
+      bass = `${NAMES[bassPc]}<small style="font-size:.6em;opacity:.6">${Math.floor(midi / 12) - 1}</small>`;
+      break;
     }
     ui.bass.innerHTML = bass;
-    const bassPc = bassMidi == null ? -1 : ((bassMidi % 12) + 12) % 12;
     const order = [...chroma.keys()].sort((a, b) => chroma[b] - chroma[a]);
     ui.top.textContent = silent ? '—' : order.filter((p) => chroma[p] > 0.55).slice(0, 4).map((p) => NAMES[p]).join(' · ');
-    // chord: best triad template, cosine similarity, held for stability
     let best = null, second = 0;
     const norm = Math.hypot(...chroma) || 1;
     for (const T of TEMPLATES) {
-      let sc = (chroma[T.tones[0]] * 1 + chroma[T.tones[1]] * 0.9 + chroma[T.tones[2]] * 0.8) / (norm * Math.hypot(1, 0.9, 0.8));
-      if (bassPc === T.root) sc += 0.08; else if (T.tones.includes(bassPc)) sc += 0.03; else if (bassPc >= 0) sc -= 0.04;
+      const wts = T.tones.map((_, k) => [1, 0.9, 0.8, 0.75][k]);
+      let sc = T.tones.reduce((a, pc, k) => a + chroma[pc] * wts[k], 0) / (norm * Math.hypot(...wts));
+      sc *= T.w;
+      if (bassPc === T.root) sc += 0.08; else if (T.tones.includes(bassPc)) sc += 0.02; else if (bassPc >= 0) sc -= 0.05;
       if (chroma[T.root] < 0.35) sc -= 0.1;
       if (!best || sc > best.sc) { second = best?.sc ?? 0; best = { ...T, sc }; } else if (sc > second) second = sc;
     }
-    const name = !silent && best && best.sc > 0.72 && best.sc - second > 0.015 ? best.name : '';
+    const name = !silent && best && best.sc > 0.72 && best.sc - second > 0.012 ? `${NAMES[best.root]}${best.suf}` : '';
     if (name === chordHold.name) chordHold.n++; else chordHold = { name, n: 1 };
-    if (chordHold.n >= 3 && name !== shownChord) {
-      shownChord = name; chordTones = name ? best.tones : [];
-      ui.chord.textContent = name || '—';
-    }
+    if (chordHold.n >= 3 && name !== shownChord) { shownChord = name; chordTones = name ? best.tones : []; ui.chord.textContent = name || '—'; }
   }
 
-  // ------------------------------------------------------------- wheel
   let wg = null, wSize = 0;
-  function setupWheel() {
-    const cv = ui.wheel, dpr = Math.min(2, devicePixelRatio || 1);
-    wSize = cv.clientWidth; if (!wSize) return;
-    cv.width = cv.height = Math.round(wSize * dpr);
-    wg = cv.getContext('2d'); wg.setTransform(dpr, 0, 0, dpr, 0, 0);
-  }
+  function setupWheel() { const cv = ui.wheel, dpr = Math.min(2, devicePixelRatio || 1); wSize = cv.clientWidth; if (!wSize) return; cv.width = cv.height = Math.round(wSize * dpr); wg = cv.getContext('2d'); wg.setTransform(dpr, 0, 0, dpr, 0, 0); }
   function drawWheel() {
     if (!wg) return;
     const S = wSize, c = S / 2, r0 = S * 0.22, r1 = S * 0.4, rl = S * 0.465;
     wg.clearRect(0, 0, S, S);
     wg.strokeStyle = 'rgba(230,203,133,.16)'; wg.lineWidth = 1;
     for (const r of [r0, (r0 + r1) / 2, r1]) { wg.beginPath(); wg.arc(c, c, r, 0, Math.PI * 2); wg.stroke(); }
-    const step = (Math.PI * 2) / 12;
-    const pts = [];
+    const step = (Math.PI * 2) / 12, pts = [];
     FIFTHS.forEach((pc, i) => {
-      const a = -Math.PI / 2 + i * step, v = chroma[pc];
-      const r = r0 + (r1 - r0) * v;
+      const a = -Math.PI / 2 + i * step, v = chroma[pc], r = r0 + (r1 - r0) * v;
       const grd = wg.createRadialGradient(c, c, r0, c, c, r1);
       grd.addColorStop(0, `rgba(181,58,42,${0.15 + v * 0.5})`); grd.addColorStop(1, `rgba(233,207,140,${0.2 + v * 0.75})`);
       wg.fillStyle = grd;
@@ -447,45 +721,43 @@
       wg.textAlign = 'center'; wg.textBaseline = 'middle';
       wg.fillStyle = inChord ? '#f6e3a8' : `rgba(239,229,210,${0.35 + v * 0.6})`;
       wg.fillText(NAMES[pc], c + Math.cos(a) * rl, c + Math.sin(a) * rl);
-      if (inChord) { wg.fillStyle = '#f6e3a8'; wg.beginPath(); wg.arc(c + Math.cos(a) * (r1 + S * 0.025), c + Math.sin(a) * (r1 + S * 0.025), 1.8, 0, Math.PI * 2); wg.fill(); }
     });
-    wg.strokeStyle = 'rgba(246,227,168,.55)'; wg.lineWidth = 1;
+    wg.strokeStyle = 'rgba(246,227,168,.55)';
     wg.beginPath(); pts.forEach(([x, y], i) => (i ? wg.lineTo(x, y) : wg.moveTo(x, y))); wg.closePath(); wg.stroke();
   }
 
-  // ------------------------------------------------------------- main loop
+  // ================================================================= main loop
+  let raf = 0;
   function frame() {
-    requestAnimationFrame(frame);
+    if (!alive) return;
+    raf = requestAnimationFrame(frame);
     tick();
-    if (analyser && !audio.paused) {
+    if (player.playing && ensureAnalyser()) {
       analyser.getFloatFrequencyData(freq);
-      drawSpectro();
-      drawKeys();
+      if (view === 'sound') { drawSpectro(); drawKeys(); }
       analyse();
-    } else {
-      for (let p = 0; p < 12; p++) chroma[p] *= 0.96;
-    }
+    } else if (!score) for (let p = 0; p < 12; p++) chroma[p] *= 0.96;
     drawWheel();
   }
+  const onResize = () => { if (view === 'sound') { setupSpectro(); setupKeys(); } setupWheel(); drawTimeline(); };
+  let rt; on(window, 'resize', () => { clearTimeout(rt); rt = setTimeout(onResize, 150); });
 
-  const onResize = () => { setupSpectro(); setupKeys(); setupWheel(); drawTimeline(); };
-  addEventListener('resize', () => { clearTimeout(onResize.t); onResize.t = setTimeout(onResize, 150); });
+  // ================================================================= boot
+  setupSpectro(); setupKeys(); setupWheel();
+  const want = decodeURIComponent(location.hash.slice(1));
+  if (want && want !== player.track?.id && P.some((x) => x.id === want)) await player.load(want);
+  else if (!player.track) await player.load(0);
+  await show(player.track);
+  playState();
+  raf = requestAnimationFrame(frame);
+  // Start the concert if the visitor arrived by clicking (the browser then allows sound); otherwise show the curtain.
+  if (!player.playing) {
+    const ok = await player.play();
+    ui.curtain.hidden = ok;
+    document.body.classList.toggle('waiting', !ok);
+  }
 
-  // ------------------------------------------------------------- boot
-  fetch(window.PROGRAMME_URL).then((r) => r.json()).then(async (prog) => {
-    P = prog;
-    setupSpectro(); setupKeys(); setupWheel();
-    const want = decodeURIComponent(location.hash.slice(1));
-    const start = Math.max(0, P.findIndex((t) => t.id === want));
-    await load(start, { autoplay: false });
-    requestAnimationFrame(frame);
-    // Try to start without a click (allowed for returning visitors in some browsers).
-    ensureGraph();
-    try { await Promise.race([ctx.resume(), new Promise((r) => setTimeout(r, 250))]); } catch {}
-    if (ctx.state === 'running') {
-      audio.play().then(() => { started = true; }).catch(() => { ui.curtain.hidden = false; document.body.classList.add('waiting'); });
-    } else {
-      ui.curtain.hidden = false; document.body.classList.add('waiting');
-    }
-  });
-})();
+  return () => { alive = false; cancelAnimationFrame(raf); viewObj?.destroy?.(); cleanups.forEach((f) => { try { f(); } catch {} }); };
+}
+
+function escapeHtml(s = '') { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }

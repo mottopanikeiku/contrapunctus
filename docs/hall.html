@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" data-site="0dfb4875" data-room="1a956848" data-prog="0ca44ed2">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Concert Hall — Contrapunctus</title>
+<meta name="description" content="A concert from Bach to Bartók: real recordings, the score lighting up as it plays, and notes that explain each piece and every turn it takes.">
+<meta property="og:title" content="The Concert Hall — Contrapunctus">
+<meta property="og:description" content="Real recordings, the score lighting up as it plays, and the music explained as it unfolds.">
+<meta property="og:image" content="https://mottopanikeiku.github.io/contrapunctus/assets/img/art/johannes-vermeer-lady-at-the-virginal-with-a-gentleman-the-music-lesson-google-a.webp"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0d0b09">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Cormorant+SC:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Music&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/room.css?v=671ba4d8">
+<link rel="stylesheet" href="assets/css/shared.css?v=63fbc980">
+<link rel="modulepreload" href="assets/js/player.js?v=befa43f3">
+<script type="module" src="assets/js/app.js?v=e9686c7c"></script>
+</head>
+<body class="room">
+<div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
+<header class="r-top">
+  <a class="r-brand" href="index.html"><span class="glyph">𝄞</span>Contrapunctus</a>
+  <nav class="r-nav"><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
+</header>
+
+<main class="stage">
+  <section class="now" aria-live="polite">
+    <div class="now-era"><span class="era-num"></span><span class="era-name"></span></div>
+    <h1 class="now-composer"><span class="given"></span><span class="family"></span></h1>
+    <p class="now-work"><span class="work"></span><span class="movement"></span></p>
+    <p class="now-meta"></p>
+  </section>
+
+  <section class="viz" aria-label="The music">
+    <div class="views" role="tablist" aria-label="View"></div>
+    <div class="spectro-frame">
+      <canvas class="spectro" aria-hidden="true"></canvas>
+      <canvas class="keys" aria-hidden="true"></canvas>
+      <div class="spectro-axis" aria-hidden="true"></div>
+      <div class="spectro-label">Pitch over time · each band is an octave of C</div>
+      <div class="view-layer" hidden></div>
+    </div>
+    <div class="viz-row">
+      <div class="wheel-wrap">
+        <canvas class="wheel" aria-hidden="true"></canvas>
+        <div class="wheel-centre"><span class="chord">—</span><span class="chord-cap">heard harmony</span></div>
+      </div>
+      <dl class="readouts">
+        <div><dt class="ro-bass-label">Bass</dt><dd class="ro-bass">—</dd></div>
+        <div><dt class="ro-top-label">Strongest pitches</dt><dd class="ro-top">—</dd></div>
+        <div><dt>Loudness</dt><dd><span class="meter"><span></span></span></dd></div>
+        <div><dt>Brightness</dt><dd><span class="meter bright"><span></span></span></dd></div>
+      </dl>
+      <figure class="cameo-r"><span class="oval-r"><img alt=""></span><figcaption></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="notes">
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="live">As it plays</button>
+      <button role="tab" aria-selected="false" data-tab="joins">The joins</button>
+      <button role="tab" aria-selected="false" data-tab="composer">The composer</button>
+      <button role="tab" aria-selected="false" data-tab="piece">This recording</button>
+    </div>
+    <div class="tab tab-live" data-panel="live">
+      <article class="join-card" hidden></article>
+      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><details class="cue-how"><summary>How we know</summary><p></p></details><span class="cue-next"></span></article>
+      <ol class="cue-past"></ol>
+    </div>
+    <div class="tab tab-joins" data-panel="joins" hidden></div>
+    <div class="tab tab-composer" data-panel="composer" hidden></div>
+    <div class="tab tab-piece" data-panel="piece" hidden></div>
+  </section>
+</main>
+
+<footer class="transport">
+  <div class="t-buttons">
+    <button class="t-prev" aria-label="Previous piece">⏮</button>
+    <button class="t-play" aria-label="Play">▶</button>
+    <button class="t-next" aria-label="Next piece">⏭</button>
+  </div>
+  <span class="t-time t-cur">0:00</span>
+  <div class="timeline" tabindex="0" role="slider" aria-label="Position in the piece" aria-valuemin="0">
+    <canvas class="tl-canvas"></canvas>
+    <div class="tl-sections"></div>
+    <div class="tl-joins"></div>
+    <div class="tl-head"></div>
+  </div>
+  <span class="t-time t-dur">0:00</span>
+  <button class="t-prog" aria-expanded="false">Programme</button>
+</footer>
+
+<aside class="programme" hidden>
+  <header><h2>The programme</h2><p>55 pieces, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
+  <section style="--accent:#8a5a24"><h3><span>I</span>The Baroque</h3><ol><li><button data-id="couperin-nations-piemontaise"><span class="p-c">François Couperin</span><span class="p-w">Les Nations · La Piémontaise · Sonade</span><span class="p-d">10:03</span></button></li><li><button data-id="vivaldi-spring-allegro"><span class="p-c">Antonio Vivaldi</span><span class="p-w">The Four Seasons · Spring, RV 269 · I. Allegro</span><span class="p-d">3:35</span></button></li><li><button data-id="rameau-gavotte-six-doubles"><span class="p-c">Jean-Philippe Rameau</span><span class="p-w">Nouvelles Suites de pièces de clavecin · Suite in A minor · Gavotte et six doubles</span><span class="p-d">6:47</span></button></li><li><button data-id="bach-wtc1-fugue-b-minor"><span class="p-c">Johann Sebastian Bach <span class="p-score">score</span></span><span class="p-w">The Well-Tempered Clavier, Book I · BWV 869 · Fugue in B minor</span><span class="p-d">8:02</span></button></li><li><button data-id="bach-brandenburg-5-allegro"><span class="p-c">Johann Sebastian Bach</span><span class="p-w">Brandenburg Concerto No. 5, BWV 1050 · I. Allegro</span><span class="p-d">9:59</span></button></li><li><button data-id="handel-messiah-hallelujah"><span class="p-c">George Frideric Handel</span><span class="p-w">Messiah, HWV 56 · Hallelujah</span><span class="p-d">3:21</span></button></li><li><button data-id="scarlatti-sonata-k119"><span class="p-c">Domenico Scarlatti</span><span class="p-w">Sonata in D major, K. 119 · Allegro</span><span class="p-d">4:43</span></button></li></ol></section><section style="--accent:#3f5f7f"><h3><span>II</span>Classical</h3><ol><li><button data-id="cpe-bach-fantasia-fsharp"><span class="p-c">Carl Philipp Emanuel Bach</span><span class="p-w">Fantasia in F♯ minor, Wq 67</span><span class="p-d">12:33</span></button></li><li><button data-id="haydn-94-andante"><span class="p-c">Joseph Haydn</span><span class="p-w">Symphony No. 94 “Surprise” · II. Andante</span><span class="p-d">7:18</span></button></li><li><button data-id="mozart-40-molto-allegro"><span class="p-c">Wolfgang Amadeus Mozart</span><span class="p-w">Symphony No. 40, K. 550 · I. Molto allegro</span><span class="p-d">5:59</span></button></li><li><button data-id="mozart-clarinet-adagio"><span class="p-c">Wolfgang Amadeus Mozart</span><span class="p-w">Clarinet Concerto in A major, K. 622 · II. Adagio</span><span class="p-d">7:33</span></button></li><li><button data-id="beethoven-5-first"><span class="p-c">Ludwig van Beethoven <span class="p-score">score</span></span><span class="p-w">Symphony No. 5, Op. 67 · I. Allegro con brio</span><span class="p-d">8:20</span></button></li><li><button data-id="beethoven-109-variations"><span class="p-c">Ludwig van Beethoven</span><span class="p-w">Piano Sonata No. 30, Op. 109 · III. Gesangvoll, mit innigster Empfindung</span><span class="p-d">14:04</span></button></li></ol></section><section style="--accent:#4d6b5a"><h3><span>III</span>Romanticism</h3><ol><li><button data-id="schubert-impromptu-gflat"><span class="p-c">Franz Schubert <span class="p-score">score</span></span><span class="p-w">Impromptu in G♭ major, D. 899 No. 3 · Andante</span><span class="p-d">5:58</span></button></li><li><button data-id="berlioz-fantastique-march"><span class="p-c">Hector Berlioz</span><span class="p-w">Symphonie fantastique, Op. 14 · IV. Marche au supplice — Allegretto non troppo</span><span class="p-d">4:48</span></button></li><li><button data-id="mendelssohn-hebrides"><span class="p-c">Felix Mendelssohn</span><span class="p-w">The Hebrides, Op. 26 · Allegro moderato</span><span class="p-d">11:23</span></button></li><li><button data-id="chopin-ballade-1"><span class="p-c">Frédéric Chopin</span><span class="p-w">Ballade No. 1, Op. 23 · Largo — Moderato</span><span class="p-d">10:14</span></button></li><li><button data-id="chopin-nocturne-op27-2"><span class="p-c">Frédéric Chopin</span><span class="p-w">Nocturne in D♭ major, Op. 27 No. 2 · Lento sostenuto</span><span class="p-d">6:18</span></button></li><li><button data-id="schumann-piano-concerto-1"><span class="p-c">Robert Schumann</span><span class="p-w">Piano Concerto in A minor, Op. 54 · I. Allegro affettuoso</span><span class="p-d">14:27</span></button></li><li><button data-id="liszt-hungarian-rhapsody-6"><span class="p-c">Franz Liszt</span><span class="p-w">Hungarian Rhapsody No. 6, S. 244/6</span><span class="p-d">6:23</span></button></li><li><button data-id="verdi-traviata-prelude"><span class="p-c">Giuseppe Verdi</span><span class="p-w">La traviata · Act I · Prelude</span><span class="p-d">3:44</span></button></li><li><button data-id="wagner-tannhauser-overture"><span class="p-c">Richard Wagner</span><span class="p-w">Tannhäuser, WWV 70 · Overture — concert-band arrangement</span><span class="p-d">14:27</span></button></li><li><button data-id="bruckner-7-scherzo"><span class="p-c">Anton Bruckner</span><span class="p-w">Symphony No. 7 in E major, WAB 107 · III. Scherzo — Sehr schnell; Trio — Etwas langsamer</span><span class="p-d">8:55</span></button></li><li><button data-id="brahms-3-poco-allegretto"><span class="p-c">Johannes Brahms</span><span class="p-w">Symphony No. 3 in F major, Op. 90 · III. Poco allegretto</span><span class="p-d">6:10</span></button></li><li><button data-id="brahms-4-finale"><span class="p-c">Johannes Brahms</span><span class="p-w">Symphony No. 4 in E minor, Op. 98 · IV. Allegro energico e passionato</span><span class="p-d">11:08</span></button></li><li><button data-id="mussorgsky-night-bald-mountain"><span class="p-c">Modest Mussorgsky</span><span class="p-w">Night on Bald Mountain · Rimsky-Korsakov’s concert version</span><span class="p-d">12:13</span></button></li><li><button data-id="tchaikovsky-waltz-flowers"><span class="p-c">Pyotr Ilyich Tchaikovsky</span><span class="p-w">The Nutcracker, Op. 71 · Act II, No. 13 · Waltz of the Flowers</span><span class="p-d">7:30</span></button></li><li><button data-id="tchaikovsky-6-finale"><span class="p-c">Pyotr Ilyich Tchaikovsky</span><span class="p-w">Symphony No. 6 in B minor “Pathétique”, Op. 74 · IV. Finale — Adagio lamentoso</span><span class="p-d">10:19</span></button></li><li><button data-id="dvorak-9-largo"><span class="p-c">Antonín Dvořák</span><span class="p-w">Symphony No. 9 in E minor “From the New World”, Op. 95 · II. Largo</span><span class="p-d">11:34</span></button></li><li><button data-id="rimsky-korsakov-scheherazade-prince"><span class="p-c">Nikolai Rimsky-Korsakov</span><span class="p-w">Scheherazade, Op. 35 · III. The Young Prince and the Young Princess</span><span class="p-d">8:16</span></button></li></ol></section><section style="--accent:#9a741f"><h3><span>IV</span>Fin de siècle</h3><ol><li><button data-id="janacek-sonata-death"><span class="p-c">Leoš Janáček</span><span class="p-w">Piano Sonata 1. X. 1905 · II. Smrt (Death) — Adagio</span><span class="p-d">7:36</span></button></li><li><button data-id="elgar-enigma-nimrod"><span class="p-c">Edward Elgar</span><span class="p-w">Variations on an Original Theme “Enigma”, Op. 36 · IX. Nimrod — Adagio</span><span class="p-d">2:54</span></button></li><li><button data-id="puccini-mi-chiamano-mimi"><span class="p-c">Giacomo Puccini</span><span class="p-w">La bohème · Act I · Sì, mi chiamano Mimì</span><span class="p-d">4:01</span></button></li><li><button data-id="mahler-5-adagietto"><span class="p-c">Gustav Mahler</span><span class="p-w">Symphony No. 5 · IV. Adagietto — Sehr langsam</span><span class="p-d">10:21</span></button></li><li><button data-id="mahler-2-urlicht"><span class="p-c">Gustav Mahler</span><span class="p-w">Symphony No. 2 “Resurrection” · IV. Urlicht — Sehr feierlich, aber schlicht</span><span class="p-d">4:59</span></button></li><li><button data-id="mahler-4-bedaechtig"><span class="p-c">Gustav Mahler</span><span class="p-w">Symphony No. 4 · I. Bedächtig. Nicht eilen</span><span class="p-d">15:07</span></button></li><li><button data-id="richard-strauss-till-eulenspiegel"><span class="p-c">Richard Strauss</span><span class="p-w">Till Eulenspiegels lustige Streiche, Op. 28</span><span class="p-d">15:48</span></button></li><li><button data-id="sibelius-valse-triste"><span class="p-c">Jean Sibelius</span><span class="p-w">Valse triste, Op. 44 No. 1</span><span class="p-d">4:22</span></button></li><li><button data-id="scriabin-etude-op8-12"><span class="p-c">Alexander Scriabin</span><span class="p-w">Étude in D♯ minor, Op. 8 No. 12 · Patetico</span><span class="p-d">2:04</span></button></li><li><button data-id="rachmaninoff-concerto-2-moderato"><span class="p-c">Sergei Rachmaninoff</span><span class="p-w">Piano Concerto No. 2, Op. 18 · I. Moderato</span><span class="p-d">11:09</span></button></li><li><button data-id="rachmaninoff-concerto-2-adagio"><span class="p-c">Sergei Rachmaninoff</span><span class="p-w">Piano Concerto No. 2, Op. 18 · II. Adagio sostenuto</span><span class="p-d">11:54</span></button></li><li><button data-id="rachmaninoff-prelude-c-sharp-minor"><span class="p-c">Sergei Rachmaninoff</span><span class="p-w">Prelude in C♯ minor, Op. 3 No. 2</span><span class="p-d">3:48</span></button></li></ol></section><section style="--accent:#2f6670"><h3><span>V</span>The French Line</h3><ol><li><button data-id="faure-requiem-agnus-dei"><span class="p-c">Gabriel Fauré</span><span class="p-w">Requiem, Op. 48 · V. Agnus Dei</span><span class="p-d">5:49</span></button></li><li><button data-id="debussy-la-mer-dawn"><span class="p-c">Claude Debussy</span><span class="p-w">La Mer · I. De l’aube à midi sur la mer</span><span class="p-d">9:20</span></button></li><li><button data-id="debussy-cathedrale-engloutie"><span class="p-c">Claude Debussy</span><span class="p-w">Préludes, Book I · X. La cathédrale engloutie</span><span class="p-d">5:40</span></button></li><li><button data-id="satie-gymnopedie-1"><span class="p-c">Erik Satie <span class="p-score">score</span></span><span class="p-w">Trois Gymnopédies · I. Lent et douloureux</span><span class="p-d">3:04</span></button></li><li><button data-id="ravel-bolero"><span class="p-c">Maurice Ravel</span><span class="p-w">Boléro</span><span class="p-d">13:26</span></button></li><li><button data-id="ravel-pavane"><span class="p-c">Maurice Ravel</span><span class="p-w">Pavane pour une infante défunte</span><span class="p-d">5:08</span></button></li><li><button data-id="ravel-quartet-scherzo"><span class="p-c">Maurice Ravel</span><span class="p-w">String Quartet in F major · II. Assez vif — Très rythmé</span><span class="p-d">5:50</span></button></li></ol></section><section style="--accent:#b0341f"><h3><span>VI</span>Modernism</h3><ol><li><button data-id="ives-concord-alcotts"><span class="p-c">Charles Ives</span><span class="p-w">Piano Sonata No. 2 “Concord, Mass., 1840–60” · III. The Alcotts</span><span class="p-d">5:47</span></button></li><li><button data-id="schoenberg-quartet-2-entrueckung"><span class="p-c">Arnold Schoenberg</span><span class="p-w">String Quartet No. 2, Op. 10 · IV. Entrückung — Sehr langsam</span><span class="p-d">10:28</span></button></li><li><button data-id="bartok-quartet-2-allegro"><span class="p-c">Béla Bartók</span><span class="p-w">String Quartet No. 2, Op. 17 · II. Allegro molto capriccioso</span><span class="p-d">7:33</span></button></li><li><button data-id="stravinsky-firebird-infernal-dance"><span class="p-c">Igor Stravinsky</span><span class="p-w">The Firebird · Infernal Dance of Kashchei</span><span class="p-d">4:16</span></button></li><li><button data-id="prokofiev-toccata"><span class="p-c">Sergei Prokofiev</span><span class="p-w">Toccata in D minor, Op. 11</span><span class="p-d">4:09</span></button></li><li><button data-id="prokofiev-piano-sonata-2"><span class="p-c">Sergei Prokofiev</span><span class="p-w">Piano Sonata No. 2, Op. 14 · Complete · Allegro ma non troppo — Scherzo — Andante — Vivace</span><span class="p-d">16:19</span></button></li></ol></section>
+</aside>
+
+<div class="curtain" hidden>
+  <div class="curtain-inner">
+    <span class="kicker">The Concert Hall</span>
+    <h2>A concert from Bach to Bartók</h2>
+    <p>55 recordings play one after another. Where the score is known, it lights up as the music sounds; elsewhere the visualizer traces pitch and harmony. Notes explain each piece, and every turn it takes, as it happens.</p>
+    <button class="begin">Begin the concert</button>
+    <small>Browsers need one click before a page may play sound. After that, the music plays on its own.</small>
+  </div>
+</div>
+<div class="interlude" hidden><span class="i-era"></span><span class="i-name"></span><span class="i-work"></span></div>
+<div id="cp-persist">
+<div class="np" hidden role="region" aria-label="Now playing">
+  <button class="np-play" type="button" aria-label="Play">▶</button>
+  <a class="np-now" href="hall.html"><span class="np-c"></span><span class="np-w"></span></a>
+  <div class="np-track" role="presentation"><div class="np-prog"><span></span></div></div>
+  <span class="np-time">0:00</span>
+  <button class="np-next" type="button" aria-label="Next piece">⏭</button>
+  <a class="np-hall" href="hall.html">Enter the hall</a>
+</div>
+<dialog class="srch" aria-label="Search">
+  <div class="srch-box"><span class="glyph" aria-hidden="true">𝄞</span><input type="search" placeholder="Search composers, works, recordings, ideas" aria-label="Search" autocomplete="off"><button class="srch-close" type="button" aria-label="Close">×</button></div>
+  <ul class="srch-results"></ul>
+</dialog>
+</div>
+</body>
+</html>
