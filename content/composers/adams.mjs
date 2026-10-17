@@ -94,11 +94,13 @@ V:2
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:The Veteran in a New Field MET DP102298.jpg',
       artist: 'Winslow Homer', title: 'The Veteran in a New Field', date: '1865', medium: 'Oil on canvas', collection: 'Metropolitan Museum of Art, New York',
       note: `<p>The discarded Union Army jacket and canteen identify Homer’s reaper as a returning Civil War soldier. Painted in the year that Whitman published <i>Drum-Taps</i>, the canvas transfers attention from battle to the work of a surviving body. The link with Adams is shared subject matter: the war and its aftermath, which <i>The Wound-Dresser</i> approaches through bandages, amputations and bedside care.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Walt Whitman', title: 'The Wound-Dresser — excerpt', date: '1865; later revised', lang: 'English',
       original: `Bearing the bandages, water and sponge,
 Straight and swift to my wounded I go,
@@ -112,6 +114,7 @@ Soon to be fill’d with clotted rags and blood, emptied, and fill’d again.`,
       note: `<p>These lines begin Adams’s setting, though they occur well inside <a href="https://www.poetryfoundation.org/poems/53027/the-wound-dresser">Whitman’s poem</a>. The omission removes the old narrator’s introductory account of being asked for war stories and starts with practical labour. The sequence of unequal phrases gives the baritone a different rhythmic task from the orchestra’s recurring figures; the repetitions enact the return to each patient.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'John Donne', title: 'Batter my heart, three-person’d God', date: 'Published 1633', lang: 'English',
       original: `Batter my heart, three-person’d God, for you
 As yet but knock, breathe, shine, and seek to mend;

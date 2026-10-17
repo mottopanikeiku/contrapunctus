@@ -1,0 +1,20 @@
+{
+  "id": "ravel-bolero",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        10.0,
+        55.5
+      ],
+      "b": [
+        55.5,
+        101.0
+      ],
+      "label": "The first tune changes instrument",
+      "basis": "The first melody is repeated by a new solo instrument before the second melody begins. This agrees with the listening notes’ flute statement and clarinet restatement near 13 and 56 s; chroma itself does not identify either instrument. CENS diagonal mean 0.935, sustained 45.5 s, fixed pitch-class shift 0 semitones and time offset 45.5 s (cache/form/ravel-bolero.txt, candidate 52; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Most of the 135 retained candidates are late, broad matches over the unchanged C/G foundation. The longest spans cross different melody statements and have low contrast, so they are not published as repeated tunes. Boléro’s two-bar snare ostinato is a continuous rhythmic pattern, not a formal return and not something CENS can identify. No additional arc is inferred from the final E-major shift."
+}

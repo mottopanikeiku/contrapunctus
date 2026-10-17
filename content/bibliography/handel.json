@@ -1,0 +1,36 @@
+{
+ "id": "handel",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Donald Burrows, *Handel*, second edition (New York: Oxford University Press, 2012).",
+   "url": "https://doi.org/10.1093/acprof:osobl/9780199737369.001.0001",
+   "kind": "biography",
+   "note": "Life and works grounded in performance history, theatrical institutions and documentary sources."
+  },
+  {
+   "cite": "Anthony Hicks, ‘Handel [Händel, Hendel], George Frideric’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.40060",
+   "kind": "reference",
+   "note": "Career, genres, sources and work-list; subscription required."
+  },
+  {
+   "cite": "Bernd Baselt, *Verzeichnis der Werke Georg Friedrich Händels (HWV): Kleine Ausgabe* (Leipzig: Deutscher Verlag für Musik, 1986).",
+   "url": "https://openlibrary.org/books/OL2336096M",
+   "kind": "catalogue",
+   "note": "Compact reference for HWV numbers across the vocal and instrumental works."
+  },
+  {
+   "cite": "Donald Burrows, Helen Coffey, John Greenacombe and Anthony Hicks, eds, *George Frideric Handel: Collected Documents*, vol. 1, *1609–1725* (Cambridge: Cambridge University Press, 2013).",
+   "url": "https://assets.cambridge.org/97811070/19539/frontmatter/9781107019539_frontmatter.pdf",
+   "kind": "letters",
+   "note": "Original documents with English translations and commentary; this volume covers the early career."
+  },
+  {
+   "cite": "Romain Rolland, *Handel*, translated by A. Eaglefield Hull (New York: Henry Holt, 1916).",
+   "url": "https://www.gutenberg.org/ebooks/39671",
+   "kind": "biography",
+   "note": "Freely readable historical interpretation; use alongside Burrows for subsequent scholarship."
+  }
+ ]
+}

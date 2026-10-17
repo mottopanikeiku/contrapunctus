@@ -1,0 +1,24 @@
+{
+ "id": "part",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Andrew Shenton, ed., *The Cambridge Companion to Arvo Pärt* (Cambridge University Press, 2012).",
+   "url": "https://www.cambridge.org/core/books/cambridge-companion-to-arvo-part/EF420291F67A592B91E07EFFB3588658",
+   "kind": "survey",
+   "note": "Essays examine life, composition, tintinnabuli, performance, spirituality and reception."
+  },
+  {
+   "cite": "Arvo Pärt Centre, ‘Biography’ (online chronology).",
+   "url": "https://www.arvopart.ee/en/arvo-part/biography/",
+   "kind": "reference",
+   "note": "Distinguishes the early period, the years of crisis, the emergence of tintinnabuli and the career after emigration."
+  },
+  {
+   "cite": "Arvo Pärt Centre, ‘Da pacem Domine’ (online work commentary).",
+   "url": "https://www.arvopart.ee/en/arvo-part/work/21/",
+   "kind": "study",
+   "note": "Explains the chant source, commission and musical construction, and qualifies the usual dedication story."
+  }
+ ]
+}

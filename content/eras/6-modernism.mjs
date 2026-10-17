@@ -82,6 +82,7 @@ V:1
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'lacquer',
       file: 'File:Marc - Tierschicksale (Die Bäume zeigten ihre Ringe, die Tiere ihre Adern), 1913, Inv. 1739.jpg',
       artist: 'Franz Marc', title: 'Fate of the Animals', date: '1913',
@@ -89,6 +90,7 @@ V:1
       note: '<p>Intersecting diagonals break the forest and animals into recognisable planes that disrupt ordinary depth. Marc belonged to the Blue Rider circle whose publications also included Schoenberg’s work. The painting predates the First World War. Its present surface includes Paul Klee’s 1919 restoration of damage sustained in a 1917 fire, documented by the <a href="https://kunstmuseumbasel.ch/en/file/5062/031b52f8/ZEM_Saalbooklet_EN.pdf">Kunstmuseum Basel</a>.</p>',
     },
     {
+      relation: 'editorial-comparison',
       type: 'poem', author: 'Guillaume Apollinaire', title: 'Zone — opening', date: '1913, in Alcools',
       lang: 'French', translator: 'Our translation',
       original: `À la fin tu es las de ce monde ancien

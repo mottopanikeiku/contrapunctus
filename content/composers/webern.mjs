@@ -66,8 +66,10 @@ K:C
 B _B d | _e g ^f | _a e f | c ^c A |]`, caption: 'The exact row, in a compact illustrative register and equal durations: B–B♭–D / E♭–G–F♯ / A♭–E–F / C–C♯–A. Each group contains a semitone and a major third; reversing order and direction produces the four groups. In the actual opening, oboe, flute, trumpet and clarinet separate these cells with different rhythms and registers. The last group is sometimes spelled with D♭ instead of C♯; its sounding pitch is unchanged.' },
   ],
   arts: [
-    { type: 'painting', frame: 'gilt', file: 'File:Segantini - Nature (La natura), 1897–1899.jpg', artist: 'Giovanni Segantini', title: 'Nature, central panel of the Alpine Triptych', date: '1897–99', medium: 'Oil on canvas', collection: 'Segantini Museum, St Moritz; Gottfried Keller Foundation', note: `<p>Webern’s plan for his unnumbered String Quartet of 1905 refers to Segantini’s triptych, whose panels were known to him as <i>Werden</i>, <i>Sein</i> and <i>Vergehen</i> — becoming, being and passing away. This central panel places cattle and figures within the Engadine mountains at sunset. The documented connection belongs to that early work’s conception.</p>` },
-    { type: 'poem', author: 'Georg Trakl', title: 'Abendland II', date: 'Published in Sebastian im Traum, 1915; set by Webern 1919', lang: 'German', translator: 'Our translation', original: `So leise sind die grünen Wälder
+    { relation: 'documented-use',
+      type: 'painting', frame: 'gilt', file: 'File:Segantini - Nature (La natura), 1897–1899.jpg', artist: 'Giovanni Segantini', title: 'Nature, central panel of the Alpine Triptych', date: '1897–99', medium: 'Oil on canvas', collection: 'Segantini Museum, St Moritz; Gottfried Keller Foundation', note: `<p>Webern’s plan for his unnumbered String Quartet of 1905 refers to Segantini’s triptych, whose panels were known to him as <i>Werden</i>, <i>Sein</i> and <i>Vergehen</i> — becoming, being and passing away. This central panel places cattle and figures within the Engadine mountains at sunset. The documented connection belongs to that early work’s conception.</p>` },
+    { relation: 'documented-use',
+      type: 'poem', author: 'Georg Trakl', title: 'Abendland II', date: 'Published in Sebastian im Traum, 1915; set by Webern 1919', lang: 'German', translator: 'Our translation', original: `So leise sind die grünen Wälder
 Unsrer Heimat,
 Die kristallne Woge
 Hinsterbend an verfallner Mauer

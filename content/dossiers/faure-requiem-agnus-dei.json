@@ -1,0 +1,180 @@
+{
+  "id": "faure-requiem-agnus-dei",
+  "work": {
+    "title": "Requiem",
+    "catalogue": "Op. 48",
+    "movement": "V. Agnus Dei",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "work"
+      ],
+      "note": "The source does not identify a score edition or distinguish the chamber-orchestra and full-orchestra versions."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Chorale Philippe Caillard",
+        "role": "chorus"
+      },
+      {
+        "name": "Orchestre national de l’Opéra de Monte-Carlo",
+        "role": "orchestra"
+      },
+      {
+        "name": "Louis Frémaux",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "work"
+    ],
+    "note": "Commons also lists Bernard Kruysen and Denis Thilliez among the complete recording’s artists. They are not credited here as soloists in the choral Agnus Dei; the organist is unidentified."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons Date field gives 10 August 1962, without identifying it as a recording session rather than an issue date. The session date remains unconfirmed.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Erato Records",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Named as Source on Commons; no catalogue or carrier image is supplied."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or restoration engineer is identified; an uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No source-transfer or restoration processing is disclosed. The access-file encoding is recorded separately."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac/Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 349
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in jurisdictions applying an unextended life-plus-70-year term",
+      "status": "inferred",
+      "sourceIds": [
+        "composer"
+      ],
+      "note": "Gabriel Fauré died in 1924. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
+    },
+    "recording": {
+      "value": "Public domain in the European Union, as asserted by the Commons PD-EU-audio tag",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-rights"
+      ],
+      "note": "The cited record does not supply a separate United States sound-recording-rights basis or document the transfer’s provenance."
+    },
+    "creditLine": "Gabriel Fauré: Requiem, Op. 48, V. Agnus Dei — Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo, Louis Frémaux. Erato source, via Wikimedia Commons; Commons tags the recording PD-EU-audio, not worldwide public domain.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Fauré - Requiem - V. Agnus Dei.flac",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1177337502",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AFaur%C3%A9+-+Requiem+-+V.+Agnus+Dei.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "IRCAM — Gabriel Fauré: biography",
+      "url": "https://brahms.ircam.fr/fr/composer/gabriel-faure/biography",
+      "locator": "Composer’s life dates; used only for the explicitly scoped composition-rights inference.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work",
+      "title": "Requiem (Fauré) — work and scoring reference",
+      "url": "https://en.wikipedia.org/wiki/Requiem_(Faur%C3%A9)",
+      "locator": "Opening work identity, History and Structure and scoring: Op. 48, versions and the distinction between the choral Agnus Dei and movements with solo voices. Not evidence of the edition used at this session.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-rights",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Licence-tag text and documentation: European Union performers’ and producers’ rights, not a worldwide rights clearance.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

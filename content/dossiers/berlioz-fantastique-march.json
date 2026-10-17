@@ -1,0 +1,178 @@
+{
+  "id": "berlioz-fantastique-march",
+  "work": {
+    "title": "Symphonie fantastique",
+    "catalogue": "Op. 14",
+    "movement": "IV. Marche au supplice — Allegretto non troppo",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source does not identify a performing edition or arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Igor Markevitch",
+        "role": "conductor"
+      },
+      {
+        "name": "Orchestre Lamoureux",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": "The Archive description spells the orchestra’s name ‘Lamoreux’; Commons gives ‘Lamoureux’."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Commons gives 1 January 1962, while the upstream Archive item gives only 1962. Neither identifies a session day or distinguishes the year from an issue date; no 1 January session is asserted.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original release label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or restoration engineer is identified; an uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No source-transfer or restoration processing is disclosed. The access-file encoding is recorded separately."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_4._Marche_au_supplice_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.ogg/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_4._Marche_au_supplice_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 288
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in jurisdictions applying an unextended life-plus-70-year term",
+      "status": "inferred",
+      "sourceIds": [
+        "composer"
+      ],
+      "note": "Hector Berlioz died in 1869. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
+    },
+    "recording": {
+      "value": "Public domain in the European Union, as asserted by the Commons PD-EU-audio tag",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-rights",
+        "archive"
+      ],
+      "note": "The Archive also applies a Public Domain Mark. These source statements do not establish United States sound-recording rights or identify the original release used for this transfer."
+    },
+    "creditLine": "Hector Berlioz: Symphonie fantastique, IV. Marche au supplice — Igor Markevitch, Orchestre Lamoureux. Internet Archive source, via Wikimedia Commons. Commons tags the recording PD-EU-audio; rights outside that scope are not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1190184410",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AHector+Berlioz+-+Symphonie+fantastique%2C+op.+14+-+4.+Marche+au+supplice+%28Igor+Markevitch%2C+Orchestre+Lamoureux%2C+1962%29.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Berlioz: Symphonie Fantastique",
+      "url": "https://archive.org/metadata/BerliozSymphonieFantastiqueMarkevitch/metadata",
+      "locator": "description, creator and date (1962); separate publicdate and addeddate (13 June 2018). No label, session venue or transfer credit is supplied.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Wikimedia Commons — Hector Berlioz",
+      "url": "https://commons.wikimedia.org/wiki/Creator:Hector_Berlioz",
+      "locator": "Composer’s life dates; used only for the explicitly scoped composition-rights inference.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-rights",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Licence-tag text and documentation: performers’ and producers’ rights in the European Union; separate composition and United States bases are required.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

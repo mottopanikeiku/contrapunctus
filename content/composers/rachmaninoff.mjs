@@ -141,6 +141,7 @@ V:1 name="Bass" clef=bass
 
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:Arnold Böcklin - Die Toteninsel I (Basel, Kunstmuseum).jpg',
       artist: 'Arnold Böcklin', title: 'Die Toteninsel (Isle of the Dead), first version', date: '1880',
@@ -148,6 +149,7 @@ V:1 name="Bass" clef=bass
       note: `<p>A boat bearing a white figure and coffin approaches rock, cypresses and openings cut into the island. Böcklin made five versions between 1880 and 1886; this is the first, in Basel. Rachmaninoff encountered the image through a black-and-white reproduction in Paris in 1907; which version it reproduced remains uncertain. His 1909 symphonic poem translates the approach into a repeated 5/8 figure.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Rachmaninoff at Ivanovka.jpg',
       artist: 'Unidentified photographer', title: 'Rachmaninoff with family and friends at Ivanovka', date: 'Mid-1890s',
@@ -155,6 +157,7 @@ V:1 name="Bass" clef=bass
       note: `<p>Rachmaninoff stands second from the left in the back row. This is the Satin family’s estate near Tambov, where he first spent a summer in 1890 and returned to compose before 1917. The photograph places the music within the household where he worked. Ivanovka provided the working conditions for the First Concerto and much of the Third; it was also a farm on which he spent substantial earnings.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'lacquer',
       file: 'File:Somov Sergei Rachmaninoff 1925.JPG',
       artist: 'Konstantin Somov', title: 'Portrait of Sergei Rachmaninoff', date: '1925',
@@ -162,6 +165,7 @@ V:1 name="Bass" clef=bass
       note: `<p>Somov, a member of the <i>Mir iskusstva</i> circle, painted Rachmaninoff during his own years abroad. The frontal head, dark coat and restrained background present the professional musician without a piano or score. Its date falls between the establishment of Rachmaninoff’s American touring career and his return to major composition with the Fourth Concerto in 1926.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Edgar Allan Poe', title: 'The Bells — opening section', date: '1849', lang: 'English',
       original: `Hear the sledges with the bells —
@@ -181,6 +185,7 @@ From the jingling and the tinkling of the bells.`,
       note: `<p>Rachmaninoff set Konstantin Balmont’s Russian adaptation of Poe’s English in Op. 35. The four-part sequence remains, from these sleigh bells through wedding and alarm bells to the iron funeral bell. Repeated words already behave as rhythmic cells; Rachmaninoff gives repetition to the chorus and orchestral accompaniment as well as the soloist. The complete poem was published in 1849, after Poe’s death.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Alexander Pushkin', title: 'Не пой, красавица, при мне… (Do not sing, beautiful one, before me)', date: '1828; set by Rachmaninoff 1892',
       lang: 'Russian', translator: 'Our translation',

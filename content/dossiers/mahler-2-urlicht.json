@@ -1,0 +1,179 @@
+{
+  "id": "mahler-2-urlicht",
+  "work": {
+    "title": "Symphony No. 2 in C minor",
+    "catalogue": "",
+    "movement": "IV. Urlicht — Sehr feierlich, aber schlicht",
+    "version": {
+      "value": "Fourth movement of Symphony No. 2, with orchestral accompaniment",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "work"
+      ],
+      "note": "This file comes from a complete symphony performance. Its performing score edition is not identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Barbara Schubert",
+        "role": "conductor"
+      },
+      {
+        "name": "DuPage Symphony Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": "The alto soloist is not named in the consulted Commons or Archive records. Barbara Schubert is the conductor, not the singer."
+  },
+  "session": {
+    "date": {
+      "value": "2004-05-22",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Date of the concert, distinct from the December 2004 Archive publication and upload dates.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Edman Memorial Chapel, Wheaton College, Wheaton, Illinois",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No commercial release label is named; the upstream item documents a concert captured on a Sony MZ-N1 MiniDisc recorder."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The documented source is a MiniDisc concert recording, not a matrix-numbered disc master. No disc-side or take system is supplied."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Eric Pancer — recordist and publisher of the source files",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Credited as taper, creator and publisher. The source does not separately name a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The source names a Sony MZ-N1 MiniDisc recorder, but gives no microphone, export, editing or restoration settings."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Mahler_Symphony_no._2%2C_IV._%22Urlicht%22.ogg/Mahler_Symphony_no._2%2C_IV._%22Urlicht%22.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 298.585
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in jurisdictions applying an unextended life-plus-70-year term",
+      "status": "inferred",
+      "sourceIds": [
+        "composer"
+      ],
+      "note": "Gustav Mahler died in 1911. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
+    },
+    "recording": {
+      "value": "CC0 1.0 on Commons; public-domain dedication at the upstream Archive item",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The upstream notes also request recognition of soloists, conductor and orchestra. That request is preserved in the credit; the singer’s name is unavailable in the consulted records. No independent review of the performers’ releases has been made."
+    },
+    "creditLine": "Gustav Mahler: Symphony No. 2, IV. Urlicht — Barbara Schubert, conductor; DuPage Symphony Orchestra; alto soloist unidentified in the source. Recorded by Eric Pancer, 22 May 2004, Edman Memorial Chapel. Internet Archive source via Wikimedia Commons, where the file is marked CC0.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Mahler Symphony no. 2, IV. \"Urlicht\".ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1113441804",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AMahler+Symphony+no.+2%2C+IV.+%22Urlicht%22.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Resurrection!",
+      "url": "https://archive.org/metadata/dupageso-2004-05-22/metadata",
+      "locator": "date, description, taper, source and notes: concert date and venue, Eric Pancer, Sony MZ-N1 MiniDisc recorder, and request for performer recognition. The December addeddate/publicdate are distinct from the May concert date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Wikimedia Commons — Gustav Mahler",
+      "url": "https://commons.wikimedia.org/wiki/Creator:Gustav_Mahler",
+      "locator": "Composer’s life dates; used only for the explicitly scoped composition-rights inference.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work",
+      "title": "Mahler Foundation — Symphony No. 2, IV. Urlicht",
+      "url": "https://mahlerfoundation.org/mahler/compositions/symphony-no-2/symphony-no-2-movement-4-lied-1-urlicht-sehr-feierlich-aber-schlicht/",
+      "locator": "Work identity and the revised orchestration incorporated into Symphony No. 2, distinct from the separate Wunderhorn song version.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

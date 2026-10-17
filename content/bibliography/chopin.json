@@ -1,0 +1,30 @@
+{
+ "id": "chopin",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Jim Samson, *Chopin* (Oxford University Press, 1996).",
+   "url": "https://pure.royalholloway.ac.uk/en/publications/chopin/",
+   "kind": "biography",
+   "note": "Life-and-works study by the author of the Grove article."
+  },
+  {
+   "cite": "Jim Samson, ‘Chopin, Fryderyk Franciszek’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.51099",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Frédéric Chopin, *Chopin’s Letters*, collected by Henryk Opieński, translated by E. L. Voynich (New York: Knopf, 1931).",
+   "url": "https://ndlsearch.ndl.go.jp/en/books/R100000136-I1971712334734548225",
+   "kind": "letters",
+   "note": "English correspondence collection; catalogue also identifies the 1973 Vienna House reprint."
+  },
+  {
+   "cite": "John Rink, Christophe Grabowski and collaborators, *Chopin Online* (online editions and catalogues, n.d.; accessed 16 October 2026).",
+   "url": "https://chopinonline.ac.uk/",
+   "kind": "catalogue",
+   "note": "Free first-edition catalogue, digitised early prints and a manuscript–edition comparison tool."
+  }
+ ]
+}

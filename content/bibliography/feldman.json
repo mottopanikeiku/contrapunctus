@@ -1,0 +1,24 @@
+{
+ "id": "feldman",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Morton Feldman, *Give My Regards to Eighth Street: Collected Writings*, edited by B. H. Friedman (Exact Change).",
+   "url": "https://exactchange.com/books/p/feldman-give-my-regards",
+   "kind": "study",
+   "note": "Feldman’s essays, lectures, programme notes and other writings connect composing with the New York visual arts."
+  },
+  {
+   "cite": "David Cline, *The Graph Music of Morton Feldman* (Cambridge University Press, 2016).",
+   "url": "https://www.cambridge.org/core/books/graph-music-of-morton-feldman/B9C49A2080DCBB217690CC02B6CBB24E",
+   "kind": "study",
+   "note": "Reconstructs the notation, organisation and genesis of the graph works from published and unpublished sources."
+  },
+  {
+   "cite": "IRCAM, ‘Morton Feldman: Biography’ (online resource).",
+   "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography",
+   "kind": "reference",
+   "note": "A chronological account of his teachers, graphic notation, artistic friendships and institutional posts."
+  }
+ ]
+}

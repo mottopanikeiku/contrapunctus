@@ -1,0 +1,20 @@
+{
+  "id": "rachmaninoff-concerto-2-adagio",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        74.0,
+        145.0
+      ],
+      "b": [
+        569.0,
+        640.0
+      ],
+      "label": "The slow melody returns",
+      "basis": "The outer E-major song returns after the quicker middle and cadenza. These long excerpts compare its continuation in A and A′, with the later span inside the return marked near 524 s. CENS diagonal mean 0.952, sustained 71 s, fixed pitch-class shift 0 semitones and time offset 495 s (cache/form/rachmaninoff-concerto-2-adagio.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The 32.5 s opening-to-return path supports the same A–B–A′ relation and is omitted as a separate arc. Two middle-section paths shifted down two semitones may reflect sequential repetition, but their formal identities are not established by the available notes. The arc does not time the flute, clarinet or piano handovers."
+}

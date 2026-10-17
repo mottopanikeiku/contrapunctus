@@ -1,0 +1,20 @@
+{
+  "id": "mozart-40-molto-allegro",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        3.5,
+        25.5
+      ],
+      "b": [
+        197.0,
+        219.0
+      ],
+      "label": "The opening returns in the recapitulation",
+      "basis": "The first-theme group returns in G minor after the development; the measured later span agrees with the recapitulation marked near 194 s. This performance omits the exposition repeat. CENS diagonal mean 0.972, sustained 22 s, fixed pitch-class shift 0 semitones and time offset 193.5 s (cache/form/mozart-40-molto-allegro.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Only one sustained candidate passed the threshold. The second theme’s change from B♭ major to G minor is not a uniform transposition of all its notes, so no shifted-chroma arc is forced onto it. No exposition-repeat link is published."
+}

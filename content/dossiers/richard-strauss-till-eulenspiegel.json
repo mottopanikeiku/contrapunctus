@@ -1,0 +1,157 @@
+{
+  "id": "richard-strauss-till-eulenspiegel",
+  "work": {
+    "title": "Till Eulenspiegel’s Merry Pranks",
+    "catalogue": "Op. 28",
+    "movement": "",
+    "version": {
+      "value": "Concert-band transcription by Herb Weber.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This recording is not the original orchestral scoring."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "United States Navy Band",
+        "role": "concert band"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "Commons does not identify a conductor for this track."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "2001 identifies the album Celebrations, not an explicitly documented recording session. No session day, month or year is established.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the sources consulted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "United States Navy",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file page credits the United States Navy with the recording; this is the issuing institution, not a separately identified commercial imprint."
+    },
+    "catalogue": {
+      "value": "Celebrations (2001), track 8; catalogue number unestablished.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This identifies the source album and track, not a matrix or label catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration, equalisation, noise-reduction or editing procedure is documented for the upstream audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus/Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus.mp3",
+    "sourceChain": [
+      "commons",
+      "usaf"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Opus",
+    "durationSeconds": 947.621
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons applies PD-old-auto-expired, with Richard Strauss’s death year 1949.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is the stated basis for the underlying composition. The government-work claim for the US Navy transcription and recording is a separate issue."
+    },
+    "recording": {
+      "value": "PD-USGov-Military-Navy: transcription, performance and recording described as works of US Navy personnel.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "The file page attributes Herb Weber’s transcription, the band performance and the Navy recording to US military personnel acting in official duties. The claim establishes a US government-work public-domain basis; it is not a worldwide Creative Commons licence."
+    },
+    "creditLine": "Richard Strauss, Till Eulenspiegel’s Merry Pranks, Op. 28; transcribed by Herb Weber; United States Navy Band. Celebrations (2001), track 8. US Navy government-work public-domain claim in the United States; streamed from Wikimedia Commons.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Till Eulenspiegel's Merry Pranks - United States Navy Band.opus",
+      "url": "https://commons.wikimedia.org/wiki/File:Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus?oldid=1263822001",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "usaf",
+      "title": "United States Air Force — public-domain music collection",
+      "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
+      "locator": "Source linked by Commons for the military-band recording. The page returned HTTP 403 on access; the album and track identification below are taken from Commons, not independently recovered from this page.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "rachmaninoff-prelude-c-sharp-minor",
+  "work": {
+    "title": "Prelude in C♯ minor",
+    "catalogue": "Op. 3 No. 2",
+    "movement": "",
+    "version": {
+      "value": "Solo piano, performed by the composer",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "nps"
+      ],
+      "note": "No performing score edition is identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "nps"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1919-04-24",
+      "status": "documented",
+      "sourceIds": [
+        "original",
+        "nps"
+      ],
+      "note": "The earlier Commons file gives 24 April 1919. The primary National Park Service catalogue confirms only the year 1919; December 1920 is the release date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York City",
+      "status": "documented",
+      "sourceIds": [
+        "original"
+      ],
+      "note": "City given by the earlier Commons description; no studio is identified. The National Park Service entry does not supply a venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Edison Records — Diamond Disc",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "nps"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "82187-R",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "nps"
+      ],
+      "note": "Released December 1920. The transferred museum object is NPS EDIS 73898; that museum number is not the commercial catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": "Matrix 6742-C-2-3 [2-1]; side R of Edison Diamond Disc 82187",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "nps"
+      ],
+      "note": "The complete matrix string is transcribed as printed by the National Park Service; its suffixes are not independently decoded into take or pressing information."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Adam Cuerden — cleanup and restoration; source audio published by the United States National Park Service",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "original",
+        "nps"
+      ],
+      "note": "The National Park Service supplies the source disc identification and audio file. It does not name the original transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "original",
+        "nps"
+      ],
+      "note": "No original transfer or restoration date is stated. The National Park Service page update (2004), earlier Commons upload (2007), Adam Cuerden’s original upload (2009) and Commons import (2014) are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Cleaned and restored copy of the earlier Commons file Prelude 3 2 Rach playing.ogg",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "original"
+      ],
+      "note": "Commons credits Adam Cuerden, but gives no restoration settings or speed-correction log. No aural comparison has been made."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor%2C_Op._3.ogg/Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor%2C_Op._3.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "original",
+      "nps"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 227.908
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain under the Commons notice for an author who died in 1943",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The notice scopes its life-term assertion to countries with life plus 80 years or fewer. This concerns Rachmaninoff’s composition, not an assertion that any modern edition is unrestricted."
+    },
+    "recording": {
+      "value": "Public domain in the United States: first released in December 1920",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "nps"
+      ],
+      "note": "Commons applies the pre-1926 published-sound-recording rule under 17 U.S.C. § 1401. The National Park Service entry documents the December 1920 release; the date is not confused with the 1919 session."
+    },
+    "creditLine": "Sergei Rachmaninoff: Prelude in C♯ minor, Op. 3 No. 2, played by the composer (1919). Edison Diamond Disc 82187-R, matrix 6742-C-2-3 [2-1], NPS EDIS 73898. National Park Service source audio; cleanup and restoration by Adam Cuerden; via Wikimedia Commons. Public-domain recording in the United States.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1204343741",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ASergei+Rachmaninoff+performs+Rachmaninoff%27s+Prelude+in+C+sharp+minor%2C+Op.+3.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "original",
+      "title": "Wikimedia Commons — Prelude 3 2 Rach playing.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1094407918",
+      "locator": "Summary gives New York City, 24 April 1919, and links the National Park Service source. The restored file explicitly identifies this earlier Commons file as its source copy.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nps",
+      "title": "National Park Service — Edison National Historic Site: Classical Instrumental",
+      "url": "https://web.archive.org/web/20071108225217/http://www.nps.gov/archive/edis/edisonia/classical.htm",
+      "locator": "Entry ‘Prelude in C sharp minor, Op. 3’: Edison Diamond Disc, matrix 6742-C-2-3 [2-1], recording year 1919, release 82187-R, December 1920, NPS object EDIS 73898; audio link EDIS-SRP-0192-13.mp3. Archived 8 November 2007; page states updated 5 November 2004.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

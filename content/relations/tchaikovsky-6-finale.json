@@ -1,0 +1,34 @@
+{
+  "id": "tchaikovsky-6-finale",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        171.0,
+        209.5
+      ],
+      "b": [
+        222.0,
+        260.5
+      ],
+      "label": "The contrasting melody is restated",
+      "basis": "The Andante contrasting group expands by restating its broad melody. Both excerpts lie in that group before the first large withdrawal, not in the later B-minor coda. CENS diagonal mean 0.939, sustained 38.5 s, fixed pitch-class shift 0 semitones and time offset 51 s (cache/form/tchaikovsky-6-finale.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        3.5,
+        25.0
+      ],
+      "b": [
+        320.0,
+        341.5
+      ],
+      "label": "The opening lament returns",
+      "basis": "The opening lament returns after the contrasting melody and its withdrawal. The later excerpt agrees with the return marked near 316 s, while changed surrounding texture prevents an unchanged-section claim. CENS diagonal mean 0.967, sustained 21.5 s, fixed pitch-class shift 0 semitones and time offset 316.5 s (cache/form/tchaikovsky-6-finale.txt, candidate 4; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The initial lament’s internal repetition and another route into its large return are redundant. Long held harmony in the final climax and the coda yields low-contrast matches; these are not repeated melodies. The coda’s minor-mode transformation of the contrasting material is not a uniform pitch transposition and is not forced into a shifted match."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "liszt-hungarian-rhapsody-6",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        88.5,
+        107.0
+      ],
+      "b": [
+        107.0,
+        125.5
+      ],
+      "label": "The quick dance repeats",
+      "basis": "The Presto dance is a repeated unit between the opening march and the Andante. Both excerpts fall within the 85–126 s Presto region rather than in the later octave variations. CENS diagonal mean 0.989, sustained 18.5 s, fixed pitch-class shift 0 semitones and time offset 18.5 s (cache/form/liszt-hungarian-rhapsody-6.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Only this 18.5 s unshifted path meets the sustained threshold. The repeated-octave finale is variation writing, but its changing speed and texture did not produce a qualifying paired span; repeated octave attacks alone are not published as formal returns."
+}

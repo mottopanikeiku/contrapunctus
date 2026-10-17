@@ -1,0 +1,173 @@
+{
+  "id": "prokofiev-piano-sonata-2",
+  "work": {
+    "title": "Piano Sonata No. 2 in D minor",
+    "catalogue": "Op. 14",
+    "movement": "Complete · Allegro ma non troppo — Scherzo — Andante — Vivace",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "E. M. Zinger",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The description uses E.M. Zinger; the category names Yevsey Singer. No expanded personal name is asserted here."
+  },
+  "session": {
+    "date": {
+      "value": "8 October 1962",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "Date stated on Commons and repeated in structured data; no independent session record was recovered.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source credit is “Архив НГК им. М. И. Глинки”. It identifies a holding archive, not a recording venue; the institution’s abbreviated name is not expanded without further evidence."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original recording label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Архив НГК им. М. И. Глинки — source archive as credited on Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No named transfer or restoration engineer, transfer date or archive item identifier is supplied."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Xiph.Org libVorbis I 20120203 (Omnipresent). Commons master: Ogg Vorbis, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Prokofiev_-_Sonata_No._2_%28E.M._Zinger%29.ogg/Prokofiev_-_Sonata_No._2_%28E.M._Zinger%29.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 978.8322902494331
+  },
+  "rights": {
+    "composition": {
+      "value": "The original 1913 publication is public domain in the United States.",
+      "status": "inferred",
+      "sourceIds": [
+        "work-source",
+        "us-work-term"
+      ],
+      "note": "The CC BY-SA tag is a claim about this recording, not permission from Prokofiev’s estate. Composition status in other jurisdictions, including any special extensions, has not been established here."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution–ShareAlike 4.0",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "Commons and structured P275 agree on this licence. No separate permission document from the holding archive or recording rights holder is linked; the authority for the grant has not been independently established."
+    },
+    "creditLine": "E. M. Zinger, piano. Source archive: Архив НГК им. М. И. Глинки, via Wikimedia Commons. CC BY-SA 4.0 as stated by Commons; the underlying rights-holder permission is not independently verified.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Prokofiev - Sonata No. 2 (E.M. Zinger).ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Prokofiev_-_Sonata_No._2_(E.M._Zinger).ogg?oldid=1111732218",
+      "locator": "File-description wikitext revision 1111732218; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M125805649",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M125805649&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1111732218. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AProkofiev+-+Sonata+No.+2+%28E.M.+Zinger%29.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-source",
+      "title": "Piano Sonata No. 2 (Prokofiev): publication history",
+      "url": "https://en.wikipedia.org/wiki/Piano_Sonata_No._2_(Prokofiev)",
+      "locator": "Opening: composed 1912; first published by P. Jurgenson in 1913.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-work-term",
+      "title": "Commons: US expiry for published compositions",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+      "locator": "Published works before 1931 are public domain in the United States as of 2026; the template expressly excludes sound recordings.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

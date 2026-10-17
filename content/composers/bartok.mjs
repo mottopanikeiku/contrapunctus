@@ -133,6 +133,7 @@ V:2 name="Field"
 
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Bartok recording folk music.jpg',
       artist: 'Photographer unidentified', title: 'Bartók recording Slovak folk songs at Zobordarázs', date: '1907',
@@ -140,6 +141,7 @@ V:2 name="Field"
       note: `<p>The phonograph horn makes the act of collection visible: a particular singer performs for a recording machine while other villagers gather nearby. Zobordarázs is now Dražovce, Slovakia. The <a href="https://zti.hu/en/ba/events/849-new-database-folk-music-in-bartok-s-compositions">Bartók Archives dates this photograph to 1907</a>, rather than the 1908 supplied in the Commons metadata. Pair it with the Slovak volumes of <i>For Children</i>: the compositional source is a performed and variable melody.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Bartók Béla Csík megyei vándorútján.jpg',
       artist: 'István Kováts', title: 'Bartók during his first Transylvanian collecting trip', date: '1907',
@@ -147,6 +149,7 @@ V:2 name="Field"
       note: `<p>Kováts photographed Bartók at Gyergyószentmiklós, now Gheorgheni, during the collecting expedition of 1907. This identification follows the archive’s <a href="https://real.mtak.hu/159758/1/Vikarius_Nemeth_Bartok_katalogus_1-112.pdf">2022 exhibition catalogue</a>, rather than Commons’ approximate 1903 date. The trip’s pentatonic Hungarian songs belong to the documented background of the stylistic change around the Fourteen Bagatelles and First Quartet.</p>`,
     },
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'lacquer',
       file: 'File:Cskt-maganyos cedrus (1907).jpg',
       artist: 'Tivadar Csontváry Kosztka', title: 'The Lonely Cedar', date: '1907',
@@ -154,6 +157,7 @@ V:2 name="Field"
       note: `<p>Csontváry, who died in 1919, painted a Lebanese cedar. The Hungarian painter’s foreign subject shows the reach of his material beyond his own country. Beside Bartók’s night music, the isolated branching form and broad background offer a comparison of foreground and field. The pairing is visual, with no claim of musical influence. The <a href="https://en.mng.hu/artworks/the-lonely-cedar/">National Gallery catalogue</a> records the canvas and its date.</p>`,
     },
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'lacquer',
       file: 'File:Csontváry Kosztka, Tivadar - Ruins of the Greek Theatre at Taormina - Google Art Project.jpg',
       artist: 'Tivadar Csontváry Kosztka', title: 'Ruins of the Greek Theatre at Taormina', date: '1904–05',

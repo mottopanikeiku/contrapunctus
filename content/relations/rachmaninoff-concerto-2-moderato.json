@@ -1,0 +1,20 @@
+{
+  "id": "rachmaninoff-concerto-2-moderato",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        78.5,
+        92.5
+      ],
+      "b": [
+        448.0,
+        462.0
+      ],
+      "label": "The first-subject music returns",
+      "basis": "The first subject and its associated material return in the recapitulation with changed piano writing. The excerpts lie in the later part of the opening subject group and its returning continuation, rather than at the large climax itself. CENS diagonal mean 0.931, sustained 14 s, fixed pitch-class shift 0 semitones and time offset 369.5 s (cache/form/rachmaninoff-concerto-2-moderato.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The 15.5 s match within the E♭-major second-subject group is a local phrase restatement and is not shown as another major return. The horn’s later second-subject version did not produce a qualifying sustained path. No arc is drawn from a shared key estimate alone."
+}

@@ -82,11 +82,13 @@ C,4 | F,4 | G,4 | C,4 |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Watteau, Jean-Antoine - Les Plaisirs du Bal - Google Art Project.jpg',
       artist: 'Jean-Antoine Watteau', title: 'Les Plaisirs du bal', date: 'c. 1715–17', medium: 'Oil on canvas', collection: 'Dulwich Picture Gallery, London',
       note: `<p>A dancer performs before a seated company while musicians occupy the architectural setting. The painting dates from the years of Couperin’s first two harpsichord books, whose dances and social portraits similarly depend on a small audience’s knowledge of gesture and deportment. The link is their shared Parisian culture. Watch the difference between the central dance and the spectators’ individual poses; listen for the comparable distinction between a piece’s dance pattern and its local ornaments.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:L\'Embarquement pour Cythère, by Antoine Watteau, from C2RMF retouched.jpg',
       artist: 'Jean-Antoine Watteau', title: 'Pèlerinage à l’île de Cythère', date: '1717', medium: 'Oil on canvas', collection: 'Musée du Louvre, Paris',
       note: `<p>Watteau submitted this painting to the Académie royale in 1717; its lovers and theatrical landscape helped establish the category <i>fête galante</i>. Couperin’s second harpsichord book appeared in the same year. Both works belong to a culture in which pastoral costume and gestures of courtship could be presented as art for private spectators. No documented programme connects this painting with <i>Les Barricades mystérieuses</i>.</p>`,

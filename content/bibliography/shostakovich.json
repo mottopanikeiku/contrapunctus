@@ -1,0 +1,24 @@
+{
+ "id": "shostakovich",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Laurel E. Fay, *Shostakovich: A Life* (Oxford University Press, 1999).",
+   "url": "https://books.google.com/books/about/Shostakovich.html?id=2H-fma7sFd0C",
+   "kind": "biography",
+   "note": "Uses letters, concert programmes, reviews, newspapers and contemporary diaries to reconstruct the career."
+  },
+  {
+   "cite": "Dmitri Shostakovich and Isaak Glikman, *Chronicle of a Friendship* (Faber and Faber, 2001).",
+   "url": "https://openlibrary.org/books/OL7857755M",
+   "kind": "letters",
+   "note": "The correspondence with Glikman provides a first-person source alongside retrospective biographical accounts."
+  },
+  {
+   "cite": "DSCH Publishers, *Dmitri Shostakovich* (online editions and research resource).",
+   "url": "https://shostakovich-en.ru/1en",
+   "kind": "catalogue",
+   "note": "The publisher’s resource links life chronicles, compositions and the New Collected Works."
+  }
+ ]
+}

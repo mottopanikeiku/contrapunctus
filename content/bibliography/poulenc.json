@@ -1,0 +1,24 @@
+{
+ "id": "poulenc",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Roger Nichols, *Poulenc: A Biography* (Yale University Press, 2020).",
+   "url": "https://yalebooks.yale.edu/book/9780300252552/poulenc/",
+   "kind": "biography",
+   "note": "A life-and-works account to set beside the testimony of Poulenc’s collaborators."
+  },
+  {
+   "cite": "Pierre Bernac, *Francis Poulenc* (Kahn & Averill, 2002 edition).",
+   "url": "https://openlibrary.org/books/OL8651296M",
+   "kind": "study",
+   "note": "The singer’s account of the composer; the link identifies this edition of Bernac’s book."
+  },
+  {
+   "cite": "Association des Amis de Francis Poulenc, ‘Biography’ (online chronology).",
+   "url": "https://poulenc.fr/en/biography/",
+   "kind": "reference",
+   "note": "A chronological account organised around compositions, premieres, performers and personal encounters."
+  }
+ ]
+}

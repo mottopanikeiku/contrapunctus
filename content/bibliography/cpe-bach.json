@@ -1,0 +1,30 @@
+{
+ "id": "cpe-bach",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "David Schulenberg, *The Music of Carl Philipp Emanuel Bach* (University of Rochester Press, 2014).",
+   "url": "https://schulenbergmusic.org/the-music-of-carl-philipp-emanuel-bach/",
+   "kind": "biography",
+   "note": "A career-and-works survey covering keyboard, instrumental and vocal music."
+  },
+  {
+   "cite": "Christoph Wolff and Ulrich Leisinger, ‘Bach, Carl Philipp Emanuel’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278185",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "David Schulenberg, *C. P. E. Bach Pages: Indexes, Concordances, and Other Material for the Study of Music by C.P.E. Bach* (online, updated 2022).",
+   "url": "https://schulenbergmusic.org/c-p-e-bach-pages/",
+   "kind": "catalogue",
+   "note": "Free Wotquenne–Helm concordance, catalogue index and chronological work-list."
+  },
+  {
+   "cite": "Carl Philipp Emanuel Bach, *Essay on the True Manner of Playing the Clavier*, translated by Tobias Plebuch and Derek Remeš, edited by Mark W. Knoll (Packard Humanities Institute, online edition, n.d.; accessed 16 October 2026).",
+   "url": "https://versuch.cpebach.org/",
+   "kind": "study",
+   "note": "Free parallel German–English text with musical examples on fingering, ornamentation, performance and accompaniment."
+  }
+ ]
+}

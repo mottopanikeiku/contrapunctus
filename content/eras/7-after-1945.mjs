@@ -91,6 +91,7 @@ A B c d | e d c B | A2 G2 | A4 |]`,
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'lacquer',
       file: 'File:Piet Mondrian, 1942 - Broadway Boogie Woogie.jpg',
       artist: 'Piet Mondrian', title: 'Broadway Boogie Woogie', date: '1942–43',
@@ -98,6 +99,7 @@ A B c d | e d c B | A2 G2 | A4 |]`,
       note: '<p>The grid provides a stable division while short coloured units interrupt its continuity, making the eye compare repetition and displacement. Its musical title refers to boogie-woogie, which Mondrian encountered in New York after arriving in 1940. The <a href="https://www.moma.org/collection/works/78682">MoMA record</a> documents that setting. Postwar process music addresses a related technical problem: keeping the underlying unit recognisable while its combinations change. The link to Reich is a comparison of technique, with no documented influence.</p>',
     },
     {
+      relation: 'editorial-comparison',
       type: 'poem', author: 'Henry David Thoreau', title: 'Walden — from “Sounds”', date: '1854',
       lang: 'English',
       original: `I did not read books the first summer; I hoed beans. Nay, I often did better than this. There were times when I could not afford to sacrifice the bloom of the present moment to any work, whether of the head or hands. I love a broad margin to my life.`,

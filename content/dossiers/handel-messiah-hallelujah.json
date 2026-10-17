@@ -1,0 +1,225 @@
+{
+  "id": "handel-messiah-hallelujah",
+  "work": {
+    "title": "Messiah",
+    "catalogue": "HWV 56",
+    "movement": "Part II: Hallelujah",
+    "version": {
+      "value": "The cited Westminster issue describes the performance as based on the original Dublin performance of 13 April 1742.",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "This is the record’s own description, not a score-collation result. No editor is named; numbering varies between the digital file and this issue."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "London Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "London Philharmonic Choir",
+        "role": "choir"
+      },
+      {
+        "name": "Hermann Scherchen",
+        "role": "conductor"
+      },
+      {
+        "name": "Frederick Jackson",
+        "role": "chorus master"
+      },
+      {
+        "name": "Thomas Matthews",
+        "role": "orchestral leader"
+      },
+      {
+        "name": "George Eskdale",
+        "role": "trumpet"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "discography"
+    ],
+    "note": "The complete-set soloists are Margaret Ritchie, Constance Shacklock (spelt Schacklock on Commons), William Herbert and Richard Standen. They are not presented as vocal soloists in this chorus."
+  },
+  "session": {
+    "date": {
+      "value": "1953",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "Commons gives 1 January 1953 and repeats it as structured inception. The embedded DATE gives only 1953; no session log corroborates the day or month, which are therefore not adopted.",
+      "precision": "year"
+    },
+    "place": {
+      "value": "London",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "The discographic entry transcribes “Recorded by Westminster in London”; no venue is stated."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Westminster; a Nixa recording",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "discography"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "XWN 3306 — documented 1957 reissue",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "The physical edition used for the Commons transfer is not established."
+    },
+    "matrixTakeSides": {
+      "value": "Hallelujah is side E, track 5 on Westminster XWN 3306.",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "That set is auto-coupled: sides 1/6, 2/5 and 3/4. No matrix or take number, nor proof that this pressing supplied the stream, was recovered."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Lavf57.83.100. Commons master: Ogg Vorbis, 44.1 kHz, 1 channel.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Handel_-_Messiah%2C_Part_2_%28Scherchen%29_-_45._Hallelujah.ogg/Handel_-_Messiah%2C_Part_2_%28Scherchen%29_-_45._Hallelujah.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 1 channel",
+    "durationSeconds": 201.0165986394558
+  },
+  "rights": {
+    "composition": {
+      "value": "Original composition and eighteenth-century English libretto are public domain in the United States.",
+      "status": "inferred",
+      "sourceIds": [
+        "work-source",
+        "us-work-term"
+      ],
+      "note": "The original complete score was published in 1767; this does not determine rights in a later edition or recording."
+    },
+    "recording": {
+      "value": "Commons asserts public-domain status in the European Union under PD-EU-audio.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-recording",
+        "us-recording-law"
+      ],
+      "note": "This is not a worldwide licence. US pre-1972 sound-recording terms differ under 17 U.S.C. § 1401; US reuse of this recording and any separately protected restoration is not established by the Commons tag."
+    },
+    "creditLine": "London Symphony Orchestra and London Philharmonic Choir; Hermann Scherchen, conductor; Frederick Jackson, chorus master. Westminster source, via Wikimedia Commons. Commons asserts EU public-domain recording status (PD-EU-audio); rights elsewhere are not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Handel - Messiah, Part 2 (Scherchen) - 45. Hallelujah.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Handel_-_Messiah,_Part_2_(Scherchen)_-_45._Hallelujah.ogg?oldid=1285956118",
+      "locator": "File-description wikitext revision 1285956118; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M70137275",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M70137275&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1285956118. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AHandel+-+Messiah%2C+Part+2+%28Scherchen%29+-+45.+Hallelujah.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "discography",
+      "title": "Discogs: Westminster XWN 3306, Scherchen’s London Messiah",
+      "url": "https://www.discogs.com/release/5881961",
+      "locator": "1957 US mono reissue: performer credits, London recording note, “Based on the Original Dublin Performance April 13, 1742”; Hallelujah is E5. This is not a claim that this pressing supplied the digital file.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "label-check",
+      "title": "Deutsche Grammophon: Scherchen Messiah, UPC 00028947123224",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/handel-messiah-scherchen-8711",
+      "locator": "This catalogue entry has the Vienna State Opera Orchestra and different soloists. It is a different Scherchen Messiah and was not used to fill this London recording’s credits.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-source",
+      "title": "IMSLP: Messiah, HWV 56",
+      "url": "https://imslp.org/wiki/Messiah%2C_HWV_56_(Handel%2C_George_Frideric)",
+      "locator": "General Information: first complete publication 1767; selections from 1742; original English text compiled by Charles Jennens.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-work-term",
+      "title": "Commons: US expiry for published compositions",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+      "locator": "Published works before 1931 are public domain in the United States as of 2026; the template expressly excludes sound recordings.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-recording",
+      "title": "Commons: scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template text and documentation: performers’ and producers’ rights in the EU; explicitly not a composition-rights tag.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recording-law",
+      "title": "17 U.S.C. § 1401: pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication, with separate periods for 1923–1946, 1947–1956 and later recordings.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

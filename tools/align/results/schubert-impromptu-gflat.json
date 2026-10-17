@@ -1,0 +1,363 @@
+{
+  "uniqueScoreAttacks": 2099,
+  "audioDetectedOnsets": 866,
+  "medianAbsoluteOnsetDeviation": 0.11980040078046272,
+  "noteWeightedMedianDeviation": 0.08524706006435423,
+  "p95AbsoluteOnsetDeviation": 0.5360121156989877,
+  "fractionWithin150ms": 0.6198189614101953,
+  "worstFiveOnsetRegions": [
+    {
+      "start": 344.0,
+      "end": 352.0,
+      "attacks": 21,
+      "median": 0.44554982070343385,
+      "p95": 1.0436811158571686,
+      "max": 1.055179230606882,
+      "adaptiveMedian": 0.08936738648958453,
+      "adaptiveP95": 0.34431076306520936
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 53,
+      "median": 0.24544079259604246,
+      "p95": 1.0978395691609364,
+      "max": 1.2017983045931544,
+      "adaptiveMedian": 0.04370524178671076,
+      "adaptiveP95": 0.15658794758217595
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 54,
+      "median": 0.2113102159468241,
+      "p95": 0.8191915803143114,
+      "max": 1.0465977825239179,
+      "adaptiveMedian": 0.05138055028211852,
+      "adaptiveP95": 0.1527182308970053
+    },
+    {
+      "start": 320.0,
+      "end": 328.0,
+      "attacks": 42,
+      "median": 0.19337011548816463,
+      "p95": 0.5392412527025838,
+      "max": 0.6265714813056888,
+      "adaptiveMedian": 0.054817605337262876,
+      "adaptiveP95": 0.154691112297931
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 48,
+      "median": 0.18250497679689204,
+      "p95": 0.6950060578494927,
+      "max": 0.7429746084480655,
+      "adaptiveMedian": 0.04479242472166334,
+      "adaptiveP95": 0.13515914873695178
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 344.0,
+      "end": 352.0,
+      "attacks": 21,
+      "median": 0.44554982070343385,
+      "p95": 1.0436811158571686,
+      "max": 1.055179230606882,
+      "adaptiveMedian": 0.08936738648958453,
+      "adaptiveP95": 0.34431076306520936
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 47,
+      "median": 0.12237501977540433,
+      "p95": 0.24979472525438098,
+      "max": 0.35509742656762455,
+      "adaptiveMedian": 0.05779158756527636,
+      "adaptiveP95": 0.18097217607974572
+    },
+    {
+      "start": 296.0,
+      "end": 304.0,
+      "attacks": 58,
+      "median": 0.135259172467471,
+      "p95": 0.35308917282998775,
+      "max": 0.4245969124083331,
+      "adaptiveMedian": 0.05532164610033874,
+      "adaptiveP95": 0.1703610023466041
+    },
+    {
+      "start": 320.0,
+      "end": 328.0,
+      "attacks": 42,
+      "median": 0.19337011548816463,
+      "p95": 0.5392412527025838,
+      "max": 0.6265714813056888,
+      "adaptiveMedian": 0.054817605337262876,
+      "adaptiveP95": 0.154691112297931
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 39,
+      "median": 0.17131084216627812,
+      "p95": 0.5526472670463735,
+      "max": 0.8342414834153402,
+      "adaptiveMedian": 0.053427068501832764,
+      "adaptiveP95": 0.17135847439803917
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 152.0,
+      "meanCosine": 0.6713517667604635
+    },
+    {
+      "start": 184.0,
+      "meanCosine": 0.7095302858886232
+    },
+    {
+      "start": 200.0,
+      "meanCosine": 0.7149965676079963
+    },
+    {
+      "start": 24.0,
+      "meanCosine": 0.7200131580587128
+    },
+    {
+      "start": 208.0,
+      "meanCosine": 0.721778923238117
+    }
+  ],
+  "sections": [
+    {
+      "bar": "25",
+      "occ": 1,
+      "editorial": 100,
+      "aligned": 98.18930232558138,
+      "difference": -1.8106976744186198
+    },
+    {
+      "bar": "55",
+      "occ": 1,
+      "editorial": 218,
+      "aligned": 218.9609302325581,
+      "difference": 0.9609302325580984
+    },
+    {
+      "bar": "75",
+      "occ": 1,
+      "editorial": 298,
+      "aligned": 300.47534883720925,
+      "difference": 2.4753488372092534
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.6,
+      "nearestOnsetDeviation": 0.042721088435374144
+    },
+    {
+      "label": "middle",
+      "bar": "44",
+      "occ": 1,
+      "scoreQ": 344.0,
+      "audioSeconds": 172.87,
+      "nearestOnsetDeviation": 0.1302721088435419
+    },
+    {
+      "label": "last",
+      "bar": "86",
+      "occ": 1,
+      "scoreQ": 680.0,
+      "audioSeconds": 348.23255813953483,
+      "nearestOnsetDeviation": 0.04354163370777542
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "86",
+      "occ": 1,
+      "midi": 30,
+      "voice": "lower-1",
+      "durationQ": 8.0,
+      "onset": 348.23255813953483,
+      "offset": 357.8199999999999,
+      "durationSeconds": 9.587441860465049
+    },
+    {
+      "bar": "86",
+      "occ": 1,
+      "midi": 37,
+      "voice": "lower-1",
+      "durationQ": 8.0,
+      "onset": 348.23255813953483,
+      "offset": 357.8199999999999,
+      "durationSeconds": 9.587441860465049
+    },
+    {
+      "bar": "86",
+      "occ": 1,
+      "midi": 42,
+      "voice": "lower-1",
+      "durationQ": 8.0,
+      "onset": 348.23255813953483,
+      "offset": 357.8199999999999,
+      "durationSeconds": 9.587441860465049
+    },
+    {
+      "bar": "86",
+      "occ": 1,
+      "midi": 54,
+      "voice": "upper-1",
+      "durationQ": 8.0,
+      "onset": 348.23255813953483,
+      "offset": 357.8199999999999,
+      "durationSeconds": 9.587441860465049
+    },
+    {
+      "bar": "86",
+      "occ": 1,
+      "midi": 58,
+      "voice": "upper-1",
+      "durationQ": 8.0,
+      "onset": 348.23255813953483,
+      "offset": 357.8199999999999,
+      "durationSeconds": 9.587441860465049
+    },
+    {
+      "bar": "86",
+      "occ": 1,
+      "midi": 66,
+      "voice": "upper-1",
+      "durationQ": 8.0,
+      "onset": 348.23255813953483,
+      "offset": 357.8199999999999,
+      "durationSeconds": 9.587441860465049
+    }
+  ],
+  "recurrence": [
+    {
+      "aStart": 2.0,
+      "aEnd": 26.0,
+      "predictedBStart": 220.9609302325581,
+      "bestBStart": 220.5,
+      "offsetSeconds": 218.5,
+      "boundaryResidualSeconds": -0.4609302325580984,
+      "cosine": 0.9460622538067444,
+      "searchRadiusSeconds": 8
+    }
+  ],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.01730717054263664,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7923476430280902,
+  "endAnchor": {
+    "scoreQ": 688.0,
+    "audioSeconds": 357.8199999999999,
+    "decodedDuration": 357.8466666666667,
+    "activeEndMinus45dB": 357.81950113378684
+  },
+  "id": "schubert-impromptu-gflat",
+  "tuningHz": 440.0,
+  "audioSha256": "6abb43e0f67d70375e41c5caa5ad0222760c34d6d087f628ce9a6fcb4e3530a4",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Compile hautI, hautII, basI, basII and basIII separately. Cross-staff figures remain attached to their source variable, not their destination MIDI staff. The aggregate pitch/onset set equals the published MIDI after its eight-quarter SILENCE pre-roll is removed. Encoder-authored playback tempo and pedal are not note timings."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      99.68930232558138,
+      98.18930232558137
+    ],
+    [
+      224.3009302325581,
+      218.9609302325581
+    ],
+    [
+      307.37534883720923,
+      300.47534883720925
+    ],
+    [
+      353.0662790697674,
+      348.22
+    ]
+  ],
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.6,
+      "peakSeconds": 0.64,
+      "window": [
+        0.4,
+        0.85
+      ],
+      "midiPitches": [
+        42,
+        49,
+        70
+      ],
+      "basis": "Pitch-energy inspection: opening G♭ bass/B♭ melody after leading noise; final G♭ chord. The original feature path put early arpeggio notes before the first attack."
+    },
+    {
+      "label": "last",
+      "scoreQ": 680.0,
+      "audioSeconds": 348.22,
+      "peakSeconds": 348.26,
+      "window": [
+        347.95,
+        348.5
+      ],
+      "midiPitches": [
+        30,
+        37,
+        42,
+        54,
+        58,
+        66
+      ],
+      "basis": "Pitch-energy inspection: opening G♭ bass/B♭ melody after leading noise; final G♭ chord. The original feature path put early arpeggio notes before the first attack."
+    }
+  ],
+  "adaptiveOnsetCount": 1841,
+  "adaptiveMedianDeviation": 0.04325113378686751,
+  "gateReasons": [],
+  "elapsedSeconds": 0.7279679359926376,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 86,
+    "notes": 2730,
+    "voices": 5
+  }
+}

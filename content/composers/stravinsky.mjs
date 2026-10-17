@@ -145,6 +145,7 @@ C _D _E =E ^F G A _B | c _B A G ^F =E _E _D |]`,
 
   arts: [
     {
+      relation: 'documented-use',
       type: 'painting', frame: 'mat',
       file: 'File:Roerich Rite of Spring.jpg',
       artist: 'Nicholas Roerich', title: 'Kiss to the Earth: second variant of the scenery design for The Rite of Spring', date: '1912',
@@ -152,6 +153,7 @@ C _D _E =E ^F G A _B | c _B A G ^F =E _E _D |]`,
       note: `<p>Roerich was the ballet’s co-author as well as its designer. This study belongs to the 1913 production’s first part, “Adoration of the Earth”; its receding hills and stones place collective action in a landscape. The scenario’s games, processions and sacrifice supplied occasions for contrasted musical blocks. Roerich’s archaeological interests informed these modern constructions of pagan ceremony. Commons identifies this pre-1931 design as public domain; Roerich died in 1947.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'painting', frame: 'mat',
       file: 'File:Léon Bakst 001.jpg',
       artist: 'Léon Bakst', title: 'Costume design for The Firebird', date: '1910',
@@ -159,6 +161,7 @@ C _D _E =E ^F G A _B | c _B A G ^F =E _E _D |]`,
       note: `<p>Bakst’s design belongs to the Ballets Russes production that introduced Stravinsky to Paris. Its elaborated wings and plumage made the supernatural creature visible through a dancer’s body; the score distinguishes that creature through chromatic movement, rapid figuration and orchestral colour. The production was collaborative: Fokine choreographed, Alexander Golovin designed the scenery and other costumes, and Karsavina created the Firebird.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Firebird (big).jpeg',
       artist: 'Ivan Bilibin', title: 'Tsarevich Ivan and the Firebird', date: '1899, dated in the image',
@@ -166,6 +169,7 @@ C _D _E =E ^F G A _B | c _B A G ^F =E _E _D |]`,
       note: `<p>Bilibin shows Ivan catching a feather from the bird among the apple trees, a scene from <i>The Tale of Ivan Tsarevich, the Firebird and the Grey Wolf</i>. The ballet’s scenario combines material from several Russian tales. The illustration establishes the existing visual vocabulary — the bird’s long plumage, the orchard, Ivan’s clothing — on which a Paris audience’s Russian fairy-tale spectacle depended. It belongs to the source tradition, outside the designs for the 1910 production.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'painting', frame: 'mat',
       file: "File:William Hogarth - A Rake's Progress, Plate VIII, In Bedlam - B1981.25.1418 - Yale Center for British Art.jpg",
       artist: 'William Hogarth', title: 'A Rake’s Progress, Plate VIII: In Bedlam', date: '1735',

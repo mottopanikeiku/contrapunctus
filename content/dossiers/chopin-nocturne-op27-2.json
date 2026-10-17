@@ -1,0 +1,157 @@
+{
+  "id": "chopin-nocturne-op27-2",
+  "work": {
+    "title": "Nocturne in D♭ major",
+    "catalogue": "Op. 27 No. 2",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Frank Lévy",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "c. 2014",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons supplies an approximate date, not a session log. The approximation is retained and is not sharpened to a day or month.",
+      "precision": "approximate"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the sources consulted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The label or imprint of the carrier used for this digital file is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number identifying the transferred carrier is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration, equalisation, noise-reduction or editing procedure is documented for the upstream audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Chopin_-_Nocturne_No._8_in_D-flat_major%2C_Op._27_No._2_%28Frank_Levy%29.flac/Chopin_-_Nocturne_No._8_in_D-flat_major%2C_Op._27_No._2_%28Frank_Levy%29.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "release"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 377.7704375
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons applies PD-old-auto-expired, with Chopin’s death year 1849.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Composition rights are distinct from the rights in Lévy’s recording."
+    },
+    "recording": {
+      "value": "Public-domain dedication by Musopen, recorded on Commons as PD-author.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "The file page states a worldwide dedication and unrestricted fallback permission where a dedication is not legally possible. This is not labelled CC0."
+    },
+    "creditLine": "Frédéric Chopin, Nocturne in D♭ major, Op. 27 No. 2; Frank Lévy, piano. Musopen, Set Chopin Free; recording dedicated to the public domain, via Wikimedia Commons.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-author"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._8_in_D-flat_major,_Op._27_No._2_(Frank_Levy).flac?oldid=1123916421",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._8_in_D-flat_major,_Op._27_No._2_(Frank_Levy).flac#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "release",
+      "title": "Musopen — Set Chopin Free project update",
+      "url": "https://www.kickstarter.com/projects/Musopen/set-chopin-free/posts/1193714",
+      "locator": "Upstream source cited in Commons wikitext and Structured data. Direct access returned HTTP 403; no additional session details were extracted.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

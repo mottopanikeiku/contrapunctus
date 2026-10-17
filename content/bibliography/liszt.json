@@ -1,0 +1,30 @@
+{
+ "id": "liszt",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Alan Walker, *Franz Liszt*, vol. 1, *The Virtuoso Years, 1811–1847*, revised edition (Ithaca, NY: Cornell University Press, 1987).",
+   "url": "https://www.cornellpress.cornell.edu/book/9780801494215/franz-liszt",
+   "kind": "biography",
+   "note": "First volume of Walker’s biography, covering training and the virtuoso career."
+  },
+  {
+   "cite": "Dolores Pesce, Maria Eckhardt and Rena Charnin Mueller, ‘Liszt, Franz’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.48265",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Humphrey Searle, *The Music of Liszt* (London: Williams & Norgate, 1954).",
+   "url": "https://ci.nii.ac.jp/ncid/BA37659759",
+   "kind": "catalogue",
+   "note": "Historical musical survey with a catalogue of works on pages 155–195."
+  },
+  {
+   "cite": "Franz Liszt, *Letters of Franz Liszt*, vol. 1, *From Paris to Rome: Years of Travel as a Virtuoso*, collected by La Mara, translated by Constance Bache (Project Gutenberg, 2003 electronic edition).",
+   "url": "https://www.gutenberg.org/cache/epub/3689/pg3689.html",
+   "kind": "letters",
+   "note": "Freely readable historical translation of correspondence; distinguish letters from the electronic edition’s introductory commentary."
+  }
+ ]
+}

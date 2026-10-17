@@ -1,0 +1,36 @@
+{
+ "id": "bach",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Christoph Wolff, *Johann Sebastian Bach: The Learned Musician* (New York: W. W. Norton, 2000).",
+   "url": "https://books.google.com/books?id=0hFjQgAACAAJ",
+   "kind": "biography",
+   "note": "Documentary biography connecting Bach’s employment, education, performing and composition."
+  },
+  {
+   "cite": "Christoph Wolff and Walter Emery, ‘Bach, Johann Sebastian’, *Grove Music Online* (Oxford University Press, 2001; revised 2024).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278195",
+   "kind": "reference",
+   "note": "Detailed chronology, genre surveys, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Wolfgang Schmieder, *Bach-Werke-Verzeichnis*, third edition, revised by Christine Blanken, Christoph Wolff and Peter Wollny (Wiesbaden: Breitkopf & Härtel, 2022).",
+   "url": "https://www.breitkopf.us/products/bach-werke-verzeichnis-bwv3-breitkopf",
+   "kind": "catalogue",
+   "note": "BWV³ distinguishes work versions and incorporates source research since the earlier catalogues."
+  },
+  {
+   "cite": "Hans T. David and Arthur Mendel, eds, *The New Bach Reader: A Life of Johann Sebastian Bach in Letters and Documents*, revised by Christoph Wolff (New York: W. W. Norton, 1998).",
+   "url": "https://openlibrary.org/books/OL15480019M",
+   "kind": "letters",
+   "note": "Letters, contracts, reports and contemporary testimony in English translation."
+  },
+  {
+   "cite": "Bach-Archiv Leipzig and partner libraries, *Bach Digital* (online source database, accessed 16 October 2026).",
+   "url": "https://www.bach-digital.de/",
+   "kind": "reference",
+   "note": "Free manuscript facsimiles and source descriptions, searchable by work and BWV number."
+  }
+ ]
+}

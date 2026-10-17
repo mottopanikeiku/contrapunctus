@@ -1,0 +1,24 @@
+{
+ "id": "modernism",
+ "kind": "era",
+ "items": [
+  {
+   "cite": "Daniel Albright, ed., *Modernism and Music: An Anthology of Sources* (University of Chicago Press, 2004).",
+   "url": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo3614555.html",
+   "kind": "reference",
+   "note": "Brings composers’ and critics’ writings together with musical arguments by poets, novelists and philosophers."
+  },
+  {
+   "cite": "Joseph Auner, *Music in the Twentieth and Twenty-First Centuries* (W. W. Norton, 2013).",
+   "url": "https://wwnorton.co.uk/books/9780393929201-music-in-the-twentieth-and-twenty-first-centuries",
+   "kind": "survey",
+   "note": "Sets compositional developments beside war, social upheaval, technological change and changing relations between composers and listeners."
+  },
+  {
+   "cite": "Nicholas Cook and Anthony Pople, eds, *The Cambridge History of Twentieth-Century Music* (Cambridge University Press, 2004).",
+   "url": "https://www.cambridge.org/core/books/cambridge-history-of-twentiethcentury-music/E928BAE181029624B93340FC0B689BFB",
+   "kind": "survey",
+   "note": "Relates art music, popular traditions, technology and musical consumption within a wider social history."
+  }
+ ]
+}

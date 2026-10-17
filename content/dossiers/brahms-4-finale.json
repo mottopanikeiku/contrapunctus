@@ -1,0 +1,218 @@
+{
+  "id": "brahms-4-finale",
+  "work": {
+    "title": "Symphony No. 4 in E minor",
+    "catalogue": "Op. 98",
+    "movement": "IV. Allegro energico e passionato — Più allegro",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Musopen Symphony",
+        "role": "orchestra — Commons page credit"
+      },
+      {
+        "name": "Czech National Symphony Orchestra",
+        "role": "orchestra — embedded FLAC credit"
+      }
+    ],
+    "status": "disputed",
+    "sourceIds": [
+      "commons",
+      "file-metadata"
+    ],
+    "note": "The display name and the embedded artist tag differ. It is not established whether ‘Musopen Symphony’ is a project credit for this orchestra or a mistaken attribution. No conductor is identified.",
+    "alternatives": [
+      {
+        "value": [
+          {
+            "name": "Musopen Symphony",
+            "role": "orchestra"
+          }
+        ],
+        "sourceIds": [
+          "commons"
+        ]
+      },
+      {
+        "value": [
+          {
+            "name": "Czech National Symphony Orchestra",
+            "role": "orchestra"
+          }
+        ],
+        "sourceIds": [
+          "file-metadata"
+        ]
+      }
+    ]
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Commons gives 2012, while the upstream collection documents project completion and public release in 2012. Neither identifies a recording session; 2012 is not promoted to a session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the sources consulted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The label or imprint of the carrier used for this digital file is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number identifying the transferred carrier is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Commons file: 24-bit FLAC; upstream collection description: 32-bit conversion.",
+      "status": "disputed",
+      "sourceIds": [
+        "archive",
+        "file-metadata"
+      ],
+      "note": "Commons’ file metadata documents a 48 kHz stereo 24-bit FLAC encoded with libFLAC 1.2.1. The Internet Archive’s collection-wide description says 32 bits per sample. The records do not establish whether an intervening conversion explains the difference; no mastering or noise treatment is documented.",
+      "alternatives": [
+        {
+          "value": "24-bit, 48 kHz stereo FLAC in Commons file metadata.",
+          "sourceIds": [
+            "file-metadata"
+          ]
+        },
+        {
+          "value": "32-bit FLAC conversion claimed in the upstream collection description.",
+          "sourceIds": [
+            "archive"
+          ]
+        }
+      ]
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Brahms_-_Symphony_No._4_in_E_minor%2C_Op._98_-_IV._Allegro_energico_e_passionato_-_Pi%C3%B9_allegro_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._4_in_E_minor%2C_Op._98_-_IV._Allegro_energico_e_passionato_-_Pi%C3%B9_allegro_%28Musopen_Symphony%29.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "archive",
+      "musopen"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 667.7011875
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons applies PD-old-auto-expired, with Brahms’s death year 1897.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The tag addresses the musical composition, including its pre-1931 publication basis in the United States; it is separate from the new recording."
+    },
+    "recording": {
+      "value": "Public-domain dedication by Musopen, recorded on Commons as PD-author.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data",
+        "archive"
+      ],
+      "note": "The upstream collection describes purchasing and releasing this repertoire into the public domain. Its Public Domain Mark is a status marker, not itself a Creative Commons licence."
+    },
+    "creditLine": "Johannes Brahms, Symphony No. 4, Op. 98, IV. Orchestra attribution differs: Musopen Symphony on the Commons page / Czech National Symphony Orchestra in the file tags. Musopen public-domain recording; Internet Archive Musopen Collection as FLAC → Wikimedia Commons.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-author"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Brahms - Symphony No. 4 in E minor, Op. 98 - IV. Allegro energico e passionato - Più allegro (Musopen Symphony).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._4_in_E_minor,_Op._98_-_IV._Allegro_energico_e_passionato_-_Pi%C3%B9_allegro_(Musopen_Symphony).flac?oldid=963505268",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._4_in_E_minor,_Op._98_-_IV._Allegro_energico_e_passionato_-_Pi%C3%B9_allegro_(Musopen_Symphony).flac#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Musopen Collection as FLAC",
+      "url": "https://archive.org/metadata/MusopenCollectionAsFlac/metadata",
+      "locator": "description: Musopen Kickstarter project completed in 2012; Brahms Fourth included; FLAC conversion described as 32 bits per sample; publicdate 29 August 2012.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "musopen",
+      "title": "Musopen — Symphony No. 4 recording page",
+      "url": "https://musopen.org/music/67-symphony-no-4-in-e-minor-op-98/",
+      "locator": "Source link in Commons; direct access returned HTTP 403.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "file-metadata",
+      "title": "Wikimedia Commons — Brahms finale embedded FLAC metadata",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ABrahms%20-%20Symphony%20No.%204%20in%20E%20minor%2C%20Op.%2098%20-%20IV.%20Allegro%20energico%20e%20passionato%20-%20Pi%C3%B9%20allegro%20(Musopen%20Symphony).flac&prop=videoinfo&viprop=metadata%7Csize%7Cmime",
+      "locator": "videoinfo.metadata: VORBIS_COMMENT artist and albumartist = Czech National Symphony Orchestra; album = Musopen Kickstarter Project; date = 2012. FLAC STREAMINFO: 48,000 Hz, stereo, 24 bits per sample.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

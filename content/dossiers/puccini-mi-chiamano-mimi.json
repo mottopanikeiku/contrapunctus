@@ -1,0 +1,156 @@
+{
+  "id": "puccini-mi-chiamano-mimi",
+  "work": {
+    "title": "La bohème",
+    "catalogue": "",
+    "movement": "Act I · Sì, mi chiamano Mimì",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source does not identify a performing edition or arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Claudia Muzio",
+        "role": "soprano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "No accompanists or conductor are identified."
+  },
+  "session": {
+    "date": {
+      "value": "1911",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons description attributes the performance to 1911; no day, month, session location or primary discographic document is supplied.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original release label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or restoration engineer is identified; an uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No source-transfer or restoration processing is disclosed. The access-file encoding is recorded separately."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Puccini_Mi_chiamano_Mim%C3%AC_par_Claudia_Muzio.ogg/Puccini_Mi_chiamano_Mim%C3%AC_par_Claudia_Muzio.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "youtube"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 240.849
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in jurisdictions applying an unextended life-plus-70-year term",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Giacomo Puccini died in 1924. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
+    },
+    "recording": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons applies the general PD-old tag, but gives no separate sound-recording-rights rationale. The attributed 1911 performance date does not by itself document first publication or the transfer’s rights."
+    },
+    "creditLine": "Giacomo Puccini: La bohème, Act I, Sì, mi chiamano Mimì — Claudia Muzio, soprano, attributed to 1911. Via Wikimedia Commons from a cited YouTube source; carrier and transfer unidentified. Commons applies PD-old; separate recording-rights evidence is incomplete.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Puccini_Mi_chiamano_Mim%C3%AC_par_Claudia_Muzio.ogg#Licensing"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Puccini Mi chiamano Mimì par Claudia Muzio.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=999902261",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3APuccini+Mi+chiamano+Mim%C3%AC+par+Claudia+Muzio.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "youtube",
+      "title": "YouTube source named by Commons — AGfXCEGnHyI",
+      "url": "https://www.youtube.com/watch?v=AGfXCEGnHyI",
+      "locator": "Upstream URL in the Commons Source field. Retrieval supplied no transcript or usable discographic description; no transfer credit or carrier identity was independently recovered.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

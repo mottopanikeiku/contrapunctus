@@ -1,0 +1,20 @@
+{
+  "id": "mahler-5-adagietto",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        10.5,
+        26.0
+      ],
+      "b": [
+        423.5,
+        439.0
+      ],
+      "label": "The opening song returns",
+      "basis": "The Adagietto’s A–B–A′ outline restores the F-major opening after the contrasting middle span. The later excerpt lies just after the return marked near 415 s. CENS diagonal mean 0.933, sustained 15.5 s, fixed pitch-class shift 0 semitones and time offset 413 s (cache/form/mahler-5-adagietto.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "A 16 s match later in the two outer sections and an overlapping 12 s opening match support the same broad return rather than separate events. The changing phrase lengths prevent a single fixed offset from aligning the whole A and A′ sections. Harp patterns and sustained tonic harmony are not identified as independent thematic returns."
+}

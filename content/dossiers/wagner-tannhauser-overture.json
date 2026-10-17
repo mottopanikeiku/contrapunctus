@@ -1,0 +1,176 @@
+{
+  "id": "wagner-tannhauser-overture",
+  "work": {
+    "title": "Tannhäuser",
+    "catalogue": "WWV 70",
+    "movement": "Overture",
+    "version": {
+      "value": "Concert-band performance by the United States Marine Band.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The arranger and score edition are not identified in the retrieved file description."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "United States Marine Band",
+        "role": "concert band"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "structured",
+      "embedded"
+    ],
+    "note": "The retrieved source does not name a conductor; no conductor is assigned from general band leadership dates."
+  },
+  "session": {
+    "date": {
+      "value": "22–25 May 1995",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source explicitly labels this range “Performance”; the particular day or days used for the overture are not given.",
+      "precision": "range"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "United States Marine Band",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Institutional album source; the original physical label imprint is not established."
+    },
+    "catalogue": {
+      "value": "Director’s Choice, track 2",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "Album title and embedded track identifier; no original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Xiph.Org libVorbis I 20070622. Commons master: Ogg Vorbis, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Overture_to_Tannhauser_-_U.S._Marine_Band.ogg/Overture_to_Tannhauser_-_U.S._Marine_Band.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 867.4220408163266
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-100. The arranger is unidentified; no separate arrangement-rights grant was recovered."
+    },
+    "recording": {
+      "value": "Public domain in the United States: U.S. Marine Corps federal-government performance.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "Commons uses PD-USGov-Military-Marines; structured public-domain status is qualified to the United States. This does not establish worldwide status."
+    },
+    "creditLine": "United States Marine Band. Director’s Choice, track 2, via Wikimedia Commons. Recording: U.S. federal-government work, public domain in the United States; arranger unidentified.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Overture to Tannhauser - U.S. Marine Band.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Overture_to_Tannhauser_-_U.S._Marine_Band.ogg?oldid=1183107191",
+      "locator": "File-description wikitext revision 1183107191; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M16188352",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M16188352&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1183107191. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AOverture+to+Tannhauser+-+U.S.+Marine+Band.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "U.S. Marine Band: Director’s Choice, original album page",
+      "url": "http://marineband.usmc.mil/audio_resources/discography/directors_choice.htm",
+      "locator": "Original source linked by Commons. The host no longer resolved during retrieval; no booklet, conductor, arranger or session venue was recovered from it.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "official-catalogue",
+      "title": "U.S. Marine Band: New audio downloads for May",
+      "url": "https://www.marineband.marines.mil/News/Article/587559/new-audio-downloads-for-may/",
+      "locator": "Located as an official album-related source, but direct retrieval returned HTTP 403. No additional field was promoted to documented from this inaccessible page.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

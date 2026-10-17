@@ -1,0 +1,34 @@
+{
+  "id": "schumann-piano-concerto-1",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        37.5,
+        86.5
+      ],
+      "b": [
+        484.0,
+        533.0
+      ],
+      "label": "The opening group returns",
+      "basis": "The recapitulation restores the opening thematic group and its active bridge. These excerpts span that continuation in the exposition and recapitulation, matching the listening notes near 48 and 494 s. CENS diagonal mean 0.947, sustained 49 s, fixed pitch-class shift 0 semitones and time offset 446.5 s (cache/form/schumann-piano-concerto-1.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "transposed return",
+      "a": [
+        157.0,
+        198.0
+      ],
+      "b": [
+        598.0,
+        639.0
+      ],
+      "label": "The major-key theme comes home",
+      "basis": "The exposition’s C-major thematic restatement returns in A major during the recapitulation. The measured downward three-semitone shift agrees with that tonal change; these are excerpts inside the larger major-key groups. CENS diagonal mean 0.919, sustained 41 s, fixed pitch-class shift -3 semitones and time offset 441 s (cache/form/schumann-piano-concerto-1.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Additional downward-three-semitone paths overlap the same major-key return and are not separate arcs. The shifted development match is treated as a local sequence without a securely identified phrase. The cadenza and two-beat closing transformation are not equated with unchanged exposition material."
+}

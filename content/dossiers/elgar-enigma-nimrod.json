@@ -1,0 +1,225 @@
+{
+  "id": "elgar-enigma-nimrod",
+  "work": {
+    "title": "Variations on an Original Theme “Enigma”",
+    "catalogue": "Op. 36",
+    "movement": "IX. Nimrod — Adagio",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Hallé Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "John Barbirolli",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1947",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The upstream description explicitly attributes the recording to 1947. Commons’ 1 January value is not supported as an actual session day.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the sources consulted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The label or imprint of the carrier used for this digital file is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number identifying the transferred carrier is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "A 26-minute MP3 was split into individual variations using Mp3 Direct Cut.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The uploader explicitly describes this editing step. No digitisation engineer, original label, carrier or noise treatment is established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Elgar%3B_Enigma_variations%2C_Theme_IX._Nimrod.ogg/Elgar%3B_Enigma_variations%2C_Theme_IX._Nimrod.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive",
+      "legacy-archive"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 173.8187755102041
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "The composer died in 1934. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Conflicting recording-rights metadata: PD-EU-audio in wikitext; CC0 in Structured data.",
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "commons-data",
+        "archive",
+        "eu-audio",
+        "us-recordings"
+      ],
+      "note": "The upstream item links to an older public-domain dedication page, but does not demonstrate authority to dedicate the 1947 commercial recording. European expiry and a worldwide CC0 dedication are different claims; US clearance is not established.",
+      "alternatives": [
+        {
+          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "sourceIds": [
+            "commons",
+            "eu-audio"
+          ]
+        },
+        {
+          "value": "CC0 — dedication asserted by Commons Structured data.",
+          "sourceIds": [
+            "commons-data"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Edward Elgar, “Nimrod”, Enigma Variations, Op. 36; Hallé Orchestra, John Barbirolli, attributed to 1947. Public Domain Archive → Internet Archive → Wikimedia Commons. Rights metadata conflicts; no worldwide recording clearance is asserted.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Elgar; Enigma variations, Theme IX. Nimrod.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg?oldid=1179301953",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Edward Elgar: Enigma Variations",
+      "url": "https://archive.org/metadata/EdwardElgar-EnigmaVariations",
+      "locator": "metadata.description: Barbirolli, Hallé Orchestra, 1947; original 26-minute MP3 divided with Mp3 Direct Cut; files entry 09Ix.Nimrod.mp3. Commons’ source URL lands on track 01, not Nimrod.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "legacy-archive",
+      "title": "Public Domain Archive — former album 177",
+      "url": "http://public-domain-archive.com/classic/download.php?lang=eng&album_no=177",
+      "locator": "Historical source URL quoted in the Internet Archive description. At access it was a parked domain, not the original recording catalogue.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Edward Elgar — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Edward_Elgar",
+      "locator": "Lead paragraph: composer’s death year.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recordings",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

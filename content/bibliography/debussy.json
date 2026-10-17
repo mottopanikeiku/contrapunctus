@@ -1,0 +1,24 @@
+{
+ "id": "debussy",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "François Lesure, *Claude Debussy: A Critical Biography*, English translation and revised edition by Marie Rolf (University of Rochester Press, 2019).",
+   "url": "https://www.cambridge.org/core/books/abs/claude-debussy/introduction/B0D1420F898827672C53D80817E5D35E",
+   "kind": "biography",
+   "note": "A revised English-language biography; the linked introduction explains its relation to Lesure’s earlier French text."
+  },
+  {
+   "cite": "Roy Howat, *Debussy in Proportion: A Musical Analysis* (Cambridge University Press, 1983).",
+   "url": "https://pure.rcs.ac.uk/en/publications/debussy-in-proportion-a-musical-analysis/",
+   "kind": "study",
+   "note": "Investigates symmetry and golden-section proportions through metre and rhythm; a specific analytical argument to test against the scores."
+  },
+  {
+   "cite": "Simon Trezise, ed., *The Cambridge Companion to Debussy* (Cambridge University Press, 2003).",
+   "url": "https://www.cambridge.org/core/books/cambridge-companion-to-debussy/E3A1915027340795EEDB97D211804D05/listing",
+   "kind": "survey",
+   "note": "Essays connect musical language, expression, performance and the history of Debussy interpretation."
+  }
+ ]
+}

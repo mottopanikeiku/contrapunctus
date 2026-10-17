@@ -1,0 +1,169 @@
+{
+  "id": "dvorak-9-largo",
+  "work": {
+    "title": "Symphony No. 9 in E minor “From the New World”",
+    "catalogue": "Op. 95",
+    "movement": "II. Largo",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [],
+    "status": "unknown",
+    "sourceIds": [
+      "commons",
+      "embedded"
+    ],
+    "note": "Commons names the composer and directs readers to Musopen for performers; the Ogg comments contain no performer names. Musopen is a repository, not an orchestra."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons explicitly leaves the date unknown. 1893 in the description refers to the composition, not the recording.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Musopen distributes the file; no original label is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Xiph.Org libVorbis I 20040629. Commons master: Ogg Vorbis, 48 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 48 kHz, 2 channels",
+    "durationSeconds": 694.464
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-100. This does not license a later edition, arrangement or recording."
+    },
+    "recording": {
+      "value": "Public-domain dedication attributed to Musopen.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "This records the source’s dedication, not an independent worldwide legal clearance. The Public Domain Mark is a notice, not a Creative Commons attribution licence. Commons also records permission ticket 2008012110017088; the ticket itself is not publicly inspectable. The quoted FAQ requests courtesy attribution to Musopen."
+    },
+    "creditLine": "Performers unidentified in the retrieved source. Musopen, via Wikimedia Commons. Public-domain dedication attributed to Musopen; courtesy source credit retained.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - ii. largo.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_ii._largo.ogg?oldid=1055787249",
+      "locator": "File-description wikitext revision 1055787249; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M3432368",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M3432368&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1055787249. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AAntonin+Dvorak+-+symphony+no.+9+in+e+minor+%27from+the+new+world%27%2C+op.+95+-+ii.+largo.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Musopen: original source site",
+      "url": "http://www.musopen.com",
+      "locator": "Commons cites the homepage, not an identifiable recording page. It now redirects to musopen.org and returned HTTP 403.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream-rights",
+      "title": "Musopen: historic FAQ cited by Commons",
+      "url": "http://www.musopen.com/faq.html",
+      "locator": "The address now redirects to the homepage and returned HTTP 403. The historic public-domain statement is quoted in full on the Commons file page.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": "bach-brandenburg-5-allegro",
+  "work": {
+    "title": "Brandenburg Concerto No. 5 in D major",
+    "catalogue": "BWV 1050",
+    "movement": "I. Allegro",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Advent Chamber Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Roxana Pavel Goldstein",
+        "role": "solo violin"
+      },
+      {
+        "name": "Constance Schoepflin",
+        "role": "flute"
+      },
+      {
+        "name": "Matthew Ganong",
+        "role": "harpsichord"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "upstream"
+    ],
+    "note": "No conductor is named in these sources."
+  },
+  "session": {
+    "date": {
+      "value": "February 2008",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured",
+        "upstream"
+      ],
+      "note": "The programme lists concerts on 10 and 17 February. It does not identify which concert, or combination, supplied this file.",
+      "precision": "month"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream-files"
+      ],
+      "note": "Pandora Music is the digital repository; an original record label is not stated."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Al Goldstein collection; Pandora Music at ibiblio.org.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Collection and repository credit only; no recording, transfer or restoration engineer is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Xiph.Org libVorbis I 20020717. Commons master: Ogg Vorbis, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Bach_-_Brandenburg_Concerto_5_-_1._Allegro.ogg/Bach_-_Brandenburg_Concerto_5_-_1._Allegro.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream-files",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 598.5333333333333
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in the United States and in ordinary life-plus-70 jurisdictions.",
+      "status": "inferred",
+      "sourceIds": [
+        "work-history",
+        "us-work-term",
+        "author-term"
+      ],
+      "note": "The cited notes date publication to 1850 and Bach’s death to 1750. The status of any modern edition is separate."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution–ShareAlike 2.0",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "Commons explicitly applies CC BY-SA 2.0 via the EFF Open Audio License. The cited historic Read.html licence URL now returns 404; the Commons licence statement remains the retrieved evidence."
+    },
+    "creditLine": "Advent Chamber Orchestra; Roxana Pavel Goldstein, violin; Constance Schoepflin, flute; Matthew Ganong, harpsichord. Al Goldstein collection / Pandora Music, via Wikimedia Commons. CC BY-SA 2.0.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Bach - Brandenburg Concerto 5 - 1. Allegro.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_5_-_1._Allegro.ogg?oldid=1048736444",
+      "locator": "File-description wikitext revision 1048736444; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M5259872",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M5259872&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1048736444. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3ABach+-+Brandenburg+Concerto+5+-+1.+Allegro.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Pandora Music: Music of the Bach Family programme",
+      "url": "http://www.ibiblio.org/pandora/vorbis/chamber_orchestra/MAR-08/readme.html",
+      "locator": "Programme heading: 10 and 17 February 2008; Brandenburg Concerto No. 5 soloists.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream-files",
+      "title": "Pandora Music: Bach-family recording files",
+      "url": "http://www.ibiblio.org/pandora/vorbis/chamber_orchestra/MAR-08/index.html",
+      "locator": "7_JS_Bach_Brandenburg5_Allegro.ogg; directory modification dates are not concert dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-history",
+      "title": "Pandora Music: Bach-family programme notes",
+      "url": "http://www.ibiblio.org/pandora/vorbis/chamber_orchestra/MAR-08/notes.html",
+      "locator": "J. S. Bach’s lifespan 1685–1750 and Brandenburg Concertos publication in 1850.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-work-term",
+      "title": "Commons: US expiry for published compositions",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+      "locator": "Published works before 1931 are public domain in the United States as of 2026; the template expressly excludes sound recordings.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "author-term",
+      "title": "Directive 2006/116/EC: authors’ copyright terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

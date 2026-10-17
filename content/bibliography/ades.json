@@ -1,0 +1,24 @@
+{
+ "id": "ades",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Thomas Adès and Tom Service, *Thomas Adès: Full of Noises* (Faber and Faber, 2012).",
+   "url": "https://ressources.ircam.fr/en/composer/thomas-ades/workcourse",
+   "kind": "reference",
+   "note": "Conversations with the composer; the IRCAM survey cites this book alongside its analytical discussion."
+  },
+  {
+   "cite": "Edward Venn and Philip Stoecker, eds, *Thomas Adès Studies* (Cambridge University Press, 2022).",
+   "url": "https://assets.cambridge.org/97811087/08135/frontmatter/9781108708135_frontmatter.pdf",
+   "kind": "study",
+   "note": "Essays on the music’s harmony, form and dramatic reference; the publisher’s frontmatter identifies the print edition."
+  },
+  {
+   "cite": "Hélène Cao, ‘Survey of works by Thomas Adès’ (IRCAM, 2020).",
+   "url": "https://ressources.ircam.fr/en/composer/thomas-ades/workcourse",
+   "kind": "survey",
+   "note": "A work-by-work introduction connecting interval construction, quotation and dramatic subjects."
+  }
+ ]
+}

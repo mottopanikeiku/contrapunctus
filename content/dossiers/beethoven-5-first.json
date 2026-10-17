@@ -1,0 +1,158 @@
+{
+  "id": "beethoven-5-first",
+  "work": {
+    "title": "Symphony No. 5 in C minor",
+    "catalogue": "Op. 67",
+    "movement": "I. Allegro con brio",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Skidmore College orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The orchestra is named in Commons’ recording-rights statement; no conductor is identified."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "Commons’ 22 December 1808 date, repeated as Structured data inception, concerns the work’s premiere, not this recording. No session date is supplied.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the sources consulted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The label or imprint of the carrier used for this digital file is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number identifying the transferred carrier is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Ogg Vorbis encoding; embedded software tag: Xiph.Org libVorbis I 20050304.",
+      "status": "documented",
+      "sourceIds": [
+        "commons-data"
+      ],
+      "note": "Earlier editing, mastering and noise treatment are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "musopen"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 500.088
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons applies PD-old-100 to Beethoven’s musical composition.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This statement concerns the composition, not the modern orchestral performance. The file page does not supply a separate US composition tag."
+    },
+    "recording": {
+      "value": "Commons lists both PD-author and an attribution-only permission for the recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "PD-author names Skidmore College orchestra and states a worldwide dedication or unrestricted fallback permission. A separate attribution tag also requires credit; this dossier retains the orchestra credit rather than silently dropping that condition."
+    },
+    "creditLine": "Ludwig van Beethoven, Symphony No. 5, Op. 67, I; Skidmore College orchestra. Source: Musopen via Wikimedia Commons. Commons lists a public-domain dedication and attribution-only permission; orchestra attribution is retained.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg#Licensing"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg?oldid=658946491",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "musopen",
+      "title": "Musopen — source recording page named by Commons",
+      "url": "https://musopen.org/music/113/ludwig-van-beethoven/symphony-no-5-in-cm-op-67/",
+      "locator": "Upstream link in Commons’ recording-rights statement; direct access returned HTTP 403 on the access date. No additional session facts are claimed from this unavailable page.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

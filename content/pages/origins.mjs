@@ -9,6 +9,7 @@ export default {
     {
       id: 'monochord', numeral: 'i', label: 'c. 530 BC',
       heading: 'A string divided',
+      question: 'Why does a shorter string sound higher?',
       html: `
 <p class="dropcap">Pythagoras settled at Croton in southern Italy around 530 BC. He left no writings, and the musical discoveries attached to his name belong to a tradition assembled by later authors. What survives is a proposition that could be tested: the octave, fifth and fourth correspond to small whole-number ratios. Music already had long histories in Mesopotamia, Egypt and Greece. The ratios made its intervals available to mathematical demonstration.</p>
 <aside class="note"><b>The blacksmith story</b>Later writers describe Pythagoras discovering consonance from hammers of different weights. The experiment does not work as told: hammer weight alone does not determine pitch, and string frequency varies with the square root of tension, not directly with the suspended weight.</aside>
@@ -34,6 +35,7 @@ V:1 name="Intervals"
         caption: 'An interval schematic. Each bar begins on the same C. The written octave, fifth and fourth represent the intervals associated with 2:1, 3:2 and 4:3; this keyboard playback uses equal temperament, so only the octave reproduces its ratio exactly. Use the harmonic-series diagram to hear integer-ratio partials.',
       }],
       arts: [{
+        relation: 'shared-context',
         type: 'painting', frame: 'gilt',
         file: 'File:Raphael School of Athens.jpg',
         artist: 'Raphael', title: 'The School of Athens', date: '1509–11',
@@ -44,6 +46,7 @@ V:1 name="Intervals"
     {
       id: 'chant', numeral: 'ii', label: 'c. 750–1200',
       heading: 'One line, many functions',
+      question: 'How can one melody carry a whole service?',
       html: `
 <p class="dropcap">Gregorian chant is a repertory of Latin liturgical melodies bearing the name of Pope Gregory the Great. Gregory died in 604; the repertory’s decisive formation and dissemination belong to the eighth- and ninth-century encounter between Roman worship and the Frankish church under the Carolingians. Its exact relationship to the separately transmitted Old Roman chant remains a subject of scholarship. The papal name gave authority to a body of music transmitted first through singers, then through books.</p>
 <p>Chant is monophonic: one melodic line, whether sung by a soloist or a group. It serves two large structures, the Mass and the Divine Office, the daily cycle of services organised around psalms, readings and prayers. The Mass Ordinary includes recurring texts such as the Kyrie, Gloria and Sanctus; the Proper supplies texts that change with the day or feast. A syllabic chant gives mostly one note to each syllable. A melismatic chant stretches a syllable over many notes, sometimes turning one vowel into a substantial musical span.</p>
@@ -73,6 +76,7 @@ w: Te-ste _ Da-vid _ cum Si-byl-la.`,
         caption: 'Pitches and syllabic groupings transcribed from the <i>Liber Usualis</i> (Solesmes, 1961), p. 1810, checked against the <a href="https://gregobase.selapa.net/sources/3/2055.png">printed page</a> and <a href="https://gregobase.selapa.net/chant.php?id=1198">GregoBase transcription</a>. The unmeasured notation uses separators to mark text phrases. Quavers are a neutral transcription unit; dotted chant endings are doubled for playback only. The opening eight pitches are the incipit later composers quote.',
       }],
       arts: [{
+        relation: 'shared-context',
         type: 'painting', frame: 'mat',
         file: 'File:Hildegard von Bingen.jpg',
         artist: 'Anonymous Rupertsberg illuminator', title: 'Hildegard receiving a vision', date: 'Late twelfth century',
@@ -84,6 +88,7 @@ w: Te-ste _ Da-vid _ cum Si-byl-la.`,
     {
       id: 'notation', numeral: 'iii', label: 'c. 1025',
       heading: 'A melody that can be read',
+      question: 'How did singers learn unfamiliar music?',
       html: `
 <p class="dropcap">Guido of Arezzo, a Benedictine monk active in the early eleventh century, addressed a costly part of a singer’s education: learning an enormous repertory by repetition. His <i>Micrologus</i>, written around 1025–28, and his other teaching texts combine interval theory with practical methods for reading unfamiliar chant. Earlier musicians had used pitch letters, reference lines and heighted neumes. Guido made these resources into a teachable system.</p>
 <p>A staff gives pitch a repeatable location. A line labelled F or C fixes the surrounding succession of tones and semitones; the spaces count as positions just as the lines do. Coloured reference lines could make F and C recognisable before the singer read a letter. Four-line staves became standard in square chant notation after a period of varied layouts. The five-line staff familiar from a piano score was a later convention.</p>
@@ -110,6 +115,7 @@ w: ut re mi fa sol la ut re mi fa sol la ut re mi fa sol la`,
       }],
       arts: [
         {
+          relation: 'shared-context',
           type: 'painting', frame: 'mat',
           file: 'File:The Hand of Guido.jpg',
           artist: 'Anonymous illuminator', title: 'The Guidonian hand', date: '1274',
@@ -117,6 +123,7 @@ w: ut re mi fa sol la ut re mi fa sol la ut re mi fa sol la`,
           note: `<p>The enlarged hand makes a human body into a diagram of pitch and solmisation. Dating from more than two centuries after Guido’s teaching, it records the method’s later use. The outer circle repeats the syllables that are distributed across the hand, giving the pupil two spatial routes through the same information.</p>`,
         },
         {
+          relation: 'documented-use',
           type: 'poem', author: 'Traditionally attributed to Paul the Deacon',
           title: 'Ut queant laxis — first stanza', date: 'Eighth century', lang: 'Latin', translator: 'Our translation',
           original: `Ut queant laxis
@@ -139,6 +146,7 @@ Saint John.`,
     {
       id: 'organum', numeral: 'iv', label: 'c. 900–1200',
       heading: 'A second voice above the chant',
+      question: 'What happens when chant gains another voice?',
       html: `
 <p class="dropcap">The anonymous ninth-century treatise <i>Musica enchiriadis</i> describes ways of singing a second part with a chant. Some passages proceed in parallel fourths or fifths, sometimes doubled at the octave; others hold one voice still while the other moves, allowing the parts to meet in unison. The treatise gives a written account of these polyphonic practices.</p>
 <p><i>Organum</i> encompasses several changing techniques. In the simplest parallel model, every note of a melody acquires a companion at a constant interval. In more independent writing, the voices can move in contrary directions, embellish their approach to a consonance or place several notes against one. Eleventh- and twelfth-century sources show a growing distance between the borrowed chant and the newly composed part. The chant supplies an inherited sequence; the added voice decides how much time each part of that sequence will occupy.</p>
@@ -189,6 +197,7 @@ D,6- | D,6- | D,6- | D,6 |]`,
         },
       ],
       arts: [{
+        relation: 'documented-use',
         type: 'painting', frame: 'mat',
         file: 'File:Pérotin - Viderunt omnes.jpg',
         artist: 'Anonymous Parisian scribe', title: 'Opening of Pérotin’s Viderunt omnes', date: 'Thirteenth century',
@@ -199,6 +208,7 @@ D,6- | D,6- | D,6- | D,6 |]`,
     {
       id: 'ars-nova', numeral: 'v', label: 'c. 1320–1370',
       heading: 'Time can be counted twice',
+      question: 'Can a rhythm repeat while its notes change?',
       html: `
 <p class="dropcap">Around 1320, French musicians acquired more precise ways of writing divisions of musical time. The label <i>ars nova</i>, ‘new art’, is associated with Philippe de Vitry and the theoretical writings transmitted under his name. Thirteenth-century mensural notation, particularly that described by Franco of Cologne, had already made note shapes carry durational information. Fourteenth-century practice extended the system’s treatment of smaller values, binary division and syncopation.</p>
 <p>Mensuration specifies how one value divides into the next. A breve can contain three semibreves, called perfect tempus, or two, imperfect tempus; a semibreve can contain three minims, major prolation, or two, minor prolation. These two decisions are independent. A circle and a semicircle, with or without a dot, eventually provide a compact visual vocabulary for the combinations. Our C-shaped common-time sign descends from the semicircle.</p>
@@ -223,6 +233,7 @@ D2 E F | G2 A D | E2 F G | A2 D E | F2 G A |]`,
         caption: 'An invented isorhythmic schematic. The talea is three durations — long, short, short — repeated five times. The color is D–E–F–G–A, repeated three times. Follow the pitches across the bar lines: each return of D falls at a different point in the rhythmic pattern until the full fifteen-note cycle is complete. Modern bars make the talea visible.',
       }],
       arts: [{
+        relation: 'shared-context',
         type: 'painting', frame: 'mat',
         file: 'File:Machaut 1.jpg',
         artist: 'Anonymous French illuminator', title: 'Nature presents Sense, Rhetoric and Music to Machaut', date: 'Fourteenth century',
@@ -233,6 +244,8 @@ D2 E F | G2 A D | E2 F G | A2 D E | F2 G A |]`,
     {
       id: 'polyphony', numeral: 'vi', label: 'c. 1430–1600',
       heading: 'Each voice has a sentence',
+      question: 'How can several voices each tell a story?',
+      listen: [{ id: 'bach-wtc1-fugue-b-minor', t: 88, why: 'A later example of independent voices: follow an inner line in Bach’s four-part fugue, not only the highest notes.' }],
       html: `
 <p class="dropcap">Guillaume Dufay worked across the church and court networks that connected northern France, the Low Countries and Italy. His motet <i>Nuper rosarum flores</i> was written for the consecration of Florence Cathedral in 1436. Its large-scale proportional design retains an isorhythmic inheritance, while the sonorities of fifteenth-century music increasingly make room for thirds and sixths. The changing treatment of these familiar intervals altered how voices could combine between the open fifths and octaves of cadences.</p>
 <p>A cantus firmus — literally a ‘fixed song’ — can organise an entire Mass by returning in successive movements. It may come from chant or from a secular melody such as <i>L’homme armé</i>, which Dufay and many later composers used. A voice may present it slowly while other parts move faster; a composer may change its register, proportion or position in the texture. Another technique, fauxbourdon, produces chains of sixth-chord sonorities through a partly prescribed relationship between voices. Each part retains its own melodic progress within these sonorities.</p>
@@ -262,6 +275,7 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
         caption: 'An invented schematic. The lower part enters one bar later and an octave below, copying the upper part’s first two bars. The upper part then continues independently, making this an opening point of imitation.',
       }],
       arts: [{
+        relation: 'shared-context',
         type: 'painting', frame: 'gilt',
         file: 'File:Ghent Altarpiece - Singing Angels (left).jpg',
         artist: 'Hubert and Jan van Eyck', title: 'The Ghent Altarpiece: Singing Angels', date: '1432',
@@ -272,6 +286,11 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
     {
       id: 'instruments', numeral: 'vii', label: 'c. 1400–1700',
       heading: 'Wood, gut, wind and wire',
+      question: 'Why do different instruments sustain notes differently?',
+      listen: [
+        { id: 'bach-brandenburg-5-allegro', t: 22, why: 'In Bach’s later concerto, compare the harpsichord’s plucked attacks with the longer flute and violin lines.' },
+        { id: 'bach-brandenburg-5-allegro', t: 386, why: 'The extended harpsichord solo exposes how repeated attacks can keep a whole texture moving.' },
+      ],
       html: `
 <p class="dropcap">The instruments of Bach’s ensembles had separate histories. Church organs, courtly lutes, domestic viol consorts and professional violin bands developed in different settings, with different ways of producing and sustaining a note. Their mechanisms mattered to composition. An organ can hold a tone while the key remains down and wind is supplied; a lute or harpsichord note begins to decay as soon as its string has been plucked. A bowed instrument can change pressure and speed during a single note.</p>
 <p>The organ’s ancestry reaches back to the ancient Mediterranean hydraulis, whose water mechanism regulated wind pressure. Medieval European organs used bellows, and by the later Middle Ages builders were separating ranks of pipes into selectable stops. A stop gives access to a set of pipes with a particular construction and pitch level. At an 8-foot pitch a key sounds at its ordinary register, a 4-foot rank an octave higher, a 16-foot rank an octave lower. Multiple manuals and pedal keyboards eventually let an organist distribute parts and colours between hands and feet.</p>
@@ -283,6 +302,7 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
 <p>A harpsichord key raises a jack whose plectrum plucks a string; a damper stops the string when the key is released. Its rectangular relatives include the virginals, familiar from Dutch paintings. Unlike a piano, the harpsichord does not normally make a note louder simply because the player strikes the key harder. Articulation, timing, added notes and changes of register produce its contrasts. It can therefore sustain the harmonic outline of a vocal piece through repeated or newly voiced chords even while each individual string is decaying.</p>`,
       score: [],
       arts: [{
+        relation: 'shared-context',
         type: 'painting', frame: 'gilt',
         file: 'File:The Lute Player-Caravaggio (Hermitage).jpg',
         artist: 'Caravaggio', title: 'The Lute Player', date: 'c. 1595–96',
@@ -293,6 +313,11 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
     {
       id: 'opera', numeral: 'viii', label: 'c. 1570–1607',
       heading: 'The words take command',
+      question: 'How did singing become a way to act?',
+      listen: [
+        { id: 'puccini-mi-chiamano-mimi', t: 0, why: 'A much later opera makes the principle clear: Mimì’s short, speech-like phrases remain part of a conversation.' },
+        { id: 'puccini-mi-chiamano-mimi', t: 160, why: 'Compare the sustained lyrical passage with the conversational opening; this is Puccini, not a reconstruction of early opera.' },
+      ],
       html: `
 <p class="dropcap">In Florence during the 1570s and 1580s, Giovanni de’ Bardi’s circle of musicians and scholars discussed how ancient Greek drama had been performed. The group later called the Camerata included Vincenzo Galilei, Galileo’s father, and the singer-composer Giulio Caccini. Their knowledge of ancient sound was fragmentary. What they could act on was an argument: a single voice, supported without competing words, could deliver a text more directly than several singers pursuing different phrases at once.</p>
 <p>Monody means a solo vocal line with instrumental accompaniment. Around 1600, an explicitly declamatory style over a written bass gave this longstanding practice new forms in print and on stage. Caccini’s <i>Le nuove musiche</i>, published in 1602, offered songs with instructions on delivery and ornament. Jacopo Peri’s largely lost <i>Dafne</i>, performed in Florence in 1598, and his surviving <i>Euridice</i> of 1600 applied related ideas to continuous drama.</p>
@@ -305,6 +330,7 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
 <p>The courts supplied the earliest productions with money, performers and invited audiences. Venice’s public opera theatres, beginning in 1637, later changed that institutional arrangement. By then Monteverdi had served at San Marco since 1613; the composer of courtly <i>Orfeo</i> would also write for the city’s commercial stage. The new genre’s continuity lay in a practical division of labour: the singer delivers the words, the bass supports their pacing, and instruments can intervene when speech alone is no longer the scene’s only action.</p>`,
       score: [],
       arts: [{
+        relation: 'shared-context',
         type: 'painting', frame: 'gilt',
         file: 'File:Bernardo Strozzi - Claudio Monteverdi (c.1630).jpg',
         artist: 'Bernardo Strozzi', title: 'Portrait identified as Claudio Monteverdi', date: 'c. 1630',
@@ -315,6 +341,8 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
     {
       id: 'continuo', numeral: 'ix', label: 'c. 1600–1722',
       heading: 'The bass becomes a working plan',
+      question: 'How can a bass line guide everyone else?',
+      listen: [{ id: 'couperin-nations-piemontaise', t: 0, why: 'The keyboard supplies harmony while the viol shares its bass line beneath two independent upper parts.' }],
       html: `
 <p class="dropcap">A continuo part gives an accompanist a bass line from which to build the harmony. Figures specify intervals above that bass; the player supplies a suitable spacing, texture and voice-leading. A keyboard or plucked-string instrument can provide the harmony, often with a bowed bass instrument or bassoon reinforcing the written line. The combination varies with place, genre and available musicians. ‘Continuo’ names the practice and its function across these different ensembles.</p>
 <p>Some roots of the practice lie in organ accompaniment that followed the lowest sounding voice of a choral texture, the <i>basso seguente</i>. Around 1600, an independent written bass became central to solo song, sacred concertos and theatre. Lodovico da Viadana’s <i>Cento concerti ecclesiastici</i> of 1602, for small vocal forces with organ, helped disseminate the practice. A composer could now write a solo line against a continuous harmonic support, leaving the inner parts to the accompanist.</p>
@@ -344,6 +372,7 @@ C,4 | F,4 | "4 - 3"G,4 | C,4 |]`,
         caption: 'An invented late-seventeenth-century-style cadence. The upper C is prepared in the F-major sonority, becomes a dissonant fourth above the G bass, then falls to B before rising to C in the final chord. The figure 4–3 specifies that motion, leaving the player to choose a keyboard texture. The bass moves C–F–G–C, outlining tonic, subdominant, dominant and tonic.',
       }],
       arts: [{
+        relation: 'shared-context',
         type: 'painting', frame: 'gilt',
         file: 'File:Gerard ter Borch (der Jüngere) (1617 - 1681) - The Concert - 791G - Gemäldegalerie.jpg',
         artist: 'Gerard ter Borch', title: 'The Concert', date: 'c. 1675',

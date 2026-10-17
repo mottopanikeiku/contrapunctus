@@ -1,0 +1,34 @@
+{
+  "id": "wagner-tannhauser-overture",
+  "relations": [
+    {
+      "kind": "transposed return",
+      "a": [
+        392.0,
+        426.5
+      ],
+      "b": [
+        566.0,
+        600.5
+      ],
+      "label": "The Venus song returns higher",
+      "basis": "The broad song in the fast Venusberg section is restated in the renewed fast span. The five-semitone upward pitch-class shift is consistent with its move to another tonal level; the listening notes distinguish this song from the pilgrims’ hymn. CENS diagonal mean 0.940, sustained 34.5 s, fixed pitch-class shift +5 semitones and time offset 174 s (cache/form/wagner-tannhauser-overture.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        147.0,
+        161.0
+      ],
+      "b": [
+        674.0,
+        688.0
+      ],
+      "label": "The pilgrims’ hymn returns",
+      "basis": "The overture’s closing frame restores the pilgrims’ hymn after the Venusberg music. The earlier excerpt comes from the hymn’s first broad statement, while the later one follows the return marked near 665 s. CENS diagonal mean 0.934, sustained 14 s, fixed pitch-class shift 0 semitones and time offset 527 s (cache/form/wagner-tannhauser-overture.txt, candidate 5; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Internal hymn restatements before the fast centre are not additional closing returns. The shorter opening-to-final-hymn path supports the same frame, while low-contrast repeated final chords are rejected as cadential support. The relations apply to this complete concert-band ending, not the Overture and Bacchanale version."
+}

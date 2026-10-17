@@ -89,6 +89,7 @@ C,4 | F,4 | B,,4 | E,4 | A,,4 | D,4 | G,,4 | C,4 |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:The dance to the music of time c. 1640.jpg',
       artist: 'Nicolas Poussin', title: 'A Dance to the Music of Time', date: 'c. 1634–36',
@@ -96,6 +97,7 @@ C,4 | F,4 | B,,4 | E,4 | A,,4 | D,4 | G,,4 | C,4 |]`,
       note: '<p>Father Time plays a lyre while four figures dance in a ring. Poussin made the picture in Rome for Giulio Rospigliosi, the future Pope Clement IX, who also wrote opera librettos. The connection to Baroque music is both institutional and technical: an educated patron receives an allegory whose cyclical movement is made legible by measured gestures. The <a href="https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?module=collection&amp;objectId=65042&amp;service=ExternalInterface">Wallace Collection record</a> gives its date and provenance.</p>',
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'John Dryden', title: 'A Song for St Cecilia’s Day — opening', date: '1687',
       lang: 'English',
       original: `From harmony, from heavenly harmony,

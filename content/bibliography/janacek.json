@@ -1,0 +1,36 @@
+{
+ "id": "janacek",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "John Tyrrell, *Janáček: Years of a Life*, 2 vols., *The Lonely Blackbird (1854–1914)* and *Tsar of the Forests (1914–28)* (London: Faber and Faber, 2006–2007).",
+   "url": "https://ci.nii.ac.jp/author/DA0892415X",
+   "kind": "biography",
+   "note": "Documentary biography covering the full career across two volumes."
+  },
+  {
+   "cite": "John Tyrrell, ‘Janáček, Leoš’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.14122",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Nigel Simeone, John Tyrrell and Alena Němcová, *Janáček’s Works: A Catalogue of the Music and Writings of Leoš Janáček*, catalogue of writings by Theodora Straková (Oxford: Clarendon Press, 1997).",
+   "url": "https://doi.org/10.1093/oso/9780198164463.001.0001",
+   "kind": "catalogue",
+   "note": "JW work numbers, sources, dating evidence, performances, publications and an annotated list of writings."
+  },
+  {
+   "cite": "Leoš Janáček, *Intimate Letters: Leoš Janáček to Kamila Stösslová*, edited and translated by John Tyrrell (Princeton University Press, 1994).",
+   "url": "https://doi.org/10.1515/9781400863686",
+   "kind": "letters",
+   "note": "Letters to Kamila Stösslová complement the late-career biography."
+  },
+  {
+   "cite": "Moravské zemské muzeum, *Oddělení dějin hudby* (online archive guide, n.d.; accessed 16 October 2026).",
+   "url": "https://www.mzm.cz/oddeleni-dejin-hudby",
+   "kind": "reference",
+   "note": "Free guide to the Janáček Archive; linked correspondence edition requires registration."
+  }
+ ]
+}

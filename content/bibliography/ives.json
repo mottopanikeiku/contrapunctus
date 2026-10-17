@@ -1,0 +1,24 @@
+{
+ "id": "ives",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Jan Swafford, *Charles Ives* (W. W. Norton, 1996).",
+   "url": "https://openlibrary.org/books/OL24763545M",
+   "kind": "biography",
+   "note": "Connects the music with Ives’s Connecticut background, family, church work and insurance career."
+  },
+  {
+   "cite": "J. Peter Burkholder, *All Made of Tunes: Charles Ives and the Uses of Musical Borrowing* (Yale University Press, 2004 paperback).",
+   "url": "https://yalebooks.yale.edu/book/9780300102123/all-made-of-tunes/",
+   "kind": "study",
+   "note": "Treats borrowing as a compositional practice, not merely a list of recognisable quotations."
+  },
+  {
+   "cite": "Kyle Gann, *Charles Ives’s Concord* (2017).",
+   "url": "https://openlibrary.org/works/OL19714826W",
+   "kind": "study",
+   "note": "A movement-by-movement account of the Concord Sonata, its harmonic construction and its relationship to Essays before a Sonata."
+  }
+ ]
+}

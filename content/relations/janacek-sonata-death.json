@@ -1,0 +1,34 @@
+{
+  "id": "janacek-sonata-death",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        2.5,
+        69.5
+      ],
+      "b": [
+        102.5,
+        169.5
+      ],
+      "label": "The opening paragraph repeats",
+      "basis": "The first large paragraph is repeated near 102 s in the listening map; the matched span follows the same opening route at a 100 s offset. CENS diagonal mean 0.943, sustained 67 s, fixed pitch-class shift 0 semitones and time offset 100 s (cache/form/janacek-sonata-death.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        4.5,
+        20.5
+      ],
+      "b": [
+        326.5,
+        342.5
+      ],
+      "label": "The opening returns transformed",
+      "basis": "After the central intensification, the opening material returns in a changed context near 322 s. Only its sustained initial phrase is matched here. CENS diagonal mean 0.929, sustained 16 s, fixed pitch-class shift 0 semitones and time offset 322 s (cache/form/janacek-sonata-death.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The 53.5 s alternative opening-repeat path overlaps the selected one. Shorter late matches represent continuations of the same transformed return. The adjacent 215–227.5 s and 227.5–240 s match has contrast only 0.021 and is treated as local repetition during the build-up, not a new section."
+}

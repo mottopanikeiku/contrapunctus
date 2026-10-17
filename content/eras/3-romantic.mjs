@@ -82,6 +82,7 @@ V:1
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt',
       file: 'File:Caspar David Friedrich - Abtei im Eichwald - Google Art Project.jpg',
       artist: 'Caspar David Friedrich', title: 'The Abbey in the Oakwood', date: '1809–10',
@@ -89,6 +90,7 @@ V:1
       note: '<p>The funeral procession occupies only a narrow strip beneath the ruined Gothic window and leafless oaks. Architecture survives as a fragment, while the implied ceremony gives the small figures a temporal direction. The pairing concerns the same Romantic interest in ruins, memory and the incomplete that informs the song cycle and character piece. The <a href="https://www.smb.museum/en/museums-institutions/alte-nationalgalerie/collection-research/conservation-care/caspar-david-friedrich-project/">museum’s Friedrich project</a> documents the painting and its pendant, <i>Monk by the Sea</i>.</p>',
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Johann Wolfgang von Goethe', title: 'Erlkönig — opening stanzas', date: '1782',
       lang: 'German', translator: 'Our translation',
       original: `Wer reitet so spät durch Nacht und Wind?

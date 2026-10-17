@@ -1,0 +1,24 @@
+{
+ "id": "recording-history",
+ "kind": "topic",
+ "items": [
+  {
+   "cite": "Timothy Day, *A Century of Recorded Music: Listening to Musical History* (Yale University Press, 2002 paperback).",
+   "url": "https://yalebooks.yale.edu/book/9780300094015/a-century-of-recorded-music/",
+   "kind": "recording-history",
+   "note": "Examines how recording changed both listening and musical performance."
+  },
+  {
+   "cite": "Mark Katz, *Capturing Sound* (University of California Press, 2010 edition).",
+   "url": "https://www.ucpress.edu/books/capturing-sound/paper",
+   "kind": "recording-history",
+   "note": "Studies the effects of recording technology on music-making and listening."
+  },
+  {
+   "cite": "Robert Philip, *Performing Music in the Age of Recording* (Yale University Press, 2004).",
+   "url": "https://yalebooks.yale.edu/book/9780300215267/performing-music-in-the-age-of-recording/",
+   "kind": "recording-history",
+   "note": "Studies recorded performance as evidence of changing musical practice, rather than treating recordings only as editions to collect."
+  }
+ ]
+}

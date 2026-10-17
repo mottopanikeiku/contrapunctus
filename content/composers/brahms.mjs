@@ -109,16 +109,19 @@ C,2 E,2 G,2 | C,2 E,2 G,2 |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Anselm Feuerbach - On the Seashore (Modern Iphigenia) - Google Art Project.jpg',
       artist: 'Anselm Feuerbach', title: 'On the Seashore (Modern Iphigenia)', date: '1875', medium: 'Oil on canvas', collection: 'Museum Kunstpalast, Düsseldorf',
       note: `<p>Brahms composed <i>Nänie</i>, Op. 82, after the death of his friend Feuerbach in 1880 and dedicated it to the painter’s stepmother, Henriette. Its Schiller text invokes Greek myth and the death of beauty, a subject appropriate to Feuerbach’s repeated engagement with classical figures. The isolated Iphigenia provides a visual counterpart to that classicising language.</p>`,
     },
     {
+      relation: 'documented-encounter',
       type: 'painting', frame: 'mat', file: 'File:Ritter Tod, from the series Brahmsphantasie MET DP822933.jpg',
       artist: 'Max Klinger', title: 'Ritter Tod, from Brahmsphantasie', date: '1894', medium: 'Etching, engraving, aquatint and mezzotint', collection: 'Metropolitan Museum of Art, New York',
       note: `<p>Klinger’s <i>Brahmsphantasie</i> places prints alongside Brahms’s songs and the <i>Schicksalslied</i>, treating music and image as interacting parts of a book. Brahms received the completed work in 1894. This is a contemporary artist’s direct response to his music. The <a href="https://www.metmuseum.org/art/collection/search/384478">Met’s impression</a> preserves the varied print techniques through which Klinger distinguishes line, darkness and atmospheric depth.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Friedrich Schiller', title: 'Nänie', date: '1800; set by Brahms in 1880–81', lang: 'German', translator: 'Our translation',
       original: `Auch das Schöne muß sterben! Das Menschen und Götter bezwinget,
 Nicht die eherne Brust rührt es des stygischen Zeus.
@@ -151,6 +154,7 @@ for the common thing descends to Orcus without a sound.`,
       note: `<p>Schiller’s elegiac couplets allude to Eurydice’s loss, Adonis’s wound and Achilles’s death. Brahms’s D major setting answers the opening declaration with flowing oboe writing and imitative choral entries. Near the end he returns to the penultimate line about survival in a lament: the music itself enacts that restricted form of remembrance. <a href="https://www.friedrich-schiller-archiv.de/gedichte-schillers/highlights/naenie/">German text</a>.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Friedrich Hölderlin', title: 'Hyperions Schicksalslied — first stanza', date: '1799; set by Brahms in 1868–71', lang: 'German', translator: 'Our translation',
       original: `Ihr wandelt droben im Licht
 Auf weichem Boden, selige Genien!

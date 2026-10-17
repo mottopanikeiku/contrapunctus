@@ -90,11 +90,13 @@ C/2C/2z2 | C/2C/2z2 | C/2C/2z2 | C/2C/2z2 |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Canaletto (Giovanni Antonio Canal) - Bacino di San Marco, Venice - Google Art Project.jpg',
       artist: 'Canaletto', title: 'Bacino di San Marco, Venice', date: '1738', medium: 'Oil on canvas', collection: 'Museum of Fine Arts, Boston',
       note: `<p>The basin and its boats place Venice’s ceremonial buildings within a working system of transport and trade. Canaletto painted such views for an international market that included travellers who also heard the city’s institutional concerts. The Pietà stood on the waterfront east of the Piazza San Marco. This is Vivaldi’s urban and commercial setting; the building now called the Pietà’s church was erected after his death.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Anonymous; sometimes attributed to Vivaldi', title: 'La Primavera', date: 'Published with Op. 8, 1725', lang: 'Italian', translator: 'Our translation',
       original: `Giunt’è la Primavera e festosetti
 La salutan gl’augei con lieto canto,

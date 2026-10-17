@@ -1,0 +1,24 @@
+{
+ "id": "messiaen",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Peter Hill and Nigel Simeone, *Messiaen* (Yale University Press, 2005).",
+   "url": "https://yalebooks.yale.edu/book/9780300109078/messiaen/",
+   "kind": "biography",
+   "note": "A documentary life-and-works study drawing on the composer’s private archive."
+  },
+  {
+   "cite": "Christopher Dingle, *The Life of Messiaen* (Cambridge University Press, 2007).",
+   "url": "https://assets.cambridge.org/97805216/32201/excerpt/9780521632201_excerpt.htm",
+   "kind": "biography",
+   "note": "The linked opening chapter connects childhood, literature and early musical discoveries with the developing composer."
+  },
+  {
+   "cite": "Boston Symphony Orchestra, ‘Koussevitzky as Patron: Commissioning Messiaen’s Turangalîla-Symphonie’ (online archival exhibit).",
+   "url": "https://www.bso.org/exhibits/koussevitzky-as-patron-commissioning-messiaens-turangalila-symphonie",
+   "kind": "reference",
+   "note": "An institutional source for the commission and the work’s performance history."
+  }
+ ]
+}

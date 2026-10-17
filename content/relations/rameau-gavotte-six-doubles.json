@@ -1,0 +1,48 @@
+{
+  "id": "rameau-gavotte-six-doubles",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        29.0,
+        54.0
+      ],
+      "b": [
+        56.0,
+        81.0
+      ],
+      "label": "The gavotte’s second strain repeats",
+      "basis": "The gavotte has two repeated strains, the second twice the length of the first. These excerpts lie in that longer strain and its repeat before the first double. CENS diagonal mean 0.957, sustained 25 s, fixed pitch-class shift 0 semitones and time offset 27 s (cache/form/rameau-gavotte-six-doubles.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "literal repeat",
+      "a": [
+        103.0,
+        119.5
+      ],
+      "b": [
+        122.0,
+        138.5
+      ],
+      "label": "The first double repeats its second strain",
+      "basis": "The first double retains the gavotte’s repeated-strain design while adding upper figuration. These excerpts compare the same strain within that double. CENS diagonal mean 0.975, sustained 16.5 s, fixed pitch-class shift 0 semitones and time offset 19 s (cache/form/rameau-gavotte-six-doubles.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        317.5,
+        344.0
+      ],
+      "b": [
+        367.5,
+        394.0
+      ],
+      "label": "The harmonic route survives another double",
+      "basis": "The fifth and sixth doubles preserve the gavotte’s harmonic route while changing the keyboard figuration. The long paired excerpts lie in their later strains; the relation does not claim identical melody or finger-work. CENS diagonal mean 0.929, sustained 26.5 s, fixed pitch-class shift 0 semitones and time offset 50 s (cache/form/rameau-gavotte-six-doubles.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Strong internal repeats in the other doubles are omitted to keep the map selective; they do not establish new themes. Overlapping cross-double matches represent the same inherited harmonic route. The changing tempi mean this fixed-lag finder does not align the original gavotte directly with every variation."
+}

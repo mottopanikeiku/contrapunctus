@@ -1,0 +1,180 @@
+{
+  "id": "rimsky-korsakov-scheherazade-prince",
+  "work": {
+    "title": "Scheherazade",
+    "catalogue": "Op. 35",
+    "movement": "III. The Young Prince and the Young Princess",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source does not identify a performing edition or arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "San Francisco Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Pierre Monteux",
+        "role": "conductor"
+      },
+      {
+        "name": "Naoum Blinder",
+        "role": "solo violin"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "3–4 March 1942",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "These dates describe the complete suite’s sessions; no source assigns this movement to one of the two days.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "War Memorial Opera House, San Francisco",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor Red Seal Records",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "carrier-image"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DM-920",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Album number of the original Victor 78 rpm set, not an individual side or matrix number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "carrier-image"
+      ],
+      "note": "The sources identify album DM-920 but give no matrices, take numbers or side allocation for this movement. The supplied cover image does not resolve them."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Bob Varney — transfer from the original Victor 78 rpm set",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Commons additionally describes the file as restored, without naming a separate restoration engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Archive item was made public on 19 August 2009, but the transfer date itself is not stated."
+    },
+    "processing": {
+      "value": "Transferred from the original Victor 78 rpm set; described on Commons as restored",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Stylus, equalisation, speed correction, noise reduction and side-join settings are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/21/Rimsky-Korsakov._Scheherazade%2C_Symphonic_Suite%2C_Op._35_-_03_The_Young_Prince_And_Princess.ogg/Rimsky-Korsakov._Scheherazade%2C_Symphonic_Suite%2C_Op._35_-_03_The_Young_Prince_And_Princess.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 495.904
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in jurisdictions applying an unextended life-plus-70-year term",
+      "status": "inferred",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Nikolai Rimsky-Korsakov died in 1908. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
+    },
+    "recording": {
+      "value": "CC0 1.0 designation on Commons; public-domain dedication at the upstream Archive item",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "These are the digital-file sources’ rights statements. They do not by themselves demonstrate that the uploader could waive all rights in the underlying 1942 Victor recording; no independent United States clearance is established here."
+    },
+    "creditLine": "Nikolai Rimsky-Korsakov: Scheherazade, Op. 35, III. The Young Prince and the Young Princess — San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin. Victor DM-920, recorded 3–4 March 1942. Transfer by Bob Varney, Internet Archive, via Wikimedia Commons; the file is designated CC0, with underlying recording rights not independently cleared.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 03 The Young Prince And Princess.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=718302093",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ARimsky-Korsakov.+Scheherazade%2C+Symphonic+Suite%2C+Op.+35+-+03+The+Young+Prince+And+Princess.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Scheherazade, transfer by Bob Varney",
+      "url": "https://archive.org/metadata/Sheherazade/metadata",
+      "locator": "description: orchestra, conductor, violinist, 3–4 March 1942, War Memorial Opera House, Victor DM-920 and transfer by Bob Varney; publicdate is 19 August 2009, not a stated transfer date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "carrier-image",
+      "title": "Victor Scheherazade album cover supplied with the transfer",
+      "url": "https://archive.org/download/Sheherazade/DSCN9173.JPG",
+      "locator": "Lower cover inscription: San Francisco Symphony Orchestra, Pierre Monteux, conductor, Victor Red Seal Records. No readable matrix or individual disc-side numbers are shown.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

@@ -90,6 +90,7 @@ C,4 | G,4 | c4 | g4 |]`,
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt',
       file: 'File:Crucifixion of Jesus, Russian icon by Dionisius, 1500.jpg',
       artist: 'Dionisius', title: 'Crucifixion', date: '1500',
@@ -97,6 +98,7 @@ C,4 | G,4 | c4 | g4 |]`,
       note: `<p>The cross, the bowed figures and the narrow vertical field organise the icon before individual facial expressions are read. Gubaidulina’s <i>Seven Words</i> treats the same subject through seven instrumental movements; <i>In croce</i> makes a crossing of registers into a formal event. The link is a shared Christian tradition.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Psalm 130, verses 1–3; Latin Vulgate', title: 'De profundis', date: 'Ancient psalm; late-antique Latin version',
       lang: 'Latin', translator: 'Our translation',
       original: `De profundis clamavi ad te, Domine;

@@ -1,0 +1,30 @@
+{
+ "id": "rimsky-korsakov",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Gerald Abraham, *Rimsky-Korsakov* (Duckworth, 1945).",
+   "url": "https://ci.nii.ac.jp/ncid/BA91590807",
+   "kind": "biography",
+   "note": "Historical scholarly biography with a bibliography and list of compositions."
+  },
+  {
+   "cite": "Marina Frolova-Walker and Mark Humphreys, ‘Rimsky-Korsakov, Nikolay Andreyevich’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/omo/9781561592630.013.60000202252",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Nikolay Rimsky-Korsakov, *My Musical Life*, edited by Carl Van Vechten (Knopf, 1923).",
+   "url": "https://books.google.com/books/about/My_Musical_Life.html?id=Q0VWY4G8GeEC&hl=de",
+   "kind": "letters",
+   "note": "Freely digitised autobiography; read its recollections alongside later documentary research."
+  },
+  {
+   "cite": "Nikolay Rimsky-Korsakov, *Principles of Orchestration*, completed by Maksimilian Steinberg, translated by Edward Agate (Berlin: Editions Russes de Musique, 1922).",
+   "url": "https://imslp.org/wiki/Principles_of_Orchestration_%28Rimsky-Korsakov%2C_Nikolay%29",
+   "kind": "study",
+   "note": "Free English treatise with examples illustrating instrumental combinations and orchestral balance."
+  }
+ ]
+}

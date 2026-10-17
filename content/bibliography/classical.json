@@ -1,0 +1,24 @@
+{
+ "id": "classical",
+ "kind": "era",
+ "items": [
+  {
+   "cite": "Charles Rosen, *The Classical Style: Haydn, Mozart, Beethoven*, expanded edition (W. W. Norton, 1998 paperback).",
+   "url": "https://wwnorton.co.uk/books/9780393317121-the-classical-style-cc430b2c-c86f-4ec5-b738-daa71f915154",
+   "kind": "study",
+   "note": "Explains musical conventions through Haydn, Mozart and Beethoven; the expanded edition includes a chapter on late Beethoven."
+  },
+  {
+   "cite": "William E. Caplin, *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven* (Oxford University Press, 1998).",
+   "url": "https://api.crossref.org/works/10.1093/oso/9780195104806.001.0001",
+   "kind": "study",
+   "note": "Analyses the functions of phrases, themes and larger formal units, developing ideas from Schoenberg and Erwin Ratz."
+  },
+  {
+   "cite": "Simon P. Keefe, ed., *The Cambridge History of Eighteenth-Century Music* (Cambridge University Press, 2009).",
+   "url": "https://www.cambridge.org/core/books/cambridge-history-of-eighteenthcentury-music/89CD5DBB0501F1A52B516F320F8A7129",
+   "kind": "survey",
+   "note": "Organised around music for church, theatre and concert room, rather than a succession of composer biographies."
+  }
+ ]
+}

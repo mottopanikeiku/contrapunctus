@@ -1,0 +1,5 @@
+{
+  "id": "chopin-ballade-1",
+  "relations": [],
+  "candidatesRejected": "No fixed-lag candidate met the sustained 12 s, mean 0.90 threshold. The Ballade does have transformed returns of both themes, including the reversed order near the end; ornament, register and tempo changes can defeat this detector. The section labels alone are not enough to publish measured pairs."
+}

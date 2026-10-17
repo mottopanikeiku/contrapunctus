@@ -1,0 +1,222 @@
+{
+  "id": "prokofiev-toccata",
+  "work": {
+    "title": "Toccata in D minor",
+    "catalogue": "Op. 11",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Martha Argerich",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1962 on Commons; July 1960 in the DG recital discography.",
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "commons-data",
+        "discography",
+        "original-discography"
+      ],
+      "note": "Commons’ filename and date field say 1962, with an unsupported 1 January day. The matching DG recital programme is documented as July 1960. The specific digital file has not been compared with the carrier, so the discrepancy is preserved rather than silently corrected.",
+      "alternatives": [
+        {
+          "value": "1962 — Commons attribution; day and month unestablished.",
+          "sourceIds": [
+            "commons",
+            "commons-data"
+          ]
+        },
+        {
+          "value": "July 1960 — DG Piano Recital session.",
+          "sourceIds": [
+            "discography",
+            "original-discography"
+          ]
+        }
+      ],
+      "precision": null
+    },
+    "place": {
+      "value": "Beethoven-Saal, Hanover, Germany",
+      "status": "inferred",
+      "sourceIds": [
+        "discography",
+        "original-discography"
+      ],
+      "note": "This is the venue of the identified DG recital. Its applicability to this particular Commons file depends on resolving the recording-date and carrier match."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Deutsche Grammophon",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "138 672 SLPM — original recital issue; transferred copy unidentified.",
+      "status": "inferred",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "The discography links this programme to the 1961 LP. The Commons source names only Deutsche Grammophon and does not identify which pressing or reissue supplied the FLAC."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration, equalisation, noise-reduction or editing procedure is documented for the upstream audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Serge_Prokofiev_-_Toccata%2C_op._11_%28Martha_Argerich%2C_1962%29.flac/Serge_Prokofiev_-_Toccata%2C_op._11_%28Martha_Argerich%2C_1962%29.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 249
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "The composer died in 1953. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Commons applies PD-EU-audio: expiry of European performers’ and phonogram producers’ rights.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-audio",
+        "eu-extension",
+        "us-recordings",
+        "discography"
+      ],
+      "note": "This is a territory-specific expiry claim, not CC0 or permission from the record company. The 70-year extension did not revive recordings whose earlier term had already expired by 1 November 2013. It does not establish public-domain status in the United States. The recital discography gives a 1961 phonogram date; Commons instead labels the file 1962. Neither date is a CC licence. For post-1956 recordings fixed before 15 February 1972, § 1401 specifies a US term ending on 15 February 2067."
+    },
+    "creditLine": "Sergei Prokofiev, Toccata, Op. 11; Martha Argerich, piano. Deutsche Grammophon; Wikimedia Commons. Session date disputed: Commons 1962 / DG recital July 1960. PD-EU-audio is an EU expiry claim, not worldwide permission.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Serge Prokofiev - Toccata, op. 11 (Martha Argerich, 1962).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Serge_Prokofiev_-_Toccata,_op._11_(Martha_Argerich,_1962).flac?oldid=509438495",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Serge_Prokofiev_-_Toccata,_op._11_(Martha_Argerich,_1962).flac#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "discography",
+      "title": "Discogs — Martha Argerich, Début Recital, DG 447 430-2",
+      "url": "https://www.discogs.com/release/16263832-Martha-Argerich-D%C3%A9but-Recital",
+      "locator": "Track list and recording notes: Hanover, Beethoven-Saal, July 1960; original recital issued as DG 138 672 SLPM in 1961. The 1971 session belongs to the added Liszt Sonata, not the Rhapsody or Toccata.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "original-discography",
+      "title": "Discogs — Martha Argerich, Piano Recital",
+      "url": "https://www.discogs.com/master/593563-Martha-Argerich-Piano-Recital",
+      "locator": "Master-release notes: recorded Hanover, Beethovensaal, July 1960; phonogram date 1961.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Sergei Prokofiev — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Sergei_Prokofiev",
+      "locator": "Lead paragraph: composer’s death year.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recordings",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

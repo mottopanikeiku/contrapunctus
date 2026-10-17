@@ -1,0 +1,30 @@
+{
+ "id": "mussorgsky",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "David Brown, *Musorgsky: His Life and Works* (Oxford: Oxford University Press, 2002).",
+   "url": "https://openlibrary.org/books/OL22529450M",
+   "kind": "biography",
+   "note": "Life-and-works study covering completed compositions and unfinished projects."
+  },
+  {
+   "cite": "Robert W. Oldani, ‘Musorgsky [Mussorgsky; Moussorgsky], Modest Petrovich’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.19468",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Jay Leyda and Sergei Bertensson, eds and trans., *The Musorgsky Reader: A Life of Modeste Petrovich Musorgsky in Letters and Documents* (New York: W. W. Norton, 1947).",
+   "url": "https://catalog.freelibrary.org/Record/507730",
+   "kind": "letters",
+   "note": "Documents and correspondence, with work-list, discography and source references."
+  },
+  {
+   "cite": "Modest Musorgsky, *Pictures at an Exhibition* (St Petersburg: V. Bessel & Co., 1886).",
+   "url": "https://imslp.org/wiki/Pictures_at_an_Exhibition_%28Mussorgsky%2C_Modest%29",
+   "kind": "score",
+   "note": "Free historical editions permit comparison of the piano original with later arrangements."
+  }
+ ]
+}

@@ -119,16 +119,19 @@ V:2
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Johann Sebastian Bach 1746.jpg',
       artist: 'Elias Gottlob Haussmann', title: 'Johann Sebastian Bach', date: '1746', medium: 'Oil on canvas', collection: 'Stadtgeschichtliches Museum Leipzig',
       note: `<p>The paper in Bach’s hand is the <i>Canon triplex a 6 voci</i>, BWV 1076: three written lines generate six sounding parts by canonic imitation. The portrait displays his compositional craft. Bach joined Lorenz Christoph Mizler’s Corresponding Society of the Musical Sciences in 1747; the canon also belongs to the learned exchange associated with that society. Haussmann painted a second version in 1748, now held by the Bach-Archiv.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:Thomaskirche und -schule 1723.jpg',
       artist: 'Johann Gottfried Krügner', title: 'St Thomas’s Church and School, Leipzig', date: '1723', medium: 'Engraving', collection: '',
       note: `<p>The view places church and school side by side: Bach’s principal musical workplace and the institution that housed and trained his singers. His family lived in the Thomasschule. The arrangement matters to the cantatas: the same establishment supplied education, accommodation, rehearsal and the labour of preparing music for the city’s churches. The engraving dates from the year of his arrival in Leipzig.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Martin Luther', title: 'Aus tiefer Not schrei ich zu dir — first stanza', date: '1524', lang: 'German', translator: 'Our translation',
       original: `Aus tiefer Not schrei ich zu dir,
 Herr Gott, erhör mein Rufen.
@@ -147,6 +150,7 @@ who, Lord, can stand before you?`,
       note: `<p>Luther’s paraphrase of Psalm 130 supplies the chorale of Cantata BWV 38 and two organ settings in <i>Clavier-Übung III</i>. In BWV 686 Bach writes six parts, including two for the pedals: the hymn is embedded in a texture whose sustained notes and imitative preparation recall older vocal polyphony. The German text is given in modernised spelling; the <a href="https://projekt-gutenberg.org/authors/martin-luther/books/kirchenlieder/chapter/5/">published hymn</a> predates Bach by two centuries.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Philipp Nicolai', title: 'Wachet auf, ruft uns die Stimme — opening lines', date: '1599', lang: 'German', translator: 'Our translation',
       original: `Wachet auf, ruft uns die Stimme
 der Wächter sehr hoch auf der Zinne,

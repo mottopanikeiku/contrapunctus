@@ -1,0 +1,20 @@
+{
+  "id": "sibelius-valse-triste",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        8.0,
+        22.0
+      ],
+      "b": [
+        151.0,
+        165.0
+      ],
+      "label": "The opening waltz returns quietly",
+      "basis": "The opening waltz links the contrasting waltzes and is recalled in the quieter central stretch of this cello-and-piano arrangement. That recurring role is described by Richard Dyer at https://www.bso.org/works/sibelius-valse-triste; the later excerpt lies in the withdrawal marked near 132 s. CENS diagonal mean 0.926, sustained 14 s, fixed pitch-class shift 0 semitones and time offset 143 s (cache/form/sibelius-valse-triste.txt, candidate 4; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The longer opening match requires a one-semitone shift and is not labelled a literal repeat. The renewed-motion and final-postlude candidates are also withheld where the arrangement’s phrase identities are not securely established. Only the unshifted opening-to-quiet-return excerpt is published; it is not a claim about the original orchestration."
+}

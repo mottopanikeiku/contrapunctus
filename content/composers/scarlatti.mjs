@@ -85,16 +85,19 @@ C, z c' z | G,, z g' z | A,, z a' z | G,, z g' z |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Barbaradebragança.jpg',
       artist: 'Jean Ranc', title: 'Bárbara de Braganza as Princess of Asturias', date: 'c. 1729', medium: 'Oil on canvas', collection: 'Museo Nacional del Prado, Madrid',
       note: `<p>Maria Bárbara’s marriage carried Scarlatti’s employment from Portugal to Spain. The portrait presents her dynastic position, while the sonatas record a different part of her education: the keyboard skills cultivated through a long association with her teacher. Her ownership of instruments and manuscript music directly links the sitter to the repertory.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Amigoni e friends.png',
       artist: 'Jacopo Amigoni', title: 'Portrait group: The singer Farinelli and friends', date: 'c. 1750–52', medium: 'Oil on canvas', collection: 'National Gallery of Victoria, Melbourne',
       note: `<p>Farinelli appears with the singer Teresa Castellini, the poet Metastasio and Amigoni himself. The group is a constructed image of friendship; a joint sitting in Madrid remains undocumented. Farinelli and Scarlatti served the same Spanish royal household, and Farinelli’s later collection is part of the history of the sonata manuscripts. The <a href="https://www.ngv.vic.gov.au/explore/collection/work/3701/">NGV’s painting</a> makes the court’s connections among singing, poetry, collecting and painting visible.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Domenico Scarlatti', title: 'To the reader of the Essercizi — opening sentence', date: '1738–39', lang: 'Italian', translator: 'Our translation',
       original: `Non aspettarti, o dilettante o professor che tu sia, in questi componimenti il profondo intendimento, ma bensì lo scherzo ingegnoso dell’arte, per addestrarti alla franchezza sul gravicembalo.`,
       translation: `Whether you are an amateur or a professional, do not expect learned exposition in these pieces, but rather art’s inventive play, to train you in fluency at the harpsichord.`,

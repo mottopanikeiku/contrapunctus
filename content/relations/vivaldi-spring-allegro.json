@@ -1,0 +1,20 @@
+{
+  "id": "vivaldi-spring-allegro",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        18.0,
+        32.5
+      ],
+      "b": [
+        193.5,
+        208.0
+      ],
+      "label": "The ritornello closes the movement",
+      "basis": "The closing orchestral ritornello recalls the later phrases of the E-major opening refrain. The measured pair agrees with the closing section near 194 s; it does not imply that every bar of the first ritornello returns. CENS diagonal mean 0.965, sustained 14.5 s, fixed pitch-class shift 0 semitones and time offset 175.5 s (cache/form/vivaldi-spring-allegro.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Nearby offsets into the final refrain are duplicate or less distinctive paths. The 24.5–38 s to 70–83.5 s match crosses the approximate opening-ritornello/birdsong boundary, so it is not used to certify a full refrain at that point. Repeated echo phrases and dominant support are not automatically separate ritornellos."
+}

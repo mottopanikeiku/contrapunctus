@@ -1,0 +1,24 @@
+{
+ "id": "origins",
+ "kind": "topic",
+ "items": [
+  {
+   "cite": "Mark Everist and Thomas Forrest Kelly, eds, *The Cambridge History of Medieval Music* (Cambridge University Press, 2018).",
+   "url": "https://www.cambridge.org/core/books/cambridge-history-of-medieval-music/33D48C30B5F1316E7E5873B601ABAF9B",
+   "kind": "survey",
+   "note": "Covers chant, liturgy, vernacular song and the emergence of polyphony, including organum, conductus and motet."
+  },
+  {
+   "cite": "David Hiley, *Gregorian Chant* (Cambridge University Press, 2009).",
+   "url": "https://www.cambridge.org/core/books/abs/gregorian-chant/gregorian-chant-in-the-service-of-the-church/916F038980C1417046B46CF6EB6E21F7",
+   "kind": "survey",
+   "note": "An introduction to chant in its liturgical setting; the linked chapter explains its place within church services."
+  },
+  {
+   "cite": "Anna Maria Busse Berger and Jesse Rodin, eds, *The Cambridge History of Fifteenth-Century Music* (Cambridge University Press, 2015).",
+   "url": "https://www.cambridge.org/core/books/cambridge-history-of-fifteenthcentury-music/892677394D07D14739766752508C10BC",
+   "kind": "survey",
+   "note": "Connects notation, theory, improvisation and composition with courts, churches, cities and the other arts."
+  }
+ ]
+}

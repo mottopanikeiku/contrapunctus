@@ -83,11 +83,13 @@ V:1 name="Keyboard"
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:Title page of Rameau’s New System of Musical Theory.jpg',
       artist: 'Jean-Philippe Rameau; printed by Jean-Baptiste-Christophe Ballard', title: 'Title page of Nouveau système de musique théorique', date: '1726', medium: 'Printed book', collection: 'Library of Congress, Washington, DC',
       note: `<p>The 1726 <i>Nouveau système</i> followed the <i>Traité de l’harmonie</i> of 1722. The title promises principles for accompaniment and composition, linking speculative explanation to the daily tasks of a working musician. Rameau continued revising his theoretical account. The <a href="https://www.loc.gov/resource/muspre1800.101949/?sp=2&amp;st=gallery">Library of Congress copy</a> preserves the page reproduced here.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Jean Racine', title: 'Phèdre — Act I, scene 3', date: '1677', lang: 'French', translator: 'Our translation',
       original: `Je le vis, je rougis, je pâlis à sa vue ;
 Un trouble s’éleva dans mon âme éperdue ;

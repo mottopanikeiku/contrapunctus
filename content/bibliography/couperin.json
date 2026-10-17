@@ -1,0 +1,30 @@
+{
+ "id": "couperin",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "David Tunley, *François Couperin and ‘The Perfection of Music’* (Aldershot: Ashgate, 2004).",
+   "url": "https://research-repository.uwa.edu.au/en/publications/francois-couperin-and-the-perfection-of-music/",
+   "kind": "biography",
+   "note": "Life and works, with attention to Couperin’s French and Italian models."
+  },
+  {
+   "cite": "Edward Higginbottom, ‘Couperin [le grand], François (ii)’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278203",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Maurice Cauchie, *Thematic Index of the Works of François Couperin* (Monaco: The Lyrebird Press, copyright 1949).",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb42896941h",
+   "kind": "catalogue",
+   "note": "Musical incipits identify works across the keyboard, chamber and sacred repertories."
+  },
+  {
+   "cite": "François Couperin, *L’Art de toucher le clavecin*, revised edition (Paris: the author, 1717).",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb42925024x",
+   "kind": "study",
+   "note": "Freely available French treatise on touch, fingering and ornament; first published in 1716."
+  }
+ ]
+}

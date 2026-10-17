@@ -1,0 +1,20 @@
+{
+  "id": "mendelssohn-hebrides",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        121.0,
+        140.0
+      ],
+      "b": [
+        148.0,
+        167.0
+      ],
+      "label": "The lyrical phrase is restated",
+      "basis": "The lyrical second-subject group in the exposition reiterates its broad phrase over continuing accompanimental motion. Both measured spans lie in the D-major contrast identified near 120 s, not in the later recapitulation. CENS diagonal mean 0.927, sustained 19 s, fixed pitch-class shift 0 semitones and time offset 27 s (cache/form/mendelssohn-hebrides.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The later return near 455 s is established by the form and listening notes, but no corresponding long fixed-lag path passed the threshold. The falling accompaniment figure is not itself treated as a full theme. This single link identifies a local second-subject restatement, not a repeated exposition."
+}

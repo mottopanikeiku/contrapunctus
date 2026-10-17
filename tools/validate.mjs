@@ -7,25 +7,124 @@ import { createRequire } from 'node:module';
 import { pathToFileURL } from 'node:url';
 import { lookup, normalizeTitle } from './commons.mjs';
 import roster from '../content/roster.mjs';
+import { readFile, readdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 
 const require = createRequire(import.meta.url);
 const ABCJS = require('../docs/assets/vendor/abcjs-basic-min.js');
 const slugs = new Set(Object.values(roster).flat());
 const eras = new Set(Object.keys(roster));
-const pages = new Set(['origins', 'workshop', 'timeline', 'gallery', 'credits', 'index', 'composers']);
+const pages = new Set(['origins', 'workshop', 'timeline', 'gallery', 'credits', 'index', 'composers', 'glossary', 'sources', 'routes', 'hall', 'atlas', 'influence']);
+const topics = new Set(['origins', 'workshop', 'recording-history', 'performance-practice', 'influence']);
+const ROOT = path.resolve(import.meta.dirname, '..');
 const SLOP = /\b(tapestry|delve|testament to|timeless|masterful(ly)?|myriad|resonat(e|es|ing) with|journey|vibrant|breathtaking|nuanced|showcas(e|es|ing)|realm of|in the world of|seamless(ly)?|elevat(e|es|ing)|captivat(e|es|ing)|unparalleled|profound(ly)?|evocative|lush tapestry|sonic landscape|soundscape)\b/gi;
 
 let bad = 0;
 const err = (f, m) => { bad++; console.log(`ERROR ${f}: ${m}`); };
 const warn = (f, m) => console.log(`warn  ${f}: ${m}`);
+const nonempty = (v) => typeof v === 'string' && !!v.trim();
+const webUrl = (v) => { try { return ['http:', 'https:'].includes(new URL(v).protocol); } catch { return false; } };
+
+function validateBibliography(f, b) {
+  if (!b || typeof b !== 'object' || Array.isArray(b)) { err(f, 'bibliography must be an object'); return; }
+  if (path.basename(f, '.json') !== b.id) err(f, 'bibliography file name must equal id');
+  const known = b.kind === 'composer' ? slugs : b.kind === 'era' ? eras : b.kind === 'topic' ? topics : null;
+  if (!known) err(f, 'bibliography kind must be composer, era or topic');
+  else if (!known.has(b.id)) err(f, `unknown ${b.kind} bibliography id ${b.id}`);
+  if (!Array.isArray(b.items) || !b.items.length) { err(f, 'bibliography needs a non-empty items array'); return; }
+  for (const [i, item] of b.items.entries()) {
+    if (!item || typeof item !== 'object' || Array.isArray(item)) { err(f, `items[${i}] must be an object`); continue; }
+    for (const key of ['cite', 'kind', 'note']) if (!nonempty(item[key])) err(f, `items[${i}].${key} must be a non-empty string`);
+    if (item.url != null && !webUrl(item.url)) err(f, `items[${i}].url must be an http(s) URL`);
+  }
+}
+
+async function validateGlossary(f, entries) {
+  if (!Array.isArray(entries)) { err(f, 'glossary must export an array'); return; }
+  const ids = new Set();
+  const listenIds = new Set((await readdir(path.join(ROOT, 'content/listen'))).filter((n) => n.endsWith('.mjs')).map((n) => n.slice(0, -4)));
+  const scores = new Map();
+  for (const g of entries) {
+    if (!g || typeof g !== 'object' || Array.isArray(g)) { err(f, 'glossary entry must be an object'); continue; }
+    if (!nonempty(g.slug) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(g.slug)) err(f, `invalid glossary slug ${g.slug}`);
+    if (ids.has(g.slug)) err(f, `duplicate glossary slug ${g.slug}`);
+    ids.add(g.slug);
+    for (const key of ['term', 'kind', 'short', 'html']) if (!nonempty(g[key])) err(f, `${g.slug}.${key} must be a non-empty string`);
+    for (const key of ['aka', 'hear', 'see']) if (!Array.isArray(g[key])) err(f, `${g.slug}.${key} must be an array`);
+    for (const alias of Array.isArray(g.aka) ? g.aka : []) if (!nonempty(alias)) err(f, `${g.slug}: aliases must be non-empty strings`);
+    for (const h of Array.isArray(g.hear) ? g.hear : []) {
+      if (!h || typeof h !== 'object' || Array.isArray(h)) { err(f, `${g.slug}: hear entries must be objects`); continue; }
+      if (!listenIds.has(h.listen)) { err(f, `${g.slug}: unknown hear listen id ${h.listen}`); continue; }
+      if (!nonempty(h.note)) err(f, `${g.slug}: hear note must be a non-empty string`);
+      if ((h.t != null) === (h.bar != null)) err(f, `${g.slug}: hear needs exactly one of t or bar`);
+      if (h.t != null && (!Number.isFinite(h.t) || h.t < 0)) err(f, `${g.slug}: hear time must be a non-negative number`);
+      if (h.bar != null) {
+        if (!nonempty(h.bar.n) || !Number.isInteger(h.bar.occ) || h.bar.occ < 1) { err(f, `${g.slug}: bar must be { n: string, occ: positive integer }`); continue; }
+        if (!scores.has(h.listen)) {
+          const file = path.join(ROOT, 'docs/assets/data', h.listen, 'score.json');
+          try { scores.set(h.listen, existsSync(file) ? JSON.parse(await readFile(file, 'utf8')) : null); }
+          catch (e) { err(f, `${g.slug}: cannot read score.json: ${e.message}`); scores.set(h.listen, null); }
+        }
+        const score = scores.get(h.listen);
+        if (score && !score.bars?.some((b) => String(b.n) === h.bar.n && b.occ === h.bar.occ && Number.isFinite(b.t))) err(f, `${g.slug}: bar ${h.bar.n}/${h.bar.occ} not in ${h.listen}/score.json`);
+      }
+    }
+  }
+  for (const g of entries) for (const slug of Array.isArray(g?.see) ? g.see : []) if (!ids.has(slug)) err(f, `${g.slug}: unknown see slug ${slug}`);
+}
 
 const files = process.argv.slice(2);
 if (!files.length) { console.log('usage: node tools/validate.mjs <content file>...'); process.exit(2); }
 
 for (const f of files) {
   let mod;
+  if (f.endsWith('.json')) {
+    try { mod = JSON.parse(await (await import('node:fs/promises')).readFile(f, 'utf8')); }
+    catch (e) { err(f, `invalid JSON: ${e.message}`); continue; }
+    if (f.includes('/bibliography/')) {
+      const before = bad;
+      validateBibliography(f, mod);
+      if (bad === before) console.log(`ok    ${f}: ${mod.items.length} bibliography items`);
+      continue;
+    }
+    const STATUS = new Set(['documented', 'inferred', 'disputed', 'unknown', 'not applicable']);
+    const field = (v, name) => {
+      if (!v || typeof v !== 'object' || !('value' in v) || !STATUS.has(v.status)) { err(f, `${name} must be a Field {value, status, sourceIds, note}`); return; }
+      if (!Array.isArray(v.sourceIds)) err(f, `${name}.sourceIds must be an array`);
+      if (v.status === 'documented' && !v.sourceIds.length) err(f, `${name} is documented but cites no source`);
+      if (v.status === 'disputed' && !(v.alternatives?.length >= 2)) err(f, `${name} is disputed but lists fewer than two alternatives`);
+      for (const id of [...v.sourceIds, ...(v.alternatives ?? []).flatMap((a) => a.sourceIds ?? [])]) if (!(mod.sources ?? []).some((s) => s.id === id)) err(f, `${name} cites unknown source ${id}`);
+    };
+    if (f.includes('/dossiers/')) {
+      if (path.basename(f, '.json') !== mod.id) err(f, 'file name must equal id');
+      field(mod.work?.version, 'work.version'); field(mod.performers, 'performers');
+      field(mod.session?.date, 'session.date'); field(mod.session?.place, 'session.place');
+      for (const k of ['label', 'catalogue', 'matrixTakeSides']) field(mod.carrier?.[k], `carrier.${k}`);
+      for (const k of ['credits', 'date', 'processing']) field(mod.transfer?.[k], `transfer.${k}`);
+      field(mod.rights?.composition, 'rights.composition'); field(mod.rights?.recording, 'rights.recording');
+      if (!mod.rights?.creditLine) err(f, 'rights.creditLine missing');
+      if (!(mod.sources ?? []).length) err(f, 'no sources');
+      for (const s of mod.sources ?? []) if (!s.id || !s.url || !s.accessed) err(f, `source ${s.id ?? '?'} needs id, url, accessed`);
+    }
+    if (f.includes('/relations/')) {
+      const KINDS = new Set(['literal repeat', 'varied return', 'tonal return', 'transposed return']);
+      for (const r of mod.relations ?? []) {
+        if (!KINDS.has(r.kind)) err(f, `relation kind ${r.kind}`);
+        if (!(Array.isArray(r.a) && Array.isArray(r.b) && r.a[0] < r.a[1] && r.b[0] < r.b[1] && r.a[0] < r.b[0])) err(f, `relation "${r.label}" spans invalid`);
+        if (!r.label || !r.basis || !['provisional', 'reviewed'].includes(r.status)) err(f, `relation "${r.label}" needs label, basis, status`);
+      }
+    }
+    console.log(`${bad ? '' : 'ok    '}${f}`);
+    continue;
+  }
   try { mod = (await import(pathToFileURL(path.resolve(f)).href + `?t=${Date.now()}`)).default; }
   catch (e) { err(f, `does not import: ${e.message}`); continue; }
+  if (path.basename(f) === 'glossary.mjs') {
+    const before = bad;
+    await validateGlossary(f, mod);
+    if (bad === before) console.log(`ok    ${f}: ${mod.length} glossary entries`);
+    continue;
+  }
   const text = JSON.stringify(mod);
   const isComposer = f.includes('/composers/');
 
@@ -50,6 +149,10 @@ for (const f of files) {
     for (const k of ['id', 'composer', 'work', 'year', 'forces', 'performers', 'source', 'intro', 'sections', 'cues']) if (mod[k] == null) err(f, `missing field ${k}`);
     if (mod.id && path.basename(f, '.mjs') !== mod.id) err(f, `file name must be ${mod.id}.mjs`);
     if (mod.composer && !slugs.has(mod.composer)) err(f, `unknown composer ${mod.composer}`);
+    for (const [i, section] of (mod.sections ?? []).entries()) {
+      for (const key of ['m', 'mNote']) if (section[key] !== undefined && typeof section[key] !== 'string') err(f, `sections[${i}].${key} must be a string when present`);
+      if (typeof section.mNote === 'string' && section.mNote.trim().split(/\s+/).length > 12) err(f, `sections[${i}].mNote must be no more than 12 words`);
+    }
     const info = mod.source?.file ? await audioInfo(mod.source.file) : null;
     if (!info) err(f, `recording not found on Commons: ${mod.source?.file}`);
     else {
@@ -62,16 +165,45 @@ for (const f of files) {
         if (i && c.t <= list[i - 1].t) err(f, `${name}[${i}] not after previous`);
       });
       check(mod.sections ?? [], 'sections');
-      check(mod.cues ?? [], 'cues');
       const cues = mod.cues ?? [];
-      if (cues[0]?.t !== 0) err(f, 'first cue must be at t: 0');
+      // cues anchored to a score bar get their time from docs/assets/data/<id>/score.json at build time
+      const timed = cues.filter((c) => !c.bar);
+      check(timed, 'cues');
+      if (cues[0] && !cues[0].bar && cues[0].t !== 0) err(f, 'first cue must be at t: 0');
+      const BASES = new Set(['score-aligned', 'score-proportion', 'audio-feature', 'documented', 'general']);
+      for (const c of cues) {
+        if (!BASES.has(c.basis)) err(f, `cue "${c.title}" needs basis (one of ${[...BASES].join(', ')})`);
+        if (['music', 'form', 'listen'].includes(c.kind)) {
+          if (!['moment', 'passage'].includes(c.precision)) err(f, `cue "${c.title}" needs precision 'moment' or 'passage'`);
+          if (c.precision === 'moment' && !['score-aligned', 'audio-feature'].includes(c.basis)) err(f, `cue "${c.title}": precision 'moment' requires basis score-aligned or audio-feature`);
+          if (c.basis === 'score-aligned' && !c.bar) err(f, `cue "${c.title}": basis score-aligned requires bar: { n, occ }`);
+          if (!c.evidence) err(f, `cue "${c.title}" needs evidence (shown to readers under "How we know")`);
+        }
+        if (c.bar && (typeof c.bar.n !== 'string' || !c.bar.occ)) err(f, `cue "${c.title}": bar must be { n: '12', occ: 1 }`);
+      }
       const kinds = new Set(['music', 'form', 'listen', 'life', 'world']);
       for (const c of cues) {
         if (!kinds.has(c.kind)) err(f, `bad cue kind ${c.kind}`);
         if (!c.title || !c.text) err(f, `cue at ${c.t} needs title and text`);
         const words = (c.text ?? '').split(/\s+/).length;
         if (words > 58) err(f, `cue at ${c.t} has ${words} words (max 55)`);
-        if (['music', 'form', 'listen'].includes(c.kind) && c.t > 0 && !c.evidence && /\b(enter|enters|arrives|returns|begins|climax|now|here)\b/i.test(c.text)) warn(f, `cue at ${c.t} describes a timed event without evidence`);
+      }
+      const DEVICES = new Set(['perfect cadence', 'half cadence', 'deceptive cadence', 'plagal cadence', 'elision', 'pivot chord', 'common-tone modulation', 'direct modulation', 'enharmonic reinterpretation', 'chromatic slide', 'sequence', 'dominant pedal', 'tonic pedal', 'retransition', 'standing on the dominant', 'liquidation', 'motivic link', 'fermata', 'general pause', 'medial caesura', 'crescendo build', 'decrescendo', 'texture change', 'orchestration change', 'register change', 'tempo change', 'metre change', 'link passage', 'cadenza', 'attacca', 'fade']);
+      const tids = new Set();
+      for (const tr of mod.transitions ?? []) {
+        const name = tr.title ?? tr.id;
+        if (!tr.id || tids.has(tr.id)) err(f, `transition ${name}: missing or duplicate id`); tids.add(tr.id);
+        if (!tr.title || tr.title.split(/\s+/).length > 8) err(f, `transition ${name}: title missing or > 8 words`);
+        if (!tr.from || !tr.to) err(f, `transition ${name}: needs from/to`);
+        if (!tr.at || (tr.at.t == null && !tr.at.bar)) err(f, `transition ${name}: needs at { t } or at { bar }`);
+        if (tr.at?.t != null && (tr.at.t < 0 || tr.at.t > dur)) err(f, `transition ${name}: at.t outside recording`);
+        if (tr.at?.bar && tr.basis !== 'score-aligned') err(f, `transition ${name}: bar anchors require basis score-aligned`);
+        const words = (tr.how ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+        if (!words || words > 115) err(f, `transition ${name}: how must be 1–110 words (has ${words})`);
+        for (const dv of tr.devices ?? []) if (!DEVICES.has(dv)) err(f, `transition ${name}: unknown device "${dv}"`);
+        if (!(tr.devices ?? []).length) err(f, `transition ${name}: needs at least one device`);
+        if (!BASES.has(tr.basis) || !['moment', 'passage'].includes(tr.precision) || !tr.evidence) err(f, `transition ${name}: needs basis, precision, evidence`);
+        if (tr.precision === 'moment' && !['score-aligned', 'audio-feature'].includes(tr.basis)) err(f, `transition ${name}: moment precision needs score-aligned or audio-feature basis`);
       }
       const gaps = cues.slice(1).map((c, i) => c.t - cues[i].t);
       const maxGap = Math.max(0, ...gaps, dur - (cues.at(-1)?.t ?? 0));

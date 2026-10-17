@@ -1,0 +1,24 @@
+{
+ "id": "kurtag",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Bálint András Varga, *György Kurtág: Three Interviews and Ligeti Homages* (Boydell & Brewer, 2009).",
+   "url": "https://www.cambridge.org/core/books/abs/gyorgy-kurtag/three-questions-again-1996/A84CF64FB02BEF3C238423B3B5DD7EC1",
+   "kind": "reference",
+   "note": "Interviews give the composer’s own account of his work; the linked chapter returns to questions first asked earlier in his career."
+  },
+  {
+   "cite": "Rachel Beckles Willson, *Ligeti, Kurtág, and Hungarian Music during the Cold War* (Cambridge University Press, 2012 edition).",
+   "url": "https://ressources.ircam.fr/en/composer/gyorgy-kurtag/resources",
+   "kind": "study",
+   "note": "Situates Kurtág and Ligeti together within the political and musical history of Cold War Hungary."
+  },
+  {
+   "cite": "ECM Records, ‘György Kurtág’ (online artist profile and discography).",
+   "url": "https://ecmrecords.com/artists/gyorgy-kurtag/",
+   "kind": "reference",
+   "note": "Connects the composer’s biography with recordings by Kurtág and his close interpreters."
+  }
+ ]
+}

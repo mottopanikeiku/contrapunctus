@@ -1,0 +1,20 @@
+{
+  "id": "dvorak-9-largo",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        37.5,
+        65.0
+      ],
+      "b": [
+        520.0,
+        547.5
+      ],
+      "label": "The cor anglais song returns",
+      "basis": "The large A–B–A′ design restores the opening song after the central minor-key and climactic passages. The later excerpt begins at the return marked near 520 s, not at an inferred instrument entrance. CENS diagonal mean 0.927, sustained 27.5 s, fixed pitch-class shift 0 semitones and time offset 482.5 s (cache/form/dvorak-9-largo.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "A longer 31 s match lies wholly inside the first A section and is omitted in favour of the large return. Short shifted paths involving the climax and the closing chords can reflect common chord shapes or combined themes; they are not identified as literal repetitions of the song."
+}

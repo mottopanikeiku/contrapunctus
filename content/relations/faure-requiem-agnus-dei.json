@@ -1,0 +1,20 @@
+{
+  "id": "faure-requiem-agnus-dei",
+  "relations": [
+    {
+      "kind": "transposed return",
+      "a": [
+        4.0,
+        22.5
+      ],
+      "b": [
+        324.0,
+        342.5
+      ],
+      "label": "The instrumental melody returns lower",
+      "basis": "The instrumental close recalls the opening string melody after the Introit quotation, as described in the listening notes. The measured shift is three semitones down, consistent with the opening F-major material returning in D major. CENS diagonal mean 0.912, sustained 18.5 s, fixed pitch-class shift -3 semitones and time offset 320 s (cache/form/faure-requiem-agnus-dei.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The short repetitions within the opening petition and Lux aeterna are not shown as separate large returns. The Introit recollection near 238 s quotes a different movement, absent from this recording, so it cannot be linked to an earlier Agnus Dei span. The third petition’s thematic return did not yield a sustained qualifying path."
+}

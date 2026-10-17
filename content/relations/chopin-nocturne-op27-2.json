@@ -1,0 +1,34 @@
+{
+  "id": "chopin-nocturne-op27-2",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        9.0,
+        32.5
+      ],
+      "b": [
+        118.0,
+        141.5
+      ],
+      "label": "The opening melody returns",
+      "basis": "The nocturne alternates returns and expansions of its opening melody; the first paired excerpt agrees with the return marked near 116 s. CENS diagonal mean 0.953, sustained 23.5 s, fixed pitch-class shift 0 semitones and time offset 109 s (cache/form/chopin-nocturne-op27-2.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        3.0,
+        19.5
+      ],
+      "b": [
+        207.0,
+        223.5
+      ],
+      "label": "The melody returns again",
+      "basis": "The next opening-melody return is marked near 206 s, with changed ornament and continuation. Its initial phrase supplies this shorter measured match. CENS diagonal mean 0.949, sustained 16.5 s, fixed pitch-class shift 0 semitones and time offset 204 s (cache/form/chopin-nocturne-op27-2.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The D♭-centred coda also matches parts of the opening, but its sustained tonic and broken-chord background do not identify an unchanged melodic phrase. Nearby alternative offsets around the second return have low contrast; one representative is shown, with approximate rather than bar-aligned endpoints."
+}

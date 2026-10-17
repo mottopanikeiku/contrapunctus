@@ -1,0 +1,48 @@
+{
+  "id": "beethoven-109-variations",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        3.0,
+        38.5
+      ],
+      "b": [
+        41.0,
+        76.5
+      ],
+      "label": "The theme’s first half repeats",
+      "basis": "The sixteen-bar theme has two repeated eight-bar halves; both excerpts lie in its first half and repeat. CENS diagonal mean 0.972, sustained 35.5 s, fixed pitch-class shift 0 semitones and time offset 38 s (cache/form/beethoven-109-variations.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "literal repeat",
+      "a": [
+        77.5,
+        103.5
+      ],
+      "b": [
+        115.5,
+        141.5
+      ],
+      "label": "The theme’s second half repeats",
+      "basis": "Both excerpts lie in the second eight-bar half of the opening theme and its written repeat. CENS diagonal mean 0.966, sustained 26 s, fixed pitch-class shift 0 semitones and time offset 38 s (cache/form/beethoven-109-variations.txt, candidate 6; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        3.0,
+        19.0
+      ],
+      "b": [
+        752.0,
+        768.0
+      ],
+      "label": "The plain theme returns",
+      "basis": "After the sixth variation, Beethoven restores the opening theme without the earlier variation figuration; the listening map places this return near 750 s. CENS diagonal mean 0.958, sustained 16 s, fixed pitch-class shift 0 semitones and time offset 749 s (cache/form/beethoven-109-variations.txt, candidate 11; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Long internal repetitions in the variations are not all shown: the map selects the theme’s two repeat signs and its final restoration. The 225–258.5 s to 263–296.5 s match crosses the approximate Variation I/II boundary, so it is not used to certify that boundary or identify a variation number. Rubato splits the final theme’s recurrence into several paths."
+}

@@ -1,0 +1,24 @@
+{
+ "id": "ravel",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Roger Nichols, *Ravel* (Yale University Press, 2013 paperback).",
+   "url": "https://yalebooks.yale.edu/book/9780300187762/ravel/",
+   "kind": "biography",
+   "note": "A biography based on written and oral evidence, including testimony from the composer’s associates."
+  },
+  {
+   "cite": "Arbie Orenstein, ed., *A Ravel Reader* (Dover, 2003).",
+   "url": "https://openlibrary.org/books/OL7639099M",
+   "kind": "letters",
+   "note": "Documents, correspondence and interviews provide a source-based counterpoint to later interpretations."
+  },
+  {
+   "cite": "Deborah Mawer, ed., *The Cambridge Companion to Ravel* (Cambridge University Press, 2000).",
+   "url": "https://www.cambridge.org/core/books/cambridge-companion-to-ravel/C7725527948B8D9E342CD72F7A89FB28",
+   "kind": "survey",
+   "note": "Discusses piano, chamber, orchestral and stage works, with chapters on performance and early recordings."
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "french",
+ "kind": "era",
+ "items": [
+  {
+   "cite": "Simon Trezise, ed., *The Cambridge Companion to French Music* (Cambridge University Press, 2015).",
+   "url": "https://www.cambridge.org/core/books/cambridge-companion-to-french-music/D44E151C65F35D4EC446D813D47CD9D3",
+   "kind": "survey",
+   "note": "A chronological and thematic introduction, including opera, ballet, institutions, aesthetics and popular traditions."
+  },
+  {
+   "cite": "Jann Pasler, *Composing the Citizen: Music as Public Utility in Third Republic France* (University of California Press, 2009).",
+   "url": "https://www.ucpress.edu/books/composing-the-citizen/hardcover",
+   "kind": "study",
+   "note": "Connects musical institutions, education and public life with the construction of French citizenship."
+  },
+  {
+   "cite": "Deborah Mawer, ed., *The Cambridge Companion to Ravel* (Cambridge University Press, 2000).",
+   "url": "https://www.cambridge.org/core/books/cambridge-companion-to-ravel/C7725527948B8D9E342CD72F7A89FB28",
+   "kind": "survey",
+   "note": "Discusses piano, chamber, orchestral and stage works, with chapters on performance and early recordings."
+  }
+ ]
+}

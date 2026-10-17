@@ -1,0 +1,36 @@
+{
+ "id": "faure",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Jean-Michel Nectoux, *Gabriel Fauré: A Musical Life* (Cambridge: Cambridge University Press, 1991).",
+   "url": "https://openlibrary.org/books/OL1850079M",
+   "kind": "biography",
+   "note": "Extensive documentary biography and musical study."
+  },
+  {
+   "cite": "Jean-Michel Nectoux, ‘Fauré, Gabriel’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.09366",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Jean-Michel Nectoux, *Gabriel Fauré: Catalogue des œuvres* (Bärenreiter, 2018).",
+   "url": "https://emag.baerenreiter.com/en/faure-gabriel/",
+   "kind": "catalogue",
+   "note": "Thematic catalogue published as Series VII/1 of the complete works."
+  },
+  {
+   "cite": "Gabriel Fauré, *Gabriel Fauré: His Life through His Letters*, edited by Jean-Michel Nectoux, translated by J. A. Underwood (Boyars, 1984).",
+   "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971993809704495424",
+   "kind": "letters",
+   "note": "English correspondence collection illuminating Fauré’s personal and professional relationships."
+  },
+  {
+   "cite": "Gabriel Fauré, *Requiem*, Op. 48, concert version (Paris: Hamelle, 1900–1901).",
+   "url": "https://imslp.org/wiki/Requiem_in_D_minor%2C_Op.48_%28Faur%C3%A9%2C_Gabriel%29",
+   "kind": "score",
+   "note": "Free early vocal and full scores; distinguish the concert version from earlier church versions."
+  }
+ ]
+}

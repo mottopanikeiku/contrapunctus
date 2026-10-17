@@ -1,0 +1,342 @@
+{
+  "uniqueScoreAttacks": 188,
+  "audioDetectedOnsets": 189,
+  "medianAbsoluteOnsetDeviation": 0.029311006453859534,
+  "noteWeightedMedianDeviation": 0.02716553287981327,
+  "p95AbsoluteOnsetDeviation": 0.06638792953115567,
+  "fractionWithin150ms": 1.0,
+  "worstFiveOnsetRegions": [
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 7,
+      "median": 0.03749520320948818,
+      "p95": 0.07340275597412357,
+      "max": 0.0775754404325113,
+      "adaptiveMedian": 0.049105180533757675,
+      "adaptiveP95": 0.08501273329838879
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 9,
+      "median": 0.0351787894644815,
+      "p95": 0.049093319379016974,
+      "max": 0.050015698587117186,
+      "adaptiveMedian": 0.04265480551197243,
+      "adaptiveP95": 0.05872457701028679
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 8,
+      "median": 0.035110762253619754,
+      "p95": 0.05171463457177765,
+      "max": 0.053594976452119525,
+      "adaptiveMedian": 0.045679399965114165,
+      "adaptiveP95": 0.06332461189604119
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 9,
+      "median": 0.03425780568639425,
+      "p95": 0.05254351997207891,
+      "max": 0.05507064364206826,
+      "adaptiveMedian": 0.035286935286947596,
+      "adaptiveP95": 0.05824594453164593
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 10,
+      "median": 0.03373800802373239,
+      "p95": 0.08907779522064557,
+      "max": 0.09160997732425358,
+      "adaptiveMedian": 0.04534798534799478,
+      "adaptiveP95": 0.09490057561485869
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 7,
+      "median": 0.03749520320948818,
+      "p95": 0.07340275597412357,
+      "max": 0.0775754404325113,
+      "adaptiveMedian": 0.049105180533757675,
+      "adaptiveP95": 0.08501273329838879
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 8,
+      "median": 0.035110762253619754,
+      "p95": 0.05171463457177765,
+      "max": 0.053594976452119525,
+      "adaptiveMedian": 0.045679399965114165,
+      "adaptiveP95": 0.06332461189604119
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 10,
+      "median": 0.03373800802373239,
+      "p95": 0.08907779522064557,
+      "max": 0.09160997732425358,
+      "adaptiveMedian": 0.04534798534799478,
+      "adaptiveP95": 0.09490057561485869
+    },
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 6,
+      "median": 0.033664747950462814,
+      "p95": 0.0642682714111289,
+      "max": 0.06544915402058304,
+      "adaptiveMedian": 0.0452747252747252,
+      "adaptiveP95": 0.07297575440432569
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 9,
+      "median": 0.03192743764174111,
+      "p95": 0.04848212105365519,
+      "max": 0.04979242979260334,
+      "adaptiveMedian": 0.0435374149660106,
+      "adaptiveP95": 0.05661957090529768
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 176.0,
+      "meanCosine": 0.7668125602505588
+    },
+    {
+      "start": 24.0,
+      "meanCosine": 0.7944882246069652
+    },
+    {
+      "start": 112.0,
+      "meanCosine": 0.8157881534652597
+    },
+    {
+      "start": 8.0,
+      "meanCosine": 0.8492806856406422
+    },
+    {
+      "start": 96.0,
+      "meanCosine": 0.8629469355188518
+    }
+  ],
+  "sections": [
+    {
+      "bar": "19",
+      "occ": 1,
+      "editorial": 42,
+      "aligned": 42.927692307692304,
+      "difference": 0.927692307692304
+    },
+    {
+      "bar": "1",
+      "occ": 2,
+      "editorial": 88,
+      "aligned": 90.33999999999943,
+      "difference": 2.339999999999435
+    },
+    {
+      "bar": "40",
+      "occ": 1,
+      "editorial": 158,
+      "aligned": 158.52769230769232,
+      "difference": 0.5276923076923197
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 2.18,
+      "nearestOnsetDeviation": 0.06072562358276645
+    },
+    {
+      "label": "middle",
+      "bar": "1",
+      "occ": 2,
+      "scoreQ": 117.0,
+      "audioSeconds": 90.33999999999943,
+      "nearestOnsetDeviation": 0.06689342403684861
+    },
+    {
+      "label": "last",
+      "bar": "47",
+      "occ": 1,
+      "scoreQ": 231.0,
+      "audioSeconds": 176.81692307692305,
+      "nearestOnsetDeviation": 0.008578405721237914
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "9",
+      "occ": 1,
+      "midi": 66,
+      "voice": "melody",
+      "durationQ": 12.0,
+      "onset": 20.836923076923075,
+      "offset": 30.20923076923076,
+      "durationSeconds": 9.372307692307686
+    },
+    {
+      "bar": "19",
+      "occ": 1,
+      "midi": 64,
+      "voice": "melody",
+      "durationQ": 9.0,
+      "onset": 42.927692307692304,
+      "offset": 49.98615384615379,
+      "durationSeconds": 7.058461538461486
+    },
+    {
+      "bar": "9",
+      "occ": 2,
+      "midi": 66,
+      "voice": "melody",
+      "durationQ": 12.0,
+      "onset": 108.61230769230768,
+      "offset": 117.59846153846154,
+      "durationSeconds": 8.986153846153854
+    },
+    {
+      "bar": "19",
+      "occ": 2,
+      "midi": 64,
+      "voice": "melody",
+      "durationQ": 9.0,
+      "onset": 130.2476923076923,
+      "offset": 137.00923076923073,
+      "durationSeconds": 6.761538461538436
+    }
+  ],
+  "recurrence": [
+    {
+      "aStart": 5.0,
+      "aEnd": 70.0,
+      "predictedBStart": 93.33999999999943,
+      "bestBStart": 92.5,
+      "offsetSeconds": 87.5,
+      "boundaryResidualSeconds": -0.839999999999435,
+      "cosine": 0.8570563608027288,
+      "searchRadiusSeconds": 4
+    }
+  ],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.6071794871794793,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.88794262710606,
+  "endAnchor": {
+    "scoreQ": 234.0,
+    "audioSeconds": 181.69999999999993,
+    "decodedDuration": 183.60743764172335,
+    "activeEndMinus45dB": 181.7077551020408
+  },
+  "id": "satie-gymnopedie-1",
+  "tuningHz": 441.02,
+  "audioSha256": "664bd754fd049c9b80a3f62fd4e4138d22dad83e54eaa04ec253c5ad826af632",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Voice-level Staff_performer exposes top, accomp, bottom and othervoice; the aggregate set of pitch/onset pairs equals the published MIDI. Regeneration preserves the twelve-quarter F♯ melody tie at bar 9: the published merged-staff MIDI truncates it at accompaniment reattacks and has two redundant note-offs at quarter 36."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      41.427692307692304,
+      42.927692307692304
+    ],
+    [
+      89.75999999999999,
+      90.35999999999943
+    ],
+    [
+      161.1076923076923,
+      158.52769230769232
+    ],
+    [
+      177.21846153846153,
+      176.78
+    ]
+  ],
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 2.18,
+      "peakSeconds": 2.32,
+      "window": [
+        2.05,
+        2.5
+      ],
+      "midiPitches": [
+        43
+      ],
+      "basis": "Pitch-energy inspection: first G2 attack after leading silence; final D-minor attack before the decay. Windows select attacks, not the unrelated noise before the music."
+    },
+    {
+      "label": "last",
+      "scoreQ": 231.0,
+      "audioSeconds": 176.78,
+      "peakSeconds": 176.84,
+      "window": [
+        176.55,
+        177.1
+      ],
+      "midiPitches": [
+        38,
+        45,
+        50,
+        62,
+        65,
+        69,
+        74
+      ],
+      "basis": "Pitch-energy inspection: first G2 attack after leading silence; final D-minor attack before the decay. Windows select attacks, not the unrelated noise before the music."
+    }
+  ],
+  "adaptiveOnsetCount": 323,
+  "adaptiveMedianDeviation": 0.037230071515788055,
+  "gateReasons": [],
+  "elapsedSeconds": 0.9339012209966313,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 78,
+    "notes": 455,
+    "voices": 4
+  }
+}

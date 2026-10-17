@@ -1,0 +1,156 @@
+{
+  "id": "debussy-la-mer-dawn",
+  "work": {
+    "title": "La Mer",
+    "catalogue": "L. 109; CD 111",
+    "movement": "I. De l’aube à midi sur la mer",
+    "version": {
+      "value": "Concert-band transcription by Lawrence Odom",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is not Debussy’s orchestral scoring. Commons separately credits the arranger and identifies track 9 of French Impressions (2000)."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "United States Air Force Band, Concert Band",
+        "role": "concert band"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "No conductor is named in the consulted Commons record."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "2000 identifies the album French Impressions in the source description. A recording-session date is not separately supplied.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original release label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source identifies French Impressions (2000), track 9, but no original carrier catalogue number. The linked Naxos entry was inaccessible."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or restoration engineer is identified; an uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No source-transfer or restoration processing is disclosed. The access-file encoding is recorded separately."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
+    "sourceChain": [
+      "commons",
+      "air-force"
+    ],
+    "format": "MP3 original file hosted by Wikimedia Commons",
+    "durationSeconds": 559.588
+  },
+  "rights": {
+    "composition": {
+      "value": "Debussy’s composition is public domain; Odom’s arrangement is identified as a United States government work",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons separates composition (PD-old-100-expired) from arrangement (PD-USGov-Military-Air Force). The government-work assertion is United States-specific."
+    },
+    "recording": {
+      "value": "Public domain in the United States as an official United States Air Force recording",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons applies PD-USGov-Military-Air Force separately to performance and recording, and says it relies on the Air Force’s public-domain representation; its metadata may not have been independently verified."
+    },
+    "creditLine": "Claude Debussy: La Mer, I. De l’aube à midi sur la mer, transcribed by Lawrence Odom — United States Air Force Band, Concert Band. French Impressions, track 9. Recording: United States Air Force; public domain in the United States, via Wikimedia Commons.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:La mer - I. De l'aube à midi sur la mer - Concert Band - United States Air Force Band.mp3",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1030746393",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ALa+mer+-+I.+De+l%27aube+%C3%A0+midi+sur+la+mer+-+Concert+Band+-+United+States+Air+Force+Band.mp3&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "air-force",
+      "title": "United States Air Force — Public Domain Music",
+      "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
+      "locator": "Upstream source named by Commons. Direct retrieval returned HTTP 403 on the access date; the track-specific attribution is documented by Commons, not independently confirmed here.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

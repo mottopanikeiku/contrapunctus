@@ -1,0 +1,152 @@
+{
+  "id": "schoenberg-quartet-2-entrueckung",
+  "work": {
+    "title": "String Quartet No. 2",
+    "catalogue": "Op. 10",
+    "movement": "IV. Entrückung — Sehr langsam",
+    "version": {
+      "value": "String quartet with soprano",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source identifies the Carmel String Quartet and Rona Israel-Kolatt. No particular score edition is supplied."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Carmel String Quartet",
+        "role": "string quartet"
+      },
+      {
+        "name": "Rona Israel-Kolatt",
+        "role": "soprano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "2007",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Year given for this recording; the 27 April 2008 upload is not the session date.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original release label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or restoration engineer is identified; an uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No source-transfer or restoration processing is disclosed. The access-file encoding is recorded separately."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/Schoenberg_Quartet_No._2_4th_movement.OGG/Schoenberg_Quartet_No._2_4th_movement.OGG.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 627.905
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain, as asserted in the Commons composition notice",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons gives Schoenberg’s death in 1951, a life-plus-70 scope and pre-1931 United States publication. This public-domain notice concerns the composition; it does not replace the quartet’s recording licence."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution 3.0 Unported",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Permission field grants free use of the Carmel Quartet recording under Creative Commons 3.0; the structured copyright-licence statement specifies Attribution 3.0 Unported. The generic public-domain tag elsewhere on the page is not used as the recording licence."
+    },
+    "creditLine": "Arnold Schoenberg: String Quartet No. 2, Op. 10, IV. Entrückung — Carmel String Quartet and Rona Israel-Kolatt, soprano (2007). Recording: CC BY 3.0, via Wikimedia Commons; MP3 access derivative. Composition rights are separate.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Schoenberg Quartet No. 2 4th movement.OGG",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1255091829",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ASchoenberg+Quartet+No.+2+4th+movement.OGG&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

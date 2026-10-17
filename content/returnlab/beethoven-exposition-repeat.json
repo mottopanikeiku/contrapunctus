@@ -1,0 +1,31 @@
+{
+  "id": "beethoven-exposition-repeat",
+  "track": "beethoven-5-first",
+  "title": "Beethoven: the same exposition twice",
+  "question": "What differs when the score changes nothing?",
+  "kind": "literal repeat",
+  "status": "provisional",
+  "intro": "The repeat sign sends bars 1–124 back to bar 1 with the same notes, instruments and written markings. This is the control: two passes through one exposition in the same recording, not the later recapitulation. Timing is aligned automatically, not checked by ear; measured differences are provisional and do not establish intention.",
+  "first": {
+    "label": "Exposition · first pass",
+    "from": { "n": "1", "occ": 1 },
+    "to": { "n": "124", "occ": 1 }
+  },
+  "second": {
+    "label": "Exposition · literal repeat",
+    "from": { "n": "1", "occ": 2 },
+    "to": { "n": "124", "occ": 2 }
+  },
+  "scoreChanges": [],
+  "listenFor": "Compare the lengths of the opening pauses and the relative level of the quieter second tune, without treating a measured difference as a written change.",
+  "sources": [
+    {
+      "title": "Mutopia 941: Beethoven, Symphony No. 5, first movement — Breitkopf and Härtel, 1862–65",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941"
+    },
+    {
+      "title": "LilyPond orchestral sources: every part encloses bars 1–124 in the same two-pass repeat, with no alternative ending",
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip"
+    }
+  ]
+}

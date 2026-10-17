@@ -1,0 +1,16 @@
+[package]
+name = "sheetpack"
+version = "0.1.0"
+edition = "2024"
+description = "Pack LilyPond SVG pages and precompute full-system bar highlights"
+publish = false
+
+[dependencies]
+roxmltree = "0.21"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+svgtypes = "0.16"
+
+[profile.release]
+lto = "thin"
+strip = true

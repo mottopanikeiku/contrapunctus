@@ -1,0 +1,34 @@
+{
+  "id": "mozart-clarinet-adagio",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        3.5,
+        19.0
+      ],
+      "b": [
+        36.5,
+        52.0
+      ],
+      "label": "The orchestra answers the solo melody",
+      "basis": "The first A section sets the clarinet’s opening phrase against an orchestral answer near 34 s. The melodic material is shared, but its scoring changes. CENS diagonal mean 0.924, sustained 15.5 s, fixed pitch-class shift 0 semitones and time offset 33 s (cache/form/mozart-clarinet-adagio.txt, candidate 5; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        3.5,
+        22.0
+      ],
+      "b": [
+        270.0,
+        288.5
+      ],
+      "label": "The opening melody returns",
+      "basis": "After the contrasting middle, the A′ section restores the solo melody. The matched later excerpt falls inside the return marked near 262 s, not at a claimed precise entrance. CENS diagonal mean 0.953, sustained 18.5 s, fixed pitch-class shift 0 semitones and time offset 266.5 s (cache/form/mozart-clarinet-adagio.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Longer matches between the continuation of A and A′ reinforce the same large return and are not separate arcs. The orchestral-answer-to-solo match is another route to the already represented phrase. Neither chroma nor the chosen endpoints identify the basset clarinet’s register or an individual breath."
+}

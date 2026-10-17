@@ -58,8 +58,10 @@ V:2 name="Accompaniment" clef=bass
 A,,E,A,CE A,C E | ^G,,E,B,D E B,D E | G,,D,G,B, D G,B,D | C,E,A,C E C A, E, |]`, caption: 'An invented schematic. The upper part sustains a vocal-length phrase while the bass descends A–G♯–G–C and the broken chords keep moving. In her piano songs, listen for these independently moving layers. The two staves separate them for listening.' },
   ],
   arts: [
-    { type: 'painting', frame: 'mat', file: 'File:Fannymendelssohn-improved.jpg', artist: 'Wilhelm Hensel', title: 'Fanny Mendelssohn', date: '1829', medium: 'Drawing', collection: '', note: `<p>Wilhelm drew Fanny in the year they married, with a floral wreath and carefully articulated dress. His drawings later shared the pages of the illustrated manuscript of <i>Das Jahr</i>. Their collaboration belongs to the material history of the music.</p>` },
-    { type: 'poem', author: 'Joseph von Eichendorff', title: 'Nachts · set as Nachtwanderer', date: 'Published 1826; Hensel’s setting published 1847', lang: 'German', translator: 'Our translation', original: `Ich wandre durch die stille Nacht,
+    { relation: 'documented-encounter',
+      type: 'painting', frame: 'mat', file: 'File:Fannymendelssohn-improved.jpg', artist: 'Wilhelm Hensel', title: 'Fanny Mendelssohn', date: '1829', medium: 'Drawing', collection: '', note: `<p>Wilhelm drew Fanny in the year they married, with a floral wreath and carefully articulated dress. His drawings later shared the pages of the illustrated manuscript of <i>Das Jahr</i>. Their collaboration belongs to the material history of the music.</p>` },
+    { relation: 'documented-use',
+      type: 'poem', author: 'Joseph von Eichendorff', title: 'Nachts · set as Nachtwanderer', date: 'Published 1826; Hensel’s setting published 1847', lang: 'German', translator: 'Our translation', original: `Ich wandre durch die stille Nacht,
 Da schleicht der Mond so heimlich sacht
 Oft aus der dunkeln Wolkenhülle,
 Und hin und her im Tal,

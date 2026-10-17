@@ -1,0 +1,25 @@
+{
+  "mutopia": 37,
+  "base": "SatieE/gymnopedie_1/gymnopedie_1",
+  "zip": false,
+  "title": "Gymnopédie No. 1",
+  "edition": "Dover Edition (reproduction of the original; translated text omitted)",
+  "encoder": "Evin Robertson",
+  "revision": "Mutopia-2014/12/14-37",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "accessed": "2026-10-16",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.ly",
+      "file": "gymnopedie_1.ly",
+      "sha256": "420a52244e9fbe106dd33ba2cac84414fd66e0d01c6d472205bad39678d4ce04"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.mid",
+      "file": "gymnopedie_1.mid",
+      "sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384"
+    }
+  ]
+}

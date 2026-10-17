@@ -1,0 +1,159 @@
+{
+  "id": "mendelssohn-hebrides",
+  "work": {
+    "title": "The Hebrides",
+    "catalogue": "Op. 26",
+    "movement": "Allegro moderato",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source does not identify a performing edition or arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Musopen Symphony",
+        "role": "orchestra attribution"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "No conductor or roster is supplied in the recording source."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Commons gives 2012, but the upstream description identifies 2012 as completion of the Kickstarter recording-release project. It does not give this performance’s session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Musopen is the releasing project and rights source; the original commercial label, if any, is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Archive item names its uploader but does not identify a transfer or mastering engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "FLAC encoding described by the upstream collection as 32 bits per sample",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "This is the collection’s own description of its encoding, not verification of the source recording’s capture resolution or of restoration processing. Commons supplies the FLAC from which its MP3 derivative is served."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons FLAC file",
+    "durationSeconds": 682.58
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain, as stated in the separate Commons musical-composition notice",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composition notice is separate from Musopen’s release of the sound recording; it does not describe the rights of a modern score edition."
+    },
+    "recording": {
+      "value": "Public-domain dedication by Musopen, as recorded on Commons",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Commons uses PD-author for Musopen; the Archive description says the project purchased and released music into the public domain. The underlying rights agreements were not inspected."
+    },
+    "creditLine": "Felix Mendelssohn: The Hebrides, Op. 26 — Musopen Symphony. Released by Musopen into the public domain; Musopen Collection as FLAC, Internet Archive, via Wikimedia Commons. Session date and conductor unidentified.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Mendelssohn - Hebrides Overture, Op. 26 (Musopen Symphony).flac",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=963510501",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AMendelssohn+-+Hebrides+Overture%2C+Op.+26+%28Musopen+Symphony%29.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Musopen Collection as FLAC",
+      "url": "https://archive.org/metadata/MusopenCollectionAsFlac/metadata",
+      "locator": "description: Musopen Kickstarter project completed in 2012, repertoire and claimed 32-bit FLAC encoding; addeddate/publicdate are collection upload dates, not session dates.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

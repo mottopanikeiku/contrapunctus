@@ -1,0 +1,20 @@
+{
+  "id": "ravel-quartet-scherzo",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        2.5,
+        21.5
+      ],
+      "b": [
+        292.5,
+        311.5
+      ],
+      "label": "The plucked scherzo returns",
+      "basis": "The shortened A′ section restores the opening scherzo after the muted middle. The measured pair agrees with the return marked near 290 s; the identity and plucked scoring come from the form and listening notes, not from chroma. CENS diagonal mean 0.942, sustained 19 s, fixed pitch-class shift 0 semitones and time offset 290 s (cache/form/ravel-quartet-scherzo.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The other two candidates connect a local opening repetition and an overlapping route into A′. They are not separate returns of the entire scherzo. A change between plucking and bowing is not directly inferred from these pitch-class features."
+}

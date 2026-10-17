@@ -1,0 +1,20 @@
+{
+  "id": "mussorgsky-night-bald-mountain",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        21.5,
+        37.0
+      ],
+      "b": [
+        365.0,
+        380.5
+      ],
+      "label": "The opening agitation returns",
+      "basis": "In Rimsky-Korsakov’s concert version, opening fast material returns after contrasting episodes; these excerpts link the opening with the renewed-pressure section marked near 365 s. CENS diagonal mean 0.924, sustained 15.5 s, fixed pitch-class shift 0 semitones and time offset 343.5 s (cache/form/mussorgsky-night-bald-mountain.txt, candidate 3; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The 24 s and 14.5 s matches after the bell lie over the quiet D-centred foundation and are not identified as large formal repetitions. Early transposed figures and a shifted dance match are left as local motivic candidates rather than assigned to unverified programme events. This relation applies to Rimsky-Korsakov’s version, not Mussorgsky’s 1867 score."
+}

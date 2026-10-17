@@ -1,0 +1,36 @@
+{
+ "id": "fanny-hensel",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "R. Larry Todd, *Fanny Hensel: The Other Mendelssohn* (New York: Oxford University Press, 2009).",
+   "url": "https://doi.org/10.1093/acprof:oso/9780195180800.001.0001",
+   "kind": "biography",
+   "note": "Connects Hensel’s compositions, family life and musical activities."
+  },
+  {
+   "cite": "Marcia J. Citron, ‘Mendelssohn(-Bartholdy) [Hensel], Fanny’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.18387",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Renate Hellwig-Unruh, *Fanny Hensel: Thematisches Verzeichnis der Kompositionen* (Adliswil: Kunzelmann, 2000).",
+   "url": "https://assets.cambridge.org/97810091/72752/frontmatter/9781009172752_frontmatter.pdf",
+   "kind": "catalogue",
+   "note": "Thematic catalogue supplying the H-U work numbers."
+  },
+  {
+   "cite": "Fanny Hensel, *The Letters of Fanny Hensel to Felix Mendelssohn*, edited and translated by Marcia J. Citron (Stuyvesant, NY: Pendragon Press, 1987).",
+   "url": "https://assets.cambridge.org/97810091/72752/frontmatter/9781009172752_frontmatter.pdf",
+   "kind": "letters",
+   "note": "German originals and English translations illuminate family exchanges and Berlin musical life."
+  },
+  {
+   "cite": "Staatsbibliothek zu Berlin, *Fanny Hensel, geb. Mendelssohn (Bartholdy) (1805–1847)* (online collection guide, n.d.; accessed 16 October 2026).",
+   "url": "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/musik/sammlungen/bestaende/familie-mendelssohn/fanny-hensel-geb-mendelssohn-bartholdy-1805-1847",
+   "kind": "reference",
+   "note": "Free guide linking digitised scores, letters and archival catalogues."
+  }
+ ]
+}

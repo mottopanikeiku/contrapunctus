@@ -1,0 +1,24 @@
+{
+ "id": "adams",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "John Adams, *Hallelujah Junction: Composing an American Life* (Farrar, Straus and Giroux, 2008).",
+   "url": "https://www.earbox.com/writings-by-john-adams/",
+   "kind": "biography",
+   "note": "A memoir that also explains compositional development and offers the composer’s judgments of his musical environment."
+  },
+  {
+   "cite": "Thomas May, ed., *The John Adams Reader: Essential Writings on an American Composer* (Amadeus Press).",
+   "url": "https://www.earbox.com/writings-by-john-adams/",
+   "kind": "reference",
+   "note": "Collects critical essays, programme notes and interviews with Adams and collaborators including Peter Sellars and Alice Goodman."
+  },
+  {
+   "cite": "John Adams, *Earbox* (official online work notes and recordings).",
+   "url": "https://www.earbox.com/",
+   "kind": "catalogue",
+   "note": "The composer’s work descriptions and discography supply a primary reference alongside the retrospective books."
+  }
+ ]
+}

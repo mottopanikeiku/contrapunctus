@@ -79,8 +79,10 @@ V:2
 !>!C, G, G, | !>!C, G, G, |]`, caption: 'An invented schematic. The upper line accents beats 1, 3 and 5 across six crotchets; the bass accents beats 1 and 4. That three-against-two grouping is hemiola. In a furiant, the listener can be made to switch between these organisations even though the written metre remains triple.' },
   ],
   arts: [
-    { type: 'painting', frame: 'gilt', file: 'File:Hanuš Schwaiger - Water Gnome - Google Art Project.jpg', artist: 'Hanuš Schwaiger', title: 'Water Gnome (Vodník)', date: '1886', medium: 'Painting', collection: 'National Gallery Prague', note: `<p>Schwaiger’s water creature belongs to the same Czech folkloric vocabulary as Erben’s ballad and Dvořák’s 1896 symphonic poem; a direct source relationship is undocumented. The figure gives bodily form to a being whose musical identity Dvořák establishes through a recurrent, sharply articulated orchestral motive. The <a href="https://artsandculture.google.com/asset/water-gnome-hanu%C5%A1-schwaiger/tQFq-nJS1ABrzw?hl=en">National Gallery’s record</a> dates the painting a decade before the score.</p>` },
-    { type: 'poem', author: 'Karel Jaromír Erben', title: 'Vodník (The Water Goblin) — opening', date: '1853', lang: 'Czech', translator: 'Our translation', original: `Na topole nad jezerem
+    { relation: 'shared-context',
+      type: 'painting', frame: 'gilt', file: 'File:Hanuš Schwaiger - Water Gnome - Google Art Project.jpg', artist: 'Hanuš Schwaiger', title: 'Water Gnome (Vodník)', date: '1886', medium: 'Painting', collection: 'National Gallery Prague', note: `<p>Schwaiger’s water creature belongs to the same Czech folkloric vocabulary as Erben’s ballad and Dvořák’s 1896 symphonic poem; a direct source relationship is undocumented. The figure gives bodily form to a being whose musical identity Dvořák establishes through a recurrent, sharply articulated orchestral motive. The <a href="https://artsandculture.google.com/asset/water-gnome-hanu%C5%A1-schwaiger/tQFq-nJS1ABrzw?hl=en">National Gallery’s record</a> dates the painting a decade before the score.</p>` },
+    { relation: 'documented-use',
+      type: 'poem', author: 'Karel Jaromír Erben', title: 'Vodník (The Water Goblin) — opening', date: '1853', lang: 'Czech', translator: 'Our translation', original: `Na topole nad jezerem
 seděl Vodník podvečerem:
 „Sviť, měsíčku, sviť,
 ať mi šije niť.
@@ -97,7 +99,8 @@ I sew, I sew myself little boots
 for dry ground and for water:
 shine, little moon, shine,
 so my thread can sew.”`, note: `<p>The harmless domestic labour precedes abduction and a child’s death. Dvořák’s symphonic poem follows the ballad’s events closely enough for recurrent musical figures to acquire narrative functions. The opening’s short repeated phrases show why the poem offers a composer rhythmic material as well as a plot. Text: <a href="https://czech.mml.ox.ac.uk/karel-jaromir-erben-kytice-1853-1861">Oxford’s Czech and Slovak resources on <i>Kytice</i></a>.</p>` },
-    { type: 'poem', author: 'Henry Wadsworth Longfellow', title: 'The Song of Hiawatha — the wedding dance', date: '1855', lang: 'English', original: `To the sound of flutes and singing,
+    { relation: 'documented-use',
+      type: 'poem', author: 'Henry Wadsworth Longfellow', title: 'The Song of Hiawatha — the wedding dance', date: '1855', lang: 'English', original: `To the sound of flutes and singing,
 To the sound of drums and voices,
 Rose the handsome Pau-Puk-Keewis,
 And began his mystic dances.

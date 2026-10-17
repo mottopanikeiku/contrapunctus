@@ -144,6 +144,7 @@ V:1 name="Grouping"
 
   arts: [
     {
+      relation: 'documented-use',
       type: 'painting', frame: 'mat',
       file: 'File:Harvard Theatre Collection - Bakst, MS Thr 414.4 (9).jpg',
       artist: 'Léon Bakst', title: 'Set design for Act I of Daphnis et Chloé', date: '1912',
@@ -151,6 +152,7 @@ V:1 name="Grouping"
       note: `<p>Bakst designed the scenery and costumes for the Ballets Russes production of Ravel’s ballet, choreographed by Fokine and first performed in Paris in June 1912. The drawing’s antiquity is a stage construction: monumental landscape surrounds the space in which human figures move. Ravel’s wordless chorus and slowly accumulated orchestral layers create a corresponding scale. Harvard identifies this sheet as Act I.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Aloysius Bertrand', title: 'Ondine — opening and closing paragraphs', date: '1842; text from the 1895 edition',
       lang: 'French', translator: 'Our translation',
@@ -167,6 +169,7 @@ And when I answered that I loved a mortal woman, sullen and vexed, she shed a fe
       note: `<p>The intervening paragraphs, in which Ondine describes her underwater palace and proposes marriage, are omitted. Bertrand’s <i>Gaspard de la nuit</i> was published posthumously in 1842; Ravel’s 1908 piano triptych prints its three source poems. The first movement must distinguish the water’s continuous motion from the spirit’s song, then accommodate her laughter and disappearance. The French follows the <a href="https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_%28%C3%A9d._1895%29/Ondine">1895 Mercure de France edition</a>; the translation here is our own.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Le Petit Poucet (136547871).jpg',
       artist: 'Gustave Doré', title: 'Le Petit Poucet: the children at the ogre’s door', date: '1867 edition',
@@ -174,6 +177,7 @@ And when I answered that I loved a mortal woman, sullen and vexed, she shed a fe
       note: `<p>The lantern isolates seven children beneath the ogre’s house; the architectural scale makes their physical vulnerability measurable. Ravel’s <i>Petit Poucet</i>, the second piece of <i>Ma mère l’Oye</i>, uses the same Perrault tale but an earlier incident: the lost breadcrumb trail. Wandering lines and changing bar lengths replace a secure processional pulse; birds enter the orchestral version as instrumental calls. The link with Doré is the shared text.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:Wilhelm Gause Hofball in Wien.jpg',
       artist: 'Wilhelm Gause', title: 'Court Ball in Vienna', date: '1900',
@@ -181,6 +185,7 @@ And when I answered that I loved a mortal woman, sullen and vexed, she shed a fe
       note: `<p>Ravel planned a homage to Johann Strauss as early as 1906, provisionally titled <i>Wien</i>; he finished it after the war, in 1919–20, as <i>La Valse</i>. Gause’s view of a Habsburg court ball — chandeliers, uniforms, a floor packed with turning couples — is the scene the score’s preface names. What Ravel did to it is the point: the waltz is assembled from fragments emerging out of murk in the double basses, built to a brilliant climax, and then driven past it until the three-beat metre breaks apart.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Maurice Ravel', title: 'Preface to the score of La Valse', date: '1920',
       lang: 'French', translator: 'Our translation',

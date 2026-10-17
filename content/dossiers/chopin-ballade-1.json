@@ -1,0 +1,183 @@
+{
+  "id": "chopin-ballade-1",
+  "work": {
+    "title": "Ballade No. 1 in G minor",
+    "catalogue": "Op. 23",
+    "movement": "Largo — Moderato",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Frank Lévy",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "embedded"
+    ],
+    "note": "The creator template expands to Frank Lévy; the FLAC tag uses Frank Levy."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "The sources supply different item dates without saying whether either is a recording or release date. No session date is established; the alternatives preserve both claims.",
+      "alternatives": [
+        {
+          "value": "Circa 2014 — Commons Date field; date type unspecified.",
+          "sourceIds": [
+            "commons"
+          ]
+        },
+        {
+          "value": "2015 — embedded DATE tag; date type unspecified.",
+          "sourceIds": [
+            "embedded"
+          ]
+        }
+      ],
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Musopen",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "Digital project: Musopen: The Complete Works of Frédéric Chopin. No original physical carrier is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "24-bit, 96 kHz stereo FLAC. Tags identify X Lossless Decoder 20151214; the FLAC stream identifies libFLAC 1.3.3 20190804.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are software-version identifiers, not dates of recording or restoration. No restoration engineer or settings are named."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Chopin_-_Ballade_No._1_in_G_minor%2C_Op._23_%28Frank_Levy%29.flac/Chopin_-_Ballade_No._1_in_G_minor%2C_Op._23_%28Frank_Levy%29.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: FLAC, 24-bit, 96 kHz, 2 channels",
+    "durationSeconds": 613.5891458333333
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-auto-expired, deathyear=1849. This does not license a later edition, arrangement or recording."
+    },
+    "recording": {
+      "value": "Public-domain dedication attributed to Musopen.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "This records the source’s dedication, not an independent worldwide legal clearance. The Public Domain Mark is a notice, not a Creative Commons attribution licence."
+    },
+    "creditLine": "Frank Lévy, piano. Musopen: The Complete Works of Frédéric Chopin / Set Chopin Free, via Wikimedia Commons. Public-domain dedication attributed to Musopen.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Chopin - Ballade No. 1 in G minor, Op. 23 (Frank Levy).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Ballade_No._1_in_G_minor,_Op._23_(Frank_Levy).flac?oldid=1118812058",
+      "locator": "File-description wikitext revision 1118812058; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M155173322",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M155173322&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1118812058. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AChopin+-+Ballade+No.+1+in+G+minor%2C+Op.+23+%28Frank+Levy%29.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Musopen: Set Chopin Free, project update 1193714",
+      "url": "https://www.kickstarter.com/projects/Musopen/set-chopin-free/posts/1193714",
+      "locator": "The Commons source and structured source URL both point here. Retrieval returned HTTP 403; no session or production details were recovered.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

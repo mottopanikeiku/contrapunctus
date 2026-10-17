@@ -1,5 +1,7 @@
-node_modules/
-.DS_Store
-docs/assets/img/art/*.src
-.venv/
 cache/
+docs/assets/img/art/*.src
+.DS_Store
+node_modules/
+.venv*
+.venv/
+tools/sheetpack/target/

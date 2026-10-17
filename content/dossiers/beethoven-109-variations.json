@@ -1,0 +1,219 @@
+{
+  "id": "beethoven-109-variations",
+  "work": {
+    "title": "Piano Sonata No. 30 in E major",
+    "catalogue": "Op. 109",
+    "movement": "III. Gesangvoll, mit innigster Empfindung",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Artur Schnabel",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "structured",
+      "upstream",
+      "discography"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "22 March 1932; conflicting Commons structured date",
+      "status": "disputed",
+      "sourceIds": [
+        "upstream",
+        "discography",
+        "structured"
+      ],
+      "note": "The upstream item and the Naxos discographic review agree on 22 March. Commons wikitext says only 1932, but its structured inception supplies 1 January at day precision; that day is unsupported by the session documentation.",
+      "alternatives": [
+        {
+          "value": "22 March 1932",
+          "sourceIds": [
+            "upstream",
+            "discography"
+          ]
+        },
+        {
+          "value": "1 January 1932",
+          "sourceIds": [
+            "structured"
+          ]
+        }
+      ],
+      "precision": "day"
+    },
+    "place": {
+      "value": "Abbey Road Studio No. 3, London",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice (HMV)",
+      "status": "documented",
+      "sourceIds": [
+        "upstream",
+        "discography"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DB 1822–24",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "The catalogue span identifies the original complete-sonata issue, not a proven physical source for the Internet Archive MP3."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "upstream",
+        "embedded",
+        "discography"
+      ],
+      "note": "The source MP3’s transfer engineer is not identified. Mark Obert-Thorn is credited for the separate Naxos reissue, not for this Commons/Internet Archive transfer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Internet Archive source is an MP3; Commons holds an Ogg Vorbis conversion and supplies an MP3 derivative. Embedded Vorbis encoder: Lavc58.35.100 libvorbis.",
+      "status": "documented",
+      "sourceIds": [
+        "upstream",
+        "embedded"
+      ],
+      "note": "No restoration settings or original transfer chain are documented. The embedded DATE=2001 is not the 1932 session date."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Klaviersonate_Nr._30_E-Dur_op._109_-_III._Andante.ogg/Klaviersonate_Nr._30_E-Dur_op._109_-_III._Andante.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 844.4604081632654
+  },
+  "rights": {
+    "composition": {
+      "value": "Original composition is public domain in ordinary life-plus-70 jurisdictions.",
+      "status": "inferred",
+      "sourceIds": [
+        "discography",
+        "author-term"
+      ],
+      "note": "The review identifies Beethoven as 1770–1827. This conclusion does not extend to Schnabel’s sound recording."
+    },
+    "recording": {
+      "value": "Commons asserts public-domain status in the European Union under PD-EU-audio.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-recording",
+        "us-recording-law"
+      ],
+      "note": "This is not a worldwide licence. US pre-1972 sound-recording terms differ under 17 U.S.C. § 1401; US reuse of this recording and any separately protected restoration is not established by the Commons tag."
+    },
+    "creditLine": "Artur Schnabel, piano. HMV recording, sourced from Internet Archive via Wikimedia Commons. Commons asserts EU public-domain recording status (PD-EU-audio); rights elsewhere are not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Klaviersonate Nr. 30 E-Dur op. 109 - III. Andante.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Klaviersonate_Nr._30_E-Dur_op._109_-_III._Andante.ogg?oldid=1146394215",
+      "locator": "File-description wikitext revision 1146394215; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M98650020",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M98650020&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1146394215. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AKlaviersonate+Nr.+30+E-Dur+op.+109+-+III.+Andante.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Internet Archive: Artur Schnabel — Beethoven Piano Sonatas, volume 8",
+      "url": "https://archive.org/metadata/beethovenschnabel8",
+      "locator": "metadata.description: Op. 109 recorded 22.III.1932, HMV; files: 096 - Klaviersonate Nr. 30 E-Dur op. 109 - III. Andante.mp3. addeddate/publicdate are 27 March 2020.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "discography",
+      "title": "Colin Clarke: Naxos Historical 8.110763 discographic review",
+      "url": "https://musicweb-international.com/classrev/2005/Mar05/Beethoven_schnable9_8110763.htm",
+      "locator": "March 2005 review heading: Op. 109, HMV DB1822–24, Abbey Road Studio No. 3, 22 March 1932. The review concerns a separate Naxos transfer.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "author-term",
+      "title": "Directive 2006/116/EC: authors’ copyright terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-recording",
+      "title": "Commons: scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template text and documentation: performers’ and producers’ rights in the EU; explicitly not a composition-rights tag.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recording-law",
+      "title": "17 U.S.C. § 1401: pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication, with separate periods for 1923–1946, 1947–1956 and later recordings.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

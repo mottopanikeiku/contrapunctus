@@ -1,0 +1,48 @@
+{
+  "id": "prokofiev-piano-sonata-2",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        348.5,
+        378.5
+      ],
+      "b": [
+        420.0,
+        450.0
+      ],
+      "label": "The scherzo’s opening returns",
+      "basis": "The second movement has an A–B–A design; the matched later passage follows its contrasting middle. The movement boundary near 350 s is approximate, so the first excerpt begins slightly before that editorial marker. Formal outline: https://www.flaminioonline.it/Guide/Prokofiev/Prokofiev-Sonata14.html. CENS diagonal mean 0.975, sustained 30 s, fixed pitch-class shift 0 semitones and time offset 71.5 s (cache/form/prokofiev-piano-sonata-2.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        523.0,
+        549.5
+      ],
+      "b": [
+        642.0,
+        668.5
+      ],
+      "label": "The Andante phrase returns",
+      "basis": "The third movement restores its first lyrical section after a contrasting, more layered middle. These excerpts compare the expanding phrase in the two outer sections, as described in Emilia Zanetti’s account at https://www.flaminioonline.it/Guide/Prokofiev/Prokofiev-Sonata14.html. CENS diagonal mean 0.949, sustained 26.5 s, fixed pitch-class shift 0 semitones and time offset 119 s (cache/form/prokofiev-piano-sonata-2.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    },
+    {
+      "kind": "varied return",
+      "a": [
+        118.5,
+        136.5
+      ],
+      "b": [
+        809.5,
+        827.5
+      ],
+      "label": "An earlier melody returns in the finale",
+      "basis": "The finale recalls the first movement’s cantabile material. The measured pair crosses those movements and agrees with this cyclic recollection, documented at https://www.flaminioonline.it/Guide/Prokofiev/Prokofiev-Sonata14.html. CENS diagonal mean 0.940, sustained 18 s, fixed pitch-class shift 0 semitones and time offset 691 s (cache/form/prokofiev-piano-sonata-2.txt, candidate 5; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The complete four-movement file contains many local repetitions and overlapping slow-movement matches; these are not all separate returns. Shifted paths in the first movement and finale are withheld where the available section map does not identify the matching phrases. The 118.5 s source excerpt lies near the first movement’s exposition/development join, not at an asserted first statement of the tune."
+}

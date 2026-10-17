@@ -93,11 +93,13 @@ V:2
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'mat', file: 'File:Star Ushak Carpet MET DP270096.jpg',
       artist: 'Unidentified Anatolian weavers', title: 'Star Ushak Carpet', date: 'Probably seventeenth century', medium: 'Wool warp, weft and symmetrically knotted pile', collection: 'Metropolitan Museum of Art, New York; 22.100.110',
       note: `<p>Feldman collected Middle Eastern rugs and discussed their unequal repetitions in ‘Crippled Symmetry’ (1981). This Anatolian carpet is not documented as one he owned. Its repeating star medallions and bounded field make his comparison tangible: a motif can recur with changes to its intervals, contours or patches of colour. The Met’s photograph is released under CC0.</p>`,
     },
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'mat', file: 'File:Coptic Textile Fragment MET wb-89.18.95.jpeg',
       artist: 'Unidentified Egyptian weavers', title: 'Coptic Textile Fragment', date: 'Late third–fifth century', medium: 'Woven linen and wool', collection: 'Metropolitan Museum of Art, New York; 89.18.95',
       note: `<p>In his note for <i>Coptic Light</i>, Feldman identifies ancient textiles at the Louvre as a stimulus, asking how fragments can retain the character of the civilisation that made them. This Met fragment offers a comparison. Its surviving threads and colour boundaries suggest the persistence and renewal of instrumental colour in the orchestral work. The museum image is CC0.</p>`,

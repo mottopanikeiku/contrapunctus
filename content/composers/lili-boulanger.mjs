@@ -62,8 +62,10 @@ V:2
 D,,4 | D,,4 | D,,4 | D,,4 |]`, caption: 'An invented study of a sustained bass. The D remains while the upper triad moves from D minor to E♭ major; E♭ against D creates semitone friction across the registers. Returning to D minor releases that particular friction without requiring a dominant chord. The example isolates one way to hear bass persistence and changing choral sonority in Boulanger’s larger works.' },
   ],
   arts: [
-    { type: 'painting', frame: 'mat', file: 'File:Lili et Nadia Boulanger - btv1b9022360s.jpg', artist: 'Agence Meurisse', title: 'Lili and Nadia Boulanger', date: '1913', medium: 'Press photograph', collection: 'Bibliothèque nationale de France, Paris', note: '<p>The photograph belongs to the press coverage surrounding Lili’s Prix de Rome. It places the sisters in the same documentary frame before Nadia’s long teaching career made her the better-known name. Their musical collaboration was practical: study, performance, copying and, at the end of Lili’s life, dictation. The surviving scores distinguish two composing careers.</p>' },
-    { type: 'poem', author: 'Francis Jammes', title: 'Elle était descendue', date: 'From Tristesses, 1906; set in 1913–14', lang: 'French', translator: 'Our translation', original: `Elle était descendue au bas de la prairie,
+    { relation: 'shared-context',
+      type: 'painting', frame: 'mat', file: 'File:Lili et Nadia Boulanger - btv1b9022360s.jpg', artist: 'Agence Meurisse', title: 'Lili and Nadia Boulanger', date: '1913', medium: 'Press photograph', collection: 'Bibliothèque nationale de France, Paris', note: '<p>The photograph belongs to the press coverage surrounding Lili’s Prix de Rome. It places the sisters in the same documentary frame before Nadia’s long teaching career made her the better-known name. Their musical collaboration was practical: study, performance, copying and, at the end of Lili’s life, dictation. The surviving scores distinguish two composing careers.</p>' },
+    { relation: 'documented-use',
+      type: 'poem', author: 'Francis Jammes', title: 'Elle était descendue', date: 'From Tristesses, 1906; set in 1913–14', lang: 'French', translator: 'Our translation', original: `Elle était descendue au bas de la prairie,
 et, comme la prairie était toute fleurie
 de plantes dont la tige aime à pousser dans l’eau,
 ces plantes inondées je les avais cueillies.

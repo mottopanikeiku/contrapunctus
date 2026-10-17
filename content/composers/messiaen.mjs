@@ -112,6 +112,7 @@ V:1 name="Piano"
 
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Robert Havell after John James Audubon, Wood Thrush, 1829, NGA 32214.jpg',
       artist: 'Robert Havell after John James Audubon', title: 'Wood Thrush, plate 73 of The Birds of America', date: '1829',
@@ -119,6 +120,7 @@ V:1 name="Piano"
       note: `<p>The wood thrush, <i>Hylocichla mustelina</i>, is Messiaen’s <i>grive des bois</i>. It supplies the title and musical material of movement ten of <i>Des canyons aux étoiles…</i>. The <a href="https://brahms.ircam.fr/fr/works/work/10589/">work’s commentary</a> describes its clear major arpeggio and lower rustling aftermath. Havell’s plate after Audubon identifies the same bird visually, beside flowering dogwood. The pairing rests on the shared species. The nineteenth-century artwork is public domain; the National Gallery’s scan is released under CC0.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Robert Havell after John James Audubon, The Mocking Bird, 1827, NGA 32162.jpg',
       artist: 'Robert Havell after John James Audubon', title: 'The Mocking Bird, plate 21 of The Birds of America', date: '1827',
@@ -126,6 +128,7 @@ V:1 name="Piano"
       note: `<p>Movement nine of <i>Des canyons aux étoiles…</i>, <i>Le Moqueur polyglotte</i>, gives the northern mockingbird an unaccompanied piano movement. Short calls, trills and repeated-note figures make one instrument carry a changing repertory of gestures. Audubon’s birds confront a snake at their nest. The connection is the identified species and the act of detailed observation. Like the wood-thrush plate, this public-domain engraving is available as a CC0 National Gallery scan.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'John of Patmos; Latin Vulgate tradition', title: 'Revelation 10:1, 5–6 — the angel’s oath', date: 'First century CE; Clementine Vulgate edition, 1598',
       lang: 'Latin', translator: 'Our translation',
@@ -152,6 +155,7 @@ that there would be no more time.`,
       note: `<p>The angel, rainbow and oath in this biblical source supply the Quartet’s programme. Verses 2–4 are omitted, with the break shown above; the Latin follows the public-domain <a href="https://ebible.org/latVUC/REV10.htm">Clementine Vulgate</a>. ‘No more time’ translates the wording literally and follows Messiaen’s musical reading of it; the passage is also understood as announcing no further delay before fulfilment. Slow <i>Louanges</i> and rhythmic palindromes make that interpretation audible without a sung text.</p>`,
     },
     {
+      relation: 'documented-encounter',
       type: 'painting', frame: 'mat',
       file: 'File:Stained glass window of the Sainte-Chapelle (Paris)-The books of Judith and Job.jpg',
       artist: 'Thirteenth-century Parisian glass painters; photograph by Yair Haklai', title: 'Judith and Job window, Sainte-Chapelle', date: 'c. 1248, with later restorations; photographed 12 April 2017',
