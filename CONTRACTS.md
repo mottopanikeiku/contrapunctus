@@ -247,7 +247,11 @@ Figures have `{ id, name, dates, year, kind, portrait? }`; `portrait` is a
 Wikimedia Commons `File:` title. Kinds are painter, poet, writer, philosopher,
 tradition, performer, teacher or composer. A repeated ID must retain identical
 fields across batches. Edges can name a motif `thread` from `threads.json`,
-an array of `{ id, name, summary, abc, source: { title, url } }`.
+an array of `{ id, name, summary, abc, abcNote?, source: { title, url } }`.
+`summary` stays reader-facing prose. Optional `abcNote` is a short technical
+note displayed beneath the notation, separate from the summary. Thread cards
+present the motif first, followed by cameo stops along its path; path labels
+show event years, and era ticks orient the timeline.
 
 Optional `exhibit.from` and `exhibit.to` contain `{ label, abc, checked,
 listen?: { id, t } }`. `checked` links to the public-domain score used for the
@@ -264,8 +268,11 @@ not a uniform scale of elapsed years; an edge’s year dates the event. Cameo an
 nameplate positions are computed deterministically at build time, not by a
 browser force-layout. Mobile presents a birth-order timeline. The public batch
 and Hall schemas are unchanged. The build writes
-`docs/assets/influence.json` for the compact index and
-`docs/assets/influence-details.json` for on-demand cards.
+`docs/assets/influence.json` for the compact Hall index; its schema is unchanged.
+`docs/assets/influence-details.json` is fetched on demand for cards and has
+the shape `{ edges: { "<id>": Edge }, threads: { "<id>": Thread } }`.
+Connection titles and full thread records live in this lazy payload rather
+than the initial page payload, to support the 400 KB initial-page budget.
 `influenceSection(ctx, slug)` supplies the sourced inheritance section between
 a composer’s Life and Works; the generator guards against an absent module.
 Validate batches with `node tools/validate-influence.mjs`; schema validation

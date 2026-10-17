@@ -175,7 +175,13 @@
    "dates": "1749–1832",
    "year": 1749,
    "kind": "poet"
-  }
+  },
+  {"id":"bach-cryptogram","name":"The B–A–C–H signature","dates":"Four-note musical cryptogram","year":1751,"kind":"tradition"},
+  {"id":"lament-bass-tradition","name":"The descending lament bass","dates":"Baroque ground-bass convention","year":1600,"kind":"tradition"},
+  {"id":"monteverdi","name":"Claudio Monteverdi","dates":"1567–1643","year":1567,"kind":"composer"},
+  {"id":"biber","name":"Heinrich Ignaz Franz Biber","dates":"1644–1704","year":1644,"kind":"composer"},
+  {"id":"marais","name":"Marin Marais","dates":"1656–1728","year":1656,"kind":"composer"},
+  {"id":"geminiani","name":"Francesco Geminiani","dates":"1687–1762","year":1687,"kind":"composer"}
  ],
  "edges": [
   {
@@ -1309,6 +1315,94 @@
      "locator": "‘Late Period’: Schubert as torchbearer three days after Beethoven’s death"
     }
    ]
+  },
+  {
+   "id":"bach-cryptogram--bach-art-of-fugue","from":"bach-cryptogram","to":"bach","kind":"quoted","year":1751,
+   "title":"Bach signs the unfinished fugue in notes","thread":"bach-motif",
+   "works":{"from":"B♭–A–C–B♮, Bach’s name in German notation","to":"The Art of Fugue, Fuga a 3 soggetti, third subject"},
+   "claim":"<p>The unfinished fugue printed with <i>The Art of Fugue</i> introduces B♭–A–C–B♮ as its third subject, spelling Bach’s name in German note names. The signature is visible in the score; the familiar story that Bach died at precisely this point is not needed to identify it.</p>",
+   "status":"documented","note":"1751 dates the first posthumous edition, not an exact composition date. The signature node follows that publication anchor; it does not claim that Bach invented musical name-ciphers that year.",
+   "sources":[{"title":"Bach-Gesellschaft Ausgabe XXV/1: unfinished fugue, third subject","url":"https://upload.wikimedia.org/wikipedia/commons/6/64/B.W.XXV.%281%29p100_-_third_subject_of_the_unfinished_fugue_of_Art_of_Fugue.jpg","locator":"p. 100: third subject and B-A-C-H annotation"},{"title":"Netherlands Bach Society: The Art of Fugue, BWV 1080","url":"https://www.bachvereniging.nl/en/bwv/bwv-1080","locator":"‘A mountaintop you have to climb at some point’: first edition 1751 and uncertain completion"}]
+  },
+  {
+   "id":"lament-bass--monteverdi-ninfa","from":"lament-bass-tradition","to":"monteverdi","kind":"modelled","year":1638,
+   "title":"The nymph laments over a falling fourth","thread":"lament-bass",
+   "works":{"from":"The descending minor tetrachord as a ground","to":"Lamento della ninfa, SV 163, published in Madrigals Book VIII (1638)"},
+   "claim":"<p>Monteverdi’s <i>Lamento della ninfa</i> places the abandoned nymph’s lament over the descending tetrachord associated with the lament-bass tradition. Published in his eighth book of madrigals in 1638, it shows that this expressive device belonged to secular vocal drama as well as later sacred music.</p>",
+   "status":"documented","note":"This identifies a shared bass convention, not a quotation of Purcell’s later melody. The tradition node’s year 1600 is an approximate historical display anchor.",
+   "sources":[{"title":"Lament bass: definition and documented musical examples","url":"https://en.wikipedia.org/w/index.php?title=Lament_bass&action=raw","locator":"‘Musical works’: Lamento della Ninfa, with reference to Massimo Ossi, Divining the Oracle, p. 173"},{"title":"Monteverdi, Lamento della ninfa, SV 163: work catalogue","url":"https://imslp.org/wiki/Lamento_della_ninfa,_SV_163_(Monteverdi,_Claudio)","locator":"General Information: first publication 1638, Madrigals Book VIII"}]
+  },
+  {
+   "id":"lament-bass--biber-passacaglia","from":"lament-bass-tradition","to":"biber","kind":"modelled","year":1676,
+   "title":"A solo violin carries the descending ground","thread":"lament-bass",
+   "works":{"from":"Descending minor tetrachord, G–F–E♭–D","to":"Passacaglia in G minor, C. 105, concluding the Mystery Sonatas (c. 1676)"},
+   "claim":"<p>Biber’s unaccompanied violin Passacaglia repeatedly returns to G–F–E♭–D, descending from tonic to dominant. Sometimes exposed and sometimes absorbed into chords or rapid figuration, the four-note ground gives the listener a point of continuity without a separate bass instrument.</p>",
+   "status":"documented","note":"The date is approximate. A descending tetrachord need not signify unrelieved grief: the manuscript’s guardian-angel image also supports a consoling reading, as the cited programme explains.",
+   "sources":[{"title":"CUNY Graduate Center, Jessica Oddie recital programme, 28 August 2026","url":"https://www.gc.cuny.edu/sites/default/files/2026-08/8-28-26-Jessica-Oddie-Program_0.pdf","locator":"p. 2: Biber Passacaglia, G–F–E-flat–D, ground-bass transformations and guardian angel"}]
+  },
+  {
+   "id":"lament-bass--purcell-dido","from":"lament-bass-tradition","to":"purcell","kind":"modelled","year":1689,
+   "title":"Dido’s farewell circles a chromatic descent","thread":"lament-bass",
+   "works":{"from":"The chromatic descending fourth and ground-bass convention","to":"When I am laid in earth, Dido and Aeneas, Z. 626"},
+   "claim":"<p>Purcell’s <i>When I am laid in earth</i> repeats a chromatically descending ground in G minor beneath Dido’s farewell. The bass keeps returning while the voice renews its plea to be remembered, making repetition part of the drama rather than a merely convenient accompaniment.</p>",
+   "status":"documented","note":"1689 anchors an early Chelsea performance, not a securely established composition or premiere date. This is a use of an inherited convention, not a claim that Purcell copied one particular earlier lament.",
+   "sources":[{"title":"Dido’s Lament: analysis and ground-bass notation","url":"https://en.wikipedia.org/wiki/Dido%27s_Lament","locator":"Analysis: chromatic fourth, repeated ground, G minor and 3/2"},{"title":"Dido and Aeneas: chronology and sources","url":"https://en.wikipedia.org/wiki/Dido_and_Aeneas","locator":"Opening and ‘Premiere and early revivals’: uncertain composition date, Chelsea performances by 1689"}]
+  },
+  {
+   "id":"lament-bass--bach-weinen-klagen","from":"lament-bass-tradition","to":"bach","kind":"modelled","year":1714,
+   "title":"Bach’s chorus of tears descends chromatically","thread":"lament-bass",
+   "works":{"from":"The chromatic lament-bass convention","to":"Weinen, Klagen, Sorgen, Zagen, BWV 12, opening chorus (1714)"},
+   "claim":"<p>The opening chorus of Bach’s BWV 12 lays sighing vocal entries over a repeating chromatic descent. First performed in Weimar on 22 April 1714, this music returns from a more hopeful middle section to the same sorrowful ground, and later supplies the basis of the B-minor Mass’s <i>Crucifixus</i>.</p>",
+   "status":"documented",
+   "sources":[{"title":"Netherlands Bach Society: Weinen, Klagen, Sorgen, Zagen, BWV 12","url":"https://www.bachvereniging.nl/en/bwv/bwv-12","locator":"‘Beacon in the labyrinth’: opening ostinato, hopeful middle section and Crucifixus reuse; first performance"},{"title":"Lament bass: Bach ground-bass score example","url":"https://en.wikipedia.org/w/index.php?title=Lament_bass&action=raw","locator":"Caption to Bach’s Crucifixus ground: source in the first choral movement of BWV 12"}]
+  },
+  {
+   "id":"lament-bass--bach-crucifixus","from":"lament-bass-tradition","to":"bach","kind":"modelled","year":1749,
+   "title":"The lament ground returns at the Crucifixion","thread":"lament-bass",
+   "works":{"from":"The chromatic ground of BWV 12 and the lament-bass convention","to":"Mass in B minor, BWV 232, Crucifixus (assembled c. 1748–49)"},
+   "claim":"<p>For the <i>Crucifixus</i>, Bach reworked the lamenting chorus of BWV 12 in E minor, placing the recurring ground beneath the words of the Crucifixion and burial. Near the end, its altered course leads to G major before the Resurrection movement: the ground’s eventual change matters as much as its repetitions.</p>",
+   "status":"documented","note":"The connection to BWV 12 is documented; no direct borrowing from Purcell is asserted. The Bethlehem note compares their basses, but that resemblance alone would not establish transmission.",
+   "sources":[{"title":"Netherlands Bach Society: BWV 12, reuse in the Crucifixus","url":"https://www.bachvereniging.nl/en/bwv/bwv-12","locator":"‘Beacon in the labyrinth’: Bach’s arrangement 35 years later"},{"title":"Bach Choir of Bethlehem: Mass in B minor, Credo","url":"https://bach.org/education/bwv-232/credo/","locator":"‘Crucifixus’: E-minor ground and the final turn towards G major"}]
+  },
+  {
+   "id":"lament-bass--beethoven-woo80","from":"lament-bass-tradition","to":"beethoven","kind":"modelled","year":1806,
+   "title":"A falling bass powers thirty-two variations","thread":"lament-bass",
+   "works":{"from":"The chromatic descending-fourth bass convention","to":"Thirty-two Variations in C minor, WoO 80, theme (1806)"},
+   "claim":"<p>Beethoven’s WoO 80 theme sets a chromatically descending bass beneath its melody, reusing the familiar lament-bass framework. Thirty-two piano variations then make that short harmonic scheme a basis for changing figuration rather than an explicitly narrated funeral.</p>",
+   "status":"documented","note":"This is a documented use of the bass pattern, not a claim that the theme quotes Dido or that Beethoven assigned the piece a lament programme.",
+   "sources":[{"title":"Lament bass: Beethoven C-minor Variations score example","url":"https://en.wikipedia.org/w/index.php?title=Lament_bass&action=raw","locator":"Caption and score image ‘Lament bass harmonization Beethoven’, citing Walter Frisch, Schubert: Critical and Analytical Studies, p. 10"},{"title":"Beethoven, Thirty-two Variations in C minor, WoO 80","url":"https://imslp.org/wiki/32_Variations_in_C_minor,_WoO_80_(Beethoven,_Ludwig_van)","locator":"General Information: 1806, piano, theme and 32 variations"}]
+  },
+  {
+   "id":"folia-tradition--corelli-op5-12","from":"folia-tradition","to":"corelli","kind":"quoted","year":1700,
+   "title":"Corelli makes an old Folia his finale","thread":"la-folia",
+   "works":{"from":"The inherited La Folia theme and harmonic scheme","to":"Sonata in D minor, Op. 5 No. 12, Follia (1700)"},
+   "claim":"<p>Corelli closed his Op. 5 violin sonatas, published in Rome in 1700, with variations headed <i>Follia</i>. The set became a particularly influential vehicle for the inherited tune, but neither its title nor its later fame makes Corelli the melody’s original composer.</p>",
+   "status":"documented",
+   "sources":[{"title":"Norbert Gertsch, Henle: Corelli, La Folia and Rachmaninoff’s Variations, Op. 42","url":"https://blog.henle.de/en/2014/01/06/corelli-la-folia-and-rachmaninoff%E2%80%99s-variations-op-42/","locator":"Opening discussion and reproduced Corelli theme: Op. 5, Rome 1700, pre-existing Folia"}]
+  },
+  {
+   "id":"folia-tradition--marais-couplets","from":"folia-tradition","to":"marais","kind":"quoted","year":1701,
+   "title":"Marais answers the Folia on the viol","thread":"la-folia",
+   "works":{"from":"La Folia / Les folies d’Espagne","to":"Couplets de folies, Pièces de viole, Livre II, No. 20 (1701)"},
+   "claim":"<p>Marais included <i>Couplets de folies</i> in his second book of viol pieces in 1701, with a theme and thirty-one variations for bass viol and continuo. The familiar D-minor framework thus belonged to the viol’s repertory as well as Corelli’s violin and Vivaldi’s trio sonata.</p>",
+   "status":"documented",
+   "sources":[{"title":"Marais, Couplets de folies: work catalogue","url":"https://imslp.org/wiki/Couplets_de_folies_(Marais,_Marin)","locator":"General Information: 1701, theme and 31 variations, D minor, bass viol and continuo"},{"title":"Ulrich Leisinger, C. P. E. Bach Complete Works I/7: introduction","url":"https://cpebach.org/pdfs/introductions/I-7-Intro.pdf","locator":"pp. xx–xxi, discussion of Wq 118/9: Corelli 1700 and Marais 1701"}]
+  },
+  {
+   "id":"corelli--geminiani-folia-concerto","from":"corelli","to":"geminiani","kind":"copied","year":1729,
+   "title":"Corelli’s Folia becomes a concerto grosso","thread":"la-folia",
+   "works":{"from":"Violin Sonata Op. 5 No. 12, Follia","to":"Concerto grosso arrangement of Corelli’s Folia (1729)"},
+   "claim":"<p>Geminiani expanded Corelli’s solo-violin Folia into music for a string ensemble in 1729. Alternation between concertino and ripieno gives the variations a new kind of contrast: this is an identifiable arrangement of Corelli, not simply another independent setting of the same traditional tune.</p>",
+   "status":"documented",
+   "sources":[{"title":"John Mangum, Los Angeles Philharmonic: La Folia, Francesco Geminiani","url":"https://www.laphil.com/works/la-folia","locator":"Second paragraph: 1729 arrangement of Op. 5 No. 12; concertino and ripieno"}]
+  },
+  {
+   "id":"folia-tradition--cpe-bach-wq118-9","from":"folia-tradition","to":"cpe-bach","kind":"quoted","year":1778,
+   "title":"Emanuel strips the Folia back to essentials","thread":"la-folia",
+   "works":{"from":"Les Folies d’Espagne / La Folia","to":"Twelve Variations, Wq 118/9 (1778)"},
+   "claim":"<p>Emanuel Bach’s twelve variations on <i>Les Folies d’Espagne</i> present the old tune in a notably plain melodic and rhythmic form. The critical edition places the set among his technically ambitious works for professional players, rather than his simpler teaching variations.</p>",
+   "status":"documented",
+   "sources":[{"title":"Ulrich Leisinger, C. P. E. Bach Complete Works I/7: introduction","url":"https://cpebach.org/pdfs/introductions/I-7-Intro.pdf","locator":"p. xiii: professional variation cycles; pp. xx–xxi: Wq 118/9; p. xxv: date 1778"},{"title":"C. P. E. Bach Complete Works I/7: contents","url":"https://cpebach.org/toc/I-7","locator":"No. 8: Les Folies d’Espagne with 12 Variations, Wq 118/9"}]
   }
  ]
 }

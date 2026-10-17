@@ -382,8 +382,9 @@
       "from": "beethoven",
       "to": "liszt",
       "kind": "copied",
-      "year": 1837,
+      "year": 1865,
       "title": "Liszt puts all nine Beethoven symphonies on the piano",
+      "thread": "ode-to-joy",
       "works": {
         "from": "Beethoven, Symphonies Nos. 1–9",
         "to": "Liszt, Symphonies de Beethoven, S. 464 (Nos. 5–7 by 1837; the nine complete in 1865)"
@@ -738,11 +739,12 @@
       "kind": "heard",
       "year": 1846,
       "title": "Wagner conducts Beethoven’s Ninth in Dresden, 1846",
+      "thread": "ode-to-joy",
       "works": {
         "from": "Beethoven, Symphony No. 9, Op. 125",
         "to": "Wagner’s Dresden performance, Palm Sunday, 5 April 1846; Bayreuth foundation-stone concert, 1872"
       },
-      "claim": "<p>[[wagner]] made a piano transcription of Beethoven’s Ninth in 1830, aged seventeen. On Palm Sunday, 5 April 1846, he conducted it in Dresden, where Robert Schumann was living and, on Christopher Reynolds’s evidence, also studying the work: both composers took from it a more contrapuntal, motivic style, and Reynolds points to Beethoven’s gradual build-up of the “Ode to Joy” melody. Wagner conducted the Ninth again to inaugurate the Bayreuth Festspielhaus, whose foundation stone was laid on 22 May 1872.</p>",
+      "claim": "<p>[[wagner]] made a piano transcription of Beethoven’s Ninth in 1830, aged seventeen. On Palm Sunday, 5 April 1846, he conducted it in Dresden, where Robert Schumann was living and, on Christopher Reynolds’s evidence, also studying the work: Reynolds traces a more contrapuntal, motivic style in both composers to their study of the Ninth, including Beethoven’s gradual development of the “Ode to Joy” melody. Wagner conducted the Ninth at Bayreuth’s Margravial Opera House in 1872 to mark the laying of the Festspielhaus foundation stone, not the opening of the completed theatre.</p>",
       "status": "documented",
       "sources": [
         {
@@ -756,9 +758,9 @@
           "locator": "1830: piano transcription of the Ninth; 1846: conducts the Ninth in Dresden, 5 April"
         },
         {
-          "title": "Symphony No. 9 (Beethoven) (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
-          "locator": "section on re-orchestrations; Bayreuth inauguration"
+          "title": "Berliner Philharmoniker, Digital Concert Hall: 2018 Europakonzert from Bayreuth",
+          "url": "https://www.digitalconcerthall.com/en/concert/51193",
+          "locator": "Programme introduction: Wagner’s Ninth at the Margravial Opera House for the 1872 foundation-stone ceremony"
         },
         {
           "title": "Bayreuth Festspielhaus (Wikipedia)",
@@ -1271,12 +1273,14 @@
       "kind": "dedicated",
       "year": 1873,
       "title": "Bruckner dedicates his Third Symphony to Wagner",
+      "thread": "tristan-chord",
       "works": {
         "from": "Wagner, Die Walküre, Tristan und Isolde, Lohengrin, Tannhäuser",
         "to": "Bruckner, Symphony No. 3 in D minor, WAB 103 (1873 version)"
       },
       "claim": "<p>In September 1873, before the Third Symphony was finished, [[bruckner]] visited [[wagner]], whom he had first met at the Munich premiere of <i>Tristan und Isolde</i> in 1865. He showed Wagner his Second and Third Symphonies and asked him to choose; Wagner chose the Third, and Bruckner dedicated it to him. The 1873 score quoted Wagner’s <i>Die Walküre</i> and <i>Tristan</i> in the first movement and <i>Lohengrin</i> and <i>Walküre</i> in the Adagio; after the Vienna premiere of 1877 failed, Bruckner’s revisions removed most of these quotations.</p>",
       "status": "documented",
+      "note": "This is a Tristan reception stop: the cited quotation is from the Liebestod, not a claim that the Third literally repeats the prelude’s opening four-note chord.",
       "sources": [
         {
           "title": "Symphony No. 3 (Bruckner) (Wikipedia): history, dedication, revisions",
@@ -1593,6 +1597,54 @@
           "locator": "section “Influences”"
         }
       ]
+    },
+    {
+      "id":"gregorian-chant--berlioz-fantastique-dies-irae","from":"gregorian-chant","to":"berlioz","kind":"parodied","year":1830,
+      "title":"The judgement chant joins a witches’ sabbath","thread":"dies-irae",
+      "works":{"from":"Dies irae, the Requiem plainchant","to":"Symphonie fantastique, V, Dream of a Witches’ Sabbath (1830)"},
+      "claim":"<p>Berlioz’s own programme names a burlesque parody of the <i>Dies irae</i> in the finale of <i>Symphonie fantastique</i>. The funeral chant and the witches’ round are first recognisable as separate ideas, then combined: the sacred melody becomes a participant in the nightmare.</p>",
+      "status":"documented",
+      "sources":[{"title":"Hector Berlioz, programme of Symphonie fantastique, 1845 and 1855 versions","url":"http://www.hberlioz.com/Scores/fantas.htm","locator":"Part five, ‘Dream of a witches’ sabbath’; Memoirs chapter 31, premiere on 5 December 1830"}]
+    },
+    {
+      "id":"gregorian-chant--liszt-totentanz-theme","from":"gregorian-chant","to":"liszt","kind":"quoted","year":1865,
+      "title":"Liszt turns judgement into piano variations","thread":"dies-irae",
+      "works":{"from":"Dies irae, the Requiem plainchant","to":"Totentanz, S. 126, for piano and orchestra"},
+      "claim":"<p>Liszt’s <i>Totentanz</i> is a set of six variations on the <i>Dies irae</i>, turning the chant into sharply etched writing for piano and orchestra. Its plainchant source is secure even though accounts differ over whether a Pisa fresco or Holbein’s woodcuts supplied the decisive visual stimulus.</p>",
+      "status":"documented","note":"The timeline dates the first public performance, The Hague, 15 April 1865. Earlier forms and revision dates are catalogued differently; the visual-inspiration stories are not treated as equally certain with the musical quotation.",
+      "sources":[{"title":"John Mangum, Los Angeles Philharmonic: Totentanz","url":"https://www.laphil.com/works/totentanz","locator":"Final four paragraphs: alternative visual sources, six variations on Dies irae, premiere on 15 April 1865"},{"title":"Liszt, Totentanz, S. 126: work catalogue","url":"https://imslp.org/wiki/Totentanz,_S.126_(Liszt,_Franz)","locator":"General Information: premiere in The Hague, 15 April 1865; version history"}]
+    },
+    {
+      "id":"gregorian-chant--saint-saens-danse-macabre","from":"gregorian-chant","to":"saint-saens","kind":"parodied","year":1874,
+      "title":"Saint-Saëns makes the death chant dance","thread":"dies-irae",
+      "works":{"from":"Dies irae, the Requiem plainchant","to":"Danse macabre, Op. 40 (1874)"},
+      "claim":"<p>In <i>Danse macabre</i>, Saint-Saëns recasts the <i>Dies irae</i> in a major key inside his orchestral dance of the dead. The altered mode is part of the joke: recognition survives even when the solemn chant acquires a jaunty character.</p>",
+      "status":"documented",
+      "sources":[{"title":"Andrew McIntyre, medici.tv: The Spookiest Melody of Them All, 31 October 2025","url":"https://pageturner.medici.tv/en/the-spookiest-melody-of-them-all-dies-irae","locator":"‘Camille Saint-Saëns, Danse macabre’: Dies irae in a major key"},{"title":"Saint-Saëns, Danse macabre, Op. 40: work catalogue","url":"https://imslp.org/wiki/Danse_macabre,_Op.40_(Saint-Sa%C3%ABns,_Camille)","locator":"General Information: orchestral work composed 1874, expanded from the 1872 song"}]
+    },
+    {
+      "id":"bach-signature--liszt-bach-organ-fugue","from":"bach","to":"liszt","kind":"quoted","year":1856,
+      "title":"Bach’s name fills the Merseburg organ","thread":"bach-motif",
+      "works":{"from":"The B–A–C–H musical signature","to":"Prelude and Fugue on B-A-C-H, organ version, S. 260"},
+      "claim":"<p>Liszt planned his B–A–C–H organ work for the refurbished Merseburg Cathedral instrument, but missed the September 1855 inauguration. Alexander Winterberger premiered it there on 13 May 1856; Liszt later revised the organ version, while also making a distinct virtuoso version for piano.</p>",
+      "status":"documented",
+      "sources":[{"title":"Ernst-Günter Heinemann, Henle HN 976: Prelude and Fugue on B-A-C-H, preface","url":"https://www.henle.de/media/63/b0/ba/1690886065/0976-1690886065-sync.pdf","locator":"English preface, pp. III–IV: intended inauguration, premiere, 1871 piano version and 1872 organ revision"}]
+    },
+    {
+      "id":"bach-signature--rimsky-korsakov-op10","from":"bach","to":"rimsky-korsakov","kind":"quoted","year":1878,
+      "title":"Bach’s name enters a Russian variation cycle","thread":"bach-motif",
+      "works":{"from":"The B–A–C–H musical signature","to":"Six Variations on the Theme B-A-C-H, Op. 10 (1878)"},
+      "claim":"<p>Rimsky-Korsakov’s six piano variations on B–A–C–H move through a waltz, intermezzo, scherzo, nocturne and prelude before reaching a fugue. The sequence makes Bach’s name material for contrasting character pieces, not just an invitation to imitate an organ fugue.</p>",
+      "status":"documented",
+      "sources":[{"title":"IMSLP: List of works by Nikolay Rimsky-Korsakov","url":"https://imslp.org/wiki/List_of_works_by_Nikolay_Rimsky-Korsakov","locator":"Op. 10 and Op. 10/1–6: date 1878, piano scoring and the six movement titles"}]
+    },
+    {
+      "id":"folia-tradition--liszt-rhapsodie-espagnole","from":"folia-tradition","to":"liszt","kind":"quoted","year":1864,
+      "title":"The Folia meets Liszt’s Spanish reminiscences","thread":"la-folia",
+      "works":{"from":"Folies d’Espagne / La Folia","to":"Rhapsodie espagnole, S. 254, fair copy dated July 1864"},
+      "claim":"<p>Liszt’s <i>Rhapsodie espagnole</i> brings the Folia together with material from the jota aragonesa. Letters asking Bülow how to describe its two themes make the inherited sources explicit, while the surviving fair copy fixes July 1864 more securely than Liszt’s later recollection of composing it around 1863.</p>",
+      "status":"documented","note":"The timeline follows the dated fair copy, not a claim that every passage was first conceived in 1864.",
+      "sources":[{"title":"Mária Eckhardt, Henle HN 1333: Rhapsodie espagnole, preface","url":"https://www.henle.de/media/1c/ee/51/1697725781/1333-1697725781-sync.pdf","locator":"English preface, pp. III–IV: dated fair copy, letters to Bülow, Folies d’Espagne and Jota aragonesa"}]
     }
   ],
   "figures": [

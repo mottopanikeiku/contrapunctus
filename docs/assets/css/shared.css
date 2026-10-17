@@ -108,3 +108,8 @@ dialog.srch::backdrop { background: rgba(8, 7, 5, .72); backdrop-filter: blur(3p
 .term-popover a { font: 600 .68rem 'Cormorant SC', serif; letter-spacing: .18em; text-transform: lowercase; color: #e9cf8c; text-decoration: none; border-bottom: 1px solid rgba(230, 203, 133, .4); }
 .term-popover button { position: absolute; top: .35rem; right: .5rem; background: none; border: 0; color: #8f826f; font-size: 1.3rem; cursor: pointer; line-height: 1; }
 .term-popover button:hover { color: #f1dc9e; }
+
+.enter-web { border-color: rgba(159, 195, 198, .6); box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(159, 195, 198, .22), 0 20px 60px -20px rgba(0, 0, 0, .8); }
+.enter-web .eh-k { color: #bcd6d8; }
+.enter-web::after { color: #bcd6d8; }
+@media (max-width: 640px) { .hero-doors { gap: .8rem; } .enter-hall { width: 100%; padding: .85rem 2.4rem .9rem 1.2rem; } .eh-t { font-size: 1.6rem; } }

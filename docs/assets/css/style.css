@@ -160,6 +160,10 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .hero-dots { display: flex; gap: .55rem; justify-content: flex-end; margin-top: .9rem; }
 .hero-dots button { width: 1.7rem; height: 2px; padding: 0; border: 0; background: rgba(232, 223, 205, .3); cursor: pointer; }
 .hero-dots button.on { background: var(--gold-hi); }
+@media (max-width: 760px) {
+  .hero::before { background: linear-gradient(180deg, rgba(10, 8, 6, .6) 0%, rgba(10, 8, 6, .25) 18%, rgba(10, 8, 6, .55) 38%, rgba(10, 8, 6, .9) 62%, rgba(10, 8, 6, .96) 100%); }
+  .hero-title, .hero-sub { text-shadow: 0 2px 18px rgba(0, 0, 0, .75); }
+}
 .scroll-cue { position: absolute; left: 50%; bottom: 1.2rem; translate: -50% 0; font: 600 .72rem var(--caps); letter-spacing: .3em; color: var(--night-muted); text-decoration: none; }
 @media (max-width: 760px) { .hero-inner { grid-template-columns: 1fr; } .hero-caption { justify-self: start; text-align: left; border-right: 0; border-left: 1px solid rgba(230, 203, 133, .5); padding: 0 0 0 1rem; } .hero-dots { justify-content: flex-start; } }
 

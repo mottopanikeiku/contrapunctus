@@ -1,6 +1,6 @@
 export default {
   kicker: 'An illustrated atlas of composers · Bach to the present',
-  tagline: 'Three centuries of Western art music, told through the scores themselves — how the harmony works, where the forms came from, and the paintings and poems that kept the music company.',
+  tagline: 'Three centuries of Western art music, told through the scores themselves: how the harmony works, where the forms came from, what each composer took from the others, and the paintings and poems that kept the music company.',
   description: 'An illustrated atlas of classical composers from Bach to the present: technical listening notes, playable score examples, origins of musical forms, and the paintings and poems that share their world.',
   colophon: 'A listener’s atlas built for reading slowly. Dates follow the standard biographies; catalogue numbers follow the modern thematic catalogues (BWV, K., D., Op.). Where a story is legend rather than record, the text says so.',
 

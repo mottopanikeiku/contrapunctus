@@ -1420,6 +1420,62 @@
      "locator": "programme note"
     }
    ]
+  },
+  {
+   "id":"bach-signature--reger-op46","from":"bach","to":"reger","kind":"quoted","year":1900,
+   "title":"Reger builds an organ monument on BACH","thread":"bach-motif",
+   "works":{"from":"The B–A–C–H musical signature","to":"Fantasie und Fuge über B-A-C-H, Op. 46 (1900)"},
+   "claim":"<p>Reger made B–A–C–H the named subject of his large organ Fantasy and Fugue, Op. 46, composed in February 1900. Its dedication is to Josef Rheinberger: the Bach homage in its musical material should not be confused with the person named on the dedication page.</p>",
+   "status":"documented",
+   "sources":[{"title":"Reger, Fantasie und Fuge über B-A-C-H, Op. 46: work catalogue","url":"https://imslp.org/wiki/Fantasie_und_Fuge_%C3%BCber_B-A-C-H,_Op.46_(Reger,_Max)","locator":"General Information: February 1900, organ, dedication to Josef Rheinberger"}]
+  },
+  {
+   "id":"bach-signature--webern-quartet-op28","from":"bach","to":"webern","kind":"quoted","year":1938,
+   "title":"Bach’s four notes begin Webern’s twelve-tone row","thread":"bach-motif",
+   "works":{"from":"The B–A–C–H musical signature","to":"String Quartet, Op. 28 (1936–38)"},
+   "claim":"<p>Webern’s Op. 28 row begins B♭–A–C–B♮, and its three four-note groups are transformations of that same B–A–C–H cell. The quartet therefore carries an identifiable Bach signature inside its twelve-tone organisation rather than quoting a whole Bach tune.</p>",
+   "status":"documented","note":"1938 anchors the completed quartet’s first performance, on 22 September at the Coolidge Festival in Pittsfield, not the start of composition.",
+   "sources":[{"title":"String Quartet, Op. 28 (Webern): tone-row analysis","url":"https://en.wikipedia.org/wiki/String_Quartet_(Webern)","locator":"‘Tone row’: opening B-flat–A–C–B-natural and three related tetrachords; opening chronology"},{"title":"Universal Edition: Webern, String Quartet Op. 28","url":"https://www.universaledition.com/en/String-Quartet/P0035206","locator":"Publisher work catalogue"}]
+  },
+  {
+   "id":"bach-signature--part-collage","from":"bach","to":"part","kind":"quoted","year":1964,
+   "title":"Pärt places Bach beside twelve-tone dissonance","thread":"bach-motif",
+   "works":{"from":"The B–A–C–H signature; English Suite in D minor, Sarabande","to":"Collage über B-A-C-H (1964), especially Sarabande"},
+   "claim":"<p>Pärt’s <i>Collage über B-A-C-H</i> begins its ten-note sequence with Bach’s four-note signature. In the Sarabande, passages from the D-minor English Suite alternate with dense clusters, and harpsichord and piano help distinguish inherited Baroque music from the modern material set against it.</p>",
+   "status":"documented",
+   "sources":[{"title":"Arvo Pärt Centre: Collage über B-A-C-H","url":"https://www.arvopart.ee/en/arvo-part/work/583/","locator":"1964 work entry and commentary: ten-note sequence, Sarabande quotation, harpsichord/piano contrast"}]
+  },
+  {
+   "id":"gregorian-chant--crumb-black-angels","from":"gregorian-chant","to":"crumb","kind":"quoted","year":1970,
+   "title":"The chant haunts an amplified string quartet","thread":"dies-irae",
+   "works":{"from":"Dies irae, the Requiem plainchant","to":"Black Angels, Thirteen Images from the Dark Land (1970)"},
+   "claim":"<p>Crumb acknowledged the <i>Dies irae</i> among the musical allusions in <i>Black Angels</i>, alongside Schubert’s <i>Death and the Maiden</i> and Tartini’s <i>Devil’s Trill</i>. The chant’s appearance in a work for amplified string quartet extends its afterlife beyond Romantic orchestral spectacle into an intimate, unsettling modern sound-world.</p>",
+   "status":"documented",
+   "sources":[{"title":"Victoria Adamenko, Library of Congress National Recording Registry: Black Angels","url":"https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Black-Angels.pdf","locator":"p. 2: Crumb’s foreword acknowledges Dies irae and other allusions; pp. 1–2: scoring and 13 March 1970 completion"}]
+  },
+  {
+   "id":"beethoven-ninth--european-anthem","from":"beethoven","to":"european-anthem","kind":"quoted","year":1972,
+   "title":"The Ode becomes an anthem without words","thread":"ode-to-joy",
+   "works":{"from":"Symphony No. 9, finale, Ode to Joy","to":"European anthem: Council of Europe adoption (1972), European Community adoption (1985)"},
+   "claim":"<p>The Council of Europe adopted Beethoven’s <i>Ode to Joy</i> melody as its anthem in 1972; European Community leaders adopted it in 1985. The official anthem has no words, allowing the music to serve as a shared symbol without choosing one language for Schiller’s poem.</p>",
+   "status":"documented",
+   "sources":[{"title":"European Union: European anthem","url":"https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_en","locator":"Official page, updated 17 April 2026: 1972 and 1985 adoptions; instrumental anthem without words"}]
+  },
+  {
+   "id":"beethoven-ninth--bernstein-berlin-freedom","from":"beethoven","to":"bernstein","kind":"championed","year":1989,
+   "title":"Bernstein changes joy to freedom in Berlin","thread":"ode-to-joy",
+   "works":{"from":"Symphony No. 9, finale, Schiller’s An die Freude","to":"Berlin Freedom Concert, Schauspielhaus, 25 December 1989"},
+   "claim":"<p>At the Christmas Day 1989 concert in East Berlin, Bernstein conducted Beethoven’s Ninth with singers substituting <i>Freiheit</i> for <i>Freude</i> in the finale. The alteration answered the opening of the Berlin Wall; it is a documented performance decision, not evidence that Schiller originally wrote the poem with that word.</p>",
+   "status":"documented",
+   "sources":[{"title":"Leonard Bernstein Office: Berlin Wall Concert, 1989","url":"https://leonardbernstein.com/about/conductor/historic-concerts/berlin-wall-concert-1989","locator":"Klaus Geitel’s account: 25 December 1989, East Berlin Schauspielhaus, Freude changed to Freiheit"}]
+  },
+  {
+   "id":"frere-jacques--beatles-paperback-writer","from":"frere-jacques-round","to":"beatles","kind":"quoted","year":1966,
+   "title":"A children’s round enters Paperback Writer","thread":"frere-jacques",
+   "works":{"from":"Frère Jacques, traditional round","to":"Paperback Writer, backing vocals (1966)"},
+   "claim":"<p>The Beatles sing <i>Frère Jacques</i> in the backing vocals of <i>Paperback Writer</i>, recorded in April 1966. Unlike Mahler’s minor-key funeral transformation, this is a brief vocal quotation tucked into a pop recording: the same familiar round travels into a different musical setting.</p>",
+   "status":"documented",
+   "sources":[{"title":"The Beatles: Paperback Writer","url":"https://www.thebeatles.com/paperback-writer","locator":"Official song page: recording on 13 and 14 April 1966; May/June release"},{"title":"The Beatles Bible: Paperback Writer","url":"https://www.beatlesbible.com/songs/paperback-writer/","locator":"Recording account: 14 April backing vocals and Frère Jacques quotation; updated 30 July 2026"}]
   }
  ],
  "figures": [
@@ -1632,6 +1688,11 @@
    "dates": "1868–1938",
    "year": 1868,
    "kind": "poet"
-  }
+  },
+  {"id":"reger","name":"Max Reger","dates":"1873–1916","year":1873,"kind":"composer"},
+  {"id":"crumb","name":"George Crumb","dates":"1929–2022","year":1929,"kind":"composer"},
+  {"id":"european-anthem","name":"The European anthem","dates":"Adopted 1972; European Community adoption 1985","year":1972,"kind":"tradition"},
+  {"id":"bernstein","name":"Leonard Bernstein","dates":"1918–1990","year":1918,"kind":"performer"},
+  {"id":"beatles","name":"The Beatles","dates":"1960–1970","year":1960,"kind":"performer"}
  ]
 }

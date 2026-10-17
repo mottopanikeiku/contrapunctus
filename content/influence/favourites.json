@@ -1586,6 +1586,14 @@
      "locator": "pp. 4 and 14–16, Tolstoy source and 1941–1953 chronology"
     }
    ]
+  },
+  {
+   "id":"corelli-folia--rachmaninoff-op42","from":"corelli","to":"rachmaninoff","kind":"quoted","year":1931,
+   "title":"Rachmaninoff’s Corelli theme is the older Folia","thread":"la-folia",
+   "works":{"from":"Corelli, Sonata Op. 5 No. 12, Follia (1700), inherited theme","to":"Variations on a Theme of Corelli, Op. 42 (1931)"},
+   "claim":"<p>Rachmaninoff’s Op. 42, composed in May and June 1931, takes its theme from the Folia familiar through Corelli’s Op. 5 finale. The title names an important transmitter rather than the tune’s inventor: the theme was already older than Corelli.</p>",
+   "status":"documented","note":"Kreisler has often been proposed as the intermediary, but the cited critical discussion also notes Rachmaninoff’s familiarity with Liszt’s Rhapsodie espagnole. Neither route is asserted here as established.",
+   "sources":[{"title":"Norbert Gertsch, Henle: Corelli, La Folia and Rachmaninoff’s Variations, Op. 42","url":"https://blog.henle.de/en/2014/01/06/corelli-la-folia-and-rachmaninoff%E2%80%99s-variations-op-42/","locator":"Rachmaninoff’s May–June 1931 composition, Folia ancestry, and uncertain Kreisler/Liszt transmission"}]
   }
  ],
  "figures": [

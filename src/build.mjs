@@ -19,6 +19,7 @@ const eraBySlug = new Map(eras.map((e) => [e.slug, e]));
 const SITE_URL = 'https://mottopanikeiku.github.io/contrapunctus/';
 const warnings = [];
 let PROG_V = '';
+const INFLUENCE_EDGES = (await Promise.all((await readdir(path.join(ROOT, 'content/influence')).catch(() => [])).filter((f) => f.endsWith('.json') && f !== 'threads.json').map(async (f) => JSON.parse(await readFile(path.join(ROOT, 'content/influence', f), 'utf8')).edges?.length ?? 0))).reduce((a, b) => a + b, 0);
 const ver = async (rel) => createHash('md5').update(await readFile(path.join(OUT, rel))).digest('hex').slice(0, 8);
 const V = { css: await ver('assets/css/style.css'), js: await ver('assets/js/site.js'), shared: await ver('assets/css/shared.css'), app: await ver('assets/js/app.js'), room: await ver('assets/js/room.js'), player: await ver('assets/js/player.js') };
 
@@ -404,7 +405,7 @@ function indexPage() {
   const four = composers.filter((c) => c.featured);
   const body = `<section class="hero"><div class="hero-slides">${slides}</div>
 <div class="wrap hero-inner"><div><h1 class="hero-title">Contrapunctus</h1><p class="hero-sub"><span class="sc">${esc(site.kicker)}</span>${esc(site.tagline)}</p>
-<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${listens.length} recordings · the score lights up as it plays</span></a><a class="hero-browse" href="#prelude">Or wander the Atlas ↓</a></div></div>
+<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${listens.length} recordings · the score lights up as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#prelude">Or wander the Atlas ↓</a></div></div>
 <div><p class="hero-caption" aria-live="polite"></p><div class="hero-dots">${site.heroSlides.map((_, i) => `<button type="button" aria-label="Painting ${i + 1}"${i === 0 ? ' class="on"' : ''}></button>`).join('')}</div></div></div>
 <a class="scroll-cue" href="#prelude">Prelude ↓</a></section>
 ${readerPaths(ctx)}

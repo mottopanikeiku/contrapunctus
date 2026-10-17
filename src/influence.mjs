@@ -111,25 +111,28 @@ function positionNodes(nodes, edges, yearX) {
   return { width: WIDTH, height };
 }
 
+function labelSize(node, zoom = false) {
+  const divisor = zoom ? 2 : 1;
+  const font = (node.font ?? (node.url ? 26 : 24)) / divisor, padding = 12 / divisor;
+  const w = Math.min(zoom ? 160 : 190, Math.max(60 / divisor, Math.ceil(node.label.length * font * .57 + padding)));
+  let rows = 1, line = 0;
+  for (const word of node.label.split(/\s+/)) {
+    const advance = word.length * font * .57;
+    if (line && line + advance > w - padding) { rows++; line = 0; }
+    const wraps = Math.max(0, Math.ceil(advance / (w - padding)) - 1);
+    rows += wraps;
+    line += advance - wraps * (w - padding) + font * .3;
+  }
+  return { w, h: Math.ceil((rows * (node.font ? node.font * 1.1 : node.url ? 27.3 : 26.4) + 8) / divisor) };
+}
+
 /** Pack each view's visible nameplates at build time, never during hover. */
 function positionLabels(nodes, portraits, size, indices, zoom = false) {
   const occupied = [];
   const overlaps = (a, b) => a.x < b.x + b.w + 8 && a.x + a.w + 8 > b.x && a.y < b.y + b.h + 8 && a.y + a.h + 8 > b.y;
   const positions = [];
   for (const node of nodes) {
-    const divisor = zoom ? 2 : 1;
-    const font = (node.url ? 26 : 24) / divisor;
-    const padding = 12 / divisor;
-    const w = Math.min(zoom ? 160 : 190, Math.max(60 / divisor, Math.ceil(node.label.length * font * .57 + padding)));
-    let rows = 1, line = 0;
-    for (const word of node.label.split(/\s+/)) {
-      const advance = word.length * font * .57;
-      if (line && line + advance > w - padding) { rows++; line = 0; }
-      const wraps = Math.max(0, Math.ceil(advance / (w - padding)) - 1);
-      rows += wraps;
-      line += advance - wraps * (w - padding) + font * .3;
-    }
-    const h = Math.ceil((rows * (node.url ? 27.3 : 26.4) + 8) / divisor);
+    const { w, h } = labelSize(node, zoom);
     let box;
     const fits = (b) => b.x >= 12 && b.x + w <= size.width - 12 && b.y >= 300 && b.y + h <= size.height - 35 && !portraits.some((r) => overlaps(b, r)) && !occupied.some((r) => overlaps(b, r));
     for (const [x, y] of [
@@ -162,12 +165,17 @@ function positionLabels(nodes, portraits, size, indices, zoom = false) {
   return positions;
 }
 
-function edgePath(a, b, index) {
-  if (a.id === b.id) return `M${a.x},${a.y} C${a.x - 110},${a.y - 110} ${a.x + 110},${a.y - 110} ${a.x},${a.y}`;
+function edgePath(a, b, index, t) {
   const bend = Math.max(75, Math.round(Math.abs(b.x - a.x) * .48));
-  const direction = b.x >= a.x ? 1 : -1;
-  const offset = (index % 5 - 2) * 11;
-  return `M${a.x},${a.y} C${a.x + bend * direction},${a.y + offset} ${b.x - bend * direction},${b.y + offset} ${b.x},${b.y}`;
+  const direction = b.x >= a.x ? 1 : -1, offset = (index % 5 - 2) * 11;
+  const x1 = a.id === b.id ? a.x - 110 : a.x + bend * direction;
+  const x2 = a.id === b.id ? a.x + 110 : b.x - bend * direction;
+  const y1 = a.id === b.id ? a.y - 110 : a.y + offset;
+  const y2 = a.id === b.id ? a.y - 110 : b.y + offset;
+  const d = `M${a.x},${a.y} C${x1},${y1} ${x2},${y2} ${b.x},${b.y}`;
+  if (t == null) return { d };
+  const u = 1 - t;
+  return { d, x: Math.round(u ** 3 * a.x + 3 * u * u * t * x1 + 3 * u * t * t * x2 + t ** 3 * b.x), y: Math.round(u ** 3 * a.y + 3 * u * u * t * y1 + 3 * u * t * t * y2 + t ** 3 * b.y) };
 }
 
 /** Called after buildInfluence, before composer pages are emitted. */
@@ -228,32 +236,56 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
   nodes.sort((a, b) => a.year - b.year || a.name.localeCompare(b.name));
   const nodeOrder = new Map(nodes.map((n, i) => [n.id, i]));
   const portraits = nodes.map((n) => ({ x: n.x - n.halfW, y: n.y - n.halfH, w: n.halfW * 2, h: n.halfH * 2 }));
+  const threadStops = new Map(threads.map((t) => [t.id, edges.filter((e) => e.thread === t.id)]));
   const placeLabels = (ids, bounds = size, zoom = false) => positionLabels([...new Set(ids)].map((id) => nodeById.get(id)), portraits, bounds, nodeOrder, zoom);
   const labelLayouts = {
     overview: placeLabels(landmarks),
     zoom: placeLabels([...landmarks, ...nodes.map((n) => n.id)], { ...size }, true),
     nodes: nodes.map((n) => placeLabels([n.id, ...index[n.id].in.map((e) => e.from), ...index[n.id].out.map((e) => e.to)])),
-    threads: Object.fromEntries(threads.map((t) => [t.id, placeLabels(edges.filter((e) => e.thread === t.id).flatMap((e) => [e.from, e.to]))])),
+    threads: Object.fromEntries(threads.map((t) => [t.id, placeLabels(threadStops.get(t.id).flatMap((e) => [e.from, e.to]))])),
   };
   const picture = (node) => {
     const info = node.portrait && art[normalizeTitle(node.portrait)];
     return info ? `<img src="${attr(info.src.replace(/\.webp$/, '-160.webp'))}" alt="" width="66" height="80" loading="lazy" decoding="async" style="object-position:${attr(node.focus ?? '50% 30%')}">` : '<span class="iw-star" aria-hidden="true"></span>';
   };
+  const curves = new Map(edges.map((edge, i) => {
+    const a = nodeById.get(edge.from), b = nodeById.get(edge.to), stops = threadStops.get(edge.thread);
+    const parallel = stops?.filter((other) => other.from === edge.from && other.to === edge.to);
+    const phase = parallel?.length > 1 ? .32 + .36 * parallel.indexOf(edge) / (parallel.length - 1) : .5;
+    return [edge.id, edgePath(a, b, i, stops ? phase : undefined)];
+  }));
+  const dateLabels = new Map();
+  for (const [id, stops] of threadStops) {
+    const names = labelLayouts.threads[id].map(([i, x, y]) => {
+      const node = nodes[i], { w, h } = labelSize(node);
+      return { x: node.x + x - w / 2, y: node.y + y, w, h };
+    });
+    const stamps = stops.map((edge) => ({ id: edge.id, label: String(edge.year), font: 28, x: curves.get(edge.id).x, y: curves.get(edge.id).y, halfW: 0, halfH: 0 }));
+    const positions = positionLabels(stamps, [...portraits, ...names], { ...size }, new Map(stamps.map((stamp, i) => [stamp.id, i])));
+    for (const [i, dx, dy] of positions) {
+      const stamp = stamps[i], { w, h } = labelSize(stamp);
+      const x = stamp.x + dx, top = stamp.y + dy;
+      const endX = Math.round(Math.max(x - w / 2, Math.min(x + w / 2, stamp.x)));
+      const endY = Math.round(Math.max(top, Math.min(top + h, stamp.y)));
+      const guide = Math.hypot(endX - stamp.x, endY - stamp.y) > 24 ? `<path class="iw-stop-guide" d="M${stamp.x},${stamp.y} L${endX},${endY}"/>` : '';
+      dateLabels.set(stamp.id, `${guide}<text class="iw-stop-year" x="${x}" y="${top + 28}" aria-hidden="true">${stamp.label}</text>`);
+    }
+  }
   const paths = edges.map((edge, i) => {
-    const a = nodeById.get(edge.from), b = nodeById.get(edge.to), d = edgePath(a, b, i);
-    return `<a href="#edge-${attr(edge.id)}" class="iw-edge iw-kind-${edge.kind}" data-edge="${attr(edge.id)}" aria-label="${attr(`${a.label} → ${b.label}, ${edge.year}`)}"><path id="iw-path-${i}" class="iw-line" d="${d}"/><path class="iw-hit" d="${d}"/><circle class="iw-glint" r="4" style="offset-path:url(#iw-path-${i})"/></a>`;
+    const a = nodeById.get(edge.from), b = nodeById.get(edge.to), { d } = curves.get(edge.id);
+    return `<a href="#edge-${attr(edge.id)}" class="iw-edge iw-kind-${edge.kind}" data-edge="${attr(edge.id)}" aria-label="${attr(`${a.label} → ${b.label}, ${edge.year}`)}"><path id="iw-path-${i}" class="iw-line" d="${d}"/><path class="iw-hit" d="${d}"/><circle class="iw-glint" r="4" style="offset-path:url(#iw-path-${i})"/>${dateLabels.get(edge.id) ?? ''}</a>`;
   }).join('');
   const eraRows = [];
   const erasLabel = eras.map((era) => {
     const members = nodes.filter((n) => n.era === era.slug);
     if (!members.length) return '';
     const x = members.reduce((s, n) => s + n.x, 0) / members.length;
-    const width = era.name.length * 14;
+    const width = era.name.length * 20;
     let row = eraRows.findIndex((labels) => labels.every((label) => Math.abs(label.x - x) > (label.width + width) / 2 + 24));
     if (row < 0) { row = eraRows.length; eraRows.push([]); }
     eraRows[row].push({ x, width });
-    const y = 230 + row * 30;
-    return `<g class="iw-era"><text x="${Math.round(x)}" y="${y}">${esc(era.name)}</text><path d="M${Math.round(x)},${y + 10} V${size.height - 35}"/></g>`;
+    const y = 230 + row * 44, start = Math.round(yearX(era.from));
+    return `<g class="iw-era"><text x="${Math.round(x)}" y="${y}">${esc(era.name)}</text><path d="M${start},${y + 10} V${size.height - 35}"/><path class="iw-era-tick" d="M${start},${y + 6} v20"/></g>`;
   }).join('');
   const years = [1100, 1500, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000].map((year) => `<text x="${Math.round(yearX(year))}" y="${size.height - 8}">${year}</text>`).join('');
   const cameos = nodes.map((node) => {
@@ -265,8 +297,8 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
     size,
     labelLayouts,
     nodes: nodes.map(({ portrait, focus, halfW, halfH, spanW, above, below, ...node }) => node),
-    edges: edges.map(({ id, title, from, to, kind, year, thread }) => ({ id, title, from, to, kind, year, ...(thread ? { thread } : {}) })),
-    threads: threads.map(({ id, name, summary }) => ({ id, name, summary: prose(summary) })),
+    edges: edges.map(({ id, from, to, kind, year, thread }) => ({ id, from, to, kind, year, ...(thread ? { thread } : {}) })),
+    threads: threads.map(({ id, name }) => ({ id, name })),
   };
   const detail = Object.fromEntries(edges.map((edge) => {
     const copy = { ...edge, claim: prose(edge.claim), note: edge.note ? prose(edge.note) : '' };
@@ -279,7 +311,7 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
   await mkdir(path.join(OUT, 'assets'), { recursive: true });
   await Promise.all([
     writeFile(path.join(OUT, 'assets/influence.json'), JSON.stringify(Object.fromEntries(composers.map((c) => [c.slug, index[c.slug]])))),
-    writeFile(path.join(OUT, 'assets/influence-details.json'), JSON.stringify(detail)),
+    writeFile(path.join(OUT, 'assets/influence-details.json'), JSON.stringify({ edges: detail, threads: Object.fromEntries(threads.map((t) => [t.id, { ...t, summary: prose(t.summary), abcNote: t.abcNote ? prose(t.abcNote) : '' }])) })),
   ]);
   const backdrop = art[normalizeTitle(eras.find((e) => e.slug === 'fin-de-siecle')?.hero?.file ?? '')];
   const featuredThreads = threads.filter((t) => edges.some((e) => e.thread === t.id));

@@ -69,6 +69,7 @@ export function validateInfluence(data, { composers, listens }) {
     if (threadIds.has(thread.id)) error(where, 'duplicate thread id');
     threadIds.add(thread.id);
     for (const key of ['name', 'summary']) if (!nonempty(thread[key])) error(where, `${key} is required`);
+    if (thread.abcNote != null && !nonempty(thread.abcNote)) error(where, 'abcNote must be a non-empty string when supplied');
     source(thread.source, where); abc(thread.abc, where);
   }
   for (const edge of data.edges ?? []) {

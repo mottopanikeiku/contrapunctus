@@ -200,52 +200,41 @@ export function mount(app) {
       else chip.removeAttribute('aria-current');
     }
   }
-  const connectionList = (list) => `<ol class="iw-connections">${list.map((edge) => `<li><a href="#edge-${esc(edge.id)}"><span class="iw-connection-year">${edge.year}</span><span><strong>${esc(edge.title)}</strong><small>${esc(nodes.get(edge.from).label)} → ${esc(nodes.get(edge.to).label)} · ${kindLabel(edge.kind)}</small></span><b aria-hidden="true">→</b></a></li>`).join('')}</ol>`;
+  const connectionList = (list, journey = false) => `<ol class="iw-connections${journey ? ' iw-journey' : ''}">${list.map((edge) => `<li><a href="#edge-${esc(edge.id)}"><span class="iw-connection-year">${edge.year}</span>${journey ? `<span class="iw-stop-cameo" aria-hidden="true">${$('.iw-medallion', nodeElements.get(edge.to)).innerHTML}</span>` : ''}<span><strong>${esc(edge.title)}</strong><small>${esc(nodes.get(edge.from).label)} → ${esc(nodes.get(edge.to).label)} · ${kindLabel(edge.kind)}</small></span><b aria-hidden="true">→</b></a></li>`).join('')}</ol>`;
+  const scoreFigures = (passages) => passages.map(([side, passage], i) => `<figure class="iw-score" data-passage="${side}"><figcaption><span>${passages.length > 1 ? `${i + 1}. ` : ''}${esc(passage.label)}</span><a href="${esc(passage.checked)}" target="_blank" rel="noopener noreferrer">${esc(passage.sourceTitle ?? 'Score source')} ↗</a></figcaption><div class="iw-notation" aria-label="${esc(passage.label)}"><p>Engraving the passage…</p></div><div class="iw-score-actions"><button type="button" data-passage-play disabled>Play passage</button>${passage.listen ? `<button type="button" data-hall-id="${esc(passage.listen.id)}" data-hall-t="${passage.listen.t}">Hear it in the hall</button>` : ''}</div></figure>`).join('');
+  async function engrave(passages, version) {
+    if (!passages.length) return;
+    const ABCJS = await loadAbcjs(app.root);
+    if (!alive || version !== cardVersion) return;
+    for (const [side, passage] of passages) {
+      const figure = $(`[data-passage="${side}"]`), target = $('.iw-notation', figure);
+      target.replaceChildren();
+      // The wrapping caption already supplies the title.
+      [figure._visual] = ABCJS.renderAbc(target, passage.abc.replace(/^T:.*(?:\r?\n|$)/gm, ''), { responsive: 'resize', staffwidth: mobile.matches ? 300 : 440, wrap: { minSpacing: 1.5, maxSpacing: 2.5, preferredMeasuresPerLine: mobile.matches ? 2 : 4 }, add_classes: true, paddingtop: 8, paddingbottom: 8, paddingleft: 0, paddingright: 0, foregroundColor: 'currentColor' });
+      $('[data-passage-play]', figure).disabled = false;
+    }
+  }
   function showNode(id) {
     const node = nodes.get(id), list = adjacency.get(id);
     const incoming = list.filter((e) => e.to === id), outgoing = list.filter((e) => e.from === id);
     cardOpen(`<span class="iw-card-kicker">${esc(node.kind)} · ${esc(node.dates)}</span><h2 id="iw-card-title">${esc(node.name)}</h2><p class="iw-card-lede">${list.length} sourced ${list.length === 1 ? 'connection' : 'connections'} in this collection.</p>${node.url ? `<p><a class="iw-chapter-link" href="${new URL(node.url, app.root).href}">Read the composer’s chapter →</a></p>` : ''}<h3>What came in</h3>${incoming.length ? connectionList(incoming) : '<p class="iw-quiet">No sourced connection in this collection yet.</p>'}<h3>What went out</h3>${outgoing.length ? connectionList(outgoing) : '<p class="iw-quiet">No sourced connection in this collection yet.</p>'}`);
-    centreNode(id);
   }
-  function showThread(id) {
-    const thread = data.threads.find((t) => t.id === id);
+  async function showThread(id, thread, version) {
     const stops = data.edges.filter((e) => e.thread === id);
-    cardOpen(`<span class="iw-card-kicker">A thread through time · ${stops.length} stops</span><h2 id="iw-card-title">${esc(thread.name)}</h2><div class="iw-card-lede">${thread.summary}</div><p class="iw-quiet">Connections are listed by the date of the encounter or work; branches need not form a single chain.</p>${stops.length ? connectionList(stops) : '<p>No sourced stops have been added to this thread yet.</p>'}`);
+    const passages = [['thread', { abc: thread.abc, label: thread.name, checked: thread.source.url, sourceTitle: thread.source.title }]];
+    cardOpen(`<span class="iw-card-kicker">A thread through time · ${stops.length} stops</span><h2 id="iw-card-title">${esc(thread.name)}</h2>${scoreFigures(passages)}${thread.abcNote ? `<div class="iw-abc-note">${thread.abcNote}</div>` : ''}<div class="iw-card-lede">${thread.summary}</div><h3>Follow the thread</h3><p class="iw-quiet">Each stop is dated by the encounter or work; branches need not form a single chain.</p>${stops.length ? connectionList(stops, true) : '<p>No sourced stops have been added to this thread yet.</p>'}`);
     stops.forEach((e, i) => { const el = edgeElements.get(e.id); el.style.setProperty('--trace-delay', `${Math.min(i * .3, 4)}s`); $('.iw-line', el).setAttribute('pathLength', '1'); el.classList.add('is-traced'); });
-    fit();
+    await engrave(passages, version);
   }
   const sources = (items) => `<ol class="iw-sources">${items.map((source) => `<li><a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.title)}</a>${source.locator ? `<span>${esc(source.locator)}</span>` : ''}</li>`).join('')}</ol>`;
-  async function showEdge(id) {
-    const version = ++cardVersion, summary = edges.get(id);
-    cardOpen(`<span class="iw-card-kicker">${summary.year} · ${kindLabel(summary.kind)}</span><h2 id="iw-card-title">${esc(summary.title)}</h2><p role="status">Opening the sources…</p>`);
-    try {
-      detailsPromise ??= fetch(new URL('assets/influence-details.json', app.root), { signal: events.signal }).then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); });
-      const detail = (await detailsPromise)[id];
-      if (!alive || version !== cardVersion) return;
-      if (!detail) throw new Error(`No evidence record for ${id}`);
-      const passages = Object.entries(detail.exhibit ?? {}).filter(([, p]) => p?.abc);
-      const art = detail.art ? `<figure class="iw-art"><a href="${esc(detail.art.url)}" target="_blank" rel="noopener noreferrer"><img src="${esc(new URL(detail.art.src, app.root).href)}" alt="${esc(detail.art.caption)}" loading="lazy" decoding="async"></a><figcaption>${esc(detail.art.caption)}</figcaption></figure>` : '';
-      cardOpen(`<span class="iw-card-kicker">${summary.year} · ${kindLabel(summary.kind)}</span><h2 id="iw-card-title">${esc(detail.title)}</h2><p class="iw-card-route"><a href="#node-${esc(summary.from)}">${esc(nodes.get(summary.from).name)}</a><span>→</span><a href="#node-${esc(summary.to)}">${esc(nodes.get(summary.to).name)}</a></p>${detail.works ? `<dl class="iw-works">${['from', 'to'].filter((side) => detail.works[side]).map((side) => `<div><dt>${side === 'from' ? 'Source' : 'Transformation'}</dt><dd>${esc(detail.works[side])}</dd></div>`).join('')}</dl>` : ''}<div class="iw-claim">${detail.claim}</div><div class="iw-evidence"><span class="iw-badge ${detail.status}">${esc(detail.status)}</span><p>${detail.status === 'documented' ? 'The cited source documents this connection.' : detail.note}</p></div>${detail.status === 'documented' && detail.note ? `<div class="iw-quiet">${detail.note}</div>` : ''}${passages.length || art ? `<section class="iw-exhibit"><h3>${passages.length > 1 ? 'Hear what changed' : 'The exhibit'}</h3><div class="iw-exhibit-content${art ? ' has-art' : ''}">${art}<div>${passages.map(([side, passage], i) => `<figure class="iw-score" data-passage="${side}"><figcaption><span>${passages.length > 1 ? `${i + 1}. ` : ''}${esc(passage.label)}</span><a href="${esc(passage.checked)}" target="_blank" rel="noopener noreferrer">Score source ↗</a></figcaption><div class="iw-notation" aria-label="${esc(passage.label)}"><p>Engraving the passage…</p></div><div class="iw-score-actions"><button type="button" data-passage-play disabled>Play passage</button>${passage.listen ? `<button type="button" data-hall-id="${esc(passage.listen.id)}" data-hall-t="${passage.listen.t}">Hear it in the hall</button>` : ''}</div></figure>`).join('')}</div></div></section>` : ''}<section class="iw-source-section"><h3>Sources &amp; evidence</h3>${sources(detail.sources)}</section><a class="iw-permalink" href="#edge-${esc(id)}">Link to this connection</a>`);
-      if (passages.length) {
-        const ABCJS = await loadAbcjs(app.root);
-        if (!alive || version !== cardVersion) return;
-        for (const [side, passage] of passages) {
-          const figure = $(`[data-passage="${side}"]`), target = $('.iw-notation', figure);
-          target.replaceChildren();
-          // The wrapping caption already supplies the title.
-          [figure._visual] = ABCJS.renderAbc(target, passage.abc.replace(/^T:.*(?:\r?\n|$)/gm, ''), { responsive: 'resize', staffwidth: mobile.matches ? 300 : 440, wrap: { minSpacing: 1.5, maxSpacing: 2.5, preferredMeasuresPerLine: mobile.matches ? 2 : 4 }, add_classes: true, paddingtop: 8, paddingbottom: 8, paddingleft: 0, paddingright: 0, foregroundColor: 'currentColor' });
-          $('[data-passage-play]', figure).disabled = false;
-        }
-      }
-    } catch (error) {
-      if (!alive || version !== cardVersion) return;
-      detailsPromise = null;
-      const message = document.createElement('p'); message.className = 'iw-load-error'; message.textContent = 'The evidence or notation could not be loaded. Open this connection again to retry.'; content.append(message);
-      console.error('Influence evidence', error);
-    }
+  async function showEdge(id, detail, version) {
+    const summary = edges.get(id), passages = Object.entries(detail.exhibit ?? {}).filter(([, p]) => p?.abc);
+    const art = detail.art ? `<figure class="iw-art"><a href="${esc(detail.art.url)}" target="_blank" rel="noopener noreferrer"><img src="${esc(new URL(detail.art.src, app.root).href)}" alt="${esc(detail.art.caption)}" loading="lazy" decoding="async"></a><figcaption>${esc(detail.art.caption)}</figcaption></figure>` : '';
+    cardOpen(`<span class="iw-card-kicker">${summary.year} · ${kindLabel(summary.kind)}</span><h2 id="iw-card-title">${esc(detail.title)}</h2><p class="iw-card-route"><a href="#node-${esc(summary.from)}">${esc(nodes.get(summary.from).name)}</a><span>→</span><a href="#node-${esc(summary.to)}">${esc(nodes.get(summary.to).name)}</a></p>${detail.works ? `<dl class="iw-works">${['from', 'to'].filter((side) => detail.works[side]).map((side) => `<div><dt>${side === 'from' ? 'Source' : 'Transformation'}</dt><dd>${esc(detail.works[side])}</dd></div>`).join('')}</dl>` : ''}<div class="iw-claim">${detail.claim}</div><div class="iw-evidence"><span class="iw-badge ${detail.status}">${esc(detail.status)}</span><p>${detail.status === 'documented' ? 'The cited source documents this connection.' : detail.note}</p></div>${detail.status === 'documented' && detail.note ? `<div class="iw-quiet">${detail.note}</div>` : ''}${passages.length || art ? `<section class="iw-exhibit"><h3>${passages.length > 1 ? 'Hear what changed' : 'The exhibit'}</h3><div class="iw-exhibit-content${art ? ' has-art' : ''}">${art}<div>${scoreFigures(passages)}</div></div></section>` : ''}<section class="iw-source-section"><h3>Sources &amp; evidence</h3>${sources(detail.sources)}</section><a class="iw-permalink" href="#edge-${esc(id)}">Link to this connection</a>`);
+    await engrave(passages, version);
   }
 
-  function openHash() {
+  async function openHash() {
     const match = location.hash.match(/^#(edge|node|thread)-(.+)$/);
     if (!match) { if (selection) closeCard(false); return; }
     const [, type, raw] = match;
@@ -253,14 +242,30 @@ export function mount(app) {
     if (!(type === 'node' ? nodes.has(id) : type === 'edge' ? edges.has(id) : data.threads.some((t) => t.id === id))) {
       status.textContent = 'That connection, person or thread is not in this collection.'; return;
     }
-    cardVersion++;
+    const version = ++cardVersion;
     selection = { type, id };
     selectThreadChip(type === 'thread' ? id : '');
     for (const el of edgeElements.values()) { el.classList.remove('is-traced'); $('.iw-line', el).removeAttribute('pathLength'); }
-    if (type === 'node') showNode(id);
-    else if (type === 'thread') showThread(id);
-    else showEdge(id);
+    const title = type === 'node' ? nodes.get(id).name : type === 'thread' ? data.threads.find((t) => t.id === id).name : `${nodes.get(edges.get(id).from).label} → ${nodes.get(edges.get(id).to).label}`;
+    cardOpen(`<h2 id="iw-card-title">${esc(title)}</h2><p role="status">Opening the sources…</p>`);
+    if (type === 'node') centreNode(id);
+    else if (type === 'thread') fit();
     highlight();
+    try {
+      detailsPromise ??= fetch(new URL('assets/influence-details.json', app.root), { signal: events.signal })
+        .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+        .then((detail) => { for (const edge of data.edges) edge.title = detail.edges[edge.id].title; return detail; });
+      const detail = await detailsPromise;
+      if (!alive || version !== cardVersion) return;
+      if (type === 'node') showNode(id);
+      else if (type === 'thread') await showThread(id, detail.threads[id], version);
+      else await showEdge(id, detail.edges[id], version);
+    } catch (error) {
+      if (!alive || version !== cardVersion) return;
+      detailsPromise = null;
+      const message = document.createElement('p'); message.className = 'iw-load-error'; message.textContent = 'The evidence or notation could not be loaded. Open this card again to retry.'; content.append(message);
+      console.error('Influence evidence', error);
+    }
   }
   function navigateHash(hash) { if (location.hash !== hash) history.pushState(null, '', hash); openHash(); }
 
