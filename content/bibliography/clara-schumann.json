@@ -1,0 +1,30 @@
+{
+ "id": "clara-schumann",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Nancy B. Reich, *Clara Schumann: The Artist and the Woman*, revised edition (Cornell University Press, 2001).",
+   "url": "https://www.cornellpress.cornell.edu/book/9780801486371/clara-schumann",
+   "kind": "biography",
+   "note": "Biography addressing Clara’s work as pianist, composer, editor and teacher."
+  },
+  {
+   "cite": "Nancy B. Reich, ‘Schumann [née Wieck], Clara’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.25152",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Robert Schumann and Clara Schumann, *The Marriage Diaries of Robert & Clara Schumann: From Their Wedding Day through the Russia Trip*, edited by Gerd Nauhaus, translated by Peter Ostwald (Boston: Northeastern University Press, 1993).",
+   "url": "https://ci.nii.ac.jp/ncid/BA27116553",
+   "kind": "letters",
+   "note": "Joint diaries document domestic life, creative work and the Russian tour."
+  },
+  {
+   "cite": "Schumann-Briefedition and Neue Schumann-Gesamtausgabe, *Schumann-Briefdatenbank* (online database, n.d.; accessed 16 October 2026).",
+   "url": "https://www.saw-leipzig.de/de/publikationen/digitale-publikationen/Schumann-Briefdatenbank",
+   "kind": "letters",
+   "note": "Free correspondence metadata and unannotated full texts from Series II; coverage is not complete."
+  }
+ ]
+}

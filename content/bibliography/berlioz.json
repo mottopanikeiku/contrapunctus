@@ -1,30 +1,30 @@
 {
-  "id": "berlioz",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "Hugh Macdonald, *Berlioz* (Oxford: Oxford University Press, 2001).",
-      "url": "https://doi.org/10.1093/oso/9780198164838.001.0001",
-      "kind": "biography",
-      "note": "EXT — Life-and-works account by an editor of the New Berlioz Edition."
-    },
-    {
-      "cite": "Hugh Macdonald, ‘Berlioz, (Louis-)Hector’, *Grove Music Online* (Oxford University Press, 2001).",
-      "url": "https://doi.org/10.1093/gmo/9781561592630.article.51424",
-      "kind": "reference",
-      "note": "EXT — Biographical reference, work-list and bibliography; subscription required."
-    },
-    {
-      "cite": "D. Kern Holoman, *Catalogue of the Works of Hector Berlioz* (Bärenreiter, 1987).",
-      "url": "https://emag.baerenreiter.com/en/berlioz-hector/",
-      "kind": "catalogue",
-      "note": "EXT — Thematic catalogue published as volume 25 of the New Berlioz Edition."
-    },
-    {
-      "cite": "Hector Berlioz, *Autobiography of Hector Berlioz, Member of the Institute of France, from 1803 to 1865: Comprising His Travels in Italy, Germany, Russia, and England*, translated by Rachel (Scott Russell) Holmes and Eleanor Holmes, 2 vols. (London: Macmillan, 1884).",
-      "url": "https://ci.nii.ac.jp/ncid/BB03262263",
-      "kind": "letters",
-      "note": "EXT — The composer’s retrospective account; catalogue links to public-domain scans of both volumes."
-    }
-  ]
+ "id": "berlioz",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Hugh Macdonald, *Berlioz* (Oxford: Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/oso/9780198164838.001.0001",
+   "kind": "biography",
+   "note": "Life-and-works account by an editor of the New Berlioz Edition."
+  },
+  {
+   "cite": "Hugh Macdonald, ‘Berlioz, (Louis-)Hector’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.51424",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "D. Kern Holoman, *Catalogue of the Works of Hector Berlioz* (Bärenreiter, 1987).",
+   "url": "https://emag.baerenreiter.com/en/berlioz-hector/",
+   "kind": "catalogue",
+   "note": "Thematic catalogue published as volume 25 of the New Berlioz Edition."
+  },
+  {
+   "cite": "Hector Berlioz, *Autobiography of Hector Berlioz, Member of the Institute of France, from 1803 to 1865: Comprising His Travels in Italy, Germany, Russia, and England*, translated by Rachel (Scott Russell) Holmes and Eleanor Holmes, 2 vols. (London: Macmillan, 1884).",
+   "url": "https://ci.nii.ac.jp/ncid/BB03262263",
+   "kind": "letters",
+   "note": "The composer’s retrospective account; catalogue links to public-domain scans of both volumes."
+  }
+ ]
 }

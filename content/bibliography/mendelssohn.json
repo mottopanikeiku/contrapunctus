@@ -1,36 +1,36 @@
 {
-  "id": "mendelssohn",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "R. Larry Todd, *Mendelssohn: A Life in Music* (Oxford: Oxford University Press, 2003).",
-      "url": "https://assets.cambridge.org/97810091/72752/frontmatter/9781009172752_frontmatter.pdf",
-      "kind": "biography",
-      "note": "EXT — Extensive biography joining compositional development with performing, conducting and institutional work."
-    },
-    {
-      "cite": "R. Larry Todd, ‘Mendelssohn(-Bartholdy), (Jacob Ludwig) Felix’, *Grove Music Online* (Oxford University Press, 2001).",
-      "url": "https://doi.org/10.1093/gmo/9781561592630.article.51795",
-      "kind": "reference",
-      "note": "EXT — Biographical reference, work-list and bibliography; subscription required."
-    },
-    {
-      "cite": "Ralf Wehner, *Mendelssohn-Werkverzeichnis (MWV): Thematisch-systematisches Verzeichnis der musikalischen Werke von Felix Mendelssohn Bartholdy* (Wiesbaden: Breitkopf & Härtel, 2009).",
-      "url": "https://www.breitkopf.com/work/8720/mendelssohn-werkverzeichnis-mwv",
-      "kind": "catalogue",
-      "note": "EXT — MWV numbers distinguish unpublished youth works, revisions and works without opus numbers."
-    },
-    {
-      "cite": "Felix Mendelssohn Bartholdy, *Sämtliche Briefe*, edited by Helmut Loos, Wilhelm Seidel and others, 12 vols. (Kassel: Bärenreiter, 2008–2017).",
-      "url": "https://assets.cambridge.org/97810091/72752/frontmatter/9781009172752_frontmatter.pdf",
-      "kind": "letters",
-      "note": "EXT — German critical edition of the complete correspondence."
-    },
-    {
-      "cite": "Staatsbibliothek zu Berlin, *Felix Mendelssohn Bartholdy (1809–1847)* (online collection guide, n.d.; accessed 16 October 2026).",
-      "url": "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/musik/sammlungen/bestaende/familie-mendelssohn/felix-mendelssohn-bartholdy-1809-1847",
-      "kind": "reference",
-      "note": "EXT — Free routes to digitised manuscripts, letters, drawings and archival descriptions."
-    }
-  ]
+ "id": "mendelssohn",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "R. Larry Todd, *Mendelssohn: A Life in Music* (Oxford: Oxford University Press, 2003).",
+   "url": "https://assets.cambridge.org/97810091/72752/frontmatter/9781009172752_frontmatter.pdf",
+   "kind": "biography",
+   "note": "Extensive biography joining compositional development with performing, conducting and institutional work."
+  },
+  {
+   "cite": "R. Larry Todd, ‘Mendelssohn(-Bartholdy), (Jacob Ludwig) Felix’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.51795",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Ralf Wehner, *Mendelssohn-Werkverzeichnis (MWV): Thematisch-systematisches Verzeichnis der musikalischen Werke von Felix Mendelssohn Bartholdy* (Wiesbaden: Breitkopf & Härtel, 2009).",
+   "url": "https://www.breitkopf.com/work/8720/mendelssohn-werkverzeichnis-mwv",
+   "kind": "catalogue",
+   "note": "MWV numbers distinguish unpublished youth works, revisions and works without opus numbers."
+  },
+  {
+   "cite": "Felix Mendelssohn Bartholdy, *Sämtliche Briefe*, edited by Helmut Loos, Wilhelm Seidel and others, 12 vols. (Kassel: Bärenreiter, 2008–2017).",
+   "url": "https://assets.cambridge.org/97810091/72752/frontmatter/9781009172752_frontmatter.pdf",
+   "kind": "letters",
+   "note": "German critical edition of the complete correspondence."
+  },
+  {
+   "cite": "Staatsbibliothek zu Berlin, *Felix Mendelssohn Bartholdy (1809–1847)* (online collection guide, n.d.; accessed 16 October 2026).",
+   "url": "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/musik/sammlungen/bestaende/familie-mendelssohn/felix-mendelssohn-bartholdy-1809-1847",
+   "kind": "reference",
+   "note": "Free routes to digitised manuscripts, letters, drawings and archival descriptions."
+  }
+ ]
 }

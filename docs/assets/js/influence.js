@@ -1,4 +1,4 @@
-import { loadAbcjs } from './site.js';
+const { loadAbcjs } = await import(`./site.js?v=${document.documentElement.dataset.site ?? ''}`);
 
 const esc = (s = '') => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const kindLabel = (s) => s.replaceAll('-', ' ');
@@ -7,6 +7,7 @@ export function mount(app) {
   const root = document.querySelector('[data-influence]');
   if (!root) return;
   const data = JSON.parse(root.querySelector('#influence-data').textContent);
+  root.classList.add('iw-mounted');
   const $ = (selector, parent = root) => parent.querySelector(selector);
   const $$ = (selector, parent = root) => [...parent.querySelectorAll(selector)];
   const events = new AbortController();
@@ -14,22 +15,32 @@ export function mount(app) {
   const nodes = new Map(data.nodes.map((node) => [node.id, node]));
   const edges = new Map(data.edges.map((edge) => [edge.id, edge]));
   const nodeElements = new Map($$('[data-node]').map((el) => [el.dataset.node, el]));
-  const timeElements = new Map($$('[data-time-node]').map((el) => [el.dataset.timeNode, el]));
   const edgeElements = new Map($$('.iw-edge').map((el) => [el.dataset.edge, el]));
+  const nodeOrder = new Map(data.nodes.map((n, i) => [n.id, i]));
+  const labelElements = data.nodes.map((n) => nodeElements.get(n.id));
   const adjacency = new Map(data.nodes.map((n) => [n.id, []]));
   for (const edge of data.edges) { adjacency.get(edge.from).push(edge); if (edge.to !== edge.from) adjacency.get(edge.to).push(edge); }
   const map = $('.iw-map'), world = $('.iw-world'), card = $('.iw-card'), content = $('.iw-card-content');
-  const form = $('.iw-controls'), threadSelect = $('[name="thread"]'), kindSelect = $('[name="kind"]'), eraSelect = $('[name="era"]');
+  const form = $('.iw-controls'), kindSelect = $('[name="kind"]'), eraSelect = $('[name="era"]');
+  const threadChips = $$('.iw-thread-chips a'), masthead = document.querySelector('.masthead');
   const status = $('.iw-status'), mobile = matchMedia('(max-width: 700px)');
   let selection = null, visible = new Set(edges.keys()), alive = true, cardVersion = 0, returnFocus = null;
   let detailsPromise, audioContext, currentSound = null, soundVersion = 0;
   let frame = 0, scale = 1, fitScale = 1, panX = 0, panY = 0, bounds = { width: 0, height: 0, left: 0, top: 0 };
   const pointers = new Map();
   let gesture = null, dragged = false;
+  let labelLayout = null, mastheadHeight = -1;
 
   function paint() {
     if (frame) return;
-    frame = requestAnimationFrame(() => { frame = 0; world.style.transform = `translate3d(${panX}px,${panY}px,0) scale(${scale})`; });
+    frame = requestAnimationFrame(() => {
+      frame = 0; world.style.transform = `translate3d(${panX}px,${panY}px,0) scale(${scale})`;
+      const labelsOpen = scale >= fitScale * 2.2;
+      if (root.classList.contains('iw-labels-open') !== labelsOpen) {
+        root.classList.toggle('iw-labels-open', labelsOpen);
+        if (!root.classList.contains('iw-has-focus')) highlight();
+      }
+    });
   }
   function fit() {
     scale = fitScale;
@@ -38,14 +49,21 @@ export function mount(app) {
     paint();
   }
   function measure() {
-    if (!map.clientWidth) return;
+    if (mobile.matches || !map.clientWidth) return;
+    const headerHeight = Math.ceil(masthead?.getBoundingClientRect().height ?? 0);
+    if (headerHeight !== mastheadHeight) { mastheadHeight = headerHeight; root.style.setProperty('--iw-masthead', `${headerHeight}px`); }
     const rect = map.getBoundingClientRect();
+    const resized = bounds.width !== rect.width || bounds.height !== rect.height;
     bounds = { width: rect.width, height: rect.height, left: rect.left + scrollX, top: rect.top + scrollY };
+    if (!resized) return;
     fitScale = Math.min(bounds.width / data.size.width, bounds.height / data.size.height) * .96;
     fit();
   }
   const resize = new ResizeObserver(measure);
   resize.observe(map);
+  resize.observe($('.iw-heading'));
+  resize.observe(form);
+  if (masthead) resize.observe(masthead);
   function zoom(factor, x = bounds.width / 2, y = bounds.height / 2) {
     const next = Math.max(fitScale * .8, Math.min(fitScale * 6, scale * factor));
     const ratio = next / scale;
@@ -72,6 +90,18 @@ export function mount(app) {
     } else if (selection?.type === 'thread') {
       for (const edge of data.edges) if (edge.thread === selection.id && visible.has(edge.id)) { litEdges.add(edge.id); litNodes.add(edge.from); litNodes.add(edge.to); }
     }
+    const layout = nodeId ? data.labelLayouts.nodes[nodeOrder.get(nodeId)]
+      : selection?.type === 'edge' ? data.labelLayouts.nodes[nodeOrder.get(edges.get(selection.id).from)]
+      : selection?.type === 'thread' && litNodes.size ? data.labelLayouts.threads[selection.id]
+      : root.classList.contains('iw-labels-open') ? data.labelLayouts.zoom : data.labelLayouts.overview;
+    if (layout !== labelLayout) {
+      labelLayout = layout;
+      for (const [i, x, y, length, angle] of layout) {
+        const style = labelElements[i].style;
+        style.setProperty('--lx', `${x}px`); style.setProperty('--ly', `${y}px`);
+        style.setProperty('--ll', `${length}px`); style.setProperty('--la', `${angle}deg`);
+      }
+    }
     root.classList.toggle('iw-has-focus', litNodes.size > 0);
     for (const [id, el] of nodeElements) {
       el.classList.toggle('is-lit', litNodes.has(id));
@@ -94,9 +124,7 @@ export function mount(app) {
       const show = !kind && !era || shownNodes.has(node.id);
       nodeElements.get(node.id).classList.toggle('is-filtered', !show);
       nodeElements.get(node.id).tabIndex = show ? 0 : -1;
-      timeElements.get(node.id).hidden = !show;
     }
-    for (const el of $$('[data-time-edge]')) el.hidden = !visible.has(el.dataset.timeEdge);
     $('.iw-empty').hidden = visible.size > 0 || !data.edges.length;
     status.textContent = `${visible.size} of ${data.edges.length} connections shown.`;
     highlight();
@@ -160,11 +188,17 @@ export function mount(app) {
   function closeCard(updateHash = true) {
     cardVersion++; stopSound(); card.hidden = true; selection = null;
     $('.iw-explore').classList.remove('has-card');
-    threadSelect.value = '';
+    selectThreadChip();
     for (const el of edgeElements.values()) { el.classList.remove('is-traced'); $('.iw-line', el).removeAttribute('pathLength'); }
     highlight();
     if (updateHash) history.pushState(null, '', location.pathname + location.search);
     if (returnFocus?.isConnected && returnFocus !== document.body) returnFocus.focus({ preventScroll: true });
+  }
+  function selectThreadChip(id = '') {
+    for (const chip of threadChips) {
+      if (chip.getAttribute('href') === `#thread-${id}`) chip.setAttribute('aria-current', 'true');
+      else chip.removeAttribute('aria-current');
+    }
   }
   const connectionList = (list) => `<ol class="iw-connections">${list.map((edge) => `<li><a href="#edge-${esc(edge.id)}"><span class="iw-connection-year">${edge.year}</span><span><strong>${esc(edge.title)}</strong><small>${esc(nodes.get(edge.from).label)} → ${esc(nodes.get(edge.to).label)} · ${kindLabel(edge.kind)}</small></span><b aria-hidden="true">→</b></a></li>`).join('')}</ol>`;
   function showNode(id) {
@@ -176,7 +210,6 @@ export function mount(app) {
   function showThread(id) {
     const thread = data.threads.find((t) => t.id === id);
     const stops = data.edges.filter((e) => e.thread === id);
-    threadSelect.value = id;
     cardOpen(`<span class="iw-card-kicker">A thread through time · ${stops.length} stops</span><h2 id="iw-card-title">${esc(thread.name)}</h2><div class="iw-card-lede">${thread.summary}</div><p class="iw-quiet">Connections are listed by the date of the encounter or work; branches need not form a single chain.</p>${stops.length ? connectionList(stops) : '<p>No sourced stops have been added to this thread yet.</p>'}`);
     stops.forEach((e, i) => { const el = edgeElements.get(e.id); el.style.setProperty('--trace-delay', `${Math.min(i * .3, 4)}s`); $('.iw-line', el).setAttribute('pathLength', '1'); el.classList.add('is-traced'); });
     fit();
@@ -199,7 +232,8 @@ export function mount(app) {
         for (const [side, passage] of passages) {
           const figure = $(`[data-passage="${side}"]`), target = $('.iw-notation', figure);
           target.replaceChildren();
-          [figure._visual] = ABCJS.renderAbc(target, passage.abc, { responsive: 'resize', staffwidth: mobile.matches ? 300 : 440, wrap: { minSpacing: 1.5, maxSpacing: 2.5, preferredMeasuresPerLine: mobile.matches ? 2 : 4 }, add_classes: true, paddingtop: 8, paddingbottom: 8, paddingleft: 0, paddingright: 0, foregroundColor: 'currentColor' });
+          // The wrapping caption already supplies the title.
+          [figure._visual] = ABCJS.renderAbc(target, passage.abc.replace(/^T:.*(?:\r?\n|$)/gm, ''), { responsive: 'resize', staffwidth: mobile.matches ? 300 : 440, wrap: { minSpacing: 1.5, maxSpacing: 2.5, preferredMeasuresPerLine: mobile.matches ? 2 : 4 }, add_classes: true, paddingtop: 8, paddingbottom: 8, paddingleft: 0, paddingright: 0, foregroundColor: 'currentColor' });
           $('[data-passage-play]', figure).disabled = false;
         }
       }
@@ -221,7 +255,7 @@ export function mount(app) {
     }
     cardVersion++;
     selection = { type, id };
-    threadSelect.value = type === 'thread' ? id : '';
+    selectThreadChip(type === 'thread' ? id : '');
     for (const el of edgeElements.values()) { el.classList.remove('is-traced'); $('.iw-line', el).removeAttribute('pathLength'); }
     if (type === 'node') showNode(id);
     else if (type === 'thread') showThread(id);
@@ -249,20 +283,19 @@ export function mount(app) {
   });
   on(form, 'submit', (event) => event.preventDefault());
   on(kindSelect, 'change', filter); on(eraSelect, 'change', filter);
-  on(threadSelect, 'change', () => { if (threadSelect.value) navigateHash(`#thread-${threadSelect.value}`); else closeCard(); });
   on(window, 'hashchange', openHash);
   on(window, 'popstate', openHash);
   on(map, 'pointerover', (event) => { if (pointers.size) return; const node = event.target.closest('[data-node]'); if (node && !node.contains(event.relatedTarget)) highlight(node.dataset.node); });
   on(map, 'pointerout', (event) => { const node = event.target.closest('[data-node]'); if (node && !node.contains(event.relatedTarget)) highlight(); });
   on(map, 'focusin', (event) => { const node = event.target.closest('[data-node]'); if (node) highlight(node.dataset.node); });
   on(map, 'focusout', () => highlight());
-  on(map, 'wheel', (event) => { event.preventDefault(); zoom(Math.exp(-event.deltaY * .0015), event.clientX + scrollX - bounds.left, event.clientY + scrollY - bounds.top); }, { passive: false });
+  on(map, 'wheel', (event) => { if (mobile.matches) return; event.preventDefault(); zoom(Math.exp(-event.deltaY * .0015), event.clientX + scrollX - bounds.left, event.clientY + scrollY - bounds.top); }, { passive: false });
   function beginGesture() {
     const points = [...pointers.values()];
     gesture = { x: points.reduce((s, p) => s + p.x, 0) / points.length, y: points.reduce((s, p) => s + p.y, 0) / points.length, panX, panY, scale, distance: points.length === 2 ? Math.hypot(points[0].x - points[1].x, points[0].y - points[1].y) : 0 };
   }
   on(map, 'pointerdown', (event) => {
-    if (event.button !== 0 || pointers.size >= 2) return;
+    if (mobile.matches || event.button !== 0 || pointers.size >= 2) return;
     pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
     dragged = false; beginGesture();
   });
@@ -284,6 +317,7 @@ export function mount(app) {
   on(window, 'pointerup', pointerEnd); on(window, 'pointercancel', pointerEnd);
   on(map, 'dragstart', (event) => event.preventDefault());
   on(map, 'keydown', (event) => {
+    if (mobile.matches) return;
     const move = { ArrowLeft: [60, 0], ArrowRight: [-60, 0], ArrowUp: [0, 60], ArrowDown: [0, -60] }[event.key];
     if (move) { event.preventDefault(); panX += move[0]; panY += move[1]; paint(); }
     else if (['+', '=', '-', 'Home'].includes(event.key)) { event.preventDefault(); if (event.key === 'Home') fit(); else zoom(event.key === '-' ? 1 / 1.3 : 1.3); }
@@ -297,6 +331,14 @@ export function mount(app) {
       else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
     }
   });
-  measure(); filter(); openHash();
-  return () => { alive = false; events.abort(); resize.disconnect(); offPlayer(); stopSound(); if (frame) cancelAnimationFrame(frame); audioContext?.close(); };
+  const viewportChanged = () => {
+    map.tabIndex = mobile.matches ? -1 : 0;
+    map.setAttribute('aria-label', mobile.matches ? 'Influence timeline, ordered by birth year. Open a life to read its connections.' : 'Influence map. Drag to pan, scroll to zoom. Arrow keys pan, plus and minus zoom, Home resets.');
+    if (!card.hidden) card.setAttribute('aria-modal', mobile.matches ? 'true' : 'false');
+    measure();
+    if (selection?.type === 'node') centreNode(selection.id);
+  };
+  on(mobile, 'change', viewportChanged);
+  viewportChanged(); filter(); openHash();
+  return () => { alive = false; events.abort(); resize.disconnect(); offPlayer(); stopSound(); if (frame) cancelAnimationFrame(frame); audioContext?.close(); root.classList.remove('iw-mounted'); };
 }

@@ -1,0 +1,24 @@
+{
+ "id": "britten",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Paul Kildea, *Benjamin Britten: A Life in the Twentieth Century* (Penguin, 2013).",
+   "url": "https://www.penguin.co.uk/books/133318/benjamin-britten-by-kildea-paul/9780141924304",
+   "kind": "biography",
+   "note": "Places the music beside pacifism, Peter Pears and the institutions built around Aldeburgh."
+  },
+  {
+   "cite": "Mervyn Cooke, *Britten: War Requiem* (Cambridge University Press, 1996).",
+   "url": "https://books.google.com/books/about/Britten_War_Requiem.html?id=xplFYwUsW_gC",
+   "kind": "study",
+   "note": "A handbook on the work’s composition, texts, structure and reception."
+  },
+  {
+   "cite": "Britten Pears Arts, ‘Benjamin Britten’ (online biography).",
+   "url": "https://www.brittenpearsarts.org/news/benjamin-britten",
+   "kind": "reference",
+   "note": "An archive-based introduction to the life, performing career and Aldeburgh institutions."
+  }
+ ]
+}

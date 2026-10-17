@@ -1,24 +1,24 @@
 {
-  "id": "mahler",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "Henry-Louis de La Grange, *Gustav Mahler*, vol. 3: *Vienna* (Oxford University Press, 2000).",
-      "url": "https://openlibrary.org/books/OL7384755M",
-      "kind": "biography",
-      "note": "EXT — A detailed documentary volume on the Vienna years; part of the larger biographical project."
-    },
-    {
-      "cite": "Theodor W. Adorno, *Mahler: A Musical Physiognomy*, translated by Edmund Jephcott (University of Chicago Press, 1992).",
-      "url": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo3684792.html",
-      "kind": "study",
-      "note": "EXT — Interprets Mahler’s musical forms alongside their social and philosophical setting, rather than supplying a chronological life."
-    },
-    {
-      "cite": "Jeremy Barham, ed., *The Cambridge Companion to Mahler* (Cambridge University Press, 2007).",
-      "url": "https://www.cambridge.org/core/books/cambridge-companion-to-mahler/5D8BA6CDEF17627648CC7107BDAC0272",
-      "kind": "survey",
-      "note": "EXT — Essays on the works, conducting, cultural contexts and changing reception, including the unfinished Tenth Symphony."
-    }
-  ]
+ "id": "mahler",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Henry-Louis de La Grange, *Gustav Mahler*, vol. 3: *Vienna* (Oxford University Press, 2000).",
+   "url": "https://openlibrary.org/books/OL7384755M",
+   "kind": "biography",
+   "note": "A detailed documentary volume on the Vienna years; part of the larger biographical project."
+  },
+  {
+   "cite": "Theodor W. Adorno, *Mahler: A Musical Physiognomy*, translated by Edmund Jephcott (University of Chicago Press, 1992).",
+   "url": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo3684792.html",
+   "kind": "study",
+   "note": "Interprets Mahler’s musical forms alongside their social and philosophical setting, rather than supplying a chronological life."
+  },
+  {
+   "cite": "Jeremy Barham, ed., *The Cambridge Companion to Mahler* (Cambridge University Press, 2007).",
+   "url": "https://www.cambridge.org/core/books/cambridge-companion-to-mahler/5D8BA6CDEF17627648CC7107BDAC0272",
+   "kind": "survey",
+   "note": "Essays on the works, conducting, cultural contexts and changing reception, including the unfinished Tenth Symphony."
+  }
+ ]
 }

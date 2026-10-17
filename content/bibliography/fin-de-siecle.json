@@ -1,0 +1,24 @@
+{
+ "id": "fin-de-siecle",
+ "kind": "era",
+ "items": [
+  {
+   "cite": "Carl E. Schorske, *Fin-de-Siècle Vienna: Politics and Culture* (Vintage, 1980 edition).",
+   "url": "https://www.penguinrandomhouse.com/books/162255/fin-de-siecle-vienna-by-carl-e-schorske/",
+   "kind": "study",
+   "note": "A cultural and political history of Vienna that places musical developments beside the city’s other arts and institutions."
+  },
+  {
+   "cite": "Carl Dahlhaus, *Between Romanticism and Modernism*, translated by Mary Whittall (University of California Press, 1989 edition).",
+   "url": "https://www.ucpress.edu/books/between-romanticism-and-modernism/epub-pdf",
+   "kind": "study",
+   "note": "Studies late-nineteenth-century music at the boundary between inherited Romantic practices and modernism."
+  },
+  {
+   "cite": "Jim Samson, ed., *The Cambridge History of Nineteenth-Century Music* (Cambridge University Press, 2001).",
+   "url": "https://www.cambridge.org/core/books/cambridge-history-of-nineteenthcentury-music/6061389913188260056DFCA330D56F63",
+   "kind": "survey",
+   "note": "Combines repertory studies with aesthetics, institutions, nationalism, popular culture and the emergence of the avant-garde."
+  }
+ ]
+}

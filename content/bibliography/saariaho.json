@@ -1,0 +1,24 @@
+{
+ "id": "saariaho",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Tim Howell, Jon Hargreaves and Michael Rofe, eds, *Kaija Saariaho: Visions, Narratives, Dialogues* (Ashgate, 2011).",
+   "url": "https://ressources.ircam.fr/fr/composer/kaija-saariaho/resources",
+   "kind": "study",
+   "note": "A collection devoted to Saariaho’s music; IRCAM’s selected bibliography identifies the edition."
+  },
+  {
+   "cite": "Kaija Saariaho, *Le Passage des frontières: écrits sur la musique*, directed by Stéphane Roth (Éditions MF, 2013).",
+   "url": "https://ressources.ircam.fr/fr/composer/kaija-saariaho/resources",
+   "kind": "study",
+   "note": "The composer’s own writings on music, in French, provide a primary counterpart to later analysis."
+  },
+  {
+   "cite": "Estate of Kaija Saariaho, *Kaija Saariaho* (official website).",
+   "url": "https://saariaho.org/",
+   "kind": "reference",
+   "note": "The estate’s source for the works and their performance materials."
+  }
+ ]
+}

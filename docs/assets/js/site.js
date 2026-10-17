@@ -160,7 +160,10 @@ export async function mount(app) {
     const cap = $('.hero-caption');
     const dots = $$('.hero-dots button');
     let i = 0, timer;
+    // Later slides carry data-src/data-srcset; fetch each one a slide ahead so the hero costs one image up front.
+    const prime = (k) => { const im = slides[(k + slides.length) % slides.length]?.querySelector('img[data-src]'); if (!im) return; if (im.dataset.srcset) im.srcset = im.dataset.srcset; im.src = im.dataset.src; im.removeAttribute('data-src'); im.removeAttribute('data-srcset'); };
     const show = (n) => {
+      prime(n); prime(n + 1);
       slides[i].classList.remove('on'); dots[i]?.classList.remove('on');
       i = (n + slides.length) % slides.length;
       slides[i].classList.add('on'); dots[i]?.classList.add('on');
@@ -170,6 +173,8 @@ export async function mount(app) {
     cleanups.push(() => clearInterval(timer));
     dots.forEach((d, n) => d.addEventListener('click', () => { show(n); auto(); }));
     cap.innerHTML = slides[0].dataset.caption;
+    addEventListener('load', () => prime(1), { once: true });
+    if (document.readyState === 'complete') prime(1);
     auto();
   }
 
@@ -277,21 +282,21 @@ export async function mount(app) {
   const scores = $$('figure.score');
   cleanups.push(stopCurrent);
   if (scores.length) {
-    const whenAbc = (fn) => loadAbcjs(app.root).then(fn);
-    whenAbc(() => {
-      if (!mounted) return;
-      const sio = new IntersectionObserver((es) => es.forEach((e) => {
-        if (e.isIntersecting) { engrave(e.target); sio.unobserve(e.target); }
-      }), { rootMargin: '400px 0px' });
-      scores.forEach((f) => sio.observe(f));
-      scores.forEach((f) => $('.play', f).addEventListener('click', (ev) => { app.player.pause(); play(f, ev.currentTarget); }));
-      cleanups.push(() => sio.disconnect());
-      $$('[data-play-example]').forEach((button) => listen(button, 'click', () => {
-        const fig = document.getElementById(button.dataset.playExample);
-        if (!fig) return;
-        app.player.pause(); play(fig, button);
-      }));
-    });
+    // abcjs (≈500 KB) is fetched only when a score comes near the screen or a Play button is pressed.
+    const abc = () => loadAbcjs(app.root);
+    const sio = new IntersectionObserver((es) => es.forEach((e) => {
+      if (!e.isIntersecting) return;
+      sio.unobserve(e.target);
+      abc().then(() => { if (mounted) engrave(e.target); });
+    }), { rootMargin: '300px 0px' });
+    scores.forEach((f) => sio.observe(f));
+    cleanups.push(() => sio.disconnect());
+    scores.forEach((f) => listen($('.play', f), 'click', (ev) => { const b = ev.currentTarget; app.player.pause(); abc().then(() => { if (mounted) play(f, b); }); }));
+    $$('[data-play-example]').forEach((button) => listen(button, 'click', () => {
+      const fig = document.getElementById(button.dataset.playExample);
+      if (!fig) return;
+      app.player.pause(); abc().then(() => { if (mounted) play(fig, button); });
+    }));
   }
 
   // ---- tuning laboratory: compare pure and tempered intervals

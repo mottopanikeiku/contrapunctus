@@ -1,30 +1,30 @@
 {
-  "id": "haydn",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "David Wyn Jones, *The Life of Haydn* (Cambridge: Cambridge University Press, 2009).",
-      "url": "https://assets.cambridge.org/97805218/95743/frontmatter/9780521895743_frontmatter.pdf",
-      "kind": "biography",
-      "note": "EXT — Connects Haydn’s employment, London visits and musical career with contemporary institutions."
-    },
-    {
-      "cite": "Georg Feder and James Webster, ‘Haydn, (Franz) Joseph’, *Grove Music Online* (Oxford University Press, 2001).",
-      "url": "https://doi.org/10.1093/gmo/9781561592630.article.44593",
-      "kind": "reference",
-      "note": "EXT — Biographical reference, work-list and bibliography; subscription required."
-    },
-    {
-      "cite": "Anthony van Hoboken, *Joseph Haydn: Thematisch-bibliographisches Werkverzeichnis* (Mainz: B. Schott’s Söhne, 1957–1978).",
-      "url": "https://catalogue.bnf.fr/ark:/12148/cb34340671f",
-      "kind": "catalogue",
-      "note": "EXT — Source of Hoboken numbers; consult modern scholarship for revised attributions and chronology."
-    },
-    {
-      "cite": "Georg August Griesinger, *Biographische Notizen über Joseph Haydn* (Breitkopf & Härtel, 1810).",
-      "url": "https://books.google.com/books/about/Biographische_Notizen_%C3%BCber_Joseph_Haydn.html?hl=de&id=xF9RAAAAcAAJ",
-      "kind": "letters",
-      "note": "EXT — Freely digitised contemporary testimony; distinguish reported recollections from independently corroborated facts."
-    }
-  ]
+ "id": "haydn",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "David Wyn Jones, *The Life of Haydn* (Cambridge: Cambridge University Press, 2009).",
+   "url": "https://assets.cambridge.org/97805218/95743/frontmatter/9780521895743_frontmatter.pdf",
+   "kind": "biography",
+   "note": "Connects Haydn’s employment, London visits and musical career with contemporary institutions."
+  },
+  {
+   "cite": "Georg Feder and James Webster, ‘Haydn, (Franz) Joseph’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.44593",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Anthony van Hoboken, *Joseph Haydn: Thematisch-bibliographisches Werkverzeichnis* (Mainz: B. Schott’s Söhne, 1957–1978).",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb34340671f",
+   "kind": "catalogue",
+   "note": "Source of Hoboken numbers; consult modern scholarship for revised attributions and chronology."
+  },
+  {
+   "cite": "Georg August Griesinger, *Biographische Notizen über Joseph Haydn* (Breitkopf & Härtel, 1810).",
+   "url": "https://books.google.com/books/about/Biographische_Notizen_%C3%BCber_Joseph_Haydn.html?hl=de&id=xF9RAAAAcAAJ",
+   "kind": "letters",
+   "note": "Freely digitised contemporary testimony; distinguish reported recollections from independently corroborated facts."
+  }
+ ]
 }

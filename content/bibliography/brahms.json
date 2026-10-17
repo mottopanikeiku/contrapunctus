@@ -1,0 +1,30 @@
+{
+ "id": "brahms",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Malcolm MacDonald, *Brahms* (Dent, 1990).",
+   "url": "https://openlibrary.org/books/OL22917094M",
+   "kind": "biography",
+   "note": "Life-and-works survey in the Master Musicians series."
+  },
+  {
+   "cite": "George S. Bozarth and Walter Frisch, ‘Brahms, Johannes’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.51879",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Margit L. McCorkle, *Johannes Brahms: Thematisch-bibliographisches Werkverzeichnis* (G. Henle Verlag, 1984).",
+   "url": "https://www.henle.de/de/McCorkle-Johannes-Brahms-Thematisch-bibliographisches-Werkverzeichnis/HN-2203",
+   "kind": "catalogue",
+   "note": "Documents works, genesis and surviving sources with thematic incipits."
+  },
+  {
+   "cite": "Brahms-Institut an der Musikhochschule Lübeck, *Brahms-Portal* (online collection, launched 2025).",
+   "url": "https://brahmsinstitut.de/index.php?cID=1548",
+   "kind": "letters",
+   "note": "Free digitised letters, autographs, photographs and first editions linked to individual works."
+  }
+ ]
+}

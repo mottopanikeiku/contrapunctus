@@ -1,8 +1,30 @@
 {
-  "id": "vivaldi", "kind": "composer", "items": [
-    { "cite": "Michael Talbot, *Vivaldi*, second edition (London: Dent, 1993).", "url": "https://ci.nii.ac.jp/ncid/BA41594475", "kind": "biography", "note": "EXT — Life and works, including the operatic career and Venetian institutions." },
-    { "cite": "Michael Talbot, revised by Nicholas Lockey, ‘Vivaldi, Antonio (Lucio)’, *Grove Music Online* (Oxford University Press, 2001; revised 2020).", "url": "https://doi.org/10.1093/gmo/9781561592630.article.40120", "kind": "reference", "note": "EXT — Biographical reference, catalogue and bibliography; subscription required." },
-    { "cite": "Peter Ryom, *Antonio Vivaldi: Thematisch-systematisches Verzeichnis seiner Werke (RV)*, second edition, revised by Federico Maria Sardelli (Wiesbaden: Breitkopf & Härtel, 2018).", "url": "https://ci.nii.ac.jp/ncid/BB28907609", "kind": "catalogue", "note": "EXT — Revised RV catalogue, distinguishing sources, versions and doubtful attributions." },
-    { "cite": "Antonio Vivaldi, *Il cimento dell’armonia e dell’inventione*, Op. 8 (Amsterdam: Michel-Charles Le Cène, 1725).", "url": "https://imslp.org/wiki/Il_cimento_dell%27armonia_e_dell%27inventione,_Op.8_(Vivaldi,_Antonio)", "kind": "score", "note": "EXT — Freely available early editions of the concerto collection containing The Four Seasons." }
-  ]
+ "id": "vivaldi",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Michael Talbot, *Vivaldi*, second edition (London: Dent, 1993).",
+   "url": "https://ci.nii.ac.jp/ncid/BA41594475",
+   "kind": "biography",
+   "note": "Life and works, including the operatic career and Venetian institutions."
+  },
+  {
+   "cite": "Michael Talbot, revised by Nicholas Lockey, ‘Vivaldi, Antonio (Lucio)’, *Grove Music Online* (Oxford University Press, 2001; revised 2020).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.40120",
+   "kind": "reference",
+   "note": "Biographical reference, catalogue and bibliography; subscription required."
+  },
+  {
+   "cite": "Peter Ryom, *Antonio Vivaldi: Thematisch-systematisches Verzeichnis seiner Werke (RV)*, second edition, revised by Federico Maria Sardelli (Wiesbaden: Breitkopf & Härtel, 2018).",
+   "url": "https://ci.nii.ac.jp/ncid/BB28907609",
+   "kind": "catalogue",
+   "note": "Revised RV catalogue, distinguishing sources, versions and doubtful attributions."
+  },
+  {
+   "cite": "Antonio Vivaldi, *Il cimento dell’armonia e dell’inventione*, Op. 8 (Amsterdam: Michel-Charles Le Cène, 1725).",
+   "url": "https://imslp.org/wiki/Il_cimento_dell%27armonia_e_dell%27inventione,_Op.8_(Vivaldi,_Antonio)",
+   "kind": "score",
+   "note": "Freely available early editions of the concerto collection containing The Four Seasons."
+  }
+ ]
 }

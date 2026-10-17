@@ -1,30 +1,30 @@
 {
-  "id": "mozart",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "Maynard Solomon, *Mozart: A Life* (HarperCollins, 1995).",
-      "url": "https://openlibrary.org/books/OL1116197M",
-      "kind": "biography",
-      "note": "EXT — Document-based biography with an explicitly interpretative account of Mozart’s family and career."
-    },
-    {
-      "cite": "Cliff Eisen and Stanley Sadie, ‘Mozart, (Johann Chrysostom) Wolfgang Amadeus’, *Grove Music Online* (Oxford University Press, 2001).",
-      "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278233",
-      "kind": "reference",
-      "note": "EXT — Biographical reference, work-list and bibliography; subscription required."
-    },
-    {
-      "cite": "Ludwig Ritter von Köchel, *Köchel-Verzeichnis (KV): Thematisches Verzeichnis der musikalischen Werke von W. A. Mozart*, revised by Neal Zaslaw, presented by Ulrich Leisinger (Breitkopf & Härtel, 2024).",
-      "url": "https://www.breitkopf.com/work/20546/koechel-verzeichnis-kv",
-      "kind": "catalogue",
-      "note": "EXT — Revised work catalogue with concordances, source information and newly numbered compositions."
-    },
-    {
-      "cite": "Internationale Stiftung Mozarteum, *Mozart Letters and Documents – Online Edition* (Salzburg: Digital Mozart Edition, updated 2022).",
-      "url": "https://dme.mozarteum.at/en/letter-documents/",
-      "kind": "letters",
-      "note": "EXT — Free diplomatic transcriptions, selected manuscript images and English translations of Mozart-family correspondence."
-    }
-  ]
+ "id": "mozart",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Maynard Solomon, *Mozart: A Life* (HarperCollins, 1995).",
+   "url": "https://openlibrary.org/books/OL1116197M",
+   "kind": "biography",
+   "note": "Document-based biography with an explicitly interpretative account of Mozart’s family and career."
+  },
+  {
+   "cite": "Cliff Eisen and Stanley Sadie, ‘Mozart, (Johann Chrysostom) Wolfgang Amadeus’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278233",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Ludwig Ritter von Köchel, *Köchel-Verzeichnis (KV): Thematisches Verzeichnis der musikalischen Werke von W. A. Mozart*, revised by Neal Zaslaw, presented by Ulrich Leisinger (Breitkopf & Härtel, 2024).",
+   "url": "https://www.breitkopf.com/work/20546/koechel-verzeichnis-kv",
+   "kind": "catalogue",
+   "note": "Revised work catalogue with concordances, source information and newly numbered compositions."
+  },
+  {
+   "cite": "Internationale Stiftung Mozarteum, *Mozart Letters and Documents – Online Edition* (Salzburg: Digital Mozart Edition, updated 2022).",
+   "url": "https://dme.mozarteum.at/en/letter-documents/",
+   "kind": "letters",
+   "note": "Free diplomatic transcriptions, selected manuscript images and English translations of Mozart-family correspondence."
+  }
+ ]
 }

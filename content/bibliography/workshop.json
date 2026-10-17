@@ -1,0 +1,24 @@
+{
+ "id": "workshop",
+ "kind": "topic",
+ "items": [
+  {
+   "cite": "*Open Music Theory* (online undergraduate textbook and workbook).",
+   "url": "https://viva.pressbooks.pub/openmusictheory/",
+   "kind": "reference",
+   "note": "A freely accessible teaching resource intended for undergraduate music-theory study."
+  },
+  {
+   "cite": "William E. Caplin, *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven* (Oxford University Press, 1998).",
+   "url": "https://api.crossref.org/works/10.1093/oso/9780195104806.001.0001",
+   "kind": "study",
+   "note": "Analyses the functions of phrases, themes and larger formal units, developing ideas from Schoenberg and Erwin Ratz."
+  },
+  {
+   "cite": "James Hepokoski and Warren Darcy, *Elements of Sonata Theory: Norms, Types, and Deformations in the Late-Eighteenth-Century Sonata* (Oxford University Press, 2006; paperback 2011).",
+   "url": "https://api.pageplace.de/preview/DT0400.9780198033455_A23605544/preview-9780198033455_A23605544.pdf",
+   "kind": "study",
+   "note": "Distinguishes five sonata types and examines transitions, medial caesuras, cadential closure and recapitulation as historically conditioned choices."
+  }
+ ]
+}

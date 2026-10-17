@@ -1,30 +1,30 @@
 {
-  "id": "beethoven",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "Barry Cooper, *The Master Musicians: Beethoven* (Oxford University Press, 2008).",
-      "url": "https://doi.org/10.1093/acprof:oso/9780195313314.001.0001",
-      "kind": "biography",
-      "note": "EXT — Chronological life-and-works study informed by research on sketches and correspondence."
-    },
-    {
-      "cite": "Joseph Kerman, Alan Tyson, Scott G. Burnham, Douglas Johnson and William Drabkin, ‘Beethoven, Ludwig van’, *Grove Music Online* (Oxford University Press, 2001).",
-      "url": "https://doi.org/10.1093/gmo/9781561592630.article.40026",
-      "kind": "reference",
-      "note": "EXT — Biographical reference, work-list and bibliography; subscription required."
-    },
-    {
-      "cite": "Kurt Dorfmüller, Norbert Gertsch and Julia Ronge, eds, *Ludwig van Beethoven: Thematisch-bibliographisches Werkverzeichnis*, 2 vols. (G. Henle Verlag, 2014).",
-      "url": "https://www.henle.de/de/Dorfmueller-Gertsch-Ronge-Ludwig-van-Beethoven-Thematisch-bibliographisches-Werkverzeichnis/HN-2207",
-      "kind": "catalogue",
-      "note": "EXT — Documents composition, early performances, manuscripts, sketches and editions."
-    },
-    {
-      "cite": "Beethoven-Haus Bonn, *Digital Archives* (online collection, n.d.; accessed 16 October 2026).",
-      "url": "https://www.beethoven.de/en/archive",
-      "kind": "letters",
-      "note": "EXT — Free facsimiles and descriptions of letters, documents, sketches and early editions."
-    }
-  ]
+ "id": "beethoven",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Barry Cooper, *The Master Musicians: Beethoven* (Oxford University Press, 2008).",
+   "url": "https://doi.org/10.1093/acprof:oso/9780195313314.001.0001",
+   "kind": "biography",
+   "note": "Chronological life-and-works study informed by research on sketches and correspondence."
+  },
+  {
+   "cite": "Joseph Kerman, Alan Tyson, Scott G. Burnham, Douglas Johnson and William Drabkin, ‘Beethoven, Ludwig van’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.40026",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Kurt Dorfmüller, Norbert Gertsch and Julia Ronge, eds, *Ludwig van Beethoven: Thematisch-bibliographisches Werkverzeichnis*, 2 vols. (G. Henle Verlag, 2014).",
+   "url": "https://www.henle.de/de/Dorfmueller-Gertsch-Ronge-Ludwig-van-Beethoven-Thematisch-bibliographisches-Werkverzeichnis/HN-2207",
+   "kind": "catalogue",
+   "note": "Documents composition, early performances, manuscripts, sketches and editions."
+  },
+  {
+   "cite": "Beethoven-Haus Bonn, *Digital Archives* (online collection, n.d.; accessed 16 October 2026).",
+   "url": "https://www.beethoven.de/en/archive",
+   "kind": "letters",
+   "note": "Free facsimiles and descriptions of letters, documents, sketches and early editions."
+  }
+ ]
 }

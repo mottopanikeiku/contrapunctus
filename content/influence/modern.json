@@ -1,0 +1,1637 @@
+{
+ "batch": "modern",
+ "edges": [
+  {
+   "id": "gamelan-java--debussy-pagodes",
+   "from": "gamelan-java",
+   "to": "debussy",
+   "kind": "heard",
+   "year": 1889,
+   "title": "A Javanese gamelan in Paris reshapes Debussy’s ear",
+   "works": {
+    "from": "Javanese gamelan at the Exposition Universelle, Paris (1889)",
+    "to": "Pagodes, from Estampes (1903)"
+   },
+   "claim": "<p>[[debussy]] heard a Javanese gamelan at the Paris Exposition Universelle of 1889, and its scales, melodies, rhythms and layered textures appealed to him. Their echoes are heard in <i>Pagodes</i>, the first piece of the piano suite <i>Estampes</i>, which uses pentatonic scales and mimics gamelan melodies. He later wrote that Javanese music “obeys laws of counterpoint which make Palestrina seem like child’s play”.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Claude Debussy",
+     "url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+     "locator": "Return to Paris, 1887 and after"
+    },
+    {
+     "title": "Wikipedia: Estampes",
+     "url": "https://en.wikipedia.org/wiki/Estampes",
+     "locator": "I. Pagodes"
+    },
+    {
+     "title": "Brent Hugh: Claude Debussy and the Javanese Gamelan",
+     "url": "https://brenthugh.com/debnotes/gamelan.html",
+     "locator": "opening section; Debussy’s Palestrina remark"
+    }
+   ]
+  },
+  {
+   "id": "mallarme--debussy-faune",
+   "from": "mallarme",
+   "to": "debussy",
+   "kind": "depicted",
+   "year": 1894,
+   "title": "Mallarmé’s faun finds its music",
+   "works": {
+    "from": "L’après-midi d’un faune (poem, 1876)",
+    "to": "Prélude à l’après-midi d’un faune (1894)"
+   },
+   "claim": "<p>[[debussy]]’s orchestral prelude, first performed in Paris on 22 December 1894 under Gustave Doret, takes Mallarmé’s poem as its subject; Debussy called it “a very free illustration” of the poem, not a synthesis of it. Mallarmé had doubted that music should be set beside poetry, but after attending the premiere at Debussy’s invitation he wrote that the music went further than his text “into nostalgia and into light”.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Prélude à l’après-midi d’un faune",
+     "url": "https://en.wikipedia.org/wiki/Pr%C3%A9lude_%C3%A0_l%27apr%C3%A8s-midi_d%27un_faune",
+     "locator": "Background; Mallarmé’s letter"
+    }
+   ]
+  },
+  {
+   "id": "hokusai--debussy-la-mer-cover",
+   "from": "hokusai",
+   "to": "debussy",
+   "kind": "depicted",
+   "year": 1905,
+   "title": "Hokusai’s wave on the cover of La mer",
+   "works": {
+    "from": "The Great Wave off Kanagawa (c. 1831)",
+    "to": "La mer, first edition of the orchestral score (Durand, 1905)"
+   },
+   "claim": "<p>The first edition of the orchestral score of <i>La mer</i> (Durand, 1905) carried a detail of Hokusai’s <i>Great Wave off Kanagawa</i> on its cover: roughly the left half of the print, the great wave with a smaller wave in front of it. The choice of the print is credited to [[debussy]] and is read as a sign of how much Japanese art meant to him. What is documented is the cover; how far the picture shaped the music is a matter of interpretation.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Eastman School of Music, Sibley Library: Claude Debussy, La Mer",
+     "url": "https://www.esm.rochester.edu/sibley/la-mer2/",
+     "locator": "first edition; cover illustration"
+    },
+    {
+     "title": "Wikipedia: La mer (Debussy)",
+     "url": "https://en.wikipedia.org/wiki/La_mer_(Debussy)",
+     "locator": "Background and reception"
+    }
+   ],
+   "art": {
+    "file": "File:Debussy - La Mer - The great wave of Kanaga from Hokusai.jpg",
+    "caption": "Cover of the first edition of Debussy’s La mer (Durand, 1905), with a detail of Hokusai’s Great Wave."
+   }
+  },
+  {
+   "id": "wagner--debussy-golliwogg-tristan",
+   "from": "wagner",
+   "to": "debussy",
+   "kind": "quoted",
+   "year": 1908,
+   "title": "Debussy mocks Tristan in a cakewalk",
+   "thread": "tristan-chord",
+   "works": {
+    "from": "Tristan und Isolde, Prelude (1859)",
+    "to": "Golliwogg’s Cakewalk, from Children’s Corner (1908)"
+   },
+   "claim": "<p>In <i>Golliwogg’s Cakewalk</i>, Debussy alludes satirically to [[wagner]]’s <i>Tristan und Isolde</i>: the opening bars turn the Tristan chord into a jaunty, syncopated arpeggio, and the middle section is interrupted several times by a Tristan phrase marked <i>avec une grande émotion</i>. Debussy had heard the first act of <i>Tristan</i> at the Concerts Lamoureux in 1887 and judged it “decidedly the finest thing I know”, so the joke is aimed at a work he knew well.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Golliwogg's Cakewalk",
+     "url": "https://en.wikipedia.org/wiki/Golliwogg%27s_Cakewalk",
+     "locator": "Music; the Tristan quotation"
+    },
+    {
+     "title": "Wikipedia: Claude Debussy",
+     "url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+     "locator": "Return to Paris, 1887"
+    }
+   ]
+  },
+  {
+   "id": "debussy--satie-gymnopedies-orchestrated",
+   "from": "debussy",
+   "to": "satie",
+   "kind": "championed",
+   "year": 1897,
+   "title": "Debussy orchestrates two Gymnopédies",
+   "works": {
+    "from": "Debussy’s orchestration of Gymnopédies Nos. 3 and 1 (1897)",
+    "to": "Gymnopédies (1888)"
+   },
+   "claim": "<p>In February 1897, when Satie’s popularity was waning and his finances deteriorating, [[debussy]] orchestrated the third and first Gymnopédies to draw public attention to his friend’s music. When Debussy published the scores two years later he reversed the numbering, so that Satie’s first became his third. The two had met in 1890 and found each other kindred spirits in their experimental approach to composition.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Gymnopédies",
+     "url": "https://en.wikipedia.org/wiki/Gymnop%C3%A9dies",
+     "locator": "Reception"
+    },
+    {
+     "title": "Wikipedia: Claude Debussy",
+     "url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+     "locator": "Early years: meeting Satie, 1890"
+    }
+   ]
+  },
+  {
+   "id": "peladan--satie-sonneries",
+   "from": "peladan",
+   "to": "satie",
+   "kind": "championed",
+   "year": 1892,
+   "title": "Péladan makes Satie composer to the Rose+Croix",
+   "works": {
+    "from": "Salon de la Rose+Croix, Paris (10 March–10 April 1892)",
+    "to": "Sonneries de la Rose+Croix (1892)"
+   },
+   "claim": "<p>Sâr Joséphin Péladan, founder of the Ordre de la Rose-Croix Catholique, invited [[satie]] to become the order’s official composer. For Péladan’s first Salon de la Rose-Croix (10 March–10 April 1892), each gathering opened with a Solemn Mass of the Holy Ghost, preceded by three fanfares for harp and trumpet that Satie composed. They were published as <i>Sonneries de la Rose+Croix</i>, music written for the order’s ceremonies rather than the concert hall.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Interlude: Erik Satie, The Rosicrucian Adventure",
+     "url": "https://interlude.hk/erik-satie-the-rosicrucian-adventure/",
+     "locator": "Salon de la Rose-Croix"
+    }
+   ]
+  },
+  {
+   "id": "nietzsche--richard-strauss-zarathustra",
+   "from": "nietzsche",
+   "to": "richard-strauss",
+   "kind": "depicted",
+   "year": 1896,
+   "title": "Strauss answers Nietzsche in a tone poem",
+   "works": {
+    "from": "Also sprach Zarathustra (1883–85)",
+    "to": "Also sprach Zarathustra, Op. 30 (1896)"
+   },
+   "claim": "<p>[[richard-strauss]] conducted the first performance of his tone poem in Frankfurt on 27 November 1896, and named its sections after chapters of Nietzsche’s book (“Of the Backworldsmen”, “Of the Great Longing”). Strauss insisted that he had not meant to write philosophical music or to portray Nietzsche’s work, but “to convey in music an idea of the evolution of the human race” up to Nietzsche’s idea of the Übermensch.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Rhode Island Philharmonic: The story behind Strauss’s Also sprach Zarathustra",
+     "url": "https://www.riphil.org/blog/the-story-behind-strauss-also-sprach-zarathustra",
+     "locator": "Strauss’s statement before the premiere"
+    },
+    {
+     "title": "Indianapolis Symphony Orchestra: program notes, Also sprach Zarathustra",
+     "url": "https://www.indianapolissymphony.org/backstage/program-notes/strauss-also-sprach-zarathustra/",
+     "locator": "letter to Otto Florscheim"
+    },
+    {
+     "title": "Wikipedia: Also sprach Zarathustra (Strauss)",
+     "url": "https://en.wikipedia.org/wiki/Also_sprach_Zarathustra_(Strauss)",
+     "locator": "Structure"
+    }
+   ]
+  },
+  {
+   "id": "beethoven--richard-strauss-metamorphosen",
+   "from": "beethoven",
+   "to": "richard-strauss",
+   "kind": "quoted",
+   "year": 1945,
+   "title": "Strauss ends Metamorphosen on Beethoven’s funeral march",
+   "works": {
+    "from": "Symphony No. 3, “Eroica”, Marcia funebre (1804)",
+    "to": "Metamorphosen (1945)"
+   },
+   "claim": "<p>At the end of <i>Metamorphosen</i>, [[richard-strauss]] quotes the first four bars of the <i>Marcia funebre</i> from [[beethoven]]’s <i>Eroica</i> Symphony and writes beneath them “IN MEMORIAM!”. A direct quotation from bar 3 of the march also appears earlier in the score as one of the work’s themes, so the funeral march is present throughout the piece before it is named at the close.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Metamorphosen",
+     "url": "https://en.wikipedia.org/wiki/Metamorphosen",
+     "locator": "Themes and the closing quotation"
+    }
+   ]
+  },
+  {
+   "id": "larin-paraske--sibelius-kullervo",
+   "from": "larin-paraske",
+   "to": "sibelius",
+   "kind": "heard",
+   "year": 1891,
+   "title": "A rune singer teaches Sibelius how Finnish sings",
+   "works": {
+    "from": "Larin Paraske’s rune singing, Porvoo (1891)",
+    "to": "Kullervo, Op. 7 (1892)"
+   },
+   "claim": "<p>At the end of 1891 [[sibelius]] travelled with the aesthetician Yrjö Hirn to Porvoo to hear the Izhorian rune singer Larin Paraske. Sibelius recalled that he mainly noticed how a rune singer uses Finnish, prolonging and stressing the last syllables of words, and that he did not yet realise how famous she was. <i>Kullervo</i>, whose vocal movements set runos of the <i>Kalevala</i>, followed in 1892.</p>",
+   "status": "disputed",
+   "note": "Hirn’s recollection and Sibelius’s own account place a hearing at Porvoo at the end of 1891, while Sibelius later claimed he first met Paraske on his 1892 honeymoon in Lieksa. That he heard her is documented; where and when he first did is not settled, and how far her singing shaped Kullervo is interpretation.",
+   "sources": [
+    {
+     "title": "Sibelius Society of Finland: Kullervo, 1892",
+     "url": "http://www.sibelius.klubi.fi/english/musiikki/ork_kullervo.htm",
+     "locator": "Paraske and Hirn’s recollection"
+    },
+    {
+     "title": "Finnish Music Quarterly: “Utterly Finnish, peculiarly original”",
+     "url": "https://www.fmq.fi/articles/8220-utterly-finnish-peculiarly-original",
+     "locator": "Hirn’s account of the 1891 Porvoo trip"
+    },
+    {
+     "title": "Wikipedia: Kullervo (Sibelius)",
+     "url": "https://en.wikipedia.org/wiki/Kullervo_(Sibelius)",
+     "locator": "Composition: honeymoon in Lieksa"
+    }
+   ]
+  },
+  {
+   "id": "chopin--scriabin-preludes-op-11",
+   "from": "chopin",
+   "to": "scriabin",
+   "kind": "modelled",
+   "year": 1896,
+   "title": "Scriabin’s 24 Preludes follow Chopin’s plan",
+   "works": {
+    "from": "Chopin, 24 Preludes, Op. 28 (1839)",
+    "to": "Scriabin, 24 Preludes, Op. 11 (1888–96)"
+   },
+   "claim": "<p>[[scriabin]]’s Op. 11 keeps strictly to the circle of fifths to cover every major and minor key, the plan of [[chopin]]’s Op. 28 set. Both cycles are built alike, with pieces arranged in relative major and minor pairs, and the resemblance sits beside a wider spiritual kinship with Chopin that runs through Scriabin’s early music.</p>",
+   "status": "inferred",
+   "note": "The sources describe the likeness of construction between the two cycles; a statement by Scriabin that he modelled Op. 11 on Op. 28 was not found.",
+   "sources": [
+    {
+     "title": "Wikipedia: 24 Preludes, Op. 11 (Scriabin)",
+     "url": "https://en.wikipedia.org/wiki/24_Preludes,_Op._11_(Scriabin)",
+     "locator": "Background"
+    }
+   ]
+  },
+  {
+   "id": "tolstoy--janacek-kreutzer-quartet",
+   "from": "tolstoy",
+   "to": "janacek",
+   "kind": "depicted",
+   "year": 1923,
+   "title": "Tolstoy’s Kreutzer Sonata becomes a string quartet",
+   "works": {
+    "from": "The Kreutzer Sonata (novella)",
+    "to": "String Quartet No. 1, “Kreutzer Sonata” (1923)"
+   },
+   "claim": "<p>[[janacek]] wrote his First String Quartet between 13 and 28 October 1923, inspired by Tolstoy’s novella <i>The Kreutzer Sonata</i>, which had itself been inspired by [[beethoven]]’s violin sonata of that name. He had used the novella once before, in a Piano Trio of 1908–09 that is lost; surviving fragments suggest similarities to the quartet. The Czech Quartet gave the first performance in Prague on 17 October 1924.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: String Quartet No. 1 (Janáček)",
+     "url": "https://en.wikipedia.org/wiki/String_Quartet_No._1_(Jan%C3%A1%C4%8Dek)",
+     "locator": "Background and premiere"
+    }
+   ]
+  },
+  {
+   "id": "newman--elgar-gerontius",
+   "from": "newman",
+   "to": "elgar",
+   "kind": "set-text",
+   "year": 1900,
+   "title": "Elgar sets Newman’s poem of a dying soul",
+   "works": {
+    "from": "The Dream of Gerontius (poem, 1865)",
+    "to": "The Dream of Gerontius, Op. 38 (1900)"
+   },
+   "claim": "<p>[[elgar]] had owned a copy of Newman’s poem since at least 1885, and in 1889 he was given another as a wedding present; that copy carried handwritten transcriptions of notes made by General Gordon. He thought of the text in musical terms for years before setting it for the Birmingham Triennial Festival, where <i>The Dream of Gerontius</i> was first performed on 3 October 1900.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: The Dream of Gerontius",
+     "url": "https://en.wikipedia.org/wiki/The_Dream_of_Gerontius",
+     "locator": "Background"
+    }
+   ]
+  },
+  {
+   "id": "beethoven--elgar-nimrod-pathetique",
+   "from": "beethoven",
+   "to": "elgar",
+   "kind": "modelled",
+   "year": 1899,
+   "title": "Nimrod hints at Beethoven’s Pathétique slow movement",
+   "works": {
+    "from": "Piano Sonata No. 8, “Pathétique”, slow movement (1799)",
+    "to": "Enigma Variations, Variation IX “Nimrod” (1899)"
+   },
+   "claim": "<p>Elgar said Nimrod came from a day when he was ready to give up composing and his publisher August Jaeger urged him on, pointing to [[beethoven]], who wrote more and more beautiful music despite his worries, and singing the theme of the <i>Pathétique</i> sonata’s slow movement. Elgar told Dora Penny that the opening bars of Nimrod were made to suggest that theme: “Only a hint, not a quotation”.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Enigma Variations",
+     "url": "https://en.wikipedia.org/wiki/Enigma_Variations",
+     "locator": "Variation IX (Adagio) “Nimrod”"
+    }
+   ]
+  },
+  {
+   "id": "verdi--puccini-aida-pisa",
+   "from": "verdi",
+   "to": "puccini",
+   "kind": "heard",
+   "year": 1876,
+   "title": "Puccini walks to Pisa to hear Aida",
+   "works": {
+    "from": "Aida (1871)",
+    "to": "Puccini’s career in the opera house"
+   },
+   "claim": "<p>In 1876, aged eighteen, [[puccini]] walked about twenty kilometres from Lucca to Pisa to hear the first local performance of [[verdi]]’s <i>Aida</i>. He said later that when he heard it in Pisa he felt “a musical window had opened for me”, and the experience is credited with turning him from church music towards the theatre.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "OperaVision: Giacomo Puccini",
+     "url": "https://operavision.eu/feature/giacomo-puccini",
+     "locator": "early life"
+    },
+    {
+     "title": "Choirs.org.uk: Puccini, Messa di Gloria, programme notes",
+     "url": "https://www.choirs.org.uk/prognotes/Puccini%20Messa%20di%20Gloria.htm",
+     "locator": "biographical note"
+    }
+   ]
+  },
+  {
+   "id": "chinese-folk-melody--puccini-turandot",
+   "from": "chinese-folk-melody",
+   "to": "puccini",
+   "kind": "quoted",
+   "year": 1924,
+   "title": "A Chinese music box gives Turandot its tunes",
+   "works": {
+    "from": "Chinese melodies on a music box owned by Baron Fassini-Camossi",
+    "to": "Turandot (1920–24, unfinished)"
+   },
+   "claim": "<p>Baron Edoardo Fassini-Camossi, a former Italian diplomat in China, gave [[puccini]] a music box that played four Chinese melodies. Puccini worked three of them into <i>Turandot</i>, the most memorable being the folk melody “Mòlìhuā” (“Jasmine Flower”), which serves as a leitmotif for the princess’s splendour. In all, eight of the opera’s themes appear to be based on traditional Chinese music.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Turandot",
+     "url": "https://en.wikipedia.org/wiki/Turandot",
+     "locator": "Composition: Chinese music"
+    }
+   ]
+  },
+  {
+   "id": "stefan-george--schoenberg-quartet-2",
+   "from": "stefan-george",
+   "to": "schoenberg",
+   "kind": "set-text",
+   "year": 1908,
+   "title": "George’s poems bring a voice into the quartet",
+   "works": {
+    "from": "Stefan George, Litanei and Entrückung (Der siebente Ring)",
+    "to": "String Quartet No. 2, Op. 10, movements III–IV (1908)"
+   },
+   "claim": "<p>In the last two movements of his Second String Quartet, [[schoenberg]] set poems by Stefan George for soprano, adding a voice to a genre that had never had one. The Rosé Quartet and the soprano Marie Gutheil-Schoder gave the first performance, and a critic of 1914 called the innovation Beethovenian, alluding to the choral finale of the Ninth Symphony.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: String Quartet No. 2 (Schoenberg)",
+     "url": "https://en.wikipedia.org/wiki/String_Quartet_No._2_(Schoenberg)",
+     "locator": "Op. 10"
+    }
+   ]
+  },
+  {
+   "id": "mahler--schoenberg-harmonielehre",
+   "from": "mahler",
+   "to": "schoenberg",
+   "kind": "dedicated",
+   "year": 1911,
+   "title": "Schoenberg dedicates Harmonielehre to Mahler’s memory",
+   "works": {
+    "from": "Gustav Mahler, who died in May 1911",
+    "to": "Harmonielehre (1911)"
+   },
+   "claim": "<p>[[schoenberg]] wrote his <i>Harmonielehre</i> in the summer of 1910 and published it in 1911 with the dedication “Dem Andenken Gustav Mahlers ist dieses Buch geweiht” (“This book is dedicated to the memory of Gustav Mahler”). [[mahler]] died on 18 May 1911, and the dedication makes the book Schoenberg’s memorial to him.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Universal Edition: Schönberg, Harmonielehre (1911)",
+     "url": "https://www.universaledition.com/en/Works/Harmonielehre/P0041937",
+     "locator": "dedication"
+    },
+    {
+     "title": "Mahler Foundation: Arnold Schoenberg and his relation to Gustav Mahler",
+     "url": "https://www.mahlerfoundation.org/mahler/contemporaries/arnold-schoenberg/",
+     "locator": "Harmonielehre (1911)"
+    }
+   ]
+  },
+  {
+   "id": "kandinsky--schoenberg-blaue-reiter",
+   "from": "kandinsky",
+   "to": "schoenberg",
+   "kind": "championed",
+   "year": 1911,
+   "title": "Kandinsky draws Schoenberg into the Blaue Reiter",
+   "works": {
+    "from": "Kandinsky’s letters to Schoenberg, from 18 January 1911",
+    "to": "Schoenberg’s contributions to the Blaue Reiter exhibition and almanac (1911–12)"
+   },
+   "claim": "<p>After hearing [[schoenberg]]’s music at a Munich concert on 2 January 1911, Kandinsky wrote to him on 18 January: “In your works, you have realized what I, albeit in uncertain form, have so greatly longed for in music.” Schoenberg visited Kandinsky, Gabriele Münter and Franz Marc in Murnau, and the painters planned an exhibition and an almanac that drew in artists of every medium. The two corresponded until the First World War broke contact in 1914.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Sarah Tanner, thesis on Kandinsky and Schoenberg (Auburn University at Montgomery digital archives)",
+     "url": "https://digitalarchives.aum.edu/sites/default/files/2023-12/Thesis_257_Tanner.pdf",
+     "locator": "the concert of 2 January 1911 and the letter of 18 January"
+    },
+    {
+     "title": "Wikipedia: Arnold Schoenberg",
+     "url": "https://en.wikipedia.org/wiki/Arnold_Schoenberg",
+     "locator": "1908–1911: exchange of letters with Kandinsky"
+    }
+   ]
+  },
+  {
+   "id": "schoenberg--kandinsky-impression-iii",
+   "from": "schoenberg",
+   "to": "kandinsky",
+   "kind": "depicted",
+   "year": 1911,
+   "title": "A Schoenberg concert becomes Impression III",
+   "works": {
+    "from": "Concert of Schoenberg’s music, Munich (2 January 1911)",
+    "to": "Impression III (Concert) (1911)"
+   },
+   "claim": "<p>Kandinsky’s painting <i>Impression III (Concert)</i> was inspired by a concert of [[schoenberg]]’s works in Munich on 2 January 1911, which Kandinsky attended. He was so enthralled by the music that he wrote to Schoenberg within days, beginning an exchange of letters that lasted until 1914.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Sarah Tanner, thesis on Kandinsky and Schoenberg (Auburn University at Montgomery digital archives)",
+     "url": "https://digitalarchives.aum.edu/sites/default/files/2023-12/Thesis_257_Tanner.pdf",
+     "locator": "Impression III and the concert"
+    }
+   ],
+   "art": {
+    "file": "File:Wassily Kandinsky - Impression III (Concert) - Google Art Project.jpg",
+    "caption": "Kandinsky, Impression III (Concert), 1911, painted after hearing Schoenberg’s music in Munich."
+   }
+  },
+  {
+   "id": "schoenberg--berg-lessons",
+   "from": "schoenberg",
+   "to": "berg",
+   "kind": "studied-with",
+   "year": 1904,
+   "title": "Berg begins seven years of lessons with Schoenberg",
+   "works": {
+    "from": "Schoenberg’s teaching in Vienna (1904–11)",
+    "to": "Berg’s early works, from the Piano Sonata, Op. 1"
+   },
+   "claim": "<p>Berg studied counterpoint, music theory and harmony with [[schoenberg]] between 1904 and 1911. He adopted his teacher’s principle of developing variation and, later, the twelve-tone technique, which shapes the Lyric Suite and the Violin Concerto.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Alban Berg",
+     "url": "https://en.wikipedia.org/wiki/Alban_Berg",
+     "locator": "Life and career"
+    }
+   ]
+  },
+  {
+   "id": "buchner--berg-wozzeck",
+   "from": "buchner",
+   "to": "berg",
+   "kind": "set-text",
+   "year": 1914,
+   "title": "Berg sees Woyzeck on stage and begins an opera",
+   "works": {
+    "from": "Woyzeck (play, 1837)",
+    "to": "Wozzeck (opera, completed 1922)"
+   },
+   "claim": "<p>In May 1914 [[berg]] attended a performance in Vienna of Büchner’s play, left unfinished at the author’s death in 1837, and was moved to set it. The opera that followed, <i>Wozzeck</i>, kept the play’s fragmentary scenes in order and was completed after the First World War.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Hollywood Bowl: Wozzeck, Alban Berg",
+     "url": "https://www.hollywoodbowl.com/musicdb/pieces/838/wozzeck",
+     "locator": "background"
+    },
+    {
+     "title": "Wikipedia: Wozzeck",
+     "url": "https://en.wikipedia.org/wiki/Wozzeck",
+     "locator": "Background: Büchner, Woyzeck, and Berg"
+    }
+   ]
+  },
+  {
+   "id": "bach--berg-violin-concerto",
+   "from": "bach",
+   "to": "berg",
+   "kind": "quoted",
+   "year": 1935,
+   "title": "Berg ends the Violin Concerto on Bach’s chorale",
+   "works": {
+    "from": "Cantata BWV 60, closing chorale “Es ist genug”",
+    "to": "Violin Concerto, Part II, Adagio (1935)"
+   },
+   "claim": "<p>Berg wrote his Violin Concerto “to the memory of an angel” after the death of Manon Gropius, and built its last section on the chorale “Es ist genug” from [[bach]]’s cantata <i>O Ewigkeit, du Donnerwort</i>. The last four notes of Berg’s tone row, rising by whole tones, are also the first four notes of the chorale, and in the score a footnote explains the marking CH as the chorale motif. Berg sets the tune a semitone above Bach’s A major, the solo violin giving the first phrase before the clarinets state Bach’s harmonisation.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "IMSLP: Violin Concerto (Berg), Universal Edition score, 1936",
+     "url": "https://imslp.org/wiki/Violin_Concerto_(Berg,_Alban)",
+     "locator": "Adagio, bars 136–143; footnote at bar 136"
+    },
+    {
+     "title": "IMSLP: Cantata BWV 60 (Bach), Bach-Gesellschaft score",
+     "url": "https://imslp.org/wiki/O_Ewigkeit,_du_Donnerwort,_BWV_60_(Bach,_Johann_Sebastian)",
+     "locator": "No. 5, chorale"
+    },
+    {
+     "title": "Wikipedia: Violin Concerto (Berg)",
+     "url": "https://en.wikipedia.org/wiki/Violin_Concerto_(Berg)",
+     "locator": "Music"
+    },
+    {
+     "title": "Wikipedia: Es ist genug",
+     "url": "https://en.wikipedia.org/wiki/Es_ist_genug",
+     "locator": "History"
+    }
+   ],
+   "exhibit": {
+    "from": {
+     "label": "Bach, Cantata BWV 60, closing chorale “Es ist genug”, bars 1–2 (soprano), A major",
+     "abc": "X:1\nM:4/4\nL:1/4\nK:A\nA2 B c | !fermata!^d2 z ^d |",
+     "checked": "https://imslp.org/wiki/O_Ewigkeit,_du_Donnerwort,_BWV_60_(Bach,_Johann_Sebastian)"
+    },
+    "to": {
+     "label": "Berg, Violin Concerto, Adagio, bars 136–137 (solo violin), the chorale’s opening transposed up a semitone and down an octave",
+     "abc": "X:1\nM:4/4\nL:1/4\nK:C\n_B,2 C D | E3 E |",
+     "checked": "https://imslp.org/wiki/Violin_Concerto_(Berg,_Alban)"
+    }
+   }
+  },
+  {
+   "id": "wagner--berg-lyric-suite-tristan",
+   "from": "wagner",
+   "to": "berg",
+   "kind": "quoted",
+   "year": 1926,
+   "title": "Berg hides Tristan inside the Lyric Suite",
+   "thread": "tristan-chord",
+   "works": {
+    "from": "Tristan und Isolde, Prelude (1859)",
+    "to": "Lyric Suite, last movement (1926)"
+   },
+   "claim": "<p>The last movement of [[berg]]’s <i>Lyric Suite</i> develops the Tristan motif along with the rest of its material, by Berg’s own analysis, through strict adherence to the twelve-note series. In January 1977 George Perle was shown a copy of the first printed score annotated in red, blue and green by Berg, which revealed a secret programme about Berg’s love for Hanna Fuchs-Robettin; the suite was publicly dedicated to Zemlinsky, whose <i>Lyric Symphony</i> it also quotes.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Lyric Suite (Berg)",
+     "url": "https://en.wikipedia.org/wiki/Lyric_Suite_(Berg)",
+     "locator": "Secret programme; last movement"
+    },
+    {
+     "title": "The Cambridge Companion to Berg: Secret programmes (chapter 8)",
+     "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-berg/secret-programmes/96E0F81754FE95E6EDC2822204205DEB",
+     "locator": "Perle and the annotated score, 1977"
+    }
+   ]
+  },
+  {
+   "id": "bach--webern-ricercar-a-6",
+   "from": "bach",
+   "to": "webern",
+   "kind": "copied",
+   "year": 1935,
+   "title": "Webern re-scores Bach’s six-part Ricercar",
+   "works": {
+    "from": "Musical Offering, BWV 1079: Ricercar a 6 (1747)",
+    "to": "Fuga (Ricercata) a 6 voci, Bach–Webern (1934–35)"
+   },
+   "claim": "<p>Between December 1934 and early 1935 [[webern]] orchestrated the six-voice ricercar from [[bach]]’s <i>Musical Offering</i> for a chamber orchestra of single winds, harp, timpani and strings. The first performance was in London on 25 April 1935. Webern keeps Bach’s notes and divides the lines among the instruments, so that melodies pass between colours: the principle he called <i>Klangfarbenmelodie</i>.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Universal Edition: Bach/Webern, Fuga (2. Ricercata) a 6 voci",
+     "url": "https://www.universaledition.com/johann-sebastian-bach-32/works/fuga-2-ricercata-a-6-voci-2578",
+     "locator": "editing note and first performance"
+    }
+   ]
+  },
+  {
+   "id": "isaac--webern-choralis-constantinus",
+   "from": "isaac",
+   "to": "webern",
+   "kind": "modelled",
+   "year": 1906,
+   "title": "Webern edits Isaac and learns the interplay of parts",
+   "works": {
+    "from": "Choralis Constantinus II (early 16th century)",
+    "to": "Webern’s doctoral edition and his later counterpoint"
+   },
+   "claim": "<p>For his musicology doctorate under Guido Adler, [[webern]] edited the second part of Heinrich Isaac’s <i>Choralis Constantinus</i>. As a composer he would emulate its “subtle organization in the interplay of parts”, a discipline he carried from the study of Renaissance polyphony into his own writing.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Anton Webern",
+     "url": "https://en.wikipedia.org/wiki/Anton_Webern",
+     "locator": "University and early training"
+    }
+   ]
+  },
+  {
+   "id": "hungarian-peasant-song--bartok-phonograph",
+   "from": "hungarian-peasant-song",
+   "to": "bartok",
+   "kind": "heard",
+   "year": 1906,
+   "title": "Bartók records peasant songs on the phonograph",
+   "works": {
+    "from": "Peasant songs recorded in Békés County and elsewhere (1906–08)",
+    "to": "Bartók’s folk-song collections and the music built on them"
+   },
+   "claim": "<p>[[bartok]]’s first year of substantial folk-song collecting was 1906: that summer he used a phonograph on his first systematic trip, to Békés County, and over the year he collected more than a thousand Hungarian songs and some three hundred Slovak ones. In 1907–08 he went on to Felsőireg and to the Transylvanian regions of Csík and Gyergyó. Following Béla Vikár, he used the phonograph from the beginning to complete his written notes with sound recordings.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Institute for Musicology, Budapest: Béla Bartók’s significance in Hungarian folk music research",
+     "url": "https://bartok-gyujtesek.zti.hu/en",
+     "locator": "field trips from 1906"
+    },
+    {
+     "title": "Wikipedia: Béla Bartók",
+     "url": "https://en.wikipedia.org/wiki/B%C3%A9la_Bart%C3%B3k",
+     "locator": "Early career: folk music"
+    }
+   ]
+  },
+  {
+   "id": "debussy--bartok-kodaly-scores",
+   "from": "debussy",
+   "to": "bartok",
+   "kind": "modelled",
+   "year": 1907,
+   "title": "Kodály brings Debussy’s scores to Bartók",
+   "works": {
+    "from": "Debussy’s scores, brought from Paris by Kodály",
+    "to": "Bartók’s works from 1907"
+   },
+   "claim": "<p>Beginning in 1907 [[bartok]] came under the influence of [[debussy]], whose compositions his friend Kodály had brought back from Paris. The discovery came as Bartók was already absorbed in collecting peasant music, so French harmony and Hungarian folk material reach his work together.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Béla Bartók",
+     "url": "https://en.wikipedia.org/wiki/B%C3%A9la_Bart%C3%B3k",
+     "locator": "Influence of Debussy"
+    }
+   ]
+  },
+  {
+   "id": "rimsky-korsakov--stravinsky-lessons",
+   "from": "rimsky-korsakov",
+   "to": "stravinsky",
+   "kind": "studied-with",
+   "year": 1908,
+   "title": "Stravinsky studies with Rimsky-Korsakov until 1908",
+   "works": {
+    "from": "Rimsky-Korsakov’s teaching, St Petersburg",
+    "to": "Fireworks and the early works (to 1908)"
+   },
+   "claim": "<p>While studying law at the University of Saint Petersburg, [[stravinsky]] met [[rimsky-korsakov]] and studied music under him until the older composer’s death in 1908. Soon afterwards Stravinsky met Sergei Diaghilev, who commissioned the ballets for the Ballets Russes that made his name.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Igor Stravinsky",
+     "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
+     "locator": "Early life and training"
+    }
+   ]
+  },
+  {
+   "id": "lithuanian-folk-song--stravinsky-rite",
+   "from": "lithuanian-folk-song",
+   "to": "stravinsky",
+   "kind": "quoted",
+   "year": 1913,
+   "title": "The Rite’s opening bassoon sings a Lithuanian tune",
+   "works": {
+    "from": "Anthology of Lithuanian folk songs (Warsaw)",
+    "to": "The Rite of Spring, opening bassoon solo (1913)"
+   },
+   "claim": "<p>[[stravinsky]] acknowledged that the opening bassoon melody of <i>The Rite of Spring</i> was derived from an anthology of Lithuanian folk songs, but maintained that this was his only borrowing from such sources. Later scholars have identified several more melodies in Part I that came from the same Lithuanian collection, and Richard Taruskin’s study of the sketches traced further Russian folk sources.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: The Rite of Spring",
+     "url": "https://en.wikipedia.org/wiki/The_Rite_of_Spring",
+     "locator": "Composition: folk melodies"
+    },
+    {
+     "title": "The Orchestral Bassoon: Stravinsky, The Rite of Spring",
+     "url": "https://www.orchestralbassoon.com/stravinsky-rite",
+     "locator": "opening solo; notes citing Taruskin, “Russian Folk Melodies in The Rite of Spring” (JAMS, 1980)"
+    }
+   ]
+  },
+  {
+   "id": "pergolesi--stravinsky-pulcinella",
+   "from": "pergolesi",
+   "to": "stravinsky",
+   "kind": "modelled",
+   "year": 1920,
+   "title": "Stravinsky recomposes music then thought to be Pergolesi’s",
+   "works": {
+    "from": "Pieces then attributed to Pergolesi",
+    "to": "Pulcinella (1920)"
+   },
+   "claim": "<p><i>Pulcinella</i>, first danced in Paris in May 1920 with designs by Picasso, is a ballet on a commedia dell’arte libretto and music then believed to be by Pergolesi. The attribution has since been shown to be spurious: some of the music may be by Domenico Gallo, Unico Wilhelm van Wassenaer, Carlo Ignazio Monza and Alessandro Parisotti. [[stravinsky]]’s score recomposes it, so the influence is of an eighteenth-century idiom rather than of Pergolesi himself.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Pulcinella (Stravinsky)",
+     "url": "https://en.wikipedia.org/wiki/Pulcinella_(Stravinsky)",
+     "locator": "Background"
+    },
+    {
+     "title": "Wikipedia: Igor Stravinsky",
+     "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
+     "locator": "Neoclassicism: Pulcinella"
+    }
+   ]
+  },
+  {
+   "id": "schoenberg--stravinsky-pierrot-lunaire",
+   "from": "schoenberg",
+   "to": "stravinsky",
+   "kind": "heard",
+   "year": 1912,
+   "title": "Stravinsky hears Pierrot lunaire in Berlin",
+   "works": {
+    "from": "Pierrot lunaire, Op. 21 (1912)",
+    "to": "Three Japanese Lyrics (1912–13)"
+   },
+   "claim": "<p>In the winter of 1912 [[stravinsky]] was in Berlin for performances of his ballets by the Ballets Russes, and attended a performance of [[schoenberg]]’s <i>Pierrot lunaire</i>, conducted by the composer, less than two months after its premiere. He had already composed the first of his <i>Three Japanese Lyrics</i> as a song with piano, but after hearing <i>Pierrot</i> he decided to give the songs a somewhat similar coat of instrumental colour.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Hollywood Bowl: Stravinsky, Three Japanese Lyrics",
+     "url": "https://www.hollywoodbowl.com/musicdb/pieces/4242/three-japanese-lyrics",
+     "locator": "background"
+    }
+   ]
+  },
+  {
+   "id": "american-hymn-and-band--ives",
+   "from": "american-hymn-and-band",
+   "to": "ives",
+   "kind": "quoted",
+   "year": 1900,
+   "title": "Hymn tunes and town bands become Ives’s material",
+   "works": {
+    "from": "Hymn tunes, town-band music, Stephen Foster",
+    "to": "Ives’s songs, symphonies and sonatas"
+   },
+   "claim": "<p>The sources of [[ives]]’s tonal imagery included hymn tunes and traditional songs. He also incorporated the melodies of town bands at holiday parades, fiddlers at Saturday-night dances, patriotic songs, sentimental parlour ballads and the tunes of Stephen Foster.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Charles Ives",
+     "url": "https://en.wikipedia.org/wiki/Charles_Ives",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "beethoven--ives-concord-sonata",
+   "from": "beethoven",
+   "to": "ives",
+   "kind": "quoted",
+   "year": 1915,
+   "title": "Beethoven’s Fifth motif runs through the Concord Sonata",
+   "works": {
+    "from": "Symphony No. 5, opening motif (1808)",
+    "to": "Piano Sonata No. 2, “Concord, Mass., 1840–60” (completed by 1915)"
+   },
+   "claim": "<p>The opening bars of [[beethoven]]’s Fifth Symphony are quoted in each movement of [[ives]]’s <i>Concord Sonata</i>, whose four movements portray Emerson, Hawthorne, the Alcotts and Thoreau. Ives drew on material dating back to 1904, began substantial work around 1909 and largely completed the sonata by 1915; it was first published in 1920.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Piano Sonata No. 2 (Ives)",
+     "url": "https://en.wikipedia.org/wiki/Piano_Sonata_No._2_(Ives)",
+     "locator": "Introduction and History"
+    }
+   ]
+  },
+  {
+   "id": "bach--shostakovich-leipzig-preludes-fugues",
+   "from": "bach",
+   "to": "shostakovich",
+   "kind": "modelled",
+   "year": 1950,
+   "title": "Leipzig’s Bach competition prompts Shostakovich’s 24 Preludes and Fugues",
+   "works": {
+    "from": "The Well-Tempered Clavier (1722, 1742)",
+    "to": "24 Preludes and Fugues, Op. 87 (1950–51)"
+   },
+   "claim": "<p>In 1950 [[shostakovich]] sat on the jury of the first International Johann Sebastian Bach Competition at Leipzig, held for the bicentenary of [[bach]]’s death. The young Tatiana Nikolayeva from Moscow, who had come prepared to play any of the 48 preludes and fugues on request, won the gold medal. Inspired by the competition and her playing, he returned to Moscow and began his own cycle of 24 preludes and fugues, which Nikolayeva premiered in Leningrad on 23 December 1952.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: 24 Preludes and Fugues (Shostakovich)",
+     "url": "https://en.wikipedia.org/wiki/24_Preludes_and_Fugues_(Shostakovich)",
+     "locator": "History"
+    }
+   ]
+  },
+  {
+   "id": "mahler--shostakovich-sollertinsky",
+   "from": "mahler",
+   "to": "shostakovich",
+   "kind": "heard",
+   "year": 1927,
+   "title": "Sollertinsky teaches Shostakovich to love Mahler",
+   "works": {
+    "from": "Mahler’s symphonies, introduced by Ivan Sollertinsky",
+    "to": "Shostakovich’s symphonies"
+   },
+   "claim": "<p>[[shostakovich]]’s close friendship with the musicologist and theatre critic Ivan Sollertinsky began in 1927. Shostakovich later said that Sollertinsky “taught [him] to understand and love such great masters as Brahms, Mahler, and Bruckner”. Mahler’s music left a lasting mark on his style, which combines the grotesque with ambivalent tonality.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Dmitri Shostakovich",
+     "url": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich",
+     "locator": "Early career: Sollertinsky"
+    }
+   ]
+  },
+  {
+   "id": "shostakovich--gubaidulina-mistaken-path",
+   "from": "shostakovich",
+   "to": "gubaidulina",
+   "kind": "championed",
+   "year": 1959,
+   "title": "Shostakovich tells Gubaidulina to continue her “mistaken” way",
+   "works": {
+    "from": "Shostakovich’s verdict on a Conservatoire examination",
+    "to": "Gubaidulina’s early music at the Moscow Conservatory"
+   },
+   "claim": "<p>[[gubaidulina]]’s music was judged “irresponsible” during her studies at the Moscow Conservatory because it explored alternative tunings. When [[shostakovich]] evaluated one of her examinations he encouraged her to continue on her path, although others, among them Tikhon Khrennikov, called it “mistaken”. She went on to the breakthrough of her violin concerto <i>Offertorium</i> in 1980.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Sofia Gubaidulina",
+     "url": "https://en.wikipedia.org/wiki/Sofia_Gubaidulina",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "bach--gubaidulina-offertorium",
+   "from": "bach",
+   "to": "gubaidulina",
+   "kind": "quoted",
+   "year": 1980,
+   "title": "Gubaidulina scores Bach’s royal theme in Webern’s manner",
+   "works": {
+    "from": "Musical Offering, BWV 1079: the royal theme (1747)",
+    "to": "Offertorium, violin concerto (1980)"
+   },
+   "claim": "<p><i>Offertorium</i> is centred on the theme that Frederick the Great gave to [[bach]], the basis of the <i>Musical Offering</i>. [[gubaidulina]] orchestrates the theme with a <i>Klangfarbenmelodie</i> technique reminiscent of Webern, passing it around different instruments to exploit their timbres. The piece was her first major breakthrough.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Offertorium (Gubaidulina)",
+     "url": "https://en.wikipedia.org/wiki/Offertorium_(Gubaidulina)",
+     "locator": "Music"
+    }
+   ]
+  },
+  {
+   "id": "shostakovich--britten-fourteenth-symphony",
+   "from": "shostakovich",
+   "to": "britten",
+   "kind": "dedicated",
+   "year": 1969,
+   "title": "Shostakovich dedicates his Fourteenth Symphony to Britten",
+   "works": {
+    "from": "Symphony No. 14 (1969)",
+    "to": "Western premiere, Aldeburgh Festival (1970)"
+   },
+   "claim": "<p>[[shostakovich]] dedicated his Fourteenth Symphony, a song cycle on poems about death, to his close friend [[britten]], who conducted its Western premiere at the 1970 Aldeburgh Festival.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Dmitri Shostakovich",
+     "url": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich",
+     "locator": "Late works: Symphony No. 14"
+    }
+   ]
+  },
+  {
+   "id": "purcell--britten-young-persons-guide",
+   "from": "purcell",
+   "to": "britten",
+   "kind": "modelled",
+   "year": 1945,
+   "title": "Britten builds his Young Person’s Guide on Purcell",
+   "works": {
+    "from": "Abdelazer, Rondeau (1695)",
+    "to": "The Young Person’s Guide to the Orchestra, Op. 34 (1945)"
+   },
+   "claim": "<p>[[britten]]’s <i>Young Person’s Guide to the Orchestra</i>, subtitled <i>Variations and Fugue on a Theme of Purcell</i>, is based on the second movement, a rondeau, of Purcell’s <i>Abdelazer</i> suite. It was commissioned for the British educational documentary film <i>Instruments of the Orchestra</i>, released on 29 November 1946.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: The Young Person's Guide to the Orchestra",
+     "url": "https://en.wikipedia.org/wiki/The_Young_Person%27s_Guide_to_the_Orchestra",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "auden--britten-paul-bunyan",
+   "from": "auden",
+   "to": "britten",
+   "kind": "set-text",
+   "year": 1941,
+   "title": "Auden writes Britten’s first music drama",
+   "works": {
+    "from": "Libretto for Paul Bunyan (1941)",
+    "to": "Paul Bunyan (1941)"
+   },
+   "claim": "<p>[[britten]]’s first music drama, the operetta <i>Paul Bunyan</i> (1941), has a libretto by W. H. Auden. The partnership had begun earlier, in the small group of regular contributors to the GPO Film Unit that Britten joined in the 1930s, where Auden was another of the writers.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Benjamin Britten",
+     "url": "https://en.wikipedia.org/wiki/Benjamin_Britten",
+     "locator": "GPO Film Unit; America and Paul Bunyan"
+    }
+   ]
+  },
+  {
+   "id": "gamelan-bali--britten-mcphee",
+   "from": "gamelan-bali",
+   "to": "britten",
+   "kind": "heard",
+   "year": 1939,
+   "title": "Colin McPhee’s Balinese transcriptions reach Britten",
+   "works": {
+    "from": "McPhee’s piano-duo transcriptions of Balinese gamelan",
+    "to": "The Prince of the Pagodas (1957)"
+   },
+   "claim": "<p>While in the United States, [[britten]] first encountered Balinese gamelan music through transcriptions for piano duo by the Canadian composer Colin McPhee, who had lived in Bali from 1931 to 1938. The two met in the summer of 1939 and performed some of the transcriptions for a recording. Britten later built many gamelan elements into the ballet <i>The Prince of the Pagodas</i>, including a simulation of the seven-tone pelog tuning on Western instruments.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Benjamin Britten",
+     "url": "https://en.wikipedia.org/wiki/Benjamin_Britten",
+     "locator": "America: encounter with gamelan"
+    },
+    {
+     "title": "Wikipedia: The Prince of the Pagodas",
+     "url": "https://en.wikipedia.org/wiki/The_Prince_of_the_Pagodas",
+     "locator": "Influence of Balinese gamelan on the music"
+    }
+   ]
+  },
+  {
+   "id": "landowska--poulenc-concert-champetre",
+   "from": "landowska",
+   "to": "poulenc",
+   "kind": "championed",
+   "year": 1929,
+   "title": "Poulenc writes a harpsichord concerto for Landowska",
+   "works": {
+    "from": "Wanda Landowska’s Pleyel harpsichord",
+    "to": "Concert champêtre (1927–28)"
+   },
+   "claim": "<p>[[poulenc]] composed his <i>Concert champêtre</i> for the harpsichordist Wanda Landowska, a friend and colleague from 1923. She gave the first performance with the Orchestre Symphonique de Paris under Pierre Monteux at the Salle Pleyel on 3 May 1929.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Concert champêtre",
+     "url": "https://en.wikipedia.org/wiki/Concert_champ%C3%AAtre",
+     "locator": "Premiere"
+    },
+    {
+     "title": "Wikipedia: Francis Poulenc",
+     "url": "https://en.wikipedia.org/wiki/Francis_Poulenc",
+     "locator": "1920s"
+    }
+   ]
+  },
+  {
+   "id": "jammes--lili-boulanger-clairieres",
+   "from": "jammes",
+   "to": "lili-boulanger",
+   "kind": "set-text",
+   "year": 1914,
+   "title": "Francis Jammes’s poems become Lili Boulanger’s song cycle",
+   "works": {
+    "from": "Poems by Francis Jammes",
+    "to": "Clairières dans le ciel (1914)"
+   },
+   "claim": "<p>[[lili-boulanger]]’s song cycle <i>Clairières dans le ciel</i> is set to poems by Francis Jammes. It stands with her three psalms for chorus and orchestra, the diptych <i>D’un soir triste</i> and <i>D’un matin de printemps</i>, and her Prix de Rome cantata <i>Faust et Hélène</i> among the works that made her reputation.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Lili Boulanger",
+     "url": "https://en.wikipedia.org/wiki/Lili_Boulanger",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "birdsong--messiaen-oiseaux",
+   "from": "birdsong",
+   "to": "messiaen",
+   "kind": "heard",
+   "year": 1952,
+   "title": "Messiaen notates birdsong and writes it into music",
+   "works": {
+    "from": "Birdsong, notated in the field",
+    "to": "Le merle noir (1952); Réveil des oiseaux (1953)"
+   },
+   "claim": "<p>[[messiaen]] was fascinated by birdsong and notated it around the world. Birds had appeared in several earlier works, but the flute piece <i>Le merle noir</i> was based entirely on the song of the blackbird; the orchestral <i>Réveil des oiseaux</i> (1953) took the idea further, its material consisting almost entirely of the birdsong one might hear between midnight and noon in the Jura. From then on he incorporated birdsong transcriptions into his compositions.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Olivier Messiaen",
+     "url": "https://en.wikipedia.org/wiki/Olivier_Messiaen",
+     "locator": "Birdsong and the 1960s"
+    }
+   ]
+  },
+  {
+   "id": "debussy--messiaen-pelleas",
+   "from": "debussy",
+   "to": "messiaen",
+   "kind": "heard",
+   "year": 1919,
+   "title": "A gift of Pelléas becomes “a thunderbolt” for Messiaen",
+   "works": {
+    "from": "Pelléas et Mélisande (1902)",
+    "to": "Messiaen’s early music"
+   },
+   "claim": "<p>At Nantes, one of Messiaen’s teachers, Jehan de Gibon, gave him a score of [[debussy]]’s opera <i>Pelléas et Mélisande</i>. [[messiaen]] called it “a thunderbolt” and “probably the most decisive influence on me”. He entered the Paris Conservatoire in 1919, aged eleven.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Olivier Messiaen",
+     "url": "https://en.wikipedia.org/wiki/Olivier_Messiaen",
+     "locator": "Youth and studies"
+    }
+   ]
+  },
+  {
+   "id": "nancarrow--ligeti-player-piano-studies",
+   "from": "nancarrow",
+   "to": "ligeti",
+   "kind": "heard",
+   "year": 1980,
+   "title": "Ligeti discovers Nancarrow’s player-piano Studies",
+   "works": {
+    "from": "Studies for Player Piano",
+    "to": "Ligeti’s Piano Études and Piano Concerto (1980s)"
+   },
+   "claim": "<p>[[ligeti]] first met Nancarrow’s name through a Berlin festival of mechanical music in January 1980, and was fascinated by the complexity and temporal layering of a score page of Study No. 36 in its catalogue. He called Nancarrow’s music “the greatest discovery since Webern and Ives”. His Piano Études draw on sources that include gamelan, African polyrhythms, Bartók, Monk, Bill Evans and Nancarrow.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Nancarrow und Ligeti (nancarrow.de, in German)",
+     "url": "https://www.nancarrow.de/ligeti_u__nancarrow.htm",
+     "locator": "the Berlin festival, January 1980; Study No. 36"
+    },
+    {
+     "title": "Wikipedia: Conlon Nancarrow",
+     "url": "https://en.wikipedia.org/wiki/Conlon_Nancarrow",
+     "locator": "Reception"
+    },
+    {
+     "title": "Wikipedia: György Ligeti",
+     "url": "https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Ligeti",
+     "locator": "Piano Études"
+    }
+   ]
+  },
+  {
+   "id": "messiaen--boulez-harmony-class",
+   "from": "messiaen",
+   "to": "boulez",
+   "kind": "studied-with",
+   "year": 1945,
+   "title": "Boulez joins Messiaen’s advanced harmony class",
+   "works": {
+    "from": "Messiaen’s private seminars and Conservatoire class",
+    "to": "Boulez’s earliest published works"
+   },
+   "claim": "<p>In June 1944 [[boulez]] approached [[messiaen]] and asked to study harmony with him. Messiaen invited him to attend the private seminars he gave to selected students, and in January 1945 Boulez joined his advanced harmony class at the Conservatoire de Paris. He also studied counterpoint privately with Andrée Vaurabourg and, with René Leibowitz, twelve-note technique.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Pierre Boulez",
+     "url": "https://en.wikipedia.org/wiki/Pierre_Boulez",
+     "locator": "Early life and studies"
+    }
+   ]
+  },
+  {
+   "id": "schoenberg--boulez-schoenberg-is-dead",
+   "from": "schoenberg",
+   "to": "boulez",
+   "kind": "reacted-against",
+   "year": 1952,
+   "title": "Boulez declares “Schoenberg is Dead”",
+   "works": {
+    "from": "Schoenberg’s twelve-note music",
+    "to": "“Schoenberg is Dead”, The Score (1952)"
+   },
+   "claim": "<p>A 1952 article in the British journal <i>The Score</i>, published shortly after [[schoenberg]]’s death, first brought [[boulez]] international attention as a writer. In it he attacked Schoenberg for conservatism, contrasting him with the radicalism of Webern. The article caused widespread controversy, although Boulez had learned twelve-note technique privately with René Leibowitz, a champion of Schoenberg.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Pierre Boulez",
+     "url": "https://en.wikipedia.org/wiki/Pierre_Boulez",
+     "locator": "Writing and teaching"
+    }
+   ]
+  },
+  {
+   "id": "mallarme--boulez-pli-selon-pli",
+   "from": "mallarme",
+   "to": "boulez",
+   "kind": "set-text",
+   "year": 1960,
+   "title": "Boulez folds Mallarmé’s sonnets into Pli selon pli",
+   "works": {
+    "from": "Sonnets by Stéphane Mallarmé",
+    "to": "Pli selon pli, “Portrait de Mallarmé” (first performed 1960)"
+   },
+   "claim": "<p>[[boulez]]’s <i>Pli selon pli</i> (“Fold by fold”), subtitled <i>Portrait de Mallarmé</i>, is a work in five movements for solo soprano and orchestra whose text is drawn from sonnets by Mallarmé. It was first performed in 1960 at Baden-Baden, sixty-six years after [[debussy]] answered another Mallarmé poem with the <i>Prélude à l’après-midi d’un faune</i>.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Pli selon pli",
+     "url": "https://en.wikipedia.org/wiki/Pli_selon_pli",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "cage--boulez-sonatas-interludes",
+   "from": "cage",
+   "to": "boulez",
+   "kind": "championed",
+   "year": 1949,
+   "title": "Cage opens publishers’ doors to Boulez",
+   "works": {
+    "from": "Sonatas and Interludes for prepared piano (1946–48)",
+    "to": "Boulez’s early publications"
+   },
+   "claim": "<p>[[boulez]]’s friendship with John Cage began in 1949, when Cage was visiting Paris. Cage introduced him to two publishers, Heugel and Amphion, who agreed to take his recent pieces, and Boulez helped arrange a private performance of Cage’s <i>Sonatas and Interludes</i> for prepared piano.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Pierre Boulez",
+     "url": "https://en.wikipedia.org/wiki/Pierre_Boulez",
+     "locator": "Early career: John Cage and Karlheinz Stockhausen"
+    }
+   ]
+  },
+  {
+   "id": "cage--feldman-webern-lobby",
+   "from": "cage",
+   "to": "feldman",
+   "kind": "heard",
+   "year": 1950,
+   "title": "Feldman meets Cage after Webern’s Symphony",
+   "works": {
+    "from": "Webern’s Symphony, Op. 21 at Carnegie Hall (January 1950)",
+    "to": "Feldman’s graph pieces and Projections"
+   },
+   "claim": "<p>In January 1950 [[feldman]] met John Cage walking out of Carnegie Hall, where both had gone to hear the New York Philharmonic under Dimitri Mitropoulos play Webern’s Symphony, Op. 21. Feldman soon moved into Cage’s apartment building on Grand Street, and through Cage met Jackson Pollock, Philip Guston and Frank O’Hara.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "IRCAM: Morton Feldman, biography",
+     "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography",
+     "locator": "January 1950"
+    },
+    {
+     "title": "Wikipedia: Morton Feldman",
+     "url": "https://en.wikipedia.org/wiki/Morton_Feldman",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "rothko--feldman-rothko-chapel",
+   "from": "rothko",
+   "to": "feldman",
+   "kind": "depicted",
+   "year": 1971,
+   "title": "Rothko’s paintings inspire Feldman’s Rothko Chapel",
+   "works": {
+    "from": "Mark Rothko’s paintings in the Rothko Chapel, Houston",
+    "to": "Rothko Chapel (1971)"
+   },
+   "claim": "<p>In the 1970s [[feldman]] wrote a number of pieces about twenty minutes long, among them <i>Rothko Chapel</i> (1971), written for the building in Houston that houses paintings by Mark Rothko. He found inspiration in abstract expressionist painting and knew its painters through Cage, who introduced him to Jackson Pollock, Philip Guston and Frank O’Hara.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Morton Feldman",
+     "url": "https://en.wikipedia.org/wiki/Morton_Feldman",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "gregorian-chant--part-tintinnabuli",
+   "from": "gregorian-chant",
+   "to": "part",
+   "kind": "modelled",
+   "year": 1976,
+   "title": "Pärt studies chant and Notre Dame polyphony before tintinnabuli",
+   "works": {
+    "from": "Gregorian chant and the Notre Dame School",
+    "to": "Für Alina (1976) and the tintinnabuli style"
+   },
+   "claim": "<p>After <i>Credo</i> (1968), [[part]] entered a creative crisis that lasted eight years. During that time he joined the Orthodox Church and studied Gregorian chant, the Notre Dame School and classic vocal polyphony. In 1976 he emerged with a new and highly original musical language that he called tintinnabuli, first heard in the piano piece <i>Für Alina</i>.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Arvo Pärt Centre: Arvo Pärt",
+     "url": "https://www.arvopart.ee/en/arvo-part/",
+     "locator": "the crisis and the years of study"
+    },
+    {
+     "title": "Encyclopedia.com: Arvo Pärt",
+     "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/arvo-part",
+     "locator": "study of medieval music and Notre Dame organum"
+    }
+   ]
+  },
+  {
+   "id": "britten--part-cantus",
+   "from": "britten",
+   "to": "part",
+   "kind": "dedicated",
+   "year": 1977,
+   "title": "Pärt mourns Britten in a descending cantus",
+   "works": {
+    "from": "Britten’s music and example",
+    "to": "Cantus in Memoriam Benjamin Britten (1977)"
+   },
+   "claim": "<p>[[part]] composed <i>Cantus in Memoriam Benjamin Britten</i> for string orchestra and bell as an elegy for [[britten]], who died in December 1976. Pärt greatly admired him, describing in Britten the “unusual purity” that he himself sought as a composer. The work is an early example of Pärt’s tintinnabuli style.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Cantus in Memoriam Benjamin Britten",
+     "url": "https://en.wikipedia.org/wiki/Cantus_in_Memoriam_Benjamin_Britten",
+     "locator": "Introduction"
+    }
+   ]
+  },
+  {
+   "id": "ewe-drumming--reich-ghana",
+   "from": "ewe-drumming",
+   "to": "reich",
+   "kind": "studied-with",
+   "year": 1970,
+   "title": "Reich studies Ewe drumming in Ghana",
+   "works": {
+    "from": "Ewe drumming taught by Gideon Alorwoyie, Legon (June 1970)",
+    "to": "Drumming (1970–71)"
+   },
+   "claim": "<p>In June 1970 [[reich]] travelled to the University of Ghana to study polyrhythmic music for five weeks with the Ewe master drummer Gideon Alorwoyie. From this experience, and from A. M. Jones’s <i>Studies in African Music</i> on the Ewe, he drew inspiration for <i>Drumming</i> (1970–71), which he began composing shortly after his return.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Steve Reich",
+     "url": "https://en.wikipedia.org/wiki/Steve_Reich",
+     "locator": "Career: 1970s"
+    }
+   ]
+  },
+  {
+   "id": "gamelan-bali--reich-music-for-18",
+   "from": "gamelan-bali",
+   "to": "reich",
+   "kind": "studied-with",
+   "year": 1973,
+   "title": "Reich studies Balinese gamelan in Seattle and Berkeley",
+   "works": {
+    "from": "Gamelan semar pegulingan and gambang, studied in summer 1973 and 1974",
+    "to": "Music for Mallet Instruments, Voices and Organ (1973)"
+   },
+   "claim": "<p>In the summers of 1973 and 1974 [[reich]] studied Balinese gamelan, the semar pegulingan and the gambang, at Seattle and Berkeley. The experience influenced his <i>Music for Mallet Instruments, Voices and Organ</i> (1973); in 1974 he began writing <i>Music for 18 Musicians</i>.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: Steve Reich",
+     "url": "https://en.wikipedia.org/wiki/Steve_Reich",
+     "locator": "Career: 1970s"
+    }
+   ]
+  },
+  {
+   "id": "kafka--kurtag-kafka-fragments",
+   "from": "kafka",
+   "to": "kurtag",
+   "kind": "set-text",
+   "year": 1987,
+   "title": "Kurtág sets Kafka’s fragments for soprano and violin",
+   "works": {
+    "from": "Kafka’s diaries, letters and notebooks",
+    "to": "Kafka-Fragmente, Op. 24 (1985–87)"
+   },
+   "claim": "<p>[[kurtag]]’s <i>Kafka-Fragmente</i>, Op. 24 (1985–87), for soprano and violin, takes extracts from Kafka’s journals and letters and is broken into forty brief settings organised in four sections. Kurtág was fascinated by the bareness of Kafka’s language, by its sadness and despair, its humour and its depth. The soprano Adrienne Csengery and the violinist András Keller gave the first performance at the Witten Festival of Contemporary Chamber Music in 1987.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Berliner Festspiele: György Kurtág, Kafka Fragments",
+     "url": "https://www.berlinerfestspiele.de/en/maerzmusik/programm/2009/kalender/gyoergy-kurtag-kafka-fragmente",
+     "locator": "work note"
+    },
+    {
+     "title": "ECM Records: György Kurtág, Kafka-Fragmente",
+     "url": "https://ecmrecords.com/product/gyorgy-kurtag-kafka-fragmente-juliane-banse-andras-keller/",
+     "locator": "première at Witten, 1987"
+    }
+   ]
+  },
+  {
+   "id": "cage--adams-silence",
+   "from": "cage",
+   "to": "adams",
+   "kind": "heard",
+   "year": 1970,
+   "title": "Cage’s Silence loosens Adams’s modernist training",
+   "works": {
+    "from": "Silence: Lectures and Writings (1961)",
+    "to": "Adams’s music from the 1970s"
+   },
+   "claim": "<p>[[adams]]’s early work was aligned with modernist music, but he began to disagree with its tenets on reading John Cage’s <i>Silence: Lectures and Writings</i>. Teaching at the San Francisco Conservatory of Music, he went on to develop a style of his own.</p>",
+   "status": "inferred",
+   "note": "The date is not given in the source; the year 1970 stands for the late 1960s and early 1970s of his training and is approximate.",
+   "sources": [
+    {
+     "title": "Wikipedia: John Adams (composer)",
+     "url": "https://en.wikipedia.org/wiki/John_Adams_(composer)",
+     "locator": "Early life and career"
+    }
+   ]
+  },
+  {
+   "id": "jaufre-rudel--saariaho-amour-de-loin",
+   "from": "jaufre-rudel",
+   "to": "saariaho",
+   "kind": "depicted",
+   "year": 2000,
+   "title": "A troubadour’s love from afar becomes Saariaho’s opera",
+   "works": {
+    "from": "Jaufré Rudel, 12th-century troubadour poet",
+    "to": "L’Amour de loin (2000)"
+   },
+   "claim": "<p>[[saariaho]] became familiar in 1993 with the twelfth-century troubadour Jaufré Rudel, the poet of far-off love (<i>amor de lonh</i>). She did not think herself capable of writing an opera until she saw Peter Sellars’s staging of Messiaen’s <i>Saint François d’Assise</i> at the 1992 Salzburg Festival. With a libretto by Amin Maalouf, <i>L’Amour de loin</i> (“Love from Afar”) was first performed at the Salzburg Festival on 15 August 2000.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Wikipedia: L'Amour de loin",
+     "url": "https://en.wikipedia.org/wiki/L'Amour_de_loin",
+     "locator": "Background and premiere"
+    }
+   ]
+  },
+  {
+   "id": "couperin--ades-three-studies",
+   "from": "couperin",
+   "to": "ades",
+   "kind": "modelled",
+   "year": 2006,
+   "title": "Adès re-scores three Couperin harpsichord pieces",
+   "works": {
+    "from": "Pièces de clavecin: Les Amusemens, Les Tours de passe-passe, L’Âme-en-peine",
+    "to": "Three Studies from Couperin (2006)"
+   },
+   "claim": "<p>[[ades]]’s <i>Three Studies from Couperin</i> (2006), written for the Basle Chamber Orchestra, reconfigure keyboard pieces by [[couperin]] — <i>Les Amusemens</i>, <i>Les Tours de passe-passe</i> and <i>L’Âme-en-peine</i> — for two string ensembles with solo winds and percussion. Because Couperin’s style involves a great deal of repetition, Adès varies it by altering the orchestration or adding shadows and haloes to the parts.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "IRCAM Brahms database: Thomas Adès, Three Studies from Couperin",
+     "url": "https://brahms.ircam.fr/en/work/three-studies-from-couperin",
+     "locator": "programme note"
+    }
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "id": "hokusai",
+   "name": "Katsushika Hokusai",
+   "dates": "1760–1849",
+   "year": 1760,
+   "kind": "painter"
+  },
+  {
+   "id": "mallarme",
+   "name": "Stéphane Mallarmé",
+   "dates": "1842–1898",
+   "year": 1842,
+   "kind": "poet"
+  },
+  {
+   "id": "gamelan-java",
+   "name": "Javanese gamelan",
+   "dates": "Living tradition",
+   "year": 1500,
+   "kind": "tradition"
+  },
+  {
+   "id": "gamelan-bali",
+   "name": "Balinese gamelan",
+   "dates": "Living tradition",
+   "year": 1500,
+   "kind": "tradition"
+  },
+  {
+   "id": "nietzsche",
+   "name": "Friedrich Nietzsche",
+   "dates": "1844–1900",
+   "year": 1844,
+   "kind": "philosopher"
+  },
+  {
+   "id": "tolstoy",
+   "name": "Leo Tolstoy",
+   "dates": "1828–1910",
+   "year": 1828,
+   "kind": "writer"
+  },
+  {
+   "id": "pergolesi",
+   "name": "Giovanni Battista Pergolesi",
+   "dates": "1710–1736",
+   "year": 1710,
+   "kind": "composer"
+  },
+  {
+   "id": "gregorian-chant",
+   "name": "Gregorian chant",
+   "dates": "Medieval tradition",
+   "year": 800,
+   "kind": "tradition"
+  },
+  {
+   "id": "cage",
+   "name": "John Cage",
+   "dates": "1912–1992",
+   "year": 1912,
+   "kind": "composer"
+  },
+  {
+   "id": "kandinsky",
+   "name": "Wassily Kandinsky",
+   "dates": "1866–1944",
+   "year": 1866,
+   "kind": "painter"
+  },
+  {
+   "id": "larin-paraske",
+   "name": "Larin Paraske",
+   "dates": "1833–1904",
+   "year": 1833,
+   "kind": "performer"
+  },
+  {
+   "id": "peladan",
+   "name": "Joséphin Péladan",
+   "dates": "1858–1918",
+   "year": 1858,
+   "kind": "writer"
+  },
+  {
+   "id": "newman",
+   "name": "John Henry Newman",
+   "dates": "1801–1890",
+   "year": 1801,
+   "kind": "poet"
+  },
+  {
+   "id": "stefan-george",
+   "name": "Stefan George",
+   "dates": "1868–1933",
+   "year": 1868,
+   "kind": "poet"
+  },
+  {
+   "id": "buchner",
+   "name": "Georg Büchner",
+   "dates": "1813–1837",
+   "year": 1813,
+   "kind": "writer"
+  },
+  {
+   "id": "isaac",
+   "name": "Heinrich Isaac",
+   "dates": "c. 1450–1517",
+   "year": 1450,
+   "kind": "composer"
+  },
+  {
+   "id": "hungarian-peasant-song",
+   "name": "Hungarian peasant song",
+   "dates": "Oral tradition",
+   "year": 1800,
+   "kind": "tradition"
+  },
+  {
+   "id": "lithuanian-folk-song",
+   "name": "Lithuanian folk song",
+   "dates": "Oral tradition",
+   "year": 1800,
+   "kind": "tradition"
+  },
+  {
+   "id": "chinese-folk-melody",
+   "name": "Chinese folk melody (Mòlìhuā)",
+   "dates": "Oral tradition",
+   "year": 1800,
+   "kind": "tradition"
+  },
+  {
+   "id": "american-hymn-and-band",
+   "name": "American hymn tunes and town bands",
+   "dates": "19th-century tradition",
+   "year": 1850,
+   "kind": "tradition"
+  },
+  {
+   "id": "birdsong",
+   "name": "Birdsong",
+   "dates": "Nature",
+   "year": 1600,
+   "kind": "tradition"
+  },
+  {
+   "id": "purcell",
+   "name": "Henry Purcell",
+   "dates": "1659–1695",
+   "year": 1659,
+   "kind": "composer"
+  },
+  {
+   "id": "auden",
+   "name": "W. H. Auden",
+   "dates": "1907–1973",
+   "year": 1907,
+   "kind": "poet"
+  },
+  {
+   "id": "nancarrow",
+   "name": "Conlon Nancarrow",
+   "dates": "1912–1997",
+   "year": 1912,
+   "kind": "composer"
+  },
+  {
+   "id": "rothko",
+   "name": "Mark Rothko",
+   "dates": "1903–1970",
+   "year": 1903,
+   "kind": "painter"
+  },
+  {
+   "id": "ewe-drumming",
+   "name": "Ewe drumming of Ghana",
+   "dates": "Oral tradition",
+   "year": 1700,
+   "kind": "tradition"
+  },
+  {
+   "id": "kafka",
+   "name": "Franz Kafka",
+   "dates": "1883–1924",
+   "year": 1883,
+   "kind": "writer"
+  },
+  {
+   "id": "jaufre-rudel",
+   "name": "Jaufré Rudel",
+   "dates": "12th century",
+   "year": 1140,
+   "kind": "poet"
+  },
+  {
+   "id": "landowska",
+   "name": "Wanda Landowska",
+   "dates": "1879–1959",
+   "year": 1879,
+   "kind": "performer"
+  },
+  {
+   "id": "jammes",
+   "name": "Francis Jammes",
+   "dates": "1868–1938",
+   "year": 1868,
+   "kind": "poet"
+  }
+ ]
+}

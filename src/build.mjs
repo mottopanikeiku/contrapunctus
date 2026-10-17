@@ -254,7 +254,7 @@ function persist(ctx) {
 </div>`;
 }
 const headScripts = (ctx) => `<link rel="stylesheet" href="${ctx.base}assets/css/shared.css?v=${V.shared}">
-<link rel="modulepreload" href="${ctx.base}assets/js/player.js?v=${V.player}">
+<link rel="modulepreload" href="${ctx.base}assets/js/player.js">
 <script type="module" src="${ctx.base}assets/js/app.js?v=${V.app}"></script>`;
 
 function layout(ctx, { title, description, body, dark = false, accent, nav, ogImage, head = '', modules = [] }) {
@@ -393,7 +393,7 @@ function eraPage(e) {
 
 function indexPage() {
   const ctx = { base: '', page: 'index' };
-  const slides = site.heroSlides.map((s, i) => `<div class="hero-slide${i === 0 ? ' on' : ''}" style="--origin:${s.focus ?? '50% 40%'}" data-caption="${attr(`<b>${s.kicker}</b><cite>${esc(s.title)}</cite> — ${esc(s.artist)}, ${esc(s.date)}`)}">${img(ctx, s.file, `${s.artist}, ${s.title}`, { eager: i === 0, sizes: '100vw' })}</div>`).join('');
+  const slides = site.heroSlides.map((s, i) => `<div class="hero-slide${i === 0 ? ' on' : ''}" style="--origin:${s.focus ?? '50% 40%'}" data-caption="${attr(`<b>${s.kicker}</b><cite>${esc(s.title)}</cite> — ${esc(s.artist)}, ${esc(s.date)}`)}">${i === 0 ? img(ctx, s.file, `${s.artist}, ${s.title}`, { eager: true, sizes: '100vw' }) : img(ctx, s.file, `${s.artist}, ${s.title}`, { sizes: '100vw' }).replace(/ (srcset|src)="/g, ' data-$1="')}</div>`).join('');  // later slides load just before they are shown
   const movements = eras.map((e) => {
     const list = composers.filter((c) => c.era === e.slug);
     return `<article class="movement" style="--accent:${e.accent}"><div class="movement-art">${painting(ctx, { ...e.hero }, { sizes: '(max-width: 860px) 100vw, 50vw' })}</div>
@@ -908,7 +908,7 @@ const out = async (rel, html) => { written.add(rel); await emit(rel, html); };
 const PROG = await programme();
 PROG_V = createHash('md5').update(JSON.stringify(PROG)).digest('hex').slice(0, 8);  // versions programme.json and assets/hall/*.json
 const influenceModule = existsSync(path.join(ROOT, 'src/influence.mjs')) ? await import('./influence.mjs') : null;
-if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
+if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, furtherReading, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
 await out('index.html', indexPage());
 await out('hall.html', await roomPage(PROG));
 await out('atlas.html', `<!doctype html><meta charset="utf-8"><title>Contrapunctus</title><meta http-equiv="refresh" content="0; url=index.html"><link rel="canonical" href="index.html"><a href="index.html">Contrapunctus</a>`);

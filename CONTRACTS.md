@@ -208,7 +208,7 @@ glossary page directing readers to the Workshop; no guessed definitions appear.
 `cite`, item `kind` and `note` are non-empty strings; `url` is optional.
 Citation text may mark an italic title with `*title*`; HTML is escaped.
 IDs match canonical composer or era slugs (not numbered source filenames).
-Known topics: `origins`, `workshop`, `recording-history`, `performance-practice`.
+Known topics: `origins`, `workshop`, `recording-history`, `performance-practice`, `influence`.
 Missing bibliography files omit the reading section. Validate these and the
 glossary with `node tools/validate.mjs content/glossary.mjs content/bibliography/*.json`.
 Existence and bibliographic accuracy of cited publications still require source
@@ -257,9 +257,13 @@ One-sided exhibits are permitted for a text or artwork paired with music.
 Listening times must come from that recording’s existing cues, sections or
 transitions. Optional `art: { file, caption }` requires a real Commons file.
 
-`src/influence.mjs` builds the deterministic layout: birth/figure year sets the
-horizontal position (years before 1650 are compressed), while an edge’s year
-dates the event. Mobile presents a birth-order timeline. The build writes
+`src/influence.mjs` builds a full-viewport sky with a density-adaptive time axis:
+birth/figure years remain in chronological order, years before 1650 are
+compressed, and crowded generations receive more horizontal room. The axis is
+not a uniform scale of elapsed years; an edge’s year dates the event. Cameo and
+nameplate positions are computed deterministically at build time, not by a
+browser force-layout. Mobile presents a birth-order timeline. The public batch
+and Hall schemas are unchanged. The build writes
 `docs/assets/influence.json` for the compact index and
 `docs/assets/influence-details.json` for on-demand cards.
 `influenceSection(ctx, slug)` supplies the sourced inheritance section between

@@ -1,0 +1,24 @@
+{
+ "id": "after-1945",
+ "kind": "era",
+ "items": [
+  {
+   "cite": "Alex Ross, *The Rest Is Noise: Listening to the Twentieth Century* (Farrar, Straus and Giroux, 2007).",
+   "url": "https://us.macmillan.com/books/9781429932882/therestisnoise/",
+   "kind": "survey",
+   "note": "A narrative history that connects composers with politics and cultural life, including postwar America and the European avant-garde."
+  },
+  {
+   "cite": "Nicholas Cook and Anthony Pople, eds, *The Cambridge History of Twentieth-Century Music* (Cambridge University Press, 2004).",
+   "url": "https://www.cambridge.org/core/books/cambridge-history-of-twentiethcentury-music/E928BAE181029624B93340FC0B689BFB",
+   "kind": "survey",
+   "note": "Relates art music, popular traditions, technology and musical consumption within a wider social history."
+  },
+  {
+   "cite": "Steve Reich, *Writings on Music, 1965–2000* (Oxford University Press, 2004 paperback).",
+   "url": "https://stevereich.com/oxford-university-press-paperback-writings-on-music-steve-reich/",
+   "kind": "study",
+   "note": "Includes Music as a Gradual Process and writings on tape, phase shifting, speech melody and instrumental composition."
+  }
+ ]
+}

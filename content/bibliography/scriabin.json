@@ -1,24 +1,24 @@
 {
-  "id": "scriabin",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "Faubion Bowers, *Scriabin: A Biography* (Dover, 1996).",
-      "url": "https://openlibrary.org/books/OL807990M",
-      "kind": "biography",
-      "note": "EXT — A biographical account to set beside technical studies of the compositions."
-    },
-    {
-      "cite": "James M. Baker, *The Music of Alexander Scriabin* (Yale University Press, 1986).",
-      "url": "https://yalebooks.yale.edu/book/9780300033373/the-music-of-alexander-scriabin/",
-      "kind": "study",
-      "note": "EXT — A dedicated analytical study of Scriabin’s musical language."
-    },
-    {
-      "cite": "Anna M. Gawboy and Justin Townsend, ‘Scriabin and the Possible’, *Music Theory Online* 18, no. 2 (2012).",
-      "url": "https://www.mtosmt.org/issues/mto.12.18.2/mto.12.18.2.gawboy_townsend.html",
-      "kind": "study",
-      "note": "EXT — Re-examines the surviving light notation for Prometheus and documents a performance that tests its relation to the music."
-    }
-  ]
+ "id": "scriabin",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Faubion Bowers, *Scriabin: A Biography* (Dover, 1996).",
+   "url": "https://openlibrary.org/books/OL807990M",
+   "kind": "biography",
+   "note": "A biographical account to set beside technical studies of the compositions."
+  },
+  {
+   "cite": "James M. Baker, *The Music of Alexander Scriabin* (Yale University Press, 1986).",
+   "url": "https://yalebooks.yale.edu/book/9780300033373/the-music-of-alexander-scriabin/",
+   "kind": "study",
+   "note": "A dedicated analytical study of Scriabin’s musical language."
+  },
+  {
+   "cite": "Anna M. Gawboy and Justin Townsend, ‘Scriabin and the Possible’, *Music Theory Online* 18, no. 2 (2012).",
+   "url": "https://www.mtosmt.org/issues/mto.12.18.2/mto.12.18.2.gawboy_townsend.html",
+   "kind": "study",
+   "note": "Re-examines the surviving light notation for Prometheus and documents a performance that tests its relation to the music."
+  }
+ ]
 }

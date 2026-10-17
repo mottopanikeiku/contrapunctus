@@ -1,0 +1,24 @@
+{
+ "id": "reich",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Steve Reich, *Writings on Music, 1965–2000* (Oxford University Press, 2004 paperback).",
+   "url": "https://stevereich.com/oxford-university-press-paperback-writings-on-music-steve-reich/",
+   "kind": "study",
+   "note": "Includes Music as a Gradual Process and writings on tape, phase shifting, speech melody and instrumental composition."
+  },
+  {
+   "cite": "Steve Reich, *Conversations* (Hanover Square Press, 2022).",
+   "url": "https://www.nonesuch.com/journal/steve-reich-release-conversations-book-harpercollins-hanover-square-press-march-8-2022-2021-10-01",
+   "kind": "reference",
+   "note": "Conversations with performers, composers, visual artists and other collaborators about the making of the music."
+  },
+  {
+   "cite": "Steve Reich, ‘Clapping Music’ (online composer’s note).",
+   "url": "https://stevereich.com/composition/clapping-music/",
+   "kind": "study",
+   "note": "A primary account of the practical motivation and process of a piece requiring only performers’ hands."
+  }
+ ]
+}

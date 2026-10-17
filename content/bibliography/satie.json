@@ -1,24 +1,24 @@
 {
-  "id": "satie",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "Robert Orledge, *Satie the Composer* (Cambridge University Press, 1990).",
-      "url": "https://openlibrary.org/books/OL21099915M",
-      "kind": "study",
-      "note": "EXT — A book-length study of Satie’s work rather than a collection limited to the familiar piano pieces."
-    },
-    {
-      "cite": "Caroline Potter, *Erik Satie: A Parisian Composer and His World* (Boydell Press, 2016).",
-      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb450045475",
-      "kind": "study",
-      "note": "EXT — Chapters treat mechanical music, texted piano works, repetition, furniture music, politics and Dada."
-    },
-    {
-      "cite": "Mary E. Davis, *Erik Satie* (2007).",
-      "url": "https://openlibrary.org/works/OL37841070W",
-      "kind": "biography",
-      "note": "EXT — A concise biographical point of entry; the catalogue record identifies the author and work."
-    }
-  ]
+ "id": "satie",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Robert Orledge, *Satie the Composer* (Cambridge University Press, 1990).",
+   "url": "https://openlibrary.org/books/OL21099915M",
+   "kind": "study",
+   "note": "A book-length study of Satie’s work rather than a collection limited to the familiar piano pieces."
+  },
+  {
+   "cite": "Caroline Potter, *Erik Satie: A Parisian Composer and His World* (Boydell Press, 2016).",
+   "url": "https://catalogue.bnf.fr/ark%3A/12148/cb450045475",
+   "kind": "study",
+   "note": "Chapters treat mechanical music, texted piano works, repetition, furniture music, politics and Dada."
+  },
+  {
+   "cite": "Mary E. Davis, *Erik Satie* (2007).",
+   "url": "https://openlibrary.org/works/OL37841070W",
+   "kind": "biography",
+   "note": "A concise biographical point of entry; the catalogue record identifies the author and work."
+  }
+ ]
 }

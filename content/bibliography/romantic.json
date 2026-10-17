@@ -1,0 +1,24 @@
+{
+ "id": "romantic",
+ "kind": "era",
+ "items": [
+  {
+   "cite": "Carl Dahlhaus, *Nineteenth-Century Music*, translated by J. Bradford Robinson (University of California Press, 1991 paperback).",
+   "url": "https://staging.ucpress.edu/books/nineteenth-century-music/paper",
+   "kind": "survey",
+   "note": "A history of nineteenth-century music to compare with the multi-author Cambridge account."
+  },
+  {
+   "cite": "Leon Plantinga, *Romantic Music: A History of Musical Style in Nineteenth-Century Europe* (W. W. Norton, 1985 edition).",
+   "url": "https://wwnorton.co.uk/books/9780393951967-romantic-music",
+   "kind": "survey",
+   "note": "Follows nineteenth-century genres and styles from Beethoven through the later Romantic composers."
+  },
+  {
+   "cite": "Jim Samson, ed., *The Cambridge History of Nineteenth-Century Music* (Cambridge University Press, 2001).",
+   "url": "https://www.cambridge.org/core/books/cambridge-history-of-nineteenthcentury-music/6061389913188260056DFCA330D56F63",
+   "kind": "survey",
+   "note": "Combines repertory studies with aesthetics, institutions, nationalism, popular culture and the emergence of the avant-garde."
+  }
+ ]
+}

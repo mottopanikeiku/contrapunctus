@@ -1,0 +1,30 @@
+{
+ "id": "verdi",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Julian Budden, *Verdi*, third edition (New York: Oxford University Press, 2008).",
+   "url": "https://ci.nii.ac.jp/ncid/BA88779055",
+   "kind": "biography",
+   "note": "Life-and-works survey centred on the operas."
+  },
+  {
+   "cite": "Roger Parker, ‘Verdi, Giuseppe’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.29191",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Giuseppe Verdi and Arrigo Boito, *The Verdi-Boito Correspondence*, edited by Marcello Conati and Mario Medici, English-language edition prepared by William Weaver (University of Chicago Press, 1994).",
+   "url": "https://press.uchicago.edu/ucp/books/book/chicago/V/bo3632767.html",
+   "kind": "letters",
+   "note": "Composer and librettist debate the creation of the revised Simon Boccanegra, Otello and Falstaff."
+  },
+  {
+   "cite": "Archivio Storico Ricordi, *Letters* (online collection, n.d.; accessed 16 October 2026).",
+   "url": "https://www.archivioricordi.com/en/collections/letters",
+   "kind": "letters",
+   "note": "Free catalogue and digitised correspondence connect Verdi with his publisher and theatrical collaborators."
+  }
+ ]
+}

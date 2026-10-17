@@ -1,24 +1,24 @@
 {
-  "id": "bartok",
-  "kind": "composer",
-  "items": [
-    {
-      "cite": "David Cooper, *Béla Bartók* (Yale University Press, 2015).",
-      "url": "https://openlibrary.org/books/OL27187998M",
-      "kind": "biography",
-      "note": "EXT — Treats ethnomusicology, composition, teaching and piano performance alongside the political circumstances of emigration."
-    },
-    {
-      "cite": "László Somfai, *Béla Bartók* (University of California Press, 1996).",
-      "url": "https://openlibrary.org/books/OL7709895M",
-      "kind": "study",
-      "note": "EXT — A source-oriented study, catalogued under manuscripts and criticism of Bartók’s compositions."
-    },
-    {
-      "cite": "Budapest Bartók Archives, ‘Bartók compositions: In chronological order’ (online catalogue).",
-      "url": "https://zti.hu/en/ba/bartok-compositions/chronology",
-      "kind": "catalogue",
-      "note": "EXT — An institutional work-list for checking dates and the sequence of compositions."
-    }
-  ]
+ "id": "bartok",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "David Cooper, *Béla Bartók* (Yale University Press, 2015).",
+   "url": "https://openlibrary.org/books/OL27187998M",
+   "kind": "biography",
+   "note": "Treats ethnomusicology, composition, teaching and piano performance alongside the political circumstances of emigration."
+  },
+  {
+   "cite": "László Somfai, *Béla Bartók* (University of California Press, 1996).",
+   "url": "https://openlibrary.org/books/OL7709895M",
+   "kind": "study",
+   "note": "A source-oriented study, catalogued under manuscripts and criticism of Bartók’s compositions."
+  },
+  {
+   "cite": "Budapest Bartók Archives, ‘Bartók compositions: In chronological order’ (online catalogue).",
+   "url": "https://zti.hu/en/ba/bartok-compositions/chronology",
+   "kind": "catalogue",
+   "note": "An institutional work-list for checking dates and the sequence of compositions."
+  }
+ ]
 }

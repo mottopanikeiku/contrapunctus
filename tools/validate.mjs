@@ -15,7 +15,7 @@ const ABCJS = require('../docs/assets/vendor/abcjs-basic-min.js');
 const slugs = new Set(Object.values(roster).flat());
 const eras = new Set(Object.keys(roster));
 const pages = new Set(['origins', 'workshop', 'timeline', 'gallery', 'credits', 'index', 'composers', 'glossary', 'sources', 'routes', 'hall', 'atlas', 'influence']);
-const topics = new Set(['origins', 'workshop', 'recording-history', 'performance-practice']);
+const topics = new Set(['origins', 'workshop', 'recording-history', 'performance-practice', 'influence']);
 const ROOT = path.resolve(import.meta.dirname, '..');
 const SLOP = /\b(tapestry|delve|testament to|timeless|masterful(ly)?|myriad|resonat(e|es|ing) with|journey|vibrant|breathtaking|nuanced|showcas(e|es|ing)|realm of|in the world of|seamless(ly)?|elevat(e|es|ing)|captivat(e|es|ing)|unparalleled|profound(ly)?|evocative|lush tapestry|sonic landscape|soundscape)\b/gi;
 

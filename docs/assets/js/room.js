@@ -101,8 +101,8 @@ export async function mount(app) {
     if (t.hasSheet) views.push('score');
     if (score) views.push('notes');
     if (score && score.voices.length >= 6) views.push('orchestra');
-    if (t.sections.length >= 2) views.push('form');
     views.push('sound');
+    if (t.sections.length >= 2) views.push('form');
     ui.views.innerHTML = views.length > 1 ? views.map((v) => `<button role="tab" data-view="${v}">${VIEW_LABEL[v]}</button>`).join('') : '';
     ui.views.hidden = views.length < 2;
     setView(views[0]);
@@ -388,7 +388,7 @@ export async function mount(app) {
         blocks.forEach((b, k) => { b.classList.toggle('on', k === i); b.classList.toggle('past', k < i); });
         arcEls.forEach((a) => a.classList.toggle('on', +a.dataset.a === i || +a.dataset.b === i));
         const s = secs[i];
-        nowL.textContent = s ? `${s.m ? s.m + ' · ' : ''}${s.label}` : '';
+        nowL.textContent = s ? (s.m && !s.label.startsWith(s.m) ? `${s.m} · ${s.label}` : s.label) : '';
         nowN.textContent = s?.mNote ?? '';
       },
     };

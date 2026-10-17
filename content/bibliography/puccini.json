@@ -1,0 +1,36 @@
+{
+ "id": "puccini",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Julian Budden, *Puccini: His Life and Works* (Oxford: Oxford University Press, 2002).",
+   "url": "https://ci.nii.ac.jp/ncid/BA6275813X",
+   "kind": "biography",
+   "note": "Life-and-works account with a work-list and bibliography."
+  },
+  {
+   "cite": "Michele Girardi, ‘Puccini, Giacomo (ii)’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278242",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Dieter Schickling, *Giacomo Puccini: Catalogue of the Works* (Kassel: Bärenreiter, 2003).",
+   "url": "https://puccini.it/opere/",
+   "kind": "catalogue",
+   "note": "Catalogue underlying the Centro Studi’s online work records and Schickling numbers."
+  },
+  {
+   "cite": "Giacomo Puccini, *Epistolario*, vol. 1, *1877–1896*, edited by Gabriella Biagi Ravenni and Dieter Schickling (Florence: Leo S. Olschki, 2015).",
+   "url": "https://puccini.it/progetto-epistolario/",
+   "kind": "letters",
+   "note": "Critical correspondence edition documenting Puccini’s early life and compositional activity."
+  },
+  {
+   "cite": "Centro Studi Giacomo Puccini and Archivio Storico Ricordi, *Edizione digitale dei Carteggi Puccini/Ricordi* (online project, 2024).",
+   "url": "https://puccini.it/edizione-digitale-dei-carteggi-puccini-ricordi/",
+   "kind": "letters",
+   "note": "Free digital correspondence project linking Puccini’s letters with Casa Ricordi’s records."
+  }
+ ]
+}

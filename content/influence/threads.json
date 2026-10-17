@@ -1,51 +1,72 @@
 [
-  {
-    "id": "dies-irae",
-    "name": "Dies irae",
-    "summary": "EXT · Opening eight notes of the Requiem sequence in the Vatican Graduale Romanum (1908), p. 83*. The ABC preserves the pitches; equal note lengths are an editorial aid, not a claim that the chant has a regular beat.",
-    "abc": "X:1\nT:Dies irae — chant incipit\nM:none\nL:1/4\nQ:1/4=90\nK:Ddor\nF E F D E C D D |]",
-    "source": {"title": "Graduale Romanum (Vatican, 1908), p. 83*; GregoBase no. 3441, opening phrase and GABC transcription", "url": "https://gregobase.selapa.net/chant.php?id=3441"}
-  },
-  {
-    "id": "bach-motif",
-    "name": "B–A–C–H",
-    "summary": "EXT · B♭–A–C–B♮ spells Bach in German note names. These pitches are checked against the third subject of the unfinished Art of Fugue, Bach-Gesellschaft engraving, p. 100; the identifying cell is shown an octave higher with equal quarter notes, not the fugue’s original rhythm.",
-    "abc": "X:1\nT:B–A–C–H — pitch cell, rhythm normalised\nM:4/4\nL:1/4\nQ:1/4=72\nK:C\n_B A c =B |]",
-    "source": {"title": "Bach-Gesellschaft Ausgabe XXV/1, p. 100: unfinished fugue, third subject (score excerpt)", "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/B.W.XXV.%281%29p100_-_third_subject_of_the_unfinished_fugue_of_Art_of_Fugue.jpg"}
-  },
-  {
-    "id": "tristan-chord",
-    "name": "The Tristan chord",
-    "summary": "EXT · The first chord of Wagner’s Tristan prelude, bar 2, is spelt F–B–D♯–G♯, not F–A♭–C♭–E♭. This is the isolated sonority in its original register; its four-beat duration is editorial, not a transcription of the surrounding 6/8 phrase.",
-    "abc": "X:1\nT:Tristan — isolated sonority\nM:4/4\nL:1/4\nQ:1/4=60\nK:C\n[F,B,^D^G]4 |]",
-    "source": {"title": "University of Texas at Austin, Tristan und Isolde motives: Prelude to Act I, bars 1–3, score image", "url": "https://www.laits.utexas.edu/tristan/motive1-3.php"}
-  },
-  {
-    "id": "lament-bass",
-    "name": "The lament bass",
-    "summary": "EXT · Purcell’s ground for ‘When I am laid in earth’ descends chromatically from G to D before its cadential turn. The ABC follows the cited bass transcription in G minor and 3/2, including its initial half-bar and final incomplete bar; it is one particular lament ground, not a melody all later laments literally quote.",
-    "abc": "X:1\nT:Dido’s lament — ground bass\nM:3/2\nL:1/2\nQ:1/2=52\nK:Gm clef=bass\nG, | ^F,2 =F, | =E,2 _E, | D,2 B,, | C, D,2 | G,,2 |]",
-    "source": {"title": "Purcell, Dido’s Lament: Analysis, engraved ground-bass example and embedded LilyPond source", "url": "https://en.wikipedia.org/wiki/Dido%27s_Lament#Analysis"}
-  },
-  {
-    "id": "la-folia",
-    "name": "La Folia",
-    "summary": "EXT · The opening eight bars of Vivaldi’s RV 63 present the late Folia melody over its recurring harmonic plan. The ABC is the first violin in D minor, checked against the complete score edited by Louise Cawte; it does not imply that Corelli invented the older Folia tradition.",
-    "abc": "X:1\nT:La Folia — Vivaldi RV 63, bars 1–8\nM:3/4\nL:1/8\nQ:1/4=60\nK:Dm\nd2 d3 d | ^c2 c3 c | d2 d3 d | e2 e3 e | f2 f3 f | e2 e3 e | d2 d3 d | ^c6 |]",
-    "source": {"title": "Vivaldi, Trio Sonata RV 63, first page, first violin bars 1–8; Louise Cawte edition (IMSLP 280769)", "url": "https://vmirror.imslp.org/files/imglnks/usimg/1/1b/IMSLP280769-PMLP126430-follia_score.pdf"}
-  },
-  {
-    "id": "ode-to-joy",
-    "name": "Ode to Joy",
-    "summary": "EXT · Beethoven’s finale melody from the Ninth Symphony is shown in G major, as in the cited public-domain four-part hymn arrangement. This four-bar soprano line is transposed from the symphony’s D major, and is not an orchestral-register quotation.",
-    "abc": "X:1\nT:Ode to Joy — hymn version in G major\nM:4/4\nL:1/4\nQ:1/4=100\nK:G\nB B c d | d c B A | G G A B | B3/2 A/2 A2 |]",
-    "source": {"title": "Mutopia Project, Ode to Joy, public-domain SATB arrangement, soprano bars 1–4; LilyPond source", "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/ode/ode.ly"}
-  },
-  {
-    "id": "frere-jacques",
-    "name": "Frère Jacques in the minor",
-    "summary": "EXT · Mahler’s First Symphony, movement III, bars 3–6: the double bass begins a minor-mode round with the additional F–E eighth-note turn. The ABC gives sounding pitch, one octave below the double bass’s written notes, and omits the timpani and subsequent canonic entries.",
-    "abc": "X:1\nT:Mahler 1, III — solo bass, sounding pitch\nM:4/4\nL:1/4\nQ:1/4=56\nK:Dm clef=bass\nD, E, F,/2 E,/2 D, | D, E, F,/2 E,/2 D, | F, G, A,2 | F, G, A,2 |]",
-    "source": {"title": "Mahler, Symphony No. 1, movement III, score extract, first page: solo double bass bars 3–6", "url": "https://www.mfiles.co.uk/scores/Mahler1-3ext.jpg"}
+ {
+  "id": "dies-irae",
+  "name": "Dies irae",
+  "summary": "Opening eight notes of the Requiem sequence in the Vatican Graduale Romanum (1908), p. 83*. The ABC preserves the pitches; equal note lengths are an editorial aid, not a claim that the chant has a regular beat.",
+  "abc": "X:1\nT:Dies irae — chant incipit\nM:none\nL:1/4\nQ:1/4=90\nK:Ddor\nF E F D E C D D |]",
+  "source": {
+   "title": "Graduale Romanum (Vatican, 1908), p. 83*; GregoBase no. 3441, opening phrase and GABC transcription",
+   "url": "https://gregobase.selapa.net/chant.php?id=3441"
   }
+ },
+ {
+  "id": "bach-motif",
+  "name": "B–A–C–H",
+  "summary": "B♭–A–C–B♮ spells Bach in German note names. These pitches are checked against the third subject of the unfinished Art of Fugue, Bach-Gesellschaft engraving, p. 100; the identifying cell is shown an octave higher with equal quarter notes, not the fugue’s original rhythm.",
+  "abc": "X:1\nT:B–A–C–H — pitch cell, rhythm normalised\nM:4/4\nL:1/4\nQ:1/4=72\nK:C\n_B A c =B |]",
+  "source": {
+   "title": "Bach-Gesellschaft Ausgabe XXV/1, p. 100: unfinished fugue, third subject (score excerpt)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/B.W.XXV.%281%29p100_-_third_subject_of_the_unfinished_fugue_of_Art_of_Fugue.jpg"
+  }
+ },
+ {
+  "id": "tristan-chord",
+  "name": "The Tristan chord",
+  "summary": "The first chord of Wagner’s Tristan prelude, bar 2, is spelt F–B–D♯–G♯, not F–A♭–C♭–E♭. This is the isolated sonority in its original register; its four-beat duration is editorial, not a transcription of the surrounding 6/8 phrase.",
+  "abc": "X:1\nT:Tristan — isolated sonority\nM:4/4\nL:1/4\nQ:1/4=60\nK:C\n[F,B,^D^G]4 |]",
+  "source": {
+   "title": "University of Texas at Austin, Tristan und Isolde motives: Prelude to Act I, bars 1–3, score image",
+   "url": "https://www.laits.utexas.edu/tristan/motive1-3.php"
+  }
+ },
+ {
+  "id": "lament-bass",
+  "name": "The lament bass",
+  "summary": "Purcell’s ground for ‘When I am laid in earth’ descends chromatically from G to D before its cadential turn. The ABC follows the cited bass transcription in G minor and 3/2, including its initial half-bar and final incomplete bar; it is one particular lament ground, not a melody all later laments literally quote.",
+  "abc": "X:1\nT:Dido’s lament — ground bass\nM:3/2\nL:1/2\nQ:1/2=52\nK:Gm clef=bass\nG, | ^F,2 =F, | =E,2 _E, | D,2 B,, | C, D,2 | G,,2 |]",
+  "source": {
+   "title": "Purcell, Dido’s Lament: Analysis, engraved ground-bass example and embedded LilyPond source",
+   "url": "https://en.wikipedia.org/wiki/Dido%27s_Lament#Analysis"
+  }
+ },
+ {
+  "id": "la-folia",
+  "name": "La Folia",
+  "summary": "The opening eight bars of Vivaldi’s RV 63 present the late Folia melody over its recurring harmonic plan. The ABC is the first violin in D minor, checked against the complete score edited by Louise Cawte; it does not imply that Corelli invented the older Folia tradition.",
+  "abc": "X:1\nT:La Folia — Vivaldi RV 63, bars 1–8\nM:3/4\nL:1/8\nQ:1/4=60\nK:Dm\nd2 d3 d | ^c2 c3 c | d2 d3 d | e2 e3 e | f2 f3 f | e2 e3 e | d2 d3 d | ^c6 |]",
+  "source": {
+   "title": "Vivaldi, Trio Sonata RV 63, first page, first violin bars 1–8; Louise Cawte edition (IMSLP 280769)",
+   "url": "https://vmirror.imslp.org/files/imglnks/usimg/1/1b/IMSLP280769-PMLP126430-follia_score.pdf"
+  }
+ },
+ {
+  "id": "ode-to-joy",
+  "name": "Ode to Joy",
+  "summary": "Beethoven’s finale melody from the Ninth Symphony is shown in G major, as in the cited public-domain four-part hymn arrangement. This four-bar soprano line is transposed from the symphony’s D major, and is not an orchestral-register quotation.",
+  "abc": "X:1\nT:Ode to Joy — hymn version in G major\nM:4/4\nL:1/4\nQ:1/4=100\nK:G\nB B c d | d c B A | G G A B | B3/2 A/2 A2 |]",
+  "source": {
+   "title": "Mutopia Project, Ode to Joy, public-domain SATB arrangement, soprano bars 1–4; LilyPond source",
+   "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/ode/ode.ly"
+  }
+ },
+ {
+  "id": "frere-jacques",
+  "name": "Frère Jacques in the minor",
+  "summary": "Mahler’s First Symphony, movement III, bars 3–6: the double bass begins a minor-mode round with the additional F–E eighth-note turn. The ABC gives sounding pitch, one octave below the double bass’s written notes, and omits the timpani and subsequent canonic entries.",
+  "abc": "X:1\nT:Mahler 1, III — solo bass, sounding pitch\nM:4/4\nL:1/4\nQ:1/4=56\nK:Dm clef=bass\nD, E, F,/2 E,/2 D, | D, E, F,/2 E,/2 D, | F, G, A,2 | F, G, A,2 |]",
+  "source": {
+   "title": "Mahler, Symphony No. 1, movement III, score extract, first page: solo double bass bars 3–6",
+   "url": "https://www.mfiles.co.uk/scores/Mahler1-3ext.jpg"
+  }
+ }
 ]

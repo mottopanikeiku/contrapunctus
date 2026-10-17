@@ -1,0 +1,30 @@
+{
+ "id": "tchaikovsky",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Roland John Wiley, *Tchaikovsky* (New York: Oxford University Press, 2009).",
+   "url": "https://openlibrary.org/books/OL18736170M",
+   "kind": "biography",
+   "note": "Scholarly life-and-works study in the Master Musicians series."
+  },
+  {
+   "cite": "Roland John Wiley, ‘Tchaikovsky, Pyotr Il′yich’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.51766",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Alexander Poznansky and Brett Langston, comps, *The Tchaikovsky Handbook: A Guide to the Man and His Music*, 2 vols. (Bloomington: Indiana University Press, 2002).",
+   "url": "https://ci.nii.ac.jp/ncid/BA57755937",
+   "kind": "catalogue",
+   "note": "Thematic works catalogue, photographs, autobiography, correspondence catalogue, genealogy and bibliography."
+  },
+  {
+   "cite": "Tchaikovsky Research, *Letters* (online edition, updated 2024).",
+   "url": "https://en.tchaikovsky-research.net/pages/Letters",
+   "kind": "letters",
+   "note": "Free original texts, translations and source information; translation coverage remains incomplete."
+  }
+ ]
+}

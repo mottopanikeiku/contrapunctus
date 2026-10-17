@@ -1,8 +1,30 @@
 {
-  "id": "rameau", "kind": "composer", "items": [
-    { "cite": "Graham Sadler, *The Rameau Compendium* (Woodbridge: Boydell Press, 2014).", "url": "https://www.cambridge.org/core/books/rameau-compendium/frontmatter/907D484A6D25AA7F43FA6C657E61789A", "kind": "reference", "note": "EXT — Biography, works and a dictionary of the people and institutions around Rameau." },
-    { "cite": "Graham Sadler and Thomas Christensen, ‘Rameau, Jean-Philippe’, *Grove Music Online* (Oxford University Press, 2001).", "url": "https://doi.org/10.1093/gmo/9781561592630.article.22832", "kind": "reference", "note": "EXT — Covers the composer and theorist, with work-list and bibliography; subscription required." },
-    { "cite": "Sylvie Bouissou and Denis Herlin, *Jean-Philippe Rameau: Catalogue thématique des œuvres musicales*, vol. 1, *Musique instrumentale, musique vocale religieuse et profane* (Paris: CNRS Éditions and Bibliothèque nationale de France, 2007).", "url": "https://editions.bnf.fr/jean-philippe-rameau-catalogue-thematique-des-oeuvres-musicales-1-musique-instrumentale-et-vocale", "kind": "catalogue", "note": "EXT — RCT catalogue of instrumental and non-dramatic vocal music, with source descriptions and attribution evidence." },
-    { "cite": "Jean-Philippe Rameau, *Traité de l’harmonie réduite à ses principes naturels* (Paris: Jean-Baptiste-Christophe Ballard, 1722).", "url": "https://imslp.org/wiki/Trait%C3%A9_de_l%27harmonie_r%C3%A9duite_%C3%A0_ses_principes_naturels_(Rameau,_Jean-Philippe)", "kind": "study", "note": "EXT — Freely available French primary text on chords, fundamental bass and accompaniment." }
-  ]
+ "id": "rameau",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Graham Sadler, *The Rameau Compendium* (Woodbridge: Boydell Press, 2014).",
+   "url": "https://www.cambridge.org/core/books/rameau-compendium/frontmatter/907D484A6D25AA7F43FA6C657E61789A",
+   "kind": "reference",
+   "note": "Biography, works and a dictionary of the people and institutions around Rameau."
+  },
+  {
+   "cite": "Graham Sadler and Thomas Christensen, ‘Rameau, Jean-Philippe’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.22832",
+   "kind": "reference",
+   "note": "Covers the composer and theorist, with work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Sylvie Bouissou and Denis Herlin, *Jean-Philippe Rameau: Catalogue thématique des œuvres musicales*, vol. 1, *Musique instrumentale, musique vocale religieuse et profane* (Paris: CNRS Éditions and Bibliothèque nationale de France, 2007).",
+   "url": "https://editions.bnf.fr/jean-philippe-rameau-catalogue-thematique-des-oeuvres-musicales-1-musique-instrumentale-et-vocale",
+   "kind": "catalogue",
+   "note": "RCT catalogue of instrumental and non-dramatic vocal music, with source descriptions and attribution evidence."
+  },
+  {
+   "cite": "Jean-Philippe Rameau, *Traité de l’harmonie réduite à ses principes naturels* (Paris: Jean-Baptiste-Christophe Ballard, 1722).",
+   "url": "https://imslp.org/wiki/Trait%C3%A9_de_l%27harmonie_r%C3%A9duite_%C3%A0_ses_principes_naturels_(Rameau,_Jean-Philippe)",
+   "kind": "study",
+   "note": "Freely available French primary text on chords, fundamental bass and accompaniment."
+  }
+ ]
 }
