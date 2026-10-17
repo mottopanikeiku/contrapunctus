@@ -67,8 +67,10 @@ V:1 name="Strings"
 "augmented"C E G F | E D C D |]`, caption: 'An invented schematic. The first bar’s eight-note contour returns in doubled note values across bars 3–4. This is rhythmic augmentation: a way of hearing how related material can serve a quick movement and a slow one, as in the connected middle movements of Elgar’s First.' },
   ],
   arts: [
-    { type: 'painting', frame: 'gilt', file: 'File:John Joseph Barker (1824-1904) - Near the Malvern Hills - 3063 - Government Art Collection.jpg', artist: 'John Joseph Barker', title: 'Near the Malvern Hills', date: 'Nineteenth century; undated', medium: 'Oil on canvas', collection: 'Government Art Collection, United Kingdom', note: '<p>The Malvern ridge belongs to Elgar’s working geography: he lived at Malvern Link during the years leading to <i>Enigma</i>, walked in the hills and later cycled through Worcestershire. Barker’s painting shares that terrain, with no documented connection to a particular composition. Its cultivated foreground recalls the inhabited countryside on which Elgar’s musical life depended: nearby households, churches, schools and amateur players.</p>' },
-    { type: 'poem', author: 'John Henry Newman', title: 'The Dream of Gerontius — the Angel’s farewell', date: '1865', lang: 'English', original: `Softly and gently, dearly-ransomed soul,
+    { relation: 'shared-context',
+      type: 'painting', frame: 'gilt', file: 'File:John Joseph Barker (1824-1904) - Near the Malvern Hills - 3063 - Government Art Collection.jpg', artist: 'John Joseph Barker', title: 'Near the Malvern Hills', date: 'Nineteenth century; undated', medium: 'Oil on canvas', collection: 'Government Art Collection, United Kingdom', note: '<p>The Malvern ridge belongs to Elgar’s working geography: he lived at Malvern Link during the years leading to <i>Enigma</i>, walked in the hills and later cycled through Worcestershire. Barker’s painting shares that terrain, with no documented connection to a particular composition. Its cultivated foreground recalls the inhabited countryside on which Elgar’s musical life depended: nearby households, churches, schools and amateur players.</p>' },
+    { relation: 'documented-use',
+      type: 'poem', author: 'John Henry Newman', title: 'The Dream of Gerontius — the Angel’s farewell', date: '1865', lang: 'English', original: `Softly and gently, dearly-ransomed soul,
 In my most loving arms I now enfold thee,
 And, o’er the penal waters, as they roll,
 I poise thee, and I lower thee, and hold thee.

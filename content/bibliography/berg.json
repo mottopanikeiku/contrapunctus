@@ -1,0 +1,24 @@
+{
+ "id": "berg",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Douglas Jarman, *The Music of Alban Berg* (University of California Press, 1979).",
+   "url": "https://openlibrary.org/books/OL4563289M",
+   "kind": "study",
+   "note": "A book-length analytical study of Berg’s compositions."
+  },
+  {
+   "cite": "Anthony Pople, *Berg: Violin Concerto* (Cambridge University Press, 1991).",
+   "url": "https://openlibrary.org/books/OL1851011M",
+   "kind": "study",
+   "note": "A focused handbook on the concerto, rather than a general biography."
+  },
+  {
+   "cite": "George Perle, *The Operas of Alban Berg* (first published 1980).",
+   "url": "https://openlibrary.org/books/OL22095215M",
+   "kind": "study",
+   "note": "Perle’s study of the operas; the linked record concerns Wozzeck."
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "scriabin-etude-op8-12",
+  "work": {
+    "title": "Étude in D♯ minor",
+    "catalogue": "Op. 8 No. 12",
+    "movement": "Patetico",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source does not identify a performing edition or arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Awadagin Pratt",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "white-house"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "2009-11-04",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "white-house"
+      ],
+      "note": "Commons and the archived White House video heading agree on 4 November 2009.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "East Room, White House, Washington, D.C.",
+      "status": "documented",
+      "sourceIds": [
+        "white-house"
+      ],
+      "note": "The archived transcript identifies the East Room."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original release label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [
+        "commons",
+        "white-house"
+      ],
+      "note": "The supplied source is a White House concert webcast excerpt, not a matrix-numbered phonograph disc."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or restoration engineer is identified; an uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Audio excerpt from White House Workshop: Classical Music",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "white-house"
+      ],
+      "note": "Commons locates the performance approximately 29:40–31:44 into the hour-long source. The extraction and encoding settings are not given; these bounds have not been checked by ear."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/20091104_Awadagin_Pratt_-_Scriabin%2C_%C3%89tude_Op._8_No._12.ogg/20091104_Awadagin_Pratt_-_Scriabin%2C_%C3%89tude_Op._8_No._12.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "white-house"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 124
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain, as stated in the Commons composition notice",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composition is separately tagged PD-old-100."
+    },
+    "recording": {
+      "value": "Performance: CC BY 3.0; official White House recording: public domain in the United States",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "white-house"
+      ],
+      "note": "Commons distinguishes the performance licence from PD-USGov for the recording. The archived White House page also labels its video public domain. Commons’ additional suggestion of an assumed performance release is not treated as verified."
+    },
+    "creditLine": "Alexander Scriabin: Étude in D♯ minor, Op. 8 No. 12 — Awadagin Pratt, piano, White House Classical Music Student Workshop Concert, 4 November 2009. Performance credited under CC BY 3.0; official White House recording public domain in the United States. Excerpt via Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:20091104 Awadagin Pratt - Scriabin, Étude Op. 8 No. 12.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=955665701",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3A20091104+Awadagin+Pratt+-+Scriabin%2C+%C3%89tude+Op.+8+No.+12.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "white-house",
+      "title": "The White House — White House Workshop: Classical Music",
+      "url": "https://obamawhitehouse.archives.gov/photos-and-video/video/white-house-workshop-classical-music",
+      "locator": "Video heading and description: 4 November 2009, public domain; transcript names Awadagin Pratt on piano and the East Room. The pasted transcript’s press-release line says 26 October; it is not treated as a separate performance date.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

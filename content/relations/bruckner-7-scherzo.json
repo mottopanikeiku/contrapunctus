@@ -1,0 +1,20 @@
+{
+  "id": "bruckner-7-scherzo",
+  "relations": [
+    {
+      "kind": "literal repeat",
+      "a": [
+        3.5,
+        199.0
+      ],
+      "b": [
+        329.5,
+        525.0
+      ],
+      "label": "The scherzo returns after the trio",
+      "basis": "The score’s da capo restores the scherzo after its F-major trio. The 326 s measured offset agrees with the opening and the return marked near 328 s. CENS diagonal mean 0.973, sustained 195.5 s, fixed pitch-class shift 0 semitones and time offset 326 s (cache/form/bruckner-7-scherzo.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "Four additional paths connect related material at shifts of three semitones inside the scherzo and its return. They are not a second da capo and are omitted rather than assigning unverified phrase identities. The 195.5 s principal match is a measured excerpt of the returning block, not a bar-by-bar alignment."
+}

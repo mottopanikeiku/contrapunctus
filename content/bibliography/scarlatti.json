@@ -1,0 +1,30 @@
+{
+ "id": "scarlatti",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Ralph Kirkpatrick, *Domenico Scarlatti* (Princeton University Press, 2020 reissue).",
+   "url": "https://openlibrary.org/books/OL34166595M",
+   "kind": "biography",
+   "note": "Biography and source study underlying the Kirkpatrick catalogue numbers."
+  },
+  {
+   "cite": "Malcolm Boyd and Roberto Pagano, ‘Scarlatti, (Giuseppe) Domenico’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278251",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "W. Dean Sutcliffe, *The Keyboard Sonatas of Domenico Scarlatti and Eighteenth-Century Musical Style* (Cambridge: Cambridge University Press, 2003).",
+   "url": "https://www.cambridge.org/core/books/keyboard-sonatas-of-domenico-scarlatti-and-eighteenthcentury-musical-style/06FFAFD9F8FBC920C2307728939C63AB",
+   "kind": "study",
+   "note": "Analyses the sonatas’ musical language alongside problems of historical interpretation."
+  },
+  {
+   "cite": "Domenico Scarlatti, *Essercizi per gravicembalo*, K. 1–30 (London: B. Fortier, 1738).",
+   "url": "https://imslp.org/wiki/Essercizi_per_gravicembalo%2C_K.1-30_%28Scarlatti%2C_Domenico%29",
+   "kind": "score",
+   "note": "Freely available early scores of the thirty published keyboard exercises."
+  }
+ ]
+}

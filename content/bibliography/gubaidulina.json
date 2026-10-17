@@ -1,0 +1,24 @@
+{
+ "id": "gubaidulina",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Michael Kurtz, *Sofia Gubaidulina: A Biography* (Indiana University Press, 2007).",
+   "url": "https://iupress.org/9780253349071/sofia-gubaidulina/",
+   "kind": "biography",
+   "note": "A dedicated biography to set beside the publisher’s shorter chronology and institutional performance records."
+  },
+  {
+   "cite": "Boosey & Hawkes, ‘Sofia Gubaidulina: Biography’ (online resource).",
+   "url": "https://www.boosey.com/pages/cr/composer/composer_main?composerid=2710&ttype=BIOGRAPHY",
+   "kind": "reference",
+   "note": "The publisher’s account of her career and principal compositions."
+  },
+  {
+   "cite": "Boston Symphony Orchestra, ‘In Memory of Sofia Gubaidulina’ (2025).",
+   "url": "https://www.bso.org/stories/in-memory-of-sofia-gubaidulina",
+   "kind": "reference",
+   "note": "Documents the orchestra’s commissions, premieres and recordings, including the unfinished commission at her death."
+  }
+ ]
+}

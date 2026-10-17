@@ -1,0 +1,214 @@
+{
+  "id": "verdi-traviata-prelude",
+  "work": {
+    "title": "La traviata",
+    "catalogue": "",
+    "movement": "Prelude to Act I",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "New York Philharmonic Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Arturo Toscanini",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "pdp",
+      "dahr"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "pdp",
+        "dahr"
+      ],
+      "note": "The Public Domain Project date is repeated by Commons, while DAHR gives a different month for the same matrix. Neither date has been silently selected; no recording ledger or labelled source disc was inspected to settle the discrepancy.",
+      "alternatives": [
+        {
+          "value": "18 October 1929 — Public Domain Project and Commons.",
+          "sourceIds": [
+            "pdp",
+            "commons"
+          ]
+        },
+        {
+          "value": "18 March 1929 — DAHR matrix CVE-48936.",
+          "sourceIds": [
+            "dahr"
+          ]
+        }
+      ],
+      "precision": "day"
+    },
+    "place": {
+      "value": "Carnegie Hall, New York City, United States",
+      "status": "documented",
+      "sourceIds": [
+        "pdp",
+        "dahr"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Electrola",
+      "status": "documented",
+      "sourceIds": [
+        "pdp"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "EJ 423; face/order number 6-0755",
+      "status": "documented",
+      "sourceIds": [
+        "pdp"
+      ],
+      "note": "The source catalogue marks first release ‘1930?’; that tentative issue date is not used as a session date."
+    },
+    "matrixTakeSides": {
+      "value": "CVE-48936; take 3 is the issued master listed by DAHR; face 6-0755.",
+      "status": "documented",
+      "sourceIds": [
+        "pdp",
+        "dahr"
+      ],
+      "note": "DAHR identifies take 3 as master and lists the matching Gramophone face. The transferred disc’s run-out has not been inspected, and the source catalogue does not itself specify a take."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "pdp"
+      ],
+      "note": "The Public Domain Project is the transfer source; its catalogue associates the item with the Martin Osterwalder collection. This is not an explicit transfer-engineer or restoration credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration, equalisation, noise-reduction or editing procedure is documented for the upstream audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_La_traviata_-_Prelude_-_Act_1_-_Electrola-ej423-6-0755.flac/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_La_traviata_-_Prelude_-_Act_1_-_Electrola-ej423-6-0755.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "pdp"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 224.04433333333333
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons applies PD-old-100 to Verdi’s composition.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pdp"
+      ],
+      "note": "The source catalogue gives Verdi’s death year as 1901. This does not determine rights in the 1929 recording."
+    },
+    "recording": {
+      "value": "The source claims worldwide public-domain status; present US recording clearance is not established.",
+      "status": "disputed",
+      "sourceIds": [
+        "pdp",
+        "commons",
+        "us-recordings"
+      ],
+      "note": "The source catalogue’s US-expiry and worldwide claims cannot be treated as current legal clearance. Under § 1401, a recording first published in 1929 or the source’s tentative 1930 would ordinarily still have US protection in 2026. The exact first-publication year remains unresolved. The CC BY-SA notice on the catalogue website covers its text, not automatically this sound recording.",
+      "alternatives": [
+        {
+          "value": "Public-domain recording worldwide — claim made by the Public Domain Project and reproduced by Commons.",
+          "sourceIds": [
+            "pdp",
+            "commons"
+          ]
+        },
+        {
+          "value": "US pre-1972 sound-recording law provides a continuing term for a 1929/1930 first publication; no separate US permission is established.",
+          "sourceIds": [
+            "us-recordings",
+            "pdp"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Giuseppe Verdi, Prelude to Act I of La traviata; New York Philharmonic Orchestra, Arturo Toscanini. Electrola EJ 423, face 6-0755, matrix CVE-48936; Public Domain Project → Wikimedia Commons. Session month disputed; the source’s worldwide public-domain claim is not adopted as US clearance.",
+    "licenseUrl": "http://pool.publicdomainproject.org/index.php?title=Electrola-ej423-6-0755#Licensing"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_La_traviata_-_Prelude_-_Act_1_-_Electrola-ej423-6-0755.flac?oldid=392869837",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_La_traviata_-_Prelude_-_Act_1_-_Electrola-ej423-6-0755.flac#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "pdp",
+      "title": "Public Domain Project — Electrola EJ 423 / 6-0755",
+      "url": "http://pool.publicdomainproject.org/index.php?title=Electrola-ej423-6-0755",
+      "locator": "Recording catalogue: Verdi, Act I Prelude; Toscanini / New York Philharmonic; Carnegie Hall; 18 October 1929; Electrola EJ 423, face 6-0755, matrix CVE-48936. First release is marked ‘1930?’. Licensing asserts worldwide public-domain status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "dahr",
+      "title": "DAHR — Victor matrix CVE-48936",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022722",
+      "locator": "La traviata: Prelude to Act 1; Toscanini / New York Philharmonic; Carnegie Hall, 18 March 1929; take 3 master. Gramophone face 6-0755 and Victor 6994 appear in the issue list.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recordings",
+      "title": "United States Code — 17 USC § 1401",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): protection periods for pre-1972 sound recordings; recordings first published in 1923–1946 generally have a 100-year period. This postdates the source catalogue’s broad US-expiry assertion.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

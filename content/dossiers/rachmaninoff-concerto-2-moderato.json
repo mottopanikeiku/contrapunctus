@@ -1,0 +1,212 @@
+{
+  "id": "rachmaninoff-concerto-2-moderato",
+  "work": {
+    "title": "Piano Concerto No. 2 in C minor",
+    "catalogue": "Op. 18",
+    "movement": "I. Moderato",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sviatoslav Richter",
+        "role": "piano"
+      },
+      {
+        "name": "Warsaw National Philharmonic Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Stanisław Wisłocki",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "discography",
+      "chronology"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "26–28 April 1959",
+      "status": "documented",
+      "sourceIds": [
+        "discography",
+        "chronology"
+      ],
+      "note": "Session range for the concerto, not a single-day attribution to movement I. Commons’ 1 January 1959 is a year-level placeholder.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Philharmonie, Warsaw, Poland",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Deutsche Grammophon",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "138 076 — original issue; transferred copy unidentified.",
+      "status": "inferred",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "The discography identifies the original LP, but Commons does not identify which pressing or reissue supplied this FLAC."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration, equalisation, noise-reduction or editing procedure is documented for the upstream audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_1._Moderato_%28Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959%29.flac/Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_1._Moderato_%28Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959%29.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 668.6266666666667
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "The composer died in 1943. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Commons applies PD-EU-audio: expiry of European performers’ and phonogram producers’ rights.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-audio",
+        "eu-extension",
+        "us-recordings"
+      ],
+      "note": "This is a territory-specific expiry claim, not CC0 or permission from the record company. The 70-year extension did not revive recordings whose earlier term had already expired by 1 November 2013. It does not establish public-domain status in the United States. The stated 1959 session is not by itself proof of first publication. The European expiry claim must not be presented as US public-domain status: § 1401 gives post-1956 recordings fixed before 15 February 1972 a term ending on 15 February 2067."
+    },
+    "creditLine": "Sergei Rachmaninoff, Piano Concerto No. 2, Op. 18, I; Sviatoslav Richter; Warsaw National Philharmonic Orchestra, Stanisław Wisłocki, 26–28 April 1959. Deutsche Grammophon; Wikimedia Commons. PD-EU-audio: European recording-rights expiry claim, not worldwide permission.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Sergei Rachmaninov - Concerto no. 2 for Piano and Orchestra in C minor - 1. Moderato (Sviatoslav Richter, Stanisław Wisłocki, Warsaw National Philharmonic Orchestra, 1959).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_1._Moderato_(Sviatoslav_Richter,_Stanis%C5%82aw_Wis%C5%82ocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac?oldid=901919689",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_1._Moderato_(Sviatoslav_Richter,_Stanis%C5%82aw_Wis%C5%82ocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "discography",
+      "title": "Discogs — Richter, Rachmaninoff / Tchaikovsky, DG 447 420-2",
+      "url": "https://www.discogs.com/release/21777934-Rachmaninov-Tchaikovsky-Sviatoslav-Richter-Stanis%C5%82aw-Wis%C5%82ocki-Herbert-Von-Karajan-Rachmaninov-Pian",
+      "locator": "Recording notes identify the Rachmaninoff sessions as 26–28 April 1959, Warsaw Philharmonie; original issue DG 138 076.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "chronology",
+      "title": "Sviatoslav Richter recording chronology",
+      "url": "https://classical-pianists.net/ix/sviatoslav-richter/chronology/",
+      "locator": "Entry SR-C#025: Rachmaninoff Piano Concerto No. 2, Wisłocki / Warsaw orchestra, 26–28 April 1959. Distinguishes Mozart on 25–26 April and Schumann Op. 92 on 29 April.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Sergei Rachmaninoff — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff",
+      "locator": "Lead paragraph: composer’s death year.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recordings",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

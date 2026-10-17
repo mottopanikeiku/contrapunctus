@@ -1,0 +1,24 @@
+{
+ "id": "boulez",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Edward Campbell and Peter O’Hagan, eds, *Pierre Boulez Studies* (Cambridge University Press, 2016).",
+   "url": "https://www.cambridge.org/core/books/pierre-boulez-studies/467B89DA684112EBB60C7746DC295D08",
+   "kind": "study",
+   "note": "Examines serial technique, large-scale form, stylistic development and reception, with previously unpublished correspondence."
+  },
+  {
+   "cite": "Pierre Boulez, *Stocktakings from an Apprenticeship* (English translation).",
+   "url": "https://books.google.com/books/about/Stocktakings_from_an_apprenticeship.html?hl=en&id=3TsE9rJl81QC",
+   "kind": "study",
+   "note": "The early essays combine aesthetic, technical and polemical writing with accounts of other composers."
+  },
+  {
+   "cite": "Jonathan Dunsby, ‘Boulez the Writer: From Stocktakings to Music Lessons’, in *Boulez in Context* (Cambridge University Press, 2025), 285–292.",
+   "url": "https://api.crossref.org/works/10.1017/9781009168632.033",
+   "kind": "study",
+   "note": "A recent study focused on Boulez’s writings rather than only his compositions or conducting."
+  }
+ ]
+}

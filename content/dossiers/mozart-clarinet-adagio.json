@@ -1,0 +1,191 @@
+{
+  "id": "mozart-clarinet-adagio",
+  "work": {
+    "title": "Clarinet Concerto in A major",
+    "catalogue": "K. 622",
+    "movement": "II. Adagio",
+    "version": {
+      "value": "Basset-clarinet performance on an instrument built by William McColl.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "soniventorum"
+      ],
+      "note": "The sources identify the instrument, not the edition or reconstruction used for Mozart’s solo part."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "William McColl",
+        "role": "basset clarinet"
+      },
+      {
+        "name": "University of Washington Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Abraham Kaplan",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "soniventorum"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "December 1987",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "soniventorum"
+      ],
+      "note": "The performer archive explicitly says performed December 1987; no day is supplied.",
+      "precision": "month"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the sources consulted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The label or imprint of the carrier used for this digital file is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number identifying the transferred carrier is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Al Goldstein collection / Pandora Music repository",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is a collection and distribution credit, not proof that Goldstein made this transfer. No transfer engineer is identified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Ogg Vorbis encoding; embedded software tag: Xiph.Org libVorbis I 20020717.",
+      "status": "documented",
+      "sourceIds": [
+        "commons-data"
+      ],
+      "note": "No tape transfer, editing or noise-treatment procedure is documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "pandora",
+      "soniventorum"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 452.7887301587302
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "The composer died in 1791. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0).",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "Commons links the original EFF Open Audio License grant to its stated CC BY-SA 2.0 replacement. Reusers must retain attribution, link the licence, identify changes and apply the licence’s share-alike condition to adaptations."
+    },
+    "creditLine": "Wolfgang Amadeus Mozart, Clarinet Concerto, K. 622, II; William McColl, basset clarinet; University of Washington Symphony Orchestra, Abraham Kaplan, December 1987. Al Goldstein collection / Pandora Music at ibiblio, via Wikimedia Commons. CC BY-SA 2.0; Commons supplies the MP3 access transcode.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg?oldid=661044101",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "soniventorum",
+      "title": "Soni Ventorum Wind Quintet — archive",
+      "url": "https://soniventorum.com/soniventorum_archives.html",
+      "locator": "Mozart, Concerto in A major for clarinet and orchestra, K. 622: William McColl, self-built basset clarinet; University Symphony Orchestra; Abraham Kaplan; December 1987.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "pandora",
+      "title": "Pandora Music at ibiblio — source repository",
+      "url": "http://music.ibiblio.org/pub/multimedia/pandora/vorbis/index.html",
+      "locator": "Repository cited by Commons as the Al Goldstein collection. The historic licence link returned 404; the original source chain is preserved without inventing a new licence statement.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Wolfgang Amadeus Mozart — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+      "locator": "Lead paragraph: composer’s death year.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

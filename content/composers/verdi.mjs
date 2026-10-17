@@ -84,16 +84,19 @@ z z F | !>!d3- | d .F .d | .d .F .d |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Francesco Hayez - Ritratto di Alessandro Manzoni.jpg',
       artist: 'Francesco Hayez', title: 'Portrait of Alessandro Manzoni', date: '1841', medium: 'Oil on canvas', collection: 'Pinacoteca di Brera, Milan',
       note: `<p>The writer whose death prompted Verdi’s <i>Requiem</i>. Hayez portrays the author of <i>I promessi sposi</i> through the sitter’s hands and direct bearing. Verdi admired Manzoni’s literary and moral standing and conducted the memorial work on the first anniversary of his death. The connection is a named dedication and public act of remembrance. <a href="https://pinacotecabrera.org/en/collezioni/collezione-on-line/portrait-of-alessandro-manzoni/">Brera collection record</a>.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Othello et Desdémone à Venise - Théodore Chassériau - Musée du Louvre Peintures RF 3897.jpg',
       artist: 'Théodore Chassériau', title: 'Othello and Desdemona in Venice', date: '1850', medium: 'Oil on wood', collection: 'Musée du Louvre, Paris',
       note: `<p>Chassériau depicts Othello telling Desdemona his life, a subject drawn from Shakespeare’s first act. Boito removed that Venetian act when adapting <i>Otello</i>, but its account of their courtship returns in the love duet at the end of Verdi’s Act I. The lovers remember that she loved him for his suffering and he loved her for her pity. The painting supplies a visible setting for a past that the opera reconstructs through sung recollection. <a href="https://collections.louvre.fr/ark:/53355/cl010060228">Louvre collection record</a>.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'William Shakespeare', title: 'Macbeth, Act V, scene 5 — “Tomorrow”', date: 'c. 1606; first published 1623', lang: 'English',
       original: `Tomorrow, and tomorrow, and tomorrow,
 Creeps in this petty pace from day to day,

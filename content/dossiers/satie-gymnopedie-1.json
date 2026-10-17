@@ -1,0 +1,191 @@
+{
+  "id": "satie-gymnopedie-1",
+  "work": {
+    "title": "Trois Gymnopédies",
+    "catalogue": "",
+    "movement": "I. Lent et douloureux",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Robin Alciatore",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "embedded"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "Commons estimates the item as circa 2008, but no session date is identified and the audio comments supply none. The estimate is not promoted to a documented recording date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Musopen is the distributor; no original record label or physical release is named."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Xiph.Org libVorbis I 20050304. Commons master: Ogg Vorbis, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg/Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 183.58857142857144
+  },
+  "rights": {
+    "composition": {
+      "value": "Original composition is public domain in the United States and ordinary life-plus-70 jurisdictions.",
+      "status": "inferred",
+      "sourceIds": [
+        "work-source",
+        "us-work-term",
+        "author-term"
+      ],
+      "note": "The cited biography places publication in 1888 and Satie’s death in 1925. This does not determine the performance’s rights."
+    },
+    "recording": {
+      "value": "Public-domain dedication attributed to Robin Alciatore.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "This records the source’s dedication, not an independent worldwide legal clearance. The Public Domain Mark is a notice, not a Creative Commons attribution licence. The Commons description also quotes Musopen’s public-domain policy and courtesy attribution request."
+    },
+    "creditLine": "Robin Alciatore, piano. Musopen, via Wikimedia Commons. Public-domain dedication attributed to Robin Alciatore; Musopen courtesy credit retained.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg?oldid=1232019273",
+      "locator": "File-description wikitext revision 1232019273; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M3432550",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M3432550&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1232019273. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AErik+Satie+-+gymnopedies+-+la+1+ere.+lent+et+douloureux.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Musopen: original source site and historic FAQ",
+      "url": "http://www.musopen.com/faq.html",
+      "locator": "The Commons description quotes the historic public-domain FAQ and requests inline Musopen credit. The original site and FAQ now redirect to musopen.org; retrieval returned HTTP 403.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-source",
+      "title": "Encyclopedia.com: Erik Satie",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/erik-satie",
+      "locator": "Carol Brennan, Contemporary Musicians: death 1 July 1925; Gymnopédies included in the publisher’s catalogue in 1888. Used for rights chronology, not recording provenance.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-work-term",
+      "title": "Commons: US expiry for published compositions",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+      "locator": "Published works before 1931 are public domain in the United States as of 2026; the template expressly excludes sound recordings.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "author-term",
+      "title": "Directive 2006/116/EC: authors’ copyright terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

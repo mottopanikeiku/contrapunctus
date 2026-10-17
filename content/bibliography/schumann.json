@@ -1,0 +1,36 @@
+{
+ "id": "schumann",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "John Daverio, *Robert Schumann: Herald of a “New Poetic Age”* (New York: Oxford University Press, 1997).",
+   "url": "https://doi.org/10.1093/oso/9780195091809.001.0001",
+   "kind": "biography",
+   "note": "Life-and-works study relating Schumann’s compositions to literary and aesthetic concerns."
+  },
+  {
+   "cite": "John Daverio and Eric Sams, ‘Schumann, Robert’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.40704",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Margit L. McCorkle, *Robert Schumann: Thematisch-bibliographisches Werkverzeichnis* (G. Henle Verlag and Schott Music, 2003).",
+   "url": "https://www.henle.de/de/McCorkle-Robert-Schumann-Thematisch-bibliographisches-Werkverzeichnis/HN-2204",
+   "kind": "catalogue",
+   "note": "Documents published works, the musical estate, sources, composition, performances and reception."
+  },
+  {
+   "cite": "Robert Schumann and Clara Schumann, *The Marriage Diaries of Robert & Clara Schumann: From Their Wedding Day through the Russia Trip*, edited by Gerd Nauhaus, translated by Peter Ostwald (Boston: Northeastern University Press, 1993).",
+   "url": "https://ci.nii.ac.jp/ncid/BA27116553",
+   "kind": "letters",
+   "note": "Joint diaries document domestic life, creative work and the Russian tour."
+  },
+  {
+   "cite": "Schumann-Briefedition and Neue Schumann-Gesamtausgabe, *Schumann-Briefdatenbank* (online database, n.d.; accessed 16 October 2026).",
+   "url": "https://www.saw-leipzig.de/de/publikationen/digitale-publikationen/Schumann-Briefdatenbank",
+   "kind": "letters",
+   "note": "Free correspondence metadata and unannotated full texts from Series II; coverage is not complete."
+  }
+ ]
+}

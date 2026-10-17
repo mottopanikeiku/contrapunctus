@@ -89,6 +89,7 @@ G4 | A4 | G2 E2 | D4 |]`,
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'mat',
       file: 'File:Edvard Munch - The Scream - NG.M.00939 - National Museum of Art, Architecture and Design.jpg',
       artist: 'Edvard Munch', title: 'The Scream', date: '1893',
@@ -96,6 +97,7 @@ G4 | A4 | G2 E2 | D4 |]`,
       note: '<p>The rigid diagonal of the walkway meets curves that pass through sky, water and the central figure. Munch makes an experience alter the organisation of the visible scene. The comparison with late-Romantic music concerns that transfer between individual perception and an enlarged surrounding field: an orchestral texture can change the apparent meaning of a simple melodic figure. This is the <a href="https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939">National Museum’s 1893 version</a>.</p>',
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Friedrich Nietzsche', title: 'The midnight song from Also sprach Zarathustra', date: '1884; repeated in Part IV, 1885',
       lang: 'German', translator: 'Our translation',
       original: `O Mensch! Gib acht!

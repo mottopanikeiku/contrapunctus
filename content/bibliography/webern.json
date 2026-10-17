@@ -1,0 +1,24 @@
+{
+ "id": "webern",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Kathryn Bailey, *The Life of Webern* (Cambridge University Press, 1998).",
+   "url": "https://openlibrary.org/books/OL679256M",
+   "kind": "biography",
+   "note": "Examines Webern’s dependence on Schoenberg, nationalism and commitment to his concentrated musical language."
+  },
+  {
+   "cite": "Kathryn Bailey, *The Twelve-Note Music of Anton Webern* (Cambridge University Press, 2006 paperback).",
+   "url": "https://openlibrary.org/books/OL7745894M",
+   "kind": "study",
+   "note": "A technical study of the twelve-note works; the link identifies the paperback edition."
+  },
+  {
+   "cite": "Anton Webern Gesamtausgabe, ‘Anton Webern: Overview’ (online research resource).",
+   "url": "https://anton-webern.ch/en/anton-webern/overview.html",
+   "kind": "reference",
+   "note": "A complete-edition project’s account of Webern’s life and work, with links to documentary and editorial resources."
+  }
+ ]
+}

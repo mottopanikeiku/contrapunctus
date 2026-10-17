@@ -43,11 +43,32 @@ export default {
 ```
 
 - `life`: the first paragraph has `class="dropcap"`. `<aside class="note">` is a margin note (a technical aside, a source, a definition) — place it immediately *before* the paragraph it annotates; 2–4 per life. `<h3><span class="sc">…</span>…</h3>` splits long lives into sections.
-- Glyphs for `sound` aspects (Unicode musical symbols): 𝄞 𝄢 𝄡 ♮ ♯ ♭ 𝄪 𝄫 𝅘𝅥 𝅗𝅥 𝄾 𝄽 𝄐 𝄋 𝄌 𝄆 𝄇 𝆑 𝆏 𝆒 𝆓.
+- `sound` aspects are displayed as plain text labels; the v3 templates do not render decorative glyphs.
 - Cross-links: `[[slug]]` or `[[slug|label]]` for composers; `[[era:romantic|Romanticism]]`; `[[workshop#sonata-form|sonata form]]`; `[[origins#chant|plainchant]]`.
 
 Workshop anchors: `counterpoint`, `fugue`, `figured-bass`, `temperament`, `sonata-form`, `harmony`, `chromaticism`, `tristan-chord`, `leitmotif`, `modes`, `whole-tone`, `octatonic`, `atonality`, `twelve-tone`, `rhythm`, `orchestration`, `minimalism`, `spectralism`.
 Origins anchors: `monochord`, `chant`, `notation`, `organum`, `ars-nova`, `polyphony`, `instruments`, `opera`, `continuo`.
+
+### Composer and period pages
+
+`src/build.mjs` builds composer pages at `composers/<slug>.html` and era pages
+at `eras/<slug>.html`. Both retain authored prose, margin notes, notation and
+sister arts. Chapter and figure numbers are generated; do not embed them in
+content. The contents map moves into the reading flow on narrow screens.
+
+The composer directory keeps birth order. Site search is accent-insensitive
+and includes work titles and catalogue numbers. Without JavaScript, the
+directory and every chapter remain readable.
+
+Playable recordings come from `content/listen/`, matched by composer slug.
+Keep numbered works distinct, and name the movement or arrangement beside
+the link. The separate composer `recordings` array recommends recordings worth
+seeking out; it does not establish that the site hosts them.
+
+Lineage entries are connections, not an implied teaching chain. Keep the
+authored lineage note’s qualifications. The separate inheritance block draws
+on researched influence edges rather than turning every lineage name into a
+documented borrowing.
 
 ## Sister arts
 
@@ -88,3 +109,44 @@ D,4 A,,4 | …|]
 - 2–8 bars. Put `%%MIDI program N` (General MIDI, 0-based: 0 piano, 6 harpsichord, 19 church organ, 40 violin, 41 viola, 42 cello, 43 contrabass, 46 harp, 47 timpani, 48 strings, 52 choir aahs, 56 trumpet, 57 trombone, 60 French horn, 68 oboe, 71 clarinet, 73 flute, 70 bassoon) on its own line after each `V:` line, as above.
 - Useful syntax: chords `[CEG]`, ties `-`, triplets `(3abc`, dynamics `!p!` `!f!`, accents `!>!`, fermata `H`, lyrics on a `w:` line, chord labels `"Am"C`.
 - The `caption` explains what to hear, technically.
+
+## Textbook apparatus and research
+
+- Key ideas quote the opening statements of authored sound, period-vocabulary
+  and lesson paragraphs. Write those statements to stand on their own.
+- Lesson `question` and `listen: [{ id, t, why }]` fields connect reading with
+  listening. Use the recording’s existing cue/section times; do not invent
+  precision. Recording `question` and `intro` also supply composer and era
+  questions. A synthesised score example is labelled separately.
+- Further reading comes from `content/bibliography/<slug>.json`, with
+  `{ id, kind, items: [{ cite, url?, kind, note }] }`. Use canonical composer or
+  era slugs, not the numbered era filenames. Mark italic titles with
+  `*asterisks*`; citation text is escaped, not interpreted as HTML. A note
+  should say which question the book, catalogue, letter or article helps answer.
+- `content/glossary.mjs` supplies the glossary and the popover definitions.
+  The generator links the first prose occurrence, not headings or existing
+  links. Include useful aliases and a short definition that stands alone.
+- Citation boxes offer Chicago and BibTeX. They assert no publication date;
+  the displayed build date is only a suggested access date.
+
+Influence research lives in `content/influence/<batch>.json`; `CONTRACTS.md`
+defines edges, figures, motif threads and notation exhibits. A connection
+needs a concrete mechanism and a real source URL. Specify what is uncertain
+for inferred or disputed claims. Verify ABC against the linked public-domain
+score, identify transpositions, and omit an exhibit rather than approximate it.
+Do not confuse a poem’s setting, an artwork’s depiction and a musical quotation.
+
+Validate only the content you own:
+
+```sh
+node tools/validate.mjs content/glossary.mjs content/bibliography/*.json
+node tools/validate-influence.mjs
+```
+
+The integration owner builds with `node src/build.mjs`, then checks desktop
+(1440×900) and mobile (390×844), including navigation while the persistent
+player is playing. No recording page should create another audio element.
+The abcjs vendor loads on demand for score figures, not on every page.
+Influence cameos use a 160-pixel rendition. The integration owner can generate
+these from already-fetched local originals with `node tools/art.mjs derive 160`;
+this does not require downloading the artworks again.

@@ -1,0 +1,156 @@
+{
+  "id": "vivaldi-spring-allegro",
+  "work": {
+    "title": "The Four Seasons — Spring",
+    "catalogue": "Op. 8 No. 1; RV 269",
+    "movement": "I. Allegro",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source does not identify a performing edition or arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "John Harrison",
+        "role": "solo violin"
+      },
+      {
+        "name": "Wichita State University Chamber Players",
+        "role": "ensemble"
+      },
+      {
+        "name": "Robert Turizziani",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "2000-02-06",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source explicitly distinguishes composition/publication dates from ‘performed on 2000-02-06’.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Wiedemann Recital Hall, Wichita State University",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source describes a live performance."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original release label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Gmaxwell — addition of ReplayGain tags",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file-history entry of 26 February 2007 credits this metadata change. John Harrison holds the recording copyright; the original transfer engineer is not separately identified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file-history entry dates the ReplayGain metadata addition to 26 February 2007, but no original transfer date is stated."
+    },
+    "processing": {
+      "value": "Described by the source as a live, unedited performance; ReplayGain tags added without re-encoding",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The current file-history entry calls the 2007 change ‘Lossless addition of replaygain tags’. That is a statement about the metadata operation, not a claim that the Ogg or MP3 audio format is lossless."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative of the Wikimedia Commons Ogg Vorbis file",
+    "durationSeconds": 215.28
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in jurisdictions applying an unextended life-plus-70-year term",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Antonio Vivaldi died in 1741. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution-ShareAlike 4.0 International, selected from the source’s 1.0-or-later grant",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "John Harrison is the named recording copyright holder. Commons offers CC BY-SA versions 1.0, 2.0, 2.5, 3.0, 4.0 and later, and cites permission ticket 2007022510020031; the private correspondence was not inspected."
+    },
+    "creditLine": "Antonio Vivaldi: Spring, Op. 8 No. 1, RV 269, I. Allegro — John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor, 6 February 2000. Recording copyright John Harrison, CC BY-SA 4.0, via Wikimedia Commons; MP3 access derivative.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1189153589",
+      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AVivaldi+-+Four+Seasons+1+Spring+mvt+1+Allegro+-+John+Harrison+violin.oga&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

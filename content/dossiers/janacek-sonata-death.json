@@ -1,0 +1,159 @@
+{
+  "id": "janacek-sonata-death",
+  "work": {
+    "title": "Piano Sonata 1. X. 1905",
+    "catalogue": "",
+    "movement": "II. Smrt (Death) — Adagio",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Eric Xi Xin Liang",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The file description identifies the performer as both source and author; it supplies no separate session documentation."
+  },
+  "session": {
+    "date": {
+      "value": "2023",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "Year as stated by the contributor; no day, month, venue or independent session record is supplied.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original recording label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: libFLAC 1.4.3 20230623. Commons master: FLAC, 24-bit, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Jan%C3%A1%C4%8Dek_-_Piano_Sonata_1.X.1905%2C_2nd_Movement_%28Eric_Xi_Xin_Liang%29.flac/Jan%C3%A1%C4%8Dek_-_Piano_Sonata_1.X.1905%2C_2nd_Movement_%28Eric_Xi_Xin_Liang%29.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; Commons master: FLAC, 24-bit, 44.1 kHz, 2 channels",
+    "durationSeconds": 456.22267573696143
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-auto-expired, deathyear=1928. This does not license a later edition, arrangement or recording."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution 4.0",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "The Copyright information template explicitly assigns CC BY 4.0 to the recording and public-domain status to the composition. Structured P275 agrees. The flattened API LicenseShortName of Public domain does not describe the recording licence."
+    },
+    "creditLine": "Eric Xi Xin Liang, piano. Source: Eric Xi Xin Liang, via Wikimedia Commons. Recording: CC BY 4.0. Janáček’s composition is separately marked public domain.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Janáček - Piano Sonata 1.X.1905, 2nd Movement (Eric Xi Xin Liang).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Jan%C3%A1%C4%8Dek_-_Piano_Sonata_1.X.1905,_2nd_Movement_(Eric_Xi_Xin_Liang).flac?oldid=1118001688",
+      "locator": "File-description wikitext revision 1118001688; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M142638166",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M142638166&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1118001688. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AJan%C3%A1%C4%8Dek+-+Piano+Sonata+1.X.1905%2C+2nd+Movement+%28Eric+Xi+Xin+Liang%29.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

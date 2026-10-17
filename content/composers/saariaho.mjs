@@ -90,12 +90,14 @@ V:1
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'lacquer',
       file: 'File:Akseli Gallen-Kallela - Lake Keitele, 1905.JPG',
       artist: 'Akseli Gallen-Kallela', title: 'Lake Keitele', date: '1905', medium: 'Oil on canvas', collection: 'National Gallery, London',
       note: `<p>Gallen-Kallela paints the Finnish lake as bands of reflection and disturbed water. The link is a shared physical environment, with no documented connection to a composition: Saariaho repeatedly discussed the bodily effect of Finland’s extreme seasonal changes of light. In this painting, small changes of surface divide a continuous field; in <i>Lichtbogen</i>, changes inside sustained sounds articulate a form. The painting predates her birth by forty-seven years.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Jaufre Rudel', title: 'Lanquan li jorn son lonc e may — first stanza', date: 'Twelfth century', lang: 'Occitan', translator: 'Our translation',
       original: `Lanquan li jorn son lonc e may
 M’es belhs dous chans d’auzelhs de lonh,
@@ -114,6 +116,7 @@ are worth more to me than frozen winter.`,
       note: `<p>The repeated <i>de lonh</i> is a formal device before it is a plot. Saariaho returned to Rudel in <i>Lonh</i> for soprano and electronics (1996), then in <i>L’Amour de loin</i>. This medieval lyric precedes Maalouf’s modern libretto; its manuscript tradition contains variant spellings and readings. The <a href="http://troubadoursworld.blogspot.com/p/jaufre-rudel-jaufre-in-modern-occitan.html">Occitan text</a> supplies the stanza translated above.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Anonymous', title: 'Vida of Jaufre Rudel — opening', date: 'Thirteenth-century biographical tradition', lang: 'Occitan', translator: 'Our translation',
       original: `Jaufres Rudels de Blaia si fo mout gentils hom, princes de Blaia.
 Et enamoret se de la comtessa de Tripol, ses vezer, per lo ben qu’el n’auzi dire als pelerins que venguen d’Antiocha.

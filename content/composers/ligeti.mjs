@@ -99,11 +99,13 @@ V:1
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt', file: 'File:The Triumph of Death by Pieter Bruegel the Elder.jpg',
       artist: 'Pieter Bruegel the Elder', title: 'The Triumph of Death', date: 'c. 1562', medium: 'Oil on panel', collection: 'Museo Nacional del Prado, Madrid',
       note: `<p><i>Le Grand Macabre</i> takes place in Breughelland, the name inherited from Michel de Ghelderode’s play. Bruegel’s crowded panorama offers a visual counterpart: soldiers, lovers, clergy and aristocrats occupy the same field while death overrides their distinctions. Ligeti’s ending departs from its apparent finality: Nekrotzar’s promised annihilation may have failed.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Latin Requiem liturgy', title: 'Lux aeterna', date: 'Traditional Latin text; set by Ligeti in 1966', lang: 'Latin', translator: 'Our translation',
       original: `Lux aeterna luceat eis, Domine,
 cum sanctis tuis in aeternum, quia pius es.

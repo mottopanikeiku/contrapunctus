@@ -1,0 +1,194 @@
+{
+  "id": "cpe-bach-fantasia-fsharp",
+  "work": {
+    "title": "Fantasia in F♯ minor",
+    "catalogue": "Wq 67",
+    "movement": "",
+    "version": {
+      "value": "Performed on clavichord.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The album uses instruments by Thomas Goff and Jacobus Verwolf; the notes do not allocate a particular instrument to this track or name a score edition."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Joan Benson",
+        "role": "clavichord"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "upstream"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "artist-discography"
+      ],
+      "note": "The source identifies a record recommended in 1973, not a recording session in that year. No session date is supplied.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Bridge",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "Transcribed as printed in the source notes; no label photograph was obtained."
+    },
+    "catalogue": {
+      "value": "S 2250",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Al Goldstein collection; Pandora Music at ibiblio.org.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Collection and distribution credit; the source calls this a transcription of a record but does not name a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Xiph.Org libVorbis I 20020717. Commons master: Ogg Vorbis, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Carl_Phillipe_Emanuel_Bach_-_Freie_Fantasie%2C_F_Sharp_minor.ogg/Carl_Phillipe_Emanuel_Bach_-_Freie_Fantasie%2C_F_Sharp_minor.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream-files",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 753.2000226757369
+  },
+  "rights": {
+    "composition": {
+      "value": "Original composition is public domain in ordinary life-plus-70 jurisdictions.",
+      "status": "inferred",
+      "sourceIds": [
+        "upstream",
+        "author-term"
+      ],
+      "note": "The source notes give C. P. E. Bach’s lifespan as 1714–1788. This does not remove rights in Joan Benson’s recording."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution–ShareAlike 2.0",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "Commons applies CC BY-SA 2.0 through the EFF Open Audio License. Its cited Read.html page returned 404; no separate label rights instrument was recovered."
+    },
+    "creditLine": "Joan Benson, clavichord. Bridge S 2250; Al Goldstein collection / Pandora Music, via Wikimedia Commons. CC BY-SA 2.0 as stated by Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Carl Phillipe Emanuel Bach - Freie Fantasie, F Sharp minor.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_Phillipe_Emanuel_Bach_-_Freie_Fantasie,_F_Sharp_minor.ogg?oldid=848584084",
+      "locator": "File-description wikitext revision 848584084; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M3881514",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M3881514&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 848584084. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3ACarl+Phillipe+Emanuel+Bach+-+Freie+Fantasie%2C+F+Sharp+minor.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "Pandora Music: Joan Benson recording notes",
+      "url": "http://www.ibiblio.org/pandora/vorbis/contrib/Joan_Benson/readme",
+      "locator": "Opening identifies Bridge S 2250 and a 1973 Saturday Review recommendation; instrument paragraph names Thomas Goff and Jacobus Verwolf; track 3 is the F♯ minor fantasia.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream-files",
+      "title": "Pandora Music: Joan Benson source files",
+      "url": "http://www.ibiblio.org/pandora/vorbis/contrib/Joan_Benson/index.html",
+      "locator": "3CpeBach.ogg; the January 2005 directory timestamps are file dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "artist-discography",
+      "title": "Joan Benson: recordings",
+      "url": "https://joanbenson.com/recordings/",
+      "locator": "Artist’s recording page consulted; its displayed 1962 Froberger LP is not evidence of a session date for the F♯ minor fantasia.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "author-term",
+      "title": "Directive 2006/116/EC: authors’ copyright terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

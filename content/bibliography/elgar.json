@@ -1,0 +1,30 @@
+{
+ "id": "elgar",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Michael Kennedy, *The Life of Elgar* (Cambridge: Cambridge University Press, 2004).",
+   "url": "https://elgarsociety.org/edward-elgar/elgar-reading-list-bibliography/",
+   "kind": "biography",
+   "note": "Concise biography of Elgar’s personal and professional life."
+  },
+  {
+   "cite": "Diana McVeagh, ‘Elgar, Sir Edward’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.08709",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Jerrold Northrop Moore, *Edward Elgar: Letters of a Lifetime* (Clarendon Press, 1990).",
+   "url": "https://elgarsociety.org/edward-elgar/elgar-reading-list-bibliography/",
+   "kind": "letters",
+   "note": "Correspondence spanning Elgar’s career and relationships."
+  },
+  {
+   "cite": "The Elgar Society, *Elgar Society Journal: Online Archive and Index* (online collection, n.d.; accessed 16 October 2026).",
+   "url": "https://elgarsociety.org/journal/",
+   "kind": "study",
+   "note": "Free back issues and a searchable index; newest issues are reserved for members."
+  }
+ ]
+}

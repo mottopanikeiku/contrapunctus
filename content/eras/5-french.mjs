@@ -81,6 +81,7 @@ V:1
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt',
       file: 'File:Baigneurs a Asnieres.jpg',
       artist: 'Georges Seurat', title: 'Bathers at Asnières', date: '1884, retouched c. 1887',
@@ -88,6 +89,7 @@ V:1
       note: `<p>Seurat built his colour from separate touches meant to combine in the viewer’s eye, following the colour theory of Chevreul and Ogden Rood; when he reworked this canvas around 1887 he added small dots of complementary colour to the boy’s hat and the water. The affinity with [[debussy|Debussy]] and [[ravel|Ravel]] lies in their orchestral colour: they repeatedly set pure colours side by side — a flute’s low register beside muted horns, a harp harmonic on a string chord — so that the blend happens in the ear.</p>`,
     },
     {
+      relation: 'editorial-comparison',
       type: 'poem',
       author: 'Paul Verlaine', title: 'Art poétique — first and fourth stanzas', date: 'written 1874; published in Jadis et naguère, 1884',
       lang: 'French', translator: 'Our translation',

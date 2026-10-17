@@ -90,12 +90,14 @@ z4 | !p!E, F, z2 | z4 | !pp!E F z2 |]`,
   ],
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:Franz Kafka, 1923.jpg',
       artist: 'Unknown photographer', title: 'Franz Kafka', date: '1923–24',
       medium: 'Photograph', collection: '',
       note: `<p>Kafka’s diaries, letters and notebooks supply the forty texts of <i>Kafka-Fragmente</i>. This late portrait belongs to the period before his death in 1924. Kurtág’s work repeatedly changes the scale at which the writer is heard: an aphorism lasting seconds may stand beside a much longer scene for the same soprano and violin.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Franz Kafka', title: 'Die Guten gehn im gleichen Schritt', date: 'Early twentieth century; set by Kurtág 1985–87',
       lang: 'German', translator: 'Our translation',
       original: `Die Guten gehn im gleichen Schritt.
@@ -107,6 +109,7 @@ the dances of the time around them.`,
       note: `<p>The opening text of <i>Kafka-Fragmente</i>. Its contrast is already musical: common step against surrounding dances. Kurtág gives the soprano and violin distinct rhythmic behaviour. Line breaks make Kafka’s prose legible here.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Friedrich Hölderlin', title: 'An Zimmern', date: 'Before 1812',
       lang: 'German', translator: 'Our translation',
       original: `Die Linien des Lebens sind verschieden,

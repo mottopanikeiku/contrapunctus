@@ -95,12 +95,14 @@ A,2 G,2 | F,2 E,2 | D,2 C,2 | B,,2 A,,2 |]`,
   ],
   arts: [
     {
+      relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt', file: 'File:Andrey Rublev - Св. Троица - Google Art Project.jpg',
       artist: 'Andrei Rublev', title: 'The Trinity', date: 'c. 1425–27',
       medium: 'Tempera on wood', collection: 'Trinity Cathedral, Trinity–Sergius Lavra, Sergiev Posad; transferred from the Tretyakov Gallery in 2024',
       note: `<p>Three angels sit around one table; repeated outlines and inclined heads bind distinct figures into a single composition. The icon belongs to the Orthodox tradition Pärt entered in 1972. The comparison is theological and formal: a restricted set of elements carries distinctions through placement and relation.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Anonymous Latin antiphon', title: 'Da pacem Domine', date: 'Ninth century',
       lang: 'Latin', translator: 'Our translation',
       original: `Da pacem, Domine,

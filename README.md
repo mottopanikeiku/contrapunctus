@@ -4,23 +4,24 @@ An illustrated atlas of Western art music, from Bach to the present: composer po
 
 **Site:** https://mottopanikeiku.github.io/contrapunctus/
 
-## The Listening Room (home page)
+## The Concert Hall
 
-A continuous concert from Couperin and Bach to Stravinsky, Ives and Bartók: 55 real recordings (7½ hours) streamed from Wikimedia Commons, in order of the composers' births. Beside the music:
+A continuous concert from Couperin and Bach to Stravinsky, Ives and Bartók: 55 real recordings streamed from Wikimedia Commons, in order of the composers' births. The music keeps playing as you move through the site (one persistent player, a gilded now-playing bar, pause any time).
 
-- **Live visualizer** (Web Audio): a scrolling spectrogram on a pitch axis with a glowing keyboard, a circle-of-fifths pitch wheel with the heard harmony, the bass note, loudness and brightness.
-- **Notes timed to the recording** (809 of them): what is happening in the music now, where you are in the form, what to listen for, and the composer's life and world. Every timed musical claim is anchored in an audio analysis of that specific recording (`tools/analyze.py`).
-- A loudness timeline with the formal sections, the composer's background, and the recording's credits and licence.
+- **Views of the music**: the engraved **score** lighting up bar by bar (Bach, Beethoven 5, Schubert, Satie; LilyPond engraving aligned to the recording), a gold **note-roll** by voice, the **orchestra** on its stage with each section glowing as its part sounds, the piece's **form** as an arc diagram joining every return of its material, and the live **sound** (spectrogram, keyboard, pitch wheel, key-aware note names). Press F to let any view fill the hall.
+- **Notes timed to the recording**, each with *How we know* (score-aligned, measured, documented or general), and **the joins**: 224 dissected transitions between sections, appearing as gilded cards as the music reaches them, marked ◆ on the timeline.
+- **This recording**: a provenance dossier for each recording (documented / inferred / disputed, alternatives, sources, how to cite).
 
-Browsers allow sound only after one click; after that the concert plays on its own. Keys: space (play/pause), ←/→ (seek), N/P (next/previous).
+## The Web of Influence
 
-Post-war composers are absent from the concert because their music is under copyright and no free recordings exist; their pages remain in the Atlas.
+264 sourced connections between the 60 composers and 115 painters, poets, philosophers, teachers and traditions, laid out across four centuries. Touch a portrait to light what flowed in and out; open a connection for the claim, its evidence status and sources, the two passages engraved side by side and playable, or the painting beside the music. Seven motif threads (Dies irae, B–A–C–H, the Tristan chord, the lament bass, La Folia, the Ode to Joy, Frère Jacques) can be traced as one golden path through time.
 
 ## What's inside
 
 - **60 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès; extended portraits of Mahler, Rachmaninoff, Ravel and Prokofiev.
 - Each page: a life with margin notes, a technical anatomy of the style (harmony, line, rhythm, orchestration, form), a listening path through the works, **playable engraved score examples**, sister arts (public-domain paintings, prints and poems with new translations), recordings and lineage.
 - **Before Bach** — the origins: Pythagoras's ratios, chant, Guido's staff, organum, the ars nova, Renaissance polyphony, the violin family, the birth of opera, figured bass. Includes an interactive harmonic series.
+- **A modern textbook**: numbered chapters and figures, key ideas, questions to take away, further reading (verified bibliographies for every composer, era and topic), citation in Chicago and BibTeX, a 120-term **glossary** with popovers and “hear it” moments, **Sources & method** with downloadable recording data, the **Return Lab** (a passage beside its return), and search (press /).
 - **The Workshop** — eighteen lessons from species counterpoint to spectralism, with a tuning laboratory that plays pure and tempered intervals.
 - **Lifelines** — every lifespan on one axis against history and the other arts; **Sister Arts** — every image hung salon-style.
 
@@ -38,7 +39,11 @@ Post-war composers are absent from the concert because their music is under copy
 | `content/listen/*.mjs` | One file per recording: metadata, formal sections and timed cues (see `LISTENING.md`) |
 | `tools/audio.mjs`, `tools/analyze.py` | Find Commons recordings; analyse them (librosa) for cue timing |
 | `tools/barcheck.mjs` | Checks every bar of every score example against its time signature |
-| `AUTHORING.md` | House style and schema for contributors |
+| `content/influence/*.json` | The Web of Influence: edges, figures, threads (validated by `tools/validate-influence.mjs`) |
+| `content/glossary.mjs`, `content/bibliography/*.json` | Glossary and further reading |
+| `content/dossiers/*.json`, `content/returnlab/*.json` | Recording provenance; Return Lab comparisons |
+| `tools/align/`, `tools/engrave.mjs`, `tools/sheetpack/` | Score alignment (Sync Toolbox), LilyPond engraving, and the Rust packer that splits scores into lazily loaded pages with precomputed bar boxes |
+| `AUTHORING.md`, `CONTRACTS.md` | House style; data schemas |
 
 ## Build
 

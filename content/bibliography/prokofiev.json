@@ -1,0 +1,24 @@
+{
+ "id": "prokofiev",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "David Nice, *Prokofiev* (Yale University Press, 2003).",
+   "url": "https://openlibrary.org/books/OL3323643M",
+   "kind": "biography",
+   "note": "The biographical volume covering the composer’s early and international career."
+  },
+  {
+   "cite": "Boris Berman, *Prokofiev’s Piano Sonatas: A Guide for the Listener and the Performer* (Yale University Press, 2023 paperback).",
+   "url": "https://yalebooks.yale.edu/book/9780300275360/prokofievs-piano-sonatas/",
+   "kind": "study",
+   "note": "A pianist’s guide to the nine sonatas, joining historical context and musical detail with interpretative choices."
+  },
+  {
+   "cite": "Simon Morrison, *The People’s Artist* (first published 2008).",
+   "url": "https://openlibrary.org/search.json?title=Peoples+Artist&author=Morrison&limit=2",
+   "kind": "biography",
+   "note": "A study of Prokofiev’s Soviet career; publication and authorship are identified by the catalogue search record."
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "schumann-piano-concerto-1",
+  "work": {
+    "title": "Piano Concerto in A minor",
+    "catalogue": "Op. 54",
+    "movement": "I. Allegro affettuoso",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sviatoslav Richter",
+        "role": "piano"
+      },
+      {
+        "name": "Warsaw National Philharmonic Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Witold Rowicki",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "chronology"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1959 on Commons; 11–12 October 1958 in the Richter discography.",
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "commons-data",
+        "chronology"
+      ],
+      "note": "The Commons filename and date field say 1959, with no support for the 1 January day. The discography identifies a 1958 session with the same soloist, conductor and orchestra. The carrier underlying the Commons file has not been independently matched, so both dates remain visible.",
+      "alternatives": [
+        {
+          "value": "1959 — Commons attribution; day and month unestablished.",
+          "sourceIds": [
+            "commons",
+            "commons-data"
+          ]
+        },
+        {
+          "value": "11–12 October 1958 — Richter chronology, SR-C#023.",
+          "sourceIds": [
+            "chronology"
+          ]
+        }
+      ],
+      "precision": null
+    },
+    "place": {
+      "value": "National Philharmonic Hall, Warsaw, Poland",
+      "status": "inferred",
+      "sourceIds": [
+        "chronology"
+      ],
+      "note": "This is the venue attached to the 1958 session in the chronology. Its applicability to the Commons file depends on resolving the conflicting recording date."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Deutsche Grammophon",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number identifying the transferred carrier is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration, equalisation, noise-reduction or editing procedure is documented for the upstream audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Robert_Schumann_-_Concerto_for_Piano_and_Orchestra_in_A_minor%2C_op._54_-_1._Allegro_affettuoso_%28Sviatoslav_Richter%2C_Witold_Rowicki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959%29.flac/Robert_Schumann_-_Concerto_for_Piano_and_Orchestra_in_A_minor%2C_op._54_-_1._Allegro_affettuoso_%28Sviatoslav_Richter%2C_Witold_Rowicki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959%29.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 867.0133333333333
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "The composer died in 1856. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Commons applies PD-EU-audio: expiry of European performers’ and phonogram producers’ rights.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-audio",
+        "eu-extension",
+        "us-recordings"
+      ],
+      "note": "This is a territory-specific expiry claim, not CC0 or permission from the record company. The 70-year extension did not revive recordings whose earlier term had already expired by 1 November 2013. It does not establish public-domain status in the United States. The session attribution itself is disputed between 1958 and 1959. No individual issue has been established as the transfer source, and this is not a CC0 dedication or US clearance."
+    },
+    "creditLine": "Robert Schumann, Piano Concerto, Op. 54, I; Sviatoslav Richter; Warsaw National Philharmonic Orchestra, Witold Rowicki. Deutsche Grammophon; Wikimedia Commons. Session date disputed: Commons 1959 / Richter chronology 11–12 October 1958. PD-EU-audio is a European expiry claim.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Robert Schumann - Concerto for Piano and Orchestra in A minor, op. 54 - 1. Allegro affettuoso (Sviatoslav Richter, Witold Rowicki, Warsaw National Philharmonic Orchestra, 1959).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_Concerto_for_Piano_and_Orchestra_in_A_minor,_op._54_-_1._Allegro_affettuoso_(Sviatoslav_Richter,_Witold_Rowicki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac?oldid=503033606",
+      "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_Concerto_for_Piano_and_Orchestra_in_A_minor,_op._54_-_1._Allegro_affettuoso_(Sviatoslav_Richter,_Witold_Rowicki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "chronology",
+      "title": "Sviatoslav Richter recording chronology",
+      "url": "https://classical-pianists.net/ix/sviatoslav-richter/chronology/",
+      "locator": "Entry SR-C#023: studio recording, Warsaw National Philharmonic Hall; Schumann Piano Concerto recorded 11–12 October 1958 with Rowicki. The 23–26 September dates in the same entry belong to Prokofiev’s Fifth Concerto.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "composer",
+      "title": "Robert Schumann — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Robert_Schumann",
+      "locator": "Lead paragraph: composer’s death year.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recordings",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

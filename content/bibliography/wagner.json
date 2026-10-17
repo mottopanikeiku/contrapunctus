@@ -1,0 +1,30 @@
+{
+ "id": "wagner",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Martin Gregor-Dellin, *Richard Wagner: His Life, His Work, His Century*, translated by J. Maxwell Brownjohn (London: Collins, 1983).",
+   "url": "https://ci.nii.ac.jp/ncid/BA26221213",
+   "kind": "biography",
+   "note": "Substantial biography placing Wagner’s artistic activity within his political and social environment."
+  },
+  {
+   "cite": "Barry Millington, John Deathridge, Carl Dahlhaus and Robert Bailey, ‘Wagner, (Wilhelm) Richard’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.6002278269",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "John Deathridge, Martin Geck and Egon Voss, *Wagner-Werk-Verzeichnis (WWV): Verzeichnis der musikalischen Werke Richard Wagners und ihrer Quellen* (Mainz: Schott, 1986).",
+   "url": "https://ci.nii.ac.jp/ncid/BA07440220",
+   "kind": "catalogue",
+   "note": "Catalogue of musical works and their surviving sources, prepared for the complete edition."
+  },
+  {
+   "cite": "Richard Wagner and Franz Liszt, *Correspondence of Wagner and Liszt*, vol. 1, translated by Francis Hueffer (Project Gutenberg, 2003 electronic edition).",
+   "url": "https://www.gutenberg.org/cache/epub/3835/pg3835.html",
+   "kind": "letters",
+   "note": "Freely readable letters on composition, performances and practical support; separate correspondence from the electronic introduction."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "scriabin-etude-op8-12",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        21.5,
+        33.5
+      ],
+      "b": [
+        72.5,
+        84.5
+      ],
+      "label": "The octave melody returns",
+      "basis": "The A′ section intensifies the opening D♯-minor material after the quieter middle. These excerpts compare a phrase from the first section with its return inside the section marked near 64 s. CENS diagonal mean 0.930, sustained 12 s, fixed pitch-class shift 0 semitones and time offset 51 s (cache/form/scriabin-etude-op8-12.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The other twelve-second match is an internal repetition within A, not the later ternary return. The published match is at the minimum duration threshold and covers only a phrase; it does not align the full octave melody or establish the beginning of A′."
+}

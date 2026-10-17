@@ -1,0 +1,169 @@
+{
+  "id": "ravel-quartet-scherzo",
+  "work": {
+    "title": "String Quartet in F major",
+    "catalogue": "",
+    "movement": "II. Assez vif — Très rythmé",
+    "version": {
+      "value": "Second movement, performed by string players of the United States Army Band.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The precise performing edition and individual personnel are not given."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "String players of the United States Army Band",
+        "role": "string quartet"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "structured"
+    ],
+    "note": "The source identifies the ensemble affiliation, not the four individual musicians."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "structured",
+        "upstream"
+      ],
+      "note": "The Commons performance_date is empty. The structured inception of 1903 is the composition year, not a performance date. The archived webpage’s 2009 update is also not a session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue or location is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original recording label is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer or restoration engineer is credited in the consulted sources."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Xiph.Org libVorbis I 20040629. Commons master: Ogg Vorbis, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Ravel_-_String_Quartet%2C_mvt_2_-_US_Army_Band.ogg/Ravel_-_String_Quartet%2C_mvt_2_-_US_Army_Band.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; Commons master: Ogg Vorbis, 44.1 kHz, 2 channels",
+    "durationSeconds": 350.1745351473923
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-auto-expired, 1937. This does not license a later edition, arrangement or recording."
+    },
+    "recording": {
+      "value": "Public domain in the United States: U.S. Army federal-government recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "structured"
+      ],
+      "note": "Commons uses PD-USGov-Military-Army; the structured public-domain statement is explicitly qualified to the United States. No worldwide public-domain claim is made."
+    },
+    "creditLine": "String players of the United States Army Band. U.S. Army Strings audio-download source, via Wikimedia Commons. Recording: U.S. federal-government work, public domain in the United States.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Army"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Ravel - String Quartet, mvt 2 - US Army Band.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravel_-_String_Quartet,_mvt_2_-_US_Army_Band.ogg?oldid=1044306038",
+      "locator": "File-description wikitext revision 1044306038; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M123574152",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M123574152&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 1044306038. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3ARavel+-+String+Quartet%2C+mvt+2+-+US+Army+Band.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "upstream",
+      "title": "U.S. Army Strings: archived audio-download page",
+      "url": "https://web.archive.org/web/20161016172826/http://www.usarmyband.com:80/Audio/army_strings_audio_downloads.html",
+      "locator": "Archived page identifies the U.S. Army Strings and its MP3 download service. The retrieved page supplies no player names or session date; “Updated 19 May 2009” is a webpage date.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "bruckner",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Derek Watson, *Bruckner*, revised edition (New York: Oxford University Press, 1996).",
+   "url": "https://openlibrary.org/books/OL19630761M",
+   "kind": "biography",
+   "note": "Compact life-and-works study in the Master Musicians series."
+  },
+  {
+   "cite": "Paul Hawkshaw and Timothy L. Jackson, ‘Bruckner, (Joseph) Anton’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.40030",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Robert Klugseder, with Clemens Gubsch and Desiree Mayer, *Werkverzeichnis Anton Bruckner*, 2 vols. (Vienna: Hollitzer, 2024).",
+   "url": "https://www.hollitzer.at/buch/werkverzeichnis-anton-bruckner",
+   "kind": "catalogue",
+   "note": "Open-access revised WAB catalogue includes sketches, studies, arrangements and copied works."
+  },
+  {
+   "cite": "Österreichische Akademie der Wissenschaften, *Bruckner Online* (online research portal, n.d.; accessed 16 October 2026).",
+   "url": "https://www.bruckner-online.at/",
+   "kind": "reference",
+   "note": "Free work catalogue, manuscript images, early editions, chronology and biographical reference."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "dvorak",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "John Clapham, *Dvořák* (Norton, 1979).",
+   "url": "https://openlibrary.org/books/OL18786323M",
+   "kind": "biography",
+   "note": "Biographical study of Dvořák’s life and musical career."
+  },
+  {
+   "cite": "Klaus Döge, ‘Dvořák, Antonín’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://doi.org/10.1093/gmo/9781561592630.article.51222",
+   "kind": "reference",
+   "note": "Biographical reference, work-list and bibliography; subscription required."
+  },
+  {
+   "cite": "Jarmil Burghauser, *Antonín Dvořák: Thematický katalog / Thematisches Verzeichnis / Thematic Catalogue*, bibliography with John Clapham (Prague: Bärenreiter Editio Supraphon, 1996).",
+   "url": "https://ci.nii.ac.jp/ncid/BA32308112",
+   "kind": "catalogue",
+   "note": "Burghauser work numbers, a bibliography and a documentary survey of life and works."
+  },
+  {
+   "cite": "National Museum, Prague – Antonín Dvořák Museum, *Correspondence of Antonín Dvořák Online* (online collection, n.d.; accessed 16 October 2026).",
+   "url": "https://antonindvorak.nm.cz/en/correspondence",
+   "kind": "letters",
+   "note": "Free digitised correspondence from the museum’s collection, searchable by people, dates and related works."
+  }
+ ]
+}

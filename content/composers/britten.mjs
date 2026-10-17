@@ -87,6 +87,7 @@ V:1
   ],
   arts: [
     {
+      relation: 'documented-use',
       type: 'poem', author: 'George Crabbe', title: 'The Borough, Letter XXII — Peter Grimes', date: '1810', lang: 'English',
       original: `He nursed the feelings these dull scenes produce,
 And loved to stop beside the opening sluice;
@@ -97,6 +98,7 @@ Oppressed the soul with misery, grief, and fear.`,
       note: `<p>Crabbe was born in Aldeburgh in 1754. These six lines describe Grimes seeking out the estuary after the deaths of his apprentices; spelling is modernised. The poem supplies the opera’s subject. Slater and Britten shift its moral balance, giving Grimes a capacity for imagination that Crabbe’s sustained account of abuse scarcely permits. The water is already described through sound — a restricted, repetitive stream.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem', author: 'Wilfred Owen', title: 'Anthem for Doomed Youth', date: '1917; published 1920', lang: 'English',
       original: `What passing-bells for these who die as cattle?
 Only the monstrous anger of the guns.
@@ -115,6 +117,7 @@ And each slow dusk a drawing-down of blinds.`,
       note: `<p>Britten places this sonnet in the opening movement of the <i>War Requiem</i>, giving it to the tenor and chamber orchestra. Owen’s substitution of guns for bells and shells for a choir confronts the actual choir singing the Requiem around him. The poem’s refusal of adequate funeral ritual interrupts the ritual being performed.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Constable - Golding Constable\'s Kitchen Garden, c.1815, R.1955-96.2.jpg',
       artist: 'John Constable', title: 'Golding Constable’s Kitchen Garden', date: 'c. 1815', medium: 'Oil on canvas', collection: 'Christchurch Mansion, Ipswich',
       note: `<p>Constable paints the cultivated land behind his father’s house at East Bergholt in Suffolk. The connection is regional; there is no documented influence. Britten’s Aldeburgh music likewise belongs to a working county of gardens, churches, farms and fishing boats. Read the ordered plots against Crabbe’s estuary: both show a countryside shaped by human labour.</p>`,

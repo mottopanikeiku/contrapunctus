@@ -1,0 +1,172 @@
+{
+  "id": "rameau-gavotte-six-doubles",
+  "work": {
+    "title": "Nouvelles Suites de pièces de clavecin: Suite in A minor",
+    "catalogue": "",
+    "movement": "Gavotte et six doubles",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition, revision and any editorial interventions are not identified in the consulted recording documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Marcelle Meyer",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "Commons names Marcelle Meyer and identifies her 1953 Paris session."
+  },
+  "session": {
+    "date": {
+      "value": "29–30 October 1953",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The author/session line explicitly gives these dates. The separate Date field and structured inception of 31 January 2015 concern the digital item, not this session.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Salle Adyar, Paris",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Les Discophiles Français",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DF 98/99",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Carrier reference supplied by the Médiathèque musicale Mahler source credit; matrix, take and track-side allocation are not supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established. A digital file alone does not establish that no earlier physical carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Médiathèque musicale Mahler, fonds Discophiles Français.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is the source-collection credit. A named transfer or restoration engineer is not given."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "embedded"
+      ],
+      "note": "No transfer date is documented; upload and encoding-software dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Embedded encoder: Lavf55.19.100. Commons master: FLAC, 24-bit, 44.1 kHz, 2 channels.",
+      "status": "documented",
+      "sourceIds": [
+        "embedded"
+      ],
+      "note": "These are file properties, not evidence of noise reduction, equalisation, pitch correction or other restoration. Earlier processing is not documented. The inherited Windows Media fields do not prove the complete encoding history, so no lossless-source claim is made beyond the present FLAC container."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/Rameau-_Nouvelles_Suites_de_pi%C3%A8ces_de_clavecin-_Suite_en_la_mineur_-_Gavotte_et_six_doubles.flac/Rameau-_Nouvelles_Suites_de_pi%C3%A8ces_de_clavecin-_Suite_en_la_mineur_-_Gavotte_et_six_doubles.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; Commons master: FLAC, 24-bit, 44.1 kHz, 2 channels",
+    "durationSeconds": 407.13868480725625
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition, as asserted by Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The musical-composition tag is PD-old-70-1923. This does not license a later edition, arrangement or recording."
+    },
+    "recording": {
+      "value": "Commons asserts public-domain status in the European Union under PD-EU-audio.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-recording",
+        "us-recording-law"
+      ],
+      "note": "This is not a worldwide licence. US pre-1972 sound-recording terms differ under 17 U.S.C. § 1401; US reuse of this recording and any separately protected restoration is not established by the Commons tag."
+    },
+    "creditLine": "Marcelle Meyer, piano. Les Discophiles Français DF 98/99; Médiathèque musicale Mahler, fonds Discophiles Français, via Wikimedia Commons. Commons asserts EU public-domain recording status (PD-EU-audio); rights elsewhere are not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Rameau- Nouvelles Suites de pièces de clavecin- Suite en la mineur - Gavotte et six doubles.flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Rameau-_Nouvelles_Suites_de_pi%C3%A8ces_de_clavecin-_Suite_en_la_mineur_-_Gavotte_et_six_doubles.flac?oldid=427863970",
+      "locator": "File-description wikitext revision 427863970; Description, Date, Source, Author and licensing templates. Queried through the revisions API.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "structured",
+      "title": "Wikimedia Commons structured data: M38131986",
+      "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M38131986&props=claims%7Cinfo&format=json",
+      "locator": "MediaInfo statements; revision 427863970. P571 is inception, not an independently verified session date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "embedded",
+      "title": "Wikimedia Commons audio metadata and stream",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3ARameau-+Nouvelles+Suites+de+pi%C3%A8ces+de+clavecin-+Suite+en+la+mineur+-+Gavotte+et+six+doubles.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
+      "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-recording",
+      "title": "Commons: scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template text and documentation: performers’ and producers’ rights in the EU; explicitly not a composition-rights tag.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-recording-law",
+      "title": "17 U.S.C. § 1401: pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Section (a)(2): terms depend on first publication, with separate periods for 1923–1946, 1947–1956 and later recordings.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

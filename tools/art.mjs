@@ -3,6 +3,7 @@
 //   node tools/art.mjs search "Bocklin Isle of the Dead"     -> candidate File: titles
 //   node tools/art.mjs check "File:A.jpg" "File:B.jpg"       -> existence, license, size
 //   node tools/art.mjs fetch                                 -> download every File: referenced in content/
+//   node tools/art.mjs derive [160|480|960]                  -> local renditions (no downloads)
 import { mkdir, readFile, writeFile, readdir, stat, unlink } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
@@ -14,6 +15,14 @@ const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
 const IMG = path.join(ROOT, 'docs/assets/img/art');
 const CACHE = path.join(ROOT, 'content/art.json');
+
+/** Tiny cameo and responsive painting renditions; originals remain untouched. */
+export async function derivatives(file, widths = [160, 480, 960]) {
+  for (const w of widths) {
+    const dst = file.replace(/\.webp$/, `-${w}.webp`);
+    await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', file, '-vf', `scale='min(${w},iw)':-2`, '-c:v', 'libwebp', '-quality', '74', dst]);
+  }
+}
 
 const [cmd, ...args] = process.argv.slice(2);
 
@@ -51,6 +60,7 @@ if (cmd === 'search') {
         '-vf', "scale='min(1280,iw)':-2", '-c:v', 'libwebp', '-quality', '55', '-compression_level', '6', out]);
     }
     await unlink(tmp);
+    await derivatives(out);
     const { stdout } = await run('ffprobe', ['-v', 'error', '-select_streams', 'v:0',
       '-show_entries', 'stream=width,height', '-of', 'csv=p=0', out]);
     const [w, h] = stdout.trim().split(',').map(Number);
@@ -64,12 +74,18 @@ if (cmd === 'search') {
     .filter(([t]) => liveTitles.has(t)).sort(([a], [b]) => a.localeCompare(b)));
   await writeFile(CACHE, JSON.stringify(sorted, null, 1) + '\n');
   // Drop images no longer referenced.
-  const live = new Set([...liveTitles].map((t) => `${artId(t)}.webp`));
+  const live = new Set([...liveTitles].flatMap((t) => [`${artId(t)}.webp`, ...[160, 480, 960].map((w) => `${artId(t)}-${w}.webp`)]));
   for (const f of await readdir(IMG)) if (!live.has(f)) await unlink(path.join(IMG, f));
   if (missing.length) {
     console.log(`\nMISSING on Commons:\n  ${missing.join('\n  ')}`);
     process.exitCode = 1;
   }
+} else if (cmd === 'derive') {
+  const widths = args.length ? args.map(Number) : [160, 480, 960];
+  if (widths.some((w) => ![160, 480, 960].includes(w))) throw new Error('derive widths must be 160, 480 or 960');
+  const files = (await readdir(IMG)).filter((f) => f.endsWith('.webp') && !/-(160|480|960)\.webp$/.test(f));
+  for (const f of files) await derivatives(path.join(IMG, f), widths);
+  console.log(`derived ${files.length} images at ${widths.join(', ')} px`);
 } else {
-  console.log('usage: node tools/art.mjs search <query> | check <File:...>... | fetch');
+  console.log('usage: node tools/art.mjs search <query> | check <File:...>... | fetch | derive [160|480|960]');
 }

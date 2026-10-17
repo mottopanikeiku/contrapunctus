@@ -1,0 +1,36 @@
+{
+ "id": "influence",
+ "kind": "topic",
+ "items": [
+  {
+   "cite": "Joseph N. Straus, *Remaking the Past: Musical Modernism and the Influence of the Tonal Tradition* (Harvard University Press, 1990).",
+   "url": "https://api.crossref.org/works/10.4159/harvard.9780674436336",
+   "kind": "study",
+   "note": "Examines musical modernism in relation to inherited tonal traditions; a theoretical counterpart to the specific borrowing practices studied by Burkholder."
+  },
+  {
+   "cite": "Kevin Korsyn, ‘Towards a New Poetics of Musical Influence’, *Music Analysis* 10, nos. 1–2 (1991).",
+   "url": "https://api.crossref.org/works/10.2307/853998",
+   "kind": "study",
+   "note": "A theoretical treatment of musical influence. Use its interpretative arguments alongside documentary evidence, not as a substitute for it."
+  },
+  {
+   "cite": "J. Peter Burkholder, ‘Borrowing’, *Grove Music Online* (Oxford University Press, 2001).",
+   "url": "https://api.crossref.org/works/10.1093/gmo/9781561592630.article.52918",
+   "kind": "reference",
+   "note": "A reference article specifically on musical borrowing; the link supplies the publisher-deposited bibliographic record."
+  },
+  {
+   "cite": "J. Peter Burkholder, *All Made of Tunes: Charles Ives and the Uses of Musical Borrowing* (Yale University Press, 2004 paperback).",
+   "url": "https://yalebooks.yale.edu/book/9780300102123/all-made-of-tunes/",
+   "kind": "study",
+   "note": "Treats borrowing as a compositional practice, not merely a list of recognisable quotations."
+  },
+  {
+   "cite": "Charles Rosen, *The Classical Style: Haydn, Mozart, Beethoven*, expanded edition (W. W. Norton, 1998 paperback).",
+   "url": "https://wwnorton.co.uk/books/9780393317121-the-classical-style-cc430b2c-c86f-4ec5-b738-daa71f915154",
+   "kind": "study",
+   "note": "Explains musical conventions through Haydn, Mozart and Beethoven; the expanded edition includes a chapter on late Beethoven."
+  }
+ ]
+}

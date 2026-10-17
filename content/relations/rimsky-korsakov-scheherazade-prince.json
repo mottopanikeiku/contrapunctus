@@ -1,0 +1,20 @@
+{
+  "id": "rimsky-korsakov-scheherazade-prince",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        5.5,
+        18.0
+      ],
+      "b": [
+        266.5,
+        279.0
+      ],
+      "label": "The broad song returns",
+      "basis": "The lyrical A material returns after the lighter dance in the movement’s outer-section design. This brief sustained match agrees with the return marked near 260 s, without identifying a precise violin entrance. CENS diagonal mean 0.938, sustained 12.5 s, fixed pitch-class shift 0 semitones and time offset 261 s (cache/form/rimsky-korsakov-scheherazade-prince.txt, candidate 2; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The other two candidates shift opening material down five semitones within the first large section. They may track the melody’s tonal extension, but the notes do not identify separate formal returns there. The published 12.5 s excerpt supports only part of A′, not the whole later orchestral expansion."
+}

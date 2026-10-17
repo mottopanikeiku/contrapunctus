@@ -115,6 +115,7 @@ V:2
 
   arts: [
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'mat',
       file: 'File:Schwind Begraebnis.jpg',
       artist: 'Moritz von Schwind', title: 'Wie die Thiere den Jäger begraben (How the Animals Bury the Hunter)', date: '1850',
@@ -122,6 +123,7 @@ V:2
       note: `<p>A children’s picture-sheet from Munich: hares carry banners, a fox weeps, deer and boars follow the coffin of the hunter who used to shoot them. Mahler cited this kind of image — an old Austrian nursery print — as the seed of the funeral march in the First Symphony. It explains the movement’s tone exactly: a procession that is both mournful and absurd, with a klezmer-like band (oboes, E♭ clarinets, bass drum with cymbal attached) breaking in on the solemnity.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:Klimt - Diesen Kuss der ganzen Welt.jpeg',
       artist: 'Gustav Klimt', title: 'Beethoven Frieze: This Kiss to the Whole World', date: '1902',
@@ -129,6 +131,7 @@ V:2
       note: `<p>Klimt painted the frieze for the Vienna Secession’s 1902 exhibition in honour of Beethoven, as a visual reading of the Ninth Symphony’s finale; its last panel takes its title from Schiller’s <i>Ode to Joy</i>. At the opening, Mahler conducted his own arrangement of a passage from that finale for wind instruments. The armoured knight on the frieze’s long wall has often been said to carry Mahler’s features — an attribution that cannot be proved, but tells you how Vienna saw its opera director.</p>`,
     },
     {
+      relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:Gustav Klimt - Attersee - Google Art Project.jpg',
       artist: 'Gustav Klimt', title: 'Attersee', date: '1900',
@@ -136,6 +139,7 @@ V:2
       note: `<p>The lake where Mahler built his first composing hut, at Steinbach, and wrote the Second and Third symphonies (1893–96). Klimt summered there from 1900 and painted it on square canvases, cropping the horizon almost out of the picture until the water becomes a field of colour. When the conductor Bruno Walter visited Steinbach and stared at the mountains, Mahler told him not to bother: “I have already composed all that.”</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Friedrich Rückert', title: 'Ich bin der Welt abhanden gekommen', date: 'c. 1821; set by Mahler 1901',
       lang: 'German', translator: 'Our translation',
@@ -160,6 +164,7 @@ in my love, in my song.`,
       note: `<p>The middle stanza is omitted here. Mahler set the poem in F major for voice and a reduced orchestra, with the cor anglais carrying a line that seems to grow out of the voice. He said of it: “It is my very self.” The Adagietto of the Fifth Symphony, composed the same summer, is in the same key and breathes the same air.</p>`,
     },
     {
+      relation: 'documented-use',
       type: 'poem',
       author: 'Gustav Mahler, after Hans Bethge', title: 'Der Abschied — closing lines', date: '1908',
       lang: 'German', translator: 'Our translation',

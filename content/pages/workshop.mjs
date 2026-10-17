@@ -8,13 +8,15 @@ export default {
   lessons: [
     {
       id: 'counterpoint', numeral: 'i', label: 'Independent lines', heading: 'Counterpoint: two melodies, one argument',
+      question: 'How can two melodies fit together?',
+      listen: [{ id: 'couperin-nations-piemontaise', t: 95, why: 'Follow the two upper lines exchanging short figures above a shared bass.' }],
       html: `
 <p>Counterpoint regulates the meeting of melodies. Each part must make sense horizontally, as a singable line, while its intervals with the other parts make sense vertically. Johann Joseph Fux’s <i>Gradus ad Parnassum</i>, published in Vienna in 1725, teaches that double responsibility through a dialogue between Aloysius, representing Palestrina, and the pupil Josephus. Its exercises isolate problems that a composer can practise before managing the rhythmic freedom of an actual motet.</p>
 <aside class="note"><b>Species</b>The five stages are note against note; two against one; four against one; tied notes or suspensions; and a mixture of the preceding rhythms, called florid counterpoint.</aside>
 <p>In first species, a new note accompanies each note of a supplied <i>cantus firmus</i>, a fixed melody in long values. The vertical intervals are consonances: unisons, octaves and fifths, together with thirds and sixths. Parallel perfect fifths and octaves are excluded because they make two parts behave like one doubled line. Parallel thirds and sixths remain available. Contrary motion, in which one part rises while another falls, offers a particularly audible way to establish independence.</p>
 <p>Dissonance becomes possible when rhythm explains it. In second species, a weak-beat passing note can bridge two consonances by step. In fourth species, a note is prepared as a consonance, held across a change in the other voice, and resolved down by step: preparation, suspension, resolution. A fourth above the bass counts as dissonant in this discipline, even though the same interval can be acceptable between upper parts in a larger texture. Consonance here is a matter of practice and position as well as acoustics.</p>
 <aside class="note"><b>Inversion is not reversal</b>Invertible counterpoint exchanges the vertical positions of complete lines. Melodic inversion turns upward intervals downward; retrograde reads a sequence backwards. These are different operations.</aside>
-<p>In counterpoint invertible at the octave, thirds become sixths when the lower line is moved above the upper. Fifths become fourths: a consonance has become a dissonance, so the original fifth needs special treatment if both arrangements are to work. [[bach|Bach]] designs subjects and accompanying lines with such exchanges in mind. The invented examples below separate the two jobs: the first keeps every simultaneous interval consonant; the second lets the same two lines trade places.</p>`,
+<p>In counterpoint invertible at the octave, thirds become sixths when the lower line is moved above the upper. Fifths become fourths: a consonance has become a dissonance, so the original fifth needs special treatment if both arrangements are to work. [[bach|Bach]] designs subjects and accompanying lines with such exchanges in mind. The two invented examples separate the jobs: the opening example keeps every simultaneous interval consonant; the later one lets the same two lines trade places.</p>`,
       score: [
         {
           kicker: 'Schematic · first species', title: 'One note against one note',
@@ -55,6 +57,7 @@ C4 | D4 | E4 | F4 |]`,
       ],
       arts: [
         {
+          relation: 'shared-context',
           type: 'painting', frame: 'mat', file: 'File:Fux-Gradus-ad-Parnassum.jpg',
           artist: 'Johann Joseph Fux; title-page designer uncredited', title: 'Gradus ad Parnassum: title page', date: '1725',
           medium: 'Printed title page', collection: 'First edition, Vienna',
@@ -64,6 +67,8 @@ C4 | D4 | E4 | F4 |]`,
     },
     {
       id: 'fugue', numeral: 'ii', label: 'Imitation', heading: 'Fugue: an entrance changes the texture',
+      question: 'What happens when the same tune enters again?',
+      listen: [{ id: 'bach-wtc1-fugue-b-minor', t: 14, why: 'In this B minor fugue, follow the answer while the first voice continues its own line.' }],
       html: `
 <p>A fugue starts by making a melody identifiable before making it compete with other melodies. One voice states the <i>subject</i>; another enters with an <i>answer</i>, normally at the dominant level. A real answer transposes every interval exactly. A tonal answer adjusts an interval, often exchanging a tonic-to-dominant gesture for dominant-to-tonic, to keep the opening within the home key. The distinction concerns exact and adjusted transposition.</p>
 <aside class="note"><b>One exact subject</b>The example is the opening alto line of [[bach|Bach]]’s C major Fugue, BWV 846, from Book I of <i>The Well-Tempered Clavier</i> (1722). The subject reaches E on beat three of bar 2; the remaining semiquavers continue the line.</aside>
@@ -90,6 +95,8 @@ z C D E F3/2 G/4 F/4 E A | D G- G/2 A/2 G/2 F/2 E/2 F/2 E/2 D/2 C/2 D/2 C/2 B,/2
     },
     {
       id: 'figured-bass', numeral: 'iii', label: 'A working notation', heading: 'Figured bass: numbers above a moving foundation',
+      question: 'How can numbers tell a player what to play?',
+      listen: [{ id: 'couperin-nations-piemontaise', t: 0, why: 'Listen beneath the violin and flute: viol and keyboard share the supporting bass part.' }],
       html: `
 <p>Figured bass gives a player a written bass line and numbers specifying intervals above it. A harpsichordist, organist or theorbo player usually supplies the upper voices, choosing their spacing, rhythm and register to suit the singers or instrumentalists. In a Baroque continuo group, a cello or bassoon may reinforce the bass without playing chords. The division between bass instrument and chordal instrument answers practical needs, and the combination can vary between ensembles.</p>
 <aside class="note"><b>Count from the bass</b>Over C, a 6 asks for A; over E, a 6 asks for C. The numeral names an interval above whichever bass note is sounding.</aside>
@@ -121,6 +128,7 @@ V:2
     },
     {
       id: 'temperament', numeral: 'iv', label: 'Tuning', heading: 'Temperament: where to put the discrepancy',
+      question: 'Why can the same notes sound differently tuned?',
       html: `
 <p>A pure fifth has a frequency ratio of 3:2. Stack twelve such fifths and reduce by seven octaves: the result is 531441:524288, about 23.46 cents above unison. This difference is the <i>Pythagorean comma</i>. On a keyboard with twelve notes per octave, closing the chain of fifths requires adjustment. Pythagorean tuning also produces a major third of 81:64, appreciably wider than the pure 5:4 third.</p>
 <aside class="note"><b>Two commas</b>The syntonic comma, 81:80, is the difference between the Pythagorean and pure major thirds. It is about 21.51 cents, compared with the Pythagorean comma’s 23.46. A cent is one hundredth of an equal-tempered semitone.</aside>
@@ -148,6 +156,8 @@ V:1
     },
     {
       id: 'harmony', numeral: 'v', label: 'Tonal direction', heading: 'Harmony: a chord’s job depends on where it goes',
+      question: 'Why does one chord seem to need another?',
+      listen: [{ id: 'couperin-nations-piemontaise', t: 590, why: 'Follow the bass and upper lines towards the sonade’s closing cadence.' }],
       html: `
 <p>In C major, C–E–G is the tonic triad, I; G–B–D is the dominant, V; F–A–C is the subdominant, IV. Those labels locate roots in a scale. Harmonic function describes their behaviour over time: tonic establishes or prolongs a centre, dominant directs attention towards it, and a predominant prepares the dominant. IV often serves as a predominant, but so does ii, D minor. A chord’s position in a phrase matters as much as the notes it contains.</p>
 <aside class="note"><b>The dominant seventh</b>G–B–D–F contains the tritone B–F. In a straightforward resolution to C major, B rises to C and F falls to E. The dissonance gives two independent voices specific destinations.</aside>
@@ -197,6 +207,11 @@ V:2
     },
     {
       id: 'sonata-form', numeral: 'vi', label: 'Large-scale tonality', heading: 'Sonata form: the return changes the tonal route',
+      question: 'Why does a returning tune feel different?',
+      listen: [
+        { id: 'beethoven-5-first', t: 54, why: 'The second theme moves away from C minor into E-flat major.' },
+        { id: 'beethoven-5-first', t: 350, why: 'Compare its return in C major: the familiar theme now belongs to the home tonic.' },
+      ],
       html: `
 <p>Sonata form makes a large movement out of a tonal departure and a revised return. The exposition establishes the home key, then moves into a second key area and confirms it with cadential weight. In a major-key movement the second area is commonly the dominant; in a minor-key movement it is often the relative major. Themes make these regions recognisable. A movement can reuse one theme in both areas and still make the tonal opposition unmistakable.</p>
 <aside class="note"><b>Exposition is a shared word</b>A fugue’s exposition presents the voices in successive entries. A sonata exposition establishes a sequence of thematic functions and tonal areas.</aside>
@@ -223,6 +238,8 @@ V:1
     },
     {
       id: 'chromaticism', numeral: 'vii', label: 'Altered scale degrees', heading: 'Chromaticism: the spelling records the pressure',
+      question: 'How do unexpected notes change a familiar harmony?',
+      listen: [{ id: 'wagner-tannhauser-overture', t: 70, why: 'The pilgrims’ hymn continues while semitone movements make its harmony less settled; played here in a concert-band arrangement.' }],
       html: `
 <p>A chromatic note lies outside the prevailing diatonic collection. It may decorate a line without changing the harmony, alter a chord’s function, or prepare another key. These are different events: a passing C♯ between C and D need not announce D major. In nineteenth-century music, chromatic notes often make otherwise familiar functions more insistent. The decisive evidence is their resolution. Two chords with the same piano keys can have different harmonic purposes if their notes are spelled and directed differently.</p>
 <aside class="note"><b>Neapolitan</b>In C minor, the major triad on the lowered second degree is D♭–F–A♭. It commonly appears with F in the bass, hence “Neapolitan sixth”, and usually prepares the dominant rather than establishing D♭ as a new tonic.</aside>
@@ -262,12 +279,13 @@ V:1
     },
     {
       id: 'tristan-chord', numeral: 'viii', label: 'A disputed sonority', heading: 'The Tristan chord: four notes, several readings',
+      question: 'Why does this chord leave us waiting?',
       html: `
 <p>Near the beginning of [[wagner|Wagner]]’s <i>Tristan und Isolde</i>, the notes F–B–D♯–G♯ sound together. Their spelling matters. Above F, B is an augmented fourth, D♯ an augmented sixth, and G♯ an augmented ninth when placed in the upper register. The ensuing phrase reaches a dominant seventh on E, E–G♯–B–D. Within the implied A minor, one unstable sonority has moved to another. The opening repeatedly develops this condition of arrival without final settlement.</p>
 <aside class="note"><b>A familiar collection transformed</b>Respell the chord F–A♭–C♭–E♭ and it becomes a half-diminished seventh. The novelty lies in the phrase’s voice-leading, rhythm, orchestration and withheld continuation.</aside>
 <p>One functional reading hears G♯ as an appoggiatura, a leaning note that moves to A. The resulting F–A–B–D♯ has the pitch content of a French augmented sixth in A minor. It belongs to the predominant region and prepares E. This reading explains the chord through a familiar tonal function; its account must also follow the actual chromatic motion. Other readings emphasise a decorated subdominant or interpret the initial notes as dissonant approaches to the dominant itself.</p>
 <p>A linear reading follows the individual voices before assigning a root to every vertical slice. The upper line’s G♯–A–A♯–B forms a melody through the changing chords. Which notes count as structural and which as appoggiaturas depends on the span being analysed. A pitch-class description identifies the collection while leaving tonal function and the phrase’s direction open. These approaches answer different questions.</p>
-<aside class="note"><b>The example’s scope</b>The two sustained chords below show the exact pitch collections F–B–D♯–G♯ and E–G♯–B–D. Their durations and connecting voice-leading are schematic.</aside>
+<aside class="note"><b>The example’s scope</b>The two sustained chords in the opening example show the exact pitch collections F–B–D♯–G♯ and E–G♯–B–D. Their durations and connecting voice-leading are schematic.</aside>
 <p>The opera was first performed in Munich in 1865. Its influence on later harmony comes from the extension of these procedures across entire scenes. A dominant can remain intelligible while its expected tonic is postponed, redirected or concealed by another line. [[debussy|Debussy]] later quotes the opening in “Golliwogg’s Cakewalk” from <i>Children’s Corner</i>: a recognisable dramatic manner becomes material for interruption and parody. Tonal expectation makes the original chord’s deferred resolution audible.</p>`,
       score: [
         {
@@ -288,6 +306,11 @@ V:1
     },
     {
       id: 'leitmotif', numeral: 'ix', label: 'Musical memory', heading: 'Leitmotif: recognition with a changed meaning',
+      question: 'How can a tune remember a character?',
+      listen: [
+        { id: 'wagner-tannhauser-overture', t: 0, why: 'The hymn represents the pilgrims before the contrasting Venusberg music; this is a concert-band arrangement.' },
+        { id: 'wagner-tannhauser-overture', t: 690, why: 'The pilgrims’ music returns after the contrasting centre: recognition carries a dramatic association.' },
+      ],
       html: `
 <p>A leitmotif is a recurring musical idea associated with a dramatic person, object, action or concept. The music can recall that association independently of spoken words. In [[wagner|Wagner]]’s <i>Ring</i>, the orchestra can recall a promise that a character conceals, anticipate an object before it becomes visible, or combine motives whose dramatic meanings are in conflict. A short interval pattern may carry the identity; rhythm, register and instrumentation help the listener recognise it under changing harmonies.</p>
 <aside class="note"><b>Names as listening aids</b>Many familiar motive labels were circulated by commentators, notably Hans von Wolzogen. A label identifies a first association, leaving later uses open.</aside>
@@ -312,6 +335,7 @@ V:1
       ],
       arts: [
         {
+          relation: 'shared-context',
           type: 'painting', frame: 'mat', file: 'File:Siegfried and the Twilight of the Gods p 004.jpg',
           artist: 'Arthur Rackham', title: 'Mime at the anvil', date: '1911', medium: 'Colour book illustration',
           collection: 'Siegfried and the Twilight of the Gods, William Heinemann',
@@ -321,13 +345,14 @@ V:1
     },
     {
       id: 'modes', numeral: 'x', label: 'Diatonic alternatives', heading: 'Modes: change the centre, change the intervals',
+      question: 'Can the same notes make different scales?',
       html: `
 <p>The white notes of the piano can support several centres. Give D that role and the collection forms D Dorian: D–E–F–G–A–B–C. Its minor third coexists with a major sixth, B, rather than the B♭ of natural minor. E Phrygian places a semitone immediately above its centre, E–F. F Lydian has a raised fourth, B, compared with F major. G Mixolydian has a lowered seventh, F, compared with G major. A sustained bass, phrase endings and recurring melodic shapes establish which note acts as centre.</p>
 <aside class="note"><b>Medieval modes are more than scales</b>Historical church-mode classification also concerns final, range and reciting tone, with authentic and plagal forms. Modern modal composition often borrows interval patterns without reproducing that complete system.</aside>
 <p>Transposition carries the interval pattern to a new pitch level. C Lydian therefore needs F♯; D Mixolydian needs F♯ and C♮. A Dorian tune may remain recognisably modal even when its harmony occasionally uses a leading note at a cadence. Modes can govern a phrase, a pedal passage or a thematic strand while the surrounding music works through ordinary major–minor tonality.</p>
 <p>[[sibelius|Sibelius]]’s Sixth Symphony, Op. 104 (1923), draws much of its opening string writing from a Dorian-inflected D centre. The natural sixth alters the minor colour without requiring a chromatic detour. Vaughan Williams’s <i>Fantasia on a Theme by Thomas Tallis</i> (1910) takes its principal melody from Tallis’s third tune for Archbishop Parker’s Psalter, published in 1567; its Phrygian inheritance contributes to the expanded string-orchestra setting’s harmonic vocabulary.</p>
 <aside class="note"><b>Listen to the distinctive degree</b>Dorian: natural sixth in a minor collection. Phrygian: lowered second. Lydian: raised fourth in a major collection. Mixolydian: lowered seventh. These comparisons assume the same tonic.</aside>
-<p>[[debussy|Debussy]] combines modal and symmetrical collections. In <i>L’isle joyeuse</i> (1904), A Lydian belongs to a network that also includes A major, whole-tone material and the acoustic collection A–B–C♯–D♯–E–F♯–G. The last collection’s natural G distinguishes it from ordinary Lydian. Dmitri Tymoczko’s <a href="https://people.ucsc.edu/~dej/migrated/Ewha%20Materials/Modes/Modes-reading/Tymoczko.Scale%20Networks%20and%20Debussy.pdf">analysis of Debussy’s scale networks</a> traces these small changes between collections. The scales below isolate the distinctive degrees for comparison.</p>`,
+<p>[[debussy|Debussy]] combines modal and symmetrical collections. In <i>L’isle joyeuse</i> (1904), A Lydian belongs to a network that also includes A major, whole-tone material and the acoustic collection A–B–C♯–D♯–E–F♯–G. The last collection’s natural G distinguishes it from ordinary Lydian. Dmitri Tymoczko’s <a href="https://people.ucsc.edu/~dej/migrated/Ewha%20Materials/Modes/Modes-reading/Tymoczko.Scale%20Networks%20and%20Debussy.pdf">analysis of Debussy’s scale networks</a> traces these small changes between collections. The two scale examples isolate the distinctive degrees for comparison.</p>`,
       score: [
         {
           kicker: 'Schematic · minor-third modes', title: 'D Dorian and E Phrygian',
@@ -360,6 +385,7 @@ V:1
     },
     {
       id: 'whole-tone', numeral: 'xi', label: 'Six equal steps', heading: 'Whole-tone harmony: no privileged semitone',
+      question: 'What happens when every scale step is equal?',
       html: `
 <p>A whole-tone scale divides the octave into six equal whole tones: C–D–E–F♯–G♯–A♯–C. It contains no semitone and no perfect fifth. Every note has the same interval environment, placing C, D and F♯ on equal terms within the collection. A bass pedal, accent or melodic recurrence can still establish a centre.</p>
 <aside class="note"><b>Only two collections</b>Transpose a whole-tone collection up a semitone and obtain the other one. Transpose it up a whole tone and recover the original pitch classes in a different order. [[messiaen|Messiaen]] classified it as his first mode of limited transposition.</aside>
@@ -386,6 +412,7 @@ C D E | ^F ^G ^A | "C augmented"[CE^G]3 | "D augmented"[D^F^A]3 |]`,
     },
     {
       id: 'octatonic', numeral: 'xii', label: 'Eight-note symmetry', heading: 'Octatonic harmony: alternating whole tones and semitones',
+      question: 'What can a scale of eight notes do?',
       html: `
 <p>An octatonic collection alternates semitones and whole tones. Beginning with a semitone on C gives C–D♭–E♭–E–F♯–G–A–B♭. The octave contains eight pitch classes, compared with the seven of a diatonic scale or six of a whole-tone scale. Starting with a whole tone on C selects a different member of the octatonic family. Once the starting collection is chosen, its rotations preserve the alternation.</p>
 <aside class="note"><b>Three distinct collections</b>Transposition by a minor third reproduces an octatonic collection. Transpositions by zero, one and two semitones therefore exhaust its distinct pitch-class collections. Messiaen’s mode 2 names this symmetry as limited transposition.</aside>
@@ -412,6 +439,8 @@ C _D _E =E | ^F G A _B | "F-sharp diminished 7"[^F,A,C_E]4 | "C-sharp diminished
     },
     {
       id: 'atonality', numeral: 'xiii', label: 'Without a tonic', heading: 'Atonality: organised intervals without a home key',
+      question: 'What holds music together without a home key?',
+      listen: [{ id: 'schoenberg-quartet-2-entrueckung', t: 0, why: 'Follow the opening string lines without expecting a familiar cadence; the movement eventually regains a tonal ending.' }],
       html: `
 <p>Atonal music organises pitch outside the governing tonic hierarchy of major–minor harmony. It can use repetition, melody and consonant intervals. The question is whether one pitch or triad controls the others as a tonal centre over the relevant span. A dense chromatic passage in [[wagner|Wagner]] can preserve that control; a spare line in [[webern|Webern]] can dispense with it.</p>
 <aside class="note"><b>Before twelve-tone composition</b>[[schoenberg|Schoenberg]]’s Three Piano Pieces, Op. 11 (1909), precede his twelve-tone method. Atonality and serialism describe distinct historical and technical developments.</aside>
@@ -436,6 +465,7 @@ V:1
       ],
       arts: [
         {
+          relation: 'shared-context',
           type: 'painting', frame: 'lacquer', file: 'File:Wassily Kandinsky - Impression III (Concert) - Google Art Project.jpg',
           artist: 'Wassily Kandinsky', title: 'Impression III (Concert)', date: '1911', medium: 'Oil on canvas', collection: 'Lenbachhaus, Munich',
           note: '<p>Kandinsky attended a Schoenberg concert in Munich on 2 January 1911, with Gabriele Münter and Franz Marc among his companions. The programme included the Second String Quartet and the Three Piano Pieces, Op. 11; this painting followed the experience. The <a href="https://www.lenbachhaus.de/en/digital/collection-online/detail/impression-iii-konzert-30012206">Lenbachhaus record</a> documents the connection. The black mass still suggests the piano as the picture reorganises the concert scene. Schoenberg’s twelve-tone method was still to come.</p>',
@@ -444,6 +474,7 @@ V:1
     },
     {
       id: 'twelve-tone', numeral: 'xiv', label: 'Ordered pitch classes', heading: 'Twelve-tone writing: a row orders pitch classes',
+      question: 'Can an ordered set of notes shape music?',
       html: `
 <p>A twelve-tone row orders the twelve chromatic pitch classes, each appearing once. It leaves rhythm, register, dynamics and instrumentation open. A composer can distribute its notes between melody and accompaniment, combine successive notes into chords, repeat an immediately sounding note, or articulate groups from the row as motives. The classroom injunction “never repeat a note until all twelve have sounded” oversimplifies this freedom.</p>
 <aside class="note"><b>Schoenberg’s Op. 25</b>The basic row is E–F–G–D♭–G♭–E♭–A♭–D–B–C–A–B♭. The Suite for Piano was composed in 1921–23. Its last four notes, read backwards, give B♭–A–C–B: B–A–C–H in German note names.</aside>
@@ -483,6 +514,8 @@ V:1
     },
     {
       id: 'rhythm', numeral: 'xv', label: 'Grouping time', heading: 'Rhythm: pulse and accent can diverge',
+      question: 'Why can a steady beat feel off balance?',
+      listen: [{ id: 'ravel-quartet-scherzo', t: 0, why: 'The plucked opening lets groups of three and two compete within the same pulse.' }],
       html: `
 <p>Metre groups recurring pulses into a hierarchy of stronger and weaker positions. Rhythm is the actual pattern of attacks, durations and silences placed against that grouping. A melody can contradict the metre while the accompaniment maintains it. In a hemiola, six equal units are regrouped from two groups of three into three groups of two, or the reverse. Across two bars of 3/4, three minims can therefore displace the expected two sets of three crotchets without changing the underlying duration.</p>
 <aside class="note"><b>Hemiola is not a tempo change</b>The span stays the same. What changes is the location of the grouping accents. Renaissance cadences, Baroque dances and [[brahms|Brahms]]’s phrase extensions use the device in different textures.</aside>
@@ -527,6 +560,11 @@ C,2 G,2 | C,2 G,2 |]`,
     },
     {
       id: 'orchestration', numeral: 'xvi', label: 'Instrumental construction', heading: 'Orchestration: register, balance and the attack of a note',
+      question: 'How does changing instruments change a tune?',
+      listen: [
+        { id: 'ravel-bolero', t: 13, why: 'Hear the first melody on flute over the repeating bass and drum rhythm.' },
+        { id: 'ravel-bolero', t: 56, why: 'Compare the same melody on clarinet: the instrument changes while the pattern remains.' },
+      ],
       html: `
 <p>Orchestration assigns musical material to instruments and changes its effect. A flute projects differently in its low and high registers; a horn can merge with woodwind or become a distinct brass voice. A clarinet note with a gentle attack can enter beneath a string tone and temporarily conceal its source. Register, articulation and dynamic determine whether a line separates from its surroundings or combines with another instrument into a composite sound.</p>
 <aside class="note"><b>Two working books</b>[[berlioz|Berlioz]]’s <i>Grand traité d’instrumentation et d’orchestration modernes</i> appeared in 1843–44. [[rimsky-korsakov|Rimsky-Korsakov]]’s posthumous <i>Principles of Orchestration</i>, edited by Maximilian Steinberg, organises practical questions of balance, doubling and the distribution of parts.</aside>
@@ -558,10 +596,11 @@ z8 | z8 | c2 d2 e2 g2 | f2 e2 d4 |]`,
     },
     {
       id: 'minimalism', numeral: 'xvii', label: 'Audible processes', heading: 'Minimalism: repetition makes the change measurable',
+      question: 'How can repetition make something new?',
       html: `
 <p>Terry Riley’s <i>In C</i> (1964) provides fifty-three short patterns in a fixed order. Each player chooses how often to repeat a pattern before advancing, listening to the ensemble throughout. A repeated high C commonly supplies the quaver pulse. The resulting overlaps vary between performances, but the order of the material and the shared pulse constrain the freedom. “Repeat” asks the performer to maintain a relationship.</p>
 <aside class="note"><b>Different processes</b>Riley’s performers occupy different points in a shared sequence. [[reich|Reich]]’s phasing shifts the alignment of the same repeating pattern. Glass’s additive process changes a pattern’s length.</aside>
-<p>In Reich’s <i>Piano Phase</i> (1967), two performers initially align a repeating figure. One gradually moves ahead until the patterns settle one subdivision apart; the process proceeds through further alignments. New composite patterns emerge from the combination of the two parts. The example below presents two fixed alignments, illustrating the destination of a phase shift through an abrupt displacement.</p>
+<p>In Reich’s <i>Piano Phase</i> (1967), two performers initially align a repeating figure. One gradually moves ahead until the patterns settle one subdivision apart; the process proceeds through further alignments. New composite patterns emerge from the combination of the two parts. The opening example presents two fixed alignments, illustrating the destination of a phase shift through an abrupt displacement.</p>
 <p>Philip Glass’s <i>Two Pages</i> explores the extension and contraction of a line through additive process. A schematic C–D–E might become C–D–E–G, then C–D–E–G–A before contracting again. The common pulse remains, but the cycle takes longer to recur. Glass’s work with Ravi Shankar and Alla Rakha helped direct his attention towards grouping small rhythmic units into larger spans. His <a href="https://philipglass.com/recordings/two_pages/">published recording notes</a> describe <i>Two Pages</i> as an early study of precisely this expansion and contraction.</p>
 <aside class="note"><b>Tintinnabuli is a separate syntax</b>[[part|Pärt]] combines a melodic voice with a voice drawn from a fixed triad. Rules choose the triadic note’s position relative to the melody, determining pitch relationships independently of loops or phase processes.</aside>
 <p>Pärt’s <i>Für Alina</i> (1976) is an early statement of tintinnabuli. A stepwise melody and a triadic partner generate intervals that can sound exposed; silence and the piano’s decay are part of their articulation. The second example uses an explicitly invented rule: accompany each melody note with the nearest strictly lower member of A–C–E. Calling Riley, Reich, Glass and Pärt “minimalist” identifies a broad history of reduced materials and repetition. Their pieces differ in who controls the process, which elements change, and how a phrase comes to an end.</p>`,
@@ -607,6 +646,7 @@ A A c c | e c c A |]`,
     },
     {
       id: 'spectralism', numeral: 'xviii', label: 'Inside the sound', heading: 'Spectralism: a timbre becomes harmonic material',
+      question: 'Can one sound supply a whole harmony?',
       html: `
 <p>A harmonic spectrum contains components at whole-number multiples of a fundamental frequency: f, 2f, 3f, 4f and so on. Its spacing is uneven when heard as musical intervals: the first two components form an octave, the next pair a fifth, and higher neighbours become progressively closer. Their relative strengths and their behaviour during the attack and decay help determine timbre. Spectral composition uses such frequency relationships and changes over time as material for harmony, orchestration and form.</p>
 <aside class="note"><b>Partials and harmonics</b>A partial is a component of a complex sound. A harmonic partial is an integer multiple of the fundamental. Bells and other inharmonic sounds supply spectral music with different frequency relations.</aside>
@@ -636,6 +676,7 @@ z4 | z4 | ^G2 B2 | d2 e2 |]`,
       ],
       arts: [
         {
+          relation: 'documented-use',
           type: 'painting', frame: 'mat', file: 'File:Piero della Francesca - Madonna del Parto - WGA17613.jpg',
           artist: 'Piero della Francesca', title: 'Madonna del Parto', date: 'c. 1450–65', medium: 'Fresco, detached', collection: 'Musei Civici Madonna del Parto, Monterchi',
           note: '<p>Grisey explicitly based <i>L’Icône paradoxale</i> (1992–94), for two women’s voices and divided orchestra, on this fresco. In his <a href="https://ressources.ircam.fr/fr/work/l%27icone-paradoxale">programme note</a> he describes the opened tent and the opening of Mary’s dress as nested spaces, and identifies the proportions 3:5:8:12 as temporal material. The voices use Piero’s names and text from his perspective treatise. The approximate dating follows the <a href="https://www.madonnadelparto.it/opera/">Monterchi museum</a>.</p>',

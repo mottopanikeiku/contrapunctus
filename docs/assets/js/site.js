@@ -1,19 +1,158 @@
-// Contrapunctus — client behaviour: navigation, hero, reveals, notation, audio, lightbox.
-(() => {
+// Contrapunctus — page behaviour for the Atlas pages: navigation, hero, reveals, notation, lightbox.
+// Mounted by app.js on every non-hall page; returns a cleanup so the router can swap pages.
+let abcjsReady = null;
+export function loadAbcjs(root) {
+  return (abcjsReady ??= window.ABCJS ? Promise.resolve(window.ABCJS) : new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = new URL('assets/vendor/abcjs-basic-min.js', root).href;
+    s.onload = () => res(window.ABCJS); s.onerror = rej; document.head.append(s);
+  }));
+}
+
+let glossaryData;
+/** Delegated so the Hall can use the same popover for dynamically replaced cues. */
+export function mountTerms(app) {
+  const events = new AbortController();
+  const on = (target, name, fn, options = {}) => target.addEventListener(name, fn, { ...options, signal: events.signal });
+  const popup = document.createElement('aside');
+  popup.className = 'term-popover'; popup.hidden = true; popup.id = 'term-popover';
+  popup.setAttribute('role', 'dialog'); popup.setAttribute('aria-label', 'Glossary definition');
+  const title = document.createElement('strong'), text = document.createElement('p'), link = document.createElement('a'), close = document.createElement('button');
+  text.id = 'term-popover-description';
+  link.textContent = 'Read the glossary entry →';
+  close.type = 'button'; close.textContent = '×'; close.setAttribute('aria-label', 'Close definition');
+  popup.append(close, title, text, link); document.body.append(popup);
+  let active = null, tapped = null, pointer = 'mouse', timer;
+  const hide = () => {
+    clearTimeout(timer);
+    active?.removeAttribute('aria-describedby'); active?.setAttribute('aria-expanded', 'false');
+    active = null; tapped = null; popup.hidden = true;
+  };
+  const position = () => {
+    if (!active || popup.hidden) return;
+    const r = active.getBoundingClientRect(), p = popup.getBoundingClientRect();
+    popup.style.left = `${Math.max(12, Math.min(r.left, innerWidth - p.width - 12))}px`;
+    popup.style.top = `${Math.max(12, r.bottom + p.height + 12 < innerHeight ? r.bottom + 8 : r.top - p.height - 8)}px`;
+  };
+  const show = async (anchor) => {
+    clearTimeout(timer);
+    if (active !== anchor) hide();
+    active = anchor;
+    glossaryData ??= fetch(new URL('assets/glossary.json', app.root)).then((r) => { if (!r.ok) throw new Error('Glossary unavailable'); return r.json(); });
+    let data;
+    try { data = await glossaryData; } catch { return; } // The ordinary glossary link still works.
+    if (events.signal.aborted || active !== anchor) return;
+    const entry = data[anchor.dataset.term];
+    if (!entry) return;
+    title.textContent = entry.term; text.textContent = entry.short; link.href = anchor.href;
+    anchor.setAttribute('aria-describedby', text.id); anchor.setAttribute('aria-expanded', 'true');
+    popup.hidden = false; position();
+  };
+  const term = (node) => node instanceof Element ? node.closest('a[data-term]') : null;
+  const later = () => { clearTimeout(timer); timer = setTimeout(hide, 180); };
+  on(document, 'pointerdown', (e) => { pointer = e.pointerType; if (!term(e.target) && !popup.contains(e.target)) hide(); });
+  on(document, 'pointerover', (e) => { const a = term(e.target); if (a && e.pointerType !== 'touch') show(a); if (popup.contains(e.target)) clearTimeout(timer); });
+  on(document, 'pointerout', (e) => {
+    if ((term(e.target) || popup.contains(e.target)) && !popup.contains(e.relatedTarget) && !term(e.relatedTarget)) later();
+  });
+  on(document, 'focusin', (e) => { const a = term(e.target); if (a) show(a); else if (popup.contains(e.target)) clearTimeout(timer); else hide(); });
+  on(document, 'focusout', (e) => { if (!popup.contains(e.relatedTarget) && !term(e.relatedTarget)) later(); });
+  on(document, 'click', (e) => {
+    const a = term(e.target);
+    if (!a || pointer !== 'touch' || e.detail === 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+    if (tapped === a) return;
+    e.preventDefault(); e.stopPropagation(); show(a); tapped = a;
+  }, { capture: true });
+  on(close, 'click', () => { const a = active; hide(); a?.focus(); hide(); });
+  on(document, 'keydown', (e) => { if (e.key === 'Escape' && !popup.hidden) { const a = active; hide(); a?.focus(); hide(); } });
+  on(window, 'resize', position);
+  on(window, 'scroll', position, { capture: true, passive: true });
+  return () => { events.abort(); clearTimeout(timer); hide(); popup.remove(); };
+}
+
+export async function mount(app) {
+  const cleanups = [];
+  let mounted = true;
+  cleanups.push(() => { mounted = false; });
+  const listen = (target, ev, fn, opts) => { target.addEventListener(ev, fn, opts); cleanups.push(() => target.removeEventListener(ev, fn, opts)); };
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  cleanups.push(mountTerms(app));
+
+  // ---- textbook apparatus
+  $$('[data-copy]').forEach((button) => listen(button, 'click', async () => {
+    const target = document.getElementById(button.dataset.copy);
+    const status = button.closest('.citation')?.querySelector('.copy-status');
+    try {
+      await navigator.clipboard.writeText(target.textContent);
+      if (status) status.textContent = 'Citation copied.';
+    } catch {
+      const selection = window.getSelection(), range = document.createRange();
+      range.selectNodeContents(target); selection.removeAllRanges(); selection.addRange(range);
+      if (status) status.textContent = 'Citation selected. Use your browser’s Copy command.';
+    }
+  }));
+  const kind = $('#glossary-kind');
+  const filterTerms = () => {
+    let count = 0;
+    $$('.glossary-entry').forEach((entry) => { entry.hidden = !!kind.value && entry.dataset.kind !== kind.value; if (!entry.hidden) count++; });
+    $('#glossary-count').textContent = `${count} terms`;
+    $$('.glossary-alphabet a').forEach((a) => {
+      const letter = a.textContent;
+      const entry = $$('.glossary-entry:not([hidden])').find((el) => $('h2', el).textContent[0].toLocaleUpperCase('en') === letter);
+      a.hidden = !entry; if (entry) a.href = `#${entry.id}`;
+    });
+  };
+  if (kind) listen(kind, 'change', filterTerms);
+  const openAnchor = () => {
+    let id; try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    const dossier = target?.closest('.research-dossier');
+    if (dossier) dossier.open = true;
+    const entry = target?.closest('.glossary-entry');
+    if (entry?.hidden && kind) { kind.value = ''; filterTerms(); entry.scrollIntoView(); }
+  };
+  listen(window, 'hashchange', openAnchor); openAnchor();
+  // The router may handle a same-page link without dispatching hashchange.
+  listen(document, 'click', (e) => {
+    const a = e.target.closest?.('a[href^="#"]');
+    if (!a) return;
+    let target; try { target = document.getElementById(decodeURIComponent(a.hash.slice(1))); } catch { return; }
+    const dossier = target?.closest('.research-dossier');
+    if (dossier) dossier.open = true;
+    if (target?.classList.contains('glossary-entry') && target.hidden && kind) { kind.value = ''; filterTerms(); }
+  }, { capture: true });
+  const table = $('.recording-table');
+  if (table) {
+    const collator = new Intl.Collator('en', { numeric: true, sensitivity: 'base' });
+    $$('[data-sort-column]', table).forEach((button) => listen(button, 'click', () => {
+      const column = Number(button.dataset.sortColumn), th = button.closest('th');
+      const direction = th.getAttribute('aria-sort') === 'ascending' ? -1 : 1;
+      const rows = $$('tbody tr', table);
+      rows.sort((a, b) => direction * collator.compare(a.cells[column].dataset.sort, b.cells[column].dataset.sort));
+      $('tbody', table).append(...rows);
+      $$('th', table).forEach((h) => h.setAttribute('aria-sort', h === th ? direction === 1 ? 'ascending' : 'descending' : 'none'));
+      $('.table-status').textContent = `Sorted by ${button.textContent.replace('↕', '').trim()}, ${direction === 1 ? 'ascending' : 'descending'}.`;
+    }));
+  }
 
   // ---- masthead
   const mast = $('.masthead');
   const onScroll = () => mast.classList.toggle('scrolled', scrollY > innerHeight * 0.55);
-  addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  if (mast) { listen(window, 'scroll', onScroll, { passive: true }); onScroll(); }
   const toggle = $('.nav-toggle');
-  toggle?.addEventListener('click', () => {
+  const closeNav = () => { $('#nav')?.classList.remove('open'); toggle?.setAttribute('aria-expanded', 'false'); if (toggle) toggle.textContent = 'Menu'; };
+  if (toggle) listen(toggle, 'click', () => {
     const open = $('#nav').classList.toggle('open');
-    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-expanded', String(open)); toggle.textContent = open ? 'Close' : 'Menu';
   });
+  if (mast) {
+    listen(mast, 'click', (e) => { if (e.target.closest('a')) closeNav(); });
+    listen(document, 'click', (e) => { if (!mast.contains(e.target)) closeNav(); });
+    listen(document, 'focusin', (e) => { if (!mast.contains(e.target)) closeNav(); });
+    listen(document, 'keydown', (e) => { if (e.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') { closeNav(); toggle.focus(); } });
+  }
 
   // ---- hero slideshow
   const slides = $$('.hero-slide');
@@ -21,15 +160,21 @@
     const cap = $('.hero-caption');
     const dots = $$('.hero-dots button');
     let i = 0, timer;
+    // Later slides carry data-src/data-srcset; fetch each one a slide ahead so the hero costs one image up front.
+    const prime = (k) => { const im = slides[(k + slides.length) % slides.length]?.querySelector('img[data-src]'); if (!im) return; if (im.dataset.srcset) im.srcset = im.dataset.srcset; im.src = im.dataset.src; im.removeAttribute('data-src'); im.removeAttribute('data-srcset'); };
     const show = (n) => {
+      prime(n); prime(n + 1);
       slides[i].classList.remove('on'); dots[i]?.classList.remove('on');
       i = (n + slides.length) % slides.length;
       slides[i].classList.add('on'); dots[i]?.classList.add('on');
       cap.innerHTML = slides[i].dataset.caption;
     };
     const auto = () => { clearInterval(timer); if (!reduced) timer = setInterval(() => show(i + 1), 9000); };
+    cleanups.push(() => clearInterval(timer));
     dots.forEach((d, n) => d.addEventListener('click', () => { show(n); auto(); }));
     cap.innerHTML = slides[0].dataset.caption;
+    addEventListener('load', () => prime(1), { once: true });
+    if (document.readyState === 'complete') prime(1);
     auto();
   }
 
@@ -38,6 +183,7 @@
     if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
   }), { rootMargin: '0px 0px -8% 0px' });
   $$('.reveal').forEach((el) => io.observe(el));
+  cleanups.push(() => io.disconnect());
 
   // ---- table of contents highlight
   const tocLinks = $$('.toc a');
@@ -47,6 +193,7 @@
       if (e.isIntersecting) { tocLinks.forEach((a) => a.classList.remove('on')); map.get(e.target.id)?.classList.add('on'); }
     }), { rootMargin: '-30% 0px -60% 0px' });
     $$('.chapter').forEach((s) => tio.observe(s));
+    cleanups.push(() => tio.disconnect());
   }
 
   // ---- lightbox
@@ -66,14 +213,14 @@
   // ---- notation
   let audioCtx;
   const ctxAudio = () => (audioCtx ??= new (window.AudioContext || window.webkitAudioContext)());
-  let current = null; // { synth, timer, btn }
+  let current = null; // { synth, timer, btn, label }
 
   function stopCurrent() {
     if (!current) return;
     current.synth.stop();
     current.timer?.stop();
     current.btn.classList.remove('on');
-    current.btn.textContent = 'Play';
+    current.btn.textContent = current.label;
     $$('.playing').forEach((el) => el.classList.remove('playing'));
     current = null;
   }
@@ -99,6 +246,7 @@
     stopCurrent();
     engrave(fig);
     const visual = fig._visual;
+    const label = btn.textContent;
     btn.classList.add('loading');
     btn.textContent = 'Loading';
     const ac = ctxAudio();
@@ -112,6 +260,7 @@
       console.error(err);
       return;
     }
+    if (!mounted) { synth.stop(); return; }
     btn.classList.remove('loading');
     btn.classList.add('on');
     btn.textContent = 'Stop';
@@ -125,21 +274,29 @@
         return 'continue';
       },
     });
-    current = { synth, timer, btn };
+    current = { synth, timer, btn, label };
     synth.start();
     timer.start();
   }
 
   const scores = $$('figure.score');
+  cleanups.push(stopCurrent);
   if (scores.length) {
-    const whenAbc = (fn) => (window.ABCJS ? fn() : addEventListener('load', fn, { once: true }));
-    whenAbc(() => {
-      const sio = new IntersectionObserver((es) => es.forEach((e) => {
-        if (e.isIntersecting) { engrave(e.target); sio.unobserve(e.target); }
-      }), { rootMargin: '400px 0px' });
-      scores.forEach((f) => sio.observe(f));
-      scores.forEach((f) => $('.play', f).addEventListener('click', (ev) => play(f, ev.currentTarget)));
-    });
+    // abcjs (≈500 KB) is fetched only when a score comes near the screen or a Play button is pressed.
+    const abc = () => loadAbcjs(app.root);
+    const sio = new IntersectionObserver((es) => es.forEach((e) => {
+      if (!e.isIntersecting) return;
+      sio.unobserve(e.target);
+      abc().then(() => { if (mounted) engrave(e.target); });
+    }), { rootMargin: '300px 0px' });
+    scores.forEach((f) => sio.observe(f));
+    cleanups.push(() => sio.disconnect());
+    scores.forEach((f) => listen($('.play', f), 'click', (ev) => { const b = ev.currentTarget; app.player.pause(); abc().then(() => { if (mounted) play(f, b); }); }));
+    $$('[data-play-example]').forEach((button) => listen(button, 'click', () => {
+      const fig = document.getElementById(button.dataset.playExample);
+      if (!fig) return;
+      app.player.pause(); abc().then(() => { if (mounted) play(fig, button); });
+    }));
   }
 
   // ---- tuning laboratory: compare pure and tempered intervals
@@ -198,4 +355,8 @@
       $$('.h', svg).forEach((x) => x.classList.toggle('on', x === g));
     }));
   });
-})();
+  // ---- start a recording in the persistent player from any page
+  $$('[data-play-id]').forEach((b) => listen(b, 'click', (e) => { e.preventDefault(); stopCurrent(); app.player.load(b.dataset.playId, { play: true, t: Number(b.dataset.playT) || 0 }); }));
+
+  return () => cleanups.forEach((f) => { try { f(); } catch {} });
+}

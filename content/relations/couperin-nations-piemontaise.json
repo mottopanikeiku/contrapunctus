@@ -1,0 +1,20 @@
+{
+  "id": "couperin-nations-piemontaise",
+  "relations": [
+    {
+      "kind": "varied return",
+      "a": [
+        274.5,
+        311.5
+      ],
+      "b": [
+        432.5,
+        469.5
+      ],
+      "label": "The first air returns",
+      "basis": "Inside the paired airs, the opening major-mode material returns after the minor-mode contrast. This agrees with the air at 274 s and the return to major described by the listening note near 450 s. CENS diagonal mean 0.966, sustained 37 s, fixed pitch-class shift 0 semitones and time offset 158 s (cache/form/couperin-nations-piemontaise.txt, candidate 1; 0.5 s grid). These are matched excerpts, not complete section boundaries; timing has not been checked by ear.",
+      "status": "provisional"
+    }
+  ],
+  "candidatesRejected": "The remaining matches are repeated strains within the airs or overlapping versions of that return. They are not used to connect the separate Gravement and Vivement sections. A fixed historical tuning difference would not change the zero-shift relation between two passages of this recording."
+}
