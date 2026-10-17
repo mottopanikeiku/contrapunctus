@@ -94,4 +94,27 @@ export default {
       evidence: 'The Quiet aftermath boundary is 10:02, a strong novelty peak amid sparse attacks and sustained low relative level. The score supplies the sustained D foundation, exposed wind writing and D-major conclusion. The relations file rejects late harmonic matches as independent formal returns; this transition likewise describes continuation, not a new reprise.',
     },
   ],
+  orchestra: {
+    ensemble: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: {
+      title: 'Mussorgsky, Night on Bald Mountain, Rimsky-Korsakov’s concert version, full score (Bessel)',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/4/48/IMSLP139196-PMLP04739-Mussorgsky_-_Night_on_Bald_Mountain_FS_rsl.pdf',
+      locator: 'pp. 5–65; fast episodes through V, bell and dispersal at W, clarinet and flute solos at Y–Z. This is the concert reworking, not the 1867 score.',
+    },
+    timeline: [
+      { t: 0, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2', 'trombones'], note: 'Rapid upper strings and winds alternate with heavy low-brass proclamations and percussion accents.' },
+      { t: 80, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets', 'bassoons', 'violins-1'], note: 'Detached woodwind and string figures replace the opening rush; brass answers punctuate the dance.' },
+      { t: 155, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['piccolo', 'flutes', 'violins-1'], note: 'High woodwind flourishes sharpen the string figures above the orchestra’s separated chords.' },
+      { t: 262, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'violins-1'], note: 'Longer wind and violin phrases unfold over repeated inner-string chords and a measured bass.' },
+      { t: 365, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2', 'trombones', 'trumpets'], note: 'The opening opposition returns: quick strings and winds confront massed brass and percussion.' },
+      { t: 438, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'clarinets', 'violins-1'], note: 'A lighter repeated figure rebuilds through winds and strings before brass regains its weight.' },
+      { t: 475, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['piccolo', 'flutes', 'violins-1', 'trumpets'], note: 'Upper winds and violins repeat the final fast figure above sustained brass and the gathering percussion.' },
+      { t: 500, playing: ['flutes', 'oboes', 'clarinets', 'horns', 'trumpets', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['percussion', 'clarinets'], note: 'The bell interrupts; clarinet and sustained winds replace the rush above quiet string tremolo.' },
+      { t: 580, playing: ['flutes', 'oboes', 'clarinets', 'horns', 'trumpets', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets', 'flutes'], note: 'Slow wind phrases hang above muted violins and the sustained low-string foundation.' },
+      { t: 602, playing: ['flutes', 'clarinets', 'horns', 'timpani', 'percussion', 'harp', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Solo clarinet winds over divided violas, cellos and basses; a quiet chord introduces harp arpeggios.' },
+      { t: 650, playing: ['flutes', 'harp', 'violas', 'cellos', 'basses'], lead: ['flutes'], note: 'Solo flute replaces the clarinet; divided low strings and brief harp arpeggios sustain the aftermath.' },
+      { t: 719, playing: ['flutes', 'clarinets', 'horns', 'trumpets', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'clarinets'], note: 'Quiet wind chords, harp arpeggios and divided strings settle on D major; the bell’s resonance remains.' },
+    ],
+  },
 };

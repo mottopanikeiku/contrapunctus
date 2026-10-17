@@ -119,6 +119,7 @@ export async function mount(app) {
     ui.layer.hidden = v === 'sound';
     ui.frame.classList.toggle('paper', v === 'score');
     ui.frame.classList.toggle('scored', v !== 'sound');
+    ui.frame.dataset.view = v;
     ui.label.textContent = v === 'sound' ? 'Pitch over time · each band is an octave of C' : '';
     ui.chordCap.textContent = score ? 'from the score' : 'heard harmony · estimate';
     ui.bassLabel.textContent = score ? 'Lowest note' : 'Bass';
@@ -445,7 +446,9 @@ export async function mount(app) {
         }
         html += `<g class="sec" data-id="${id}"><path class="halo" d="${d}" filter="url(#bloom)"/><path class="seat" d="${d}"/>${dots}</g>`;
         const deg = (-(mid * 180) / Math.PI + 90);
-        labels.push(`<text class="st-n" data-id="${id}" x="${lx.toFixed(1)}" y="${(ly + 6).toFixed(1)}" text-anchor="middle" transform="rotate(${deg.toFixed(1)} ${lx.toFixed(1)} ${ly.toFixed(1)})">${NAME[id] ?? id}</text>`);
+        const label = NAME[id] ?? id, arc = (a1 - a0 - PAD * 2) * rm;
+        const fs = Math.max(11, Math.min(21, arc / (label.length * 0.5)));
+        labels.push(`<text class="st-n" data-id="${id}" font-size="${fs.toFixed(1)}" x="${lx.toFixed(1)}" y="${(ly + 6).toFixed(1)}" text-anchor="middle" transform="rotate(${deg.toFixed(1)} ${lx.toFixed(1)} ${ly.toFixed(1)})">${NAME[id] ?? id}</text>`);
       });
     });
     html += labels.join('');
@@ -465,7 +468,7 @@ export async function mount(app) {
     cap.className = 'sheet-cap';
     cap.textContent = score
       ? 'Each section lights while its written part sounds (from the score, aligned automatically to this recording; not yet checked by ear). The brightest are carrying the tune.'
-      : `Who plays, passage by passage, read from the score${orch?.source?.title ? ` (${orch.source.title})` : ''} and placed against this recording by passage, so a change may land a moment early or late. The brightest sections carry the tune.`;
+      : `Who plays, passage by passage, read from the score${orch?.source?.title ? `: ${orch.source.title}` : ''}. Changes are placed against this recording by passage, so one may land a moment early or late. The brightest sections carry the tune.`;
     ui.layer.append(svg, now, cap);
     const secs = new Map([...svg.querySelectorAll('.sec')].map((g) => [g.dataset.id, { g, level: 0, label: svg.querySelector(`.st-n[data-id="${g.dataset.id}"]`) }]));
     const leadEl = now.querySelector('.sn-lead'), noteEl = now.querySelector('.sn-note');

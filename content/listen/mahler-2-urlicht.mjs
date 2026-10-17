@@ -78,4 +78,27 @@ export default {
       evidence: 'The 3:24 section boundary follows A-major estimates around 3:05–3:10; level rises after 3:20 towards the broad crest at 3:50. Smoley’s Mahler Foundation guide supplies the middle’s A-major excursion, rising chromatic sequence, tremolo and orchestral completion of the final D♭ cadence. Neither the declaration’s words nor a single modulation chord are timed here.',
     },
   ],
+  orchestra: {
+    ensemble: ['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin', 'solo-voice'],
+    solo: 'solo-voice',
+    basis: 'score-proportion',
+    source: {
+      title: 'Mahler, Symphony No. 2, IV. Urlicht, full score (Hofmeister; Universal Edition reprint)',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/e/e2/IMSLP415748-PMLP49406-GMahler_Symphony_No.2_fe_UE_reprint_RSL1.pdf',
+      locator: 'pp. 128–133, rehearsal figures 1–6; passage positions follow the existing invocation, stanza, narrative and declaration anchors.',
+    },
+    timeline: [
+      { t: 0, playing: ['violins-1', 'violins-2', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice'], note: 'Alto invocation over muted violins, cellos and basses; the brass chorale waits.' },
+      { t: 20, playing: ['bassoons', 'contrabassoon', 'horns', 'trumpets', 'basses'], lead: ['trumpets', 'horns'], note: 'Trumpets and horns harmonise the chorale above bassoons, contrabassoon and the sustained bass.' },
+      { t: 64, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice'], note: 'Alto resumes over connected strings; the measured brass chorale has withdrawn.' },
+      { t: 95, playing: ['trumpets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice'], note: 'Soft trumpet recollections answer the alto while the string harmony moves beneath the phrase.' },
+      { t: 130, playing: ['oboes', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice', 'oboes'], note: 'The alto’s rising phrase gives way to an oboe turn over sustained strings.' },
+      { t: 160, playing: ['clarinets', 'horns', 'percussion', 'harp', 'solo-violin', 'solo-voice'], lead: ['solo-voice', 'clarinets', 'solo-violin'], note: 'Clarinet figures and solo violin animate the narrative; harps and a glockenspiel stroke lighten the support.' },
+      { t: 194, playing: ['piccolo', 'flutes', 'oboes', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin', 'solo-voice'], lead: ['solo-voice', 'solo-violin', 'piccolo'], note: 'Piccolo doubles the ornamented violin line; harps and soft strings surround the encounter with the angel.' },
+      { t: 204, playing: ['bassoons', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin', 'solo-voice'], lead: ['solo-voice', 'solo-violin'], note: 'The declaration rises over string tremolo, harp chords and restrained horn and bassoon support.' },
+      { t: 228, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'trombones', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin', 'solo-voice'], lead: ['solo-voice', 'violins-1'], note: 'The vocal crest gathers wind and brass support before the slow closing phrase.' },
+      { t: 260, playing: ['clarinets', 'bassoons', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice'], note: 'Quiet clarinets and bassoons colour the final vocal line; two harps spread the closing harmony.' },
+      { t: 284, playing: ['harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'Muted divided strings complete the cadence after the alto; the harps leave the final resonance exposed.' },
+    ],
+  },
 };

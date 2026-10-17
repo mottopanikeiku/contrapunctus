@@ -122,4 +122,28 @@ export default {
       evidence: 'Section boundary: Closing chords, 644 s. The report marks changes at 10:40 and 10:44; brightness is low through the ensuing chordal span, followed by the final retreat. The work guide documents the return of the introductory chords at the close; the description does not claim that every chord is repeated unchanged. https://www.antonin-dvorak.cz/en/work/symphony-no-9/',
     },
   ],
+  orchestra: {
+    ensemble: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: {
+      title: 'Dvořák, Symphony No. 9, II. Largo, full score (Otakar Šourek edition)',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf',
+      locator: 'pp. 73–92, bars 1–127; the cor anglais song, minor middle, quicker episode, chamber-sized return and final wind frame are distinguished.',
+    },
+    timeline: [
+      { t: 0, playing: ['clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['horns', 'trombones'], note: 'Clarinets, bassoons and brass move in block chords; timpani and muted strings support the arrival in D♭.' },
+      { t: 24, playing: ['cor-anglais', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cor-anglais'], note: 'Cor anglais sings above muted strings; clarinet figures later move gently beneath the melody.' },
+      { t: 140, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'horns'], note: 'Wind phrases expand into a brief brass-supported swell before the string song resumes.' },
+      { t: 180, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'cor-anglais'], note: 'First violins take the melody before cor anglais recovers it; soft wind responses colour the string support.' },
+      { t: 270, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes'], note: 'Flutes and oboes move together in the minor-key middle above repeated inner-string chords.' },
+      { t: 330, playing: ['flutes', 'oboes', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['oboes', 'clarinets', 'violins-1'], note: 'Oboe and clarinet lines answer the violins; measured pizzicato lower strings give the lament its tread.' },
+      { t: 385, playing: ['flutes', 'oboes', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'oboes'], note: 'The minor passage draws inward; small wind figures remain distinct above the quieter strings.' },
+      { t: 465, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['oboes', 'flutes', 'clarinets'], note: 'A solo oboe figure grows into quicker woodwind exchanges; strings accumulate beneath their trills and runs.' },
+      { t: 490, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['horns', 'trumpets', 'trombones', 'violins-1'], note: 'Brass recalls first-movement ideas against the Largo material; winds and strings thicken above timpani rolls.' },
+      { t: 520, playing: ['cor-anglais', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cor-anglais'], note: 'Cor anglais regains the song over quiet strings after the orchestral confrontation.' },
+      { t: 580, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'cellos'], note: 'Muted strings reduce to two players per part, then exposed solos, with pauses between the phrases.' },
+      { t: 644, playing: ['bassoons', 'horns', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['horns', 'trombones'], note: 'Bassoons, horns, trombones and tuba restore the chordal frame; strings briefly reconnect with its cadence.' },
+      { t: 665, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'clarinets', 'basses'], note: 'The last wind chord releases the strings; divided double basses complete the quiet withdrawal.' },
+    ],
+  },
 };

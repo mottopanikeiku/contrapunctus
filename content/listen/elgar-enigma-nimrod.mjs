@@ -67,4 +67,21 @@ export default {
       evidence: 'Withdrawal is mapped at 156 s, the strongest measured boundary at 2:36. Relative level falls after 2:25 and reaches a very low level at 2:50. The score supplies the descending close and E♭-major resolution; the empty relations file correctly avoids treating the internal swell as a separate formal return.',
     },
   ],
+  orchestra: {
+    ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: {
+      title: 'Elgar, Enigma Variations, IX. Nimrod, full score (Novello)',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf',
+      locator: 'pp. 52–56, rehearsal figures 33–37; the score’s percussion other than timpani is silent throughout this variation.',
+    },
+    timeline: [
+      { t: 0, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'First violins sing on the D string above divided violas, second violins and a quiet bass.' },
+      { t: 32, playing: ['flutes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'flutes'], note: 'Flute and clarinet double the rising line; bassoons and horns fill the string harmony.' },
+      { t: 65, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'flutes', 'oboes'], note: 'Oboes join the upper melody while low reeds and horns deepen the supporting chords.' },
+      { t: 92, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'horns'], note: 'The renewed ascent adds timpani beneath wind chords and the broadening string phrase.' },
+      { t: 100, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'flutes', 'trumpets', 'horns'], note: 'Trumpets reinforce the melody; trombones and tuba broaden the harmony above the timpani-supported bass.' },
+      { t: 156, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'tuba', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'Wind and brass chords recede around the descending strings; timpani stop before the final quiet chord.' },
+    ],
+  },
 };

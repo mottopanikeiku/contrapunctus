@@ -71,4 +71,26 @@ export default {
       evidence: 'Back to conversation is mapped at 212 s, the report’s 3:32 boundary, with further withdrawal through 3:55. Ricordi’s vocal score, p. 74, shows the quiet recall, sustained tonic harmony and explicitly free final declamation. The span includes the approach and the later spoken-style close; no individual word is placed at 212 s. Score: https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP885138-PMLP50378-puccini_mi_chiamano_mimi_from_la_boheme_ricordi.pdf.pdf .',
     },
   ],
+  orchestra: {
+    ensemble: ['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'trumpets', 'trombones', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'],
+    solo: 'solo-voice',
+    basis: 'score-proportion',
+    source: {
+      title: 'Puccini, La bohème, Act I, full orchestral score (Ricordi)',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/1/1c/IMSLP24635-PMLP50378-Puccini_Boheme_Act_1.pdf',
+      locator: 'PDF pp. 98–107, rehearsal figures 35–38 and the aria’s closing declamation. Timings follow the existing passage map, not individual sung words.',
+    },
+    timeline: [
+      { t: 0, playing: ['flutes', 'clarinets', 'bass-clarinet', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice'], note: 'Mimì’s introduction rests on quiet strings, with brief flute, clarinet and harp responses.' },
+      { t: 30, playing: ['flutes', 'oboes', 'clarinets', 'bass-clarinet', 'bassoons', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice', 'violins-1'], note: 'Divided strings support the first lyrical paragraph; woodwinds, harp and quiet percussion colour its expansion.' },
+      { t: 60, playing: ['clarinets', 'bass-clarinet', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice'], note: 'The phrase contracts into repeated string chords with clarinet, bass clarinet and horn support.' },
+      { t: 70, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'solo-voice'], lead: ['solo-voice', 'violas'], note: 'A solo viola threads the renewed introduction beneath the soprano; the wind instruments fall silent.' },
+      { t: 93, playing: ['flutes', 'clarinets', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'solo-voice'], lead: ['solo-voice', 'flutes'], note: 'Light flute figures and harp chords accompany the account of solitary life over sparse strings.' },
+      { t: 140, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'trombones', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice', 'violins-1', 'flutes', 'clarinets'], note: 'Flute, clarinet and first violins reinforce the broad spring melody above horns and the returning bass.' },
+      { t: 160, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'trumpets', 'trombones', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice', 'violins-1', 'flutes', 'horns'], note: 'High strings, flutes and horns double the climax; trumpets and trombones strengthen its harmonic support.' },
+      { t: 196, playing: ['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice', 'violins-1'], note: 'The renewed vocal surge draws on upper winds, horn and divided strings before the quiet recall.' },
+      { t: 212, playing: ['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-voice'], lead: ['solo-voice'], note: 'Soft wind chords, harp and percussion give way to muted strings beneath the conversational ending.' },
+      { t: 232, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'solo-voice'], lead: ['solo-voice'], note: 'The soprano’s free final explanation lies above sustained strings and their brief closing chord.' },
+    ],
+  },
 };
