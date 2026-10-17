@@ -1,0 +1,181 @@
+{
+  "id": "ravel-la-valse-two-pianos",
+  "work": {
+    "title": "La valse",
+    "catalogue": "M. 72a",
+    "movement": "Two-piano version",
+    "version": {
+      "value": "Ravel’s transcription for two pianos, four hands; performing edition unidentified.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "The named work, scoring and movement are documented; no specific performing edition is identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Nancy O’Doan",
+        "role": "piano"
+      },
+      {
+        "name": "Neal O’Doan",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The source names these performers. No additional performer is inferred."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The 7 June 2010 date on Commons is the IMSLP upload by Carolus for audio #66548, not a recording session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Neither Commons nor the IMSLP/Pandora source identifies this recording’s venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier label is identified. Pandora Records / Al Goldstein Archive is the documented digital publisher, not proof of a particular commercial issue."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is identified; file and IMSLP identifiers are not carrier catalogue numbers."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identifiers are supplied. Their absence does not prove that no earlier carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader or archive operator is not automatically an engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is established. Session, upload and archive publication dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Commons hosts an Ogg Vorbis file sourced to IMSLP; IMSLP audio #66548 supplies an MP3 from Pandora Records / Al Goldstein Archive.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp",
+        "pandora"
+      ],
+      "note": "The reviewed sources do not establish a lossless original, the order of audio encodings, the specific tape or disc used, or restoration settings."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Ravel%27s_La_Valse_for_two_pianos%2C_M._72a_-_O%27Doan_%26_O%27Doan.ogg/Ravel%27s_La_Valse_for_two_pianos%2C_M._72a_-_O%27Doan_%26_O%27Doan.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "imslp",
+      "pandora"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 673.6
+  },
+  "rights": {
+    "composition": {
+      "value": "The original composition and Ravel’s 1920 two-piano transcription are in the public domain in the United States.",
+      "status": "inferred",
+      "sourceIds": [
+        "imslp",
+        "us-term"
+      ],
+      "note": "First publication 1920; the maximum historical U.S. term has expired. This does not clear an unidentified modern edition or assert worldwide status."
+    },
+    "recording": {
+      "value": "Commons licenses the recording under CC BY-SA 2.0.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp",
+        "pandora"
+      ],
+      "note": "The licence is reported from the source page, not inferred from the age of the composition. The upstream IMSLP record instead states EFF Open Audio License; both source statements are retained, and independent re-licensing authority has not been established."
+    },
+    "creditLine": "Maurice Ravel, La valse, Two-piano version; Nancy O’Doan, Neal O’Doan. Session date unknown; Pandora Records / Al Goldstein Archive, via IMSLP and Wikimedia Commons. Commons states CC BY-SA 2.0; IMSLP states EFF Open Audio License.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Ravel's La Valse for two pianos, M. 72a - O'Doan & O'Doan.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravel%27s_La_Valse_for_two_pianos%2C_M._72a_-_O%27Doan_%26_O%27Doan.ogg",
+      "locator": "File description: identification, performers, date, source and licence; audio duration and transcoded MP3. Raw wikitext and the audio-info endpoint were inspected.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — La valse",
+      "url": "https://imslp.org/wiki/La_valse_(Ravel%2C_Maurice)",
+      "locator": "Work information and original scoring; first publication 1920. For two pianos: Ravel’s transcription, Durand plate D. & F. 9897; audio #66548 lists Nancy and Neal O’Doan, Pandora Records / Al Goldstein Archive, EFF Open Audio License, uploader Carolus (2010/6/7).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office — Duration of Copyright, Circular 15A",
+      "url": "https://www.copyright.gov/circs/circ15a.pdf",
+      "locator": "Pages 2–3: maximum 95-year term for pre-1978 publications and restored foreign works; this is a jurisdiction-specific term calculation.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "pandora",
+      "title": "Pandora Records / Al Goldstein Archive",
+      "url": "http://www.ibiblio.org/pandora/HOMEPAGE.html",
+      "locator": "Archive background and EFF Open Audio License policy; general archive history does not identify this recording’s original carrier.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Ravel — La valse, transcription for two pianos by the composer",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/c/ce/IMSLP06112-Ravel_-_La_Valse_(trans._Ravel_-_2_pianos).pdf",
+      "locator": "Durand, 1920, plate D. & F. 9897. Title page identifies two pianos, four hands; this is not Garban’s one-piano four-hand arrangement.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

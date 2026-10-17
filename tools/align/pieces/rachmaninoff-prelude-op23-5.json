@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "id": "rachmaninoff-prelude-op23-5",
+  "source": {
+    "mutopia": 2001,
+    "title": "Prelude in G minor, Op. 23 No. 5",
+    "edition": "Muzyka and Gutheil editions (IMSLP scans)",
+    "encoder": "Joram Berger",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2001",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "main": "rach-prelude23-05.ly",
+    "midi": "rach-prelude23-05.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O23/rach-prelude23-05/rach-prelude23-05.ly",
+        "file": "rach-prelude23-05.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O23/rach-prelude23-05/rach-prelude23-05.mid",
+        "file": "rach-prelude23-05.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 86,
+    "quarters": 4,
+    "overrides": {
+      "9": 2,
+      "16": 2
+    },
+    "order": [
+      [
+        1,
+        86
+      ]
+    ],
+    "description": "Play printed bars 1–86 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      207,
+      210
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: IMSLP - Muzyka and Gutheil editions. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/rachmaninoff-prelude-op23-5.mjs and cache/analysis/rachmaninoff-prelude-op23-5.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

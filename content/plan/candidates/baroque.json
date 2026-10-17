@@ -1,0 +1,909 @@
+{
+  "cluster": "baroque",
+  "claimPolicy": {
+    "EXT": "Titles, catalogue identifiers, durations, performers, recording dates and rights are external metadata, not independent measurements. Each recording has an opened sourceUrl and was checked with audio.mjs check or archive-files. Work dates also reuse the existing composer catalogues where yearSource is a local path. Unknown dates remain unknown.",
+    "MEAS": "Summary counts and minutes are arithmetic over the listed, approximately second-rounded metadata durations, not audio analysis.",
+    "INFERENCE": "Priorities, selection rationales, completeness judgements and quality grades are editorial inferences unless explicitly supported by source descriptions. No recording was auditioned; quality grades are provisional source-based assessments, not listening reports.",
+    "SIM": "None.",
+    "complete": "Complete refers to the named work, including explicitly identified existing movements where applicable. False means selected complete movements or a historically arranged selection, not permission to cut a movement mid-phrase.",
+    "territorial": "True flags Commons PD-EU-audio recordings accepted under the lead’s Commons-licence decision, not independently established US public-domain recordings. Archive-declared PD status is separately identified."
+  },
+  "summary": {
+    "label": "MEAS",
+    "works": 21,
+    "composerSlugs": 16,
+    "primaryRecordings": 30,
+    "alternativeRecordings": 3,
+    "totalRecordings": 33,
+    "primarySeconds": 7234.8,
+    "primaryMinutes": 120.6,
+    "alternativeSeconds": 1367,
+    "alternativeMinutes": 22.8,
+    "totalMinutesIncludingAlternatives": 143.4,
+    "byPriority": [
+      { "priority": 1, "works": 12, "primaryRecordings": 21, "minutes": 94.2 },
+      { "priority": 2, "works": 9, "primaryRecordings": 9, "minutes": 26.4 }
+    ],
+    "countBasis": "Recordings count new streamable source tracks, not movements already authored. Works count the 21 editorial work entries; the Machaut 78 side also contains a separately identified Janequin song. Alternatives are additional performances, not duplicate formats of one performance."
+  },
+  "works": [
+    {
+      "composer": "bach",
+      "work": "Brandenburg Concerto No. 5 in D major, BWV 1050",
+      "year": "1721, dedication",
+      "yearSource": "content/composers/bach.mjs",
+      "priority": 1,
+      "why": "INFERENCE: Completes the existing concerto with the same soloists, restoring the chamber slow movement and contrapuntal finale.",
+      "complete": true,
+      "set": "bach-brandenburg-5",
+      "completionIncludesExisting": true,
+      "existingMovements": [
+        { "part": 1, "movement": "I. Allegro", "id": "bach-brandenburg-5-allegro", "label": "EXT" }
+      ],
+      "completenessNote": "EXT: Existing first movement and both proposed movements document the February 2008 Advent performance. Do not create another first-movement entry.",
+      "movements": [
+        {
+          "movement": "II. Affettuoso",
+          "part": 2,
+          "source": { "file": "File:Bach - Brandenburg Concerto 5 - 2. Affettuoso.ogg" },
+          "duration": 356,
+          "licence": "CC BY-SA 2.0",
+          "performers": "Advent Chamber Orchestra; Roxana Pavel Goldstein, violin; Constance Schoepflin, flute; Matthew Ganong, harpsichord",
+          "recorded": "February 2008",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Modern ensemble source; balance, noise and speed not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_5_-_2._Affettuoso.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true,
+          "metadataNote": "EXT: Description credits Ganong; the Author field accidentally repeats Goldstein as harpsichordist. Description and existing first-movement attribution used."
+        },
+        {
+          "movement": "III. Allegro",
+          "part": 3,
+          "source": { "file": "File:Bach - Brandenburg Concerto 5 - 3. Allegro.ogg" },
+          "duration": 297,
+          "licence": "CC BY-SA 2.0",
+          "performers": "Advent Chamber Orchestra; Roxana Pavel Goldstein, violin; Constance Schoepflin, flute; Matthew Ganong, harpsichord",
+          "recorded": "February 2008",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Modern ensemble source; balance, noise and speed not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_5_-_3._Allegro.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "vivaldi",
+      "work": "The Four Seasons · Spring, Op. 8 No. 1, RV 269",
+      "year": "1725, publication",
+      "yearSource": "Commons recording descriptions",
+      "priority": 1,
+      "why": "INFERENCE: Completes the existing Spring with its sustained central movement and pastoral finale, without changing performers.",
+      "complete": true,
+      "set": "vivaldi-spring",
+      "completionIncludesExisting": true,
+      "existingMovements": [
+        { "part": 1, "movement": "I. Allegro", "id": "vivaldi-spring-allegro", "label": "EXT" }
+      ],
+      "movements": [
+        {
+          "movement": "II. Largo",
+          "part": 2,
+          "source": { "file": "File:Vivaldi - Four Seasons 1 Spring mvt 2 Largo - John Harrison violin.oga" },
+          "duration": 172,
+          "licence": "CC BY-SA 4.0",
+          "performers": "John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor",
+          "recorded": "6 February 2000",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Documented live recital; balance, noise and speed not auditioned.",
+          "cuts": "EXT: Source identifies a complete, unedited movement.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_2_Largo_-_John_Harrison_violin.oga",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        },
+        {
+          "movement": "III. Allegro",
+          "part": 3,
+          "source": { "file": "File:Vivaldi - Four Seasons 1 Spring mvt 3 Allegro - John Harrison violin.oga" },
+          "duration": 244,
+          "licence": "CC BY-SA 4.0",
+          "performers": "John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor",
+          "recorded": "6 February 2000",
+          "quality": "good",
+          "qualityNote": "EXT: File trimmed in 2011; current duration supersedes the older description.",
+          "cuts": "EXT: File history records lossless trimming from 4:14 to 4:04; location of removed material is not documented. INFERENCE: Non-musical trimming is plausible, not established by audition.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_3_Allegro_-_John_Harrison_violin.oga",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "vivaldi",
+      "work": "The Four Seasons · Winter, Op. 8 No. 4, RV 297",
+      "year": "1725, publication",
+      "yearSource": "Commons recording descriptions",
+      "priority": 1,
+      "why": "INFERENCE: Adds a contrasting complete concerto from the same Four Seasons performance rather than another isolated opening movement.",
+      "complete": true,
+      "set": "vivaldi-winter",
+      "movements": [
+        {
+          "movement": "I. Allegro non molto",
+          "source": { "file": "File:Vivaldi - Four Seasons 4 Winter mvt 1 Allegro non molto - John Harrison violin.oga" },
+          "duration": 209,
+          "licence": "CC BY-SA 4.0",
+          "performers": "John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor",
+          "recorded": "6 February 2000",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Documented live recital; balance, noise and speed not auditioned.",
+          "cuts": "EXT: Source identifies an unedited performance.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_4_Winter_mvt_1_Allegro_non_molto_-_John_Harrison_violin.oga",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        },
+        {
+          "movement": "II. Largo",
+          "source": { "file": "File:11 - Vivaldi Winter mvt 2 Largo - John Harrison violin.ogg" },
+          "duration": 132,
+          "licence": "CC BY-SA 4.0",
+          "performers": "John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor",
+          "recorded": "6 February 2000",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Documented live recital; balance, noise and speed not auditioned.",
+          "cuts": "EXT: Source identifies an unedited performance.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:11_-_Vivaldi_Winter_mvt_2_Largo_-_John_Harrison_violin.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        },
+        {
+          "movement": "III. Allegro",
+          "source": { "file": "File:12 - Vivaldi Winter mvt 3 Allegro - John Harrison violin.ogg" },
+          "duration": 193,
+          "licence": "CC BY-SA 4.0",
+          "performers": "John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor",
+          "recorded": "6 February 2000",
+          "quality": "good",
+          "qualityNote": "EXT: File trimmed in 2011; current duration supersedes the older description.",
+          "cuts": "EXT: File history records lossless trimming from 3:28 to 3:13; location of removed material is not documented. INFERENCE: Non-musical trimming is plausible, not established by audition.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "bach",
+      "work": "Cello Suite No. 1 in G major, BWV 1007",
+      "year": "c. 1717–23",
+      "yearSource": "content/composers/bach.mjs",
+      "priority": 1,
+      "why": "INFERENCE: Establishes Bach’s unaccompanied cello writing and supplies a clear modern-versus-Casals comparison of the same complete Prelude.",
+      "complete": false,
+      "set": "bach-cello-suite-1",
+      "completenessNote": "EXT: Prelude only; not the complete six-movement suite.",
+      "movements": [
+        {
+          "movement": "I. Prélude",
+          "source": { "file": "File:JOHN MICHEL CELLO-J S BACH CELLO SUITE 1 in G Prelude.ogg" },
+          "duration": 130,
+          "licence": "CC BY-SA 3.0",
+          "performers": "John Michel, cello",
+          "recorded": "unknown",
+          "quality": "good",
+          "qualityNote": "EXT: Wikipedia featured sound; no independent audition performed.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": [
+        {
+          "complete": false,
+          "movements": [
+            {
+              "movement": "I. Prélude",
+              "source": { "file": "File:Bach - Cello Suite no. 1 in G major, BWV 1007 - I. Prélude.ogg" },
+              "duration": 150,
+              "licence": "Public domain (Commons PD-EU-audio)",
+              "territorial": true,
+              "performers": "Pablo Casals, cello",
+              "recorded": "unknown exact session; Commons gives 1929/1939",
+              "quality": "fair",
+              "qualityNote": "INFERENCE: Historical restoration; noise and pitch stability not auditioned.",
+              "cuts": "Unknown; no abridgement indicated by source.",
+              "label": "EXT",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach_-_Cello_Suite_no._1_in_G_major,_BWV_1007_-_I._Pr%C3%A9lude.ogg",
+              "checkedWith": "audio.mjs check",
+              "hasMp3": true,
+              "metadataNote": "EXT: Naxos Historical restoration by Ward Marston, 2000. Do not treat the inconsistent date fields as an exact session date."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "bach",
+      "work": "Partita No. 2 in D minor for solo violin, BWV 1004",
+      "year": "1720, manuscript",
+      "yearSource": "content/composers/bach.mjs",
+      "priority": 1,
+      "why": "INFERENCE: The complete Chaconne extends the solo-string programme into sustained variation form and permits a second violinist comparison.",
+      "complete": false,
+      "set": "bach-violin-partita-2",
+      "completenessNote": "EXT: Complete Chaconne only; the preceding four dances are not nominated.",
+      "movements": [
+        {
+          "movement": "V. Ciaccona",
+          "source": { "file": "File:Bach; Chaconne d-moll Heifetz.flac" },
+          "duration": 782,
+          "licence": "Public domain (Commons PD-EU-audio)",
+          "territorial": true,
+          "performers": "Jascha Heifetz, violin",
+          "recorded": "1952, as dated on Commons; exact session unknown",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Historical violin recording; noise, cuts and pitch stability not auditioned.",
+          "cuts": "Unknown; source names the complete Chaconne, not a 78-rpm side excerpt.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach;_Chaconne_d-moll_Heifetz.flac",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": [
+        {
+          "complete": false,
+          "movements": [
+            {
+              "movement": "V. Ciaccona",
+              "source": { "file": "File:Johann Sebastian Bach - Chaconne for violin alone.ogg" },
+              "duration": 750,
+              "licence": "CC BY-SA 3.0",
+              "performers": "Ben Goldstein, violin",
+              "recorded": "unknown",
+              "quality": "good",
+              "qualityNote": "INFERENCE: Direct performer archive; noise and pitch stability not auditioned.",
+              "cuts": "Unknown; no abridgement indicated by source.",
+              "label": "EXT",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Chaconne_for_violin_alone.ogg",
+              "checkedWith": "audio.mjs check",
+              "hasMp3": true,
+              "metadataNote": "EXT: Description mistakenly calls BWV 1004 the fifth Partita; it is Partita No. 2, fifth movement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "bach",
+      "work": "Goldberg Variations, BWV 988",
+      "year": "1741, publication",
+      "yearSource": "content/composers/bach.mjs",
+      "priority": 1,
+      "why": "INFERENCE: The complete opening Aria introduces the harmonic plan behind the variation cycle in a documented Musopen piano performance.",
+      "complete": false,
+      "set": "bach-goldberg",
+      "completenessNote": "EXT: Opening Aria only, not all thirty variations and closing Aria.",
+      "movements": [
+        {
+          "movement": "Aria",
+          "source": { "file": "File:Bach, J S - Goldberg Variations, BWV988 - 01. Aria (Shelley Katz).flac" },
+          "duration": 292,
+          "licence": "Public domain (Musopen dedication of recording)",
+          "performers": "Shelley Katz, piano",
+          "recorded": "2012, as dated on Commons",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Musopen lossless source; noise, balance and tuning not auditioned.",
+          "cuts": "Unknown; source identifies the complete opening Aria.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach,_J_S_-_Goldberg_Variations,_BWV988_-_01._Aria_(Shelley_Katz).flac",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "bach",
+      "work": "St Matthew Passion, BWV 244 · highlights",
+      "year": "1727; revised 1736",
+      "yearSource": "content/composers/bach.mjs",
+      "priority": 1,
+      "why": "INFERENCE: Opening chorus and Erbarme dich introduce the Passion’s public and personal scales through one historical recording production.",
+      "complete": false,
+      "set": "bach-st-matthew-highlights",
+      "completenessNote": "EXT: Two separately indexed highlights only. The archive’s historical release is abridged and is not presented as a complete Passion. Old numbering calls Erbarme dich No. 47.",
+      "rightsNote": "EXT: Archive item explicitly supplies a Public Domain Mark URL, meeting the lead’s archive-metadata rule. US freedom for this 1954 recording was not independently established.",
+      "personnelSourceUrl": "https://archive.org/download/bach-passion-st.-matthew-furtwangler-1954/Bach%20Passion%20St.%20Matthew%20Furtw%C3%A4ngler%20%281954%29/PAS%20REPARTO.jpg",
+      "indexSourceUrl": "https://archive.org/download/bach-passion-st.-matthew-furtwangler-1954/Bach%20Passion%20St.%20Matthew%20Furtw%C3%A4ngler%20%281954%29/PAS%20TRACKS.jpg",
+      "movements": [
+        {
+          "movement": "Kommt, ihr Töchter, helft mir klagen",
+          "source": { "archive": { "item": "bach-passion-st.-matthew-furtwangler-1954", "file": "Bach Passion St. Matthew Furtwängler (1954)/01. J. S. Bach - N 1 Kommt, ihr Tochter, helft mir Klagen.mp3" } },
+          "duration": 525,
+          "licence": "Public domain (archive-declared Public Domain Mark 1.0)",
+          "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "performers": "Vienna Philharmonic Orchestra; Singverein der Gesellschaft der Musikfreunde, Wien; Wilhelm Furtwängler, conductor; Anton Heiller, continuo",
+          "recorded": "14–17 April 1954, according to accompanying personnel scan",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Historical concert source; noise, balance and pitch stability not auditioned.",
+          "cuts": "EXT: Excerpt from an abridged Passion release. Internal cuts within this indexed number are unknown.",
+          "label": "EXT",
+          "sourceUrl": "https://archive.org/metadata/bach-passion-st.-matthew-furtwangler-1954",
+          "checkedWith": "audio.mjs archive-files",
+          "hasMp3": true
+        },
+        {
+          "movement": "Erbarme dich, mein Gott",
+          "source": { "archive": { "item": "bach-passion-st.-matthew-furtwangler-1954", "file": "Bach Passion St. Matthew Furtwängler (1954)/Disc 2/08. J. S. Bach - N 47 Erbarme Dich, mein Gott.mp3" } },
+          "duration": 581,
+          "licence": "Public domain (archive-declared Public Domain Mark 1.0)",
+          "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "performers": "Marga Höffgen; Vienna Philharmonic Orchestra; Wilhelm Furtwängler, conductor; Anton Heiller, continuo",
+          "recorded": "14–17 April 1954, according to accompanying personnel scan",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Historical concert source; noise, balance and pitch stability not auditioned.",
+          "cuts": "EXT: Excerpt from an abridged Passion release. Exact lead-in and internal cuts within the indexed track are unknown.",
+          "label": "EXT",
+          "sourceUrl": "https://archive.org/metadata/bach-passion-st.-matthew-furtwangler-1954",
+          "checkedWith": "audio.mjs archive-files",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": [
+        {
+          "complete": false,
+          "comparisonNote": "EXT: The English-titled aria provides a second performance of Erbarme dich, not an alternative opening chorus.",
+          "movements": [
+            {
+              "movement": "Erbarme dich · Lord, Have Mercy On Me",
+              "source": { "file": "File:Bach - St. Matthew Passion - Lord, Have Mercy On Me (Beal, Menuhin, Doráti).flac" },
+              "duration": 467,
+              "licence": "Public domain (Commons PD-US-not-renewed; audio extracted from film)",
+              "performers": "Beal; Menuhin; Doráti, as credited in the file title; ensemble not separately documented",
+              "recorded": "1948",
+              "quality": "fair",
+              "qualityNote": "INFERENCE: Historical film soundtrack; noise and pitch stability not auditioned.",
+              "cuts": "Unknown; this is a separately performed film aria, not the complete Passion.",
+              "label": "EXT",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach_-_St._Matthew_Passion_-_Lord,_Have_Mercy_On_Me_(Beal,_Menuhin,_Dor%C3%A1ti).flac",
+              "checkedWith": "audio.mjs check",
+              "hasMp3": true,
+              "rightsNote": "EXT: Commons explicitly distinguishes film-extracted audio from standalone sound recordings under the Music Modernization Act."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "handel",
+      "work": "Water Music · Suite No. 2 in D major, HWV 349",
+      "year": "1717",
+      "yearSource": "Commons performance pages",
+      "priority": 1,
+      "why": "INFERENCE: A complete five-movement suite supplies the familiar hornpipe within a documented professional orchestral performance and clear federal-government rights.",
+      "complete": true,
+      "set": "handel-water-music-2",
+      "completenessNote": "EXT: All five HWV 349 movements are available from one concert. Listed here in suite order I–V; source filenames follow concert order 11, 12, 14, 15, 13. This is not all three Water Music suites.",
+      "movements": [
+        {
+          "movement": "I. Allegro",
+          "source": { "file": "File:Handel's Water Music - 11. Allegro - Chamber Orchestra - United States Marine Band.opus" },
+          "duration": 125,
+          "licence": "Public domain (US federal government; Marine Band official duties)",
+          "performers": "Marine Chamber Orchestra, United States Marine Band; Major Michelle Rakers, conductor",
+          "recorded": "29 January 2017; Schlesinger Concert Hall, Alexandria, Virginia",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Professional concert source; noise and balance not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        },
+        {
+          "movement": "II. Alla hornpipe",
+          "source": { "file": "File:Handel's Water Music - 12. Alla hornpipe - Chamber Orchestra - United States Marine Band.opus" },
+          "duration": 229,
+          "licence": "Public domain (US federal government; Marine Band official duties)",
+          "performers": "Marine Chamber Orchestra, United States Marine Band; Major Michelle Rakers, conductor",
+          "recorded": "29 January 2017; Schlesinger Concert Hall, Alexandria, Virginia",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Professional concert source; noise and balance not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_12._Alla_hornpipe_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        },
+        {
+          "movement": "III. Lentement",
+          "source": { "file": "File:Handel's Water Music - 14. Lentement - Chamber Orchestra - United States Marine Band.opus" },
+          "duration": 136,
+          "licence": "Public domain (US federal government; Marine Band official duties)",
+          "performers": "Marine Chamber Orchestra, United States Marine Band; Major Michelle Rakers, conductor",
+          "recorded": "29 January 2017; Schlesinger Concert Hall, Alexandria, Virginia",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Professional concert source; noise and balance not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_14._Lentement_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        },
+        {
+          "movement": "IV. Bourrée",
+          "source": { "file": "File:Handel's Water Music - 15. Bourree - Chamber Orchestra - United States Marine Band.opus" },
+          "duration": 76,
+          "licence": "Public domain (US federal government; Marine Band official duties)",
+          "performers": "Marine Chamber Orchestra, United States Marine Band; Major Michelle Rakers, conductor",
+          "recorded": "29 January 2017; Schlesinger Concert Hall, Alexandria, Virginia",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Professional concert source; noise and balance not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_15._Bourree_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        },
+        {
+          "movement": "V. Minuet",
+          "source": { "file": "File:Handel's Water Music - 13. Minuet - Chamber Orchestra - United States Marine Band.opus" },
+          "duration": 195,
+          "licence": "Public domain (US federal government; Marine Band official duties)",
+          "performers": "Marine Chamber Orchestra, United States Marine Band; Major Michelle Rakers, conductor",
+          "recorded": "29 January 2017; Schlesinger Concert Hall, Alexandria, Virginia",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Professional concert source; noise and balance not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_13._Minuet_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "couperin",
+      "work": "Les Barricades mystérieuses · Sixième Ordre",
+      "year": "1717, publication",
+      "yearSource": "content/composers/couperin.mjs",
+      "priority": 1,
+      "why": "INFERENCE: Adds Couperin’s characteristic overlapping keyboard texture beside the existing Les Nations chamber sonata; performed here on piano.",
+      "complete": true,
+      "set": "couperin-barricades",
+      "movements": [
+        {
+          "movement": "Les Barricades mystérieuses",
+          "source": { "file": "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac" },
+          "duration": 95,
+          "licence": "Public domain (Commons PD-EU-audio)",
+          "territorial": true,
+          "performers": "Marcelle Meyer, piano",
+          "recorded": "Late 1953 or January 1954; Salle Adyar, Paris, according to Commons",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Historical piano transfer; noise and pitch stability not auditioned.",
+          "cuts": "Unknown; source names the whole character piece, not the complete Sixième Ordre.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_(Marcelle_Meyer,_1954).flac",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true,
+          "rightsNote": "EXT: Commons also carries a US-record copyright warning. Accepted only under the lead’s Commons-hosted territorial decision."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "rameau",
+      "work": "La Poule · Nouvelles Suites de pièces de clavecin",
+      "year": "c. 1728",
+      "yearSource": "content/composers/rameau.mjs",
+      "priority": 1,
+      "why": "INFERENCE: Adds the repeated-note character piece beside the existing Gavotte and doubles, retaining Meyer’s documented piano interpretation.",
+      "complete": true,
+      "set": "rameau-la-poule",
+      "movements": [
+        {
+          "movement": "La Poule",
+          "source": { "file": "File:Jean-Philippe Rameau - La Poule (Marcelle Meyer, 1953).flac" },
+          "duration": 186,
+          "licence": "Public domain (Commons PD-EU-audio)",
+          "territorial": true,
+          "performers": "Marcelle Meyer, piano",
+          "recorded": "29–30 October 1953; Salle Adyar, Paris",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Historical piano transfer; noise and pitch stability not auditioned.",
+          "cuts": "Unknown; source identifies the entire standalone character piece.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_La_Poule_(Marcelle_Meyer,_1953).flac",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true,
+          "metadataNote": "EXT: The 2019 Date field is the upload date, not the performance date; the Author field supplies the session."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "scarlatti",
+      "work": "Sonata in E major, K. 380",
+      "year": "1754, Venice copy",
+      "yearSource": "content/composers/scarlatti.mjs",
+      "priority": 1,
+      "why": "INFERENCE: Contrasts the existing K. 119 with a complete triple-metre sonata, again in Meyer’s piano performance.",
+      "complete": true,
+      "set": "scarlatti-k380",
+      "movements": [
+        {
+          "movement": "Sonata · single movement",
+          "source": { "file": "File:Domenico Scarlatti - Sonate en mi majeur Kk.380 (Marcelle Meyer, 1954).flac" },
+          "duration": 331,
+          "licence": "Public domain (Commons PD-EU-audio)",
+          "territorial": true,
+          "performers": "Marcelle Meyer, piano",
+          "recorded": "November 1954; Salle Adyar, Paris",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Historical piano transfer; noise and pitch stability not auditioned.",
+          "cuts": "Unknown; source identifies a complete single-movement sonata.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_mi_majeur_Kk.380_(Marcelle_Meyer,_1954).flac",
+          "checkedWith": "audio.mjs check; additional public ranged GET of MP3",
+          "hasMp3": true,
+          "streamCheck": "MEAS: Ranged GET returned HTTP 206, 4096 bytes, audio/mpeg; Commons’ displayed 0-bps MP3 status is not evidence of a missing file.",
+          "rightsNote": "EXT: Commons also carries a US-record copyright warning. Accepted only under the lead’s Commons-hosted territorial decision."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "cpe-bach",
+      "work": "Flute Concerto in G major, Wq 169 / H 445",
+      "year": "1755, original version; flute adaptation later",
+      "yearSource": "https://imslp.org/wiki/Flute_Concerto_in_G_major,_H.445_(Bach,_Carl_Philipp_Emanuel)",
+      "priority": 1,
+      "why": "INFERENCE: Adds C. P. E. Bach’s orchestral and flute writing beside the existing late clavichord fantasia.",
+      "complete": false,
+      "set": "cpe-bach-flute-concerto-g",
+      "completenessNote": "EXT: Finale only; the complete concerto has Allegro, Largo and Presto movements.",
+      "movements": [
+        {
+          "movement": "III. Presto",
+          "source": { "file": "File:Carl Philipp Emanuel Bach- Flute Concerto Gmaj - 3. Presto.ogg" },
+          "duration": 367,
+          "licence": "CC BY-SA 2.0",
+          "performers": "Constance Schoepflin, flute; Advent Chamber Orchestra",
+          "recorded": "February 2008",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Modern ensemble source; balance, noise and speed not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_3._Presto.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-gregorian",
+      "work": "Pange lingua gloriosi corporis mysterium · traditional plainchant",
+      "year": "medieval; exact date unknown",
+      "priority": 2,
+      "why": "INFERENCE: A named singer’s complete plainchant hymn gives the Origins page a documented monophonic example beside later vocal polyphony.",
+      "complete": true,
+      "set": "origins-pange-lingua",
+      "completenessNote": "EXT: Full source hymn is nominated, not its cropped Tantum Ergo derivative. The page explicitly identifies a human singer and traditional Latin chant.",
+      "movements": [
+        {
+          "movement": "Pange lingua · full hymn",
+          "source": { "file": "File:Pange Lingua Latin in Latin.ogg" },
+          "duration": 205,
+          "licence": "CC BY-SA 3.0",
+          "performers": "Gareth Hughes, voice",
+          "recorded": "14 March 2005",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Documented solo voice; noise, room and tuning not auditioned.",
+          "cuts": "EXT: Full original source used rather than the separately cropped two-stanza Tantum Ergo derivative; no other cuts documented.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pange_Lingua_Latin_in_Latin.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-hildegard",
+      "work": "O frondens virga",
+      "year": "12th century; exact date unknown",
+      "priority": 2,
+      "why": "INFERENCE: A complete solo Marian antiphon introduces a named medieval composer without substituting a synthesised score realisation.",
+      "complete": true,
+      "set": "origins-hildegard-o-frondens",
+      "workSourceUrl": "https://www.hildegard-society.org/2014/10/o-frondens-virga-antiphon.html",
+      "metadataCorrection": "EXT: The Hildegard Society identifies a Marian antiphon in Dendermonde fol. 155r. Do not repeat Commons’ erroneous Ordo virtutum attribution or inferred circa-1151 date.",
+      "movements": [
+        {
+          "movement": "O frondens virga",
+          "source": { "file": "File:O frondens 2.ogg" },
+          "duration": 96,
+          "licence": "CC BY-SA 3.0 (performance; composition public domain)",
+          "performers": "Makemi, voice",
+          "recorded": "2006; live performance",
+          "quality": "good",
+          "qualityNote": "EXT: Featured sound; applause removed, not a musical abridgement.",
+          "cuts": "EXT: Edited from O frondens.ogg to remove applause at the end.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:O_frondens_2.ogg",
+          "checkedWith": "audio.mjs check; opened performance-licence section",
+          "hasMp3": true,
+          "metadataNote": "EXT: audio.mjs incorrectly reports Public domain by selecting the composition licence. The performance section specifies CC BY-SA 3.0, also GFDL."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-machaut",
+      "work": "Douce dame jolie · Weckerlin arrangement, paired with Janequin’s L’espoir que j’ai",
+      "year": "c. 1350; paired Janequin song c. 1530, as dated on disc label",
+      "priority": 2,
+      "why": "INFERENCE: An authenticated acoustic vocal record supplies a human alternative to Commons’ MIDI Machaut files, with its historical arrangement clearly labelled.",
+      "complete": false,
+      "set": "origins-machaut-douce-dame-jolie",
+      "completenessNote": "EXT: The full published Victor side contains two songs in Weckerlin arrangements, not an isolated unarranged Machaut performance. Stanza omissions are unknown; do not label this a complete original virelai.",
+      "discographySourceUrl": "https://www.loc.gov/item/jukebox-12087/?fo=json",
+      "labelSourceUrl": "https://archive.org/download/loc-jukebox-12087-douce-dame-jolie/jukebox-12087_label.jpg",
+      "movements": [
+        {
+          "movement": "Douce dame jolie / L’espoir que j’ai · complete paired 78-rpm side",
+          "source": { "archive": { "item": "loc-jukebox-12087-douce-dame-jolie", "file": "jukebox-12087_douce-dame-jolie.mp3" } },
+          "duration": 98.8,
+          "licence": "Public domain (archive Public Domain Mark 1.0; historical Victor recording)",
+          "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "published": 1915,
+            "evidence": "EXT: Archive metadata identifies first publication in 1915. Opened LOC JSON identifies Victor 45083, matrix B-15595, take 4, recorded 1915-03-17; label scan identifies side 45083-B and Lambert Murphy. https://www.loc.gov/item/jukebox-12087/?fo=json ; https://archive.org/metadata/loc-jukebox-12087-douce-dame-jolie"
+          },
+          "performers": "Lambert Murphy, tenor; Stefano Di Stefano, harp; William Carlino, lute; arrangement from J.-B. Weckerlin’s collection",
+          "recorded": "17 March 1915; New York",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic 78 transfer; surface noise and speed stability not auditioned.",
+          "cuts": "EXT: Historical two-song arrangement. Complete original Machaut stanza cycle not established; no digital mid-phrase extraction proposed.",
+          "label": "EXT",
+          "sourceUrl": "https://archive.org/metadata/loc-jukebox-12087-douce-dame-jolie",
+          "checkedWith": "audio.mjs archive-files; opened LOC JSON and disc-label image",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-josquin",
+      "work": "Mille regretz · attributed to Josquin des Prez",
+      "year": "1533, print documented by Commons category; composition date unknown",
+      "priority": 2,
+      "why": "INFERENCE: A complete vocal chanson introduces Renaissance ensemble singing, distinct from the preceding solo medieval antiphon.",
+      "complete": true,
+      "set": "origins-josquin-mille-regretz",
+      "movements": [
+        {
+          "movement": "Mille regretz",
+          "source": { "file": "File:Josquin Desprez -- Mille regretz.opus" },
+          "duration": 116,
+          "licence": "CC BY 3.0",
+          "performers": "Collegium Vocale Bydgoszcz",
+          "recorded": "24 September 2016, as dated on Commons; exact session status unknown",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Named vocal ensemble; noise, balance and tuning not auditioned.",
+          "cuts": "Unknown; source names the complete chanson.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Josquin_Desprez_--_Mille_regretz.opus",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true,
+          "licenceReviewPending": true,
+          "metadataNote": "EXT: Commons states CC BY 3.0 but still requests review of the original YouTube licence. Accepted under lead’s Commons-licence rule, not independently relicensed."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-palestrina",
+      "work": "Sicut lilium inter spinas",
+      "year": "unknown",
+      "priority": 2,
+      "why": "INFERENCE: A complete motet gives the Origins page a vocal-polyphony example without committing to an entire Mass cycle.",
+      "complete": true,
+      "set": "origins-palestrina-sicut-lilium",
+      "movements": [
+        {
+          "movement": "Sicut lilium inter spinas",
+          "source": { "file": "File:The Tudor Consort - 01 - Palestrina - Sicut lilium inter spinas.ogg" },
+          "duration": 279,
+          "licence": "CC BY 3.0",
+          "performers": "The Tudor Consort",
+          "recorded": "20 August 2010, as dated on Commons; exact session status unknown",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Named vocal ensemble; noise, balance and tuning not auditioned.",
+          "cuts": "Unknown; source identifies the motet rather than a Mass excerpt.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_01_-_Palestrina_-_Sicut_lilium_inter_spinas.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true,
+          "licenceReviewPending": true,
+          "metadataNote": "EXT: Commons states CC BY 3.0 and links Free Music Archive; its external-licence review remains pending."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-monteverdi",
+      "work": "Quel augellin che canta · Fourth Book of Madrigals",
+      "year": "1603, publication",
+      "yearSource": "Commons recording categorisation",
+      "priority": 2,
+      "why": "INFERENCE: A complete madrigal brings Monteverdi’s texted ensemble writing into the pre-Bach concert instead of an orchestral arrangement.",
+      "complete": true,
+      "set": "origins-monteverdi-quel-augellin",
+      "movements": [
+        {
+          "movement": "Quel augellin che canta",
+          "source": { "file": "File:The Tudor Consort - 05 - Claudio Monteverdi - Quel Augelin Che Canta.ogg" },
+          "duration": 120,
+          "licence": "CC BY 3.0",
+          "performers": "The Tudor Consort; Alastair Carey, director",
+          "recorded": "19 August 2010; live, Parroquial Church, Ordizia, Spain",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Documented live choir; reverberation and ensemble balance not auditioned.",
+          "cuts": "Unknown; source identifies the full madrigal.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-purcell",
+      "work": "The Fairy Queen, Z. 629 · Act V Chaconne",
+      "year": "1692",
+      "yearSource": "Commons ESMUC recording metadata",
+      "priority": 2,
+      "why": "INFERENCE: A complete theatrical dance connects the Origins page’s vocal repertoire to the later orchestral suite programme.",
+      "complete": false,
+      "set": "origins-purcell-fairy-queen",
+      "completenessNote": "EXT: Complete Chaconne, not the complete semi-opera.",
+      "movements": [
+        {
+          "movement": "Act V. Chaconne",
+          "source": { "file": "File:Purcell TheFairyQueen ActV Chaconne Z629 Esmuc.flac" },
+          "duration": 162,
+          "licence": "CC BY-SA 4.0 (also CC BY-SA 3.0)",
+          "performers": "Cor i Orquestra de música antiga de l’Esmuc; Alba Roca, concertino and director",
+          "recorded": "7 April 2018; Museu de la Música de Barcelona",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Conservatory ORTF recording; balance and room reverberation not auditioned.",
+          "cuts": "Unknown; source identifies a complete Act V dance.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac",
+          "checkedWith": "audio.mjs check; opened ESMUC personnel fields",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-corelli",
+      "work": "Concerto grosso in D major, Op. 6 No. 4",
+      "year": "unknown composition date",
+      "priority": 2,
+      "why": "INFERENCE: A complete opening movement supplies the Italian concerto-grosso context beside Bach’s already programmed Brandenburg concerto.",
+      "complete": false,
+      "set": "origins-corelli-concerto-6-4",
+      "completenessNote": "EXT: First movement only, not the entire concerto.",
+      "movements": [
+        {
+          "movement": "I. Adagio — Allegro",
+          "source": { "file": "File:Corelli - Concerto Grosso Op. 6 No. 4 - 1. Adagio - Allegro.ogg" },
+          "duration": 205,
+          "licence": "CC BY-SA 2.0",
+          "performers": "Advent Chamber Orchestra; Roxanna Pavel Goldstein, musical director, as credited",
+          "recorded": "2005–06 season; exact date unknown",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Documented chamber orchestra; balance, noise and speed not auditioned.",
+          "cuts": "Unknown; no abridgement indicated by source.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "origins-buxtehude",
+      "work": "Praeludium in C major, BuxWV 137 · Prelude, Fugue and Chaconne",
+      "year": "before 1707; exact date unknown",
+      "priority": 2,
+      "why": "INFERENCE: A complete organ work makes free passagework, imitation and recurring bass audible within a single pre-Bach composition.",
+      "complete": true,
+      "set": "origins-buxtehude-137",
+      "movements": [
+        {
+          "movement": "Prelude, Fugue and Chaconne · continuous single work",
+          "source": { "file": "File:D. Buxtehude Präludium, Fuge und Chaconne C-Dur BuxWV 137 Fabian Wöhrle Kath. Kirche Gerstetten.mp3" },
+          "duration": 300,
+          "licence": "CC BY-SA 4.0",
+          "performers": "Fabian Wöhrle, organ; Reiser organ of St. Petrus und Paulus, Gerstetten",
+          "recorded": "unknown; uploaded October 2024",
+          "quality": "good",
+          "qualityNote": "INFERENCE: Named organist and instrument; noise and reverberation not auditioned.",
+          "cuts": "Unknown; source identifies the complete single organ work.",
+          "label": "EXT",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:D._Buxtehude_Pr%C3%A4ludium,_Fuge_und_Chaconne_C-Dur_BuxWV_137_Fabian_W%C3%B6hrle_Kath._Kirche_Gerstetten.mp3",
+          "checkedWith": "audio.mjs check",
+          "hasMp3": true
+        }
+      ],
+      "alternatives": []
+    }
+  ],
+  "gaps": [
+    {
+      "composer": "origins-machaut",
+      "work": "Messe de Nostre Dame · an identified, movement-separated vocal performance",
+      "label": "EXT",
+      "finding": "Commons Kyrie is explicitly a MIDI rendering. The checked archive Mass has a PD URL and a single 28:47 MP3, but its uploader does not identify performers or a reliable date; reviews dispute the transfer’s identification and speed. Not selected over the authenticated Victor side.",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Machaut_-_Missa_Notre_Dame_-_Kyrie.ogg",
+        "https://archive.org/metadata/MesseDeNostreDameDeGuillaumeMachaut"
+      ]
+    },
+    {
+      "composer": "rameau",
+      "work": "Les Sauvages · real-instrument performance",
+      "label": "EXT",
+      "finding": "The checked Commons Les Sauvages file explicitly describes a synthesiser and sound banks; rejected. La Poule supplies a genuine pianist instead.",
+      "sourceUrls": ["https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_Les_Sauvages.ogg"]
+    },
+    {
+      "composer": "couperin",
+      "work": "Les Barricades mystérieuses · harpsichord comparison",
+      "label": "EXT",
+      "finding": "The other checked Commons file explicitly uses a virtual synthesiser and SoundFont; not a harpsichord performer alternative.",
+      "sourceUrls": ["https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Les_baricades-mist%C3%A9rieuses.ogg"]
+    },
+    {
+      "composer": "scarlatti",
+      "work": "K. 380 · harpsichord comparison",
+      "label": "EXT",
+      "finding": "The checked John Sankey-labelled Ogg explicitly says Wikimedia converted MIDI to WAV; excluded despite the performer-style credit.",
+      "sourceUrls": ["https://commons.wikimedia.org/wiki/File:Scarlatti_K_380.ogg"]
+    }
+  ],
+  "selectionNotes": [
+    "EXT: Existing bach-brandenburg-5-allegro and vivaldi-spring-allegro are referenced for set completion only, not duplicated or included in new-recording counts.",
+    "EXT: Whole-movement duration exemption is used for short character pieces, dances and vocal items. No MIDI, synthesised performance or deliberately mid-phrase audio extraction is selected.",
+    "INFERENCE: Vivaldi’s 2011 file trims need an authoring-stage endpoint check before claiming that every musical bar survives; this dossier preserves the discrepancy instead of treating the old description duration as current.",
+    "EXT: The alternative 1981-labelled Water Music F-major files were checked but not selected: their pages omit performers and the upstream WaterMusicSuiteInFmuenchinger archive item is now dark. The Marine HWV 349 set has clearer provenance.",
+    "EXT: The three performer comparisons supplied are Michel/Casals Prelude, Heifetz/Goldstein Chaconne, and Furtwängler versus Beal/Menuhin/Doráti Erbarme dich. They require separate timing maps if authored.",
+    "EXT: Rights interpretation follows the lead’s explicit Commons-hosted/PD-EU-audio decision and archive PD-or-CC-URL rule; no worldwide clearance is inferred from a European expiry tag.",
+    "MEAS: No builds, repository validators, audio analysis, or acoustic quality measurements were run. Only requested discovery/source checks and one bounded MP3 availability GET were exercised."
+  ]
+}

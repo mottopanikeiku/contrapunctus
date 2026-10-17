@@ -1,0 +1,149 @@
+{
+  "id": "chopin-etude-op25-9-dalbert-1913",
+  "work": {
+    "title": "Étude in G♭ major, Op. 25 No. 9 (“Butterfly”)",
+    "catalogue": "Op. 25 No. 9",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Eugen d’Albert",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "The Archive track list explicitly identifies the historic Odeon side, month and matrix; track 13 is separated from Op.25 No.2 on the same original side. The later transfer CD dates from 1993, not the session."
+  },
+  "session": {
+    "date": {
+      "value": "March 1913",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The Archive track list explicitly identifies the historic Odeon side, month and matrix; track 13 is separated from Op.25 No.2 on the same original side. The later transfer CD dates from 1993, not the session.",
+      "precision": "month"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Recording venue is not established in the consulted sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Odeon; later transfer on Symposium CD 1146",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "Odeon 76563",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "xxB 5731",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Restoration and equalisation details are not established for this exact access derivative."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/02-eugen-d-albert-syposium-1146/13%20-%20Eugen%20d'Albert%20-%20Etude%20op.25%20No.9%20in%20Ges-Dur%20(Chopin)%20Odeon%2076563%2C%20Mx.%20xxB%205731%20(III.1913).mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 101
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "Internet Archive applies the Public Domain Mark to the recording collection, including this identified 1913 Odeon performance.",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "term"
+      ],
+      "note": "The mark concerns the supplied sound recording collection, not a composition-only Commons tag. The original Odeon catalogue and matrix are given in the source. No claim is made that the 1993 transfer date is a historic session date."
+    },
+    "creditLine": "Étude in G♭ major, Op. 25 No. 9 (“Butterfly”); Eugen d’Albert, piano. Internet Archive applies the Public Domain Mark to the recording collection, including this identified 1913 Odeon performance. Source: Internet Archive.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/02-eugen-d-albert-syposium-1146",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "US Copyright Office — pre1972 sound recordings",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Recordings first published before1923 and the annual expiration schedule for1923–1946 publications; as of2026 the cutoff is1925.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

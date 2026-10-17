@@ -1,0 +1,163 @@
+{
+  "id": "berlioz-fantastique-un-bal",
+  "work": {
+    "title": "Symphonie fantastique",
+    "catalogue": "Op. 14",
+    "movement": "II. Un bal",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Orchestral movement identified by the source; the performing edition and observance of repeats have not been established."
+    }
+  },
+  "performers": {
+    "value": "Igor Markevitch; Orchestre des Concerts Lamoureux",
+    "status": "documented",
+    "sourceIds": [
+      "label",
+      "commons"
+    ],
+    "note": "The reissue label uses the full orchestra name; Commons abbreviates it to Orchestre Lamoureux."
+  },
+  "session": {
+    "date": {
+      "value": "11–17 January 1961",
+      "status": "documented",
+      "sourceIds": [
+        "label",
+        "commons"
+      ],
+      "note": "Preferred: the original label’s reissue session table. Commons and the filename give 1962, including a 1 January value that is not treated as an exact session date.",
+      "precision": "range",
+      "alternatives": [
+        {
+          "value": "1962",
+          "sourceIds": [
+            "commons"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "value": "Salle de la Mutualité, Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "label"
+      ],
+      "note": "CD 9 recording-location table."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Deutsche Grammophon",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "label"
+      ],
+      "note": "The source names the label; the precise physical copy transferred is not identified."
+    },
+    "catalogue": {
+      "value": "138 712",
+      "status": "documented",
+      "sourceIds": [
+        "label"
+      ],
+      "note": "Original DG issue listed for the 1961 Berlioz performance. This does not identify the pressing used for the Commons transfer."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take, side or pressing identifiers are supplied for the transferred copy."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "D. Benjamin Miller uploaded the FLAC in 2018; upload authorship is not evidence of who made the transfer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Neither the upload date nor the later MP3 transcoding date establishes the transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer chain, restoration, pitch correction or processing information is documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_2._Un_bal_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.flac/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_2._Un_bal_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.flac.mp3",
+    "sourceChain": [
+      "label",
+      "commons"
+    ],
+    "format": "Wikimedia Commons MP3 derivative of the uploaded FLAC",
+    "durationSeconds": 368
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain composition",
+      "status": "documented",
+      "sourceIds": [
+        "score",
+        "commons"
+      ],
+      "note": "Berlioz died in 1869; the nineteenth-century composition is distinct from the recording and from modern editorial material."
+    },
+    "recording": {
+      "value": "Public domain under the Commons PD-EU-audio assessment",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Territorial recording-rights assessment, not a claim of worldwide public-domain status. The template covers sound recordings, not merely the composition."
+    },
+    "creditLine": "Hector Berlioz; Igor Markevitch and Orchestre Lamoureux. Deutsche Grammophon recording, supplied via Wikimedia Commons; uploaded by D. Benjamin Miller. Commons marks the sound recording PD-EU-audio.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — selected movement, source, file history and licence",
+      "url": "https://commons.wikimedia.org/wiki/File:Hector_Berlioz_-_Symphonie_fantastique,_op._14_-_2._Un_bal_(Igor_Markevitch,_Orchestre_Lamoureux,_1962).flac",
+      "locator": "Summary, licensing, file history and transcoding status",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "label",
+      "title": "Eloquence / Deutsche Grammophon — Igor Markevitch: The Deutsche Grammophon Legacy",
+      "url": "https://www.eloquenceclassics.com/releases/igor-markevitch-the-deutsche-grammophon-legacy/",
+      "locator": "CD 9 repertoire and recording details: Salle de la Mutualité, 11–17 January 1961; original DG issue 138712",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "score",
+      "title": "Berlioz, Symphonie fantastique — full score, Breitkopf & Härtel, 1900",
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/e/e8/IMSLP24830-PMLP03653-berlioz_symphonie_fantastique.pdf",
+      "locator": "Full orchestral score; underlying work and movement headings",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "bach-bwv565-schenk",
+  "work": {
+    "title": "Toccata and Fugue in D minor, BWV 565",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": "Organ version",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source identifies this as the named solo-piano work."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Norbert Schenk",
+        "role": "organ"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer spelling normalised; no uncredited accompanist or soloist added."
+  },
+  "session": {
+    "date": {
+      "value": "2017",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The recording year is stated in the cited source.",
+      "precision": "year"
+    },
+    "place": {
+      "value": "Evangelische Kirche Solms-Albshausen, Hessen, Germany",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source supplier/uploader is identified below, but an individual transfer engineer is not established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No restoration, equalisation or speed correction is established from the source. Playback uses the supplied MP3 access file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bach%2C_Toccata_und_Fuge_d-moll_BWV_565%2C_Norbert_Schenk.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access file; no concatenation or playback pitch alteration",
+    "durationSeconds": 463.9693254889885
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition as identified by the source.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "CC BY 4.0",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Norbert Schenk’s explicit recording release is quoted on Commons and backed by VRT ticket 2020041810006148; permission dated 10 March 2020. This release date is not the recording date."
+    },
+    "creditLine": "Toccata and Fugue in D minor, BWV 565; Norbert Schenk, organ (Evangelische Kirche Solms-Albshausen). CC BY 4.0. Source: Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — Bach, Toccata und Fuge d-moll BWV 565, Norbert Schenk.mp3",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach,_Toccata_und_Fuge_d-moll_BWV_565,_Norbert_Schenk.mp3",
+      "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

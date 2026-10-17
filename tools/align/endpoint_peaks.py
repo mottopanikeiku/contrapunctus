@@ -3,12 +3,16 @@
 
 These measurements do not use the held-out librosa onset detector.
 """
+import argparse
 import json
 import numpy as np
 from scipy.signal import find_peaks
-from score_events import HERE, IDS
+from config import HERE, piece_ids
 
-for ident in IDS:
+parser = argparse.ArgumentParser()
+parser.add_argument('ids', nargs='*')
+args = parser.parse_args()
+for ident in args.ids or piece_ids():
     data = np.load(HERE / 'work' / (ident + '-features.npz'))
     events = json.loads((HERE / 'work' / (ident + '-events.json')).read_text())
     notes = np.array(events['notes'])

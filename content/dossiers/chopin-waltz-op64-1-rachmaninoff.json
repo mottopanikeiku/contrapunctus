@@ -1,0 +1,154 @@
+{
+  "id": "chopin-waltz-op64-1-rachmaninoff",
+  "work": {
+    "title": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”)",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": "Solo piano version",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr"
+      ],
+      "note": "The source identifies this as the named solo-piano work."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer spelling normalised; no uncredited accompanist or soloist added."
+  },
+  "session": {
+    "date": {
+      "value": "1923-04-05",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr"
+      ],
+      "note": "Commons dates this transfer to 5 April 1923. DAHR lists take 5 that day; take 3 of 2 April 1921 also appeared on Victor 815, so the transfer’s take attribution is inferred rather than established by a photographed label.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey, Church Building",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "815",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Source catalogue identification; no independent label inspection is claimed."
+    },
+    "matrixTakeSides": {
+      "value": "B-24192, take 5",
+      "status": "inferred",
+      "sourceIds": [
+        "source",
+        "dahr"
+      ],
+      "note": "Commons dates this transfer to 5 April 1923. DAHR lists take 5 that day; take 3 of 2 April 1921 also appeared on Victor 815, so the transfer’s take attribution is inferred rather than established by a photographed label."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source supplier/uploader is identified below, but an individual transfer engineer is not established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No restoration, equalisation or speed correction is established from the source. Playback uses the supplied MP3 access file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Minute_Waltz%2C_by_Chopin_-_Performed_by_Sergej_Rachmaninoff.ogg/Minute_Waltz%2C_by_Chopin_-_Performed_by_Sergej_Rachmaninoff.ogg.mp3",
+    "sourceChain": [
+      "source",
+      "dahr"
+    ],
+    "format": "MP3 access file; no concatenation or playback pitch alteration",
+    "durationSeconds": 121.44036281179139
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition as identified by the source.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "US public-domain sound recording — published in or before 1925",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr"
+      ],
+      "note": "Programme rule 2. Source identifies the 1923 issue and carrier; no non-commercial transfer licence was found in the inspected source. No worldwide public-domain claim is made."
+    },
+    "creditLine": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”); Sergei Rachmaninoff, piano (Steinway). US public-domain sound recording — published in or before 1925. Source: Wikimedia Commons.",
+    "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — Minute Waltz, by Chopin - Performed by Sergej Rachmaninoff.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Minute_Waltz,_by_Chopin_-_Performed_by_Sergej_Rachmaninoff.ogg",
+      "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr",
+      "title": "DAHR — Victor matrix B-24192",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700009401",
+      "locator": "Session dates, locations and issued takes.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

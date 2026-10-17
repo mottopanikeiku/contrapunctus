@@ -1,0 +1,18 @@
+export default {
+  id: 'ravel-miroirs-vallee-des-cloches',
+  composer: 'ravel',
+  order: 24,
+  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 5, of: 5 },
+  work: 'Miroirs',
+  movement: 'V. La vallée des cloches — Très lent',
+  year: '1904–05',
+  key: '',
+  forces: 'Piano',
+  performers: 'Olena Havyuk-Sheremet, piano',
+  recorded: '2014-04-01',
+  source: { file: "File:Maurice Ravel - Miroirs - 5. La vallée des cloches.flac" },
+  intro: 'x',
+  question: 'x',
+  sections: [{ t: 0, label: 'A', m: 'A' }],
+  cues: [],
+};

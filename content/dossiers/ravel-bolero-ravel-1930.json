@@ -1,0 +1,167 @@
+{
+  "id": "ravel-bolero-ravel-1930",
+  "work": {
+    "title": "Boléro",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Orchestre des Concerts Lamoureux",
+        "role": "orchestra"
+      },
+      {
+        "name": "Maurice Ravel",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source",
+      "catalogue"
+    ],
+    "note": "Commons attributes this complete transfer to Ravel in 1930. BnF confirms Ravel/Lamoureux and a 1935 published pressing. No precise January session day or actual transferred pressing is asserted."
+  },
+  "session": {
+    "date": {
+      "value": "January 1930",
+      "status": "inferred",
+      "sourceIds": [
+        "source",
+        "catalogue"
+      ],
+      "note": "Commons attributes this complete transfer to Ravel in 1930. BnF confirms Ravel/Lamoureux and a 1935 published pressing. No precise January session day or actual transferred pressing is asserted.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Paris",
+      "status": "inferred",
+      "sourceIds": [
+        "source",
+        "catalogue"
+      ],
+      "note": "Named by the cited source; not inferred from an ensemble’s home city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Polydor (historic issue; transferred pressing unidentified)",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "catalogue"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "566030 / 566031",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "catalogue"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "1812 BMP, 1813 BMP, 1814 BMP, 1815 BMP",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "catalogue"
+      ],
+      "note": ""
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Restoration and equalisation details are not established for this exact access derivative."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Bolero-Maurice_Ravel-1930.ogg/Bolero-Maurice_Ravel-1930.ogg.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 952.4244897959184
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "Territorial: EU public domain; this Ravel/Lamoureux recording was published no later than 1935.",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "catalogue",
+        "term"
+      ],
+      "note": "Programme rule 3. BnF’s P1935 Polydor issue establishes publication before 1963, without treating the Commons composition-only PD-old-70 tag as a recording licence. US status is not established. Upstream Typepad page now redirects to an unavailable parked domain."
+    },
+    "creditLine": "Boléro; Orchestre des Concerts Lamoureux, Maurice Ravel. Territorial: EU public domain; this Ravel/Lamoureux recording was published no later than 1935. Source: Wikimedia Commons.",
+    "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-1930.ogg",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "catalogue",
+      "title": "Bibliothèque nationale de France — Polydor Boléro",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb38509551s",
+      "locator": "Ravel and Orchestre des Concerts Lamoureux; catalogue 566030/31, matrices 1812–1815 BMP; P1935 publication established from the wax inscription.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "EU Directive2011/77 — transitional term provisions",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
+      "locator": "Article1, amendments to Directive2006/116 Article10: recordings still protected on30October2011. A pre1963 publication whose former50-year term expired is not revived.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

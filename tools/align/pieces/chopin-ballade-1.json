@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "id": "chopin-ballade-1",
+  "source": {
+    "mutopia": 1959,
+    "title": "Ballade No. 1 in G minor, Op. 23",
+    "edition": "Klindworth; Bote & Bock, circa 1880",
+    "encoder": "Javier Ruiz-Alma",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1959",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "main": "chopin-op23-ballade-1-lys/chopin-op23-ballade-1.ly",
+    "midi": "chopin-op23-ballade-1.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O23/chopin-op23-ballade-1/chopin-op23-ballade-1-lys.zip",
+        "file": "chopin-op23-ballade-1-lys.zip",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O23/chopin-op23-ballade-1/chopin-op23-ballade-1.mid",
+        "file": "chopin-op23-ballade-1.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 264,
+    "quarters": 6,
+    "overrides": {
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "208": 4,
+      "209": 4,
+      "210": 4,
+      "211": 4,
+      "212": 4,
+      "213": 4,
+      "214": 4,
+      "215": 4,
+      "216": 4,
+      "217": 4,
+      "218": 4,
+      "219": 4,
+      "220": 4,
+      "221": 4,
+      "222": 4,
+      "223": 4,
+      "224": 4,
+      "225": 4,
+      "226": 4,
+      "227": 4,
+      "228": 4,
+      "229": 4,
+      "230": 4,
+      "231": 4,
+      "232": 4,
+      "233": 4,
+      "234": 4,
+      "235": 4,
+      "236": 4,
+      "237": 4,
+      "238": 4,
+      "239": 4,
+      "240": 4,
+      "241": 4,
+      "242": 4,
+      "243": 4,
+      "244": 4,
+      "245": 4,
+      "246": 4,
+      "247": 4,
+      "248": 4,
+      "249": 4,
+      "250": 4,
+      "251": 4,
+      "252": 4,
+      "253": 4,
+      "254": 4,
+      "255": 4,
+      "256": 4,
+      "257": 4,
+      "258": 4,
+      "259": 4,
+      "260": 4,
+      "261": 4,
+      "262": 4,
+      "263": 4,
+      "264": 4
+    },
+    "order": [
+      [
+        1,
+        264
+      ]
+    ],
+    "description": "Play printed bars 1–264 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      598,
+      604
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Klindworth, Bote & Bock, circa 1880; complete piano Ballade in G minor. INFERENCE: Correct work and forces for Frank Lévy; note-level editorial variants, ornament execution and exact source edition remain unknown.",
+    "Read content/listen/chopin-ballade-1.mjs and cache/analysis/chopin-ballade-1.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

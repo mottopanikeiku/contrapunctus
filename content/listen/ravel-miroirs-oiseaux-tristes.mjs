@@ -1,0 +1,18 @@
+export default {
+  id: 'ravel-miroirs-oiseaux-tristes',
+  composer: 'ravel',
+  order: 21,
+  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 2, of: 5 },
+  work: 'Miroirs',
+  movement: 'II. Oiseaux tristes — Très doux',
+  year: '1904–05',
+  key: '',
+  forces: 'Piano',
+  performers: 'Olena Havyuk-Sheremet, piano',
+  recorded: '2014-04-01',
+  source: { file: "File:Maurice Ravel - Miroirs - 2. Oiseaux tristes.flac" },
+  intro: 'x',
+  question: 'x',
+  sections: [{ t: 0, label: 'A', m: 'A' }],
+  cues: [],
+};

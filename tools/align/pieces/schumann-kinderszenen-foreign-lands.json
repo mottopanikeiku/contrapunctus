@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "id": "schumann-kinderszenen-foreign-lands",
+  "source": {
+    "mutopia": 354,
+    "title": "Kinderszenen, Op. 15",
+    "edition": "Leichte Stücke, 1900",
+    "encoder": "Ying-Chun Liu",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=354",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "SchumannOp15No01.ly",
+    "midi": "SchumannOp15No01.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.ly",
+        "file": "SchumannOp15No01.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.mid",
+        "file": "SchumannOp15No01.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 22,
+    "quarters": 2,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        9,
+        22
+      ],
+      [
+        9,
+        22
+      ]
+    ],
+    "description": "Both binary sections repeated: 1–8 twice, then 9–22 twice."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      106,
+      109
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/schumann-kinderszenen-foreign-lands.mjs and cache/analysis/schumann-kinderszenen-foreign-lands.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

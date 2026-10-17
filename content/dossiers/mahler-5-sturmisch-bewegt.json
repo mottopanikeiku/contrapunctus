@@ -1,0 +1,175 @@
+{
+  "id": "mahler-5-sturmisch-bewegt",
+  "work": {
+    "title": "Symphony No. 5",
+    "catalogue": "",
+    "movement": "II. Stürmisch bewegt, mit größter Vehemenz",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Neither source identifies the performing edition. The Peters score used for commentary does not establish which edition was on the players’ desks."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Peabody Symphony Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": "The ensemble is named by both sources. The embedded tag ‘Murai/PSO’ is retained as a research lead only; it does not establish a full conductor credit or identify individual players."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "19 November 2006 is the Archive added/public date, repeated by Commons. It is not a documented performance date. The filename code PSO020103 is not decoded as a date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No venue is named. The orchestra’s association with Baltimore does not identify the recording location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No original record label or session carrier is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No commercial catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No matrix, take or side identifiers are supplied. The original recording medium is not established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Neither a transfer engineer nor a mastering engineer is identified; uploading a file is not a transfer credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The Archive addition and Commons upload dates do not establish a transfer date."
+    },
+    "processing": {
+      "value": "The Archive inventory lists 02.PSO020103-Mahler-5-II.mp3 as an original 192 kbps MP3 and its corresponding Ogg Vorbis file as a derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "Commons supplies an Ogg Vorbis upload with the embedded encoder Xiph.Org libVorbis I 20040629 and an MP3 access derivative. Its Source link mistakenly selects movement IV within the complete-symphony item. The corresponding movement file is identified from the item inventory and embedded movement title; byte identity and earlier editing or restoration are not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Mahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg/Mahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative from Wikimedia Commons; uploaded file: Ogg Vorbis. Duration rounded from Commons metadata.",
+    "durationSeconds": 838
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is out of copyright under the ordinary life-plus-70 rule.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Mahler died in 1911. This is a term calculation, not worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Commons applies CC0 1.0 Universal to this recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The upstream Archive item links instead to the older Creative Commons public-domain dedication. Neither reviewed record independently establishes the uploader’s authority over the performance. The Commons licence is reported as its rights statement, not independently cleared ownership."
+    },
+    "creditLine": "Gustav Mahler, Symphony No. 5, II. Stürmisch bewegt, mit größter Vehemenz; Peabody Symphony Orchestra. Conductor, session date and venue unestablished. Internet Archive item Mahler_Symphony_5, via Wikimedia Commons; Commons states CC0 1.0 Universal.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Mahler Symphony No. 5, II. Stürmisch bewegt, mit größter Vehemenz.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg?oldid=525137707",
+      "locator": "Summary, Licensing, original-file duration, transcode table and embedded Metadata. The Source URL selects movement IV, although the file title and embedded movement tag identify this movement.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Mahler Symphony 5",
+      "url": "https://archive.org/metadata/Mahler_Symphony_5",
+      "locator": "metadata.creator, licenseurl, addeddate and publicdate; files 02.PSO020103-Mahler-5-II.mp3 and 02.PSO020103-Mahler-5-II.ogg. Item describes complete movements I–V.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Gustav Mahler — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
+      "locator": "Biographical dates: 1860–1911.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January. No recording-rights calculation is made from this source.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

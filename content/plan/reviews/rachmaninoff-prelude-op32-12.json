@@ -1,0 +1,20 @@
+{
+  "id": "rachmaninoff-prelude-op32-12",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "transitions[0].from",
+      "severity": "minor",
+      "problem": "The transition names ‘Opening’, but no section label begins with that text. The first section is ‘Circling figure and lower melody’.",
+      "evidence": "content/listen/rachmaninoff-prelude-op32-12.mjs:16,31; CONTRACTS.md:135–136",
+      "fix": "Set transitions[0].from to ‘Circling figure and lower melody’."
+    },
+    {
+      "where": "cues[6].evidence",
+      "severity": "minor",
+      "problem": "The evidence says there are no detected onsets at 2:30, but the report gives 0.2 onsets per second in that window.",
+      "evidence": "cache/analysis/rachmaninoff-prelude-op32-12.txt:54",
+      "fix": "Replace ‘with no further detected onsets at 2:30’ with ‘with onset activity down to 0.2 per second at 2:30’."
+    }
+  ]
+}

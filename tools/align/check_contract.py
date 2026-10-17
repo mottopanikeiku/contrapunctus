@@ -19,7 +19,6 @@ def validate(file):
     assert score['review'] == {'by': None, 'date': None, 'scope': ''}
     for field in ('title', 'edition', 'encoder', 'url', 'license', 'licenseUrl'):
         assert isinstance(score['source'][field], str) and score['source'][field]
-    assert score['source']['license'] == 'Public Domain'
     assert number(score['tuningHz']) and 400 < score['tuningHz'] < 480
     assert score['method'] and score['repeats']
     voices = score['voices']
@@ -48,11 +47,9 @@ def validate(file):
         assert bar == len(bars) - 1 or onset <= bars[bar + 1]['t'] + .001
         previous = onset
     if 'chords' in score:
-        assert score['id'] == 'satie-gymnopedie-1'
-        assert len(score['chords']) == 8
         for chord in score['chords']:
             assert set(chord) == {'t0', 't1', 'label', 'basis'}
-            assert chord['basis'] == 'editorial' and chord['label'] in ('Gmaj7', 'Dmaj7')
+            assert chord['basis'] == 'editorial' and isinstance(chord['label'], str) and chord['label']
             assert number(chord['t0']) and number(chord['t1']) and chord['t1'] > chord['t0']
     print('ok', file, 'contract;', len(bars), 'bars;', len(score['notes']), 'notes;', len(voices), 'source-defined voices')
 

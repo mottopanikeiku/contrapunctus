@@ -1,0 +1,149 @@
+{
+  "id": "chopin-waltz-op64-2-gurevich",
+  "work": {
+    "title": "Waltz in C♯ minor, Op. 64 No. 2",
+    "catalogue": "Op. 64 No. 2",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Olga Gurevich",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Commons credits Olga Gurevich and an approximate 2014 date. No precise session date, instrument or venue is established."
+  },
+  "session": {
+    "date": {
+      "value": "c. 2014",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons credits Olga Gurevich and an approximate 2014 date. No precise session date, instrument or venue is established.",
+      "precision": "approximate"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Recording venue is not established in the consulted sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Musopen — Set Chopin Free",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Catalogue number of the transferred carrier is not established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No matrix/take identifier is established; absence from the source does not mean none existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Restoration and equalisation details are not established for this exact access derivative."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Chopin_-_Waltz_No._7_in_C-sharp_minor%2C_Op._64_No._2_%28Olga_Gurevich%29.flac/Chopin_-_Waltz_No._7_in_C-sharp_minor%2C_Op._64_No._2_%28Olga_Gurevich%29.flac.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 230.05803125
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "Recording explicitly dedicated to the public domain by Musopen (PD-author).",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "term"
+      ],
+      "note": "Programme rule 1. Commons separately labels the recording PD-author and the composition PD-old-auto-expired; the dedication therefore covers the sound recording."
+    },
+    "creditLine": "Waltz in C♯ minor, Op. 64 No. 2; Olga Gurevich, piano. Recording explicitly dedicated to the public domain by Musopen (PD-author). Source: Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._7_in_C-sharp_minor,_Op._64_No._2_(Olga_Gurevich).flac",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "US Copyright Office — pre1972 sound recordings",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Recordings first published before1923 and the annual expiration schedule for1923–1946 publications; as of2026 the cutoff is1925.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

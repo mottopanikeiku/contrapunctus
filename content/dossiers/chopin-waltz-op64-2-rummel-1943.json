@@ -1,0 +1,149 @@
+{
+  "id": "chopin-waltz-op64-2-rummel-1943",
+  "work": {
+    "title": "Waltz in C♯ minor, Op. 64 No. 2",
+    "catalogue": "Op. 64 No. 2",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Walter Morse Rummel",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Commons/Public Domain Project documents the pianist, recording date and first release in1943. The venue is explicitly unknown."
+  },
+  "session": {
+    "date": {
+      "value": "18 January 1943",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons/Public Domain Project documents the pianist, recording date and first release in1943. The venue is explicitly unknown.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Recording venue is not established in the consulted sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Gramophone",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "68063",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "2218ge9 (take not established)",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Restoration and equalisation details are not established for this exact access derivative."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/PDP-CH_-_Walter_Morse_Rummel%2C_piano_-_Waltz_in_C-sharp_minor%2C_Op._64%2C_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac/PDP-CH_-_Walter_Morse_Rummel%2C_piano_-_Waltz_in_C-sharp_minor%2C_Op._64%2C_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 265.53179166666666
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "Territorial: EU public domain under the pre-1963 publication rule; first release 1943.",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "term"
+      ],
+      "note": "Programme rule 3. The Commons PD-old-70 tag alone concerns the composition. The dated first issue provides the sound-recording basis; US status is not established."
+    },
+    "creditLine": "Waltz in C♯ minor, Op. 64 No. 2; Walter Morse Rummel, piano. Territorial: EU public domain under the pre-1963 publication rule; first release 1943. Source: Wikimedia Commons.",
+    "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Walter_Morse_Rummel,_piano_-_Waltz_in_C-sharp_minor,_Op._64,_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "EU Directive2011/77 — transitional term provisions",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
+      "locator": "Article1, amendments to Directive2006/116 Article10: recordings still protected on30October2011. A pre1963 publication whose former50-year term expired is not revived.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

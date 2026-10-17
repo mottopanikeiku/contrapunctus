@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "id": "schumann-kinderszenen-pleading-child",
+  "source": {
+    "mutopia": 366,
+    "title": "Kinderszenen, Op. 15",
+    "edition": "Leichte Stücke, 1900",
+    "encoder": "Ying-Chun Liu",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=366",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "main": "SchumannOp15No04.ly",
+    "midi": "SchumannOp15No04.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No04/SchumannOp15No04.ly",
+        "file": "SchumannOp15No04.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No04/SchumannOp15No04.mid",
+        "file": "SchumannOp15No04.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 17,
+    "quarters": 2,
+    "overrides": {
+      "17": 1
+    },
+    "order": [
+      [
+        1,
+        17
+      ]
+    ],
+    "description": "Play printed bars 1–17 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      72,
+      78
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/schumann-kinderszenen-pleading-child.mjs and cache/analysis/schumann-kinderszenen-pleading-child.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

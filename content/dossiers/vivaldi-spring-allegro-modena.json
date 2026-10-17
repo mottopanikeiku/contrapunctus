@@ -1,0 +1,48 @@
+{
+  "id": "vivaldi-spring-allegro-modena",
+  "work": {
+    "title": "The Four Seasons · Spring",
+    "catalogue": "Op. 8 No. 1, RV 269",
+    "movement": "I. Allegro",
+    "version": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "Commons identifies the complete first movement but no performing edition. No cut or omission is asserted from the duration alone; the automatic full-movement correspondence has median cosine confidence 0.950." }
+  },
+  "performers": {
+    "value": [{ "name": "The Modena Chamber Orchestra", "role": "ensemble, as credited in the source summary" }],
+    "status": "disputed",
+    "sourceIds": ["commons"],
+    "note": "The Commons title, summary and source link credit the Modena Chamber Orchestra; its embedded Author metadata instead says Orpheus Chamber Orchestra. No soloist or conductor is established, and the conflicting tag is not treated as proof of Orpheus’s participation.",
+    "alternatives": [{ "value": "Orpheus Chamber Orchestra (embedded Author tag only)", "sourceIds": ["commons"] }]
+  },
+  "session": {
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "The summary’s ≤ 2020-05-16 is an availability bound, not an identified session. Embedded digitizing metadata says 15 May 2020 and upload occurred on 26 December 2022; neither establishes when the musicians recorded.", "precision": null },
+    "place": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No recording venue or city is identified. The ensemble’s name is not venue evidence." }
+  },
+  "carrier": {
+    "label": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "Musopen is the digital source; no original carrier label is identified." },
+    "catalogue": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No release catalogue number is supplied." },
+    "matrixTakeSides": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No original matrix, take or side identification is established." }
+  },
+  "transfer": {
+    "credits": { "value": "Toast for Teddy uploaded the Musopen-derived file to Wikimedia Commons", "status": "documented", "sourceIds": ["commons"], "note": "The uploader is documented; original recording and mastering engineers are not." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No verified mastering or transfer date. The embedded digitizing timestamp and Commons upload date are retained in the session note, not promoted to session evidence." },
+    "processing": { "value": "Pitch adjusted 20 cents down from the original recording", "status": "documented", "sourceIds": ["commons"], "note": "The Commons description states this processing explicitly. The algorithm, original pitch standard and whether duration changed are unspecified. Commons supplies an MP3 derivative of the Ogg Vorbis file; Contrapunctus adds no pitch or speed processing to playback." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg.mp3",
+    "sourceChain": ["commons", "musopen"],
+    "format": "Commons MP3 derivative of the pitch-adjusted Ogg Vorbis file",
+    "durationSeconds": 214.03
+  },
+  "rights": {
+    "composition": { "value": "Vivaldi’s underlying composition is public domain", "status": "inferred", "sourceIds": ["commons", "score-commentary"], "note": "The eighteenth-century composition is distinct from this modern sound recording and from any unidentified performing edition." },
+    "recording": { "value": "Commons PDMark-owner declaration for the Musopen-sourced sound recording", "status": "documented", "sourceIds": ["commons"], "note": "Accepted under the explicit recording-release rule: Commons says the copyright holder made the file available under Public Domain Mark 1.0. This reports the published declaration, not independently verified ownership. The conflicting ensemble tag is retained above; no pre-1963 or historic-recording term calculation is used." },
+    "creditLine": "Antonio Vivaldi, Spring, RV 269, I. Allegro. The Modena Chamber Orchestra as credited by Commons/Musopen; conflicting embedded Orpheus attribution unresolved. Session date unknown. Musopen, via Wikimedia Commons uploader Toast for Teddy; source pitch lowered 20 cents. Commons PDMark-owner declaration.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — The Modena Chamber Orchestra, Vivaldi’s Spring, I. Allegro", "url": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring,_RV_269_-_I._Allegro.ogg", "locator": "Summary, Licensing, file history and embedded Metadata read directly. Summary attribution Modena conflicts with Author tag Orpheus; pitch adjustment is explicit.", "accessed": "2026-10-17" },
+    { "id": "musopen", "title": "Musopen — The Four Seasons, Op. 8", "url": "https://musopen.org/music/14910-the-four-seasons-op-8/", "locator": "Upstream source linked by Commons. Direct access returned HTTP 403; not treated as independent confirmation of the Commons attribution or release statement.", "accessed": "2026-10-17" },
+    { "id": "score-commentary", "title": "José Rodríguez Alvira — Vivaldi, La Primavera, I. Allegro", "url": "https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/01.php", "locator": "Score-based movement outline: ritornellos, birds, running water, storm and return to E major. Used as commentary only; no audio is taken from this page.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

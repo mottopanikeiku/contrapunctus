@@ -1,0 +1,25 @@
+{
+  "id": "debussy-cathedrale-meyer-ilic",
+  "title": "Two pianos, one submerged cathedral",
+  "composer": "debussy",
+  "group": "century",
+  "work": "La cathédrale engloutie, Préludes I, No. 10",
+  "question": "How do Meyer and Ilić distribute time between the opening fifths, the broad chords and their quiet echo?",
+  "intro": "Marcelle Meyer recorded this prelude at Salle Adyar, Paris, on 15 February 1956; Ivan Ilić recorded it in Paris in April 2006. Both play the solo-piano work, whose broad chordal melody returns later as a quiet, lower echo. The automatic alignment covers 0–330 seconds of Meyer against 0–310 seconds of Ilić, excluding the final decay; it remains provisional, not a score alignment. Meyer’s recording is used under the documented European recording-rights expiry claim, not an assertion of US public-domain status.",
+  "recordings": [
+    { "listen": "debussy-cathedrale-engloutie", "label": "Marcelle Meyer", "year": 1956, "note": "Salle Adyar, Paris; Les Discophiles Français DF 211/2. European recording-rights expiry only." },
+    { "listen": "debussy-cathedrale-engloutie-ilic", "label": "Ivan Ilić", "year": 2006, "note": "Paris, April 2006; the pianist’s CC BY 3.0 recording release." }
+  ],
+  "reference": "debussy-cathedrale-engloutie",
+  "passages": [
+    { "label": "Opening fifths", "t": 0, "note": "Compare the spaces between attacks and the resonance that bridges them; no pedal movements have been measured." },
+    { "label": "First expansion", "t": 74, "note": "Follow the rising line as accompaniment becomes more continuous. The points are passage-level, not matched bar starts." },
+    { "label": "Broad chordal span", "t": 120, "note": "Follow the chord tops as a melody; compare phrase lengths without comparing the transfers’ playback levels." },
+    { "label": "Quiet echo", "t": 278, "note": "The lower, quieter return offers a second hearing of the chordal tune: compare its pacing with the first statement." }
+  ],
+  "sources": [
+    { "title": "Meyer recording: session, carrier and territorial recording rights", "url": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_-_Pr%C3%A9ludes_(Livre_I)_-_X._La_Cath%C3%A9drale_engloutie_(Marcelle_Meyer,_1956).flac" },
+    { "title": "Ilić recording: April 2006 session and CC BY 3.0 release", "url": "https://commons.wikimedia.org/wiki/File:La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg" },
+    { "title": "La cathédrale engloutie: written form and echo", "url": "https://en.wikipedia.org/wiki/La_cath%C3%A9drale_engloutie" }
+  ]
+}

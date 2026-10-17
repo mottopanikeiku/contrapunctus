@@ -1,0 +1,34 @@
+{
+  "id": "mahler-das-lied-jugend",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "transitions[0].how",
+      "severity": "major",
+      "problem": "B♭ down to G is a minor third, not the stated major third.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP20582-PMLP47886-Mahler_-_Das_Lied_von_der_Erde_(orch._score).pdf — printed p. 53, rehearsal 5; the tonic distance B♭–A–G is three semitones.",
+      "fix": "Replace ‘a major third below’ with ‘a minor third below’."
+    },
+    {
+      "where": "dossier.rights.recording.note",
+      "severity": "major",
+      "problem": "The parenthesis ‘70 years from that event (to 2009)’ is not valid for an unspecified publication or communication within the fifty-year window. 2009 follows only if that event occurred in 1939. The accepted EU territorial conclusion need not change, but its explanation must not imply that every publication before 1989 expires in 2009.",
+      "evidence": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng — recitals 2–3, Article 1(2), and transitional Article 10(5).",
+      "fix": "Describe the pre-extension fifty-year term from the 1939 fixation, conditional on no qualifying publication/communication of the fixation in that period, and the non-revival of rights already expired on 1 November 2013. Remove the unsupported ‘to 2009’ calculation. Distinguish the live broadcast from a later communication of its fixation, and retain inferred/territorial status and the uploader-PDM caveat. Apply this shared correction to all six dossiers."
+    },
+    {
+      "where": "cues[3].evidence",
+      "severity": "minor",
+      "problem": "The pavilion-misreading account names Mahler Archives and Laki but supplies no URLs or bibliographic locators for those sources, so that part of the evidence cannot be independently followed from the package.",
+      "evidence": "content/listen/mahler-das-lied-jugend.mjs:33; Li 2025 supports the source identification and its dispute, but the cue also relies on the named historical misreading accounts.",
+      "fix": "Add the exact opened Mahler Archives and/or Laki source URL with a page/section locator to the evidence (or dossier sources). Retain the explicit uncertainty about the Chinese poem’s identification."
+    },
+    {
+      "where": "cues[2].evidence",
+      "severity": "minor",
+      "problem": "0:50 is called the strongest report boundary, but the report assigns 1.00 at 2:20 and 0.96 at 1:44 versus 0.93 at 0:50.",
+      "evidence": "cache/analysis/mahler-das-lied-jugend.txt:8,13,18",
+      "fix": "Replace ‘The strongest boundary in the report’ with ‘A strong boundary in the report’."
+    }
+  ]
+}

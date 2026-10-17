@@ -1,0 +1,192 @@
+{
+  "id": "wagner-tristan-liebestod",
+  "work": {
+    "title": "Tristan und Isolde, WWV 90",
+    "catalogue": "WWV 90",
+    "movement": "Liebestod — “Mild und leise”",
+    "version": {
+      "value": "Act III closing scene with soprano, “Mild und leise”",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sleeve"
+      ],
+      "note": "Not the orchestra-only concert arrangement. The exact performing edition and any retouching are not identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Nanny Larsen-Todsen",
+        "role": "soprano — Isolde"
+      },
+      {
+        "name": "Bayreuth Festival Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Karl Elmendorff",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "sleeve"
+    ],
+    "note": "The sleeve explicitly assigns these ensemble/conductor credits to the Liebestod, unlike conductors listed for other album tracks."
+  },
+  "session": {
+    "date": {
+      "value": "1928-08",
+      "status": "inferred",
+      "sourceIds": [
+        "sleeve",
+        "naxos"
+      ],
+      "note": "The sleeve documents 1928. The matching Elmendorff/Bayreuth matrix series is dated August 1928 by the Naxos inlay; no exact day is supplied.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Wagner Theater, Bayreuth",
+      "status": "inferred",
+      "sourceIds": [
+        "sleeve",
+        "naxos"
+      ],
+      "note": "Linked through the matching 1928 Columbia matrix series; the Preiser sleeve itself identifies the orchestra but not the room."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia; transferred reissue: Preiser Lebendige Vergangenheit",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sleeve"
+      ],
+      "note": "The uploaded track is presented as a transfer of Preiser LP LV 174, side A, track 3, not a direct fresh transfer of the original Columbia discs."
+    },
+    "catalogue": {
+      "value": "Original Columbia L 2206; reissue Preiser LV 174",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sleeve"
+      ],
+      "note": "Original and reissue numbers describe different carriers."
+    },
+    "matrixTakeSides": {
+      "value": "AX 3986/87 (Preiser sleeve); WAX 3986/87 (Naxos original matrix list)",
+      "status": "disputed",
+      "sourceIds": [
+        "sleeve",
+        "naxos"
+      ],
+      "note": "The source sleeve omits the initial W used in the fuller discographic matrix list. Two sides are identified by the consecutive matrix numbers; take suffixes are not established.",
+      "alternatives": [
+        {
+          "value": "AX 3986/87",
+          "sourceIds": [
+            "sleeve"
+          ]
+        },
+        {
+          "value": "WAX 3986/87",
+          "sourceIds": [
+            "naxos"
+          ]
+        }
+      ]
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No transfer engineer is identified; an uploader is not automatically the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The upload date is not treated as a transfer date."
+    },
+    "processing": {
+      "value": "Archive supplies a 160 kbps MP3 derivative of the uploaded WAV.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No restoration engineer or editing process is credited for this transfer. Ward Marston’s credit on the separate Naxos release is not imported."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/03%20-%20Nanny%20LARSEN-TODSEN%20Preiser%20LV%20174%20Side%20A%20-%20Tristan%20und%20Isolde%20-%20Liebestod%20%28Columbia%20L%202206%2C%201928%29.mp3",
+    "sourceChain": [
+      "archive",
+      "sleeve"
+    ],
+    "format": "Internet Archive 160 kbps MP3 derivative of the uploaded WAV transfer of a Preiser LP track",
+    "durationSeconds": 447.61
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Wagner died in 1883. This is a term calculation, not worldwide clearance of every edition."
+    },
+    "recording": {
+      "value": "Archive marks this recording Public Domain; the historical 1928 Columbia issue also falls within the project’s pre-1963 EU recording rule.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sleeve"
+      ],
+      "note": "Territorial: EU status is relied on, not worldwide public-domain status. US status is not established; the 1928 recording does not meet the US pre-1926 cutoff. The PDM URL describes a status claim, not a newly granted copyright licence."
+    },
+    "creditLine": "Wagner: Liebestod; Nanny Larsen-Todsen, Bayreuth Festival Orchestra, Karl Elmendorff, 1928. Columbia L 2206, via Preiser LV 174 and Internet Archive. Archive Public Domain Mark; EU territorial basis; US status not established.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Larsen-Todsen — Preiser LV 174 side A",
+      "url": "https://archive.org/metadata/nanny-larsen-todsen-preiser-lv-174-side-a",
+      "locator": "Description track 3, original Columbia L 2206 (1928); files list MP3 derivative and PDM rights URL.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "sleeve",
+      "title": "Preiser LV 174 back sleeve",
+      "url": "https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/Larsen-Todsen%20Preiser%20%282%29.JPG",
+      "locator": "“Mild und leise” entry: 1928, Columbia L 2206, matrix AX 3986/87, Bayreuth orchestra and Karl Elmendorff; Anton Odelga biography.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "naxos",
+      "title": "1928 Tristan — Naxos Historical rear inlay",
+      "url": "https://cdn.naxos.com/SharedFiles/pdf/rear/8.110200-02r.pdf",
+      "locator": "Karl Elmendorff, Bayreuth Festival Orchestra, August 1928 at Wagner Theater; matrix series includes WAX 3986/87. This is a different transfer.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "score",
+      "title": "Vocal and orchestral Liebestod — Sibley score",
+      "url": "https://hdl.handle.net/1802/13070",
+      "locator": "Breitkopf excerpt score pp. 14–30, with Isolde’s vocal part.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "chopin-ballade-2",
+  "work": {
+    "title": "Ballade No. 2 in F major, Op. 38",
+    "catalogue": "Op. 38",
+    "movement": "Andantino — Presto con fuoco",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Source identifies the standard solo-piano work; edition, individual readings and completeness have not been established by a score audit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Frank Lévy",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Named on the selected source page."
+  },
+  "session": {
+    "date": {
+      "value": "circa 2014",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons gives circa 2014 for this Musopen recording, but an independently documented session date is not available.",
+      "precision": "approximate"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Recording venue and location are not established by the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "A commercial recording label is not established by this digital source."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [],
+      "note": "No historic disc matrix or side is involved in the documented digital source."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Musopen — Set Chopin Free project",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Project/source attribution; neither a session engineer nor a transfer engineer is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer or mastering date is established; upload dates are not used as recording dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Equalisation, editing, denoising, pitch correction and other processing are not documented. No judgement of their absence is implied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Chopin_-_Ballade_No._2_in_F_major%2C_Op._38_%28Frank_Levy%29.flac/Chopin_-_Ballade_No._2_in_F_major%2C_Op._38_%28Frank_Levy%29.flac.mp3",
+    "sourceChain": [
+      "musopen",
+      "source"
+    ],
+    "format": "MP3 streaming derivative of the source flac",
+    "durationSeconds": 494.689
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; this nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Public-domain release by Musopen",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons separates recording rights from composition rights: its Copyright information template applies PD-author to the recording, naming Musopen. This is not reliance on the composition-only PD-old tag."
+    },
+    "creditLine": "Frank Lévy, piano; Musopen Set Chopin Free project; public-domain recording, via Wikimedia Commons. MP3 streaming derivative.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-author"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Ballade_No._2_in_F_major,_Op._38_(Frank_Levy).flac",
+      "locator": "Description, performer attribution, source chain and recording-licence statement.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Ballade No. 2 in F major, Op. 38",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/96",
+      "locator": "Work commentary, date, dedication and formal description.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "musopen",
+      "title": "Musopen: Set Chopin Free release update",
+      "url": "https://www.kickstarter.com/projects/Musopen/set-chopin-free/posts/1193714",
+      "locator": "Upstream project release linked from the Commons file page.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

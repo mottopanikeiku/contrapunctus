@@ -2,18 +2,25 @@
 // Static generator: content/*.mjs -> docs/*.html. No dependencies.
 import { mkdir, writeFile, readdir, unlink, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { loadContent } from './content.mjs';
 import { normalizeTitle, sourceKey } from '../tools/commons.mjs';
 import { pathToFileURL } from 'node:url';
 import routes from '../content/routes.mjs';
 import { buildReturnLab } from './returnlab.mjs';
+import { buildCompare } from './compare.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'docs');
 const C = await loadContent();
-const { eras, composers, pages, site, art, listens, precursors = [], prologue } = C;
+const { eras, composers, pages, site, art, listens: allListens, precursors = [], prologue } = C;
+// Publication gate: a recording goes live when it was on the site before the expansion (content/plan/baseline.json)
+// or its independent review passed (content/plan/reviews/<id>.json, verdict "pass"). Everything else waits.
+const baseline = new Set(JSON.parse(await readFile(path.join(ROOT, 'content/plan/baseline.json'), 'utf8').catch(() => '[]')));
+const reviewed = (id) => { try { return JSON.parse(readFileSync(path.join(ROOT, 'content/plan/reviews', `${id}.json`), 'utf8')).verdict === 'pass'; } catch { return false; } };
+const listens = allListens.filter((l) => baseline.has(l.id) || reviewed(l.id));
+const held = allListens.filter((l) => !baseline.has(l.id) && !reviewed(l.id)).map((l) => l.id);
 const bySlug = new Map(composers.map((c) => [c.slug, c]));
 const eraBySlug = new Map(eras.map((e) => [e.slug, e]));
 const SITE_URL = 'https://mottopanikeiku.github.io/contrapunctus/';
@@ -227,6 +234,7 @@ const fonts = `<link rel="preconnect" href="https://fonts.googleapis.com"><link 
 const NAV = [
   ['hall', 'The Hall', 'hall.html'],
   ['influence', 'Influence', 'influence.html'],
+  ['compare', 'Compare', 'compare/index.html'],
   ['eras', 'Atlas', 'index.html#movements'],
   ['composers', 'Composers', 'composers/index.html'],
   ['origins', 'Origins', 'origins.html'],
@@ -715,6 +723,14 @@ async function programme() {
   const who = new Map([...pre.map((c) => [c.slug, { ...c, era: 'before-bach', facts: c.facts ?? [], portrait: c.portrait ?? { file: '' } }]), ...bySlug]);
   const eraOf = new Map([['before-bach', { slug: 'before-bach', numeral: '0', name: 'Before Bach', span: 'c. 900–1700', accent: '#9fc3c6', hero: prologue?.hero ?? { file: site.heroSlides[0].file, artist: site.heroSlides[0].artist, title: site.heroSlides[0].title } }], ...eraBySlug]);
   const rank = new Map([...pre.map((c, i) => [c.slug, i - pre.length]), ...composers.map((c, i) => [c.slug, i])]);
+  // Comparison-only recordings of music by composers outside the Atlas (Grieg, a folk song) carry
+  // composer: null and a `guest` { name, dates } instead; they never play in the concert.
+  for (const l of listens) if (l.composer == null && l.guest && l.concert === false) {
+    const slug = `guest-${l.id}`;
+    who.set(slug, { slug, name: l.guest.name, given: '', family: l.guest.name, born: { year: l.guest.born ?? '', place: l.guest.bornPlace ?? '' }, died: l.guest.died ? { year: l.guest.died, place: l.guest.diedPlace ?? '' } : null, era: null, epithet: '', facts: [], portrait: { file: '' }, page: null });
+    l.composer = slug;
+    rank.set(slug, 1e6);
+  }
   const list = listens
     .filter((l) => who.has(l.composer) && streams[sourceKey(l.source)])
     .sort((a, b) => rank.get(a.composer) - rank.get(b.composer) || setPos(a) - setPos(b) || (a.set?.part ?? 0) - (b.set?.part ?? 0) || (a.order ?? 1) - (b.order ?? 1));
@@ -752,7 +768,7 @@ async function programme() {
     out.push({
       id: l.id,
       composer: {
-        slug: c.slug, page: c.era === 'before-bach' ? `origins.html${c.anchor ? '#' + c.anchor : ''}` : `composers/${c.slug}.html`, name: c.name, given: c.given, family: c.family, dates: lifespan(c),
+        slug: c.slug, page: c.slug.startsWith('guest-') ? null : c.era === 'before-bach' ? `origins.html${c.anchor ? '#' + c.anchor : ''}` : `composers/${c.slug}.html`, name: c.name, given: c.given, family: c.family, dates: lifespan(c),
         born: `${c.born.date ?? c.born.year}, ${c.born.place}`, died: c.died ? `${c.died.date ?? c.died.year}, ${c.died.place}` : null,
         epithet: c.epithet, portrait: rendition(p?.src ?? null, 480), thumb: rendition(p?.src ?? null, 160), focus: c.portrait.focus ?? '50% 25%',
         facts: (c.facts ?? []).map(([k, v]) => [k, rich(ctx, v)]),
@@ -814,7 +830,7 @@ ${headScripts(ctx)}
 <div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
 <header class="r-top">
   <a class="r-brand" href="index.html"><span class="glyph">𝄞</span>Contrapunctus</a>
-  <nav class="r-nav"><a href="influence.html">Influence</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
+  <nav class="r-nav"><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
 </header>
 
 <main class="stage">
@@ -890,7 +906,7 @@ ${headScripts(ctx)}
   <header><h2>The programme</h2><p>${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
   ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t, i) => {
     const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>complete · ${t.set.of} movements</em></li>` : '';
-    return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
+    return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${t.set ? esc(t.movement || t.work) : `${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}`}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
   }).join('')}</ol></section>`).join('')}
 </aside>
 
@@ -926,6 +942,7 @@ const influenceModule = existsSync(path.join(ROOT, 'src/influence.mjs')) ? await
 if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, furtherReading, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
 await out('index.html', indexPage());
 await out('hall.html', await roomPage(PROG));
+await buildCompare({ out, layout, esc, attr, bySlug, ROOT, OUT });
 await out('atlas.html', `<!doctype html><meta charset="utf-8"><title>Contrapunctus</title><meta http-equiv="refresh" content="0; url=index.html"><link rel="canonical" href="index.html"><a href="index.html">Contrapunctus</a>`);
 await out('composers/index.html', composersIndex());
 for (const [i, c] of composers.entries()) await out(`composers/${c.slug}.html`, composerPage(c, i));
@@ -953,4 +970,5 @@ for (const dir of ['composers', 'eras']) {
 }
 
 console.log(`built ${written.size} pages: ${composers.length} composers, ${eras.length} eras, ${Object.keys(pages).length} long pages`);
+console.log(`recordings: ${listens.length} published, ${held.length} awaiting review${held.length ? ` (${held.slice(0, 12).join(', ')}${held.length > 12 ? ', …' : ''})` : ''}`);
 if (warnings.length) { console.log(`\n${warnings.length} warnings:\n  ${[...new Set(warnings)].join('\n  ')}`); }

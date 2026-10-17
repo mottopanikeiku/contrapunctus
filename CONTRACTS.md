@@ -277,3 +277,45 @@ than the initial page payload, to support the 400 KB initial-page budget.
 a composer’s Life and Works; the generator guards against an absent module.
 Validate batches with `node tools/validate-influence.mjs`; schema validation
 does not substitute for checking historical claims and transcriptions.
+
+## Comparisons
+
+`content/compare/<id>.json` builds `compare/<id>.html`. It contains `id`,
+`title` (≤ 8 words), `composer` (roster slug, or null for a guest composer),
+`work`, `question` (≤ 25 words), documented `intro` (2–4 sentences),
+`recordings: [{ listen, label, year, note }]`, `reference` (a listed listen ID),
+`passages: [{ label, t, note }]` (seconds in the reference), and
+`sources: [{ title, url }]`. Recording notes are ≤ 25 words; passage notes
+are ≤ 30 words. Optional `group` is `composer-performers`, `century`,
+`singers`, or `golden-age`, the four sections of `compare/index.html`.
+
+Each recording remains a normal listen file and dossier. Comparison-only
+recordings set `concert: false`; guests additionally set `composer: null`
+and `guest: { name, born?, died? }`. A stream represents one file: do not
+concatenate 78-rpm sides; compare the relevant side or author separate IDs.
+
+`tools/compare.py` writes
+`docs/assets/data/compare/<comparison>/<listen>.json`: `map` pairs
+`[referenceSeconds, performerSeconds]`, local `ratio`, `confidence` and
+`method`. Both time axes include trim offsets. The reference needs no map.
+Switching inverts the current recording’s map, then interpolates the target
+map; it never extrapolates. Duplicate performer timestamps use the midpoint
+of their reference span. Median confidence ≥ 0.85 is a sound automatic
+alignment; 0.75–0.85 requires caution; below 0.75, mappings and ratio
+measurements are withheld. All automatic alignment remains provisional.
+
+The tempo chart plots time taken per reference second (higher means longer,
+not faster), smoothed by the alignment tool. Duration bars describe whole
+files, not necessarily equal musical spans. Level strips are generated from
+`docs/assets/listen/<id>.json` `env`; they describe relative level within
+one recording, never comparative loudness. Passage sequences play up to
+12 reference seconds per performer, stopping sooner at the next passage.
+Recordings not covering a passage are omitted explicitly.
+
+Each comparison embeds only its own playback maps as JSON; SVG charts and
+level strips are computed at build time. Playback uses the persistent
+`app.player` and a single visible transport. The build exports
+`compareLinks(listenId)` and writes `docs/assets/compare-index.json` as
+`{ listenId: [{ compare, label, year }] }` for the Hall’s “Other performances”
+links. `assets/js/compare.js` also exports an asynchronous `compareLinks`
+reader for this index.

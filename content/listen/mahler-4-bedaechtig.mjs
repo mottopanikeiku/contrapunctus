@@ -9,6 +9,7 @@ export default {
   id: 'mahler-4-bedaechtig',
   composer: 'mahler',
   order: 3,
+  set: { id: 'mahler-symphony-4', title: 'Symphony No. 4 in G major', part: 1, of: 4 },
   work: 'Symphony No. 4',
   movement: 'I. Bedächtig. Nicht eilen',
   year: '1899–1900',

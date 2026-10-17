@@ -1,0 +1,445 @@
+{
+  "id": "mozart",
+  "places": [
+    {
+      "name": "Getreidegasse 9, Salzburg",
+      "country": "Archbishopric of Salzburg (today Austria)",
+      "lat": 47.7999,
+      "lon": 13.0436,
+      "from": "1756-01-27",
+      "to": "1762",
+      "kind": "born",
+      "what": "Born in the family flat; baptised next day at the cathedral. Leopold was his only teacher.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Paris and Versailles",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1763-11-18",
+      "to": "1764-04-10",
+      "kind": "travelled",
+      "what": "Played in Paris and for the royal family at Versailles; his first sonatas, K. 6–9, were published.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mozart family grand tour — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mozart_family_grand_tour"
+        }
+      ]
+    },
+    {
+      "name": "Cecil Court, London",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.5106,
+      "lon": -0.1275,
+      "from": "1764-04-23",
+      "to": "1765-07-24",
+      "kind": "travelled",
+      "what": "Played for George III; met Johann Christian Bach; wrote his first symphony after Leopold fell ill.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mozart family grand tour — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mozart_family_grand_tour"
+        },
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Bologna",
+      "country": "Papal States (today Italy)",
+      "lat": 44.4939,
+      "lon": 11.3428,
+      "from": "1770",
+      "kind": "studied",
+      "what": "Met Giovanni Battista Martini and was admitted to the Accademia Filarmonica during the first Italian tour.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Sistine Chapel, Rome",
+      "country": "Papal States (today Italy)",
+      "lat": 41.9031,
+      "lon": 12.4544,
+      "from": "1770",
+      "kind": "heard",
+      "what": "Reportedly heard Allegri’s <i>Miserere</i> twice and wrote it out from memory; details of the account are disputed.",
+      "status": "disputed",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Teatro Regio Ducale, Milan",
+      "country": "Duchy of Milan (Habsburg; today Italy)",
+      "lat": 45.4632,
+      "lon": 9.1911,
+      "from": "1770-12-26",
+      "kind": "premiere",
+      "what": "Premiered at the Milan Carnival; given 21 times, it led to further opera commissions.",
+      "work": "Mitridate, re di Ponto",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mitridate, re di Ponto — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mitridate,_re_di_Ponto"
+        }
+      ]
+    },
+    {
+      "name": "Salzburg",
+      "country": "Archbishopric of Salzburg (today Austria)",
+      "lat": 47.8,
+      "lon": 13.045,
+      "from": "1773-03-13",
+      "to": "1781",
+      "kind": "worked",
+      "what": "Court musician to Archbishop Colloredo (organist and concertmaster again from 1779); left after a quarrel with him in 1781.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Salvator Theatre, Munich",
+      "country": "Electorate of Bavaria (today Germany)",
+      "lat": 48.1375,
+      "lon": 11.575,
+      "from": "1775-01-13",
+      "kind": "premiere",
+      "what": "Premiered during the Munich visit begun in December 1774; a popular success.",
+      "work": "La finta giardiniera",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "La finta giardiniera — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/La_finta_giardiniera"
+        },
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Mannheim",
+      "country": "Electorate of the Palatinate (today Germany)",
+      "lat": 49.4878,
+      "lon": 8.4661,
+      "from": "1777-10-30",
+      "to": "1778-03-14",
+      "kind": "lived",
+      "what": "Got to know the famous orchestra and fell in love with Aloysia Weber; no post resulted.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1778-03-14",
+      "to": "1778-09",
+      "kind": "worked",
+      "what": "His mother died on 3 July; the Paris Symphony, No. 31, was performed on 12 June.",
+      "work": "Symphony No. 31 “Paris”",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Cuvilliés Theatre, Munich",
+      "country": "Electorate of Bavaria (today Germany)",
+      "lat": 48.14,
+      "lon": 11.5789,
+      "from": "1781-01-29",
+      "kind": "premiere",
+      "what": "Premiered in the Residenz theatre under Christian Cannabich, for the Elector Karl Theodor’s carnival.",
+      "work": "Idomeneo",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Idomeneo — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Idomeneo"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1781-03",
+      "to": "1791-12-05",
+      "kind": "lived",
+      "what": "Summoned with Colloredo’s household; dismissed in June, settled as a freelance pianist and composer under Joseph II’s favour.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Old Burgtheater, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.208,
+      "lon": 16.3664,
+      "from": "1782-07-16",
+      "kind": "premiere",
+      "what": "Premiered with the composer conducting; it made his reputation across German-speaking Europe.",
+      "work": "Die Entführung aus dem Serail",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Die Entführung aus dem Serail — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Die_Entführung_aus_dem_Serail"
+        },
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "St Stephen’s Cathedral, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2085,
+      "lon": 16.373,
+      "from": "1782-08-04",
+      "kind": "lived",
+      "what": "Married Constanze Weber the day before his father’s consenting letter arrived.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "St Peter’s Abbey, Salzburg",
+      "country": "Archbishopric of Salzburg (today Austria)",
+      "lat": 47.7969,
+      "lon": 13.0458,
+      "from": "1783-10-26",
+      "kind": "premiere",
+      "what": "Visiting his family, he gave the unfinished Mass with Constanze singing a solo part.",
+      "work": "Mass in C minor, K. 427",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mass in C minor (Mozart) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mass_in_C_minor_(Mozart)"
+        },
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Domgasse 5, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2078,
+      "lon": 16.3753,
+      "from": "1784",
+      "to": "1787",
+      "kind": "lived",
+      "what": "His longest and largest Vienna flat; <i>Figaro</i> and three of the Haydn Quartets were composed here.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mozarthaus Vienna — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mozarthaus_Vienna"
+        }
+      ]
+    },
+    {
+      "name": "Old Burgtheater, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.208,
+      "lon": 16.3664,
+      "from": "1786-05-01",
+      "kind": "premiere",
+      "what": "Premiered with Mozart conducting the first two performances; the first Da Ponte collaboration.",
+      "work": "Le nozze di Figaro",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Marriage of Figaro — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro"
+        }
+      ]
+    },
+    {
+      "name": "Estates Theatre, Prague",
+      "country": "Kingdom of Bohemia (Habsburg; today Czech Republic)",
+      "lat": 50.0861,
+      "lon": 14.4239,
+      "from": "1787-01",
+      "kind": "premiere",
+      "what": "Visit after <i>Figaro</i>’s Prague success, with concerts; he premiered the Prague Symphony, No. 38.",
+      "work": "Symphony No. 38 “Prague”",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Estates Theatre, Prague",
+      "country": "Kingdom of Bohemia (Habsburg; today Czech Republic)",
+      "lat": 50.0861,
+      "lon": 14.4239,
+      "from": "1787-10-29",
+      "kind": "premiere",
+      "what": "Premiered by the Prague Italian opera, at the National Theatre of Bohemia, now the Estates Theatre.",
+      "work": "Don Giovanni",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Don Giovanni — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Don_Giovanni"
+        }
+      ]
+    },
+    {
+      "name": "Thomaskirche, Leipzig",
+      "country": "Electorate of Saxony (today Germany)",
+      "lat": 51.3392,
+      "lon": 12.3725,
+      "from": "1789-04-20",
+      "to": "1789-04-23",
+      "kind": "heard",
+      "what": "Played before Frederick William II and the Queen; received 100 Friedrichs d’or and commissions for six quartets.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mozart's Berlin journey — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mozart's_Berlin_journey"
+        }
+      ]
+    },
+    {
+      "name": "Berlin Palace",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5175,
+      "lon": 13.4028,
+      "from": "1789-05-26",
+      "kind": "travelled",
+      "what": "Played before Frederick William II and the Queen; commissioned for six string quartets and six easy sonatas.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mozart's Berlin journey — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mozart's_Berlin_journey"
+        }
+      ]
+    },
+    {
+      "name": "Estates Theatre, Prague",
+      "country": "Kingdom of Bohemia (Habsburg; today Czech Republic)",
+      "lat": 50.0861,
+      "lon": 14.4239,
+      "from": "1791-09-06",
+      "kind": "premiere",
+      "what": "Premiered for Leopold II’s coronation as King of Bohemia, written while he was composing <i>The Magic Flute</i>.",
+      "work": "La clemenza di Tito",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "La clemenza di Tito — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/La_clemenza_di_Tito"
+        }
+      ]
+    },
+    {
+      "name": "Freihaus-Theater auf der Wieden, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.1978,
+      "lon": 16.3661,
+      "from": "1791-09-30",
+      "kind": "premiere",
+      "what": "Premiered at Schikaneder’s suburban theatre two months before his death; the first Tamino was Benedikt Schack.",
+      "work": "Die Zauberflöte",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Magic Flute — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Magic_Flute"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1791-12-05",
+      "kind": "died",
+      "what": "Died at home at 12:55 a.m., aged 35, after falling ill on 20 November.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "St Marx Cemetery, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.1828,
+      "lon": 16.4017,
+      "from": "1791-12-07",
+      "kind": "buried",
+      "what": "Interred in an individual “common grave” in the cemetery outside the city; the site is unmarked.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        },
+        {
+          "title": "St. Marx Cemetery — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/St._Marx_Cemetery"
+        }
+      ]
+    }
+  ]
+}

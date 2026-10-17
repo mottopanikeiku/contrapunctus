@@ -1,0 +1,17 @@
+export default {
+  id: 'mahler-das-lied-trinklied',
+  composer: 'mahler',
+  order: 40,
+  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 1, of: 6 },
+  work: 'Das Lied von der Erde',
+  movement: 'I. Das Trinklied vom Jammer der Erde — Allegro pesante',
+  year: '1908–09',
+  key: 'A minor',
+  forces: 'Tenor, alto and orchestra',
+  performers: 'skeleton',
+  recorded: '1939-10-05',
+  source: { archive: { item: '06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193', file: '01 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Carl Martin ÖHMANN (Tenor) - 1.Das Trinklied vom Jammer der Erde.mp3' } },
+  intro: 'skeleton',
+  sections: [{ t: 0, label: 'All', m: 'A' }],
+  cues: [{ t: 0, kind: 'life', title: 'Skeleton', text: 'Skeleton.', basis: 'documented', precision: 'passage' }],
+};

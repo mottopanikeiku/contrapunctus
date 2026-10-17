@@ -1,0 +1,164 @@
+{
+  "id": "ravel-gaspard-le-gibet",
+  "work": {
+    "title": "Gaspard de la nuit",
+    "catalogue": "M. 55",
+    "movement": "II. Le Gibet — Très lent",
+    "version": {
+      "value": "Original solo-piano movement; performing edition unidentified.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "The named work, scoring and movement are documented; no specific performing edition is identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "OE1FEU",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The source names these performers. The public username OE1FEU is retained without attempting to identify a private name."
+  },
+  "session": {
+    "date": {
+      "value": "2020-04-03",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Date attached to the uploader’s own performance in the Commons description; no separate session log has been located.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Kaisersaal, Vienna, Austria",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The uploader identifies the Wiener Kaisersaal and a Bechstein D 282 concert grand."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier label is identified. The institutional or uploader credit is not treated as a record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is identified; file and IMSLP identifiers are not carrier catalogue numbers."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identifiers are supplied. Their absence does not prove that no earlier carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader or archive operator is not automatically an engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is established. Session, upload and archive publication dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Commons supplies an MP3 access derivative of the uploaded FLAC file.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No microphone arrangement, editing, mastering or noise-reduction history is established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac/Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 424.7
+  },
+  "rights": {
+    "composition": {
+      "value": "The original composition is in the public domain in the United States.",
+      "status": "inferred",
+      "sourceIds": [
+        "imslp",
+        "us-term"
+      ],
+      "note": "First publication 1909; the maximum historical U.S. term has expired. This does not clear an unidentified modern edition or assert worldwide status."
+    },
+    "recording": {
+      "value": "Commons licenses the recording under CC BY-SA 4.0.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The licence is reported from the source page, not inferred from the age of the composition. The uploader describes this as their own recording."
+    },
+    "creditLine": "Maurice Ravel, Gaspard de la nuit, II. Le Gibet — Très lent; OE1FEU. Own recording dated 3 April 2020, Kaisersaal, Vienna; via Wikimedia Commons; CC BY-SA 4.0.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Maurice Ravel- Gaspard de la Nuit- II Le Gibet.flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac",
+      "locator": "File description: identification, performers, date, source and licence; audio duration and transcoded MP3. Raw wikitext and the audio-info endpoint were inspected.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Gaspard de la nuit",
+      "url": "https://imslp.org/wiki/Gaspard_de_la_nuit_(Ravel%2C_Maurice)",
+      "locator": "Work information and original scoring; first publication 1909.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office — Duration of Copyright, Circular 15A",
+      "url": "https://www.copyright.gov/circs/circ15a.pdf",
+      "locator": "Pages 2–3: maximum 95-year term for pre-1978 publications and restored foreign works; this is a jurisdiction-specific term calculation.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Ravel — Gaspard de la nuit, Durand plate D. & F. 7207",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/6/6a/IMSLP246875-PMLP02576-Ravel,_Maurice-Gaspard_de_la_nuit_Durand_7207_scan.pdf",
+      "locator": "1909 edition; Ondine pp. 3–14, Le Gibet pp. 17–20, Scarbo pp. 23–42. The scan was rendered and the relevant score pages inspected.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

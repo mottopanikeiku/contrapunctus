@@ -4,6 +4,7 @@ export default {
   order: 1,
   work: 'Symphony No. 5',
   movement: 'IV. Adagietto — Sehr langsam',
+  set: { id: 'mahler-symphony-5', title: 'Symphony No. 5', part: 4, of: 5 },
   year: '1901–02',
   key: 'F major',
   forces: 'Strings and harp',

@@ -1,0 +1,42 @@
+export default {
+  id: 'elgar-cello-concerto-harrison-1920',
+  composer: 'elgar',
+  concert: false,
+  order: 90,
+  work: 'Cello Concerto in E minor, Op. 85',
+  movement: 'Abridged complete concerto · four acoustic sides',
+  year: '1919',
+  key: 'E minor',
+  forces: 'Cello and orchestra',
+  performers: 'Beatrice Harrison, cello; Symphony Orchestra; Edward Elgar, conductor',
+  recorded: '22 December 1919 and 16 November 1920',
+  source: {
+    archive: {
+      item: 'httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545',
+      file: 'Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3',
+    },
+    rights: {
+      basis: 'us-published-before-cutoff',
+      published: 1921,
+      evidence: ['https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545'],
+    },
+  },
+  intro: 'Harrison and Elgar fit the concerto onto four acoustic record sides, issued in 1921. This single archival stream contains the abridged whole work; the comparison uses only a shared passage of its shortened finale, not the concerto’s total duration.',
+  question: 'What survives when a concerto is compressed onto four acoustic sides?',
+  sections: [
+    { t: 0, label: 'First side · opening movement, abridged', m: 'A', mNote: 'side regions are approximate, not bar-aligned movement boundaries' },
+    { t: 240, label: 'Second side · scherzo region', m: 'B' },
+    { t: 472, label: 'Third side · Adagio region', m: 'C' },
+    { t: 710, label: 'Fourth side · shortened finale', m: 'D', mNote: 'comparison covers only an early shared passage within this side' },
+  ],
+  cues: [
+    { t: 0, kind: 'listen', title: 'A concerto on four sides', text: 'This is the abridged whole concerto, not a sixteen-minute finale. Follow Harrison’s solo line against the orchestral responses, but do not equate the acoustic recording’s balance with the sound a concert audience would have heard.', basis: 'documented', precision: 'passage', evidence: 'The Internet Archive description identifies four twelve-inch acoustic sides, Harrison and Elgar, and a separate duration for each movement. The analysis measures this single supplied stream at 952.3 seconds. https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545' },
+    { t: 100, kind: 'music', title: 'Weight before withdrawal', text: 'Across this early stretch, the sound gathers weight before falling back. Follow the length of the sustained line through that change rather than treating the strongest attack as the whole phrase.', basis: 'audio-feature', precision: 'passage', evidence: 'The report shows rising relative level from about 1:25 to 2:00, then a marked decline through 2:20. This is a contour within this transfer, not a comparison of orchestral dynamics.' },
+    { t: 260, kind: 'world', title: 'Two sessions, one issue', text: 'The archive dates three sides to 22 December 1919 and the replacement slow-movement side to 16 November 1920. The year in a recording title therefore cannot describe every session represented by this stream.', basis: 'documented', precision: 'passage', evidence: 'The archive assigns HO 4607-AF to the later session, with the other three matrices in December 1919. Session and release dates are kept separate in the dossier. https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545' },
+    { t: 475, kind: 'world', title: 'Issued after the sessions', text: 'HMV issued the first disc, D541, in May 1921 and the second, D545, in June. The four sides are already joined in the archive’s single file; no new concatenation has been made for this edition.', basis: 'documented', precision: 'passage', evidence: 'The source gives both issue months and supplies a single 952.31-second FLAC with an MP3 derivative, alongside photographs of all four labels. https://archive.org/metadata/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545' },
+    { t: 550, kind: 'listen', title: 'Pitch belongs to the transfer', text: 'The transfer notes report a pitch difference between the later slow-movement side and the other sides, corrected digitally here. Treat changes of colour across the whole stream cautiously: recording and restoration choices sit between the players and this playback.', basis: 'documented', precision: 'passage', evidence: 'The transfer account gives approximately A=435 Hz at 78 rpm for the earlier sides and A=430 Hz for side three before digital adjustment. These are transfer observations, not a verified session tuning. https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545' },
+    { t: 710, kind: 'form', title: 'A shortened final movement', text: 'The last side compresses the finale into roughly four minutes. The comparison isolates a shared early passage rather than stretching this abridgement across the complete modern finale; missing music is not evidence that Elgar simply conducts everything faster.', basis: 'documented', precision: 'passage', evidence: 'The archive lists the finale at four minutes. A quiet region near 11:45 is followed by renewed activity around 11:50 and a strong measured boundary at 11:54; the side marker is approximate.' },
+    { t: 810, kind: 'listen', title: 'Line against recorded weight', text: 'Through this part of the last side, keep following the cello’s phrase when the surrounding sound grows stronger. Changes in prominence need not mean that the soloist changes character: the acoustic balance can also determine which detail survives.', basis: 'general', precision: 'passage', evidence: 'A general solo-versus-ensemble listening question within the source-identified finale. The report shows strong relative-level windows around 14:05–14:15 but cannot separate the cello from the orchestra.' },
+    { t: 940, kind: 'music', title: 'A final resurgence', text: 'After the quieter late passage, the recorded sound briefly regains weight before the ending. Compare the duration of that last burst with the preceding withdrawal; this is an ending, not the start of another disc side.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level rises from about −24.6 dB at 15:35 to −11.4 dB at 15:40, then falls to −42.7 dB at 15:50. No exact final chord or instrumental entrance is identified.' },
+  ],
+};

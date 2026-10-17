@@ -1,0 +1,20 @@
+export default {
+  id: 'leoncavallo-vesti-caruso-1902',
+  composer: null,
+  guest: { name: 'Ruggero Leoncavallo', born: 1857, died: 1919 },
+  concert: false,
+  order: 1,
+  work: 'Pagliacci',
+  movement: 'Vesti la giubba — piano-accompanied side',
+  year: '1892',
+  key: '',
+  forces: 'Tenor and piano',
+  performers: 'Enrico Caruso, tenor; Salvatore Cottone, piano',
+  recorded: '30 November 1902, Milan',
+  source: {
+    archive: { item: '78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a', file: 'Vesti la Giubba (On with the Motley) - Enrico Caruso.mp3' },
+    rights: { basis: 'us-published-before-cutoff', published: 1902, evidence: ['https://archive.org/metadata/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a', 'https://adp.library.ucsb.edu/index.php/matrix/refer/1000003400'] },
+  },
+  intro: 'Caruso sings with Salvatore Cottone at the piano on this ten-inch Gramophone master, recorded in Milan in 1902. The short side is not interchangeable with the longer orchestral recording of 1907: compare only their shared aria passage.',
+  question: 'How does the tenor shape the aria above piano accompaniment?',
+};

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-// Engrave public-domain LilyPond sources into paged, glyph-deduplicated SVG packs.
+// Engrave licensed LilyPond sources into paged, glyph-deduplicated SVG packs.
 // Noteheads/rests retain data-bar/data-pos; index.json contains full-system bar boxes.
-//   node tools/engrave.mjs [id ...]        (default: every tools/align/sources/<id>)
+//   node tools/engrave.mjs [id ...]        (default: every configured recording)
 // Needs LilyPond 2.24 at $LILYPOND or ~/.local/opt/lilypond-2.24.4/bin/lilypond,
 // and Cargo at $CARGO or ~/.cargo/bin/cargo. See tools/sheetpack/README.md.
 import { mkdir, readdir, readFile, writeFile, cp, rm, stat } from 'node:fs/promises';
@@ -12,20 +12,14 @@ import os from 'node:os';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
-const SRC = path.join(ROOT, 'tools/align/sources');
 const LY = process.env.LILYPOND ?? path.join(os.homedir(), '.local/opt/lilypond-2.24.4/bin/lilypond');
-const CONVERT = path.join(path.dirname(LY), 'convert-ly');
+const PYTHON = process.env.ALIGN_PYTHON ?? '/tmp/contrapunctus-align-venv/bin/python';
+const PREPARED = path.join(ROOT, 'tools/align/work');
+const CONFIGS = path.join(ROOT, 'tools/align/pieces');
 const CARGO = process.env.CARGO ?? path.join(os.homedir(), '.cargo/bin/cargo');
 const PACK_MANIFEST = path.join(ROOT, 'tools/sheetpack/Cargo.toml');
 const PACK = path.join(ROOT, 'tools/sheetpack/target/release/sheetpack');
 
-// Which file to engrave per piece, and any engraving settings.
-const PIECES = {
-  'satie-gymnopedie-1': { main: 'gymnopedie_1.ly', staff: 19, width: 230 },
-  'schubert-impromptu-gflat': { main: 'SchubertF-D899-3-Impromptu.ly', staff: 18, width: 230 },
-  'bach-wtc1-fugue-b-minor': { main: null, staff: 18, width: 230 },
-  'beethoven-5-first': { main: 'Symphony5_1-lys/Symphony5_1.ly', staff: 14, width: 260, height: 360 },
-};
 
 const PAPER = (width, height = 297) => `
 \\paper {
@@ -63,48 +57,70 @@ ${PAPER(width, height)}
 }
 `;
 
-async function findMain(dir) {
-  // the .ly file that contains \score
-  const files = [];
-  const walk = async (d) => { for (const f of await readdir(d)) { const p = path.join(d, f); if ((await stat(p)).isDirectory()) await walk(p); else if (f.endsWith('.ly')) files.push(p); } };
-  await walk(dir);
-  for (const f of files) if (/\\score\s*\{/.test(await readFile(f, 'utf8'))) return f;
-  throw new Error(`no \\score in ${dir}`);
-}
 
-async function engrave(id) {
-  const cfg = PIECES[id] ?? { main: null, staff: 18, width: 230 };
+async function engrave(id, options) {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) throw new Error('Invalid recording id');
+  const piece = JSON.parse(await readFile(path.join(CONFIGS, `${id}.json`), 'utf8'));
+  await stat(path.join(ROOT, 'content/listen', `${id}.mjs`));
+  const cfg = { staff: 18, width: 230, height: 297, ...piece.engraving };
+  if (!options.prepared) {
+    await run(PYTHON, [path.join(ROOT, 'tools/align/prepare.py'), id], { maxBuffer: 1 << 26 });
+  }
   const work = path.join(ROOT, 'cache/engrave', id);
   await rm(work, { recursive: true, force: true });
   await mkdir(work, { recursive: true });
-  await cp(path.join(SRC, id), work, { recursive: true });
-  const main = cfg.main ? path.join(work, cfg.main) : await findMain(work);
-  // bring every source up to the installed LilyPond version
-  const lys = [];
-  const walk = async (d) => { for (const f of await readdir(d)) { const p = path.join(d, f); if ((await stat(p)).isDirectory()) await walk(p); else if (/\.(ly|ily|lyi)$/.test(f)) lys.push(p); } };
+  const prepared = path.join(PREPARED, `${id}-source`);
+  await cp(prepared, work, { recursive: true });
+  const main = path.resolve(work, piece.source.main);
+  if (!main.startsWith(work + path.sep)) throw new Error('Main source escapes work directory');
+  // Conversion already happened on disposable copies. Strip source-level sizes
+  // and relocate definition includes before adding the rhythmic SVG attributes.
+  const walk = async (dir) => {
+    for (const entry of await readdir(dir, { withFileTypes: true })) {
+      const file = path.join(dir, entry.name);
+      if (entry.isDirectory()) await walk(file);
+      else if (/\.(ly|ily|lyi)$/.test(entry.name)) {
+        const text = (await readFile(file, 'utf8'))
+          .replaceAll(prepared, work)
+          .replace(/#\(set-global-staff-size[^)]*\)/g, '');
+        await writeFile(file, text);
+      }
+    }
+  };
   await walk(work);
-  for (const f of lys) await run(CONVERT, ['--edit', '--loglevel=ERROR', f]);
-  // strip the source's own staff size so ours applies
-  let src = await readFile(main, 'utf8');
-  src = src.replace(/#\(set-global-staff-size[^)]*\)/g, '');
-  await writeFile(main, src);
   const wrapper = path.join(path.dirname(main), '__web.ly');
-  // Repeat the paper settings after the include: source-level paper blocks must
-  // not crop orchestral staves or restore the original print headers.
-  await writeFile(wrapper, `\\version "2.24.4"\n#(set-global-staff-size ${cfg.staff})\n${PRELUDE(cfg.width, cfg.height)}\n\\include "${path.basename(main)}"\n${PAPER(cfg.width, cfg.height)}\n`);
+  const music = cfg.music
+    ? `\\include "${path.join(work, '__definitions.ly')}"\n\\score { ${cfg.music} \\layout { } }`
+    : `\\include "${path.basename(main)}"`;
+  // Source-level paper blocks must not restore print headers or crop staves.
+  await writeFile(wrapper, `\\version "2.24.4"\n#(set-global-staff-size ${cfg.staff})\n${PRELUDE(cfg.width, cfg.height)}\n${music}\n${PAPER(cfg.width, cfg.height)}\n`);
   const { stderr } = await run(LY, ['-dbackend=svg', '-dno-point-and-click', '-dcrop=#f', '-o', path.join(work, 'out'), wrapper], { cwd: path.dirname(main), maxBuffer: 1 << 26 });
   const svgs = (await readdir(work)).filter((f) => f.startsWith('out') && f.endsWith('.svg')).sort((a, b) => (Number(a.match(/-(\d+)\.svg$/)?.[1] ?? 0) - Number(b.match(/-(\d+)\.svg$/)?.[1] ?? 0)));
   if (!svgs.length) throw new Error(`${id}: LilyPond produced no SVG\n${stderr.slice(-2000)}`);
-  const outDir = path.join(ROOT, 'docs/assets/data', id, 'sheet');
-  const score = path.join(ROOT, 'docs/assets/data', id, 'score.json');
+  const outDir = options.out ?? path.join(ROOT, 'docs/assets/data', id, 'sheet');
+  const score = options.score ?? path.join(ROOT, 'docs/assets/data', id, 'score.json');
   const { stdout } = await run(PACK, ['--out', outDir, '--score', score, ...svgs.map((f) => path.join(work, f))], { maxBuffer: 1 << 20 });
   console.log(stdout.trim());
 
 }
 
 
-const ids = process.argv.slice(2).length ? process.argv.slice(2) : (await readdir(SRC)).filter((d) => !d.startsWith('.'));
+const args = process.argv.slice(2);
+const ids = [];
+const options = {};
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--prepared') options.prepared = true;
+  else if (args[i] === '--score' || args[i] === '--out') {
+    const key = args[i].slice(2);
+    if (!args[i + 1]) throw new Error(`Missing --${key} path`);
+    options[key] = path.resolve(args[++i]);
+  } else if (args[i].startsWith('-')) throw new Error(`Unknown option ${args[i]}`);
+  else ids.push(args[i]);
+}
+if (!ids.length) ids.push(...(await readdir(CONFIGS)).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)).sort());
+if (ids.length !== 1 && (options.out || options.score)) throw new Error('--score/--out require one recording');
 await run(CARGO, ['build', '--release', '--locked', '--manifest-path', PACK_MANIFEST], { maxBuffer: 1 << 20 });
 for (const id of ids) {
-  try { await engrave(id); } catch (e) { console.log(`FAILED ${id}: ${e.message}`); process.exitCode = 1; }
+  try { await engrave(id, options); }
+  catch (e) { console.error(`FAILED ${id}: ${e.message}`); process.exitCode = 1; }
 }

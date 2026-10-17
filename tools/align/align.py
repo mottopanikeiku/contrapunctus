@@ -26,21 +26,10 @@ from synctoolbox.feature.dlnco import pitch_onset_features_to_DLNCO
 from synctoolbox.dtw.mrmsdtw import sync_via_mrmsdtw_with_anchors
 from synctoolbox.dtw.utils import make_path_strictly_monotonic
 
-from score_events import HERE, IDS
-ROOT = HERE.parent.parent
+from config import HERE, ROOT, load, piece_ids, write_json
 FPS, SR, HOP = 50, 22050, 256
-# Score boundaries, not assertions that the old editorial times are precise.
-BOUNDARIES = {
-    IDS[0]: [('19', 1, 42), ('1', 2, 88), ('40', 1, 158)],
-    IDS[1]: [('59', 1, 54), ('1', 2, 102), ('125', 1, 204), ('248', 1, 292), ('303', 1, 350), ('374', 1, 404)],
-    IDS[2]: [],
-    IDS[3]: [('25', 1, 100), ('55', 1, 218), ('75', 1, 298)],
-}
 
 
-def write_json(path, data):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n')
 
 
 def normalise(x):
@@ -94,8 +83,8 @@ def adaptive_evaluation_onsets(ident):
     return onsets
 
 
-def endpoint_anchors(ident, events, data):
-    windows = json.loads((HERE / 'endpoint_windows.json').read_text())[ident]
+def endpoint_anchors(cfg, events, data):
+    windows = cfg['endpoints']
     notes = np.asarray(events['notes'])
     anchors = []
     for label, q in [('first', notes[:, 0].min()), ('last', notes[:, 0].max())]:
@@ -103,6 +92,8 @@ def endpoint_anchors(ident, events, data):
         energy = data['pitch'][pitches].sum(axis=0)
         rise = uniform_filter1d(np.maximum(np.diff(energy, prepend=energy[0]), 0), 3)
         lo, hi = [int(round(t * FPS)) for t in windows[label]]
+        if not 0 <= lo < hi < len(rise) or not np.any(rise[lo:hi + 1] > 0):
+            raise ValueError(f'Invalid or silent {label} endpoint window: {windows[label]}')
         peak = lo + int(np.argmax(rise[lo:hi + 1]))
         onset = peak
         while onset > lo and rise[onset - 1] > .2 * rise[peak]:
@@ -159,7 +150,8 @@ def recurrence(chroma, start, second, length, search=4):
             'searchRadiusSeconds': search}
 
 
-def checks(ident, events, data, sx, ay, scale, score_chroma, path, sections):
+def checks(cfg, events, data, sx, ay, scale, score_chroma, path, sections):
+    ident = cfg['id']
     notes = np.asarray(events['notes'])
     mapq = lambda q: np.interp(np.asarray(q) * scale, sx, ay)
     attacks_q = np.unique(notes[:, 0])
@@ -186,18 +178,18 @@ def checks(ident, events, data, sx, ay, scale, score_chroma, path, sections):
         if selected.sum():
             harmonic_regions.append({'start': float(start), 'meanCosine': float(np.mean(similarity[selected]))})
     section_rows = []
-    for number, occurrence, editorial in BOUNDARIES[ident]:
+    for number, occurrence, editorial in cfg.get('boundaries', []):
         bar = next(b for b in events['bars'] if b['n'] == number and b['occ'] == occurrence)
         aligned = float(mapq(bar['q']))
         section_rows.append({'bar': number, 'occ': occurrence, 'editorial': editorial,
                              'aligned': aligned, 'difference': aligned - editorial})
     if not section_rows:
-        # Bach section labels are broad analytical passages, with no stated score bars.
+        # Passage labels without score bars are locators, not independent checks.
         # A nearest bar is reported as a locator, not an independent boundary test.
         bar_times = mapq([b['q'] for b in events['bars']])
         for section in sections[1:]:
             ix = int(np.argmin(abs(bar_times - section['t'])))
-            section_rows.append({'bar': events['bars'][ix]['n'], 'occ': 1, 'editorial': section['t'],
+            section_rows.append({'bar': events['bars'][ix]['n'], 'occ': events['bars'][ix]['occ'], 'editorial': section['t'],
                                  'aligned': float(bar_times[ix]), 'difference': float(bar_times[ix] - section['t']),
                                  'note': 'Nearest bar locator only; original section has no score-bar assertion.'})
     anchor_rows = []
@@ -207,10 +199,13 @@ def checks(ident, events, data, sx, ay, scale, score_chroma, path, sections):
         anchor_rows.append({'label': label, 'bar': events['bars'][bi]['n'], 'occ': events['bars'][bi]['occ'],
                             'scoreQ': float(q), 'audioSeconds': float(t), 'nearestOnsetDeviation': float(deviations[index])})
     held = []
-    if ident == IDS[1]:
-        selection = (notes[:, 3] == 7) & np.isin(notes[:, 0], [2, 6, 250, 254])
-    elif ident == IDS[0]:
-        selection = (notes[:, 3] == 0) & (notes[:, 1] >= 9)
+    held_spec = cfg.get('diagnostics', {}).get('held')
+    if held_spec:
+        selection = notes[:, 3] == held_spec['voice']
+        if 'onsets' in held_spec:
+            selection &= np.isin(notes[:, 0], held_spec['onsets'])
+        if 'minimumDurationQ' in held_spec:
+            selection &= notes[:, 1] >= held_spec['minimumDurationQ']
     else:
         selection = notes[:, 0] == notes[:, 0].max()
     for note in notes[selection]:
@@ -220,17 +215,12 @@ def checks(ident, events, data, sx, ay, scale, score_chroma, path, sections):
                      'onset': float(mapq(onset)), 'offset': float(mapq(onset + dur)),
                      'durationSeconds': float(mapq(onset + dur) - mapq(onset))})
     returns = []
-    if ident == IDS[0]:
-        second = float(mapq(117))
-        returns.append(recurrence(data['chroma'], float(mapq(0)) + 3, second + 3, 65))
-    elif ident == IDS[1]:
-        second = float(mapq(248))
-        returns.append(recurrence(data['chroma'], 3, second + 3, 45))
-        returns.append(recurrence(data['chroma'], 54, second + 54, 42))
-    elif ident == IDS[3]:
-        second = float(mapq(432))
-        returns.append(recurrence(data['chroma'], 2, second + 2, 24, search=8))
-    else:
+    for spec in cfg.get('diagnostics', {}).get('recurrences', []):
+        start = float(mapq(spec['startQ'])) if 'startQ' in spec else spec['start']
+        start += spec.get('startOffset', 0)
+        second = float(mapq(spec['secondQ'])) + spec.get('secondOffset', 0)
+        returns.append(recurrence(data['chroma'], start, second, spec['length'], spec.get('search', 4)))
+    if cfg.get('diagnostics', {}).get('scanRecurrence'):
         # Long exact-texture repetition is not implied by a fugue subject return.
         c = normalise(uniform_filter1d(data['chroma'].astype(float), 25, axis=1)[:, ::25])
         best = (-1., 0.)
@@ -249,6 +239,7 @@ def checks(ident, events, data, sx, ay, scale, score_chroma, path, sections):
                'noteWeightedMedianDeviation': float(np.median(per_note)),
                'p95AbsoluteOnsetDeviation': float(np.percentile(deviations, 95)),
                'fractionWithin150ms': float(np.mean(deviations <= .15)),
+               'regions': regions,
                'worstFiveOnsetRegions': sorted(regions, key=lambda r: (-r['median'], -r['p95']))[:5],
                'worstFiveAdaptiveRegions': sorted(regions, key=lambda r: (-r['adaptiveMedian'], -r['adaptiveP95']))[:5],
                'worstFiveHarmonicRegions': sorted(harmonic_regions, key=lambda r: r['meanCosine'])[:5],
@@ -264,14 +255,15 @@ def checks(ident, events, data, sx, ay, scale, score_chroma, path, sections):
     return summary
 
 
-def run(ident, publish=False):
+def run(ident):
+    cfg = load(ident)
     begun = time.monotonic()
     events = json.loads((HERE / 'work' / (ident + '-events.json')).read_text())
     data = audio_features(ident)
     sections = json.loads(subprocess.check_output(['node', '--input-type=module', '-e',
-        f'import c from "./content/listen/{ident}.mjs"; console.log(JSON.stringify(c.sections))'], cwd=ROOT))
+        f'import c from "./content/listen/{ident}.mjs"; console.log(JSON.stringify(c.sections ?? []))'], cwd=ROOT))
     data['adaptive_onsets'] = adaptive_evaluation_onsets(ident)
-    endpoints = endpoint_anchors(ident, events, data)
+    endpoints = endpoint_anchors(cfg, events, data)
     rough_scale = float(data['duration']) / events['endQ']
     origin_frame = int(round(max(0, endpoints[0]['audioSeconds'] - endpoints[0]['scoreQ'] * rough_scale) * FPS))
     end_frame = min(data['chroma'].shape[1] - 1, int(round(float(data['active_end']) * FPS)))
@@ -288,12 +280,12 @@ def run(ident, publish=False):
     path = sync_via_mrmsdtw_with_anchors(**kwargs, anchor_pairs=endpoint_pairs.copy(), linear_inp_idx=linear)
     sx0, ay0 = path_map(path)
     anchors = endpoint_pairs.copy()
-    for number, occurrence, editorial in BOUNDARIES[ident]:
+    for number, occurrence, editorial in cfg.get('boundaries', []):
         bar = next(b for b in events['bars'] if b['n'] == number and b['occ'] == occurrence)
         score_time = bar['q'] * scale
         aligned = float(np.interp(score_time, sx0, ay0))
         anchors.append((score_time, aligned))
-    if not BOUNDARIES[ident]:
+    if not cfg.get('boundaries'):
         # These are passage locators, not independent score-bar annotations.
         for section in sections[1:]:
             if section['t'] < endpoints[-1]['audioSeconds']:
@@ -304,7 +296,7 @@ def run(ident, publish=False):
     path[1] += origin_frame
     sx, ay = path_map(path)
     mapq = lambda q: np.interp(np.asarray(q) * scale, sx, ay)
-    diagnostics = checks(ident, events, data, sx, ay, scale, score_chroma, path, sections)
+    diagnostics = checks(cfg, events, data, sx, ay, scale, score_chroma, path, sections)
     manifest = json.loads((HERE / 'sources' / ident / 'manifest.json').read_text())
     source = {k: manifest[k] for k in ('title', 'edition', 'encoder', 'url', 'license', 'licenseUrl')}
     score = {'id': ident, 'status': 'provisional', 'review': {'by': None, 'date': None, 'scope': ''},
@@ -314,12 +306,18 @@ def run(ident, publish=False):
              'bars': [{'n': b['n'], 'occ': b['occ'], 't': round(float(mapq(b['q'])), 3)} for b in events['bars']],
              'notes': [[round(float(mapq(n[0])), 3), round(float(mapq(n[0] + n[1]) - mapq(n[0])), 3), int(n[2]), int(n[3]), int(n[4])] for n in events['notes']],
              'repeats': events['repeats']}
-    if ident == IDS[0]:
-        # Editorial score reading: G2 + B3/D4/F♯4, then D2 + A3/C♯4/F♯4.
-        # Only the opening four bars and their performed recurrence are labelled.
-        score['chords'] = [{'t0': round(float(mapq(b['q'])), 3), 't1': round(float(mapq(b['q'] + b['durQ'])), 3),
-                            'label': 'Gmaj7' if int(b['n']) % 2 else 'Dmaj7', 'basis': 'editorial'}
-                           for b in events['bars'] if int(b['n']) <= 4]
+    if source['license'] != 'Public Domain':
+        score['method'] = score['method'].replace('Public-domain LilyPond/MIDI', 'Licensed symbolic score → LilyPond/MIDI')
+    if cfg.get('chords'):
+        score['chords'] = []
+        for bar in events['bars']:
+            for chord in cfg['chords']:
+                if bar['n'] in chord['bars'] and ('occ' not in chord or chord['occ'] == bar['occ']):
+                    if chord['basis'] != 'editorial':
+                        raise ValueError('Only editorial chord readings may be published')
+                    score['chords'].append({'t0': round(float(mapq(bar['q'])), 3),
+                                            't1': round(float(mapq(bar['q'] + bar['durQ'])), 3),
+                                            'label': chord['label'], 'basis': 'editorial'})
     reasons = []
     if diagnostics['medianAbsoluteOnsetDeviation'] > .15:
         reasons.append('Median unique-onset deviation exceeds 0.15 seconds.')
@@ -329,6 +327,10 @@ def run(ident, publish=False):
         reasons.append('A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds.')
     if any(r['adaptiveMedian'] > .3 for r in diagnostics['worstFiveAdaptiveRegions']):
         reasons.append('An eight-second region has median deviation above 0.3 seconds even with local onset normalisation.')
+    if any(b['t'] <= a['t'] for a, b in zip(score['bars'], score['bars'][1:])):
+        reasons.append('Rounded publication bar times are not strictly increasing.')
+    if any(n[1] <= 0 for n in score['notes']):
+        reasons.append('Rounded publication contains a non-positive note duration.')
     diagnostics.update({'id': ident, 'tuningHz': score['tuningHz'], 'audioSha256': str(data['audio_sha256']),
                         'software': {p: importlib.metadata.version(p) for p in ('librosa', 'synctoolbox', 'numpy', 'scipy', 'mido')},
                         'scoreProvenance': events['provenance'], 'sectionAnchorPairsSeconds': [(s, a + origin) for s, a in anchors],
@@ -347,18 +349,15 @@ def run(ident, publish=False):
     print('ANCHORS', ident, json.dumps(diagnostics['anchors']), flush=True)
     print('HELD', ident, json.dumps(diagnostics['heldNotes']), flush=True)
     print('WORST', ident, json.dumps(diagnostics['worstFiveOnsetRegions']), flush=True)
-    if publish:
-        if reasons:
-            raise ValueError('Refusing publication: ' + ' '.join(reasons))
-        write_json(ROOT / 'docs/assets/data' / ident / 'score.json', score)
-        write_json(HERE / 'results' / (ident + '.json'), diagnostics)
-        print('PUBLISHED', ident, 'provisional; not checked by ear', flush=True)
+    return score, diagnostics
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('ids', nargs='*', choices=IDS, default=IDS)
-    parser.add_argument('--publish', action='store_true', help='Only after inspecting every numerical diagnostic for gross misalignment')
+    parser.add_argument('ids', nargs='*')
     args = parser.parse_args()
-    for ident in args.ids:
-        run(ident, args.publish)
+    failed = False
+    for ident in args.ids or piece_ids():
+        _, diagnostics = run(ident)
+        failed |= bool(diagnostics['gateReasons'])
+    raise SystemExit(2 if failed else 0)

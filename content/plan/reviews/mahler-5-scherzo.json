@@ -1,0 +1,13 @@
+{
+  "id": "mahler-5-scherzo",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[13].title; cues[23].title",
+      "severity": "minor",
+      "problem": "Both cue titles contain seven words; the listening-note house style permits two to six.",
+      "evidence": "MEAS: ‘A long phrase can suspend a dance’ and ‘The texture can turn on a fragment’ each contain seven words. EXT: LISTENING.md:51.",
+      "fix": "Use ‘A phrase can suspend a dance’ for cues[13].title and ‘A fragment turns the texture’ for cues[23].title."
+    }
+  ]
+}

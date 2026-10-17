@@ -412,3 +412,7 @@ body.wide .spectro-frame[data-view='orchestra'] .wide-cue { display: none; }
 .interlude.mv .i-cameo, .interlude.mv .i-era { display: none; }
 .interlude.mv .i-name { font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--ink-2); }
 .interlude.mv { background: rgba(8, 6, 5, .55); }
+.others-l { list-style: none; padding: 0; margin: .3rem 0 1rem; }
+.others-l a { display: block; padding: .4rem 0; border-bottom: 1px solid var(--rule); font: italic 500 1.1rem var(--display); color: var(--ink); text-decoration: none; }
+.others-l a::before { content: '⇄ '; color: var(--gold-hi); font-style: normal; }
+.others-l a:hover { color: var(--gold-hi); }

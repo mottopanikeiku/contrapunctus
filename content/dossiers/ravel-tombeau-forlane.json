@@ -1,0 +1,196 @@
+{
+  "id": "ravel-tombeau-forlane",
+  "work": {
+    "title": "Le Tombeau de Couperin",
+    "catalogue": "M.68",
+    "movement": "III. Forlane",
+    "version": {
+      "value": "Original solo-piano version",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "The work version is identified. The edition actually used by the performers is not established. This is one movement in a mixed-performer selection; the Rigaudon is absent."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "azuma",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "upstream"
+    ],
+    "note": "The source uses the performing name azuma; no legal name is inferred. The upstream description explicitly identifies a live recording in January 2007."
+  },
+  "session": {
+    "date": {
+      "value": "2007-01",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The date is explicitly identified as the performance or recording date; later publication/upload dates are not substituted.",
+      "precision": "month"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "No recording venue is identified. A performer’s home or teaching location is not a session location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No record label or imprint identifying a physical carrier is supplied."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identifier is established; absence of metadata is not proof that none exists."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified. The uploader and source collection are not automatically transfer-engineering credits."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is established. Upload dates and embedded year tags are not treated as transfer-session dates."
+    },
+    "processing": {
+      "value": "Wikimedia Commons supplies an MP3 access derivative of the uploaded Ogg Opus file.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source is an Opus extraction from the linked live video. Its conversion settings and any trims are not documented; the video’s 2010 publication and embedded 2010 tags are not the January 2007 session date."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_%28live%29.opus/Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_%28live%29.opus.mp3",
+    "sourceChain": [
+      "upstream",
+      "commons"
+    ],
+    "format": "MP3 access derivative; source Ogg Opus",
+    "durationSeconds": 414.1
+  },
+  "rights": {
+    "composition": {
+      "value": "The original 1918 solo-piano edition is catalogued as public domain.",
+      "status": "documented",
+      "sourceIds": [
+        "catalogue",
+        "bnf"
+      ],
+      "note": "This reports the score repository’s status, not worldwide legal clearance or the rights in this sound recording; later editions and national exceptions require separate consideration."
+    },
+    "recording": {
+      "value": "Commons licenses this recording under CC BY 3.0.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons licensing statement is reported as the reuse basis. MP3 transcoding is supplied by Wikimedia; no additional audio edit is made here."
+    },
+    "creditLine": "Maurice Ravel, Le Tombeau de Couperin, III. Forlane; azuma. Via Wikimedia Commons; CC BY 3.0. Wikimedia MP3 access transcoding; no additional audio changes.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Maurice Ravel - azuma - Le Tombeau de Couperin. III. Forlane (live).opus",
+      "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_%28live%29.opus",
+      "locator": "Description, source, author, licensing and file history; not all dates describe recording sessions.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-meta",
+      "title": "Wikimedia Commons — embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_%28live%29.opus#metadata",
+      "locator": "Embedded author, copyright and digitising tags, where present; not independent confirmation of the file description.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Ravel, Le Tombeau de Couperin, original piano score (Durand, 1918)",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/ba/IMSLP918879-PMLP04975-Ravel-M68-Le-Tombeau-de-Couperin-FE.pdf",
+      "locator": "Durand score, printed pp. 10–15. Plate D. & F. 9569; movement dedication at its heading.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "catalogue",
+      "title": "IMSLP — original piano suite",
+      "url": "https://imslp.org/wiki/Le_tombeau_de_Couperin_(piano)_(Ravel,_Maurice)",
+      "locator": "Instrumentation, keys, six movements, 1918 first publication and public-domain first-edition scan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bnf",
+      "title": "Bibliothèque nationale de France — Le tombeau de Couperin, piano",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb13917720k",
+      "locator": "Composition July 1914–November 1917; all six dedications; premiere by Marguerite Long, Salle Gaveau, 11 April 1919.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "lyon",
+      "title": "Coline Miallier — Le Tombeau de Couperin, Orchestre national de Lyon",
+      "url": "https://www.auditorium-lyon.com/en/node/13646",
+      "locator": "Notes dated 25 and 27 November 2021: each movement remembers a friend killed at the front; historical dance forms; separate 1919 orchestration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "kansas",
+      "title": "Eric T. Williams — Le tombeau de Couperin, Kansas City Symphony",
+      "url": "https://www.kcsymphony.org/wp-content/uploads/2024/03/FY24-CS10-Program-Book-Digital-2024-04-05.pdf",
+      "locator": "Programme, 5–7 April 2024, printed pp. 5–7 (PDF pp. 7–9): wartime service, 1 October 1914 letter, Charlot, Deluc and Dreyfus, Couperin forlane transcription.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "upstream",
+      "title": "Original uploader’s publication",
+      "url": "https://www.youtube.com/watch?v=eUUWKNhLw9U",
+      "locator": "Performance identity and original publication; a video upload date is not a session date.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

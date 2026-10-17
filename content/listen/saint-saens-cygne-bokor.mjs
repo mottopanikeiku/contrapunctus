@@ -1,0 +1,38 @@
+export default {
+  id: 'saint-saens-cygne-bokor',
+  composer: null,
+  guest: { name: 'Camille Saint-Saëns', born: 1835, died: 1921 },
+  concert: false,
+  order: 1,
+  work: 'Le Carnaval des animaux',
+  movement: 'XIII. Le Cygne — cello and piano',
+  year: '1886',
+  key: 'G major',
+  forces: 'Cello and piano',
+  performers: 'Judith Bokor, cello; unidentified pianist',
+  recorded: 'Circa 1925; exact date disputed',
+  source: {
+    file: 'File:Judith Bokor plays Le Cygne by Saint-Saëns.flac',
+    rights: { basis: 'eu-published-before-1963', published: 1925, evidence: ['https://archive.org/details/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309'] },
+  },
+  intro: 'Judith Bokor’s Columbia side pairs cello with piano, whose player is not identified. The upstream discography dates matrix F 87 only to circa 1925; the exact day supplied on Commons is not established for this side.',
+  question: 'How does Bokor connect a sustained melody above the piano’s broken chords?',
+  sections: [
+    { t: 0, label: 'Opening melody', m: 'A' },
+    { t: 58, label: 'Middle expansion', m: 'B', mNote: 'analysis landmark, not an aligned bar boundary' },
+    { t: 86, label: 'Later melodic span', m: 'C', mNote: 'a quieter passage precedes another recorded swell' },
+    { t: 130, label: 'Closing withdrawal', m: 'Coda' },
+  ],
+  cues: [
+    { t: 0, kind: 'listen', title: 'Melody above broken chords', text: 'Bokor’s cello carries the long line above piano accompaniment. Follow the connection between sustained notes while the piano keeps renewing its sound; do not mistake the transfer’s surface noise for articulation.', basis: 'documented', precision: 'passage', evidence: 'The upstream catalogue identifies cello with piano. The written texture is described at https://en.wikipedia.org/wiki/Le_cygne. This whole-performance suggestion makes no timed entrance or measured vibrato claim.' },
+    { t: 32, kind: 'music', title: 'An early rise and retreat', text: 'The early span grows towards a crest and then relaxes. Compare the continuity of the melodic line across that rise with the changing weight beneath it.', basis: 'audio-feature', precision: 'passage', evidence: 'The report places boundaries at 0:32 and 0:44. Relative level rises from −19.9 dB at 0:25 to −10.3 dB at 0:40, then falls to −19.0 dB at 0:45; the analysis does not separate cello and piano.' },
+    { t: 70, kind: 'listen', title: 'A crest before the pause', text: 'Through the middle expansion, follow the phrase towards its stronger crest and the quieter space beyond it. The contrast belongs to this transfer’s recorded contour, not a measurement of the cellist’s bow pressure.', basis: 'audio-feature', precision: 'passage', evidence: 'The 1:10 and 1:20 windows are among the report’s highest; a boundary at 1:26 precedes the low 1:30 window. No bowing technique is inferred from relative level.' },
+    { t: 105, kind: 'music', title: 'The later swell', text: 'After the quieter passage, the line gathers weight again. Hear the later swell as a complete ascent and release, keeping the piano’s movement in view as well as the cello.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level rises from −24.5 dB at 1:30 to −8.2 dB at 1:50, then falls to −15.2 dB at 2:00. Instrument roles are documented; the analysis measures the combined sound.' },
+    { t: 135, kind: 'listen', title: 'Releasing the last phrase', text: 'The final passage withdraws, leaving less melodic sound against the surviving surface noise. Listen through the release rather than treating the end of the phrase as a sudden silence.', basis: 'audio-feature', precision: 'passage', evidence: 'The 2:18 boundary lies in the withdrawal; relative level falls to −28.6 dB at 2:25 and −41.1 dB at 2:30. High detected onset counts are not interpreted as performed notes in this noisy transfer.' },
+  ],
+  transitions: [
+    { id: 'middle-expansion', title: 'The phrase gains weight', from: 'Opening melody', to: 'Middle expansion', at: { t: 58 }, how: '<p>The cello-and-piano texture continues while the phrase builds towards a stronger crest. The section marker follows a measured change inside that continuous texture, not a new instrument entrance.</p>', devices: ['crescendo build'], basis: 'audio-feature', precision: 'passage', evidence: 'The 0:58 boundary precedes the rising level towards 1:10–1:20. Exact bars and bow strokes are not identified.' },
+    { id: 'later-span', title: 'A crest opens into quieter space', from: 'Middle expansion', to: 'Later melodic span', at: { t: 86 }, how: '<p>The middle swell gives way to a quieter passage before the next ascent. The cello and piano remain the same forces; changing phrase weight supplies the contrast.</p>', devices: ['decrescendo'], basis: 'audio-feature', precision: 'passage', evidence: 'Boundary at 1:26; relative level falls from −8.2 dB at 1:20 to −24.5 dB at 1:30.' },
+    { id: 'closing-withdrawal', title: 'The final phrase loses weight', from: 'Later melodic span', to: 'Closing withdrawal', at: { t: 130 }, how: '<p>The later swell recedes into the closing phrase. Attend to the sustained line as the recording becomes quieter, then to the remaining resonance and surface sound.</p>', devices: ['decrescendo', 'fade'], basis: 'audio-feature', precision: 'passage', evidence: 'Boundaries at 2:10 and 2:18; level falls substantially in the 2:15–2:30 span. No exact final note is claimed.' },
+  ],
+};

@@ -1,0 +1,182 @@
+{
+  "id": "mahler-kindertotenlieder-wenn-dein-muetterlein-anderson",
+  "work": {
+    "title": "Kindertotenlieder",
+    "catalogue": "",
+    "movement": "III. Wenn dein Mütterlein",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "score-catalogue"
+      ],
+      "note": "The source identifies the orchestral song, but not its performing edition or editorial alterations. The listening notes use the low-voice orchestral score, C. F. Kahnt plate 4460, for passage-level scoring; they do not claim this exact printed edition was on the performers’ desks."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Marian Anderson",
+        "role": "contralto"
+      },
+      {
+        "name": "San Francisco Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Pierre Monteux",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "earlier-issue"
+    ],
+    "note": "The Commons description identifies all three performing credits; the independent catalogue corroborates the pairing."
+  },
+  "session": {
+    "date": {
+      "value": "1950",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons dates the recording to 1950; the day and month remain unestablished. The earlier RCA release catalogue is not used as a session-date source.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "earlier-issue"
+      ],
+      "note": "The consulted sources do not identify the recording venue. The orchestra’s home city is not used as proof of the session location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "RCA",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons names its source as “CD audio RCA”. This is the identified CD source label, not an assertion about the original session medium."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "earlier-issue"
+      ],
+      "note": "No catalogue number identifying the CD used for the Commons upload is supplied. An independent University of the Arts Helsinki catalogue documents an earlier RCA Victor Red Seal LP, LM 1146, with these performers, coupled with Brahms’s Alto Rhapsody; its catalogue date is 1951 and its descriptive release range is 1951–1953. It identifies an earlier issue, not the CD transferred to Commons."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or original side identification is supplied. The absence of those details is not treated as proof that no historical identifiers exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons uploader is not treated as a transfer or mastering engineer. No such credit for this particular CD-to-Ogg transfer is identified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is supplied; upload dates and historical recording dates are not substituted for it."
+    },
+    "processing": {
+      "value": "Commons provides an uploaded Ogg Vorbis file and an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The embedded Ogg encoder is Xiph.Org libVorbis I 20100325 (Everywhere). The original session medium, earlier mastering, noise reduction and editing history are unestablished."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Mahler_-_Kindertotenlieder%2C_III_%28Anderson%2C_Monteux%2C_1950%29.ogg/Mahler_-_Kindertotenlieder%2C_III_%28Anderson%2C_Monteux%2C_1950%29.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 252.4
+  },
+  "rights": {
+    "composition": {
+      "value": "The Sibley Music Library marks its early printed orchestral score, including Rückert’s text, as public domain.",
+      "status": "documented",
+      "sourceIds": [
+        "score-catalogue"
+      ],
+      "note": "The catalogue gives Mahler’s dates as 1860–1911 and Rückert’s as 1788–1866. This refers to the historical composition and text, not an unidentified modern performing edition; the catalogue’s inconsistent publication year is not adopted."
+    },
+    "recording": {
+      "value": "Territorial — Commons applies PD-EU-audio to the sound recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pd-eu-audio"
+      ],
+      "note": "The template concerns the rights of performers and phonogram producers, not merely the composition. The recording is accepted on that EU territorial basis. United States status and worldwide clearance are not established; no US pre-1926 claim is made."
+    },
+    "creditLine": "Gustav Mahler, Kindertotenlieder, III. Wenn dein Mütterlein; Marian Anderson, contralto; San Francisco Symphony Orchestra; Pierre Monteux, conductor. Recorded 1950. RCA CD source via Wikimedia Commons; Commons states PD-EU-audio (EU territorial status; US status unestablished).",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Mahler - Kindertotenlieder, III (Anderson, Monteux, 1950).ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder%2C_III_%28Anderson%2C_Monteux%2C_1950%29.ogg?oldid=534533583",
+      "locator": "File description: performers, recording date, CD source and PD-EU-audio licensing template; embedded Metadata and Transcode status. The named revision freezes the provenance claim.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "score-catalogue",
+      "title": "Sibley Music Library — Kindertotenlieder, C. F. Kahnt plate 4460",
+      "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=18098&versionNumber=1",
+      "locator": "Full-score catalogue: five song titles, composer and poet dates, publisher and plate, 86-page miniature orchestral score; “This item is in the public domain.” The catalogue’s 1900 date predates completion and is not used.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "Paul Banks — Kindertotenlieder work catalogue",
+      "url": "https://www.mahlercat.org.uk/Pages/KtL/KtL.htm",
+      "locator": "Composition chronology, versions, original keys, scoring, first performance and publication history.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "pd-eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio template",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Licensing text: expiry of performers’ and producers’ sound-recording rights in the EU; not a substitute for composition copyright.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "earlier-issue",
+      "title": "University of the Arts Helsinki — Marian Anderson / Pierre Monteux LP",
+      "url": "https://taju.uniarts.fi/items/270fb74e-dba6-48b6-99e6-47c8895332b9",
+      "locator": "Title and performer listing; RCA Victor Red Seal catalogue LM 1146, LP format, date and release-range description. This is a separate digitization, not the Commons CD.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

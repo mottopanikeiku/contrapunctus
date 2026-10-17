@@ -1,0 +1,22 @@
+export default {
+  id: 'volga-boatmen-chaliapin-1927',
+  composer: null,
+  guest: { name: 'Russian folk song' },
+  concert: false,
+  order: 2,
+  work: 'Song of the Volga Boatmen',
+  movement: 'Arrangement by Chaliapin and Keneman',
+  year: '',
+  key: '',
+  forces: 'Bass voice and orchestra',
+  performers: 'Fyodor Chaliapin, bass; orchestra conducted by Albert Coates',
+  recorded: '20 October 1927, London',
+  source: {
+    file: 'File:PDP-CH - Feodor Chaliapin - The Song of the Volga Boatmen - Russian folk song - Fyodor Keneman - Gramophone-db1103-2-022051.flac',
+    rights: { basis: 'eu-published-before-1963', published: 1928, evidence: ['https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051'] },
+  },
+  intro: 'Chaliapin returns to the folk-song arrangement with Albert Coates in 1927. The 1928 issue supplies the territorial European public-domain basis for this transfer; US recording status is not established.',
+  question: 'Where does Chaliapin broaden a phrase in the electrical remake?',
+  sections: [],
+  cues: [],
+};

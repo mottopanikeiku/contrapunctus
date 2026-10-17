@@ -1,0 +1,172 @@
+{
+  "id": "wagner-tristan-prelude",
+  "work": {
+    "title": "Tristan und Isolde, WWV 90",
+    "catalogue": "WWV 90",
+    "movement": "Prelude to Act I — concert version",
+    "version": {
+      "value": "Prelude to Act I, concert version",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "The embedded title explicitly says Konzertfassung. The concert-ending edition is not named; the linked score runs into the Liebestod and does not establish the separate ending played here."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Fulda Symphonic Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Simon Schindler",
+        "role": "conductor"
+      },
+      {
+        "name": "Bruce Edwards",
+        "role": "clarinet"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The embedded credits name these performers. The named clarinettist is not asserted to be the only clarinettist."
+  },
+  "session": {
+    "date": {
+      "value": "2004-03-09",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The embedded date is explicitly marked “(recorded)”, rather than merely an upload date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Grosser Saal der Orangerie Fulda",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Recorded location is explicitly stated in the embedded metadata."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original carrier label is unidentified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix or take identification is established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer engineer is identified; an uploader is not automatically the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The upload date is not treated as a transfer date."
+    },
+    "processing": {
+      "value": "Uploaded Ogg Vorbis; embedded encoder Xiph.Org libVorbis I 20020717.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No additional restoration or source-medium history is established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg/Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia MP3 access derivative of the uploaded Ogg Vorbis recording",
+    "durationSeconds": 669.293
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Wagner died in 1883. This is a term calculation, not worldwide clearance of every edition."
+    },
+    "recording": {
+      "value": "Recording released under EFF Open Audio License version 1.0.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "oal"
+      ],
+      "note": "This is an explicit sound-recording licence, not a composition-only public-domain template. The free-use grant and attribution conditions govern this copy."
+    },
+    "creditLine": "Richard Wagner: Tristan und Isolde, Prelude; Fulda Symphonic Orchestra, Simon Schindler; Bruce Edwards, clarinet. Recording 9 March 2004. EFF Open Audio License 1.0, via Wikimedia Commons.",
+    "licenseUrl": "https://web.archive.org/web/20070208085151/http://www.eff.org/IP/Open_licenses/20010421_eff_oal_1.0.html"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Tristan Prelude — Commons file and embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg",
+      "locator": "Summary, EFF Open Audio License template, embedded recorded date and location, concert-version title; current source file history.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "oal",
+      "title": "EFF Open Audio License 1.0",
+      "url": "https://web.archive.org/web/20070208085151/http://www.eff.org/IP/Open_licenses/20010421_eff_oal_1.0.html",
+      "locator": "Grant to copy, distribute, perform and modify the recording; attribution conditions.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "score",
+      "title": "Vorspiel und Isoldens Liebestod — Sibley score",
+      "url": "https://hdl.handle.net/1802/13070",
+      "locator": "Breitkopf orchestral excerpt score pp. 3–13; not proof of the Fulda concert-ending edition.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "analysis",
+      "title": "Tristan Prelude — University of Texas analysis",
+      "url": "https://www.laits.utexas.edu/tristan/prelude.php",
+      "locator": "First seventeen bars, desire motif and chromatic continuation.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

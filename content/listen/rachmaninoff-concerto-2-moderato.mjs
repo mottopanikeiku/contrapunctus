@@ -8,6 +8,7 @@ export default {
   order: 1,
   work: 'Piano Concerto No. 2, Op. 18',
   movement: 'I. Moderato',
+  set: { id: 'rachmaninoff-concerto-2', title: 'Piano Concerto No. 2 in C minor, Op. 18', part: 1, of: 3 },
   year: '1900–01',
   key: 'C minor',
   forces: 'Piano and orchestra',

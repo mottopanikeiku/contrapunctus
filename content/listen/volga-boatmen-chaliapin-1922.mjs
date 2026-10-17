@@ -1,0 +1,22 @@
+export default {
+  id: 'volga-boatmen-chaliapin-1922',
+  composer: null,
+  guest: { name: 'Russian folk song' },
+  concert: false,
+  order: 1,
+  work: 'Song of the Volga Boatmen',
+  movement: 'Arrangement by Chaliapin and Keneman',
+  year: '',
+  key: '',
+  forces: 'Bass voice and orchestra',
+  performers: 'Fyodor Chaliapin, bass; orchestra conducted by George W. Byng',
+  recorded: '9 October 1922, Hayes, Middlesex',
+  source: {
+    archive: { item: '78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a', file: 'Song of the Volga Boatmen - Feodor Chaliapin.mp3' },
+    rights: { basis: 'us-published-before-cutoff', published: 1922, evidence: ['https://adp.library.ucsb.edu/index.php/objects/refer/162251', 'https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686'] },
+  },
+  intro: 'Chaliapin and Keneman’s arrangement turns the Russian folk song into a bass solo with orchestra. This 1922 acoustic side, conducted by George W. Byng, precedes Chaliapin’s electrical remake by five years.',
+  question: 'How does a solo bass give a repeated folk-song phrase direction?',
+  sections: [],
+  cues: [],
+};

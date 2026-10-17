@@ -1,0 +1,167 @@
+{
+  "id": "grieg-wedding-day-vetter-2006",
+  "work": {
+    "title": "Wedding Day at Troldhaugen",
+    "catalogue": "Op. 65 No. 6",
+    "movement": "",
+    "version": {
+      "value": "Complete solo-piano performance",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "The performing edition is not identified. Only a shared opening passage is aligned with Grieg’s abridged 1903 side."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Harald Vetter",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "imslp"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "2006-10-04",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Embedded image-title metadata reads “Aufnahme: 04.10.2006”; the summary and IMSLP both give 2006. This is a source-stated recording date, not the 2025 Commons upload date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "Neither source identifies a venue or city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Harald Vetter (self-published recording)",
+      "status": "documented",
+      "sourceIds": [
+        "imslp"
+      ],
+      "note": "IMSLP’s Publisher Info reads Harald Vetter, 2006."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "IMSLP #461777 is a repository identifier, not a commercial catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "No original carrier or matrix information is supplied."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "Harald Vetter is the performer and publisher; no recording or mastering engineer is separately named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "The repository upload dates do not establish the conversion date."
+    },
+    "processing": {
+      "value": "IMSLP MP3; Commons Ogg Vorbis conversion and MP3 access derivative",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "No editing, normalisation or noise processing by Contrapunctus; one complete source stream. Original recording equipment is unknown."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg/Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "imslp"
+    ],
+    "format": "MP3 access derivative; one source file, no concatenation or audio edits by Contrapunctus",
+    "durationSeconds": 416.02
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying piano composition is public domain under ordinary life-plus-70 terms",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "Grieg died in 1907. This does not establish rights in a modern edition."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp",
+        "licence"
+      ],
+      "note": "Both Commons and the original IMSLP recording block #461777 apply CC BY 4.0 to Harald Vetter’s performance. The block is separate from unrelated arrangements with non-commercial licences elsewhere on the work page."
+    },
+    "creditLine": "Edvard Grieg, Wedding Day at Troldhaugen, Op. 65 No. 6; Harald Vetter, piano, recorded 4 October 2006 (embedded metadata). Source: Harald Vetter / IMSLP, via Wikimedia Commons. CC BY 4.0. Contrapunctus makes no audio edits; the comparison map covers only shared opening music.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Vetter, Wedding Day at Troldhaugen",
+      "url": "https://commons.wikimedia.org/wiki/File:Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg",
+      "locator": "Summary: Harald Vetter, 2006, IMSLP; Licensing: CC BY 4.0; embedded Metadata: Aufnahme 04.10.2006.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Harald Vetter recording #461777",
+      "url": "https://imslp.org/wiki/Lyric_Pieces,_Op.65_(Grieg,_Edvard)#IMSLP461777",
+      "locator": "Complete Performance, 6:56; Harald Vetter (piano); publisher Harald Vetter, 2006; Creative Commons Attribution 4.0. Original filename Grieg_Lyrische_Stuecke_Op65_Nr6_Hochzeitstag_auf_Troldhaugen.mp3.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "licence",
+      "title": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "locator": "Licence terms: attribution, licence link and identification of changes.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

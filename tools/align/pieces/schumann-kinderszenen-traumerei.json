@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "id": "schumann-kinderszenen-traumerei",
+  "source": {
+    "mutopia": 504,
+    "title": "Kinderszenen, Op. 15",
+    "edition": "Leichte Stücke, 1900",
+    "encoder": "Ying-Chun Liu",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=504",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "SchumannOp15No07.ly",
+    "midi": "SchumannOp15No07.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.ly",
+        "file": "SchumannOp15No07.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.mid",
+        "file": "SchumannOp15No07.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 25,
+    "quarters": 4,
+    "overrides": {
+      "0": 1
+    },
+    "order": [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        24
+      ]
+    ],
+    "description": "Opening eight complete bars repeated after the pickup; later return written out."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      189,
+      194
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/schumann-kinderszenen-traumerei.mjs and cache/analysis/schumann-kinderszenen-traumerei.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

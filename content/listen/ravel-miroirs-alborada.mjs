@@ -1,0 +1,18 @@
+export default {
+  id: 'ravel-miroirs-alborada',
+  composer: 'ravel',
+  order: 23,
+  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 4, of: 5 },
+  work: 'Miroirs',
+  movement: 'IV. Alborada del gracioso — Assez vif',
+  year: '1904–05',
+  key: '',
+  forces: 'Piano',
+  performers: 'Olena Havyuk-Sheremet, piano',
+  recorded: '2014-04-01',
+  source: { file: "File:Maurice Ravel - Miroirs - 4. Alborada del gracioso.flac" },
+  intro: 'x',
+  question: 'x',
+  sections: [{ t: 0, label: 'A', m: 'A' }],
+  cues: [],
+};

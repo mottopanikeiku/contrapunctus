@@ -1,0 +1,140 @@
+{
+  "id": "chopin-ballade-3",
+  "work": {
+    "title": "Ballade No. 3 in A♭ major, Op. 47",
+    "catalogue": "Op. 47",
+    "movement": "Allegretto",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Source identifies the standard solo-piano work; edition, individual readings and completeness have not been established by a score audit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Martha Goldstein",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Named on the selected source page."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The consulted source does not establish a recording-session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Recording venue and location are not established by the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "A commercial recording label is not established by this digital source."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [],
+      "note": "No historic disc matrix or side is involved in the documented digital source."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Al Goldstein’s Pandora Music repository, ibiblio",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Repository/source credit only; no individual transfer engineer is established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer or mastering date is established; upload dates are not used as recording dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Equalisation, editing, denoising, pitch correction and other processing are not documented. No judgement of their absence is implied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Frederic_Chopin_-_Ballade_Ab_major_Opus_47.ogg/Frederic_Chopin_-_Ballade_Ab_major_Opus_47.ogg.mp3",
+    "sourceChain": [
+      "repository",
+      "source"
+    ],
+    "format": "MP3 streaming derivative of the source ogg",
+    "durationSeconds": 450.76
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; this nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution–ShareAlike 2.0",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The file page applies CC BY-SA 2.0 to the Martha Goldstein recording. It also documents its original EFF Open Audio Licence provenance."
+    },
+    "creditLine": "Martha Goldstein, piano; recording from Al Goldstein’s Pandora Music repository at ibiblio, via Wikimedia Commons. CC BY-SA 2.0. Streaming MP3 derivative; musical content not edited here.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Ballade_Ab_major_Opus_47.ogg",
+      "locator": "Description, performer attribution, source chain and recording-licence statement.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Ballade No. 3 in A♭ major, Op. 47",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/110",
+      "locator": "Work commentary, date, dedication and formal description.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "repository",
+      "title": "Al Goldstein: Pandora Music repository",
+      "url": "http://music.ibiblio.org/pub/multimedia/pandora/vorbis/index.html",
+      "locator": "Upstream source named on the Commons file page; the source page, not an upload date, supplies attribution.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

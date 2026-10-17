@@ -34,6 +34,34 @@
   "artist": "Maurice Ravel",
   "duration": 806
  },
+ "File:Brahms - Symphony No. 1 in C minor, Op. 68 - I. Un poco sostenuto - Allegro - Meno allegro (Musopen Symphony).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_I._Un_poco_sostenuto_-_Allegro_-_Meno_allegro_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_I._Un_poco_sostenuto_-_Allegro_-_Meno_allegro_%28Musopen_Symphony%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_I._Un_poco_sostenuto_-_Allegro_-_Meno_allegro_(Musopen_Symphony).flac",
+  "license": "Public domain",
+  "artist": "Johannes Brahms",
+  "duration": 909.184
+ },
+ "File:Brahms - Symphony No. 1 in C minor, Op. 68 - II. Andante sostenuto (Musopen Symphony).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_II._Andante_sostenuto_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_II._Andante_sostenuto_%28Musopen_Symphony%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_II._Andante_sostenuto_(Musopen_Symphony).flac",
+  "license": "Public domain",
+  "artist": "Johannes Brahms",
+  "duration": 517.2199375
+ },
+ "File:Brahms - Symphony No. 1 in C minor, Op. 68 - III. Un poco allegretto e grazioso (Musopen Symphony).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_III._Un_poco_allegretto_e_grazioso_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_III._Un_poco_allegretto_e_grazioso_%28Musopen_Symphony%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_III._Un_poco_allegretto_e_grazioso_(Musopen_Symphony).flac",
+  "license": "Public domain",
+  "artist": "Johannes Brahms",
+  "duration": 294.9649375
+ },
+ "File:Brahms - Symphony No. 1 in C minor, Op. 68 - IV. Adagio - Piu andante - Allegro non troppo, ma con brio - Piu allegro (Musopen Symphony).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo%2C_ma_con_brio_-_Piu_allegro_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo%2C_ma_con_brio_-_Piu_allegro_%28Musopen_Symphony%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo,_ma_con_brio_-_Piu_allegro_(Musopen_Symphony).flac",
+  "license": "Public domain",
+  "artist": "Johannes Brahms",
+  "duration": 1016.884375
+ },
  "File:Brahms - Symphony No. 3 in F major, Op. 90 - III. Poco allegretto (Musopen Symphony).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Brahms_-_Symphony_No._3_in_F_major%2C_Op._90_-_III._Poco_allegretto_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._3_in_F_major%2C_Op._90_-_III._Poco_allegretto_%28Musopen_Symphony%29.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._3_in_F_major,_Op._90_-_III._Poco_allegretto_(Musopen_Symphony).flac",
@@ -188,6 +216,13 @@
   "artist": "Ludwig van Beethoven",
   "duration": 844.4604081632654
  },
+ "File:La Cathédrale engloutie - Claude Debussy - performed by Ivan Ilic.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg/La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg",
+  "license": "CC BY 3.0",
+  "artist": "Ivan Ilic pianist",
+  "duration": 324.92
+ },
  "File:La mer - I. De l'aube à midi sur la mer - Concert Band - United States Air Force Band.mp3": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/5/51/La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
@@ -202,12 +237,117 @@
   "artist": "Ludwig van Beethoven",
   "duration": 500.088
  },
+ "File:Mahler - Kindertotenlieder, I (Anderson, Monteux, 1950).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Mahler_-_Kindertotenlieder%2C_I_%28Anderson%2C_Monteux%2C_1950%29.ogg/Mahler_-_Kindertotenlieder%2C_I_%28Anderson%2C_Monteux%2C_1950%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_I_(Anderson,_Monteux,_1950).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Mahler, enregistré par Marian Anderson, contralto, avec le San Francisco Symphony Orchestra, dirigé par Pierre Monteux.",
+  "duration": 279.7191836734694
+ },
+ "File:Mahler - Kindertotenlieder, I (Fischer-Dieskau, Kempe, 1955).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Mahler_-_Kindertotenlieder%2C_I_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg/Mahler_-_Kindertotenlieder%2C_I_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_I_(Fischer-Dieskau,_Kempe,_1955).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Malher, interpreté par Dietrich Fischer-Dieskau, avec le Berliner Philharmoniker dirigé par Rudolf Kempe.",
+  "duration": 313.31265306122447
+ },
+ "File:Mahler - Kindertotenlieder, II (Anderson, Monteux, 1950).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/Mahler_-_Kindertotenlieder%2C_II_%28Anderson%2C_Monteux%2C_1950%29.ogg/Mahler_-_Kindertotenlieder%2C_II_%28Anderson%2C_Monteux%2C_1950%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_II_(Anderson,_Monteux,_1950).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Mahler, enregistré par Marian Anderson, contralto, avec le San Francisco Symphony Orchestra, dirigé par Pierre Monteux. English translation: Gustav Mahler, recorded by Marian Anderson, contralto , with the San Francisco Symphony Orchestra, conducted by Pierre Monteux.",
+  "duration": 237.66204081632654
+ },
+ "File:Mahler - Kindertotenlieder, II (Fischer-Dieskau, Kempe, 1955).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Mahler_-_Kindertotenlieder%2C_II_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg/Mahler_-_Kindertotenlieder%2C_II_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_II_(Fischer-Dieskau,_Kempe,_1955).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Malher, interpreté par Dietrich Fischer-Dieskau, avec le Berliner Philharmoniker dirigé par Rudolf Kempe.",
+  "duration": 290.63836734693876
+ },
+ "File:Mahler - Kindertotenlieder, III (Anderson, Monteux, 1950).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Mahler_-_Kindertotenlieder%2C_III_%28Anderson%2C_Monteux%2C_1950%29.ogg/Mahler_-_Kindertotenlieder%2C_III_%28Anderson%2C_Monteux%2C_1950%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_III_(Anderson,_Monteux,_1950).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Mahler, enregistré par Marian Anderson, contralto, avec le San Francisco Symphony Orchestra, dirigé par Pierre Monteux.",
+  "duration": 252.36897959183673
+ },
+ "File:Mahler - Kindertotenlieder, III (Fischer-Dieskau, Kempe, 1955).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6f/Mahler_-_Kindertotenlieder%2C_III_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg/Mahler_-_Kindertotenlieder%2C_III_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_III_(Fischer-Dieskau,_Kempe,_1955).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Malher, interprété par Dietrich Fischer-Dieskau, avec le Berliner Philharmoniker dirigé par Rudolf Kempe.",
+  "duration": 273.9722448979592
+ },
+ "File:Mahler - Kindertotenlieder, IV (Anderson, Monteux, 1950).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6f/Mahler_-_Kindertotenlieder%2C_IV_%28Anderson%2C_Monteux%2C_1950%29.ogg/Mahler_-_Kindertotenlieder%2C_IV_%28Anderson%2C_Monteux%2C_1950%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_IV_(Anderson,_Monteux,_1950).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Mahler, enregistré par Marian Anderson, contralto, avec le San Francisco Symphony Orchestra, dirigé par Pierre Monteux.",
+  "duration": 182.6742857142857
+ },
+ "File:Mahler - Kindertotenlieder, IV (Fischer-Dieskau, Kempe, 1955).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Mahler_-_Kindertotenlieder%2C_IV_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg/Mahler_-_Kindertotenlieder%2C_IV_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_IV_(Fischer-Dieskau,_Kempe,_1955).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Malher, interprété par Dietrich Fischer-Dieskau, avec la Philharmonie de Berlin dirigée par Rudolf Kempe.",
+  "duration": 186.2008163265306
+ },
+ "File:Mahler - Kindertotenlieder, V (Anderson, Monteux, 1950).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Mahler_-_Kindertotenlieder%2C_V_%28Anderson%2C_Monteux%2C_1950%29.ogg/Mahler_-_Kindertotenlieder%2C_V_%28Anderson%2C_Monteux%2C_1950%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_V_(Anderson,_Monteux,_1950).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Mahler, enregistré par Marian Anderson, contralto, avec le San Francisco Symphony Orchestra, dirigé par Pierre Monteux.",
+  "duration": 370.8081632653061
+ },
+ "File:Mahler - Kindertotenlieder, V (Fischer-Dieskau, Kempe, 1955).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Mahler_-_Kindertotenlieder%2C_V_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg/Mahler_-_Kindertotenlieder%2C_V_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder,_V_(Fischer-Dieskau,_Kempe,_1955).ogg",
+  "license": "Public domain",
+  "artist": "Gustav Malher, interprété par Dietrich Fischer-Dieskau, avec la Philharmonie de Berlin dirigée par Rudolf Kempe.",
+  "duration": 408.73795918367347
+ },
+ "File:Mahler Symphony no. 2, I. Allegro maestoso.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Mahler_Symphony_no._2%2C_I._Allegro_maestoso.ogg/Mahler_Symphony_no._2%2C_I._Allegro_maestoso.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_no._2,_I._Allegro_maestoso.ogg",
+  "license": "CC0",
+  "artist": "Barbara Schubert, the DuPage Symphony Orchestra",
+  "duration": 1329.8889791666666
+ },
+ "File:Mahler Symphony no. 2, II. Andante moderato.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Mahler_Symphony_no._2%2C_II._Andante_moderato.ogg/Mahler_Symphony_no._2%2C_II._Andante_moderato.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_no._2,_II._Andante_moderato.ogg",
+  "license": "CC0",
+  "artist": "Barbara Schubert, the DuPage Symphony Orchestra",
+  "duration": 622.4409791666667
+ },
+ "File:Mahler Symphony no. 2, III. In ruhig fließender Bewegung.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Mahler_Symphony_no._2%2C_III._In_ruhig_flie%C3%9Fender_Bewegung.ogg/Mahler_Symphony_no._2%2C_III._In_ruhig_flie%C3%9Fender_Bewegung.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_no._2,_III._In_ruhig_flie%C3%9Fender_Bewegung.ogg",
+  "license": "CC0",
+  "artist": "Barbara Schubert, the DuPage Symphony Orchestra",
+  "duration": 689.0649791666667
+ },
  "File:Mahler Symphony no. 2, IV. \"Urlicht\".ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Mahler_Symphony_no._2%2C_IV._%22Urlicht%22.ogg/Mahler_Symphony_no._2%2C_IV._%22Urlicht%22.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_no._2,_IV._%22Urlicht%22.ogg",
   "license": "CC0",
   "artist": "Barbara Schubert, the DuPage Symphony Orchestra",
   "duration": 298.58497916666664
+ },
+ "File:Mahler Symphony No. 5, I. Trauermarsch.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Mahler_Symphony_No._5%2C_I._Trauermarsch.ogg/Mahler_Symphony_No._5%2C_I._Trauermarsch.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_I._Trauermarsch.ogg",
+  "license": "CC0",
+  "artist": "Peabody Symphony Orchestra",
+  "duration": 764.4484126984127
+ },
+ "File:Mahler Symphony No. 5, II. Stürmisch bewegt, mit größter Vehemenz.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Mahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg/Mahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_II._St%C3%BCrmisch_bewegt,_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg",
+  "license": "CC0",
+  "artist": "Peabody Symphony Orchestra",
+  "duration": 837.8002494331066
  },
  "File:Mahler Symphony No. 5, IV. Adagietto.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Mahler_Symphony_No._5%2C_IV._Adagietto.ogg/Mahler_Symphony_No._5%2C_IV._Adagietto.ogg.mp3",
@@ -223,12 +363,68 @@
   "artist": "European Archive",
   "duration": 907.2583673469388
  },
+ "File:Maurice Ravel - azuma - Le Tombeau de Couperin. III. Forlane (live).opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_%28live%29.opus/Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_%28live%29.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_(live).opus",
+  "license": "CC BY 3.0",
+  "artist": "Maurice Ravel (1875-1937, composer) azuma (piano)",
+  "duration": 414.1142708333333
+ },
+ "File:Maurice Ravel - azuma - Le Tombeau de Couperin. V. Menuet (live).opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._V._Menuet_%28live%29.opus/Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._V._Menuet_%28live%29.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._V._Menuet_(live).opus",
+  "license": "CC BY 3.0",
+  "artist": "Maurice Ravel (1875-1937, composer) azuma (piano)",
+  "duration": 300.037375
+ },
+ "File:Maurice Ravel - Gaspard de la nuit - 1. Ondine.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/Maurice_Ravel_-_Gaspard_de_la_nuit_-_1._Ondine.flac/Maurice_Ravel_-_Gaspard_de_la_nuit_-_1._Ondine.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Gaspard_de_la_nuit_-_1._Ondine.flac",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "duration": 407.6939909297052
+ },
+ "File:Maurice Ravel - Gaspard de la nuit - 3. Scarbo.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Maurice_Ravel_-_Gaspard_de_la_nuit_-_3._Scarbo.flac/Maurice_Ravel_-_Gaspard_de_la_nuit_-_3._Scarbo.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Gaspard_de_la_nuit_-_3._Scarbo.flac",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "duration": 578.8597278911565
+ },
+ "File:Maurice Ravel - Isaac David - Le Tombeau de Couperin. I. Prélude.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Maurice_Ravel_-_Isaac_David_-_Le_Tombeau_de_Couperin._I._Pr%C3%A9lude.opus/Maurice_Ravel_-_Isaac_David_-_Le_Tombeau_de_Couperin._I._Pr%C3%A9lude.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Isaac_David_-_Le_Tombeau_de_Couperin._I._Pr%C3%A9lude.opus",
+  "license": "CC BY-SA 4.0",
+  "artist": "Maurice Ravel (1875-1937, composer) Isaac David (piano)",
+  "duration": 240.04529166666666
+ },
+ "File:Maurice Ravel - Le Tombeau de Couperin - Toccata (Marcelle Meyer).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Maurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_%28Marcelle_Meyer%29.flac/Maurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_%28Marcelle_Meyer%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_(Marcelle_Meyer).flac",
+  "license": "Public domain",
+  "artist": "Maurice Ravel",
+  "duration": 236.34666666666666
+ },
+ "File:Maurice Ravel - Le Tombeau de Couperin. II. Fugue.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/Maurice_Ravel_-_Le_Tombeau_de_Couperin._II._Fugue.opus/Maurice_Ravel_-_Le_Tombeau_de_Couperin._II._Fugue.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Le_Tombeau_de_Couperin._II._Fugue.opus",
+  "license": "CC BY 3.0",
+  "artist": "Maurice Ravel (1875-1937, composer)",
+  "duration": 205.061
+ },
  "File:Maurice Ravel - Thérèse Dussaut - Pavane pour une infante défunte.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg",
   "license": "CC BY-SA 2.0",
   "artist": "Maurice Ravel (1875-1937, composer) Thérèse Dussaut (pianist)",
   "duration": 308.30002267573695
+ },
+ "File:Maurice Ravel- Gaspard de la Nuit- II Le Gibet.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac/Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac",
+  "license": "CC BY-SA 4.0",
+  "artist": "OE1FEU",
+  "duration": 424.71691609977324
  },
  "File:Mendelssohn - Hebrides Overture, Op. 26 (Musopen Symphony).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac.mp3",
@@ -292,6 +488,20 @@
   "license": "Public domain",
   "artist": "",
   "duration": 350.1745351473923
+ },
+ "File:Ravel Duo Campion-Vachon Ma Mere l'oye 1 Pavane de la Belle au bois dormant.OGG": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG/Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG",
+  "license": "CC BY-SA 3.0",
+  "artist": "Duo Campion/Vachon (interpretation)",
+  "duration": 98.0215873015873
+ },
+ "File:Ravel's La Valse for two pianos, M. 72a - O'Doan & O'Doan.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Ravel%27s_La_Valse_for_two_pianos%2C_M._72a_-_O%27Doan_%26_O%27Doan.ogg/Ravel%27s_La_Valse_for_two_pianos%2C_M._72a_-_O%27Doan_%26_O%27Doan.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ravel%27s_La_Valse_for_two_pianos,_M._72a_-_O%27Doan_%26_O%27Doan.ogg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Nancy O'Doan & Neal O'Doan",
+  "duration": 673.6195918367347
  },
  "File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 03 The Young Prince And Princess.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/21/Rimsky-Korsakov._Scheherazade%2C_Symphonic_Suite%2C_Op._35_-_03_The_Young_Prince_And_Princess.ogg/Rimsky-Korsakov._Scheherazade%2C_Symphonic_Suite%2C_Op._35_-_03_The_Young_Prince_And_Princess.ogg.mp3",

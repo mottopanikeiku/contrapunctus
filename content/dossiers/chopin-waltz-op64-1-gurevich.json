@@ -1,0 +1,141 @@
+{
+  "id": "chopin-waltz-op64-1-gurevich",
+  "work": {
+    "title": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”)",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": "Solo piano version",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source identifies this as the named solo-piano work."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Olga Gurevich",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer spelling normalised; no uncredited accompanist or soloist added."
+  },
+  "session": {
+    "date": {
+      "value": "c. 2014",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons explicitly gives circa 2014; no exact session date or place is supplied.",
+      "precision": "approximate"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source supplier/uploader is identified below, but an individual transfer engineer is not established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No restoration, equalisation or speed correction is established from the source. Playback uses the supplied MP3 access file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access file; no concatenation or playback pitch alteration",
+    "durationSeconds": 107.44548958333333
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition as identified by the source.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Public-domain recording dedication by Musopen",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The Commons copyright-information template explicitly applies PD-author (Musopen) to the recording, separately from the composition. The linked Musopen Kickstarter release page returned 403; no additional claim is based on it."
+    },
+    "creditLine": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”); Olga Gurevich, piano. Public-domain recording dedication by Musopen. Source: Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — Chopin - Waltz No. 6 in D-flat major, Op. 64, No. 1 'Minute' (Olga Gurevich).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._6_in_D-flat_major,_Op._64,_No._1_%27Minute%27_(Olga_Gurevich).flac",
+      "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

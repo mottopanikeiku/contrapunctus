@@ -1,0 +1,2373 @@
+[
+  {
+    "rank": 1,
+    "kind": "first recordings vs modern",
+    "work": "Symphony No. 5 in C minor, Op. 67 — I. Allegro con brio",
+    "composer": "beethoven",
+    "question": "How did the first recordings (Odeon 1910–11, Nikisch 1913) cut and pace Beethoven’s opening, set against Mengelberg in 1939–40 and a modern orchestra?",
+    "recordings": [
+      {
+        "id": "kark-1910",
+        "source": {
+          "archive": {
+            "item": "BeethovenFifth1910",
+            "file": "Beethoven - Symph 5 01 Kark.mp3"
+          }
+        },
+        "performers": "Odeon Grand Orchestra (“Grosse Odeon-Streichorchester”), Friedrich Kark",
+        "recorded": "1910 (Wikipedia, IA); a 2023 JAMS article dates the production to August 1911 (not opened)",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1911,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://en.wikipedia.org/wiki/Beethoven%27s_5th_(Nikisch_recording)",
+            "https://archive.org/details/BeethovenFifth1910",
+            "https://archive.org/details/BeethovenFifth1910"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 390,
+        "notes": "MEAS: IA gives one MP3 per movement; this file is the first movement. EXT (Wikipedia): first recording of the Fifth, cut in performance. Acoustic (INFERENCE from the date); speed and pitch not adjusted. IA item has no licence URL, so rights rest on the pre-1926 basis.",
+        "rule": 2
+      },
+      {
+        "id": "nikisch-1913",
+        "source": {
+          "archive": {
+            "item": "Beethoven_Sinf5-1_BPhO-Nikisch_EQ",
+            "file": "nikisch_beethovensymphony5mvt1_eq.mp3"
+          }
+        },
+        "performers": "Berlin Philharmonic Orchestra, Arthur Nikisch",
+        "recorded": "10 November 1913, Berlin (Science Museum Group Journal 2015)",
+        "rights": {
+          "basis": "archive-licence-url",
+          "published": 1914,
+          "licence": "Public domain (IA licence URL)",
+          "licenceUrl": "http://creativecommons.org/licenses/publicdomain/",
+          "evidence": [
+            "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/",
+            "https://en.wikipedia.org/wiki/Beethoven%27s_5th_(Nikisch_recording)",
+            "https://archive.org/details/Beethoven_Sinf5-1_BPhO-Nikisch_EQ",
+            "https://archive.org/details/Beethoven_Sinf5-1_BPhO-Nikisch_EQ"
+          ],
+          "ruleLabel": "Internet Archive public-domain licence URL"
+        },
+        "duration": 405,
+        "notes": "EXT (Science Museum paper): acoustic; Nikisch’s first movement is unusually slow and omits the exposition repeat; Deutsche Grammophon issued it February 1914. MEAS: IA item carries a public-domain licence URL; the same MP3 sits in a second item (Beethoven5.Sinfonie_1.Satz-BerlinerPhilh._Nikisch_EQd). EQ applied by the uploader.",
+        "rule": 1
+      },
+      {
+        "id": "mengelberg-1939",
+        "source": {
+          "file": "File:Telefunken-sk2210-022110.ogg"
+        },
+        "sources": [
+          {
+            "file": "File:Telefunken-sk2210-022110.ogg"
+          },
+          {
+            "file": "File:Telefunken-sk2210-022111.ogg"
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "Koninklijk Concertgebouworkest, Willem Mengelberg",
+        "recorded": "1939–1940 (Commons)",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1941,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject-wmde"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Telefunken-sk2210-022110.ogg",
+            "https://commons.wikimedia.org/wiki/File:Telefunken-sk2210-022111.ogg"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 472,
+        "territorial": true,
+        "notes": "MEAS: two 78 sides (Telefunken SK 2210, parts 1–2) must be joined; Commons gives first release 1941 so this is not US-public-domain; the Commons tag is a territorial one.",
+        "rule": 3
+      },
+      {
+        "id": "skidmore",
+        "role": "existing",
+        "source": {
+          "file": "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg"
+        },
+        "performers": "Skidmore College orchestra (as in the existing listen)",
+        "recorded": "",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Attribution",
+            "Attribution only license",
+            "PD-author",
+            "PD-old-100"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 500,
+        "notes": "The recording already on the site. Modern recording; the 8:20 length suggests the exposition repeat may be taken (INFERENCE; check by ear).",
+        "rule": 1
+      }
+    ],
+    "alternatives": [
+      {
+        "id": "victor-1917-finale",
+        "movement": "IV. Allegro (finale only)",
+        "source": {
+          "file": "File:Victor Concert Orchestra 1917 Beethoven 5th symphony fourth movement.oga"
+        },
+        "performers": "Victor Concert Orchestra, Josef Pasternack",
+        "recorded": "sides 18 April and 7 March 1917",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1917,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Not-PD-US-record-expired-min-year",
+            "PD-US-record-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Victor_Concert_Orchestra_1917_Beethoven_5th_symphony_fourth_movement.oga"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 533,
+        "notes": "Victor 35637 A/B, matrix C-19348/9 (Commons credit); published October 1917. A finale for the finale comparison; Commons says sides were stitched at 4:30.",
+        "rule": 2
+      }
+    ],
+    "existingListenId": "beethoven-5-first"
+  },
+  {
+    "kind": "composer as performer",
+    "work": "Piano Concerto No. 2 in C minor, Op. 18 — I. Moderato",
+    "composer": "rachmaninoff",
+    "question": "Rachmaninoff’s own 1929 recording with Stokowski against Richter in 1959: pace, rubato and the balance of piano and orchestra in the opening movement.",
+    "existingListenId": "rachmaninoff-concerto-2-moderato",
+    "recordings": [
+      {
+        "id": "rach-stokowski-1929-i",
+        "source": {
+          "archive": {
+            "item": "78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a",
+            "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 1st Movement (1st Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+          }
+        },
+        "sources": [
+          {
+            "archive": {
+              "item": "78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a",
+              "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 1st Movement (1st Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+            }
+          },
+          {
+            "archive": {
+              "item": "78_concerto-no-2-in-c-minor-op-18-1st-movement-2nd-record_sergei-rachmaninoff-and_gbia7026860b",
+              "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 1st Movement (2nd Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+            }
+          },
+          {
+            "archive": {
+              "item": "78_concerto-no-2-in-c-minor-op-18-1st-movement-3rd-record_sergei-rachmaninoff-and_gbia7026859a",
+              "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 1st Movement (3rd Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+            }
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "Sergei Rachmaninoff, piano; Philadelphia Orchestra, Leopold Stokowski",
+        "recorded": "10 April 1929 (DAHR lists Victor CVE-48963 to 48967 on that date), Trinity Church, Camden",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1929,
+          "licence": "HMV (UK) pressings on the Internet Archive; no licence on the items",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/date/browse/1929-04-10",
+            "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a"
+          ]
+        },
+        "duration": 594,
+        "rule": 3,
+        "territorial": true,
+        "notes": "MEAS: three HMV D.B. 1333–1334 sides (IA, “His Master’s Voice”, dated 1929–30) joined: 3:10 + 3:30 + 3:14. EXT (web search summary of a Library of Congress essay, not opened by me): recorded 10 and 13 April 1929, electrical, in Camden. IA notes minor distortion and wow on side 1, a stylus that did not track on side 3. The same performance on IA item RACHMANINOFFPianoConcertoNo.2InCMinor-NEWTRANSFER carries CC BY-NC-SA and is excluded."
+      },
+      {
+        "id": "richter-1959-i",
+        "role": "existing",
+        "source": {
+          "file": "File:Sergei Rachmaninov - Concerto no. 2 for Piano and Orchestra in C minor - 1. Moderato (Sviatoslav Richter, Stanisław Wisłocki, Warsaw National Philharmonic Orchestra, 1959).flac"
+        },
+        "performers": "Sviatoslav Richter, Warsaw National Philharmonic Orchestra, Stanisław Wisłocki",
+        "recorded": "1959",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-EU-audio"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_1._Moderato_(Sviatoslav_Richter,_Stanisław_Wisłocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac"
+          ]
+        },
+        "duration": 669,
+        "rule": 1,
+        "territorial": true,
+        "notes": "The recording already on the site (Commons tag PD-EU-audio)."
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "rank": 3,
+    "kind": "composer as performer",
+    "work": "Prelude in C♯ minor, Op. 3 No. 2",
+    "composer": "rachmaninoff",
+    "question": "Rachmaninoff recorded his most famous piece in 1919, 1921 and (electrically) 1928: what does he change, and how does a 2005 pianist differ?",
+    "recordings": [
+      {
+        "id": "rach-1919-edison",
+        "role": "existing",
+        "source": {
+          "file": "File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg"
+        },
+        "performers": "Sergei Rachmaninoff, piano",
+        "recorded": "24 April 1919, New York (Commons; the existing dossier notes the NPS catalogue confirms only 1919)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1920,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Not-PD-US-record-expired-min-year",
+            "PD-old-X-record-expired",
+            "PD-old-auto-record-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 228,
+        "notes": "Edison Diamond Disc 82187-R, released December 1920 (Commons). Acoustic.",
+        "rule": 2
+      },
+      {
+        "id": "rach-1921-victor",
+        "source": {
+          "archive": {
+            "item": "78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a",
+            "file": "Prelude in C Sharp Minor - Sergei Rachmaninoff.mp3"
+          }
+        },
+        "performers": "Sergei Rachmaninoff, piano",
+        "recorded": "14 October 1921 (take 3), New York",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1921,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/matrix/refer/700010909",
+            "https://adp.library.ucsb.edu/index.php/objects/refer/52653",
+            "https://archive.org/details/78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 210,
+        "notes": "MEAS: DAHR lists Victor matrix B-25650 takes 3 (14 Oct 1921) and 13 (13 Dec 1921) both on Victor 814 coupled with Spinning Song; which take this transfer carries is unknown (check by ear against the length). Great 78 transfer of Victor 814-A (IA labels the disc “Victrola”); acoustic by date.",
+        "rule": 2
+      },
+      {
+        "id": "rach-1928-victor",
+        "source": {
+          "archive": {
+            "item": "prelude-in-c-sharp-minor",
+            "file": "Relude in C-sharp Minor.mp3"
+          }
+        },
+        "performers": "Sergei Rachmaninoff, piano",
+        "recorded": "4 April 1928 (DAHR Victor matrix BVE-25650, an electrical remake; DAHR first-take date 13 April 1925), New York",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1928,
+          "licence": "No licence on the item",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/date/browse/1928-04-04",
+            "https://archive.org/details/prelude-in-c-sharp-minor"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963"
+        },
+        "duration": 211,
+        "notes": "MEAS: IA labels it Victor 1326-A, dated 1928-04-04, with a 3:31 MP3. The uploader’s own transfer: Western Electric equalisation, 10 kHz low-pass, de-click and spectral de-noise applied (so the sound is processed). Electrical; first published 1928 (IA date; US Victor issue; a UK issue is assumed, not checked). Lets the page set two acoustic takes against an electrical remake by the same composer.",
+        "rule": 3,
+        "territorial": true
+      },
+      {
+        "id": "woerner-2005",
+        "source": {
+          "file": "File:Sergei Rachmaninoff - Morceaux de fantasie op. 3 No. 2 c sharp minor.ogg"
+        },
+        "performers": "Martin Wörner, piano (recording: Tobias Lohner)",
+        "recorded": "May 2005",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2005,
+          "licence": "CC BY-SA 4.0",
+          "commonsTemplates": [
+            "Cc-by-sa-4.0"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_Morceaux_de_fantasie_op._3_No._2_c_sharp_minor.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 233,
+        "notes": "CC BY-SA 4.0; modern recording.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "rachmaninoff-prelude-c-sharp-minor"
+  },
+  {
+    "kind": "composer’s protégé vs modern",
+    "work": "Symphony No. 5 — IV. Adagietto",
+    "composer": "mahler",
+    "question": "Mengelberg, a friend of Mahler, took the Adagietto in about seven minutes in 1926: what does that pace do against a modern, much slower reading?",
+    "existingListenId": "mahler-5-adagietto",
+    "recordings": [
+      {
+        "id": "mengelberg-1926",
+        "source": {
+          "archive": {
+            "item": "willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926",
+            "file": "Willem Mengelberg CGO - Col L 1798 WAX 1548-9 1926.mp3"
+          }
+        },
+        "performers": "Concertgebouw Orchestra, Willem Mengelberg",
+        "recorded": "May 1926, Concertgebouw, Amsterdam (IA)",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1926,
+          "licence": "No licence on the item",
+          "evidence": [
+            "https://archive.org/details/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926",
+            "https://en.wikipedia.org/wiki/Symphony_No._5_(Mahler)"
+          ]
+        },
+        "duration": 437,
+        "rule": 3,
+        "territorial": true,
+        "notes": "MEAS: IA gives Columbia L 1798, matrices (W)AX 1548/1549, recorded May 1926; one 7:17 MP3 transferred from the original disc. EXT (Wikipedia): Mahler and Mengelberg played the movement in about 7 minutes. Electrical-era Columbia (WAX matrices). Other sources cite 7:04, so check the transfer speed. Release date is the catalogue year, not independently confirmed here."
+      },
+      {
+        "id": "peabody-adagietto",
+        "role": "existing",
+        "source": {
+          "file": "File:Mahler Symphony No. 5, IV. Adagietto.ogg"
+        },
+        "performers": "Peabody Symphony Orchestra, Baltimore (as in the existing listen)",
+        "recorded": "",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "CC0",
+          "commonsTemplates": [
+            "Cc-zero"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg"
+          ]
+        },
+        "duration": 621,
+        "rule": 1,
+        "notes": "The recording already on the site; 10:21, about three and a half minutes longer than Mengelberg’s (MEAS)."
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "rank": 5,
+    "kind": "composer as conductor",
+    "work": "Boléro",
+    "composer": "ravel",
+    "question": "Ravel conducted Boléro himself in 1930 at about 66 to the quarter: how do Munch, Fricsay and Tzipine compare with the composer’s tempo and length?",
+    "recordings": [
+      {
+        "id": "ravel-1930",
+        "source": {
+          "file": "File:Bolero-Maurice Ravel-1930.ogg"
+        },
+        "performers": "Orchestre des Concerts Lamoureux, Maurice Ravel",
+        "recorded": "January 1930, Paris (Polydor); Wikipedia says the day after Coppola’s 13 January session",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1930,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70"
+          ],
+          "evidence": [
+            "https://en.wikipedia.org/wiki/Bol%C3%A9ro",
+            "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-1930.ogg"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 952,
+        "territorial": true,
+        "notes": "EXT (Wikipedia): Ravel conducted the Lamoureux Orchestra for Polydor in January 1930 (the day after Coppola’s 13 January session), 15 min 50 s, starting near 66 per quarter and easing to 60–63; his score copy crosses out the printed 76 for 66. Rule 3: recording date established; the Commons tag is composition-only, so this is territorial and the dossier must say so. Do not use the Commons files “Orchestre des Concerts Lamoureux, 1935/1939 … directed by Ravel himself”: Ravel died in 1937, so that attribution cannot be right.",
+        "rule": 3
+      },
+      {
+        "id": "fricsay-1959",
+        "role": "existing",
+        "source": {
+          "file": "File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg"
+        },
+        "performers": "Berlin Symphonic Orchestra, Ferenc Fricsay",
+        "recorded": "November 1959",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1959,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 806,
+        "territorial": true,
+        "notes": "The recording already on the site. 13:26, about 2.5 minutes shorter than Ravel’s own (MEAS). Commons tag is composition-only (PD-old-70) and the first-release year is not stated: under the final rule it needs a documented pre-1963 release date.",
+        "rule": 3,
+        "releaseDateUnverified": true
+      }
+    ],
+    "existingListenId": "ravel-bolero"
+  },
+  {
+    "rank": 6,
+    "kind": "acoustic vs electrical, same singer",
+    "work": "The Prophet (Pushkin), Op. 49 No. 2",
+    "composer": "rimsky-korsakov",
+    "question": "The same bass, the same Rimsky-Korsakov song, six years apart: what did the move from acoustic horn to microphone give and take away?",
+    "recordings": [
+      {
+        "id": "chaliapin-prophet-1921",
+        "source": {
+          "archive": {
+            "item": "78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b",
+            "file": "The Prophet - Feodor Chaliapin - Poushkin.mp3"
+          }
+        },
+        "performers": "Fyodor Chaliapin, bass; orchestra, Percy Pitt",
+        "recorded": "10 October 1921, Hayes (Gramophone matrix Cc550)",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1922,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007905",
+            "https://adp.library.ucsb.edu/index.php/objects/refer/162250",
+            "https://archive.org/details/78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 231,
+        "notes": "MEAS: DAHR couples Cc550 with Cc1891 (Volga Boatmen) on Victor 6058 (US issue, [1922]) and Gramophone DB 105. This is a Great 78 transfer of the Victrola pressing; stylus 2 did not track (IA note). Acoustic; Russian.",
+        "rule": 2
+      },
+      {
+        "id": "chaliapin-prophet-1927",
+        "source": {
+          "file": "File:PDP-CH - Feodor Chaliapin - The Prophet, Op. 49 - Rimsky-Korsakov - Pushkin - Gramophone-db1103-2-022043.flac"
+        },
+        "performers": "Fyodor Chaliapin, bass",
+        "recorded": "20 October 1927 (matrix CC-10957-2), per Commons",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1928,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Feodor_Chaliapin_-_The_Prophet,_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 265,
+        "territorial": true,
+        "notes": "HMV DB 1103, first release 1928 (Commons). Electrical. Commons tag is PD-old-70 (composer), not a recording-rights tag.",
+        "rule": 3
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 7,
+    "kind": "acoustic vs electrical, same pianist",
+    "work": "Nocturne in F♯ major, Op. 15 No. 2",
+    "composer": "chopin",
+    "question": "Paderewski recorded this nocturne in 1917 (acoustic) and 1937 (electrical); d’Albert in 1916: how do rubato and tempo change across two decades and styles?",
+    "recordings": [
+      {
+        "id": "paderewski-1917",
+        "source": {
+          "file": "File:PDP-CH - Nocturne in F-sharp major, Op. 15, No. 2 - Chopin - Ignacy Jan Paderewski - Hmv-db375-05616.flac"
+        },
+        "performers": "Ignacy Jan Paderewski, piano",
+        "recorded": "14 May 1917 (Victor matrix C-19781); British issue HMV DB 375",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1917,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-1923",
+            "PD-US-expired",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/date/browse/1917-05-14",
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_-_Chopin_-_Ignacy_Jan_Paderewski_-_Hmv-db375-05616.flac"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 208,
+        "notes": "MEAS: DAHR lists Victor C-19781 “Nocturne in F sharp major”, 12-in., first take 14 May 1917. Commons tags PD-1923/PD-US-expired. Acoustic.",
+        "rule": 2
+      },
+      {
+        "id": "paderewski-1937",
+        "source": {
+          "file": "File:Ignacy Jan Paderewski - Nocturne in F-sharp major, Op. 15, No. 2 (Chopin) - Hmv-db3711-2ea4573.ogg"
+        },
+        "performers": "Ignacy Jan Paderewski, piano",
+        "recorded": "30 January 1937, London",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1938,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_(Chopin)_-_Hmv-db3711-2ea4573.ogg"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 222,
+        "territorial": true,
+        "notes": "HMV DB 3711, first release 1938 (Commons). Electrical. Commons tag is PD-old-70 (composer).",
+        "rule": 3
+      },
+      {
+        "id": "dalbert-1916",
+        "source": {
+          "archive": {
+            "item": "02-eugen-d-albert-syposium-1146",
+            "file": "10 - Eugen d'Albert - Nocturne in Fis-Dur op.15 No.2 (Chopin) Gram. 045678, Mx. 1120 m (1916).mp3"
+          }
+        },
+        "performers": "Eugen d’Albert, piano",
+        "recorded": "1916 (Gramophone 045678, matrix 1120 m)",
+        "rights": {
+          "basis": "archive-licence-url",
+          "published": 1916,
+          "licence": "Public domain (IA licence URL)",
+          "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "evidence": [
+            "https://archive.org/details/02-eugen-d-albert-syposium-1146",
+            "https://archive.org/details/02-eugen-d-albert-syposium-1146"
+          ],
+          "ruleLabel": "Internet Archive public-domain licence URL"
+        },
+        "duration": 187,
+        "notes": "Track 10 of the Symposium CD 1146 transfer; the item carries a public-domain-mark URL and the track list dates the original to 1916. Acoustic.",
+        "rule": 1
+      },
+      {
+        "id": "faulkner-2014",
+        "source": {
+          "file": "File:Chopin - Nocturne No. 5 in F-sharp major, Op. 15 No. 2 (Luke Faulkner).flac"
+        },
+        "performers": "Luke Faulkner, piano",
+        "recorded": "c. 2014 (Musopen “Set Chopin Free”)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._5_in_F-sharp_major,_Op._15_No._2_(Luke_Faulkner).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 204,
+        "notes": "Modern recording; public-domain dedication on Commons.",
+        "rule": 1
+      },
+      {
+        "id": "prati-2015",
+        "source": {
+          "file": "File:Fryderyk Chopin - Nocturne op. 15 n.2 Fis-dur - Patrizia Prati.ogg"
+        },
+        "performers": "Patrizia Prati, piano",
+        "recorded": "2015",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2015,
+          "licence": "CC BY-SA 4.0",
+          "commonsTemplates": [
+            "Cc-by-sa-4.0",
+            "Self"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 219,
+        "notes": "CC BY-SA 4.0.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 8,
+    "kind": "historic vs modern",
+    "work": "Nocturne in D♭ major, Op. 27 No. 2",
+    "composer": "chopin",
+    "question": "De Pachmann, born 1848, recorded this nocturne in 1925: how does his rubato and tempo differ from Frank Lévy’s modern reading?",
+    "recordings": [
+      {
+        "id": "pachmann-1925",
+        "source": {
+          "archive": {
+            "item": "hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
+            "file": "HMV_DB860_Cc_6253-1.mp3"
+          }
+        },
+        "performers": "Vladimir de Pachmann, piano (his own Baldwin)",
+        "recorded": "June 1925, Hayes: IA says 26 June, Davidović’s thesis says 6 June",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1925,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
+            "https://etheses.whiterose.ac.uk/id/eprint/13312/1/Chopin%20in%20Great%20Britain%2C%201830%20to%201930%20-%20Inja%20Davidovic.pdf",
+            "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 276,
+        "releaseDateUnverified": true,
+        "notes": "HMV DB 860, matrix Cc 6253-1, electrical, “HMV’s first electrical solo piano recordings” (IA note). The IA item is dated 1925 and its sister DB 859/861 items 1925-09; no independent release date found: verify that DB 860 came out before 1 January 1926 or drop it. The thesis analyses this recording against de Pachmann’s 1906 Welte roll and 1916 Columbia L1124 (no usable audio of those found).",
+        "rule": 2
+      },
+      {
+        "id": "levy-op27-2",
+        "role": "existing",
+        "source": {
+          "file": "File:Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac"
+        },
+        "performers": "Frank Lévy, piano",
+        "recorded": "c. 2014",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._8_in_D-flat_major,_Op._27_No._2_(Frank_Levy).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 378,
+        "notes": "The recording already on the site.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "chopin-nocturne-op27-2"
+  },
+  {
+    "rank": 9,
+    "kind": "composer as performer",
+    "work": "Wedding Day at Troldhaugen, Op. 65 No. 6",
+    "composer": null,
+    "question": "Grieg recorded his own Lyric Piece in Paris in 1903, abridged to two minutes: what do his tempo and touch show against a modern reading?",
+    "recordings": [
+      {
+        "id": "grieg-1903",
+        "source": {
+          "file": "File:Grieg+plays+Grieg+Wedding+Day+(1903).ogg"
+        },
+        "performers": "Edvard Grieg, piano",
+        "recorded": "spring 1903, Paris (Gramophone Company)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1903,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-music",
+            "PD-old-100"
+          ],
+          "evidence": [
+            "https://en.wikipedia.org/wiki/Edvard_Grieg",
+            "https://commons.wikimedia.org/wiki/File:Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B(1903).ogg"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (date from Commons description)"
+        },
+        "duration": 121,
+        "notes": "EXT (Wikipedia): Grieg made nine 78-rpm sides of his piano music in Paris in spring 1903. MEAS: this side lasts 2:01, so it is abridged; limited fidelity. A second Commons file, “Grieg plays Grieg Butterfly (1906)”, is probably the 1906 Welte-Mignon roll (Wikipedia lists Grieg’s roll of Papillon, 17 April 1906) but its Commons page does not say so; no modern Papillon on Commons.",
+        "rule": 2
+      },
+      {
+        "id": "vetter-2006",
+        "source": {
+          "file": "File:Edvard-Grieg-Lyric-Pieces-Op-65 -No-6-Wedding-Day-at-Troldhaugen.ogg"
+        },
+        "performers": "Harald Vetter, piano",
+        "recorded": "2006",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2006,
+          "licence": "CC BY 4.0",
+          "commonsTemplates": [
+            "Cc-by-4.0"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 416,
+        "notes": "CC BY 4.0 (credit IMSLP). The other Commons Wedding Day file (piano-midi.de) is MIDI-driven and must not be used.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null,
+    "guest": {
+      "name": "Edvard Grieg",
+      "born": 1843,
+      "died": 1907
+    },
+    "concert": false
+  },
+  {
+    "rank": 10,
+    "kind": "historic vs modern",
+    "work": "Étude in G♭ major, Op. 25 No. 9 (“Butterfly”)",
+    "composer": "chopin",
+    "question": "Cortot (1920) and d’Albert (1913) against a modern reading: how fast, and how freely, did early pianists take a one-minute étude?",
+    "recordings": [
+      {
+        "id": "cortot-1920",
+        "source": {
+          "archive": {
+            "item": "78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a",
+            "file": "Etude in G Flat Major (Black Keys); Etude  - Alfred Cortot.mp3"
+          }
+        },
+        "performers": "Alfred Cortot, piano",
+        "recorded": "22 April 1920 (take 2), Camden",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1920,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/matrix/detail/700009148/B-23953-Etude_in_G_flat_op._10_no._5_Black_keys",
+            "https://archive.org/details/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 163,
+        "notes": "MEAS: one disc side carries both Op. 10 No. 5 and Op. 25 No. 9 (Victor 64989, matrix B-23953), so the file is a medley of two études. DAHR also lists a 1923 remake on Victor 561 (take 6). Acoustic; some stylus tracking trouble noted on IA.",
+        "rule": 2
+      },
+      {
+        "id": "dalbert-1913-op25-9",
+        "source": {
+          "archive": {
+            "item": "02-eugen-d-albert-syposium-1146",
+            "file": "13 - Eugen d'Albert - Etude op.25 No.9 in Ges-Dur (Chopin) Odeon 76563, Mx. xxB 5731 (III.1913).mp3"
+          }
+        },
+        "performers": "Eugen d’Albert, piano",
+        "recorded": "March 1913 (Odeon 76563)",
+        "rights": {
+          "basis": "archive-licence-url",
+          "published": 1913,
+          "licence": "Public domain (IA licence URL)",
+          "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "evidence": [
+            "https://archive.org/details/02-eugen-d-albert-syposium-1146",
+            "https://archive.org/details/02-eugen-d-albert-syposium-1146"
+          ],
+          "ruleLabel": "Internet Archive public-domain licence URL"
+        },
+        "duration": 101,
+        "notes": "Track 13 of the Symposium CD 1146 transfer; public-domain-mark URL on the item; acoustic.",
+        "rule": 1
+      },
+      {
+        "id": "neeman-op25-9",
+        "source": {
+          "file": "File:Chopin - 12 Études, Op. 25 - No. 9 in G-Flat major 'Butterfly Wings' (Edward Neeman).flac"
+        },
+        "performers": "Edward Neeman, piano",
+        "recorded": "c. 2014 (Musopen “Set Chopin Free”)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_(Edward_Neeman).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 69,
+        "notes": "Modern recording; public-domain dedication on Commons.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 11,
+    "kind": "composer as conductor",
+    "work": "Cello Concerto in E minor, Op. 85",
+    "composer": "elgar",
+    "question": "Elgar conducted the first, abridged recording (1919–20) of his own concerto; what does a century-old sixteen-minute version keep, against a modern finale?",
+    "recordings": [
+      {
+        "id": "harrison-elgar-1920",
+        "source": {
+          "archive": {
+            "item": "httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+            "file": "Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3"
+          }
+        },
+        "performers": "Beatrice Harrison, cello; Symphony Orchestra, Sir Edward Elgar",
+        "recorded": "22 December 1919 and 16 November 1920, Hayes (IA)",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1921,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+            "https://en.wikipedia.org/wiki/Cello_Concerto_(Elgar)",
+            "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 952,
+        "notes": "EXT (Wikipedia): first recording, truncated, acoustic; cuts reduce playing time to 16:02. MEAS: one 15:52 MP3 of the four HMV D 541–545 sides, abridged. IA item date 1921; no licence URL.",
+        "rule": 2
+      },
+      {
+        "id": "skidmore-elgar-iv",
+        "movement": "IV. Allegro — Moderato — Allegro ma non troppo (finale only)",
+        "source": {
+          "file": "File:Edward Elgar - cello concerto in e minor, op. 85 - iv. allegro.ogg"
+        },
+        "performers": "Skidmore College Orchestra (Commons credit, via Musopen; soloist not named)",
+        "recorded": "",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Attribution",
+            "Attribution only license",
+            "PD-author"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Edward_Elgar_-_cello_concerto_in_e_minor,_op._85_-_iv._allegro.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 694,
+        "notes": "Modern recording; 11:34 for the finale alone, against about 4:00 for the same movement in the 1920 version (EXT: IA description gives 4′00″). Soloist uncredited.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 12,
+    "kind": "acoustic vs electrical vs modern",
+    "work": "Messiah — Hallelujah chorus",
+    "composer": "handel",
+    "question": "Hallelujah in 1916, 1926 and 1953: how do choir sound, tempo and balance change from the horn era to Scherchen?",
+    "recordings": [
+      {
+        "id": "edison-1916",
+        "source": {
+          "file": "File:Messiah Hallelujah Chorus 1916.ogg"
+        },
+        "performers": "Oratorio chorus (not further identified), Edison",
+        "recorded": "May 1916",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1916,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-US"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Messiah_Hallelujah_Chorus_1916.ogg"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 223,
+        "notes": "Commons tag PD-US; acoustic Edison; performers undocumented. A near-identical Commons file (“Handel Messiah Hallelujah by Oratorio Chorus.ogg”, 3:41) probably duplicates it.",
+        "rule": 2
+      },
+      {
+        "id": "rcs-1926",
+        "source": {
+          "file": "File:PDP-CH - Royal Choral Society - Malcolm Sargent - Messiah - Hallelujah Chorus - Electrola-ej39-04871.flac"
+        },
+        "performers": "Royal Choral Society, Royal Albert Hall Orchestra, Malcolm Sargent",
+        "recorded": "2 April 1926, Royal Albert Hall (Commons)",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1927,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 265,
+        "territorial": true,
+        "notes": "First release 1927, so territorial only. Electrical (1926); Commons tag PD-old-70 (composer).",
+        "rule": 3
+      },
+      {
+        "id": "scherchen-1953",
+        "role": "existing",
+        "source": {
+          "file": "File:Handel - Messiah, Part 2 (Scherchen) - 45. Hallelujah.ogg"
+        },
+        "performers": "London Symphony Orchestra, London Philharmonic Choir, Hermann Scherchen",
+        "recorded": "1953",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-EU-audio"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Handel_-_Messiah,_Part_2_(Scherchen)_-_45._Hallelujah.ogg"
+          ],
+          "ruleLabel": "Commons PD-EU-audio"
+        },
+        "duration": 201,
+        "territorial": true,
+        "notes": "The recording already on the site (Commons tag PD-EU-audio).",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "handel-messiah-hallelujah"
+  },
+  {
+    "kind": "composer as conductor",
+    "work": "Pomp and Circumstance, March No. 1 in D, Op. 39",
+    "composer": "elgar",
+    "question": "Elgar conducting his own march in 1926–27 against a Chicago and a US Marine Band reading: tempo, trio breadth and the organ.",
+    "existingListenId": null,
+    "recordings": [
+      {
+        "id": "elgar-rah-1927",
+        "source": {
+          "archive": {
+            "item": "78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a",
+            "file": "Pomp and Circumstance (No. 1 - Royal Albert Hall Orchestra.mp3"
+          }
+        },
+        "performers": "Royal Albert Hall Orchestra, Sir Edward Elgar",
+        "recorded": "Queen’s Hall, London (IA); session date not established",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1927,
+          "licence": "No licence on the item",
+          "evidence": [
+            "https://archive.org/details/78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a"
+          ]
+        },
+        "duration": 264,
+        "rule": 3,
+        "territorial": true,
+        "releaseDateUnverified": true,
+        "notes": "MEAS: Great 78 transfer of the Victrola pressing (matrix 9016A, catalogue 9016-A, other ID CR331), IA date 1927. Electrical. The session date and the HMV release date are not established in my sources."
+      },
+      {
+        "id": "stock-cso-1926",
+        "source": {
+          "archive": {
+            "item": "78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b",
+            "file": "POMP AND CIRC - Chicago Symphony Orchestra and Grand Organ.mp3"
+          }
+        },
+        "performers": "Chicago Symphony Orchestra and Grand Organ, Frederick Stock",
+        "recorded": "1926 (IA date)",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1926,
+          "licence": "No licence on the item",
+          "evidence": [
+            "https://archive.org/details/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b"
+          ]
+        },
+        "duration": 265,
+        "rule": 3,
+        "territorial": true,
+        "notes": "MEAS: Victrola pressing, matrix 6648B, catalogue 6648-B (IA). Stock conducts; the IA creator field lists Elgar as composer."
+      },
+      {
+        "id": "usmb-pomp",
+        "source": {
+          "file": "File:ELGAR Pomp and Circumstance in D, Opus 39, No. 1 - United States Marine Band.mp3"
+        },
+        "performers": "United States Marine Band",
+        "recorded": "not stated",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-USGov-Marines",
+            "PD-USGov-Military-Marines"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3"
+          ]
+        },
+        "duration": 346,
+        "rule": 1,
+        "notes": "US government work; concert-band arrangement, modern recording."
+      }
+    ],
+    "rank": 13
+  },
+  {
+    "rank": 14,
+    "kind": "historic vs historic vs modern",
+    "work": "Waltz in C♯ minor, Op. 64 No. 2",
+    "composer": "chopin",
+    "question": "Paderewski (1917), de Pachmann (1925), Rummel (1943) and a modern pianist: four generations of rubato in one waltz.",
+    "recordings": [
+      {
+        "id": "paderewski-1917-waltz",
+        "source": {
+          "file": "File:Paderewski - Steinway grand piano.ogg"
+        },
+        "performers": "Ignacy Jan Paderewski, piano (Steinway)",
+        "recorded": "1917 (Commons)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1917,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-US"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Paderewski_-_Steinway_grand_piano.ogg"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 198,
+        "notes": "Commons tag PD-US; acoustic. The exact Victor matrix is not stated on the page.",
+        "rule": 2
+      },
+      {
+        "id": "pachmann-1925-waltz",
+        "source": {
+          "archive": {
+            "item": "hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
+            "file": "HMV_DB860_Cc_6260-1.mp3"
+          }
+        },
+        "performers": "Vladimir de Pachmann, piano",
+        "recorded": "June 1925, Hayes",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1925,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
+            "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 276,
+        "releaseDateUnverified": true,
+        "notes": "Side 2 of HMV DB 860 (Cc 6260-1): the Étude Op. 25 No. 3 followed by this waltz in one 4:36 file, so the waltz must be cut out. Release date unverified (see the Op. 27 No. 2 entry).",
+        "rule": 2
+      },
+      {
+        "id": "rummel-1943",
+        "source": {
+          "file": "File:PDP-CH - Walter Morse Rummel, piano - Waltz in C-sharp minor, Op. 64, No. 2 - Chopin - Gramophone-68063-2218ge9.flac"
+        },
+        "performers": "Walter Morse Rummel, piano",
+        "recorded": "18 January 1943 (Commons)",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1943,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Walter_Morse_Rummel,_piano_-_Waltz_in_C-sharp_minor,_Op._64,_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 266,
+        "territorial": true,
+        "notes": "First release 1943, so only territorial; Commons tag PD-old-70 (composer).",
+        "rule": 3
+      },
+      {
+        "id": "gurevich-op64-2",
+        "source": {
+          "file": "File:Chopin - Waltz No. 7 in C-sharp minor, Op. 64 No. 2 (Olga Gurevich).flac"
+        },
+        "performers": "Olga Gurevich, piano",
+        "recorded": "c. 2014 (Musopen)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._7_in_C-sharp_minor,_Op._64_No._2_(Olga_Gurevich).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 230,
+        "notes": "Modern recording; public-domain dedication on Commons.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 15,
+    "kind": "acoustic vs electrical, same singer",
+    "work": "Song of the Volga Boatmen (arr. Keneman)",
+    "composer": null,
+    "artist": "Fyodor Chaliapin",
+    "question": "Chaliapin’s “Volga Boatmen” in 1922 and 1927: what does the acoustic horn flatten, and what does the microphone restore?",
+    "recordings": [
+      {
+        "id": "chaliapin-volga-1922",
+        "source": {
+          "archive": {
+            "item": "78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a",
+            "file": "Song of the Volga Boatmen - Feodor Chaliapin.mp3"
+          }
+        },
+        "performers": "Fyodor Chaliapin, bass; orchestra, George W. Byng",
+        "recorded": "9 October 1922, Hayes (Gramophone matrix Cc1891, take 4)",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1922,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686",
+            "https://adp.library.ucsb.edu/index.php/objects/refer/162250",
+            "https://archive.org/details/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 202,
+        "notes": "MEAS: Victor 6058 (US, [1922]) coupling per DAHR; the same IA transfer exists in several copies (gbia0234238a, gbia7040685a, gbia0305689a). Acoustic.",
+        "rule": 2
+      },
+      {
+        "id": "chaliapin-volga-1927",
+        "source": {
+          "file": "File:PDP-CH - Feodor Chaliapin - The Song of the Volga Boatmen - Russian folk song - Fyodor Keneman - Gramophone-db1103-2-022051.flac"
+        },
+        "performers": "Fyodor Chaliapin, bass",
+        "recorded": "20 October 1927 (matrix CC-11709-1), per Commons",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1928,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Feodor_Chaliapin_-_The_Song_of_the_Volga_Boatmen_-_Russian_folk_song_-_Fyodor_Keneman_-_Gramophone-db1103-2-022051.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 204,
+        "territorial": true,
+        "notes": "HMV DB 1103, first release 1928 (Commons). Electrical. Commons tag is PD-old-70 (composer/arranger), not a recording-rights tag.",
+        "rule": 3
+      }
+    ],
+    "existingListenId": null,
+    "guest": {
+      "name": "Russian folk song"
+    },
+    "concert": false
+  },
+  {
+    "kind": "composer as performer",
+    "work": "Piano Concerto No. 2 in C minor, Op. 18 — II. Adagio sostenuto",
+    "composer": "rachmaninoff",
+    "question": "Rachmaninoff’s own 1929 Adagio sostenuto with Stokowski against Richter in 1959: how the famous slow movement is paced and phrased.",
+    "existingListenId": "rachmaninoff-concerto-2-adagio",
+    "recordings": [
+      {
+        "id": "rach-stokowski-1929-ii",
+        "source": {
+          "archive": {
+            "item": "78_concerto-no-2-in-c-minor-op-18-2nd-movement-1st-record_sergei-rachmaninoff-and_gbia7026859b",
+            "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 2nd Movement (1st Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+          }
+        },
+        "sources": [
+          {
+            "archive": {
+              "item": "78_concerto-no-2-in-c-minor-op-18-2nd-movement-1st-record_sergei-rachmaninoff-and_gbia7026859b",
+              "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 2nd Movement (1st Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+            }
+          },
+          {
+            "archive": {
+              "item": "78_concerto-no-2-in-c-minor-op-18-2nd-movement-2nd-record_sergei-rachmaninoff-and_gbia7026858a",
+              "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 2nd Movement (2nd Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+            }
+          },
+          {
+            "archive": {
+              "item": "78_concerto-no-2-in-c-minor-op-18-2nd-movement-3rd-record_sergei-rachmaninoff-and_gbia7026858b",
+              "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 2nd Movement (3rd Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+            }
+          },
+          {
+            "archive": {
+              "item": "78_concerto-no-2-in-c-minor-op-18-2nd-movement-4th-record_sergei-rachmaninoff-and_gbia7026857a",
+              "file": "CONCERTO NO. 2 IN C MINOR, OP. 18 2nd Movement (4th Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3"
+            }
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "Sergei Rachmaninoff, piano; Philadelphia Orchestra, Leopold Stokowski",
+        "recorded": "10 April 1929 (DAHR lists Victor CVE-48963 to 48967 on that date), Trinity Church, Camden",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1929,
+          "licence": "HMV (UK) pressings on the Internet Archive; no licence on the items",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/date/browse/1929-04-10",
+            "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-2nd-movement-1st-record_sergei-rachmaninoff-and_gbia7026859b"
+          ]
+        },
+        "duration": 672,
+        "rule": 3,
+        "territorial": true,
+        "notes": "MEAS: four HMV D.B. 1334–1336 sides (IA) joined: 3:05 + 2:34 + 2:46 + 2:47 = 11:12. Same 10 April 1929 Victor session (DAHR date page), UK HMV pressings. Excluded duplicate: the CC BY-NC-SA item named above."
+      },
+      {
+        "id": "richter-1959-ii",
+        "role": "existing",
+        "source": {
+          "file": "File:Sergei Rachmaninov - Concerto no. 2 for Piano and Orchestra in C minor - 2. Adagio sostenuto (Sviatoslav Richter, Stanisław Wisłocki, Warsaw National Philharmonic Orchestra, 1959).flac"
+        },
+        "performers": "Sviatoslav Richter, Warsaw National Philharmonic Orchestra, Stanisław Wisłocki",
+        "recorded": "1959",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-EU-audio"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_2._Adagio_sostenuto_(Sviatoslav_Richter,_Stanisław_Wisłocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac"
+          ]
+        },
+        "duration": 714,
+        "rule": 1,
+        "territorial": true,
+        "notes": "The recording already on the site (Commons tag PD-EU-audio)."
+      }
+    ],
+    "rank": 16
+  },
+  {
+    "rank": 17,
+    "kind": "historic vs modern",
+    "work": "Symphony No. 6 in B minor, Op. 74 (“Pathétique”) — IV. Finale: Adagio lamentoso",
+    "composer": "tchaikovsky",
+    "question": "Furtwängler in Berlin, 1938, against a modern orchestra on the same finale: ten minutes each, but how differently is the grief paced?",
+    "recordings": [
+      {
+        "id": "furtwangler-1938",
+        "source": {
+          "file": "File:Tchaikovsky - Pathétique - Wilhelm Furtwängler - IV. Finale - Adagio lamentoso.ogg"
+        },
+        "performers": "Berlin Philharmonic Orchestra, Wilhelm Furtwängler",
+        "recorded": "October–November 1938 (Commons)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-EU-audio",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Path%C3%A9tique_-_Wilhelm_Furtw%C3%A4ngler_-_IV._Finale_-_Adagio_lamentoso.ogg"
+          ],
+          "ruleLabel": "Commons PD-EU-audio"
+        },
+        "duration": 609,
+        "territorial": true,
+        "notes": "Commons tag PD-EU-audio. Four other Commons files give the other movements. First-release year not stated on the page.",
+        "rule": 1
+      },
+      {
+        "id": "musopen-tchaik6-iv",
+        "role": "existing",
+        "source": {
+          "file": "File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - IV. Finale – Adagio lamentoso (Musopen Symphony).flac"
+        },
+        "performers": "Musopen Symphony",
+        "recorded": "",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No._6_in_B_minor,_Op._74_%27Path%C3%A9tique%27_-_IV._Finale_%E2%80%93_Adagio_lamentoso_(Musopen_Symphony).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 619,
+        "notes": "The recording already on the site.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "tchaikovsky-6-finale"
+  },
+  {
+    "rank": 18,
+    "kind": "composer as performer",
+    "work": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”)",
+    "composer": "chopin",
+    "question": "Rachmaninoff the Chopin interpreter, 1923: how does a composer-pianist play a miniature against two modern recordings?",
+    "recordings": [
+      {
+        "id": "rach-1923-minute",
+        "source": {
+          "file": "File:Minute Waltz, by Chopin - Performed by Sergej Rachmaninoff.ogg"
+        },
+        "performers": "Sergei Rachmaninoff, piano (Steinway)",
+        "recorded": "5 April 1923, Camden (take 5), per Commons and DAHR",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1923,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Not-PD-US-record-expired-min-year",
+            "PD-US-record-expired"
+          ],
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/matrix/refer/700009401",
+            "https://commons.wikimedia.org/wiki/File:Minute_Waltz,_by_Chopin_-_Performed_by_Sergej_Rachmaninoff.ogg"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 121,
+        "notes": "MEAS: DAHR B-24192: take 3 (2 April 1921, Victor 64971) was superseded by take 5 (5 April 1923, Victor 815). Commons tag PD-US-record-expired. Acoustic.",
+        "rule": 2
+      },
+      {
+        "id": "gurevich-op64-1",
+        "source": {
+          "file": "File:Chopin - Waltz No. 6 in D-flat major, Op. 64, No. 1 'Minute' (Olga Gurevich).flac"
+        },
+        "performers": "Olga Gurevich, piano",
+        "recorded": "c. 2014",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._6_in_D-flat_major,_Op._64,_No._1_%27Minute%27_(Olga_Gurevich).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 107,
+        "notes": "Modern recording; public-domain dedication on Commons.",
+        "rule": 1
+      },
+      {
+        "id": "nguyen-xuan-2007",
+        "source": {
+          "file": "File:Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg"
+        },
+        "performers": "Muriel Nguyen Xuan, piano",
+        "recorded": "2007",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2007,
+          "licence": "CC BY-SA 4.0",
+          "commonsTemplates": [
+            "Cc-by-sa-4.0,3.0,2.5,2.0,1.0",
+            "Cc-by-sa-all",
+            "GFDL",
+            "Self"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 120,
+        "notes": "CC BY-SA 4.0.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 19,
+    "kind": "historic vs modern",
+    "work": "Étude in G♯ minor, Op. 25 No. 6 (“Thirds”)",
+    "composer": "chopin",
+    "question": "Paderewski in 1923 against a modern pianist on the thirds étude: precision, tempo and the late-Romantic liberties.",
+    "recordings": [
+      {
+        "id": "paderewski-1923-op25-6",
+        "source": {
+          "archive": {
+            "item": "78_etude-in-g-sharp-minor_ignace-jan-paderewski-chopin_gbia0183841b",
+            "file": "Etude in G Sharp Minor - Ignace Jan Paderewski.mp3"
+          }
+        },
+        "performers": "Ignacy Jan Paderewski, piano",
+        "recorded": "4 May 1923 (Victor matrix B-27918), Camden",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1923,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/date/browse/1923-05-04",
+            "https://archive.org/details/78_etude-in-g-sharp-minor_ignace-jan-paderewski-chopin_gbia0183841b"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 130,
+        "notes": "MEAS: DAHR lists Victor B-27918 “Etude in G sharp minor”, Paderewski, 4 May 1923. Acoustic.",
+        "rule": 2
+      },
+      {
+        "id": "neeman-op25-6",
+        "source": {
+          "file": "File:Chopin - 12 Études, Op. 25 - No. 6 in G-Sharp minor 'Thirds' (Edward Neeman).flac"
+        },
+        "performers": "Edward Neeman, piano",
+        "recorded": "c. 2014",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_(Edward_Neeman).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 130,
+        "notes": "Modern recording; public-domain dedication on Commons.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 20,
+    "kind": "orchestral vs piano original",
+    "work": "Hungarian Rhapsody No. 2 in C♯ minor, S. 244/2",
+    "composer": "liszt",
+    "question": "Rachmaninoff’s 1919 piano record of the original against Stokowski’s and Goehr’s orchestral versions: which Liszt survives the orchestration?",
+    "recordings": [
+      {
+        "id": "rach-1919-hr2",
+        "source": {
+          "file": "File:Second Hungarian Rhapsody.ogg"
+        },
+        "performers": "Sergei Rachmaninoff, piano",
+        "recorded": "1919 (Commons; Library of Congress label “part I”)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1919,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Not-PD-US-record-expired-min-year",
+            "PD-Edison Records",
+            "PD-US"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Second_Hungarian_Rhapsody.ogg"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons PD-Edison / PD-US tags; Edison 82169-R, 1919)"
+        },
+        "duration": 249,
+        "notes": "Edison Diamond Disc 82169-R, part I only (4:09): the full rhapsody ran over two sides; part II not found on Commons. Acoustic.",
+        "rule": 2
+      },
+      {
+        "id": "stokowski-1936-hr2",
+        "source": {
+          "file": "File:PDP-CH - Philadelphia Orchestra - Stokowski - Hungarian Rhapsody No. 2 in C-sharp minor, S 244-2 - Liszt - Hmv-db3086-2a03100.flac"
+        },
+        "sources": [
+          {
+            "file": "File:PDP-CH - Philadelphia Orchestra - Stokowski - Hungarian Rhapsody No. 2 in C-sharp minor, S 244-2 - Liszt - Hmv-db3086-2a03100.flac"
+          },
+          {
+            "file": "File:PDP-CH - Philadelphia Orchestra - Stokowski - Hungarian Rhapsody No. 2 in C-sharp minor, S 244-2 - Liszt - Hmv-db3086-2a03101.flac"
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "Philadelphia Orchestra, Leopold Stokowski (arr. Müller-Berghaus)",
+        "recorded": "1936",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1937,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac",
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Hmv-db3086-2a03101.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 504,
+        "territorial": true,
+        "notes": "HMV DB 3086, two sides; first release July 1937; Commons tag PD-old-70.",
+        "rule": 3
+      },
+      {
+        "id": "goehr-1945-hr2",
+        "source": {
+          "file": "File:PDP-CH - National Symphony Orchestra of London, Walter Goehr - Hungarian Rhapsody No. 2 in C-sharp minor, S 244-2 - Liszt - Decca-k1321-ar9230.flac"
+        },
+        "sources": [
+          {
+            "file": "File:PDP-CH - National Symphony Orchestra of London, Walter Goehr - Hungarian Rhapsody No. 2 in C-sharp minor, S 244-2 - Liszt - Decca-k1321-ar9230.flac"
+          },
+          {
+            "file": "File:PDP-CH - National Symphony Orchestra of London, Walter Goehr - Hungarian Rhapsody No. 2 in C-sharp minor, S 244-2 - Liszt - Decca-k1321-ar9231.flac"
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "National Symphony Orchestra of London, Walter Goehr",
+        "recorded": "1945, Kingsway Hall",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1945,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London,_Walter_Goehr_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Decca-k1321-ar9230.flac",
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London,_Walter_Goehr_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Decca-k1321-ar9231.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 563,
+        "territorial": true,
+        "notes": "Decca K 1321, two sides; Commons tag PD-old-70.",
+        "rule": 3
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 21,
+    "kind": "historic vs historic",
+    "work": "Scheherazade, Op. 35 — III. The Young Prince and the Young Princess",
+    "composer": "rimsky-korsakov",
+    "question": "Stokowski’s Philadelphia in 1934 against Monteux in San Francisco in 1942 on the same movement: portamento, solo violin and pace.",
+    "recordings": [
+      {
+        "id": "stokowski-1934-sch3",
+        "source": {
+          "file": "File:Hmv-db2525-2a84519.ogg"
+        },
+        "sources": [
+          {
+            "file": "File:Hmv-db2525-2a84519.ogg"
+          },
+          {
+            "file": "File:Hmv-db2525-2a84520.ogg"
+          },
+          {
+            "file": "File:Hmv-db2526-2a84521.ogg"
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "Philadelphia Orchestra, Leopold Stokowski",
+        "recorded": "12 November 1934",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1935,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject-wmde"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Hmv-db2525-2a84519.ogg",
+            "https://commons.wikimedia.org/wiki/File:Hmv-db2525-2a84520.ogg",
+            "https://commons.wikimedia.org/wiki/File:Hmv-db2526-2a84521.ogg"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 642,
+        "territorial": true,
+        "notes": "HMV DB 2525–2526, three 78 sides to be joined; first release 1935; Commons tag PD-old-70.",
+        "rule": 3
+      },
+      {
+        "id": "monteux-1942-sch3",
+        "role": "existing",
+        "source": {
+          "file": "File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 03 The Young Prince And Princess.ogg"
+        },
+        "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
+        "recorded": "3–4 March 1942",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "CC0",
+          "commonsTemplates": [
+            "Cc-zero"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov._Scheherazade,_Symphonic_Suite,_Op._35_-_03_The_Young_Prince_And_Princess.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 496,
+        "notes": "The recording already on the site (Commons CC0).",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "rimsky-korsakov-scheherazade-prince"
+  },
+  {
+    "rank": 22,
+    "kind": "orchestral transcription vs original",
+    "work": "Toccata and Fugue in D minor, BWV 565",
+    "composer": "bach",
+    "question": "Stokowski’s 1927 orchestral transcription against a plain organ performance: what did Romantic orchestration add to Bach, and what did it hide?",
+    "recordings": [
+      {
+        "id": "stokowski-1927-toccata",
+        "source": {
+          "file": "File:PDP-CH - Philadelphia Orchestra, Leopold Stokowski - Toccata and Fugue in D minor, BWV 565 - Bach - Hmv-d1428-5-0761.flac"
+        },
+        "sources": [
+          {
+            "file": "File:PDP-CH - Philadelphia Orchestra, Leopold Stokowski - Toccata and Fugue in D minor, BWV 565 - Bach - Hmv-d1428-5-0761.flac"
+          },
+          {
+            "file": "File:PDP-CH - Philadelphia Orchestra, Leopold Stokowski - Toccata and Fugue in D minor, BWV 565 - Bach - Hmv-d1428-5-0762.flac"
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "Philadelphia Orchestra, Leopold Stokowski (Stokowski’s own orchestration)",
+        "recorded": "6 April 1927, Academy of Music, Philadelphia",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1927,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra,_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor,_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac",
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra,_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor,_BWV_565_-_Bach_-_Hmv-d1428-5-0762.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 522,
+        "territorial": true,
+        "notes": "HMV D 1428, two sides; early electrical; first release 1927 per Commons; Commons tag PD-old-70. The orchestrator is not named on the Commons page (“none”); Stokowski’s authorship is general knowledge, unverified here.",
+        "rule": 3
+      },
+      {
+        "id": "schenk-2017-toccata",
+        "source": {
+          "file": "File:Bach, Toccata und Fuge d-moll BWV 565, Norbert Schenk.mp3"
+        },
+        "performers": "Norbert Schenk, organ (Evangelische Kirche Solms-Albshausen)",
+        "recorded": "2017",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2017,
+          "licence": "CC BY 4.0",
+          "commonsTemplates": [
+            "Cc-by-4.0"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Bach,_Toccata_und_Fuge_d-moll_BWV_565,_Norbert_Schenk.mp3"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 464,
+        "notes": "CC BY 4.0; church acoustics.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 23,
+    "kind": "historic vs modern",
+    "work": "Nutcracker Suite — Waltz of the Flowers",
+    "composer": "tchaikovsky",
+    "question": "Stokowski (1934), Robinson (1945) and a US Air Force concert band (existing): the waltz as symphonic showpiece, ballet music and band feature.",
+    "recordings": [
+      {
+        "id": "stokowski-1934-wotf",
+        "source": {
+          "file": "File:PDP-CH - Philadelphia Orchestra - Leopold Stokowski - Nutcracker Suite, Opus 71A - Tchaikovsky - Waltz of the Flowers, Part 1 - Hmv-db2542-2a87004.flac"
+        },
+        "sources": [
+          {
+            "file": "File:PDP-CH - Philadelphia Orchestra - Leopold Stokowski - Nutcracker Suite, Opus 71A - Tchaikovsky - Waltz of the Flowers, Part 1 - Hmv-db2542-2a87004.flac"
+          },
+          {
+            "file": "File:PDP-CH - Philadelphia Orchestra - Leopold Stokowski - Nutcracker Suite, Opus 71A - Tchaikovsky - Waltz of the Flowers, Part 2 - Hmv-db2542-2a87005.flac"
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "Philadelphia Orchestra, Leopold Stokowski",
+        "recorded": "1934, Camden, New Jersey",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1934,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Leopold_Stokowski_-_Nutcracker_Suite,_Opus_71A_-_Tchaikovsky_-_Waltz_of_the_Flowers,_Part_1_-_Hmv-db2542-2a87004.flac",
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Leopold_Stokowski_-_Nutcracker_Suite,_Opus_71A_-_Tchaikovsky_-_Waltz_of_the_Flowers,_Part_2_-_Hmv-db2542-2a87005.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 364,
+        "territorial": true,
+        "notes": "HMV DB 2542, two sides. Commons part-2 title is “Part 2”; tag PD-old-70.",
+        "rule": 3
+      },
+      {
+        "id": "robinson-1945-wotf",
+        "source": {
+          "file": "File:PDP-CH - National Symphony Orchestra of London - Stanford Robinson, conductor - The Nutcracker Suite, Op. 71 - Waltz of the Flowers - Tchaikovsky - Decca-k1144-ar9079.flac"
+        },
+        "sources": [
+          {
+            "file": "File:PDP-CH - National Symphony Orchestra of London - Stanford Robinson, conductor - The Nutcracker Suite, Op. 71 - Waltz of the Flowers - Tchaikovsky - Decca-k1144-ar9079.flac"
+          },
+          {
+            "file": "File:PDP-CH - National Symphony Orchestra of London - Stanford Robinson, conductor - The Nutcracker Suite, Op. 71 - Waltz of the Flowers - Tchaikovsky - Decca-k1144-ar9080.flac"
+          }
+        ],
+        "partsNote": "consecutive 78 sides; join in this order",
+        "performers": "National Symphony Orchestra of London, Stanford Robinson",
+        "recorded": "18 January 1945, Kingsway Hall",
+        "rights": {
+          "basis": "eu-published-before-1963",
+          "published": 1945,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-old-70",
+            "Pdproject",
+            "Pdproject/source url"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson,_conductor_-_The_Nutcracker_Suite,_Op._71_-_Waltz_of_the_Flowers_-_Tchaikovsky_-_Decca-k1144-ar9079.flac",
+            "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson,_conductor_-_The_Nutcracker_Suite,_Op._71_-_Waltz_of_the_Flowers_-_Tchaikovsky_-_Decca-k1144-ar9080.flac"
+          ],
+          "ruleLabel": "EU public domain (territorial): first published before 1963; Commons tag is composition-only"
+        },
+        "duration": 399,
+        "territorial": true,
+        "notes": "Decca K 1144, two sides; first release September 1945.",
+        "rule": 3
+      },
+      {
+        "id": "usaf-wotf",
+        "role": "existing",
+        "source": {
+          "file": "File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3"
+        },
+        "performers": "United States Air Force Band, Concert Band",
+        "recorded": "1996",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1996,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-USGov-Military-Air Force",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 450,
+        "notes": "The recording already on the site.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "tchaikovsky-waltz-flowers"
+  },
+  {
+    "rank": 24,
+    "kind": "acoustic eras",
+    "work": "Vesti la giubba (Pagliacci)",
+    "composer": null,
+    "artist": "Enrico Caruso",
+    "question": "Caruso sang the aria first in 1902 with piano, then in 1907 with orchestra: voice, tempo and horn technique five years apart.",
+    "recordings": [
+      {
+        "id": "caruso-1902",
+        "source": {
+          "archive": {
+            "item": "78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a",
+            "file": "Vesti la Giubba (On with the Motley) - Enrico Caruso.mp3"
+          }
+        },
+        "performers": "Enrico Caruso, tenor, piano",
+        "recorded": "1902 (G&T matrix 2875 B, catalogue 52440 / V.A.30 per IA)",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1902,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://archive.org/details/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a",
+            "https://archive.org/details/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 123,
+        "notes": "MEAS: IA (Great 78) gives matrix 2875 B, “Acoustic”, date 1902; no DAHR page opened for it. 2:03, so it is a short abridged side.",
+        "rule": 2
+      },
+      {
+        "id": "caruso-1907",
+        "source": {
+          "archive": {
+            "item": "I_Pagliacci_Vesti_La_Giubba",
+            "file": "I_Pagliacci_Vesti_La_Giubba.mp3"
+          }
+        },
+        "performers": "Enrico Caruso, tenor, with orchestra",
+        "recorded": "17 March 1907, New York (Victor 88061)",
+        "rights": {
+          "basis": "archive-licence-url",
+          "published": 1907,
+          "licence": "Public domain (IA licence URL)",
+          "licenceUrl": "http://creativecommons.org/licenses/publicdomain/",
+          "evidence": [
+            "https://archive.org/details/I_Pagliacci_Vesti_La_Giubba",
+            "https://archive.org/details/I_Pagliacci_Vesti_La_Giubba"
+          ],
+          "ruleLabel": "Internet Archive public-domain licence URL"
+        },
+        "duration": 193,
+        "notes": "MEAS: IA item has a public-domain licence URL; description says third recording of the piece. Acoustic; transfer by Bob Varney.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null,
+    "guest": {
+      "name": "Ruggero Leoncavallo",
+      "born": 1857,
+      "died": 1919
+    },
+    "concert": false
+  },
+  {
+    "rank": 25,
+    "kind": "historic vs modern",
+    "work": "Le Cygne (The Swan), from Carnival of the Animals",
+    "composer": null,
+    "question": "A cellist in 1925 against a modern cellist in the most famous cello solo: portamento, tempo and vibrato.",
+    "recordings": [
+      {
+        "id": "bokor-1925",
+        "source": {
+          "file": "File:Judith Bokor plays Le Cygne by Saint-Saëns.flac"
+        },
+        "performers": "Judith Bokor, cello",
+        "recorded": "5 June 1925 (Commons)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1925,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-US-expired",
+            "PD-old-70"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 154,
+        "notes": "Columbia D 9768 / Polyphon 31314 per Commons; Commons tags PD-US-expired and PD-old-70. Whether acoustic or electrical is not stated.",
+        "rule": 2
+      },
+      {
+        "id": "weilerstein-2009",
+        "source": {
+          "file": "File:20091104 Alisa Weilerstein and Jason Yoder - Saint Saëns' The Swan.ogg"
+        },
+        "performers": "Alisa Weilerstein, cello; Jason Yoder, piano",
+        "recorded": "4 November 2009, White House",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2009,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "CC-BY-3.0",
+            "Cc-by-3.0",
+            "PD-USGov",
+            "PD-old-100",
+            "PD-release",
+            "PD-self"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 176,
+        "notes": "US government work (Whitehouse.gov); public domain on Commons.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null,
+    "guest": {
+      "name": "Camille Saint-Saëns",
+      "born": 1835,
+      "died": 1921
+    },
+    "concert": false
+  },
+  {
+    "rank": 26,
+    "kind": "historic vs modern",
+    "work": "Prélude: La cathédrale engloutie",
+    "composer": "debussy",
+    "question": "Marcelle Meyer in 1956 against a modern pianist: pedalling, tempo and the bell sonorities of the sunken cathedral.",
+    "recordings": [
+      {
+        "id": "meyer-1956",
+        "role": "existing",
+        "source": {
+          "file": "File:Claude Debussy - Préludes (Livre I) - X. La Cathédrale engloutie (Marcelle Meyer, 1956).flac"
+        },
+        "performers": "Marcelle Meyer, piano",
+        "recorded": "1956",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1956,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Not-PD-US-record-expired-min-year",
+            "PD-EU-audio",
+            "PD-US-record",
+            "PD-old-70-1923",
+            "PD-old-70-expired",
+            "PD-old-X-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Claude_Debussy_-_Pr%C3%A9ludes_(Livre_I)_-_X._La_Cath%C3%A9drale_engloutie_(Marcelle_Meyer,_1956).flac"
+          ],
+          "ruleLabel": "Commons PD-EU-audio"
+        },
+        "duration": 340,
+        "territorial": true,
+        "notes": "The recording already on the site (Commons tag PD-EU-audio).",
+        "rule": 1
+      },
+      {
+        "id": "ilic-2006",
+        "source": {
+          "file": "File:La Cathédrale engloutie - Claude Debussy - performed by Ivan Ilic.ogg"
+        },
+        "performers": "Ivan Ilić, piano",
+        "recorded": "April 2006, Paris",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2006,
+          "licence": "CC BY 3.0",
+          "commonsTemplates": [
+            "Cc-by-3.0",
+            "Self"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 325,
+        "notes": "CC BY 3.0.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "debussy-cathedrale-engloutie"
+  },
+  {
+    "rank": 27,
+    "kind": "instrument transcription",
+    "work": "Nocturne in E♭ major, Op. 9 No. 2 (piano against Sarasate’s violin arrangement)",
+    "composer": "chopin",
+    "question": "Elman’s violin transcription (Victor, 1910) against two pianists: how a nocturne changes when the vocal line is played on a violin.",
+    "recordings": [
+      {
+        "id": "elman-1910",
+        "source": {
+          "file": "File:Mischa Elman - Nocturne in E flat major, Op 9 No 2.mp3"
+        },
+        "performers": "Mischa Elman, violin; Percy B. Kahn, piano (arr. Sarasate)",
+        "recorded": "9 April 1910, New York (take 2, Victor C-8813)",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 1912,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Not-PD-US-record-expired-min-year",
+            "PD-US-record-expired"
+          ],
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/matrix/refer/200008912",
+            "https://commons.wikimedia.org/wiki/File:Mischa_Elman_-_Nocturne_in_E_flat_major,_Op_9_No_2.mp3"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
+        },
+        "duration": 260,
+        "notes": "MEAS: DAHR C-8813 take 2 (9 April 1910, Kahn) issued as Victor 74052; a remake take 6 (30 December 1915, Walter Golde) is on the same catalogue number with a “questionable” issue note, so the take on this file should be checked. Commons tag PD-US-record-expired. Acoustic.",
+        "rule": 2
+      },
+      {
+        "id": "levy-op9-2",
+        "source": {
+          "file": "File:Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac"
+        },
+        "performers": "Frank Lévy, piano",
+        "recorded": "c. 2014",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 271,
+        "notes": "Public-domain dedication on Commons.",
+        "rule": 1
+      },
+      {
+        "id": "prati-op9-2",
+        "source": {
+          "file": "File:Fryderyk Chopin - Nocturne op. 9 n.2 Es-dur - Patrizia Prati.ogg"
+        },
+        "performers": "Patrizia Prati, piano",
+        "recorded": "2015",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2015,
+          "licence": "CC BY-SA 4.0",
+          "commonsTemplates": [
+            "Cc-by-sa-4.0",
+            "Self"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 302,
+        "notes": "CC BY-SA 4.0.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  },
+  {
+    "rank": 28,
+    "kind": "instrument transcription",
+    "work": "Gymnopédie No. 1",
+    "composer": "satie",
+    "question": "Satie’s piano piece in a guitar arrangement against the piano original: how the slow dissonant sevenths bloom or fade.",
+    "recordings": [
+      {
+        "id": "alciatore-gym1",
+        "role": "existing",
+        "source": {
+          "file": "File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg"
+        },
+        "performers": "Robin Alciatore, piano",
+        "recorded": "c. 2008",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2008,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 184,
+        "notes": "The recording already on the site.",
+        "rule": 1
+      },
+      {
+        "id": "laucke-gym1",
+        "source": {
+          "file": "File:Satie Gymnopedie No 1 performed by Michael Laucke.flac"
+        },
+        "performers": "Michael Laucke, guitar (arrangement by the performer)",
+        "recorded": "23 July 2001",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2001,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "Cc-by-sa-4.0",
+            "PD-because",
+            "Self"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 172,
+        "notes": "Public domain per Commons; guitar transcription, not the piano original.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "satie-gymnopedie-1"
+  },
+  {
+    "rank": 29,
+    "kind": "modern vs modern",
+    "work": "The Four Seasons: Spring — I. Allegro",
+    "composer": "vivaldi",
+    "question": "A modern-instrument chamber ensemble (existing) against the Modena Chamber Orchestra: sound, tempo and bird-call ornament in the opening.",
+    "recordings": [
+      {
+        "id": "harrison-wichita-spring",
+        "role": "existing",
+        "source": {
+          "file": "File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga"
+        },
+        "performers": "John Harrison, violin; Wichita State University Chamber Players, Robert Turizziani",
+        "recorded": "6 February 2000",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2000,
+          "licence": "CC BY-SA 4.0",
+          "commonsTemplates": [
+            "Cc-by-sa-1.0+"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 215,
+        "notes": "The recording already on the site.",
+        "rule": 1
+      },
+      {
+        "id": "modena-spring",
+        "source": {
+          "file": "File:The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg"
+        },
+        "performers": "The Modena Chamber Orchestra",
+        "recorded": "",
+        "rights": {
+          "basis": "commons-licence",
+          "published": null,
+          "licence": "PDM-owner",
+          "commonsTemplates": [
+            "PDMark-owner",
+            "PDMark-owner/link"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring,_RV_269_-_I._Allegro.ogg"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 214,
+        "notes": "Commons licence “PDM-owner”; pitch adjusted 20 cents down by the uploader; short at 3:34, may be abridged or fast.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": "vivaldi-spring-allegro"
+  },
+  {
+    "rank": 30,
+    "kind": "historic vs modern",
+    "work": "Étude in G♭ major, Op. 10 No. 5 (“Black Keys”)",
+    "composer": "chopin",
+    "question": "Cortot in 1920 and a modern pianist on the black-key étude: the speed of the right hand and the shape of the left.",
+    "recordings": [
+      {
+        "id": "cortot-1920-medley",
+        "source": {
+          "archive": {
+            "item": "78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a",
+            "file": "Etude in G Flat Major (Black Keys); Etude  - Alfred Cortot.mp3"
+          }
+        },
+        "performers": "Alfred Cortot, piano",
+        "recorded": "22 April 1920 (take 2), Camden",
+        "rights": {
+          "basis": "us-published-before-cutoff",
+          "published": 1920,
+          "licence": "US public domain: sound recording first published in or before 1925",
+          "evidence": [
+            "https://adp.library.ucsb.edu/index.php/matrix/detail/700009148/B-23953-Etude_in_G_flat_op._10_no._5_Black_keys",
+            "https://archive.org/details/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a"
+          ],
+          "ruleLabel": "US public domain: first published in or before 1925"
+        },
+        "duration": 163,
+        "notes": "Same medley file as the Op. 25 No. 9 entry: the first half is Op. 10 No. 5.",
+        "rule": 2
+      },
+      {
+        "id": "neeman-op10-5",
+        "source": {
+          "file": "File:Chopin - 12 Études, Op. 10 - No. 5 in G-Flat major 'Black Keys' (Edward Neeman).flac"
+        },
+        "performers": "Edward Neeman, piano",
+        "recorded": "c. 2014",
+        "rights": {
+          "basis": "commons-licence",
+          "published": 2014,
+          "licence": "Public domain",
+          "commonsTemplates": [
+            "PD-author",
+            "PD-old-X-expired",
+            "PD-old-auto-expired"
+          ],
+          "evidence": [
+            "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._5_in_G-Flat_major_%27Black_Keys%27_(Edward_Neeman).flac"
+          ],
+          "ruleLabel": "Commons licence covers the recording (CC / performer release / US government / owner dedication)"
+        },
+        "duration": 111,
+        "notes": "Modern recording; public-domain dedication on Commons.",
+        "rule": 1
+      }
+    ],
+    "existingListenId": null
+  }
+]

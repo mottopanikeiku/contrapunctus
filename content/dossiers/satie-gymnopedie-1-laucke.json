@@ -1,0 +1,42 @@
+{
+  "id": "satie-gymnopedie-1-laucke",
+  "work": {
+    "title": "Trois Gymnopédies",
+    "catalogue": "",
+    "movement": "I. Lent et douloureux",
+    "version": { "value": "Michael Laucke’s arrangement for solo guitar", "status": "documented", "sourceIds": ["commons"], "note": "The performer’s description says the arrangement retains the piano original’s notes within six strings. This is the arranger’s statement, not an editorial note-by-note certification. Pitch-class comparison with the D-major piano recording supports a transposition to A; exact guitar voicings and octaves have not been score-aligned." }
+  },
+  "performers": { "value": [{ "name": "Michael Laucke", "role": "guitar; arranger" }], "status": "documented", "sourceIds": ["commons"], "note": "The file title names the performer; the summary credits his Commons account Mlaucke and describes his arrangement." },
+  "session": {
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "Commons gives 23 July 2001 as the work/file date, but does not explicitly identify it as the session date. The listening page preserves it only as a source date; the 19 November 2015 upload is not a recording date.", "precision": null },
+    "place": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "The file page does not identify a recording venue." }
+  },
+  "carrier": {
+    "label": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "The file is described as the uploader’s own work; no source release or carrier label is established." },
+    "catalogue": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No carrier catalogue number is supplied." },
+    "matrixTakeSides": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No matrix, take or physical source identifier is supplied." }
+  },
+  "transfer": {
+    "credits": { "value": "Mlaucke uploaded the FLAC to Wikimedia Commons", "status": "documented", "sourceIds": ["commons"], "note": "Upload credit does not establish a recording or mastering engineer." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No transfer or mastering date is supplied. Commons records upload on 19 November 2015 and its MP3 transcode on 25 February 2026." },
+    "processing": { "value": "FLAC source; Wikimedia Commons MP3 access derivative", "status": "documented", "sourceIds": ["commons"], "note": "No original editing or mastering procedure is documented. Playback is unchanged. For comparison only, tools/compare.py rotates the guitar’s chroma features by five semitones upwards (--transpose-b -5); this changes neither the stream nor its time axis." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac/Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac.mp3",
+    "sourceChain": ["commons"],
+    "format": "MP3 access derivative of the Commons FLAC",
+    "durationSeconds": 171.89
+  },
+  "rights": {
+    "composition": { "value": "Public-domain underlying piano composition, as stated on Commons", "status": "documented", "sourceIds": ["commons", "score"], "note": "The page’s PD-because explanation concerns Satie’s death in 1925. It does not dedicate Laucke’s performance or arrangement to the public domain." },
+    "recording": { "value": "CC BY-SA 4.0 International", "status": "documented", "sourceIds": ["commons", "licence"], "note": "Accepted under the recording-licence rule. The copyright-holder declaration explicitly releases this work under CC BY-SA 4.0; Commons records VRT permission ticket 2016052310032124. The API’s Public domain summary conflates the composition tag with the recording and is not used as the recording’s licence." },
+    "creditLine": "Erik Satie, Gymnopédie No. 1; arranged and performed by Michael Laucke (Mlaucke). Source date 23 July 2001; session date not established. Via Wikimedia Commons, CC BY-SA 4.0; streamed without editorial audio alteration.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — Satie Gymnopedie No 1 performed by Michael Laucke.flac", "url": "https://commons.wikimedia.org/wiki/File:Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac", "locator": "Summary, Licensing, VRT ticket 2016052310032124, file history and transcode status; page read directly.", "accessed": "2026-10-17" },
+    { "id": "licence", "title": "Creative Commons Attribution-ShareAlike 4.0 International", "url": "https://creativecommons.org/licenses/by-sa/4.0/", "locator": "Recording licence linked by the copyright-holder declaration on Commons.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Mutopia 37 — Satie, Gymnopédie No. 1", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37", "locator": "Evin Robertson’s public-domain piano encoding; local gymnopedie_1.ly, opening and alternative endings. It is not Laucke’s guitar score.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

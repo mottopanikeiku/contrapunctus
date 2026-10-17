@@ -1,0 +1,219 @@
+{
+  "id": "mahler-9-landler",
+  "work": {
+    "title": "Symphony No. 9",
+    "catalogue": "GMW 50",
+    "movement": "II. Im Tempo eines gemächlichen Ländlers",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "catalogue"
+      ],
+      "note": "The recording sources identify the complete movement but do not establish the performing edition or any local alterations. The 1912 full score is used as a structural reference, not proof of the parts on the 1938 desks."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Vienna Philharmonic",
+        "role": "orchestra"
+      },
+      {
+        "name": "Bruno Walter",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "programme",
+      "loc"
+    ],
+    "note": "Commons, the surviving concert-programme catalogue and the Library of Congress essay agree on orchestra and conductor."
+  },
+  "session": {
+    "date": {
+      "value": "1938-01-16",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "programme",
+        "loc",
+        "pristine"
+      ],
+      "note": "16 January is the documented public concert date. Pristine gives 15–16 January 1938 for its reissue; the inspected evidence does not establish whether any rehearsal material entered the issued matrices. The Commons embedded “1962” digitising tag is not accepted as a performance or transfer date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Großer Musikvereinssaal, Vienna, Austria",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "programme",
+        "loc"
+      ],
+      "note": "The concert-programme catalogue names the hall and city; Commons uses Musikvereinsaal de Vienne."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "pristine"
+      ],
+      "note": "Commons names only an unspecified audio CD. HMV made the original 78-rpm issue, but the CD label used for this upload has not been identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "pristine"
+      ],
+      "note": "The source CD catalogue number is unknown. Pristine documents the historical ten-disc HMV set as DB 8569–8578; that does not identify the carrier transferred for Commons."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "pristine",
+        "dahr"
+      ],
+      "note": "Pristine lists the original complete-set matrix series 2VH 7027–7046. The inspected DAHR composer listing did not establish a matrix/take match for this digital source; no exhaustive absence is claimed. Specific takes and a verified movement-to-matrix mapping remain unestablished, so the complete-set series is not presented as a side identification for this file."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "loc",
+        "pristine"
+      ],
+      "note": "No engineer for the source CD or Commons transfer is identified. Gaisberg was the original recording producer and Charlie Gregory the recording engineer, not established digital-transfer credits. Andrew Rose’s named 2013 Pristine transfer is a different reissue and is not the source of this Commons upload."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "No transfer date is established. The embedded digitising value 1962 is not corroborated as a transfer date and is not used as one; neither upload nor release dates substitute for it."
+    },
+    "processing": {
+      "value": "Commons supplies an Ogg Vorbis file and an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "Embedded metadata names Xiph.Org libVorbis I 20100325 (Everywhere). The original 1938 performance was cut on alternating wax-recording machines, but the intervening CD restoration, equalisation, edits and mastering are not identified for this file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Mahler_-_Symphony_N%C2%B0_9_-_II_%28B._Walter%2C_1938%29.ogg/Mahler_-_Symphony_N%C2%B0_9_-_II_%28B._Walter%2C_1938%29.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis from an unidentified audio CD",
+    "durationSeconds": 946.04
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "loc",
+        "eu-term"
+      ],
+      "note": "Mahler died in 1911. This is a term calculation for the composition, not worldwide clearance of an unidentified edition or transfer."
+    },
+    "recording": {
+      "value": "Territorial: Commons applies PD-EU-audio to the sound recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pd-eu"
+      ],
+      "note": "The inspected template expressly concerns expired performer and producer rights in the European Union. This package is admitted on that territorial recording-rights basis, not merely the composition’s age. United States status is not established; no worldwide public-domain clearance is asserted."
+    },
+    "creditLine": "Gustav Mahler, Symphony No. 9, II. Im Tempo eines gemächlichen Ländlers; Vienna Philharmonic, Bruno Walter, conductor. Public concert, 16 January 1938, Großer Musikvereinssaal, Vienna. Unidentified audio CD via Wikimedia Commons; recording tagged PD-EU-audio (territorial, not established as US public domain).",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Mahler - Symphony N° 9 - II (B. Walter, 1938).ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mahler_-_Symphony_N%C2%B0_9_-_II_(B._Walter,_1938).ogg",
+      "locator": "File-description Summary, date, performers, source “Cd audio”, Licensing PD-EU-audio, duration and MP3 transcode. The recording-specific template was inspected separately from generic Public domain metadata.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — embedded recording metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Mahler_-_Symphony_N%C2%B0_9_-_II_(B._Walter,_1938).ogg#Metadata",
+      "locator": "Ogg metadata: digitising field 1962 and Xiph.Org libVorbis I 20100325 (Everywhere). These tags do not independently date the performance, CD issue or transfer.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "programme",
+      "title": "International Gustav Mahler Society — Wiener Philharmoniker 1937/38, fifth subscription concert",
+      "url": "https://www.gustav-mahler.org/libraryid/10405",
+      "locator": "Original printed programme V-002-001296: 16 January 1938; Großer Musikvereinssaal, Vienna; Vienna Philharmonic and Bruno Walter; Mahler Ninth and Mozart K. 504.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "loc",
+      "title": "Erik Ryding — Mahler Symphony No. 9: Bruno Walter, conductor; Vienna Philharmonic Orchestra (1938)",
+      "url": "https://lcweb2.loc.gov/static/programs/national-recording-preservation-board/documents/MahlerSymphonyNo9.pdf",
+      "locator": "National Recording Registry essay, added 2015, pp. 1–4: premiere, performance date, Gaisberg and Gregory, alternating wax machines, Walter’s later account, and historical context.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "pristine",
+      "title": "Pristine Classical PASC389 — Walter Mahler Symphony No. 9 (1938)",
+      "url": "https://www.pristineclassical.com/products/pasc389",
+      "locator": "Reissue metadata: 15–16 January 1938; HMV DB 8569–8578; matrices 2VH 7027–7046; Andrew Rose’s separate 2013 transfer. Reproduced Gramophone review gives side allocation. Not a proven source in the Commons transfer chain.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr",
+      "title": "Discography of American Historical Recordings — Gustav Mahler",
+      "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/102815/Mahler_Gustav",
+      "locator": "Composer discography consulted as a matrix-identification lead. The inspected listing did not establish the Walter Ninth’s takes or identify the source CD; it is not cited as proof of absence from DAHR.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "catalogue",
+      "title": "Mahler-Online — Symphony No. 9, GMW 50",
+      "url": "https://acdh-ch.pages.oeaw.ac.at/muwi/mahler-mei/mahler-wv-static/GMW_050.html",
+      "locator": "Work identity, 1909–10 composition history, Toblach/New York, manuscript stages, 26 June 1912 premiere and first publication.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary authorial life-plus-70 term and calculation from the following 1 January. No universal recording clearance is inferred.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "pd-eu",
+      "title": "Wikimedia Commons — PD-EU-audio recording-rights template",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template states expiry of performer and producer rights for the sound recording in the EU; documentation distinguishes those rights from copyright in the underlying composition.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

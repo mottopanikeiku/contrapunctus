@@ -1,0 +1,21 @@
+export default {
+  id: 'rimsky-korsakov-prophet-chaliapin-1927',
+  composer: 'rimsky-korsakov',
+  concert: false,
+  order: 21,
+  work: 'The Prophet, Op. 49 No. 2',
+  movement: '',
+  year: '1897',
+  key: '',
+  forces: 'Bass voice and orchestra',
+  performers: 'Fyodor Chaliapin, bass; orchestra conducted by Albert Coates',
+  recorded: '1927, London',
+  source: {
+    file: 'File:PDP-CH - Feodor Chaliapin - The Prophet, Op. 49 - Rimsky-Korsakov - Pushkin - Gramophone-db1103-2-022043.flac',
+    rights: { basis: 'eu-published-before-1963', published: 1928, evidence: ['https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022043'] },
+  },
+  intro: 'Chaliapin’s 1927 remake pairs the same Pushkin setting with Albert Coates’s orchestral accompaniment. The source documents a 1928 release; recording rights are territorial European public domain, with US status unestablished.',
+  question: 'What changes when the same singer returns to the same text?',
+  sections: [],
+  cues: [],
+};

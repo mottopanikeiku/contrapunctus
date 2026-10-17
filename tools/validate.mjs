@@ -148,9 +148,10 @@ for (const f of files) {
 
   if (f.includes('/listen/')) {
     const { sourceInfo } = await import('./commons.mjs');
-    for (const k of ['id', 'composer', 'work', 'year', 'forces', 'performers', 'source', 'intro', 'sections', 'cues']) if (mod[k] == null) err(f, `missing field ${k}`);
+    for (const k of ['id', 'work', 'year', 'forces', 'performers', 'source', 'intro', 'sections', 'cues']) if (mod[k] == null) err(f, `missing field ${k}`);
     if (mod.id && path.basename(f, '.mjs') !== mod.id) err(f, `file name must be ${mod.id}.mjs`);
     if (mod.composer && !slugs.has(mod.composer)) err(f, `unknown composer ${mod.composer}`);
+    if (mod.composer == null && !(mod.concert === false && mod.guest?.name)) err(f, 'composer: null is allowed only for concert: false recordings with guest { name, born, died }');
     for (const [i, section] of (mod.sections ?? []).entries()) {
       for (const key of ['m', 'mNote']) if (section[key] !== undefined && typeof section[key] !== 'string') err(f, `sections[${i}].${key} must be a string when present`);
       if (typeof section.mNote === 'string' && section.mNote.trim().split(/\s+/).length > 12) err(f, `sections[${i}].mNote must be no more than 12 words`);
@@ -161,8 +162,8 @@ for (const f of files) {
       if (!info.stream) err(f, 'recording has no MP3 stream');
       // Licence: the host's licence field, or (Internet Archive only) a documented US public-domain basis:
       // sound recordings published more than 100 years before the current year's 1 January (in 2026: 1925 and earlier).
-      const usPd = mod.source.rights?.basis === 'us-published-before-cutoff' && Number(mod.source.rights.published) <= new Date().getFullYear() - 101 && mod.source.rights.evidence;
-      if (!/public domain|^pd|cc0|cc[- ]by/i.test(info.license) && !usPd) err(f, `licence not allowed: ${info.license || 'none'} (archive items without a PD/CC licence need source.rights { basis: 'us-published-before-cutoff', published, evidence })`);
+      const R = mod.source.rights, usPd = R?.evidence && ((R.basis === 'us-published-before-cutoff' && Number(R.published) <= new Date().getFullYear() - 101) || (R.basis === 'eu-published-before-1963' && Number(R.published) < 1963));
+      if (!/public domain|^pd|cc0|cc[- ]by|\boal\b|open audio licen/i.test(info.license) && !usPd) err(f, `licence not allowed: ${info.license || 'none'} (archive items without a PD/CC licence need source.rights { basis: 'us-published-before-cutoff', published, evidence })`);
       if (mod.set && (!mod.set.id || !mod.set.title || !(mod.set.part >= 1) || !(mod.set.of >= mod.set.part))) err(f, 'set must be { id, title, part, of }');
       if (info.duration < (mod.set ? 20 : 90)) err(f, `recording too short (${info.duration}s)`);  // movements of a set may be short (Kinderszenen)
       const dur = info.duration;
@@ -253,7 +254,7 @@ for (const f of files) {
   }
 
   const titles = new Set();
-  const walk = (v) => { if (Array.isArray(v)) v.forEach(walk); else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) { if (k === 'file' && typeof x === 'string') titles.add(normalizeTitle(x)); else walk(x); } };
+  const walk = (v) => { if (Array.isArray(v)) v.forEach(walk); else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) { if (k === 'file' && typeof x === 'string') { if (!/\.(mp3|ogg|flac|wav|oga|m4a)$/i.test(x) || /^File:/i.test(x)) titles.add(normalizeTitle(x)); } else if (k !== 'archive') walk(x); } };  // recording sources are checked above, not as images
   walk(mod);
   if (titles.size) {
     const info = await lookup([...titles]);

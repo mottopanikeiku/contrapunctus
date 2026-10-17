@@ -1,0 +1,160 @@
+{
+  "id": "wagner-walkure-ride-valkyries",
+  "work": {
+    "title": "Die Walküre, WWV 86B",
+    "catalogue": "WWV 86B",
+    "movement": "Ride of the Valkyries — orchestral excerpt",
+    "version": {
+      "value": "Orchestral concert excerpt from the opening of Act III",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "nps"
+      ],
+      "note": "No singers are credited. The acoustic-recording arrangement, exact cuts and instrumental substitutions are not documented; a full-opera orchestration timeline is therefore withheld."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "American Symphony Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "nps",
+      "commons"
+    ],
+    "note": "Conductor unknown. This historical recording ensemble is not identified with Leopold Stokowski’s orchestra founded in 1962."
+  },
+  "session": {
+    "date": {
+      "value": "1921",
+      "status": "documented",
+      "sourceIds": [
+        "nps"
+      ],
+      "note": "December 1921 is the release date, not a verified session month.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source does not establish the session venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Edison Diamond Disc",
+      "status": "documented",
+      "sourceIds": [
+        "nps"
+      ],
+      "note": "Original Edison disc identified by the institutional catalogue."
+    },
+    "catalogue": {
+      "value": "80638-R",
+      "status": "documented",
+      "sourceIds": [
+        "nps"
+      ],
+      "note": "NPS object EDIS 41877; release December 1921."
+    },
+    "matrixTakeSides": {
+      "value": "7846-B-1-6; catalogue side 80638-R",
+      "status": "documented",
+      "sourceIds": [
+        "nps"
+      ],
+      "note": "The institution’s complete matrix string is preserved without attempting to decode its suffixes."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "National Park Service digitisation; Adam Cuerden, Commons noise reduction and equalisation",
+      "status": "documented",
+      "sourceIds": [
+        "nps",
+        "commons"
+      ],
+      "note": "NPS is the institutional source, not a named engineer. The current Commons version restores Adam Cuerden’s processing after a later alternative edit."
+    },
+    "date": {
+      "value": "2009-10-10 (Commons processed version)",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is the upload date of the documented processed version, not the date of the original NPS digitisation; the current-file revision is dated 29 May 2010."
+    },
+    "processing": {
+      "value": "Hiss reduced by noise removal/equalisation; a beat removed near the start.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "These are the upload description’s claims. No unrecorded pitch correction, original horn substitutions or side cuts are inferred."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Richard_Wagner_-_Ride_of_the_Valkyries.ogg/Richard_Wagner_-_Ride_of_the_Valkyries.ogg.mp3",
+    "sourceChain": [
+      "nps",
+      "commons"
+    ],
+    "format": "Wikimedia MP3 access derivative of the processed Ogg Vorbis file, derived from the NPS digitisation",
+    "durationSeconds": 257.675
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Wagner died in 1883. This is a term calculation, not worldwide clearance of every edition."
+    },
+    "recording": {
+      "value": "US public domain: the record was published in December 1921.",
+      "status": "documented",
+      "sourceIds": [
+        "nps",
+        "us-term"
+      ],
+      "note": "The established publication date independently supplies the US basis. This does not rely on the Commons Edison-donation template as a blanket worldwide licence."
+    },
+    "creditLine": "Wagner: Ride of the Valkyries; American Symphony Orchestra, Edison Diamond Disc 80638-R, 1921. National Park Service / Thomas Edison National Historical Park; processed Commons file by Adam Cuerden. US public domain.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Ride of the Valkyries — Commons file",
+      "url": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Ride_of_the_Valkyries.ogg",
+      "locator": "Recording description, Edison template, current file history and Adam Cuerden noise-removal/equalisation processing.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nps",
+      "title": "Thomas Edison National Historical Park — classical instrumental records",
+      "url": "https://www.nps.gov/edis/learn/photosmultimedia/classical-instrumental.htm",
+      "locator": "The Valkyrie—Ride of the Valkyries: American Symphony Orchestra; Edison 80638-R, matrix 7846-B-1-6; recorded 1921, released December 1921; EDIS 41877.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-term",
+      "title": "US Copyright Office — pre-1972 sound recordings",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Recordings first published before 1923 ended federal protection on 31 December 2021.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

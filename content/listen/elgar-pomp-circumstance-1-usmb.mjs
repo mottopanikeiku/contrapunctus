@@ -1,0 +1,16 @@
+export default {
+  id: 'elgar-pomp-circumstance-1-usmb',
+  composer: 'elgar',
+  order: 33,
+  concert: false,
+  work: 'Pomp and Circumstance, Op. 39',
+  movement: 'March No. 1 in D — concert-band arrangement',
+  year: '1901',
+  key: 'D major',
+  forces: 'Concert band; arrangement not identified',
+  performers: 'United States Marine Band',
+  recorded: '',
+  source: { file: 'File:ELGAR Pomp and Circumstance in D, Opus 39, No. 1 - United States Marine Band.mp3' },
+  intro: 'The United States Marine Band plays Elgar’s first march in a concert-band arrangement. Compare its wind-led sonority with the orchestral recordings without treating the change of ensemble as a conductor’s choice.',
+  question: 'What changes when winds rather than an orchestral string section carry the march’s long melody?',
+};

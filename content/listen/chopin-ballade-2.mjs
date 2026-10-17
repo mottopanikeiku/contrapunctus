@@ -1,0 +1,302 @@
+export default {
+  "id": "chopin-ballade-2",
+  "composer": "chopin",
+  "order": 10,
+  "work": "Ballade No. 2 in F major, Op. 38",
+  "movement": "Andantino — Presto con fuoco",
+  "year": "1836–39",
+  "key": "F major",
+  "forces": "Piano",
+  "performers": "Frank Lévy",
+  "recorded": "",
+  "source": {
+    "file": "File:Chopin - Ballade No. 2 in F major, Op. 38 (Frank Levy).flac"
+  },
+  "intro": "Chopin sets a slow F-major song against a Presto in A minor, then lets the second key take possession of the ending. Frank Lévy’s recording makes the difference in scale between the quiet melody and its interruptions a useful guide to the form.",
+  "question": "How does the opening song change when A minor replaces F major?",
+  "sections": [
+    {
+      "t": 0,
+      "label": "A · Andantino",
+      "m": "A"
+    },
+    {
+      "t": 124,
+      "label": "B · Presto con fuoco",
+      "m": "B"
+    },
+    {
+      "t": 194,
+      "label": "A′ · Song and transformation",
+      "m": "A′",
+      "mNote": "the song returns, then moves through unsettled harmonies"
+    },
+    {
+      "t": 334,
+      "label": "B′ · Renewed Presto",
+      "m": "B′",
+      "mNote": "the fast material returns with a longer continuation"
+    },
+    {
+      "t": 394,
+      "label": "Coda · Agitato",
+      "m": "Coda"
+    },
+    {
+      "t": 456,
+      "label": "A″ · Closing recollection",
+      "m": "A″",
+      "mNote": "the opening song is recalled in A minor"
+    }
+  ],
+  "cues": [
+    {
+      "t": 0,
+      "kind": "form",
+      "title": "Two keys, two speeds",
+      "text": "The opening sings in F major at an Andantino pace. The contrasting music is a Presto in A minor: Chopin changes speed, texture and tonal centre together. Keep the opening’s unhurried phrase in mind.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Whole-work design and tempo headings: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "t": 35,
+      "kind": "listen",
+      "title": "A melody in chords",
+      "text": "Through the opening, listen to the upper line and the notes moving beneath it. Chordal writing can suggest several singers on one instrument; the melody need not carry every change in the harmony.",
+      "basis": "general",
+      "precision": "passage",
+      "evidence": "General listening invitation for the opening chordal texture; no individual note or entrance is located."
+    },
+    {
+      "t": 70,
+      "kind": "world",
+      "title": "A dedication to Schumann",
+      "text": "Chopin dedicated this Ballade to Robert Schumann. In October 1840 Schumann recorded his pleasure at the dedication and reviewed the work in the Neue Zeitschrift für Musik.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tomaszewski quotes Schumann’s diary and review: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "t": 105,
+      "kind": "listen",
+      "title": "Quiet before contrast",
+      "text": "The opening span draws back before the first fast interruption. Listen to how much space the soft chordal texture leaves: the contrast will involve the density of attacks as well as volume.",
+      "basis": "audio-feature",
+      "precision": "passage",
+      "evidence": "cache/analysis/chopin-ballade-2.txt: level falls to about −27 to −28 dB at 1:50–2:00; the 2:04 novelty peak precedes much louder, denser activity."
+    },
+    {
+      "t": 124,
+      "kind": "form",
+      "title": "The first interruption",
+      "text": "In this passage the Presto replaces the quiet song with rapid figuration and forceful accents. A minor, rather than F major’s relative D minor, is the competing tonal centre.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Strongest report boundary at 2:04; level rises from −27.9 dB at 2:00 to −6.2 dB at 2:05. Tomaszewski identifies the A-minor Presto: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "t": 160,
+      "kind": "listen",
+      "title": "Motion beneath the accents",
+      "text": "During the fast music, separate the stream of small notes from the larger accents. Following both levels makes the return to a slower phrase more than a simple change of loudness.",
+      "basis": "general",
+      "precision": "passage",
+      "evidence": "Listening invitation for the documented Presto texture; the report shows sustained high activity from 2:05 before a decline after 2:55."
+    },
+    {
+      "t": 194,
+      "kind": "form",
+      "title": "The song returns",
+      "text": "The slower material recovers its place after the first Presto. Its return does not guarantee a stable ending: Chopin will move the familiar melody through new harmonic surroundings.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Report boundary 3:14 and low-density F-major-coloured windows at 3:15–3:25 support the approximate return; the formal reading comes from https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "t": 230,
+      "kind": "world",
+      "title": "A different remembered ending",
+      "text": "Schumann remembered Chopin playing an earlier version in Leipzig that ended in F major. The published Ballade ends in A minor. His testimony suggests an earlier conception; no recording of Chopin survives to settle the difference.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Schumann’s account and its evidential limits are discussed by Tomaszewski: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "t": 265,
+      "kind": "music",
+      "title": "A swell inside quiet music",
+      "text": "This slower region contains a strong rise and retreat of its own. Listen for the melody gathering weight without mistaking every local increase in force for the return of the Presto.",
+      "basis": "audio-feature",
+      "precision": "passage",
+      "evidence": "Report: level rises from −23.1 dB at 4:15 to −6.6 at 4:25, then falls to −24.7 at 4:45; this anchors a contour, not a new tempo."
+    },
+    {
+      "t": 300,
+      "kind": "world",
+      "title": "Poetry without a plot",
+      "text": "Schumann reported Chopin mentioning Mickiewicz’s poems as a stimulus for his ballades. No particular poem has been securely matched to this score. The alternation of song and interruption can be followed without assigning characters to the themes.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tomaszewski distinguishes Schumann’s reported conversation from speculative identifications of individual poems: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "t": 335,
+      "kind": "form",
+      "title": "The Presto takes over",
+      "text": "The rapid material returns and sustains its pressure for longer. Compare this broad fast span with the first interruption: the balance of the piece has shifted away from the opening’s leisurely song.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Report: a sustained rise begins around 5:20, with loud, dense A-centred windows at 5:35–6:00; boundary estimated at 5:34, not bar-aligned. Formal succession: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "t": 370,
+      "kind": "listen",
+      "title": "The bass still matters",
+      "text": "Throughout the fast passages, listen below the right-hand figuration. Changes in the bass redirect the harmony even when the surface seems to repeat the same kind of motion.",
+      "basis": "general",
+      "precision": "passage",
+      "evidence": "General invitation, not a claim about a particular bass pitch at 6:10."
+    },
+    {
+      "t": 405,
+      "kind": "form",
+      "title": "An agitated conclusion",
+      "text": "The concluding fast stretch presses the accumulated conflict towards a cadence. Listen for how the continuous figuration makes the eventual return of a few quiet melodic notes sound exposed.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Agitato coda is placed approximately at 6:34: report density rises to 5.0–5.6 onsets/s around 6:35–6:55 after a dip at 6:30. The event is passage-level, not a counted bar."
+    },
+    {
+      "t": 440,
+      "kind": "music",
+      "title": "A final sustained crest",
+      "text": "The later fast music reaches another broad crest before it gives way. Hold the quiet opening in memory while the piano occupies a much larger dynamic range.",
+      "basis": "audio-feature",
+      "precision": "passage",
+      "evidence": "Report lists 7:20 and 7:25 among the loudest five-second windows, followed by a steep fall at 7:35–7:40."
+    },
+    {
+      "t": 475,
+      "kind": "form",
+      "title": "A changed last word",
+      "text": "The closing recollection of the song belongs to A minor, not the opening F major. The work ends by changing the meaning of familiar material rather than restoring the first tonal home.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Quiet closing region follows the 7:36 boundary; the A-minor ending is documented by https://chopin.nifc.pl/en/chopin/kompozycja/96. The report’s late A-major estimates are not used to identify the written chord."
+    }
+  ],
+  "transitions": [
+    {
+      "id": "into-presto",
+      "title": "Song gives way to rapid figuration",
+      "from": "A · Andantino",
+      "to": "B · Presto con fuoco",
+      "at": {
+        "t": 124
+      },
+      "span": [
+        114,
+        136
+      ],
+      "how": "<p>The F-major song does not modulate gradually into a neighbouring lyrical theme. Chopin opposes it with an A-minor Presto: the broad chordal phrase gives way to fast broken figures and stronger accents. The same piano now supplies both a more active surface and a more forceful bass.</p>",
+      "devices": [
+        "direct modulation",
+        "tempo change",
+        "texture change"
+      ],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Strong boundary at 2:04 and level/density jump at 2:05 anchor the join approximately; tonal and textural design: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "id": "into-song-return",
+      "title": "The fast texture releases the song",
+      "from": "B · Presto con fuoco",
+      "to": "A′ · Song and transformation",
+      "at": {
+        "t": 194
+      },
+      "span": [
+        184,
+        206
+      ],
+      "how": "<p>The first Presto loses momentum and the Andantino texture returns. The upper melody can again be heard against relatively separated supporting chords. Recovering the song’s rhythm and F-major surroundings provides recognition, but its continuation will move beyond a literal repetition.</p>",
+      "devices": [
+        "retransition",
+        "tempo change",
+        "texture change",
+        "motivic link"
+      ],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Report boundary 3:14; 3:15–3:25 restores low density and F-major colour. Approximate form reading: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "id": "into-renewed-presto",
+      "title": "The opposition becomes a sustained argument",
+      "from": "A′ · Song and transformation",
+      "to": "B′ · Renewed Presto",
+      "at": {
+        "t": 334
+      },
+      "span": [
+        324,
+        346
+      ],
+      "how": "<p>The song’s changing harmonic continuation yields to the rapid A-minor material again. Returning figuration joins the earlier interruption to a longer fast conclusion. Register, accents and the active bass enlarge the contrast without requiring a third principal theme.</p>",
+      "devices": [
+        "tempo change",
+        "texture change",
+        "motivic link"
+      ],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Rise around 5:20–5:40 anchors the broader junction; 5:34 is an estimate of the Presto return, not an automatic theme detection. https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    },
+    {
+      "id": "into-coda",
+      "title": "Rapid motion becomes the closing argument",
+      "from": "B′ · Renewed Presto",
+      "to": "Coda · Agitato",
+      "at": {
+        "t": 394
+      },
+      "span": [
+        384,
+        406
+      ],
+      "how": "<p>The fast episode feeds an Agitato coda rather than stopping for a separate tune. The hands maintain their rapid movement while sequences and accents compress the approach to the final cadence. A minor remains the destination of this extension, replacing the F-major home promised at the opening.</p>",
+      "devices": [
+        "sequence",
+        "texture change",
+        "motivic link"
+      ],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Approximate coda placement follows a 6:30 dip and denser 6:35–6:55 windows; the score’s broad concluding function is not fixed to a bar."
+    },
+    {
+      "id": "into-recollection",
+      "title": "The song survives in the other key",
+      "from": "Coda · Agitato",
+      "to": "A″ · Closing recollection",
+      "at": {
+        "t": 456
+      },
+      "span": [
+        446,
+        468
+      ],
+      "how": "<p>The energetic coda subsides and a fragment of the opening song is recalled quietly. Its texture and melodic identity look backwards, but A minor changes its tonal meaning. The closing reminiscence therefore resolves the conflict by accepting the second key, not by returning to F major.</p>",
+      "devices": [
+        "decrescendo",
+        "tempo change",
+        "motivic link"
+      ],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Boundary 7:36; level falls by about 20 dB between 7:30 and 7:40. Closing key and recollection: https://chopin.nifc.pl/en/chopin/kompozycja/96"
+    }
+  ]
+};

@@ -1,0 +1,177 @@
+{
+  "id": "chopin-nocturne-op27-2-pachmann-1925",
+  "work": {
+    "title": "Nocturne in D♭ major, Op. 27 No. 2",
+    "catalogue": "Op. 27 No. 2",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Vladimir de Pachmann",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source",
+      "discography",
+      "review"
+    ],
+    "note": "Alan Kelly’s matrix discography and the Archive agree on 26 June. The scout flagged a secondary thesis’s 6 June date; this package follows the matrix discography, not an unverified day inferred from upload metadata."
+  },
+  "session": {
+    "date": {
+      "value": "26 June 1925",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "discography",
+        "review"
+      ],
+      "note": "Alan Kelly’s matrix discography and the Archive agree on 26 June. The scout flagged a secondary thesis’s 6 June date; this package follows the matrix discography, not an unverified day inferred from upload metadata.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Hayes, London",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "discography",
+        "review"
+      ],
+      "note": "Named by the cited source; not inferred from an ensemble’s home city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "discography",
+        "review"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DB 860, side 1",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "discography",
+        "review"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "Cc 6253-1; 05859",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "discography",
+        "review"
+      ],
+      "note": ""
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Transferred at77.3rpm,2.5ET stylus,398µs turnover; A=440Hz; unrestored audio.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Source’s transfer specification, not an independently verified original disc speed."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 276
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "US public domain: HMV DB 860 was already reviewed and priced in The Gramophone in December 1925.",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "discography",
+        "review",
+        "term"
+      ],
+      "note": "Programme rule 2. The contemporary D.B.860 listing establishes publication by the 1925 cutoff independently of the session-date discrepancy. Archive metadata has no licence URL."
+    },
+    "creditLine": "Nocturne in D♭ major, Op. 27 No. 2; Vladimir de Pachmann, piano (his own Baldwin). US public domain: HMV DB 860 was already reviewed and priced in The Gramophone in December 1925. Source: Internet Archive.",
+    "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "discography",
+      "title": "Alan Kelly — Gramophone Bb/Cc matrix series",
+      "url": "https://gramophonecompanydiscography.com/PDF/File%20D%20-%20BB.pdf",
+      "locator": "Cc6253-1, 26 June 1925, 05859/DB860; performer uses his own Baldwin piano.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "review",
+      "title": "The Gramophone, December 1925, pp.338–339",
+      "url": "https://archive.org/stream/gramophone-1925-12/Gramophone%201925-12_djvu.txt",
+      "locator": "Printed p338 explicitly lists D.B.860 and the D-flat nocturne; review follows. Contemporary publication evidence.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "US Copyright Office — pre1972 sound recordings",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Recordings first published before1923 and the annual expiration schedule for1923–1946 publications; as of2026 the cutoff is1925.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

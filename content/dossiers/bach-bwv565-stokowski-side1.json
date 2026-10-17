@@ -1,0 +1,164 @@
+{
+  "id": "bach-bwv565-stokowski-side1",
+  "work": {
+    "title": "Toccata and Fugue in D minor, BWV 565",
+    "catalogue": "",
+    "movement": "Opening disc side only",
+    "version": {
+      "value": "Orchestral transcription by Leopold Stokowski; first disc side only",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "transcription"
+      ],
+      "note": "Commons lists arranger “none”, but the LA Phil documents Stokowski’s transcription and its first recording in 1927. The original Bach work’s public-domain status is not a blanket clearance of every arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Philadelphia Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Leopold Stokowski",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer spelling normalised; no uncredited accompanist or soloist added."
+  },
+  "session": {
+    "date": {
+      "value": "1927-04-06",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "transcription"
+      ],
+      "note": "The recording year is stated in the cited source.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Academy of Music, Philadelphia",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "transcription"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "HMV",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "D 1428",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Source catalogue identification; no independent label inspection is claimed."
+    },
+    "matrixTakeSides": {
+      "value": "First side; source identifier 5-0761",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The identifier is transcribed from the source filename. A matrix inscription and take number have not been independently verified."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source supplier/uploader is identified below, but an individual transfer engineer is not established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No restoration, equalisation or speed correction is established from the source. Playback uses the supplied MP3 access file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/PDP-CH_-_Philadelphia_Orchestra%2C_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor%2C_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac/PDP-CH_-_Philadelphia_Orchestra%2C_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor%2C_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac.mp3",
+    "sourceChain": [
+      "source",
+      "transcription"
+    ],
+    "format": "MP3 access file; no concatenation or playback pitch alteration",
+    "durationSeconds": 264.67265104166665
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition as identified by the source.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This field concerns the underlying composition, separately from the sound-recording permission. The later orchestral arrangement’s independent worldwide status is not established."
+    },
+    "recording": {
+      "value": "Territorial — EU public-domain sound recording, first published 1927",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "eu-term"
+      ],
+      "note": "Accepted under programme rule 3: first publication before 1963, so the EU 50-year recording term expired before the 2013 extension. US status is not established. The Commons composition-only PD-old-70 tag is not used as a sound-recording licence."
+    },
+    "creditLine": "Toccata and Fugue in D minor, BWV 565; Philadelphia Orchestra, Leopold Stokowski (Stokowski’s own orchestration). First disc side only. Territorial — EU public-domain sound recording, first published 1927. Source: Wikimedia Commons.",
+    "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — PDP-CH - Philadelphia Orchestra, Leopold Stokowski - Toccata and Fugue in D minor, BWV 565 - Bach - Hmv-d1428-5-0761.flac",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra,_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor,_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac",
+      "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "transcription",
+      "title": "LA Phil — Bach, Toccata and Fugue, arranged Stokowski",
+      "url": "https://www.laphil.com/works/toccata-and-fugue-in-d-minor-bwv-565-bach-arr-stokowski",
+      "locator": "Transcription dated 1927; first recording appeared in 1927.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — extension and transitional rule",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj",
+      "locator": "Article 1, amending Directive 2006/116/EC; Article 10(5), protection still in force on 1 November 2013.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

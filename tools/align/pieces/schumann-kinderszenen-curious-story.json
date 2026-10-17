@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "id": "schumann-kinderszenen-curious-story",
+  "source": {
+    "mutopia": 355,
+    "title": "Kinderszenen, Op. 15",
+    "edition": "Leichte Stücke, 1900",
+    "encoder": "Ying-Chun Liu",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=355",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "main": "SchumannOp15No02.ly",
+    "midi": "SchumannOp15No02.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No02/SchumannOp15No02.ly",
+        "file": "SchumannOp15No02.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No02/SchumannOp15No02.mid",
+        "file": "SchumannOp15No02.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 41,
+    "quarters": 3,
+    "overrides": {
+      "0": 1,
+      "40": 2
+    },
+    "order": [
+      [
+        0,
+        40
+      ]
+    ],
+    "description": "Source writes both repeated sections out; play pickup and printed bars 1–40 once."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      91,
+      95
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/schumann-kinderszenen-curious-story.mjs and cache/analysis/schumann-kinderszenen-curious-story.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "rachmaninoff-prelude-c-sharp-minor-victor-1928",
+  "work": {
+    "title": "Prelude in C♯ minor, Op. 3 No. 2",
+    "catalogue": "Op. 3 No. 2",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source",
+      "matrix",
+      "issue",
+      "uk-issue"
+    ],
+    "note": "DAHR identifies the issued take and the Archive names Victor 1326-A. The earlier 1925 matrix-series entry is not the date of this issued performance."
+  },
+  "session": {
+    "date": {
+      "value": "4 April 1928",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "matrix",
+        "issue",
+        "uk-issue"
+      ],
+      "note": "DAHR identifies the issued take and the Archive names Victor 1326-A. The earlier 1925 matrix-series entry is not the date of this issued performance.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "matrix",
+        "issue",
+        "uk-issue"
+      ],
+      "note": "Named by the cited source; not inferred from an ensemble’s home city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "matrix",
+        "issue",
+        "uk-issue"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "1326-A",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "matrix",
+        "issue",
+        "uk-issue"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "BVE-25650, take 23",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "matrix",
+        "issue",
+        "uk-issue"
+      ],
+      "note": ""
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Western Electric equalisation (modified250N-0);10kHz low-pass; iZotope RX10 de-click and spectral de-noise.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "These treatments are stated by the uploader; they affect timbre and noise, so no raw-session tonal comparison is asserted."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/prelude-in-c-sharp-minor/Relude%20in%20C-sharp%20Minor.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 211
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "Territorial: EU public domain under the pre-1963 publication rule; Victor 1326 and Gramophone DA-996 are dated 1928.",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "matrix",
+        "issue",
+        "uk-issue",
+        "term"
+      ],
+      "note": "Programme rule 3. The Archive has no licence URL. DAHR establishes the issued recording, not just the composition. US status is not established."
+    },
+    "creditLine": "Prelude in C♯ minor, Op. 3 No. 2; Sergei Rachmaninoff, piano. Territorial: EU public domain under the pre-1963 publication rule; Victor 1326 and Gramophone DA-996 are dated 1928. Source: Internet Archive.",
+    "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/prelude-in-c-sharp-minor",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "matrix",
+      "title": "DAHR — Victor BVE-25650",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor",
+      "locator": "Issued take 23 recorded 4 April 1928 in New York.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "issue",
+      "title": "DAHR — Victor 1326",
+      "url": "https://adp.library.ucsb.edu/index.php/object/detail/86692/Victor_1326",
+      "locator": "Catalogue couples the electrical Prelude with Spinning Song; MARC publication [1928].",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "uk-issue",
+      "title": "DAHR — Gramophone DA-996",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/79186",
+      "locator": "British Gramophone issue of the same take; MARC publication [1928].",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "EU Directive2011/77 — transitional term provisions",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
+      "locator": "Article1, amendments to Directive2006/116 Article10: recordings still protected on30October2011. A pre1963 publication whose former50-year term expired is not revived.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

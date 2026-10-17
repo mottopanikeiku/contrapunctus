@@ -117,3 +117,16 @@ ok    docs/assets/data/schubert-impromptu-gflat/score.json
 Source extraction also printed the four event counts above, with pitch/onset inventory assertions against the published MIDI. Initial candidates with leading-silence errors, a late Bach final attack, or a collapsed Schubert grace note were **not published**; explicit endpoint anchors and the standard strict-path conversion address those failure mechanisms. Source syntax conversion and voice isolation are reproducible, not hand-edited output notes.
 
 **Not run / unavailable:** aural review, site build and browser integration tests. The requested builder brief was unavailable at `local://council/builder-brief.md`; the supplied assignment and project contracts governed the work. No named listener has checked these files. Existing listening-section content was intentionally left to its owners.
+
+## Solo-piano expansion scope — 17 October 2026
+
+Only recordings already present in `content/listen/` were considered. The source inventory supplies complete matching Mutopia LilyPond and MIDI for the first seven Kinderszenen, selected Chopin works and Rachmaninoff’s Op. 3 No. 2 and Op. 23 No. 5. Newly authored solo-piano performances of Chopin’s Op. 9 No. 2 by Frank Lévy and Patrizia Prati use inventory source 1590; the violin arrangement is not a substitute for the piano score.
+
+The inventory has no complete matching source for the remaining six Kinderszenen, the present Liszt recordings, the Op. 32 Rachmaninoff preludes, Beethoven Op. 109/iii or Scarlatti K. 119. Its Debussy Book I archive contains only Préludes 1–3, not La cathédrale engloutie. Those gaps were not filled with a different movement, arrangement or inferred transcription. This is an inventory limitation, not a claim that no encoding exists elsewhere.
+
+## chopin-etude-op10-5-cortot — withheld before alignment
+
+- **Decision:** do not publish an Op. 10 No. 5-only alignment for this complete recording.
+- **Evidence:** the listening module identifies two consecutive études, Op. 10 No. 5 followed by Op. 25 No. 9. Inventory source [Mutopia 926](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=926) covers only the first. Stretching that MIDI over the complete recording would be a gross score-order mismatch even if a nearest-onset median passed.
+- **Measurements:** no alignment run or timing median claimed. The single-work performance `chopin-etude-op10-5` is processed separately.
+

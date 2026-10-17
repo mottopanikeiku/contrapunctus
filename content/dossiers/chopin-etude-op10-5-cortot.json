@@ -1,0 +1,165 @@
+{
+  "id": "chopin-etude-op10-5-cortot",
+  "work": {
+    "title": "Étude in G-flat major, Op. 10 No. 5; Étude in G-flat major, Op. 25 No. 9",
+    "catalogue": "Op. 10 No. 5; Op. 25 No. 9",
+    "movement": "Black Keys, followed by Butterfly — complete disc side",
+    "version": {
+      "value": "Two complete titles on one original disc side",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "source"
+      ],
+      "note": "The entire selected file is retained; the approximately96.5-second junction is a listening marker, not a clip boundary. Individual score readings and cuts within each work have not been audited."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Alfred Cortot",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Named on the selected source page."
+  },
+  "session": {
+    "date": {
+      "value": "1920-04-22",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "DAHR master take2; the other1920 takes and later1923 remake are not this selected master.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey, United States — Church Building",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "Place stated in the DAHR take table."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor / Victrola",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "source"
+      ],
+      "note": "Victor is the issuing company in DAHR; the selected Archive item gives the Victrola imprint."
+    },
+    "catalogue": {
+      "value": "64989",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "source"
+      ],
+      "note": "Issue number of the10-inch78rpm disc; this is not the matrix number."
+    },
+    "matrixTakeSides": {
+      "value": "B-23953, take2; both études on one side",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "DAHR identifies Op.10 No.5 followed by Op.25 No.9; Archive’s matrix_number64989 repeats the issue number, so DAHR supplies the actual matrix."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "George Blood, L.P.; Chris Guest (transfer); Kevin Coupe (cleaning)",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Archive metadata names the scanning centre and the transferred/cleaned personnel; these are digital-transfer credits, not1920 session engineers."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer or mastering date is established; upload dates are not used as recording dates."
+    },
+    "processing": {
+      "value": "78rpm transfer; flat and equalised versions documented, with250Hz turnover for the equalised versions",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Archive describes3.5mil truncated elliptical and2.3mil truncated conical styli. The selected generic MP3 is the provided listening derivative; the exact stylus/equalisation choice for that file is not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a/Etude%20in%20G%20Flat%20Major%20(Black%20Keys)%3B%20Etude%20%20-%20Alfred%20Cortot.mp3",
+    "sourceChain": [
+      "dahr",
+      "source"
+    ],
+    "format": "MP3 listening derivative of a78rpm disc transfer",
+    "durationSeconds": 163.46
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; this nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Public domain in the United States: published1920",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "source"
+      ],
+      "note": "The selected item dates the Victor64989 issue to1920; DAHR documents its1920 master. This meets the programme’s published-on-or-before1925 rule for sound recordings. No non-commercial restriction appears in the selected Archive metadata."
+    },
+    "creditLine": "Alfred Cortot, piano; Victor64989, matrixB-23953 take2 (1920). Transfer via George Blood, L.P. and the Internet Archive Great78 Project; Chris Guest, transfer; Kevin Coupe, cleaning. Historical recording public domain in the United States.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://archive.org/metadata/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a",
+      "locator": "Description, performer attribution, source chain and recording-licence statement.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Études",
+      "url": "https://chopin.nifc.pl/en/chopin/gatunki/9_etiudy",
+      "locator": "Op.10 and Op.25 identity, publication and dedication.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "dahr",
+      "title": "DAHR: Victor matrix B-23953",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700009148/B-23953-Etude_in_G_flat_op._10_no._5_Black_keys",
+      "locator": "Take2 row:22April1920, Camden Church Building, Victor64989; primary and additional title identify both études.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "interpretation",
+      "title": "Rob Challinor: Alfred Cortot Plays Chopin",
+      "url": "https://musicwebinternational.com/2025/10/alfred-cortot-plays-chopin-apr/",
+      "locator": "Review of1931–43 recordings; rubato and occasional hand separation are contextual evidence, not local observations of the1920 side.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

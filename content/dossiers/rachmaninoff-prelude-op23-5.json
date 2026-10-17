@@ -1,0 +1,212 @@
+{
+  "id": "rachmaninoff-prelude-op23-5",
+  "work": {
+    "title": "Prelude in G minor",
+    "catalogue": "Op. 23 No. 5",
+    "movement": "Alla marcia",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "booklet"
+      ],
+      "note": "Original solo-piano work; the performing edition and any unnotated changes are not identified. The score used for commentary is not asserted to be the copy used at the session."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "booklet",
+      "dahr"
+    ],
+    "note": "The source item, reissue register and Victor matrix record agree on the pianist."
+  },
+  "session": {
+    "date": {
+      "value": "1920-05-17",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "booklet",
+        "dahr"
+      ],
+      "note": "The filename date is independently corroborated by the reissue register and DAHR’s approved take; it is not an upload or CD release date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey, Church Building Laboratory",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "DAHR explicitly names the Church Bldg. Laboratory for the approved take."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor; RCA/BMG reissue",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "archive",
+        "booklet"
+      ],
+      "note": "Victor identifies the original commercial issue; the uploader identifies the later RCA/BMG CD set as its immediate source."
+    },
+    "catalogue": {
+      "value": "Victor 74628 (12-inch); RCA-BMG 09026 61265 2, CD 10 (1992)",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "archive",
+        "booklet"
+      ],
+      "note": "The Victor number and CD set are separately documented. The physical disc transferred for the 1992 mastering is not identified."
+    },
+    "matrixTakeSides": {
+      "value": "C-23984-4; one issued side",
+      "status": "inferred",
+      "sourceIds": [
+        "booklet",
+        "dahr",
+        "archive"
+      ],
+      "note": "DAHR documents this approved matrix/take and the RCA booklet names it for the reissued track. Its linkage to the current digital file follows the uploader’s stated CD provenance and matching work/date, not an independent waveform or run-out comparison."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "John Pfeiffer, reissue producer; Ward Marston, disc-to-DAT transfer; André Gauthier, remastering supervisor; Anthony Salvatore, remastering engineer",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "These are the original 1992 set’s credits. Their connection to the current access file follows the uploader’s identification of that set; the later ripper/uploader is not named as a mastering engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "The set was issued in 1992, but the date of the disc-to-DAT transfer and the later CD extraction are not stated. The Archive upload occurred in 2025 and is not a transfer-session date."
+    },
+    "processing": {
+      "value": "Disc-to-DAT transfer, followed by digital remastering at BMG/RCA Studios, New York City; Archive derives its VBR MP3 from an uploaded WAV.",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive-data"
+      ],
+      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It does not give equalisation, pitch-correction, noise-reduction or editing settings. No such settings are inferred from the audio analysis."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/195-complete-rachmaninoff-cd-10/186%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-%20Rachmaninov%20-%20Prelude%2C%20Op.%2023%2C%20No.%205%20(rec.%2017.V.1920).mp3",
+    "sourceChain": [
+      "archive",
+      "archive-data",
+      "booklet",
+      "dahr"
+    ],
+    "format": "VBR MP3 access derivative; uploaded source identified as WAV from a 1992 CD reissue of an acoustic Victor disc",
+    "durationSeconds": 215.6
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about an unidentified modern performing edition."
+    },
+    "recording": {
+      "value": "Internet Archive applies Public Domain Mark 1.0 to the audio; the underlying performance is a historic Victor commercial issue from the pre-1926 period.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "archive-data",
+        "dahr",
+        "booklet",
+        "us-term"
+      ],
+      "note": "Eligibility is based on the historic issued sound recording, not merely on the age of the composition or the 1992 reissue date. DAHR and the booklet document the early Victor issue and take; the precise first-publication day is not established here. The 1992 booklet retains an all-rights-reserved notice for the reissue. No claim is made that its text, artwork or compilation is public domain, or that an unidentified new creative contribution to the transfer has independent clearance worldwide."
+    },
+    "creditLine": "Sergei Rachmaninoff, piano — Victor 74628, matrix C-23984-4. Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s recording-rights statement.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Complete Rachmaninoff, CD 10",
+      "url": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+      "locator": "Uploader identifies RCA-BMG 09026 61265 2 (1992), CD 10; selected filenames state individual recording dates; item links the original booklet and Public Domain Mark 1.0.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-data",
+      "title": "Internet Archive item metadata and file manifest",
+      "url": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+      "locator": "Track-specific WAV originals and generated VBR MP3 access files, durations and licence URL; 2025 upload dates are not session dates.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "booklet",
+      "title": "RCA: Sergei Rachmaninoff, The Complete Recordings, 10-CD booklet (1992)",
+      "url": "https://archive.org/download/9-0023-sergei-rachmaninoff-complete-recordings-booklet-to-10-cd-set-rca-bmg-09026-61265-2-1992/9-0023%20Sergei%20RACHMANINOFF%20-%20Complete%20Recordings%20-%20Booklet%20to%2010%20CD%20Set%20RCA-BMG%2009026%2061265%202%20%281992%29_djvu.txt",
+      "locator": "Printed p. 20: reissue/transfer credits; essays “The Composer” and “The Recordings”; discographic register pp. 70–71: dates and matrices of the three selected preludes; closing remastering and rights notice. OCR consulted against the named track register.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr",
+      "title": "DAHR: Victor matrix C-23984-4",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700009183",
+      "locator": "Take table: performer, date, place, master status, original issue and later reissues.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Gutheil first edition: Ten Preludes, Op. 23",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/c/c9/IMSLP105592-PMLP02017-Rachmaninov_-_23_-_10_Preludes_(ed.Gutheil).pdf",
+      "locator": "No. 5, printed pp. 20–25. Original piano score inspected; the later modified Ray Alston edition was not used as authority.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: recordings first published before 1923 ceased receiving the stated remedies on 31 December 2021; later historic publication periods have different terms.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

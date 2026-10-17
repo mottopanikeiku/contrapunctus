@@ -1,0 +1,463 @@
+{
+  "id": "schoenberg",
+  "places": [
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1874-09-13",
+      "kind": "born",
+      "what": "Born in the Leopoldstadt district.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1894",
+      "kind": "studied",
+      "what": "Received counterpoint lessons from Alexander Zemlinsky.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1895",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Berlin",
+      "country": "German Empire (today Germany)",
+      "from": "1901",
+      "kind": "worked",
+      "what": "Conducted at the Überbrettl cabaret and taught.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1903",
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1902-03-18",
+      "kind": "premiere",
+      "what": "The Rosé Quartet and colleagues introduced his string sextet.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Verklärte Nacht",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1903",
+      "kind": "worked",
+      "what": "Taught privately and at the Schwarzwald School; Berg and Webern became pupils.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Arnold Schoenberg biography",
+          "url": "https://ressources.ircam.fr/en/composer/arnold-schoenberg/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1911",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1907",
+      "kind": "premiere",
+      "what": "The Rosé Quartet and wind players introduced his First Chamber Symphony.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Chamber Symphony No. 1",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Murnau am Staffelsee",
+      "country": "German Empire (today Germany)",
+      "from": "1911",
+      "kind": "travelled",
+      "what": "Visited Kandinsky during the summer.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Murnau%20am%20Staffelsee&format=json&limit=1"
+        }
+      ],
+      "lat": 47.6778816,
+      "lon": 11.2011903
+    },
+    {
+      "name": "Berlin",
+      "country": "German Empire (today Germany)",
+      "from": "1911",
+      "kind": "lived",
+      "what": "Lived in Zehlendorf and taught composition.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1915",
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    {
+      "name": "Berlin",
+      "country": "German Empire (today Germany)",
+      "from": "1912-10-16",
+      "kind": "premiere",
+      "what": "Albertine Zehme performed Pierrot lunaire with the composer conducting.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Pierrot lunaire",
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    {
+      "name": "Musikverein Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1913-02-23",
+      "kind": "premiere",
+      "what": "Franz Schreker conducted Gurre-Lieder.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Musikverein%20Vienna&format=json&limit=1"
+        }
+      ],
+      "work": "Gurre-Lieder",
+      "lat": 48.2004865,
+      "lon": 16.3727252
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1915",
+      "kind": "lived",
+      "what": "Returned from Berlin during the First World War.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1918",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Vienna",
+      "country": "Republic of Austria (today Austria)",
+      "from": "1918",
+      "kind": "worked",
+      "what": "Founded and directed the Society for Private Musical Performances.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Arnold Schoenberg biography",
+          "url": "https://ressources.ircam.fr/en/composer/arnold-schoenberg/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1921",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Mödling",
+      "country": "Austria-Hungary; Republic of Austria from 1918 (today Austria)",
+      "from": "1918-03",
+      "kind": "lived",
+      "what": "Developed twelve-tone composition while living at Bernhardgasse 6.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=M%C3%B6dling&format=json&limit=1"
+        }
+      ],
+      "to": "1925",
+      "lat": 48.0855922,
+      "lon": 16.2833526
+    },
+    {
+      "name": "Prague",
+      "country": "Czechoslovak Republic (today Czechia)",
+      "from": "1924-06-06",
+      "kind": "premiere",
+      "what": "Alexander Zemlinsky conducted Erwartung with Marie Gutheil-Schoder.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Erwartung",
+      "lat": 50.0875,
+      "lon": 14.42138889
+    },
+    {
+      "name": "Berlin",
+      "country": "Weimar Republic; Nazi Germany from 1933 (today Germany)",
+      "from": "1926",
+      "kind": "worked",
+      "what": "Led the composition masterclass at the Prussian Academy of Arts.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Arnold Schoenberg biography",
+          "url": "https://ressources.ircam.fr/en/composer/arnold-schoenberg/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1933",
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    {
+      "name": "Barcelona",
+      "country": "Second Spanish Republic (today Spain)",
+      "from": "1931",
+      "kind": "lived",
+      "what": "Stayed for his health and worked on Moses und Aron.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1932",
+      "work": "Moses und Aron",
+      "lat": 41.38333333,
+      "lon": 2.18333333
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1933",
+      "kind": "exile",
+      "what": "Left Nazi Germany and formally returned to Judaism before emigrating.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Boston",
+      "country": "United States (today United States)",
+      "from": "1933",
+      "kind": "worked",
+      "what": "Taught at the Malkin Conservatory after arriving in America.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Arnold Schoenberg biography",
+          "url": "https://ressources.ircam.fr/en/composer/arnold-schoenberg/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1934",
+      "lat": 42.36027778,
+      "lon": -71.05777778
+    },
+    {
+      "name": "Los Angeles",
+      "country": "United States (today United States)",
+      "from": "1934",
+      "kind": "exile",
+      "what": "Settled in California; taught at USC, then UCLA until 1944.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Arnold Schoenberg biography",
+          "url": "https://ressources.ircam.fr/en/composer/arnold-schoenberg/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1951",
+      "lat": 34.05,
+      "lon": -118.25
+    },
+    {
+      "name": "Albuquerque New Mexico",
+      "country": "United States (today United States)",
+      "from": "1948-11-04",
+      "kind": "premiere",
+      "what": "The Civic Symphony introduced his memorial to Holocaust survivors.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Albuquerque%20New%20Mexico&format=json&limit=1"
+        }
+      ],
+      "work": "A Survivor from Warsaw",
+      "lat": 35.0841034,
+      "lon": -106.650985
+    },
+    {
+      "name": "Los Angeles",
+      "country": "United States (today United States)",
+      "from": "1951-07-13",
+      "kind": "died",
+      "what": "Died at his Brentwood home.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 34.05,
+      "lon": -118.25
+    },
+    {
+      "name": "Zentralfriedhof Vienna",
+      "country": "Republic of Austria (today Austria)",
+      "from": "1974",
+      "kind": "buried",
+      "what": "Ashes transferred from California to an honorary grave in Vienna.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Arnold Schoenberg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Zentralfriedhof%20Vienna&format=json&limit=1"
+        }
+      ],
+      "lat": 48.1493339,
+      "lon": 16.4386631
+    }
+  ]
+}

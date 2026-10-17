@@ -1,0 +1,200 @@
+{
+  "id": "volga-boatmen-chaliapin-1927",
+  "work": {
+    "title": "Song of the Volga Boatmen",
+    "catalogue": "",
+    "movement": "Arrangement by Chaliapin and Keneman",
+    "version": {
+      "value": "Russian folk song arranged by Fyodor Chaliapin and Fyodor Keneman; bass and orchestra",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": ""
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Fyodor Chaliapin",
+        "role": "bass"
+      },
+      {
+        "name": "Albert Coates",
+        "role": "conductor"
+      },
+      {
+        "name": "Orchestra not named",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "upstream"
+    ],
+    "note": "The source does not identify an orchestra by name."
+  },
+  "session": {
+    "date": {
+      "value": "1927-10-20",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "discography"
+      ],
+      "note": "1928 is the release year, not the performance date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "London, United Kingdom",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "No particular studio is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Disque “Gramophone”",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DB 1103",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "Cc11709, take 1; order number 2-022051",
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "discography"
+      ],
+      "note": "Commons and the discography identify take 1. The upstream table says “CC-11709-2” but also gives “CC 11709I”; its own cited reference says take 1. The discography lists take 2 as unpublished.",
+      "alternatives": [
+        {
+          "value": "Cc11709, take 2 (upstream table; internally inconsistent)",
+          "sourceIds": [
+            "upstream"
+          ]
+        }
+      ]
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Swiss Foundation Public Domain; Martin Osterwalder collection",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "Collection and institutional transfer provenance are documented; no individual engineer is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The 21 April 2016 Commons upload is not a transfer date."
+    },
+    "processing": {
+      "value": "Record cleaning machine and ELP laser turntable",
+      "status": "documented",
+      "sourceIds": [
+        "upstream"
+      ],
+      "note": "The source categories identify Keith Monks Archivist Duo Omni, RCM Mk. IX, and ELP LT-2XA. Detailed restoration, pitch adjustment and equalisation are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/PDP-CH_-_Feodor_Chaliapin_-_The_Song_of_the_Volga_Boatmen_-_Russian_folk_song_-_Fyodor_Keneman_-_Gramophone-db1103-2-022051.flac/PDP-CH_-_Feodor_Chaliapin_-_The_Song_of_the_Volga_Boatmen_-_Russian_folk_song_-_Fyodor_Keneman_-_Gramophone-db1103-2-022051.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative; one source file, no concatenation or audio edits by Contrapunctus",
+    "durationSeconds": 203.78
+  },
+  "rights": {
+    "composition": {
+      "value": "Traditional melody; Chaliapin–Keneman arrangement is public domain under ordinary life-plus-70 terms",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The source gives the arrangers’ deaths as 1938 and 1937. No claim of worldwide clearance is made."
+    },
+    "recording": {
+      "value": "territorial — European public domain; first published 1928",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "eu-term"
+      ],
+      "note": "Allowed on documented publication before 1963: the former 50-year recording term expired before the 2013 extension. US recording status is not established. Commons’ PD-old-70 composition tag is not treated as a recording licence; the upstream item contains no non-commercial restriction. Upstream worldwide/US expiry assertions are not adopted."
+    },
+    "creditLine": "Song of the Volga Boatmen; Fyodor Chaliapin, bass; orchestra conducted by Albert Coates. London, 20 October 1927; Disque “Gramophone” DB 1103, released 1928. Swiss Foundation Public Domain / Martin Osterwalder collection, via Wikimedia Commons. Recording rights: territorial European public domain; US status unestablished.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Song of the Volga Boatmen, DB 1103",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Feodor_Chaliapin_-_The_Song_of_the_Volga_Boatmen_-_Russian_folk_song_-_Fyodor_Keneman_-_Gramophone-db1103-2-022051.flac",
+      "locator": "Summary: date, matrix, conductor, first release 1928; source and transcode status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "upstream",
+      "title": "Swiss Foundation Public Domain — original collection entry",
+      "url": "https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051",
+      "locator": "Carrier, first recording and release dates, source references, equipment categories and rights statement.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "discography",
+      "title": "Feodor Chaliapin — complete discography",
+      "url": "https://artmusiclounge.files.wordpress.com/2016/03/chaliapin-discography.pdf",
+      "locator": "Page 5: 20 October 1927; Cc10957-2 and Cc11709-1. Page 6 lists Cc11709-2 as unpublished.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "DAHR — earlier recording of the Chaliapin–Keneman arrangement",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686",
+      "locator": "Arrangement attribution and forces, not evidence for the 1927 session.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — recording term extension",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recital 1 and Article 1(3): extension applies to recordings still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

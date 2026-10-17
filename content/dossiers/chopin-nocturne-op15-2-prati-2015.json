@@ -1,0 +1,149 @@
+{
+  "id": "chopin-nocturne-op15-2-prati-2015",
+  "work": {
+    "title": "Nocturne in F♯ major, Op. 15 No. 2",
+    "catalogue": "Op. 15 No. 2",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Patrizia Prati",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Live piano performance supplied by Patrizia Prati through Wikimedia Spain; Commons records permission ticket 2015120610013684."
+  },
+  "session": {
+    "date": {
+      "value": "24 November 2015",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Live piano performance supplied by Patrizia Prati through Wikimedia Spain; Commons records permission ticket 2015120610013684.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Museum of Romanticism, Madrid",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Named by the cited source; not inferred from an ensemble’s home city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No commercial label or original carrier is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Catalogue number of the transferred carrier is not established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No matrix/take identifier is established; absence from the source does not mean none existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Restoration and equalisation details are not established for this exact access derivative."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg/Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 218.8399375
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "CC BY-SA 4.0, explicitly released by the copyright holder with Wikimedia permission ticket 2015120610013684.",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "term"
+      ],
+      "note": "Programme rule 1. Credit Patrizia Prati, piano; provided through Wikimedia Spain. The Commons MP3 access derivative is streamed unchanged."
+    },
+    "creditLine": "Nocturne in F♯ major, Op. 15 No. 2; Patrizia Prati, piano. CC BY-SA 4.0, explicitly released by the copyright holder with Wikimedia permission ticket 2015120610013684. Source: Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "US Copyright Office — pre1972 sound recordings",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Recordings first published before1923 and the annual expiration schedule for1923–1946 publications; as of2026 the cutoff is1925.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

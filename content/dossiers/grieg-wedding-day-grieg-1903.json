@@ -1,0 +1,174 @@
+{
+  "id": "grieg-wedding-day-grieg-1903",
+  "work": {
+    "title": "Wedding Day at Troldhaugen",
+    "catalogue": "Op. 65 No. 6",
+    "movement": "Composer’s abridged acoustic recording",
+    "version": {
+      "value": "Abridged solo-piano performance by the composer",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp",
+        "marston"
+      ],
+      "note": "The complete 1903 disc is streamed, not a digitally assembled excerpt. Its approximately two-minute duration is not the complete score. Comparison alignment excludes the shortened ending and music found only in Vetter’s complete reading."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Edvard Grieg",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "imslp",
+      "marston"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1903-05-02",
+      "status": "documented",
+      "sourceIds": [
+        "marston"
+      ],
+      "note": "Commons identifies 1903 in the description; its 10 March 2012 Date field is the upload date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "imslp",
+        "marston"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Gramophone & Typewriter Company",
+      "status": "documented",
+      "sourceIds": [
+        "imslp",
+        "marston"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "3800; also issued as 35515",
+      "status": "documented",
+      "sourceIds": [
+        "imslp",
+        "marston"
+      ],
+      "note": "IMSLP lists No. 3800; Marston lists 35515. The exact pressing used for the Commons transfer is not identified."
+    },
+    "matrixTakeSides": {
+      "value": "2149F",
+      "status": "documented",
+      "sourceIds": [
+        "imslp",
+        "marston"
+      ],
+      "note": "No take suffix is supplied by these sources."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The uploader is not identified as the transfer engineer. The Commons description “Original tape” does not establish the 1903 medium or a transfer chain."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "10 March 2012 is the upload date, not a demonstrated transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "marston"
+      ],
+      "note": "The Commons transfer’s restoration and replay speed are not documented. Marston discusses pitch instability in these early discs, but its modern restoration is not the audio streamed here."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; one source file, no concatenation or audio edits by Contrapunctus",
+    "durationSeconds": 121.49
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying piano composition is public domain under ordinary life-plus-70 terms",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "Grieg died in 1907. This does not establish rights in a modern edition."
+    },
+    "recording": {
+      "value": "US public domain: sound recording first published in 1903",
+      "status": "documented",
+      "sourceIds": [
+        "imslp",
+        "marston",
+        "us-term"
+      ],
+      "note": "IMSLP’s recording entry names Gramophone & Typewriter No. 3800, 1903, matrix 2149F; Marston corroborates matrix, pianist and 2 May 1903 session. The recording’s pre-1926 publication, not Commons’ composition-only PD-old tag, is the basis. No non-commercial restriction appears in the inspected source entry."
+    },
+    "creditLine": "Edvard Grieg, Wedding Day at Troldhaugen, Op. 65 No. 6; Edvard Grieg, piano. Paris, 2 May 1903; Gramophone & Typewriter matrix 2149F, published 1903. Abridged performance; transfer engineer unknown; via Wikimedia Commons. Sound recording: US public domain.",
+    "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Grieg plays Wedding Day (1903)",
+      "url": "https://commons.wikimedia.org/wiki/File:Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B(1903).ogg",
+      "locator": "Description, upload date, duration, source “pd” and licensing. No earlier transfer source is named.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — historical Grieg recording #490186",
+      "url": "https://imslp.org/wiki/Lyric_Pieces,_Op.65_(Grieg,_Edvard)#IMSLP490186",
+      "locator": "Recording block: pianist Grieg; Paris, Gramophone & Typewriter No. 3800, 1903, matrix 2149F; recording labelled public domain.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "marston",
+      "title": "Marston Records — Legendary Piano Recordings",
+      "url": "https://www.marstonrecords.com/products/legendary-piano",
+      "locator": "Disc 1, track 8, under Paris 2 May 1903: matrix 2149F, issue 35515. Notes: early disc pitch instability; this source is discographic evidence, not the streamed transfer.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "US Copyright Office — pre-1972 sound-recording terms",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: recordings first published before 1923.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "id": "chopin-etude-op10-5",
+  "source": {
+    "mutopia": 926,
+    "title": "Étude in G♭ major, Op. 10 No. 5",
+    "edition": "Peters, Herrmann Scholtz, 1900b",
+    "encoder": "Roland Goretzki",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=926",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "chp-10-05-a4.ly",
+    "midi": "chp-10-05.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O10/chp-10-05/chp-10-05-lys.zip",
+        "file": "chp-10-05-lys.zip",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O10/chp-10-05/chp-10-05.mid",
+        "file": "chp-10-05.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 85,
+    "quarters": 2,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        85
+      ]
+    ],
+    "description": "Play printed bars 1–85 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      102,
+      106
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Peters, Herrmann Scholtz, 1900b. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/chopin-etude-op10-5.mjs and cache/analysis/chopin-etude-op10-5.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

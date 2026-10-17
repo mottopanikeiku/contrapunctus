@@ -550,7 +550,7 @@ export async function mount(app) {
 <p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>— ${c.quote.source}</small></blockquote>` : ''}${c.background}
 <dl><div><dt>Born</dt><dd>${c.born}</dd></div>${c.died ? `<div><dt>Died</dt><dd>${c.died}</dd></div>` : ''}${c.facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
 <div class="inherit"></div>
-<a class="more-link" href="${new URL(c.page ?? `composers/${c.slug}.html`, app.root).href}">${c.era === 'before-bach' || (c.page ?? '').startsWith('origins') ? 'Before Bach: the origins of this music →' : 'The full portrait: life, scores, paintings →'}</a>`;
+${c.page === null ? '' : `<a class="more-link" href="${new URL(c.page ?? `composers/${c.slug}.html`, app.root).href}">${c.era === 'before-bach' || (c.page ?? '').startsWith('origins') ? 'Before Bach: the origins of this music →' : 'The full portrait: life, scores, paintings →'}</a>`}`;
     const t0 = track;
     influence().then((all) => {
       const mine = all?.[c.slug];
@@ -562,6 +562,8 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.famil
 <a class="more-link" href="${new URL(`influence.html#node-${c.slug}`, app.root).href}">See ${escapeHtml(c.family ?? c.name)} in the Web of Influence →</a>`;
     });
   }
+  let compareData = null;
+  const compareIndex = () => (compareData ??= fetch(new URL(`assets/compare-index.json?v=${document.documentElement.dataset.prog ?? ''}`, app.root)).then((r) => (r.ok ? r.json() : null)).catch(() => null));
   let influenceData = null;
   const influence = () => (influenceData ??= fetch(new URL(`assets/influence.json?v=${document.documentElement.dataset.prog ?? ''}`, app.root)).then((r) => (r.ok ? r.json() : null)).catch(() => null));
   function renderPieceTab() {
@@ -577,7 +579,14 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
 <h4 class="tab-h">The recording</h4>${dossier}
 <h4 class="tab-h">Form</h4><ol class="sec-list">${t.sections.map((s) => `<li data-t="${s.t}"><span>${fmt(s.t)}</span><span>${s.label}</span></li>`).join('')}</ol>
 <h4 class="tab-h">All listening notes</h4><ol class="cue-list">${t.cues.map((c) => `<li data-t="${c.t}" data-kind="${c.kind}"><span>${fmt(c.t)}</span><span>${c.title}</span></li>`).join('')}</ol>
+<div class="others"></div>
 <h4 class="tab-h">How to cite</h4><p class="cite">${cite}</p>`;
+    const t0 = t;
+    compareIndex().then((idx) => {
+      const mine = idx?.[t.id];
+      if (!mine?.length || track !== t0) return;
+      $('.others', ui.tabPiece).innerHTML = `<h4 class="tab-h">Other performances</h4><ul class="others-l">${mine.map((e) => `<li><a href="${new URL(`compare/${e.compare}.html`, app.root).href}">${escapeHtml(e.label)}</a></li>`).join('')}</ul>`;
+    });
   }
   on(ui.tabPiece, 'click', (e) => { const li = e.target.closest('li[data-t]'); if (li) seek(+li.dataset.t); });
   $$('.tabs button').forEach((b) => on(b, 'click', () => {

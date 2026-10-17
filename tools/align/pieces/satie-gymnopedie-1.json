@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "id": "satie-gymnopedie-1",
+  "source": {
+    "mutopia": 37,
+    "title": "Gymnopédie No. 1",
+    "edition": "Dover Edition (reproduction of the original; translated text omitted)",
+    "encoder": "Evin Robertson",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "gymnopedie_1.ly",
+    "midi": "gymnopedie_1.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.ly",
+        "file": "gymnopedie_1.ly",
+        "sha256": "420a52244e9fbe106dd33ba2cac84414fd66e0d01c6d472205bad39678d4ce04"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.mid",
+        "file": "gymnopedie_1.mid",
+        "sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "gymnopedie_1.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\context PianoStaff << \\context Staff = \"treble\" << \\global \\clef treble \\top \\middle >> \\context Staff = \"bass\" << \\global \\clef bass \\bottom >> >>",
+    "midiSettings": "\\context { \\Staff \\remove \"Staff_performer\" } \\context { \\Voice \\consists \"Staff_performer\" }",
+    "expectedTracks": [
+      "",
+      "",
+      "accomp:accomp",
+      "",
+      "othervoice:othervoice",
+      "othervoice:othervoice"
+    ],
+    "comparePublished": {}
+  },
+  "voices": [
+    {
+      "id": "melody",
+      "name": "Melody",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "accompaniment",
+      "name": "Accompaniment chords",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "bass-inner",
+      "name": "Bass staff, additional voice",
+      "tracks": [
+        4,
+        5
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 47,
+    "quarters": 3,
+    "order": [
+      [
+        1,
+        39
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        40,
+        47
+      ]
+    ],
+    "description": "Compact Mutopia numbering: bars 1–39, then bars 1–31 again, then second ending 40–47. This is 78 performed bars; the source folds the original written-out return into a volta."
+  },
+  "endpoints": {
+    "first": [
+      2.05,
+      2.5
+    ],
+    "last": [
+      176.55,
+      177.1
+    ],
+    "basis": "Pitch-energy inspection: first G2 attack after leading silence; final D-minor attack before the decay. Windows select attacks, not the unrelated noise before the music."
+  },
+  "boundaries": [
+    [
+      "19",
+      1,
+      42
+    ],
+    [
+      "1",
+      2,
+      88
+    ],
+    [
+      "40",
+      1,
+      158
+    ]
+  ],
+  "diagnostics": {
+    "held": {
+      "voice": 0,
+      "minimumDurationQ": 9
+    },
+    "recurrences": [
+      {
+        "startQ": 0,
+        "startOffset": 3,
+        "secondQ": 117,
+        "secondOffset": 3,
+        "length": 65
+      }
+    ]
+  },
+  "chords": [
+    {
+      "bars": [
+        "1"
+      ],
+      "label": "Gmaj7",
+      "basis": "editorial"
+    },
+    {
+      "bars": [
+        "2"
+      ],
+      "label": "Dmaj7",
+      "basis": "editorial"
+    },
+    {
+      "bars": [
+        "3"
+      ],
+      "label": "Gmaj7",
+      "basis": "editorial"
+    },
+    {
+      "bars": [
+        "4"
+      ],
+      "label": "Dmaj7",
+      "basis": "editorial"
+    }
+  ],
+  "engraving": {
+    "staff": 19,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Voice-level Staff_performer exposes top, accomp, bottom and othervoice; the aggregate set of pitch/onset pairs equals the published MIDI. Regeneration preserves the twelve-quarter F♯ melody tie at bar 9: the published merged-staff MIDI truncates it at accompaniment reattacks and has two redundant note-offs at quarter 36."
+  ]
+}

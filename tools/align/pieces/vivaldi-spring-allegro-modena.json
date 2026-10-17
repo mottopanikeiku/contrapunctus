@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "id": "vivaldi-spring-allegro-modena",
+  "source": {
+    "mutopia": 301,
+    "title": "La Primavera / Spring, RV 269 — I. Allegro",
+    "edition": "Performers’ Facsimiles",
+    "encoder": "Anonymous (Mutopia maintainer)",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "spring-lys/spring-score.ly",
+    "midi": "spring-score.mid",
+    "downloads": [
+      { "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-lys.zip", "file": "spring-lys.zip", "sha256": "3a87fa93faace5b2d6689fe6d39b3ee32dde6649d924a394f6b05239b22cbab9" },
+      { "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-mids.zip", "file": "spring-mids.zip", "sha256": "1e3d57ffee2dc77a4d06d777f01633d3726c57221b35661d6093095ca8cef3fd" }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": ["control track", "solo", "violinone", "violintwo", "viola", "cello"],
+    "definitions": [
+      { "file": "spring-lys/spring1.ly" },
+      { "file": "spring-lys/spring1a.ly" },
+      { "file": "spring-lys/spring1b.ly" },
+      { "file": "spring-lys/spring1c.ly" },
+      { "file": "spring-lys/spring1d.ly" },
+      { "file": "spring-lys/spring1f.ly" }
+    ]
+  },
+  "voices": [
+    { "id": "solo-violin", "name": "Solo violin", "tracks": [1] },
+    { "id": "violins-1", "name": "Violins I", "tracks": [2] },
+    { "id": "violins-2", "name": "Violins II", "tracks": [3] },
+    { "id": "violas", "name": "Violas", "tracks": [4] },
+    { "id": "continuo-bass", "name": "Organ and cello bass line (not realised continuo)", "tracks": [5] }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 83,
+    "quarters": 4,
+    "overrides": { "0": 0.5 },
+    "order": [[0, 82]],
+    "description": "Eighth-note pickup (bar 0), then bars 1–82 once in written order. Echoes and returning refrains are written out; no repeat traversal is inserted. Only movement I is used."
+  },
+  "endpoints": {
+    "first": [0, 2],
+    "last": [204, 213],
+    "basis": "Initial score-pitch search windows from the existing 214.0-second recording analysis; refine using pitch-energy inspection before publication."
+  },
+  "boundaries": [],
+  "provenance": ["The archive’s spring-score.mid is movement I only, with named source staves solo, violinone, violintwo, viola and cello. spring-score-1.mid and spring-score-2.mid are movements II and III and are not used.", "The source’s Organo e Violoncello part supplies one written bass line plus figured-bass symbols. No realised continuo pitches or separately inferred double-bass voice are invented. The source maintainer is explicitly Anonymous.", "Source MIDI contains 3173 note attacks over 328.5 quarter-note units; the pickup is labelled bar 0, followed by 82 complete 4/4 bars."],
+  "engraving": {
+    "staff": 17,
+    "width": 250,
+    "height": 320,
+    "music": "\\new StaffGroup << \\new Staff = \"solo\" \\with { instrumentName = \"Violin solo\" } { \\ViolinoPrincipaleSpringOne } \\new Staff = \"violinone\" \\with { instrumentName = \"Violin I\" } { \\ViolinoPrimoSpringOne } \\new Staff = \"violintwo\" \\with { instrumentName = \"Violin II\" } { \\ViolinoSecondoSpringOne } \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } { \\AltoViolaSpringOne } \\new Staff = \"cello\" \\with { instrumentName = \"Continuo bass\" } << \\FiguredBassSpringOne \\VioloncelloSpringOne >> >>"
+  }
+}

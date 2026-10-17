@@ -12,18 +12,20 @@ import numpy as np
 from score_events import HERE
 
 
-def plot(ident, start, end):
+def plot(ident, start, end, verbose=True):
     data = np.load(HERE / 'work' / (ident + '-features.npz'))
     score = json.loads((HERE / 'work' / (ident + '-candidate.json')).read_text())
     notes = np.array(score['notes'])
     fig, axes = plt.subplots(3, 1, figsize=(15, 9), sharex=True, layout='constrained')
     a, b = int(start * 50), min(int(end * 50), data['pitch'].shape[1])
-    p = np.log1p(data['pitch'][24:96, a:b] * 100)
+    low = max(0, min(24, int(notes[:, 2].min()) - 2))
+    high = min(128, max(96, int(notes[:, 2].max()) + 3))
+    p = np.log1p(data['pitch'][low:high, a:b] * 100)
     p /= np.maximum(np.max(p, axis=1, keepdims=True), .01)
-    axes[0].imshow(p, origin='lower', aspect='auto', extent=[start, b / 50, 24, 96], cmap='Greys', vmin=0, vmax=1)
+    axes[0].imshow(p, origin='lower', aspect='auto', extent=[start, b / 50, low, high], cmap='Greys', vmin=0, vmax=1)
     for onset, dur, pitch, voice, _ in notes[(notes[:, 0] + notes[:, 1] >= start) & (notes[:, 0] <= end)]:
         axes[0].plot([onset, onset + dur], [pitch + .4, pitch + .4], color=plt.cm.tab10(int(voice) % 10), lw=1.4, alpha=.7)
-    axes[0].set_ylim(24, 96)
+    axes[0].set_ylim(low, high)
     axes[0].set_ylabel('MIDI pitch; score lines / measured energy')
     t = np.arange(a, b) / 50
     axes[1].plot(t, np.sum(data['dlnco'][:, a:b], axis=0), color='black')
@@ -48,8 +50,10 @@ def plot(ident, start, end):
     fig.savefig(dest, dpi=115)
     plt.close(fig)
     print(dest)
-    print('AUDIO_ONSETS', onsets[(onsets >= start) & (onsets < end)].round(3).tolist())
-    print('SCORE_ATTACKS', unique[(unique >= start) & (unique < end)].round(3).tolist())
+    if verbose:
+        print('AUDIO_ONSETS', onsets[(onsets >= start) & (onsets < end)].round(3).tolist())
+        print('SCORE_ATTACKS', unique[(unique >= start) & (unique < end)].round(3).tolist())
+    return dest
 
 
 if __name__ == '__main__':

@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "id": "bach-wtc1-fugue-b-minor",
+  "source": {
+    "mutopia": 1563,
+    "title": "Das Wohltemperierte Clavier I, Fuga XXIV, BWV 869",
+    "edition": "Breitkopf & Härtel, 1866",
+    "encoder": "Itay Perl",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1563",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "bwv869b-lys/bwv869b.ly",
+    "midi": "bwv869b.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV869/bwv869b/bwv869b-lys.zip",
+        "file": "bwv869b-lys.zip",
+        "sha256": "3a6f99bb7ce2114f9e34bbba9541861b308a9371d3102580e38b1ef415978f18"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV869/bwv869b/bwv869b.mid",
+        "file": "bwv869b.mid",
+        "sha256": "3385d3bb181fd878d023e4a06d60f260b798918a5d40804d80e0c195b9f89f42"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "isolated-voices",
+    "definitions": [
+      {
+        "file": "bwv869b-lys/notes.lyi"
+      }
+    ],
+    "staves": [
+      "RH",
+      "LH"
+    ],
+    "silent": "s1*76",
+    "comparePublished": {},
+    "ties": [
+      {
+        "origin": {
+          "q": 89.5,
+          "pitch": 66,
+          "voice": "alto",
+          "durationQ": 0.5
+        },
+        "continuation": {
+          "q": 90,
+          "pitch": 66,
+          "voice": "soprano",
+          "durationQ": 0.25
+        }
+      }
+    ]
+  },
+  "voices": [
+    {
+      "id": "soprano",
+      "name": "Soprano",
+      "music": "\\soprano",
+      "staff": "RH"
+    },
+    {
+      "id": "alto",
+      "name": "Alto",
+      "music": "\\alto",
+      "staff": "RH"
+    },
+    {
+      "id": "tenor",
+      "name": "Tenor",
+      "music": "\\tenore",
+      "staff": "LH"
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "music": "\\basso",
+      "staff": "LH"
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 76,
+    "quarters": 4,
+    "order": [
+      [
+        1,
+        76
+      ]
+    ],
+    "description": "Bars 1–76 once, in score order; no repeat sign or inserted repeat. Subject recurrences remain within this continuous contrapuntal sequence."
+  },
+  "endpoints": {
+    "first": [
+      0.6,
+      1.05
+    ],
+    "last": [
+      464.95,
+      465.5
+    ],
+    "basis": "Pitch-energy inspection: first F♯4 of the alto subject; final B-major chord. Unanchored DTW placed the final chord about five seconds into its decay."
+  },
+  "boundaries": [],
+  "diagnostics": {
+    "scanRecurrence": true
+  },
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Compile soprano, alto, tenore and basso separately from notes.lyi, retaining their cross-staff notes and internal subdivisions. The explicit bar-23 cross-voice F♯ tie is one event assigned to its originating Alto voice, not a new Soprano attack. The aggregate pitch/onset set equals the published MIDI. Isolated variables avoid the anonymous child-voice reuse that places the alto’s closing D♯ in the published soprano MIDI track."
+  ]
+}

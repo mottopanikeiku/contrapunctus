@@ -1,0 +1,163 @@
+{
+  "id": "chopin-nocturne-op15-2-paderewski-1937",
+  "work": {
+    "title": "Nocturne in F♯ major, Op. 15 No. 2",
+    "catalogue": "Op. 15 No. 2",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No modern performing edition is established; the source audio is not locally edited or concatenated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Ignacy Jan Paderewski",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source",
+      "rubato"
+    ],
+    "note": "Commons/Public Domain Project identifies the session and first release in 1938."
+  },
+  "session": {
+    "date": {
+      "value": "30 January 1937",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "rubato"
+      ],
+      "note": "Commons/Public Domain Project identifies the session and first release in 1938.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "London",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "rubato"
+      ],
+      "note": "Named by the cited source; not inferred from an ensemble’s home city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "rubato"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DB 3711",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "rubato"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "2EA 4573 (take not established)",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "rubato"
+      ],
+      "note": ""
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "An uploader is not automatically a transfer engineer; no engineer is securely credited for this exact derivative."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Transfer date is not established; upload dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Restoration and equalisation details are not established for this exact access derivative."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major%2C_Op._15%2C_No._2_%28Chopin%29_-_Hmv-db3711-2ea4573.ogg/Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major%2C_Op._15%2C_No._2_%28Chopin%29_-_Hmv-db3711-2ea4573.ogg.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access stream; original source identified in the linked recording item.",
+    "durationSeconds": 221.78539583333333
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This does not clear an unidentified modern edition or establish worldwide rights."
+    },
+    "recording": {
+      "value": "Territorial: EU public domain under the pre-1963 publication rule; first release 1938.",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "rubato",
+        "term"
+      ],
+      "note": "Programme rule 3. Commons’ PD-old-70 tag is composition-only; the documented first-release year supplies the sound-recording basis. US status is not established."
+    },
+    "creditLine": "Nocturne in F♯ major, Op. 15 No. 2; Ignacy Jan Paderewski, piano. Territorial: EU public domain under the pre-1963 publication rule; first release 1938. Source: Wikimedia Commons.",
+    "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_(Chopin)_-_Hmv-db3711-2ea4573.ogg",
+      "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rubato",
+      "title": "Paderewski — Tempo Rubato (1909)",
+      "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/",
+      "locator": "The pianist rejects compulsory compensation for stolen time in solo playing; a statement of interpretative principles, not measured proof of a particular gesture.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "EU Directive2011/77 — transitional term provisions",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
+      "locator": "Article1, amendments to Directive2006/116 Article10: recordings still protected on30October2011. A pre1963 publication whose former50-year term expired is not revived.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

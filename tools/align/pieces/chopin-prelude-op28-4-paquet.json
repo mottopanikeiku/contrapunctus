@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "id": "chopin-prelude-op28-4-paquet",
+  "source": {
+    "mutopia": 921,
+    "title": "Prelude in E minor, Op. 28 No. 4",
+    "edition": "Peters, Herrmann Scholtz, 1900b",
+    "encoder": "Roland Goretzki",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=921",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "chp-28-04-a4.ly",
+    "midi": "Chop-28-4a.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a-lys.zip",
+        "file": "Chop-28-4a-lys.zip",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a.mid",
+        "file": "Chop-28-4a.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "chp-28-04-a4.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\global \\rechts >> \\new Staff = \"down\" << \\global \\links >> >>"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 26,
+    "quarters": 4,
+    "overrides": {
+      "0": 1,
+      "25": 3
+    },
+    "order": [
+      [
+        0,
+        25
+      ]
+    ],
+    "description": "Play the pickup, then printed bars 1–25 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      105,
+      109
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Peters, Herrmann Scholtz, 1900b. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/chopin-prelude-op28-4-paquet.mjs and cache/analysis/chopin-prelude-op28-4-paquet.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Compile printed rechts/links, not the separately altered MIDIrechts/MIDIlinks playback parts; preserve the printed three-quarter final bar."
+  ]
+}

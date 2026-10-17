@@ -1,0 +1,18 @@
+export default {
+  id: 'ravel-miroirs-une-barque',
+  composer: 'ravel',
+  order: 22,
+  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 3, of: 5 },
+  work: 'Miroirs',
+  movement: 'III. Une barque sur l’océan — Assez doux, mais d’une sonorité large',
+  year: '1904–05',
+  key: '',
+  forces: 'Piano',
+  performers: 'Olena Havyuk-Sheremet, piano',
+  recorded: '2014-04-01',
+  source: { file: "File:Maurice Ravel - Miroirs - 3. Une barque sur l'océan.flac" },
+  intro: 'x',
+  question: 'x',
+  sections: [{ t: 0, label: 'A', m: 'A' }],
+  cues: [],
+};

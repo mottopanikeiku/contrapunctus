@@ -1,0 +1,17 @@
+export default {
+  id: 'leoncavallo-vesti-caruso-1907',
+  composer: null,
+  guest: { name: 'Ruggero Leoncavallo', born: 1857, died: 1919 },
+  concert: false,
+  order: 2,
+  work: 'Pagliacci',
+  movement: 'Recitar!… Vesti la giubba',
+  year: '1892',
+  key: '',
+  forces: 'Tenor and orchestra',
+  performers: 'Enrico Caruso, tenor; orchestra',
+  recorded: '17 March 1907',
+  source: { archive: { item: 'I_Pagliacci_Vesti_La_Giubba', file: 'I_Pagliacci_Vesti_La_Giubba.mp3' } },
+  intro: 'Caruso’s 1907 Victor side uses orchestral accompaniment, unlike his 1902 piano-accompanied recording. Bob Varney’s transfer preserves the longer side as one stream; a shared-passage comparison does not equate the two complete durations.',
+  question: 'How does orchestral accompaniment frame Caruso’s phrasing?',
+};

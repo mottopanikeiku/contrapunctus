@@ -1,0 +1,22 @@
+export default {
+  id: 'grieg-wedding-day-grieg-1903',
+  composer: null,
+  guest: { name: 'Edvard Grieg', born: 1843, died: 1907 },
+  concert: false,
+  order: 1,
+  work: 'Wedding Day at Troldhaugen, Op. 65 No. 6',
+  movement: 'Composer’s abridged acoustic recording',
+  year: '1896',
+  key: 'D major',
+  forces: 'Piano',
+  performers: 'Edvard Grieg, piano',
+  recorded: '2 May 1903, Paris',
+  source: {
+    file: 'File:Grieg+plays+Grieg+Wedding+Day+(1903).ogg',
+    rights: { basis: 'us-published-before-cutoff', published: 1903, evidence: ['https://imslp.org/wiki/Lyric_Pieces,_Op.65_(Grieg,_Edvard)#IMSLP490186', 'https://www.marstonrecords.com/products/legendary-piano'] },
+  },
+  intro: 'Grieg recorded this shortened version of his own piano piece in Paris in 1903. Its two-minute disc is not the complete score, and the comparison follows only shared opening material rather than equating whole-file durations.',
+  question: 'How does Grieg’s own pacing shape the shared opening?',
+  sections: [],
+  cues: [],
+};

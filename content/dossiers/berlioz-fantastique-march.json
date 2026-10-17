@@ -33,22 +33,20 @@
   },
   "session": {
     "date": {
-      "value": null,
-      "status": "unknown",
-      "sourceIds": [
-        "commons",
-        "archive"
-      ],
-      "note": "Commons gives 1 January 1962, while the upstream Archive item gives only 1962. Neither identifies a session day or distinguishes the year from an issue date; no 1 January session is asserted.",
-      "precision": null
+      "value": "11–17 January 1961",
+      "status": "documented",
+      "sourceIds": ["label"],
+      "note": "The original label’s reissue session table documents this date range. The Commons filename and upstream Archive item instead give 1962; that conflicting date is retained below, not treated as an exact session date.",
+      "precision": "range",
+      "alternatives": [
+        { "value": "1962 (disputed)", "sourceIds": ["commons", "archive"] }
+      ]
     },
     "place": {
-      "value": null,
-      "status": "unknown",
-      "sourceIds": [
-        "commons"
-      ],
-      "note": "No recording venue is identified in the consulted source."
+      "value": "Salle de la Mutualité, Paris, France",
+      "status": "documented",
+      "sourceIds": ["label"],
+      "note": "CD 9 recording-location table for the Markevitch/Lamoureux performance."
     }
   },
   "carrier": {
@@ -135,6 +133,13 @@
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
+    {
+      "id": "label",
+      "title": "Eloquence / Deutsche Grammophon — Igor Markevitch: The Deutsche Grammophon Legacy",
+      "url": "https://www.eloquenceclassics.com/releases/igor-markevitch-the-deutsche-grammophon-legacy/",
+      "locator": "CD 9 repertoire and recording details: Salle de la Mutualité, 11–17 January 1961; original DG issue 138712.",
+      "accessed": "2026-10-16"
+    },
     {
       "id": "commons",
       "title": "Wikimedia Commons — File:Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg",
