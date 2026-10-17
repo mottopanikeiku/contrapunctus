@@ -23,6 +23,8 @@ function npShow() {
 function npTrack() {
   const t = player.track; if (!t || !np) return;
   npUi.c.textContent = t.composer.name;
+  const im = $('.np-i', np);
+  if (t.composer.thumb) { im.src = new URL(t.composer.thumb, ROOT).href; im.style.objectPosition = t.composer.focus; im.hidden = false; } else im.hidden = true;
   npUi.w.textContent = `${t.work}${t.movement ? ' · ' + t.movement : ''}`;
   npUi.now.href = new URL(`hall.html#${t.id}`, ROOT).href;
   np.style.setProperty('--accent', t.era?.accent ?? '#c9a65a');

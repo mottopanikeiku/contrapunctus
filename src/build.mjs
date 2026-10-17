@@ -242,6 +242,7 @@ function persist(ctx) {
   return `<div id="cp-persist">
 <div class="np" hidden role="region" aria-label="Now playing">
   <button class="np-play" type="button" aria-label="Play">▶</button>
+  <img class="np-i" alt="" hidden>
   <a class="np-now" href="${ctx.base}hall.html"><span class="np-c"></span><span class="np-w"></span></a>
   <div class="np-track" role="presentation"><div class="np-prog"><span></span></div></div>
   <span class="np-time">0:00</span>
@@ -693,7 +694,7 @@ const BASIS_TEXT = {
 /** The smallest existing rendition at least `w` wide (renditions: -480, -960), else the original. */
 function rendition(src, w) {
   if (!src) return src;
-  for (const r of [480, 960]) {
+  for (const r of [160, 480, 960]) {
     if (r < w) continue;
     const alt = src.replace(/\.webp$/, `-${r}.webp`);
     if (existsSync(path.join(OUT, alt))) return alt;
@@ -744,14 +745,14 @@ async function programme() {
       composer: {
         slug: c.slug, name: c.name, given: c.given, family: c.family, dates: lifespan(c),
         born: `${c.born.date ?? c.born.year}, ${c.born.place}`, died: c.died ? `${c.died.date ?? c.died.year}, ${c.died.place}` : null,
-        epithet: c.epithet, portrait: rendition(p?.src ?? null, 480), focus: c.portrait.focus ?? '50% 25%',
+        epithet: c.epithet, portrait: rendition(p?.src ?? null, 480), thumb: rendition(p?.src ?? null, 160), focus: c.portrait.focus ?? '50% 25%',
         facts: (c.facts ?? []).map(([k, v]) => [k, rich(ctx, v)]),
         quote: c.quote ?? null, background: background(ctx, c),
       },
       era: e ? { slug: e.slug, numeral: e.numeral, name: e.name, span: e.span, accent: e.accent, hero: rendition(art[normalizeTitle(e.hero.file)]?.src ?? null, 480), heroCaption: `${e.hero.artist}, ${e.hero.title}` } : null,
       tuning: tuning.hz ?? 440, tuningStatus: tuning.status ?? 'standard', work: l.work, movement: l.movement ?? '', year: l.year, key: l.key ?? '', forces: l.forces, performers: l.performers, recorded: l.recorded ?? '',
       question: l.question ?? '', intro, stream: s.stream, sourcePage: s.page, license: l.license ?? s.license, duration: s.duration,
-      sections: l.sections ?? [], relations: rel, cues, transitions,
+      sections: l.sections ?? [], relations: rel, cues, transitions, orchestra: l.orchestra ?? null,
       hasScore: !!score, hasSheet, voices: score?.voices?.map((v) => v.name) ?? [],
       scoreSource: score ? { title: score.source?.title ?? '', edition: score.source?.edition ?? '', url: score.source?.url ?? '', license: score.source?.license ?? '', status: score.status } : null,
       dossier: dossierFor(await readJsonOr(path.join(ROOT, 'content/dossiers', `${l.id}.json`))),
@@ -762,7 +763,7 @@ async function programme() {
 
 async function roomPage(prog) {
   // The player needs only the index; everything a reader opens in the hall is fetched per piece.
-  const DETAIL = ['intro', 'question', 'sections', 'relations', 'cues', 'transitions', 'dossier', 'scoreSource', 'voices'];
+  const DETAIL = ['intro', 'question', 'sections', 'relations', 'cues', 'transitions', 'orchestra', 'dossier', 'scoreSource', 'voices'];
   const index = prog.map((t) => {
     const o = Object.fromEntries(Object.entries(t).filter(([k]) => !DETAIL.includes(k)));
     o.composer = Object.fromEntries(Object.entries(t.composer).filter(([k]) => !['facts', 'quote', 'background', 'born', 'died', 'epithet'].includes(k)));
@@ -877,7 +878,7 @@ ${headScripts(ctx)}
 
 <aside class="programme" hidden>
   <header><h2>The programme</h2><p>${prog.length} pieces, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
-  ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t) => `<li><button data-id="${t.id}"><span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`).join('')}</ol></section>`).join('')}
+  ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t) => `<li><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`).join('')}</ol></section>`).join('')}
 </aside>
 
 <div class="curtain" hidden>
@@ -889,7 +890,7 @@ ${headScripts(ctx)}
     <small>Browsers need one click before a page may play sound. After that, the music plays on its own.</small>
   </div>
 </div>
-<div class="interlude" hidden><span class="i-era"></span><span class="i-name"></span><span class="i-work"></span></div>
+<div class="interlude" hidden><span class="i-cameo"><img alt=""></span><span class="i-era"></span><span class="i-name"></span><span class="i-work"></span></div>
 ${persist(ctx)}
 </body>
 </html>

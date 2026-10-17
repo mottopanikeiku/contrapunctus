@@ -100,7 +100,7 @@ export async function mount(app) {
     const views = [];
     if (t.hasSheet) views.push('score');
     if (score) views.push('notes');
-    if (score && score.voices.length >= 6) views.push('orchestra');
+    if ((score && score.voices.length >= 6) || t.orchestra?.ensemble?.length) views.push('orchestra');
     views.push('sound');
     if (t.sections.length >= 2) views.push('form');
     ui.views.innerHTML = views.length > 1 ? views.map((v) => `<button role="tab" data-view="${v}">${VIEW_LABEL[v]}</button>`).join('') : '';
@@ -394,44 +394,109 @@ export async function mount(app) {
     };
   }
 
-  // ---- the orchestra on its stage: each section glows when its written part is sounding
+  // ---- the orchestra on its stage, seen from above the conductor: concentric rows of seats, each section a
+  // gilded wedge that glows while it plays and burns brighter while it carries the tune. Data: the aligned score
+  // (which written parts are sounding) and/or the authored passage timeline in track.orchestra.
   function orchestraView() {
-    const SEATS = [
-      // [match, x, y, w, h] on a 1000×520 stage seen from the hall; strings in front, winds behind, brass and timpani at the back
-      [/^(violins? i|violin 1|violini? i)$/i, 120, 330, 230, 110], [/^(violins? ii|violin 2|violini? ii)$/i, 250, 215, 200, 95], [/viol(a|e)s?\b/i, 550, 215, 200, 95], [/cell/i, 650, 330, 230, 110], [/bass(es)?\b|contrab/i, 790, 205, 170, 95],
-      [/flute|flauti/i, 330, 120, 150, 70], [/oboe|oboi/i, 520, 120, 150, 70], [/clarinet/i, 330, 45, 150, 66], [/bassoon|fagott/i, 520, 45, 150, 66],
-      [/horn|corni/i, 100, 100, 180, 80], [/trumpet|trombe/i, 700, 45, 150, 66], [/timpani|timp/i, 860, 70, 120, 70], [/trombone/i, 700, 120, 150, 66],
+    const NS = 'http://www.w3.org/2000/svg';
+    const ROWS = [
+      ['violins-1', 'violas', 'cellos'],
+      ['violins-2', 'piccolo', 'flutes', 'oboes', 'cor-anglais', 'e-flat-clarinet', 'basses'],
+      ['harp', 'celesta', 'harpsichord', 'organ', 'piano', 'clarinets', 'bass-clarinet', 'saxophones', 'bassoons', 'contrabassoon', 'horns'],
+      ['percussion', 'cornets', 'trumpets', 'trombones', 'euphoniums', 'tuba', 'timpani'],
+      ['chorus'],
     ];
-    const vs = score.voices.map((v, i) => {
-      const s = SEATS.find(([re]) => re.test(v.name));
-      return { i, name: v.name, box: s ? s.slice(1) : null };
+    const CHAIRS = { 'violins-1': 16, 'violins-2': 14, violas: 12, cellos: 10, basses: 8, piccolo: 1, flutes: 2, oboes: 2, 'cor-anglais': 1, 'e-flat-clarinet': 1, clarinets: 2, 'bass-clarinet': 1, saxophones: 4, bassoons: 2, contrabassoon: 1, horns: 4, cornets: 3, trumpets: 2, trombones: 3, euphoniums: 2, tuba: 1, timpani: 1, percussion: 3, harp: 2, celesta: 1, piano: 1, organ: 1, harpsichord: 1, chorus: 24 };
+    const NAME = { 'violins-1': 'First violins', 'violins-2': 'Second violins', violas: 'Violas', cellos: 'Cellos', basses: 'Double basses', piccolo: 'Piccolo', flutes: 'Flutes', oboes: 'Oboes', 'cor-anglais': 'Cor anglais', 'e-flat-clarinet': 'E♭ clarinet', clarinets: 'Clarinets', 'bass-clarinet': 'Bass clarinet', saxophones: 'Saxophones', bassoons: 'Bassoons', contrabassoon: 'Contrabassoon', horns: 'Horns', cornets: 'Cornets', trumpets: 'Trumpets', trombones: 'Trombones', euphoniums: 'Euphoniums', tuba: 'Tuba', timpani: 'Timpani', percussion: 'Percussion', harp: 'Harp', celesta: 'Celesta', piano: 'Piano', organ: 'Organ', harpsichord: 'Harpsichord', 'solo-violin': 'Solo violin', 'solo-voice': 'Voice', chorus: 'Chorus' };
+    const MAP = [[/^(violins? i|violin 1|violini? i)$/i, 'violins-1'], [/^(violins? ii|violin 2|violini? ii)$/i, 'violins-2'], [/viol(a|e)s?\b/i, 'violas'], [/cell/i, 'cellos'], [/bass(es)?$|contrab/i, 'basses'], [/piccolo/i, 'piccolo'], [/flute|flauti/i, 'flutes'], [/oboe/i, 'oboes'], [/clarinet/i, 'clarinets'], [/bassoon|fagott/i, 'bassoons'], [/horn|corni/i, 'horns'], [/trumpet|trombe/i, 'trumpets'], [/trombone/i, 'trombones'], [/timp/i, 'timpani']];
+    const orch = track.orchestra;
+    const voiceId = score ? score.voices.map((v) => MAP.find(([re]) => re.test(v.name))?.[1] ?? null) : [];
+    const ensemble = new Set([...(orch?.ensemble ?? []), ...voiceId.filter(Boolean)]);
+    const solo = orch?.solo && ensemble.has(orch.solo) ? orch.solo : null;
+    if (solo) ensemble.delete(solo);
+    const rows = ROWS.map((r) => r.filter((id) => ensemble.has(id))).filter((r) => r.length);
+    const W = 1000, H = 560, cx = 500, cy = 500, r0 = 92, rowW = Math.min(96, (420 - r0) / Math.max(1, rows.length));
+    const pol = (r, a) => [cx + r * Math.cos(a), cy - r * Math.sin(a)];
+    const wedge = (ri, ro, a0, a1) => { const [x0, y0] = pol(ro, a0), [x1, y1] = pol(ro, a1), [x2, y2] = pol(ri, a1), [x3, y3] = pol(ri, a0); return `M${x0.toFixed(1)},${y0.toFixed(1)} A${ro},${ro} 0 0 0 ${x1.toFixed(1)},${y1.toFixed(1)} L${x2.toFixed(1)},${y2.toFixed(1)} A${ri},${ri} 0 0 1 ${x3.toFixed(1)},${y3.toFixed(1)}Z`; };
+    let html = `<defs>
+<radialGradient id="floorg" cx="50%" cy="100%" r="90%"><stop offset="0" stop-color="#3a2c17" stop-opacity=".55"/><stop offset=".6" stop-color="#1b150d" stop-opacity=".35"/><stop offset="1" stop-color="#0d0b09" stop-opacity="0"/></radialGradient>
+<radialGradient id="seatg" cx="50%" cy="100%" r="100%"><stop offset="0" stop-color="#fff0c2"/><stop offset=".55" stop-color="#e9cf8c"/><stop offset="1" stop-color="#a8843a"/></radialGradient>
+<filter id="bloom" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter></defs>
+<path d="M${cx - 470},${cy} A470,470 0 0 1 ${cx + 470},${cy} Z" fill="url(#floorg)"/>
+<path d="M${cx - 470},${cy} A470,470 0 0 1 ${cx + 470},${cy}" fill="none" stroke="rgba(230,203,133,.22)"/>
+<line x1="${cx - 480}" x2="${cx + 480}" y1="${cy + .5}" y2="${cy + .5}" stroke="rgba(230,203,133,.35)"/>`;
+    const PAD = 0.012, labels = [];
+    rows.forEach((row, ri) => {
+      const rIn = r0 + ri * rowW + 4, rOut = r0 + (ri + 1) * rowW - 4;
+      const span = Math.PI - 0.16, step = span / row.length;
+      row.forEach((id, k) => {
+        const a1 = Math.PI - 0.08 - k * step, a0 = a1 - step;
+        const d = wedge(rIn, rOut, a0 + PAD, a1 - PAD), mid = (a0 + a1) / 2, rm = (rIn + rOut) / 2;
+        const [lx, ly] = pol(rm, mid);
+        // chairs: the usual desk count of a full symphony orchestra, set out in two arcs inside the wedge
+        const n = CHAIRS[id] ?? 2, perRow = Math.ceil(n / (n > 4 ? 2 : 1)), rowsN = Math.ceil(n / perRow);
+        let dots = '';
+        for (let q = 0; q < n; q++) {
+          const rr = rowsN === 1 ? rm : rIn + ((rOut - rIn) * (Math.floor(q / perRow) + 0.5)) / rowsN;
+          const slot = q % perRow, cnt = Math.min(perRow, n - Math.floor(q / perRow) * perRow);
+          const aa = a1 - PAD * 3 - ((a1 - a0 - PAD * 6) * (slot + 0.5)) / cnt;
+          const [dx, dy] = pol(rr, aa);
+          dots += `<circle class="chair" cx="${dx.toFixed(1)}" cy="${dy.toFixed(1)}" r="3.2"/>`;
+        }
+        html += `<g class="sec" data-id="${id}"><path class="halo" d="${d}" filter="url(#bloom)"/><path class="seat" d="${d}"/>${dots}</g>`;
+        const deg = (-(mid * 180) / Math.PI + 90);
+        labels.push(`<text class="st-n" data-id="${id}" x="${lx.toFixed(1)}" y="${(ly + 6).toFixed(1)}" text-anchor="middle" transform="rotate(${deg.toFixed(1)} ${lx.toFixed(1)} ${ly.toFixed(1)})">${NAME[id] ?? id}</text>`);
+      });
     });
-    let free = 0;
-    for (const v of vs) if (!v.box) { v.box = [40 + (free % 4) * 230, 470, 210, 44]; free++; }
-    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.setAttribute('viewBox', '0 0 1000 540');
+    html += labels.join('');
+    if (solo) html += `<g class="sec solo" data-id="${solo}"><ellipse class="halo" cx="${cx}" cy="${cy - 52}" rx="90" ry="30" filter="url(#bloom)"/><ellipse class="seat" cx="${cx}" cy="${cy - 52}" rx="78" ry="24"/><text class="st-n" data-id="${solo}" x="${cx}" y="${cy - 46}" text-anchor="middle">${NAME[solo] ?? solo}</text></g>`;
+    html += `<circle cx="${cx}" cy="${cy - 8}" r="5" class="st-podium"/><text x="${cx}" y="${cy + 30}" text-anchor="middle" class="st-cond">the conductor</text>`;
+    const svg = document.createElementNS(NS, 'svg');
+    const maxR = r0 + rows.length * rowW;
+    svg.setAttribute('viewBox', `${cx - maxR - 24} ${cy - maxR - 24} ${2 * maxR + 48} ${maxR + 66}`);
     svg.setAttribute('class', 'stage-svg');
     svg.setAttribute('role', 'img');
-    svg.setAttribute('aria-label', 'The orchestra on stage; each section lights when its written part is sounding');
-    svg.innerHTML = `<defs><radialGradient id="glow"><stop offset="0" stop-color="#ffe9a8" stop-opacity=".95"/><stop offset=".55" stop-color="#e9cf8c" stop-opacity=".35"/><stop offset="1" stop-color="#e9cf8c" stop-opacity="0"/></radialGradient></defs>
-<path d="M60,470 Q500,560 940,470" fill="none" stroke="rgba(230,203,133,.25)"/><text x="500" y="530" text-anchor="middle" class="st-cond">conductor</text>` +
-      vs.map((v) => `<g class="sec" data-v="${v.i}"><ellipse class="halo" cx="${v.box[0] + v.box[2] / 2}" cy="${v.box[1] + v.box[3] / 2}" rx="${v.box[2] * 0.62}" ry="${v.box[3] * 0.9}" fill="url(#glow)" opacity="0"/><rect x="${v.box[0]}" y="${v.box[1]}" width="${v.box[2]}" height="${v.box[3]}" rx="${v.box[3] / 2}"/><text x="${v.box[0] + v.box[2] / 2}" y="${v.box[1] + v.box[3] / 2 - 4}" text-anchor="middle" class="st-n">${v.name}</text><text x="${v.box[0] + v.box[2] / 2}" y="${v.box[1] + v.box[3] / 2 + 15}" text-anchor="middle" class="st-p"></text></g>`).join('');
+    svg.setAttribute('aria-label', `The ensemble on stage: ${[...ensemble].map((id) => NAME[id] ?? id).join(', ')}`);
+    svg.innerHTML = html;
+    const now = document.createElement('div');
+    now.className = 'stage-now';
+    now.innerHTML = '<span class="sn-k">Carrying the tune</span><span class="sn-lead">—</span><span class="sn-note"></span>';
     const cap = document.createElement('p');
     cap.className = 'sheet-cap';
-    cap.textContent = 'Each section lights while its written part is sounding (from the score, aligned automatically to this recording); the note names show what it plays.';
-    ui.layer.append(svg, cap);
-    const groups = vs.map((v) => ({ g: svg.querySelector(`[data-v="${v.i}"]`), level: 0 }));
+    cap.textContent = score
+      ? 'Each section lights while its written part sounds (from the score, aligned automatically to this recording; not yet checked by ear). The brightest are carrying the tune.'
+      : `Who plays, passage by passage, read from the score${orch?.source?.title ? ` (${orch.source.title})` : ''} and placed against this recording by passage, so a change may land a moment early or late. The brightest sections carry the tune.`;
+    ui.layer.append(svg, now, cap);
+    const secs = new Map([...svg.querySelectorAll('.sec')].map((g) => [g.dataset.id, { g, level: 0, label: svg.querySelector(`.st-n[data-id="${g.dataset.id}"]`) }]));
+    const leadEl = now.querySelector('.sn-lead'), noteEl = now.querySelector('.sn-note');
+    let lastEntry = null;
+    const entryAt = (t) => { const tl = orch?.timeline ?? []; let e = null; for (const x of tl) { if (x.t <= t + 0.05) e = x; else break; } return e; };
     return {
       draw(t) {
-        const now = sounding(t);
-        groups.forEach((G, i) => {
-          const mine = now.filter((n) => n[3] === i);
-          const target = mine.length ? Math.min(1, 0.45 + mine.length * 0.18) : 0;
-          G.level += (target - G.level) * (target > G.level ? 0.5 : 0.08);
-          G.g.querySelector('.halo').setAttribute('opacity', G.level.toFixed(2));
-          G.g.classList.toggle('on', mine.length > 0);
-          G.g.querySelector('.st-p').textContent = [...new Set(mine.map((n) => NAMES[n[2] % 12]))].join(' ');
-        });
+        const e = entryAt(t);
+        let playing, lead;
+        if (score) {
+          const ns = sounding(t);
+          playing = new Set(ns.map((n) => voiceId[n[3]]).filter(Boolean));
+          const top = ns.reduce((a, n) => (voiceId[n[3]] && (!a || n[2] > a[2]) ? n : a), null);
+          lead = new Set(e?.lead?.filter((x) => playing.has(x)) ?? (top ? [voiceId[top[3]]] : []));
+        } else {
+          playing = new Set(e?.playing ?? []);
+          lead = new Set(e?.lead ?? []);
+        }
+        for (const [id, S] of secs) {
+          const target = lead.has(id) ? 1 : playing.has(id) ? 0.55 : 0;
+          S.level += (target - S.level) * (target > S.level ? 0.35 : 0.06);
+          S.g.style.setProperty('--lv', S.level.toFixed(3));
+          S.g.classList.toggle('on', playing.has(id));
+          S.g.classList.toggle('lead', lead.has(id));
+          if (S.label) { S.label.classList.toggle('lead', lead.has(id)); S.label.style.fill = lead.has(id) ? '' : `rgba(239, 229, 210, ${(0.5 + S.level * 0.5).toFixed(2)})`; }
+        }
+        if (e !== lastEntry || score) {
+          const names = [...lead].map((id) => NAME[id] ?? id);
+          leadEl.textContent = names.length ? names.join(', ') : '—';
+          if (e !== lastEntry) { noteEl.textContent = e?.note ?? ''; lastEntry = e; }
+        }
       },
     };
   }
@@ -612,6 +677,7 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
       ui.interlude.style.setProperty('--accent', to.era?.accent ?? '#c9a65a');
       $('.i-era', ui.interlude).textContent = to.era ? `${to.era.numeral} · ${to.era.name}` : '';
       $('.i-name', ui.interlude).textContent = to.composer.name;
+      const ci = $('.i-cameo img', ui.interlude); ci.src = to.composer.portrait ? new URL(to.composer.portrait, app.root).href : ''; ci.style.objectPosition = to.composer.focus; $('.i-cameo', ui.interlude).hidden = !to.composer.portrait;
       $('.i-work', ui.interlude).textContent = `${to.work}${to.movement ? ' · ' + to.movement : ''}`;
       ui.interlude.hidden = false;
       setTimeout(() => { ui.interlude.hidden = true; }, 3400);
