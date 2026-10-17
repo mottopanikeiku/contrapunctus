@@ -1,0 +1,36 @@
+{
+  "id": "schubert",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Christopher H. Gibbs, *The Life of Schubert* (Cambridge: Cambridge University Press, 2000).",
+      "url": "https://doi.org/10.1017/CBO9781316257029",
+      "kind": "biography",
+      "note": "EXT — Concise biography reassessing Schubert’s public career and later biographical images."
+    },
+    {
+      "cite": "Robert Winter, Maurice J. E. Brown and Eric Sams, ‘Schubert, Franz (i)’, *Grove Music Online* (Oxford University Press, 2001).",
+      "url": "https://doi.org/10.1093/gmo/9781561592630.article.25109",
+      "kind": "reference",
+      "note": "EXT — Biographical reference, work-list and bibliography; subscription required."
+    },
+    {
+      "cite": "Otto Erich Deutsch, *Franz Schubert: Thematisches Verzeichnis seiner Werke in chronologischer Folge*, revised by Werner Aderhold and the Neue Schubert-Ausgabe (Bärenreiter, 1978).",
+      "url": "https://emag.baerenreiter.com/en/schubert-franz/",
+      "kind": "catalogue",
+      "note": "EXT — Revised Deutsch catalogue for work identification, chronology and source information."
+    },
+    {
+      "cite": "Otto Erich Deutsch, *Schubert: Die Dokumente seines Lebens* (Bärenreiter, 1964).",
+      "url": "https://emag.baerenreiter.com/en/schubert-franz/",
+      "kind": "letters",
+      "note": "EXT — Contemporary documents collected for the Neue Schubert-Ausgabe."
+    },
+    {
+      "cite": "Wienbibliothek im Rathaus and partner institutions, *Schubert Online* (online manuscript collection, n.d.; accessed 16 October 2026).",
+      "url": "https://schubert-online.at/",
+      "kind": "reference",
+      "note": "EXT — Free access to digitised music manuscripts, letters and biographical documents."
+    }
+  ]
+}

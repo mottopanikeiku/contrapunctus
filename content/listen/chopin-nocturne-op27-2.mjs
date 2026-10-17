@@ -18,12 +18,12 @@ export default {
   intro: 'A rocking left hand supports a melody that repeatedly grows a second voice. Listen for the difference between the notes that carry the phrase and the ornaments that delay their arrival.',
   question: 'How does a returning melody change without losing its shape?',
   sections: [
-    { t: 0, label: 'The solo singing line' },
-    { t: 42, label: 'Paired voices and expansion' },
-    { t: 116, label: 'First return' },
-    { t: 154, label: 'A darker expansion' },
-    { t: 206, label: 'The opening melody returns again' },
-    { t: 280, label: 'Coda · D♭ sustained' },
+    { t: 0, label: 'The solo singing line', m: 'A' },
+    { t: 42, label: 'Paired voices and expansion', m: 'B' },
+    { t: 116, label: 'First return', m: 'A′', mNote: 'opening line returns with renewed ornament' },
+    { t: 154, label: 'A darker expansion', m: 'B′', mNote: 'duet expansion darkens into C♯ minor' },
+    { t: 206, label: 'The opening melody returns again', m: 'A″', mNote: 'D♭-major melody returns with further decoration' },
+    { t: 280, label: 'Coda · D♭ sustained', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Singing above broken chords', text: 'Across the opening, broken chords support a slower singing line. Chopin marks the piece “Lento sostenuto” — slow and sustained. Listen for how the melody connects notes whose piano sound begins decaying as soon as they are struck.', basis: 'score-proportion', precision: 'passage', evidence: 'The score specifies this opening texture and marking. The report places a relatively quiet D♭-centred span at the start; individual notes are not aligned.' },

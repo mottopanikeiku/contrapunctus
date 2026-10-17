@@ -18,12 +18,12 @@ export default {
   question: 'What changes when the restless music gives way to stillness?',
   intro: 'This is Rimsky-Korsakov’s 1886 concert reworking, not Mussorgsky’s original 1867 orchestral score. How does the long quiet ending alter your memory of the witches’ gathering?',
   sections: [
-    { t: 0, label: 'Gathering · restless opening' },
-    { t: 80, label: 'Dance figures' },
-    { t: 262, label: 'Contrasting harmonic region' },
-    { t: 365, label: 'Renewed orchestral pressure' },
-    { t: 500, label: 'Bell · the gathering disperses' },
-    { t: 602, label: 'Quiet aftermath' },
+    { t: 0, label: 'Gathering · restless opening', m: 'A' },
+    { t: 80, label: 'Dance figures', m: 'B' },
+    { t: 262, label: 'Contrasting harmonic region', m: 'C' },
+    { t: 365, label: 'Renewed orchestral pressure', m: 'A′', mNote: 'opening agitation and heavy orchestral answers regain their weight' },
+    { t: 500, label: 'Bell · the gathering disperses', m: 'D' },
+    { t: 602, label: 'Quiet aftermath', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Motion before a broad tune', text: 'The opening combines rapid figures with heavier, separated gestures. Listen to the relationship between the moving surface and the lower accents: different rates of activity can coexist without all the parts doubling one another.', basis: 'general', precision: 'passage', evidence: 'This describes the opening texture of Rimsky-Korsakov’s version; no individual instrument entrance is inferred from the recording.' },

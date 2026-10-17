@@ -4,3 +4,4 @@ docs/assets/img/art/*.src
 node_modules/
 .venv*
 .venv/
+tools/sheetpack/target/

@@ -16,12 +16,12 @@ export default {
   question: 'How does a familiar rhythm survive clashing harmonies?',
   intro: 'Ives’s portrait of the Alcotts combines hymn-like chords with the rhythm of Beethoven’s Fifth, sometimes setting the piano’s hands in different keys. What lets you recognise a melody when its surroundings disagree?',
   sections: [
-    { t: 0, label: 'Quiet chordal opening' },
-    { t: 74, label: 'Competing harmonies' },
-    { t: 178, label: 'Parlour-music episode' },
-    { t: 262, label: 'Chromatic transition' },
-    { t: 288, label: 'The theme in C major' },
-    { t: 330, label: 'Close' },
+    { t: 0, label: 'Quiet chordal opening', m: 'A' },
+    { t: 74, label: 'Competing harmonies', m: 'A′', mNote: 'Beethoven-derived rhythm persists within thickened, conflicting harmonies' },
+    { t: 178, label: 'Parlour-music episode', m: 'B' },
+    { t: 262, label: 'Chromatic transition', m: 'Link' },
+    { t: 288, label: 'The theme in C major', m: 'A″', mNote: 'complete human-faith melody assembled in broad C-major chords' },
+    { t: 330, label: 'Close', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'A hymn at home', text: 'The opening presents the sonata’s recurring “human faith” melody in a comparatively direct, chordal setting. Listen for the shape of the tune across the spaces between chords, rather than expecting an unbroken stream of notes.', basis: 'general', precision: 'passage', evidence: 'Kyle Gann’s Ives Society guide identifies the melody in this opening; the analysis shows relatively sparse piano attacks.' },

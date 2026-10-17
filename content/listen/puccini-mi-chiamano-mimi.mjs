@@ -15,10 +15,10 @@ export default {
   question: 'How does a conversation become an aria?',
   intro: 'Mimì answers Rodolfo’s introduction by describing her work as an embroiderer and her solitary life. How does Puccini move between speech-like phrases and a sustained vocal line without stopping the conversation?',
   sections: [
-    { t: 0, label: 'Mimì introduces herself' },
-    { t: 70, label: 'A quieter account' },
-    { t: 140, label: 'The long lyrical span' },
-    { t: 212, label: 'Back to conversation' },
+    { t: 0, label: 'Mimì introduces herself', m: 'A' },
+    { t: 70, label: 'A quieter account', m: 'A′', mNote: 'rising introduction returns with chromatic inflections and separated accompaniment' },
+    { t: 140, label: 'The long lyrical span', m: 'B' },
+    { t: 212, label: 'Back to conversation', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'An answer to Rodolfo', text: 'Rodolfo has described his life as a poet; Mimì responds with her own. Throughout the aria, compare short, speech-like phrases with sustained singing: both belong to the same first conversation.', basis: 'general', precision: 'passage', evidence: 'The Act I scene supplies the exchange; this is a listening frame, not word-by-word synchronisation.' },

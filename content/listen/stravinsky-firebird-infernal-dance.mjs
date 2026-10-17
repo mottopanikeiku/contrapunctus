@@ -17,11 +17,11 @@ export default {
   question: 'Can you keep the pulse when the accents shift?',
   intro: 'Thomas Knox’s concert-band arrangement gives the ballet’s enforced dance to brass, woodwind and percussion rather than the original full orchestra. Can you keep a steady pulse beneath the displaced accents?',
   sections: [
-    { t: 0, label: 'Dance · repeated figures' },
-    { t: 108, label: 'Sustained middle paragraph' },
-    { t: 144, label: 'Quiet restart' },
-    { t: 194, label: 'Closing build-up' },
-    { t: 240, label: 'Final sonority' },
+    { t: 0, label: 'Dance · repeated figures', m: 'A' },
+    { t: 108, label: 'Sustained middle paragraph', m: 'B' },
+    { t: 144, label: 'Quiet restart', m: 'A′', mNote: 'earlier chromatic cells rebuild in a quieter, darker texture' },
+    { t: 194, label: 'Closing build-up', m: 'Dev' },
+    { t: 240, label: 'Final sonority', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'Kashchei’s enforced dance', text: 'In the ballet, the Firebird compels Kashchei and his followers to dance. This recording uses Thomas Knox’s band arrangement; listen to the separated rhythmic gestures without assuming that an orchestral string section is present.', basis: 'general', precision: 'passage', evidence: 'The ballet scenario supplies the action, and Commons credits Knox’s arrangement for the United States Marine Band.' },

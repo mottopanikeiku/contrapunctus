@@ -1,0 +1,24 @@
+{
+  "id": "stravinsky",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Richard Taruskin, *Stravinsky and the Russian Traditions* (University of California Press, 1996).",
+      "url": "https://openlibrary.org/books/OL1418626M",
+      "kind": "study",
+      "note": "EXT — Uses Russian documents and archival sources to examine folklore, theatre and the early ballets."
+    },
+    {
+      "cite": "Stephen Walsh, *Stravinsky: A Creative Spring* (2002 edition).",
+      "url": "https://openlibrary.org/works/OL21710625W",
+      "kind": "biography",
+      "note": "EXT — The first part of Walsh’s biographical account; the linked catalogue records this edition."
+    },
+    {
+      "cite": "Pieter C. van den Toorn, *Stravinsky and The Rite of Spring* (University of California Press, 1988 edition).",
+      "url": "https://openlibrary.org/books/OL21093916M",
+      "kind": "study",
+      "note": "EXT — A concentrated study of the ballet, useful alongside its score and competing accounts of its sources."
+    }
+  ]
+}

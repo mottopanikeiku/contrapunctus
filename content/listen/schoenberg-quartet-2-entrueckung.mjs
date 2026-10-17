@@ -16,12 +16,12 @@ export default {
   intro: '“I feel air from another planet”: Stefan George’s words accompany Schoenberg’s departure from a governing key. Four strings and a soprano carry the finale; the twelve-tone method is still more than a decade away.',
   question: 'What connects musical phrases when a home key becomes uncertain?',
   sections: [
-    { t: 0, label: 'String introduction' },
-    { t: 74, label: 'Poem · first span' },
-    { t: 168, label: 'Poem · continuation' },
-    { t: 352, label: 'Quiet restart' },
-    { t: 472, label: 'Closing span' },
-    { t: 590, label: 'F♯ major · close' },
+    { t: 0, label: 'String introduction', m: 'Intro' },
+    { t: 74, label: 'Poem · first span', m: 'A' },
+    { t: 168, label: 'Poem · continuation', m: 'B' },
+    { t: 352, label: 'Quiet restart', m: 'C' },
+    { t: 472, label: 'Closing span', m: 'Coda' },
+    { t: 590, label: 'F♯ major · close', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'An unsettled opening', text: 'Across the instrumental introduction, follow the chromatic lines without expecting an immediate home-key cadence. The movement will not avoid tonal reference altogether, but its opening suspends the usual harmonic bearings.', basis: 'score-proportion', precision: 'passage', evidence: 'Therese Muxeneder’s Arnold Schönberg Center account identifies the introduction’s suspended tonality. The report shows a quiet opening, but its unstable key estimates are not evidence of particular harmonies.' },

@@ -14,10 +14,10 @@ export default {
   intro: 'A G♭-major melody rides above triplet-motion broken chords, with a more accented minor middle section and a written-out return. The score is aligned automatically; timings remain provisional and unchecked by ear, particularly through the transition and quiet close.',
   question: 'What changes beneath the melody when it returns?',
   sections: [
-    { t: 0.6, label: 'A · G♭-major melody, bars 1–24' },
-    { t: 98.2, label: 'B · minor middle section, bars 25–54' },
-    { t: 219.0, label: 'A′ · written-out return, bars 55–74' },
-    { t: 300.5, label: 'Coda · bars 75–86' },
+    { t: 0.6, label: 'A · G♭-major melody, bars 1–24', m: 'A' },
+    { t: 98.2, label: 'B · minor middle section, bars 25–54', m: 'B' },
+    { t: 219.0, label: 'A′ · written-out return, bars 55–74', m: 'A′', mNote: 'written-out return shortens and chromatically alters the familiar phrase' },
+    { t: 300.5, label: 'Coda · bars 75–86', m: 'Coda' },
   ],
   cues: [
     { bar: { n: '1', occ: 1 }, kind: 'music', title: 'A melody above triplets', text: 'The melody begins on B♭, the third of G♭ major, while broken chords move in triplet subdivisions beneath it. Listen for the difference between the long upper notes, the faster inner movement and the slower bass: one pianist sustains all three layers.', basis: 'score-aligned', precision: 'passage', evidence: 'Bars 1–4, occurrence 1: Mutopia D. 899 No. 3 (1193), SchubertF-D899-3-Impromptu.ly. HautI begins with long B♭s; hautII writes B♭–D♭–G♭ figures in 6:4 and 3:2 groups; basIa begins G♭–D♭, then E♭ and C♭ basses. Timing aligned automatically.' },

@@ -92,3 +92,19 @@ dialog.srch::backdrop { background: rgba(8, 7, 5, .72); backdrop-filter: blur(3p
 .eh-s { font: 400 .92rem 'EB Garamond', serif; color: #cdbfa8; }
 .hero-browse { font: 600 .74rem 'Cormorant SC', serif; letter-spacing: .24em; text-transform: lowercase; color: #cdbfa8; text-decoration: none; border-bottom: 1px solid rgba(230, 203, 133, .35); padding-bottom: .2rem; }
 .hero-browse:hover { color: #f1dc9e; }
+
+/* ---------- glossary popover: a small gilded card, the same in the Atlas and the hall ---------- */
+.term-popover {
+  position: fixed; z-index: 80; width: min(22rem, calc(100vw - 1.5rem)); padding: .95rem 1.1rem 1rem;
+  background: linear-gradient(170deg, #221d16, #141109); color: #efe5d2;
+  border: 1px solid rgba(230, 203, 133, .55); border-radius: 3px;
+  box-shadow: inset 0 0 0 3px #0d0b09, inset 0 0 0 4px rgba(230, 203, 133, .18), 0 24px 60px -16px rgba(0, 0, 0, .75);
+  font: 400 1rem/1.45 'EB Garamond', Garamond, serif;
+  animation: term-in .25s cubic-bezier(.2, .7, .1, 1);
+}
+@keyframes term-in { from { opacity: 0; transform: translateY(4px); } }
+.term-popover strong { display: block; padding-right: 1.5rem; font: italic 500 1.35rem/1.15 'Cormorant Garamond', Garamond, serif; color: #f1dc9e; }
+.term-popover p { margin: .4rem 0 .6rem; color: #d9cdb6; }
+.term-popover a { font: 600 .68rem 'Cormorant SC', serif; letter-spacing: .18em; text-transform: lowercase; color: #e9cf8c; text-decoration: none; border-bottom: 1px solid rgba(230, 203, 133, .4); }
+.term-popover button { position: absolute; top: .35rem; right: .5rem; background: none; border: 0; color: #8f826f; font-size: 1.3rem; cursor: pointer; line-height: 1; }
+.term-popover button:hover { color: #f1dc9e; }

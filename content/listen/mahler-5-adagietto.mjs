@@ -14,11 +14,11 @@ export default {
   question: 'How does a slow melody sustain tension across long phrases?',
 
   sections: [
-    { t: 0, label: 'A · F major' },
-    { t: 276, label: 'B · Fließender — G♭ and away' },
-    { t: 415, label: 'A′ · Return' },
-    { t: 555, label: 'Climax' },
-    { t: 600, label: 'Close' },
+    { t: 0, label: 'A · F major', m: 'A' },
+    { t: 276, label: 'B · Fließender — G♭ and away', m: 'B' },
+    { t: 415, label: 'A′ · Return', m: 'A′', mNote: 'opening melody and harp return, leading towards a larger swell' },
+    { t: 555, label: 'Climax', m: 'A″', mNote: 'familiar phrase enlarged through high register and delayed resolutions' },
+    { t: 600, label: 'Close', m: 'Coda' },
   ],
 
   cues: [

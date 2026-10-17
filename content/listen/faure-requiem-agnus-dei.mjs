@@ -15,12 +15,12 @@ export default {
   // Biography: https://brahms.ircam.fr/fr/composer/gabriel-faure/biography
   // Text, history and score outline: https://en.wikipedia.org/wiki/Requiem_(Faur%C3%A9)
   sections: [
-    { t: 0, label: 'Agnus Dei · first petition' },
-    { t: 55, label: 'The fuller choral petition' },
-    { t: 92, label: 'Return of the tenor line' },
-    { t: 138, label: 'Lux aeterna' },
-    { t: 238, label: 'The Introit recalled' },
-    { t: 304, label: 'Instrumental close' },
+    { t: 0, label: 'Agnus Dei · first petition', m: 'A' },
+    { t: 55, label: 'The fuller choral petition', m: 'B' },
+    { t: 92, label: 'Return of the tenor line', m: 'A′', mNote: 'tenor prayer returns without the orchestral introduction' },
+    { t: 138, label: 'Lux aeterna', m: 'C' },
+    { t: 238, label: 'The Introit recalled', m: 'D' },
+    { t: 304, label: 'Instrumental close', m: 'A″', mNote: 'opening string melody in D major, without the tenor prayer' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Two melodies, not one', text: 'In the opening section, the instrumental melody and the tenor prayer have distinct contours. Listen past the sung line to the moving accompaniment: it helps shape the phrase rather than simply doubling the singers.', basis: 'general', precision: 'passage', evidence: 'The score gives the opening orchestral melody and tenor line separate parts; their individual entrances are not aligned here.' },

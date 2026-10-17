@@ -17,12 +17,12 @@ export default {
   // https://static.qobuz.com/goodies/61/000177916.pdf
   // The central variations are grouped where the acoustic report does not securely resolve each boundary.
   sections: [
-    { t: 0, label: 'Theme · sixteen bars with repeats' },
-    { t: 154, label: 'Variation I · a higher singing line' },
-    { t: 246, label: 'Variation II · changing textures' },
-    { t: 374, label: 'Middle variations · counterpoint' },
-    { t: 626, label: 'Final variation · subdivision and trills' },
-    { t: 750, label: 'The theme restored' },
+    { t: 0, label: 'Theme · sixteen bars with repeats', m: 'Theme' },
+    { t: 154, label: 'Variation I · a higher singing line', m: 'Var 1' },
+    { t: 246, label: 'Variation II · changing textures', m: 'Var 2' },
+    { t: 374, label: 'Middle variations · counterpoint', m: 'Var 3–5' },
+    { t: 626, label: 'Final variation · subdivision and trills', m: 'Var 6' },
+    { t: 750, label: 'The theme restored', m: 'Theme', mNote: 'plain theme restored without its original repeats' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'A theme with repeats', text: 'The opening theme has sixteen bars in two repeated halves. Beethoven marks it “Gesangvoll, mit innigster Empfindung” — songfully, with the most inward feeling. Keep its phrase endings in mind: six variations will change the surface around that framework.', basis: 'score-proportion', precision: 'passage', evidence: 'The score gives the theme and its repeats. Quiet points around 0:35, 1:15, 1:50 and 2:30 help estimate its performed extent; the bars have not been aligned to this recording.' },

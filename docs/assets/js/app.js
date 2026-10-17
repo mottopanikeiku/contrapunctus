@@ -71,7 +71,8 @@ function render(q) {
       else if (e.k.includes(t)) s += 1;
       else { s = -1; break; }
     }
-    if (s > 0) hits.push([s + (e.type === 'Composer' ? 2 : e.type === 'Recording' ? 1 : 0), e]);
+    const type = e.type.toLowerCase();
+    if (s > 0) hits.push([s + (type === 'composer' ? 2 : type === 'recording' ? 1 : 0), e]);
   }
   hits.sort((a, b) => b[0] - a[0]);
   box.innerHTML = hits.slice(0, 24).map(([, e], i) => `<li><a href="${new URL(e.url, ROOT).href}"${i === 0 ? ' class="sel"' : ''}><span class="srch-t">${e.type}</span><span class="srch-n">${e.title}</span><span class="srch-s">${e.sub ?? ''}</span></a></li>`).join('') || '<li class="srch-hint">Nothing found. Try fewer words.</li>';
@@ -156,6 +157,8 @@ export async function navigate(href, { push = true } = {}) {
   // rewrite relative URLs to the new page's location
   for (const el of frag.querySelectorAll('[href],[src],[srcset]')) {
     for (const a of ['href', 'src']) { const v = el.getAttribute(a); if (v && !/^(#|[a-z]+:|\/\/)/i.test(v)) el.setAttribute(a, new URL(v, url.href).href); }
+    const ss = el.getAttribute('srcset');
+    if (ss) el.setAttribute('srcset', ss.split(',').map((c) => { const [u, ...d] = c.trim().split(/\s+/); return [new URL(u, url.href).href, ...d].join(' '); }).join(', '));
   }
   document.body.insertBefore(frag, persist);
   document.body.className = doc.body.className;

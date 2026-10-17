@@ -16,12 +16,12 @@ export default {
   // Sources: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/
   // https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg
   sections: [
-    { t: 0, label: 'A · solo melody' },
-    { t: 34, label: 'Fuller answer' },
-    { t: 148, label: 'B · more mobile solo writing' },
-    { t: 262, label: 'A′ · opening melody returns' },
-    { t: 344, label: 'Fuller response' },
-    { t: 372, label: 'Coda · D major' },
+    { t: 0, label: 'A · solo melody', m: 'A' },
+    { t: 34, label: 'Fuller answer', m: 'A′', mNote: 'orchestra takes the solo melody with a renewed tonic foundation' },
+    { t: 148, label: 'B · more mobile solo writing', m: 'B' },
+    { t: 262, label: 'A′ · opening melody returns', m: 'A″', mNote: 'opening solo melody returns within a shortened reprise' },
+    { t: 344, label: 'Fuller response', m: 'A′', mNote: 'orchestral answer returns within the shortened reprise' },
+    { t: 372, label: 'Coda · D major', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A melody shaped for breath', text: 'The slow movement opens with the solo clarinet’s melody rather than a long orchestral introduction. Across these phrases, listen for the relationship between the singing line and the space around it.', basis: 'score-proportion', precision: 'passage', evidence: 'The opening solo melody is specified in the score and Calvin Dotsey’s Houston Symphony account. The recording begins with a relatively quiet D-centred passage; individual breaths are not identified.' },

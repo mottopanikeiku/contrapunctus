@@ -15,12 +15,12 @@ export default {
   intro: 'Four contrasting sections move from march to quick dance, slow declamation and an octave-driven finale. Listen for the changes of pace as well as the changes of register.',
   question: 'How does repeated octave writing turn a tune into momentum?',
   sections: [
-    { t: 0, label: 'Tempo giusto · march' },
-    { t: 85, label: 'Presto · quick dance' },
-    { t: 126, label: 'Andante · slow song' },
-    { t: 248, label: 'Allegro · friss' },
-    { t: 288, label: 'Octave variations' },
-    { t: 355, label: 'Final drive · B♭ major' },
+    { t: 0, label: 'Tempo giusto · march', m: 'A' },
+    { t: 85, label: 'Presto · quick dance', m: 'B' },
+    { t: 126, label: 'Andante · slow song', m: 'C' },
+    { t: 248, label: 'Allegro · friss', m: 'D' },
+    { t: 288, label: 'Octave variations', m: 'D′', mNote: 'dance tune doubled in octaves with denser repeated attacks' },
+    { t: 355, label: 'Final drive · B♭ major', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'Four sections, one pianist', text: 'The opening has the measured tread of a march. Liszt sets it beside a quick dance, a slower song and an extended fast finale; the contrasts of pace are part of the design, not interruptions of it.', basis: 'documented', precision: 'passage', evidence: 'The score gives the contrasting tempo headings. Leslie Howard’s Hyperion notes describe the work’s four-section design.' },

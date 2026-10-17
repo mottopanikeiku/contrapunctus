@@ -16,10 +16,10 @@ export default {
   question: 'How can a melody sing above a busy accompaniment?',
   intro: 'A short étude that asks for weight as well as speed: the right-hand melody is projected in octaves over widely spaced left-hand figures. Listen for the quieter middle and the heavier return of the opening.',
   sections: [
-    { t: 0, label: 'A · octave melody' },
-    { t: 36, label: 'Quieter middle · approximate' },
-    { t: 64, label: 'Intensified return · approximate' },
-    { t: 104, label: 'Closing gestures · approximate' },
+    { t: 0, label: 'A · octave melody', m: 'A' },
+    { t: 36, label: 'Quieter middle · approximate', m: 'B' },
+    { t: 64, label: 'Intensified return · approximate', m: 'A′', mNote: 'opening melody now projected above triplet chords in both hands' },
+    { t: 104, label: 'Closing gestures · approximate', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A line above the activity', text: 'Try following the melody as one continuing line, rather than giving every accompanying note equal attention. The study asks the pianist to keep that line distinct while covering wide distances on the keyboard.', basis: 'general', precision: 'passage', evidence: 'The score outline describes a chordal melody above a widely spaced accompaniment. This cue concerns the texture, not an individual note or hand movement at a precise second: https://fr.wikipedia.org/wiki/%C3%89tude_op._8_no_12_de_Scriabine' },

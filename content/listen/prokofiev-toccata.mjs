@@ -17,11 +17,11 @@ export default {
   intro: 'Two hands share a stream of repeated notes; chromatic lines and displaced accents keep changing what those notes mean. Martha Argerich plays the Toccata Prokofiev wrote while he was still a St Petersburg Conservatory student.',
   question: 'How can repeated notes keep changing their weight and direction?',
   sections: [
-    { t: 0, label: 'Repeated-note opening' },
-    { t: 100, label: 'Quiet restart' },
-    { t: 134, label: 'Central surge' },
-    { t: 202, label: 'D-centred return' },
-    { t: 230, label: 'Final burst' },
+    { t: 0, label: 'Repeated-note opening', m: 'A' },
+    { t: 100, label: 'Quiet restart', m: 'A′', mNote: 'repeated-note mechanism returns with reduced weight' },
+    { t: 134, label: 'Central surge', m: 'Dev' },
+    { t: 202, label: 'D-centred return', m: 'A″', mNote: 'repeated Ds return in heavier octaves across both hands' },
+    { t: 230, label: 'Final burst', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'One note, two hands', text: 'The opening shares repeated Ds between the hands before chromatic neighbours widen the pitch field. Listen for the distinction between the running semiquavers and the accents laid across them: regular small notes can carry shifting emphasis.', basis: 'score-proportion', precision: 'passage', evidence: 'The score specifies the repeated-note opening. D dominates the report’s first 25 seconds, with frequent attacks; this supports the opening span, not an exact note alignment.' },

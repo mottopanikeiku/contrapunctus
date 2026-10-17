@@ -13,10 +13,10 @@ export default {
   intro: 'A portrait of August Jaeger, whose encouragement helped Elgar through years of discouragement. Listen for the quiet retreats between its broad orchestral swells.',
   question: 'How do quiet retreats shape a broad orchestral climax?',
   sections: [
-    { t: 0, label: 'Quiet opening' },
-    { t: 32, label: 'First expansion' },
-    { t: 92, label: 'Sustained climax' },
-    { t: 156, label: 'Withdrawal' },
+    { t: 0, label: 'Quiet opening', m: 'A' },
+    { t: 32, label: 'First expansion', m: 'A′', mNote: 'same rising shape, higher and fuller with added wind support' },
+    { t: 92, label: 'Sustained climax', m: 'A″', mNote: 'same melodic material enlarged by wind and brass reinforcement' },
+    { t: 156, label: 'Withdrawal', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'An Adagio in three', text: 'The variation moves in three beats to the bar, rather than the four of the original Enigma theme. Across the opening, distinguish the steady beat from the longer melodic phrase: the tune need not stop at each bar line.', basis: 'general', precision: 'passage', evidence: 'The metre is specified in the score. This is an opening-span listening suggestion, not a claim about an individual attack.' },

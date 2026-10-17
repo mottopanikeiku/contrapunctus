@@ -15,11 +15,11 @@ export default {
   intro: 'The chorus that closes Part II alternates three kinds of speech: a tune sung together, a line passed between voices, and long notes held above moving counterpoint. Its force comes from those changes of texture, not from singing everything loudly.',
   question: 'How does a chorus gain force without simply singing louder?',
   sections: [
-    { t: 0, label: 'Opening acclamation' },
-    { t: 36, label: 'Contrasting textures · approximate' },
-    { t: 104, label: 'Central build' },
-    { t: 138, label: 'Later proclamations · approximate' },
-    { t: 186, label: 'Closing cadence · approximate' },
+    { t: 0, label: 'Opening acclamation', m: 'A' },
+    { t: 36, label: 'Contrasting textures · approximate', m: 'B' },
+    { t: 104, label: 'Central build', m: 'C' },
+    { t: 138, label: 'Later proclamations · approximate', m: 'D' },
+    { t: 186, label: 'Closing cadence · approximate', m: 'A′', mNote: 'acclamation gathers into longer chords around a general pause' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'Together and in pursuit', text: 'Throughout the chorus, distinguish voices moving together from lines that enter one after another. Handel varies the force of a declaration by changing its texture, not only the weight of the sound.', basis: 'general', precision: 'passage', evidence: 'The score alternates chordal declarations with imitative writing. This is a whole-chorus listening guide; no sung word or individual entrance is assigned to this timestamp.' },

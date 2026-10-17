@@ -22,10 +22,10 @@ export default {
   intro: 'Written in 1912, the Second Sonata puts long melodies, a short scherzo and a tarantella finale into four movements. Listen for the accompaniment: changing the notes beneath a melody often changes its character more drastically than changing the melody itself.',
   question: 'How does the accompaniment change the character of a melody?',
   sections: [
-    { t: 0, label: 'I · Allegro ma non troppo' },
-    { t: 350, label: 'II · Scherzo · approximate' },
-    { t: 454, label: 'III · Andante · approximate' },
-    { t: 712, label: 'IV · Vivace · approximate' },
+    { t: 0, label: 'I · Allegro ma non troppo', m: 'A' },
+    { t: 350, label: 'II · Scherzo · approximate', m: 'B' },
+    { t: 454, label: 'III · Andante · approximate', m: 'C' },
+    { t: 712, label: 'IV · Vivace · approximate', m: 'D' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'Two against three', text: 'In the opening, the melody groups notes in pairs above an accompaniment divided into threes. Try following the two layers separately: they organise the same underlying pulse differently.', basis: 'general', precision: 'passage', evidence: 'Emilia Zanetti’s Santa Cecilia programme note describes the opening’s duple figure over triplet arpeggios. This is an opening-texture guide, not an attack-time claim. https://www.flaminioonline.it/Guide/Prokofiev/Prokofiev-Sonata14.html' },

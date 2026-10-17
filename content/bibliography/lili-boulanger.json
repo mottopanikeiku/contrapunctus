@@ -1,0 +1,24 @@
+{
+  "id": "lili-boulanger",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Caroline Potter, *Nadia and Lili Boulanger* (Ashgate, 2006).",
+      "url": "https://openlibrary.org/books/OL7989711M",
+      "kind": "study",
+      "note": "EXT — Studies the two sisters together within the history of twentieth-century French musical education and composition."
+    },
+    {
+      "cite": "Léonie Rosenstiel, *The Life and Works of Lili Boulanger* (1978).",
+      "url": "https://openlibrary.org/works/OL6447235W",
+      "kind": "biography",
+      "note": "EXT — A dedicated life-and-works study, rather than a chapter within a broader history."
+    },
+    {
+      "cite": "Library of Congress, ‘Lili Boulanger’, in *French Women & Feminists in History: A Resource Guide* (online guide).",
+      "url": "https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger",
+      "kind": "reference",
+      "note": "EXT — Provides biographical orientation and a list of print and digital resources for further research."
+    }
+  ]
+}

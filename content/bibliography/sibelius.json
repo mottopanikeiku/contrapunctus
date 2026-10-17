@@ -1,0 +1,24 @@
+{
+  "id": "sibelius",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Daniel M. Grimley, *Jean Sibelius: Life, Music, Silence* (Reaktion Books, 2021).",
+      "url": "https://press.uchicago.edu/ucp/books/book/distributed/J/bo130703007.html",
+      "kind": "biography",
+      "note": "EXT — Places the music beside architecture, literature, politics and visual art, including the problem of the late silence."
+    },
+    {
+      "cite": "James Hepokoski, *Sibelius: Symphony No. 5* (Cambridge University Press, 1993).",
+      "url": "https://www.cambridge.org/core/books/sibelius-symphony-no-5/D14E876BDAF9982C048E857B16B01123",
+      "kind": "study",
+      "note": "EXT — Traces composition and revision, analyses the final version, and compares the composer’s tempo indications with recordings."
+    },
+    {
+      "cite": "Sibelius.fi, ‘The war and the fifth symphony 1915–1919’ (online chronology).",
+      "url": "https://www.sibelius.klubi.fi/english/elamankaari/sib_viides_sinfonia.htm",
+      "kind": "reference",
+      "note": "EXT — A dated account of the Fifth Symphony’s successive versions and the wartime circumstances of its composition."
+    }
+  ]
+}

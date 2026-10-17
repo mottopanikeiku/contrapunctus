@@ -19,7 +19,7 @@ let NAMES = MIXED;
 const FIFTHS = [0, 7, 2, 9, 4, 11, 6, 1, 8, 3, 10, 5];
 const KIND = { music: 'In the music', form: 'The form', listen: 'Listen for', life: 'The life', world: 'The world around it' };
 const GOLDS = ['#e9cf8c', '#9fc3c6', '#e08c7a', '#b7a6d8', '#c9d58a', '#e6a96b', '#8fb3e0', '#d79bb6', '#a8d4b0', '#f0dfa8', '#c7a0e0', '#e4b38a'];
-const VIEW_LABEL = { score: 'Score', notes: 'Notes', orchestra: 'Orchestra', sound: 'Sound' };
+const VIEW_LABEL = { score: 'Score', notes: 'Notes', orchestra: 'Orchestra', form: 'Form', sound: 'Sound' };
 
 export async function mount(app) {
   const { player, fmt } = app;
@@ -101,6 +101,7 @@ export async function mount(app) {
     if (t.hasSheet) views.push('score');
     if (score) views.push('notes');
     if (score && score.voices.length >= 6) views.push('orchestra');
+    if (t.sections.length >= 2) views.push('form');
     views.push('sound');
     ui.views.innerHTML = views.length > 1 ? views.map((v) => `<button role="tab" data-view="${v}">${VIEW_LABEL[v]}</button>`).join('') : '';
     ui.views.hidden = views.length < 2;
@@ -125,8 +126,18 @@ export async function mount(app) {
     if (v === 'score') viewObj = sheetView();
     else if (v === 'notes') viewObj = rollView();
     else if (v === 'orchestra') viewObj = orchestraView();
+    else if (v === 'form') viewObj = formView();
     if (v === 'sound') requestAnimationFrame(() => { setupSpectro(); setupKeys(); });
   }
+  const widen = $('.widen'), wideCue = $('.wide-cue');
+  const setWide = (on) => {
+    document.body.classList.toggle('wide', on);
+    widen.setAttribute('aria-pressed', String(on));
+    widen.textContent = on ? '⤡' : '⤢';
+    requestAnimationFrame(() => { if (view === 'sound') { setupSpectro(); setupKeys(); } else if (view === 'form') setView('form'); });
+  };
+  on(widen, 'click', () => setWide(!document.body.classList.contains('wide')));
+  cleanups.push(() => document.body.classList.remove('wide'));
   on(ui.views, 'click', (e) => { const b = e.target.closest('[data-view]'); if (b) setView(b.dataset.view); });
 
   // Notes sorted by onset, with the longest duration, so the sounding set is found by binary search.
@@ -246,7 +257,7 @@ export async function mount(app) {
             Object.assign(hl.style, { left: `${(x / P.w) * 100}%`, top: `${(y / P.h) * 100}%`, width: `${(w / P.w) * 100}%`, height: `${(h / P.h) * 100}%`, display: '' });
             if (performance.now() - userScroll > 3500) {
               const top = P.el.offsetTop + (y / P.h) * P.el.offsetHeight, bottom = top + (h / P.h) * P.el.offsetHeight;
-              if (top < wrap.scrollTop + 24 || bottom > wrap.scrollTop + wrap.clientHeight - 24) { wrap._auto = true; wrap.scrollTo({ top: Math.max(0, top - wrap.clientHeight * 0.28), behavior: reduced ? 'auto' : 'smooth' }); }
+              if (top < wrap.scrollTop + 24 || bottom > wrap.scrollTop + wrap.clientHeight - 24) { wrap._auto = true; wrap.scrollTo({ top: Math.max(0, top - Math.max(10, Math.min(wrap.clientHeight * 0.28, (wrap.clientHeight - (bottom - top)) / 2))), behavior: reduced ? 'auto' : 'smooth' }); }
             }
           } else hl.style.display = 'none';
         }
@@ -318,6 +329,71 @@ export async function mount(app) {
     };
   }
 
+  // ---- the architecture of the piece: sections as stones along the floor, arcs joining every return of the
+  // same material (section.m letters; A′ returns to A), the joins as diamonds, the playhead walking through.
+  function formView() {
+    const NS = 'http://www.w3.org/2000/svg';
+    const box = ui.layer.getBoundingClientRect();
+    const W = 1000, H = Math.round(Math.max(340, Math.min(760, (W * (box.height - 40)) / Math.max(1, box.width)))), X0 = 30, X1 = 970, floor = H - 96, d = track.duration || 1;
+    const X = (t) => X0 + (t / d) * (X1 - X0);
+    const secs = track.sections.map((s, i) => ({ ...s, i, end: track.sections[i + 1]?.t ?? d, base: (s.m ?? '').replace(/[′″'’\s\d]+$/u, '') }));
+    const arcs = [];
+    secs.forEach((s, i) => {
+      if (!s.m || /^(Intro|Coda|Link|Cadenza|Dev|Var|Theme)/i.test(s.base)) return;
+      const prev = [...secs.slice(0, i)].reverse().find((p) => p.base === s.base);
+      if (prev) arcs.push({ a: prev, b: s });
+    });
+    const maxSpan = Math.max(1, ...arcs.map((a) => X(a.b.t) - X(a.a.t)));
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    svg.setAttribute('class', 'form-svg');
+    svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', `The form of ${track.work}: ${secs.map((s) => s.m || s.label).join(', ')}`);
+    const mid = (s) => (X(s.t) + X(s.end)) / 2;
+    let html = `<defs><linearGradient id="arcg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f6e3a8"/><stop offset="1" stop-color="#a8843a"/></linearGradient>
+<radialGradient id="stoneg" cx=".5" cy="0" r="1"><stop offset="0" stop-color="rgba(233,207,140,.32)"/><stop offset="1" stop-color="rgba(233,207,140,.04)"/></radialGradient></defs>`;
+    html += `<line x1="${X0}" x2="${X1}" y1="${floor + 0.5}" y2="${floor + 0.5}" class="fm-floor"/>`;
+    for (const { a, b } of arcs) {
+      const x1 = mid(a), x2 = mid(b), r = (x2 - x1) / 2, h = Math.min(floor - 46 - 26, 36 + (r * 2 / maxSpan) * (floor - 46 - 70));
+      html += `<path class="fm-arc" data-a="${a.i}" data-b="${b.i}" d="M${x1},${floor - 46} C${x1},${floor - 46 - h * 1.33} ${x2},${floor - 46 - h * 1.33} ${x2},${floor - 46}" stroke-width="${Math.max(1.2, Math.min(5, (b.end - b.t) / d * 40))}"/>`;
+    }
+    for (const s of secs) {
+      const x = X(s.t), w = Math.max(2, X(s.end) - x - 2);
+      const letter = s.m || '';
+      const showLetter = w > 22;
+      html += `<g class="fm-sec" data-i="${s.i}" tabindex="0" role="button" aria-label="${escapeHtml(s.label)} at ${fmt(s.t)}">
+<rect x="${x + 1}" y="${floor - 46}" width="${w}" height="46" rx="2"/>${showLetter ? `<text x="${x + 1 + w / 2}" y="${floor - 16}" text-anchor="middle" class="fm-m">${escapeHtml(letter)}</text>` : ''}</g>`;
+    }
+    for (const j of track.transitions) html += `<text x="${X(j.at)}" y="${floor + 22}" text-anchor="middle" class="fm-join">◆</text>`;
+    html += `<g class="fm-head"><line x1="0" x2="0" y1="20" y2="${floor + 8}"/><circle cx="0" cy="${floor + 8}" r="4"/></g>`;
+    html += `<text x="${X0}" y="${H - 52}" class="fm-now-l"></text><text x="${X0}" y="${H - 24}" class="fm-now-n"></text>`;
+    svg.innerHTML = html;
+    const cap = document.createElement('p');
+    cap.className = 'sheet-cap';
+    cap.innerHTML = arcs.length
+      ? 'The whole piece, left to right. Each block is a section; an arc joins material to its return (A to A′). Diamonds mark the joins between sections. Touch a block to go there.'
+      : 'The whole piece, left to right, one block per section. Diamonds mark the joins between sections. Touch a block to go there.';
+    ui.layer.append(svg, cap);
+    const head = svg.querySelector('.fm-head'), nowL = svg.querySelector('.fm-now-l'), nowN = svg.querySelector('.fm-now-n');
+    const blocks = [...svg.querySelectorAll('.fm-sec')], arcEls = [...svg.querySelectorAll('.fm-arc')];
+    svg.addEventListener('click', (e) => { const g = e.target.closest('.fm-sec'); if (g) seek(secs[+g.dataset.i].t + 0.05); });
+    svg.addEventListener('keydown', (e) => { const g = e.target.closest('.fm-sec'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); seek(secs[+g.dataset.i].t + 0.05); } });
+    let cur = -2;
+    return {
+      draw(t) {
+        head.setAttribute('transform', `translate(${X(t).toFixed(1)},0)`);
+        let i = -1; for (const s of secs) if (s.t <= t + 0.05) i = s.i;
+        if (i === cur) return;
+        cur = i;
+        blocks.forEach((b, k) => { b.classList.toggle('on', k === i); b.classList.toggle('past', k < i); });
+        arcEls.forEach((a) => a.classList.toggle('on', +a.dataset.a === i || +a.dataset.b === i));
+        const s = secs[i];
+        nowL.textContent = s ? `${s.m ? s.m + ' · ' : ''}${s.label}` : '';
+        nowN.textContent = s?.mNote ?? '';
+      },
+    };
+  }
+
   // ---- the orchestra on its stage: each section glows when its written part is sounding
   function orchestraView() {
     const SEATS = [
@@ -368,6 +444,7 @@ export async function mount(app) {
     ui.cue.dataset.kind = c.kind;
     ui.kind.textContent = KIND[c.kind] ?? c.kind;
     ui.cueTitle.textContent = c.title;
+    if (joinIdx < 0) wideCue.innerHTML = `<span>${KIND[c.kind] ?? ''}</span>${escapeHtml(c.title)}`;
     ui.cueText.innerHTML = c.text;
     ui.cueHow.innerHTML = `${c.how ?? ''} ${escapeHtml(c.evidence ?? '')}${c.precision === 'passage' ? ' This note describes a stretch of music, so it may appear a little before or after what it describes.' : ''}`;
     $('.cue-how').hidden = !(c.how || c.evidence);
@@ -386,6 +463,7 @@ export async function mount(app) {
 <div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div>
 <button type="button" class="join-again" data-span="${j.span[0]}">Hear the join again</button>`;
     ui.join.hidden = false;
+    wideCue.innerHTML = `<span>◆ The join</span>${escapeHtml(j.title)}`;
     if (!reduced) { ui.join.classList.remove('enter'); void ui.join.offsetWidth; ui.join.classList.add('enter'); }
   }
   on(ui.join, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
@@ -403,8 +481,21 @@ export async function mount(app) {
     ui.tabComposer.innerHTML = `<div class="bio-head">${portrait ? `<img src="${portrait}" alt="" style="object-position:${c.focus}">` : '<span></span>'}<div><h3>${c.name}</h3><span class="dates">${c.dates}</span></div></div>
 <p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>— ${c.quote.source}</small></blockquote>` : ''}${c.background}
 <dl><div><dt>Born</dt><dd>${c.born}</dd></div>${c.died ? `<div><dt>Died</dt><dd>${c.died}</dd></div>` : ''}${c.facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
+<div class="inherit"></div>
 <a class="more-link" href="${new URL(`composers/${c.slug}.html`, app.root).href}">The full portrait: life, scores, paintings →</a>`;
+    const t0 = track;
+    influence().then((all) => {
+      const mine = all?.[c.slug];
+      if (!mine || track !== t0 || (!mine.in?.length && !mine.out?.length)) return;
+      const item = (e, dir) => `<li><a href="${new URL(`influence.html#edge-${e.id}`, app.root).href}"><span class="ih-y">${e.year ?? ''}</span><span class="ih-t">${escapeHtml(e.title)}</span><span class="ih-w">${dir === 'in' ? 'from' : 'to'} ${escapeHtml(e.name ?? e.from ?? e.to ?? '')} · ${escapeHtml(e.kind)}</span></a></li>`;
+      $('.inherit', ui.tabComposer).innerHTML = `<h4 class="tab-h">Inheritance</h4>
+${mine.in?.length ? `<p class="ih-k">What ${escapeHtml(c.family ?? c.name)} took</p><ol class="ih">${mine.in.map((e) => item(e, 'in')).join('')}</ol>` : ''}
+${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.family ?? c.name)}</p><ol class="ih">${mine.out.map((e) => item(e, 'out')).join('')}</ol>` : ''}
+<a class="more-link" href="${new URL(`influence.html#node-${c.slug}`, app.root).href}">See ${escapeHtml(c.family ?? c.name)} in the Web of Influence →</a>`;
+    });
   }
+  let influenceData = null;
+  const influence = () => (influenceData ??= fetch(new URL(`assets/influence.json?v=${document.documentElement.dataset.prog ?? ''}`, app.root)).then((r) => (r.ok ? r.json() : null)).catch(() => null));
   function renderPieceTab() {
     const t = track, d = t.dossier;
     const dossier = d ? `<dl class="dossier">${d.fields.map((f) => `<div class="st-${f.status.replace(' ', '-')}"><dt>${f.label}</dt><dd>${escapeHtml(f.value || '—')}${f.src.length ? ` <sup>${f.src.join(',')}</sup>` : ''}<small>${f.statusText}${f.note ? ` — ${escapeHtml(f.note)}` : ''}</small>${f.alts.map((a) => `<small class="alt">or: ${escapeHtml(a)}</small>`).join('')}</dd></div>`).join('')}</dl>
@@ -497,6 +588,8 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
     if (e.target.closest('input, textarea, button, a, [role="slider"], summary') || document.querySelector('dialog[open]')) return;
     if (e.code === 'Space') { e.preventDefault(); ui.play.click(); }
     if (e.key === 'n' || e.key === 'N') player.next();
+    if (e.key === 'f' || e.key === 'F') widen.click();
+    if (e.key === 'Escape' && document.body.classList.contains('wide')) setWide(false);
     if (e.key === 'p' || e.key === 'P') player.prev();
   });
   on(ui.progBtn, 'click', () => { ui.prog.hidden = !ui.prog.hidden; ui.progBtn.setAttribute('aria-expanded', String(!ui.prog.hidden)); });
@@ -743,6 +836,10 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   let rt; on(window, 'resize', () => { clearTimeout(rt); rt = setTimeout(onResize, 150); });
 
   // ================================================================= boot
+  // Glossary popovers (shared with the Atlas; site.js owns them).
+  import(new URL(`assets/js/site.js?v=${document.documentElement.dataset.site ?? ''}`, app.root).href)
+    .then((m) => { if (alive && m.mountTerms) { const off = m.mountTerms(app); if (typeof off === 'function') cleanups.push(off); } })
+    .catch(() => {});
   setupSpectro(); setupKeys(); setupWheel();
   const want = decodeURIComponent(location.hash.slice(1));
   if (want && want !== player.track?.id && P.some((x) => x.id === want)) await player.load(want);

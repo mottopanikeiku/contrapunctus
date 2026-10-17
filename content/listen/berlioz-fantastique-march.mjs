@@ -16,12 +16,12 @@ export default {
   question: 'How can a march turn a melody into an interruption?',
   intro: 'Berlioz places an execution march inside a symphony, with a brief recollection of the beloved’s melody near its end. What happens to the regular tread when that recollection interrupts it?',
   sections: [
-    { t: 0, label: 'The procession gathers' },
-    { t: 18, label: 'Descending march theme' },
-    { t: 98, label: 'Brass-led march' },
-    { t: 170, label: 'Minor-key return and build-up' },
-    { t: 252, label: 'The last recollection' },
-    { t: 264, label: 'Execution and close' },
+    { t: 0, label: 'The procession gathers', m: 'Intro' },
+    { t: 18, label: 'Descending march theme', m: 'A' },
+    { t: 98, label: 'Brass-led march', m: 'B' },
+    { t: 170, label: 'Minor-key return and build-up', m: 'A′', mNote: 'descending minor-key march returns, then gains orchestral weight' },
+    { t: 252, label: 'The last recollection', m: 'C' },
+    { t: 264, label: 'Execution and close', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'An execution in a dream', text: 'This is the fourth of five movements. In Berlioz’s printed programme, an opium-dazed musician dreams that he has murdered his beloved and is being led to execution. Listen for the contrast between the march’s heavy tread and its more ceremonial passages.', basis: 'documented', precision: 'passage', evidence: 'Berlioz’s published programme, part four, describes the dream and the march’s contrasting characters.' },

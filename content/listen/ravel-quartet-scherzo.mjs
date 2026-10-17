@@ -15,11 +15,11 @@ export default {
   question: 'How does plucking change the rhythm of a string quartet?',
   intro: 'The scherzo sets short, plucked sounds against lines sustained with the bow. A slower middle section reshapes the opening material before the brisk character returns.',
   sections: [
-    { t: 0, label: 'Opening scherzo' },
-    { t: 102, label: 'Slower middle · approximate' },
-    { t: 200, label: 'Renewed activity · approximate' },
-    { t: 290, label: 'Scherzo return · approximate' },
-    { t: 335, label: 'Closing passage · approximate' },
+    { t: 0, label: 'Opening scherzo', m: 'A' },
+    { t: 102, label: 'Slower middle · approximate', m: 'A′', mNote: 'opening motifs expanded slowly, viola-led, with all four instruments muted' },
+    { t: 200, label: 'Renewed activity · approximate', m: 'Dev' },
+    { t: 290, label: 'Scherzo return · approximate', m: 'A″', mNote: 'shortened return restores pizzicato and two-against-three rhythmic friction' },
+    { t: 335, label: 'Closing passage · approximate', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'A note’s beginning matters', text: 'Pizzicato means plucking a string rather than drawing a bow across it. In this movement, compare the rhythm made by those short attacks with the line of a longer, bowed phrase. A change of technique can alter the character without adding another player.', basis: 'general', precision: 'passage', evidence: 'Stephen Walsh’s quartet note describes the plucked first theme and bowed second theme. This is a movement-wide listening guide, not a timed identification of a bow change: https://www.chambermusicsociety.org/about-the-music/compositions/ravel-string-quartet' },

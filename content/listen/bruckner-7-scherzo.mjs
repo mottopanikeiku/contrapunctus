@@ -17,11 +17,11 @@ export default {
   question: 'How does a repeated figure build such large sections?',
   intro: 'The Seventh’s scherzo sets fast, repeated figures around a slower trio. How does Bruckner make changes of pace and scale out of this limited material?',
   sections: [
-    { t: 0, label: 'Scherzo · A minor' },
-    { t: 70, label: 'Quieter continuation' },
-    { t: 198, label: 'Trio · F major' },
-    { t: 328, label: 'Scherzo returns' },
-    { t: 480, label: 'Closing drive' },
+    { t: 0, label: 'Scherzo · A minor', m: 'A' },
+    { t: 70, label: 'Quieter continuation', m: 'B' },
+    { t: 198, label: 'Trio · F major', m: 'C' },
+    { t: 328, label: 'Scherzo returns', m: 'A' },
+    { t: 480, label: 'Closing drive', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'A fast third movement', text: 'After the Adagio, the symphony turns to a scherzo in A minor, marked “Sehr schnell” — very fast. Follow the repeated figure beneath its themes: the small-scale motion helps bind the larger sections together.', basis: 'general', precision: 'passage', evidence: 'The score supplies the movement’s key, tempo marking and repeated figures; no instrumental entrance is timed here.' },

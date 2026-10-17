@@ -14,10 +14,10 @@ export default {
   question: 'What changes when the same melody reaches its second ending?',
   // Bar numbers follow Mutopia’s compact repeat: 1–39, 1–31 again, then 40–47.
   sections: [
-    { t: 2.2, label: 'Alternating sevenths and melody · bars 1–18' },
-    { t: 42.9, label: 'Modal turn and first ending · bars 19–39' },
-    { t: 90.3, label: 'Opening repeated · bars 1–31, occurrence 2' },
-    { t: 158.5, label: 'Different final cadence · bars 40–47' },
+    { t: 2.2, label: 'Alternating sevenths and melody · bars 1–18', m: 'A' },
+    { t: 42.9, label: 'Modal turn and first ending · bars 19–39', m: 'B' },
+    { t: 90.3, label: 'Opening repeated · bars 1–31, occurrence 2', m: 'A', mNote: 'opening repeats, including the modal turn' },
+    { t: 158.5, label: 'Different final cadence · bars 40–47', m: 'B′', mNote: 'first ending altered to close in D minor' },
   ],
   cues: [
     { bar: { n: '1', occ: 1 }, kind: 'music', title: 'Bass, then seventh chord', text: 'The bass sounds on beat one; the upper accompaniment enters on beat two and holds through beat three. G–B–D–F♯ gives way to D–F♯–A–C♯: Gmaj7 alternating with Dmaj7, not four notes struck together.', basis: 'score-aligned', precision: 'passage', evidence: 'Bars 1–4, occurrence 1: Mutopia 37, gymnopedie_1.ly, bottom and middle parts. G and D dotted-minim basses alternate beneath B–D–F♯ and A–C♯–F♯ minims after crotchet rests. Timing aligned automatically.' },

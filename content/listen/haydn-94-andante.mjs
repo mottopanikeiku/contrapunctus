@@ -15,12 +15,12 @@ export default {
   // Sources: https://www.laphil.com/works/symphony-no-94-surprise
   // https://www.haydn2032.com/en/about-joseph-haydn
   sections: [
-    { t: 0, label: 'Theme · C major' },
-    { t: 84, label: 'Variation I · decoration' },
-    { t: 164, label: 'Variation II · C minor' },
-    { t: 244, label: 'Variation III · lighter texture' },
-    { t: 318, label: 'Variation IV · orchestral weight' },
-    { t: 402, label: 'Coda · the tune reconsidered' },
+    { t: 0, label: 'Theme · C major', m: 'Theme' },
+    { t: 84, label: 'Variation I · decoration', m: 'Var 1' },
+    { t: 164, label: 'Variation II · C minor', m: 'Var 2' },
+    { t: 244, label: 'Variation III · lighter texture', m: 'Var 3' },
+    { t: 318, label: 'Variation IV · orchestral weight', m: 'Var 4' },
+    { t: 402, label: 'Coda · the tune reconsidered', m: 'Coda', mNote: 'wind theme returns over altered string harmonies' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A tune to remember', text: 'The opening theme uses regular phrases, repeated notes and the notes of a C-major chord. Keep its shape in mind: four variations will change the surrounding activity while preserving points of recognition.', basis: 'score-proportion', precision: 'passage', evidence: 'The score gives the theme and four variations. The report places a quiet C-centred passage at the opening; it does not align individual notes.' },

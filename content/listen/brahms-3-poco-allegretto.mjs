@@ -15,10 +15,10 @@ export default {
   intro: 'Instead of a scherzo, Brahms writes a C minor song in three beats. Trumpets and timpani remain silent while the melody passes between the strings and solo winds.',
   question: 'What changes when a melody returns in a different colour?',
   sections: [
-    { t: 0, label: 'A · C minor song' },
-    { t: 110, label: 'Middle section · approximate' },
-    { t: 214, label: 'Opening song returns · approximate' },
-    { t: 330, label: 'Closing passage' },
+    { t: 0, label: 'A · C minor song', m: 'A' },
+    { t: 110, label: 'Middle section · approximate', m: 'B' },
+    { t: 214, label: 'Opening song returns · approximate', m: 'A′', mNote: 'horn takes the cello melody; cellos add an upward arpeggio' },
+    { t: 330, label: 'Closing passage', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A song in three', text: 'Brahms gives this movement a three-beat measure rather than a fast scherzo’s pace. Follow the long melodic phrases against the smaller movements of the accompaniment; their points of arrival need not coincide.', basis: 'general', precision: 'passage', evidence: 'The movement’s score is in 3/8 and marked Poco allegretto. This describes its recurring phrasing, not a timed instrumental entrance.' },

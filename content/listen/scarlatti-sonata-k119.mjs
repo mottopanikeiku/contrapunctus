@@ -16,11 +16,11 @@ export default {
   question: 'How do repeated passages lead towards different harmonic destinations?',
   intro: 'A keyboard sonata built from repeated attacks, changes of register and chords containing notes that refuse to agree. Its two repeated halves give Scarlatti room to make the same disturbances lead towards different keys.',
   sections: [
-    { t: 0, label: 'First half' },
-    { t: 68, label: 'First-half repeat · approximate' },
-    { t: 132, label: 'Second half · approximate' },
-    { t: 204, label: 'Second-half repeat · approximate' },
-    { t: 258, label: 'Closing passage · approximate' },
+    { t: 0, label: 'First half', m: 'A' },
+    { t: 68, label: 'First-half repeat · approximate', m: 'A' },
+    { t: 132, label: 'Second half · approximate', m: 'B' },
+    { t: 204, label: 'Second-half repeat · approximate', m: 'B' },
+    { t: 258, label: 'Closing passage · approximate', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'Remember a gesture, not every note', text: 'Choose one short figure from the opening and keep its shape in mind. Repetition gives you another chance to recognise it; the interesting question is whether a familiar gesture leads towards the same destination.', basis: 'general', precision: 'passage', evidence: 'This is a listening prompt about repetition. The manuscript shows recurring short keyboard figures; it does not supply timings for Meyer’s performance: https://commons.wikimedia.org/wiki/File:Scarlatti,_Sonate_K._119_-_ms._Venise_XV,22.jpg' },

@@ -16,12 +16,12 @@ export default {
   // https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/
   // Formal positions below are estimates, not an alignment to performed bars.
   sections: [
-    { t: 0, label: 'Exposition · G minor' },
-    { t: 50, label: 'Second theme · approximate' },
-    { t: 120, label: 'Development · approximate' },
-    { t: 194, label: 'Recapitulation · approximate' },
-    { t: 265, label: 'Second theme returns · approximate' },
-    { t: 338, label: 'Final extension · approximate' },
+    { t: 0, label: 'Exposition · G minor', m: 'A' },
+    { t: 50, label: 'Second theme · approximate', m: 'B' },
+    { t: 120, label: 'Development · approximate', m: 'Dev' },
+    { t: 194, label: 'Recapitulation · approximate', m: 'A′', mNote: 'opening theme returns with an expanded, reworked transition' },
+    { t: 265, label: 'Second theme returns · approximate', m: 'B′', mNote: 'second theme changes from B♭ major to G minor' },
+    { t: 338, label: 'Final extension · approximate', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'Already in motion', text: 'The movement begins without a slow introduction. Listen for the opening melody’s repeated notes and small downward step against the moving accompaniment; a compact figure supplies material for much of the later argument.', basis: 'general', precision: 'passage', evidence: 'The score’s opening figure and its later development are discussed by Matthew Lorenzon for ABC Classic. This describes the opening passage rather than a timed violin entrance. https://www.abc.net.au/listen/classic/read-and-watch/music-reads/mozart-symphony-no-40-sonata-form/10160386' },

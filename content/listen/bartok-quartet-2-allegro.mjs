@@ -17,11 +17,11 @@ export default {
   intro: 'The fast movement of Bartók’s Second Quartet sets repeated notes against shifting accents. Its narrow melodic figures owe something to the Arab music he recorded in Algeria, rather than to a Hungarian dance tune.',
   question: 'How can one repeated note drive a whole movement?',
   sections: [
-    { t: 0, label: 'Repeated-note opening' },
-    { t: 104, label: 'Renewed activity' },
-    { t: 142, label: 'Contrasting episodes · approximate' },
-    { t: 320, label: 'Dense attacks return' },
-    { t: 388, label: 'Closing rush · approximate' },
+    { t: 0, label: 'Repeated-note opening', m: 'A' },
+    { t: 104, label: 'Renewed activity', m: 'B' },
+    { t: 142, label: 'Contrasting episodes · approximate', m: 'C' },
+    { t: 320, label: 'Dense attacks return', m: 'A′', mNote: 'repeated-note dance returns, not a literal repeat' },
+    { t: 388, label: 'Closing rush · approximate', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A pitch that stays put', text: 'Through the opening stretch, listen for repeated notes beneath the moving lines. A fixed pitch can provide an anchor without supplying a new chord on every beat; changing accents keep repetition from becoming a regular tread.', basis: 'general', precision: 'passage', evidence: 'Roger Parker’s Gresham lecture describes the opening repeated-note accompaniment. The analysis finds densely packed attacks through the first minute; this is a passage-level listening guide. https://www.gresham.ac.uk/watch-now/bartok-quartet-no-2' },

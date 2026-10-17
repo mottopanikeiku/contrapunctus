@@ -13,11 +13,11 @@ export default {
   intro: 'A dying woman dreams that she is dancing: this waltz began as theatre music, not a ballroom miniature. Judith Bokor’s 1925 recording gives the orchestral melody to cello with piano accompaniment.',
   question: 'How can a waltz keep its pulse while its melody stretches?',
   sections: [
-    { t: 0, label: 'The waltz begins' },
-    { t: 64, label: 'Expansion' },
-    { t: 132, label: 'The dance draws back' },
-    { t: 162, label: 'Renewed movement' },
-    { t: 238, label: 'Final withdrawal' },
+    { t: 0, label: 'The waltz begins', m: 'A' },
+    { t: 64, label: 'Expansion', m: 'B' },
+    { t: 132, label: 'The dance draws back', m: 'A′', mNote: 'opening-related gestures return with lighter, more separated support' },
+    { t: 162, label: 'Renewed movement', m: 'A″', mNote: 'opening-related rhythm expands into a more continuous dance phrase' },
+    { t: 238, label: 'Final withdrawal', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A dance in three', text: 'Across the opening, listen for the three-beat accompaniment beneath the cello’s longer phrases. A waltz supplies a regular step, but the melody need not stop at each bar line; the arrangement separates the two roles between cello and piano.', basis: 'general', precision: 'passage', evidence: 'The score establishes the waltz metre and the source identifies the cello-and-piano arrangement. The recording’s quiet opening grows around 0:10–0:15; no individual entrance is being timed.' },

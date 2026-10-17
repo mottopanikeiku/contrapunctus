@@ -4,6 +4,30 @@ export default {
   description: 'An illustrated atlas of classical composers from Bach to the present: technical listening notes, playable score examples, origins of musical forms, and the paintings and poems that share their world.',
   colophon: 'A listener’s atlas built for reading slowly. Dates follow the standard biographies; catalogue numbers follow the modern thematic catalogues (BWV, K., D., Op.). Where a story is legend rather than record, the text says so.',
 
+  readerPaths: [
+    {
+      title: 'New to this music',
+      text: 'Start with a recording. Follow one melody, then put a name to what you hear.',
+      links: [['Enter the concert hall', 'hall.html'], ['A melody returns · listening route', 'routes.html#returns'], ['Short pieces for a first listen', 'routes.html#short'], ['Look up a musical term', 'glossary.html']],
+    },
+    {
+      title: 'I play or read music',
+      text: 'Compare the written notes with the sound: independent lines, harmonic direction and altered returns.',
+      links: [['Open the Workshop', 'workshop.html'], ['Scores and alignments', 'sources.html#scores'], ['Compare passages in the Return Lab', 'return-lab/index.html'], ['How pieces are joined', 'workshop.html#joins']],
+    },
+    {
+      title: 'Historian or archivist',
+      text: 'Separate a documented date from an inference. Follow the provenance of a recording or cite a chapter.',
+      links: [['Recording dossiers and sources', 'sources.html#dossiers'], ['The historical timeline', 'timeline.html'], ['How claims are labelled', 'sources.html#method'], ['Download the recording register', 'sources.html#downloads'], ['Cite a page', 'sources.html#cite']],
+    },
+    {
+      title: 'The Web of Influence',
+      featured: true,
+      text: 'Follow what passed between composers, poets and painters: a copied score, a borrowed theme, a text set to music. Each connection opens its evidence.',
+      links: [['Explore the Web of Influence', 'influence.html'], ['Trace Bach’s inheritance', 'influence.html#node-bach']],
+    },
+  ],
+
   heroSlides: [
     { kicker: 'I · The Baroque', file: 'File:Johannes Vermeer - Lady at the Virginal with a Gentleman, \'The Music Lesson\' - Google Art Project.jpg', artist: 'Johannes Vermeer', title: 'The Music Lesson', date: 'c. 1662–65', focus: '55% 45%' },
     { kicker: 'II · Classical', file: 'File:Jacques-Louis David, Le Serment des Horaces.jpg', artist: 'Jacques-Louis David', title: 'The Oath of the Horatii', date: '1784', focus: '40% 40%' },
@@ -17,7 +41,7 @@ export default {
   preludeTitle: 'How to use this atlas',
   prelude: `
 <p class="dropcap">Western art music is a written tradition. A Bach fugue, a Mahler adagio and a Ligeti étude survive because someone wrote them down in a notation precise enough that a stranger, centuries later, can make them sound again. This atlas leans on that fact. Each composer’s page says what the music is made of — which chords, which forms, which instruments in which registers — and shows short examples engraved in the browser, which you can play.</p>
-<aside class="note"><b>Reading the examples</b>Notation is rendered live from text. Press <i>Play</i> on any example: the synthesised sound is plain, but the pitches and rhythms are the composer’s, and each note lights up as it sounds.</aside>
+<aside class="note"><b>Reading the examples</b>Notation is rendered from text. Press <i>Play</i> on an example to hear its synthesised pitches and rhythms while the notes light up. Captions distinguish quotations from schematics and identify any reduction or transposition.</aside>
 <p>The chapters run from the late Baroque to the present in seven movements. They overlap, because styles do: [[rachmaninoff|Rachmaninoff]] was writing lush tonal concertos in the same decade that [[schoenberg|Schoenberg]] was abandoning the key signature, and [[ravel|Ravel]] and [[prokofiev|Prokofiev]] were both, in their different ways, neoclassicists looking back at the eighteenth century while being thoroughly modern about it.</p>
 <p>Alongside the music sit the other arts — the painting Debussy put on the cover of <i>La Mer</i>, the woodcut behind the funeral march in Mahler’s First, the Böcklin canvas Rachmaninoff saw in black and white and turned into a tone poem. These are not decorations. Composers read, looked at pictures and argued with painters, and many of their works began as a response to something they saw or read.</p>
 <aside class="note"><b>Where to start</b>If you know nothing, begin with <a href="origins.html">Origins</a>: from Pythagoras’s monochord to the figured bass Bach inherited. If you know the repertoire but not the theory, <a href="workshop.html">The Workshop</a> explains counterpoint, sonata form, the Tristan chord, the octatonic scale and the twelve-tone row with examples.</aside>
@@ -30,7 +54,7 @@ export default {
   erasLede: 'Each chapter opens with a painting from its own years and a short account of what changed in the music — in harmony, in form, in the instruments themselves.',
 
   timelineLede: 'Lifespans of every composer in the atlas, set against the events and artworks that framed them. Bars are drawn to scale: watch how short some lives were — Schubert, Mozart, Lili Boulanger — and how much fits into them.',
-  galleryLede: 'Every painting, drawing and print in the atlas hung together on one wall, salon style, each with a note on the music it sits beside.',
+  galleryLede: 'Paintings, drawings, prints and poems from the atlas, gathered in a salon hang. Each object links to the music it accompanies.',
 
   events: [
     { year: 1700, label: 'Cristofori’s first pianos, Florence', kind: 'history' },

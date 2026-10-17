@@ -7,17 +7,71 @@ import { createRequire } from 'node:module';
 import { pathToFileURL } from 'node:url';
 import { lookup, normalizeTitle } from './commons.mjs';
 import roster from '../content/roster.mjs';
+import { readFile, readdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 
 const require = createRequire(import.meta.url);
 const ABCJS = require('../docs/assets/vendor/abcjs-basic-min.js');
 const slugs = new Set(Object.values(roster).flat());
 const eras = new Set(Object.keys(roster));
-const pages = new Set(['origins', 'workshop', 'timeline', 'gallery', 'credits', 'index', 'composers']);
+const pages = new Set(['origins', 'workshop', 'timeline', 'gallery', 'credits', 'index', 'composers', 'glossary', 'sources', 'routes', 'hall', 'atlas', 'influence']);
+const topics = new Set(['origins', 'workshop', 'recording-history', 'performance-practice']);
+const ROOT = path.resolve(import.meta.dirname, '..');
 const SLOP = /\b(tapestry|delve|testament to|timeless|masterful(ly)?|myriad|resonat(e|es|ing) with|journey|vibrant|breathtaking|nuanced|showcas(e|es|ing)|realm of|in the world of|seamless(ly)?|elevat(e|es|ing)|captivat(e|es|ing)|unparalleled|profound(ly)?|evocative|lush tapestry|sonic landscape|soundscape)\b/gi;
 
 let bad = 0;
 const err = (f, m) => { bad++; console.log(`ERROR ${f}: ${m}`); };
 const warn = (f, m) => console.log(`warn  ${f}: ${m}`);
+const nonempty = (v) => typeof v === 'string' && !!v.trim();
+const webUrl = (v) => { try { return ['http:', 'https:'].includes(new URL(v).protocol); } catch { return false; } };
+
+function validateBibliography(f, b) {
+  if (!b || typeof b !== 'object' || Array.isArray(b)) { err(f, 'bibliography must be an object'); return; }
+  if (path.basename(f, '.json') !== b.id) err(f, 'bibliography file name must equal id');
+  const known = b.kind === 'composer' ? slugs : b.kind === 'era' ? eras : b.kind === 'topic' ? topics : null;
+  if (!known) err(f, 'bibliography kind must be composer, era or topic');
+  else if (!known.has(b.id)) err(f, `unknown ${b.kind} bibliography id ${b.id}`);
+  if (!Array.isArray(b.items) || !b.items.length) { err(f, 'bibliography needs a non-empty items array'); return; }
+  for (const [i, item] of b.items.entries()) {
+    if (!item || typeof item !== 'object' || Array.isArray(item)) { err(f, `items[${i}] must be an object`); continue; }
+    for (const key of ['cite', 'kind', 'note']) if (!nonempty(item[key])) err(f, `items[${i}].${key} must be a non-empty string`);
+    if (item.url != null && !webUrl(item.url)) err(f, `items[${i}].url must be an http(s) URL`);
+  }
+}
+
+async function validateGlossary(f, entries) {
+  if (!Array.isArray(entries)) { err(f, 'glossary must export an array'); return; }
+  const ids = new Set();
+  const listenIds = new Set((await readdir(path.join(ROOT, 'content/listen'))).filter((n) => n.endsWith('.mjs')).map((n) => n.slice(0, -4)));
+  const scores = new Map();
+  for (const g of entries) {
+    if (!g || typeof g !== 'object' || Array.isArray(g)) { err(f, 'glossary entry must be an object'); continue; }
+    if (!nonempty(g.slug) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(g.slug)) err(f, `invalid glossary slug ${g.slug}`);
+    if (ids.has(g.slug)) err(f, `duplicate glossary slug ${g.slug}`);
+    ids.add(g.slug);
+    for (const key of ['term', 'kind', 'short', 'html']) if (!nonempty(g[key])) err(f, `${g.slug}.${key} must be a non-empty string`);
+    for (const key of ['aka', 'hear', 'see']) if (!Array.isArray(g[key])) err(f, `${g.slug}.${key} must be an array`);
+    for (const alias of Array.isArray(g.aka) ? g.aka : []) if (!nonempty(alias)) err(f, `${g.slug}: aliases must be non-empty strings`);
+    for (const h of Array.isArray(g.hear) ? g.hear : []) {
+      if (!h || typeof h !== 'object' || Array.isArray(h)) { err(f, `${g.slug}: hear entries must be objects`); continue; }
+      if (!listenIds.has(h.listen)) { err(f, `${g.slug}: unknown hear listen id ${h.listen}`); continue; }
+      if (!nonempty(h.note)) err(f, `${g.slug}: hear note must be a non-empty string`);
+      if ((h.t != null) === (h.bar != null)) err(f, `${g.slug}: hear needs exactly one of t or bar`);
+      if (h.t != null && (!Number.isFinite(h.t) || h.t < 0)) err(f, `${g.slug}: hear time must be a non-negative number`);
+      if (h.bar != null) {
+        if (!nonempty(h.bar.n) || !Number.isInteger(h.bar.occ) || h.bar.occ < 1) { err(f, `${g.slug}: bar must be { n: string, occ: positive integer }`); continue; }
+        if (!scores.has(h.listen)) {
+          const file = path.join(ROOT, 'docs/assets/data', h.listen, 'score.json');
+          try { scores.set(h.listen, existsSync(file) ? JSON.parse(await readFile(file, 'utf8')) : null); }
+          catch (e) { err(f, `${g.slug}: cannot read score.json: ${e.message}`); scores.set(h.listen, null); }
+        }
+        const score = scores.get(h.listen);
+        if (score && !score.bars?.some((b) => String(b.n) === h.bar.n && b.occ === h.bar.occ && Number.isFinite(b.t))) err(f, `${g.slug}: bar ${h.bar.n}/${h.bar.occ} not in ${h.listen}/score.json`);
+      }
+    }
+  }
+  for (const g of entries) for (const slug of Array.isArray(g?.see) ? g.see : []) if (!ids.has(slug)) err(f, `${g.slug}: unknown see slug ${slug}`);
+}
 
 const files = process.argv.slice(2);
 if (!files.length) { console.log('usage: node tools/validate.mjs <content file>...'); process.exit(2); }
@@ -27,6 +81,12 @@ for (const f of files) {
   if (f.endsWith('.json')) {
     try { mod = JSON.parse(await (await import('node:fs/promises')).readFile(f, 'utf8')); }
     catch (e) { err(f, `invalid JSON: ${e.message}`); continue; }
+    if (f.includes('/bibliography/')) {
+      const before = bad;
+      validateBibliography(f, mod);
+      if (bad === before) console.log(`ok    ${f}: ${mod.items.length} bibliography items`);
+      continue;
+    }
     const STATUS = new Set(['documented', 'inferred', 'disputed', 'unknown', 'not applicable']);
     const field = (v, name) => {
       if (!v || typeof v !== 'object' || !('value' in v) || !STATUS.has(v.status)) { err(f, `${name} must be a Field {value, status, sourceIds, note}`); return; }
@@ -59,6 +119,12 @@ for (const f of files) {
   }
   try { mod = (await import(pathToFileURL(path.resolve(f)).href + `?t=${Date.now()}`)).default; }
   catch (e) { err(f, `does not import: ${e.message}`); continue; }
+  if (path.basename(f) === 'glossary.mjs') {
+    const before = bad;
+    await validateGlossary(f, mod);
+    if (bad === before) console.log(`ok    ${f}: ${mod.length} glossary entries`);
+    continue;
+  }
   const text = JSON.stringify(mod);
   const isComposer = f.includes('/composers/');
 
@@ -83,6 +149,10 @@ for (const f of files) {
     for (const k of ['id', 'composer', 'work', 'year', 'forces', 'performers', 'source', 'intro', 'sections', 'cues']) if (mod[k] == null) err(f, `missing field ${k}`);
     if (mod.id && path.basename(f, '.mjs') !== mod.id) err(f, `file name must be ${mod.id}.mjs`);
     if (mod.composer && !slugs.has(mod.composer)) err(f, `unknown composer ${mod.composer}`);
+    for (const [i, section] of (mod.sections ?? []).entries()) {
+      for (const key of ['m', 'mNote']) if (section[key] !== undefined && typeof section[key] !== 'string') err(f, `sections[${i}].${key} must be a string when present`);
+      if (typeof section.mNote === 'string' && section.mNote.trim().split(/\s+/).length > 12) err(f, `sections[${i}].mNote must be no more than 12 words`);
+    }
     const info = mod.source?.file ? await audioInfo(mod.source.file) : null;
     if (!info) err(f, `recording not found on Commons: ${mod.source?.file}`);
     else {

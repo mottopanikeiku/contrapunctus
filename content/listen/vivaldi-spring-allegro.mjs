@@ -16,12 +16,12 @@ export default {
   question: 'How does a returning refrain hold the changing scenes together?',
   intro: 'The opening refrain returns between changing episodes. Birds, streams and a storm belong to the accompanying sonnet, not to a story invented by later listeners; Vivaldi links its images to the musical score.',
   sections: [
-    { t: 0, label: 'Opening refrain' },
-    { t: 34, label: 'First episode · approximate' },
-    { t: 68, label: 'Refrains and episodes · approximate' },
-    { t: 116, label: 'Storm region and aftermath · approximate' },
-    { t: 166, label: 'Later returns · approximate' },
-    { t: 194, label: 'Closing refrain · approximate' },
+    { t: 0, label: 'Opening refrain', m: 'A' },
+    { t: 34, label: 'First episode · approximate', m: 'B' },
+    { t: 68, label: 'Refrains and episodes · approximate', m: 'A′', mNote: 'refrain’s second phrase returns without its opening phrase or repeat' },
+    { t: 116, label: 'Storm region and aftermath · approximate', m: 'C' },
+    { t: 166, label: 'Later returns · approximate', m: 'A″', mNote: 'returning refrain moves from C♯ minor back to E major' },
+    { t: 194, label: 'Closing refrain · approximate', m: 'A′', mNote: 'only the closing phrase returns in E major' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'A refrain to remember', text: 'Remember the shape of the opening phrases. This is the ritornello, or returning refrain: material that links the episodes, sometimes coming back in a shortened form rather than as a complete repeat.', basis: 'general', precision: 'passage', evidence: 'The University of North Georgia’s Resonances chapter explains the opening refrain and its shortened returns. This cue concerns the movement’s design, not a timed instrumental entrance: https://human.libretexts.org/Bookshelves/Music/Ethnomusicology/Resonances_-_Engaging_Music_in_its_Cultural_Context_(Morgan-Ellis_Ed.)/02%3A_Music_for_Storytelling/06%3A_Stories_without_Words/6.04%3A_Antonio_Vivaldi_-_The_Four_Seasons_Spring' },

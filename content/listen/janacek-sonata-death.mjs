@@ -14,12 +14,12 @@ export default {
   intro: 'Janáček wrote this sonata after a worker was killed during demonstrations for a Czech university in Brno. Its second movement builds from a short, returning piano phrase; the interruptions matter as much as the notes.',
   question: 'What makes a repeated phrase feel heavier when it returns?',
   sections: [
-    { t: 0, label: 'The opening phrase' },
-    { t: 102, label: 'Opening pattern recurs · approximate' },
-    { t: 200, label: 'Accumulating force' },
-    { t: 248, label: 'Intensification' },
-    { t: 322, label: 'Later return · approximate' },
-    { t: 388, label: 'Closing withdrawal' },
+    { t: 0, label: 'The opening phrase', m: 'A' },
+    { t: 102, label: 'Opening pattern recurs · approximate', m: 'A' },
+    { t: 200, label: 'Accumulating force', m: 'Dev' },
+    { t: 248, label: 'Intensification', m: 'Dev' },
+    { t: 322, label: 'Later return · approximate', m: 'A′', mNote: 'opening phrase returns with greater chordal weight' },
+    { t: 388, label: 'Closing withdrawal', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A phrase with gaps', text: 'Listen for short melodic shapes separated by space rather than one uninterrupted tune. On a piano, a held note is already fading; the wait after an attack helps determine the phrase’s length.', basis: 'general', precision: 'passage', evidence: 'This is an editorial listening guide to the movement’s short gestures. The report shows sparse attacks and low relative level through the opening half-minute.' },

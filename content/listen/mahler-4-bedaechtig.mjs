@@ -21,12 +21,12 @@ export default {
   intro: 'Mahler begins with sleigh bells and a G major violin tune, then builds a sonata movement from material that first sounds almost domestic. Listen for how the same themes change character when played against one another.',
   question: 'How do familiar themes change when they overlap?',
   sections: [
-    { t: 0, label: 'Exposition · G major' },
-    { t: 90, label: 'Lyrical theme · approximate' },
-    { t: 290, label: 'Development · approximate' },
-    { t: 516, label: 'Central outburst' },
-    { t: 568, label: 'Recapitulation · approximate' },
-    { t: 745, label: 'Closing pages · approximate' },
+    { t: 0, label: 'Exposition · G major', m: 'A' },
+    { t: 90, label: 'Lyrical theme · approximate', m: 'B' },
+    { t: 290, label: 'Development · approximate', m: 'Dev' },
+    { t: 516, label: 'Central outburst', m: 'Dev' },
+    { t: 568, label: 'Recapitulation · approximate', m: 'A′', mNote: 'modified first theme returns quietly after the fanfares' },
+    { t: 745, label: 'Closing pages · approximate', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'Short figures, longer tunes', text: 'The opening sets a short bell-like figure beside a longer melody. Keep both kinds of material in mind: Mahler can make a brief rhythmic interruption as important to the movement as a complete tune.', basis: 'general', precision: 'passage', evidence: 'Bettie Jo Basinger’s Utah Symphony guide describes the opening figure and first theme. This is an opening-passage guide, not a timed identification of an instrumental entrance. https://usuo.org/explore/2015/05/mahler-4-listening-guide/' },

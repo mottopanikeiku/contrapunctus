@@ -17,14 +17,14 @@ export default {
   // https://www.cpebach.org/prefaces/symphonies-preface
   // The clavichord's chroma estimates are inconsistent with the score; no local key is inferred from them.
   sections: [
-    { t: 0, label: 'Free opening' },
-    { t: 140, label: 'Gathering motion' },
-    { t: 180, label: 'Sparse discourse' },
-    { t: 282, label: 'Outburst and interruption' },
-    { t: 322, label: 'Quiet episode' },
-    { t: 460, label: 'Renewed discourse' },
-    { t: 642, label: 'Last sequence of contrasts' },
-    { t: 698, label: 'Closing withdrawal' },
+    { t: 0, label: 'Free opening', m: 'A' },
+    { t: 140, label: 'Gathering motion', m: 'B' },
+    { t: 180, label: 'Sparse discourse', m: 'C' },
+    { t: 282, label: 'Outburst and interruption', m: 'D' },
+    { t: 322, label: 'Quiet episode', m: 'E' },
+    { t: 460, label: 'Renewed discourse', m: 'F' },
+    { t: 642, label: 'Last sequence of contrasts', m: 'G' },
+    { t: 698, label: 'Closing withdrawal', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'Touch after the attack', text: 'The clavichord’s metal tangents strike the strings and remain in contact while the keys are held. Changes of finger pressure can affect a sounding note. Listen for the relationship between attack, continuation and release, not only the succession of pitches.', basis: 'general', precision: 'passage', evidence: 'The source identifies Joan Benson playing clavichord. The note describes the instrument’s mechanism; it does not claim to detect a particular pressure effect in the recording.' },

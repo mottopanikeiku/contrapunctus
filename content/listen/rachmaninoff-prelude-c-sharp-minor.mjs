@@ -17,10 +17,10 @@ export default {
   question: 'What makes the same opening sound larger on its return?',
   intro: 'Rachmaninoff plays his 1892 Prelude in a 1919 Edison recording, moving from a slow opening through an agitated middle to an enlarged return. What changes when the opening material spreads across a much wider chordal texture?',
   sections: [
-    { t: 0, label: 'Lento · opening' },
-    { t: 106, label: 'Agitato · gathering force' },
-    { t: 138, label: 'Tempo primo · enlarged return' },
-    { t: 192, label: 'Coda' },
+    { t: 0, label: 'Lento · opening', m: 'A' },
+    { t: 106, label: 'Agitato · gathering force', m: 'B' },
+    { t: 138, label: 'Tempo primo · enlarged return', m: 'A′', mNote: 'opening signal enlarged into doubled chords across widely separated registers' },
+    { t: 192, label: 'Coda', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Three notes and an answer', text: 'The opening’s low A–G♯–C♯ figure is set against quieter answering chords. Listen for the contrast between strongly projected notes and the softer lines around them; the score gives both roles to a single pianist.', basis: 'general', precision: 'passage', evidence: 'The Mutopia score specifies the three-note figure and answering chords; the old recording’s pitch estimates are not used to identify individual notes.' },

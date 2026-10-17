@@ -17,10 +17,10 @@ export default {
   question: 'What can an orchestra reveal before a character sings?',
   intro: 'Before Violetta’s party begins, Verdi contrasts exposed high strings with a broader melody that returns later in the opera. How does the prelude change your expectations before any singer appears?',
   sections: [
-    { t: 0, label: 'Exposed high strings' },
-    { t: 85, label: 'Cantabile · Violetta’s melody' },
-    { t: 130, label: 'Melody with decoration' },
-    { t: 198, label: 'Quiet close' },
+    { t: 0, label: 'Exposed high strings', m: 'Intro' },
+    { t: 85, label: 'Cantabile · Violetta’s melody', m: 'A' },
+    { t: 130, label: 'Melody with decoration', m: 'A′', mNote: 'cantabile moves to lower strings beneath quick violin decoration' },
+    { t: 198, label: 'Quiet close', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'The exposed opening', text: 'The score opens with quiet, divided high strings rather than the weight of the full orchestra. Compare that exposed texture with the broader melody later in the prelude; it can suggest a vulnerability quite unlike the party scene that follows.', basis: 'general', precision: 'passage', evidence: 'The instrumentation comes from the score; the dramatic reading is an interpretation, not something established by the noisy transfer’s pitch estimates.' },

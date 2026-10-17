@@ -1,0 +1,24 @@
+{
+  "id": "richard-strauss",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Bryan Gilliam, *The Life of Richard Strauss* (Cambridge University Press, 1999).",
+      "url": "https://assets.cambridge.org/97805215/70190/sample/9780521570190wsc00.pdf",
+      "kind": "biography",
+      "note": "EXT — Follows the tone poems, operatic career and political crises through the war and its aftermath."
+    },
+    {
+      "cite": "Charles Youmans, ed., *The Cambridge Companion to Richard Strauss* (Cambridge University Press, 2010).",
+      "url": "https://assets.cambridge.org/97805218/99307/frontmatter/9780521899307_frontmatter.pdf",
+      "kind": "survey",
+      "note": "EXT — Covers compositional process, tone poems, opera, song, conducting, quotation and the Third Reich."
+    },
+    {
+      "cite": "Franz and Alice Strauss, eds, *The Correspondence between Richard Strauss and Hugo von Hofmannsthal*, arranged by Willi Schuh, translated by Hanns Hammelmann and Ewald Osers (Cambridge University Press, 1980).",
+      "url": "https://assets.cambridge.org/97805218/99307/frontmatter/9780521899307_frontmatter.pdf",
+      "kind": "letters",
+      "note": "EXT — The composer–librettist correspondence in English; the linked companion frontmatter identifies this edition in its abbreviations."
+    }
+  ]
+}

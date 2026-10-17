@@ -20,10 +20,10 @@ export default {
   question: 'How does one voice change the scale of a symphony?',
   intro: 'After three orchestral movements, an alto gives Mahler’s Second Symphony its first words in a setting of <i>Des Knaben Wunderhorn</i>. How do the solitary voice and hymn-like orchestral writing change the scale of the music?',
   sections: [
-    { t: 0, label: 'Invocation and chorale' },
-    { t: 64, label: 'The first stanza' },
-    { t: 160, label: 'The angel on the road' },
-    { t: 204, label: 'Closing declaration' },
+    { t: 0, label: 'Invocation and chorale', m: 'A' },
+    { t: 64, label: 'The first stanza', m: 'B' },
+    { t: 160, label: 'The angel on the road', m: 'C' },
+    { t: 204, label: 'Closing declaration', m: 'B′', mNote: 'first stanza’s rising phrases extended through chromatic sequences and tremolo' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'A single human voice', text: 'This is the first sung movement of the Second Symphony. Mahler asks for “very solemn, but simple”; compare the scale of one vocal line with the orchestral writing around it.', basis: 'general', precision: 'passage', evidence: 'The score establishes the first vocal movement and the marking Sehr feierlich, aber schlicht; no vocal entrance is aligned here.' },

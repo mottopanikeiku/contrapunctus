@@ -15,12 +15,12 @@ export default {
   // Biography: https://brahms.ircam.fr/fr/composer/claude-debussy/biography
   // Legend, notation and score outline: https://en.wikipedia.org/wiki/La_cath%C3%A9drale_engloutie
   sections: [
-    { t: 0, label: 'Bare intervals' },
-    { t: 74, label: 'Emerging · B major' },
-    { t: 106, label: 'The broad chordal span' },
-    { t: 184, label: 'A second ascent' },
-    { t: 268, label: 'The distant echo' },
-    { t: 305, label: 'Closing bells' },
+    { t: 0, label: 'Bare intervals', m: 'A' },
+    { t: 74, label: 'Emerging · B major', m: 'A′', mNote: 'rising pentatonic figures gain B-major harmony and left-hand triplets' },
+    { t: 106, label: 'The broad chordal span', m: 'B' },
+    { t: 184, label: 'A second ascent', m: 'C' },
+    { t: 268, label: 'The distant echo', m: 'B′', mNote: 'chordal melody returns quietly, lower, over an oscillating bass' },
+    { t: 305, label: 'Closing bells', m: 'A″', mNote: 'opening figures return within a settled C-major field' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Fifths before full chords', text: 'The opening uses bare fifths rather than immediately fixing a major or minor chord. Listen to the space between the rising groups of notes: the piano’s resonance continues where the fingers are no longer making new attacks.', basis: 'score-proportion', precision: 'passage', evidence: 'The score begins with parallel fifths. The report shows a quiet, sparsely attacked opening; it does not align individual intervals to seconds.' },

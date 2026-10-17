@@ -16,14 +16,14 @@ export default {
   // Biography, premiere and score: https://www.bso.org/works/la-mer
   // Odom’s transcription and ensemble are credited on the Commons source page.
   sections: [
-    { t: 0, label: 'Dawn · slow introduction' },
-    { t: 102, label: 'The main movement · D♭' },
-    { t: 180, label: 'Changing figures' },
-    { t: 312, label: 'A fresh melodic span' },
-    { t: 388, label: 'Withdrawal' },
-    { t: 440, label: 'The quiet before the close' },
-    { t: 494, label: 'Towards noon' },
-    { t: 514, label: 'Closing chorale' },
+    { t: 0, label: 'Dawn · slow introduction', m: 'Intro' },
+    { t: 102, label: 'The main movement · D♭', m: 'A' },
+    { t: 180, label: 'Changing figures', m: 'B' },
+    { t: 312, label: 'A fresh melodic span', m: 'C' },
+    { t: 388, label: 'Withdrawal', m: 'D' },
+    { t: 440, label: 'The quiet before the close', m: 'Link' },
+    { t: 494, label: 'Towards noon', m: 'E' },
+    { t: 514, label: 'Closing chorale', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'listen', title: 'A low, quiet opening', text: 'The opening builds from a quiet foundation in the low register. This is Lawrence Odom’s concert-band transcription: listen for how sustained sounds support the shorter figures, without expecting the string sections of Debussy’s original orchestration.', basis: 'audio-feature', precision: 'passage', evidence: 'The analysis finds a low relative level and predominantly low-frequency sound in the opening; Commons credits Odom’s band transcription.' },

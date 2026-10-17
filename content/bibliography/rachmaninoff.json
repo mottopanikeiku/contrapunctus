@@ -1,0 +1,24 @@
+{
+  "id": "rachmaninoff",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Sergei Bertensson and Jay Leyda, *Sergei Rachmaninoff: A Lifetime in Music* (Indiana University Press, 2009 reissue).",
+      "url": "https://iupress.org/9780253214218/sergei-rachmaninoff/",
+      "kind": "biography",
+      "note": "EXT — The biographical study in a reissue with an introduction by David Butler Cannata."
+    },
+    {
+      "cite": "Barrie Martyn, *Rachmaninoff* (Scolar Press, 1990).",
+      "url": "https://openlibrary.org/books/OL2202359M",
+      "kind": "study",
+      "note": "EXT — A substantial life-and-works account covering the composer and pianist."
+    },
+    {
+      "cite": "Max Harrison, *Rachmaninoff* (Continuum, 2006 paperback).",
+      "url": "https://openlibrary.org/books/OL8169629M",
+      "kind": "biography",
+      "note": "EXT — A later biographical study; the link identifies the paperback edition rather than the original publication date."
+    }
+  ]
+}

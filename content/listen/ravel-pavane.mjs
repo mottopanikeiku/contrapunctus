@@ -17,11 +17,11 @@ export default {
   question: 'How can a melody float above a steady dance pulse?',
   intro: 'Thérèse Dussaut plays Ravel’s 1899 piano original, with its long melody above evenly spaced accompanying chords. How does the tune stretch across that regular pulse?',
   sections: [
-    { t: 0, label: 'A · The refrain' },
-    { t: 48, label: 'B · First episode' },
-    { t: 114, label: 'A · The refrain returns' },
-    { t: 164, label: 'C · The broader episode' },
-    { t: 244, label: 'A · Final return' },
+    { t: 0, label: 'A · The refrain', m: 'A' },
+    { t: 48, label: 'B · First episode', m: 'B' },
+    { t: 114, label: 'A · The refrain returns', m: 'A′', mNote: 'refrain returns above fuller low chords' },
+    { t: 164, label: 'C · The broader episode', m: 'C' },
+    { t: 244, label: 'A · Final return', m: 'A″', mNote: 'refrain returns with more flowing accompaniment and moving inner notes' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'A line above the chords', text: 'The opening melody stretches across the regular accompanying chords. Listen for the independence of those two rhythms: a long melodic note can continue while the harmony beneath it takes another step.', basis: 'general', precision: 'passage', evidence: 'The piano score gives the melody longer values above a regular accompaniment; no individual note is aligned to the recording.' },
