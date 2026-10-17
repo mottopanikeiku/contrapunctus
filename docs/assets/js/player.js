@@ -83,12 +83,18 @@ export const player = {
     if (audio.readyState >= 1) audio.currentTime = t; else pendingT = t;
     emit('seek', t);
   },
+  // The concert skips recordings kept only for comparisons (concert: false); they still play when chosen.
   async next({ interlude = false } = {}) {
     const P = await getProgramme();
-    emit('advance', { from: player.track, to: P[(index + 1) % P.length], interlude });
-    await player.load(index + 1, { play: true });
+    let i = index; do i = (i + 1) % P.length; while (P[i].concert === false && i !== index);
+    emit('advance', { from: player.track, to: P[i], interlude });
+    await player.load(i, { play: true });
   },
-  async prev() { await player.load(index - 1, { play: true }); },
+  async prev() {
+    const P = await getProgramme();
+    let i = index; do i = (i - 1 + P.length) % P.length; while (P[i].concert === false && i !== index);
+    await player.load(i, { play: true });
+  },
 };
 
 audio.addEventListener('loadedmetadata', () => { if (pendingT) { audio.currentTime = pendingT; pendingT = 0; } });

@@ -2,6 +2,7 @@
 // Recordings for the Listening Room.
 //   node tools/audio.mjs search "Mahler symphony 5"           -> audio files on Commons
 //   node tools/audio.mjs check "File:Some recording.ogg"       -> duration, licence, performer, description, stream URL
+//   node tools/audio.mjs archive "<query>" | archive-files <identifier>  -> Internet Archive audio
 //   node tools/audio.mjs analyze content/listen/<id>.mjs        -> download the stream, write analysis
 //        (docs/assets/listen/<id>.json for the site; cache/analysis/<id>.txt for authors)
 //   node tools/audio.mjs analyze-all                            -> every content/listen file lacking analysis
@@ -10,7 +11,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { UA, audioInfo, commonsApi as api } from './commons.mjs';
+import { UA, audioInfo, sourceInfo, commonsApi as api } from './commons.mjs';
 
 const mmss = (t) => `${Math.floor(t / 60)}:${String(Math.round(t % 60)).padStart(2, '0')}`;
 
@@ -18,7 +19,18 @@ const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
 const [cmd, ...args] = process.argv.slice(2);
 
-if (cmd === 'search') {
+if (cmd === 'archive') {
+  // node tools/audio.mjs archive "rachmaninoff prelude"  -> Internet Archive audio items with licence and files
+  const q = `(${args.join(' ')}) AND mediatype:audio`;
+  const u = `https://archive.org/advancedsearch.php?q=${encodeURIComponent(q)}&fl[]=identifier&fl[]=title&fl[]=creator&fl[]=date&fl[]=licenseurl&rows=40&output=json`;
+  const d = await fetch(u, { headers: { 'User-Agent': UA } }).then((r) => r.json());
+  for (const x of d.response.docs) console.log(`${x.identifier}\n    ${x.title} | ${[].concat(x.creator ?? []).join('; ')} | ${x.date ?? '?'} | ${x.licenseurl ?? 'no licence url'}`);
+} else if (cmd === 'archive-files') {
+  // node tools/audio.mjs archive-files <identifier>  -> audio files with durations
+  const d = await fetch(`https://archive.org/metadata/${encodeURIComponent(args[0])}`, { headers: { 'User-Agent': UA } }).then((r) => r.json());
+  console.log(`${d.metadata?.title} | ${[].concat(d.metadata?.creator ?? []).join('; ')} | ${d.metadata?.date ?? '?'} | licence: ${d.metadata?.licenseurl ?? 'none'}`);
+  for (const f of d.files ?? []) if (/mp3|flac|ogg/i.test(f.format ?? '')) console.log(`    ${f.name} | ${f.format} | ${f.length ?? '?'}`);
+} else if (cmd === 'search') {
   const d = await api({ action: 'query', list: 'search', srsearch: `${args.join(' ')} filetype:audio`, srnamespace: '6', srlimit: '25' });
   for (const s of d.query.search) console.log(s.title);
 } else if (cmd === 'check') {
@@ -41,7 +53,7 @@ if (cmd === 'search') {
   await mkdir(path.join(ROOT, 'docs/assets/listen'), { recursive: true });
   for (const f of files) {
     const mod = (await import(pathToFileURL(path.resolve(f)).href + `?t=${Date.now()}`)).default;
-    const info = mod.source.file ? await audioInfo(mod.source.file) : { stream: mod.source.url, duration: null };
+    const info = await sourceInfo(mod.source);
     if (!info?.stream) { console.log(`ERROR ${f}: no streamable source`); process.exitCode = 1; continue; }
     const mp3 = path.join(ROOT, 'cache/audio', `${mod.id}.mp3`);
     try { await access(mp3); } catch {
