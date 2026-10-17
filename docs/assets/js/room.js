@@ -452,7 +452,7 @@ export async function mount(app) {
       });
     });
     html += labels.join('');
-    if (solo) html += `<g class="sec solo" data-id="${solo}"><ellipse class="halo" cx="${cx}" cy="${cy - 52}" rx="90" ry="30" filter="url(#bloom)"/><ellipse class="seat" cx="${cx}" cy="${cy - 52}" rx="78" ry="24"/><text class="st-n" data-id="${solo}" x="${cx}" y="${cy - 46}" text-anchor="middle">${NAME[solo] ?? solo}</text></g>`;
+    if (solo) html += `<g class="sec solo" data-id="${solo}"><ellipse class="halo" cx="${cx}" cy="${cy - 52}" rx="90" ry="30" filter="url(#bloom)"/><ellipse class="seat" cx="${cx}" cy="${cy - 52}" rx="78" ry="24"/><text class="st-n" data-id="${solo}" x="${cx}" y="${cy - 46}" text-anchor="middle">${orch?.soloLabel ?? ({ clarinets: 'Solo clarinet', flutes: 'Solo flute', oboes: 'Solo oboe', horns: 'Solo horn', cellos: 'Solo cello', violas: 'Solo viola' })[solo] ?? NAME[solo] ?? solo}</text></g>`;
     html += `<circle cx="${cx}" cy="${cy - 8}" r="5" class="st-podium"/><text x="${cx}" y="${cy + 30}" text-anchor="middle" class="st-cond">the conductor</text>`;
     const svg = document.createElementNS(NS, 'svg');
     const maxR = r0 + rows.length * rowW;
