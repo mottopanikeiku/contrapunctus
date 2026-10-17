@@ -550,7 +550,7 @@ export async function mount(app) {
 <p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>— ${c.quote.source}</small></blockquote>` : ''}${c.background}
 <dl><div><dt>Born</dt><dd>${c.born}</dd></div>${c.died ? `<div><dt>Died</dt><dd>${c.died}</dd></div>` : ''}${c.facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
 <div class="inherit"></div>
-<a class="more-link" href="${new URL(`composers/${c.slug}.html`, app.root).href}">The full portrait: life, scores, paintings →</a>`;
+<a class="more-link" href="${new URL(c.page ?? `composers/${c.slug}.html`, app.root).href}">${c.era === 'before-bach' || (c.page ?? '').startsWith('origins') ? 'Before Bach: the origins of this music →' : 'The full portrait: life, scores, paintings →'}</a>`;
     const t0 = track;
     influence().then((all) => {
       const mine = all?.[c.slug];
