@@ -72,4 +72,19 @@ export default {
       evidence: 'The quiet-close boundary is 3:18, a measured change before the low-level span at 3:20–3:35 and terminal decay. The score supplies the E-major cadential destination and thinning string texture. Exact chord attacks and the final release have not been aligned; the transfer’s persistent pitch contamination is not treated as harmonic evidence.',
     },
   ],
+  orchestra: {
+    // The Preludio’s staves are flute, oboe, clarinets in C, bassoons, horns in E and strings; the score has no trumpet, trombone or timpani staves here.
+    ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: { title: 'Verdi, La traviata, full score (Milan: G. Ricordi, 1914, plate 113958; Dover reprint)', url: 'https://imslp.org/wiki/La_traviata_(Verdi,_Giuseppe)', locator: 'No. 1, Preludio, printed pp. 1–6; bars placed between the file’s section times' },
+    timeline: [
+      { t: 0, playing: ['violins-1', 'violins-2'], lead: ['violins-1', 'violins-2'], note: 'Eight solo violins, divided, in the highest register; nothing else sounds.' },
+      { t: 42, playing: ['clarinets', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'clarinets'], note: 'Violas and cellos enter; a solo clarinet and horn join the violins.' },
+      { t: 85, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'Cantabile in E major: violins sing over soft repeated wind notes and a plucked bass.' },
+      { t: 130, playing: ['clarinets', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'violas'], note: 'The tune moves to violas and cellos, supported by clarinet and bassoon, as the violins decorate.' },
+      { t: 160, playing: ['clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'clarinets'], note: 'A solo horn joins; the clarinet sings above the divided violins.' },
+      { t: 178, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'cellos'], note: 'The decoration thickens: violin trills and figures with short wind phrases over the cellos.' },
+      { t: 198, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'Quiet close: allargando, diminuendo, morendo; the whole ensemble dying away.' },
+    ],
+  },
 };
