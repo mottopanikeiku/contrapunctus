@@ -109,3 +109,43 @@ export async function audioInfo(file) {
   };
 }
 
+
+// ---------------------------------------------------------------- Internet Archive
+// A recording may come from Commons (`source.file`) or from the Internet Archive
+// (`source.archive: { item, file }`). Archive downloads send CORS headers, so the hall's analyser works.
+const ARCHIVE_LICENCE = [
+  [/publicdomain\/mark|publicdomain\/zero/i, 'Public domain'],
+  [/licenses\/by-sa\//i, 'CC BY-SA'],
+  [/licenses\/by\//i, 'CC BY'],
+];
+export async function archiveInfo({ item, file }) {
+  const res = await fetch(`https://archive.org/metadata/${encodeURIComponent(item)}`, { headers: { 'User-Agent': UA } });
+  if (!res.ok) return null;
+  const d = await res.json();
+  if (!d?.files) return null;
+  const f = d.files.find((x) => x.name === file);
+  if (!f) return null;
+  const m = d.metadata ?? {};
+  const lic = m.licenseurl ? ARCHIVE_LICENCE.find(([re]) => re.test(m.licenseurl))?.[1] ?? m.licenseurl : '';
+  const one = (v) => (Array.isArray(v) ? v.join('; ') : v ?? '');
+  const mp3 = /\.mp3$/i.test(f.name) ? f.name : d.files.find((x) => x.original === f.name && /mp3/i.test(x.format ?? ''))?.name;
+  return {
+    title: `${item}/${file}`,
+    duration: Number(f.length) || (typeof f.length === 'string' && f.length.includes(':') ? f.length.split(':').reduce((a, b) => a * 60 + Number(b), 0) : null),
+    stream: mp3 ? `https://archive.org/download/${encodeURIComponent(item)}/${mp3.split('/').map(encodeURIComponent).join('/')}` : null,
+    page: `https://archive.org/details/${encodeURIComponent(item)}`,
+    artist: one(m.creator), license: lic, licenseUrl: m.licenseurl ?? '',
+    date: one(m.date ?? m.year), description: one(m.description).replace(/<[^>]+>/g, ' ').slice(0, 500), credit: one(m.publisher).slice(0, 300),
+  };
+}
+
+/** Stream information for any recording source. */
+export async function sourceInfo(source) {
+  if (source?.file) return audioInfo(source.file);
+  if (source?.archive) return archiveInfo(source.archive);
+  return null;
+}
+/** Stable cache key for a source. */
+export function sourceKey(source) {
+  return source?.file ? normalizeTitle(source.file) : source?.archive ? `archive:${source.archive.item}/${source.archive.file}` : '';
+}

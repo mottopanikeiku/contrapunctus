@@ -145,7 +145,7 @@ for (const f of files) {
   }
 
   if (f.includes('/listen/')) {
-    const { audioInfo } = await import('./commons.mjs');
+    const { sourceInfo } = await import('./commons.mjs');
     for (const k of ['id', 'composer', 'work', 'year', 'forces', 'performers', 'source', 'intro', 'sections', 'cues']) if (mod[k] == null) err(f, `missing field ${k}`);
     if (mod.id && path.basename(f, '.mjs') !== mod.id) err(f, `file name must be ${mod.id}.mjs`);
     if (mod.composer && !slugs.has(mod.composer)) err(f, `unknown composer ${mod.composer}`);
@@ -153,11 +153,15 @@ for (const f of files) {
       for (const key of ['m', 'mNote']) if (section[key] !== undefined && typeof section[key] !== 'string') err(f, `sections[${i}].${key} must be a string when present`);
       if (typeof section.mNote === 'string' && section.mNote.trim().split(/\s+/).length > 12) err(f, `sections[${i}].mNote must be no more than 12 words`);
     }
-    const info = mod.source?.file ? await audioInfo(mod.source.file) : null;
-    if (!info) err(f, `recording not found on Commons: ${mod.source?.file}`);
+    const info = await sourceInfo(mod.source);
+    if (!info) err(f, `recording not found: ${JSON.stringify(mod.source)}`);
     else {
       if (!info.stream) err(f, 'recording has no MP3 stream');
-      if (!/public domain|^pd|cc0|cc[- ]by/i.test(info.license)) err(f, `licence not allowed: ${info.license}`);
+      // Licence: the host's licence field, or (Internet Archive only) a documented US public-domain basis:
+      // sound recordings published more than 100 years before the current year's 1 January (in 2026: 1925 and earlier).
+      const usPd = mod.source.rights?.basis === 'us-published-before-cutoff' && Number(mod.source.rights.published) <= new Date().getFullYear() - 101 && mod.source.rights.evidence;
+      if (!/public domain|^pd|cc0|cc[- ]by/i.test(info.license) && !usPd) err(f, `licence not allowed: ${info.license || 'none'} (archive items without a PD/CC licence need source.rights { basis: 'us-published-before-cutoff', published, evidence })`);
+      if (mod.set && (!mod.set.id || !mod.set.title || !(mod.set.part >= 1) || !(mod.set.of >= mod.set.part))) err(f, 'set must be { id, title, part, of }');
       if (info.duration < 90) err(f, `recording too short (${info.duration}s)`);
       const dur = info.duration;
       const check = (list, name) => list.forEach((c, i) => {

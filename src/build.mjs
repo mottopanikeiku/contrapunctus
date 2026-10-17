@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { loadContent } from './content.mjs';
-import { normalizeTitle } from '../tools/commons.mjs';
+import { normalizeTitle, sourceKey } from '../tools/commons.mjs';
 import { pathToFileURL } from 'node:url';
 import routes from '../content/routes.mjs';
 import { buildReturnLab } from './returnlab.mjs';
@@ -638,18 +638,18 @@ ${furtherReading(ctx, 'recording-history')}${bibliography.get('performance-pract
 
 // ---------------------------------------------------------------- listening room
 async function resolveStreams() {
-  const { audioInfo } = await import('../tools/commons.mjs');
+  const { sourceInfo } = await import('../tools/commons.mjs');
   const file = path.join(ROOT, 'content/audio.json');
   let cache = {};
   try { cache = JSON.parse(await readFile(file, 'utf8')); } catch {}
   for (const l of listens) {
-    const key = normalizeTitle(l.source.file);
+    const key = sourceKey(l.source);
     if (cache[key]) continue;
-    const i = await audioInfo(l.source.file);
-    if (!i?.stream) { warnings.push(`listen/${l.id}: no stream for ${l.source.file}`); continue; }
+    const i = await sourceInfo(l.source);
+    if (!i?.stream) { warnings.push(`listen/${l.id}: no stream for ${key}`); continue; }
     cache[key] = { stream: i.stream, page: i.page, license: i.license, artist: i.artist, duration: i.duration };
   }
-  const live = new Set(listens.map((l) => normalizeTitle(l.source.file)));
+  const live = new Set(listens.map((l) => sourceKey(l.source)));
   const sorted = Object.fromEntries(Object.entries(cache).filter(([k]) => live.has(k)).sort(([a], [b]) => a.localeCompare(b)));
   await writeFile(file, JSON.stringify(sorted, null, 1) + '\n');
   return sorted;
@@ -707,7 +707,7 @@ async function programme() {
   const ctx = { base: '', page: 'hall' };
   const rank = new Map(composers.map((c, i) => [c.slug, i]));
   const list = listens
-    .filter((l) => bySlug.has(l.composer) && streams[normalizeTitle(l.source.file)])
+    .filter((l) => bySlug.has(l.composer) && streams[sourceKey(l.source)])
     .sort((a, b) => rank.get(a.composer) - rank.get(b.composer) || (a.order ?? 1) - (b.order ?? 1));
   const out = [];
   for (const l of list) {
@@ -716,7 +716,7 @@ async function programme() {
     // Glossary links: each term is linked once per piece, at its first appearance in time order.
     const tctx = { base: '', page: `hall/${l.id}`, termSeen: new Set() };
     const prose = (html) => termify(tctx, `<p>${rich(ctx, html)}</p>`).replace(/^<p>|<\/p>$/g, '');
-    const s = streams[normalizeTitle(l.source.file)];
+    const s = streams[sourceKey(l.source)];
     const p = art[normalizeTitle(c.portrait.file)];
     const score = await readJsonOr(path.join(OUT, 'assets/data', l.id, 'score.json'));
     const hasSheet = existsSync(path.join(OUT, 'assets/data', l.id, 'sheet/index.json'));
@@ -750,7 +750,7 @@ async function programme() {
         quote: c.quote ?? null, background: background(ctx, c),
       },
       era: e ? { slug: e.slug, numeral: e.numeral, name: e.name, span: e.span, accent: e.accent, hero: rendition(art[normalizeTitle(e.hero.file)]?.src ?? null, 480), heroCaption: `${e.hero.artist}, ${e.hero.title}` } : null,
-      tuning: tuning.hz ?? 440, tuningStatus: tuning.status ?? 'standard', work: l.work, movement: l.movement ?? '', year: l.year, key: l.key ?? '', forces: l.forces, performers: l.performers, recorded: l.recorded ?? '',
+      tuning: tuning.hz ?? 440, tuningStatus: tuning.status ?? 'standard', work: l.work, movement: l.movement ?? '', set: l.set ?? null, concert: l.concert ?? true, year: l.year, key: l.key ?? '', forces: l.forces, performers: l.performers, recorded: l.recorded ?? '',
       question: l.question ?? '', intro, stream: s.stream, sourcePage: s.page, license: l.license ?? s.license, duration: s.duration,
       sections: l.sections ?? [], relations: rel, cues, transitions, orchestra: l.orchestra ?? null,
       hasScore: !!score, hasSheet, voices: score?.voices?.map((v) => v.name) ?? [],
@@ -782,7 +782,7 @@ async function roomPage(prog) {
   const vcss = await ver('assets/css/room.css');
   const first = prog[0];
   const ctx = { base: '', page: 'hall' };
-  const eraList = eras.map((e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug) })).filter((x) => x.tracks.length);
+  const eraList = eras.map((e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug && t.concert !== false) })).filter((x) => x.tracks.length);
   const fmt = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}`;
   return `<!doctype html>
 <html lang="en" data-site="${V.js}" data-room="${V.room}" data-prog="${PROG_V}">
@@ -878,7 +878,10 @@ ${headScripts(ctx)}
 
 <aside class="programme" hidden>
   <header><h2>The programme</h2><p>${prog.length} pieces, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
-  ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t) => `<li><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`).join('')}</ol></section>`).join('')}
+  ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t, i) => {
+    const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>complete · ${t.set.of} movements</em></li>` : '';
+    return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
+  }).join('')}</ol></section>`).join('')}
 </aside>
 
 <div class="curtain" hidden>

@@ -81,7 +81,7 @@ export async function mount(app) {
     ui.given.textContent = c.given ?? '';
     ui.family.textContent = c.family ?? c.name;
     ui.work.textContent = t.work;
-    ui.movement.textContent = t.movement;
+    ui.movement.textContent = t.set ? `${t.movement} (${roman(t.set.part)} of ${roman(t.set.of)})` : t.movement;
     ui.meta.textContent = [t.year, t.key, t.forces, t.performers, A4 !== 440 ? `pitch A ≈ ${A4} Hz${t.tuningStatus === 'inferred' ? ' (inferred)' : ''}` : ''].filter(Boolean).join(' · ');
     ui.cameo.src = c.portrait ? new URL(c.portrait, app.root).href : '';
     ui.cameo.style.objectPosition = c.focus;
@@ -452,7 +452,7 @@ export async function mount(app) {
       });
     });
     html += labels.join('');
-    if (solo) html += `<g class="sec solo" data-id="${solo}"><ellipse class="halo" cx="${cx}" cy="${cy - 52}" rx="90" ry="30" filter="url(#bloom)"/><ellipse class="seat" cx="${cx}" cy="${cy - 52}" rx="78" ry="24"/><text class="st-n" data-id="${solo}" x="${cx}" y="${cy - 46}" text-anchor="middle">${NAME[solo] ?? solo}</text></g>`;
+    if (solo) html += `<g class="sec solo" data-id="${solo}"><ellipse class="halo" cx="${cx}" cy="${cy - 52}" rx="90" ry="30" filter="url(#bloom)"/><ellipse class="seat" cx="${cx}" cy="${cy - 52}" rx="78" ry="24"/><text class="st-n" data-id="${solo}" x="${cx}" y="${cy - 46}" text-anchor="middle">${orch?.soloLabel ?? ({ clarinets: 'Solo clarinet', flutes: 'Solo flute', oboes: 'Solo oboe', horns: 'Solo horn', cellos: 'Solo cello', violas: 'Solo viola' })[solo] ?? NAME[solo] ?? solo}</text></g>`;
     html += `<circle cx="${cx}" cy="${cy - 8}" r="5" class="st-podium"/><text x="${cx}" y="${cy + 30}" text-anchor="middle" class="st-cond">the conductor</text>`;
     const svg = document.createElementNS(NS, 'svg');
     const maxR = r0 + rows.length * rowW;
@@ -675,8 +675,11 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
     player.on('play', playState), player.on('pause', playState),
     player.on('track', (t) => show(t)),
     player.on('blocked', (b) => { ui.curtain.hidden = !b; document.body.classList.toggle('waiting', b); }),
-    player.on('advance', ({ to, interlude }) => {
+    player.on('advance', ({ from, to, interlude }) => {
       if (!interlude || reduced || !to) return;
+      // Within one work the hall only marks the new movement; a new work gets the full interlude.
+      const sameWork = from?.set && to.set && from.set.id === to.set.id;
+      ui.interlude.classList.toggle('mv', !!sameWork);
       ui.interlude.style.setProperty('--accent', to.era?.accent ?? '#c9a65a');
       $('.i-era', ui.interlude).textContent = to.era ? `${to.era.numeral} · ${to.era.name}` : '';
       $('.i-name', ui.interlude).textContent = to.composer.name;
@@ -926,4 +929,5 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   return () => { alive = false; cancelAnimationFrame(raf); viewObj?.destroy?.(); cleanups.forEach((f) => { try { f(); } catch {} }); };
 }
 
+function roman(n) { return ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'][n] ?? String(n); }
 function escapeHtml(s = '') { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
