@@ -129,4 +129,25 @@ export default {
       evidence: 'Final hymn and close is mapped at 760 s, in the measured expansion at 12:35–12:45. Sousa’s score, printed pp. 76–79, shows the accumulating doublings and full-band hymn at rehearsal H with continuing clarinet figuration. Its precise entrance is not assigned to 760 s: https://www.marineband.marines.mil/Portals/175/Docs/Sheet%20Music/Tannhauser/tannhauser_score.pdf?ver=2018-10-17-112418-240 .',
     },
   ],
+  orchestra: {
+    ensemble: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'cornets', 'trumpets', 'trombones', 'euphoniums', 'tuba', 'timpani', 'percussion'],
+    basis: 'score-proportion',
+    source: {
+      title: 'Wagner, Tannhäuser Overture, concert-band full score, arranged by John Philip Sousa',
+      url: 'https://www.marineband.marines.mil/Portals/175/Docs/Sheet%20Music/Tannhauser/tannhauser_score.pdf?ver=2018-10-17-112418-240',
+      locator: 'Printed pp. 1–91; opening, A, Allegro, D, E, returning chorale and H. Alto clarinet is grouped with clarinets, and flugelhorns with cornets. Passage timings are approximate.',
+    },
+    timeline: [
+      { t: 0, playing: ['clarinets', 'bass-clarinet', 'bassoons', 'horns', 'tuba'], lead: ['clarinets', 'bassoons', 'horns'], note: 'Bassoons, solo clarinet and horns share the hymn above alto clarinet, bass clarinet and tuba.' },
+      { t: 80, playing: ['oboes', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'euphoniums', 'tuba'], lead: ['oboes', 'clarinets', 'euphoniums'], note: 'Oboe and euphonium broaden the melodic line; saxophones and low reeds thicken its support.' },
+      { t: 145, playing: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'cornets', 'trumpets', 'trombones', 'euphoniums', 'tuba', 'timpani'], lead: ['cornets', 'horns', 'trombones', 'euphoniums'], note: 'Brass proclaim the hymn while first clarinets supply the rapid upper figures.' },
+      { t: 310, playing: ['flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'euphoniums', 'tuba'], lead: ['clarinets', 'flutes'], note: 'Quiet clarinet runs initiate the fast music; upper woodwinds answer above lighter lower-wind support.' },
+      { t: 380, playing: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'cornets', 'trumpets', 'trombones', 'euphoniums', 'tuba', 'timpani', 'percussion'], lead: ['cornets', 'clarinets', 'euphoniums'], note: 'The Venus song expands through the band above running reed figures and stronger brass support.' },
+      { t: 458, playing: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'euphoniums'], lead: ['clarinets'], note: 'Solo clarinet sustains the line against flute, piccolo and E♭ clarinet figures; heavy brass withdraw.' },
+      { t: 550, playing: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'cornets', 'trumpets', 'trombones', 'euphoniums', 'tuba', 'timpani', 'percussion'], lead: ['cornets', 'clarinets', 'euphoniums'], note: 'The Venus song returns with full-band doublings above moving saxophones, low clarinets and euphoniums.' },
+      { t: 665, playing: ['clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'cornets', 'euphoniums', 'tuba'], lead: ['bassoons', 'horns', 'saxophones', 'euphoniums'], note: 'Lower winds and horns restore the hymn beneath the first clarinets’ continuing rapid line.' },
+      { t: 760, playing: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'cornets', 'trumpets', 'trombones', 'euphoniums', 'tuba', 'timpani'], lead: ['cornets', 'horns', 'trombones', 'euphoniums'], note: 'The full brass hymn gains upper-wind doublings while clarinet figuration continues around its long notes.' },
+      { t: 850, playing: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'cornets', 'trumpets', 'trombones', 'euphoniums', 'tuba', 'timpani'], lead: ['cornets', 'horns', 'trombones', 'euphoniums'], note: 'Running figures settle into the band’s sustained final chords and timpani-supported close.' },
+    ],
+  },
 };

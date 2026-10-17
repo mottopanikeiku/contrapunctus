@@ -72,4 +72,25 @@ export default {
       evidence: 'The closing-passage marker is 5:30, a measured boundary with a marked fall in level; the final swell follows around 5:45–5:50. The coda’s recalled cross-bar chords, diminished seventh and implied 3/4 are written features at bars 150–163, detailed in Hansen’s guide: http://www.kellydeanhansen.com/opus90.html. The map is not a bar alignment.',
     },
   ],
+  orchestra: {
+    // The movement has no trumpets, trombones, timpani or contrabassoon, and only the pair of horns in C.
+    ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: { title: 'Brahms, Symphony No. 3, Op. 90, full score (Berlin: N. Simrock, 1884, plate 8454; first edition)', url: 'https://imslp.org/wiki/Symphony_No.3,_Op.90_(Brahms,_Johannes)', locator: 'III. Poco allegretto, printed pp. 56–65; rehearsal letters A–I placed between the file’s section times' },
+    timeline: [
+      { t: 0, playing: ['flutes', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos'], note: 'Cellos sing the espressivo melody; light violins, plucked basses, soft flute and bassoon.' },
+      { t: 27, playing: ['flutes', 'clarinets', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'cellos'], note: 'First violins take the tune, dolce; clarinet and bassoon move in thirds.' },
+      { t: 110, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'horns'], note: 'Middle section: flute, oboe and horn begin the repeated-note idea; cellos syncopate.' },
+      { t: 138, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'cellos'], lead: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns'], note: 'Held wind chords across the bar lines; only the cellos play among the strings.' },
+      { t: 167, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Strings alone, pianissimo espressivo, crescendo to forte.' },
+      { t: 185, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'clarinets'], note: 'Wind chords answer the strings, diminuendo.' },
+      { t: 196, playing: ['clarinets', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets', 'bassoons'], note: 'Clarinet and bassoon rise in sequence over chromatic string chords.' },
+      { t: 214, playing: ['flutes', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['horns'], note: 'Solo horn plays the song; cellos arpeggiate, violins light and pizzicato basses.' },
+      { t: 235, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['horns'], note: 'Clarinet, oboe and bassoon join the horn’s tune.' },
+      { t: 265, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'clarinets'], note: 'Winds sing dolce over gentle strings.' },
+      { t: 300, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'cellos'], note: 'Strings take the melody again, mezzo piano espressivo, with the full wind choir.' },
+      { t: 330, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'clarinets'], note: 'Coda: the cross-bar wind chords return, strings join, a swell to forte.' },
+      { t: 352, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'Pizzicato strings under quiet held wind chords.' },
+    ],
+  },
 };

@@ -82,4 +82,22 @@ export default {
       evidence: 'The closing-cadence marker is approximately 3:06, a measured boundary; attacks become sparse in the 3:05–3:15 windows before the final decay. The score supplies the convergence, rest, longer final declaration and G-to-D plagal close. A closing score excerpt is reproduced at https://www.pianotv.net/2017/12/handel-messiah-hallelujah-chorus/. The silence itself is not timed to the section marker.',
     },
   ],
+  orchestra: {
+    ensemble: ['oboes', 'bassoons', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'],
+    basis: 'score-proportion',
+    source: {
+      title: 'Handel, Messiah, HWV 56, Hallelujah, full score (Joshua Koo, Mutopia)',
+      url: 'https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459',
+      locator: 'Bars 1–94, combined-score.ly and individual parts. The first choral entry is estimated three bars into the sixteen-bar opening span ending near 36 s. Keyboard continuo is unspecified.',
+    },
+    timeline: [
+      { t: 0, playing: ['bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'Strings state the acclamation above the bassoon-supported bass; trumpets and timpani wait.' },
+      { t: 6.8, playing: ['oboes', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'The chorus takes the acclamation, with oboes reinforcing its upper line and strings answering.' },
+      { t: 30, playing: ['oboes', 'bassoons', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'Trumpets and timpani punctuate the choral declarations rather than playing continuously.' },
+      { t: 70, playing: ['oboes', 'bassoons', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'The choir’s broader proclamation alternates with moving string and wind lines.' },
+      { t: 104, playing: ['oboes', 'bassoons', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'Successive choral entries overlap above the bass; brass and drums reinforce the intervening acclamations.' },
+      { t: 138, playing: ['oboes', 'bassoons', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus', 'trumpets'], note: 'Held upper proclamations and trumpet notes rise over the shorter choral answers.' },
+      { t: 186, playing: ['oboes', 'bassoons', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus', 'trumpets'], note: 'Choir and orchestra gather into separated closing chords, with trumpets and timpani reinforcing the cadence.' },
+    ],
+  },
 };

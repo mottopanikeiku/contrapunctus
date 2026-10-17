@@ -100,4 +100,23 @@ export default {
       evidence: 'The Instrumental close boundary is 5:04, a novelty peak in the withdrawal after the 4:45 crest. The score supplies the D-major orchestral reprise. The relations file matches 4–22.5 s with 324–342.5 s at a shift of three semitones down; the span includes the approach because 5:04 is not an aligned first note of the returning melody.',
     },
   ],
+  orchestra: {
+    ensemble: ['bassoons', 'horns', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'],
+    basis: 'score-proportion',
+    source: {
+      title: 'Fauré, Requiem, Op. 48, full orchestral score (Hamelle, 1901; Kalmus reprint)',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf',
+      locator: 'V. Agnus Dei, printed pp. 70–91. The tenor entry follows six instrumental bars, estimated within the eighteen-bar span to the 55 s petition. Other boundaries follow the existing passage map.',
+    },
+    timeline: [
+      { t: 0, playing: ['organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2', 'violas'], note: 'Violins and violas carry the flowing introduction above divided cellos, pizzicato bass and organ.' },
+      { t: 18.3, playing: ['organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus', 'violas'], note: 'The choral tenors begin their prayer while violas continue an independent melody.' },
+      { t: 55, playing: ['bassoons', 'horns', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus', 'violas', 'cellos'], note: 'Bassoons and horns reinforce the full choir above the continuing lower-string melody.' },
+      { t: 92, playing: ['organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus', 'violas'], note: 'The tenor prayer returns with strings and organ; the wind reinforcement falls away.' },
+      { t: 138, playing: ['bassoons', 'horns', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'Soprano C opens the expansion; divided choral chords, moving strings and restrained wind support follow.' },
+      { t: 238, playing: ['bassoons', 'horns', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'The Introit prayer returns over low strings and organ, with bassoon and horn reinforcement.' },
+      { t: 304, playing: ['organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['violins-1', 'violins-2', 'violas'], note: 'The final choral chord yields to the returning string melody and organ.' },
+      { t: 335, playing: ['organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2', 'violas'], note: 'Strings and organ complete the D-major recollection without another vocal petition.' },
+    ],
+  },
 };

@@ -81,4 +81,22 @@ export default {
       evidence: 'The final-ritornello boundary is 9:28. Analysis shows the lower-level keyboard region giving way to a rise from 9:25–9:35 and D-major estimates after 9:30. The score supplies the closing dominant pedal and tonic ritornello at bar 219. The provisional form relation matches 9:31–9:48 with the opening ritornello; it does not establish an exact tutti entrance.',
     },
   ],
+  orchestra: {
+    ensemble: ['flutes', 'solo-violin', 'harpsichord', 'violins-1', 'violas', 'cellos', 'basses'],
+    solo: 'harpsichord',
+    basis: 'score-proportion',
+    source: {
+      title: 'Bach, Brandenburg Concerto No. 5, BWV 1050, full score (Bach-Gesellschaft, 1871)',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/e/ed/IMSLP02043-BWV1050.pdf',
+      locator: 'I. Allegro, printed pp. 127–148; one ripieno violin part, represented by violins-1. Passage boundaries are approximate.',
+    },
+    timeline: [
+      { t: 0, playing: ['solo-violin', 'harpsichord', 'violins-1', 'violas', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1'], note: 'Solo and ripieno violins share the refrain; flute rests above the string bass and continuo.' },
+      { t: 22, playing: ['flutes', 'solo-violin', 'harpsichord', 'violins-1', 'violas', 'cellos', 'basses'], lead: ['flutes', 'solo-violin', 'harpsichord'], note: 'Flute, violin and keyboard exchange figures; ripieno strings punctuate the solo episodes.' },
+      { t: 198, playing: ['flutes', 'solo-violin', 'harpsichord', 'violins-1', 'violas', 'cellos', 'basses'], lead: ['flutes', 'solo-violin', 'harpsichord'], note: 'Flute and violin trade the line above keyboard figuration and quiet ripieno support.' },
+      { t: 270, playing: ['flutes', 'solo-violin', 'harpsichord', 'violins-1', 'violas', 'cellos', 'basses'], lead: ['harpsichord', 'solo-violin', 'violins-1'], note: 'Returning string refrains frame increasingly independent keyboard figuration.' },
+      { t: 386, playing: ['harpsichord'], lead: ['harpsichord'], note: 'Unaccompanied harpsichord supplies the bass, harmony and running upper lines.' },
+      { t: 568, playing: ['solo-violin', 'harpsichord', 'violins-1', 'violas', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1'], note: 'The string refrain returns above continuo; the flute remains silent in the closing tutti.' },
+    ],
+  },
 };

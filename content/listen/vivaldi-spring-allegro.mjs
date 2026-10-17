@@ -100,4 +100,24 @@ export default {
       evidence: 'The 3:14 section boundary agrees with the form relation matching 3:13.5–3:28 to the opening’s later phrase at 0:18–0:32.5. Rodríguez Alvira’s same-recording guide places the final refrain near 3:13; Resonances identifies it as the repeated closing phrase rather than the complete opening. The score supplies E major and its final dominant–tonic close, not a key label inferred from the tail.',
     },
   ],
+  orchestra: {
+    ensemble: ['solo-violin', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    solo: 'solo-violin',
+    basis: 'score-proportion',
+    source: {
+      title: 'Vivaldi, Spring, RV 269, full score (Mutopia, after Performers’ Facsimiles)',
+      url: 'https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301',
+      locator: 'I. Allegro, bars 1–82; spring1.ly and spring1a–f.ly. Continuo is represented by the bowed basses; its keyboard realisation is not specified.',
+    },
+    timeline: [
+      { t: 0, playing: ['solo-violin', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1'], note: 'Soloist and first violins share the refrain above repeated bass notes.' },
+      { t: 34, playing: ['solo-violin', 'violins-1', 'violins-2'], lead: ['solo-violin', 'violins-1', 'violins-2'], note: 'Three violin lines exchange bird calls; violas and the continuo bass rest.' },
+      { t: 68, playing: ['solo-violin', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1', 'violins-2'], note: 'The bass rejoins the refrain; paired violin semiquavers then carry the stream episode.' },
+      { t: 116, playing: ['solo-violin', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1', 'violins-2'], note: 'Repeated string notes alternate with the soloist’s rapid storm arpeggios.' },
+      { t: 158, playing: ['solo-violin', 'violins-1', 'violins-2', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1', 'violins-2'], note: 'Bird calls return over a held C♯ bass; violas rest.' },
+      { t: 166, playing: ['solo-violin', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1'], note: 'The gathered strings carry the refrain from C♯ minor towards E major.' },
+      { t: 180, playing: ['solo-violin', 'cellos', 'basses'], lead: ['solo-violin'], note: 'The solo violin decorates the held bass while the other upper strings rest.' },
+      { t: 194, playing: ['solo-violin', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-violin', 'violins-1'], note: 'All strings restore the refrain’s closing phrase and its quieter echo.' },
+    ],
+  },
 };

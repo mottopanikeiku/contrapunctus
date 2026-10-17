@@ -99,4 +99,24 @@ export default {
       evidence: 'The Execution and close boundary is 4:24; nearby novelty peaks occur at 4:20 and 4:24, and relative level rises by about 21 dB between 4:20 and 4:25. The orchestral interruption, pizzicato gesture and G-major ending are written events; no individual attack is claimed to be aligned.',
     },
   ],
+  orchestra: {
+    // The score’s two Tubes (ophicleides in Berlioz’s own forces) are mapped to the tuba section.
+    ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'cornets', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: { title: 'Berlioz, Symphonie fantastique, full score (Hector Berlioz Werke, Ser. I, Bd. 1, Leipzig: Breitkopf & Härtel, 1900, ed. Malherbe and Weingartner)', url: 'https://imslp.org/wiki/Symphonie_fantastique,_H_48_(Berlioz,_Hector)', locator: 'IV. Marche au supplice, printed pp. 76–96; rehearsal numbers 49–59 placed between the file’s section times' },
+    timeline: [
+      { t: 0, playing: ['horns', 'bassoons', 'timpani', 'cellos', 'basses'], lead: ['timpani', 'horns'], note: 'Sponge-headed timpani, muted horns and bassoons; plucked cellos and basses.' },
+      { t: 18, playing: ['clarinets', 'bassoons', 'horns', 'cornets', 'trumpets', 'trombones', 'tuba', 'timpani', 'violas', 'cellos', 'basses'], lead: ['timpani', 'trombones'], note: 'A crescendo to a fortissimo chord: clarinets, brass and timpani join the low strings.' },
+      { t: 27, playing: ['bassoons', 'horns', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'basses'], note: 'The descending theme: cellos and basses in unison; violins and violas pizzicato.' },
+      { t: 54, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'cornets', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Strings carry the theme; the whole orchestra answers with fortissimo chords.' },
+      { t: 98, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'cornets', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'clarinets', 'horns', 'cornets', 'trumpets'], note: 'The march in B♭: winds and brass carry the tune; timpani and strings accompany.' },
+      { t: 129, playing: ['horns', 'bassoons', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'basses'], note: 'The march thins: pizzicato strings, tubas and timpani.' },
+      { t: 138, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'cornets', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'clarinets', 'horns', 'cornets', 'trumpets'], note: 'The brass march returns, more active.' },
+      { t: 170, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Withdrawal: pizzicato strings and a short wind trill.' },
+      { t: 177, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['bassoons', 'cellos', 'basses'], note: 'G minor returns: wind runs, bassoons and low strings drive a crescendo.' },
+      { t: 189, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'cornets', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['timpani', 'percussion'], note: 'Tutti with wooden-stick timpani, bass drum and cymbals.' },
+      { t: 252, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'A solo clarinet recalls the beloved’s melody over soft strings.' },
+      { t: 264, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'cornets', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['timpani', 'percussion'], note: 'The full-orchestra blow, then G-major chords with three timpanists and percussion.' },
+    ],
+  },
 };

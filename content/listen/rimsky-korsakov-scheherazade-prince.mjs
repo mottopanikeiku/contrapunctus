@@ -109,4 +109,27 @@ export default {
       evidence: 'The Quiet close boundary is 7:30; relative level and brightness fall across 7:25–7:40. The written codetta supplies the lighter wind-and-string texture and G-major close, also discussed by Serotsky at http://musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm. The timestamp does not claim a final cadence or last attack.',
     },
   ],
+  orchestra: {
+    ensemble: ['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin'],
+    solo: 'solo-violin',
+    basis: 'score-proportion',
+    source: {
+      title: 'Rimsky-Korsakov, Scheherazade, III. The Young Prince and the Young Princess, full score',
+      url: 'https://s9.imslp.org/files/imglnks/usimg/0/0f/IMSLP01398-Rimsky_Sheherazade_3.pdf',
+      locator: 'Third movement, score sheets 1–22, rehearsal letters A–P; the solo violin is separated from the first-violin section.',
+    },
+    timeline: [
+      { t: 0, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Violins share the opening melody above sustained violas, cellos and basses.' },
+      { t: 35, playing: ['flutes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'clarinets'], note: 'Clarinet runs decorate the string song; flute and bassoon responses fill the spaces between phrases.' },
+      { t: 105, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'flutes'], note: 'The violins retain the long line while woodwinds answer with smaller, ornamented figures.' },
+      { t: 155, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets', 'violins-1'], note: 'Detached wind figures and lighter strings acquire snare-drum articulation; harp chords reinforce the dance.' },
+      { t: 210, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'clarinets', 'trumpets'], note: 'High winds brighten the dance; trumpet gestures broaden its approach to the returning string song.' },
+      { t: 260, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Violins recover the broad melody as the dance’s percussion and wind figures recede.' },
+      { t: 300, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin'], lead: ['solo-violin'], note: 'Solo violin ornaments the storyteller’s line above harp-supported space and soft orchestral replies.' },
+      { t: 342, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'The violin sections regain the song; winds colour sustained phrases above a fuller lower-string foundation.' },
+      { t: 410, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2', 'flutes'], note: 'Violins and woodwinds expand the song; brass chords and timpani give the phrase its final orchestral weight.' },
+      { t: 450, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'clarinets', 'violins-1'], note: 'Light wind decorations and separated string figures replace the sustained orchestral song.' },
+      { t: 485, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'clarinets', 'bassoons'], note: 'Small woodwind figures pass down the ensemble while strings turn to quiet pizzicato and harmonics.' },
+    ],
+  },
 };

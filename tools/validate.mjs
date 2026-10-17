@@ -188,6 +188,21 @@ for (const f of files) {
         const words = (c.text ?? '').split(/\s+/).length;
         if (words > 58) err(f, `cue at ${c.t} has ${words} words (max 55)`);
       }
+      if (mod.orchestra) {
+        const O = mod.orchestra, IDS = new Set(['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'e-flat-clarinet', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'trumpets', 'cornets', 'trombones', 'euphoniums', 'tuba', 'timpani', 'percussion', 'harp', 'celesta', 'piano', 'organ', 'harpsichord', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin', 'solo-voice', 'chorus']);
+        const ens = new Set(O.ensemble ?? []);
+        for (const id of ens) if (!IDS.has(id)) err(f, `orchestra: unknown section "${id}"`);
+        if (O.solo && !ens.has(O.solo)) err(f, `orchestra: solo "${O.solo}" not in ensemble`);
+        if (!O.source?.url) err(f, 'orchestra: needs source { title, url }');
+        let prev = -1;
+        for (const e of O.timeline ?? []) {
+          if (!(e.t >= 0 && e.t <= dur) || e.t < prev) err(f, `orchestra: entry at ${e.t} out of order or outside recording`);
+          prev = e.t;
+          for (const id of [...(e.playing ?? []), ...(e.lead ?? [])]) if (!ens.has(id)) err(f, `orchestra at ${e.t}: "${id}" not in ensemble`);
+          for (const id of e.lead ?? []) if (!(e.playing ?? []).includes(id)) err(f, `orchestra at ${e.t}: lead "${id}" not playing`);
+        }
+        if (!O.timeline?.length) err(f, 'orchestra: empty timeline');
+      }
       const DEVICES = new Set(['perfect cadence', 'half cadence', 'deceptive cadence', 'plagal cadence', 'elision', 'pivot chord', 'common-tone modulation', 'direct modulation', 'enharmonic reinterpretation', 'chromatic slide', 'sequence', 'dominant pedal', 'tonic pedal', 'retransition', 'standing on the dominant', 'liquidation', 'motivic link', 'fermata', 'general pause', 'medial caesura', 'crescendo build', 'decrescendo', 'texture change', 'orchestration change', 'register change', 'tempo change', 'metre change', 'link passage', 'cadenza', 'attacca', 'fade']);
       const tids = new Set();
       for (const tr of mod.transitions ?? []) {

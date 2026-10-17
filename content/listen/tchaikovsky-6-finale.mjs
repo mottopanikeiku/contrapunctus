@@ -94,4 +94,27 @@ export default {
       evidence: 'Closing span is mapped at 524 s, the report’s 8:44 boundary, immediately before renewed level and sustained B-minor estimates from 8:45. The relations file identifies the coda as a minor-mode transformation, not a uniform transposition. The BSO account describes the final low-B pulse and progressive thinning: https://www.bso.org/works/tchaikovsky-symphony-no-6 .',
     },
   ],
+  orchestra: {
+    // The only percussion in this movement is a single tam-tam stroke (marked ad libitum) in the low-brass chorale.
+    ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: { title: 'Tchaikovsky, Symphony No. 6, Op. 74, miniature score (Leipzig: Ernst Eulenburg, [1928], plate E.E. 3892)', url: 'https://imslp.org/wiki/Symphony_No.6,_Op.74_(Tchaikovsky,_Pyotr)', locator: 'IV. Finale, printed pp. 185–208 (bars 1–170); bar numbers placed between the file’s section times' },
+    timeline: [
+      { t: 0, playing: ['flutes', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Divided violins trade the falling lament; flutes and bassoons double softly.' },
+      { t: 42, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes', 'clarinets'], note: 'Winds swell with the strings to fortissimo, then fall away.' },
+      { t: 70, playing: ['flutes', 'clarinets', 'bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['bassoons'], note: 'A wind trio and a bassoon line lead out of the lament over soft strings.' },
+      { t: 154, playing: ['clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'D-major Andante: broad string melody, repeated horn notes, clarinet and bassoon.' },
+      { t: 207, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['horns', 'trombones'], note: 'Pulsing woodwind repeated notes; horns, trumpets and trombones answer in a crescendo.' },
+      { t: 268, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2', 'trumpets', 'trombones'], note: 'The climax: full orchestra in fortissimo with timpani; violins in sweeping runs.' },
+      { t: 293, playing: ['oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['horns'], note: 'After the climax, winds, horns and strings fall back to piano.' },
+      { t: 316, playing: ['bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'The lament returns in the strings, with bassoons and horns.' },
+      { t: 396, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Stringendo: winds, horns and trumpets drive the strings upward.' },
+      { t: 410, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['trombones', 'tuba', 'timpani'], note: 'Pesante: trombones, tuba and timpani join; marked and heavy in fortissimo.' },
+      { t: 462, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trombones', 'tuba', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['trombones', 'tuba'], note: 'F♯ held and dying away: winds, horns, low brass and timpani lose force.' },
+      { t: 486, playing: ['trombones', 'tuba', 'percussion'], lead: ['trombones', 'tuba'], note: 'A quiet trombone and tuba chorale, with the single tam-tam.' },
+      { t: 524, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trombones', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'B minor: muted violins and wind chords over the basses’ low pulse.' },
+      { t: 570, playing: ['bassoons', 'violas', 'cellos', 'basses'], lead: ['bassoons', 'cellos'], note: 'The winds fall away; a bassoon line over low strings.' },
+      { t: 596, playing: ['cellos', 'basses'], lead: ['cellos'], note: 'Only cellos and basses remain, fading to pianissimo.' },
+    ],
+  },
 };

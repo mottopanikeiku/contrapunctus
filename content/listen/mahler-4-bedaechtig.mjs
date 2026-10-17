@@ -114,4 +114,26 @@ export default {
       evidence: 'Closing pages are mapped approximately at 745 s. The analysis records a quieter 12:15–12:20 span followed by renewed attacks and changing colour from 12:25. Basinger describes first-theme hints entering the ruhig closing tune and growing into the coda; this boundary is not a verified coda bar: https://usuo.org/explore/2015/05/mahler-4-listening-guide/ .',
     },
   ],
+  orchestra: {
+    ensemble: ['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'e-flat-clarinet', 'bass-clarinet', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    basis: 'score-proportion',
+    source: {
+      title: 'Mahler, Symphony No. 4, I. Bedächtig, full score',
+      url: 'https://vmirror.imslp.org/files/imglnks/usimg/4/40/IMSLP70999-PMLP58739-Mahler_-_Symphony_No._4_(orch._score).pdf',
+      locator: 'First movement, pp. 231–274, rehearsal figures 1–23; changes are placed at the recording’s existing passage anchors.',
+    },
+    timeline: [
+      { t: 0, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'violins-1'], note: 'Flutes and sleigh bells frame the first violin tune; winds answer its turns and short figures.' },
+      { t: 90, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'violins-1'], note: 'Cellos begin the broadly sung second theme; violins continue its long line above soft wind harmony.' },
+      { t: 165, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['oboes', 'clarinets', 'violins-1'], note: 'Short woodwind exchanges and lighter string articulation replace the second theme’s broad cello opening.' },
+      { t: 290, playing: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'trumpets', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'clarinets', 'horns'], note: 'Bells and flute figures return; horns and divided strings pass fragments through the development.' },
+      { t: 385, playing: ['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'e-flat-clarinet', 'bass-clarinet', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'violins-1', 'horns'], note: 'High winds, horn calls and independent string lines accumulate; percussion and harp colour the changing texture.' },
+      { t: 516, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'e-flat-clarinet', 'bass-clarinet', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['trumpets', 'violins-1'], note: 'Trumpets project the theme through massed winds and strings; the accumulated lines collide in dissonance.' },
+      { t: 545, playing: ['flutes', 'oboes', 'clarinets', 'bass-clarinet', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['trumpets', 'horns'], note: 'Trumpet and horn fanfares emerge as the mass thins; soft woodwind figures reconnect with the strings.' },
+      { t: 568, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'The returning violin theme sits over pizzicato inner strings, with horn and wind answers.' },
+      { t: 650, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'violins-1'], note: 'The broad lyrical line returns in the strings, supported by wind chords and sustained horns.' },
+      { t: 745, playing: ['flutes', 'oboes', 'clarinets', 'bass-clarinet', 'bassoons', 'horns', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets', 'violins-1'], note: 'Low clarinet figures and quiet strings weave opening fragments into the closing pages; bells briefly return.' },
+      { t: 880, playing: ['flutes', 'oboes', 'clarinets', 'e-flat-clarinet', 'bassoons', 'horns', 'trumpets', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'flutes'], note: 'Strings and upper winds gather into the quick close; horns, trumpet, timpani, triangle and cymbals reinforce it.' },
+    ],
+  },
 };

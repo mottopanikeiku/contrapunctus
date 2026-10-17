@@ -90,4 +90,25 @@ export default {
       evidence: 'Coda is mapped at 372 s. Relative level drops around 6:10 after the fuller 5:40–6:05 passage, while D-centred estimates continue through 6:50. The score supplies the home-key coda and renewed solo decoration; these are passage-level timings, not aligned instrumental entrances.',
     },
   ],
+  orchestra: {
+    // Orchestral parts are the same for the Breitkopf (clarinet) text and basset-clarinet reconstructions; only the solo line differs.
+    ensemble: ['flutes', 'bassoons', 'horns', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
+    solo: 'clarinets',
+    basis: 'score-proportion',
+    source: { title: 'Mozart, Clarinet Concerto in A, K. 622, full score (Leipzig: Breitkopf & Härtel, Mozarts Werke Serie XII No. 20, 1881, plate W.A.M. 622)', url: 'https://imslp.org/wiki/Clarinet_Concerto_in_A_major,_K.622_(Mozart,_Wolfgang_Amadeus)', locator: 'II. Adagio, printed pp. 236–241; solo and tutti entries read against the file’s section times' },
+    timeline: [
+      { t: 0, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'The soloist sings alone over strings; winds and horns silent.' },
+      { t: 34, playing: ['flutes', 'bassoons', 'horns', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'clarinets'], note: 'TUTTI: flutes, bassoons and horns join; the violins take up the melody.' },
+      { t: 68, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Solo again over strings alone, with running quaver figures.' },
+      { t: 98, playing: ['flutes', 'bassoons', 'horns', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'clarinets'], note: 'Second tutti, forte, with the wind choir back.' },
+      { t: 132, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'The soloist returns over strings alone.' },
+      { t: 148, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Middle section: ornamented solo over soft strings; no winds.' },
+      { t: 186, playing: ['horns', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Horns add soft held notes beneath the solo.' },
+      { t: 228, playing: ['flutes', 'bassoons', 'horns', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Crescendo; forte chords from flutes, bassoons and horns alternate with the soloist, ending on a fermata.' },
+      { t: 262, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'The opening melody returns: soloist and strings, winds silent.' },
+      { t: 344, playing: ['flutes', 'bassoons', 'horns', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'clarinets'], note: 'Fuller orchestral response, forte, with flutes, bassoons and horns.' },
+      { t: 372, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Coda: ornamented solo over strings alone.' },
+      { t: 438, playing: ['flutes', 'bassoons', 'horns', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Closing cadence: flutes, bassoons and horns join the strings for the last chord.' },
+    ],
+  },
 };
