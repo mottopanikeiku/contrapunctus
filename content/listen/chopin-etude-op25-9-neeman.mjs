@@ -39,7 +39,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "A modern open recording",
       "text": "Musopen dedicated this recording to the public domain. The performer is identified as Edward Neeman, but the source does not establish a specific piano, venue or exact session date.",

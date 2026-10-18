@@ -9,6 +9,19 @@
   "musicxml": "sq8482283.mxl",
   "metricEquivalenceWords": true,
   "otherDynamicsWords": true,
+  "musicxmlFlattenTuplets": [
+    {
+      "part": "P3",
+      "measures": [
+        120,
+        121,
+        122,
+        123
+      ],
+      "outerNumber": 1,
+      "basis": "The source viola has 36 sixteenths per bar in nested 3:2 quarter and 6:4 sixteenth tuplets, explicitly combined as 18:8 in time-modification. Each note is exactly 1/9 quarter; flatten only the nested brackets and represent the rational duration exactly, preserving pitches, order, beaming and slurs."
+    }
+  ],
   "musicxmlMeasures": [
     213,
     411

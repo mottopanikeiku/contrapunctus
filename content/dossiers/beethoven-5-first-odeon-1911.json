@@ -26,6 +26,16 @@
       "history",
       "reassessment"
     ],
+    "alternatives": [
+      {
+        "value": "Odeon Grand Orchestra; Friedrich Kark, conductor — older attribution",
+        "sourceIds": ["source", "history"]
+      },
+      {
+        "value": "Odeon company orchestra; Eduard Künneke, conductor — Hepokoski’s inference, not named on the original labels",
+        "sourceIds": ["reassessment"]
+      }
+    ],
     "note": "Internet Archive and the 2015 Science Museum article attribute the record to Kark in 1910. James Hepokoski’s publisher-deposited 2023 abstract dates the Odeon Fifth to August 1911 and infers Künneke because the labels name no conductor. The full article was unavailable; the older attribution is retained as a documented dispute."
   },
   "session": {
@@ -36,6 +46,16 @@
         "source",
         "history",
         "reassessment"
+      ],
+      "alternatives": [
+        {
+          "value": "1910 — Internet Archive and the 2015 Science Museum article",
+          "sourceIds": ["source", "history"]
+        },
+        {
+          "value": "August 1911 — James Hepokoski’s 2023 publisher-deposited abstract",
+          "sourceIds": ["reassessment"]
+        }
       ],
       "note": "Internet Archive and the 2015 Science Museum article give Kark/1910. James Hepokoski’s publisher-deposited 2023 abstract gives August 1911 and infers Künneke from the company context; the original labels name no conductor. No exact day is established.",
       "precision": "range"

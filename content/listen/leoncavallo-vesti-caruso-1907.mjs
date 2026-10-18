@@ -10,12 +10,12 @@ export default {
   key: '',
   forces: 'Tenor and orchestra',
   performers: 'Enrico Caruso, tenor; orchestra',
-  recorded: '17 March 1907, New York',
+  recorded: 'Attributed to 17 March 1907, New York; matrix unconfirmed',
   source: {
     archive: { item: '78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a', file: 'Pagliacci - Vesti la giubba (On With the P - Enrico Caruso.mp3' },
     rights: { basis: 'us-published-before-cutoff', published: 1907, evidence: ['https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a', 'https://adp.library.ucsb.edu/index.php/matrix/refer/200006029'] },
   },
-  intro: 'Caruso’s 1907 Victor side uses orchestral accompaniment, unlike his 1902 piano-accompanied recording. This Great 78 transfer preserves the longer side as one stream; a shared-passage comparison does not equate the two complete durations.',
+  intro: 'The source attributes this Victor 88061 side to Caruso’s 1907 orchestral recording, unlike his 1902 piano-accompanied account. Its exact master is inferred from the catalogue rather than confirmed from a legible runout; the complete longer side remains one unaltered stream.',
   question: 'How does orchestral accompaniment frame Caruso’s phrasing?',
   sections: [
     { t: 0, label: 'Opening dramatic span', m: 'A' },

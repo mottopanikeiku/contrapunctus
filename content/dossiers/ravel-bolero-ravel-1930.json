@@ -29,27 +29,27 @@
       "source",
       "catalogue"
     ],
-    "note": "Commons attributes this complete transfer to Ravel in 1930. BnF confirms Ravel/Lamoureux and a 1935 published pressing. No precise January session day or actual transferred pressing is asserted."
+    "note": "Commons attributes this complete transfer to Ravel in 1930. BnF confirms Ravel/Lamoureux and a 1935 published pressing. The session month, venue and actual transferred pressing are not established."
   },
   "session": {
     "date": {
-      "value": "January 1930",
-      "status": "inferred",
+      "value": "1930",
+      "status": "documented",
       "sourceIds": [
         "source",
         "catalogue"
       ],
-      "note": "Commons attributes this complete transfer to Ravel in 1930. BnF confirms Ravel/Lamoureux and a 1935 published pressing. No precise January session day or actual transferred pressing is asserted.",
-      "precision": "month"
+      "note": "The recording year comes from the Commons description. Its separate 1928 Date field concerns the composition; the 1935 BnF date concerns a published pressing. No session month or day is established.",
+      "precision": "year"
     },
     "place": {
-      "value": "Paris",
-      "status": "inferred",
+      "value": null,
+      "status": "unknown",
       "sourceIds": [
         "source",
         "catalogue"
       ],
-      "note": "Named by the cited source; not inferred from an ensemble’s home city."
+      "note": "The consulted recording sources do not establish a session venue. Paris must not be inferred merely from the orchestra’s identity."
     }
   },
   "carrier": {

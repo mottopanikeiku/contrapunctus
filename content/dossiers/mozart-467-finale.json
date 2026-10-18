@@ -1,0 +1,115 @@
+{
+  "id": "mozart-467-finale",
+  "work": {
+    "title": "Piano Concerto No. 21 in C major",
+    "catalogue": "K. 467",
+    "movement": "III. Allegro vivace assai",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "schnabel", "score"],
+      "note": "The performing edition is not identified. The Schnabel chronology credits his cadenzas for K. 467; the consulted orchestral score shows the finale’s cadenza slot but not the performed cadenza text. No internal cadenza themes or exact bar alignment are asserted. The Archive states that the former file mix-up with K. 595 has been corrected; attribution here follows the corrected item, without claiming independent aural authentication."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Artur Schnabel", "role": "piano" },
+      { "name": "London Symphony Orchestra", "role": "orchestra" },
+      { "name": "Malcolm Sargent", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "sleeve", "lso", "bolig"],
+    "note": "The item, source LP sleeve and LSO discography identify the same performers. Bolig identifies the piano as a Bechstein. The honorific Sir belongs to the later source wording and is not used to date Sargent’s knighthood."
+  },
+  "session": {
+    "date": {
+      "value": "1937-01-12",
+      "status": "documented",
+      "sourceIds": ["archive", "lso", "bolig", "schnabel"],
+      "note": "The LSO register dates K. 467 to 12 January 1937, separately from K. 459 on 9 and 12 January. Both finale matrix entries carry 12 January in the side-level discographies.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Abbey Road Studio 1, London, England",
+      "status": "documented",
+      "sourceIds": ["archive", "lso", "bolig", "schnabel"],
+      "note": "The Archive names Abbey Road Studios; the LSO, Bolig and Schnabel records specify Studio 1."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Angel Records — Great Recordings of the Century",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve"],
+      "note": "Angel is the label of the mono LP explicitly identified as the transfer source. The original 1937 issue was on His Master’s Voice."
+    },
+    "catalogue": {
+      "value": "COLH 67",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve", "lso"],
+      "note": "The catalogue number appears on the photographed cover. The LSO discography dates this LP reissue to November 1959 and the complete original HMV set DB3099–3102 to November 1937. The finale occupied the two sides of DB3102."
+    },
+    "matrixTakeSides": {
+      "value": "Probable original-side lineage: 2EA 4610-2A and 2EA 4611-2A; finale parts 1–2 on HMV DB3102, concerto sides 7–8.",
+      "status": "inferred",
+      "sourceIds": ["bolig", "schnabel", "archive"],
+      "note": "These are documented issued takes in Bolig and the Schnabel chronology; their presence in the particular Angel LP transfer is inferred rather than established by runout inspection or take comparison. The LP pressing and its own matrix/runout are unknown. No original side-join timestamp is claimed. A targeted DAHR search did not produce a usable session record, so no DAHR matrix entry is cited."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Bob Varney",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-data"],
+      "note": "The item explicitly states ‘Transfer by Bob Varney’, separately from its uploader metadata."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive-data"],
+      "note": "The item’s 19 April 2010 added date and the current file’s later timestamp do not identify when the LP was digitised. The correction notice is not a dated transfer log."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-data"],
+      "note": "No playback equipment, equalisation, denoising, editing or speed-correction procedure is supplied. The VBR MP3 original-upload descriptor identifies the digital submission, not a session master or an unprocessed transfer."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/Mozart.PianoConcertoNo.21/03%20Allegro%20vivace%20assai.mp3",
+    "sourceChain": ["archive-data", "archive", "sleeve", "lso"],
+    "format": "Internet Archive original-upload VBR MP3; documented source carrier: mono LP. Duration is the analysed file length, rounded to one decimal place.",
+    "durationSeconds": 404.5
+  },
+  "rights": {
+    "composition": {
+      "value": "Mozart’s concerto, and Schnabel’s authorship of the credited cadenzas, are beyond the ordinary life-plus-70 term.",
+      "status": "inferred",
+      "sourceIds": ["score", "score-catalogue", "schnabel", "eu-term"],
+      "note": "Mozart died in 1791 and Schnabel in 1951. Under the ordinary life-plus-70 calculation, Schnabel’s authorship term ended in 2021. The consulted orchestral score derives from the public-domain 1878 edition. This is not worldwide clearance of unidentified editorial material or a conclusion about US cadenza publication history."
+    },
+    "recording": {
+      "value": "territorial — EU public-domain basis: first published in November 1937 on HMV DB3099–3102.",
+      "status": "documented",
+      "sourceIds": ["lso", "bolig", "eu-term", "eu-extension", "archive-data"],
+      "note": "The LSO discography expressly documents the 1937 publication, rather than merely the recording session. Its ordinary EU 50-year recording term had expired before the 2013 extension, which applies to recordings still protected at that date. The package relies on this territorial basis only. US status is not established, and the recording does not meet the publication-by-1925 cutoff. The uploader’s http://creativecommons.org/licenses/publicdomain/ declaration is recorded as source metadata, not independent proof of authority to release the performers’ or producer’s rights worldwide. The legal URL below is the term basis, not a Creative Commons grant."
+    },
+    "creditLine": "Wolfgang Amadeus Mozart, Piano Concerto No. 21 in C major, K. 467, III. Allegro vivace assai. Artur Schnabel, piano; London Symphony Orchestra; Malcolm Sargent. Recorded 12 January 1937, Abbey Road Studio 1, London. Transfer by Bob Varney from Angel COLH 67, via Internet Archive. EU territorial public-domain basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Mozart: Piano Concerto No. 21", "url": "https://archive.org/details/Mozart.PianoConcertoNo.21", "locator": "Description identifies K. 467, Schnabel/LSO/Sargent, 12 January 1937 at Abbey Road, Angel COLH 67 mono LP, transfer by Bob Varney and correction of an earlier file mix-up.", "accessed": "2026-10-17" },
+    { "id": "archive-data", "title": "Internet Archive — item and file metadata", "url": "https://archive.org/metadata/Mozart.PianoConcertoNo.21", "locator": "metadata.description and licenseurl; files entry 03 Allegro vivace assai.mp3, source original, format VBR MP3, reported length 404.16. The separate analysis reports 404.5 seconds for the decoded file. Upload and file timestamps are not session or transfer dates.", "accessed": "2026-10-17" },
+    { "id": "sleeve", "title": "Angel COLH 67 — source LP sleeve photograph", "url": "https://archive.org/download/Mozart.PianoConcertoNo.21/DSCN9514.JPG", "locator": "Front cover: Angel Records, Great Recordings of the Century, COLH 67; K. 467 under Sargent and K. 595 under Barbirolli, both with Schnabel and the LSO. No runout photograph is provided.", "accessed": "2026-10-17" },
+    { "id": "lso", "title": "London Symphony Orchestra discography, August 2024", "url": "https://londonso-assets.s3.amazonaws.com/uploads/2024/08/Discography-August-2024.pdf#page=289", "locator": "Session 0158, PDF p. 289: K. 467, 12 January 1937, Abbey Road Studio 1, matrices 2EA4604–11; HMV DB3099–3102 issued November 1937; COLH67 issued November 1959.", "accessed": "2026-10-17" },
+    { "id": "bolig", "title": "John R. Bolig — His Master’s Voice Double-Sided Celebrity Recordings", "url": "https://www.examenapium.it/cs/biblio/Bolig2020.pdf#page=530", "locator": "Printed pp. 505–506, DB3102, and p. 911, automatic coupling DB8355–8356: finale parts 1–2, matrices 2EA4610-2A and 2EA4611-2A, Bechstein piano, LSO/Sargent, date and Abbey Road Studio 1.", "accessed": "2026-10-17" },
+    { "id": "schnabel", "title": "Classical Pianists — Artur Schnabel, Chronology II", "url": "https://classical-pianists.net/vii-b/artur-schnabel/chronology-2/", "locator": "AS-C021 gives all eight K. 467 mastered takes, including finale sides 7–8, and attributes the K. 467 cadenzas to Schnabel. Heading gives his death on 15 August 1951.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Mozart, K. 467 — Breitkopf & Härtel 1878 full score, Broude reprint", "url": "https://s9.imslp.org/files/imglnks/usimg/9/95/IMSLP442212-PMLP05554-mozartpianoconcertoNo.21score.pdf", "locator": "III, printed pp. 40–56: refrain, solo and orchestral exchanges, episodes, cadenza fermata on p. 55 and closing refrain and scales on p. 56. Composer dates printed on p. 1.", "accessed": "2026-10-17" },
+    { "id": "score-catalogue", "title": "IMSLP — K. 467 score catalogue", "url": "https://imslp.org/wiki/Piano_Concerto_No.21_in_C_major,_K.467_(Mozart,_Wolfgang_Amadeus)", "locator": "Full Scores, item 442212: Breitkopf 1878, plate W.A.M. 467; undated Broude reprint, plate 422; public-domain tag.", "accessed": "2026-10-17" },
+    { "id": "programme", "title": "Hannah Chan-Hartley — Mozart, Hewitt & Beethoven’s Fifth, National Arts Centre", "url": "https://nac-cna.ca/en/event/notes/36107", "locator": "K. 467 note: twelve-concerto period of 1784–1786; finale’s varied refrain, contrasting first episode, developing second episode, woodwind dialogue and late cadenza.", "accessed": "2026-10-17" },
+    { "id": "eu-term", "title": "Directive 2006/116/EC — copyright and related-rights terms", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116", "locator": "Articles 1, 3 and 8: life-plus-70 authorship calculation, former 50-year related-rights term and following-January calculation.", "accessed": "2026-10-17" },
+    { "id": "eu-extension", "title": "Directive 2011/77/EU — sound-recording term extension", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077", "locator": "Article 1(3), adding Article 10(5): extended terms apply to fixations and phonograms still protected on 1 November 2013; Article 2 gives the implementation date.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

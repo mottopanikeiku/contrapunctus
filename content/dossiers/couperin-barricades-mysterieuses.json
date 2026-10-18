@@ -1,0 +1,106 @@
+{
+  "id": "couperin-barricades-mysterieuses",
+  "work": {
+    "title": "Les Barricades mystérieuses",
+    "catalogue": "Second Livre de pièces de clavecin, Sixième Ordre",
+    "movement": "",
+    "version": {
+      "value": "Solo piano performance of the harpsichord rondeau",
+      "status": "documented",
+      "sourceIds": ["commons", "discography", "score", "work-index"],
+      "note": "The nominated file contains the individual character piece, not the complete sixth ordre. The work was published in the 1717 second book. Meyer’s performing edition and every repeat choice are unestablished; the inspected modern score is an analytical reference, not an attribution of her edition. No uncut claim is made from duration alone."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Marcelle Meyer", "role": "piano" }],
+    "status": "documented",
+    "sourceIds": ["commons", "discography"],
+    "note": "Commons identifies Meyer; the pianist’s recording chronology identifies the Couperin programme. This is a piano performance, notwithstanding the source category for harpsichord music."
+  },
+  "session": {
+    "date": {
+      "value": "Late 1953 or January 1954",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "This uncertainty is stated in the Commons Author field. The recording chronology gives the broader 1953/1954 range. No single year or session day has been selected. 23 September 2023 is the Commons upload date, not the session; the filename’s 1954 does not resolve the range.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Salle Adyar, Paris, France",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Venue stated by Commons and the recording chronology; no studio log has been inspected."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Les Discophiles Français",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Named in Commons’ source reference to the Médiathèque musicale Mahler collection and in the recording chronology."
+    },
+    "catalogue": {
+      "value": "DF 86",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Both sources identify DF 86; the chronology identifies an LP issue. No exact first-publication date is inferred from the recording date."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "discography"],
+      "note": "No matrix, take or side identifier securely tied to this transfer is supplied by the opened sources. An earlier Meyer performance is separately listed in the chronology; its 1946 matrix has not been attached to this later file."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "Commons names the Médiathèque musicale Mahler collection as source and Flopinot2012 as uploader. Neither attribution establishes the transfer or mastering engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "No transfer date is identified. The upload occurred on 23 September 2023; the MP3 transcoding date is a separate access-file event."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "The source upload is FLAC and Commons supplies an MP3 derivative. Equalisation, denoising, speed correction, editing and the equipment used for the transfer are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
+    "sourceChain": ["commons", "discography"],
+    "format": "Wikimedia Commons MP3 access derivative of the uploaded FLAC; Commons attributes the source to the Médiathèque musicale Mahler, fonds Discophiles Français",
+    "durationSeconds": 95.1
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition",
+      "status": "documented",
+      "sourceIds": ["commons", "work-index", "biography"],
+      "note": "Commons applies PD-old-70-expired to the composition; Couperin died in 1733. This does not clear an unidentified modern edition or the sound recording."
+    },
+    "recording": {
+      "value": "Territorial — Commons PD-EU-audio sound-recording status",
+      "status": "documented",
+      "sourceIds": ["commons", "rights-tag"],
+      "note": "Accepted under the programme’s recording-specific PD-EU-audio rule, territorially. Commons states that European performers’ and producers’ terms have expired. US public-domain status is not established and is not asserted: the file also carries a pre-1972 US-recording copyright warning. Composition-only public-domain text and the generic structured-data label are not relied upon for recording rights."
+    },
+    "creditLine": "François Couperin, Les Barricades mystérieuses; Marcelle Meyer, piano. Salle Adyar, Paris, late 1953 or January 1954 according to Commons; Les Discophiles Français DF 86. Médiathèque musicale Mahler collection, via Wikimedia Commons. Territorial PD-EU-audio; US public-domain status not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — Meyer, Les barricades mysterieuses", "url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_(Marcelle_Meyer,_1954).flac", "locator": "Summary, Source, Author, Licensing, File history and Transcode status; opened revision 1260418407.", "accessed": "2026-10-17" },
+    { "id": "discography", "title": "Classical Pianists — Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#016: 1953/1954, Salle Adyar, Couperin programme, DF 86. Earlier 1946 performance listed separately.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Couperin — Les Baricades Mistérieuses, Les Éditions Outremontaises", "url": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP128589-WIMA.0099-Couperin_6eOrdre_Les_Baricades.pdf", "locator": "Both pages: rondeau, three couplets, overlapping durations and return directions; modern engraving used for musical reference only.", "accessed": "2026-10-17" },
+    { "id": "work-index", "title": "IMSLP — Pièces de clavecin, Livre 2", "url": "https://imslp.org/wiki/Pi%C3%A8ces_de_clavecin,_Livre_2_(Couperin,_Fran%C3%A7ois)", "locator": "Sixième Ordre, harpsichord instrumentation and publication information.", "accessed": "2026-10-17" },
+    { "id": "biography", "title": "Opéra Royal — François Couperin", "url": "https://www.operaroyal-versailles.fr/genre-event/couperin/", "locator": "Life dates, royal-chapel appointment, harpsichord books and unresolved character-piece titles; compared with the existing composer biography.", "accessed": "2026-10-17" },
+    { "id": "rights-tag", "title": "Wikimedia Commons — PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific territorial term statement and distinction from composition copyright.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

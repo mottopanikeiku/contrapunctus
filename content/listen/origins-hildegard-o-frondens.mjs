@@ -2,10 +2,12 @@ export default {
   id: 'origins-hildegard-o-frondens',
   composer: 'origins-hildegard',
   order: 1,
+  short: true,
   work: 'O frondens virga',
   movement: 'Antiphon for the Virgin',
   year: '12th century; exact date unknown',
   key: 'D mode in the manuscript',
+  monophonic: true,  // one melodic line: the hall shows no chord label
   forces: 'Unaccompanied solo voice',
   performers: 'Makemi, voice',
   recorded: '2006; live performance',

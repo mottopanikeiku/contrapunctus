@@ -39,7 +39,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 2,
+      "t": 0,
       "kind": "world",
       "title": "A documented live setting",
       "text": "This is Prati’s24 November 2015 Museum of Romanticism performance, not an anonymous studio track. Compare the phrasing with the historical discs, while keeping the different recording conditions in mind.",

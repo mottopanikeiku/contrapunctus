@@ -68,6 +68,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     voices = cfg['voices']
     mode = extraction['mode']
     source_checks = {}
+    if cfg['source'].get('patches'):
+        source_checks['derivativePatches'] = cfg['source']['patches']
     if mode == 'isolated-voices':
         result, tracks = [], []
         for vi, voice in enumerate(voices):
@@ -132,7 +134,7 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         notes = notes[~masks[1]]
     if extraction.get('comparePublished') is not None:
         compare = extraction['comparePublished']
-        multiset = cfg['source'].get('legacyRelative') == 'verify-midi'
+        multiset = bool(cfg['source'].get('legacyRelative') == 'verify-midi' or cfg['source'].get('patches'))
         original = attack_inventory(inside(directory, cfg['source']['midi']), compare.get('offsetQ', 0), multiset)
         pairs = [(round(n[0], 7), int(n[2])) for n in notes]
         separated = Counter(pairs) if multiset else set(pairs)
@@ -204,7 +206,9 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         raise ValueError('No notes in performed bar order')
     result = {'id': ident, 'voices': [{k: v[k] for k in ('id', 'name')} for v in voices],
               'bars': bars, 'notes': sorted(performed), 'endQ': cursor,
-              'repeats': spec['description'], 'provenance': cfg.get('provenance', []),
+              'repeats': spec['description'],
+              'provenance': cfg.get('provenance', []) + [
+                  f'Verified derivative syntax repair in {p["file"]}: {p["basis"]}' for p in cfg['source'].get('patches', [])],
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)

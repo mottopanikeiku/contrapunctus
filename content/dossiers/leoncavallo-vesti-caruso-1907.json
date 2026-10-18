@@ -1,10 +1,10 @@
 {
   "id": "leoncavallo-vesti-caruso-1907",
-  "work": { "title": "Pagliacci", "catalogue": "", "movement": "Recitar!… Vesti la giubba", "version": { "value": "Tenor with acoustic orchestral accompaniment; Italian", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "This is the original acoustic recording, not the later electrically re-orchestrated dubs which DAHR lists separately as CS-58966. Performing edition unknown." } },
+  "work": { "title": "Pagliacci", "catalogue": "", "movement": "Recitar!… Vesti la giubba", "version": { "value": "Tenor with orchestral accompaniment; Italian; source describes acoustic recording", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "IA describes an acoustic recording and identifies Victor/Victrola 88061. Attribution to the original C-4317 master is inferred through the catalogue, not confirmed by a legible runout. DAHR lists later electrically re-orchestrated dubs separately as CS-58966; this transfer has not been independently distinguished from every later reissue or dub by matrix inspection. Performing edition unknown." } },
   "performers": { "value": [{ "name": "Enrico Caruso", "role": "tenor" }], "status": "documented", "sourceIds": ["archive", "dahr"], "note": "Orchestral accompaniment is documented, but no orchestra name, conductor or individual orchestral players are established by the cited sources." },
   "session": {
-    "date": { "value": "17 March 1907", "status": "documented", "sourceIds": ["dahr"], "note": "Date of the original acoustic session, not of a later reissue or dub.", "precision": "day" },
-    "place": { "value": "New York, New York", "status": "documented", "sourceIds": ["dahr"], "note": "No studio address is asserted." }
+    "date": { "value": "17 March 1907", "status": "inferred", "sourceIds": ["archive", "dahr"], "note": "Date of the original C-4317 acoustic session, applied through the source’s 1907 attribution and Victor 88061 catalogue identity. The transfer’s exact matrix is not independently confirmed; this is not a date for the physical pressing or transfer.", "precision": "day" },
+    "place": { "value": "New York, New York", "status": "inferred", "sourceIds": ["archive", "dahr"], "note": "Place of the attributed original C-4317 session. No studio address is asserted, and the transfer’s exact matrix has not been independently confirmed." }
   },
   "carrier": {
     "label": { "value": "Victrola", "status": "documented", "sourceIds": ["archive"], "note": "The transferred label is identified in the IA metadata; the underlying master is Victor." },
@@ -24,8 +24,8 @@
   },
   "rights": {
     "composition": { "value": "Historical aria from the 1892 opera Pagliacci", "status": "documented", "sourceIds": ["work"], "note": "The composition is separate from rights in the historic sound recording." },
-    "recording": { "value": "US public domain: recording first published before 1 January 1926", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "Rule 2. IA identifies the historic 1907 Victor/Victrola 88061 issue; DAHR identifies its 17 March 1907 acoustic master. Opened IA metadata contains no licenseurl and no non-commercial licence. This does not rely on a modern uploader’s composition-only tag." },
-    "creditLine": "Ruggero Leoncavallo, Recitar!… Vesti la giubba; Enrico Caruso, tenor, with orchestra. New York, 17 March 1907; Victor C-4317 take 1 attributed through Victor 88061. Transfer credited to Nicholas Klein / George Blood, L.P.; Internet Archive Great 78 Project. US public-domain historic recording.",
+    "recording": { "value": "US public domain: source identifies recording first published before 1 January 1926", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "Rule 2. IA identifies the historic 1907 Victor/Victrola 88061 issue and describes an acoustic recording; DAHR documents the attributed original 17 March 1907 master. The exact master is inferred through the catalogue, not independently established from a legible runout. Opened IA metadata contains no licenseurl and no non-commercial licence. This does not rely on a modern uploader’s composition-only tag." },
+    "creditLine": "Ruggero Leoncavallo, Recitar!… Vesti la giubba; Enrico Caruso, tenor, with orchestra. Attributed to New York, 17 March 1907; Victor C-4317 take 1 inferred through Victor 88061, matrix unconfirmed. Transfer credited to Nicholas Klein / George Blood, L.P.; Internet Archive Great 78 Project. Source identifies US public-domain historic recording.",
     "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
   },
   "sources": [

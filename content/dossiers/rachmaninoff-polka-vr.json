@@ -88,7 +88,7 @@
         "fau",
         "booklet"
       ],
-      "note": "The side assignment and disc number are documented by the Edison list and the Florida Atlantic catalogue; the disc used for the 1992 transfer is not identified. DAHR’s MARC record for the disc gives 10-inch, 80 rpm and a bracketed publication year of [1919], which predates the release documented by the National Park Service and Densmore (December 1920) and is not followed for the release date; it is the same year as the session either way, and before 1926."
+      "note": "The side assignment and disc number are documented by the Edison list and the Florida Atlantic catalogue; the disc used for the 1992 transfer is not identified. DAHR’s MARC record for the disc gives 10-inch, 80 rpm and a bracketed publication year of [1919], which predates the release documented by the National Park Service and Densmore (December 1920) and is not followed for the release date; either proposed publication year predates 1926."
     },
     "matrixTakeSides": {
       "value": "Edison matrix 6744, take B (side L)",
@@ -127,7 +127,7 @@
         "booklet",
         "archive-data"
       ],
-      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant."
+      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant."
     }
   },
   "digital": {

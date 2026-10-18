@@ -44,7 +44,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "A dated wartime disc",
       "text": "The source identifies the18 January 1943 session and a 1943 release. It does not identify the venue, so the date should not be turned into an invented wartime scene around the pianist.",

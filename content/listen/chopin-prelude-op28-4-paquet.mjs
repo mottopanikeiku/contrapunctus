@@ -4,7 +4,7 @@ export default {
   "order": 20,
   "work": "Prelude in E minor, Op. 28 No. 4",
   "movement": "Largo",
-  "year": "1836–39",
+  "year": "completed 1839",
   "key": "E minor",
   "forces": "Piano",
   "performers": "Dorian Pâquet",
@@ -132,7 +132,7 @@ export default {
         84,
         106
       ],
-      "how": "<p>The later phrase withdraws until the recurring accompaniment gives way to a gap. The final chords arrive after this interruption, so the cadence depends on waiting as well as on harmonic resolution. The waveform supports the gap, but cannot identify an exact release or pedal action.</p>",
+      "how": "<p>The later phrase withdraws until the recurring accompaniment gives way to a gap. The final chords arrive after this interruption, so the cadence depends on waiting as well as on harmonic resolution.</p>",
       "devices": [
         "decrescendo",
         "general pause",
@@ -140,7 +140,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Report’s1:35 window lies near the noise floor, with renewed sound in the1:40–1:45 windows;1:34 is an approximate passage boundary."
+      "evidence": "Report’s 1:35 window lies near the noise floor, with renewed sound in the 1:40–1:45 windows; 1:34 is an approximate passage boundary. The waveform supports the gap, but cannot identify an exact release or pedal action."
     }
   ]
 };

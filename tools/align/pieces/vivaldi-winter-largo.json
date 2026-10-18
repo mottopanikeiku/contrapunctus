@@ -106,11 +106,12 @@
   },
   "endpoints": {
     "first": [1.5, 1.9],
-    "last": [
-      121,
-      127
-    ],
-    "basis": "The fresh pitch-energy overlay shows the first E-flat5/B-flat4/E-flat3 onset around 1.7 s, preceding louder rearticulations at 2.0–2.5 s; the first window isolates that quiet initial rise. The final window covers the last source chord around 121.2 s. These are measured pitch windows, not an aural review."
+    "last": [124.8, 125.8],
+    "end": {
+      "seconds": 129.5,
+      "basis": "Final source-pitch bands decay through about 128.5 s and fall roughly 50 dB below their pre-ending reference by 129.5 s; subsequent low-level transfer noise persists to the 132.34 s container end. This measured display boundary is not a physical bow-release claim."
+    },
+    "basis": "The first E-flat5/B-flat4/E-flat3 rise is isolated around 1.7–1.8 s, before the louder rearticulations at 2.0–2.5 s. The final full E-flat chord is distinguished from preceding repeated pizzicato E-flat4 by the joint G4/E-flat2 rise around 125.3 s; the stronger earlier E-flat4 rise around 121.2 s is not the final chord. No aural review is claimed."
   },
   "boundaries": [],
   "provenance": [

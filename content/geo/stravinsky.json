@@ -316,7 +316,7 @@
       "lon": -1.5592776
     },
     {
-      "name": "Nice France",
+      "name": "Nice",
       "country": "French Third Republic (today France)",
       "from": "1924",
       "kind": "lived",
@@ -329,12 +329,12 @@
         },
         {
           "title": "OpenStreetMap place record",
-          "url": "https://nominatim.openstreetmap.org/search?q=Nice%20France&format=json&limit=1"
+          "url": "https://nominatim.openstreetmap.org/search?q=Nice%2C%20France&format=json&limit=1"
         }
       ],
       "to": "1931",
-      "lat": 43.2871614,
-      "lon": 5.6043053
+      "lat": 43.7009358,
+      "lon": 7.2683912
     },
     {
       "name": "Brussels",

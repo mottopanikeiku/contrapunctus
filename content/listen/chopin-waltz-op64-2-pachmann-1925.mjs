@@ -56,7 +56,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 2,
+      "t": 0,
       "kind": "world",
       "title": "The first piece is an étude",
       "text": "This is the complete HMV DB 860 side 2, not an isolated waltz file. Alan Kelly’s matrix discography identifies Op. 25 No. 3 followed by Op. 64 No. 2 on Cc6260-1.",

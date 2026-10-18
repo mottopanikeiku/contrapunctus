@@ -1,5 +1,5 @@
 export default {
-  intro: 'Muriel Nguyen Xuan plays in a recording credited to Stéphane Magnenat and released under CC BY-SA. The source gives 2007 but an invalid calendar date; only the year is retained here.',
+  intro: 'Muriel Nguyen Xuan plays in a recording credited to Stéphane Magnenat and released under CC BY-SA. Commons presents the year 2007; the original upload comment contains an invalid calendar date, so no month or day is asserted here.',
   question: 'How does Nguyen Xuan shape the change from circling notes to the middle melody?',
   sections: [
     { t: 0, label: 'Opening running figures', m: 'A' },

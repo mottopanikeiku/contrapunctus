@@ -335,9 +335,25 @@
       "lat": 48.8675,
       "lon": 2.3294,
       "from": "1849-09",
-      "to": "1849-10-17",
+      "kind": "lived",
+      "what": "Took an apartment in the Hôtel Baudard de Saint-James in September, with rent possibly supported by Jane Stirling.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ],
+      "to": "1849-10-17"
+    },
+    {
+      "name": "Hôtel Baudard de Saint-James, Place Vendôme, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8675,
+      "lon": 2.3294,
+      "from": "1849-10-17",
       "kind": "died",
-      "what": "Died a few minutes before 2 a.m. on 17 October, aged 39; Ludwika was with him.",
+      "what": "Died a few minutes before 2 a.m., aged 39; his sister Ludwika appears to have been present.",
       "status": "documented",
       "sources": [
         {

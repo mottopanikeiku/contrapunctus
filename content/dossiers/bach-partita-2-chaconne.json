@@ -1,0 +1,203 @@
+{
+  "id": "bach-partita-2-chaconne",
+  "work": {
+    "title": "Partita No. 2 in D minor",
+    "catalogue": "BWV 1004",
+    "movement": "V. Ciaccona",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording source."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Jascha Heifetz",
+        "role": "violin"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive",
+      "sleeve-front",
+      "sleeve-back"
+    ],
+    "note": "The named performer and instrument are explicitly credited in the recording description."
+  },
+  "session": {
+    "date": {
+      "value": "1952, as dated by the source",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The Archive description explicitly says “rec. 1952”. Commons’ 1 January 1952 is not accepted as an independently established day; no session ledger or precise date is supplied.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "sleeve-back"
+      ],
+      "note": "The source description and sleeve scans do not identify a session location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "RCA Red Seal",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve-front"
+      ],
+      "note": "The photographed sleeve identifies RCA Red Seal and 45 Extended Play; this is not a 78-rpm carrier."
+    },
+    "catalogue": {
+      "value": "ERA 9544",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sleeve-front",
+        "sleeve-back"
+      ],
+      "note": "The catalogue number appears on both sleeve photographs. Its issue date is not independently established."
+    },
+    "matrixTakeSides": {
+      "value": "Two record sides joined for the digital track; matrix and take numbers unknown.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item description explicitly states that the two sides were put together. The scans show the sleeve, not readable disc labels or runouts; no matrix or take identification is invented."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No transfer or restoration engineer is identified. An uploader account is present but is not expanded into an engineering credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "The Archive item was uploaded in May 2020 and Commons in January 2021; neither is established as the transfer date."
+    },
+    "processing": {
+      "value": "Both sides of a 45-rpm EP combined; WAV source converted to FLAC and MP3 access derivatives.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "archive-files"
+      ],
+      "note": "The Archive file manifest traces the FLAC to the WAV and its SHA-1 matches the Commons source. The side-join location, equalisation, speed correction and noise processing are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Bach%3B_Chaconne_d-moll_Heifetz.flac/Bach%3B_Chaconne_d-moll_Heifetz.flac.mp3",
+    "sourceChain": [
+      "sleeve-front",
+      "archive",
+      "archive-files",
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded FLAC derived from the Archive WAV transfer",
+    "durationSeconds": 782.2533333333333
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is public domain under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer"
+      ],
+      "note": "Bach died in 1750. This does not clear a separately protected modern performing edition."
+    },
+    "recording": {
+      "value": "Rule 1 — Commons PD-EU-audio recording tag; territorial European public-domain basis.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file-description Licensing section explicitly applies PD-EU-audio to this sound recording. US public-domain status and the carrier’s first publication year are not independently established. The generic structured-data CC0 claim is not treated as a rights-holder dedication, and the Archive Public Domain Mark is not treated as a licence."
+    },
+    "creditLine": "Johann Sebastian Bach, Partita No. 2 in D minor, Chaconne; Jascha Heifetz, violin. RCA Red Seal ERA 9544, 45-rpm EP, two sides combined; Internet Archive transfer via Wikimedia Commons. Commons states PD-EU-audio (territorial); US status unestablished.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Partita No. 2 in D minor, V. Ciaccona",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach;_Chaconne_d-moll_Heifetz.flac",
+      "locator": "File description, performer attribution, original source, sound-recording licensing and transcode information.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Bach-Archiv Leipzig — Johann Sebastian Bach: a chronology",
+      "url": "https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology",
+      "locator": "Composer’s life dates and the cited career chronology.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Bach: Chaconne d-moll (Jascha Heifetz)",
+      "url": "https://archive.org/metadata/chaconne-d-moll-heifetz/metadata",
+      "locator": "Description: RCA ERA 9544, two sides joined, solo violin, “rec. 1952”; repository dates separate from session and transfer.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — Chaconne file manifest",
+      "url": "https://archive.org/metadata/chaconne-d-moll-heifetz/files",
+      "locator": "WAV original, FLAC and MP3 derivatives; FLAC SHA-1 8df66a38985c4577d8748f7343f2c35d4c3dd6d6 matches the Commons source.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sleeve-front",
+      "title": "RCA ERA 9544 — photographed sleeve front",
+      "url": "https://archive.org/download/chaconne-d-moll-heifetz/Heifetz%20Bach%20%283%29.jpg",
+      "locator": "RCA Red Seal, catalogue ERA 9544, 45 Extended Play, Jascha Heifetz. No publication date printed.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sleeve-back",
+      "title": "RCA ERA 9544 — photographed sleeve back",
+      "url": "https://archive.org/download/chaconne-d-moll-heifetz/Heifetz%20Bach%20%284%29.jpg",
+      "locator": "Work and catalogue identification; performer explicitly named as solo violinist. Historical analytical claims about special bows are not adopted.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Mutopia 1426 — BWV 1004 Chaconne",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1004/bwv-1004_5/bwv-1004_5.ly",
+      "locator": "Bach-Gesellschaft 1879, volume 27.1; Hajo Dezelski engraving, CC BY-SA 3.0. D major at bar 133, return to D minor at 209, closing thematic recovery around 249.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Netherlands Bach Society — BWV 1004",
+      "url": "https://www.bachvereniging.nl/en/bwv/bwv-1004",
+      "locator": "Manuscript date, five-movement order and large minor–major–minor design. Conditional memorial interpretation is not adopted as a documented intention.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

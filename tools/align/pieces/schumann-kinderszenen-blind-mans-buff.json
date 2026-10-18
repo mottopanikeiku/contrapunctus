@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No03/SchumannOp15No03.ly",
         "file": "SchumannOp15No03.ly",
-        "sha256": null
+        "sha256": "2f94fd6a14f4fd168cb08ad0707d29872478882be5bfa6f867474950991817f0"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No03/SchumannOp15No03.mid",
         "file": "SchumannOp15No03.mid",
-        "sha256": null
+        "sha256": "0a7db994303307a0c5ba33a497bbafaf1ffc45b6ddfda45151d86a761bab9c85"
       }
     ]
   },
@@ -70,10 +70,10 @@
       4
     ],
     "last": [
-      32,
-      35
+      34.65,
+      35.05
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "Inspected the complete0–37.17s overlays. The broad32–35s final search incorrectly selected the earlier32.60s B attack and omitted the last run. Cached pitch features show the very quiet final B3/D4/B4/B5 chord rising near34.8s (D4/B4/B5 increase together), after D6/C-sharp6/B5/A-sharp5; use34.65–35.05s. Opening0.26s already matches the first attack."
   },
   "boundaries": [],
   "engraving": {

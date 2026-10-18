@@ -134,7 +134,11 @@
       245,
       258
     ],
-    "basis": "Initial score-pitch search windows from existing historical-recording analysis. Inspect the final chord separately from transfer noise before publication."
+    "end": {
+      "seconds": 256.7,
+      "basis": "The fresh final-candidate pitch-energy overlay shows the final D-major chord from about 250.5 s through 256.5 s, with its pitched bands disappearing by about 256.7 s. Later transfer noise keeps global RMS active to the 265.06 s file end; it is not encoded as an extra nine seconds of sustained orchestral/choral notes. This is a measured display boundary, not a claimed physical key or bow release."
+    },
+    "basis": "First and last score-pitch windows inspected against the candidate spectrogram: musical opening around 3.08 s follows transfer transients, and the closing D-major chord begins around 250.5 s. Its measured pitch-energy display end is recorded separately from surface noise."
   },
   "boundaries": [],
   "engraving": {

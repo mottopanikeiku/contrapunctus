@@ -165,7 +165,7 @@ for (const f of files) {
       const R = mod.source.rights, usPd = R?.evidence && ((R.basis === 'us-published-before-cutoff' && Number(R.published) <= new Date().getFullYear() - 101) || (R.basis === 'eu-published-before-1963' && Number(R.published) < 1963));
       if (!/public domain|^pd|cc0|cc[- ]by|\boal\b|open audio licen/i.test(info.license) && !usPd) err(f, `licence not allowed: ${info.license || 'none'} (archive items without a PD/CC licence need source.rights { basis: 'us-published-before-cutoff', published, evidence })`);
       if (mod.set && (!mod.set.id || !mod.set.title || !(mod.set.part >= 1) || !(mod.set.of >= mod.set.part))) err(f, 'set must be { id, title, part, of }');
-      if (info.duration < (mod.set ? 20 : 90)) err(f, `recording too short (${info.duration}s)`);  // movements of a set may be short (Kinderszenen)
+      if (info.duration < (mod.set || mod.concert === false || mod.short ? 20 : 90)) err(f, `recording too short (${info.duration}s)`);  // short complete pieces: set movements, comparison-only recordings, or `short: true` (a complete miniature such as an étude)
       const dur = info.duration;
       const check = (list, name) => list.forEach((c, i) => {
         if (typeof c.t !== 'number' || c.t < 0 || c.t > dur) err(f, `${name}[${i}] time ${c.t} outside 0–${Math.round(dur)}`);

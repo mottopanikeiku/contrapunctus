@@ -1,0 +1,20 @@
+{
+  "title": "Symphony No. 1 in C minor, Op. 68 — III. Un poco allegretto e grazioso",
+  "edition": "IMSLP #317803",
+  "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from the derivative",
+  "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.1%2C_Op.68/3/Brahms_Op.68_3.mxl",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+  "main": "Brahms_Op.68_3.ly",
+  "musicxml": "Brahms_Op.68_3.mxl",
+  "stripLyrics": true,
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.1%2C_Op.68/3/Brahms_Op.68_3.mxl",
+      "file": "Brahms_Op.68_3.mxl",
+      "sha256": "441c4d657122707b6368a96cdabd69419edb297a1dd38c281196126006f0603f"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

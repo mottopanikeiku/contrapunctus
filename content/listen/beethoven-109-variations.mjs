@@ -2,6 +2,7 @@ export default {
   id: 'beethoven-109-variations',
   composer: 'beethoven',
   order: 2,
+  set: { id: 'beethoven-sonata-30', title: 'Piano Sonata No. 30, Op. 109', part: 3, of: 3 },
   work: 'Piano Sonata No. 30, Op. 109',
   movement: 'III. Gesangvoll, mit innigster Empfindung',
   year: '1820',

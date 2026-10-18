@@ -1,0 +1,191 @@
+{
+  "id": "beethoven-appassionata-first",
+  "work": {
+    "title": "Piano Sonata No. 23 in F minor, ‘Appassionata’",
+    "catalogue": "Op. 57",
+    "movement": "I. Allegro assai",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "bloesch", "score"],
+      "note": "The solo-piano work is identified, but Schnabel’s performing edition and any editorial alterations are not. The listening commentary uses the viewable original edition, plate 521, as a score source, not as a claimed identification of the edition used in the session. No cut or take-splice history is supplied for this MP3."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Artur Schnabel", "role": "piano" }],
+    "status": "documented",
+    "sourceIds": ["archive", "bloesch", "digital-file"],
+    "note": "The Archive description, selected file’s artist tag and Bloesch’s discography agree. Bloesch’s session list identifies a Bechstein piano; no instrument serial number is established."
+  },
+  "session": {
+    "date": {
+      "value": "1933-04-11",
+      "status": "documented",
+      "sourceIds": ["archive", "bloesch", "pristine"],
+      "note": "The Op. 57 description specifies 11.IV.1933, corroborated by the discography and reissue documentation. The Archive item’s general date of 1932 covers the compilation and is not this sonata’s session date. The embedded date tag 2001 is not treated as a session or transfer date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Abbey Road Studios, Studio No. 3, London, England",
+      "status": "documented",
+      "sourceIds": ["bloesch", "pristine"],
+      "note": "Bloesch’s chronological session list gives Studio No. 3 and a Bechstein piano; the alphabetical work entry gives Abbey Road Studios, London."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "bloesch", "digital-file"],
+      "note": "The original commercial issue was His Master’s Voice. The label of the physical carrier or later reissue actually used to make this MP3 is not identified; original-issue information is not substituted for transfer provenance."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["bloesch", "publication", "archive"],
+      "note": "Bloesch identifies the original complete-sonata issue as HMV DB 2215–2217 in Beethoven Sonata Society Volume 5, part of set DB 2211–2217. The transferred pressing or reissue catalogue number is unknown. The embedded portrait contains no readable carrier identification."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["bloesch", "publication", "archive"],
+      "note": "Original session documentation assigns movement I to two sides, 2B 6605 and 2B 6606, with takes 2 listed as the issued masters; the catalogue lists 2B 6605II and 2B 6606II. These identify the historical issued recording, not an independently verified take selection or side-join position in the selected MP3."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-page", "digital-file", "pristine"],
+      "note": "No transfer or restoration engineer is credited for this file. The Archive uploader recordplayer78 is not equated with an engineer or owner. Andrew Rose’s credit on the separately consulted Pristine reissue is not transferred to this MP3; no upstream link to that reissue is established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "digital-file"],
+      "note": "The Archive added/public date is 27 March 2020. The embedded date tag is 2001, without an identified release or transfer to which it refers. Neither date establishes when the analogue source was transferred or restored."
+    },
+    "processing": {
+      "value": "The MP3’s encoder tag states ‘Audiograbber 1.83.01, LAME dll 3.99, 256 Kbit/s, Joint Stereo, Normal quality’.",
+      "status": "documented",
+      "sourceIds": ["digital-file", "archive"],
+      "note": "Inspection of the downloaded selected stream found MP3 audio at 44,100 Hz, two channels and 256,000 bit/s, plus an attached JPEG portrait. Two-channel encoding is not evidence of an original stereo session. Analogue transfer equipment, equalisation, noise reduction, pitch/speed correction, restoration and edit history remain unknown. Archive calls the file ‘VBR MP3’; that repository format label is distinct from the inspected stream and encoder tag."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/beethovenschnabel6/74%20-%20Klaviersonate%20Nr.%2023%20f-moll%20op.%2057%20Appassionata%20-%20I.%20Allegro%20assai.mp3",
+    "sourceChain": ["archive-page", "archive", "digital-file"],
+    "format": "MP3; inspected audio 256 kb/s, 44.1 kHz, two channels; Archive format label VBR MP3",
+    "durationSeconds": 539.354189
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying Beethoven composition is public domain under the ordinary EU life-plus-70 term.",
+      "status": "inferred",
+      "sourceIds": ["publication", "eu-term", "score"],
+      "note": "Beethoven died in 1827. The cited original score contains the historical composition; no unidentified modern performing edition is cleared by this term calculation. Composition rights are separate from the rights in Schnabel’s recording."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: original sound recording first published in 1934.",
+      "status": "documented",
+      "sourceIds": ["publication", "bloesch", "eu-term", "eu-extension", "archive", "pd-mark", "us-law"],
+      "note": "The Public Domain Project release-set catalogue explicitly gives 1934 as the first release of HMV DB 2211–2217; Bloesch identifies Op. 57 within that issue as DB 2215–2217, matrices 2B 6605–6610. Publication is thus documented separately from the 11 April 1933 session. Under the programme’s territorial EU rule, the earlier 50-year term had expired before the 2013 extension. US status is not established and no worldwide clearance is claimed. The Archive’s Public Domain Mark is an assertion, not an ownership release; the Public Domain Project’s worldwide/US expiry table is not relied upon. No CC licence or independently established additional rights in an unidentified modern transfer are asserted."
+    },
+    "creditLine": "Ludwig van Beethoven, Piano Sonata No. 23, Op. 57, I. Allegro assai — Artur Schnabel, piano; recorded 11 April 1933, Abbey Road Studio No. 3, London. Originally issued by HMV in Beethoven Sonata Society Volume 5; selected MP3 supplied through Internet Archive item beethovenschnabel6. Transfer engineer and transferred carrier unknown. Territorial EU recording basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — beethovenschnabel6 metadata and file inventory",
+      "url": "https://archive.org/metadata/beethovenschnabel6",
+      "locator": "Description entry for Sonata No. 23: 11.IV.1933. Exact selected original MP3 is track 74, ‘74 - Klaviersonate Nr. 23 f-moll op. 57 Appassionata - I. Allegro assai.mp3’; file length 539.35, MD5 c7600e99e24e16ab41544f8a214ee6e0. General compilation date 1932, uploader and added/public dates inspected separately from the track description. No transfer credit or source pressing is supplied.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive-page",
+      "title": "Internet Archive — Beethoven: Piano Sonatas, Artur Schnabel, volume 6",
+      "url": "https://archive.org/details/beethovenschnabel6",
+      "locator": "Item description, selected playlist entry and Public Domain Mark link. The compilation-level Publication date 1932 is not adopted as the Op. 57 publication date.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "digital-file",
+      "title": "Selected Archive MP3 — movement I, embedded metadata and stream inspection",
+      "url": "https://archive.org/download/beethovenschnabel6/74%20-%20Klaviersonate%20Nr.%2023%20f-moll%20op.%2057%20Appassionata%20-%20I.%20Allegro%20assai.mp3",
+      "locator": "Downloaded by node tools/audio.mjs analyze; cache/analysis/beethoven-appassionata-first.txt read before authoring timestamps. ffprobe inspection: duration 539.354189 s, MP3 44,100 Hz, 2 channels, 256,000 bit/s; artist Artur Schnabel, album Beethoven: Sämtliche Klaviersonaten, track 74, date tag 2001, Audiograbber/LAME encoder tag. Attached image inspected: Schnabel portrait, no catalogue or label text.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "bloesch",
+      "title": "David Bloesch — Artur Schnabel: A Discography (1987), Schnabel Music Foundation reproduction",
+      "url": "https://schnabelmusicfoundation.org/comceptr/uploads/Artur-Schnabel-A-Discography-by-David-Bloesch.pdf",
+      "locator": "Printed p. 47, entry 49: Op. 57, HMV, 2B 6605/10, Abbey Road Studios, London, 11 April 1933, original HMV DB 2215/7 in Volume 5. Printed p. 89: chronological session, Studio No. 3, Bechstein; movement I sides 2B 6605 and 6606, take histories. The introduction credits access to EMI recording logs. Scan pages were inspected visually.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "pristine",
+      "title": "Pristine Classical PAKM043 — Schnabel Beethoven Piano Sonatas, volume 7",
+      "url": "https://www.pristineclassical.com/products/pakm043",
+      "locator": "Op. 57 track list: recorded 11 April 1933, matrices 2B 6605–10, issued HMV DB 2215–17; overview places sessions at Abbey Road Studio 3. Used only to corroborate historical session/issue data, not to identify the selected Archive transfer or its durations.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "publication",
+      "title": "Public Domain Project Mediapool — HMV DB 2211–2217 release set",
+      "url": "https://pool.publicdomainproject.org/index.php/HMV_DB_2211-2217",
+      "locator": "Release set information: first release date 1934, label HMV, catalogue DB 2211–2217, Op. 57 and matrices 2B 6605II through 2B 6610I. The page’s 12 April 1933 recording reference concerns the coupled Op. 22, not Op. 57. Its worldwide/US copyright-expiry table is not accepted as clearance.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "score",
+      "title": "Beethoven-Haus — Op. 57 original edition, Bureau des Arts et d’Industrie, plate 521",
+      "url": "https://www.beethoven.de/en/media/view/6661552451092480?page=0",
+      "locator": "Sammlung Jean Van der Spek, J. Van der Spek C op. 57. Viewable historical score, movement I printed pp. 2–13, inspected throughout. Used for musical structure and joins; not identified as Schnabel’s performing edition. Analysis-based passage estimates, not bar-aligned timings, are used in the listening file.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-history",
+      "title": "Beethoven-Haus — Sonata for piano in F minor, Op. 57",
+      "url": "https://www.beethoven.de/en/work/view/5292968940404736",
+      "locator": "Composition 1804 to first half of 1806, most sketches 1805; dedication to Franz Brunsvik; Marie Bigot autograph history; nickname first found on Cranz’s 1838 four-hand arrangement.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "schnabel-biography",
+      "title": "Schnabel Music Foundation — Artur Schnabel",
+      "url": "https://schnabelmusicfoundation.org/musicians/artur-schnabel/",
+      "locator": "Berlin Beethoven cycles; departure from Germany in 1933, first Italy then the United States in 1939. Biographical events are not used to infer this recording’s production history.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — term of protection",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1, 3 and 8: composition term, former performer/phonogram terms and calculation from the following 1 January; considered with the 2011 amendment’s transitional rule.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — phonogram-term extension and transitional provision",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Article 1 amendments to Articles 3 and 10 of Directive 2006/116/EC, including protection still subsisting on 1 November 2013. Territorial EU basis, not a worldwide licence.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "pd-mark",
+      "title": "Creative Commons — Public Domain Mark 1.0",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "locator": "The mark identifies a public-domain assertion and provides no warranty; it is not a rights-holder dedication or ownership clearance for this transfer.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-law",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Different US protection periods for pre-1972 recordings; used to prevent an EU territorial conclusion being described as worldwide or US clearance.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-16" }
+}

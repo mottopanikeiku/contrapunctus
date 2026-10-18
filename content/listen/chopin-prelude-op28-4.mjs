@@ -4,7 +4,7 @@ export default {
   "order": 10,
   "work": "Prelude in E minor, Op. 28 No. 4",
   "movement": "Largo",
-  "year": "1836–39",
+  "year": "completed 1839",
   "key": "E minor",
   "forces": "Piano",
   "performers": "Ivan Ilić",

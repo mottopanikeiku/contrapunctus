@@ -1,0 +1,24 @@
+{
+  "mutopia": 365,
+  "title": "Kinderszenen, Op. 15",
+  "edition": "Leichte Stücke, 1900",
+  "encoder": "Ying-Chun Liu",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=365",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "main": "SchumannOp15No03.ly",
+  "midi": "SchumannOp15No03.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No03/SchumannOp15No03.ly",
+      "file": "SchumannOp15No03.ly",
+      "sha256": "2f94fd6a14f4fd168cb08ad0707d29872478882be5bfa6f867474950991817f0"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No03/SchumannOp15No03.mid",
+      "file": "SchumannOp15No03.mid",
+      "sha256": "0a7db994303307a0c5ba33a497bbafaf1ffc45b6ddfda45151d86a761bab9c85"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

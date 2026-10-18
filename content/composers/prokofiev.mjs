@@ -3,7 +3,7 @@ export default {
   name: 'Sergei Prokofiev',
   given: 'Sergei',
   family: 'Prokofiev',
-  born: { year: 1891, date: '23 April 1891', place: 'Sontsovka, Ukraine, then Russian Empire' },
+  born: { year: 1891, date: '27 April (15 April Old Style) 1891; Prokofiev himself gave 23 April', place: 'Sontsovka, Ukraine, then Russian Empire' },
   died: { year: 1953, date: '5 March 1953', place: 'Moscow' },
   era: 'modernism',
   featured: true,

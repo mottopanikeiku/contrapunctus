@@ -54,7 +54,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 3,
+      "t": 0,
       "kind": "world",
       "title": "Not a concert balance",
       "text": "The players had to project into a recording horn. Stroh violins reinforced ordinary strings; this documented session should not be described by the generic story that acoustic orchestras always replaced basses with tubas.",

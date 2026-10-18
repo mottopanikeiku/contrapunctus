@@ -213,19 +213,23 @@
       ]
     },
     {
-      "name": "Madonna del Rosario, Rome",
+      "name": "Madonna del Rosario, Monte Mario, Rome",
       "country": "Papal States (today Italy)",
-      "lat": 41.8933,
-      "lon": 12.4828,
+      "lat": 41.9209,
+      "lon": 12.4474,
       "from": "1863-06-20",
       "to": "1866",
       "kind": "lived",
-      "what": "Took a spartan apartment in the monastery outside Rome, and received the tonsure in 1865.",
+      "what": "Took a spartan apartment in the convent on 20 June 1863; a plaque dates his stay 1862–66; tonsure 1865.",
       "status": "documented",
       "sources": [
         {
           "title": "Franz Liszt — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Franz_Liszt"
+        },
+        {
+          "title": "Madonna del Rosario (Rome) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Madonna_del_Rosario_(Rome)"
         }
       ]
     },

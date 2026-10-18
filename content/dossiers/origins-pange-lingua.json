@@ -1,0 +1,51 @@
+{
+  "id": "origins-pange-lingua",
+  "work": {
+    "title": "Pange lingua gloriosi corporis mysterium",
+    "catalogue": "",
+    "movement": "Traditional plainchant hymn",
+    "version": { "value": "Traditional Latin plainchant, identified by the performer as mode III; solo voice", "status": "documented", "sourceIds": ["commons"], "note": "The source names the chant version but does not identify a printed edition. Gregorian chant is a repertory designation, not an attribution to Pope Gregory." },
+    "authorship": { "value": "Traditional melody; text by Thomas Aquinas", "status": "documented", "sourceIds": ["commons", "hymn-history"], "note": "The text is distinguished from the earlier Pange lingua Passion hymn usually credited to Venantius Fortunatus. Aquinas is not credited as composer of the melody." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons", "hymn-history"], "note": "The text belongs to the thirteenth century. The date of the traditional tune is not established; no exact medieval year is supplied." },
+    "completeness": { "value": "Whole nominated Pange lingua file, not its cropped Tantum ergo derivative", "status": "documented", "sourceIds": ["commons"], "note": "Commons separately lists the derivative Tantum Ergo I Gregorian.ogg. The original file is retained without a new edit; individual stanza words have not been aligned." }
+  },
+  "performers": { "value": [{ "name": "Gareth Hughes", "role": "voice" }], "status": "documented", "sourceIds": ["commons"], "note": "The file description explicitly names the singer; uploader Garzo is linked in that description. No instrumental accompaniment or additional singer is credited." },
+  "session": {
+    "date": { "value": "2005-03-14", "status": "documented", "sourceIds": ["commons"], "note": "The prose explicitly says recorded on this date. This is not inferred solely from the same-day upload timestamp.", "precision": "day" },
+    "place": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No recording venue or town is given. A singer’s residence or profile is not substituted for the session location." }
+  },
+  "carrier": {
+    "label": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "An original recording label or imprint is not identified; Commons is the repository." },
+    "catalogue": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No release catalogue number is supplied." },
+    "matrixTakeSides": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No original session carrier, matrix or take number is documented." }
+  },
+  "transfer": {
+    "credits": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "The singer/uploader is documented, but a separate recording or mastering engineer is not named." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "The recording and upload date does not establish a separate conversion or mastering date." },
+    "processing": { "value": "Ogg Vorbis source; Wikimedia MP3 access derivative", "status": "documented", "sourceIds": ["commons"], "note": "Embedded software is Xiph.Org libVorbis I 20020717. No microphone, editing, equalisation, noise reduction or pitch correction is documented. Contrapunctus has not trimmed the file." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Pange_Lingua_Latin_in_Latin.ogg/Pange_Lingua_Latin_in_Latin.ogg.mp3",
+    "sourceChain": ["commons"],
+    "format": "MP3 derivative of the performer’s Ogg Vorbis upload",
+    "durationSeconds": 205.2
+  },
+  "rights": {
+    "composition": { "value": "Traditional chant and thirteenth-century text are outside ordinary composition copyright terms", "status": "inferred", "sourceIds": ["commons", "hymn-history"], "note": "This concerns the historical melody and text, not the separate copyright in Hughes’s recording or an unidentified modern edition." },
+    "recording": { "value": "Rule 1 — CC BY-SA 3.0 Unported", "status": "documented", "sourceIds": ["commons", "licence"], "note": "The creator’s recording is licensed on Commons under CC BY-SA 3.0 through the GFDL migration. This is a recording licence, not a composition-only public-domain tag. Attribution and share-alike terms are retained." },
+    "creditLine": "Traditional Pange lingua gloriosi corporis mysterium; text by Thomas Aquinas; sung by Gareth Hughes, recorded 14 March 2005. Original upload by Garzo, Wikimedia Commons. CC BY-SA 3.0; MP3 access derivative; no new editorial audio cut.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — Pange Lingua Latin in Latin.ogg", "url": "https://commons.wikimedia.org/wiki/File:Pange_Lingua_Latin_in_Latin.ogg?oldid=1044347227", "locator": "Description names Gareth Hughes, mode III and recording date 2005-03-14; licensing, original upload, derivative link, transcode and embedded software.", "accessed": "2026-10-17" },
+    { "id": "hymn-history", "title": "Hugh Henry, Pange Lingua Gloriosi, Catholic Encyclopedia (1911)", "url": "https://www.newadvent.org/cathen/11441c.htm", "locator": "The Hymn of St. Thomas Aquinas: author, Corpus Christi Office, six stanzas, relation to the older Passion hymn and separate Tantum ergo use.", "accessed": "2026-10-17" },
+    { "id": "licence", "title": "Creative Commons Attribution-ShareAlike 3.0 Unported", "url": "https://creativecommons.org/licenses/by-sa/3.0/", "locator": "Licence linked by the recording’s Commons page.", "accessed": "2026-10-17" }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17",
+    "timing": "audio.mjs analyze completed before annotation; cache/analysis/origins-pange-lingua.txt was read. Section markers group recurring stanzas approximately using measured level troughs, not word alignment. Automatic major/minor labels are not published as the chant’s mode or pitch standard.",
+    "orchestra": "Omitted: a solo monophonic recording, not an ensemble. No artificial bass or instrumental forces are supplied.",
+    "withheldClaims": ["Exact origin date of the melody", "Printed performing edition", "Venue and recording equipment", "Exact stanza or syllable timestamps", "Tuning standard and pitch-drift measurements"]
+  }
+}

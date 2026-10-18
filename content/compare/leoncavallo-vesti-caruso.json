@@ -4,11 +4,11 @@
   "composer": null,
   "group": "singers",
   "work": "Ruggero Leoncavallo: Recitar!… Vesti la giubba",
-  "question": "How does Caruso shape the shared vocal passage with piano in 1902 and orchestra in 1907?",
-  "intro": "Caruso recorded Gramophone matrix 2875b with pianist Salvatore Cottone in Milan on 30 November 1902, and Victor C-4317 with orchestra in New York on 17 March 1907. These are different acoustic masters, not the later electrically re-orchestrated dubs of the Victor recording. The provisional map compares only 5–114 seconds of the piano side with 13–139 seconds of the orchestral side; the complete streams retain their different openings and later continuations. A two-semitone difference between their analysed pitch profiles is compensated in features only, without changing playback or treating the excerpt-duration ratio as a whole-side tempo comparison.",
+  "question": "How does Caruso shape the corresponding vocal phrases over piano and orchestra?",
+  "intro": "Caruso recorded Gramophone matrix 2875b with pianist Salvatore Cottone in Milan on 30 November 1902; the orchestral transfer is attributed through Victor 88061 to C-4317, recorded in New York on 17 March 1907. Its exact master has not been confirmed from a legible runout, so the source’s acoustic attribution is retained with that qualification rather than independently excluding every later dub. The provisional map compares only 5–114 seconds of the piano side with 7–139 seconds of the orchestral side; complete streams retain their different openings and later continuations. A two-semitone adjustment applies to alignment features only, without changing playback or establishing original tuning, transfer speed or a whole-side tempo difference.",
   "recordings": [
     { "listen": "leoncavallo-vesti-caruso-1902", "label": "Caruso and Salvatore Cottone", "year": 1902, "note": "Piano; Milan, 30 November. Gramophone 2875b [1], transferred from HMV V.A.30." },
-    { "listen": "leoncavallo-vesti-caruso-1907", "label": "Caruso with orchestra", "year": 1907, "note": "New York, 17 March. Acoustic Victor 88061; C-4317 take 1 attributed through the catalogue." }
+    { "listen": "leoncavallo-vesti-caruso-1907", "label": "Caruso with orchestra (attributed 1907)", "year": 1907, "note": "Victor 88061; source describes acoustic recording. Attribution to C-4317 take 1 and its March 1907 session remains inferred through the catalogue." }
   ],
   "reference": "leoncavallo-vesti-caruso-1902",
   "passages": [

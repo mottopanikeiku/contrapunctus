@@ -72,13 +72,23 @@
       "note": ""
     },
     "catalogue": {
-      "value": "D 9758",
+      "value": "Columbia D 9758 (upstream) / D 9768 (Commons)",
       "status": "disputed",
       "sourceIds": [
         "archive",
         "commons"
       ],
-      "note": "The upstream file tags, table and companion label name D 9758; Commons says D 9768 and also mentions Polyphon 31314. The transferred Columbia issue follows the upstream record."
+      "note": "The upstream file tags, table and companion label name D 9758; Commons says D 9768 and also mentions Polyphon 31314. The conflicting Columbia catalogue numbers remain explicit rather than being silently resolved.",
+      "alternatives": [
+        {
+          "value": "Columbia D 9758",
+          "sourceIds": ["archive"]
+        },
+        {
+          "value": "Columbia D 9768",
+          "sourceIds": ["commons"]
+        }
+      ]
     },
     "matrixTakeSides": {
       "value": "F 87; take unknown",

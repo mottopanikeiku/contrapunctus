@@ -33,7 +33,7 @@
       "sourceIds": [
         "source"
       ],
-      "note": "Commons gives the impossible date 2007-17-16. Only its year is retained; month and day are not repaired by guessing.",
+      "note": "Commons presents the year 2007. The original upload comment contains the impossible date 2007-17-16; month and day are not repaired by guessing.",
       "precision": "year"
     },
     "place": {

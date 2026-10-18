@@ -121,7 +121,7 @@ export async function mount(app) {
     ui.frame.classList.toggle('scored', v !== 'sound');
     ui.frame.dataset.view = v;
     ui.label.textContent = v === 'sound' ? 'Pitch over time · each band is an octave of C' : '';
-    ui.chordCap.textContent = score ? 'from the score' : 'heard harmony · estimate';
+    ui.chordCap.textContent = track.monophonic ? 'one melody · no chords' : score ? 'from the score' : 'heard harmony · estimate';
     ui.bassLabel.textContent = score ? 'Lowest note' : 'Bass';
     ui.topLabel.textContent = score ? 'Sounding now' : 'Strongest pitches';
     if (v === 'score') viewObj = sheetView();
@@ -881,6 +881,7 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
     }
     const name = !silent && best && best.sc > 0.72 && best.sc - second > 0.012 ? `${NAMES[best.root]}${best.suf}` : '';
     if (name === chordHold.name) chordHold.n++; else chordHold = { name, n: 1 };
+    if (track.monophonic) { ui.chord.textContent = '—'; chordTones = []; return; }
     if (chordHold.n >= 3 && name !== shownChord) { shownChord = name; chordTones = name ? best.tones : []; ui.chord.textContent = name || '—'; }
   }
 

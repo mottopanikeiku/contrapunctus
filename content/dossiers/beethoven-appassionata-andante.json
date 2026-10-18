@@ -1,0 +1,191 @@
+{
+  "id": "beethoven-appassionata-andante",
+  "work": {
+    "title": "Piano Sonata No. 23 in F minor, ‘Appassionata’",
+    "catalogue": "Op. 57",
+    "movement": "II. Andante con moto",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "bloesch", "score"],
+      "note": "The original solo-piano movement is identified, but Schnabel’s performing edition and editorial alterations are not documented. The listening commentary uses the viewable original edition, plate 521; that does not establish the score used in 1933. The musical attacca into movement III is distinguished from the spacing of the separately hosted MP3 files."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Artur Schnabel", "role": "piano" }],
+    "status": "documented",
+    "sourceIds": ["archive", "bloesch", "digital-file"],
+    "note": "Archive description, embedded artist tag and discography agree. Bloesch identifies a Bechstein piano in Studio No. 3 for the session; no instrument serial number is established."
+  },
+  "session": {
+    "date": {
+      "value": "1933-04-11",
+      "status": "documented",
+      "sourceIds": ["archive", "bloesch", "pristine"],
+      "note": "The Archive’s sonata-specific description gives 11.IV.1933, corroborated by Bloesch and the reissue documentation. The compilation-level date 1932 is not adopted for this movement. Neither the embedded 2001 tag nor the 2020 repository upload establishes a session or transfer date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Abbey Road Studios, Studio No. 3, London, England",
+      "status": "documented",
+      "sourceIds": ["bloesch", "pristine"],
+      "note": "The chronological session list identifies Studio No. 3 and a Bechstein; the work entry identifies Abbey Road Studios, London."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "bloesch", "digital-file"],
+      "note": "The historical original issue was on His Master’s Voice, but the carrier or later reissue actually transferred for this MP3 is not named. The original label is not substituted for that missing link."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "bloesch", "publication"],
+      "note": "The original complete-sonata issue was HMV DB 2215–2217 in Beethoven Sonata Society Volume 5, within set DB 2211–2217. The selected digital file does not identify the pressing or reissue from which it was made; its source-carrier catalogue number remains unknown."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "bloesch", "publication"],
+      "note": "Bloesch assigns the Andante to historical sides 2B 6607 and 2B 6608; the issued takes are listed as 1, matching catalogue entries 2B 6607I and 2B 6608I. Bloesch also records a change in the selection history of 2B 6608. The MP3’s actual take selection and side-join location have not independently been established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-page", "digital-file", "pristine"],
+      "note": "No engineer is credited for the selected MP3. The uploader recordplayer78 is not identified as the transfer engineer or rights owner. Andrew Rose’s credit belongs to the separately documented Pristine reissue, not automatically to this file. No upstream link between the two transfers is established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "digital-file"],
+      "note": "Archive added/public date: 27 March 2020. Embedded date tag: 2001, with no documented release or transfer referent. Neither is used as the analogue-transfer date."
+    },
+    "processing": {
+      "value": "The embedded encoder tag states ‘Audiograbber 1.83.01, LAME dll 3.99, 256 Kbit/s, Joint Stereo, Normal quality’.",
+      "status": "documented",
+      "sourceIds": ["digital-file", "archive"],
+      "note": "The downloaded selected stream has MP3 audio at 44,100 Hz, two channels and 256,000 bit/s, with an attached JPEG image. Two-channel encoding is not evidence of an original stereo recording. Analogue equipment, equalisation, restoration, noise reduction, speed/pitch correction and edit history are unknown. Archive’s generic ‘VBR MP3’ inventory label is kept separate from the inspected stream and encoder tag."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/beethovenschnabel6/75%20-%20Klaviersonate%20Nr.%2023%20f-moll%20op.%2057%20Appassionata%20%20-%20II.%20Andante%20con%20moto.mp3",
+    "sourceChain": ["archive-page", "archive", "digital-file"],
+    "format": "MP3; inspected audio 256 kb/s, 44.1 kHz, two channels; Archive format label VBR MP3",
+    "durationSeconds": 360.128067
+  },
+  "rights": {
+    "composition": {
+      "value": "The underlying Beethoven composition is public domain under the ordinary EU life-plus-70 term.",
+      "status": "inferred",
+      "sourceIds": ["publication", "eu-term", "score"],
+      "note": "Beethoven died in 1827. The historical score is distinct from any unidentified modern performing edition. The composition’s term does not establish the rights in Schnabel’s recording."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: original sound recording first published in 1934.",
+      "status": "documented",
+      "sourceIds": ["publication", "bloesch", "eu-term", "eu-extension", "archive", "pd-mark", "us-law"],
+      "note": "The Public Domain Project release-set catalogue explicitly dates first release of HMV DB 2211–2217 to 1934. Bloesch identifies the Appassionata issue as DB 2215–2217, matrices 2B 6605–6610, establishing publication separately from the 11 April 1933 recording date. Under the programme’s territorial EU rule, the earlier 50-year term expired before the 2013 extension. US status is not established; no worldwide clearance is claimed. Archive’s Public Domain Mark is not an ownership release, and the Public Domain Project’s worldwide/US expiry table is not relied upon. No CC licence or independently established additional rights in an unidentified modern transfer are asserted."
+    },
+    "creditLine": "Ludwig van Beethoven, Piano Sonata No. 23, Op. 57, II. Andante con moto — Artur Schnabel, piano; recorded 11 April 1933, Abbey Road Studio No. 3, London. Originally issued by HMV in Beethoven Sonata Society Volume 5; selected MP3 through Internet Archive item beethovenschnabel6. Transferred carrier and engineer unknown. Territorial EU recording basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — beethovenschnabel6 metadata and file inventory",
+      "url": "https://archive.org/metadata/beethovenschnabel6",
+      "locator": "Op. 57 description gives 11.IV.1933. Selected original MP3: ‘75 - Klaviersonate Nr. 23 f-moll op. 57 Appassionata  - II. Andante con moto.mp3’ (two spaces before the movement separator), track 75, length 360.13, MD5 7622321a308de4fa759179798e46bd91. Compilation date 1932, repository dates and uploader inspected separately; no transferred carrier or engineer identified.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive-page",
+      "title": "Internet Archive — Beethoven: Piano Sonatas, Artur Schnabel, volume 6",
+      "url": "https://archive.org/details/beethovenschnabel6",
+      "locator": "Item description, track selection and Public Domain Mark link. The item-level Publication date 1932 is not the Op. 57 first-publication evidence.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "digital-file",
+      "title": "Selected Archive MP3 — movement II, embedded metadata and stream inspection",
+      "url": "https://archive.org/download/beethovenschnabel6/75%20-%20Klaviersonate%20Nr.%2023%20f-moll%20op.%2057%20Appassionata%20%20-%20II.%20Andante%20con%20moto.mp3",
+      "locator": "Downloaded by node tools/audio.mjs analyze; cache/analysis/beethoven-appassionata-andante.txt inspected before writing timestamps. ffprobe: duration 360.128067 s, MP3 44,100 Hz, 2 channels, 256,000 bit/s; artist Artur Schnabel, album Beethoven: Sämtliche Klaviersonaten, track 75, date 2001 and Audiograbber/LAME encoder tag. These tags do not identify an analogue source or engineer.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "bloesch",
+      "title": "David Bloesch — Artur Schnabel: A Discography (1987), Schnabel Music Foundation reproduction",
+      "url": "https://schnabelmusicfoundation.org/comceptr/uploads/Artur-Schnabel-A-Discography-by-David-Bloesch.pdf",
+      "locator": "Printed p. 47, entry 49: Op. 57, HMV, matrices 2B 6605/10, Abbey Road Studios, 11 April 1933, original DB 2215/7 in Volume 5. Printed p. 89: Studio No. 3, Bechstein; Andante sides 2B 6607 and 6608 and take-selection history. Introductory acknowledgements credit EMI recording logs. Relevant scan pages inspected visually.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "pristine",
+      "title": "Pristine Classical PAKM043 — Schnabel Beethoven Piano Sonatas, volume 7",
+      "url": "https://www.pristineclassical.com/products/pakm043",
+      "locator": "Op. 57 session 11 April 1933, Abbey Road Studio 3, original HMV DB 2215–17 and matrices 2B 6605–10. Corroborates the historical recording; its engineer and track timings are not attributed to the selected Archive file.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "publication",
+      "title": "Public Domain Project Mediapool — HMV DB 2211–2217 release set",
+      "url": "https://pool.publicdomainproject.org/index.php/HMV_DB_2211-2217",
+      "locator": "Explicit first release date 1934; HMV, DB 2211–2217, Op. 57 and matrix series 2B 6605II–2B 6610I. The listed 12 April 1933 recording reference concerns the coupled Op. 22, not this sonata. Worldwide/US copyright-expiry claims are not adopted.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "score",
+      "title": "Beethoven-Haus — Op. 57 original edition, Bureau des Arts et d’Industrie, plate 521",
+      "url": "https://www.beethoven.de/en/media/view/6661552451092480?page=0",
+      "locator": "Sammlung Jean Van der Spek, J. Van der Spek C op. 57. Printed pp. 14–16: complete Andante, theme repeats, variations, unrepeated return and diminished-seventh fermatas; p. 17 supplies the finale continuation. Viewable historical score inspected directly. Listening boundaries are analysis-supported passage estimates, not reviewed bar alignment.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-history",
+      "title": "Beethoven-Haus — Sonata for piano in F minor, Op. 57",
+      "url": "https://www.beethoven.de/en/work/view/5292968940404736",
+      "locator": "Dedication to Franz Brunsvik; composition chronology 1804–first half 1806; autograph’s ownership by Marie Bigot and present BnF location. The storm story is not repeated as independently established fact.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "schnabel-biography",
+      "title": "Schnabel Music Foundation — Artur Schnabel",
+      "url": "https://schnabelmusicfoundation.org/musicians/artur-schnabel/",
+      "locator": "Marriage to Therese Behr in 1905, their song collaboration and Berlin Schubert programmes in 1928. No inference about the engineering or expressive intent of this recording is drawn from these facts.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — term of protection",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+      "locator": "Articles 1, 3 and 8: underlying composition, former performer/phonogram terms and calculation from the following 1 January; read with the subsequent extension’s transitional provision.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — phonogram-term extension and transitional provision",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Article 1 amendments to Articles 3 and 10 of Directive 2006/116/EC: extension for protection still subsisting on 1 November 2013. This supplies a territorial term basis, not a worldwide licence.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "pd-mark",
+      "title": "Creative Commons — Public Domain Mark 1.0",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "locator": "Identification of a public-domain assertion without warranty; not a rights-holder release or proof of the uploader’s ownership.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "us-law",
+      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "US terms for historical sound recordings differ from the EU basis. US public-domain status is not established in this dossier.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-16" }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Symphony No. 1 in C minor, Op. 68 — II. Andante sostenuto",
+  "edition": "IMSLP #317803",
+  "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from the derivative",
+  "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.1%2C_Op.68/2/Brahms_Op.68_2.mxl",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+  "main": "Brahms_Op.68_2.ly",
+  "musicxml": "Brahms_Op.68_2.mxl",
+  "stripLyrics": true,
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.1%2C_Op.68/2/Brahms_Op.68_2.mxl",
+      "file": "Brahms_Op.68_2.mxl",
+      "sha256": "2985a781eb970b5917a464bc4fbbc008f45d32637468269618a02201db8706fa"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

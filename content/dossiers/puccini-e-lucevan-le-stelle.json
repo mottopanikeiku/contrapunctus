@@ -1,0 +1,199 @@
+{
+  "id": "puccini-e-lucevan-le-stelle",
+  "work": {
+    "title": "Tosca",
+    "catalogue": "",
+    "movement": "Act III · E lucevan le stelle — piano-accompanied recording",
+    "version": {
+      "value": "Piano-accompanied acoustic recording; exact reduction unestablished",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Tenor and piano are explicitly documented. No score for Cottone’s particular reduction has been identified; no orchestra timeline is supplied."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Enrico Caruso",
+        "role": "tenor"
+      },
+      {
+        "name": "Salvatore Cottone",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "upstream"
+    ],
+    "note": "Both the Commons description and the opened upstream transfer explicitly credit piano accompaniment. This is not an orchestral recording; no orchestral instrument is described in its listening notes."
+  },
+  "session": {
+    "date": {
+      "value": "1902-04-11",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The original transfer description identifies 11 April 1902; Commons repeats it. The 2011 YouTube and 2018 Commons uploads are not recording dates.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Grand Hotel, Milan, Italy",
+      "status": "documented",
+      "sourceIds": [
+        "upstream"
+      ],
+      "note": "City/place as stated in the cited recording source; no more precise room or studio inferred."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Gramophone & Typewriter / Gramophone Concert Record",
+      "status": "inferred",
+      "sourceIds": [
+        "friedman",
+        "label"
+      ],
+      "note": "Historical identification is inferred by combining the named 1902 performance in the transfer description with Friedman’s first-session matrix discussion and the reproduced G.C. 52349 label. The exact disc used by this transfer is not demonstrated."
+    },
+    "catalogue": {
+      "value": "G.C. 52349 — historical issue associated with the 1902 recording; source pressing unestablished",
+      "status": "inferred",
+      "sourceIds": [
+        "friedman",
+        "label"
+      ],
+      "note": "Historical identification is inferred by combining the named 1902 performance in the transfer description with Friedman’s first-session matrix discussion and the reproduced G.C. 52349 label. The exact disc used by this transfer is not demonstrated."
+    },
+    "matrixTakeSides": {
+      "value": "1790 — historical matrix associated with Caruso’s April 1902 recording; take and source-pressing markings unestablished",
+      "status": "inferred",
+      "sourceIds": [
+        "friedman",
+        "label"
+      ],
+      "note": "Historical identification is inferred by combining the named 1902 performance in the transfer description with Friedman’s first-session matrix discussion and the reproduced G.C. 52349 label. The exact disc used by this transfer is not demonstrated."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Tom Frøkjær — upstream uploader and presenter of the direct 78 transfer",
+      "status": "documented",
+      "sourceIds": [
+        "upstream"
+      ],
+      "note": "The video title calls this a direct transfer from an original 78 and the channel is Tom Frøkjær. A separate engineer credit is not supplied. No restoration method, transfer equipment or transfer date is inferred."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date established. The Commons, Archive and YouTube upload dates are not treated as digitisation or restoration dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The source identifies a direct 78 transfer but does not document equalisation, denoising, pitch correction or speed correction."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/E_lucevan_le_stelle_%281902%29.opus/E_lucevan_le_stelle_%281902%29.opus.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Opus",
+    "durationSeconds": 153.92
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Puccini composition and historical libretto are public domain where ordinary life-plus-70 terms apply; no modern edition is claimed cleared.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "biography"
+      ],
+      "note": "Commons marks the historical work public domain. This does not by itself establish the sound recording’s rights; the recording basis is separately documented below."
+    },
+    "recording": {
+      "value": "Rule 2 — United States public domain: the original 1902 Caruso sound recording was commercially pressed before 1923.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream",
+        "friedman",
+        "label",
+        "us-recording-term"
+      ],
+      "note": "This is a sound-recording basis, not a grant inferred from the composer-only tag. Friedman documents early pressings of matrix 1790 and a metal-part marking in use during 1903–1905; the source transfer identifies the April 1902 performance. Its particular pressing is unknown. The YouTube page supplies no separate CC licence and none is asserted. No worldwide clearance claim."
+    },
+    "creditLine": "Giacomo Puccini, Tosca: E lucevan le stelle. Enrico Caruso, tenor; Salvatore Cottone, piano; Milan, 11 April 1902. Direct 78 transfer presented by Tom Frøkjær, YouTube kIMt7i7zeFc, imported by Racconish to Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — E lucevan le stelle (1902).opus",
+      "url": "https://commons.wikimedia.org/wiki/File:E_lucevan_le_stelle_(1902).opus",
+      "locator": "Description explicitly names Caruso and Cottone’s piano; 11 April 1902; source YouTube kIMt7i7zeFc; upload by Racconish in 2018 and Opus metadata; MP3 derivative. Upload and session kept distinct.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "upstream",
+      "title": "Tom Frøkjær — Caruso, E lucevan le stelle, direct transfer from original 78",
+      "url": "https://www.youtube.com/watch?v=kIMt7i7zeFc",
+      "locator": "Opened video description: first recording session, Grand Hotel in Milan, 11 April 1902; Salvatore Cottone piano. Channel Tom Frøkjær, upload 7 September 2011. No CC or non-commercial licence stated in the returned description. No musical audition claimed.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "friedman",
+      "title": "Howard Friedman — Collector’s Guide to Gramophone Company Record Labels, page 7",
+      "url": "https://musicweb-international.com/Friedman/page7.htm",
+      "locator": "Discussion of multiple pressings of matrix 1790, Caruso’s first E lucevan from April 1902, and CO markings dating metal parts to 1903–1905. Primary-label reproductions accompany the analysis.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label",
+      "title": "Gramophone Concert Record G.C. 52349 — reproduced label",
+      "url": "https://musicweb-international.com/Friedman/images/Image838.jpg",
+      "locator": "Opened image: red Gramophone Concert Record label, G.C. 52349, Milan. Reproduction illustrates the historical issue, not the unidentified disc used for this transfer.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "synopsis",
+      "title": "Opéra national de Paris — Tosca, 2025–26",
+      "url": "https://www.operadeparis.fr/en/season-25-26/opera/tosca",
+      "locator": "Acts I–III synopses; Roman locations, painter and Attavanti, Scarpia’s coercion, letter before execution. Used for dramatic context, not timings.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "biography",
+      "title": "Puccini Festival — Giacomo Puccini",
+      "url": "https://www.puccinifestival.it/en/giacomo-puccini/",
+      "locator": "Biography and work entries: early church work, Milan studies, librettists, source authors, premieres, composer’s death in 1924.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-recording-term",
+      "title": "U.S. Copyright Office — Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term: recordings first published before 1923 ceased receiving the specified federal remedies after 31 December 2021. Sound-recording basis, distinct from composition copyright.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

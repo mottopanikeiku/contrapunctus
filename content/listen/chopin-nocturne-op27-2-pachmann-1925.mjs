@@ -61,7 +61,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 2,
+      "t": 0,
       "kind": "world",
       "title": "He does not speak",
       "text": "The contemporary reviewer explicitly noted the absence of spoken comments on DB 860. Listen to the musical phrasing itself, not the anecdotes often attached to Pachmann’s name.",

@@ -9,67 +9,99 @@
       "status": "unknown",
       "sourceIds": [
         "commons",
-        "imslp"
+        "imslp",
+        "oma"
       ],
-      "note": "The source does not say which version or edition of the symphony was performed. No Haas, Nowak or first-edition attribution is made."
+      "note": "Neither the Commons page, the IMSLP performance entry, the embedded tags nor the Munich analysis page names the edition performed (Gutmann 1885, Haas, Nowak or Cohrs). The 1885 first edition is cited only as a viewable public-domain score for the orchestration timeline."
     }
   },
   "performers": {
     "value": [
       {
-        "name": "University of Music and Theatre Munich",
-        "role": "institution credited for the performance"
+        "name": "Hochschulsymphonieorchester (Munich)",
+        "role": "orchestra"
+      },
+      {
+        "name": "Marcus Bosch",
+        "role": "conductor"
       }
     ],
     "status": "documented",
     "sourceIds": [
+      "imslp",
+      "tags",
+      "oma",
       "commons"
     ],
-    "note": "The source credits the institution, not a named conductor or a roster of players."
+    "note": "The IMSLP performance entry gives “Hochschulsymphonieorchester (Munich), Marcus Bosch (conductor)”, the MP3’s embedded artist tag reads “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch”, and the Munich analysis page repeats the credit. The Commons page credits only “University of Music and Theatre Munich” as author. No roster of players is given."
   },
   "session": {
     "date": {
-      "value": "2020",
-      "status": "inferred",
+      "value": "2020 (credits) or 8 November 2021 (inferred from file names and a programme listing)",
+      "status": "disputed",
       "sourceIds": [
-        "commons"
+        "imslp",
+        "tags",
+        "commons",
+        "oma",
+        "gasteig"
       ],
-      "note": "Commons dates the file to 2020 but gives no session description. This is an attributed recording year, not a verified concert date.",
-      "precision": "year"
+      "note": "The credits (IMSLP: “Live recording at the University of Music and Theatre Munich 2020”; embedded date tag; Commons; Munich analysis page) give 2020. The IMSLP file names, however, carry the token 2021-11-08, and the Gasteig November 2021 programme lists a Hochschulsymphonieorchester München concert under Marcus Bosch with Bruckner’s Seventh at the Isarphilharmonie, 19:00, under Mo 08. That matching concert is an inferred association, not proof that the files were cut from it; neither date is promoted to a settled session date, and no day or month is documented in the credits.",
+      "precision": "approximate",
+      "alternatives": [
+        {
+          "value": "2020 (year only; credit on IMSLP, Commons, the embedded tags and the Munich analysis page)",
+          "sourceIds": [
+            "imslp",
+            "tags",
+            "commons",
+            "oma"
+          ]
+        },
+        {
+          "value": "8 November 2021 (inferred from the IMSLP file-name token 2021-11-08 and the Gasteig programme listing)",
+          "sourceIds": [
+            "imslp",
+            "gasteig"
+          ]
+        }
+      ]
     },
     "place": {
-      "value": null,
-      "status": "unknown",
+      "value": "University of Music and Theatre Munich (Hochschule für Musik und Theater München); the hall is not named in the credits",
+      "status": "documented",
       "sourceIds": [
-        "commons"
+        "imslp",
+        "tags",
+        "gasteig"
       ],
-      "note": "No recording venue is identified in the consulted source."
+      "note": "IMSLP’s miscellaneous note and the embedded comment (“Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020”) name the institution as the place of the live recording, not a hall. The Gasteig programme lists a concert with the same forces at the Isarphilharmonie; whether the recording was made there is not established."
     }
   },
   "carrier": {
     "label": {
-      "value": null,
-      "status": "unknown",
+      "value": "University of Music and Theatre Munich (IMSLP publisher information); no commercial label",
+      "status": "documented",
       "sourceIds": [
-        "commons"
+        "imslp"
       ],
-      "note": "The original release label is not identified."
+      "note": "IMSLP’s publisher field reads “University of Music and Theatre Munich, 2020”. The file is a concert recording distributed through IMSLP and Wikimedia Commons, not a label release."
     },
     "catalogue": {
-      "value": null,
-      "status": "unknown",
+      "value": "IMSLP recording #899192; file PMLP7929-2021-11-08 HP8 HSO Bruckner-7 03.mp3",
+      "status": "documented",
       "sourceIds": [
-        "commons"
+        "imslp"
       ],
-      "note": "No original carrier catalogue number is supplied."
+      "note": "This is IMSLP’s own identifier for the file, not a label catalogue number."
     },
     "matrixTakeSides": {
       "value": null,
-      "status": "unknown",
+      "status": "not applicable",
       "sourceIds": [
-        "commons"
+        "imslp"
       ],
-      "note": "No matrix, take or disc-side identifiers are supplied; the digital file format does not establish the original carrier."
+      "note": "A live concert capture distributed as an MP3 file has no disc matrix, take or side. This is not a statement about the original recording medium."
     }
   },
   "transfer": {
@@ -77,25 +109,28 @@
       "value": null,
       "status": "unknown",
       "sourceIds": [
+        "imslp",
         "commons"
       ],
-      "note": "No transfer or restoration engineer is identified; an uploader is not assumed to be the engineer."
+      "note": "IMSLP names the uploader of the file (Musikisum, 11 February 2024) and the Commons file page lists the University as author; neither identifies a recording, editing or mastering engineer. An uploader is not treated as a transfer engineer."
     },
     "date": {
       "value": null,
       "status": "unknown",
       "sourceIds": [
+        "imslp",
         "commons"
       ],
-      "note": "No transfer date is documented. Upload and transcode dates are not session or transfer dates."
+      "note": "The IMSLP upload date (11 February 2024) and the Commons revision dates are not transfer or session dates."
     },
     "processing": {
-      "value": null,
-      "status": "unknown",
+      "value": "MP3 file, about 128 kbit/s, 535.414 s, with embedded ID3 tags; hosted unchanged on Wikimedia Commons as an MP3 original.",
+      "status": "documented",
       "sourceIds": [
-        "commons"
+        "tags",
+        "media"
       ],
-      "note": "No source-transfer or restoration processing is disclosed. The access-file encoding is recorded separately."
+      "note": "The bit rate and tags were read from the cached copy with ffprobe; the Commons media record gives the duration and MP3 type. No restoration, editing or loudness processing is disclosed."
     }
   },
   "digital": {
@@ -117,14 +152,17 @@
       "note": "The notice applies PD-old-auto-expired with Bruckner’s death year 1896. It does not license a modern score edition."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC BY-SA 4.0 International.",
+      "value": "Creative Commons Attribution-ShareAlike 4.0 International. Rights rule 1: the licence covers the sound recording.",
       "status": "documented",
       "sourceIds": [
-        "rights-audit-commons"
+        "commons",
+        "imslp",
+        "tags",
+        "oma"
       ],
-      "note": "The recording field of Commons Copyright information explicitly contains Cc-by-sa-4.0 for the University of Music and Theatre Munich performance attributed to 2020. The composition’s separate public-domain tag is not the recording basis."
+      "note": "The Commons Copyright information template gives recording = CC BY-SA 4.0, the IMSLP performance entry states Creative Commons Attribution-ShareAlike 4.0, the embedded copyright tag reads CC BY-SA 4.0, and the Munich analysis page states the licence for the same recording with a rights-holder attribution pattern. The licence is that of the University of Music and Theatre Munich’s recording and is separate from the composition’s public-domain tag."
     },
-    "creditLine": "Anton Bruckner: Symphony No. 7, III. Scherzo — University of Music and Theatre Munich, as credited on Wikimedia Commons. Recording: CC BY-SA 4.0; Commons cites IMSLP as its source.",
+    "creditLine": "Anton Bruckner, Symphony No. 7, III. Scherzo — Sehr schnell; Trio — Etwas langsamer — Hochschulsymphonieorchester (Munich), Marcus Bosch; live recording, University of Music and Theatre Munich (credited 2020). CC BY-SA 4.0, via IMSLP and Wikimedia Commons.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "sources": [
@@ -132,33 +170,47 @@
       "id": "commons",
       "title": "Wikimedia Commons — File:HSO Bruckner-7 03.mp3",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1142651921",
-      "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
-      "accessed": "2026-10-16"
+      "locator": "Summary: description, date, source, author; Licensing: Copyright information (recording CC BY-SA 4.0; composition PD-old-auto-expired, death year 1896). Raw wikitext read on the access date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Symphony No. 7 in E major, WAB 107 (Bruckner, Anton)",
+      "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)",
+      "locator": "Recordings: #899192 (PMLP7929-2021-11-08 HP8 HSO Bruckner-7 03.mp3): Publisher Info. University of Music and Theatre Munich, 2020; Performers Hochschulsymphonieorchester (Munich), Marcus Bosch (conductor); Copyright CC BY-SA 4.0; Misc. Notes Live recording at the University of Music and Theatre Munich 2020. Page HTML retrieved directly (the listing is scripted in a browser).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "tags",
+      "title": "Embedded ID3 tags of the cached MP3 (ffprobe)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/HSO_Bruckner-7_03.mp3",
+      "locator": "artist “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch”; comment “Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020”; copyright “CC BY-SA 4.0”; date 2020; title “Anton Bruckner, Sinfonie Nr. 7 E-Dur (WAB 107), 3. Satz: Scherzo. Sehr schnell”; about 128 kbit/s.",
+      "accessed": "2026-10-17"
     },
     {
       "id": "media",
       "title": "Wikimedia Commons audio metadata API",
-      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AHSO+Bruckner-7+03.mp3&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
-      "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
-      "accessed": "2026-10-16"
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AHSO%20Bruckner-7%2003.mp3&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, MIME type and original MP3 URL.",
+      "accessed": "2026-10-17"
     },
     {
-      "id": "imslp",
-      "title": "IMSLP — Symphony No. 7 in E major, WAB 107",
-      "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)",
-      "locator": "General Information: work identity and publication history. Commons names this page as its audio source; the extracted page did not expose the specific Munich performance entry.",
-      "accessed": "2026-10-16"
+      "id": "oma",
+      "title": "openmusic.academy — Anton Bruckner, Sinfonie Nr. 7 E-Dur (WAB 107) (analysis page with the same HSO München / Marcus Bosch recording)",
+      "url": "https://openmusic.academy/docs/bmwvSwGA9xQFLhfL4GJukj/anton-bruckner-sinfonie-nr7-e-dur-wab-107",
+      "locator": "Player captions: “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch — Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020, Lizenz: CC BY-SA 4.0”; the page also states a rights-holder attribution pattern for the files.",
+      "accessed": "2026-10-17"
     },
     {
-      "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:HSO Bruckner-7 03.mp3",
-      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1142651921&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
-      "locator": "Opened file-description wikitext for File:HSO Bruckner-7 03.mp3; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "id": "gasteig",
+      "title": "Gasteig München — Programme, November 2021 (PDF)",
+      "url": "https://www.gasteig.de/imgs/Gasteig_Nov2021_Web1.pdf?x66008=",
+      "locator": "PDF page 16 by extraction; entry under “Mo 08”: coopERATIONEN – Benefizkonzert Yehudi Menuhin Live Music Now, HSO München, Raphaela Gromes (cello), Leitung Marcus Bosch, Schumann Cello Concerto and Bruckner Symphony No. 7 (HMTM), Isarphilharmonie, 19:00. The day heading was read from the extracted text layer.",
       "accessed": "2026-10-17"
     }
   ],
   "editorial": {
     "editor": "Contrapunctus research desk",
-    "revised": "2026-10-16"
+    "revised": "2026-10-17"
   }
 }

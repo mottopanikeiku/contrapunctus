@@ -1,0 +1,24 @@
+{
+  "mutopia": 1437,
+  "title": "Symphony No. 5, Op. 67 — II. Andante con moto",
+  "edition": "Breitkopf and Härtel, 1862–1865",
+  "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1437",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "Symphony5_2-lys/Symphony5_2.ly",
+  "midi": "Symphony5_2.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_2/Symphony5_2-lys.zip",
+      "file": "Symphony5_2-lys.zip",
+      "sha256": "3a6b1e8f71d108ec0880a175c105b639fca9b63bc85fc5ccbdaff259f776473e"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_2/Symphony5_2.mid",
+      "file": "Symphony5_2.mid",
+      "sha256": "3f360acfb2e3c4608fb396d0b2ca82d06921ea9fc3946ece46294f24461d7bac"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

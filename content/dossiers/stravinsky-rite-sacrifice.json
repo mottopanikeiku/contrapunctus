@@ -1,0 +1,213 @@
+{
+  "id": "stravinsky-rite-sacrifice",
+  "work": {
+    "title": "The Rite of Spring",
+    "catalogue": "K015",
+    "movement": "Part II. The Sacrifice",
+    "version": {
+      "value": "Orchestral ballet; this 1960 performance uses the separately published 1943 revision of the final Sacrificial Dance.",
+      "status": "documented",
+      "sourceIds": [
+        "catalogue",
+        "sleeve",
+        "study"
+      ],
+      "note": "Not a literal restoration of the 1913 performance. Part I stage notes use shared scoring features of the later corrected Boosey/Dover score; a detailed Part II stage map is withheld because the matching 1943 finale score was not inspected."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Igor Stravinsky",
+        "role": "conductor"
+      },
+      {
+        "name": "Columbia Symphony Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "sleeve",
+      "label"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "5–6 January 1960",
+      "status": "documented",
+      "sourceIds": [
+        "label",
+        "catalogue"
+      ],
+      "note": "Recording dates, not the 1961 issue date or the 2021 digitisation date.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Ballroom, St George Hotel, Brooklyn, New York",
+      "status": "documented",
+      "sourceIds": [
+        "label"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "D3S 614 (stereo set), first issued 1961",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label"
+      ],
+      "note": "The label reissue discography independently establishes the 1961 first publication required for this territorial rule-3 selection."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "sleeve"
+      ],
+      "note": "This file is record one, side 2. Session matrix and take numbers were not established; the Archive filename is not a matrix number."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive; ripping operator associate-mann-borden",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Archive metadata names the operator. Harold Tichenor and Gene Gaudette are credited on a different, later Parnassus reissue, not on this transfer."
+    },
+    "date": {
+      "value": "1 February 2021",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "ripping_date 20210201031833; distinguish sleeve scanning and later MP3 derivative creation."
+    },
+    "processing": {
+      "value": "Technics SL-1200MK5 with Audio-Technica AT95e cartridge → RDL EZ-PH1 preamplifier → Focusrite Scarlett 2i2; ArchiveCD 2.2.53lp; Archive MP3 derivative of the LP transfer.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Original FLAC comments name SoX processing; no detailed restoration, equalisation or noise-reduction settings were established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/disc1/02.01.%20Le%20Sacre%20Du%20Printemps%20(%22The%20Rite%20Of%20Spring%22)%3A%20(Part%20II).mp3",
+    "sourceChain": [
+      "archive",
+      "sleeve",
+      "label"
+    ],
+    "format": "MP3 (Internet Archive VBR derivative of vinyl LP transfer)",
+    "durationSeconds": 1006.63
+  },
+  "rights": {
+    "composition": {
+      "value": "The composition is not established public domain in the EU. Early published score material has different territorial status; the 1943 finale requires its own assessment.",
+      "status": "documented",
+      "sourceIds": [
+        "score-rights",
+        "catalogue"
+      ],
+      "note": "The sound-recording selection rule is not a blanket clearance of every edition or underlying composition right."
+    },
+    "recording": {
+      "value": "EU territorial phonogram-term basis: first lawful publication in 1961, before 1963. US recording status not established.",
+      "status": "documented",
+      "sourceIds": [
+        "label",
+        "term"
+      ],
+      "note": "Programme rule 3. The first publication may be a US issue; the EU term is not restarted by a later EU reissue. No Creative Commons licence is claimed for this transfer."
+    },
+    "creditLine": "Igor Stravinsky conducting the Columbia Symphony Orchestra; recorded 5–6 January 1960. Columbia Masterworks D3S 614 (1961); LP transfer supplied by Internet Archive. EU territorial recording-term basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Columbia Masterworks D3S 614 LP transfer and metadata",
+      "url": "https://archive.org/details/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0",
+      "locator": "Item metadata and disc1 files; digitisation lineage and ripping_date fields",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sleeve",
+      "title": "Original Columbia Stravinsky Conducts 1960 booklet and label OCR",
+      "url": "https://archive.org/download/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0_djvu.txt",
+      "locator": "Album credits, record-one contents, Associated Music Publishers credit for Danse Sacrale",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label",
+      "title": "Parnassus PACL 95003/4: Stravinsky conducts The Rite of Spring and Petrouchka",
+      "url": "https://media.musicalconcepts.net/wp-content/uploads/2021/06/28214506/PACL-95003_4-Booklet.pdf",
+      "locator": "p. 2: 5–6 January 1960 sessions, St George Hotel ballroom, John McClure, first release 1961 Columbia Masterworks D3S 614. Later reissue transfer credits do not describe the Archive transfer. The essay’s erroneous premiere date is not used.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "catalogue",
+      "title": "K catalogue: K015, Le Sacre du printemps",
+      "url": "https://www.kcatalog.org/index.php/browse-chapters/kcatalog/188-k015-the-rite-of-spring",
+      "locator": "Versions; Recordings under the direction of the composer: 5–6 January 1960, with revised Danse sacrale",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "study",
+      "title": "Pieter C. van den Toorn, Stravinsky and the Rite of Spring (1987)",
+      "url": "https://publishing.cdlib.org/ucpressebooks/public/book/stravinsky-and-the-rite-of-spring.html",
+      "locator": "Chapters 1–2: scenario, premiere evidence and printed versions; chapters 3–4 and 7: rhythmic organisation",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "The Rite of Spring full score, Dover reprint of the corrected Boosey text",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/a/af/IMSLP524674-PMLP179425-PMLUS00725-complete1.pdf",
+      "locator": "Part I pp. 1–85. Inspected opening and pp. 12, 32, 45, 54, 69, 74, 78. Shared scoring features only; its finale is not the separate 1943 revision heard on this recording.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score-rights",
+      "title": "IMSLP: The Rite of Spring — edition and territorial copyright notice",
+      "url": "https://imslp.org/wiki/The_Rite_of_Spring_(Stravinsky,_Igor)",
+      "locator": "Opening copyright warning and file #524674 edition description",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "riot",
+      "title": "John McFerrin, The Rite of Spring: Library of Congress recording essay",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/TheRiteOfSpring.pdf",
+      "locator": "p. 1: documented disturbance and uncertain riot narrative. The essay concerns the 1940 recording; its performance comments are not applied to the 1960 LP.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "Directive 2011/77/EU amending the term of phonogram protection",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj",
+      "locator": "Article 1(2) and 1(3): term and transitional applicability on 1 November 2013",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

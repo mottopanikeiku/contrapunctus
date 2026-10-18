@@ -1,0 +1,162 @@
+{
+  "id": "bach-cello-suite-1-prelude",
+  "work": {
+    "title": "Cello Suite No. 1 in G major",
+    "catalogue": "BWV 1007",
+    "movement": "I. Prélude",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording source."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "John Michel",
+        "role": "cello"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The named performer and instrument are explicitly credited in the recording description."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording sources do not establish the session date. Repository upload dates are not substituted for it.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording venue is not given; the performer’s residence or institutional affiliation is not used as a session place."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No label identifying the original carrier is supplied."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take, side or original recording-medium identification is supplied; inapplicability is not inferred from a digital file."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is named. The repository uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is established; publication and repository upload dates are distinct from transfer dates."
+    },
+    "processing": {
+      "value": "Ogg Vorbis source; Wikimedia supplies an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Embedded metadata names Xiph.Org libVorbis I 20050304. This describes digital encoding, not original session equipment, editing or mastering."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons",
+    "durationSeconds": 130.272653061225
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is public domain under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer"
+      ],
+      "note": "Bach died in 1750. This does not clear a separately protected modern performing edition."
+    },
+    "recording": {
+      "value": "Rule 1 — sound-recording licence: Creative Commons Attribution-ShareAlike 3.0 Unported.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file has explicit permission from the copyright holder, confirmed by Wikimedia’s Volunteer Response Team under ticket 2007090610014151. The licence covers John Michel’s recording, not only Bach’s composition; the private ticket itself was not inspected."
+    },
+    "creditLine": "Johann Sebastian Bach, Cello Suite No. 1 in G major, Prelude; John Michel, cello. Source: the performer’s GarageBand page, as documented by Wikimedia Commons. CC BY-SA 3.0; recording date and place unknown. Streamed without editorial audio edits.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Cello Suite No. 1 in G major, I. Prélude",
+      "url": "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg",
+      "locator": "File description, performer attribution, original source, sound-recording licensing and transcode information.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Bach-Archiv Leipzig — Johann Sebastian Bach: a chronology",
+      "url": "https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology",
+      "locator": "Composer’s life dates and the cited career chronology.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Mutopia 517 — Cello Suite No. 1, score source",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1007/bwv1007/bwv1007-lys.zip",
+      "locator": "bwv1007-lys/bwv1007_prelude.ly: 42-bar Prelude; Schirmer 1916 edition, engraved by Andreas Scherer, public domain. Used for musical commentary, not attributed as Michel’s edition.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Netherlands Bach Society — BWV 1007",
+      "url": "https://www.bachvereniging.nl/en/bwv/bwv-1007",
+      "locator": "Movement order, broad Köthen-period date range, Anna Magdalena manuscript and questions of bowing.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

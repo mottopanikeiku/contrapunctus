@@ -1,0 +1,13 @@
+{
+  "id": "mozart-requiem-lacrimosa",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[9].evidence; transitions[2].how",
+      "severity": "minor",
+      "problem": "Both fields spell the final chord’s accidental as F-sharp rather than using the house-style symbol F♯.",
+      "evidence": "local://VERIFY-BRIEF.md, line 11 (house style: ♯ ♭); content/listen/mozart-requiem-lacrimosa.mjs, lines 32 and 37. The final major third and fermata were checked against https://dme.mozarteum.at/DME/objs/ed/ucb02_14_117.jpg. The targeted listen/dossier validator passed.",
+      "fix": "Replace F-sharp with F♯ in the final cue’s evidence and the into-amen transition prose. No musical or timing change is required."
+    }
+  ]
+}

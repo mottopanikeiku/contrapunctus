@@ -39,7 +39,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "Rubato on his own terms",
       "text": "Paderewski wrote that time taken from a phrase need not be paid back mechanically. Listen for the larger line rather than using a metronome as the sole judge of his 1937 performance.",

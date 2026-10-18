@@ -1,0 +1,21 @@
+{
+  "title": "Symphony No. 4, Op. 98 — IV. Allegro energico e passionato — ",
+  "edition": "IMSLP #466339",
+  "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from the derivative",
+  "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.4%2C_Op.98/4/Brahms_Op.98_4.mxl",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+  "main": "Brahms_Op.98_4.ly",
+  "musicxml": "Brahms_Op.98_4.mxl",
+  "stripLyrics": true,
+  "otherDynamicsWords": true,
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.4%2C_Op.98/4/Brahms_Op.98_4.mxl",
+      "file": "Brahms_Op.98_4.mxl",
+      "sha256": "6a293d53c12b84f5436a211a1d14280c290597a42b8676e3f5cdc61dfb201406"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

@@ -22,6 +22,20 @@
       "problem": "Several small numerical statements disagree with the report: the 2:15–2:30 onset range excludes the actual 1.4 at 2:30; the return’s rise is 0.4 at 2:25 to 1.4 at 2:30 (1.6 at 2:35); and four, not three, of the five loudest windows lie between 3:30 and 3:45.",
       "evidence": "MEAS: cache/analysis/mahler-4-scherzo.txt:23,54–58,69–72.",
       "fix": "Use 2:15–2:25 for the sparse pre-return windows; describe the rise from 0.4 at 2:25 to 1.4 at 2:30 and 1.6 at 2:35; change the loudest-window tally to four of five. Update the repeated range in transitions[1].evidence too."
+    },
+    {
+      "where": "cues[20].text/evidence",
+      "severity": "minor",
+      "problem": "The guide’s description of soft solo playing is repeated without distinguishing the quiet background/second solo staff from the first solo staff’s strong pizzicato punctuation at the cited return.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/4/40/IMSLP70999-PMLP58739-Mahler_-_Symphony_No._4_(orch._score).pdf — PDF p.73 (printed p.299), rehearsal 13, shows muted background strings at ppp while the first solo staff has pizzicato notes marked ff/sempre ff. The cached unannotated higher-resolution render /tmp/fava3/img/z-073.png makes the distinction clear.",
+      "fix": "Keep the documented quiet muted background and Basinger’s overall gentler interpretation, but do not imply that all solo playing is soft. Distinguish the first solo staff’s ff pizzicato punctuation, or omit the specific soft-solo claim rather than letting the secondary guide override this primary scoring."
+    },
+    {
+      "where": "cues[22].evidence",
+      "severity": "minor",
+      "problem": "A low measured level is described as literal silence by 8:30, which the report does not establish.",
+      "evidence": "MEAS: cache/analysis/mahler-4-scherzo.txt:129 gives −68.1 dB and zero detected attacks at 8:30, not an exact final-note or absolute-silence measurement.",
+      "fix": "Say that the report reaches near-silence/−68.1 dB by 8:30, without claiming an exact inaudibility cutoff."
     }
   ]
 }

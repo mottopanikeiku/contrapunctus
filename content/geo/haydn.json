@@ -85,6 +85,27 @@
       ]
     },
     {
+      "name": "Vienna (freelance years)",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1750",
+      "to": "1757",
+      "kind": "worked",
+      "what": "Teacher, street serenader, Porpora’s valet-accompanist from 1752, and freelance for the court 1754–56.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
       "name": "Mannersdorf spa",
       "country": "Habsburg Monarchy (today Austria)",
       "lat": 47.9667,
@@ -165,6 +186,23 @@
       ]
     },
     {
+      "name": "Esterházy palace, Wallnerstraße, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2096,
+      "lon": 16.367,
+      "from": "1761",
+      "to": "1766",
+      "kind": "worked",
+      "what": "The court spent part of each year in its Vienna palace, where Haydn served as Vice-Kapellmeister.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
       "name": "Esterháza (Fertőd)",
       "country": "Kingdom of Hungary (today Hungary)",
       "lat": 47.6206,
@@ -173,6 +211,67 @@
       "to": "1790",
       "kind": "worked",
       "what": "Lived in a house in the palace grounds; ran the court opera theatre, which rivalled Europe’s opera houses.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1784",
+      "kind": "travelled",
+      "what": "Met Mozart around 1784 on a Vienna visit; the two sometimes played chamber music together.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1785",
+      "kind": "heard",
+      "what": "Admitted to Mozart’s Masonic lodge; present at a performance of three of Mozart’s “Haydn” quartets.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        }
+      ]
+    },
+    {
+      "name": "Wasserkunstbastei / Seilerstätte 21, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2035,
+      "lon": 16.3734,
+      "from": "1790-10",
+      "to": "1790-12-15",
+      "kind": "lived",
+      "what": "Rented rooms from Hamberger after Nikolaus’s death; bade farewell to Mozart and friends before leaving for London.",
       "status": "documented",
       "sources": [
         {
@@ -202,23 +301,6 @@
       ]
     },
     {
-      "name": "18 Great Pulteney Street, London",
-      "country": "Kingdom of Great Britain (today United Kingdom)",
-      "lat": 51.5121,
-      "lon": -0.136,
-      "from": "1791-01",
-      "to": "1791-05",
-      "kind": "lived",
-      "what": "Lodged where his host and collaborator Johann Peter Salomon lived; worked in a room lent by Broadwood.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
-        }
-      ]
-    },
-    {
       "name": "Hanover Square Rooms, London",
       "country": "Kingdom of Great Britain (today United Kingdom)",
       "lat": 51.5139,
@@ -237,6 +319,23 @@
         {
           "title": "Joseph Haydn — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "18 Great Pulteney Street, London",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.5121,
+      "lon": -0.136,
+      "from": "1791-01",
+      "to": "1791-05",
+      "kind": "lived",
+      "what": "Lodged where his host and collaborator Johann Peter Salomon lived; worked in a room lent by Broadwood.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
         }
       ]
     },
@@ -282,6 +381,23 @@
       ]
     },
     {
+      "name": "Vienna (rented lodgings)",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1792-07",
+      "to": "1794-01",
+      "kind": "lived",
+      "what": "Rented lodgings between his two London journeys.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
       "name": "1 Bury Street, St James’s, London",
       "country": "Kingdom of Great Britain (today United Kingdom)",
       "lat": 51.5069,
@@ -303,19 +419,19 @@
       ]
     },
     {
-      "name": "Old Burgtheater, Vienna",
+      "name": "Neuer Markt, Vienna",
       "country": "Habsburg Monarchy (today Austria)",
-      "lat": 48.208,
-      "lon": 16.3664,
-      "from": "1797-02-12",
-      "kind": "premiere",
-      "what": "Vienna premiere of the Emperor’s Hymn on Francis II’s birthday, with the Emperor present.",
-      "work": "Gott erhalte Franz den Kaiser",
+      "lat": 48.206,
+      "lon": 16.3706,
+      "from": "1795-09",
+      "to": "1797",
+      "kind": "lived",
+      "what": "Third-floor lodgings in the Hoföbstlerisches Haus; in spring 1797 he lodged nearer van Swieten to work on <i>The Creation</i>.",
       "status": "documented",
       "sources": [
         {
-          "title": "Gott erhalte Franz den Kaiser — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Gott_erhalte_Franz_den_Kaiser"
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
         }
       ]
     },
@@ -338,6 +454,23 @@
         {
           "title": "Haydnhaus — Wien Museum",
           "url": "https://www.wienmuseum.at/haydnhaus"
+        }
+      ]
+    },
+    {
+      "name": "Old Burgtheater, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.208,
+      "lon": 16.3664,
+      "from": "1797-02-12",
+      "kind": "premiere",
+      "what": "Vienna premiere of the Emperor’s Hymn on Francis II’s birthday, with the Emperor present.",
+      "work": "Gott erhalte Franz den Kaiser",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Gott erhalte Franz den Kaiser — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Gott_erhalte_Franz_den_Kaiser"
         }
       ]
     },

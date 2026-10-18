@@ -1,0 +1,135 @@
+{
+  "id": "ives-concord-hawthorne",
+  "work": {
+    "title": "Piano Sonata No. 2, ‘Concord, Mass., 1840–60’",
+    "catalogue": "S.88",
+    "movement": "II. Hawthorne",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "imslp", "gann"],
+      "note": "Neither recording entry identifies the performing edition. The first edition and revised 1947 text are not interchangeable provenance claims. Listening notes distinguish written cluster techniques from what the recording establishes; no particular board, hand position or edition-specific bar alignment is asserted for Liang."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Eric Xi Xin Liang", "role": "piano" }],
+    "status": "documented",
+    "sourceIds": ["commons", "imslp"],
+    "note": "Commons credits Liang for performance and recording; the corresponding IMSLP entry explicitly identifies piano. No additional performer is named. This solo-piano package has no orchestral stage timeline."
+  },
+  "session": {
+    "date": {
+      "value": "2024",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Commons’ Summary gives 2024 for the performance/recording. The file was uploaded on 11 June 2024, earlier than the other three Commons movements; this is an upload date, not a session day. A common session for the sonata is not established.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "imslp"],
+      "note": "No recording venue, city, piano or live-versus-studio setting is identified in the consulted recording entries."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "imslp"],
+      "note": "No record label is identified. IMSLP gives ‘Eric Xi Xin Liang, 2024’ as the audio publisher, not a named commercial label. Neither recording entry links sleeve or label scans."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "imslp"],
+      "note": "No original carrier catalogue number is supplied. IMSLP file index 918634 is a repository identifier, not a record catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "imslp"],
+      "note": "No matrix, take or disc-side identifier is supplied. The digital distribution format alone does not establish the original session medium or take history."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Eric Xi Xin Liang — performance and recording",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Liang is explicitly credited as recording creator. D. Benjamin Miller uploaded the file, but is not thereby identified as transfer or mastering engineer. No separate engineer is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "No transfer or mastering date is documented. The June 2024 upload and February 2026 Wikimedia transcode dates are not used as substitutes."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "imslp"],
+      "note": "No editing, restoration, noise reduction, mastering or source-transfer procedure is disclosed. The known access-file encoding does not establish the original recording chain."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Ives_-_Piano_Sonata_No.2_-_II._Hawthorne_%28Eric_Xi_Xin_Liang%29.flac/Ives_-_Piano_Sonata_No.2_-_II._Hawthorne_%28Eric_Xi_Xin_Liang%29.flac.mp3",
+    "sourceChain": ["commons"],
+    "format": "Wikimedia Commons MP3 access derivative of the uploaded FLAC; timing analysis uses this access derivative",
+    "durationSeconds": 762.4
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain as asserted in Commons’ separate musical-composition notice",
+      "status": "documented",
+      "sourceIds": ["commons", "gann", "imslp"],
+      "note": "Commons’ composition notice cites Ives’s death in 1954 and publication before 1931. It does not license the sound recording. Gann distinguishes 1920 printing, January 1921 circulation and the revised 1947 edition. The performing edition is unknown; later revisions or editorial additions are not independently cleared by the first-publication notice. IMSLP marks the revised score non-public-domain in the United States."
+    },
+    "recording": {
+      "value": "Rule 1 — explicit sound-recording licence: Creative Commons Attribution 4.0 International",
+      "status": "documented",
+      "sourceIds": ["commons", "imslp"],
+      "note": "The opened Commons page has distinct Recording and Musical composition sections. CC BY 4.0 explicitly applies to Liang’s recording, while the public-domain statement concerns the composition. The matching IMSLP audio entry also states CC BY 4.0. Appropriate attribution and a licence link are required; the recording is not claimed to be public domain."
+    },
+    "creditLine": "Charles Ives, Piano Sonata No. 2, ‘Concord, Mass., 1840–60’, II. Hawthorne — Eric Xi Xin Liang, piano and recording (2024). Recording licensed CC BY 4.0. Via Wikimedia Commons; MP3 access derivative of the supplied FLAC, with no additional audio editing by Contrapunctus.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Ives, Piano Sonata No. 2, II. Hawthorne, Eric Xi Xin Liang",
+      "url": "https://commons.wikimedia.org/w/index.php?title=File:Ives_-_Piano_Sonata_No.2_-_II._Hawthorne_(Eric_Xi_Xin_Liang).flac&oldid=898674060",
+      "locator": "Summary: date 2024, source and performance/recording credit; Licensing: separate recording CC BY 4.0 and composition public-domain notices; File history: 11 June 2024 upload; Transcode status: MP3 derivative. Cached access-file analysis measures 762.4 seconds.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Piano Sonata No. 2, S.88, recording and edition catalogue",
+      "url": "https://imslp.org/index.php?title=Piano_Sonata_No.2,_S.88_(Ives,_Charles)&oldid=4709840",
+      "locator": "Liang audio group, file 918634: piano, publisher Eric Xi Xin Liang 2024, CC BY 4.0; separate score listings distinguish first edition and 1947 revisions. No performing edition is stated. Catalogue entries inspected in the page’s HTML.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "gann",
+      "title": "Kyle Gann — Following the Concord Sonata, Charles Ives Society",
+      "url": "https://charlesives.org/node/6616",
+      "locator": "Hawthorne section: opening, quiet clusters, ragtime, Martyn interruptions, march, fist-cluster climax, cumulative Columbia material and closing rapid figuration. Literary interpretations are distinguished from Ives’s own statements. Chronology distinguishes composition and editions.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "essays",
+      "title": "Charles Ives — Essays Before a Sonata",
+      "url": "https://www.gutenberg.org/cache/epub/3673/pg3673-images.html#hawthorne",
+      "locator": "Introduction calls Hawthorne a scherzo; the Hawthorne essay’s final paragraphs distinguish the novelist’s moral subject matter from the fantastic realm attempted by this movement. The modern prefatory biographical sketch is not used as Ives’s testimony.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "biography",
+      "title": "Jan Swafford — Ives The Man: His Life",
+      "url": "https://charlesives.org/ives-man-his-life",
+      "locator": "‘like father, like son’: the remembered childhood story of playing drum parts with fists on the piano, explicitly reported as Ives’s own account.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

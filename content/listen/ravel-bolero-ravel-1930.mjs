@@ -9,7 +9,7 @@ export default {
   "key": "C major",
   "forces": "Orchestra",
   "performers": "Orchestre des Concerts Lamoureux, Maurice Ravel",
-  "recorded": "January 1930",
+  "recorded": "1930",
   "source": {
     "file": "File:Bolero-Maurice Ravel-1930.ogg"
   },
@@ -49,7 +49,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 5,
+      "t": 0,
       "kind": "world",
       "title": "The composer conducts",
       "text": "This file is attributed to Ravel directing the Lamoureux orchestra. BnF confirms that performer combination and its four historical matrices; the source is not one of the later mislabelled Lamoureux recordings.",

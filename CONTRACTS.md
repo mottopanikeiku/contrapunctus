@@ -330,3 +330,40 @@ level strips are computed at build time. Playback uses the persistent
 `{ listenId: [{ compare, label, year }] }` for the Hall’s “Other performances”
 links. `assets/js/compare.js` also exports an asynchronous `compareLinks`
 reader for this index.
+
+## Map data
+
+`content/geo/<composer>.json` holds `{ id, places }`. A place contains `name`,
+`country`, numeric `lat` / `lon`, ISO-string `from` and optional `to`
+(`YYYY`, `YYYY-MM`, or `YYYY-MM-DD`), `kind`, `what`, optional `work`,
+`status` (`documented`, `inferred`, `disputed`), and `sources: [{ title, url }]`.
+Kinds are `born`, `childhood`, `studied`, `lived`, `worked`, `travelled`,
+`premiere`, `heard`, `exile`, `died`, and `buried`. Omitted `to` means a
+point event, not an open-ended residence. Missing composer files are allowed.
+
+`node tools/geo/prepare.mjs` caches the three public-domain Natural Earth
+1:50m layers once, pinned to the revision and SHA-256 provenance in
+`tools/geo/sources.json`. Ordinary builds never fetch map data. Mercator
+projection and Douglas–Peucker simplification happen in `src/atlas-map.mjs`
+via the preparation module. Present-day outlines are orientation aids,
+not historical borders.
+
+The build writes `assets/data/geo/base.json` (projected SVG paths),
+`index.json` (compact chronology, prepacked annual cameo positions, city
+groups and documented date overlaps), and `<slug>.json` (full sourced
+place records, projected coordinates, published recordings and placed
+influence links, fetched only on focus). `<slug>.svg` is the static chapter
+map. `placesSection(ctx, slug, add)` is the sole composer-page hook.
+`atlas-map.html#c-<slug>` focuses a life; `?year=1805` selects the year.
+
+Cities join coordinates within 7 km of a fixed centre. Encounters intersect
+documented date ranges at their recorded precision; premieres and burials
+do not count as living presence. No last-known location is carried forward
+into an encounter claim. Co-presence does not establish a meeting.
+The annual overview may show a last-recorded residence with a dashed frame.
+Route lines join records, not reconstructed roads; posthumous events are
+distinguished. Exact normalised work-title matches expose published listens;
+fallbacks are explicitly labelled as other recordings by that composer.
+Playback uses `app.player.load(id, { play: true, t: 0 })`. The page module
+cleans up listeners, requests, resize observation and animation on unmount;
+reduced motion disables flashing and travelling dashes.

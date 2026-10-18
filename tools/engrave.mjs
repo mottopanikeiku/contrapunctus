@@ -37,13 +37,15 @@ const PAPER = (width, height = 297) => `
 }
 `;
 
+// LilyPond reports an initial pickup at negative position before the first full
+// bar. Give those real glyphs the preceding bar number; retain their positions.
 const PRELUDE = (width, height) => `
 #(define (cp-attrs grob)
   (let* ((loc (grob::rhythmic-location grob))
          (bar (if (pair? loc) (car loc) 0))
          (pos (if (pair? loc) (exact->inexact (ly:moment-main (cdr loc))) 0)))
     (list (cons 'class (if (grob::has-interface grob 'rest-interface) "rs" "nh"))
-          (cons 'data-bar (number->string bar))
+          (cons 'data-bar (number->string (if (< pos 0) (- bar 1) bar)))
           (cons 'data-pos (number->string pos)))))
 ${PAPER(width, height)}
 \\layout {
@@ -64,7 +66,7 @@ async function engrave(id, options) {
   await stat(path.join(ROOT, 'content/listen', `${id}.mjs`));
   const cfg = { staff: 18, width: 230, height: 297, ...piece.engraving };
   if (!options.prepared) {
-    const preparation = piece.source.legacyRelative ? 'score_events.py' : 'prepare.py';
+    const preparation = piece.source.legacyRelative || piece.source.patches?.length ? 'score_events.py' : 'prepare.py';
     await run(PYTHON, [path.join(ROOT, 'tools/align', preparation), id], { maxBuffer: 1 << 26 });
   }
   const work = path.join(ROOT, 'cache/engrave', id);

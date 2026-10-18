@@ -1,0 +1,222 @@
+{
+  "id": "puccini-recondita-armonia",
+  "work": {
+    "title": "Tosca",
+    "catalogue": "",
+    "movement": "Act I · Recondita armonia",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Acoustic recording of the named excerpt. Performing edition, cuts and studio instrumental substitutions are unestablished. No instrument-by-instrument timeline is supplied; the modern opera full score does not document this session."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Enrico Caruso",
+        "role": "tenor"
+      },
+      {
+        "name": "Victor Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "dahr"
+    ],
+    "note": "DAHR names the Victor Orchestra, but no conductor or session instrumentation is established. The usual opera full score is not evidence of acoustic-session substitutions."
+  },
+  "session": {
+    "date": {
+      "value": "1909-11-06",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "dahr"
+      ],
+      "note": "DAHR and the current Commons description agree on 6 November 1909. The candidate’s 11 June is not retained; this is not a US/European ambiguous-date conversion.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey, United States",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "City/place as stated in the cited recording source; no more precise room or studio inferred."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "dahr",
+        "issue"
+      ],
+      "note": "These identify the original master and documented issues, not the unidentified physical pressing or later release used for this digital transfer."
+    },
+    "catalogue": {
+      "value": "Victor 87043; later Victor 511 and Gramophone 7-52004 / DA-112",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "dahr",
+        "issue"
+      ],
+      "note": "These identify the original master and documented issues, not the unidentified physical pressing or later release used for this digital transfer."
+    },
+    "matrixTakeSides": {
+      "value": "B-8347, take 1; 10-inch master",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "dahr",
+        "issue"
+      ],
+      "note": "These identify the original master and documented issues, not the unidentified physical pressing or later release used for this digital transfer."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Adam Cuerden — restoration; original digitisation engineer unestablished",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons documents click and hiss removal and links an unrestored counterpart. The uploader is not credited as the original digitisation engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date established. The Commons, Archive and YouTube upload dates are not treated as digitisation or restoration dates."
+    },
+    "processing": {
+      "value": "Click and hiss removal; restored Ogg Vorbis supplied to Commons",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Only the described processing is documented; no equipment, filter settings, pitch correction or speed correction is inferred."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Enrico_Caruso%2C_Recondita_armonia_%28Tosca%29.ogg/Enrico_Caruso%2C_Recondita_armonia_%28Tosca%29.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive",
+      "archive-files"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 144.99
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Puccini composition and historical libretto are public domain where ordinary life-plus-70 terms apply; no modern edition is claimed cleared.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "biography"
+      ],
+      "note": "Commons marks the historical work public domain. This does not by itself establish the sound recording’s rights; the recording basis is separately documented below."
+    },
+    "recording": {
+      "value": "Rule 2 — United States public domain: original sound recording commercially issued in 1909, before 1923.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "issue",
+        "moses",
+        "us-recording-term"
+      ],
+      "note": "DAHR’s Victor 87043 issue MARC gives [1909]; Moses places the issue in the 1909–1911 release group. Commons’ PD-US label is therefore supported by sound-recording issue evidence, not merely Puccini’s death year. No claim of worldwide clearance."
+    },
+    "creditLine": "Giacomo Puccini, Tosca: Recondita armonia. Enrico Caruso and Victor Orchestra, Camden, 6 November 1909, B-8347-1. Internet Archive Caruso_part2 via Wikimedia Commons; restoration by Adam Cuerden.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Caruso, Recondita armonia",
+      "url": "https://commons.wikimedia.org/wiki/File:Enrico_Caruso,_Recondita_armonia_(Tosca).ogg",
+      "locator": "Description identifies matrix B-8347 and 6 November 1909; Source, PD-US/PD-old tags, click/hiss removal and unrestored counterpart; MP3 derivative. Inspected description separately from embedded metadata.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr",
+      "title": "DAHR — Victor matrix B-8347",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/200008418",
+      "locator": "Tenor and Victor Orchestra; take 1, 6 November 1909, Camden; Victor and Gramophone issues. Later electrically re-orchestrated dubs are listed separately and are not asserted for this source.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "issue",
+      "title": "DAHR — Victor 87043",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/55387",
+      "locator": "MARC 264: Victor [1909]; B-8347, take 1, 10-inch single-faced Red Seal; work, singer and orchestral description.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Collected Works of Caruso part 2 metadata",
+      "url": "https://archive.org/metadata/Caruso_part2/metadata",
+      "locator": "Source 78; no licenseurl in the opened metadata. Publicdate/addeddate in 2004 are repository dates, not the recording session.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — Caruso part 2 file list",
+      "url": "https://archive.org/metadata/Caruso_part2/files",
+      "locator": "Caruso-Reconditaarmonia.mp3, original 128 kbps MP3, about 2:25; Ogg derivative. A separate ReconditeArmonia file also exists: it is not silently substituted. Commons identifies the restored file’s source item, not a uniquely proven carrier.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "libretto",
+      "title": "Recondita armonia — aria text",
+      "url": "https://en.wikipedia.org/wiki/Recondita_armonia",
+      "locator": "Italian text: contrasting hair and eyes; art combines beauties; final thought remains Tosca. Consulted for passage-general textual explanation, not word-level timing.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "synopsis",
+      "title": "Opéra national de Paris — Tosca, 2025–26",
+      "url": "https://www.operadeparis.fr/en/season-25-26/opera/tosca",
+      "locator": "Acts I–III synopses; Roman locations, painter and Attavanti, Scarpia’s coercion, letter before execution. Used for dramatic context, not timings.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "moses",
+      "title": "Julian Morton Moses — American Celebrity Recordings 1900–1925, UCSB Historical Discographies edition",
+      "url": "https://adp-assets.library.ucsb.edu/AmericanCelebrityRecordings.pdf",
+      "locator": "Introduction explains that artist sections group records by release years, not session dates. Caruso: Victor Red Seal 1906–1908 includes 89006 and 95200; 1909–1911 includes 87043. Destinn: Victor Red Seal 1914–1917 includes 88487. Opened as extracted text; not used to infer exact take or transfer pressing.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "biography",
+      "title": "Puccini Festival — Giacomo Puccini",
+      "url": "https://www.puccinifestival.it/en/giacomo-puccini/",
+      "locator": "Biography and work entries: early church work, Milan studies, librettists, source authors, premieres, composer’s death in 1924.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-recording-term",
+      "title": "U.S. Copyright Office — Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term: recordings first published before 1923 ceased receiving the specified federal remedies after 31 December 2021. Sound-recording basis, distinct from composition copyright.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "mahler-4-himmlische-leben",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[18].evidence",
+      "severity": "major",
+      "problem": "The evidence abbreviates the report’s E-minor labels to E beside a claim about written E major, and gives an incorrect correlation range for 5:10–6:00. This can misleadingly suggest that the feature analysis confirms the major mode.",
+      "evidence": "MEAS: cache/analysis/mahler-4-himmlische-leben.txt:89–99 labels every 5:10–6:00 window E minor, with correlations 0.57–0.86, not 0.75–0.88. EXT: the cited score, PDF pp.123–124, supplies the written E-major context.",
+      "fix": "Keep the genuine zero-onset passage anchor and the score-based E-major reading, but either omit the key-estimate claim or report its actual E-minor labels/range and explicitly say that they do not confirm the written major mode. Do not silently drop the mode."
+    },
+    {
+      "where": "transitions[5].how",
+      "severity": "major",
+      "problem": "The fourth-verse entry is said to involve no change of loudness, which the report does not support. An unchanged written soft dynamic is not the same as unchanged measured level.",
+      "evidence": "MEAS: cache/analysis/mahler-4-himmlische-leben.txt:98–101 gives −19.1 dB at 5:55, −23.0 at 6:00, −24.4 at 6:05 and −25.0 at 6:10, alongside the 6:00 boundary. EXT: PDF p.124 supports continuity of written tempo/key and soft scoring, not equality of recorded level.",
+      "fix": "Describe continuity of key, tempo and soft written character while the voice takes up the prepared melody. Remove the categorical no-change-of-loudness/only-one-line claim; allow the measured change in level and accompaniment without turning the boundary into an exact vocal-attack detection."
+    },
+    {
+      "where": "cues[12].evidence; cues[14].evidence; cues[16].evidence; cues[20].evidence",
+      "severity": "minor",
+      "problem": "Several local-key summaries omit intervening report labels, and 4:54 is called the strongest boundary region even though 6:28 has the larger novelty value.",
+      "evidence": "MEAS: cache/analysis/mahler-4-himmlische-leben.txt:13,17,67–69,78–82,104–106. At 3:25 the estimate is D major; at 4:20 it is D minor; at 6:35 it is F♯ minor (0.73). Novelty at 4:54 is 0.86 versus 1.00 at 6:28.",
+      "fix": "State G-major estimates at 3:20 and 3:30 with D major between; describe the 4:15–4:35 G-/D-minor estimates honestly (G-minor correlations extend to 0.85); call 4:54 a strong boundary; give the sequence B major (0.51), F♯ major (0.62), F♯ minor (0.73) at 6:25/6:30/6:35 if retaining that sequence. Preserve the distinction between estimated labels and score-proven harmony."
+    },
+    {
+      "where": "cues[15].title; cues[19].title; cues[20].text/evidence",
+      "severity": "minor",
+      "problem": "Two titles contain seven words, and F sharp is spelt out in editorial prose/evidence.",
+      "evidence": "MEAS: content/listen/mahler-4-himmlische-leben.mjs:49,53,54. EXT: LISTENING.md requires two-to-six-word cue titles and musical accidental symbols.",
+      "fix": "Use 'A song becomes a symphony' and 'Music unlike any on earth' (or equivalent titles of at most six words), and use F♯ instead of the spelt-out accidental outside literal source titles."
+    },
+    {
+      "where": "cues[25].evidence; transitions[6].evidence",
+      "severity": "minor",
+      "problem": "The source tail is called silent by 8:30, but the report still measures −54.7 dB there. It does not identify a literal silence or exact inaudibility cutoff.",
+      "evidence": "MEAS: cache/analysis/mahler-4-himmlische-leben.txt:125–131 gives −22.1 at 8:10, −31.3 at 8:25, −54.7 at 8:30, −79.2 at 8:35 and −80.0 at 8:40.",
+      "fix": "Describe the measured decay to −54.7 dB at 8:30 and near the analysis floor by 8:35–8:40, without claiming an exact silence or final-note time. Update both repeated statements."
+    }
+  ]
+}

@@ -169,7 +169,7 @@
       "lon": -73.3833661
     },
     {
-      "name": "Town Hall New York",
+      "name": "The Town Hall (New York City)",
       "country": "United States (today United States)",
       "from": "1939-01-20",
       "kind": "premiere",
@@ -181,13 +181,13 @@
           "url": "https://en.wikipedia.org/w/index.php?title=Charles_Ives&action=render"
         },
         {
-          "title": "OpenStreetMap place record",
-          "url": "https://nominatim.openstreetmap.org/search?q=Town%20Hall%20New%20York&format=json&limit=1"
+          "title": "Wikipedia: The Town Hall, Manhattan",
+          "url": "https://en.wikipedia.org/w/index.php?title=The_Town_Hall_(New_York_City)&action=render"
         }
       ],
       "work": "Piano Sonata No. 2, Concord",
-      "lat": 42.9938542,
-      "lon": -77.8805379
+      "lat": 40.756,
+      "lon": -73.9847
     },
     {
       "name": "New York City",

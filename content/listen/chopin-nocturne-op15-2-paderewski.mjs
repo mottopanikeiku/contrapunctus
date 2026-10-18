@@ -38,10 +38,10 @@ export default {
       "t": 0,
       "kind": "listen",
       "title": "Listen between the hands",
-      "text": "Paderewski’s recorded style includes attacks that separate the melody from its accompaniment. Listen for whether the upper note arrives with the supporting chord or seems to speak independently of it. This is a documented stylistic practice, not a measured delay at this timestamp.",
+      "text": "Paderewski’s recorded style includes attacks that separate the melody from its accompaniment. Listen for whether the upper note arrives with the supporting chord or seems to speak independently of it.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Jonathan Woolf discusses constant desynchronisation/dislocation and arpeggiation in the Victor recordings, including this Nocturne: https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm"
+      "evidence": "Jonathan Woolf discusses constant desynchronisation/dislocation and arpeggiation in the Victor recordings, including this Nocturne: https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm . This establishes a stylistic practice, not a measured delay at this timestamp."
     },
     {
       "t": 28,
@@ -104,7 +104,7 @@ export default {
       "text": "The original disc and its modern digital copy have different histories. The Public Domain Project identifies the HMV carrier and its collection source, but does not establish every transfer decision. Noise, speed or equalisation should not be attributed automatically to Paderewski.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Upstream carrier/transfer record: http://pool.publicdomainproject.org/index.php?title=Hmv-db375-05616. Session attribution independently confirmed by DAHR; undocumented processing remains unknown."
+      "evidence": "Upstream carrier/transfer record: https://pool.musicalheritage.org/index.php?title=Hmv-db375-05616 . Session attribution independently confirmed by DAHR; undocumented processing remains unknown."
     }
   ],
   "transitions": [
@@ -141,7 +141,7 @@ export default {
         134,
         156
       ],
-      "how": "<p>The middle’s dynamic and rhythmic pressure relaxes, allowing the slower song and its ornamented line to return. The reprise recalls a familiar relationship between melody and accompaniment. Listening to their alignment is useful here, but the section marker itself does not measure any hand dislocation.</p>",
+      "how": "<p>The middle’s dynamic and rhythmic pressure relaxes, allowing the slower song and its ornamented line to return. The reprise recalls a familiar relationship between melody and accompaniment. Listen for whether the melodic attack coincides with its support or seems to speak just before or after it.</p>",
       "devices": [
         "decrescendo",
         "tempo change",
@@ -149,7 +149,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate placement around2:24 after a marked fall in level at2:15–2:25; score reprise: https://chopin.nifc.pl/en/chopin/kompozycja/173"
+      "evidence": "Approximate placement around 2:24 after a marked fall in level at 2:15–2:25; score reprise: https://chopin.nifc.pl/en/chopin/kompozycja/173 . The section marker does not measure hand dislocation; the listening invitation is grounded in Woolf’s documented stylistic account."
     }
   ]
 };

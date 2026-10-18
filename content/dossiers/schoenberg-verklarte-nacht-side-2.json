@@ -1,0 +1,238 @@
+{
+  "id": "schoenberg-verklarte-nacht-side-2",
+  "work": {
+    "title": "Verklärte Nacht",
+    "catalogue": "Op. 4",
+    "movement": "LP side 2 (bars 229–418)",
+    "version": {
+      "value": "Original version for two violins, two violas and two cellos; one continuous work divided across two LP sides.",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve",
+        "session",
+        "score"
+      ],
+      "note": "The break between bars 228 and 229 is an editorial score/audio inference: side 1 ends with the E♭-minor-to-B♭ link on score p. 25; side 2 begins with the D-major Sehr breit und langsam on p. 26. Not the 1917 or 1943 string-orchestra arrangement."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Felix Slatkin",
+        "role": "first violin; Hollywood String Quartet"
+      },
+      {
+        "name": "Paul Shure",
+        "role": "second violin; Hollywood String Quartet"
+      },
+      {
+        "name": "Paul Robyn",
+        "role": "viola; Hollywood String Quartet"
+      },
+      {
+        "name": "Eleanor Aller",
+        "role": "cello; Hollywood String Quartet"
+      },
+      {
+        "name": "Alvin Dinkin",
+        "role": "second viola"
+      },
+      {
+        "name": "Kurt Reher",
+        "role": "second cello"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "session",
+      "sleeve",
+      "label-a",
+      "label-b"
+    ],
+    "note": "The quartet’s four members are supplemented by Dinkin and Reher. The source does not identify a conductor; none is invented."
+  },
+  "session": {
+    "date": {
+      "value": "21–22 August 1950",
+      "status": "documented",
+      "sourceIds": [
+        "session"
+      ],
+      "note": "These are recording dates, independently distinguished from the 1950 release year and 2021 transfer.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Hollywood, California",
+      "status": "documented",
+      "sourceIds": [
+        "session"
+      ],
+      "note": "The archive establishes the city, not a specific studio or room."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Capitol Records — Capitol Classics",
+      "status": "documented",
+      "sourceIds": [
+        "issue",
+        "label-a",
+        "label-b"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "L-8118; mono 10-inch LP, issued 1950",
+      "status": "documented",
+      "sourceIds": [
+        "issue",
+        "label-a",
+        "label-b"
+      ],
+      "note": "The later P-8304 reissue is not the source carrier used here."
+    },
+    "matrixTakeSides": {
+      "value": "Side 2; printed label suffix (L-8118) Z",
+      "status": "documented",
+      "sourceIds": [
+        "label-b"
+      ],
+      "note": "This is the observed printed side identification, not a claimed session matrix or take. Runout inscriptions and take numbers are not established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive; ripping operator associate-johnmark-layos",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Separate from original Capitol production and later reissue credits."
+    },
+    "date": {
+      "value": "19 November 2021",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "ripping_date 20211119100224. Sleeve-scan and upload dates are not treated as the sound-transfer date."
+    },
+    "processing": {
+      "value": "Technics SL-1200MK5 with Audio-Technica AT95e cartridge → RDL EZ-PH1 preamplifier → Focusrite Scarlett 2i2; ArchiveCD 2.2.57lp; Internet Archive MP3 derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Both side ripping notes say “scratchy disc”. FLAC comments identify SoX processing but do not establish restoration settings; scratch-sensitive onset counts are not used as musical pulse evidence."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/disc1/02.01.%20Schoenberg%20Verklaerte%20Nacht%20(Conclusion).mp3",
+    "sourceChain": [
+      "archive",
+      "sleeve",
+      "session",
+      "issue"
+    ],
+    "format": "MP3 (Internet Archive VBR derivative of mono vinyl LP)",
+    "durationSeconds": 828.75
+  },
+  "rights": {
+    "composition": {
+      "value": "The original sextet score was published in 1905; its early-publication public-domain basis in the United States is separate from rights in later editions or arrangements.",
+      "status": "inferred",
+      "sourceIds": [
+        "work",
+        "score"
+      ],
+      "note": "This record contains instrumental music, not a sung or recited translation of Dehmel’s poem. No later editorial score or translation licence is asserted."
+    },
+    "recording": {
+      "value": "EU territorial phonogram-term basis: first lawful publication in 1950, before 1963. US recording status not established.",
+      "status": "documented",
+      "sourceIds": [
+        "issue",
+        "term"
+      ],
+      "note": "Programme rule 3; the Arnold Schönberg Center independently identifies the 1950 original issue. No Creative Commons licence is claimed for the Archive transfer."
+    },
+    "creditLine": "Hollywood String Quartet with Alvin Dinkin and Kurt Reher; recorded in Hollywood, 21–22 August 1950. Capitol L-8118 (1950); LP transfer supplied by Internet Archive. EU territorial recording-term basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Capitol L-8118 LP transfer",
+      "url": "https://archive.org/details/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet",
+      "locator": "Metadata, disc1 MP3/FLAC files, ripping notes and digitisation lineage",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sleeve",
+      "title": "Capitol L-8118 original sleeve and label OCR",
+      "url": "https://archive.org/download/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet_djvu.txt",
+      "locator": "Six named performers, original-version statement, composer’s programme note and label’s personal-supervision credit",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "session",
+      "title": "Arnold Schönberg Audio Archive: Hollywood String Quartet recording 47",
+      "url": "https://archive.schoenberg.at/av/aufnahme.php?id_aufnahme=47&action=view",
+      "locator": "Hollywood, California, 21–22 August 1950; all six performers. Reissue production entries are not assumed to describe the original session or this transfer.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "issue",
+      "title": "Arnold Schönberg Audio Archive: Capitol L 8118",
+      "url": "https://archive.schoenberg.at/av/tontraeger.php?id_tontraeger=870&action=view",
+      "locator": "Record 870: mono 10-inch LP, release 1950, programme notes by Arnold Schoenberg",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label-a",
+      "title": "Capitol L-8118 side-one label",
+      "url": "https://archive.schoenberg.at/av/diskographie/Capitol-L8118-label-A.jpg",
+      "locator": "Label visibly reads SIDE 1 and (L-8118) Y; six performer names. Runout details are not transcribed.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label-b",
+      "title": "Capitol L-8118 side-two label",
+      "url": "https://archive.schoenberg.at/av/diskographie/Capitol-L8118-label-B.jpg",
+      "locator": "Label visibly reads SIDE 2 and (L-8118) Z; six performer names. Runout details are not transcribed.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Arnold Schönberg Center: Verklärte Nacht, Op. 4, original sextet catalogue",
+      "url": "https://archive2.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=420&herkunft=allewerke",
+      "locator": "Composition September–1 December 1899; premiere 18 March 1902; first publication 1905, Dreililien-Verlag, plate 345",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "essay",
+      "title": "Therese Muxeneder: Transfigured Night, Op. 4, with Schoenberg’s 1950 analysis",
+      "url": "https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4",
+      "locator": "Poem and five-part outline; Payerbach; Dehmel letter of 12 December 1912; original sextet versus 1917/1943 orchestral versions; composer’s theme examples",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Verklärte Nacht, Dreililien 1905 sextet score, composer’s copy E1",
+      "url": "https://archive2.schoenberg.at/compositions/manuskripte.php?werke_id=420&id_quelle=1213&id_gatt=&id_untergatt=&herkunft=allewerke",
+      "locator": "Visually inspected pp. 2–3, 12–13, 24–27, 44–45, 50–51. Image index identifies bars 204–228 on pp. 24–25 and bars 229–250 on pp. 26–27; final page ends at bar 418.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "term",
+      "title": "Directive 2011/77/EU amending the term of phonogram protection",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj",
+      "locator": "Article 1(2) and 1(3): term and transitional applicability on 1 November 2013",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

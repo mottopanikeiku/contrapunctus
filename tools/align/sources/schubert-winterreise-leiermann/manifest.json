@@ -1,0 +1,18 @@
+{
+  "title": "Winterreise, D. 911 — No. 24 Der Leiermann (later version)",
+  "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established",
+  "encoder": "OpenScore Lieder contributors",
+  "url": "https://musescore.com/openscore-lieder-corpus/scores/5014023",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "song.ly",
+  "musicxml": "lc5014023.mxl",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/24_Der_Leiermann_%28Sp%C3%A4tere_Fassung%29/lc5014023.mxl",
+      "file": "lc5014023.mxl",
+      "sha256": "090a24f0f27a037cd973230980bd0e0ce36e59e4ecf67060584125d1f25be27e"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

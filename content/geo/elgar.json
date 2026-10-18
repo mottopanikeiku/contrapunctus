@@ -1,0 +1,469 @@
+{
+  "id": "elgar",
+  "places": [
+    {
+      "name": "The Firs, Lower Broadheath (Elgar Birthplace)",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.2,
+      "lon": -2.28,
+      "from": "1857-06-02",
+      "to": "1859",
+      "kind": "born",
+      "what": "Born in the rented cottage, three miles from his father’s music shop in Worcester; now the Elgar Birthplace Museum.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        },
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Worcester (10 High Street, then Field Terrace)",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.1911,
+      "lon": -2.2206,
+      "from": "1863",
+      "to": "1889-05",
+      "kind": "childhood",
+      "what": "Grew up above the family music shop at 10 High Street; later lived with his sister at 4 Field Terrace.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1877",
+      "to": "1878",
+      "kind": "studied",
+      "what": "Brief visits for advanced violin lessons with Adolf Pollitzer, his only formal training beyond local lessons.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Worcester and County Lunatic Asylum, Powick",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.154,
+      "lon": -2.264,
+      "from": "1879",
+      "to": "1884",
+      "kind": "worked",
+      "what": "Conducted the attendants’ band weekly for five years, writing quadrilles and polkas for its odd instrumentation.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Brompton Oratory, London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.4972,
+      "lon": -0.1697,
+      "from": "1889-05-08",
+      "kind": "lived",
+      "what": "Married Alice Roberts; they tried and failed to establish themselves in London, where their daughter Carice was born.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "Three Choirs Festival, Worcester",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.1911,
+      "lon": -2.2206,
+      "from": "1890-09",
+      "kind": "premiere",
+      "what": "Conducted the first performance of the overture <i>Froissart</i>, his first major work, for the festival committee.",
+      "work": "Froissart",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Great Malvern (Forli, then Craeg Lea)",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.1114,
+      "lon": -2.329,
+      "from": "1891",
+      "to": "1904",
+      "kind": "lived",
+      "what": "Settled in Alice’s old home town in 1891; moved to Craeg Lea in 1899, keeping Birchwood as a second home.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "St James’s Hall, London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5094,
+      "lon": -0.1367,
+      "from": "1899-06-19",
+      "kind": "premiere",
+      "what": "<i>Enigma Variations</i> premiered under Hans Richter; Elgar was twice called onto the platform.",
+      "work": "Enigma Variations",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Enigma Variations — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Enigma_Variations"
+        }
+      ]
+    },
+    {
+      "name": "Birmingham Town Hall",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.4796,
+      "lon": -1.9037,
+      "from": "1900-10-03",
+      "kind": "premiere",
+      "what": "<i>The Dream of Gerontius</i> was badly performed by an amateur chorus at the premiere; later German performances showed its stature.",
+      "work": "The Dream of Gerontius",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Dream of Gerontius — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Dream_of_Gerontius"
+        }
+      ]
+    },
+    {
+      "name": "Liverpool",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 53.4072,
+      "lon": -2.9917,
+      "from": "1901-10-19",
+      "kind": "premiere",
+      "what": "Marches Nos. 1 and 2 premiered under the composer; two days later Henry Wood played them at the London Proms.",
+      "work": "Pomp and Circumstance Marches Nos. 1–2",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Pomp and Circumstance Marches — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Pomp_and_Circumstance_Marches"
+        }
+      ]
+    },
+    {
+      "name": "Covent Garden, London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5131,
+      "lon": -0.1228,
+      "from": "1904-03",
+      "kind": "premiere",
+      "what": "A three-day festival of his works, an honour never before given to an English composer.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Buckingham Palace, London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5008,
+      "lon": -0.1419,
+      "from": "1904-07-05",
+      "kind": "lived",
+      "what": "Knighted at the Palace; the next month the family moved to Hereford.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Plâs Gwyn, Hampton Park Road, Hereford",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.0491,
+      "lon": -2.6926,
+      "from": "1904-07-01",
+      "to": "1911",
+      "kind": "lived",
+      "what": "Large house above the River Wye; he wrote much of his best music here. Now flats called Elgar Court.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "Free Trade Hall, Manchester",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 53.4778,
+      "lon": -2.2472,
+      "from": "1908-12-03",
+      "kind": "premiere",
+      "what": "The First Symphony premiered under Hans Richter and the Hallé; it was a national and international triumph.",
+      "work": "Symphony No. 1",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 1 (Elgar) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._1_(Elgar)"
+        },
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "London (Royal Philharmonic Society)",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1910-11-10",
+      "kind": "premiere",
+      "what": "Fritz Kreisler gave the premiere of the Violin Concerto, with the LSO under the composer.",
+      "work": "Violin Concerto",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Violin Concerto (Elgar) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Violin_Concerto_(Elgar)"
+        }
+      ]
+    },
+    {
+      "name": "Queen’s Hall, London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5181,
+      "lon": -0.1425,
+      "from": "1911-05-24",
+      "kind": "premiere",
+      "what": "Second Symphony premiered at the London Musical Festival under the composer; the reception was cooler than for the First.",
+      "work": "Symphony No. 2",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 2 (Elgar) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._2_(Elgar)"
+        }
+      ]
+    },
+    {
+      "name": "Severn House, 42 Netherhall Gardens, Hampstead",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5517,
+      "lon": -0.1782,
+      "from": "1912-01-01",
+      "to": "1921-10",
+      "kind": "lived",
+      "what": "A Norman Shaw mansion with a music room, where he wrote <i>The Music Makers</i> and <i>Falstaff</i>; since demolished.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "Brinkwells, near Fittleworth, Sussex",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 50.9653,
+      "lon": -0.5638,
+      "from": "1917-05",
+      "to": "1921-08",
+      "kind": "lived",
+      "what": "Rented countryside house where he recovered his strength and wrote the Violin Sonata, Piano Quintet and String Quartet.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "Wigmore Hall, London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5166,
+      "lon": -0.1482,
+      "from": "1919-05-21",
+      "kind": "premiere",
+      "what": "The String Quartet and Piano Quintet premiered, written at Brinkwells and warmly received.",
+      "work": "String Quartet; Piano Quintet",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "London Symphony Orchestra season opener",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1919-10-27",
+      "kind": "premiere",
+      "what": "The Cello Concerto had a disastrous premiere, for lack of rehearsal time; Elgar later recorded it twice.",
+      "work": "Cello Concerto",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Cello Concerto (Elgar) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Cello_Concerto_(Elgar)"
+        }
+      ]
+    },
+    {
+      "name": "Napleton Grange, Kempsey",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.1341,
+      "lon": -2.2061,
+      "from": "1923-04",
+      "to": "1927-11",
+      "kind": "lived",
+      "what": "Returned to Worcestershire after Alice’s death; he arranged Bach and Handel and wrote the <i>Empire March</i> for 1924.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "Manaus, Brazil",
+      "country": "Brazil (today Brazil)",
+      "lat": -3.1189,
+      "lon": -60.0217,
+      "from": "1923-11",
+      "to": "1923-12",
+      "kind": "travelled",
+      "what": "A voyage up the Amazon; he was impressed by the Teatro Amazonas opera house. Almost nothing else is recorded.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Marl Bank, Rainbow Hill, Worcester",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.2003,
+      "lon": -2.2113,
+      "from": "1929-12-03",
+      "to": "1934-02-23",
+      "kind": "lived",
+      "what": "Bought a house with a view of the cathedral; in January 1934 he followed an Abbey Road session by telephone.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        },
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        }
+      ]
+    },
+    {
+      "name": "Marl Bank, Worcester",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.2003,
+      "lon": -2.2113,
+      "from": "1934-02-23",
+      "kind": "died",
+      "what": "Died at home aged seventy-six, three weeks after the telephone link to the Abbey Road session, in the same room.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "The Elgar Trail: A Short Illustrated Tour of Elgar’s Houses (The Elgar Society)",
+          "url": "https://www.elgar.org/2houses.htm"
+        }
+      ]
+    },
+    {
+      "name": "St Wulstan’s Church, Little Malvern",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.0666,
+      "lon": -2.3356,
+      "from": "1934-02",
+      "kind": "buried",
+      "what": "Buried next to his wife Alice at the Roman Catholic church.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Edward Elgar — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar"
+        },
+        {
+          "title": "Little Malvern — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Little_Malvern"
+        }
+      ]
+    }
+  ]
+}

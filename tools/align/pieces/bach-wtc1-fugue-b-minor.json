@@ -1,6 +1,7 @@
 {
   "version": 1,
   "id": "bach-wtc1-fugue-b-minor",
+  "method": "Public-domain LilyPond/MIDI → voice-aware performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows; section anchors refined by DTW and checked against existing passage labels. Note-offs are warped notation, not measured key releases; final piano holds extend to an estimated decay threshold. No aural review. See tools/align/REPORT.md.",
   "source": {
     "mutopia": 1563,
     "title": "Das Wohltemperierte Clavier I, Fuga XXIV, BWV 869",

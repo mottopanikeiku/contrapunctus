@@ -1,0 +1,499 @@
+{
+  "uniqueScoreAttacks": 282,
+  "audioDetectedOnsets": 197,
+  "medianAbsoluteOnsetDeviation": 0.041304885590594864,
+  "noteWeightedMedianDeviation": 0.03524994846424079,
+  "p95AbsoluteOnsetDeviation": 0.43678741496599227,
+  "fractionWithin150ms": 0.6950354609929078,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 23,
+      "median": 0.036558441558441235,
+      "p95": 0.3382418960008248,
+      "max": 0.4369655741084375,
+      "adaptiveMedian": 0.0409392393320962,
+      "adaptiveP95": 0.2372244897959181
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 23,
+      "median": 0.033913110698822635,
+      "p95": 0.3337846835704024,
+      "max": 0.34002267573696443,
+      "adaptiveMedian": 0.03458668315810698,
+      "adaptiveP95": 0.32247072768501894
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 23,
+      "median": 0.0609688723974422,
+      "p95": 0.3937998350855418,
+      "max": 0.6929705215419464,
+      "adaptiveMedian": 0.04528035456606716,
+      "adaptiveP95": 0.2971369820655507
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 23,
+      "median": 0.02688517831375492,
+      "p95": 0.30199783549784165,
+      "max": 0.36545145330859796,
+      "adaptiveMedian": 0.027096732632443832,
+      "adaptiveP95": 0.0780142496392418
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 21,
+      "median": 0.05295403009689892,
+      "p95": 0.5630911152339664,
+      "max": 0.6534230055658625,
+      "adaptiveMedian": 0.04134405277263653,
+      "adaptiveP95": 0.06639558853844107
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 20,
+      "median": 0.048645124716557575,
+      "p95": 0.4221097196454321,
+      "max": 0.5907802514945288,
+      "adaptiveMedian": 0.042660791589362645,
+      "adaptiveP95": 0.24042589156874938
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 16,
+      "median": 0.03812165017521352,
+      "p95": 0.40929035250463386,
+      "max": 0.4457173778602339,
+      "adaptiveMedian": 0.042636054421752334,
+      "adaptiveP95": 0.19088821892394314
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 23,
+      "median": 0.04138837353122682,
+      "p95": 0.37560101010099484,
+      "max": 0.43340239125953417,
+      "adaptiveMedian": 0.04845392702534923,
+      "adaptiveP95": 0.25488515254588623
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 20,
+      "median": 0.04806689342401427,
+      "p95": 0.532241084312493,
+      "max": 0.7801360544217459,
+      "adaptiveMedian": 0.042329931972780344,
+      "adaptiveP95": 0.21143278447736216
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 20,
+      "median": 0.057678829107388196,
+      "p95": 0.40691316223456797,
+      "max": 0.4377994227994009,
+      "adaptiveMedian": 0.052261389404236525,
+      "adaptiveP95": 0.2792335600907173
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 18,
+      "median": 0.03329777365490827,
+      "p95": 0.5196843434343426,
+      "max": 0.6732704596989976,
+      "adaptiveMedian": 0.03493635332920775,
+      "adaptiveP95": 0.08032495877134657
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 19,
+      "median": 0.03814244485671736,
+      "p95": 0.25988033395176574,
+      "max": 0.3069387755102042,
+      "adaptiveMedian": 0.04421665635949523,
+      "adaptiveP95": 0.25871933621934023
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 22,
+      "median": 0.0448593073593031,
+      "p95": 0.4610242733457007,
+      "max": 0.4635549371263892,
+      "adaptiveMedian": 0.04029839208409669,
+      "adaptiveP95": 0.12749876314138928
+    },
+    {
+      "start": 104.0,
+      "end": 111.90131519274377,
+      "attacks": 11,
+      "median": 0.04248196248195768,
+      "p95": 0.6737234590806196,
+      "max": 0.9234961863533329,
+      "adaptiveMedian": 0.03445578231290369,
+      "adaptiveP95": 0.05307513914655004
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 23,
+      "median": 0.0609688723974422,
+      "p95": 0.3937998350855418,
+      "max": 0.6929705215419464,
+      "adaptiveMedian": 0.04528035456606716,
+      "adaptiveP95": 0.2971369820655507
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 20,
+      "median": 0.057678829107388196,
+      "p95": 0.40691316223456797,
+      "max": 0.4377994227994009,
+      "adaptiveMedian": 0.052261389404236525,
+      "adaptiveP95": 0.2792335600907173
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 21,
+      "median": 0.05295403009689892,
+      "p95": 0.5630911152339664,
+      "max": 0.6534230055658625,
+      "adaptiveMedian": 0.04134405277263653,
+      "adaptiveP95": 0.06639558853844107
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 20,
+      "median": 0.048645124716557575,
+      "p95": 0.4221097196454321,
+      "max": 0.5907802514945288,
+      "adaptiveMedian": 0.042660791589362645,
+      "adaptiveP95": 0.24042589156874938
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 20,
+      "median": 0.04806689342401427,
+      "p95": 0.532241084312493,
+      "max": 0.7801360544217459,
+      "adaptiveMedian": 0.042329931972780344,
+      "adaptiveP95": 0.21143278447736216
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 20,
+      "median": 0.057678829107388196,
+      "p95": 0.40691316223456797,
+      "max": 0.4377994227994009,
+      "adaptiveMedian": 0.052261389404236525,
+      "adaptiveP95": 0.2792335600907173
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 23,
+      "median": 0.04138837353122682,
+      "p95": 0.37560101010099484,
+      "max": 0.43340239125953417,
+      "adaptiveMedian": 0.04845392702534923,
+      "adaptiveP95": 0.25488515254588623
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 23,
+      "median": 0.0609688723974422,
+      "p95": 0.3937998350855418,
+      "max": 0.6929705215419464,
+      "adaptiveMedian": 0.04528035456606716,
+      "adaptiveP95": 0.2971369820655507
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 19,
+      "median": 0.03814244485671736,
+      "p95": 0.25988033395176574,
+      "max": 0.3069387755102042,
+      "adaptiveMedian": 0.04421665635949523,
+      "adaptiveP95": 0.25871933621934023
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 20,
+      "median": 0.048645124716557575,
+      "p95": 0.4221097196454321,
+      "max": 0.5907802514945288,
+      "adaptiveMedian": 0.042660791589362645,
+      "adaptiveP95": 0.24042589156874938
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 48.0,
+      "meanCosine": 0.7606505545585909
+    },
+    {
+      "start": 56.0,
+      "meanCosine": 0.7821286747105004
+    },
+    {
+      "start": 0.0,
+      "meanCosine": 0.803797411911714
+    },
+    {
+      "start": 8.0,
+      "meanCosine": 0.8053912772423377
+    },
+    {
+      "start": 104.0,
+      "meanCosine": 0.8075287084773576
+    }
+  ],
+  "sections": [
+    {
+      "bar": "9",
+      "occ": 1,
+      "editorial": 36,
+      "aligned": 36.13454545454548,
+      "difference": 0.1345454545454814,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "16",
+      "occ": 1,
+      "editorial": 55,
+      "aligned": 55.91727272727274,
+      "difference": 0.9172727272727386,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "9",
+      "occ": 2,
+      "editorial": 73,
+      "aligned": 72.41272727272734,
+      "difference": -0.5872727272726621,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.52,
+      "nearestOnsetDeviation": 0.025668934240362762
+    },
+    {
+      "label": "middle",
+      "bar": "14",
+      "occ": 1,
+      "scoreQ": 43.75,
+      "audioSeconds": 52.72534090909091,
+      "nearestOnsetDeviation": 0.07409374355803067
+    },
+    {
+      "label": "last",
+      "bar": "22",
+      "occ": 2,
+      "scoreQ": 87.66666666666666,
+      "audioSeconds": 109.08227272727272,
+      "nearestOnsetDeviation": 0.03990414347558158
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "22",
+      "occ": 2,
+      "midi": 67,
+      "voice": "upper",
+      "durationQ": 0.3333333333333333,
+      "onset": 109.08227272727272,
+      "offset": 111.17999999999994,
+      "durationSeconds": 2.0977272727272123
+    }
+  ],
+  "recurrence": [
+    {
+      "aStart": 1.5,
+      "aEnd": 13.5,
+      "predictedBStart": 18.92545454545456,
+      "bestBStart": 19.0,
+      "offsetSeconds": 17.5,
+      "boundaryResidualSeconds": 0.07454545454544004,
+      "cosine": 0.902177212936058,
+      "searchRadiusSeconds": 4
+    },
+    {
+      "aStart": 37.0,
+      "aEnd": 57.0,
+      "predictedBStart": 73.41272727272734,
+      "bestBStart": 73.5,
+      "offsetSeconds": 36.5,
+      "boundaryResidualSeconds": 0.08727272727266211,
+      "cosine": 0.8826980187242404,
+      "searchRadiusSeconds": 4
+    }
+  ],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.2195454545454396,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.8234685373105212,
+  "endAnchor": {
+    "scoreQ": 88.0,
+    "audioSeconds": 111.18000000000008,
+    "decodedDuration": 111.90131519274377,
+    "activeEndMinus45dB": 111.27002267573697
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "schumann-kinderszenen-foreign-lands",
+  "tuningHz": 441.02,
+  "audioSha256": "159553cad0681a99b05b1a466b6119e8a031ca7d847e34f7673977bdc4e7518b",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/schumann-kinderszenen-foreign-lands.mjs and cache/analysis/schumann-kinderszenen-foreign-lands.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      40.22,
+      36.0
+    ],
+    [
+      56.84,
+      55.0
+    ],
+    [
+      76.08,
+      73.0
+    ],
+    [
+      110.34045454545455,
+      109.08
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.52,
+      "peakSeconds": 0.54,
+      "window": [
+        0,
+        4
+      ],
+      "midiPitches": [
+        55,
+        59,
+        71
+      ],
+      "basis": "The initial106–109s final window excluded the visible final G4 attack near109.1s. Fresh104–111.901s pitch/onset overlay shows that attack after the preceding soft notes; narrow the pitch search to108.8–109.5s rather than treating earlier decay as the final attack. First window remains from cached analysis."
+    },
+    {
+      "label": "last",
+      "scoreQ": 87.66666666666666,
+      "audioSeconds": 109.08,
+      "peakSeconds": 109.12,
+      "window": [
+        108.8,
+        109.5
+      ],
+      "midiPitches": [
+        67
+      ],
+      "basis": "The initial106–109s final window excluded the visible final G4 attack near109.1s. Fresh104–111.901s pitch/onset overlay shows that attack after the preceding soft notes; narrow the pitch search to108.8–109.5s rather than treating earlier decay as the final attack. First window remains from cached analysis."
+    }
+  ],
+  "adaptiveOnsetCount": 296,
+  "adaptiveMedianDeviation": 0.04123995052566087,
+  "gateReasons": [],
+  "elapsedSeconds": 0.4151453779777512,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 44,
+    "notes": 444,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "5eb948eccae85869e93b735e1dc366258dd2b8a49a5c606ec7ba9d1ead52a7b8",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.ly",
+      "file": "SchumannOp15No01.ly",
+      "sha256": "b8f84c1b53f5aa150c54cd685f6f38fbbe3f76796f22add412620498adf2ac0a"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.mid",
+      "file": "SchumannOp15No01.mid",
+      "sha256": "e58e708afe8b31c634a0e9f3354a4ed94670e929d82926f7ff49dea3ebe146c2"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/schumann-kinderszenen-foreign-lands-0-8.52.png",
+    "work/schumann-kinderszenen-foreign-lands-12-24.png",
+    "work/schumann-kinderszenen-foreign-lands-16-24.png",
+    "work/schumann-kinderszenen-foreign-lands-32-40.png",
+    "work/schumann-kinderszenen-foreign-lands-40-48.png",
+    "work/schumann-kinderszenen-foreign-lands-48.7253-60.7253.png",
+    "work/schumann-kinderszenen-foreign-lands-56-64.png",
+    "work/schumann-kinderszenen-foreign-lands-62-78.png",
+    "work/schumann-kinderszenen-foreign-lands-64-72.png",
+    "work/schumann-kinderszenen-foreign-lands-72-80.png",
+    "work/schumann-kinderszenen-foreign-lands-88-96.png",
+    "work/schumann-kinderszenen-foreign-lands-105.082-111.901.png"
+  ]
+}

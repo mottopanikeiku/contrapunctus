@@ -49,7 +49,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "A modern reference",
       "text": "Musopen explicitly dedicated this performance to the public domain. The approximate date is not an upload date pressed into service as a session date.",

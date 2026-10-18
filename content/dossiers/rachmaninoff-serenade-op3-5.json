@@ -12,7 +12,7 @@
         "henle",
         "imslp-op3"
       ],
-      "note": "Wikipedia’s list of the composer’s recordings labels the 4 November 1922 recording the 1892 version, and the 1940 revised version was published only in 1940 (Henle). IMSLP’s page says No. 5 was revised in 1922; the Henle report documents the revised text as Charles Foley’s 1940 edition, so that remark is not followed. Henle also states that the composer’s own recording diverges from the printed notation of the original version in many places, so no printed edition is a faithful transcript of this performance."
+      "note": "Wikipedia’s list of the composer’s recordings labels the 4 November 1922 recording the 1892 version, and the 1940 revised version was published only in 1940 (Henle). IMSLP’s page says No. 5 was revised in 1922; the Henle report documents the revised text as Charles Foley’s 1940 edition, so that remark is not followed. Henle also states that the composer’s own recording diverges from the printed notation of the original version in many places. Henle does not identify which composer recording it means; the cited original score is therefore not assumed to be a literal transcript of the 1922 performance."
     }
   },
   "performers": {
@@ -113,7 +113,7 @@
         "booklet",
         "archive-data"
       ],
-      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant."
+      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis."
     }
   },
   "digital": {
