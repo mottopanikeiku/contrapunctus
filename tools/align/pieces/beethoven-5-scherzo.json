@@ -13,6 +13,10 @@
     "musicxml": "Beethoven_Op.67_3.mxl",
     "stripLyrics": true,
     "otherDynamicsWords": true,
+    "musicxmlPartialMeasures": [
+      { "number": 162, "quarters": 2, "basis": "Every original MusicXML part contains exactly two quarter units in this first ending. The repeat returns to the one-quarter pickup; adding an importer spacer invents time and corrupts the ending structure." }
+    ],
+    "musicxmlSharedEndingsFrom": "P1",
     "downloads": [
       {
         "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/3/Beethoven_Op.67_3.mxl",
@@ -27,14 +31,13 @@
   },
   "extraction": {
     "mode": "compiled-midi",
-    "timeline": "performed",
     "definitions": [
       {
         "file": "Beethoven_Op.67_3.ly",
         "before": "\\score"
       }
     ],
-    "music": "\\unfoldRepeats \\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n\\new Staff = \"P16\" << \\new Voice { \\PartPOneSixVoiceOne } \\new Voice { \\PartPOneSixVoiceTwo } >>\n\\new Staff = \"P17\" << \\new Voice { \\PartPOneSevenVoiceOne } >>\n\\new Staff = \"P18\" << \\new Voice { \\PartPOneEightVoiceOne } >>\n>>"
+    "music": "\\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n\\new Staff = \"P16\" << \\new Voice { \\PartPOneSixVoiceOne } \\new Voice { \\PartPOneSixVoiceTwo } >>\n\\new Staff = \"P17\" << \\new Voice { \\PartPOneSevenVoiceOne } >>\n\\new Staff = \"P18\" << \\new Voice { \\PartPOneEightVoiceOne } >>\n>>"
   },
   "voices": [
     {

@@ -17,7 +17,10 @@ export function picture(image, base, alt, { cls = '', sizes = '(max-width: 860px
 // Upgrade those at publication without changing their source or CSS geometry.
 export function pictureHTML(html, relative, art) {
   const lookup = new Map();
-  for (const image of Object.values(art)) for (const width of widths(image)) lookup.set(rendition(image, width), image);
+  for (const image of Object.values(art)) {
+    lookup.set(image.src, image);
+    for (const width of [160, 480, 960]) lookup.set(image.src.replace(/\.webp$/, `-${width}.webp`), image);
+  }
   const edits = [], doc = parse(html, { sourceCodeLocationInfo: true });
   function visit(node) {
     if (node.tagName === 'img' && node.parentNode?.tagName !== 'picture') {

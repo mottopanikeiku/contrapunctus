@@ -229,11 +229,15 @@ shared-prefix length with the previous word, followed by the remaining suffix.
 the existing title-prefix, word-prefix and arbitrary-substring scores and stable
 tie order; it does not replace substring search with a narrower word search.
 
-Display rows live in `assets/search/<shard>.json`, arrays of
+Display rows live in `assets/search/<v>/<shard>.json`, arrays of
 `[type, title, sub, url]`, with `size` rows per shard (currently 16).
-Only shards containing the first 24 results are requested, with `?v=<v>`;
-`v` hashes the complete source entries. The shell caches the index and shard
-promises across navigation, and ignores results from superseded queries.
+Only shards containing the first 24 results are requested. `v` hashes the complete
+source entries; immutable paths prevent an open tab from combining an old index
+with newly numbered display rows after deployment. The build writes all shards
+before publishing the index pointer and retains the current and previous generation.
+If an older generation is no longer available, the next search input refreshes
+the index rather than displaying unrelated rows. The shell caches index and shard
+promises across navigation and ignores results from superseded queries.
 Work, lesson and gallery URLs have generated anchors; recordings target `hall.html#<id>`.
 The index also covers glossary aliases, paintings and poems, Return Lab pages,
 and influence batches when present. Influence URLs are

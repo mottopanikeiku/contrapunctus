@@ -1,0 +1,24 @@
+{
+  "mutopia": 979,
+  "title": "Goldberg Variations, BWV 988 — Aria",
+  "edition": "Bach-Gesellschaft",
+  "encoder": "JD Erickson",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=979",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "main": "bwv-988-aria.ly",
+  "midi": "bwv-988-aria.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV988/bwv-988-aria/bwv-988-aria.ly",
+      "file": "bwv-988-aria.ly",
+      "sha256": "f86adfb84573bc7775fe48750f7ee9b6df2adf2fcc5e32fb52c09e589c9e12af"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV988/bwv-988-aria/bwv-988-aria.mid",
+      "file": "bwv-988-aria.mid",
+      "sha256": "05c6155d67e1ef5167eef113defabbc6c42a0fa0f74abe11c7d63258084d9a48"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

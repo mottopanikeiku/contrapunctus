@@ -383,22 +383,17 @@ export default {
           "clarinets",
           "violins-1",
           "violins-2",
-          "violas",
-          "cellos",
-          "basses"
+          "violas"
         ],
         "lead": [
           "clarinets"
         ],
-        "note": "First solo passage: clarinet over a lighter string background."
+        "note": "First solo passage: clarinet above violins and viola; cellos and basses rest initially and join later in the phrase."
       },
       {
         "t": 280,
         "playing": [
           "clarinets",
-          "flutes",
-          "bassoons",
-          "horns",
           "violins-1",
           "violins-2",
           "violas",
@@ -468,14 +463,12 @@ export default {
           "clarinets",
           "violins-1",
           "violins-2",
-          "violas",
-          "cellos",
-          "basses"
+          "violas"
         ],
         "lead": [
           "clarinets"
         ],
-        "note": "The solo main theme returns over the string accompaniment."
+        "note": "The solo main theme returns above violins and viola; cellos and basses rest initially and join later in the phrase."
       },
       {
         "t": 704,

@@ -3,7 +3,7 @@
 import { spawn } from 'node:child_process';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-const [label = 'after', origin = 'http://127.0.0.1:8767'] = process.argv.slice(2);
+const [label = 'after', origin = 'http://127.0.0.1:8080'] = process.argv.slice(2);
 const dir = path.resolve('cache/performance', label);
 await mkdir(dir, { recursive: true });
 const pages = ['index.html', 'hall.html', 'influence.html', 'atlas-map.html', 'compare/mahler-5-adagietto.html', 'composers/mahler.html', 'glossary.html'];

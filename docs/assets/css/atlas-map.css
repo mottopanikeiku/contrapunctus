@@ -35,7 +35,8 @@ body:has(.atlas-map-page)::after { opacity: .24; }
 .am-trail { fill: none; stroke: #cfb47c; stroke-width: .9; opacity: .24; pointer-events: none; }
 .am-travel { stroke-dasharray: 3 6; }
 .am-travelling { opacity: .9; stroke: #f2d79c; stroke-width: 1.6; }
-.am-journey-glint { fill: #ffe2a2; stroke: #76603b; stroke-width: .6; vector-effect: non-scaling-stroke; offset-distance: 0%; offset-rotate: 0deg; animation: am-voyage 2s linear infinite; pointer-events: none; }
+.am-journey-glint { fill: #ffe2a2; stroke: #76603b; stroke-width: .6; vector-effect: non-scaling-stroke; offset-distance: 0%; offset-rotate: 0deg; pointer-events: none; }
+.am-journey-glint:not(.am-hidden) { animation: am-voyage 2s linear infinite; }
 @keyframes am-voyage { to { offset-distance: 100%; } }
 .am-person, .am-city, .am-route-point, .am-route-badge, .am-cluster, .am-premiere { cursor: pointer; }
 .am-hidden { display: none; }
@@ -71,7 +72,9 @@ body:has(.atlas-map-page)::after { opacity: .24; }
 .am-city-selected .am-city-name { fill: #ffe3a5; font-weight: 600; }
 .am-city:hover .am-city-name { fill: #fff0c5; }
 .am-premiere { fill: #ffe1a0; }
-.am-star { font: 33px Georgia, serif; stroke: #715a2c; stroke-width: .4; animation: am-premiere 2.2s ease-in-out infinite; }
+.am-star { font: 33px Georgia, serif; stroke: #715a2c; stroke-width: .4; }
+/* SVG descendants can keep animating beneath display:none groups. */
+.am-premiere:not(.am-hidden) .am-star { animation: am-premiere 2.2s ease-in-out infinite; }
 @keyframes am-premiere { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
 .am-premiere-name { font: italic 13px var(--display); stroke: #111a16; stroke-width: 3px; paint-order: stroke; }
 .am-life-route { fill: none; stroke: #f0cb7e; stroke-width: 1.6; opacity: .85; }

@@ -532,7 +532,11 @@
     "scoreQ": 328.5,
     "audioSeconds": 213.78,
     "decodedDuration": 214.03333333333333,
-    "activeEndMinus45dB": 213.77451247165533
+    "activeEndMinus45dB": 213.77451247165533,
+    "configuredEnd": {
+      "seconds": 213.78,
+      "basis": "Fixed-common-reference pitch profiles distinguish a faint tonal decay from the global overlay’s display floor: E2 remains roughly 60 feature-dB above its adjacent semitone bins at 212.6 s, while G-sharp4/E5 also remain narrowly pitched through about 212.8 s. E2 then falls approximately 60–70 feature-dB below its final-chord reference by 213.6–213.8 s. Retain a 213.78 s pitched-decay display boundary, not an unsupported 210.6 s truncation. These are 20-log10 cached-feature ratios, not acoustic SPL or a measured bow release; the original whole-file RMS endpoint remains in the checks."
+    }
   },
   "roundedCollapsedAttackIntervals": 0,
   "id": "vivaldi-spring-allegro-modena",
@@ -621,7 +625,7 @@
   "adaptiveOnsetCount": 1036,
   "adaptiveMedianDeviation": 0.03417885875809645,
   "gateReasons": [],
-  "elapsedSeconds": 0.8179818210192025,
+  "elapsedSeconds": 0.6971036050235853,
   "dtwSteps": [
     [
       1,
@@ -647,7 +651,7 @@
     "voices": 5
   },
   "published": true,
-  "configSha256": "4bcfdacde7dd74c939dae30a2c1bb3c8b351ce8d49055f731b9b0c50af038704",
+  "configSha256": "33a32d772d861f5f9316b517d3426c220ce80a3fe30ca07bee1d49caae3fa10c",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-lys.zip",
@@ -661,9 +665,22 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "0008956c1c692eed7c7005ef59638566391aa24b18a0d4ae5aa899a00e485c53",
+    "candidateSha256": "8617871650acf226f42195039f4934e2a13bcf1ebce2e614532930c6870997f1",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.0,
+      "noteDurationSeconds": 0.0,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [
+      "method"
+    ],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/vivaldi-spring-allegro-modena-0-8.28.png",

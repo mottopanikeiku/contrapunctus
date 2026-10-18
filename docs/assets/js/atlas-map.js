@@ -45,6 +45,7 @@ export async function mount(app) {
   let selected = '', selectedCity = Number(citySelect.value), detail = null, focusRequest = 0, selectedPlace = -1;
   let width = 900, height = 530, tx = 0, ty = 0, scale = 1, previousScale = 0;
   let paintedCamera = '';
+  let encounterSignature = '', encounterYearNode = null;
   let view = data.europe, frame = [], paintId = 0, timeId = 0, playing = false, lastTick = 0, clock = 0;
   let moved = false, pointerRect, gesture, suppressClickUntil = 0;
   let expandedCity = -1, pinnedCluster = -1, clusterTimer = 0, insetRegion = '', insetScale = 1;
@@ -111,6 +112,8 @@ export async function mount(app) {
       const sprite = sprites[row[0]], p = sprite.c.places[row[1]];
       const radius = Math.hypot(row[2], row[3]), coastal = radius ? Math.min(1, p.shore * scale / radius) : 1;
       const dx = row[2] * coastal, dy = row[3] * coastal;
+      if (sprite.paintedPlace === row[1] && sprite.paintedScale === scale && sprite.paintedDX === dx && sprite.paintedDY === dy) continue;
+      sprite.paintedPlace = row[1]; sprite.paintedScale = scale; sprite.paintedDX = dx; sprite.paintedDY = dy;
       sprite.anchor.setAttribute('transform', `translate(${p.x} ${p.z})`);
       sprite.anchor.dataset.geoX = p.x; sprite.anchor.dataset.geoY = p.z;
       sprite.anchor.dataset.geoPlace = row[1];
@@ -154,7 +157,8 @@ export async function mount(app) {
       s.anchor.classList.toggle('am-collapsed', collapsed);
       s.anchor.classList.toggle('am-shared-city', row[6] > 1);
       s.anchor.dataset.clusterCity = p.city;
-      s.face.setAttribute('transform', `scale(${row[6] > 4 ? .55 : row[6] > 1 ? .75 : 1})`);
+      const faceScale = row[6] > 4 ? .55 : row[6] > 1 ? .75 : 1;
+      if (s.faceScale !== faceScale) { s.face.setAttribute('transform', `scale(${faceScale})`); s.faceScale = faceScale; }
       s.anchor.setAttribute('tabindex', !selected && !collapsed ? '0' : '-1');
       if (!selected && !collapsed && !row[4] && s.image && !s.image.hasAttribute('href')) s.image.setAttribute('href', url(s.c.portrait));
     }
@@ -179,7 +183,8 @@ export async function mount(app) {
     year = clamp(Math.round(next), data.first, data.last); slider.value = year;
     for (const output of yearDisplays) output.textContent = year;
     frame = data.frames[year - data.first];
-    for (const sprite of sprites) { sprite.anchor.classList.add('am-hidden'); sprite.anchor.setAttribute('tabindex', '-1'); }
+    const present = new Set(frame.map((row) => row[0]));
+    for (const sprite of sprites) if (!present.has(sprite.index)) { sprite.anchor.classList.add('am-hidden'); sprite.anchor.setAttribute('tabindex', '-1'); }
     let alive = 0;
     for (const row of frame) {
       const s = sprites[row[0]], visible = !selected;
@@ -197,8 +202,10 @@ export async function mount(app) {
     for (const s of clusterSprites) {
       const count = counts.get(s.city.id) ?? 0, visible = !selected && count > 4;
       s.node.classList.toggle('am-hidden', !visible); s.node.setAttribute('tabindex', visible ? '0' : '-1');
-      s.node.setAttribute('aria-label', `${s.city.name} · ${count} composers. Expand portraits.`);
-      s.count.textContent = count; s.name.textContent = `${s.city.name} · ${count}`;
+      if (s.shownCount !== count) {
+        s.node.setAttribute('aria-label', `${s.city.name} · ${count} composers. Expand portraits.`);
+        s.count.textContent = count; s.name.textContent = `${s.city.name} · ${count}`; s.shownCount = count;
+      }
     }
     showFaces();
     for (const trail of trails) {
@@ -234,10 +241,15 @@ export async function mount(app) {
     const visits = city.visits.filter((v) => v.a <= year && v.b >= year), unique = new Map();
     for (const visit of visits) { const list = unique.get(visit.c) ?? []; list.push(visit); unique.set(visit.c, list); }
     const pairs = city.pairs.filter((p) => p.from <= year && p.to >= year);
+    const signature = `${city.id}|${visits.map((v) => `${v.c}:${v.p}`).join(',')}|${pairs.map((p) => `${p.ids.join('/')}:${p.from}:${p.to}`).join(',')}`;
+    if (signature === encounterSignature && encounterYearNode?.isConnected) {
+      encounterYearNode.textContent = year; if (open) openCard(); return;
+    }
     cardContent.innerHTML = `<span class="kicker">Who was here?</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} with documented presence in this year.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
       const c = byId.get(id);
       return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small>${records.map((v) => escape(v.from === v.to ? v.from : `${v.from}–${v.to}`)).join(' · ')}</small></span><b aria-hidden="true">→</b></button></li>`;
     }).join('')}</ul>` : '<p class="am-empty">No documented presence in the available records. This is a gap in the collection, not evidence that nobody was here.</p>'}<h3>Overlapping dates</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><small>${p.from === p.to ? p.from : `${p.from}–${p.to}`}</small></li>`).join('')}</ul>` : '<p class="am-small">No overlapping documented date ranges for two composers in this year.</p>'}<p class="am-caution">An overlap is not proof of a meeting. A year may include separate visits; open a life for the dates and sources.</p><div class="am-city-prompts"><button type="button" data-vienna="1790">Vienna · 1790</button><button type="button" data-vienna="1805">Vienna · 1805</button><button type="button" data-paris="1900">Paris · 1900</button></div>`;
+    encounterSignature = signature; encounterYearNode = cardContent.querySelector('h2 em');
     if (open) openCard();
   }
   const playButton = (recording) => `<button type="button" class="am-listen" data-map-play="${escape(recording.id)}"><span aria-hidden="true">▶</span><span>${escape(recording.work)}${recording.movement ? `<small>${escape(recording.movement)}</small>` : ''}</span></button>`;

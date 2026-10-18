@@ -23,7 +23,7 @@ export default {
     { t: 18, label: 'Bars 5–8 · second plea', m: 'B' },
     { t: 36, label: 'Bars 9–12 · third plea', m: 'C' },
     { t: 54, label: 'Bars 13–16 · last plea', m: 'D' },
-    { t: 68, label: 'Bar 17 · the held chord', m: 'Coda' },
+    { t: 77, label: 'Bar 17 · the held chord', m: 'Coda' },
   ],
 
   cues: [
@@ -31,7 +31,7 @@ export default {
     { t: 18, kind: 'form', title: 'Four-bar groups, one every eighteen seconds', text: 'Double bars close the groups after bars 4 and 8. The recording’s boundaries fall at about 0:18, 0:36 and 0:54, so each group of four bars takes about eighteen seconds. Ritardando marks begin only in the third group.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.97 at 0:18, 1.00 at 0:36, 0.66 at 0:54. Score p. 7: double bars after bars 4 and 8; the first ritardando is written over bar 9. The count of 17 bars is from the page.' },
     { t: 36, kind: 'listen', title: 'The loudest stretch is the pianist’s choice', text: 'The page asks only for p and pp, with one hairpin. In the recording the relative level still rises, with its loudest windows at 0:35 and 0:45. Notice how much shaping a quiet piece allows.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: loudest windows 0:35 (−8.8 dB) and 0:45 (−10.5 dB) against −17.6 to −20.8 dB at 0:05–0:15. Dynamic marks on p. 7 are p and pp, with one hairpin in the third system; the report’s levels are relative within this recording, not dynamics.' },
     { t: 54, kind: 'life', title: 'Liszt’s copy, and a puzzle of tempo', text: 'Schumann inscribed an early printing “to F. Liszt in friendship”, Vienna, 13 March 1839, and wrote Langsam — slowly — above this piece by hand. That copy has no metronome marks; the later issue gives a quaver mark above 100, at which these bars would last about half a minute.', basis: 'documented', precision: 'passage', evidence: 'Zwickau catalogue, items 7–8: Liszt copy without the later metronome figures, with a handwritten “Langsam” for Bittendes Kind; the second issue added metronome marks. Page 7 prints a quaver mark with a three-digit figure above 100; 17 bars of four quavers at that pace is about 26–30 s. This recording takes 83 s. Michael Struck (Henle blog) says Schumann did not supply the marks but let them pass uncorrected.' },
-    { t: 70, kind: 'listen', title: 'The last chord leaves the question open', text: 'The final bar is a held chord with a fermata after the last slowing. The bass is an A again, the dominant of the D-major key signature, and the sound falls from −21 dB at 1:00 to near silence by 1:20.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: level −21.0 dB at 1:00, −32.2 dB at 1:15, −40.9 dB at 1:20; onsets 0.6 per second at 1:10 and 0.2 at 1:15; bass on A and top pitch classes A E C♯ at 1:15–1:20. Score p. 7: ritardando and a fermata over the final chord; key signature of two sharps.' },
+    { bar: { n: '17', occ: 1 }, kind: 'listen', title: 'The last chord leaves the question open', text: 'After the last slowing the final bar, near 1:17, is a held chord with a fermata. The bass is an A again, the dominant of the D-major key signature, and the sound falls from −21 dB at 1:00 to about −41 dB at 1:20.', basis: 'score-aligned', precision: 'passage', evidence: 'Provisional alignment: bar 16 at 68.3 s and bar 17, the final chord, at 76.7 s. Report: level −21.0 dB at 1:00, −32.2 dB at 1:15, −40.9 dB at 1:20; onsets 0.6 per second at 1:10 and 0.2 at 1:15; bass on A and top pitch classes A E C♯ at 1:15–1:20. Score p. 7: ritardando and a fermata over the final chord; key signature of two sharps.' },
   ],
 
   transitions: [
@@ -79,13 +79,13 @@ export default {
       title: 'A fermata on the dominant',
       from: 'Bars 13–16',
       to: 'Bar 17 · the held chord',
-      at: { t: 68 },
-      span: [60, 78],
+      at: { bar: { n: '17', occ: 1 } },
+      span: [68, 82],
       how: '<p>After the last ritardando the final bar is a chord held under a fermata. Its bass is an A, the dominant of the D-major key signature, so the piece ends on harmony that normally expects a resolution and the plea is left open.</p>',
       devices: ['fermata', 'tempo change'],
-      basis: 'audio-feature',
+      basis: 'score-aligned',
       precision: 'passage',
-      evidence: 'Report: novelty 0.42 at 1:08; onsets fall from 1.2 per second at 1:05 to 0.2 at 1:15; bass on A and pitch classes A E C♯ at 1:15–1:20. Score p. 7: fermata over the final chord; two-sharp key signature.',
+      evidence: 'Provisional alignment: bar 16 begins at 68.3 s and the final chord, bar 17, at 76.7 s. The report’s novelty 0.42 at 1:08 marks the start of bar 16, not the final arrival. Report: onsets fall from 1.2 per second at 1:05 to 0.2 at 1:15; bass on A and pitch classes A E C♯ at 1:15–1:20. Score p. 7: fermata over the final chord; two-sharp key signature.',
     },
   ],
 };

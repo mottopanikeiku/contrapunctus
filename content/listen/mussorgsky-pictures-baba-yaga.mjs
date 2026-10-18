@@ -21,7 +21,7 @@ export default {
     { t: 0, label: 'Feroce · the witch rides', m: 'A' },
     { t: 68, label: 'Andante mosso · hushed middle', m: 'B' },
     { t: 148, label: 'The wild music returns', m: 'A′', mNote: 'strident brass material returns after a forceful chord' },
-    { t: 194, label: 'Held chords into the Gate', m: 'Coda' },
+    { t: 194, label: 'Closing rush into the Gate', m: 'Coda' },
   ],
 
   cues: [
@@ -32,7 +32,7 @@ export default {
     { t: 126, kind: 'life', title: 'The witches’ sabbath again', text: 'Mussorgsky had already written a witches’ sabbath: St John’s Night on the Bare Mountain, finished 23 June 1867 and refused by Balakirev. Orrin Howard hears in Baba Yaga “Mussorgsky’s best Bald Mountain pictorialism”.', basis: 'documented', precision: 'passage', evidence: 'The 1867 completion date and Balakirev’s refusal: site influence edge mussorgsky-bald-mountain--rimsky-korsakov-edition-1886 (content/influence/romantic.json); the quotation: LA Phil note by Orrin Howard (https://www.laphil.com/works/pictures-at-an-exhibition-modest-mussorgsky-zs2phpn9). The note sits in the hush (−26.0 to −29.2 dB, 1:55–2:10).' },
     { t: 148, kind: 'form', title: 'A forceful chord', text: 'At about 2:28 the level jumps by roughly seventeen decibels within three seconds: a forceful orchestral chord announces the return of the strident material. The long hush is over.', basis: 'audio-feature', precision: 'moment', evidence: 'A 1-second pass gives −34.1 dB at 2:27, −23.3 dB at 2:28 and −17.0 dB at 2:30; the 5-second table shows −28.3 dB (2:25) and −16.1 dB (2:30), with onsets per second 0.4 to 3.2; boundary at 2:28 (novelty 0.30). A forceful chord heralding the return: Philharmonia guide.' },
     { t: 172, kind: 'listen', title: 'Louder and brighter again', text: 'From 2:45 to 3:00 the wild music is loud and bright again, near −11 dB and about 1,300 to 1,900 Hz. Listen for the same earthy rushes as in the opening, now heading for the end.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level −12.0 dB (2:45), −11.2 (2:50), −10.9 (2:55), −13.3 (3:00); brightness 1,308, 1,491, 1,898 and 1,792 Hz; boundaries at 2:50 and 3:02 (novelty 0.43, 0.45). That the opening ideas return: Cleveland note and the movement’s A–B–A form.' },
-    { t: 196, kind: 'listen', title: 'Held chords, no break', text: 'In the last twenty seconds nearly no new attacks are detected while the level climbs from about −21 dB to −12 dB and the brightness rises to 3,000 Hz. The movement runs straight into the Great Gate without a pause.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level −20.4 dB (3:15), −21.6 (3:20), −19.8 (3:25), −12.5 (3:30); onsets per second 0.0 to 0.2; brightness 1,702 Hz (3:15) to 3,000 Hz (3:30); boundary at 3:14 (novelty 0.32). The witch music continuing directly into the finale: Peter Laki’s Cleveland Orchestra note; the coda leads without a break to the final movement: Wikipedia.' },
+    { t: 196, kind: 'listen', title: 'A rising rush, no break', text: 'In the last twenty seconds the level climbs from about −21 dB to −12 dB and the brightness rises to 3,000 Hz. In the score this is a continuous rush of semiquavers that climbs to the last notes, which lead straight into the Great Gate.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level −20.4 dB (3:15), −21.6 (3:20), −19.8 (3:25), −12.5 (3:30); brightness 1,702 Hz (3:15) to 3,000 Hz (3:30); boundary at 3:14 (novelty 0.32). The detector counts only 0.0–0.2 onsets per second here; that is not the written note rate. The continuous semiquavers of bars 187–211, the rising close and the attacca on the last bar are in Lamm’s piano text (Mutopia, baba-allegro-molto.ily); the witch music running into the finale: Laki’s Cleveland Orchestra note and Wikipedia.' },
   ],
 
   transitions: [
@@ -63,17 +63,17 @@ export default {
       evidence: 'A 1-second pass gives −34.1 dB at 2:27, −23.3 dB at 2:28 and −17.0 dB at 2:30; the 5-second table shows −28.3 dB (2:25) to −16.1 dB (2:30); onsets per second 0.4 to 3.2. A forceful chord heralding the return of the strident material: Philharmonia guide; the Allegro molto mark is in the title.',
     },
     {
-      id: 'into-held-chords',
-      title: 'Held chords lead into the Gate',
+      id: 'into-closing-rush',
+      title: 'A rising rush leads into the Gate',
       from: 'The wild music returns',
-      to: 'Held chords into the Gate',
+      to: 'Closing rush into the Gate',
       at: { t: 194 },
       span: [186, 212],
-      how: '<p>The running music gives way to sustained chords that swell with almost no new attacks, brightening to the movement’s highest point. The last chord is not a cadence: the movement is joined, without a break, to the finale, <i>The Great Gate of Kyiv</i>, so the witch’s hut and the gate sound as one continuous span.</p>',
-      devices: ['texture change', 'crescendo build', 'attacca'],
+      how: '<p>The running music does not stop: the score keeps its rapid semiquavers through a closing run that climbs to the last notes, and the level in this recording rises from about −21 dB to −12 dB while the sound brightens to 3,000 Hz. The last bar is marked attacca, so the movement is joined, without a break, to the finale, <i>The Great Gate of Kyiv</i>, and the witch’s hut and the gate sound as one continuous span.</p>',
+      devices: ['crescendo build', 'register change', 'attacca'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'Boundary at 3:14 (novelty 0.32); relative level −20.4 dB (3:15) to −12.5 dB (3:30); onsets per second 0.0 to 0.2; brightness 1,702 Hz to 3,000 Hz. The coda leading without a break into the next movement: Wikipedia’s article and Laki’s Cleveland note.',
+      evidence: 'Boundary at 3:14 (novelty 0.32); relative level −20.4 dB (3:15) to −12.5 dB (3:30); brightness 1,702 Hz to 3,000 Hz; onsets per second 0.0 to 0.2, a detector figure and not the written note rate. The continuous semiquavers of bars 187–211, the rising close and the attacca are in Lamm’s piano text (Mutopia, baba-allegro-molto.ily); the coda leading without a break into the next movement: Wikipedia’s article and Laki’s Cleveland note.',
     },
   ],
 };

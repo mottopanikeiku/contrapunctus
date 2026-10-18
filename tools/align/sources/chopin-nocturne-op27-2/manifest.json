@@ -1,0 +1,24 @@
+{
+  "mutopia": 486,
+  "title": "Nocturne in D♭ major, Op. 27 No. 2",
+  "edition": "Claude Debussy edition, 1915",
+  "encoder": "Scott Horne and Keith OHara",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "main": "chopin-nocturne-8.ly",
+  "midi": "chopin-nocturne-8.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.ly",
+      "file": "chopin-nocturne-8.ly",
+      "sha256": "60c9308bdfb60897a94abdf0ec449e82914559b53c2d36001ba0a628224e97ee"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.mid",
+      "file": "chopin-nocturne-8.mid",
+      "sha256": "9725f419ef122a816da97fb2e7186449471db151e5994023e7e0f81849a1a1b0"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

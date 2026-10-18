@@ -1,0 +1,13 @@
+{
+  "id": "mussorgsky-pictures-ballet-chicks",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "transitions[2].how and evidence",
+      "severity": "minor",
+      "problem": "[MEAS] The final window is not the movement’s highest/loudest five-second window. The report puts 0:55 at −10.9 dB and 1:15 at −11.1 dB.",
+      "evidence": "cache/analysis/mussorgsky-pictures-ballet-chicks.txt:14,29,33.",
+      "fix": "Describe the 1:15 window as one of the loudest, or simply as louder than the preceding chatter, rather than the movement’s highest window. Keep its correct −11.1 dB value and the 1:10→1:15 contrast."
+    }
+  ]
+}

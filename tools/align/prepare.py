@@ -13,6 +13,7 @@ import zipfile
 from config import HERE, LILYPOND, inside, load
 from musicxml_tuplets import flatten_tuplets
 from musicxml_ties import route_ties
+from musicxml_structure import preserve_partial_measures, share_endings
 
 
 def definitions(cfg, directory):
@@ -113,6 +114,10 @@ def prepare(cfg, lilypond=LILYPOND):
             flatten_tuplets(xml, source['musicxmlFlattenTuplets'])
         if source.get('musicxmlTieRoutes'):
             route_ties(xml, source['musicxmlTieRoutes'])
+        if source.get('musicxmlPartialMeasures'):
+            preserve_partial_measures(xml, source['musicxmlPartialMeasures'])
+        if source.get('musicxmlSharedEndingsFrom'):
+            share_endings(xml, source['musicxmlSharedEndingsFrom'])
         selected = directory / '__selected.musicxml'
         ET.ElementTree(xml).write(selected, encoding='utf-8', xml_declaration=True)
         main.parent.mkdir(parents=True, exist_ok=True)

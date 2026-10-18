@@ -1,0 +1,34 @@
+{
+  "id": "vivaldi-winter-allegro",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent checks/report comparison, published bar-map and visual/source review; not aural review.",
+  "defects": [],
+  "report": {"basis": "MEAS", "path": "tools/align/REPORT.md#vivaldi-winter-allegro", "finding": "Reported gates, corrected endpoints, 3255 notes / five source parts and six-page 63-bar pack agree with final checks and published assets. The rejected 198.794 s cadence candidate is not presented as the final attack."},
+  "gates": {
+    "basis": "MEAS", "checks": "tools/align/work/vivaldi-winter-allegro-checks.json",
+    "primaryMedianSeconds": 0.037137188208618,
+    "primaryP95Seconds": 0.16520748299319188,
+    "maximumAnchorDeviationSeconds": 0.21968253968253748,
+    "maximumLocalRegionMedianSeconds": 0.059835600907032216,
+    "minimumPublishedNoteDurationSeconds": 0.013,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.012000000000000455,
+    "zeroOrNegativeDurations": 0, "collapsedAttackIntervals": 0, "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS", "performedBars": 63, "distinctEngravedBars": 63, "sheetPages": 6,
+    "svgBarSetEqualsIndex": true, "unresolvedScoreBars": [], "derivedBars": [],
+    "barAnchoredListenPointers": 0, "unresolvedListenPointers": [],
+    "finding": "All 3255 note bar/voice indices resolve, durations are positive and performed bar times strictly increase. Actual SVG bar identities equal index.json bars 1–63, with no derived boxes. Rendered pages 1 and 6 were inspected: the staggered opening string entries remain inside the written first bars and the closing fermata is a genuine bar 63. Listen cues use seconds, not structured bar pointers."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": ["work/vivaldi-winter-allegro-0-8.png", "work/vivaldi-winter-allegro-0-8.58.png", "work/vivaldi-winter-allegro-8-16.png", "work/vivaldi-winter-allegro-16-24.png", "work/vivaldi-winter-allegro-24-32.png", "work/vivaldi-winter-allegro-101.146-113.146.png", "work/vivaldi-winter-allegro-112-120.png", "work/vivaldi-winter-allegro-120-128.png", "work/vivaldi-winter-allegro-160-168.png", "work/vivaldi-winter-allegro-176-184.png", "work/vivaldi-winter-allegro-199.638-208.856.png"],
+    "finding": "No gross pitch/order mismatch identified in these final-candidate windows. The quiet opening at 0.58 s precedes the louder repeated bass. The corrected final arrival near 203.638 s follows, rather than compresses, the remaining dominant figures; the fermata's written duration maps to the estimated 207.34 s activity end, not a measured bow release."
+  },
+  "source": {"basis": "EXT", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351", "opened": true, "edition": "Performers’ Facsimiles", "encoder": "Anonymous (Mutopia maintainer)", "license": "CC BY-SA 3.0"},
+  "version": {"basis": "INFERENCE", "finding": "First movement alone, bars 1–63 once, with returning material already written out. Five source string/bass staves are retained. Figured bass is engraved without fabricating realised continuo or a separate double-bass part. No gross cut, transposition or arrangement mismatch identified in the inspected coverage.", "physicalPerformingEdition": "Unknown; the named edition identifies the symbolic source, not the performers’ physical parts."},
+  "status": {"basis": "MEAS", "value": "provisional", "namedAuralReview": false},
+  "limitations": "MEAS: No aural review, build or browser integration check performed by VerS. Warped written durations and source-part labels are not independently recovered physical releases or isolated recorded stems."
+}

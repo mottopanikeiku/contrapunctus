@@ -33,7 +33,9 @@ A continuous concert from Couperin and Bach to Stravinsky, Ives and Bartók: 55 
 | `content/eras/*.mjs` | The seven chapters |
 | `content/pages/*.mjs` | Long-form pages: Origins, Workshop |
 | `content/site.mjs` | Home page copy, hero slides, timeline events |
-| `src/build.mjs` | Static generator (no dependencies) → `docs/` |
+| `src/build.mjs` | Static generator and final asset optimisation → `docs/` |
+| `src/assets/{js,css,vendor}/` | Canonical readable browser sources; edit these, never the minified copies in `docs/assets/` |
+| `tools/optimize/` | Responsive pictures, cached AVIF/WOFF2 generation, minification, critical CSS and revisioned service-worker generation |
 | `tools/art.mjs` | Wikimedia Commons search / check / fetch (images re-encoded to WebP) |
 | `tools/validate.mjs` | Schema, links, ABC notation and image checks for content files |
 | `content/listen/*.mjs` | One file per recording: metadata, formal sections and timed cues (see `LISTENING.md`) |
@@ -48,11 +50,20 @@ A continuous concert from Couperin and Bach to Stravinsky, Ives and Bartók: 55 
 ## Build
 
 ```sh
+npm ci                     # install the locked build/measurement dependencies (Node 22.12+)
 node tools/art.mjs fetch     # download any newly referenced Commons images (needs ffmpeg)
-node src/build.mjs           # write docs/
-python3 -m http.server -d docs 8080
+node src/build.mjs           # generate and optimise docs/, including sw.js
+node tools/perf-preview.mjs 8080 docs  # gzip preview matching GitHub Pages
 ```
 
 GitHub Pages serves `docs/` from `main`.
+
+The final build step publishes AVIF and WebP pictures at 160/480/960 pixels and the original width, without upscaling. Existing WebP renditions are retained. AVIF twins also exist for the Hall's programme portrait, thumbnail and backdrop URLs. Image encodes and font subsets are cached by their inputs under `cache/optimize/`; keep that directory between builds. A first build downloads pinned, integrity-checked upstream font sources; subsequent builds reuse them. The generated WOFF2 files and SIL Open Font Licences are self-hosted under `docs/assets/fonts/`.
+
+Font subsets retain Latin, Latin-1, Extended-A, site-used punctuation and musical symbols, plus a separately loaded range for other scripts appearing in the published HTML, JavaScript and JSON. CSS-used weight ranges are kept as variable fonts where applicable. Two first-viewport faces are preloaded; `font-display: swap` and metric-adjusted local fallbacks avoid blocking text. Index and composer first-viewport styles are inlined; the full stylesheets still load and the persistent router removes outgoing critical styles on navigation.
+
+`docs/sw.js` is generated from content-hash revisions. It precaches CSS, JavaScript, fonts, the compact programme, and the index/Hall shell. HTML is network-first with an offline cached fallback; other data uses stale-while-revalidate. Images and score SVG pages are cache-first, with separate 300-entry LRU limits. Cross-origin resources, audio and Range requests always bypass the worker. Updates wait for the old app to close rather than interrupting music. Offline playback of streamed recordings is intentionally not provided.
+
+For repeatable performance measurements, run the gzip preview on a free port and use `CHROME_PATH=/path/to/chrome node tools/optimize/measure.mjs after http://127.0.0.1:8080`. It serialises mobile and desktop Lighthouse runs for the seven acceptance pages and saves raw JSON plus a byte/request breakdown under `cache/performance/after/`. `tools/optimize/browser-checks.mjs` and `navigation-checks.mjs` expose helpers for the browser tool: isolated, reduced-motion screenshots at 1440×900/390×844, pixel diffs, persistent-player module navigation and genuine service-worker offline navigation. Measurement artifacts stay in `cache/`, not the published site.
 
 Images are public-domain or freely licensed reproductions from Wikimedia Commons; see `docs/credits.html`. Notation is engraved client-side with [abcjs](https://abcjs.net) (MIT).

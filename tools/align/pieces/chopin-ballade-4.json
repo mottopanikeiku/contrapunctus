@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys.zip",
         "file": "ballade-4-lys.zip",
-        "sha256": null
+        "sha256": "8284fbd97310508ab2b87405d188226f6c1aac3c2ea2bd650b6c4aa0662db871"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4.mid",
         "file": "ballade-4.mid",
-        "sha256": null
+        "sha256": "d43381e221c19af1c6072ccdb417bb1ade308fab7e35d9fd2a947ef20aa4d47b"
       }
     ]
   },

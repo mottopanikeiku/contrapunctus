@@ -15,7 +15,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
   },
   "tuningHz": 441.53,
-  "method": "Licensed symbolic score → LilyPond/MIDI → voice-aware performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows; section anchors refined by DTW and checked against existing passage labels. Note-offs are warped notation, not measured key releases; final written holds extend to an estimated decay threshold. No aural review. See tools/align/REPORT.md.",
+  "method": "Licensed symbolic score → LilyPond/MIDI → voice-aware performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows; section anchors refined by DTW and checked against existing passage labels. Note-offs are warped notation, not measured key releases; final holds extend to a documented pitch-energy display boundary, not a measured key release. No aural review. See tools/align/REPORT.md.",
   "voices": [
     {
       "id": "solo-violin",

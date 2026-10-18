@@ -1,0 +1,34 @@
+{
+  "id": "vivaldi-winter-largo",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, report/source, published bar-map and visual review; not aural review.",
+  "defects": [],
+  "report": {"basis": "MEAS", "path": "tools/align/REPORT.md#vivaldi-winter-largo", "finding": "Reported gates, 851 notes / five staves, corrected 125.182778 s final arrival, measured display-boundary qualification and two-page 18-bar pack agree with final checks and assets."},
+  "gates": {
+    "basis": "MEAS", "checks": "tools/align/work/vivaldi-winter-largo-checks.json",
+    "primaryMedianSeconds": 0.023312074829931362,
+    "primaryP95Seconds": 0.07914002267574105,
+    "maximumAnchorDeviationSeconds": 0.10494331065759632,
+    "maximumLocalRegionMedianSeconds": 0.055389030612248646,
+    "minimumPublishedNoteDurationSeconds": 0.363,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.3640000000000043,
+    "zeroOrNegativeDurations": 0, "collapsedAttackIntervals": 0, "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS", "performedBars": 18, "distinctEngravedBars": 18, "sheetPages": 2,
+    "svgBarSetEqualsIndex": true, "unresolvedScoreBars": [], "derivedBars": [],
+    "barAnchoredListenPointers": 0, "unresolvedListenPointers": [],
+    "finding": "All 851 note bar/voice indices resolve, durations are positive and bar times strictly increase. Actual SVG bar identities equal index.json bars 1–18. Both engraved pages were inspected. In particular the viola B-flat3 is visibly tied through bars 14–18 into the final fermata; its long event is not an invented final reattack or stuck MIDI note. Listen cues use seconds rather than structured bar pointers."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": ["work/vivaldi-winter-largo-0-9.8.png", "work/vivaldi-winter-largo-16-24.png", "work/vivaldi-winter-largo-32-40.png", "work/vivaldi-winter-largo-58.9228-70.9228.png", "work/vivaldi-winter-largo-80-88.png", "work/vivaldi-winter-largo-88-96.png", "work/vivaldi-winter-largo-104-112.png", "work/vivaldi-winter-largo-120-128.png", "work/vivaldi-winter-largo-121.183-132.344.png"],
+    "finding": "No gross pitch/order mismatch identified. Pizzicato figures remain before the actual final E-flat arrival near 125.183 s, rather than being collapsed onto the earlier repeated harmony. The configured 129.5 s pitched-decay boundary, quantised to 129.49 s in the warp, is explicitly distinguished from the noisy 132.344 s container/RMS tail and from a physical bow release."
+  },
+  "source": {"basis": "EXT", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351", "opened": true, "edition": "Performers’ Facsimiles", "encoder": "Anonymous (Mutopia maintainer)", "license": "CC BY-SA 3.0"},
+  "version": {"basis": "INFERENCE", "finding": "Complete second movement in written order, bars 1–18 once, without an added pickup/repeat. Five original source staves and the tied viola pedal are retained; the bass line is not represented as a realised continuo arrangement. No gross version/cut mismatch identified.", "physicalPerformingEdition": "Unknown; the source edition is not asserted to be the players’ physical edition."},
+  "status": {"basis": "MEAS", "value": "provisional", "namedAuralReview": false},
+  "limitations": "MEAS: No aural review, build or browser integration check performed by VerS. The report’s per-band dB measurement was not independently recomputed; the corresponding final pitch overlay and the explicit display-boundary provenance were inspected."
+}

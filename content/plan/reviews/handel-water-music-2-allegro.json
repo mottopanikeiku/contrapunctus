@@ -1,0 +1,27 @@
+{
+  "id": "handel-water-music-2-allegro",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues",
+      "severity": "major",
+      "problem": "MEAS: Eleven cues arrive between 0 and 96 seconds, mostly only 5–16 seconds apart. This is much denser than the required roughly 30–45-second reading cadence.",
+      "evidence": "content/listen/handel-water-music-2-allegro.mjs: cue times 0, 10, 18.2, 26, 34.4, 42, 46.7, 59.6, 75.6, 86, 96; local://AUTHOR-BRIEF.md per-recording requirements; LISTENING.md cue spacing.",
+      "fix": "Consolidate into about four or five cues spaced roughly 30–40 seconds apart, preserving the most useful score/analysis anchors and at least 40% music/form/listen. Context may be spread across this short-movement set; no need to add more densely spaced context cues. Apply the same cadence to the other four movements before handoff."
+    },
+    {
+      "where": "sections[5]; cues[9–10]; transitions[4]; orchestra.timeline[13]; dossier.work.version",
+      "severity": "major",
+      "problem": "MEAS: Independent inspection of the official video shows Rakers still conducting at 103 seconds and violinists in playing positions at 114 and 120 seconds, with changed bow positions. EXT: The reference score has three closing string-only Adagio bars. The quiet tail is therefore not correctly represented as applause-only with all instruments finished at 95.9 seconds; the guide omits the recorded soft string ending.",
+      "evidence": "https://www.youtube.com/watch?v=FFrZgE9QnlY — paused video frames independently viewed at 103, 114 and 120 seconds; https://s9.imslp.org/files/imglnks/usimg/c/c6/IMSLP559922-PMLP902090-handelHHAIV%2C13wassermusiksuiteIIHWV349.pdf printed p.43, bars 48–50: string-only Adagio after the loud cadence. cache/analysis/handel-water-music-2-allegro.txt:33–39 records the large level drop and quiet final region.",
+      "fix": "Replace the applause/end-of-music account with the closing string-only Adagio, add its section join and a qualified approximate strings/continuo stage entry, and update the dossier’s claim that its presence is unestablished. Keep its precise onset/release passage-level unless independently anchored; a video playing position alone does not fix a millisecond release. Remove the claim that the loud tutti is the end of the whole movement."
+    },
+    {
+      "where": "cues[2]; cues[8]; transitions[0–4] evidence",
+      "severity": "minor",
+      "problem": "MEAS: The cited report contains five-second windows and boundaries at 96, 104 and 110 seconds, but not the subsecond level samples, half-second pauses or 0.93 correlation used to fix the detailed bar grid. Those supplementary measurements are presently asserted only in the authored guide and cannot be checked against the named analysis report.",
+      "evidence": "cache/analysis/handel-water-music-2-allegro.txt:1–39; no supplementary Allegro analysis file is present beside it. The guide cites samples at 17.95/18.46, 29.98/30.60 and 75.51/75.70 seconds and a 29-second-offset correlation of 0.93.",
+      "fix": "Preserve the actual supplementary measurements and calculation method in the existing analysis report, with a clear locator cited by the guide, or remove the unsupported fine precision and use passage-level descriptions anchored in the existing report. Do not rerun the full validator solely for these corrections."
+    }
+  ]
+}

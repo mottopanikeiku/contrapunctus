@@ -1,0 +1,24 @@
+{
+  "mutopia": 926,
+  "title": "Étude in G♭ major, Op. 10 No. 5",
+  "edition": "Peters, Herrmann Scholtz, 1900b",
+  "encoder": "Roland Goretzki",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=926",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "chp-10-05-a4.ly",
+  "midi": "chp-10-05.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O10/chp-10-05/chp-10-05-lys.zip",
+      "file": "chp-10-05-lys.zip",
+      "sha256": "3645e170b7d5bea0d0f1ed0274f5f23464ca3fa67747a8e0781a928c16e1fc22"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O10/chp-10-05/chp-10-05.mid",
+      "file": "chp-10-05.mid",
+      "sha256": "3b7c267dc6047e881b7404e47259de23dce3cfe8fe74966a1cc28adacf5e3336"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

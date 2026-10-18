@@ -3,32 +3,11 @@
   "verdict": "fix",
   "defects": [
     {
-      "where": "cues[1]; orchestra.timeline[0].note",
-      "severity": "major",
-      "problem": "The repeated-sixteenth-note accompaniment belongs to the second ending after the opening strain has been repeated, not the opening passage at 0:20. In the opening strain the two violins share phrases while the lower parts move; the steady repeated notes in violin II and viola begin at the second ending. The cited recurrence places that repeat much later. The supporting level range is also inaccurate: 0:25 is −20.7 dB, not between −10 and −13 dB.",
-      "evidence": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP05812-Haydn_-_Op._54,_No._2.pdf — printed p. 193, first strain and second ending. cache/form/haydn-54-2-finale.txt:51: 2.5–32.0 recurs at 38.0–67.5. cache/analysis/haydn-54-2-finale.txt: opening level windows.",
-      "fix": "Rewrite the 0:20 cue and opening orchestra note to describe the paired violins and moving lower parts actually present in the first strain. If retaining the repeated-sixteenth listening observation, place it in a later second-ending/second-strain cue, around 1:10–1:20, with the appropriate passage anchor. Correct or replace the level evidence; the approximately −11 to −13 dB stretch ends at 0:20."
-    },
-    {
-      "where": "cues[10].text/evidence",
-      "severity": "major",
-      "problem": "The 16.5-second duration/lag of a recurrence candidate has been equated with the length of the notated opening Presto strain. The candidate spans related material, but no bar alignment establishes that its endpoints are the opening strain’s repeat barlines. The score’s short opening strain and its repeat must not be given that duration solely from this path.",
-      "evidence": "cache/form/haydn-54-2-finale.txt:58: 304.0–320.5 matches 320.5–337.0; report line 9 explicitly warns that endpoints are not barlines. https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP05812-Haydn_-_Op._54,_No._2.pdf — printed p. 196, short opening Presto strain ending at the repeat sign.",
-      "fix": "Remove the unsupported sixteen-second identification. A score-supported alternative is: the Presto’s opening strain is marked for repetition, and its general pauses ask all four players to stop together. Keep any performance-specific repeat claim only with evidence locating the actual repeat rather than a longer similar passage."
-    },
-    {
-      "where": "cues[11].evidence; transitions[1].evidence",
+      "where": "cues[1].title/text/evidence; cues[3].text; orchestra.timeline[0].note",
       "severity": "minor",
-      "problem": "The final Presto fermata is not in bar 120: that printed bar number is over an earlier sf chord, followed by further bars before the fermata and returning Adagio.",
-      "evidence": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP05812-Haydn_-_Op._54,_No._2.pdf — printed p. 198, first system, visible 120 label and later fermata.",
-      "fix": "Replace the incorrect bar-120 locator with the final Presto fermata immediately before the returning Adagio, retaining printed p. 198, or supply the correctly counted bar."
-    },
-    {
-      "where": "cues (life/world coverage)",
-      "severity": "major",
-      "problem": "This 7:17 movement has only one life/world cue. The brief’s fewer-cues allowance is for short set movements; this long finale needs the normal minimum of three.",
-      "evidence": "local://AUTHOR-BRIEF.md:10; cues contain one life item at 130 and no world items. The validator also warns about this count.",
-      "fix": "Provide at least three substantively sourced life/world cues, using existing documentary material such as the Tost/Sieber publication history, the May 2015 concert versus July upload, or the ensemble’s history. A genuinely contextual existing cue may be retagged where appropriate; keep at least 40% music/form/listen and each cue at most 55 words."
+      "problem": "The revised opening description still treats the paired violins as separate answering entries. In the cited first strain they play their phrases together, largely in octaves; they do not trade them. In the new second-ending cue, the first violin phrases above a moving cello counterline, rather than establishing a measured exchange of entries. The other reported finale defects are resolved.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP05812-Haydn_-_Op._54,_No._2.pdf — printed p. 193: matching violin entries in the first strain, repeated inner notes and moving cello from the second ending.",
+      "fix": "Use paired/together rather than answering/trading in the opening cue, its evidence and orchestra note. A precise formulation is: the two violins play the phrases together while viola and cello move beneath. At 72 seconds, describe first-violin phrases over the moving cello counterline."
     }
   ]
 }

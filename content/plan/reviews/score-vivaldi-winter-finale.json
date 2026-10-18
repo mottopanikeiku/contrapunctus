@@ -1,0 +1,35 @@
+{
+  "id": "vivaldi-winter-finale",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent checks/report, published note/bar-map, source-provenance and visual review; not aural review.",
+  "defects": [],
+  "report": {"basis": "MEAS", "path": "tools/align/REPORT.md#vivaldi-winter-finale", "finding": "The report agrees with the final 2696-event / five-part checks and five-page 153-bar pack. It discloses the high primary P95 and quiet-region disagreement instead of implying uniformly sub-150-ms accuracy. Exact disposable beaming patches and the complete 2696-event pitch/onset multiset match are retained in sourceChecks."},
+  "gates": {
+    "basis": "MEAS", "checks": "tools/align/work/vivaldi-winter-finale-checks.json",
+    "primaryMedianSeconds": 0.10891023075897266,
+    "primaryP95Seconds": 1.1972842470321456,
+    "maximumAnchorDeviationSeconds": 0.34163265306122437,
+    "maximumLocalRegionMedianSeconds": 0.08203361344538251,
+    "minimumPublishedNoteDurationSeconds": 0.003,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.009000000000014552,
+    "zeroOrNegativeDurations": 0, "collapsedAttackIntervals": 0, "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS", "performedBars": 153, "distinctEngravedBars": 153, "sheetPages": 5,
+    "svgBarSetEqualsIndex": true, "unresolvedScoreBars": [], "derivedBars": [],
+    "barAnchoredListenPointers": 0, "unresolvedListenPointers": [],
+    "finding": "All 2696 note bar/voice indices resolve, durations are positive and bar times strictly increase. Actual SVG bar identities equal the exact index.json set 1–153, with no derived boxes. Rendered pages 1 and 5 were inspected, including the initial solo/bass texture, modern 4+4+4 thirty-second-note beam groups and real final bar 153 fermata. Listen cues use seconds rather than structured bar pointers."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": ["work/vivaldi-winter-finale-0-9.7.png", "work/vivaldi-winter-finale-24-32.png", "work/vivaldi-winter-finale-32-40.png", "work/vivaldi-winter-finale-40-48.png", "work/vivaldi-winter-finale-48-56.png", "work/vivaldi-winter-finale-56-64.png", "work/vivaldi-winter-finale-96-104.png", "work/vivaldi-winter-finale-100.583-112.583.png", "work/vivaldi-winter-finale-112-120.png", "work/vivaldi-winter-finale-120-128.png", "work/vivaldi-winter-finale-136-144.png", "work/vivaldi-winter-finale-144-152.png", "work/vivaldi-winter-finale-185.86-193.014.png"],
+    "finding": "No gross pitch/order mismatch identified in the current compiled-source candidate. Quiet upper melodic contours remain in sequence despite weak global onset detections, notably 144–152 s; the report retains that limitation. The first swelling C5/F3 at 1.7 s and final F-minor arrival near 189.86 s precede their respective later repetitions/decay. Written final duration maps to the estimated 192.98 s activity end, not a measured physical release."
+  },
+  "source": {"basis": "EXT", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351", "opened": true, "edition": "Performers’ Facsimiles", "encoder": "Anonymous (Mutopia maintainer)", "license": "CC BY-SA 3.0"},
+  "recordingHistory": {"basis": "EXT", "url": "https://commons.wikimedia.org/wiki/File:12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg", "opened": true, "finding": "Commons history records a lossless trim. Its location was not independently established; that fact alone is not evidence of a musical cut."},
+  "version": {"basis": "INFERENCE", "finding": "The complete written 153-bar third-movement order, including already written returns, is coherent with the inspected pitch trajectories and endpoint coverage. Five source staves are retained, with no fabricated continuo realisation. No gross cut or arrangement mismatch identified; this is not authentication of every recorded note or of an unedited take.", "physicalPerformingEdition": "Unknown; Performers’ Facsimiles is the symbolic-source edition, not a claimed identification of the players’ parts."},
+  "status": {"basis": "MEAS", "value": "provisional", "namedAuralReview": false},
+  "limitations": "MEAS: No aural review, build or browser integration check performed by VerS. The primary P95 exceeds one second; passing median/local gates does not establish uniformly precise note onsets. Source labels and warped written durations are not recorded stem separation or measured bow releases."
+}

@@ -1,0 +1,24 @@
+{
+  "mutopia": 288,
+  "title": "Appassionata, Op.57 — Andante con moto",
+  "edition": "Schott Einzelausgabe",
+  "encoder": "Andreas Scherer",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=288",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "LVB_Sonate_57_2.ly",
+  "midi": "LVB_Sonate_57_2.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_2/LVB_Sonate_57_2.ly",
+      "file": "LVB_Sonate_57_2.ly",
+      "sha256": "7fbe04dc45a4ddc125f0ebd0089856c5a042b5da0390abf7a1fc2a230c841a60"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_2/LVB_Sonate_57_2.mid",
+      "file": "LVB_Sonate_57_2.mid",
+      "sha256": "2e96269c006b85a0986c7156cb70bf967a96e9a52d55ad47958d0e6b3c96243f"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

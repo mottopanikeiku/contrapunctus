@@ -66,11 +66,11 @@ export default {
       to: 'Short coda',
       at: { t: 75 },
       span: [68, 78],
-      how: '<p>The scherzino’s chatter ends and a short extension finishes the piece with a few louder chords: detected attacks drop from over five a second to under two, and the level reaches the movement’s highest window. The coda adds no new idea; it cuts the dance off, as a curtain falls on a ballet scene.</p>',
+      how: '<p>The scherzino’s chatter ends and a short extension finishes the piece with a few louder chords: detected attacks drop from over five a second to under two, and the level climbs from −16.5 dB to −11.1 dB, one of the loudest windows of the movement. The coda adds no new idea; it cuts the dance off, as a curtain falls on a ballet scene.</p>',
       devices: ['texture change', 'crescendo build'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'Relative level −16.5 dB (1:10) to −11.1 dB (1:15, the loudest window); onsets per second 5.4 (1:10) to 1.6 (1:15). A terse coda follows the da capo in the score instruction and in Wikipedia’s description.',
+      evidence: 'Relative level −16.5 dB (1:10) to −11.1 dB (1:15, second of the movement’s loudest windows after 0:55 at −10.9 dB); onsets per second 5.4 (1:10) to 1.6 (1:15). A terse coda follows the da capo in the score instruction and in Wikipedia’s description.',
     },
   ],
 };

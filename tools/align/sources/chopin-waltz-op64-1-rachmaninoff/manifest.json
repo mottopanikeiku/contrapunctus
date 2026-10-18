@@ -1,0 +1,24 @@
+{
+  "mutopia": 483,
+  "title": "Waltz in D♭ major “Minute”, Op. 64 No. 1",
+  "edition": "Edition Peters",
+  "encoder": "Magnus Lewis-Smith",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "chopin_valse_op64_no1-lys/chopin_valse_op64_no1.ly",
+  "midi": "chopin_valse_op64_no1.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O64/chopin_valse_op64_no1/chopin_valse_op64_no1-lys.zip",
+      "file": "chopin_valse_op64_no1-lys.zip",
+      "sha256": "454db76ff64d7a9d55698df98fb3637f0c805ff66c276e041c84d87896e73f75"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O64/chopin_valse_op64_no1/chopin_valse_op64_no1.mid",
+      "file": "chopin_valse_op64_no1.mid",
+      "sha256": "62333ad9f9b22603d009734ab500330a12ac09aeca13d185ac0ba64a7fb9d206"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

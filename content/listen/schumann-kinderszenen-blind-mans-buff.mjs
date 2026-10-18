@@ -19,12 +19,12 @@ export default {
 
   sections: [
     { t: 0, label: 'A · the first eight bars', m: 'A' },
-    { t: 12, label: 'B · second part: slurred contrast, then the gesture returns', m: 'B', mNote: 'repeat sign with endings; performed repeat status uncertain' },
+    { t: 8.5, label: 'B · second part: slurred contrast, then the gesture returns', m: 'B', mNote: 'aligned order repeats bars 9–19, then the second ending' },
   ],
 
   cues: [
     { t: 0, kind: 'music', title: 'A sforzando, then a scurry', text: 'Two beats to the bar in B minor. Each strong bar opens with a note marked sfp — loud, then at once soft — and the right hand scampers away in staccato semiquavers with accents, over detached left-hand chords. By the report’s onset count this is the densest of the thirteen pieces.', basis: 'score-proportion', precision: 'passage', evidence: 'First edition p. 6 (IMSLP #03060): 2/4, sfp at the head of alternate bars, accents on the semiquaver groups, detached left-hand chords. The report counts 5.0 onsets per second at 0:00–0:05, the highest density of the thirteen pieces, and reads B minor (r = 0.79).' },
-    { t: 12, kind: 'form', title: 'The second part begins', text: 'After eight bars and a double bar, the second part opens with the same sfp gesture and descending staccato lines, then turns to slurred, sustained notes and a rising chromatic run before the gesture returns. A repeat sign with two endings closes the part; the recording alone does not settle whether it is played twice.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 1.00 at 0:12, the only structural boundary listed. The printed mark is crotchet = 138 (p. 6, enlarged scan), about 0.87 s a bar; the recording lasts 37 s, which fits 20 bars at about half that tempo or 32 bars (with the repeat) at about three-quarters of it, so the performed repeat status is not established. Score p. 6 and the Mutopia transcription (SchumannOp15No03.ly): double bar after bar 8, sfp, slurred sustained notes, a chromatic run, repeat sign with two endings.' },
+    { bar: { n: '9', occ: 1 }, kind: 'form', title: 'The second part begins', text: 'After eight bars and a double bar, the second part opens near 0:08 with the same sfp gesture and descending staccato lines. About four seconds later it turns to slurred, sustained notes and a rising chromatic run before the gesture returns. The provisional alignment follows the repeat, so the part is heard twice.', basis: 'score-aligned', precision: 'passage', evidence: 'Provisional alignment (docs/assets/data/schumann-kinderszenen-blind-mans-buff/score.json): bar 9 at 8.5 s, bar 13 at 12.7 s, bar 9 again at 21.5 s and the second ending, bar 21, at 33.4 s; performed order 1–20, 9–19, 21, 32 bars, no aural review. The report’s novelty 1.00 at 0:12 is a separate contrast inside the part (the slurred bars from bar 13), not the start of bar 9. Score p. 6 and the Mutopia transcription (SchumannOp15No03.ly): double bar after bar 8, sfp, slurred sustained notes, a chromatic run, repeat sign with two endings. The printed mark is crotchet = 138 (p. 6, enlarged scan).' },
     { t: 24, kind: 'world', title: 'The piece that closed a programme', text: 'On 18 January 1853 Clara’s half-sister Marie Wieck played six of the pieces in Dresden. She took Hasche-Mann out of its printed place and used it as an effective finale. Schumann had given her the autograph of No. 1 in 1847.', basis: 'documented', precision: 'passage', evidence: 'Zwickau catalogue 175 Jahre Kinderszenen, item 15 (programme, Cosel-Palais, Dresden, 18 January 1853, six pieces, Hasche-Mann used as the closing piece) and item 5 (the 1847 dedication to Marie Wieck).' },
   ],
 
@@ -34,13 +34,13 @@ export default {
       title: 'The same sforzando opens the second part',
       from: 'A · the first eight bars',
       to: 'B · second part',
-      at: { t: 12 },
+      at: { bar: { n: '9', occ: 1 } },
       span: [6, 20],
       how: '<p>The first eight bars end on a double bar and the second part starts again with the sfp opening, so the ear hears a new departure from familiar material. The staccato semiquavers continue at first; slurred, sustained notes and a rising chromatic run then supply the contrast, before the sfp gesture comes back to close the part.</p>',
       devices: ['motivic link'],
-      basis: 'audio-feature',
+      basis: 'score-aligned',
       precision: 'passage',
-      evidence: 'Report: novelty 1.00 at 0:12, the strongest boundary in the recording; the middle windows (0:15–0:25) are the loudest. Score p. 6: double bar after the first eight bars, sfp at the first bar of the second part, then slurred and sustained notes and a chromatic run.',
+      evidence: 'Provisional alignment: bar 9 at 8.5 s and bar 13 at 12.7 s. Report: novelty 1.00 at 0:12, the strongest boundary in the recording, which marks the slurred contrast inside the part rather than the start of bar 9; the middle windows (0:15–0:25) are the loudest. Score p. 6: double bar after the first eight bars, sfp at the first bar of the second part, then slurred and sustained notes and a chromatic run.',
     },
   ],
 };

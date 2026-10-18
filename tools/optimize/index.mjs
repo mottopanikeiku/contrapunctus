@@ -1,6 +1,5 @@
 import path from 'node:path';
 import { readFile } from 'node:fs/promises';
-import { pathToFileURL } from 'node:url';
 import { transform as javascript } from 'esbuild';
 import { transform as stylesheet, browserslistToTargets } from 'lightningcss';
 import browserslist from 'browserslist';
@@ -88,6 +87,7 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
   const fontFiles = [...all.filter((file) => /\.(?:html|json)$/.test(file)), ...(await files(source)).filter((file) => /\.(?:js|css)$/.test(file))];
   const fonts = await optimizeFonts(fontFiles, out);
   const art = JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'));
+  const artVersion = hash(JSON.stringify(art));
   const imageResult = images ? await optimizeImages(out) : null;
   const versions = await minifyAssets(out, source);
   for (const file of all.filter((file) => file.endsWith('.json'))) {
@@ -98,15 +98,17 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
   for (const file of pages) {
     const relative = path.relative(out, file).split(path.sep).join('/');
     const base = relative === '404.html' ? '/contrapunctus/' : '../'.repeat(relative.split('/').length - 1);
-    let html = versionHTML(await readFile(file, 'utf8'), relative, versions, programmeVersion);
-    if (relative === 'index.html' || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) html = await criticalCSS(html, file);
-    html = html.replace('<!--cp-fonts-->', fonts.head(base));
-    html = await htmlMinify(html, htmlOptions);
-    await save(file, html);
+    const html = versionHTML(await readFile(file, 'utf8'), relative, versions, programmeVersion);
+    const head = fonts.head(base);
+    const result = await cached(hash(`html-v1-${relative}-${artVersion}-${head}-${html}`), 'html', async () => {
+      let result = pictureHTML(html, relative, art);
+      if (relative === 'index.html' || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) result = await criticalCSS(result, file);
+      result = result.replace('<!--cp-fonts-->', head);
+      return htmlMinify(result, htmlOptions);
+    });
+    await save(file, result);
   }
   const worker = await generateServiceWorker(out);
-    html = pictureHTML(html, relative, art);
   console.log(`optimized ${pages.length} pages, ${versions.size} CSS/JS files, ${fonts.manifest.length} subset fonts (${fonts.manifest.reduce((sum, f) => sum + f.bytes, 0)} bytes), ${imageResult?.generated ?? 0} new AVIFs; SW ${worker.entries} revisions; ${((performance.now() - started) / 1000).toFixed(2)}s`);
   return { fonts: fonts.manifest, images: imageResult, worker };
 }
-if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) await optimize();

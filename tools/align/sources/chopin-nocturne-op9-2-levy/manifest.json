@@ -1,0 +1,24 @@
+{
+  "mutopia": 1590,
+  "title": "Nocturne in E♭ major, Op. 9 No. 2",
+  "edition": "G. Schirmer, New York, 1881",
+  "encoder": "Renato Biolcati Rinaldi",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1590",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "main": "chopin_nocturne_op9_n2.ly",
+  "midi": "chopin_nocturne_op9_n2.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O9/chopin_nocturne_op9_n2/chopin_nocturne_op9_n2.ly",
+      "file": "chopin_nocturne_op9_n2.ly",
+      "sha256": "f35863a752f5b2805cd50272909b06bb8b1b1a8412d2b549fd13969a4481ab65"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O9/chopin_nocturne_op9_n2/chopin_nocturne_op9_n2.mid",
+      "file": "chopin_nocturne_op9_n2.mid",
+      "sha256": "e202d3941ce5f26397f57f59f0e2e4e3ad9e19061fa3c4dc596c5ee6a6a2548e"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

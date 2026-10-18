@@ -88,6 +88,20 @@
     "last": [697.15, 697.6],
     "basis": "Fresh pitch-energy inspection, not listening: the opening B-octave energy first rises at 0.36 s (peak 0.40); the broader window incorrectly selected a later bow-energy swell at 0.66 s. The final whole E-major chord is the last isolated attack at about 697.30 s (peak 697.36), after the short closing chord sequence at 693.02, 693.76, 694.48 and 695.88 s. The initial 687.96 s choice was still inside the fast preceding passage and was rejected despite a small onset deviation. Original full-score PDF80/printed258 shows the matching short attacks then held winds/brass with string/trombone/timpani rests. Windows are source/order constraints, not detector-threshold tuning."
   },
+  "anchors": [
+    {
+      "scoreQ": 1372,
+      "window": [691.5, 691.85],
+      "label": "bar-344-short-chord",
+      "basis": "Original full-score PDF80/printed258 has the end of the repeated fast figure followed by the isolated short bar-344 chord: violin I B6/MIDI95 and flute G-sharp6/MIDI92 precede their drop to the lower E-major voicing at bar345. Fresh 680–702.9 overlay shows this final high-register short attack at 691.62–691.68 s, then a general rest. The unconstrained candidate placed it at 688.93 s within the repeated figure; this source/order mismatch is rejected, independently of onset gate values."
+    },
+    {
+      "scoreQ": 1376,
+      "window": [692.95, 693.2],
+      "label": "bar-345-lower-chord",
+      "basis": "The same scanned closing sequence changes violin I from B6 to the E5/E6 octave at bar345 and gives two separated E-major attacks in that bar, followed by one each in bars346/347 and the held bar348 chord. Fresh pitch energy puts the first lower-voiced attack at 693.02 s (peak693.08), followed by 693.76,694.48,695.88 and697.30 s. This anchor distinguishes written closing attacks from the preceding repeated figure; it is not a listening annotation or detector-threshold adjustment."
+    }
+  ],
   "diagnostics": {
     "overlays": [[0, 12], [224, 232], [672, 680], [680, 688], [680, 702.9]]
   },
@@ -97,7 +111,7 @@
     "width": 290,
     "height": 410
   },
-  "method": "CC BY-SA 3.0 orchestral LilyPond → source-staff performed event table; regenerated pitch/onset multiset checked against published MIDI before explicit sounding-pitch corrections. Tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows. Existing approximate passage labels are non-independent locators, not listening annotations. Note-offs are warped notation, not measured releases; final written holds extend to an estimated decay threshold. Provisional, not checked by ear.",
+  "method": "CC BY-SA 3.0 orchestral LilyPond → source-staff performed event table; regenerated pitch/onset multiset checked against published MIDI before explicit sounding-pitch corrections. Tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows. Existing approximate passage labels are non-independent locators, not listening annotations. Note-offs are warped source MIDI durations, including LilyPond articulation playback, not measured releases; final written holds extend to an estimated decay threshold. Provisional, not checked by ear.",
   "provenance": [
     "Mutopia1793, Keith OHara, Simrock 1894 orchestral source, CC BY-SA 3.0. Main-file SHA-256 dfdbd22023909d9f1a4f71046547abf21d0b4a9ace525b8d55628d3e97eab208; movement MIDI SHA-256 71c515b6c3ea75dc9958e5fb9ea45e1f930b1b05c8a5799cea8ed93273cef97d. Original cached archives are copied, not modified.",
     "The 384-PPQ published MIDI has 16 named tracks including its silent control track, 15 sounding staff tracks and 14 grouped instrument sections. Modern compilation retains the original MIDI staff grouping and all 14,310 source attacks, with exact pitch/onset multiset equality required before the explicit trumpet corrections. Its last onset is q1388 and final held releases are q1392, exactly 348 four-quarter source bars. No structural repeat, first ending or pickup occurs in this movement; the original local string unfoldRepeats does not add a second traversal.",
@@ -105,6 +119,6 @@
     "A clarinets and horns E/F/E (III/IV additionally C/E) already sound at the source-declared transpositions. E/E-flat trumpet segments alone receive the documented octave correction; the C-trumpet segment q780–1000 uses c' and is unchanged. Flutes, oboes, bassoons, trombones, timpani, violins, violas and cellos need no added shift. All source clef changes and ottavas remain notation, not inferred instrument identities.",
     "The bass_8 source is already sounding: its opening B1 is MIDI35, an octave below cello B2 MIDI47; minimum bass pitch is E1 MIDI28. Original full-score PDF55/printed233 confirms written bass B2 sounding B1. No blanket minus-12 correction is applied. The last E-major sonority has pitch classes E, G-sharp and B; winds/horns/trumpets hold four source quarters, while strings/trombones/timpani have one-quarter attacks followed by rests. Warped durations are not measured bow or breath releases.",
     "Independent notation comparison: https://s9.imslp.org/files/imglnks/usimg/4/42/IMSLP405834-PMLP08710-DvorakSymph9.pdf PDF55–57/printed233–235 (opening, trumpet theme), PDF70/printed248 (C-trumpet change), PDF80/printed258 (final attack/hold distinction). Notation and feature inspection are not aural review.",
-    "The identical extraction/engraving wrapper retains every original source instrument variable, grouping on the original MIDI staves and adding explicit section labels. The three trombone parts remain truthfully grouped; no tuba is invented. Only the obsolete cue-function pitch predicate is repaired in derivative sources. Original source slur/hairpin and dangling-tie warnings are not silently rewritten."
+    "The identical extraction/engraving wrapper retains every original source instrument variable, grouping on the original MIDI staves and adding explicit section labels. The three trombone parts remain truthfully grouped; no tuba is invented. Only the obsolete cue-function pitch predicate is repaired in derivative sources. Original source slur/hairpin and dangling-tie warnings are not silently rewritten. The multiset proof covers pitches and onsets, not note-offs: private modern-versus-published comparison found 2,387 duration changes, chiefly staccato shortening, with no changed duration of four quarters or longer. Modern articulation playback and grace-adjacent release conventions are not measured instrumental releases."
   ]
 }

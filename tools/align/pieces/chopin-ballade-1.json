@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O23/chopin-op23-ballade-1/chopin-op23-ballade-1-lys.zip",
         "file": "chopin-op23-ballade-1-lys.zip",
-        "sha256": null
+        "sha256": "12ea065f8ff94ca362909d613cda7cd2fc2a253c81babcc005a22caf0447ec8a"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O23/chopin-op23-ballade-1/chopin-op23-ballade-1.mid",
         "file": "chopin-op23-ballade-1.mid",
-        "sha256": null
+        "sha256": "b8f93fa0fb1c3a61a4ba13fdc287282d8efe3d3ec76b575ac8f186016e55007f"
       }
     ]
   },

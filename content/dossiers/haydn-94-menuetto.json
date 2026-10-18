@@ -1,0 +1,228 @@
+{
+  "id": "haydn-94-menuetto",
+  "work": {
+    "title": "Symphony No. 94 in G major “Surprise”",
+    "catalogue": "Hob. I:94",
+    "movement": "III. Menuetto: Allegro molto",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Boston Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Serge Koussevitzky",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive",
+      "dahr-date"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "24 April 1929",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-date",
+        "bolig"
+      ],
+      "note": "DAHR lists CVE-48987 among the Boston Symphony Orchestra and Koussevitzky recordings of Symphony No. 94 made on 24 April 1929, and the Bolig discography assigns the Menuetto to that matrix. Commons’ 1 January 1929 is not a session day.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Symphony Hall, Boston, Massachusetts, United States",
+      "status": "inferred",
+      "sourceIds": [
+        "dahr-a"
+      ],
+      "note": "DAHR gives Symphony Hall, Boston for the Andante side CVE-48984 of the same set; the pages for the 24 April matrices could not be opened, so the place for this movement is inferred from the set."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-a"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "Set M-55; the disc number of this movement’s sides is not established",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The upstream transfer identifies the original Victor set as M-55 (Internet Archive description). The Andante sides are on disc 7059 per DAHR; disc numbers for this movement were not found."
+    },
+    "matrixTakeSides": {
+      "value": "CVE-48987, take 1: Menuetto",
+      "status": "documented",
+      "sourceIds": [
+        "bolig",
+        "dahr-date"
+      ],
+      "note": "The matrix and take are read from the Bolig discography; the DAHR matrix page could not be opened on 17 October 2026 (503 error). No run-out inspection has been made of the digital surrogate."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Bob Varney — transfer from original Victor 78s",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": ""
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No transfer date is identified. The Internet Archive item was uploaded in December 2008, which is an upload date."
+    },
+    "processing": {
+      "value": "Transfer from the original Victor 78 rpm set M-55 into one 20:48 file, from which the four movements were extracted as separate Commons files.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "The file lengths of the four Commons movements sum to the length of the Internet Archive file within about a second. The extraction procedure, stylus, playback curve, side-join locations and noise treatment are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_3._Menuetto_%28Allegro_molto%29.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_3._Menuetto_%28Allegro_molto%29.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 229.75741496598638
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Haydn died in 1809. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-audio",
+        "eu-extension",
+        "archive"
+      ],
+      "note": "Commons applies PD-EU-audio to the Koussevitzky/Boston recording attributed to 1929, and the Internet Archive item carries a Creative Commons public-domain licence URL, not treated here as authority to waive Victor’s rights. The programme’s pre-1963 European rule applies because the 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US status is not established, and the recording date is not represented as an independently verified first-publication date.",
+      "alternatives": [
+        {
+          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "sourceIds": [
+            "commons",
+            "eu-audio"
+          ]
+        },
+        {
+          "value": "Creative Commons public-domain dedication — licence URL on the Internet Archive item.",
+          "sourceIds": [
+            "archive"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Joseph Haydn, Symphony No. 94, III. Menuetto: Allegro molto; Boston Symphony Orchestra, Serge Koussevitzky, April 1929. Victor set M-55; transfer by Bob Varney, Internet Archive, via Wikimedia Commons. Rights metadata conflicts; no worldwide recording clearance is asserted.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Haydn; Symphony No. 94 \"Surprise\", 3. Menuetto (Allegro molto).ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_3._Menuetto_(Allegro_molto).ogg",
+      "locator": "File-description wikitext: Description, Date 1929-01-01, Source (Internet Archive item Haydn_Symphony_No_94_Surprise), Author, and licence template PD-EU-audio.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Haydn Symphony No. 94",
+      "url": "https://archive.org/metadata/Haydn_Symphony_No_94_Surprise",
+      "locator": "metadata.description: Koussevitzky and Boston Symphony, recorded in 1929, transfer from the original Victor 78 set M-55 by Bob Varney; file HaydnSurprise.mp3, 1248.44 s; licenseurl creativecommons.org/licenses/publicdomain/; added 13 December 2008.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-date",
+      "title": "DAHR — Recordings made Wednesday, April 24, 1929",
+      "url": "https://adp.library.ucsb.edu/index.php/date/browse/1929-04-24",
+      "locator": "Three Victor 12-inch matrices, CVE-48986, -48987 and -48988, titled Symphony no. 6, in G major (“Surprise”), Boston Symphony Orchestra; Serge Koussevitzky, first take date 4/24/1929.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-a",
+      "title": "DAHR — Victor matrix CVE-48984",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022770",
+      "locator": "Andante, part 3; master take 1, 22 April 1929, Symphony Hall, Boston; Victor 7059 and set M-55. Opened for the set’s place and carrier.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bolig",
+      "title": "John R. Bolig — His Master’s Voice Celebrity Series Recordings and Historical Reissues, 1924–1958",
+      "url": "https://www.examenapium.it/cs/biblio/Bolig2020.pdf",
+      "locator": "Koussevitzky’s Symphony No. 94 entries: 1st movement, Vivace assai, part 2, CVE-48986 take 2; 3rd movement, Menuetto, CVE-48987 take 1; 4th movement, Allegro di molto, CVE-48988 take 3, all 24 April 1929. The text was read from an extract of this PDF; the host refused a direct re-fetch on 17 October 2026.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Wikipedia — Joseph Haydn",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Haydn",
+      "locator": "Lead paragraph: 31 March 1732 – 31 May 1809.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights; the underlying composition requires a separate basis; territorial.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

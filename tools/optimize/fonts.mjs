@@ -3,6 +3,7 @@ import { readFile, readdir, unlink } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import subsetFont from 'subset-font';
 import * as fontkit from 'fontkit';
+import { decodeHTML } from 'entities';
 import { OUT, cached, hash, save } from './cache.mjs';
 
 // Google Fonts upstream blobs, pinned by Git object ID. Only the CSS-used
@@ -45,12 +46,8 @@ export async function optimizeFonts(textFiles, out = OUT) {
   const used = new Set(Array.from({ length: 0x180 - 0x20 }, (_, i) => i + 0x20));
   for (const c of '‘’“”–—−♯♭♮𝄞') used.add(c.codePointAt(0));
   for (const file of textFiles) {
-    const text = (await readFile(file, 'utf8')).replace(/(?:\\u[\da-f]{4})+/gi, (s) => JSON.parse(`"${s}"`));
+    const text = decodeHTML((await readFile(file, 'utf8')).replace(/(?:\\u[\da-f]{4})+/gi, (s) => JSON.parse(`"${s}"`)));
     for (const c of text.match(/[^\x00-\x7f]/gu) || []) used.add(c.codePointAt(0));
-    for (const match of text.matchAll(/&#(x[\da-f]+|\d+);/gi)) {
-      const value = match[1][0].toLowerCase() === 'x' ? parseInt(match[1].slice(1), 16) : Number(match[1]);
-      if (value <= 0x10ffff) used.add(value);
-    }
   }
   const points = [...used].sort((a, b) => a - b);
   const css = [], manifest = [];

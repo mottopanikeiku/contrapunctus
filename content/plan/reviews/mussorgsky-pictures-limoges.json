@@ -1,0 +1,13 @@
+{
+  "id": "mussorgsky-pictures-limoges",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "sections; cues at 58/78 seconds; transitions",
+      "severity": "major",
+      "problem": "[EXT] The written Meno mosso, sempre capriccioso occurs only in the final four-bar coda after the scherzo’s return, not at the start of a quiet contrasting middle. The current formal map therefore assigns the score’s events in the wrong order. A loudness dip alone cannot establish the middle or the reprise.",
+      "evidence": "Opened Lamm/Mutopia limoges.ly: contrasting writing starts at bar 12; E♭ opening material returns at bar 27; Meno mosso begins at bar 37 after bar 36’s fermata, and continues directly into the Catacombs. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/limoges.ly . Report boundaries include 0:30, 1:02 and 1:18/1:24.",
+      "fix": "Rebuild the broad map in the written order: opening chatter, contrasting middle earlier in the track, return of the opening, then the capricious slower-beat coda. Reconcile those regions with bar-count/tempo proportions and the existing measured changes, or keep formal identifications broad where alignment is uncertain. Do not label the 1:00 dip as the score’s Meno mosso middle, or derive a reprise solely from the later volume/attack increase. Update intro/section labels/cues/joins consistently; retain the genuine measured dynamics."
+    }
+  ]
+}

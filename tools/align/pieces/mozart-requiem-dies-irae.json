@@ -48,11 +48,14 @@
   },
   "endpoints": {
     "first": [0, 1.5],
-    "last": [105, 111],
-    "basis": "Initial score-pitch search windows within the authored recording's opening and closing active spans; endpoint identity must be inspected, not inferred from a numerical pass. No aural annotation."
+    "last": [108.9, 109.15],
+    "basis": "Independent pitch-energy inspection resolves the two final written quarters: the high D6/D5 tutti begins near 108.5 s, then the separate low D3/D4 string renewal follows near 109.0 s. The rejected broad-window candidate mistook the first chord for the last attack and compressed q268–269 to 0.081 s despite passing numeric gates. This narrow last search is a fitting constraint, not independent validation; no aural annotation."
   },
+  "anchors": [
+    { "scoreQ": 268, "window": [108.4, 108.65], "basis": "Final-bar upper D6 arrival follows the C-sharp6 leading tone near 108.3 s. This constrains the first final chord separately from the following low-string quarter; it is fitted pitch evidence, not an independent check." }
+  ],
   "boundaries": [],
-  "diagnostics": { "overlays": [[0, 5], [98, 112]] },
+  "diagnostics": { "overlays": [[0, 5], [80, 88], [98, 112], [107.5, 110]] },
   "engraving": { "staff": 13, "width": 270, "height": 380 },
   "provenance": [
     "Original Mutopia orchestral/SATB score and published MIDI retained byte-for-byte; this is the Brahms-edited 1877 Süssmayr completion, not an autograph-only attribution or a claim about Walter's marked performance parts.",

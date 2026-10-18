@@ -11,6 +11,38 @@
     "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
     "main": "chp-28-04-a4.ly",
     "midi": "Chop-28-4a.mid",
+    "patches": [
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "ViertelBalken = { #(override-auto-beam-setting '(end * * * *) 1 4 'Staff)\n  #(override-auto-beam-setting '(end * * * *) 1 2 'Staff)\n  #(override-auto-beam-setting '(end * * * *) 3 4 'Staff) }",
+        "new": "ViertelBalken = { \\set Staff.baseMoment = #(ly:make-moment 1 4) \\set Staff.beatStructure = #'(1 1 1 1) \\set Staff.beamExceptions = #'() }",
+        "basis": "Replace the removed quarter-beam Scheme API with the equivalent quarter-unit grouping properties; no pitch or duration changes."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nrechts = \\context Staff \\relative c'{\n  \\context Voice = \"rechts\"",
+        "new": "\nrechts = \\context Voice = \"rechts\" \\relative c'{",
+        "basis": "Give the complete printed right-hand expression its original named Voice; the obsolete bare Voice selector otherwise consumes a property command instead of music. The containing up Staff remains in the unchanged staff expression."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nlinks =  \\context Staff \\relative c{\n  \\context Voice = \"links\"",
+        "new": "\nlinks = \\context Voice = \"links\" \\relative c{",
+        "basis": "Give the complete printed left-hand expression its original named Voice inside the containing down Staff, retaining cross-staff destinations and all notes."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "dim = \\markup { \\italic dim. }",
+        "new": "cpDimText = \\markup { \\italic dim. }",
+        "basis": "Rename the source's custom dim. text to avoid convert-ly mistaking its uses for the obsolete built-in diminuendo music command."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "s s s s \\! #(Text 0 -.8 #t) s4-\\dim s  % Takt 18",
+        "new": "s s s s \\! #(Text 0 -.8 #t) s4-\\cpDimText s  % Takt 18",
+        "basis": "Retain the exact printed dim. markup at bar 18 under its non-colliding name."
+      }
+    ],
     "downloads": [
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a-lys.zip",
@@ -29,10 +61,11 @@
     "definitions": [
       {
         "file": "chp-28-04-a4.ly",
-        "before": "\\score"
+        "before": "MIDIrechts ="
       }
     ],
-    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\global \\rechts >> \\new Staff = \"down\" << \\global \\links >> >>"
+    "comparePublished": {},
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\global \\clef treble \\rechts \\dynamik >> \\new Staff = \"down\" << \\global \\clef bass \\links >> >>"
   },
   "voices": [
     {
@@ -81,11 +114,13 @@
   "engraving": {
     "staff": 18,
     "width": 230,
-    "height": 297
+    "height": 297,
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\global \\clef treble \\rechts \\dynamik >> \\new Staff = \"down\" << \\global \\clef bass \\links >> >>"
   },
   "provenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Peters, Herrmann Scholtz, 1900b. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
     "Read content/listen/chopin-prelude-op28-4.mjs and cache/analysis/chopin-prelude-op28-4.txt. Editorial sections are coarse; they are not forced alignment anchors.",
-    "Compile printed rechts/links, not the separately altered MIDIrechts/MIDIlinks playback parts; preserve the printed three-quarter final bar."
+    "Compile printed rechts/links, not the separately altered MIDIrechts/MIDIlinks playback parts; preserve the printed three-quarter final bar.",
+    "Five exact syntax-only repairs apply to disposable source copies; original downloads stay unchanged. Compile and engrave the identical printed staff expression with original clefs, dynamics and cross-staff names, omitting the separate MIDI-only definitions. Require the driver's exact published pitch/onset multiset proof; its comparison does not substitute the playback-only six-quarter final hold for the printed three quarters."
   ]
 }

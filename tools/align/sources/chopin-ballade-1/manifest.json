@@ -1,0 +1,24 @@
+{
+  "mutopia": 1959,
+  "title": "Ballade No. 1 in G minor, Op. 23",
+  "edition": "Klindworth; Bote & Bock, circa 1880",
+  "encoder": "Javier Ruiz-Alma",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1959",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "main": "chopin-op23-ballade-1-lys/chopin-op23-ballade-1.ly",
+  "midi": "chopin-op23-ballade-1.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O23/chopin-op23-ballade-1/chopin-op23-ballade-1-lys.zip",
+      "file": "chopin-op23-ballade-1-lys.zip",
+      "sha256": "12ea065f8ff94ca362909d613cda7cd2fc2a253c81babcc005a22caf0447ec8a"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O23/chopin-op23-ballade-1/chopin-op23-ballade-1.mid",
+      "file": "chopin-op23-ballade-1.mid",
+      "sha256": "b8f93fa0fb1c3a61a4ba13fdc287282d8efe3d3ec76b575ac8f186016e55007f"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

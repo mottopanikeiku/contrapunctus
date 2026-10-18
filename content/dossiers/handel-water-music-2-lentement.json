@@ -1,0 +1,162 @@
+{
+  "id": "handel-water-music-2-lentement",
+  "work": {
+    "title": "Water Music, Suite No. 2 in D",
+    "catalogue": "HWV 349",
+    "movement": "III. Lentement",
+    "version": {
+      "value": "Performing edition not identified. The movement number (14 of the three suites) and the structure heard (first strain of 19 bars played twice, second strain of 15 bars without brass, da capo to the fermata chord) match the Hallische Händel-Ausgabe text; no editor or continuo realisation is credited.",
+      "status": "inferred",
+      "sourceIds": ["programme", "hha", "arnold", "imslp"],
+      "note": "The programme and Commons name the work and movement numbers but no edition. The structure follows from the measured silences and the Hallische Händel-Ausgabe (Redlich, 1962), which prints 34 bars with a fermata, the mark Fine and a repeat sign at bar 19 and da capo at bar 34; IMSLP’s tally of 34 bars (53 with da capo) agrees."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Marine Chamber Orchestra, United States Marine Band", "role": "orchestra" },
+      { "name": "Major Michelle A. Rakers", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["commons", "programme", "video"],
+    "note": "Commons gives the conductor as Major Michelle Rakers; the programme prints Major Michelle A. Rakers. No roster of individual players is published in the consulted sources. This video’s frames show the conductor and the strings; the ensemble’s harpsichord, bassoon and trumpet are visible in the other movements’ videos, and no frame shows horns or oboes."
+  },
+  "session": {
+    "date": {
+      "value": "2017-01-29",
+      "status": "documented",
+      "sourceIds": ["commons", "programme", "video"],
+      "note": "Commons gives performance_date 2017-01-29; the programme prints Sunday, January 29, 2017 at 2:00 P.M.; the official video description repeats the date. The Handel group stands after the intermission in the programme. The Commons composition_date field, 1717-07-17, is the date of the documented first performance on the Thames, not a composition date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Rachel M. Schlesinger Concert Hall and Arts Center, Northern Virginia Community College, Alexandria Campus, Alexandria, Virginia, United States",
+      "status": "documented",
+      "sourceIds": ["commons", "programme"],
+      "note": "Commons says Schlesinger Concert Hall, Alexandria, VA; the programme gives the full name of the hall and campus."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "video"],
+      "note": "No record label is identified. The source is an official concert video on the Marine Band’s YouTube channel; the channel is not treated as a label, and no commercial release was found."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": ["video"],
+      "note": "Born-digital concert video. The YouTube video ID kcvxvHjujY0 identifies the source video but is not a catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": ["commons"],
+      "note": "A concert recording made in digital form has no matrix, take or side numbers."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "No transfer or mastering engineer is identified. The Commons file history shows the batch upload by the user Mysterymanblue (pattypan), which is an uploader credit, not an engineering credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "video"],
+      "note": "No transfer date is documented. The YouTube publication date (30 April 2018) and the Commons upload date (28 June 2021) are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Opus audio file (48 kHz, two channels, encoder Lavf58.29.100) listed on Commons with the Marine Band’s YouTube playlist as its source; Commons supplies an MP3 access derivative.",
+      "status": "inferred",
+      "sourceIds": ["commons", "video"],
+      "note": "The file’s own metadata documents the Opus format and encoder. That the audio was taken from the official video’s sound track is inferred from the source field and from the matching title and duration (136 s); the processing chain is not described."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Handel%27s_Water_Music_-_14._Lentement_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_14._Lentement_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+    "sourceChain": ["commons", "video"],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Opus",
+    "durationSeconds": 135.581
+  },
+  "rights": {
+    "composition": {
+      "value": "Handel (died 1759): the composition is in the public domain.",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Commons tags the composition PD-old-auto-expired (death year 1759). The performing edition is not identified; editorial copyright in a modern edition, if one was used, is separate from the sound recording."
+    },
+    "recording": {
+      "value": "Commons tags the performance and recording PD-USGov-Military-Marines: a work of a United States Marine or employee made as part of official duties, public domain as a work of the U.S. federal government.",
+      "status": "documented",
+      "sourceIds": ["commons", "template", "video"],
+      "note": "This is a U.S.-jurisdiction statement, not a claim of worldwide status. The programme carries a general notice that a performance may contain third-party material and should not be assumed to be public domain; no third-party material is identified in this performance of a composition from before 1759, but the notice is recorded here. The official Marine Band YouTube channel published the source video."
+    },
+    "creditLine": "George Frideric Handel, Water Music, Suite No. 2 in D, HWV 349: III. Lentement. Marine Chamber Orchestra of the United States Marine Band, Major Michelle Rakers conducting; Rachel M. Schlesinger Concert Hall, Alexandria, Virginia, 29 January 2017. Audio via Wikimedia Commons from the official Marine Band concert video. U.S. federal-government work; public domain in the United States.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Handel's Water Music - 14. Lentement - Chamber Orchestra - United States Marine Band.opus",
+      "url": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_14._Lentement_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+      "locator": "File description (raw wikitext and API): performer, title, description, composition_date 1717-07-17, performance_date 2017-01-29, source (YouTube playlist), licence templates PD-old-auto-expired (1759) and PD-USGov-Military-Marines; file history (upload 2021-06-28, user Mysterymanblue, pattypan); Opus 48 kHz stereo, 135.581 s.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "video",
+      "title": "United States Marine Band — HANDEL Water Music: 14. Lentement (YouTube)",
+      "url": "https://www.youtube.com/watch?v=kcvxvHjujY0",
+      "locator": "Watch-page metadata: channel United States Marine Band, published 2018-04-30, length 136 s, description naming the ensemble, the hall, the date, the conductor and the programme PDF; thumbnails and storyboard frames viewed.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "playlist",
+      "title": "United States Marine Band — HANDEL Water Music (YouTube playlist)",
+      "url": "https://www.youtube.com/playlist?list=PLA7no0L9zTk5BREIP7PeHDYv4trx-g5kS",
+      "locator": "Playlist description and list of nine movement videos (HWV 349 movements 11–15 and HWV 350 movements 16, 17, 19, 21); last updated 4 December 2020.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "programme",
+      "title": "Marine Chamber Orchestra, 29 January 2017 — concert programme and notes (Wayback capture of the Marine Band PDF)",
+      "url": "https://web.archive.org/web/20251101025231id_/https://www.marineband.marines.mil/Portals/175/Docs/Programs/170129.pdf?ver=2017-01-24-094649-630",
+      "locator": "Page 1: date, time, hall, conductor, running order after the intermission (11, 12, 16, 17/18, 14, 15, 19/20, 21/22, 13) and the copyright notice. The live Marine Band address returned HTTP 403 to the retrieval, so the archived capture of 1 November 2025 was read.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "template",
+      "title": "Wikimedia Commons — Template:PD-USGov-Military-Marines",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines",
+      "locator": "Licence text: work of a United States Marine or employee, taken or made as part of official duties.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Water Music Suite No.2, HWV 349 (Handel)",
+      "url": "https://imslp.org/wiki/Water_Music_Suite_No.2,_HWV_349_(Handel,_George_Frideric)",
+      "locator": "General Information: five movements (Lentement listed as 34 bars, 53 with da capo), instrumentation (2 oboes, bassoon, 2 horns, 2 trumpets, strings, continuo), first performance 1717-07-17.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "hha",
+      "title": "Händel, Wassermusik Suite II HWV 349, Hallische Händel-Ausgabe IV/13, ed. Hans Ferdinand Redlich (Bärenreiter, 1962), via IMSLP #559922",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/c/c6/IMSLP559922-PMLP902090-handelHHAIV%2C13wassermusiksuiteIIHWV349.pdf",
+      "locator": "Printed pp. 51–52 (movement 14, bars 1–34): first strain bars 1–19 with fermata, Fine and repeat sign at bar 19; trumpet and horn staves empty in bars 20–34; da capo at bar 34. Consulted for bar numbering only; its copyright status in the United States is not established and it is not the stated score source of the orchestra view.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "arnold",
+      "title": "Handel, The Celebrated Water-musick in score (London: Samuel Arnold, 1788) — Bibliothèque nationale de France scan on Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_celebrated_Water-musick._In_score._Composed_in_the_year_1716._By_G._F._Handel_-_btv1b10072587v_(25_of_30).jpg",
+      "locator": "Printed pp. 47–49 (Commons images 25–26 of 30): the Lentement in 3/4 for trumpets, horns, oboes, bassoon, strings and figured bass, with the fermata chord on p. 48 and Da Capo on p. 49. Commons tags the scans PD-old-auto-expired, PD-France and PD-US-expired.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

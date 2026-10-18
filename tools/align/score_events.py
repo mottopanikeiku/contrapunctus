@@ -70,8 +70,9 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     source_checks = {}
     if cfg['source'].get('musicxml'):
         source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note tie emission'
-        if cfg['source'].get('musicxmlTieRoutes'):
-            source_checks['musicxmlTieRoutes'] = cfg['source']['musicxmlTieRoutes']
+        for key in ('musicxmlTieRoutes', 'musicxmlPartialMeasures', 'musicxmlSharedEndingsFrom'):
+            if cfg['source'].get(key):
+                source_checks[key] = cfg['source'][key]
     if cfg['source'].get('patches'):
         source_checks['derivativePatches'] = cfg['source']['patches']
     if mode == 'isolated-voices':
@@ -214,7 +215,12 @@ def extract(ident, lilypond=LILYPOND, directory=None):
               'provenance': cfg.get('provenance', []) + [
                   f'Verified derivative syntax repair in {p["file"]}: {p["basis"]}' for p in cfg['source'].get('patches', [])]
                   + [f'Documented cross-voice MusicXML tie route in {r["part"]}, measure {r["measure"]}: {r["basis"]}'
-                     for r in cfg['source'].get('musicxmlTieRoutes', [])],
+                     for r in cfg['source'].get('musicxmlTieRoutes', [])]
+                  + [f'Documented short MusicXML measure {p["number"]}, {p["quarters"]} quarter units: {p["basis"]}'
+                     for p in cfg['source'].get('musicxmlPartialMeasures', [])]
+                  + ([f'MusicXML ending annotations shared from {cfg["source"]["musicxmlSharedEndingsFrom"]}; '
+                      'identical measure order and repeat barlines asserted in every part.']
+                     if cfg['source'].get('musicxmlSharedEndingsFrom') else []),
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)

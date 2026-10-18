@@ -1,0 +1,35 @@
+{
+  "id": "vivaldi-spring-allegro-modena",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, report/source, published bar-map and visual review; not aural review.",
+  "defects": [],
+  "report": {"basis": "MEAS", "path": "tools/align/REPORT.md#vivaldi-spring-allegro-modena", "finding": "The report agrees with final gates, 3173 notes / five source parts, pickup-plus-82-bar order and six-page pack. The wrong earlier 205.460913 s final-pitch candidate is explicitly rejected; the published final attack is 209.260457 s."},
+  "gates": {
+    "basis": "MEAS", "checks": "tools/align/work/vivaldi-spring-allegro-modena-checks.json",
+    "primaryMedianSeconds": 0.07236645647607531,
+    "primaryP95Seconds": 0.5471092007579214,
+    "maximumAnchorDeviationSeconds": 0.47492607088497607,
+    "maximumLocalRegionMedianSeconds": 0.06254610215472667,
+    "minimumPublishedNoteDurationSeconds": 0.023,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.006000000000000227,
+    "zeroOrNegativeDurations": 0, "collapsedAttackIntervals": 0, "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS", "performedBars": 83, "distinctEngravedBars": 83, "sheetPages": 6,
+    "svgBarSetEqualsIndex": true, "unresolvedScoreBars": [], "derivedBars": [],
+    "barAnchoredListenPointers": 0, "unresolvedListenPointers": [],
+    "finding": "All 3173 note bar/voice indices resolve, durations are positive and bar times strictly increase. Actual SVG/index bar sets agree exactly: eighth-note pickup 0, then 1–82. Rendered pages 1 and 6 were inspected, including the real pickup and closing half-note fermata. Listen cues use seconds, not structured bar pointers."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": ["work/vivaldi-spring-allegro-modena-0-8.28.png", "work/vivaldi-spring-allegro-modena-88-96.png", "work/vivaldi-spring-allegro-modena-96-104.png", "work/vivaldi-spring-allegro-modena-104-112.png", "work/vivaldi-spring-allegro-modena-111.985-123.985.png", "work/vivaldi-spring-allegro-modena-112-120.png", "work/vivaldi-spring-allegro-modena-128-136.png", "work/vivaldi-spring-allegro-modena-200-208.png", "work/vivaldi-spring-allegro-modena-205.26-214.033.png", "work/vivaldi-spring-allegro-modena-208-214.033.png", "work/vivaldi-spring-allegro-modena-pitch-decay-208.5-214.04.png"],
+    "finding": "No gross pitch/order mismatch identified. The genuine final E-major arrival follows the intervening dominant/trill/pause instead of collapsing the cadence. The extra adjacent-pitch diagnostic resolves an apparent global-overlay floor problem: E2 remains far above its neighbouring semitone bands well after 210.6 s, with weaker G-sharp4/E5 also continuing. Therefore truncating at the global image's visual floor would remove real source-pitched resonance; the retained 213.78 s estimated display end is not evidence of a four-and-a-half-second physical bow hold.",
+    "decayMeasurementQualification": "MEAS: The diagnostic plots cached feature amplitudes relative to a fixed reference, not calibrated sound-pressure levels. VerS inspected the curves but did not independently recompute their dB values."
+  },
+  "source": {"basis": "EXT", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301", "opened": true, "edition": "Performers’ Facsimiles", "encoder": "Anonymous (Mutopia maintainer)", "license": "CC BY-SA 3.0"},
+  "version": {"basis": "INFERENCE", "finding": "Complete first movement: pickup 0 and 1–82 once. Refrains/echoes are written out, not extra traversals. All five source string/bass staves are retained without fabricated realised continuo. No gross musical cut or arrangement mismatch identified. The listen module explicitly qualifies the recording's conflicting source/embedded attribution; this review does not resolve ensemble identity.", "physicalPerformingEdition": "Unknown; the symbolic-source edition is not asserted to identify the recording's physical parts."},
+  "status": {"basis": "MEAS", "value": "provisional", "namedAuralReview": false},
+  "limitations": "MEAS: No aural review, build or browser integration check performed by VerS. The middle anchor is close to the 0.5 s gate, and P95 exceeds the median gate; passing does not establish uniformly exact onsets. Written durations warped to an estimated decay end are not measured releases."
+}

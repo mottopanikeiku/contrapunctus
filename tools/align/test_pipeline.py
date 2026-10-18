@@ -16,7 +16,7 @@ from align import endpoint_anchors, publication_reasons
 from config import HERE, LILYPOND
 from pipeline import comparison
 from score_events import attack_inventory, extract
-from musicxml_ties import note_locations, route_ties
+from musicxml_ties import source_timing, route_ties
 from musicxml_tuplets import flatten_tuplets
 
 
@@ -226,10 +226,10 @@ class MusicXMLTieRoutes(unittest.TestCase):
     def test_only_tie_origin_moves_between_exact_unisons(self):
         xml, route = self.fixture()
         part = xml.find('part')
-        before = note_locations(part)
+        before = source_timing(part)
         fermata = xml.find('.//fermata')
         route_ties(xml, [route])
-        self.assertEqual(before, note_locations(part))
+        self.assertEqual(before, source_timing(part))
         self.assertEqual(len(xml.findall('.//note')), 3)
         notes = part.find('measure').findall('note')
         self.assertEqual(notes[0].find('tie').get('type'), 'start')

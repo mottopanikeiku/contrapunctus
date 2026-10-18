@@ -1,0 +1,20 @@
+{
+  "id": "mozart-clarinet-allegro",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "orchestra.timeline[2].playing/note; orchestra.timeline[7].playing/note",
+      "severity": "major",
+      "problem": "The initial solo statement and the returning main-theme statement are mapped with cellos and basses active from the start. The cited score instead rests both low-string staves through the opening solo bars; they enter later in the phrase. This is the same distinction already respected in the Rondo’s opening snapshot.",
+      "evidence": "https://imslp.org/wiki/Clarinet_Concerto_in_A_major,_K.622_(Mozart,_Wolfgang_Amadeus) — Breitkopf 1881 score, PDF p. 5 (printed 211), first Solo, and PDF p. 21 (printed 227), returning theme: violin I, violin II and viola accompany while cello and contrabass rest initially.",
+      "fix": "Remove cellos and basses from the initial states at 100 and 510 seconds and qualify the notes to say that low strings join later. Alternatively add a later, separately justified state for their return; do not imply that they sound throughout the solo theme’s opening."
+    },
+    {
+      "where": "orchestra.timeline[3].playing",
+      "severity": "major",
+      "problem": "The 280-second role-reversal passage is scored for solo clarinet and strings, not flutes, bassoons and horns. All three wind/brass families rest across the cited later solo-exposition pages. The following orchestral ritornello already has its own fuller state at 320 seconds.",
+      "evidence": "https://imslp.org/wiki/Clarinet_Concerto_in_A_major,_K.622_(Mozart,_Wolfgang_Amadeus) — Breitkopf 1881, PDF pp. 11–12 (printed 217–218), all three upper wind/horn staves resting; the full Tutti begins later on PDF p. 13. cache/analysis/mozart-clarinet-allegro.txt: 4:35–5:05 solo span, stronger orchestral windows from 5:20.",
+      "fix": "Remove flutes, bassoons and horns from the 280-second state. Retain solo clarinet plus the participating string families and the description of changing melodic/accompanying roles."
+    }
+  ]
+}

@@ -22,7 +22,7 @@ export default {
     { t: 36, label: 'B · four slurred bars', m: 'B' },
     { t: 46, label: 'A′ · the story again, quietly', m: 'A′', mNote: 'opening strain returns marked piano' },
     { t: 64, label: 'B′ · the slurred bars return', m: 'B′' },
-    { t: 72, label: 'A″ · the last telling', m: 'A″', mNote: 'strain closes with a ritardando' },
+    { t: 76.5, label: 'A″ · the last telling', m: 'A″', mNote: 'begins quietly, mf in second half, ritardando at the end' },
   ],
 
   cues: [
@@ -31,7 +31,7 @@ export default {
     { t: 36, kind: 'form', title: 'Four bars under one slur', text: 'After the second telling the music drops to piano and sings four bars under a single long slur. The run and the accents of the story give way to a smoother line, and the bass settles on G.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.96 at 0:36 and 0.96 at 0:46, with the bass on G and a level fall to −13.8 dB at 0:40. Score p. 4 (last system): p, one slur over four bars.' },
     { t: 52, kind: 'world', title: 'Titles sent with a warning', text: 'Schumann sent Clara a list of titles that includes “Curiose Geschichte”, and told her the pieces would please her but that she must “forget herself as a virtuoso”. His phrase is “als Virtuosin vergeßen”; Clara was then a celebrated pianist in Vienna.', basis: 'documented', precision: 'passage', evidence: 'Letter begun 17 March 1838, quoted in the Zwickau catalogue 175 Jahre Kinderszenen, item 3, with the title list; the Henle Urtext review at schumann-portal.de/3213.html dates the letter 19 March. Clara’s Vienna recitals: December 1837 to April 1838 (Nancy Reich, Clara Schumann).' },
     { t: 62, kind: 'listen', title: 'A ritardando before the last telling', text: 'At the end of the third telling the score asks for a ritardando. In the recording the level dips near 1:00, then the slurred bars come back briefly before the story is told for the last time.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: −19.0 dB at 1:00 (the second-quietest window of the piece), novelty 0.80 at 0:58 and 0.81 at 1:04. Score p. 5: ritard. at the end of the third telling.' },
-    { t: 80, kind: 'music', title: 'The last telling slows to a close', text: 'The final telling is marked mf and ends with a ritardando into the closing bar. The sound has faded almost completely by about 1:35.', basis: 'audio-feature', precision: 'passage', evidence: 'Form analysis: 0:41–1:01 matches 1:12–1:32 (mean 0.95); report novelty 1.00 at 1:18, level −35.2 dB at 1:35. Score p. 5 (last system): mf, ritard., final bar.' },
+    { t: 78, kind: 'music', title: 'The last telling begins quietly', text: 'The final telling starts marked p, after a pickup near 1:16, and only reaches mf in its second half, around 1:26. It ends with a ritardando into the closing bar. The sound has faded almost completely by about 1:35.', basis: 'audio-feature', precision: 'passage', evidence: 'Provisional alignment (docs/assets/data/schumann-kinderszenen-curious-story/score.json): the pickup on beat 3 of bar 32 at 76.6 s, bar 33 at 78.1 s and bar 37 at 85.7 s. Report: novelty 1.00 at 1:18, level −35.2 dB at 1:35. Score p. 5 (last system): p at the return, mf in the second half, ritard., final bar.' },
   ],
 
   transitions: [
@@ -79,13 +79,13 @@ export default {
       title: 'The upbeat returns for the last time',
       from: 'B′ · the slurred bars return',
       to: 'A″ · the last telling',
-      at: { t: 72 },
-      span: [64, 82],
-      how: '<p>The upbeat figure returns once more, marked <i>mf</i> as at the start. This telling is the one that ends with a ritardando and the final bar, where the earlier tellings led on to the slurred bars.</p>',
+      at: { t: 76.5 },
+      span: [68, 84],
+      how: '<p>The upbeat figure returns once more as a pickup on the third beat, with the same notes as the opening. This time it is marked <i>p</i>, and <i>mf</i> arrives only in the second half. The telling is the one that ends with a ritardando and the final bar, where the earlier tellings led on to the slurred bars.</p>',
       devices: ['retransition', 'motivic link'],
       basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'Form analysis: 0:41–1:01 matches 1:12–1:32, so the last telling begins near 1:12; report novelty 1.00 at 1:18. Score p. 5, last system: mf and ritard. to the final bar.',
+      evidence: 'Provisional alignment: pickup on beat 3 of bar 32 at 76.6 s, bar 33 at 78.1 s, bar 37 at 85.7 s. The report’s novelty 1.00 at 1:18 falls at the downbeat of bar 33. The broad form match of 0:41–1:01 with 1:12–1:32 includes the tail of the preceding slurred bars and is not used as the boundary. Score p. 5, last system: p at the return, mf in the second half, ritard. to the final bar.',
     },
   ],
 };

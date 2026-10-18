@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Run the pinned 2.24.4 converter without promoting single-note ties to chords.
+"""Run the pinned converter with note-specific ties and explicit short measures.
 
-The installed converter and libraries stay untouched. Two exact source guards
-fail closed if its implementation changes; no score notes or pitches are patched.
+The installed converter and libraries stay untouched. Exact source guards fail
+closed if the implementation changes; no score notes or pitches are patched.
 """
 import argparse
+import inspect
 from pathlib import Path
 import sys
+import textwrap
 
 
 def install_note_ties(musicexp):
@@ -25,6 +27,20 @@ def install_note_ties(musicexp):
     musicexp.NoteEvent.chord_element_ly = chord_element
 
 
+def install_measure_lengths(musicxml):
+    source = inspect.getsource(musicxml.Part.interpret)
+    old = '                    now = new_now'
+    if source.count(old) != 1:
+        raise ValueError('MusicXML measure interpreter changed; review explicit short-measure support')
+    source = source.replace(old,
+        '                    if getattr(previous_measure, "cp-preserve-duration", None) != "yes":\n'
+        '                        now = new_now', 1)
+    methods = {}
+    exec(compile(textwrap.dedent(source), '<musicxml explicit measure durations>', 'exec'),
+         musicxml.__dict__, methods)
+    musicxml.Part.interpret = methods['interpret']
+
+
 def converter_source(path):
     path = Path(path).resolve()
     source = path.read_text()
@@ -33,15 +49,16 @@ def converter_source(path):
         path = path.parent.parent / 'libexec' / 'musicxml2ly'
         source = path.read_text()
     if 'lilypond_version = "2.24.4"' not in source:
-        raise ValueError('Per-note MusicXML tie conversion requires the documented LilyPond 2.24.4 converter')
+        raise ValueError('MusicXML conversion adapters require the documented LilyPond 2.24.4 converter')
     replacements = {
         'import musicexp\n': 'import musicexp\n_install_note_ties(musicexp)\n',
+        'import musicxml\n': 'import musicxml\n_install_measure_lengths(musicxml)\n',
         '                    ev_chord.append(musicexp.TieEvent())':
             '                    main_event._cp_tie_to_next = True',
     }
     for old, new in replacements.items():
         if source.count(old) != 1:
-            raise ValueError('MusicXML converter implementation changed; review the per-note tie adapter')
+            raise ValueError('MusicXML converter implementation changed; review the conversion adapters')
         source = source.replace(old, new, 1)
     return path, source
 
@@ -54,7 +71,8 @@ def main():
     sys.dont_write_bytecode = True
     sys.argv = [str(path), *options]
     # Preserve the converter's original relocation and resource lookup paths.
-    namespace = {'__name__': '__main__', '__file__': str(path), '_install_note_ties': install_note_ties}
+    namespace = {'__name__': '__main__', '__file__': str(path), '_install_note_ties': install_note_ties,
+                 '_install_measure_lengths': install_measure_lengths}
     exec(compile(source, str(path), 'exec'), namespace)
 
 

@@ -110,6 +110,14 @@
     "last": [346.45, 346.75],
     "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 346.55 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. The final window includes the actual attack rather than its later 346.9 s decay. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed."
   },
+  "anchors": [
+    {
+      "scoreQ": 591,
+      "window": [342.75, 343.1],
+      "label": "bar-196-pre-final-chord",
+      "basis": "Source bar 196 begins at q591 with B-flat3/D4/A4/E5/E6, after the second C6–D6 rise at q590/590.5. Individual pitch bands locate that rise around 342.5/342.7 s and the A4/E6/B-flat3 arrival around 342.9 s. An unconstrained numerical pass placed q591 near 343.64 s, over already decayed upper-pitch energy, stretching the preceding run across the written pause. This measured source-pitch alignment constraint restores the chord before the pause; it is not independent validation and does not replace any numerical gate or the genuine final q597.5 attack."
+    }
+  ],
   "boundaries": [],
   "provenance": [
     "Select zero-based half-open MusicXML measure indices [213, 411] from every part, preserving inherited clefs, keys and time signatures. Original CC0 MXL download remains unchanged.",
