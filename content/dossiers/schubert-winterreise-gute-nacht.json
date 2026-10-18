@@ -1,0 +1,224 @@
+{
+  "id": "schubert-winterreise-gute-nacht",
+  "work": {
+    "title": "Winterreise",
+    "catalogue": "D. 911 (Op. 89)",
+    "movement": "No. 1, Gute Nacht",
+    "version": {
+      "value": "Abridged: the second strophe, bars 7–38 (the seconda volta), is not sung; the song runs about 4:02",
+      "status": "documented",
+      "sourceIds": [
+        "utz",
+        "commons"
+      ],
+      "note": "Utz lists Duhan and Foll 1928 among five early recordings that omit the second strophe, probably because the song would not otherwise fit on one side, and gives a measured length of 4:02 against a calculated 5:14 with the strophe. The key, any transposition and the absolute pitch of the transfer are not established here."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Hans Duhan",
+        "role": "baritone"
+      },
+      {
+        "name": "Ferdinand Foll",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "utz"
+    ],
+    "note": "The Internet Archive description names Duhan and Foll for this side. Utz reports that Duhan recorded nineteen songs with Foll on 27 April, 2 May and 4 May 1928 and the remaining five (Nos. 16, 17, 19, 20, 23) with Lene Orthmann on 11 July 1928, so Orthmann does not play on this side. The Commons file description names only Duhan."
+  },
+  "session": {
+    "date": {
+      "value": "27 April 1928",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "utz"
+      ],
+      "note": "The Internet Archive description of the disc that carries this side gives the recording date. Utz lists the same three Foll session days (27 April, 2 May and 4 May 1928) without assigning songs to days, so the song-by-day assignment rests on the Internet Archive uploader’s labelling. Commons gives only the year 1928.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "utz"
+      ],
+      "note": "No source consulted names the studio or city of the session."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice (the uploader marks the pressing “Czech”)",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Internet Archive description of this disc reads “30 cm (Czech) His Master’s Voice ES 383”; the descriptions of the later discs say Gramola instead. The label naming is inconsistent between uploads and is not resolved here."
+    },
+    "catalogue": {
+      "value": "ES 383",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Both the Commons file name and the Internet Archive description give ES 383 for the side with Gute Nacht."
+    },
+    "matrixTakeSides": {
+      "value": "CK 2946-2 (Gute Nacht); reverse side: Die Wetterfahne (matrix CK 2947-2). Disc 1 of 12 of the set; 30 cm.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "The matrix and take are read from the Internet Archive description and agree with the Commons file name. The set was issued as twelve discs, one song to a side (Utz). No run-out inspection has been made."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No transfer engineer is named. The Commons file was uploaded on 11 August 2015 by the user Patachonf and re-uploaded on 10 and 15 February 2022 by the user Mitar; the Internet Archive item was added on 25 April 2019 by the uploader recordplayer78. These are upload facts, not transfer credits."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No transfer date is identified. Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Both hosts hold a FLAC file. The Commons duration (249.00 s) and the Internet Archive FLAC length (248.85 s) agree within 0.15 s, which suggests the same digitisation; which host received it first is not established, and the source disc, stylus, equalisation and noise treatment are undocumented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/01_-_Gute_Nacht_%28CK_2946-2%2C_ES_383%29.flac/01_-_Gute_Nacht_%28CK_2946-2%2C_ES_383%29.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 248.9991836734694
+  },
+  "rights": {
+    "composition": {
+      "value": "Both the music and the poem are out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "wp-winterreise",
+        "eu-term"
+      ],
+      "note": "Schubert died in 1828 and the poet Wilhelm Müller in 1827. This is a term calculation, not a worldwide clearance or a statement about any modern edition."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-audio",
+        "eu-extension",
+        "archive"
+      ],
+      "note": "Commons applies PD-EU-audio to this recording, attributed to 1928. The Internet Archive item carries a Creative Commons Public Domain Mark 1.0 licence URL, which is the uploader’s assertion and is not treated as authority to waive any rights. The publication date of the original disc is not documented; the EU basis here depends on the recording being first published before 1963, which is inferred from its 1928 session. Not established as public domain in the United States.",
+      "alternatives": [
+        {
+          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "sourceIds": [
+            "commons",
+            "eu-audio"
+          ]
+        },
+        {
+          "value": "Public Domain Mark 1.0 — licence URL on the Internet Archive item, uploader’s assertion.",
+          "sourceIds": [
+            "archive"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Franz Schubert, Winterreise, No. 1, “Gute Nacht”, text by Wilhelm Müller; Hans Duhan, baritone, Ferdinand Foll, piano, 27 April 1928. Disc: matrix CK 2946-2. File via Wikimedia Commons (PD-EU-audio; territorial). Rights metadata: public domain in the EU only; no worldwide recording clearance is claimed.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — 01 - Gute Nacht (CK 2946-2, ES 383).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:01_-_Gute_Nacht_(CK_2946-2,_ES_383).flac",
+      "locator": "File-description wikitext: French description, Date 1928, Source “Hans Duhan, Gramophe(ne)”, Author “Schubert, 1827”, licence template PD-EU-audio; file history gives the 2015 and 2022 uploads.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Winterreise (Duhan), disc 1 of 12",
+      "url": "https://archive.org/details/Winterreise01Duhan",
+      "locator": "metadata.description: “Complete recording from 1928, part 1 of 12”; labels, catalogue number, matrix numbers, pianists and recording date(s); licenseurl creativecommons.org/publicdomain/mark/1.0/; added 25 April 2019. Metadata read at https://archive.org/metadata/Winterreise01Duhan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "utz",
+      "title": "Christian Utz — Exzentrisch geformte Klang-Landschaften (ZGMTH 18, 2021)",
+      "url": "https://www.gmth.de/zeitschrift/artikel/1132.aspx",
+      "locator": "§2 and footnotes 23–25: the earliest complete Winterreise, Hans Duhan for HMV, nineteen songs with Ferdinand Foll on 27 April, 2 May and 4 May 1928, five with Lene Orthmann on 11 July, a set of twelve discs with one song to a side; footnote 25 and §4 for Gute Nacht’s omitted strophe and the song durations.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "wp-winterreise",
+      "title": "Wikipedia — Winterreise",
+      "url": "https://en.wikipedia.org/wiki/Winterreise",
+      "locator": "Lead and “Authorship and composition”: Winterreise, D. 911, Op. 89, a setting of 24 poems by Wilhelm Müller, who died in 1827; Schubert’s death on 19 November 1828; the recordings section lists the 1928 Duhan set.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Wikipedia — Franz Schubert",
+      "url": "https://en.wikipedia.org/wiki/Franz_Schubert",
+      "locator": "Lead paragraph: 31 January 1797 – 19 November 1828.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights; the underlying composition requires a separate basis; territorial.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

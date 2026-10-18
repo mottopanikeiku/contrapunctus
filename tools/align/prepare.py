@@ -13,7 +13,7 @@ import zipfile
 from config import HERE, LILYPOND, inside, load
 from musicxml_tuplets import flatten_tuplets
 from musicxml_ties import route_ties
-from musicxml_structure import preserve_partial_measures, share_endings
+from musicxml_structure import mark_initial_grace, preserve_partial_measures, share_endings
 from musicxml_trills import route_trills
 
 
@@ -121,6 +121,8 @@ def prepare(cfg, lilypond=LILYPOND):
             share_endings(xml, source['musicxmlSharedEndingsFrom'])
         if source.get('musicxmlTrillSpans'):
             route_trills(xml, source['musicxmlTrillSpans'], HERE / 'sources' / cfg['id'])
+        if source.get('musicxmlInitialGrace'):
+            mark_initial_grace(xml, source['musicxmlInitialGrace'])
         selected = directory / '__selected.musicxml'
         ET.ElementTree(xml).write(selected, encoding='utf-8', xml_declaration=True)
         main.parent.mkdir(parents=True, exist_ok=True)

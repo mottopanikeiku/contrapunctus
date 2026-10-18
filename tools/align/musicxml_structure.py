@@ -74,3 +74,20 @@ def share_endings(xml, master_id):
                     index = next((i for i, node in enumerate(barline) if node.tag == 'repeat'), len(barline))
                     barline.insert(index, copy.deepcopy(ending))
         print('SHARED-ENDINGS', master_id, '->', part.get('id'), flush=True)
+
+
+def mark_initial_grace(xml, spec):
+    parts = [p for p in xml.findall('part') if p.get('id') == spec['part']]
+    if len(parts) != 1 or not spec.get('basis'):
+        raise ValueError('Initial grace synchronization requires one source part and documented basis')
+    part = parts[0]
+    measures = [m for m in part.findall('measure') if m.get('number') == str(spec['measure'])]
+    index = spec['note']
+    if len(measures) != 1 or not isinstance(index, int) or not 0 <= index < len(measures[0].findall('note')):
+        raise ValueError('Initial grace synchronization requires one exact source note')
+    note = measures[0].findall('note')[index]
+    locations, _ = source_timing(part)
+    if (note.find('grace') is None or note.get('print-object') == 'no'
+            or locations[note][0] != 0 or locations[note][2] is None):
+        raise ValueError('Initial grace synchronization must identify a real visible pitched grace at source time zero')
+    xml.set('cp-prime-initial-graces', 'yes')

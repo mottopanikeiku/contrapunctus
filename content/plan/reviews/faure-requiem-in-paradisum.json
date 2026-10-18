@@ -1,13 +1,5 @@
 {
   "id": "faure-requiem-in-paradisum",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "orchestra.timeline at 100 seconds",
-      "severity": "major",
-      "problem": "[EXT] Double basses withdraw when the harp enters: their staff rests from the harp entry on page 121 through most of page 124, returning only for the later crescendo. The current state carries them through this entire intervening passage.",
-      "evidence": "Independently viewed Hamelle/Kalmus full score, pages 119–125: double basses join Jerusalem, rest after its closing note as the harp begins on page 121, then return near the end of page 124. https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf .",
-      "fix": "Remove basses from the harp-entry span around 100 seconds; add a broad return state for the later crescendo (supported by the existing 2:16/2:20 rise and score proportions), or restore them at the closing section with wording that acknowledges the preceding return. Keep the other low strings, organ and harp active."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

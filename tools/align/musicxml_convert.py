@@ -6,6 +6,7 @@ closed if the implementation changes; no score notes or pitches are patched.
 """
 import argparse
 import inspect
+from fractions import Fraction
 from pathlib import Path
 import sys
 import textwrap
@@ -58,6 +59,53 @@ def ornament_has_wavyline(event):
         if event.get_name() == 'trill-mark' and child.get_type() == 'start':
             return True
     return False
+
+
+def prime_initial_graces(voices, musicexp, parts, make_duration):
+    if not parts or getattr(parts[0]._parent, 'cp-prime-initial-graces', None) != 'yes':
+        return
+    positions = []
+    for part, named_voices in voices.items():
+        for name, voice in named_voices.items():
+            music = voice.ly_voice
+            while isinstance(music, musicexp.RelativeMusic):
+                music = music.element
+            if not isinstance(music, musicexp.SequentialMusic):
+                raise ValueError('Initial grace synchronization needs a sequential source voice')
+            found = False
+            for index, event in enumerate(music.elements):
+                if event.get_length() > 0:
+                    if not isinstance(event, (musicexp.ChordEvent, musicexp.RhythmicEvent)):
+                        raise ValueError('Unsupported first timed element for initial grace synchronization')
+                    grace = getattr(event, 'grace_elements', None)
+                    lead = sum((e.get_length() for e in grace.elements), Fraction(0)) if grace else Fraction(0)
+                    positions.append((part, name, music, index, event, lead))
+                    found = True
+                    break
+                if ((isinstance(event, musicexp.NestedMusic) and event.elements)
+                        or getattr(event, 'element', None) is not None or getattr(event, 'grace_elements', None)):
+                    raise ValueError('Initial grace synchronization does not guess through leading nested music')
+            if not found:
+                raise ValueError('Initial grace synchronization found a voice without timed music')
+    maximum = max((p[-1] for p in positions), default=Fraction(0))
+    if maximum <= 0:
+        raise ValueError('Declared initial grace is absent from converted music')
+    for part, name, music, index, event, lead in positions:
+        if lead == maximum:
+            continue
+        if not isinstance(event, musicexp.ChordEvent):
+            wrapper = musicexp.ChordEvent()
+            wrapper.append(event)
+            music.elements[index] = event = wrapper
+        skip = musicexp.SkipEvent()
+        skip.duration = make_duration(maximum - lead)
+        grace = musicexp.ChordEvent()
+        grace.append(skip)
+        if event.grace_elements:
+            event.grace_elements.elements.insert(0, grace)
+        else:
+            event.append_grace(grace)
+        print('GRACE-PRIME', part, name, str(maximum - lead), 'whole-note units of silent grace skip', flush=True)
 
 
 def install_measure_lengths(musicxml):
@@ -118,6 +166,9 @@ def converter_source(path):
         '    return False':
             'def OrnamenthasWavyline(mxl_event):\n'
             '    return _ornament_has_wavyline(mxl_event)',
+        '    return (all_ly_voices, all_ly_staffinfo)':
+            '    _prime_initial_graces(all_ly_voices, musicexp, parts, musicxml2ly_conversion.rational_to_lily_duration)\n'
+            '    return (all_ly_voices, all_ly_staffinfo)',
     }
     for old, new in replacements.items():
         if source.count(old) != 1:
@@ -136,7 +187,8 @@ def main():
     # Preserve the converter's original relocation and resource lookup paths.
     namespace = {'__name__': '__main__', '__file__': str(path), '_install_note_ties': install_note_ties,
                  '_install_measure_lengths': install_measure_lengths, '_install_clef_ownership': install_clef_ownership,
-                 '_install_source_trills': install_source_trills, '_ornament_has_wavyline': ornament_has_wavyline}
+                 '_install_source_trills': install_source_trills, '_ornament_has_wavyline': ornament_has_wavyline,
+                 '_prime_initial_graces': prime_initial_graces}
     exec(compile(source, str(path), 'exec'), namespace)
 
 

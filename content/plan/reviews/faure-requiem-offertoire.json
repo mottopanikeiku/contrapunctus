@@ -1,27 +1,5 @@
 {
   "id": "faure-requiem-offertoire",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "forces; intro; orchestra.timeline at 35 seconds",
-      "severity": "major",
-      "problem": "[EXT] Sopranos are absent from the first canon, not from the entire movement. The return on page 41 explicitly assigns the top line to Sopr., making the returning four-part choir SATB. The current whole-movement exclusion is false.",
-      "evidence": "Independently viewed Hamelle/Kalmus full score, printed pages 23–24 and 41–44: https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf . Page 41 relabels the upper vocal staff Sopr.",
-      "fix": "Change forces to mixed chorus, baritone solo, orchestra and organ. Say the opening canon excludes sopranos, but that they join the returning prayer. Correct the 35-second timeline note’s whole-movement assertion. Preserve the verified opening alto/tenor canon and later four-part return."
-    },
-    {
-      "where": "orchestra.timeline at 20 seconds",
-      "severity": "major",
-      "problem": "[EXT] The double basses do not join the instrumental prelude. Their staff rests throughout pages 23–24, including the forte rise before the choir. This state incorrectly lights them before their written participation.",
-      "evidence": "Same independently viewed score, printed pages 23–24, Contrebasse staff; violas, cellos and organ supply the prelude.",
-      "fix": "Remove basses from the 20-second prelude state, or remove that redundant state. Keep their later participation under the choir where the score supports it."
-    },
-    {
-      "where": "final transition; orchestra.timeline closing Amen",
-      "severity": "major",
-      "problem": "[EXT] The closing Amen is not sustained to the end by strings. On page 44 the strings sound at the major-key entry and then rest for the remaining Amen; choir and organ complete the movement. The current last state and final-chord description keep the strings active throughout.",
-      "evidence": "Same independently viewed score, printed page 44: brief string chord at the B-major change, followed by rests while voices and organ continue. Report confirms the broad closing region at 7:05–7:35.",
-      "fix": "Describe the strings withdrawing after the Amen’s initial chord and the voices/organ finishing alone. Add a broad score-proportion withdrawal state after the entry, grounded in the existing closing windows, rather than leaving strings lit through the final chord."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

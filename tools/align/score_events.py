@@ -118,7 +118,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     source_checks = {}
     if cfg['source'].get('musicxml'):
         source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards'
-        for key in ('musicxmlTieRoutes', 'musicxmlPartialMeasures', 'musicxmlSharedEndingsFrom', 'musicxmlTrillSpans'):
+        for key in ('musicxmlTieRoutes', 'musicxmlPartialMeasures', 'musicxmlSharedEndingsFrom',
+                    'musicxmlTrillSpans', 'musicxmlInitialGrace'):
             if cfg['source'].get(key):
                 source_checks[key] = cfg['source'][key]
     if cfg['source'].get('patches'):
@@ -281,7 +282,10 @@ def extract(ident, lilypond=LILYPOND, directory=None):
                   + [f'Documented source tie sustains through {t["gapQ"]} quarter units before its continuation: {t["basis"]}'
                      for t in extraction.get('ties', []) if t.get('gapQ')]
                   + [f'Native-source-backed trill span in {t["part"]}, source quarters {t["startQ"]}–{t["endQ"]}: {t["basis"]}'
-                     for t in cfg['source'].get('musicxmlTrillSpans', [])],
+                     for t in cfg['source'].get('musicxmlTrillSpans', [])]
+                  + ([f'Initial-grace contexts synchronized by silent grace skips, retaining source notes and main-time durations: '
+                      f'{cfg["source"]["musicxmlInitialGrace"]["basis"]}']
+                     if cfg['source'].get('musicxmlInitialGrace') else []),
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -3,25 +3,11 @@
   "verdict": "fix",
   "defects": [
     {
-      "where": "local harmonic claims in cues and joins, especially 151/192/748/795/983/1253/1342 seconds and into-second-subject/into-development",
-      "severity": "major",
-      "problem": "[INFERENCE] Several actual harmonic claims rest solely on the chroma estimator. Saying confirmation only does not provide independent confirmation: the 795-second cue turns the five-second classifier grid and correlations of 0.37–0.63 into a rate of harmonic change; bass-class A in five windows becomes a continuously held bass and standing-on-the-dominant device; other local key routes and the categorical no-change-of-key claim lack a cited score or analytical source establishing them. The externally documented movement keys and G♭ trio are a different case and may remain.",
-      "evidence": "cache/analysis/sibelius-symphony-2.txt:3 warns against key estimates as the sole basis. Rows 3:10–3:30 report a bass pitch class, not note continuity; 13:10–13:40 are low-correlation classifier labels. Opened https://sibelius.klubi.fi/english/musiikki/ork_sinf_02.htm and http://musicweb-international.com/Programme_Notes/sibelius_sym2.htm support the broad dramatic/formal account but not these local key-by-key assertions.",
-      "fix": "Keep the measured dynamics, broad form and externally documented tonal facts. Remove unsupported local tonal routes, the five-to-ten-second harmonic-change claim, categorical no-key-change assertions, and the held-A/standing-on-the-dominant inference; or substantiate each retained musical claim with an independently viewable score/analytical locator. Recurring estimated bass A may be described explicitly as a periodic measurement, not a continuously held note. Do not treat low onset detection alone as proof of held notes either."
-    },
-    {
-      "where": "895-, 983- and 1940-second cues",
+      "where": "335-second cue title and text",
       "severity": "minor",
-      "problem": "[MEAS] Three range assertions still contradict their own updated evidence: 14:50–15:10 includes −18.7 dB at 15:10, outside −32 to −28; 16:25–17:15 includes −11.7 dB at 17:15, outside −22 to −31; the supposed −5 to −6 plateau through 32:35 also includes −9.2 dB at 32:35, beyond the separately acknowledged 32:20 dip.",
-      "evidence": "cache/analysis/sibelius-symphony-2.txt rows at 15:10, 17:15 and 32:35; the first and third values are already quoted in the cues’ evidence.",
-      "fix": "End the first quiet interval at 15:05 and acknowledge the following rise; end the second at 17:10; end the narrow first-finale plateau at 32:30 or include its final easing to −9.2 dB. Reconcile the adjacent prose consistently, without reintroducing obsolete slice values."
-    },
-    {
-      "where": "1393- and 2440-second cues; into-coda transition at 2478 seconds",
-      "severity": "major",
-      "problem": "[MEAS] These moment labels are not within about two seconds of the events they cite. The first pause begins at 23:17.7, not the 23:13 cue; the late quiet stretch begins at 40:48.1, not the 40:40 cue; the coda marker at 41:18 is well after the cited 40:48–40:59 near-silence and 41:00 re-emergence. A long retrospective transition is passage-level, not a moment at 41:18.",
-      "evidence": "The file’s own frame-level evidence gives 23:17.7–23:20.7 and 40:48.1–40:59.6; CONTRACTS.md:29,35 defines moment as about ±2 seconds and otherwise requires passage wording. The whole-file report has no boundary at 41:18.",
-      "fix": "Move the pause cards to their cited beginnings (about 1398 and 2448 seconds), or make them passage-level and anticipatory/general. Mark the broad coda join passage-level and keep its chronology broad unless an independently supported moment is supplied. Describe the −32 dB late region as very quiet music/near-silence, not as a proven written rest or general pause solely from that threshold; retain genuine between-movement silences."
+      "problem": "[INFERENCE] The remaining ‘long notes’/‘Held notes’ claim still treats low onset detection as note-duration evidence without an independent score basis.",
+      "evidence": "The cue’s evidence supplies level and detected-onset statistics plus Serotsky’s developmental account, not written note durations. All previously reported local harmonic, numerical-range and moment-precision defects are resolved.",
+      "fix": "Remove the long/held-note assertion from the title and text, retaining the measured high level, swelling phrases and attributed developmental account; or supply an independently viewable score basis for that assertion."
     }
   ]
 }

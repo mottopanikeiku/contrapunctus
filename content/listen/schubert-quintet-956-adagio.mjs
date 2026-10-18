@@ -12,7 +12,7 @@ export default {
   recorded: '1952',
   source: {
     archive: { item: 'lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne', file: 'disc1/01.02. Quintet In C Major, Op. 163: Second Movement: Adagio.mp3' },
-    rights: { basis: 'eu-published-before-1963', published: 1953, evidence: 'Columbia Masterworks ML 4714 / SL-183, catalogue date 1953 on the Internet Archive item (a Boston Public Library vinyl rip, one file per movement or side); Discogs gives the recording as made at the Prades Festival in 1952. The LP release date comes from the item metadata and is not independently verified. US status is not established.' },
+    rights: { basis: 'eu-published-before-1963', published: 1953, evidence: 'Columbia Masterworks ML 4714 / SL-183, publication date 1953 on the Internet Archive item (an LP digitisation, one file per movement, listed in several vinyl collections including the Boston Public Library’s); Discogs gives the recording as made at the Prades Festival in 1952. The 1953 date comes from the item and the Discogs master release and is not independently verified. US status is not established.' },
   },
   intro: 'The slow movement of Schubert’s last chamber work is a calm E major song for four players over a plucked cello, interrupted by a violent F minor storm. Casals and his Prades colleagues play it at a deliberate pace in a 1952 recording.',
   question: 'How does a calm melody survive a storm and return changed?',

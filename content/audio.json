@@ -412,6 +412,13 @@
   "artist": "Claude Debussy; Robert Schumann; Robert Casadesus",
   "duration": 164.23
  },
+ "archive:lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/01.01. Psaume, \"Du Fond De L'Abîme\".mp3": {
+  "stream": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/01.01.%20Psaume%2C%20%22Du%20Fond%20De%20L'Ab%C3%AEme%22.mp3",
+  "page": "https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
+  "license": "",
+  "artist": "Lili Boulanger; Igor Markevitch; Orchestre Des Concerts Lamoureux; Choeurs Elisabeth Brasseur",
+  "duration": 1440.24
+ },
  "archive:lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.01. Psaume 24.mp3": {
   "stream": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.01.%20Psaume%2024.mp3",
   "page": "https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
@@ -1077,12 +1084,40 @@
   "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
   "duration": 383
  },
+ "File:Fauré - Requiem - II. Offertoire.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Faur%C3%A9_-_Requiem_-_II._Offertoire.flac/Faur%C3%A9_-_Requiem_-_II._Offertoire.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_II._Offertoire.flac",
+  "license": "Public domain",
+  "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
+  "duration": 460
+ },
+ "File:Fauré - Requiem - III. Sanctus.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Faur%C3%A9_-_Requiem_-_III._Sanctus.flac/Faur%C3%A9_-_Requiem_-_III._Sanctus.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_III._Sanctus.flac",
+  "license": "Public domain",
+  "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
+  "duration": 190
+ },
+ "File:Fauré - Requiem - IV. Pie Jesu.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/64/Faur%C3%A9_-_Requiem_-_IV._Pie_Jesu.flac/Faur%C3%A9_-_Requiem_-_IV._Pie_Jesu.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_IV._Pie_Jesu.flac",
+  "license": "Public domain",
+  "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
+  "duration": 181
+ },
  "File:Fauré - Requiem - V. Agnus Dei.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac/Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac",
   "license": "Public domain",
   "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
   "duration": 349
+ },
+ "File:Fauré - Requiem - VII. In paradisum.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Faur%C3%A9_-_Requiem_-_VII._In_paradisum.flac/Faur%C3%A9_-_Requiem_-_VII._In_paradisum.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_VII._In_paradisum.flac",
+  "license": "Public domain",
+  "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
+  "duration": 215
  },
  "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
