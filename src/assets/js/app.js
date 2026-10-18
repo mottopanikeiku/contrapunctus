@@ -8,7 +8,7 @@ const ROOT = player.root;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const fmt = (t) => { t = Math.max(0, Math.floor(t || 0)); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`; };
-const app = { player, root: ROOT, navigate, fmt };
+const app = { player, root: ROOT, navigate, scrollFragment, fmt };
 window.CP = app;
 // Initial relative head-link URLs otherwise retarget when pushState enters a nested directory.
 for (const link of $$('link[href]', document.head)) link.setAttribute('href', link.href);
@@ -232,12 +232,23 @@ async function syncStyles(doc) {
   };
 }
 
+function scrollFragment(url, behavior = 'auto') {
+  const target = document.getElementById(decodeURIComponent(url.hash.slice(1)));
+  if (!target?.closest('.glossary-entry')) { target?.scrollIntoView({ behavior }); return; }
+  // A smooth traversal materialises skipped rows and invalidates its destination.
+  // Allow one rendering update to lay out newly visible rows before alignment.
+  target.scrollIntoView({ behavior: 'instant' });
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if (target.isConnected && location.hash === url.hash) target.scrollIntoView({ behavior: 'instant' });
+  }));
+}
+
 export async function navigate(href, { push = true } = {}) {
   const url = new URL(href, location.href);
   if (!sameSite(url)) { location.href = url.href; return; }
   if (url.pathname === pageURL.pathname && url.search === pageURL.search) {
     if (push && url.hash !== location.hash) history.pushState(null, '', url.href);
-    if (url.hash) { document.getElementById(decodeURIComponent(url.hash.slice(1)))?.scrollIntoView({ behavior: 'smooth' }); window.dispatchEvent(new HashChangeEvent('hashchange')); }
+    if (url.hash) { scrollFragment(url, 'smooth'); window.dispatchEvent(new HashChangeEvent('hashchange')); }
     return;
   }
   const my = ++token;
@@ -272,7 +283,7 @@ export async function navigate(href, { push = true } = {}) {
   dropOld();
   if (push) history.pushState(null, '', url.href);
   pageURL = url;
-  if (url.hash) document.getElementById(decodeURIComponent(url.hash.slice(1)))?.scrollIntoView(); else scrollTo(0, 0);
+  if (url.hash) scrollFragment(url); else scrollTo(0, 0);
   ($('h1') ?? document.body).setAttribute('tabindex', '-1');
   ($('h1') ?? document.body).focus({ preventScroll: true });
   await mount();

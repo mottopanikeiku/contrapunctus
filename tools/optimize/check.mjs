@@ -16,6 +16,7 @@ function localAsset(value, relative) {
   check(paths.has(file), `${relative}: missing ${value}`);
   if (file.endsWith('.avif')) referencedAvif.add(file);
 }
+const nodeText = (node) => node.value ?? (node.childNodes || []).map(nodeText).join('');
 for (const file of all) {
   const relative = path.relative(OUT, file).split(path.sep).join('/');
   if (file.endsWith('.json')) {
@@ -27,7 +28,7 @@ for (const file of all) {
   pages++;
   const html = await readFile(file, 'utf8'), doc = parse(html);
   check(!/fonts\.(?:googleapis|gstatic)\.com/.test(html), `${relative}: third-party font URL`);
-  let high = 0, critical = '', deferredStyles = false, dark = false;
+  let high = 0, critical = '', deferredStyles = false, dark = false, decorativeGlyph = false;
   function visit(node) {
     const attrs = Object.fromEntries((node.attrs || []).map(({ name, value }) => [name, value]));
     if (node.tagName === 'body') {
@@ -35,6 +36,8 @@ for (const file of all) {
       dark = (attrs.class || '').split(/\s+/).includes('is-over-dark');
     }
     if (node.tagName === 'style' && 'data-cp-critical' in attrs) critical += (node.childNodes || []).map((child) => child.value || '').join('');
+    if (attrs.class === 'bg-glyph') decorativeGlyph = true;
+    if (relative === 'hall.html' && ['now-composer', 'now-work', 'now-meta'].includes(attrs.class)) check(nodeText(node).trim(), `${relative}: initial ${attrs.class} is empty`);
     if (node.tagName === 'link' && attrs.rel === 'stylesheet' && ['print', 'not x'].includes(attrs.media)) deferredStyles = true;
     if (node.tagName === 'picture') pictures++;
     if (node.tagName === 'img') {
@@ -69,6 +72,15 @@ for (const file of all) {
     check(/\.skip[{:]/.test(critical), `${relative}: critical CSS lost the skip link`);
     if (dark) check(critical.includes('.is-over-dark .masthead'), `${relative}: critical CSS lost the dark masthead`);
   }
+  if (decorativeGlyph) {
+    check(critical.includes(".page-hero span.bg-glyph{font-family:'CP Page Glyph'"), `${relative}: decorative glyph face is missing or loses to the external font shorthand`);
+    check(/@font-face\{font-family:'CP Page Glyph';[^}]*font-display:block/.test(critical) && html.includes('rel="preload" href="data:font/woff2'), `${relative}: decorative glyph can paint with a mismatched fallback`);
+  }
+  if (relative === 'index.html') {
+    check(/\.hero \.hero-caption\{[^}]*width:19rem/.test(critical), `${relative}: slideshow caption width is not reserved in critical CSS`);
+    for (const face of ['Caps', 'Display', 'Text']) check(critical.includes(`font-family:'CP Entrance ${face}'`), `${relative}: exact entrance ${face} face is missing`);
+  }
+  if (relative === 'glossary.html') check(critical.includes('content-visibility:auto'), `${relative}: glossary containment is missing from critical CSS`);
 }
 for (const file of all.filter((file) => file.endsWith('.avif'))) check(referencedAvif.has(file), `Unreferenced AVIF: ${path.relative(OUT, file)}`);
 for (const name of modules) check(paths.has(path.join(OUT, `assets/js/${name}.js`)), `Page module missing: ${name}`);

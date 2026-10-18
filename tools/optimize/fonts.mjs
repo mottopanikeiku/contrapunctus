@@ -75,9 +75,11 @@ function ranges(points) {
 }
 export async function optimizeFonts(textFiles, out = OUT) {
   const used = new Set(Array.from({ length: 0x7f - 0x20 }, (_, i) => i + 0x20));
+  const glyphPages = new Set();
   for (const c of ' ‘’“”–—−♯♭♮𝄞') used.add(c.codePointAt(0));
   for (const file of textFiles) {
     const text = decodeHTML((await readFile(file, 'utf8')).replace(/(?:\\u[\da-f]{4})+/gi, (s) => JSON.parse(`"${s}"`)));
+    if (file.endsWith('.html') && /class="bg-glyph"/.test(text)) glyphPages.add(path.relative(out, file).split(path.sep).join('/'));
     for (const c of text.match(/[^\x00-\x7f]/gu) || []) {
       // CSS synthetic small caps and text transforms also need case partners.
       for (const variant of c + c.toUpperCase() + c.toLowerCase()) used.add(variant.codePointAt(0));
@@ -90,6 +92,14 @@ export async function optimizeFonts(textFiles, out = OUT) {
   const romanTitle = influence.replace(/<em\b[^>]*>([\s\S]*?)<\/em>/g, (_, text) => { italicTitle += text; return ''; });
   const titleText = { normal: decodeHTML(romanTitle.replace(/<[^>]*>/g, '')), italic: decodeHTML(italicTitle.replace(/<[^>]*>/g, '')) };
   const titleFaces = [], titlePreloads = [];
+  let glyphFace = '', glyphPreload = '';
+  const indexHTML = await readFile(path.join(out, 'index.html'), 'utf8');
+  const entranceFonts = [
+    { id: 'cormorant-sc-600', weight: 600, name: 'CP Entrance Caps', classes: ['eh-k', 'hero-browse'] },
+    { id: 'cormorant-garamond-italic', weight: 500, name: 'CP Entrance Display', classes: ['eh-t'] },
+    { id: 'eb-garamond-normal', weight: 400, name: 'CP Entrance Text', classes: ['eh-s'] },
+  ];
+  const entranceFaces = [], entrancePreloads = [];
   const core = (point) => point <= 0xff || point >= 0x2000 && point <= 0x206f || /[\p{P}\p{S}]/u.test(String.fromCodePoint(point));
   for (const [id, family, style, weights, file, sha] of faces) {
     const original = await source(file, sha);
@@ -106,11 +116,29 @@ export async function optimizeFonts(textFiles, out = OUT) {
     }
     for (const weight of weights) {
       const variationAxes = font.variationAxes.wght ? { wght: weight } : undefined;
+      const entrance = entranceFonts.find((entry) => entry.id === id && entry.weight === weight);
+      if (entrance) {
+        // Exact entrance text, rather than average fallback advances: near a
+        // flex-wrap boundary even a small font swap moved the whole hero.
+        const text = entrance.classes.flatMap((name) => [...indexHTML.matchAll(new RegExp(`<\\w+\\b[^>]*class="${name}"[^>]*>([\\s\\S]*?)<\\/\\w+>`, 'g'))].map((match) => decodeHTML(match[1].replace(/<[^>]*>/g, '')))).join(' ');
+        const chars = [...new Set(text + text.toUpperCase() + text.toLowerCase())].filter((char) => covered(char.codePointAt(0), family) && font.hasGlyphForCodePoint(char.codePointAt(0)));
+        const subset = await cached(hash(`entrance-v1-${sha}-${weight}-${keepFeatures.join(',')}-${chars.join('')}`), 'woff2', () => subsetFont(original, chars.join(''), { targetFormat: 'woff2', variationAxes, keepFeatures }));
+        const url = `data:font/woff2;base64,${subset.toString('base64')}`;
+        entrancePreloads.push(`<link rel="preload" href="${url}" as="font" type="font/woff2" fetchpriority="high" crossorigin>`);
+        entranceFaces.push(`@font-face{font-family:'${entrance.name}';font-style:${style};font-weight:${weight};font-display:block;src:url(${url}) format('woff2');unicode-range:${ranges(chars.map((char) => char.codePointAt(0)).sort((a, b) => a - b))}}${entrance.classes.map((name) => `.hero .${name}`).join(',')}{font-family:'${entrance.name}','${family}','${family} Fallback',serif}`);
+      }
       for (const [index, glyphs] of groups.entries()) {
         if (!glyphs.length) continue;
         const chars = String.fromCodePoint(...glyphs);
         const subset = await cached(hash(`shared-static-v1-${sha}-${weight}-${keepFeatures.join(',')}-${chars}`), 'woff2', () => subsetFont(original, chars, { targetFormat: 'woff2', variationAxes, keepFeatures }));
         const name = `${id}.${weight}.${index ? 'extended' : 'core'}.${hash(subset).slice(0, 16)}.woff2`;
+        // Large decorative musical symbols have no metric-compatible system
+        // fallback. Reuse the tiny exact music subset inline on those pages.
+        if (family === 'Noto Music') {
+          const url = `data:font/woff2;base64,${subset.toString('base64')}`;
+          glyphPreload = `<link rel="preload" href="${url}" as="font" type="font/woff2" fetchpriority="high" crossorigin>`;
+          glyphFace = `@font-face{font-family:'CP Page Glyph';font-style:normal;font-weight:400;font-display:block;src:url(${url}) format('woff2')}.page-hero span.bg-glyph{font-family:'CP Page Glyph',var(--glyph)}`;
+        }
         await save(path.join(out, 'assets/fonts', name), subset);
         css.push(`@font-face{font-family:'${family}';font-style:${style};font-weight:${weight};font-display:swap;src:url('__BASE__assets/fonts/${name}') format('woff2');unicode-range:${ranges(glyphs)}}`);
         manifest.push({ id, family, style, weight, name, bytes: subset.length, source: file, sha, glyphs: glyphs.length, extra: Boolean(index) });
@@ -155,11 +183,13 @@ export async function optimizeFonts(textFiles, out = OUT) {
         return `<link rel="preload" data-cp-font-preload href="${base}assets/fonts/${face.name}" as="font" type="font/woff2" fetchpriority="high" crossorigin${media ? ` media="${media}"` : ''}>`;
       }).join('');
       const title = relative === 'influence.html' ? `${titlePreloads.join('')}<style data-cp-critical>${titleFaces.join('')}.influence-page .iw-heading h1{font-family:'CP Influence Heading','Cormorant Garamond','Cormorant Garamond Fallback',serif}</style>` : '';
+      const glyph = glyphPages.has(relative) ? `${glyphPreload}<style data-cp-critical>${glyphFace}</style>` : '';
+      const entrance = relative === 'index.html' ? `${entrancePreloads.join('')}<style data-cp-critical>${entranceFaces.join('')}</style>` : '';
       // Local metric faces are available for the first paint without waiting
       // for a stylesheet round trip. The stable webfont sheet is asynchronous;
       // its relative URLs and the local-only fallback style survive SPA routing.
       const sheet = `${base}assets/css/fonts.css?v=${fontVersion}`;
-      return `<style data-cp-font-fallbacks>${fallbacks.join('')}</style>${preloads}<link rel="stylesheet" data-cp-fonts href="${sheet}" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="${sheet}"></noscript>${title}`;
+      return `<style data-cp-font-fallbacks>${fallbacks.join('')}</style>${preloads}<link rel="stylesheet" data-cp-fonts href="${sheet}" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="${sheet}"></noscript>${title}${glyph}${entrance}`;
     },
   };
 }

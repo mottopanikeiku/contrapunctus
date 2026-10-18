@@ -866,6 +866,11 @@ async function roomPage(prog) {
   for (const f of await readdir(path.join(OUT, 'assets/hall'))) if (!keep.has(f)) await unlink(path.join(OUT, 'assets/hall', f));
   const vcss = await ver('assets/css/room.css');
   const first = prog[0];
+  // The first recording is known at build time. Its real text reserves the
+  // responsive heading/metadata rows before the Hall module fetches detail.
+  const roman = (n) => ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'][n] ?? String(n);
+  const firstMovement = first.set ? `${first.movement} (${roman(first.set.part)} of ${roman(first.set.of)})` : first.movement;
+  const firstMeta = [first.year, first.key, first.forces, first.performers, first.tuning !== 440 ? `pitch A ≈ ${first.tuning} Hz${first.tuningStatus === 'inferred' ? ' (inferred)' : ''}` : ''].filter(Boolean).join(' · ');
   const ctx = { base: '', page: 'hall' };
   const concert = prog.filter((t) => t.concert !== false), concertN = concert.length, concertSecs = concert.reduce((a, t) => a + (t.duration || 0), 0);
   const eraList = [{ slug: 'before-bach', numeral: '0', name: 'Before Bach', accent: '#9fc3c6' }, ...C.eras].map(  // C.eras: chapter order (a local `eras` table above is in programme order)
@@ -896,10 +901,10 @@ ${headScripts(ctx)}
 
 <main class="stage">
   <section class="now" aria-live="polite">
-    <div class="now-era"><span class="era-num"></span><span class="era-name"></span></div>
-    <h1 class="now-composer"><span class="given"></span><span class="family"></span></h1>
-    <p class="now-work"><span class="work"></span><span class="movement"></span></p>
-    <p class="now-meta"></p>
+    <div class="now-era"><span class="era-num">${esc(first.era?.numeral ?? '')}</span><span class="era-name">${esc(first.era ? `${first.era.name} · ${first.era.span}` : '')}</span></div>
+    <h1 class="now-composer"><span class="given">${esc(first.composer.given ?? '')}</span><span class="family">${esc(first.composer.family ?? first.composer.name)}</span></h1>
+    <p class="now-work"><span class="work">${esc(first.work)}</span><span class="movement">${esc(firstMovement)}</span></p>
+    <p class="now-meta">${esc(firstMeta)}</p>
   </section>
 
   <section class="viz" aria-label="The music">

@@ -111,7 +111,7 @@ export async function mount(app) {
     const dossier = target?.closest('.research-dossier');
     if (dossier) dossier.open = true;
     const entry = target?.closest('.glossary-entry');
-    if (entry?.hidden && kind) { kind.value = ''; filterTerms(); entry.scrollIntoView(); }
+    if (entry?.hidden && kind) { kind.value = ''; filterTerms(); app.scrollFragment(new URL(location.href)); }
   };
   listen(window, 'hashchange', openAnchor); openAnchor();
   // The router may handle a same-page link without dispatching hashchange.
