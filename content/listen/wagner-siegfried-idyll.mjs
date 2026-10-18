@@ -438,7 +438,7 @@ export default {
     "source": {
       "title": "Siegfried-Idyll — Schott full score, 1878, plate 22430",
       "url": "https://hdl.handle.net/1802/20380",
-      "locator": "Printed pp. 1, 12, 24, 28, 31–32, 36, 45–46. Approximate score regions; the 1925 session’s exact staffing is not documented."
+      "locator": "Printed pp. 1, 4, 8, 12, 24, 28, 31–32, 36, 45–46. Approximate score regions; the 1925 session’s exact staffing is not documented."
     },
     "timeline": [
       {
@@ -453,6 +453,25 @@ export default {
           "violins-1"
         ],
         "note": "Opening string span, p. 1; basses and winds are initially silent in the published score."
+      },
+      {
+        "t": 66,
+        "playing": [
+          "flutes",
+          "oboes",
+          "clarinets",
+          "bassoons",
+          "horns",
+          "violins-1",
+          "violins-2",
+          "violas",
+          "cellos",
+          "basses"
+        ],
+        "lead": [
+          "violins-1"
+        ],
+        "note": "Approximate opening expansion, pp. 4–8: woodwinds, horns and basses progressively join the string texture. The 1:06 audio boundary marks the broad region, not simultaneous or bar-aligned entrances."
       },
       {
         "t": 240,
@@ -550,6 +569,9 @@ export default {
       {
         "t": 854,
         "playing": [
+          "flutes",
+          "oboes",
+          "clarinets",
           "horns",
           "bassoons",
           "violins-1",
@@ -562,7 +584,7 @@ export default {
           "violins-1",
           "cellos"
         ],
-        "note": "Closing region, pp. 45–46: horn and bassoon support around sustained strings; other winds join the final chord."
+        "note": "Closing region, pp. 45–46: horn and bassoon support around sustained strings. Flute, oboe and clarinets join only the final chord, not the whole preceding conclusion; trumpet remains silent."
       }
     ]
   }

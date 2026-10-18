@@ -1,0 +1,242 @@
+{
+  "id": "mahler-das-lied-schoenheit",
+  "work": {
+    "title": "Das Lied von der Erde",
+    "catalogue": "",
+    "movement": "IV. Von der Schönheit — Comodo. Dolcissimo",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "imslp"
+      ],
+      "note": "The item does not say which score edition the orchestra used or whether any passage was cut. The first edition (Universal Edition, 1912) is the score read for the notes on this page; the 1939 performing materials may differ."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Kerstin Thorborg",
+        "role": "contralto"
+      },
+      {
+        "name": "Concertgebouw Orchestra, Amsterdam",
+        "role": "orchestra"
+      },
+      {
+        "name": "Carl Schuricht",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "mf-history",
+      "wp-thorborg",
+      "wp-schuricht"
+    ],
+    "note": "The item credits Kerstin Thorborg (alto), Carl Martin Öhmann (tenor) and Carl Schuricht (conductor) for the whole concert, and names the singer on each track; Carl Martin Öhmann does not sing in this song. The Mahler Foundation’s discography lists the same three with the Royal Concertgebouw Orchestra, Amsterdam. The orchestra was not yet styled “Royal” in 1939."
+  },
+  "session": {
+    "date": {
+      "value": "1939-10-05",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "wp-schuricht",
+        "mf-history"
+      ],
+      "note": "The date is in the item’s title and date field and agrees with the Carl Schuricht article; the Mahler Foundation gives only “October 1939 broadcast concert, live”. It is not the upload date (the item was added on 2 July 2022).",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Concertgebouw, Amsterdam",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "mf-history"
+      ],
+      "note": "Named in the item title (“Concertgebouw Amsterdam”) and in the Mahler Foundation’s listing of a live Amsterdam concert; “Concertgebouw” names both the orchestra and the hall, and neither source names a room."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "mf-history"
+      ],
+      "note": "The item names no label and does not state the medium it was copied from. The Mahler Foundation’s discography records a Bel Age CD made “from acetates” of the broadcast; whether this file derives from that issue is not stated."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No catalogue number is given for the source of this file."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "mf-history"
+      ],
+      "note": "No acetate matrix, side or take numbers appear in the sources consulted; this is not a claim that they cannot be recovered."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item names an uploader account but no transfer or restoration engineer; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item’s added and public dates (2 July 2022) are upload dates, not transfer dates."
+    },
+    "processing": {
+      "value": "Internet Archive derivatives of a WAV original: this file is a variable-bit-rate MP3 (173 kbps); FLAC and spectrogram derivatives of the same WAV are also listed.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item description calls it “a good recording”. It does not describe noise reduction, speed correction or equalisation."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193/04%20-%20Das%20Lied%20von%20der%20Erde%20(Mahler)%20-%20Concertgebouw%20Amsterdam%20Carl%20SCHURICHT%20(5.X.1939)%20-%20Kerstin%20THORBORG%20(Alt)%20-%204.Von%20der%20Sch%C3%B6nheit.mp3",
+    "sourceChain": [
+      "archive"
+    ],
+    "format": "VBR MP3 (173 kbps) derivative supplied by the Internet Archive; original upload WAV",
+    "durationSeconds": 404.72
+  },
+  "rights": {
+    "composition": {
+      "value": "Music by Gustav Mahler (died 1911); words adapted by Mahler from Hans Bethge’s Die chinesische Flöte (Bethge died 1946), itself a paraphrase of Tang-dynasty poems by way of French and German translations. The 1912 first edition is hosted on IMSLP as public domain.",
+      "status": "inferred",
+      "sourceIds": [
+        "wp-lied",
+        "mf-intro",
+        "imslp",
+        "mahler-archives",
+        "cleveland",
+        "li-2025"
+      ],
+      "note": "A term calculation (life plus 70 years; Bethge’s text has been free in life-plus-70 jurisdictions since 2017), not a clearance of every edition or translation."
+    },
+    "recording": {
+      "value": "Treated as public domain in the European Union (territorial): a live broadcast of 5 October 1939 whose related rights, on the sources consulted, had expired before the extended terms applied on 1 November 2013. United States status is not established.",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "eu-2011-77",
+        "mf-history"
+      ],
+      "note": "Before the 2011 extension, Directive 2006/116/EC gave performers and phonogram producers 50-year terms. For a performance of 1939 the performer’s term ran 50 years from the performance, to 1989, unless a fixation of it in a phonogram was lawfully published or lawfully communicated to the public within that period, which would have started a longer term from that event. The live radio broadcast was a communication of the performance, not of a phonogram fixation, and the sources consulted document no earlier publication of the acetate fixation; the date of its first issue on disc is not given in them, so this is an inference, not a clearance. Directive 2011/77/EU lengthened terms to 70 years only for rights still protected on 1 November 2013 (Article 10(5)), so rights that had already expired were not revived. The item carries a Public Domain Mark 1.0 licence URL, which is the uploader’s statement and not the basis used here."
+    },
+    "creditLine": "Gustav Mahler, Das Lied von der Erde, IV. Von der Schönheit; Kerstin Thorborg, contralto; Concertgebouw Orchestra, Amsterdam; Carl Schuricht, conductor; live, 5 October 1939. Internet Archive item “Das Lied von der Erde (Mahler) – Concertgebouw Amsterdam Carl Schuricht (5. X. 1939)”, marked Public Domain Mark 1.0 by its uploader; treated here as EU public domain (territorial), US status not established.",
+    "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Das Lied von der Erde (Mahler), Concertgebouw Amsterdam, Carl Schuricht (5. X. 1939)",
+      "url": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+      "locator": "metadata: creator, date 1939-10-05, licenseurl (Public Domain Mark 1.0), description; file “04 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Kerstin THORBORG (Alt) - 4.Von der Schönheit.mp3” (VBR MP3 173 kbps, 404.72 s), original WAV.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "mf-history",
+      "title": "Mahler Foundation — History: Das Lied von der Erde",
+      "url": "https://mahlerfoundation.org/mahler/compositions/das-lied-von-der-erde/das-lied-von-der-erde-history/",
+      "locator": "Recordings, versions with female and male soloists: Schuricht, Thorborg and Öhmann, Royal Concertgebouw Orchestra, “October 1939 broadcast concert, live (Bel Age CD, from acetates)”.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "mahler-archives",
+      "title": "The Mahler Archives — Das Lied von der Erde: texts and Chinese sources",
+      "url": "http://www.mahlerarchives.net/Archive%20documents/DLvDE/DLvDE.htm",
+      "locator": "One page per song (Der_Jugend.htm, Der_Trunkene.htm, Der_Abschied.htm and others): Chinese poem, French, Heilmann and Bethge versions beside Mahler’s text.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "cleveland",
+      "title": "The Cleveland Orchestra — Das Lied von der Erde, note by Peter Laki",
+      "url": "https://www.clevelandorchestra.com/works/das-lied-von-der-erde",
+      "locator": "Paragraphs on each of the six movements, including the porcelain pavilion of Von der Jugend.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "li-2025",
+      "title": "Edwin K. C. Li, Re-translating Mahler’s Das Lied von der Erde, Journal of the Royal Musical Association 150/2 (2025)",
+      "url": "https://doi.org/10.1017/rma.2025.10043",
+      "locator": "Footnote 3 (the Chinese poems generally agreed for each movement) and footnote 8 (doubts about the source of Von der Jugend).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "mf-intro",
+      "title": "Mahler Foundation — Introduction: Das Lied von der Erde",
+      "url": "https://mahlerfoundation.org/mahler/compositions/das-lied-von-der-erde/das-lied-von-der-erde-introduction/",
+      "locator": "Hans Bethge (1876–1946), Die chinesische Flöte; the six songs and their Chinese poets.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "wp-schuricht",
+      "title": "Wikipedia — Carl Schuricht",
+      "url": "https://en.wikipedia.org/wiki/Carl_Schuricht",
+      "locator": "Life and career: the 5 October 1939 Amsterdam performance of Das Lied von der Erde, disrupted by a heckler; Mahler banned in Germany 1933–45.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "wp-thorborg",
+      "title": "Wikipedia — Kerstin Thorborg",
+      "url": "https://en.wikipedia.org/wiki/Kerstin_Thorborg",
+      "locator": "Biography: the 1939 Concertgebouw recording under Schuricht.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "wp-lied",
+      "title": "Wikipedia — Das Lied von der Erde",
+      "url": "https://en.wikipedia.org/wiki/Das_Lied_von_der_Erde",
+      "locator": "Composition, Reception and Text sections: Mahler’s death on 18 May 1911; premiere 20 November 1911; Bethge’s Die chinesische Flöte.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Das Lied von der Erde, GMW 49 (Mahler, Gustav)",
+      "url": "https://imslp.org/wiki/Das_Lied_von_der_Erde,_GMW_49_(Mahler,_Gustav)",
+      "locator": "Complete Score #20582: Vienna, Universal Edition, 1912, plate U.E. 3637; Copyright Public Domain.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "ue-hefling",
+      "title": "Universal Edition — Das Lied von der Erde, work introduction by Stephen E. Hefling",
+      "url": "https://www.universaledition.com/en/Works/Das-Lied-von-der-Erde/P0109538",
+      "locator": "Composition in summer 1908; Bethge’s 83 paraphrases; seven poems chosen.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-2011-77",
+      "title": "Directive 2011/77/EU amending Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
+      "locator": "Recitals 1–3 and 7; Article 1(2) (Article 3(1) of Directive 2006/116/EC); Article 10(5) transitional rule.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

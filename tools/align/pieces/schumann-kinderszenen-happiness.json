@@ -55,12 +55,9 @@
         0,
         24
       ],
-      [
-        0,
-        24
-      ]
+      { "from": [8, 1.5], "to": [24, 2] }
     ],
-    "description": "Provisional order candidate: complete source twice; verify against recurrence rather than inferring from MIDI duration."
+    "description": "Candidate A–A–B–A–B: source writes A8+A8+B8; the recording suggests a da capo without repeating its first strain again. After the first complete traversal, return at the G-sharp pickup in bar8's last eighth, then bars9–24. Do not duplicate the complete AAB source as if the da capo retained its written-out initial repeat; verify both A/B returns independently."
   },
   "endpoints": {
     "first": [
@@ -76,7 +73,8 @@
   "boundaries": [],
   "diagnostics": {
     "recurrences": [
-      { "startQ": 0, "startOffset": 1, "secondQ": 48.5, "secondOffset": 1, "length": 35, "search": 8 }
+      { "startQ": 16.5, "startOffset": 1, "secondQ": 49, "secondOffset": 1, "length": 12, "search": 5 },
+      { "startQ": 32.5, "startOffset": 1, "secondQ": 65, "secondOffset": 1, "length": 14, "search": 5 }
     ],
     "overlays": [[20, 36], [40, 56], [62, 78]]
   },
@@ -87,6 +85,8 @@
   },
   "provenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/schumann-kinderszenen-happiness.mjs and cache/analysis/schumann-kinderszenen-happiness.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Read content/listen/schumann-kinderszenen-happiness.mjs and cache/analysis/schumann-kinderszenen-happiness.txt. Harmonic trajectories suggest A0–28, B28–46, A46–68, B68–90; these are coarse, not forced alignment anchors.",
+    "Opened Henle critical notes p299, https://www.henle.de/media/05/bf/e6/1690899698/9924-1690899698-sync.pdf: FE2 writes repeats out; the D.C. at16 may be a manuscript remnant. This documents edition/order ambiguity, not proof of Betts's choice. The proposed return is subject to pitch/order inspection.",
+    "DCML reference harmony https://raw.githubusercontent.com/DCMLab/schumann_kinderszenen/main/harmonies/n05.harmonies.tsv confirms the borrowed F-major region (local bIII of D); no reference-corpus notes or harmony labels are copied into this Mutopia-derived score."
   ]
 }

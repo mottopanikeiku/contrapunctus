@@ -12,4 +12,42 @@ export default {
   source: { file: 'File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac' },
   intro: 'Couperin lets notes overlap across changing basses, softening the edges between chords. Marcelle Meyer plays this harpsichord rondeau on piano; follow the returning refrain through the interlocking parts.',
   question: 'How can a refrain return clearly when the voices keep overlapping?',
+
+  sections: [
+    { t: 0, label: 'Refrain · overlapping voices', m: 'A', mNote: 'low-register refrain establishes the overlapping texture' },
+    { t: 18, label: 'First two couplets and refrain returns', m: 'B', mNote: 'episodes grouped together; intervening refrains are not separately timed' },
+    { t: 52, label: 'Extended third couplet', m: 'C', mNote: 'longer episode sustains the interlocking pattern' },
+    { t: 76, label: 'Final refrain', m: 'A′', mNote: 'opening material returns before the final resonance' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'Chords arriving in layers', text: 'The parts do not strike every chord together. Held notes overlap the moving bass, and short upper figures keep renewing the sound. Follow one inner voice rather than treating the piano as a succession of solid chords.', basis: 'general', precision: 'passage', evidence: 'Couperin’s score shows independent durations and tied notes in the low-register refrain. The analysis reports continuous attacks across the opening; this describes the texture, not a precisely aligned suspension. Score: https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP128589-WIMA.0099-Couperin_6eOrdre_Les_Baricades.pdf' },
+    { t: 15, kind: 'life', title: 'Church and royal chamber', text: 'Couperin combines Parisian church duties with royal employment. He becomes an organist of Louis XIV’s chapel in 1693; his four harpsichord books appear between 1713 and 1730.', basis: 'documented', precision: 'passage', evidence: 'Opéra Royal’s Couperin biography documents the chapel appointment and four harpsichord books: https://www.operaroyal-versailles.fr/genre-event/couperin/' },
+    { t: 30, kind: 'form', title: 'A refrain among episodes', text: 'This is a rondeau: the opening refrain returns between contrasting couplets. The recurring overlap of the voices makes those returns less like a restart than a recovery of a familiar pattern.', basis: 'general', precision: 'passage', evidence: 'The score explicitly marks Rondeau and three couplets. The report has boundaries near 0:18, 0:30, 0:44 and 0:52, but does not establish every return; this note explains the whole design rather than announcing a particular bar.' },
+    { t: 45, kind: 'world', title: 'A deliberately puzzling title', text: 'The piece belongs to the sixth ordre in Couperin’s second harpsichord book, published in 1717. The title names no securely identified scene: a story about the “mysterious barricades” is not needed to follow the musical refrain.', basis: 'documented', precision: 'passage', evidence: 'The score identifies the sixth ordre and 1717 book. The Opéra Royal biography discusses the unresolved titles; the existing Couperin biography likewise distinguishes interpretations from an established programme. https://www.operaroyal-versailles.fr/genre-event/couperin/' },
+    { t: 60, kind: 'listen', title: 'The longer final excursion', text: 'In the extended last couplet, listen for the bass moving beneath a pattern that remains recognisable. The episode has more room to continue its sequences before the short refrain brings the piece back to its starting texture.', basis: 'score-proportion', precision: 'passage', evidence: 'The score’s third couplet is substantially longer than the earlier episodes. Its broad placement after about 0:52 fits the report’s 0:52–1:10 changes and the stronger level windows at 0:55, 1:05 and 1:10; individual sequences are not aligned.' },
+    { t: 75, kind: 'world', title: 'A piano, not a harpsichord', text: 'Marcelle Meyer is the pianist in this transfer, not a harpsichordist. The source identifies a Les Discophiles Français issue and a Salle Adyar session in late 1953 or January 1954; the 2023 date belongs to the upload.', basis: 'documented', precision: 'passage', evidence: 'Commons distinguishes its Author/session information from the 23 September 2023 upload. Classical Pianists independently lists the Couperin programme under 1953/1954 and DF 86. https://commons.wikimedia.org/wiki/File:François_Couperin_-_Les_barricades_mysterieuses_(Marcelle_Meyer,_1954).flac' },
+  ],
+  transitions: [
+    {
+      id: 'into-couplets', title: 'A new episode keeps the overlap',
+      from: 'Refrain', to: 'First two couplets', at: { t: 18 }, span: [10, 30],
+      how: '<p>The first couplet continues the refrain’s staggered attacks and low register. Changing bass notes and upper-voice details distinguish the episode without a new tempo or instrument. The later return restores the familiar refrain; the map groups the first two couplets with their intervening returns rather than inventing a boundary for every phrase.</p>',
+      devices: ['motivic link'], basis: 'score-proportion', precision: 'passage',
+      evidence: 'The written first couplet follows the repeated refrain. The 0:18 measured boundary supports the approximate passage division; no bar alignment has been made.',
+    },
+    {
+      id: 'into-third-couplet', title: 'The same mechanism lasts longer',
+      from: 'First two couplets', to: 'Extended third couplet', at: { t: 52 }, span: [43, 66],
+      how: '<p>After another refrain, the third couplet extends the chain of moving bass notes and overlapping upper parts. Sequential continuation carries the familiar rhythmic mechanism farther before the return. Its greater length, rather than a change of instrumental colour, makes this the principal excursion.</p>',
+      devices: ['sequence', 'motivic link'], basis: 'score-proportion', precision: 'passage',
+      evidence: 'The score marks a third, longer couplet. The 0:52 boundary and subsequent changes at 0:56, 1:06 and 1:10 support a broad final-episode span, not a timed chord analysis.',
+    },
+    {
+      id: 'into-final-refrain', title: 'The short refrain closes the circle',
+      from: 'Extended third couplet', to: 'Final refrain', at: { t: 76 }, span: [68, 90],
+      how: '<p>Couperin directs the player back to the rondeau instead of adding a separate closing tune. The familiar B♭-major texture is recovered and the final ending allows the voices to settle together. In this transfer, the returning passage withdraws after the preceding rise in level.</p>',
+      devices: ['motivic link', 'decrescendo'], basis: 'score-proportion', precision: 'passage',
+      evidence: 'The score’s final Rondeau direction supplies the return. Relative level drops from −3.2 dB at 1:10 to −11.6 dB at 1:15 and −23.9 dB at 1:25; the 1:16 map point is approximate, not the identified first note of the refrain.',
+    },
+  ],
 };

@@ -71,14 +71,17 @@
       ]
     },
     {
-      "id": "horns",
-      "name": "Horns",
-      "tracks": [
-        "P10:",
-        "P11:",
-        "P12:",
-        "P13:"
+      "id": "horns-c",
+      "name": "Horns I–II in C",
+      "tracks": ["P10:", "P11:"],
+      "transposeRanges": [
+        { "fromQ": 1489.5, "toQ": 1525.5, "semitones": 12, "basis": "Source P10/P11 old horn bass clef at XML497–508; International Horn Society historical convention, independently reviewed by VerS." }
       ]
+    },
+    {
+      "id": "horns-eflat",
+      "name": "Horns III–IV in E-flat",
+      "tracks": ["P12:", "P13:"]
     },
     {
       "id": "trumpets",
@@ -169,7 +172,7 @@
   },
   "provenance": [
     "Original CC0 orchestral MusicXML retained byte-for-byte; only separately licensed analytical lyric nodes are omitted before conversion.",
-    "Sounding-pitch changes declared by MusicXML are performed by LilyPond; no blanket woodwind, brass or double-bass octave correction is applied.",
+    "C-horn source parts P10/P11 use old bass-clef notation in XML measures497–508, canonical q1489.5–1525.5. That convention sounds one octave above the ordinary treble-clef transposition: apply+12 only to those spans, preserving engraving. E-flat horns are unchanged. Independent source review: International Horn Society, https://www.hornsociety.org/publications/horn-call/horn-call-archive/149-advice-for-amateurs . Other source transpositions remain active.",
     "Custom MIDI score bypasses musicxml2ly articulate playback so durations describe written notation."
   ]
 }

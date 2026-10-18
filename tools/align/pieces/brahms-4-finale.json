@@ -78,6 +78,9 @@
         "P11:",
         "P12:",
         "P13:"
+      ],
+      "transposeRanges": [
+        { "fromQ": 474, "toQ": 480, "semitones": 12, "basis": "Source P10–P13 old horn bass clef at XML128; International Horn Society historical convention, independently reviewed by VerS." }
       ]
     },
     {
@@ -205,7 +208,7 @@
   },
   "provenance": [
     "Original CC0 orchestral MusicXML retained byte-for-byte; only separately licensed analytical lyric nodes are omitted before conversion.",
-    "Sounding-pitch changes declared by MusicXML are performed by LilyPond; no blanket woodwind, brass or double-bass octave correction is applied.",
+    "All four horn source parts P10–P13 use old bass-clef notation in XML measure128, canonical q474–480. That convention sounds one octave above ordinary treble-clef transposition: apply+12 only in that span, preserving engraving, rather than publishing impossible C1/E1 horn pitches. Independent rule review: International Horn Society, https://www.hornsociety.org/publications/horn-call/horn-call-archive/149-advice-for-amateurs . Other source transpositions remain active.",
     "Custom MIDI score bypasses musicxml2ly articulate playback so durations describe written notation."
   ]
 }

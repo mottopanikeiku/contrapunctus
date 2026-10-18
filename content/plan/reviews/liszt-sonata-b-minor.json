@@ -1,20 +1,5 @@
 {
   "id": "liszt-sonata-b-minor",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[23].evidence; cues[27].evidence",
-      "severity": "major",
-      "problem": "The Alan Tang article cited here does not document publication in 1854, nor name Bülow and Berlin for the 1857 public première. These historical details need the sources that actually contain them.",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ gives 1853 composition and a public performance four years later but no publication year, Bülow or Berlin. The existing content/composers/liszt.mjs line 28 does support Bülow/Berlin/1857; https://www.liszt.org/p/chronology.html independently names Bülow’s first performance on 22 January 1857.",
-      "fix": "For the Bülow cue, cite the existing Liszt biography and the opened Liszt chronology instead of claiming Tang documents those details. For the 1854-publication cue, add an opened publisher/library/first-edition source establishing 1854 (or remove only that unsupported date while retaining the documented absence of an authorised programme)."
-    },
-    {
-      "where": "transitions[3].how; transitions[4].how",
-      "severity": "minor",
-      "problem": "Listener-facing keys are written F-sharp/B-flat instead of the required accidental symbols.",
-      "evidence": "VERIFY-BRIEF.md house style; listening file lines 518 and 540.",
-      "fix": "Use F♯ major and B♭ minor in these public paragraphs. Report quotations and evidence-source spellings need not change."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

@@ -3,6 +3,7 @@
   "id": "vivaldi-spring-largo",
   "source": {
     "mutopia": 301,
+    "legacyRelative": "verify-midi",
     "title": "La Primavera / Spring, RV 269 — II. Largo",
     "edition": "Performers’ Facsimiles",
     "encoder": "Anonymous (Mutopia maintainer)",
@@ -25,15 +26,9 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi",
-    "expectedTracks": [
-      "control track",
-      "solo",
-      "violinone",
-      "violintwo",
-      "viola",
-      "cello"
-    ],
+    "mode": "compiled-midi",
+    "comparePublished": {},
+    "music": "\\new StaffGroup << \\new Staff = \"solo\" \\with { instrumentName = \"Violin solo\" } { \\ViolinoPrincipaleSpringTwo } \\new Staff = \"violinone\" \\with { instrumentName = \"Violin I\" } { \\ViolinoPrimoSpringTwo } \\new Staff = \"violintwo\" \\with { instrumentName = \"Violin II\" } { \\ViolinoSecondoSpringTwo } \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } { \\AltoViolaSpringTwo } >>",
     "definitions": [
       {
         "file": "spring-lys/spring2.ly"

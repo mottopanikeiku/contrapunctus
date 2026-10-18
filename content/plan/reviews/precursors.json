@@ -1,13 +1,5 @@
 {
   "id": "precursors",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "origins-palestrina.portrait.file",
-      "severity": "major",
-      "problem": "EXT: The selected image has an institutional ‘No known copyright restrictions’ statement, not an explicit public-domain or CC BY/CC BY-SA tag required by AUTHORING.md. MEAS: validate.mjs emits a licence warning for this image. The other nine image references opened successfully; their captions and cached renditions agree with their Commons descriptions.",
-      "evidence": "https://commons.wikimedia.org/wiki/File:Giovanni_Pierluigi_da_Palestrina_portrait_(9566465365).jpg ; node tools/validate.mjs content/precursors.mjs: warn check licence No restrictions",
-      "fix": "Replace this portrait with File:Retrato de Palestrina.jpg, whose opened Commons page explicitly marks the sixteenth-century anonymous work public domain; use caption ‘Anonymous portrait identified as Palestrina, sixteenth century.’ Check/fetch the replacement and update its cached metadata. Alternatively supply an explicitly documented permitted licence for the current file without changing Commons metadata."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

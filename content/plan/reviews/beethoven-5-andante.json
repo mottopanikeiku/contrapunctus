@@ -1,0 +1,13 @@
+{
+  "id": "beethoven-5-andante",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "orchestra.timeline[1].playing; orchestra.timeline[5].playing; orchestra.timeline[15].playing",
+      "severity": "major",
+      "problem": "The A♭-major wind-reply passages at t=25 and t=145, and the Tempo I wind replies at t=532, mark horns as playing although the cited score gives the horn staff rests in these passages. The broad timing qualification does not justify highlighting an instrument absent from the described scoring.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/0/0c/IMSLP52624-PMLP01586-Beethoven_Werke_Breitkopf_Serie_1_No_5_Op_67.pdf — printed pp. 22–23, 25 and 35, horn staff. Independently rendered from the cited score. The targeted listen/dossier validator printed ok.",
+      "fix": "Remove horns from the playing arrays at t=25, t=145 and t=532. Retain the separately mapped horn participation in the written fanfares and other scored tutti passages. No timing change is required."
+    }
+  ]
+}

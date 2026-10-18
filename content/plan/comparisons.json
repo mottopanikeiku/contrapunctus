@@ -2112,36 +2112,11 @@
   },
   {
     "rank": 27,
-    "kind": "instrument transcription",
-    "work": "Nocturne in E♭ major, Op. 9 No. 2 (piano against Sarasate’s violin arrangement)",
+    "kind": "modern vs modern",
+    "work": "Nocturne in E♭ major, Op. 9 No. 2",
     "composer": "chopin",
-    "question": "Elman’s violin transcription (Victor, 1910) against two pianists: how a nocturne changes when the vocal line is played on a violin.",
+    "question": "Lévy and Prati play the same nocturne: how do their tempo, rubato and ornamentation of the repeated melody differ?",
     "recordings": [
-      {
-        "id": "elman-1910",
-        "source": {
-          "file": "File:Mischa Elman - Nocturne in E flat major, Op 9 No 2.mp3"
-        },
-        "performers": "Mischa Elman, violin; Percy B. Kahn, piano (arr. Sarasate)",
-        "recorded": "9 April 1910, New York (take 2, Victor C-8813)",
-        "rights": {
-          "basis": "commons-licence",
-          "published": 1912,
-          "licence": "Public domain",
-          "commonsTemplates": [
-            "Not-PD-US-record-expired-min-year",
-            "PD-US-record-expired"
-          ],
-          "evidence": [
-            "https://adp.library.ucsb.edu/index.php/matrix/refer/200008912",
-            "https://commons.wikimedia.org/wiki/File:Mischa_Elman_-_Nocturne_in_E_flat_major,_Op_9_No_2.mp3"
-          ],
-          "ruleLabel": "US public domain: first published in or before 1925 (Commons US-record tag)"
-        },
-        "duration": 260,
-        "notes": "MEAS: DAHR C-8813 take 2 (9 April 1910, Kahn) issued as Victor 74052; a remake take 6 (30 December 1915, Walter Golde) is on the same catalogue number with a “questionable” issue note, so the take on this file should be checked. Commons tag PD-US-record-expired. Acoustic.",
-        "rule": 2
-      },
       {
         "id": "levy-op9-2",
         "source": {
@@ -2192,7 +2167,14 @@
         "rule": 1
       }
     ],
-    "existingListenId": null
+    "existingListenId": null,
+    "excluded": [
+      {
+        "id": "elman-1910",
+        "file": "File:Mischa Elman - Nocturne in E flat major, Op 9 No 2.mp3",
+        "reason": "Main excluded the transfer: the i78s.org source restricts collection use to scholarship and research, despite the Commons PD-US-record-expired tag."
+      }
+    ]
   },
   {
     "rank": 28,

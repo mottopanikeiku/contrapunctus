@@ -76,14 +76,15 @@
       ]
     },
     {
-      "id": "horns",
-      "name": "Horns",
-      "tracks": [
-        "P10:",
-        "P11:",
-        "P12:",
-        "P13:"
-      ]
+      "id": "horns-c",
+      "name": "Horns I–II in C",
+      "tracks": ["P10:", "P11:"],
+      "transpose": -12
+    },
+    {
+      "id": "horns-e",
+      "name": "Horns III–IV in E",
+      "tracks": ["P12:", "P13:"]
     },
     {
       "id": "trumpets",
@@ -179,7 +180,7 @@
   },
   "provenance": [
     "Original CC0 orchestral MusicXML retained byte-for-byte; only separately licensed analytical lyric nodes are omitted before conversion.",
-    "Sounding-pitch changes declared by MusicXML are performed by LilyPond; no blanket woodwind, brass or double-bass octave correction is applied.",
+    "Source C horns P10/P11 omit the C-basso octave transposition, unlike the E horns P12/P13. Keep these source groups distinct and lower only P10/P11 by12 semitones. All other source-declared MusicXML transpositions remain active; double bass is not lowered twice. This is a notation-based correction, not an aural claim.",
     "Custom MIDI score bypasses musicxml2ly articulate playback so durations describe written notation."
   ]
 }

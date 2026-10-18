@@ -199,7 +199,7 @@ export default {
       "t": 646,
       "kind": "form",
       "title": "Room for a cadenza",
-      "text": "Liszt permits a cadenza before the final Prestissimo. This performance’s late free passage should not be assigned to a particular cadenza composer without evidence; listen instead to its contrast with the preceding regular dance.",
+      "text": "Liszt permits a cadenza before the final Prestissimo. Listen for the contrast between this freer late passage and the preceding regular dance.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "https://en.wikipedia.org/wiki/Hungarian_Rhapsody_No._2 documents the cadenza ad libitum. Analysis boundaries 10:26–11:04 and reduced levels support a contrasting late span; its edition and authorship are unestablished."
@@ -289,7 +289,7 @@ export default {
         616,
         638
       ],
-      "how": "<p>After the sustained dance, the texture becomes less continuous and the dynamic scale contracts. The score allows a cadenza before the final Prestissimo; this recording’s late free passage is identified by that broad role, without assigning an unsupported cadenza author or exact written boundaries.</p>",
+      "how": "<p>After the sustained dance, the texture becomes less continuous and the dynamic scale contracts. The score allows a cadenza before the final Prestissimo, setting freer gestures against the preceding regular dance.</p>",
       "devices": [
         "decrescendo",
         "texture change",
@@ -311,7 +311,7 @@ export default {
         724,
         746
       ],
-      "how": "<p>The freer late passage yields to renewed regular motion and increasing force. The final dance directs the rhapsody towards its F-sharp-major close; the renewed energy functions as a conclusion rather than another full cycle of slow and fast sections.</p>",
+      "how": "<p>The freer late passage yields to renewed regular motion and increasing force. The final dance directs the rhapsody towards its F♯-major close; the renewed energy functions as a conclusion rather than another full cycle of slow and fast sections.</p>",
       "devices": [
         "tempo change",
         "crescendo build",

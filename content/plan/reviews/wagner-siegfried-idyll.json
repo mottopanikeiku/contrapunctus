@@ -1,0 +1,20 @@
+{
+  "id": "wagner-siegfried-idyll",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "orchestra.timeline[0..1]",
+      "severity": "major",
+      "problem": "The stage remains strings-only from 0:00 until 4:00. The published score has substantial wind and bass participation well before the lullaby: printed pp. 4 and 8 show flute, oboe, clarinets, horns, bassoon and double bass in the opening expansion. The strings-only opening state therefore persists across an entire orchestral passage.",
+      "evidence": "https://hdl.handle.net/1802/20380, printed pp. 4 and 8 (PDF pp. 6 and 10), visually inspected. cache/analysis/wagner-siegfried-idyll.txt has a strong early boundary at 1:06 and increased attack activity around 1:00–1:15.",
+      "fix": "Insert an approximate opening-expansion stage landmark before the 4:00 lullaby (the 1:06 report boundary is a possible broad anchor after score-proportion checking). Include the wind/bass families shown across that score region, and explicitly say they enter progressively, not all together at an aligned second. Do not leave the whole opening expansion painted as strings alone."
+    },
+    {
+      "where": "orchestra.timeline[last].playing",
+      "severity": "major",
+      "problem": "The note correctly says other winds join the final chord, but the final playing state never includes flute, oboe or clarinets, so that participation cannot appear on the stage.",
+      "evidence": "https://hdl.handle.net/1802/20380, printed p. 46 (PDF p. 48): flute, oboe and both clarinets join the final E-major chord; trumpet remains silent.",
+      "fix": "Represent those three wind families in the final broad-region playing list (or add a separately qualified approximate final-cadence region). Preserve the explicit limitation that they join only the final chord and are not active throughout the sustained-string conclusion. Do not add trumpet."
+    }
+  ]
+}

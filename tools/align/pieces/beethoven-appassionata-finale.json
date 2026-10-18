@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "id": "beethoven-appassionata-finale",
+  "source": {
+    "mutopia": 937,
+    "title": "Appassionata, Op.57 — Allegro ma non troppo — Presto",
+    "edition": "Breitkopf & Hartel (1862-1865)",
+    "encoder": "Stelios Samelis",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=937",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "LVB_Sonate_57_3.ly",
+    "midi": "LVB_Sonate_57_3.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_3/LVB_Sonate_57_3-lys.zip",
+        "file": "LVB_Sonate_57_3-lys.zip",
+        "sha256": "66836e2e1cbf8209ed6589494ae9fa856604462fc8c87e35966b9799a09787d5"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_3/LVB_Sonate_57_3.mid",
+        "file": "LVB_Sonate_57_3.mid",
+        "sha256": "cba2978986da83870f6d4a84406a9ed923adebf865f19931d629fde204c388d8"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "timeline": "performed"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 371,
+    "quarters": 2,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        307
+      ],
+      [
+        118,
+        299
+      ],
+      [
+        308,
+        323
+      ],
+      [
+        316,
+        322
+      ],
+      [
+        324,
+        334
+      ],
+      [
+        325,
+        333
+      ],
+      [
+        335,
+        371
+      ]
+    ],
+    "description": "Development/recapitulation repeat: body118–299, first ending300–307, second308–309. Presto printed316; its two repeated bodies316–322 and325–333 have separate first/second endings. Canonical371bars become569performed bars; published MIDI already unfolds this order. Printed-source numbering counts alternative endings, unlike some standard bar-number conventions."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      416,
+      422
+    ],
+    "basis": "Final score-attack search windows from cache/analysis report, excluding trailing transfer noise or silence; inspect exact pitch/attack overlays before publication."
+  },
+  "boundaries": [
+    [
+      "118",
+      1,
+      84
+    ],
+    [
+      "212",
+      1,
+      166
+    ],
+    [
+      "118",
+      2,
+      232
+    ],
+    [
+      "212",
+      2,
+      312
+    ],
+    [
+      "316",
+      1,
+      384
+    ]
+  ],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Read content/listen/beethoven-appassionata-finale.mjs and cache/analysis/beethoven-appassionata-finale.txt. Author independently supplied broad formal-section estimates from harmonic trajectories and note-density changes; these are coarse diagnostic locators, not hand-marked individual attacks.",
+    "Published MIDI tracks were inspected against the original piano staves and not separated by register. Cross-staff entries remain source staff allocations, not fictitious independent voices.",
+    "Development/recapitulation repeat: body118–299, first ending300–307, second308–309. Presto printed316; its two repeated bodies316–322 and325–333 have separate first/second endings. Canonical371bars become569performed bars; published MIDI already unfolds this order. Printed-source numbering counts alternative endings, unlike some standard bar-number conventions."
+  ],
+  "diagnostics": {
+    "recurrences": [
+      {
+        "startQ": 234,
+        "startOffset": 2,
+        "secondQ": 614,
+        "secondOffset": 2,
+        "length": 35,
+        "search": 12
+      }
+    ],
+    "overlays": [
+      [
+        78,
+        92
+      ],
+      [
+        226,
+        240
+      ],
+      [
+        376,
+        392
+      ]
+    ]
+  }
+}

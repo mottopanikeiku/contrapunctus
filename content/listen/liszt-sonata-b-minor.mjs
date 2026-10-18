@@ -271,7 +271,7 @@ export default {
       "text": "The Sonata appears in print in 1854. Later writers propose Faustian and other programmes, but Liszt supplies no authoritative narrative key for this score; its musical relationships remain the secure starting point.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ distinguishes publication and later programmatic interpretations."
+      "evidence": "Yale University Library’s first-edition exhibit explicitly dates publication to 1854 and distinguishes later Faust readings from Liszt’s lack of a written programme: https://musiclib-exhibits.library.yale.edu/exhibits/liszt/bminor_sonata.html"
     },
     {
       "t": 960,
@@ -307,7 +307,7 @@ export default {
       "text": "Hans von Bülow gives the Sonata’s public première in Berlin in 1857. The work’s single-span design reaches listeners as a performed argument, not simply a catalogue of Liszt’s keyboard effects.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ documents the 1857 Berlin première."
+      "evidence": "The site’s Liszt biography, Weimar section, documents Bülow’s Berlin public première in 1857. https://www.liszt.org/p/chronology.html independently names Bülow’s first performance on 22 January 1857."
     },
     {
       "t": 1120,
@@ -515,7 +515,7 @@ export default {
         650,
         672
       ],
-      "how": "<p>After strongly contrasted developmental writing, the tempo relaxes into the Andante sostenuto and its F-sharp-major region. The sustained line changes the scale of the argument without breaking the work into separate movements; familiar lyrical character survives inside the new harmonic setting.</p>",
+      "how": "<p>After strongly contrasted developmental writing, the tempo relaxes into the Andante sostenuto and its F♯-major region. The sustained line changes the scale of the argument without breaking the work into separate movements; familiar lyrical character survives inside the new harmonic setting.</p>",
       "devices": [
         "tempo change",
         "decrescendo",
@@ -537,7 +537,7 @@ export default {
         1035,
         1057
       ],
-      "how": "<p>The slow region’s aftermath gives way to a fugato, initially in B-flat minor. Earlier leaping and repeated-note ideas enter a contrapuntal texture: imitation turns their contrasting identities into simultaneous activity and supplies the impetus towards the return.</p>",
+      "how": "<p>The slow region’s aftermath gives way to a fugato, initially in B♭ minor. Earlier leaping and repeated-note ideas enter a contrapuntal texture: imitation turns their contrasting identities into simultaneous activity and supplies the impetus towards the return.</p>",
       "devices": [
         "motivic link",
         "tempo change",

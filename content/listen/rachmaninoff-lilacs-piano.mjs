@@ -60,7 +60,7 @@ export default {
       devices: ['metre change', 'texture change'],
       basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'The score shows a double bar at the end of page 3 and, on page 4, common time followed by 3/4 and mf. The analysis shows a boundary at 1:46 (strength 0.48), attack density rising to 6.4 per second at 1:45, and the loudest window of the file at 1:50. The timing is approximate.',
+      evidence: 'The score shows a double bar at the end of page 3 and, on page 4, common time followed by 3/4 and mf. The analysis shows a boundary at 1:46 (strength 0.48), attack density rising to 6.4 per second at 1:45, and the second-loudest window of the file at 1:50 (−11.8 dB, after 1:10 at −11.0 dB). The timing is approximate.',
     },
   ],
 };

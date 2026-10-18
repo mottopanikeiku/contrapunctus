@@ -1,0 +1,182 @@
+{
+  "id": "bach-brandenburg-5-finale",
+  "work": {
+    "title": "Brandenburg Concerto No. 5 in D major",
+    "catalogue": "BWV 1050",
+    "movement": "III. Allegro",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "programme"
+      ],
+      "note": "The performing edition and continuo realisation are not identified. The 1871 Bach-Gesellschaft score is used for commentary, not attributed to the performers."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Advent Chamber Orchestra",
+        "role": "ensemble"
+      },
+      {
+        "name": "Roxana Pavel Goldstein",
+        "role": "violin"
+      },
+      {
+        "name": "Constance Schoepflin",
+        "role": "flute"
+      },
+      {
+        "name": "Matthew Ganong",
+        "role": "harpsichord"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "programme"
+    ],
+    "note": "The Commons Description and upstream programme agree on the ensemble and all three soloists. No conductor is credited."
+  },
+  "session": {
+    "date": {
+      "value": "February 2008",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "programme"
+      ],
+      "note": "The upstream programme lists 10 and 17 February 2008. Neither source assigns this track to one concert day; the month is retained rather than guessing a day.",
+      "precision": "month"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "programme"
+      ],
+      "note": "The consulted file page and programme do not identify a recording venue; the ensemble’s home location is not a session location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "programme"
+      ],
+      "note": "Pandora/ibiblio and the Al Goldstein collection are the digital repository and collection, not an established original record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "programme"
+      ],
+      "note": "No original carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "programme"
+      ],
+      "note": "No matrix, take, side or original session-medium identification is supplied; the digital file alone does not establish that such identifiers are inapplicable."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Al Goldstein is credited as collection source, not explicitly as recording or mastering engineer. The Commons uploader is not treated as transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The November 2008 Commons upload date is not a transfer or session date."
+    },
+    "processing": {
+      "value": "Ogg Vorbis source; MP3 access derivative supplied by Wikimedia Commons.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Embedded metadata names Xiph.Org libVorbis I 20020717. Original capture medium, editing and mastering are not documented; no no-edit claim is made."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Bach_-_Brandenburg_Concerto_5_-_3._Allegro.ogg/Bach_-_Brandenburg_Concerto_5_-_3._Allegro.ogg.mp3",
+    "sourceChain": [
+      "programme",
+      "commons"
+    ],
+    "format": "MP3 access derivative; uploaded source Ogg Vorbis",
+    "durationSeconds": 296.9953514739229
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is public domain under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer"
+      ],
+      "note": "Bach died in 1750; this does not clear an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Rule 1 — sound-recording licence: Creative Commons Attribution-ShareAlike 2.0 Generic.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file’s Permission and Licensing sections explicitly cover this performance, tracing it to Pandora’s Open Audio License. This is not a composition-only copyright tag."
+    },
+    "creditLine": "Johann Sebastian Bach, Brandenburg Concerto No. 5, III. Allegro; Advent Chamber Orchestra, Roxana Pavel Goldstein, Constance Schoepflin and Matthew Ganong, February 2008. Al Goldstein collection / Pandora Music, ibiblio; Wikimedia Commons. CC BY-SA 2.0. Streamed without editorial audio edits.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Brandenburg Concerto No. 5, III. Allegro",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_5_-_3._Allegro.ogg",
+      "locator": "Summary, Description/Author discrepancy where applicable, Date, Permission, Licensing, file history, embedded metadata and transcode table.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "programme",
+      "title": "Advent Chamber Orchestra — Music of the Bach Family programme",
+      "url": "https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/MAR-08/readme.html",
+      "locator": "Programme heading dates 10 and 17 February 2008; BWV 1050 movement order and named soloists.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Bach-Gesellschaft, volume XIX (1871) — Brandenburg Concerto No. 5",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/e/ed/IMSLP02043-BWV1050.pdf",
+      "locator": "Printed pp. 152–164; independently viewed score supplies instrumentation and formal commentary, not the recording’s performing edition.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Bach-Archiv Leipzig — Johann Sebastian Bach: a chronology",
+      "url": "https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology",
+      "locator": "Entries 1703, 1717, 1723 and 1750.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

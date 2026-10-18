@@ -1,0 +1,250 @@
+{
+  "id": "rachmaninoff-lilacs-piano",
+  "work": {
+    "title": "Lilacs (composer’s piano transcription)",
+    "catalogue": "Op. 21 No. 5",
+    "movement": "",
+    "version": {
+      "value": "Solo-piano transcription of the song Lilacs (1902), made by the composer in 1913",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "sudbin",
+        "dahr-lil"
+      ],
+      "note": "The RCA register labels the track “Transcription: Rachmaninoff”, DAHR catalogues it as piano solo and Sudbin dates the transcription to summer 1913. The performing edition, and whether the composer varied the printed text, are not identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "booklet",
+      "dahr-lil"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1923-12-27",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-lil",
+        "booklet",
+        "archive"
+      ],
+      "note": "DAHR’s approved take 9 is dated 27 December 1923; the Archive filename and the RCA register give the same date. Earlier takes from 1920, 1922 and October 1923 were not issued.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-lil"
+      ],
+      "note": "DAHR gives Camden, New Jersey for takes 8–9; the Church Building laboratory is named only for the first take of 1920."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor (Red Seal); RCA/BMG reissue",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-lil",
+        "dahr-1051",
+        "archive",
+        "booklet"
+      ],
+      "note": "Victor is the original label; the uploader identifies the 1992 RCA/BMG set as the immediate source of the file."
+    },
+    "catalogue": {
+      "value": "Victor 1051 (10-inch double-faced, coupled with Tchaikovsky’s Humoresque); RCA-BMG 09026 61265 2, CD 10 (1992)",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-lil",
+        "dahr-1051",
+        "archive",
+        "booklet"
+      ],
+      "note": "Victor 64906 was an earlier single-faced number marked not issued. The disc used for the 1992 transfer is not identified."
+    },
+    "matrixTakeSides": {
+      "value": "B-24123, take 9",
+      "status": "inferred",
+      "sourceIds": [
+        "booklet",
+        "dahr-lil",
+        "archive"
+      ],
+      "note": "DAHR names the matrix, takes and issues. The link between that take and this digital file rests on the RCA register (which names the matrix and take for the CD track) and the uploader’s CD identification; no waveform or run-out comparison with the disc was made."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "John Pfeiffer, reissue producer; Ward Marston, disc-to-DAT transfer; André Gauthier, remastering supervisor; Anthony Salvatore, remastering engineer",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "These are the credits printed for the 1992 RCA/BMG set. Their connection to this access file rests on the uploader’s identification of the item as CD 10 of that set. The later ripper and uploader are not named as engineers."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "The set was issued in 1992, but the dates of the disc-to-DAT transfer, the remastering and the later CD extraction are not stated. The Internet Archive upload of 11 October 2025 is not a transfer date."
+    },
+    "processing": {
+      "value": "Disc-to-DAT transfer, then digital remastering at BMG/RCA Studios, New York City; the Internet Archive derives its VBR MP3 from an uploaded WAV.",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive-data"
+      ],
+      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/195-complete-rachmaninoff-cd-10/191%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-%20Rachmaninov%20-%20Lilacs%2C%20Op.%2021%2C%20No.%205%20(rec.%2027.XII.1923).mp3",
+    "sourceChain": [
+      "archive",
+      "archive-data",
+      "booklet",
+      "dahr-lil"
+    ],
+    "format": "VBR MP3 access derivative; the uploaded source is a WAV taken from a 1992 CD reissue of an acoustic disc",
+    "durationSeconds": 153.4
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about any modern edition. The song text is Ekaterina Beketova’s; the song was published in 1903 and the transcription is the composer’s own."
+    },
+    "recording": {
+      "value": "US public domain: the issued sound recording was published by 1925 (Victor 1051, recorded 1923).",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-1051",
+        "ia78-lil",
+        "victor-1925",
+        "archive",
+        "us-term"
+      ],
+      "note": "DAHR’s catalogue record for Victor 1051 gives a publication date of [1923], and an Internet Archive digitisation of Victrola 1051-A gives 1923; both are catalogue-derived years, not release days. The 1925 Victor catalogue lists “Lilacs (Rachmaninoff, Op. 21, No. 5)” on 1051, which establishes publication no later than 1925 independently of the session date. The Archive item’s Public Domain Mark is noted but not relied on. The 1992 booklet carries an all-rights-reserved reissue notice: no claim is made that its text, artwork or compilation is public domain, or that any new creative contribution to the mastering is cleared worldwide."
+    },
+    "creditLine": "Sergei Rachmaninoff, piano — Lilacs, Op. 21 No. 5 (his piano transcription). Victor 1051, matrix B-24123 take 9 (Camden, New Jersey, 27 December 1923). Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s licence statement.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Complete Rachmaninoff, CD 10",
+      "url": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+      "locator": "Uploader identifies RCA-BMG 09026 61265 2 (1992), CD 10, with track filenames carrying recording dates; the item description says tracks 195–202 were made in April 1919 for Edison and all others by Victor; the item links the original booklet and carries Public Domain Mark 1.0.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-data",
+      "title": "Internet Archive item metadata and file manifest",
+      "url": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+      "locator": "Track-specific WAV originals, FLAC and generated VBR MP3 access files, durations and the licence URL (https://creativecommons.org/publicdomain/mark/1.0/). The item’s 2025 public date is an upload date, not a session or transfer date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "booklet",
+      "title": "RCA: Sergei Rachmaninoff, The Complete Recordings, 10-CD booklet (1992)",
+      "url": "https://archive.org/download/9-0023-sergei-rachmaninoff-complete-recordings-booklet-to-10-cd-set-rca-bmg-09026-61265-2-1992/9-0023%20Sergei%20RACHMANINOFF%20-%20Complete%20Recordings%20-%20Booklet%20to%2010%20CD%20Set%20RCA-BMG%2009026%2061265%202%20(1992)_djvu.txt",
+      "locator": "Printed p. 20: reissue and transfer credits; essays “The Composer” and “The Recordings” (Edison sessions, Victor contract, microphone-less horn recording); “The Performances of Rachmaninoff”: register of dates, matrices and CD/track numbers; closing remastering notice. OCR text consulted against the track listing.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-lil",
+      "title": "DAHR: Victor matrix B-24123, Lilacs, op. 21 no. 5",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700009327",
+      "locator": "Take table: take 1 (17 May 1920, Camden), takes 2–3 (24 February 1922), takes 4–7 (24–25 October 1923), takes 8–9 (27 December 1923, Camden), takes 10–12 (28 December 1923); take 9 master, issued Victor 1051, Gramophone 5761 and DA-666; Victor 64906 marked not issued.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-1051",
+      "title": "DAHR: Victor 1051 (10-in. double-faced Red Seal)",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/1572",
+      "locator": "Coupling of Lilacs (B-24123) with Tchaikovsky’s Humoresque, Op. 10 No. 2 (B-28690); MARC publication date [1923].",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "ia78-lil",
+      "title": "Internet Archive 78rpm item: Lilacs (Victrola 1051-A)",
+      "url": "https://archive.org/details/78_lilacs_sergei-rachmaninoff-rachmaninoff_gbia0567843a",
+      "locator": "Item metadata: Victrola 1051-A, publication date 1923, acoustic, piano solo (Op. 21, No. 5); a separate digitisation of the disc, not the source of the file used here.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "victor-1925",
+      "title": "1925 Catalog of Victor Records, Victor Talking Machine Company",
+      "url": "https://archive.org/download/catalogueofvicto00vict_0/catalogueofvicto00vict_0_djvu.txt",
+      "locator": "Title page: copyright 1925. OCR text of the Red Seal listings; the entries relevant here are named in the recording fields. Contemporary evidence that the record was on sale by 1925, independent of the session date. Entry relevant here: “Lilacs (Rachmaninoff, Op. 21, No. 5) Piano Rachmaninoff 1051”.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score-lil",
+      "title": "Piano Street: Lilacs, Op. 21 No. 5 (score scan)",
+      "url": "https://www.pianostreet.com/rachmaninoff-sheet-music/transcriptions/lilacs.htm",
+      "locator": "Four pages of the piano transcription in A♭ major: Non allegro, accel. and fermata over a trill, più mosso, a tempo, the closing run. Used for form and markings only; the performing edition is not identified.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sudbin",
+      "title": "Yevgeny Sudbin: Rachmaninov Liner Notes (2005)",
+      "url": "https://www.yevgenysudbin.com/artist.php?view=prog&rid=458",
+      "locator": "Section “Song Transcriptions”: Lilacs composed summer 1902, transcribed summer 1913, with cadenzas and a coda.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp-op21",
+      "title": "IMSLP: 12 Romances, Op.21 (Rachmaninoff, Sergei)",
+      "url": "https://imslp.org/wiki/12_Romances,_Op.21_(Rachmaninoff,_Sergei)",
+      "locator": "Work info: No. 5 Lilacs, text by Ekaterina Beketova, dedication A. N. Strekalova.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: pre-1972 sound recordings first published before 1923 had already lost remedies on 31 December 2021; recordings published 1923–1946 receive 100 years from publication, so those published in or before 1925 are in the public domain from 1 January 2026.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

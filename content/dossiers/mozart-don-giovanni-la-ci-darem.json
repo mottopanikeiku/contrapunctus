@@ -1,0 +1,210 @@
+{
+  "id": "mozart-don-giovanni-la-ci-darem",
+  "work": {
+    "title": "Don Giovanni",
+    "catalogue": "K. 527",
+    "movement": "Act I, No. 7, Là ci darem la mano",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "loc",
+        "dahr-matrix"
+      ],
+      "note": "An isolated duet on an acoustic disc, not a complete opera performance. The sources do not identify the performing edition or an acoustic orchestral arrangement; cut status is not inferred from duration alone."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Mabel Garrison",
+        "role": "soprano, Zerlina"
+      },
+      {
+        "name": "Reinald Werrenrath",
+        "role": "baritone, Don Giovanni"
+      },
+      {
+        "name": "Josef Pasternack",
+        "role": "conductor"
+      },
+      {
+        "name": "Unidentified orchestra",
+        "role": "orchestral accompaniment"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "loc",
+      "dahr-matrix"
+    ],
+    "note": "The institutional ensemble name is not supplied; “Victor Orchestra” is not silently inferred from the label."
+  },
+  "session": {
+    "date": {
+      "value": "18 February 1920",
+      "status": "documented",
+      "sourceIds": [
+        "loc",
+        "dahr-matrix"
+      ],
+      "note": "Both primary catalogue records identify the recording date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey",
+      "status": "documented",
+      "sourceIds": [
+        "loc",
+        "dahr-matrix"
+      ],
+      "note": "City only; no studio address is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "loc",
+        "dahr-disc"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "87569",
+      "status": "documented",
+      "sourceIds": [
+        "loc",
+        "dahr-disc"
+      ],
+      "note": "10-inch, single-faced shellac disc, nominally 78 rpm; DAHR object catalogue dates the issue [1920]."
+    },
+    "matrixTakeSides": {
+      "value": "B-23741, take 2; single-faced Victor 87569",
+      "status": "documented",
+      "sourceIds": [
+        "loc",
+        "dahr-matrix"
+      ],
+      "note": "DAHR identifies take 2 as the master; takes 1 and 3 are listed as destroyed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Library of Congress Packard Campus, National Jukebox; source disc from UCSB Davidson Library",
+      "status": "documented",
+      "sourceIds": [
+        "loc",
+        "archive"
+      ],
+      "note": "IA presents an access mirror of the National Jukebox file; its claim of no added processing is an uploader statement, not a separate audio comparison."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "loc",
+        "archive"
+      ],
+      "note": "The 2026 Internet Archive upload is not treated as the date of the Library of Congress transfer."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "loc",
+        "archive"
+      ],
+      "note": "The selected MP3 is described as a mirror of the National Jukebox access file. Transfer stylus, equalisation and restoration parameters are not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/loc-jukebox-35668-l-ci-darem-la-mano/jukebox-35668_l-ci-darem-la-mano.mp3",
+    "sourceChain": [
+      "dahr-disc",
+      "loc",
+      "archive"
+    ],
+    "format": "Internet Archive MP3 mirror of a Library of Congress National Jukebox acoustic-disc transfer",
+    "durationSeconds": 191.97
+  },
+  "rights": {
+    "composition": {
+      "value": "Original Mozart music and Da Ponte libretto are out of copyright under the ordinary life-plus-70 rule",
+      "status": "inferred",
+      "sourceIds": [
+        "score",
+        "eu-term"
+      ],
+      "note": "The historical score and text are distinguished from the recording and from any later translation."
+    },
+    "recording": {
+      "value": "Rule 2 — United States recording published in 1920, before the programme cutoff",
+      "status": "inferred",
+      "sourceIds": [
+        "dahr-disc",
+        "loc",
+        "us-law"
+      ],
+      "note": "DAHR’s disc record supplies Victor [1920], separately from the 18 February recording date. Under 17 USC 1401, pre-1923 sound recordings entered the US public domain in 2022. The Archive Public Domain Mark is not itself treated as a licence."
+    },
+    "creditLine": "Mabel Garrison and Reinald Werrenrath, orchestra conducted by Josef Pasternack. Victor 87569, matrix B-23741 take 2; Camden, 18 February 1920; issue [1920]. Source disc: UCSB Davidson Library. National Jukebox transfer, Library of Congress, mirrored by Internet Archive. US pre-1923 publication basis.",
+    "licenseUrl": "https://www.copyright.gov/title17/92chap14.html"
+  },
+  "sources": [
+    {
+      "id": "loc",
+      "title": "Library of Congress National Jukebox: Là ci darem la mano",
+      "url": "https://www.loc.gov/item/jukebox-35668/?fo=json",
+      "locator": "Recording date and location, performers, conductor, Victor 87569, matrix B-23741 take 2, source collection and digitisation credit.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-matrix",
+      "title": "Discography of American Historical Recordings: Victor matrix B-23741",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700008923/B-23741-L_ci_darem_la_mano",
+      "locator": "Session 18 February 1920, Camden; Garrison, Werrenrath and Pasternack; take 2 master and issued discs.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-disc",
+      "title": "Discography of American Historical Recordings: Victor 87569",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/55816",
+      "locator": "MARC carrier record: Victor [1920], 10-inch single-faced shellac disc. Previously opened successfully; a later retrieval returned a temporary database-connection error.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive: National Jukebox mirror",
+      "url": "https://archive.org/metadata/loc-jukebox-35668-l-ci-darem-la-mano",
+      "locator": "File jukebox-35668_l-ci-darem-la-mano.mp3, length and description of LOC source chain.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Mozart, Don Giovanni — historical vocal score",
+      "url": "https://imslp.org/wiki/Don_Giovanni,_K.527_(Mozart,_Wolfgang_Amadeus)",
+      "locator": "No. 7, Là ci darem la mano; Italian text, Andante 2/4 and Allegro 6/8. The arrangement heard on the acoustic disc is not identified.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Article 1, ordinary term for original music and text.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-law",
+      "title": "United States Copyright Act, chapter 14",
+      "url": "https://www.copyright.gov/title17/92chap14.html",
+      "locator": "17 USC 1401(a)(2)(B)(i): recordings first published before 1923.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -1,0 +1,20 @@
+export default {
+  id: 'bach-st-matthew-opening',
+  composer: 'bach',
+  order: 8,
+  set: { id: 'bach-st-matthew-highlights', title: 'St Matthew Passion · highlights', part: 1, of: 2 },
+  work: 'St Matthew Passion, BWV 244',
+  movement: 'No. 1. Kommt, ihr Töchter, helft mir klagen',
+  year: '1727; revised 1736',
+  key: 'E minor',
+  forces: 'Two choirs, boys’ choir and two orchestras',
+  performers: 'skeleton',
+  recorded: '1958',
+  source: {
+    archive: { item: 'munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b', file: '01. Matthäus-Passion, BWV 244, Pt. 1 - No. 1, Chorus. Kommt, ihr Töchter, helft mir klagen (Chorus III).mp3' },
+    rights: { basis: 'eu-published-before-1963', published: 1959, evidence: 'skeleton' },
+  },
+  intro: 'skeleton',
+  sections: [{ t: 0, label: 'All', m: 'A' }],
+  cues: [{ t: 0, kind: 'life', title: 'Skeleton', text: 'Skeleton.', basis: 'documented', precision: 'passage', evidence: 'skeleton' }],
+};

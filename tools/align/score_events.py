@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Extract source-defined voices and explicitly ordered performed score events."""
 import argparse
-from collections import defaultdict, deque
+from collections import Counter, defaultdict, deque
 import json
 import subprocess
 
@@ -36,15 +36,19 @@ def midi_events(path):
     return np.array(sorted(events), dtype=float), tracks
 
 
-def attack_inventory(path, offset=0):
+def attack_inventory(path, offset=0, multiset=False):
     midi = mido.MidiFile(path)
-    attacks = set()
+    attacks = Counter() if multiset else set()
     for track in midi.tracks:
         tick = 0
         for msg in track:
             tick += msg.time
             if msg.type == 'note_on' and msg.velocity:
-                attacks.add((round(tick / midi.ticks_per_beat - offset, 7), msg.note))
+                pair = (round(tick / midi.ticks_per_beat - offset, 7), msg.note)
+                if multiset:
+                    attacks[pair] += 1
+                else:
+                    attacks.add(pair)
     return attacks
 
 
@@ -63,6 +67,7 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     extraction = cfg['extraction']
     voices = cfg['voices']
     mode = extraction['mode']
+    source_checks = {}
     if mode == 'isolated-voices':
         result, tracks = [], []
         for vi, voice in enumerate(voices):
@@ -127,13 +132,25 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         notes = notes[~masks[1]]
     if extraction.get('comparePublished') is not None:
         compare = extraction['comparePublished']
-        original = attack_inventory(inside(directory, cfg['source']['midi']), compare.get('offsetQ', 0))
-        separated = {(round(n[0], 7), int(n[2])) for n in notes}
+        multiset = cfg['source'].get('legacyRelative') == 'verify-midi'
+        original = attack_inventory(inside(directory, cfg['source']['midi']), compare.get('offsetQ', 0), multiset)
+        pairs = [(round(n[0], 7), int(n[2])) for n in notes]
+        separated = Counter(pairs) if multiset else set(pairs)
         if original != separated:
             raise ValueError(f'{ident}: source pitch/onset inventory differs: missing {len(original - separated)}, extra {len(separated - original)}')
-        print('INVENTORY', ident, len(original), 'source pitch/onset pairs equal', flush=True)
+        print('INVENTORY', ident, sum(original.values()) if multiset else len(original),
+              'source pitch/onset ' + ('multiset' if multiset else 'pairs') + ' equal', flush=True)
+        source_checks['pitchOnsetInventory'] = {
+            'kind': 'multiset' if multiset else 'set', 'matched': True,
+            'count': sum(original.values()) if multiset else len(original)}
     for vi, voice in enumerate(voices):
         notes[notes[:, 3] == vi, 2] += voice.get('transpose', 0) + extraction.get('transpose', 0)
+        for correction in voice.get('transposeRanges', []):
+            start, end = correction['fromQ'], correction['toQ']
+            if not 0 <= start < end or not correction.get('basis'):
+                raise ValueError('A regional transposition needs an ordered quarter interval and source basis')
+            selected = (notes[:, 3] == vi) & (notes[:, 0] >= start) & (notes[:, 0] < end)
+            notes[selected, 2] += correction['semitones']
     if not len(notes) or np.any(notes[:, 1] <= 0) or np.any(notes[:, 2] < 0) or np.any(notes[:, 2] > 127):
         raise ValueError('Empty extraction, non-positive written duration, or out-of-range sounding pitch')
     spec = cfg['bars']
@@ -187,7 +204,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         raise ValueError('No notes in performed bar order')
     result = {'id': ident, 'voices': [{k: v[k] for k in ('id', 'name')} for v in voices],
               'bars': bars, 'notes': sorted(performed), 'endQ': cursor,
-              'repeats': spec['description'], 'provenance': cfg.get('provenance', []), 'midiTracks': tracks}
+              'repeats': spec['description'], 'provenance': cfg.get('provenance', []),
+              'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
