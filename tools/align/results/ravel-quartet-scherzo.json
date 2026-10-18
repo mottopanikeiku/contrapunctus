@@ -1040,7 +1040,9 @@
         64,
         69
       ],
-      "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 346.55 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. The final window includes the actual attack rather than its later 346.9 s decay. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed."
+      "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 346.55 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. The final window includes the actual attack rather than its later 346.9 s decay. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed.",
+      "mappedAudioSeconds": 0.26,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "bar-196-pre-final-chord",
@@ -1058,7 +1060,9 @@
         76,
         88
       ],
-      "basis": "Source bar 196 begins at q591 with B-flat3/D4/A4/E5/E6, after the second C6–D6 rise at q590/590.5. Individual pitch bands locate that rise around 342.5/342.7 s and the A4/E6/B-flat3 arrival around 342.9 s. An unconstrained numerical pass placed q591 near 343.64 s, over already decayed upper-pitch energy, stretching the preceding run across the written pause. This measured source-pitch alignment constraint restores the chord before the pause; it is not independent validation and does not replace any numerical gate or the genuine final q597.5 attack."
+      "basis": "Source bar 196 begins at q591 with B-flat3/D4/A4/E5/E6, after the second C6–D6 rise at q590/590.5. Individual pitch bands locate that rise around 342.5/342.7 s and the A4/E6/B-flat3 arrival around 342.9 s. An unconstrained numerical pass placed q591 near 343.64 s, over already decayed upper-pitch energy, stretching the preceding run across the written pause. This measured source-pitch alignment constraint restores the chord before the pause; it is not independent validation and does not replace any numerical gate or the genuine final q597.5 attack.",
+      "mappedAudioSeconds": 342.88,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "last",
@@ -1077,13 +1081,15 @@
         76,
         81
       ],
-      "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 346.55 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. The final window includes the actual attack rather than its later 346.9 s decay. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed."
+      "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 346.55 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. The final window includes the actual attack rather than its later 346.9 s decay. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed.",
+      "mappedAudioSeconds": 346.54400000000015,
+      "mappingDeviationSeconds": 0.004000000000132786
     }
   ],
   "adaptiveOnsetCount": 1984,
-  "adaptiveMedianDeviation": 0.04598458049892429,
+  "adaptiveMedianDeviation": 0.045986394557786525,
   "gateReasons": [],
-  "elapsedSeconds": 0.6227332309936173,
+  "elapsedSeconds": 0.5407297399942763,
   "dtwSteps": [
     [
       1,
@@ -1125,18 +1131,18 @@
   "comparison": {
     "previousScore": true,
     "previousSha256": "8cc2052c05ebd55d0c8362518ce4685eb29c5448c7bd471be275b48a77abe907",
-    "candidateSha256": "2844e52d076c2e42e55d03e743bc8a3830538372ee412bfdf8a988f8fb83354b",
+    "candidateSha256": "60bf5652dd33fec54a8244d79a4d42a20e0ea1c1cb2c3665b099415bbe494c92",
     "byteIdentical": false,
     "sameNoteIdentities": true,
     "sameBarIdentities": true,
     "maximumAbsoluteDifferences": {
-      "noteOnsetSeconds": 0.0,
-      "noteDurationSeconds": 0.0,
-      "barSeconds": 0.0
+      "noteOnsetSeconds": 0.011000000000024102,
+      "noteDurationSeconds": 0.01200000000000001,
+      "barSeconds": 0.011000000000024102
     },
     "metadataFieldsChanged": [],
     "toleranceSeconds": 0.001,
-    "numericallyEquivalent": true
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/ravel-quartet-scherzo-0-8.26.png",

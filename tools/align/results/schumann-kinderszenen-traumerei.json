@@ -1,8 +1,8 @@
 {
   "uniqueScoreAttacks": 228,
   "audioDetectedOnsets": 227,
-  "medianAbsoluteOnsetDeviation": 0.034051574118024064,
-  "noteWeightedMedianDeviation": 0.0323809523809615,
+  "medianAbsoluteOnsetDeviation": 0.03441122185310519,
+  "noteWeightedMedianDeviation": 0.03279491641618648,
   "p95AbsoluteOnsetDeviation": 0.34496077229338495,
   "fractionWithin150ms": 0.8947368421052632,
   "regions": [
@@ -220,11 +220,11 @@
       "start": 168.0,
       "end": 176.0,
       "attacks": 4,
-      "median": 0.02274481885778812,
-      "p95": 0.12491625797627388,
+      "median": 0.03079365079364038,
+      "p95": 0.12714881611580178,
       "max": 0.14235194853159783,
-      "adaptiveMedian": 0.03435479618205761,
-      "adaptiveP95": 0.13652623530054336
+      "adaptiveMedian": 0.042403628117909875,
+      "adaptiveP95": 0.13875879344007128
     },
     {
       "start": 176.0,
@@ -546,7 +546,9 @@
       "midiPitches": [
         60
       ],
-      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication.",
+      "mappedAudioSeconds": 0.52,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "bar-22-C5",
@@ -560,7 +562,9 @@
       "midiPitches": [
         72
       ],
-      "basis": "MEAS: performed event q117 is the isolated upper C5 (MIDI 72) at printed bar 22. In the initial 168–176-second pitch-energy overlay its new C5 band begins near 169.15 s, before the unconstrained mapping near 169.64 s. This is disclosed source-pitch inspection, not an aural annotation or replacement of the independent onset gate."
+      "basis": "MEAS: performed event q117 is the isolated upper C5 (MIDI 72) at printed bar 22. In the initial 168–176-second pitch-energy overlay its new C5 band begins near 169.15 s, before the unconstrained mapping near 169.64 s. This is disclosed source-pitch inspection, not an aural annotation or replacement of the independent onset gate.",
+      "mappedAudioSeconds": 169.16,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "bar-22-A5",
@@ -574,7 +578,9 @@
       "midiPitches": [
         81
       ],
-      "basis": "MEAS: performed event q117.5 is the isolated upper A5 (MIDI 81), following C5. The cached pitch-energy overlay shows its separate arrival near 170.10 s, before the initial mapping near 170.50 s. Constrain this observed ascending figure without changing notes, durations, repeats or gate thresholds."
+      "basis": "MEAS: performed event q117.5 is the isolated upper A5 (MIDI 81), following C5. The cached pitch-energy overlay shows its separate arrival near 170.10 s, before the initial mapping near 170.50 s. Constrain this observed ascending figure without changing notes, durations, repeats or gate thresholds.",
+      "mappedAudioSeconds": 170.08,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "last",
@@ -590,13 +596,15 @@
         57,
         65
       ],
-      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication.",
+      "mappedAudioSeconds": 193.14604651162782,
+      "mappingDeviationSeconds": 0.006046511627829432
     }
   ],
   "adaptiveOnsetCount": 386,
-  "adaptiveMedianDeviation": 0.04145599325003957,
+  "adaptiveMedianDeviation": 0.04162632494860219,
   "gateReasons": [],
-  "elapsedSeconds": 0.5006296070059761,
+  "elapsedSeconds": 0.4931572210043669,
   "dtwSteps": [
     [
       1,
@@ -637,19 +645,17 @@
   ],
   "comparison": {
     "previousScore": true,
-    "previousSha256": "02a152a33e73c842e2b6e1866a0a501c63ba19f9eb468475f135f2e2742125ef",
-    "candidateSha256": "eb41cf4a527a2e8f9dbabb124c44cebd465f948b4ef48e47e14c669f203b0bc9",
+    "previousSha256": "40552a2ac7f0ca50f3a5afad9661ef3a30363f5271770373fbeabdbadb94945d",
+    "candidateSha256": "9f458719e650fb722c9b94d5439602c76a950961e59608734c7b0983789e51a8",
     "byteIdentical": false,
-    "sameNoteIdentities": false,
+    "sameNoteIdentities": true,
     "sameBarIdentities": true,
     "maximumAbsoluteDifferences": {
-      "noteOnsetSeconds": null,
-      "noteDurationSeconds": null,
-      "barSeconds": 0.3800000000000239
+      "noteOnsetSeconds": 0.018000000000000682,
+      "noteDurationSeconds": 0.018000000000000016,
+      "barSeconds": 0.018000000000000682
     },
-    "metadataFieldsChanged": [
-      "voices"
-    ],
+    "metadataFieldsChanged": [],
     "toleranceSeconds": 0.001,
     "numericallyEquivalent": false
   },

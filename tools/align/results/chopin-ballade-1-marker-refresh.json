@@ -1,0 +1,52 @@
+{
+  "id": "chopin-ballade-1",
+  "kind": "nested-annotation-marker-correction",
+  "basis": "Preserve the visible miniature chord score but exclude its glyphs from main-score bar identity. This changes highlighting/packing identity, not sounding events or timing.",
+  "beforeBar1Boxes": [
+    [
+      0,
+      14.6,
+      14.3,
+      36.65,
+      13.43
+    ],
+    [
+      4,
+      100.65,
+      44.27,
+      19.04,
+      15.74
+    ]
+  ],
+  "afterBar1Boxes": [
+    [
+      0,
+      14.6,
+      14.3,
+      36.65,
+      13.43
+    ]
+  ],
+  "soundingNotesUnchanged": true,
+  "barTimingsUnchanged": true,
+  "voiceLabelsUnchanged": true,
+  "otherBarBoxesUnchanged": false,
+  "changedBarBoxes": [
+    {
+      "bar": "1",
+      "before": [[0, 14.6, 14.3, 36.65, 13.43], [4, 100.65, 44.27, 19.04, 15.74]],
+      "after": [[0, 14.6, 14.3, 36.65, 13.43]],
+      "reason": "Remove the miniature annotation score's false opening-bar box on page5."
+    },
+    {
+      "bar": "113",
+      "before": [[4, 89.44, 44.27, 30.42, 15.74]],
+      "after": [[4, 89.44, 44.27, 30.25, 15.74]],
+      "reason": "The adjacent real bar's right extent shrinks by0.17 layout units after removal of inline-score marker contamination; its page, origin and height are unchanged."
+    }
+  ],
+  "pageMetadataUnchanged": true,
+  "noteCount": 5013,
+  "printedBarCount": 264,
+  "noteArraySha256": "6ed5ad0a1409adbb9864237d27ce7c2a1e9d7a373abed371a186d3d0c396b7a2"
+}

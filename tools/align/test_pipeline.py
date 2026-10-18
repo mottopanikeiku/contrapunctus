@@ -12,8 +12,9 @@ import xml.etree.ElementTree as ET
 
 import mido
 import numpy as np
+from synctoolbox.dtw.utils import make_path_strictly_monotonic
 
-from align import endpoint_anchors, publication_reasons
+from align import FPS, endpoint_anchors, path_map, publication_reasons
 from config import HERE, LILYPOND, write_json
 from pipeline import comparison
 from score_events import attack_inventory, crop_notes, extract, prove_legacy_omissions, prove_notation
@@ -220,6 +221,43 @@ class PitchAnchors(unittest.TestCase):
             endpoint_anchors(self.config, self.events, self.data)
 
 
+class ContinuousAnchorMapping(unittest.TestCase):
+    def test_unconstrained_mapping_retains_standard_conversion_exactly(self):
+        path = np.array([[0, 1, 1, 2, 3, 4], [0, 0, 1, 2, 2, 3]])
+        expected = make_path_strictly_monotonic(path) / FPS
+        np.testing.assert_array_equal(np.asarray(path_map(path)), expected)
+
+    def test_fractional_frame_does_not_move_a_fermata_attack(self):
+        # Measured Ballade 1 neighbourhood: the uncorrected q1408 interpolates
+        # from 571.74 to 572.86 instead of retaining its fitting onset.
+        path = np.array([[29514, 29515, 29516, 29517, 29518, 29519],
+                         [28585, 28586, 28587, 28643, 28644, 28645]])
+        point = (590.334945054945, 571.74)
+        sx, ay = path_map(path, [point])
+        self.assertEqual(float(np.interp(point[0], sx, ay)), point[1])
+        self.assertTrue(np.all(np.diff(sx) > 0))
+        self.assertTrue(np.all(np.diff(ay) > 0))
+        self.assertNotIn(590.32, sx)
+        self.assertEqual(float(np.interp(590.36, sx, ay)), 572.88)
+        np.testing.assert_array_equal([sx[0], ay[0], sx[-1], ay[-1]],
+                                      [590.28, 571.7, 590.38, 572.9])
+
+    def test_multiple_constraints_remove_only_conflicting_grid_knots(self):
+        path = np.array([np.arange(6), np.arange(6)])
+        sx, ay = path_map(path, [(.03, .015), (.07, .085)])
+        np.testing.assert_array_equal(sx, [0, .03, .04, .06, .07, .1])
+        np.testing.assert_array_equal(ay, [0, .015, .04, .06, .085, .1])
+        np.testing.assert_array_equal(np.asarray(path_map(path, [(.04, .04)])), path / FPS)
+
+    def test_crossing_or_noninterior_constraints_reject(self):
+        path = np.array([np.arange(6), np.arange(6)])
+        for points in [[(-.1, .02)], [(.02, .1)], [(.03, .06), (.05, .04)],
+                       [(.04, .03), (.02, .05)], [(float('nan'), .04)]]:
+            with self.subTest(points=points):
+                with self.assertRaisesRegex(ValueError, 'Fitting anchors'):
+                    path_map(path, points)
+
+
 class LegacyOmissionProof(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory()
@@ -312,6 +350,57 @@ class OrnamentNotationProof(unittest.TestCase):
         self.cfg['extraction']['notationProof']['ornaments'][0]['source']['text'] = 'absent'
         with self.assertRaisesRegex(ValueError, 'exactly once'):
             self.proof()
+
+
+class EngravingMarkers(unittest.TestCase):
+    def test_inline_score_ink_is_not_performed_bar_geometry(self):
+        prelude = subprocess.run(
+            ['node', '--input-type=module', '-e',
+             'import { PRELUDE } from "./tools/engrave.mjs"; process.stdout.write(PRELUDE(230, 297));'],
+            cwd=HERE.parent.parent, capture_output=True, text=True)
+        self.assertEqual(prelude.returncode, 0, prelude.stdout + prelude.stderr)
+        with tempfile.TemporaryDirectory() as temporary:
+            directory = Path(temporary)
+            source = directory / 'source.ly'
+            source.write_text('\\version "2.24.4"\n' + prelude.stdout + r'''
+mini = \markup {
+  \score {
+    \new Staff \with {
+      \override NoteHead.color = #red
+      \override Rest.color = #blue
+    } { <a' c'' e''>4 r4 }
+    \layout { indent = 0 ragged-right = ##t }
+  }
+}
+\score {
+  <<
+    \new Staff \relative c' { \time 2/4 c4^\mini r4 | e4 f \bar "|." }
+    \new Staff \with { fontSize = #-3 \override StaffSymbol.staff-space = #0.7 }
+      \relative c' { \time 2/4 g2 | a2 \bar "|." }
+  >>
+  \layout { }
+}
+''')
+            result = subprocess.run(
+                [LILYPOND, '-dbackend=svg', '-dno-point-and-click', '-o', str(directory / 'out'), str(source)],
+                capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            pages = [ET.parse(path).getroot() for path in directory.glob('out*.svg')]
+            self.assertTrue(pages)
+            nodes = [node for page in pages for node in page.iter()]
+            marked = [node for node in nodes if node.get('class') in ('nh', 'rs')]
+            self.assertEqual(Counter(node.get('data-bar') for node in marked), {'1': 3, '2': 3})
+            self.assertEqual(Counter(node.get('class') for node in marked), {'nh': 5, 'rs': 1})
+            self.assertTrue(all(node.get('data-pos') is not None for node in marked))
+            self.assertEqual(sum(node.get('class') == 'staff' for node in nodes), 2)
+            red_paths = {node for group in nodes
+                         if group.get('color', '').replace(' ', '') == 'rgb(100.0000%,0.0000%,0.0000%)'
+                         for node in group.iter() if node.tag.endswith('}path')}
+            blue_paths = {node for group in nodes
+                          if group.get('color', '').replace(' ', '') == 'rgb(0.0000%,0.0000%,100.0000%)'
+                          for node in group.iter() if node.tag.endswith('}path')}
+            self.assertEqual(len(red_paths), 3)
+            self.assertEqual(len(blue_paths), 1)
 
 
 class MusicXMLConversion(unittest.TestCase):

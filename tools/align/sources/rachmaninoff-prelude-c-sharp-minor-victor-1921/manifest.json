@@ -1,7 +1,7 @@
 {
   "mutopia": 2033,
   "title": "Prelude in C♯ minor, Op. 3 No. 2",
-  "edition": "Bosworth & Co. 1896; Universal Edition 1910",
+  "edition": "Bosworth & Co. 1896; Universal Edition 1910. Engraving retains the original C-sharp-minor notation; sounding events from all four source staves are shifted +1 nominal semitone to match this supplied transfer. Fractional tuning is estimated separately. This measured transfer-pitch correction does not establish the historical pianist's chosen key or a performed transposition.",
   "encoder": "Petro Kostandy",
   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033",
   "license": "CC BY-SA 4.0",
@@ -20,5 +20,5 @@
       "sha256": "cd7879a13accb06c539b1a74855121ed25ec4c71f8069473c6fc78ae56d7c43b"
     }
   ],
-  "accessed": "2026-10-17"
+  "accessed": "2026-10-18"
 }

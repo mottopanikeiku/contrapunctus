@@ -3,9 +3,9 @@ import { readFile, unlink } from 'node:fs/promises';
 import sharp from 'sharp';
 import { ROOT, OUT, CACHE, cached, eachLimit, hash, optional, save } from './cache.mjs';
 
-// Keep the reviewed WebP pixels unless a complete responsive AVIF set is both
-// smaller and passes a conservative 40 dB PSNR screen. A partial AVIF srcset
-// can force a huge image onto a thumbnail, so formats are chosen per picture.
+// Keep the reviewed WebP pixels unless an AVIF rendition is smaller and
+// passes a conservative 40 dB PSNR screen. Mixed-format candidate sets retain
+// every responsive width without forcing a full-size image onto thumbnails.
 export async function optimizeImages(out = OUT) {
   sharp.concurrency(1);
   const art = JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'));

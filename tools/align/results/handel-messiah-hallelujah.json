@@ -241,10 +241,10 @@
       "end": 192.0,
       "attacks": 7,
       "median": 0.40565397790322777,
-      "p95": 1.352062623631033,
-      "max": 1.5877879094900607,
-      "adaptiveMedian": 0.03205094803880115,
-      "adaptiveP95": 0.26655425290682894
+      "p95": 1.3437221980991008,
+      "max": 1.5758730158730145,
+      "adaptiveMedian": 0.03877551020408987,
+      "adaptiveP95": 0.2675755295025709
     },
     {
       "start": 192.0,
@@ -263,10 +263,10 @@
       "end": 192.0,
       "attacks": 7,
       "median": 0.40565397790322777,
-      "p95": 1.352062623631033,
-      "max": 1.5877879094900607,
-      "adaptiveMedian": 0.03205094803880115,
-      "adaptiveP95": 0.26655425290682894
+      "p95": 1.3437221980991008,
+      "max": 1.5758730158730145,
+      "adaptiveMedian": 0.03877551020408987,
+      "adaptiveP95": 0.2675755295025709
     },
     {
       "start": 24.0,
@@ -412,8 +412,8 @@
       "bar": "93",
       "occ": 1,
       "editorial": 186,
-      "aligned": 187.45191489361704,
-      "difference": 1.4519148936170438,
+      "aligned": 187.44,
+      "difference": 1.4399999999999977,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     }
   ],
@@ -649,7 +649,9 @@
         69,
         74
       ],
-      "basis": "Score-pitch energy inspection, not listening: the final G bass (43/55) and upper B (83) disappear around193.5, while final D (50) and A (81) rise around193.7–194.0. The previous193–198 window clipped its peak at193.0 and was rejected. See work/handel-messiah-hallelujah-final-harmony.png."
+      "basis": "Score-pitch energy inspection, not listening: the final G bass (43/55) and upper B (83) disappear around193.5, while final D (50) and A (81) rise around193.7–194.0. The previous193–198 window clipped its peak at193.0 and was rejected. See work/handel-messiah-hallelujah-final-harmony.png.",
+      "mappedAudioSeconds": 1.22,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "internal-1",
@@ -670,7 +672,9 @@
         78,
         81
       ],
-      "basis": "Bar92 beat4 D-bass/A-upper pickup after the independently visible184.7–185.85 silence; D50/A81 energy rise in work/handel-messiah-hallelujah-coda-harmony.png."
+      "basis": "Bar92 beat4 D-bass/A-upper pickup after the independently visible184.7–185.85 silence; D50/A81 energy rise in work/handel-messiah-hallelujah-coda-harmony.png.",
+      "mappedAudioSeconds": 186.14,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "internal-2",
@@ -692,7 +696,9 @@
         79,
         83
       ],
-      "basis": "Bar93 G-major arrival: independent G43/G67 energy rise around187.2–187.5, after the D pickup; not inferred from nearest-onset proximity."
+      "basis": "Bar93 G-major arrival: independent G43/G67 energy rise around187.2–187.5, after the D pickup; not inferred from nearest-onset proximity.",
+      "mappedAudioSeconds": 187.44,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "internal-3",
@@ -714,7 +720,9 @@
         79,
         83
       ],
-      "basis": "Bar93 final-quarter G reattack: G67/B83 renewed energy around191.5 before final D. Windows independently inspected by VerS; no listening claim."
+      "basis": "Bar93 final-quarter G reattack: G67/B83 renewed energy around191.5 before final D. Windows independently inspected by VerS; no listening claim.",
+      "mappedAudioSeconds": 191.7,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "last",
@@ -735,13 +743,15 @@
         78,
         81
       ],
-      "basis": "Score-pitch energy inspection, not listening: the final G bass (43/55) and upper B (83) disappear around193.5, while final D (50) and A (81) rise around193.7–194.0. The previous193–198 window clipped its peak at193.0 and was rejected. See work/handel-messiah-hallelujah-final-harmony.png."
+      "basis": "Score-pitch energy inspection, not listening: the final G bass (43/55) and upper B (83) disappear around193.5, while final D (50) and A (81) rise around193.7–194.0. The previous193–198 window clipped its peak at193.0 and was rejected. See work/handel-messiah-hallelujah-final-harmony.png.",
+      "mappedAudioSeconds": 193.85787234042562,
+      "mappingDeviationSeconds": 0.01787234042561181
     }
   ],
   "adaptiveOnsetCount": 1011,
-  "adaptiveMedianDeviation": 0.03517392772711503,
+  "adaptiveMedianDeviation": 0.03519949823901669,
   "gateReasons": [],
-  "elapsedSeconds": 0.6515942960395478,
+  "elapsedSeconds": 0.49857903097290546,
   "dtwSteps": [
     [
       1,
@@ -781,9 +791,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "cec105adf72cf25821286defa8a539efd860133ff09ebace6af493954e1f9b17",
+    "candidateSha256": "60840e1cf3a5d2867aa9805f39ffce89360a4e526f9903ec870a86c4a2d0cb21",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.01700000000002433,
+      "noteDurationSeconds": 0.017999999999999794,
+      "barSeconds": 0.012000000000000455
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/handel-messiah-hallelujah-0-9.22.png",

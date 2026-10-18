@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "id": "chopin-prelude-op28-4-paquet",
+  "kind": "exact-interior-anchor-refresh",
+  "basis": "Source-keyed before/after time-warp changes after exact non-grid interior knots were retained in both continuous mappings. Full pre-refresh score snapshots were preserved for independent review. This is not an aural review.",
+  "sourceInventoryUnchanged": true,
+  "noteCount": 604,
+  "barOccurrenceCount": 26,
+  "beforeNotesSha256": "14e9d7362d65e9630e74cd1dd964bd5bdee581474fe72ae4149f2079f8da88ee",
+  "afterNotesSha256": "3d0cd072f1f3c6f5c1f0254d05517f6dc9632918935d35b7f51e9f789ae4d8ea",
+  "hashEncoding": "UTF-8 JSON arrays, compact separators",
+  "changedNotes": [
+    {
+      "index": 585,
+      "sourceEvent": [
+        93.0,
+        2.0,
+        35,
+        1,
+        24,
+        90
+      ],
+      "before": [
+        101.207,
+        2.278,
+        35,
+        1,
+        24
+      ],
+      "after": [
+        101.2,
+        2.285,
+        35,
+        1,
+        24
+      ]
+    },
+    {
+      "index": 586,
+      "sourceEvent": [
+        93.0,
+        2.0,
+        47,
+        1,
+        24,
+        90
+      ],
+      "before": [
+        101.207,
+        2.278,
+        47,
+        1,
+        24
+      ],
+      "after": [
+        101.2,
+        2.285,
+        47,
+        1,
+        24
+      ]
+    },
+    {
+      "index": 587,
+      "sourceEvent": [
+        93.0,
+        2.0,
+        52,
+        0,
+        24,
+        90
+      ],
+      "before": [
+        101.207,
+        2.278,
+        52,
+        0,
+        24
+      ],
+      "after": [
+        101.2,
+        2.285,
+        52,
+        0,
+        24
+      ]
+    },
+    {
+      "index": 588,
+      "sourceEvent": [
+        93.0,
+        2.0,
+        54,
+        0,
+        24,
+        90
+      ],
+      "before": [
+        101.207,
+        2.278,
+        54,
+        0,
+        24
+      ],
+      "after": [
+        101.2,
+        2.285,
+        54,
+        0,
+        24
+      ]
+    },
+    {
+      "index": 589,
+      "sourceEvent": [
+        93.0,
+        2.0,
+        59,
+        0,
+        24,
+        90
+      ],
+      "before": [
+        101.207,
+        2.278,
+        59,
+        0,
+        24
+      ],
+      "after": [
+        101.2,
+        2.285,
+        59,
+        0,
+        24
+      ]
+    },
+    {
+      "index": 590,
+      "sourceEvent": [
+        93.0,
+        2.0,
+        64,
+        0,
+        24,
+        90
+      ],
+      "before": [
+        101.207,
+        2.278,
+        64,
+        0,
+        24
+      ],
+      "after": [
+        101.2,
+        2.285,
+        64,
+        0,
+        24
+      ]
+    }
+  ],
+  "changedBars": [
+    {
+      "index": 24,
+      "sourceBar": {
+        "n": "24",
+        "occ": 1,
+        "q": 93.0,
+        "durQ": 4.0
+      },
+      "before": {
+        "n": "24",
+        "occ": 1,
+        "t": 101.207
+      },
+      "after": {
+        "n": "24",
+        "occ": 1,
+        "t": 101.2
+      }
+    }
+  ],
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.06,
+      "peakSeconds": 0.1,
+      "window": [
+        0,
+        0.35
+      ],
+      "midiPitches": [
+        59
+      ],
+      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration.",
+      "mappedAudioSeconds": 0.06,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-24-post-rest-chord",
+      "scoreQ": 93.0,
+      "audioSeconds": 101.2,
+      "peakSeconds": 101.26,
+      "window": [
+        101.1,
+        101.4
+      ],
+      "midiPitches": [
+        35,
+        47,
+        52,
+        54,
+        59,
+        64
+      ],
+      "basis": "The complete B1/B2/E3/F-sharp3/B3/E4 chord clearly enters near 101.2 s after the notated fermata rest. The unconstrained warp placed both closing bar-24 chords roughly half a second early and failed the 96–104 s local gate. This inspected source-pitch fitting constraint retains the source rest and all three final chords; it is not independent or aural validation.",
+      "mappedAudioSeconds": 101.2,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 97.0,
+      "audioSeconds": 105.92,
+      "peakSeconds": 105.98,
+      "window": [
+        105,
+        109
+      ],
+      "midiPitches": [
+        28,
+        40,
+        52,
+        55,
+        59,
+        64
+      ],
+      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration.",
+      "mappedAudioSeconds": 105.926,
+      "mappingDeviationSeconds": 0.006000000000000227
+    }
+  ],
+  "medianAbsoluteOnsetDeviation": 0.03606689342403513,
+  "p95AbsoluteOnsetDeviation": 0.14700593820861763,
+  "gateReasons": []
+}

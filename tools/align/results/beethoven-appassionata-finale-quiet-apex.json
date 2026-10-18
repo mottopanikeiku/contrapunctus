@@ -1,0 +1,25 @@
+{
+  "id": "beethoven-appassionata-finale",
+  "kind": "quiet-source-attack-evidence",
+  "audioSha256": "236ddd31ecbbee2b9d250ea555804fda80ef32d401ee93bb4fe5879febba7bd2",
+  "basis": "Measured cached pitch-bin energies; vertical lines are disclosed fitted constraints. The complete encoded source chord is retained; a rolled chord has one symbolic source time, not independently timed physical keys. This is inspectable fitting evidence, not independent or aural validation.",
+  "frameRate": 50,
+  "plot": "beethoven-appassionata-finale-quiet-apex.png",
+  "events": [
+    {
+      "sourceQ": 363,
+      "midiPitches": [
+        88
+      ],
+      "window": [
+        136.76,
+        137.02
+      ],
+      "fittedAudioSeconds": 136.8,
+      "mappedAudioSeconds": 136.8,
+      "sourcePitchPeakSeconds": 136.84,
+      "meanSourcePitchEnergyAtPeak": 7.130523204803467,
+      "preAttackMedianEnergy": 0.016607634723186493
+    }
+  ]
+}

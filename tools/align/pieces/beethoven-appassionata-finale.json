@@ -83,15 +83,23 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      0.25,
+      0.7
     ],
     "last": [
       416,
       422
     ],
-    "basis": "Final score-attack search windows from cache/analysis report, excluding trailing transfer noise or silence; inspect exact pitch/attack overlays before publication."
+    "basis": "The first B-flat2/G3/E4/C-sharp5 diminished chord peaks at0.46s; the broad search's2.02s value selected a later recurrence. Complete ending pitch inspection confirms the final lower-register F-minor chord near420.76s: later energy near421.3s is within its decay, not a substitute last attack. These are source-pitch fitting windows, not independent or aural validation."
   },
+  "anchors": [
+    {
+      "scoreQ": 363,
+      "window": [136.76, 137.02],
+      "label": "first-development-quiet-E6-apex",
+      "basis": "Absolute pitch features resolve the E6/MIDI88 apex at136.84s, following the C5/E5/G5/B-flat5 ascent. The initial successful numerical pass put it around137.60s, after the measured rise. This fixes the first development's quiet arpeggio without removing notes or the pause before the low continuation near139.1s; it is a fitting constraint, not independent validation."
+    }
+  ],
   "boundaries": [
     [
       "118",

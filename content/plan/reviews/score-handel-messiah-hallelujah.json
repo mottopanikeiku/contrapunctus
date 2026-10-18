@@ -4,10 +4,11 @@
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, source/report and visual review; not aural review.",
   "defects": [],
+  "resolvedFindings": [{"code":"REPORT_PACKED_BYTE_TOTAL","basis":"MEAS","finding":"The current report now gives2,115,591 bytes, matching the independently measured public index plus six SVG files. It no longer implies preserved old/new SVG byte identity. Full current geometry equality with the previously inspected Sargent pack was independently established separately."}],
   "report": {
     "basis": "MEAS",
     "path": "tools/align/REPORT.md#handel-messiah-hallelujah",
-    "finding": "The per-piece report matches final metrics, complete order, source uncertainty and six-page pack. It preserves the rejected numerical false positive and clearly distinguishes the three internal pitch-window fitting constraints from independent validation. The published method discloses them too."
+    "finding": "Refreshed gates,39 changed onsets/39 durations, one changed bar and all three exact interior fitting knots independently agree with the report. Full source order, source uncertainty, native-backed six-page geometry and fitting-versus-independent-validation distinctions remain accurate. The corrected2,115,591-byte public-pack total and explicit limitation on old/new SVG byte claims resolve the final report defect."
   },
   "gates": {
     "basis": "MEAS",
@@ -16,11 +17,14 @@
     "primaryP95Seconds": 0.663115501519751,
     "maximumAnchorDeviationSeconds": 0.13836734693877561,
     "maximumLocalRegionMedianSeconds": 0.05039368939064914,
+    "minimumPublishedNoteDurationSeconds": 0.019,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.019000000000005457,
     "zeroOrNegativeDurations": 0,
     "collapsedAttackIntervals": 0,
     "roundedCollapsedAttackIntervals": 0,
     "recomputedReasons": []
   },
+  "exactInteriorAnchorRefresh": {"basis":"MEAS","baseline":"tools/align/work/handel-messiah-hallelujah-before-exact-anchors-score.json","comparisonRecord":"tools/align/work/handel-messiah-hallelujah-exact-anchor-refresh-diff.json","independentlyDecodedNoteAndBarIdentitiesUnchanged":true,"nonTimingMetadataChanged":[],"audioAndConfigReceiptHashesMatchBaseline":true,"changedOnsets":39,"maximumOnsetDifferenceSeconds":0.01700000000002433,"changedDurations":39,"maximumDurationDifferenceSeconds":0.017999999999999794,"changedBars":[{"n":"93","occ":1,"before":187.452,"after":187.44}],"exactInteriorKnots":[{"q":367,"measured":186.14,"mapped":186.14,"deviation":0},{"q":368,"measured":187.44,"mapped":187.44,"deviation":0},{"q":371,"measured":191.7,"mapped":191.7,"deviation":0}],"legacyLastEndpoint":{"target":193.84,"mapped":193.85787234042562,"deviation":0.01787234042561181,"finding":"Unchanged endpoint algorithm; not claimed exact."},"publicSha256":"60840e1cf3a5d2867aa9805f39ffce89360a4e526f9903ec870a86c4a2d0cb21","geometry":"All six current SVG trees and complete index independently compared again with the native-inspected Sargent publication: full index byte equality and every SVG-tree equality after only consistent DOM-prefix normalization. Actual glyph count5966; actual packed bytes2115591.","sourceMusicalHashReceipt":{"basis":"EXT","reporter":"ScoreC","unchanged":true,"finding":"The saved author comparison records unchanged source-musical hash; VerS separately decoded all before/after public note/bar identities and non-timing metadata."}},
   "barMap": {
     "basis": "MEAS",
     "performedBars": 94,
@@ -52,7 +56,7 @@
       "work/handel-messiah-hallelujah-187.7-199.7.png",
       "work/handel-messiah-hallelujah-189.858-201.017.png"
     ],
-    "finding": "The former gross coda mismatch is resolved: no rapid score figures are placed in the actual pause around 184.7–185.9 s. The D pickup near 186.14, G arrival 187.44, G reattack 191.70 and final D 193.86 s follow the inspected pitch-energy sequence. No further gross pitch/order mismatch identified. The final written hold to 199.94 s is not a measured release."
+    "finding": "All16 current post-refresh PNGs independently inspected. No gross pitch/order regression: rapid figures remain outside the actual184.7-185.9-s pause; D pickup186.14, G arrival187.44, G reattack191.70 and final D193.857872 retain the distinct inspected harmony progression. Exact fitting coordinates are not independent millisecond-accurate physical onset measurements. Final written hold to199.94 is not a measured release."
   },
   "source": {
     "basis": "EXT",

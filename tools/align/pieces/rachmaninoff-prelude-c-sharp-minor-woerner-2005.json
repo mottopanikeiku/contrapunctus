@@ -91,6 +91,42 @@
       "basis": "The third opening C-sharp1/C-sharp2/C-sharp3 bell visibly enters near 4.3 s; the initial warp began it near 3.3 s. This source-pitch fitting constraint is not independent validation."
     },
     {
+      "scoreQ": 219,
+      "window": [194.75, 195.15],
+      "label": "coda-first-chord-A3-A4-signature",
+      "basis": "The first coda chord's A3/A4 signature peaks near194.98s, before the old198.396s model onset. All five chromatically distinct coda voicings are retained in source order; this is inspected fitting evidence, not independent validation."
+    },
+    {
+      "scoreQ": 223,
+      "window": [199.6, 200.05],
+      "label": "coda-second-chord-A-sharp3-G-sharp4-signature",
+      "basis": "The second coda voicing's A-sharp3/G-sharp4 combination peaks near199.80s, separately from the bass pedal and neighbouring coda chords."
+    },
+    {
+      "scoreQ": 227,
+      "window": [204.4, 204.85],
+      "label": "coda-third-chord-G3-A4-signature",
+      "basis": "The third source chord's G3/A4 signature peaks near204.60s. Its identity is established by the changing pitches, not by proximity to an arbitrary onset."
+    },
+    {
+      "scoreQ": 231,
+      "window": [208.65, 209.05],
+      "label": "coda-fourth-chord-F-sharp-A-sharp-signature",
+      "basis": "The fourth voicing's F-sharp3/A-sharp3/F-sharp4/A-sharp4 combination peaks near208.84s, after the third chord and before the distinct fifth voicing."
+    },
+    {
+      "scoreQ": 235,
+      "window": [213.4, 213.9],
+      "label": "coda-fifth-chord-D-sharp-F-sharp-A-signature",
+      "basis": "The fifth source chord's D-sharp/F-sharp/A signature peaks near213.66s; the earlier model placed it212.695s. Retain the observed complete progression without changing the publication thresholds."
+    },
+    {
+      "scoreQ": 240,
+      "window": [216.3, 216.8],
+      "label": "closing-lower-C-sharp-minor-voicing",
+      "basis": "The low closing voicing's G-sharp3/G-sharp4 pair peaks near216.54s. It precedes the separate higher218.62s chord and final220.88s reattack; source-pitch fitting is not independent validation."
+    },
+    {
       "scoreQ": 241.5,
       "window": [218.5, 219],
       "label": "penultimate-upper-C-sharp-minor-chord",

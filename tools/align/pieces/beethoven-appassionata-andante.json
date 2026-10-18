@@ -107,15 +107,23 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      0.6,
+      0.95
     ],
     "last": [
       347,
       354
     ],
-    "basis": "Final score-attack search windows from cache/analysis report, excluding trailing transfer noise or silence; inspect exact pitch/attack overlays before publication."
+    "basis": "The first D-flat-major chord has its measured pitch rise near0.76s; the original broad search wrongly selected the third chord at3.26s. The final forte diminished chord near353.1s is distinct from the preceding rolled pianissimo chord. These are source-pitch fitting windows, not independent or aural validation."
   },
+  "anchors": [
+    {
+      "scoreQ": 286,
+      "window": [346.25, 346.6],
+      "label": "penultimate-pianissimo-diminished-chord-first-bass",
+      "basis": "The printed nine-note arpeggiated diminished chord starts with its low B-flat2/Db3 rise around346.3–346.5s (B-flat2 peak346.48s), and finishes its roll at highDb5 near347.44s. The source bar begins with that first bass, not the upper-note aggregate peak or the earlier false350.52s placement in silence. All nine encoded pitches and the fermata before the353.1s forte chord remain; a simultaneous symbolic event cannot represent each separately rolled key attack."
+    }
+  ],
   "boundaries": [
     [
       "17",

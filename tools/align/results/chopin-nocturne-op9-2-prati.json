@@ -613,7 +613,8 @@
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Schirmer 1881 solo-piano edition. INFERENCE: Performed embellishments may exceed the written ornaments; exact recording edition remains unknown.",
     "Read content/listen/chopin-nocturne-op9-2-prati.mjs and cache/analysis/chopin-nocturne-op9-2-prati.txt. Editorial sections are coarse; they are not forced alignment anchors.",
     "Verified derivative syntax repair in chopin_nocturne_op9_n2.ly: Modern LilyPond equivalent of the original octave-display instruction at source line180; preserve sounding pitches and the original ottava span, not a transposition or deleted bracket.",
-    "Verified derivative syntax repair in chopin_nocturne_op9_n2.ly: Modern equivalent of the source's matching octave-display reset at line191. The complete compiled pitch/onset multiset must equal immutable published MIDI.",
+    "Verified derivative syntax repair in chopin_nocturne_op9_n2.ly: Modern equivalent of the source's matching octave-display reset at line191. The complete compiled inventory must match immutable MIDI plus only the five separately source-proven polyphonic additions.",
+    "Verified derivative syntax repair in chopin_nocturne_op9_n2.ly: The source explicitly labels the completed free cadenza32 and following bars33/34. Reuse the existing Chaconne convention: synchronize both the displayed currentBarNumber and internalBarNumber, because LilyPond's rhythmic-location tags read the internal counter. A display-only reset leaves the last real bar mislabeled33 and invents a derived34. Preserve all24 cadenza quarters, every pitch/onset/duration and the multi-system32 boxes; actual33/34 must carry their real glyphs.",
     "Source-written attack omitted by legacy MIDI, coincident-unison at [211, 58]: The lower-staff arpeggio's B-flat3 eighth coincides with the independent upper layer's B-flat3 quarter; retain both written voices rather than the legacy MIDI's merged quarter only.",
     "Source-written attack omitted by legacy MIDI, coincident-unison at [212.5, 58]: The second B-flat3 eighth in this lower arpeggio coincides with the upper layer's next quarter. Both durations are present in the isolated original source.",
     "Source-written attack omitted by legacy MIDI, coincident-unison at [214, 58]: The repeated lower arpeggio contributes a B-flat3 eighth simultaneous with an independent B-flat3 quarter, which the legacy staff-level MIDI merged.",
@@ -650,7 +651,13 @@
         "file": "chopin_nocturne_op9_n2.ly",
         "old": "#(set-octavation 0)",
         "new": "\\ottava #0",
-        "basis": "Modern equivalent of the source's matching octave-display reset at line191. The complete compiled pitch/onset multiset must equal immutable published MIDI."
+        "basis": "Modern equivalent of the source's matching octave-display reset at line191. The complete compiled inventory must match immutable MIDI plus only the five separately source-proven polyphonic additions."
+      },
+      {
+        "file": "chopin_nocturne_op9_n2.ly",
+        "old": "\\cadenzaOff \\bar \"|\" \\normalsize",
+        "new": "\\cadenzaOff \\bar \"|\" \\set Score.currentBarNumber = #33 \\set Score.internalBarNumber = #33 \\normalsize",
+        "basis": "The source explicitly labels the completed free cadenza32 and following bars33/34. Reuse the existing Chaconne convention: synchronize both the displayed currentBarNumber and internalBarNumber, because LilyPond's rhythmic-location tags read the internal counter. A display-only reset leaves the last real bar mislabeled33 and invents a derived34. Preserve all24 cadenza quarters, every pitch/onset/duration and the multi-system32 boxes; actual33/34 must carry their real glyphs."
       }
     ],
     "pitchOnsetInventory": {
@@ -801,7 +808,7 @@
   "adaptiveOnsetCount": 887,
   "adaptiveMedianDeviation": 0.030829244057187566,
   "gateReasons": [],
-  "elapsedSeconds": 0.5910443940083496,
+  "elapsedSeconds": 0.5664600890013389,
   "dtwSteps": [
     [
       1,
@@ -827,7 +834,7 @@
     "voices": 2
   },
   "published": true,
-  "configSha256": "0bc3085a21d1646ac001661f94d0ab89e1658988c4daabf276e7cb7759364caf",
+  "configSha256": "3b939a7db2b4f7a3bd3dcd296dbf3388ebab2d84dc1efa86aa5a1a0c024cefee",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O9/chopin_nocturne_op9_n2/chopin_nocturne_op9_n2.ly",
@@ -841,9 +848,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "e3a258d4870c93ee11fd3a62643bc6ad367e45f7883f49a83d66e836493dab57",
+    "candidateSha256": "e3a258d4870c93ee11fd3a62643bc6ad367e45f7883f49a83d66e836493dab57",
+    "byteIdentical": true,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.0,
+      "noteDurationSeconds": 0.0,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": true
   },
   "overlays": [
     "work/chopin-nocturne-op9-2-prati-0-8.png",

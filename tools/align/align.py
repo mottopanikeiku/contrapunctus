@@ -133,11 +133,39 @@ def score_features(events, scale):
     return chroma, dlnco
 
 
-def path_map(path):
+def path_map(path, fitting_points=()):
     # Sync Toolbox's standard conversion discards ambiguous horizontal/vertical
     # DTW runs before interpolation. It does not clamp individual note durations.
     strict = make_path_strictly_monotonic(path)
-    return strict[0] / FPS, strict[1] / FPS
+    sx, ay = strict[0] / FPS, strict[1] / FPS
+    if not len(fitting_points):
+        return sx, ay
+    points = np.asarray(fitting_points, dtype=float)
+    if (points.ndim != 2 or points.shape[1] != 2 or not np.isfinite(points).all()
+            or not np.all(np.diff(points, axis=0) > 0)
+            or not (sx[0] < points[0, 0] <= points[-1, 0] < sx[-1])
+            or not (ay[0] < points[0, 1] <= points[-1, 1] < ay[-1])):
+        raise ValueError('Fitting anchors must be finite, increasing interior score/audio pairs')
+    # DTW slices floor anchors to feature frames. Preserve the exact performed
+    # attack's continuous coordinate: a fractional frame inside a fermata can
+    # otherwise interpolate far beyond its measured audio onset. Keep every
+    # grid knot compatible with the ordered constraints, replacing only those
+    # outside the open score/audio rectangles between them.
+    score_parts, audio_parts = [], []
+    start = 0
+    for index, (score_time, audio_time) in enumerate(points):
+        stop = min(np.searchsorted(sx, score_time, side='left'),
+                   np.searchsorted(ay, audio_time, side='left'))
+        if start < stop:
+            score_parts.append(sx[start:stop])
+            audio_parts.append(ay[start:stop])
+        score_parts.append(points[index:index + 1, 0])
+        audio_parts.append(points[index:index + 1, 1])
+        start = max(np.searchsorted(sx, score_time, side='right'),
+                    np.searchsorted(ay, audio_time, side='right'))
+    score_parts.append(sx[start:])
+    audio_parts.append(ay[start:])
+    return np.concatenate(score_parts), np.concatenate(audio_parts)
 
 
 def nearest_error(times, targets):
@@ -320,7 +348,8 @@ def run(ident):
     endpoint_pairs = [(a['scoreQ'] * scale, a['audioSeconds'] - origin) for a in endpoints if a['scoreQ'] > 0]
     linear = [-1] + ([0] if endpoints[0]['scoreQ'] > 0 else [])
     path = sync_via_mrmsdtw_with_anchors(**kwargs, anchor_pairs=endpoint_pairs.copy(), linear_inp_idx=linear)
-    sx0, ay0 = path_map(path)
+    sx0, ay0 = path_map(path, [(a['scoreQ'] * scale, a['audioSeconds'] - origin)
+                              for a in endpoints[1:-1]])
     anchors = endpoint_pairs.copy()
     def add_refined_anchor(score_time, audio_time):
         # Do not duplicate a documented anchor at the 50-fps feature resolution.
@@ -341,8 +370,11 @@ def run(ident):
     anchors.sort()
     path = sync_via_mrmsdtw_with_anchors(**kwargs, anchor_pairs=anchors.copy(), linear_inp_idx=linear)
     path[1] += origin_frame
-    sx, ay = path_map(path)
+    sx, ay = path_map(path, [(a['scoreQ'] * scale, a['audioSeconds']) for a in endpoints[1:-1]])
     mapq = lambda q: np.interp(np.asarray(q) * scale, sx, ay)
+    for anchor in endpoints:
+        anchor['mappedAudioSeconds'] = float(mapq(anchor['scoreQ']))
+        anchor['mappingDeviationSeconds'] = anchor['mappedAudioSeconds'] - anchor['audioSeconds']
     diagnostics = checks(cfg, events, data, sx, ay, scale, score_chroma, path, sections)
     manifest = json.loads((HERE / 'sources' / ident / 'manifest.json').read_text())
     source = {k: manifest[k] for k in ('title', 'edition', 'encoder', 'url', 'license', 'licenseUrl')}

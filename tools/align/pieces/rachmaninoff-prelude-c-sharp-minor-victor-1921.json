@@ -4,7 +4,7 @@
   "source": {
     "mutopia": 2033,
     "title": "Prelude in C♯ minor, Op. 3 No. 2",
-    "edition": "Bosworth & Co. 1896; Universal Edition 1910",
+    "edition": "Bosworth & Co. 1896; Universal Edition 1910. Engraving retains the original C-sharp-minor notation; sounding events from all four source staves are shifted +1 nominal semitone to match this supplied transfer. Fractional tuning is estimated separately. This measured transfer-pitch correction does not establish the historical pianist's chosen key or a performed transposition.",
     "encoder": "Petro Kostandy",
     "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033",
     "license": "CC BY-SA 4.0",
@@ -71,7 +71,7 @@
         61
       ]
     ],
-    "description": "Play the pickup, then printed bars 1–61 once; returns are written out, with no inserted repeat."
+    "description": "Play the pickup, then printed bars 1–61 once; returns are written out, with no inserted repeat. The engraving remains in the original C-sharp minor, while all four staves' sounding events are shifted +1 nominal semitone for this supplied transfer (nominal D minor), with fractional tuning handled separately. This is a measured transfer-pitch match, not a historical-key or performer-transposition assertion."
   },
   "endpoints": {
     "first": [
@@ -90,6 +90,42 @@
       "window": [5.25, 5.7],
       "label": "third-opening-transferred-D-octaves",
       "basis": "With the documented +1 nominal-semitone transfer correction, the source's third C-sharp bell sounds D1/D2/D3 near 5.45 s. Its sustained pitch state must not begin early. This is inspected source-pitch fitting evidence, not independent validation."
+    },
+    {
+      "scoreQ": 219,
+      "window": [174.75, 175.15],
+      "label": "coda-first-transferred-B-flat3-B-flat4-signature",
+      "basis": "With the disclosed +1 nominal-semitone sounding correction, the first coda chord's B-flat3/B-flat4 signature peaks near174.94s. The earlier numeric pass assigned183.471s, confusing later coda material with this first voicing. All five signatures are inspected source fitting, not independent validation."
+    },
+    {
+      "scoreQ": 223,
+      "window": [178.9, 179.35],
+      "label": "coda-second-transferred-B3-A4-signature",
+      "basis": "The second coda chord's transferred B3/A4 combination peaks near179.12s, not the old186.208s assignment. The unchanged source progression must not be matched to any nearby tonic-pedal onset."
+    },
+    {
+      "scoreQ": 227,
+      "window": [183.35, 183.8],
+      "label": "coda-third-transferred-G-sharp3-B-flat4-signature",
+      "basis": "The third coda chord's transferred G-sharp3/B-flat4 pair peaks near183.56s, whereas the earlier publication assigned188.680s. This is a source-voicing phase correction, not merely a favourable onset statistic."
+    },
+    {
+      "scoreQ": 231,
+      "window": [188.65, 189.15],
+      "label": "coda-fourth-transferred-G-B-signature",
+      "basis": "The transferred G3/B3/G4/B4 signature belongs to the fourth chord near188.8–189.0s. Its rolled/noisy attack is represented by a source-pitch fitting window; no simultaneous physical-key transcription is claimed."
+    },
+    {
+      "scoreQ": 235,
+      "window": [194.05, 194.6],
+      "label": "coda-fifth-transferred-E-G-B-flat-signature",
+      "basis": "The fifth source chord's transferred E/G/B-flat signature peaks near194.24s, before the distinct lower nominal-D-minor closing voicing. Original printed C-sharp-minor notation is retained."
+    },
+    {
+      "scoreQ": 240,
+      "window": [197.95, 198.35],
+      "label": "closing-lower-transferred-D-minor-voicing",
+      "basis": "The lower closing chord's transferred A3/A4 pair peaks near198.14s, before the higher penultimate200.50s chord and final203.13s reattack. These source-fitted landmarks preserve the complete ending and are not independent or aural checks."
     },
     {
       "scoreQ": 241.5,

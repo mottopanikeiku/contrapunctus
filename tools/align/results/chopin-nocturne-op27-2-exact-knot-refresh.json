@@ -1,0 +1,480 @@
+{
+  "version": 1,
+  "id": "chopin-nocturne-op27-2",
+  "kind": "exact-interior-anchor-refresh",
+  "basis": "Source-keyed before/after time-warp changes after exact non-grid interior knots were retained in both continuous mappings. Full pre-refresh score snapshots were preserved for independent review. This is not an aural review.",
+  "sourceInventoryUnchanged": true,
+  "noteCount": 1806,
+  "barOccurrenceCount": 77,
+  "beforeNotesSha256": "bd2b11c2f16308e509cb0f031231fb7ae9082d55649f800a2d5fbaadb83eb659",
+  "afterNotesSha256": "07fd047d4d537cc4d5aa828a9ddf2a34c97a72a5a806176572813c8e801d7c06",
+  "hashEncoding": "UTF-8 JSON arrays, compact separators",
+  "changedNotes": [
+    {
+      "index": 1444,
+      "sourceEvent": [
+        175.5,
+        1.5,
+        61,
+        0,
+        58,
+        110
+      ],
+      "before": [
+        265.575,
+        2.442,
+        61,
+        0,
+        58
+      ],
+      "after": [
+        265.575,
+        2.405,
+        61,
+        0,
+        58
+      ]
+    },
+    {
+      "index": 1445,
+      "sourceEvent": [
+        175.5,
+        1.5,
+        63,
+        0,
+        58,
+        110
+      ],
+      "before": [
+        265.575,
+        2.442,
+        63,
+        0,
+        58
+      ],
+      "after": [
+        265.575,
+        2.405,
+        63,
+        0,
+        58
+      ]
+    },
+    {
+      "index": 1446,
+      "sourceEvent": [
+        175.5,
+        1.5,
+        70,
+        0,
+        58,
+        110
+      ],
+      "before": [
+        265.575,
+        2.442,
+        70,
+        0,
+        58
+      ],
+      "after": [
+        265.575,
+        2.405,
+        70,
+        0,
+        58
+      ]
+    },
+    {
+      "index": 1451,
+      "sourceEvent": [
+        176.75,
+        0.25,
+        42,
+        1,
+        58,
+        90
+      ],
+      "before": [
+        267.578,
+        0.439,
+        42,
+        1,
+        58
+      ],
+      "after": [
+        267.578,
+        0.402,
+        42,
+        1,
+        58
+      ]
+    },
+    {
+      "index": 1452,
+      "sourceEvent": [
+        177.0,
+        0.25,
+        32,
+        1,
+        59,
+        110
+      ],
+      "before": [
+        268.017,
+        0.656,
+        32,
+        1,
+        59
+      ],
+      "after": [
+        267.98,
+        0.693,
+        32,
+        1,
+        59
+      ]
+    },
+    {
+      "index": 1453,
+      "sourceEvent": [
+        177.0,
+        0.75,
+        56,
+        0,
+        59,
+        90
+      ],
+      "before": [
+        268.017,
+        1.463,
+        56,
+        0,
+        59
+      ],
+      "after": [
+        267.98,
+        1.5,
+        56,
+        0,
+        59
+      ]
+    },
+    {
+      "index": 1454,
+      "sourceEvent": [
+        177.0,
+        0.75,
+        61,
+        0,
+        59,
+        90
+      ],
+      "before": [
+        268.017,
+        1.463,
+        61,
+        0,
+        59
+      ],
+      "after": [
+        267.98,
+        1.5,
+        61,
+        0,
+        59
+      ]
+    },
+    {
+      "index": 1455,
+      "sourceEvent": [
+        177.0,
+        0.75,
+        63,
+        0,
+        59,
+        90
+      ],
+      "before": [
+        268.017,
+        1.463,
+        63,
+        0,
+        59
+      ],
+      "after": [
+        267.98,
+        1.5,
+        63,
+        0,
+        59
+      ]
+    },
+    {
+      "index": 1793,
+      "sourceEvent": [
+        224.75,
+        0.25,
+        44,
+        1,
+        74,
+        90
+      ],
+      "before": [
+        352.804,
+        1.363,
+        44,
+        1,
+        74
+      ],
+      "after": [
+        352.804,
+        1.356,
+        44,
+        1,
+        74
+      ]
+    },
+    {
+      "index": 1794,
+      "sourceEvent": [
+        224.78385416666663,
+        0.21354166666666666,
+        90,
+        0,
+        74,
+        90
+      ],
+      "before": [
+        353.82,
+        0.342,
+        90,
+        0,
+        74
+      ],
+      "after": [
+        353.82,
+        0.337,
+        90,
+        0,
+        74
+      ]
+    },
+    {
+      "index": 1795,
+      "sourceEvent": [
+        224.78385416666663,
+        0.21354166666666666,
+        99,
+        0,
+        74,
+        90
+      ],
+      "before": [
+        353.82,
+        0.342,
+        99,
+        0,
+        74
+      ],
+      "after": [
+        353.82,
+        0.337,
+        99,
+        0,
+        74
+      ]
+    },
+    {
+      "index": 1796,
+      "sourceEvent": [
+        225.0,
+        1.0,
+        37,
+        1,
+        75,
+        90
+      ],
+      "before": [
+        354.166,
+        5.342,
+        37,
+        1,
+        75
+      ],
+      "after": [
+        354.16,
+        5.349,
+        37,
+        1,
+        75
+      ]
+    },
+    {
+      "index": 1797,
+      "sourceEvent": [
+        225.0,
+        1.0,
+        92,
+        0,
+        75,
+        90
+      ],
+      "before": [
+        354.166,
+        5.342,
+        92,
+        0,
+        75
+      ],
+      "after": [
+        354.16,
+        5.349,
+        92,
+        0,
+        75
+      ]
+    },
+    {
+      "index": 1798,
+      "sourceEvent": [
+        225.0,
+        1.0,
+        101,
+        0,
+        75,
+        90
+      ],
+      "before": [
+        354.166,
+        5.342,
+        101,
+        0,
+        75
+      ],
+      "after": [
+        354.16,
+        5.349,
+        101,
+        0,
+        75
+      ]
+    }
+  ],
+  "changedBars": [
+    {
+      "index": 59,
+      "sourceBar": {
+        "n": "60",
+        "occ": 1,
+        "q": 177.0,
+        "durQ": 3.0
+      },
+      "before": {
+        "n": "60",
+        "occ": 1,
+        "t": 268.017
+      },
+      "after": {
+        "n": "60",
+        "occ": 1,
+        "t": 267.98
+      }
+    },
+    {
+      "index": 75,
+      "sourceBar": {
+        "n": "76",
+        "occ": 1,
+        "q": 225.0,
+        "durQ": 3.0
+      },
+      "before": {
+        "n": "76",
+        "occ": 1,
+        "t": 354.166
+      },
+      "after": {
+        "n": "76",
+        "occ": 1,
+        "t": 354.16
+      }
+    }
+  ],
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.84,
+      "peakSeconds": 1.06,
+      "window": [
+        0,
+        4
+      ],
+      "midiPitches": [
+        37
+      ],
+      "basis": "The opening D-flat2 occurs near 0.84 s. Inspected final source-pitch evidence places the actual last D-flat3/F4/D-flat5 chord near 364.7 s, after the preceding A-flat chord near 360.5 s; the earlier broad window incorrectly selected a preceding event despite passing numerical gates.",
+      "mappedAudioSeconds": 0.84,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-60-low-A-flat-chord",
+      "scoreQ": 177.0,
+      "audioSeconds": 267.98,
+      "peakSeconds": 268.02,
+      "window": [
+        267.85,
+        268.25
+      ],
+      "midiPitches": [
+        32,
+        56,
+        61,
+        63
+      ],
+      "basis": "The source A-flat1/A-flat3/D-flat4/E-flat4 chord has a clear pitch rise near 268 s immediately before the ascending right-hand run. The unconstrained candidate placed this chord and run approximately one second late. This is an inspected source-pitch constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 267.98,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-76-high-A-flat6-F7",
+      "scoreQ": 225.0,
+      "audioSeconds": 354.16,
+      "peakSeconds": 354.2,
+      "window": [
+        354.05,
+        354.35
+      ],
+      "midiPitches": [
+        37,
+        92,
+        101
+      ],
+      "basis": "Fixed cached absolute-pitch features show the closing ascent's F-sharp6/G-sharp6/B-flat6/C7/D-flat7/E-flat7 peaks at350.88/351.28/351.66/352.12/352.50/353.02s, then F7 at354.18s. The unconstrained ending warp delayed this final high dyad to357.666s despite passing gates. Bind the actual q225 A-flat6/F7 attack, retaining its notated hold, the following rest and both later chords. This is an inspected fitting constraint, not independent validation or a measured key release.",
+      "mappedAudioSeconds": 354.16,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 228.0,
+      "audioSeconds": 364.66,
+      "peakSeconds": 364.72,
+      "window": [
+        364.4,
+        365.1
+      ],
+      "midiPitches": [
+        49,
+        65,
+        73
+      ],
+      "basis": "The opening D-flat2 occurs near 0.84 s. Inspected final source-pitch evidence places the actual last D-flat3/F4/D-flat5 chord near 364.7 s, after the preceding A-flat chord near 360.5 s; the earlier broad window incorrectly selected a preceding event despite passing numerical gates.",
+      "mappedAudioSeconds": 364.67324675324676,
+      "mappingDeviationSeconds": 0.013246753246733078
+    }
+  ],
+  "medianAbsoluteOnsetDeviation": 0.040937950937944834,
+  "p95AbsoluteOnsetDeviation": 0.28476272933410735,
+  "gateReasons": []
+}

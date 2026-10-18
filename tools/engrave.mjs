@@ -9,6 +9,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import os from 'node:os';
+import { pathToFileURL } from 'node:url';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -39,21 +40,33 @@ const PAPER = (width, height = 297) => `
 
 // LilyPond reports an initial pickup at negative position before the first full
 // bar. Give those real glyphs the preceding bar number; retain their positions.
-const PRELUDE = (width, height) => `
+export const PRELUDE = (width, height) => `
+% A score embedded in a running score's markup has a parent layout; actual
+% book-rendered music has a parent paper definition (LilyPond 2.24.4).
+#(define (cp-main-grob? grob)
+  (let ((parent (ly:output-def-parent (ly:grob-layout grob) #f)))
+    (not (and parent
+              (eq? (ly:output-def-lookup parent 'output-def-kind) 'layout)))))
 #(define (cp-attrs grob)
-  (let* ((loc (grob::rhythmic-location grob))
-         (bar (if (pair? loc) (car loc) 0))
-         (pos (if (pair? loc) (exact->inexact (ly:moment-main (cdr loc))) 0)))
-    (list (cons 'class (if (grob::has-interface grob 'rest-interface) "rs" "nh"))
-          (cons 'data-bar (number->string (if (< pos 0) (- bar 1) bar)))
-          (cons 'data-pos (number->string pos)))))
+  (if (cp-main-grob? grob)
+    (let* ((loc (grob::rhythmic-location grob))
+           (bar (if (pair? loc) (car loc) 0))
+           (pos (if (pair? loc) (exact->inexact (ly:moment-main (cdr loc))) 0)))
+      (list (cons 'class (if (grob::has-interface grob 'rest-interface) "rs" "nh"))
+            (cons 'data-bar (number->string (if (< pos 0) (- bar 1) bar)))
+            (cons 'data-pos (number->string pos))))
+    '()))
+#(define (cp-geometry-attrs grob)
+  (if (cp-main-grob? grob)
+    (list (cons 'class (if (grob::has-interface grob 'staff-symbol-interface) "staff" "barline")))
+    '()))
 ${PAPER(width, height)}
 \\layout {
   \\context { \\Score
     \\override NoteHead.output-attributes = #cp-attrs
     \\override Rest.output-attributes = #cp-attrs
-    \\override StaffSymbol.output-attributes = #'((class . "staff"))
-    \\override BarLine.output-attributes = #'((class . "barline"))
+    \\override StaffSymbol.output-attributes = #cp-geometry-attrs
+    \\override BarLine.output-attributes = #cp-geometry-attrs
     \\override BarNumber.break-visibility = ##(#f #t #t)
   }
 }
@@ -111,32 +124,34 @@ async function engrave(id, options) {
 }
 
 
-const args = process.argv.slice(2);
-const ids = [];
-const options = {};
-for (let i = 0; i < args.length; i++) {
-  if (args[i] === '--prepared') options.prepared = true;
-  else if (args[i] === '--score' || args[i] === '--out') {
-    const key = args[i].slice(2);
-    if (!args[i + 1]) throw new Error(`Missing --${key} path`);
-    options[key] = path.resolve(args[++i]);
-  } else if (args[i].startsWith('-')) throw new Error(`Unknown option ${args[i]}`);
-  else ids.push(args[i]);
-}
-if (!ids.length) {
-  const configured = (await readdir(CONFIGS)).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)).sort();
-  for (const id of configured) {
-    try {
-      await stat(path.join(ROOT, 'docs/assets/data', id, 'score.json'));
-      ids.push(id);
-    } catch (error) {
-      if (error.code !== 'ENOENT') throw error;
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+  const args = process.argv.slice(2);
+  const ids = [];
+  const options = {};
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--prepared') options.prepared = true;
+    else if (args[i] === '--score' || args[i] === '--out') {
+      const key = args[i].slice(2);
+      if (!args[i + 1]) throw new Error(`Missing --${key} path`);
+      options[key] = path.resolve(args[++i]);
+    } else if (args[i].startsWith('-')) throw new Error(`Unknown option ${args[i]}`);
+    else ids.push(args[i]);
+  }
+  if (!ids.length) {
+    const configured = (await readdir(CONFIGS)).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)).sort();
+    for (const id of configured) {
+      try {
+        await stat(path.join(ROOT, 'docs/assets/data', id, 'score.json'));
+        ids.push(id);
+      } catch (error) {
+        if (error.code !== 'ENOENT') throw error;
+      }
     }
   }
-}
-if (ids.length !== 1 && (options.out || options.score)) throw new Error('--score/--out require one recording');
-await run(CARGO, ['build', '--release', '--locked', '--manifest-path', PACK_MANIFEST], { maxBuffer: 1 << 20 });
-for (const id of ids) {
-  try { await engrave(id, options); }
-  catch (e) { console.error(`FAILED ${id}: ${e.message}`); process.exitCode = 1; }
+  if (ids.length !== 1 && (options.out || options.score)) throw new Error('--score/--out require one recording');
+  await run(CARGO, ['build', '--release', '--locked', '--manifest-path', PACK_MANIFEST], { maxBuffer: 1 << 20 });
+  for (const id of ids) {
+    try { await engrave(id, options); }
+    catch (e) { console.error(`FAILED ${id}: ${e.message}`); process.exitCode = 1; }
+  }
 }

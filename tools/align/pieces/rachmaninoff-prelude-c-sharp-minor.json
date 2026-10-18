@@ -91,6 +91,42 @@
       "basis": "The third opening bell is C-sharp1/C-sharp2/C-sharp3 near 4.5 s. Its long sustained pitch state had been allowed to start before the measured attack. This is an inspected source-pitch fitting constraint, not independent validation."
     },
     {
+      "scoreQ": 219,
+      "window": [193.8, 194.2],
+      "label": "coda-first-chord-A3-A4-signature",
+      "basis": "The first of the five chromatically distinct coda chords has the source A3/A4 signature near194.02s. The old numeric pass assigned it197.393s, near the next chord. Absolute-pitch inspection establishes the complete five-chord order; these are source fitting constraints, not independent validation."
+    },
+    {
+      "scoreQ": 223,
+      "window": [197.5, 197.95],
+      "label": "coda-second-chord-A-sharp3-G-sharp4-signature",
+      "basis": "The source's changed A-sharp3/G-sharp4 combination peaks near197.76s. It is the second coda voicing, not a delayed first chord or an interchangeable tonic-pedal onset."
+    },
+    {
+      "scoreQ": 227,
+      "window": [201.5, 201.95],
+      "label": "coda-third-chord-G3-A4-signature",
+      "basis": "The third coda chord's G3/A4 pair is visible near201.76s. The old warp's204.577s was a genuine source-phase error despite a passing onset median."
+    },
+    {
+      "scoreQ": 231,
+      "window": [206.15, 206.6],
+      "label": "coda-fourth-chord-F-sharp-A-sharp-signature",
+      "basis": "The fourth voicing has F-sharp3/A-sharp3/F-sharp4/A-sharp4 near206.38s. Preserve its order and chromatic change rather than matching a neighbouring bass attack."
+    },
+    {
+      "scoreQ": 235,
+      "window": [211.25, 211.75],
+      "label": "coda-fifth-chord-D-sharp-F-sharp-A-signature",
+      "basis": "The fifth chord's D-sharp/F-sharp/A signature is visible near211.50s in logarithmic absolute-pitch features, before the separate low C-sharp-minor closing voicing."
+    },
+    {
+      "scoreQ": 240,
+      "window": [214.95, 215.35],
+      "label": "closing-lower-C-sharp-minor-voicing",
+      "basis": "The lower closing voicing's G-sharp3/G-sharp4 pair peaks near215.12s, before the higher penultimate chord at217.6s and its final reattack. The weak historic signal is inspected fitting evidence, not an aural or independent check."
+    },
+    {
       "scoreQ": 241.5,
       "window": [217.6, 218.05],
       "label": "penultimate-upper-C-sharp-minor-chord",

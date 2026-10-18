@@ -1,0 +1,33 @@
+{
+  "id": "beethoven-appassionata-andante",
+  "kind": "quiet-source-attack-evidence",
+  "audioSha256": "ac3691474ee1848905fe9d74ebc4dad529fa0df06049e0e030e048ac0ba10c65",
+  "basis": "Measured cached pitch-bin energies; vertical lines are disclosed fitted constraints. The complete encoded source chord is retained; a rolled chord has one symbolic source time, not independently timed physical keys. This is inspectable fitting evidence, not independent or aural validation.",
+  "frameRate": 50,
+  "plot": "beethoven-appassionata-andante-rolled-link.png",
+  "events": [
+    {
+      "sourceQ": 286,
+      "midiPitches": [
+        46,
+        49,
+        52,
+        55,
+        58,
+        61,
+        64,
+        67,
+        73
+      ],
+      "window": [
+        346.25,
+        346.6
+      ],
+      "fittedAudioSeconds": 346.34,
+      "mappedAudioSeconds": 346.34,
+      "sourcePitchPeakSeconds": 346.54,
+      "meanSourcePitchEnergyAtPeak": 0.0031249027233570814,
+      "preAttackMedianEnergy": 0.0002204545889981091
+    }
+  ]
+}
