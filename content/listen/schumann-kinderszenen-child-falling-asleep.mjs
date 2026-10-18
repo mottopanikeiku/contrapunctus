@@ -14,7 +14,7 @@ export default {
   performers: 'Donald Betts',
   recorded: '2005',
   source: { file: 'File:Robert Schumann - scenes from childhood, op. 15 - xii. child falling asleep.ogg' },
-  intro: 'An accented, repeated B begins a lullaby in E minor. The middle part moves to E major and pp, and the opening returns to end on a held chord. This is the longest slow stretch of the cycle.',
+  intro: 'An accented, repeated B begins a lullaby, with one sharp in the key signature. The middle part has four sharps and is marked pp; the opening shape then returns and the piece ends on a held chord.',
   question: 'What does the key signature tell you that the notes do not?',
 
   sections: [
@@ -28,7 +28,7 @@ export default {
     { t: 28, kind: 'form', title: 'Four sharps: the middle part', text: 'After a double bar the key signature jumps from one sharp to four, for E major, and the marking drops to pp. The report’s key estimates change around 0:35–0:45. At one point the right hand moves into the bass clef.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.31 at 0:28; pitch classes E♭ (D♯) C♯ B at 0:40 and B major at 0:40–0:55; −15.4 dB at 0:40. Score p. 18, third system: key signature of four sharps, pp, a clef change to bass in the right-hand part. Machine keys are confirmation only.' },
     { t: 52, kind: 'life', title: 'Memories of childhood, written for adults', text: 'Schumann was twenty-seven in February 1838 and would not marry Clara for another two and a half years. He called the cycle reflections of an older person for older people, not music for children to play.', basis: 'documented', precision: 'passage', evidence: 'Henle Urtext review at schumann-portal.de/3213.html: Schumann’s “Rückspiegelungen eines älteren für ältere” and the remark that the pieces are for adults who remember childhood; Zwickau catalogue, item 11, gives the phrase as “eines Erwachsenen für Ältere”. Born 8 June 1810, so twenty-seven in February–March 1838. The marriage took place on 12 September 1840 (Clara Schumann, Wikipedia; composer page).' },
     { t: 72, kind: 'form', title: 'The lullaby returns', text: 'Near 1:12 the repeated B comes back, p again, and the key signature returns to one sharp. The report finds its largest boundary here, and the rate of attacks nearly halves.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 1.00 at 1:12; −9.8 dB at 1:05, −11.9 dB at 1:10, onsets 1.2 per second at 1:10 against 2.2 at 1:05. Score p. 19, third system: one-sharp key signature, p, repeated B.' },
-    { t: 100, kind: 'listen', title: 'Ritardando, then a held chord', text: 'The last system is marked ritardando and ends on a chord with a fermata. The report finds the sound falling from −17 dB at 1:40 to −43 dB at 1:55 and silence by 2:00. Listen for how long the last chord keeps sounding.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: −16.8 dB at 1:40, −22.4 dB at 1:45, −28.5 dB at 1:50, −42.6 dB at 1:55, −61.9 dB at 2:00; 0.4 onsets per second at 1:50. Score p. 19, last system: ritardando over the final bars, fermata chord.' },
+    { t: 100, kind: 'listen', title: 'Ritardando, then a held chord', text: 'The last system is marked ritardando and ends on a chord with a fermata. The report’s key estimate for the last windows is A minor (r = 0.77–0.86), not the E minor of the opening, so the chord does not simply come home. The sound falls from −17 dB at 1:40 to −43 dB at 1:55.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: −16.8 dB at 1:40, −22.4 dB at 1:45, −28.5 dB at 1:50, −42.6 dB at 1:55, −61.9 dB at 2:00; 0.4 onsets per second at 1:50. Score p. 19, last system: ritardando over the final bars, fermata chord. Key estimates: A minor 1:45–2:00, against E-based harmony in the first system (Em chord, then a chord with D♯); machine keys are confirmation only.' },
   ],
 
   transitions: [
@@ -52,7 +52,7 @@ export default {
       to: 'A′ · the lullaby returns',
       at: { t: 72 },
       span: [64, 80],
-      how: '<p>The middle part ends with a ritardando and the key signature returns to one sharp. The repeated B and the left-hand figure of the opening are heard again, and the harmony goes from E major back to the E minor of the opening.</p>',
+      how: '<p>The middle part ends with a ritardando and the key signature returns to one sharp. The repeated B and the left-hand figure of the opening are heard again, and the harmony leaves the E-major region of the middle part for the one-sharp harmony of the opening.</p>',
       devices: ['tempo change', 'direct modulation', 'retransition'],
       basis: 'audio-feature',
       precision: 'passage',

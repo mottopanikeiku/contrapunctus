@@ -136,17 +136,18 @@
       "note": "Shostakovich died in 1975. The ordinary EU life-plus-70 calculation runs through 2045; this is not a global clearance or a statement of a US expiry date. IMSLP identifies the work as non-public-domain in the EU and US. The inspected score is territorially hosted as public domain in Taiwan and is cited, not republished. No composition licence is asserted."
     },
     "recording": {
-      "value": "Rule 3: territorial EU historic-recording basis; lawful commercial publication documented no later than 1956",
+      "value": "Rule 3: territorial EU historic-recording basis; commercial circulation documented by December 1955, selected LP issue dated 1956",
       "status": "documented",
       "sourceIds": [
         "sleeve-labels",
         "archive",
         "work-history",
         "label-reissue",
+        "contemporary-review",
         "eu-term",
         "eu-extension"
       ],
-      "note": "The original Westminster sleeve/labels and album metadata establish the commercial 1956 WN 18001/XWN 18001 issue. First publication anywhere before 1963 is the rule: no EU-first-release claim is required or made. The 1956 value is a documented upper bound, not a claim that no earlier issue existed; the publisher lists Nixa WLP 20004 in 1955 for the attributed 1954 performance. Even using 1956, the ordinary 50-year recording term had expired before the 2013 extension. US sound-recording status is not established. Complete item metadata, original side-transfer provenance and scans disclose no Creative Commons non-commercial condition or separate upstream digital source. This is not a worldwide public-domain or composition-rights clearance."
+      "note": "The original Westminster sleeve/labels and album metadata establish the selected 1956 WN 18001/XWN 18001 issue. A visually inspected High Fidelity review, December 1955, p. 80, already names this London orchestra, Rodzinski, his second recording of the Fifth and Westminster catalogue 18001; the review prints SWN 18001 and erroneously calls the symphony D major, so those details are not silently normalized. The publisher also lists Nixa WLP 20004 in 1955. First lawful publication anywhere before 1963 is the rule; no EU-first-release claim is required or made. source.rights.published 1956 remains a conservative upper bound tied to the selected physical issue, not a first-release date. Even using 1956, the ordinary 50-year recording term had expired before the 2013 extension. US sound-recording status is not established. Complete item metadata, original side-transfer provenance and scans disclose no Creative Commons non-commercial condition or separate upstream digital source. This is not a worldwide public-domain or composition-rights clearance."
     },
     "creditLine": "Shostakovich, Symphony No. 5 in D minor, Op. 47, III. Largo — Philharmonic Symphony Orchestra of London, Artur Rodzinski. Westminster WN 18001/XWN 18001, issued 1956; side 2, XTV 22721. Session attributed by reissue documentation to 2–14 October 1954, Walthamstow Hall, London. Internet Archive LP transfer, ripping operator associate-louiemar-secuya@archive.org, 15 September 2021. Territorial EU recording basis only; US status and composition clearance not established.",
     "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
@@ -254,7 +255,14 @@
       "id": "label-reissue",
       "title": "Decca Eloquence — Artur Rodzinski, Complete Westminster Recordings",
       "url": "https://www.eloquenceclassics.com/releases-archive/artur-rodzinski-edition/",
-      "locator": "Label’s catalogue 4848489, CD 16: Shostakovich Symphony No. 5, Royal Philharmonic Orchestra. The label also quotes a High Fidelity review dated December 1955, corroborating circulation before the selected sleeve’s 1956 date. The original 1955 review and exact session ledger were not inspected; the conservative 1956 publication upper bound and inferred session fields are retained.",
+      "locator": "Label’s catalogue 4848489, CD 16: Shostakovich Symphony No. 5, Royal Philharmonic Orchestra. Quotes a High Fidelity review dated December 1955; that original review was subsequently located and visually inspected (source contemporary-review). The exact session ledger remains unavailable; inferred session fields are retained.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "contemporary-review",
+      "title": "High Fidelity — Shostakovich Fifth, Westminster 18001, December 1955",
+      "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/50s/High-Fidelity-1955-Dec.pdf",
+      "locator": "Printed p. 80, PDF p. 82, first column, review signed A. F.; original scan visually inspected, with December 1955 footer confirmed on printed p. 67/PDF p. 69. Names Philharmonic Symphony Orchestra of London/Artur Rodzinski and explicitly identifies his second recording. Catalogue is printed SWN 18001, price $4.98 (or $3.98); work key is misprinted D major. Evidence of circulation by December 1955, not an exact first-release day.",
       "accessed": "2026-10-17"
     },
     {

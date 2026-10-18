@@ -1,5 +1,5 @@
 {
   "id": "elgar-enigma-wn",
-  "verdict": "fix",
-  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] Clarinet and the initial lower accompaniment remain the sole displayed state throughout, omitting the subsequent upper-string/wind exchanges and the first-violin link into Nimrod.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 47–51: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf .","fix":"Add score-backed passage states for the later exchanges and closing first-violin link, placed broadly against the report; revise the opening-only locator."}]
+  "verdict": "pass",
+  "defects": []
 }

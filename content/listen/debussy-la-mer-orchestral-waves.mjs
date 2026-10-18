@@ -121,7 +121,7 @@ export default {
     {
       "t": 245,
       "kind": "listen",
-      "title": "Do not mistake every crest for an ending",
+      "title": "A crest is not an ending",
       "text": "The movement has more than one substantial surge. Keep listening beyond each crest for what remains in motion underneath or after it. A peak can be a stage in the movement’s course without being its destination.",
       "basis": "general",
       "precision": "passage",

@@ -107,10 +107,10 @@ export default {
       "t": 210,
       "kind": "form",
       "title": "A different kind of rest",
-      "text": "In the closing passage the score turns to G major, slows, and brings in the previously silent harp beside muted strings. The change is not merely softer playing: the accompaniment itself has become more spacious.",
+      "text": "In the closing passage the score turns to G major, slows, and brings in the previously silent harp beside muted strings. Listen for a change of harmonic footing and accompaniment, rather than assuming that repose must mean a lower recorded volume.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 6–7, figure 4, Lent: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. cache/analysis/lili-boulanger-pie-jesu.txt: the 3:24 boundary and the much lower levels after about 3:20 support the approximate placement of this closing passage. Approximate passage placement; no bar-to-audio alignment or exact entrance is claimed."
+      "evidence": "Visually inspected Durand full score, printed pp. 6–7, figure 4, Lent: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. cache/analysis/lili-boulanger-pie-jesu.txt: the level rises from −16.7 dB at 3:15 to −6.9 dB at 3:20, with a structural boundary near 3:24. This contrast anchors the closing region approximately; the G-major identification and quiet written dynamics come from the score, not a claim that this recording suddenly gets softer."
     },
     {
       "t": 245,
@@ -197,7 +197,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 6–7, figure 4 and final G-major chord: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. Actual cached analysis, cache/analysis/lili-boulanger-pie-jesu.txt: the boundary near 3:24 and sustained lower level towards the end locate the closing region; machine key labels were not used to identify G major. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Visually inspected Durand full score, printed pp. 6–7, figure 4 and final G-major chord: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. Actual cached analysis, cache/analysis/lili-boulanger-pie-jesu.txt: the level rises sharply out of the 3:15 dip, with a boundary near 3:24; the final withdrawal occurs later, after about 4:10. The score supplies G major, harp entry and slowing. Their placement is approximate, not a timed word or bar alignment."
     }
   ],
   "orchestra": {

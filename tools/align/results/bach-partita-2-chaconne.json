@@ -1,0 +1,1369 @@
+{
+  "uniqueScoreAttacks": 2315,
+  "audioDetectedOnsets": 2205,
+  "medianAbsoluteOnsetDeviation": 0.04334467120182239,
+  "noteWeightedMedianDeviation": 0.045401978973416135,
+  "p95AbsoluteOnsetDeviation": 0.37836008039578234,
+  "fractionWithin150ms": 0.811231101511879,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 5,
+      "median": 0.025897753040609928,
+      "p95": 0.08871985157699437,
+      "max": 0.09532570603999169,
+      "adaptiveMedian": 0.025897753040609928,
+      "adaptiveP95": 0.09398721913007647
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 12,
+      "median": 0.03567769532055287,
+      "p95": 0.23511747577818942,
+      "max": 0.2571047206761481,
+      "adaptiveMedian": 0.01915713254998863,
+      "adaptiveP95": 0.05403367862296572
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 8,
+      "median": 0.0377561327561331,
+      "p95": 0.46745923520923444,
+      "max": 0.6438455988455978,
+      "adaptiveMedian": 0.02936971758400375,
+      "adaptiveP95": 0.08795707070706926
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 15,
+      "median": 0.025041743970316332,
+      "p95": 0.29368965161822236,
+      "max": 0.4947711811997557,
+      "adaptiveMedian": 0.0238981653267345,
+      "adaptiveP95": 0.05856539888683051
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 16,
+      "median": 0.021397392290250394,
+      "p95": 0.10686636775922587,
+      "max": 0.2077391259534096,
+      "adaptiveMedian": 0.018194186765615683,
+      "adaptiveP95": 0.04547438672438986
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 15,
+      "median": 0.01958719851577939,
+      "p95": 0.06207787054215994,
+      "max": 0.08917130488558911,
+      "adaptiveMedian": 0.01958719851577939,
+      "adaptiveP95": 0.04843936817150905
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 11,
+      "median": 0.050705009276441615,
+      "p95": 0.3651386312100833,
+      "max": 0.4236956297670602,
+      "adaptiveMedian": 0.0418594104308454,
+      "adaptiveP95": 0.07516568748711805
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 18,
+      "median": 0.10603973407545553,
+      "p95": 0.9585350700886422,
+      "max": 1.1727185116470835,
+      "adaptiveMedian": 0.0328084415584442,
+      "adaptiveP95": 0.05914813955884697
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 16,
+      "median": 0.035583642547926786,
+      "p95": 0.3355193516800625,
+      "max": 0.44042001649144424,
+      "adaptiveMedian": 0.029252473716759653,
+      "adaptiveP95": 0.05351718717789211
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 15,
+      "median": 0.06151102865388225,
+      "p95": 0.2149677386106063,
+      "max": 0.22295763760050136,
+      "adaptiveMedian": 0.032925170068011766,
+      "adaptiveP95": 0.08805601937744423
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 15,
+      "median": 0.1484106369820637,
+      "p95": 0.6014935064935201,
+      "max": 0.6478354978354872,
+      "adaptiveMedian": 0.025012368583787747,
+      "adaptiveP95": 0.06352525252523547
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 21,
+      "median": 0.06038961038960622,
+      "p95": 0.2057637600494786,
+      "max": 0.28033910533912376,
+      "adaptiveMedian": 0.03313028241598204,
+      "adaptiveP95": 0.09825396825397092
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 32,
+      "median": 0.03600288600289758,
+      "p95": 0.18323216862502886,
+      "max": 0.2527891156462374,
+      "adaptiveMedian": 0.029912646876930182,
+      "adaptiveP95": 0.09507874665017724
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 24,
+      "median": 0.05913007627292899,
+      "p95": 0.4530337301587358,
+      "max": 0.6879262007833375,
+      "adaptiveMedian": 0.029193207586061476,
+      "adaptiveP95": 0.05913419913418991
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 17,
+      "median": 0.06215625644196621,
+      "p95": 0.3290876108018892,
+      "max": 0.39668109668110674,
+      "adaptiveMedian": 0.035669964955687306,
+      "adaptiveP95": 0.11614801071943642
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 36,
+      "median": 0.02470495774067416,
+      "p95": 0.19301368274583197,
+      "max": 0.24797979797979508,
+      "adaptiveMedian": 0.024047876726449147,
+      "adaptiveP95": 0.06457959699030624
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 34,
+      "median": 0.027305452484043258,
+      "p95": 0.24550195835909666,
+      "max": 0.2756101834673359,
+      "adaptiveMedian": 0.027348484848502608,
+      "adaptiveP95": 0.07620544733042463
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 32,
+      "median": 0.035377499484638975,
+      "p95": 0.2341251030715483,
+      "max": 0.30481292517006864,
+      "adaptiveMedian": 0.024926819212538476,
+      "adaptiveP95": 0.08954455266956529
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 30,
+      "median": 0.0457923623994958,
+      "p95": 0.24890942589154982,
+      "max": 0.3314718614718686,
+      "adaptiveMedian": 0.0322848381776879,
+      "adaptiveP95": 0.07408882189239276
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 30,
+      "median": 0.03968640486498032,
+      "p95": 0.45601396619253903,
+      "max": 0.5293893011750299,
+      "adaptiveMedian": 0.023358843537408802,
+      "adaptiveP95": 0.059099824778402865
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 34,
+      "median": 0.05878272521128736,
+      "p95": 0.3111717429396349,
+      "max": 0.47491702741703534,
+      "adaptiveMedian": 0.0277619305297776,
+      "adaptiveP95": 0.06516135848278992
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 35,
+      "median": 0.036562564419739374,
+      "p95": 0.3050296330653449,
+      "max": 0.3965811172954261,
+      "adaptiveMedian": 0.020436507936494763,
+      "adaptiveP95": 0.06875144300145448
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 29,
+      "median": 0.030602968460129887,
+      "p95": 0.20241795506079824,
+      "max": 0.35263347763344655,
+      "adaptiveMedian": 0.035947742733441146,
+      "adaptiveP95": 0.13190785405070068
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 44,
+      "median": 0.042135384456798874,
+      "p95": 0.19223160173161064,
+      "max": 0.22125025767886086,
+      "adaptiveMedian": 0.03173933209647828,
+      "adaptiveP95": 0.05794758812618142
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 46,
+      "median": 0.03624768089053987,
+      "p95": 0.12489293444649974,
+      "max": 0.274376932591224,
+      "adaptiveMedian": 0.03374072356216118,
+      "adaptiveP95": 0.07413838641517145
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 69,
+      "median": 0.04239383632241811,
+      "p95": 0.13923984745413232,
+      "max": 0.15717223252934787,
+      "adaptiveMedian": 0.03714440321584789,
+      "adaptiveP95": 0.06126092558235424
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 71,
+      "median": 0.0438507524221734,
+      "p95": 0.16534374355804005,
+      "max": 0.35276283240568773,
+      "adaptiveMedian": 0.03522211915066009,
+      "adaptiveP95": 0.06816107503607327
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 65,
+      "median": 0.04810509431044352,
+      "p95": 0.19808256029686488,
+      "max": 0.4004622758193932,
+      "adaptiveMedian": 0.03994279529993605,
+      "adaptiveP95": 0.060867759224890954
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 27,
+      "median": 0.033885796742936236,
+      "p95": 0.2573999175427275,
+      "max": 0.32583436404866006,
+      "adaptiveMedian": 0.02838718820865438,
+      "adaptiveP95": 0.0686842403627935
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 25,
+      "median": 0.03903628117916469,
+      "p95": 0.3633481756338653,
+      "max": 0.59887085137089,
+      "adaptiveMedian": 0.02394145537002146,
+      "adaptiveP95": 0.08322366522365875
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 23,
+      "median": 0.16787569573281758,
+      "p95": 0.6587904555761639,
+      "max": 0.9354648526076801,
+      "adaptiveMedian": 0.027730880230876664,
+      "adaptiveP95": 0.05289213564211934
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 28,
+      "median": 0.0293944547515963,
+      "p95": 0.40835801896517393,
+      "max": 0.857302102659304,
+      "adaptiveMedian": 0.02423765718410209,
+      "adaptiveP95": 0.061184833024105954
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 70,
+      "median": 0.0318116110080382,
+      "p95": 0.15127388682744253,
+      "max": 0.21636080189654194,
+      "adaptiveMedian": 0.02481253865181543,
+      "adaptiveP95": 0.07213745232942016
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 37,
+      "median": 0.03921279117707854,
+      "p95": 0.20475572046998414,
+      "max": 0.23048675530822038,
+      "adaptiveMedian": 0.028490517419129446,
+      "adaptiveP95": 0.05476020408163996
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 12,
+      "median": 0.18802721088437124,
+      "p95": 0.9736921768707529,
+      "max": 1.206870748299309,
+      "adaptiveMedian": 0.04707431457433131,
+      "adaptiveP95": 0.09665903937331277
+    },
+    {
+      "start": 280.0,
+      "end": 288.0,
+      "attacks": 9,
+      "median": 0.11664192949905328,
+      "p95": 0.35284147598431437,
+      "max": 0.4777138734281152,
+      "adaptiveMedian": 0.03653473510615868,
+      "adaptiveP95": 0.07062832405689504
+    },
+    {
+      "start": 288.0,
+      "end": 296.0,
+      "attacks": 11,
+      "median": 0.08693052978770766,
+      "p95": 0.3790414347557771,
+      "max": 0.4457658214801654,
+      "adaptiveMedian": 0.044766027623154514,
+      "adaptiveP95": 0.07606472892186389
+    },
+    {
+      "start": 296.0,
+      "end": 304.0,
+      "attacks": 10,
+      "median": 0.09566996495564695,
+      "p95": 0.3182593279736039,
+      "max": 0.3478437435580304,
+      "adaptiveMedian": 0.03112760255621083,
+      "adaptiveP95": 0.05796876932588758
+    },
+    {
+      "start": 304.0,
+      "end": 312.0,
+      "attacks": 8,
+      "median": 0.095769944341356,
+      "p95": 0.7217837559266256,
+      "max": 0.8243537414966227,
+      "adaptiveMedian": 0.0346320346320681,
+      "adaptiveP95": 0.07602484023913973
+    },
+    {
+      "start": 312.0,
+      "end": 320.0,
+      "attacks": 9,
+      "median": 0.13443001442999503,
+      "p95": 0.1973502370644951,
+      "max": 0.20519274376414387,
+      "adaptiveMedian": 0.05630179344461794,
+      "adaptiveP95": 0.10119027004741382
+    },
+    {
+      "start": 320.0,
+      "end": 328.0,
+      "attacks": 10,
+      "median": 0.10903318903316972,
+      "p95": 0.25462502576795015,
+      "max": 0.3246732632447902,
+      "adaptiveMedian": 0.0355452484023715,
+      "adaptiveP95": 0.08278664192955314
+    },
+    {
+      "start": 328.0,
+      "end": 336.0,
+      "attacks": 8,
+      "median": 0.12220160791591184,
+      "p95": 0.350946712018188,
+      "max": 0.4239517625232452,
+      "adaptiveMedian": 0.03727272727275022,
+      "adaptiveP95": 0.0526703772417619
+    },
+    {
+      "start": 336.0,
+      "end": 344.0,
+      "attacks": 9,
+      "median": 0.054025974025989854,
+      "p95": 0.2212916924346018,
+      "max": 0.24924963924968324,
+      "adaptiveMedian": 0.04119769119773764,
+      "adaptiveP95": 0.07658833230260598
+    },
+    {
+      "start": 344.0,
+      "end": 352.0,
+      "attacks": 7,
+      "median": 0.11299938157083034,
+      "p95": 0.1977528344670929,
+      "max": 0.2174108431250943,
+      "adaptiveMedian": 0.020076272933408745,
+      "adaptiveP95": 0.038921665635945145
+    },
+    {
+      "start": 352.0,
+      "end": 360.0,
+      "attacks": 49,
+      "median": 0.023974953617823758,
+      "p95": 0.13253746650175338,
+      "max": 0.16672412904551948,
+      "adaptiveMedian": 0.025431096681074905,
+      "adaptiveP95": 0.05306921253348945
+    },
+    {
+      "start": 360.0,
+      "end": 368.0,
+      "attacks": 38,
+      "median": 0.03964620696760335,
+      "p95": 0.14768984487738804,
+      "max": 0.28688930117499467,
+      "adaptiveMedian": 0.03847698928052523,
+      "adaptiveP95": 0.08422674448565316
+    },
+    {
+      "start": 368.0,
+      "end": 376.0,
+      "attacks": 7,
+      "median": 0.037231498660105444,
+      "p95": 0.28552772624199163,
+      "max": 0.34626984126981597,
+      "adaptiveMedian": 0.039967017109916014,
+      "adaptiveP95": 0.11009699031129681
+    },
+    {
+      "start": 376.0,
+      "end": 384.0,
+      "attacks": 8,
+      "median": 0.046554318697161534,
+      "p95": 0.16795578231296698,
+      "max": 0.1821253349825156,
+      "adaptiveMedian": 0.039018759018745186,
+      "adaptiveP95": 0.06287569573288179
+    },
+    {
+      "start": 384.0,
+      "end": 392.0,
+      "attacks": 8,
+      "median": 0.028876520305090025,
+      "p95": 0.07496856318283845,
+      "max": 0.08722325293751965,
+      "adaptiveMedian": 0.04048649762935952,
+      "adaptiveP95": 0.05987559266128812
+    },
+    {
+      "start": 392.0,
+      "end": 400.0,
+      "attacks": 3,
+      "median": 0.07309214594926061,
+      "p95": 0.34220717377748994,
+      "max": 0.3721088435361821,
+      "adaptiveMedian": 0.07309214594926061,
+      "adaptiveP95": 0.09037043908580812
+    },
+    {
+      "start": 400.0,
+      "end": 408.0,
+      "attacks": 7,
+      "median": 1.8089383632240583,
+      "p95": 3.519819727891132,
+      "max": 3.6826963512677366,
+      "adaptiveMedian": 0.04410636982072447,
+      "adaptiveP95": 0.08649268192118593
+    },
+    {
+      "start": 408.0,
+      "end": 416.0,
+      "attacks": 8,
+      "median": 0.4679707792207921,
+      "p95": 1.1944527417027584,
+      "max": 1.3132034632034788,
+      "adaptiveMedian": 0.026273448773423524,
+      "adaptiveP95": 0.05452120696761824
+    },
+    {
+      "start": 416.0,
+      "end": 424.0,
+      "attacks": 17,
+      "median": 0.35045145330860805,
+      "p95": 1.5581868686868914,
+      "max": 1.6534121830550816,
+      "adaptiveMedian": 0.036093588950734556,
+      "adaptiveP95": 0.07216037930323863
+    },
+    {
+      "start": 424.0,
+      "end": 432.0,
+      "attacks": 12,
+      "median": 0.054204803133245605,
+      "p95": 0.5658024118738095,
+      "max": 0.7655473098329821,
+      "adaptiveMedian": 0.027571634714462334,
+      "adaptiveP95": 0.07021758400315718
+    },
+    {
+      "start": 432.0,
+      "end": 440.0,
+      "attacks": 17,
+      "median": 0.03958462172744248,
+      "p95": 0.18530756545040955,
+      "max": 0.21408266336828774,
+      "adaptiveMedian": 0.024032158317879748,
+      "adaptiveP95": 0.06301092558235266
+    },
+    {
+      "start": 440.0,
+      "end": 448.0,
+      "attacks": 17,
+      "median": 0.0377870542155847,
+      "p95": 0.46463553906415883,
+      "max": 0.4688260152545922,
+      "adaptiveMedian": 0.02069882498460629,
+      "adaptiveP95": 0.06425994640277394
+    },
+    {
+      "start": 448.0,
+      "end": 456.0,
+      "attacks": 17,
+      "median": 0.051592455163870454,
+      "p95": 0.37515996701706616,
+      "max": 0.4718521954235939,
+      "adaptiveMedian": 0.03747474747478918,
+      "adaptiveP95": 0.08112430426714354
+    },
+    {
+      "start": 456.0,
+      "end": 464.0,
+      "attacks": 34,
+      "median": 0.0378282828282579,
+      "p95": 0.25522649969079786,
+      "max": 0.3108704390847947,
+      "adaptiveMedian": 0.023769841269825065,
+      "adaptiveP95": 0.07235634405275275
+    },
+    {
+      "start": 464.0,
+      "end": 472.0,
+      "attacks": 43,
+      "median": 0.030541640898775313,
+      "p95": 0.058908936301850186,
+      "max": 0.20020150484435817,
+      "adaptiveMedian": 0.035644197072826955,
+      "adaptiveP95": 0.06752628324056786
+    },
+    {
+      "start": 472.0,
+      "end": 480.0,
+      "attacks": 45,
+      "median": 0.031333745619463116,
+      "p95": 0.053847557204755946,
+      "max": 0.16546279117704898,
+      "adaptiveMedian": 0.037065038136461226,
+      "adaptiveP95": 0.06808750773039944
+    },
+    {
+      "start": 480.0,
+      "end": 488.0,
+      "attacks": 45,
+      "median": 0.03182694289836263,
+      "p95": 0.06030622552050316,
+      "max": 0.17555658627088633,
+      "adaptiveMedian": 0.03987476808907786,
+      "adaptiveP95": 0.0630501958358991
+    },
+    {
+      "start": 488.0,
+      "end": 496.0,
+      "attacks": 43,
+      "median": 0.022306740878207165,
+      "p95": 0.04737471655332115,
+      "max": 0.06393283484192125,
+      "adaptiveMedian": 0.03394454751594367,
+      "adaptiveP95": 0.055900381364710934
+    },
+    {
+      "start": 496.0,
+      "end": 504.0,
+      "attacks": 40,
+      "median": 0.037307771593475536,
+      "p95": 0.08907873634303481,
+      "max": 0.11871160585451435,
+      "adaptiveMedian": 0.042396638579702994,
+      "adaptiveP95": 0.08689717068643574
+    },
+    {
+      "start": 504.0,
+      "end": 512.0,
+      "attacks": 39,
+      "median": 0.046409503195263824,
+      "p95": 0.1356789837147972,
+      "max": 0.171444547516046,
+      "adaptiveMedian": 0.04434291898576248,
+      "adaptiveP95": 0.07356003916715396
+    },
+    {
+      "start": 512.0,
+      "end": 520.0,
+      "attacks": 31,
+      "median": 0.048317872603547585,
+      "p95": 0.25713899196045986,
+      "max": 0.3648072562358493,
+      "adaptiveMedian": 0.04132807668531768,
+      "adaptiveP95": 0.08800556586265884
+    },
+    {
+      "start": 520.0,
+      "end": 528.0,
+      "attacks": 14,
+      "median": 0.07332251082249286,
+      "p95": 0.4454556277056042,
+      "max": 0.48515976087401214,
+      "adaptiveMedian": 0.041852195423643934,
+      "adaptiveP95": 0.0727547928261856
+    },
+    {
+      "start": 528.0,
+      "end": 536.0,
+      "attacks": 16,
+      "median": 0.08223510616369367,
+      "p95": 0.4533280509173494,
+      "max": 0.49201659451659907,
+      "adaptiveMedian": 0.0408307565450059,
+      "adaptiveP95": 0.06323799216650627
+    },
+    {
+      "start": 536.0,
+      "end": 544.0,
+      "attacks": 13,
+      "median": 0.037870542156383635,
+      "p95": 0.169317460317461,
+      "max": 0.22860441146167432,
+      "adaptiveMedian": 0.027057307771542582,
+      "adaptiveP95": 0.08523314780456975
+    },
+    {
+      "start": 544.0,
+      "end": 552.0,
+      "attacks": 8,
+      "median": 0.038871366728528756,
+      "p95": 0.09725695732839199,
+      "max": 0.0990672026385937,
+      "adaptiveMedian": 0.034359410430738535,
+      "adaptiveP95": 0.10430632859209936
+    },
+    {
+      "start": 552.0,
+      "end": 560.0,
+      "attacks": 10,
+      "median": 0.11487244897961091,
+      "p95": 0.9992825706040093,
+      "max": 1.0249360956503324,
+      "adaptiveMedian": 0.04255668934234791,
+      "adaptiveP95": 0.09588932694289269
+    },
+    {
+      "start": 560.0,
+      "end": 568.0,
+      "attacks": 12,
+      "median": 0.31347041847044466,
+      "p95": 1.3238974438260411,
+      "max": 1.4875448361162853,
+      "adaptiveMedian": 0.04140538033396979,
+      "adaptiveP95": 0.13711466707891862
+    },
+    {
+      "start": 568.0,
+      "end": 576.0,
+      "attacks": 8,
+      "median": 0.07434240362812261,
+      "p95": 0.189882498453818,
+      "max": 0.19654195011321463,
+      "adaptiveMedian": 0.037610801896505563,
+      "adaptiveP95": 0.08150824572252872
+    },
+    {
+      "start": 576.0,
+      "end": 584.0,
+      "attacks": 8,
+      "median": 0.0563471449185613,
+      "p95": 0.2109477427334297,
+      "max": 0.25367140795708565,
+      "adaptiveMedian": 0.03979797979803834,
+      "adaptiveP95": 0.08496990311274998
+    },
+    {
+      "start": 584.0,
+      "end": 592.0,
+      "attacks": 11,
+      "median": 0.030217480931810314,
+      "p95": 0.16461193568335375,
+      "max": 0.2183240568954261,
+      "adaptiveMedian": 0.025485466914005883,
+      "adaptiveP95": 0.08982580911157356
+    },
+    {
+      "start": 592.0,
+      "end": 600.0,
+      "attacks": 10,
+      "median": 0.04318181818183575,
+      "p95": 0.07585271078128811,
+      "max": 0.08417645846213873,
+      "adaptiveMedian": 0.05328076685219685,
+      "adaptiveP95": 0.08059482580906091
+    },
+    {
+      "start": 600.0,
+      "end": 608.0,
+      "attacks": 12,
+      "median": 0.040308441558522645,
+      "p95": 0.18369346526482655,
+      "max": 0.3111379097092595,
+      "adaptiveMedian": 0.047819521748124316,
+      "adaptiveP95": 0.06574732014021832
+    },
+    {
+      "start": 608.0,
+      "end": 616.0,
+      "attacks": 9,
+      "median": 0.01126365697791698,
+      "p95": 0.7782679859822563,
+      "max": 0.9518697175840316,
+      "adaptiveMedian": 0.022157287157369865,
+      "adaptiveP95": 0.11487260358685486
+    },
+    {
+      "start": 616.0,
+      "end": 624.0,
+      "attacks": 10,
+      "median": 0.2582235621520681,
+      "p95": 1.8461059059987228,
+      "max": 2.186777983920706,
+      "adaptiveMedian": 0.03902391259526894,
+      "adaptiveP95": 0.13198404968065333
+    },
+    {
+      "start": 624.0,
+      "end": 632.0,
+      "attacks": 16,
+      "median": 0.04182668521968935,
+      "p95": 0.8750770459698174,
+      "max": 0.8772376829519999,
+      "adaptiveMedian": 0.02311044114617289,
+      "adaptiveP95": 0.17061121418265657
+    },
+    {
+      "start": 632.0,
+      "end": 640.0,
+      "attacks": 21,
+      "median": 0.04318130282410948,
+      "p95": 0.27565501958349614,
+      "max": 0.3957096474954369,
+      "adaptiveMedian": 0.02282055246348591,
+      "adaptiveP95": 0.06554730983293666
+    },
+    {
+      "start": 640.0,
+      "end": 648.0,
+      "attacks": 22,
+      "median": 0.04869331065754068,
+      "p95": 0.40303689960841776,
+      "max": 0.5273727066585252,
+      "adaptiveMedian": 0.027305452484029047,
+      "adaptiveP95": 0.06781859410430115
+    },
+    {
+      "start": 648.0,
+      "end": 656.0,
+      "attacks": 34,
+      "median": 0.0464620696763518,
+      "p95": 0.17370859101228572,
+      "max": 0.301764584621651,
+      "adaptiveMedian": 0.028333075654529694,
+      "adaptiveP95": 0.07502362914862598
+    },
+    {
+      "start": 656.0,
+      "end": 664.0,
+      "attacks": 33,
+      "median": 0.03623015873006352,
+      "p95": 0.2612895279323765,
+      "max": 0.4262631416202112,
+      "adaptiveMedian": 0.024620181405794028,
+      "adaptiveP95": 0.058746753246691694
+    },
+    {
+      "start": 664.0,
+      "end": 672.0,
+      "attacks": 33,
+      "median": 0.024444444444498004,
+      "p95": 0.19029066171920023,
+      "max": 0.20015409193979394,
+      "adaptiveMedian": 0.023289012574537082,
+      "adaptiveP95": 0.08543496186355241
+    },
+    {
+      "start": 672.0,
+      "end": 680.0,
+      "attacks": 57,
+      "median": 0.03700757575757052,
+      "p95": 0.19183755926601403,
+      "max": 0.39344465058763944,
+      "adaptiveMedian": 0.027875953411694354,
+      "adaptiveP95": 0.06229318697173761
+    },
+    {
+      "start": 680.0,
+      "end": 688.0,
+      "attacks": 31,
+      "median": 0.05794269222838011,
+      "p95": 0.31259250669967287,
+      "max": 0.5440713255002265,
+      "adaptiveMedian": 0.04111317254159985,
+      "adaptiveP95": 0.07489898989894073
+    },
+    {
+      "start": 688.0,
+      "end": 696.0,
+      "attacks": 30,
+      "median": 0.1542297979798377,
+      "p95": 0.8306185837971377,
+      "max": 1.1012116058544734,
+      "adaptiveMedian": 0.031818439496987594,
+      "adaptiveP95": 0.09529578952783023
+    },
+    {
+      "start": 696.0,
+      "end": 704.0,
+      "attacks": 29,
+      "median": 0.19827458256008867,
+      "p95": 0.6013799216656707,
+      "max": 0.6618815708100101,
+      "adaptiveMedian": 0.03771799628941608,
+      "adaptiveP95": 0.09172923108635586
+    },
+    {
+      "start": 704.0,
+      "end": 712.0,
+      "attacks": 34,
+      "median": 0.1477587095444619,
+      "p95": 0.5116535508143097,
+      "max": 0.6479761904762427,
+      "adaptiveMedian": 0.046303146258480865,
+      "adaptiveP95": 0.09518509070284721
+    },
+    {
+      "start": 712.0,
+      "end": 720.0,
+      "attacks": 38,
+      "median": 0.05280998763151956,
+      "p95": 0.3025522057308249,
+      "max": 0.4518527107813952,
+      "adaptiveMedian": 0.04249536178110702,
+      "adaptiveP95": 0.09697049577413844
+    },
+    {
+      "start": 720.0,
+      "end": 728.0,
+      "attacks": 56,
+      "median": 0.07176922284054399,
+      "p95": 0.16877654091936733,
+      "max": 0.22061327561357302,
+      "adaptiveMedian": 0.04068542568529665,
+      "adaptiveP95": 0.09198490002074777
+    },
+    {
+      "start": 728.0,
+      "end": 736.0,
+      "attacks": 52,
+      "median": 0.041808905380435135,
+      "p95": 0.15333848690987104,
+      "max": 0.2592094413517998,
+      "adaptiveMedian": 0.038482271696693715,
+      "adaptiveP95": 0.07282493300356803
+    },
+    {
+      "start": 736.0,
+      "end": 744.0,
+      "attacks": 29,
+      "median": 0.03801638837353494,
+      "p95": 0.1635151515151846,
+      "max": 0.22954680735938382,
+      "adaptiveMedian": 0.0379202741703466,
+      "adaptiveP95": 0.08201406926411886
+    },
+    {
+      "start": 744.0,
+      "end": 752.0,
+      "attacks": 7,
+      "median": 0.047614924758022426,
+      "p95": 0.5034756751185565,
+      "max": 0.6661636775922943,
+      "adaptiveMedian": 0.03180375180374995,
+      "adaptiveP95": 0.0963497217069175
+    },
+    {
+      "start": 752.0,
+      "end": 760.0,
+      "attacks": 12,
+      "median": 0.07467017109871676,
+      "p95": 0.23126762523196467,
+      "max": 0.294183158111764,
+      "adaptiveMedian": 0.035476448155009166,
+      "adaptiveP95": 0.06789218717788116
+    },
+    {
+      "start": 760.0,
+      "end": 768.0,
+      "attacks": 12,
+      "median": 0.02875334982473987,
+      "p95": 1.328675891568707,
+      "max": 1.6058544629972857,
+      "adaptiveMedian": 0.03281282209854908,
+      "adaptiveP95": 0.05732173778607715
+    },
+    {
+      "start": 768.0,
+      "end": 776.0,
+      "attacks": 2,
+      "median": 0.46009740259734144,
+      "p95": 0.7703112244898249,
+      "max": 0.8047794269223232,
+      "adaptiveMedian": 0.05586219336208842,
+      "adaptiveP95": 0.09901108018949002
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 400.0,
+      "end": 408.0,
+      "attacks": 7,
+      "median": 1.8089383632240583,
+      "p95": 3.519819727891132,
+      "max": 3.6826963512677366,
+      "adaptiveMedian": 0.04410636982072447,
+      "adaptiveP95": 0.08649268192118593
+    },
+    {
+      "start": 408.0,
+      "end": 416.0,
+      "attacks": 8,
+      "median": 0.4679707792207921,
+      "p95": 1.1944527417027584,
+      "max": 1.3132034632034788,
+      "adaptiveMedian": 0.026273448773423524,
+      "adaptiveP95": 0.05452120696761824
+    },
+    {
+      "start": 768.0,
+      "end": 776.0,
+      "attacks": 2,
+      "median": 0.46009740259734144,
+      "p95": 0.7703112244898249,
+      "max": 0.8047794269223232,
+      "adaptiveMedian": 0.05586219336208842,
+      "adaptiveP95": 0.09901108018949002
+    },
+    {
+      "start": 416.0,
+      "end": 424.0,
+      "attacks": 17,
+      "median": 0.35045145330860805,
+      "p95": 1.5581868686868914,
+      "max": 1.6534121830550816,
+      "adaptiveMedian": 0.036093588950734556,
+      "adaptiveP95": 0.07216037930323863
+    },
+    {
+      "start": 560.0,
+      "end": 568.0,
+      "attacks": 12,
+      "median": 0.31347041847044466,
+      "p95": 1.3238974438260411,
+      "max": 1.4875448361162853,
+      "adaptiveMedian": 0.04140538033396979,
+      "adaptiveP95": 0.13711466707891862
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 392.0,
+      "end": 400.0,
+      "attacks": 3,
+      "median": 0.07309214594926061,
+      "p95": 0.34220717377748994,
+      "max": 0.3721088435361821,
+      "adaptiveMedian": 0.07309214594926061,
+      "adaptiveP95": 0.09037043908580812
+    },
+    {
+      "start": 312.0,
+      "end": 320.0,
+      "attacks": 9,
+      "median": 0.13443001442999503,
+      "p95": 0.1973502370644951,
+      "max": 0.20519274376414387,
+      "adaptiveMedian": 0.05630179344461794,
+      "adaptiveP95": 0.10119027004741382
+    },
+    {
+      "start": 768.0,
+      "end": 776.0,
+      "attacks": 2,
+      "median": 0.46009740259734144,
+      "p95": 0.7703112244898249,
+      "max": 0.8047794269223232,
+      "adaptiveMedian": 0.05586219336208842,
+      "adaptiveP95": 0.09901108018949002
+    },
+    {
+      "start": 592.0,
+      "end": 600.0,
+      "attacks": 10,
+      "median": 0.04318181818183575,
+      "p95": 0.07585271078128811,
+      "max": 0.08417645846213873,
+      "adaptiveMedian": 0.05328076685219685,
+      "adaptiveP95": 0.08059482580906091
+    },
+    {
+      "start": 600.0,
+      "end": 608.0,
+      "attacks": 12,
+      "median": 0.040308441558522645,
+      "p95": 0.18369346526482655,
+      "max": 0.3111379097092595,
+      "adaptiveMedian": 0.047819521748124316,
+      "adaptiveP95": 0.06574732014021832
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 712.0,
+      "meanCosine": 0.5859353317663859
+    },
+    {
+      "start": 720.0,
+      "meanCosine": 0.6342768645292874
+    },
+    {
+      "start": 392.0,
+      "meanCosine": 0.6542963724046732
+    },
+    {
+      "start": 200.0,
+      "meanCosine": 0.6787403338979008
+    },
+    {
+      "start": 432.0,
+      "meanCosine": 0.6810720046857446
+    }
+  ],
+  "sections": [
+    {
+      "bar": "89",
+      "occ": 1,
+      "editorial": 267,
+      "aligned": 266.8635064935065,
+      "difference": -0.1364935064934798,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "133",
+      "occ": 1,
+      "editorial": 396,
+      "aligned": 392.6692207792208,
+      "difference": -3.3307792207792204,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "210",
+      "occ": 1,
+      "editorial": 618,
+      "aligned": 619.8620779220776,
+      "difference": 1.8620779220775603,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "250",
+      "occ": 1,
+      "editorial": 744,
+      "aligned": 742.5698701298701,
+      "difference": -1.4301298701299174,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 2.4,
+      "nearestOnsetDeviation": 0.008344671201813814
+    },
+    {
+      "label": "middle",
+      "bar": "124",
+      "occ": 1,
+      "scoreQ": 368.375,
+      "audioSeconds": 361.4532954545454,
+      "nearestOnsetDeviation": 0.00012858173579388676
+    },
+    {
+      "label": "last",
+      "bar": "257",
+      "occ": 1,
+      "scoreQ": 767.0,
+      "audioSeconds": 772.1324675324673,
+      "nearestOnsetDeviation": 0.1154153782723597
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "1",
+      "occ": 1,
+      "midi": 62,
+      "voice": "melody-four",
+      "durationQ": 2.0,
+      "onset": 2.4,
+      "offset": 4.755844155844156,
+      "durationSeconds": 2.355844155844156
+    },
+    {
+      "bar": "89",
+      "occ": 1,
+      "midi": 62,
+      "voice": "melody-four",
+      "durationQ": 2.0,
+      "onset": 267.7714285714285,
+      "offset": 269.4072727272727,
+      "durationSeconds": 1.635844155844211
+    },
+    {
+      "bar": "201",
+      "occ": 1,
+      "midi": 62,
+      "voice": "melody-four",
+      "durationQ": 1.0,
+      "onset": 592.8453246753247,
+      "offset": 593.8532467532467,
+      "durationSeconds": 1.0079220779219895
+    },
+    {
+      "bar": "257",
+      "occ": 1,
+      "midi": 62,
+      "voice": "melody-four",
+      "durationQ": 3.0,
+      "onset": 772.1324675324673,
+      "offset": 778.5,
+      "durationSeconds": 6.367532467532669
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.026017316017288294,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.781244527931735,
+  "endAnchor": {
+    "scoreQ": 770.0,
+    "audioSeconds": 778.5,
+    "decodedDuration": 782.2533333333333,
+    "activeEndMinus45dB": 782.2454421768707,
+    "configuredEnd": {
+      "seconds": 778.5,
+      "basis": "MEAS: Final D4 plus its octave/third-harmonic pitch-energy bins (MIDI 62, 74, 81), smoothed over 13 frames at 50 Hz, relative to the 772.2–773.0 s peak, fall from −31.08 dB mean in 778.00–778.25 s to −43.83 dB in 778.25–778.50 s and −47.18 dB in 778.50–778.75 s; subsequent windows remain below −50 dB. Use 778.5 s as a conservative pitched-decay display boundary. Whole-file −45 dB RMS remains active to 782.245 s because of transfer noise. This is not a measured bow release."
+    }
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "bach-partita-2-chaconne",
+  "tuningHz": 443.83,
+  "audioSha256": "d53b2ad6851f8b11f6600a412ca42114e4b7ffdead4d120df1691f96d9cddd1f",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "This is the standalone solo-violin Chaconne, not the whole partita or a piano arrangement. The original source and published MIDI are retained with inventory SHA-256 pins.",
+    "The four separately encoded variables melodyOne, melodyTwo, melodyThree and melodyFour are compiled independently. Names identify source variables rather than inferred soprano/alto/bass roles or MIDI channels; their notational voice settings are respectively voiceOne, voiceThree, voiceFive and voiceTwo.",
+    "The source sets currentBarNumber to 2 before partial 2 and labels the opening fragment as bar 1. Its 257 source-comment bars occupy 770 quarter units. Source unisons and chord holds remain in their originating variables instead of being truncated by the published merged MIDI staff.",
+    "The arpeggio markings at bars 89 and 201 are not a fully encoded performance realisation. Symbolic sustained chord tones must not be mistaken for Heifetz’s individual string attacks; no notes or repeated arpeggio patterns are fabricated. No aural review or recording-edition identity is claimed.",
+    "The final written D4 hold uses an explicit 778.5 s pitch-energy display boundary rather than the noisy whole-file RMS end at 782.245 s. The strongest pitched energy fades around 775 s, with a weak measured tail reaching the documented boundary; neither the display duration nor that threshold is a measured violin release."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      265.22,
+      267.0
+    ],
+    [
+      398.34,
+      396.0
+    ],
+    [
+      629.68,
+      618.0
+    ],
+    [
+      753.34,
+      744.0
+    ],
+    [
+      773.0762337662337,
+      772.1
+    ]
+  ],
+  "sourceChecks": {
+    "pitchOnsetInventory": {
+      "kind": "set",
+      "matched": true,
+      "count": 3085
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 2.4,
+      "peakSeconds": 2.46,
+      "window": [
+        0,
+        5
+      ],
+      "midiPitches": [
+        62,
+        65,
+        69
+      ],
+      "basis": "Pitch-energy overlays identify the opening D4–F4–A4 chord’s leading rise at 2.40 s (peak 2.46 s) and the final D4 reattack at 772.10 s (peak 772.16 s), distinct from the preceding D4 eighth. These windows retain those inspected rises; chord spreading and breath timing are not aural annotations."
+    },
+    {
+      "label": "last",
+      "scoreQ": 767.0,
+      "audioSeconds": 772.1,
+      "peakSeconds": 772.16,
+      "window": [
+        769,
+        776
+      ],
+      "midiPitches": [
+        62
+      ],
+      "basis": "Pitch-energy overlays identify the opening D4–F4–A4 chord’s leading rise at 2.40 s (peak 2.46 s) and the final D4 reattack at 772.10 s (peak 772.16 s), distinct from the preceding D4 eighth. These windows retain those inspected rises; chord spreading and breath timing are not aural annotations."
+    }
+  ],
+  "adaptiveOnsetCount": 4694,
+  "adaptiveMedianDeviation": 0.03311482168625446,
+  "gateReasons": [],
+  "elapsedSeconds": 1.3775656649959274,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 257,
+    "notes": 3123,
+    "voices": 4
+  },
+  "published": true,
+  "configSha256": "8407cfaca42964b4f0549eb39cd2df295fdc30a4f9265053cca258b8ffc49c34",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1004/bwv-1004_5/bwv-1004_5.ly",
+      "file": "bwv-1004_5.ly",
+      "sha256": "c553876e6a194d575c8d1c2b045dc12b0e1a3b111a70bfa5a7d3f03cf11d941d"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1004/bwv-1004_5/bwv-1004_5.mid",
+      "file": "bwv-1004_5.mid",
+      "sha256": "f4946c53a3658f6c436bb84976740deef6b60833db45d5e16a2608a77f1e7b70"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/bach-partita-2-chaconne-0-10.4.png",
+    "work/bach-partita-2-chaconne-0-15.png",
+    "work/bach-partita-2-chaconne-255-280.png",
+    "work/bach-partita-2-chaconne-312-320.png",
+    "work/bach-partita-2-chaconne-357.453-369.453.png",
+    "work/bach-partita-2-chaconne-390-415.png",
+    "work/bach-partita-2-chaconne-392-400.png",
+    "work/bach-partita-2-chaconne-400-408.png",
+    "work/bach-partita-2-chaconne-408-416.png",
+    "work/bach-partita-2-chaconne-416-424.png",
+    "work/bach-partita-2-chaconne-560-568.png",
+    "work/bach-partita-2-chaconne-592-600.png",
+    "work/bach-partita-2-chaconne-600-608.png",
+    "work/bach-partita-2-chaconne-605-625.png",
+    "work/bach-partita-2-chaconne-708-728.png",
+    "work/bach-partita-2-chaconne-760-782.png",
+    "work/bach-partita-2-chaconne-768-776.png",
+    "work/bach-partita-2-chaconne-768.132-780.132.png"
+  ]
+}

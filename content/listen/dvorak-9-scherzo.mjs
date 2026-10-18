@@ -384,14 +384,13 @@ export default {
       "cellos",
       "basses",
       "trumpets",
-      "trombones",
-      "tuba"
+      "percussion"
     ],
     "basis": "score-proportion",
     "source": {
       "title": "Dvořák, Symphony No. 9, full score, critical edition edited by Otakar Šourek",
       "url": "https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf",
-      "locator": "Third movement: printed pp. 93–132 (PDF pp. 95–134); opening instrumental staves and trio/return examined. Stage entries describe whole passages, not all instantaneous entries."
+      "locator": "Third movement: printed pp. 93–132 (PDF pp. 95–134). Triangle is scored at the opening and selected internal/trio phrases; trombones and tuba are absent. Triangle bars are also checked against the Simrock-derived Mutopia part, music ID 1793. Stated times are passage estimates, not bar alignments."
     },
     "timeline": [
       {
@@ -403,6 +402,7 @@ export default {
           "bassoons",
           "horns",
           "timpani",
+          "percussion",
           "violins-1",
           "violins-2",
           "violas",
@@ -414,7 +414,25 @@ export default {
           "oboes",
           "violins-1"
         ],
-        "note": "Opening scherzo: short wind and string gestures share the rhythmic foreground, reinforced by horns and timpani."
+        "note": "Opening scherzo: short wind and string gestures are reinforced by horns, timpani and the triangle’s first four bars (printed p. 93)."
+      },
+      {
+        "t": 5,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "After the opening triangle roll, the scherzo continues without that percussion colour. The report’s quieter 0:05 window anchors the reduction approximately."
+      },
+      {
+        "t": 45,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "The repeated opening restores the brief triangle roll; the level pattern around 0:45–0:50 repeats the opening profile."
+      },
+      {
+        "t": 50,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "The repeated scherzo phrase continues after the triangle again drops out; timing is approximate."
       },
       {
         "t": 90,
@@ -435,6 +453,12 @@ export default {
           "oboes"
         ],
         "note": "Internal contrast: lighter wind-led phrases sit above a reduced string accompaniment."
+      },
+      {
+        "t": 122,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "oboes"],
+        "note": "Selected phrases in the internal contrast add triangle punctuation (bars 76–83 and 92–98, with rests between). This broad state covers the later E-major episode, not a continuous triangle roll."
       },
       {
         "t": 150,
@@ -479,6 +503,24 @@ export default {
         "note": "Central trio: woodwind and string phrases take a more relaxed dance profile in C major."
       },
       {
+        "t": 238,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["clarinets", "violins-1"],
+        "note": "Trio continuation: selective triangle rolls and punctuations colour the woodwind/string dialogue (bars 178–192). Broadly anchored to the 3:58 change."
+      },
+      {
+        "t": 266,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["clarinets", "violins-1"],
+        "note": "The trio’s next phrase withdraws the triangle before its later punctuation returns; broad anchor at the 4:26 change."
+      },
+      {
+        "t": 308,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "Later trio phrases again include triangle colour (bars 224–239), followed by rests before the scherzo. Placement is approximate around the 5:08 change, not a continuous sounding claim."
+      },
+      {
         "t": 330,
         "playing": [
           "flutes",
@@ -487,6 +529,7 @@ export default {
           "bassoons",
           "horns",
           "timpani",
+          "percussion",
           "violins-1",
           "violins-2",
           "violas",
@@ -501,6 +544,24 @@ export default {
         "note": "Larger scherzo return: the opening’s short figures and instrumental exchanges recur."
       },
       {
+        "t": 335,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "After the returning opening’s triangle roll, the scherzo continues in its lighter wind-and-string texture; the report drops at 5:35."
+      },
+      {
+        "t": 407,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "oboes"],
+        "note": "The returning internal contrast restores its intermittent triangle punctuation. This is a broad score-proportion state within the 6:40–7:10 E-major region."
+      },
+      {
+        "t": 435,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["violins-1", "horns"],
+        "note": "The stronger main-material return withdraws triangle and reinforces winds and strings with horns, trumpets and timpani before the coda."
+      },
+      {
         "t": 460,
         "playing": [
           "flutes",
@@ -509,8 +570,6 @@ export default {
           "bassoons",
           "horns",
           "trumpets",
-          "trombones",
-          "tuba",
           "timpani",
           "violins-1",
           "violins-2",

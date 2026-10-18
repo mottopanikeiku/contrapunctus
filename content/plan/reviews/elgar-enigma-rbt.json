@@ -1,5 +1,5 @@
 {
   "id": "elgar-enigma-rbt",
-  "verdict": "fix",
-  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The sole opening entry leaves oboe permanently marked as carrying the tune despite the contrasting bassoon/register exchanges described in the guide. The renderer retains the latest entry for all subsequent playback.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 15–19: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf .","fix":"Supply score-backed passage states covering the principal oboe/lower-wind exchanges and ending, anchored broadly to the report, and replace the opening-only locator."}]
+  "verdict": "pass",
+  "defects": []
 }

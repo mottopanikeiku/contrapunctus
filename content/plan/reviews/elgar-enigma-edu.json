@@ -1,5 +1,5 @@
 {
   "id": "elgar-enigma-edu",
-  "verdict": "fix",
-  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The sole quiet fragmented opening state persists for more than four minutes, including full orchestral climaxes, the withdrawn middle and final cadence. It is not a full-finale passage map.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 93–128: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf ; cache/analysis/elgar-enigma-edu.txt.","fix":"Add report-anchored, score-backed broad states for the principal full-orchestra stretches, middle withdrawal, renewed build and closing cadence, with appropriate playing/lead groups. Revise the opening-only source locator; do not infer the optional organ from the standard score."}]
+  "verdict": "pass",
+  "defects": []
 }

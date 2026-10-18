@@ -1,5 +1,5 @@
 {
   "id": "elgar-enigma-grs",
-  "verdict": "fix",
-  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The sole string opening state remains active through the whole variation, although the score subsequently involves winds and heavier orchestral responses.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 74–81: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf .","fix":"Add report-anchored broad states covering the ensuing wind/orchestral responses and ending; revise the locator to describe the full-variation scoring rather than only its opening."}]
+  "verdict": "pass",
+  "defects": []
 }

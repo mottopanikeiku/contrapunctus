@@ -1,0 +1,266 @@
+{
+  "id": "lili-boulanger-vieille-priere",
+  "work": {
+    "title": "Vieille prière bouddhique",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": "Complete French setting for tenor, mixed chorus and orchestra; Suzanne Karpelès’s French text.",
+      "status": "documented",
+      "sourceIds": [
+        "insert-last",
+        "score",
+        "work"
+      ],
+      "note": "The source names Sénéchal for this work, rather than a tenor group. The precise performing edition is not identified. Music and translation rights are distinguished below."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Michel Sénéchal",
+        "role": "tenor"
+      },
+      {
+        "name": "Chorale Élisabeth Brasseur",
+        "role": "mixed chorus"
+      },
+      {
+        "name": "Orchestre des Concerts Lamoureux",
+        "role": "orchestra"
+      },
+      {
+        "name": "Igor Markevitch",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "insert-front",
+      "insert-last",
+      "label",
+      "sleeve"
+    ],
+    "note": "Per-work soloist headings were visually read, not inferred from a whole-album creator tag. Markevitch is the conductor; Nadia Boulanger is separately credited with recording supervision. J. J. Grunenwald is named only for the works whose scores contain organ. The ensemble credits are album-level; individual instrumental players and exact section numbers are unestablished."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "sleeve",
+        "release",
+        "archive"
+      ],
+      "note": "No dated session log was established. The 1960 release year, 2021 transfer date and 2023 derivative-generation date are not recording dates.",
+      "precision": null
+    },
+    "place": {
+      "value": "Salle Pleyel, Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve",
+        "release"
+      ],
+      "note": "The sleeve explicitly states that the recording was made at the Salle Pleyel on Everest equipment; this is not inferred from the orchestra’s home city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Everest",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve",
+        "release",
+        "archive"
+      ],
+      "note": "Original mono LP imprint; the original copyright credit is Belock Instrument Corp."
+    },
+    "catalogue": {
+      "value": "LPBR 6059 (mono LP)",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve",
+        "release",
+        "archive"
+      ],
+      "note": "SDBR 3059 is the separately identified stereo counterpart, not the transferred catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": "Side B3; Discogs reports the corresponding side runout LPBR-6059-2-T1.",
+      "status": "documented",
+      "sourceIds": [
+        "release",
+        "sleeve"
+      ],
+      "note": "Track/side position is documented. The reported runout belongs to the catalogued release; the transferred specimen’s runout was not physically inspected. No session matrix, take number or meaning of the T1 suffix is established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive ripping operator: associate-louiemar-secuya@archive.org; workstation archivelp-rip-cebu19.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "This is the explicit ripping_operator credit, not the item’s separate uploader/operator. A restoration or mastering engineer is not identified."
+    },
+    "date": {
+      "value": "2021-09-18",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "ripping_date is 20210918003915. The calendar date is reported without inventing a timezone; added/public dates and later derivative timestamps are not substituted."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable + Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; ArchiveCD Version 2.2.57lp. Original side FLAC files are retained, with segmented VBR MP3 access derivatives.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The chain is transcribed from lineage and ripping_software_version. The selected MP3’s original pointer names the segments JSON. De-clicking, equalisation, noise reduction, original session tape format and any intermediate mastering are not documented; none is asserted."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.03.%20Vieille%20Pri%C3%A8re%20Bouddhique.mp3",
+    "sourceChain": [
+      "archive",
+      "sleeve",
+      "release",
+      "insert-last"
+    ],
+    "format": "Internet Archive VBR MP3 access derivative of the identified mono vinyl LP transfer",
+    "durationSeconds": 433.2
+  },
+  "rights": {
+    "composition": {
+      "value": "Boulanger’s original music is out of term on an ordinary life-plus-70 calculation; rights in Karpelès’s French translation are not established.",
+      "status": "unknown",
+      "sourceIds": [
+        "composer",
+        "score",
+        "translator",
+        "eu-term"
+      ],
+      "note": "Karpelès died in 1968, so an ordinary EU life-plus-70 translation term would run through 2038. No permission or applicable exception for that text has been established. The final programme’s sound-recording rule 3 is satisfied separately; this dossier does not turn phonogram expiry into text clearance. No sung lyrics or their translation are reproduced in the guide."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU sound-recording public domain: lawful publication documented by 1960, before 1963.",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve",
+        "release",
+        "discography",
+        "eu-extension"
+      ],
+      "note": "The original commercial mono release LPBR 6059 is dated 1960; the sleeve carries ©1960 Belock, corroborated by the label discography. The rule concerns first lawful publication anywhere, not first EU publication. On the former fifty-year term this phonogram was no longer protected before the 2013 extension. US recording status is not established. No worldwide public-domain claim, Creative Commons licence or modern-remaster release is inferred."
+    },
+    "creditLine": "Lili Boulanger, Vieille prière bouddhique; Michel Sénéchal, tenor; Chorale Élisabeth Brasseur; Orchestre des Concerts Lamoureux; Igor Markevitch, conductor. Everest LPBR 6059, side B3, published 1960; recorded at Salle Pleyel, session date unestablished. Internet Archive vinyl transfer, ripping date 18 September 2021. Territorial EU rule 3; US recording status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — mono Everest LPBR 6059 transfer metadata",
+      "url": "https://archive.org/metadata/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
+      "locator": "metadata: date 1960, publisher Everest, external_identifier catalogue LPBR 6059, source Vinyl LP, lineage, ripping_operator, ripping_date 20210918003915, ripping_software_version and ripping_scanner. files: exact access track disc1/02.03. Vieille Prière Bouddhique.mp3; original side FLACs and track-level VBR MP3 derivatives. MP3 original points to the item’s segments JSON; no undocumented restoration is inferred.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sleeve",
+      "title": "Everest LPBR 6059 — original sleeve transcription",
+      "url": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt",
+      "locator": "Back sleeve: LPBR 6059, ©1960 Belock Instrument Corp., recording at Salle Pleyel in Paris on Everest equipment, Igor Markevitch conducting, recording under Nadia Boulanger’s direction; stereo counterpart SDBR 3059 named separately.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "release",
+      "title": "Discogs — exact mono release and insert-image catalogue",
+      "url": "https://api.discogs.com/releases/6056852",
+      "locator": "Release 6056852: Everest LPBR 6059, mono LP, US, 1960; tracks A and B1–B4; reported side runouts LPBR-6059-1-T1 and LPBR-6059-2-T1. The attached YouTube videos describe other performances and are not sources for this stream.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "insert-front",
+      "title": "Everest LPBR 6059 — visually inspected insert front",
+      "url": "https://i.discogs.com/XrNcaeuOsiqmWirxmPgDAtlexW1ImUbc9UpE5Aw4kkg/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MDk5/Ny02MDQ1LmpwZWc.jpeg",
+      "locator": "Album header: Igor Markevitch conducting Orchestre Lamoureux and Chorale Elisabeth Brasseur; organ J. J. Grunenwald; named soloist roster; recording direction Nadia Boulanger. Psalm 130’s individual heading names Oralia Dominguez and Raymond Amade.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "discography",
+      "title": "David Edwards and Mike Callahan — Everest Classical Album Discography",
+      "url": "https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf",
+      "locator": "2018 discography, p. 5: LPBR 6059 mono / SDBR 3059 stereo, [1960], Boulanger programme. Corroborates the sleeve’s publication-year evidence, not a session date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label",
+      "title": "Everest — SDBR 3059 programme and per-track credits",
+      "url": "https://www.evereststereo.com/album/sdbr-3059/",
+      "locator": "Official stereo counterpart page identifies Dominguez and Amade for Psalm 130; Sénéchal for Psalm 24 and Vieille prière; Mollet for Psalm 129; Fauqueur for Pie Jesu. This corroborates the visually inspected mono insert; the stereo stream is not used.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Lili Boulanger — original Durand full score",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf",
+      "locator": "Printed pp. 1, 8–12, 17–18, 23–24. Two harps share one icon. Sarrusophone is written but has no stage icon; no substitution is inferred. Trumpets are present in the full score despite their omission from the short nomenclature list. The French sung text has separate unresolved rights; no lyrics are reproduced here. Representative passage snapshots, placed approximately using the cached level/novelty report and score order. Not continuous player detection; individual rests are not mapped.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "IMSLP — work and publication record",
+      "url": "https://imslp.org/wiki/Vieille_pri%C3%A8re_bouddhique_(Boulanger,_Lili)",
+      "locator": "General Information: composition and publication dates, scoring, text and work identity. The linked original full score was opened and visually inspected; this catalogue page alone is not used to infer instrumental entrances.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Library of Congress — Lili Boulanger",
+      "url": "https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger",
+      "locator": "Biographical dates 1893–1918; first woman to win the composition Prix de Rome in 1913; Villa Medici and the sisters’ wartime support work.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — term of protection",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1 and 8: ordinary authorial life-plus-70 term and calculation from the following 1 January; Article 3’s historical phonogram term is read with the 2011 extension’s transition rule. Recording and composition rights remain separate.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — phonogram extension and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1 amendments: extended phonogram protection applies to recordings still protected on 1 November 2013. The 1960 publication evidence puts this recording’s former fifty-year term before that transition. This is a territorial EU basis, not a worldwide licence or US clearance.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "insert-last",
+      "title": "Everest LPBR 6059 — visually inspected per-track insert",
+      "url": "https://i.discogs.com/ecobVEtkndUWiEUEMLY8MtA8w9JdTo5FZXqN58TzXGA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MTAw/MC02NTk5LmpwZWc.jpeg",
+      "locator": "Individual work heading supplies the named soloist for Vieille prière bouddhique. Notes by David Noakes; ©1960 Belock footer on the final insert leaf. For Psalm 129, the preceding continuation on the last leaf describes women’s wordless closing voices.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "preface",
+      "title": "Scholarly preface — Vieille prière bouddhique",
+      "url": "https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html",
+      "locator": "Helen Julia Minors (2011) for the psalms; Konstantin Galluhn (2010), English translation Bradford Robinson, for Vieille prière. Composition, performance history and score structure. Speculative psychological readings and unsupported numerical symbolism are not adopted.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "translator",
+      "title": "BnF — Suzanne Karpelès authority record",
+      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb12128435q",
+      "locator": "International form Karpelès, Suzanne (1890–1968); death 7 November 1968 at Vellore. Distinguishes the French translator’s term from Boulanger’s musical copyright.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

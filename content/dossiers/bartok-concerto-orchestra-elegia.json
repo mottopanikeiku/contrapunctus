@@ -115,7 +115,7 @@
       "archive",
       "fingerprint"
     ],
-    "format": "Internet Archive original MP3; selected file 3.Elegia.mp3; analysis uses a lossless PCM decode at 22050 Hz, mono, after libsndfile could not read the MP3; playback source is unchanged",
+    "format": "Internet Archive original MP3; selected file 3.Elegia.mp3; analysis uses a PCM working decode resampled to 22050 Hz, mono, without manual trimming, after libsndfile could not read the MP3; playback source is unchanged",
     "durationSeconds": 470.3
   },
   "rights": {

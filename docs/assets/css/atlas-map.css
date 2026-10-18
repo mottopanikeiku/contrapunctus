@@ -149,7 +149,10 @@ body:has(.atlas-map-page)::after { opacity: .24; }
 .am-time input::-moz-range-track { height: 4px; background: #c8a66b; }
 .am-time input::-webkit-slider-thumb { appearance: none; width: 14px; height: 22px; margin-top: -9px; background: linear-gradient(100deg, #9b793d, #f4e0ab, #b9924c); border: 1px solid #f4d994; border-radius: 7px 7px 3px 3px; box-shadow: 0 2px 6px #0008; }
 .am-time input::-moz-range-thumb { width: 14px; height: 22px; background: #dcc087; border: 1px solid #f4d994; border-radius: 7px; }
-.am-year-ticks { display: flex; justify-content: space-between; font: .66rem var(--caps); color: #b1a386; font-variant-numeric: lining-nums; }
+.am-year-ticks { position: relative; height: 1.1em; margin-inline: 7px; font: .66rem var(--caps); color: #b1a386; font-variant-numeric: lining-nums; }
+.am-year-ticks span { position: absolute; transform: translateX(-50%); }
+.am-year-ticks span:first-child { transform: none; }
+.am-year-ticks span:last-child { transform: translateX(-100%); }
 .am-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: .35rem 1.4rem; margin: .7rem 0; font: .78rem var(--text); color: #b8ac92; }
 .am-legend > span { display: flex; align-items: center; gap: .45rem; }
 .am-key-cameo { width: 11px; height: 15px; border: 1px solid #d0b474; border-radius: 50%; }
@@ -208,4 +211,15 @@ body:has(.atlas-map-page) .colophon { background: #141811; color: #b8aa8e; borde
 .am-all-recordings { border: 0; padding: .4rem 0; background: none; text-decoration: underline; text-underline-offset: 3px; font-size: .8rem !important; }
 @media (min-width: 701px) {
   html.np-on .am-stage, html.np-on .am-card { height: clamp(360px, calc(100svh - 475px), 580px); }
+}
+@media (max-width: 700px) {
+  .am-stage { scroll-margin-top: 78px; }
+  html.np-on .am-card { height: min(36svh, 300px); }
+  .am-person-heading + .am-card-intro { display: none; }
+  .am-card-content .am-card-intro { font-size: .85rem; }
+  .am-person-heading h2 { font-size: 1.7rem; }
+  .am-person-heading img { width: 45px; height: 60px; }
+  .am-detail-links { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; font-size: .72rem; margin: .6rem 0; }
+  .am-detail-links button { font-size: .68rem; padding: .2rem .4rem; }
+  .am-recordings { margin: .65rem 0; padding-bottom: .6rem; }
 }

@@ -1,0 +1,182 @@
+{
+  "id": "mussorgsky-pictures-tuileries",
+  "work": {
+    "title": "Pictures at an Exhibition",
+    "catalogue": "",
+    "movement": "III. Tuileries — Allegretto non troppo, capriccioso",
+    "version": {
+      "value": "Orchestral performance; Ravel’s 1922 orchestration is the probable version but is not named by any source",
+      "status": "inferred",
+      "sourceIds": [
+        "fma-album",
+        "commons-talk"
+      ],
+      "note": "Neither Commons, the Free Music Archive nor the Internet Archive names the orchestrator. The album’s four Promenades (none between “Samuel Goldenberg and Schmuÿle” and Limoges) match Ravel’s layout, and a 2015 Commons talk-page comment calls the recording Ravel’s orchestration of a rather poor Skidmore performance. The commenter gives no source. No timed claim on the site depends on the orchestrator."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Skidmore College Orchestra",
+        "role": "orchestra, as stated by the Free Music Archive; conductor unknown"
+      }
+    ],
+    "status": "inferred",
+    "sourceIds": [
+      "fma-album",
+      "commons-file"
+    ],
+    "note": "The Commons page names no performer (“see Musopen for performance author information”). The Free Music Archive album of 15 tracks by the Skidmore College Orchestra lists a track of the same title and length (1:03; this file is 1:02), and the Internet Archive item for the first Promenade credits the same orchestra. The identification of this file with that track rests on title and length; the Musopen performer page was not opened. Conductor: unknown."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "ia-promenade",
+        "fma-album",
+        "commons-file"
+      ],
+      "precision": null,
+      "note": "No session date is documented. The Internet Archive item says “date unknown, 2008 at the latest”; the Free Music Archive lists the album as released 6 April 2009; this file was uploaded to Commons on 2008-01-21. None of these is a recording date."
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "fma-album"
+      ],
+      "note": "No venue is documented. The Free Music Archive biography describes the orchestra as a semi-professional ensemble of Skidmore students and regional professionals; this is not a recording location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons-file"
+      ],
+      "note": "The original release is not identified; Musopen and the Free Music Archive are distribution channels."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons-file"
+      ],
+      "note": "No catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons-file"
+      ],
+      "note": "No matrix, take or side identifiers are supplied."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons-file"
+      ],
+      "note": "No transfer or restoration engineer is identified; the uploader of the Commons file (Raul654) is not assumed to be one."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons-file"
+      ],
+      "note": "Upload dates are not transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons-file"
+      ],
+      "note": "No processing is disclosed. The access file is a Wikimedia MP3 derivative of the uploaded Ogg Vorbis file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iii._tuileries_-_allegretto_non_troppo%2C_capriccioso.ogg/72.mp3",
+    "sourceChain": [
+      "commons-file",
+      "commons-api"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 62
+  },
+  "rights": {
+    "composition": {
+      "value": "Mussorgsky’s piano suite (he died in 1881) is public domain; Commons marks the music PD-old-100. An orchestration is a separate work with its own term and is not cleared here.",
+      "status": "documented",
+      "sourceIds": [
+        "commons-audit"
+      ],
+      "note": "The Commons notice covers Mussorgsky’s music only. If the version is Ravel’s, his orchestration is not assessed in this dossier."
+    },
+    "recording": {
+      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen, with Wikimedia VRTS permission ticket 2008012110017088.",
+      "status": "documented",
+      "sourceIds": [
+        "commons-audit",
+        "commons-file"
+      ],
+      "note": "The file description applies PD-author|Musopen to the recording separately from PD-old-100 for the music, and cites the VRTS ticket; the page is in “Items with VRTS permission confirmed”. Musopen’s reproduced policy says the music is public domain with no restrictions; its requests not to sell the recordings and to credit Musopen are courtesy requests, not a non-commercial licence. The Internet Archive copy of the first Promenade is marked CC0 1.0. Session date is not needed for this route."
+    },
+    "creditLine": "Modest Mussorgsky: Pictures at an Exhibition — III. Tuileries — Allegretto non troppo, capriccioso. Orchestral recording attributed to the Skidmore College Orchestra (conductor unknown); public-domain recording supplied by Musopen via Wikimedia Commons. Musopen attribution retained as requested.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons-file",
+      "title": "Wikimedia Commons — File:Modest Mussorgsky - pictures at an exhibition - iii. tuileries - allegretto non troppo, capriccioso.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iii._tuileries_-_allegretto_non_troppo,_capriccioso.ogg",
+      "locator": "Summary (description, source, author, permission), Licensing templates, categories, file history.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-api",
+      "title": "Wikimedia Commons audio metadata API — File:Modest Mussorgsky - pictures at an exhibition - iii. tuileries - allegretto non troppo, capriccioso.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AModest%20Mussorgsky%20-%20pictures%20at%20an%20exhibition%20-%20iii.%20tuileries%20-%20allegretto%20non%20troppo%2C%20capriccioso.ogg&prop=videoinfo&viprop=url|size|mime|derivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, source MIME type and MP3 derivative URL.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-audit",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Modest Mussorgsky - pictures at an exhibition - iii. tuileries - allegretto non troppo, capriccioso.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AModest%20Mussorgsky%20-%20pictures%20at%20an%20exhibition%20-%20iii.%20tuileries%20-%20allegretto%20non%20troppo%2C%20capriccioso.ogg&prop=revisions&rvprop=content&rvslots=main&format=json&formatversion=2",
+      "locator": "Wikitext of the file page: Music {{PD-old-100}}, Recording {{PD-author|Musopen}}, {{PermissionTicket|id=2008012110017088}}, categories. Upload 2008-01-21T23:48:51Z by Raul654.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "fma-album",
+      "title": "Free Music Archive — Skidmore College Orchestra, Mussorgsky’s Pictures at an Exhibition (album, released 6 April 2009)",
+      "url": "https://freemusicarchive.org/music/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition",
+      "locator": "Track list of fifteen titles with lengths; licence line “PD”; track page for this movement: https://freemusicarchive.org/music/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition/III_Tuileries_Allegretto_non_troppo_capriccioso/ (length 1:03).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "ia-promenade",
+      "title": "Internet Archive — Pictures At An Exhibition - Promenade, Skidmore College Orchestra (Musopen CC0 recording)",
+      "url": "https://archive.org/details/modest-mussorgsky-pictures-at-an-exhibition-promenade",
+      "locator": "Description: “Performed by Skidmore College Orchestra date unknown, 2008 at the latest”; licence URL CC0 1.0. This item holds the first Promenade only; it is used for the orchestra attribution and date bound of the set.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-talk",
+      "title": "Wikimedia Commons — File talk page of the first Promenade file, “Copyright status of the recording (all movements)” (Csmpsn, 6 July 2015)",
+      "url": "https://commons.wikimedia.org/wiki/File_talk:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto,_nel_modo_russico_senza_allegrezza,_ma.ogg",
+      "locator": "Comment identifying the orchestration as Ravel’s and the performance as Skidmore’s; unsourced, so used only for the “inferred” version status.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

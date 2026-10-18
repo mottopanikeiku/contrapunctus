@@ -131,7 +131,7 @@
     },
     "recording": {
       "value": "Rule 3 — EU public-domain term basis for a phonogram published before 1963; territorial, not worldwide.",
-      "status": "inferred",
+      "status": "documented",
       "sourceIds": [
         "library",
         "archive",

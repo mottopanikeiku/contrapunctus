@@ -33,7 +33,7 @@ export default {
       "t": 242,
       "label": "B · A sustained middle span",
       "m": "B",
-      "mNote": "Approximate approach to the score’s D-flat-major middle, bars 55–78."
+      "mNote": "Approximate approach to the score’s D♭-major middle, bars 55–78."
     },
     {
       "t": 324,
@@ -169,7 +169,7 @@ export default {
     {
       "t": 482,
       "kind": "music",
-      "title": "The last sound is not a climax",
+      "title": "A quiet final resonance",
       "text": "The closing passage stays quiet. Let the remaining resonance run its course rather than expecting one last orchestral surge: Debussy ends by reducing the pressure that the central span had accumulated.",
       "basis": "audio-feature",
       "precision": "passage",
@@ -189,7 +189,7 @@ export default {
         225,
         260
       ],
-      "how": "<p>The opening material has already changed its surroundings several times. The contrasting middle makes a more sustained melody prominent and establishes the D-flat-major region after dominant preparation. Winds combine over a gently articulated string background. The join enlarges phrase and texture without a hard break; the new key matters because it gives the extended line a temporary place to settle.</p>",
+      "how": "<p>The opening material has already changed its surroundings several times. The contrasting middle makes a more sustained melody prominent and establishes the D♭-major region after dominant preparation. Winds combine over a gently articulated string background. The join enlarges phrase and texture without a hard break; the new key matters because it gives the extended line a temporary place to settle.</p>",
       "devices": [
         "motivic link",
         "texture change",
@@ -197,7 +197,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Pearson analysis: bars 51–54 prepare D-flat, bars 55–78 form the middle; Fromont score p.15. Report: retreat at 3:45–4:00 followed by the broader 4:20–4:55 crest; 4:02 is an approximate sectional boundary."
+      "evidence": "Pearson analysis: bars 51–54 prepare D♭, bars 55–78 form the middle; Fromont score p.15. Report: retreat at 3:45–4:00 followed by the broader 4:20–4:55 crest; 4:02 is an approximate sectional boundary."
     },
     {
       "id": "into-opening-return",

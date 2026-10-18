@@ -412,13 +412,13 @@ export default {
       "trumpets",
       "timpani",
       "trombones",
-      "tuba"
+      "piccolo"
     ],
     "basis": "score-proportion",
     "source": {
       "title": "Dvořák, Symphony No. 9, full score, critical edition edited by Otakar Šourek",
       "url": "https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf",
-      "locator": "First movement: printed pp. 1–72 (PDF pp. 3–74). Opening staves and orchestral changes viewed; time positions are broad passage estimates."
+      "locator": "First movement: printed pp. 1–72 (PDF pp. 3–74). The short piccolo phrase is in bars 197–200, printed p. 34 (PDF p. 36); no tuba is scored in this movement. Time positions remain broad passage estimates."
     },
     "timeline": [
       {
@@ -510,7 +510,6 @@ export default {
           "horns",
           "trumpets",
           "trombones",
-          "tuba",
           "timpani",
           "violins-1",
           "violins-2",
@@ -523,6 +522,24 @@ export default {
           "violins-1"
         ],
         "note": "Development region: earlier figures pass between strings, winds and brass through changing harmonies."
+      },
+      {
+        "t": 320,
+        "playing": ["piccolo", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["piccolo"],
+        "note": "The development’s brief piccolo phrase lies over quiet strings, with the horn’s tail and a trumpet continuation (bars 197–200, printed p. 34). Approximately placed in the report’s 5:20–5:25 E-major region, not bar-aligned."
+      },
+      {
+        "t": 327,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["trumpets", "oboes"],
+        "note": "After the piccolo’s short phrase, wind and trumpet exchanges continue over strings; the second flautist returns to flute (printed p. 34). Broadly placed before the 5:30 change."
+      },
+      {
+        "t": 340,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["horns", "violins-1"],
+        "note": "The central development regains fuller wind, brass and timpani reinforcement as the report rises through 5:40–6:20. Tuba is not part of this movement."
       },
       {
         "t": 398,
@@ -556,7 +573,6 @@ export default {
           "horns",
           "trumpets",
           "trombones",
-          "tuba",
           "timpani",
           "violins-1",
           "violins-2",

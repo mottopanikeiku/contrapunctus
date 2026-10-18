@@ -181,21 +181,21 @@
   },
   "endpoints": {
     "first": [
-      0,
-      3
+      0.65,
+      1.0
     ],
     "last": [
-      282.96,
-      292.96
+      292.05,
+      292.5
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
+    "basis": "Independent opening/ending pitch plots reject broad-window selections2.86 and283.85 despite numeric pass. First C60/E-flat75 rise around0.7–1.0 before D-flat73; last written E-flat39 then C36 bass pickup is visible near290.8–291.8, followed by A-flat44 and upper C84 rise around292.1–292.5. These identify the actual first phrase and final chord, not the nearest detector peak. No listening claim."
   },
   "boundaries": [],
   "diagnostics": {
     "recurrences": [
       { "startQ": 188, "secondQ": 254, "length": 20, "search": 8 }
     ],
-    "overlays": [[130, 150], [185, 205]]
+    "overlays": [[0, 5], [130, 150], [185, 205], [279, 294.9]]
   },
   "engraving": {
     "staff": 12,

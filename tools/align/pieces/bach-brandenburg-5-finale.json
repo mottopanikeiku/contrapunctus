@@ -42,13 +42,13 @@
     "description": "Complete movement III, 310 engraved 2/4 bars in written order. The source’s repeat unfold constructs already write out the A–B–A return, with staggered staff-rest prefixes and alternatives; no additional repeat traversal is applied. The opening rests stay within bar 1, not an invented pickup."
   },
   "endpoints": {
-    "first": [0, 3],
+    "first": [0.85, 1.03],
     "last": [293.45, 293.95],
-    "basis": "Pitch-energy inspection identifies the first solo-violin A4 rise at 1.38 s (peak 1.40 s), after the source’s 0.75-quarter opening rests. The closing D-major sonority begins around 293.6 s in the fresh 292–296.5 s overlay, including the new D2 bass energy. Reject the initial broad window’s 295.52 s decay fluctuation, which delayed the last attack and failed the 0.5 s anchor gate."
+    "basis": "The fresh 0.4–3.5 s pitch overlay and independent attacks at 0.940, 1.103 and 1.393 s identify the source opening A4–D5–A4 after 0.75 quarter of written rests. Reject the broad first window’s 1.38 s rise (peak 1.40 s): it selects the third note’s repeated A4 and compresses the first two notes to milliseconds despite passing numeric gates. Restrict the first anchor to the actual initial A4. The closing D-major sonority begins around 293.6 s in the 292–296.5 s overlay, including new D2 bass energy. Reject the initial broad last window’s 295.52 s decay fluctuation, which delayed the last attack and failed the 0.5 s anchor gate."
   },
   "diagnostics": {
     "held": { "voice": 5, "onsets": [57, 394, 432] },
-    "overlays": [[25, 40], [180, 210], [186, 192], [204, 211], [215, 235], [288, 297], [292, 296.5]]
+    "overlays": [[0.4, 3.5], [25, 40], [180, 210], [186, 192], [204, 211], [215, 235], [288, 297], [292, 296.5]]
   },
   "boundaries": [],
   "engraving": { "staff": 16, "width": 260, "height": 340 },

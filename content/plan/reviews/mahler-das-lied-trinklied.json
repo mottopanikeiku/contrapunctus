@@ -3,25 +3,11 @@
   "verdict": "fix",
   "defects": [
     {
-      "where": "sections[1:3]; cues[3], cues[5], cues[6]; transitions[0:2]; orchestra.source.locator and corresponding timeline entries",
-      "severity": "major",
-      "problem": "The first refrain and the following return appear assigned to the wrong audio events. A novelty boundary at 0:58 is not evidence that the first Dunkel refrain occurs there, and the 1:42 G-minor region does not establish Herr dieses Hauses. The first refrain is the G-minor passage at score bars 77–89, followed by the Tempo I ritornello; this report instead puts a sustained G-minor region around 1:45–2:05 and the loud return around 2:10. The present first-refrain/return/host labels are not consistent with that score-and-audio sequence.",
-      "evidence": "cache/analysis/mahler-das-lied-trinklied.txt: the 0:58/1:28/1:42 boundaries and local-key/loudness windows 0:55–2:25; https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP20582-PMLP47886-Mahler_-_Das_Lied_von_der_Erde_(orch._score).pdf printed pp.11–15; https://musau.org/parts/neue-article-page/view/37 section 3, paragraph 5, identifies refrain 1 as G minor, bars 77–89; https://musau.org/assets/Uploads/2018/Utz/Utz-Mahler-Table04.pdf gives Schuricht’s measured refrain tempo, distinguishing it from Tempo I.",
-      "fix": "Independently align the first refrain, following Tempo I return and Herr dieses Hauses against the selected Schuricht recording and score; then move the affected section/cue/transition/orchestra anchors together and cite the matching report regions. Investigate the 1:42–2:05 G-minor passage and the loud return around 2:10, rather than treating the earlier novelty peaks as lyric identification. Alternatively make any retained earlier cues feature-only and remove the unestablished refrain/lyric claims at those times. Do not claim an exact lyric entry from a boundary alone."
-    },
-    {
-      "where": "cues[7].text",
+      "where": "cue at t:150, evidence",
       "severity": "minor",
-      "problem": "The text assigns p dolce to the harp patterns, whereas the score and the cue’s own evidence assign dolce to the flutes and clarinets; the first harp is marked p.",
-      "evidence": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP20582-PMLP47886-Mahler_-_Das_Lied_von_der_Erde_(orch._score).pdf printed p.18, rehearsal figure 18.",
-      "fix": "Replace ‘two harps play patterns marked p dolce’ with ‘two harps play soft patterns while the flutes and clarinets are marked p dolce’."
-    },
-    {
-      "where": "cues[17].text",
-      "severity": "minor",
-      "problem": "The closing climax is called the song’s loudest point, but the report’s loudest window is at 2:20 (−2.9 dB), above 7:40 (−3.1 dB). The evidence correctly describes the loudest closing stretch rather than the whole song.",
-      "evidence": "cache/analysis/mahler-das-lied-trinklied.txt, loudest-window ranking: 2:20, 7:40, 2:15, 2:10, 7:35.",
-      "fix": "Replace ‘the song reaches its loudest point’ with ‘the song reaches one of its loudest points’ or ‘the closing stretch reaches its loudest point’."
+      "problem": "The corrected major/minor sequence is right, but the newly added A-major correlation range 0.67–0.75 is not in the cited report windows. The actual correlations are 0.44 at 2:30, 0.64 at 2:35 and 0.67 at 2:40. All other reported defects are now cleared.",
+      "evidence": "cache/analysis/mahler-das-lied-trinklied.txt:57-59.",
+      "fix": "Replace the A-major correlation range with 0.44–0.67, or omit only that parenthetical range. Keep the correct A-minor range 0.66–0.71 for 2:45–2:50."
     }
   ]
 }

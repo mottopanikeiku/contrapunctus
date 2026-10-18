@@ -140,6 +140,9 @@
     "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
   },
   "boundaries": [],
+  "diagnostics": {
+    "overlays": [[72, 80], [224, 232], [352, 360]]
+  },
   "engraving": {
     "staff": 12,
     "width": 310,

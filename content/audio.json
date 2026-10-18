@@ -251,6 +251,13 @@
   "artist": "Sir Edward Elgar (1857-1934)",
   "duration": 952
  },
+ "archive:l-1581-5-beethoven-quartet-op-131/L1581-5 Beethoven Quartet op131.mp3": {
+  "stream": "https://archive.org/download/l-1581-5-beethoven-quartet-op-131/L1581-5%20Beethoven%20Quartet%20op131.mp3",
+  "page": "https://archive.org/details/l-1581-5-beethoven-quartet-op-131",
+  "license": "",
+  "artist": "Columbia Graphophone Co., Ltd.",
+  "duration": 2441.55
+ },
  "archive:loc-jukebox-12087-douce-dame-jolie/jukebox-12087_douce-dame-jolie.mp3": {
   "stream": "https://archive.org/download/loc-jukebox-12087-douce-dame-jolie/jukebox-12087_douce-dame-jolie.mp3",
   "page": "https://archive.org/details/loc-jukebox-12087-douce-dame-jolie",
@@ -313,6 +320,13 @@
   "license": "CC BY-SA 4.0",
   "artist": "Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison ( JohnHarrisonViolin.com )",
   "duration": 193
+ },
+ "File:20091104 Alisa Weilerstein and Jason Yoder - Saint Saëns' The Swan.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg/20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg",
+  "license": "Public domain",
+  "artist": "Camille Saint-Saëns , Whitehouse.gov",
+  "duration": 176.208
  },
  "File:20091104 Awadagin Pratt - Scriabin, Étude Op. 8 No. 12.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/20091104_Awadagin_Pratt_-_Scriabin%2C_%C3%89tude_Op._8_No._12.ogg/20091104_Awadagin_Pratt_-_Scriabin%2C_%C3%89tude_Op._8_No._12.ogg.mp3",
@@ -496,6 +510,13 @@
   "artist": "Frédéric Chopin / Frank Lévy",
   "duration": 762.0092708333333
  },
+ "File:Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin / Frank Lévy",
+  "duration": 271.4694895833333
+ },
  "File:Chopin - Nocturne No. 5 in F-sharp major, Op. 15 No. 2 (Luke Faulkner).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Chopin_-_Nocturne_No._5_in_F-sharp_major%2C_Op._15_No._2_%28Luke_Faulkner%29.flac/Chopin_-_Nocturne_No._5_in_F-sharp_major%2C_Op._15_No._2_%28Luke_Faulkner%29.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._5_in_F-sharp_major,_Op._15_No._2_(Luke_Faulkner).flac",
@@ -531,6 +552,20 @@
   "artist": "Claude Debussy",
   "duration": 339.74666666666667
  },
+ "File:Corelli - Concerto Grosso Op. 6 No. 4 - 1. Adagio - Allegro.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg/Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Advent Chamber Orchestra",
+  "duration": 205.10666666666665
+ },
+ "File:D. Buxtehude Präludium, Fuge und Chaconne C-Dur BuxWV 137 Fabian Wöhrle Kath. Kirche Gerstetten.mp3": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/3/32/D._Buxtehude_Pr%C3%A4ludium%2C_Fuge_und_Chaconne_C-Dur_BuxWV_137_Fabian_W%C3%B6hrle_Kath._Kirche_Gerstetten.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:D._Buxtehude_Pr%C3%A4ludium,_Fuge_und_Chaconne_C-Dur_BuxWV_137_Fabian_W%C3%B6hrle_Kath._Kirche_Gerstetten.mp3",
+  "license": "CC BY-SA 4.0",
+  "artist": "Composition: Dieterich Buxtehude (1637-1707) File: Fabian Wöhrle",
+  "duration": 300.3036981845592
+ },
  "File:Domenico Scarlatti - Sonate en mi majeur Kk.380 (Marcelle Meyer, 1954).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Domenico_Scarlatti_-_Sonate_en_mi_majeur_Kk.380_%28Marcelle_Meyer%2C_1954%29.flac/Domenico_Scarlatti_-_Sonate_en_mi_majeur_Kk.380_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_mi_majeur_Kk.380_(Marcelle_Meyer,_1954).flac",
@@ -544,6 +579,13 @@
   "license": "Public domain",
   "artist": "Domenico Scarlatti",
   "duration": 282.58666666666664
+ },
+ "File:E lucevan le stelle (1902).opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/E_lucevan_le_stelle_%281902%29.opus/E_lucevan_le_stelle_%281902%29.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:E_lucevan_le_stelle_(1902).opus",
+  "license": "Public domain",
+  "artist": "Giacomo Puccini",
+  "duration": 153.921
  },
  "File:Edvard-Grieg-Lyric-Pieces-Op-65 -No-6-Wedding-Day-at-Troldhaugen.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg/Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg.mp3",
@@ -566,12 +608,124 @@
   "artist": "United States Marine Band",
   "duration": 345.6171133118769
  },
+ "File:Elgar; Enigma variations, Theme I. C.A.E.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6c/Elgar%3B_Enigma_variations%2C_Theme_I._C.A.E.ogg/Elgar%3B_Enigma_variations%2C_Theme_I._C.A.E.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_I._C.A.E.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 200.20244897959185
+ },
+ "File:Elgar; Enigma variations, Theme II. H.D.S.-P.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/Elgar%3B_Enigma_variations%2C_Theme_II._H.D.S.-P.ogg/Elgar%3B_Enigma_variations%2C_Theme_II._H.D.S.-P.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_II._H.D.S.-P.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 41.74367346938776
+ },
+ "File:Elgar; Enigma variations, Theme III. R.B.T.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Elgar%3B_Enigma_variations%2C_Theme_III._R.B.T.ogg/Elgar%3B_Enigma_variations%2C_Theme_III._R.B.T.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_III._R.B.T.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 77.68816326530612
+ },
+ "File:Elgar; Enigma variations, Theme IV. W.M.B.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Elgar%3B_Enigma_variations%2C_Theme_IV._W.M.B.ogg/Elgar%3B_Enigma_variations%2C_Theme_IV._W.M.B.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IV._W.M.B.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 28.081632653061224
+ },
  "File:Elgar; Enigma variations, Theme IX. Nimrod.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Elgar%3B_Enigma_variations%2C_Theme_IX._Nimrod.ogg/Elgar%3B_Enigma_variations%2C_Theme_IX._Nimrod.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg",
   "license": "Public domain",
   "artist": "John Barbirolli Halle Orchestra,",
   "duration": 173.8187755102041
+ },
+ "File:Elgar; Enigma variations, Theme V. R.P.A.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/Elgar%3B_Enigma_variations%2C_Theme_V._R.P.A.ogg/Elgar%3B_Enigma_variations%2C_Theme_V._R.P.A.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_V._R.P.A.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 118.85714285714286
+ },
+ "File:Elgar; Enigma variations, Theme VI. Ysobel.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Elgar%3B_Enigma_variations%2C_Theme_VI._Ysobel.ogg/Elgar%3B_Enigma_variations%2C_Theme_VI._Ysobel.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VI._Ysobel.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 65.3061224489796
+ },
+ "File:Elgar; Enigma variations, Theme VII. Troyte.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Elgar%3B_Enigma_variations%2C_Theme_VII._Troyte.ogg/Elgar%3B_Enigma_variations%2C_Theme_VII._Troyte.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VII._Troyte.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 52.84426303854875
+ },
+ "File:Elgar; Enigma variations, Theme VIII. W.N.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Elgar%3B_Enigma_variations%2C_Theme_VIII._W.N.ogg/Elgar%3B_Enigma_variations%2C_Theme_VIII._W.N.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VIII._W.N.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 88.13714285714286
+ },
+ "File:Elgar; Enigma variations, Theme X. Intermezzo Dorabella.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Elgar%3B_Enigma_variations%2C_Theme_X._Intermezzo_Dorabella.ogg/Elgar%3B_Enigma_variations%2C_Theme_X._Intermezzo_Dorabella.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_X._Intermezzo_Dorabella.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 124.86530612244898
+ },
+ "File:Elgar; Enigma variations, Theme XI. G.R.S.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Elgar%3B_Enigma_variations%2C_Theme_XI._G.R.S.ogg/Elgar%3B_Enigma_variations%2C_Theme_XI._G.R.S.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XI._G.R.S.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 49.63265306122449
+ },
+ "File:Elgar; Enigma variations, Theme XII. B.G.N.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Elgar%3B_Enigma_variations%2C_Theme_XII._B.G.N.ogg/Elgar%3B_Enigma_variations%2C_Theme_XII._B.G.N.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XII._B.G.N.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 135.86285714285714
+ },
+ "File:Elgar; Enigma variations, Theme XIII. Romanza.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dd/Elgar%3B_Enigma_variations%2C_Theme_XIII._Romanza.ogg/Elgar%3B_Enigma_variations%2C_Theme_XIII._Romanza.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XIII._Romanza.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 131.99528344671202
+ },
+ "File:Elgar; Enigma variations, Theme XIV. Finale E.D.U.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Elgar%3B_Enigma_variations%2C_Theme_XIV._Finale_E.D.U.ogg/Elgar%3B_Enigma_variations%2C_Theme_XIV._Finale_E.D.U.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XIV._Finale_E.D.U.ogg",
+  "license": "Public domain",
+  "artist": "John Barbirolli Halle Orchestra,",
+  "duration": 263.41877551020406
+ },
+ "File:Emmy Destinn, Vissi d'arte (Tosca).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Emmy_Destinn%2C_Vissi_d%27arte_%28Tosca%29.ogg/Emmy_Destinn%2C_Vissi_d%27arte_%28Tosca%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Emmy_Destinn,_Vissi_d%27arte_(Tosca).ogg",
+  "license": "Public domain",
+  "artist": "Giacomo Puccini (1858-1924) Emmy Destinn (1878-1930), soprano",
+  "duration": 190.55165532879818
+ },
+ "File:Enrico Caruso - Nellie Melba - La bohème - O soave fanciulla (restored).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Enrico_Caruso_-_Nellie_Melba_-_La_boh%C3%A8me_-_O_soave_fanciulla_%28restored%29.ogg/Enrico_Caruso_-_Nellie_Melba_-_La_boh%C3%A8me_-_O_soave_fanciulla_%28restored%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Enrico_Caruso_-_Nellie_Melba_-_La_boh%C3%A8me_-_O_soave_fanciulla_(restored).ogg",
+  "license": "Public domain",
+  "artist": "Enrico Caruso (1873–1921)), Nellie Melba (1861–1931) Giacomo Puccini (1858-1924)",
+  "duration": 195.55990929705214
+ },
+ "File:Enrico Caruso, Recondita armonia (Tosca).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Enrico_Caruso%2C_Recondita_armonia_%28Tosca%29.ogg/Enrico_Caruso%2C_Recondita_armonia_%28Tosca%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Enrico_Caruso,_Recondita_armonia_(Tosca).ogg",
+  "license": "Public domain",
+  "artist": "Giacomo Puccini (1858–1924) Enrico Caruso (1873–1921)",
+  "duration": 144.98684807256237
  },
  "File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg/Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg.mp3",
@@ -790,6 +944,20 @@
   "artist": "Johann Sebastian Bach",
   "duration": 130.2726530612245
  },
+ "File:Josquin Desprez -- Mille regretz.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Josquin_Desprez_--_Mille_regretz.opus/Josquin_Desprez_--_Mille_regretz.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Josquin_Desprez_--_Mille_regretz.opus",
+  "license": "CC BY 3.0",
+  "artist": "Josquin des Prez (1450-5 - 1521), composer Collegium Vocale , performers",
+  "duration": 115.861
+ },
+ "File:Judith Bokor plays Le Cygne by Saint-Saëns.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac/Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac",
+  "license": "Public domain",
+  "artist": "Judith Bokor",
+  "duration": 154.1387528344671
+ },
  "File:Judith Bokor plays Valse triste by Sibelius.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Judith_Bokor_plays_Valse_triste_by_Sibelius.flac/Judith_Bokor_plays_Valse_triste_by_Sibelius.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Valse_triste_by_Sibelius.flac",
@@ -810,6 +978,13 @@
   "license": "Public domain",
   "artist": "Ludwig van Beethoven",
   "duration": 844.4604081632654
+ },
+ "File:La bohème, O Mimì, tu più non torni (Caruso, Scotti).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/La_boh%C3%A8me%2C_O_Mim%C3%AC%2C_tu_pi%C3%B9_non_torni_%28Caruso%2C_Scotti%29.ogg/La_boh%C3%A8me%2C_O_Mim%C3%AC%2C_tu_pi%C3%B9_non_torni_%28Caruso%2C_Scotti%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:La_boh%C3%A8me,_O_Mim%C3%AC,_tu_pi%C3%B9_non_torni_(Caruso,_Scotti).ogg",
+  "license": "Public domain",
+  "artist": "Giacomo Puccini (1858-1924) Enrico Caruso (1873-1921) Antonio Scotti (1866-1936)",
+  "duration": 184.89469387755102
  },
  "File:La Cathédrale engloutie - Claude Debussy - performed by Ivan Ilic.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg/La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg.mp3",
@@ -1105,6 +1280,13 @@
   "artist": "",
   "duration": 403.2436054421769
  },
+ "File:Maurice Ravel - Miroirs - 4. Alborada del gracioso.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Maurice_Ravel_-_Miroirs_-_4._Alborada_del_gracioso.flac/Maurice_Ravel_-_Miroirs_-_4._Alborada_del_gracioso.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_4._Alborada_del_gracioso.flac",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "duration": 357.2556916099773
+ },
  "File:Maurice Ravel - Thérèse Dussaut - Pavane pour une infante défunte.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg",
@@ -1308,6 +1490,13 @@
   "artist": "Giacomo Puccini (1858–1924); Claudia Muzio (1889–1936)",
   "duration": 240.84897959183672
  },
+ "File:Purcell TheFairyQueen ActV Chaconne Z629 Esmuc.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac/Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac",
+  "license": "CC BY-SA 4.0",
+  "artist": "",
+  "duration": 162.24544217687074
+ },
  "File:Rachmaninoff Prelude in B Minor, Op. 32, No. 10.oga": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Rachmaninoff_Prelude_in_B_Minor%2C_Op._32%2C_No._10.oga/Rachmaninoff_Prelude_in_B_Minor%2C_Op._32%2C_No._10.oga.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Rachmaninoff_Prelude_in_B_Minor,_Op._32,_No._10.oga",
@@ -1504,6 +1693,20 @@
   "artist": "The Modena Chamber Orchestra",
   "duration": 214.01308333333333
  },
+ "File:The Tudor Consort - 01 - Palestrina - Sicut lilium inter spinas.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/The_Tudor_Consort_-_01_-_Palestrina_-_Sicut_lilium_inter_spinas.ogg/The_Tudor_Consort_-_01_-_Palestrina_-_Sicut_lilium_inter_spinas.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_01_-_Palestrina_-_Sicut_lilium_inter_spinas.ogg",
+  "license": "CC BY 3.0",
+  "artist": "The Tudor Consort",
+  "duration": 278.9809977324263
+ },
+ "File:The Tudor Consort - 05 - Claudio Monteverdi - Quel Augelin Che Canta.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg",
+  "license": "CC BY 3.0",
+  "artist": "The Tudor Consort",
+  "duration": 120.29387755102042
+ },
  "File:Till Eulenspiegel's Merry Pranks - United States Navy Band.opus": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus/Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus",
@@ -1545,6 +1748,20 @@
   "license": "CC BY-SA 4.0",
   "artist": "Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison ( JohnHarrisonViolin.com )",
   "duration": 208.84
+ },
+ "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 03. Dies irae.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_03._Dies_irae.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_03._Dies_irae.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Requiem,_K._626_(Bruno_Walter,_Wiener_Philharmoniker,_Wiener_Staatsopernchor,_1956)_-_03._Dies_irae.ogg",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "duration": 112.98829931972789
+ },
+ "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 14. Communio Lux aeterna.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_14._Communio_Lux_aeterna.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_14._Communio_Lux_aeterna.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Requiem,_K._626_(Bruno_Walter,_Wiener_Philharmoniker,_Wiener_Staatsopernchor,_1956)_-_14._Communio_Lux_aeterna.ogg",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "duration": 423.7641723356009
  },
  "File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3",

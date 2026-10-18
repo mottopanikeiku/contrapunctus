@@ -52,11 +52,17 @@
     "overlays": [[0, 15], [255, 280], [390, 415], [605, 625], [708, 728], [760, 782]]
   },
   "boundaries": [],
-  "engraving": { "staff": 18, "width": 230, "height": 297 },
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297,
+    "music": "\\new Staff \\with { instrumentName = \"Violine\" } { \\clef treble \\key d \\minor \\time 3/4 \\set Score.currentBarNumber = #2 \\set Score.internalBarNumber = #2 \\partial 2 \\melody }"
+  },
   "provenance": [
     "This is the standalone solo-violin Chaconne, not the whole partita or a piano arrangement. The original source and published MIDI are retained with inventory SHA-256 pins.",
     "The four separately encoded variables melodyOne, melodyTwo, melodyThree and melodyFour are compiled independently. Names identify source variables rather than inferred soprano/alto/bass roles or MIDI channels; their notational voice settings are respectively voiceOne, voiceThree, voiceFive and voiceTwo.",
     "The source sets currentBarNumber to 2 before partial 2 and labels the opening fragment as bar 1. Its 257 source-comment bars occupy 770 quarter units. Source unisons and chord holds remain in their originating variables instead of being truncated by the published merged MIDI staff.",
+    "Engraving reuses the immutable source’s complete melody variable and sets both displayed and internal bar counters to 2 before partial 2. LilyPond’s rhythmic-location tags use its internal counter, not currentBarNumber: setting only the original displayed counter mislabels the pickup 0 and the last note 256. The wrapper preserves all notation while making the pickup tag 1 and the final written bar 257; a derived blank box is not a substitute for that final measure.",
     "The arpeggio markings at bars 89 and 201 are not a fully encoded performance realisation. Symbolic sustained chord tones must not be mistaken for Heifetz’s individual string attacks; no notes or repeated arpeggio patterns are fabricated. No aural review or recording-edition identity is claimed.",
     "The final written D4 hold uses an explicit 778.5 s pitch-energy display boundary rather than the noisy whole-file RMS end at 782.245 s. The strongest pitched energy fades around 775 s, with a weak measured tail reaching the documented boundary; neither the display duration nor that threshold is a measured violin release."
   ]

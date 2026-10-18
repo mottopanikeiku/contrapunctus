@@ -1,5 +1,5 @@
 {
   "id": "elgar-enigma-troyte",
-  "verdict": "fix",
-  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The sole state displays only timpani, cellos and basses for the entire track, although the score subsequently brings in the larger orchestra. ‘Opening texture only’ does not expire the state.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 35–46: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf .","fix":"Add report-anchored broad score-backed states for the ensuing full-orchestra passages, intervening contrasts and close, and revise the locator to describe full-variation coverage."}]
+  "verdict": "pass",
+  "defects": []
 }

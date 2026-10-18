@@ -168,7 +168,7 @@ export default {
     ],
     "basis": "score-proportion",
     "source": {
-      "title": "Lili Boulanger, Psaume 24, Durand full score (1924), plate D. & F. 10498",
+      "title": "Lili Boulanger, Psaume 24, Durand full score (1924), plate D. & F. 10488",
       "url": "https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf",
       "locator": "Nomenclature and printed pp. 1, 4–9, 17–18. The nomenclature says Harpe in the singular. Optional horn support of the opening choir is not asserted as a recording-specific choice. Representative passage snapshots, placed approximately using the cached level/novelty report and score order. Not continuous player detection; individual rests are not mapped."
     },

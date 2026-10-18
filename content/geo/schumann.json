@@ -225,8 +225,28 @@
       "lon": 7.0774,
       "from": "1854-03-04",
       "to": "1856-07-29",
+      "kind": "lived",
+      "what": "Entered at his own request after the Rhine suicide attempt on 27 February; treated by Franz Richarz.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        },
+        {
+          "title": "Schumannhaus Bonn — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Schumannhaus_Bonn"
+        }
+      ]
+    },
+    {
+      "name": "Endenich sanatorium, near Bonn",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 50.7244,
+      "lon": 7.0774,
+      "from": "1856-07-29",
       "kind": "died",
-      "what": "Entered at his own request after the Rhine suicide attempt; treated by Richarz; died here on 29 July 1856.",
+      "what": "Died at the sanatorium on 29 July 1856, aged forty-six; pneumonia is recorded as the cause.",
       "status": "documented",
       "sources": [
         {

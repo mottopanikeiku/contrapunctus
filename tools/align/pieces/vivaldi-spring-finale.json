@@ -120,15 +120,9 @@
     "description": "Only movement 3: bars 1–89 once in written order, with no pickup or repeat traversal. Returning material is written out in the source."
   },
   "endpoints": {
-    "first": [
-      0,
-      3
-    ],
-    "last": [
-      230,
-      239
-    ],
-    "basis": "Initial score-pitch search windows from the cached recording analysis. Refine from endpoint pitch-energy evidence before publication; source-file tail or container duration is not the final musical attack."
+    "first": [2.1, 2.6],
+    "last": [238.1, 238.8],
+    "basis": "The initial full source sonority begins around 2.3 s after the transfer’s leading noise. The true final E-major arrival is around 238.3 s, following the continuing upper-violin figures and dominant through 237.8 s; the earlier E/G-sharp rise around 230.2 s is not the ending. Full 232–244 s pitch-energy inspection prevents collapsing the last piano measures onto that earlier harmony. No aural review is claimed."
   },
   "boundaries": [],
   "provenance": [

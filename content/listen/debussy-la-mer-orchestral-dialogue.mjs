@@ -26,7 +26,7 @@ export default {
     "part": 3,
     "of": 3
   },
-  "intro": "The finale begins low in the orchestra, but its force soon exceeds the opening movement’s quiet dawn. Turbulent figures alternate with broader lines, earlier material returns, and the ending gathers the whole work toward D-flat major. Follow how the dialogue changes scale rather than assigning each instrument permanently to wind or sea.",
+  "intro": "The finale begins low in the orchestra, but its force soon exceeds the opening movement’s quiet dawn. Turbulent figures alternate with broader lines, earlier material returns, and the ending gathers the whole work toward D♭ major. Follow how the dialogue changes scale rather than assigning each instrument permanently to wind or sea.",
   "question": "How does the finale turn earlier material and repeated surges into a sense of conclusion?",
   "sections": [
     {
@@ -82,7 +82,7 @@ export default {
     {
       "t": 72,
       "kind": "world",
-      "title": "Dialogue is the title, not a script",
+      "title": "Dialogue, not a literal script",
       "text": "Debussy names this sketch a dialogue of wind and sea. The title does not require us to assign one instrument to each speaker. Listen for the changing relationship between short agitated figures and broader phrases, then decide how much of the image you need.",
       "basis": "documented",
       "precision": "passage",
@@ -164,10 +164,10 @@ export default {
       "t": 396,
       "kind": "form",
       "title": "The final course turns toward closure",
-      "text": "The last broad stretch gathers the orchestra toward its concluding D-flat-major destination. Compare its persistent drive with the earlier exchanges that repeatedly opened out and withdrew. The ending has to close the whole three-movement work, not only its own turbulent opening.",
+      "text": "The last broad stretch gathers the orchestra toward its concluding D♭-major destination. Compare its persistent drive with the earlier exchanges that repeatedly opened out and withdrew. The ending has to close the whole three-movement work, not only its own turbulent opening.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Durand score pp.270–279 supplies the final build and D-flat-major ending; LA Phil describes the finale’s closing function. Report: a strong6:18 change is followed by the rise through6:30–7:20. Placement is approximate."
+      "evidence": "Durand score pp.270–279 supplies the final build and D♭-major ending; LA Phil describes the finale’s closing function. Report: a strong 6:18 change is followed by the rise through 6:30–7:20. Placement is approximate."
     },
     {
       "t": 432,
@@ -255,7 +255,7 @@ export default {
         362,
         396
       ],
-      "how": "<p>After another withdrawal, the closing region gathers momentum and orchestral weight. Earlier material is drawn into the finale’s conclusion, and the score drives toward D-flat major rather than allowing one more quiet dispersal. The full-orchestra ending answers the work’s recurring rises and retreats with a decisive release.</p>",
+      "how": "<p>After another withdrawal, the closing region gathers momentum and orchestral weight. Earlier material is drawn into the finale’s conclusion, and the score drives toward D♭ major rather than allowing one more quiet dispersal. The full-orchestra ending answers the work’s recurring rises and retreats with a decisive release.</p>",
       "devices": [
         "crescendo build",
         "motivic link",

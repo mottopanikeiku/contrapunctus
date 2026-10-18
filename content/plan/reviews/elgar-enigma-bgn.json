@@ -1,5 +1,5 @@
 {
   "id": "elgar-enigma-bgn",
-  "verdict": "fix",
-  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] Only viola and cello remain displayed until 38 s, although upper strings enter within the first score page. Later supporting/leading textures also need passage coverage rather than treating three broad snapshots as unchanging states.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 82–86: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf .","fix":"Add a report-anchored state for the other strings joining after the solo opening, then map the main intervening expanded and reduced scoring before the closing cello state. Keep timings broad and score-backed."}]
+  "verdict": "pass",
+  "defects": []
 }

@@ -54,16 +54,7 @@ export default {
       "evidence": "The inspected Chaconne score is in 3/4 with four string staves, dotted upper figures and repeated crotchets in the bass: https://s9.imslp.org/files/imglnks/usimg/6/69/IMSLP435506-PMLP237007-Suite_from_The_Fairy_Queen_Complete.pdf, PDF page 50, printed page 48."
     },
     {
-      "t": 28,
-      "kind": "listen",
-      "title": "The upper strings become more active",
-      "text": "The upper parts move into quicker figures while the bass maintains a steadier pace. Follow the lowest line for a moment: a change in surface activity does not necessarily mean that the dance’s underlying pulse has changed.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "The score introduces running upper figures after the opening sixteen bars. The report’s strongest early change is 0:24; the cue covers the following passage rather than a single bow stroke: https://s9.imslp.org/files/imglnks/usimg/6/69/IMSLP435506-PMLP237007-Suite_from_The_Fairy_Queen_Complete.pdf, printed pages 48–49."
-    },
-    {
-      "t": 56,
+      "t": 35,
       "kind": "world",
       "title": "Dance inside a spoken play",
       "text": "The Fairy Queen was first performed in London in 1692. Its spoken adaptation of A Midsummer Night’s Dream surrounds separate musical entertainments; this instrumental chaconne is a dance from Act V, not a sung setting of Shakespeare’s dialogue.",
@@ -72,7 +63,7 @@ export default {
       "evidence": "The work catalogue identifies the 1692 premiere, anonymous Shakespeare adaptation and Act V Chaconne: https://imslp.org/wiki/The_Fairy_Queen,_Z.629_(Purcell,_Henry)."
     },
     {
-      "t": 80,
+      "t": 70,
       "kind": "music",
       "title": "No continuous bass ground",
       "text": "The basso rests through this upper-string passage. That absence is a useful correction to the idea that every chaconne must repeat an unchanged bass without interruption: here the texture itself becomes part of the variation.",
@@ -81,7 +72,7 @@ export default {
       "evidence": "The score has basso rests in bars 49–64, while the three upper parts continue. The report shows markedly lower level from about 1:10 through 1:45, and a strong change near 1:08: https://s9.imslp.org/files/imglnks/usimg/6/69/IMSLP435506-PMLP237007-Suite_from_The_Fairy_Queen_Complete.pdf, printed pages 50–51."
     },
     {
-      "t": 106,
+      "t": 105,
       "kind": "life",
       "title": "Church, court and theatre",
       "text": "Purcell became organist of Westminster Abbey in 1679 and composed for major royal occasions as well as the theatre. His music for the stage belongs beside, not instead of, that continuing institutional career.",
@@ -90,22 +81,13 @@ export default {
       "evidence": "Westminster Abbey documents the 1679 appointment and music for the 1685 and 1689 coronations and Queen Mary’s funeral: https://www.westminster-abbey.org/abbey-commemorations/commemorations/henry-purcell-family."
     },
     {
-      "t": 132,
+      "t": 140,
       "kind": "world",
       "title": "Recorded in a museum",
       "text": "This performance was recorded in Barcelona’s Museu de la Música on 7 April 2018. The source credits Marc Urrutia for sound recording using an ORTF microphone arrangement, and Alba Roca as concertmaster and director.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The ESMUC Commons description explicitly gives the date, Sala de teclats at Museu de la Música, Marc Urrutia and ORTF: https://commons.wikimedia.org/wiki/File:Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac."
-    },
-    {
-      "t": 155,
-      "kind": "listen",
-      "title": "Carry the pulse into the close",
-      "text": "The fuller string texture leads towards the final cadence. Follow the last beat through the sustained ending and its decay, rather than treating the first drop in activity as the end of the recording.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report’s later span remains relatively strong through 2:30, then drops to −23.5 dB with no detected onsets in the 2:40 window. The file ends at 162.2 seconds; no exact final attack is asserted."
     }
   ],
   "transitions": [

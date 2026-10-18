@@ -377,14 +377,14 @@ export default {
       "horns",
       "trumpets",
       "trombones",
-      "tuba",
+      "percussion",
       "timpani"
     ],
     "basis": "score-proportion",
     "source": {
       "title": "Dvořák, Symphony No. 9, full score, critical edition edited by Otakar Šourek",
       "url": "https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf",
-      "locator": "Fourth movement: printed pp. 133–204 (PDF pp. 135–206); opening string preparation, brass subject, later returns and ending. Entries are passage-level score summaries."
+      "locator": "Fourth movement: printed pp. 133–204 (PDF pp. 135–206). Cymbals have one tied sonority in bars 64–66, printed p. 146 (PDF p. 148); no tuba is scored. Entries are passage-level summaries, not bar alignments."
     },
     "timeline": [
       {
@@ -414,7 +414,6 @@ export default {
           "horns",
           "trumpets",
           "trombones",
-          "tuba",
           "timpani",
           "violins-1",
           "violins-2",
@@ -427,6 +426,12 @@ export default {
           "trumpets"
         ],
         "note": "Main-subject region: horn and trumpet sonority projects the E-minor theme above active strings."
+      },
+      {
+        "t": 100,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "clarinets"],
+        "note": "The single cymbal sonority colours the withdrawal into the lyrical group (bars 64–66, printed p. 146). Its brief ringing span is provisionally placed around the report’s 1:40 reduction; no exact strike time is claimed."
       },
       {
         "t": 105,
@@ -457,7 +462,6 @@ export default {
           "horns",
           "trumpets",
           "trombones",
-          "tuba",
           "timpani",
           "violins-1",
           "violins-2",
@@ -482,7 +486,6 @@ export default {
           "horns",
           "trumpets",
           "trombones",
-          "tuba",
           "timpani",
           "violins-1",
           "violins-2",
@@ -505,7 +508,6 @@ export default {
           "bassoons",
           "horns",
           "trombones",
-          "tuba",
           "violins-1",
           "violins-2",
           "violas",
@@ -528,7 +530,6 @@ export default {
           "horns",
           "trumpets",
           "trombones",
-          "tuba",
           "timpani",
           "violins-1",
           "violins-2",

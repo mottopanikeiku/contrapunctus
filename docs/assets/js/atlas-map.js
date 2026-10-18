@@ -149,7 +149,10 @@ export async function mount(app) {
     if (announce) { status.textContent = `${year}: ${alive} living composers with place records. Select a city to see documented presence.`; updateHash(selected); }
     schedulePaint();
   }
-  function openCard() { card.classList.add('am-card-open'); }
+  function openCard() {
+    card.classList.add('am-card-open');
+    if (mobile.matches) stage.scrollIntoView({ block: 'start', behavior: reduced.matches ? 'instant' : 'smooth' });
+  }
   function renderEncounters(open = true) {
     const city = data.cities[selectedCity];
     if (!city) { cardContent.innerHTML = '<h2>Places are being researched</h2><p>No sourced geography is available yet.</p>'; return; }

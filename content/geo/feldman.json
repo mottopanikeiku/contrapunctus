@@ -123,27 +123,6 @@
       ]
     },
     {
-      "name": "Houston, Texas",
-      "country": "United States (today United States)",
-      "lat": 29.7589382,
-      "lon": -95.3676974,
-      "from": "1971",
-      "kind": "worked",
-      "what": "Composed Rothko Chapel for the Houston sanctuary and its paintings.",
-      "work": "Rothko Chapel",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "IRCAM: Morton Feldman biography",
-          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
-        },
-        {
-          "title": "Geographic coordinates: Houston, Texas",
-          "url": "https://nominatim.openstreetmap.org/search?q=Houston%2C%20Texas&format=json&limit=1"
-        }
-      ]
-    },
-    {
       "name": "Berlin",
       "country": "West Berlin (today Germany)",
       "lat": 52.52,
@@ -161,6 +140,27 @@
         {
           "title": "Wikipedia coordinate records",
           "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Rothko Chapel, Houston",
+      "country": "United States (today United States)",
+      "lat": 29.7375,
+      "lon": -95.39611111,
+      "from": "1972",
+      "kind": "premiere",
+      "what": "Feldman’s Rothko Chapel was first performed in the Houston sanctuary.",
+      "work": "Rothko Chapel",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Rothko Chapel: first Feldman performance in 1972",
+          "url": "https://rothkochapel.org/experience/events/event/tyshawn-sorey-20220219/"
+        },
+        {
+          "title": "Wikipedia: Rothko Chapel coordinates",
+          "url": "https://en.wikipedia.org/w/index.php?title=Rothko_Chapel&action=render"
         }
       ]
     },

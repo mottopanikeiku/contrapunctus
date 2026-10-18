@@ -61,15 +61,15 @@
       ]
     },
     {
-      "name": "Provisional Theatre, Prague",
+      "name": "Prague orchestra (Komzák, then Provisional Theatre)",
       "country": "Kingdom of Bohemia (Austrian Empire; today Czech Republic)",
       "lat": 50.0807,
       "lon": 14.4136,
       "from": "1862",
       "to": "1871",
       "kind": "worked",
-      "what": "Violist from 1862 in the orchestra that became the Provisional Theatre’s; Wagner conducted it in July 1863.",
-      "status": "documented",
+      "what": "Played viola from 1862 in Komzák’s orchestra, later the Provisional Theatre’s; he left in 1871 to compose.",
+      "status": "inferred",
       "sources": [
         {
           "title": "Antonín Dvořák — Wikipedia (English)",

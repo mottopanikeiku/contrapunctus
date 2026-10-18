@@ -82,13 +82,13 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 15–19, rehearsal figures 8–10. Whole-variation passage map; the two measured swells and changes at 0:26, 0:44 and 0:58 anchor the broad windows, not exact solo entrances."
+      "locator": "PDF pp. 15–19, rehearsal figures 8–10, including the repeat and first/second endings on p. 19. The report’s two swells support the repeated traversal; page spans are not a one-way timeline. Desk changes at 0:26, 0:44 and 0:58 remain approximate."
     },
     "timeline": [
       { "t": 0, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["oboes", "bassoons"], "note": "Oboe and low-wind replies contrast above light pizzicato strings; contrabassoon participates in the first gestures (p. 15)." },
       { "t": 14, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "The exchange expands through wind and string figures, acquiring horn and timpani support in the stronger span (pp. 16–17)." },
       { "t": 26, "playing": ["flutes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "clarinets"], "note": "The texture becomes lighter, with lower-wind figures and short responses above the strings (p. 18)." },
-      { "t": 44, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "The later rising phrase brings the string line and wind accents forward again (pp. 18–19; the report’s second swell)." },
+      { "t": 44, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "The repeated passage brings the string line and wind accents forward again (pp. 16–19, second traversal; the report’s second swell)." },
       { "t": 60, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "Short wind gestures and diminishing strings finish the portrait; horn and timpani support belongs to the cadential span, not every attack (p. 19)." }
     ]
   }

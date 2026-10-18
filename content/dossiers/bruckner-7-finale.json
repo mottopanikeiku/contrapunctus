@@ -130,7 +130,7 @@
         "tags",
         "media"
       ],
-      "note": "The bit rate and tags were read from the cached copy with ffprobe; the Commons media record gives the duration and MP3 type. No restoration, editing or loudness processing is disclosed. The audio analysis finds about 55 seconds of constant, bright, unpitched sound after the final chord (from about 11:30), consistent with audience applause left in the file."
+      "note": "The bit rate and tags were read from the cached copy with ffprobe; the Commons media record gives the duration and MP3 type. No restoration, editing or loudness processing is disclosed. The audio analysis finds about fifty seconds of constant, bright, unpitched sound after the final chord (from about 11:30 to 12:20), consistent with audience applause left in the file; this is an inference from the sound alone."
     }
   },
   "digital": {

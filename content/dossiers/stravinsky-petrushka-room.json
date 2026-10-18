@@ -39,18 +39,20 @@
       "value": "23 October–9 November 1957",
       "status": "documented",
       "sourceIds": [
+        "decca-discography",
         "session-reissue"
       ],
-      "note": "Documented session range for this Ansermet/OSR original-edition recording, supplied by the reissue’s recording information. The individual tableau’s recording day and take dates are unknown. The LP release year 1958 and Archive digitisation date 2021 are not substituted for the session date.",
+      "note": "Decca discography entry S183[d] specifies 23–25 and 28 October, and 9 November 1957; the displayed value encloses these non-contiguous sessions. The HDTT reissue independently gives the same outer range. The individual tableau's recording day and take dates remain unknown. Release and digitisation dates are not substituted for session dates.",
       "precision": "range"
     },
     "place": {
       "value": "Victoria Hall, Geneva, Switzerland",
       "status": "documented",
       "sourceIds": [
+        "decca-discography",
         "session-reissue"
       ],
-      "note": "The reissue’s recording information explicitly names the venue. It is not inferred merely from the orchestra’s home city."
+      "note": "Decca discography entry S183 and the reissue recording information explicitly name Victoria Hall, Geneva; the venue is not inferred from the orchestra's home city."
     }
   },
   "carrier": {
@@ -132,6 +134,7 @@
       "value": "Rule 3 — first lawful publication anywhere before 1963: London CS 6009, commercially published by 1958. Territorial EU sound-recording basis only; US sound-recording status is not established.",
       "status": "documented",
       "sourceIds": [
+        "decca-discography",
         "contemporary-ad",
         "archive",
         "london-carrier",
@@ -145,6 +148,13 @@
     "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
   },
   "sources": [
+    {
+      "id": "decca-discography",
+      "title": "Philip Stuart — Decca discography, Switzerland, entry S183[d]",
+      "url": "https://charm.rhul.ac.uk/pubs/DeccaS.pdf",
+      "locator": "Printed p. 49, S183[d]: Petrushka (1911 version), Suisse Romande Orchestra / Ansermet, Victoria Hall; 23–25 and 28 October, 9 November 1957. Producer James Walker; Gil Went (mono), Roy Wallace (stereo). Stereo SXL2011 and CS6009 dated September 1958; mono LXT5425 May 1958 is not substituted for the stereo issue. PDF opened locally after direct-reader retrieval failed.",
+      "accessed": "2026-10-17"
+    },
     {
       "id": "contemporary-ad",
       "title": "Grosse Pointe News, 6 November 1958 — London stereo advertisement",

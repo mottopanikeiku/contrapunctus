@@ -1,5 +1,5 @@
 {
   "id": "elgar-enigma-theme-cae",
-  "verdict": "fix",
-  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The first strings-only state persists until 92 s, although the theme’s major phrase introduces winds before Variation I. The player retains each entry until the next, so the opening-only description is not temporally limited by its note.","evidence":"docs/assets/js/room.js:486–498; Novello score pp. 1–7: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf ; cache/analysis/elgar-enigma-theme-cae.txt:6,31–34.","fix":"Replace the sparse timeline with score-backed passage states covering the theme’s wind-supported major phrase, its subsequent contrast, Variation I’s expansion and closing reduction. Anchor broad state changes to the existing report and update the locator; do not leave an opening-only state active across later contrasting scoring."}]
+  "verdict": "pass",
+  "defects": []
 }

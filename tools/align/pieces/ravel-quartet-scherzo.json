@@ -93,15 +93,9 @@
     "description": "Movement II only: bars 1–198 once in written order. No repeat signs occur in the selected MusicXML; thematic returns are written out."
   },
   "endpoints": {
-    "first": [
-      0,
-      3
-    ],
-    "last": [
-      340,
-      350
-    ],
-    "basis": "Initial score-pitch windows from existing recording analysis; refine using pitch-energy inspection before publication."
+    "first": [0.15, 0.5],
+    "last": [346.8, 347.4],
+    "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 347.0 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed."
   },
   "boundaries": [],
   "provenance": [

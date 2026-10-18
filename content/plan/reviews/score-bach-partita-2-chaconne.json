@@ -1,0 +1,85 @@
+{
+  "id": "bach-partita-2-chaconne",
+  "verdict": "fix",
+  "reviewer": "VerS",
+  "scope": "MEAS: independently recomputed gates, published bar-map, provenance and all 18 final-candidate pitch-energy overlays; not aural review.",
+  "defects": [
+    {
+      "basis": "MEAS",
+      "where": "docs/assets/data/bach-partita-2-chaconne/sheet/{index.json,p1.svg,p2.svg,p3.svg,p4.svg,p5.svg}",
+      "problem": "The score uses bars 1–257, but actual engraved glyph identities run 0–256. The index has 258 keys because a fabricated 1.01-unit-wide box after the last real bar is added as 257. Thus every aligned bar selects the following printed measure, and the final aligned bar selects blank space.",
+      "fix": "Repair the pickup/current-bar-number handling in the declared engraving wrapper or shared tagging logic, retaining the original source and its two-quarter opening bar 1 followed by bars 2–257. Regenerate and republish all SVGs and index.json so the first real note glyphs and their box are bar 1, the real closing D4 glyph and box are bar 257, and the SVG/index bar sets are exactly 1–257 with no blank derived endpoint. Do not shift the audio score or invent an extra engraved measure. If this cannot be repaired, remove score.json and sheet/ rather than leave the mismatched publication."
+    },
+    {
+      "basis": "MEAS",
+      "where": "tools/align/REPORT.md",
+      "problem": "No completed per-piece publication report was present in the inspected report at this handoff.",
+      "fix": "Append the per-id report after the sheet repair, with the final metrics below, the original incorrect pickup mapping and its resolution, the licensed BGA 1879 source, complete unrepeated Chaconne traversal, source-voice/arpeggio limitations, and the explicit 778.5 s pitch-decay display end distinct from the 782.245 s noisy RMS end. Report the actual corrected sheet count; do not describe the present dummy bar 257 as valid."
+    }
+  ],
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/bach-partita-2-chaconne-checks.json",
+    "primaryMedianSeconds": 0.04334467120182239,
+    "primaryP95Seconds": 0.37836008039578234,
+    "maximumAnchorDeviationSeconds": 0.1154153782723597,
+    "maximumLocalRegionMedianSeconds": 0.07309214594926061,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 257,
+    "distinctEngravedIndexKeys": 258,
+    "sheetPages": 5,
+    "svgBarSetEqualsIndex": false,
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All 3123 published notes have valid voice/bar indices and positive duration; performed bar times strictly increase. Index membership alone falsely passes because the missing actual bar 257 is supplied by a blank derived box. The listened-work module uses seconds rather than structured bar anchors."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/bach-partita-2-chaconne-0-10.4.png",
+      "work/bach-partita-2-chaconne-0-15.png",
+      "work/bach-partita-2-chaconne-255-280.png",
+      "work/bach-partita-2-chaconne-312-320.png",
+      "work/bach-partita-2-chaconne-357.453-369.453.png",
+      "work/bach-partita-2-chaconne-390-415.png",
+      "work/bach-partita-2-chaconne-392-400.png",
+      "work/bach-partita-2-chaconne-400-408.png",
+      "work/bach-partita-2-chaconne-408-416.png",
+      "work/bach-partita-2-chaconne-416-424.png",
+      "work/bach-partita-2-chaconne-560-568.png",
+      "work/bach-partita-2-chaconne-592-600.png",
+      "work/bach-partita-2-chaconne-600-608.png",
+      "work/bach-partita-2-chaconne-605-625.png",
+      "work/bach-partita-2-chaconne-708-728.png",
+      "work/bach-partita-2-chaconne-760-782.png",
+      "work/bach-partita-2-chaconne-768-776.png",
+      "work/bach-partita-2-chaconne-768.132-780.132.png"
+    ],
+    "finding": "No gross audio pitch/order mismatch identified in the inspected overlays, including the quiet major section and final D4. This does not excuse the separate engraved bar-map defect. The final written hold ends at a documented pitched-decay display boundary, not a measured bow release."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1426",
+    "opened": true,
+    "edition": "Bach-Gesellschaft Edition 1879, Band 27.1",
+    "encoder": "Hajo Dezelski",
+    "license": "CC BY-SA 3.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete solo-violin Chaconne only, with a two-quarter bar 1 and bars 2–257 once. Major at 133, minor return at 209 and closing-theme return at 249 are written out. Four explicitly encoded source variables are not four continuously independent performed voices. Written arpeggio chords are not represented as measured performance arpeggiations; no additional repeat or arrangement is inferred.",
+    "physicalPerformingEdition": "Unknown; the BGA edition is the symbolic source, not claimed as Heifetz’s performing copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. Numerical success does not override the engraved mapping defect."
+}

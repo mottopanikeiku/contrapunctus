@@ -11,7 +11,7 @@ export default {
   performers: 'Patrizia Prati, piano',
   recorded: '24 November 2015, Museum of Romanticism, Madrid',
   source: { file: 'File:Fryderyk Chopin - Nocturne op. 9 n.2 Es-dur - Patrizia Prati.ogg' },
-  intro: 'Patrizia Prati played this nocturne at Madrid’s Museum of Romanticism on 24 November 2015. Her live recording offers a second piano account beside Lévy and a contrast with Elman’s violin transcription.',
+  intro: 'Patrizia Prati played this nocturne at Madrid’s Museum of Romanticism on 24 November 2015. Her live recording offers a second piano account beside Lévy, with its own spacing of melody, ornament and cadence.',
   question: 'How does Prati distribute the time between melody, ornament and cadence?',
   sections: [
     { t: 0, label: 'Opening melodic spans', m: 'A' },

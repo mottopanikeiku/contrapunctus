@@ -1,16 +1,14 @@
 {
   "id": "bach-cello-suite-1-prelude",
-  "verdict": "fix",
+  "verdict": "pass",
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, provenance and visual review; not aural review.",
-  "defects": [
-    {
-      "basis": "MEAS",
-      "where": "tools/align/REPORT.md",
-      "problem": "The score and sheet are published, but the inspected report has no per-piece heading for this id.",
-      "fix": "Append a bach-cello-suite-1-prelude section recording the Schirmer 1916 / Andreas Scherer / Mutopia 517 public-domain source, unrepeated 42-bar Prelude and original cello-octave wrapper, final primary median 0.05591836734693345 s and P95 0.30997278911565046 s, maximum endpoint/middle deviation 0.04612244897960238 s, maximum local-region median 0.04036281179138257 s, zero collapses/invalid durations, 656 notes in one cello voice, 2 sheet pages / 42 bars, rejected late opening anchor and corrected 0.54 s first attack, and provisional/no-aural-review limits. Do not change the passing published notes to address this documentation defect."
-    }
-  ],
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#bach-cello-suite-1-prelude",
+    "finding": "The appended per-piece section matches the independently recomputed final gates, source, performed order, corrected opening, sheet counts and provisional limitations. The initial report-only defect is resolved."
+  },
   "gates": {
     "basis": "MEAS",
     "checks": "tools/align/work/bach-cello-suite-1-prelude-checks.json",

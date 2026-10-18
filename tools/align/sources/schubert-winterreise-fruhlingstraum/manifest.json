@@ -1,0 +1,18 @@
+{
+  "title": "Winterreise, D. 911 — No. 11 Frühlingstraum",
+  "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established",
+  "encoder": "pental / OpenScore Lieder",
+  "url": "https://musescore.com/openscore-lieder-corpus/scores/5023603",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "song.ly",
+  "musicxml": "lc5023603.mxl",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/11_Fr%C3%BChlingstraum/lc5023603.mxl",
+      "file": "lc5023603.mxl",
+      "sha256": "a4a9cf7031385889659aa88bab88e46674f346dcf8e8154d46ea4ed63d7d3f00"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

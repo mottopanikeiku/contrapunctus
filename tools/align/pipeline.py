@@ -94,7 +94,7 @@ def pipeline(ident, do_publish=False):
         duration = report['endAnchor']['decodedDuration']
         windows = {(max(0., a['audioSeconds'] - 4), min(duration, a['audioSeconds'] + 8)) for a in report['anchors']}
         windows.update((max(0., a['audioSeconds'] - 4), min(duration, a['audioSeconds'] + 8))
-                       for a in report['endpointMeasurements'] if a['label'] not in ('first', 'last'))
+                       for a in report['endpointMeasurements'][1:-1])
         windows.update((r['start'], r['end']) for key in ('worstFiveOnsetRegions', 'worstFiveAdaptiveRegions') for r in report[key])
         windows.update(tuple(w) for w in cfg.get('diagnostics', {}).get('overlays', []))
         report['overlays'] = []
