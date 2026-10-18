@@ -1,0 +1,17 @@
+export default {
+  id: 'schumann-kinderszenen-almost-too-serious',
+  composer: 'schumann',
+  order: 100,
+  work: 'Kinderszenen, Op. 15',
+  movement: '10',
+  set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 10, of: 13 },
+  year: '1838',
+  key: '',
+  forces: 'Piano',
+  performers: 'Donald Betts',
+  recorded: '',
+  source: { file: "File:Robert Schumann - scenes from childhood, op. 15 - x. almost too serious.ogg" },
+  intro: 'x',
+  sections: [{ t: 0, label: 'A', m: 'A' }],
+  cues: [{ t: 0, kind: 'listen', title: 'x', text: 'x', basis: 'general', precision: 'passage', evidence: 'x' }],
+};

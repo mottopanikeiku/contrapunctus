@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "id": "chopin-nocturne-op27-2",
+  "source": {
+    "mutopia": 486,
+    "title": "Nocturne in D♭ major, Op. 27 No. 2",
+    "edition": "Claude Debussy edition, 1915",
+    "encoder": "Scott Horne and Keith OHara",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "chopin-nocturne-8.ly",
+    "midi": "chopin-nocturne-8.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.ly",
+        "file": "chopin-nocturne-8.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.mid",
+        "file": "chopin-nocturne-8.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 77,
+    "quarters": 3,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        77
+      ]
+    ],
+    "description": "Play printed bars 1–77 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      358,
+      364
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Debussy-edited 1915 source, solo piano Nocturne No. 8 in D♭. INFERENCE: Correct work/key/scoring for Lévy; ornamental and textual variants have not been compared with the recording.",
+    "Read content/listen/chopin-nocturne-op27-2.mjs and cache/analysis/chopin-nocturne-op27-2.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

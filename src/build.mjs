@@ -2,18 +2,25 @@
 // Static generator: content/*.mjs -> docs/*.html. No dependencies.
 import { mkdir, writeFile, readdir, unlink, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { loadContent } from './content.mjs';
 import { normalizeTitle, sourceKey } from '../tools/commons.mjs';
 import { pathToFileURL } from 'node:url';
 import routes from '../content/routes.mjs';
 import { buildReturnLab } from './returnlab.mjs';
+import { buildCompare } from './compare.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'docs');
 const C = await loadContent();
-const { eras, composers, pages, site, art, listens } = C;
+const { eras, composers, pages, site, art, listens: allListens, precursors = [], prologue } = C;
+// Publication gate: a recording goes live when it was on the site before the expansion (content/plan/baseline.json)
+// or its independent review passed (content/plan/reviews/<id>.json, verdict "pass"). Everything else waits.
+const baseline = new Set(JSON.parse(await readFile(path.join(ROOT, 'content/plan/baseline.json'), 'utf8').catch(() => '[]')));
+const reviewed = (id) => { try { return JSON.parse(readFileSync(path.join(ROOT, 'content/plan/reviews', `${id}.json`), 'utf8')).verdict === 'pass'; } catch { return false; } };
+const listens = allListens.filter((l) => baseline.has(l.id) || reviewed(l.id));
+const held = allListens.filter((l) => !baseline.has(l.id) && !reviewed(l.id)).map((l) => l.id);
 const bySlug = new Map(composers.map((c) => [c.slug, c]));
 const eraBySlug = new Map(eras.map((e) => [e.slug, e]));
 const SITE_URL = 'https://mottopanikeiku.github.io/contrapunctus/';
@@ -227,6 +234,7 @@ const fonts = `<link rel="preconnect" href="https://fonts.googleapis.com"><link 
 const NAV = [
   ['hall', 'The Hall', 'hall.html'],
   ['influence', 'Influence', 'influence.html'],
+  ['compare', 'Compare', 'compare/index.html'],
   ['eras', 'Atlas', 'index.html#movements'],
   ['composers', 'Composers', 'composers/index.html'],
   ['origins', 'Origins', 'origins.html'],
@@ -406,7 +414,7 @@ function indexPage() {
   const four = composers.filter((c) => c.featured);
   const body = `<section class="hero"><div class="hero-slides">${slides}</div>
 <div class="wrap hero-inner"><div><h1 class="hero-title">Contrapunctus</h1><p class="hero-sub"><span class="sc">${esc(site.kicker)}</span>${esc(site.tagline)}</p>
-<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${listens.length} recordings · the score lights up as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#prelude">Or wander the Atlas ↓</a></div></div>
+<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${listens.filter((l) => l.concert !== false).length} recordings · the score lights up as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#prelude">Or wander the Atlas ↓</a></div></div>
 <div><p class="hero-caption" aria-live="polite"></p><div class="hero-dots">${site.heroSlides.map((_, i) => `<button type="button" aria-label="Painting ${i + 1}"${i === 0 ? ' class="on"' : ''}></button>`).join('')}</div></div></div>
 <a class="scroll-cue" href="#prelude">Prelude ↓</a></section>
 ${readerPaths(ctx)}
@@ -573,6 +581,8 @@ function searchIndex() {
   for (const r of routes) add('route', r.title, r.intro, `routes.html#${r.id}`);
   add('return-lab', 'The Return Lab', 'Compare returning passages in the same recording', 'return-lab/index.html');
   add('page', 'The Web of Influence', 'Composers, paintings, poems and the evidence connecting them', 'influence.html');
+  add('page', 'Compare performers', 'Switch performers at the same musical moment', 'compare/index.html');
+  for (const c of comparisonSearch) add('comparison', c.title, `${c.composer} · ${c.work}`, `compare/${c.id}.html`, c.question);
   const figures = new Map(composers.map((c) => [c.slug, { id: c.slug, name: c.name, dates: lifespan(c), kind: 'composer' }]));
   const edges = new Map(), threads = new Map();
   for (const batch of influenceBatches) {
@@ -702,22 +712,39 @@ function rendition(src, w) {
   return src;
 }
 
+// Movements of one set stay together, in part order, at the position of the set's earliest member.
+const setFirst = new Map();
+for (const l of listens) if (l.set) setFirst.set(l.set.id, Math.min(setFirst.get(l.set.id) ?? Infinity, l.order ?? 1));
+const setPos = (l) => (l.set ? setFirst.get(l.set.id) : l.order ?? 1);
+
 async function programme() {
   const streams = await resolveStreams();
   const ctx = { base: '', page: 'hall' };
-  const rank = new Map(composers.map((c, i) => [c.slug, i]));
+  // The prologue: composers before Bach (content/precursors.mjs) play first, under a synthetic era.
+  const pre = [...precursors].sort((a, b) => a.born.year - b.born.year);
+  const who = new Map([...pre.map((c) => [c.slug, { ...c, era: 'before-bach', facts: c.facts ?? [], portrait: c.portrait ?? { file: '' } }]), ...bySlug]);
+  const eraOf = new Map([['before-bach', { slug: 'before-bach', numeral: '0', name: 'Before Bach', span: 'c. 900–1700', accent: '#9fc3c6', hero: prologue?.hero ?? { file: site.heroSlides[0].file, artist: site.heroSlides[0].artist, title: site.heroSlides[0].title } }], ...eraBySlug]);
+  const rank = new Map([...pre.map((c, i) => [c.slug, i - pre.length]), ...composers.map((c, i) => [c.slug, i])]);
+  // Comparison-only recordings of music by composers outside the Atlas (Grieg, a folk song) carry
+  // composer: null and a `guest` { name, dates } instead; they never play in the concert.
+  for (const l of listens) if (l.composer == null && l.guest && l.concert === false) {
+    const slug = `guest-${l.id}`;
+    who.set(slug, { slug, name: l.guest.name, given: '', family: l.guest.name, born: { year: l.guest.born ?? '', place: l.guest.bornPlace ?? '' }, died: l.guest.died ? { year: l.guest.died, place: l.guest.diedPlace ?? '' } : null, era: null, epithet: '', facts: [], portrait: { file: '' }, page: null });
+    l.composer = slug;
+    rank.set(slug, 1e6);
+  }
   const list = listens
-    .filter((l) => bySlug.has(l.composer) && streams[sourceKey(l.source)])
-    .sort((a, b) => rank.get(a.composer) - rank.get(b.composer) || (a.order ?? 1) - (b.order ?? 1));
+    .filter((l) => who.has(l.composer) && streams[sourceKey(l.source)])
+    .sort((a, b) => rank.get(a.composer) - rank.get(b.composer) || setPos(a) - setPos(b) || (a.set?.part ?? 0) - (b.set?.part ?? 0) || (a.order ?? 1) - (b.order ?? 1));
   const out = [];
   for (const l of list) {
-    const c = bySlug.get(l.composer);
-    const e = eraBySlug.get(c.era);
+    const c = who.get(l.composer);
+    const e = eraOf.get(c.era);
     // Glossary links: each term is linked once per piece, at its first appearance in time order.
     const tctx = { base: '', page: `hall/${l.id}`, termSeen: new Set() };
     const prose = (html) => termify(tctx, `<p>${rich(ctx, html)}</p>`).replace(/^<p>|<\/p>$/g, '');
     const s = streams[sourceKey(l.source)];
-    const p = art[normalizeTitle(c.portrait.file)];
+    const p = c.portrait.file ? art[normalizeTitle(c.portrait.file)] : null;
     const score = await readJsonOr(path.join(OUT, 'assets/data', l.id, 'score.json'));
     const hasSheet = existsSync(path.join(OUT, 'assets/data', l.id, 'sheet/index.json'));
     const barTime = (bar) => {
@@ -743,7 +770,7 @@ async function programme() {
     out.push({
       id: l.id,
       composer: {
-        slug: c.slug, name: c.name, given: c.given, family: c.family, dates: lifespan(c),
+        slug: c.slug, page: c.slug.startsWith('guest-') ? null : c.era === 'before-bach' ? `origins.html${c.anchor ? '#' + c.anchor : ''}` : `composers/${c.slug}.html`, name: c.name, given: c.given, family: c.family, dates: lifespan(c),
         born: `${c.born.date ?? c.born.year}, ${c.born.place}`, died: c.died ? `${c.died.date ?? c.died.year}, ${c.died.place}` : null,
         epithet: c.epithet, portrait: rendition(p?.src ?? null, 480), thumb: rendition(p?.src ?? null, 160), focus: c.portrait.focus ?? '50% 25%',
         facts: (c.facts ?? []).map(([k, v]) => [k, rich(ctx, v)]),
@@ -776,13 +803,14 @@ async function roomPage(prog) {
     d.composer = { facts: t.composer.facts, quote: t.composer.quote, background: t.composer.background, born: t.composer.born, died: t.composer.died, epithet: t.composer.epithet };
     await writeFile(path.join(OUT, 'assets/hall', `${t.id}.json`), JSON.stringify(d));
   }
-  const keep = new Set([...listens.map((l) => `${l.id}.json`), 'programme.json']);
+  const keep = new Set([...allListens.map((l) => `${l.id}.json`), 'programme.json']);  // analysis envelopes of recordings still in review must survive
   for (const f of await readdir(path.join(OUT, 'assets/listen'))) if (!keep.has(f)) await unlink(path.join(OUT, 'assets/listen', f));
   for (const f of await readdir(path.join(OUT, 'assets/hall'))) if (!keep.has(f)) await unlink(path.join(OUT, 'assets/hall', f));
   const vcss = await ver('assets/css/room.css');
   const first = prog[0];
   const ctx = { base: '', page: 'hall' };
-  const eraList = eras.map((e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug && t.concert !== false) })).filter((x) => x.tracks.length);
+  const concert = prog.filter((t) => t.concert !== false), concertN = concert.length, concertSecs = concert.reduce((a, t) => a + (t.duration || 0), 0);
+  const eraList = [{ slug: 'before-bach', numeral: '0', name: 'Before Bach', accent: '#9fc3c6' }, ...eras].map((e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug && t.concert !== false) })).filter((x) => x.tracks.length);
   const fmt = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}`;
   return `<!doctype html>
 <html lang="en" data-site="${V.js}" data-room="${V.room}" data-prog="${PROG_V}">
@@ -804,7 +832,7 @@ ${headScripts(ctx)}
 <div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
 <header class="r-top">
   <a class="r-brand" href="index.html"><span class="glyph">𝄞</span>Contrapunctus</a>
-  <nav class="r-nav"><a href="influence.html">Influence</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
+  <nav class="r-nav"><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
 </header>
 
 <main class="stage">
@@ -877,10 +905,10 @@ ${headScripts(ctx)}
 </footer>
 
 <aside class="programme" hidden>
-  <header><h2>The programme</h2><p>${prog.length} pieces, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
+  <header><h2>The programme</h2><p>${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
   ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t, i) => {
     const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>complete · ${t.set.of} movements</em></li>` : '';
-    return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
+    return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${t.set ? esc(t.movement || t.work) : `${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}`}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
   }).join('')}</ol></section>`).join('')}
 </aside>
 
@@ -888,7 +916,7 @@ ${headScripts(ctx)}
   <div class="curtain-inner">
     <span class="kicker">The Concert Hall</span>
     <h2>A concert from Bach to Bartók</h2>
-    <p>${prog.length} recordings play one after another. Where the score is known, it lights up as the music sounds; elsewhere the visualizer traces pitch and harmony. Notes explain each piece, and every turn it takes, as it happens.</p>
+    <p>${concertN} recordings play one after another. Where the score is known, it lights up as the music sounds; elsewhere the visualizer traces pitch and harmony. Notes explain each piece, and every turn it takes, as it happens.</p>
     <button class="begin">Begin the concert</button>
     <small>Browsers need one click before a page may play sound. After that, the music plays on its own.</small>
   </div>
@@ -916,6 +944,7 @@ const influenceModule = existsSync(path.join(ROOT, 'src/influence.mjs')) ? await
 if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, furtherReading, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
 await out('index.html', indexPage());
 await out('hall.html', await roomPage(PROG));
+const comparisonSearch = await buildCompare({ out, layout, esc, attr, bySlug, listens, held, ROOT, OUT });
 await out('atlas.html', `<!doctype html><meta charset="utf-8"><title>Contrapunctus</title><meta http-equiv="refresh" content="0; url=index.html"><link rel="canonical" href="index.html"><a href="index.html">Contrapunctus</a>`);
 await out('composers/index.html', composersIndex());
 for (const [i, c] of composers.entries()) await out(`composers/${c.slug}.html`, composerPage(c, i));
@@ -943,4 +972,5 @@ for (const dir of ['composers', 'eras']) {
 }
 
 console.log(`built ${written.size} pages: ${composers.length} composers, ${eras.length} eras, ${Object.keys(pages).length} long pages`);
+console.log(`recordings: ${listens.length} published, ${held.length} awaiting review${held.length ? ` (${held.slice(0, 12).join(', ')}${held.length > 12 ? ', …' : ''})` : ''}`);
 if (warnings.length) { console.log(`\n${warnings.length} warnings:\n  ${[...new Set(warnings)].join('\n  ')}`); }

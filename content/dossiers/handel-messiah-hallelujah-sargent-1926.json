@@ -1,0 +1,176 @@
+{
+  "id": "handel-messiah-hallelujah-sargent-1926",
+  "work": {
+    "title": "Messiah",
+    "catalogue": "HWV 56",
+    "movement": "Hallelujah chorus",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "pool",
+        "dnb"
+      ],
+      "note": "The source identifies the chorus but no performing edition or arranger. Differences of choral balance are not evidence of a particular editorial version."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Royal Choral Society",
+        "role": "chorus"
+      },
+      {
+        "name": "Royal Albert Hall Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Malcolm Sargent",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "pool",
+      "dnb"
+    ],
+    "note": "The library independently identifies choir and orchestra; the Commons/upstream recording descriptions supply Sargent. No singer count or individual orchestral personnel are established."
+  },
+  "session": {
+    "date": {
+      "value": "2 April 1926",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pool",
+        "dnb"
+      ],
+      "note": "The library explicitly describes a recording during a concert.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Royal Albert Hall, London",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pool",
+        "dnb"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Electrola",
+      "status": "documented",
+      "sourceIds": [
+        "pool",
+        "dnb"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "EJ 39; label/order number 04871",
+      "status": "documented",
+      "sourceIds": [
+        "pool",
+        "dnb"
+      ],
+      "note": "First release is disputed: the current Public Domain Project entry gives 1926, whereas its Commons import gives 1927. Both predate 1963; the session date is not substituted for the issue date."
+    },
+    "matrixTakeSides": {
+      "value": "E-CR.237-1A; EJ 39 side 2 of 2",
+      "status": "documented",
+      "sourceIds": [
+        "pool",
+        "dnb"
+      ],
+      "note": "Matrix and side designation follow the German National Library catalogue."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Swiss Foundation Public Domain / Public Domain Project; Martin Osterwalder collection",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pool"
+      ],
+      "note": "These are contributing institution and collection credits, not a named transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload dates are not used as transfer dates."
+    },
+    "processing": {
+      "value": "Public Domain Project FLAC supplied to Commons; streamed here through the Commons MP3 derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pool"
+      ],
+      "note": "No speed correction, restoration settings or transfer date are stated. The final non-musical tail is excluded only from alignment, not from the supplied stream."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac/PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "pool"
+    ],
+    "format": "Wikimedia Commons MP3 derivative of Public Domain Project FLAC",
+    "durationSeconds": 265.1
+  },
+  "rights": {
+    "composition": {
+      "value": "Handel’s underlying composition is out of copyright under the ordinary life-plus-70 term.",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composition-only PD-old-70 tag does not license this 1926 sound recording."
+    },
+    "recording": {
+      "value": "territorial — European recording-rights expiry; first publication documented before 1963.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "pool"
+      ],
+      "note": "Programme rule 3. The upstream record says 1926; the Commons import says 1927. Either date places the recording before the 1963 cutoff. US public-domain status is not established. The upstream page was inspected over HTTP after HTTPS failed; it contains a public-domain claim and no non-commercial restriction. Its asserted worldwide/US expiry dates are not adopted."
+    },
+    "creditLine": "Handel, Messiah: Hallelujah; Royal Choral Society and Royal Albert Hall Orchestra; Malcolm Sargent. Royal Albert Hall concert, 2 April 1926. Electrola EJ 39 / 04871, matrix E-CR.237-1A; Public Domain Project / Martin Osterwalder collection, via Wikimedia Commons. European recording-rights expiry only; US status unestablished.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Sargent Hallelujah, Electrola EJ 39",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac",
+      "locator": "File wikitext: first recording 2 April 1926, first release 1927, performers and venue; source link and composition-only PD-old-70 tag.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "pool",
+      "title": "Public Domain Project — Electrola-ej39-04871",
+      "url": "http://pool.publicdomainproject.org/index.php?title=Electrola-ej39-04871",
+      "locator": "Current oldid 39091: performer credits; session; first release 1926 (disagrees with Commons import); matrix E-CR.237-1A; public-domain claim; Martin Osterwalder collection. No NC licence shown.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dnb",
+      "title": "German National Library — Hallelujah, Electrola EJ 39",
+      "url": "https://d-nb.info/380148439",
+      "locator": "Catalogue: side 2 of 2, label number 04871, matrix E-CR.237-1A, Royal Choral Society and Royal Albert Hall Orchestra; recorded during the 2 April 1926 Royal Albert Hall concert.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -1,0 +1,75 @@
+export default {
+  id: 'ravel-tombeau-fugue', composer: 'ravel', order: 31,
+  work: 'Le Tombeau de Couperin', movement: 'II. Fugue',
+  year: '1914–17', key: 'E minor', forces: 'Piano',
+  performers: 'Alan Chan, piano', recorded: '',
+  source: { file: 'File:Maurice Ravel - Le Tombeau de Couperin. II. Fugue.opus' },
+  set: { id: 'ravel-tombeau-de-couperin', title: 'Le Tombeau de Couperin — piano version', part: 2, of: 6 },
+  intro: 'Three contrapuntal voices make a small, quiet fugue within Ravel’s piano suite. This selection combines different pianists and omits the fourth movement, the Rigaudon; it is not a complete performance of the suite.',
+  question: 'Can you follow a short subject as it moves between the piano’s registers?',
+  sections: [
+    { t: 0, label: 'Opening · successive voices', m: 'A', mNote: 'A short subject is introduced in separate voices.' },
+    { t: 66, label: 'Middle · interwoven lines', m: 'Dev', mNote: 'Subject figures move among three voices without a texture break.' },
+    { t: 180, label: 'Closing relaxation', m: 'Coda', mNote: 'The contrapuntal lines slow and settle together.' },
+  ],
+  cues: [
+    {
+      t: 0, kind: 'music', title: 'One line becomes three',
+      text: 'The subject begins after a short rest, with a dotted rhythm rather than a continuous run. Other voices enter with related material. Follow one line as long as you can: the piano’s two hands must keep three contrapuntal parts distinct.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Durand 1918 piano score, printed p. 7: opening quaver rest and dotted subject; successive entries produce three notated contrapuntal voices. This describes the opening process rather than assigning exact entry times.',
+    },
+    {
+      t: 32, kind: 'world', title: 'Remembering Jean Cruppi',
+      text: 'The heading names Sous-lieutenant Jean Cruppi, one of the friends killed in the First World War whom Ravel commemorated in the suite. The dedication is attached to this particular movement, not to the orchestral version of the work.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Durand score, p. 7, dedication “à la mémoire du Sous-lieutenant Jean Cruppi”; BnF https://catalogue.bnf.fr/ark:/12148/cb13917720k. The wartime memorial context is documented by the Orchestre national de Lyon: https://www.auditorium-lyon.com/en/node/13646.',
+    },
+    {
+      t: 64, kind: 'listen', title: 'Louder, not more voices',
+      text: 'A fugue can intensify without adding another instrument or another contrapuntal part. This passage rises towards one of the performance’s strongest dynamic levels. Listen for the three lines pressing against each other while retaining their separate rhythms.',
+      basis: 'audio-feature', precision: 'passage',
+      evidence: 'cache/analysis/ravel-tombeau-fugue.txt: loudness rises from −10.3 dB at 65 seconds to −5.5 at 75, the loudest five-second window. The score remains a three-voice piano fugue; the measurement does not itself identify voice entries.',
+    },
+    {
+      t: 96, kind: 'world', title: 'A keyboard memorial',
+      text: 'The title “tombeau” invokes a musical memorial, while the fugue draws on a much older way of combining independent lines. Ravel places this contrapuntal movement among dances: the suite’s historical forms and its wartime dedications serve different, simultaneous purposes.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Orchestre national de Lyon programme discusses the memorial title and homage to French eighteenth-century keyboard music: https://www.auditorium-lyon.com/en/node/13646. BnF lists the six-movement piano sequence. No musical depiction of a death is inferred.',
+    },
+    {
+      t: 128, kind: 'music', title: 'Follow the inner voice',
+      text: 'Do not listen only to the highest notes. In the score, a middle line can carry the subject’s characteristic rhythm while another voice continues above it. Try keeping that inner thread in your ear when the hands overlap in the keyboard’s central register.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Durand score, pp. 8–9: three independently stemmed voices share and cross the central register. This is a general counterpoint prompt for the middle-to-late passage, not an assertion of a particular subject entry at 128 seconds.',
+    },
+    {
+      t: 160, kind: 'world', title: 'Left out of the orchestra',
+      text: 'When Ravel made his orchestral suite in 1919, he selected four movements. The Fugue was not among them. Here its three voices remain the responsibility of a single pianist, rather than being assigned to different orchestral colours.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Orchestre national de Lyon programme identifies the four-movement orchestral version: Prélude, Forlane, Menuet and Rigaudon. https://www.auditorium-lyon.com/en/node/13646. The original piano score establishes the Fugue’s three voices.',
+    },
+    {
+      t: 190, kind: 'listen', title: 'Slowing the argument',
+      text: 'The ending asks for a succession of slower markings, not a sudden stop. Hear how the gaps and held notes become more noticeable as the lines settle. The final chord closes the contrapuntal conversation at a much lower level than its middle passages.',
+      basis: 'audio-feature', precision: 'passage',
+      evidence: 'Durand score, p. 9: Meno allegro, Ral., Lent and a final Ral. Analysis falls from −10.1 dB at 180 seconds to −17.1 at 185; detected attacks fall to about two per second before the final decay at 200–205.',
+    },
+  ],
+  transitions: [
+    {
+      id: 'into-the-middle', title: 'Counterpoint gathers pressure', from: 'Opening · successive voices', to: 'Middle · interwoven lines',
+      at: { t: 66 }, span: [60, 80],
+      how: '<p>The opening establishes the voices one by one. The middle keeps those voices active together, exchanging short figures instead of announcing a separate dance or tune. A local rise in volume makes their interaction more urgent, but there is no change of instrument or metre.</p>',
+      devices: ['motivic link', 'crescendo build'], basis: 'audio-feature', precision: 'passage',
+      evidence: 'Durand score, pp. 7–8, three-voice continuity in 4/4. Analysis offers a boundary candidate at 66 seconds and a dynamic rise towards the 75-second window. This is a broad listening division, not a claim that the exposition ends precisely here.',
+    },
+    {
+      id: 'into-the-close', title: 'The voices settle', from: 'Middle · interwoven lines', to: 'Closing relaxation',
+      at: { t: 180 }, span: [180, 200],
+      how: '<p>Ravel progressively slows the same contrapuntal texture. Longer note values and the quieter delivery expose the spaces between phrases; the voices arrive together at the E-minor ending. The join is a relaxation within the fugue, not a newly introduced theme.</p>',
+      devices: ['tempo change', 'decrescendo'], basis: 'audio-feature', precision: 'passage',
+      evidence: 'Durand score, p. 9, slower tempo markings and final E-minor chord. Analysis has a strong boundary candidate at 180 seconds, followed by a quieter, less attack-dense closing passage; timing is approximate.',
+    },
+  ],
+};

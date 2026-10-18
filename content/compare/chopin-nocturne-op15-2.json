@@ -1,0 +1,137 @@
+{
+  "id": "chopin-nocturne-op15-2",
+  "title": "Chopin’s nocturne, five recorded perspectives",
+  "composer": "chopin",
+  "work": "Nocturne in F-sharp major, Op. 15 No. 2",
+  "question": "How do the older pianists and two modern recordings distribute time between song, contrast and return?",
+  "intro": "The comparison places d’Albert’s 1916 recording beside Paderewski’s 1917 and 1937 accounts, then Luke Faulkner and Patrizia Prati’s modern recordings. Paderewski’s 1909 essay describes rubato as expressive flexibility, not time that must always be repaid mechanically within a bar. Prati’s live Madrid performance is dated 24 November 2015; Faulkner’s recording date is not established. Recorded amplitude and piano colour reflect different transfer chains and should not be mistaken for direct measurements of touch.",
+  "group": "golden-age",
+  "recordings": [
+    {
+      "listen": "chopin-nocturne-op15-2-dalbert",
+      "label": "Eugen d’Albert, 1916",
+      "year": 1916,
+      "note": "Historical alternative: compare how the central contrast develops rather than treating the acoustic tone as his unmediated touch."
+    },
+    {
+      "listen": "chopin-nocturne-op15-2-paderewski",
+      "label": "Paderewski, 1917",
+      "year": 1917,
+      "note": "Earlier Paderewski; automatic correspondence requires caution in locally uncertain passages."
+    },
+    {
+      "listen": "chopin-nocturne-op15-2-paderewski-1937",
+      "label": "Paderewski, 1937",
+      "year": 1937,
+      "note": "The same pianist two decades later; the highest recorded five-second level lies around 2:05."
+    },
+    {
+      "listen": "chopin-nocturne-op15-2",
+      "label": "Luke Faulkner",
+      "year": null,
+      "note": "Modern timeline reference; its session date is not established, and an upload date is not substituted."
+    },
+    {
+      "listen": "chopin-nocturne-op15-2-prati-2015",
+      "label": "Patrizia Prati, 2015 (live)",
+      "year": 2015,
+      "note": "Museum of Romanticism, Madrid; high-level windows cluster around the central contrast."
+    }
+  ],
+  "reference": "chopin-nocturne-op15-2",
+  "passages": [
+    {
+      "label": "Opening cantabile",
+      "t": 5,
+      "note": "Compare the long line above the accompaniment; source noise and equalisation make direct tonal comparisons less secure than timing."
+    },
+    {
+      "label": "Towards the central change",
+      "t": 74,
+      "note": "A strong measured change occurs here in Faulkner; listen across the transition rather than treating its timestamp as a verified bar line."
+    },
+    {
+      "label": "The strongest contrast",
+      "t": 86,
+      "note": "The reference analysis places its largest change at 1:26. Compare the phrase’s continuation through the contrast."
+    },
+    {
+      "label": "Recorded crest",
+      "t": 110,
+      "note": "Faulkner’s highest five-second level window occurs here; this is a relative measurement within his recording, not calibrated loudness across pianists."
+    },
+    {
+      "label": "Quieter return region",
+      "t": 128,
+      "note": "A measured change accompanies a quieter region. Follow the return of the singing line rather than comparing whole-file durations."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_(Chopin)_-_Hmv-db3711-2ea4573.ogg"
+    },
+    {
+      "title": "Paderewski — Tempo Rubato(1909)",
+      "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/"
+    },
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg"
+    },
+    {
+      "title": "d’Albert historical recording dossier",
+      "url": "../sources.html#dossier-chopin-nocturne-op15-2-dalbert"
+    },
+    {
+      "title": "Paderewski 1917 recording dossier",
+      "url": "../sources.html#dossier-chopin-nocturne-op15-2-paderewski"
+    }
+  ],
+  "alignment": {
+    "scope": "Complete recordings; low-confidence local passages and quiet tails require caution.",
+    "method": "Automatic chroma CENS + DTW; reported pitch shifts apply to features only, not audio.",
+    "maps": [
+      {
+        "listen": "chopin-nocturne-op15-2-dalbert",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.895,
+        "minimumConfidence": 0.587,
+        "fractionBelow075": 0.078,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "chopin-nocturne-op15-2-paderewski",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 1,
+        "medianConfidence": 0.817,
+        "minimumConfidence": 0.41,
+        "fractionBelow075": 0.201,
+        "interpretation": "Usable with caution; no note-exact or unqualified local-tempo claim."
+      },
+      {
+        "listen": "chopin-nocturne-op15-2-paderewski-1937",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.936,
+        "minimumConfidence": 0.695,
+        "fractionBelow075": 0.017,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "chopin-nocturne-op15-2-prati-2015",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.967,
+        "minimumConfidence": 0.87,
+        "fractionBelow075": 0,
+        "interpretation": "Sound overall; local uncertainty remains."
+      }
+    ]
+  }
+}

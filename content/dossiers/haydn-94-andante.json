@@ -131,16 +131,14 @@
       "note": "The composer died in 1809. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Conflicting recording-rights metadata: PD-EU-audio in wikitext; CC0 in Structured data.",
-      "status": "disputed",
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data",
-        "archive",
-        "eu-audio",
-        "us-recordings"
+        "rights-audit-commons",
+        "rights-audit-eu-term",
+        "rights-audit-eu-audio"
       ],
-      "note": "The Internet Archive item links to a legacy public-domain dedication. That does not establish authority to waive Victor’s recording rights. US protection depends on first publication under § 1401 and is not cleared by an EU expiry tag.",
+      "note": "Commons applies PD-EU-audio to the Koussevitzky/Boston recording attributed to 1929. The alternative CC0 metadata is not needed and is not treated as authority to waive Victor’s rights. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date.",
       "alternatives": [
         {
           "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
@@ -230,6 +228,27 @@
       "url": "https://www.law.cornell.edu/uscode/text/17/1401",
       "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-term",
+      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-audio",
+      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

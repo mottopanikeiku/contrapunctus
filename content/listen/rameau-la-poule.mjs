@@ -1,0 +1,15 @@
+export default {
+  id: 'rameau-la-poule',
+  composer: 'rameau',
+  order: 2,
+  work: 'La Poule',
+  movement: '',
+  year: 'c. 1728, publication',
+  key: 'G minor',
+  forces: 'Solo piano; originally harpsichord',
+  performers: 'Marcelle Meyer, piano',
+  recorded: '29–30 October 1953; Salle Adyar, Paris (Commons attribution)',
+  source: { file: 'File:Jean-Philippe Rameau - La Poule (Marcelle Meyer, 1953).flac' },
+  intro: 'A hen’s repeated clucking becomes a keyboard figure that can change harmony, register and weight. Marcelle Meyer plays Rameau’s harpsichord piece on piano, keeping the repeated attack at the centre of the argument.',
+  question: 'How much can Rameau build from a repeated note?',
+};

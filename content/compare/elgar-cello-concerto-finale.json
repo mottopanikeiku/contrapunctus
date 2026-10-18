@@ -1,0 +1,80 @@
+{
+  "id": "elgar-cello-concerto-finale",
+  "title": "Elgar’s finale before and after the cuts",
+  "composer": "elgar",
+  "group": "composer-performers",
+  "work": "Cello Concerto in E minor, Op. 85 — a shared passage from the finale",
+  "question": "How do Harrison and Elgar shape the finale’s retained moving passage beside the complete Skidmore performance?",
+  "intro": "Harrison and Elgar’s 1919–20 acoustic recording compresses the whole concerto onto four sides issued in 1921; the Skidmore file contains only the complete finale. The comparison deliberately aligns just 85–124 seconds of Skidmore with 710–745 seconds of the already-joined Harrison stream, a continuous early-finale overlap rather than music on opposite sides of a cut. Its median chroma confidence is 0.950, but the timing remains provisional and the acoustic transfer changes which details of cello and orchestra are audible. Neither the full-file durations nor this short overlap establish Elgar’s tempo for the omitted music.",
+  "recordings": [
+    {
+      "listen": "elgar-cello-concerto-harrison-1920",
+      "label": "Harrison / Elgar",
+      "year": 1919,
+      "note": "Abridged whole-concerto stream; finale recorded in 1919, issued 1921; compare only the retained 35-second window."
+    },
+    {
+      "listen": "elgar-cello-concerto-finale-skidmore",
+      "label": "Skidmore College Orchestra",
+      "year": null,
+      "note": "Complete finale; Musopen public-domain release; cellist, conductor and session date uncredited."
+    }
+  ],
+  "reference": "elgar-cello-concerto-finale-skidmore",
+  "passages": [
+    {
+      "label": "Retained moving passage",
+      "t": 85,
+      "note": "Follow the cello’s short figures and the answering weight around them; this is not the opening of the complete finale."
+    },
+    {
+      "label": "Continuing the same phrase",
+      "t": 98,
+      "note": "Compare how attacks connect into a line, without mistaking differences of transfer balance for different orchestral scoring."
+    },
+    {
+      "label": "End of the shared window",
+      "t": 111,
+      "note": "Follow the same retained material towards the trim boundary; timing claims stop before music affected by later cuts."
+    }
+  ],
+  "alignment": {
+    "status": "provisional",
+    "timeBasis": "Absolute seconds in each supplied stream; trim ends are exclusive.",
+    "maps": [
+      {
+        "listen": "elgar-cello-concerto-harrison-1920",
+        "trimA": [
+          85,
+          124
+        ],
+        "trimB": [
+          710,
+          745
+        ],
+        "medianConfidence": 0.95,
+        "transposeB": 0,
+        "scope": "Continuous early-finale overlap only. Excludes Skidmore’s opening introduction, all earlier Harrison movements and all later cuts.",
+        "inspection": "Five-second path samples progress smoothly from [85,710] through [100,725] to [120,741.01]; no whole-concerto/finale duration ratio is interpreted."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Harrison/Elgar: sessions, first issues, cuts and transfer pitch correction",
+      "url": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545"
+    },
+    {
+      "title": "HMV D545 finale label: Harrison, Symphony Orchestra and Elgar",
+      "url": "https://archive.org/download/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545/4.%20HMV_D545_HO_4198_AF.JPG"
+    },
+    {
+      "title": "Skidmore/Musopen finale: attribution and recording release",
+      "url": "https://commons.wikimedia.org/wiki/File:Edward_Elgar_-_cello_concerto_in_e_minor,_op._85_-_iv._allegro.ogg"
+    },
+    {
+      "title": "Acoustic abridgement distinguished from the complete 1928 recording",
+      "url": "https://en.wikipedia.org/wiki/Cello_Concerto_(Elgar)"
+    }
+  ]
+}

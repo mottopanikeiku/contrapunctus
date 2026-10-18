@@ -1,0 +1,62 @@
+{
+  "id": "satie-gymnopedie-1",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, bar-map, provenance and visual review; not aural review.",
+  "defects": [],
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/satie-gymnopedie-1-checks.json",
+    "primaryMedianSeconds": 0.029311006453859534,
+    "primaryP95Seconds": 0.06638792953115567,
+    "maximumAnchorDeviationSeconds": 0.06689342403684861,
+    "maximumLocalRegionMedianSeconds": 0.049105180533757675,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 78,
+    "distinctEngravedBars": 47,
+    "sheetPages": 1,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 12,
+    "unresolvedListenPointers": []
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/satie-gymnopedie-1-0-8.png",
+      "work/satie-gymnopedie-1-0-10.18.png",
+      "work/satie-gymnopedie-1-8-16.png",
+      "work/satie-gymnopedie-1-64-72.png",
+      "work/satie-gymnopedie-1-80-88.png",
+      "work/satie-gymnopedie-1-86.34-98.34.png",
+      "work/satie-gymnopedie-1-96-104.png",
+      "work/satie-gymnopedie-1-152-160.png",
+      "work/satie-gymnopedie-1-160-168.png",
+      "work/satie-gymnopedie-1-172.817-183.607.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified in the inspected pitch-energy overlays. Earlier stale Beethoven endpoint PNGs were superseded by the final-candidate overlay set."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37",
+    "opened": true,
+    "edition": "Dover Edition (reproduction of the original; translated text omitted)",
+    "encoder": "Evin Robertson",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Compact Mutopia numbering is intentional; 1–39, 1–31, 40–47 is 78 performed bars. This is not the original written-out numbering.",
+    "physicalPerformingEdition": "Unknown; the source edition is identified, not claimed as the performer’s copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label must remain."
+}

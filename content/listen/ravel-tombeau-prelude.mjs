@@ -1,0 +1,83 @@
+export default {
+  id: 'ravel-tombeau-prelude', composer: 'ravel', order: 30,
+  work: 'Le Tombeau de Couperin', movement: 'I. Prélude',
+  year: '1914–17', key: 'E minor', forces: 'Piano',
+  performers: 'Isaac David, piano', recorded: '2017',
+  source: { file: 'File:Maurice Ravel - Isaac David - Le Tombeau de Couperin. I. Prélude.opus' },
+  set: { id: 'ravel-tombeau-de-couperin', title: 'Le Tombeau de Couperin — piano version', part: 1, of: 6 },
+  intro: 'Ravel begins his memorial suite with running semiquavers rather than a funeral march. This selection combines different pianists and omits the fourth movement, the Rigaudon; it is not a complete performance of the suite.',
+  question: 'How does a continuous stream of short notes sustain a longer melodic line?',
+  sections: [
+    { t: 0, label: 'Opening figure and repeat', m: 'A', mNote: 'Running semiquavers support longer notes and ornaments.' },
+    { t: 110, label: 'Continuation · changing registers', m: 'Dev', mNote: 'The running figure passes through changing harmonies and registers.' },
+    { t: 188, label: 'Late crescendo', m: 'B', mNote: 'A broader melodic line rides above the rapid accompaniment.' },
+    { t: 205, label: 'Quiet closing gestures', m: 'Coda', mNote: 'The large sweep contracts into separated, quieter gestures.' },
+  ],
+  cues: [
+    {
+      t: 0, kind: 'music', title: 'Small notes, long lines',
+      text: 'The score puts twelve semiquavers in each bar. Try hearing two layers: the quick movement of individual notes and the slower line made by the notes that Ravel sustains above or below them.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Durand 1918 piano score, printed pp. 2–6: 12/16, continuous semiquaver figures, sustained voices and ornaments. The opening analysis has about six detected attacks per second; this cue explains the texture, not an exact entry.',
+    },
+    {
+      t: 35, kind: 'world', title: 'Remembering Jacques Charlot',
+      text: 'The Prélude is dedicated to Lieutenant Jacques Charlot, a friend of Ravel and a cousin of his publisher Jacques Durand. Charlot was killed in the First World War. The dedication belongs to the piano score; its quick tempo is no reason to overlook it.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Dedication at the head of the Durand score, p. 2; BnF work authority https://catalogue.bnf.fr/ark:/12148/cb13917720k. Kansas City Symphony programme, 5–7 April 2024, printed pp. 5–7, identifies Charlot and the wartime deaths: https://www.kcsymphony.org/wp-content/uploads/2024/03/FY24-CS10-Program-Book-Digital-2024-04-05.pdf.',
+    },
+    {
+      t: 70, kind: 'listen', title: 'Ornaments on the beat',
+      text: 'Ravel gives an unusually practical instruction: the small grace notes are to be struck on the beat. They are not just decoration before the main note. Listen for the way an ornament momentarily thickens the otherwise continuous line.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Durand score, p. 2, footnote: “Les petites notes doivent être frappées sur le temps.” The opening section is repeated in the score, with first and second endings on p. 3. No individual ornament is claimed at this timestamp.',
+    },
+    {
+      t: 105, kind: 'life', title: 'A suite already imagined',
+      text: 'In October 1914 Ravel wrote to Roland-Manuel about a French suite he was planning. The wartime memorial grew from an interest in older keyboard music; it was not simply a set of funeral pieces conceived after the fighting had ended.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Kansas City Symphony programme, printed p. 5, quotes the letter of 1 October 1914; BnF dates the work July 1914–November 1917. https://www.kcsymphony.org/wp-content/uploads/2024/03/FY24-CS10-Program-Book-Digital-2024-04-05.pdf; https://catalogue.bnf.fr/ark:/12148/cb13917720k.',
+    },
+    {
+      t: 140, kind: 'music', title: 'Which hand is moving?',
+      text: 'The fast figure does not belong permanently to the right hand. Across the middle of the score, the left hand takes sweeping runs while the right holds a more spacious line. Follow the moving notes downwards instead of treating the bass as a fixed accompaniment.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Durand score, printed pp. 4–5: repeated exchanges between upper semiquaver figures and broad left-hand runs under sustained right-hand notes. This is a middle-passage listening prompt, not a bar-aligned handover.',
+    },
+    {
+      t: 175, kind: 'life', title: 'Between service and composition',
+      text: 'Ravel served as an army driver, carrying supplies near Verdun in 1916. Illness interrupted his service. After his discharge in 1917, he completed the suite that November: its carefully worked keyboard writing belongs to the same years as this disrupted daily life.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Kansas City Symphony programme, printed pp. 5–6: driver, Verdun service, illness and June 1917 discharge. BnF gives completion in November 1917. The cue makes no claim that a particular gesture depicts military service.',
+    },
+    {
+      t: 210, kind: 'listen', title: 'After the large sweep',
+      text: 'The preceding crescendo has fallen away. Listen to the space between the closing gestures, and to the decay of each note: the ending no longer needs the continuous pressure of the earlier semiquavers.',
+      basis: 'audio-feature', precision: 'passage',
+      evidence: 'cache/analysis/ravel-tombeau-prelude.txt: the 200-second loudness window is the loudest at −6.7 dB, followed by −17.3 at 205 seconds and −26.9 at 225; the last windows approach silence. Durand score, p. 6, moves from a large sweep to pp closing gestures.',
+    },
+  ],
+  transitions: [
+    {
+      id: 'beyond-the-repeat', title: 'Beyond the repeated opening', from: 'Opening figure and repeat', to: 'Continuation · changing registers',
+      at: { t: 110 }, span: [100, 125],
+      how: '<p>The repeated opening has a different second ending, allowing the semiquaver figure to continue rather than start again. Ravel retains the rapid motion while changing its register and the notes held against it. This is continuity through a shared figure, not a new tempo or a silent break.</p>',
+      devices: ['motivic link', 'register change'], basis: 'score-proportion', precision: 'passage',
+      evidence: 'Durand score, p. 3, first and second endings; pp. 4–5 continue and redistribute the figure. Analysis shows similar early dynamic contours around 0–55 and 55–110 seconds and a boundary candidate at 110. The timestamp locates the passage approximately, not the exact second-ending bar.',
+    },
+    {
+      id: 'late-crescendo', title: 'The line grows broader', from: 'Continuation · changing registers', to: 'Late crescendo',
+      at: { t: 188 }, span: [180, 205],
+      how: '<p>Rapid notes remain underneath, but the melodic line and the keyboard range become more prominent. The crescendo enlarges material already in motion instead of introducing an unrelated tune. It reaches this performance’s largest sustained dynamic crest near the end of the passage.</p>',
+      devices: ['crescendo build', 'register change'], basis: 'audio-feature', precision: 'passage',
+      evidence: 'Durand score, pp. 5–6, crescendo into broad upper notes over running accompaniment. Analysis boundaries at 188 and 192 seconds; successive loudness windows rise from −15.3 at 180 to −6.7 at 200 seconds.',
+    },
+    {
+      id: 'closing-release', title: 'The sweep releases', from: 'Late crescendo', to: 'Quiet closing gestures',
+      at: { t: 205 }, span: [200, 225],
+      how: '<p>After the full-keyboard sweep, Ravel reduces the dynamic and separates the closing gestures. The connection is made by the residue of the same flowing figuration: motion survives, but its force and continuity diminish. The final resonance is allowed to decay rather than being covered by another phrase.</p>',
+      devices: ['decrescendo', 'texture change'], basis: 'audio-feature', precision: 'passage',
+      evidence: 'Durand score, p. 6, quiet closing arpeggios after the climactic sweep. Analysis drops by about 10.6 dB between the 200- and 205-second windows, with further attenuation towards the end; no exact cadence time is asserted.',
+    },
+  ],
+};

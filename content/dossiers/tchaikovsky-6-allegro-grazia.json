@@ -1,0 +1,157 @@
+{
+  "id": "tchaikovsky-6-allegro-grazia",
+  "work": {
+    "title": "Symphony No. 6 in B minor, Op. 74 “Pathétique”",
+    "catalogue": "Op. 74",
+    "movement": "II. Allegro con grazia",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording documentation does not identify the performing edition. No revision or editorial intervention is inferred from the file title."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Musopen Symphony",
+        "role": "orchestra attribution"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "This is the ensemble name on Commons; conductor and roster are unidentified."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Commons gives 2012, while the upstream collection identifies 2012 as the Kickstarter release project’s completion. The session date remains unknown.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No session venue is documented."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original record label is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is identified."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side allocation is documented; an Ogg or FLAC file does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The uploader is not assumed to be a transfer or mastering engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Encoding format alone does not establish equalisation, noise reduction, speed correction or other processing."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Tchaikovsky_-_Symphony_No._6_in_B_minor%2C_Op._74_%27Path%C3%A9tique%27_-_II._Allegro_con_grazia_%28Musopen_Symphony%29.flac/Tchaikovsky_-_Symphony_No._6_in_B_minor%2C_Op._74_%27Path%C3%A9tique%27_-_II._Allegro_con_grazia_%28Musopen_Symphony%29.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "Wikimedia Commons MP3 access derivative; source FLAC",
+    "durationSeconds": 496.0795625
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition in life-plus-70 jurisdictions",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composer died in 1893. This assessment does not cover a later edition or arrangement."
+    },
+    "recording": {
+      "value": "Rule 1 — explicit Musopen public-domain release of the sound recording",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons explicitly separates Musopen’s PD-author recording release from the public-domain composition notice. The unknown session date does not affect this programme route."
+    },
+    "creditLine": "Musopen Symphony — Symphony No. 6 in B minor, Op. 74 “Pathétique”, II. Allegro con grazia. Public-domain recording release by Musopen, via Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - II. Allegro con grazia (Musopen Symphony).flac",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=963517003",
+      "locator": "File-description revision: description, source, author, date and recording-specific licensing template.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&titles=File%3ATchaikovsky+-+Symphony+No.+6+in+B+minor%2C+Op.+74+%27Path%C3%A9tique%27+-+II.+Allegro+con+grazia+%28Musopen+Symphony%29.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives",
+      "locator": "Duration, MIME type and MP3 derivative URL. Measured file duration is not the date or identity of the performance.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Musopen Collection as FLAC",
+      "url": "https://archive.org/metadata/MusopenCollectionAsFlac/metadata",
+      "locator": "Collection description: recordings purchased and released to the public domain; project completed in 2012, not a documented session date.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

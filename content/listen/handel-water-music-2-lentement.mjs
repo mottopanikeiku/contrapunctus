@@ -1,0 +1,15 @@
+export default {
+  id: 'handel-water-music-2-lentement',
+  composer: 'handel',
+  order: 4,
+  work: 'Water Music',
+  movement: '',
+  year: '1717',
+  key: 'D major',
+  forces: '',
+  performers: 'Marine Chamber Orchestra',
+  source: { file: "File:Handel's Water Music - 14. Lentement - Chamber Orchestra - United States Marine Band.opus" },
+  intro: '',
+  sections: [{ t: 0, label: 'Preliminary' }],
+  cues: [{ t: 0, kind: 'general', title: 'x', text: 'x' }],
+};

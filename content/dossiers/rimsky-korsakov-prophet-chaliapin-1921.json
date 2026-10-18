@@ -1,0 +1,188 @@
+{
+  "id": "rimsky-korsakov-prophet-chaliapin-1921",
+  "work": {
+    "title": "The Prophet",
+    "catalogue": "Op. 49 No. 2",
+    "movement": "",
+    "version": {
+      "value": "Bass solo with orchestra; Russian text by Alexander Pushkin",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-session",
+        "work"
+      ],
+      "note": "The performing orchestral edition is not identified. The song, No. 2, dates from 1897; the source collection’s blanket 1882 date belongs to No. 1."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Fyodor Chaliapin",
+        "role": "bass"
+      },
+      {
+        "name": "Percy Pitt",
+        "role": "conductor"
+      },
+      {
+        "name": "Orchestra not named",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "dahr-session"
+    ],
+    "note": "DAHR supplies the conductor; no ensemble identity is inferred."
+  },
+  "session": {
+    "date": {
+      "value": "1921-10-10",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-session"
+      ],
+      "note": "",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Hayes, Middlesex, England, Room 1",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-session"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victrola / Victor",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-issue"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "6058-B",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-issue"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "Cc550, take 1",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-session"
+      ],
+      "note": "Internet Archive dates this pressing 1923; DAHR dates the Victor 6058 issue [1922]. Both precede the 1925 publication cutoff. The session was in 1921, not 1923. IA’s “6058B” matrix field is the issue side number, not the Gramophone matrix."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Dean Santos; George Blood, L.P.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The archive names the transfer operator and scanning centre, not the original recording engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Transferred at 78 rpm. The preferred named FLAC uses a 3.3 mil truncated-conical stylus; turnover 0, rolloff 0; the streamed MP3 derives from that FLAC.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Surface noise and transfer equalisation prevent absolute sound-quality or loudness comparisons."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b/The%20Prophet%20-%20Feodor%20Chaliapin%20-%20Poushkin.mp3",
+    "sourceChain": [
+      "archive",
+      "dahr-session",
+      "dahr-issue"
+    ],
+    "format": "MP3 access derivative; one source file, no concatenation or audio edits by Contrapunctus",
+    "durationSeconds": 230.55
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying song and Pushkin text are public domain under ordinary life-plus-70 terms",
+      "status": "inferred",
+      "sourceIds": [
+        "work",
+        "dahr-session"
+      ],
+      "note": "Rimsky-Korsakov died in 1908 and Pushkin in 1837; the song was published in 1898. No rights in an unidentified modern edition are asserted."
+    },
+    "recording": {
+      "value": "US public domain: sound recording published before the 1925 cutoff",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-session",
+        "dahr-issue",
+        "us-term"
+      ],
+      "note": "Internet Archive dates this pressing 1923; DAHR dates the Victor 6058 issue [1922]. Both precede the 1925 publication cutoff. The session was in 1921, not 1923. IA’s “6058B” matrix field is the issue side number, not the Gramophone matrix. No non-commercial licence is present in the inspected archive metadata."
+    },
+    "creditLine": "The Prophet; Fyodor Chaliapin, bass; orchestra conducted by Percy Pitt. 1921-10-10; Cc550, take 1; Victrola 6058-B. Transfer: Dean Santos; George Blood, L.P.; Internet Archive Great 78 Project. Recording: US public domain.",
+    "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — The Prophet",
+      "url": "https://archive.org/metadata/78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b",
+      "locator": "metadata, preferred FLAC/MP3 file records, transfer credits, technical notes and issue number.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-session",
+      "title": "DAHR — Cc550, take 1",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007905",
+      "locator": "Date, place, issued take, personnel and issue links.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-issue",
+      "title": "DAHR — Victor 6058",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/162250",
+      "locator": "Matrix coupling and MARC 264 publication statement [1922].",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "IMSLP — 2 Romances, Op. 49",
+      "url": "https://imslp.org/wiki/2_Romances,_Op.49_(Rimsky-Korsakov,_Nikolay)",
+      "locator": "No. 2: The Prophet; composition 1897, first publication 1898; text by Pushkin.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "US Copyright Office — pre-1972 sound-recording terms",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: recordings first published before 1923; 1923–1946 recordings receive 95 years plus five years.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "volga-boatmen",
+  "title": "Chaliapin’s Volga Boatmen, horn and microphone",
+  "composer": null,
+  "work": "Song of the Volga Boatmen, arranged by Chaliapin and Keneman",
+  "question": "How does Chaliapin shape the repeated song in acoustic and electrical recordings five years apart?",
+  "intro": "Chaliapin recorded this bass-and-orchestra arrangement with George W. Byng in 1922 and Albert Coates in 1927. The comparison follows 0:05–3:00 of the acoustic side and 0:05–3:10 of the electrical remake, not their residual noise tails. Repeated harmony makes the automatic path locally ambiguous around 2:00–2:25 in 1922, so its apparent stalls and surges are not evidence of sudden tempo changes. The 1927 recording was first published in 1928 and is used as territorial European public domain, with US status unestablished.",
+  "group": "singers",
+  "recordings": [
+    {
+      "listen": "volga-boatmen-chaliapin-1922",
+      "label": "Chaliapin · Byng · acoustic",
+      "year": 1922,
+      "note": "Hayes, 9 October; Cc1891, take 4; Victrola 88663. US public domain. Local timing around 2:00–2:25 remains ambiguous."
+    },
+    {
+      "listen": "volga-boatmen-chaliapin-1927",
+      "label": "Chaliapin · Coates · electrical",
+      "year": 1927,
+      "note": "London, 20 October; DB 1103, first published 1928. Territorial European public domain; source take-number inconsistency disclosed in dossier."
+    }
+  ],
+  "reference": "volga-boatmen-chaliapin-1922",
+  "passages": [
+    {
+      "label": "Opening rise",
+      "t": 35,
+      "note": "Follow how the bass line carries a gradual rise, without equating a stronger recorded sound with a faster pulse."
+    },
+    {
+      "label": "First crest",
+      "t": 55,
+      "note": "Compare the crest and retreat as one phrase; surface noise and transfer balance differ between these sources."
+    },
+    {
+      "label": "Middle swell",
+      "t": 95,
+      "note": "Compare continuity across the later swell. The map is not a word-by-word transcription."
+    },
+    {
+      "label": "Closing withdrawal",
+      "t": 165,
+      "note": "Listen to the musical line recede; the map ends before the residual noise tails."
+    }
+  ],
+  "sources": [
+    {
+      "title": "DAHR — Cc1891, take 4; 9 October 1922",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686"
+    },
+    {
+      "title": "DAHR — Victor 88663, publication [1922]",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/162251"
+    },
+    {
+      "title": "Internet Archive — acoustic Victrola transfer",
+      "url": "https://archive.org/details/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a"
+    },
+    {
+      "title": "Swiss Foundation Public Domain — Volga Boatmen, DB 1103",
+      "url": "https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051"
+    },
+    {
+      "title": "Commons — electrical transfer and take 1 attribution",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Feodor_Chaliapin_-_The_Song_of_the_Volga_Boatmen_-_Russian_folk_song_-_Fyodor_Keneman_-_Gramophone-db1103-2-022051.flac"
+    },
+    {
+      "title": "Chaliapin discography — issued take 1, unpublished take 2",
+      "url": "https://artmusiclounge.files.wordpress.com/2016/03/chaliapin-discography.pdf"
+    }
+  ],
+  "alignment": {
+    "scope": "Broad course of the song, excluding lead-in and quiet tails. Repeated-harmony region is locally ambiguous.",
+    "reference": "volga-boatmen-chaliapin-1922",
+    "trims": {
+      "volga-boatmen-chaliapin-1922": [
+        5,
+        180
+      ],
+      "volga-boatmen-chaliapin-1927": [
+        5,
+        190
+      ]
+    },
+    "medianConfidence": 0.941,
+    "minimumConfidence": 0.806,
+    "note": "The path was inspected against both analysis reports. A plateau at reference 121–126 seconds (target about 126.3) and a compensating jump at reference 137–138 seconds (target about 137–145) persist despite high chroma similarity. This is explicitly not reliable local tempo evidence; passage links avoid that interval. Boundary smoothing also affects the first and last four seconds."
+  }
+}

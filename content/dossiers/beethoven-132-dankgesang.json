@@ -1,0 +1,120 @@
+{
+  "id": "beethoven-132-dankgesang",
+  "work": {
+    "title": "String Quartet No. 15 in A minor",
+    "catalogue": "Op. 132",
+    "movement": "III–IV combined. Molto adagio (Heiliger Dankgesang) — Alla marcia, assai vivace",
+    "version": {
+      "value": "Original quartet scoring; complete movements III and IV together in the selected Archive track.",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-data", "sleeve", "score"],
+      "note": "This is not the complete five-movement quartet and is not just movement III. The source groups III and IV in the first track of LP side 2; movement V is a separate, unselected file. The march’s closing link is included, but the written attacca into V cannot be followed within this selected file. Performing edition, repeat observance and any edits are not established."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "The Griller String Quartet", "role": "string quartet" },
+      { "name": "Sidney Griller", "role": "violin" },
+      { "name": "Jack O’Brien", "role": "violin" },
+      { "name": "Philip Burton", "role": "viola" },
+      { "name": "Colin Hampton", "role": "cello" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "sleeve"],
+    "note": "The two photographed disc labels explicitly name all four players and their instruments. They do not label the violin chairs first and second; the dossier does not expand their order into a chair attribution."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-data", "sleeve"],
+      "note": "1952 is the Archive’s catalogue/publication year, not an established session year. The sleeve’s 1951 copyright notice is for the printed package and does not date the session. No dated session ledger or independently matched master history was found in the consulted sources.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive-data", "sleeve"],
+      "note": "Made in England on the labels establishes manufacture, not recording location. The Archive’s Cebu scan/rip station and the ensemble’s name do not identify a session venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "London Records, ffrr long-playing microgroove issue",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-data", "sleeve"],
+      "note": "London, ffrr and 33⅓ rpm are visible on the labels. The sleeve names The London Gramophone Corporation, New York."
+    },
+    "catalogue": {
+      "value": "LLP 318",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-data", "sleeve", "disc-metadata"],
+      "note": "The Archive and its Discogs-derived catalogue metadata give 1952. The viewed rear sleeve reads Copyright 1951 by The London Gramophone Corporation. A sleeve copyright year is not proof of first sound-recording publication in that year; 1952 is retained as the source’s catalogue year rather than silently resolving the difference. Both are earlier than 1963."
+    },
+    "matrixTakeSides": {
+      "value": [
+        "Side 1, label No.1: ABL.597 — movements I and II, not selected",
+        "Side 2, label No.2: ABL.598 — movements III, IV and V; selected digital track contains III–IV only"
+      ],
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive-data", "disc-metadata"],
+      "note": "The ABL identifiers were read on the photographed labels, where they are printed upside down below the personnel. They are label master identifiers, not inspected run-out inscriptions. Take numbers, stamper suffixes and session-master correspondence remain unknown."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP digitisation; ripping operator account associate-klentjohn-postanes@archive.org",
+      "status": "documented",
+      "sourceIds": ["archive-data"],
+      "note": "This account is explicitly credited in ripping_operator. The separate catalogue/uploader account is not credited as the audio transfer engineer. Collection membership identifies the Boston Public Library vinyl collection; it does not establish the original recording venue. No personal-name expansion or mastering credit is inferred."
+    },
+    "date": {
+      "value": "23 September 2021",
+      "status": "documented",
+      "sourceIds": ["archive-data"],
+      "note": "The explicit ripping_date field is 20210923105311. This is an analogue-disc digitisation date, unlike the August catalogue scan date, September added date or August 2023 derivative timestamp. Time zone is not established."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable and Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; ArchiveCD 2.2.57lp; VBR MP3 segment derived from side-2 FLAC.",
+      "status": "documented",
+      "sourceIds": ["archive-data"],
+      "note": "The lineage and ripping-software fields state the hardware/software chain. The side-2 FLAC carries ‘Processed by SoX’; the item’s final segmentation is 7.434–1100.006 seconds of that side capture for III–IV. That is a digital cut range, not score alignment. Stylus calibration beyond the named cartridge, equalisation settings, restoration, de-clicking and pitch/speed correction are not documented; no tuning value is supplied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01.%203rd%20Movement%3A%20Molto%20Adagio%20-%20Andante%3B%204th%20Movement%3A%20Alla%20Marcia%2C%20Assal%20Vivace.mp3",
+    "sourceChain": ["archive", "archive-data", "sleeve", "disc-metadata"],
+    "format": "Internet Archive VBR MP3 derivative (listed average 185 kbps), selected III–IV segment of the side-2 FLAC capture",
+    "durationSeconds": 1092.62
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition and the nineteenth-century Breitkopf & Härtel quartet score are public domain.",
+      "status": "documented",
+      "sourceIds": ["imslp", "score", "museum", "eu-original"],
+      "note": "The quartet was composed in 1825; Beethoven died in 1827. The consulted Beethovens Werke engraving, plate B.51, is catalogued as the 1863 edition and Public Domain. This does not clear an unidentified later performing edition or the sleeve author’s prose."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis only: the recording was published before 1963; US status is not established.",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-data", "sleeve", "eu-original", "eu-extension", "us-term"],
+      "note": "The admitted basis is eu-published-before-1963, using the Archive’s 1952 catalogue date for this identified London LLP318 issue. The printed sleeve carries a 1951 copyright notice, corroborating an early-1950s package but not independently establishing the first publication year of the sound recording. A recording published by 1952 had exhausted the ordinary EU 50-year phonogram term before 1 November 2013; the 2011 extension applies to recordings still protected on that date. This is territorial, not a Creative Commons grant or worldwide clearance. The US 1947–1956 term is longer, and no US public-domain claim is made. The Archive item supplies no separate recording licence; availability online and Beethoven’s public-domain composition are not the admission basis."
+    },
+    "creditLine": "Ludwig van Beethoven, String Quartet No.15, Op.132, III–IV combined; The Griller String Quartet. London Records LLP318, catalogued 1952; session date and place unknown. Internet Archive/Boston Public Library vinyl collection, digitised 23 September 2021. Territorial EU public-domain recording basis; US status unestablished.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Beethoven: String Quartet No.15 in A minor, Op.132", "url": "https://archive.org/details/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet", "locator": "The Griller String Quartet; London Records LLP318; publication date 1952; four-track listing with III and IV combined. Does not identify a session date or venue.", "accessed": "2026-10-17" },
+    { "id": "archive-data", "title": "Internet Archive — Griller item metadata, files and segmentation", "url": "https://archive.org/metadata/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet", "locator": "date 1952, publisher-catalog-number, source-id discogs.com, lineage, ripping_operator, ripping_date, side-2 FLAC, selected MP3 length 1092.62 and final side-2 track-1 segment 7434–1100006 ms. Uploader, scanner and original session are kept separate.", "accessed": "2026-10-17" },
+    { "id": "sleeve", "title": "London LLP318 — scanned sleeve and labels", "url": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet.pdf", "locator": "All four pages viewed: front and rear sleeve; labels No.1/No.2, ABL.597/ABL.598, personnel and movement contents. Rear sleeve: Copyright 1951 by The London Gramophone Corporation, Printed in USA. Labels: Made in England. E.C. Stone’s interpretative sleeve text is not used as session documentation.", "accessed": "2026-10-17" },
+    { "id": "disc-metadata", "title": "Internet Archive — disc-metadata.json", "url": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc-metadata.json", "locator": "Album date 1952; side 2 ordinal 1 contains III–IV, ordinal 2 contains V. This repeats catalogue metadata, not independent publication corroboration.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Beethoven, Op.132 — Breitkopf & Härtel collected-edition score, plate B.51", "url": "https://www.lvbeethoven.it/wp-content/uploads/2020/10/Opus132.pdf", "locator": "Viewed original quartet engraving: printed pp.173–180 (PDF pp.15–22), complete III and IV. Slow/Andante alternation, final Mit innigster Empfindung, march and written link into V. The recording’s performing edition is not identified.", "accessed": "2026-10-17" },
+    { "id": "imslp", "title": "IMSLP — Op.132 edition catalogue", "url": "https://imslp.org/wiki/String_Quartet_No.15,_Op.132_(Beethoven,_Ludwig_van)", "locator": "Complete-score listing: Beethovens Werke, Serie6, Band2, No.51, Breitkopf & Härtel, 1863, plate B.51, Public Domain. Score mirror used for visual inspection because direct IMSLP download was challenged.", "accessed": "2026-10-17" },
+    { "id": "museum", "title": "Beethoven-Haus — The string quartets of Beethoven", "url": "https://internet.beethoven.de/pdf-sonderausstellung/Beethovens-Streichquartette-Brief-Guide.pdf", "locator": "Exhibition guide pp.6–8: Galitzin’s 1822 commission; illness interrupting Op.132; July1825 completion; Linke and Holz copying parts; private hearings and Schlesinger’s engraver’s copy. Damaged PDF text extraction limits reuse of numeric details.", "accessed": "2026-10-17" },
+    { "id": "work-history", "title": "Beethoven Music Research Center — Opus132 documentary history", "url": "https://www.lvbeethoven.org/opus132/", "locator": "Documentary section: 1825 chronology, copying, September private hearings, November1825 public performances and contemporary reviews with AmZ/conversation-book references. The introductory essay’s erroneous April1824 illness date and speculative Faust programme are not adopted.", "accessed": "2026-10-17" },
+    { "id": "eu-original", "title": "Directive 2006/116/EC — original term provisions", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116", "locator": "Articles1, 3 and 8: composition and original 50-year related-rights terms, calendar-year calculation.", "accessed": "2026-10-17" },
+    { "id": "eu-extension", "title": "Directive 2011/77/EU — extension and temporal application", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077", "locator": "Article1(3), adding Article10(5): extended term applies to fixations still protected as at 1 November2013; Article2 transposition date.", "accessed": "2026-10-17" },
+    { "id": "us-term", "title": "US Copyright Office — pre-1972 sound recording terms", "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/", "locator": "Term: recordings first published in 1947–1956 have 95 years plus15; this territorial EU package asserts no US clearance.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "ravel-introduction-and-allegro",
+  "work": {
+    "title": "Introduction and Allegro",
+    "catalogue": "M. 46",
+    "movement": "",
+    "version": {
+      "value": "Original scoring for harp, flute, clarinet and string quartet; performing edition unidentified.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "The named work, scoring and movement are documented; no specific performing edition is identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Karen Grimsey",
+        "role": "harp"
+      },
+      {
+        "name": "Kara Santos",
+        "role": "flute"
+      },
+      {
+        "name": "Parker Gaims",
+        "role": "clarinet"
+      },
+      {
+        "name": "Sara Matayoshi",
+        "role": "violin"
+      },
+      {
+        "name": "Foster Wang",
+        "role": "violin"
+      },
+      {
+        "name": "Tam Tran",
+        "role": "viola"
+      },
+      {
+        "name": "Clayton Vaughn",
+        "role": "cello"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The source names these performers. No conductor is credited for this chamber performance."
+  },
+  "session": {
+    "date": {
+      "value": "2022-03-27",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons audio and source-video descriptions explicitly identify the performance date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "John Philip Sousa Band Hall, Marine Barracks, Washington, D.C., United States",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Explicitly stated in the audio and original video descriptions."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier label is identified. The institutional or uploader credit is not treated as a record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is identified; file and IMSLP identifiers are not carrier catalogue numbers."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identifiers are supplied. Their absence does not prove that no earlier carrier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader or archive operator is not automatically an engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is established. Session, upload and archive publication dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "The Opus audio was extracted from the Commons WebM concert video; Commons supplies an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "video"
+      ],
+      "note": "The extraction is documented; the extractor’s engineering role, software and processing settings are not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/US_Marine_Band_Introduction_and_Allegro_%28Ravel%29.opus/US_Marine_Band_Introduction_and_Allegro_%28Ravel%29.opus.mp3",
+    "sourceChain": [
+      "commons",
+      "video"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Opus",
+    "durationSeconds": 719.4
+  },
+  "rights": {
+    "composition": {
+      "value": "The original composition is in the public domain in the United States.",
+      "status": "inferred",
+      "sourceIds": [
+        "imslp",
+        "us-term"
+      ],
+      "note": "First publication 1906; the maximum historical U.S. term has expired. This does not clear an unidentified modern edition or assert worldwide status."
+    },
+    "recording": {
+      "value": "Commons identifies the performance as a U.S. Marine Corps government work, public domain in the United States.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "video"
+      ],
+      "note": "This is a U.S.-jurisdiction statement, not a claim of worldwide public-domain status. The composition and performance have separate rights grounds."
+    },
+    "creditLine": "Maurice Ravel, Introduction and Allegro; Karen Grimsey, Kara Santos, Parker Gaims, Sara Matayoshi, Foster Wang, Tam Tran, Clayton Vaughn. U.S. Marine Band chamber ensemble, 27 March 2022, John Philip Sousa Band Hall; extracted from the official concert video via Wikimedia Commons. U.S. government work; public domain in the United States.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marine_Corps"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — US Marine Band Introduction and Allegro (Ravel).opus",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Marine_Band_Introduction_and_Allegro_%28Ravel%29.opus",
+      "locator": "File description: identification, performers, date, source and licence; audio duration and transcoded MP3. Raw wikitext and the audio-info endpoint were inspected.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Introduction and Allegro",
+      "url": "https://imslp.org/wiki/Introduction_et_allegro_(Ravel%2C_Maurice)",
+      "locator": "Work information and original scoring; first publication 1906.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office — Duration of Copyright, Circular 15A",
+      "url": "https://www.copyright.gov/circs/circ15a.pdf",
+      "locator": "Pages 2–3: maximum 95-year term for pre-1978 publications and restored foreign works; this is a jurisdiction-specific term calculation.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "video",
+      "title": "U.S. Marine Band — source concert video",
+      "url": "https://commons.wikimedia.org/wiki/File:RAVEL_Introduction_and_Allegro_for_Harp,_Flute,_Clarinet_and_String_Quartet_-_U.S._Marine_Band.webm",
+      "locator": "Description identifies all seven players, 27 March 2022, John Philip Sousa Band Hall; source is official YouTube video ATWLm_UxC34.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Ravel — Introduction et Allegro, original septet score",
+      "url": "https://commons.wikimedia.org/wiki/File:IMSLP06186-Ravel_-_Introduction_et_Allegro,_score.pdf",
+      "locator": "Durand, 1906; the original seven-part full score, not the two-piano arrangement. Score thumbnails inspected, including printed pp. 3, 8, 11, 19, 25–29 and 39.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

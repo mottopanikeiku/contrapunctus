@@ -1,0 +1,85 @@
+{
+  "id": "ravel-bolero",
+  "title": "Boléro: Ravel and Fricsay",
+  "composer": "ravel",
+  "work": "Boléro",
+  "question": "How does the same accumulating rhythm occupy different amounts of time?",
+  "intro": "Ravel directs the Lamoureux orchestra in the transfer attributed to 1930; BnF confirms the performer combination and a published Polydor issue by 1935. Fricsay’s reference file has conflicting1950s dates, so no exact session year is asserted for it. The access streams last about15:52 and 13:26 respectively, including their recorded leads and tails; the alignment follows shared musical position rather than multiplying every moment by one ratio. Tzipine and the unverified Munch/Lamoureux alternatives are not included.",
+  "group": "composer-performers",
+  "recordings": [
+    {
+      "listen": "ravel-bolero-ravel-1930",
+      "label": "Ravel, 1930 (Lamoureux)",
+      "year": 1930,
+      "note": "The composer conducts; the transferred historic recording was published by 1935. Listen to the distribution of time through the accumulation."
+    },
+    {
+      "listen": "ravel-bolero",
+      "label": "Fricsay, 1950s (date disputed)",
+      "year": null,
+      "note": "Existing reference; filename, description and embedded date disagree. Its faster overall file is not evidence of constant local acceleration."
+    }
+  ],
+  "reference": "ravel-bolero",
+  "passages": [
+    {
+      "label": "First melody",
+      "t": 13,
+      "note": "The reference estimates the opening flute statement here. Compare phrase length while keeping the repeating drum pattern in attention."
+    },
+    {
+      "label": "Changing instrumental colour",
+      "t": 190,
+      "note": "A new solo colour carries familiar material. The map follows pitch content; it does not identify instruments by itself."
+    },
+    {
+      "label": "Composite colour",
+      "t": 360,
+      "note": "Ravel’s score combines instruments while maintaining the repeated design. Compare pacing across the colour change, not merely captured loudness."
+    },
+    {
+      "label": "The harmonic break",
+      "t": 770,
+      "note": "The late departure from the long C-centred pattern is approximately located by the reference analysis; the precise first chord is not hand-aligned."
+    },
+    {
+      "label": "Return and close",
+      "t": 788,
+      "note": "Compare the final disruption with the patient accumulation before it; both transfers retain their original recorded endings."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-1930.ogg"
+    },
+    {
+      "title": "Bibliothèque nationale de France — Polydor Boléro",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb38509551s"
+    },
+    {
+      "title": "Commons — Fricsay source and conflicting dates",
+      "url": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg"
+    },
+    {
+      "title": "Cleveland Orchestra — Boléro",
+      "url": "https://www.clevelandorchestra.com/posts/ravels-bolero"
+    }
+  ],
+  "alignment": {
+    "scope": "Complete transfers, automatic map; timings do not resolve Fricsay’s disputed session date.",
+    "method": "Chroma CENS + DTW; no audio editing or concatenation.",
+    "maps": [
+      {
+        "listen": "ravel-bolero-ravel-1930",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.923,
+        "minimumConfidence": 0.671,
+        "fractionBelow075": 0.017,
+        "interpretation": "Sound overall; local uncertainty remains."
+      }
+    ]
+  }
+}

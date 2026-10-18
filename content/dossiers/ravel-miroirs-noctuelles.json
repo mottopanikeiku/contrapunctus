@@ -1,0 +1,167 @@
+{
+  "id": "ravel-miroirs-noctuelles",
+  "work": {
+    "title": "Miroirs",
+    "catalogue": "M. 43",
+    "movement": "I. Noctuelles — Très léger",
+    "version": {
+      "value": "Original solo-piano version (1904–05)",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "The Commons description calls this the first movement of Ravel’s Miroirs “for piano”. No performing edition is named; the first edition (Demets, 1906) was used only to describe the written music, and is not stated to be the performer’s edition."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Olena Havyuk-Sheremet",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The Commons description names the performer (Olena Havyuk-Sheremet; the notes field also spells it Haviuk-Sheremet) and says she studied at the Lviv Conservatory. The same pianist plays all five files of the set."
+  },
+  "session": {
+    "date": {
+      "value": "2014-04-01",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Stated in the file’s own performance-date field. The file was uploaded to Commons on 3 April 2014, a different date that is not used as a session date. The source does not say how the date was established.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Lviv, Ukraine (hall not named)",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The credit line attributes the file to students and teachers of the Lviv Conservatory working with Wikimedia Ukraine, and this file’s Polish-language description names the Lviv National Music Academy in connection with the 2014 performance. No hall or studio is named, so the place is an inference from those statements."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The consulted source identifies the Lviv Conservatory cooperation with Wikimedia Ukraine as the origin of the file but names no original carrier, label or issue. Whether the performance was ever issued elsewhere is not established."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number is supplied. This is not a claim that none exists."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied. This is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Uploaded to Wikimedia Commons by the user Юрій Булка on 3 April 2014",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "The Commons file history and credit line give the uploader and the cooperation. A recording or mastering engineer is not named, and an uploader is not automatically one."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering date is given. The upload date is not treated as one.",
+      "precision": null
+    },
+    "processing": {
+      "value": "Commons holds the uploaded lossless FLAC (35923672 bytes); the site streams Commons’ MP3 derivative of it.",
+      "status": "documented",
+      "sourceIds": [
+        "commons-data"
+      ],
+      "note": "The format and size are read from Commons’ file metadata. Any editing, noise reduction or mastering before upload is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac/Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 259.21993197278914
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in France and in other countries that apply a term of life plus seventy years or shorter: Ravel died in 1937 and the first edition appeared in 1906.",
+      "status": "inferred",
+      "sourceIds": [
+        "imslp",
+        "composer"
+      ],
+      "note": "This is a term calculation, not a worldwide clearance. Countries with longer terms, and modern editions, need separate consideration. The recording itself is licensed separately (see the recording field)."
+    },
+    "recording": {
+      "value": "CC BY-SA 3.0, applied to this recording by Wikimedia Commons; permission recorded in Wikimedia VRT ticket 2014040310015687.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "The licence covers the sound recording, not only the composition. The VRT ticket is not publicly readable, so the Commons licence template and permission field are the evidence seen. Share-alike and attribution apply to reuse."
+    },
+    "creditLine": "Maurice Ravel, Miroirs, I. Noctuelles; Olena Havyuk-Sheremet, piano; performance dated 1 April 2014 on Wikimedia Commons. Created by students and/or teachers of Lviv Conservatory as part of the cooperation with Wikimedia Ukraine. Wikimedia Commons, CC BY-SA 3.0.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Maurice Ravel - Miroirs - 1. Noctuelles.flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac?oldid=1285841712",
+      "locator": "File description: performer, performance date, source, permission and licence template; credit line; file history (uploaded 3 April 2014).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — file metadata (API)",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=timestamp|user|size|sha1|metadata|extmetadata&titles=File:Maurice%20Ravel%20-%20Miroirs%20-%201.%20Noctuelles.flac&format=json",
+      "locator": "imageinfo: uploader, upload timestamp, size 35923672 bytes, SHA-1 506dc997a7b6b86f6038ebd437e3309df0563d9c, MIME type and licence fields.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Miroirs, M.43 (Ravel, Maurice)",
+      "url": "https://imslp.org/wiki/Miroirs,_M.43_(Ravel,_Maurice)",
+      "locator": "General Information: composition year 1904–05, first publication Paris: E. Demets, 1906, first performance 6 January 1906 (Ricardo Viñes), dedicatees.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Maurice Ravel — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Maurice_Ravel",
+      "locator": "Lead: composer’s death year (1937).",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

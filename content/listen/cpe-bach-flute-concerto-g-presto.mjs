@@ -1,0 +1,16 @@
+export default {
+  id: 'cpe-bach-flute-concerto-g-presto',
+  composer: 'cpe-bach',
+  order: 2,
+  work: 'Flute Concerto in G major, Wq 169 / H 445',
+  movement: 'III. Presto',
+  set: { id: 'cpe-bach-flute-concerto-g', title: 'Flute Concerto in G major', part: 3, of: 3 },
+  year: '1755, original version; flute adaptation later',
+  key: 'G major',
+  forces: 'Solo flute, strings and continuo',
+  performers: 'Constance Schoepflin, flute; Advent Chamber Orchestra',
+  recorded: 'February 2008 (Commons date; session not independently established)',
+  source: { file: 'File:Carl Philipp Emanuel Bach- Flute Concerto Gmaj - 3. Presto.ogg' },
+  intro: 'Rapid flute passagework meets the collective attack of strings in the concerto’s Presto. Only the complete finale is hosted here, not the preceding Allegro and Largo.',
+  question: 'How does the solo flute turn orchestral material into its own kind of motion?',
+};

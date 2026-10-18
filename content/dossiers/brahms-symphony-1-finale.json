@@ -1,0 +1,175 @@
+{
+  "id": "brahms-symphony-1-finale",
+  "work": {
+    "title": "Symphony No. 1 in C minor",
+    "catalogue": "Op. 68",
+    "movement": "IV. Adagio — Più andante — Allegro non troppo, ma con brio — Più allegro",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The sources identify the orchestral movement but do not name the performing edition, any revisions adopted, or the treatment of written repeats. The 1877 Simrock score is a reference for the guide, not an identified performance material."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Czech National Symphony Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": "The Commons artist credit and the upstream FLAC artist tag agree. The filename’s parenthetical “Musopen Symphony” is not substituted for this ensemble credit. No conductor or individual player is named."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "commons-data",
+        "archive"
+      ],
+      "note": "Commons gives 2012 as the file’s date and inception year. The upstream collection says the Kickstarter project was completed in 2012, with an added date of 28 August 2012 and public date of 29 August 2012. These establish release context, not a documented session date; the listening-page recording-date field is left blank.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No recording venue or city is supplied. The ensemble’s name does not establish the session location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Musopen — Musopen Kickstarter Project",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Musopen is the documented digital-release source, and the upstream FLAC album tag reads “Musopen Kickstarter Project”. This is not evidence of a physical disc label or an original recording medium."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No commercial catalogue number is identified. The Internet Archive item identifier and file track number are digital collection metadata, not a verified carrier catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No matrix, take or side identification is supplied. The digital file does not establish whether any earlier carrier or session identifier existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "No transfer, editing or mastering engineer is identified. Neither the Commons uploader nor the Archive uploader is automatically credited as an engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The 2012 Archive release context, 11 November 2024 Commons upload and 25 February 2026 Commons transcode completion are not established transfer dates."
+    },
+    "processing": {
+      "value": "Upstream FLAC supplied through Musopen’s Kickstarter collection; matching FLAC on Wikimedia Commons; Commons supplies the MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data",
+        "archive"
+      ],
+      "note": "The upstream and Commons source-file SHA-1 values match: 3d146c073ab6016ae2da7b80334444dbf03d17c9. This establishes the identity of the archived FLAC, not an unedited session master. Original recording medium, session bit depth, editing, pitch correction and restoration history are unestablished."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo%2C_ma_con_brio_-_Piu_allegro_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._1_in_C_minor%2C_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo%2C_ma_con_brio_-_Piu_allegro_%28Musopen_Symphony%29.flac.mp3",
+    "sourceChain": [
+      "archive",
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; source file: FLAC",
+    "durationSeconds": 1016.884375
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons identifies the composition as public domain under PD-old-100-expired.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source cites Brahms’s 1897 death and the work’s nineteenth-century publication. This is the composition rights statement; it is not being used to clear the modern sound recording or an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Commons explicitly states that Musopen released this sound recording into the public domain worldwide, with an unrestricted-use fallback where dedication is not legally possible.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The file’s Licensing section separates “Recording” from “Musical composition”. The recording-specific Musopen release is the eligibility basis, not the composition’s age. The upstream collection also links to the Public Domain Mark; no non-commercial restriction is stated there. This reports the source’s express release and does not independently audit contractual ownership."
+    },
+    "creditLine": "Johannes Brahms, Symphony No. 1 in C minor, Op. 68, IV. Adagio — Più andante — Allegro non troppo, ma con brio — Più allegro; Czech National Symphony Orchestra. Conductor and session date unestablished. Musopen Kickstarter Project / Internet Archive, via Wikimedia Commons; explicit Musopen public-domain recording release.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Brahms Symphony No. 1, movement 4 (Musopen Symphony), FLAC",
+      "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo,_ma_con_brio_-_Piu_allegro_(Musopen_Symphony).flac?oldid=1096311460",
+      "locator": "Summary: work, artist credit, date and Musopen/Internet Archive sources. Licensing: separate Recording release by Musopen and Musical composition status. File history and Transcode status: upload and derivative dates.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured metadata for Brahms Symphony No. 1, movement 4",
+      "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo,_ma_con_brio_-_Piu_allegro_(Musopen_Symphony).flac#structureddata",
+      "locator": "Structured data: inception 2012, audio/flac, duration 1016.884375 seconds, SHA-1 3d146c073ab6016ae2da7b80334444dbf03d17c9. These are the host’s metadata statements, not independent session documentation.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Musopen Collection as FLAC",
+      "url": "https://archive.org/metadata/MusopenCollectionAsFlac",
+      "locator": "metadata.description identifies the completed 2012 Kickstarter project; licenseurl is the Public Domain Mark; addeddate/publicdate are August 2012. File Brahms_SymphonyNo.1inCMinor/JohannesBrahms-SymphonyNo.1InCMinorOp.68-04-Adagio-PiAndante-AllegroNonTroppoMaConBrio.flac: artist Czech National Symphony Orchestra, album Musopen Kickstarter Project, track 55, SHA-1 3d146c073ab6016ae2da7b80334444dbf03d17c9. No conductor, session venue or session date is supplied.",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "Brahms-Institut — Symphony No. 1, Op. 68: work catalogue and first edition",
+      "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_werkekatalog/op_068.html",
+      "locator": "Composition history 1862–1876; premiere 4 November 1876 under Otto Dessoff; first-edition full score, Simrock, October 1877, plate 7957. The first edition is the guide’s score reference, not a documented edition used in this session.",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-16"
+  }
+}

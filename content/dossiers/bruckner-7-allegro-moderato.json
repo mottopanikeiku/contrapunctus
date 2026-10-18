@@ -1,0 +1,178 @@
+{
+  "id": "bruckner-7-allegro-moderato",
+  "work": {
+    "title": "Symphony No. 7 in E major",
+    "catalogue": "WAB 107",
+    "movement": "I. Allegro moderato",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "imslp"
+      ],
+      "note": "Neither the Commons page, the IMSLP performance entry nor the embedded tags names the edition performed (Gutmann 1885, Haas, Nowak or Cohrs). The 1885 first edition is cited only as a viewable public-domain score for the orchestration timeline."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Hochschulsymphonieorchester (Munich)",
+        "role": "orchestra"
+      },
+      {
+        "name": "Marcus Bosch",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "imslp",
+      "tags",
+      "commons"
+    ],
+    "note": "The IMSLP performance entry gives “Hochschulsymphonieorchester (Munich), Marcus Bosch (conductor)” and the MP3’s embedded artist tag reads “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch”. The Commons page credits only “University of Music and Theatre Munich” as author. No roster of players is given."
+  },
+  "session": {
+    "date": {
+      "value": "2020",
+      "status": "documented",
+      "sourceIds": [
+        "imslp",
+        "tags",
+        "commons"
+      ],
+      "note": "IMSLP (“Live recording at the University of Music and Theatre Munich 2020”), the embedded date tag and Commons all give the year 2020. The IMSLP file names carry the token 2021-11-08, which is not decoded as a session date, and no day or month of the concert is stated.",
+      "precision": "year"
+    },
+    "place": {
+      "value": "University of Music and Theatre Munich (Hochschule für Musik und Theater München); the hall is not named",
+      "status": "documented",
+      "sourceIds": [
+        "imslp",
+        "tags"
+      ],
+      "note": "IMSLP’s miscellaneous note and the embedded comment (“Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020”) name the institution as the place of the live recording, not a hall or street address."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "University of Music and Theatre Munich (IMSLP publisher information); no commercial label",
+      "status": "documented",
+      "sourceIds": [
+        "imslp"
+      ],
+      "note": "IMSLP’s publisher field reads “University of Music and Theatre Munich, 2020”. The file is a concert recording distributed through IMSLP and Wikimedia Commons, not a label release."
+    },
+    "catalogue": {
+      "value": "IMSLP recording #899190; file PMLP7929-2021-11-08 HP8 HSO Bruckner-7 01.mp3",
+      "status": "documented",
+      "sourceIds": [
+        "imslp"
+      ],
+      "note": "This is IMSLP’s own identifier for the file, not a label catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [
+        "imslp"
+      ],
+      "note": "A 2020 live concert capture distributed as an MP3 file has no disc matrix, take or side. This is not a statement about the unrecorded original recording medium."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "imslp",
+        "commons"
+      ],
+      "note": "IMSLP names the uploader of the file (Musikisum, 11 February 2024) and the Commons file page lists the University as author; neither identifies a recording, editing or mastering engineer. An uploader is not treated as a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "imslp",
+        "commons"
+      ],
+      "note": "The IMSLP upload date (11 February 2024) and the Commons revision dates are not transfer or session dates."
+    },
+    "processing": {
+      "value": "MP3 file, about 128 kbit/s, 1074.686 s, with embedded ID3 tags; hosted unchanged on Wikimedia Commons as an MP3 original.",
+      "status": "documented",
+      "sourceIds": [
+        "tags",
+        "media"
+      ],
+      "note": "The bit rate and tags were read from the cached copy with ffprobe; the Commons media record gives the duration and MP3 type. No restoration, editing or loudness processing is disclosed. "
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/HSO_Bruckner-7_01.mp3",
+    "sourceChain": [
+      "commons",
+      "imslp"
+    ],
+    "format": "MP3 original file hosted by Wikimedia Commons",
+    "durationSeconds": 1074.686
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain; Commons tags the composition PD-old-auto-expired (Bruckner died in 1896).",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The notice concerns the composition only. It does not license a modern critical edition or this recording."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution-ShareAlike 4.0 International. Rights rule 1: the licence covers the sound recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "imslp",
+        "tags"
+      ],
+      "note": "The Commons Copyright information template gives recording = CC BY-SA 4.0, the IMSLP performance entry states Creative Commons Attribution-ShareAlike 4.0, and the embedded copyright tag reads CC BY-SA 4.0. The licence is that of the University of Music and Theatre Munich’s recording; it is separate from the composition’s public-domain tag."
+    },
+    "creditLine": "Anton Bruckner, Symphony No. 7, I. Allegro moderato — Hochschulsymphonieorchester (Munich), Marcus Bosch; live recording, University of Music and Theatre Munich, 2020. CC BY-SA 4.0, via IMSLP and Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:HSO Bruckner-7 01.mp3",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1220981638",
+      "locator": "Summary: description, date, source, author; Licensing: Copyright information (recording CC BY-SA 4.0; composition PD-old-auto-expired, death year 1896). Raw wikitext read on the access date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Symphony No. 7 in E major, WAB 107 (Bruckner, Anton)",
+      "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)",
+      "locator": "Recordings: #899190 (PMLP7929-2021-11-08 HP8 HSO Bruckner-7 01.mp3): Publisher Info. University of Music and Theatre Munich, 2020; Performers Hochschulsymphonieorchester (Munich), Marcus Bosch (conductor); Copyright CC BY-SA 4.0; Misc. Notes Live recording at the University of Music and Theatre Munich 2020. Page HTML retrieved directly (the listing is scripted in a browser).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "tags",
+      "title": "Embedded ID3 tags of the cached MP3 (ffprobe)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/HSO_Bruckner-7_01.mp3",
+      "locator": "artist “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch”; comment “Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020”; copyright “CC BY-SA 4.0”; date 2020; title “Anton Bruckner, Sinfonie Nr. 7 E-Dur (WAB 107), 1. Satz: Allegro moderato”; about 128 kbit/s.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AHSO%20Bruckner-7%2001.mp3&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration, MIME type and original MP3 URL.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

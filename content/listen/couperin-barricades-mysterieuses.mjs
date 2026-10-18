@@ -1,0 +1,15 @@
+export default {
+  id: 'couperin-barricades-mysterieuses',
+  composer: 'couperin',
+  order: 2,
+  work: 'Les Barricades mystérieuses',
+  movement: '',
+  year: '1717, publication',
+  key: 'B♭ major',
+  forces: 'Solo piano; originally harpsichord',
+  performers: 'Marcelle Meyer, piano',
+  recorded: 'Late 1953 or January 1954; Salle Adyar, Paris (Commons attribution)',
+  source: { file: 'File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac' },
+  intro: 'Couperin lets notes overlap across changing basses, softening the edges between chords. Marcelle Meyer plays this harpsichord rondeau on piano; follow the returning refrain through the interlocking parts.',
+  question: 'How can a refrain return clearly when the voices keep overlapping?',
+};

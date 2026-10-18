@@ -1,0 +1,180 @@
+{
+  "id": "chopin-nocturne-op15-2-paderewski",
+  "work": {
+    "title": "Nocturne in F♯ major, Op. 15 No. 2",
+    "catalogue": "Op. 15 No. 2",
+    "movement": "Larghetto",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The standard solo-piano work is identified; edition, individual readings and completeness have not been established by a score audit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Ignacy Jan Paderewski",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer named on the selected recording source."
+  },
+  "session": {
+    "date": {
+      "value": "1917-05-14",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "carrier"
+      ],
+      "note": "DAHR identifies the issued master as take 1 recorded on this day; later unissued takes are separate.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York, New York, United States",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "carrier"
+      ],
+      "note": "City documented by the DAHR take table and upstream carrier record; individual venue not established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice / Gramophone; original Victor master",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "carrier",
+        "dahr"
+      ],
+      "note": "The selected digital source is the HMV carrier listed below; DAHR links it to the Victor master."
+    },
+    "catalogue": {
+      "value": "HMV DB 375 / Gramophone 05616; equivalent Victor 74529",
+      "status": "documented",
+      "sourceIds": [
+        "carrier",
+        "dahr"
+      ],
+      "note": "These are issue numbers, not separate recorded performances."
+    },
+    "matrixTakeSides": {
+      "value": "C-19781, take 1; stamper/issue markings 05616 and A 19781",
+      "status": "documented",
+      "sourceIds": [
+        "carrier",
+        "dahr"
+      ],
+      "note": "DAHR explicitly links take 1 to Gramophone DB-375 and 05616 as well as Victor 74529; upstream carrier record supplies the additional markings."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Public Domain Project / Swiss Foundation Public Domain; Martin Osterwalder collection",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "carrier"
+      ],
+      "note": "Repository and collection attribution. The consulted record does not establish a named transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload or reissue dates are not used as session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Equalisation, editing, noise reduction, pitch correction and other processing are not documented; no absence of processing is implied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/PDP-CH_-_Nocturne_in_F-sharp_major%2C_Op._15%2C_No._2_-_Chopin_-_Ignacy_Jan_Paderewski_-_Hmv-db375-05616.flac/PDP-CH_-_Nocturne_in_F-sharp_major%2C_Op._15%2C_No._2_-_Chopin_-_Ignacy_Jan_Paderewski_-_Hmv-db375-05616.flac.mp3",
+    "sourceChain": [
+      "carrier",
+      "source"
+    ],
+    "format": "MP3 streaming derivative of source flac",
+    "durationSeconds": 207.993
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; the nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Public domain in the United States: first published 1917",
+      "status": "documented",
+      "sourceIds": [
+        "carrier",
+        "dahr",
+        "source"
+      ],
+      "note": "The upstream carrier page explicitly gives first release 1917 in the United States; DAHR identifies the matching master and issues. Eligibility rests on the pre-1926 sound-recording publication rule, not the composition-only PD-old template."
+    },
+    "creditLine": "Ignacy Jan Paderewski, piano; New York, 14 May 1917; C-19781 take 1, HMV DB 375 / Gramophone 05616. Public Domain Project, Martin Osterwalder collection, via Wikimedia Commons. Historical recording public domain in the United States; MP3 derivative of the FLAC transfer.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_-_Chopin_-_Ignacy_Jan_Paderewski_-_Hmv-db375-05616.flac",
+      "locator": "Performer, description, upstream source and recording-licence statement.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Nocturne in F♯ major, Op. 15 No. 2",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/173",
+      "locator": "Work identity, date, publication and formal commentary.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "dahr",
+      "title": "DAHR: Victor matrix C-19781",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700004863/C-19781-Nocturne_in_F_sharp_major",
+      "locator": "Take 1 row: 14 May 1917, New York; Victor 74529, Gramophone 05616 and DB-375.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "carrier",
+      "title": "Public Domain Project: HMV DB375/05616",
+      "url": "http://pool.publicdomainproject.org/index.php?title=Hmv-db375-05616",
+      "locator": "Audio track information: performer, date, location, matrix, first US release in 1917; Martin Osterwalder collection.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "interpretation",
+      "title": "Jonathan Woolf: Paderewski — The Complete American Victor Recordings",
+      "url": "https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm",
+      "locator": "Review describes dislocation between hands, arpeggiation and rubato; track list includes this 1917 Nocturne.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "rubato",
+      "title": "Ignacy Jan Paderewski: Tempo Rubato (1909)",
+      "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/",
+      "locator": "Essay in Henry T. Finck, Success in Music, reproduced by USC Polish Music Center.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-09-29"
+  }
+}

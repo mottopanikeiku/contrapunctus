@@ -1,0 +1,84 @@
+{
+  "id": "grieg-wedding-day",
+  "title": "Grieg’s Wedding Day, abridged and complete",
+  "composer": null,
+  "work": "Wedding Day at Troldhaugen, Op. 65 No. 6",
+  "question": "How does Grieg’s own pacing compare with Vetter’s in music both recordings actually share?",
+  "intro": "Grieg recorded an abridged version of his piano piece in Paris on 2 May 1903; Harald Vetter’s complete performance dates from 2006. The historical disc is US public domain, and Vetter’s recording carries CC BY 4.0 at both IMSLP and Commons. Only the shared opening passage is mapped: Grieg 0:18–1:28 against Vetter 0:21.6–1:56.31, excluding the unreliable opening, cut ending and modern performance’s contrasting middle. Historical pitch instability and undocumented transfer choices limit exact tempo comparisons; the two whole-file durations are not comparable.",
+  "group": "composer-performers",
+  "recordings": [
+    {
+      "listen": "grieg-wedding-day-grieg-1903",
+      "label": "Edvard Grieg · composer at the piano",
+      "year": 1903,
+      "note": "Acoustic disc, matrix 2149F; abridged. Only 0:18–1:28 is aligned; the complete historical side remains playable."
+    },
+    {
+      "listen": "grieg-wedding-day-vetter-2006",
+      "label": "Harald Vetter · complete performance",
+      "year": 2006,
+      "note": "CC BY 4.0. Complete performance; only 0:21.6–1:56.31 participates in the comparison. Do not equate whole-track durations."
+    }
+  ],
+  "reference": "grieg-wedding-day-grieg-1903",
+  "passages": [
+    {
+      "label": "Shared phrase",
+      "t": 18,
+      "note": "Begin within the music both versions share; compare the spacing of attacks rather than overall file length."
+    },
+    {
+      "label": "Growing recorded presence",
+      "t": 52,
+      "note": "Follow continuity through a stronger recorded span. The map follows the phrase, not finger or pedal movements."
+    },
+    {
+      "label": "Later opening crest",
+      "t": 74,
+      "note": "Compare phrase lengths through the crest. The map stops before the historical side’s shortened ending becomes ambiguous."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Commons — Grieg’s 1903 acoustic recording",
+      "url": "https://commons.wikimedia.org/wiki/File:Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B(1903).ogg"
+    },
+    {
+      "title": "IMSLP — Grieg’s matrix 2149F and Vetter’s CC BY recording",
+      "url": "https://imslp.org/wiki/Lyric_Pieces,_Op.65_(Grieg,_Edvard)"
+    },
+    {
+      "title": "Marston — Grieg discography and early-disc pitch instability",
+      "url": "https://www.marstonrecords.com/products/legendary-piano"
+    },
+    {
+      "title": "Commons — Harald Vetter, 2006; recording-date metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg"
+    },
+    {
+      "title": "Maureen Buja — Wedding Day’s composition date and contrasting sections",
+      "url": "https://interlude.hk/silver-memories-grieg-wedding-day-at-troldhaugen/"
+    },
+    {
+      "title": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "alignment": {
+    "scope": "Shared opening material only; the complete source recordings remain unedited. No whole-work tempo ratio.",
+    "reference": "grieg-wedding-day-grieg-1903",
+    "trims": {
+      "grieg-wedding-day-grieg-1903": [
+        18,
+        88
+      ],
+      "grieg-wedding-day-vetter-2006": [
+        21.6,
+        116.31
+      ]
+    },
+    "medianConfidence": 0.898,
+    "minimumConfidence": 0.803,
+    "note": "An exploratory 4–94 / 5–120 second map had low-confidence opening points and a plateau near reference 90–91.5 seconds. Inspection against the measured 46/62-second and 74/98-second changes supported the shared passage but not the shortened ending. The published map excludes both uncertain ends; its remaining path was inspected and has no point below 0.8. No pitch transposition or audio edit was applied."
+  }
+}

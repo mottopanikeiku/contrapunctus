@@ -116,12 +116,14 @@
       "note": "Giacomo Puccini died in 1924. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": null,
-      "status": "unknown",
+      "value": "Rule 2 — sound recording public domain in the United States (first published by 1925).",
+      "status": "documented",
       "sourceIds": [
-        "commons"
+        "rights-audit-commons",
+        "rights-audit-us-term",
+        "rights-audit-muzio-discography"
       ],
-      "note": "Commons applies the general PD-old tag, but gives no separate sound-recording-rights rationale. The attributed 1911 performance date does not by itself document first publication or the transfer’s rights."
+      "note": "Commons attributes the Muzio performance to 1911 but supplies only general PD-old, not a recording licence. The UCSB-published Bolig discography identifies the original commercial recording as matrix 298aj, recorded in Milan on 20 June 1911, issued as HMV 053264 and Victor 55028. Rule 2 uses this pre-1926 original recording/issue identification, not Puccini’s death or the modern YouTube upload. The exact first-release day is not supplied by that entry."
     },
     "creditLine": "Giacomo Puccini: La bohème, Act I, Sì, mi chiamano Mimì — Claudia Muzio, soprano, attributed to 1911. Via Wikimedia Commons from a cited YouTube source; carrier and transfer unidentified. Commons applies PD-old; separate recording-rights evidence is incomplete.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/File:Puccini_Mi_chiamano_Mim%C3%AC_par_Claudia_Muzio.ogg#Licensing"
@@ -147,6 +149,27 @@
       "url": "https://www.youtube.com/watch?v=AGfXCEGnHyI",
       "locator": "Upstream URL in the Commons Source field. Retrieval supplied no transcript or usable discographic description; no transfer credit or carrier identity was independently recovered.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Puccini Mi chiamano Mimì par Claudia Muzio.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1258921827%7C661044101%7C642919319%7C1111732218%7C509438495%7C999902261%7C718748653%7C901919689%7C1204343741%7C718302093&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Puccini Mi chiamano Mimì par Claudia Muzio.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-us-term",
+      "title": "US Copyright Office — terms for pre-1972 sound recordings",
+      "url": "https://www.copyright.gov/music-modernization/faq.html",
+      "locator": "Title II: first publication determines the term; 1923–1946 recordings receive 95 years plus five years. Publications through 1925 have expired by 1 January 2026.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-muzio-discography",
+      "title": "John R. Bolig — The Victor Discography: Green, Blue, and Purple Labels",
+      "url": "https://adp-assets.library.ucsb.edu/BoligGreenBluePurple.pdf",
+      "locator": "Blue Label Double-Sided (12-inch), printed p. 130, entry Victor 55028: Muzio, Mi chiamano Mimi, matrix 298aj, Milan 20 June 1911; HMV 053264. Opened full text via reader fallback; no exact release day is printed.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

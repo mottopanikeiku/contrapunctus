@@ -1,0 +1,297 @@
+{
+  "id": "satie",
+  "places": [
+    {
+      "name": "Honfleur",
+      "country": "Second French Empire (today France)",
+      "from": "1866-05-17",
+      "kind": "born",
+      "what": "Born in the Norman port to Alfred Satie and Jane Leslie Anton.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 49.4194,
+      "lon": 0.2325
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1870",
+      "kind": "childhood",
+      "what": "Lived with his parents before his mother’s death.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1872",
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Honfleur",
+      "country": "French Third Republic (today France)",
+      "from": "1872",
+      "kind": "childhood",
+      "what": "Lived with his grandparents and learned music from a local organist.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1878",
+      "lat": 49.4194,
+      "lon": 0.2325
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1879",
+      "kind": "studied",
+      "what": "First period of piano study at the Conservatoire.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1882",
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1885",
+      "kind": "studied",
+      "what": "Returned to the Conservatoire before entering military service.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1886",
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Montmartre Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1887",
+      "kind": "worked",
+      "what": "Played in cabarets including the Chat Noir and Auberge du Clou.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Montmartre%20Paris&format=json&limit=1"
+        }
+      ],
+      "to": "1898",
+      "work": "Gymnopédies; Gnossiennes",
+      "lat": 48.8854619,
+      "lon": 2.3391535
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1892",
+      "kind": "worked",
+      "what": "Provided music for Péladan’s Rosicrucian events.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Le Fils des étoiles",
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Arcueil",
+      "country": "French Third Republic (today France)",
+      "from": "1898",
+      "kind": "lived",
+      "what": "Lived in a small room at 22 rue Cauchy.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Arcueil&format=json&limit=1"
+        }
+      ],
+      "to": "1925",
+      "lat": 48.8064996,
+      "lon": 2.3366502
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1905",
+      "kind": "studied",
+      "what": "Studied counterpoint and composition at the Schola Cantorum.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1912",
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Théâtre du Châtelet Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1917-05-18",
+      "kind": "premiere",
+      "what": "The Ballets Russes introduced Parade, with designs by Picasso.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Th%C3%A9%C3%A2tre%20du%20Ch%C3%A2telet%20Paris&format=json&limit=1"
+        }
+      ],
+      "work": "Parade",
+      "lat": 48.8577942,
+      "lon": 2.3462635
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1920",
+      "kind": "premiere",
+      "what": "The orchestral Socrate reached the concert hall.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Socrate",
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Théâtre des Champs-Élysées Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1924-12-04",
+      "kind": "premiere",
+      "what": "Relâche premiered with René Clair’s film Entr’acte.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Th%C3%A9%C3%A2tre%20des%20Champs-%C3%89lys%C3%A9es%20Paris&format=json&limit=1"
+        }
+      ],
+      "work": "Relâche; Entr’acte",
+      "lat": 48.8658174,
+      "lon": 2.3029039
+    },
+    {
+      "name": "Arcueil",
+      "country": "French Third Republic (today France)",
+      "from": "1925",
+      "kind": "buried",
+      "what": "Buried in the municipal cemetery.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Arcueil&format=json&limit=1"
+        }
+      ],
+      "lat": 48.8064996,
+      "lon": 2.3366502
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1925-07-01",
+      "kind": "died",
+      "what": "Died at the Hôpital Saint-Joseph.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Erik Satie",
+          "url": "https://en.wikipedia.org/w/index.php?title=Erik_Satie&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 48.8567,
+      "lon": 2.3522
+    }
+  ]
+}

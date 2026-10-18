@@ -1,0 +1,65 @@
+{
+  "id": "rachmaninoff-concerto-2-moderato",
+  "title": "Rachmaninoff and Richter: the Moderato opening",
+  "composer": "rachmaninoff",
+  "work": "Piano Concerto No. 2, Op. 18 — I. Moderato, opening-side comparison only",
+  "question": "How do the composer and Richter pace the opening when the piano moves between chords, accompaniment and melody?",
+  "intro": "Rachmaninoff recorded the concerto with Stokowski and the Philadelphia Orchestra on 10 April 1929; the reference is Richter with Wisłocki and the Warsaw National Philharmonic Orchestra in 1959. This comparison uses only HMV D.B. 1333’s first side, matching Richter’s opening 0–207 seconds to 3–179 seconds of the historical transfer, not reconstructing the complete movement. The provisional map has median chroma confidence 0.934 after a one-semitone adjustment to the historical pitch-class features alone. Playback remains untouched, so the timing describes these supplied transfers rather than speed-corrected historical performances; the Archive also reports wow and minor distortion.",
+  "group": "composer-performers",
+  "recordings": [
+    {
+      "listen": "rachmaninoff-concerto-2-moderato-rachmaninoff-1929-side1",
+      "label": "Rachmaninoff / Stokowski · first side",
+      "year": 1929,
+      "note": "HMV D.B. 1333; opening side only, not a complete movement; independent George Blood transfer."
+    },
+    {
+      "listen": "rachmaninoff-concerto-2-moderato",
+      "label": "Richter / Wisłocki",
+      "year": 1959,
+      "note": "Existing complete-movement recording; only its opening overlaps the historical side."
+    }
+  ],
+  "reference": "rachmaninoff-concerto-2-moderato",
+  "passages": [
+    {
+      "label": "The opening’s moving layers",
+      "t": 30,
+      "note": "Follow the longer orchestral line against the piano’s moving accompaniment; compare their balance without mistaking transfer equalisation for different scoring."
+    },
+    {
+      "label": "Phrasing within the opening",
+      "t": 100,
+      "note": "Compare the connection between successive gestures, listening for continuity through changing weight rather than treating every small note as an accent."
+    },
+    {
+      "label": "The quieter continuation",
+      "t": 150,
+      "note": "Listen to the piano’s longer line in the quieter span; compare phrase length, not the absolute volume of the two transfers."
+    }
+  ],
+  "alignment": {
+    "status": "provisional",
+    "timeBasis": "Absolute seconds in each supplied recording; trim ends are exclusive, and no mapping is extrapolated beyond the sampled coverage.",
+    "maps": [
+      {
+        "listen": "rachmaninoff-concerto-2-moderato-rachmaninoff-1929-side1",
+        "trimA": [0, 207],
+        "trimB": [3, 179],
+        "coverageA": [0, 206.5],
+        "coverageB": [3, 177.83],
+        "medianConfidence": 0.934,
+        "transposeB": 1,
+        "scope": "Opening 78-rpm side only. Three seconds of historical lead-in and the final side-end material are excluded from alignment; neither audio source is edited or concatenated.",
+        "pitchEvidence": "cache/analysis/rachmaninoff-concerto-2-moderato-rachmaninoff-1929-side1.txt repeatedly estimates C-sharp-minor pitch content where the reference report estimates C minor. tools/compare.py --transpose-b 1 rolls historical chroma down one semitone, not the audio. This does not establish original tuning or a uniform transfer-speed error.",
+        "inspection": "Ten-second path samples advance through [30,29.19], [100,83.96] and [150,127.46]. Early noisy windows and the map edges are not used for precise tempo claims. Confidence is pitch-class similarity, not proof of beat-exact correspondence."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "DAHR: CVE-48963, take 3, Philadelphia session and HMV issue", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800022749" },
+    { "title": "Internet Archive: HMV D.B. 1333 first side, transfer and technical notes", "url": "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a" },
+    { "title": "Wikimedia Commons: Richter, Wisłocki and Warsaw, 1959; PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_1._Moderato_(Sviatoslav_Richter,_Stanisław_Wisłocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac" },
+    { "title": "Generated opening alignment: absolute coordinates, trims, feature transposition and confidence", "url": "../assets/data/compare/rachmaninoff-concerto-2-moderato/rachmaninoff-concerto-2-moderato-rachmaninoff-1929-side1.json" }
+  ]
+}

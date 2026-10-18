@@ -1,0 +1,313 @@
+{
+  "id": "fanny-hensel",
+  "places": [
+    {
+      "name": "Hamburg",
+      "country": "Free Imperial City of Hamburg (today Germany)",
+      "lat": 53.55,
+      "lon": 10,
+      "from": "1805-11-14",
+      "to": "1811",
+      "kind": "born",
+      "what": "Born the eldest of four children of Abraham Mendelssohn and Lea Salomon; the family left in 1811.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        },
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1811",
+      "to": "1847-05-14",
+      "kind": "childhood",
+      "what": "Family moved to Berlin to escape French occupation; she studied there with Ludwig Berger, then Zelter from 1819.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1816",
+      "kind": "studied",
+      "what": "During a family stay she and Felix briefly studied with the pianist Marie Bigot de Morogues.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Sing-Akademie, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1820-10-01",
+      "kind": "studied",
+      "what": "Joined Zelter’s Sing-Akademie with Felix and Rebecka; both siblings had composition lessons from Zelter from 1819.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Neue Promenade 7, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1821",
+      "to": "1825",
+      "kind": "lived",
+      "what": "Her father founded the Sonntagsmusiken here, so the children could play before an audience; moved in 1825.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        }
+      ]
+    },
+    {
+      "name": "Leipziger Straße 3, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5097,
+      "lon": 13.3804,
+      "from": "1825",
+      "to": "1847-05-14",
+      "kind": "lived",
+      "what": "The family house, bought 1825, with a garden hall for concerts; she and Hensel lived in the garden wing.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Preußisches Herrenhaus — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Preu%C3%9Fisches_Herrenhaus"
+        }
+      ]
+    },
+    {
+      "name": "Parochialkirche, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5169,
+      "lon": 13.4131,
+      "from": "1829-10-03",
+      "kind": "lived",
+      "what": "Married the painter Wilhelm Hensel; she wrote an organ prelude for the ceremony.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Leipziger Straße 3, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5097,
+      "lon": 13.3804,
+      "from": "1831",
+      "to": "1847",
+      "kind": "worked",
+      "what": "Revived the Sonntagsmusiken in the garden hall, conducting larger works and performing her own compositions.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        }
+      ]
+    },
+    {
+      "name": "Königliches Schauspielhaus, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5136,
+      "lon": 13.3922,
+      "from": "1838-02-19",
+      "kind": "worked",
+      "what": "One of her few public appearances: she played Felix’s Piano Concerto No. 1 in G minor.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Milan",
+      "country": "Italian states (today Italy)",
+      "lat": 45.4669,
+      "lon": 9.19,
+      "from": "1839-09",
+      "kind": "travelled",
+      "what": "First stage in her only extended journey through Italy, with Wilhelm and their nine-year-old son Sebastian.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        }
+      ]
+    },
+    {
+      "name": "Rome",
+      "country": "Papal States (today Italy)",
+      "lat": 41.908,
+      "lon": 12.483,
+      "from": "1839-11",
+      "to": "1840-06",
+      "kind": "travelled",
+      "what": "Her longest stay; she played in private circles around the Villa Medici and impressed the young Gounod.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1840-09",
+      "kind": "lived",
+      "what": "Returned from Italy to resume her Sonntagsmusiken; <i>Das Jahr</i> followed in 1841.",
+      "work": "Das Jahr (1841)",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        }
+      ]
+    },
+    {
+      "name": "Florence",
+      "country": "Grand Duchy of Tuscany (today Italy)",
+      "lat": 43.7714,
+      "lon": 11.2542,
+      "from": "1845-01",
+      "to": "1845-08",
+      "kind": "travelled",
+      "what": "Went with Wilhelm to support her sick sister Rebecka Dirichlet; a second visit to Italy.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        }
+      ]
+    },
+    {
+      "name": "Leipziger Straße 3, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5097,
+      "lon": 13.3804,
+      "from": "1846",
+      "kind": "worked",
+      "what": "Decided, after two publishers approached her, to publish a first collection of songs as her Op. 1.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        },
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1847-05-14",
+      "kind": "died",
+      "what": "Died suddenly of a stroke while rehearsing one of her brother’s cantatas for a Sunday concert.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Dreifaltigkeitsfriedhof I, Kreuzberg, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.4953,
+      "lon": 13.3919,
+      "from": "1847-05",
+      "kind": "buried",
+      "what": "Buried beside her parents in the family grave, now a Berlin honorary grave; Felix joined her that year.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fanny Hensel — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Fanny_Hensel"
+        },
+        {
+          "title": "Fanny Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
+        }
+      ]
+    }
+  ]
+}

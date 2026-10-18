@@ -1,0 +1,17 @@
+export default {
+  id: 'mahler-das-lied-abschied',
+  composer: 'mahler',
+  order: 45,
+  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 6, of: 6 },
+  work: 'Das Lied von der Erde',
+  movement: 'VI. Der Abschied — Schwer',
+  year: '1908–09',
+  key: 'C minor to C major',
+  forces: 'Tenor, alto and orchestra',
+  performers: 'skeleton',
+  recorded: '1939-10-05',
+  source: { archive: { item: '06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193', file: '06 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Kerstin THORBORG (Alt) - 6.Der Abschied.mp3' } },
+  intro: 'skeleton',
+  sections: [{ t: 0, label: 'All', m: 'A' }],
+  cues: [{ t: 0, kind: 'life', title: 'Skeleton', text: 'Skeleton.', basis: 'documented', precision: 'passage' }],
+};

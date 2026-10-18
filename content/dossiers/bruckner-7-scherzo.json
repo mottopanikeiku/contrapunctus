@@ -117,12 +117,12 @@
       "note": "The notice applies PD-old-auto-expired with Bruckner’s death year 1896. It does not license a modern score edition."
     },
     "recording": {
-      "value": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "value": "Rule 1 — recording licence/release: CC BY-SA 4.0 International.",
       "status": "documented",
       "sourceIds": [
-        "commons"
+        "rights-audit-commons"
       ],
-      "note": "The recording subsection gives CC BY-SA 4.0; the separate public-domain composition tag must not replace this recording licence."
+      "note": "The recording field of Commons Copyright information explicitly contains Cc-by-sa-4.0 for the University of Music and Theatre Munich performance attributed to 2020. The composition’s separate public-domain tag is not the recording basis."
     },
     "creditLine": "Anton Bruckner: Symphony No. 7, III. Scherzo — University of Music and Theatre Munich, as credited on Wikimedia Commons. Recording: CC BY-SA 4.0; Commons cites IMSLP as its source.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -148,6 +148,13 @@
       "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)",
       "locator": "General Information: work identity and publication history. Commons names this page as its audio source; the extracted page did not expose the specific Munich performance entry.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:HSO Bruckner-7 03.mp3",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1142651921&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:HSO Bruckner-7 03.mp3; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

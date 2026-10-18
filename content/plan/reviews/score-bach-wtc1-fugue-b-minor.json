@@ -1,0 +1,63 @@
+{
+  "id": "bach-wtc1-fugue-b-minor",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, bar-map, provenance and visual review; not aural review.",
+  "defects": [],
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/bach-wtc1-fugue-b-minor-checks.json",
+    "primaryMedianSeconds": 0.023462674543509365,
+    "primaryP95Seconds": 0.050488632295014185,
+    "maximumAnchorDeviationSeconds": 0.01595685642678124,
+    "maximumLocalRegionMedianSeconds": 0.046006385010141315,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 76,
+    "distinctEngravedBars": 76,
+    "sheetPages": 4,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 25,
+    "unresolvedListenPointers": []
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/bach-wtc1-fugue-b-minor-0-8.78513.png",
+      "work/bach-wtc1-fugue-b-minor-16-24.png",
+      "work/bach-wtc1-fugue-b-minor-32-40.png",
+      "work/bach-wtc1-fugue-b-minor-48-56.png",
+      "work/bach-wtc1-fugue-b-minor-144-152.png",
+      "work/bach-wtc1-fugue-b-minor-152-160.png",
+      "work/bach-wtc1-fugue-b-minor-160-168.png",
+      "work/bach-wtc1-fugue-b-minor-250.398-262.398.png",
+      "work/bach-wtc1-fugue-b-minor-296-304.png",
+      "work/bach-wtc1-fugue-b-minor-461.118-473.118.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified in the inspected pitch-energy overlays. Earlier stale Beethoven endpoint PNGs were superseded by the final-candidate overlay set."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1563",
+    "opened": true,
+    "edition": "Breitkopf & Härtel, 1866",
+    "encoder": "Itay Perl",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Continuous 1–76 traversal, no inserted repeat. Four source variables and explicit cross-voice tie handling preserve symbolic identity; this is not aural verification.",
+    "physicalPerformingEdition": "Unknown; the source edition is identified, not claimed as the performer’s copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label must remain."
+}

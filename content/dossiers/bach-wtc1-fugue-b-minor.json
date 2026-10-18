@@ -119,14 +119,12 @@
       "note": "The composer died in 1750. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "CC0 1.0 Universal — public-domain dedication.",
+      "value": "Rule 1 — recording licence/release: CC0 1.0 Universal.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data",
-        "album-metadata"
+        "rights-audit-commons"
       ],
-      "note": "The performer’s project and the mirror explicitly identify the release as CC0."
+      "note": "Commons applies cc-zero to Kimiko Ishizaka’s recording; the file description dates the digital release to 19 March 2015. This is a recording dedication, not an inference from Bach’s death."
     },
     "creditLine": "Johann Sebastian Bach, Fugue in B minor, BWV 869; Kimiko Ishizaka, piano. Produced by Anne-Marie Sylvestre. Open Well-Tempered Clavier; recording released under CC0 1.0 Universal; streamed from Wikimedia Commons.",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -180,6 +178,13 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 48 Fugue No. 24 in B minor, BWV 869.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
+      "locator": "Opened file-description wikitext for File:Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 48 Fugue No. 24 in B minor, BWV 869.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

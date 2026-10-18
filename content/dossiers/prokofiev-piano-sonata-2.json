@@ -118,13 +118,12 @@
       "note": "The CC BY-SA tag is a claim about this recording, not permission from Prokofiev’s estate. Composition status in other jurisdictions, including any special extensions, has not been established here."
     },
     "recording": {
-      "value": "Creative Commons Attribution–ShareAlike 4.0",
+      "value": "Rule 1 — recording licence/release: CC BY-SA 4.0 International.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured"
+        "rights-audit-commons"
       ],
-      "note": "Commons and structured P275 agree on this licence. No separate permission document from the holding archive or recording rights holder is linked; the authority for the grant has not been independently established."
+      "note": "Commons explicitly applies cc-by-sa-4.0 to the E. M. Zinger recording dated 8 October 1962 and credits the Glinka conservatory archive as source. This records the file page’s recording licence, not an independently recovered rights-holder contract."
     },
     "creditLine": "E. M. Zinger, piano. Source archive: Архив НГК им. М. И. Глинки, via Wikimedia Commons. CC BY-SA 4.0 as stated by Commons; the underlying rights-holder permission is not independently verified.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -164,6 +163,13 @@
       "url": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
       "locator": "Published works before 1931 are public domain in the United States as of 2026; the template expressly excludes sound recordings.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Prokofiev - Sonata No. 2 (E.M. Zinger).ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1258921827%7C661044101%7C642919319%7C1111732218%7C509438495%7C999902261%7C718748653%7C901919689%7C1204343741%7C718302093&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Prokofiev - Sonata No. 2 (E.M. Zinger).ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

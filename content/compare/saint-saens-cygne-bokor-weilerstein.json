@@ -1,0 +1,27 @@
+{
+  "id": "saint-saens-cygne-bokor-weilerstein",
+  "title": "Bokor and Weilerstein’s swan",
+  "composer": null,
+  "group": "century",
+  "work": "Camille Saint-Saëns: Le Cygne",
+  "question": "How do the two cellists sustain a melodic phrase above the piano’s repeated attacks?",
+  "intro": "Judith Bokor’s Columbia F 87 side is dated only circa 1925 in its upstream discography; the exact day and catalogue number on Commons conflict with that source. Alisa Weilerstein and Jason Yoder played Le Cygne at the White House on 4 November 2009. The provisional map covers Bokor 0–150 seconds against Weilerstein 4–155 seconds, excluding opening room sound and post-performance sound; a one-semitone feature correction aligns the pitch profiles without changing either audio stream. Bokor’s recording is admitted under European recording-rights expiry, not composition-only tags or an established US first-publication date.",
+  "recordings": [
+    { "listen": "saint-saens-cygne-bokor", "label": "Judith Bokor", "year": 1925, "note": "Circa 1925; unidentified pianist. Exact session date disputed; historical Columbia D 9758/F 87, European recording-rights expiry only." },
+    { "listen": "saint-saens-cygne-weilerstein", "label": "Alisa Weilerstein and Jason Yoder", "year": 2009, "note": "White House, 4 November; cello and one piano. Performance CC BY 3.0; government recording." }
+  ],
+  "reference": "saint-saens-cygne-bokor",
+  "passages": [
+    { "label": "The sustained melody", "t": 10, "note": "Follow the cello between the piano’s attacks. Vibrato and slides are listening questions, not machine-measured differences." },
+    { "label": "Early expansion", "t": 32, "note": "Compare the contour of the first swell, not the absolute playback level of the two transfers." },
+    { "label": "Middle crest", "t": 70, "note": "Listen through the crest into the quieter phrase beyond it; these are approximate corresponding passages." },
+    { "label": "Later swell", "t": 105, "note": "Follow the next ascent and release, attending to accompaniment as well as melody." },
+    { "label": "Closing withdrawal", "t": 135, "note": "Compare the musical release before the sources’ different surface or post-performance sounds. The map stops before those tails." }
+  ],
+  "sources": [
+    { "title": "Bokor Commons file and upstream attribution", "url": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac" },
+    { "title": "Bokor upstream discography: F 87 circa 1925, D 9758", "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309" },
+    { "title": "Weilerstein and Yoder: event and separate performance/recording rights", "url": "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg" },
+    { "title": "Le Cygne: instrumentation and written texture", "url": "https://en.wikipedia.org/wiki/Le_cygne" }
+  ]
+}

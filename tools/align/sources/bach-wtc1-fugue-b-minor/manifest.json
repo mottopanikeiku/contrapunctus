@@ -1,15 +1,13 @@
 {
   "mutopia": 1563,
-  "base": "BachJS/BWV869/bwv869b/bwv869b",
-  "zip": true,
   "title": "Das Wohltemperierte Clavier I, Fuga XXIV, BWV 869",
   "edition": "Breitkopf & Härtel, 1866",
   "encoder": "Itay Perl",
-  "revision": "Mutopia-2015/09/01-1563",
   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1563",
   "license": "Public Domain",
   "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
-  "accessed": "2026-10-16",
+  "main": "bwv869b-lys/bwv869b.ly",
+  "midi": "bwv869b.mid",
   "downloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV869/bwv869b/bwv869b-lys.zip",
@@ -21,5 +19,6 @@
       "file": "bwv869b.mid",
       "sha256": "3385d3bb181fd878d023e4a06d60f260b798918a5d40804d80e0c195b9f89f42"
     }
-  ]
+  ],
+  "accessed": "2026-10-17"
 }

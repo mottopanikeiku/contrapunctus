@@ -120,13 +120,13 @@
       "note": "The musical-composition tag is PD-old-auto-expired, deathyear=1893. The separate Lawrence Odom arrangement is tagged as a U.S. Air Force federal-government work; no worldwide claim is made for that arrangement."
     },
     "recording": {
-      "value": "Public domain in the United States: U.S. Air Force arrangement, performance and recording.",
+      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Air Force (US-law basis).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured"
+        "rights-audit-commons",
+        "rights-audit-us-government"
       ],
-      "note": "The description reports the Air Force’s public-domain representation; the source page was inaccessible during this research. This does not extend federal-government status to Tchaikovsky’s underlying composition."
+      "note": "Commons expressly applies PD-USGov-Military-Air Force to the recording or official federal-government performance, not only to the composition. Under 17 U.S.C. § 105(a), official US Government works are not protected by US copyright. This is rule 1’s recording-specific public-domain release route, not rule 2’s publication-date route; it does not establish worldwide public-domain status."
     },
     "creditLine": "United States Air Force Band, Concert Band; Lawrence Odom, arranger. Christmas on Stage and Screen (1996), track 6, via Wikimedia Commons. Arrangement and recording: U.S. federal-government work, public domain in the United States.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force"
@@ -159,6 +159,20 @@
       "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
       "locator": "The source cited by Commons; retrieval returned HTTP 403. The Commons description transcribes the Air Force’s file metadata and explicitly warns that it has not necessarily been independently verified.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-us-government",
+      "title": "17 U.S.C. § 105 — United States Government works",
+      "url": "https://www.law.cornell.edu/uscode/text/17/105",
+      "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

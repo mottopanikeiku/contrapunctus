@@ -6,6 +6,7 @@ export default {
   order: 1,
   work: 'Symphony No. 9 in E minor “From the New World”, Op. 95',
   movement: 'II. Largo',
+  set: { id: 'dvorak-symphony-9', title: 'Symphony No. 9 in E minor “From the New World”, Op. 95', part: 2, of: 4 },
   year: '1893',
   key: 'D♭ major',
   forces: 'Orchestra with cor anglais',

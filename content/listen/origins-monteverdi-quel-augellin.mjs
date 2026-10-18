@@ -1,0 +1,15 @@
+export default {
+  id: 'origins-monteverdi-quel-augellin',
+  composer: 'origins-monteverdi',
+  order: 1,
+  work: 'Quel augellin che canta',
+  movement: 'Madrigals, Book IV · No. 13, SV 87',
+  year: '1603 publication',
+  key: '',
+  forces: 'Five-part unaccompanied vocal ensemble',
+  performers: 'The Tudor Consort; Alastair Carey, director',
+  recorded: '2 November 2005; Parroquial Church, Ordizia, Spain',
+  source: { file: 'File:The Tudor Consort - 05 - Claudio Monteverdi - Quel Augelin Che Canta.ogg' },
+  intro: 'Monteverdi’s five-part madrigal turns a bird’s song into an argument about love. Follow the exchanges between voices rather than looking for one permanent soloist.',
+  question: 'How can passing a figure between voices suggest a bird’s movement?',
+};

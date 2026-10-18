@@ -1,0 +1,176 @@
+{
+  "id": "mozart-clarinet-allegro",
+  "work": {
+    "title": "Clarinet Concerto in A major",
+    "catalogue": "K. 622",
+    "movement": "I. Allegro",
+    "version": {
+      "value": "Basset-clarinet performance on an instrument constructed by William McColl",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "soniventorum"
+      ],
+      "note": "The sources establish the instrument, not the edition or reconstruction of the solo line. The nineteenth-century score is used only for the shared orchestral fabric and broad form."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "William McColl",
+        "role": "basset clarinet"
+      },
+      {
+        "name": "University of Washington Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Abraham Kaplan",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "soniventorum"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "December 1987",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "soniventorum"
+      ],
+      "note": "The performer archive explicitly dates the performance to the month; no day is given.",
+      "precision": "month"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "soniventorum"
+      ],
+      "note": "An orchestra’s institutional affiliation is not proof of the venue; no recording venue is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original recording carrier and its label are not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical-carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identifiers are supplied; this is not a claim that none existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Al Goldstein collection / Pandora Music repository at ibiblio",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Collection and distribution credit, not proof that Goldstein was the transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The upload and software dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Ogg Vorbis encoding; software tag Xiph.Org libVorbis I 20020717",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The tag documents the encoder, not a 2002 performance or transfer. No tape restoration or noise-reduction process is identified."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_1._Allegro.ogg/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_1._Allegro.ogg.mp3",
+    "sourceChain": [
+      "soniventorum",
+      "commons"
+    ],
+    "format": "Wikimedia Commons MP3 derivative of an uploaded Ogg Vorbis recording",
+    "durationSeconds": 746.0693424036281
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Mozart composition is out of copyright under the ordinary life-plus-70 rule",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "eu-term"
+      ],
+      "note": "Mozart died in 1791. This term calculation does not clear an unidentified modern edition or reconstruction."
+    },
+    "recording": {
+      "value": "Rule 1 — CC BY-SA 2.0, through the documented EFF Open Audio License release",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons explicitly licenses this recording, not merely the eighteenth-century composition. Retain attribution and share-alike requirements."
+    },
+    "creditLine": "William McColl, self-built basset clarinet; University of Washington Symphony Orchestra, Abraham Kaplan; December 1987. Al Goldstein collection / Pandora Music at ibiblio, via Wikimedia Commons. CC BY-SA 2.0. Wikimedia supplies the MP3 transcode; no further audio editing by this guide.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Wolfgang Amadeus Mozart - Clarinet Concerto - 1. Allegro.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_1._Allegro.ogg",
+      "locator": "Summary, date, performer and instrument credit, explicit CC BY-SA 2.0/EFF OAL recording licence, file duration and embedded software tag.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "soniventorum",
+      "title": "Soni Ventorum Wind Quintet — archive",
+      "url": "https://soniventorum.com/soniventorum_archives.html",
+      "locator": "Mozart, Concerto in A major, K. 622: University Symphony, Abraham Kaplan and William McColl using an instrument of his own construction; performed December 1987.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1 and 8; ordinary copyright term for the original composition.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Mozart, Clarinet Concerto, Breitkopf & Härtel (1881)",
+      "url": "https://imslp.org/wiki/Clarinet_Concerto_in_A_major,_K.622_(Mozart,_Wolfgang_Amadeus)",
+      "locator": "Mozarts Werke XII/20, plate W.A.M. 622, pp. 207–264; ordinary-clarinet text, used for unchanged orchestral parts and broad structure, not McColl’s low-register reconstruction.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

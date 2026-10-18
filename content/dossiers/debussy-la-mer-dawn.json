@@ -116,12 +116,13 @@
       "note": "Commons separates composition (PD-old-100-expired) from arrangement (PD-USGov-Military-Air Force). The government-work assertion is United States-specific."
     },
     "recording": {
-      "value": "Public domain in the United States as an official United States Air Force recording",
+      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Air Force (US-law basis).",
       "status": "documented",
       "sourceIds": [
-        "commons"
+        "rights-audit-commons",
+        "rights-audit-us-government"
       ],
-      "note": "Commons applies PD-USGov-Military-Air Force separately to performance and recording, and says it relies on the Air Force’s public-domain representation; its metadata may not have been independently verified."
+      "note": "Commons expressly applies PD-USGov-Military-Air Force to the recording or official federal-government performance, not only to the composition. Under 17 U.S.C. § 105(a), official US Government works are not protected by US copyright. This is rule 1’s recording-specific public-domain release route, not rule 2’s publication-date route; it does not establish worldwide public-domain status."
     },
     "creditLine": "Claude Debussy: La Mer, I. De l’aube à midi sur la mer, transcribed by Lawrence Odom — United States Air Force Band, Concert Band. French Impressions, track 9. Recording: United States Air Force; public domain in the United States, via Wikimedia Commons.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force"
@@ -147,6 +148,20 @@
       "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
       "locator": "Upstream source named by Commons. Direct retrieval returned HTTP 403 on the access date; the track-specific attribution is documented by Commons, not independently confirmed here.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:La mer - I. De l'aube à midi sur la mer - Concert Band - United States Air Force Band.mp3",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
+      "locator": "Opened file-description wikitext for File:La mer - I. De l'aube à midi sur la mer - Concert Band - United States Air Force Band.mp3; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-us-government",
+      "title": "17 U.S.C. § 105 — United States Government works",
+      "url": "https://www.law.cornell.edu/uscode/text/17/105",
+      "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

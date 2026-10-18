@@ -1,0 +1,24 @@
+{
+  "mutopia": 517,
+  "title": "Cello Suite No. 1 in G major, BWV 1007 — I. Prélude",
+  "edition": "Schirmer, 1916",
+  "encoder": "Andreas Scherer",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=517",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "bwv1007-lys/bwv1007.ly",
+  "midi": "bwv1007.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1007/bwv1007/bwv1007-lys.zip",
+      "file": "bwv1007-lys.zip",
+      "sha256": "b3497b85f8351fb8812577c7faf49c157ef37876eadc71d76214f92ef10ccf6e"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1007/bwv1007/bwv1007-mids.zip",
+      "file": "bwv1007-mids.zip",
+      "sha256": "57fccefc88f315d90e479ce400a6647fc86fbc2b5cbda64f5f29e6c58ea143ce"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

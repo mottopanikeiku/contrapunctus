@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "id": "chopin-nocturne-op9-2-prati",
+  "source": {
+    "mutopia": 1590,
+    "title": "Nocturne in E♭ major, Op. 9 No. 2",
+    "edition": "G. Schirmer, New York, 1881",
+    "encoder": "Renato Biolcati Rinaldi",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1590",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "chopin_nocturne_op9_n2.ly",
+    "midi": "chopin_nocturne_op9_n2.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O9/chopin_nocturne_op9_n2/chopin_nocturne_op9_n2.ly",
+        "file": "chopin_nocturne_op9_n2.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O9/chopin_nocturne_op9_n2/chopin_nocturne_op9_n2.mid",
+        "file": "chopin_nocturne_op9_n2.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 35,
+    "quarters": 6,
+    "overrides": {
+      "0": 0.5,
+      "32": 24
+    },
+    "order": [
+      [
+        0,
+        34
+      ]
+    ],
+    "description": "Play the pickup, then printed bars 1–34 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      285,
+      290
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Schirmer 1881 solo-piano edition. INFERENCE: Performed embellishments may exceed the written ornaments; exact recording edition remains unknown.",
+    "Read content/listen/chopin-nocturne-op9-2-prati.mjs and cache/analysis/chopin-nocturne-op9-2-prati.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "couperin",
+  "places": [
+    {
+      "name": "Paris (parish of Saint-Gervais)",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8556,
+      "lon": 2.3544,
+      "from": "1668-11-10",
+      "to": "1685",
+      "kind": "born",
+      "what": "Born in the rue du Monceau-Saint-Gervais; baptised at the church of Saint-Gervais on 12 November.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin — Wikipedia (French)",
+          "url": "https://fr.wikipedia.org/wiki/François_Couperin"
+        },
+        {
+          "title": "François Couperin dit le grand (1668–1733) — musicologie.org",
+          "url": "https://www.musicologie.org/Biographies/c/couperin_francois_2.html"
+        }
+      ]
+    },
+    {
+      "name": "Saint-Gervais, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8556,
+      "lon": 2.3544,
+      "from": "1685",
+      "to": "1723",
+      "kind": "worked",
+      "what": "Took the family organ post at 17 after Lalande’s interim; left it to his cousin Nicolas in 1723.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin dit le grand (1668–1733) — musicologie.org",
+          "url": "https://www.musicologie.org/Biographies/c/couperin_francois_2.html"
+        },
+        {
+          "title": "François Couperin — Wikipedia (French)",
+          "url": "https://fr.wikipedia.org/wiki/François_Couperin"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1690",
+      "kind": "worked",
+      "what": "Obtained the royal privilege for his <i>Pièces d’orgue</i>, two organ Masses, published in November.",
+      "work": "Pièces d’orgue consistantes en deux messes",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin dit le grand (1668–1733) — musicologie.org",
+          "url": "https://www.musicologie.org/Biographies/c/couperin_francois_2.html"
+        },
+        {
+          "title": "François Couperin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/François_Couperin"
+        }
+      ]
+    },
+    {
+      "name": "Chapelle royale, Versailles",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.805,
+      "lon": 2.1222,
+      "from": "1693",
+      "to": "1730",
+      "kind": "worked",
+      "what": "Organist in Louis XIV’s chapel for the January quarter; harpsichord teacher to the Duke of Burgundy and princesses.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin dit le grand (1668–1733) — musicologie.org",
+          "url": "https://www.musicologie.org/Biographies/c/couperin_francois_2.html"
+        },
+        {
+          "title": "François Couperin — Wikipedia (French)",
+          "url": "https://fr.wikipedia.org/wiki/François_Couperin"
+        }
+      ]
+    },
+    {
+      "name": "Versailles",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8047,
+      "lon": 2.1203,
+      "from": "1717",
+      "to": "1730",
+      "kind": "worked",
+      "what": "Appointed ordinaire de la musique pour le clavecin after d’Anglebert; his daughter inherited the post in 1730.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin dit le grand (1668–1733) — musicologie.org",
+          "url": "https://www.musicologie.org/Biographies/c/couperin_francois_2.html"
+        },
+        {
+          "title": "François Couperin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/François_Couperin"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1713",
+      "to": "1730",
+      "kind": "worked",
+      "what": "Published the four books of his harpsichord pieces in Paris, in 1713, 1717, 1722 and 1730.",
+      "work": "Pièces de clavecin, Books I–IV",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/François_Couperin"
+        }
+      ]
+    },
+    {
+      "name": "Rue Radziwill, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8657,
+      "lon": 2.3395,
+      "from": "1724",
+      "to": "1733",
+      "kind": "lived",
+      "what": "Family home at the corner of rue Radziwill and rue des Petits-Champs; the building still stands.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/François_Couperin"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1733-09-11",
+      "kind": "died",
+      "what": "Died in Paris at the age of 64.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin dit le grand (1668–1733) — musicologie.org",
+          "url": "https://www.musicologie.org/Biographies/c/couperin_francois_2.html"
+        },
+        {
+          "title": "François Couperin — Wikipedia (French)",
+          "url": "https://fr.wikipedia.org/wiki/François_Couperin"
+        }
+      ]
+    },
+    {
+      "name": "Cimetière Saint-Joseph, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8689,
+      "lon": 2.3437,
+      "from": "1733-09",
+      "kind": "buried",
+      "what": "Buried in the small Saint-Joseph cemetery of Saint-Eustache parish, later moved to the Paris catacombs.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "François Couperin — Wikipedia (French)",
+          "url": "https://fr.wikipedia.org/wiki/François_Couperin"
+        },
+        {
+          "title": "Cimetière Saint-Joseph — Wikipedia (French)",
+          "url": "https://fr.wikipedia.org/wiki/Cimetière_Saint-Joseph"
+        }
+      ]
+    }
+  ]
+}

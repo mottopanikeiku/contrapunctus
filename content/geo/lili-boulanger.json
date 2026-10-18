@@ -1,0 +1,295 @@
+{
+  "id": "lili-boulanger",
+  "places": [
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1893-08-21",
+      "kind": "born",
+      "what": "Born into the Boulanger musical family.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Lili Boulanger",
+          "url": "https://en.wikipedia.org/w/index.php?title=Lili_Boulanger&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1904",
+      "kind": "lived",
+      "what": "The family lived at 36 rue Ballu.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia français: Lili Boulanger",
+          "url": "https://fr.wikipedia.org/w/index.php?title=Lili_Boulanger&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1918"
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1912",
+      "kind": "studied",
+      "what": "Prepared for the Prix de Rome with Paul Vidal at the Conservatoire.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "PTNA Piano Music Encyclopedia: Lili Boulanger",
+          "url": "https://enc.piano.or.jp/en/persons/1432"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1913"
+    },
+    {
+      "name": "Compiègne",
+      "country": "French Third Republic (today France)",
+      "lat": 49.4149,
+      "lon": 2.8231,
+      "from": "1912",
+      "kind": "studied",
+      "what": "Illness interrupted the isolated final round of her first Prix de Rome attempt.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "PTNA Piano Music Encyclopedia: Lili Boulanger",
+          "url": "https://enc.piano.or.jp/en/persons/1432"
+        },
+        {
+          "title": "Wikipedia: Compiègne",
+          "url": "https://en.wikipedia.org/w/index.php?title=Compi%C3%A8gne&action=render"
+        }
+      ]
+    },
+    {
+      "name": "Théâtre du Châtelet Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8577942,
+      "lon": 2.3462635,
+      "from": "1913-11-16",
+      "kind": "premiere",
+      "what": "Gabriel Pierné conducted the public premiere of her prize-winning cantata.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia français: Lili Boulanger",
+          "url": "https://fr.wikipedia.org/w/index.php?title=Lili_Boulanger&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Th%C3%A9%C3%A2tre%20du%20Ch%C3%A2telet%20Paris&format=json&limit=1"
+        }
+      ],
+      "work": "Faust et Hélène"
+    },
+    {
+      "name": "Villa Medici Rome",
+      "country": "Kingdom of Italy (today Italy)",
+      "lat": 41.9083045,
+      "lon": 12.4824664,
+      "from": "1914",
+      "kind": "studied",
+      "what": "Began her Prix de Rome residency, interrupted by the war.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia français: Lili Boulanger",
+          "url": "https://fr.wikipedia.org/w/index.php?title=Lili_Boulanger&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Villa%20Medici%20Rome&format=json&limit=1"
+        }
+      ]
+    },
+    {
+      "name": "Nice, France",
+      "country": "French Third Republic (today France)",
+      "lat": 43.7009358,
+      "lon": 7.2683912,
+      "from": "1914-10-28",
+      "kind": "travelled",
+      "what": "Wrote to Renée de Marquein during a stay in Nice.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "BnF: autograph letters from Rome, Nice and Gargenville, 1914–16",
+          "url": "https://catalogue.bnf.fr/ark%3A/12148/cb39759696j"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Nice%2C%20France&format=json&limit=1"
+        }
+      ]
+    },
+    {
+      "name": "Gargenville",
+      "country": "French Third Republic (today France)",
+      "lat": 48.9928,
+      "lon": 1.8108,
+      "from": "1915",
+      "kind": "lived",
+      "what": "Letters document stays at the family country house.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "BnF: autograph letters from Rome, Nice and Gargenville, 1914–16",
+          "url": "https://catalogue.bnf.fr/ark%3A/12148/cb39759696j"
+        },
+        {
+          "title": "Wikipedia: Gargenville",
+          "url": "https://en.wikipedia.org/w/index.php?title=Gargenville&action=render"
+        }
+      ],
+      "to": "1916"
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1915",
+      "kind": "worked",
+      "what": "Helped Nadia establish wartime support for Conservatoire musicians.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Lili Boulanger",
+          "url": "https://en.wikipedia.org/w/index.php?title=Lili_Boulanger&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Villa Medici Rome",
+      "country": "Kingdom of Italy (today Italy)",
+      "lat": 41.9083045,
+      "lon": 12.4824664,
+      "from": "1916-02",
+      "kind": "studied",
+      "what": "Returned with Nadia and worked on La Princesse Maleine.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "PTNA Piano Music Encyclopedia: Lili Boulanger",
+          "url": "https://enc.piano.or.jp/en/persons/1432"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Villa%20Medici%20Rome&format=json&limit=1"
+        }
+      ],
+      "to": "1916-06",
+      "work": "La Princesse Maleine"
+    },
+    {
+      "name": "Gargenville",
+      "country": "French Third Republic (today France)",
+      "lat": 48.9928,
+      "lon": 1.8108,
+      "from": "1917",
+      "kind": "lived",
+      "what": "Convalesced at the country house after surgery.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "PTNA Piano Music Encyclopedia: Lili Boulanger",
+          "url": "https://enc.piano.or.jp/en/persons/1432"
+        },
+        {
+          "title": "Wikipedia: Gargenville",
+          "url": "https://en.wikipedia.org/w/index.php?title=Gargenville&action=render"
+        }
+      ]
+    },
+    {
+      "name": "Arcachon",
+      "country": "French Third Republic (today France)",
+      "lat": 44.65,
+      "lon": -1.17,
+      "from": "1917-01",
+      "kind": "lived",
+      "what": "Recuperated by the sea and completed major choral works.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "PTNA Piano Music Encyclopedia: Lili Boulanger",
+          "url": "https://enc.piano.or.jp/en/persons/1432"
+        },
+        {
+          "title": "Wikipedia: Arcachon",
+          "url": "https://en.wikipedia.org/w/index.php?title=Arcachon&action=render"
+        }
+      ],
+      "to": "1917-06",
+      "work": "Psalm 130; Vieille prière bouddhique"
+    },
+    {
+      "name": "Mézy-sur-Seine",
+      "country": "French Third Republic (today France)",
+      "lat": 49.0028,
+      "lon": 1.8822,
+      "from": "1918",
+      "kind": "died",
+      "what": "Evacuated from bombed Paris; died after dictating Pie Jesu to Nadia.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "PTNA Piano Music Encyclopedia: Lili Boulanger",
+          "url": "https://enc.piano.or.jp/en/persons/1432"
+        },
+        {
+          "title": "Wikipedia: Mézy-sur-Seine",
+          "url": "https://en.wikipedia.org/w/index.php?title=M%C3%A9zy-sur-Seine&action=render"
+        }
+      ],
+      "to": "1918-03-15",
+      "work": "Pie Jesu"
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1918",
+      "kind": "buried",
+      "what": "Buried in Montmartre Cemetery’s family grave, later shared by Nadia.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Lili Boulanger",
+          "url": "https://en.wikipedia.org/w/index.php?title=Lili_Boulanger&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    }
+  ]
+}

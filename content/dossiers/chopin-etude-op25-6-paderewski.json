@@ -1,0 +1,167 @@
+{
+  "id": "chopin-etude-op25-6-paderewski",
+  "work": {
+    "title": "Étude in G♯ minor, Op. 25 No. 6 (“Thirds”)",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": "Solo piano version",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr",
+        "issue"
+      ],
+      "note": "The source identifies this as the named solo-piano work."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Ignacy Jan Paderewski",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer spelling normalised; no uncredited accompanist or soloist added."
+  },
+  "session": {
+    "date": {
+      "value": "1923-05-04",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr",
+        "issue"
+      ],
+      "note": "The recording year is stated in the cited source.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr",
+        "issue"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor / Victrola",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "917-B",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Source catalogue identification; no independent label inspection is claimed."
+    },
+    "matrixTakeSides": {
+      "value": "B-27918, take 1",
+      "status": "inferred",
+      "sourceIds": [
+        "source",
+        "dahr",
+        "issue"
+      ],
+      "note": "IA calls 917B its matrix number, but that is the catalogue-side identifier. DAHR identifies Victor 917’s issued étude as B-27918 take 1; the runout of this transfer was not independently inspected."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "George Blood, L.P.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Four stylus sizes were transferred flat and with a 500 Hz turnover; the selected friendly-named file is the engineer-preferred version.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_etude-in-g-sharp-minor_ignace-jan-paderewski-chopin_gbia0183841b/Etude%20in%20G%20Sharp%20Minor%20-%20Ignace%20Jan%20Paderewski.mp3",
+    "sourceChain": [
+      "source",
+      "dahr",
+      "issue"
+    ],
+    "format": "MP3 access file; no concatenation or playback pitch alteration",
+    "durationSeconds": 130
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition as identified by the source.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "US public-domain sound recording — published in or before 1925",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "dahr",
+        "issue"
+      ],
+      "note": "Programme rule 2. Source identifies the 1923 issue and carrier; no non-commercial transfer licence was found in the inspected source. No worldwide public-domain claim is made."
+    },
+    "creditLine": "Étude in G♯ minor, Op. 25 No. 6 (“Thirds”); Ignacy Jan Paderewski, piano. Transfer: George Blood, L.P.. US public-domain sound recording — published in or before 1925. Source: Internet Archive.",
+    "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Internet Archive — recording metadata",
+      "url": "https://archive.org/metadata/78_etude-in-g-sharp-minor_ignace-jan-paderewski-chopin_gbia0183841b",
+      "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr",
+      "title": "DAHR — Victor matrix B-27918",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800001905",
+      "locator": "4 May 1923, Camden; take 1 issued, take 2 destroyed.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "issue",
+      "title": "DAHR — Victor 917",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/detail/87088",
+      "locator": "Catalogue and MARC publication statement: Victor, [1923].",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

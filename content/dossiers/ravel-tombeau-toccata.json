@@ -1,0 +1,185 @@
+{
+  "id": "ravel-tombeau-toccata",
+  "work": {
+    "title": "Le Tombeau de Couperin",
+    "catalogue": "M.68",
+    "movement": "VI. Toccata",
+    "version": {
+      "value": "Original solo-piano version",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "The work version is identified. The edition actually used by the performers is not established. This is one movement in a mixed-performer selection; the Rigaudon is absent."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Marcelle Meyer",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "Performer credited in the Commons description."
+  },
+  "session": {
+    "date": {
+      "value": "1954-03-05–1954-03-08",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons author credit gives Paris, Salle Adyar, 5–8 March 1954. The date span covers the stated sessions, not an identified day for this individual track; 22 September 2023 is the Commons upload date.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Salle Adyar, Paris",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The venue is stated in the author credit; no exact day within the session range is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Les Discophiles Français",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons source credits the Médiathèque musicale Mahler, fonds discophiles français."
+    },
+    "catalogue": {
+      "value": "DF 100/1",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The catalogue reference is given by Commons; no matrix or original side is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identifier is established; absence of metadata is not proof that none exists."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified. The uploader and source collection are not automatically transfer-engineering credits."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is established. Upload dates and embedded year tags are not treated as transfer-session dates."
+    },
+    "processing": {
+      "value": "Wikimedia Commons supplies an MP3 access derivative of the uploaded FLAC file.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This documents the access formats, not the original recording medium or any restoration procedure."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Maurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_%28Marcelle_Meyer%29.flac/Maurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_%28Marcelle_Meyer%29.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; source FLAC",
+    "durationSeconds": 236.3
+  },
+  "rights": {
+    "composition": {
+      "value": "The original 1918 solo-piano edition is catalogued as public domain.",
+      "status": "documented",
+      "sourceIds": [
+        "catalogue",
+        "bnf"
+      ],
+      "note": "This reports the score repository’s status, not worldwide legal clearance or the rights in this sound recording; later editions and national exceptions require separate consideration."
+    },
+    "recording": {
+      "value": "Commons marks this recording PD-EU-audio.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is a territorial European rights statement, accepted for Commons streaming. The same page carries a US pre-1972 sound-recording warning. No United States public-domain claim is made for the 1954 recording."
+    },
+    "creditLine": "Maurice Ravel, Le Tombeau de Couperin, VI. Toccata; Marcelle Meyer. Médiathèque musicale Mahler, fonds discophiles français; Les Discophiles Français DF 100/1. Via Wikimedia Commons; PD-EU-audio, not a US public-domain assertion.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Maurice Ravel - Le Tombeau de Couperin - Toccata (Marcelle Meyer).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_%28Marcelle_Meyer%29.flac",
+      "locator": "Description, source, author, licensing and file history; not all dates describe recording sessions.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-meta",
+      "title": "Wikimedia Commons — embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_%28Marcelle_Meyer%29.flac#metadata",
+      "locator": "Embedded author, copyright and digitising tags, where present; not independent confirmation of the file description.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Ravel, Le Tombeau de Couperin, original piano score (Durand, 1918)",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/ba/IMSLP918879-PMLP04975-Ravel-M68-Le-Tombeau-de-Couperin-FE.pdf",
+      "locator": "Durand score, printed pp. 24–32. Plate D. & F. 9569; movement dedication at its heading.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "catalogue",
+      "title": "IMSLP — original piano suite",
+      "url": "https://imslp.org/wiki/Le_tombeau_de_Couperin_(piano)_(Ravel,_Maurice)",
+      "locator": "Instrumentation, keys, six movements, 1918 first publication and public-domain first-edition scan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bnf",
+      "title": "Bibliothèque nationale de France — Le tombeau de Couperin, piano",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb13917720k",
+      "locator": "Composition July 1914–November 1917; all six dedications; premiere by Marguerite Long, Salle Gaveau, 11 April 1919.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "lyon",
+      "title": "Coline Miallier — Le Tombeau de Couperin, Orchestre national de Lyon",
+      "url": "https://www.auditorium-lyon.com/en/node/13646",
+      "locator": "Notes dated 25 and 27 November 2021: each movement remembers a friend killed at the front; historical dance forms; separate 1919 orchestration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "kansas",
+      "title": "Eric T. Williams — Le tombeau de Couperin, Kansas City Symphony",
+      "url": "https://www.kcsymphony.org/wp-content/uploads/2024/03/FY24-CS10-Program-Book-Digital-2024-04-05.pdf",
+      "locator": "Programme, 5–7 April 2024, printed pp. 5–7 (PDF pp. 7–9): wartime service, 1 October 1914 letter, Charlot, Deluc and Dreyfus, Couperin forlane transcription.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

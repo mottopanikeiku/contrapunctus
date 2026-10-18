@@ -1,0 +1,527 @@
+{
+  "id": "stravinsky",
+  "places": [
+    {
+      "name": "Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "from": "1882",
+      "kind": "lived",
+      "what": "Grew up in Saint Petersburg; studied law and took private lessons from Rimsky-Korsakov.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1910",
+      "lat": 59.9375,
+      "lon": 30.30861111
+    },
+    {
+      "name": "Lomonosov Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "from": "1882-06-17",
+      "kind": "born",
+      "what": "Born in Oranienbaum during the family’s summer stay.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Lomonosov%20Saint%20Petersburg&format=json&limit=1"
+        }
+      ],
+      "lat": 59.9017034,
+      "lon": 29.7793869
+    },
+    {
+      "name": "Heidelberg",
+      "country": "German Empire (today Germany)",
+      "from": "1902",
+      "kind": "travelled",
+      "what": "Met Rimsky-Korsakov while visiting his son Vladimir.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Heidelberg&format=json&limit=1"
+        }
+      ],
+      "lat": 49.4093582,
+      "lon": 8.694724
+    },
+    {
+      "name": "Ustyluh Ukraine",
+      "country": "Russian Empire (today Ukraine)",
+      "from": "1907",
+      "kind": "lived",
+      "what": "Returned to his Ukrainian summer home to compose.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Ustyluh%20Ukraine&format=json&limit=1"
+        }
+      ],
+      "to": "1914",
+      "lat": 50.8622192,
+      "lon": 24.1505139
+    },
+    {
+      "name": "Lausanne",
+      "country": "Swiss Confederation (today Switzerland)",
+      "from": "1910",
+      "kind": "lived",
+      "what": "Moved his family to Switzerland.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1911",
+      "lat": 46.52,
+      "lon": 6.63333333
+    },
+    {
+      "name": "Palais Garnier Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1910-06-25",
+      "kind": "premiere",
+      "what": "The Ballets Russes introduced his first major ballet score.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia: Palais Garnier",
+          "url": "https://en.wikipedia.org/w/index.php?title=Palais_Garnier&action=render"
+        }
+      ],
+      "work": "The Firebird",
+      "lat": 48.87194,
+      "lon": 2.33167
+    },
+    {
+      "name": "Clarens Switzerland",
+      "country": "Swiss Confederation (today Switzerland)",
+      "from": "1911",
+      "kind": "lived",
+      "what": "Composed beside Lake Geneva, including much of The Rite of Spring.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Clarens%20Switzerland&format=json&limit=1"
+        }
+      ],
+      "to": "1914",
+      "work": "The Rite of Spring",
+      "lat": 46.4411119,
+      "lon": 6.8930605
+    },
+    {
+      "name": "Théâtre du Châtelet Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1911-06-13",
+      "kind": "premiere",
+      "what": "The Ballets Russes introduced Petrushka.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Th%C3%A9%C3%A2tre%20du%20Ch%C3%A2telet%20Paris&format=json&limit=1"
+        }
+      ],
+      "work": "Petrushka",
+      "lat": 48.8577942,
+      "lon": 2.3462635
+    },
+    {
+      "name": "Berlin",
+      "country": "German Empire (today Germany)",
+      "from": "1912-12",
+      "kind": "heard",
+      "what": "Heard Schoenberg’s Pierrot lunaire during a visit.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Schoenberg: Pierrot lunaire",
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    {
+      "name": "Théâtre des Champs-Élysées Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1913-05-29",
+      "kind": "premiere",
+      "what": "Monteux conducted Nijinsky’s controversial ballet.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Th%C3%A9%C3%A2tre%20des%20Champs-%C3%89lys%C3%A9es%20Paris&format=json&limit=1"
+        }
+      ],
+      "work": "The Rite of Spring",
+      "lat": 48.8658174,
+      "lon": 2.3029039
+    },
+    {
+      "name": "Morges Switzerland",
+      "country": "Swiss Confederation (today Switzerland)",
+      "from": "1915",
+      "kind": "lived",
+      "what": "Lived at La Croix and worked on Les noces and The Soldier’s Tale.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Morges%20Switzerland&format=json&limit=1"
+        }
+      ],
+      "to": "1920",
+      "work": "Les noces; The Soldier’s Tale",
+      "lat": 46.5093268,
+      "lon": 6.498317
+    },
+    {
+      "name": "Lausanne",
+      "country": "Swiss Confederation (today Switzerland)",
+      "from": "1918-09-28",
+      "kind": "premiere",
+      "what": "The Soldier’s Tale premiered at the Théâtre Municipal.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "The Soldier’s Tale",
+      "lat": 46.52,
+      "lon": 6.63333333
+    },
+    {
+      "name": "Carantec",
+      "country": "French Third Republic (today France)",
+      "from": "1920",
+      "kind": "lived",
+      "what": "Spent the summer in Brittany after leaving Switzerland.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Carantec&format=json&limit=1"
+        }
+      ],
+      "lat": 48.6684418,
+      "lon": -3.9142802
+    },
+    {
+      "name": "Garches",
+      "country": "French Third Republic (today France)",
+      "from": "1920",
+      "kind": "lived",
+      "what": "Stayed at Coco Chanel’s Bel Respiro.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Garches&format=json&limit=1"
+        }
+      ],
+      "to": "1921",
+      "lat": 48.8437486,
+      "lon": 2.1853699
+    },
+    {
+      "name": "Biarritz",
+      "country": "French Third Republic (today France)",
+      "from": "1921",
+      "kind": "lived",
+      "what": "Lived with his family on the Basque coast.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Biarritz&format=json&limit=1"
+        }
+      ],
+      "to": "1924",
+      "lat": 43.4832523,
+      "lon": -1.5592776
+    },
+    {
+      "name": "Nice France",
+      "country": "French Third Republic (today France)",
+      "from": "1924",
+      "kind": "lived",
+      "what": "Made Nice his family home while touring internationally.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Nice%20France&format=json&limit=1"
+        }
+      ],
+      "to": "1931",
+      "lat": 43.2871614,
+      "lon": 5.6043053
+    },
+    {
+      "name": "Brussels",
+      "country": "Kingdom of Belgium (today Belgium)",
+      "from": "1930-12-13",
+      "kind": "premiere",
+      "what": "Ernest Ansermet conducted the Symphony of Psalms.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Symphony of Psalms",
+      "lat": 50.84666667,
+      "lon": 4.3525
+    },
+    {
+      "name": "Voreppe",
+      "country": "French Third Republic (today France)",
+      "from": "1931",
+      "kind": "lived",
+      "what": "Lived at La Véronnière near Grenoble.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Voreppe&format=json&limit=1"
+        }
+      ],
+      "to": "1934",
+      "lat": 45.2928424,
+      "lon": 5.6361825
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "from": "1934",
+      "kind": "lived",
+      "what": "Settled on the rue du Faubourg Saint-Honoré after becoming a French citizen.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1939",
+      "lat": 48.8567,
+      "lon": 2.3522
+    },
+    {
+      "name": "Cambridge Massachusetts",
+      "country": "United States (today United States)",
+      "from": "1939",
+      "kind": "worked",
+      "what": "Delivered the Norton lectures at Harvard.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Cambridge%20Massachusetts&format=json&limit=1"
+        }
+      ],
+      "to": "1940",
+      "lat": 42.3656347,
+      "lon": -71.1040018
+    },
+    {
+      "name": "Los Angeles",
+      "country": "United States (today United States)",
+      "from": "1940",
+      "kind": "exile",
+      "what": "Settled with Vera in Hollywood; worked with Robert Craft from 1948.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1969",
+      "lat": 34.05,
+      "lon": -118.25
+    },
+    {
+      "name": "Teatro La Fenice Venice",
+      "country": "Italian Republic (today Italy)",
+      "from": "1951-09-11",
+      "kind": "premiere",
+      "what": "Conducted his opera with a libretto by Auden and Kallman.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Teatro%20La%20Fenice%20Venice&format=json&limit=1"
+        }
+      ],
+      "work": "The Rake’s Progress",
+      "lat": 45.4337096,
+      "lon": 12.3338572
+    },
+    {
+      "name": "Moscow",
+      "country": "Soviet Union (today Russia)",
+      "from": "1962",
+      "kind": "travelled",
+      "what": "Returned to the Soviet Union for concerts after decades abroad.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 55.75583333,
+      "lon": 37.61777778
+    },
+    {
+      "name": "New York City",
+      "country": "United States (today United States)",
+      "from": "1969",
+      "kind": "died",
+      "what": "Moved to New York in 1969 and died there two years later.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1971-04-06",
+      "lat": 40.7128,
+      "lon": -74.0061
+    },
+    {
+      "name": "San Michele Cemetery Venice",
+      "country": "Italian Republic (today Italy)",
+      "from": "1971-04",
+      "kind": "buried",
+      "what": "Buried near Diaghilev on the cemetery island.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Igor Stravinsky",
+          "url": "https://en.wikipedia.org/w/index.php?title=Igor_Stravinsky&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=San%20Michele%20Cemetery%20Venice&format=json&limit=1"
+        }
+      ],
+      "lat": 45.4466494,
+      "lon": 12.3456381
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "elgar-cello-concerto-harrison-1920",
+  "work": {
+    "title": "Cello Concerto in E minor",
+    "catalogue": "Op. 85",
+    "movement": "Abridged complete concerto, including shortened finale",
+    "version": {
+      "value": "Four acoustic sides: one abridged movement per side.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "work"
+      ],
+      "note": "This is the abridged whole concerto, not the complete score or a sixteen-minute finale. The supplied stream already joins all four sides. Only a continuous early finale passage is aligned with the complete Skidmore finale; neither complete work durations nor omitted music are equated. The exact cuts and acoustic-session instrumental substitutions are not established, so no modern-score orchestra timeline is projected onto this recording."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Beatrice Harrison",
+        "role": "cello"
+      },
+      {
+        "name": "Symphony Orchestra",
+        "role": "orchestra, as on the labels"
+      },
+      {
+        "name": "Edward Elgar",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "label1",
+      "label4"
+    ],
+    "note": "The archive quotes Moore on the ensemble’s New Symphony/Royal Albert Hall identity; the published credit follows the photographed labels rather than silently expanding their wording."
+  },
+  "session": {
+    "date": {
+      "value": "22 December 1919; 16 November 1920",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The later session applies to replacement side three, HO 4607-AF. The finale, HO 4198-AF, belongs to the December 1919 session; the listen ID names the two-session recording rather than dating every side to 1920.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Hayes, Middlesex, England",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Source-reported session location, not inferred from the record manufacturer’s address."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice / The Gramophone Company",
+      "status": "documented",
+      "sourceIds": [
+        "label1",
+        "label4"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "D541; D545",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label1",
+        "label4"
+      ],
+      "note": "The archive dates first issue to May 1921 for D541 and June 1921 for D545."
+    },
+    "matrixTakeSides": {
+      "value": "I: HO 4197-AF / 2-07853; II: HO 4194-AF / 2-07854; III: HO 4607-AF / 2-07855; IV: HO 4198-AF / 2-07856",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label1",
+        "label4"
+      ],
+      "note": "The archive says take numbers are not indicated on the discs. It reports take 2 for side three and an additional take-2 attribution for side one from Moore; no take is assigned here to the finale."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer engineer is identified; an uploader is not automatically the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload dates are not used as transfer dates."
+    },
+    "processing": {
+      "value": "Single supplied FLAC with MP3 derivative; archive reports a digital pitch adjustment to side three.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The archive estimates A=435 Hz at 78 rpm for the earlier sides and A=430 Hz for side three before correction. This is not a verified original session tuning. No local concatenation or audio processing was performed."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545/Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3",
+    "sourceChain": [
+      "archive"
+    ],
+    "format": "Internet Archive VBR MP3 derivative of the single supplied 24-bit FLAC",
+    "durationSeconds": 952.3
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Elgar composition is out of copyright under the ordinary life-plus-70 term.",
+      "status": "inferred",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The archive identifies Elgar’s dates as 1857–1934. This term calculation does not clear a later edition."
+    },
+    "recording": {
+      "value": "United States public domain: recording first issued in 1921, before the 1926 cutoff.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label1",
+        "label4"
+      ],
+      "note": "Programme rule 2. The item states May and June 1921 issues and cites contemporary reviews; its metadata and description contain no non-commercial licence. The eligibility is based on the issued sound recording, not the composition. No unrestricted modern restoration licence is invented."
+    },
+    "creditLine": "Edward Elgar, Cello Concerto, Op. 85, abridged acoustic recording; Beatrice Harrison, cello; Symphony Orchestra; Edward Elgar, conductor. HMV D541 and D545, issued 1921; single Internet Archive transfer.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — HMV D541/D545, provenance and supplied files",
+      "url": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+      "locator": "Description: four movements and side durations; sessions and matrices; issue months and quoted contemporary reviews; transfer pitch note. Metadata inspected separately: no licenseurl or non-commercial restriction; one whole-concerto FLAC and its MP3 derivative.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label1",
+      "title": "HMV D541, first-side label photograph",
+      "url": "https://archive.org/download/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545/1.%20HMV_D541_HO_4197_AF.JPG",
+      "locator": "Photograph inspected: Part 1; Harrison, Symphony Orchestra and Elgar; D541 and face number 2-07853; HO 4197 AF in run-out.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label4",
+      "title": "HMV D545, finale-side label photograph",
+      "url": "https://archive.org/download/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545/4.%20HMV_D545_HO_4198_AF.JPG",
+      "locator": "Photograph inspected: Part 4; Harrison, Symphony Orchestra and Elgar; D545, face number 2-07856. Matrix transcription otherwise follows the archive description.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Elgar Cello Concerto — recording and work history",
+      "url": "https://en.wikipedia.org/wiki/Cello_Concerto_(Elgar)",
+      "locator": "Recordings: acoustic truncated version distinguished from complete 1928 recording; Music and History for the full concerto.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

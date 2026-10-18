@@ -115,16 +115,14 @@
       "note": "The composition tag is separate from the historic sound-recording tags."
     },
     "recording": {
-      "value": "Commons applies PD-EU-audio: expiry of European performers’ and phonogram producers’ rights.",
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "eu-audio",
-        "eu-extension",
-        "us-recordings",
-        "us-record-tag"
+        "rights-audit-commons",
+        "rights-audit-eu-term",
+        "rights-audit-eu-audio"
       ],
-      "note": "This is a territory-specific expiry claim, not CC0 or permission from the record company. The 70-year extension did not revive recordings whose earlier term had already expired by 1 November 2013. It does not establish public-domain status in the United States. The same file also carries PD-US-record; that template is a warning about US protection of pre-1972 recordings, not a declaration of US public-domain status."
+      "note": "Commons applies PD-EU-audio and identifies Marcelle Meyer’s 15 February 1956 session and Les Discophiles Français DF 211/2. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date."
     },
     "creditLine": "Claude Debussy, La cathédrale engloutie; Marcelle Meyer, piano, Salle Adyar, Paris, 15 February 1956. Les Discophiles Français DF 211/2; source collection: Médiathèque musicale Mahler; Wikimedia Commons. European expiry claim only; US recording rights are not cleared here.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
@@ -178,6 +176,27 @@
       "url": "https://imslp.org/wiki/Pr%C3%A9ludes%2C_Livre_1%2C_CD_125_%28Debussy%2C_Claude%29",
       "locator": "General Information: CD 125 / L.117; movement 10, La cathédrale engloutie; first published by Durand in 1910. This identifies the work, not the score edition used by Meyer.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Claude Debussy - Préludes (Livre I) - X. La Cathédrale engloutie (Marcelle Meyer, 1956).flac",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
+      "locator": "Opened file-description wikitext for File:Claude Debussy - Préludes (Livre I) - X. La Cathédrale engloutie (Marcelle Meyer, 1956).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-term",
+      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-audio",
+      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

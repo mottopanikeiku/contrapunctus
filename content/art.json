@@ -175,6 +175,17 @@
   "license": "Public domain",
   "credit": "scanned from Ralph Kirkpatrick: Domenico Sarlatti. Princeton University Press, Princeton, New Jersey 1953"
  },
+ "File:Arcangelo Corelli, portrait by Hugh Howard (1697).jpg": {
+  "id": "arcangelo-corelli-portrait-by-hugh-howard-1697",
+  "src": "assets/img/art/arcangelo-corelli-portrait-by-hugh-howard-1697.webp",
+  "w": 1056,
+  "h": 1418,
+  "page": "https://commons.wikimedia.org/wiki/File:Arcangelo_Corelli,_portrait_by_Hugh_Howard_(1697).jpg",
+  "artist": "Hugh Howard",
+  "date": "between 1697 and 1698 date QS:P,+1697-00-00T00:00:00Z/8,P1319,+1697-00-00T00:00:00Z/9,P1326,+1698-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "https://bannockburn700.wordpress.com/2014/07/07/arcangelo-corelli-1697/ (with some color correction to remove scanning artifacts and extraneous layers of green and red)"
+ },
  "File:Arnold Böcklin - Die Toteninsel I (Basel, Kunstmuseum).jpg": {
   "id": "arnold-bocklin-die-toteninsel-i-basel-kunstmuseum",
   "src": "assets/img/art/arnold-bocklin-die-toteninsel-i-basel-kunstmuseum.webp",
@@ -307,6 +318,17 @@
   "license": "Public domain",
   "credit": "Google Arts & Culture — FgEQF8uoob7fhg"
  },
+ "File:BuxWV83 organ tablature.jpg": {
+  "id": "buxwv83-organ-tablature",
+  "src": "assets/img/art/buxwv83-organ-tablature.webp",
+  "w": 1022,
+  "h": 442,
+  "page": "https://commons.wikimedia.org/wiki/File:BuxWV83_organ_tablature.jpg",
+  "artist": "Dieterich Buxtehude",
+  "date": "1681",
+  "license": "Public domain",
+  "credit": "Uppsala Universitetsbibliotek , vokalmusik i handskrift 82:42, fol. 17v"
+ },
  "File:Canaletto - Westminster Bridge, with the Lord Mayor's Procession on the Thames - Google Art Project.jpg": {
   "id": "canaletto-westminster-bridge-with-the-lord-mayor-s-procession-on-the-thames-goog",
   "src": "assets/img/art/canaletto-westminster-bridge-with-the-lord-mayor-s-procession-on-the-thames-goog.webp",
@@ -427,6 +449,17 @@
   "date": "1890-1910",
   "license": "Public domain",
   "credit": "This file comes from Gallica Digital Library and is available under the digital ID btv1b53118843k/f1"
+ },
+ "File:Codex 10127-10144 fol 90.png": {
+  "id": "codex-10127-10144-fol-90",
+  "src": "assets/img/art/codex-10127-10144-fol-90.webp",
+  "w": 1280,
+  "h": 2052,
+  "page": "https://commons.wikimedia.org/wiki/File:Codex_10127-10144_fol_90.png",
+  "artist": "Unknown writer",
+  "date": "circa 800",
+  "license": "Public domain",
+  "credit": "Codex_10127-10144, Bibliothèque royale de Belgique"
  },
  "File:Componist Gyorgy Ligeti , kop, Bestanddeelnr 932-8516.jpg": {
   "id": "componist-gyorgy-ligeti-kop-bestanddeelnr-932-8516",
@@ -1110,6 +1143,17 @@
   "license": "Public domain",
   "credit": "http://wicr.uindy.edu/Education/Composers/BrahmsJ.html"
  },
+ "File:John Closterman (1660-1711) (by or after) - Henry Purcell - NPG 1352 - National Portrait Gallery.jpg": {
+  "id": "john-closterman-1660-1711-by-or-after-henry-purcell-npg-1352-national-portrait-g",
+  "src": "assets/img/art/john-closterman-1660-1711-by-or-after-henry-purcell-npg-1352-national-portrait-g.webp",
+  "w": 658,
+  "h": 800,
+  "page": "https://commons.wikimedia.org/wiki/File:John_Closterman_(1660-1711)_(by_or_after)_-_Henry_Purcell_-_NPG_1352_-_National_Portrait_Gallery.jpg",
+  "artist": "John Closterman",
+  "date": "1695",
+  "license": "Public domain",
+  "credit": "Art UK"
+ },
  "File:John Joseph Barker (1824-1904) - Near the Malvern Hills - 3063 - Government Art Collection.jpg": {
   "id": "john-joseph-barker-1824-1904-near-the-malvern-hills-3063-government-art-collecti",
   "src": "assets/img/art/john-joseph-barker-1824-1904-near-the-malvern-hills-3063-government-art-collecti.webp",
@@ -1164,6 +1208,17 @@
   "date": "between 1831 and 1832 date QS:P571,+1831-00-00T00:00:00Z/8,P1319,+1831-00-00T00:00:00Z/9,P1326,+1832-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "UwGUbiwJ5MsHvQ at Google Cultural Institute maximum zoom level"
+ },
+ "File:Josquin.jpg": {
+  "id": "josquin",
+  "src": "assets/img/art/josquin.webp",
+  "w": 234,
+  "h": 340,
+  "page": "https://commons.wikimedia.org/wiki/File:Josquin.jpg",
+  "artist": "Charles Gustave Housez",
+  "date": "1881",
+  "license": "CC BY 3.0",
+  "credit": "http://musclass.galeon.com/paginas_internnas/autores/autoresrenacimie.htm"
  },
  "File:Kaija Saariaho in 2022.png": {
   "id": "kaija-saariaho-in-2022",
@@ -1681,6 +1736,17 @@
   "date": "1738 date QS:P571,+1738-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://intoclassics.net/_nw/305/77701004.jpg"
+ },
+ "File:Retrato de Palestrina.jpg": {
+  "id": "retrato-de-palestrina",
+  "src": "assets/img/art/retrato-de-palestrina.webp",
+  "w": 639,
+  "h": 818,
+  "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Palestrina.jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "16 th century date QS:P,+1550-00-00T00:00:00Z/7",
+  "license": "Public domain",
+  "credit": "[1]"
  },
  "File:Rhinegold and the Valkyries p 004.jpg": {
   "id": "rhinegold-and-the-valkyries-p-004",

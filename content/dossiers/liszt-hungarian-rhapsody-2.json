@@ -1,0 +1,149 @@
+{
+  "id": "liszt-hungarian-rhapsody-2",
+  "work": {
+    "title": "Hungarian Rhapsody No. 2, S. 244/2",
+    "catalogue": "S. 244/2",
+    "movement": "",
+    "version": {
+      "value": "Solo-piano Hungarian Rhapsody No. 2",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and authorship of the late cadenza are not established. No pianist-specific published cadenza is assigned without evidence."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Martha Goldstein",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The source names Goldstein but does not establish the instrument make or recording venue."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons/upload chronology does not establish a recording-session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source does not establish the session venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Al Goldstein collection is the credited source, not an established commercial record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Embedded album title Favorites of Chopin and Liszt is not a catalogue number; an original physical carrier is not established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix or take identification is established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer engineer is identified; an uploader is not automatically the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The upload date is not treated as a transfer date."
+    },
+    "processing": {
+      "value": "Uploaded Ogg Vorbis, served with a Wikimedia MP3 derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No restoration or source-medium history is identified. A collection owner/uploader is not automatically a transfer engineer."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Franz_Liszt_-_Second_Hungarian_Rhapsody.ogg/Franz_Liszt_-_Second_Hungarian_Rhapsody.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia MP3 access derivative of the uploaded Ogg Vorbis recording",
+    "durationSeconds": 785.987
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Liszt died in 1886. This is a term calculation, not worldwide clearance of every edition."
+    },
+    "recording": {
+      "value": "Sound recording licensed CC BY-SA 2.0.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "cc"
+      ],
+      "note": "Commons also offers EFF Open Audio License 1.0. This dossier uses the CC BY-SA 2.0 option, preserving attribution and share-alike conditions; it does not infer public-domain status from Liszt’s death date."
+    },
+    "creditLine": "Franz Liszt: Hungarian Rhapsody No. 2; Martha Goldstein, piano. Al Goldstein collection / ibiblio, via Wikimedia Commons. CC BY-SA 2.0.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Martha Goldstein — Second Hungarian Rhapsody, Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Franz_Liszt_-_Second_Hungarian_Rhapsody.ogg",
+      "locator": "Author, Al Goldstein/ibiblio source, embedded album Favorites of Chopin and Liszt, CC BY-SA 2.0 and EFF Open Audio licence notices.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "cc",
+      "title": "Creative Commons Attribution-ShareAlike 2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "locator": "Attribution and share-alike requirements; licence covers the hosted recording.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-09-29"
+  }
+}

@@ -6,6 +6,7 @@ export default {
   order: 2,
   work: 'Brandenburg Concerto No. 5, BWV 1050',
   movement: 'I. Allegro',
+  set: { id: 'bach-brandenburg-5', title: 'Brandenburg Concerto No. 5', part: 1, of: 3 },
   year: '1721, dedication',
   key: 'D major',
   forces: 'Flute, solo violin, obbligato harpsichord, strings and continuo',

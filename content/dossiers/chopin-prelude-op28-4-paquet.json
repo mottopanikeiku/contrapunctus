@@ -1,0 +1,134 @@
+{
+  "id": "chopin-prelude-op28-4-paquet",
+  "work": {
+    "title": "Prelude in E minor, Op. 28 No. 4",
+    "catalogue": "Op. 28 No. 4",
+    "movement": "Largo",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The standard solo-piano work is identified; edition, individual readings and completeness have not been established by a score audit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Dorian Pâquet",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer named on the selected recording source."
+  },
+  "session": {
+    "date": {
+      "value": "2019-10-21",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Date supplied by the performer/uploader for the own-work recording.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "A recording location and venue are not established by the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The original commercial recording label is not established."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier, matrix, take or side is established; a digital copy alone does not establish a born-digital original."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Dorian Pâquet; uploader Hérisson grognon",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Own-work attribution and upload identity, not an assertion of a separately credited engineer. The source identifies a Chavanne piano made in 2006."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload or reissue dates are not used as session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Equalisation, editing, noise reduction, pitch correction and other processing are not documented; no absence of processing is implied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Prelude_op28_n4.wav/Prelude_op28_n4.wav.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 streaming derivative of source wav",
+    "durationSeconds": 115.046
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; the nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution–ShareAlike 4.0",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The performer’s own-work WAV is licensed CC BY-SA 4.0; this is the sound-recording licence, not only the composition’s public-domain status."
+    },
+    "creditLine": "Dorian Pâquet, piano; own-work recording uploaded as Hérisson grognon, via Wikimedia Commons. CC BY-SA 4.0. MP3 streaming derivative of the WAV; no musical editing by this site.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://commons.wikimedia.org/wiki/File:Prelude_op28_n4.wav",
+      "locator": "Performer, description, upstream source and recording-licence statement.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Prelude in E minor, Op. 28 No. 4",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/197",
+      "locator": "Work identity, date, publication and formal commentary.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-09-29"
+  }
+}

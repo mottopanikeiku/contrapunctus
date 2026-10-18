@@ -116,13 +116,12 @@
       "note": "Composition rights are distinct from the rights in Lévy’s recording."
     },
     "recording": {
-      "value": "Public-domain dedication by Musopen, recorded on Commons as PD-author.",
+      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data"
+        "rights-audit-commons"
       ],
-      "note": "The file page states a worldwide dedication and unrestricted fallback permission where a dedication is not legally possible. This is not labelled CC0."
+      "note": "Commons explicitly applies PD-author by Musopen to the recording, separately from the composition. This is the programme’s explicit Musopen recording-release route, not an age-based inference or a claim that a Public Domain Mark is itself a licence. The session date is not needed for this route."
     },
     "creditLine": "Frédéric Chopin, Nocturne in D♭ major, Op. 27 No. 2; Frank Lévy, piano. Musopen, Set Chopin Free; recording dedicated to the public domain, via Wikimedia Commons.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-author"
@@ -148,6 +147,13 @@
       "url": "https://www.kickstarter.com/projects/Musopen/set-chopin-free/posts/1193714",
       "locator": "Upstream source cited in Commons wikitext and Structured data. Direct access returned HTTP 403; no additional session details were extracted.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1123916421&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

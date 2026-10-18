@@ -1,0 +1,183 @@
+{
+  "id": "ravel-ma-mere-loye-pavane",
+  "work": {
+    "title": "Ma mère l’Oye",
+    "catalogue": "M.60",
+    "movement": "I. Pavane de la Belle au bois dormant",
+    "version": {
+      "value": "Original piano-four-hands version",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "The work version is identified. The edition actually used by the performers is not established. Only this complete opening movement is selected; the other four movements are not present."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Guy Campion",
+        "role": "piano four hands"
+      },
+      {
+        "name": "Mario Vachon",
+        "role": "piano four hands"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "duo"
+    ],
+    "note": "The duo is identified, but the sources do not assign primo and secondo to individual pianists."
+  },
+  "session": {
+    "date": {
+      "value": "1992",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-meta"
+      ],
+      "note": "The file description explicitly says “enregistrement : 1992”. An embedded digitising tag instead says 1991; its meaning is not established and it is not silently treated as a second verified session date.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified. A performer’s home or teaching location is not a session location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No record label or imprint identifying a physical carrier is supplied."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identifier is established; absence of metadata is not proof that none exists."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified. The uploader and source collection are not automatically transfer-engineering credits."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is established. Upload dates and embedded year tags are not treated as transfer-session dates."
+    },
+    "processing": {
+      "value": "Wikimedia Commons supplies an MP3 access derivative of the uploaded Ogg Vorbis file.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This documents the access formats, not the original recording medium or any restoration procedure."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG/Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative; source Ogg Vorbis",
+    "durationSeconds": 99.3
+  },
+  "rights": {
+    "composition": {
+      "value": "The original 1910 piano-duet edition is catalogued as public domain.",
+      "status": "documented",
+      "sourceIds": [
+        "score"
+      ],
+      "note": "This reports the score repository’s status, not worldwide legal clearance or the rights in this sound recording; later editions and national exceptions require separate consideration."
+    },
+    "recording": {
+      "value": "Commons licenses this recording under CC BY-SA 3.0.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons licensing statement is reported as the reuse basis. MP3 transcoding is supplied by Wikimedia; no additional audio edit is made here."
+    },
+    "creditLine": "Maurice Ravel, Ma mère l’Oye, I. Pavane de la Belle au bois dormant; Duo Campion/Vachon. Via Wikimedia Commons; CC BY-SA 3.0. Wikimedia MP3 access transcoding; no additional audio changes.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Ravel Duo Campion-Vachon Ma Mere l'oye 1 Pavane de la Belle au bois dormant.OGG",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG",
+      "locator": "Description, source, author, licensing and file history; not all dates describe recording sessions.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-meta",
+      "title": "Wikimedia Commons — embedded metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG#metadata",
+      "locator": "Embedded author, copyright and digitising tags, where present; not independent confirmation of the file description.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Ravel, Ma mère l’Oye, piano four hands (Durand, 1910)",
+      "url": "https://hdl.handle.net/1802/17620",
+      "locator": "Durand 1910 score, printed pp. 2–3, Seconda and Prima parts. Sibley Music Library identifies the scan as public domain.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "duo",
+      "title": "Duo Campion/Vachon — performer names",
+      "url": "https://commons.wikimedia.org/wiki/Duo_Campion/Vachon",
+      "locator": "Guy Campion and Mario Vachon; the page embeds this recording.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "ircam",
+      "title": "IRCAM — Ma mère l’Oye",
+      "url": "https://brahms.ircam.fr/fr/work/ma-mere-l%27oye",
+      "locator": "Dedication to Mimie and Jean Godebski; premiere 20 April 1910 at the Salle Gaveau by Jeanne Leleu and Geneviève Durony. Information verified in page HTML.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "tales",
+      "title": "Ma mère l’Oye — literary sources",
+      "url": "https://en.wikipedia.org/wiki/Ma_m%C3%A8re_l%27Oye",
+      "locator": "Sleeping Beauty and Tom Thumb from Charles Perrault; distinction between the duet, orchestral suite and expanded ballet.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

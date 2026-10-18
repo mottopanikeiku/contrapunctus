@@ -1,0 +1,141 @@
+{
+  "id": "chopin-etude-op25-5-goldstein",
+  "work": {
+    "title": "Étude in E minor, Op. 25 No. 5",
+    "catalogue": "",
+    "movement": "Vivace",
+    "version": {
+      "value": "Piano original, performed on an Érard dated 1851",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The instrument date is stated in the Commons recording description. It is not a recording date."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Martha Goldstein",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer spelling normalised; no uncredited accompanist or soloist added."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The consulted source supplies no session date; an upload or instrument-manufacture date is not substituted.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Pandora Records",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "PAN 107",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "PAN 107 is given in the source recording description; the physical carrier of the digital transfer is not identified."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source supplier/uploader is identified below, but an individual transfer engineer is not established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No restoration, equalisation or speed correction is established from the source. Playback uses the supplied MP3 access file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Frederic_Chopin_-_Opus_25_-_Twelve_Grand_Etudes_-_e_minor.ogg/Frederic_Chopin_-_Opus_25_-_Twelve_Grand_Etudes_-_e_minor.ogg.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access file; no concatenation or playback pitch alteration",
+    "durationSeconds": 187.89333333333335
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition as identified by the source.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "CC BY-SA 2.0 / EFF Open Audio License",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons explicitly licenses Martha Goldstein’s recording under CC BY-SA 2.0 and identifies the EFF Open Audio License source release. The session date is not supplied."
+    },
+    "creditLine": "Étude in E minor, Op. 25 No. 5; Martha Goldstein, piano. CC BY-SA 2.0 / EFF Open Audio License. Source: Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — Frederic Chopin - Opus 25 - Twelve Grand Etudes - e minor.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Opus_25_-_Twelve_Grand_Etudes_-_e_minor.ogg",
+      "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

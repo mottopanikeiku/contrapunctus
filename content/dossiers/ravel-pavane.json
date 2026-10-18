@@ -120,12 +120,12 @@
       "note": "Maurice Ravel died in 1937. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "Creative Commons Attribution-ShareAlike 2.0 Generic",
+      "value": "Rule 1 — recording licence/release: CC BY-SA 2.0 (EFF Open Audio License).",
       "status": "documented",
       "sourceIds": [
-        "commons"
+        "rights-audit-commons"
       ],
-      "note": "Commons explains that the Pandora source used the EFF Open Audio License and treats it as interchangeable with CC BY-SA 2.0. The original linked licence page now returns 404; this dossier records Commons’ assertion rather than an independent reconstruction of the licence grant."
+      "note": "Commons explicitly applies cc-by-sa-2.0 and describes the EFF Open Audio License grant for Thérèse Dussaut’s recording. Its attributed 1976 date is later than the historic-recording cutoffs; rule 1, not an age-based rule, is used."
     },
     "creditLine": "Maurice Ravel: Pavane pour une infante défunte — Thérèse Dussaut, piano. Recorded by Glenn White in Seattle; session year inferred as 1976. Pandora Music / ibiblio source, via Wikimedia Commons under CC BY-SA 2.0; MP3 access derivative.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -158,6 +158,13 @@
       "url": "http://www.ibiblio.org/pandora/vorbis/piano/Dussaut/index.html",
       "locator": "05Pavane.ogg and accompanying Readme. Directory modification times are not transfer or session dates.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Maurice Ravel - Thérèse Dussaut - Pavane pour une infante défunte.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1227005244&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Maurice Ravel - Thérèse Dussaut - Pavane pour une infante défunte.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

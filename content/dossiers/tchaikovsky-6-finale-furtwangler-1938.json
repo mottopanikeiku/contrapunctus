@@ -1,0 +1,157 @@
+{
+  "id": "tchaikovsky-6-finale-furtwangler-1938",
+  "work": {
+    "title": "Symphony No. 6 in B minor “Pathétique”",
+    "catalogue": "Op. 74",
+    "movement": "IV. Finale — Adagio lamentoso",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source identifies the fourth movement, not a particular performing edition. No score collation or cut-by-cut comparison has been made."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Berlin Philharmonic Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Wilhelm Furtwängler",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The attribution is stated in the file description and embedded metadata. Individual orchestral personnel are not documented."
+  },
+  "session": {
+    "date": {
+      "value": "October–November 1938",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is the source’s range for the symphony sessions, not an established day for the finale.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Beethovensaal, Berlin",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source does not identify a live audience or concert; neither is inferred from the venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "78-rpm album DM 553",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "A transferred issue is identified, not a verified first-publication year."
+    },
+    "matrixTakeSides": {
+      "value": "032549–032560 (whole-album range)",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons supplies this range without assigning individual numbers or takes to the finale. It is retained as source-reported album identification, not a verified finale-side matrix list."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer engineer is identified; an uploader is not automatically the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload dates are not used as transfer dates."
+    },
+    "processing": {
+      "value": "Current Commons Ogg is the 609-second version restored on 29 May 2026; an intervening version lasted about 631 seconds.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The revision comment criticises processing on the superseded file. This documents an uploader’s statement, not an independent restoration analysis; no engineer, transfer date or processing settings are established. The linked upstream archive is unavailable."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Tchaikovsky_-_Path%C3%A9tique_-_Wilhelm_Furtw%C3%A4ngler_-_IV._Finale_-_Adagio_lamentoso.ogg/Tchaikovsky_-_Path%C3%A9tique_-_Wilhelm_Furtw%C3%A4ngler_-_IV._Finale_-_Adagio_lamentoso.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive-unavailable"
+    ],
+    "format": "Current Wikimedia Commons MP3 derivative of the restored 609-second Ogg source",
+    "durationSeconds": 609.3
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition public domain under the separate Commons composition notice.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composition notice identifies Tchaikovsky’s death in 1893; it is not the recording licence."
+    },
+    "recording": {
+      "value": "territorial — Commons explicitly applies PD-EU-audio to the sound recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive-unavailable"
+      ],
+      "note": "Programme rule 1 accepts this recording-specific European expiry statement; US status is not established. The linked Internet Archive item is dark: metadata returns is_dark:true, details returned HTTP 404 and metadata XML HTTP 403. A Wayback CDX request also returned 403. Therefore earlier upstream licence terms, including whether an NC restriction ever appeared, cannot be independently certified. No positive NC evidence was found in the available Commons record; unknown upstream terms are not represented as verified unrestricted terms."
+    },
+    "creditLine": "Tchaikovsky, Symphony No. 6, IV; Berlin Philharmonic Orchestra, Wilhelm Furtwängler. Berlin, October–November 1938; Victor DM 553 transfer via Wikimedia Commons. Recording-specific PD-EU-audio claim is territorial; US status and unavailable upstream transfer terms unestablished.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Furtwängler Pathétique finale",
+      "url": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Path%C3%A9tique_-_Wilhelm_Furtw%C3%A4ngler_-_IV._Finale_-_Adagio_lamentoso.ogg",
+      "locator": "Current revision oldid 1222244534: Summary, carrier and venue; Copyright information explicitly separates recording=PD-EU-audio from composition; file history reversion on 29 May 2026. Current audio analysed at 609.3 seconds; stale structured-data duration 631.08 seconds is not used.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-unavailable",
+      "title": "Internet Archive — linked source item, now dark",
+      "url": "https://archive.org/metadata/TCHAIKOVSKYSymphonyNo.6Pathetique-NEWTRANSFER",
+      "locator": "Checked 17 October 2026: metadata contains is_dark:true and no descriptive metadata or files; details page 404; direct item metadata XML 403. These unsuccessful accesses do not establish a licence.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Tchaikovsky Research — Symphony No. 6",
+      "url": "https://en.tchaikovsky-research.net/pages/Symphony_No._6",
+      "locator": "Composition and Letter 4865 for the planned long Adagio and private programme; first performance and publication chronology. Used for facts, not as an audio source.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

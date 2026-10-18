@@ -1,0 +1,152 @@
+{
+  "id": "elgar-cello-concerto-finale-skidmore",
+  "work": {
+    "title": "Cello Concerto in E minor",
+    "catalogue": "Op. 85",
+    "movement": "IV. Allegro — Moderato — Allegro ma non troppo",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source identifies the fourth movement but no performing edition. The 693.7-second file is the complete supplied finale; the comparison does not align its omitted-from-Harrison material."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Skidmore College Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The cellist and conductor are not identified. No name is inferred from the college’s current personnel or from unrelated performances."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No session date is supplied. Neither upload date nor the historical Musopen permission ticket dates the performance.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The institution’s location does not establish a recording venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier label is supplied; a born-digital session is not assumed."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue is supplied; a born-digital session is not assumed."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier identification is supplied; a born-digital session is not assumed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer engineer is identified; an uploader is not automatically the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload dates are not used as transfer dates."
+    },
+    "processing": {
+      "value": "Commons Ogg Vorbis source, supplied as an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original recording medium, editing history or restoration procedure is identified."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Edward_Elgar_-_cello_concerto_in_e_minor%2C_op._85_-_iv._allegro.ogg/Edward_Elgar_-_cello_concerto_in_e_minor%2C_op._85_-_iv._allegro.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia Commons MP3 derivative of Ogg Vorbis",
+    "durationSeconds": 693.7
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Elgar composition is out of copyright under the ordinary life-plus-70 term.",
+      "status": "inferred",
+      "sourceIds": [
+        "elgar"
+      ],
+      "note": "Elgar died in 1934; a later performing edition is not independently cleared."
+    },
+    "recording": {
+      "value": "Musopen public-domain recording release, documented by the file-specific PD-author notice and permission statement.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "musopen-template"
+      ],
+      "note": "Programme rule 1. The file-specific permission quotes unrestricted editing, sharing, film use and sale of films containing the music; its request not to sell recordings directly is expressly a courtesy, not a non-commercial licence. Musopen attribution is retained. Permission ticket 2008012110017088 is recorded on Commons but its private contents were not inspected. The historic Musopen homepage is not a recording-specific upstream item; no session details are inferred from it."
+    },
+    "creditLine": "Edward Elgar, Cello Concerto, Op. 85, IV; Skidmore College Orchestra. Cellist, conductor and session date uncredited. Public-domain recording supplied by Musopen, via Wikimedia Commons; attribution to Musopen retained.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-author"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Skidmore/Musopen Elgar finale",
+      "url": "https://commons.wikimedia.org/wiki/File:Edward_Elgar_-_cello_concerto_in_e_minor,_op._85_-_iv._allegro.ogg",
+      "locator": "File-description wikitext inspected: Skidmore attribution, blank session date, quoted recording-specific Musopen permission, attribution request, PD-author and permission ticket. Audio metadata supplies playable MP3 derivative.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "musopen-template",
+      "title": "Commons Musopen source template",
+      "url": "https://commons.wikimedia.org/wiki/Template:Musopen",
+      "locator": "Template distinguishes user-contributed public-domain audio from copyrighted Musopen site materials; it is not substituted for the file-specific release.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "elgar",
+      "title": "Internet Archive — Elgar biographical dates and first recording",
+      "url": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+      "locator": "Creator identifies Edward Elgar as 1857–1934; composition rights are treated separately from this modern recording.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

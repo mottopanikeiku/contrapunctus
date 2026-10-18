@@ -1,0 +1,263 @@
+{
+  "id": "schumann",
+  "places": [
+    {
+      "name": "Zwickau",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 50.7174,
+      "lon": 12.4961,
+      "from": "1810-06-08",
+      "to": "1828-03",
+      "kind": "born",
+      "what": "Born to a bookseller’s family with no musical connections; attended the Zwickau Lyceum from 1820 to eighteen.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        },
+        {
+          "title": "Robert-Schumann-Haus — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Robert-Schumann-Haus"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.34,
+      "lon": 12.375,
+      "from": "1828-03",
+      "to": "1829",
+      "kind": "studied",
+      "what": "Entered the university to read law, discovered Schubert, and took piano lessons with Friedrich Wieck.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "Heidelberg",
+      "country": "Grand Duchy of Baden (today Germany)",
+      "lat": 49.4167,
+      "lon": 8.7167,
+      "from": "1829",
+      "to": "1830",
+      "kind": "studied",
+      "what": "Moved to the university, where the easy discipline helped him choose music; he heard Paganini in Frankfurt in April 1830.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.34,
+      "lon": 12.375,
+      "from": "1830",
+      "to": "1844",
+      "kind": "lived",
+      "what": "Co-founded the <i>Neue Zeitschrift für Musik</i> in 1834 and wrote <i>Carnaval</i>, <i>Kreisleriana</i> and <i>Kinderszenen</i>.",
+      "work": "Carnaval; Kreisleriana; Kinderszenen",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "Inselstraße, Schumann-Haus, Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3405,
+      "lon": 12.3911,
+      "from": "1840-07-16",
+      "to": "1844",
+      "kind": "lived",
+      "what": "Rented the first-floor flat; the couple lived here their first four years of marriage, 1840–44.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Schumann-Haus — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Schumann-Haus"
+        }
+      ]
+    },
+    {
+      "name": "Gewandhaus, Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3383,
+      "lon": 12.3772,
+      "from": "1843-12-04",
+      "kind": "premiere",
+      "what": "Premiered his secular oratorio, then repeated at Dresden on 23 December; London heard it in 1856.",
+      "work": "Das Paradies und die Peri",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "St Petersburg and Moscow",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1844",
+      "to": "1844-05",
+      "kind": "travelled",
+      "what": "Joined Clara’s concert tour, meeting Glinka and Anton Rubinstein; he was exhausted by the end.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        },
+        {
+          "title": "Clara Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Clara_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "Dresden",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.05,
+      "lon": 13.74,
+      "from": "1844-12",
+      "to": "1850",
+      "kind": "lived",
+      "what": "Moved, hoping to become an operatic composer, after being passed over for the Gewandhaus conductorship.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "Musikverein, Vienna",
+      "country": "Austrian Empire (today Austria)",
+      "lat": 48.2006,
+      "lon": 16.3722,
+      "from": "1847-01-01",
+      "kind": "travelled",
+      "what": "On a winter tour his First Symphony and Piano Concerto drew a sparse, unenthusiastic audience.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.34,
+      "lon": 12.375,
+      "from": "1850-06",
+      "kind": "premiere",
+      "what": "Premiered his only opera, conducted by him, with Liszt in the audience; Liszt revived it at Weimar in 1855.",
+      "work": "Genoveva",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        }
+      ]
+    },
+    {
+      "name": "Düsseldorf",
+      "country": "Kingdom of Prussia (Rhine Province; today Germany)",
+      "lat": 51.2256,
+      "lon": 6.7767,
+      "from": "1850-09-01",
+      "to": "1854-03",
+      "kind": "worked",
+      "what": "Town director of music; wrote the Rhenish Symphony; his removal in 1853 followed strained relations with the orchestra.",
+      "work": "Symphony No. 3 “Rhenish”",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        },
+        {
+          "title": "Schumannhaus Düsseldorf — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Schumannhaus_Düsseldorf"
+        }
+      ]
+    },
+    {
+      "name": "Bilker Straße 15, Düsseldorf",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 51.2219,
+      "lon": 6.7727,
+      "from": "1852",
+      "to": "1854-03",
+      "kind": "lived",
+      "what": "His fourth and last Düsseldorf home; his son Felix was born here in 1854.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Schumannhaus Düsseldorf — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Schumannhaus_Düsseldorf"
+        }
+      ]
+    },
+    {
+      "name": "Endenich sanatorium, near Bonn",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 50.7244,
+      "lon": 7.0774,
+      "from": "1854-03-04",
+      "to": "1856-07-29",
+      "kind": "died",
+      "what": "Entered at his own request after the Rhine suicide attempt; treated by Richarz; died here on 29 July 1856.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Schumann — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Schumann"
+        },
+        {
+          "title": "Schumannhaus Bonn — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Schumannhaus_Bonn"
+        }
+      ]
+    },
+    {
+      "name": "Alter Friedhof, Bonn",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 50.7358,
+      "lon": 7.0903,
+      "from": "1856-07",
+      "kind": "buried",
+      "what": "His grave, later shared with Clara, lies in Bonn’s Old Cemetery under Donndorf’s 1880 monument.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Alter Friedhof Bonn — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Alter_Friedhof_Bonn"
+        },
+        {
+          "title": "Schumannhaus Bonn — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Schumannhaus_Bonn"
+        }
+      ]
+    }
+  ]
+}

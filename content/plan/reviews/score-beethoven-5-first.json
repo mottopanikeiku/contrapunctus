@@ -1,0 +1,65 @@
+{
+  "id": "beethoven-5-first",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, bar-map, provenance and visual review; not aural review.",
+  "defects": [],
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/beethoven-5-first-checks.json",
+    "primaryMedianSeconds": 0.06912182728348171,
+    "primaryP95Seconds": 1.1732632721339613,
+    "maximumAnchorDeviationSeconds": 0.03661445138012953,
+    "maximumLocalRegionMedianSeconds": 0.05194989776154557,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 626,
+    "distinctEngravedBars": 502,
+    "sheetPages": 16,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 29,
+    "unresolvedListenPointers": []
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/beethoven-5-first-0-8.89575.png",
+      "work/beethoven-5-first-56-64.png",
+      "work/beethoven-5-first-64-72.png",
+      "work/beethoven-5-first-72-80.png",
+      "work/beethoven-5-first-160-168.png",
+      "work/beethoven-5-first-192-200.png",
+      "work/beethoven-5-first-229.035-241.035.png",
+      "work/beethoven-5-first-256-264.png",
+      "work/beethoven-5-first-264-272.png",
+      "work/beethoven-5-first-344-352.png",
+      "work/beethoven-5-first-360-368.png",
+      "work/beethoven-5-first-494.537-500.115.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified in the inspected pitch-energy overlays. Earlier stale Beethoven endpoint PNGs were superseded by the final-candidate overlay set."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+    "opened": true,
+    "edition": "Breitkopf and Härtel, 1862–1865",
+    "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Exposition repeat is taken; bar 268 remains one cadenza bar. Large primary P95 is retained, not suppressed; nearest-onset matching does not establish orchestral pitch accuracy.",
+    "physicalPerformingEdition": "Unknown; the source edition is identified, not claimed as the performer’s copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label must remain."
+}

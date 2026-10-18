@@ -1,0 +1,2384 @@
+{
+  "cluster": "favourites",
+  "checkedAt": "2026-10-17",
+  "claimLabels": {
+    "EXT": "Source-reported metadata, source rights statements, catalogue information, and the scope of searches actually performed; not independent acoustic measurements.",
+    "MEAS": "Deterministic counts and sums of source-reported durations.",
+    "INFERENCE": "Editorial priorities, selection reasons, completeness inferred from track inventories, performance grouping where not explicit, and provisional quality grades.",
+    "SIM": "No simulation was performed.",
+    "fieldDefaults": {
+      "composer": "EXT",
+      "work": "EXT",
+      "year": "EXT",
+      "movement": "EXT",
+      "source": "EXT",
+      "duration": "EXT",
+      "licence": "EXT",
+      "rights": "EXT",
+      "performers": "EXT",
+      "recorded": "EXT",
+      "priority": "INFERENCE",
+      "why": "INFERENCE",
+      "complete": "INFERENCE",
+      "quality": "INFERENCE",
+      "qualityNote": "Explicit label in the string",
+      "summary": "MEAS",
+      "gaps": "EXT",
+      "excluded": "EXT"
+    }
+  },
+  "rightsPolicy": {
+    "claimType": "EXT",
+    "commons": "Commons licence governs eligibility under the lead’s explicit decision. PD-EU-audio sources are included with territorial: true; this is not a declaration of US public-domain status.",
+    "archive": "Require a PD/CC licence URL or documented US publication in or before 1925. Restrictive NC/ND licences are not selected. Questionable PD/CC0 marks on later commercial Ravel/Rachmaninoff recordings are flagged and excluded, not treated as permission from the record label.",
+    "ownRachmaninoff": "Selected own-performance tracks are Victor/Edison acoustic sessions reported before 1926, from an opened Archive item carrying a Public Domain Mark. No recording year is relabelled as a publication year; no unsupported US-cutoff rights object is invented.",
+    "rolls": "Only acoustic recordings of real reproducing pianos qualify, explicitly labelled as rolls. Neither old rolls nor software realisations clear rights in a later sound recording."
+  },
+  "method": {
+    "claimType": "EXT",
+    "sourcesOpened": "Every accepted file was checked with audio.mjs check or archive-files. Source URLs record the opened Commons API file identity or Archive metadata. Full Commons pages/revisions were additionally opened to resolve territorial licences and performers omitted by machine-readable metadata.",
+    "sourceChecks": "File existence, reported duration, MP3 derivative or MP3 filename, and licence/basis were checked. No complete audio was downloaded or auditioned; no DSP, local model, build, validator, or test was run.",
+    "quality": "All quality enums are explicitly provisional INFERENCE grades; actual sound quality, undocumented cuts, speed, noise and performance merit are unknown unless a source-specific note says otherwise.",
+    "completeness": "complete means the work inventory is covered, including explicitly referenced existing tracks where necessary. Existing tracks are not repeated in movements or totals. Gaspard is complete only as a labelled mixed-performance assembly; Tombeau, Rückert-Lieder and Mother Goose remain incomplete.",
+    "recentSearch": "An explicit 2026 public-domain search preceded historical discographic work. The opened UCSB 2026 notice establishes the current sound-recording cutoff; it does not clear later recordings.",
+    "durationPrecision": "Commons tool durations are rounded to seconds; Archive decimal durations are retained. Total minutes sum these metadata values, not new acoustic measurements."
+  },
+  "summary": {
+    "claimType": "MEAS",
+    "countingUnit": "One new streamable complete movement or short piece; alternatives included, existing tracks excluded. Distinct work-performance programmes are counted separately.",
+    "works": 25,
+    "recordings": 60,
+    "primaryRecordingFiles": 55,
+    "alternativeRecordingFiles": 5,
+    "workPerformanceProgrammes": 26,
+    "totalSeconds": 30722.27,
+    "totalMinutes": 512.04,
+    "completeWorkInventoriesIncludingExisting": 22,
+    "completionsUsingExistingMovements": 4,
+    "byPriority": {
+      "1": {
+        "works": 13,
+        "recordings": 39,
+        "minutes": 428.74
+      },
+      "2": {
+        "works": 12,
+        "recordings": 21,
+        "minutes": 83.3
+      }
+    },
+    "byComposer": {
+      "mahler": {
+        "works": 7,
+        "recordings": 32,
+        "minutes": 363.27
+      },
+      "rachmaninoff": {
+        "works": 12,
+        "recordings": 12,
+        "minutes": 51.87
+      },
+      "ravel": {
+        "works": 6,
+        "recordings": 16,
+        "minutes": 96.9
+      },
+      "prokofiev": {
+        "works": 0,
+        "recordings": 0,
+        "minutes": 0
+      }
+    },
+    "gaps": 25
+  },
+  "works": [
+    {
+      "composer": "mahler",
+      "work": "Symphony No. 2 in C minor “Resurrection”",
+      "year": "1888–94",
+      "priority": 1,
+      "why": "Complete the existing Urlicht performance, restoring the orchestral argument and choral finale.",
+      "complete": true,
+      "set": "mahler-symphony-2",
+      "movements": [
+        {
+          "movement": "I. Allegro maestoso",
+          "source": {
+            "file": "File:Mahler Symphony no. 2, I. Allegro maestoso.ogg"
+          },
+          "duration": 1330,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_I._Allegro_maestoso.ogg"
+          },
+          "performers": "Barbara Schubert; DuPage Symphony Orchestra",
+          "recorded": "2004-05-22",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_I._Allegro_maestoso.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "II. Andante moderato",
+          "source": {
+            "file": "File:Mahler Symphony no. 2, II. Andante moderato.ogg"
+          },
+          "duration": 622,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_II._Andante_moderato.ogg"
+          },
+          "performers": "Barbara Schubert; DuPage Symphony Orchestra",
+          "recorded": "2004-05-22",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_II._Andante_moderato.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "III. In ruhig fließender Bewegung",
+          "source": {
+            "file": "File:Mahler Symphony no. 2, III. In ruhig fließender Bewegung.ogg"
+          },
+          "duration": 689,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_III._In_ruhig_flie%C3%9Fender_Bewegung.ogg"
+          },
+          "performers": "Barbara Schubert; DuPage Symphony Orchestra",
+          "recorded": "2004-05-22",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_III._In_ruhig_flie%C3%9Fender_Bewegung.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "V. Im Tempo des Scherzos",
+          "source": {
+            "file": "File:Mahler Symphony no. 2, V. Im Tempo des Scherzos.ogg"
+          },
+          "duration": 2127,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_V._Im_Tempo_des_Scherzos.ogg"
+          },
+          "performers": "Barbara Schubert; DuPage Symphony Orchestra",
+          "recorded": "2004-05-22",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_no._2%2C_V._Im_Tempo_des_Scherzos.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 5,
+      "existing": [
+        {
+          "id": "mahler-2-urlicht",
+          "part": 4
+        }
+      ],
+      "samePerformance": true,
+      "completionNote": "INFERENCE: Complete after combining these four new movements with the existing fourth movement; soloists and chorus not individually identified by the checked metadata."
+    },
+    {
+      "composer": "mahler",
+      "work": "Symphony No. 4 in G major",
+      "year": "1899–1900",
+      "priority": 1,
+      "why": "Extend the existing first movement to the complete symphony, including its vocal ending.",
+      "complete": true,
+      "set": "mahler-symphony-4",
+      "movements": [
+        {
+          "movement": "II. In gemächlicher Bewegung",
+          "source": {
+            "file": "File:Mahler Symphony No.4 in G major 2. In gemachlicher Bewegung (Mahler) European Archive.ogg"
+          },
+          "duration": 513,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No.4_in_G_major_2._In_gemachlicher_Bewegung_(Mahler)_European_Archive.ogg"
+          },
+          "performers": "",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No.4_in_G_major_2._In_gemachlicher_Bewegung_(Mahler)_European_Archive.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "III. Ruhevoll",
+          "source": {
+            "file": "File:Mahler Symphony No.4 in G major 3. Ruhevoil (Mahler) European Archive.ogg"
+          },
+          "duration": 1213,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No.4_in_G_major_3._Ruhevoil_(Mahler)_European_Archive.ogg"
+          },
+          "performers": "",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No.4_in_G_major_3._Ruhevoil_(Mahler)_European_Archive.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "IV. Sehr behaglich — Das himmlische Leben",
+          "source": {
+            "file": "File:Mahler Symphony No.4 in G major 4. Sehr behaglich (Mahler) European Archive.ogg"
+          },
+          "duration": 520,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No.4_in_G_major_4._Sehr_behaglich_(Mahler)_European_Archive.ogg"
+          },
+          "performers": "",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No.4_in_G_major_4._Sehr_behaglich_(Mahler)_European_Archive.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 4,
+      "existing": [
+        {
+          "id": "mahler-4-bedaechtig",
+          "part": 1
+        }
+      ],
+      "samePerformance": "unknown",
+      "completionNote": "EXT: All four files belong to the European Archive/Musopen set. Actual performers and recording date are undocumented; the Commons 2021 date is not a session date."
+    },
+    {
+      "composer": "mahler",
+      "work": "Symphony No. 5",
+      "year": "1901–02",
+      "priority": 1,
+      "why": "Restore the complete Peabody performance around the existing Adagietto.",
+      "complete": true,
+      "set": "mahler-symphony-5",
+      "movements": [
+        {
+          "movement": "I. Trauermarsch",
+          "source": {
+            "file": "File:Mahler Symphony No. 5, I. Trauermarsch.ogg"
+          },
+          "duration": 764,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_I._Trauermarsch.ogg"
+          },
+          "performers": "Peabody Symphony Orchestra",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_I._Trauermarsch.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "II. Stürmisch bewegt, mit größter Vehemenz",
+          "source": {
+            "file": "File:Mahler Symphony No. 5, II. Stürmisch bewegt, mit größter Vehemenz.ogg"
+          },
+          "duration": 838,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg"
+          },
+          "performers": "Peabody Symphony Orchestra",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "III. Scherzo",
+          "source": {
+            "file": "File:Mahler Symphony No. 5, III. Scherzo.ogg"
+          },
+          "duration": 1002,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_III._Scherzo.ogg"
+          },
+          "performers": "Peabody Symphony Orchestra",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_III._Scherzo.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "V. Rondo-Finale",
+          "source": {
+            "file": "File:Mahler Symphony No. 5, V. Rondo Finale.ogg"
+          },
+          "duration": 1029,
+          "licence": "CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_V._Rondo_Finale.ogg"
+          },
+          "performers": "Peabody Symphony Orchestra",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony_No._5%2C_V._Rondo_Finale.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 5,
+      "existing": [
+        {
+          "id": "mahler-5-adagietto",
+          "part": 4
+        }
+      ],
+      "samePerformance": true,
+      "completionNote": "EXT: Commons dates these files 2006-11-19, also the Archive upload date. The performance date remains unknown; do not use that upload date as recorded."
+    },
+    {
+      "composer": "mahler",
+      "work": "Symphony No. 9",
+      "year": "1909–10",
+      "priority": 1,
+      "why": "A complete Walter performance supplies a historical counterpart to modern Mahler interpretations.",
+      "complete": true,
+      "set": "mahler-symphony-9",
+      "movements": [
+        {
+          "movement": "I. Andante comodo",
+          "source": {
+            "file": "File:Mahler - Symphony N° 9 - I (B. Walter, 1938).ogg"
+          },
+          "duration": 1501,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_I_(B._Walter%2C_1938).ogg"
+          },
+          "performers": "Vienna Philharmonic; Bruno Walter",
+          "recorded": "1938-01-16",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_I_(B._Walter%2C_1938).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true,
+          "rightsNote": "EXT: Commons PD-EU-audio; accepted for Commons streaming under the lead’s territorial policy, not a US-PD assertion."
+        },
+        {
+          "movement": "II. Im Tempo eines gemächlichen Ländlers",
+          "source": {
+            "file": "File:Mahler - Symphony N° 9 - II (B. Walter, 1938).ogg"
+          },
+          "duration": 946,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_II_(B._Walter%2C_1938).ogg"
+          },
+          "performers": "Vienna Philharmonic; Bruno Walter",
+          "recorded": "1938-01-16",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_II_(B._Walter%2C_1938).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true,
+          "rightsNote": "EXT: Commons PD-EU-audio; accepted for Commons streaming under the lead’s territorial policy, not a US-PD assertion."
+        },
+        {
+          "movement": "III. Rondo-Burleske",
+          "source": {
+            "file": "File:Mahler - Symphony N° 9 - III (B. Walter, 1938).ogg"
+          },
+          "duration": 686,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_III_(B._Walter%2C_1938).ogg"
+          },
+          "performers": "Vienna Philharmonic; Bruno Walter",
+          "recorded": "1938-01-16",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_III_(B._Walter%2C_1938).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true,
+          "rightsNote": "EXT: Commons PD-EU-audio; accepted for Commons streaming under the lead’s territorial policy, not a US-PD assertion."
+        },
+        {
+          "movement": "IV. Adagio",
+          "source": {
+            "file": "File:Mahler - Symphony N° 9 - IV (B. Walter, 1938).ogg"
+          },
+          "duration": 1110,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_IV_(B._Walter%2C_1938).ogg"
+          },
+          "performers": "Vienna Philharmonic; Bruno Walter",
+          "recorded": "1938-01-16",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Symphony_N%C2%B0_9_-_IV_(B._Walter%2C_1938).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true,
+          "rightsNote": "EXT: Commons PD-EU-audio; accepted for Commons streaming under the lead’s territorial policy, not a US-PD assertion."
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 4,
+      "samePerformance": true
+    },
+    {
+      "composer": "mahler",
+      "work": "Kindertotenlieder",
+      "year": "1901–04",
+      "priority": 1,
+      "why": "Offer the complete five-song cycle with contrasting baritone and contralto performances.",
+      "complete": true,
+      "set": "mahler-kindertotenlieder",
+      "movements": [
+        {
+          "movement": "I. Nun will die Sonn’ so hell aufgeh’n",
+          "source": {
+            "file": "File:Mahler - Kindertotenlieder, I (Fischer-Dieskau, Kempe, 1955).ogg"
+          },
+          "duration": 313,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_I_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg"
+          },
+          "performers": "Dietrich Fischer-Dieskau; Berlin Philharmonic; Rudolf Kempe",
+          "recorded": "1955-06-20–21",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_I_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true
+        },
+        {
+          "movement": "II. Nun seh’ ich wohl, warum so dunkle Flammen",
+          "source": {
+            "file": "File:Mahler - Kindertotenlieder, II (Fischer-Dieskau, Kempe, 1955).ogg"
+          },
+          "duration": 291,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_II_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg"
+          },
+          "performers": "Dietrich Fischer-Dieskau; Berlin Philharmonic; Rudolf Kempe",
+          "recorded": "1955-06-20–21",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_II_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true
+        },
+        {
+          "movement": "III. Wenn dein Mütterlein",
+          "source": {
+            "file": "File:Mahler - Kindertotenlieder, III (Fischer-Dieskau, Kempe, 1955).ogg"
+          },
+          "duration": 274,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_III_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg"
+          },
+          "performers": "Dietrich Fischer-Dieskau; Berlin Philharmonic; Rudolf Kempe",
+          "recorded": "1955-06-20–21",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_III_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true
+        },
+        {
+          "movement": "IV. Oft denk’ ich, sie sind nur ausgegangen",
+          "source": {
+            "file": "File:Mahler - Kindertotenlieder, IV (Fischer-Dieskau, Kempe, 1955).ogg"
+          },
+          "duration": 186,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_IV_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg"
+          },
+          "performers": "Dietrich Fischer-Dieskau; Berlin Philharmonic; Rudolf Kempe",
+          "recorded": "1955-06-20–21",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_IV_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true
+        },
+        {
+          "movement": "V. In diesem Wetter, in diesem Braus",
+          "source": {
+            "file": "File:Mahler - Kindertotenlieder, V (Fischer-Dieskau, Kempe, 1955).ogg"
+          },
+          "duration": 409,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_V_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg"
+          },
+          "performers": "Dietrich Fischer-Dieskau; Berlin Philharmonic; Rudolf Kempe",
+          "recorded": "1955-06-20–21",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_V_(Fischer-Dieskau%2C_Kempe%2C_1955).ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true
+        }
+      ],
+      "alternatives": [
+        {
+          "composer": "mahler",
+          "work": "Kindertotenlieder",
+          "year": "1901–04",
+          "priority": 2,
+          "why": "Compare a contralto’s orchestral balance and phrase lengths with Fischer-Dieskau’s baritone.",
+          "complete": true,
+          "set": "mahler-kindertotenlieder",
+          "samePerformance": true,
+          "movements": [
+            {
+              "movement": "I. Nun will die Sonn’ so hell aufgeh’n",
+              "source": {
+                "file": "File:Mahler - Kindertotenlieder, I (Anderson, Monteux, 1950).ogg"
+              },
+              "duration": 280,
+              "licence": "Public domain",
+              "rights": {
+                "basis": "commons-licence",
+                "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_I_(Anderson%2C_Monteux%2C_1950).ogg"
+              },
+              "performers": "Marian Anderson; San Francisco Symphony; Pierre Monteux",
+              "recorded": "1950",
+              "quality": "fair",
+              "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+              "qualityProvisional": true,
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_I_(Anderson%2C_Monteux%2C_1950).ogg",
+              "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+              "streamable": true,
+              "territorial": true
+            },
+            {
+              "movement": "II. Nun seh’ ich wohl, warum so dunkle Flammen",
+              "source": {
+                "file": "File:Mahler - Kindertotenlieder, II (Anderson, Monteux, 1950).ogg"
+              },
+              "duration": 238,
+              "licence": "Public domain",
+              "rights": {
+                "basis": "commons-licence",
+                "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_II_(Anderson%2C_Monteux%2C_1950).ogg"
+              },
+              "performers": "Marian Anderson; San Francisco Symphony; Pierre Monteux",
+              "recorded": "1950",
+              "quality": "fair",
+              "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+              "qualityProvisional": true,
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_II_(Anderson%2C_Monteux%2C_1950).ogg",
+              "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+              "streamable": true,
+              "territorial": true
+            },
+            {
+              "movement": "III. Wenn dein Mütterlein",
+              "source": {
+                "file": "File:Mahler - Kindertotenlieder, III (Anderson, Monteux, 1950).ogg"
+              },
+              "duration": 252,
+              "licence": "Public domain",
+              "rights": {
+                "basis": "commons-licence",
+                "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_III_(Anderson%2C_Monteux%2C_1950).ogg"
+              },
+              "performers": "Marian Anderson; San Francisco Symphony; Pierre Monteux",
+              "recorded": "1950",
+              "quality": "fair",
+              "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+              "qualityProvisional": true,
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_III_(Anderson%2C_Monteux%2C_1950).ogg",
+              "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+              "streamable": true,
+              "territorial": true
+            },
+            {
+              "movement": "IV. Oft denk’ ich, sie sind nur ausgegangen",
+              "source": {
+                "file": "File:Mahler - Kindertotenlieder, IV (Anderson, Monteux, 1950).ogg"
+              },
+              "duration": 183,
+              "licence": "Public domain",
+              "rights": {
+                "basis": "commons-licence",
+                "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_IV_(Anderson%2C_Monteux%2C_1950).ogg"
+              },
+              "performers": "Marian Anderson; San Francisco Symphony; Pierre Monteux",
+              "recorded": "1950",
+              "quality": "fair",
+              "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+              "qualityProvisional": true,
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_IV_(Anderson%2C_Monteux%2C_1950).ogg",
+              "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+              "streamable": true,
+              "territorial": true
+            },
+            {
+              "movement": "V. In diesem Wetter, in diesem Braus",
+              "source": {
+                "file": "File:Mahler - Kindertotenlieder, V (Anderson, Monteux, 1950).ogg"
+              },
+              "duration": 371,
+              "licence": "Public domain",
+              "rights": {
+                "basis": "commons-licence",
+                "evidence": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_V_(Anderson%2C_Monteux%2C_1950).ogg"
+              },
+              "performers": "Marian Anderson; San Francisco Symphony; Pierre Monteux",
+              "recorded": "1950",
+              "quality": "fair",
+              "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+              "qualityProvisional": true,
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_-_Kindertotenlieder%2C_V_(Anderson%2C_Monteux%2C_1950).ogg",
+              "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+              "streamable": true,
+              "territorial": true
+            }
+          ],
+          "alternatives": []
+        }
+      ],
+      "expectedMovements": 5,
+      "samePerformance": true
+    },
+    {
+      "composer": "mahler",
+      "work": "Rückert-Lieder",
+      "year": "1901–02",
+      "priority": 2,
+      "why": "A licensed complete song introduces the cycle while the other four remain a documented gap.",
+      "complete": false,
+      "set": "mahler-ruckert-lieder",
+      "movements": [
+        {
+          "movement": "Ich bin der Welt abhanden gekommen — concert-band arrangement",
+          "source": {
+            "file": "File:\"Ich bin der Welt abhanden gekommen\" from Rückert-Lieder - United States Navy Band.ogg"
+          },
+          "duration": 361,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3A%22Ich_bin_der_Welt_abhanden_gekommen%22_from_R%C3%BCckert-Lieder_-_United_States_Navy_Band.ogg"
+          },
+          "performers": "Susan Kavinski, soprano; Richard Reed, cor anglais; United States Navy Concert Band",
+          "recorded": "2020-12",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%22Ich_bin_der_Welt_abhanden_gekommen%22_from_R%C3%BCckert-Lieder_-_United_States_Navy_Band.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "arrangement": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 5,
+      "missingMovements": [
+        "Blicke mir nicht in die Lieder!",
+        "Ich atmet’ einen linden Duft",
+        "Um Mitternacht",
+        "Liebst du um Schönheit"
+      ],
+      "completionNote": "EXT: This is the complete song in a band arrangement, not the complete Rückert-Lieder collection or the original orchestration."
+    },
+    {
+      "composer": "mahler",
+      "work": "Das Lied von der Erde",
+      "year": "1908–09",
+      "priority": 1,
+      "why": "Supply all six songs from one historical concert, rather than isolated farewell excerpts.",
+      "complete": true,
+      "set": "mahler-das-lied-von-der-erde",
+      "movements": [
+        {
+          "movement": "I. Das Trinklied vom Jammer der Erde",
+          "source": {
+            "archive": {
+              "item": "06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+              "file": "01 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Carl Martin ÖHMANN (Tenor) - 1.Das Trinklied vom Jammer der Erde.mp3"
+            }
+          },
+          "duration": 536.03,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193"
+          },
+          "performers": "Kerstin Thorborg, contralto; Carl Martin Öhmann, tenor; Concertgebouw Orchestra; Carl Schuricht",
+          "recorded": "1939-10-05",
+          "quality": "fair",
+          "qualityProvisional": true,
+          "qualityNote": "INFERENCE: Historic live source; sound and cuts unassessed.",
+          "territorial": true,
+          "sourceUrl": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "streamable": true
+        },
+        {
+          "movement": "II. Der Einsame im Herbst",
+          "source": {
+            "archive": {
+              "item": "06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+              "file": "02 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Kerstin THORBORG (Alt) - 2.Der Einsame im Herbst.mp3"
+            }
+          },
+          "duration": 577.05,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193"
+          },
+          "performers": "Kerstin Thorborg, contralto; Carl Martin Öhmann, tenor; Concertgebouw Orchestra; Carl Schuricht",
+          "recorded": "1939-10-05",
+          "quality": "fair",
+          "qualityProvisional": true,
+          "qualityNote": "INFERENCE: Historic live source; sound and cuts unassessed.",
+          "territorial": true,
+          "sourceUrl": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "streamable": true
+        },
+        {
+          "movement": "III. Von der Jugend",
+          "source": {
+            "archive": {
+              "item": "06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+              "file": "03 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Carl Martin ÖHMANN (Tenor) - 5.Von der Jugend.mp3"
+            }
+          },
+          "duration": 208.38,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193"
+          },
+          "performers": "Kerstin Thorborg, contralto; Carl Martin Öhmann, tenor; Concertgebouw Orchestra; Carl Schuricht",
+          "recorded": "1939-10-05",
+          "quality": "fair",
+          "qualityProvisional": true,
+          "qualityNote": "INFERENCE: Historic live source; sound and cuts unassessed.",
+          "territorial": true,
+          "sourceUrl": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "streamable": true
+        },
+        {
+          "movement": "IV. Von der Schönheit",
+          "source": {
+            "archive": {
+              "item": "06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+              "file": "04 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Kerstin THORBORG (Alt) - 4.Von der Schönheit.mp3"
+            }
+          },
+          "duration": 404.72,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193"
+          },
+          "performers": "Kerstin Thorborg, contralto; Carl Martin Öhmann, tenor; Concertgebouw Orchestra; Carl Schuricht",
+          "recorded": "1939-10-05",
+          "quality": "fair",
+          "qualityProvisional": true,
+          "qualityNote": "INFERENCE: Historic live source; sound and cuts unassessed.",
+          "territorial": true,
+          "sourceUrl": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "streamable": true
+        },
+        {
+          "movement": "V. Der Trunkene im Frühling",
+          "source": {
+            "archive": {
+              "item": "06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+              "file": "05 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Carl Martin ÖHMANN (Tenor) - 5.Der Trunkene im Frühling.mp3"
+            }
+          },
+          "duration": 290.04,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193"
+          },
+          "performers": "Kerstin Thorborg, contralto; Carl Martin Öhmann, tenor; Concertgebouw Orchestra; Carl Schuricht",
+          "recorded": "1939-10-05",
+          "quality": "fair",
+          "qualityProvisional": true,
+          "qualityNote": "INFERENCE: Historic live source; sound and cuts unassessed.",
+          "territorial": true,
+          "sourceUrl": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "streamable": true
+        },
+        {
+          "movement": "VI. Der Abschied",
+          "source": {
+            "archive": {
+              "item": "06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+              "file": "06 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Kerstin THORBORG (Alt) - 6.Der Abschied.mp3"
+            }
+          },
+          "duration": 1732.05,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193"
+          },
+          "performers": "Kerstin Thorborg, contralto; Carl Martin Öhmann, tenor; Concertgebouw Orchestra; Carl Schuricht",
+          "recorded": "1939-10-05",
+          "quality": "fair",
+          "qualityProvisional": true,
+          "qualityNote": "EXT: Archive notes an audience interjection; other sound issues unassessed.",
+          "territorial": true,
+          "sourceUrl": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "streamable": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 6,
+      "samePerformance": true,
+      "completionNote": "EXT: The third filename mistakenly numbers Von der Jugend as 5; the movement title identifies III. The seventh MP3 repeats an interjection and is excluded. The uploader’s first-recording claim is not adopted."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Piano Concerto No. 2 in C minor, Op. 18",
+      "year": "1900–01",
+      "priority": 1,
+      "why": "Complete the existing Richter–Wisłocki performance with its finale.",
+      "complete": true,
+      "set": "rachmaninoff-concerto-2",
+      "movements": [
+        {
+          "movement": "III. Allegro scherzando",
+          "source": {
+            "file": "File:Sergei Rachmaninov - Concerto no. 2 for Piano and Orchestra in C minor - 3. Allegro scherzando (Sviatoslav Richter, Stanisław Wisłocki, Warsaw National Philharmonic Orchestra, 1959).flac"
+          },
+          "duration": 700,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3ASergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_3._Allegro_scherzando_(Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959).flac"
+          },
+          "performers": "Sviatoslav Richter; Warsaw National Philharmonic Orchestra; Stanisław Wisłocki",
+          "recorded": "1959",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_3._Allegro_scherzando_(Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959).flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true,
+          "rightsNote": "EXT: Only PD-EU-audio is asserted on Commons. Included under the lead’s explicit territorial-streaming decision; no US-PD assertion."
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 3,
+      "existing": [
+        {
+          "id": "rachmaninoff-concerto-2-moderato",
+          "part": 1
+        },
+        {
+          "id": "rachmaninoff-concerto-2-adagio",
+          "part": 2
+        }
+      ],
+      "samePerformance": true
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Prelude in B minor, Op. 32 No. 10",
+      "year": "1910",
+      "priority": 1,
+      "why": "Balance concerto-scale Rachmaninoff with a complete independently licensed piano prelude.",
+      "complete": true,
+      "set": "rachmaninoff-prelude-op32-10",
+      "movements": [
+        {
+          "movement": "Lento",
+          "source": {
+            "file": "File:Rachmaninoff Prelude in B Minor, Op. 32, No. 10.oga"
+          },
+          "duration": 321,
+          "licence": "CC BY 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3ARachmaninoff_Prelude_in_B_Minor%2C_Op._32%2C_No._10.oga"
+          },
+          "performers": "La Pianista",
+          "recorded": "2010-05-12",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARachmaninoff_Prelude_in_B_Minor%2C_Op._32%2C_No._10.oga",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "rightsNote": "EXT: Full Commons page licenses the recording CC BY 3.0. The check tool’s Public domain label applies to composition metadata and must not replace recording attribution."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Étude-tableau in E♭ minor, Op. 39 No. 5",
+      "year": "1916–17",
+      "priority": 1,
+      "why": "Add a complete study-picture from the later piano collection.",
+      "complete": true,
+      "set": "rachmaninoff-etude-op39-5",
+      "movements": [
+        {
+          "movement": "Appassionato",
+          "source": {
+            "file": "File:Sergei Rachmaninoff - Etudes-Tableaux, Op. 39, No. 5.oga"
+          },
+          "duration": 271,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3ASergei_Rachmaninoff_-_Etudes-Tableaux%2C_Op._39%2C_No._5.oga"
+          },
+          "performers": "Karine Gilanyan",
+          "recorded": "2005–07",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASergei_Rachmaninoff_-_Etudes-Tableaux%2C_Op._39%2C_No._5.oga",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Prelude in G minor, Op. 23 No. 5",
+      "year": "1901–03",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-prelude-op23-5",
+      "movements": [
+        {
+          "movement": "Alla marcia",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "186 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Prelude, Op. 23, No. 5 (rec. 17.V.1920).mp3"
+            }
+          },
+          "duration": 216,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1920-05-17",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Prelude in G♯ minor, Op. 32 No. 12",
+      "year": "1910",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-prelude-op32-12",
+      "movements": [
+        {
+          "movement": "Allegro",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "187 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Prelude, Op. 32, No. 12 (rec. 21.I.1921).mp3"
+            }
+          },
+          "duration": 154,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1921-01-21",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Prelude in C♯ minor, Op. 3 No. 2",
+      "year": "1892",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-prelude-op3-2",
+      "movements": [
+        {
+          "movement": "Lento",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "188 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Prelude, Op. 3, No. 2 (rec. 14.X.1921).mp3"
+            }
+          },
+          "duration": 220,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1921-10-14",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true,
+      "existing": [
+        {
+          "id": "rachmaninoff-prelude-c-sharp-minor",
+          "relationship": "Different performance: existing Edison 1919; proposed Victor 1921."
+        }
+      ],
+      "comparisonNote": "EXT: This is a different recording, not a duplicate of the existing 1919 Edison performance."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Prelude in G major, Op. 32 No. 5",
+      "year": "1910",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-prelude-op32-5",
+      "movements": [
+        {
+          "movement": "Moderato",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "189 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Prelude, Op. 32, No. 5 (rec. 3.V.1920).mp3"
+            }
+          },
+          "duration": 183,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1920-05-03",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Sérénade, Op. 3 No. 5",
+      "year": "unknown",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-serenade-op3-5",
+      "movements": [
+        {
+          "movement": "Sérénade",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "190 - Complete RACHMANINOFF - CD 10 -Rachmaninov - Serenade, Op. 3, No. 5 (rec. 4.XI.1922).mp3"
+            }
+          },
+          "duration": 190,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1922-11-04",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true,
+      "compositionDateNote": "EXT: Composition date was not established by the opened tracklist."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Lilacs, Op. 21 No. 5 — composer’s piano transcription",
+      "year": "unknown",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-lilacs-piano",
+      "movements": [
+        {
+          "movement": "Lilacs",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "191 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Lilacs, Op. 21, No. 5 (rec. 27.XII.1923).mp3"
+            }
+          },
+          "duration": 153,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1923-12-27",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true,
+      "compositionDateNote": "EXT: Composition date was not established by the opened tracklist."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Polichinelle, Op. 3 No. 4",
+      "year": "unknown",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-polichinelle",
+      "movements": [
+        {
+          "movement": "Polichinelle",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "192 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Polichinelle, Op. 3, No. 4 (rec. 6.III.1923).mp3"
+            }
+          },
+          "duration": 219,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1923-03-06",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true,
+      "compositionDateNote": "EXT: Composition date was not established by the opened tracklist."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Polka de V.R.",
+      "year": "unknown",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-polka-vr",
+      "movements": [
+        {
+          "movement": "Polka de V.R. — Edison acoustic recording",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "200 - Complete RACHMANINOFF - CD 10 -Rachmaninov - Polka de V.R. (rec. 23.IV.1919 for Edison).mp3"
+            }
+          },
+          "duration": 249,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1919-04-23",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true,
+      "compositionDateNote": "EXT: Composition date was not established by the opened tracklist."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Barcarolle, Op. 10 No. 3",
+      "year": "unknown",
+      "priority": 2,
+      "why": "Hear the composer’s own acoustic recording of a complete piano piece.",
+      "complete": true,
+      "set": "rachmaninoff-barcarolle-op10-3",
+      "movements": [
+        {
+          "movement": "Barcarolle — Edison acoustic recording",
+          "source": {
+            "archive": {
+              "item": "195-complete-rachmaninoff-cd-10",
+              "file": "201 - Complete RACHMANINOFF - CD 10 -Rachmaninov - Barcarolle, Op. 10, No. 3 (rec. 23.IV.1919 for Edison).mp3"
+            }
+          },
+          "duration": 236,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "archive-licence-url",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "evidence": "EXT: Archive tracklist identifies the named Victor/Edison session; item carries a Public Domain Mark. https://archive.org/metadata/195-complete-rachmaninoff-cd-10"
+          },
+          "performers": "Sergei Rachmaninoff, piano",
+          "recorded": "1919-04-23",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Acoustic-era transfer; noise and speed unassessed.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+          "streamable": true,
+          "checkedVia": "node tools/audio.mjs archive-files; opened Archive metadata",
+          "composerPerformer": true
+        }
+      ],
+      "alternatives": [],
+      "samePerformance": true,
+      "compositionDateNote": "EXT: Composition date was not established by the opened tracklist."
+    },
+    {
+      "composer": "ravel",
+      "work": "Gaspard de la nuit",
+      "year": "1908",
+      "priority": 1,
+      "why": "Offer all three movements while explicitly identifying the necessary change of pianist.",
+      "complete": true,
+      "set": "ravel-gaspard-de-la-nuit",
+      "movements": [
+        {
+          "movement": "I. Ondine",
+          "source": {
+            "file": "File:Maurice Ravel - Gaspard de la nuit - 1. Ondine.flac"
+          },
+          "duration": 408,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Gaspard_de_la_nuit_-_1._Ondine.flac"
+          },
+          "performers": "Andriy Makarevych",
+          "recorded": "2014-04-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Gaspard_de_la_nuit_-_1._Ondine.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "II. Le Gibet",
+          "source": {
+            "file": "File:Maurice Ravel- Gaspard de la Nuit- II Le Gibet.flac"
+          },
+          "duration": 425,
+          "licence": "CC BY-SA 4.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac"
+          },
+          "performers": "OE1FEU",
+          "recorded": "2020-04-03",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "III. Scarbo",
+          "source": {
+            "file": "File:Maurice Ravel - Gaspard de la nuit - 3. Scarbo.flac"
+          },
+          "duration": 579,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Gaspard_de_la_nuit_-_3._Scarbo.flac"
+          },
+          "performers": "Andriy Makarevych",
+          "recorded": "2014-04-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Gaspard_de_la_nuit_-_3._Scarbo.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 3,
+      "samePerformance": false,
+      "mixedPerformance": true,
+      "completionNote": "EXT: Ondine and Scarbo are Makarevych’s Lviv recording; Le Gibet is OE1FEU’s Bechstein D 282 recording in Vienna. This mixed-performer set must be labelled in the introduction."
+    },
+    {
+      "composer": "ravel",
+      "work": "Miroirs",
+      "year": "1904–05",
+      "priority": 1,
+      "why": "A complete five-piece cycle from one documented conservatory performance.",
+      "complete": true,
+      "set": "ravel-miroirs",
+      "movements": [
+        {
+          "movement": "I. Noctuelles",
+          "source": {
+            "file": "File:Maurice Ravel - Miroirs - 1. Noctuelles.flac"
+          },
+          "duration": 259,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_1._Noctuelles.flac"
+          },
+          "performers": "Olena Havyuk-Sheremet",
+          "recorded": "2014-04-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_1._Noctuelles.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "permissionNote": "EXT: Lviv Conservatory/Wikimedia Ukraine recording; Commons VRT ticket 2014040310015687."
+        },
+        {
+          "movement": "II. Oiseaux tristes",
+          "source": {
+            "file": "File:Maurice Ravel - Miroirs - 2. Oiseaux tristes.flac"
+          },
+          "duration": 214,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_2._Oiseaux_tristes.flac"
+          },
+          "performers": "Olena Havyuk-Sheremet",
+          "recorded": "2014-04-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_2._Oiseaux_tristes.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "permissionNote": "EXT: Lviv Conservatory/Wikimedia Ukraine recording; Commons VRT ticket 2014040310015687."
+        },
+        {
+          "movement": "III. Une barque sur l’océan",
+          "source": {
+            "file": "File:Maurice Ravel - Miroirs - 3. Une barque sur l'océan.flac"
+          },
+          "duration": 403,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_3._Une_barque_sur_l'oc%C3%A9an.flac"
+          },
+          "performers": "Olena Havyuk-Sheremet",
+          "recorded": "2014-04-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_3._Une_barque_sur_l'oc%C3%A9an.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "permissionNote": "EXT: Lviv Conservatory/Wikimedia Ukraine recording; Commons VRT ticket 2014040310015687."
+        },
+        {
+          "movement": "IV. Alborada del gracioso",
+          "source": {
+            "file": "File:Maurice Ravel - Miroirs - 4. Alborada del gracioso.flac"
+          },
+          "duration": 357,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_4._Alborada_del_gracioso.flac"
+          },
+          "performers": "Olena Havyuk-Sheremet",
+          "recorded": "2014-04-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_4._Alborada_del_gracioso.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "permissionNote": "EXT: Lviv Conservatory/Wikimedia Ukraine recording; Commons VRT ticket 2014040310015687."
+        },
+        {
+          "movement": "V. La vallée des cloches",
+          "source": {
+            "file": "File:Maurice Ravel - Miroirs - 5. La vallée des cloches.flac"
+          },
+          "duration": 283,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_5._La_vall%C3%A9e_des_cloches.flac"
+          },
+          "performers": "Olena Havyuk-Sheremet",
+          "recorded": "2014-04-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Miroirs_-_5._La_vall%C3%A9e_des_cloches.flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "permissionNote": "EXT: Lviv Conservatory/Wikimedia Ukraine recording; Commons VRT ticket 2014040310015687."
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 5,
+      "samePerformance": true
+    },
+    {
+      "composer": "ravel",
+      "work": "Le Tombeau de Couperin — piano version",
+      "year": "1914–17",
+      "priority": 2,
+      "why": "Provide complete individual movements, but do not mislabel this mixed and incomplete collection as a complete suite.",
+      "complete": false,
+      "set": "ravel-tombeau-de-couperin",
+      "movements": [
+        {
+          "movement": "I. Prélude",
+          "source": {
+            "file": "File:Maurice Ravel - Isaac David - Le Tombeau de Couperin. I. Prélude.opus"
+          },
+          "duration": 240,
+          "licence": "CC BY-SA 4.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Isaac_David_-_Le_Tombeau_de_Couperin._I._Pr%C3%A9lude.opus"
+          },
+          "performers": "Isaac David",
+          "recorded": "2017",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Isaac_David_-_Le_Tombeau_de_Couperin._I._Pr%C3%A9lude.opus",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "II. Fugue",
+          "source": {
+            "file": "File:Maurice Ravel - Le Tombeau de Couperin. II. Fugue.opus"
+          },
+          "duration": 205,
+          "licence": "CC BY 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Le_Tombeau_de_Couperin._II._Fugue.opus"
+          },
+          "performers": "Alan Chan",
+          "recorded": "2017",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Le_Tombeau_de_Couperin._II._Fugue.opus",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "III. Forlane",
+          "source": {
+            "file": "File:Maurice Ravel - azuma - Le Tombeau de Couperin. III. Forlane (live).opus"
+          },
+          "duration": 414,
+          "licence": "CC BY 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_(live).opus"
+          },
+          "performers": "azuma",
+          "recorded": "2007-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._III._Forlane_(live).opus",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "V. Menuet",
+          "source": {
+            "file": "File:Maurice Ravel - azuma - Le Tombeau de Couperin. V. Menuet (live).opus"
+          },
+          "duration": 300,
+          "licence": "CC BY 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._V._Menuet_(live).opus"
+          },
+          "performers": "azuma",
+          "recorded": "2007-01",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_azuma_-_Le_Tombeau_de_Couperin._V._Menuet_(live).opus",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        },
+        {
+          "movement": "VI. Toccata",
+          "source": {
+            "file": "File:Maurice Ravel - Le Tombeau de Couperin - Toccata (Marcelle Meyer).flac"
+          },
+          "duration": 236,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_(Marcelle_Meyer).flac"
+          },
+          "performers": "Marcelle Meyer",
+          "recorded": "1954",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Le_Tombeau_de_Couperin_-_Toccata_(Marcelle_Meyer).flac",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true,
+          "territorial": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 6,
+      "missingMovements": [
+        "IV. Rigaudon — unaltered acoustic performance"
+      ],
+      "samePerformance": false,
+      "mixedPerformance": true,
+      "completionNote": "EXT: The available Franz Yang Rigaudon file was sped up 20% by its uploader and is excluded. No single-performance complete set was established."
+    },
+    {
+      "composer": "ravel",
+      "work": "La valse — two-piano version, M. 72a",
+      "year": "1919–20",
+      "priority": 1,
+      "why": "The complete two-piano version supplies a licensed alternative to the unavailable orchestral performance.",
+      "complete": true,
+      "set": "ravel-la-valse-two-pianos",
+      "movements": [
+        {
+          "movement": "La valse — complete two-piano version",
+          "source": {
+            "file": "File:Ravel's La Valse for two pianos, M. 72a - O'Doan & O'Doan.ogg"
+          },
+          "duration": 674,
+          "licence": "CC BY-SA 2.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3ARavel's_La_Valse_for_two_pianos%2C_M._72a_-_O'Doan_%26_O'Doan.ogg"
+          },
+          "performers": "Nancy O’Doan; Neal O’Doan",
+          "recorded": "2010-06-07",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARavel's_La_Valse_for_two_pianos%2C_M._72a_-_O'Doan_%26_O'Doan.ogg",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": [],
+      "arrangement": true,
+      "completionNote": "EXT: Complete two-piano version, not an orchestral recording."
+    },
+    {
+      "composer": "ravel",
+      "work": "Introduction and Allegro",
+      "year": "1905",
+      "priority": 1,
+      "why": "A complete seven-player performance adds Ravel’s harp writing and chamber textures.",
+      "complete": true,
+      "set": "ravel-introduction-and-allegro",
+      "movements": [
+        {
+          "movement": "Introduction and Allegro",
+          "source": {
+            "file": "File:US Marine Band Introduction and Allegro (Ravel).opus"
+          },
+          "duration": 719,
+          "licence": "Public domain",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3AUS_Marine_Band_Introduction_and_Allegro_(Ravel).opus"
+          },
+          "performers": "Karen Grimsey, harp; Kara Santos, flute; Parker Gaims, clarinet; Sara Matayoshi and Foster Wang, violins; Tam Tran, viola; Clayton Vaughn, cello — United States Marine Band",
+          "recorded": "2022-03-27",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUS_Marine_Band_Introduction_and_Allegro_(Ravel).opus",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "ravel",
+      "work": "Ma mère l’Oye — piano duet",
+      "year": "1908–10",
+      "priority": 2,
+      "why": "A complete opening miniature is available, but the remaining four pieces still need one licensed performance.",
+      "complete": false,
+      "set": "ravel-ma-mere-loye",
+      "movements": [
+        {
+          "movement": "I. Pavane de la Belle au bois dormant",
+          "source": {
+            "file": "File:Ravel Duo Campion-Vachon Ma Mere l'oye 1 Pavane de la Belle au bois dormant.OGG"
+          },
+          "duration": 98,
+          "licence": "CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "evidence": "https://commons.wikimedia.org/wiki/File%3ARavel_Duo_Campion-Vachon_Ma_Mere_l'oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG"
+          },
+          "performers": "Duo Campion/Vachon",
+          "recorded": "1992",
+          "quality": "fair",
+          "qualityNote": "INFERENCE: Provisional grade; audio not auditioned.",
+          "qualityProvisional": true,
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARavel_Duo_Campion-Vachon_Ma_Mere_l'oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG",
+          "checkedVia": "node tools/audio.mjs check (opened Commons API)",
+          "streamable": true
+        }
+      ],
+      "alternatives": [],
+      "expectedMovements": 5,
+      "missingMovements": [
+        "II. Petit Poucet",
+        "III. Laideronnette, impératrice des pagodes",
+        "IV. Les entretiens de la Belle et de la Bête",
+        "V. Le jardin féerique"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "composer": "mahler",
+      "work": "Symphony No. 1",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "No eligible acoustic complete performance established: checked Commons VPO movements are computer-sample/synthesizer renditions; the Archive licence-filtered search returned no items.",
+      "sources": [
+        "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=Mahler+1+filetype%3Aaudio&srnamespace=6&srlimit=25&format=json&formatversion=2",
+        "https://archive.org/advancedsearch.php?q=%28Mahler+AND+%28title%3A%22Symphony+No.+1%22+OR+title%3A%22Symphony+1%22%29%29+AND+mediatype%3Aaudio+AND+licenseurl%3A*&rows=50&output=json"
+      ]
+    },
+    {
+      "composer": "mahler",
+      "work": "Rückert-Lieder — four remaining songs and original orchestration",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "Only Ich bin der Welt in a concert-band arrangement was established; the full Archive collection has no licence URL.",
+      "sources": [
+        "https://archive.org/metadata/Mahler_Ruckert_Lieder"
+      ]
+    },
+    {
+      "composer": "mahler",
+      "work": "1905 Welte-Mignon piano rolls — all four",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The historical roll inventory is documented, but the checked acoustic re-recordings have no eligible licence. A 1905 roll does not make a later microphone recording public domain. Software realisations remain prohibited.",
+      "sources": [
+        "https://mahlerfoundation.org/mahler/the-man/gustav-mahler-audio-recordings/",
+        "https://archive.org/metadata/04-welte-mignon-1905-composers-telefunken-sla-25-057-t-1",
+        "https://archive.org/metadata/the-welte-mignon-mystery"
+      ],
+      "rolls": [
+        "Ging heut’ Morgen übers Feld — Welte-Mignon roll",
+        "Ich ging mit Lust durch einen grünen Wald — Welte-Mignon roll",
+        "Das himmlische Leben — Welte-Mignon piano roll of Symphony No. 4 finale",
+        "Trauermarsch — Welte-Mignon piano roll of Symphony No. 5 first movement"
+      ]
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Piano Concerto No. 3, Op. 30",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "No rights-certain eligible complete recording established. The composer’s later commercial recording appears in a Public Domain Mark compilation, but no independently established permission or US-publication cutoff supports those tracks.",
+      "sources": [
+        "https://archive.org/metadata/04-complete-rachmaninoff-cd-01"
+      ]
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Rhapsody on a Theme of Paganini, Op. 43",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The composer’s later commercial recording has a questionable compilation-level Public Domain Mark; another transfer uses a restrictive NC-SA licence. Excluded rather than treating variation fragments as standalone pieces.",
+      "sources": [
+        "https://archive.org/metadata/07-complete-rachmaninoff-cd-02",
+        "https://archive.org/metadata/RACHMANINOFFRhapsodyOnAThemeByPaganini-Rachmaninoff-NEWTRANSFER"
+      ]
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Symphony No. 2 in E minor, Op. 27",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Ormandy transfer has MP3 movements but no licence URL and no pre-cutoff publication basis. No uncut eligible complete performance established.",
+      "sources": [
+        "https://archive.org/metadata/symphony-no.-2_20201217"
+      ]
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Symphonic Dances, Op. 45",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked three-movement source has no licence URL or pre-cutoff publication evidence.",
+      "sources": [
+        "https://archive.org/metadata/SymphonicDancesOp.45"
+      ]
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Isle of the Dead, Op. 29",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The composer-conducted commercial recording is marked PD only at compilation level; a secure US basis or rightsholder permission was not established.",
+      "sources": [
+        "https://archive.org/metadata/39-complete-rachmaninoff-cd-03"
+      ]
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "All-Night Vigil (“Vespers”), Op. 37",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Sveshnikov recording has streamable files but no licence URL; no licensed complete alternative established.",
+      "sources": [
+        "https://archive.org/metadata/sergei-rachmaninoff-ussr-academic-russian-choir-a.-sveshnikov-vespers"
+      ]
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Complete Prelude and Études-tableaux collections",
+      "priority": 2,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "Usable individual pieces are listed, not complete Opp. 23, 32, 33 or 39. The composer’s December 1925 Op. 39 recording lacks established pre-1926 publication evidence.",
+      "sources": [
+        "https://archive.org/metadata/78_etude-tableau_sergei-rachmaninoff-rachmaninoff_gbia0090160a"
+      ]
+    },
+    {
+      "composer": "ravel",
+      "work": "Daphnis et Chloé, Suite No. 2 — orchestral original",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "Commons has a licensed Air Force band arrangement, described only as an excerpt. Its identity as all three suite sections was not established; do not substitute it silently for a complete orchestral suite.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3ADaphnis_et_Chlo%C3%A9_-_Concert_Band_-_United_States_Air_Force_Band.mp3"
+      ]
+    },
+    {
+      "composer": "ravel",
+      "work": "La valse — orchestral version",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "A complete licensed two-piano version is supplied, but no rights-certain eligible orchestral recording was established.",
+      "sources": [
+        "https://archive.org/advancedsearch.php?q=%28Ravel+AND+%28title%3A%22Daphnis%22+OR+title%3A%22Valse%22+OR+title%3A%22Concerto%22+OR+title%3A%22Tombeau%22+OR+title%3A%22Quartet%22+OR+title%3A%22Rapsodie%22%29%29+AND+mediatype%3Aaudio&rows=100&output=json&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&fl%5B%5D=licenseurl"
+      ]
+    },
+    {
+      "composer": "ravel",
+      "work": "Piano Concerto in G major",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked three-movement Archive upload has no licence URL. A modern Yuja Wang vinyl rip carries an unauthenticated uploader CC0 claim and is excluded.",
+      "sources": [
+        "https://archive.org/metadata/RavelPianoConcertoInGMajor",
+        "https://archive.org/metadata/ravel-piano-concerto-i-n-g-m-83-piano-concerto-for-the-left-hand-raw-wav"
+      ]
+    },
+    {
+      "composer": "ravel",
+      "work": "Le Tombeau de Couperin — complete single performance",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "Five unaltered complete movements are supplied from mixed performers. The available Rigaudon is artificially sped up, and no complete original-orchestration alternative was established.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Franz_Yang_-_Le_Tombeau_de_Couperin._IV._Rigaudon.opus"
+      ]
+    },
+    {
+      "composer": "ravel",
+      "work": "Ma mère l’Oye — remaining four movements",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "Only the complete first piano-duet movement was established. The Coates acoustic 78 transfer is a two-side selection without established complete-suite coverage.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3ARavel_Duo_Campion-Vachon_Ma_Mere_l'oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG",
+        "https://archive.org/metadata/1922-mother-goose-suite-ravel-albert-coates-cond-vic-55170-a-b-blue-label"
+      ]
+    },
+    {
+      "composer": "ravel",
+      "work": "Rapsodie espagnole",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked four-movement Archive set has no licence URL or pre-cutoff publication evidence.",
+      "sources": [
+        "https://archive.org/metadata/Ravel_Rapsodie_espagnole"
+      ]
+    },
+    {
+      "composer": "ravel",
+      "work": "String Quartet in F major — movements I, III, IV",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The existing US Army scherzo is not duplicated. No eligible complete source for the other movements was established. IMSLP’s complete-performance leads are not approved recording hosts under this assignment.",
+      "sources": [
+        "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22Ravel%22+%22String+Quartet%22+filetype%3Aaudio&srnamespace=6&srlimit=100&format=json&formatversion=2",
+        "https://imslp.org/wiki/String_Quartet_in_F_major,_M.35_(Ravel,_Maurice)"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Classical Symphony, Op. 25",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Koussevitzky performance uses CC BY-NC-ND, outside the permitted free-licence set, and is not pre-cutoff.",
+      "sources": [
+        "https://archive.org/metadata/Prokofiev-classical_symphony-BSO"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Romeo and Juliet — complete ballet or complete suite",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked suite has no licence URL; no eligible complete ballet or suite established.",
+      "sources": [
+        "https://archive.org/metadata/RomeoAndJulietSuiteNo.2Op.64ter"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Piano Concerto No. 3, Op. 26",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Cliburn–Hendl recording has no licence URL and is not pre-cutoff.",
+      "sources": [
+        "https://archive.org/metadata/PianoConcertoNo.3"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Peter and the Wolf, Op. 67",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Rathbone–Stokowski recording has no licence URL and is not pre-cutoff.",
+      "sources": [
+        "https://archive.org/metadata/PeterAndTheWolf_753"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Lieutenant Kijé Suite, Op. 60",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Mitropoulos transfer uses CC BY-NC-ND, outside the permitted free-licence set.",
+      "sources": [
+        "https://archive.org/metadata/PROKOFIEVLieutenantKijeSuite-Mitropoulos"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Piano Sonata No. 7, Op. 83",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Richter transfer uses CC BY-NC-SA, outside the permitted free-licence set.",
+      "sources": [
+        "https://archive.org/metadata/PROKOFIEVPianoSonataNo.7"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Piano Sonata No. 8, Op. 84",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "The checked Richter album has no licence URL or pre-cutoff publication evidence.",
+      "sources": [
+        "https://archive.org/metadata/RichterWNPORowicki-ProkofievPianoConcerto5Sonata8"
+      ]
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Composer’s own piano recordings",
+      "priority": 1,
+      "status": "gap",
+      "claimType": "EXT",
+      "reason": "No rights-certain licensed or pre-cutoff own-performance source was established in the checked Commons and Archive searches. Do not treat old recording dates as publication evidence.",
+      "sources": [
+        "https://archive.org/advancedsearch.php?q=%28Prokofiev+AND+creator%3AProkofiev+AND+date%3A%5B1900-01-01T00%3A00%3A00Z+TO+1925-12-31T23%3A59%3A59Z%5D%29+AND+mediatype%3Aaudio&rows=100&output=json&fl[]=identifier&fl[]=title&fl[]=creator&fl[]=date&fl[]=licenseurl",
+        "https://archive.org/advancedsearch.php?q=%28Prokofiev+AND+%28creator%3A%22Sergei+Prokofiev%22+OR+creator%3A%22Serge+Prokofiev%22%29+AND+%28title%3A%22plays%22+OR+title%3A%22Recordings%22%29%29+AND+mediatype%3Aaudio&rows=50&output=json&fl[]=identifier&fl[]=title&fl[]=creator&fl[]=date&fl[]=licenseurl"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "composer": "prokofiev",
+      "work": "Classical Symphony — Koussevitzky",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/Prokofiev-classical_symphony-BSO",
+      "reason": "Restrictive licence: https://creativecommons.org/licenses/by-nc-nd/4.0/; no independently established eligible rights basis."
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Romeo and Juliet Suite No. 2",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/RomeoAndJulietSuiteNo.2Op.64ter",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Piano Concerto No. 3 — Cliburn",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/PianoConcertoNo.3",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Peter and the Wolf — Rathbone/Stokowski",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/PeterAndTheWolf_753",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Lieutenant Kijé — Mitropoulos",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/PROKOFIEVLieutenantKijeSuite-Mitropoulos",
+      "reason": "Restrictive licence: http://creativecommons.org/licenses/by-nc-nd/3.0/; no independently established eligible rights basis."
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Piano Sonata No. 7 — Richter",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/PROKOFIEVPianoSonataNo.7",
+      "reason": "Restrictive licence: http://creativecommons.org/licenses/by-nc-sa/3.0/; no independently established eligible rights basis."
+    },
+    {
+      "composer": "prokofiev",
+      "work": "Piano Sonata No. 8 — Richter",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/RichterWNPORowicki-ProkofievPianoConcerto5Sonata8",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Symphony No. 2 — Ormandy",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/symphony-no.-2_20201217",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "All-Night Vigil — Sveshnikov",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/sergei-rachmaninoff-ussr-academic-russian-choir-a.-sveshnikov-vespers",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "ravel",
+      "work": "Piano Concerto in G",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/RavelPianoConcertoInGMajor",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "ravel",
+      "work": "Rapsodie espagnole",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/Ravel_Rapsodie_espagnole",
+      "reason": "No licence URL or independently established pre-cutoff publication basis."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Symphonic Dances",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/SymphonicDancesOp.45",
+      "reason": "MP3s exist, but no licence URL or pre-cutoff publication basis."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Piano Concertos Nos. 2 and 3",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/04-complete-rachmaninoff-cd-01",
+      "reason": "Compilation-level Public Domain Mark covers later commercial recordings without establishing rightsholder permission or a US-publication cutoff. Rights uncertain; excluded despite the metadata mark."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Rhapsody and Piano Concertos Nos. 1 and 4",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/07-complete-rachmaninoff-cd-02",
+      "reason": "Compilation-level Public Domain Mark covers later commercial recordings without establishing rightsholder permission or a US-publication cutoff. Rights uncertain; excluded despite the metadata mark."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Isle of the Dead and other composer-conducted recordings",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/39-complete-rachmaninoff-cd-03",
+      "reason": "Compilation-level Public Domain Mark covers later commercial recordings without establishing rightsholder permission or a US-publication cutoff. Rights uncertain; excluded despite the metadata mark."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Étude-tableau, Op. 39 — composer, December 1925",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/78_etude-tableau_sergei-rachmaninoff-rachmaninoff_gbia0090160a",
+      "reason": "The item dates the recording 1925 but provides no licence URL. First publication by the cutoff is unestablished; Victor 1184-A cannot be admitted merely from the session year."
+    },
+    {
+      "composer": "ravel",
+      "work": "Piano concertos — Yuja Wang vinyl rip",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/ravel-piano-concerto-i-n-g-m-83-piano-concerto-for-the-left-hand-raw-wav",
+      "reason": "Archive search exposes CC0 on a modern commercial vinyl rip; rightsholder authorisation not established."
+    },
+    {
+      "composer": "ravel",
+      "work": "Le Tombeau de Couperin: IV. Rigaudon — Franz Yang",
+      "status": "excluded",
+      "rightsUncertain": false,
+      "claimType": "EXT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_-_Franz_Yang_-_Le_Tombeau_de_Couperin._IV._Rigaudon.opus",
+      "reason": "Licence is CC BY 3.0, but uploader explicitly sped the performance up 20%; unsuitable as an unaltered performer comparison."
+    },
+    {
+      "composer": "ravel",
+      "work": "Gaspard de la nuit — digital-piano realisation",
+      "status": "excluded",
+      "rightsUncertain": false,
+      "claimType": "EXT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_Ondine.ogg",
+      "reason": "Metadata identifies MIDI played through a digital piano; synthesised rendering, not an acoustic performance."
+    },
+    {
+      "composer": "ravel",
+      "work": "Gaspard de la nuit — digital-piano realisation",
+      "status": "excluded",
+      "rightsUncertain": false,
+      "claimType": "EXT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice_Ravel_Scarbo.ogg",
+      "reason": "Metadata identifies MIDI played through a digital piano; synthesised rendering, not an acoustic performance."
+    },
+    {
+      "composer": "mahler",
+      "work": "Symphony No. 1 — Virtual Philharmonic",
+      "status": "excluded",
+      "rightsUncertain": false,
+      "claimType": "EXT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony1_Movement1_VPO.ogg",
+      "reason": "Checked descriptions identify PC sound samples or synthesizers, not an acoustic orchestra."
+    },
+    {
+      "composer": "mahler",
+      "work": "Symphony No. 1 — Virtual Philharmonic",
+      "status": "excluded",
+      "rightsUncertain": false,
+      "claimType": "EXT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMahler_Symphony1_Movement2_VPO.ogg",
+      "reason": "Checked descriptions identify PC sound samples or synthesizers, not an acoustic orchestra."
+    },
+    {
+      "composer": "mahler",
+      "work": "Welte-Mignon rolls — Telefunken acoustic re-recording",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/04-welte-mignon-1905-composers-telefunken-sla-25-057-t-1",
+      "reason": "MP3s exist, but the later sound recording has no licence URL; the original roll date cannot clear it."
+    },
+    {
+      "composer": "mahler",
+      "work": "Welte-Mignon Mystery — later acoustic re-recordings",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/the-welte-mignon-mystery",
+      "reason": "MP3 tracks exist, but item metadata has no eligible licence URL."
+    },
+    {
+      "composer": "rachmaninoff",
+      "work": "Rhapsody on a Theme of Paganini — composer/Stokowski transfer",
+      "status": "excluded",
+      "rightsUncertain": true,
+      "claimType": "EXT",
+      "sourceUrl": "https://archive.org/metadata/RACHMANINOFFRhapsodyOnAThemeByPaganini-Rachmaninoff-NEWTRANSFER",
+      "reason": "Complete MP3 exists, but CC BY-NC-SA 3.0 is outside the permitted free-licence set and the recording is post-cutoff."
+    }
+  ],
+  "sourceNotes": [
+    {
+      "claimType": "EXT",
+      "url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "opened": true,
+      "note": "UCSB’s current public-domain notice: published 1925 recordings enter the US public domain in 2026."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://mahlerfoundation.org/mahler/locations/germany/leipzig/welte-mignon/",
+      "opened": true,
+      "note": "Documents the historical roll process and Mahler’s session; no reuse licence for modern audio established."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://mahlerfoundation.org/mahler/the-man/gustav-mahler-audio-recordings/",
+      "opened": true,
+      "note": "Four-roll inventory; used only to name the roll gap, not to authorise a stream."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://commons.wikimedia.org/wiki/File%3ARachmaninoff_Prelude_in_B_Minor%2C_Op._32%2C_No._10.oga",
+      "opened": true,
+      "note": "Recording is CC BY 3.0; composition is PD. The audio tool collapses these and incorrectly reports only Public domain. Actual recording licence retained in candidate."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://www.naxos.com/ecard/2023/naxos-historical-rachmaninov-press/assets/booklet/booklet-8.111413.pdf",
+      "opened": false,
+      "note": "not opened — HTTP 403; no numbers relied upon from this source."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://adp-assets.library.ucsb.edu/TheVictorRedSealDiscography.pdf",
+      "opened": false,
+      "note": "not opened — HTTP 403; no catalogue or date claims adopted from search snippets."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/102698/Prokofiev_Sergey",
+      "opened": false,
+      "note": "not opened — server returned database-connection 503 rather than the discography; no discographic claims adopted."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://www.naxos.com/catalogue/item.asp?item_code=75442260492",
+      "opened": false,
+      "note": "not opened — HTTP 403; Daphnis arrangement’s complete-suite coverage left unconfirmed."
+    },
+    {
+      "claimType": "EXT",
+      "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
+      "opened": false,
+      "note": "not opened — HTTP 403; Commons file page supplies the source and public-domain representation instead."
+    }
+  ]
+}

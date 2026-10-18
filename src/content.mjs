@@ -21,7 +21,10 @@ export async function loadContent() {
   let art = {};
   try { art = JSON.parse(await readFile(path.join(C, 'art.json'), 'utf8')); } catch {}
   const listens = await importDir(path.join(C, 'listen'));
-  return { eras, composers, pages, site, art, listens };
+  // Composers before Bach who appear only in the concert's prologue and on the Origins page.
+  let precursors = [], prologue = null;
+  try { const m = await import(pathToFileURL(path.join(C, 'precursors.mjs')).href); precursors = m.default; prologue = m.era ?? null; } catch {}
+  return { eras, composers, pages, site, art, listens, precursors, prologue };
 }
 
 /** Every Commons title referenced anywhere in the content tree (keys named `file`). */
@@ -36,7 +39,7 @@ export function collectFiles(content) {
       }
     }
   };
-  walk({ eras: content.eras, composers: content.composers, pages: content.pages, site: content.site });
+  walk({ eras: content.eras, composers: content.composers, pages: content.pages, site: content.site, precursors: content.precursors, prologue: content.prologue });
   return found;
 }
 

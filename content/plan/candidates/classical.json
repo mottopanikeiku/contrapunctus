@@ -1,0 +1,4849 @@
+{
+ "cluster": "classical",
+ "generated": "2026-10-17",
+ "rightsRule": "local://PROGRAM.md “Rights rule (final)”: rule 1 licence covers the recording, rule 2 US-published ≤1925, rule 3 EU-published before 1963 (territorial)",
+ "summary": {
+  "works": 30,
+  "primaryRecordings": 115,
+  "alternativeRecordings": 46,
+  "recommendedPicks": 30,
+  "recommendedPickMinutes": 246.6,
+  "primaryMinutes": 771.7,
+  "alternativeMinutes": 340.6,
+  "byPriority": {
+   "1": {
+    "works": 11,
+    "recordings": 66,
+    "minutes": 387.1,
+    "picks": 29,
+    "pickMinutes": 233.4
+   },
+   "2": {
+    "works": 16,
+    "recordings": 40,
+    "minutes": 323.1,
+    "picks": 1,
+    "pickMinutes": 13.2
+   },
+   "3": {
+    "works": 3,
+    "recordings": 9,
+    "minutes": 61.5,
+    "picks": 0,
+    "pickMinutes": 0
+   }
+  },
+  "rightsRuleCounts": {
+   "1": 99,
+   "2": 26,
+   "3": 24,
+   "IA licence URL": 12
+  },
+  "territorialRecordings": 100,
+  "allStreamsChecked": true
+ },
+ "works": [
+  {
+   "composer": "beethoven",
+   "work": "Symphony No. 5 in C minor, Op. 67",
+   "year": "1804–08",
+   "priority": 1,
+   "why": "The concert’s anchor symphony; completes the existing first-movement track with the other three movements from one performance.",
+   "complete": true,
+   "set": "beethoven-5",
+   "parts": 4,
+   "existingParts": [
+    {
+     "part": 1,
+     "id": "beethoven-5-first"
+    }
+   ],
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro con brio",
+     "source": {
+      "file": "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg"
+     },
+     "duration": 500,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-old-100",
+       "PD-author"
+      ],
+      "rule": 1
+     },
+     "performers": "Skidmore College orchestra (as credited on the Commons file pages, via Musopen)",
+     "recorded": "",
+     "quality": "fair",
+     "qualityNote": "Musopen student-orchestra take; not auditioned; scherzo and finale are separate files",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "existing": "beethoven-5-first",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Andante con moto",
+     "source": {
+      "file": "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - ii. andante con moto.ogg"
+     },
+     "duration": 599,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-old-100",
+       "PD-author"
+      ],
+      "rule": 1
+     },
+     "performers": "Skidmore College orchestra (as credited on the Commons file pages, via Musopen)",
+     "recorded": "",
+     "quality": "fair",
+     "qualityNote": "Musopen student-orchestra take; not auditioned; scherzo and finale are separate files",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Allegro (Scherzo)",
+     "source": {
+      "file": "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - iii. allegro.ogg"
+     },
+     "duration": 336,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-old-100",
+       "PD-author"
+      ],
+      "rule": 1
+     },
+     "performers": "Skidmore College orchestra (as credited on the Commons file pages, via Musopen)",
+     "recorded": "",
+     "quality": "fair",
+     "qualityNote": "Musopen student-orchestra take; not auditioned; scherzo and finale are separate files",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Allegro (Finale)",
+     "source": {
+      "file": "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - iv. allegro.ogg"
+     },
+     "duration": 707,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-old-100",
+       "PD-author"
+      ],
+      "rule": 1
+     },
+     "performers": "Skidmore College orchestra (as credited on the Commons file pages, via Musopen)",
+     "recorded": "",
+     "quality": "fair",
+     "qualityNote": "Musopen student-orchestra take; not auditioned; scherzo and finale are separate files",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Royal Albert Hall Orchestra, Landon Ronald, 1922 (acoustic HMV D 665–668)",
+     "complete": true,
+     "cuts": "Acoustic 78-rpm set (8 sides, 30:29 total); light cuts likely, not verified (INFERENCE)",
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro con brio",
+       "source": {
+        "archive": {
+         "item": "55250-3-beethoven-5-i",
+         "file": "55250-3 Beethoven 5 (i).mp3"
+        }
+       },
+       "duration": 468,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1923,
+        "evidence": "GB issue HMV D 665–668 Feb 1923; US Victor 55250–55253 May 1925, per https://archive.org/details/55250-3-beethoven-5-i (matrices Cc 1812–1815 …)"
+       },
+       "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+       "recorded": "12 September, 10 and 24 October 1922, HMV Recording Room No. 1, Hayes (IA item description)",
+       "quality": "poor",
+       "qualityNote": "Acoustic horn recording: thin, narrow bandwidth; scherzo and finale share one file",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Acoustic 78-rpm set (8 sides, 30:29 total); light cuts likely, not verified (INFERENCE)",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante con moto",
+       "source": {
+        "archive": {
+         "item": "55250-3-beethoven-5-i",
+         "file": "55250-3 Beethoven 5 (ii).mp3"
+        }
+       },
+       "duration": 562,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1923,
+        "evidence": "GB issue HMV D 665–668 Feb 1923; US Victor 55250–55253 May 1925, per https://archive.org/details/55250-3-beethoven-5-i (matrices Cc 1812–1815 …)"
+       },
+       "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+       "recorded": "12 September, 10 and 24 October 1922, HMV Recording Room No. 1, Hayes (IA item description)",
+       "quality": "poor",
+       "qualityNote": "Acoustic horn recording: thin, narrow bandwidth; scherzo and finale share one file",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Acoustic 78-rpm set (8 sides, 30:29 total); light cuts likely, not verified (INFERENCE)",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Allegro (Scherzo) — IV. Allegro (Finale), one file",
+       "source": {
+        "archive": {
+         "item": "55250-3-beethoven-5-i",
+         "file": "55250-3 Beethoven 5 (iii-iv).mp3"
+        }
+       },
+       "duration": 801,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1923,
+        "evidence": "GB issue HMV D 665–668 Feb 1923; US Victor 55250–55253 May 1925, per https://archive.org/details/55250-3-beethoven-5-i (matrices Cc 1812–1815 …)"
+       },
+       "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+       "recorded": "12 September, 10 and 24 October 1922, HMV Recording Room No. 1, Hayes (IA item description)",
+       "quality": "poor",
+       "qualityNote": "Acoustic horn recording: thin, narrow bandwidth; scherzo and finale share one file",
+       "qualityBasis": "INFERENCE",
+       "covers": [
+        3,
+        4
+       ],
+       "cuts": "Acoustic 78-rpm set (8 sides, 30:29 total); light cuts likely, not verified (INFERENCE)",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Grosse Odeon-Streichorchester, Friedrich Kark, 1910 (abridged; early set)",
+     "complete": true,
+     "cuts": "Abridged early acoustic set (28:45 total); extent of cuts unverified",
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro con brio",
+       "source": {
+        "archive": {
+         "item": "BeethovenFifth1910",
+         "file": "Beethoven - Symph 5 01 Kark.mp3"
+        }
+       },
+       "duration": 390,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1910,
+        "evidence": "IA item BeethovenFifth1910 (“made in 1910”); http://www.classicalnotes.net/classics/fifth.html dates the Odeon set 1910 or 1911"
+       },
+       "performers": "Grosse Odeon-Streichorchester (Odeon orchestra), conductor Friedrich Kark per IA; Peter Gutmann says Kark or Eduard Künneke",
+       "recorded": "1910 (IA item description; Gutmann: 1910 or 1911)",
+       "quality": "poor",
+       "qualityNote": "1910 acoustic, boxy and blurred per Classical Notes; brisk tempi",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged early acoustic set (28:45 total); extent of cuts unverified",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante con moto",
+       "source": {
+        "archive": {
+         "item": "BeethovenFifth1910",
+         "file": "Beethoven - Symph 5 02 Kark.mp3"
+        }
+       },
+       "duration": 481,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1910,
+        "evidence": "IA item BeethovenFifth1910 (“made in 1910”); http://www.classicalnotes.net/classics/fifth.html dates the Odeon set 1910 or 1911"
+       },
+       "performers": "Grosse Odeon-Streichorchester (Odeon orchestra), conductor Friedrich Kark per IA; Peter Gutmann says Kark or Eduard Künneke",
+       "recorded": "1910 (IA item description; Gutmann: 1910 or 1911)",
+       "quality": "poor",
+       "qualityNote": "1910 acoustic, boxy and blurred per Classical Notes; brisk tempi",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged early acoustic set (28:45 total); extent of cuts unverified",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Allegro (Scherzo)",
+       "source": {
+        "archive": {
+         "item": "BeethovenFifth1910",
+         "file": "Beethoven - Symph 5 03 Kark.mp3"
+        }
+       },
+       "duration": 277,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1910,
+        "evidence": "IA item BeethovenFifth1910 (“made in 1910”); http://www.classicalnotes.net/classics/fifth.html dates the Odeon set 1910 or 1911"
+       },
+       "performers": "Grosse Odeon-Streichorchester (Odeon orchestra), conductor Friedrich Kark per IA; Peter Gutmann says Kark or Eduard Künneke",
+       "recorded": "1910 (IA item description; Gutmann: 1910 or 1911)",
+       "quality": "poor",
+       "qualityNote": "1910 acoustic, boxy and blurred per Classical Notes; brisk tempi",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged early acoustic set (28:45 total); extent of cuts unverified",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 4,
+       "movement": "IV. Allegro (Finale)",
+       "source": {
+        "archive": {
+         "item": "BeethovenFifth1910",
+         "file": "Beethoven - Symph 5 04 Kark.mp3"
+        }
+       },
+       "duration": 577,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1910,
+        "evidence": "IA item BeethovenFifth1910 (“made in 1910”); http://www.classicalnotes.net/classics/fifth.html dates the Odeon set 1910 or 1911"
+       },
+       "performers": "Grosse Odeon-Streichorchester (Odeon orchestra), conductor Friedrich Kark per IA; Peter Gutmann says Kark or Eduard Künneke",
+       "recorded": "1910 (IA item description; Gutmann: 1910 or 1911)",
+       "quality": "poor",
+       "qualityNote": "1910 acoustic, boxy and blurred per Classical Notes; brisk tempi",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged early acoustic set (28:45 total); extent of cuts unverified",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Victor Concert Orchestra, Josef Pasternack, 1917 (finale only)",
+     "complete": false,
+     "cuts": "Finale only, two 78 sides joined; abridged",
+     "movements": [
+      {
+       "part": 4,
+       "movement": "IV. Allegro (Finale)",
+       "source": {
+        "file": "File:Victor Concert Orchestra 1917 Beethoven 5th symphony fourth movement.oga"
+       },
+       "duration": 533,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1917,
+        "evidence": "Victor 35637A/B, matrices C-19348/9, published 10/1917 per Commons file description; Commons tag PD-US-record-expired",
+        "commonsTemplates": [
+         "PD-US-record-expired"
+        ]
+       },
+       "performers": "Victor Concert Orchestra, Josef Pasternack",
+       "recorded": "7 March and 18 April 1917; published October 1917 (Commons description)",
+       "quality": "poor",
+       "qualityNote": "1917 acoustic Victor; two sides stitched at 4:30",
+       "qualityBasis": "EXT",
+       "cuts": "Finale only, two 78 sides joined; abridged",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "beethoven",
+   "work": "Piano Sonata No. 23 in F minor, Op. 57 “Appassionata”",
+   "year": "1804–05",
+   "priority": 1,
+   "why": "Beethoven’s most volcanic sonata, in Schnabel’s pioneering cycle; same pianist as the existing Op. 109 track.",
+   "complete": true,
+   "set": "beethoven-sonata-23",
+   "parts": 3,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro assai",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel6",
+       "file": "74 - Klaviersonate Nr. 23 f-moll op. 57 Appassionata - I. Allegro assai.mp3"
+      }
+     },
+     "duration": 539,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "11 April 1933 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35, so rule 3 (EU, territorial) also applies",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Andante con moto",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel6",
+       "file": "75 - Klaviersonate Nr. 23 f-moll op. 57 Appassionata  - II. Andante con moto.mp3"
+      }
+     },
+     "duration": 360,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "11 April 1933 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35, so rule 3 (EU, territorial) also applies",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Allegro ma non troppo — Presto",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel6",
+       "file": "76 - Klaviersonate Nr. 23 f-moll op. 57 Appassionata  - III. Allegro ma non troppo.mp3"
+      }
+     },
+     "duration": 431,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "11 April 1933 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35, so rule 3 (EU, territorial) also applies",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "beethoven",
+   "work": "String Quartet No. 14 in C♯ minor, Op. 131",
+   "year": "1826",
+   "priority": 1,
+   "why": "The summit of the late quartets, in one of the earliest complete recordings; seven linked movements in a single file.",
+   "complete": true,
+   "set": "beethoven-quartet-14",
+   "parts": 1,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I–VII complete quartet, single file (Adagio ma non troppo e molto espressivo … Allegro)",
+     "source": {
+      "archive": {
+       "item": "l-1581-5-beethoven-quartet-op-131",
+       "file": "L1581-5 Beethoven Quartet op131.mp3"
+      }
+     },
+     "duration": 2442,
+     "licence": "Public domain (US, published before 1926)",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": 1924,
+      "evidence": "Columbia (UK) L1581–5 issued Nov 1924; US Columbia 67021-D–67025-D Masterworks Set 6, Nov 1924, per https://archive.org/details/l-1581-5-beethoven-quartet-op-131 ; DAHR https://adp.library.ucsb.edu/index.php/matrix/detail/2000714494/AX301-Quartet_in_c_minor_op._131"
+     },
+     "performers": "Léner String Quartet: Jenö Léner, Joszef Smilovits (violins), Sándor Roth (viola), Imre Hartman (cello)",
+     "recorded": "11 February and 25 August 1924, Columbia Petty France studios, London (IA description; DAHR matrix AX301 dated 2/11/1924)",
+     "quality": "poor",
+     "qualityNote": "1924 acoustic, ten 78 sides joined in one 40:41 file; no movement split; pitch/speed unverified",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "covers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "note": "Per IA, sides 1–2 hold movement I; movement boundaries need timestamps from analysis; cuts and repeats not verified",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Budapest String Quartet, 1952 LP (two side-length files)",
+     "complete": true,
+     "cuts": "Two LP sides: file 1 = movements I–IV, file 2 = movements V–VII; movement boundaries not split",
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I–IV (Adagio … Andante, ma non troppo e molto cantabile)",
+       "source": {
+        "archive": {
+         "item": "lp_quartet-no-14-in-c-sharp-minor-op-131_ludwig-van-beethoven-budapest-string-quart_0",
+         "file": "disc1/01.01. Quartet No. 14 In C-sharp Minor, Op. 131: First Movement: Adagio, Ma Non Troppo E Molto Espressivo; Second Movement: Allegro Molto Vivace; Third Movement: Allegro Moderato;  Fourth Movement: Andante, Ma Non Troppo E Molto Canta...mp3"
+        }
+       },
+       "duration": 1464,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1952,
+        "evidence": "IA item lp_quartet-no-14-in-c-sharp-minor-op-131_ludwig-van-beethoven-budapest-string-quart_0: catalogue date 1952 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Budapest String Quartet",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1952 mono LP rip; two files, so no clean per-movement split",
+       "qualityBasis": "INFERENCE",
+       "covers": [
+        1,
+        2,
+        3,
+        4
+       ],
+       "cuts": "Two LP sides: file 1 = movements I–IV, file 2 = movements V–VII; movement boundaries not split",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 5,
+       "movement": "V–VII (Presto … Adagio quasi un poco andante … Allegro)",
+       "source": {
+        "archive": {
+         "item": "lp_quartet-no-14-in-c-sharp-minor-op-131_ludwig-van-beethoven-budapest-string-quart_0",
+         "file": "disc1/02.01. Quartet No. 14 In C-sharp Minor, Op. 131: Fifth Movement: Presto; nSixth Movement: Adagio, Quasi Un Poco Andante; Seventh Movement: Allegro.mp3"
+        }
+       },
+       "duration": 837,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1952,
+        "evidence": "IA item lp_quartet-no-14-in-c-sharp-minor-op-131_ludwig-van-beethoven-budapest-string-quart_0: catalogue date 1952 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Budapest String Quartet",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1952 mono LP rip; two files, so no clean per-movement split",
+       "qualityBasis": "INFERENCE",
+       "covers": [
+        5,
+        6,
+        7
+       ],
+       "cuts": "Two LP sides: file 1 = movements I–IV, file 2 = movements V–VII; movement boundaries not split",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "beethoven",
+   "work": "String Quartet No. 15 in A minor, Op. 132",
+   "year": "1825",
+   "priority": 1,
+   "why": "Home of the “Holy song of thanksgiving”, Beethoven’s most spiritual slow movement; Griller Quartet, 1952.",
+   "complete": true,
+   "set": "beethoven-quartet-15",
+   "parts": 5,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Assai sostenuto — Allegro",
+     "source": {
+      "archive": {
+       "item": "lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet",
+       "file": "disc1/01.01. 1st Movement: Assal Sostenuto - Allegro.mp3"
+      }
+     },
+     "duration": 575,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1952,
+      "evidence": "IA item lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet: catalogue date 1952 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "The Griller String Quartet",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1952 mono LP rip; Heiliger Dankgesang and the march share one file (18:13)",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Allegro ma non tanto",
+     "source": {
+      "archive": {
+       "item": "lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet",
+       "file": "disc1/01.02. 2nd Movement: Allegro Ma Non Tanto.mp3"
+      }
+     },
+     "duration": 552,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1952,
+      "evidence": "IA item lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet: catalogue date 1952 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "The Griller String Quartet",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1952 mono LP rip; Heiliger Dankgesang and the march share one file (18:13)",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Molto adagio (Heiliger Dankgesang) — IV. Alla marcia, assai vivace, one file",
+     "source": {
+      "archive": {
+       "item": "lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet",
+       "file": "disc1/02.01. 3rd Movement: Molto Adagio - Andante; 4th Movement: Alla Marcia, Assal Vivace.mp3"
+      }
+     },
+     "duration": 1093,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1952,
+      "evidence": "IA item lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet: catalogue date 1952 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "The Griller String Quartet",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1952 mono LP rip; Heiliger Dankgesang and the march share one file (18:13)",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "covers": [
+      3,
+      4
+     ],
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 5,
+     "movement": "V. Allegro appassionato — Presto",
+     "source": {
+      "archive": {
+       "item": "lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet",
+       "file": "disc1/02.02. 5th Movement: Allegro Appassionato - Presto.mp3"
+      }
+     },
+     "duration": 540,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1952,
+      "evidence": "IA item lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet: catalogue date 1952 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "The Griller String Quartet",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1952 mono LP rip; Heiliger Dankgesang and the march share one file (18:13)",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "beethoven",
+   "work": "Grosse Fuge in B♭ major, Op. 133",
+   "year": "1825",
+   "priority": 2,
+   "why": "The fugue Beethoven first wrote as the finale of Op. 130; the earliest recorded Lener performance, 1930.",
+   "complete": true,
+   "set": "beethoven-grosse-fuge",
+   "parts": 1,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "Grosse Fuge, Op. 133",
+     "source": {
+      "file": "File:Lener String Quartet “Grosse Fuge” (Beethoven) all.ogg"
+     },
+     "duration": 980,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "rule": 3,
+      "published": 1930,
+      "recordingDateEstablished": "1930 recording on Columbia 78s per Commons description; Commons tag PD-old-70-1923 covers the composition only, so this file passes under rule 3 (published before 1963, EU, territorial)",
+      "evidence": "Commons file page description “recorded … in 1930 … First published recording of this piece”",
+      "commonsTemplates": [
+       "PD-old-70-1923"
+      ]
+     },
+     "territorial": true,
+     "performers": "Léner Quartet: Jenö Léner (or Lehner), Joszef Smilovits, Sándor Roth, Imre Hartmann (per Commons description)",
+     "recorded": "1930, Columbia 78 rpm (Commons description)",
+     "quality": "fair",
+     "qualityNote": "1930 electrical Columbia sides joined in one file (16:20); cuts unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "beethoven",
+   "work": "Piano Sonata No. 30 in E major, Op. 109 (movements I–II)",
+   "year": "1820",
+   "priority": 2,
+   "why": "Completes the existing Schnabel Op. 109 variations track with the two earlier movements from the same 1932 performance.",
+   "complete": false,
+   "set": "beethoven-sonata-30",
+   "parts": 3,
+   "existingParts": [
+    {
+     "part": 3,
+     "id": "beethoven-109-variations"
+    }
+   ],
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Vivace, ma non troppo",
+     "source": {
+      "file": "File:Klaviersonate Nr. 30 E-Dur op. 109 - I. Vivace, ma non troppo.ogg"
+     },
+     "duration": 231,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "22 March 1932 (IA description of vol. 8)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35, so rule 3 (EU, territorial) also applies",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Prestissimo",
+     "source": {
+      "file": "File:Klaviersonate Nr. 30 E-Dur op. 109 - II. Prestissimo.ogg"
+     },
+     "duration": 140,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "22 March 1932 (IA description of vol. 8)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35, so rule 3 (EU, territorial) also applies",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "mozart",
+   "work": "Requiem in D minor, K. 626 (Süssmayr completion)",
+   "year": "1791",
+   "priority": 1,
+   "why": "Mozart’s last work, left unfinished at death; Dies irae, Lacrimosa and Communio carry the concert’s tragic centre.",
+   "complete": true,
+   "set": "mozart-requiem",
+   "parts": 14,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Introitus: Requiem aeternam",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 01. Requiem aeternam.ogg"
+     },
+     "duration": 338,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Kyrie",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 02. Kyrie eleison.ogg"
+     },
+     "duration": 185,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Dies irae",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 03. Dies irae.ogg"
+     },
+     "duration": 113,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Tuba mirum",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 04. Tuba mirum.ogg"
+     },
+     "duration": 244,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 5,
+     "movement": "V. Rex tremendæ",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 05. Rex tremendae.ogg"
+     },
+     "duration": 143,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 6,
+     "movement": "VI. Recordare",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 06. Recordare.ogg"
+     },
+     "duration": 373,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 7,
+     "movement": "VII. Confutatis",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 07. Confutatis.ogg"
+     },
+     "duration": 183,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 8,
+     "movement": "VIII. Lacrimosa",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 08. Lacrimosa.ogg"
+     },
+     "duration": 205,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 9,
+     "movement": "IX. Domine Jesu",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 09. Domine Jesu.ogg"
+     },
+     "duration": 284,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 10,
+     "movement": "X. Hostias",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 10. Hostias.ogg"
+     },
+     "duration": 343,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 11,
+     "movement": "XI. Sanctus",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 11. Sanctus.ogg"
+     },
+     "duration": 109,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 12,
+     "movement": "XII. Benedictus",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 12. Benedictus.ogg"
+     },
+     "duration": 323,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 13,
+     "movement": "XIII. Agnus Dei",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 13. Agnus Dei.ogg"
+     },
+     "duration": 222,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 14,
+     "movement": "XIV. Communio: Lux aeterna",
+     "source": {
+      "file": "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 14. Communio Lux aeterna.ogg"
+     },
+     "duration": 424,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Bruno Walter conducting Wiener Philharmoniker and Wiener Staatsopernchor; Lisa della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi",
+     "recorded": "26 July 1956, live at the Salzburg Festival (IA item MozartRequiemBruno)",
+     "quality": "fair",
+     "qualityNote": "1956 mono live tape; chorus balance and noise unverified",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); the IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Herbert von Karajan, Wiener Philharmoniker, Wiener Singverein, Salzburg Festival 1960 (key movements)",
+     "complete": false,
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Introitus",
+       "source": {
+        "file": "File:W. A. Mozart - Requiem - 1. Introitus (Herbert von Karajan, Wiener Philharmoniker, Wiener Singverein, 1960).ogg"
+       },
+       "duration": 344,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Herbert von Karajan; Wiener Philharmoniker; Wiener Singverein; soloists as listed on Commons: Leontyne Price, Hilde Rössel-Majdan, Fritz Wunderlich, Eberhard Wächter, Walter Berry",
+       "recorded": "24 August 1960, Salzburg Festival (Commons description; LP of the live performance)",
+       "quality": "fair",
+       "qualityNote": "Live Salzburg LP transfer; Wunderlich in the cast; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Dies iræ",
+       "source": {
+        "file": "File:W. A. Mozart - Requiem - 3. Dies iræ (Herbert von Karajan, Wiener Philharmoniker, Wiener Singverein, 1960).ogg"
+       },
+       "duration": 108,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Herbert von Karajan; Wiener Philharmoniker; Wiener Singverein; soloists as listed on Commons: Leontyne Price, Hilde Rössel-Majdan, Fritz Wunderlich, Eberhard Wächter, Walter Berry",
+       "recorded": "24 August 1960, Salzburg Festival (Commons description; LP of the live performance)",
+       "quality": "fair",
+       "qualityNote": "Live Salzburg LP transfer; Wunderlich in the cast; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 7,
+       "movement": "VII. Confutatis",
+       "source": {
+        "file": "File:W. A. Mozart - Requiem - 7. Confutatis (Herbert von Karajan, Wiener Philharmoniker, Wiener Singverein, 1960).ogg"
+       },
+       "duration": 165,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Herbert von Karajan; Wiener Philharmoniker; Wiener Singverein; soloists as listed on Commons: Leontyne Price, Hilde Rössel-Majdan, Fritz Wunderlich, Eberhard Wächter, Walter Berry",
+       "recorded": "24 August 1960, Salzburg Festival (Commons description; LP of the live performance)",
+       "quality": "fair",
+       "qualityNote": "Live Salzburg LP transfer; Wunderlich in the cast; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 8,
+       "movement": "VIII. Lacrimosa",
+       "source": {
+        "file": "File:W. A. Mozart - Requiem - 8. Lacrimosa (Herbert von Karajan, Wiener Philharmoniker, Wiener Singverein, 1960).ogg"
+       },
+       "duration": 210,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Herbert von Karajan; Wiener Philharmoniker; Wiener Singverein; soloists as listed on Commons: Leontyne Price, Hilde Rössel-Majdan, Fritz Wunderlich, Eberhard Wächter, Walter Berry",
+       "recorded": "24 August 1960, Salzburg Festival (Commons description; LP of the live performance)",
+       "quality": "fair",
+       "qualityNote": "Live Salzburg LP transfer; Wunderlich in the cast; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 14,
+       "movement": "XIV. Communio",
+       "source": {
+        "file": "File:W. A. Mozart - Requiem - 14. Communio (Herbert von Karajan, Wiener Philharmoniker, Wiener Singverein, 1960).ogg"
+       },
+       "duration": 360,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Herbert von Karajan; Wiener Philharmoniker; Wiener Singverein; soloists as listed on Commons: Leontyne Price, Hilde Rössel-Majdan, Fritz Wunderlich, Eberhard Wächter, Walter Berry",
+       "recorded": "24 August 1960, Salzburg Festival (Commons description; LP of the live performance)",
+       "quality": "fair",
+       "qualityNote": "Live Salzburg LP transfer; Wunderlich in the cast; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Josef Krips, Wiener Hofmusikkapelle and Wiener Sängerknaben, Decca 1950 (key movements)",
+     "complete": false,
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Introitus",
+       "source": {
+        "file": "File:Mozart - Requiem (Krips) - I. Introitus.flac"
+       },
+       "duration": 304,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Josef Krips; Wiener Hofmusikkapelle; Wiener Sängerknaben; Walther Ludwig, Harald Proglhöf, Werner Pech, Hans Breischopf (names as spelled on Commons)",
+       "recorded": "11 June 1950 (Commons date; Decca)",
+       "quality": "fair",
+       "qualityNote": "1950 Decca mono; boys’ choir sound is the distinctive feature; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Dies iræ",
+       "source": {
+        "file": "File:Mozart - Requiem (Krips) - III. Dies iræ.flac"
+       },
+       "duration": 110,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Josef Krips; Wiener Hofmusikkapelle; Wiener Sängerknaben; Walther Ludwig, Harald Proglhöf, Werner Pech, Hans Breischopf (names as spelled on Commons)",
+       "recorded": "11 June 1950 (Commons date; Decca)",
+       "quality": "fair",
+       "qualityNote": "1950 Decca mono; boys’ choir sound is the distinctive feature; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 7,
+       "movement": "VII. Confutatis",
+       "source": {
+        "file": "File:Mozart - Requiem (Krips) - VII. Confutatis.flac"
+       },
+       "duration": 185,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Josef Krips; Wiener Hofmusikkapelle; Wiener Sängerknaben; Walther Ludwig, Harald Proglhöf, Werner Pech, Hans Breischopf (names as spelled on Commons)",
+       "recorded": "11 June 1950 (Commons date; Decca)",
+       "quality": "fair",
+       "qualityNote": "1950 Decca mono; boys’ choir sound is the distinctive feature; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 8,
+       "movement": "VIII. Lacrimosa",
+       "source": {
+        "file": "File:Mozart - Requiem (Krips) - VIII. Lacrimosa.flac"
+       },
+       "duration": 233,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Josef Krips; Wiener Hofmusikkapelle; Wiener Sängerknaben; Walther Ludwig, Harald Proglhöf, Werner Pech, Hans Breischopf (names as spelled on Commons)",
+       "recorded": "11 June 1950 (Commons date; Decca)",
+       "quality": "fair",
+       "qualityNote": "1950 Decca mono; boys’ choir sound is the distinctive feature; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 14,
+       "movement": "XIV. Communio",
+       "source": {
+        "file": "File:Mozart - Requiem (Krips) - XIV. Communio.flac"
+       },
+       "duration": 337,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-EU-audio"
+        ],
+        "rule": 1
+       },
+       "territorial": true,
+       "performers": "Josef Krips; Wiener Hofmusikkapelle; Wiener Sängerknaben; Walther Ludwig, Harald Proglhöf, Werner Pech, Hans Breischopf (names as spelled on Commons)",
+       "recorded": "11 June 1950 (Commons date; Decca)",
+       "quality": "fair",
+       "qualityNote": "1950 Decca mono; boys’ choir sound is the distinctive feature; noise unverified",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "mozart",
+   "work": "Symphony No. 41 in C major, K. 551 “Jupiter”",
+   "year": "1788",
+   "priority": 1,
+   "why": "Mozart’s last symphony; the finale’s five-theme fugal coda is the classical era’s contrapuntal summit.",
+   "complete": true,
+   "set": "mozart-41",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro vivace",
+     "source": {
+      "archive": {
+       "item": "lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0",
+       "file": "disc1/01.01. Symphony No. 41, In C Major, K. 551 (\"Jupiter\"): I - Allegro Vivace.mp3"
+      }
+     },
+     "duration": 534,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1961,
+      "evidence": "IA item lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0: catalogue date 1961 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "Bruno Walter, Columbia Symphony Orchestra",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1961 stereo-era LP rip; each movement its own file; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Andante cantabile",
+     "source": {
+      "archive": {
+       "item": "lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0",
+       "file": "disc1/01.02. Symphony No. 41, In C Major, K. 551 (\"Jupiter\"): II - Andante Cantabile.mp3"
+      }
+     },
+     "duration": 547,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1961,
+      "evidence": "IA item lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0: catalogue date 1961 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "Bruno Walter, Columbia Symphony Orchestra",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1961 stereo-era LP rip; each movement its own file; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Menuetto",
+     "source": {
+      "archive": {
+       "item": "lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0",
+       "file": "disc1/01.03. Symphony No. 41, In C Major, K. 551 (\"Jupiter\"): III - Menuetto.mp3"
+      }
+     },
+     "duration": 308,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1961,
+      "evidence": "IA item lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0: catalogue date 1961 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "Bruno Walter, Columbia Symphony Orchestra",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1961 stereo-era LP rip; each movement its own file; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Finale: Molto allegro",
+     "source": {
+      "archive": {
+       "item": "lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0",
+       "file": "disc1/02.01. Symphony No. 41, In C Major, K. 551 (\"Jupiter\"): IV - Finale.mp3"
+      }
+     },
+     "duration": 437,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1961,
+      "evidence": "IA item lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0: catalogue date 1961 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "Bruno Walter, Columbia Symphony Orchestra",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1961 stereo-era LP rip; each movement its own file; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Josef Krips, Israel Philharmonic Orchestra, 1959 LP",
+     "complete": true,
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro vivace",
+       "source": {
+        "archive": {
+         "item": "lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel",
+         "file": "disc1/01.01. Symphony No. 41 In C Major (K.551) (\"Jupiter\"): Allegro Vivace.mp3"
+        }
+       },
+       "duration": 516,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1959,
+        "evidence": "IA item lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel: catalogue date 1959 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Josef Krips, Israel Philharmonic Orchestra",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1959 LP rip; each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante cantabile",
+       "source": {
+        "archive": {
+         "item": "lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel",
+         "file": "disc1/01.02. Symphony No. 41 In C Major (K.551) (\"Jupiter\"): Andante Cantabile.mp3"
+        }
+       },
+       "duration": 480,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1959,
+        "evidence": "IA item lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel: catalogue date 1959 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Josef Krips, Israel Philharmonic Orchestra",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1959 LP rip; each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Minuet: Allegretto",
+       "source": {
+        "archive": {
+         "item": "lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel",
+         "file": "disc1/01.03. Symphony No. 41 In C Major (K.551) (\"Jupiter\"): Minuet (Allegretto).mp3"
+        }
+       },
+       "duration": 311,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1959,
+        "evidence": "IA item lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel: catalogue date 1959 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Josef Krips, Israel Philharmonic Orchestra",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1959 LP rip; each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 4,
+       "movement": "IV. Molto allegro",
+       "source": {
+        "archive": {
+         "item": "lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel",
+         "file": "disc1/01.04. Symphony No. 41 In C Major (K.551) (\"Jupiter\"): Molto Allegro.mp3"
+        }
+       },
+       "duration": 397,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1959,
+        "evidence": "IA item lp_symphony-no-41-in-c-major-jupiter-symphon_wolfgang-amadeus-mozart-josef-krips-israel: catalogue date 1959 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Josef Krips, Israel Philharmonic Orchestra",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1959 LP rip; each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Arturo Toscanini, NBC Symphony Orchestra, LP issued 1957",
+     "complete": true,
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro vivace",
+       "source": {
+        "archive": {
+         "item": "lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0",
+         "file": "disc1/01.01. Symphony No. 41, In C, K. 551 (\"Jupiter\"): First Movement: Allegro Vivace.mp3"
+        }
+       },
+       "duration": 466,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1957,
+        "evidence": "IA item lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0: catalogue date 1957 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Arturo Toscanini, NBC Symphony Orchestra",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Toscanini’s dry NBC Studio 8H sound (INFERENCE); LP rip, each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante cantabile",
+       "source": {
+        "archive": {
+         "item": "lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0",
+         "file": "disc1/01.02. Symphony No. 41, In C, K. 551 (\"Jupiter\"): Second Movement: Andante Cantabile.mp3"
+        }
+       },
+       "duration": 404,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1957,
+        "evidence": "IA item lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0: catalogue date 1957 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Arturo Toscanini, NBC Symphony Orchestra",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Toscanini’s dry NBC Studio 8H sound (INFERENCE); LP rip, each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Menuetto: Allegretto",
+       "source": {
+        "archive": {
+         "item": "lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0",
+         "file": "disc1/01.03. Symphony No. 41, In C, K. 551 (\"Jupiter\"): Third Movement: Menuetto; Trio: Allegretto.mp3"
+        }
+       },
+       "duration": 265,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1957,
+        "evidence": "IA item lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0: catalogue date 1957 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Arturo Toscanini, NBC Symphony Orchestra",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Toscanini’s dry NBC Studio 8H sound (INFERENCE); LP rip, each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 4,
+       "movement": "IV. Molto allegro",
+       "source": {
+        "archive": {
+         "item": "lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0",
+         "file": "disc1/01.04. Symphony No. 41, In C, K. 551 (\"Jupiter\"): Fourth Movement: Molto Allegro.mp3"
+        }
+       },
+       "duration": 355,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1957,
+        "evidence": "IA item lp_jupiter-symphony-no-41-in-c-k-551-concert_wolfgang-amadeus-mozart-arturo-toscanini-n_0: catalogue date 1957 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Arturo Toscanini, NBC Symphony Orchestra",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Toscanini’s dry NBC Studio 8H sound (INFERENCE); LP rip, each movement its own file",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Victor Concert Orchestra, Walter B. Rogers, 1914–15 (Tobani arrangement, one side per movement)",
+     "complete": false,
+     "cuts": "Abridged arrangement by Theodore Moses Tobani; each movement cut to one 78 side (2:50–3:41)",
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro vivace (Part 1, matrix B-13669)",
+       "source": {
+        "archive": {
+         "item": "loc-jukebox-132887-jupiter-symphony",
+         "file": "jukebox-132887_jupiter-symphony.mp3"
+        }
+       },
+       "duration": 174,
+       "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1915,
+        "evidence": "Victor 17707 (parts 1, 3) and 35430 (parts 2, 4); LOC National Jukebox items jukebox-132887/132890/132888/132894; DAHR https://adp.library.ucsb.edu/index.php/matrix/detail/200013181/C-13671-Jupiter_symphony ; IA items carry PD Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+       },
+       "performers": "Victor Concert Orchestra, conductor Walter B. Rogers; arranger Theodore Moses Tobani",
+       "recorded": "22 December 1914 – 27 January 1915, Camden NJ (LOC National Jukebox / DAHR matrices B-13669, B-13670, C-13671, C-13677)",
+       "quality": "poor",
+       "qualityNote": "Acoustic pops-orchestra arrangement; historical curiosity, not a faithful performance",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged arrangement by Theodore Moses Tobani; each movement cut to one 78 side (2:50–3:41)",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante cantabile (Part 2, matrix C-13671)",
+       "source": {
+        "archive": {
+         "item": "loc-jukebox-132890-jupiter-symphony",
+         "file": "jukebox-132890_jupiter-symphony.mp3"
+        }
+       },
+       "duration": 221,
+       "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1915,
+        "evidence": "Victor 17707 (parts 1, 3) and 35430 (parts 2, 4); LOC National Jukebox items jukebox-132887/132890/132888/132894; DAHR https://adp.library.ucsb.edu/index.php/matrix/detail/200013181/C-13671-Jupiter_symphony ; IA items carry PD Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+       },
+       "performers": "Victor Concert Orchestra, conductor Walter B. Rogers; arranger Theodore Moses Tobani",
+       "recorded": "22 December 1914 – 27 January 1915, Camden NJ (LOC National Jukebox / DAHR matrices B-13669, B-13670, C-13671, C-13677)",
+       "quality": "poor",
+       "qualityNote": "Acoustic pops-orchestra arrangement; historical curiosity, not a faithful performance",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged arrangement by Theodore Moses Tobani; each movement cut to one 78 side (2:50–3:41)",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Menuetto: Allegretto (Part 3, matrix B-13670)",
+       "source": {
+        "archive": {
+         "item": "loc-jukebox-132888-jupiter-symphony",
+         "file": "jukebox-132888_jupiter-symphony.mp3"
+        }
+       },
+       "duration": 169,
+       "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1915,
+        "evidence": "Victor 17707 (parts 1, 3) and 35430 (parts 2, 4); LOC National Jukebox items jukebox-132887/132890/132888/132894; DAHR https://adp.library.ucsb.edu/index.php/matrix/detail/200013181/C-13671-Jupiter_symphony ; IA items carry PD Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+       },
+       "performers": "Victor Concert Orchestra, conductor Walter B. Rogers; arranger Theodore Moses Tobani",
+       "recorded": "22 December 1914 – 27 January 1915, Camden NJ (LOC National Jukebox / DAHR matrices B-13669, B-13670, C-13671, C-13677)",
+       "quality": "poor",
+       "qualityNote": "Acoustic pops-orchestra arrangement; historical curiosity, not a faithful performance",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged arrangement by Theodore Moses Tobani; each movement cut to one 78 side (2:50–3:41)",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 4,
+       "movement": "IV. Molto allegro (Part 4, matrix C-13677)",
+       "source": {
+        "archive": {
+         "item": "loc-jukebox-132894-jupiter-symphony",
+         "file": "jukebox-132894_jupiter-symphony.mp3"
+        }
+       },
+       "duration": 221,
+       "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1915,
+        "evidence": "Victor 17707 (parts 1, 3) and 35430 (parts 2, 4); LOC National Jukebox items jukebox-132887/132890/132888/132894; DAHR https://adp.library.ucsb.edu/index.php/matrix/detail/200013181/C-13671-Jupiter_symphony ; IA items carry PD Mark 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+       },
+       "performers": "Victor Concert Orchestra, conductor Walter B. Rogers; arranger Theodore Moses Tobani",
+       "recorded": "22 December 1914 – 27 January 1915, Camden NJ (LOC National Jukebox / DAHR matrices B-13669, B-13670, C-13671, C-13677)",
+       "quality": "poor",
+       "qualityNote": "Acoustic pops-orchestra arrangement; historical curiosity, not a faithful performance",
+       "qualityBasis": "EXT",
+       "cuts": "Abridged arrangement by Theodore Moses Tobani; each movement cut to one 78 side (2:50–3:41)",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "mozart",
+   "work": "Piano Concerto No. 21 in C major, K. 467",
+   "year": "1785",
+   "priority": 1,
+   "why": "The Andante of “Elvira Madigan” and a model of Classical concerto form, played by Schnabel.",
+   "complete": true,
+   "set": "mozart-pc-21",
+   "parts": 3,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro maestoso",
+     "source": {
+      "archive": {
+       "item": "Mozart.PianoConcertoNo.21",
+       "file": "01 Allegro maestoso.mp3"
+      }
+     },
+     "duration": 812,
+     "licence": "Public domain (CC publicdomain, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/licenses/publicdomain/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano; London Symphony Orchestra, Sir Malcolm Sargent",
+     "recorded": "12 January 1937, Abbey Road Studios, London (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1937 transfer from Angel LP COLH 67 by Bob Varney; mono, some hiss",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "IA licence URL creativecommons.org/licenses/publicdomain; recording first published 1937 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Andante",
+     "source": {
+      "archive": {
+       "item": "Mozart.PianoConcertoNo.21",
+       "file": "02 Andante.mp3"
+      }
+     },
+     "duration": 498,
+     "licence": "Public domain (CC publicdomain, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/licenses/publicdomain/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano; London Symphony Orchestra, Sir Malcolm Sargent",
+     "recorded": "12 January 1937, Abbey Road Studios, London (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1937 transfer from Angel LP COLH 67 by Bob Varney; mono, some hiss",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "IA licence URL creativecommons.org/licenses/publicdomain; recording first published 1937 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Allegro vivace assai",
+     "source": {
+      "archive": {
+       "item": "Mozart.PianoConcertoNo.21",
+       "file": "03 Allegro vivace assai.mp3"
+      }
+     },
+     "duration": 404,
+     "licence": "Public domain (CC publicdomain, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/licenses/publicdomain/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano; London Symphony Orchestra, Sir Malcolm Sargent",
+     "recorded": "12 January 1937, Abbey Road Studios, London (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1937 transfer from Angel LP COLH 67 by Bob Varney; mono, some hiss",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "IA licence URL creativecommons.org/licenses/publicdomain; recording first published 1937 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "mozart",
+   "work": "Piano Concerto No. 27 in B♭ major, K. 595",
+   "year": "1791",
+   "priority": 2,
+   "why": "Mozart’s last piano concerto, finished the year he died; Schnabel and Barbirolli in 1934.",
+   "complete": true,
+   "set": "mozart-pc-27",
+   "parts": 3,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro",
+     "source": {
+      "file": "File:Mozart; Piano Concerto No. 27, 1. Allegro.ogg"
+     },
+     "duration": 775,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano; London Symphony Orchestra, Sir John Barbirolli",
+     "recorded": "2 May 1934, Abbey Road Studios, London (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1934 transfer from Angel LP COLH 67; mono, hiss likely",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Larghetto",
+     "source": {
+      "file": "File:Mozart; Piano Concerto No. 27, 2. Larghetto in E Flat Major.ogg"
+     },
+     "duration": 652,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano; London Symphony Orchestra, Sir John Barbirolli",
+     "recorded": "2 May 1934, Abbey Road Studios, London (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1934 transfer from Angel LP COLH 67; mono, hiss likely",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Allegro",
+     "source": {
+      "file": "File:Mozart; Piano Concerto No. 27, 3. Allegro.ogg"
+     },
+     "duration": 459,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano; London Symphony Orchestra, Sir John Barbirolli",
+     "recorded": "2 May 1934, Abbey Road Studios, London (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1934 transfer from Angel LP COLH 67; mono, hiss likely",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "mozart",
+   "work": "Don Giovanni, K. 527 (excerpts, historic 78 rpm)",
+   "year": "1787",
+   "priority": 1,
+   "why": "Seduction duet and serenade in the voices of 1909–1920; no modern recording with acceptable rights was found.",
+   "complete": false,
+   "set": "mozart-don-giovanni",
+   "parts": 41,
+   "historic": true,
+   "movements": [
+    {
+     "part": 11,
+     "movement": "No. 7 Là ci darem la mano (Don Giovanni, Zerlina)",
+     "source": {
+      "archive": {
+       "item": "loc-jukebox-35668-l-ci-darem-la-mano",
+       "file": "jukebox-35668_l-ci-darem-la-mano.mp3"
+      }
+     },
+     "duration": 192,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": 1920,
+      "evidence": "LOC National Jukebox jukebox-35668; IA item loc-jukebox-35668-l-ci-darem-la-mano carries PD Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+     },
+     "performers": "Reinald Werrenrath, baritone; Mabel Garrison, soprano; Victor orchestra, Josef Pasternack",
+     "recorded": "18 February 1920 (matrix B-23741, take 2; LOC National Jukebox)",
+     "quality": "fair",
+     "qualityNote": "Acoustic-era 78; narrow bandwidth, piano or small-orchestra accompaniment",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "cuts": "Single 78 side (3:12); abridged",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 27,
+     "movement": "No. 16 Deh, vieni alla finestra (Don Giovanni, serenade)",
+     "source": {
+      "archive": {
+       "item": "78_1-don-giovanniserenata-deh-vieni-alla-finestra-open-thy-window-love-2-f_gbia7028557a",
+       "file": "(1) Don Giovanni–Serenata, \"Deh vieni all - Antonio Scotti.mp3"
+      }
+     },
+     "duration": 183,
+     "licence": "Public domain (US, published before 1926)",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": 1909,
+      "evidence": "IA Great 78 item …gbia7028557a, catalogue 88194, dated 1909 (https://archive.org/details/78_1-don-giovanniserenata-deh-vieni-alla-finestra-open-thy-window-love-2-f_gbia7028557a)"
+     },
+     "performers": "Antonio Scotti, baritone; Victor Orchestra",
+     "recorded": "1909 (IA date; matrix H88194 / Victor 88194)",
+     "quality": "poor",
+     "qualityNote": "Acoustic-era 78; narrow bandwidth, piano or small-orchestra accompaniment",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "cuts": "Single 78 side (3:03)",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 21,
+     "movement": "No. 12 Batti, batti, o bel Masetto (Zerlina)",
+     "source": {
+      "file": "File:Mozart-Don Giovanni-Adelina Patti-Batti, batti o bel Masetto-(1905).ogg"
+     },
+     "duration": 198,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": 1905,
+      "evidence": "Commons description gives recording and publication as 1905 (tag PD-old covers the composition only; evidence for the recording date is the description itself, source a YouTube upload — weakest evidence in this file)",
+      "commonsTemplates": [
+       "PD-old"
+      ]
+     },
+     "performers": "Adelina Patti, soprano",
+     "recorded": "1905 (Commons description: “Recorded 1905”, published 1905)",
+     "quality": "poor",
+     "qualityNote": "1905 acoustic; Patti at 62; historic document of a 19th-century Zerlina",
+     "qualityBasis": "EXT",
+     "cuts": "Single 78 side (3:18)",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Mattia Battistini and Emilia Corsi, Gramophone 054104, 1906 (Là ci darem la mano)",
+     "complete": false,
+     "cuts": "Single 78 side (4:08)",
+     "movements": [
+      {
+       "part": 11,
+       "movement": "Là ci darem la mano",
+       "source": {
+        "archive": {
+         "item": "mattia-battistini-et-emilia-corsi-wolfgang-amadeus-mozart-don-giovanni-la-ci-dar_202012",
+         "file": "MattiaBattistiniEtEmiliaCorsi,WolfgangAmadeusMozart,DonGiovanni,LaCiDaremLaMano,Gramophone054104.mp3"
+        }
+       },
+       "duration": 248,
+       "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1906,
+        "evidence": "IA item dated 1906-11, Gramophone 054104, PD Mark 1.0 licence URL (https://archive.org/details/mattia-battistini-et-emilia-corsi-wolfgang-amadeus-mozart-don-giovanni-la-ci-dar_202012)",
+        "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/"
+       },
+       "performers": "Mattia Battistini, baritone; Emilia Corsi, soprano",
+       "recorded": "1906 (IA date 1906-11)",
+       "quality": "poor",
+       "qualityNote": "1906 acoustic Gramophone; piano accompaniment; narrow bandwidth",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Single 78 side (4:08)",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Rosa Raisa and Giacomo Rimini, Vocalion 30108, 1920 (Là ci darem la mano)",
+     "complete": false,
+     "cuts": "Single 78 side (2:46)",
+     "movements": [
+      {
+       "part": 11,
+       "movement": "Là ci darem la mano",
+       "source": {
+        "archive": {
+         "item": "rosa-raisa-et-giacomo-rimini-wolfgang-amadeus-mozart-don-giovanni-la-ci-darem-la-mano-vocalion-30108",
+         "file": "RosaRaisaEtGiacomoRimini,WolfgangAmadeusMozart,DonGiovanni,LaCiDaremLaMano,Vocalion30108.mp3"
+        }
+       },
+       "duration": 166,
+       "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1920,
+        "evidence": "IA item dated 1920-04, Vocalion 30108, PD Mark 1.0 licence URL (https://archive.org/details/rosa-raisa-et-giacomo-rimini-wolfgang-amadeus-mozart-don-giovanni-la-ci-darem-la-mano-vocalion-30108)",
+        "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/"
+       },
+       "performers": "Rosa Raisa, soprano; Giacomo Rimini, baritone",
+       "recorded": "1920 (IA date 1920-04)",
+       "quality": "fair",
+       "qualityNote": "1920 acoustic Vocalion",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Single 78 side (2:46)",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "haydn",
+   "work": "String Quartet in C major, Op. 54 No. 2, Hob. III:57",
+   "year": "1788",
+   "priority": 1,
+   "why": "Haydn’s most daring quartet: a violin-led Adagio and a finale that begins and ends slow.",
+   "complete": true,
+   "set": "haydn-quartet-54-2",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Vivace",
+     "source": {
+      "file": "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - I. Vivace.ogg"
+     },
+     "duration": 263,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [
+       "YouTube CC-BY"
+      ],
+      "rule": 1
+     },
+     "performers": "The Danish String Quartet",
+     "recorded": "2015 (Commons date 2015-07-24; taken from a YouTube video)",
+     "quality": "good",
+     "qualityNote": "Professional modern ensemble; video-derived audio, so some compression artefacts possible",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons CC BY 3.0 (rule 1: explicit recording release); attribution required",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Adagio",
+     "source": {
+      "file": "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - II. Adagio.ogg"
+     },
+     "duration": 188,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [
+       "YouTube CC-BY"
+      ],
+      "rule": 1
+     },
+     "performers": "The Danish String Quartet",
+     "recorded": "2015 (Commons date 2015-07-24; taken from a YouTube video)",
+     "quality": "good",
+     "qualityNote": "Professional modern ensemble; video-derived audio, so some compression artefacts possible",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons CC BY 3.0 (rule 1: explicit recording release); attribution required",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Menuet: Allegretto — Trio",
+     "source": {
+      "file": "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - III. Minuet allegretto-Trio.ogg"
+     },
+     "duration": 200,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [
+       "YouTube CC-BY"
+      ],
+      "rule": 1
+     },
+     "performers": "The Danish String Quartet",
+     "recorded": "2015 (Commons date 2015-07-24; taken from a YouTube video)",
+     "quality": "good",
+     "qualityNote": "Professional modern ensemble; video-derived audio, so some compression artefacts possible",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons CC BY 3.0 (rule 1: explicit recording release); attribution required",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Finale: Adagio — Presto — Adagio",
+     "source": {
+      "file": "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - IV. Finale adagio-Presto-Adagio.ogg"
+     },
+     "duration": 437,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [
+       "YouTube CC-BY"
+      ],
+      "rule": 1
+     },
+     "performers": "The Danish String Quartet",
+     "recorded": "2015 (Commons date 2015-07-24; taken from a YouTube video)",
+     "quality": "good",
+     "qualityNote": "Professional modern ensemble; video-derived audio, so some compression artefacts possible",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons CC BY 3.0 (rule 1: explicit recording release); attribution required",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "haydn",
+   "work": "String Quartet in D major, Op. 64 No. 5 “The Lark”, Hob. III:63",
+   "year": "1790",
+   "priority": 2,
+   "why": "The best-loved Haydn quartet: the lark-song opening and a perpetual-motion finale.",
+   "complete": true,
+   "set": "haydn-quartet-64-5",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro moderato",
+     "source": {
+      "file": "File:Haydn - String Quartet, Op. 64 No. 5 in D major 'The Lark' - I. Allegro moderato (Musopen String Quartet).flac"
+     },
+     "duration": 372,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; finale runs only 1:31, which looks cut or very fast — unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Adagio cantabile",
+     "source": {
+      "file": "File:Haydn - String Quartet, Op. 64 No. 5 in D major 'The Lark' - II. Adagio. Cantabile (Musopen String Quartet).flac"
+     },
+     "duration": 292,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; finale runs only 1:31, which looks cut or very fast — unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Menuet: Allegretto",
+     "source": {
+      "file": "File:Haydn - String Quartet, Op. 64 No. 5 in D major 'The Lark' - III. Menuet. Allegretto (Musopen String Quartet).flac"
+     },
+     "duration": 227,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; finale runs only 1:31, which looks cut or very fast — unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Finale: Vivace",
+     "source": {
+      "file": "File:Haydn - String Quartet, Op. 64 No. 5 in D major 'The Lark' - IV. Finale. Vivace (Musopen String Quartet).flac"
+     },
+     "duration": 91,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; finale runs only 1:31, which looks cut or very fast — unverified",
+     "qualityBasis": "INFERENCE",
+     "cuts": "1:31 is short for this finale (typically about 3 min): possible cut, unverified",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "haydn",
+   "work": "Symphony No. 94 in G major “Surprise”, Hob. I:94 (movements I, III, IV)",
+   "year": "1791",
+   "priority": 2,
+   "why": "Completes the existing Koussevitzky Andante with the other three movements from the same 1929 performance.",
+   "complete": false,
+   "set": "haydn-94",
+   "parts": 4,
+   "existingParts": [
+    {
+     "part": 2,
+     "id": "haydn-94-andante"
+    }
+   ],
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Adagio — Vivace assai",
+     "source": {
+      "file": "File:Haydn; Symphony No. 94 \"Surprise\", 1. Adagio – Vivace assai.ogg"
+     },
+     "duration": 370,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Boston Symphony Orchestra, Serge Koussevitzky",
+     "recorded": "1929 (Commons date; IA: transfer of Victor 78 set M-55 by Bob Varney)",
+     "quality": "fair",
+     "qualityNote": "1929 early electrical 78s; same transfer series as the existing Andante",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL; published 1929, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Menuetto: Allegro molto",
+     "source": {
+      "file": "File:Haydn; Symphony No. 94 \"Surprise\", 3. Menuetto (Allegro molto).ogg"
+     },
+     "duration": 230,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Boston Symphony Orchestra, Serge Koussevitzky",
+     "recorded": "1929 (Commons date; IA: transfer of Victor 78 set M-55 by Bob Varney)",
+     "quality": "fair",
+     "qualityNote": "1929 early electrical 78s; same transfer series as the existing Andante",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL; published 1929, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Finale: Allegro molto",
+     "source": {
+      "file": "File:Haydn; Symphony No. 94 \"Surprise\", 4. Finale (Allegro molto).ogg"
+     },
+     "duration": 211,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Boston Symphony Orchestra, Serge Koussevitzky",
+     "recorded": "1929 (Commons date; IA: transfer of Victor 78 set M-55 by Bob Varney)",
+     "quality": "fair",
+     "qualityNote": "1929 early electrical 78s; same transfer series as the existing Andante",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL; published 1929, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "haydn",
+   "work": "Symphony No. 100 in G major “Military”, Hob. I:100",
+   "year": "1794",
+   "priority": 3,
+   "why": "Haydn’s London showpiece with Turkish percussion; a complete 1951 Salzburg performance.",
+   "complete": true,
+   "set": "haydn-100",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Adagio — Allegro",
+     "source": {
+      "file": "File:Haydn; Symphony No. 100 In G Major \"Military\"- 1. Adagio-Allegro.ogg"
+     },
+     "duration": 464,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Salzburg Mozarteum Orchestra, Fritz Weidlich",
+     "recorded": "1951, Salzburg (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1951 mono; IA notes “audio reconstruction and fake stereo”, so the sound is processed",
+     "qualityBasis": "EXT",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Allegretto",
+     "source": {
+      "file": "File:Haydn; Symphony No. 100 In G Major \"Military\"- 2. Allegretto.ogg"
+     },
+     "duration": 348,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Salzburg Mozarteum Orchestra, Fritz Weidlich",
+     "recorded": "1951, Salzburg (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1951 mono; IA notes “audio reconstruction and fake stereo”, so the sound is processed",
+     "qualityBasis": "EXT",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Menuetto: Moderato",
+     "source": {
+      "file": "File:Haydn; Symphony No. 100 In G Major \"Military\"- 3. Menuetto Moderato.ogg"
+     },
+     "duration": 279,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Salzburg Mozarteum Orchestra, Fritz Weidlich",
+     "recorded": "1951, Salzburg (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1951 mono; IA notes “audio reconstruction and fake stereo”, so the sound is processed",
+     "qualityBasis": "EXT",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Finale: Presto",
+     "source": {
+      "file": "File:Haydn; Symphony No. 100 In G Major \"Military\"- 4. Finale (Presto).ogg"
+     },
+     "duration": 292,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Salzburg Mozarteum Orchestra, Fritz Weidlich",
+     "recorded": "1951, Salzburg (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1951 mono; IA notes “audio reconstruction and fake stereo”, so the sound is processed",
+     "qualityBasis": "EXT",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original has a CC publicdomain licence URL",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "mozart",
+   "work": "Symphony No. 40 in G minor, K. 550 (movements II–IV)",
+   "year": "1788",
+   "priority": 2,
+   "why": "Completes the existing Molto allegro track with Andante, Menuetto and Finale from the same Musopen performance.",
+   "complete": false,
+   "set": "mozart-40",
+   "parts": 4,
+   "existingParts": [
+    {
+     "part": 1,
+     "id": "mozart-40-molto-allegro"
+    }
+   ],
+   "movements": [
+    {
+     "part": 2,
+     "movement": "II. Andante",
+     "source": {
+      "file": "File:Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac"
+     },
+     "duration": 456,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen Symphony (Commons credit; ensemble attribution disputed per the existing track)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Menuetto: Allegretto",
+     "source": {
+      "file": "File:Mozart - Symphony No. 40 in G minor, K550 - III. Menuetto. Allegretto (Musopen Symphony).flac"
+     },
+     "duration": 273,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen Symphony (Commons credit; ensemble attribution disputed per the existing track)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Finale: Allegro assai",
+     "source": {
+      "file": "File:Mozart - Symphony No. 40 in G minor, K550 - IV. Finale. Allegro assai (Musopen Symphony).flac"
+     },
+     "duration": 285,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen Symphony (Commons credit; ensemble attribution disputed per the existing track)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "mozart",
+   "work": "Clarinet Concerto in A major, K. 622 (movements I and III)",
+   "year": "1791",
+   "priority": 2,
+   "why": "Completes the existing McColl Adagio with the outer movements from the same 1987 performance.",
+   "complete": false,
+   "set": "mozart-clarinet-concerto",
+   "parts": 3,
+   "existingParts": [
+    {
+     "part": 2,
+     "id": "mozart-clarinet-adagio"
+    }
+   ],
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro",
+     "source": {
+      "file": "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 1. Allegro.ogg"
+     },
+     "duration": 746,
+     "licence": "CC BY-SA 2.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY-SA 2.0",
+      "templates": [
+       "cc-by-sa-2.0"
+      ],
+      "rule": 1
+     },
+     "performers": "William McColl, basset clarinet; University of Washington Symphony Orchestra, Abraham Kaplan (as on the existing track)",
+     "recorded": "December 1987",
+     "quality": "fair",
+     "qualityNote": "Live university recording from the Al Goldstein collection; audience-hall sound",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Rondo: Allegro",
+     "source": {
+      "file": "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 3. Allegro.ogg"
+     },
+     "duration": 531,
+     "licence": "CC BY-SA 2.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY-SA 2.0",
+      "templates": [
+       "cc-by-sa-2.0"
+      ],
+      "rule": 1
+     },
+     "performers": "William McColl, basset clarinet; University of Washington Symphony Orchestra, Abraham Kaplan (as on the existing track)",
+     "recorded": "December 1987",
+     "quality": "fair",
+     "qualityNote": "Live university recording from the Al Goldstein collection; audience-hall sound",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "mozart",
+   "work": "String Quartet No. 19 in C major, K. 465 “Dissonance”",
+   "year": "1785",
+   "priority": 2,
+   "why": "The slow introduction that startled Haydn’s generation; the quartet Mozart dedicated to Haydn.",
+   "complete": true,
+   "set": "mozart-quartet-19",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Adagio — Allegro",
+     "source": {
+      "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - I. Adagio - Allegro (Musopen String Quartet).flac"
+     },
+     "duration": 513,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Andante cantabile",
+     "source": {
+      "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - II. Andante cantabile (Musopen String Quartet).flac"
+     },
+     "duration": 461,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Menuetto: Allegretto",
+     "source": {
+      "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - III. Allegretto (Musopen String Quartet).flac"
+     },
+     "duration": 324,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Allegro molto",
+     "source": {
+      "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - IV. Allegro molto (Musopen String Quartet).flac"
+     },
+     "duration": 351,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen String Quartet (Commons credit; players not named)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "schubert",
+   "work": "Symphony No. 8 in B minor, D. 759 “Unfinished”",
+   "year": "1822",
+   "priority": 1,
+   "why": "Two movements that hold the Romantic symphony’s turning point; Stokowski’s 1927 electrical set.",
+   "complete": true,
+   "set": "schubert-8",
+   "parts": 2,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro moderato",
+     "source": {
+      "archive": {
+       "item": "SchubertSymphonyNo.8unfinished_347",
+       "file": "01_schubertNo.8M1.mp3"
+      }
+     },
+     "duration": 628,
+     "licence": "CC0 1.0 (uploader-declared)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1927,
+      "evidence": "Issued 1927 as Victor 6663–6665 per IA item description; IA licence URL CC0 1.0 is uploader-declared. US status not established (published after 1925); the 1924 acoustic alternative is US-clean",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/"
+     },
+     "territorial": true,
+     "performers": "Philadelphia Orchestra, Leopold Stokowski",
+     "recorded": "28 and 30 April 1927, Academy of Music, Philadelphia (IA description; DAHR gives 4/28/1927 for matrix CVE-29052)",
+     "quality": "good",
+     "qualityNote": "1927 early electrical Victor 6663–6665; Bob Varney transfer, mono",
+     "qualityBasis": "EXT",
+     "pick": true,
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Andante con moto",
+     "source": {
+      "archive": {
+       "item": "SchubertSymphonyNo.8unfinished_347",
+       "file": "02_schubertNo.8M2.mp3"
+      }
+     },
+     "duration": 715,
+     "licence": "CC0 1.0 (uploader-declared)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1927,
+      "evidence": "Issued 1927 as Victor 6663–6665 per IA item description; IA licence URL CC0 1.0 is uploader-declared. US status not established (published after 1925); the 1924 acoustic alternative is US-clean",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/"
+     },
+     "territorial": true,
+     "performers": "Philadelphia Orchestra, Leopold Stokowski",
+     "recorded": "28 and 30 April 1927, Academy of Music, Philadelphia (IA description; DAHR gives 4/28/1927 for matrix CVE-29052)",
+     "quality": "good",
+     "qualityNote": "1927 early electrical Victor 6663–6665; Bob Varney transfer, mono",
+     "qualityBasis": "EXT",
+     "pick": true,
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Philadelphia Orchestra, Leopold Stokowski, 1924 (acoustic Victor 6459–6461)",
+     "complete": true,
+     "cuts": "Six 78 sides; exposition repeat omitted (INFERENCE from duration)",
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro moderato",
+       "source": {
+        "archive": {
+         "item": "6459-61-schubert-unfinished-ii",
+         "file": "6459-61 Schubert Unfinished (i).mp3"
+        }
+       },
+       "duration": 639,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1924,
+        "evidence": "Issued Oct 1924 as Victor 6459–6461 (IA item 6459-61-schubert-unfinished-ii); DAHR https://adp.library.ucsb.edu/index.php/objects/refer/41197 lists C-29052 take 5, 4/18/1924. DAHR notes 6459 was later re-pressed from the 1927 electrical remake, so the IA transfer should be checked by ear"
+       },
+       "performers": "Philadelphia Orchestra, Leopold Stokowski",
+       "recorded": "18–19 April 1924, Victor studios, Camden NJ (IA description; DAHR matrix C-29052 take 5, 4/18/1924)",
+       "quality": "poor",
+       "qualityNote": "1924 acoustic; narrow bandwidth, but clean US rights",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Six 78 sides; exposition repeat omitted (INFERENCE from duration)",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante con moto",
+       "source": {
+        "archive": {
+         "item": "6459-61-schubert-unfinished-ii",
+         "file": "6459-61 Schubert Unfinished (ii).mp3"
+        }
+       },
+       "duration": 725,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1924,
+        "evidence": "Issued Oct 1924 as Victor 6459–6461 (IA item 6459-61-schubert-unfinished-ii); DAHR https://adp.library.ucsb.edu/index.php/objects/refer/41197 lists C-29052 take 5, 4/18/1924. DAHR notes 6459 was later re-pressed from the 1927 electrical remake, so the IA transfer should be checked by ear"
+       },
+       "performers": "Philadelphia Orchestra, Leopold Stokowski",
+       "recorded": "18–19 April 1924, Victor studios, Camden NJ (IA description; DAHR matrix C-29052 take 5, 4/18/1924)",
+       "quality": "poor",
+       "qualityNote": "1924 acoustic; narrow bandwidth, but clean US rights",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Six 78 sides; exposition repeat omitted (INFERENCE from duration)",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Orchestra conducted by Eduard Mörike, Parlophon 1921",
+     "complete": true,
+     "cuts": "Six 78 sides; abridged",
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro moderato",
+       "source": {
+        "archive": {
+         "item": "5008-10-schubert-unfinished-i",
+         "file": "5008-10 Schubert Unfinished (i).mp3"
+        }
+       },
+       "duration": 636,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1922,
+        "evidence": "Parlophon P 1265–1267 issued 1922; US Odeon 5008–5010 Jan 1923, per https://archive.org/details/5008-10-schubert-unfinished-i"
+       },
+       "performers": "Orchestra conducted by Eduard Mörike (German Opera House Orchestra, Berlin, on the US Odeon issue)",
+       "recorded": "22 November 1921, Berlin (IA description)",
+       "quality": "poor",
+       "qualityNote": "1921 acoustic; Odeon 5008–5010 US issue",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Six 78 sides; abridged",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante con moto",
+       "source": {
+        "archive": {
+         "item": "5008-10-schubert-unfinished-i",
+         "file": "5008-10 Schubert Unfinished (ii).mp3"
+        }
+       },
+       "duration": 656,
+       "licence": "Public domain (US, published before 1926)",
+       "rights": {
+        "basis": "us-published-before-cutoff",
+        "rule": 2,
+        "published": 1922,
+        "evidence": "Parlophon P 1265–1267 issued 1922; US Odeon 5008–5010 Jan 1923, per https://archive.org/details/5008-10-schubert-unfinished-i"
+       },
+       "performers": "Orchestra conducted by Eduard Mörike (German Opera House Orchestra, Berlin, on the US Odeon issue)",
+       "recorded": "22 November 1921, Berlin (IA description)",
+       "quality": "poor",
+       "qualityNote": "1921 acoustic; Odeon 5008–5010 US issue",
+       "qualityBasis": "INFERENCE",
+       "cuts": "Six 78 sides; abridged",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Fulda Symphonic Orchestra, Simon Schindler, 2000 (community orchestra)",
+     "complete": true,
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Allegro moderato",
+       "source": {
+        "file": "File:Schubert Symphony No. 8 'Unfinished' - 1- Allegro moderato in B minor.ogg"
+       },
+       "duration": 869,
+       "licence": "EEF OAL-1",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "EEF OAL-1",
+        "templates": [
+         "OAL-1"
+        ],
+        "rule": 1
+       },
+       "performers": "Fulda Symphonic Orchestra, conductor Simon Schindler",
+       "recorded": "9 April 2000 (Commons date; benefit concert, CD 1)",
+       "quality": "fair",
+       "qualityNote": "Amateur orchestra live CD; intonation and balance not verified",
+       "qualityBasis": "INFERENCE",
+       "rightsNote": "Commons licence EEF Open Audio License OAL-1 (rule 1 lists OAL)",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Andante con moto",
+       "source": {
+        "file": "File:Schubert's 8th Symphony, 2nd movement Andante con moto in E major.ogg"
+       },
+       "duration": 645,
+       "licence": "EEF OAL-1",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "EEF OAL-1",
+        "templates": [
+         "OAL-1"
+        ],
+        "rule": 1
+       },
+       "performers": "Fulda Symphonic Orchestra, conductor Simon Schindler",
+       "recorded": "9 April 2000 (Commons date; benefit concert, CD 1)",
+       "quality": "fair",
+       "qualityNote": "Amateur orchestra live CD; intonation and balance not verified",
+       "qualityBasis": "INFERENCE",
+       "rightsNote": "Commons licence EEF Open Audio License OAL-1 (rule 1 lists OAL)",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "schubert",
+   "work": "Winterreise, D. 911 (24 songs)",
+   "year": "1827",
+   "priority": 1,
+   "why": "Schubert’s song cycle of despair in Duhan’s 1928 complete recording; Lindenbaum and Leiermann are its poles.",
+   "complete": true,
+   "set": "schubert-winterreise",
+   "parts": 24,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "1. Gute Nacht",
+     "source": {
+      "file": "File:01 - Gute Nacht (CK 2946-2, ES 383).flac"
+     },
+     "duration": 249,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "2. Die Wetterfahne",
+     "source": {
+      "file": "File:02 - Die Wetterfahne (CK 2947-2, ES 383).flac"
+     },
+     "duration": 142,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "3. Gefrorne Tränen",
+     "source": {
+      "file": "File:03 - Gefrorene Tränen (CK 2948-1, ER 270).flac"
+     },
+     "duration": 142,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "4. Erstarrung",
+     "source": {
+      "file": "File:04 - Erstarrung (CK 2949-1, ER 270).flac"
+     },
+     "duration": 199,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 5,
+     "movement": "5. Der Lindenbaum",
+     "source": {
+      "file": "File:05 - Der Lindenbaum (CK 2950-2, ES 384).flac"
+     },
+     "duration": 256,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 6,
+     "movement": "6. Wasserflut",
+     "source": {
+      "file": "File:06 - Wasserfluth (CK 2951-2, ES 384).flac"
+     },
+     "duration": 241,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 7,
+     "movement": "7. Auf dem Flusse",
+     "source": {
+      "file": "File:07 - Auf dem Flusse (CK 2952-2, ES 385).flac"
+     },
+     "duration": 252,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 8,
+     "movement": "8. Rückblick",
+     "source": {
+      "file": "File:08 - Rückblick (CK 2953-1, ES 385).flac"
+     },
+     "duration": 172,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-old-70-1923",
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 9,
+     "movement": "9. Irrlicht",
+     "source": {
+      "file": "File:09 - Irrlicht (BK 2954-2, ES 271).flac"
+     },
+     "duration": 166,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 10,
+     "movement": "10. Rast",
+     "source": {
+      "file": "File:10 - Rast (BK 2955-2, ER 271).flac"
+     },
+     "duration": 199,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 11,
+     "movement": "11. Frühlingstraum",
+     "source": {
+      "file": "File:11 - Frühlingstraum (CK 2956-1, ES 386).flac"
+     },
+     "duration": 259,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 12,
+     "movement": "12. Einsamkeit",
+     "source": {
+      "file": "File:12 - Einsamkeit (CK 2957-2, ES 386).flac"
+     },
+     "duration": 186,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 13,
+     "movement": "13. Die Post",
+     "source": {
+      "file": "File:13 - Die Post (CK 2958-2, ER 272).flac"
+     },
+     "duration": 162,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 14,
+     "movement": "14. Der greise Kopf",
+     "source": {
+      "file": "File:14 - Der greise Kopf (BK 2959-2, ER 272).flac"
+     },
+     "duration": 182,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 15,
+     "movement": "15. Die Krähe",
+     "source": {
+      "file": "File:15 - Die Krähe (CK 2960-2, ER 274).flac"
+     },
+     "duration": 168,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 16,
+     "movement": "16. Letzte Hoffnung",
+     "source": {
+      "file": "File:16 - Letzte Hoffnung (CL 4400-2, ES 392).flac"
+     },
+     "duration": 194,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 17,
+     "movement": "17. Im Dorfe",
+     "source": {
+      "file": "File:17 - Im Dorfe (CL 4399-1, ES 392).flac"
+     },
+     "duration": 215,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 18,
+     "movement": "18. Der stürmische Morgen",
+     "source": {
+      "file": "File:18 - Der stürmische Morgen (BK 2963-1, ER 274).flac"
+     },
+     "duration": 65,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 19,
+     "movement": "19. Täuschung",
+     "source": {
+      "file": "File:19 - Täuschung (BL 4398-2, ER 275).flac"
+     },
+     "duration": 105,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 20,
+     "movement": "20. Der Wegweiser",
+     "source": {
+      "file": "File:20 - Der Wegweiser (CL 4402-1, ES 393).flac"
+     },
+     "duration": 251,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 21,
+     "movement": "21. Das Wirtshaus",
+     "source": {
+      "file": "File:21 - Das Wirtshaus (CL 4403-1, ES 393).flac"
+     },
+     "duration": 224,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 22,
+     "movement": "22. Mut",
+     "source": {
+      "file": "File:22 - Mut (BK 2967-1, ER 275).flac"
+     },
+     "duration": 113,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 23,
+     "movement": "23. Die Nebensonnen",
+     "source": {
+      "file": "File:23 - Die Nebensonnen (BL 4401-1, ER 276).flac"
+     },
+     "duration": 178,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 24,
+     "movement": "24. Der Leiermann",
+     "source": {
+      "file": "File:24 - Der Leiermann (BK 2969-1, ER 276).flac"
+     },
+     "duration": 196,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Hans Duhan, baritone (pianist not documented on the Commons file pages)",
+     "recorded": "1928, for His Master’s Voice (Commons date; Wikipedia: first singer to record all three Schubert cycles)",
+     "quality": "fair",
+     "qualityNote": "1928 early electrical shellac; surface noise and narrow range likely; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); 1928 recording published after 1925, so US status not established",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "schubert",
+   "work": "String Quintet in C major, D. 956 — II. Adagio",
+   "year": "1828",
+   "priority": 2,
+   "why": "The slow movement of Schubert’s last chamber work, written weeks before his death; the two cellos carry the pizzicato pulse.",
+   "complete": false,
+   "set": "schubert-quintet-956",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 2,
+     "movement": "II. Adagio",
+     "source": {
+      "archive": {
+       "item": "lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne",
+       "file": "disc1/01.02. Quintet In C Major, Op. 163: Second Movement: Adagio.mp3"
+      }
+     },
+     "duration": 794,
+     "licence": "Public domain (EU, published before 1963; territorial)",
+     "rights": {
+      "basis": "eu-published-before-1963",
+      "rule": 3,
+      "published": 1953,
+      "evidence": "IA item lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne: catalogue date 1953 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+     },
+     "territorial": true,
+     "performers": "Isaac Stern, Alexander Schneider (violins); Milton Katims (viola); Pablo Casals, Paul Tortelier (cellos) — Casals Festival at Prades, third series (IA creators)",
+     "recorded": "",
+     "quality": "good",
+     "qualityNote": "1953 mono LP rip; one file per movement; Adagio 13:14; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "pick": true,
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Budapest String Quartet with Benar Heifetz, cello, 1951 LP (Adagio only)",
+     "complete": false,
+     "movements": [
+      {
+       "part": 2,
+       "movement": "II. Adagio",
+       "source": {
+        "archive": {
+         "item": "lp_quintet-in-c-major-op-163_franz-schubert-budapest-string-quartet-ben",
+         "file": "disc1/01.02. Second Movement: Adagio.mp3"
+        }
+       },
+       "duration": 866,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1951,
+        "evidence": "IA item lp_quintet-in-c-major-op-163_franz-schubert-budapest-string-quartet-ben: catalogue date 1951 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Budapest String Quartet; Benar Heifetz, second cello",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1951 mono LP rip; Adagio 14:26",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    },
+    {
+     "label": "Wiener Konzerthausquartett, 1956 LP (Adagio only)",
+     "complete": false,
+     "movements": [
+      {
+       "part": 2,
+       "movement": "II. Adagio",
+       "source": {
+        "archive": {
+         "item": "lp_quintet-in-c-major-op-163_wiener-konzerthausquartett-franz-schubert",
+         "file": "disc1/01.02. Quintet In C Major, Op. 163: Adagio.mp3"
+        }
+       },
+       "duration": 929,
+       "licence": "Public domain (EU, published before 1963; territorial)",
+       "rights": {
+        "basis": "eu-published-before-1963",
+        "rule": 3,
+        "published": 1956,
+        "evidence": "IA item lp_quintet-in-c-major-op-163_wiener-konzerthausquartett-franz-schubert: catalogue date 1956 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
+       },
+       "territorial": true,
+       "performers": "Wiener Konzerthausquartett (second cellist not named on the item)",
+       "recorded": "",
+       "quality": "good",
+       "qualityNote": "1956 mono LP rip; Adagio 15:29",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "schubert",
+   "work": "Erlkönig, D. 328",
+   "year": "1815",
+   "priority": 2,
+   "why": "Schubert’s first great ballad, sung by the contralto Ernestine Schumann-Heink in a documented 1913 Victor session.",
+   "complete": true,
+   "set": "schubert-erlkoenig-1913",
+   "parts": 1,
+   "historic": true,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "Erlkönig",
+     "source": {
+      "file": "File:Schubert - Schumann-Heink - Erlkönig.ogg"
+     },
+     "duration": 237,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": 1913,
+      "evidence": "DAHR https://adp.library.ucsb.edu/index.php/matrix/detail/200011480/C-11339-Erlknig (Victor 88342, take 2, 1/16/1913). Commons tag is PD-old (composition only); the recording date is established by DAHR",
+      "commonsTemplates": [
+       "PD-old"
+      ]
+     },
+     "performers": "Ernestine Schumann-Heink, contralto; Victor Orchestra",
+     "recorded": "16 January 1913, Camden NJ (DAHR matrix C-11339 take 2; Victor 88342)",
+     "quality": "poor",
+     "qualityNote": "1913 acoustic Victor Red Seal with orchestral accompaniment; narrow bandwidth",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "schubert",
+   "work": "An die Musik, D. 547",
+   "year": "1817",
+   "priority": 2,
+   "why": "Arthur Nikisch at the piano for Elena Gerhardt in 1911: the great conductor as Lieder accompanist.",
+   "complete": true,
+   "set": "schubert-an-die-musik-1911",
+   "parts": 1,
+   "historic": true,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "An die Musik",
+     "source": {
+      "archive": {
+       "item": "78_andiemusik_012_05",
+       "file": "Andie Musik - Elena Gerhardt - Franz Schubert - Arthur Nikisch.mp3"
+      }
+     },
+     "duration": 235,
+     "licence": "Public domain (US, published before 1926)",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": 1911,
+      "evidence": "IA item 78_andiemusik_012_05 dated 1911-06-30, label Gram 043202; https://en.wikipedia.org/wiki/Elena_Gerhardt lists 1911 Red Label German HMV recordings with Nikisch (Schubert among them). No discography entry (matrix, issue date) was opened — evidence is IA metadata plus Wikipedia"
+     },
+     "performers": "Elena Gerhardt, mezzo-soprano; Arthur Nikisch, piano",
+     "recorded": "1911 (IA date 1911-06-30; Gramophone 043202)",
+     "quality": "poor",
+     "qualityNote": "1911 acoustic Gramophone; IA also holds a 4:08 transfer at another speed (_05-Gram 043202.mp3)",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "schubert",
+   "work": "Du bist die Ruh, D. 776",
+   "year": "1823",
+   "priority": 3,
+   "why": "Gerhardt and Nikisch again in 1911, a second Schubert song from the same session series.",
+   "complete": true,
+   "set": "schubert-du-bist-die-ruh-1911",
+   "parts": 1,
+   "historic": true,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "Du bist die Ruh",
+     "source": {
+      "archive": {
+       "item": "78_dubistdieruh_012_04",
+       "file": "Dubistdie Ruh' - Elena Gerhardt - Franz Schubert - Arthur Nikisch.mp3"
+      }
+     },
+     "duration": 245,
+     "licence": "Public domain (US, published before 1926)",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": 1911,
+      "evidence": "IA item 78_dubistdieruh_012_04 dated 1911-06-30, label Gram 043201; https://en.wikipedia.org/wiki/Elena_Gerhardt lists 1911 Red Label German HMV recordings with Nikisch (Schubert among them). No discography entry (matrix, issue date) was opened — evidence is IA metadata plus Wikipedia"
+     },
+     "performers": "Elena Gerhardt, mezzo-soprano; Arthur Nikisch, piano",
+     "recorded": "1911 (IA date 1911-06-30; Gramophone 043201)",
+     "quality": "poor",
+     "qualityNote": "1911 acoustic Gramophone; IA also holds a 4:14 transfer at another speed",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "schubert",
+   "work": "String Quartet No. 14 in D minor, D. 810 “Death and the Maiden”",
+   "year": "1824",
+   "priority": 3,
+   "why": "Schubert’s tragic quartet built on his own song; a complete live university performance.",
+   "complete": true,
+   "set": "schubert-quartet-14",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro",
+     "source": {
+      "file": "File:Yorkside Quartet Death and the Maiden Mvt 1.ogg"
+     },
+     "duration": 687,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [],
+      "rule": 1
+     },
+     "performers": "Yorkside Quartet: Kensho and Kisho Watanabe (violins), Jonathan Bregman (viola), Scott McCreary (cello)",
+     "recorded": "2008, in performance at Yale University (Commons description)",
+     "quality": "fair",
+     "qualityNote": "Live student-quartet recording from YouTube; hall sound and audience noise unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Andante con moto",
+     "source": {
+      "file": "File:Yorkside Quartet Death and the Maiden Mvt 2.ogg"
+     },
+     "duration": 588,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [],
+      "rule": 1
+     },
+     "performers": "Yorkside Quartet: Kensho and Kisho Watanabe (violins), Jonathan Bregman (viola), Scott McCreary (cello)",
+     "recorded": "2008, in performance at Yale University (Commons description)",
+     "quality": "fair",
+     "qualityNote": "Live student-quartet recording from YouTube; hall sound and audience noise unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Scherzo: Allegro molto",
+     "source": {
+      "file": "File:Yorkside Quartet Death and the Maiden Mvt 3.ogg"
+     },
+     "duration": 226,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [],
+      "rule": 1
+     },
+     "performers": "Yorkside Quartet: Kensho and Kisho Watanabe (violins), Jonathan Bregman (viola), Scott McCreary (cello)",
+     "recorded": "2008, in performance at Yale University (Commons description)",
+     "quality": "fair",
+     "qualityNote": "Live student-quartet recording from YouTube; hall sound and audience noise unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Presto",
+     "source": {
+      "file": "File:Yorkside Quartet Death and the Maiden Mvt 4.ogg"
+     },
+     "duration": 563,
+     "licence": "CC BY 3.0",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "CC BY 3.0",
+      "templates": [],
+      "rule": 1
+     },
+     "performers": "Yorkside Quartet: Kensho and Kisho Watanabe (violins), Jonathan Bregman (viola), Scott McCreary (cello)",
+     "recorded": "2008, in performance at Yale University (Commons description)",
+     "quality": "fair",
+     "qualityNote": "Live student-quartet recording from YouTube; hall sound and audience noise unverified",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "beethoven",
+   "work": "Piano Sonata No. 8 in C minor, Op. 13 “Pathétique”",
+   "year": "1798–99",
+   "priority": 2,
+   "why": "The sonata that made Beethoven famous; Schnabel’s 1933 reading of the Grave, the Adagio and the rondo.",
+   "complete": true,
+   "set": "beethoven-sonata-8",
+   "parts": 3,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Grave — Allegro di molto e con brio",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel2",
+       "file": "27 - Klaviersonate Nr. 8 c-moll op. 13 (Pathetique) - I. Grave - Allegro di molto e con brio.mp3"
+      }
+     },
+     "duration": 515,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "23 April 1933 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Adagio cantabile",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel2",
+       "file": "28 - Klaviersonate Nr. 8 c-moll op. 13 (Pathetique) - II.Adagio cantabile .mp3"
+      }
+     },
+     "duration": 363,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "23 April 1933 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Rondo: Allegro",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel2",
+       "file": "29 - Klaviersonate Nr. 8 c-moll op. 13 (Pathetique) - III. Rondo - Allegro.mp3"
+      }
+     },
+     "duration": 248,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "23 April 1933 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Musopen Pathétique (performer not documented on Commons)",
+     "complete": true,
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Grave — Allegro di molto e con brio",
+       "source": {
+        "file": "File:Beethoven, Sonata No. 8 in C Minor Pathetique, Op. 13 - I. Grave - Allegro di molto e con brio.ogg"
+       },
+       "duration": 420,
+       "licence": "CC0",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "CC0",
+        "templates": [
+         "Cc-zero"
+        ],
+        "rule": 1
+       },
+       "performers": "Not documented on the Commons file pages (Musopen upload)",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Modern Musopen piano take; performer unknown, so poor for a performer comparison",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 2,
+       "movement": "II. Adagio cantabile",
+       "source": {
+        "file": "File:Beethoven, Sonata No. 8 in C Minor Pathetique, Op. 13 - II. Adagio cantabile.ogg"
+       },
+       "duration": 298,
+       "licence": "CC0",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "CC0",
+        "templates": [
+         "Cc-zero"
+        ],
+        "rule": 1
+       },
+       "performers": "Not documented on the Commons file pages (Musopen upload)",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Modern Musopen piano take; performer unknown, so poor for a performer comparison",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      },
+      {
+       "part": 3,
+       "movement": "III. Rondo: Allegro",
+       "source": {
+        "file": "File:Beethoven, Sonata No. 8 in C Minor Pathetique, Op. 13 - III. Rondo - Allegro.ogg"
+       },
+       "duration": 275,
+       "licence": "CC0",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "CC0",
+        "templates": [
+         "Cc-zero"
+        ],
+        "rule": 1
+       },
+       "performers": "Not documented on the Commons file pages (Musopen upload)",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Modern Musopen piano take; performer unknown, so poor for a performer comparison",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "beethoven",
+   "work": "Piano Sonata No. 14 in C♯ minor, Op. 27 No. 2 “Moonlight”",
+   "year": "1801",
+   "priority": 2,
+   "why": "The most-requested sonata, in Schnabel’s 1934 recording: slow dream, brief minuet and storm finale.",
+   "complete": true,
+   "set": "beethoven-sonata-14",
+   "parts": 3,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Adagio sostenuto",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel4",
+       "file": "48 - Klaviersonate Nr. 14 c-moll op.27 Nr.2 Mondschein - I. Adagio sostenuto.mp3"
+      }
+     },
+     "duration": 292,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "2 April 1934 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Allegretto — Trio",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel4",
+       "file": "49 - Klaviersonate Nr. 14 c-moll op.27 Nr.2 Mondschein - II. Allegretto & Trio.mp3"
+      }
+     },
+     "duration": 132,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "2 April 1934 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Presto agitato",
+     "source": {
+      "archive": {
+       "item": "beethovenschnabel4",
+       "file": "50- Klaviersonate Nr. 14 c-moll op.27 Nr.2 Mondschein - III. Presto Agitato.mp3"
+      }
+     },
+     "duration": 390,
+     "licence": "Public domain (PD Mark 1.0, uploader-declared)",
+     "rights": {
+      "basis": "archive-licence-url",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "rule": "IA licence URL"
+     },
+     "territorial": true,
+     "performers": "Artur Schnabel, piano",
+     "recorded": "2 April 1934 (IA item description)",
+     "quality": "fair",
+     "qualityNote": "1930s mono shellac-era transfer, 256 kbps; expect surface noise and limited range",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "IA PD Mark 1.0 licence URL; recording first published 1932–35 (rule 3, territorial)",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": [
+    {
+     "label": "Paul Pitman for Musopen (first movement only; the other Commons movements are MIDI renderings and excluded)",
+     "complete": false,
+     "movements": [
+      {
+       "part": 1,
+       "movement": "I. Adagio sostenuto",
+       "source": {
+        "file": "File:Ludwig van Beethoven - sonata no. 14 in c sharp minor 'moonlight', op. 27 no. 2 - i. adagio sostenuto.ogg"
+       },
+       "duration": 336,
+       "licence": "Public domain",
+       "rights": {
+        "basis": "commons-licence",
+        "licence": "Public domain",
+        "templates": [
+         "PD-old-100",
+         "PD-author"
+        ],
+        "rule": 1
+       },
+       "performers": "Paul Pitman, piano (for Musopen)",
+       "recorded": "",
+       "quality": "fair",
+       "qualityNote": "Modern Musopen piano take; first movement only",
+       "qualityBasis": "INFERENCE",
+       "streamOk": true,
+       "streamStatus": 206
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "composer": "beethoven",
+   "work": "Symphony No. 9 in D minor, Op. 125 “Choral”",
+   "year": "1822–24",
+   "priority": 2,
+   "why": "The choral finale and “Ode to Joy”; the only complete Ninth found under an acceptable licence.",
+   "complete": true,
+   "set": "beethoven-9",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro ma non troppo, un poco maestoso",
+     "source": {
+      "file": "File:01 Horenstein 9. Beethoven Pantheon XP 2250 - 1. Satz.flac"
+     },
+     "duration": 917,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Wilma Lipp, Elisabeth Höngen, Julius Patzak, Otto Wiener; Jascha Horenstein; Pro Musica Choir (Singverein) and Pro Musica Symphony Orchestra (IA item)",
+     "recorded": "1956 (Pantheon/Vox XP 2250 per IA)",
+     "quality": "fair",
+     "qualityNote": "1956 mono LP transfer; third movement spans two LP sides (joined); finale 23:28; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Molto vivace — Presto",
+     "source": {
+      "file": "File:02 Horenstein 9. Beethoven Pantheon XP 2250 - 2. Satz.flac"
+     },
+     "duration": 685,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Wilma Lipp, Elisabeth Höngen, Julius Patzak, Otto Wiener; Jascha Horenstein; Pro Musica Choir (Singverein) and Pro Musica Symphony Orchestra (IA item)",
+     "recorded": "1956 (Pantheon/Vox XP 2250 per IA)",
+     "quality": "fair",
+     "qualityNote": "1956 mono LP transfer; third movement spans two LP sides (joined); finale 23:28; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Adagio molto e cantabile",
+     "source": {
+      "file": "File:03 Horenstein 9. Beethoven Pantheon XP 2250 - 3. Satz.flac"
+     },
+     "duration": 899,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Wilma Lipp, Elisabeth Höngen, Julius Patzak, Otto Wiener; Jascha Horenstein; Pro Musica Choir (Singverein) and Pro Musica Symphony Orchestra (IA item)",
+     "recorded": "1956 (Pantheon/Vox XP 2250 per IA)",
+     "quality": "fair",
+     "qualityNote": "1956 mono LP transfer; third movement spans two LP sides (joined); finale 23:28; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Presto — “Ode to Joy”",
+     "source": {
+      "file": "File:04 Horenstein 9. Beethoven Pantheon XP 2550 - 4. satz.flac"
+     },
+     "duration": 1408,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-EU-audio"
+      ],
+      "rule": 1
+     },
+     "territorial": true,
+     "performers": "Wilma Lipp, Elisabeth Höngen, Julius Patzak, Otto Wiener; Jascha Horenstein; Pro Musica Choir (Singverein) and Pro Musica Symphony Orchestra (IA item)",
+     "recorded": "1956 (Pantheon/Vox XP 2250 per IA)",
+     "quality": "fair",
+     "qualityNote": "1956 mono LP transfer; third movement spans two LP sides (joined); finale 23:28; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "rightsNote": "Commons PD-EU-audio (rule 1; territorial); IA original carries a PD Mark 1.0 URL",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "beethoven",
+   "work": "Symphony No. 3 in E♭ major, Op. 55 “Eroica”",
+   "year": "1803–04",
+   "priority": 2,
+   "why": "The symphony that doubled the form’s scale; the funeral march and the Prometheus-theme finale.",
+   "complete": true,
+   "set": "beethoven-3",
+   "parts": 4,
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro con brio",
+     "source": {
+      "file": "File:Beethoven - Symphony No. 3 in E flat major, Op. 55 'Eroica' - I. Allegro con brio (Musopen Symphony).flac"
+     },
+     "duration": 912,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen Symphony (Commons credit; ensemble attribution undocumented)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 2,
+     "movement": "II. Marcia funebre: Adagio assai",
+     "source": {
+      "file": "File:Beethoven - Symphony No. 3 in E flat major, Op. 55 'Eroica' - II. Marcia funebre. Adagio assai (Musopen Symphony).flac"
+     },
+     "duration": 929,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen Symphony (Commons credit; ensemble attribution undocumented)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 3,
+     "movement": "III. Scherzo: Allegro vivace",
+     "source": {
+      "file": "File:Beethoven - Symphony No. 3 in E flat major, Op. 55 'Eroica' - III. Scherzo. Allegro vivace (Musopen Symphony).flac"
+     },
+     "duration": 349,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen Symphony (Commons credit; ensemble attribution undocumented)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    },
+    {
+     "part": 4,
+     "movement": "IV. Finale: Allegro molto",
+     "source": {
+      "file": "File:Beethoven - Symphony No. 3 in E flat major, Op. 55 'Eroica' - IV. Finale. Allegro molto (Musopen Symphony).flac"
+     },
+     "duration": 705,
+     "licence": "Public domain",
+     "rights": {
+      "basis": "commons-licence",
+      "licence": "Public domain",
+      "templates": [
+       "PD-author",
+       "PD-old"
+      ],
+      "rule": 1
+     },
+     "performers": "Musopen Symphony (Commons credit; ensemble attribution undocumented)",
+     "recorded": "2012 (Commons date)",
+     "quality": "fair",
+     "qualityNote": "Musopen studio take; not auditioned",
+     "qualityBasis": "INFERENCE",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  },
+  {
+   "composer": "beethoven",
+   "work": "Symphony No. 5 in C minor, Op. 67 — first movement, Nikisch 1913",
+   "year": "1804–08",
+   "priority": 2,
+   "why": "Arthur Nikisch’s 1913 Berlin recording, often cited as the first complete set of the Fifth; compare with Skidmore.",
+   "complete": false,
+   "set": "beethoven-5-nikisch-1913",
+   "parts": 4,
+   "historic": true,
+   "duplicateOf": "beethoven-5",
+   "movements": [
+    {
+     "part": 1,
+     "movement": "I. Allegro con brio",
+     "source": {
+      "archive": {
+       "item": "Beethoven_Sinf5-1_BPhO-Nikisch_EQ",
+       "file": "nikisch_beethovensymphony5mvt1_eq.mp3"
+      }
+     },
+     "duration": 405,
+     "licence": "Public domain (CC publicdomain, uploader-declared)",
+     "rights": {
+      "basis": "us-published-before-cutoff",
+      "rule": 2,
+      "published": "1913–1914",
+      "evidence": "Four Gramophone 78s cut Nov 1913, released individually over eight months (http://www.classicalnotes.net/classics/fifth.html); IA item Beethoven_Sinf5-1_BPhO-Nikisch_EQ states “1913 recording” and carries a licenses/publicdomain URL",
+      "licenseUrl": "http://creativecommons.org/licenses/publicdomain/"
+     },
+     "performers": "Berlin Philharmonic Orchestra, Arthur Nikisch",
+     "recorded": "November 1913, Berlin (Gramophone Co.; Classical Notes; MusicWeb review of the Pristine/Symposium reissue)",
+     "quality": "poor",
+     "qualityNote": "1913 acoustic; reported cuts; the other three movements were not found on IA",
+     "qualityBasis": "EXT",
+     "cuts": "Set has cuts per Hi-Fi News (https://www.hifinews.com/content/berliner-philharmoniker-orchestra); this file is the first movement only (6:45)",
+     "streamOk": true,
+     "streamStatus": 206
+    }
+   ],
+   "alternatives": []
+  }
+ ],
+ "excluded": [
+  {
+   "source": "Commons: 41 files “W. A. Mozart - Don Giovanni - NN. … (Josef Krips, Wiener Staatsoper, 1955).ogg”",
+   "reason": "Upstream Liber Liber labels them CC BY-NC-SA; the Commons credit says so while tagging PD (final rights rule excludes this)"
+  },
+  {
+   "source": "Commons: “Wolfgang Amadeus Mozart - Symphony No. 41 1st–4th Movement (Jupiter), K.551.ogg”",
+   "reason": "Bruno Walter/NYP 1945 (identified from the IA original), whose IA item is CC BY-NC-SA 3.0; Commons CC BY-SA 3.0 re-licence is not trusted"
+  },
+  {
+   "source": "IA d-956-adagio-tatrai (Tátrai Quartet, c. 1965)",
+   "reason": "Item text says “no commercial use intended or allowed”; c.1965 Hungaroton LP fails rule 3 (published after 1962)"
+  },
+  {
+   "source": "IA Schubert_StringQuintetInCD956-2.Adagio (Melos Quartet/Rostropovich)",
+   "reason": "CC0 URL is an uploader label on a commercial 1970s recording (published after 1962); not credible"
+  },
+  {
+   "source": "IA mozart-symphony-41-in-c-k-551-jupiter (Szell/Cleveland CD rip)",
+   "reason": "CC BY 4.0 label on a commercial CD rip; recording published after 1962"
+  },
+  {
+   "source": "IA BeethovenQuartetNo.15InAMinorOp.132 / Quartets Nos. 12–16 (Pascal Quartet)",
+   "reason": "CC BY-NC-SA licence"
+  },
+  {
+   "source": "Commons: PDP-CH Coates/LSO Jupiter finale “first record”",
+   "reason": "Fragment: one 78 side of the finale, no continuation on Commons"
+  },
+  {
+   "source": "Commons: PDP-CH side-by-side files (Schnabel Appassionata six sides, Fischer K.466, van Kempen Unfinished, Busch Op. 59/3)",
+   "reason": "One file per 78 side, so no continuous per-movement file; Schnabel Appassionata is served from the IA copy instead"
+  },
+  {
+   "source": "Commons: piano-midi.de renderings (Moonlight II–III, Bernd Krueger D. 960 and Moments musicaux), Beethoven Piano Concerto 5 (MIDI converted to ogg), Beethoven Op. 8 etc.",
+   "reason": "MIDI / synthesised"
+  },
+  {
+   "source": "Commons: “Mozart; Concerto No. 20 in D Minor” I–III",
+   "reason": "Soloist uncertain (page lists Serkin/Casadesus, source item is a Schnabel K.595 transfer); 1956 Cleveland/Szell attribution unverifiable"
+  },
+  {
+   "source": "Commons: Beethoven Violin Concerto I–III (IMSLP mp3)",
+   "reason": "Performer undocumented"
+  }
+ ],
+ "gaps": [
+  "Mozart Don Giovanni: no modern recording is usable (Krips and Fricsay sets are NC upstream or only side-length); only acoustic singles (Là ci darem, Deh vieni, Batti batti). The Commendatore/supper scene and Madamina have no usable source.",
+  "Mozart Jupiter: no CC/PD-recording modern performance; the 1961 Walter/Columbia SO LP rip passes rule 3 (territorial); the only US-clean version is the abridged 1914–15 Victor arrangement.",
+  "Schubert Trout Quintet and Piano Trio: only NC or unlabelled sources found. String Quintet D. 956 exists only as an LP-rip Adagio (rule 3).",
+  "Beethoven Fifth by Nikisch (1913): only the first movement is online (IA); other movements not found. Late quartets: Op. 131 (Lener 1924) is a single 40-minute file; the Heiliger Dankgesang is merged with the following march (Griller 1952).",
+  "Mozart Piano Concerto No. 20 (K. 466): no continuous per-movement recording; Fischer/LPO 1933 exists only as separate side files.",
+  "Haydn: no complete Creation or Seasons; no Emperor Quartet recording found under an acceptable licence.",
+  "Sound quality is INFERENCE from the recording type for every entry: no audio was auditioned or analysed. Rule 3 evidence for the Boston Public Library LP rips is the IA catalogue date only."
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "elgar-pomp-circumstance-1-stock-1926",
+  "work": {
+    "title": "Pomp and Circumstance",
+    "catalogue": "Op. 39 No. 1",
+    "movement": "March No. 1 in D",
+    "version": { "value": "Orchestral version with organ", "status": "documented", "sourceIds": ["label", "dahr"], "note": "The label and Victor ledger specify orchestra and organ. The precise performing edition and treatment of every written repeat are not established." }
+  },
+  "performers": { "value": [{ "name": "Chicago Symphony Orchestra", "role": "orchestra" }, { "name": "Frederick Stock", "role": "conductor" }, { "name": "Walter P. Zimmerman", "role": "organ" }], "status": "documented", "sourceIds": ["label", "dahr"], "note": "The label names orchestra and conductor; DAHR’s Victor-ledger transcription supplies the organist. Elgar is the composer, not a performer on this record." },
+  "session": {
+    "date": { "value": "22 December 1926", "status": "documented", "sourceIds": ["dahr"], "note": "DAHR gives this date for issued master CVE-37282 take 3. The July 1927 date is a release-list date, not a competing session date.", "precision": "day" },
+    "place": { "value": "Orchestra Hall, Chicago, Illinois", "status": "documented", "sourceIds": ["dahr"], "note": "Named in DAHR’s take table, not inferred from the ensemble’s home city." }
+  },
+  "carrier": {
+    "label": { "value": "Victrola (Victor Talking Machine Company)", "status": "documented", "sourceIds": ["label"], "note": "The photographed label explicitly reads Orthophonic Recording: electrical, despite the archive description’s Acoustic technical note." },
+    "catalogue": { "value": "6648-B", "status": "documented", "sourceIds": ["label", "publication", "dahr-issue"], "note": "The other side is Handel’s Largo from Xerxes. Victor’s July 1927 release list identifies the coupling." },
+    "matrixTakeSides": { "value": "CVE-37282, take 3; Victor 6648-B", "status": "documented", "sourceIds": ["dahr", "dahr-issue", "label"], "note": "DAHR associates take 3 with issue 6648. Internet Archive’s 6648B matrix field repeats the catalogue-side number rather than identifying the master." }
+  },
+  "transfer": {
+    "credits": { "value": "George Blood, L.P.; Jordan Gold, transfer", "status": "documented", "sourceIds": ["archive"], "note": "The item’s scanningcentre and user_transferred fields identify the digitisation facility and transfer worker." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["archive"], "note": "The March 2021 upload is not treated as the transfer date." },
+    "processing": { "value": "78-rpm digitisation with four truncated-conical styli; engineer-selected preferred FLAC and MP3 derivative", "status": "documented", "sourceIds": ["archive", "label", "dahr"], "note": "The item lists 3.8, 2.3, 2.8 and 3.3 mil styli but does not identify the preferred file’s stylus or equalisation. Its Acoustic technical note conflicts with the Orthophonic label and CVE electrical master prefix; the recording is identified here as electrical. No new concatenation or audio alteration was made." }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/POMP%20AND%20CIRC%20-%20Chicago%20Symphony%20Orchestra%20and%20Grand%20Organ.mp3",
+    "sourceChain": ["archive", "label"],
+    "format": "VBR MP3 derived from the Great 78 Project’s original FLAC; decoded duration rounded from cache/analysis/elgar-pomp-circumstance-1-stock-1926.txt",
+    "durationSeconds": 265.5
+  },
+  "rights": {
+    "composition": { "value": "Elgar’s original 1901 march is public domain in ordinary life-plus-70 jurisdictions", "status": "inferred", "sourceIds": ["elgar-work", "dahr-issue", "eu-term"], "note": "Elgar died in 1934. No rights are inferred for an unidentified modern edition." },
+    "recording": { "value": "Territorial EU public-domain basis: Victor 6648 announced for publication on 1 July 1927", "status": "documented", "sourceIds": ["publication", "label", "dahr", "archive", "eu-term"], "note": "Rule 3. The Talking Machine World, June 1927, p. 157, July record bulletins, Victor list for 1 July, names 6648, Stock, Chicago Symphony Orchestra and Grand Organ. This publication evidence is independent of the December 1926 session; DAHR’s catalogue MARC estimate [1926] is not used as a precise release date. The recording’s 50-year term expired before the 2013 extension. US status is not established. The selected item’s complete metadata, original FLAC and label disclose no NC licence or separate upstream digital audio source; the University of Illinois physical-disc collection is credited by the item." },
+    "creditLine": "Elgar, Pomp and Circumstance March No. 1 — Chicago Symphony Orchestra, Frederick Stock; Walter P. Zimmerman, organ. Orchestra Hall, 22 December 1926. Victrola 6648-B, CVE-37282 take 3, issued July 1927. George Blood, L.P./Internet Archive Great 78 Project transfer, University of Illinois Audio Archive collection. Territorial EU public-domain basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Victrola 6648-B, GBIA0295275B", "url": "https://archive.org/metadata/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b", "locator": "Complete metadata, original FLAC, selected MP3, transfer description and University of Illinois collection; no licenseurl or NC condition. The Acoustic technical note is contradicted by the disc label.", "accessed": "2026-10-17" },
+    { "id": "label", "title": "Victrola 6648-B — original disc-label scan", "url": "https://archive.org/download/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b.jpg", "locator": "Orthophonic Recording; Chicago Symphony Orchestra and Grand Organ under Frederick Stock; catalogue 6648-B.", "accessed": "2026-10-17" },
+    { "id": "dahr", "title": "DAHR — Victor matrix CVE-37282", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800011535", "locator": "Victor ledger instrumentation, organist Walter P. Zimmerman, 22 December 1926 at Orchestra Hall, issued take 3 on Victor 6648. Retrieved successfully with ?view=detail after a temporary database-connection error.", "accessed": "2026-10-17" },
+    { "id": "dahr-issue", "title": "DAHR — Victor 6648", "url": "https://adp.library.ucsb.edu/index.php/objects/detail/42271", "locator": "Coupling CVE-37281/CVE-37282, issued takes and MARC catalogue record. The bracketed MARC date [1926] is not substituted for contemporary release evidence.", "accessed": "2026-10-17" },
+    { "id": "publication", "title": "The Talking Machine World — Victor July 1927 release bulletin", "url": "https://archive.org/download/talkingmachinewo23bill/talkingmachinewo23bill_djvu.txt", "locator": "June 1927 issue, printed p. 157, July 1927 Advance Record Bulletins, Victor list for July 1, Red Seal 6648. OCR lines 167232–167505 identify issue, page, release heading, coupling and performers.", "accessed": "2026-10-17" },
+    { "id": "elgar-work", "title": "Elgar Society — Pomp and Circumstance introduction", "url": "https://www.elgar.org/3pomp-a.htm", "locator": "1901 composition; D-major march and G-major trio.", "accessed": "2026-10-17" },
+    { "id": "eu-term", "title": "Directive 2011/77/EU — recording term and transition", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077", "locator": "Recitals 1–3; Article 1(3) inserts Article 10(5), limiting extension to recordings still protected on 1 November 2013.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "id": "bach-goldberg-aria",
+  "source": {
+    "mutopia": 979,
+    "title": "Goldberg Variations, BWV 988 — Aria",
+    "edition": "Bach-Gesellschaft",
+    "encoder": "JD Erickson",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=979",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "bwv-988-aria.ly",
+    "midi": "bwv-988-aria.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV988/bwv-988-aria/bwv-988-aria.ly",
+        "file": "bwv-988-aria.ly",
+        "sha256": "f86adfb84573bc7775fe48750f7ee9b6df2adf2fcc5e32fb52c09e589c9e12af"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV988/bwv-988-aria/bwv-988-aria.mid",
+        "file": "bwv-988-aria.mid",
+        "sha256": "05c6155d67e1ef5167eef113defabbc6c42a0fa0f74abe11c7d63258084d9a48"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      null,
+      "upper:",
+      "lower:1"
+    ]
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 32,
+    "quarters": 3,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        16
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        17,
+        32
+      ],
+      [
+        17,
+        32
+      ]
+    ],
+    "description": "Both sixteen-bar binary halves repeated. The canonical published MIDI is not unfolded; source soprano repeat marks supply the performed order. Lower-staff polyphony is retained together as a labelled staff."
+  },
+  "endpoints": {
+    "first": [
+      3,
+      7
+    ],
+    "last": [
+      284,
+      289
+    ],
+    "basis": "Cached analysis has a quiet lead-in to about5s and a final melodic/cadential span285–290s; inspect exact attack and ornament overlays before publication."
+  },
+  "boundaries": [],
+  "diagnostics": {
+    "recurrences": [
+      {
+        "startQ": 0,
+        "startOffset": 2,
+        "secondQ": 48,
+        "secondOffset": 2,
+        "length": 50,
+        "search": 5
+      },
+      {
+        "startQ": 96,
+        "startOffset": 2,
+        "secondQ": 144,
+        "secondOffset": 2,
+        "length": 50,
+        "search": 5
+      }
+    ],
+    "overlays": [
+      [
+        66,
+        82
+      ],
+      [
+        140,
+        156
+      ],
+      [
+        210,
+        226
+      ]
+    ]
+  },
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Read content/listen/bach-goldberg-aria.mjs and cache/analysis/bach-goldberg-aria.txt; harmonic trajectories recur around75s and220s, supporting both repeats provisionally.",
+    "Mutopia979 is the opening Aria, not the complete Goldberg cycle. The source is Bach-Gesellschaft keyboard notation; the recording is piano, not harpsichord.",
+    "Published MIDI staff tracks were inspected. The lower staff contains several written voices and occasional cross-staff notes; staff labels do not claim independent contrapuntal voices or reproduce the pianist’s ornament realization."
+  ]
+}

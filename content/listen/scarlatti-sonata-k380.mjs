@@ -1,0 +1,15 @@
+export default {
+  id: 'scarlatti-sonata-k380',
+  composer: 'scarlatti',
+  order: 2,
+  work: 'Sonata in E major, K. 380',
+  movement: 'Andante commodo',
+  year: '1754, Venice manuscript copy',
+  key: 'E major',
+  forces: 'Solo piano; originally keyboard',
+  performers: 'Marcelle Meyer, piano',
+  recorded: 'November 1954; Salle Adyar, Paris (Commons attribution)',
+  source: { file: 'File:Domenico Scarlatti - Sonate en mi majeur Kk.380 (Marcelle Meyer, 1954).flac' },
+  intro: 'Scarlatti sets pointed repeated gestures inside a three-beat measure. In Marcelle Meyer’s piano performance, follow how separated attacks and longer lines share the same pulse.',
+  question: 'What holds the three-beat movement together when the gestures keep changing?',
+};

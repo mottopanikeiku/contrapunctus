@@ -1,0 +1,183 @@
+{
+  "id": "handel-messiah-hallelujah-edison-1916",
+  "work": {
+    "title": "Messiah",
+    "catalogue": "HWV 56",
+    "movement": "Hallelujah chorus",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "nps",
+        "commons",
+        "densmore"
+      ],
+      "note": "The catalogue describes mixed voices with orchestra, but no performing edition, arranger or individual instruments are established. No specific orchestral substitution or match to Handel’s original scoring is inferred from that generic credit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Oratorio Chorus",
+        "role": "chorus"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "nps",
+      "archive",
+      "commons",
+      "densmore"
+    ],
+    "note": "Densmore’s catalogue transcription describes Edison 80292-R as ‘Mixed voices with orchestra — Oratorio Chorus’. The orchestra’s identity, conductor and individual players are not credited; Edison is the record company, not a performer."
+  },
+  "session": {
+    "date": {
+      "value": "1916",
+      "status": "documented",
+      "sourceIds": [
+        "nps",
+        "archive"
+      ],
+      "note": "May 1916 is the release month, not an established session month. The year-level museum session date is retained.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "nps",
+        "archive"
+      ],
+      "note": "No session venue is stated in the consulted museum or archive record."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Edison Diamond Disc",
+      "status": "documented",
+      "sourceIds": [
+        "nps",
+        "archive"
+      ],
+      "note": "The current museum catalogue identifies a disc; an early Commons upload comment calling it a cylinder is not followed."
+    },
+    "catalogue": {
+      "value": "80292-R; NPS object EDIS 43552",
+      "status": "documented",
+      "sourceIds": [
+        "nps",
+        "archive"
+      ],
+      "note": "Released May 1916."
+    },
+    "matrixTakeSides": {
+      "value": "4433-A-1-1 (6-1), side R",
+      "status": "documented",
+      "sourceIds": [
+        "nps",
+        "archive"
+      ],
+      "note": "Museum transcription retained without silently interpreting every suffix as a take number."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "National Park Service source; Ogg conversion credited to Commons user Pmx",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "The NPS is identified as the source, not a named transfer engineer. Commons explicitly credits Pmx for Ogg conversion only."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload dates are not used as transfer dates."
+    },
+    "processing": {
+      "value": "The upstream file is a 96 kbps MP3; Commons supplies an Ogg conversion and an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "No de-clicking, equalisation or speed correction is documented. Successive lossy formats limit timbral comparison."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Messiah_Hallelujah_Chorus_1916.ogg/Messiah_Hallelujah_Chorus_1916.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive",
+      "nps"
+    ],
+    "format": "Wikimedia Commons MP3 derivative of an Ogg conversion of the archive MP3",
+    "durationSeconds": 223.0
+  },
+  "rights": {
+    "composition": {
+      "value": "Handel’s eighteenth-century underlying composition is out of copyright under the ordinary life-plus-70 term.",
+      "status": "inferred",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "The programme note identifies Handel as 1685–1759; this does not clear a later arrangement."
+    },
+    "recording": {
+      "value": "United States public domain: Edison 80292-R was first released in May 1916.",
+      "status": "documented",
+      "sourceIds": [
+        "nps",
+        "archive",
+        "commons"
+      ],
+      "note": "Programme rule 2; the museum establishes record and issue month. The upstream archive also carries the historic Creative Commons public-domain dedication URL, not a non-commercial licence. The generic Commons PD-US notice is not used to apply a printed-work cutoff to a sound recording."
+    },
+    "creditLine": "Handel, Messiah: Hallelujah chorus; Oratorio Chorus. Edison Diamond Disc 80292-R, matrix 4433-A-1-1 (6-1), released May 1916; NPS object EDIS 43552. National Park Service source via Internet Archive and Wikimedia Commons; Ogg conversion by Pmx.",
+    "licenseUrl": "https://creativecommons.org/licenses/publicdomain/"
+  },
+  "sources": [
+    {
+      "id": "nps",
+      "title": "Thomas Edison National Historical Park — Opera, Vocal and Choral",
+      "url": "https://www.nps.gov/edis/learn/photosmultimedia/opera-vocal-and-choral.htm",
+      "locator": "Hallelujah chorus entry: Oratorio Chorus; Diamond Disc; matrix 4433-A-1-1 (6-1); recording year 1916; release 80292-R in May 1916; object EDIS 43552.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — EDIS-SRP-0195-06 metadata",
+      "url": "https://archive.org/metadata/EDIS-SRP-0195-06",
+      "locator": "Museum-derived description and NPS source credit; original 96 kbps MP3 and historic CC public-domain dedication. No non-commercial terms in the inspected metadata.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Messiah Hallelujah Chorus 1916",
+      "url": "https://commons.wikimedia.org/wiki/File:Messiah_Hallelujah_Chorus_1916.ogg",
+      "locator": "Summary, source link, matrix and current carrier description; Ogg conversion credit; embedded Oratorio Chorus and NPS object number.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "densmore",
+      "title": "R. Densmore — Subject Guide to Edison Records List",
+      "url": "https://www.densmore-edisondd.info/SubjectGuide/index.html",
+      "locator": "Classical section: Hallelujah Chorus—Messiah, 80292-R, explicitly described as ‘Mixed voices with orchestra — Oratorio Chorus’. This generic accompaniment credit does not identify individual instruments or prove a match to the original score.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Teresa M. Neff — Handel’s Messiah programme note",
+      "url": "https://handelandhaydn.org/interactive-program-notes-handels-messiah/",
+      "locator": "Jennens, 1741 compilation, three-part design and Handel’s biographical dates.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

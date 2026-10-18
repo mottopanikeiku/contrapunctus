@@ -1,0 +1,24 @@
+{
+  "id": "chopin-wrong-note",
+  "title": "Chopin on an Érard and a modern recording",
+  "composer": "chopin",
+  "group": "century",
+  "work": "Étude in E minor, Op. 25 No. 5",
+  "question": "How do Goldstein’s 1851 Érard and Neeman’s modern recording shape the étude’s contrasting touches?",
+  "intro": "Martha Goldstein plays an Érard dated 1851, while Edward Neeman’s recording belongs to Musopen’s Set Chopin Free project. Goldstein’s session date is unknown: the instrument’s age does not date the performance. The planned Pachmann transfer is omitted because its source imposes a non-commercial licence.",
+  "recordings": [
+    { "listen": "chopin-etude-op25-5", "label": "Neeman, c. 2014", "year": 2014, "note": "Follow the long central span and the space around the final gestures." },
+    { "listen": "chopin-etude-op25-5-goldstein", "label": "Goldstein, Érard of 1851", "year": null, "note": "Compare the decay between attacks on the documented Érard; the session date is unknown." }
+  ],
+  "reference": "chopin-etude-op25-5",
+  "passages": [
+    { "label": "Opening touch", "t": 12, "note": "The source identifies Goldstein’s instrument, not its microphone placement; do not attribute every tonal difference to the piano." },
+    { "label": "Central continuation", "t": 60, "note": "Follow the line between the wider-spaced gestures; the mapped times are provisional, not bar-aligned." },
+    { "label": "Later return", "t": 150, "note": "The reference report shows renewed activity after the quiet 2:20–2:25 span." }
+  ],
+  "sources": [
+    { "title": "Neeman — recording dedication by Musopen", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._5_in_E_minor_%27Wrong_Note%27_(Edward_Neeman).flac" },
+    { "title": "Goldstein — Érard 1851; session undated", "url": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Opus_25_-_Twelve_Grand_Etudes_-_e_minor.ogg" },
+    { "title": "Excluded Pachmann transfer — CC BY-NC-SA 3.0", "url": "https://archive.org/metadata/ChopinEtudeInEMajorOp.25No.5/metadata" }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "schubert-impromptu-gflat",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, bar-map, provenance and visual review; not aural review.",
+  "defects": [],
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/schubert-impromptu-gflat-checks.json",
+    "primaryMedianSeconds": 0.11980040078046272,
+    "primaryP95Seconds": 0.5360121156989877,
+    "maximumAnchorDeviationSeconds": 0.1302721088435419,
+    "maximumLocalRegionMedianSeconds": 0.08936738648958453,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 86,
+    "distinctEngravedBars": 86,
+    "sheetPages": 7,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 16,
+    "unresolvedListenPointers": []
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/schubert-impromptu-gflat-0-8.6.png",
+      "work/schubert-impromptu-gflat-120-128.png",
+      "work/schubert-impromptu-gflat-136-144.png",
+      "work/schubert-impromptu-gflat-144-152.png",
+      "work/schubert-impromptu-gflat-168.87-180.87.png",
+      "work/schubert-impromptu-gflat-208-216.png",
+      "work/schubert-impromptu-gflat-240-248.png",
+      "work/schubert-impromptu-gflat-296-304.png",
+      "work/schubert-impromptu-gflat-320-328.png",
+      "work/schubert-impromptu-gflat-344-352.png",
+      "work/schubert-impromptu-gflat-344.233-356.233.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified in the inspected pitch-energy overlays. Earlier stale Beethoven endpoint PNGs were superseded by the final-candidate overlay set."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1193",
+    "opened": true,
+    "edition": "Breitkopf & Härtel, 1888",
+    "encoder": "Ph. Raynaud",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Continuous 1–86 traversal with written-out return at55. Primary P95 and closing local P95 limitation remain disclosed; grace-note/release precision is not established.",
+    "physicalPerformingEdition": "Unknown; the source edition is identified, not claimed as the performer’s copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label must remain."
+}

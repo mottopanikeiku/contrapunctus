@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "id": "bach-partita-2-chaconne",
+  "source": {
+    "mutopia": 1426,
+    "title": "Partita No. 2 in D minor, BWV 1004 — V. Chaconne",
+    "edition": "Bach-Gesellschaft Edition 1879, Band 27.1",
+    "encoder": "Hajo Dezelski",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1426",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "bwv-1004_5.ly",
+    "midi": "bwv-1004_5.mid",
+    "downloads": [
+      { "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1004/bwv-1004_5/bwv-1004_5.ly", "file": "bwv-1004_5.ly", "sha256": "c553876e6a194d575c8d1c2b045dc12b0e1a3b111a70bfa5a7d3f03cf11d941d" },
+      { "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1004/bwv-1004_5/bwv-1004_5.mid", "file": "bwv-1004_5.mid", "sha256": "f4946c53a3658f6c436bb84976740deef6b60833db45d5e16a2608a77f1e7b70" }
+    ]
+  },
+  "extraction": {
+    "mode": "isolated-voices",
+    "definitions": [{ "file": "bwv-1004_5.ly", "before": "\\score" }],
+    "staves": ["violin"],
+    "global": "\\clef treble \\key d \\minor \\time 3/4 \\set Score.currentBarNumber = #2 \\partial 2",
+    "silent": "s2 s2.*256",
+    "comparePublished": {}
+  },
+  "voices": [
+    { "id": "melody-one", "name": "Violin · source voice 1", "music": "\\melodyOne", "staff": "violin" },
+    { "id": "melody-two", "name": "Violin · source voice 2", "music": "\\melodyTwo", "staff": "violin" },
+    { "id": "melody-three", "name": "Violin · source voice 3", "music": "\\melodyThree", "staff": "violin" },
+    { "id": "melody-four", "name": "Violin · source voice 4", "music": "\\melodyFour", "staff": "violin" }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 257,
+    "quarters": 3,
+    "overrides": { "1": 2 },
+    "order": [[1, 257]],
+    "description": "The source’s two-quarter opening bar 1, then complete 3/4 bars 2–257 once. The D-major section begins at bar 133, D minor returns at bar 209, and the closing theme at bar 249 is written out; no repeats or arpeggio realisations are invented."
+  },
+  "endpoints": {
+    "first": [0, 5],
+    "last": [769, 776],
+    "basis": "Initial source-pitch windows from the cached 782.253-second recording analysis: opening D4–F4–A4 and final D4. Inspect fresh pitch-energy evidence and chord spreading before publication."
+  },
+  "diagnostics": {
+    "held": { "voice": 3, "onsets": [0, 264, 599, 767] },
+    "overlays": [[0, 15], [255, 280], [390, 415], [605, 625], [760, 782]]
+  },
+  "boundaries": [],
+  "engraving": { "staff": 18, "width": 230, "height": 297 },
+  "provenance": [
+    "This is the standalone solo-violin Chaconne, not the whole partita or a piano arrangement. The original source and published MIDI are retained with inventory SHA-256 pins.",
+    "The four separately encoded variables melodyOne, melodyTwo, melodyThree and melodyFour are compiled independently. Names identify source variables rather than inferred soprano/alto/bass roles or MIDI channels; their notational voice settings are respectively voiceOne, voiceThree, voiceFive and voiceTwo.",
+    "The source sets currentBarNumber to 2 before partial 2 and labels the opening fragment as bar 1. Its 257 source-comment bars occupy 770 quarter units. Source unisons and chord holds remain in their originating variables instead of being truncated by the published merged MIDI staff.",
+    "The arpeggio markings at bars 89 and 201 are not a fully encoded performance realisation. Symbolic sustained chord tones must not be mistaken for Heifetz’s individual string attacks; no notes or repeated arpeggio patterns are fabricated. No aural review or recording-edition identity is claimed."
+  ]
+}

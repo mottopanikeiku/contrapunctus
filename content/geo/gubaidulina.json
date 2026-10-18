@@ -1,0 +1,232 @@
+{
+  "id": "gubaidulina",
+  "places": [
+    {
+      "name": "Chistopol",
+      "country": "Soviet Union (today Russia)",
+      "lat": 55.3714831,
+      "lon": 50.6367311,
+      "from": "1931-10-24",
+      "kind": "born",
+      "what": "Born in the Tatar Autonomous Soviet Socialist Republic.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Boosey & Hawkes / Gerard McBurney: Sofia Gubaidulina biography",
+          "url": "https://www.boosey.com/composer/Sofia+Gubaidulina?ttype=BIOGRAPHY"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Chistopol&format=json&limit=1"
+        }
+      ]
+    },
+    {
+      "name": "Kazan",
+      "country": "Soviet Union (today Russia)",
+      "lat": 55.79639,
+      "lon": 49.10889,
+      "from": "1932",
+      "kind": "childhood",
+      "what": "Grew up in Kazan and studied piano and composition at its conservatory.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Boosey & Hawkes / Gerard McBurney: Sofia Gubaidulina biography",
+          "url": "https://www.boosey.com/composer/Sofia+Gubaidulina?ttype=BIOGRAPHY"
+        },
+        {
+          "title": "Wikipedia: Kazan",
+          "url": "https://en.wikipedia.org/w/index.php?title=Kazan&action=render"
+        }
+      ],
+      "to": "1954"
+    },
+    {
+      "name": "Moscow",
+      "country": "Soviet Union (today Russia)",
+      "lat": 55.75583333,
+      "lon": 37.61777778,
+      "from": "1954",
+      "kind": "studied",
+      "what": "Studied composition with Nikolai Peiko and Vissarion Shebalin.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Boosey & Hawkes / Gerard McBurney: Sofia Gubaidulina biography",
+          "url": "https://www.boosey.com/composer/Sofia+Gubaidulina?ttype=BIOGRAPHY"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Moscow",
+      "country": "Soviet Union (today Russia)",
+      "lat": 55.75583333,
+      "lon": 37.61777778,
+      "from": "1959",
+      "kind": "studied",
+      "what": "Shostakovich encouraged her individual path during her examination.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Sofia Gubaidulina",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sofia_Gubaidulina&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Moscow",
+      "country": "Soviet Union; Russian Federation from 1991 (today Russia)",
+      "lat": 55.75583333,
+      "lon": 37.61777778,
+      "from": "1963",
+      "kind": "worked",
+      "what": "Worked as a freelance composer, supported substantially by film scores.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Boosey & Hawkes / Gerard McBurney: Sofia Gubaidulina biography",
+          "url": "https://www.boosey.com/composer/Sofia+Gubaidulina?ttype=BIOGRAPHY"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1992"
+    },
+    {
+      "name": "Vienna",
+      "country": "Republic of Austria (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1981",
+      "kind": "premiere",
+      "what": "Gidon Kremer introduced Offertorium.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Sofia Gubaidulina",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sofia_Gubaidulina&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Offertorium"
+    },
+    {
+      "name": "Appen",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 53.66166667,
+      "lon": 9.74444444,
+      "from": "1992",
+      "kind": "lived",
+      "what": "Settled outside Hamburg and continued composing.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Boosey & Hawkes / Gerard McBurney: Sofia Gubaidulina biography",
+          "url": "https://www.boosey.com/composer/Sofia+Gubaidulina?ttype=BIOGRAPHY"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "2025"
+    },
+    {
+      "name": "Stuttgart",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "from": "2000",
+      "kind": "premiere",
+      "what": "Johannes-Passion premiered under Valery Gergiev.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Sofia Gubaidulina",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sofia_Gubaidulina&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Stuttgart&format=json&limit=1"
+        }
+      ],
+      "work": "Johannes-Passion"
+    },
+    {
+      "name": "Hamburg",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 53.55,
+      "lon": 10,
+      "from": "2002",
+      "kind": "premiere",
+      "what": "Johannes-Ostern completed the public unveiling of her Passion–Easter diptych.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Sofia Gubaidulina",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sofia_Gubaidulina&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Johannes-Ostern"
+    },
+    {
+      "name": "Lucerne",
+      "country": "Swiss Confederation (today Switzerland)",
+      "lat": 47.052144,
+      "lon": 8.3058123,
+      "from": "2007",
+      "kind": "premiere",
+      "what": "Anne-Sophie Mutter introduced her second violin concerto.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Sofia Gubaidulina",
+          "url": "https://en.wikipedia.org/w/index.php?title=Sofia_Gubaidulina&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Lucerne&format=json&limit=1"
+        }
+      ],
+      "work": "In tempus praesens"
+    },
+    {
+      "name": "Appen",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 53.66166667,
+      "lon": 9.74444444,
+      "from": "2025-03-13",
+      "kind": "died",
+      "what": "Died at home at the age of ninety-three.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Boosey & Hawkes / Gerard McBurney: Sofia Gubaidulina biography",
+          "url": "https://www.boosey.com/composer/Sofia+Gubaidulina?ttype=BIOGRAPHY"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    }
+  ]
+}

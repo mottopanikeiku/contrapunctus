@@ -136,13 +136,12 @@
       "note": "The cited notes date publication to 1850 and Bach’s death to 1750. The status of any modern edition is separate."
     },
     "recording": {
-      "value": "Creative Commons Attribution–ShareAlike 2.0",
+      "value": "Rule 1 — recording licence/release: CC BY-SA 2.0 (EFF Open Audio License).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured"
+        "rights-audit-commons"
       ],
-      "note": "Commons explicitly applies CC BY-SA 2.0 via the EFF Open Audio License. The cited historic Read.html licence URL now returns 404; the Commons licence statement remains the retrieved evidence."
+      "note": "Commons explicitly applies cc-by-sa-2.0 to the Advent Chamber Orchestra recording and describes the EFF Open Audio License grant. Its February 2008 date is not the reason the recording is usable. Retain attribution and share-alike terms."
     },
     "creditLine": "Advent Chamber Orchestra; Roxana Pavel Goldstein, violin; Constance Schoepflin, flute; Matthew Ganong, harpsichord. Al Goldstein collection / Pandora Music, via Wikimedia Commons. CC BY-SA 2.0.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -203,6 +202,13 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Bach - Brandenburg Concerto 5 - 1. Allegro.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
+      "locator": "Opened file-description wikitext for File:Bach - Brandenburg Concerto 5 - 1. Allegro.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

@@ -1,0 +1,15 @@
+export default {
+  id: 'origins-josquin-mille-regretz',
+  composer: 'origins-josquin',
+  order: 1,
+  work: 'Mille regretz',
+  movement: 'Four-voice chanson · attributed to Josquin des Prez',
+  year: '16th century; composition date unknown',
+  key: '',
+  forces: 'Unaccompanied vocal ensemble',
+  performers: 'Collegium Vocale Bydgoszcz',
+  recorded: '',
+  source: { file: 'File:Josquin Desprez -- Mille regretz.opus' },
+  intro: 'Four vocal parts turn a short French lament into changing combinations of melody and harmony. The familiar attribution to Josquin remains disputed; listen to the part-writing without treating the name as settled.',
+  question: 'How can four lines preserve the directness of a short lament?',
+};

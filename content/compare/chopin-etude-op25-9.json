@@ -1,0 +1,113 @@
+{
+  "id": "chopin-etude-op25-9",
+  "title": "The Butterfly Étude across a century",
+  "composer": "chopin",
+  "work": "Étude in G-flat major, Op. 25 No. 9",
+  "question": "How do d’Albert, Cortot and Neeman weight the same compact opening figure?",
+  "intro": "D’Albert’s early Odeon recording and Cortot’s 1920 Victor side are compared with Edward Neeman’s modern Musopen performance. Cortot’s original stream couples the Black Keys Étude first: the Butterfly passage begins around 1:36.5 and has not been cut into a new audio file. D’Albert is mapped only through the shared opening 40 reference seconds because the later path jumps across extra material; no whole-work tempo claim is made from that path. Cortot’s map excludes the noisy tail, and neither historical audio stream is retuned.",
+  "group": "golden-age",
+  "recordings": [
+    {
+      "listen": "chopin-etude-op25-9-dalbert-1913",
+      "label": "Eugen d’Albert, 1912–13",
+      "year": 1913,
+      "note": "Opening passage only is aligned; later correspondence is unresolved. The complete source file remains playable."
+    },
+    {
+      "listen": "chopin-etude-op10-5-cortot",
+      "label": "Alfred Cortot, 1920",
+      "year": 1920,
+      "note": "Butterfly begins around 1:36.5 after Black Keys in the unedited stream; compare only the mapped second-piece passage."
+    },
+    {
+      "listen": "chopin-etude-op25-9-neeman",
+      "label": "Edward Neeman, c. 2014",
+      "year": 2014,
+      "note": "Modern reference; loudest five-second window around 0:40, followed by the strongest measured change near 0:48."
+    }
+  ],
+  "reference": "chopin-etude-op25-9-neeman",
+  "passages": [
+    {
+      "label": "Opening figure",
+      "t": 3,
+      "note": "Compare the weight and spacing of the short figure. Cortot starts inside a two-piece disc side, not at the file’s beginning."
+    },
+    {
+      "label": "First measured turn",
+      "t": 12,
+      "note": "A strong change in the reference provides a provisional shared landmark within the opening passage."
+    },
+    {
+      "label": "Compact contrast",
+      "t": 22,
+      "note": "Follow the figure through the early contrast; this passage remains within d’Albert’s reliably mapped opening."
+    },
+    {
+      "label": "Central drive",
+      "t": 32,
+      "note": "Compare the continuity of the central figure without inferring original piano tone from the acoustic transfers."
+    },
+    {
+      "label": "Final turn",
+      "t": 48,
+      "note": "The reference’s strongest measured change occurs here. Only Cortot and Neeman have a published correspondence this far into the piece."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/02-eugen-d-albert-syposium-1146"
+    },
+    {
+      "title": "Symposium 1146 — printed original-carrier discography",
+      "url": "https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg"
+    },
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_(Edward_Neeman).flac"
+    },
+    {
+      "title": "Cortot’s complete original side — dossier",
+      "url": "../sources.html#dossier-chopin-etude-op10-5-cortot"
+    }
+  ],
+  "alignment": {
+    "scope": "d’Albert: reference 0–40 to 0–35.4. Cortot: reference 0–64.5 to 96.5–150. No extrapolation across unresolved later material or noisy tails.",
+    "method": "Automatic chroma CENS + DTW; original source files unedited.",
+    "maps": [
+      {
+        "listen": "chopin-etude-op25-9-dalbert-1913",
+        "trimA": [
+          0,
+          40
+        ],
+        "trimB": [
+          0,
+          35.4
+        ],
+        "transposeB": 0,
+        "medianConfidence": 0.92,
+        "minimumConfidence": 0.823,
+        "fractionBelow075": 0,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "chopin-etude-op10-5-cortot",
+        "trimA": [
+          0,
+          64.5
+        ],
+        "trimB": [
+          96.5,
+          150
+        ],
+        "transposeB": 0,
+        "medianConfidence": 0.871,
+        "minimumConfidence": 0.694,
+        "fractionBelow075": 0.085,
+        "interpretation": "Sound overall; local uncertainty remains."
+      }
+    ]
+  }
+}

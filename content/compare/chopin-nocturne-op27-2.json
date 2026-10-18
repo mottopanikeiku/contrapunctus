@@ -1,0 +1,81 @@
+{
+  "id": "chopin-nocturne-op27-2",
+  "title": "Pachmann’s nocturne beside Frank Lévy",
+  "composer": "chopin",
+  "work": "Nocturne in D-flat major, Op. 27 No. 2",
+  "question": "How differently can the same returning melody unfold across an early electrical disc and a modern piano recording?",
+  "intro": "Pachmann recorded the nocturne on his own Baldwin piano at Hayes on26 June 1925; its HMV DB 860 issue was already reviewed in The Gramophone that December. The review praises the performance’s spirit while observing uneven recorded sonority and explicitly says he does not speak on the disc. Frank Lévy’s Musopen recording supplies the modern timeline reference. The files run about4:36 and 6:18, but musical alignment—not raw duration—is needed to compare the same returning phrase.",
+  "group": "golden-age",
+  "recordings": [
+    {
+      "listen": "chopin-nocturne-op27-2-pachmann-1925",
+      "label": "Vladimir de Pachmann, 1925",
+      "year": 1925,
+      "note": "Own Baldwin piano; no spoken commentary on this side. Contemporary review cautions against equating recorded sonority with touch."
+    },
+    {
+      "listen": "chopin-nocturne-op27-2",
+      "label": "Frank Lévy, c. 2014",
+      "year": 2014,
+      "note": "Modern Musopen reference; compare the line’s returns and the time between them, not just the longer recorded tail."
+    }
+  ],
+  "reference": "chopin-nocturne-op27-2",
+  "passages": [
+    {
+      "label": "Opening song",
+      "t": 5,
+      "note": "Follow the singing line above the broken chords; the two recording chains capture different balances."
+    },
+    {
+      "label": "First expansion",
+      "t": 42,
+      "note": "The reference places the paired-voice expansion here; compare phrase length without claiming note-exact hand asynchrony."
+    },
+    {
+      "label": "First return",
+      "t": 116,
+      "note": "Compare the restored opening line after the expansion. The automatic map supplies a provisional correspondence, not a bar-by-bar edition."
+    },
+    {
+      "label": "Later return",
+      "t": 206,
+      "note": "The reference’s third strophe begins near this measured change. Listen for continuity beneath the changing decoration."
+    },
+    {
+      "label": "Closing region",
+      "t": 280,
+      "note": "Compare how the final span withdraws; the remaining recorded resonance should not be counted as additional composed music."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2"
+    },
+    {
+      "title": "Alan Kelly — Gramophone Bb/Cc matrix series",
+      "url": "https://gramophonecompanydiscography.com/PDF/File%20D%20-%20BB.pdf"
+    },
+    {
+      "title": "The Gramophone, December 1925, pp.338–339",
+      "url": "https://archive.org/stream/gramophone-1925-12/Gramophone%201925-12_djvu.txt"
+    }
+  ],
+  "alignment": {
+    "scope": "Complete nocturne transfers; the 1925 date is a documented session/publication history, not a file upload date.",
+    "method": "Automatic chroma CENS + DTW; no audio alteration.",
+    "maps": [
+      {
+        "listen": "chopin-nocturne-op27-2-pachmann-1925",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.954,
+        "minimumConfidence": 0.511,
+        "fractionBelow075": 0.016,
+        "interpretation": "Sound overall; local uncertainty remains."
+      }
+    ]
+  }
+}

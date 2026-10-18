@@ -118,13 +118,12 @@
       "note": "The musical-composition tag is PD-old-auto-expired, deathyear=1928. This does not license a later edition, arrangement or recording."
     },
     "recording": {
-      "value": "Creative Commons Attribution 4.0",
+      "value": "Rule 1 — recording licence/release: CC BY 4.0 International.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured"
+        "rights-audit-commons"
       ],
-      "note": "The Copyright information template explicitly assigns CC BY 4.0 to the recording and public-domain status to the composition. Structured P275 agrees. The flattened API LicenseShortName of Public domain does not describe the recording licence."
+      "note": "Commons explicitly places cc-by-4.0 in the recording field for Eric Xi Xin Liang’s recording attributed to 2023. The separate composition public-domain notice is not used as the recording licence."
     },
     "creditLine": "Eric Xi Xin Liang, piano. Source: Eric Xi Xin Liang, via Wikimedia Commons. Recording: CC BY 4.0. Janáček’s composition is separately marked public domain.",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
@@ -150,6 +149,13 @@
       "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3AJan%C3%A1%C4%8Dek+-+Piano+Sonata+1.X.1905%2C+2nd+Movement+%28Eric+Xi+Xin+Liang%29.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cmetadata%7Cderivatives",
       "locator": "videoinfo duration, MIME type, MP3 derivative and embedded stream or FLAC comments; encoding software dates are not transfer dates.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Janáček - Piano Sonata 1.X.1905, 2nd Movement (Eric Xi Xin Liang).flac",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Janáček - Piano Sonata 1.X.1905, 2nd Movement (Eric Xi Xin Liang).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "id": "schubert-impromptu-gflat",
+  "source": {
+    "mutopia": 1193,
+    "title": "Impromptu in G♭ major, D. 899 No. 3",
+    "edition": "Breitkopf & Härtel, 1888",
+    "encoder": "Ph. Raynaud",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1193",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "SchubertF-D899-3-Impromptu.ly",
+    "midi": "SchubertF-D899-3-Impromptu.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D899/SchubertF-D899-3-Impromptu/SchubertF-D899-3-Impromptu.ly",
+        "file": "SchubertF-D899-3-Impromptu.ly",
+        "sha256": "705bb3e1c6f699d774f36d421210124ced774a238174772310a024be289679ce"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/SchubertF/D899/SchubertF-D899-3-Impromptu/SchubertF-D899-3-Impromptu.mid",
+        "file": "SchubertF-D899-3-Impromptu.mid",
+        "sha256": "3ae00ab41634cd65c495a0aec41798ff191bd2690f48ec93daa53dd0266edaa2"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "isolated-voices",
+    "definitions": [
+      {
+        "file": "SchubertF-D899-3-Impromptu.ly",
+        "before": "\\score"
+      }
+    ],
+    "staves": [
+      "upII",
+      "downIII"
+    ],
+    "silent": "s1*172",
+    "comparePublished": {
+      "offsetQ": 8
+    },
+    "global": "\\KEYTIME"
+  },
+  "voices": [
+    {
+      "id": "upper-1",
+      "name": "Upper voice 1 (melody)",
+      "music": "\\hautI",
+      "staff": "upII"
+    },
+    {
+      "id": "upper-2",
+      "name": "Upper voice 2",
+      "music": "\\hautII",
+      "staff": "upII"
+    },
+    {
+      "id": "lower-1",
+      "name": "Lower voice 1",
+      "music": "\\basIa \\basIaM \\basIb \\basIbM \\basIc \\basIcM \\basId \\basIdM \\basIe \\basIeM \\basIf \\basIfM \\basIg \\basIgM \\basIh \\basIhM \\basIi \\basIiM \\basIj",
+      "staff": "downIII"
+    },
+    {
+      "id": "lower-2",
+      "name": "Lower voice 2",
+      "music": "\\basII",
+      "staff": "downIII"
+    },
+    {
+      "id": "lower-3",
+      "name": "Lower voice 3",
+      "music": "\\basIII",
+      "staff": "downIII"
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 86,
+    "quarters": 8,
+    "order": [
+      [
+        1,
+        86
+      ]
+    ],
+    "description": "Bars 1–86 once, in score order. The return at bar 55 is written out, not an additional repeated traversal."
+  },
+  "endpoints": {
+    "first": [
+      0.4,
+      0.85
+    ],
+    "last": [
+      347.95,
+      348.5
+    ],
+    "basis": "Pitch-energy inspection: opening G♭ bass/B♭ melody after leading noise; final G♭ chord. The original feature path put early arpeggio notes before the first attack."
+  },
+  "boundaries": [
+    [
+      "25",
+      1,
+      100
+    ],
+    [
+      "55",
+      1,
+      218
+    ],
+    [
+      "75",
+      1,
+      298
+    ]
+  ],
+  "diagnostics": {
+    "recurrences": [
+      {
+        "start": 2,
+        "secondQ": 432,
+        "secondOffset": 2,
+        "length": 24,
+        "search": 8
+      }
+    ]
+  },
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Compile hautI, hautII, basI, basII and basIII separately. Cross-staff figures remain attached to their source variable, not their destination MIDI staff. The aggregate pitch/onset set equals the published MIDI after its eight-quarter SILENCE pre-roll is removed. Encoder-authored playback tempo and pedal are not note timings."
+  ]
+}

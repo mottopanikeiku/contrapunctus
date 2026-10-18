@@ -1,0 +1,185 @@
+{
+  "id": "rachmaninoff-etude-op39-5",
+  "work": {
+    "title": "Étude-tableau in E♭ minor",
+    "catalogue": "Op. 39 No. 5",
+    "movement": "Appassionato",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Original solo-piano work; the performer’s particular edition and any editorial changes are not stated."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Karine Gilanyan",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The source page explicitly names Karine Gilanyan and links Musopen as the digital source."
+  },
+  "session": {
+    "date": {
+      "value": "2005–2007",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons gives only the interval “between 2005 and 2007”. Its December 2007 upload is not promoted to an exact session date.",
+      "precision": "range"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Neither the file description nor the cited provenance identifies a recording venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Musopen (digital distributor)",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This identifies the published digital source, not an independently established original commercial recording label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or physical side is documented; a modern date alone is not used to assert that none existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Gilanyan is credited as pianist; no separate engineering, transfer or mastering credit is established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performance date is a range, and no distinct transfer or mastering date is supplied."
+    },
+    "processing": {
+      "value": "Commons stores an Ogg Vorbis file sourced from Musopen and supplies an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original recording medium or equalisation, restoration, editing or noise-reduction settings are identified."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Sergei_Rachmaninoff_-_Etudes-Tableaux%2C_Op._39%2C_No._5.oga/Sergei_Rachmaninoff_-_Etudes-Tableaux%2C_Op._39%2C_No._5.oga.mp3",
+    "sourceChain": [
+      "commons",
+      "musopen"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis attributed to Musopen",
+    "durationSeconds": 271.5
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about an unidentified modern performing edition."
+    },
+    "recording": {
+      "value": "Commons records a public-domain release by Karine Gilanyan, represented by Musopen, together with an attribution-only notice.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The PD-author statement is explicitly attached to the performer’s recording, not solely to Rachmaninoff’s composition. The accompanying attribution notice is honoured in the credit line. The upstream Musopen URL returned HTTP 403 during this audit, so its current page was not independently read; the source and release are reported from the explicit Commons description, not an inferred licence from the upload date."
+    },
+    "creditLine": "Karine Gilanyan, piano — Rachmaninoff, Étude-tableau in E♭ minor, Op. 39 No. 5. Recording provided by Musopen; source Wikimedia Commons, which records the performer’s public-domain release and requires attribution.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_Etudes-Tableaux,_Op._39,_No._5.oga"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: Karine Gilanyan, Étude-tableau Op. 39 No. 5",
+      "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_Etudes-Tableaux,_Op._39,_No._5.oga",
+      "locator": "Performer, 2005–07 date range, Musopen provenance, PD-author release by Karine Gilanyan represented by Musopen, and accompanying attribution notice; revision 1227005986.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "musopen",
+      "title": "Musopen: Études-tableaux, Op. 39",
+      "url": "https://musopen.org/music/1208-etudes-tableaux-op-39/",
+      "locator": "Upstream source linked by Commons. Direct retrieval returned HTTP 403 on the access date; no current-page licence or additional session detail is claimed as independently verified.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Rachmaninoff: Études-tableaux Op. 39, piano score",
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/f/f5/IMSLP39591-PMLP01894-Rachmaninoff-Etudes-Op39.pdf",
+      "locator": "No. 5, printed pp. 63–71 (PDF pp. 28–36): Appassionato, lyric middle, Tempo I/pesante return and morendo close.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP: Études-tableaux, Op. 39",
+      "url": "https://imslp.org/wiki/Etudes-tableaux,_Op.39_(Rachmaninoff,_Sergei)",
+      "locator": "Nine pieces, composed 1916–17, published in 1917 by Edition Russe.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "programme",
+      "title": "Nigel Simeone: programme note, Phillips Collection",
+      "url": "https://www.phillipscollection.org/event/2016-11-12-vadym-kholodenko-0",
+      "locator": "Rachmaninoff section dates Op. 39 to 1916–17 and places it before the composer’s permanent departure from Russia; its descriptions of Nos. 7 and 9 are not applied to No. 5.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

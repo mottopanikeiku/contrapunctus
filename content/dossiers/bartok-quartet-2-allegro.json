@@ -115,12 +115,12 @@
       "note": "Béla Bartók died in 1945. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "Creative Commons Attribution 3.0 Unported",
+      "value": "Rule 1 — recording licence/release: CC BY 3.0 Unported.",
       "status": "documented",
       "sourceIds": [
-        "commons"
+        "rights-audit-commons"
       ],
-      "note": "Commons explicitly says that the Carmel Quartet releases this recording under the licence; it is not a public-domain claim about the performance."
+      "note": "The Commons Permission field explicitly says the Carmel Quartet releases this 2007 recording under Creative Commons; the licence template is cc-by-3.0. Retain performer attribution and licence notice."
     },
     "creditLine": "Béla Bartók: String Quartet No. 2, Op. 17, II. Allegro molto capriccioso — Carmel Quartet (2007). Recording: CC BY 3.0, via Wikimedia Commons; MP3 access derivative.",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
@@ -139,6 +139,13 @@
       "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ABartok+Op.+17%2C+Second+Movement.OGG&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
       "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Bartok Op. 17, Second Movement.OGG",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
+      "locator": "Opened file-description wikitext for File:Bartok Op. 17, Second Movement.OGG; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

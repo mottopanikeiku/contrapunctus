@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "id": "chopin-ballade-4",
+  "source": {
+    "mutopia": 422,
+    "title": "Ballade No. 4 in F minor, Op. 52",
+    "edition": "Joseffy Edition",
+    "encoder": "Bruce J Keeler",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=422",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "ballade-4-lys/ballade-4.ly",
+    "midi": "ballade-4.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys.zip",
+        "file": "ballade-4-lys.zip",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4.mid",
+        "file": "ballade-4.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 239,
+    "quarters": 3,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        239
+      ]
+    ],
+    "description": "Play printed bars 1–239 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      749,
+      754
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Joseffy Edition. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/chopin-ballade-4.mjs and cache/analysis/chopin-ballade-4.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

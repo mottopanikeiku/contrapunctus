@@ -115,12 +115,12 @@
       "note": "Commons applies PD-old-70-expired, citing Ives’s death in 1954 and pre-1931 publication. The playing edition is not identified; the notice is not independent clearance of additions in a later revision."
     },
     "recording": {
-      "value": "Creative Commons Attribution 4.0 International",
+      "value": "Rule 1 — recording licence/release: CC BY 4.0 International.",
       "status": "documented",
       "sourceIds": [
-        "commons"
+        "rights-audit-commons"
       ],
-      "note": "This licence appears under Recording. The separate public-domain notice concerns the composition, not Liang’s 2024 performance and recording."
+      "note": "Commons explicitly places cc-by-4.0 in the recording field for Eric Xi Xin Liang’s 2024 recording. The separate composition public-domain notice is not used as the recording licence."
     },
     "creditLine": "Charles Ives: Piano Sonata No. 2 “Concord, Mass., 1840–60”, III. The Alcotts — Eric Xi Xin Liang, piano and recording (2024), CC BY 4.0. Via Wikimedia Commons; MP3 derivative of the supplied FLAC.",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
@@ -139,6 +139,13 @@
       "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AIves+-+Piano+Sonata+No.2+-+III.+The+Alcotts+%28Eric+Xi+Xin+Liang%29.flac&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
       "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Ives - Piano Sonata No.2 - III. The Alcotts (Eric Xi Xin Liang).flac",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Ives - Piano Sonata No.2 - III. The Alcotts (Eric Xi Xin Liang).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

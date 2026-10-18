@@ -11,7 +11,20 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { UA, audioInfo, sourceInfo, commonsApi as api } from './commons.mjs';
+import { UA, audioInfo, sourceInfo, politeFetch, commonsApi as api } from './commons.mjs';
+import { mkdir as mkdirp, rm, stat } from 'node:fs/promises';
+
+/** Run fn while holding a cross-process lock (a directory); stale locks (> 10 min) are broken. */
+async function withLock(dir, fn) {
+  for (;;) {
+    try { await mkdirp(dir); break; } catch {
+      try { if (Date.now() - (await stat(dir)).mtimeMs > 600000) await rm(dir, { recursive: true, force: true }); } catch {}
+      await new Promise((r) => setTimeout(r, 2000 + Math.random() * 2000));
+    }
+  }
+  try { const r = await fn(); if (r?.arrayBuffer) { const b = await r.arrayBuffer(); return { ok: r.ok, status: r.status, arrayBuffer: async () => b }; } return r; }
+  finally { await rm(dir, { recursive: true, force: true }); }
+}
 
 const mmss = (t) => `${Math.floor(t / 60)}:${String(Math.round(t % 60)).padStart(2, '0')}`;
 
@@ -57,7 +70,8 @@ if (cmd === 'archive') {
     if (!info?.stream) { console.log(`ERROR ${f}: no streamable source`); process.exitCode = 1; continue; }
     const mp3 = path.join(ROOT, 'cache/audio', `${mod.id}.mp3`);
     try { await access(mp3); } catch {
-      const res = await fetch(info.stream, { headers: { 'User-Agent': UA } });
+      // Many authors share one IP: downloads are serialised through a lock directory and retried politely.
+      const res = await withLock(path.join(ROOT, 'cache/.download-lock'), () => politeFetch(info.stream, 8));
       if (!res.ok) { console.log(`ERROR ${f}: HTTP ${res.status} for ${info.stream}`); process.exitCode = 1; continue; }
       await writeFile(mp3, Buffer.from(await res.arrayBuffer()));
     }

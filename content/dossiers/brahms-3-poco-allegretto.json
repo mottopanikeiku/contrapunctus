@@ -165,14 +165,12 @@
       "note": "The musical-composition tag is PD-old-auto-expired, deathyear=1897. This does not license a later edition, arrangement or recording."
     },
     "recording": {
-      "value": "Public-domain dedication attributed to Musopen.",
+      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured",
-        "upstream"
+        "rights-audit-commons"
       ],
-      "note": "This records the source’s dedication, not an independent worldwide legal clearance. The Public Domain Mark is a notice, not a Creative Commons attribution licence."
+      "note": "Commons explicitly applies PD-author by Musopen to the recording, separately from the composition. This is the programme’s explicit Musopen recording-release route, not an age-based inference or a claim that a Public Domain Mark is itself a licence. The session date is not needed for this route."
     },
     "creditLine": "Musopen Symphony (Commons credit); Czech National Symphony Orchestra (embedded and upstream credit; attribution unresolved). Musopen Kickstarter Project / Internet Archive, via Wikimedia Commons. Public-domain dedication attributed to Musopen.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
@@ -212,6 +210,13 @@
       "url": "https://musopen.org/music/66-symphony-no-3-in-f-major-op-90/",
       "locator": "Linked by Commons; retrieval returned HTTP 403. No additional session or performer evidence was obtained from this page.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Brahms - Symphony No. 3 in F major, Op. 90 - III. Poco allegretto (Musopen Symphony).flac",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=963505199&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Brahms - Symphony No. 3 in F major, Op. 90 - III. Poco allegretto (Musopen Symphony).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

@@ -1,0 +1,24 @@
+{
+  "id": "scheherazade-prince-opening",
+  "title": "Two orchestras breathe the same melody",
+  "composer": "rimsky-korsakov",
+  "group": "century",
+  "work": "Scheherazade, Op. 35 — III, opening passage",
+  "question": "How do Stokowski and Monteux make room for the opening melody’s long phrases?",
+  "intro": "Stokowski recorded the Philadelphia Orchestra on 12 November 1934; Monteux’s San Francisco recording dates from 3–4 March 1942. The comparison uses Stokowski’s first disc side against the corresponding opening of Monteux’s complete movement. The accepted window stops before the side’s later material; no whole-movement speed claim is made.",
+  "recordings": [
+    { "listen": "rimsky-korsakov-scheherazade-stokowski-side1", "label": "Stokowski, 1934 · side 1", "year": 1934, "note": "Follow the long melodic span and the early crest around one minute; this is only the movement’s first record side." },
+    { "listen": "rimsky-korsakov-scheherazade-prince", "label": "Monteux, 1942", "year": 1942, "note": "Compare how the same melodic span fits a shorter mapped interval; the complete movement remains playable." }
+  ],
+  "reference": "rimsky-korsakov-scheherazade-stokowski-side1",
+  "passages": [
+    { "label": "Opening lyrical span", "t": 20, "note": "Compare the phrase’s duration and release, not the two transfers’ noise or volume." },
+    { "label": "The early crest", "t": 58, "note": "The reference report places its largest early crest around 0:50–1:05; this is a within-recording level observation." },
+    { "label": "After the crest", "t": 78, "note": "Follow the continuing line as the reference becomes quieter; no individual string slide is claimed without listening evidence." }
+  ],
+  "sources": [
+    { "title": "Stokowski — session and first-side identification", "url": "https://commons.wikimedia.org/wiki/File:Hmv-db2525-2a84519.ogg" },
+    { "title": "Monteux recording — Commons attribution and CC0", "url": "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov._Scheherazade,_Symphonic_Suite,_Op._35_-_03_The_Young_Prince_And_Princess.ogg" },
+    { "title": "Monteux upstream transfer — Bob Varney, public-domain release", "url": "https://archive.org/metadata/Sheherazade/metadata" }
+  ]
+}

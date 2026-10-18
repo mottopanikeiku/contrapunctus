@@ -1,0 +1,187 @@
+{
+  "id": "volga-boatmen-chaliapin-1922",
+  "work": {
+    "title": "Song of the Volga Boatmen",
+    "catalogue": "",
+    "movement": "Arrangement by Chaliapin and Keneman",
+    "version": {
+      "value": "Russian folk song arranged by Fyodor Chaliapin and Fyodor Keneman; bass and orchestra",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-session"
+      ],
+      "note": "The label spells the second arranger Koenemann. The arrangement, not an anonymous unarranged folk performance, is heard."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Fyodor Chaliapin",
+        "role": "bass"
+      },
+      {
+        "name": "George W. Byng",
+        "role": "conductor"
+      },
+      {
+        "name": "Orchestra not named",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "dahr-session"
+    ],
+    "note": "DAHR supplies the conductor; no ensemble identity is inferred."
+  },
+  "session": {
+    "date": {
+      "value": "1922-10-09",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-session"
+      ],
+      "note": "",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Hayes, Middlesex, England, Room 1",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-session"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victrola / Victor",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-issue"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "88663",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-issue"
+      ],
+      "note": ""
+    },
+    "matrixTakeSides": {
+      "value": "Cc1891, take 4",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-session"
+      ],
+      "note": "The inspected Victrola label reads 88663 and credits both arrangers. IA repeats 88663 in its matrix field; DAHR identifies the actual matrix as Cc1891, take 4. DAHR’s [1922] publication year is explicitly bracketed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Robert Boggs; George Blood, L.P.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The archive names the transfer operator and scanning centre, not the original recording engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "Transferred at 78 rpm using four truncated-conical styli: 3.8, 2.3, 2.8 and 3.3 mil. The named MP3 derives from the archive’s preferred FLAC.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Surface noise and transfer equalisation prevent absolute sound-quality or loudness comparisons."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a/Song%20of%20the%20Volga%20Boatmen%20-%20Feodor%20Chaliapin.mp3",
+    "sourceChain": [
+      "archive",
+      "dahr-session",
+      "dahr-issue"
+    ],
+    "format": "MP3 access derivative; one source file, no concatenation or audio edits by Contrapunctus",
+    "durationSeconds": 201.94
+  },
+  "rights": {
+    "composition": {
+      "value": "Traditional melody; Chaliapin–Keneman arrangement is public domain under ordinary life-plus-70 terms",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "dahr-issue"
+      ],
+      "note": "DAHR identifies the arrangers as Chaliapin (1873–1938) and Keneman (1873–1937). No claim of worldwide clearance is made."
+    },
+    "recording": {
+      "value": "US public domain: sound recording published before the 1925 cutoff",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "dahr-session",
+        "dahr-issue",
+        "us-term"
+      ],
+      "note": "The inspected Victrola label reads 88663 and credits both arrangers. IA repeats 88663 in its matrix field; DAHR identifies the actual matrix as Cc1891, take 4. DAHR’s [1922] publication year is explicitly bracketed. No non-commercial licence is present in the inspected archive metadata."
+    },
+    "creditLine": "Song of the Volga Boatmen; Fyodor Chaliapin, bass; orchestra conducted by George W. Byng. 1922-10-09; Cc1891, take 4; Victrola 88663. Transfer: Robert Boggs; George Blood, L.P.; Internet Archive Great 78 Project. Recording: US public domain.",
+    "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Song of the Volga Boatmen",
+      "url": "https://archive.org/metadata/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a",
+      "locator": "metadata, preferred FLAC/MP3 file records, transfer credits, technical notes and issue number.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-session",
+      "title": "DAHR — Cc1891, take 4",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686",
+      "locator": "Date, place, issued take, personnel and issue links.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-issue",
+      "title": "DAHR — Victor 88663",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/162251",
+      "locator": "Matrix coupling and MARC 264 publication statement [1922].",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label",
+      "title": "Victrola 88663 — digitised label",
+      "url": "https://archive.org/download/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a_itemimage.jpg",
+      "locator": "Label: Song of the Volga Boatmen; Russian folk song; arranged by Chaliapin and Koenemann; bass with orchestra.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "US Copyright Office — pre-1972 sound-recording terms",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: recordings first published before 1923; 1923–1946 recordings receive 95 years plus five years.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "cpe-bach",
+  "places": [
+    {
+      "name": "Weimar",
+      "country": "Duchy of Saxe-Weimar (today Germany)",
+      "lat": 50.9811,
+      "lon": 11.3294,
+      "from": "1714-03-08",
+      "kind": "born",
+      "what": "Born to Johann Sebastian and Maria Barbara Bach; Telemann was his godfather.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig",
+      "country": "Electorate of Saxony (today Germany)",
+      "lat": 51.34,
+      "lon": 12.375,
+      "from": "1724",
+      "to": "1735",
+      "kind": "studied",
+      "what": "Entered the Thomasschule at ten, his father directing; law studies at Leipzig University from 1731.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    },
+    {
+      "name": "Frankfurt an der Oder",
+      "country": "Margraviate of Brandenburg, Prussia (today Germany)",
+      "lat": 52.3419,
+      "lon": 14.5517,
+      "from": "1735",
+      "to": "1738",
+      "kind": "studied",
+      "what": "Continued law studies; took his degree in 1738 but never practised, turning at once to music.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1738",
+      "to": "1768",
+      "kind": "worked",
+      "what": "Served Crown Prince Frederick, then the king’s orchestra from 1740; chamber musician from 1746; wrote the <i>Versuch</i>.",
+      "work": "Versuch über die wahre Art das Clavier zu spielen",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    },
+    {
+      "name": "Potsdam",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.4006,
+      "lon": 13.0592,
+      "from": "1747-05-07",
+      "kind": "heard",
+      "what": "His father visited the court where he served and improvised on Frederick’s theme, leading to <i>The Musical Offering</i>.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Musical Offering — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Musical_Offering"
+        }
+      ]
+    },
+    {
+      "name": "Hamburg",
+      "country": "Free Imperial City of Hamburg (today Germany)",
+      "lat": 53.5483,
+      "lon": 9.9789,
+      "from": "1768",
+      "to": "1788-12-14",
+      "kind": "worked",
+      "what": "Succeeded his godfather Telemann as Kapellmeister; wrote Passions, cantatas and the oratorio <i>Die Auferstehung</i> for the city’s churches.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1788",
+      "kind": "heard",
+      "what": "Three performances of his oratorio <i>Die Auferstehung</i>, sponsored by van Swieten and conducted by Mozart.",
+      "work": "Die Auferstehung und Himmelfahrt Jesu",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    },
+    {
+      "name": "Hamburg",
+      "country": "Free Imperial City of Hamburg (today Germany)",
+      "lat": 53.55,
+      "lon": 10,
+      "from": "1788-12-14",
+      "kind": "died",
+      "what": "Died in Hamburg at seventy-four.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    },
+    {
+      "name": "Michaeliskirche, Hamburg",
+      "country": "Free Imperial City of Hamburg (today Germany)",
+      "lat": 53.5483,
+      "lon": 9.9789,
+      "from": "1788-12",
+      "kind": "buried",
+      "what": "Buried in the Michaeliskirche, where he had directed church music.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Philipp Emanuel Bach — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach"
+        }
+      ]
+    }
+  ]
+}

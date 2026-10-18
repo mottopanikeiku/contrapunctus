@@ -122,13 +122,12 @@
       "note": "The cited biography places publication in 1888 and Satie’s death in 1925. This does not determine the performance’s rights."
     },
     "recording": {
-      "value": "Public-domain dedication attributed to Robin Alciatore.",
+      "value": "Rule 1 — recording licence/release: PD-author by Robin Alciatore; Musopen recording release.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured"
+        "rights-audit-commons"
       ],
-      "note": "This records the source’s dedication, not an independent worldwide legal clearance. The Public Domain Mark is a notice, not a Creative Commons attribution licence. The Commons description also quotes Musopen’s public-domain policy and courtesy attribution request."
+      "note": "Commons explicitly applies PD-author to pianist Robin Alciatore and reproduces Musopen’s unrestricted public-domain recording policy. The requests concerning direct resale and attribution are stated as courtesy requests, not a CC BY-NC licence. The approximate 2008 item date is not established as the session date."
     },
     "creditLine": "Robin Alciatore, piano. Musopen, via Wikimedia Commons. Public-domain dedication attributed to Robin Alciatore; Musopen courtesy credit retained.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
@@ -182,6 +181,13 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1232019273&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

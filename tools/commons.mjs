@@ -26,7 +26,7 @@ export async function lookup(titles, width = 1280) {
       format: 'json',
       formatversion: '2',
     });
-    const res = await fetch(url, { headers: { 'User-Agent': UA } });
+    const res = await politeFetch(url);
     if (!res.ok) throw new Error(`Commons API ${res.status}`);
     const data = await res.json();
     const alias = new Map();
@@ -82,9 +82,19 @@ const stripAudio = (s = '') => s.replace(/<[^>]+>/g, ' ').replace(/&nbsp;|&#160;
 export async function commonsApi(params) {
   const url = new URL(API);
   url.search = new URLSearchParams({ format: 'json', formatversion: '2', ...params });
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  const res = await politeFetch(url);
   if (!res.ok) throw new Error(`Commons ${res.status}`);
   return res.json();
+}
+
+/** Fetch with retries on 429/5xx (many agents share one IP), honouring Retry-After. */
+export async function politeFetch(url, tries = 6) {
+  for (let k = 0; ; k++) {
+    const res = await fetch(url, { headers: { 'User-Agent': UA } });
+    if (res.ok || k >= tries - 1 || !(res.status === 429 || res.status >= 500)) return res;
+    const wait = Number(res.headers.get('retry-after')) * 1000 || 1500 * 2 ** k;
+    await new Promise((r) => setTimeout(r, Math.min(wait, 30000)));
+  }
 }
 
 /** Resolve a Commons audio file to metadata and a browser-streamable MP3 URL (CORS-enabled). */

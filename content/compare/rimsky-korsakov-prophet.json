@@ -1,0 +1,89 @@
+{
+  "id": "rimsky-korsakov-prophet",
+  "title": "Chaliapin’s Prophet across the microphone divide",
+  "composer": "rimsky-korsakov",
+  "work": "The Prophet, Op. 49 No. 2",
+  "question": "How does the same bass reshape Rimsky-Korsakov’s song between acoustic and electrical recording?",
+  "intro": "Chaliapin recorded this Pushkin setting with Percy Pitt in 1921 and Albert Coates in 1927. The 1927 side was first published in 1928 and is used on territorial European public-domain grounds; US recording status is unestablished. The map compares 0:04–3:44 in 1921 with 0:04–4:19 in 1927, omitting lead-in and residual noise. It is less certain around 2:54–2:55 of the earlier side, and recording technology cannot be isolated from conductors, interpretation and transfer choices.",
+  "group": "singers",
+  "recordings": [
+    {
+      "listen": "rimsky-korsakov-prophet-chaliapin-1921",
+      "label": "Chaliapin · Pitt · acoustic",
+      "year": 1921,
+      "note": "Hayes, 10 October; Cc550, take 1. US-public-domain issue; complete source side, with lead-in and tail excluded from alignment."
+    },
+    {
+      "listen": "rimsky-korsakov-prophet-chaliapin-1927",
+      "label": "Chaliapin · Coates · electrical",
+      "year": 1927,
+      "note": "London, 20 October; Cc10957, take 2. First published 1928; territorial European public domain, US status unestablished."
+    }
+  ],
+  "reference": "rimsky-korsakov-prophet-chaliapin-1921",
+  "passages": [
+    {
+      "label": "Opening phrasing",
+      "t": 35,
+      "note": "Follow the length of the sung line over its accompaniment; avoid ranking transfer brightness as vocal quality."
+    },
+    {
+      "label": "Early crest",
+      "t": 80,
+      "note": "Compare the time spent across a sustained crest, not just the strongest instant in either recording."
+    },
+    {
+      "label": "Quieter middle",
+      "t": 115,
+      "note": "The earlier side withdraws before renewed pressure. Compare the space between these larger spans."
+    },
+    {
+      "label": "Final broad crest",
+      "t": 200,
+      "note": "Listen through the last sustained rise and its release; the map excludes the final surface-noise tail."
+    }
+  ],
+  "sources": [
+    {
+      "title": "DAHR — Cc550, 10 October 1921",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007905"
+    },
+    {
+      "title": "DAHR — Victor 6058, publication [1922]",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/162250"
+    },
+    {
+      "title": "Internet Archive — 1921 Prophet transfer",
+      "url": "https://archive.org/details/78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b"
+    },
+    {
+      "title": "Swiss Foundation Public Domain — Prophet, DB 1103",
+      "url": "https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022043"
+    },
+    {
+      "title": "Chaliapin discography — October 1927 take 2",
+      "url": "https://artmusiclounge.files.wordpress.com/2016/03/chaliapin-discography.pdf"
+    },
+    {
+      "title": "IMSLP — 2 Romances, Op. 49",
+      "url": "https://imslp.org/wiki/2_Romances,_Op.49_(Rimsky-Korsakov,_Nikolay)"
+    }
+  ],
+  "alignment": {
+    "scope": "Broad course of the song; lead-in and low-level tails excluded. No score- or syllable-level alignment.",
+    "reference": "rimsky-korsakov-prophet-chaliapin-1921",
+    "trims": {
+      "rimsky-korsakov-prophet-chaliapin-1921": [
+        4,
+        224
+      ],
+      "rimsky-korsakov-prophet-chaliapin-1927": [
+        4,
+        259
+      ]
+    },
+    "medianConfidence": 0.95,
+    "minimumConfidence": 0.742,
+    "note": "True-cosine CENS/DTW map. Three points below 0.8 occur at reference 174–175 seconds, target about 199–200 seconds, in the late quiet passage. Inspected against both reports; no local tempo or sung-word claim is made there. Boundary-smoothed ratios are not instantaneous tempi."
+  }
+}

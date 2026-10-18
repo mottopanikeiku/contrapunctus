@@ -118,13 +118,12 @@
       "note": "The composition notice is separate from Musopen’s release of the sound recording; it does not describe the rights of a modern score edition."
     },
     "recording": {
-      "value": "Public-domain dedication by Musopen, as recorded on Commons",
+      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "archive"
+        "rights-audit-commons"
       ],
-      "note": "Commons uses PD-author for Musopen; the Archive description says the project purchased and released music into the public domain. The underlying rights agreements were not inspected."
+      "note": "Commons explicitly applies PD-author by Musopen to the recording, separately from the composition. This is the programme’s explicit Musopen recording-release route, not an age-based inference or a claim that a Public Domain Mark is itself a licence. The session date is not needed for this route."
     },
     "creditLine": "Pyotr Ilyich Tchaikovsky: Symphony No. 6, Op. 74, IV. Finale — Adagio lamentoso — Musopen Symphony. Released by Musopen into the public domain; Musopen Collection as FLAC, Internet Archive, via Wikimedia Commons. Session date and conductor unidentified.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
@@ -150,6 +149,13 @@
       "url": "https://archive.org/metadata/MusopenCollectionAsFlac/metadata",
       "locator": "description: Musopen Kickstarter project completed in 2012, repertoire and claimed 32-bit FLAC encoding; addeddate/publicdate are collection upload dates, not session dates.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - IV. Finale – Adagio lamentoso (Musopen Symphony).flac",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - IV. Finale – Adagio lamentoso (Musopen Symphony).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

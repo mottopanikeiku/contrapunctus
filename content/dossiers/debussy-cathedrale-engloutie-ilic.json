@@ -1,0 +1,156 @@
+{
+  "id": "debussy-cathedrale-engloutie-ilic",
+  "work": {
+    "title": "Préludes, Book I",
+    "catalogue": "CD 125 / L. 117",
+    "movement": "X. La cathédrale engloutie",
+    "version": {
+      "value": "Solo piano",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source identifies the forces; the performing edition is not established."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Ivan Ilić",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "April 2006",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The summary explicitly identifies April 2006 in Paris, independently of the October 2008 upload.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No more specific recording venue is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical issue is identified for this source."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or original recording medium is identified in the source."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording or mastering engineer is identified; the uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "An upload date does not establish a recording or transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No equalisation, noise reduction or editing chain is documented beyond the Commons access conversion."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg/La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; source OGG",
+    "durationSeconds": 324.92
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying work published in 1910.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "work"
+      ],
+      "note": "The historical composition is separate from the 2006 recording licence."
+    },
+    "recording": {
+      "value": "CC BY 3.0 — recording released by Ivan Ilić",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The pianist is the stated author and uploader. Commons records reviewed permission ticket 2019081610007057; this is an explicit recording licence, not a composition-only tag."
+    },
+    "creditLine": "Préludes, Book I; Ivan Ilić, piano. April 2006. Wikimedia Commons; CC BY 3.0 — recording released by Ivan Ilić. No audio editing by Contrapunctus.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — La Cathédrale engloutie - Claude Debussy - performed by Ivan Ilic.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg",
+      "locator": "Summary, source, licensing, file history and transcode table.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP — Préludes, Livre 1, CD 125",
+      "url": "https://imslp.org/wiki/Pr%C3%A9ludes%2C_Livre_1%2C_CD_125_%28Debussy%2C_Claude%29",
+      "locator": "General Information: CD 125 / L.117; movement 10; first publication Durand, 1910.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "La cathédrale engloutie — written form and publication",
+      "url": "https://en.wikipedia.org/wiki/La_cath%C3%A9drale_engloutie",
+      "locator": "Published 1910; opening fifths, chordal statement and lower echo.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

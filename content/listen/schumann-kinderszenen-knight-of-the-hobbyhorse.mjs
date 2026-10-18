@@ -1,0 +1,17 @@
+export default {
+  id: 'schumann-kinderszenen-knight-of-the-hobbyhorse',
+  composer: 'schumann',
+  order: 90,
+  work: 'Kinderszenen, Op. 15',
+  movement: '9',
+  set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 9, of: 13 },
+  year: '1838',
+  key: '',
+  forces: 'Piano',
+  performers: 'Donald Betts',
+  recorded: '',
+  source: { file: "File:Robert Schumann - scenes from childhood, op. 15 - ix. knight of the hobbyhorse.ogg" },
+  intro: 'x',
+  sections: [{ t: 0, label: 'A', m: 'A' }],
+  cues: [{ t: 0, kind: 'listen', title: 'x', text: 'x', basis: 'general', precision: 'passage', evidence: 'x' }],
+};

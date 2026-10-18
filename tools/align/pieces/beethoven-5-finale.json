@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "id": "beethoven-5-finale",
+  "source": {
+    "title": "Symphony No. 5, Op. 67 — IV. Allegro — Presto",
+    "edition": "IMSLP #575952",
+    "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from derivative",
+    "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/4/Beethoven_Op.67_4.mxl",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+    "main": "Beethoven_Op.67_4.ly",
+    "musicxml": "Beethoven_Op.67_4.mxl",
+    "stripLyrics": true,
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/4/Beethoven_Op.67_4.mxl",
+        "file": "Beethoven_Op.67_4.mxl",
+        "sha256": "b49228260678d8094c66a8a4ecb10aa446434a777f77a95cbda070e2b0df9060"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "Beethoven_Op.67_4.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n\\new Staff = \"P16\" << \\new Voice { \\PartPOneSixVoiceOne } >>\n\\new Staff = \"P17\" << \\new Voice { \\PartPOneSevenVoiceOne } >>\n\\new Staff = \"P18\" << \\new Voice { \\PartPOneEightVoiceOne } >>\n\\new Staff = \"P19\" << \\new Voice { \\PartPOneNineVoiceOne } \\new Voice { \\PartPOneNineVoiceThree } \\new Voice { \\PartPOneNineVoiceTwo } >>\n\\new Staff = \"P20\" << \\new Voice { \\PartPTwoZeroVoiceOne } \\new Voice { \\PartPTwoZeroVoiceThree } \\new Voice { \\PartPTwoZeroVoiceTwo } >>\n\\new Staff = \"P21\" << \\new Voice { \\PartPTwoOneVoiceOne } \\new Voice { \\PartPTwoOneVoiceTwo } >>\n\\new Staff = \"P22\" << \\new Voice { \\PartPTwoTwoVoiceOne } >>\n\\new Staff = \"P23\" << \\new Voice { \\PartPTwoThreeVoiceOne } >>\n>>"
+  },
+  "voices": [
+    {
+      "id": "piccolo",
+      "name": "Piccolo",
+      "tracks": [
+        "P1:"
+      ]
+    },
+    {
+      "id": "flutes",
+      "name": "Flutes",
+      "tracks": [
+        "P2:",
+        "P3:"
+      ]
+    },
+    {
+      "id": "oboes",
+      "name": "Oboes",
+      "tracks": [
+        "P4:",
+        "P5:"
+      ]
+    },
+    {
+      "id": "clarinets",
+      "name": "Clarinets",
+      "tracks": [
+        "P6:",
+        "P7:"
+      ]
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        "P8:",
+        "P9:"
+      ]
+    },
+    {
+      "id": "contrabassoon",
+      "name": "Contrabassoon",
+      "tracks": [
+        "P10:"
+      ]
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "tracks": [
+        "P11:",
+        "P12:"
+      ]
+    },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": [
+        "P13:",
+        "P14:"
+      ]
+    },
+    {
+      "id": "trombones",
+      "name": "Trombones",
+      "tracks": [
+        "P15:",
+        "P16:",
+        "P17:"
+      ]
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        "P18:"
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        "P19:"
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        "P20:"
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        "P21:"
+      ]
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        "P22:"
+      ]
+    },
+    {
+      "id": "basses",
+      "name": "Double basses",
+      "tracks": [
+        "P23:"
+      ]
+    }
+  ],
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      694.7,
+      704.7
+    ],
+    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 12,
+    "width": 310,
+    "height": 440
+  },
+  "provenance": [
+    "Original CC0 orchestral MusicXML retained byte-for-byte; separately licensed analytical lyric nodes omitted before conversion.",
+    "Custom MIDI bypasses articulate playback; source transpositions, including double bass and C horns, remain active. No register-derived part splitting.",
+    "Repeat order is a candidate to be inspected against audio harmonic/recurrence diagnostics; duration is not independent evidence of repetition."
+  ],
+  "bars": {
+    "first": 1,
+    "count": 446,
+    "quarters": 4,
+    "overrides": {
+      "155": 3,
+      "156": 3,
+      "157": 3,
+      "158": 3,
+      "159": 3,
+      "160": 3,
+      "161": 3,
+      "162": 3,
+      "163": 3,
+      "164": 3,
+      "165": 3,
+      "166": 3,
+      "167": 3,
+      "168": 3,
+      "169": 3,
+      "170": 3,
+      "171": 3,
+      "172": 3,
+      "173": 3,
+      "174": 3,
+      "175": 3,
+      "176": 3,
+      "177": 3,
+      "178": 3,
+      "179": 3,
+      "180": 3,
+      "181": 3,
+      "182": 3,
+      "183": 3,
+      "184": 3,
+      "185": 3,
+      "186": 3,
+      "187": 3,
+      "188": 3,
+      "189": 3,
+      "190": 3,
+      "191": 3,
+      "192": 3,
+      "193": 3,
+      "194": 3,
+      "195": 3,
+      "196": 3,
+      "197": 3,
+      "198": 3,
+      "199": 3,
+      "200": 3,
+      "201": 3,
+      "202": 3,
+      "203": 3,
+      "204": 3,
+      "205": 3,
+      "206": 3,
+      "207": 3,
+      "208": 3
+    },
+    "order": [
+      [
+        1,
+        86
+      ],
+      [
+        2,
+        84
+      ],
+      [
+        87,
+        446
+      ]
+    ],
+    "description": "First exposition through its first ending (1–86), then 2–84 again and second ending87 through446. Source includes 3/4 scherzo recollection at155–208. Candidate order pending recording-specific inspection."
+  },
+  "diagnostics": {
+    "recurrences": [
+      { "startQ": 4, "secondQ": 344, "length": 50, "search": 12 }
+    ],
+    "overlays": [[0, 16], [365, 405]]
+  }
+}

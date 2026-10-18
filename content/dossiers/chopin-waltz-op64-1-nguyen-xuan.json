@@ -1,0 +1,141 @@
+{
+  "id": "chopin-waltz-op64-1-nguyen-xuan",
+  "work": {
+    "title": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”)",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": "Solo piano version",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The source identifies this as the named solo-piano work."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Muriel Nguyen Xuan",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer spelling normalised; no uncredited accompanist or soloist added."
+  },
+  "session": {
+    "date": {
+      "value": "2007",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons gives the impossible date 2007-17-16. Only its year is retained; month and day are not repaired by guessing.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Not established by the consulted recording sources."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Stéphane Magnenat, recordist",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": ""
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Upload dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "No restoration, equalisation or speed correction is established from the source. Playback uses the supplied MP3 access file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg/Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 access file; no concatenation or playback pitch alteration",
+    "durationSeconds": 120.18648526077098
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition as identified by the source.",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "CC BY-SA 4.0",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Own-work recording released by Muriel Nguyen Xuan and Stéphane Magnenat under the Commons cc-by-sa-all template."
+    },
+    "creditLine": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”); Muriel Nguyen Xuan, piano. Transfer: Stéphane Magnenat, recordist. CC BY-SA 4.0. Source: Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Wikimedia Commons — Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg",
+      "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -6,6 +6,7 @@ export default {
   order: 2,
   work: 'Piano Concerto No. 2, Op. 18',
   movement: 'II. Adagio sostenuto',
+  set: { id: 'rachmaninoff-concerto-2', title: 'Piano Concerto No. 2 in C minor, Op. 18', part: 2, of: 3 },
   year: '1900–01',
   key: 'E major',
   forces: 'Piano and orchestra',

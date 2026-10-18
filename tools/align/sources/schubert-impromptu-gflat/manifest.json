@@ -1,15 +1,13 @@
 {
   "mutopia": 1193,
-  "base": "SchubertF/D899/SchubertF-D899-3-Impromptu/SchubertF-D899-3-Impromptu",
-  "zip": false,
   "title": "Impromptu in G♭ major, D. 899 No. 3",
   "edition": "Breitkopf & Härtel, 1888",
   "encoder": "Ph. Raynaud",
-  "revision": "Mutopia-2015/11/26-1193",
   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1193",
   "license": "Public Domain",
   "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
-  "accessed": "2026-10-16",
+  "main": "SchubertF-D899-3-Impromptu.ly",
+  "midi": "SchubertF-D899-3-Impromptu.mid",
   "downloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchubertF/D899/SchubertF-D899-3-Impromptu/SchubertF-D899-3-Impromptu.ly",
@@ -21,5 +19,6 @@
       "file": "SchubertF-D899-3-Impromptu.mid",
       "sha256": "3ae00ab41634cd65c495a0aec41798ff191bd2690f48ec93daa53dd0266edaa2"
     }
-  ]
+  ],
+  "accessed": "2026-10-17"
 }

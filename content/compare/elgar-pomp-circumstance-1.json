@@ -1,0 +1,34 @@
+{
+  "id": "elgar-pomp-circumstance-1",
+  "title": "Elgar’s march: orchestra and band",
+  "composer": "elgar",
+  "work": "Pomp and Circumstance — March No. 1, Op. 39",
+  "question": "How do Elgar and Stock pace the returning march and final trio, and what changes in the concert-band version?",
+  "intro": "Elgar’s Queen’s Hall recording and Stock’s Chicago recording were both made in 1926 and issued by Victor in 1927, as the session sources and contemporary trade bulletins document. Stock’s label explicitly credits grand organ; the Marine Band plays an unidentified concert-band arrangement. Stock’s map covers 0:05–4:18 of both transfers, while band switching covers only the returning march and final trio, Elgar 2:08–4:18 against band 3:20–5:43, avoiding the unmatched earlier repetition. Band pitch-class features are shifted two semitones for matching, but the audio is unaltered.",
+  "group": "composer-performers",
+  "recordings": [
+    { "listen": "elgar-pomp-circumstance-1-elgar-1927", "label": "Elgar · Royal Albert Hall Orchestra", "year": 1926, "note": "Recorded 1926, issued 1927; orchestra. Reference for the common reprise-and-trio excerpt; complete file 4:24." },
+    { "listen": "elgar-pomp-circumstance-1-stock-1926", "label": "Stock · Chicago Symphony Orchestra", "year": 1926, "note": "Orchestra and organ; recorded 1926, issued 1927. Matched over 0:05–4:18; complete file 4:25." },
+    { "listen": "elgar-pomp-circumstance-1-usmb", "label": "United States Marine Band", "year": null, "note": "Concert-band arrangement, session undated. Matched only 3:20–5:43 to Elgar 2:08–4:18; different key and earlier repeat scheme; complete file 5:46." }
+  ],
+  "reference": "elgar-pomp-circumstance-1-elgar-1927",
+  "passages": [
+    { "label": "The returning march", "t": 140, "note": "Compare the spacing and articulation of the short figures. All three maps cover this reprise, not the band’s extra earlier trio traversal." },
+    { "label": "Before the broad tune", "t": 170, "note": "Keep the short gestures in mind before the sustained melody returns; judge momentum across the phrase rather than from file duration." },
+    { "label": "The final trio", "t": 195, "note": "Compare the broad melody’s weight and continuity. Stock’s organ is documented; the band’s different scoring prevents a conductor-only comparison." },
+    { "label": "A late sustained crest", "t": 240, "note": "Follow the line across its crest. The displayed levels are relative within each recording, not measures of orchestral balance between performances." }
+  ],
+  "sources": [
+    { "title": "Elgar Society — first electrical recording, 27 April 1926", "url": "https://www.elgar.org/3pomp-d.htm" },
+    { "title": "DAHR — Stock’s CVE-37282 session, issued take and organist", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800011535" },
+    { "title": "The Talking Machine World — January and July 1927 Victor release lists, pp. 131 and 157", "url": "https://archive.org/download/talkingmachinewo23bill/talkingmachinewo23bill_djvu.txt" },
+    { "title": "Victrola 6648-B — orchestra and grand organ label", "url": "https://archive.org/download/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b.jpg" },
+    { "title": "Wikimedia Commons — Marine Band recording, official source and government-work declaration", "url": "https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3" },
+    { "title": "Elgar Society — the march and its contrasting trio", "url": "https://www.elgar.org/3pomp-a.htm" },
+    { "title": "Elgar–Stock alignment — exact 5–258-second trims; median confidence 0.964", "url": "../assets/data/compare/elgar-pomp-circumstance-1/elgar-pomp-circumstance-1-stock-1926.json" },
+    { "title": "Elgar–Marine Band alignment — exact reprise-and-trio trims and −2-semitone feature shift; median confidence 0.964", "url": "../assets/data/compare/elgar-pomp-circumstance-1/elgar-pomp-circumstance-1-usmb.json" },
+    { "title": "Elgar transfer — generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-elgar-1927.json" },
+    { "title": "Stock transfer — generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-stock-1926.json" },
+    { "title": "Marine Band — generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-usmb.json" }
+  ]
+}

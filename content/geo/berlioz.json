@@ -1,0 +1,275 @@
+{
+  "id": "berlioz",
+  "places": [
+    {
+      "name": "La Côte-Saint-André",
+      "country": "Kingdom of France (today France)",
+      "lat": 45.3944,
+      "lon": 5.2614,
+      "from": "1803-12-11",
+      "to": "1821",
+      "kind": "born",
+      "what": "Born in the family home, eldest child of a physician; he left for the baccalauréat at Grenoble in 1821.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1821-09",
+      "to": "1830-12",
+      "kind": "studied",
+      "what": "Medical student, then private pupil of Le Sueur and Conservatoire student under Reicha from August 1826.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Salle du Conservatoire, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8729,
+      "lon": 2.347,
+      "from": "1830-12-05",
+      "kind": "premiere",
+      "what": "First performance, conducted by Habeneck; Harriet Smithson, its inspiration, did not attend.",
+      "work": "Symphonie fantastique",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphonie fantastique — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphonie_fantastique"
+        }
+      ]
+    },
+    {
+      "name": "Villa Medici, Rome",
+      "country": "Papal States (today Italy)",
+      "lat": 41.908,
+      "lon": 12.483,
+      "from": "1831",
+      "to": "1832-05",
+      "kind": "studied",
+      "what": "Prix de Rome residency at the French Academy; he took little pleasure in it but toured much of Italy.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Nice",
+      "country": "Kingdom of Sardinia (today France)",
+      "lat": 43.7034,
+      "lon": 7.2663,
+      "from": "1831",
+      "kind": "lived",
+      "what": "Stayed a few weeks after leaving Rome without permission, and wrote the King Lear overture.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Les Invalides, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.855,
+      "lon": 2.3125,
+      "from": "1837-12",
+      "kind": "premiere",
+      "what": "First performed here in a government commission; a second state commission followed in 1840.",
+      "work": "Grande messe des morts (Requiem)",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Brussels",
+      "country": "Kingdom of Belgium (today Belgium)",
+      "lat": 50.8467,
+      "lon": 4.3525,
+      "from": "1842-09",
+      "kind": "travelled",
+      "what": "Two concerts opened his conducting tours abroad, begun to make money; twelve German cities followed.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.34,
+      "lon": 12.375,
+      "from": "1843",
+      "kind": "travelled",
+      "what": "On the German tour he had enjoyable meetings here with Mendelssohn and Schumann.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Pest",
+      "country": "Kingdom of Hungary (today Hungary)",
+      "lat": 47.4925,
+      "lon": 19.0514,
+      "from": "1846-02-15",
+      "kind": "travelled",
+      "what": "Music from the <i>Damnation of Faust</i> was a thunderous success at a concert in Pest.",
+      "work": "La damnation de Faust",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "La damnation de Faust — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/La_damnation_de_Faust"
+        }
+      ]
+    },
+    {
+      "name": "Opéra-Comique, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8709,
+      "lon": 2.3378,
+      "from": "1846-12-06",
+      "kind": "premiere",
+      "what": "First performance of his dramatic legend, to half-empty houses; the failure left him heavily in debt.",
+      "work": "La damnation de Faust",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "La damnation de Faust — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/La_damnation_de_Faust"
+        },
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1847-11",
+      "to": "1848-07",
+      "kind": "travelled",
+      "what": "First of five English visits, over seven months; well received but ruined financially by his impresario Jullien.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Théâtre-Lyrique, Place du Châtelet, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8572,
+      "lon": 2.3481,
+      "from": "1863-11-04",
+      "kind": "premiere",
+      "what": "Acts 3–5 of his epic opera, heavily cut, ran for about 21 performances under Carvalho.",
+      "work": "Les Troyens à Carthage",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Les Troyens — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Les_Troyens"
+        }
+      ]
+    },
+    {
+      "name": "St Petersburg and Moscow",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1867",
+      "to": "1868",
+      "kind": "travelled",
+      "what": "A planned series of concerts that sapped his remaining strength; he came home to convalesce.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Grenoble",
+      "country": "Kingdom of France (today France)",
+      "lat": 45.1715,
+      "lon": 5.7224,
+      "from": "1868-08",
+      "kind": "travelled",
+      "what": "A brief trip to judge a choral festival, his last journey from Paris.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Rue de Calais, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8825,
+      "lon": 2.3308,
+      "from": "1869-03-08",
+      "kind": "died",
+      "what": "Died at his house here at sixty-five.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    },
+    {
+      "name": "Montmartre Cemetery, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8878,
+      "lon": 2.3303,
+      "from": "1869-03",
+      "kind": "buried",
+      "what": "Buried with his two wives, Harriet Smithson and Marie Recio.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hector Berlioz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+        }
+      ]
+    }
+  ]
+}

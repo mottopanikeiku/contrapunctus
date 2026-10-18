@@ -1,0 +1,90 @@
+{
+  "id": "tchaikovsky-6-finale",
+  "title": "Two ways to sustain the last lament",
+  "composer": "tchaikovsky",
+  "group": "century",
+  "work": "Symphony No. 6 in B minor “Pathétique”, Op. 74 — IV. Finale: Adagio lamentoso",
+  "question": "Where do Furtwängler and the Musopen Symphony spend their time inside a slow finale of nearly equal length?",
+  "intro": "Furtwängler and the Berlin Philharmonic recorded the symphony in Berlin in October–November 1938; the comparison reuses the site’s Musopen Symphony finale, whose session date is not established. The provisional map aligns Musopen’s 0–615 seconds with Furtwängler’s 0–600, excluding terminal tails, and has median chroma confidence 0.875. Local confidence falls below 0.8 in parts of the quiet music, especially around reference 330–355 seconds and the ending, so compare broader phrases rather than trusting each switching instant. Commons explicitly applies territorial PD-EU-audio to Furtwängler’s recording, but US status and the terms of the now-unavailable upstream transfer remain unestablished.",
+  "recordings": [
+    {
+      "listen": "tchaikovsky-6-finale-furtwangler-1938",
+      "label": "Berlin Philharmonic / Furtwängler",
+      "year": 1938,
+      "note": "Beethovensaal, Berlin; Victor DM 553 transfer; recording-specific European rights statement, with unavailable upstream provenance."
+    },
+    {
+      "listen": "tchaikovsky-6-finale",
+      "label": "Musopen Symphony",
+      "year": null,
+      "note": "Existing Musopen public-domain recording; session date, conductor and performing edition unidentified."
+    }
+  ],
+  "reference": "tchaikovsky-6-finale",
+  "passages": [
+    {
+      "label": "Opening phrase lengths",
+      "t": 0,
+      "note": "Follow the rise and release of the first broad phrase, not merely the time between the first attacks."
+    },
+    {
+      "label": "Beginning a longer rise",
+      "t": 170,
+      "note": "Compare the growth across several gestures; this quieter region has less secure automatic matching, so judge the phrase by ear."
+    },
+    {
+      "label": "After the earlier crest",
+      "t": 270,
+      "note": "Listen through the withdrawal after sustained force: an arrival can leave the phrase needing to continue."
+    },
+    {
+      "label": "The later sustained span",
+      "t": 420,
+      "note": "Compare how long the stronger sound persists before retreating, without treating either recording’s level as an absolute dynamic measurement."
+    },
+    {
+      "label": "The closing decline",
+      "t": 545,
+      "note": "Follow the remaining line through its smaller renewals and retreats. Sustained quiet notes make the later alignment less certain."
+    }
+  ],
+  "alignment": {
+    "status": "provisional",
+    "timeBasis": "Absolute seconds in each supplied stream; trim ends are exclusive.",
+    "maps": [
+      {
+        "listen": "tchaikovsky-6-finale-furtwangler-1938",
+        "trimA": [
+          0,
+          615
+        ],
+        "trimB": [
+          0,
+          600
+        ],
+        "medianConfidence": 0.875,
+        "transposeB": 0,
+        "scope": "Complete finale excluding terminal low-level tails; no audio concatenation or resynthesis.",
+        "inspection": "Sixty-second path samples progress through both performances. Local confidence sampled below 0.8 at reference 40, 110–120, 150–170, 340–350, 520 and late 570–610 seconds; the especially weak 340–350 and ending regions are explicitly cautioned. Timing is not bar-aligned."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Furtwängler current Commons recording, session and separate audio rights notice",
+      "url": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Path%C3%A9tique_-_Wilhelm_Furtw%C3%A4ngler_-_IV._Finale_-_Adagio_lamentoso.ogg"
+    },
+    {
+      "title": "Linked Furtwängler archive metadata: unavailable source, is_dark true",
+      "url": "https://archive.org/metadata/TCHAIKOVSKYSymphonyNo.6Pathetique-NEWTRANSFER"
+    },
+    {
+      "title": "Existing Musopen Symphony finale and recording release",
+      "url": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No._6_in_B_minor,_Op._74_%27Path%C3%A9tique%27_-_IV._Finale_%E2%80%93_Adagio_lamentoso_(Musopen_Symphony).flac"
+    },
+    {
+      "title": "Tchaikovsky’s planned slow finale and documentary chronology",
+      "url": "https://en.tchaikovsky-research.net/pages/Symphony_No._6"
+    }
+  ]
+}

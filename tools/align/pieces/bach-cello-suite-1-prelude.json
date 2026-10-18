@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "id": "bach-cello-suite-1-prelude",
+  "source": {
+    "mutopia": 517,
+    "title": "Cello Suite No. 1 in G major, BWV 1007 — I. Prélude",
+    "edition": "Schirmer, 1916",
+    "encoder": "Andreas Scherer",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=517",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "bwv1007-lys/bwv1007.ly",
+    "midi": "bwv1007.mid",
+    "downloads": [
+      { "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1007/bwv1007/bwv1007-lys.zip", "file": "bwv1007-lys.zip", "sha256": "b3497b85f8351fb8812577c7faf49c157ef37876eadc71d76214f92ef10ccf6e" },
+      { "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1007/bwv1007/bwv1007-mids.zip", "file": "bwv1007-mids.zip", "sha256": "57fccefc88f315d90e479ce400a6647fc86fbc2b5cbda64f5f29e6c58ea143ce" }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      { "file": "bwv1007-lys/header.ily" },
+      { "file": "bwv1007-lys/bwv1007_prelude.ly" }
+    ],
+    "music": "{ \\clef bass \\transpose c c, { \\prelude } }",
+    "comparePublished": {}
+  },
+  "voices": [
+    { "id": "cello", "name": "Cello", "tracks": [1] }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 42,
+    "quarters": 4,
+    "order": [[1, 42]],
+    "description": "Prelude bars 1–42 once in written order, with no pickup or repeat. Only the first score in the complete-suite archive is selected; the six dance movements and viola transposition are not used."
+  },
+  "endpoints": {
+    "first": [0, 2.5],
+    "last": [120, 125],
+    "basis": "Initial source-pitch search windows from the cached 130.312-second recording and its analysis: opening G2 and final G2–B3–G4 chord. Inspect fresh pitch-energy evidence before publication."
+  },
+  "diagnostics": {
+    "held": { "voice": 0, "onsets": [85.5, 164] },
+    "overlays": [[58, 72], [118, 130]]
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297,
+    "music": "{ \\clef bass \\transpose c c, { \\prelude } }"
+  },
+  "provenance": [
+    "The original bwv1007.ly compiles the Prelude first, followed by the six dance scores. Its unsuffixed bwv1007.mid contains 656 attacks over 168 quarter units, beginning G2–D3–B3 and ending with the bar-42 G2–B3–G4 chord; the separately named viola files are excluded.",
+    "Extraction and engraving select the unchanged prelude variable and retain the original wrapper’s transpose c c, exactly once. This is the source’s cello octave, not a recording-derived transposition.",
+    "One cello staff contains temporary notational subdivisions in bars 33–36; they are not advertised as continuous contrapuntal voices. The bar-22 fermata D4 eighth tied to a sixteenth remains one written event. Written holds and slurs do not establish performed bow changes or release times."
+  ]
+}

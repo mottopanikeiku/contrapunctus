@@ -1,0 +1,176 @@
+{
+  "id": "saint-saens-cygne-bokor",
+  "work": {
+    "title": "Le Carnaval des animaux",
+    "catalogue": "",
+    "movement": "XIII. Le Cygne",
+    "version": {
+      "value": "Cello with piano",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "work"
+      ],
+      "note": "The accompanist and performing edition are not identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Judith Bokor",
+        "role": "cello"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": "An unidentified pianist accompanies her. Biographical references to her regular accompanists do not establish the player on this side."
+  },
+  "session": {
+    "date": {
+      "value": "Circa 1925; exact day unresolved",
+      "status": "disputed",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Commons gives 5 June 1925. The upstream discography dates matrix F 87 only circa 1925; its exact 5 June dates belong to FX 51/56, not this side.",
+      "precision": "approximate",
+      "alternatives": [
+        {
+          "value": "5 June 1925",
+          "sourceIds": [
+            "commons"
+          ]
+        },
+        {
+          "value": "Circa 1925",
+          "sourceIds": [
+            "archive"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is established by the sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "D 9758",
+      "status": "disputed",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "The upstream file tags, table and companion label name D 9758; Commons says D 9768 and also mentions Polyphon 31314. The transferred Columbia issue follows the upstream record."
+    },
+    "matrixTakeSides": {
+      "value": "F 87; take unknown",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "Both sources identify F 87. No take is supplied."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The upstream upload is associated with Rolf Sinnema; the page does not explicitly identify the transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "September 2023 is the upload date, not a documented transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No restoration or speed-correction procedure is documented. The comparison rolls features by one semitone but does not change playback audio."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac/Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; original uploaded source FLAC",
+    "durationSeconds": 154.14
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons applies historical-composition public-domain tags.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "PD-old-70 and PD-US-expired do not themselves clear a sound recording."
+    },
+    "recording": {
+      "value": "territorial",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "commons"
+      ],
+      "note": "Rule 3: the upstream catalogue identifies this historical Columbia D 9758/F 87 issue as circa 1925, establishing publication before 1963. Its European 50-year recording term expired before the 2013 extension. Exact first-publication year at the US cutoff is not independently established, and US public-domain status is not asserted. Opened IA metadata has no licenseurl and no non-commercial licence. The Commons composition-only tags are not the acceptance basis."
+    },
+    "creditLine": "Camille Saint-Saëns, Le Cygne; Judith Bokor, cello, with unidentified pianist; Columbia D 9758, matrix F 87, circa 1925. Rolf Sinnema collection on Internet Archive, via Wikimedia Commons. European recording-rights expiry only; US status unestablished.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Judith Bokor plays Le Cygne",
+      "url": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac",
+      "locator": "Summary: exact date and D 9768 attribution; composition-only licensing tags; upstream source.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Bokor Columbia 1924–1925",
+      "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309",
+      "locator": "metadata.licenseurl absent; description discography row 9 F 87 circa 1925; FLAC/MP3 tags identify D 9758, cello and piano.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Le Cygne — instrumentation and score outline",
+      "url": "https://en.wikipedia.org/wiki/Le_cygne",
+      "locator": "Movement XIII; G major; cello and piano arrangements.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

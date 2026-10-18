@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "id": "ravel-quartet-scherzo",
+  "source": {
+    "title": "String Quartet in F major — II. Assez vif — Très rythmé",
+    "edition": "OpenScore String Quartets; transcribed from IMSLP #335585",
+    "encoder": "Bernhard 1964 / OpenScore String Quartets",
+    "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Ravel%2C_Maurice/String_Quartet_in_F_major/sq8482283.mxl",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "main": "quartet-II.ly",
+    "musicxml": "sq8482283.mxl",
+    "metricEquivalenceWords": true,
+    "otherDynamicsWords": true,
+    "musicxmlMeasures": [
+      213,
+      411
+    ],
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Ravel%2C_Maurice/String_Quartet_in_F_major/sq8482283.mxl",
+        "file": "sq8482283.mxl",
+        "sha256": "3bffd57550f92adb8049971ab1a6b92a14f24c984a92f3f2ddbc32c7aa79f72e"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "quartet-II.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new StaffGroup << \\new Staff = \"violin-1\" \\with { instrumentName = \"Violin I\" } << \\new Voice = \"PartPOneVoiceOne\" { \\voiceOne \\PartPOneVoiceOne } \\new Voice = \"PartPOneVoiceTwo\" { \\voiceTwo \\PartPOneVoiceTwo } \\new Voice = \"PartPOneVoiceThree\" { \\voiceThree \\PartPOneVoiceThree } \\new Voice = \"PartPOneVoiceFour\" { \\voiceFour \\PartPOneVoiceFour } >> \\new Staff = \"violin-2\" \\with { instrumentName = \"Violin II\" } << \\new Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\new Voice = \"PartPTwoVoiceThree\" { \\voiceTwo \\PartPTwoVoiceThree } >> \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } << \\new Voice = \"PartPThreeVoiceOne\" { \\voiceOne \\PartPThreeVoiceOne } \\new Voice = \"PartPThreeVoiceFour\" { \\voiceTwo \\PartPThreeVoiceFour } \\new Voice = \"PartPThreeVoiceTwo\" { \\voiceThree \\PartPThreeVoiceTwo } >> \\new Staff = \"cello\" \\with { instrumentName = \"Cello\" } << \\new Voice = \"PartPFourVoiceOne\" { \\voiceOne \\PartPFourVoiceOne } \\new Voice = \"PartPFourVoiceThree\" { \\voiceTwo \\PartPFourVoiceThree } \\new Voice = \"PartPFourVoiceTwo\" { \\voiceThree \\PartPFourVoiceTwo } >> >>"
+  },
+  "voices": [
+    {
+      "id": "violin-1",
+      "name": "Violin I",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "violin-2",
+      "name": "Violin II",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "cello",
+      "name": "Cello",
+      "tracks": [
+        4
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 198,
+    "quarters": 3,
+    "overrides": {
+      "112": 4,
+      "114": 4,
+      "120": 4,
+      "121": 4,
+      "122": 4,
+      "123": 4
+    },
+    "order": [
+      [
+        1,
+        198
+      ]
+    ],
+    "description": "Movement II only: bars 1–198 once in written order. No repeat signs occur in the selected MusicXML; thematic returns are written out."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      340,
+      350
+    ],
+    "basis": "Initial score-pitch windows from existing recording analysis; refine using pitch-energy inspection before publication."
+  },
+  "boundaries": [],
+  "provenance": [
+    "Select zero-based half-open MusicXML measure indices [213, 411] from every part, preserving inherited clefs, keys and time signatures. Original CC0 MXL download remains unchanged.",
+    "Four source-defined instrument parts are retained, including all explicitly encoded subsidiary voices within each staff. MIDI articulations are not used to invent performed note lengths.",
+    "Metric-equivalence instructions and textual dynamics require semantics-preserving conversion to text for LilyPond 2.24.4; no note or rhythmic content is removed."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 250,
+    "height": 320,
+    "music": "\\new StaffGroup << \\new Staff = \"violin-1\" \\with { instrumentName = \"Violin I\" } << \\new Voice = \"PartPOneVoiceOne\" { \\voiceOne \\PartPOneVoiceOne } \\new Voice = \"PartPOneVoiceTwo\" { \\voiceTwo \\PartPOneVoiceTwo } \\new Voice = \"PartPOneVoiceThree\" { \\voiceThree \\PartPOneVoiceThree } \\new Voice = \"PartPOneVoiceFour\" { \\voiceFour \\PartPOneVoiceFour } >> \\new Staff = \"violin-2\" \\with { instrumentName = \"Violin II\" } << \\new Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\new Voice = \"PartPTwoVoiceThree\" { \\voiceTwo \\PartPTwoVoiceThree } >> \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } << \\new Voice = \"PartPThreeVoiceOne\" { \\voiceOne \\PartPThreeVoiceOne } \\new Voice = \"PartPThreeVoiceFour\" { \\voiceTwo \\PartPThreeVoiceFour } \\new Voice = \"PartPThreeVoiceTwo\" { \\voiceThree \\PartPThreeVoiceTwo } >> \\new Staff = \"cello\" \\with { instrumentName = \"Cello\" } << \\new Voice = \"PartPFourVoiceOne\" { \\voiceOne \\PartPFourVoiceOne } \\new Voice = \"PartPFourVoiceThree\" { \\voiceTwo \\PartPFourVoiceThree } \\new Voice = \"PartPFourVoiceTwo\" { \\voiceThree \\PartPFourVoiceTwo } >> >>"
+  }
+}

@@ -124,13 +124,13 @@
       "note": "Gustav Mahler died in 1911. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "CC0 1.0 on Commons; public-domain dedication at the upstream Archive item",
+      "value": "Rule 1 — recording licence/release: CC0 1.0 Universal; upstream public-domain recording release.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "archive"
+        "rights-audit-commons",
+        "rights-audit-upstream-release"
       ],
-      "note": "The upstream notes also request recognition of soloists, conductor and orchestra. That request is preserved in the credit; the singer’s name is unavailable in the consulted records. No independent review of the performers’ releases has been made."
+      "note": "Commons applies cc-zero to the DuPage recording of 22 May 2004. The opened upstream Internet Archive metadata links a public-domain dedication and asks that soloist, conductor and orchestra recognition be retained; no non-commercial licence appears there."
     },
     "creditLine": "Gustav Mahler: Symphony No. 2, IV. Urlicht — Barbara Schubert, conductor; DuPage Symphony Orchestra; alto soloist unidentified in the source. Recorded by Eric Pancer, 22 May 2004, Edman Memorial Chapel. Internet Archive source via Wikimedia Commons, where the file is marked CC0.",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -170,6 +170,20 @@
       "url": "https://mahlerfoundation.org/mahler/compositions/symphony-no-2/symphony-no-2-movement-4-lied-1-urlicht-sehr-feierlich-aber-schlicht/",
       "locator": "Work identity and the revised orchestration incorporated into Symphony No. 2, distinct from the separate Wunderhorn song version.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Mahler Symphony no. 2, IV. \"Urlicht\".ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Mahler Symphony no. 2, IV. \"Urlicht\".ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-upstream-release",
+      "title": "Internet Archive — Resurrection!",
+      "url": "https://archive.org/metadata/dupageso-2004-05-22/metadata",
+      "locator": "Opened metadata.licenseurl: legacy Creative Commons public-domain dedication, not a non-commercial licence; upload/publication dates kept separate from session dates.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

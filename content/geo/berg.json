@@ -1,0 +1,275 @@
+{
+  "id": "berg",
+  "places": [
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1885-02-09",
+      "kind": "born",
+      "what": "Born in Vienna, where he lived for most of his life.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1904",
+      "kind": "studied",
+      "what": "Began private study with Schoenberg.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1911",
+      "kind": "lived",
+      "what": "Made his married home with Helene at Trauttmansdorffgasse in Hietzing.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "to": "1935",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Musikverein Vienna",
+      "country": "Austria-Hungary (today Austria)",
+      "from": "1913-03-31",
+      "kind": "premiere",
+      "what": "Two Altenberg songs provoked uproar at Schoenberg’s concert.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Musikverein%20Vienna&format=json&limit=1"
+        }
+      ],
+      "work": "Altenberg Lieder: two songs",
+      "lat": 48.2004865,
+      "lon": 16.3727252
+    },
+    {
+      "name": "Prague",
+      "country": "Czechoslovak Republic (today Czechia)",
+      "from": "1925",
+      "kind": "travelled",
+      "what": "Met Hanna Fuchs-Robettin during a visit; their relationship informed the Lyric Suite.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Lyric Suite",
+      "lat": 50.0875,
+      "lon": 14.42138889
+    },
+    {
+      "name": "Staatsoper Unter den Linden Berlin",
+      "country": "Weimar Republic (today Germany)",
+      "from": "1925-12-14",
+      "kind": "premiere",
+      "what": "Erich Kleiber conducted Wozzeck.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Staatsoper%20Unter%20den%20Linden%20Berlin&format=json&limit=1"
+        }
+      ],
+      "work": "Wozzeck",
+      "lat": 52.5167029,
+      "lon": 13.3947383
+    },
+    {
+      "name": "Vienna",
+      "country": "Republic of Austria (today Austria)",
+      "from": "1927-01-08",
+      "kind": "premiere",
+      "what": "The Kolisch Quartet introduced the Lyric Suite.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "work": "Lyric Suite",
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Schiefling am Wörthersee",
+      "country": "Republic of Austria (today Austria)",
+      "from": "1932",
+      "kind": "lived",
+      "what": "Worked at the Waldhaus near the Wörthersee.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Schiefling%20am%20W%C3%B6rthersee&format=json&limit=1"
+        }
+      ],
+      "to": "1935",
+      "work": "Lulu; Violin Concerto",
+      "lat": 46.6046605,
+      "lon": 14.0964161
+    },
+    {
+      "name": "Hietzing Cemetery Vienna",
+      "country": "Federal State of Austria (today Austria)",
+      "from": "1935",
+      "kind": "buried",
+      "what": "Buried in Hietzing Cemetery.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Hietzing%20Cemetery%20Vienna&format=json&limit=1"
+        }
+      ],
+      "lat": 48.1765389,
+      "lon": 16.3000681
+    },
+    {
+      "name": "Vienna",
+      "country": "Federal State of Austria (today Austria)",
+      "from": "1935-12-24",
+      "kind": "died",
+      "what": "Died of septicaemia before hearing the Violin Concerto.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ],
+      "lat": 48.2083,
+      "lon": 16.3725
+    },
+    {
+      "name": "Palau de la Música Catalana, Barcelona",
+      "country": "Second Spanish Republic (today Spain)",
+      "from": "1936-04-19",
+      "kind": "premiere",
+      "what": "Louis Krasner and Hermann Scherchen introduced the concerto.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Palau%20de%20la%20M%C3%BAsica%20Catalana%2C%20Barcelona&format=json&limit=1"
+        }
+      ],
+      "work": "Violin Concerto",
+      "lat": 41.3875837,
+      "lon": 2.1752316
+    },
+    {
+      "name": "Zurich Opera House",
+      "country": "Swiss Confederation (today Switzerland)",
+      "from": "1937-06-02",
+      "kind": "premiere",
+      "what": "The completed first two acts of Lulu were staged posthumously.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Zurich%20Opera%20House&format=json&limit=1"
+        }
+      ],
+      "work": "Lulu: two-act version",
+      "lat": 47.36497,
+      "lon": 8.5468315
+    },
+    {
+      "name": "Palais Garnier Paris",
+      "country": "French Fifth Republic (today France)",
+      "from": "1979-02-24",
+      "kind": "premiere",
+      "what": "Boulez conducted the first staging with Cerha’s Act III orchestration.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Alban Berg",
+          "url": "https://en.wikipedia.org/w/index.php?title=Alban_Berg&action=render"
+        },
+        {
+          "title": "Wikipedia: Palais Garnier",
+          "url": "https://en.wikipedia.org/w/index.php?title=Palais_Garnier&action=render"
+        }
+      ],
+      "work": "Lulu: complete three-act version",
+      "lat": 48.87194,
+      "lon": 2.33167
+    }
+  ]
+}

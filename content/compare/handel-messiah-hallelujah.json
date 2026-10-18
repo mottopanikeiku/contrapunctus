@@ -1,0 +1,114 @@
+{
+  "id": "handel-messiah-hallelujah",
+  "title": "Hallelujah on three generations of record",
+  "composer": "handel",
+  "group": "century",
+  "work": "Messiah, HWV 56 — Hallelujah chorus",
+  "question": "How do three recordings change the space between choral declarations and the continuity of the moving lines?",
+  "intro": "Edison released the Oratorio Chorus on Diamond Disc in May 1916; Sargent’s Royal Albert Hall concert recording dates from 2 April 1926, and Scherchen’s account from 1953. The provisional maps align Scherchen’s 0–199 seconds with Edison’s 0–219 and Sargent’s 0–258, excluding the final transfer tails, with median chroma confidences of 0.962 and 0.966 respectively. Compare phrase lengths and clarity rather than absolute level: acoustic balance, recording space and successive transfers all affect what survives. Edison’s issued recording qualifies under the US pre-1926 rule, while the Sargent and Scherchen recordings carry territorial European recording-rights bases, with US status unestablished.",
+  "recordings": [
+    {
+      "listen": "handel-messiah-hallelujah-edison-1916",
+      "label": "Oratorio Chorus / Edison",
+      "year": 1916,
+      "note": "Diamond Disc 80292-R, released May 1916; conductor and instrumental personnel unknown; US public domain."
+    },
+    {
+      "listen": "handel-messiah-hallelujah-sargent-1926",
+      "label": "Royal Choral Society / Sargent",
+      "year": 1926,
+      "note": "Royal Albert Hall concert, 2 April 1926; Electrola EJ 39; first issue disputed between 1926 and 1927; territorial rights."
+    },
+    {
+      "listen": "handel-messiah-hallelujah",
+      "label": "London Philharmonic Choir / Scherchen",
+      "year": 1953,
+      "note": "Existing London Symphony Orchestra and London Philharmonic Choir recording; European recording-rights expiry, not worldwide clearance."
+    }
+  ],
+  "reference": "handel-messiah-hallelujah",
+  "passages": [
+    {
+      "label": "Opening span",
+      "t": 0,
+      "note": "Compare the spacing of attacks and the clarity of separate voices; no choir size is inferred from the transferred sound."
+    },
+    {
+      "label": "Withdrawal and renewed weight",
+      "t": 70,
+      "note": "Listen through the quieter region into renewed force, comparing the time allowed for the change rather than the playback level."
+    },
+    {
+      "label": "Central accumulation",
+      "t": 120,
+      "note": "Follow a line through the stronger surrounding texture; the matching is provisional and does not identify an exact sung word."
+    },
+    {
+      "label": "Closing gestures",
+      "t": 186,
+      "note": "Compare the spaces before the last sustained sounds. Terminal transfer noise is excluded from the alignment, not edited out of playback."
+    }
+  ],
+  "alignment": {
+    "status": "provisional",
+    "timeBasis": "Absolute seconds in each supplied stream; trim ends are exclusive.",
+    "maps": [
+      {
+        "listen": "handel-messiah-hallelujah-edison-1916",
+        "trimA": [
+          0,
+          199
+        ],
+        "trimB": [
+          0,
+          219
+        ],
+        "medianConfidence": 0.962,
+        "transposeB": 0,
+        "scope": "Chorus through closing decay; excludes low-level terminal tail.",
+        "inspection": "Twenty-second path samples progress across the complete chorus; the greater time around the reference 70–80-second withdrawal is retained rather than flattened to a constant speed."
+      },
+      {
+        "listen": "handel-messiah-hallelujah-sargent-1926",
+        "trimA": [
+          0,
+          199
+        ],
+        "trimB": [
+          0,
+          258
+        ],
+        "medianConfidence": 0.966,
+        "transposeB": 0,
+        "scope": "Chorus through closing decay; excludes irregular final transfer tail.",
+        "inspection": "Twenty-second path samples progress smoothly across the chorus; no added music or cut was inferred from whole-file length alone."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Edison museum catalogue: ensemble, matrix and May 1916 issue",
+      "url": "https://www.nps.gov/edis/learn/photosmultimedia/opera-vocal-and-choral.htm"
+    },
+    {
+      "title": "Edison upstream archive: provenance and public-domain dedication",
+      "url": "https://archive.org/metadata/EDIS-SRP-0195-06"
+    },
+    {
+      "title": "Sargent library record: live concert and Electrola matrix",
+      "url": "https://d-nb.info/380148439"
+    },
+    {
+      "title": "Sargent upstream transfer and first-issue discrepancy",
+      "url": "http://pool.publicdomainproject.org/index.php?title=Electrola-ej39-04871"
+    },
+    {
+      "title": "Sargent Commons import: 1927 release date",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac"
+    },
+    {
+      "title": "Scherchen recording and recording-specific European rights notice",
+      "url": "https://commons.wikimedia.org/wiki/File:Handel_-_Messiah,_Part_2_(Scherchen)_-_45._Hallelujah.ogg"
+    }
+  ]
+}

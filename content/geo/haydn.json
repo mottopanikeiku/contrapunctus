@@ -1,0 +1,448 @@
+{
+  "id": "haydn",
+  "places": [
+    {
+      "name": "Rohrau",
+      "country": "Archduchy of Austria (today Austria)",
+      "lat": 48.0649,
+      "lon": 16.8556,
+      "from": "1732-03-31",
+      "to": "1737",
+      "kind": "born",
+      "what": "Born to a wheelwright and a cook; his early-childhood home is now a Haydn museum.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Hainburg",
+      "country": "Archduchy of Austria (today Austria)",
+      "lat": 48.1458,
+      "lon": 16.9461,
+      "from": "1737",
+      "to": "1740",
+      "kind": "childhood",
+      "what": "Apprenticed at six to his relative Johann Matthias Franck, schoolmaster; he never again lived with his parents.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "St Stephen’s Cathedral, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2085,
+      "lon": 16.373,
+      "from": "1740",
+      "to": "1749-11",
+      "kind": "studied",
+      "what": "Chorister in the cathedral choir under Georg Reutter, lodged in the Kapellhaus; he got only two composition lessons.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Michaelerhaus, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2081,
+      "lon": 16.3669,
+      "from": "1750",
+      "kind": "lived",
+      "what": "After losing his soprano voice, lived in an unheated garret attached to the Michaelerkirche, teaching and playing for pay.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Mannersdorf spa",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 47.9667,
+      "lon": 16.6,
+      "from": "1753-06",
+      "to": "1753-09",
+      "kind": "travelled",
+      "what": "Summer with his teacher Porpora as accompanist and valet; met Gluck, Wagenseil and Bonno at parties.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Weinzierl",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.127,
+      "lon": 15.1247,
+      "from": "1756",
+      "to": "1757",
+      "kind": "worked",
+      "what": "Baron Fürnberg employed him at his country estate, where he wrote his first string quartets.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "Weinzierl Castle — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Weinzierl_Castle"
+        }
+      ]
+    },
+    {
+      "name": "Lukavec (Dolní Lukavice)",
+      "country": "Kingdom of Bohemia (Habsburg; today Czech Republic)",
+      "lat": 49.6028,
+      "lon": 13.3339,
+      "from": "1757",
+      "to": "1761",
+      "kind": "worked",
+      "what": "First full-time post: Count Morzin’s Kapellmeister, wintering in Vienna and summering at his Bohemian estate.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Eisenstadt",
+      "country": "Kingdom of Hungary (today Austria)",
+      "lat": 47.85,
+      "lon": 16.5167,
+      "from": "1761",
+      "to": "1790",
+      "kind": "worked",
+      "what": "Vice-Kapellmeister to the Esterházys, full Kapellmeister from 1766; bought a house in 1766; later returned for summers.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Esterháza (Fertőd)",
+      "country": "Kingdom of Hungary (today Hungary)",
+      "lat": 47.6206,
+      "lon": 16.8717,
+      "from": "1766",
+      "to": "1790",
+      "kind": "worked",
+      "what": "Lived in a house in the palace grounds; ran the court opera theatre, which rivalled Europe’s opera houses.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Bonn",
+      "country": "Electorate of Cologne (today Germany)",
+      "lat": 50.7353,
+      "lon": 7.1022,
+      "from": "1790-12",
+      "kind": "travelled",
+      "what": "On the way to London he met the young Beethoven; Beethoven later came to Vienna as his pupil.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "18 Great Pulteney Street, London",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.5121,
+      "lon": -0.136,
+      "from": "1791-01",
+      "to": "1791-05",
+      "kind": "lived",
+      "what": "Lodged where his host and collaborator Johann Peter Salomon lived; worked in a room lent by Broadwood.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Hanover Square Rooms, London",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.5139,
+      "lon": -0.143,
+      "from": "1791",
+      "to": "1795",
+      "kind": "premiere",
+      "what": "Salomon’s concerts presented his London symphonies, Nos. 93–101, with Haydn directing.",
+      "work": "London symphonies, Nos. 93–101",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hanover Square Rooms — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Hanover_Square_Rooms"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Oxford",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.7519,
+      "lon": -1.2578,
+      "from": "1791-07",
+      "kind": "travelled",
+      "what": "Awarded an honorary doctorate at a grand ceremony; Symphony No. 92 was performed and took its nickname.",
+      "work": "Symphony No. 92 “Oxford”",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Slough",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.5084,
+      "lon": -0.5881,
+      "from": "1792-06-15",
+      "kind": "travelled",
+      "what": "Visited the astronomer and composer William Herschel; the visit influenced <i>The Creation</i>.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "1 Bury Street, St James’s, London",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.5069,
+      "lon": -0.1385,
+      "from": "1794-02",
+      "to": "1795-08",
+      "kind": "lived",
+      "what": "Second London visit: concerts with Salomon, then the Opera Concerts under Viotti; benefit night in 1795 was a peak.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Old Burgtheater, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.208,
+      "lon": 16.3664,
+      "from": "1797-02-12",
+      "kind": "premiere",
+      "what": "Vienna premiere of the Emperor’s Hymn on Francis II’s birthday, with the Emperor present.",
+      "work": "Gott erhalte Franz den Kaiser",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Gott erhalte Franz den Kaiser — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Gott_erhalte_Franz_den_Kaiser"
+        }
+      ]
+    },
+    {
+      "name": "Haydnhaus, Gumpendorf, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.1943,
+      "lon": 16.345,
+      "from": "1797",
+      "to": "1809-05-31",
+      "kind": "lived",
+      "what": "Bought a house in the suburb in 1793 and rebuilt it; <i>The Creation</i> and <i>The Seasons</i> were written here.",
+      "work": "The Creation; The Seasons",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        },
+        {
+          "title": "Haydnhaus — Wien Museum",
+          "url": "https://www.wienmuseum.at/haydnhaus"
+        }
+      ]
+    },
+    {
+      "name": "Schwarzenberg Palace, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.1969,
+      "lon": 16.3767,
+      "from": "1798-04-30",
+      "kind": "premiere",
+      "what": "Bought and remodelled a suburban house after his first London visit; <i>The Creation</i> and <i>The Seasons</i> were written here.",
+      "work": "The Creation",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Creation (Haydn) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Creation_(Haydn)"
+        }
+      ]
+    },
+    {
+      "name": "Old Burgtheater, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.208,
+      "lon": 16.3664,
+      "from": "1799-03-19",
+      "kind": "premiere",
+      "what": "First public performance, sold out far in advance; about forty more performances followed.",
+      "work": "The Creation",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Creation (Haydn) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Creation_(Haydn)"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1808-03-27",
+      "kind": "heard",
+      "what": "A <i>Creation</i> performance in his honour; carried in on an armchair, greeted by Beethoven and Salieri.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Windmühle, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.1943,
+      "lon": 16.345,
+      "from": "1809-05-31",
+      "kind": "died",
+      "what": "Died peacefully at home at 12:40 a.m., aged 77, after French bombardment of Vienna in May.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        },
+        {
+          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Hundsturm cemetery, Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.1881,
+      "lon": 16.3478,
+      "from": "1809-06",
+      "to": "1820",
+      "kind": "buried",
+      "what": "Interred in the local cemetery; his skull was stolen by phrenologists shortly after burial.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    },
+    {
+      "name": "Bergkirche, Eisenstadt",
+      "country": "Kingdom of Hungary (today Austria)",
+      "lat": 47.845,
+      "lon": 16.512,
+      "from": "1820",
+      "kind": "buried",
+      "what": "Remains moved here by Prince Nikolaus; the skull was reunited with them only in 1954.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Joseph Haydn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+        }
+      ]
+    }
+  ]
+}

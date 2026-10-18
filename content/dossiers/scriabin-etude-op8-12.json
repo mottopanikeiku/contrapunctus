@@ -120,13 +120,13 @@
       "note": "The composition is separately tagged PD-old-100."
     },
     "recording": {
-      "value": "Performance: CC BY 3.0; official White House recording: public domain in the United States",
+      "value": "Rule 1 — recording-specific public-domain release: PD-USGov (US-law basis).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "white-house"
+        "rights-audit-commons",
+        "rights-audit-us-government"
       ],
-      "note": "Commons distinguishes the performance licence from PD-USGov for the recording. The archived White House page also labels its video public domain. Commons’ additional suggestion of an assumed performance release is not treated as verified."
+      "note": "Commons expressly applies PD-USGov to the recording or official federal-government performance, not only to the composition. Under 17 U.S.C. § 105(a), official US Government works are not protected by US copyright. This is rule 1’s recording-specific public-domain release route, not rule 2’s publication-date route; it does not establish worldwide public-domain status. Commons separately specifies CC BY 3.0 for Pratt’s performance; the speculative PD-release suggestion is not needed."
     },
     "creditLine": "Alexander Scriabin: Étude in D♯ minor, Op. 8 No. 12 — Awadagin Pratt, piano, White House Classical Music Student Workshop Concert, 4 November 2009. Performance credited under CC BY 3.0; official White House recording public domain in the United States. Excerpt via Wikimedia Commons.",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
@@ -152,6 +152,20 @@
       "url": "https://obamawhitehouse.archives.gov/photos-and-video/video/white-house-workshop-classical-music",
       "locator": "Video heading and description: 4 November 2009, public domain; transcript names Awadagin Pratt on piano and the East Room. The pasted transcript’s press-release line says 26 October; it is not treated as a separate performance date.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:20091104 Awadagin Pratt - Scriabin, Étude Op. 8 No. 12.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:20091104 Awadagin Pratt - Scriabin, Étude Op. 8 No. 12.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-us-government",
+      "title": "17 U.S.C. § 105 — United States Government works",
+      "url": "https://www.law.cornell.edu/uscode/text/17/105",
+      "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

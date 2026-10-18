@@ -1,0 +1,15 @@
+export default {
+  id: 'origins-hildegard-o-frondens',
+  composer: 'origins-hildegard',
+  order: 1,
+  work: 'O frondens virga',
+  movement: 'Antiphon for the Virgin',
+  year: '12th century; exact date unknown',
+  key: 'D mode in the manuscript',
+  forces: 'Unaccompanied solo voice',
+  performers: 'Makemi, voice',
+  recorded: '2006; live performance',
+  source: { file: 'File:O frondens 2.ogg' },
+  intro: 'Hildegard’s Marian antiphon makes a complete setting from one melodic line. Follow the balance between syllabic declamation and the short groups of notes that extend a vowel.',
+  question: 'How does Hildegard shape a prayer without adding a second voice?',
+};

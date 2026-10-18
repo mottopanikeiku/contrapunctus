@@ -1,0 +1,148 @@
+{
+  "id": "chopin-nocturne-op9-2-prati",
+  "work": {
+    "title": "Nocturne in E♭ major",
+    "catalogue": "Op. 9 No. 2",
+    "movement": "",
+    "version": {
+      "value": "Solo piano",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source identifies the forces; the performing edition is not established."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Patrizia Prati",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "24 November 2015",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source explicitly describes this live performance on 24 November 2015, independently of the upload date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Museum of Romanticism, Madrid, Spain",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical issue is identified for this source."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or original recording medium is identified in the source."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording or mastering engineer is identified; the uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "An upload date does not establish a recording or transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No equalisation, noise reduction or editing chain is documented beyond the Commons access conversion."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg/Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; source OGG",
+    "durationSeconds": 302.055270833333
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons identifies Chopin (1810–1849) and the historical nocturne.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Composition rights are separate from the explicit licence or dedication of this modern sound recording."
+    },
+    "recording": {
+      "value": "CC BY-SA 4.0 — recording supplied by Patrizia Prati",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons identifies the performer as the supplier through Wikimedia Spain and records permission ticket 2015120610013684. The licence concerns this live performance recording, not merely the historical score."
+    },
+    "creditLine": "Nocturne in E♭ major; Patrizia Prati, piano. 24 November 2015. Wikimedia Commons; CC BY-SA 4.0 — recording supplied by Patrizia Prati. No audio editing by Contrapunctus.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Fryderyk Chopin - Nocturne op. 9 n.2 Es-dur - Patrizia Prati.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg",
+      "locator": "Summary, source, licensing, file history and transcode table.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Nocturnes, Op. 9 — written form",
+      "url": "https://en.wikipedia.org/wiki/Nocturnes,_Op._9_(Chopin)",
+      "locator": "1831–32 composition, Op. 9 No. 2 in E♭; repeated ornamented melody, accompaniment and final free passage.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}
