@@ -1,0 +1,78 @@
+// Source files and recording credit: see content/dossiers/mussorgsky-pictures-goldenberg-schmuyle.json.
+// Orchestration treated as Ravel's 1922 scoring (inferred); instrument claims follow Peter Laki's Cleveland Orchestra note, the Philharmonia guide
+// and Michael Steinberg's Boston Symphony note. Form (A, B, A+B): Wikipedia; tempo marks: Lamm's piano text, Mutopia (two-jews.ly).
+export default {
+  id: 'mussorgsky-pictures-goldenberg-schmuyle',
+  composer: 'mussorgsky',
+  order: 2,
+  work: 'Pictures at an Exhibition',
+  movement: 'VI. “Samuel” Goldenberg und “Schmuÿle” — Andante',
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 10, of: 15 },
+  year: '1874',
+  key: 'B♭ minor',
+  forces: 'Orchestra',
+  performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
+  recorded: '',
+  source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - vi. samuel goldenberg and schmuyle - andante.ogg' },
+  intro: 'Two men, one rich and imposing, one poor and nervous, are drawn as two tunes that finally sound at once. Hear which one commands and which one pleads.',
+  question: 'How can two melodies at different speeds stand for two people?',
+
+  sections: [
+    { t: 0, label: 'Goldenberg · slow and heavy', m: 'A' },
+    { t: 40, label: 'Schmuÿle · quick repeated notes', m: 'B' },
+    { t: 66, label: 'Both themes together', m: 'A′', mNote: 'Goldenberg returns above Schmuÿle’s repeated notes' },
+    { t: 102, label: 'Slow close', m: 'Coda' },
+  ],
+
+  cues: [
+    { t: 0, kind: 'music', title: 'A slow, gruff unison', text: 'Goldenberg is drawn as a slow melody played in unison by lower woodwinds and strings, with few attacks (often under one a second) at a strong level. It leans on the augmented second, a wide step in the scale.', basis: 'documented', precision: 'passage', evidence: 'Gruff unison in lower woodwinds and strings: Philharmonia guide; slow unison stressing the augmented second: Peter Laki’s Cleveland Orchestra note. Onsets per second 1.2, 0.8, 0.6, 0.2, 0.6, 0.2 at 0:00–0:25; relative level −14.8 to −9.1 dB.' },
+    { t: 39, kind: 'music', title: 'The poor man’s repeated notes', text: 'Right at about 0:39 the colour flips: Schmuÿle’s theme enters as quick repeated notes on a muted trumpet over woodwind chords. Detected attacks leap to five a second and the brightness doubles.', basis: 'audio-feature', precision: 'moment', evidence: 'Spectral brightness rises from 1,282 Hz (0:35) to 2,515 Hz (0:40) and onsets from 1.0 to 4.8 per second; a 1-second pass puts the jump at 0:38–0:40. Strongest boundary at 0:40 (novelty 1.00). Muted trumpet and woodwind chords: Philharmonia guide; “repeated notes seem to choke up”: Laki’s note.' },
+    { t: 52, kind: 'world', title: 'Two drawings Mussorgsky owned', text: 'Hartmann drew “A rich Jew wearing a fur hat” and “A poor Jew: Sandomierz” on a month’s stay in Poland in 1868, and Mussorgsky owned both. His manuscript has no title; Stasov supplied one, and the names Goldenberg and Schmuÿle came later.', basis: 'documented', precision: 'passage', evidence: 'Michael Steinberg’s Boston Symphony note (https://www.bso.org/works/pictures-at-an-exhibition) for the two drawings, Sandomierz in 1868, Stasov’s title and the later names; Wikipedia’s article (movement 6) for Mussorgsky owning the pictures. Related edge: hartmann-pictures--mussorgsky-pictures-1874. The note sits in a steady passage (−18 to −19 dB, 0:45–1:05).' },
+    { t: 69, kind: 'music', title: 'Both men at once', text: 'At about 1:09 the level jumps by some six decibels as Goldenberg’s theme returns while Schmuÿle’s quick notes carry on. Ravel gives Goldenberg to the whole string section and Schmuÿle to one muted trumpet.', basis: 'audio-feature', precision: 'moment', evidence: 'Relative level −19.5 dB (1:05) to −11.7 dB (1:10); boundary at 1:06 (novelty 0.89); a 1-second pass puts the jump at about 1:09 (−15.7 to −9.1 dB) with attacks still near five a second. Form A–B–A+B: Wikipedia; strings and single muted trumpet: Laki’s note.' },
+    { t: 102, kind: 'form', title: 'The quarrel stops', text: 'At about 1:41 the level drops by roughly fifteen decibels and the quick notes cease. The remaining twenty-five seconds are slow and quiet, with fewer than two attacks a second for most of the time.', basis: 'audio-feature', precision: 'moment', evidence: 'Strongest late boundary at 1:42 (novelty 0.99); a 2-second pass gives −9.8 dB at 1:40 and −25.1 dB at 1:42, with onsets per second falling from 5.0 to 0.2 at 1:45. Onsets 0.2, 0.8, 0.4, 1.4, 1.0 at 1:45–2:05.' },
+    { t: 112, kind: 'world', title: 'A missing Promenade', text: 'Mussorgsky follows this picture with a fifth Promenade, a near repeat of the opening. Ravel leaves it out, so this recording goes straight on to Limoges. Many orchestral versions of the suite omit it.', basis: 'documented', precision: 'passage', evidence: 'Wikipedia’s Pictures at an Exhibition article (the fifth Promenade; arrangements: Ravel omitted the Promenade between Goldenberg and Limoges). The Cleveland Orchestra note’s movement list shows the same omission. Fits this Skidmore album: four Promenades and no fifth.' },
+    { t: 124, kind: 'listen', title: 'A sudden dismissal', text: 'At about 2:06 a loud chord breaks a hush, the level jumping from about −26 dB to −7 dB. Steinberg notes that Ravel has Goldenberg dismiss Schmuÿle more abruptly than Mussorgsky’s long final note does.', basis: 'audio-feature', precision: 'moment', evidence: 'A 2-second pass gives −26.1 dB at 2:04 and −7.0 dB at 2:06, with brightness rising from 914 Hz to 1,677 Hz; the report shows −23.6 dB at 2:00 and −15.0 dB at 2:05. Ravel’s more abrupt ending: Michael Steinberg’s Boston Symphony note.' },
+  ],
+
+  transitions: [
+    {
+      id: 'into-schmuyle',
+      title: 'A slow march gives way to nerves',
+      from: 'Goldenberg · slow and heavy',
+      to: 'Schmuÿle · quick repeated notes',
+      at: { t: 39 },
+      span: [30, 50],
+      how: '<p>Goldenberg’s slow, heavy theme dies away to a few quiet notes, and Schmuÿle’s theme starts abruptly: much faster repeated notes, high and thin, with woodwind chords beneath. The score’s tempo mark changes from Andante to Andantino. Mussorgsky contrasts the two men by speed, register, brightness and the number of notes per second, and the join is a cut, not a transition.</p>',
+      devices: ['tempo change', 'register change', 'orchestration change'],
+      basis: 'audio-feature',
+      precision: 'moment',
+      evidence: 'Strongest boundary at 0:40 (novelty 1.00); brightness 1,282 Hz (0:35) to 2,515 Hz (0:40); onsets per second 1.0 to 4.8; a 1-second pass puts the jump at 0:38–0:40. Tempo marks Andante, grave-energico and Andantino: Lamm’s score (Mutopia, two-jews.ly).',
+    },
+    {
+      id: 'into-both-themes',
+      title: 'The rich man’s theme returns above him',
+      from: 'Schmuÿle · quick repeated notes',
+      to: 'Both themes together',
+      at: { t: 66 },
+      span: [58, 78],
+      how: '<p>After a passage at a steady, quiet level, Goldenberg’s slow theme returns at full volume while Schmuÿle’s quick repeated notes carry on. The two themes are now superimposed: the ternary form A–B–A+B brings the contrasting ideas together, so the rich man’s weight overpowers the poor man’s nervous patter without silencing it. The join is a change of volume and texture, not of key.</p>',
+      devices: ['motivic link', 'orchestration change', 'crescendo build'],
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Boundary at 1:06 (novelty 0.89); relative level −19.5 dB (1:05) to −11.7 dB (1:10); onsets per second stay at 4.4–5.0 from 1:05 to 1:35; the superimposed form is from Wikipedia’s description and Laki’s note.',
+    },
+    {
+      id: 'into-slow-close',
+      title: 'The quick notes cut out',
+      from: 'Both themes together',
+      to: 'Slow close',
+      at: { t: 102 },
+      span: [94, 114],
+      how: '<p>The superimposed themes stop together at about 1:41, with a fall of some fifteen decibels. What follows is slow and quiet, with few attacks, and it ends with one loud chord. In Ravel’s version Goldenberg dismisses Schmuÿle sooner than in Mussorgsky’s piano original, which ends on a long note.</p>',
+      devices: ['general pause', 'decrescendo', 'tempo change'],
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Boundary at 1:42 (novelty 0.99); a 2-second pass gives −9.8 dB at 1:40, −25.1 dB at 1:42; onsets 5.0 per second (1:35) to 0.2 (1:45); final chord at about 2:06. Ravel’s abrupt ending: Steinberg’s Boston Symphony note.',
+    },
+  ],
+};

@@ -24,7 +24,7 @@ export default {
 
   cues: [
     { t: 0, kind: 'music', title: 'Winds, in bars of five, six, seven', text: 'In Ravel’s scoring the flutes begin, then oboes and bassoons take over the walking. The piano score’s bars run five, six and seven beats, so the stride is less even than in the first Promenade. The level stays gentle, about −14 to −18 dB.', basis: 'documented', precision: 'passage', evidence: 'Flutes, then oboes and bassoons: LA Phil note (Orrin Howard). Five-, six- and seven-beat bars: Lamm’s score (Mutopia, promenade-4.ly). Relative level −13.9, −17.6, −13.4 and −13.1 dB at 0:00, 0:05, 0:10 and 0:15.' },
-    { t: 18, kind: 'form', title: 'Strings swell to a short peak', text: 'At about 0:18 the sound grows: blustery strings join the delicate woodwinds, and the level peaks around −5 dB between 0:20 and 0:30, the loudest stretch of the movement. The harmony settles on A.', basis: 'audio-feature', precision: 'passage', evidence: 'Strongest boundary at 0:18 (novelty 1.00); relative level −13.1 dB (0:15), −6.2, −5.3 and −7.4 dB at 0:20, 0:25 and 0:30, the loudest windows; local key reads A minor from 0:15 (confirmation only). Blustery strings added to the woodwinds: Philharmonia guide.' },
+    { t: 18, kind: 'form', title: 'Strings swell to a short peak', text: 'At about 0:18 the sound grows: blustery strings join the delicate woodwinds, and the level peaks around −5 dB between 0:20 and 0:30, the loudest stretch of the movement. The crest is short; the tranquil walk resumes at once.', basis: 'audio-feature', precision: 'passage', evidence: 'Strongest boundary at 0:18 (novelty 1.00); relative level −13.1 dB (0:15), −6.2, −5.3 and −7.4 dB at 0:20, 0:25 and 0:30, the loudest windows. Blustery strings added to the woodwinds: Philharmonia guide.' },
     { t: 33, kind: 'listen', title: 'A light, quick close', text: 'The level falls by about fourteen decibels at 0:35 and the attacks pick up again, over three a second, at a much quieter level. The Promenade thins into small, quick figures that lead directly into the next picture.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level −7.4 dB (0:30), −21.3 (0:35), −23.2 (0:40); onsets per second 1.0 (0:30), 3.4 (0:35). That the Promenade leads into the next movement: Philharmonia guide (“before leading us into the next movement”).' },
   ],
 
@@ -36,11 +36,11 @@ export default {
       to: 'Strings join; brief climax',
       at: { t: 18 },
       span: [10, 30],
-      how: '<p>The woodwind walk reaches a point of rest, then blustery strings join and the sound grows to its short peak between 0:20 and 0:30. The pulse is still the unequal walk, but the colour turns from delicate winds to a fuller blend and the music moves towards A. The crest is brief: the movement is a quiet interlude, not a statement of weight.</p>',
+      how: '<p>The woodwind walk reaches a point of rest, then blustery strings join and the sound grows to its short peak between 0:20 and 0:30. The pulse is still the unequal walk, but the colour turns from delicate winds to a fuller blend. The crest is brief: the movement is a quiet interlude, not a statement of weight, and it falls away within ten seconds of its peak.</p>',
       devices: ['orchestration change', 'crescendo build'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'Strongest boundary at 0:18 (novelty 1.00); relative level −13.1 dB (0:15) to −6.2 dB (0:20) and −5.3 dB (0:25); local key estimate A minor from 0:15, used as confirmation only. Strings added to woodwinds: Philharmonia guide.',
+      evidence: 'Strongest boundary at 0:18 (novelty 1.00); relative level −13.1 dB (0:15) to −6.2 dB (0:20) and −5.3 dB (0:25), then −21.3 dB at 0:35. Strings added to woodwinds: Philharmonia guide.',
     },
   ],
 };

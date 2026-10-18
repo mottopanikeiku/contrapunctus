@@ -61,14 +61,14 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      0.05,
+      0.6
     ],
     "last": [
       91,
       95
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "Opening overlay0–9.62s shows the actual initial D3/A3/D4/F-sharp4 pickup attack near0.2s; the broad0–4s window incorrectly selected a later1.62s attack. Restrict the first source-pitch search to0.05–0.6s. Final source-pitch window91–95s is supported by the inspected88–96s ending overlay."
   },
   "boundaries": [],
   "engraving": {

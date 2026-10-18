@@ -1,0 +1,13 @@
+{
+  "id": "beethoven-131-lener",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[52].text; cues[52].evidence; transitions[5].how",
+      "severity": "major",
+      "problem": "The finale is described as having four-beat bars/common time. The cited engraving instead prints the slashed-C alla-breve symbol, 2/2, at the opening of VII. This changes the principal beat grouping being taught.",
+      "evidence": "https://www.lvbeethoven.it/wp-content/uploads/2016/11/Opus131.pdf — printed p.148 (PDF p.30), opening of No.7 Allegro. The time signature was independently enlarged and compared with the Presto’s slashed-C glyph. The listen/dossier validator printed ok.",
+      "fix": "In the t=2065 cue, replace four-beat bars with cut time/two main beats per bar and replace common time in its evidence with alla breve (2/2). In the VI–VII transition, describe the metre change from 3/4 to cut time (2/2), not common time."
+    }
+  ]
+}

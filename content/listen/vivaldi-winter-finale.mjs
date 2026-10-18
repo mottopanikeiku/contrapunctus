@@ -91,10 +91,10 @@ export default {
       "t": 98,
       "kind": "life",
       "title": "A violinist’s working world",
-      "text": "Vivaldi’s father Giovanni Battista was a violinist at St Mark’s in Venice and gave his son his early musical training. The concertos draw on a violinist’s practical knowledge of bowing, figuration and register, not only on the seasonal poems.",
+      "text": "Vivaldi’s father Giovanni Battista was a violinist at St Mark’s in Venice and probably gave his son his first musical instruction. The concertos draw on a violinist’s practical knowledge of bowing, figuration and register, not only on the seasonal poems.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Pietà biography documents the father’s work at St Mark’s and Vivaldi’s early instruction: https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi. The comment about instrumental knowledge concerns the score’s violin writing, not a claim that the father taught a particular passage."
+      "evidence": "The Pietà biography documents the father’s work at St Mark’s but qualifies him as likely the first to teach his son: https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi. That qualification is retained. The comment about instrumental knowledge concerns the score’s violin writing, not a claim that the father taught a particular passage."
     },
     {
       "t": 124,

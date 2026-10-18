@@ -124,7 +124,7 @@ export default {
       "evidence": "cache/analysis/tchaikovsky-6-allegro-vivace.txt: The level falls from about −16 dB at 3:50 to roughly −32 dB at 3:55–4:10."
     },
     {
-      "t": 246,
+      "t": 265,
       "kind": "world",
       "title": "Not the symphony’s ending",
       "text": "This movement stands third, before the slow B-minor finale. Its emphatic conclusion is part of a four-movement design, not the work’s final answer.",
@@ -194,15 +194,6 @@ export default {
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/tchaikovsky-6-allegro-vivace.txt: The report’s loudest window is 8:50; other high windows occur at 7:45, 7:55, 9:05 and 9:35."
-    },
-    {
-      "t": 532,
-      "kind": "form",
-      "title": "G major, not B minor",
-      "text": "The movement’s G-major conclusion differs from the symphony’s B-minor home key. The slow finale will restore that home key under very different conditions.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/2ae73cc9dc8a8122d33759d18fdb8250.pdf"
     },
     {
       "t": 573,
@@ -327,6 +318,7 @@ export default {
   ],
   "orchestra": {
     "ensemble": [
+      "piccolo",
       "flutes",
       "oboes",
       "clarinets",
@@ -371,6 +363,12 @@ export default {
         "note": "Opening region: fast violin figures are joined by wind replies; lower strings articulate the foundation."
       },
       {
+        "t": 82,
+        "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["violins-1", "trumpets"],
+        "note": "Early orchestral build: piccolo, brass and timpani join the running strings (score PDF pp. 12–13). The report’s 1:22 boundary anchors the broad stronger passage before the lighter march."
+      },
+      {
         "t": 118,
         "playing": [
           "flutes",
@@ -389,6 +387,18 @@ export default {
           "violins-1"
         ],
         "note": "First march region: a firmer melodic profile emerges against the still-mobile orchestral surface."
+      },
+      {
+        "t": 158,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["violins-1", "clarinets"],
+        "note": "First-march expansion: trumpet and bass-trombone phrases reinforce winds, horns and strings (score PDF p. 20). The report’s 2:38 change supplies an approximate passage anchor."
+      },
+      {
+        "t": 220,
+        "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "The first-march close adds piccolo to upper winds and trumpet punctuation (score PDF p. 22), then reduces into the scherzo return. The 3:40 report boundary anchors the region."
       },
       {
         "t": 235,
@@ -429,6 +439,7 @@ export default {
       {
         "t": 385,
         "playing": [
+          "piccolo",
           "flutes",
           "oboes",
           "clarinets",
@@ -455,6 +466,7 @@ export default {
       {
         "t": 540,
         "playing": [
+          "piccolo",
           "flutes",
           "oboes",
           "clarinets",

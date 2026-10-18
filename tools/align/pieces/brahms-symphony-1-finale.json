@@ -12,6 +12,7 @@
     "main": "Brahms_Op.68_4.ly",
     "musicxml": "Brahms_Op.68_4.mxl",
     "stripLyrics": true,
+    "otherDynamicsWords": true,
     "downloads": [
       {
         "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.1%2C_Op.68/4/Brahms_Op.68_4.mxl",
@@ -20,9 +21,7 @@
       }
     ],
     "musicxmlImplicitMeasures": [
-      61,
-      62,
-      458
+      62
     ]
   },
   "extraction": {

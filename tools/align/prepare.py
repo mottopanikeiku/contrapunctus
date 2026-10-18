@@ -114,13 +114,23 @@ def prepare(cfg, lilypond=LILYPOND):
         main.parent.mkdir(parents=True, exist_ok=True)
         subprocess.run([str(Path(lilypond).with_name('musicxml2ly')), '--midi', '--npl', '-o', str(main), str(selected)], check=True)
     legacy = source.get('legacyRelative')
-    if legacy:
+    if legacy or source.get('patches'):
         extraction = cfg['extraction']
-        if (legacy != 'verify-midi' or extraction['mode'] != 'compiled-midi'
+        if ((legacy and legacy != 'verify-midi') or extraction['mode'] != 'compiled-midi'
                 or extraction.get('comparePublished') is None or not source.get('midi')
                 or not extraction.get('music')
                 or extraction['music'] != cfg.get('engraving', {}).get('music')):
-            raise ValueError('legacyRelative requires compiled-midi, comparePublished, source.midi and identical extraction/engraving music')
+            raise ValueError('Source syntax repairs require compiled-midi, comparePublished, source.midi and identical extraction/engraving music')
+    for patch in source.get('patches', []):
+        file = inside(directory, patch['file'])
+        old, new = patch['old'], patch['new']
+        if file.suffix not in ('.ly', '.ily', '.lyi') or not old or old == new or not patch.get('basis'):
+            raise ValueError('Source patches need a LilyPond file, distinct nonempty old text and documented basis')
+        text = file.read_text()
+        if text.count(old) != 1:
+            raise ValueError(f'Exact source patch must match once in {patch["file"]}: found {text.count(old)}')
+        file.write_text(text.replace(old, new, 1))
+        print('PATCH', cfg['id'], patch['file'], patch['basis'], flush=True)
     main_text = main.read_text()
     version = re.search(r'\\version\s+"([^"]+)"', main_text)
     for file in sorted(directory.rglob('*')):

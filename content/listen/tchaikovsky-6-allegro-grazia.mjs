@@ -148,15 +148,6 @@ export default {
       "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
     },
     {
-      "t": 397,
-      "kind": "listen",
-      "title": "Wind and string replies",
-      "text": "Across the dance, woodwinds and strings exchange the melodic foreground. Instrumental colour helps articulate a phrase without requiring a different theme.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
-    },
-    {
       "t": 403,
       "kind": "music",
       "title": "A matching later crest",
@@ -200,8 +191,7 @@ export default {
       "how": "<p>The outer dance relaxes after its crest. The central B-minor span retains five beats but sets a more plaintive melody above repeated D notes, including the timpani; altered mode and articulation create the contrast.</p>",
       "devices": [
         "decrescendo",
-        "texture change",
-        "tonic pedal"
+        "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
@@ -263,6 +253,8 @@ export default {
       "basses",
       "flutes",
       "timpani",
+      "trumpets",
+      "trombones",
       "oboes"
     ],
     "basis": "score-proportion",
@@ -288,6 +280,12 @@ export default {
           "cellos"
         ],
         "note": "Opening dance: cellos sing above pizzicato support; clarinets, bassoons and horns colour the phrase."
+      },
+      {
+        "t": 110,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "The outer dance’s later build adds trumpet punctuation to winds, horns and strings (score PDF pp. 6–7); broadly placed before the measured 2:20–2:25 crest."
       },
       {
         "t": 154,
@@ -330,6 +328,12 @@ export default {
         "note": "Return region: the opening dance’s melodic and accompanimental roles recover the foreground."
       },
       {
+        "t": 385,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "The returning dance rebuilds its wind, horn and trumpet reinforcement before the report’s 6:40–6:45 crest; a broad score-proportion state."
+      },
+      {
         "t": 416,
         "playing": [
           "flutes",
@@ -349,6 +353,18 @@ export default {
           "oboes"
         ],
         "note": "Coda region: quieter wind phrases and strings recall the middle section’s colour before the D-major close."
+      },
+      {
+        "t": 450,
+        "playing": ["oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["violins-1", "cellos"],
+        "note": "Coda brass phrase: trumpets and alto/tenor trombones enter above the D foundation (score PDF p. 24); broadly placed in the 7:25–7:45 renewed closing activity."
+      },
+      {
+        "t": 470,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "oboes", "clarinets"],
+        "note": "After the brief brass phrase, the reduced ending withdraws (score PDF p. 25); the report drops markedly at 7:50. Timing is passage-level."
       }
     ]
   }

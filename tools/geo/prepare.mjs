@@ -55,9 +55,32 @@ export async function loadGeometry() {
   }));
 }
 const intersects = (a, b) => a[0] <= b[0] + b[2] && a[0] + a[2] >= b[0] && a[1] <= b[1] + b[3] && a[1] + a[3] >= b[1];
+// Clip chapter-map polygons before serialising: do not ship the rest of the
+// world invisibly outside each small SVG's viewBox.
+function clipRing(points, box) {
+  let ring = points;
+  for (const [axis, edge, direction] of [[0, box[0], 1], [0, box[0] + box[2], -1], [1, box[1], 1], [1, box[1] + box[3], -1]]) {
+    const output = [];
+    if (!ring.length) return output;
+    let previous = ring[ring.length - 1], wasInside = (previous[axis] - edge) * direction >= 0;
+    for (const point of ring) {
+      const inside = (point[axis] - edge) * direction >= 0;
+      if (inside !== wasInside) {
+        const t = (edge - previous[axis]) / (point[axis] - previous[axis]);
+        output.push([previous[0] + t * (point[0] - previous[0]), previous[1] + t * (point[1] - previous[1])]);
+      }
+      if (inside) output.push(point);
+      previous = point; wasInside = inside;
+    }
+    ring = output;
+  }
+  if (ring.length) ring.push(ring[0]);
+  return ring;
+}
 export function paths(geometry, tolerance = .8, box = null, transform = (p) => p) {
   return geometry.filter((g) => !box || intersects(g.box, box)).map((g) => {
-    const points = simplify(g.points.map(transform), tolerance);
+    const clipped = box && g.closed ? clipRing(g.points, box) : g.points;
+    const points = simplify(clipped.map(transform), tolerance);
     return g.closed && points.length < 4 ? '' : linePath(points, g.closed);
   }).join('');
 }
@@ -65,7 +88,7 @@ export function baseMap(geometry) {
   const graticule = [];
   for (let lon = -180; lon <= 180; lon += 10) graticule.push(linePath([project(lon, -82), project(lon, 82)]));
   for (let lat = -70; lat <= 80; lat += 10) graticule.push(linePath([project(-180, lat), project(180, lat)]));
-  return { projection: 'Mercator, 8 units/degree at equator; latitude clipped at ±82°', revision: REVISION, europe: EUROPE, world: WORLD, land: paths(geometry[0]), coastline: paths(geometry[1]), countries: paths(geometry[2], 1.1), graticule: graticule.join('') };
+  return { projection: 'Mercator, 8 units/degree at equator; latitude clipped at ±82°', revision: REVISION, europe: EUROPE, world: WORLD, land: paths(geometry[0], 2), coastline: paths(geometry[1], 2), countries: paths(geometry[2], 2.6), graticule: graticule.join('') };
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

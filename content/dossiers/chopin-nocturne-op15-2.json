@@ -118,25 +118,25 @@
       "title": "Selected recording source",
       "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._5_in_F-sharp_major,_Op._15_No._2_(Luke_Faulkner).flac",
       "locator": "Performer, description, upstream source and recording-licence statement.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "work",
       "title": "Fryderyk Chopin Institute: Nocturne in F♯ major, Op. 15 No. 2",
       "url": "https://chopin.nifc.pl/en/chopin/kompozycja/173",
       "locator": "Work identity, date, publication and formal commentary.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "musopen",
       "title": "Musopen: Set Chopin Free release update",
       "url": "https://www.kickstarter.com/projects/Musopen/set-chopin-free/posts/1193714",
       "locator": "Upstream project release linked by the Commons file description.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     }
   ],
   "editorial": {
-    "editor": "Contrapunctus research desk",
-    "revised": "2026-09-29"
-  }
+      "editor": "Contrapunctus research desk",
+      "revised": "2026-10-17"
+    }
 }

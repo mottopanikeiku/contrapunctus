@@ -10,11 +10,11 @@
       "fix": "Use these actual values: cues[7] 2:50–3:10 level range −32.2 to −25.7 dB; cues[10]/transitions[0] 4:00–4:25 range −31.9 to −25.6 dB; cues[16] −14.7 at 6:50 to −29.6 at 7:00 = about 15 dB in 10 seconds; cues[22]/transitions[2] call 9:42 a strong, not the strongest, boundary, and use the actual 9:45–10:15 level span −30.5 to −22.0 dB; cues[23] 10:15 to 10:35 rises 7.3 dB (the intervening 10:25 trough is separate); cues[27] 12:10 to 12:40 falls 16.6 dB, not more than twenty; cues[33] 14:50–16:45 spans −36.0 to −20.3 dB, while the sparse onset statement can remain; cues[37] 17:00–17:30 spans −12.6 to −7.8 dB; cues[41] G-major estimates occur at 19:30–19:35, followed by E minor at 19:40 and D major at 19:45–19:55. Keep the score, not estimated local labels, as evidence for the actual final G-major harmony."
     },
     {
-      "where": "cues[0].evidence; orchestra.timeline[17].playing",
+      "where": "cues[0].evidence; cues[24].evidence; orchestra.timeline[3].note; orchestra.timeline[17].playing",
       "severity": "major",
-      "problem": "The opening evidence incorrectly calls the violas pizzicato, contradicting both the score and the otherwise correct cue/stage prose. The final harmonics snapshot includes oboes that are absent from the cited closing page.",
-      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/4/40/IMSLP70999-PMLP58739-Mahler_-_Symphony_No._4_(orch._score).pdf — PDF p.78 has sustained bowed violas and plucked double basses; PDF p.101’s final harmonics system has flutes, clarinets, harp and strings, not oboes.",
-      "fix": "In cues[0].evidence describe the violas as sustained/bowed and only the opening basses as pizzicato; retain the correct existing cue and orchestra opening text. Remove 'oboes' from orchestra.timeline[17].playing."
+      "problem": "The opening evidence incorrectly calls the violas pizzicato. The first-lament snapshot wrongly puts the oboe over muted strings and harp harmonics, colours from the preceding fade. The second-lament evidence misidentifies bells-up woodwinds as brass. The final harmonics snapshot includes oboes absent from the cited page.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/4/40/IMSLP70999-PMLP58739-Mahler_-_Symphony_No._4_(orch._score).pdf — p.78 has sustained bowed violas and plucked basses; p.80 removes mutes before rehearsal 2, where bassoons/horns initially support the oboe and the harp rests; p.89 places Schalltrichter auf on oboes/clarinets, not brass; p.101’s final harmonics system has flutes, clarinets, harp and strings, not oboes.",
+      "fix": "Correct cues[0].evidence to sustained/bowed violas and plucked basses; change cues[24].evidence to bells-up woodwinds. In orchestra.timeline[3].note distinguish the preceding muted-string/harp-harmonic fade from the new oboe lament: mutes are removed before the entry; bassoons/horns initially support it, with strings and ordinary harp figures joining through the wider passage. Remove 'oboes' from orchestra.timeline[17].playing."
     },
     {
       "where": "intro",
@@ -50,6 +50,13 @@
       "problem": "The assertion that these are as far from G major as the movement goes is an unsupported tonal-distance ranking. The source describes instability and many keys; the report supplies estimates, not a defined distance metric or exhaustive harmonic comparison.",
       "evidence": "EXT: https://mahlerfoundation.org/mahler/compositions/symphony-no-4/symphony-no-4-movement-3-ruhevoll-poco-adagio/ . MEAS: the cited report windows only identify estimated local key profiles.",
       "fix": "Delete the superlative ranking; retain the qualified C♯-minor/A♭-minor estimates and the source’s description of chromatic tonal instability."
+    },
+    {
+      "where": "cues[28].text/evidence; transitions[3].how; orchestra.timeline[10].lead/note",
+      "severity": "major",
+      "problem": "The final Andante variation is said to begin with a clarinet melody over plucked cellos. The score instead begins with bowed cellos carrying the theme while clarinets rest; violas and double basses are plucked. Clarinets join later.",
+      "evidence": "EXT: cited full score PDF p.93 (printed p.319), rehearsal 9. The clarinet staff has eight opening bars of rest, the cello melody starts immediately, and the lower cello group is not marked pizzicato until later in the system.",
+      "fix": "Describe the final variation’s opening as a bowed cello melody over pizzicato violas and basses, with clarinets joining later. Change the stage’s initial lead to cellos and distinguish the successive instrumental phases rather than putting clarinet at the beginning. Keep passage precision and the existing report anchor."
     }
   ]
 }

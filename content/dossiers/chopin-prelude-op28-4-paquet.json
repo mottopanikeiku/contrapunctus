@@ -117,18 +117,18 @@
       "title": "Selected recording source",
       "url": "https://commons.wikimedia.org/wiki/File:Prelude_op28_n4.wav",
       "locator": "Performer, description, upstream source and recording-licence statement.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "work",
       "title": "Fryderyk Chopin Institute: Prelude in E minor, Op. 28 No. 4",
       "url": "https://chopin.nifc.pl/en/chopin/kompozycja/197",
       "locator": "Work identity, date, publication and formal commentary.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     }
   ],
   "editorial": {
-    "editor": "Contrapunctus research desk",
-    "revised": "2026-09-29"
-  }
+      "editor": "Contrapunctus research desk",
+      "revised": "2026-10-17"
+    }
 }

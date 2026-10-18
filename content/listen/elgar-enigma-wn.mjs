@@ -82,23 +82,15 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 47–51, rehearsal figures 30–32; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 47–51, rehearsal figures 30–32. Whole-variation passage map, using the report’s 0:14, 0:32, 0:52 and 1:14 changes and the final held-note span. The piccolo switch is read from the score."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "clarinets",
-          "bassoons",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "clarinets"
-        ],
-        "note": "The clarinet’s line is set against quiet lower wind and string motion; upper strings join later."
-      }
+      { "t": 0, "playing": ["clarinets", "cellos", "basses"], "lead": ["clarinets"], "note": "Clarinet opens above moving low strings; the first upper-string entries come later in the phrase (p. 47)." },
+      { "t": 10, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "Woodwind exchanges spread above the full string texture, with restrained horn support (pp. 47–48)." },
+      { "t": 32, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "violins-1"], "note": "A lower-wind response and lighter strings momentarily change the balance of the conversation (pp. 48–49)." },
+      { "t": 52, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "Piccolo briefly colours the upper wind line as the later phrase regains motion (pp. 49–50)." },
+      { "t": 74, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "The wind and string phrase broadens and diminishes; the piccolo player has returned to flute (p. 51)." },
+      { "t": 82, "playing": ["violins-1"], "lead": ["violins-1"], "note": "A held first-violin note remains after the other parts release, linking the written ending to Nimrod (last bar, p. 51)." }
     ]
   }
 };

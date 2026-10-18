@@ -131,7 +131,7 @@ export default {
       "t": 280,
       "kind": "world",
       "title": "One mono side of La Mer",
-      "text": "Mercury placed all three La Mer movements on the second side of MG50101. The three separate digital tracks here come from that LP transfer; their file boundaries do not imply three different sessions or three independent works.",
+      "text": "Mercury placed all three La Mer movements on the second side of MG 50101. The three separate digital tracks here come from that LP transfer; their file boundaries do not imply three different sessions or three independent works.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Scanned Mercury MG50101 label and IA file list: https://archive.org/details/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony. Side2 lists all three movements in order."

@@ -30,7 +30,7 @@
     { "id": "ripieno-violin", "name": "Ripieno violin", "music": "\\violin", "staff": "violin" },
     { "id": "viola", "name": "Viola", "music": "\\viola", "staff": "viola" },
     { "id": "cello", "name": "Cello", "music": "\\cello", "staff": "cello" },
-    { "id": "violone", "name": "Violone", "music": "\\violone", "staff": "violone" },
+    { "id": "violone", "name": "Violone", "music": "\\violone", "staff": "violone", "transpose": -12 },
     { "id": "harpsichord-treble", "name": "Harpsichord · treble-source part", "music": "\\harpsichordTreble", "staff": "harpsichordUp" },
     { "id": "harpsichord-bass", "name": "Harpsichord · bass-source part", "music": "\\harpsichordBass", "staff": "harpsichordDown" }
   ],
@@ -43,12 +43,12 @@
   },
   "endpoints": {
     "first": [0, 3],
-    "last": [290, 296],
-    "basis": "Initial source-pitch search windows from the cached 297.025-second recording and analysis: first solo-violin A4 after 0.75 quarter units of written rests; final D-major sonority. Inspect fresh pitch-energy evidence before publication."
+    "last": [293.45, 293.95],
+    "basis": "Pitch-energy inspection identifies the first solo-violin A4 rise at 1.38 s (peak 1.40 s), after the source’s 0.75-quarter opening rests. The closing D-major sonority begins around 293.6 s in the fresh 292–296.5 s overlay, including the new D2 bass energy. Reject the initial broad window’s 295.52 s decay fluctuation, which delayed the last attack and failed the 0.5 s anchor gate."
   },
   "diagnostics": {
     "held": { "voice": 5, "onsets": [57, 394, 432] },
-    "overlays": [[25, 40], [180, 210], [215, 235], [288, 297]]
+    "overlays": [[25, 40], [180, 210], [186, 192], [204, 211], [215, 235], [288, 297], [292, 296.5]]
   },
   "boundaries": [],
   "engraving": { "staff": 16, "width": 260, "height": 340 },
@@ -56,7 +56,7 @@
     "Only Mutopia 548’s complete movement-III score.ly and score.mid correspond to this recording. Individual practice-part MIDIs and movements I or II are not substituted.",
     "The source names flute, principal violin, ripieno violin, viola, cello, violone and the two harpsichord source variables. Isolated compilation preserves harpsichord cross-staff ownership; labels follow source definitions rather than anonymous MIDI track names or General MIDI patches. Aggregate source pitch/onset identity is asserted against score.mid before any explicit sounding-pitch correction.",
     "Joram Berger’s source-header note identifies the 2015 A–B–A refactoring and correction of discrepant returning notes. Source unfold repeats already generate 620 quarter units, so the 310-bar canonical timeline is used once.",
-    "The Violone source uses an ordinary bass clef and no transposition, with the same initial written F♯2 as cello. The contrabass MIDI patch does not establish the Advent recording’s 8-foot or 16-foot realisation. Its sounding octave remains to be substantiated from independent low-frequency pitch evidence before publication; no patch-derived octave correction is assumed.",
+    "The Violone source has no written MIDI transposition. MEAS: an independent ffmpeg/Welch spectrum at 187–191 s has a strongest low peak at 68.637 Hz (C♯2), 9.12 dB above the 139.293 Hz C♯3 peak. During source quarters 394–404.5, Violone alone sustains C♯3 continuously; cello C♯3 attacks last only 0.5 quarters every two quarters, and the harpsichord moves through pitches 49–62. No source part is below MIDI 49. The overlay shows sustained MIDI-37 energy under this pedal. INFERENCE: a 16-foot realisation best represents the written Violone line, so only that part is lowered 12 semitones in sounding events; the written engraving remains unchanged. This is not inferred from its contrabass patch. The physical bass instrument and harpsichord registration remain undocumented; a 16-foot keyboard stop could also contribute. The lowest F♯1/G1/A1 fundamentals are weak.",
     "Figured-bass symbols are retained in the engraving but are not converted into invented continuo notes. Written trill indications, chord holds and source durations are not a transcription of performed ornament attacks or releases."
   ]
 }

@@ -2,6 +2,7 @@ export default {
   id: 'haydn-94-andante',
   composer: 'haydn',
   order: 1,
+  set: { id: 'haydn-94', title: 'Symphony No. 94 “Surprise”', part: 2, of: 4 },
   work: 'Symphony No. 94 “Surprise”',
   movement: 'II. Andante',
   year: '1791',

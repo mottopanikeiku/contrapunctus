@@ -2,6 +2,7 @@ export default {
   id: 'origins-monteverdi-quel-augellin',
   composer: 'origins-monteverdi',
   order: 1,
+  short: true,
   work: 'Quel augellin che canta',
   movement: 'Madrigals, Book IV · No. 13, SV 87',
   year: '1603 publication',

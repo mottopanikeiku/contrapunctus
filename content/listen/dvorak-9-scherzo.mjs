@@ -19,7 +19,7 @@ export default {
   "forces": "Orchestra",
   "performers": "Musopen recording; performers uncredited",
   "recorded": "",
-  "intro": "The scherzo has an internal contrast as well as a separate central trio. Keep those layers distinct, then listen for the first movement’s main idea reappearing in the closing passage.",
+  "intro": "The scherzo has an internal contrast as well as a separate central trio. Keep those layers distinct, then listen for the first movement’s closing theme reappearing in the coda.",
   "question": "Which quieter episode belongs inside the scherzo, and which is its trio?",
   "sections": [
     {

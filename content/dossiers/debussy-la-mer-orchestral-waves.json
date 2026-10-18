@@ -1,0 +1,205 @@
+{
+  "id": "debussy-la-mer-orchestral-waves",
+  "work": {
+    "title": "La Mer",
+    "catalogue": "CD 111; L.109",
+    "movement": "II. Jeux de vagues",
+    "version": {
+      "value": "Original orchestral scoring",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "score"
+      ],
+      "note": "The LP identifies the orchestral work. The precise edition, editorial alterations and part materials used by Paray are not established; no La Mer brass variant is used as a timing anchor."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Detroit Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Paul Paray",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "label-scan"
+    ],
+    "note": "Named on the original Mercury label and in the transfer metadata. Individual orchestra players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": "1955-12-03/1955-12-04",
+      "status": "documented",
+      "sourceIds": [
+        "label-session"
+      ],
+      "note": "The label’s later reissue documentation dates the La Mer/Ibéria sessions to3–4December1955. No particular take is assigned to one of those days.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Old Orchestra Hall, Detroit, Michigan, United States",
+      "status": "documented",
+      "sourceIds": [
+        "label-session"
+      ],
+      "note": "The label names the recording venue; the LP issue date and modern digitisation date are distinct."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Mercury Living Presence",
+      "status": "documented",
+      "sourceIds": [
+        "label-scan",
+        "archive"
+      ],
+      "note": "Original mono LP imprint, not the label of a later CD reissue."
+    },
+    "catalogue": {
+      "value": "MG 50101",
+      "status": "documented",
+      "sourceIds": [
+        "label-scan",
+        "archive"
+      ],
+      "note": "The transferred US mono LP is catalogued by Internet Archive as a1956 release."
+    },
+    "matrixTakeSides": {
+      "value": "Side 2, band 2",
+      "status": "documented",
+      "sourceIds": [
+        "label-scan",
+        "archive-files"
+      ],
+      "note": "Side and band follow the label and segmented filenames. No runout matrix, stamper, session take or original tape number has been established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP transfer; ripping_operator: associate-johnmark-layos@archive.org",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The operator account is transcribed as an account identifier, not expanded into an unverified personal or mastering credit."
+    },
+    "date": {
+      "value": "2020-11-21",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Derived directly from the item’s ripping_date20201121083807. The2020-10-21 scan date is a separate event."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 with Audio-Technica AT95e cartridge → RDL EZ-PH1 → Focusrite Scarlett 2i2; segmented VBR MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "archive-files"
+      ],
+      "note": "The item documents the playback and digitisation chain. Equalisation settings, pitch correction, noise reduction and further restoration are not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/02.02.%20Play%20Of%20The%20Waves.mp3",
+    "sourceChain": [
+      "label-scan",
+      "archive",
+      "archive-files"
+    ],
+    "format": "VBR MP3 derivative of a mono vinyl LP transfer",
+    "durationSeconds": 358.6
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Debussy composition is out of copyright under ordinary life-plus-70 terms; the original published score is historical.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "score"
+      ],
+      "note": "Debussy died in1918. This is a term assessment of the composition, not a blanket clearance for unidentified modern editions or every jurisdiction."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: lawful commercial publication in1956, before1963.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label-scan",
+        "eu-term"
+      ],
+      "note": "The1956 Mercury mono LP publication predates1963; under the programme’s rule its former50-year phonogram term expired before the2013 extension. First lawful publication anywhere is the relevant event; a US LP release can supply that date. US recording status is not established. This is not a Creative Commons licence or worldwide clearance."
+    },
+    "creditLine": "Claude Debussy, La Mer — II. Jeux de vagues; Detroit Symphony Orchestra, Paul Paray. Mercury MG50101 (mono,1956); Internet Archive LP transfer. Territorial EU public-domain basis; US recording status not established.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Mercury MG 50101 transfer metadata",
+      "url": "https://archive.org/metadata/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/metadata",
+      "locator": "Publisher Mercury; publisher-catalog-number MG50101; issue date1956; United States; Paray/Detroit Symphony; ripping_date20201121083807 and ripping_operator; transfer equipment lineage.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label-scan",
+      "title": "Mercury MG 50101 — scanned original LP labels",
+      "url": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony_djvu.txt",
+      "locator": "Side1: Ibéria and Prélude à l’après-midi d’un faune; side2: all three La Mer movements. Names Paul Paray and Detroit Symphony Orchestra. Side markings are not treated as pressing matrices.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — selected digital derivative",
+      "url": "https://archive.org/metadata/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/files",
+      "locator": "Selected track: disc1/02.02. Play Of The Waves.mp3; listed as VBR MP3 derivative from the LP transfer.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label-session",
+      "title": "Eloquence / Decca — Paul Paray: The Mercury Masters, vol.1",
+      "url": "https://www.eloquenceclassics.com/releases-archive/paul-paray-the-mercury-masters-vol-1-1953-1957/",
+      "locator": "CD15 recording information: La Mer and Ibéria, Old Orchestra Hall, Detroit,3–4December1955. Original stereo issueSR90010 dated1958; that is not the monoMG50101 issue date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Debussy, La Mer · Durand full score, plates D. & F. 6532 / 6838",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/b6/IMSLP15420-Debussy_-_La_Mer_%28orch._score%29.pdf",
+      "locator": "Durand full score; movement 2. Selected opening, intermediate and closing pages inspected visually. Exact Paray performing edition not established.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP — Claude Debussy biographical dates",
+      "url": "https://imslp.org/wiki/Category:Debussy,_Claude",
+      "locator": "22August1862–25March1918.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — sound-recording term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Recitals1–3; Article1(2) and1(3): former50-year term, first lawful publication, and extension only where still protected on1November2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "programme-note",
+      "title": "Susan Key — LA Phil La Mer programme note",
+      "url": "https://www.laphil.com/works/la-mer",
+      "locator": "Work context and broad musical design; not a source for this performance’s exact timings.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

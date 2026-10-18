@@ -4,7 +4,7 @@ export default {
   "order": 10,
   "work": "Prelude in D♭ major, Op. 28 No. 15",
   "movement": "Sostenuto — Raindrop",
-  "year": "1836–39",
+  "year": "completed 1839",
   "key": "D♭ major",
   "forces": "Piano",
   "performers": "Ivan Ilić",
@@ -12,7 +12,7 @@ export default {
   "source": {
     "file": "File:Ivan Ilić-Chopin - Prelude no. 15 in D flat major.ogg"
   },
-  "intro": "The repeated note in the “Raindrop” Prelude survives a change from D♭ major to the differently spelled but closely related world of C♯ minor. In Ivan Ilić’s recording, follow that persistent sound as its register, surroundings and expressive weight change, then listen for the opening melody’s return.",
+  "intro": "The repeated note in the “Raindrop” Prelude survives a change from D♭ major to a darker minor-key setting written C♯ minor. In Ivan Ilić’s recording, follow that persistent sound as its register, surroundings and expressive weight change, then listen for the opening melody’s return.",
   "question": "What changes around the repeated note, and what remains recognisable?",
   "sections": [
     {

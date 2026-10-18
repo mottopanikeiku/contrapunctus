@@ -1,20 +1,5 @@
 {
   "id": "chopin-prelude-op28-15",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "intro",
-      "severity": "minor",
-      "problem": "Calling C♯ minor 'closely related' to D♭ major risks the technical meaning of closely related keys. This is an enharmonically respelled parallel-minor relationship, not the usual relative/dominant neighbouring-key relationship.",
-      "evidence": "Opened https://chopin.nifc.pl/en/chopin/kompozycja/208 and https://en.wikipedia.org/wiki/Prelude,_Op._28,_No._15_(Chopin) : outer D♭ major and middle C♯ minor, with A♭ respelled G♯.",
-      "fix": "Replace 'differently spelled but closely related world of C♯ minor' with a plain accurate phrase such as 'a darker minor-key setting written C♯ minor' or 'the enharmonically respelled parallel minor, C♯ minor'."
-    },
-    {
-      "where": "year",
-      "severity": "minor",
-      "problem": "The definite range 1836–39 is narrower than the cited primary work record supports.",
-      "evidence": "Opened https://chopin.nifc.pl/en/chopin/kompozycja/208 : creation date 1831(?)–1839; the Institute's prelude overview describes completion in 1839.",
-      "fix": "Use 'completed 1839', '1831(?)–1839', or an independently sourced dating specific to this piece."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

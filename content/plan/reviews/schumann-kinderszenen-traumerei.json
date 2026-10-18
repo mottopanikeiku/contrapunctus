@@ -1,0 +1,20 @@
+{
+  "id": "schumann-kinderszenen-traumerei",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[7].text; cues[7].evidence",
+      "severity": "major",
+      "problem": "The evidence conflates two different metrics:0.4 at2:50 is detected onsets per second;0.49 at2:52 is structural novelty, not another onset rate. Detected onsets are also not a count of individual notes (a chord can have one onset).",
+      "evidence": "cache/analysis/schumann-kinderszenen-traumerei.txt line19 lists novelty0.49 at2:52; line61 lists0.4onsets/s at2:50. The fermata/quiet-lull interpretation itself is consistent with the score and report.",
+      "fix": "Label each metric correctly in evidence. In public text describe the pause or sparse attacks, not '0.4 notes a second'. Retain the bar22 fermata and closing ritardando."
+    },
+    {
+      "where": "cues[1].text",
+      "severity": "minor",
+      "problem": "The17February diary wording should not imply completion of the final cycle, since the same cue correctly dates further composition to24/25February.",
+      "evidence": "https://www.schumann-zwickau.de/media/archiv-sonderausstellungen/2013_175_Jahre_Kinderszenen.pdf item1 contains all three entries.",
+      "fix": "Say Schumann had already noted work on the Kinderszenen on17February. Keep the documented24February Träumerei entry and following-day F-major piece."
+    }
+  ]
+}

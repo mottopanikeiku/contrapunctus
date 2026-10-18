@@ -93,6 +93,22 @@ function packFrame(composers, y, scale) {
   }
   return result;
 }
+function packRoute(c) {
+  const box = bounds(c.places.map((p) => [p.x, p.z]), 28);
+  for (const [key, width, height] of [['marker', 800, 480], ['mobileMarker', 390, 400]]) {
+    const scale = Math.min((width - 85) / Math.max(box[2], 100), (height - 90) / Math.max(box[3], 100)), occupied = [];
+    for (const p of c.places) {
+      let dx = 0, dy = 0;
+      for (let step = 0; step < 700; step++) {
+        const angle = step * 2.399963, radius = 8 * Math.sqrt(step);
+        dx = Math.round(Math.cos(angle) * radius); dy = Math.round(Math.sin(angle) * radius);
+        const x = p.x * scale + dx, y = p.z * scale + dy;
+        if (!occupied.some((q) => Math.hypot(q.x - x, q.y - y) < 24)) { occupied.push({ x, y }); break; }
+      }
+      p[key] = [dx, dy];
+    }
+  }
+}
 function miniMap(c, geometry) {
   const box = bounds(c.places.map((p) => [p.x, p.z]), 28), width = 660, height = 290;
   const scale = Math.min((width - 50) / Math.max(box[2], 90), (height - 35) / Math.max(box[3], 70));
@@ -132,11 +148,12 @@ export async function buildAtlasMap({ out, layout, composers, eras, art, listens
     data.push({ id: c.slug, name: c.name, label: c.family ?? c.name, born: c.born.year, died: c.died?.year ?? null, era: c.era, colour: eraById.get(c.era)?.accent ?? '#c9a65a', portrait: portrait && existsSync(path.join(OUT, portrait)) ? portrait : null, places, recordings, influences: [] });
   }
   const cities = clusterCities(data), byId = new Map(data.map((c) => [c.id, c]));
+  for (const c of data) packRoute(c);
   const { edges, figures } = await readInfluence(ROOT), names = new Map([...composers.map((c) => [c.slug, c.name]), ...figures.map((f) => [f.id, f.name])]);
   for (const edge of edges) {
     const recipient = byId.get(edge.to); if (!recipient) continue;
     const claim = fold(`${edge.title} ${edge.claim}`);
-    const eventIndex = recipient.places.findIndex((p) => p.y <= edge.year && p.end >= edge.year && (claim.includes(fold(cities[p.city].name)) || (p.kind === 'heard' && p.work && fold(p.work).includes(fold(edge.works?.from ?? '\u0000')))));
+    const eventIndex = recipient.places.findIndex((p) => p.y <= edge.year && p.end >= edge.year && (` ${claim} `.includes(` ${fold(cities[p.city].name)} `) || (p.kind === 'heard' && p.work && edge.works?.from && fold(p.work).includes(fold(edge.works.from)))));
     if (eventIndex < 0) continue;
     const p = recipient.places[eventIndex], origin = byId.get(edge.from), state = origin && currentPlace(origin, Math.min(edge.year, origin.died ?? edge.year));
     const a = state ? { x: origin.places[state.p].x, y: origin.places[state.p].z } : { x: p.x, y: p.z };

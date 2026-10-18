@@ -180,64 +180,17 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 1–7; theme and rehearsal figures 2–4; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 1–7; theme and rehearsal figures 2–4. Whole-track passage map: score textures placed against the report’s 0:32, 0:52, 1:30, 2:14 and 2:52 changes. Desks identify activity within each span, not every individual attack."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "violins-1"
-        ],
-        "note": "Opening theme: strings alone, with the violin melody entering after the beat."
-      },
-      {
-        "t": 92,
-        "playing": [
-          "flutes",
-          "oboes",
-          "clarinets",
-          "bassoons",
-          "horns",
-          "trumpets",
-          "timpani",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "oboes",
-          "bassoons"
-        ],
-        "note": "Alice’s opening span: woodwinds sustain the theme while string figures keep moving."
-      },
-      {
-        "t": 172,
-        "playing": [
-          "flutes",
-          "oboes",
-          "clarinets",
-          "bassoons",
-          "horns",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "violins-1"
-        ],
-        "note": "The closing phrase reduces its weight; the timing indicates a passage, not a simultaneous entry."
-      }
+      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "The first theme phrase is for strings alone (p. 1)." },
+      { "t": 32, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The contrasting phrase adds woodwind, horns and a quiet trumpet to the strings (p. 2)." },
+      { "t": 52, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The theme's closing span reduces the wind complement to clarinets, bassoons and horns (p. 3)." },
+      { "t": 92, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["oboes", "bassoons"], "note": "Alice's portrait combines sustained wind melody with flowing string figures; these desks enter successively (p. 4)." },
+      { "t": 120, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Low brass adds support as the portrait broadens (pp. 5–6)." },
+      { "t": 140, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The larger swell brings wind, brass and timpani weight around the string line (p. 6; strongest report windows 2:20–2:30)." },
+      { "t": 172, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "The final page starts with residual orchestral support, then rapidly thins as the phrase diminishes (p. 7)." },
+      { "t": 186, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "Quiet string figures and sparse wind support carry the last G-major gestures; the heavy brass and percussion have withdrawn (p. 7)." }
     ]
   }
 };

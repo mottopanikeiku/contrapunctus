@@ -1,0 +1,160 @@
+{
+  "id": "origins-purcell-fairy-queen-chaconne",
+  "work": {
+    "title": "The Fairy Queen, Z. 629",
+    "catalogue": "Z. 629",
+    "movement": "Act V. Chaconne",
+    "version": {
+      "value": "Original four-part instrumental dance; sounding pitch approximately A=415",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "The file identifies the Act V Chaconne. Approximate pitch is inferred by comparing its written C-major ending with the recording’s prominent sustained peaks near 494–495 Hz, about a semitone below modern C5. The session source does not state a tuning reference; no exact temperament or edition is claimed."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Orquestra de música antiga de l’Esmuc",
+        "role": "early-music orchestra"
+      },
+      {
+        "name": "Alba Roca",
+        "role": "concertmaster and director"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The source credits Cor i Orquestra for the larger production. This track is the instrumental Chaconne; the production’s choir credit does not establish singing in this dance."
+  },
+  "session": {
+    "date": {
+      "value": "2018-04-07",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source gives performance_date as 07/04/2018.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Sala de teclats, Museu de la Música de Barcelona, Barcelona, Spain",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The school is the credited source, not an established original record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original commercial catalogue number is given. Track 27/28 is a programme/file sequence, not a catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original physical carrier, matrix or take is documented."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Marc Urrutia, sonology student, sound recording",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source credits Marc Urrutia for sonology. No separate later transfer engineer is identified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The performance date is documented, but no distinct transfer date is given."
+    },
+    "processing": {
+      "value": "ORTF microphone technique",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is the documented capture method. No later mastering, equalisation or editing chain is supplied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac/Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia MP3 transcode of the Commons FLAC file",
+    "durationSeconds": 162.2
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work",
+        "abbey"
+      ],
+      "note": "The Fairy Queen dates from 1692; Purcell died in 1695. Bart Dunn’s 2016 score typesetting is separately licensed CC BY 4.0."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution-ShareAlike 4.0",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording-specific ESMUC source and permission declaration license this performance CC BY-SA 4.0."
+    },
+    "creditLine": "Henry Purcell; Orquestra de música antiga de l’Esmuc; Alba Roca, concertmaster and director; Marc Urrutia, sound recording. Escola Superior de Música de Catalunya, CC BY-SA 4.0, via Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — ESMUC, The Fairy Queen, Act V Chaconne",
+      "url": "https://commons.wikimedia.org/wiki/File:Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac",
+      "locator": "Performance date, ensemble, director, room, sound-recording credit, microphone technique and licence.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Bart Dunn — Suite from The Fairy Queen, 2016, after Shedlock",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/6/69/IMSLP435506-PMLP237007-Suite_from_The_Fairy_Queen_Complete.pdf",
+      "locator": "Chaconne, printed pages 48–53; modern typesetting CC BY 4.0. Original instrumental scoring, not an arrangement for another ensemble.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "IMSLP — The Fairy Queen, Z.629",
+      "url": "https://imslp.org/wiki/The_Fairy_Queen,_Z.629_(Purcell,_Henry)",
+      "locator": "Work catalogue, 1692 premiere and Act V instrumental Chaconne.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "abbey",
+      "title": "Westminster Abbey — Henry Purcell and family",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/henry-purcell-family",
+      "locator": "Organist appointment, royal occasions and death on 21 November 1695.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

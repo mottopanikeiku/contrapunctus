@@ -1,0 +1,155 @@
+{
+  "id": "origins-corelli-concerto-6-4-first",
+  "work": {
+    "title": "Concerto grosso in D major, Op. 6 No. 4",
+    "catalogue": "Op. 6 No. 4",
+    "movement": "I. Adagio — Allegro",
+    "version": {
+      "value": "Opening Adagio–Allegro movement of the four-movement concerto grosso",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "work"
+      ],
+      "note": "The recording page identifies the movement. The original concertino/ripieno scoring is used as the editorial reference; the performers’ edition and exact continuo realization are not documented."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Advent Chamber Orchestra",
+        "role": "ensemble"
+      },
+      {
+        "name": "Roxanna Pavel Goldstein",
+        "role": "musical director"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "The source separately calls Elias Goldstein managing director. A management credit is not a conducting or solo-performance credit; concertino players are not named."
+  },
+  "session": {
+    "date": {
+      "value": "2005–2006 season",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source states selections from the 05–06 season, not an exact session date. The Commons upload on 11 February 2008 is separate.",
+      "precision": "range"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No specific performance venue or recording location is supplied."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The Al Goldstein collection/Pandora repository is the source collection, not an established original record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original catalogue number is documented."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original physical carrier, matrix or take is supplied."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The repository collector and Commons uploader are not identified as recording or transfer engineers."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is documented; the upload date is not substituted."
+    },
+    "processing": {
+      "value": "Ogg Vorbis file identifies Xiph.Org libVorbis I 20040629 encoder",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is an encoder identifier, not a recording date or a documented mastering chain. Other processing is unknown."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg/Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia MP3 transcode of the Commons Ogg Vorbis file",
+    "durationSeconds": 205.1
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Corelli died in 1713; Op. 6 was published in 1714. The composition’s status is separate from rights in this modern performance."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution-ShareAlike 2.0",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons page explicitly supplies the EFF Open Audio License and its CC BY-SA 2.0 replacement terms for this recording. CC BY-SA 2.0 is selected here."
+    },
+    "creditLine": "Arcangelo Corelli; Advent Chamber Orchestra; Roxanna Pavel Goldstein, musical director. Al Goldstein collection / Pandora Music, via Wikimedia Commons. Recording licensed CC BY-SA 2.0.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Advent Chamber Orchestra, Corelli Op. 6 No. 4, first movement",
+      "url": "https://commons.wikimedia.org/wiki/File:Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg",
+      "locator": "Description, 2005–2006 season, ensemble leadership, source collection, licence, file metadata and upload history.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "IMSLP — 12 Concerti Grossi, Op. 6",
+      "url": "https://imslp.org/wiki/12_Concerti_Grossi,_Op.6_(Corelli,_Arcangelo)",
+      "locator": "1714 Amsterdam publication, original title and concertino/ripieno scoring.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "individual",
+      "title": "IMSLP — Concerto grosso in D major, Op. 6 No. 4",
+      "url": "https://imslp.org/wiki/Concerto_grosso_in_D_major,_Op.6_No.4_(Corelli,_Arcangelo)",
+      "locator": "Four-movement work and Adagio–Allegro first movement.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Corelli — Op. 6 full score, Concerto IV",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf",
+      "locator": "PDF pages 65–70, printed pages 56–61: four-bar Adagio and repeated Allegro strains. The printed keyboard realization is not assumed to be used in this recording.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

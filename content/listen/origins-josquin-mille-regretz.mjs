@@ -2,6 +2,7 @@ export default {
   id: 'origins-josquin-mille-regretz',
   composer: 'origins-josquin',
   order: 1,
+  short: true,
   work: 'Mille regretz',
   movement: 'Four-voice chanson · attributed to Josquin des Prez',
   year: '16th century; composition date unknown',

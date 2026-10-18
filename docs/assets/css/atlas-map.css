@@ -205,3 +205,7 @@ body:has(.atlas-map-page) .colophon { background: #141811; color: #b8aa8e; borde
   html.np-on .atlas-map-page { padding-bottom: 175px; }
 }
 @media (prefers-reduced-motion: reduce) { .atlas-map-page *, .atlas-map-page *::before, .atlas-map-page *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+.am-all-recordings { border: 0; padding: .4rem 0; background: none; text-decoration: underline; text-underline-offset: 3px; font-size: .8rem !important; }
+@media (min-width: 701px) {
+  html.np-on .am-stage, html.np-on .am-card { height: clamp(360px, calc(100svh - 475px), 580px); }
+}

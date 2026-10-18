@@ -1,0 +1,309 @@
+{
+  "id": "rimsky-korsakov",
+  "places": [
+    {
+      "name": "Tikhvin",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.65,
+      "lon": 33.5333,
+      "from": "1844-03-18",
+      "to": "1856",
+      "kind": "born",
+      "what": "Born into a noble family, 200 km east of Saint Petersburg; his brother Voin inspired a love of the sea.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Naval School, Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1856",
+      "to": "1862-04",
+      "kind": "studied",
+      "what": "Joined the Imperial Navy; he took lessons from Kanille from 1859 and met Balakirev in November 1861.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Cruise of the Almaz (stop in England)",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1862-11",
+      "to": "1865-05",
+      "kind": "travelled",
+      "what": "A two-year-eight-month cruise; he wrote the symphony’s slow movement during an English stop, and saw London, Niagara Falls and Rio.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Free Music School, Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1865-12",
+      "kind": "premiere",
+      "what": "Balakirev conducted the premiere of the First Symphony, begun under his guidance; the composer acknowledged applause in uniform.",
+      "work": "Symphony No. 1",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 1 (Rimsky-Korsakov) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._1_(Rimsky-Korsakov)"
+        }
+      ]
+    },
+    {
+      "name": "Saint Petersburg Conservatory",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.926,
+      "lon": 30.2982,
+      "from": "1871",
+      "to": "1906",
+      "kind": "worked",
+      "what": "Professor of composition and orchestration and head of the Orchestra Class; he trained himself through a three-year self-education.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1872-07",
+      "kind": "lived",
+      "what": "Married Nadezhda Purgold, with Mussorgsky as best man; the two had shared an apartment from late 1871.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Naval bands, Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1873",
+      "to": "1884-03",
+      "kind": "worked",
+      "what": "Inspector of Naval Bands until the post was abolished, then a deputy at the Court Chapel until 1894.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1888-10-28",
+      "kind": "premiere",
+      "what": "Premiere of <i>Scheherazade</i>, conducted by the composer.",
+      "work": "Scheherazade",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Scheherazade (Rimsky-Korsakov) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Scheherazade_(Rimsky-Korsakov)"
+        }
+      ]
+    },
+    {
+      "name": "Belyayev’s Friday quartets and Russian Symphony Concerts",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1883",
+      "to": "1887",
+      "kind": "worked",
+      "what": "Regular at Belyayev’s “Fridays”; he shared the Russian Symphony Concerts with Lyadov from 1886–87.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1887-11",
+      "kind": "heard",
+      "what": "Tchaikovsky came to hear the Russian Symphony Concerts, beginning closer relations; he had visited Rimsky’s home since 1876.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1889-03",
+      "kind": "heard",
+      "what": "Heard Neumann’s travelling company give four <i>Ring</i> cycles under Muck; Wagner’s orchestration influenced his own.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Solodovnikov Theatre, Moscow",
+      "country": "Russian Empire (today Russia)",
+      "lat": 55.7602,
+      "lon": 37.6163,
+      "from": "1898-01-07",
+      "kind": "premiere",
+      "what": "The Russian Private Opera premiered <i>Sadko</i>, the first Rimsky opera staged by a commercial theatre.",
+      "work": "Sadko",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Sadko (opera) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Sadko_(opera)"
+        }
+      ]
+    },
+    {
+      "name": "Mariinsky Theatre, Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9256,
+      "lon": 30.2961,
+      "from": "1907-02-20",
+      "kind": "premiere",
+      "what": "Premiere of his penultimate opera, <i>Kitezh</i>, the last in his lifetime to be staged.",
+      "work": "The Legend of the Invisible City of Kitezh",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Legend of the Invisible City of Kitezh and the Maiden Fevroniya — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Legend_of_the_Invisible_City_of_Kitezh_and_the_Maiden_Fevroniya"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1907-04",
+      "kind": "travelled",
+      "what": "Conducted two concerts of Russian nationalist music hosted by Diaghilev; <i>Sadko</i> reached the Opéra in 1908.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Saint Petersburg Conservatory",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.926,
+      "lon": 30.2982,
+      "from": "1905",
+      "to": "1906",
+      "kind": "worked",
+      "what": "Dismissed during the 1905 Revolution protests; over 300 students walked out and he was reinstated by December.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Lyubensk estate, near Luga",
+      "country": "Russian Empire (today Russia)",
+      "lat": 58.4006,
+      "lon": 29.6006,
+      "from": "1908-06-21",
+      "kind": "died",
+      "what": "Died at his estate, aged sixty-four, of angina that had grown severe after December 1907.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        }
+      ]
+    },
+    {
+      "name": "Tikhvin Cemetery, Alexander Nevsky Monastery",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9228,
+      "lon": 30.3861,
+      "from": "1908-06",
+      "kind": "buried",
+      "what": "Interred beside Borodin, Glinka, Mussorgsky and Stasov.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Nikolai Rimsky-Korsakov — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+        },
+        {
+          "title": "Tikhvin Cemetery — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Tikhvin_Cemetery"
+        }
+      ]
+    },
+    {
+      "name": "Solodovnikov Theatre, Moscow",
+      "country": "Russian Empire (today Russia)",
+      "lat": 55.7602,
+      "lon": 37.6163,
+      "from": "1909-10-07",
+      "kind": "premiere",
+      "what": "Posthumous premiere of <i>The Golden Cockerel</i> by the Zimin Opera, conducted by Emil Cooper, with Bilibin’s designs.",
+      "work": "The Golden Cockerel",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Golden Cockerel — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Golden_Cockerel"
+        }
+      ]
+    }
+  ]
+}

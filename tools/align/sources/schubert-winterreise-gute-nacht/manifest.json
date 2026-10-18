@@ -1,0 +1,18 @@
+{
+  "title": "Winterreise, D. 911 — No. 1 Gute Nacht",
+  "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established",
+  "encoder": "pental / OpenScore Lieder",
+  "url": "https://musescore.com/openscore-lieder-corpus/scores/5015378",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "song.ly",
+  "musicxml": "lc5015378.mxl",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/01_Gute_Nacht/lc5015378.mxl",
+      "file": "lc5015378.mxl",
+      "sha256": "e92816c5dfad0ee85fd9fefc7760abba75d7797453bf5d8eb2c622b119167e04"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

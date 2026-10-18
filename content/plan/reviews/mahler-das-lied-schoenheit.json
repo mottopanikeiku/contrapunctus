@@ -1,34 +1,5 @@
 {
   "id": "mahler-das-lied-schoenheit",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[0].text",
-      "severity": "major",
-      "problem": "The opening is correctly said to contain a horn, but immediately said to contain no brass. A horn is a brass instrument.",
-      "evidence": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP20582-PMLP47886-Mahler_-_Das_Lied_von_der_Erde_(orch._score).pdf — printed p.61, horn staff in the opening.",
-      "fix": "Replace ‘with no brass, harps or percussion yet’ with ‘with no other brass, harps or percussion yet’."
-    },
-    {
-      "where": "transitions[3].how",
-      "severity": "major",
-      "problem": "The return at Tempo I subito (Andante) is described as having two flats, but the score returns to a one-sharp G-major signature, consistent with the page’s metadata and audio corroboration.",
-      "evidence": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP20582-PMLP47886-Mahler_-_Das_Lied_von_der_Erde_(orch._score).pdf — printed p.77, rehearsal16 and following system.",
-      "fix": "Replace ‘two flats softened to a sweeter key’ with ‘the return to G major’ (or another accurate, score-grounded description)."
-    },
-    {
-      "where": "cues[13].text; transitions[4].title",
-      "severity": "major",
-      "problem": "Detected onset density is converted into ‘the pulse’ and ‘one or two notes a second’. The analysis measures detected attacks, not note count or musical pulse; overlapping instrumental notes make those distinct quantities.",
-      "evidence": "cache/analysis/mahler-das-lied-schoenheit.txt:26,90-94 — column is onsets/s, falling to1.4 and1.0; the tempo estimate is explicitly unreliable.",
-      "fix": "Describe the thinning activity/texture, or explicitly say ‘the report detects only one or two attacks a second’. Do not identify this with the beat or exact note count. Retitle the join ‘Ganz ruhig: the texture thins’ or similar."
-    },
-    {
-      "where": "cues[2].text",
-      "severity": "minor",
-      "problem": "Bethge’s Von der Schönheit is called a rhymed poem, but the reproduced German version is unrhymed free verse.",
-      "evidence": "http://www.mahlerarchives.net/Archive%20documents/DLvDE/Der_Schonheit.htm — Hans Bethge’s Version.",
-      "fix": "Replace ‘Bethge’s rhymed poem’ with ‘Bethge’s German paraphrase’."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

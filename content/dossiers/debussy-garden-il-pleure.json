@@ -1,0 +1,234 @@
+{
+  "id": "debussy-garden-il-pleure",
+  "work": {
+    "title": "Ariettes oubliées",
+    "catalogue": "CD 63; L.60",
+    "movement": "II. Il pleure dans mon cœur",
+    "version": {
+      "value": "Song for soprano and piano",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "bnf",
+        "score"
+      ],
+      "note": "The performing forces are established. The precise edition, any session-specific alteration and the original sounding pitch are not established. The two-record Garden1904 set is an archival grouping, not a claim that these extracts form a two-movement composition."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Mary Garden",
+        "role": "soprano"
+      },
+      {
+        "name": "Claude Debussy",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "bnf",
+      "ircc-discography"
+    ],
+    "note": "Both performers are named by the archive, national-library catalogue and specialist discography; no unnamed collaborator is supplied."
+  },
+  "session": {
+    "date": {
+      "value": "1904",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "bnf",
+        "ircc-discography"
+      ],
+      "note": "Only the year is established here; no exact day is inferred from a later reissue or modern repository date.",
+      "precision": "year"
+    },
+    "place": {
+      "value": "Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "ircc-discography"
+      ],
+      "note": "The city is documented. The studio, street address and recording engineer are not established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Gramophone & Typewriter (G&T)",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "ircc-discography"
+      ],
+      "note": "Original commercial acoustic disc attribution. The1937IRCC/RCA carrier catalogued by BnF is a later reissue."
+    },
+    "catalogue": {
+      "value": "33449",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "ircc-discography"
+      ],
+      "note": "OriginalG&T catalogue number. The archive describes a ten-inch disc."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "disputed",
+      "sourceIds": [
+        "archive",
+        "ircc-discography",
+        "phonobase"
+      ],
+      "note": "Internet Archive’s3047II disagrees with the3074 numbering in the discography and Phonobase. This appears consistent with a transposition error in the archive field, but it is not silently corrected. Suffix forms and the actual source disc’s take remain unresolved.",
+      "alternatives": [
+        {
+          "value": "3047II (Internet Archive metadata, verbatim)",
+          "sourceIds": [
+            "archive"
+          ]
+        },
+        {
+          "value": "3074F (discography); 3074-ii (Phonobase copy)",
+          "sourceIds": [
+            "ircc-discography",
+            "phonobase"
+          ]
+        }
+      ]
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The archive names an uploader account but does not identify a transfer engineer. Uploader identity is not converted into a recording or mastering credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The2019 added/public dates belong to the repository. No date of digitisation of this copy is established."
+    },
+    "processing": {
+      "value": "Playback at74rpm; stylus-size field “25”; MP3 access file.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The source supplies no units for the stylus-size string. Equalisation, noise reduction, pitch correction and equipment are not established. The speed is not treated as proof of the original session’s tuning or tempo."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_ilpleuredansmacouer_318_15/Ilpleuredansmacouer%20-%20Mary%20Garden%20-%20Debussy%20-%20Debussy.mp3",
+    "sourceChain": [
+      "archive",
+      "ircc-discography",
+      "bnf"
+    ],
+    "format": "MP3 transfer of a ten-inch acoustic disc",
+    "durationSeconds": 132.43
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition and original French words are out of copyright under ordinary life-plus-70 terms; the historical score predates1926.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "lyricist",
+        "score"
+      ],
+      "note": "Debussy died1918 and Verlaine1896. No modern translation is reproduced; national exceptions and modern editions require separate consideration."
+    },
+    "recording": {
+      "value": "Rule 2 — US public domain: original G&T commercial issue dated1904, before the1925 cutoff.",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "ircc-discography",
+        "us-term",
+        "phonobase"
+      ],
+      "note": "The originalG&T catalogue and1904 attribution establish a pre-cutoff recording publication basis. The1937 reissue and2019 archive upload are not used as the original publication date. No free-recording licence is inferred from a composition-only tag."
+    },
+    "creditLine": "Claude Debussy, Il pleure dans mon cœur; Mary Garden, soprano, and Claude Debussy, piano. Paris,1904; G&T33449; Internet Archive transfer. US pre-1926 publication basis.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Il pleure dans mon cœur",
+      "url": "https://archive.org/metadata/78_ilpleuredansmacouer_318_15/metadata",
+      "locator": "G&T catalogue33449; date1904; coverageParis; MaryGarden and Debussy; soprano/piano; ten-inch disc; transfer at74rpm; stylus string 25 without stated units. The2019 repository dates are not session or transfer dates.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bnf",
+      "title": "Bibliothèque nationale de France — historical Debussy recording catalogue",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb38388874b",
+      "locator": "Subnotice6 names MaryGarden, soprano, and ClaudeDebussy, piano, recorded1904. Its carrier is the later1937 RCA/IRCC reissue, not the originalG&T disc transferred here.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "ircc-discography",
+      "title": "The Record Collector — International Record Collectors Club discography",
+      "url": "https://www.therecordcollector.org/articles/HRSandIRCCdiscographies/internationalrecordcollectorsclub.php",
+      "locator": "IRCC107: Garden, soprano; Debussy, piano; Paris1904; matrix3074F; originalG&T33449; later transfer matrix0EA5670-1.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr",
+      "title": "Discography of American Historical Recordings — Mary Garden",
+      "url": "https://adp.library.ucsb.edu/names/102667",
+      "locator": "Performer entry consulted for discographic cross-checking. Its displayed Victor/Columbia records do not establish the FrenchG&T matrix here; no unrelated American matrix or session date is imported.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Debussy — Ariettes oubliées no.2, voice-and-piano score",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_%28voice_and_piano%29.pdf",
+      "locator": "Printed pp.12–17 (PDF4–9), poem and voice/piano notation inspected visually. Exact edition used at the1904 session not established.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP — Claude Debussy biographical dates",
+      "url": "https://imslp.org/wiki/Category:Debussy,_Claude",
+      "locator": "Debussy died25March1918.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "lyricist",
+      "title": "IMSLP — Paul Verlaine biographical dates",
+      "url": "https://imslp.org/wiki/Category:Verlaine,_Paul",
+      "locator": "Verlaine died8January1896.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "United States Copyright Office — Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term: recordings first published before1923 ceased receiving the specified federal remedies after31December2021. The programme also permits publication through1925 as of2026.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "phonobase",
+      "title": "Phonobase12051 — Garden/Debussy, G&T33449",
+      "url": "https://phonobase.org/fiche/12051",
+      "locator": "A separate contemporary acoustic copy, Paris1904, catalogueGC33449, matrix3074-ii,74rpm. Phonobase’s2018 digitisation date belongs to that other copy, not to this IA transfer.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

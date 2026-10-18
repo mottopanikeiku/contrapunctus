@@ -168,19 +168,17 @@ export async function mount(app) {
     cardContent.innerHTML = `<div class="am-person-heading">${c.portrait ? `<img src="${url(c.portrait)}" width="64" height="82" alt="${escape(c.name)}">` : ''}<div><span class="kicker">A life in places</span><h2>${escape(c.name)}</h2><p>${c.born}–${c.died ?? ''} · ${c.places.length} records</p></div></div><p class="am-card-intro">The whole recorded route, including places beyond the selected year. Numbers correspond to the list.</p><p class="am-detail-links"><a href="${url(`composers/${c.id}.html#places`)}">Read the composer chapter →</a><button type="button" data-action="route-fit">Fit the whole route</button></p><section class="am-recordings" id="am-recordings"><h3>Listen to ${escape(c.label)}</h3>${c.recordings.length ? c.recordings.slice(0, 3).map(playButton).join('') + (c.recordings.length > 3 ? `<details><summary>All ${c.recordings.length} published recordings</summary>${c.recordings.slice(3).map(playButton).join('')}</details>` : '') : '<p>No recording by this composer is published yet.</p>'}</section><ol class="am-places">${c.places.map((p, i) => {
       const exact = p.listens.map((id) => records.get(id)).filter(Boolean);
       const posthumous = c.died && p.y > c.died;
-      return `<li id="am-place-${i}" data-record="${i}"><button type="button" class="am-place-heading" data-place-index="${i}"><b>${i + 1}</b><span>${escape(p.name)}<small>${escape(dateText(p))} · ${escape(p.kind)}${posthumous ? ' · after death' : ''}</small></span></button><span class="am-badge am-${escape(p.status)}">${escape(p.status)}</span><p>${escape(p.what)}</p>${p.work ? `<p class="am-place-work"><i>${escape(p.work)}</i></p>` : ''}<small class="am-country">${escape(p.country)}</small><details class="am-sources"><summary>${p.sources.length} ${p.sources.length === 1 ? 'source' : 'sources'}</summary><ul>${p.sources.map((s) => `<li><a href="${escape(s.url)}" target="_blank" rel="noopener">${escape(s.title)}</a>${s.locator ? ` — ${escape(s.locator)}` : ''}</li>`).join('')}</ul></details>${p.work || p.kind === 'premiere' ? exact.length ? `<div class="am-place-listens">${exact.map(playButton).join('')}</div>` : `<details class="am-place-listens"><summary>No exact work-title match · other ${escape(c.label)} recordings</summary>${c.recordings.length ? c.recordings.map(playButton).join('') : '<p>No published recording available.</p>'}</details>` : ''}</li>`;
+      return `<li id="am-place-${i}" data-record="${i}"><button type="button" class="am-place-heading" data-place-index="${i}"><b>${i + 1}</b><span>${escape(p.name)}<small>${escape(dateText(p))} · ${escape(p.kind)}${posthumous ? ' · after death' : ''}</small></span></button><span class="am-badge am-${escape(p.status)}">${escape(p.status)}</span><p>${escape(p.what)}</p>${p.work ? `<p class="am-place-work"><i>${escape(p.work)}</i></p>` : ''}<small class="am-country">${escape(p.country)}</small><details class="am-sources"><summary>${p.sources.length} ${p.sources.length === 1 ? 'source' : 'sources'}</summary><ul>${p.sources.map((s) => `<li><a href="${escape(s.url)}" target="_blank" rel="noopener">${escape(s.title)}</a>${s.locator ? ` — ${escape(s.locator)}` : ''}</li>`).join('')}</ul></details>${p.work || p.kind === 'premiere' ? exact.length ? `<div class="am-place-listens">${exact.map(playButton).join('')}</div>` : `<details class="am-place-listens"><summary>No exact work-title match · other ${escape(c.label)} recordings</summary>${c.recordings.length ? `${c.recordings.slice(0, 3).map(playButton).join('')}<button type="button" class="am-all-recordings" data-action="recordings">See all ${c.recordings.length} published recordings ↑</button>` : '<p>No published recording available.</p>'}</details>` : ''}</li>`;
     }).join('')}</ol>${c.influences.length ? `<section class="am-evidence"><h3>Music connected to a place</h3><p class="am-small">Dotted lines are musical connections, not asserted meetings or travel routes.</p><ul>${c.influences.map((e) => `<li><a href="${url(`influence.html#edge-${e.id}`)}">${escape(e.title)}</a><small>${escape(e.place)} · ${e.year} · ${escape(e.status)}</small></li>`).join('')}</ul></section>` : ''}<p class="am-small"><a href="${url(`assets/data/geo/${c.id}.json`)}" download>Download this life’s sourced place records</a></p>`;
     cardContent.scrollTop = 0; openCard();
   }
   function drawRoute(c) {
     $('.am-route').replaceChildren(); $('.am-route-points').replaceChildren(); $('.am-influence').replaceChildren(); routeSprites.length = 0;
-    const compact = byId.get(c.id), occurrences = new Map();
+    const compact = byId.get(c.id);
     for (const [i, p] of c.places.entries()) {
       const item = compact.places[i];
       if (item.path) svgNode('path', { d: item.path, class: `am-life-route${c.died && p.y > c.died ? ' am-posthumous' : ''}` }, $('.am-route'));
-      const count = occurrences.get(p.city) ?? 0; occurrences.set(p.city, count + 1);
-      const ring = Math.floor(count / 8), angle = count * Math.PI / 4;
-      const dx = count ? Math.cos(angle) * (24 + ring * 23) : 0, dy = count ? Math.sin(angle) * (24 + ring * 23) : 0;
+      const [dx, dy] = mobile.matches ? p.mobileMarker : p.marker;
       const node = svgNode('g', { class: 'am-route-point', role: 'button', tabindex: '0', 'data-route-place': i, 'aria-label': `${i + 1}. ${p.name}, ${dateText(p)}` }, $('.am-route-points'));
       svgNode('path', { d: `M${-dx},${-dy}L0,0`, class: 'am-point-tether' }, node);
       svgNode('circle', { r: 10 }, node);
@@ -289,6 +287,11 @@ export async function mount(app) {
       case 'europe': fit(data.europe); break;
       case 'world': fit(data.world); break;
       case 'route-fit': case 'fit': fit(detail ? routeBounds(detail) : data.europe); break;
+      case 'recordings': {
+        const section = $('.am-recordings');
+        if (section) { section.querySelector('details')?.setAttribute('open', ''); cardContent.scrollTo({ top: section.offsetTop - 12, behavior: reduced.matches ? 'instant' : 'smooth' }); }
+        break;
+      }
       case 'encounters': clearFocus(); renderEncounters(); break;
       case 'close': if (mobile.matches) card.classList.remove('am-card-open'); else { clearFocus(); renderEncounters(false); } break;
     }
@@ -336,7 +339,7 @@ export async function mount(app) {
     svg.setAttribute('viewBox', `0 0 ${width} ${height}`); fit(view); updateYear(year);
   });
   resize.observe(stage);
-  on(mobile, 'change', () => updateYear(year));
+  on(mobile, 'change', () => { if (detail) drawRoute(detail); updateYear(year); });
   on(reduced, 'change', stopYears);
   on(document, 'visibilitychange', () => { if (document.hidden) stopYears(); });
   function followHash() { const id = location.hash.match(/^#c-([a-z0-9-]+)$/)?.[1]; if (id) focusComposer(id, true); else if (selected) clearFocus(false); }

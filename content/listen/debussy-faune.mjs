@@ -8,7 +8,7 @@ export default {
   "key": "E major",
   "forces": "Orchestra",
   "performers": "Detroit Symphony Orchestra; Paul Paray",
-  "recorded": "1955, Detroit; mono LP issued 1956",
+  "recorded": "1955 (session attribution), Detroit; mono LP issued 1956",
   "source": {
     "archive": {
       "item": "lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony",

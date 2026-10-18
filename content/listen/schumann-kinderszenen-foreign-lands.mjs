@@ -16,7 +16,7 @@ export default {
   performers: 'Donald Betts',
   recorded: '2005',
   source: { file: 'File:Robert Schumann - scenes from childhood, op. 15 - i. of foreign lands and peoples.ogg' },
-  intro: 'The cycle opens in G major with a tune over a rocking pulse. The same eight bars are heard four times in this performance, so the changes lie in what surrounds them. All thirteen pieces of this set are played by Donald Betts.',
+  intro: 'The cycle opens in G major with a tune over triplets. The same eight bars are heard four times in this performance, so the changes lie in what surrounds them. All thirteen pieces of this set are played by Donald Betts.',
   question: 'How does an eight-bar tune survive being heard four times?',
 
   sections: [
@@ -27,10 +27,10 @@ export default {
   ],
 
   cues: [
-    { t: 0, kind: 'music', title: 'A tune over a rocking pulse', text: 'G major, two beats to the bar. The right hand carries the tune; under it the left hand alternates a low note with a chord on the offbeat, with the pedal marked from the first bar. Listen for how little the accompaniment changes.', basis: 'score-proportion', precision: 'passage', evidence: 'First edition p. 3 (IMSLP #03060): G major, 2/4, tune in the right hand, left-hand low note and offbeat chord, pedal marked in bar 1. The report reads G major from 0:05 (local key r = 0.85–0.93); the level rises from −17.9 dB at 0:00 to −10.1 dB at 0:05.' },
+    { t: 0, kind: 'music', title: 'A tune over triplets', text: 'Two beats to the bar in G major, marked p. The tune leaps from B up to G and steps down F♯–E–D. Beneath it, triplet quavers in broken chords weave between the hands, with the pedal marked and the bass marking the beats separately.', basis: 'score-proportion', precision: 'passage', evidence: 'First edition p. 3 (IMSLP #03060): G major, 2/4, p, triplet groups marked “3” in the inner voices, pedal in bar 1; melodic notes B–G–F♯–E–D checked against the Mutopia transcription (SchumannOp15No01.ly). The report reads G major from 0:05 (local key r = 0.85–0.93); the level rises from −17.9 dB at 0:00 to −10.1 dB at 0:05.' },
     { t: 18, kind: 'form', title: 'The eight bars again', text: 'The opening eight bars are repeated, as the repeat sign requires. The second pass comes back at the same pace with the same accompaniment; the long note that closes bar 8 is where the join can be heard.', basis: 'audio-feature', precision: 'passage', evidence: 'The form analysis matches 0:03–0:16 with 0:20–0:34 (lag 17.5 s, mean similarity 0.92); the report shows a boundary at 0:18 (novelty 0.54). The score has a repeat sign after bar 8 and a minim at the end of the bar.' },
     { t: 38, kind: 'listen', title: 'Slowing before the tune returns', text: 'The second strain opens with six new bars marked piano. The last carries a ritardando and a fermata, so the music almost stops before the opening tune comes back. In the recording the level dips around 0:50.', basis: 'audio-feature', precision: 'passage', evidence: 'Score p. 3: ritardando and fermata in the sixth bar after the repeat sign, then piano and the opening tune. Report: −8.7 dB at 0:45, −14.5 dB at 0:50, novelty 0.72 at 0:50. The form analysis finds 0:55–1:10 resembling 0:20–0:35 (mean 0.96), the returning tune.' },
-    { t: 62, kind: 'life', title: 'Written in February 1838', text: 'Schumann’s diary records the Kinderszenen as composed by Saturday 17 February 1838; on the 22nd he played from them to a merchant visiting from Bremen. Clara Wieck was giving recitals in Vienna that winter, and in March he wrote to tell her of the pieces.', basis: 'documented', precision: 'passage', evidence: 'Diary entries quoted in the Robert-Schumann-Haus Zwickau catalogue 175 Jahre Kinderszenen (2013), item 1; the March letter is item 3 (17 March 1838). Clara’s Vienna recitals ran from December 1837 to April 1838 (Nancy Reich, Clara Schumann, rev. edn).' },
+    { t: 62, kind: 'life', title: 'Written in February 1838', text: 'Schumann’s diary records work on the Kinderszenen by Saturday 17 February 1838; on the 22nd he played from them to a merchant visiting from Bremen. Clara Wieck was giving recitals in Vienna that winter, and in March he wrote to tell her of the pieces.', basis: 'documented', precision: 'passage', evidence: 'Diary entries quoted in the Robert-Schumann-Haus Zwickau catalogue 175 Jahre Kinderszenen (2013), item 1; the March letter is item 3 (17 March 1838). Clara’s Vienna recitals ran from December 1837 to April 1838 (Nancy Reich, Clara Schumann, rev. edn).' },
     { t: 88, kind: 'world', title: 'The one complete autograph', text: 'Only this piece of the thirteen survives in a complete autograph, now in the Robert-Schumann-Haus, Zwickau. Schumann dedicated it in 1847 to his sister-in-law Marie Wieck. No manuscript of the whole set is known.', basis: 'documented', precision: 'passage', evidence: 'Zwickau catalogue 175 Jahre Kinderszenen, item 5 (autograph 3702–A1, dedicated 1847 to Marie Wieck); the Henle Urtext review at schumann-portal.de/3213.html says there was probably never a continuous autograph.' },
   ],
 
@@ -42,7 +42,7 @@ export default {
       to: 'B · six new bars',
       at: { t: 36 },
       span: [28, 46],
-      how: '<p>After the second pass of the eight-bar strain the repeat sign is not taken again. Bar 9 begins a new strain marked <i>p</i>, with a different melodic shape over the same rocking left hand. The pulse and the metre are unchanged, so the join is a change of material rather than of tempo.</p>',
+      how: '<p>After the second pass of the eight-bar strain the repeat sign is not taken again. Bar 9 begins a new strain marked <i>p</i>, with a different melodic shape over the continuing triplet motion. The pulse and the metre are unchanged, so the join is a change of material rather than of tempo.</p>',
       devices: ['motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

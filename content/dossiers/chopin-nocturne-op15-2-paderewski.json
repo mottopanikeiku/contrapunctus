@@ -135,46 +135,46 @@
       "title": "Selected recording source",
       "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_-_Chopin_-_Ignacy_Jan_Paderewski_-_Hmv-db375-05616.flac",
       "locator": "Performer, description, upstream source and recording-licence statement.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "work",
       "title": "Fryderyk Chopin Institute: Nocturne in F♯ major, Op. 15 No. 2",
       "url": "https://chopin.nifc.pl/en/chopin/kompozycja/173",
       "locator": "Work identity, date, publication and formal commentary.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "dahr",
       "title": "DAHR: Victor matrix C-19781",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700004863/C-19781-Nocturne_in_F_sharp_major",
       "locator": "Take 1 row: 14 May 1917, New York; Victor 74529, Gramophone 05616 and DB-375.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "carrier",
       "title": "Public Domain Project: HMV DB375/05616",
-      "url": "http://pool.publicdomainproject.org/index.php?title=Hmv-db375-05616",
+      "url": "https://pool.musicalheritage.org/index.php?title=Hmv-db375-05616",
       "locator": "Audio track information: performer, date, location, matrix, first US release in 1917; Martin Osterwalder collection.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-17"
     },
     {
       "id": "interpretation",
       "title": "Jonathan Woolf: Paderewski — The Complete American Victor Recordings",
       "url": "https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm",
       "locator": "Review describes dislocation between hands, arpeggiation and rubato; track list includes this 1917 Nocturne.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "rubato",
       "title": "Ignacy Jan Paderewski: Tempo Rubato (1909)",
       "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/",
       "locator": "Essay in Henry T. Finck, Success in Music, reproduced by USC Polish Music Center.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     }
   ],
   "editorial": {
-    "editor": "Contrapunctus research desk",
-    "revised": "2026-09-29"
-  }
+      "editor": "Contrapunctus research desk",
+      "revised": "2026-10-17"
+    }
 }

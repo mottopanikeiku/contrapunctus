@@ -87,20 +87,34 @@ def endpoint_anchors(cfg, events, data):
     windows = cfg['endpoints']
     notes = np.asarray(events['notes'])
     anchors = []
-    for label, q in [('first', notes[:, 0].min()), ('last', notes[:, 0].max())]:
-        pitches = np.unique(notes[notes[:, 0] == q, 2]).astype(int)
+    first, last = notes[:, 0].min(), notes[:, 0].max()
+    specifications = [{'label': label, 'scoreQ': q, 'window': windows[label], 'basis': windows['basis']}
+                      for label, q in [('first', first), ('last', last)]]
+    for index, spec in enumerate(cfg.get('anchors', [])):
+        q = float(spec['scoreQ'])
+        if not first < q < last or not spec.get('basis'):
+            raise ValueError('Internal anchors need an interior performed score attack and documented basis')
+        specifications.append({**spec, 'label': spec.get('label', f'internal-{index + 1}')})
+    for spec in sorted(specifications, key=lambda a: a['scoreQ']):
+        label, q, window = spec['label'], float(spec['scoreQ']), spec['window']
+        pitches = np.unique(notes[np.isclose(notes[:, 0], q, atol=1e-8, rtol=0), 2]).astype(int)
+        if not len(pitches):
+            raise ValueError(f'{label}: no score attack at performed quarter {q}')
         energy = data['pitch'][pitches].sum(axis=0)
         rise = uniform_filter1d(np.maximum(np.diff(energy, prepend=energy[0]), 0), 3)
-        lo, hi = [int(round(t * FPS)) for t in windows[label]]
+        lo, hi = [int(round(t * FPS)) for t in window]
         if not 0 <= lo < hi < len(rise) or not np.any(rise[lo:hi + 1] > 0):
-            raise ValueError(f'Invalid or silent {label} endpoint window: {windows[label]}')
+            raise ValueError(f'Invalid or silent {label} pitch-anchor window: {window}')
         peak = lo + int(np.argmax(rise[lo:hi + 1]))
         onset = peak
         while onset > lo and rise[onset - 1] > .2 * rise[peak]:
             onset -= 1
         anchors.append({'label': label, 'scoreQ': float(q), 'audioSeconds': onset / FPS,
-                        'peakSeconds': peak / FPS, 'window': windows[label],
-                        'midiPitches': pitches.tolist(), 'basis': windows['basis']})
+                        'peakSeconds': peak / FPS, 'window': window,
+                        'midiPitches': pitches.tolist(), 'basis': spec['basis']})
+    if any(a['scoreQ'] >= b['scoreQ'] or a['audioSeconds'] >= b['audioSeconds']
+           for a, b in zip(anchors, anchors[1:])):
+        raise ValueError('Documented pitch anchors must increase in score and recording time')
     return anchors
 
 
@@ -308,17 +322,22 @@ def run(ident):
     path = sync_via_mrmsdtw_with_anchors(**kwargs, anchor_pairs=endpoint_pairs.copy(), linear_inp_idx=linear)
     sx0, ay0 = path_map(path)
     anchors = endpoint_pairs.copy()
+    def add_refined_anchor(score_time, audio_time):
+        # Do not duplicate a documented anchor at the 50-fps feature resolution.
+        if score_time > 0 and audio_time > 0 and all(
+                abs(score_time - s) > 1 / FPS and abs(audio_time - a) > 1 / FPS for s, a in anchors):
+            anchors.append((score_time, audio_time))
     for number, occurrence, editorial in cfg.get('boundaries', []):
         bar = next(b for b in events['bars'] if b['n'] == number and b['occ'] == occurrence)
         score_time = bar['q'] * scale
         aligned = float(np.interp(score_time, sx0, ay0))
-        anchors.append((score_time, aligned))
+        add_refined_anchor(score_time, aligned)
     if not cfg.get('boundaries'):
         # These are passage locators, not independent score-bar annotations.
         for section in sections[1:]:
             if section['t'] < endpoints[-1]['audioSeconds']:
                 score_time = float(np.interp(section['t'] - origin, ay0, sx0))
-                anchors.append((score_time, float(section['t']) - origin))
+                add_refined_anchor(score_time, float(section['t']) - origin)
     anchors.sort()
     path = sync_via_mrmsdtw_with_anchors(**kwargs, anchor_pairs=anchors.copy(), linear_inp_idx=linear)
     path[1] += origin_frame
@@ -340,6 +359,8 @@ def run(ident):
         score['method'] = score['method'].replace('final piano holds', 'final written holds').replace(
             'final written holds extend to an estimated decay threshold',
             'final holds extend to a documented pitch-energy display boundary, not a measured key release')
+    if cfg.get('anchors'):
+        score['method'] += ' Additional internal score attacks are pinned by documented score-pitch energy windows; these are not independent listening annotations.'
     if cfg.get('chords'):
         score['chords'] = []
         for bar in events['bars']:

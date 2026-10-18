@@ -106,11 +106,8 @@
   },
   "endpoints": {
     "first": [0.4, 0.8],
-    "last": [
-      198,
-      204
-    ],
-    "basis": "Initial F3 bass attacks are quiet: the fresh pitch-energy overlay and flux probe locate the first rise near 0.6 s, before the louder repeated F3 attacks around 2.4 s. The first window excludes those later repetitions; the final window covers the closing F-minor chord, not the container tail. These are measured pitch windows, not an aural review."
+    "last": [203.3, 204.0],
+    "basis": "Initial F3 bass attacks are quiet: the source-pitch rise near 0.6 s precedes louder repetitions around 2.4 s. The final window is fixed by the actual cadence from repeated G4/C3 to F4/F2 around 203.5 s. The earlier F4 rise around 198.8 s belongs to bar 61 and is followed by the source’s G4-dominant bar 62; it is not the final chord. Pitch-band inspection, not onset proximity alone, determines these windows; no aural review is claimed."
   },
   "boundaries": [],
   "provenance": [

@@ -187,15 +187,6 @@ export default {
       "evidence": "cache/analysis/tchaikovsky-6-adagio.txt: Level falls from about −27 dB at 8:00 to −45 dB at 8:50; the note describes the withdrawal, not an identified solo entrance."
     },
     {
-      "t": 516,
-      "kind": "music",
-      "title": "Lines answer one another",
-      "text": "Imitative entries can pass a motif between string groups, creating movement through overlapping lines. Follow one contour across the ensemble rather than waiting for a new tune with every entry.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/e52ecfb9f5036941073dd02193700851.pdf"
-    },
-    {
       "t": 555,
       "kind": "life",
       "title": "Orchestration took longer",
@@ -320,15 +311,6 @@ export default {
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/tchaikovsky-6-adagio.txt: Level is around −33 dB at 17:15, −43 dB at 17:25 and −77 dB at 17:30."
-    },
-    {
-      "t": 1031,
-      "kind": "listen",
-      "title": "Hear the remaining resonance",
-      "text": "At the close, follow the interval between the last musical gesture and silence. The recorded decay belongs to this file; it should not be confused with a written extra bar.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/e52ecfb9f5036941073dd02193700851.pdf"
     }
   ],
   "transitions": [
@@ -480,6 +462,12 @@ export default {
         "note": "Opening passage: solo bassoon over divided basses; viola joins the low-register texture."
       },
       {
+        "t": 54,
+        "playing": ["oboes", "clarinets", "bassoons", "horns", "violas", "cellos", "basses"],
+        "lead": ["violas", "bassoons"],
+        "note": "Latter introduction: winds, horns and cellos join the low strings (score PDF p. 2). The report’s 0:54 change anchors this broad state, not each entrance."
+      },
+      {
         "t": 98,
         "playing": [
           "flutes",
@@ -516,6 +504,18 @@ export default {
           "cellos"
         ],
         "note": "Andante region: muted violins and cellos share the broad melody; winds and horns support."
+      },
+      {
+        "t": 500,
+        "playing": ["clarinets", "timpani", "violins-1", "violas", "cellos", "basses"],
+        "lead": ["clarinets"],
+        "note": "Reduced Adagio ending of the exposition: solo clarinet, quiet strings and timpani (score PDF p. 19); the report falls through 8:20–8:50. Placement is approximate."
+      },
+      {
+        "t": 532,
+        "playing": ["bassoons"],
+        "lead": ["bassoons"],
+        "note": "The exposed bassoon continuation ends the exposition (score PDF p. 19). This brief reduced state is provisionally placed inside the very quiet 8:50–8:58 span, not bar-aligned."
       },
       {
         "t": 538,

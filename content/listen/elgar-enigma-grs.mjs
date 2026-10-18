@@ -73,24 +73,15 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 74–81, rehearsal figures 47–51; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 74–81, rehearsal figures 47–51. Whole-variation passage map, using the early crest near 0:10, lighter 0:15–0:20 span, and the report’s renewed weight after 0:24. Desk activity is approximate within each window."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "violins-1",
-          "violins-2"
-        ],
-        "note": "Fast upper-string runs contrast with the lower-string line; bassoons and other winds join the phrase."
-      }
+      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "Rapid descending string figures begin the portrait (p. 74)." },
+      { "t": 4, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "violins-1"], "note": "Bassoon motion and stronger wind replies join the string figures (pp. 74–75)." },
+      { "t": 10, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets"], "note": "Accented brass and wind gestures add weight to the first surge; percussion punctuates the exchange (pp. 75–76)." },
+      { "t": 17, "playing": ["oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "bassoons"], "note": "The middle exchange lightens to wind figures over continuing string motion (pp. 77–78)." },
+      { "t": 24, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The renewed surge restores brass and percussion weight around the running strings (pp. 78–80)." },
+      { "t": 38, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns", "trumpets"], "note": "A final string rush and emphatic orchestral gestures bring the portrait to its short close (pp. 80–81)." }
     ]
   }
 };

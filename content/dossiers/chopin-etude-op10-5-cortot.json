@@ -135,39 +135,39 @@
       "title": "Selected recording source",
       "url": "https://archive.org/metadata/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a",
       "locator": "Description, performer attribution, source chain and recording-licence statement.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "work",
       "title": "Fryderyk Chopin Institute: Études",
       "url": "https://chopin.nifc.pl/en/chopin/gatunki/9_etiudy",
       "locator": "Op.10 and Op.25 identity, publication and dedication.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
       "id": "dahr",
       "title": "DAHR: Victor matrix B-23953",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700009148/B-23953-Etude_in_G_flat_op._10_no._5_Black_keys",
       "locator": "Take 2 row: 22 April 1920, Camden Church Building, Victor 64989; primary and additional title identify both études.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     },
     {
-      "id": "issue",
-      "title": "DAHR: Victor 64989 issue record",
-      "url": "https://adp.library.ucsb.edu/index.php/objects/detail/41582",
-      "locator": "MARC 264 publication field gives Camden, Victor, 1920; 028 fields identify issue 64989 and matrix B-23953.",
-      "accessed": "2026-09-29"
-    },
+          "id": "issue",
+          "title": "DAHR: Victor 64989 issue record",
+          "url": "https://adp.library.ucsb.edu/index.php/objects/detail/41582",
+          "locator": "MARC 264 publication field gives Camden, Victor, 1920; 028 fields identify issue 64989 and matrix B-23953.",
+          "accessed": "2026-10-17"
+        },
     {
       "id": "interpretation",
       "title": "Rob Challinor: Alfred Cortot Plays Chopin",
       "url": "https://musicwebinternational.com/2025/10/alfred-cortot-plays-chopin-apr/",
       "locator": "Review of 1931–43 recordings; rubato and occasional hand separation are contextual evidence, not local observations of the 1920 side.",
-      "accessed": "2026-09-29"
+      "accessed": "2026-10-16"
     }
   ],
   "editorial": {
-    "editor": "Contrapunctus research desk",
-    "revised": "2026-09-29"
-  }
+      "editor": "Contrapunctus research desk",
+      "revised": "2026-10-17"
+    }
 }

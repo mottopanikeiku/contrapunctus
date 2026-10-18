@@ -140,48 +140,14 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 24–30, rehearsal figures 15–18; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 24–30, rehearsal figures 15–18. Whole-variation passage map uses the report’s 0:32, 0:48, 1:24 and 1:38 changes to distinguish sustained phrases, wind replies and the final link."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "bassoons",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "cellos",
-          "basses"
-        ],
-        "note": "The lower strings sustain the theme below moving violins, with bassoon support."
-      },
-      {
-        "t": 98,
-        "playing": [
-          "flutes",
-          "oboes",
-          "clarinets",
-          "bassoons",
-          "horns",
-          "trombones",
-          "tuba",
-          "timpani",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "clarinets",
-          "violins-1"
-        ],
-        "note": "The quiet closing link uses chromatic figures and soft sustained support; desks enter in succession, not together."
-      }
+      { "t": 0, "playing": ["bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos", "basses"], "note": "The sustained lower-string line sits below violin figuration; bassoons and, later in the phrase, horns support it (p. 24)." },
+      { "t": 32, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "The lighter exchange brings short wind figures to the foreground over reduced string support (pp. 25–26)." },
+      { "t": 48, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "The larger sustained phrase is reinforced by wind and brass while the string accompaniment continues moving (pp. 26–28)." },
+      { "t": 84, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "flutes"], "note": "Short wind replies regain attention as the heavier texture subsides (pp. 28–29)." },
+      { "t": 98, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "The chromatic closing link combines moving string figures with soft wind, low-brass and timpani support; these desks enter successively (pp. 29–30)." }
     ]
   }
 };

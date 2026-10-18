@@ -13,7 +13,7 @@
   ],
   "reference": "liszt-rhapsody-2-rachmaninoff-side1",
   "passages": [
-    { "label": "Opening gestures", "t": 8, "note": "The feature-only semitone adjustment accommodates the transposed orchestral versions; the recordings retain their original playback pitch." },
+    { "label": "Opening gestures", "t": 8, "note": "The semitone adjustment applies only to alignment features; original playback pitch is unchanged." },
     { "label": "The opening gathers weight", "t": 32, "note": "The piano report shows increasing recorded weight; compare phrasing without equating transfer volume with performance dynamics." },
     { "label": "Early broad crest", "t": 48, "note": "This lies within the common opening. Later side contents are deliberately excluded from the alignment." }
   ],

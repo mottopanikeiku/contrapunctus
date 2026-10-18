@@ -82,23 +82,14 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 31–34, rehearsal figures 19–22; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 31–34, rehearsal figures 19–22. Whole-variation passage map; the report’s changes around 0:12, 0:22, 0:40 and 0:50 support the succession from exposed viola to fuller phrases and a quiet close."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "clarinets",
-          "bassoons",
-          "violins-1",
-          "violas",
-          "basses"
-        ],
-        "lead": [
-          "violas"
-        ],
-        "note": "The viola’s string-crossing figure is exposed above restrained wind and string support."
-      }
+      { "t": 0, "playing": ["clarinets", "bassoons", "trombones", "tuba", "violins-1", "violas", "cellos", "basses"], "lead": ["violas"], "note": "Viola string-crossing is exposed over restrained support; the initial very soft low-brass chord belongs to the link from the preceding variation (p. 31)." },
+      { "t": 12, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violas", "cellos", "basses"], "lead": ["violas", "bassoons"], "note": "Flutes and horns enter the growing phrase; bassoon figures answer the viola's shape (pp. 31–32)." },
+      { "t": 24, "playing": ["flutes", "clarinets", "bassoons", "horns", "violins-1", "violas", "cellos", "basses"], "lead": ["violas", "cellos"], "note": "The middle phrase keeps the lower string voices exposed, with small wind responses rather than heavy brass (p. 32)." },
+      { "t": 40, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas", "flutes"], "note": "The later swell broadens the string line and adds wind colour around it (p. 33; the report's strongest span)." },
+      { "t": 50, "playing": ["flutes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas", "clarinets"], "note": "The closing string and wind gestures diminish; horn support remains restrained and the large brass is silent (p. 34)." }
     ]
   }
 };

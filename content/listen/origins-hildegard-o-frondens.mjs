@@ -2,6 +2,7 @@ export default {
   id: 'origins-hildegard-o-frondens',
   composer: 'origins-hildegard',
   order: 1,
+  short: true,
   work: 'O frondens virga',
   movement: 'Antiphon for the Virgin',
   year: '12th century; exact date unknown',

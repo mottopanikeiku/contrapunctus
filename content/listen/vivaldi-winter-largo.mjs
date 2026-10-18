@@ -74,7 +74,7 @@ export default {
       "text": "The continuation begins from the first phrase’s B♭-major destination, then brings the music back towards E♭. It is a varied restatement, not a second performance of the same eight bars.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The movement analysis identifies an eight-bar opening ending in B♭, followed by a varied restatement that returns to E♭. Mutopia bars 9–16 show the changed continuation; the report places an important change at 1:14, inside that return journey: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/02.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "The movement analysis identifies an eight-bar opening ending in B♭, followed by a varied restatement that returns to E♭. Mutopia bars 9–16 show the changed continuation; the report places an important change at 1:14, inside that tonal return: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/02.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     },
     {
       "t": 115,

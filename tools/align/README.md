@@ -78,12 +78,14 @@ For all modes:
 ### Diagnostics and engraving
 
 - `boundaries`: `[["19",1,42], ...]` gives printed bar, occurrence and coarse independent editorial seconds. Without them, listen sections are explicitly non-independent nearest-bar locators.
+- `anchors`: optional `[{scoreQ:368,window:[185.7,186.1],basis:"documented score-pitch energy evidence",label:"penultimate-chord"}]`. `scoreQ` is an actual interior **performed** attack from the event table, not an inferred printed-bar locator. The same pitch-energy edge detector measures these windows and pins both DTW passes; all measurements and fresh overlays are reported. Score/time order must increase. These anchors are disclosed as non-independent inspections and never replace the onset/region/collapse gates.
 - `endpoints.end`: optional `{seconds:256.5,basis:"measured pitch-energy decay evidence"}` for a documented musical display end when surface noise keeps whole-file RMS active after the pitched decay. It must follow the last attack and lie inside the recording. The report retains both the original −45 dB RMS end and this explicit boundary; this is not a measured key release and does not relax any numeric gate.
 - `diagnostics.held`: `{voice:0,minimumDurationQ:9}` or `{voice:7,onsets:[2,6]}`. Default: inspect the final chord.
 - `diagnostics.recurrences`: fixed-lag specs such as `{start:3,secondQ:248,secondOffset:3,length:45,search:4}`. `startQ` plus `startOffset` may replace absolute `start`; `scanRecurrence:true` enables the original long-diagonal diagnostic.
 - `diagnostics.overlays`: extra recording `[start,end]` windows.
 - `chords`: editor-written `{bars:["1"],label:"Gmaj7",basis:"editorial"}` with optional `occ`. No inferred chord labels.
 - `engraving`: `{staff:18,width:230,height:297,music?}`; dimensions are millimetres. Optional `music` selects one movement with the same definitions, instead of engraving all scores in `source.main`.
+- `method`: optional descriptive metadata, used by the four baseline configs to retain their original publication text byte-for-byte. New configs use instrument-neutral generated wording; documented internal/end anchors add their specific disclosure automatically.
 
 Every `.ly`, `.ily`, `.lyi` in the disposable source copy goes through adjacent `convert-ly`; files without versions inherit the main file’s version. Relative includes retain their locations; built-in includes such as `articulate.ly` remain built-in. Engraving retains `data-bar`/`data-pos` on noteheads and rests, including custom movement wrappers. Sheetpack must resolve every aligned printed bar before publication. See [sheetpack](../sheetpack/README.md) for its coordinate contract.
 
@@ -95,7 +97,7 @@ For a rights-established MusicXML source, `source.musicxml` names the original d
 
 - `musicxmlMeasures:[start,end]`: zero-based half-open measure slice in **each part**, carrying preceding attributes (clefs/key/time/divisions etc.) into the first selected measure unless overridden there.
 - `stripLyrics:true`: remove lyric elements only, for identified analytical labels on instrumental scores, not vocal lyrics.
-- `musicxmlImplicitMeasures:[1,54,55]`: mark those original XML numbers implicit, avoiding converter padding of documented pickup/split bars.
+- `musicxmlImplicitMeasures:[1,55,101]`: mark an initial pickup and **continuation fragments** implicit. In LilyPond’s converter, implicit means “continue the previous bar”, not “any short measure”. For a bar split into XML 54+55, only **55** is implicit; making both implicit joins the preceding full bar and corrupts the converter’s clock/chords. A shortened final XML measure is not padded when there is no following bar and normally needs no implicit flag.
 - `metricEquivalenceWords:true`: preserve two-beat-unit metric-equivalence metronomes as equivalent printed words, avoiding a LilyPond 2.24.4 converter failure.
 - `otherDynamicsWords:true`: preserve nonstandard `other-dynamics` text as words rather than invalid identifiers; ordinary dynamics remain intact.
 - `musicxmlFlattenTuplets`: `[{part:"P3",measures:[120,121,122,123],outerNumber:1,basis:"source nested-tuplet evidence"}]` handles the converter’s duplicated uniform nested-tuplet groups. Each selected single-voice measure must have explicit combined type/ratio and complete outer groups. Their brackets flatten to that combined ratio; exact written durations replace rounded playback ticks on a common divisions grid. Pitch/order, beams and slurs stay unchanged; other part durations are exactly rescaled. Ambiguous/mixed groups, cross-measure groups, chords and grace notes are rejected, not guessed.

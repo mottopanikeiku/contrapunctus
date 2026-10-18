@@ -1,13 +1,5 @@
 {
   "id": "cpe-bach-flute-concerto-g-presto",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "content/listen/cpe-bach-flute-concerto-g-presto.mjs: opening and closing cues, section notes, transition evidence and orchestra.timeline; dossier score/version locators",
-      "severity": "major",
-      "problem": "The flute’s claimed opening and closing rests are inferred from a blank staff in a shorthand working manuscript. A blank staff does not establish silence in this source.",
-      "evidence": "Independent inspection of the manuscript PDF pp. 11 and 38–39 finds blank upper staves, not an established flute-rest allocation. Kuijken’s introduction p. xi explains that blank measures or custodes can direct the flute to follow the keyboard right-hand part; p. xii also documents flute doubling in orchestral passages. https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf",
-      "fix": "Resolve participation using a readable flute part or the critical edition, then correct every affected opening/closing assertion and timeline desk assignment. If participation remains unknown, remove the rest claim and explicitly leave that allocation unestablished rather than treating blank notation as silence."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

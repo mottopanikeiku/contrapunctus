@@ -206,28 +206,21 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 93–128, rehearsal figure 61 onwards; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 93–128, rehearsal figures 61–83. Whole-finale passage map, following the report’s early build, 2:04 withdrawal, 2:34 renewed force and 4:08 closing span. Optional organ is not asserted; desk states are broad score-backed windows rather than bar alignment."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "bassoons",
-          "contrabassoon",
-          "trombones",
-          "tuba",
-          "timpani",
-          "violins-1",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "violins-1",
-          "cellos",
-          "bassoons"
-        ],
-        "note": "Quiet fragmented figures pass among first violins, cellos and bassoons above detached low support; clarinets join the opening span."
-      }
+      { "t": 0, "playing": ["bassoons", "contrabassoon", "trombones", "tuba", "timpani", "violins-1", "cellos", "basses"], "lead": ["violins-1", "cellos", "bassoons"], "note": "Quiet fragments pass between first violins, cellos and bassoons above detached low support (p. 93)." },
+      { "t": 12, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "More wind and brass join as the string figures build towards the first larger statement (pp. 94–96)." },
+      { "t": 24, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "violins-1"], "note": "The broad statement gains full wind, brass and percussion support around the strings (pp. 96–99)." },
+      { "t": 50, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "The texture lightens to a more flowing string-and-wind span before the next expansion (pp. 100–102)." },
+      { "t": 82, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Longer wind and brass lines combine with the running string texture in the renewed build (pp. 103–108)." },
+      { "t": 110, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "trumpets"], "note": "Full orchestral gestures and fast string runs make the stronger approach to the withdrawal (pp. 109–110)." },
+      { "t": 124, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "cellos"], "note": "The strong texture gives way to quiet wind lines and divided cello writing, with sparse soft percussion (p. 111)." },
+      { "t": 136, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The sustained middle phrase gains quiet brass support while the strings keep moving (pp. 112–113)." },
+      { "t": 154, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The animando gathers string and wind movement into a renewed orchestral rise (pp. 113–115)." },
+      { "t": 176, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "violins-1"], "note": "The larger concluding paragraphs restore the full wind, brass and percussion complement (pp. 116–119)." },
+      { "t": 212, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Moving strings drive beneath broad wind and brass affirmations as the end approaches (pp. 120–125)." },
+      { "t": 248, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "trombones"], "note": "The final G-major gestures use the full scored orchestra apart from the optional organ, whose presence is not established for this recording (pp. 126–128)." }
     ]
   }
 };

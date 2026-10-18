@@ -149,57 +149,17 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 82–86, rehearsal figures 52–54; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 82–86, rehearsal figures 52–54. Whole-variation passage map, following the report’s changes at 0:14, 0:38, 1:22 and 1:52 and the final withdrawal. Solo and ensemble roles are passage-level, not individual-note alignment."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "violas",
-          "cellos"
-        ],
-        "lead": [
-          "cellos"
-        ],
-        "note": "Solo cello carries the opening phrase with quiet viola support before other strings gather."
-      },
-      {
-        "t": 38,
-        "playing": [
-          "flutes",
-          "oboes",
-          "clarinets",
-          "bassoons",
-          "horns",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "violins-1",
-          "cellos"
-        ],
-        "note": "The broad string melody gains wind support during the expansion; this is not a simultaneous tutti entry."
-      },
-      {
-        "t": 112,
-        "playing": [
-          "clarinets",
-          "bassoons",
-          "horns",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "cellos"
-        ],
-        "note": "The closing span diminishes around the solo cello and sustained accompaniment."
-      }
+      { "t": 0, "playing": ["violas", "cellos"], "lead": ["cellos"], "note": "Solo cello begins above quiet viola support (p. 82)." },
+      { "t": 14, "playing": ["flutes", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos", "violins-1"], "note": "The full string section takes up the broader phrase, with sparse flute and bassoon colour towards its continuation (pp. 82–83)." },
+      { "t": 38, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "Wind, horn and restrained timpani support enrich the expanded string phrase (p. 83)." },
+      { "t": 64, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "The long string line is coloured by more active woodwind writing (p. 84)." },
+      { "t": 82, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "Lower-wind support and a G-string violin phrase begin the later expansion (p. 85)." },
+      { "t": 98, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "The later crest broadens the wind and string phrase without introducing the heavy brass (pp. 85–86)." },
+      { "t": 112, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos"], "note": "The cello solo is exposed again as the accompanying winds and strings diminish (p. 86)." },
+      { "t": 124, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos"], "note": "The final suspension is carried by soft strings after the wind parts release (p. 86)." }
     ]
   }
 };

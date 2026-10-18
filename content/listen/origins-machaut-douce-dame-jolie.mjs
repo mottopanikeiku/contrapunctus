@@ -2,6 +2,7 @@ export default {
   id: 'origins-machaut-douce-dame-jolie',
   composer: 'origins-machaut',
   order: 1,
+  short: true,
   work: 'Douce dame jolie / L’espoir que j’ai',
   movement: 'Machaut and Janequin · Weckerlin arrangements · complete Victor side',
   year: '14th- and 16th-century songs; later arrangements',

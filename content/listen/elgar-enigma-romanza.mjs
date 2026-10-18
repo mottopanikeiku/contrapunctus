@@ -140,58 +140,17 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 87–92, rehearsal figures 55–60; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 87–92, rehearsal figures 55–60. Whole-variation passage map: the 0:18 and 1:02 changes, the strong 1:05–1:15 span, and the quiet final minute distinguish the Romanza, quotations and expansion. No precise quotation onset is asserted."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "clarinets",
-          "violins-2",
-          "cellos"
-        ],
-        "lead": [
-          "clarinets"
-        ],
-        "note": "The clarinet melody sits over gently moving second violins and cellos."
-      },
-      {
-        "t": 24,
-        "playing": [
-          "clarinets",
-          "horns",
-          "timpani",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "clarinets"
-        ],
-        "note": "The quiet quotation passage features solo clarinet, a soft timpani roll and subdued strings."
-      },
-      {
-        "t": 62,
-        "playing": [
-          "flutes",
-          "oboes",
-          "clarinets",
-          "bassoons",
-          "horns",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "violins-1",
-          "clarinets"
-        ],
-        "note": "The Romanza’s renewed phrase grows in colour and weight before subsiding."
-      }
+      { "t": 0, "playing": ["clarinets", "violins-2", "cellos"], "lead": ["clarinets"], "note": "Clarinet begins over gently moving second violins and cellos (p. 87)." },
+      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "The first Romanza phrase spreads through the wind and string parts with restrained horn support (p. 87)." },
+      { "t": 24, "playing": ["clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets"], "note": "Solo clarinet introduces the quiet quotation above timpani and subdued strings; other desks gradually withdraw (p. 88)." },
+      { "t": 40, "playing": ["clarinets", "timpani", "violas", "cellos"], "lead": ["clarinets"], "note": "The very soft quotation passage leaves the clarinet exposed above moving viola and sustained cello support (p. 89)." },
+      { "t": 62, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "violins-1"], "note": "The central expansion gains brass and timpani weight as the recorded level rises (p. 90)." },
+      { "t": 80, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "The Romanza resumes its more lightly scored wind-and-string motion after the larger swell (pp. 90–91)." },
+      { "t": 100, "playing": ["clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets"], "note": "The final quotation is prepared by another thinning of the texture and a quiet timpani roll (p. 92)." },
+      { "t": 118, "playing": ["clarinets", "timpani", "violas", "cellos"], "lead": ["clarinets"], "note": "Clarinet and the soft lower-string texture remain after upper strings, horns and basses release (p. 92)." }
     ]
   }
 };

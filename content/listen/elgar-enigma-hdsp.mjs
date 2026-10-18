@@ -73,21 +73,15 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 8–14, rehearsal figures 5–7; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 8–14, rehearsal figures 5–7. Whole-variation passage map, using the report’s 0:12, 0:16 and 0:22 changes and the final decline. Timing is approximate; desks indicate activity within a span."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "violins-1",
-          "violins-2"
-        ],
-        "lead": [
-          "violins-1",
-          "violins-2"
-        ],
-        "note": "At the opening, semiquaver figures move between the two violin sections; winds join later."
-      }
+      { "t": 0, "playing": ["violins-1", "violins-2"], "lead": ["violins-1", "violins-2"], "note": "Semiquaver figures begin as an exchange between the two violin sections (p. 8)." },
+      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "Woodwind replies join the running string figures (pp. 8–9)." },
+      { "t": 14, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets", "violins-1"], "note": "Fast figures and accented wind responses share the stronger middle span (pp. 10–11)." },
+      { "t": 22, "playing": ["flutes", "oboes", "clarinets", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "Wind fragments stand out as the strings alternate running figures with lighter accompaniment (p. 12)." },
+      { "t": 30, "playing": ["flutes", "oboes", "clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "The final string exchange has quiet wind responses and a marked solo-timpani figure (pp. 13–14)." },
+      { "t": 38, "playing": ["flutes", "clarinets", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "Short flute and clarinet solos close the variation over sparse lower strings; the running violins stop (p. 14)." }
     ]
   }
 };

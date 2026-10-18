@@ -138,24 +138,18 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 57–73, rehearsal figures 38–46; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+      "locator": "PDF pp. 57–73, rehearsal figures 38–46. Whole-intermezzo passage map: the report’s changes around 0:24, 0:44, 1:04, 1:20 and 1:44 support the changing lead roles. Positions are broad, not bar-aligned."
     },
     "timeline": [
-      {
-        "t": 0,
-        "playing": [
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
-          "basses"
-        ],
-        "lead": [
-          "violins-1",
-          "violins-2"
-        ],
-        "note": "Muted violin phrases sit above light viola chords and pizzicato low strings; wind interruptions enter around them."
-      }
+      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "Muted, off-beat violin phrases begin above short viola chords and pizzicato low strings (p. 57)." },
+      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Short wind interruptions join the light string dance; the larger brass remains silent (pp. 57–58)." },
+      { "t": 22, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas"], "note": "The solo viola supplies a longer inner line beneath the continuing articulated violin figures (pp. 59–60)." },
+      { "t": 36, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "violas"], "note": "Bassoon and viola figures answer within the transparent texture (pp. 61–62)." },
+      { "t": 44, "playing": ["flutes", "oboes", "clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "The short dance gestures return to the foreground with quiet wind punctuation (pp. 63–64)." },
+      { "t": 64, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "violins-1"], "note": "Longer upper-wind notes contrast with the short string articulations in the inner span (pp. 65–66)." },
+      { "t": 80, "playing": ["clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-2", "violas"], "note": "Moving inner strings gain attention while the upper winds temporarily thin out (pp. 67–68)." },
+      { "t": 94, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "Wind fragments rejoin the articulated string phrases as the dance proceeds towards its close (pp. 69–71)." },
+      { "t": 110, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The final exchanges keep the chamber-like balance of winds, muted strings and pizzicato bass support (pp. 72–73)." }
     ]
   }
 };
