@@ -40,8 +40,8 @@
   },
   "endpoints": {
     "first": [0, 3],
-    "last": [193, 198],
-    "basis": "Score-pitch energy-rise windows, not aural annotations; provisional automatic alignment."
+    "last": [193.6, 194.15],
+    "basis": "Score-pitch energy inspection, not listening: the final G bass (43/55) and upper B (83) disappear around193.5, while final D (50) and A (81) rise around193.7–194.0. The previous193–198 window clipped its peak at193.0 and was rejected. See work/handel-messiah-hallelujah-final-harmony.png."
   },
   "boundaries": [],
   "engraving": { "staff": 13, "width": 280, "height": 400 }

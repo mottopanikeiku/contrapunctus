@@ -6,6 +6,7 @@ export default {
   order: 1,
   work: 'Piano Sonata No. 2 “Concord, Mass., 1840–60”',
   movement: 'III. The Alcotts',
+  set: { id: 'ives-concord', title: 'Piano Sonata No. 2, ‘Concord, Mass., 1840–60’', part: 3, of: 4 },
   year: '1911–19',
   key: '',
   forces: 'Piano',

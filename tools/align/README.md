@@ -68,9 +68,11 @@ Complete exercised examples live in [`pieces/`](pieces/). `pieces/<listen-id>.js
 For all modes:
 
 - `voices[].transpose` and/or `extraction.transpose`: additional sounding-pitch semitones. Never double-apply LilyPond’s existing transposition.
+- `voices[].transposeRanges`: `[{fromQ:474,toQ:480,semitones:12,basis:"source convention and citation"}]` applies an additional correction to attacks in the half-open source-quarter interval after `offsetQ` removal and before repeat unfolding. This supports documented changes of historical transposing-clef convention; it does not rewrite the printed score.
 - `extraction.offsetQ`: remove MIDI pre-roll; optional `endQ` selects an exclusive source-onset boundary **before** subtracting the offset.
 - `extraction.timeline:"performed"`: MIDI already unfolded in exactly the configured order. Default `"canonical"` unfolds through `bars.order`.
 - `extraction.comparePublished:{offsetQ:0}`: assert aggregate pitch/onset identity against `source.midi` before additional sounding-pitch fixes.
+  Successful inventory measurements are recorded as `sourceChecks.pitchOnsetInventory` in event/check JSON, including whether a set or multiset was compared and the matched count.
 - `extraction.ties`: documented cross-voice continuations as `{origin:{q,pitch,voice,durationQ},continuation:{...}}`. Exact events are asserted before joining durations/removing a continuation attack. See Bach bar 23. This is not automatic tie guessing.
 
 ### Diagnostics and engraving
@@ -83,6 +85,8 @@ For all modes:
 - `engraving`: `{staff:18,width:230,height:297,music?}`; dimensions are millimetres. Optional `music` selects one movement with the same definitions, instead of engraving all scores in `source.main`.
 
 Every `.ly`, `.ily`, `.lyi` in the disposable source copy goes through adjacent `convert-ly`; files without versions inherit the main file’s version. Relative includes retain their locations; built-in includes such as `articulate.ly` remain built-in. Engraving retains `data-bar`/`data-pos` on noteheads and rests, including custom movement wrappers. Sheetpack must resolve every aligned printed bar before publication. See [sheetpack](../sheetpack/README.md) for its coordinate contract.
+
+The removed pre-2.17.15 `old-relative` option is **not silently ignored**. An explicit `source.legacyRelative:"verify-midi"` permits removing only that obsolete directive from derivative files, but requires `compiled-midi`, `comparePublished:{}`, a published `source.midi`, and exactly identical `extraction.music`/`engraving.music`. The selected movement’s generated and published pitch/onset **multisets** must match before alignment; changed octave semantics therefore withhold publication. Standalone re-engraving also runs this proof. Source directives remain intact in the hashed downloads. See LilyPond’s [conversion limitations](https://lilypond.org/doc/v2.24/Documentation/usage/updating-files-with-convert_002dly); syntactic conversion alone is not proof of musical equivalence.
 
 ### MusicXML input
 
@@ -139,3 +143,5 @@ node tools/engrave.mjs satie-gymnopedie-1
 ```
 
 Lower-level `fetch.py`, `prepare.py`, `score_events.py`, `align.py` remain diagnostic tools, but **only the driver publishes**; `align.py` no longer offers a `--publish` bypass. The original four-piece rerun and exact numerical/byte differences are recorded in REPORT.md.
+
+Without explicit ids, `node tools/engrave.mjs` re-engraves only configured recordings that already have a published `score.json`, not withheld candidates.

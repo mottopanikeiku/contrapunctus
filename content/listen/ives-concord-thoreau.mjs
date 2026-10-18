@@ -1,0 +1,17 @@
+export default {
+  id: 'ives-concord-thoreau',
+  composer: 'ives',
+  order: 4,
+  work: 'Piano Sonata No. 2, ‘Concord, Mass., 1840–60’',
+  movement: 'IV. Thoreau',
+  set: { id: 'ives-concord', title: 'Piano Sonata No. 2, ‘Concord, Mass., 1840–60’', part: 4, of: 4 },
+  year: '1911–19; revised to 1947',
+  key: '',
+  forces: 'Piano',
+  performers: 'Eric Xi Xin Liang, piano',
+  recorded: '2024',
+  license: 'CC BY 4.0',
+  source: { file: 'File:Ives - Piano Sonata No.2 - IV. Thoreau (Eric Xi Xin Liang).flac' },
+  intro: 'After the plain affirmation of The Alcotts, Ives closes the sonata with Thoreau at Walden: walking figures give way to repeated patterns and an unsettled ending. Listen for how persistence in the lower register changes the meaning of a melody above it.',
+  question: 'How does repetition create stillness without bringing the harmony to a final agreement?',
+};

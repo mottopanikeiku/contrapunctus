@@ -338,6 +338,7 @@ def run(ident):
     diagnostics.update({'id': ident, 'tuningHz': score['tuningHz'], 'audioSha256': str(data['audio_sha256']),
                         'software': {p: importlib.metadata.version(p) for p in ('librosa', 'synctoolbox', 'numpy', 'scipy', 'mido')},
                         'scoreProvenance': events['provenance'], 'sectionAnchorPairsSeconds': [(s, a + origin) for s, a in anchors],
+                        'sourceChecks': events.get('sourceChecks', {}),
                         'endpointMeasurements': endpoints,
                         'adaptiveOnsetCount': len(data['adaptive_onsets']),
                         'adaptiveMedianDeviation': float(np.median(nearest_error(mapq(np.unique(np.asarray(events['notes'])[:, 0])), data['adaptive_onsets']))),

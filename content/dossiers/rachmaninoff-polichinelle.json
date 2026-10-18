@@ -1,0 +1,248 @@
+{
+  "id": "rachmaninoff-polichinelle",
+  "work": {
+    "title": "Polichinelle",
+    "catalogue": "Op. 3 No. 4",
+    "movement": "Allegro vivace",
+    "version": {
+      "value": "Solo piano, performed by the composer",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "dahr-pol"
+      ],
+      "note": "No performing score edition is identified, and the printed text is not asserted to match the performance; the Henle report notes that the composer’s recordings diverge from the print in places."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "booklet",
+      "dahr-pol"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1923-03-06",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-pol",
+        "booklet",
+        "archive"
+      ],
+      "note": "DAHR’s approved take 2 is dated 6 March 1923; the Archive filename and the RCA register give the same date. Take 1 of 20 October 1920 was destroyed.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York, New York",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-pol"
+      ],
+      "note": "DAHR gives New York for the approved take; the 1920 take was made in Camden, New Jersey."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor (Red Seal); RCA/BMG reissue",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-pol",
+        "dahr-6452",
+        "archive",
+        "booklet"
+      ],
+      "note": "Victor is the original label; the uploader identifies the 1992 RCA/BMG set as the immediate source of the file."
+    },
+    "catalogue": {
+      "value": "Victor 74807 (12-inch single-faced) and Victor 6452 (12-inch double-faced, with Chopin’s Nocturne in F♯ major); RCA-BMG 09026 61265 2, CD 10 (1992)",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-pol",
+        "dahr-6452",
+        "archive",
+        "booklet"
+      ],
+      "note": "The disc used for the 1992 transfer is not identified."
+    },
+    "matrixTakeSides": {
+      "value": "C-24643, take 2",
+      "status": "inferred",
+      "sourceIds": [
+        "booklet",
+        "dahr-pol",
+        "archive"
+      ],
+      "note": "DAHR names the matrix, takes and issues. The link between that take and this digital file rests on the RCA register (which names the matrix and take for the CD track) and the uploader’s CD identification; no waveform or run-out comparison with the disc was made."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "John Pfeiffer, reissue producer; Ward Marston, disc-to-DAT transfer; André Gauthier, remastering supervisor; Anthony Salvatore, remastering engineer",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "These are the credits printed for the 1992 RCA/BMG set. Their connection to this access file rests on the uploader’s identification of the item as CD 10 of that set. The later ripper and uploader are not named as engineers."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "The set was issued in 1992, but the dates of the disc-to-DAT transfer, the remastering and the later CD extraction are not stated. The Internet Archive upload of 11 October 2025 is not a transfer date."
+    },
+    "processing": {
+      "value": "Disc-to-DAT transfer, then digital remastering at BMG/RCA Studios, New York City; the Internet Archive derives its VBR MP3 from an uploaded WAV.",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive-data"
+      ],
+      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/195-complete-rachmaninoff-cd-10/192%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-%20Rachmaninov%20-%20Polichinelle%2C%20Op.%203%2C%20No.%204%20(rec.%206.III.1923).mp3",
+    "sourceChain": [
+      "archive",
+      "archive-data",
+      "booklet",
+      "dahr-pol"
+    ],
+    "format": "VBR MP3 access derivative; the uploaded source is a WAV taken from a 1992 CD reissue of an acoustic disc",
+    "durationSeconds": 218.53
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about any modern edition."
+    },
+    "recording": {
+      "value": "US public domain: the issued sound recording was published by 1925 (Victor 6452, recorded 1923).",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-6452",
+        "victor-1925",
+        "archive",
+        "us-term"
+      ],
+      "note": "DAHR’s catalogue record for Victor 6452 gives a publication date of [1923], a catalogue-derived year rather than a release day. The 1925 Victor catalogue lists “In F Sharp Major (Op. 15, No. 2) and Polichinelle — Piano — Rachmaninoff”, which establishes publication no later than 1925 independently of the session date. The Archive item’s Public Domain Mark is noted but not relied on. The 1992 booklet carries an all-rights-reserved reissue notice: no claim is made that its text, artwork or compilation is public domain, or that any new creative contribution to the mastering is cleared worldwide."
+    },
+    "creditLine": "Sergei Rachmaninoff, piano — Polichinelle, Op. 3 No. 4. Victor 74807 and 6452, matrix C-24643 take 2 (New York, 6 March 1923). Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s licence statement.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Complete Rachmaninoff, CD 10",
+      "url": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+      "locator": "Uploader identifies RCA-BMG 09026 61265 2 (1992), CD 10, with track filenames carrying recording dates; the item description says tracks 195–202 were made in April 1919 for Edison and all others by Victor; the item links the original booklet and carries Public Domain Mark 1.0.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-data",
+      "title": "Internet Archive item metadata and file manifest",
+      "url": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+      "locator": "Track-specific WAV originals, FLAC and generated VBR MP3 access files, durations and the licence URL (https://creativecommons.org/publicdomain/mark/1.0/). The item’s 2025 public date is an upload date, not a session or transfer date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "booklet",
+      "title": "RCA: Sergei Rachmaninoff, The Complete Recordings, 10-CD booklet (1992)",
+      "url": "https://archive.org/download/9-0023-sergei-rachmaninoff-complete-recordings-booklet-to-10-cd-set-rca-bmg-09026-61265-2-1992/9-0023%20Sergei%20RACHMANINOFF%20-%20Complete%20Recordings%20-%20Booklet%20to%2010%20CD%20Set%20RCA-BMG%2009026%2061265%202%20(1992)_djvu.txt",
+      "locator": "Printed p. 20: reissue and transfer credits; essays “The Composer” and “The Recordings” (Edison sessions, Victor contract, microphone-less horn recording); “The Performances of Rachmaninoff”: register of dates, matrices and CD/track numbers; closing remastering notice. OCR text consulted against the track listing.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-pol",
+      "title": "DAHR: Victor matrix C-24643, Polichinelle, op. 3, no. 4",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700009866",
+      "locator": "Take table: take 1 (20 October 1920, Camden, destroyed); take 2 (6 March 1923, New York) master, issued Victor 74807, Victor 6452, Gramophone 05729 and DB-845.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-6452",
+      "title": "DAHR: Victor 6452 (12-in. double-faced Red Seal)",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/41140",
+      "locator": "Coupling of Polichinelle (C-24643) with Chopin’s Nocturne in F♯ major (C-27118); MARC publication date [1923].",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "victor-1925",
+      "title": "1925 Catalog of Victor Records, Victor Talking Machine Company",
+      "url": "https://archive.org/download/catalogueofvicto00vict_0/catalogueofvicto00vict_0_djvu.txt",
+      "locator": "Title page: copyright 1925. OCR text of the Red Seal listings; the entries relevant here are named in the recording fields. Contemporary evidence that the record was on sale by 1925, independent of the session date. Entry relevant here: “In F Sharp Major (Op. 15, No. 2) and Polichinelle Piano Rachmaninoff”, i.e. the Victor 6452 coupling.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score-pol",
+      "title": "Piano Street: Polichinelle, Op. 3 No. 4 (score scan)",
+      "url": "https://www.pianostreet.com/rachmaninoff-sheet-music/morceaux-de-fantaisie/polichinelle-op-3-4.htm",
+      "locator": "Eight pages: Allegro vivace, Agitato, return of the opening gestures, closing fff chords with fermata. Used for form and markings only; the performing edition is not identified.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "hyp-op3",
+      "title": "Hyperion Records: Morceaux de fantaisie, Op 3, CDA66081",
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W6690_66081",
+      "locator": "Note by Robert Matthew-Walker (1983): composition of the set, Slonov’s title for Polichinelle, the fifth piece, Gutheil’s publication in February 1893 and dedication to Arensky.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp-op3",
+      "title": "IMSLP: Morceaux de fantaisie, Op.3 (Rachmaninoff, Sergei)",
+      "url": "https://imslp.org/wiki/Morceaux_de_fantaisie,_Op.3_(Rachmaninoff,_Sergei)",
+      "locator": "Work info: five pieces, composed 1892, first published Moscow, Gutheil, 1893; dedication Arensky; extra information note that Nos. 3 and 5 were revised (No. 3 in 1940, No. 5 in 1922).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "chronology",
+      "title": "Classical Pianists: Sergei Rachmaninoff — Chronology II",
+      "url": "https://classical-pianists.net/vii-b/sergei-rachmaninoff/chronology-2/",
+      "locator": "Section “SVR-C#001. April 1919: New York City”: Edison matrices 6742–6744 dated 24 April 1919, with takes A–C; concert programmes 1918–1923; reproduced review by W. J. Henderson, The Sun, 22 December 1918.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: pre-1972 sound recordings first published before 1923 had already lost remedies on 31 December 2021; recordings published 1923–1946 receive 100 years from publication, so those published in or before 1925 are in the public domain from 1 January 2026.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

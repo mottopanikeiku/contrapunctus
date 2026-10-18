@@ -3,6 +3,7 @@
   "id": "vivaldi-spring-allegro-modena",
   "source": {
     "mutopia": 301,
+    "legacyRelative": "verify-midi",
     "title": "La Primavera / Spring, RV 269 — I. Allegro",
     "edition": "Performers’ Facsimiles",
     "encoder": "Anonymous (Mutopia maintainer)",
@@ -17,8 +18,9 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi",
-    "expectedTracks": ["control track", "solo", "violinone", "violintwo", "viola", "cello"],
+    "mode": "compiled-midi",
+    "comparePublished": {},
+    "music": "\\new StaffGroup << \\new Staff = \"solo\" \\with { instrumentName = \"Violin solo\" } { \\ViolinoPrincipaleSpringOne } \\new Staff = \"violinone\" \\with { instrumentName = \"Violin I\" } { \\ViolinoPrimoSpringOne } \\new Staff = \"violintwo\" \\with { instrumentName = \"Violin II\" } { \\ViolinoSecondoSpringOne } \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } { \\AltoViolaSpringOne } \\new Staff = \"cello\" \\with { instrumentName = \"Continuo bass\" } << \\FiguredBassSpringOne \\VioloncelloSpringOne >> >>",
     "definitions": [
       { "file": "spring-lys/spring1.ly" },
       { "file": "spring-lys/spring1a.ly" },

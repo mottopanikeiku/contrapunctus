@@ -1,0 +1,17 @@
+export default {
+  id: 'ives-concord-emerson',
+  composer: 'ives',
+  order: 2,
+  work: 'Piano Sonata No. 2, ‘Concord, Mass., 1840–60’',
+  movement: 'I. Emerson',
+  set: { id: 'ives-concord', title: 'Piano Sonata No. 2, ‘Concord, Mass., 1840–60’', part: 1, of: 4 },
+  year: '1911–19; revised to 1947',
+  key: '',
+  forces: 'Piano',
+  performers: 'Eric Xi Xin Liang, piano',
+  recorded: '2024',
+  license: 'CC BY 4.0',
+  source: { file: 'File:Ives - Piano Sonata No.2 - I. Emerson (Eric Xi Xin Liang).flac' },
+  intro: 'Ives begins his portrait of Emerson with overlapping fragments, not a tune neatly presented for development. Follow the contrast between crowded outbursts and quieter episodes; the rhythm of Beethoven’s Fifth helps connect them.',
+  question: 'How can a recurring rhythm connect episodes that refuse a single continuous argument?',
+};

@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.ly",
         "file": "SchumannOp15No01.ly",
-        "sha256": null
+        "sha256": "b8f84c1b53f5aa150c54cd685f6f38fbbe3f76796f22add412620498adf2ac0a"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.mid",
         "file": "SchumannOp15No01.mid",
-        "sha256": null
+        "sha256": "e58e708afe8b31c634a0e9f3354a4ed94670e929d82926f7ff49dea3ebe146c2"
       }
     ]
   },
@@ -74,18 +74,41 @@
       4
     ],
     "last": [
-      106,
-      109
+      108.8,
+      109.5
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "The initial106–109s final window excluded the visible final G4 attack near109.1s. Fresh104–111.901s pitch/onset overlay shows that attack after the preceding soft notes; narrow the pitch search to108.8–109.5s rather than treating earlier decay as the final attack. First window remains from cached analysis."
   },
   "boundaries": [],
   "diagnostics": {
     "recurrences": [
-      { "startQ": 0, "startOffset": 1, "secondQ": 16, "secondOffset": 1, "length": 12, "search": 4 },
-      { "startQ": 32, "startOffset": 1, "secondQ": 60, "secondOffset": 1, "length": 20, "search": 4 }
+      {
+        "startQ": 0,
+        "startOffset": 1,
+        "secondQ": 16,
+        "secondOffset": 1,
+        "length": 12,
+        "search": 4
+      },
+      {
+        "startQ": 32,
+        "startOffset": 1,
+        "secondQ": 60,
+        "secondOffset": 1,
+        "length": 20,
+        "search": 4
+      }
     ],
-    "overlays": [[12, 24], [62, 78]]
+    "overlays": [
+      [
+        12,
+        24
+      ],
+      [
+        62,
+        78
+      ]
+    ]
   },
   "engraving": {
     "staff": 18,

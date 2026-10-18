@@ -1,0 +1,24 @@
+{
+  "mutopia": 301,
+  "title": "La Primavera / Spring, RV 269 — I. Allegro",
+  "edition": "Performers’ Facsimiles",
+  "encoder": "Anonymous (Mutopia maintainer)",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "main": "spring-lys/spring-score.ly",
+  "midi": "spring-score.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-lys.zip",
+      "file": "spring-lys.zip",
+      "sha256": "3a87fa93faace5b2d6689fe6d39b3ee32dde6649d924a394f6b05239b22cbab9"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-mids.zip",
+      "file": "spring-mids.zip",
+      "sha256": "1e3d57ffee2dc77a4d06d777f01633d3726c57221b35661d6093095ca8cef3fd"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

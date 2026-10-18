@@ -105,15 +105,12 @@
     "description": "Only movement 1: bars 1–63 once in written order, with no pickup or repeat traversal. Returning material is written out in the source."
   },
   "endpoints": {
-    "first": [
-      0,
-      3
-    ],
+    "first": [0.4, 0.8],
     "last": [
       198,
       204
     ],
-    "basis": "Initial score-pitch search windows from the cached recording analysis. Refine from endpoint pitch-energy evidence before publication; source-file tail or container duration is not the final musical attack."
+    "basis": "Initial F3 bass attacks are quiet: the fresh pitch-energy overlay and flux probe locate the first rise near 0.6 s, before the louder repeated F3 attacks around 2.4 s. The first window excludes those later repetitions; the final window covers the closing F-minor chord, not the container tail. These are measured pitch windows, not an aural review."
   },
   "boundaries": [],
   "provenance": [

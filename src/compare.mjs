@@ -28,9 +28,8 @@ function groupFor(c, recordings, composer) {
   const family = composer?.family?.toLowerCase();
   if (family && recordings.some((r) => r.performers.toLowerCase().includes(family))) return 'composer-performers';
   if (recordings.some((r) => /soprano|tenor|baritone|bass voice|contralto|mezzo|voice|singer/i.test(r.forces))) return 'singers';
-  const years = recordings.map((r) => r.year).filter(Number.isFinite);
-  if (years.length > 1 && Math.max(...years) - Math.min(...years) >= 75) return 'century';
-  return recordings.every((r) => /piano/i.test(r.forces)) ? 'golden-age' : 'century';
+  // Golden Age membership is an authored category, not something piano forces establish.
+  return 'century';
 }
 
 function alignmentData(data, id) {

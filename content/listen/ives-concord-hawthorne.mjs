@@ -1,0 +1,17 @@
+export default {
+  id: 'ives-concord-hawthorne',
+  composer: 'ives',
+  order: 3,
+  work: 'Piano Sonata No. 2, ‘Concord, Mass., 1840–60’',
+  movement: 'II. Hawthorne',
+  set: { id: 'ives-concord', title: 'Piano Sonata No. 2, ‘Concord, Mass., 1840–60’', part: 2, of: 4 },
+  year: '1911–19; revised to 1947',
+  key: '',
+  forces: 'Piano',
+  performers: 'Eric Xi Xin Liang, piano',
+  recorded: '2024',
+  license: 'CC BY 4.0',
+  source: { file: 'File:Ives - Piano Sonata No.2 - II. Hawthorne (Eric Xi Xin Liang).flac' },
+  intro: 'Ives’s scherzo draws on Hawthorne’s fantastic stories rather than narrating one plot. Rapid figuration, quiet clusters, ragtime, hymn and march change the piano’s behaviour as abruptly as a scene changes in a story.',
+  question: 'What holds a movement together when its musical scenes keep interrupting one another?',
+};

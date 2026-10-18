@@ -105,15 +105,12 @@
     "description": "Only movement 2: bars 1–18 once in written order, with no pickup or repeat traversal. Returning material is written out in the source."
   },
   "endpoints": {
-    "first": [
-      0,
-      3
-    ],
+    "first": [1.5, 1.9],
     "last": [
       121,
       127
     ],
-    "basis": "Initial score-pitch search windows from the cached recording analysis. Refine from endpoint pitch-energy evidence before publication; source-file tail or container duration is not the final musical attack."
+    "basis": "The fresh pitch-energy overlay shows the first E-flat5/B-flat4/E-flat3 onset around 1.7 s, preceding louder rearticulations at 2.0–2.5 s; the first window isolates that quiet initial rise. The final window covers the last source chord around 121.2 s. These are measured pitch windows, not an aural review."
   },
   "boundaries": [],
   "provenance": [

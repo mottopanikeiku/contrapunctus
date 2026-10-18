@@ -110,17 +110,33 @@ def prepare(cfg, lilypond=LILYPOND):
         ET.ElementTree(xml).write(selected, encoding='utf-8', xml_declaration=True)
         main.parent.mkdir(parents=True, exist_ok=True)
         subprocess.run([str(Path(lilypond).with_name('musicxml2ly')), '--midi', '--npl', '-o', str(main), str(selected)], check=True)
+    legacy = source.get('legacyRelative')
+    if legacy:
+        extraction = cfg['extraction']
+        if (legacy != 'verify-midi' or extraction['mode'] != 'compiled-midi'
+                or extraction.get('comparePublished') is None or not source.get('midi')
+                or not extraction.get('music')
+                or extraction['music'] != cfg.get('engraving', {}).get('music')):
+            raise ValueError('legacyRelative requires compiled-midi, comparePublished, source.midi and identical extraction/engraving music')
     main_text = main.read_text()
     version = re.search(r'\\version\s+"([^"]+)"', main_text)
     for file in sorted(directory.rglob('*')):
         if file.suffix not in ('.ly', '.ily', '.lyi'):
             continue
+        text = file.read_text()
+        if legacy:
+            # Conversion is provisional until the selected movement's exact
+            # pitch/onset multiset is checked against its published MIDI.
+            text = re.sub(r"(?m)^[ \t]*#\(ly:set-option\s+'old-relative\)[ \t]*(?:%[^\n]*)?$", '', text)
+            file.write_text(text)
         command = [str(Path(lilypond).with_name('convert-ly')), '--loglevel=ERROR']
-        if not re.search(r'\\version\s+"', file.read_text()):
+        if not re.search(r'\\version\s+"', text):
             if not version:
                 raise ValueError(f'No LilyPond version for {file}')
             command += ['--from=' + version[1]]
-        converted = subprocess.run(command + [str(file)], check=True, capture_output=True, text=True)
+        converted = subprocess.run(command + [str(file)], capture_output=True, text=True)
+        if converted.returncode:
+            raise ValueError(f'convert-ly failed for {file.relative_to(directory)}: {converted.stderr.strip()}')
         file.write_text(converted.stdout)
     if cfg['extraction']['mode'] != 'published-midi' or cfg.get('engraving', {}).get('music'):
         (directory / '__definitions.ly').write_text(definitions(cfg, directory))

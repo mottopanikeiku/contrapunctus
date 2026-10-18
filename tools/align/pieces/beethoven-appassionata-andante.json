@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "id": "beethoven-appassionata-andante",
+  "source": {
+    "mutopia": 288,
+    "title": "Appassionata, Op.57 — Andante con moto",
+    "edition": "Schott Einzelausgabe",
+    "encoder": "Andreas Scherer",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=288",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "LVB_Sonate_57_2.ly",
+    "midi": "LVB_Sonate_57_2.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_2/LVB_Sonate_57_2.ly",
+        "file": "LVB_Sonate_57_2.ly",
+        "sha256": "7fbe04dc45a4ddc125f0ebd0089856c5a042b5da0390abf7a1fc2a230c841a60"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_2/LVB_Sonate_57_2.mid",
+        "file": "LVB_Sonate_57_2.mid",
+        "sha256": "2e96269c006b85a0986c7156cb70bf967a96e9a52d55ad47958d0e6b3c96243f"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "timeline": "canonical"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 102,
+    "quarters": 2,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        17,
+        25
+      ],
+      [
+        18,
+        23
+      ],
+      [
+        26,
+        34
+      ],
+      [
+        27,
+        33
+      ],
+      [
+        35,
+        43
+      ],
+      [
+        36,
+        42
+      ],
+      [
+        44,
+        52
+      ],
+      [
+        45,
+        51
+      ],
+      [
+        53,
+        102
+      ]
+    ],
+    "description": "Theme8+8 bars each repeated. Variation1 source first ending spans24–25 before returning18–23 and taking26; other written alternatives are34/35,43/44,52/53. The32bar third variation and17bar theme return/transition are written out. Printed-source numbering includes alternative endings."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      347,
+      354
+    ],
+    "basis": "Final score-attack search windows from cache/analysis report, excluding trailing transfer noise or silence; inspect exact pitch/attack overlays before publication."
+  },
+  "boundaries": [
+    [
+      "17",
+      1,
+      94
+    ],
+    [
+      "36",
+      1,
+      166
+    ],
+    [
+      "54",
+      1,
+      234
+    ],
+    [
+      "86",
+      1,
+      294
+    ]
+  ],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Read content/listen/beethoven-appassionata-andante.mjs and cache/analysis/beethoven-appassionata-andante.txt. Author independently supplied broad formal-section estimates from harmonic trajectories and note-density changes; these are coarse diagnostic locators, not hand-marked individual attacks.",
+    "Published MIDI tracks were inspected against the original piano staves and not separated by register. Cross-staff entries remain source staff allocations, not fictitious independent voices.",
+    "Theme8+8 bars each repeated. Variation1 source first ending spans24–25 before returning18–23 and taking26; other written alternatives are34/35,43/44,52/53. The32bar third variation and17bar theme return/transition are written out. Printed-source numbering includes alternative endings."
+  ],
+  "diagnostics": {
+    "overlays": [
+      [
+        86,
+        102
+      ],
+      [
+        158,
+        174
+      ],
+      [
+        226,
+        242
+      ],
+      [
+        286,
+        302
+      ],
+      [
+        342,
+        358
+      ]
+    ]
+  }
+}

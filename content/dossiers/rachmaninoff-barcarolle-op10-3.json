@@ -1,0 +1,269 @@
+{
+  "id": "rachmaninoff-barcarolle-op10-3",
+  "work": {
+    "title": "Barcarolle",
+    "catalogue": "Op. 10 No. 3",
+    "movement": "Moderato",
+    "version": {
+      "value": "Solo piano, performed by the composer",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "dahr-edison-barc"
+      ],
+      "note": "No performing score edition is identified, and the printed text is not asserted to match the performance."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "booklet",
+      "dahr-edison-barc"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1919-04",
+      "status": "disputed",
+      "sourceIds": [
+        "dahr-edison-barc",
+        "booklet",
+        "archive",
+        "chronology",
+        "loc-csb"
+      ],
+      "note": "Sources agree on April 1919 and disagree on the day. The Archive filenames, the RCA register and the Library of Congress bulletin give 23 April; DAHR’s Edison ledger entry and the Classical Pianists chronology give 24 April. The day is not resolved here.",
+      "precision": "month",
+      "alternatives": [
+        {
+          "value": "1919-04-23",
+          "sourceIds": [
+            "booklet",
+            "archive",
+            "loc-csb"
+          ]
+        },
+        {
+          "value": "1919-04-24",
+          "sourceIds": [
+            "dahr-edison-barc",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "value": "New York, New York",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-edison-barc",
+        "loc-csb"
+      ],
+      "note": "DAHR gives New York for every take. The Library of Congress bulletin names Edison Studios, New York. The label place of publication, Orange, New Jersey, is not the session place."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Edison Diamond Disc; RCA/BMG reissue",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-edison-barc",
+        "densmore",
+        "loc-csb",
+        "booklet"
+      ],
+      "note": "Edison is the original label (released at Orange, New Jersey, according to DAHR’s label record); the uploader identifies the 1992 RCA/BMG set as the immediate source of the file."
+    },
+    "catalogue": {
+      "value": "Edison Diamond Disc 82202 (10-inch double-faced; Barcarolle on side L, Chopin’s Valse in A♭, Op. 64 No. 3, on side R); RCA-BMG 09026 61265 2, CD 10 (1992)",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-edison-barc",
+        "densmore",
+        "loc-csb",
+        "booklet"
+      ],
+      "note": "The side assignment and disc number are documented by the Edison list and the Library of Congress bulletin; the disc used for the 1992 transfer is not identified. DAHR’s MARC record for the disc gives 10-inch, 80 rpm and a bracketed publication year of [1919], which predates the release documented by Densmore (February 1921) and by the Library of Congress ([1921]) and is not followed for the release date; either year is before 1926."
+    },
+    "matrixTakeSides": {
+      "value": "Edison matrix 6743, take C (side L)",
+      "status": "inferred",
+      "sourceIds": [
+        "booklet",
+        "archive",
+        "dahr-edison-barc"
+      ],
+      "note": "The RCA register names Edison 6743-C for CD 10, track 16, and the Archive file is that track. Edison issued all three takes (A, B, C) on the same catalogue number, so the disc number alone does not identify the take, and no comparison of takes was made. DAHR gives its own take dates (24 April 1919) which differ from the RCA register (23 April)."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "John Pfeiffer, reissue producer; Ward Marston, disc-to-DAT transfer; André Gauthier, remastering supervisor; Anthony Salvatore, remastering engineer",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "These are the credits printed for the 1992 RCA/BMG set. Their connection to this access file rests on the uploader’s identification of the item as CD 10 of that set. The later ripper and uploader are not named as engineers."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "The set was issued in 1992, but the dates of the disc-to-DAT transfer, the remastering and the later CD extraction are not stated. The Internet Archive upload of 11 October 2025 is not a transfer date."
+    },
+    "processing": {
+      "value": "Disc-to-DAT transfer, then digital remastering at BMG/RCA Studios, New York City; the Internet Archive derives its VBR MP3 from an uploaded WAV.",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive-data"
+      ],
+      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/195-complete-rachmaninoff-cd-10/201%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-Rachmaninov%20-%20Barcarolle%2C%20Op.%2010%2C%20No.%203%20(rec.%2023.IV.1919%20for%20Edison).mp3",
+    "sourceChain": [
+      "archive",
+      "archive-data",
+      "booklet",
+      "dahr-edison-barc"
+    ],
+    "format": "VBR MP3 access derivative; the uploaded source is a WAV taken from a 1992 CD reissue of an acoustic disc",
+    "durationSeconds": 235.67
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about any modern edition."
+    },
+    "recording": {
+      "value": "US public domain: the issued sound recording was published by 1925 (Edison Diamond Disc 82202, released February 1921).",
+      "status": "documented",
+      "sourceIds": [
+        "densmore",
+        "loc-csb",
+        "dahr-edison-barc",
+        "archive",
+        "us-term"
+      ],
+      "note": "Densmore’s Edison list gives a February 1921 release for 82202, and the Library of Congress Cataloging Service Bulletin 61 catalogues the disc as Edison [1921]; this is independent of the April 1919 session date. The Archive item’s Public Domain Mark is noted but not relied on. The 1992 booklet carries an all-rights-reserved reissue notice: no claim is made that its text, artwork or compilation is public domain, or that any new creative contribution to the mastering is cleared worldwide."
+    },
+    "creditLine": "Sergei Rachmaninoff, piano — Barcarolle, Op. 10 No. 3. Edison Diamond Disc 82202-L, matrix 6743 (New York, April 1919). Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s licence statement.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Complete Rachmaninoff, CD 10",
+      "url": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+      "locator": "Uploader identifies RCA-BMG 09026 61265 2 (1992), CD 10, with track filenames carrying recording dates; the item description says tracks 195–202 were made in April 1919 for Edison and all others by Victor; the item links the original booklet and carries Public Domain Mark 1.0.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-data",
+      "title": "Internet Archive item metadata and file manifest",
+      "url": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+      "locator": "Track-specific WAV originals, FLAC and generated VBR MP3 access files, durations and the licence URL (https://creativecommons.org/publicdomain/mark/1.0/). The item’s 2025 public date is an upload date, not a session or transfer date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "booklet",
+      "title": "RCA: Sergei Rachmaninoff, The Complete Recordings, 10-CD booklet (1992)",
+      "url": "https://archive.org/download/9-0023-sergei-rachmaninoff-complete-recordings-booklet-to-10-cd-set-rca-bmg-09026-61265-2-1992/9-0023%20Sergei%20RACHMANINOFF%20-%20Complete%20Recordings%20-%20Booklet%20to%2010%20CD%20Set%20RCA-BMG%2009026%2061265%202%20(1992)_djvu.txt",
+      "locator": "Printed p. 20: reissue and transfer credits; essays “The Composer” and “The Recordings” (Edison sessions, Victor contract, microphone-less horn recording); “The Performances of Rachmaninoff”: register of dates, matrices and CD/track numbers; closing remastering notice. OCR text consulted against the track listing.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-edison-barc",
+      "title": "DAHR: Edison matrix 6743, Barcarolle",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000153820",
+      "locator": "Take table: takes A, B and C, all dated 24 April 1919, New York; all masters, issued on Edison 82202 (coupled with Chopin’s Valse in A♭, matrix 6736); MARC for Edison 82202: 10-in., 80 rpm, [1919] (https://adp.library.ucsb.edu/index.php/objects/refer/234970).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "densmore",
+      "title": "Richard Densmore’s Edison Diamond Discs: Edison Records list",
+      "url": "https://www.densmore-edisondd.info/EdisonRecordsList/index.html",
+      "locator": "Numerical list: 82187 (3/12/20, 12/1920) with Prelude in C sharp minor on side R and Polka de W. R. on side L; 82202 (8/2/20, 2/1921) with Chopin Valse Op. 64 No. 3 on side R and Rachmaninoff Barcarolle Op. 10 on side L; alphabetical index entries for both titles.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "loc-csb",
+      "title": "Library of Congress Cataloging Service Bulletin No. 61 (Summer 1993)",
+      "url": "https://loc.gov/cds/PDFdownloads/csb/CSB_061.pdf",
+      "locator": "p. 3: record for Edison 82202, Barcarolle, op. 10, with Chopin Valse in A♭, op. 64 no. 3; Edison [1921]; “Recorded at Edison Studios, New York, Apr. 19 (2nd work) and Apr. 23 (1st work), 1919”; acoustic recording.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "chronology",
+      "title": "Classical Pianists: Sergei Rachmaninoff — Chronology II",
+      "url": "https://classical-pianists.net/vii-b/sergei-rachmaninoff/chronology-2/",
+      "locator": "Section “SVR-C#001. April 1919: New York City”: Edison matrices 6742–6744 dated 24 April 1919, with takes A–C; concert programmes 1918–1923; reproduced review by W. J. Henderson, The Sun, 22 December 1918.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "wiki-op10",
+      "title": "Wikipedia: Morceaux de salon, Op. 10 (Rachmaninoff)",
+      "url": "https://en.wikipedia.org/wiki/Morceaux_de_salon,_Op._10_(Rachmaninoff)",
+      "locator": "Opening paragraph: solo piano set composed in 1894.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp-op10",
+      "title": "IMSLP: 7 Morceaux de salon, Op.10 (Rachmaninoff, Sergei)",
+      "url": "https://imslp.org/wiki/7_Morceaux_de_salon,_Op.10_(Rachmaninoff,_Sergei)",
+      "locator": "Piece list including Nocturne, Valse, Barcarolle and Humoresque; 1940 version of No. 5 in the Muzgiz edition note.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score-barc",
+      "title": "Piano Street: Barcarolle, Op. 10 No. 3 (score scan)",
+      "url": "https://www.pianostreet.com/rachmaninoff-sheet-music/7-morceaux-de-salon-op-10/barcarolle-op-10-no-3.htm",
+      "locator": "Ten pages: Moderato, Con moto (pp), Presto (pppp), Allegro moderato, Meno mosso, second Con moto, closing pppp sextuplets. Used for form and markings only; the performing edition is not identified.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: pre-1972 sound recordings first published before 1923 had already lost remedies on 31 December 2021; recordings published 1923–1946 receive 100 years from publication, so those published in or before 1925 are in the public domain from 1 January 2026.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -138,14 +138,14 @@
   },
   "endpoints": {
     "first": [
-      0,
-      3
+      0.4,
+      0.9
     ],
     "last": [
       680,
       691
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+    "basis": "Pitch-energy inspection, not listening: the first brass chord rises around0.6 seconds in the opening overlay; a broad0–3 search wrongly chose a swell at2.34 and was rejected. Final divided-bass entry inspected in the680–692 overlay. Windows do not relax any publication gate."
   },
   "boundaries": [
     [

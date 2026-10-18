@@ -150,10 +150,24 @@
       "accessed": "2026-09-29"
     },
     {
+      "id": "first-edition",
+      "title": "Yale University Library — Liszt’s B-minor Sonata first edition",
+      "url": "https://musiclib-exhibits.library.yale.edu/exhibits/liszt/bminor_sonata.html",
+      "locator": "Exhibit of the Breitkopf & Härtel first edition: explicit 1854 publication date, Schumann dedication, transformed themes and lack of a composer-supplied written programme.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "chronology",
+      "title": "Franz Liszt — chronology",
+      "url": "https://www.liszt.org/p/chronology.html",
+      "locator": "1857 entry: first performance of the B-minor Sonata by Bülow on 22 January. The site’s existing Liszt biography separately specifies Berlin.",
+      "accessed": "2026-09-29"
+    },
+    {
       "id": "analysis",
       "title": "Liszt Sonata — thematic and formal analysis",
       "url": "https://www.classicalmusic-notes.com/liszt-sonata-1/",
-      "locator": "Motif derivations, slow and fugal regions, quiet ending, composition/publication/première chronology.",
+      "locator": "Motif derivations, slow and fugal regions, quiet ending, 1853 composition and competing formal readings; not the source for the exact publication date or named première venue.",
       "accessed": "2026-09-29"
     }
   ],

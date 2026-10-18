@@ -1,0 +1,273 @@
+{
+  "id": "rachmaninoff-polka-vr",
+  "work": {
+    "title": "Polka de V.R. (Polka de W. R.)",
+    "catalogue": "Threlfall & Norris II/18",
+    "movement": "Allegretto",
+    "version": {
+      "value": "Composer’s arrangement for piano (1911) of Franz Behr’s Scherzpolka Lachtäubchen, Op. 303, as played by him",
+      "status": "documented",
+      "sourceIds": [
+        "hyperion",
+        "imslp-polka"
+      ],
+      "note": "The printed title is Polka de W. R. (W. for Wassily, the composer’s father); the RCA set and the Archive file use V.R. Behr’s theme is transposed from F to A♭ with an added counter-melody and without Behr’s middle section. The score prints ossia alternatives, and the edition used by the composer for this recording is not identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sergei Rachmaninoff",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "booklet",
+      "dahr-edison-polka"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1919-04",
+      "status": "disputed",
+      "sourceIds": [
+        "dahr-edison-polka",
+        "booklet",
+        "archive",
+        "chronology"
+      ],
+      "note": "Sources agree on April 1919 and disagree on the day. The Archive filenames, the RCA register give 23 April; DAHR’s Edison ledger entry and the Classical Pianists chronology give 24 April. The day is not resolved here.",
+      "precision": "month",
+      "alternatives": [
+        {
+          "value": "1919-04-23",
+          "sourceIds": [
+            "booklet",
+            "archive"
+          ]
+        },
+        {
+          "value": "1919-04-24",
+          "sourceIds": [
+            "dahr-edison-polka",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "value": "New York, New York",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-edison-polka"
+      ],
+      "note": "DAHR gives New York for every take. The label place of publication, Orange, New Jersey, is not the session place."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Edison Diamond Disc; RCA/BMG reissue",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-edison-polka",
+        "densmore",
+        "fau",
+        "booklet"
+      ],
+      "note": "Edison is the original label (released at Orange, New Jersey, according to DAHR’s label record); the uploader identifies the 1992 RCA/BMG set as the immediate source of the file."
+    },
+    "catalogue": {
+      "value": "Edison Diamond Disc 82187 (10-inch double-faced; Polka on side L, Prelude in C♯ minor on side R); RCA-BMG 09026 61265 2, CD 10 (1992)",
+      "status": "documented",
+      "sourceIds": [
+        "dahr-edison-polka",
+        "densmore",
+        "fau",
+        "booklet"
+      ],
+      "note": "The side assignment and disc number are documented by the Edison list and the Florida Atlantic catalogue; the disc used for the 1992 transfer is not identified. DAHR’s MARC record for the disc gives 10-inch, 80 rpm and a bracketed publication year of [1919], which predates the release documented by the National Park Service and Densmore (December 1920) and is not followed for the release date; it is the same year as the session either way, and before 1926."
+    },
+    "matrixTakeSides": {
+      "value": "Edison matrix 6744, take B (side L)",
+      "status": "inferred",
+      "sourceIds": [
+        "booklet",
+        "archive",
+        "dahr-edison-polka"
+      ],
+      "note": "The RCA register names Edison 6744-B for CD 10, track 15, and the Archive file is that track. Edison issued all three takes (A, B, C) on the same catalogue number, so the disc number alone does not identify the take, and no comparison of takes was made. DAHR gives its own take dates (24 April 1919) which differ from the RCA register (23 April)."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "John Pfeiffer, reissue producer; Ward Marston, disc-to-DAT transfer; André Gauthier, remastering supervisor; Anthony Salvatore, remastering engineer",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "These are the credits printed for the 1992 RCA/BMG set. Their connection to this access file rests on the uploader’s identification of the item as CD 10 of that set. The later ripper and uploader are not named as engineers."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "booklet",
+        "archive"
+      ],
+      "note": "The set was issued in 1992, but the dates of the disc-to-DAT transfer, the remastering and the later CD extraction are not stated. The Internet Archive upload of 11 October 2025 is not a transfer date."
+    },
+    "processing": {
+      "value": "Disc-to-DAT transfer, then digital remastering at BMG/RCA Studios, New York City; the Internet Archive derives its VBR MP3 from an uploaded WAV.",
+      "status": "documented",
+      "sourceIds": [
+        "booklet",
+        "archive-data"
+      ],
+      "note": "The booklet says surface imperfections were reduced without radical removal of all surface noise. It gives no equalisation, pitch-correction, noise-reduction or editing settings, and none is inferred from the audio analysis. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant. The booklet’s essay says the Edison engineer evidently placed the upright piano too far from the recording horns, so the sound is distant."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/195-complete-rachmaninoff-cd-10/200%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-Rachmaninov%20-%20Polka%20de%20V.R.%20(rec.%2023.IV.1919%20for%20Edison).mp3",
+    "sourceChain": [
+      "archive",
+      "archive-data",
+      "booklet",
+      "dahr-edison-polka"
+    ],
+    "format": "VBR MP3 access derivative; the uploaded source is a WAV taken from a 1992 CD reissue of an acoustic disc",
+    "durationSeconds": 248.8
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about any modern edition. Franz Behr died in 1898, so the underlying polka is also out of copyright on the same calculation."
+    },
+    "recording": {
+      "value": "US public domain: the issued sound recording was published by 1925 (Edison Diamond Disc 82187, released December 1920).",
+      "status": "documented",
+      "sourceIds": [
+        "edison-nps",
+        "densmore",
+        "dahr-edison-polka",
+        "archive",
+        "us-term"
+      ],
+      "note": "The National Park Service catalogue and Densmore’s list both give a December 1920 release for Edison 82187, whose side L carries the Polka; this is independent of the April 1919 session date. The Archive item’s Public Domain Mark is noted but not relied on. The 1992 booklet carries an all-rights-reserved reissue notice: no claim is made that its text, artwork or compilation is public domain, or that any new creative contribution to the mastering is cleared worldwide."
+    },
+    "creditLine": "Sergei Rachmaninoff, piano — Polka de V.R. (Polka de W. R.). Edison Diamond Disc 82187-L, matrix 6744 (New York, April 1919). Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s licence statement.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Complete Rachmaninoff, CD 10",
+      "url": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+      "locator": "Uploader identifies RCA-BMG 09026 61265 2 (1992), CD 10, with track filenames carrying recording dates; the item description says tracks 195–202 were made in April 1919 for Edison and all others by Victor; the item links the original booklet and carries Public Domain Mark 1.0.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-data",
+      "title": "Internet Archive item metadata and file manifest",
+      "url": "https://archive.org/metadata/195-complete-rachmaninoff-cd-10",
+      "locator": "Track-specific WAV originals, FLAC and generated VBR MP3 access files, durations and the licence URL (https://creativecommons.org/publicdomain/mark/1.0/). The item’s 2025 public date is an upload date, not a session or transfer date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "booklet",
+      "title": "RCA: Sergei Rachmaninoff, The Complete Recordings, 10-CD booklet (1992)",
+      "url": "https://archive.org/download/9-0023-sergei-rachmaninoff-complete-recordings-booklet-to-10-cd-set-rca-bmg-09026-61265-2-1992/9-0023%20Sergei%20RACHMANINOFF%20-%20Complete%20Recordings%20-%20Booklet%20to%2010%20CD%20Set%20RCA-BMG%2009026%2061265%202%20(1992)_djvu.txt",
+      "locator": "Printed p. 20: reissue and transfer credits; essays “The Composer” and “The Recordings” (Edison sessions, Victor contract, microphone-less horn recording); “The Performances of Rachmaninoff”: register of dates, matrices and CD/track numbers; closing remastering notice. OCR text consulted against the track listing.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr-edison-polka",
+      "title": "DAHR: Edison matrix 6744, Polka de W. R.",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000153821",
+      "locator": "Take table: takes A, B and C, all dated 24 April 1919, New York; all masters, issued on Edison 82187; sources cited by DAHR include Thomas Edison National Historical Park ledgers and Wile for the take date. Issue record https://adp.library.ucsb.edu/index.php/objects/refer/234955: Edison 82187, 10-in. double-faced, with the Prelude in C sharp minor (matrix 6742), MARC [Orange, N.J.] [1919], 80 rpm",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "edison-nps",
+      "title": "National Park Service — Edison National Historic Site: Classical Instrumental",
+      "url": "https://web.archive.org/web/20071108225217/http://www.nps.gov/archive/edis/edisonia/classical.htm",
+      "locator": "Entry ‘Prelude in C sharp minor, Op. 3’: Edison Diamond Disc 82187-R, matrix 6742-C-2-3, recording year 1919, release December 1920. Archived 8 November 2007. The disc’s other side (82187-L) carries the Polka de W. R.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "densmore",
+      "title": "Richard Densmore’s Edison Diamond Discs: Edison Records list",
+      "url": "https://www.densmore-edisondd.info/EdisonRecordsList/index.html",
+      "locator": "Numerical list: 82187 (3/12/20, 12/1920) with Prelude in C sharp minor on side R and Polka de W. R. on side L; 82202 (8/2/20, 2/1921) with Chopin Valse Op. 64 No. 3 on side R and Rachmaninoff Barcarolle Op. 10 on side L; alphabetical index entries for both titles.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "fau",
+      "title": "Florida Atlantic University Recorded Sound Archives: Polka de W. R.; Prelude in C# minor",
+      "url": "https://rsa.fau.edu/album/17098",
+      "locator": "Catalogue entry: Edison 82187-L / 82187-R, 78 RPM 10-in., date recorded 1919-04, tracks Polka de W. R. and Prelude in C Sharp Minor.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "chronology",
+      "title": "Classical Pianists: Sergei Rachmaninoff — Chronology II",
+      "url": "https://classical-pianists.net/vii-b/sergei-rachmaninoff/chronology-2/",
+      "locator": "Section “SVR-C#001. April 1919: New York City”: Edison matrices 6742–6744 dated 24 April 1919, with takes A–C; concert programmes 1918–1923; reproduced review by W. J. Henderson, The Sun, 22 December 1918.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "hyperion",
+      "title": "Hyperion Records: Polka de W R (Behr/Rachmaninov), CDA66486",
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W5662_GBAJY9148612",
+      "locator": "Note by Jeremy Nicholas (2001): the polka is Franz Behr’s Scherzpolka Op. 303, transposed F major to A♭, with an added counter-melody; recordings of 1919, 1921 and 1928 and one piano roll.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp-polka",
+      "title": "IMSLP: Polka de W.R. (Rachmaninoff, Sergei)",
+      "url": "https://imslp.org/wiki/Polka_de_W.R._(Rachmaninoff,_Sergei)",
+      "locator": "Work info: key A♭, 1911, first publication London, Hawkes & Sons, dedication Leopold Godowsky, based on Behr’s La Rieuse, Op. 303; alternative title Полька В.Р.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score-polka",
+      "title": "Piano Street: Polka de W. R. (score scan)",
+      "url": "https://www.pianostreet.com/rachmaninoff-sheet-music/polka-de-w-r.htm",
+      "locator": "Eight pages of the Hawkes & Son edition: Allegretto, Poco più mosso, Meno mosso, the passage in four sharps at Tempo precedente (scherzando), Tempo I, closing Meno mosso. Used for form and markings only; the printed ossia passages mean the edition used by the composer for the recording is not identified.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: pre-1972 sound recordings first published before 1923 had already lost remedies on 31 December 2021; recordings published 1923–1946 receive 100 years from publication, so those published in or before 1925 are in the public domain from 1 January 2026.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

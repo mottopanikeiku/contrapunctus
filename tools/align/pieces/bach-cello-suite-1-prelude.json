@@ -36,9 +36,9 @@
     "description": "Prelude bars 1–42 once in written order, with no pickup or repeat. Only the first score in the complete-suite archive is selected; the six dance movements and viola transposition are not used."
   },
   "endpoints": {
-    "first": [0, 2.5],
+    "first": [0.4, 0.85],
     "last": [120, 125],
-    "basis": "Initial source-pitch search windows from the cached 130.312-second recording and its analysis: opening G2 and final G2–B3–G4 chord. Inspect fresh pitch-energy evidence before publication."
+    "basis": "Pitch-energy inspection: the first G2 rise peaks at 0.64 s; the broader initial window selected the repeated half-bar G2 at 2.06 s and was rejected despite passing onset gates. Restrict the opening to the actual first rise. The final G2–B3–G4 chord’s aggregate rise peaks at 123.20 s, with its leading edge at 123.04 s; decay is not a new attack."
   },
   "diagnostics": {
     "held": { "voice": 0, "onsets": [85.5, 164] },

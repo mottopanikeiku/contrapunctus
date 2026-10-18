@@ -1,0 +1,24 @@
+{
+  "title": "String Quartet in F major — II. Assez vif — Très rythmé",
+  "edition": "OpenScore String Quartets; transcribed from IMSLP #335585",
+  "encoder": "Bernhard 1964 / OpenScore String Quartets",
+  "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Ravel%2C_Maurice/String_Quartet_in_F_major/sq8482283.mxl",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "quartet-II.ly",
+  "musicxml": "sq8482283.mxl",
+  "metricEquivalenceWords": true,
+  "otherDynamicsWords": true,
+  "musicxmlMeasures": [
+    213,
+    411
+  ],
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Ravel%2C_Maurice/String_Quartet_in_F_major/sq8482283.mxl",
+      "file": "sq8482283.mxl",
+      "sha256": "3bffd57550f92adb8049971ab1a6b92a14f24c984a92f3f2ddbc32c7aa79f72e"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

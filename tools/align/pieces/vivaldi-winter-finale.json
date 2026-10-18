@@ -105,15 +105,12 @@
     "description": "Only movement 3: bars 1–153 once in written order, with no pickup or repeat traversal. Returning material is written out in the source."
   },
   "endpoints": {
-    "first": [
-      0,
-      3
-    ],
+    "first": [1.25, 2.1],
     "last": [
       186,
       191
     ],
-    "basis": "Initial score-pitch search windows from the cached recording analysis. Refine from endpoint pitch-energy evidence before publication; source-file tail or container duration is not the final musical attack."
+    "basis": "The fresh pitch-energy overlay and individual C5/F3 energy profiles show the initial swelling C5 from about 1.4 s, before A-flat5–G5–F5–E5–F5 and the next C5 at 2.9 s. The first window excludes that next repeated figure; the final window covers the last F-minor chord around 189.9 s. These are measured pitch windows, not an aural review."
   },
   "boundaries": [],
   "provenance": [

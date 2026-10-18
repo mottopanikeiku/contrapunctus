@@ -3,6 +3,7 @@
   "id": "vivaldi-spring-finale",
   "source": {
     "mutopia": 301,
+    "legacyRelative": "verify-midi",
     "title": "La Primavera / Spring, RV 269 — III. Allegro — Danza pastorale",
     "edition": "Performers’ Facsimiles",
     "encoder": "Anonymous (Mutopia maintainer)",
@@ -25,15 +26,9 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi",
-    "expectedTracks": [
-      "control track",
-      "solo",
-      "violinone",
-      "violintwo",
-      "viola",
-      "cello"
-    ],
+    "mode": "compiled-midi",
+    "comparePublished": {},
+    "music": "\\new StaffGroup << \\new Staff = \"solo\" \\with { instrumentName = \"Violin solo\" } { \\ViolinoPrincipaleSpringThree } \\new Staff = \"violinone\" \\with { instrumentName = \"Violin I\" } { \\ViolinoPrimoSpringThree } \\new Staff = \"violintwo\" \\with { instrumentName = \"Violin II\" } { \\ViolinoSecondoSpringThree } \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } { \\AltoViolaSpringThree } \\new Staff = \"cello\" \\with { instrumentName = \"Continuo bass\" } << \\FiguredBassSpringThree \\VioloncelloSpringThree >> >>",
     "definitions": [
       {
         "file": "spring-lys/spring3.ly"

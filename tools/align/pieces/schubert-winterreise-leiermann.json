@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "id": "schubert-winterreise-leiermann",
+  "source": {
+    "title": "Winterreise, D. 911 — No. 24 Der Leiermann (later version)",
+    "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established",
+    "encoder": "OpenScore Lieder contributors",
+    "url": "https://musescore.com/openscore-lieder-corpus/scores/5014023",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "main": "song.ly",
+    "musicxml": "lc5014023.mxl",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/24_Der_Leiermann_%28Sp%C3%A4tere_Fassung%29/lc5014023.mxl",
+        "file": "lc5014023.mxl",
+        "sha256": "090a24f0f27a037cd973230980bd0e0ce36e59e4ecf67060584125d1f25be27e"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "isolated-voices",
+    "staves": [
+      "voice",
+      "1",
+      "2"
+    ],
+    "transpose": -2
+  },
+  "voices": [
+    {
+      "id": "voice",
+      "name": "Voice (baritone; treble notation sounds one octave lower)",
+      "music": "\\PartPOneVoiceOne",
+      "staff": "voice",
+      "transpose": -12
+    },
+    {
+      "id": "piano-upper-1",
+      "name": "Piano upper staff · encoded voice 1",
+      "music": "\\PartPTwoVoiceOne",
+      "staff": "1"
+    },
+    {
+      "id": "piano-upper-2",
+      "name": "Piano upper staff · encoded voice 2",
+      "music": "\\PartPTwoVoiceTwo",
+      "staff": "1"
+    },
+    {
+      "id": "piano-lower-5",
+      "name": "Piano lower staff · encoded voice 5",
+      "music": "\\PartPTwoVoiceFive",
+      "staff": "2"
+    },
+    {
+      "id": "piano-lower-6",
+      "name": "Piano lower staff · encoded voice 6",
+      "music": "\\PartPTwoVoiceSix",
+      "staff": "2"
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 61,
+    "quarters": 3,
+    "order": [
+      [
+        1,
+        61
+      ]
+    ],
+    "description": "Printed bars 1–61 once, all five poem stanzas written out in the later-version A-minor source. No strophic or hurdy-gurdy refrain repeat is inserted."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      1.5
+    ],
+    "last": [
+      188,
+      189.5
+    ],
+    "basis": "Windows selected from absolute-pitch inspection of the cached Commons transfer. The final window isolates the last written piano attack, not the later surface-noise cutoff; see work/schubert-winterreise-leiermann-preparation-end.png. No listening annotation is claimed."
+  },
+  "boundaries": [],
+  "diagnostics": {
+    "overlays": [
+      [
+        169,
+        192
+      ]
+    ]
+  },
+  "provenance": [
+    "OpenScore Lieder releases these encodings under CC0: https://github.com/OpenScore/Lieder#license-and-acknowledgement . Exact downloaded MXL bytes match the inventory SHA-256. This is voice and piano, not an orchestral arrangement; Mutopia 373 is Einsamkeit and is not used.",
+    "Source part P1 is Singstimme (one treble-clef vocal line); P2 is Pianoforte (two staves with explicitly numbered MusicXML voices). Each source voice is extracted separately. These are encoding identities, not source-separated audio or MIDI-patch-derived instruments.",
+    "The recording is Hans Duhan, baritone, with Ferdinand Foll, piano (1928): Christian Utz, ZGMTH 18/Sonderausgabe (2021), https://www.gmth.de/zeitschrift/artikel/1132.aspx . The conventional treble vocal line sounds one octave below its written pitches. The engraving labels that octave convention explicitly; no vocal lyrics are stripped.",
+    "Transposition describes the sounding pitches of this particular Commons transfer relative to the global librosa tuning estimate, not a claim about the historical performers’ selected key or original tuning. Utz footnote 73 explicitly warns that Duhan’s transferred pitch/key is particularly uncertain. Absolute piano spectra, not filenames or a global key-classifier label, determine the configured shifts.",
+    "Opening piano A2/E3 drone becomes nominal G2/D3: measured peaks 100.1/150.4 Hz (4.0–4.5 s), at global tuning +44 cents (A=451.326 Hz). Additional global shift −2 semitones; vocal line an additional −12. This pitch match is measured; the filename’s later-version label alone is not evidence of recorded pitch."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 240,
+    "height": 320,
+    "music": "\\transpose c bes, <<\n        \n        \\new Staff\n        <<\n            \\set Staff.instrumentName = \"Voice (sounds 8vb)\"\n            \\set Staff.midiInstrument = \"acoustic grand\"\n            \n            \\context Staff << \n                \\mergeDifferentlyDottedOn\\mergeDifferentlyHeadedOn\n                \\context Voice = \"PartPOneVoiceOne\" {  \\PartPOneVoiceOne }\n                \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\set stanza = \"1.\" \\PartPOneVoiceOneLyricsOne }\n                >>\n            >>\n        \\new PianoStaff\n        <<\n            \\set PianoStaff.instrumentName = \"Pianoforte\"\n            \\set PianoStaff.midiInstrument = \"acoustic grand\"\n            \n            \\context Staff = \"1\" << \n                \\mergeDifferentlyDottedOn\\mergeDifferentlyHeadedOn\n                \\context Voice = \"PartPTwoVoiceOne\" {  \\voiceOne \\PartPTwoVoiceOne }\n                \\context Voice = \"PartPTwoVoiceTwo\" {  \\voiceTwo \\PartPTwoVoiceTwo }\n                >> \\context Staff = \"2\" <<\n                \\mergeDifferentlyDottedOn\\mergeDifferentlyHeadedOn\n                \\context Voice = \"PartPTwoVoiceFive\" {  \\voiceOne \\PartPTwoVoiceFive }\n                \\context Voice = \"PartPTwoVoiceSix\" {  \\voiceTwo \\PartPTwoVoiceSix }\n                >>\n            >>\n        \n        >>"
+  }
+}

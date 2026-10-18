@@ -1,0 +1,24 @@
+{
+  "mutopia": 351,
+  "title": "L’Inverno / Winter, RV 297 — I. Allegro non molto",
+  "edition": "Performers’ Facsimiles",
+  "encoder": "Anonymous (Mutopia maintainer)",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "main": "winter-lys/winter-score.ly",
+  "midi": "winter-score.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/winter/winter-lys.zip",
+      "file": "winter-lys.zip",
+      "sha256": "f44b7cc8ec983ce1ab87dce2952d4ec0c07e96471868e2f5a7fab2a6dabc5745"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/winter/winter-mids.zip",
+      "file": "winter-mids.zip",
+      "sha256": "c130e79b4ab861a3d9210c30cff432014284c675ad8a218f15e8bd7543b4a950"
+    }
+  ],
+  "accessed": "2026-10-17"
+}
