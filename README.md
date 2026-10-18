@@ -6,7 +6,7 @@ An illustrated atlas of Western art music, from Bach to the present: composer po
 
 ## The Concert Hall
 
-A continuous concert from Couperin and Bach to Stravinsky, Ives and Bartók: 55 real recordings streamed from Wikimedia Commons, in order of the composers' births. The music keeps playing as you move through the site (one persistent player, a gilded now-playing bar, pause any time).
+A continuous concert from Gregorian chant, Hildegard and Machaut to Stravinsky, Bartók and Shostakovich: 379 recordings (about 38 hours, mostly complete works) streamed from Wikimedia Commons, in order of the composers' births. The music keeps playing as you move through the site (one persistent player, a gilded now-playing bar, pause any time).
 
 - **Views of the music**: the engraved **score** lighting up bar by bar (Bach, Beethoven 5, Schubert, Satie; LilyPond engraving aligned to the recording), a gold **note-roll** by voice, the **orchestra** on its stage with each section glowing as its part sounds, the piece's **form** as an arc diagram joining every return of its material, and the live **sound** (spectrogram, keyboard, pitch wheel, key-aware note names). Press F to let any view fill the hall.
 - **Notes timed to the recording**, each with *How we know* (score-aligned, measured, documented or general), and **the joins**: 224 dissected transitions between sections, appearing as gilded cards as the music reaches them, marked ◆ on the timeline.
@@ -15,6 +15,18 @@ A continuous concert from Couperin and Bach to Stravinsky, Ives and Bartók: 55 
 ## The Web of Influence
 
 264 sourced connections between the 60 composers and 115 painters, poets, philosophers, teachers and traditions, laid out across four centuries. Touch a portrait to light what flowed in and out; open a connection for the claim, its evidence status and sources, the two passages engraved side by side and playable, or the painting beside the music. Seven motif threads (Dies irae, B–A–C–H, the Tristan chord, the lament bass, La Folia, the Ode to Joy, Frère Jacques) can be traced as one golden path through time.
+
+## Compare performers
+
+31 comparisons of the same music in different hands: composers playing their own works (Rachmaninoff 1919/1921/1928, Grieg 1903, Ravel conducting Boléro), Nikisch's 1913 Beethoven 5, Paderewski, de Pachmann, Cortot, Caruso and Chaliapin across the acoustic and electrical eras. One transport switches performer at the same musical moment (chroma alignment, `tools/compare.py`), with tempo maps and documented notes.
+
+## The Map
+
+1,366 sourced places in the lives of all 60 composers on an engraved map of Europe (with a New York inset), animated year by year from 1680 to 1990: residences, journeys, premieres and who was in which city at the same time, with each place linked to its recordings.
+
+## Guided journeys
+
+Six narrated journeys (Vienna 1900, the Dies irae, how the symphony grew, Paris 1900–1913, the recorded century, Rachmaninoff in exile) that play continuously through the concert's recordings while paintings, scores, map moments and influence evidence appear station by station.
 
 ## What's inside
 
