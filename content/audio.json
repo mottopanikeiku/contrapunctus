@@ -370,6 +370,13 @@
   "artist": "The Griller String Quartet",
   "duration": 1092.62
  },
+ "archive:lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne/disc1/01.02. Quintet In C Major, Op. 163: Second Movement: Adagio.mp3": {
+  "stream": "https://archive.org/download/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne/disc1/01.02.%20Quintet%20In%20C%20Major%2C%20Op.%20163%3A%20Second%20Movement%3A%20Adagio.mp3",
+  "page": "https://archive.org/details/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne",
+  "license": "",
+  "artist": "Franz Schubert; Isaac Stern; Alexander Schneider; Milton Katims; Pablo Casals; Paul Tortelier",
+  "duration": 794.23
+ },
  "archive:lp_childrens-corner-suite-forest-scenes-o_claude-debussy-robert-schumann-robert-c_0/disc1/02.01. Children's Corner Suite: Doctor Gradus Ad Parnassum.mp3": {
   "stream": "https://archive.org/download/lp_childrens-corner-suite-forest-scenes-o_claude-debussy-robert-schumann-robert-c_0/disc1/02.01.%20Children's%20Corner%20Suite%3A%20Doctor%20Gradus%20Ad%20Parnassum.mp3",
   "page": "https://archive.org/details/lp_childrens-corner-suite-forest-scenes-o_claude-debussy-robert-schumann-robert-c_0",
@@ -615,6 +622,20 @@
   "artist": "Sergei Rachmaninoff",
   "duration": 211
  },
+ "archive:SchubertSymphonyNo.8unfinished_347/01_schubertNo.8M1.mp3": {
+  "stream": "https://archive.org/download/SchubertSymphonyNo.8unfinished_347/01_schubertNo.8M1.mp3",
+  "page": "https://archive.org/details/SchubertSymphonyNo.8unfinished_347",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "duration": 628.14
+ },
+ "archive:SchubertSymphonyNo.8unfinished_347/02_schubertNo.8M2.mp3": {
+  "stream": "https://archive.org/download/SchubertSymphonyNo.8unfinished_347/02_schubertNo.8M2.mp3",
+  "page": "https://archive.org/details/SchubertSymphonyNo.8unfinished_347",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "duration": 714.73
+ },
  "archive:sibelius-2-compl-monteux-lso/sibelius 2 compl (monteux-lso).mp3": {
   "stream": "https://archive.org/download/sibelius-2-compl-monteux-lso/sibelius%202%20compl%20(monteux-lso).mp3",
   "page": "https://archive.org/details/sibelius-2-compl-monteux-lso",
@@ -635,6 +656,27 @@
   "license": "Public domain",
   "artist": "",
   "duration": 360.704
+ },
+ "File:01 - Gute Nacht (CK 2946-2, ES 383).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/01_-_Gute_Nacht_%28CK_2946-2%2C_ES_383%29.flac/01_-_Gute_Nacht_%28CK_2946-2%2C_ES_383%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:01_-_Gute_Nacht_(CK_2946-2,_ES_383).flac",
+  "license": "Public domain",
+  "artist": "Schubert, 1827",
+  "duration": 248.9991836734694
+ },
+ "File:05 - Der Lindenbaum (CK 2950-2, ES 384).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/05_-_Der_Lindenbaum_%28CK_2950-2%2C_ES_384%29.flac/05_-_Der_Lindenbaum_%28CK_2950-2%2C_ES_384%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:05_-_Der_Lindenbaum_(CK_2950-2,_ES_384).flac",
+  "license": "Public domain",
+  "artist": "Schubert, 1827",
+  "duration": 256
+ },
+ "File:11 - Frühlingstraum (CK 2956-1, ES 386).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/11_-_Fr%C3%BChlingstraum_%28CK_2956-1%2C_ES_386%29.flac/11_-_Fr%C3%BChlingstraum_%28CK_2956-1%2C_ES_386%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:11_-_Fr%C3%BChlingstraum_(CK_2956-1,_ES_386).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert, 1827",
+  "duration": 259.23918367346937
  },
  "File:11 - Vivaldi Winter mvt 2 Largo - John Harrison violin.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/11_-_Vivaldi_Winter_mvt_2_Largo_-_John_Harrison_violin.ogg/11_-_Vivaldi_Winter_mvt_2_Largo_-_John_Harrison_violin.ogg.mp3",
@@ -663,6 +705,13 @@
   "license": "Public domain",
   "artist": "Alexander Scriabin",
   "duration": 124
+ },
+ "File:24 - Der Leiermann (BK 2969-1, ER 276).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/24_-_Der_Leiermann_%28BK_2969-1%2C_ER_276%29.flac/24_-_Der_Leiermann_%28BK_2969-1%2C_ER_276%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:24_-_Der_Leiermann_(BK_2969-1,_ER_276).flac",
+  "license": "Public domain",
+  "artist": "Schubert 1827",
+  "duration": 195.50040816326532
  },
  "File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - i. adagio - allegro molto.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_i._adagio_-_allegro_molto.ogg/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_i._adagio_-_allegro_molto.ogg.mp3",
@@ -1279,6 +1328,13 @@
   "license": "Public domain",
   "artist": "Boston Symphony Orchestra Serge Koussevitzky",
   "duration": 229.75741496598638
+ },
+ "File:Haydn; Symphony No. 94 \"Surprise\", 4. Finale (Allegro molto).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_4._Finale_%28Allegro_molto%29.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_4._Finale_%28Allegro_molto%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_4._Finale_(Allegro_molto).ogg",
+  "license": "Public domain",
+  "artist": "Boston Symphony Orchestra Serge Koussevitzky",
+  "duration": 210.66630385487528
  },
  "File:Hector Berlioz - Symphonie fantastique, op. 14 - 1. Rêveries – Passions (Igor Markevitch, Orchestre Lamoureux, 1962).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_1._R%C3%AAveries_%E2%80%93_Passions_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.flac/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_1._R%C3%AAveries_%E2%80%93_Passions_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.flac.mp3",

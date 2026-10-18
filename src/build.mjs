@@ -868,7 +868,8 @@ async function roomPage(prog) {
   const first = prog[0];
   const ctx = { base: '', page: 'hall' };
   const concert = prog.filter((t) => t.concert !== false), concertN = concert.length, concertSecs = concert.reduce((a, t) => a + (t.duration || 0), 0);
-  const eraList = [{ slug: 'before-bach', numeral: '0', name: 'Before Bach', accent: '#9fc3c6' }, ...eras].map((e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug && t.concert !== false) })).filter((x) => x.tracks.length);
+  const eraList = [{ slug: 'before-bach', numeral: '0', name: 'Before Bach', accent: '#9fc3c6' }, ...C.eras].map(  // C.eras: chapter order (a local `eras` table above is in programme order)
+(e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug && t.concert !== false) })).filter((x) => x.tracks.length);
   const fmt = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}`;
   return `<!doctype html>
 <html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}">
@@ -965,7 +966,7 @@ ${headScripts(ctx)}
 <aside class="programme" hidden>
   <header><h2>The programme</h2><p>${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
   ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t, i) => {
-    const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>complete · ${t.set.of} movements</em></li>` : '';
+    const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>${(() => { const n = tracks.filter((x) => x.set?.id === t.set.id).length; return n >= t.set.of ? `complete · ${t.set.of} movements` : `${n} of ${t.set.of} movements`; })()}</em></li>` : '';
     return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${t.set ? esc(t.movement || t.work) : `${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}`}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
   }).join('')}</ol></section>`).join('')}
 </aside>

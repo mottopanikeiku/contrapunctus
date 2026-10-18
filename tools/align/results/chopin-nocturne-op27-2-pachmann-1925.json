@@ -1,0 +1,725 @@
+{
+  "uniqueScoreAttacks": 1149,
+  "audioDetectedOnsets": 848,
+  "medianAbsoluteOnsetDeviation": 0.05385384456813824,
+  "noteWeightedMedianDeviation": 0.047250051535769444,
+  "p95AbsoluteOnsetDeviation": 0.3251461554318719,
+  "fractionWithin150ms": 0.7615317667536988,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 17,
+      "median": 0.14115027829313576,
+      "p95": 0.46270294784580485,
+      "max": 0.4919439290867871,
+      "adaptiveMedian": 0.022298495155637532,
+      "adaptiveP95": 0.0630212327355169
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 22,
+      "median": 0.06223356009070358,
+      "p95": 0.30251525458668044,
+      "max": 0.33115749330035094,
+      "adaptiveMedian": 0.035369511440938695,
+      "adaptiveP95": 0.06308034425891584
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 31,
+      "median": 0.06211502782931433,
+      "p95": 0.2610734900020617,
+      "max": 0.33577922077922295,
+      "adaptiveMedian": 0.028673469387758388,
+      "adaptiveP95": 0.08005205112347724
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 32,
+      "median": 0.04647624201195555,
+      "p95": 0.1883713151927445,
+      "max": 0.22046691403834373,
+      "adaptiveMedian": 0.04199134199134136,
+      "adaptiveP95": 0.10391202844774552
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 31,
+      "median": 0.07754329004329463,
+      "p95": 0.45763863121005954,
+      "max": 0.5649835085549384,
+      "adaptiveMedian": 0.03399711399711691,
+      "adaptiveP95": 0.11556380127808552
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 34,
+      "median": 0.048199726860445935,
+      "p95": 0.20891824366110184,
+      "max": 0.23246753246753826,
+      "adaptiveMedian": 0.04952020202020435,
+      "adaptiveP95": 0.09667109874253263
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 42,
+      "median": 0.04134611420326095,
+      "p95": 0.20685001674912717,
+      "max": 0.245713254998968,
+      "adaptiveMedian": 0.047814368171511745,
+      "adaptiveP95": 0.08981581117295645
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 49,
+      "median": 0.044349618635330046,
+      "p95": 0.20389008709543913,
+      "max": 0.23192434549577,
+      "adaptiveMedian": 0.046413110698836135,
+      "adaptiveP95": 0.08941921253349945
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 35,
+      "median": 0.05887858173572624,
+      "p95": 0.21651494537208288,
+      "max": 0.29883013811584647,
+      "adaptiveMedian": 0.04181612038755134,
+      "adaptiveP95": 0.10740744176456463
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 34,
+      "median": 0.09193568336424818,
+      "p95": 0.3285134508348875,
+      "max": 0.4200226757369734,
+      "adaptiveMedian": 0.04089156874871236,
+      "adaptiveP95": 0.1026256957328357
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 30,
+      "median": 0.08291537827254558,
+      "p95": 0.25287886518243563,
+      "max": 0.31795093795093976,
+      "adaptiveMedian": 0.041751185322617346,
+      "adaptiveP95": 0.10090836940836424
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 27,
+      "median": 0.05949907235621765,
+      "p95": 0.31719830962688883,
+      "max": 0.45405483405484404,
+      "adaptiveMedian": 0.0351927437641848,
+      "adaptiveP95": 0.07012121212120945
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 31,
+      "median": 0.09175427746858134,
+      "p95": 0.3652030509173372,
+      "max": 0.4470284477427242,
+      "adaptiveMedian": 0.035917336631626995,
+      "adaptiveP95": 0.08771799628947008
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 36,
+      "median": 0.07302721088435504,
+      "p95": 0.26600680272108335,
+      "max": 0.4118965161821677,
+      "adaptiveMedian": 0.04131735724593,
+      "adaptiveP95": 0.1010514906720239
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 33,
+      "median": 0.051804782519070613,
+      "p95": 0.25426530612245407,
+      "max": 0.49658678622964203,
+      "adaptiveMedian": 0.04518862090291975,
+      "adaptiveP95": 0.11560750360748667
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 36,
+      "median": 0.04237631416204124,
+      "p95": 0.15762317048029928,
+      "max": 0.2021047206761466,
+      "adaptiveMedian": 0.04044887652031548,
+      "adaptiveP95": 0.07822098536384559
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 34,
+      "median": 0.04045815295815203,
+      "p95": 0.1876548855906079,
+      "max": 0.3269140383426077,
+      "adaptiveMedian": 0.043004019789719905,
+      "adaptiveP95": 0.08610047412904435
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 39,
+      "median": 0.042983534322786454,
+      "p95": 0.1832450267986076,
+      "max": 0.23605648319934858,
+      "adaptiveMedian": 0.03923727066583638,
+      "adaptiveP95": 0.09034387239744605
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 49,
+      "median": 0.04533910533911012,
+      "p95": 0.2578670377241734,
+      "max": 0.3435013399299294,
+      "adaptiveMedian": 0.037734487734525146,
+      "adaptiveP95": 0.0692430426716271
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 29,
+      "median": 0.04205421562562606,
+      "p95": 0.3772914862914999,
+      "max": 0.5302308802309028,
+      "adaptiveMedian": 0.03613069470213759,
+      "adaptiveP95": 0.09239579468150508
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 30,
+      "median": 0.0821681096681317,
+      "p95": 0.36683977530406214,
+      "max": 0.4347113997113752,
+      "adaptiveMedian": 0.028379715522575566,
+      "adaptiveP95": 0.09703844568131063
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 33,
+      "median": 0.06529787672647558,
+      "p95": 0.44761595547308275,
+      "max": 0.5604998969284622,
+      "adaptiveMedian": 0.03570603999176569,
+      "adaptiveP95": 0.09738486909911895
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 80,
+      "median": 0.07676097711812702,
+      "p95": 0.2645618171511088,
+      "max": 0.3446462069676386,
+      "adaptiveMedian": 0.029941120387547926,
+      "adaptiveP95": 0.07238285920427784
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 35,
+      "median": 0.03795815295814009,
+      "p95": 0.11558589079567694,
+      "max": 0.1571335807049934,
+      "adaptiveMedian": 0.04557565450426182,
+      "adaptiveP95": 0.0821895485467024
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 39,
+      "median": 0.03929189857760207,
+      "p95": 0.10792821067818467,
+      "max": 0.21702844774273444,
+      "adaptiveMedian": 0.04403009688724069,
+      "adaptiveP95": 0.09385600907032768
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 30,
+      "median": 0.04753401360547116,
+      "p95": 0.2926335807049965,
+      "max": 0.505878169449602,
+      "adaptiveMedian": 0.04795918367348406,
+      "adaptiveP95": 0.09756404607297778
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 34,
+      "median": 0.10046485260771476,
+      "p95": 0.5903028241599598,
+      "max": 0.7299742321170868,
+      "adaptiveMedian": 0.042290764790763546,
+      "adaptiveP95": 0.19982261389402933
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 26,
+      "median": 0.054791280148421606,
+      "p95": 0.3988358070500908,
+      "max": 0.462591218305505,
+      "adaptiveMedian": 0.03949701092571445,
+      "adaptiveP95": 0.06579674293958959
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 29,
+      "median": 0.04659142444856457,
+      "p95": 0.2851395588538366,
+      "max": 0.4775633889919675,
+      "adaptiveMedian": 0.029879406307969703,
+      "adaptiveP95": 0.06535736961449173
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 37,
+      "median": 0.05286332714908326,
+      "p95": 0.3145652442795376,
+      "max": 0.4556143063286129,
+      "adaptiveMedian": 0.028536384250656965,
+      "adaptiveP95": 0.06991816120387848
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 30,
+      "median": 0.09915069057927894,
+      "p95": 0.5161618094207368,
+      "max": 0.5890775097917924,
+      "adaptiveMedian": 0.04023107349001975,
+      "adaptiveP95": 0.06510600907030976
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 30,
+      "median": 0.04751256184293595,
+      "p95": 0.3170538033395089,
+      "max": 0.47518037518040046,
+      "adaptiveMedian": 0.028784271284280294,
+      "adaptiveP95": 0.06464535662747435
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 37,
+      "median": 0.08608328179758473,
+      "p95": 0.5106254380540117,
+      "max": 0.7597495361780489,
+      "adaptiveMedian": 0.03715210137079339,
+      "adaptiveP95": 0.10645186559473813
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 8,
+      "median": 0.06886007717483267,
+      "p95": 0.19804339794623327,
+      "max": 0.2232385075241723,
+      "adaptiveMedian": 0.03715891375483693,
+      "adaptiveP95": 0.08141198818544808
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 17,
+      "median": 0.14115027829313576,
+      "p95": 0.46270294784580485,
+      "max": 0.4919439290867871,
+      "adaptiveMedian": 0.022298495155637532,
+      "adaptiveP95": 0.0630212327355169
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 34,
+      "median": 0.10046485260771476,
+      "p95": 0.5903028241599598,
+      "max": 0.7299742321170868,
+      "adaptiveMedian": 0.042290764790763546,
+      "adaptiveP95": 0.19982261389402933
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 30,
+      "median": 0.09915069057927894,
+      "p95": 0.5161618094207368,
+      "max": 0.5890775097917924,
+      "adaptiveMedian": 0.04023107349001975,
+      "adaptiveP95": 0.06510600907030976
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 34,
+      "median": 0.09193568336424818,
+      "p95": 0.3285134508348875,
+      "max": 0.4200226757369734,
+      "adaptiveMedian": 0.04089156874871236,
+      "adaptiveP95": 0.1026256957328357
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 31,
+      "median": 0.09175427746858134,
+      "p95": 0.3652030509173372,
+      "max": 0.4470284477427242,
+      "adaptiveMedian": 0.035917336631626995,
+      "adaptiveP95": 0.08771799628947008
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 34,
+      "median": 0.048199726860445935,
+      "p95": 0.20891824366110184,
+      "max": 0.23246753246753826,
+      "adaptiveMedian": 0.04952020202020435,
+      "adaptiveP95": 0.09667109874253263
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 30,
+      "median": 0.04753401360547116,
+      "p95": 0.2926335807049965,
+      "max": 0.505878169449602,
+      "adaptiveMedian": 0.04795918367348406,
+      "adaptiveP95": 0.09756404607297778
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 42,
+      "median": 0.04134611420326095,
+      "p95": 0.20685001674912717,
+      "max": 0.245713254998968,
+      "adaptiveMedian": 0.047814368171511745,
+      "adaptiveP95": 0.08981581117295645
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 49,
+      "median": 0.044349618635330046,
+      "p95": 0.20389008709543913,
+      "max": 0.23192434549577,
+      "adaptiveMedian": 0.046413110698836135,
+      "adaptiveP95": 0.08941921253349945
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 35,
+      "median": 0.03795815295814009,
+      "p95": 0.11558589079567694,
+      "max": 0.1571335807049934,
+      "adaptiveMedian": 0.04557565450426182,
+      "adaptiveP95": 0.0821895485467024
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 272.0,
+      "meanCosine": 0.5228017656618011
+    },
+    {
+      "start": 0.0,
+      "meanCosine": 0.5993648069390652
+    },
+    {
+      "start": 104.0,
+      "meanCosine": 0.6339757821771557
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.6522897661534388
+    },
+    {
+      "start": 264.0,
+      "meanCosine": 0.6575368555276354
+    }
+  ],
+  "sections": [
+    {
+      "bar": "10",
+      "occ": 1,
+      "editorial": 34,
+      "aligned": 35.18909090909091,
+      "difference": 1.1890909090909076,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "26",
+      "occ": 1,
+      "editorial": 90,
+      "aligned": 89.41636363636364,
+      "difference": -0.5836363636363586,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "38",
+      "occ": 1,
+      "editorial": 130,
+      "aligned": 131.28181818181818,
+      "difference": 1.2818181818181813,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "46",
+      "occ": 1,
+      "editorial": 158,
+      "aligned": 158.34545454545454,
+      "difference": 0.3454545454545439,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "62",
+      "occ": 1,
+      "editorial": 218,
+      "aligned": 218.65272727272728,
+      "difference": 0.6527272727272759,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.02,
+      "nearestOnsetDeviation": 0.11777777777777776
+    },
+    {
+      "label": "middle",
+      "bar": "40",
+      "occ": 1,
+      "scoreQ": 117.38541666666669,
+      "audioSeconds": 139.53078914141415,
+      "nearestOnsetDeviation": 0.0369115903937427
+    },
+    {
+      "label": "last",
+      "bar": "77",
+      "occ": 1,
+      "scoreQ": 228.0,
+      "audioSeconds": 269.50909090909096,
+      "nearestOnsetDeviation": 0.004922696351229661
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "77",
+      "occ": 1,
+      "midi": 49,
+      "voice": "lower",
+      "durationQ": 3.0,
+      "onset": 269.50909090909096,
+      "offset": 275.52,
+      "durationSeconds": 6.010909090909024
+    },
+    {
+      "bar": "77",
+      "occ": 1,
+      "midi": 65,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 269.50909090909096,
+      "offset": 275.52,
+      "durationSeconds": 6.010909090909024
+    },
+    {
+      "bar": "77",
+      "occ": 1,
+      "midi": 73,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 269.50909090909096,
+      "offset": 275.52,
+      "durationSeconds": 6.010909090909024
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.011536195286225848,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7239048104517777,
+  "endAnchor": {
+    "scoreQ": 231.0,
+    "audioSeconds": 275.52,
+    "decodedDuration": 275.5667573696145,
+    "activeEndMinus45dB": 275.55120181405897
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "chopin-nocturne-op27-2-pachmann-1925",
+  "tuningHz": 439.75,
+  "audioSha256": "5a9839c32a4be40f5380d2645a07ae69f8e0a17db44bcb9de9ed4b51eabc57a7",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Debussy-edited 1915 source, solo piano Nocturne No. 8 in D-flat. INFERENCE: Correct work/key/scoring for the Pachmann transfer; ornamental and textual variants have not been compared with the recording.",
+    "Read content/listen/chopin-nocturne-op27-2-pachmann-1925.mjs and cache/analysis/chopin-nocturne-op27-2-pachmann-1925.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise must be inspected separately.",
+    "The original published MIDI has three channel-2 C-sharp5 releases at tick 58752 with only one active note, leaving two excess releases and no dangling onsets anywhere. Preserve that download unchanged, but compile the source's named treble and bass variables into explicit piano staves with LilyPond 2.24.4. Do not ignore unmatched releases or synthesize note durations."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      30.72,
+      34.0
+    ],
+    [
+      89.48,
+      90.0
+    ],
+    [
+      130.7,
+      130.0
+    ],
+    [
+      160.38,
+      158.0
+    ],
+    [
+      217.09,
+      218.0
+    ],
+    [
+      270.9745454545455,
+      269.48
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.02,
+      "peakSeconds": 1.14,
+      "window": [
+        0,
+        4
+      ],
+      "midiPitches": [
+        37
+      ],
+      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    },
+    {
+      "label": "last",
+      "scoreQ": 228.0,
+      "audioSeconds": 269.48,
+      "peakSeconds": 269.52,
+      "window": [
+        266,
+        271
+      ],
+      "midiPitches": [
+        49,
+        65,
+        73
+      ],
+      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    }
+  ],
+  "adaptiveOnsetCount": 1677,
+  "adaptiveMedianDeviation": 0.038223046794477966,
+  "gateReasons": [],
+  "elapsedSeconds": 0.5329062030068599,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 77,
+    "notes": 1806,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "af1a0c4ce6fb7520b00603932c6ec807c69db5e871dce3b1677a8d7324359d37",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.ly",
+      "file": "chopin-nocturne-8.ly",
+      "sha256": "60c9308bdfb60897a94abdf0ec449e82914559b53c2d36001ba0a628224e97ee"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.mid",
+      "file": "chopin-nocturne-8.mid",
+      "sha256": "9725f419ef122a816da97fb2e7186449471db151e5994023e7e0f81849a1a1b0"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/chopin-nocturne-op27-2-pachmann-1925-0-8.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-0-9.02.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-40-48.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-48-56.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-56-64.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-72-80.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-96-104.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-135.531-147.531.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-184-192.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-200-208.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-208-216.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-240-248.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-258-270.png",
+    "work/chopin-nocturne-op27-2-pachmann-1925-265.509-275.567.png"
+  ]
+}

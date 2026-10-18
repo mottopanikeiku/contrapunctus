@@ -63,3 +63,52 @@ fn packs_pages_preserves_rhythm_and_leaves_previous_pack_on_error() {
     assert!(!run().status.success());
     assert_eq!(packed, fs::read_to_string(output.join("p1.svg")).unwrap());
 }
+
+#[test]
+fn preserves_whiteout_paper_colour_and_painter_order() {
+    let work = Workspace(std::env::temp_dir().join(format!("sheetpack-colour-test-{}", std::process::id())));
+    fs::create_dir(&work.0).unwrap();
+    let mut source = String::from("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 80\"><g class=\"staff\">");
+    for y in 10..15 {
+        source.push_str(&format!("<line x1=\"5\" x2=\"95\" y1=\"{y}\" y2=\"{y}\" stroke=\"currentColor\" stroke-width=\".1\"/>"));
+    }
+    source.push_str(r##"</g><rect x="4.9" y="10" width=".2" height="4"/>
+<g class="barline"><rect x="94.9" y="10" width=".2" height="4"/></g>
+<g class="nh" data-bar="1" data-pos=".5" transform="translate(12,12)"><path d="M0 0L1 .5L1 -.5Z" fill="currentColor"/></g>
+<g color="rgb(100.0000%, 100.0000%, 100.0000%)" fill="currentColor">
+  <g transform="translate(11,11)"><rect width="4" height="3"/></g>
+  <rect x="50" y="10" width=".5" height="4"/>
+  <rect x="60" y="10" width=".5" height="4" ry=".25"/>
+  <g transform="translate(20,12)"><path d="M0 0L1 .5L1 -.5Z"/></g>
+</g>
+<line x1="11" x2="15" y1="12" y2="12" stroke="black" stroke-width=".1"/>
+<text x="12" y="12" font-size="2"><tspan>4</tspan></text>
+<rect x="70" y="10" width="2" height="2" fill="white"/>
+<g color="#0088aa" fill="currentColor" transform="translate(30,12)"><path d="M0 0L1 .5L1 -.5Z"/></g>
+</svg>"##);
+    let input = work.0.join("source.svg");
+    let output = work.0.join("sheet");
+    fs::write(&input, source).unwrap();
+    let result = Command::new(env!("CARGO_BIN_EXE_sheetpack")).arg("--out").arg(&output).arg(&input).output().unwrap();
+    assert!(result.status.success(), "{}", String::from_utf8_lossy(&result.stderr));
+    let packed = fs::read_to_string(output.join("p1.svg")).unwrap();
+    let doc = roxmltree::Document::parse(&packed).unwrap();
+    let nodes: Vec<_> = doc.root_element().children().filter(|n| n.is_element()).collect();
+    let note = nodes.iter().position(|n| n.attribute("data-bar") == Some("1")).unwrap();
+    let paper = nodes.iter().position(|n| n.attribute("d") == Some("M11 11h4v3h-4Z")).unwrap();
+    let later_rule = nodes.iter().position(|n| n.attribute("d") == Some("M11 12H15")).unwrap();
+    let annotation = nodes.iter().position(|n| n.has_tag_name("text")).unwrap();
+    assert!(note < paper && paper < later_rule && later_rule < annotation);
+    assert_eq!(nodes[paper].attribute("fill"), Some("var(--paper, #fbf5e6)"));
+    assert_eq!(nodes[note].attribute("data-pos"), Some(".5"));
+    let uses: Vec<_> = nodes.iter().filter(|n| n.has_tag_name("use")).collect();
+    assert_eq!(uses.len(), 3);
+    assert_eq!(uses[0].attribute("fill"), None);
+    assert_eq!(uses[1].attribute("fill"), Some("var(--paper, #fbf5e6)"));
+    assert_eq!(uses[2].attribute("fill"), Some("#0088aa"));
+    assert!(nodes.iter().any(|n| n.attribute("stroke") == Some("var(--paper, #fbf5e6)")));
+    assert_eq!(nodes.iter().filter(|n| n.attribute("fill") == Some("var(--paper, #fbf5e6)")).count(), 4);
+    let index: serde_json::Value = serde_json::from_slice(&fs::read(output.join("index.json")).unwrap()).unwrap();
+    // Tall, narrow whiteout is background, not an extra barline at x=50 or 60.
+    assert_eq!(index["bars"]["1"][0], serde_json::json!([0,5.0,10.0,90.0,4.0]));
+}

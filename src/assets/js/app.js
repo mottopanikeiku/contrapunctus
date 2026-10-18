@@ -10,8 +10,13 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const fmt = (t) => { t = Math.max(0, Math.floor(t || 0)); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`; };
 const app = { player, root: ROOT, navigate, fmt };
 window.CP = app;
-// Initial relative links otherwise change identity when pushState enters a nested directory.
+// Initial relative style URLs otherwise change identity when pushState enters a nested directory.
 for (const link of $$('link[rel="stylesheet"]', document.head)) link.setAttribute('href', link.href);
+function rebaseFontURLs(style, base) {
+  style.textContent = style.textContent.replace(/url\(\s*(?:"([^"]*)"|'([^']*)'|([^)]*))\s*\)/gi,
+    (_, double, single, bare) => `url("${new URL(double ?? single ?? bare.trim(), base).href}")`);
+}
+for (const style of $$('style[data-cp-fonts]', document.head)) rebaseFontURLs(style, document.baseURI);
 
 // ================================================================== now-playing bar
 const np = $('.np');
@@ -229,6 +234,12 @@ async function syncStyles(doc) {
     // Retain parsed stylesheets for the return trip without letting old rules bleed into the page.
     for (const l of $$('link[rel="stylesheet"]', document.head)) l.media = want.includes(l.href) ? 'all' : 'not all';
     $$('style[data-cp-critical]', document.head).forEach((style) => style.remove());
+    $$('style[data-cp-fonts]', document.head).forEach((style) => style.remove());
+    for (const style of $$('style[data-cp-fonts]', doc.head)) {
+      const fonts = document.importNode(style, true);
+      rebaseFontURLs(fonts, doc.baseURI);
+      document.head.append(fonts);
+    }
   };
 }
 

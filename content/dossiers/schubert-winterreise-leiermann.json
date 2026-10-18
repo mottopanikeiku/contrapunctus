@@ -28,10 +28,11 @@
     ],
     "status": "documented",
     "sourceIds": [
+      "label",
       "archive",
       "utz"
     ],
-    "note": "The Internet Archive description names Duhan and Foll for this side. Utz reports that Duhan recorded nineteen songs with Foll on 27 April, 2 May and 4 May 1928 and the remaining five (Nos. 16, 17, 19, 20, 23) with Lene Orthmann on 11 July 1928, so Orthmann does not play on this side. The Commons file description names only Duhan."
+    "note": "The label photograph of the scanned copy names Kammersänger Hans Duhan, baritone of the Vienna State Opera, with Prof. Ferdinand Foll at the piano; the Internet Archive description names the same two performers. Utz reports that Duhan recorded nineteen songs with Foll on 27 April, 2 May and 4 May 1928 and the remaining five (Nos. 16, 17, 19, 20, 23) with Lene Orthmann on 11 July 1928, so Orthmann does not play on this side. The Commons file description names only Duhan."
   },
   "session": {
     "date": {
@@ -56,44 +57,32 @@
   },
   "carrier": {
     "label": {
-      "value": "Gramola (per the Internet Archive description)",
+      "value": "Gramola Record (The Gramophone Company (Czechoslovakia) Limited), as printed on the scanned copy",
       "status": "documented",
       "sourceIds": [
         "archive"
       ],
-      "note": "The Internet Archive description of this disc reads “25 cm Gramola ER 376”; the description of the first disc says His Master’s Voice. The label naming is inconsistent between uploads and is not resolved here."
+      "note": "The label photograph of this scanned copy shows a Gramola Record imprint, whereas the photographed first disc carries the His Master’s Voice imprint; the photographed copies of this set carry both imprints. The label gives no date, and nothing here dates the first issue or shows that the audio transfer derives from the photographed copy."
     },
     "catalogue": {
-      "value": "ER 376 (Internet Archive) or ER 276 (Commons file name)",
-      "status": "disputed",
+      "value": "ER 276",
+      "status": "documented",
       "sourceIds": [
+        "label",
         "commons",
         "archive"
       ],
-      "note": "The Commons file name gives “ER 276”; the Internet Archive description of the disc that carries this song (23–24) gives “ER 376”. The two sources differ by one digit and neither can be checked against a label image here.",
-      "alternatives": [
-        {
-          "value": "ER 276 — the Commons file name.",
-          "sourceIds": [
-            "commons"
-          ]
-        },
-        {
-          "value": "ER 376 — the Internet Archive description of the disc.",
-          "sourceIds": [
-            "archive"
-          ]
-        }
-      ]
+      "note": "The label photograph of the scanned copy prints Cat. No. ER 276, and the Commons file name agrees. The Internet Archive text description of the disc reads “ER 376”, which the photograph does not support; the discrepancy is the uploader’s."
     },
     "matrixTakeSides": {
-      "value": "BK 2969-1 (Der Leiermann); reverse side: Die Nebensonnen (matrix CL 4401-1; pianist Lene Orthmann, 11 July 1928). Disc 12 of 12 of the set; 25 cm.",
+      "value": "BK 2969, take 1 (run-out “Bk 2969” with I); side No. 24 (label number 942922); reverse side: Die Nebensonnen (matrix CL 4401-1; pianist Lene Orthmann, 11 July 1928). Disc 12 of 12 of the set; 25 cm.",
       "status": "documented",
       "sourceIds": [
+        "label",
         "archive",
         "commons"
       ],
-      "note": "The matrix and take are read from the Internet Archive description and agree with the Commons file name. The set was issued as twelve discs, one song to a side (Utz). No run-out inspection has been made."
+      "note": "The label photograph of the scanned copy shows the matrix and take in the run-out; the Internet Archive description and the Commons file name give the same matrix and take. The set was issued as twelve discs, one song to a side (Utz). The photograph is of one copy and does not identify the copy from which the audio was transferred."
     }
   },
   "transfer": {
@@ -171,7 +160,7 @@
         }
       ]
     },
-    "creditLine": "Franz Schubert, Winterreise, No. 24, “Der Leiermann”, text by Wilhelm Müller; Hans Duhan, baritone, Ferdinand Foll, piano, 4 May 1928. Disc: matrix BK 2969-1. File via Wikimedia Commons (PD-EU-audio; territorial). Rights metadata: public domain in the EU only; no worldwide recording clearance is claimed.",
+    "creditLine": "Franz Schubert, Winterreise, No. 24, “Der Leiermann”, text by Wilhelm Müller; Hans Duhan, baritone, Ferdinand Foll, piano, 4 May 1928. Disc: matrix BK 2969. File via Wikimedia Commons (PD-EU-audio; territorial). Rights metadata: public domain in the EU only; no worldwide recording clearance is claimed.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
@@ -187,6 +176,13 @@
       "title": "Internet Archive — Winterreise (Duhan), disc 12 of 12",
       "url": "https://archive.org/details/Winterreise24Duhan",
       "locator": "metadata.description: “Complete recording from 1928, part 12 of 12”; labels, catalogue number, matrix numbers, pianists and recording date(s); licenseurl creativecommons.org/publicdomain/mark/1.0/; added 25 April 2019. Metadata read at https://archive.org/metadata/Winterreise24Duhan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label",
+      "title": "Internet Archive — label photograph of the scanned copy, disc 12 of 12",
+      "url": "https://archive.org/download/Winterreise24Duhan/Winterreise%2024%20Duhan.jpg",
+      "locator": "Photograph of the label and run-out of the uploader’s copy: imprint, title, performers, catalogue number and run-out matrix and take, as described in the carrier fields. It dates nothing and does not show the copy from which the audio was transferred.",
       "accessed": "2026-10-17"
     },
     {

@@ -127,14 +127,22 @@
   "endpoints": {
     "first": [
       0,
-      4
+      0.35
     ],
     "last": [
       105,
       109
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration."
   },
+  "anchors": [
+    {
+      "scoreQ": 93,
+      "window": [101.1, 101.4],
+      "label": "bar-24-post-rest-chord",
+      "basis": "The complete B1/B2/E3/F-sharp3/B3/E4 chord clearly enters near 101.2 s after the notated fermata rest. The unconstrained warp placed both closing bar-24 chords roughly half a second early and failed the 96–104 s local gate. This inspected source-pitch fitting constraint retains the source rest and all three final chords; it is not independent or aural validation."
+    }
+  ],
   "boundaries": [],
   "engraving": {
     "staff": 18,

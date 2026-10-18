@@ -81,8 +81,23 @@
       218,
       223
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "The opening A-octave attack near 0.22 s and final C-sharp-minor chord near 220.88 s were inspected against the source pitch overlay. The third opening bell and penultimate upper chord are constrained separately to prevent sustained identical pitch classes from starting before their attacks."
   },
+  "anchors": [
+    {
+      "scoreQ": 2,
+      "window": [4.15, 4.45],
+      "label": "third-opening-C-sharp-octaves",
+      "basis": "The third opening C-sharp1/C-sharp2/C-sharp3 bell visibly enters near 4.3 s; the initial warp began it near 3.3 s. This source-pitch fitting constraint is not independent validation."
+    },
+    {
+      "scoreQ": 241.5,
+      "window": [218.5, 219],
+      "label": "penultimate-upper-C-sharp-minor-chord",
+      "basis": "The upper C-sharp-minor chord near 218.7 s precedes its final reattack near 220.9 s. Retain both written attacks instead of treating the first as the final fermata. This is inspected fitting evidence, not independent or aural validation."
+    }
+  ],
+  "diagnostics": {"overlays": [[192,204],[204,216],[216,229]]},
   "boundaries": [],
   "engraving": {
     "staff": 18,
@@ -90,7 +105,7 @@
     "height": 297
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. INFERENCE: Correct Op. 3 No. 2, not a concerto reduction; Rachmaninoff’s 1919 performance may alter voicing, timing and ornaments. No cut/repeat check performed.",
-    "Read content/listen/rachmaninoff-prelude-c-sharp-minor-woerner-2005.mjs and cache/analysis/rachmaninoff-prelude-c-sharp-minor-woerner-2005.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise must be inspected separately."
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. The source identifies the complete solo-piano Op. 3 No. 2, not Wöerner's physical performing edition.",
+    "Read content/listen/rachmaninoff-prelude-c-sharp-minor-woerner-2005.mjs and cache/analysis/rachmaninoff-prelude-c-sharp-minor-woerner-2005.txt. Recording sections are coarse locators, not forced bar anchors. Absolute-pitch features confirm the source's original register after the cached fractional tuning correction."
   ]
 }

@@ -46,24 +46,27 @@
   },
   "session": {
     "date": {
-      "value": "July 1952",
-      "status": "inferred",
+      "value": "1952 (the Casals Festival at Prades); one secondary source says July",
+      "status": "documented",
       "sourceIds": [
-        "substack",
-        "discogs"
+        "sleeve",
+        "discogs",
+        "sixmoons",
+        "substack"
       ],
-      "note": "One secondary source (the Substack essay) says the recording was made by Columbia Records in July 1952 at the Prades Festival; the Discogs master release says “Recorded at Prades Festival, 1952” and a 6moons review also gives 1952. The day is not stated and the month rests on a single non-specialist source.",
-      "precision": "month"
+      "note": "The LP sleeve notes say the recordings were made in Prades during the Casals Festival of 1952; the Discogs master release and a 6moons review also say 1952. Only the Substack essay by John Buxton gives a month, July 1952, so the month is not treated as established, and the day is not stated.",
+      "precision": "year"
     },
     "place": {
       "value": "Prades, France (Prades Festival); the venue within Prades is not identified",
       "status": "documented",
       "sourceIds": [
+        "sleeve",
         "substack",
         "discogs",
         "sixmoons"
       ],
-      "note": "Substack says the recording was made in Prades, France during the Prades Festival; Discogs and 6moons say it was recorded at the Prades Festival in 1952."
+      "note": "The sleeve notes say the recordings were made in Prades during the Casals Festival of 1952. Substack says the recording was made in Prades, France during the Prades Festival; Discogs and 6moons say it was recorded at the Prades Festival in 1952."
     }
   },
   "carrier": {
@@ -94,28 +97,29 @@
   },
   "transfer": {
     "credits": {
-      "value": null,
-      "status": "unknown",
-      "sourceIds": [
-        "archive"
-      ],
-      "note": "The Internet Archive item names the contributor “Internet Archive” and the scanning centre “cebu”, and lists the item in several vinyl collections, including the Boston Public Library’s. Which physical copy was digitised is not established."
-    },
-    "date": {
-      "value": null,
-      "status": "unknown",
-      "sourceIds": [
-        "archive"
-      ],
-      "note": "No transfer date is identified. The item’s public date is 24 November 2020 and its added date 4 January 2021, which are upload dates."
-    },
-    "processing": {
-      "value": "LP digitised by the Internet Archive; the Adagio file is an MP3 derivative of the side",
+      "value": "Internet Archive LP digitisation: ripped by an Internet Archive associate at the Cebu scanning centre (rip station archivelp-rip-cebu04); the cover was scanned and the item created by another associate",
       "status": "documented",
       "sourceIds": [
         "archive"
       ],
-      "note": "The stylus, cartridge, equalisation and noise treatment are not documented; the recording’s playing speed has not been checked."
+      "note": "The item metadata names a ripping operator and a ripping scanner, a scanning centre (cebu) and a separate scanning operator. The item is listed in several vinyl collections, including the Boston Public Library’s; which physical copy was digitised is not stated."
+    },
+    "date": {
+      "value": "4 January 2021 (the ripping date recorded in the item metadata)",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The metadata gives ripping_date 20210104123741. The artwork scan date and public date are 24 November 2020 and the added date is 4 January 2021; these are separate events and the scan and upload dates are not transfer dates.",
+      "precision": "day"
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable with Audio-Technica AT95e cartridge, Radio Design Labs EZ-PH1 phono preamp and Focusrite Scarlett 2i2 interface; the Adagio file is an MP3 derivative of the side",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The hardware chain is the lineage field of the item metadata; the file inventory also reports generic SoX processing of the side files, with no settings. The equalisation curve, noise treatment, original recording engineering and playing-speed accuracy are not documented and are not inferred from the equipment names."
     }
   },
   "digital": {
@@ -172,7 +176,14 @@
       "id": "archive",
       "title": "Internet Archive — Casals Festival At Prades, Third Series: Quintet In C Major — opus 163",
       "url": "https://archive.org/details/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne",
-      "locator": "Item page and metadata: creators Schubert, Stern, Schneider, Katims, Casals and Tortelier; publisher Columbia Masterworks (ML 4714 / SL-183); publication date 1953; source Vinyl LP; file disc1/01.02 “Second Movement: Adagio” 794.23 s; no licence URL. Metadata read at https://archive.org/metadata/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne.",
+      "locator": "Item page and metadata: creators Schubert, Stern, Schneider, Katims, Casals and Tortelier; publisher Columbia Masterworks (ML 4714 / SL-183); publication date 1953; source Vinyl LP; file disc1/01.02 “Second Movement: Adagio” 794.23 s; lineage (Technics SL1200MK5, Audio-Technica AT95e, RDL EZ-PH1, Focusrite Scarlett 2i2), ripping_date 20210104123741, scanning centre cebu; no licence URL. Metadata read at https://archive.org/metadata/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sleeve",
+      "title": "LP sleeve notes — Casals Festival at Prades, Third Series (Columbia Masterworks), as OCR text on the Internet Archive",
+      "url": "https://archive.org/download/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne_djvu.txt",
+      "locator": "Sleeve text: “The recordings, made in Prades during the Casals Festival of 1952, are devoted to the chamber music of Schubert, Schumann and Brahms”; the Schubert Quintet in C major, Op. 163, with Stern, Schneider, Katims, Casals and Tortelier listed on the sleeve; note on the Adagio citing Einstein.",
       "accessed": "2026-10-17"
     },
     {

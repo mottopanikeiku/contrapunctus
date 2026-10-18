@@ -6,12 +6,13 @@ const HTML = `${PREFIX}html:${BUILD}`;
 const DATA = `${PREFIX}data:${BUILD}`;
 const IMAGES = `${PREFIX}images:${BUILD}`;
 const SCORES = `${PREFIX}scores:${BUILD}`;
-const activeCaches = new Set([SHELL, HTML, DATA, IMAGES, SCORES]);
+const FONTS = `${PREFIX}fonts`;
+const activeCaches = new Set([SHELL, HTML, DATA, IMAGES, SCORES, FONTS]);
 const revisions = new Map(PRECACHE.map(({ url, revision }) => [new URL(url, ROOT).href, revision]));
 const precached = new Set(PRECACHE.filter((entry) => entry.precache).map(({ url }) => new URL(url, ROOT).href));
 const revisionKey = (url, revision) => `${url}?__revision=${revision}`;
 const storable = (response) => response.ok && response.status !== 206 && response.type === 'basic';
-let imageWrites = Promise.resolve();
+let assetWrites = Promise.resolve();
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -32,6 +33,36 @@ self.addEventListener('install', (event) => {
         const response = previous || await fetch(new Request(fetchURL, { cache: url.endsWith('.html') ? 'reload' : 'force-cache' }));
         if (!storable(response)) throw new Error(`Unable to precache ${url}: ${response.status}`);
         await cache.put(key, response);
+      }
+    }));
+    // Capture the first document too: it was loaded before this worker could
+    // control it. Precache only its preferred faces, reusing the HTTP cache,
+    // instead of downloading the complete site's font repertoire on install.
+    const fontURLs = new Set(), documents = await caches.open(HTML);
+    for (const client of await self.clients.matchAll({ type: 'window', includeUncontrolled: true })) {
+      const url = new URL(client.url);
+      if (url.origin !== ROOT.origin || !url.pathname.startsWith(ROOT.pathname)) continue;
+      url.search = ''; url.hash = '';
+      if (url.pathname.endsWith('/')) url.pathname += 'index.html';
+      if (!url.pathname.endsWith('.html')) continue;
+      const revision = revisions.get(url.href);
+      const response = revision && await cache.match(revisionKey(url.href, revision)) || await fetch(new Request(url, { cache: 'force-cache' }));
+      if (!storable(response)) throw new Error(`Unable to preserve initial page: ${url}`);
+      await documents.put(url, response.clone());
+      for (const match of (await response.text()).matchAll(/url\(['"]([^'"]+\.page\.[a-f\d]{16}\.woff2)['"]\)/g)) {
+        const font = new URL(match[1], url);
+        if (font.origin === ROOT.origin && font.pathname.startsWith(`${ROOT.pathname}assets/fonts/`)) fontURLs.add(font.href);
+      }
+    }
+    const fonts = await caches.open(FONTS), queue = [...fontURLs];
+    next = 0;
+    await Promise.all(Array.from({ length: Math.min(4, queue.length) }, async () => {
+      while (next < queue.length) {
+        const url = queue[next++];
+        if (await fonts.match(url)) continue;
+        const response = await fetch(new Request(url, { cache: 'force-cache' }));
+        if (!storable(response)) throw new Error(`Unable to precache font: ${url}`);
+        await fonts.put(url, response);
       }
     }));
   })());
@@ -79,7 +110,7 @@ async function staleWhileRevalidate(event, key) {
   event.waitUntil(update.catch(() => {}));
   return await cache.match(key) || update;
 }
-async function cacheImage(event, name, limit) {
+async function cacheLRU(event, name, limit) {
   const cache = await caches.open(name), key = event.request;
   let response = await cache.match(key);
   if (!response) response = await fetch(key);
@@ -87,14 +118,14 @@ async function cacheImage(event, name, limit) {
     const copy = response.clone();
     // CacheStorage insertion order is our LRU. A hit is touched as well as a
     // miss; serialisation makes simultaneous image loads respect the bound.
-    const write = imageWrites.then(async () => {
+    const write = assetWrites.then(async () => {
       await cache.delete(key);
       await cache.put(key, copy);
       const keys = await cache.keys();
       for (let i = 0; i < keys.length - limit; i++) await cache.delete(keys[i]);
     });
-    imageWrites = write.catch(() => {});
-    event.waitUntil(imageWrites);
+    assetWrites = write.catch(() => {});
+    event.waitUntil(assetWrites);
   }
   return response;
 }
@@ -116,11 +147,13 @@ self.addEventListener('fetch', (event) => {
       if (storable(response)) await cache.put(key, response.clone());
       return response;
     }));
+  } else if (request.destination === 'font' && /\/assets\/fonts\/[^/]+\.[a-f\d]{16}\.woff2$/.test(url.pathname)) {
+    event.respondWith(cacheLRU(event, FONTS, 1000));
   } else if (url.pathname.endsWith('.json') || /\/assets\/data\//.test(url.pathname) && !url.pathname.endsWith('.svg')) {
     event.respondWith(staleWhileRevalidate(event, url.href));
   } else if (url.pathname.endsWith('.svg') && /\/(?:data|scores)\//.test(url.pathname)) {
-    event.respondWith(cacheImage(event, SCORES, 300));
+    event.respondWith(cacheLRU(event, SCORES, 300));
   } else if (request.destination === 'image' || /\.(?:avif|webp|png|jpe?g|gif|svg)$/.test(url.pathname)) {
-    event.respondWith(cacheImage(event, IMAGES, 300));
+    event.respondWith(cacheLRU(event, IMAGES, 300));
   }
 });

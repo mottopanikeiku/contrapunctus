@@ -25,7 +25,8 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "published-midi",
+    "transpose": 1
   },
   "voices": [
     {
@@ -74,15 +75,30 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      2.4,
+      2.9
     ],
     "last": [
-      198,
-      206
+      202.9,
+      203.5
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "The supplied transfer's first three octave attacks are B-flat, A and D, one nominal MIDI semitone above the source after fractional tuning correction; first music is near 2.6 s, not the later A attack at 3.94 s. The final pianissimo reattack near 203.15 s follows the stronger penultimate upper chord near 200.55 s; the old broad endpoint selected that earlier chord. Original printed C-sharp-minor notation is retained."
   },
+  "anchors": [
+    {
+      "scoreQ": 2,
+      "window": [5.25, 5.7],
+      "label": "third-opening-transferred-D-octaves",
+      "basis": "With the documented +1 nominal-semitone transfer correction, the source's third C-sharp bell sounds D1/D2/D3 near 5.45 s. Its sustained pitch state must not begin early. This is inspected source-pitch fitting evidence, not independent validation."
+    },
+    {
+      "scoreQ": 241.5,
+      "window": [200.4, 200.8],
+      "label": "penultimate-transferred-D-minor-upper-chord",
+      "basis": "Source q241.5 and q242 have identical upper chord pitches but two distinct recorded attacks, near 200.55 and 203.15 s. The old broad endpoint picked the earlier stronger chord and erased the final reattack. This constraint preserves both written attacks; it is not independent or aural validation."
+    }
+  ],
+  "diagnostics": {"overlays": [[172,184],[184,196],[196,209]]},
   "boundaries": [],
   "engraving": {
     "staff": 18,
@@ -90,7 +106,8 @@
     "height": 297
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. INFERENCE: Correct Op. 3 No. 2, not a concerto reduction; Rachmaninoff’s 1919 performance may alter voicing, timing and ornaments. No cut/repeat check performed.",
-    "Read content/listen/rachmaninoff-prelude-c-sharp-minor-victor-1921.mjs and cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1921.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise must be inspected separately."
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. The source identifies the complete solo-piano Op. 3 No. 2, not Rachmaninoff's physical performing edition.",
+    "Read content/listen/rachmaninoff-prelude-c-sharp-minor-victor-1921.mjs and cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1921.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise were inspected separately.",
+    "MEAS: cached absolute-pitch features at 2.5–3.2 s identify the B-flat harmonic series (MIDI46/58/65/70/74/77); 3.9–4.4 s identifies A (57/64/69/73/76/79), and 5.5–6.2 s identifies D (50/62/69/74/78). The feature extractor's residual tuning estimate is -0.33 semitones. Apply a documented +1 nominal-semitone sounding-pitch correction to all four source staves for this supplied transfer, without changing the printed notation or claiming that Rachmaninoff transposed the work. The uncorrected candidate's numerical pass concealed an actual pitch mismatch and a late first anchor."
   ]
 }
