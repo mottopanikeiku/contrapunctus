@@ -99,10 +99,10 @@ async function cacheLRU(event, name, limit) {
   if (!response) response = await fetch(key);
   if (storable(response)) {
     const copy = response.clone();
-    // CacheStorage insertion order is our LRU. A hit is touched as well as a
-    // miss; serialisation makes simultaneous image loads respect the bound.
+    // put() atomically replaces and moves an entry to the insertion-order
+    // tail. Deleting first creates a cache-miss window for concurrent offline
+    // image/artwork requests. Serialise writes to respect the LRU bound.
     const write = assetWrites.then(async () => {
-      await cache.delete(key);
       await cache.put(key, copy);
       const keys = await cache.keys();
       for (let i = 0; i < keys.length - limit; i++) await cache.delete(keys[i]);
@@ -153,11 +153,17 @@ self.addEventListener('fetch', (event) => {
   const canonical = new URL(url.pathname, ROOT);
   if (canonical.pathname.endsWith('/')) canonical.pathname += 'index.html';
   const revision = revisions.get(canonical.href);
+  const version = url.searchParams.get('v');
+  const versionedAsset = /^[a-f0-9]{12}$/.test(version || '') && /\/assets\/(?:js|css|vendor)\/.*\.(?:js|css)$/.test(url.pathname);
+  const hashedFont = /\/assets\/fonts\/[^/]+\.[a-f0-9]{16}\.woff2$/.test(url.pathname);
   if (request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/')) {
     event.respondWith(networkFirst(request, canonical.href));
-  } else if (revision) {
+  } else if (revision || versionedAsset || hashedFont) {
     event.respondWith(caches.open(SHELL).then(async (cache) => {
-      const key = revisionKey(canonical.href, revision);
+      // A waiting update must not make the active worker serve its old bytes
+      // for a new HTML document's ?v=. Unknown immutable versions have their
+      // own URL keys until the next worker owns their full revision manifest.
+      const key = revision && (!version || version === revision.slice(0, 12)) ? revisionKey(canonical.href, revision) : url.href;
       const found = await cache.match(key);
       if (found) return found;
       const response = await fetch(request);

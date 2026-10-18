@@ -69,6 +69,8 @@ The current note/chroma contract is pitched. Unpitched GM drum keys are instrume
 
 **Compiled MIDI:** `extraction.definitions` is `[{file,before?}]`. Each converted file is included up to the literal delimiter (usually `"\\score"`), or in full without it. The default is `source.main` before its first score. `extraction.music` is the complete LilyPond music expression for the chosen movement; `midiSettings` is optional content inside `\\midi { ... }`. Map the resulting tracks through `voices[].tracks`. Do not use `\\unfoldRepeats` if `bars.order` will unfold canonical MIDI again.
 
+Compilation uses the selected definitions and music in `score_events.compile_midi`, not musicxml2ly's standalone demo MIDI block. That demo adds `\articulate`, which changes written durations and can break note-specific partial ties; it is not the event source for this pipeline. Conversion regressions use the same production compilation helper and assert both sustained tied notes and independent reattacks.
+
 **Isolated voices:** use the same definitions, `extraction.staves` (source staff names), optional `global` and `silent` music, plus `voices[].music` (e.g. `"\\soprano"`) and `staff`. Each variable is compiled separately with destination staves present, preserving cross-staff identity. Schubert’s explicit concatenated bass variables avoid encoder playback instructions.
 
 An initial grace note can give isolated MIDI files different pre-roll origins. Check source-quarter identity, not only the total note count. If origins differ, compile the named voices simultaneously in separate MIDI staves with `compiled-midi`, retaining the original printed staves in `engraving.music`. This gives them one common MIDI clock. Preserve the grace; document any common lead once in the initial bar’s MIDI-quarter extent, rather than cropping the grace, independently shifting regular attacks, or calling the pre-roll an extra written beat.
@@ -184,7 +186,7 @@ Lower-level `fetch.py`, `prepare.py`, `score_events.py`, `align.py` remain diagn
 
 Without explicit ids, `node tools/engrave.mjs` re-engraves only configured recordings that already have a published `score.json`, not withheld candidates.
 
-Deterministic regressions cover gate boundaries, rounding, numerical equivalence, canonical publication JSON, pickups/repeats, transposition, pitch anchors and fractional-frame continuous fitting constraints, exact legacy unison omissions, separate ornament notation proofs, MusicXML clef ownership, nested tuplets, source-backed trill spans, partial measures/endings, initial grace synchronization and note-specific ties. They decode no recording and use no network; conversion/notation fixtures invoke the installed LilyPond 2.24.4 tools:
+Deterministic regressions cover gate boundaries, rounding, numerical equivalence, canonical publication JSON, pickups/repeats, transposition, pitch anchors and fractional-frame continuous fitting constraints, exact legacy unison omissions, separate ornament notation proofs, main-score versus inline-example SVG markers, MusicXML clef ownership, nested tuplets, source-backed trill spans, partial measures/endings, initial grace synchronization and note-specific ties. They decode no recording and use no network; conversion/notation fixtures invoke the installed LilyPond 2.24.4 tools through the production written-duration wrappers:
 
 ```sh
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMBA_NUM_THREADS=1 \

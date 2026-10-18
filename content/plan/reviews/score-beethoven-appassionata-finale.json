@@ -1,0 +1,264 @@
+{
+  "id": "beethoven-appassionata-finale",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent saved-gate arithmetic, all17 current diagnostic PNGs, all9 actual native pages, saved quiet source-pitch image/measurements, exact performed order and full bar/index/caller/provenance review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#beethoven-appassionata-finale",
+    "finding": "Current report agrees with source counts/order, rejected first/quiet placements, corrected fitted coordinates, fresh gates, current paper/index and provisional physical-key/release limits. No aural-review upgrade is claimed."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/beethoven-appassionata-finale-checks.json",
+    "primaryMedianSeconds": 0.11621203607398911,
+    "primaryP95Seconds": 0.9324339594068346,
+    "maximumAnchorDeviationSeconds": 0.047270582515352544,
+    "maximumLocalRegionMedianSeconds": 0.058639296374678906,
+    "minimumPublishedNoteDurationSeconds": 0.002,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.0009999999999763531,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 569,
+    "distinctEngravedBars": 371,
+    "taggedGlyphBars": 369,
+    "sheetPages": 9,
+    "svgBarSetEqualsIndexExceptDeclaredSilentBars": true,
+    "unresolvedScoreBars": [],
+    "derivedBars": [
+      "179",
+      "183"
+    ],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All note voice/bar indices resolve, durations positive and bar starts strictly increase. All9 actual native pages independently inspected:1-371, source start-repeat118, first ending300-307/second308-309, Presto316 and its two separate alternatives323-324/334-335, final371. Current native page5 clearly retains silent179/183 as full-measure rests on both staves. Exact current index rectangles were separately overlaid in memory on the complete unchanged page5 SVG and correctly enclose both rest intervals."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/beethoven-appassionata-finale-0-8.4.png",
+      "work/beethoven-appassionata-finale-72-80.png",
+      "work/beethoven-appassionata-finale-78-92.png",
+      "work/beethoven-appassionata-finale-112-120.png",
+      "work/beethoven-appassionata-finale-132.8-144.8.png",
+      "work/beethoven-appassionata-finale-136-144.png",
+      "work/beethoven-appassionata-finale-152-160.png",
+      "work/beethoven-appassionata-finale-208.427-220.427.png",
+      "work/beethoven-appassionata-finale-226-240.png",
+      "work/beethoven-appassionata-finale-256-264.png",
+      "work/beethoven-appassionata-finale-296-304.png",
+      "work/beethoven-appassionata-finale-304-312.png",
+      "work/beethoven-appassionata-finale-368-376.png",
+      "work/beethoven-appassionata-finale-376-392.png",
+      "work/beethoven-appassionata-finale-400-408.png",
+      "work/beethoven-appassionata-finale-416-424.png",
+      "work/beethoven-appassionata-finale-416.662-428.662.png"
+    ],
+    "finding": "All17 current images independently inspected: first/middle/worst regions, both development traversals, quiet preparation/apex, Presto repeats and complete ending. No gross principal-pitch or performed-order mismatch identified with saved E6 evidence. Large quiet-region primary onset errors remain explicitly disclosed, not recast as uniformly precise note timing."
+  },
+  "quietEvidence": {
+    "basis": "MEAS",
+    "image": "tools/align/results/beethoven-appassionata-finale-quiet-apex.png",
+    "measurements": "tools/align/results/beethoven-appassionata-finale-quiet-apex.json",
+    "bothOpenedAndImageInspected": true,
+    "matchesCurrentChecksAudioSha256": true,
+    "event": {
+      "sourceQ": 363,
+      "midiPitches": [
+        88
+      ],
+      "window": [
+        136.76,
+        137.02
+      ],
+      "fittedAudioSeconds": 136.8,
+      "mappedAudioSeconds": 136.8,
+      "sourcePitchPeakSeconds": 136.84,
+      "meanSourcePitchEnergyAtPeak": 7.130523204803467,
+      "preAttackMedianEnergy": 0.016607634723186493
+    },
+    "completeSourceOnsetSetMatchesReceipt": true,
+    "recomputedPeakToPreAttackMedianRatio": 429.352121699082,
+    "finding": "Opened logarithmic absolute-pitch plot resolves the E6/MIDI88 rise at136.8 and peak136.84, after the ascent and before the quiet gap/low continuation; the rejected137.60 placement was late. Actual source q363 contains exactly88. Saved peak/pre-baseline ratio429.352 is recomputed from numeric receipt. This fitted source-pitch evidence does not independently validate every weak preparation note."
+  },
+  "fittingAudit": {
+    "basis": "MEAS",
+    "measurements": [
+      {
+        "label": "first",
+        "scoreQ": 0.0,
+        "midiPitches": [
+          46,
+          55,
+          64,
+          73
+        ],
+        "audioSeconds": 0.4,
+        "peakSeconds": 0.44,
+        "mappedAudioSeconds": 0.4,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "first-development-quiet-E6-apex",
+        "scoreQ": 363.0,
+        "midiPitches": [
+          88
+        ],
+        "audioSeconds": 136.8,
+        "peakSeconds": 136.82,
+        "mappedAudioSeconds": 136.8,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "last",
+        "scoreQ": 1136.0,
+        "midiPitches": [
+          29,
+          32,
+          36,
+          41,
+          53,
+          56,
+          60,
+          65
+        ],
+        "audioSeconds": 420.6,
+        "peakSeconds": 420.68,
+        "mappedAudioSeconds": 420.6618629173992,
+        "mappingDeviationSeconds": 0.06186291739919625
+      }
+    ],
+    "finding": "Each fitted pitch set belongs to its actual source onset. Explicit quiet interior knot maps exactly; legacy final target retains its recorded residual rather than becoming an exact knot. Warped durations/holds are not measured key releases or pedal resonance."
+  },
+  "source": {
+    "basis": "EXT",
+    "title": "Appassionata, Op.57 — Allegro ma non troppo — Presto",
+    "edition": "Breitkopf & Hartel (1862-1865)",
+    "encoder": "Stelios Samelis",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=937",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "opened": true,
+    "licenseOpened": true,
+    "localOriginal": "tools/align/sources/beethoven-appassionata-finale/LVB_Sonate_57_3.ly",
+    "localOriginalOpened": true,
+    "finding": "Opened Mutopia937 catalogue and immutable main header agree with Breitkopf & Hartel1862-1865,Stelios Samelis,Public Domain. Main explicitly includes both source staves and unfolds repeats only for its MIDI score. Original upper/lower repeat/alternative blocks and the actual R2 contexts were read; historical Breitkopf scan was not opened."
+  },
+  "sourceInventoryAudit": {
+    "basis": "MEAS",
+    "path": "tools/align/work/beethoven-appassionata-finale-events.json",
+    "notes": 7250,
+    "staffCounts": [
+      3629,
+      3621
+    ],
+    "endQ": 1138,
+    "lastNoteEndQ": 1136.5,
+    "performedInclusiveRanges": [
+      [
+        1,
+        307
+      ],
+      [
+        118,
+        299
+      ],
+      [
+        308,
+        323
+      ],
+      [
+        316,
+        322
+      ],
+      [
+        324,
+        334
+      ],
+      [
+        325,
+        333
+      ],
+      [
+        335,
+        371
+      ]
+    ],
+    "allPerformedNumbersMatchExpandedRanges": true,
+    "allPublicNumbersAndOccurrencesMatchSourceTable": true,
+    "allPerformedBarDurationsTwoQuarters": true,
+    "finding": "Exact complete performed number sequence was independently compared with inclusive configured ranges, then every public(n,occ) matched to the actual source table. Source staff labels are not claims of independent contrapuntal voice separation. sourceChecks is empty; VerS did not separately decode raw original MIDI or execute a strict canonical multiset comparison."
+  },
+  "recording": {
+    "basis": "EXT",
+    "url": "https://archive.org/metadata/beethovenschnabel6",
+    "opened": true,
+    "finding": "Opened selected track records75/76 credit Artur Schnabel and match the current listen-file movement/file names. No independent session-day or physical performing-copy authentication is claimed."
+  },
+  "guide": {
+    "basis": "MEAS",
+    "finding": "No structured bar pointers. Development118 first/repeated=87.931/236.732, recap212=165.477/312.958, Presto316=383.114/387.910. Current84/232/166/312/384 guides are explicitly rounded passage locators and their transition spans contain the relevant joins; order correctly repeats development/recap, not exposition. They are not fitting constraints or independent bar-onset truth."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete original solo-piano finale. Development/recapitulation repeat and both short Presto repeats follow actual source alternatives; no exposition repeat is invented.371 printed bars become569 occurrences. Physical Schnabel performing edition is unknown; source numbers include alternative endings and need not equal a different edition convention."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false,
+    "tuningHz": 439.75,
+    "publicSha256": "fdf022e8b607ff590b747b4eb18bb73f5919e0cb553255ecf293d6b1d14bc868"
+  },
+  "limitations": "MEAS: No aural review, tests, build or full-site integration run by VerS. Every current diagnostic/native page and saved quiet proof was inspected. Fitted symbolic attacks, source timing and warped holds remain provisional, not separate physical-key/hammer/pedal annotations.",
+  "quietPrimaryDetectorLimitation": {
+    "basis": "MEAS",
+    "regionSeconds": [
+      136,
+      144
+    ],
+    "primaryMedianSecondsApprox": 2.72976,
+    "localNormalisedMedianSecondsApprox": 0.036183,
+    "finding": "Global detector misses much of the quiet preparation. This large regional primary median and high whole-piece P95 remain disclosed; the mandatory regional gate is the separately calculated local-normalised median, not an invented per-note error bound."
+  },
+  "silentBars": {
+    "basis": "MEAS",
+    "numbers": [
+      "179",
+      "183"
+    ],
+    "boxes": {
+      "179": [
+        [
+          4,
+          81.59,
+          85.85,
+          11.16,
+          13.55
+        ]
+      ],
+      "183": [
+        [
+          4,
+          34.69,
+          111.79,
+          11.43,
+          13.45
+        ]
+      ]
+    },
+    "sourceProof": [
+      "tools/align/sources/beethoven-appassionata-finale/LVB_Sonate_57_3_1.ly:90-91",
+      "tools/align/sources/beethoven-appassionata-finale/LVB_Sonate_57_3_2.ly:80-82"
+    ],
+    "sourceProofOpened": true,
+    "allFourPerformedOccurrencesHaveZeroPitchedSourceOnsets": true,
+    "finding": "Source R2 rests are visible in both staves; both occurrences remain in event/public order. All371 bars have boxes,369 have tagged rhythmic glyphs. Exact red/blue overlay of both current derived boxes on native unchanged page5 verified the correct intervals, including their closing clef changes; no asset was edited. This matches the documented silent-bar recovery policy, not acceptance of a derived box for pitched music."
+  }
+}

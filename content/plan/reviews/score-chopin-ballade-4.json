@@ -1,0 +1,366 @@
+{
+  "id": "chopin-ballade-4",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent saved-gate arithmetic, all31 current diagnostic PNGs, all14 actual native SVG pages, original compressed-cadenza notation, source-specific fits and complete bar/index/caller/provenance review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#chopin-ballade-4",
+    "finding": "Current report agrees with239bars/717quarters/6050notes, complete original topPart/lowerPart extraction, rejected apex-only and quiet-fifth-chord numerical passes,15 exact interior constraints, preserved source rests/ties, current gates and physical-release limitations. Legacy original-MIDI unmatched-release observation was not rerun; complete unchanged source compilation is correctly distinguished from suppressing parser errors."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-ballade-4-checks.json",
+    "primaryMedianSeconds": 0.04809393352883262,
+    "primaryP95Seconds": 0.3108418533389852,
+    "maximumAnchorDeviationSeconds": 0.08300358637177396,
+    "maximumLocalRegionMedianSeconds": 0.0636692947755364,
+    "minimumPublishedNoteDurationSeconds": 0.002,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.0019999999999527063,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 239,
+    "distinctEngravedBars": 239,
+    "sheetPages": 14,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "derivedBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All6050 note voice/bar indices resolve, durations positive and bar starts strictly increase. All fourteen actual native pages independently inspected: complete1-239, one full bar134 with the entire small-note ascending/descending cadenza, A4 fermata/turn and separate135return, five quiet chords203-207 with following written ties/rests,211coda and final239. Paper masks clear, no spurious bar1 annotation box or counter reset identified."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/chopin-ballade-4-0-10.58.png",
+      "work/chopin-ballade-4-24-32.png",
+      "work/chopin-ballade-4-248-256.png",
+      "work/chopin-ballade-4-280-288.png",
+      "work/chopin-ballade-4-428-440.png",
+      "work/chopin-ballade-4-428.1-440.1.png",
+      "work/chopin-ballade-4-428.9-440.9.png",
+      "work/chopin-ballade-4-429.68-441.68.png",
+      "work/chopin-ballade-4-430.54-442.54.png",
+      "work/chopin-ballade-4-431.52-443.52.png",
+      "work/chopin-ballade-4-432.64-444.64.png",
+      "work/chopin-ballade-4-434.1-446.1.png",
+      "work/chopin-ballade-4-435-447.png",
+      "work/chopin-ballade-4-435.16-447.16.png",
+      "work/chopin-ballade-4-438.96-450.96.png",
+      "work/chopin-ballade-4-439.86-451.86.png",
+      "work/chopin-ballade-4-440.52-452.52.png",
+      "work/chopin-ballade-4-442-454.png",
+      "work/chopin-ballade-4-509.38-521.38.png",
+      "work/chopin-ballade-4-560-568.png",
+      "work/chopin-ballade-4-608-616.png",
+      "work/chopin-ballade-4-616-624.png",
+      "work/chopin-ballade-4-632-640.png",
+      "work/chopin-ballade-4-637.84-649.84.png",
+      "work/chopin-ballade-4-640-654.png",
+      "work/chopin-ballade-4-640.9-652.9.png",
+      "work/chopin-ballade-4-646.84-658.84.png",
+      "work/chopin-ballade-4-650-668.png",
+      "work/chopin-ballade-4-660.88-672.88.png",
+      "work/chopin-ballade-4-744-752.png",
+      "work/chopin-ballade-4-746.591-758.591.png"
+    ],
+    "finding": "All31 current images independently inspected: opening/middle/worst windows, full corrected cadenza428-454, complete loud-chord/pause/five-quiet-chord progression640-672.88 and ending. The rise to absolute A6, complete descent, held A4, B-flat/G-sharp turn and separate return are in source order. No remaining gross principal-pitch/order mismatch identified; unanchored grace microtiming remains approximate."
+  },
+  "fittingAudit": {
+    "basis": "MEAS",
+    "measurements": [
+      {
+        "label": "first",
+        "scoreQ": 0.0,
+        "midiPitches": [
+          67,
+          79
+        ],
+        "audioSeconds": 2.58,
+        "peakSeconds": 2.6,
+        "mappedAudioSeconds": 2.58,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-cadenza-A5-A6-peak",
+        "scoreQ": 401.203125,
+        "midiPitches": [
+          81,
+          93
+        ],
+        "audioSeconds": 432.1,
+        "peakSeconds": 432.12,
+        "mappedAudioSeconds": 432.1,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-first-descending-A5",
+        "scoreQ": 401.29427083333326,
+        "midiPitches": [
+          73,
+          81
+        ],
+        "audioSeconds": 432.9,
+        "peakSeconds": 432.92,
+        "mappedAudioSeconds": 432.9,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-second-descending-A5",
+        "scoreQ": 401.38541666666674,
+        "midiPitches": [
+          69,
+          81
+        ],
+        "audioSeconds": 433.68,
+        "peakSeconds": 433.72,
+        "mappedAudioSeconds": 433.68,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-first-low-A4",
+        "scoreQ": 401.4765625,
+        "midiPitches": [
+          61,
+          69
+        ],
+        "audioSeconds": 434.54,
+        "peakSeconds": 434.58,
+        "mappedAudioSeconds": 434.54,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-second-low-A4",
+        "scoreQ": 401.56770833333326,
+        "midiPitches": [
+          52,
+          69
+        ],
+        "audioSeconds": 435.52,
+        "peakSeconds": 435.58,
+        "mappedAudioSeconds": 435.52,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-third-low-A4",
+        "scoreQ": 401.65885416666674,
+        "midiPitches": [
+          52,
+          69
+        ],
+        "audioSeconds": 436.64,
+        "peakSeconds": 436.68,
+        "mappedAudioSeconds": 436.64,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-E4-before-fermata",
+        "scoreQ": 401.7265625,
+        "midiPitches": [
+          61,
+          64
+        ],
+        "audioSeconds": 438.1,
+        "peakSeconds": 438.16,
+        "mappedAudioSeconds": 438.1,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-cadenza-A4-fermata",
+        "scoreQ": 401.7708333333333,
+        "midiPitches": [
+          69
+        ],
+        "audioSeconds": 439.16,
+        "peakSeconds": 439.18,
+        "mappedAudioSeconds": 439.16,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-post-fermata-B-flat4",
+        "scoreQ": 401.9088541666667,
+        "midiPitches": [
+          70
+        ],
+        "audioSeconds": 442.96,
+        "peakSeconds": 443.0,
+        "mappedAudioSeconds": 442.96,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-134-post-fermata-G-sharp4",
+        "scoreQ": 401.953125,
+        "midiPitches": [
+          68
+        ],
+        "audioSeconds": 443.86,
+        "peakSeconds": 443.96,
+        "mappedAudioSeconds": 443.86,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-135-returning-A4",
+        "scoreQ": 402.0,
+        "midiPitches": [
+          69
+        ],
+        "audioSeconds": 444.52,
+        "peakSeconds": 444.56,
+        "mappedAudioSeconds": 444.52,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-201-staccato-C-F-G-chord",
+        "scoreQ": 600.0,
+        "midiPitches": [
+          36,
+          48,
+          72,
+          77,
+          79,
+          84
+        ],
+        "audioSeconds": 641.84,
+        "peakSeconds": 641.86,
+        "mappedAudioSeconds": 641.84,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-202-last-fortissimo-C-major",
+        "scoreQ": 604.0,
+        "midiPitches": [
+          24,
+          36,
+          55,
+          60,
+          64,
+          67
+        ],
+        "audioSeconds": 644.9,
+        "peakSeconds": 644.9,
+        "mappedAudioSeconds": 644.9,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-203-first-pianissimo-chord",
+        "scoreQ": 606.0,
+        "midiPitches": [
+          48,
+          55,
+          64,
+          72,
+          79,
+          84
+        ],
+        "audioSeconds": 650.84,
+        "peakSeconds": 650.88,
+        "mappedAudioSeconds": 650.84,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "bar-207-fifth-pianissimo-chord",
+        "scoreQ": 618.0,
+        "midiPitches": [
+          36,
+          48,
+          55,
+          60,
+          64
+        ],
+        "audioSeconds": 664.88,
+        "peakSeconds": 664.94,
+        "mappedAudioSeconds": 664.88,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "last",
+        "scoreQ": 714.0,
+        "midiPitches": [
+          29,
+          41,
+          53,
+          56,
+          60,
+          65
+        ],
+        "audioSeconds": 750.56,
+        "peakSeconds": 750.62,
+        "mappedAudioSeconds": 750.5907112970708,
+        "mappingDeviationSeconds": 0.03071129707086584
+      }
+    ],
+    "finding": "Every fitted pitch set belongs to the actual generated source onset. All15 interior residuals are zero:11 cover cadenza/return,4 distinguish the pre-coda source progression. Last loud chords641.840/644.900 precede first quiet650.840 and fifth quiet664.880, not its rejected663.1 gap. Legacy last target750.56 maps750.590711297s, residual0.030711297, published750.591; it is not an exact knot. Fits are disclosed constraints, not independent aural annotation."
+  },
+  "source": {
+    "basis": "EXT",
+    "title": "Ballade No. 4 in F minor, Op. 52",
+    "edition": "Joseffy Edition",
+    "encoder": "Bruce J Keeler",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=422",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "opened": true,
+    "licenseOpened": true,
+    "localOriginal": "tools/align/sources/chopin-ballade-4/ballade-4-lys/ballade-4.ly",
+    "localOriginalHeaderAndCadenzaOpened": true,
+    "finding": "Opened Mutopia422 catalogue and immutable original header agree: Joseffy Edition,Bruce J Keeler,Public Domain. Original upper/lower cadenza passages347-405/1244-1267 explicitly use scaleDurations2/22 and retain complete flourish/fermata/turn; no extra performed bar is invented. Underlying historical Joseffy scan was not opened."
+  },
+  "sourceInventoryAudit": {
+    "basis": "MEAS",
+    "path": "tools/align/work/chopin-ballade-4-events.json",
+    "notes": 6050,
+    "staffCounts": [
+      3265,
+      2785
+    ],
+    "endQ": 717,
+    "lastAttackQ": 714,
+    "finding": "Actual event table retains the complete two source-staff inventories, all239three-quarter bars once and full final source duration. Configuration compiles complete topPart/lowerPart expressions, not truncated substitutes. sourceChecks is empty; VerS did not independently execute a strict original-MIDI multiset proof or re-run the reported legacy decode failure."
+  },
+  "recording": {
+    "basis": "EXT",
+    "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Ballade_No._4_in_F_minor,_Op._52_(Frank_Levy).flac",
+    "opened": true,
+    "finding": "Opened Commons metadata credits Frank Lévy and identifies complete Op.52. Original FLAC exceeds100MB and was not downloaded; no precise session date or physical performing-copy authentication claimed."
+  },
+  "guide": {
+    "basis": "MEAS",
+    "nativeBars": [
+      8,
+      80,
+      129,
+      135,
+      169,
+      203,
+      211
+    ],
+    "mappedSeconds": [
+      30.182,
+      271.045,
+      409.475,
+      444.52,
+      563.4,
+      650.84,
+      674.05
+    ],
+    "finding": "No structured bar pointers. All written ranges1-7/129-134/135-140/169onward cited by current guide resolve in the native engraving; coarse sections are not exact onset constraints. B285 is later within the initial second-theme paragraph rather than an authenticated bar80 onset. Quiet-link645 includes the last loud chord/pause before650.84; its635-657 span includes the actual first quiet chord,665cue matches the fifth, and674coda matches674.05. No fictitious performed repeat or missing cadenza is implied."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete original solo-piano Ballade No.4 once, with written returns,cadenza and complete five-chord link/coda. No gross cut or arrangement mismatch identified in reviewed regions. Lévy physical performing edition is unknown; Joseffy is symbolic-source provenance, not authenticated ownership of that copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false,
+    "tuningHz": 440.51,
+    "publicSha256": "31c3cadd58ec6d150edb212d3c1a6d408e85dda63550020129ce76739c2acf96"
+  },
+  "limitations": "MEAS: No aural review, tests, build or full-site integration. All ordinary saved PNGs and native pages inspected; no independently saved logarithmic cadenza file was claimed here. Short scaled grace timings and warped staccato holds are not measured physical key timings. Numerical success alone did not justify the earlier rejected maps."
+}

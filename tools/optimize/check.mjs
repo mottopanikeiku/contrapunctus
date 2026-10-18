@@ -27,10 +27,15 @@ for (const file of all) {
   pages++;
   const html = await readFile(file, 'utf8'), doc = parse(html);
   check(!/fonts\.(?:googleapis|gstatic)\.com/.test(html), `${relative}: third-party font URL`);
-  let high = 0;
+  let high = 0, critical = '', deferredStyles = false, dark = false;
   function visit(node) {
     const attrs = Object.fromEntries((node.attrs || []).map(({ name, value }) => [name, value]));
-    if (node.tagName === 'body') for (const name of (attrs['data-modules'] || '').split(/\s+/).filter(Boolean)) modules.add(name);
+    if (node.tagName === 'body') {
+      for (const name of (attrs['data-modules'] || '').split(/\s+/).filter(Boolean)) modules.add(name);
+      dark = (attrs.class || '').split(/\s+/).includes('is-over-dark');
+    }
+    if (node.tagName === 'style' && 'data-cp-critical' in attrs) critical += (node.childNodes || []).map((child) => child.value || '').join('');
+    if (node.tagName === 'link' && attrs.rel === 'stylesheet' && ['print', 'not x'].includes(attrs.media)) deferredStyles = true;
     if (node.tagName === 'picture') pictures++;
     if (node.tagName === 'img') {
       images++;
@@ -57,6 +62,13 @@ for (const file of all) {
   }
   visit(doc);
   check(high <= 1, `${relative}: ${high} high-priority images`);
+  const needsCritical = ['index.html', 'influence.html', 'atlas-map.html', 'glossary.html'].includes(relative) || relative.startsWith('compare/') || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative);
+  if (needsCritical) {
+    check(deferredStyles, `${relative}: critical extraction left every stylesheet render-blocking`);
+    check(critical.includes('.masthead .wrap'), `${relative}: critical CSS lost the masthead ancestor`);
+    check(/\.skip[{:]/.test(critical), `${relative}: critical CSS lost the skip link`);
+    if (dark) check(critical.includes('.is-over-dark .masthead'), `${relative}: critical CSS lost the dark masthead`);
+  }
 }
 for (const file of all.filter((file) => file.endsWith('.avif'))) check(referencedAvif.has(file), `Unreferenced AVIF: ${path.relative(OUT, file)}`);
 for (const name of modules) check(paths.has(path.join(OUT, `assets/js/${name}.js`)), `Page module missing: ${name}`);
@@ -69,8 +81,7 @@ for (const face of manifest) {
   const font = fontkit.create(data), axis = font.variationAxes.wght;
   check(data.length === face.bytes && face.name.includes(hash(data).slice(0, 16)), `Font revision mismatch: ${face.name}`);
   check(!face.name.includes('.page.'), `Per-page font survived: ${face.name}`);
-  if (face.maxWeight !== face.weight) check(axis?.min === face.weight && axis?.max === face.maxWeight, `Font axis is not clamped: ${face.name}`);
-  else check(!axis, `Static face retains a weight axis: ${face.name}`);
+  check(!axis, `Static face retains a weight axis: ${face.name}`);
   if (face.family === 'Noto Music') for (const point of font.characterSet) music.add(point);
 }
 for (const char of '♯♭♮𝄞') check(music.has(char.codePointAt(0)), `Missing musical glyph: ${char}`);

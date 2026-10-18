@@ -1,0 +1,181 @@
+{
+  "id": "rachmaninoff-prelude-c-sharp-minor",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent saved-gate arithmetic, every current overlay, shared complete native-sheet identity, six source-specific chromatic coda receipts, bar/index/caller and source/version metadata; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#rachmaninoff-prelude-c-sharp-minor",
+    "finding": "Current per-ID report agrees with complete source order/counts, corrected chromatic coda, first/penultimate/final coordinates, fresh gates and provisional limitations. Rejected similar-chord aliases are disclosed, not excused by aggregate onset success. Author-reported log quiet-middle inspection is not independently claimed here."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/rachmaninoff-prelude-c-sharp-minor-checks.json",
+    "primaryMedianSeconds": 0.12724019689176203,
+    "primaryP95Seconds": 0.5809286820419183,
+    "maximumAnchorDeviationSeconds": 0.16833250373321107,
+    "maximumLocalRegionMedianSeconds": 0.22013162988770318,
+    "minimumPublishedNoteDurationSeconds": 0.004,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.003999999999990678,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 62,
+    "distinctEngravedBars": 62,
+    "sheetPages": 3,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "derivedBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All1725 note voice/bar indices resolve; durations positive and bar times strictly increase. Real pickup0 is2quarters, then1-61 each4quarters,endQ246. All three transfers have exactly equal complete indexes and all nine SVG trees are equal after DOM-prefix normalization. Independently inspected current1921 actual native pages1-3 therefore also establish this identical engraving: original C-sharp notation, two-staff opening, four-staff single-piano return, complete55-61 coda; no extra players."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/rachmaninoff-prelude-c-sharp-minor-0-9.22.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-0.4-12.4.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-8-16.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-72-80.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-80-88.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-88-96.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-95.2015-107.201.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-136-144.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-144-152.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-152-160.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-176-184.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-180-192.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-189.86-201.86.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-192-200.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-192-204.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-193.64-205.64.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-197.68-209.68.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-202.28-214.28.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-204-216.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-207.38-219.38.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-208-216.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-211.02-223.02.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-213.6-225.6.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-216-227.png",
+      "work/rachmaninoff-prelude-c-sharp-minor-216.264-227.908.png"
+    ],
+    "finding": "Every current manifest image independently inspected, including first/middle/worst regions and complete chromatic coda through separate penultimate/final attacks. With opened source-specific distinguishing-pitch measurements no remaining gross principal-pitch/order mismatch identified. Many quiet right-hand details are less firmly established than the six coda fingerprints; ordinary global-normalised pictures do not certify each weak attack."
+  },
+  "codaAudit": {
+    "basis": "MEAS",
+    "receipt": "tools/align/results/rachmaninoff-prelude-c-sharp-minor-coda-correction.json",
+    "receiptOpened": true,
+    "sourceQuarters": [
+      219,
+      223,
+      227,
+      231,
+      235,
+      240
+    ],
+    "fittedAndMappedSeconds": [
+      193.86,
+      197.64,
+      201.68,
+      206.28,
+      211.38,
+      215.02
+    ],
+    "measuredPeakSeconds": [
+      194.02,
+      197.76,
+      201.74,
+      206.36,
+      211.48,
+      215.14
+    ],
+    "recordedPeakToPreAttackMedianRatios": [
+      1263.427,
+      140.8735,
+      525.2497,
+      1435.694,
+      1138.192,
+      56.9812
+    ],
+    "allSixInteriorResidualsZero": true,
+    "finding": "Independently checked each printed/sounding onset set against the actual generated source table; all distinguishing bins belong to that voicing, not merely the common tonic bass. Ratios recomputed from saved numeric peaks/baselines, not from a new FFT. These are fitted source-pitch constraints, not independent aural validation."
+  },
+  "endpointFits": {
+    "basis": "MEAS",
+    "firstSeconds": 1.22,
+    "thirdBellQ2MappedSeconds": 4.4,
+    "penultimateQ241_5MappedSeconds": 217.6,
+    "legacyLastQ242TargetSeconds": 220.26,
+    "legacyLastQ242MappedSeconds": 220.26390243902438,
+    "legacyLastDeviationSeconds": 0.0039024390243866947,
+    "publishedLastSeconds": 220.264,
+    "writtenHoldEndSeconds": 222.14000000000001,
+    "finding": "Explicit third-bell, coda and penultimate interior knots map exactly. Legacy final target is not an exact knot; its small recorded residual is retained. Written hold end is not a measured acoustic release."
+  },
+  "source": {
+    "basis": "EXT",
+    "title": "Prelude in C♯ minor, Op. 3 No. 2",
+    "edition": "Bosworth & Co. 1896; Universal Edition 1910",
+    "encoder": "Petro Kostandy",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "opened": true,
+    "notationUrl": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2.ly",
+    "notationOpened": true,
+    "licenseOpened": true,
+    "finding": "Opened catalogue/original notation credit Petro Kostandy and Bosworth1896/Universal Edition1910 with CC BY-SA4.0. Public provenance matches; underlying historical scans were not opened."
+  },
+  "sourceInventoryAudit": {
+    "basis": "MEAS",
+    "path": "tools/align/work/rachmaninoff-prelude-c-sharp-minor-events.json",
+    "finding": "Actual1725(q,durQ,pitch,voiceIndex,barIndex) tuples exactly match the other original-pitch transfer and the1921 table after removing its separately disclosed+1 shift. Four labels are source staves, not claims of independent contrapuntal voice separation. Original upA/upB/downA/downB definitions and native layout were read. No separate raw-original-MIDI decode/strict multiset execution is claimed."
+  },
+  "recording": {
+    "basis": "EXT",
+    "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg",
+    "opened": true,
+    "finding": "Opened Commons metadata credits Rachmaninoff and distinguishes the1919 Edison recording from later issue/restoration; no performing-copy authentication is implied."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete original solo-piano Prelude,62 occurrences once including real pickup and written returns; no gross cut, extra repeat or arrangement mismatch identified in reviewed evidence. No nominal semitone shift is applied here; software-estimated fractional tuning is separate. Physical performing edition is unknown."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false,
+    "tuningHz": 430.45,
+    "publicSha256": "a085e815c698997a3b1225ee1af644025e03e6e755a670d5bdae6f9b3995f2f6"
+  },
+  "limitations": "MEAS: No aural review, build, test or full-site integration run. Soft middle notes, historical noise and rolled chords limit individual physical-key timing. Unsaved author-reported logarithmic quiet-middle inspection remains EXT; saved chromatic receipts and ordinary diagnostic images were independently opened here.",
+  "guideReconciliation": {
+    "basis": "MEAS",
+    "sourceBars": [
+      14,
+      45,
+      55
+    ],
+    "nativeNames": [
+      "Agitato",
+      "Tempo primo",
+      "coda"
+    ],
+    "mappedSeconds": [
+      52.115,
+      157.793,
+      192.975
+    ],
+    "currentSectionsAndJoinsSeconds": [
+      52.1,
+      157.8,
+      193
+    ],
+    "finding": "Lead-owned guide was corrected from106/138 to52.1/157.8, with dependent spans42-64/148-170/183-205, return cue158 and chord-voicing cue16 in the Lento. Current evidence explicitly cites provisional alignment, not old novelty windows or aural confirmation. Lead also corrected the final source range from nonexistent56-62 to55-61."
+  }
+}

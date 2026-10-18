@@ -17,7 +17,8 @@ from synctoolbox.dtw.utils import make_path_strictly_monotonic
 from align import FPS, endpoint_anchors, path_map, publication_reasons
 from config import HERE, LILYPOND, write_json
 from pipeline import comparison
-from score_events import attack_inventory, crop_notes, extract, prove_legacy_omissions, prove_notation
+from prepare import definitions
+from score_events import attack_inventory, compile_midi, crop_notes, extract, midi_events, prove_legacy_omissions, prove_notation
 from musicxml_ties import source_timing, route_ties
 from musicxml_tuplets import flatten_tuplets
 from musicxml_structure import mark_initial_grace, preserve_partial_measures, share_endings
@@ -404,24 +405,28 @@ mini = \markup {
 
 
 class MusicXMLConversion(unittest.TestCase):
-    def convert(self, text):
+    def convert(self, text, music):
         with tempfile.TemporaryDirectory() as temporary:
             directory = Path(temporary)
             xml = directory / 'source.xml'
             xml.write_text(text)
             lily = directory / 'source.ly'
-            commands = [
+            result = subprocess.run(
                 [sys.executable, str(HERE / 'musicxml_convert.py'), '--converter',
                  str(Path(LILYPOND).with_name('musicxml2ly')), '--midi', '--npl', '-o', str(lily), str(xml)],
-                [LILYPOND, '-dno-print-pages', '-o', str(directory / 'out'), str(lily)],
-            ]
-            for command in commands:
-                result = subprocess.run(command, capture_output=True, text=True)
-                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-            return attack_inventory(directory / 'out.midi', multiset=True), lily.read_text()
+                capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            # Use the production written-duration path, not musicxml2ly's
+            # separate demo MIDI score wrapped in \articulate.
+            cfg = {'source': {'main': lily.name}, 'extraction': {'music': music}}
+            (directory / '__definitions.ly').write_text(definitions(cfg, directory))
+            midi = compile_midi(directory, 'out', music, '', LILYPOND)
+            notes, _ = midi_events(midi)
+            attacks = Counter((round(float(n[0]), 7), int(n[2])) for n in notes)
+            return attacks, lily.read_text(), notes
 
     def test_partial_chord_tie_keeps_untied_reattack(self):
-        attacks, _ = self.convert('''<score-partwise version="3.1">
+        attacks, _, notes = self.convert('''<score-partwise version="3.1">
   <part-list><score-part id="P1"><part-name>Piano</part-name></score-part></part-list>
   <part id="P1"><measure number="1">
     <attributes><divisions>4</divisions><time><beats>2</beats><beat-type>4</beat-type></time>
@@ -433,11 +438,12 @@ class MusicXMLConversion(unittest.TestCase):
       <tie type="stop"/><type>quarter</type><notations><tied type="stop"/></notations></note>
     <note><chord/><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><type>quarter</type></note>
   </measure></part>
-</score-partwise>''')
+</score-partwise>''', r'\new Staff { \PartPOneVoiceOne }')
         self.assertEqual(attacks, {(0., 60): 1, (0., 64): 1, (1., 64): 1})
+        self.assertEqual(notes[notes[:, 2] == 60, :2].tolist(), [[0., 2.]])
 
     def test_single_note_tie_uses_note_specific_chord_syntax(self):
-        attacks, lily = self.convert('''<score-partwise version="3.1" cp-single-note-chord-ties="yes">
+        attacks, lily, notes = self.convert('''<score-partwise version="3.1" cp-single-note-chord-ties="yes">
   <part-list><score-part id="P1"><part-name>Piano</part-name></score-part></part-list>
   <part id="P1"><measure number="1">
     <attributes><divisions>4</divisions><time><beats>2</beats><beat-type>4</beat-type></time>
@@ -450,12 +456,14 @@ class MusicXMLConversion(unittest.TestCase):
     <note><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>2</voice><type>quarter</type></note>
     <note><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>2</voice><type>quarter</type></note>
   </measure></part>
-</score-partwise>''')
+</score-partwise>''',
+            r'\new Staff << \new Voice { \PartPOneVoiceOne } \new Voice { \PartPOneVoiceTwo } >>')
         self.assertEqual(attacks, {(0., 60): 1, (0., 64): 1, (1., 64): 1})
+        self.assertEqual(notes[notes[:, 2] == 60, :2].tolist(), [[0., 2.]])
         self.assertRegex(lily, r'<\s*c[,\x27]*\s*~\s*>\s*4')
 
     def test_midmeasure_clef_does_not_displace_an_earlier_chord(self):
-        attacks, _ = self.convert('''<score-partwise version="3.1">
+        attacks, _, _ = self.convert('''<score-partwise version="3.1">
   <part-list><score-part id="P1"><part-name>Piano</part-name></score-part></part-list>
   <part id="P1"><measure number="1">
     <attributes><divisions>4</divisions><time><beats>3</beats><beat-type>4</beat-type></time>
@@ -469,7 +477,8 @@ class MusicXMLConversion(unittest.TestCase):
     <note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>2</voice><type>half</type></note>
     <note><rest/><duration>4</duration><voice>2</voice><type>quarter</type></note>
   </measure></part>
-</score-partwise>''')
+</score-partwise>''',
+            r'\new Staff << \new Voice { \PartPOneVoiceOne } \new Voice { \PartPOneVoiceTwo } >>')
         self.assertEqual(attacks, {(0., 48): 1, (0., 52): 1, (1., 67): 1, (2., 69): 1})
 
     def test_initial_grace_skips_preserve_all_attacks(self):
@@ -496,9 +505,10 @@ class MusicXMLConversion(unittest.TestCase):
     <note><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><type>half</type><dot/></note>
   </measure></part>
 </score-partwise>''')
-        before, _ = self.convert(ET.tostring(xml, encoding='unicode'))
+        music = r'<< \new Staff { \PartPOneVoiceOne } \new Staff { \PartPTwoVoiceOne } >>'
+        before, _, _ = self.convert(ET.tostring(xml, encoding='unicode'), music)
         mark_initial_grace(xml, {'part': 'P2', 'measure': 1, 'note': 0, 'basis': 'Fixture source grace'})
-        after, lily = self.convert(ET.tostring(xml, encoding='unicode'))
+        after, lily, _ = self.convert(ET.tostring(xml, encoding='unicode'), music)
         self.assertEqual(before, after)
         self.assertEqual(lily.count('\\grace'), 2)
         self.assertRegex(lily, r'\\grace\s*\{\s*s16\s*\}\s*R2\.\*2')

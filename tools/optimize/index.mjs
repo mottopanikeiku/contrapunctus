@@ -68,12 +68,13 @@ function versionHTML(html, relative, versions, programmeVersion) {
     return `<html${attributes} data-prog="${programmeVersion}">`;
   });
 }
-async function criticalCSS(html, file) {
+async function criticalCSS(html, file, out) {
   // Match against the complete document. Subtree roots lose ancestor-based
   // masthead selectors and the out-of-tree skip link, producing a cold-load
   // layout shift when the complete sheet arrives.
   const processor = new Beasties({
-    path: path.dirname(file), preload: 'media', pruneSource: false,
+    path: out, publicPath: path.relative(path.dirname(file), out).split(path.sep).join('/'),
+    preload: 'media', pruneSource: false,
     reduceInlineStyles: false, mergeStylesheets: false, fonts: false,
     inlineThreshold: 0, minimumExternalSize: 0, keyframes: 'critical',
     noscriptFallback: true, logLevel: 'warn',
@@ -105,9 +106,9 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
     const base = relative === '404.html' ? '/contrapunctus/' : '../'.repeat(relative.split('/').length - 1);
     const html = versionHTML(await readFile(file, 'utf8'), relative, versions, programmeVersion);
     const head = fonts.head(base, relative);
-    const result = await cached(hash(`html-v5-${relative}-${artVersion}-${head}-${html}`), 'html', async () => {
+    const result = await cached(hash(`html-v8-${relative}-${artVersion}-${head}-${html}`), 'html', async () => {
       let result = pictureHTML(html, relative, art, imageResult.formats);
-      if (['index.html', 'influence.html', 'atlas-map.html', 'glossary.html'].includes(relative) || relative.startsWith('compare/') || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) result = await criticalCSS(result, file);
+      if (['index.html', 'influence.html', 'atlas-map.html', 'glossary.html'].includes(relative) || relative.startsWith('compare/') || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) result = await criticalCSS(result, file, out);
       result = result.replace('<!--cp-fonts-->', head);
       return htmlMinify(result, htmlOptions);
     });

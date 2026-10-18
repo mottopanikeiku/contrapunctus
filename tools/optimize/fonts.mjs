@@ -6,8 +6,8 @@ import * as fontkit from 'fontkit';
 import { decodeHTML } from 'entities';
 import { OUT, cached, hash, save } from './cache.mjs';
 
-// Pinned upstream sources. Exact weights follow the browser/CSS/canvas audit;
-// only the common 400/500 italic core shares a smaller clamped variable file.
+// Pinned upstream sources. Exact static weights follow the CSS/canvas audit.
+// Uniform descriptors across Unicode ranges avoid variable/static face collisions.
 // Inherited bold keeps the site's original nearest-face behaviour.
 const sourceCommit = '47d54ca1ebb14fd864695f1d39dc734f39017c33';
 // Retain the Google-served default shaping and CSS-used numeric features.
@@ -84,7 +84,7 @@ export async function optimizeFonts(textFiles, out = OUT) {
     }
   }
   const points = [...used].sort((a, b) => a - b);
-  const css = [], manifest = [];
+  const css = [], fallbacks = [], manifest = [];
   const influence = (await readFile(path.join(out, 'influence.html'), 'utf8')).match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/)?.[1] || '';
   let italicTitle = '';
   const romanTitle = influence.replace(/<em\b[^>]*>([\s\S]*?)<\/em>/g, (_, text) => { italicTitle += text; return ''; });
@@ -109,19 +109,11 @@ export async function optimizeFonts(textFiles, out = OUT) {
       for (const [index, glyphs] of groups.entries()) {
         if (!glyphs.length) continue;
         const chars = String.fromCodePoint(...glyphs);
-        // Both common italic weights are used on every measured first view.
-        // Keep rare weights and extended glyphs static: wider axes and
-        // variable EB Garamond enlarge pages using fewer of their weights.
-        const commonItalic = id === 'cormorant-garamond-italic' && !index && (weight === 400 || weight === 500);
-        if (commonItalic && weight === 500) continue;
-        const descriptor = commonItalic ? '400 500' : weight;
-        const axes = commonItalic ? { wght: { min: 400, max: 500, default: 400 } } : variationAxes;
-        const recipe = commonItalic ? 'shared-variable-v1' : 'shared-static-v1';
-        const subset = await cached(hash(`${recipe}-${sha}-${descriptor}-${keepFeatures.join(',')}-${chars}`), 'woff2', () => subsetFont(original, chars, { targetFormat: 'woff2', variationAxes: axes, keepFeatures }));
-        const name = `${id}.${String(descriptor).replace(' ', '-')}.${index ? 'extended' : 'core'}.${hash(subset).slice(0, 16)}.woff2`;
+        const subset = await cached(hash(`shared-static-v1-${sha}-${weight}-${keepFeatures.join(',')}-${chars}`), 'woff2', () => subsetFont(original, chars, { targetFormat: 'woff2', variationAxes, keepFeatures }));
+        const name = `${id}.${weight}.${index ? 'extended' : 'core'}.${hash(subset).slice(0, 16)}.woff2`;
         await save(path.join(out, 'assets/fonts', name), subset);
-        css.push(`@font-face{font-family:'${family}';font-style:${style};font-weight:${descriptor};font-display:swap;src:url('__BASE__assets/fonts/${name}') format('woff2');unicode-range:${ranges(glyphs)}}`);
-        manifest.push({ id, family, style, weight, maxWeight: commonItalic ? 500 : weight, name, bytes: subset.length, source: file, sha, glyphs: glyphs.length, extra: Boolean(index) });
+        css.push(`@font-face{font-family:'${family}';font-style:${style};font-weight:${weight};font-display:swap;src:url('__BASE__assets/fonts/${name}') format('woff2');unicode-range:${ranges(glyphs)}}`);
+        manifest.push({ id, family, style, weight, name, bytes: subset.length, source: file, sha, glyphs: glyphs.length, extra: Boolean(index) });
       }
       const target = font.variationAxes.wght ? font.getVariation({ wght: weight }) : font;
       const caps = family === 'Cormorant SC';
@@ -131,7 +123,7 @@ export async function optimizeFonts(textFiles, out = OUT) {
       const percent = (value) => `${(value * 100).toFixed(4)}%`;
       const suffix = { normal: '', italic: ' Italic', bold: ' Bold', boldItalic: ' Bold Italic' }[fallbackStyle];
       const locals = `local('Times New Roman${suffix}'),local('Liberation Serif${suffix}')`;
-      css.push(`@font-face{font-family:'${family} Fallback';font-style:${style};font-weight:${weight};src:${locals};size-adjust:${percent(adjust)};ascent-override:${percent(target.ascent / target.unitsPerEm / adjust)};descent-override:${percent(-target.descent / target.unitsPerEm / adjust)};line-gap-override:${percent(target.lineGap / target.unitsPerEm / adjust)};unicode-range:${ranges(included)}}`);
+      fallbacks.push(`@font-face{font-family:'${family} Fallback';font-style:${style};font-weight:${weight};font-display:swap;src:${locals};size-adjust:${percent(adjust)};ascent-override:${percent(target.ascent / target.unitsPerEm / adjust)};descent-override:${percent(-target.descent / target.unitsPerEm / adjust)};line-gap-override:${percent(target.lineGap / target.unitsPerEm / adjust)};unicode-range:${ranges(included)}}`);
     }
   }
   for (const [family, sha] of licenses) await save(path.join(out, 'assets/fonts', `${family}-OFL.txt`), await source(`${family}/OFL.txt`, sha));
@@ -154,15 +146,20 @@ export async function optimizeFonts(textFiles, out = OUT) {
       const roman = 'cormorant-garamond-normal', italic = 'cormorant-garamond-italic', body = 'eb-garamond-normal';
       const wanted = relative === 'index.html' ? [[body, '(max-width: 760px)'], [italic, '(min-width: 761px)']]
         : /^composers\/(?!index\.html)/.test(relative) ? [[italic, '(min-width: 861px)']]
-        : relative === 'hall.html' || relative.startsWith('compare/') ? [[italic]]
+        : relative === 'hall.html' ? [[body], [italic]]
+        : relative.startsWith('compare/') ? [[body]]
         : relative === 'atlas-map.html' ? [[roman], [italic]]
-        : relative === 'glossary.html' ? [[body]] : [];
-      const preloads = wanted.map(([id, media]) => {
-        const face = manifest.find((face) => face.id === id && face.weight === 400 && !face.extra);
+        : relative === 'glossary.html' ? [[body], [italic, undefined, 500]] : [];
+      const preloads = wanted.map(([id, media, weight = 400]) => {
+        const face = manifest.find((face) => face.id === id && face.weight === weight && !face.extra);
         return `<link rel="preload" data-cp-font-preload href="${base}assets/fonts/${face.name}" as="font" type="font/woff2" fetchpriority="high" crossorigin${media ? ` media="${media}"` : ''}>`;
       }).join('');
       const title = relative === 'influence.html' ? `${titlePreloads.join('')}<style data-cp-critical>${titleFaces.join('')}.influence-page .iw-heading h1{font-family:'CP Influence Heading','Cormorant Garamond','Cormorant Garamond Fallback',serif}</style>` : '';
-      return `${preloads}<link rel="stylesheet" data-cp-fonts href="${base}assets/css/fonts.css?v=${fontVersion}">${title}`;
+      // Local metric faces are available for the first paint without waiting
+      // for a stylesheet round trip. The stable webfont sheet is asynchronous;
+      // its relative URLs and the local-only fallback style survive SPA routing.
+      const sheet = `${base}assets/css/fonts.css?v=${fontVersion}`;
+      return `<style data-cp-font-fallbacks>${fallbacks.join('')}</style>${preloads}<link rel="stylesheet" data-cp-fonts href="${sheet}" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="${sheet}"></noscript>${title}`;
     },
   };
 }
