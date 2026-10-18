@@ -1,0 +1,1920 @@
+{
+  "uniqueScoreAttacks": 819,
+  "audioDetectedOnsets": 484,
+  "medianAbsoluteOnsetDeviation": 0.07559733560091075,
+  "noteWeightedMedianDeviation": 0.06863095238094985,
+  "p95AbsoluteOnsetDeviation": 0.434565249433111,
+  "fractionWithin150ms": 0.7130647130647131,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 61,
+      "median": 0.06492120181405925,
+      "p95": 0.32121938775510195,
+      "max": 0.3892188208616787,
+      "adaptiveMedian": 0.028384353741497392,
+      "adaptiveP95": 0.09292091836734695
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 65,
+      "median": 0.13284240362811772,
+      "p95": 0.7376769274376421,
+      "max": 0.8985255102040774,
+      "adaptiveMedian": 0.035782879818592406,
+      "adaptiveP95": 0.10617086167800696
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 59,
+      "median": 0.05584467120181458,
+      "p95": 0.17593455215419346,
+      "max": 0.20882908163265057,
+      "adaptiveMedian": 0.036231009070291975,
+      "adaptiveP95": 0.09509776077097332
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 70,
+      "median": 0.16460770975056782,
+      "p95": 0.6075836876417198,
+      "max": 0.7277468820861657,
+      "adaptiveMedian": 0.04538718820861831,
+      "adaptiveP95": 0.11387227891156446
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 67,
+      "median": 0.06605130385487001,
+      "p95": 0.3413682539682494,
+      "max": 0.5114858276644085,
+      "adaptiveMedian": 0.029931689342404866,
+      "adaptiveP95": 0.09677655895690902
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 68,
+      "median": 0.13495238095237738,
+      "p95": 0.5133700751133755,
+      "max": 0.5699626558956936,
+      "adaptiveMedian": 0.030398526077096477,
+      "adaptiveP95": 0.07717220096371981
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 60,
+      "median": 0.06762840136054038,
+      "p95": 0.3195530753968334,
+      "max": 0.4661091269841151,
+      "adaptiveMedian": 0.05190291950112069,
+      "adaptiveP95": 0.09098777636054611
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 70,
+      "median": 0.04426757369614975,
+      "p95": 0.1744453798185983,
+      "max": 0.22176927437642746,
+      "adaptiveMedian": 0.029623079404171193,
+      "adaptiveP95": 0.08243130668935128
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 32,
+      "median": 0.12772653061225725,
+      "p95": 0.3238361536281161,
+      "max": 0.34058078231292654,
+      "adaptiveMedian": 0.0403150037792912,
+      "adaptiveP95": 0.0756826105442137
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 11,
+      "median": 0.05937981859410968,
+      "p95": 0.2858361678004613,
+      "max": 0.3939433106576047,
+      "adaptiveMedian": 0.04588435374148503,
+      "adaptiveP95": 0.06601927437638011
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 25,
+      "median": 0.1888126417233451,
+      "p95": 0.4807485260770903,
+      "max": 0.6185989229024926,
+      "adaptiveMedian": 0.03332851473923881,
+      "adaptiveP95": 0.2727829931972733
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 60,
+      "median": 0.06728769841269866,
+      "p95": 0.2953304846938568,
+      "max": 0.6156700680272138,
+      "adaptiveMedian": 0.03446626984128187,
+      "adaptiveP95": 0.07659036281179679
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 58,
+      "median": 0.09787925170069656,
+      "p95": 0.27001078514740867,
+      "max": 0.3667278911564864,
+      "adaptiveMedian": 0.025279761904762665,
+      "adaptiveP95": 0.09486351332198736
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 14,
+      "median": 0.09161068594104194,
+      "p95": 0.3897091128118312,
+      "max": 0.43190476190484617,
+      "adaptiveMedian": 0.026265306122482457,
+      "adaptiveP95": 0.08525581065757988
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 27,
+      "median": 0.058770975056717134,
+      "p95": 0.1805849206349336,
+      "max": 0.27932624716552823,
+      "adaptiveMedian": 0.033367346938788955,
+      "adaptiveP95": 0.06176405895690351
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 71,
+      "median": 0.07557341269840379,
+      "p95": 0.27304195011337384,
+      "max": 0.29576190476190334,
+      "adaptiveMedian": 0.030264172335591866,
+      "adaptiveP95": 0.083652565192736
+    },
+    {
+      "start": 128.0,
+      "end": 132.42716553287983,
+      "attacks": 1,
+      "median": 0.21563945578230914,
+      "p95": 0.21563945578230914,
+      "max": 0.21563945578230914,
+      "adaptiveMedian": 0.07460997732428609,
+      "adaptiveP95": 0.07460997732428609
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 128.0,
+      "end": 132.42716553287983,
+      "attacks": 1,
+      "median": 0.21563945578230914,
+      "p95": 0.21563945578230914,
+      "max": 0.21563945578230914,
+      "adaptiveMedian": 0.07460997732428609,
+      "adaptiveP95": 0.07460997732428609
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 25,
+      "median": 0.1888126417233451,
+      "p95": 0.4807485260770903,
+      "max": 0.6185989229024926,
+      "adaptiveMedian": 0.03332851473923881,
+      "adaptiveP95": 0.2727829931972733
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 70,
+      "median": 0.16460770975056782,
+      "p95": 0.6075836876417198,
+      "max": 0.7277468820861657,
+      "adaptiveMedian": 0.04538718820861831,
+      "adaptiveP95": 0.11387227891156446
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 68,
+      "median": 0.13495238095237738,
+      "p95": 0.5133700751133755,
+      "max": 0.5699626558956936,
+      "adaptiveMedian": 0.030398526077096477,
+      "adaptiveP95": 0.07717220096371981
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 65,
+      "median": 0.13284240362811772,
+      "p95": 0.7376769274376421,
+      "max": 0.8985255102040774,
+      "adaptiveMedian": 0.035782879818592406,
+      "adaptiveP95": 0.10617086167800696
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 128.0,
+      "end": 132.42716553287983,
+      "attacks": 1,
+      "median": 0.21563945578230914,
+      "p95": 0.21563945578230914,
+      "max": 0.21563945578230914,
+      "adaptiveMedian": 0.07460997732428609,
+      "adaptiveP95": 0.07460997732428609
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 60,
+      "median": 0.06762840136054038,
+      "p95": 0.3195530753968334,
+      "max": 0.4661091269841151,
+      "adaptiveMedian": 0.05190291950112069,
+      "adaptiveP95": 0.09098777636054611
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 11,
+      "median": 0.05937981859410968,
+      "p95": 0.2858361678004613,
+      "max": 0.3939433106576047,
+      "adaptiveMedian": 0.04588435374148503,
+      "adaptiveP95": 0.06601927437638011
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 70,
+      "median": 0.16460770975056782,
+      "p95": 0.6075836876417198,
+      "max": 0.7277468820861657,
+      "adaptiveMedian": 0.04538718820861831,
+      "adaptiveP95": 0.11387227891156446
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 32,
+      "median": 0.12772653061225725,
+      "p95": 0.3238361536281161,
+      "max": 0.34058078231292654,
+      "adaptiveMedian": 0.0403150037792912,
+      "adaptiveP95": 0.0756826105442137
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 128.0,
+      "meanCosine": 0.33942894558931
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.5079608708034371
+    },
+    {
+      "start": 96.0,
+      "meanCosine": 0.5091267965839786
+    },
+    {
+      "start": 104.0,
+      "meanCosine": 0.5170458047986431
+    },
+    {
+      "start": 48.0,
+      "meanCosine": 0.530325807822635
+    }
+  ],
+  "sections": [
+    {
+      "bar": "45",
+      "occ": 1,
+      "editorial": 64,
+      "aligned": 64.35400000000001,
+      "difference": 0.3540000000000134,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "52",
+      "occ": 1,
+      "editorial": 82,
+      "aligned": 82.5935,
+      "difference": 0.5935000000000059,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.28,
+      "nearestOnsetDeviation": 0.026122448979591928
+    },
+    {
+      "label": "middle",
+      "bar": "35",
+      "occ": 1,
+      "scoreQ": 103.0,
+      "audioSeconds": 50.19183333333334,
+      "nearestOnsetDeviation": 0.4546904761904855
+    },
+    {
+      "label": "last",
+      "bar": "79",
+      "occ": 1,
+      "scoreQ": 234.0,
+      "audioSeconds": 128.06300000000002,
+      "nearestOnsetDeviation": 0.21563945578230914
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "79",
+      "occ": 1,
+      "midi": 68,
+      "voice": "piano-upper-1",
+      "durationQ": 4.0,
+      "onset": 128.06300000000002,
+      "offset": 130.39433333333335,
+      "durationSeconds": 2.3313333333333333
+    },
+    {
+      "bar": "79",
+      "occ": 1,
+      "midi": 75,
+      "voice": "piano-upper-1",
+      "durationQ": 4.0,
+      "onset": 128.06300000000002,
+      "offset": 130.39433333333335,
+      "durationSeconds": 2.3313333333333333
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.004679597701148452,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.5977289573283376,
+  "endAnchor": {
+    "scoreQ": 240.0,
+    "audioSeconds": 131.56,
+    "decodedDuration": 132.42716553287983,
+    "activeEndMinus45dB": 131.5526530612245
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "debussy-garden-il-pleure",
+  "tuningHz": 441.27,
+  "audioSha256": "ce9a361192bc56424a55ac3bf69d089f2f283674cbdcf7f44dad22545fbb0b86",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "This exact voice-and-piano song is OpenScore Lieder no. 2, transcribed from IMSLP #14819 according to the primary catalogue: https://github.com/OpenScore/Lieder/tree/main/scores/Debussy%2C_Claude/Ariettes_Oubli%C3%A9es/2_Il_pleure_dans_mon_coeur . The encoding is CC0 (https://github.com/OpenScore/Lieder#license-and-acknowledgement); downloaded bytes retain the inventory SHA-256. No individually named encoder or printed-edition imprint is claimed.",
+    "The eligible existing recording is Mary Garden, soprano, with Claude Debussy, piano, Paris 1904; see content/listen/debussy-garden-il-pleure.mjs and its BnF/discographic evidence. This source is not La Chevelure or Mes longs cheveux.",
+    "P1 is Voice, one treble line; P2 is PIANO, two staves with encoded voices 1, 2, 5, 6 and 7. Cross-staff movement of voices 1 and 2 is retained using the existing isolated-voice destination staves. Labels describe source encoding identities, not audio separation or MIDI instrument patches. All source lyrics remain in the engraving.",
+    "Measured opening peaks 626.40/494.76 Hz at 1.0–1.5 s and 621.35/493.16 Hz at 3.0–3.5 s match written D-sharp5/B4 without a semitone or octave correction. Global transfer tuning estimate is +5 cents (A=441.272607 Hz); audible-performance tuning, the historical recording speed and the performers' original chosen key are not inferred from that global estimate. The source contains no transpose or octave-clef instruction.",
+    "The source's nonstandard dynamics ad libitum and con sordine are preserved as words. The converter's pure-clef ownership correction preserves the original voice-6 chords at q42, q72 and q210 rather than moving their members to different times; immutable source notes and attributes are not edited. Named destination staves remain alive for all 240 quarters through silent skips, not added notes.",
+    "Eight explicitly notated contiguous cross-voice ties are joined by exact asserted origin and continuation events: D3 at q81–84, F4 at q146.5–147, E3 at q192–195, E4 at q198–201, G-sharp1/D-sharp2/G-sharp2 at q228–234, and D-sharp3 at q233.75–234. Source continuation voices remain documented even when their tied stop is not a new attack.",
+    "Piano encoded voice 2 has nonconsecutive C-sharp6 ties q47→48 and q49→51, spanning intervening notes. LilyPond's documented tieWaitForNote preserves these source ties in both extraction and engraving; its other four tie starts in this voice are ordinary contiguous same-voice ties. See https://lilypond.org/doc/v2.26/Documentation/notation/writing-rhythms#ties . The final G-sharp3 tie starts in voice 5 at q233.5, passes the D-sharp3 at q233.75, and continues in voice 6 at q234; the latter is a held continuation, not a new attack.",
+    "For this audited score only, the piano Tie_engraver lives on each of the two original Staff contexts, not on their individual Voices. Every one of the 70 source piano ties has a unique same-staff destination with no earlier same-pitch attack. Explicit single-note chord ties prevent a bare postfix tie from incorrectly broadcasting to other voices at the same time. A temporary native-renderer bound audit measured all 85 part-aware source tie pairs (70 piano, 15 vocal), zero missing and zero extra; the complete 1315-note and 80-bar source arrays remain exactly unchanged. The diagnostic callback was removed after measurement. No ghost notes, hidden stems or moved voices are used.",
+    "Publication remains withheld for source-version correspondence, not a numerical or unresolved engraving failure. The exact referenced IMSLP14819 PDF page 8 (printed page 16) confirms the encoded high chromatic vocal line on De ne savoir pourquoi; the independent Sibley Fromont scan, PDF page 10 (printed page 8), instead prints a low ascending/turning vocal phrase with different articulation. These are genuinely different printed readings, not evidence for a speculative octave correction or a transcription error. The available encoded reading has not been defensibly matched to the 1904 transfer. The catalogue's 1888/1913/1981 publication descriptions do not by themselves identify the historical cause of the variant. Comparison scans are retained only as source evidence: imslp14819.pdf SHA-256 e334a759575179c1f642fd53e0f517f7a53dda52db8157c926da8b5ae03e0708 (https://ks15.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_(voice_and_piano).pdf), and sibley-fromont-1913.pdf SHA-256 5753345753f8f745f66edf41f5c240bc796ce1995d702597bc2e236f862554fa (https://hdl.handle.net/1802/17378). No source pitches or rhythms are patched to choose between those readings.",
+    "Documented source tie sustains through 0.25 quarter units before its continuation: Original lc5060918.mxl P2 bar 78 has a G-sharp3 sixteenth at q233.5 with explicit tie start; the following D-sharp3 sixteenth occupies q233.75. The G-sharp3 stop moves to encoded voice 6 at bar 79 q234, then remains tied to bar 80 q237 through q238. This explicit nonconsecutive tie sustains the existing G-sharp3 through the intervening 0.25 quarter; it is not a new note or inferred pedal.",
+    "Single-note MusicXML ties use note-specific chord syntax; any engraving-context relocation still requires an exact source endpoint audit."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      58.08316666666667,
+      52.24
+    ],
+    [
+      61.88300000000001,
+      56.0
+    ],
+    [
+      64.59716666666667,
+      57.88
+    ],
+    [
+      68.397,
+      61.06
+    ],
+    [
+      71.32,
+      64.0
+    ],
+    [
+      73.82533333333335,
+      66.04
+    ],
+    [
+      81.42500000000001,
+      79.64
+    ],
+    [
+      82.52,
+      82.0
+    ],
+    [
+      83.05350000000001,
+      82.58
+    ],
+    [
+      84.682,
+      85.44
+    ],
+    [
+      127.02300000000001,
+      128.06
+    ]
+  ],
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards",
+    "musicxmlSingleNoteChordTies": true,
+    "ties": [
+      {
+        "origin": {
+          "q": 81,
+          "pitch": 50,
+          "voice": "piano-lower-6",
+          "durationQ": 3
+        },
+        "continuation": {
+          "q": 84,
+          "pitch": 50,
+          "voice": "piano-lower-5",
+          "durationQ": 1
+        }
+      },
+      {
+        "origin": {
+          "q": 146.5,
+          "pitch": 65,
+          "voice": "piano-upper-1",
+          "durationQ": 0.5
+        },
+        "continuation": {
+          "q": 147,
+          "pitch": 65,
+          "voice": "piano-upper-2",
+          "durationQ": 3
+        }
+      },
+      {
+        "origin": {
+          "q": 192,
+          "pitch": 52,
+          "voice": "piano-lower-5",
+          "durationQ": 3
+        },
+        "continuation": {
+          "q": 195,
+          "pitch": 52,
+          "voice": "piano-lower-7",
+          "durationQ": 3
+        }
+      },
+      {
+        "origin": {
+          "q": 198,
+          "pitch": 64,
+          "voice": "piano-upper-1",
+          "durationQ": 3
+        },
+        "continuation": {
+          "q": 201,
+          "pitch": 64,
+          "voice": "piano-upper-2",
+          "durationQ": 3
+        }
+      },
+      {
+        "origin": {
+          "q": 228,
+          "pitch": 32,
+          "voice": "piano-lower-6",
+          "durationQ": 6
+        },
+        "continuation": {
+          "q": 234,
+          "pitch": 32,
+          "voice": "piano-lower-5",
+          "durationQ": 4
+        }
+      },
+      {
+        "origin": {
+          "q": 228,
+          "pitch": 39,
+          "voice": "piano-lower-6",
+          "durationQ": 6
+        },
+        "continuation": {
+          "q": 234,
+          "pitch": 39,
+          "voice": "piano-lower-5",
+          "durationQ": 4
+        }
+      },
+      {
+        "origin": {
+          "q": 228,
+          "pitch": 44,
+          "voice": "piano-lower-6",
+          "durationQ": 6
+        },
+        "continuation": {
+          "q": 234,
+          "pitch": 44,
+          "voice": "piano-lower-5",
+          "durationQ": 4
+        }
+      },
+      {
+        "origin": {
+          "q": 233.75,
+          "pitch": 51,
+          "voice": "piano-lower-5",
+          "durationQ": 0.25
+        },
+        "continuation": {
+          "q": 234,
+          "pitch": 51,
+          "voice": "piano-lower-6",
+          "durationQ": 4
+        }
+      },
+      {
+        "origin": {
+          "q": 233.5,
+          "pitch": 56,
+          "voice": "piano-lower-5",
+          "durationQ": 0.25
+        },
+        "continuation": {
+          "q": 234,
+          "pitch": 56,
+          "voice": "piano-lower-6",
+          "durationQ": 4
+        },
+        "gapQ": 0.25,
+        "basis": "Original lc5060918.mxl P2 bar 78 has a G-sharp3 sixteenth at q233.5 with explicit tie start; the following D-sharp3 sixteenth occupies q233.75. The G-sharp3 stop moves to encoded voice 6 at bar 79 q234, then remains tied to bar 80 q237 through q238. This explicit nonconsecutive tie sustains the existing G-sharp3 through the intervening 0.25 quarter; it is not a new note or inferred pedal."
+      }
+    ]
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.28,
+      "peakSeconds": 1.3,
+      "window": [
+        0.9,
+        1.5
+      ],
+      "midiPitches": [
+        75
+      ],
+      "basis": "Windows selected from the cached transfer's absolute-pitch spectrogram, work/debussy-garden-il-pleure-preparation-endpoints.png: initial D-sharp5/B4 motion starts near 1.2 s; the closing high-register dyad is inspected separately from the later noise cutoff. These are provisional source-pitch windows, not aural or word-aligned review."
+    },
+    {
+      "label": "bar36-Dsharp5-leap",
+      "scoreQ": 107.0,
+      "audioSeconds": 52.24,
+      "peakSeconds": 52.26,
+      "window": [
+        51.95,
+        52.4
+      ],
+      "midiPitches": [
+        42,
+        49,
+        57,
+        63,
+        68,
+        75
+      ],
+      "basis": "The source vocal leap from G-sharp4 to D-sharp5 precedes the held E5. FFT 52.15–52.4 s measures the arriving D-sharp5 at 622.11 Hz; the 48–56 s absolute-pitch overlay places this leap near 52.2 s, not the rejected unanchored 54.823 s. This is a pitch/order correction rather than nearest-onset tuning."
+    },
+    {
+      "label": "bar39-Gsharp5-B3-entry",
+      "scoreQ": 114.0,
+      "audioSeconds": 56.0,
+      "peakSeconds": 56.22,
+      "window": [
+        55.8,
+        56.25
+      ],
+      "midiPitches": [
+        59,
+        69,
+        75,
+        80
+      ],
+      "basis": "The source G-sharp5 vocal entry accompanies B3, A4 and D-sharp5. FFT 55.9–56.15 s measures 836.77 Hz (G-sharp5), 496.27 Hz (B4 harmonic of B3), 441.43 Hz (A4) and 626.48 Hz (D-sharp5). The unanchored 58.663 s vocal entry is rejected: the measured line has already descended to B4 by then."
+    },
+    {
+      "label": "bar40-B4-descent",
+      "scoreQ": 119.0,
+      "audioSeconds": 57.88,
+      "peakSeconds": 57.98,
+      "window": [
+        57.85,
+        58.25
+      ],
+      "midiPitches": [
+        69,
+        71,
+        75,
+        83
+      ],
+      "basis": "The source vocal descent reaches B4 together with piano B5. FFT 57.9–58.15 s measures 491.90 Hz and 990.86 Hz respectively, corroborating the visible drop after G-sharp5/F-sharp5/D-sharp5. The original 61.377 s placement instead overlapped the next D5 phrase."
+    },
+    {
+      "label": "bar43-D5-G3-chord",
+      "scoreQ": 126.0,
+      "audioSeconds": 61.06,
+      "peakSeconds": 61.08,
+      "window": [
+        61.0,
+        61.45
+      ],
+      "midiPitches": [
+        55,
+        60,
+        74,
+        77,
+        86
+      ],
+      "basis": "The source sustained D5 begins over a new G3 bass and F5 inner voice. FFT 61.2–61.45 s measures G3 195.48 Hz and F5 697.81 Hz as the vocal portamento reaches D5 590.48 Hz; D5 is sustained at 586.78 Hz in 61.55–61.8 s. The unanchored 65.177 s onset is contradicted by this source-pitch sequence."
+    },
+    {
+      "label": "bar46-Fsharp4-C5-change",
+      "scoreQ": 136.0,
+      "audioSeconds": 66.04,
+      "peakSeconds": 66.04,
+      "window": [
+        66.05,
+        66.4
+      ],
+      "midiPitches": [
+        54,
+        66,
+        72
+      ],
+      "basis": "The source changes to F-sharp4 over F-sharp3 with piano C5 after the G4 phrase. FFT 65.85–66.1 s reaches F-sharp4 at 371.11 Hz; 66.2–66.45 s contains the new C5 near 519.15 Hz. The source-pitch contour therefore excludes the earlier candidate's 70.605 s mapping."
+    },
+    {
+      "label": "bar51-F5-climax",
+      "scoreQ": 150.0,
+      "audioSeconds": 79.64,
+      "peakSeconds": 79.68,
+      "window": [
+        79.2,
+        79.75
+      ],
+      "midiPitches": [
+        38,
+        45,
+        69,
+        77,
+        81
+      ],
+      "basis": "The source bar-51 F5/A4/D2/A2 attack follows the F4 lead-in. The fresh 73–94 s absolute-pitch overlay places its rise near 79.4 s; FFT 79.7–80.0 s measures F5 components 701.17/711.61 Hz and A4 440.76 Hz. This pitch inspection corrects the unanchored premature 78.965 s mapping, not a nearest-onset-only fit."
+    },
+    {
+      "label": "bar52-D5-F4-descent",
+      "scoreQ": 153.0,
+      "audioSeconds": 82.58,
+      "peakSeconds": 82.62,
+      "window": [
+        82.15,
+        82.65
+      ],
+      "midiPitches": [
+        65,
+        74
+      ],
+      "basis": "The source moves from the held F5 to D5 over F4 at bar 52. The observed drop is near 82.3 s, not the rejected 80.634 s mapping: FFT 81.2–81.45 s still has strong F5 at 697.14/706.22 Hz; 82.65–83.0 s has D5 near 588.46 Hz and F4 348.23 Hz. The intervening source E4 and D4 accompaniment is independently visible near 80.7 and 81.2 s."
+    },
+    {
+      "label": "bar53-accompaniment-return",
+      "scoreQ": 156.0,
+      "audioSeconds": 85.44,
+      "peakSeconds": 85.44,
+      "window": [
+        85.45,
+        85.85
+      ],
+      "midiPitches": [
+        59,
+        62,
+        68,
+        74
+      ],
+      "basis": "The source's broken accompaniment returns with B3/D4/G-sharp4 under renewed D5 at bar 53, after the C-sharp4 and C4 descent. FFT confirms C-sharp4 275.22 Hz at 83.4–83.65 s, C4 260.75 Hz at 84.5–84.75 s, G-sharp4 417.21 Hz at 85.6–85.85 s, and the following B3/D4/A4 at 245.61/293.73/437.73 Hz at 86.2–86.45 s. The large 85.5 s attack is therefore a source-pitch/order landmark, not the editorial 82 s section locator."
+    },
+    {
+      "label": "last",
+      "scoreQ": 234.0,
+      "audioSeconds": 128.06,
+      "peakSeconds": 128.1,
+      "window": [
+        126.8,
+        128.4
+      ],
+      "midiPitches": [
+        68,
+        75
+      ],
+      "basis": "Windows selected from the cached transfer's absolute-pitch spectrogram, work/debussy-garden-il-pleure-preparation-endpoints.png: initial D-sharp5/B4 motion starts near 1.2 s; the closing high-register dyad is inspected separately from the later noise cutoff. These are provisional source-pitch windows, not aural or word-aligned review."
+    }
+  ],
+  "adaptiveOnsetCount": 966,
+  "adaptiveMedianDeviation": 0.0334676870748325,
+  "gateReasons": [],
+  "elapsedSeconds": 0.2711547680082731,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 80,
+    "notes": 1315,
+    "voices": 6
+  },
+  "published": false,
+  "configSha256": "a00a9a64379b947282e44f802a9a8d02e8c90b60af5a7592befd6f46c8bdba93",
+  "sourceDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Debussy%2C_Claude/Ariettes_Oubli%C3%A9es/2_Il_pleure_dans_mon_coeur/lc5060918.mxl",
+      "file": "lc5060918.mxl",
+      "sha256": "fa5a10c4844855430ec517570fa895e792e3b6b50516058b64af5624e87af4c4"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/debussy-garden-il-pleure-0-9.28.png",
+    "work/debussy-garden-il-pleure-8-16.png",
+    "work/debussy-garden-il-pleure-24-32.png",
+    "work/debussy-garden-il-pleure-40-48.png",
+    "work/debussy-garden-il-pleure-46.1918-58.1918.png",
+    "work/debussy-garden-il-pleure-48-56.png",
+    "work/debussy-garden-il-pleure-48.24-60.24.png",
+    "work/debussy-garden-il-pleure-52-64.png",
+    "work/debussy-garden-il-pleure-53.88-65.88.png",
+    "work/debussy-garden-il-pleure-55-76.png",
+    "work/debussy-garden-il-pleure-57.06-69.06.png",
+    "work/debussy-garden-il-pleure-62.04-74.04.png",
+    "work/debussy-garden-il-pleure-64-72.png",
+    "work/debussy-garden-il-pleure-72-80.png",
+    "work/debussy-garden-il-pleure-73-94.png",
+    "work/debussy-garden-il-pleure-75.64-87.64.png",
+    "work/debussy-garden-il-pleure-78-88.png",
+    "work/debussy-garden-il-pleure-78.58-90.58.png",
+    "work/debussy-garden-il-pleure-80-88.png",
+    "work/debussy-garden-il-pleure-81.44-93.44.png",
+    "work/debussy-garden-il-pleure-94-104.png",
+    "work/debussy-garden-il-pleure-104-112.png",
+    "work/debussy-garden-il-pleure-118-132.4.png",
+    "work/debussy-garden-il-pleure-124.063-132.427.png",
+    "work/debussy-garden-il-pleure-128-132.427.png"
+  ],
+  "publicationDecision": {
+    "outcome": "withheld",
+    "publishCommandRun": false,
+    "engravingAndSheetpackRun": true,
+    "reasons": [
+      "The exact selected printed source and an independent printed version contain materially different vocal notes and rhythm; correspondence of the selected version to this recording remains unestablished. Numeric gates and the repaired tie renderer do not settle that musical identity."
+    ]
+  },
+  "manualWithholding": {
+    "basis": "Numerical gates pass unchanged, but the fresh 94–104-second pitch overlay does not establish the selected high vocal phrase as the recording’s phrase. The immutable OpenScore MXL agrees with its exact referenced IMSLP14819 print: PDF page 8, printed page 16, has the high chromatic De ne savoir pourquoi descent. The independent Sibley Fromont scan instead has a low ascending/turning phrase with different articulation on PDF page 10, printed page 8. These are materially different printed readings, not an established transcription error, part mix or uniform octave displacement. Neither the recording’s complete source version nor a historical 1888-versus-1903 assignment is established. No speculative pitch/rhythm patch is made. This is not an aural review.",
+    "reviewers": [
+      "ScoreB.ScoreBSongs",
+      "ScoreB",
+      "VerS"
+    ],
+    "candidateSha256": "a1d795e6ab2e0e953df438c6ba88281bca167e9cf684526584a6aa10d714e159",
+    "evidence": [
+      {
+        "windowSeconds": [
+          94,
+          104
+        ],
+        "path": "tools/align/work/debussy-garden-il-pleure-94-104.png",
+        "kind": "Fresh final-candidate absolute-pitch, onset and score-path overlay; selected vocal line remains uncertified."
+      },
+      {
+        "windowSeconds": [
+          104,
+          112
+        ],
+        "path": "tools/align/work/debussy-garden-il-pleure-104-112.png",
+        "kind": "Fresh following-phrase overlay; a local onset match is not proof of the disputed version."
+      },
+      {
+        "path": "tools/align/sources/debussy-garden-il-pleure/imslp14819.pdf",
+        "url": "https://ks15.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_(voice_and_piano).pdf",
+        "sha256": "e334a759575179c1f642fd53e0f517f7a53dda52db8157c926da8b5ae03e0708",
+        "pdfPage": 8,
+        "printedPage": 16,
+        "image": "tools/align/work/debussy-garden-il-pleure-imslp14819-p8.png",
+        "kind": "Exact OpenScore-referenced primary print. High vocal descent matches the MXL; independently inspected by VerS. Catalogue: Paris Veuve Girod n.d.[1888], reissue E.Fromont1913, plate E.1422F, Dover1981 reprint; these descriptions alone do not identify the variant’s history."
+      },
+      {
+        "path": "tools/align/sources/debussy-garden-il-pleure/sibley-fromont-1913.pdf",
+        "url": "https://hdl.handle.net/1802/17378",
+        "downloadUrl": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=17194&itemFileId=53824",
+        "sha256": "5753345753f8f745f66edf41f5c240bc796ce1995d702597bc2e236f862554fa",
+        "pdfPage": 10,
+        "printedPage": 8,
+        "image": "tools/align/work/debussy-garden-il-pleure-sibley-p10.png",
+        "kind": "Independent primary print with a materially different low vocal phrase and articulation, also independently inspected by VerS. Comparison evidence only, not substituted for the immutable CC0 MXL."
+      }
+    ]
+  },
+  "manualInspection": {
+    "classification": "MEAS immutable-source inventory, native Tie-bound output, native-browser engraving and pitch-image inspection; no aural review",
+    "auralReviewPerformed": false,
+    "sourceIdentity": {
+      "basis": "Direct original MusicXML quarter-onset/pitch/source-voice inventory, explicitly joining only the nine asserted cross-voice tied continuations. The final source note and bar arrays equal the previously audited complete arrays exactly.",
+      "pitchedMusicXmlElements": 1400,
+      "tiedContinuationElements": 85,
+      "regularSourceAttacks": 1315,
+      "regularMatchedAttacks": 1315,
+      "sourceGraceNotes": 0,
+      "missingRegularAttacks": 0,
+      "unexpectedRegularAttacks": 0,
+      "sourceBars": 80,
+      "barIdentityMismatches": 0,
+      "encodedVoices": 6,
+      "continuationOnlyVoice": "P2 voice7 has zero genuine new attacks; its source continuation is retained, not replaced with a ghost note."
+    },
+    "renderedTieAudit": {
+      "basis": "Actual LilyPond Tie grob left/right NoteHead pitches and rhythmic locations were emitted temporarily as raw-SVG attributes. Part identity is disambiguated by original LilyPond source line, not by coincident pitch/time alone. Split ties are deduplicated by the part-aware bound key. The callback was removed after measurement; these are retained measured outputs, not fabricated metadata on final public assets.",
+      "expectedPartAwarePairs": 85,
+      "matchedPartAwarePairs": 85,
+      "pianoPairs": 70,
+      "vocalPairs": 15,
+      "missingPairs": [],
+      "extraPairs": [],
+      "bareSingleNotePostfixFalsePairsResolved": 11,
+      "sourceSafeRouting": "All 70 piano tie destinations are unique on their original physical staff, with no earlier same-pitch attack before the intended destination. Piano Tie_engraver is scoped to those original Staff contexts; explicit single-note chord ties stop cross-voice broadcasting. No ghost notes, hidden stems, moved voices or MIDI performer changes.",
+      "actualBoundPairs": [
+        {
+          "part": "P1",
+          "rawBoundKey": "108/76/110/76",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            59
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "116/78/117/78",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            61
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "132/67/135/67",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            67
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "139/65/140/65",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            69
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "156/74/159/74",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            76
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "173/75/174/75",
+          "renderedPages": [
+            3,
+            4
+          ],
+          "lilySourceLines": [
+            81
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "186/62/189/62",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            88
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "198/73/201/73",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            93
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "201/73/204/73",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            94
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "210/63/213/63",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            97
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "24/62/27/62",
+          "renderedPages": [
+            1
+          ],
+          "lilySourceLines": [
+            34
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "44/73/45/73",
+          "renderedPages": [
+            1
+          ],
+          "lilySourceLines": [
+            40
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "71/75/72/75",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            46
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "78/71/81/71",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            50
+          ]
+        },
+        {
+          "part": "P1",
+          "rawBoundKey": "96/64/98/64",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            55
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "101/68/102/68",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            170
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "107/42/108/42",
+          "renderedPages": [
+            2,
+            3
+          ],
+          "lilySourceLines": [
+            310
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "107/49/108/49",
+          "renderedPages": [
+            2,
+            3
+          ],
+          "lilySourceLines": [
+            310
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "107/68/108/68",
+          "renderedPages": [
+            2,
+            3
+          ],
+          "lilySourceLines": [
+            173
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "11/63/12/63",
+          "renderedPages": [
+            1
+          ],
+          "lilySourceLines": [
+            264
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "113/92/114/92",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            178
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "114/59/117/59",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            563
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "116/90/117/90",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            179
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "120/55/123/55",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            565
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "120/62/123/62",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            565
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "126/77/129/77",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            480
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "131/86/132/86",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            188
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "138/34/139/34",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            334
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "138/41/139/41",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            334
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "138/53/139/53",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            484
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "141/57/142/57",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            486
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "145/61/146/61",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            196
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "145/73/146/73",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            196
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "152/62/153/62",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            338
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "161/68/162/68",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            203
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "168/32/171/32",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            349
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "168/39/171/39",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            349
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "18/59/21/59",
+          "renderedPages": [
+            1
+          ],
+          "lilySourceLines": [
+            267
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "180/59/183/59",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            354
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "192/34/195/34",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            580
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "192/40/195/40",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            580
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "192/52/195/52",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            358
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "192/64/195/64",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            238
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "198/33/201/33",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            360
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "198/40/201/40",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            360
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "198/52/201/52",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            360
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "198/61/201/61",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            505
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "198/64/201/64",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            240
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "204/55/207/55",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            242
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "228/32/231/32",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            584
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "228/39/231/39",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            584
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "228/44/231/44",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            584
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "228/63/231/63",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            252
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "231/32/234/32",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            585
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "231/39/234/39",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            585
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "231/44/234/44",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            585
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "231/63/234/63",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            253
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/32/237/32",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            380
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/39/237/39",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            380
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/44/237/44",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            380
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/51/237/51",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            586
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/56/237/56",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            586
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/63/237/63",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            254
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/68/237/68",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            254
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "234/75/237/75",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            254
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "277/2/61/139/61",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            192
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "283/2/61/142/61",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            194
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "289/2/61/145/61",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            195
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "289/2/73/145/73",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            195
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "293/2/65/147/65",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            196
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "295/2/61/148/61",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            198
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "295/2/73/148/73",
+          "renderedPages": [
+            3
+          ],
+          "lilySourceLines": [
+            198
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "30/33/33/33",
+          "renderedPages": [
+            1
+          ],
+          "lilySourceLines": [
+            540
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "30/40/33/40",
+          "renderedPages": [
+            1
+          ],
+          "lilySourceLines": [
+            540
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "467/2/56/234/56",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            378
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "47/85/48/85",
+          "renderedPages": [
+            1,
+            2
+          ],
+          "lilySourceLines": [
+            423
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "49/85/51/85",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            426
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "59/75/60/75",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            281
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "59/87/60/87",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            151
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "71/63/72/63",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            286
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "71/75/72/75",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            156
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "81/50/84/50",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            551
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "90/30/93/30",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            297
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "90/37/93/37",
+          "renderedPages": [
+            2
+          ],
+          "lilySourceLines": [
+            297
+          ]
+        },
+        {
+          "part": "P2",
+          "rawBoundKey": "935/4/51/234/51",
+          "renderedPages": [
+            4
+          ],
+          "lilySourceLines": [
+            378
+          ]
+        }
+      ]
+    },
+    "crossVoiceXmlEndpoints": [
+      {
+        "part": "P2",
+        "staff": 2,
+        "fromQ": 81,
+        "toQ": 84,
+        "midi": 50,
+        "fromVoice": "6",
+        "toVoice": "5"
+      },
+      {
+        "part": "P2",
+        "staff": 1,
+        "fromQ": 146.5,
+        "toQ": 147,
+        "midi": 65,
+        "fromVoice": "1",
+        "toVoice": "2"
+      },
+      {
+        "part": "P2",
+        "staff": 2,
+        "fromQ": 192,
+        "toQ": 195,
+        "midi": 52,
+        "fromVoice": "5",
+        "toVoice": "7"
+      },
+      {
+        "part": "P2",
+        "staff": 1,
+        "fromQ": 198,
+        "toQ": 201,
+        "midi": 64,
+        "fromVoice": "1",
+        "toVoice": "2"
+      },
+      {
+        "part": "P2",
+        "staff": 2,
+        "fromQ": 231,
+        "toQ": 234,
+        "midi": 32,
+        "fromVoice": "6",
+        "toVoice": "5",
+        "coalescedAttackQ": 228
+      },
+      {
+        "part": "P2",
+        "staff": 2,
+        "fromQ": 231,
+        "toQ": 234,
+        "midi": 39,
+        "fromVoice": "6",
+        "toVoice": "5",
+        "coalescedAttackQ": 228
+      },
+      {
+        "part": "P2",
+        "staff": 2,
+        "fromQ": 231,
+        "toQ": 234,
+        "midi": 44,
+        "fromVoice": "6",
+        "toVoice": "5",
+        "coalescedAttackQ": 228
+      },
+      {
+        "part": "P2",
+        "staff": 2,
+        "fromQ": 233.75,
+        "toQ": 234,
+        "midi": 51,
+        "fromVoice": "5",
+        "toVoice": "6"
+      },
+      {
+        "part": "P2",
+        "staff": 2,
+        "fromQ": 233.5,
+        "toQ": 234,
+        "midi": 56,
+        "fromVoice": "5",
+        "toVoice": "6",
+        "gapQ": 0.25
+      }
+    ],
+    "inspectedWindowsSeconds": [
+      [
+        0,
+        9.28
+      ],
+      [
+        46.1918,
+        58.1918
+      ],
+      [
+        52,
+        64
+      ],
+      [
+        64,
+        72
+      ],
+      [
+        72,
+        80
+      ],
+      [
+        78,
+        88
+      ],
+      [
+        124.063,
+        132.427
+      ],
+      [
+        24,
+        32
+      ],
+      [
+        96,
+        104
+      ],
+      [
+        104,
+        112
+      ],
+      [
+        94,
+        104
+      ]
+    ],
+    "sheet": {
+      "path": "tools/align/work/debussy-garden-il-pleure-sheet-inspection",
+      "public": false,
+      "pages": 4,
+      "printedBars": 80,
+      "derivedBars": 0,
+      "markedGlyphs": 1465,
+      "packedBytesIncludingIndex": 556914
+    },
+    "observations": [
+      "Global and vocal transpositions are zero; the source P2 staff1 ottava directions at bars21–22 remain source-defined.",
+      "The final new G-sharp4/D-sharp5 attack is at128.063 seconds and its notated duration maps through130.394333 seconds. Warped notation is not a measured release.",
+      "MusicXML slur-conversion warnings remain disclosed; they are not suppressed and are not the numerical gate reasons. The original nine cross-voice ties are now rendered with all85 true part-aware tie pairs, but that does not establish recording-version correspondence.",
+      "The final clean native-browser ending shows the cross-voice bass ties without the temporary audit callback. No public score or sheet pack was written."
+    ]
+  },
+  "commandsRun": [
+    "node tools/score.mjs debussy-garden-il-pleure",
+    "node tools/engrave.mjs debussy-garden-il-pleure --prepared --score tools/align/work/debussy-garden-il-pleure-candidate.json --out tools/align/work/debussy-garden-il-pleure-sheet-inspection"
+  ],
+  "withholdingReview": {
+    "reviewer": "VerS",
+    "decision": "Agrees after opening both exact primary prints: materially different vocal notes and rhythm; recording-to-IMSLP14819 correspondence is unestablished. Withhold unless a complete correct version is proved. The 85/85 tie repair is separate from that musical publication decision."
+  }
+}

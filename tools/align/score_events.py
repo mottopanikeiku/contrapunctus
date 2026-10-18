@@ -74,17 +74,69 @@ def crop_notes(notes, extraction):
     return notes
 
 
-def prove_notation(cfg, directory, original, lilypond):
+def assert_source_literal(cfg, literal):
+    text = inside(HERE / 'sources' / cfg['id'], literal['file']).read_text()
+    if not literal.get('text') or text.count(literal['text']) != 1:
+        raise ValueError('Documented source literal must occur exactly once in the immutable source')
+
+
+def prove_legacy_omissions(cfg, original, legacy, notes):
+    compare = cfg['extraction']['comparePublished']
+    reference, evidence, seen = original.copy(), [], set()
+    onsets = np.round(notes[:, 0], 7)
+    legacy_onsets = np.round(legacy[:, 0] - compare.get('offsetQ', 0), 7)
+    legacy_ends = np.round(legacy[:, 0] + legacy[:, 1] - compare.get('offsetQ', 0), 7)
+    ends = np.round(notes[:, 0] + notes[:, 1], 7)
+    for repair in compare['additions']:
+        assert_source_literal(cfg, repair['source'])
+        q, pitch = repair['attack']
+        q = round(float(q), 7)
+        if int(pitch) != pitch or not repair.get('basis'):
+            raise ValueError('Legacy omission evidence needs an integer MIDI key and documented source basis')
+        pair = q, int(pitch)
+        if pair in seen:
+            raise ValueError('Declare each legacy omission pitch/onset group exactly once')
+        seen.add(pair)
+        actual = notes[(onsets == q) & (notes[:, 2] == pitch)]
+        durations = sorted(round(float(d), 7) for d in repair['durationsQ'])
+        if not durations or any(d <= 0 for d in durations) or durations != sorted(round(float(n[1]), 7) for n in actual):
+            raise ValueError('Legacy omission proof must match every current source duration at its exact pitch/onset')
+        increment = len(durations) - original[pair]
+        if increment <= 0:
+            raise ValueError('Legacy omission proof must account for additional source attacks, not remove or replace originals')
+        old_holds = legacy[(legacy[:, 2] == pitch) & (legacy_onsets < q) & (legacy_ends > q)]
+        current_holds = notes[(notes[:, 2] == pitch) & (onsets < q) & (ends > q)]
+        if repair['kind'] == 'coincident-unison':
+            if original[pair] < 1:
+                raise ValueError('Coincident-unison omission requires an existing published attack at that pitch/onset')
+            legacy_durations = Counter(round(float(n[1]), 7) for n in legacy
+                                       if round(float(n[0] - compare.get('offsetQ', 0)), 7) == q and n[2] == pitch)
+            if legacy_durations - Counter(durations):
+                raise ValueError('Coincident-unison proof must retain every original same-onset duration')
+        elif repair['kind'] == 'held-reattack':
+            if original[pair] or not len(old_holds) or not len(current_holds):
+                raise ValueError('Held-reattack omission needs no published attack there and prior same-pitch holds in both inventories')
+        else:
+            raise ValueError('Only source-pinned coincident unisons and held reattacks are supported legacy omissions')
+        reference[pair] += increment
+        item = {**repair, 'publishedCountAtAttack': original[pair], 'addedCount': increment}
+        if repair['kind'] == 'held-reattack':
+            item['legacyHolds'] = [{'q': float(n[0] - compare.get('offsetQ', 0)), 'durationQ': float(n[1]), 'track': int(n[3])}
+                                   for n in old_holds]
+            item['sourceHolds'] = [{'q': float(n[0]), 'durationQ': float(n[1]), 'voice': cfg['voices'][int(n[3])]['id']}
+                                   for n in current_holds]
+        evidence.append(item)
+    return reference, evidence
+
+
+def prove_notation(cfg, directory, original, lilypond, published_count=None):
     extraction = cfg['extraction']
     ornaments = extraction['notationProof'].get('ornaments', [])
     if not ornaments:
         raise ValueError('notationProof needs explicitly documented source ornaments')
     omitted = Counter()
     for ornament in ornaments:
-        literal = ornament['source']
-        text = inside(HERE / 'sources' / cfg['id'], literal['file']).read_text()
-        if not literal.get('text') or text.count(literal['text']) != 1:
-            raise ValueError('Notation ornament literal must occur exactly once in the immutable source')
+        assert_source_literal(cfg, ornament['source'])
         if not ornament.get('basis') or not ornament.get('attacks'):
             raise ValueError('Notation ornaments need a source basis and exact realized attacks')
         for q, pitch in ornament['attacks']:
@@ -92,7 +144,7 @@ def prove_notation(cfg, directory, original, lilypond):
                 raise ValueError('Notation ornament pitches must be integer MIDI keys')
             omitted[(round(float(q), 7), int(pitch))] += 1
     if omitted - original:
-        raise ValueError('Declared notation ornament attacks are absent from the published MIDI inventory')
+        raise ValueError('Declared notation ornament attacks are absent from the complete playback reference')
     midi = compile_midi(directory, '__notation', cfg['engraving']['music'],
                         extraction.get('midiSettings', ''), lilypond)
     notes, _ = midi_events(midi)
@@ -102,9 +154,11 @@ def prove_notation(cfg, directory, original, lilypond):
     if notated != expected:
         raise ValueError('Printed notation inventory differs after the exact ornament allowance: '
                          f'missing {sum((expected - notated).values())}, extra {sum((notated - expected).values())}')
-    result = {'matched': True, 'publishedAttacks': sum(original.values()),
+    result = {'matched': True, 'publishedAttacks': sum(original.values()) if published_count is None else published_count,
               'notatedAttacks': sum(notated.values()), 'realizedOrnamentAttacks': sum(omitted.values()),
               'ornaments': ornaments}
+    if published_count is not None and published_count != sum(original.values()):
+        result['sourcePlaybackAttacks'] = sum(original.values())
     print('NOTATION', cfg['id'], json.dumps(result, ensure_ascii=False), flush=True)
     return result
 
@@ -192,20 +246,33 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         source_checks['ties'] = extraction['ties']
     if extraction.get('comparePublished') is not None:
         compare = extraction['comparePublished']
-        multiset = bool(cfg['source'].get('legacyRelative') == 'verify-midi'
-                        or cfg['source'].get('patches') or extraction.get('notationProof') is not None)
-        original = attack_inventory(inside(directory, cfg['source']['midi']), compare.get('offsetQ', 0), multiset)
+        multiset = bool(cfg['source'].get('legacyRelative') == 'verify-midi' or cfg['source'].get('patches')
+                        or extraction.get('notationProof') is not None or compare.get('additions'))
+        published = inside(directory, cfg['source']['midi'])
+        if compare.get('additions'):
+            legacy, _ = midi_events(published)
+            original = Counter((round(n[0] - compare.get('offsetQ', 0), 7), int(n[2])) for n in legacy)
+            reference, omissions = prove_legacy_omissions(cfg, original, legacy, notes)
+        else:
+            original = attack_inventory(published, compare.get('offsetQ', 0), multiset)
+            reference, omissions = original, []
         pairs = [(round(n[0], 7), int(n[2])) for n in notes]
         separated = Counter(pairs) if multiset else set(pairs)
-        if original != separated:
-            raise ValueError(f'{ident}: source pitch/onset inventory differs: missing {len(original - separated)}, extra {len(separated - original)}')
-        print('INVENTORY', ident, sum(original.values()) if multiset else len(original),
-              'source pitch/onset ' + ('multiset' if multiset else 'pairs') + ' equal', flush=True)
+        if reference != separated:
+            missing, extra = reference - separated, separated - reference
+            raise ValueError(f'{ident}: source pitch/onset inventory differs: '
+                             f'missing {sum(missing.values()) if multiset else len(missing)}, '
+                             f'extra {sum(extra.values()) if multiset else len(extra)}')
+        count = sum(reference.values()) if multiset else len(reference)
+        print('INVENTORY', ident, count, 'source pitch/onset ' + ('multiset' if multiset else 'pairs'),
+              'equal to published reference' if not omissions else 'equal after exact source-pinned legacy omissions', flush=True)
         source_checks['pitchOnsetInventory'] = {
-            'kind': 'multiset' if multiset else 'set', 'matched': True,
-            'count': sum(original.values()) if multiset else len(original)}
+            'kind': 'multiset' if multiset else 'set', 'matched': True, 'count': count}
+        if omissions:
+            source_checks['pitchOnsetInventory'].update({
+                'publishedCount': sum(original.values()), 'sourceOmissions': omissions})
         if extraction.get('notationProof') is not None:
-            source_checks['notationProof'] = prove_notation(cfg, directory, original, lilypond)
+            source_checks['notationProof'] = prove_notation(cfg, directory, reference, lilypond, sum(original.values()))
     for vi, voice in enumerate(voices):
         notes[notes[:, 3] == vi, 2] += voice.get('transpose', 0) + extraction.get('transpose', 0)
         for correction in voice.get('transposeRanges', []):
@@ -288,7 +355,9 @@ def extract(ident, lilypond=LILYPOND, directory=None):
                      if cfg['source'].get('musicxmlInitialGrace') else [])
                   + (['Single-note MusicXML ties use note-specific chord syntax; any engraving-context relocation '
                       'still requires an exact source endpoint audit.']
-                     if cfg['source'].get('musicxmlSingleNoteChordTies') else []),
+                     if cfg['source'].get('musicxmlSingleNoteChordTies') else [])
+                  + [f'Source-written attack omitted by legacy MIDI, {r["kind"]} at {r["attack"]}: {r["basis"]}'
+                     for r in (extraction.get('comparePublished') or {}).get('additions', [])],
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)

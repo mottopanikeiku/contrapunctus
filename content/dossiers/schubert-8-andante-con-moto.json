@@ -125,7 +125,7 @@
         "archive",
         "pristine"
       ],
-      "note": "The stylus, equalisation, speed and noise treatment are not documented. The file runs 12:55; Pristine’s own restoration runs 12:00, so the two transfers differ by a few seconds, and where the side joins fall in this file is not known."
+      "note": "The stylus, equalisation, speed and noise treatment are not documented. The file runs 11:55; Pristine’s own restoration runs 12:00, so the two transfers differ by a few seconds, and where the side joins fall in this file is not known."
     }
   },
   "digital": {
@@ -133,7 +133,7 @@
     "sourceChain": [
       "archive"
     ],
-    "format": "MP3 derivative supplied by the Internet Archive; an Ogg Vorbis derivative is also listed",
+    "format": "Uploader-supplied MP3, classified as the original file by the Internet Archive (encoding history unknown); the Archive’s Ogg Vorbis file is its derivative",
     "durationSeconds": 714.73
   },
   "rights": {

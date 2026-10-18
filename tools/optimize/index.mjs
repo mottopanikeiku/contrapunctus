@@ -104,7 +104,7 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
     const relative = path.relative(out, file).split(path.sep).join('/');
     const base = relative === '404.html' ? '/contrapunctus/' : '../'.repeat(relative.split('/').length - 1);
     const html = versionHTML(await readFile(file, 'utf8'), relative, versions, programmeVersion);
-    const head = fonts.head(base);
+    const head = await fonts.head(base, html, relative);
     const result = await cached(hash(`html-v2-${relative}-${artVersion}-${head}-${html}`), 'html', async () => {
       let result = pictureHTML(html, relative, art, imageResult.formats);
       if (relative === 'index.html' || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) result = await criticalCSS(result, file);
@@ -113,6 +113,7 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
     });
     await save(file, result);
   }
+  await fonts.finish();
   const worker = await generateServiceWorker(out);
   console.log(`optimized ${pages.length} pages, ${versions.size} CSS/JS files, ${fonts.manifest.length} subset fonts (${fonts.manifest.reduce((sum, f) => sum + f.bytes, 0)} bytes), ${imageResult.avifPictures} AVIF picture sets (${imageResult.generated} new encodes); SW ${worker.precached} precached/${worker.entries} revisioned; ${((performance.now() - started) / 1000).toFixed(2)}s`);
   return { fonts: fonts.manifest, images: imageResult, worker };

@@ -6,11 +6,11 @@ import path from 'node:path';
 const [label = 'after', origin = 'http://127.0.0.1:8080'] = process.argv.slice(2);
 const dir = path.resolve('cache/performance', label);
 await mkdir(dir, { recursive: true });
-const pages = ['index.html', 'hall.html', 'influence.html', 'atlas-map.html', 'compare/mahler-5-adagietto.html', 'composers/mahler.html', 'glossary.html'];
+const pages = process.env.PAGES?.split(',') || ['index.html', 'hall.html', 'influence.html', 'atlas-map.html', 'compare/mahler-5-adagietto.html', 'composers/mahler.html', 'glossary.html'];
 const rows = [];
-for (const page of pages) for (const mode of ['mobile', 'desktop']) {
+for (const page of pages) for (const mode of process.env.MODES?.split(',') || ['mobile', 'desktop']) {
   const file = path.join(dir, `${page.replaceAll('/', '_')}.${mode}.json`);
-  const args = ['lighthouse', new URL(page, `${origin}/`).href, '--only-categories=performance', '--output=json', `--output-path=${file}`, '--chrome-flags=--headless --no-sandbox --disable-dev-shm-usage', '--quiet', ...(mode === 'desktop' ? ['--preset=desktop'] : [])];
+  const args = ['lighthouse', new URL(page, `${origin}/`).href, '--only-categories=performance', '--output=json', `--output-path=${file}`, `--chrome-flags=--headless --no-sandbox --disable-dev-shm-usage ${process.env.CHROME_FLAGS || ''}`, '--quiet', ...(mode === 'desktop' ? ['--preset=desktop'] : [])];
   console.log(`$ npx ${args.join(' ')}`);
   await new Promise((resolve, reject) => {
     const child = spawn('npx', args, { stdio: 'inherit' });

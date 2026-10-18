@@ -74,15 +74,30 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      1.3,
+      1.9
     ],
     "last": [
-      199,
-      205
+      205.5,
+      206.15
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "The first A-octave attack is near 1.55 s, before the G-sharp attack near 2.72 s selected by the broad search. The final pianissimo chord near 205.8 s reattacks the same upper voicing as the penultimate chord near 203.25 s; the original endpoint incorrectly selected that earlier chord. Absolute-pitch features confirm the original source register, without the separate 1921 transfer's nominal-semitone correction."
   },
+  "anchors": [
+    {
+      "scoreQ": 2,
+      "window": [4.1, 4.45],
+      "label": "third-opening-C-sharp-octaves",
+      "basis": "The third opening bell is C-sharp1/C-sharp2/C-sharp3 near 4.2 s. The unconstrained long hold began before its measured attack. This is an inspected fitting constraint, not independent validation."
+    },
+    {
+      "scoreQ": 241.5,
+      "window": [203.1, 203.5],
+      "label": "penultimate-upper-C-sharp-minor-chord",
+      "basis": "The written eighth-note upper chord near 203.25 s precedes a distinct final pianissimo reattack near 205.8 s. Their identical pitch classes had let the broad endpoint pick the earlier chord. Both source attacks remain; this is fitting evidence, not independent or aural validation."
+    }
+  ],
+  "diagnostics": {"overlays": [[176,188],[188,200],[200,211]]},
   "boundaries": [],
   "engraving": {
     "staff": 18,
@@ -90,7 +105,7 @@
     "height": 297
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. INFERENCE: Correct Op. 3 No. 2, not a concerto reduction; Rachmaninoff’s 1919 performance may alter voicing, timing and ornaments. No cut/repeat check performed.",
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. The source identifies the complete solo-piano Op. 3 No. 2, not Rachmaninoff's physical performing edition.",
     "Read content/listen/rachmaninoff-prelude-c-sharp-minor-victor-1928.mjs and cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1928.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise must be inspected separately."
   ]
 }

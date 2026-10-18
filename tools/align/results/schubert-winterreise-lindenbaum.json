@@ -1,10 +1,10 @@
 {
   "uniqueScoreAttacks": 776,
   "audioDetectedOnsets": 341,
-  "medianAbsoluteOnsetDeviation": 0.2448719650461797,
-  "noteWeightedMedianDeviation": 0.21042198993417927,
-  "p95AbsoluteOnsetDeviation": 1.3913302638127973,
-  "fractionWithin150ms": 0.36855670103092786,
+  "medianAbsoluteOnsetDeviation": 0.24308887782755306,
+  "noteWeightedMedianDeviation": 0.2072896963663311,
+  "p95AbsoluteOnsetDeviation": 1.422461423593834,
+  "fractionWithin150ms": 0.37371134020618557,
   "regions": [
     {
       "start": 0.0,
@@ -20,11 +20,11 @@
       "start": 8.0,
       "end": 16.0,
       "attacks": 43,
-      "median": 0.16560588463027948,
+      "median": 0.18560588463027905,
       "p95": 0.6557394502516474,
       "max": 0.7329829655439424,
-      "adaptiveMedian": 0.036210386593660715,
-      "adaptiveP95": 0.13449687517282896
+      "adaptiveMedian": 0.04585365853658985,
+      "adaptiveP95": 0.11603688955256518
     },
     {
       "start": 16.0,
@@ -50,10 +50,10 @@
       "start": 32.0,
       "end": 40.0,
       "attacks": 10,
-      "median": 0.08544715447154516,
-      "p95": 0.28941529782644704,
+      "median": 0.06391681876002053,
+      "p95": 0.3317413306786096,
       "max": 0.3660693545710956,
-      "adaptiveMedian": 0.05018251202920965,
+      "adaptiveMedian": 0.047769481776448686,
       "adaptiveP95": 0.06461053039102467
     },
     {
@@ -63,7 +63,7 @@
       "median": 0.03379182567335448,
       "p95": 0.580418505613628,
       "max": 0.6475360876057721,
-      "adaptiveMedian": 0.01881256567666867,
+      "adaptiveMedian": 0.022681267628996693,
       "adaptiveP95": 0.04513693932856632
     },
     {
@@ -91,20 +91,20 @@
       "end": 72.0,
       "attacks": 14,
       "median": 0.2965381996294312,
-      "p95": 1.0413213041314022,
+      "p95": 1.0283213041313957,
       "max": 1.2151949560311834,
-      "adaptiveMedian": 0.023004552430727188,
+      "adaptiveMedian": 0.02343620374978883,
       "adaptiveP95": 0.07724669542614464
     },
     {
       "start": 72.0,
       "end": 80.0,
       "attacks": 31,
-      "median": 0.6049145511863401,
-      "p95": 1.4372565123610528,
-      "max": 1.7141242187932164,
-      "adaptiveMedian": 0.03244400199100994,
-      "adaptiveP95": 0.12993307892262607
+      "median": 0.5831757093080938,
+      "p95": 1.467256512361054,
+      "max": 1.7741242187932045,
+      "adaptiveMedian": 0.031640949062563095,
+      "adaptiveP95": 0.10081190199655055
     },
     {
       "start": 80.0,
@@ -143,38 +143,38 @@
       "median": 0.16825728665448025,
       "p95": 1.113869642165811,
       "max": 1.1422703390299205,
-      "adaptiveMedian": 0.028937558763317384,
-      "adaptiveP95": 0.07999004479838873
+      "adaptiveMedian": 0.03973563409103065,
+      "adaptiveP95": 0.04855749128919056
     },
     {
       "start": 112.0,
       "end": 120.0,
       "attacks": 16,
-      "median": 0.21928377855208225,
-      "p95": 1.6176063962170133,
-      "max": 1.7107997345279387,
-      "adaptiveMedian": 0.03891377689286202,
-      "adaptiveP95": 0.07044176207068276
+      "median": 0.19928377855208623,
+      "p95": 1.6276063962170113,
+      "max": 1.6907997345279426,
+      "adaptiveMedian": 0.037826862452298826,
+      "adaptiveP95": 0.06903863171282865
     },
     {
       "start": 120.0,
       "end": 128.0,
       "attacks": 19,
-      "median": 0.10184834909570384,
-      "p95": 0.7948058182622596,
-      "max": 1.1010497207012833,
-      "adaptiveMedian": 0.025118079752232347,
-      "adaptiveP95": 0.0806163375919354
+      "median": 0.07165643493172524,
+      "p95": 0.7748058182622636,
+      "max": 1.0810497207012872,
+      "adaptiveMedian": 0.036151761517615455,
+      "adaptiveP95": 0.07414645207679053
     },
     {
       "start": 128.0,
       "end": 136.0,
       "attacks": 27,
-      "median": 0.24191471710631163,
-      "p95": 0.7810496100879389,
-      "max": 1.145730877716943,
-      "adaptiveMedian": 0.04518555389637413,
-      "adaptiveP95": 0.11514916210385877
+      "median": 0.2252010397654658,
+      "p95": 0.7330496100879342,
+      "max": 1.2057308777169453,
+      "adaptiveMedian": 0.046524805043958395,
+      "adaptiveP95": 0.08771517062106395
     },
     {
       "start": 136.0,
@@ -209,22 +209,22 @@
     {
       "start": 160.0,
       "end": 168.0,
-      "attacks": 23,
-      "median": 0.5053160776506047,
-      "p95": 1.0096072119904815,
+      "attacks": 24,
+      "median": 0.5197107460870285,
+      "p95": 1.0014591007134495,
       "max": 1.0330767103588983,
-      "adaptiveMedian": 0.0386328189812275,
-      "adaptiveP95": 0.07709662076214271
+      "adaptiveMedian": 0.037053260328534066,
+      "adaptiveP95": 0.09312997068747958
     },
     {
       "start": 168.0,
       "end": 176.0,
-      "attacks": 20,
-      "median": 0.4152026989657571,
-      "p95": 0.9640550301421301,
+      "attacks": 19,
+      "median": 0.484808362369364,
+      "p95": 1.0466495215972598,
       "max": 1.1653503677893866,
-      "adaptiveMedian": 0.03065068303745022,
-      "adaptiveP95": 0.06677661633760437
+      "adaptiveMedian": 0.03047729660971754,
+      "adaptiveP95": 0.08351385432216603
     },
     {
       "start": 176.0,
@@ -233,48 +233,48 @@
       "median": 0.47935069962946386,
       "p95": 1.3888689784856467,
       "max": 1.5100436922736549,
-      "adaptiveMedian": 0.027784967645601455,
-      "adaptiveP95": 0.053410762679050094
+      "adaptiveMedian": 0.0275482550744357,
+      "adaptiveP95": 0.05507328134510203
     },
     {
       "start": 184.0,
       "end": 192.0,
       "attacks": 21,
-      "median": 0.4288534926165255,
+      "median": 0.4928245119186272,
       "p95": 2.177030031524822,
       "max": 2.2119738952491446,
-      "adaptiveMedian": 0.020353962723305585,
-      "adaptiveP95": 0.08112051324596337
+      "adaptiveMedian": 0.028425418948103243,
+      "adaptiveP95": 0.09265969802555674
     },
     {
       "start": 192.0,
       "end": 200.0,
       "attacks": 20,
-      "median": 0.10565178917100582,
-      "p95": 0.625842514241451,
-      "max": 0.6774050107848097,
-      "adaptiveMedian": 0.03713400807478706,
-      "adaptiveP95": 0.08147729660977349
+      "median": 0.09177866268454693,
+      "p95": 0.6223143354902164,
+      "max": 0.7031286986339182,
+      "adaptiveMedian": 0.04281123831647449,
+      "adaptiveP95": 0.08056418339700998
     },
     {
       "start": 200.0,
       "end": 208.0,
-      "attacks": 18,
-      "median": 0.17262596095346794,
-      "p95": 1.307548379514411,
+      "attacks": 17,
+      "median": 0.15499474586582096,
+      "p95": 1.308181682429074,
       "max": 1.3183145290636844,
-      "adaptiveMedian": 0.02887533875338022,
-      "adaptiveP95": 0.06878463580551539
+      "adaptiveMedian": 0.02919971240527275,
+      "adaptiveP95": 0.06881367181015889
     },
     {
       "start": 208.0,
       "end": 216.0,
-      "attacks": 17,
-      "median": 0.11184558376194786,
-      "p95": 0.5632035838725926,
+      "attacks": 18,
+      "median": 0.11836015707096692,
+      "p95": 0.56008284939994,
       "max": 0.6131353354350324,
-      "adaptiveMedian": 0.034444997511201336,
-      "adaptiveP95": 0.08394391903102018
+      "adaptiveMedian": 0.02495188319231545,
+      "adaptiveP95": 0.08375988606824052
     },
     {
       "start": 216.0,
@@ -289,32 +289,32 @@
     {
       "start": 224.0,
       "end": 232.0,
-      "attacks": 14,
-      "median": 0.8104070571317976,
-      "p95": 1.2060582932359722,
+      "attacks": 21,
+      "median": 0.5642552956141742,
+      "p95": 1.1932979370610326,
       "max": 1.2129461866047109,
-      "adaptiveMedian": 0.019205796139530662,
-      "adaptiveP95": 0.06062869863388867
+      "adaptiveMedian": 0.03019633869809013,
+      "adaptiveP95": 0.09002986560477666
     },
     {
       "start": 232.0,
       "end": 240.0,
-      "attacks": 31,
-      "median": 0.3031381007687912,
-      "p95": 1.0743957745699646,
-      "max": 1.329599026602466,
-      "adaptiveMedian": 0.03398373983739589,
-      "adaptiveP95": 0.07665505226478331
+      "attacks": 26,
+      "median": 0.3128073668491993,
+      "p95": 1.1172006526187275,
+      "max": 1.3298700293125307,
+      "adaptiveMedian": 0.029141087329293214,
+      "adaptiveP95": 0.0564667330346893
     },
     {
       "start": 240.0,
       "end": 248.0,
-      "attacks": 38,
+      "attacks": 36,
       "median": 0.3149040429179877,
-      "p95": 1.5520067474147763,
-      "max": 1.7939173718267796,
-      "adaptiveMedian": 0.024989215198246484,
-      "adaptiveP95": 0.07147252640895088
+      "p95": 1.6914079696918805,
+      "max": 1.7936463691167148,
+      "adaptiveMedian": 0.026703722139188812,
+      "adaptiveP95": 0.07882376527845736
     }
   ],
   "worstFiveOnsetRegions": [
@@ -329,44 +329,44 @@
       "adaptiveP95": 0.06141131574578648
     },
     {
-      "start": 224.0,
-      "end": 232.0,
-      "attacks": 14,
-      "median": 0.8104070571317976,
-      "p95": 1.2060582932359722,
-      "max": 1.2129461866047109,
-      "adaptiveMedian": 0.019205796139530662,
-      "adaptiveP95": 0.06062869863388867
-    },
-    {
       "start": 72.0,
       "end": 80.0,
       "attacks": 31,
-      "median": 0.6049145511863401,
-      "p95": 1.4372565123610528,
-      "max": 1.7141242187932164,
-      "adaptiveMedian": 0.03244400199100994,
-      "adaptiveP95": 0.12993307892262607
+      "median": 0.5831757093080938,
+      "p95": 1.467256512361054,
+      "max": 1.7741242187932045,
+      "adaptiveMedian": 0.031640949062563095,
+      "adaptiveP95": 0.10081190199655055
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 21,
+      "median": 0.5642552956141742,
+      "p95": 1.1932979370610326,
+      "max": 1.2129461866047109,
+      "adaptiveMedian": 0.03019633869809013,
+      "adaptiveP95": 0.09002986560477666
     },
     {
       "start": 160.0,
       "end": 168.0,
-      "attacks": 23,
-      "median": 0.5053160776506047,
-      "p95": 1.0096072119904815,
+      "attacks": 24,
+      "median": 0.5197107460870285,
+      "p95": 1.0014591007134495,
       "max": 1.0330767103588983,
-      "adaptiveMedian": 0.0386328189812275,
-      "adaptiveP95": 0.07709662076214271
+      "adaptiveMedian": 0.037053260328534066,
+      "adaptiveP95": 0.09312997068747958
     },
     {
-      "start": 176.0,
-      "end": 184.0,
+      "start": 184.0,
+      "end": 192.0,
       "attacks": 21,
-      "median": 0.47935069962946386,
-      "p95": 1.3888689784856467,
-      "max": 1.5100436922736549,
-      "adaptiveMedian": 0.027784967645601455,
-      "adaptiveP95": 0.053410762679050094
+      "median": 0.4928245119186272,
+      "p95": 2.177030031524822,
+      "max": 2.2119738952491446,
+      "adaptiveMedian": 0.028425418948103243,
+      "adaptiveP95": 0.09265969802555674
     }
   ],
   "worstFiveAdaptiveRegions": [
@@ -384,11 +384,21 @@
       "start": 32.0,
       "end": 40.0,
       "attacks": 10,
-      "median": 0.08544715447154516,
-      "p95": 0.28941529782644704,
+      "median": 0.06391681876002053,
+      "p95": 0.3317413306786096,
       "max": 0.3660693545710956,
-      "adaptiveMedian": 0.05018251202920965,
+      "adaptiveMedian": 0.047769481776448686,
       "adaptiveP95": 0.06461053039102467
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 27,
+      "median": 0.2252010397654658,
+      "p95": 0.7330496100879342,
+      "max": 1.2057308777169453,
+      "adaptiveMedian": 0.046524805043958395,
+      "adaptiveP95": 0.08771517062106395
     },
     {
       "start": 24.0,
@@ -401,38 +411,28 @@
       "adaptiveP95": 0.11171566838117103
     },
     {
-      "start": 128.0,
-      "end": 136.0,
-      "attacks": 27,
-      "median": 0.24191471710631163,
-      "p95": 0.7810496100879389,
-      "max": 1.145730877716943,
-      "adaptiveMedian": 0.04518555389637413,
-      "adaptiveP95": 0.11514916210385877
-    },
-    {
-      "start": 136.0,
-      "end": 144.0,
-      "attacks": 59,
-      "median": 0.23209778220237354,
-      "p95": 0.6357163597146325,
-      "max": 0.7720103976549808,
-      "adaptiveMedian": 0.04231181903651304,
-      "adaptiveP95": 0.09111420828490956
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 43,
+      "median": 0.18560588463027905,
+      "p95": 0.6557394502516474,
+      "max": 0.7329829655439424,
+      "adaptiveMedian": 0.04585365853658985,
+      "adaptiveP95": 0.11603688955256518
     }
   ],
   "worstFiveHarmonicRegions": [
     {
       "start": 224.0,
-      "meanCosine": 0.32312529292394826
+      "meanCosine": 0.3838417163547462
     },
     {
       "start": 128.0,
-      "meanCosine": 0.3896624237786562
+      "meanCosine": 0.3850432152973016
     },
     {
       "start": 64.0,
-      "meanCosine": 0.5052952121932646
+      "meanCosine": 0.5039216790705539
     },
     {
       "start": 248.0,
@@ -443,7 +443,56 @@
       "meanCosine": 0.5361523278871674
     }
   ],
-  "sections": [],
+  "sections": [
+    {
+      "bar": "9",
+      "occ": 1,
+      "editorial": 22,
+      "aligned": 20.57951219512195,
+      "difference": -1.42048780487805,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "25",
+      "occ": 1,
+      "editorial": 73,
+      "aligned": 72.23853658536585,
+      "difference": -0.7614634146341501,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "37",
+      "occ": 1,
+      "editorial": 109,
+      "aligned": 108.06780487804878,
+      "difference": -0.9321951219512243,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "45",
+      "occ": 1,
+      "editorial": 133,
+      "aligned": 133.00731707317073,
+      "difference": 0.0073170731707250525,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "60",
+      "occ": 1,
+      "editorial": 172,
+      "aligned": 171.6239024390244,
+      "difference": -0.37609756097560876,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "77",
+      "occ": 1,
+      "editorial": 229,
+      "aligned": 229.1453658536585,
+      "difference": 0.14536585365848964,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
   "anchors": [
     {
       "label": "first",
@@ -516,7 +565,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.009451972297512157,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.5911861118345515,
+  "meanPathChromaCosine": 0.5919965592177777,
   "endAnchor": {
     "scoreQ": 246.0,
     "audioSeconds": 252.09999999999994,
@@ -544,12 +593,36 @@
   ],
   "sectionAnchorPairsSeconds": [
     [
+      25.92,
+      22.0
+    ],
+    [
+      74.26,
+      73.0
+    ],
+    [
+      111.18,
+      109.0
+    ],
+    [
+      134.74,
+      133.0
+    ],
+    [
+      181.06,
+      172.0
+    ],
+    [
+      232.73217391304348,
+      229.0
+    ],
+    [
       249.07837398373982,
       247.64
     ]
   ],
   "sourceChecks": {
-    "musicxmlConversion": "LilyPond 2.24.4 with per-note tie emission"
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards"
   },
   "endpointMeasurements": [
     {
@@ -587,12 +660,12 @@
     }
   ],
   "adaptiveOnsetCount": 1869,
-  "adaptiveMedianDeviation": 0.033815607543857595,
+  "adaptiveMedianDeviation": 0.0344893350294051,
   "gateReasons": [
     "Median unique-onset deviation exceeds 0.15 seconds.",
     "A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds."
   ],
-  "elapsedSeconds": 1.0908815640141256,
+  "elapsedSeconds": 0.475606647960376,
   "dtwSteps": [
     [
       1,
@@ -633,18 +706,18 @@
   },
   "overlays": [
     "work/schubert-winterreise-lindenbaum-0-8.98.png",
+    "work/schubert-winterreise-lindenbaum-8-16.png",
     "work/schubert-winterreise-lindenbaum-24-32.png",
     "work/schubert-winterreise-lindenbaum-32-40.png",
     "work/schubert-winterreise-lindenbaum-72-80.png",
     "work/schubert-winterreise-lindenbaum-72-90.png",
     "work/schubert-winterreise-lindenbaum-128-136.png",
     "work/schubert-winterreise-lindenbaum-132-160.png",
-    "work/schubert-winterreise-lindenbaum-136-144.png",
     "work/schubert-winterreise-lindenbaum-137.645-149.645.png",
     "work/schubert-winterreise-lindenbaum-144-152.png",
     "work/schubert-winterreise-lindenbaum-152-160.png",
     "work/schubert-winterreise-lindenbaum-160-168.png",
-    "work/schubert-winterreise-lindenbaum-176-184.png",
+    "work/schubert-winterreise-lindenbaum-184-192.png",
     "work/schubert-winterreise-lindenbaum-224-232.png",
     "work/schubert-winterreise-lindenbaum-243.677-255.677.png"
   ],
@@ -692,31 +765,24 @@
         152
       ],
       [
-        72,
-        90
-      ],
-      [
         224,
         232
-      ],
-      [
-        128,
-        136
       ]
     ],
     "observations": [
       "The quiet final tonic begins about 247.64 seconds; moving the endpoint to the preceding louder dominant would be musically false.",
       "Both primary-median and anchor gates reject this candidate.",
-      "The 224–232-second weakest harmonic window has mean cosine 0.3231253 and a long path plateau; the image does not establish reliable local score-to-recording correspondence.",
+      "The 224–232-second weakest harmonic window has mean cosine 0.3838417163547462; the image does not establish reliable local score-to-recording correspondence.",
       "The final notated chord spans 247.676748–252.1 seconds; the noise-tainted decay is not a measured key release."
     ],
-    "converterRefresh": "Candidate rerun after the mandatory general per-note-tie converter update; source inventory remains1637/1637 regular attacks plus2graces, fresh endpoint/held/worst overlays inspected; timing metrics and withholding unchanged."
+    "converterRefresh": "The source-preserving general per-note tie adapter is active in this final candidate; every regular source attack still matches. This is not the obsolete pre-adapter result.",
+    "recordingInputRefresh": "The current authored recording module now supplies section guides where the earlier candidate saw an empty sections array. The candidate was refreshed against those actual inputs after the general per-note tie repair; the unchanged immutable-source attack inventory was compared again. Fresh endpoint, middle, held-ending, primary/adaptive worst and weak-harmony windows were inspected. Numeric failures remain mandatory; no limits or source notes were changed."
   },
   "commandsRun": [
     "node tools/score.mjs schubert-winterreise-lindenbaum"
   ],
   "withholdingReview": {
     "reviewer": "VerS",
-    "decision": "Agrees that mandatory primary-median and final-anchor failures require withholding; not an instrumental or aural certification."
+    "decision": "Accepted the final refreshed withholding after independently recomputing current saved checks: primary median 0.243088877828 seconds and final-anchor disagreement 0.776766771749 seconds exceed unchanged 0.15/0.5-second limits; published is false. This confirms the disposition, not an instrumental or aural certification."
   }
 }

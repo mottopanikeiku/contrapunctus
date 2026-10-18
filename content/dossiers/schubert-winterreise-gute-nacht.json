@@ -27,10 +27,11 @@
     ],
     "status": "documented",
     "sourceIds": [
+      "label",
       "archive",
       "utz"
     ],
-    "note": "The Internet Archive description names Duhan and Foll for this side. Utz reports that Duhan recorded nineteen songs with Foll on 27 April, 2 May and 4 May 1928 and the remaining five (Nos. 16, 17, 19, 20, 23) with Lene Orthmann on 11 July 1928, so Orthmann does not play on this side. The Commons file description names only Duhan."
+    "note": "The label photograph of the scanned copy names Kammersänger Hans Duhan, baritone of the Vienna State Opera, with Prof. Ferdinand Foll at the piano; the Internet Archive description names the same two performers. Utz reports that Duhan recorded nineteen songs with Foll on 27 April, 2 May and 4 May 1928 and the remaining five (Nos. 16, 17, 19, 20, 23) with Lene Orthmann on 11 July 1928, so Orthmann does not play on this side. The Commons file description names only Duhan."
   },
   "session": {
     "date": {
@@ -55,30 +56,32 @@
   },
   "carrier": {
     "label": {
-      "value": "His Master’s Voice (the uploader marks the pressing “Czech”)",
+      "value": "His Master’s Voice, as printed on the scanned copy (manufactured by The Gramophone Company (Czechoslovakia) Limited, Ústí nad Labem)",
       "status": "documented",
       "sourceIds": [
         "archive"
       ],
-      "note": "The Internet Archive description of this disc reads “30 cm (Czech) His Master’s Voice ES 383”; the descriptions of the later discs say Gramola instead. The label naming is inconsistent between uploads and is not resolved here."
+      "note": "The label photograph of this scanned copy shows the His Master’s Voice imprint; the photographed copies of the later discs (3, 6, 12) carry Gramola Record labels, so the photographed copies of this set carry both imprints. The label gives no date, and nothing here dates the first issue or shows that the audio transfer derives from the photographed copy."
     },
     "catalogue": {
       "value": "ES 383",
       "status": "documented",
       "sourceIds": [
+        "label",
         "commons",
         "archive"
       ],
-      "note": "Both the Commons file name and the Internet Archive description give ES 383 for the side with Gute Nacht."
+      "note": "The label photograph of the scanned copy prints Cat. No. ES 383, and the Commons file name and the Internet Archive description agree."
     },
     "matrixTakeSides": {
-      "value": "CK 2946-2 (Gute Nacht); reverse side: Die Wetterfahne (matrix CK 2947-2). Disc 1 of 12 of the set; 30 cm.",
+      "value": "CK 2946, take 2 (run-out “Ck 2946” with II); side No. 1 (label number 0942026); reverse side: Die Wetterfahne (matrix CK 2947-2). Disc 1 of 12 of the set; 30 cm.",
       "status": "documented",
       "sourceIds": [
+        "label",
         "archive",
         "commons"
       ],
-      "note": "The matrix and take are read from the Internet Archive description and agree with the Commons file name. The set was issued as twelve discs, one song to a side (Utz). No run-out inspection has been made."
+      "note": "The label photograph of the scanned copy shows the matrix and take in the run-out; the Internet Archive description and the Commons file name give the same matrix and take. The set was issued as twelve discs, one song to a side (Utz). The photograph is of one copy and does not identify the copy from which the audio was transferred."
     }
   },
   "transfer": {
@@ -156,7 +159,7 @@
         }
       ]
     },
-    "creditLine": "Franz Schubert, Winterreise, No. 1, “Gute Nacht”, text by Wilhelm Müller; Hans Duhan, baritone, Ferdinand Foll, piano, 27 April 1928. Disc: matrix CK 2946-2. File via Wikimedia Commons (PD-EU-audio; territorial). Rights metadata: public domain in the EU only; no worldwide recording clearance is claimed.",
+    "creditLine": "Franz Schubert, Winterreise, No. 1, “Gute Nacht”, text by Wilhelm Müller; Hans Duhan, baritone, Ferdinand Foll, piano, 27 April 1928. Disc: matrix CK 2946. File via Wikimedia Commons (PD-EU-audio; territorial). Rights metadata: public domain in the EU only; no worldwide recording clearance is claimed.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
@@ -172,6 +175,13 @@
       "title": "Internet Archive — Winterreise (Duhan), disc 1 of 12",
       "url": "https://archive.org/details/Winterreise01Duhan",
       "locator": "metadata.description: “Complete recording from 1928, part 1 of 12”; labels, catalogue number, matrix numbers, pianists and recording date(s); licenseurl creativecommons.org/publicdomain/mark/1.0/; added 25 April 2019. Metadata read at https://archive.org/metadata/Winterreise01Duhan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label",
+      "title": "Internet Archive — label photograph of the scanned copy, disc 1 of 12",
+      "url": "https://archive.org/download/Winterreise01Duhan/Winterreise%2001%20Duhan.jpg",
+      "locator": "Photograph of the label and run-out of the uploader’s copy: imprint, title, performers, catalogue number and run-out matrix and take, as described in the carrier fields. It dates nothing and does not show the copy from which the audio was transferred.",
       "accessed": "2026-10-17"
     },
     {

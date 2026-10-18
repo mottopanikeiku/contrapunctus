@@ -3,14 +3,15 @@ import { readFile } from 'node:fs/promises';
 import { transform } from 'esbuild';
 import { OUT, files, hash, save } from './cache.mjs';
 export async function generateServiceWorker(out = OUT) {
-  const paths = (await files(path.join(out, 'assets'))).filter((file) => /\.(css|js|woff2)$/.test(file) || file === path.join(out, 'assets/listen/programme.json'));
+  const paths = (await files(path.join(out, 'assets'))).filter((file) => /\.(css|js)$/.test(file) || file === path.join(out, 'assets/listen/programme.json'));
   const precache = [];
   paths.push(path.join(out, 'index.html'), path.join(out, 'hall.html'));
   const core = /^(?:index\.html|hall\.html|assets\/listen\/programme\.json|assets\/js\/(?:app|player|site|room)\.js|assets\/css\/(?:style|shared|room)\.css)$/;
   for (const file of paths) {
     const url = path.relative(out, file).split(path.sep).join('/');
-    const font = url.startsWith('assets/fonts/') && !url.includes('.extra.') && !url.includes('cormorant-sc-500.');
-    precache.push({ url, revision: hash(await readFile(file)), precache: core.test(url) || font });
+    // WOFF2 revisions live in their content-hashed filenames. The worker
+    // precaches the initial document's subsets, not every page's alphabet.
+    precache.push({ url, revision: hash(await readFile(file)), precache: core.test(url) });
   }
   const template = await readFile(new URL('./service-worker.js', import.meta.url), 'utf8');
   const build = hash(JSON.stringify(precache) + template).slice(0, 20);

@@ -1,10 +1,10 @@
 {
   "uniqueScoreAttacks": 321,
   "audioDetectedOnsets": 342,
-  "medianAbsoluteOnsetDeviation": 0.056067630813714686,
-  "noteWeightedMedianDeviation": 0.05404515269468391,
+  "medianAbsoluteOnsetDeviation": 0.05231222741041819,
+  "noteWeightedMedianDeviation": 0.04914831805569975,
   "p95AbsoluteOnsetDeviation": 0.5941068361961186,
-  "fractionWithin150ms": 0.7414330218068536,
+  "fractionWithin150ms": 0.7476635514018691,
   "regions": [
     {
       "start": 0.0,
@@ -51,9 +51,9 @@
       "end": 40.0,
       "attacks": 12,
       "median": 0.08319282234681324,
-      "p95": 0.1602671208781963,
-      "max": 0.1653070418271554,
-      "adaptiveMedian": 0.026653232132055393,
+      "p95": 0.1501834701416456,
+      "max": 0.15614354919268436,
+      "adaptiveMedian": 0.024485930658947552,
       "adaptiveP95": 0.06509982105029442
     },
     {
@@ -70,28 +70,28 @@
       "start": 48.0,
       "end": 56.0,
       "attacks": 17,
-      "median": 0.05274451903020605,
-      "p95": 0.3040378570901168,
-      "max": 0.34639130806320395,
+      "median": 0.051288692393576696,
+      "p95": 0.40003785709011763,
+      "max": 0.42639130806320225,
       "adaptiveMedian": 0.043826922315737704,
-      "adaptiveP95": 0.0981314403046298
+      "adaptiveP95": 0.09053252300308827
     },
     {
       "start": 56.0,
       "end": 64.0,
       "attacks": 12,
-      "median": 0.056089506207786854,
+      "median": 0.06986040839165497,
       "p95": 0.49543906463045023,
       "max": 0.5834903234478972,
-      "adaptiveMedian": 0.056089506207786854,
-      "adaptiveP95": 0.07489851477842427
+      "adaptiveMedian": 0.05252001849208554,
+      "adaptiveP95": 0.07783618335729761
     },
     {
       "start": 64.0,
       "end": 72.0,
       "attacks": 13,
       "median": 0.05602347066037794,
-      "p95": 0.1796936314479836,
+      "p95": 0.19523611789757067,
       "max": 0.2007421975519179,
       "adaptiveMedian": 0.05389453919362097,
       "adaptiveP95": 0.06073279318413255
@@ -103,7 +103,7 @@
       "median": 0.039913851361326635,
       "p95": 0.18093231876574828,
       "max": 0.23264376292392797,
-      "adaptiveMedian": 0.04451365329823176,
+      "adaptiveMedian": 0.03695509011797782,
       "adaptiveP95": 0.0806447020445297
     },
     {
@@ -120,51 +120,51 @@
       "start": 88.0,
       "end": 96.0,
       "attacks": 10,
-      "median": 0.09194247286213653,
+      "median": 0.08927880007792766,
       "p95": 0.4895347787700243,
       "max": 0.5833243302015347,
-      "adaptiveMedian": 0.05077451224325813,
+      "adaptiveMedian": 0.044103060938994076,
       "adaptiveP95": 0.11228785150126719
     },
     {
       "start": 96.0,
       "end": 104.0,
       "attacks": 15,
-      "median": 0.06743883981829413,
+      "median": 0.05719190161376275,
       "p95": 0.5064095043961288,
       "max": 0.5099615670888085,
-      "adaptiveMedian": 0.04220927157085441,
+      "adaptiveMedian": 0.03828709974024491,
       "adaptiveP95": 0.08555764264079782
     },
     {
       "start": 104.0,
       "end": 112.0,
       "attacks": 16,
-      "median": 0.06916364457381974,
-      "p95": 0.3719886058074984,
-      "max": 0.45798389462338207,
-      "adaptiveMedian": 0.028498616722949066,
-      "adaptiveP95": 0.06653253277752924
+      "median": 0.05877250625685093,
+      "p95": 0.5283843807905662,
+      "max": 0.5896296541463784,
+      "adaptiveMedian": 0.05142164899477564,
+      "adaptiveP95": 0.06785344811817495
     },
     {
       "start": 112.0,
       "end": 120.0,
       "attacks": 12,
-      "median": 0.05821943350626668,
-      "p95": 0.36495094885151635,
-      "max": 0.4344724874144532,
-      "adaptiveMedian": 0.04815848066853334,
-      "adaptiveP95": 0.06828691741302534
+      "median": 0.034133016215605494,
+      "p95": 0.3379509488515154,
+      "max": 0.37447248741445094,
+      "adaptiveMedian": 0.030495329026571483,
+      "adaptiveP95": 0.059893948468950235
     },
     {
       "start": 120.0,
       "end": 128.0,
       "attacks": 16,
-      "median": 0.04592897890665171,
+      "median": 0.041530263365082476,
       "p95": 0.3605752209580224,
       "max": 0.4859913514578551,
-      "adaptiveMedian": 0.04592897890665171,
-      "adaptiveP95": 0.08081953757987748
+      "adaptiveMedian": 0.04412247433507588,
+      "adaptiveP95": 0.07676359041759895
     },
     {
       "start": 128.0,
@@ -173,18 +173,18 @@
       "median": 0.07529554379331671,
       "p95": 0.549268437040628,
       "max": 0.5941068361961186,
-      "adaptiveMedian": 0.02469034036444384,
+      "adaptiveMedian": 0.028433051510049268,
       "adaptiveP95": 0.08206327131594406
     },
     {
       "start": 136.0,
       "end": 144.0,
       "attacks": 13,
-      "median": 0.04951878681563926,
-      "p95": 0.527470817146195,
+      "median": 0.048065044748085484,
+      "p95": 0.5394708171462012,
       "max": 0.6359409356617505,
       "adaptiveMedian": 0.021994328210865888,
-      "adaptiveP95": 0.06722999658089747
+      "adaptiveP95": 0.06459157166346471
     },
     {
       "start": 144.0,
@@ -213,8 +213,8 @@
       "median": 0.18307889397063093,
       "p95": 0.725988117182203,
       "max": 0.7682123755851649,
-      "adaptiveMedian": 0.03495516966832213,
-      "adaptiveP95": 0.08231684230176058
+      "adaptiveMedian": 0.041021655614287056,
+      "adaptiveP95": 0.07188901934380709
     },
     {
       "start": 168.0,
@@ -265,17 +265,17 @@
       "median": 0.18307889397063093,
       "p95": 0.725988117182203,
       "max": 0.7682123755851649,
-      "adaptiveMedian": 0.03495516966832213,
-      "adaptiveP95": 0.08231684230176058
+      "adaptiveMedian": 0.041021655614287056,
+      "adaptiveP95": 0.07188901934380709
     },
     {
       "start": 88.0,
       "end": 96.0,
       "attacks": 10,
-      "median": 0.09194247286213653,
+      "median": 0.08927880007792766,
       "p95": 0.4895347787700243,
       "max": 0.5833243302015347,
-      "adaptiveMedian": 0.05077451224325813,
+      "adaptiveMedian": 0.044103060938994076,
       "adaptiveP95": 0.11228785150126719
     },
     {
@@ -301,76 +301,76 @@
   ],
   "worstFiveAdaptiveRegions": [
     {
-      "start": 56.0,
-      "end": 64.0,
-      "attacks": 12,
-      "median": 0.056089506207786854,
-      "p95": 0.49543906463045023,
-      "max": 0.5834903234478972,
-      "adaptiveMedian": 0.056089506207786854,
-      "adaptiveP95": 0.07489851477842427
-    },
-    {
       "start": 64.0,
       "end": 72.0,
       "attacks": 13,
       "median": 0.05602347066037794,
-      "p95": 0.1796936314479836,
+      "p95": 0.19523611789757067,
       "max": 0.2007421975519179,
       "adaptiveMedian": 0.05389453919362097,
       "adaptiveP95": 0.06073279318413255
     },
     {
-      "start": 88.0,
-      "end": 96.0,
-      "attacks": 10,
-      "median": 0.09194247286213653,
-      "p95": 0.4895347787700243,
-      "max": 0.5833243302015347,
-      "adaptiveMedian": 0.05077451224325813,
-      "adaptiveP95": 0.11228785150126719
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 12,
+      "median": 0.06986040839165497,
+      "p95": 0.49543906463045023,
+      "max": 0.5834903234478972,
+      "adaptiveMedian": 0.05252001849208554,
+      "adaptiveP95": 0.07783618335729761
     },
     {
-      "start": 112.0,
-      "end": 120.0,
-      "attacks": 12,
-      "median": 0.05821943350626668,
-      "p95": 0.36495094885151635,
-      "max": 0.4344724874144532,
-      "adaptiveMedian": 0.04815848066853334,
-      "adaptiveP95": 0.06828691741302534
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 16,
+      "median": 0.05877250625685093,
+      "p95": 0.5283843807905662,
+      "max": 0.5896296541463784,
+      "adaptiveMedian": 0.05142164899477564,
+      "adaptiveP95": 0.06785344811817495
     },
     {
       "start": 120.0,
       "end": 128.0,
       "attacks": 16,
-      "median": 0.04592897890665171,
+      "median": 0.041530263365082476,
       "p95": 0.3605752209580224,
       "max": 0.4859913514578551,
-      "adaptiveMedian": 0.04592897890665171,
-      "adaptiveP95": 0.08081953757987748
+      "adaptiveMedian": 0.04412247433507588,
+      "adaptiveP95": 0.07676359041759895
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 10,
+      "median": 0.08927880007792766,
+      "p95": 0.4895347787700243,
+      "max": 0.5833243302015347,
+      "adaptiveMedian": 0.044103060938994076,
+      "adaptiveP95": 0.11228785150126719
     }
   ],
   "worstFiveHarmonicRegions": [
     {
       "start": 72.0,
-      "meanCosine": 0.6050294353469887
+      "meanCosine": 0.6038025015543769
     },
     {
       "start": 104.0,
-      "meanCosine": 0.6189046387626297
+      "meanCosine": 0.6374563631023046
     },
     {
       "start": 128.0,
-      "meanCosine": 0.6382062463242624
+      "meanCosine": 0.6379182251291285
     },
     {
       "start": 160.0,
-      "meanCosine": 0.6486260658956385
+      "meanCosine": 0.6461606344632341
     },
     {
       "start": 56.0,
-      "meanCosine": 0.6676632409927741
+      "meanCosine": 0.6690393595988318
     }
   ],
   "sections": [
@@ -383,11 +383,11 @@
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
-      "bar": "27",
+      "bar": "31",
       "occ": 1,
-      "editorial": 80,
-      "aligned": 79.50084759506636,
-      "difference": -0.4991524049336391,
+      "editorial": 92,
+      "aligned": 92.26760786991592,
+      "difference": 0.26760786991592056,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
@@ -396,6 +396,14 @@
       "editorial": 148,
       "aligned": 148.77802910673893,
       "difference": 0.7780291067389271,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "53",
+      "occ": 1,
+      "editorial": 161,
+      "aligned": 161.3847893815885,
+      "difference": 0.3847893815884902,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
@@ -489,7 +497,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.034414522071898546,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.732564339934236,
+  "meanPathChromaCosine": 0.7335638191601974,
   "endAnchor": {
     "scoreQ": 183.0546875,
     "audioSeconds": 191.76,
@@ -522,12 +530,16 @@
       22.0
     ],
     [
-      81.72,
-      80.0
+      93.46,
+      92.0
     ],
     [
       149.12,
       148.0
+    ],
+    [
+      162.0,
+      161.0
     ],
     [
       177.1,
@@ -582,9 +594,9 @@
     }
   ],
   "adaptiveOnsetCount": 1165,
-  "adaptiveMedianDeviation": 0.0389415034504168,
+  "adaptiveMedianDeviation": 0.03828709974024491,
   "gateReasons": [],
-  "elapsedSeconds": 0.45237097796052694,
+  "elapsedSeconds": 0.5916348180035129,
   "dtwSteps": [
     [
       1,
@@ -610,7 +622,7 @@
     "voices": 5
   },
   "published": true,
-  "configSha256": "ace6aeef1d37eb69fb91afba1c0f2cf044ea05b1dd8b724372b300e56fcddab0",
+  "configSha256": "db7e96c1d07954391b870539e08b1fdf8071becfe70824887abba23910f5d2df",
   "sourceDownloads": [
     {
       "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/24_Der_Leiermann_%28Sp%C3%A4tere_Fassung%29/lc5014023.mxl",
@@ -620,8 +632,8 @@
   ],
   "comparison": {
     "previousScore": true,
-    "previousSha256": "9649bce34bc9ee5f8bede06075ab782ab99b02909c48df691c516a90575e72b2",
-    "candidateSha256": "7716c61ebcfd74ed4cb45cbe9b26134554bbc92b18b4a082e775fca228ad0009",
+    "previousSha256": "7716c61ebcfd74ed4cb45cbe9b26134554bbc92b18b4a082e775fca228ad0009",
+    "candidateSha256": "8f5c04f33a0226eb71555e71bf4587d48d873d7e061e420cbbaa62a389ba0dca",
     "byteIdentical": false,
     "sameNoteIdentities": true,
     "sameBarIdentities": true,
@@ -630,7 +642,10 @@
       "noteDurationSeconds": 0.6600000000000001,
       "barSeconds": 0.6599999999999966
     },
-    "metadataFieldsChanged": [],
+    "metadataFieldsChanged": [
+      "repeats",
+      "source"
+    ],
     "toleranceSeconds": 0.001,
     "numericallyEquivalent": false
   },
@@ -639,10 +654,12 @@
     "work/schubert-winterreise-leiermann-24-32.png",
     "work/schubert-winterreise-leiermann-56-64.png",
     "work/schubert-winterreise-leiermann-64-72.png",
+    "work/schubert-winterreise-leiermann-72-80.png",
     "work/schubert-winterreise-leiermann-88-96.png",
     "work/schubert-winterreise-leiermann-93.5904-105.59.png",
-    "work/schubert-winterreise-leiermann-112-120.png",
+    "work/schubert-winterreise-leiermann-104-112.png",
     "work/schubert-winterreise-leiermann-120-128.png",
+    "work/schubert-winterreise-leiermann-128-136.png",
     "work/schubert-winterreise-leiermann-152-160.png",
     "work/schubert-winterreise-leiermann-160-168.png",
     "work/schubert-winterreise-leiermann-169-192.png",
@@ -669,24 +686,71 @@
       "barIdentityMismatches": 0
     },
     "inspectedWindowsSeconds": [
-      [0, 9.28],
-      [93.5904, 105.59],
-      [184.598, 195.5],
-      [152, 160],
-      [56, 64],
-      [169, 192],
-      [72, 80],
-      [104, 112],
-      [128, 136]
+      [
+        0,
+        9.28
+      ],
+      [
+        93.5904,
+        105.59
+      ],
+      [
+        184.598,
+        195.5
+      ],
+      [
+        152,
+        160
+      ],
+      [
+        56,
+        64
+      ],
+      [
+        169,
+        192
+      ],
+      [
+        72,
+        80
+      ],
+      [
+        104,
+        112
+      ],
+      [
+        128,
+        136
+      ],
+      [
+        88,
+        96
+      ],
+      [
+        160,
+        168
+      ],
+      [
+        64,
+        72
+      ]
     ],
-    "inspectedNativeSheetPages": ["sheet/p1.svg", "sheet/p2.svg"],
+    "inspectedNativeSheetPages": [
+      "sheet/p1.svg",
+      "sheet/p2.svg"
+    ],
     "observations": [
       "The later A-minor source is performed once through all 61 bars and all five poem stanzas. The current transfer matches a global lowering of two semitones, with the baritone line sounding another octave below its treble notation. This describes the present transfer, not an established historical key choice.",
       "The original D-sharp3 initial grace becomes sounding C-sharp3. Simultaneous named MIDI staves retain its common 0.0546875-quarter lead exactly once in bar 1; no grace is discarded and no artificial pickup or pitched note is added.",
       "The initial-grace adapter now primes the original multimeasure rests with nonsounding grace skips, before R2.*3 and R2.*2. Native Chromium shows exactly three initial staves, with clefs, two-flat signatures and time signatures on the staves; no glyph was hidden. The visible instruction states that the vocal line sounds one octave lower.",
       "The worst primary-detector window, 152–160 seconds, has median 0.465482744 seconds, versus adaptive median 0.038584724 seconds. Its absolute-pitch overlay preserves the piano contour and bass changes. The weakest-harmony windows also preserve the baritone contour over the piano drone; this is image inspection, not listening.",
       "The final G-minor chord begins at 188.598309931 seconds and its written three-quarter duration maps to 191.76 seconds. These are warped notation timings, not measured note releases.",
-      "The last rest-priming repair changes MIDI track-allocation metadata but not source notes or bars. Relative to the earlier public alignment, the final driver records up to 0.66-second timing differences with unchanged note/bar identities; the fresh candidate's endpoints, held ending, primary/adaptive worst windows and weak harmonic windows were inspected before publication."
+      "The last rest-priming repair changes MIDI track-allocation metadata but not source notes or bars. Relative to the earlier public alignment, the final driver records up to 0.66-second timing differences with unchanged note/bar identities; the fresh candidate's endpoints, held ending, primary/adaptive worst windows and weak harmonic windows were inspected before publication.",
+      "The final publication follows the recording author’s corrected verse-3 guide at 92 seconds and separate 148-second interlude and 161-second final question. Source bar 31 maps to 92.267607870 seconds; bar 53 maps to 161.384789382 seconds. The question spans 153–172 seconds, rather than treating its preceding interlude as the question itself.",
+      "After the last question-guide correction, only 25 note times at 158.263–168.128 seconds changed; source pitch/voice/bar identities are unchanged. The fresh 152–160 and 160–168-second overlays were inspected, as was the final worst-adaptive 64–72-second window (adaptive median 0.053894539194 seconds).",
+      "Public source metadata explicitly discloses the two-semitone global lowering from the later A-minor source to this transfer’s nominal G minor and the additional vocal octave lowering. Historical performed key is not inferred from this transfer.",
+      "VerS accepted the final published pack and current REPORT after independently checking all 15 current diagnostic images, identical public/staged sheet index and whole SVG trees, source/bar identities, metadata and the corrected verse/question guides. The independent review is content/plan/reviews/score-schubert-winterreise-leiermann.json. This is provisional computational/source/image review, not listening; review.by remains null.",
+      "Closing orchestration distinction supplied by VerH and ScoreB: the untransposed source vocal E5 remains tied through the first two beats of bar 58, so only full bars 59–61 are piano alone. In the existing public alignment the final sounding vocal MIDI62 maps from177.853 through180.975 seconds, while bars58/59 begin178.893/182.155 seconds. These are warped source durations, not measured release times. The recording author’s current module now retains voice and piano at178 seconds, adds the piano-alone row at182 seconds, and explicitly identifies bars59–61 in its source locator. VerS subsequently inspected the actual final page-2 system in native Chromium and confirmed the two-beat vocal tie followed by a quarter rest in58 and full vocal rests in59–61, accepting the corrected current caller. This source-label correction leaves the alignment and section anchors unchanged; no alignment rerun or aural-release claim is made."
     ],
     "sheet": {
       "pages": 2,

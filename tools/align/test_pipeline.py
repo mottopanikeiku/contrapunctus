@@ -16,7 +16,7 @@ import numpy as np
 from align import endpoint_anchors, publication_reasons
 from config import HERE, LILYPOND, write_json
 from pipeline import comparison
-from score_events import attack_inventory, crop_notes, extract, prove_notation
+from score_events import attack_inventory, crop_notes, extract, prove_legacy_omissions, prove_notation
 from musicxml_ties import source_timing, route_ties
 from musicxml_tuplets import flatten_tuplets
 from musicxml_structure import mark_initial_grace, preserve_partial_measures, share_endings
@@ -218,6 +218,64 @@ class PitchAnchors(unittest.TestCase):
         self.config['anchors'][0]['window'] = [.2, .6]
         with self.assertRaisesRegex(ValueError, 'increase'):
             endpoint_anchors(self.config, self.events, self.data)
+
+
+class LegacyOmissionProof(unittest.TestCase):
+    def setUp(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        self.directory = Path(temporary.name)
+        source = self.directory / 'sources' / 'example'
+        source.mkdir(parents=True)
+        literal = "upper = { c'2. }\nlower = { c'4 c'4 c'4 }\n"
+        (source / 'unisons.ly').write_text(literal)
+        repairs = [{
+            'kind': 'coincident-unison' if q == 0 else 'held-reattack',
+            'attack': [q, 60], 'durationsQ': [1, 3] if q == 0 else [1],
+            'source': {'file': 'unisons.ly', 'text': literal},
+            'basis': 'Fixture explicitly notates both simultaneous voices',
+        } for q in range(3)]
+        self.cfg = {'id': 'example', 'voices': [{'id': 'upper'}, {'id': 'lower'}],
+                    'extraction': {'comparePublished': {'additions': repairs}}}
+        self.original = Counter({(0., 60): 1})
+        self.legacy = np.array([[0, 3, 60, 0, 64]], dtype=float)
+        self.notes = np.array([[0, 3, 60, 0, 64], [0, 1, 60, 1, 64],
+                               [1, 1, 60, 1, 64], [2, 1, 60, 1, 64]], dtype=float)
+
+    def proof(self):
+        with patch('score_events.HERE', self.directory):
+            return prove_legacy_omissions(self.cfg, self.original, self.legacy, self.notes)
+
+    def test_exact_reference_and_notes_are_not_mutated(self):
+        before = self.notes.copy()
+        reference, evidence = self.proof()
+        self.assertEqual(reference, Counter({(0., 60): 2, (1., 60): 1, (2., 60): 1}))
+        self.assertEqual(sum(item['addedCount'] for item in evidence), 3)
+        self.assertEqual(evidence[1]['sourceHolds'], [{'q': 0., 'durationQ': 3., 'voice': 'upper'}])
+        self.assertEqual(self.original, Counter({(0., 60): 1}))
+        np.testing.assert_array_equal(self.notes, before)
+
+    def test_undeclared_duration_is_rejected(self):
+        self.cfg['extraction']['comparePublished']['additions'][0]['durationsQ'] = [1, 2]
+        with self.assertRaisesRegex(ValueError, 'every current source duration'):
+            self.proof()
+
+    def test_original_coincident_duration_must_survive(self):
+        self.notes[0, 1] = 2
+        self.cfg['extraction']['comparePublished']['additions'][0]['durationsQ'] = [1, 2]
+        with self.assertRaisesRegex(ValueError, 'every original same-onset duration'):
+            self.proof()
+
+    def test_held_reattack_requires_a_strict_current_hold(self):
+        self.cfg['extraction']['comparePublished']['additions'] = self.cfg['extraction']['comparePublished']['additions'][1:]
+        self.notes[0, 1] = 1
+        with self.assertRaisesRegex(ValueError, 'prior same-pitch holds'):
+            self.proof()
+
+    def test_unknown_source_literal_is_rejected(self):
+        self.cfg['extraction']['comparePublished']['additions'][0]['source']['text'] = 'not in source'
+        with self.assertRaisesRegex(ValueError, 'exactly once'):
+            self.proof()
 
 
 class OrnamentNotationProof(unittest.TestCase):

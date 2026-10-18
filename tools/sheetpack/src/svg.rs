@@ -38,33 +38,85 @@ struct Context<'a> {
     mark: Option<Mark<'a>>,
     staff: bool,
     barline: bool,
-}
-
-#[derive(Clone, Copy, Eq, PartialEq, Ord, PartialOrd, Default)]
-struct Paint {
-    no_fill: bool,
-    stroke: Option<i64>,
+    color: &'a str,
+    fill: &'a str,
+    stroke: &'a str,
+    stroke_width: f64,
     round: bool,
 }
 
-impl Paint {
-    fn from_node(node: Node<'_, '_>, t: Transform) -> Result<Self> {
-        let stroke = node.attribute("stroke").filter(|s| *s != "none");
-        Ok(Self {
-            no_fill: node.attribute("fill") == Some("none") || node.has_tag_name("line"),
-            stroke: if stroke.is_some() {
-                Some((number(node, "stroke-width", 1.0)? * t.a.hypot(t.b) * 100.0).round() as i64)
+#[derive(Clone, Copy, Eq, PartialEq, Ord, PartialOrd, Default)]
+enum Ink<'a> {
+    #[default]
+    Current,
+    Paper,
+    Explicit(&'a str),
+}
+
+impl<'a> Ink<'a> {
+    fn resolve(value: &'a str, current: &'a str) -> Self {
+        let value = if value == "currentColor" { current } else { value };
+        if value == "currentColor" || value == "black" { return Self::Current; }
+        match value.parse::<svgtypes::Color>() {
+            Ok(color) if color == svgtypes::Color::black() => Self::Current,
+            Ok(color) if color == svgtypes::Color::white() => Self::Paper,
+            _ => Self::Explicit(value),
+        }
+    }
+
+    fn write(self, out: &mut String) {
+        match self {
+            Self::Current => out.push_str("currentColor"),
+            Self::Paper => out.push_str("var(--paper, #fbf5e6)"),
+            Self::Explicit(value) => escape(value, out),
+        }
+    }
+}
+
+#[derive(Clone, Copy, Eq, PartialEq, Ord, PartialOrd, Default)]
+struct Paint<'a> {
+    no_fill: bool,
+    stroke: Option<i64>,
+    round: bool,
+    fill: Ink<'a>,
+    stroke_color: Ink<'a>,
+}
+
+impl<'a> Paint<'a> {
+    fn from_node(node: Node<'a, '_>, context: &Context<'a>, t: Transform) -> Self {
+        let no_fill = context.fill == "none" || node.has_tag_name("line");
+        let stroked = context.stroke != "none";
+        Self {
+            no_fill,
+            stroke: if stroked {
+                Some((context.stroke_width * t.a.hypot(t.b) * 100.0).round() as i64)
             } else { None },
-            round: node.attribute("stroke-linecap") == Some("round"),
-        })
+            round: context.round,
+            fill: if no_fill { Ink::Current } else { Ink::resolve(context.fill, context.color) },
+            stroke_color: if stroked { Ink::resolve(context.stroke, context.color) } else { Ink::Current },
+        }
     }
 
     fn attributes(self, out: &mut String) {
         if self.no_fill { out.push_str(" fill=\"none\""); }
+        else if self.fill != Ink::Current {
+            out.push_str(" fill=\""); self.fill.write(out); out.push('"');
+        }
         if let Some(width) = self.stroke {
-            write!(out, " stroke=\"currentColor\" stroke-width=\"{}\"", Num(width as f64 / 100.0)).unwrap();
+            out.push_str(" stroke=\""); self.stroke_color.write(out);
+            write!(out, "\" stroke-width=\"{}\"", Num(width as f64 / 100.0)).unwrap();
             if self.round { out.push_str(" stroke-linecap=\"round\" stroke-linejoin=\"round\""); }
         }
+    }
+
+    fn themed_ink(self) -> bool {
+        (self.no_fill || self.fill == Ink::Current)
+            && (self.stroke.is_none() || self.stroke_color == Ink::Current)
+    }
+
+    fn visible_ink(self) -> bool {
+        (!self.no_fill && self.fill != Ink::Paper)
+            || (self.stroke.is_some() && self.stroke_color != Ink::Paper)
     }
 }
 
@@ -75,7 +127,8 @@ struct Glyph {
 }
 
 enum Draw<'a> {
-    Glyph { id: usize, x: f64, y: f64, paint: Paint, mark: Option<Mark<'a>> },
+    Glyph { id: usize, x: f64, y: f64, paint: Paint<'a>, mark: Option<Mark<'a>> },
+    Primitive { path: String, paint: Paint<'a>, mark: Option<Mark<'a>> },
     Element(String),
 }
 
@@ -83,6 +136,11 @@ enum Draw<'a> {
 struct PathKey<'a> {
     path: &'a str,
     linear: [u64; 4],
+}
+
+struct Layer<'a> {
+    start: usize,
+    batches: BTreeMap<Paint<'a>, String>,
 }
 
 struct Page<'a> {
@@ -94,7 +152,7 @@ struct Page<'a> {
     path_cache: HashMap<PathKey<'a>, usize>,
     outlines: HashMap<Rc<str>, usize>,
     draws: Vec<Draw<'a>>,
-    batches: BTreeMap<Paint, String>,
+    layers: Vec<Layer<'a>>,
     scratch: String,
 }
 
@@ -120,9 +178,12 @@ pub fn pack(source: &str, page_index: usize, prefix: &str) -> Result<PackedPage>
     let mut page = Page {
         width: vb[2], rules: Vec::new(), verticals: Vec::new(), notes: Vec::new(),
         glyphs: Vec::new(), path_cache: HashMap::new(), outlines: HashMap::new(),
-        draws: Vec::new(), batches: BTreeMap::new(), scratch: String::with_capacity(128),
+        draws: Vec::new(), layers: vec![Layer { start: 0, batches: BTreeMap::new() }], scratch: String::with_capacity(128),
     };
-    let context = Context { transform: Transform::default(), mark: None, staff: false, barline: false };
+    let context = Context {
+        transform: Transform::default(), mark: None, staff: false, barline: false,
+        color: "currentColor", fill: "currentColor", stroke: "none", stroke_width: 1.0, round: false,
+    };
     page.walk(root, context)?;
     let geometry::PageGeometry { bars, systems } = geometry::bar_boxes(page_index, &mut page.rules, &page.verticals, &page.notes)?;
     let mut svg = String::with_capacity(source.len() / 4);
@@ -133,26 +194,35 @@ pub fn pack(source: &str, page_index: usize, prefix: &str) -> Result<PackedPage>
         write!(svg, "<path id=\"{prefix}-{id}\" d=\"{}\"/>", glyph.path).unwrap();
     }
     svg.push_str("</defs>");
-    // All source ink is opaque currentColor. Coalescing equal-paint geometric
-    // primitives leaves their appearance unchanged and removes thousands of DOM nodes.
-    for (paint, path) in &page.batches {
-        svg.push_str("<path");
-        paint.attributes(&mut svg);
-        write!(svg, " d=\"{path}\"/>").unwrap();
-    }
-    for draw in &page.draws {
-        match draw {
-            Draw::Element(element) => svg.push_str(element),
-            Draw::Glyph { id, x, y, paint, mark } => {
-                let glyph = &page.glyphs[*id];
-                if glyph.count > 1 {
-                    write!(svg, "<use href=\"#{prefix}-{id}\" x=\"{}\" y=\"{}\"", Num(*x), Num(*y)).unwrap();
-                } else {
-                    write!(svg, "<path d=\"{}\" transform=\"translate({} {})\"", glyph.path, Num(*x), Num(*y)).unwrap();
+    // Only opaque themed ink may be reordered. Whiteout and other source colours
+    // end a layer, keeping earlier ink beneath them and later annotations above.
+    for (index, layer) in page.layers.iter().enumerate() {
+        for (paint, path) in &layer.batches {
+            svg.push_str("<path");
+            paint.attributes(&mut svg);
+            write!(svg, " d=\"{path}\"/>").unwrap();
+        }
+        let end = page.layers.get(index + 1).map_or(page.draws.len(), |next| next.start);
+        for draw in &page.draws[layer.start..end] {
+            match draw {
+                Draw::Element(element) => svg.push_str(element),
+                Draw::Primitive { path, paint, mark } => {
+                    svg.push_str("<path");
+                    paint.attributes(&mut svg);
+                    mark_attributes(*mark, &mut svg);
+                    write!(svg, " d=\"{path}\"/>").unwrap();
                 }
-                paint.attributes(&mut svg);
-                mark_attributes(*mark, &mut svg);
-                svg.push_str("/>");
+                Draw::Glyph { id, x, y, paint, mark } => {
+                    let glyph = &page.glyphs[*id];
+                    if glyph.count > 1 {
+                        write!(svg, "<use href=\"#{prefix}-{id}\" x=\"{}\" y=\"{}\"", Num(*x), Num(*y)).unwrap();
+                    } else {
+                        write!(svg, "<path d=\"{}\" transform=\"translate({} {})\"", glyph.path, Num(*x), Num(*y)).unwrap();
+                    }
+                    paint.attributes(&mut svg);
+                    mark_attributes(*mark, &mut svg);
+                    svg.push_str("/>");
+                }
             }
         }
     }
@@ -172,6 +242,15 @@ impl<'a> Page<'a> {
         if matches!(tag, "metadata" | "title" | "desc" | "style") { return Ok(()); }
         if let Some(transform) = node.attribute("transform") {
             context.transform = compose(context.transform, transform.parse()?);
+        }
+        if let Some(value) = node.attribute("color").filter(|v| !matches!(*v, "inherit" | "currentColor")) {
+            context.color = value;
+        }
+        if let Some(value) = node.attribute("fill").filter(|v| *v != "inherit") { context.fill = value; }
+        if let Some(value) = node.attribute("stroke").filter(|v| *v != "inherit") { context.stroke = value; }
+        context.stroke_width = number(node, "stroke-width", context.stroke_width)?;
+        if let Some(value) = node.attribute("stroke-linecap").filter(|v| *v != "inherit") {
+            context.round = value == "round";
         }
         if let Some(class) = node.attribute("class") {
             context.staff |= class.split_whitespace().any(|c| c == "staff");
@@ -222,7 +301,8 @@ impl<'a> Page<'a> {
         self.glyphs[id].count += 1;
         let bounds = self.glyphs[id].bounds.translated(t.e, t.f);
         self.note(context.mark, bounds);
-        self.draws.push(Draw::Glyph { id, x: t.e, y: t.f, paint: Paint::from_node(node, t)?, mark: context.mark });
+        let paint = Paint::from_node(node, &context, t);
+        self.draw(Draw::Glyph { id, x: t.e, y: t.f, paint, mark: context.mark }, paint);
         Ok(())
     }
 
@@ -234,23 +314,26 @@ impl<'a> Page<'a> {
         let (x, y) = point(t, number(node, "x", 0.0)?, number(node, "y", 0.0)?);
         let w = number(node, "width", 0.0)? * t.a;
         let h = number(node, "height", 0.0)? * t.d;
+        let mut paint = Paint::from_node(node, &context, t);
         let b = Bounds { x, y, right: x + w, bottom: y + h };
         self.note(context.mark, b);
-        if context.mark.is_none() && w <= 1.0 && h >= 3.0 {
+        if context.mark.is_none() && paint.visible_ink() && w <= 1.0 && h >= 3.0 {
             self.verticals.push(Vertical { bounds: b, barline: context.barline });
         }
         let ry = number(node, "ry", number(node, "rx", 0.0)?)? * t.d;
         let rx = number(node, "rx", ry / t.d)? * t.a;
         let rx = rx.min(w / 2.0);
         let ry = ry.min(h / 2.0);
-        let mut paint = Paint::from_node(node, t)?;
         let mut path = std::mem::take(&mut self.scratch);
         path.clear();
         if rx > 0.0 && ry > 0.0 && paint.stroke.is_none()
             && (rx - ry).abs() < 0.0001 && (rx * 2.0 - w.min(h)).abs() < 0.001 {
             // LilyPond's stems and ledger lines are capsules. Express them as
             // round-capped strokes instead of four-corner rounded rectangles.
-            paint = Paint { no_fill: true, stroke: Some((w.min(h) * 100.0).round() as i64), round: true };
+            paint = Paint {
+                no_fill: true, stroke: Some((w.min(h) * 100.0).round() as i64), round: true,
+                stroke_color: paint.fill, fill: Ink::Current,
+            };
             if h >= w {
                 write!(path, "M{} {}V{}", Num(x + w / 2.0), Num(y + ry), Num(y + h - ry)).unwrap();
             } else {
@@ -270,6 +353,7 @@ impl<'a> Page<'a> {
 
     fn lines(&mut self, node: Node<'a, '_>, context: Context<'a>) -> Result<()> {
         let t = context.transform;
+        let paint = Paint::from_node(node, &context, t);
         let mut path = std::mem::take(&mut self.scratch);
         path.clear();
         let mut bounds = Bounds::empty();
@@ -277,7 +361,7 @@ impl<'a> Page<'a> {
             let a = point(t, number(node, "x1", 0.0)?, number(node, "y1", 0.0)?);
             let b = point(t, number(node, "x2", 0.0)?, number(node, "y2", 0.0)?);
             bounds.point(a.0, a.1); bounds.point(b.0, b.1);
-            if (a.1 - b.1).abs() < 0.01 && (a.0 - b.0).abs() > self.width * 0.25 {
+            if paint.visible_ink() && (a.1 - b.1).abs() < 0.01 && (a.0 - b.0).abs() > self.width * 0.25 {
                 self.rules.push(Rule { x: a.0.min(b.0), right: a.0.max(b.0), y: a.1, staff: context.staff });
             }
             write!(path, "M{} {}", Num(a.0), Num(a.1)).unwrap();
@@ -291,21 +375,24 @@ impl<'a> Page<'a> {
             path.push('Z');
         }
         self.note(context.mark, bounds);
-        self.primitive(path, Paint::from_node(node, t)?, context.mark);
+        self.primitive(path, paint, context.mark);
         Ok(())
     }
 
-    fn primitive(&mut self, path: String, paint: Paint, mark: Option<Mark<'a>>) {
-        if mark.is_none() {
-            self.batches.entry(paint).or_default().push_str(&path);
+    fn primitive(&mut self, path: String, paint: Paint<'a>, mark: Option<Mark<'a>>) {
+        if mark.is_none() && paint.themed_ink() {
+            self.layers.last_mut().unwrap().batches.entry(paint).or_default().push_str(&path);
+            self.scratch = path;
         } else {
-            let mut out = String::from("<path");
-            paint.attributes(&mut out);
-            mark_attributes(mark, &mut out);
-            write!(out, " d=\"{path}\"/>").unwrap();
-            self.draws.push(Draw::Element(out));
+            self.draw(Draw::Primitive { path, paint, mark }, paint);
         }
-        self.scratch = path;
+    }
+
+    fn draw(&mut self, draw: Draw<'a>, paint: Paint<'a>) {
+        self.draws.push(draw);
+        if !paint.themed_ink() {
+            self.layers.push(Layer { start: self.draws.len(), batches: BTreeMap::new() });
+        }
     }
 
     fn text(&mut self, node: Node<'a, '_>, context: Context<'a>) -> Result<()> {
@@ -317,10 +404,14 @@ impl<'a> Page<'a> {
             write!(out, " transform=\"matrix({} {} {} {} {} {})\"", Num(t.a), Num(t.b), Num(t.c), Num(t.d), Num(t.e), Num(t.f)).unwrap();
         }
         text_attributes(node, &mut out)?;
+        // Text keeps its linear transform; unlike baked paths its stroke width
+        // must not be scaled a second time here.
+        let paint = Paint::from_node(node, &context, Transform::default());
+        paint.attributes(&mut out);
         out.push_str(" style=\"white-space:pre\">");
         text_children(node, &mut out)?;
         out.push_str("</text>");
-        self.draws.push(Draw::Element(out));
+        self.draw(Draw::Element(out), paint);
         Ok(())
     }
 }

@@ -1,0 +1,637 @@
+{
+  "uniqueScoreAttacks": 195,
+  "audioDetectedOnsets": 196,
+  "medianAbsoluteOnsetDeviation": 0.03606689342403513,
+  "noteWeightedMedianDeviation": 0.035441609977322486,
+  "p95AbsoluteOnsetDeviation": 0.14700593820861763,
+  "fractionWithin150ms": 0.9487179487179487,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 15,
+      "median": 0.030504535147392264,
+      "p95": 0.08219716553287858,
+      "max": 0.10909637188208632,
+      "adaptiveMedian": 0.0442766439909299,
+      "adaptiveP95": 0.09380714285714178
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 14,
+      "median": 0.0435085034013607,
+      "p95": 0.11446303854875389,
+      "max": 0.1374591836734691,
+      "adaptiveMedian": 0.055118480725623975,
+      "adaptiveP95": 0.12607301587301745
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 15,
+      "median": 0.03380839002267422,
+      "p95": 0.14695306122448562,
+      "max": 0.15031179138321704,
+      "adaptiveMedian": 0.045418367346936606,
+      "adaptiveP95": 0.12883945578231387
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 16,
+      "median": 0.03313832199546596,
+      "p95": 0.08367091836733831,
+      "max": 0.10774489795918285,
+      "adaptiveMedian": 0.0389302721088427,
+      "adaptiveP95": 0.08059835600906684
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 17,
+      "median": 0.030885487528344413,
+      "p95": 0.08974126984126223,
+      "max": 0.1665022675736978,
+      "adaptiveMedian": 0.04028004535146579,
+      "adaptiveP95": 0.09939931972788962
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 15,
+      "median": 0.09623129251700391,
+      "p95": 0.47548004535147453,
+      "max": 0.5885022675737019,
+      "adaptiveMedian": 0.07113038548752115,
+      "adaptiveP95": 0.22181831774376726
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 18,
+      "median": 0.03170408163265037,
+      "p95": 0.11054801587301627,
+      "max": 0.14062471655329034,
+      "adaptiveMedian": 0.04331405895691276,
+      "adaptiveP95": 0.10997465986394551
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 18,
+      "median": 0.03585430839002157,
+      "p95": 0.07039659863945644,
+      "max": 0.07108276643990052,
+      "adaptiveMedian": 0.04742403628117842,
+      "adaptiveP95": 0.08271349206348369
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 22,
+      "median": 0.0395555555555589,
+      "p95": 0.11902641723355811,
+      "max": 0.14558914399093226,
+      "adaptiveMedian": 0.05748356009070221,
+      "adaptiveP95": 0.14108537414965663
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 16,
+      "median": 0.042342403628126135,
+      "p95": 0.21094545422333866,
+      "max": 0.4869716553288015,
+      "adaptiveMedian": 0.05230782312924731,
+      "adaptiveP95": 0.11179228670635055
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 16,
+      "median": 0.027772675736976282,
+      "p95": 0.21639058956915136,
+      "max": 0.35639569160998974,
+      "adaptiveMedian": 0.04495861678005042,
+      "adaptiveP95": 0.13800566893423039
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 10,
+      "median": 0.09834013605439651,
+      "p95": 0.22139807256238608,
+      "max": 0.29070521541956396,
+      "adaptiveMedian": 0.10414512471653126,
+      "adaptiveP95": 0.23300804988665558
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 2,
+      "median": 0.012832199546480183,
+      "p95": 0.016477097505665485,
+      "max": 0.016882086167797183,
+      "adaptiveMedian": 0.01863718820861493,
+      "adaptiveP95": 0.030665759637180656
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 1,
+      "median": 0.038263038548748796,
+      "p95": 0.038263038548748796,
+      "max": 0.038263038548748796,
+      "adaptiveMedian": 0.031396825396825534,
+      "adaptiveP95": 0.031396825396825534
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 10,
+      "median": 0.09834013605439651,
+      "p95": 0.22139807256238608,
+      "max": 0.29070521541956396,
+      "adaptiveMedian": 0.10414512471653126,
+      "adaptiveP95": 0.23300804988665558
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 15,
+      "median": 0.09623129251700391,
+      "p95": 0.47548004535147453,
+      "max": 0.5885022675737019,
+      "adaptiveMedian": 0.07113038548752115,
+      "adaptiveP95": 0.22181831774376726
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 14,
+      "median": 0.0435085034013607,
+      "p95": 0.11446303854875389,
+      "max": 0.1374591836734691,
+      "adaptiveMedian": 0.055118480725623975,
+      "adaptiveP95": 0.12607301587301745
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 16,
+      "median": 0.042342403628126135,
+      "p95": 0.21094545422333866,
+      "max": 0.4869716553288015,
+      "adaptiveMedian": 0.05230782312924731,
+      "adaptiveP95": 0.11179228670635055
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 22,
+      "median": 0.0395555555555589,
+      "p95": 0.11902641723355811,
+      "max": 0.14558914399093226,
+      "adaptiveMedian": 0.05748356009070221,
+      "adaptiveP95": 0.14108537414965663
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 10,
+      "median": 0.09834013605439651,
+      "p95": 0.22139807256238608,
+      "max": 0.29070521541956396,
+      "adaptiveMedian": 0.10414512471653126,
+      "adaptiveP95": 0.23300804988665558
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 15,
+      "median": 0.09623129251700391,
+      "p95": 0.47548004535147453,
+      "max": 0.5885022675737019,
+      "adaptiveMedian": 0.07113038548752115,
+      "adaptiveP95": 0.22181831774376726
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 22,
+      "median": 0.0395555555555589,
+      "p95": 0.11902641723355811,
+      "max": 0.14558914399093226,
+      "adaptiveMedian": 0.05748356009070221,
+      "adaptiveP95": 0.14108537414965663
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 14,
+      "median": 0.0435085034013607,
+      "p95": 0.11446303854875389,
+      "max": 0.1374591836734691,
+      "adaptiveMedian": 0.055118480725623975,
+      "adaptiveP95": 0.12607301587301745
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 16,
+      "median": 0.042342403628126135,
+      "p95": 0.21094545422333866,
+      "max": 0.4869716553288015,
+      "adaptiveMedian": 0.05230782312924731,
+      "adaptiveP95": 0.11179228670635055
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 96.0,
+      "meanCosine": 0.41689351632368093
+    },
+    {
+      "start": 64.0,
+      "meanCosine": 0.8098327769627679
+    },
+    {
+      "start": 48.0,
+      "meanCosine": 0.8194697177741397
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.8195371772270982
+    },
+    {
+      "start": 24.0,
+      "meanCosine": 0.8264384886853771
+    }
+  ],
+  "sections": [
+    {
+      "bar": "13",
+      "occ": 1,
+      "editorial": 50,
+      "aligned": 51.491,
+      "difference": 1.4909999999999997,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "23",
+      "occ": 1,
+      "editorial": 94,
+      "aligned": 94.31899999999993,
+      "difference": 0.31899999999993156,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "0",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.06,
+      "nearestOnsetDeviation": 0.0019501133786848021
+    },
+    {
+      "label": "middle",
+      "bar": "12",
+      "occ": 1,
+      "scoreQ": 47.5,
+      "audioSeconds": 50.2025,
+      "nearestOnsetDeviation": 0.022261904761904816
+    },
+    {
+      "label": "last",
+      "bar": "25",
+      "occ": 1,
+      "scoreQ": 97.0,
+      "audioSeconds": 105.926,
+      "nearestOnsetDeviation": 0.038263038548748796
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "25",
+      "occ": 1,
+      "midi": 28,
+      "voice": "lower",
+      "durationQ": 3.0,
+      "onset": 105.926,
+      "offset": 113.96,
+      "durationSeconds": 8.033999999999992
+    },
+    {
+      "bar": "25",
+      "occ": 1,
+      "midi": 40,
+      "voice": "lower",
+      "durationQ": 3.0,
+      "onset": 105.926,
+      "offset": 113.96,
+      "durationSeconds": 8.033999999999992
+    },
+    {
+      "bar": "25",
+      "occ": 1,
+      "midi": 52,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 105.926,
+      "offset": 113.96,
+      "durationSeconds": 8.033999999999992
+    },
+    {
+      "bar": "25",
+      "occ": 1,
+      "midi": 55,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 105.926,
+      "offset": 113.96,
+      "durationSeconds": 8.033999999999992
+    },
+    {
+      "bar": "25",
+      "occ": 1,
+      "midi": 59,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 105.926,
+      "offset": 113.96,
+      "durationSeconds": 8.033999999999992
+    },
+    {
+      "bar": "25",
+      "occ": 1,
+      "midi": 64,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 105.926,
+      "offset": 113.96,
+      "durationSeconds": 8.033999999999992
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.05849999999999511,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.8167503324576944,
+  "endAnchor": {
+    "scoreQ": 100.0,
+    "audioSeconds": 113.96,
+    "decodedDuration": 115.04603174603174,
+    "activeEndMinus45dB": 113.95192743764173
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "chopin-prelude-op28-4-paquet",
+  "tuningHz": 441.78,
+  "audioSha256": "bc8c9ba55f67d2bee70b82fc6552c45801c857fb4852e4a8b1e59ae84d5ee07f",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Peters, Herrmann Scholtz, 1900b. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/chopin-prelude-op28-4-paquet.mjs and cache/analysis/chopin-prelude-op28-4-paquet.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Compile the complete source-defined MIDIrechts/MIDIlinks playback realization, including the four bar-16 turn attacks, while engraving the unchanged printed rechts/links and turn glyph. Explicit endQ100 retains the printed three-quarter final bar rather than the playback-only six-quarter final hold.",
+    "Seven exact syntax-only repairs apply to disposable copies; immutable downloads remain unchanged. Dual multiset proof requires all 604 published playback attacks and separately proves the 600 printed attacks against that inventory minus exactly the four declared, source-pinned ornament attacks. Different wrappers do not authorize any other pitch/onset difference.",
+    "Verified derivative syntax repair in chp-28-04-a4.ly: Replace the removed quarter-beam Scheme API with the equivalent quarter-unit grouping properties; no pitch or duration changes.",
+    "Verified derivative syntax repair in chp-28-04-a4.ly: Give the complete printed right-hand expression its original named Voice; the obsolete bare Voice selector otherwise consumes a property command instead of music. The containing up Staff remains in the unchanged staff expression.",
+    "Verified derivative syntax repair in chp-28-04-a4.ly: Give the complete printed left-hand expression its original named Voice inside the containing down Staff, retaining cross-staff destinations and all notes.",
+    "Verified derivative syntax repair in chp-28-04-a4.ly: Rename the source's custom dim. text to avoid convert-ly mistaking its uses for the obsolete built-in diminuendo music command.",
+    "Verified derivative syntax repair in chp-28-04-a4.ly: Retain the exact printed dim. markup at bar 18 under its non-colliding name.",
+    "Verified derivative syntax repair in chp-28-04-a4.ly: Give the complete original playback right-hand expression its named Voice, retaining the source-defined turn realization and all playback attacks.",
+    "Verified derivative syntax repair in chp-28-04-a4.ly: Give the complete original playback left-hand expression its named Voice, without changing pitches, note onsets, or durations.",
+    "Source-encoded ornament realization retained in playback; separate printed-notation inventory proved: The printed bar-16 A-sharp4 carries a turn with a double-sharp lower auxiliary. The original MIDIrechts explicitly realizes B4/A-sharp4/G-double-sharp4/A-sharp4 in four 64th notes. Playback must match all 604 published attacks; separately compiled printed notation must match exactly that inventory minus these four ornament attacks."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      53.66,
+      50.0
+    ],
+    [
+      101.36585365853658,
+      94.0
+    ],
+    [
+      105.927,
+      101.2
+    ],
+    [
+      110.483,
+      105.92
+    ]
+  ],
+  "sourceChecks": {
+    "derivativePatches": [
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "ViertelBalken = { #(override-auto-beam-setting '(end * * * *) 1 4 'Staff)\n  #(override-auto-beam-setting '(end * * * *) 1 2 'Staff)\n  #(override-auto-beam-setting '(end * * * *) 3 4 'Staff) }",
+        "new": "ViertelBalken = { \\set Staff.baseMoment = #(ly:make-moment 1 4) \\set Staff.beatStructure = #'(1 1 1 1) \\set Staff.beamExceptions = #'() }",
+        "basis": "Replace the removed quarter-beam Scheme API with the equivalent quarter-unit grouping properties; no pitch or duration changes."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nrechts = \\context Staff \\relative c'{\n  \\context Voice = \"rechts\"",
+        "new": "\nrechts = \\context Voice = \"rechts\" \\relative c'{",
+        "basis": "Give the complete printed right-hand expression its original named Voice; the obsolete bare Voice selector otherwise consumes a property command instead of music. The containing up Staff remains in the unchanged staff expression."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nlinks =  \\context Staff \\relative c{\n  \\context Voice = \"links\"",
+        "new": "\nlinks = \\context Voice = \"links\" \\relative c{",
+        "basis": "Give the complete printed left-hand expression its original named Voice inside the containing down Staff, retaining cross-staff destinations and all notes."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "dim = \\markup { \\italic dim. }",
+        "new": "cpDimText = \\markup { \\italic dim. }",
+        "basis": "Rename the source's custom dim. text to avoid convert-ly mistaking its uses for the obsolete built-in diminuendo music command."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "s s s s \\! #(Text 0 -.8 #t) s4-\\dim s  % Takt 18",
+        "new": "s s s s \\! #(Text 0 -.8 #t) s4-\\cpDimText s  % Takt 18",
+        "basis": "Retain the exact printed dim. markup at bar 18 under its non-colliding name."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nMIDIrechts = \\context Staff \\relative c'{\n  \\context Voice = \"rechts\"",
+        "new": "\nMIDIrechts = \\context Voice = \"rechts\" \\relative c'{",
+        "basis": "Give the complete original playback right-hand expression its named Voice, retaining the source-defined turn realization and all playback attacks."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nMIDIlinks =  \\context Staff \\relative c{\n  \\context Voice = \"links\"",
+        "new": "\nMIDIlinks = \\context Voice = \"links\" \\relative c{",
+        "basis": "Give the complete original playback left-hand expression its named Voice, without changing pitches, note onsets, or durations."
+      }
+    ],
+    "crop": {
+      "offsetQ": 0,
+      "endQ": 100,
+      "policy": "Exclude later attacks and clip sounding durations at the explicit source boundary"
+    },
+    "pitchOnsetInventory": {
+      "kind": "multiset",
+      "matched": true,
+      "count": 604
+    },
+    "notationProof": {
+      "matched": true,
+      "publishedAttacks": 604,
+      "notatedAttacks": 600,
+      "realizedOrnamentAttacks": 4,
+      "ornaments": [
+        {
+          "source": {
+            "file": "chp-28-04-a4.ly",
+            "text": "ais4\n  \\turn^\\markup { \\doublesharp }\n  g' fis8. e16"
+          },
+          "attacks": [
+            [
+              62.75,
+              71
+            ],
+            [
+              62.8125,
+              70
+            ],
+            [
+              62.875,
+              69
+            ],
+            [
+              62.9375,
+              70
+            ]
+          ],
+          "basis": "The printed bar-16 A-sharp4 carries a turn with a double-sharp lower auxiliary. The original MIDIrechts explicitly realizes B4/A-sharp4/G-double-sharp4/A-sharp4 in four 64th notes. Playback must match all 604 published attacks; separately compiled printed notation must match exactly that inventory minus these four ornament attacks."
+        }
+      ]
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.06,
+      "peakSeconds": 0.1,
+      "window": [
+        0,
+        0.35
+      ],
+      "midiPitches": [
+        59
+      ],
+      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration."
+    },
+    {
+      "label": "bar-24-post-rest-chord",
+      "scoreQ": 93.0,
+      "audioSeconds": 101.2,
+      "peakSeconds": 101.26,
+      "window": [
+        101.1,
+        101.4
+      ],
+      "midiPitches": [
+        35,
+        47,
+        52,
+        54,
+        59,
+        64
+      ],
+      "basis": "The complete B1/B2/E3/F-sharp3/B3/E4 chord clearly enters near 101.2 s after the notated fermata rest. The unconstrained warp placed both closing bar-24 chords roughly half a second early and failed the 96–104 s local gate. This inspected source-pitch fitting constraint retains the source rest and all three final chords; it is not independent or aural validation."
+    },
+    {
+      "label": "last",
+      "scoreQ": 97.0,
+      "audioSeconds": 105.92,
+      "peakSeconds": 105.98,
+      "window": [
+        105,
+        109
+      ],
+      "midiPitches": [
+        28,
+        40,
+        52,
+        55,
+        59,
+        64
+      ],
+      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration."
+    }
+  ],
+  "adaptiveOnsetCount": 282,
+  "adaptiveMedianDeviation": 0.04798979591836172,
+  "gateReasons": [],
+  "elapsedSeconds": 0.35977699601789936,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 26,
+    "notes": 604,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "d442f0603f39b3dbd397a4b22c2336637b6dfdfb45a229c7fb34b168aae0615c",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a-lys.zip",
+      "file": "Chop-28-4a-lys.zip",
+      "sha256": "1f35c19d3bfdfeeac0a9c1a283aeb3a3cc8f98acb3f49593c4b25fcf6b161497"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a.mid",
+      "file": "Chop-28-4a.mid",
+      "sha256": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/chopin-prelude-op28-4-paquet-0-8.06.png",
+    "work/chopin-prelude-op28-4-paquet-8-16.png",
+    "work/chopin-prelude-op28-4-paquet-40-48.png",
+    "work/chopin-prelude-op28-4-paquet-46.2025-58.2025.png",
+    "work/chopin-prelude-op28-4-paquet-64-72.png",
+    "work/chopin-prelude-op28-4-paquet-72-80.png",
+    "work/chopin-prelude-op28-4-paquet-88-96.png",
+    "work/chopin-prelude-op28-4-paquet-97.2-109.2.png",
+    "work/chopin-prelude-op28-4-paquet-101.926-113.926.png"
+  ]
+}

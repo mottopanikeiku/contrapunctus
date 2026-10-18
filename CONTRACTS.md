@@ -78,6 +78,7 @@ An empty `relations` array is a valid, honest answer.
 - Reproducible publication uses `node tools/score.mjs <id> [--publish]` and the recording-specific `tools/align/pieces/<id>.json`. Only an existing `content/listen/<id>.mjs` is eligible. Source URLs and SHA-256 digests, selected movement/variables, sounding-pitch corrections, performed bar order and endpoint inspection windows are explicit inputs; originals remain unchanged.
 - Publication requires a primary unique-attack median ≤0.15 s, first/middle/last onset deviation ≤0.5 s, every nonempty eight-second local-normalised median ≤0.3 s, no collapsed notes/attacks, and a valid rounded score contract. A numeric pass never overrides an observed wrong edition, pitch or repeat order and never implies aural review.
 - Fresh candidate/check JSON and pitch-energy PNG overlays remain in `tools/align/work/`. Without `--publish`, public files are untouched; with it, engraving and sheetpacking must succeed before replacing `score.json` and `sheet/`. Notehead/rest `data-bar` and `data-pos` retain printed score coordinates; `bars[].occ` distinguishes repeated traversals. Source licences remain distinct from recording rights.
+- Engraved whiteout is paper, not ink: source white masks use `var(--paper, #fbf5e6)` and retain their order above earlier ink and below later annotations. Ordinary black ink inherits `currentColor`; other explicit source colours survive packing. Paper masks do not create barline geometry.
 
 ## Recording dossier: `content/dossiers/<id>.json`
 
@@ -277,7 +278,11 @@ or an activated Hall visit, never on passive navigation prefetch.
 The router coalesces hover/focus/touch prefetches with clicks, bounds its HTML cache
 to eight entries/four MB/ten minutes, and keeps inactive parsed stylesheets with
 `media="not all"` for return navigation. Relative stylesheet URLs are made absolute
-before history changes. Only the page body outside `#cp-persist` is replaced.
+before history changes. Body swaps leave `#cp-persist` untouched.
+Inline `style[data-cp-fonts]` blocks are replaced at commit with the incoming page's
+ordered font declarations. Their `url(...)` values are resolved against their
+page's base URI both at startup and before incoming styles are inserted, so a
+history change cannot retarget font requests. Critical inline CSS is still removed.
 Page modules read their version from the literal `data-<module-name>` attribute,
 including hyphenated names such as `data-atlas-map`, with the site version as fallback.
 Mount selectors using those same data attributes must search the body subtree,
@@ -294,6 +299,13 @@ so CSS minification does not leave Chrome with only the prefixed spelling.
 
 `node tools/perf-preview.mjs 8768` serves the current build locally with gzip and
 GitHub Pages' 600-second cache lifetime for browser transfer accounting.
+An optional second positional argument chooses a snapshot root. Add
+`--http2 --key <cache-only-test-key.pem> --cert <cache-only-test-cert.pem>` for
+TLS with HTTP/2 ALPN and HTTP/1 fallback; gzip and cache headers are unchanged.
+Use a newly generated self-signed localhost certificate under `cache/`, never
+production credentials. A dedicated measurement Chrome can trust only that
+certificate with `--ignore-certificate-errors-spki-list=<base64-SHA256-of-SPKI>`.
+Matched baseline/after measurements must use the same protocol and server options.
 
 
 

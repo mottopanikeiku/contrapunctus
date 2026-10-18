@@ -1,25 +1,27 @@
 {
   "id": "schumann-kinderszenen-happiness",
-  "verdict": "fix",
+  "verdict": "pass",
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, provenance, report and visual review; not aural review.",
-  "defects": [{"basis": "MEAS", "code": "MISSING_SOURCE_A2_REATTACKS", "evidence": "The complete-source audit /tmp/score-a-curious-happiness-voice-audit.json found independently written bassvoices A2 quarter-note reattacks in printed bars 4 and 12 suppressed by legacy shared-channel MIDI. The 93 coincident unisons and two modern grace-clock moves are separately classified, not excuses for missing distinct attacks.", "fix": "Regenerate all four isolated named piano source voices, preserving the A2 reattacks and their overlapping written holds in every performed occurrence. Keep the half-open partial-bar return order, recompute unchanged gates, inspect fresh overlays, re-resolve the nine listener pointers, and update counts/report/source-voice metadata."}],
+  "defects": [],
   "resolution": {
     "basis": "MEAS",
-    "finding": "The listener's obsolete 46-second return, strain estimate and pickup wording were corrected; nine bar pointers resolved against the earlier publication. Those caller repairs remain resolved independently of the newly discovered source-attack omission, which now requires complete-voice republication."
+    "finding": "The corrected AABAB listener interpretation survives complete-source republication. All ten current bar pointers resolve. First B is bar 17/1 at 33.637 s, returning bar 9/2 at 52.548 s, and second B bar 17/2 at 69.369 s. The legacy A2 omissions are now repaired by unchanged isolated source voices; no compressed second A cycle or invented extra repeat is needed."
   },
   "report": {
     "basis": "MEAS",
     "path": "tools/align/REPORT.md#schumann-kinderszenen-happiness",
-    "finding": "The earlier 673-note publication agreed with timing gates and the 42-occurrence/81-quarter performed order, but its legacy source MIDI suppressed two independent A2 attacks. Update this inventory/report after complete four-source-voice regeneration; passing aggregate onset gates alone does not establish source fidelity."
+    "finding": "Revised report agrees with recomputed gates, 832 notes / four unchanged written voices across two piano staves, 42 occurrences / 81 quarters, partial-bar return and real pickup packaging. It separately classifies two missing canonical A2 attacks, coincident unisons, grace-clock changes and staccato/grace-adjacent MIDI duration policy."
   },
   "gates": {
     "basis": "MEAS",
     "checks": "tools/align/work/schumann-kinderszenen-happiness-checks.json",
-    "primaryMedianSeconds": 0.04576719576720478,
+    "primaryMedianSeconds": 0.04548500881834361,
     "primaryP95Seconds": 0.2802464096749768,
     "maximumAnchorDeviationSeconds": 0.04576719576720478,
-    "maximumLocalRegionMedianSeconds": 0.05211892164271603,
+    "maximumLocalRegionMedianSeconds": 0.05026958931721737,
+    "minimumPublishedNoteDurationSeconds": 0.096,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.09600000000000009,
     "zeroOrNegativeDurations": 0,
     "collapsedAttackIntervals": 0,
     "roundedCollapsedAttackIntervals": 0,
@@ -32,27 +34,28 @@
     "sheetPages": 1,
     "svgBarSetEqualsIndex": true,
     "unresolvedScoreBars": [],
-    "barAnchoredListenPointers": 9,
+    "barAnchoredListenPointers": 10,
     "unresolvedListenPointers": [],
-    "finding": "Actual SVG/index bars are 0–24, including real pickup glyphs in bar 0. Score order is 0–24, then the last 0.5 quarter of bar 8 and bars 9–24. All 673 note indices resolve, durations are positive, and bar occurrence times strictly increase. The single engraved page was visually inspected. All six bar-anchored cues and three transition anchors resolve to exactly one published bar occurrence and agree with the corrected repeat description."
+    "finding": "Actual SVG/index sets remain 0–24, including real pickup glyphs. Order is 0–24, then the last 0.5 quarter of bar 8 and bars 9–24. All 832 note indices resolve, durations are positive and bar times strictly increase. The complete republished page was inspected. All ten current caller anchors resolve uniquely; printed source has no repeat directive to restore, so the additional performed traversal remains explicitly inferred rather than fabricated as original notation."
   },
   "overlays": {
     "basis": "MEAS",
     "inspected": [
+      "work/schumann-kinderszenen-happiness-0-8.png",
       "work/schumann-kinderszenen-happiness-0-8.4.png",
       "work/schumann-kinderszenen-happiness-8-16.png",
+      "work/schumann-kinderszenen-happiness-16-24.png",
       "work/schumann-kinderszenen-happiness-20-36.png",
       "work/schumann-kinderszenen-happiness-37.9707-49.9707.png",
       "work/schumann-kinderszenen-happiness-40-48.png",
       "work/schumann-kinderszenen-happiness-40-56.png",
-      "work/schumann-kinderszenen-happiness-48-56.png",
       "work/schumann-kinderszenen-happiness-56-64.png",
       "work/schumann-kinderszenen-happiness-62-78.png",
       "work/schumann-kinderszenen-happiness-64-72.png",
       "work/schumann-kinderszenen-happiness-80-88.png",
       "work/schumann-kinderszenen-happiness-83.8122-89.9614.png"
     ],
-    "finding": "No gross pitch/order mismatch identified. Both A and B returns have corresponding melodic/bass contours; no second compressed A cycle is required on the return. Earlier coarse 46-second return inference is superseded by this evidence."
+    "finding": "All thirteen fresh complete-voice overlays inspected; no gross pitch/order mismatch identified. Both A and B returns retain corresponding contours. The genuine first attack 0.4 s and final attack 87.812222 s remain distinct from neighbouring figures; mapped written durations are not measured key releases."
   },
   "source": {
     "basis": "EXT",
@@ -64,9 +67,10 @@
   },
   "version": {
     "basis": "INFERENCE",
-    "finding": "Original piano scoring with AABAB performed order: source writes A+A+B, followed here by the returning pickup and A+B rather than a complete second A+A+B traversal. Source staff aggregation does not identify separately recovered performed voices.",
+    "finding": "Original piano scoring with inferred AABAB performance: source writes A+A+B, followed here by returning pickup and A+B rather than another full A+A+B. Four named written voices across the original two staves are source identities, not separately recovered audio voices.",
     "physicalPerformingEdition": "Unknown; the source edition is identified, not claimed as Donald Betts’s performing copy."
   },
+  "sourceInventoryAudit": {"basis": "MEAS", "finding": "Generated rows independently confirm A2 quarter reattacks at performed q7.5/q23.5/q56.0, all lasting 1Q in written bass-upper voice 2 beneath the independent held voice. These are two genuine missing canonical attacks, not the 93 coincident source-voice unisons. Modern A1 grace-clock movements and written 2.5Q versus grace-adjacent rendered 2.385417Q ties are explicitly separated from the repaired reattack loss in the report."},
   "status": {
     "basis": "MEAS",
     "value": "provisional",
