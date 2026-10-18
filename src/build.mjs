@@ -22,6 +22,8 @@ const { eras, composers, pages, site, art, listens: allListens, precursors = [],
 // Publication gate: a recording goes live when it was on the site before the expansion (content/plan/baseline.json)
 // or its independent review passed (content/plan/reviews/<id>.json, verdict "pass"). Everything else waits.
 const baseline = new Set(JSON.parse(await readFile(path.join(ROOT, 'content/plan/baseline.json'), 'utf8').catch(() => '[]')));
+const BASE_SCORES = new Set(['satie-gymnopedie-1', 'beethoven-5-first', 'bach-wtc1-fugue-b-minor', 'schubert-impromptu-gflat']);
+const reviewedScore = (id) => { try { return JSON.parse(readFileSync(path.join(ROOT, 'content/plan/reviews', `score-${id}.json`), 'utf8')).verdict === 'pass'; } catch { return false; } };
 const reviewed = (id) => { try { return JSON.parse(readFileSync(path.join(ROOT, 'content/plan/reviews', `${id}.json`), 'utf8')).verdict === 'pass'; } catch { return false; } };
 const listens = allListens.filter((l) => baseline.has(l.id) || reviewed(l.id));
 const held = allListens.filter((l) => !baseline.has(l.id) && !reviewed(l.id)).map((l) => l.id);
@@ -793,8 +795,10 @@ async function programme() {
     const prose = (html) => termify(tctx, `<p>${rich(ctx, html)}</p>`).replace(/^<p>|<\/p>$/g, '');
     const s = streams[sourceKey(l.source)];
     const p = c.portrait.file ? art[normalizeTitle(c.portrait.file)] : null;
-    const score = await readJsonOr(path.join(OUT, 'assets/data', l.id, 'score.json'));
-    const hasSheet = existsSync(path.join(OUT, 'assets/data', l.id, 'sheet/index.json'));
+    // Score alignments are shown only once independently reviewed (the four original alignments predate reviews).
+    const scoreOk = BASE_SCORES.has(l.id) || reviewedScore(l.id);
+    const score = scoreOk ? await readJsonOr(path.join(OUT, 'assets/data', l.id, 'score.json')) : null;
+    const hasSheet = scoreOk && existsSync(path.join(OUT, 'assets/data', l.id, 'sheet/index.json'));
     const barTime = (bar) => {
       if (!bar || !score) return null;
       const b = score.bars.find((x) => x.n === String(bar.n) && x.occ === (bar.occ ?? 1));

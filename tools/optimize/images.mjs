@@ -10,7 +10,7 @@ export async function optimizeImages(out = OUT) {
   sharp.concurrency(1);
   const art = JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'));
   let generated = 0;
-  const formats = {}, report = [];
+  const report = [];
   await eachLimit([...new Map(Object.values(art).map((image) => [image.src, image])).values()], 2, async (image) => {
     const original = await readFile(path.join(out, image.src));
     const digest = hash(original), candidates = [];
@@ -43,10 +43,10 @@ export async function optimizeImages(out = OUT) {
       }
       candidates.push({ webp, encoded, acceptable, mse, webpBytes: input.length });
     }
-    const useAvif = candidates.every((candidate) => candidate.acceptable);
-    formats[image.src] = useAvif;
+    const useAvif = candidates.some((candidate) => candidate.acceptable);
     const published = new Set();
-    if (useAvif) for (const candidate of candidates) {
+    for (const candidate of candidates) {
+      if (!candidate.acceptable) continue;
       const avif = candidate.webp.replace(/\.webp$/, '.avif');
       await save(path.join(out, avif), candidate.encoded);
       published.add(avif);
@@ -61,5 +61,5 @@ export async function optimizeImages(out = OUT) {
   });
   report.sort((a, b) => a.image.localeCompare(b.image));
   await save(path.join(CACHE, 'images.json'), JSON.stringify(report));
-  return { originals: Object.keys(art).length, generated, avifPictures: Object.values(formats).filter(Boolean).length, formats: Object.fromEntries(report.map((image) => [image.image, image.avif])) };
+  return { originals: Object.keys(art).length, generated, avifPictures: report.filter((image) => image.avif).length, formats: Object.fromEntries(report.flatMap((image) => image.renditions.map((rendition) => [rendition.webp, rendition.acceptable]))) };
 }

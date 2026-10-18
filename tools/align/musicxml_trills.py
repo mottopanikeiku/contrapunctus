@@ -78,13 +78,13 @@ def route_trills(xml, specifications, originals):
             matches = [(parent, wave) for parent in stop_note.findall('notations/ornaments')
                        for wave in parent.findall('wavy-line')
                        if wave.get('type') == 'stop' and wave.get('number', '1') == number]
-            if (len(matches) != 1 or str(spec['stop'].get('number', number)) != number
-                    or stop_location[0] + stop_location[1] != end or matches[0][1] in stops_seen):
             edge = spec['stop'].get('edge', 'end')
             stop_q = stop_location[0] + (stop_location[1] if edge == 'end' else 0)
             if (len(matches) != 1 or str(spec['stop'].get('number', number)) != number
                     or edge not in ('start', 'end') or stop_q != end or matches[0][1] in stops_seen):
                 raise ValueError('Trill stop must match its exact source number and evidenced endpoint time')
+            stop_parent, stop = matches[0]
+            stops_seen.add(stop)
         else:
             for note, row in locations.items():
                 if q < row[0] + row[1] <= end and any(

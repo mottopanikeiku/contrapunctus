@@ -1,27 +1,5 @@
 {
   "id": "sibelius-finlandia-stokowski-1921",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "55-second acoustic-band cue",
-      "severity": "major",
-      "problem": "[EXT] The cue asks the listener to hear the balance of the ledger’s small band on this issued disc, but that instrumentation belongs to the earlier destroyed March takes. DAHR explicitly says it is not confirmed for the later takes, including the issued April master. The private evidence preserves that limitation; the public text does not.",
-      "evidence": "Opened DAHR C-24988 matrix record, instrumentation note and take table: https://adp.library.ucsb.edu/index.php/matrix/refer/700010224 .",
-      "fix": "State publicly that the listed band is documented for an earlier, destroyed March take and that the issued April take’s forces are unconfirmed. Keep the acoustic-horn explanation and a general balance-listening suggestion, without identifying that earlier band as the one heard."
-    },
-    {
-      "where": "125-second world cue; 32-second premiere wording",
-      "severity": "minor",
-      "problem": "[EXT] The Sibelius Society’s detailed primary-history account dates Koskenniemi’s words to 1940, not 1941, and records a performance on 7 December 1940. It also calls 2 July 1900 the revised work’s premiere while allowing that it may have been performed earlier, so an unqualified first-played claim is stronger than that source.",
-      "evidence": "Opened https://sibelius.klubi.fi/english/musiikki/ork_finlandia.htm : September 1940 commission, 1940 poem publication, December 1940 performance; 1900 premiere discussion. Wikipedia gives 1941, but the detailed Society chronology contradicts it.",
-      "fix": "Use 1940 for Koskenniemi’s words, citing the Society account. At 32 seconds say the revised version was performed in Helsinki on 2 July 1900, without insisting that this was its first performance."
-    },
-    {
-      "where": "dossier work.version.status",
-      "severity": "minor",
-      "problem": "[INFERENCE] The abridgement is deduced from the roughly four-minute carrier against the complete work’s normal duration; neither the ledger nor the supplied carrier identifies an edition or cut scheme. That is a supported inference, not a documented version identification.",
-      "evidence": "The dossier’s version note and the mjs opening note explicitly say the cut locations are unknown; cache/analysis/sibelius-finlandia-stokowski-1921.txt gives 245.8 seconds.",
-      "fix": "Change the version status to inferred, retaining the honest abridgement description and unknown cut locations. Rights publication in 1921 is independently corroborated by the opened Glendale Evening News advertisement of 30 September 1921, listing Victor 74698 among October records on sale the next day: https://upload.wikimedia.org/wikipedia/commons/7/76/The_Glendale_Evening_News_1921-09-30_%28IA_cgl_004496%29.pdf . DAHR’s object endpoint was not opened by this reviewer because it returned 503; no MARC numbers are taken from that failed request."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

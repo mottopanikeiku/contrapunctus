@@ -181,6 +181,13 @@
   "artist": "Ignace Jan Paderewski; Chopin",
   "duration": 130
  },
+ "archive:78_finlandia_philadelphia-symphony-orchestra-sibelius-leopold-stokowski_gbia0298333a/Finlandia - Philadelphia Symphony Orchestra.mp3": {
+  "stream": "https://archive.org/download/78_finlandia_philadelphia-symphony-orchestra-sibelius-leopold-stokowski_gbia0298333a/Finlandia%20-%20Philadelphia%20Symphony%20Orchestra.mp3",
+  "page": "https://archive.org/details/78_finlandia_philadelphia-symphony-orchestra-sibelius-leopold-stokowski_gbia0298333a",
+  "license": "",
+  "artist": "Philadelphia Symphony Orchestra; Sibelius; Leopold Stokowski",
+  "duration": 245.86
+ },
  "archive:78_ilpleuredansmacouer_318_15/Ilpleuredansmacouer - Mary Garden - Debussy - Debussy.mp3": {
   "stream": "https://archive.org/download/78_ilpleuredansmacouer_318_15/Ilpleuredansmacouer%20-%20Mary%20Garden%20-%20Debussy%20-%20Debussy.mp3",
   "page": "https://archive.org/details/78_ilpleuredansmacouer_318_15",
@@ -418,6 +425,13 @@
   "license": "",
   "artist": "Lili Boulanger; Igor Markevitch; Orchestre Des Concerts Lamoureux; Choeurs Elisabeth Brasseur",
   "duration": 368.54
+ },
+ "archive:lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.03. Vieille Prière Bouddhique.mp3": {
+  "stream": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.03.%20Vieille%20Pri%C3%A8re%20Bouddhique.mp3",
+  "page": "https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
+  "license": "",
+  "artist": "Lili Boulanger; Igor Markevitch; Orchestre Des Concerts Lamoureux; Choeurs Elisabeth Brasseur",
+  "duration": 433.22
  },
  "archive:lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.04. Pie Jesu.mp3": {
   "stream": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.04.%20Pie%20Jesu.mp3",
@@ -1384,6 +1398,13 @@
   "license": "CC0",
   "artist": "Composed by Johann Sebastian Bach, performed by Kimiko Ishizaka",
   "duration": 482.17334375
+ },
+ "File:Klaviersonate Nr. 30 E-Dur op. 109 - II. Prestissimo.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Klaviersonate_Nr._30_E-Dur_op._109_-_II._Prestissimo.ogg/Klaviersonate_Nr._30_E-Dur_op._109_-_II._Prestissimo.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Klaviersonate_Nr._30_E-Dur_op._109_-_II._Prestissimo.ogg",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "duration": 139.70285714285714
  },
  "File:Klaviersonate Nr. 30 E-Dur op. 109 - III. Andante.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Klaviersonate_Nr._30_E-Dur_op._109_-_III._Andante.ogg/Klaviersonate_Nr._30_E-Dur_op._109_-_III._Andante.ogg.mp3",
@@ -2371,6 +2392,13 @@
   "license": "CC BY 3.0",
   "artist": "The Danish String Quartet",
   "duration": 199.58020833333333
+ },
+ "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - IV. Finale adagio-Presto-Adagio.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_IV._Finale_adagio-Presto-Adagio.ogg/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_IV._Finale_adagio-Presto-Adagio.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major,_Op._54,_No._2,_Hob.III-57_-_IV._Finale_adagio-Presto-Adagio.ogg",
+  "license": "CC BY 3.0",
+  "artist": "The Danish String Quartet",
+  "duration": 437.29547916666667
  },
  "File:The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg.mp3",

@@ -279,8 +279,9 @@ def extract(ident, lilypond=LILYPOND, directory=None):
                   + [f'Source-encoded ornament realization retained in playback; separate printed-notation inventory proved: {o["basis"]}'
                      for o in extraction.get('notationProof', {}).get('ornaments', [])]
                   + [f'Documented source tie sustains through {t["gapQ"]} quarter units before its continuation: {t["basis"]}'
-                     for t in extraction.get('ties', []) if t.get('gapQ')],
-              'ornamentProvenance': [],
+                     for t in extraction.get('ties', []) if t.get('gapQ')]
+                  + [f'Native-source-backed trill span in {t["part"]}, source quarters {t["startQ"]}–{t["endQ"]}: {t["basis"]}'
+                     for t in cfg['source'].get('musicxmlTrillSpans', [])],
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)
