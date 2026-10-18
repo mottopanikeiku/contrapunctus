@@ -7,6 +7,12 @@
   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
   "main": "song.ly",
   "musicxml": "lc5014023.mxl",
+  "musicxmlInitialGrace": {
+    "part": "P2",
+    "measure": 1,
+    "note": 1,
+    "basis": "Original lc5014023.mxl P2 measure 1 direct note index 1 is the visible D-sharp3 sixteenth grace in voice 5/staff 2 (sounding C-sharp3 after the documented whole-score transposition). Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes; retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.27/Documentation/notation/special-rhythmic-concerns#grace-notes ."
+  },
   "downloads": [
     {
       "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/24_Der_Leiermann_%28Sp%C3%A4tere_Fassung%29/lc5014023.mxl",

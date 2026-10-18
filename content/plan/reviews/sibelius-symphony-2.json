@@ -1,13 +1,5 @@
 {
   "id": "sibelius-symphony-2",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "335-second cue title and text",
-      "severity": "minor",
-      "problem": "[INFERENCE] The remaining ‘long notes’/‘Held notes’ claim still treats low onset detection as note-duration evidence without an independent score basis.",
-      "evidence": "The cue’s evidence supplies level and detected-onset statistics plus Serotsky’s developmental account, not written note durations. All previously reported local harmonic, numerical-range and moment-precision defects are resolved.",
-      "fix": "Remove the long/held-note assertion from the title and text, retaining the measured high level, swelling phrases and attributed developmental account; or supply an independently viewable score basis for that assertion."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

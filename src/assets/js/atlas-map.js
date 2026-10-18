@@ -279,7 +279,7 @@ export async function mount(app) {
     if (next === expandedCluster && !pin) return;
     expandedCluster = clusterSprites.has(next) ? next : '';
     if (expandedCluster) {
-      if (pin && mobile.matches) { card.classList.remove('am-card-open'); stage.scrollIntoView({ block: 'start', behavior: 'instant' }); }
+      if (pin && mobile.matches) card.classList.remove('am-card-open');
       // Interaction-only geometry reads; panning, zooming and year animation
       // use cached dimensions and never read layout in their animation frames.
       const rect = svg.getBoundingClientRect(), timeTop = $('.am-time').getBoundingClientRect().top;
@@ -337,7 +337,9 @@ export async function mount(app) {
     const pairs = [...overlaps.values()];
     const signature = `${city.id}|${residents.map((v) => `${v.c}:${v.p}:${v.a}:${v.b}:${year > v.sourceEnd}`).join(',')}|${visits.map((v) => `${v.c}:${v.p}`).join(',')}|${pairs.map((p) => `${p.ids.join('/')}:${p.from}:${p.to}:${p.basis}`).join(',')}`;
     if (signature === encounterSignature && encounterYearNode?.isConnected) {
-      encounterYearNode.textContent = year; if (open) openCard(); return;
+      encounterYearNode.textContent = year;
+      if (open) { cardContent.scrollTop = 0; openCard(); }
+      return;
     }
     cardContent.innerHTML = `<span class="kicker">Who was here?</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} from residence records or dated events.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
       const c = byId.get(id), resident = records.find((r) => r.basis === 'residence');
@@ -345,7 +347,7 @@ export async function mount(app) {
       return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small class="am-presence ${resident ? 'am-residence-presence' : 'am-dated-presence'}">${resident ? 'resident (from residence records)' : 'documented in this year'}</small><small>${escape(evidence)}</small></span><b aria-hidden="true">→</b></button></li>`;
     }).join('')}</ul>` : '<p class="am-empty">No residence-derived or dated presence in the available records. This is a gap in the collection, not evidence that nobody was here.</p>'}<h3>Possible encounters</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><span class="am-overlap-evidence"><small>${p.from === p.to ? p.from : `${p.from}–${p.to}`}</small><small class="am-overlap-basis">${p.basis === 'dated' ? 'dated records' : 'residence-derived'}</small></span></li>`).join('')}</ul>` : '<p class="am-small">No overlapping residence-derived or documented intervals for two composers in this year.</p>'}<p class="am-caution">Resident intervals carry the primary place forward to the next residence or post. They are a model, not dated attendance records. An overlap does not prove a meeting.</p><div class="am-city-prompts"><button type="button" data-vienna="1790">Vienna · 1790</button><button type="button" data-vienna="1805">Vienna · 1805</button><button type="button" data-vienna="1900">Vienna · 1900</button><button type="button" data-paris="1900">Paris · 1900</button></div>`;
     encounterSignature = signature; encounterYearNode = cardContent.querySelector('h2 em');
-    if (open) openCard();
+    if (open) { cardContent.scrollTop = 0; openCard(); }
   }
   const playButton = (recording) => `<button type="button" class="am-listen" data-map-play="${escape(recording.id)}"><span aria-hidden="true">▶</span><span>${escape(recording.work)}${recording.movement ? `<small>${escape(recording.movement)}</small>` : ''}</span></button>`;
   function renderDetail(c) {

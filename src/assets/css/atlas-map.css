@@ -24,7 +24,7 @@ body:has(.atlas-map-page)::after { opacity: .24; }
 .am-workspace { display: grid; grid-template-columns: minmax(0, 1fr) 340px; border: 1px solid #a88b53; box-shadow: 0 0 0 3px #111511, 0 0 0 4px #6a583a, 0 16px 45px #0004; background: #121a17; }
 .am-stage { position: relative; height: clamp(440px, calc(100svh - 395px), 660px); overflow: hidden; background: radial-gradient(ellipse at 48% 38%, #1b2520, #101a18 85%); }
 .am-stage::after { content: ''; position: absolute; inset: 6px; border: 1px solid #bca57530; pointer-events: none; }
-.am-map { position: relative; width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; transform: translateZ(0); }
+.am-map { position: relative; width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; -webkit-tap-highlight-color: transparent; transform: translateZ(0); }
 .am-base-map { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; transform: translateZ(0); }
 .am-map:active { cursor: grabbing; }
 .am-map path, .am-base-map path { vector-effect: non-scaling-stroke; }

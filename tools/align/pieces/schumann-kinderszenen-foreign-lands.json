@@ -25,23 +25,17 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "isolated-voices",
+    "definitions": [{"file": "SchumannOp15No01.ly", "before": "\\score"}],
+    "staves": ["up", "down"],
+    "global": "\\key g \\major \\time 2/4",
+    "silent": "s2*22"
   },
   "voices": [
-    {
-      "id": "upper",
-      "name": "Piano — upper staff",
-      "tracks": [
-        1
-      ]
-    },
-    {
-      "id": "lower",
-      "name": "Piano — lower staff",
-      "tracks": [
-        2
-      ]
-    }
+    {"id": "melody", "name": "Written melody", "music": "\\viola", "staff": "up"},
+    {"id": "triplets", "name": "Written cross-staff triplet line", "music": "\\oboes", "staff": "up"},
+    {"id": "bass", "name": "Written bass line", "music": "\\bassvoices", "staff": "down"},
+    {"id": "lower-inner", "name": "Written lower inner line", "music": "\\bassvoicestwo", "staff": "down"}
   ],
   "bars": {
     "first": 1,
@@ -117,9 +111,9 @@
     "music": "\\new PianoStaff << \\new Staff = \"up\" << \\key g \\major \\time 2/4 \\viola \\oboes \\new Voice = \"repeatSigns\" { \\bar \".|:\" s2*8 \\bar \":|.|:\" s2*14 \\bar \":|.\" } >> \\new Dynamics = \"dynamics\" \\dynamictr \\new Staff = \"down\" << \\clef bass \\key g \\major \\time 2/4 \\bassvoices \\bassvoicestwo >> \\new Dynamics = \"pedal\" \\pedaltr >>"
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Four explicitly named source voices are compiled separately, including the cross-staff triplet line; these are written voice identities, not recovered hands or aural separation. EXT: Leichte Stücke, 1900. The recording's exact edition and expressive articulation remain provisional.",
     "Read content/listen/schumann-kinderszenen-foreign-lands.mjs and cache/analysis/schumann-kinderszenen-foreign-lands.txt. Editorial sections are coarse; they are not forced alignment anchors.",
-    "Engraving only: replace the source's skip-only repeattr with the same 44-quarter control span and explicit already-encoded repeat signs at q0, q16 and q44. Every original pitched variable, dynamics and pedal voice remains unchanged. Original published-MIDI extraction and immutable source bytes remain untouched.",
-    "Do not claim modern-MIDI equivalence: an attempted guarded recompile produced 224 attacks instead of the published 222, adding G3 at source q10 and q38. The exact comparison correctly rejected that extraction route; no proof was relaxed. The visibility repair therefore changes only the engraving-side skip/control voice."
+    "Engraving only: replace the source's skip-only repeattr with the same 44-quarter control span and explicit already-encoded repeat signs at q0, q16 and q44. Every original pitched variable, dynamics and pedal voice remains unchanged; immutable source bytes are untouched.",
+    "The legacy published MIDI omits the visible oboes G3 triplet reattacks at source q10 and q38 (bars 6 and 20), while bassvoicestwo sustains tied G3 from q9/q37. A modern merged-staff compile has 224 attacks versus the legacy 222; these are genuine additional attacks, not coincident-onset duplicates. Separate source-voice extraction preserves both the reattacks and the longer ties. No exact legacy-MIDI identity is claimed."
   ]
 }

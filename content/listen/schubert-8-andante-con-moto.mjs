@@ -12,7 +12,7 @@ export default {
   recorded: '28 and 30 April 1927',
   source: {
     archive: { item: 'SchubertSymphonyNo.8unfinished_347', file: '02_schubertNo.8M2.mp3' },
-    rights: { basis: 'eu-published-before-1963', published: 1927, evidence: 'Issued 1927 as Victor 6663–6665 (Internet Archive description; Pristine Classical PASC 483 notes, https://www.pristineclassical.com/products/pasc483). The Internet Archive item carries a CC0 licence URL declared by the uploader; US status is not established because publication was after 1925.' },
+    rights: { basis: 'eu-published-before-1963', published: 1927, evidence: 'Recorded 28 and 30 April 1927 and first issued on Victor 6663–6665 in album M-16 (Internet Archive description; Pristine Classical PASC 483 notes, https://www.pristineclassical.com/products/pasc483); neither source gives the issue date, so 1927 is the recording year and the earliest possible issue year, and the Bolig discography lists later HMV and Victor issues of the same sides. The Internet Archive item carries a CC0 licence URL declared by the uploader; US status is not established because the recording was made after 1925.' },
   },
   intro: 'After the stormy B minor first movement, the symphony’s second and last movement is an E major song in 3/8 with a plaintive second theme in the minor. Listen for the horns and bassoons at the start, the clarinet and oboe that carry the second theme, and the woodwinds’ distant A♭ major near the end.',
   question: 'How does a calm melody carry both consolation and unease?',

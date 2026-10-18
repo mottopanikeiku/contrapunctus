@@ -615,6 +615,13 @@
   "artist": "Sergei Rachmaninoff",
   "duration": 211
  },
+ "archive:sibelius-2-compl-monteux-lso/sibelius 2 compl (monteux-lso).mp3": {
+  "stream": "https://archive.org/download/sibelius-2-compl-monteux-lso/sibelius%202%20compl%20(monteux-lso).mp3",
+  "page": "https://archive.org/details/sibelius-2-compl-monteux-lso",
+  "license": "",
+  "artist": "",
+  "duration": 2637.04
+ },
  "archive:willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926/Willem Mengelberg CGO - Col L 1798 WAX 1548-9 1926.mp3": {
   "stream": "https://archive.org/download/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926/Willem%20Mengelberg%20CGO%20-%20Col%20L%201798%20WAX%201548-9%201926.mp3",
   "page": "https://archive.org/details/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926",
@@ -1111,6 +1118,13 @@
   "license": "Public domain",
   "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
   "duration": 349
+ },
+ "File:Fauré - Requiem - VI. Libera Me.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Faur%C3%A9_-_Requiem_-_VI._Libera_Me.flac/Faur%C3%A9_-_Requiem_-_VI._Libera_Me.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_VI._Libera_Me.flac",
+  "license": "Public domain",
+  "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
+  "duration": 294
  },
  "File:Fauré - Requiem - VII. In paradisum.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Faur%C3%A9_-_Requiem_-_VII._In_paradisum.flac/Faur%C3%A9_-_Requiem_-_VII._In_paradisum.flac.mp3",

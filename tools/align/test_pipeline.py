@@ -1,5 +1,6 @@
 """Small deterministic regressions; no audio decoding, network or site build."""
 import copy
+from collections import Counter
 import json
 from pathlib import Path
 import subprocess
@@ -15,9 +16,11 @@ import numpy as np
 from align import endpoint_anchors, publication_reasons
 from config import HERE, LILYPOND
 from pipeline import comparison
-from score_events import attack_inventory, extract
+from score_events import attack_inventory, crop_notes, extract, prove_notation
 from musicxml_ties import source_timing, route_ties
 from musicxml_tuplets import flatten_tuplets
+from musicxml_structure import mark_initial_grace, preserve_partial_measures, share_endings
+from musicxml_trills import route_trills
 
 
 class PublicationGates(unittest.TestCase):
@@ -140,6 +143,39 @@ class PerformedEvents(unittest.TestCase):
         self.assertNotEqual(single, double)
         self.assertEqual(sum(double.values()), 8)
 
+    def test_explicit_tie_gap_preserves_the_source_hold(self):
+        midi = mido.MidiFile(self.directory / 'source.mid')
+        for event in midi.tracks[0]:
+            if getattr(event, 'note', None) == 61:
+                event.note = 60
+        midi.save(self.directory / 'source.mid')
+        self.cfg['extraction']['ties'] = [{
+            'origin': {'q': 0, 'pitch': 60, 'voice': 'part', 'durationQ': .5},
+            'continuation': {'q': 1, 'pitch': 60, 'voice': 'part', 'durationQ': .5},
+            'gapQ': .5, 'basis': 'Fixture source tie across an intervening note',
+        }]
+        events = self.extract_fixture()
+        self.assertEqual(len(events['notes']), 3)
+        self.assertEqual(events['notes'][0][1], 1.5)
+        self.cfg['extraction']['ties'][0]['gapQ'] = .25
+        with self.assertRaisesRegex(ValueError, 'exact nonnegative gapQ'):
+            self.extract_fixture()
+
+    def test_tie_cannot_merge_different_pitches(self):
+        self.cfg['extraction']['ties'] = [{
+            'origin': {'q': 0, 'pitch': 60, 'voice': 'part', 'durationQ': .5},
+            'continuation': {'q': 1, 'pitch': 61, 'voice': 'part', 'durationQ': .5},
+            'gapQ': .5, 'basis': 'Fixture',
+        }]
+        with self.assertRaisesRegex(ValueError, 'same pitch'):
+            self.extract_fixture()
+
+    def test_explicit_end_crops_sounding_tail_before_offset(self):
+        notes = np.array([[0, .5, 60, 0, 64], [1, 6, 62, 0, 64], [5, .5, 64, 0, 64]], dtype=float)
+        selected = crop_notes(notes, {'offsetQ': 1, 'endQ': 4})
+        self.assertEqual(selected.tolist(), [[0, 3, 62, 0, 64]])
+        self.assertEqual(notes[1, 1], 6)
+
 
 class PitchAnchors(unittest.TestCase):
     def setUp(self):
@@ -174,13 +210,61 @@ class PitchAnchors(unittest.TestCase):
             endpoint_anchors(self.config, self.events, self.data)
 
 
-class MusicXMLNoteTies(unittest.TestCase):
-    def test_partial_chord_tie_keeps_untied_reattack(self):
+class OrnamentNotationProof(unittest.TestCase):
+    def setUp(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        self.directory = Path(temporary.name)
+        source = self.directory / 'sources' / 'example'
+        source.mkdir(parents=True)
+        literal = "printed = { c'4\\turn d'4 }\n"
+        (source / 'printed.ly').write_text(literal)
+        (self.directory / '__definitions.ly').write_text(literal)
+        self.original = Counter({(0., 60): 1, (.5, 64): 1, (1., 62): 1})
+        self.cfg = {'id': 'example', 'engraving': {'music': '\\new Staff { \\printed }'},
+                    'extraction': {'notationProof': {'ornaments': [{
+                        'source': {'file': 'printed.ly', 'text': literal},
+                        'attacks': [[.5, 64]], 'basis': 'Fixture source-encoded ornament realization',
+                    }]}}}
+
+    def proof(self):
+        with patch('score_events.HERE', self.directory):
+            return prove_notation(self.cfg, self.directory, self.original, LILYPOND)
+
+    def test_complete_playback_and_separate_notated_inventory(self):
+        proof = self.proof()
+        self.assertEqual((proof['publishedAttacks'], proof['notatedAttacks'], proof['realizedOrnamentAttacks']), (3, 2, 1))
+
+    def test_other_notation_changes_are_rejected(self):
+        self.cfg['engraving']['music'] = "\\new Staff { c'4 e'4 }"
+        with self.assertRaisesRegex(ValueError, 'Printed notation inventory differs'):
+            self.proof()
+
+    def test_source_literal_must_be_unique(self):
+        self.cfg['extraction']['notationProof']['ornaments'][0]['source']['text'] = 'absent'
+        with self.assertRaisesRegex(ValueError, 'exactly once'):
+            self.proof()
+
+
+class MusicXMLConversion(unittest.TestCase):
+    def convert(self, text):
         with tempfile.TemporaryDirectory() as temporary:
             directory = Path(temporary)
-            xml = directory / 'partial-tie.xml'
-            xml.write_text('''<?xml version="1.0" encoding="utf-8"?>
-<score-partwise version="3.1">
+            xml = directory / 'source.xml'
+            xml.write_text(text)
+            lily = directory / 'source.ly'
+            commands = [
+                [sys.executable, str(HERE / 'musicxml_convert.py'), '--converter',
+                 str(Path(LILYPOND).with_name('musicxml2ly')), '--midi', '--npl', '-o', str(lily), str(xml)],
+                [LILYPOND, '-dno-print-pages', '-o', str(directory / 'out'), str(lily)],
+            ]
+            for command in commands:
+                result = subprocess.run(command, capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            return attack_inventory(directory / 'out.midi', multiset=True), lily.read_text()
+
+    def test_partial_chord_tie_keeps_untied_reattack(self):
+        attacks, _ = self.convert('''<score-partwise version="3.1">
   <part-list><score-part id="P1"><part-name>Piano</part-name></score-part></part-list>
   <part id="P1"><measure number="1">
     <attributes><divisions>4</divisions><time><beats>2</beats><beat-type>4</beat-type></time>
@@ -192,19 +276,49 @@ class MusicXMLNoteTies(unittest.TestCase):
       <tie type="stop"/><type>quarter</type><notations><tied type="stop"/></notations></note>
     <note><chord/><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><type>quarter</type></note>
   </measure></part>
-</score-partwise>
-''')
-            lily = directory / 'partial-tie.ly'
-            commands = [
-                [sys.executable, str(HERE / 'musicxml_convert.py'), '--converter',
-                 str(Path(LILYPOND).with_name('musicxml2ly')), '--midi', '--npl', '-o', str(lily), str(xml)],
-                [LILYPOND, '-dno-print-pages', '-o', str(directory / 'out'), str(lily)],
-            ]
-            for command in commands:
-                result = subprocess.run(command, capture_output=True, text=True)
-                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-            self.assertEqual(attack_inventory(directory / 'out.midi', multiset=True),
-                             {(0., 60): 1, (0., 64): 1, (1., 64): 1})
+</score-partwise>''')
+        self.assertEqual(attacks, {(0., 60): 1, (0., 64): 1, (1., 64): 1})
+
+    def test_midmeasure_clef_does_not_displace_an_earlier_chord(self):
+        attacks, _ = self.convert('''<score-partwise version="3.1">
+  <part-list><score-part id="P1"><part-name>Piano</part-name></score-part></part-list>
+  <part id="P1"><measure number="1">
+    <attributes><divisions>4</divisions><time><beats>3</beats><beat-type>4</beat-type></time>
+      <clef><sign>F</sign><line>4</line></clef></attributes>
+    <note><rest/><duration>4</duration><voice>1</voice><type>quarter</type></note>
+    <attributes><clef><sign>G</sign><line>2</line></clef></attributes>
+    <note><pitch><step>G</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type></note>
+    <note><pitch><step>A</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type></note>
+    <backup><duration>12</duration></backup>
+    <note><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>2</voice><type>half</type></note>
+    <note><chord/><pitch><step>E</step><octave>3</octave></pitch><duration>8</duration><voice>2</voice><type>half</type></note>
+    <note><rest/><duration>4</duration><voice>2</voice><type>quarter</type></note>
+  </measure></part>
+</score-partwise>''')
+        self.assertEqual(attacks, {(0., 48): 1, (0., 52): 1, (1., 67): 1, (2., 69): 1})
+
+    def test_initial_grace_skips_preserve_all_attacks(self):
+        xml = ET.fromstring('''<score-partwise version="3.1">
+  <part-list><score-part id="P1"><part-name>Upper</part-name></score-part>
+    <score-part id="P2"><part-name>Lower</part-name></score-part></part-list>
+  <part id="P1"><measure number="1">
+    <attributes><divisions>4</divisions><time><beats>3</beats><beat-type>4</beat-type></time>
+      <clef><sign>G</sign><line>2</line></clef></attributes>
+    <note><pitch><step>E</step><octave>4</octave></pitch><duration>12</duration><type>half</type><dot/></note>
+  </measure></part>
+  <part id="P2"><measure number="1">
+    <attributes><divisions>4</divisions><time><beats>3</beats><beat-type>4</beat-type></time>
+      <clef><sign>F</sign><line>4</line></clef></attributes>
+    <note><grace/><pitch><step>D</step><octave>3</octave></pitch><type>16th</type></note>
+    <note><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><type>half</type><dot/></note>
+  </measure></part>
+</score-partwise>''')
+        before, _ = self.convert(ET.tostring(xml, encoding='unicode'))
+        mark_initial_grace(xml, {'part': 'P2', 'measure': 1, 'note': 0, 'basis': 'Fixture source grace'})
+        after, lily = self.convert(ET.tostring(xml, encoding='unicode'))
+        self.assertEqual(before, after)
+        self.assertEqual(lily.count('\\grace'), 2)
+
 
 
 class MusicXMLTieRoutes(unittest.TestCase):
@@ -301,6 +415,99 @@ class MusicXMLTuplets(unittest.TestCase):
         ET.SubElement(xml.find('part/measure'), 'backup')
         with self.assertRaisesRegex(ValueError, 'one sequential voice'):
             flatten_tuplets(xml, [{'part': 'P3', 'measures': [120], 'basis': 'Fixture'}])
+
+
+class MusicXMLStructure(unittest.TestCase):
+    def fixture(self):
+        xml = ET.fromstring('''<score-partwise><part id="P1">
+<measure number="1"><attributes><divisions>4</divisions></attributes>
+  <barline location="left"><ending number="1" type="start"/><repeat direction="forward"/></barline>
+  <note><pitch><step>C</step><octave>4</octave></pitch><duration>8</duration><type>half</type></note>
+  <barline><ending number="1" type="stop"/><repeat direction="backward"/></barline>
+</measure><measure number="2">
+  <barline location="left"><ending number="2" type="start"/></barline>
+  <note><rest/><duration>12</duration><type>half</type><dot/></note>
+  <barline><ending number="2" type="stop"/></barline>
+</measure></part></score-partwise>''')
+        second = copy.deepcopy(xml.find('part'))
+        second.set('id', 'P2')
+        for barline in second.findall('measure/barline'):
+            for ending in barline.findall('ending'):
+                barline.remove(ending)
+        xml.append(second)
+        return xml
+
+    def test_short_ending_and_shared_brackets_leave_notes_unchanged(self):
+        xml = self.fixture()
+        before = [source_timing(p) for p in xml.findall('part')]
+        note_bytes = [ET.tostring(n) for n in xml.findall('.//note')]
+        preserve_partial_measures(xml, [{'number': 1, 'quarters': 2, 'basis': 'Fixture shortened ending'}])
+        share_endings(xml, 'P1')
+        self.assertEqual(before, [source_timing(p) for p in xml.findall('part')])
+        self.assertEqual(note_bytes, [ET.tostring(n) for n in xml.findall('.//note')])
+        self.assertEqual([m.get('cp-preserve-duration') for m in xml.findall("part/measure[@number='1']")], ['yes', 'yes'])
+        self.assertEqual(len(xml.find("part[@id='P2']").findall('.//ending')), 4)
+
+    def test_wrong_length_and_repeat_order_are_rejected(self):
+        xml = self.fixture()
+        with self.assertRaisesRegex(ValueError, 'source duration'):
+            preserve_partial_measures(xml, [{'number': 1, 'quarters': 3, 'basis': 'Fixture'}])
+        xml.find("part[@id='P2']/measure/barline/repeat").set('direction', 'backward')
+        with self.assertRaisesRegex(ValueError, 'identical measure order'):
+            share_endings(xml, 'P1')
+
+    def test_empty_ending_master_is_rejected(self):
+        xml = self.fixture()
+        with self.assertRaisesRegex(ValueError, 'no ending annotations'):
+            share_endings(xml, 'P2')
+
+
+class MusicXMLTrillRouting(unittest.TestCase):
+    def setUp(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        self.directory = Path(temporary.name)
+        (self.directory / 'native.mscx').write_text('''<museScore><Score><Staff id="1"><Measure><voice><Chord>
+<Spanner type="Trill"><next><location><measures>1</measures></location></next></Spanner>
+</Chord></voice></Measure></Staff></Score></museScore>''')
+        self.xml = ET.fromstring('''<score-partwise><part id="P1">
+<measure number="1"><attributes><divisions>4</divisions></attributes>
+  <note><pitch><step>C</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice>
+    <type>half</type><notations><ornaments><trill-mark/><wavy-line type="start" number="1"/></ornaments></notations></note>
+  <backup><duration>8</duration></backup>
+  <note print-object="no"><rest/><duration>8</duration><voice>2</voice><type>half</type>
+    <notations><ornaments><wavy-line type="stop" number="1"/></ornaments></notations></note>
+</measure><measure number="2">
+  <note><pitch><step>D</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><type>half</type></note>
+</measure></part></score-partwise>''')
+        self.spec = {'part': 'P1', 'start': {'measure': 1, 'note': 0, 'number': 1},
+                     'stop': {'measure': 1, 'note': 1, 'number': 1}, 'startQ': 0, 'endQ': 2,
+                     'basis': 'Fixture native source endpoint',
+                     'evidence': {'file': 'native.mscx',
+                                  'selector': "Score/Staff[@id='1']/Measure/voice/Chord/Spanner/next/location",
+                                  'expected': {'measures': '1'}}}
+
+    def test_hidden_stop_moves_without_exposing_or_retiming_notes(self):
+        before = source_timing(self.xml.find('part'))
+        route_trills(self.xml, [self.spec], self.directory)
+        self.assertEqual(before, source_timing(self.xml.find('part')))
+        self.assertEqual(len(self.xml.findall('.//note')), 3)
+        hidden = self.xml.find(".//note[@print-object='no']")
+        self.assertIsNotNone(hidden)
+        self.assertIsNone(hidden.find('notations/ornaments/wavy-line'))
+        target = self.xml.find("part/measure[@number='2']/note/notations/ornaments/wavy-line")
+        self.assertEqual((target.get('type'), target.get('cp-trill')), ('stop', 'yes'))
+
+    def test_missing_stop_requires_the_exact_native_evidence(self):
+        parent = self.xml.find(".//note[@print-object='no']/notations/ornaments")
+        parent.remove(parent.find('wavy-line'))
+        self.spec['stop'] = None
+        self.spec['evidence']['expected']['measures'] = '2'
+        with self.assertRaisesRegex(ValueError, 'immutable evidence'):
+            route_trills(self.xml, [self.spec], self.directory)
+        self.spec['evidence']['expected']['measures'] = '1'
+        route_trills(self.xml, [self.spec], self.directory)
+        self.assertEqual(len(self.xml.findall('.//wavy-line')), 2)
 
 
 if __name__ == '__main__':

@@ -331,7 +331,7 @@ const chip = (ctx, s) => {
 
 // ---------------------------------------------------------------- pages
 function listenLinks(c) {
-  const mine = listens.filter((l) => l.composer === c.slug).sort((a, b) => (a.order ?? 1) - (b.order ?? 1));
+  const mine = listens.filter((l) => l.composer === c.slug && l.concert !== false).sort((a, b) => setPos(a) - setPos(b) || (a.set?.part ?? 0) - (b.set?.part ?? 0) || (a.order ?? 1) - (b.order ?? 1));
   if (!mine.length) return '';
   return `<div class="listen-links"><span class="sc">Hear it in the Concert Hall</span>${mine.map((l) => `<a href="../hall.html#${l.id}"><span class="play-dot" aria-hidden="true"></span>${esc(l.work)}${l.movement ? ` · ${esc(l.movement)}` : ''}</a>`).join('')}</div>`;
 }

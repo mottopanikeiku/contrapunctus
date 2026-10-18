@@ -24,6 +24,15 @@ const licenses = [
   ['ebgaramond', 'c1ec5e1818415eab6f8fca95a230af477d64eb61'],
   ['notomusic', 'b6cd8a88e3c1ed12552e242d6428fd6bd8f292b1'],
 ];
+// Preserve the original Google CSS coverage. Raw upstream fonts also contain
+// symbols the old site rendered with its final serif fallback; exposing them
+// changes those glyphs and needlessly enlarges the initial Latin download.
+const textCoverage = '0000-02CC,02CE-02D7,02DA,02DC-02FF,0300-0301,0303-0304,0308-0309,0323,0329,0400-052F,1C80-1C8A,1D00-1DBF,1E00-1EFF,2000-206F,20A0-20C4,2113,2116,2122,2191,2193,2212,2215,2C60-2C7F,2DE0-2DFF,A640-A69F,A720-A7FF,FE2E-FE2F,FEFF,FFFD'
+  .split(',').map((range) => { const [a, b = a] = range.split('-').map((value) => parseInt(value, 16)); return [a, b]; });
+const greekCoverage = [[0x370, 0x377], [0x37a, 0x37f], [0x384, 0x38a], [0x38c, 0x38c], [0x38e, 0x3a1], [0x3a3, 0x3ff], [0x1f00, 0x1fff]];
+const covered = (point, family) => family === 'Noto Music'
+  ? point === 0x25cc || point >= 0x2669 && point <= 0x266f || point >= 0x1d000 && point <= 0x1d245
+  : textCoverage.some(([a, b]) => point >= a && point <= b) || family === 'EB Garamond' && greekCoverage.some(([a, b]) => point >= a && point <= b);
 async function source(file, sha) {
   return cached(`source-${sha}`, path.extname(file).slice(1), async () => {
     const response = await fetch(`https://raw.githubusercontent.com/google/fonts/${sourceCommit}/ofl/${file.split('/').map(encodeURIComponent).join('/')}`);
@@ -55,7 +64,7 @@ export async function optimizeFonts(textFiles, out = OUT) {
   for (const [id, family, style, weight, file, sha] of faces) {
     const original = await source(file, sha);
     const font = fontkit.create(original);
-    const included = points.filter((point) => font.hasGlyphForCodePoint(point) && (family !== 'Noto Music' || point >= 0x2669 && point <= 0x266f || point >= 0x1d000 && point <= 0x1d24f));
+    const included = points.filter((point) => covered(point, family) && font.hasGlyphForCodePoint(point));
     // Latin, combining marks and shared punctuation/symbols stay together.
     // A single arrow must not download every Greek/Cyrillic credit glyph.
     const coreScripts = /[\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u;
@@ -81,7 +90,7 @@ export async function optimizeFonts(textFiles, out = OUT) {
       const percent = (value) => `${(value * 100).toFixed(4)}%`;
       const italic = style === 'italic';
       const locals = italic ? "local('Times New Roman Italic'),local('Liberation Serif Italic')" : "local('Times New Roman'),local('Liberation Serif')";
-      css.push(`@font-face{font-family:'${family} Fallback';font-style:${style};font-weight:${weight};src:${locals};size-adjust:${percent(adjust)};ascent-override:${percent(target.ascent / target.unitsPerEm / adjust)};descent-override:${percent(-target.descent / target.unitsPerEm / adjust)};line-gap-override:${percent(target.lineGap / target.unitsPerEm / adjust)}}`);
+      css.push(`@font-face{font-family:'${family} Fallback';font-style:${style};font-weight:${weight};src:${locals};size-adjust:${percent(adjust)};ascent-override:${percent(target.ascent / target.unitsPerEm / adjust)};descent-override:${percent(-target.descent / target.unitsPerEm / adjust)};line-gap-override:${percent(target.lineGap / target.unitsPerEm / adjust)};unicode-range:${ranges(included)}}`);
     }
   }
   for (const [family, sha] of licenses) await save(path.join(out, 'assets/fonts', `${family}-OFL.txt`), await source(`${family}/OFL.txt`, sha));

@@ -8,20 +8,6 @@
   "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
   "main": "SchumannOp15No07.ly",
   "midi": "SchumannOp15No07.mid",
-  "patches": [
-    {
-      "file": "SchumannOp15No07.ly",
-      "old": "\\repeat volta 1",
-      "new": "\\bar \".|:\"",
-      "basis": "Make the immutable source's opening-strain repeat marker visible after its initial pickup; LilyPond 2.24 suppresses count-one volta signs. No note, skip, or performed repeat is added."
-    },
-    {
-      "file": "SchumannOp15No07.ly",
-      "old": "s1 s1 s1 s1 } s1",
-      "new": "s1 s1 s1 s1 } \\bar \":|.\" s1",
-      "basis": "Restore the already-encoded repeat ending after bar 8, retaining the original following bar, canonical note durations and all source pitches/onsets."
-    }
-  ],
   "downloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.ly",
