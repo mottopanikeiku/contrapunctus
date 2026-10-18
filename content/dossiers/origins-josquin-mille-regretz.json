@@ -1,0 +1,57 @@
+{
+  "id": "origins-josquin-mille-regretz",
+  "work": {
+    "title": "Mille regretz",
+    "catalogue": "NJE 28.25; attributed to Josquin des Prez",
+    "movement": "Four-part French chanson",
+    "version": { "value": "Four-part unaccompanied vocal chanson; exact performing edition unknown", "status": "documented", "sourceIds": ["commons", "imslp", "score"], "note": "The inspected Smijers score has superius, contratenor, tenor and bassus, 41 bars. It supports texture and scoring, not a claim that this choir used that edition, its spelling or its pitch level." },
+    "authorship": { "value": "Traditionally attributed to Josquin des Prez; attribution disputed", "status": "disputed", "sourceIds": ["imslp", "work-history"], "note": "The traditional name is retained as a qualified attribution, not a settled authorship claim. IMSLP notes modern dispute and David Fallows’s defence of Josquin; Commons’s unqualified composer label is insufficient to settle the issue.", "alternatives": [{ "value": "Josquin des Prez, traditional attribution defended by Fallows", "sourceIds": ["imslp"] }, { "value": "Authorship uncertain; attribution to Josquin questioned", "sourceIds": ["imslp", "work-history"] }] },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["imslp", "work-history"], "note": "A sixteenth-century chanson, but no exact date of composition is established. Publication references are not converted into a composition year." },
+    "completeness": { "value": "Whole nominated Collegium Vocale file", "status": "documented", "sourceIds": ["commons"], "note": "The downloaded performance is retained intact, including its quiet tail. No editorial excerpt or sung-word cut is introduced." },
+    "scoreEdition": { "value": "Albert Smijers, Utrecht: Vereniging voor Nederlandse Muziekgeschiedenis, 1925, plate 16845, p. 63", "status": "documented", "sourceIds": ["imslp", "score"], "note": "IMSLP identifies the edition as public domain. The entire one-page, four-part score was opened and viewed." }
+  },
+  "performers": { "value": [{ "name": "Collegium Vocale Bydgoszcz", "role": "vocal ensemble" }], "status": "documented", "sourceIds": ["commons", "youtube"], "note": "Commons credits Collegium Vocale and links the CVBydgoszcz YouTube account. No director, individual singers or exact number of performers is confirmed by the available recording metadata." },
+  "session": {
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons", "youtube", "archived-youtube"], "note": "Commons gives 24 September 2016 in its Date field, but does not establish that as the performance session. The 2017 MQS description and 3 January 2018 Commons import are also not session dates.", "precision": null },
+    "place": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "Bydgoszcz identifies the ensemble, not a documented recording location." }
+  },
+  "carrier": {
+    "label": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No original commercial label is established. The page’s MQS edition description is not treated as an original recording imprint." },
+    "catalogue": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "No release catalogue number is supplied." },
+    "matrixTakeSides": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "Original medium and session take identification are not documented." }
+  },
+  "transfer": {
+    "credits": { "value": "Imported from YouTube by Paterm to Wikimedia Commons", "status": "documented", "sourceIds": ["commons"], "note": "This credits the known import, not an unverified recording, production or mastering engineer." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "Commons import was 3 January 2018, and the current MP3 transcode is dated 25 February 2026. Neither establishes when the original performance was recorded or mastered." },
+    "processing": { "value": "YouTube audio imported as Opus; Wikimedia MP3 access transcode", "status": "documented", "sourceIds": ["commons"], "note": "The source embeds Lavf57.25.100. Earlier encoding, editing, noise reduction, pitch correction and production settings remain unknown. No additional processing or trim by Contrapunctus." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Josquin_Desprez_--_Mille_regretz.opus/Josquin_Desprez_--_Mille_regretz.opus.mp3",
+    "sourceChain": ["commons", "youtube", "archived-youtube"],
+    "format": "MP3 derivative of the Opus YouTube import",
+    "durationSeconds": 115.9
+  },
+  "rights": {
+    "composition": { "value": "Historical chanson outside ordinary composition copyright terms", "status": "inferred", "sourceIds": ["imslp", "score", "work-history"], "note": "The authorship dispute does not make the sixteenth-century composition a modern work. This does not confer any rights in the Collegium Vocale recording." },
+    "recording": { "value": "Rule 1 — CC BY 3.0 Unported as explicitly declared for the recording on Commons", "status": "documented", "sourceIds": ["commons", "licence"], "note": "The YouTube CC-BY template credits Collegium Vocale and expressly concerns this audio import, not merely the composition. Commons still marks external licence review as pending. The original YouTube page and its linked Wayback capture were opened but did not expose a usable source licence; independent confirmation of the former YouTube setting is therefore unavailable. The nominated recording is retained with that limitation visible, not described as licence-review approved." },
+    "externalLicenceReview": { "value": null, "status": "unknown", "sourceIds": ["commons", "youtube", "archived-youtube"], "note": "Pending on Commons at research time. Current YouTube access and the specified archived capture did not provide a playable or independently inspectable licensed source. No alternate recording is substituted." },
+    "creditLine": "Mille regretz, traditionally attributed to Josquin des Prez; performed by Collegium Vocale Bydgoszcz. YouTube import by Paterm, Wikimedia Commons. Recording declared CC BY 3.0 Unported; external licence review remains pending. MP3 access derivative, no new editorial audio cut.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — Josquin Desprez -- Mille regretz.opus", "url": "https://commons.wikimedia.org/wiki/File:Josquin_Desprez_--_Mille_regretz.opus?oldid=1188278257", "locator": "Performance credit and CVBydgoszcz link, Date field, 2017 MQS description, YouTube CC BY 3.0 licence, review-needed notice, source archive, upload and transcode history.", "accessed": "2026-10-17" },
+    { "id": "youtube", "title": "Collegium Vocale — nominated YouTube source", "url": "https://www.youtube.com/watch?v=tPDjEDm46aY", "locator": "Source identified by the Commons import. Opened, but no usable source description or licence was exposed; not independent confirmation of licensing or session metadata.", "accessed": "2026-10-17" },
+    { "id": "archived-youtube", "title": "Wayback capture of the nominated YouTube source", "url": "https://web.archive.org/web/20200308103940/https://www.youtube.com/watch?v=tPDjEDm46aY", "locator": "Capture linked by Commons; opened and returned video unavailable. No independently viewable historical licence was obtained.", "accessed": "2026-10-17" },
+    { "id": "imslp", "title": "IMSLP — Mille regretz, attributed to Josquin", "url": "https://cn.imslp.org/wiki/Mille_regretz_(Josquin_Desprez)", "locator": "Attribution discussion, catalogue number, four-part scoring, Smijers edition imprint and public-domain status.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Mille regretz — Smijers score, 1925", "url": "https://s9.imslp.org/files/imglnks/usimg/b/b3/IMSLP559228-PMLP236034-24._Mille_regretz.pdf", "locator": "One-page score, printed p. 63, No. 24, 41 bars; viewed in full. Four parts, central intensification and extended final textual sentence.", "accessed": "2026-10-17" },
+    { "id": "work-history", "title": "Mille regretz — text and attribution overview", "url": "https://en.wikipedia.org/wiki/Mille_regretz", "locator": "Four-line French poem of separation and regret; authorship controversy. Biographical and imperial anecdotes are not promoted into public claims.", "accessed": "2026-10-17" },
+    { "id": "licence", "title": "Creative Commons Attribution 3.0 Unported", "url": "https://creativecommons.org/licenses/by/3.0/", "locator": "Licence declared for the imported performance by the Commons page.", "accessed": "2026-10-17" }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17",
+    "timing": "audio.mjs analyze completed before annotation; cache/analysis/origins-josquin-mille-regretz.txt was read. The three broad score-proportion sections are supported by measured level and novelty changes, not forced word alignment. Four cues include two musical and two contextual observations under the short-work exception.",
+    "orchestra": "A one-entry chorus timeline records the verified four-part unaccompanied scoring. It does not claim four singers or uninterrupted activity in every voice. No performing pitch or transposition is asserted.",
+    "withheldClaims": ["Certain Josquin authorship", "Exact composition or recording date", "Recording venue, director and individual singers", "Passed external licence review", "Charles V’s personal reaction", "Exact sung words, tempo, key or tuning in this performance"]
+  }
+}

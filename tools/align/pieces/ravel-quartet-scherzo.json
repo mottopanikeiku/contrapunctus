@@ -12,6 +12,14 @@
     "musicxml": "sq8482283.mxl",
     "metricEquivalenceWords": true,
     "otherDynamicsWords": true,
+    "musicxmlFlattenTuplets": [
+      {
+        "part": "P3",
+        "measures": [120, 121, 122, 123],
+        "outerNumber": 1,
+        "basis": "The source viola has 36 sixteenths per bar in nested 3:2 quarter and 6:4 sixteenth tuplets, explicitly combined as 18:8 in time-modification. Each note is exactly 1/9 quarter; flatten only the nested brackets and represent the rational duration exactly, preserving pitches, order, beaming and slurs."
+      }
+    ],
     "musicxmlMeasures": [
       213,
       411
@@ -99,7 +107,8 @@
   "provenance": [
     "Select zero-based half-open MusicXML measure indices [213, 411] from every part, preserving inherited clefs, keys and time signatures. Original CC0 MXL download remains unchanged.",
     "Four source-defined instrument parts are retained, including all explicitly encoded subsidiary voices within each staff. MIDI articulations are not used to invent performed note lengths.",
-    "Metric-equivalence instructions and textual dynamics require semantics-preserving conversion to text for LilyPond 2.24.4; no note or rhythmic content is removed."
+    "Metric-equivalence instructions and textual dynamics require semantics-preserving conversion to text for LilyPond 2.24.4; no note or rhythmic content is removed.",
+    "Viola bars 120–123 require an explicit nested-tuplet derivative because musicxml2ly duplicated their note groups. The source’s written sixteenth type and combined 18:8 ratio determine 1/9-quarter notes, despite rounded XML durations of 53/480. Exact rational rescaling and equivalent flat 18:8 brackets preserve all 36 notes per bar; the four-part 600-quarter bar grid is not enlarged to accommodate the converter defect."
   ],
   "engraving": {
     "staff": 17,

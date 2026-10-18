@@ -1,0 +1,155 @@
+{
+  "id": "vivaldi-winter-finale",
+  "work": {
+    "title": "The Four Seasons · Winter, RV 297",
+    "catalogue": "Op. 8 No. 4 / RV 297",
+    "movement": "III. Allegro",
+    "version": {
+      "value": "Violin concerto movement in its original string scoring",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "The recording page identifies the concerto and movement. The edition used by the performers is not identified; the cited Mutopia score is an editorial reference, not a claimed session score."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "John Harrison",
+        "role": "violin"
+      },
+      {
+        "name": "Wichita State University Chamber Players",
+        "role": "ensemble"
+      },
+      {
+        "name": "Robert Turizziani",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "2000-02-06",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file description explicitly identifies the live performance date; the 2005 upload is not the session.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Wiedemann Recital Hall, Wichita State University, Wichita, Kansas, United States",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original commercial label is identified on the recording page."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No physical original carrier, matrix, take or side information is supplied. A file format alone does not establish the original capture medium."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The initial recording and transfer engineer are not identified. Later Commons file-history contributors are not credited as session engineers."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The original digital-transfer date is not established. Upload and later file-history dates are not transfer dates."
+    },
+    "processing": {
+      "value": "ReplayGain tags added losslessly by Gmaxwell on 26 February 2007; lossless trimming with Mp3splt-gtk by McZusatz on 24 September 2011.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file history documents a shortened current file despite the description’s older “unedited” wording. The position and nature of the removed material are not specified; no claim of an uncut musical performance is made."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/21/12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg/12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia MP3 transcode of the Commons Ogg audio file",
+    "durationSeconds": 193
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "bio",
+        "score"
+      ],
+      "note": "Vivaldi died in 1741 and the concertos were published in 1725. Modern editions and recordings have separate rights."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution-ShareAlike 4.0",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The holder John Harrison permits CC BY-SA versions 1.0–4.0 and later. Version 4.0 is selected here. Commons records permission ticket 2007022510020031; its private correspondence was not consulted."
+    },
+    "creditLine": "Antonio Vivaldi; John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor. Recording © John Harrison, CC BY-SA 4.0; supplied through Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons recording description, licence and file history",
+      "url": "https://commons.wikimedia.org/wiki/File:12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg",
+      "locator": "Description; permission and licensing; dated file history.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Mutopia 351 — Winter, after Performers’ Facsimiles",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351",
+      "locator": "Movement score and LilyPond source. Typesetting CC BY-SA 3.0; composition public domain.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bio",
+      "title": "Church of the Pietà — biography of Antonio Vivaldi",
+      "url": "https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi",
+      "locator": "1725 Amsterdam publication and death in Vienna on 28 July 1741.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

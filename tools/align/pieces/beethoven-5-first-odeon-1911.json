@@ -146,12 +146,15 @@
       4
     ],
     "last": [
-      379.590188,
-      388.590188
+      388.05,
+      388.3
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+    "basis": "Opening pitch-energy overlay supports the first G near0.57s. The final overlay independently shows the two separated concluding tutti chords near387.6 and388.2s; reject the broad-window386.18s selection, an earlier C attack, and locate the final chord in388.05–388.30s. Provisional feature-based alignment, not aural annotation."
   },
   "boundaries": [],
+  "diagnostics": {
+    "overlays": [[136, 144], [208, 224], [296, 304], [380, 389.59]]
+  },
   "engraving": {
     "staff": 14,
     "width": 260,

@@ -1,0 +1,272 @@
+{
+  "id": "bruckner",
+  "places": [
+    {
+      "name": "Ansfelden",
+      "country": "Archduchy of Austria (Austrian Empire; today Austria)",
+      "lat": 48.2083,
+      "lon": 14.2889,
+      "from": "1824-09-04",
+      "to": "1840",
+      "kind": "born",
+      "what": "Born in a village near Linz, where his father inherited the schoolmaster’s post in 1823.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Windhaag",
+      "country": "Archduchy of Austria (Austrian Empire; today Austria)",
+      "lat": 48.5861,
+      "lon": 14.5639,
+      "from": "1841",
+      "to": "1843",
+      "kind": "worked",
+      "what": "Assistant teacher from seventeen to nineteen, on appalling pay, humiliated by his superior.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Kronstorf an der Enns",
+      "country": "Archduchy of Austria (Austrian Empire; today Austria)",
+      "lat": 48.1428,
+      "lon": 14.4667,
+      "from": "1843",
+      "to": "1845",
+      "kind": "worked",
+      "what": "A happier two years as assistant teacher, studying with Zenetti in Enns; “Bruckner style” began to appear.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Sankt Florian monastery",
+      "country": "Archduchy of Austria (Austrian Empire; today Austria)",
+      "lat": 48.2073,
+      "lon": 14.3788,
+      "from": "1845",
+      "to": "1855",
+      "kind": "worked",
+      "what": "Teacher and monastery organist; he is buried in its crypt, directly beneath the organ.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        },
+        {
+          "title": "St. Florian Monastery — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/St._Florian_Monastery"
+        }
+      ]
+    },
+    {
+      "name": "Old Cathedral, Linz",
+      "country": "Archduchy of Austria (Austrian Empire; today Austria)",
+      "lat": 48.305,
+      "lon": 14.288,
+      "from": "1856",
+      "to": "1868",
+      "kind": "worked",
+      "what": "Cathedral organist; studied with Sechter, conducted the Frohsinn society and had his seven-part <i>Ave Maria</i> sung here in 1861.",
+      "work": "Ave Maria, WAB 6",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Old Cathedral, Linz — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Old_Cathedral,_Linz"
+        },
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Munich",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 48.1375,
+      "lon": 11.575,
+      "from": "1865-06-10",
+      "kind": "heard",
+      "what": "Met Wagner at the premiere of <i>Tristan und Isolde</i>, which he studied extensively from 1863 onwards.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 3 (Bruckner) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._3_(Bruckner)"
+        },
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Vienna Conservatory",
+      "country": "Austrian Empire (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1868",
+      "to": "1892",
+      "kind": "worked",
+      "what": "Took over Sechter’s theory post; added a University of Vienna post in 1875; Mahler attended the conservatory.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Royal Albert Hall and Crystal Palace, London",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1871",
+      "kind": "travelled",
+      "what": "Gave six organ recitals on a new Willis organ at the Albert Hall and five at the Crystal Palace.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Bayreuth",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 49.9481,
+      "lon": 11.5783,
+      "from": "1873-09",
+      "kind": "travelled",
+      "what": "Showed Wagner his Second and Third symphonies; Wagner chose the D minor Third, which Bruckner dedicated to him.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "Symphony No. 3 (Bruckner) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._3_(Bruckner)"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Austrian Empire (today Austria)",
+      "lat": 48.2006,
+      "lon": 16.3722,
+      "from": "1877-12-16",
+      "kind": "premiere",
+      "what": "Premiere of the 1877 version of the symphony dedicated to Wagner.",
+      "work": "Symphony No. 3",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 3 (Bruckner) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._3_(Bruckner)"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Austrian Empire (today Austria)",
+      "lat": 48.2006,
+      "lon": 16.3722,
+      "from": "1881-02-20",
+      "kind": "premiere",
+      "what": "Premiered under Hans Richter to great acclaim, the first Bruckner symphony premiere he did not conduct himself.",
+      "work": "Symphony No. 4 “Romantic”",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 4 (Bruckner) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._4_(Bruckner)"
+        }
+      ]
+    },
+    {
+      "name": "Opera house, Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3403,
+      "lon": 12.3814,
+      "from": "1884-12-30",
+      "kind": "premiere",
+      "what": "Premiered under Arthur Nikisch with the Gewandhaus Orchestra, bringing Bruckner his greatest success so far.",
+      "work": "Symphony No. 7",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 7 (Bruckner) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._7_(Bruckner)"
+        }
+      ]
+    },
+    {
+      "name": "Musikverein, Vienna",
+      "country": "Austrian Empire (today Austria)",
+      "lat": 48.2006,
+      "lon": 16.3722,
+      "from": "1892",
+      "kind": "premiere",
+      "what": "Premiered under Hans Richter, in the Musikverein, in the 1890 version dedicated to Emperor Franz Joseph.",
+      "work": "Symphony No. 8",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 8 (Bruckner) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._8_(Bruckner)"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Austrian Empire (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1896-10-11",
+      "kind": "died",
+      "what": "Died in Vienna aged seventy-two, still teaching; the Emperor had decorated him in July 1886.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        }
+      ]
+    },
+    {
+      "name": "Sankt Florian monastery church",
+      "country": "Archduchy of Austria (Austrian Empire; today Austria)",
+      "lat": 48.2073,
+      "lon": 14.3788,
+      "from": "1896-10",
+      "kind": "buried",
+      "what": "Buried in the crypt of the monastery church, directly beneath the organ he loved.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Anton Bruckner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+        },
+        {
+          "title": "St. Florian Monastery — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/St._Florian_Monastery"
+        }
+      ]
+    }
+  ]
+}

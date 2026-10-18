@@ -1,0 +1,26 @@
+{
+  "title": "Symphony No. 5, Op. 67 — III. Allegro",
+  "edition": "IMSLP #575952",
+  "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from derivative",
+  "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/3/Beethoven_Op.67_3.mxl",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+  "main": "Beethoven_Op.67_3.ly",
+  "musicxml": "Beethoven_Op.67_3.mxl",
+  "stripLyrics": true,
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/3/Beethoven_Op.67_3.mxl",
+      "file": "Beethoven_Op.67_3.mxl",
+      "sha256": "af08083c5ce61850e8fbf81672b3ccadb0d81f5038fc70a099309419dca55c02"
+    }
+  ],
+  "musicxmlImplicitMeasures": [
+    1,
+    141,
+    142,
+    162
+  ],
+  "accessed": "2026-10-17"
+}

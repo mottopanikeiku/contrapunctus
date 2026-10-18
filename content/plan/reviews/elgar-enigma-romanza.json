@@ -1,0 +1,5 @@
+{
+  "id": "elgar-enigma-romanza",
+  "verdict": "fix",
+  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The broad renewed-phrase state at 62 s remains displayed through the later retreat and quiet quotation/ending, rather than reflecting the subsequent thinning of the score.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 87–92: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf ; cache/analysis/elgar-enigma-romanza.txt.","fix":"Extend the score-backed passage map through the later reduced quotation and final withdrawal, reviewing the early phrase’s supporting entries as well. Anchor broad changes to the report instead of leaving the full renewed state active to EOF."}]
+}

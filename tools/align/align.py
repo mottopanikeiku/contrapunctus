@@ -250,9 +250,31 @@ def checks(cfg, events, data, sx, ay, scale, score_chroma, path, sections):
                'meanPathChromaCosine': float(np.mean(similarity)),
                'endAnchor': {'scoreQ': events['endQ'], 'audioSeconds': float(mapq(events['endQ'])),
                              'decodedDuration': float(data['duration']), 'activeEndMinus45dB': float(data['active_end'])}}
+    if cfg['endpoints'].get('end'):
+        summary['endAnchor']['configuredEnd'] = cfg['endpoints']['end']
     write_json(HERE / 'work' / (ident + '-attack-checks.json'),
                [{'q': float(q), 't': float(t), 'deviation': float(d)} for q, t, d in zip(attacks_q, attacks_t, deviations)])
     return summary
+
+
+def publication_reasons(diagnostics, score):
+    """The same mandatory thresholds apply to every recording/config."""
+    reasons = []
+    if diagnostics['medianAbsoluteOnsetDeviation'] > .15:
+        reasons.append('Median unique-onset deviation exceeds 0.15 seconds.')
+    if diagnostics['zeroOrNegativeDurations'] or diagnostics['collapsedAttackIntervals']:
+        reasons.append('DTW collapses score note durations or distinct attacks.')
+    if any(a['nearestOnsetDeviation'] > .5 for a in diagnostics['anchors']):
+        reasons.append('A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds.')
+    if any(r['adaptiveMedian'] > .3 for r in diagnostics['worstFiveAdaptiveRegions']):
+        reasons.append('An eight-second region has median deviation above 0.3 seconds even with local onset normalisation.')
+    if any(b['t'] <= a['t'] for a, b in zip(score['bars'], score['bars'][1:])):
+        reasons.append('Rounded publication bar times are not strictly increasing.')
+    if any(n[1] <= 0 for n in score['notes']):
+        reasons.append('Rounded publication contains a non-positive note duration.')
+    if diagnostics['roundedCollapsedAttackIntervals']:
+        reasons.append('Rounding collapses distinct score attacks in the publication.')
+    return reasons
 
 
 def run(ident):
@@ -266,7 +288,13 @@ def run(ident):
     endpoints = endpoint_anchors(cfg, events, data)
     rough_scale = float(data['duration']) / events['endQ']
     origin_frame = int(round(max(0, endpoints[0]['audioSeconds'] - endpoints[0]['scoreQ'] * rough_scale) * FPS))
-    end_frame = min(data['chroma'].shape[1] - 1, int(round(float(data['active_end']) * FPS)))
+    end_seconds = float(data['active_end'])
+    if cfg['endpoints'].get('end'):
+        end = cfg['endpoints']['end']
+        end_seconds = float(end['seconds'])
+        if not end.get('basis') or not endpoints[-1]['audioSeconds'] < end_seconds <= float(data['duration']):
+            raise ValueError('Documented display end must follow the last attack and lie within the recording')
+    end_frame = min(data['chroma'].shape[1] - 1, int(round(end_seconds * FPS)))
     origin = origin_frame / FPS
     scale = (end_frame / FPS - origin) / events['endQ']
     score_chroma, score_onset = score_features(events, scale)
@@ -301,13 +329,17 @@ def run(ident):
     source = {k: manifest[k] for k in ('title', 'edition', 'encoder', 'url', 'license', 'licenseUrl')}
     score = {'id': ident, 'status': 'provisional', 'review': {'by': None, 'date': None, 'scope': ''},
              'source': source, 'tuningHz': round(440 * 2 ** (float(data['tuning_semitones']) / 12), 2),
-             'method': 'Public-domain LilyPond/MIDI → voice-aware performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows; section anchors refined by DTW and checked against existing passage labels. Note-offs are warped notation, not measured key releases; final piano holds extend to an estimated decay threshold. No aural review. See tools/align/REPORT.md.',
+             'method': cfg.get('method', 'Public-domain LilyPond/MIDI → voice-aware performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows; section anchors refined by DTW and checked against existing passage labels. Note-offs are warped notation, not measured key releases; final written holds extend to an estimated decay threshold. No aural review. See tools/align/REPORT.md.'),
              'voices': events['voices'],
              'bars': [{'n': b['n'], 'occ': b['occ'], 't': round(float(mapq(b['q'])), 3)} for b in events['bars']],
              'notes': [[round(float(mapq(n[0])), 3), round(float(mapq(n[0] + n[1]) - mapq(n[0])), 3), int(n[2]), int(n[3]), int(n[4])] for n in events['notes']],
              'repeats': events['repeats']}
     if source['license'] != 'Public Domain':
         score['method'] = score['method'].replace('Public-domain LilyPond/MIDI', 'Licensed symbolic score → LilyPond/MIDI')
+    if cfg['endpoints'].get('end'):
+        score['method'] = score['method'].replace('final piano holds', 'final written holds').replace(
+            'final written holds extend to an estimated decay threshold',
+            'final holds extend to a documented pitch-energy display boundary, not a measured key release')
     if cfg.get('chords'):
         score['chords'] = []
         for bar in events['bars']:
@@ -318,23 +350,9 @@ def run(ident):
                     score['chords'].append({'t0': round(float(mapq(bar['q'])), 3),
                                             't1': round(float(mapq(bar['q'] + bar['durQ'])), 3),
                                             'label': chord['label'], 'basis': 'editorial'})
-    reasons = []
-    if diagnostics['medianAbsoluteOnsetDeviation'] > .15:
-        reasons.append('Median unique-onset deviation exceeds 0.15 seconds.')
-    if diagnostics['zeroOrNegativeDurations'] or diagnostics['collapsedAttackIntervals']:
-        reasons.append('DTW collapses score note durations or distinct attacks.')
-    if any(a['nearestOnsetDeviation'] > .5 for a in diagnostics['anchors']):
-        reasons.append('A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds.')
-    if any(r['adaptiveMedian'] > .3 for r in diagnostics['worstFiveAdaptiveRegions']):
-        reasons.append('An eight-second region has median deviation above 0.3 seconds even with local onset normalisation.')
-    if any(b['t'] <= a['t'] for a, b in zip(score['bars'], score['bars'][1:])):
-        reasons.append('Rounded publication bar times are not strictly increasing.')
-    if any(n[1] <= 0 for n in score['notes']):
-        reasons.append('Rounded publication contains a non-positive note duration.')
     rounded_attacks = np.round(mapq(np.unique(np.asarray(events['notes'])[:, 0])), 3)
     diagnostics['roundedCollapsedAttackIntervals'] = int(np.sum(np.diff(rounded_attacks) <= 0))
-    if diagnostics['roundedCollapsedAttackIntervals']:
-        reasons.append('Rounding collapses distinct score attacks in the publication.')
+    reasons = publication_reasons(diagnostics, score)
     diagnostics.update({'id': ident, 'tuningHz': score['tuningHz'], 'audioSha256': str(data['audio_sha256']),
                         'software': {p: importlib.metadata.version(p) for p in ('librosa', 'synctoolbox', 'numpy', 'scipy', 'mido')},
                         'scoreProvenance': events['provenance'], 'sectionAnchorPairsSeconds': [(s, a + origin) for s, a in anchors],

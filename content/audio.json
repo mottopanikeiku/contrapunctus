@@ -1,4 +1,18 @@
 {
+ "archive:02-eugen-d-albert-syposium-1146/04 - Eugen d'Albert - Au Bord d'une Source (Liszt) Odeon 76565, Mx. xxB 5732 (III.1913)..mp3": {
+  "stream": "https://archive.org/download/02-eugen-d-albert-syposium-1146/04%20-%20Eugen%20d'Albert%20-%20Au%20Bord%20d'une%20Source%20(Liszt)%20Odeon%2076565%2C%20Mx.%20xxB%205732%20(III.1913)..mp3",
+  "page": "https://archive.org/details/02-eugen-d-albert-syposium-1146",
+  "license": "Public domain",
+  "artist": "Eugen D'ALBERT - Piano, Eugen D'ALBERT - Dirigent",
+  "duration": 229
+ },
+ "archive:02-eugen-d-albert-syposium-1146/13 - Eugen d'Albert - Etude op.25 No.9 in Ges-Dur (Chopin) Odeon 76563, Mx. xxB 5731 (III.1913).mp3": {
+  "stream": "https://archive.org/download/02-eugen-d-albert-syposium-1146/13%20-%20Eugen%20d'Albert%20-%20Etude%20op.25%20No.9%20in%20Ges-Dur%20(Chopin)%20Odeon%2076563%2C%20Mx.%20xxB%205731%20(III.1913).mp3",
+  "page": "https://archive.org/details/02-eugen-d-albert-syposium-1146",
+  "license": "Public domain",
+  "artist": "Eugen D'ALBERT - Piano, Eugen D'ALBERT - Dirigent",
+  "duration": 101
+ },
  "archive:06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193/03 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Carl Martin ÖHMANN (Tenor) - 5.Von der Jugend.mp3": {
   "stream": "https://archive.org/download/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193/03%20-%20Das%20Lied%20von%20der%20Erde%20(Mahler)%20-%20Concertgebouw%20Amsterdam%20Carl%20SCHURICHT%20(5.X.1939)%20-%20Carl%20Martin%20%C3%96HMANN%20(Tenor)%20-%205.Von%20der%20Jugend.mp3",
   "page": "https://archive.org/details/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
@@ -12,6 +26,13 @@
   "license": "Public domain",
   "artist": "Kerstin THORBORG - Alt, Carl Martin ÖHMANN - Tenor, Carl SCHURICHT - Dirigent",
   "duration": 290.04
+ },
+ "archive:1925-siegfried-idyll-wagner-modern-chamber-orch-voc-k-5157-58/1925 Siegfried Idyll - Wagner - Modern Chamber Orch - VOC K5157-58.mp3": {
+  "stream": "https://archive.org/download/1925-siegfried-idyll-wagner-modern-chamber-orch-voc-k-5157-58/1925%20Siegfried%20Idyll%20-%20Wagner%20-%20Modern%20Chamber%20Orch%20-%20VOC%20K5157-58.mp3",
+  "page": "https://archive.org/details/1925-siegfried-idyll-wagner-modern-chamber-orch-voc-k-5157-58",
+  "license": "",
+  "artist": "Animating Apothecary Archives",
+  "duration": 932.45
  },
  "archive:195-complete-rachmaninoff-cd-10/186 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Prelude, Op. 23, No. 5 (rec. 17.V.1920).mp3": {
   "stream": "https://archive.org/download/195-complete-rachmaninoff-cd-10/186%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-%20Rachmaninov%20-%20Prelude%2C%20Op.%2023%2C%20No.%205%20(rec.%2017.V.1920).mp3",
@@ -34,6 +55,41 @@
   "artist": "Sergei RACHMANINOFF - Piano",
   "duration": 183
  },
+ "archive:195-complete-rachmaninoff-cd-10/190 - Complete RACHMANINOFF - CD 10 -Rachmaninov - Serenade, Op. 3, No. 5 (rec. 4.XI.1922).mp3": {
+  "stream": "https://archive.org/download/195-complete-rachmaninoff-cd-10/190%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-Rachmaninov%20-%20Serenade%2C%20Op.%203%2C%20No.%205%20(rec.%204.XI.1922).mp3",
+  "page": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+  "license": "Public domain",
+  "artist": "Sergei RACHMANINOFF - Piano",
+  "duration": 190
+ },
+ "archive:195-complete-rachmaninoff-cd-10/191 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Lilacs, Op. 21, No. 5 (rec. 27.XII.1923).mp3": {
+  "stream": "https://archive.org/download/195-complete-rachmaninoff-cd-10/191%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-%20Rachmaninov%20-%20Lilacs%2C%20Op.%2021%2C%20No.%205%20(rec.%2027.XII.1923).mp3",
+  "page": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+  "license": "Public domain",
+  "artist": "Sergei RACHMANINOFF - Piano",
+  "duration": 153
+ },
+ "archive:195-complete-rachmaninoff-cd-10/192 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Polichinelle, Op. 3, No. 4 (rec. 6.III.1923).mp3": {
+  "stream": "https://archive.org/download/195-complete-rachmaninoff-cd-10/192%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-%20Rachmaninov%20-%20Polichinelle%2C%20Op.%203%2C%20No.%204%20(rec.%206.III.1923).mp3",
+  "page": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+  "license": "Public domain",
+  "artist": "Sergei RACHMANINOFF - Piano",
+  "duration": 219
+ },
+ "archive:195-complete-rachmaninoff-cd-10/200 - Complete RACHMANINOFF - CD 10 -Rachmaninov - Polka de V.R. (rec. 23.IV.1919 for Edison).mp3": {
+  "stream": "https://archive.org/download/195-complete-rachmaninoff-cd-10/200%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-Rachmaninov%20-%20Polka%20de%20V.R.%20(rec.%2023.IV.1919%20for%20Edison).mp3",
+  "page": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+  "license": "Public domain",
+  "artist": "Sergei RACHMANINOFF - Piano",
+  "duration": 249
+ },
+ "archive:195-complete-rachmaninoff-cd-10/201 - Complete RACHMANINOFF - CD 10 -Rachmaninov - Barcarolle, Op. 10, No. 3 (rec. 23.IV.1919 for Edison).mp3": {
+  "stream": "https://archive.org/download/195-complete-rachmaninoff-cd-10/201%20-%20Complete%20RACHMANINOFF%20-%20CD%2010%20-Rachmaninov%20-%20Barcarolle%2C%20Op.%2010%2C%20No.%203%20(rec.%2023.IV.1919%20for%20Edison).mp3",
+  "page": "https://archive.org/details/195-complete-rachmaninoff-cd-10",
+  "license": "Public domain",
+  "artist": "Sergei RACHMANINOFF - Piano",
+  "duration": 236
+ },
  "archive:78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a/CONCERTO NO. 2 IN C MINOR, OP. 18 1st Movement (1st Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3": {
   "stream": "https://archive.org/download/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a/CONCERTO%20NO.%202%20IN%20C%20MINOR%2C%20OP.%2018%201st%20Movement%20(1st%20Rec%20-%20SERGEI%20RACHMANINOFF%20and%20the%20PHILADELPHIA%20SYMPHONY%20ORCHESTRA.mp3",
   "page": "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a",
@@ -48,12 +104,33 @@
   "artist": "SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA; Rachmaninoff; LEOPOLD STOKOWSKI",
   "duration": 185
  },
+ "archive:78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a/Etude in G Flat Major (Black Keys); Etude  - Alfred Cortot.mp3": {
+  "stream": "https://archive.org/download/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a/Etude%20in%20G%20Flat%20Major%20(Black%20Keys)%3B%20Etude%20%20-%20Alfred%20Cortot.mp3",
+  "page": "https://archive.org/details/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a",
+  "license": "",
+  "artist": "Alfred Cortot; Chopin",
+  "duration": 163.46
+ },
  "archive:78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/POMP AND CIRC - Chicago Symphony Orchestra and Grand Organ.mp3": {
   "stream": "https://archive.org/download/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/POMP%20AND%20CIRC%20-%20Chicago%20Symphony%20Orchestra%20and%20Grand%20Organ.mp3",
   "page": "https://archive.org/details/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b",
   "license": "",
   "artist": "Chicago Symphony Orchestra and Grand Organ; Sir Edward Elgar; Frederick Stock",
   "duration": 265.49
+ },
+ "archive:78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a/Pomp and Circumstance (No. 1 - Royal Albert Hall Orchestra.mp3": {
+  "stream": "https://archive.org/download/78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a/Pomp%20and%20Circumstance%20(No.%201%20-%20Royal%20Albert%20Hall%20Orchestra.mp3",
+  "page": "https://archive.org/details/78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a",
+  "license": "",
+  "artist": "Royal Albert Hall Orchestra; Elgar; Sir Edward Elgar, O. M.",
+  "duration": 264
+ },
+ "archive:78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a/Prelude in C Sharp Minor - Sergei Rachmaninoff.mp3": {
+  "stream": "https://archive.org/download/78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a/Prelude%20in%20C%20Sharp%20Minor%20-%20Sergei%20Rachmaninoff.mp3",
+  "page": "https://archive.org/details/78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a",
+  "license": "",
+  "artist": "Sergei Rachmaninoff",
+  "duration": 209.64
  },
  "archive:78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a/Song of the Volga Boatmen - Feodor Chaliapin.mp3": {
   "stream": "https://archive.org/download/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a/Song%20of%20the%20Volga%20Boatmen%20-%20Feodor%20Chaliapin.mp3",
@@ -69,6 +146,41 @@
   "artist": "Feodor Chaliapin; Poushkin; Rimsky-Korsakow",
   "duration": 231
  },
+ "archive:Beethoven_Sinf5-1_BPhO-Nikisch_EQ/nikisch_beethovensymphony5mvt1_eq.mp3": {
+  "stream": "https://archive.org/download/Beethoven_Sinf5-1_BPhO-Nikisch_EQ/nikisch_beethovensymphony5mvt1_eq.mp3",
+  "page": "https://archive.org/details/Beethoven_Sinf5-1_BPhO-Nikisch_EQ",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "artist": "g.schultzendorff@comlink.org",
+  "duration": 404.54
+ },
+ "archive:BeethovenFifth1910/Beethoven - Symph 5 01 Kark.mp3": {
+  "stream": "https://archive.org/download/BeethovenFifth1910/Beethoven%20-%20Symph%205%2001%20Kark.mp3",
+  "page": "https://archive.org/details/BeethovenFifth1910",
+  "license": "",
+  "artist": "",
+  "duration": 389.59
+ },
+ "archive:beethovenschnabel6/74 - Klaviersonate Nr. 23 f-moll op. 57 Appassionata - I. Allegro assai.mp3": {
+  "stream": "https://archive.org/download/beethovenschnabel6/74%20-%20Klaviersonate%20Nr.%2023%20f-moll%20op.%2057%20Appassionata%20-%20I.%20Allegro%20assai.mp3",
+  "page": "https://archive.org/details/beethovenschnabel6",
+  "license": "Public domain",
+  "artist": "Artur SCHNABEL – Piano",
+  "duration": 539.35
+ },
+ "archive:hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3": {
+  "stream": "https://archive.org/download/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3",
+  "page": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
+  "license": "",
+  "artist": "Frédéric Chopin",
+  "duration": 276
+ },
+ "archive:hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6260-1.mp3": {
+  "stream": "https://archive.org/download/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6260-1.mp3",
+  "page": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
+  "license": "",
+  "artist": "Frédéric Chopin",
+  "duration": 276
+ },
  "archive:httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545/Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3": {
   "stream": "https://archive.org/download/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545/Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3",
   "page": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
@@ -82,6 +194,13 @@
   "license": "Public domain",
   "artist": "Nanny LARSEN-TODSEN - Sopran, Gunnar GRAARUD - Tenor, Anny HELM - Sopran, Rudolf BOCKELMANN - Bariton",
   "duration": 447.61
+ },
+ "archive:prelude-in-c-sharp-minor/Relude in C-sharp Minor.mp3": {
+  "stream": "https://archive.org/download/prelude-in-c-sharp-minor/Relude%20in%20C-sharp%20Minor.mp3",
+  "page": "https://archive.org/details/prelude-in-c-sharp-minor",
+  "license": "",
+  "artist": "Sergei Rachmaninoff",
+  "duration": 211
  },
  "archive:willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926/Willem Mengelberg CGO - Col L 1798 WAX 1548-9 1926.mp3": {
   "stream": "https://archive.org/download/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926/Willem%20Mengelberg%20CGO%20-%20Col%20L%201798%20WAX%201548-9%201926.mp3",
@@ -125,12 +244,33 @@
   "artist": "Johann Sebastian Bach",
   "duration": 296.9953514739229
  },
+ "File:Bach, J S - Goldberg Variations, BWV988 - 01. Aria (Shelley Katz).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Bach%2C_J_S_-_Goldberg_Variations%2C_BWV988_-_01._Aria_%28Shelley_Katz%29.flac/Bach%2C_J_S_-_Goldberg_Variations%2C_BWV988_-_01._Aria_%28Shelley_Katz%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Bach,_J_S_-_Goldberg_Variations,_BWV988_-_01._Aria_(Shelley_Katz).flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "duration": 292.4266666666667
+ },
+ "File:Bach; Chaconne d-moll Heifetz.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Bach%3B_Chaconne_d-moll_Heifetz.flac/Bach%3B_Chaconne_d-moll_Heifetz.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Bach;_Chaconne_d-moll_Heifetz.flac",
+  "license": "Public domain",
+  "artist": "Jascha Heifetz",
+  "duration": 782.2533333333333
+ },
  "File:Bartok Op. 17, Second Movement.OGG": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Bartok_Op._17%2C_Second_Movement.OGG/Bartok_Op._17%2C_Second_Movement.OGG.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Bartok_Op._17,_Second_Movement.OGG",
   "license": "CC BY 3.0",
   "artist": "Béla Bartók (1881-1945), composer",
   "duration": 453.43891156462587
+ },
+ "File:Bolero-Maurice Ravel-1930.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Bolero-Maurice_Ravel-1930.ogg/Bolero-Maurice_Ravel-1930.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-1930.ogg",
+  "license": "Public domain",
+  "artist": "Maurice Ravel",
+  "duration": 952.4244897959184
  },
  "File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg/Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg.mp3",
@@ -202,6 +342,13 @@
   "artist": "Frédéric Chopin",
   "duration": 225.07063492063492
  },
+ "File:Chopin - 12 Études, Op. 25 - No. 9 in G-Flat major 'Butterfly Wings' (Edward Neeman).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_%28Edward_Neeman%29.flac/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_%28Edward_Neeman%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_(Edward_Neeman).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "duration": 69.01600907029479
+ },
  "File:Chopin - Ballade No. 1 in G minor, Op. 23 (Frank Levy).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Chopin_-_Ballade_No._1_in_G_minor%2C_Op._23_%28Frank_Levy%29.flac/Chopin_-_Ballade_No._1_in_G_minor%2C_Op._23_%28Frank_Levy%29.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Ballade_No._1_in_G_minor,_Op._23_(Frank_Levy).flac",
@@ -223,12 +370,26 @@
   "artist": "Frédéric Chopin / Frank Lévy",
   "duration": 762.0092708333333
  },
+ "File:Chopin - Nocturne No. 5 in F-sharp major, Op. 15 No. 2 (Luke Faulkner).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Chopin_-_Nocturne_No._5_in_F-sharp_major%2C_Op._15_No._2_%28Luke_Faulkner%29.flac/Chopin_-_Nocturne_No._5_in_F-sharp_major%2C_Op._15_No._2_%28Luke_Faulkner%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._5_in_F-sharp_major,_Op._15_No._2_(Luke_Faulkner).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin / Luke Faulkner",
+  "duration": 203.99963718820862
+ },
  "File:Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Chopin_-_Nocturne_No._8_in_D-flat_major%2C_Op._27_No._2_%28Frank_Levy%29.flac/Chopin_-_Nocturne_No._8_in_D-flat_major%2C_Op._27_No._2_%28Frank_Levy%29.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._8_in_D-flat_major,_Op._27_No._2_(Frank_Levy).flac",
   "license": "Public domain",
   "artist": "Frédéric Chopin / Frank Lévy",
   "duration": 377.7704375
+ },
+ "File:Chopin - Waltz No. 7 in C-sharp minor, Op. 64 No. 2 (Olga Gurevich).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Chopin_-_Waltz_No._7_in_C-sharp_minor%2C_Op._64_No._2_%28Olga_Gurevich%29.flac/Chopin_-_Waltz_No._7_in_C-sharp_minor%2C_Op._64_No._2_%28Olga_Gurevich%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._7_in_C-sharp_minor,_Op._64_No._2_(Olga_Gurevich).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "duration": 230.05803125
  },
  "File:Claude Debussy - Préludes (Livre I) - X. La Cathédrale engloutie (Marcelle Meyer, 1956).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Claude_Debussy_-_Pr%C3%A9ludes_%28Livre_I%29_-_X._La_Cath%C3%A9drale_engloutie_%28Marcelle_Meyer%2C_1956%29.flac/Claude_Debussy_-_Pr%C3%A9ludes_%28Livre_I%29_-_X._La_Cath%C3%A9drale_engloutie_%28Marcelle_Meyer%2C_1956%29.flac.mp3",
@@ -286,6 +447,13 @@
   "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
   "duration": 349
  },
+ "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_(Marcelle_Meyer,_1954).flac",
+  "license": "Public domain",
+  "artist": "François Couperin , Marcelle Meyer (Paris, Salle Adyar, late 1953 or January 1954)",
+  "duration": 95.14666666666666
+ },
  "File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Francois_Couperin_%28c.1631-1708-12%29_-_Sonade_from_Quatri%C3%A8me_Ordre_La_Piemontaise_L%27Astree_from_Les_Nations_Sonades_et_Suites_de_Simphonies_en_Trio_%28Paris%2C_1726%29.ogg/Francois_Couperin_%28c.1631-1708-12%29_-_Sonade_from_Quatri%C3%A8me_Ordre_La_Piemontaise_L%27Astree_from_Les_Nations_Sonades_et_Suites_de_Simphonies_en_Trio_%28Paris%2C_1726%29.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Francois_Couperin_(c.1631-1708-12)_-_Sonade_from_Quatri%C3%A8me_Ordre_La_Piemontaise_L%27Astree_from_Les_Nations_Sonades_et_Suites_de_Simphonies_en_Trio_(Paris,_1726).ogg",
@@ -313,6 +481,13 @@
   "license": "CC BY-SA 2.0",
   "artist": "Frédéric Chopin",
   "duration": 450.76
+ },
+ "File:Fryderyk Chopin - Nocturne op. 15 n.2 Fis-dur - Patrizia Prati.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg/Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Frédéric Chopin",
+  "duration": 218.8399375
  },
  "File:Grieg+plays+Grieg+Wedding+Day+(1903).ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg.mp3",
@@ -384,6 +559,13 @@
   "artist": "",
   "duration": 122.09235416666667
  },
+ "File:Ignacy Jan Paderewski - Nocturne in F-sharp major, Op. 15, No. 2 (Chopin) - Hmv-db3711-2ea4573.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major%2C_Op._15%2C_No._2_%28Chopin%29_-_Hmv-db3711-2ea4573.ogg/Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major%2C_Op._15%2C_No._2_%28Chopin%29_-_Hmv-db3711-2ea4573.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_(Chopin)_-_Hmv-db3711-2ea4573.ogg",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin (1810-1849)",
+  "duration": 221.78539583333333
+ },
  "File:Infernal Dance from The Firebird by Stravinsky.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Infernal_Dance_from_The_Firebird_by_Stravinsky.ogg/Infernal_Dance_from_The_Firebird_by_Stravinsky.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Infernal_Dance_from_The_Firebird_by_Stravinsky.ogg",
@@ -404,6 +586,13 @@
   "license": "Public domain",
   "artist": "Eric Xi Xin Liang",
   "duration": 456.22267573696143
+ },
+ "File:JOHN MICHEL CELLO-J S BACH CELLO SUITE 1 in G Prelude.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Johann Sebastian Bach",
+  "duration": 130.2726530612245
  },
  "File:Judith Bokor plays Valse triste by Sibelius.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Judith_Bokor_plays_Valse_triste_by_Sibelius.flac/Judith_Bokor_plays_Valse_triste_by_Sibelius.flac.mp3",
@@ -453,6 +642,27 @@
   "license": "Public domain",
   "artist": "Ludwig van Beethoven",
   "duration": 500.088
+ },
+ "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - ii. andante con moto.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_ii._andante_con_moto.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_ii._andante_con_moto.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_ii._andante_con_moto.ogg",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "duration": 598.68
+ },
+ "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - iii. allegro.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_iii._allegro.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_iii._allegro.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_iii._allegro.ogg",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "duration": 336.01466666666664
+ },
+ "File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - iv. allegro.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_iv._allegro.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_iv._allegro.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_iv._allegro.ogg",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "duration": 706.68
  },
  "File:Mahler - Kindertotenlieder, I (Anderson, Monteux, 1950).ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Mahler_-_Kindertotenlieder%2C_I_%28Anderson%2C_Monteux%2C_1950%29.ogg/Mahler_-_Kindertotenlieder%2C_I_%28Anderson%2C_Monteux%2C_1950%29.ogg.mp3",
@@ -685,6 +895,13 @@
   "artist": "",
   "duration": 259.21993197278914
  },
+ "File:Maurice Ravel - Miroirs - 2. Oiseaux tristes.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/Maurice_Ravel_-_Miroirs_-_2._Oiseaux_tristes.flac/Maurice_Ravel_-_Miroirs_-_2._Oiseaux_tristes.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_2._Oiseaux_tristes.flac",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "duration": 213.9116553287982
+ },
  "File:Maurice Ravel - Thérèse Dussaut - Pavane pour une infante défunte.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg",
@@ -755,6 +972,13 @@
   "artist": "Composition: Richard Wagner Performance: United States Marine Band",
   "duration": 867.4220408163266
  },
+ "File:Paderewski - Steinway grand piano.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/Paderewski_-_Steinway_grand_piano.ogg/Paderewski_-_Steinway_grand_piano.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Paderewski_-_Steinway_grand_piano.ogg",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "duration": 197.69469387755103
+ },
  "File:PDP-CH - Feodor Chaliapin - The Prophet, Op. 49 - Rimsky-Korsakov - Pushkin - Gramophone-db1103-2-022043.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/PDP-CH_-_Feodor_Chaliapin_-_The_Prophet%2C_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac/PDP-CH_-_Feodor_Chaliapin_-_The_Prophet%2C_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Feodor_Chaliapin_-_The_Prophet,_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac",
@@ -782,6 +1006,13 @@
   "license": "Public domain",
   "artist": "",
   "duration": 265.06178645833336
+ },
+ "File:PDP-CH - Walter Morse Rummel, piano - Waltz in C-sharp minor, Op. 64, No. 2 - Chopin - Gramophone-68063-2218ge9.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/PDP-CH_-_Walter_Morse_Rummel%2C_piano_-_Waltz_in_C-sharp_minor%2C_Op._64%2C_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac/PDP-CH_-_Walter_Morse_Rummel%2C_piano_-_Waltz_in_C-sharp_minor%2C_Op._64%2C_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Walter_Morse_Rummel,_piano_-_Waltz_in_C-sharp_minor,_Op._64,_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 265.53179166666666
  },
  "File:Prokofiev - Sonata No. 2 (E.M. Zinger).ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Prokofiev_-_Sonata_No._2_%28E.M._Zinger%29.ogg/Prokofiev_-_Sonata_No._2_%28E.M._Zinger%29.ogg.mp3",
@@ -895,6 +1126,13 @@
   "artist": "Karine Gilanyan",
   "duration": 271.4644671201814
  },
+ "File:Sergei Rachmaninoff - Morceaux de fantasie op. 3 No. 2 c sharp minor.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Sergei_Rachmaninoff_-_Morceaux_de_fantasie_op._3_No._2_c_sharp_minor.ogg/Sergei_Rachmaninoff_-_Morceaux_de_fantasie_op._3_No._2_c_sharp_minor.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_Morceaux_de_fantasie_op._3_No._2_c_sharp_minor.ogg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Piano: Martin Wörner Recording: Tobias Lohner",
+  "duration": 232.84
+ },
  "File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor%2C_Op._3.ogg/Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor%2C_Op._3.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg",
@@ -937,6 +1175,13 @@
   "artist": "Pyotr Ilyich Tchaikovsky",
   "duration": 618.972
  },
+ "File:Telefunken-sk2210-022110.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Telefunken-sk2210-022110.ogg/Telefunken-sk2210-022110.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Telefunken-sk2210-022110.ogg",
+  "license": "Public domain",
+  "artist": "Carl Flisch",
+  "duration": 283.370375
+ },
  "File:The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring,_RV_269_-_I._Allegro.ogg",
@@ -964,6 +1209,20 @@
   "license": "CC BY-SA 4.0",
   "artist": "Antonio Vivaldi",
   "duration": 215.28
+ },
+ "File:Vivaldi - Four Seasons 1 Spring mvt 2 Largo - John Harrison violin.oga": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Vivaldi_-_Four_Seasons_1_Spring_mvt_2_Largo_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_2_Largo_-_John_Harrison_violin.oga.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_2_Largo_-_John_Harrison_violin.oga",
+  "license": "CC BY-SA 4.0",
+  "artist": "Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison ( JohnHarrisonViolin.com )",
+  "duration": 171.64
+ },
+ "File:Vivaldi - Four Seasons 1 Spring mvt 3 Allegro - John Harrison violin.oga": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Vivaldi_-_Four_Seasons_1_Spring_mvt_3_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_3_Allegro_-_John_Harrison_violin.oga.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_3_Allegro_-_John_Harrison_violin.oga",
+  "license": "CC BY-SA 4.0",
+  "artist": "Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison ( JohnHarrisonViolin.com )",
+  "duration": 244
  },
  "File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3",

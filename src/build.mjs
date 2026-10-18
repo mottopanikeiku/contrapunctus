@@ -10,6 +10,7 @@ import { pathToFileURL } from 'node:url';
 import routes from '../content/routes.mjs';
 import { buildReturnLab } from './returnlab.mjs';
 import { buildCompare } from './compare.mjs';
+import { buildAtlasMap, placesSection } from './atlas-map.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'docs');
@@ -235,6 +236,7 @@ const NAV = [
   ['hall', 'The Hall', 'hall.html'],
   ['influence', 'Influence', 'influence.html'],
   ['compare', 'Compare', 'compare/index.html'],
+  ['map', 'Map', 'atlas-map.html'],
   ['eras', 'Atlas', 'index.html#movements'],
   ['composers', 'Composers', 'composers/index.html'],
   ['origins', 'Origins', 'origins.html'],
@@ -343,6 +345,7 @@ function composerPage(c, i) {
   const add = (id, title, inner, sub) => { const n = `${ctx.chapter}.${++section}`; toc.push([id, n, title]); parts.push(chapter(n, id, title, inner, sub)); };
 
   add('life', 'Life', `<div class="prose">${rich(ctx, c.life)}</div>`);
+  placesSection(ctx, c.slug, add);
   const inheritance = influenceModule?.influenceSection?.(ctx, c.slug) ?? '';
   if (inheritance) { toc.push(['inheritance', '', 'Musical inheritance']); parts.push(inheritance); }
   if (c.sound?.length) add('sound', 'The Sound', `<div class="anatomy">${c.sound.map((s) => `<div class="reveal"><h4>${s.glyph ? `<span class="glyph">${s.glyph}</span>` : ''}${esc(s.aspect)}</h4>${rich(ctx, s.html)}</div>`).join('')}</div>`, 'How the music is built — harmony, line, rhythm, colour, form.');
@@ -832,7 +835,7 @@ ${headScripts(ctx)}
 <div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
 <header class="r-top">
   <a class="r-brand" href="index.html"><span class="glyph">𝄞</span>Contrapunctus</a>
-  <nav class="r-nav"><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
+  <nav class="r-nav"><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="atlas-map.html">Map</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
 </header>
 
 <main class="stage">
@@ -942,6 +945,7 @@ const PROG = await programme();
 PROG_V = createHash('md5').update(JSON.stringify(PROG)).digest('hex').slice(0, 8);  // versions programme.json and assets/hall/*.json
 const influenceModule = existsSync(path.join(ROOT, 'src/influence.mjs')) ? await import('./influence.mjs') : null;
 if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, furtherReading, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
+await buildAtlasMap({ out, layout, composers, eras, art, listens, ROOT, OUT });
 await out('index.html', indexPage());
 await out('hall.html', await roomPage(PROG));
 const comparisonSearch = await buildCompare({ out, layout, esc, attr, bySlug, listens, held, ROOT, OUT });

@@ -1,0 +1,5 @@
+{
+  "id": "elgar-enigma-rpa",
+  "verdict": "fix",
+  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The lower-string opening state persists until 98 s, across the lighter wind replies already marked at 32 s and the intervening serious return. Thus the displayed lead contradicts the guide’s own principal changes.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 24–30: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf ; cache/analysis/elgar-enigma-rpa.txt:6–11.","fix":"Add score-backed passage states for the wind-led replies, renewed lower-string material and later replies before the closing link. Use the existing report boundaries and review the final sustained state through the ending."}]
+}

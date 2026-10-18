@@ -22,6 +22,7 @@
   },
   "extraction": {
     "mode": "compiled-midi",
+    "midiSettings": "\\context { \\Staff \\remove \"Key_performer\" }",
     "definitions": [
       {
         "file": "Brahms_Op.68_3.ly",

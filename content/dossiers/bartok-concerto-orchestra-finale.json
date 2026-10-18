@@ -1,0 +1,235 @@
+{
+  "id": "bartok-concerto-orchestra-finale",
+  "work": {
+    "title": "Concerto for Orchestra",
+    "catalogue": "Sz. 116 · BB 123",
+    "movement": "V. Finale",
+    "version": {
+      "value": "Orchestral version; Reiner’s corrected conducting score, with Bartók’s revised finale ending.",
+      "status": "documented",
+      "sourceIds": [
+        "critical",
+        "score"
+      ],
+      "note": "Móricz identifies the performing source as Reiner’s tissue proof CR, corrected by Bartók, and explicitly associates the 1946 recording with the new ending. The 1946 printed score is consulted for broad orchestration, not represented as Reiner’s exact performing copy; minor textual differences are not timed here. The Archive description mistakenly gives BB 127, which belongs to Piano Concerto No. 3."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Pittsburgh Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Fritz Reiner",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "critical",
+      "fingerprint",
+      "chicago"
+    ],
+    "note": "The Archive explicitly identifies Pittsburgh, 1946. Its stored AcoustID resolves to a Pittsburgh/Reiner recording, corroborating that attribution rather than merely comparing durations. This is not the Chicago Symphony/RCA recording of 22 October 1955. The fingerprint database is supplementary, community-maintained evidence, not a fresh comparison performed here."
+  },
+  "session": {
+    "date": {
+      "value": "4–5 February 1946",
+      "status": "documented",
+      "sourceIds": [
+        "critical",
+        "columbia"
+      ],
+      "note": "The critical edition identifies this range for the complete recording. The Sony discographical transcription gives 5 February for CD 5 tracks 1–5; individual movement/session allocation is not established. Neither the 1948 issue nor 2010 upload is a session date.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Syria Mosque, Pittsburgh, Pennsylvania, USA",
+      "status": "documented",
+      "sourceIds": [
+        "columbia"
+      ],
+      "note": "Venue stated in the reproduced Columbia session discography. No microphone position or engineer is established for the selected transfer."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks (original issue)",
+      "status": "documented",
+      "sourceIds": [
+        "columbia",
+        "review"
+      ],
+      "note": "This identifies the original commercial recording, not the unidentified physical or digital carrier from which the Archive MP3 was copied."
+    },
+    "catalogue": {
+      "value": "MM-793, discs 12918–12923-D; LP reissue ML 4102",
+      "status": "documented",
+      "sourceIds": [
+        "columbia",
+        "review"
+      ],
+      "note": "The discographical transcription dates MM-793 to 22 November 1948 and ML 4102 to 7 February 1949. Douglas Watt’s March 1949 review independently identifies Columbia set 793 and ML-4102 as the same Pittsburgh/Reiner performance. The exact carrier used by public-domain-archive.com remains unknown; no sleeve or label scans accompany the selected Archive item."
+    },
+    "matrixTakeSides": {
+      "value": "Complete set: XCO 35800–35811, take 1; LP matrices xLP 539 (I–II), xLP 540 (III–V)",
+      "status": "documented",
+      "sourceIds": [
+        "columbia",
+        "dahr"
+      ],
+      "note": "These are complete-recording identifiers transcribed from Sony’s discography, not an asserted side-by-side mapping for this MP3. Individual movement matrix boundaries, transfer-side joins and the transferred pressing are unknown. DAHR’s opened Reiner listing does not include these Columbia masters; no DAHR matrix record is fabricated."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Archive says only that the files were taken from public-domain-archive.com. Neither transfer engineer nor restoration producer is named. The uploader is not treated as the transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Archive public date, 8 August 2010, and file modification dates describe repository activity, not the date of analogue transfer or mastering."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Original digitisation, equalisation, noise reduction, editing, speed correction and the source carrier are unestablished. The item calls the selected file an original VBR MP3 and supplies Ogg derivatives; this does not identify how the historical master was transferred."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/BelaBartok-ConcertoForOrchestra/5.Finale.mp3",
+    "sourceChain": [
+      "archive",
+      "fingerprint"
+    ],
+    "format": "Internet Archive original MP3; selected file 5.Finale.mp3",
+    "durationSeconds": 543.3
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in the EU under the ordinary life-plus-70 term; not a worldwide clearance.",
+      "status": "documented",
+      "sourceIds": [
+        "score-catalogue",
+        "critical"
+      ],
+      "note": "Bartók died in 1945; IMSLP identifies this score as public domain in life-plus-70 countries and explicitly warns of continuing US protection. The critical-edition commentary is cited as scholarship, not redistributed as a public-domain score."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: first lawful publication in 1948, before 1963.",
+      "status": "documented",
+      "sourceIds": [
+        "critical",
+        "columbia",
+        "review",
+        "eu-term"
+      ],
+      "note": "Móricz’s source RecR states first released in 1948; the Columbia discography identifies MM-793 and its 22 November 1948 issue. A contemporary March 1949 review independently establishes that the recording was commercially available as Columbia set 793 and ML-4102. This is a publication basis anywhere, not an assumption from the 1946 session. Its former 50-year term had expired before the 2013 extension. US sound-recording status is not established. The Archive’s legacy public-domain URL alone is not relied upon; it is an uploader declaration, not proof of the performers’ release."
+    },
+    "creditLine": "Béla Bartók, V. Finale from Concerto for Orchestra, Sz. 116; Pittsburgh Symphony Orchestra, Fritz Reiner. Recorded February 1946; first issued by Columbia in 1948. Internet Archive item BelaBartok-ConcertoForOrchestra, via public-domain-archive.com; transfer credits unknown. Territorial EU basis; US status not established.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Bela Bartok, Concerto for Orchestra: metadata and file inventory",
+      "url": "https://archive.org/metadata/BelaBartok-ConcertoForOrchestra",
+      "locator": "metadata.description, licenseurl, publicdate; file 5.Finale.mp3 and its external-identifier. No sleeve/label scans in the file inventory.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "critical",
+      "title": "Klára Móricz — Concerto for Orchestra, critical-edition Comments (Henle HN 7001, 2019)",
+      "url": "https://www.henle.de/media/7c/05/ab/1697725629/7001-1697725628-sync.pdf",
+      "locator": "Printed pp. 158–159 (PDF pp. 5–6): CR, A-endR, E and RecR; identifies Pittsburgh/Reiner, recording dates, first release in 1948 and revised ending. Printed p. 160 addresses duration and bar-number errors.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "columbia",
+      "title": "Fritz Reiner — The Complete Columbia Album Collection: reproduced Sony discographical notes",
+      "url": "https://musicbase.net/the-complete-columbia-album-collection-1xfda0q",
+      "locator": "CD 5, Original Releases and Recording: MM-793, ML 4102, XCO 35800–11-1, xLP 539–540, Syria Mosque. Secondary transcription of 2020 Sony booklet, not an inspected physical label.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "review",
+      "title": "Douglas Watt — Concert Records, The New Yorker, 12 March 1949 issue",
+      "url": "https://www.newyorker.com/magazine/1949/03/12/concert-records",
+      "locator": "Paragraph beginning “An admirable rendition”: Columbia set 793 and ML-4102, Pittsburgh Symphony under Fritz Reiner, same performance on both carriers. Contemporary publication witness.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "fingerprint",
+      "title": "AcoustID — selected Archive file’s stored fingerprint identity",
+      "url": "https://acoustid.org/track/00962e85-6523-48e4-b173-1e867c70d765",
+      "locator": "Linked MusicBrainz recording and submitted metadata attribute this movement to Pittsburgh Symphony Orchestra and Fritz Reiner; supplementary corroboration only.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "chicago",
+      "title": "Frank Villella — 125 Moments: 011 First Grammy Awards, Chicago Symphony Rosenthal Archives",
+      "url": "https://chicagosymphony.org/inside-the-music/article/8311/125-moments-011-first-grammy-awards",
+      "locator": "Distinguishes Reiner’s Chicago recording of the Concerto, 22 October 1955, from the selected Pittsburgh performance.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Bartók — Concerto for Orchestra, Boosey & Hawkes, plate B. & H. 9009 (1946 edition, later impression)",
+      "url": "https://www.imslp.eu/autoindex/index.php?dir=euimg/c/c4/&file=IMSLP19114-PMLP04854-Bart%C3%B3k_-_Concerto_for_Orchestra_%28orch._score%29.pdf",
+      "locator": "pp. 79–147, including alternative ending. Viewed scan. The imprint of the inspected impression reads 2-55; copyright 1946. The erroneous New York premiere statement is not adopted. Stage maps are approximate score-based passage snapshots, not audio source separation.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score-catalogue",
+      "title": "IMSLP — Concerto for Orchestra, Sz. 116",
+      "url": "https://imslp.org/wiki/Concerto_for_Orchestra%2C_Sz.116_%28Bart%C3%B3k%2C_B%C3%A9la%29",
+      "locator": "Work identification BB 123; score #19114, public-domain territorial warning, instrumentation.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "pso",
+      "title": "Richard E. Rodda — Pittsburgh Symphony programme notes, 17–19 January 2020",
+      "url": "https://culturaldistrict-prod.s3.amazonaws.com/culturaldistrict/system/assets/29105/original/Jan._17-19__2020.pdf",
+      "locator": "PDF pp. 2–3: commission, exile, Boston premiere, Pittsburgh performances and Bartók’s own explanation of five-movement design.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bassoon",
+      "title": "Brett Van Gansbeke — The Orchestral Bassoon: Bartók, Concerto for Orchestra",
+      "url": "https://www.orchestralbassoon.com/bartok-concerto",
+      "locator": "History, manuscript title Presentando le coppie, intervallic pair design, quotation of Bartók’s programme note with bibliography.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dahr",
+      "title": "Discography of American Historical Recordings — Fritz Reiner",
+      "url": "https://adp.library.ucsb.edu/names/339665",
+      "locator": "Opened performer listing; no entry for the Columbia XCO 35800–35811 series. Negative search is not used to imply that no matrices exist.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — term of protection of sound recordings",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3 and Article 1(3), adding Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

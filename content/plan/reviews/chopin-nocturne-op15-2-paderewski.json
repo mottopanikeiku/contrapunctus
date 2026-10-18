@@ -1,0 +1,20 @@
+{
+  "id": "chopin-nocturne-op15-2-paderewski",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[0].text; transitions[1].how",
+      "severity": "minor",
+      "problem": "Two public passages discuss what a timestamp or section marker does not measure rather than guiding the listener. The methodological qualifications already belong in evidence.",
+      "evidence": "cues[0] ends with the documented-practice/not-measured-delay qualification; transitions[1] ends with a section-marker/hand-dislocation qualification. AUTHOR-BRIEF separates reader-facing prose from evidence.",
+      "fix": "Remove the last sentence of cues[0].text; replace the last sentence of transitions[1].how with a direct listening invitation about the relationship between melody and accompaniment. Retain the caution in evidence."
+    },
+    {
+      "where": "cues[7].evidence; dossier.sources[carrier].url",
+      "severity": "minor",
+      "problem": "The historical carrier citation uses the obsolete publicdomainproject.org host; the original project's current page is accessible at musicalheritage.org.",
+      "evidence": "Opened https://pool.musicalheritage.org/index.php?title=Hmv-db375-05616 : C-19781/05616/A19781, New York 14 May 1917, first US release 1917, Martin Osterwalder collection. The old host did not open during verification.",
+      "fix": "Use https://pool.musicalheritage.org/index.php?title=Hmv-db375-05616 for the carrier citation and source URL. Do not change the selected Commons audio."
+    }
+  ]
+}

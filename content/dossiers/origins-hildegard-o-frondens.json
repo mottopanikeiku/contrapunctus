@@ -1,0 +1,52 @@
+{
+  "id": "origins-hildegard-o-frondens",
+  "work": {
+    "title": "O frondens virga",
+    "catalogue": "Dendermonde manuscript, fol. 155r",
+    "movement": "Psalm antiphon for the Virgin",
+    "version": { "value": "Monophonic Marian antiphon, performed by a solo singer", "status": "documented", "sourceIds": ["society", "commons", "original"], "note": "The Hildegard Society identifies the antiphon in the Dendermonde manuscript, not Ordo virtutum. The recording pages’ dramatic attribution and associated circa-1151 date are rejected. The performer’s edition is unknown." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["society"], "note": "Hildegard’s twelfth-century authorship is established; an exact composition year is not. The Society treats reasons for omission from the Riesencodex as possibilities, not facts." },
+    "completeness": { "value": "Complete nominated antiphon performance with final applause removed", "status": "documented", "sourceIds": ["commons", "original"], "note": "The derivative’s source note explicitly identifies applause removal. No musical abridgement is documented, and Contrapunctus makes no further cut." },
+    "mode": { "value": "D mode in the manuscript", "status": "documented", "sourceIds": ["society"], "note": "Beverly Lomer gives D mode, range A below the final to the D above, principally syllabic writing, neumatic elements and short melismas. These written pitches do not establish the performance’s absolute pitch or tuning." }
+  },
+  "performers": { "value": [{ "name": "Makemi", "role": "solo voice" }], "status": "documented", "sourceIds": ["commons", "original"], "note": "The creator says performed live by self. The original’s embedded author tag reads Magdalen Kadel; the public credit retains the explicitly licensed username rather than expanding the performer’s name from an embedded tag alone." },
+  "session": {
+    "date": { "value": "2006", "status": "documented", "sourceIds": ["commons", "original"], "note": "The edited file’s description states 2006 and live performance. The original was uploaded on 23 March 2006; that day is not promoted to a session date. The derivative was uploaded on 1 October 2008.", "precision": "year" },
+    "place": { "value": null, "status": "unknown", "sourceIds": ["commons", "original"], "note": "Neither file description names the venue or town." }
+  },
+  "carrier": {
+    "label": { "value": null, "status": "unknown", "sourceIds": ["original"], "note": "No recording label is identified; the source is a creator-uploaded performance." },
+    "catalogue": { "value": null, "status": "unknown", "sourceIds": ["original"], "note": "No release catalogue number is given." },
+    "matrixTakeSides": { "value": null, "status": "unknown", "sourceIds": ["original"], "note": "The original session medium and any take identifier are not documented." }
+  },
+  "transfer": {
+    "credits": { "value": "Original performance upload by Makemi; applause-removed derivative uploaded by Adam Cuerden", "status": "documented", "sourceIds": ["commons", "original"], "note": "These are uploader and derivative-provenance credits. A separately named recording engineer is not established." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons", "original"], "note": "The 2008 derivative upload dates the deposited file, not necessarily the editing operation. No separate mastering date is known." },
+    "processing": { "value": "Applause at the end removed from O frondens.ogg; Ogg Vorbis derivative and Wikimedia MP3 transcode", "status": "documented", "sourceIds": ["commons", "original"], "note": "The source explicitly describes this non-musical trim. The derivative names Xiph.Org libVorbis I 20040629. No other restoration, tuning correction or musical edit is established." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/O_frondens_2.ogg/O_frondens_2.ogg.mp3",
+    "sourceChain": ["commons", "original"],
+    "format": "MP3 access derivative of the applause-removed Ogg Vorbis file",
+    "durationSeconds": 96.1
+  },
+  "rights": {
+    "composition": { "value": "Public-domain medieval composition", "status": "documented", "sourceIds": ["commons", "society"], "note": "The Commons Composition block applies public-domain status to Hildegard’s work. It does not license the modern sound recording." },
+    "recording": { "value": "Rule 1 — CC BY-SA 3.0 Unported, performer’s release", "status": "documented", "sourceIds": ["commons", "original", "licence"], "note": "The separately headed Performance block names Makemi as copyright holder and grants CC BY-SA 3.0 through GFDL migration; the original creator upload supplies the same licensing chain. audio.mjs selects the composition’s Public domain tag, so that automatic result is not used as recording clearance." },
+    "creditLine": "Hildegard of Bingen, O frondens virga, Marian antiphon; performed live by Makemi, 2006. Original recording released by Makemi; applause-removed derivative uploaded by Adam Cuerden, Wikimedia Commons. CC BY-SA 3.0. No additional audio edit by Contrapunctus.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — O frondens 2.ogg", "url": "https://commons.wikimedia.org/wiki/File:O_frondens_2.ogg?oldid=1189290018", "locator": "Summary, Source, separate Composition and Performance licensing blocks, derivative upload history and metadata. Its Ordo virtutum attribution is erroneous.", "accessed": "2026-10-17" },
+    { "id": "original", "title": "Wikimedia Commons — creator’s O frondens.ogg", "url": "https://commons.wikimedia.org/wiki/File:O_frondens.ogg?oldid=1189289748", "locator": "Own-work statement, live-performance description, self-licensing, 23 March 2006 upload and embedded author tag.", "accessed": "2026-10-17" },
+    { "id": "society", "title": "International Society of Hildegard von Bingen Studies — O frondens virga", "url": "https://www.hildegard-society.org/2014/10/o-frondens-virga-antiphon.html", "locator": "Psalm antiphon for the Virgin, D 155r; Beverly Lomer’s Music and Rhetoric commentary: mode, range, phrasing and manuscript transmission.", "accessed": "2026-10-17" },
+    { "id": "licence", "title": "Creative Commons Attribution-ShareAlike 3.0 Unported", "url": "https://creativecommons.org/licenses/by-sa/3.0/", "locator": "Licence linked specifically in the recording’s Performance block.", "accessed": "2026-10-17" }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17",
+    "timing": "audio.mjs analyze completed before annotation; cache/analysis/origins-hildegard-o-frondens.txt was read. The short continuous antiphon has one authored section; no invented internal joins. Three cues at 32-second intervals, two musical and one contextual, use the short-work exception.",
+    "orchestra": "Omitted because this is one unaccompanied voice. D mode describes the manuscript, not a claim of sounding D or A=440.",
+    "withheldClaims": ["Ordo virtutum membership and circa-1151 composition date", "Reason for omission from the Riesencodex", "Exact live venue or day", "Exact sung words at cue times", "Tuning, transposition and instrumental accompaniment"]
+  }
+}

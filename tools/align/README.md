@@ -78,6 +78,7 @@ For all modes:
 ### Diagnostics and engraving
 
 - `boundaries`: `[["19",1,42], ...]` gives printed bar, occurrence and coarse independent editorial seconds. Without them, listen sections are explicitly non-independent nearest-bar locators.
+- `endpoints.end`: optional `{seconds:256.5,basis:"measured pitch-energy decay evidence"}` for a documented musical display end when surface noise keeps whole-file RMS active after the pitched decay. It must follow the last attack and lie inside the recording. The report retains both the original −45 dB RMS end and this explicit boundary; this is not a measured key release and does not relax any numeric gate.
 - `diagnostics.held`: `{voice:0,minimumDurationQ:9}` or `{voice:7,onsets:[2,6]}`. Default: inspect the final chord.
 - `diagnostics.recurrences`: fixed-lag specs such as `{start:3,secondQ:248,secondOffset:3,length:45,search:4}`. `startQ` plus `startOffset` may replace absolute `start`; `scanRecurrence:true` enables the original long-diagonal diagnostic.
 - `diagnostics.overlays`: extra recording `[start,end]` windows.
@@ -97,8 +98,9 @@ For a rights-established MusicXML source, `source.musicxml` names the original d
 - `musicxmlImplicitMeasures:[1,54,55]`: mark those original XML numbers implicit, avoiding converter padding of documented pickup/split bars.
 - `metricEquivalenceWords:true`: preserve two-beat-unit metric-equivalence metronomes as equivalent printed words, avoiding a LilyPond 2.24.4 converter failure.
 - `otherDynamicsWords:true`: preserve nonstandard `other-dynamics` text as words rather than invalid identifiers; ordinary dynamics remain intact.
+- `musicxmlFlattenTuplets`: `[{part:"P3",measures:[120,121,122,123],outerNumber:1,basis:"source nested-tuplet evidence"}]` handles the converter’s duplicated uniform nested-tuplet groups. Each selected single-voice measure must have explicit combined type/ratio and complete outer groups. Their brackets flatten to that combined ratio; exact written durations replace rounded playback ticks on a common divisions grid. Pitch/order, beams and slurs stay unchanged; other part durations are exactly rescaled. Ambiguous/mixed groups, cross-measure groups, chords and grace notes are rejected, not guessed.
 
-Explain transformations in provenance and the per-piece report. Original downloaded bytes and note events remain unmodified. Inspect generated variables and bar numbers: successful conversion does not establish edition or repeat correctness.
+Explain transformations in provenance and the per-piece report. Original downloaded bytes remain unmodified. The optional tuplet operation derives exact time from the source’s written type/dots/ratio rather than its rounded MIDI-style ticks; it does not invent pitches or duplicate notes. Inspect generated variables and bar numbers: successful conversion does not establish edition or repeat correctness.
 
 ## Source provenance and baseline decisions
 
@@ -145,3 +147,9 @@ node tools/engrave.mjs satie-gymnopedie-1
 Lower-level `fetch.py`, `prepare.py`, `score_events.py`, `align.py` remain diagnostic tools, but **only the driver publishes**; `align.py` no longer offers a `--publish` bypass. The original four-piece rerun and exact numerical/byte differences are recorded in REPORT.md.
 
 Without explicit ids, `node tools/engrave.mjs` re-engraves only configured recordings that already have a published `score.json`, not withheld candidates.
+
+Deterministic gate-boundary, rounding, equivalence, pickup/repeat and transposition regressions (no recording decoding or network):
+
+```sh
+/tmp/contrapunctus-align-venv/bin/python -m unittest discover -s tools/align -p 'test_*.py'
+```

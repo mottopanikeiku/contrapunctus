@@ -1,0 +1,57 @@
+{
+  "id": "origins-monteverdi-quel-augellin",
+  "work": {
+    "title": "Quel augellin che canta",
+    "catalogue": "SV 87; Madrigals, Book IV, No. 13",
+    "movement": "Five-part madrigal",
+    "version": { "value": "Five-part unaccompanied vocal setting, SSATB", "status": "documented", "sourceIds": ["imslp", "score", "fma-track"], "note": "The opened score supplies two soprano, alto, tenor and bass parts, without instruments. Neither the exact edition used by the choir nor its performance transposition is established." },
+    "publication": { "value": "1603, Fourth Book of Madrigals", "status": "documented", "sourceIds": ["imslp"], "note": "Publication date, not a guessed composition year." },
+    "text": { "value": "Giovanni Battista Guarini, adapted from Il pastor fido, Act I, scene 1", "status": "documented", "sourceIds": ["imslp", "poem", "score"], "note": "LiederNet identifies lines 175–186 and distinguishes Monteverdi’s adapted text. Public prose paraphrases the imagery; no copyrighted modern translation or exact timed syllable is supplied." },
+    "completeness": { "value": "Whole nominated Tudor Consort madrigal track", "status": "documented", "sourceIds": ["fma-track", "fma-album", "commons"], "note": "The published concert track is retained intact, including its quiet tail. It is not grouped as a multi-movement set merely because it appears in Book IV or on an album." },
+    "scoreEdition": { "value": "Daniel Van Gilst, 2019, CC0, four-page SSATB score", "status": "documented", "sourceIds": ["imslp", "score"], "note": "The complete score was opened and viewed. This modern engraving is dedicated to the public domain under CC0. Its transposition is not used to identify the choir’s sounding key or pitch standard." }
+  },
+  "performers": { "value": [{ "name": "The Tudor Consort", "role": "vocal ensemble" }, { "name": "Alastair Carey", "role": "director" }], "status": "documented", "sourceIds": ["fma-track", "fma-album", "commons"], "note": "The track description and Carey’s album notes agree. Five written parts do not establish five individual singers, and no instrumental players are credited." },
+  "session": {
+    "date": { "value": "2005-11-02", "status": "documented", "sourceIds": ["fma-track", "fma-album"], "note": "The track names the Ordizia concert; the album’s first-person liner notes explicitly date it to Wednesday 2 November 2005. The 19 August 2010 date on FMA and Commons is an online release, not the recording session.", "precision": "day" },
+    "place": { "value": "Parroquial Church, Ordizia, Spain", "status": "documented", "sourceIds": ["fma-track", "fma-album", "commons"], "note": "The track and album notes name the venue. The later Rome concert and 2006 New Zealand recording described elsewhere in the same album notes belong to different tracks." }
+  },
+  "carrier": {
+    "label": { "value": null, "status": "unknown", "sourceIds": ["fma-album"], "note": "The album was prepared for the Tudor Consort’s twentieth anniversary, but no original imprint is named. FMA and Commons are access repositories." },
+    "catalogue": { "value": null, "status": "unknown", "sourceIds": ["fma-album"], "note": "No commercial catalogue number is supplied." },
+    "matrixTakeSides": { "value": null, "status": "unknown", "sourceIds": ["fma-album"], "note": "The notes refer to a disc but supply no matrix, mastering identifier or take number." },
+    "album": { "value": "Live in Concert, track 5", "status": "documented", "sourceIds": ["fma-track", "fma-album"], "note": "A mixed concert anthology, with different sessions explicitly distinguished in the liner notes." }
+  },
+  "transfer": {
+    "credits": { "value": "Timothy Hurd, producer and engineer; Commons import by ComputerHotline", "status": "documented", "sourceIds": ["fma-album", "commons"], "note": "Hurd is explicitly credited at album level. The Commons uploader is not presented as the original engineer." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["fma-track", "fma-album", "commons"], "note": "The 2005 concert date, 2010 FMA release and 11 April 2020 Commons upload do not establish a mastering or transfer date." },
+    "processing": { "value": "FMA MP3 source converted to Ogg for Commons; Wikimedia MP3 access derivative", "status": "documented", "sourceIds": ["commons", "fma-track"], "note": "Original recording medium, microphones, editing and equalisation settings are not supplied. No further processing or audio trim is introduced here." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg/The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg.mp3",
+    "sourceChain": ["commons", "fma-track", "fma-album"],
+    "format": "MP3 access derivative of the Commons Ogg import from FMA",
+    "durationSeconds": 120.3
+  },
+  "rights": {
+    "composition": { "value": "Public-domain 1603 madrigal; inspected engraving dedicated under CC0", "status": "documented", "sourceIds": ["imslp", "score"], "note": "Historical composition rights and Van Gilst’s engraving status are separate from the Tudor Consort’s sound recording rights." },
+    "recording": { "value": "Rule 1 — CC BY 3.0 Unported", "status": "documented", "sourceIds": ["fma-track", "fma-album", "commons", "licence"], "note": "The external FMA track was opened directly and explicitly licenses this human choral performance under CC BY 3.0, without a NonCommercial condition. Commons contains a 2024 review template referring anomalously to a Flickr image; that text is not relied upon as verification of an FMA recording. The actual FMA recording page supplies independent evidence." },
+    "creditLine": "Monteverdi, Quel augellin che canta, SV 87; The Tudor Consort, directed by Alastair Carey. Recorded live, Parroquial Church, Ordizia, Spain, 2 November 2005. Timothy Hurd, producer and engineer. Source: The Tudor Consort / Free Music Archive; Commons import by ComputerHotline. Recording CC BY 3.0; transcoded access copy, no new editorial audio cut.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — Tudor Consort, Quel Augelin Che Canta", "url": "https://commons.wikimedia.org/wiki/File:The_Tudor_Consort_-_05_-_Claudio_Monteverdi_-_Quel_Augelin_Che_Canta.ogg?oldid=1179712687", "locator": "Ordizia and Carey credits, FMA source, CC BY licence, 2010 Date field, 2020 upload and anomalous Flickr-worded review template.", "accessed": "2026-10-17" },
+    { "id": "fma-track", "title": "Free Music Archive — Claudio Monteverdi: Quel Augelin Che Canta", "url": "https://freemusicarchive.org/music/The_Tudor_Consort/Live_in_Concert/05_Quel_Augelin_Che_Canta", "locator": "Recording description, Ordizia venue, Alastair Carey, Released 19 August 2010 and explicit CC BY 3.0 recording licence.", "accessed": "2026-10-17" },
+    { "id": "fma-album", "title": "Free Music Archive — The Tudor Consort, Live in Concert", "url": "https://freemusicarchive.org/music/The_Tudor_Consort/Live_in_Concert", "locator": "Alastair Carey’s liner notes identify the first group of tracks with Wednesday 2 November 2005 in Ordizia; distinguish later Rome and New Zealand sessions; name Timothy Hurd as producer and engineer.", "accessed": "2026-10-17" },
+    { "id": "imslp", "title": "IMSLP — Quel augellin che canta sì dolcemente, SV 87", "url": "https://imslp.org/wiki/Quel_augellin_che_canta_s%C3%AC_dolcemente,_SV_87_(Monteverdi,_Claudio)", "locator": "Book IV, No. 13, 1603 publication, five unaccompanied voices, Guarini source and Daniel Van Gilst’s 2019 CC0 edition.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Monteverdi — Quel augellin che canta, ed. Daniel Van Gilst", "url": "https://ks15.imslp.org/files/imglnks/usimg/b/b7/IMSLP561996-PMLP525417-Monteverdi,_Claudio_-_Quel_augellin_che_canta_(5vx).pdf", "locator": "All four pages viewed: upper-trio opening, later lower-part entries, longer middle-span values and final moving upper figures over sustained lower parts. Used for texture, not exact timing or sounding pitch.", "accessed": "2026-10-17" },
+    { "id": "poem", "title": "LiederNet — Quel augellin, che canta", "url": "https://www.lieder.net/lieder/get_text.html?RF=0&TextId=7068", "locator": "Guarini, Il pastor fido, Act I, scene 1, lines 175–186; marks differences in Monteverdi’s adapted words. No modern translation is reproduced.", "accessed": "2026-10-17" },
+    { "id": "licence", "title": "Creative Commons Attribution 3.0 Unported", "url": "https://creativecommons.org/licenses/by/3.0/", "locator": "Licence linked directly by the FMA track for the recording.", "accessed": "2026-10-17" }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17",
+    "timing": "audio.mjs analyze completed before annotation; cache/analysis/origins-monteverdi-quel-augellin.txt was read. Broad score-proportion joins use measured boundaries near 0:40 and 1:26, not exact phrase or word alignment. Four 30-second-spaced cues include two musical and two contextual observations under the short-work exception.",
+    "orchestra": "One chorus timeline entry represents the score’s five vocal parts. Its note explicitly distinguishes the upper-trio opening from later fuller writing without fabricating entry times or claiming that all five parts sing continuously.",
+    "withheldClaims": ["Exact composition date", "2010 as the session year", "Uncredited instrumental accompaniment or continuo", "Number or identities of individual singers", "Performing edition, transposition, pitch standard and precise word timestamps"]
+  }
+}

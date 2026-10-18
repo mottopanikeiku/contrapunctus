@@ -1,0 +1,237 @@
+{
+  "id": "elgar-enigma-ysobel",
+  "work": {
+    "title": "Variations on an Original Theme “Enigma”",
+    "catalogue": "Op. 36",
+    "movement": "VI. “Ysobel” (Andantino)",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial alterations are not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Hallé Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "John Barbirolli",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "1947",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The upstream description explicitly attributes the recording to 1947. Commons’ 1 January value is not supported as an actual session day.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is identified in the sources consulted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The label or imprint of the carrier used for this digital file is not identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number identifying the transferred carrier is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer or mastering engineer is identified; an uploader is not automatically a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. Upload and release dates are not treated as transfer dates."
+    },
+    "processing": {
+      "value": "A 26-minute MP3 was split into individual variations using Mp3 Direct Cut.",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The uploader explicitly describes this editing step. No digitisation engineer, original label, carrier or noise treatment is established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Elgar%3B_Enigma_variations%2C_Theme_VI._Ysobel.ogg/Elgar%3B_Enigma_variations%2C_Theme_VI._Ysobel.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive",
+      "legacy-archive"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis. Duration measured from the downloaded MP3.",
+    "durationSeconds": 65.31
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "The composer died in 1934. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Territorial sound-recording public-domain claim: PD-EU-audio; eligible under the programme’s European historical-recording rule.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-extension",
+        "eu-audio"
+      ],
+      "note": "The recording-specific Licensing section says European performers’ and producers’ rights have expired. The structured CC0 claim is not treated as a waiver by the original commercial rights holder. This is territorial, not a worldwide licence; US sound-recording status is not established. The attributed 1947 recording year is not represented as an independently verified first-publication date.",
+      "alternatives": [
+        {
+          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "sourceIds": [
+            "commons",
+            "eu-audio"
+          ]
+        },
+        {
+          "value": "CC0 — dedication asserted by Commons Structured data.",
+          "sourceIds": [
+            "commons-data"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Edward Elgar, VI. “Ysobel” (Andantino), Enigma Variations, Op. 36; Hallé Orchestra, John Barbirolli, attributed to 1947. Public Domain Archive → Internet Archive → Wikimedia Commons. Territorial PD-EU-audio basis; no worldwide recording clearance asserted.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Elgar; Enigma variations, Theme VI. Ysobel.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VI._Ysobel.ogg",
+      "locator": "Summary, recording-specific Licensing, embedded metadata and MP3 transcode. All three claims—recording, composition and metadata rights—are considered separately.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — structured and embedded metadata for VI. “Ysobel” (Andantino)",
+      "url": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VI._Ysobel.ogg#structureddata",
+      "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Edward Elgar: Enigma Variations",
+      "url": "https://archive.org/metadata/EdwardElgar-EnigmaVariations",
+      "locator": "metadata.description: Hallé Orchestra, John Barbirolli, 1947; original MP3 divided into tracks with Mp3 Direct Cut. Commons links every variation to track 01; the per-file embedded title identifies this variation instead.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "legacy-archive",
+      "title": "Public Domain Archive — former album 177",
+      "url": "http://public-domain-archive.com/classic/download.php?lang=eng&album_no=177",
+      "locator": "Historical source URL quoted in the Internet Archive description. At access it was a parked domain, not the original recording catalogue.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Edward Elgar — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Edward_Elgar",
+      "locator": "Lead paragraph: composer’s death year.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Elgar, Enigma Variations, Novello full score",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
+      "locator": "PDF pp. 31–34, rehearsal figures 19–22; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "portraits",
+      "title": "Elgar Society — Enigma Variations",
+      "url": "https://elgar.org/3enigma.htm",
+      "locator": "Work history and named subjects of the variations; Romanza identity expressly qualified.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer-commentary",
+      "title": "Enigma Variations — work account with Elgar’s portrait descriptions",
+      "url": "https://en.wikipedia.org/wiki/Enigma_Variations",
+      "locator": "Structure section: the corresponding variation; quotations identified as Elgar’s later commentary.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

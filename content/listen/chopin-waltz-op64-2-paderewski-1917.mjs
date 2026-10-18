@@ -44,7 +44,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "Dance and flexible time",
       "text": "Paderewski’s 1909 essay treats rubato as expressive freedom, including in dance-derived music. That is a documented listening context, not a measurement proving a delay on any particular beat.",

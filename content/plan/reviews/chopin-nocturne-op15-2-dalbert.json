@@ -1,0 +1,13 @@
+{
+  "id": "chopin-nocturne-op15-2-dalbert",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "dossier.rights.recording",
+      "severity": "major",
+      "problem": "The rights entry presently rests on the Archive item's Public Domain Mark declaration. PDM is a status assertion, not a grant by the recording rightsholder; the final programme rule requires the actual historical publication basis to be stated.",
+      "evidence": "PROGRAM.md Rights rule (final); opened https://archive.org/metadata/02-eugen-d-albert-syposium-1146/metadata and its D'Albert tracks.jpg scan. Track 10 is the historic 1916 Gramophone issue, catalogue 045578 on the scan, with filename 045678 disputed as already documented. The 1993 compilation is not the historical recording's first issue.",
+      "fix": "State the programme's US pre-1926-publication basis for the historical 1916 issue explicitly, with its supporting source and territorial limitation; do not present PDM as an independent worldwide recording release. Retain the catalogue discrepancy and unknown transfer credits. Reuse the pre-1926 rights treatment already used for your Cortot and RomA5 d'Albert recording, adding source.rights only if needed by that established pattern."
+    }
+  ]
+}

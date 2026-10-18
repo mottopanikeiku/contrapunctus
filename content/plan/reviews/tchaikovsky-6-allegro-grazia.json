@@ -1,0 +1,8 @@
+{
+  "id": "tchaikovsky-6-allegro-grazia",
+  "verdict": "fix",
+  "defects": [
+    {"where":"orchestra.ensemble and orchestra.timeline","severity":"major","problem":"[EXT] The orchestra map omits trumpets and trombones entirely, but the cited score gives them notes in the coda (PDF p. 24). They cannot be displayed at any time when absent from ensemble and playing arrays.","evidence":"https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf PDF p. 24: Trp. 1,2 in A and A.-T.-Pos. both have sounding phrases.","fix":"Add trumpets and trombones to the ensemble and score-backed passage states where they participate, including the coda’s brief brass phrase followed by its withdrawal. Check the earlier crests against the same score; do not leave brass absent solely because the opening has none."},
+    {"where":"cues at 397/403","severity":"minor","problem":"[MEAS] The general cue at 397 s is replaced by the added report-anchored cue at 403 s after only six seconds.","evidence":"content/listen/tchaikovsky-6-allegro-grazia.mjs:150–166.","fix":"Remove or merge the 397 s general cue (‘Wind and string replies’) with the 403 s listening window; retain the measured crest cue and avoid the six-second display interval."}
+  ]
+}

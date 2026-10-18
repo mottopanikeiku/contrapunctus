@@ -1,0 +1,292 @@
+{
+  "id": "feldman",
+  "places": [
+    {
+      "name": "New York City",
+      "country": "United States (today United States)",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1926-01-12",
+      "kind": "born",
+      "what": "Born in Woodside, Queens.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States (today United States)",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1941",
+      "kind": "studied",
+      "what": "Began composition lessons with Wallingford Riegger.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States (today United States)",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1944",
+      "kind": "studied",
+      "what": "Studied composition with Stefan Wolpe.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Carnegie Hall New York",
+      "country": "United States (today United States)",
+      "lat": 40.76503,
+      "lon": -73.9798868,
+      "from": "1950",
+      "kind": "heard",
+      "what": "Heard Webern’s Symphony and met John Cage in the lobby.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Morton Feldman",
+          "url": "https://en.wikipedia.org/w/index.php?title=Morton_Feldman&action=render"
+        },
+        {
+          "title": "OpenStreetMap place record",
+          "url": "https://nominatim.openstreetmap.org/search?q=Carnegie%20Hall%20New%20York&format=json&limit=1"
+        }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States (today United States)",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1950",
+      "kind": "lived",
+      "what": "Moved into Cage’s building on Monroe Street and entered the New York School circle.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Morton Feldman Footsteps: photographed homes and grave",
+          "url": "https://www.cnvill.net/mffootsteps.html"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States (today United States)",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1969",
+      "to": "1971",
+      "kind": "worked",
+      "what": "Served as dean of the New York Studio School.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Houston, Texas",
+      "country": "United States (today United States)",
+      "lat": 29.7589382,
+      "lon": -95.3676974,
+      "from": "1971",
+      "kind": "worked",
+      "what": "Composed Rothko Chapel for the Houston sanctuary and its paintings.",
+      "work": "Rothko Chapel",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Geographic coordinates: Houston, Texas",
+          "url": "https://nominatim.openstreetmap.org/search?q=Houston%2C%20Texas&format=json&limit=1"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "West Berlin (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1971-09",
+      "to": "1972-10",
+      "kind": "lived",
+      "what": "Held a DAAD artists’ residency in West Berlin.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Buffalo, New York",
+      "country": "United States (today United States)",
+      "lat": 42.88638889,
+      "lon": -78.87805556,
+      "from": "1973",
+      "to": "1987",
+      "kind": "worked",
+      "what": "Held the Edgard Varèse professorship at the State University of New York at Buffalo.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Geographic coordinates: Buffalo, New York",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Oakland%2C_California%7CLegon%7CSeattle%7CBerkeley%2C_California%7CWorcester%2C_Massachusetts%7CConcord%2C_New_Hampshire%7CSaint_Paul%2C_Minnesota%7CFreiburg_im_Breisgau%7CSan_Diego%7CSalzburg%7CAix-en-Provence%7CManchester%7CCheltenham%7CBirmingham%7CMiami_Beach%7CHolt%2C_Norfolk%7CSnape%2C_Suffolk%7CNorwich%7CAmityville%2C_New_York%7CEscondido%2C_California%7CCoventry%7CSaint-Jean-de-Luz%7CVerdun%7CLyons-la-For%C3%AAt%7CSaint-Cloud%7CMeg%C3%A8ve%7CLamastre%7CCh%C3%A2teauneuf-en-Thymerais%7CLevallois-Perret%7CToronto%7CVancouver%7CPortland%2C_Oregon%7CDenver%7COmaha%7CMinneapolis%7CKansas_City%2C_Missouri%7CDetroit%7CNew_Orleans%7CPhoenix%2C_Arizona%7CGrand_Canyon_Village%2C_Arizona%7CBuffalo%2C_New_York%7CAmsterdam%7CEdinburgh%7CNewcastle_upon_Tyne%7CMarrakesh%7CFez%2C_Morocco%7CTangier%7CTelouet%7CKasba_Tadla%7CHermance"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "West Berlin (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1976",
+      "kind": "travelled",
+      "what": "Met Samuel Beckett, beginning the collaboration that produced Neither.",
+      "work": "Neither",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Rome",
+      "country": "Italy (today Italy)",
+      "lat": 41.89333333,
+      "lon": 12.48277778,
+      "from": "1977",
+      "kind": "premiere",
+      "what": "Neither received its first production at the Teatro dell’Opera.",
+      "work": "Neither",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Wikipedia coordinate records",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
+        }
+      ]
+    },
+    {
+      "name": "Darmstadt",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 49.87222,
+      "lon": 8.65278,
+      "from": "1984",
+      "to": "1986",
+      "kind": "worked",
+      "what": "Taught at the Darmstadt summer courses.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "IRCAM: Morton Feldman biography",
+          "url": "https://ressources.ircam.fr/en/composer/morton-feldman/biography"
+        },
+        {
+          "title": "Geographic coordinates: Darmstadt",
+          "url": "https://en.wikipedia.org/w/index.php?title=Darmstadt&action=render"
+        }
+      ]
+    },
+    {
+      "name": "Beth Moses Cemetery, West Babylon",
+      "country": "United States (today United States)",
+      "lat": 40.7398975,
+      "lon": -73.3915386,
+      "from": "1987",
+      "kind": "buried",
+      "what": "Buried at Beth Moses Cemetery on Long Island.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Morton Feldman Footsteps: photographed homes and grave",
+          "url": "https://www.cnvill.net/mffootsteps.html"
+        },
+        {
+          "title": "Geographic coordinates: Beth Moses Cemetery, West Babylon",
+          "url": "https://nominatim.openstreetmap.org/search?q=Beth%20Moses%20Cemetery%20West%20Babylon&format=json&limit=1"
+        }
+      ]
+    },
+    {
+      "name": "Buffalo, New York",
+      "country": "United States (today United States)",
+      "lat": 42.88638889,
+      "lon": -78.87805556,
+      "from": "1987-09-03",
+      "kind": "died",
+      "what": "Died at his Buffalo home.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Morton Feldman",
+          "url": "https://en.wikipedia.org/w/index.php?title=Morton_Feldman&action=render"
+        },
+        {
+          "title": "Geographic coordinates: Buffalo, New York",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Oakland%2C_California%7CLegon%7CSeattle%7CBerkeley%2C_California%7CWorcester%2C_Massachusetts%7CConcord%2C_New_Hampshire%7CSaint_Paul%2C_Minnesota%7CFreiburg_im_Breisgau%7CSan_Diego%7CSalzburg%7CAix-en-Provence%7CManchester%7CCheltenham%7CBirmingham%7CMiami_Beach%7CHolt%2C_Norfolk%7CSnape%2C_Suffolk%7CNorwich%7CAmityville%2C_New_York%7CEscondido%2C_California%7CCoventry%7CSaint-Jean-de-Luz%7CVerdun%7CLyons-la-For%C3%AAt%7CSaint-Cloud%7CMeg%C3%A8ve%7CLamastre%7CCh%C3%A2teauneuf-en-Thymerais%7CLevallois-Perret%7CToronto%7CVancouver%7CPortland%2C_Oregon%7CDenver%7COmaha%7CMinneapolis%7CKansas_City%2C_Missouri%7CDetroit%7CNew_Orleans%7CPhoenix%2C_Arizona%7CGrand_Canyon_Village%2C_Arizona%7CBuffalo%2C_New_York%7CAmsterdam%7CEdinburgh%7CNewcastle_upon_Tyne%7CMarrakesh%7CFez%2C_Morocco%7CTangier%7CTelouet%7CKasba_Tadla%7CHermance"
+        }
+      ]
+    }
+  ]
+}

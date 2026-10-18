@@ -1,27 +1,5 @@
 {
   "id": "rachmaninoff-polichinelle",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[4].text and evidence; transitions[1].evidence",
-      "severity": "major",
-      "problem": "Several numerical anchors are absent from or contradict the report: 1:55 is −22.9 dB, not −11.1; there are no detected boundaries at 1:56, 2:34 or 2:38; the 2:35 onset rate is 2.0, not 3.6 per second.",
-      "evidence": "cache/analysis/rachmaninoff-polichinelle.txt:5–15,43–53. Real nearby boundaries are 2:02, 2:14 and 2:26. The first quiet dip recovers to −14.9 dB by 2:00; 2:25 is −11.1 dB.",
-      "fix": "Place the first restart approximately around 2:00 and cite the actual 1:50→2:00 level recovery. Replace the nonexistent 1:56 boundary with 2:02. For the estimated return at 2:38 cite the real 2:26 boundary followed by the 2:30→2:40 level decline, and the actual 2.0→1.6 onset-rate change at 2:35→2:40; explicitly retain passage-level uncertainty rather than inventing a boundary."
-    },
-    {
-      "where": "cues[5].text; transitions[1].how",
-      "severity": "major",
-      "problem": "The climactic sfff chords on score page 6 principally belong to the left hand beneath continuing right-hand figuration. Describing them as block chords struck by both hands together misrepresents the texture.",
-      "evidence": "https://www.pianostreet.com/rachmaninoff-sheet-music/morceaux-de-fantaisie/polichinelle-op-3-4.htm — piano-score preview page 6, systems 2–4: left-hand sfff chords and rests while the right hand continues its figures.",
-      "fix": "Describe left-hand sfff chordal interruptions under the continuing right-hand figures, then the ppp return of the opening gestures. Remove the unsupported categorical contrast ‘rather than by a cadence’; describe the verified dynamic, articulation and texture contrast instead."
-    },
-    {
-      "where": "cues[7].text",
-      "severity": "minor",
-      "problem": "The terminal fermata is over the final rest, not over a sounding final chord.",
-      "evidence": "https://www.pianostreet.com/rachmaninoff-sheet-music/morceaux-de-fantaisie/polichinelle-op-3-4.htm — piano-score preview page 8, last bar.",
-      "fix": "Say the short closing chords are followed by a final rest bearing a fermata, rather than putting the chords ‘under a fermata’."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

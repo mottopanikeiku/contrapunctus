@@ -1,0 +1,280 @@
+{
+  "id": "mozart-requiem-introitus",
+  "work": {
+    "title": "Requiem in D minor, K. 626",
+    "catalogue": "K. 626",
+    "movement": "I. Introitus: Requiem aeternam — Adagio",
+    "version": {
+      "value": "Mozart’s completed Introitus, within the traditional Mozart–Süssmayr Requiem; performing edition unidentified.",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "nma-preface",
+        "nma-score",
+        "score-scan"
+      ],
+      "note": "The NMA distinguishes the Introitus, fully orchestrated by Mozart, from the incomplete later movements. The file contains this complete opening movement, stopping before the Kyrie. The traditional version is an identification from the repertory and score comparison, not an edition named by the upload. Walter’s precise instrumental alterations are unestablished."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Lisa della Casa",
+        "role": "soprano"
+      },
+      {
+        "name": "Wiener Staatsopernchor",
+        "role": "chorus"
+      },
+      {
+        "name": "Wiener Philharmoniker",
+        "role": "orchestra"
+      },
+      {
+        "name": "Franz Sauer",
+        "role": "organ"
+      },
+      {
+        "name": "Bruno Walter",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive",
+      "concert",
+      "festival-catalogue"
+    ],
+    "note": "Lisa della Casa is the soprano soloist for this movement. Commons and Internet Archive name the Wiener Staatsopernchor; the festival catalogue uses Konzertvereinigung Wiener Staatsopernchor. The primary concert archive confirms Walter, the orchestra, all four concert soloists and Franz Sauer, but leaves its choir field blank. Ira Malaniuk, Anton Dermota and Cesare Siepi belong to the full concert cast, not to an invented solo entrance in this movement."
+  },
+  "session": {
+    "date": {
+      "value": "1956-07-26",
+      "status": "documented",
+      "sourceIds": [
+        "concert",
+        "commons",
+        "archive",
+        "discography"
+      ],
+      "note": "The primary concert archive identifies Thursday 26 July 1956; Commons, Internet Archive and the discography agree. This is the live performance date, not the date of first publication, a later commercial issue, digitisation or upload.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Small Festival Hall (Kleines Festspielhaus), Salzburg, Austria",
+      "status": "documented",
+      "sourceIds": [
+        "concert",
+        "archive",
+        "discography"
+      ],
+      "note": "The Vienna Philharmonic event archive supplies Small Festival Hall. Internet Archive calls the source a live Salzburg Festival performance; the discography uses the broader Festspielhaus designation. No studio session, microphone layout or original recording medium is inferred."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "discography",
+        "festival-catalogue"
+      ],
+      "note": "The carrier actually used for this upload is unidentified. The discography lists Cetra, Nuova Era, Seven Seas and Orfeo issues of this performance. The official festival catalogue documents an Orfeo CD in 1996, but neither source ties that issue to the Ogg. A known issue is not a demonstrated transfer source."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "discography",
+        "festival-catalogue"
+      ],
+      "note": "No catalogue number is attached to the transferred source. Cetra LO516, Nuova Era 2209, Seven Seas K30Y307 and Orfeo C430961B are documented release leads only. The festival catalogue dates Orfeo C 430 961 B to 1996; that is not evidence of first release or byte provenance."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "discography"
+      ],
+      "note": "No matrix, take or side identifiers are supplied for the source used. The file is a complete movement from a live performance; neither a shellac carrier nor an original tape generation is established. No physical side join is assigned to a musical event."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "D. Benjamin Miller is the Commons uploader, not an established transfer or mastering engineer. The Internet Archive uploader/scanner fields document repository submission, not who digitised, edited or restored the recording. No transfer-engineer credit has been found."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "festival-catalogue"
+      ],
+      "note": "Internet Archive added/public date is 4 June 2018; Commons upload is 5 June 2018. These are not transfer dates. The embedded Commons digitizing year 1956 duplicates the performance year without a transfer history and is not accepted as such evidence. The 1996 Orfeo issue is also not assigned as the date of this transfer."
+    },
+    "processing": {
+      "value": "Internet Archive lists the corresponding Ogg Vorbis movement file as an original upload; Commons supplies Ogg Vorbis and an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Here original means the repository’s uploaded file, not an original session master. The chain from the unidentified physical or broadcast source to the Ogg is undocumented. Session medium, tape generation, speed correction, equalisation, noise reduction, editing and restoration settings remain unknown; no such processing is inferred from the transfer’s sound."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_01._Requiem_aeternam.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_01._Requiem_aeternam.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis; complete movement",
+    "durationSeconds": 338.38
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Mozart–Süssmayr composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "bso",
+        "sussmayr-biography",
+        "nma-preface",
+        "eu-composition-term"
+      ],
+      "note": "Mozart died in 1791 and Süssmayr in 1803; the traditional full score was published in 1800. This is a term-based assessment of the historical composition, not a worldwide clearance, a licence for a modern critical edition, or evidence about the sound recording."
+    },
+    "recording": {
+      "value": "Rule 1 — territorial recording claim: Commons applies PD-EU-audio; upstream Internet Archive applies Public Domain Mark 1.0.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive",
+        "pd-eu-audio",
+        "pdm",
+        "eu-recording-term"
+      ],
+      "note": "The documented fact is the sources’ sound-recording rights assertion. PD-EU-audio is territorial: US status is not established, and no worldwide clearance is claimed. Public Domain Mark is not CC0 or a performer’s licence. The 1956 performance date does not prove first lawful publication or communication before 1963; that history is unestablished. The known 1996 Orfeo issue and 2018 uploads are not substituted for it. Admission therefore uses the explicit Commons PD-EU-audio route, not a calculated pre-1963-publication claim."
+    },
+    "creditLine": "Wolfgang Amadeus Mozart, Requiem in D minor, K. 626, I. Introitus: Requiem aeternam — Adagio; traditional Süssmayr completion where applicable. Lisa della Casa, soprano; Wiener Staatsopernchor; Wiener Philharmoniker; Franz Sauer, organ; Bruno Walter, conductor. Live, Small Festival Hall, Salzburg, 26 July 1956. Internet Archive item MozartRequiemBruno via Wikimedia Commons. Commons states PD-EU-audio; EU territorial assertion, US status not established. Transfer and source carrier unidentified.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Mozart Requiem, Walter/Vienna 1956, 01. Requiem aeternam",
+      "url": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Requiem,_K._626_(Bruno_Walter,_Wiener_Philharmoniker,_Wiener_Staatsopernchor,_1956)_-_01._Requiem_aeternam.ogg?oldid=899713458",
+      "locator": "Summary: 26 July 1956, cast and upstream Internet Archive item; Licensing: PD-EU-audio. File history: D. Benjamin Miller uploaded the Ogg on 5 June 2018. Embedded digitizing year 1956 is not treated as an independently documented transfer date. Original file and MP3 transcode information inspected.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Mozart Requiem Bruno",
+      "url": "https://archive.org/metadata/MozartRequiemBruno",
+      "locator": "metadata.date: 1956-07-26; description: recorded live at the 1956 Salzburg Festival; creator credits; licenseurl: Public Domain Mark 1.0; addeddate/publicdate: 2018-06-04 15:13:21. Corresponding movement Ogg files are marked original; MP3 files are derivatives. No original carrier or transfer engineer is identified.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "concert",
+      "title": "Vienna Philharmonic — Salzburg Festival, 26 July 1956",
+      "url": "https://www.wienerphilharmoniker.at/en/konzerte/salzburg-festival/512/",
+      "locator": "Primary event record: Thursday 26 July 1956, Small Festival Hall; Bruno Walter, Lisa Della Casa, Ira Malaniuk, Anton Dermota, Cesare Siepi and organist Franz Sauer; programme K. 183 and K. 626. The displayed 0:00 is not used as a start time. The choir field is blank.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "festival-catalogue",
+      "title": "Salzburg Festival — Festspieldokumente Gesamtverzeichnis 2022",
+      "url": "https://www.salzburgerfestspiele.at/wp-content/uploads/2022/08/festspieldokumente_gesamtverzeichnis_2022_web-1.pdf",
+      "locator": "Printed p. 138, PDF p. 70: Walter/Vienna Philharmonic, Festspielhaus 1956, K. 183 and K. 626; named vocal soloists and Konzertvereinigung Wiener Staatsopernchor; Orfeo C 430 961 B, one CD, 1996. Evidence of a later issue, not the first issue or the carrier behind the upload.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discography",
+      "title": "Altena, Reveyoso and Ryding — Bruno Walter discography",
+      "url": "https://www.opusklassiek.nl/dirigenten/walter_discografie.pdf",
+      "locator": "PDF p. 84, Mozart Requiem entry (f): 26 July 1956, Festspielhaus Salzburg, live, matching cast; LP Cetra LO516; CDs Nuova Era 2209, Seven Seas K30Y307 and Orfeo C430961B. The entry supplies no first-publication date or transfer lineage for this digital file.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "nma-preface",
+      "title": "Leopold Nowak — Neue Mozart-Ausgabe, Requiem completions, preface",
+      "url": "https://dme.mozarteum.at/DME/objs/pdf/nma_14_-23_-3_eng.pdf",
+      "locator": "Documentary discussion of Mozart, Eybler and Süssmayr; Mozart’s completed Introitus and unfinished Lacrimosa; completion in 1792; first score publication 1800; Süssmayr’s letter of 8 February 1800 and Constanze’s of 27 March 1799. Printed p. XX, note 53 quotes Walter on cutting choral-doubling trombones, without identifying this session’s cuts.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "nma-score",
+      "title": "Neue Mozart-Ausgabe — Requiem: Completions, traditional Süssmayr version",
+      "url": "https://dme.mozarteum.at/DME/nma/nma_toc.php?l=2&vsep=14",
+      "locator": "Section B: Introitus pp. 37–48; Dies irae pp. 62–77; Lacrimosa pp. 111–117; Communio pp. 179–199. Selected score pages were inspected as images. A reference for musical structure, not evidence that Walter used the 1965 edition in 1956.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score-scan",
+      "title": "Mozart Requiem in full score — Breitkopf & Härtel, unabridged Dover reprint",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/7/79/IMSLP758680-PMLP2751-Mozart_Requiem%2C_K.626_-_Full_Score.pdf",
+      "locator": "Title and publication pages identify Dover 1987 as an unabridged reprint of an undated Breitkopf & Härtel score, with a new contents page and instrumentation list. Musical pages inspected: Introitus pp. 1–8, Dies irae pp. 16–21, Lacrimosa pp. 49–54, Communio pp. 95–104. The scan does not identify the edition used for this performance.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "bso",
+      "title": "Jan Swafford — Mozart Requiem, Boston Symphony Orchestra programme note",
+      "url": "https://www.bso.org/works/mozart-requiem",
+      "locator": "Composer dates, Walsegg memorial commission, incomplete state of the work and orchestral forces. The NMA is preferred for the documentary sequence and completion details; this programme’s conflicting first-performance statements are not used.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "sussmayr-biography",
+      "title": "Erich Duda — Franz Xaver Süssmayr, Neue Deutsche Biographie",
+      "url": "https://www.deutsche-biographie.de/sfz82024.html",
+      "locator": "NDB 25 (2013), pp. 685–686: 1766–17 September 1803, Vienna; Mozart association and commission to complete the Requiem. Biographical facts only; no text or modern edition is republished.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "pd-eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Sound-recording rights assertion concerning performers and producers in the European Union; not a composition-only tag or a worldwide licence.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "pdm",
+      "title": "Creative Commons — Public Domain Mark 1.0",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "locator": "The mark identifies asserted public-domain status; it is not CC0 or a licence granted by a performer. The deed cautions that status may differ between jurisdictions and supplies no warranty.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-composition-term",
+      "title": "Directive 2006/116/EC — term of authors’ rights",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1 and 8: ordinary life-plus-70 term and calculation from the following 1 January; Article 5 separately addresses critical and scientific publications. The composition calculation does not establish rights in a recording or unidentified modern edition.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-recording-term",
+      "title": "Directive 2011/77/EU — sound-recording term extension",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Amendments distinguish performance/fixation from lawful publication and communication; the extension applies to rights still protected on 1 November 2013. A 1956 session date alone does not prove pre-1963 lawful publication or the expiry of all recording rights.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

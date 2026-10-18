@@ -13,6 +13,14 @@ export default {
     "archive": {
       "item": "02-eugen-d-albert-syposium-1146",
       "file": "10 - Eugen d'Albert - Nocturne in Fis-Dur op.15 No.2 (Chopin) Gram. 045678, Mx. 1120 m (1916).mp3"
+    },
+    "rights": {
+      "basis": "eu-published-before-1963",
+      "published": 1916,
+      "evidence": [
+        "https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg",
+        "https://archive.org/metadata/02-eugen-d-albert-syposium-1146"
+      ]
     }
   },
   "concert": false,

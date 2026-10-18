@@ -1,0 +1,20 @@
+{
+  "id": "chopin-prelude-op28-4-paquet",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "year",
+      "severity": "minor",
+      "problem": "The definite range 1836–39 is narrower than the cited primary work record supports.",
+      "evidence": "Opened https://chopin.nifc.pl/en/chopin/kompozycja/197 : creation date 1831(?)–1839; the collection was completed in 1839.",
+      "fix": "Use 'completed 1839', '1831(?)–1839', or an independently sourced dating specific to this piece."
+    },
+    {
+      "where": "transitions[1].how",
+      "severity": "minor",
+      "problem": "The final sentence explains waveform limitations in reader-facing prose rather than the musical transition.",
+      "evidence": "The sentence beginning 'The waveform supports the gap' discusses identifying release/pedal action. That methodological limitation belongs in evidence.",
+      "fix": "Remove the final waveform-method sentence from how and retain its appropriate caution in evidence. The preceding description of the late gap and closing sonority can stand."
+    }
+  ]
+}

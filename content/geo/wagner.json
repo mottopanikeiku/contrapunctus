@@ -1,0 +1,482 @@
+{
+  "id": "wagner",
+  "places": [
+    {
+      "name": "Brühl 3, Leipzig",
+      "country": "Confederation of the Rhine, Saxony (today Germany)",
+      "lat": 51.34,
+      "lon": 12.375,
+      "from": "1813-05-22",
+      "to": "1814",
+      "kind": "born",
+      "what": "Born ninth and youngest child in the Brühl house in Leipzig’s Jewish quarter; baptised at St Thomas.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Kreuzschule, Dresden",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.0472,
+      "lon": 13.8014,
+      "from": "1821",
+      "to": "1827",
+      "kind": "studied",
+      "what": "Sent to the Kreuzchor boarding school after stepfather Geyer’s death; the family returned to Leipzig by 1827.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Würzburg",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 49.7833,
+      "lon": 9.9333,
+      "from": "1833",
+      "kind": "worked",
+      "what": "Choirmaster at the theatre, where he composed his first complete opera, <i>Die Feen</i>, aged twenty.",
+      "work": "Die Feen",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Stadttheater, Magdeburg",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.1292,
+      "lon": 11.6302,
+      "from": "1834",
+      "to": "1836",
+      "kind": "worked",
+      "what": "Musical director; he conducted <i>Das Liebesverbot</i> in 1836, a flop that left him bankrupt.",
+      "work": "Das Liebesverbot",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "title": "Das Liebesverbot — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Das_Liebesverbot"
+        }
+      ]
+    },
+    {
+      "name": "Königsberg",
+      "country": "Kingdom of Prussia (today Russia)",
+      "lat": 54.7003,
+      "lon": 20.4531,
+      "from": "1836",
+      "to": "1837",
+      "kind": "lived",
+      "what": "Followed Minna Planer here, found an engagement at the theatre and married her at Tragheim Church on 24 November.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Riga",
+      "country": "Russian Empire (today Latvia)",
+      "lat": 56.9489,
+      "lon": 24.1064,
+      "from": "1837-06",
+      "to": "1839",
+      "kind": "worked",
+      "what": "Music director of the local opera until debts forced him and Minna to flee in 1839.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "North Sea and London",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1839",
+      "kind": "travelled",
+      "what": "A stormy sea passage to London inspired <i>Der fliegende Holländer</i>; he and Minna then went on to Paris.",
+      "work": "Der fliegende Holländer",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1839-09",
+      "to": "1842",
+      "kind": "lived",
+      "what": "Settled in Paris in September; he completed <i>Rienzi</i> in 1840 and left for Dresden in 1842.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Königliches Hoftheater, Dresden",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.0544,
+      "lon": 13.7353,
+      "from": "1842-10-20",
+      "kind": "premiere",
+      "what": "<i>Rienzi</i>, his first success, supported by Meyerbeer; <i>Der fliegende Holländer</i> followed on 2 January 1843.",
+      "work": "Rienzi",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Rienzi — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Rienzi"
+        },
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Dresden",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.05,
+      "lon": 13.74,
+      "from": "1842",
+      "to": "1849-05",
+      "kind": "worked",
+      "what": "Royal Kapellmeister; staged <i>Tannhäuser</i> on 19 October 1845; played a minor part in the May Uprising of 1849.",
+      "work": "Tannhäuser",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "title": "Tannhäuser (opera) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Tannhäuser_(opera)"
+        }
+      ]
+    },
+    {
+      "name": "Zürich",
+      "country": "Switzerland (today Switzerland)",
+      "lat": 47.3744,
+      "lon": 8.5411,
+      "from": "1849",
+      "to": "1858",
+      "kind": "exile",
+      "what": "Fled after the failed uprising, with false papers from Liszt; wrote the <i>Ring</i> libretti and began <i>Das Rheingold</i> music.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "title": "Franz Liszt — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Franz_Liszt"
+        }
+      ]
+    },
+    {
+      "name": "Hoftheater, Weimar",
+      "country": "Grand Duchy of Saxe-Weimar-Eisenach (today Germany)",
+      "lat": 50.9794,
+      "lon": 11.3247,
+      "from": "1850-08-28",
+      "kind": "premiere",
+      "what": "<i>Lohengrin</i> premiered under Liszt’s baton while Wagner was in exile and unable to attend.",
+      "work": "Lohengrin",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "title": "Lohengrin — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Lohengrin"
+        }
+      ]
+    },
+    {
+      "name": "Wesendonck estate (Asyl), Zürich",
+      "country": "Switzerland (today Switzerland)",
+      "lat": 47.3589,
+      "lon": 8.5304,
+      "from": "1857",
+      "to": "1858",
+      "kind": "lived",
+      "what": "Wesendonck placed a cottage, the “Asyl”, at his disposal; the Mathilde affair ended it in 1858.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Philharmonic Society, London",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1855",
+      "kind": "travelled",
+      "what": "Conducted several concerts, one before Queen Victoria, who enjoyed his <i>Tannhäuser</i> overture.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Palazzo Giustinian, Venice",
+      "country": "Kingdom of Lombardy–Venetia (Austrian Empire; today Italy)",
+      "lat": 45.4342,
+      "lon": 12.3266,
+      "from": "1858",
+      "to": "1859",
+      "kind": "exile",
+      "what": "Left Zürich alone and rented an apartment here while writing <i>Tristan und Isolde</i>.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Paris Opéra",
+      "country": "Second French Empire (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1859-11",
+      "to": "1861",
+      "kind": "worked",
+      "what": "Moved to oversee a revised <i>Tannhäuser</i>, staged through Princess Metternich; the 1861 performances were a fiasco.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Biebrich, near Wiesbaden",
+      "country": "Duchy of Nassau (today Germany)",
+      "lat": 50.0398,
+      "lon": 8.2339,
+      "from": "1862",
+      "to": "1864",
+      "kind": "lived",
+      "what": "After the ban was lifted, he settled on the Rhine and began <i>Die Meistersinger</i>; Minna visited for the last time.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "National Theatre, Munich",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 48.1394,
+      "lon": 11.5794,
+      "from": "1865-06-10",
+      "kind": "premiere",
+      "what": "<i>Tristan und Isolde</i>, under Bülow, the first Wagner premiere in nearly fifteen years; <i>Meistersinger</i> followed on 21 June 1868.",
+      "work": "Tristan und Isolde",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Tristan und Isolde — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Tristan_und_Isolde"
+        },
+        {
+          "title": "Die Meistersinger von Nürnberg — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Die_Meistersinger_von_Nürnberg"
+        }
+      ]
+    },
+    {
+      "name": "National Theatre, Munich",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 48.1394,
+      "lon": 11.5794,
+      "from": "1869-09-22",
+      "kind": "premiere",
+      "what": "<i>Das Rheingold</i> staged on Ludwig II’s orders, against Wagner’s wishes, before the full <i>Ring</i> was ready.",
+      "work": "Das Rheingold",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Das Rheingold — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Das_Rheingold"
+        }
+      ]
+    },
+    {
+      "name": "Villa Tribschen, Lucerne",
+      "country": "Switzerland (today Switzerland)",
+      "lat": 47.0412,
+      "lon": 8.3281,
+      "from": "1866-04",
+      "to": "1872-04",
+      "kind": "lived",
+      "what": "Ludwig II funded the lakeside home; he finished <i>Meistersinger</i> here and premiered the <i>Siegfried Idyll</i>, 25 December 1870.",
+      "work": "Siegfried Idyll",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "title": "Tribschen — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Tribschen"
+        },
+        {
+          "title": "Siegfried Idyll — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Siegfried_Idyll"
+        }
+      ]
+    },
+    {
+      "name": "Festspielhaus, Bayreuth",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 49.96,
+      "lon": 11.5797,
+      "from": "1876-08-13",
+      "kind": "premiere",
+      "what": "Opened with the first complete <i>Ring</i> cycle, 13–17 August, conducted by Hans Richter.",
+      "work": "Der Ring des Nibelungen",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bayreuth Festspielhaus — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Bayreuth_Festspielhaus"
+        },
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Wahnfried, Bayreuth",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 49.9411,
+      "lon": 11.5822,
+      "from": "1874-04",
+      "to": "1883-02-13",
+      "kind": "lived",
+      "what": "The family home built next to his theatre; the move-in is dated 18 or 28 April 1874.",
+      "status": "disputed",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "title": "Wahnfried — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wahnfried"
+        }
+      ]
+    },
+    {
+      "name": "Festspielhaus, Bayreuth",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 49.96,
+      "lon": 11.5797,
+      "from": "1882-07-26",
+      "kind": "premiere",
+      "what": "<i>Parsifal</i> premiered at the second festival, conducted by Hermann Levi; the main Wagner article says 26 May.",
+      "work": "Parsifal",
+      "status": "disputed",
+      "sources": [
+        {
+          "title": "Parsifal — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Parsifal"
+        },
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    },
+    {
+      "name": "Ca’ Vendramin Calergi, Venice",
+      "country": "Kingdom of Italy (today Italy)",
+      "lat": 45.4427,
+      "lon": 12.3301,
+      "from": "1883-02-13",
+      "kind": "died",
+      "what": "Died of a heart attack, aged 69, in the Grand Canal palazzo, after six visits to Venice.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "title": "Ca' Vendramin Calergi — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Ca'_Vendramin_Calergi"
+        }
+      ]
+    },
+    {
+      "name": "Wahnfried garden, Bayreuth",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 49.9411,
+      "lon": 11.5822,
+      "from": "1883-02-18",
+      "kind": "buried",
+      "what": "Carried by public procession through Bayreuth on 18 February; his grave lies in the grounds beside Cosima’s.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wahnfried — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Wahnfried"
+        },
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        }
+      ]
+    }
+  ]
+}

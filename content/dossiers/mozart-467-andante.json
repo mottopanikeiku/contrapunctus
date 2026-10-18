@@ -1,0 +1,116 @@
+{
+  "id": "mozart-467-andante",
+  "work": {
+    "title": "Piano Concerto No. 21 in C major",
+    "catalogue": "K. 467",
+    "movement": "II. Andante",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "score"],
+      "note": "The performing edition and any local editorial changes are not identified. The consulted full score establishes the movement’s original forces, including the absence of trumpets and timpani, but is not claimed to be the copy used at the session. The Archive description explicitly says that an earlier file mix-up with K. 595 has been corrected; the current attribution follows the corrected record. No bar-by-bar or aural authentication of the transfer has been made."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Artur Schnabel", "role": "piano" },
+      { "name": "London Symphony Orchestra", "role": "orchestra" },
+      { "name": "Malcolm Sargent", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "sleeve", "lso", "bolig"],
+    "note": "The item description, source LP sleeve and LSO discography agree. The later sleeve’s title Sir is not used to infer Sargent’s title at the 1937 session."
+  },
+  "session": {
+    "date": {
+      "value": "1937-01-12",
+      "status": "documented",
+      "sourceIds": ["archive", "lso", "bolig", "schnabel"],
+      "note": "LSO session 0158 dates K. 467 to 12 January 1937; the 9 January date in the same entry belongs to K. 459. Both Andante sides are dated 12 January in the side-level discographies.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Abbey Road Studio 1, London, England",
+      "status": "documented",
+      "sourceIds": ["archive", "lso", "bolig", "schnabel"],
+      "note": "The item names Abbey Road Studios; the LSO register, Bolig and Schnabel chronology specify Studio 1."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Angel Records — Great Recordings of the Century",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve"],
+      "note": "The Archive expressly identifies a mono LP transfer. Angel is the transferred reissue label; the original shellac issue was on His Master’s Voice."
+    },
+    "catalogue": {
+      "value": "COLH 67",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve", "lso"],
+      "note": "COLH 67 is visible on the photographed sleeve, which pairs K. 467 under Sargent with K. 595 under Barbirolli. The LSO discography dates the LP to November 1959 and the original K. 467 set, HMV DB3099–3102, to November 1937. The Andante occupied DB3101."
+    },
+    "matrixTakeSides": {
+      "value": "Probable original-side lineage: 2EA 4608-1 and 2EA 4609-2A; Andante parts 1–2 on HMV DB3101, concerto sides 5–6.",
+      "status": "inferred",
+      "sourceIds": ["bolig", "schnabel", "archive"],
+      "note": "The original issued matrices and takes are documented in both discographies, but their identity within this particular LP transfer has not been established by runout inspection or take comparison. The LP’s own matrix/runout and pressing are unknown. No side-join timing is assigned. A targeted DAHR search did not yield a usable session record, so no DAHR matrix entry is claimed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Bob Varney",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-data"],
+      "note": "The explicit source credit is ‘Transfer by Bob Varney’; it is not an assumption based on the uploader’s identity."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive-data"],
+      "note": "19 April 2010 is the item’s added date, not an identified transfer date. The later current-file timestamp and the correction notice likewise do not establish when the LP was digitised."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-data"],
+      "note": "No cartridge, equalisation, restoration, editing or speed-correction procedure is documented. Internet Archive describes the file as original-upload VBR MP3; that descriptor does not imply access to an original recording master."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/Mozart.PianoConcertoNo.21/02%20Andante.mp3",
+    "sourceChain": ["archive-data", "archive", "sleeve", "lso"],
+    "format": "Internet Archive original-upload VBR MP3; documented source carrier: mono LP. Duration is the analysed file length, rounded to one decimal place.",
+    "durationSeconds": 498.2
+  },
+  "rights": {
+    "composition": {
+      "value": "Mozart’s concerto is public domain under the ordinary life-plus-70 authorship term.",
+      "status": "inferred",
+      "sourceIds": ["score", "score-catalogue", "eu-term"],
+      "note": "Mozart died in 1791. The consulted public-domain full score derives from Breitkopf’s 1878 edition. This term calculation concerns the underlying composition and does not establish rights in an unidentified modern performing edition."
+    },
+    "recording": {
+      "value": "territorial — EU public-domain basis: first published in November 1937 on HMV DB3099–3102.",
+      "status": "documented",
+      "sourceIds": ["lso", "bolig", "eu-term", "eu-extension", "archive-data"],
+      "note": "Publication before 1963 is documented by the orchestra’s discography, not inferred only from the session date. The ordinary EU 50-year recording term had expired before the 2013 extension, which applies to recordings still protected at that date. This is a territorial basis, not worldwide clearance. US public-domain status is not established; the recording was not first published by 1925. The uploader’s http://creativecommons.org/licenses/publicdomain/ declaration does not independently establish authority to clear the original performers’ or producer’s rights in the US or elsewhere. The legal link below identifies the term basis rather than a Creative Commons licence."
+    },
+    "creditLine": "Wolfgang Amadeus Mozart, Piano Concerto No. 21 in C major, K. 467, II. Andante. Artur Schnabel, piano; London Symphony Orchestra; Malcolm Sargent. Recorded 12 January 1937, Abbey Road Studio 1, London. Transfer by Bob Varney from Angel COLH 67, via Internet Archive. EU territorial public-domain basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Mozart: Piano Concerto No. 21", "url": "https://archive.org/details/Mozart.PianoConcertoNo.21", "locator": "Description: work, performers, session date and venue, Angel COLH 67 mono LP, transfer by Bob Varney and correction of the former file mix-up.", "accessed": "2026-10-17" },
+    { "id": "archive-data", "title": "Internet Archive — item and file metadata", "url": "https://archive.org/metadata/Mozart.PianoConcertoNo.21", "locator": "metadata.description and licenseurl; files entry 02 Andante.mp3, source original, format VBR MP3, reported length 497.78. The separate analysis reports 498.2 seconds for the decoded file. addeddate is not a recording or transfer date.", "accessed": "2026-10-17" },
+    { "id": "sleeve", "title": "Angel COLH 67 — source LP sleeve photograph", "url": "https://archive.org/download/Mozart.PianoConcertoNo.21/DSCN9514.JPG", "locator": "Front cover prints Angel Records, Great Recordings of the Century, COLH 67 and the K. 467/Sargent and K. 595/Barbirolli couplings with Schnabel and the LSO; no runouts shown.", "accessed": "2026-10-17" },
+    { "id": "lso", "title": "London Symphony Orchestra discography, August 2024", "url": "https://londonso-assets.s3.amazonaws.com/uploads/2024/08/Discography-August-2024.pdf#page=289", "locator": "Session 0158, PDF p. 289: K. 467 on 12 January 1937, Abbey Road Studio 1, matrices 2EA4604–11; original HMV DB3099–3102 issue November 1937; COLH67 reissue November 1959.", "accessed": "2026-10-17" },
+    { "id": "bolig", "title": "John R. Bolig — His Master’s Voice Double-Sided Celebrity Recordings", "url": "https://www.examenapium.it/cs/biblio/Bolig2020.pdf#page=530", "locator": "Printed pp. 505–506: HMV DB3099–3102. DB3101 has Andante parts 1–2, matrices 2EA4608-1 and 2EA4609-2A, with date, venue, Bechstein piano and ensemble credits.", "accessed": "2026-10-17" },
+    { "id": "schnabel", "title": "Classical Pianists — Artur Schnabel, Chronology II", "url": "https://classical-pianists.net/vii-b/artur-schnabel/chronology-2/", "locator": "AS-C021, K. 467: all eight mastered takes, including sides 5–6, recorded 12 January 1937 at Abbey Road Studio 1.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Mozart, K. 467 — Breitkopf & Härtel 1878 full score, Broude reprint", "url": "https://s9.imslp.org/files/imglnks/usimg/9/95/IMSLP442212-PMLP05554-mozartpianoconcertoNo.21score.pdf", "locator": "II, printed pp. 31–39: muted string opening, triplet and pizzicato accompaniment, solo handover at bar 23, central dialogue, distant reprise and F-major close. Trumpets and timpani are absent. Composer dates appear on p. 1.", "accessed": "2026-10-17" },
+    { "id": "score-catalogue", "title": "IMSLP — K. 467 score catalogue", "url": "https://imslp.org/wiki/Piano_Concerto_No.21_in_C_major,_K.467_(Mozart,_Wolfgang_Amadeus)", "locator": "Full Scores, item 442212: Breitkopf & Härtel, 1878, plate W.A.M. 467; undated Broude reprint, plate 422; public-domain status.", "accessed": "2026-10-17" },
+    { "id": "programme", "title": "Hannah Chan-Hartley — Mozart, Hewitt & Beethoven’s Fifth, National Arts Centre", "url": "https://nac-cna.ca/en/event/notes/36107", "locator": "K. 467 account: 10 March 1785 first performance and pedal-keyboard advertisement; Andante’s orchestral opening, dissonances, temporarily interrupted pulse and A♭-major reprise.", "accessed": "2026-10-17" },
+    { "id": "reception", "title": "Piano Concerto No. 21 — reception and cultural references", "url": "https://en.wikipedia.org/wiki/Piano_Concerto_No._21_(Mozart)#Cultural_references", "locator": "Cultural references: Bo Widerberg’s 1967 Elvira Madigan used Géza Anda’s performance; references to Michael Steinberg and Allen Hughes. This film association is separate from the Schnabel source recording.", "accessed": "2026-10-17" },
+    { "id": "eu-term", "title": "Directive 2006/116/EC — copyright and related-rights terms", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116", "locator": "Articles 1, 3 and 8: ordinary authorship term, former 50-year related-rights term, and calculation from the following January.", "accessed": "2026-10-17" },
+    { "id": "eu-extension", "title": "Directive 2011/77/EU — sound-recording term extension", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077", "locator": "Article 1(3), adding Article 10(5): extended terms apply to recordings still protected on 1 November 2013; Article 2 gives the implementation date.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

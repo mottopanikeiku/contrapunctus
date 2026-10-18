@@ -1,0 +1,34 @@
+{
+  "id": "mahler-das-lied-einsame",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "intro",
+      "severity": "major",
+      "problem": "The orchestra is called brass-free, although the score and the page’s own timeline contain four horns.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP20582-PMLP47886-Mahler_-_Das_Lied_von_der_Erde_(orch._score).pdf — printed pp.39–50, horn staves.",
+      "fix": "Replace ‘brass-free, chamber-like orchestra’ with ‘chamber-like orchestra without trumpets, trombones or percussion’ or simply ‘chamber-like orchestra’."
+    },
+    {
+      "where": "cues[3].text",
+      "severity": "major",
+      "problem": "The near-doubling of detected onset density is called a doubling of pulse density. The report counts detected attacks, not beats or musical pulse.",
+      "evidence": "cache/analysis/mahler-das-lied-einsame.txt:45-47; the measured column is onsets/s.",
+      "fix": "Replace ‘the pulse doubles in density’ with ‘the report detects roughly twice as many attacks’ or a score-grounded statement about the more active texture, without asserting a doubled beat."
+    },
+    {
+      "where": "cues[1].text",
+      "severity": "major",
+      "problem": "The omission of the weaving woman is supported, but Gautier’s French first-person speaker is not identified as a man in the cited text. The claim that Gautier specifically made a lonely man is stronger than the evidence.",
+      "evidence": "http://www.mahlerarchives.net/Archive%20documents/DLvDE/Der_Einsame.htm — Le soir d’automne uses an ungendered first-person speaker and removes the weaving scene.",
+      "fix": "Replace ‘a lonely man’s autumn evening’ with ‘a lonely speaker’s autumn evening’."
+    },
+    {
+      "where": "cues[14].evidence; transitions[4].how",
+      "severity": "major",
+      "problem": "The late harp writing is called glissandi. These score passages are fully notated, chordal arpeggiated runs in sextuplets, unlike the score’s explicitly marked glissandi elsewhere.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP20582-PMLP47886-Mahler_-_Das_Lied_von_der_Erde_(orch._score).pdf — printed pp.47–49, both harps in unison, with the individual pitches and tuplets written out.",
+      "fix": "Replace ‘harp glissandi’ with ‘harp arpeggios’ in both places. The broader description of sweeping unison harps can remain."
+    }
+  ]
+}

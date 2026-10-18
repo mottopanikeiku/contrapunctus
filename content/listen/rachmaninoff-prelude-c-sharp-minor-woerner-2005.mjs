@@ -39,7 +39,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "A private 2005 recording",
       "text": "Commons credits Wörner at the piano and Tobias Lohner as recordist. No concert hall or precise piano model is given, so the sound should not be used to invent either.",

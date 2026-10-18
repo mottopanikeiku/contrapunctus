@@ -50,7 +50,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "An identified electrical take",
       "text": "This is the issued electrical take 23, recorded in New York on4 April 1928. The matrix series also contains earlier sessions; those dates must not be attached to this particular take.",

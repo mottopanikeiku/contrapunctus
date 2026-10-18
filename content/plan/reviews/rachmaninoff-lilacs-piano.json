@@ -1,13 +1,5 @@
 {
   "id": "rachmaninoff-lilacs-piano",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "transitions[1].evidence",
-      "severity": "minor",
-      "problem": "The evidence calls 1:50 the loudest window of the file, but 1:10 is louder.",
-      "evidence": "cache/analysis/rachmaninoff-lilacs-piano.txt:15,33,41 — 1:10 is −11.0 dB; 1:50 is −11.8 dB.",
-      "fix": "Call 1:50 ‘the second-loudest five-second window’ or ‘another prominent crest’."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

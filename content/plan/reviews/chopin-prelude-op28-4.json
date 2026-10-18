@@ -1,0 +1,13 @@
+{
+  "id": "chopin-prelude-op28-4",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "year",
+      "severity": "minor",
+      "problem": "The definite range 1836–39 is narrower than the cited primary work record supports.",
+      "evidence": "Opened https://chopin.nifc.pl/en/chopin/kompozycja/197 : creation date 1831(?)–1839. The Institute's genre overview https://chopin.nifc.pl/en/chopin/gatunki/12_preludia describes completion in 1839 with potentially earlier ideas.",
+      "fix": "Use a supported concise dating such as 'completed 1839' or preserve the primary source's uncertainty as '1831(?)–1839'; alternatively supply an opened scholarly source specifically establishing 1836–39 for this piece."
+    }
+  ]
+}

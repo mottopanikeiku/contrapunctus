@@ -17,5 +17,88 @@ export default {
   "recorded": "1947",
   "source": {
     "file": "File:Elgar; Enigma variations, Theme VIII. W.N.ogg"
+  },
+  "intro": "A gently moving clarinet line opens a portrait of an eighteenth-century house and its musical visitor. Woodwind exchanges and light strings keep the scene on a chamber scale.",
+  "question": "Can orchestral music evoke a place as well as a person?",
+  "sections": [
+    {
+      "t": 0,
+      "label": "VIII · A house and its visitor",
+      "m": "Var 8",
+      "mNote": "a light clarinet-led Allegretto"
+    }
+  ],
+  "cues": [
+    {
+      "t": 0,
+      "kind": "listen",
+      "title": "A clarinet leads",
+      "text": "The opening melody belongs to the clarinet, with a lightly moving accompaniment below. Follow the line as other wind colours enter rather than treating every change of instrument as a new tune.",
+      "basis": "general",
+      "precision": "passage",
+      "evidence": "Novello p. 47, rehearsal 30: clarinet melody above bassoon and low strings; subsequent wind exchanges appear in pp. 48–51."
+    },
+    {
+      "t": 35,
+      "kind": "world",
+      "title": "Winifred Norbury and Sherridge",
+      "text": "Winifred Norbury is associated with the Worcestershire Philharmonic Society. Elgar says her portrait also concerns the eighteenth-century house Sherridge, where she lives; a suggestion of her laugh connects the place with its occupant.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "The Elgar Society identifies Norbury, the society and the house; Elgar’s commentary describes the laugh. https://elgar.org/3enigma.htm https://en.wikipedia.org/wiki/Enigma_Variations"
+    },
+    {
+      "t": 72,
+      "kind": "music",
+      "title": "A bridge towards Nimrod",
+      "text": "The score lets a first-violin note lead into Nimrod. This file ends before that next variation: listen to the quieter closing passage as a preparation rather than assuming the digital track boundary is Elgar’s intended pause.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Novello p. 51 leads directly into p. 52. The report withdraws after 1:14 and falls markedly in its final windows. The separate source file cannot establish a continuous digital join."
+    }
+  ],
+  "transitions": [],
+  "orchestra": {
+    "ensemble": [
+      "piccolo",
+      "flutes",
+      "oboes",
+      "clarinets",
+      "bassoons",
+      "contrabassoon",
+      "horns",
+      "trumpets",
+      "trombones",
+      "tuba",
+      "timpani",
+      "percussion",
+      "violins-1",
+      "violins-2",
+      "violas",
+      "cellos",
+      "basses"
+    ],
+    "basis": "score-proportion",
+    "source": {
+      "title": "Elgar, Enigma Variations, full score (Novello)",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
+      "locator": "PDF pp. 47–51, rehearsal figures 30–32; opening texture only; passage-level scoring, not a bar-aligned transcription of this performance. Optional organ is not asserted."
+    },
+    "timeline": [
+      {
+        "t": 0,
+        "playing": [
+          "clarinets",
+          "bassoons",
+          "violas",
+          "cellos",
+          "basses"
+        ],
+        "lead": [
+          "clarinets"
+        ],
+        "note": "The clarinet’s line is set against quiet lower wind and string motion; upper strings join later."
+      }
+    ]
   }
 };

@@ -1,0 +1,81 @@
+// Source files and recording credit: see content/dossiers/mussorgsky-pictures-vecchio-castello.json.
+// Orchestration treated as Ravel's 1922 scoring (inferred). Instrument claims follow the Philharmonia guide (Joanna Wyld) and Michael Steinberg's
+// Boston Symphony note; the LA Phil note's "English horn" for the troubadour is not used (Steinberg and Philharmonia name the alto saxophone).
+// Score for the piano original: Lamm's text, Mutopia Project (il-vecchio-castello.ly).
+export default {
+  id: 'mussorgsky-pictures-vecchio-castello',
+  composer: 'mussorgsky',
+  order: 2,
+  work: 'Pictures at an Exhibition',
+  movement: 'II. Il vecchio castello — Andante',
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 4, of: 15 },
+  year: '1874',
+  key: 'G♯ minor',
+  forces: 'Orchestra',
+  performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
+  recorded: '',
+  source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - ii. il vecchio castello - andante.ogg' },
+  intro: 'A troubadour sings before a medieval castle, over a bass note that never leaves G♯. Listen to the song and to the drone beneath it.',
+  question: 'How does one repeated bass note hold a long melody in place?',
+
+  sections: [
+    { t: 0, label: 'Drone and first statements', m: 'A' },
+    { t: 100, label: 'Louder restatements', m: 'B' },
+    { t: 194, label: 'The largest swell', m: 'C' },
+    { t: 260, label: 'Ebbing close', m: 'Coda' },
+  ],
+
+  cues: [
+    { t: 0, kind: 'music', title: 'Bassoons over a cello drone', text: 'The movement opens with bassoons over a drone in the cellos, in 6/8 and in G♯ minor. The bass pitch stays on G♯ in 53 of the 57 five-second windows of this recording; the song above it moves, the foundation does not.', basis: 'audio-feature', precision: 'passage', evidence: 'The bass pitch class reads A♭ (the same note as G♯) in 53 of the 57 windows of the report, including the first. Bassoons over a cello drone and the 6/8 metre: Philharmonia guide and the score (Mutopia, il-vecchio-castello.ly).' },
+    { t: 12, kind: 'music', title: 'A saxophone sings the tune', text: 'Within the first twenty seconds an alto saxophone takes up the song, the troubadour’s voice. Ravel adds one bar of accompaniment between the first two phrases, one of his rare changes to Mussorgsky’s notes.', basis: 'documented', precision: 'passage', evidence: 'Alto saxophone for the theme: Philharmonia guide and Wikipedia (bassoon and alto saxophone duet). The extra bar: Michael Steinberg’s Boston Symphony note. Boundary at 0:18 (novelty 0.78), consistent with the first statement settling; the report cannot time the entrance of an instrument.' },
+    { t: 46, kind: 'world', title: 'A watercolour of an Italian castle', text: 'No picture called The Old Castle hung in the exhibition. Steinberg thinks it recalls one of Hartmann’s Italian architectural watercolours, and Stasov wrote of a castle with a troubadour before it. Hartmann often drew small figures beside his buildings for scale.', basis: 'documented', precision: 'passage', evidence: 'Michael Steinberg’s Boston Symphony note (https://www.bso.org/works/pictures-at-an-exhibition) for the missing item and the Italian watercolours; Wikipedia’s article, section “The Old Castle”, for Hartmann’s habit of adding figures for scale. Related edge: hartmann-pictures--mussorgsky-pictures-1874. The note sits over the quietest window (−16.6 dB at 0:45).' },
+    { t: 100, kind: 'form', title: 'The sound thickens', text: 'At about 1:40 the level climbs towards the first peak of the movement, at 1:45–1:50. The drone continues, but more instruments surround the tune; the strongest boundary of the report, at 1:58, closes this swell.', basis: 'audio-feature', precision: 'passage', evidence: 'Boundary at 1:40 (novelty 0.78); relative level −9.9 dB at 1:40 and −7.1 and −7.0 dB at 1:45 and 1:50; strongest boundary 1:58 (novelty 1.00). The thicker scoring is a listening interpretation from the level rise, not an identification of instruments.' },
+    { t: 130, kind: 'life', title: 'A premiere that sold out', text: 'Boris Godunov reached the Mariinsky stage on 27 January 1874. Golenishchev-Kutuzov recalled nine sold-out performances that winter, but hostile reviews and the break-up of the Five left Mussorgsky isolated as he began his Hartmann memorial.', basis: 'documented', precision: 'passage', evidence: 'Wikipedia’s Pictures at an Exhibition article (composition history), quoting Golenishchev-Kutuzov’s recollection of nine performances with the theatre sold out; the première date is in content/influence/romantic.json (edge pushkin-boris-godunov--mussorgsky-boris-1868). The note sits in a quieter stretch (−14 dB at 2:05–2:10).' },
+    { t: 160, kind: 'listen', title: 'A long loud plateau', text: 'From about 2:25 to 2:55 the level stays high, between −6 and −10 dB, with few new attacks. The tune is sustained rather than repeated in short figures; follow its long notes against the unchanged G♯ below.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level is −8.1, −6.2, −8.0, −9.3, −8.2, −7.8 dB at 2:25–2:50 with 0.0–0.6 onsets per second (except 1.4 at 2:40); loudest windows include 2:30. The drone is from the bass pitch class (G♯ in each of these windows).' },
+    { t: 182, kind: 'world', title: 'A modest orchestra, one new colour', text: 'Steinberg notes that Ravel kept his orchestra about the size of Rimsky-Korsakov’s for Boris Godunov, then went beyond it with percussion and, most remarkably, the alto saxophone he gives this very picture. Ravel was not adding bulk; he was choosing a colour.', basis: 'documented', precision: 'passage', evidence: 'Michael Steinberg’s Boston Symphony note (https://www.bso.org/works/pictures-at-an-exhibition) says Ravel made the orchestra the size of Rimsky-Korsakov’s Boris, added percussion and used the alto saxophone “most remarkably” in this movement. The note sits in the quiet stretch 3:00–3:12 (−15.9 to −14.9 dB).' },
+    { t: 200, kind: 'music', title: 'The strongest climax', text: 'Around 3:15 the level jumps from −15.7 dB to −8.6 dB and reaches its maximum, −5.8 dB, at 3:20. This is the song at full strength; the drone still sits beneath it.', basis: 'audio-feature', precision: 'moment', evidence: 'Relative level is −15.7 dB at 3:10, −8.6 at 3:15 and −5.8 at 3:20, the loudest window of the movement; boundary at 3:14 (novelty 0.73). The bass pitch class remains A♭ (G♯) at 3:15–3:40.' },
+    { t: 258, kind: 'listen', title: 'The life ebbs away', text: 'After a last swell near 4:15 the level falls by about seven decibels at 4:20 and keeps softening. The bassoon takes up the drone, and the saxophone gives a last defiant cry before the end.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level is −6.9 dB at 4:15, −13.4 at 4:20 and −16.3 at 4:25 (boundary 4:24, novelty 0.57). The bassoon taking up the drone and the saxophone’s last cry: Philharmonia guide; the report cannot time them.' },
+  ],
+
+  transitions: [
+    {
+      id: 'into-louder-restatements',
+      title: 'The drone stays; the sound thickens',
+      from: 'Drone and first statements',
+      to: 'Louder restatements',
+      at: { t: 100 },
+      span: [92, 112],
+      how: '<p>Nothing changes in the bass: the G♯ drone runs on, so the join is heard as a change of weight, not of key. Around 1:40 the level rises towards its first peak at 1:45–1:50 and the accompaniment surrounding the tune thickens. A tonic pedal lets Mussorgsky repeat the song with changing colour and level while the harmony hardly moves.</p>',
+      devices: ['tonic pedal', 'crescendo build', 'orchestration change'],
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Boundary at 1:40 (novelty 0.78); relative level −11.7 dB (1:35), −9.9 dB (1:40), −7.1 and −7.0 dB (1:45, 1:50); the bass pitch class is G♯ (A♭) in 53 of 57 windows. The pedal and 6/8 metre are in the piano score; the orchestral thickening is not identified by instrument.',
+    },
+    {
+      id: 'into-largest-swell',
+      title: 'A quiet gap, then the full song',
+      from: 'Louder restatements',
+      to: 'The largest swell',
+      at: { t: 194 },
+      span: [184, 206],
+      how: '<p>After a hushed stretch at about −15 dB the sound surges at 3:14. The bass is still G♯, now under the loudest statement of the tune. The effect rests on contrast of level, not harmony: a tonic pedal under both the hush and the surge lets the same drone support the quietest and loudest music of the movement.</p>',
+      devices: ['tonic pedal', 'crescendo build'],
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Relative level −15.9, −14.9 and −15.7 dB at 3:00, 3:05 and 3:10, then −8.6 (3:15) and −5.8 dB (3:20, the loudest window); boundary at 3:14 (novelty 0.73). Bass pitch class A♭ (G♯) from 3:15 to 3:40.',
+    },
+    {
+      id: 'into-ebbing-close',
+      title: 'The song thins out and fades',
+      from: 'The largest swell',
+      to: 'Ebbing close',
+      at: { t: 260 },
+      span: [248, 276],
+      how: '<p>A last swell near 4:15 gives way to a steady decline. The level drops by about seven decibels at 4:20; the bassoon takes up the drone and the saxophone makes a final, defiant entry. The movement ends without a loud cadence: the G♯ foundation is still present as the sound fades, so the close is a withdrawal of energy, not a change of harmony.</p>',
+      devices: ['decrescendo', 'fade', 'orchestration change'],
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Relative level −6.9 dB (4:15), −13.4 dB (4:20), −16.3 dB (4:25) and −16.0 dB (4:40); boundary at 4:24 (novelty 0.57); bass pitch class A♭ (G♯) in the closing windows. Bassoon and saxophone roles: Philharmonia guide.',
+    },
+  ],
+};

@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No05/SchumannOp15No05.ly",
         "file": "SchumannOp15No05.ly",
-        "sha256": null
+        "sha256": "22efdd590ef7125f1ed24ffd445b78f494933655cd86f9e8d66f9401c74c2578"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No05/SchumannOp15No05.mid",
         "file": "SchumannOp15No05.mid",
-        "sha256": null
+        "sha256": "e2759b2fad61078694c74250fdb4032aa9d6ab624c3c0b0d53d2a1172119b1df"
       }
     ]
   },
@@ -55,7 +55,16 @@
         0,
         24
       ],
-      { "from": [8, 1.5], "to": [24, 2] }
+      {
+        "from": [
+          8,
+          1.5
+        ],
+        "to": [
+          24,
+          2
+        ]
+      }
     ],
     "description": "Candidate A–A–B–A–B: source writes A8+A8+B8; the recording suggests a da capo without repeating its first strain again. After the first complete traversal, return at the G-sharp pickup in bar8's last eighth, then bars9–24. Do not duplicate the complete AAB source as if the da capo retained its written-out initial repeat; verify both A/B returns independently."
   },
@@ -73,10 +82,37 @@
   "boundaries": [],
   "diagnostics": {
     "recurrences": [
-      { "startQ": 16.5, "startOffset": 1, "secondQ": 49, "secondOffset": 1, "length": 12, "search": 5 },
-      { "startQ": 32.5, "startOffset": 1, "secondQ": 65, "secondOffset": 1, "length": 14, "search": 5 }
+      {
+        "startQ": 16.5,
+        "startOffset": 1,
+        "secondQ": 49,
+        "secondOffset": 1,
+        "length": 12,
+        "search": 5
+      },
+      {
+        "startQ": 32.5,
+        "startOffset": 1,
+        "secondQ": 65,
+        "secondOffset": 1,
+        "length": 14,
+        "search": 5
+      }
     ],
-    "overlays": [[20, 36], [40, 56], [62, 78]]
+    "overlays": [
+      [
+        20,
+        36
+      ],
+      [
+        40,
+        56
+      ],
+      [
+        62,
+        78
+      ]
+    ]
   },
   "engraving": {
     "staff": 18,

@@ -1,0 +1,55 @@
+{
+  "id": "mahler-4-ruhevoll",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[7], cues[10], cues[16], cues[22], cues[23], cues[27], cues[33], cues[37], cues[41] — numerical evidence/text; transitions[0], transitions[2] — evidence",
+      "severity": "major",
+      "problem": "Several quantitative statements are inconsistent with the report, including two incorrect decibel/time subtractions, overly narrow ranges, a misidentified strongest boundary and a key-label range that omits the actual later labels.",
+      "evidence": "MEAS: cache/analysis/mahler-4-ruhevoll.txt:61–65,75–80,109–111,150–154,173–179,205–228,231–237,261–269. The report’s global strongest boundary is 16:54, not 9:42 (0.98).",
+      "fix": "Use these actual values: cues[7] 2:50–3:10 level range −32.2 to −25.7 dB; cues[10]/transitions[0] 4:00–4:25 range −31.9 to −25.6 dB; cues[16] −14.7 at 6:50 to −29.6 at 7:00 = about 15 dB in 10 seconds; cues[22]/transitions[2] call 9:42 a strong, not the strongest, boundary, and use the actual 9:45–10:15 level span −30.5 to −22.0 dB; cues[23] 10:15 to 10:35 rises 7.3 dB (the intervening 10:25 trough is separate); cues[27] 12:10 to 12:40 falls 16.6 dB, not more than twenty; cues[33] 14:50–16:45 spans −36.0 to −20.3 dB, while the sparse onset statement can remain; cues[37] 17:00–17:30 spans −12.6 to −7.8 dB; cues[41] G-major estimates occur at 19:30–19:35, followed by E minor at 19:40 and D major at 19:45–19:55. Keep the score, not estimated local labels, as evidence for the actual final G-major harmony."
+    },
+    {
+      "where": "cues[0].evidence; orchestra.timeline[17].playing",
+      "severity": "major",
+      "problem": "The opening evidence incorrectly calls the violas pizzicato, contradicting both the score and the otherwise correct cue/stage prose. The final harmonics snapshot includes oboes that are absent from the cited closing page.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/4/40/IMSLP70999-PMLP58739-Mahler_-_Symphony_No._4_(orch._score).pdf — PDF p.78 has sustained bowed violas and plucked double basses; PDF p.101’s final harmonics system has flutes, clarinets, harp and strings, not oboes.",
+      "fix": "In cues[0].evidence describe the violas as sustained/bowed and only the opening basses as pizzicato; retain the correct existing cue and orchestra opening text. Remove 'oboes' from orchestra.timeline[17].playing."
+    },
+    {
+      "where": "intro",
+      "severity": "major",
+      "problem": "Saying the movement ends in an E-major blaze obscures the substantial quiet continuation and actual G-major ending, which the package’s own closing cue correctly identifies.",
+      "evidence": "EXT: cited full score PDF pp.98–101, especially the final G-major system on p.101. MEAS: the report’s high E-major region near 16:55–17:30 is followed by several minutes of quiet continuation.",
+      "fix": "Say that the coda erupts in E major before subsiding to a quiet G-major close, rather than saying that the movement ends in the blaze."
+    },
+    {
+      "where": "cues[1].evidence",
+      "severity": "major",
+      "problem": "The 0:35 listening cue has score/source context but no local recording-report anchor.",
+      "evidence": "MEAS: content/listen/mahler-4-ruhevoll.mjs:34; cache/analysis/mahler-4-ruhevoll.txt:33–38. EXT: local://VERIFY-BRIEF.md:7.",
+      "fix": "Add a genuine local anchor, such as the 0:35–0:45 restrained level and sparse attacks, while retaining the explanation that the passacaglia reading comes from the score/source rather than instrument detection by the report."
+    },
+    {
+      "where": "cues[41].text",
+      "severity": "minor",
+      "problem": "The report does not establish a last audible sound at 19:55 or literal silence by 20:00; those are audibility claims, not measurements supplied by the five-second windows.",
+      "evidence": "MEAS: cache/analysis/mahler-4-ruhevoll.txt:266–269 reports −40.5 dB at 19:55, −60.4 at 20:00 and lower levels afterwards, not an exact final-note/audibility detection.",
+      "fix": "Describe the measured final decay and the score’s dying-away instruction. Remove the exact last-audible/silent-by claims unless separately supported by documented audition."
+    },
+    {
+      "where": "cues[4].title; cues[21], cues[25], transitions[2] — accidental names",
+      "severity": "minor",
+      "problem": "The oboe/violin cue title has seven words, and E flat, C sharp and A flat are spelt out in editorial prose/evidence contrary to house style.",
+      "evidence": "MEAS: content/listen/mahler-4-ruhevoll.mjs:37,54,58,113. EXT: LISTENING.md title/typography rules.",
+      "fix": "Use 'Oboe joins; violins take the tune' (six words), and use E♭, C♯ and A♭ in the affected prose/evidence, without altering URLs or literal source titles."
+    },
+    {
+      "where": "cues[25].text",
+      "severity": "minor",
+      "problem": "The assertion that these are as far from G major as the movement goes is an unsupported tonal-distance ranking. The source describes instability and many keys; the report supplies estimates, not a defined distance metric or exhaustive harmonic comparison.",
+      "evidence": "EXT: https://mahlerfoundation.org/mahler/compositions/symphony-no-4/symphony-no-4-movement-3-ruhevoll-poco-adagio/ . MEAS: the cited report windows only identify estimated local key profiles.",
+      "fix": "Delete the superlative ranking; retain the qualified C♯-minor/A♭-minor estimates and the source’s description of chromatic tonal instability."
+    }
+  ]
+}

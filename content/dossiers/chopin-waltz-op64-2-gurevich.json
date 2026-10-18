@@ -136,9 +136,9 @@
     },
     {
       "id": "term",
-      "title": "US Copyright Office — pre 1972 sound recordings",
-      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
-      "locator": "Recordings first published before 1923 and the annual expiration schedule for 1923–1946 publications; as of 2026 the cutoff is 1925.",
+      "title": "Wikimedia Commons — PD-author dedication",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-author",
+      "locator": "The template records release by the author into the public domain, with an unrestricted permission fallback where dedication is not legally possible. The recording file explicitly names Musopen as the dedicator.",
       "accessed": "2026-10-17"
     }
   ],

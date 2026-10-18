@@ -142,14 +142,14 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      1.95,
+      2.1
     ],
     "last": [
       394.453917,
       403.453917
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+    "basis": "Independent opening-pitch plot shows the first G rise near2.0s, with following repeated G peaks around2.3 and2.5s; the broad0–4 search incorrectly selected a later G at2.415s despite passing numeric gates. Narrow the first search to1.95–2.10s from this pitch evidence. Final chord inspected at401.26s; no aural annotation."
   },
   "boundaries": [],
   "engraving": {

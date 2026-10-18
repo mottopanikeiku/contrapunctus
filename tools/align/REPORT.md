@@ -173,3 +173,23 @@ Fresh final-candidate endpoint, middle and worst-region pitch-energy overlays we
 
 **Unchanged limits:** provisional automatic alignment, not aural review. The high primary-detector Beethoven/Schubert P95 values above remain visible; no detector or threshold was loosened to obtain this reproduction. Historical commands earlier in this report describe the original run; `align.py --publish` has now been removed in favour of the single gated driver.
 
+## handel-messiah-hallelujah-edison-1916 — withheld: unsubstantiated accompaniment version
+
+The recording remains eligible as a listening item, but its correspondence to the complete twelve-stave Mutopia 459 encoding is not established. [Densmore’s Edison catalogue transcription](https://www.densmore-edisondd.info/SubjectGuide/index.html) identifies 80292-R as “Mixed voices with orchestra — Oratorio Chorus”; lack of named players is therefore **not** the reason to withhold. [David Hoehl’s discussion of these Edison *Messiah* records](https://www.tnt-audio.com/vintage/edison_messiah_e.html), however, explicitly describes acoustically rescored accompaniments and cautions that their orchestration only broadly resembles later recordings. Neither source establishes that this side plays the encoded instrumental lines without substitutions or cuts.
+
+The prepared config retains the source’s twelve named staves and does not invent a separate double-bass or realised continuo part. No alignment/publication run was made for this id: a plausible choral onset median would not verify the unsubstantiated accompaniment. No `score.json` or sheet pack was published. VerS independently confirmed this version/scoring blocker; this is not a claim that every accompaniment note differs.
+
+## mozart-don-giovanni-serenade — withheld: recording withdrawn as a medley
+
+Mutopia 189 supplies a complete, public-domain six-stave encoding of “Deh, vieni alla finestra”: mandolin, Don Giovanni’s baritone line and four string staves, with 44 bars in 6/8. The original full-score `score.mid` was inspected rather than substituting the reduced `canz.mid`.
+
+The selected Scotti transfer was subsequently identified by its recording author as a Mozart/Verdi medley, and `content/listen/mozart-don-giovanni-serenade.mjs` was withdrawn. The queued driver stopped at its eligibility check (`no eligible content/listen recording`), before source preparation or alignment. The now-orphaned per-piece config was removed; no Mozart-only score was stretched over the combined recording, and no public assets were created.
+
+## beethoven-5-andante — withheld: primary timing gate
+
+The complete public-domain [Mutopia 1437](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1437) orchestral source is the Breitkopf & Härtel 1862–65 edition encoded by Stelios Samelis and Johannes Heinecke. Twelve named source staves, rather than pitch-register guesses, define the voices. The source C-horn notation lacks a sounding transposition; the configured C-basso correction is −12 semitones for horns only. Double basses likewise require −12, whereas the encoded clarinet transposition is retained. These are notation-based corrections, not evidence of separately recovered recorded instruments. The pickup is bar 0 (0.5 quarter units); bars 1–247 follow once, with the final bar shortened to 1 quarter unit.
+
+`node tools/score.mjs beethoven-5-andante` produced a contract-valid private candidate: **248 bars, 6,619 notes, 12 voices**. The unique-attack primary median is **0.178920 s**, above the unchanged 0.15 s ceiling; P95 is **1.648057 s**. First/middle/last detector deviations are 0.161950 / 0.235308 / 0.274284 s. No collapsed attacks or non-positive durations occurred; mean path-chroma cosine is 0.805808.
+
+Opening, middle (289.091–301.091 s), final (592.505–598.701 s), and the worst primary region (160–168 s) were inspected as pitch-energy overlays, **not listened to**. The latter has primary median 2.696776 s versus local-normalized 0.048728 s, with many quiet attacks missed by the whole-recording detector. That explanation does not waive the primary gate. The final score attack is mapped at 596.504669 s with a 1.100 s notated-duration warp; the acoustic arrival is spread and this is not a measured release. **No public score or sheet pack was published.** The private checks and overlays remain under `tools/align/work/`.
+

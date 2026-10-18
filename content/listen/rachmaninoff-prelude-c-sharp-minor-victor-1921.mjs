@@ -17,8 +17,9 @@ export default {
     },
     "rights": {
       "basis": "us-published-before-cutoff",
-      "published": 1921,
+      "published": 1922,
       "evidence": [
+        "https://oregonnews.uoregon.edu/lccn/sn83025138/1922-06-16/ed-1/seq-8.pdf",
         "https://adp.library.ucsb.edu/index.php/matrix/refer/700010909",
         "https://adp.library.ucsb.edu/index.php/objects/refer/52653",
         "https://archive.org/details/78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a"
@@ -51,7 +52,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "Two issued takes",
       "text": "Victor814 can contain either of two 1921 takes according to DAHR. A catalogue number alone cannot turn this transfer into a securely identified October or December performance.",

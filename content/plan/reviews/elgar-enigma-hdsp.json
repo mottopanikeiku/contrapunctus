@@ -1,0 +1,5 @@
+{
+  "id": "elgar-enigma-hdsp",
+  "verdict": "fix",
+  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] Its sole violin-only opening state remains active throughout the variation, omitting later wind participation. The source locator’s ‘opening texture only’ cannot limit the player’s latest-entry state.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 8–14: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf .","fix":"Add report-anchored, score-backed broad states for the subsequent wind-supported phrases and closing reduction, covering the full variation, and revise the opening-only locator accordingly."}]
+}

@@ -50,13 +50,13 @@ export default {
   ],
   "cues": [
     {
-      "t": 2,
+      "t": 0,
       "kind": "world",
       "title": "A disputed conductor",
       "text": "The transfer is labelled Friedrich Kark, 1910, but the attribution is contested. Compare the actual phrasing without pretending that the conductor’s identity has been settled.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/; https://online.ucpress.edu/jams/article/76/1/113/195288/Listen-and-Be-Amazed-Odeon-Kunneke-and-the-First"
+      "evidence": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/; https://api.crossref.org/works/10.1525/jams.2023.76.1.113"
     },
     {
       "t": 80,

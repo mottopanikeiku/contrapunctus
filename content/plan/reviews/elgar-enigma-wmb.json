@@ -1,0 +1,5 @@
+{
+  "id": "elgar-enigma-wmb",
+  "verdict": "fix",
+  "defects": [{"where":"orchestra.timeline","severity":"major","problem":"[INFERENCE] The sole opening state remains active for the entire miniature; its initially silent flute/low-brass qualification does not establish their status in the later contrasting orchestral accents.","evidence":"docs/assets/js/room.js:486–498; Novello pp. 20–23: https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf .","fix":"Replace the opening-only map with broad score-backed states for the miniature’s subsequent reduced and fuller passages, using report anchors, and revise the locator to cover the full variation."}]
+}

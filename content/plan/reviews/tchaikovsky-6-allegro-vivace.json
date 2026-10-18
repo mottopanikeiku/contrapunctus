@@ -1,0 +1,8 @@
+{
+  "id": "tchaikovsky-6-allegro-vivace",
+  "verdict": "fix",
+  "defects": [
+    {"where":"orchestra.ensemble and orchestra.timeline","severity":"major","problem":"[EXT/INFERENCE] Piccolo is omitted from the ensemble, and brass/timpani/percussion remain absent from every playing state before 385 s. The cited score already contains fuller early passages (e.g. PDF p. 13) before the later G-major march, so the first half is not uniformly wind-and-string chamber scoring.","evidence":"https://archive.org/download/Cantorion_sheet_music_collection_2/2ae73cc9dc8a8122d33759d18fdb8250.pdf PDF p. 13 shows the Kleine Flöte, brass and timpani; docs/assets/js/room.js:486–498 retains each authored state.","fix":"Add piccolo to the ensemble and appropriate score-backed fuller states before the scherzo return, covering the early orchestral crest and first-march expansion as well as their reductions. Anchor changes broadly to the report; keep the 235 s lighter return distinct from the preceding fuller scoring."},
+    {"where":"cues at 245/246 and 531/532","severity":"major","problem":"[MEAS] Each added measured listening cue is replaced only one second later, making both cues effectively unreadable during playback.","evidence":"content/listen/tchaikovsky-6-allegro-vivace.mjs:118–133,190–205.","fix":"Move the contextual ‘Not the symphony’s ending’ cue from 246 s to approximately 265 s, leaving room after the 245 s cue and before 287 s. Remove or merge the redundant general ‘G major, not B minor’ cue at 532 s, keeping the measured 531 s cue until the next note at 573 s."}
+  ]
+}

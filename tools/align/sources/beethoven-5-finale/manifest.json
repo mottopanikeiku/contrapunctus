@@ -1,0 +1,20 @@
+{
+  "title": "Symphony No. 5, Op. 67 — IV. Allegro — Presto",
+  "edition": "IMSLP #575952",
+  "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from derivative",
+  "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/4/Beethoven_Op.67_4.mxl",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+  "main": "Beethoven_Op.67_4.ly",
+  "musicxml": "Beethoven_Op.67_4.mxl",
+  "stripLyrics": true,
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/4/Beethoven_Op.67_4.mxl",
+      "file": "Beethoven_Op.67_4.mxl",
+      "sha256": "b49228260678d8094c66a8a4ecb10aa446434a777f77a95cbda070e2b0df9060"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

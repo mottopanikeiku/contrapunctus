@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 from config import HERE, LILYPOND, inside, load
+from musicxml_tuplets import flatten_tuplets
 
 
 def definitions(cfg, directory):
@@ -106,6 +107,8 @@ def prepare(cfg, lilypond=LILYPOND):
         for measure in xml.findall('.//measure'):
             if measure.get('number') in implicit:
                 measure.set('implicit', 'yes')
+        if source.get('musicxmlFlattenTuplets'):
+            flatten_tuplets(xml, source['musicxmlFlattenTuplets'])
         selected = directory / '__selected.musicxml'
         ET.ElementTree(xml).write(selected, encoding='utf-8', xml_declaration=True)
         main.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,106 @@
+{
+  "id": "rameau-la-poule",
+  "work": {
+    "title": "La Poule",
+    "catalogue": "Nouvelles Suites de pièces de clavecin, G-major/minor suite",
+    "movement": "",
+    "version": {
+      "value": "Solo piano performance of the harpsichord character piece",
+      "status": "documented",
+      "sourceIds": ["commons", "discography", "score", "score-item"],
+      "note": "The hosted item is La Poule alone, not the whole suite. The collection is conventionally dated about 1728; this is an approximate publication date, not a documented composition day. Meyer’s performing edition, editorial interventions and repeat choices are unestablished. The reference score supplies the musical design, not evidence that Meyer used that edition."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Marcelle Meyer", "role": "piano" }],
+    "status": "documented",
+    "sourceIds": ["commons", "discography"],
+    "note": "The recording is performed on piano; the harpsichord designation belongs to Rameau’s original work."
+  },
+  "session": {
+    "date": {
+      "value": "29–30 October 1953",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Commons’ Author field and the discography identify this two-day Rameau session. Neither allocates La Poule to one of the two days. The Commons Date and structured inception fields say 22 August 2019, matching the upload, not the performance.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Salle Adyar, Paris, France",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "The venue is stated in both opened recording sources; no session log or microphone layout is available."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Les Discophiles Français",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "The named source collection is the Médiathèque musicale Mahler’s fonds Discophiles Français."
+    },
+    "catalogue": {
+      "value": "DF 98/99",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "The paired catalogue reference identifies the Rameau programme; the individual disc and side used for this transfer are not allocated. The chronology identifies an LP issue, not a 78-rpm side."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "discography"],
+      "note": "No matrix, take, pressing inscription or exact side allocation is established from the opened sources."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "The source collection and uploader Flopinot2012 are identified. Neither is automatically the transfer or restoration engineer; no such engineer is credited."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "22 August 2019 is the upload date. The transfer date is not supplied."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "FLAC upload and Commons MP3 derivative are documented, but restoration, equalisation, speed correction, editing and the transferred carrier’s physical condition are not. No quality claim is inferred from the lossless upload format."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Jean-Philippe_Rameau_-_La_Poule_%28Marcelle_Meyer%2C_1953%29.flac/Jean-Philippe_Rameau_-_La_Poule_%28Marcelle_Meyer%2C_1953%29.flac.mp3",
+    "sourceChain": ["commons", "discography"],
+    "format": "Wikimedia Commons MP3 derivative of FLAC; source credited to Médiathèque musicale Mahler, fonds Discophiles Français",
+    "durationSeconds": 186.3
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain underlying composition",
+      "status": "documented",
+      "sourceIds": ["commons", "biography"],
+      "note": "Commons applies PD-old-70-expired to the work; Rameau died in 1764. This is separate from copyright in the recorded performance or an unidentified edition."
+    },
+    "recording": {
+      "value": "Territorial — Commons PD-EU-audio sound-recording status",
+      "status": "documented",
+      "sourceIds": ["commons", "rights-tag"],
+      "note": "The sound-recording-specific PD-EU-audio tag is the programme’s acceptance basis. It states expiry of European performers’ and producers’ rights. US public-domain status is not established and is not asserted. The composition’s public-domain statement does not establish the recording’s US status, and the session date is not substituted for a proven first-publication date."
+    },
+    "creditLine": "Jean-Philippe Rameau, La Poule; Marcelle Meyer, piano. Salle Adyar, Paris, 29–30 October 1953 according to Commons and the recording chronology; Les Discophiles Français DF 98/99. Médiathèque musicale Mahler collection, via Wikimedia Commons. Territorial PD-EU-audio; US public-domain status not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — La Poule, Marcelle Meyer", "url": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_La_Poule_(Marcelle_Meyer,_1953).flac", "locator": "Author session, Source DF 98/99, Date/upload distinction and Licensing; opened revision 508310590.", "accessed": "2026-10-17" },
+    { "id": "discography", "title": "Classical Pianists — Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#015: Rameau books, Salle Adyar, 29–30 October 1953, DF 98/99 LP.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Rameau — Nouvelles suites, keyboard score scan", "url": "https://archive.org/download/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe/Rameau_-_nouvelles_suite.pdf", "locator": "PDF pp. 27–30, printed pp. 86–89: La Poule, opening syllables, first-strain repeat, second strain and final cadence. All four pages viewed.", "accessed": "2026-10-17" },
+    { "id": "score-item", "title": "Internet Archive — Nouvelles suites de pièces de clavecin", "url": "https://archive.org/details/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe", "locator": "Work record and available public-domain score scans; collection publication metadata gives 1728.", "accessed": "2026-10-17" },
+    { "id": "biography", "title": "Jean-Philippe Rameau — biographical and work overview", "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Rameau", "locator": "Life: 1722 treatise and 1733 first opera; harpsichord music: G-major/minor grouping. Compared with the existing composer biography.", "accessed": "2026-10-17" },
+    { "id": "rights-tag", "title": "Wikimedia Commons — PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific European term statement; explicitly separate from underlying composition copyright.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

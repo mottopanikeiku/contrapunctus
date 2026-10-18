@@ -9,9 +9,10 @@
       "status": "unknown",
       "sourceIds": [
         "commons",
-        "imslp"
+        "imslp",
+        "oma"
       ],
-      "note": "Neither the Commons page, the IMSLP performance entry nor the embedded tags names the edition performed (Gutmann 1885, Haas, Nowak or Cohrs). The 1885 first edition is cited only as a viewable public-domain score for the orchestration timeline."
+      "note": "Neither the Commons page, the IMSLP performance entry, the embedded tags nor the Munich analysis page names the edition performed (Gutmann 1885, Haas, Nowak or Cohrs). The 1885 first edition is cited only as a viewable public-domain score for the orchestration timeline."
     }
   },
   "performers": {
@@ -29,30 +30,52 @@
     "sourceIds": [
       "imslp",
       "tags",
+      "oma",
       "commons"
     ],
-    "note": "The IMSLP performance entry gives “Hochschulsymphonieorchester (Munich), Marcus Bosch (conductor)” and the MP3’s embedded artist tag reads “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch”. The Commons page credits only “University of Music and Theatre Munich” as author. No roster of players is given."
+    "note": "The IMSLP performance entry gives “Hochschulsymphonieorchester (Munich), Marcus Bosch (conductor)”, the MP3’s embedded artist tag reads “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch”, and the Munich analysis page repeats the credit. The Commons page credits only “University of Music and Theatre Munich” as author. No roster of players is given."
   },
   "session": {
     "date": {
-      "value": "2020",
+      "value": "2020 (credits) or 8 November 2021 (inferred from file names and a programme listing)",
+      "status": "disputed",
+      "sourceIds": [
+        "imslp",
+        "tags",
+        "commons",
+        "oma",
+        "gasteig"
+      ],
+      "note": "The credits (IMSLP: “Live recording at the University of Music and Theatre Munich 2020”; embedded date tag; Commons; Munich analysis page) give 2020. The IMSLP file names, however, carry the token 2021-11-08, and the Gasteig November 2021 programme lists a Hochschulsymphonieorchester München concert under Marcus Bosch with Bruckner’s Seventh at the Isarphilharmonie, 19:00, under Mo 08. That matching concert is an inferred association, not proof that the files were cut from it; neither date is promoted to a settled session date, and no day or month is documented in the credits.",
+      "precision": "approximate",
+      "alternatives": [
+        {
+          "value": "2020 (year only; credit on IMSLP, Commons, the embedded tags and the Munich analysis page)",
+          "sourceIds": [
+            "imslp",
+            "tags",
+            "commons",
+            "oma"
+          ]
+        },
+        {
+          "value": "8 November 2021 (inferred from the IMSLP file-name token 2021-11-08 and the Gasteig programme listing)",
+          "sourceIds": [
+            "imslp",
+            "gasteig"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "value": "University of Music and Theatre Munich (Hochschule für Musik und Theater München); the hall is not named in the credits",
       "status": "documented",
       "sourceIds": [
         "imslp",
         "tags",
-        "commons"
+        "gasteig"
       ],
-      "note": "IMSLP (“Live recording at the University of Music and Theatre Munich 2020”), the embedded date tag and Commons all give the year 2020. The IMSLP file names carry the token 2021-11-08, which is not decoded as a session date, and no day or month of the concert is stated.",
-      "precision": "year"
-    },
-    "place": {
-      "value": "University of Music and Theatre Munich (Hochschule für Musik und Theater München); the hall is not named",
-      "status": "documented",
-      "sourceIds": [
-        "imslp",
-        "tags"
-      ],
-      "note": "IMSLP’s miscellaneous note and the embedded comment (“Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020”) name the institution as the place of the live recording, not a hall or street address."
+      "note": "IMSLP’s miscellaneous note and the embedded comment (“Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020”) name the institution as the place of the live recording, not a hall. The Gasteig programme lists a concert with the same forces at the Isarphilharmonie; whether the recording was made there is not established."
     }
   },
   "carrier": {
@@ -78,7 +101,7 @@
       "sourceIds": [
         "imslp"
       ],
-      "note": "A 2020 live concert capture distributed as an MP3 file has no disc matrix, take or side. This is not a statement about the unrecorded original recording medium."
+      "note": "A live concert capture distributed as an MP3 file has no disc matrix, take or side. This is not a statement about the original recording medium."
     }
   },
   "transfer": {
@@ -107,7 +130,7 @@
         "tags",
         "media"
       ],
-      "note": "The bit rate and tags were read from the cached copy with ffprobe; the Commons media record gives the duration and MP3 type. No restoration, editing or loudness processing is disclosed. The audio analysis finds about 55 seconds of sustained, unpitched sound after the final chord (from about 11:30), consistent with audience applause left in the file."
+      "note": "The bit rate and tags were read from the cached copy with ffprobe; the Commons media record gives the duration and MP3 type. No restoration, editing or loudness processing is disclosed. The audio analysis finds about 55 seconds of constant, bright, unpitched sound after the final chord (from about 11:30), consistent with audience applause left in the file."
     }
   },
   "digital": {
@@ -134,11 +157,12 @@
       "sourceIds": [
         "commons",
         "imslp",
-        "tags"
+        "tags",
+        "oma"
       ],
-      "note": "The Commons Copyright information template gives recording = CC BY-SA 4.0, the IMSLP performance entry states Creative Commons Attribution-ShareAlike 4.0, and the embedded copyright tag reads CC BY-SA 4.0. The licence is that of the University of Music and Theatre Munich’s recording; it is separate from the composition’s public-domain tag."
+      "note": "The Commons Copyright information template gives recording = CC BY-SA 4.0, the IMSLP performance entry states Creative Commons Attribution-ShareAlike 4.0, the embedded copyright tag reads CC BY-SA 4.0, and the Munich analysis page states the licence for the same recording with a rights-holder attribution pattern. The licence is that of the University of Music and Theatre Munich’s recording and is separate from the composition’s public-domain tag."
     },
-    "creditLine": "Anton Bruckner, Symphony No. 7, IV. Finale — Bewegt, doch nicht schnell — Hochschulsymphonieorchester (Munich), Marcus Bosch; live recording, University of Music and Theatre Munich, 2020. CC BY-SA 4.0, via IMSLP and Wikimedia Commons.",
+    "creditLine": "Anton Bruckner, Symphony No. 7, IV. Finale — Bewegt, doch nicht schnell — Hochschulsymphonieorchester (Munich), Marcus Bosch; live recording, University of Music and Theatre Munich (credited 2020). CC BY-SA 4.0, via IMSLP and Wikimedia Commons.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "sources": [
@@ -168,6 +192,20 @@
       "title": "Wikimedia Commons audio metadata API",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AHSO%20Bruckner-7%2004.mp3&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
       "locator": "videoinfo[0]: duration, MIME type and original MP3 URL.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "oma",
+      "title": "openmusic.academy — Anton Bruckner, Sinfonie Nr. 7 E-Dur (WAB 107) (analysis page with the same HSO München / Marcus Bosch recording)",
+      "url": "https://openmusic.academy/docs/bmwvSwGA9xQFLhfL4GJukj/anton-bruckner-sinfonie-nr7-e-dur-wab-107",
+      "locator": "Player captions: “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch — Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020, Lizenz: CC BY-SA 4.0”; the page also states a rights-holder attribution pattern for the files.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "gasteig",
+      "title": "Gasteig München — Programme, November 2021 (PDF)",
+      "url": "https://www.gasteig.de/imgs/Gasteig_Nov2021_Web1.pdf?x66008=",
+      "locator": "PDF page 16 by extraction; entry under “Mo 08”: coopERATIONEN – Benefizkonzert Yehudi Menuhin Live Music Now, HSO München, Raphaela Gromes (cello), Leitung Marcus Bosch, Schumann Cello Concerto and Bruckner Symphony No. 7 (HMTM), Isarphilharmonie, 19:00. The day heading was read from the extracted text layer.",
       "accessed": "2026-10-17"
     }
   ],

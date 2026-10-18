@@ -3,12 +3,16 @@
   "work": {
     "title": "String Quartet No. 15 in A minor",
     "catalogue": "Op. 132",
-    "movement": "III–IV combined. Molto adagio (Heiliger Dankgesang) — Alla marcia, assai vivace",
+    "movement": "III. Molto adagio (Heiliger Dankgesang); the source’s III–IV combined title is disputed",
     "version": {
-      "value": "Original quartet scoring; complete movements III and IV together in the selected Archive track.",
-      "status": "documented",
-      "sourceIds": ["archive", "archive-data", "sleeve", "score"],
-      "note": "This is not the complete five-movement quartet and is not just movement III. The source groups III and IV in the first track of LP side 2; movement V is a separate, unselected file. The march’s closing link is included, but the written attacca into V cannot be followed within this selected file. Performing edition, repeat observance and any edits are not established."
+      "value": "Original quartet scoring; movement III. The Archive’s combined III–IV designation is disputed.",
+      "status": "disputed",
+      "sourceIds": ["archive", "archive-data", "segments", "selected-audio", "score"],
+      "note": "The exact selected 1092.62-second MP3 is retained without truncation or substitution. Its analysed structure supports the five alternating spans of III, at approximately 0, 214, 340, 558 and 686 seconds, followed by slow music through the endpoint. The required report does not establish an A-major march or the IV–V link. Supplementary upper-band inspection finds an F-centred ending; verifier VerH independently checked the selected file’s final37.6s against the score and also found the F ending of III, not IV’s dominant recitative. These are score/audio-feature correspondences, not an aural or complete bar-aligned certification. No IV boundary or IV listening prose is invented. Performing edition, cuts, repeat observance and the completeness of the final played release remain unestablished.",
+      "alternatives": [
+        { "value": "III–IV combined, as asserted by the Archive filename and catalogue metadata", "sourceIds": ["archive", "archive-data", "disc-metadata", "segments"] },
+        { "value": "III only, supported by the selected file’s five-span design and independently checked F-centred endpoint", "sourceIds": ["selected-audio", "score"] }
+      ]
     }
   },
   "performers": {
@@ -54,7 +58,7 @@
     "matrixTakeSides": {
       "value": [
         "Side 1, label No.1: ABL.597 — movements I and II, not selected",
-        "Side 2, label No.2: ABL.598 — movements III, IV and V; selected digital track contains III–IV only"
+        "Side 2, label No.2: ABL.598 — movements III, IV and V; the selected digital track is labelled III–IV, but its combined-movement identity is disputed"
       ],
       "status": "documented",
       "sourceIds": ["sleeve", "archive-data", "disc-metadata"],
@@ -84,7 +88,7 @@
   "digital": {
     "streamUrl": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01.%203rd%20Movement%3A%20Molto%20Adagio%20-%20Andante%3B%204th%20Movement%3A%20Alla%20Marcia%2C%20Assal%20Vivace.mp3",
     "sourceChain": ["archive", "archive-data", "sleeve", "disc-metadata"],
-    "format": "Internet Archive VBR MP3 derivative (listed average 185 kbps), selected III–IV segment of the side-2 FLAC capture",
+    "format": "Internet Archive VBR MP3 derivative (listed average 185 kbps), side-2 segment labelled III–IV; that movement allocation is disputed",
     "durationSeconds": 1092.62
   },
   "rights": {
@@ -100,14 +104,16 @@
       "sourceIds": ["archive", "archive-data", "sleeve", "eu-original", "eu-extension", "us-term"],
       "note": "The admitted basis is eu-published-before-1963, using the Archive’s 1952 catalogue date for this identified London LLP318 issue. The printed sleeve carries a 1951 copyright notice, corroborating an early-1950s package but not independently establishing the first publication year of the sound recording. A recording published by 1952 had exhausted the ordinary EU 50-year phonogram term before 1 November 2013; the 2011 extension applies to recordings still protected on that date. This is territorial, not a Creative Commons grant or worldwide clearance. The US 1947–1956 term is longer, and no US public-domain claim is made. The Archive item supplies no separate recording licence; availability online and Beethoven’s public-domain composition are not the admission basis."
     },
-    "creditLine": "Ludwig van Beethoven, String Quartet No.15, Op.132, III–IV combined; The Griller String Quartet. London Records LLP318, catalogued 1952; session date and place unknown. Internet Archive/Boston Public Library vinyl collection, digitised 23 September 2021. Territorial EU public-domain recording basis; US status unestablished.",
+    "creditLine": "Ludwig van Beethoven, String Quartet No.15, Op.132, III; Archive filename’s III–IV combined designation disputed. The Griller String Quartet. London Records LLP318, catalogued 1952; session date and place unknown. Internet Archive/Boston Public Library vinyl collection, digitised 23 September 2021. Territorial EU public-domain recording basis; US status unestablished.",
     "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
   },
   "sources": [
     { "id": "archive", "title": "Internet Archive — Beethoven: String Quartet No.15 in A minor, Op.132", "url": "https://archive.org/details/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet", "locator": "The Griller String Quartet; London Records LLP318; publication date 1952; four-track listing with III and IV combined. Does not identify a session date or venue.", "accessed": "2026-10-17" },
     { "id": "archive-data", "title": "Internet Archive — Griller item metadata, files and segmentation", "url": "https://archive.org/metadata/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet", "locator": "date 1952, publisher-catalog-number, source-id discogs.com, lineage, ripping_operator, ripping_date, side-2 FLAC, selected MP3 length 1092.62 and final side-2 track-1 segment 7434–1100006 ms. Uploader, scanner and original session are kept separate.", "accessed": "2026-10-17" },
     { "id": "sleeve", "title": "London LLP318 — scanned sleeve and labels", "url": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet.pdf", "locator": "All four pages viewed: front and rear sleeve; labels No.1/No.2, ABL.597/ABL.598, personnel and movement contents. Rear sleeve: Copyright 1951 by The London Gramophone Corporation, Printed in USA. Labels: Made in England. E.C. Stone’s interpretative sleeve text is not used as session documentation.", "accessed": "2026-10-17" },
-    { "id": "disc-metadata", "title": "Internet Archive — disc-metadata.json", "url": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc-metadata.json", "locator": "Album date 1952; side 2 ordinal 1 contains III–IV, ordinal 2 contains V. This repeats catalogue metadata, not independent publication corroboration.", "accessed": "2026-10-17" },
+    { "id": "disc-metadata", "title": "Internet Archive — disc-metadata.json", "url": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc-metadata.json", "locator": "Album date 1952; side2 ordinal1 is labelled III–IV and ordinal2 is labelled V. These are catalogue assertions, not an independent musical-content identification or publication corroboration.", "accessed": "2026-10-17" },
+    { "id": "segments", "title": "Internet Archive — final track segmentation", "url": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet_segments.json", "locator": "Side2 track1 final start7434/end1100006/duration1092572 ms, titled III–IV; track2 starts at1100006 ms and is titled V. Initial automatic ranges differ substantially. Digital segmentation is not a score-based identity check.", "accessed": "2026-10-17" },
+    { "id": "selected-audio", "title": "Selected Griller MP3 — musical-content research", "url": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01.%203rd%20Movement%3A%20Molto%20Adagio%20-%20Andante%3B%204th%20Movement%3A%20Alla%20Marcia%2C%20Assal%20Vivace.mp3", "locator": "Required report: cache/analysis/beethoven-132-dankgesang.txt, duration1092.6s; boundaries3:34,5:40,9:18,11:26 match III’s five-part design. VerH independently measured the final37.6s in the150–2000Hz band: F predominates at1070–1085s, with chiefly noise by1089s; score printed179 ends III on fermata unison F, whereas IV ends in a dominant recitative. This supports III-only identity without claiming aural review or full score alignment. Provider’s combined title remains disputed.", "accessed": "2026-10-17" },
     { "id": "score", "title": "Beethoven, Op.132 — Breitkopf & Härtel collected-edition score, plate B.51", "url": "https://www.lvbeethoven.it/wp-content/uploads/2020/10/Opus132.pdf", "locator": "Viewed original quartet engraving: printed pp.173–180 (PDF pp.15–22), complete III and IV. Slow/Andante alternation, final Mit innigster Empfindung, march and written link into V. The recording’s performing edition is not identified.", "accessed": "2026-10-17" },
     { "id": "imslp", "title": "IMSLP — Op.132 edition catalogue", "url": "https://imslp.org/wiki/String_Quartet_No.15,_Op.132_(Beethoven,_Ludwig_van)", "locator": "Complete-score listing: Beethovens Werke, Serie6, Band2, No.51, Breitkopf & Härtel, 1863, plate B.51, Public Domain. Score mirror used for visual inspection because direct IMSLP download was challenged.", "accessed": "2026-10-17" },
     { "id": "museum", "title": "Beethoven-Haus — The string quartets of Beethoven", "url": "https://internet.beethoven.de/pdf-sonderausstellung/Beethovens-Streichquartette-Brief-Guide.pdf", "locator": "Exhibition guide pp.6–8: Galitzin’s 1822 commission; illness interrupting Op.132; July1825 completion; Linke and Holz copying parts; private hearings and Schlesinger’s engraver’s copy. Damaged PDF text extraction limits reuse of numeric details.", "accessed": "2026-10-17" },

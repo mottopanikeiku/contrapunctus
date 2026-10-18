@@ -45,7 +45,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "One historical side",
       "text": "Only the first of the movement’s two files is used here. The player streams that original file; no joined reconstruction has been made.",

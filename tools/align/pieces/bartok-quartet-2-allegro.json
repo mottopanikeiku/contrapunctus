@@ -273,15 +273,9 @@
     "description": "Movement II only: bars 1–577 once in written order. No repeat signs occur in the selected MusicXML; thematic returns are written out."
   },
   "endpoints": {
-    "first": [
-      0,
-      3
-    ],
-    "last": [
-      434,
-      445
-    ],
-    "basis": "Initial score-pitch windows from existing recording analysis; refine using pitch-energy inspection before publication."
+    "first": [1.2, 1.55],
+    "last": [443.65, 443.95],
+    "basis": "The fresh pitch-energy overlay and source-pitch flux show the initial F4 attack near 1.36 s, before the louder repetitions at 2.24–2.82 s. The closing D2/D3/D4 onset lies near 443.8 s; the later 444.3 s energy rise belongs to that already sounding chord and is excluded. These measured windows are not an aural review."
   },
   "boundaries": [],
   "provenance": [

@@ -1,0 +1,25 @@
+{
+  "title": "Symphony No. 1 in C minor, Op. 68 — IV. Adagio — Più andante — Allegro non troppo, ma con brio — Più allegro",
+  "edition": "IMSLP #317803",
+  "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from the derivative",
+  "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.1%2C_Op.68/4/Brahms_Op.68_4.mxl",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+  "main": "Brahms_Op.68_4.ly",
+  "musicxml": "Brahms_Op.68_4.mxl",
+  "stripLyrics": true,
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.1%2C_Op.68/4/Brahms_Op.68_4.mxl",
+      "file": "Brahms_Op.68_4.mxl",
+      "sha256": "aabe18fb068c6f87e1f73815383da181df194082177bdd75c49f425d436762fb"
+    }
+  ],
+  "musicxmlImplicitMeasures": [
+    61,
+    62,
+    458
+  ],
+  "accessed": "2026-10-17"
+}

@@ -1,27 +1,5 @@
 {
   "id": "rachmaninoff-serenade-op3-5",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[0].text",
-      "severity": "minor",
-      "problem": "The opening left-hand F is F4 in treble clef, not a low bass note. The following turning figure moves mostly below and around it, not simply above it.",
-      "evidence": "https://www.pianostreet.com/images/dynamic-image-score.php?filename=rachmaninoffs/img-640/rachmaninoff_serenade_op3_no5_1892_version_Page_1.png — first system, both staves in treble clef.",
-      "fix": "Replace ‘a low F, small turning figures above it’ with ‘an F in the left hand, small turning figures around it’."
-    },
-    {
-      "where": "cues[0].evidence",
-      "severity": "minor",
-      "problem": "The cited opening windows include 0:55, whose onset rate is 2.6 per second, outside the stated 0.4–2.2 range.",
-      "evidence": "cache/analysis/rachmaninoff-serenade-op3-5.txt:27,36–38",
-      "fix": "Use 0.4–2.6 attacks per second, or end the cited quiet interval at 0:50."
-    },
-    {
-      "where": "cues[7].text",
-      "severity": "minor",
-      "problem": "2:55 is not the record’s loudest five-second window. It is second overall and the loudest in the closing minute; 1:15 is louder.",
-      "evidence": "cache/analysis/rachmaninoff-serenade-op3-5.txt:23,42,62 — 1:15 is −8.4 dB; 2:55 is −10.3 dB.",
-      "fix": "Say ‘the closing minute’s loudest window comes at about 2:55’ instead of ‘the loudest window comes at about 2:55’."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

@@ -50,7 +50,7 @@ export default {
   ],
   "cues": [
     {
-      "t": 1,
+      "t": 0,
       "kind": "world",
       "title": "The historic coupling",
       "text": "The original Odeon side coupled this étude with Op. 25 No. 2. The supplied transfer has separate access tracks; this player uses the Butterfly file rather than constructing a new medley.",

@@ -41,11 +41,15 @@
   "endpoints": {
     "first": [0, 5],
     "last": [769, 776],
-    "basis": "Initial source-pitch windows from the cached 782.253-second recording analysis: opening D4–F4–A4 and final D4. Inspect fresh pitch-energy evidence and chord spreading before publication."
+    "end": {
+      "seconds": 778.5,
+      "basis": "MEAS: Final D4 plus its octave/third-harmonic pitch-energy bins (MIDI 62, 74, 81), smoothed over 13 frames at 50 Hz, relative to the 772.2–773.0 s peak, fall from −31.08 dB mean in 778.00–778.25 s to −43.83 dB in 778.25–778.50 s and −47.18 dB in 778.50–778.75 s; subsequent windows remain below −50 dB. Use 778.5 s as a conservative pitched-decay display boundary. Whole-file −45 dB RMS remains active to 782.245 s because of transfer noise. This is not a measured bow release."
+    },
+    "basis": "Pitch-energy overlays identify the opening D4–F4–A4 chord’s leading rise at 2.40 s (peak 2.46 s) and the final D4 reattack at 772.10 s (peak 772.16 s), distinct from the preceding D4 eighth. These windows retain those inspected rises; chord spreading and breath timing are not aural annotations."
   },
   "diagnostics": {
     "held": { "voice": 3, "onsets": [0, 264, 599, 767] },
-    "overlays": [[0, 15], [255, 280], [390, 415], [605, 625], [760, 782]]
+    "overlays": [[0, 15], [255, 280], [390, 415], [605, 625], [708, 728], [760, 782]]
   },
   "boundaries": [],
   "engraving": { "staff": 18, "width": 230, "height": 297 },
@@ -53,6 +57,7 @@
     "This is the standalone solo-violin Chaconne, not the whole partita or a piano arrangement. The original source and published MIDI are retained with inventory SHA-256 pins.",
     "The four separately encoded variables melodyOne, melodyTwo, melodyThree and melodyFour are compiled independently. Names identify source variables rather than inferred soprano/alto/bass roles or MIDI channels; their notational voice settings are respectively voiceOne, voiceThree, voiceFive and voiceTwo.",
     "The source sets currentBarNumber to 2 before partial 2 and labels the opening fragment as bar 1. Its 257 source-comment bars occupy 770 quarter units. Source unisons and chord holds remain in their originating variables instead of being truncated by the published merged MIDI staff.",
-    "The arpeggio markings at bars 89 and 201 are not a fully encoded performance realisation. Symbolic sustained chord tones must not be mistaken for Heifetz’s individual string attacks; no notes or repeated arpeggio patterns are fabricated. No aural review or recording-edition identity is claimed."
+    "The arpeggio markings at bars 89 and 201 are not a fully encoded performance realisation. Symbolic sustained chord tones must not be mistaken for Heifetz’s individual string attacks; no notes or repeated arpeggio patterns are fabricated. No aural review or recording-edition identity is claimed.",
+    "The final written D4 hold uses an explicit 778.5 s pitch-energy display boundary rather than the noisy whole-file RMS end at 782.245 s. The strongest pitched energy fades around 775 s, with a weak measured tail reaching the documented boundary; neither the display duration nor that threshold is a measured violin release."
   ]
 }

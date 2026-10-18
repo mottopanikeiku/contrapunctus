@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "id": "debussy-clair-de-lune",
+  "source": {
+    "mutopia": 1778,
+    "title": "Suite bergamasque — III. Clair de lune",
+    "edition": "E. Fromont (1905)",
+    "encoder": "Keith OHara",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1778",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "debussy_Ste_Bergamesq_Clair.ly",
+    "midi": "debussy_Ste_Bergamesq_Clair.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DebussyC/L75/debussy_Ste_Bergamesq_Clair/debussy_Ste_Bergamesq_Clair.ly",
+        "file": "debussy_Ste_Bergamesq_Clair.ly",
+        "sha256": "c1c58f806a8939fc5a157707ea479403abb9655a4820b25bb6b98e39fd781e7a"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DebussyC/L75/debussy_Ste_Bergamesq_Clair/debussy_Ste_Bergamesq_Clair.mid",
+        "file": "debussy_Ste_Bergamesq_Clair.mid",
+        "sha256": "4eee9a1546ffde1ff74cb9824ba0e57cbc821185a15185bfea9faed97820bf8c"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      null,
+      "upper",
+      "lower"
+    ]
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 72,
+    "quarters": 4.5,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        72
+      ]
+    ],
+    "description": "Complete72bar 9/8 movement once, with written tempo/rubato sections; no repeated section or artificial bars for the scaled tuplets. Final bar has a dotted-half chord and dotted-quarter rest: retain all4.5quarter units although MIDI notes stop at322.5."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      5
+    ],
+    "last": [
+      239,
+      248
+    ],
+    "basis": "Cached analysis identifies final tonic span after240s before a long noisy decay. These broad first-pass source-pitch search windows need fresh overlay inspection; high detected onsets in the tail are surface noise, not proof of extra piano attacks."
+  },
+  "boundaries": [],
+  "diagnostics": {
+    "overlays": [
+      [
+        80,
+        94
+      ],
+      [
+        148,
+        164
+      ],
+      [
+        232,
+        250
+      ]
+    ]
+  },
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Read content/listen/debussy-clair-de-lune.mjs and cache/analysis/debussy-clair-de-lune.txt; selected recording is Moiseiwitsch1946, original piano scoring. Rights metadata belongs to the listen author, and no recording is republished by the score pipeline.",
+    "Opened Fromont1905-derived Mutopia1778 source and inspected both MIDI staff tracks. Source four notated voices are allocated across the two named staves; combined staff labels do not claim four independent voice tracks.",
+    "Canonical source section bar checks15,27,37,43,51,66 were read directly. Coarse recorded novelty times do not establish exact bar onsets, and no forced boundary anchors are supplied."
+  ]
+}

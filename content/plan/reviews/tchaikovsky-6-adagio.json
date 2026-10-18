@@ -1,0 +1,8 @@
+{
+  "id": "tchaikovsky-6-adagio",
+  "verdict": "fix",
+  "defects": [
+    {"where":"orchestra.timeline[0]","severity":"major","problem":"[EXT/INFERENCE] The low-register opening state persists until 98 s, but score PDF p. 2 adds oboe, clarinet, horns and cello before the Allegro. With latest-entry rendering these instruments remain falsely unlit during the latter introduction.","evidence":"https://archive.org/download/Cantorion_sheet_music_collection_2/e52ecfb9f5036941073dd02193700851.pdf PDF pp. 1–2; docs/assets/js/room.js:486–498; cache/analysis/tchaikovsky-6-adagio.txt:8–10.","fix":"Add a score-backed broad state for the latter introduction’s wind/horn/cello texture before the 98 s Allegro state, anchored to the report (the 0:54/1:24 changes are available candidates, not asserted alignments). Also represent the principal reduced solo span before the 538 s development so the full Andante state does not remain active through its dying-away ending."},
+    {"where":"cues at 514/516 and 1025/1031","severity":"major","problem":"[MEAS] The new audio-feature cues are superseded after only 2 s and 6 s by nearby general cues, too quickly for their prose to be read while listening.","evidence":"content/listen/tchaikovsky-6-adagio.mjs:181–196,316–331.","fix":"Remove or merge the redundant general cues at 516 s (‘Lines answer one another’) and 1031 s (‘Hear the remaining resonance’), retaining the report-anchored cues at 514 and 1025 s. Other surrounding gaps already provide adequate coverage."}
+  ]
+}
