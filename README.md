@@ -4,6 +4,50 @@ An illustrated atlas of Western art music, from Bach to the present: composer po
 
 **Site:** https://mottopanikeiku.github.io/contrapunctus/
 
+## Guide and interactive lessons
+
+`guide.html` offers three reader paths and thirteen short lessons. **Show me**
+opens the relevant page, highlights a real control and explains it in context.
+Use Back/Next or ←/→; **Do it for me** operates the control; Skip or Escape
+closes the tour without stopping the persistent player. The Hall’s gilded `?`
+opens its one-minute introduction. A first-visit invitation is shown only once.
+
+Author lessons in `src/guide-tours.mjs`: each step names a page, CSS selector,
+title, at most 40 words of text, optional action (`click`, `play`, `seek:42`,
+`wait-for:<selector>`, `key:F`), and advance mode (`next`, `on-click`,
+`on-event`). `src/guide.mjs` builds the page and lazy JSON; lesson cards are also
+indexed by site search. The app imports `tour.js` only on request or resumption
+of an unfinished session; the runner then loads `tour.css` and the lesson data.
+Neither is a preload or an offline precache entry. Unavailable controls are
+skipped after a bounded wait, with a visible explanation. The runner supports
+reduced motion, keyboard focus, mobile docking and session restoration.
+
+The Hall’s cold welcome is rendered in the initial HTML, rather than waiting
+for the room module and programme fetch. Its Begin button becomes available
+when the player mounts; returning with music already playing hides the curtain
+immediately. This keeps the welcome’s text paint off that asynchronous chain.
+
+Guide acceptance uses the existing gzip HTTP/2 preview and native Chrome 154:
+
+```sh
+CHROME_PATH=/path/to/chrome EXTRA=1 node tools/optimize/guide-checks.mjs guide-acceptance https://127.0.0.1:8791
+CHROME_PATH=/path/to/chrome CHROME_FLAGS=--ignore-certificate-errors THROTTLING_METHOD=devtools PAGES=guide.html,hall.html MODES=mobile SAVE_ASSETS=1 node tools/optimize/measure.mjs guide-final-applied-h2 https://127.0.0.1:8791
+```
+
+The browser check uses real audio, records requests and saves the Guide and
+each spotlight at 1440×900 and 390×844. `TOURS=id,id` selects other lessons.
+`EXTRA=1` also checks the first-visit hint, direct Hall help, search anchors,
+keyboard controls, refresh restoration, unmount/resume and a deliberately
+removed selector. **MEAS:** the matched mobile Lighthouse samples scored
+**Guide 100 / Hall 99**, with **0 ms TBT** on both; these are local measurements,
+not estimates of every visitor’s experience.
+
+[Browser results and screenshot inventory](cache/performance/guide-acceptance/acceptance.json) ·
+[Desktop network log](cache/performance/guide-acceptance/network.1440x900.json) ·
+[Mobile network log](cache/performance/guide-acceptance/network.390x844.json) ·
+[Other ten lessons](cache/performance/guide-all-lessons/acceptance.json) ·
+[Matched mobile Lighthouse summary](cache/performance/guide-final-applied-h2/summary.json)
+
 ## The Concert Hall
 
 A continuous concert from Gregorian chant, Hildegard and Machaut to Stravinsky, Bartók and Shostakovich: 379 recordings (about 38 hours, mostly complete works) streamed from Wikimedia Commons, in order of the composers' births. The music keeps playing as you move through the site (one persistent player, a gilded now-playing bar, pause any time).

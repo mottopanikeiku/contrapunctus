@@ -1,6 +1,8 @@
 /* Shared by every page: the gilded now-playing bar, the search dialog, the entrance to the hall.
    Uses literal colours because the Atlas (paper) and the hall (night) define different variables. */
 
+#cp-tour-error { position: fixed; z-index: 10001; right: 1rem; bottom: 1rem; max-width: min(28rem, calc(100% - 2rem)); padding: 1rem; border: 1px solid #c9a65a; background: #211a13; color: #efe5d2; }
+
 /* ---------- now playing: a slim gilded bar that follows the reader through the Atlas ---------- */
 .np {
   position: fixed; z-index: 60; left: 50%; bottom: max(.9rem, env(safe-area-inset-bottom));

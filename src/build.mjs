@@ -12,6 +12,7 @@ import { buildReturnLab } from './returnlab.mjs';
 import { buildCompare } from './compare.mjs';
 import { buildAtlasMap, placesSection } from './atlas-map.mjs';
 import { buildJourneys } from './journeys.mjs';
+import { buildGuide, guideVersion } from './guide.mjs';
 import { optimize } from '../tools/optimize/index.mjs';
 import { picture } from '../tools/optimize/pictures.mjs';
 
@@ -235,6 +236,7 @@ const fonts = '<!--cp-fonts-->'; // The optimiser injects local subsets after sc
 
 const NAV = [
   ['hall', 'The Hall', 'hall.html'],
+  ['guide', 'Guide', 'guide.html'],
   ['influence', 'Influence', 'influence.html'],
   ['compare', 'Compare', 'compare/index.html'],
   ['map', 'Map', 'atlas-map.html'],
@@ -275,7 +277,7 @@ function layout(ctx, { title, description, body, dark = false, accent, nav, ogIm
   const style = accent ? ` style="--accent:${accent}"` : '';
   body = termify(ctx, ctx.chapter ? numberFigures(ctx, body) : body);
   return `<!doctype html>
-<html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}">
+<html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}" data-guide="${guideVersion}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -589,6 +591,7 @@ function searchIndex() {
   add('page', 'The Web of Influence', 'Composers, paintings, poems and the evidence connecting them', 'influence.html');
   add('page', 'Compare performers', 'Switch performers at the same musical moment', 'compare/index.html');
   for (const c of comparisonSearch) add('comparison', c.title, `${c.composer} · ${c.work}`, `compare/${c.id}.html`, c.question);
+  for (const lesson of guideLessons) add('guide', lesson.title, lesson.promise, `guide.html#${lesson.id}`, `${lesson.feature} tour show me`);
   const figures = new Map(composers.map((c) => [c.slug, { id: c.slug, name: c.name, dates: lifespan(c), kind: 'composer' }]));
   const edges = new Map(), threads = new Map();
   for (const batch of influenceBatches) {
@@ -877,7 +880,7 @@ async function roomPage(prog) {
 (e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug && t.concert !== false) })).filter((x) => x.tracks.length);
   const fmt = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}`;
   return `<!doctype html>
-<html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}">
+<html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}" data-guide="${guideVersion}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -892,11 +895,11 @@ ${fonts}
 <link rel="stylesheet" href="assets/css/room.css?v=${vcss}">
 ${headScripts(ctx)}
 </head>
-<body class="room">
+<body class="room waiting">
 <div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
 <header class="r-top">
   <a class="r-brand" href="index.html"><span class="glyph">𝄞</span>Contrapunctus</a>
-  <nav class="r-nav"><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="atlas-map.html">Map</a><a href="journeys/index.html">Journeys</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
+  <nav class="r-nav" aria-label="Main navigation"><a href="guide.html">Guide</a><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="atlas-map.html">Map</a><a href="journeys/index.html">Journeys</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
 </header>
 
 <main class="stage">
@@ -956,6 +959,7 @@ ${headScripts(ctx)}
     <button class="t-prev" aria-label="Previous piece">⏮</button>
     <button class="t-play" aria-label="Play">▶</button>
     <button class="t-next" aria-label="Next piece">⏭</button>
+    <button class="t-guide" type="button" data-tour="hall-welcome" aria-label="Take the 1-minute Hall tour" title="Take the Hall tour">?</button>
   </div>
   <span class="t-time t-cur">0:00</span>
   <div class="timeline" tabindex="0" role="slider" aria-label="Position in the piece" aria-valuemin="0">
@@ -967,6 +971,7 @@ ${headScripts(ctx)}
   <span class="t-time t-dur">0:00</span>
   <button class="t-prog" aria-expanded="false">Programme</button>
 </footer>
+<aside class="hall-hint" hidden aria-label="Welcome to the Hall"><span>New here? <button type="button" data-tour="hall-welcome">Take the 1-minute tour</button></span><button type="button" class="hall-hint-close" aria-label="Dismiss the tour invitation">×</button></aside>
 
 <aside class="programme" hidden>
   <header><h2>The programme</h2><p>${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
@@ -976,12 +981,12 @@ ${headScripts(ctx)}
   }).join('')}</ol></section>`).join('')}
 </aside>
 
-<div class="curtain" hidden>
+<div class="curtain">
   <div class="curtain-inner">
     <span class="kicker">The Concert Hall</span>
     <h2>A concert from Bach to Bartók</h2>
     <p>${concertN} recordings play one after another. Where the score is known, it lights up as the music sounds; elsewhere the visualizer traces pitch and harmony. Notes explain each piece, and every turn it takes, as it happens.</p>
-    <button class="begin">Begin the concert</button>
+    <button class="begin" disabled>Loading the concert…</button>
     <small>Browsers need one click before a page may play sound. After that, the music plays on its own.</small>
   </div>
 </div>
@@ -1023,6 +1028,7 @@ await out('credits.html', creditsPage());
 await out('routes.html', routesPage());
 await out('glossary.html', glossaryPage());
 await out('sources.html', sourcesPage());
+const guideLessons = await buildGuide({ out, emit, layout, esc, attr });
 await emit('assets/glossary.json', JSON.stringify(Object.fromEntries(GLOSSARY.map((g) => [g.slug, { term: g.term, short: g.short }]))));
 await writeSearchIndex();
 const recordings = recordingRows();
