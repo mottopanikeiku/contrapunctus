@@ -42,7 +42,7 @@
         "decca-discography",
         "session-reissue"
       ],
-      "note": "Decca discography entry S183[d] specifies 23–25 and 28 October, and 9 November 1957; the displayed value encloses these non-contiguous sessions. The HDTT reissue independently gives the same outer range. The individual tableau's recording day and take dates remain unknown. Release and digitisation dates are not substituted for session dates.",
+      "note": "Decca discography entry S183[d] specifies 23–25 and 28 October, and 9 November 1957; the displayed value encloses these non-contiguous sessions. The HDTT reissue independently gives the same outer range. The individual tableau’s recording day and take dates remain unknown. Release and digitisation dates are not substituted for session dates.",
       "precision": "range"
     },
     "place": {
@@ -52,7 +52,7 @@
         "decca-discography",
         "session-reissue"
       ],
-      "note": "Decca discography entry S183 and the reissue recording information explicitly name Victoria Hall, Geneva; the venue is not inferred from the orchestra's home city."
+      "note": "Decca discography entry S183 and the reissue recording information explicitly name Victoria Hall, Geneva; the venue is not inferred from the orchestra’s home city."
     }
   },
   "carrier": {
@@ -142,7 +142,7 @@
         "eu-term",
         "eu-extension"
       ],
-      "note": "A contemporary London/Pecar Electronics advertisement in the Grosse Pointe News, 6 November 1958, p. 7, pictures this Petrushka/Ansermet cover with catalogue CS 6009 under recordings NOW AVAILABLE. This directly establishes commercial availability in 1958; Archive's 1958 carrier date and Decca's ℗ 1958 attribution corroborate it. The rule concerns first lawful publication anywhere, not first EU publication; the US advertisement is therefore pertinent. A 1958 lawful publication exhausted the former 50-year EU performance/phonogram term by the end of 2008, before the 1 November 2013 protection threshold for the 70-year extension. The exact earliest market/day and any earlier issue are not established or required for this pre-1963 finding. No CC licence, worldwide public-domain claim, or US recording clearance is asserted."
+      "note": "A contemporary London/Pecar Electronics advertisement in the Grosse Pointe News, 6 November 1958, p. 7, pictures this Petrushka/Ansermet cover with catalogue CS 6009 under recordings NOW AVAILABLE. This directly establishes commercial availability in 1958; Archive’s 1958 carrier date and Decca’s ℗ 1958 attribution corroborate it. The rule concerns first lawful publication anywhere, not first EU publication; the US advertisement is therefore pertinent. A 1958 lawful publication exhausted the former 50-year EU performance/phonogram term by the end of 2008, before the 1 November 2013 protection threshold for the 70-year extension. The exact earliest market/day and any earlier issue are not established or required for this pre-1963 finding. No CC licence, worldwide public-domain claim, or US recording clearance is asserted."
     },
     "creditLine": "Igor Stravinsky, Petrushka (1911 original orchestration), IV. The Shrovetide Fair (evening); Orchestre de la Suisse Romande, Ernest Ansermet. Recorded 1957, Victoria Hall, Geneva; London CS 6009, 1958. Internet Archive LP digitisation, 29 June 2021. Territorial EU recording-term basis only; US recording status unestablished and composition rights separate.",
     "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"

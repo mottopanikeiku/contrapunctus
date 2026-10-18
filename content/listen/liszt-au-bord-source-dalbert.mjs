@@ -13,6 +13,11 @@ export default {
     "archive": {
       "item": "02-eugen-d-albert-syposium-1146",
       "file": "04 - Eugen d'Albert - Au Bord d'une Source (Liszt) Odeon 76565, Mx. xxB 5732 (III.1913)..mp3"
+    },
+    "rights": {
+      "basis": "eu-published-before-1963",
+      "published": 1913,
+      "evidence": "Symposium 1146’s original-carrier scan identifies the historical commercial Odeon 76565 issue, matrix xxB 5732, in its 1912/3 chronology; the upload specifies March 1913. This supplies the programme’s territorial EU pre-1963 basis, not an independently verified first-publication date or US clearance. https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg ; https://archive.org/metadata/02-eugen-d-albert-syposium-1146"
     }
   },
   "intro": "The rippling surface of this miniature hides an intricate exchange between the hands: accompaniment and melodic notes cross registers without breaking the flow. Eugen d’Albert, who studied with Liszt, records it on an early Odeon disc.",

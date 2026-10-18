@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "id": "debussy-garden-il-pleure",
+  "source": {
+    "title": "Ariettes oubliées — No. 2 Il pleure dans mon cœur",
+    "edition": "OpenScore Lieder transcription from IMSLP #14819; printed-edition imprint not independently established",
+    "encoder": "OpenScore Lieder contributors",
+    "url": "https://musescore.com/openscore-lieder-corpus/scores/5060918",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "main": "song.ly",
+    "musicxml": "lc5060918.mxl",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Debussy%2C_Claude/Ariettes_Oubli%C3%A9es/2_Il_pleure_dans_mon_coeur/lc5060918.mxl",
+        "file": "lc5060918.mxl",
+        "sha256": "fa5a10c4844855430ec517570fa895e792e3b6b50516058b64af5624e87af4c4"
+      }
+    ]
+  }
+}

@@ -1,27 +1,5 @@
 {
   "id": "debussy-la-mer-orchestral-dialogue",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "intro; cues[11].text; transitions[3].how",
-      "severity": "minor",
-      "problem": "Visible prose spells out D-flat instead of using the required accidental glyph.",
-      "evidence": "AUTHORING.md:10 requires ♯ ♭ ♮ for accidentals in prose. The final D♭-major destination is supported by the score; this is typography only.",
-      "fix": "Use D♭ major / D♭-major as grammatically appropriate instead of D-flat major / D-flat-major."
-    },
-    {
-      "where": "cues[2].title",
-      "severity": "minor",
-      "problem": "The seven-word cue title exceeds the required two-to-six-word range.",
-      "evidence": "LISTENING.md:51; current title Dialogue is the title, not a script.",
-      "fix": "Use Dialogue, not a literal script, or another concrete title of at most six words."
-    },
-    {
-      "where": "dossier: session.date.note, carrier.catalogue.note, transfer.date.note, rights and source locators",
-      "severity": "minor",
-      "problem": "Numerous prose words are accidentally joined to dates or identifiers, impairing the public dossier’s readability.",
-      "evidence": "Examples include to3–4December1955, a1956, in1918, in1956, before1963 and former50-year. The underlying dates and provenance were independently checked.",
-      "fix": "Restore normal spaces throughout dossier prose: for example to 3–4 December 1955, in 1956, before 1963 and former 50-year. Space catalogue references and month/year phrases without changing exact machine identifiers, URLs or ISO dates."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

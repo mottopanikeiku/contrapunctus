@@ -57,14 +57,23 @@ export async function optimizeFonts(textFiles, out = OUT) {
   for (const [id, family, style, weight, file, sha] of faces) {
     const original = await source(file, sha);
     const font = fontkit.create(original);
-    const included = points.filter((point) => font.hasGlyphForCodePoint(point));
-    const chars = String.fromCodePoint(...included);
+    const included = points.filter((point) => font.hasGlyphForCodePoint(point) && (family !== 'Noto Music' || point >= 0x2669 && point <= 0x266f || point >= 0x1d000 && point <= 0x1d24f));
+    // Core Latin (including Extended-A) stays together. Credits/source titles
+    // in other scripts get a separate unicode-range, loaded only when needed.
+    const core = (point) => point <= 0x17f || point >= 0x2000 && point <= 0x206f || [0x20ac, 0x2122, 0x2212, 0x266d, 0x266e, 0x266f].includes(point);
+    const groups = family === 'Noto Music' ? [included] : [included.filter(core), included.filter((point) => !core(point))];
     const weights = weight.split(' ').map(Number);
     const variationAxes = font.variationAxes.wght ? { wght: { min: weights[0], max: weights.at(-1) } } : undefined;
-    const subset = await cached(hash(`subset-v1-${sha}-${weight}-${chars}`), 'woff2', () => subsetFont(original, chars, { targetFormat: 'woff2', variationAxes }));
-    const name = `${id}.${hash(subset).slice(0, 16)}.woff2`;
-    await save(path.join(out, 'assets/fonts', name), subset);
-    css.push(`@font-face{font-family:'${family}';font-style:${style};font-weight:${weight};font-display:swap;src:url('__BASE__assets/fonts/${name}') format('woff2');unicode-range:${ranges(included)}}`);
+    const keepFeatures = ['kern', 'liga', 'clig', 'calt', 'rlig', 'ccmp', 'locl', 'mark', 'mkmk', 'onum', 'pnum', 'lnum', 'tnum', 'smcp', 'c2sc'];
+    for (const [index, glyphs] of groups.entries()) {
+      if (!glyphs.length) continue;
+      const chars = String.fromCodePoint(...glyphs);
+      const subset = await cached(hash(`subset-v2-${sha}-${weight}-${chars}`), 'woff2', () => subsetFont(original, chars, { targetFormat: 'woff2', variationAxes, keepFeatures }));
+      const name = `${id}.${index ? 'extra.' : ''}${hash(subset).slice(0, 16)}.woff2`;
+      await save(path.join(out, 'assets/fonts', name), subset);
+      css.push(`@font-face{font-family:'${family}';font-style:${style};font-weight:${weight};font-display:swap;src:url('__BASE__assets/fonts/${name}') format('woff2');unicode-range:${ranges(glyphs)}}`);
+      manifest.push({ id, family, style, weight, name, bytes: subset.length, source: file, sha, glyphs: glyphs.length, extra: Boolean(index) });
+    }
     if (family !== 'Noto Music') {
       // Times New Roman and its metric-compatible Liberation Serif substitute:
       // measured x-height 940 / 2048. Match target x-height and vertical metrics.
@@ -75,7 +84,6 @@ export async function optimizeFonts(textFiles, out = OUT) {
       const locals = italic ? "local('Times New Roman Italic'),local('Liberation Serif Italic')" : "local('Times New Roman'),local('Liberation Serif')";
       css.push(`@font-face{font-family:'${family} Fallback';font-style:${style};font-weight:${weight};src:${locals};size-adjust:${percent(adjust)};ascent-override:${percent(target.ascent / target.unitsPerEm / adjust)};descent-override:${percent(-target.descent / target.unitsPerEm / adjust)};line-gap-override:${percent(target.lineGap / target.unitsPerEm / adjust)}}`);
     }
-    manifest.push({ id, family, style, weight, name, bytes: subset.length, source: file, sha, glyphs: included.length });
   }
   for (const [family, sha] of licenses) await save(path.join(out, 'assets/fonts', `${family}-OFL.txt`), await source(`${family}/OFL.txt`, sha));
   // Remove only our superseded hash-named products, never unrelated fonts.
@@ -85,7 +93,7 @@ export async function optimizeFonts(textFiles, out = OUT) {
   }
   await save(path.join(out, 'assets/fonts/manifest.json'), JSON.stringify(manifest));
   const preloads = ['cormorant-garamond-italic', 'eb-garamond-normal'].map((id) => manifest.find((face) => face.id === id));
-  return { manifest, head: (base) => `${preloads.map((face) => `<link rel="preload" href="${base}assets/fonts/${face.name}" as="font" type="font/woff2" crossorigin>`).join('')}<style data-cp-fonts>${css.join('').replaceAll('__BASE__', base)}</style>` };
+  return { manifest, head: (base) => `${preloads.map((face) => `<link rel="preload" data-cp-font-preload href="${base}assets/fonts/${face.name}" as="font" type="font/woff2" crossorigin>`).join('')}<style data-cp-fonts>${css.join('').replaceAll('__BASE__', base)}</style>` };
 }
 
 export function fontFallbacks(css) {

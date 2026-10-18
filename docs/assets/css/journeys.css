@@ -49,8 +49,8 @@ body:has(.j-reader) > .colophon { display: none; }
 .j-introduction > span { color: var(--j-muted); font-size: .94rem; }
 .j-rail { margin: 1.3rem 0 1.5rem; }
 .j-rail ol { display: flex; position: relative; margin: 0; padding: 0 0 .7rem; overflow-x: auto; scrollbar-width: thin; scrollbar-color: #c6a35c66 transparent; list-style: none; }
-.j-rail li { flex: 1 0 6rem; min-width: 0; }
-.j-rail button { position: relative; width: 100%; padding: 0 .6rem .85rem 0; text-align: left; background: none; border: 0; color: #c2b395; cursor: pointer; }
+.j-rail li { display: flex; flex: 1 0 6rem; min-width: 0; }
+.j-rail button { display: flex; flex-direction: column; align-items: flex-start; position: relative; width: 100%; padding: 0 .6rem .85rem 0; text-align: left; background: none; border: 0; color: #c2b395; cursor: pointer; }
 .j-rail button::after, .j-rail-fill { position: absolute; content: ''; height: 2px; bottom: 0; left: 0; right: .45rem; background: #b8975644; }
 .j-rail-fill { z-index: 1; right: auto; width: min(var(--j-progress, 0%), calc(100% - .45rem)); background: #edcf86; }
 .j-rail-number { display: inline-grid; place-items: center; width: 2rem; height: 2rem; border: 1px solid #b8975670; border-radius: 50%; margin-bottom: .45rem; font: 500 .8rem var(--text); font-variant-numeric: lining-nums; }
@@ -77,8 +77,8 @@ body:has(.j-reader) > .colophon { display: none; }
 .j-cue p { margin: .35rem 0 0; color: #d8c6a3; font: italic 500 1.2rem/1.4 var(--display); }
 .j-station-exhibit { padding-top: .7rem; min-width: 0; }
 .j-station figure { margin: 0; }
-.j-gilt { display: block; padding: 10px; background: linear-gradient(135deg, #e6ca7b, #736034 12%, #cfae61 28%, #806433 46%, #e0bf79 62%, #7b5e2b 88%, #c5a35d); border: 1px solid #ebd79d; box-shadow: 0 20px 55px #0009, inset 0 0 0 2px #524120, inset 0 0 0 4px #d4b976, inset 0 0 0 6px #67532e; text-decoration: none; }
-.j-gilt img { display: block; width: 100%; max-height: 47svh; object-fit: contain; background: #15140f; border: 1px solid #382713; box-shadow: 0 0 0 1px #e6cb8588; }
+.j-gilt { display: block; width: fit-content; max-width: 100%; margin-inline: auto; padding: 10px; background: linear-gradient(135deg, #e6ca7b, #736034 12%, #cfae61 28%, #806433 46%, #e0bf79 62%, #7b5e2b 88%, #c5a35d); border: 1px solid #ebd79d; box-shadow: 0 20px 55px #0009, inset 0 0 0 2px #524120, inset 0 0 0 4px #d4b976, inset 0 0 0 6px #67532e; text-decoration: none; }
+.j-gilt img { display: block; width: auto; max-height: 47svh; object-fit: contain; background: #15140f; border: 1px solid #382713; box-shadow: 0 0 0 1px #e6cb8588; }
 .j-station figcaption { margin-top: .9rem; color: var(--j-muted); font-size: .87rem; line-height: 1.45; }
 .j-station figcaption a { color: #d9c493; }
 .j-station figcaption p { margin: .5rem 0; }

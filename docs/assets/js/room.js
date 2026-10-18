@@ -28,9 +28,12 @@ export async function mount(app) {
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const cleanups = [];
   const on = (t, ev, f, o) => { t.addEventListener(ev, f, o); cleanups.push(() => t.removeEventListener(ev, f, o)); };
+  const text = (el, value) => { if (el.textContent !== value) el.textContent = value; };
+  const html = (el, value) => { if (el._html !== value) { el._html = value; el.innerHTML = value; } };
   let alive = true;
 
   const P = await player.getProgramme();
+  if (!document.body.classList.contains('room')) return;
   let track = null, env = null, score = null, A4 = 440;
   let cueIdx = -2, sectionIdx = -1, joinIdx = -2, view = 'sound', viewObj = null;
 
@@ -46,6 +49,7 @@ export async function mount(app) {
     frame: $('.spectro-frame'), layer: $('.view-layer'), views: $('.views'), label: $('.spectro-label'),
   };
   let backdropFront = 0;
+  let showVersion = 0;
 
   // ================================================================= track display
   // Per-piece detail (notes, joins, dossier, biography) is fetched when the piece is shown, then kept.
@@ -57,8 +61,9 @@ export async function mount(app) {
   }));
 
   async function show(t) {
+    const version = ++showVersion;
     await detail(t);
-    if (player.track !== t) return;
+    if (!alive || version !== showVersion || player.track !== t) return;
     track = t;
     cueIdx = -2; sectionIdx = -1; joinIdx = -2; env = null; score = null;
     A4 = t.tuning || 440;
@@ -87,7 +92,10 @@ export async function mount(app) {
     ui.cameo.style.objectPosition = c.focus;
     ui.cameo.alt = c.name;
     ui.cameoCap.textContent = c.dates;
-    renderComposerTab(); renderPieceTab(); renderJoinsTab();
+    ui.tabComposer.innerHTML = ''; ui.tabPiece.innerHTML = '';
+    if (!ui.tabComposer.hidden) renderComposerTab();
+    if (!ui.tabPiece.hidden) renderPieceTab();
+    renderJoinsTab();
     ui.past.innerHTML = '';
     ui.join.hidden = true;
     renderSections(); renderJoinMarkers();
@@ -95,7 +103,7 @@ export async function mount(app) {
     ui.dur.textContent = fmt(t.duration);
     fetch(new URL(`assets/listen/${t.id}.json`, app.root)).then((r) => (r.ok ? r.json() : null)).then((j) => { if (track === t) { env = j; drawTimeline(); } }).catch(() => {});
     if (t.hasScore) score = await loadScore(t);
-    if (track !== t) return;
+    if (!alive || version !== showVersion || track !== t) return;
     // views available for this recording
     const views = [];
     if (t.hasSheet) views.push('score');
@@ -108,6 +116,7 @@ export async function mount(app) {
     setView(views[0]);
     showCue(cueAt(player.time));
     tick(true);
+    wheelDirty = true; wake();
   }
 
   // ================================================================= views
@@ -129,6 +138,7 @@ export async function mount(app) {
     else if (v === 'orchestra') viewObj = orchestraView();
     else if (v === 'form') viewObj = formView();
     if (v === 'sound') requestAnimationFrame(() => { setupSpectro(); setupKeys(); });
+    wake();
   }
   const widen = $('.widen'), wideCue = $('.wide-cue');
   const setWide = (on) => {
@@ -155,8 +165,8 @@ export async function mount(app) {
   }
   const firstOnset = (x) => { const a = score.onsets; let lo = 0, hi = a.length; while (lo < hi) { const m = (lo + hi) >> 1; if (a[m] < x) lo = m + 1; else hi = m; } return lo; };
   /** Notes overlapping [t0, t1]. */
-  function notesIn(t0, t1) {
-    const out = [];
+  function notesIn(t0, t1, out = []) {
+    out.length = 0;
     for (let i = firstOnset(t0 - score.maxDur); i < score.notes.length; i++) {
       const n = score.notes[i];
       if (n[0] > t1) break;
@@ -173,7 +183,16 @@ export async function mount(app) {
     const nxt = bars[i + 1];
     return { i, bar: bars[i], frac: nxt ? Math.max(0, Math.min(1, (t - bars[i].t) / (nxt.t - bars[i].t))) : 1 };
   }
-  const sounding = (t) => (score ? notesIn(t, t).filter((n) => n[0] <= t && n[0] + n[1] > t) : []);
+  const soundingNotes = [];
+  function sounding(t) {
+    soundingNotes.length = 0;
+    if (score) for (let i = firstOnset(t - score.maxDur); i < score.notes.length; i++) {
+      const n = score.notes[i];
+      if (n[0] > t) break;
+      if (n[0] + n[1] > t) soundingNotes.push(n);
+    }
+    return soundingNotes;
+  }
 
   // ---- engraved sheet music: pages load as they approach view; bar boxes come precomputed in index.json
   // (tools/sheetpack), so following the music never reads layout from the SVG.
@@ -291,6 +310,7 @@ export async function mount(app) {
     });
     const g = cv.getContext('2d');
     const lo = score.lo - 2, hi = score.hi + 2;
+    const visibleNotes = [];
     let W = 0, H = 0;
     const fit = () => { const dpr = Math.min(2, devicePixelRatio || 1); W = cv.clientWidth; H = cv.clientHeight; cv.width = W * dpr; cv.height = H * dpr; g.setTransform(dpr, 0, 0, dpr, 0, 0); };
     fit(); const ro = new ResizeObserver(fit); ro.observe(cv);
@@ -310,7 +330,7 @@ export async function mount(app) {
           g.strokeStyle = 'rgba(230,203,133,.14)'; g.beginPath(); g.moveTo(x, 14); g.lineTo(x, H); g.stroke();
           g.fillStyle = 'rgba(233,207,140,.55)'; g.fillText(b.occ > 1 ? `${b.n}′` : b.n, x + 3, 4);
         }
-        for (const [on, d, m, v] of notesIn(t0, t1)) {
+        for (const [on, d, m, v] of notesIn(t0, t1, visibleNotes)) {
           const active = on <= t && on + d > t, past = on + d <= t, dim = muted.has(v);
           const x = X(on), w = Math.max(3, (d / span) * W - 1.5), y = Y(m) - nh / 2;
           const col = GOLDS[v % GOLDS.length];
@@ -501,14 +521,16 @@ export async function mount(app) {
         for (const [id, S] of secs) {
           const target = lead.has(id) ? 1 : playing.has(id) ? 0.55 : 0;
           S.level += (target - S.level) * (target > S.level ? 0.35 : 0.06);
-          S.g.style.setProperty('--lv', S.level.toFixed(3));
-          S.g.classList.toggle('on', playing.has(id));
-          S.g.classList.toggle('lead', lead.has(id));
-          if (S.label) { S.label.classList.toggle('lead', lead.has(id)); S.label.style.fill = lead.has(id) ? '' : `rgba(239, 229, 210, ${(0.5 + S.level * 0.5).toFixed(2)})`; }
+          const level = S.level.toFixed(3), active = playing.has(id), leading = lead.has(id);
+          if (level !== S.drawnLevel) { S.g.style.setProperty('--lv', level); S.drawnLevel = level; }
+          if (active !== S.active) { S.g.classList.toggle('on', active); S.active = active; }
+          if (leading !== S.leading) { S.g.classList.toggle('lead', leading); S.label?.classList.toggle('lead', leading); S.leading = leading; }
+          const fill = leading ? '' : `rgba(239, 229, 210, ${(0.5 + S.level * 0.5).toFixed(2)})`;
+          if (S.label && fill !== S.fill) { S.label.style.fill = fill; S.fill = fill; }
         }
         if (e !== lastEntry || score) {
           const names = [...lead].map((id) => NAME[id] ?? id);
-          leadEl.textContent = names.length ? names.join(', ') : '—';
+          text(leadEl, names.length ? names.join(', ') : '—');
           if (e !== lastEntry) { noteEl.textContent = e?.note ?? ''; lastEntry = e; }
         }
       },
@@ -603,6 +625,9 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   $$('.tabs button').forEach((b) => on(b, 'click', () => {
     $$('.tabs button').forEach((x) => x.setAttribute('aria-selected', String(x === b)));
     $$('.tab').forEach((p) => { p.hidden = p.dataset.panel !== b.dataset.tab; });
+    if (track && !ui.tabComposer.hidden && !ui.tabComposer.childNodes.length) renderComposerTab();
+    if (track && !ui.tabPiece.hidden && !ui.tabPiece.childNodes.length) renderPieceTab();
+    wake();
   }));
 
   // ================================================================= timeline
@@ -619,30 +644,49 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   }
   on(ui.tlJoins, 'pointerdown', (e) => e.stopPropagation());
   on(ui.tlJoins, 'click', (e) => { const b = e.target.closest('[data-join]'); if (b) seek(track.transitions[+b.dataset.join].span[0]); });
+  let timelineTrack = null, timelineEnv = null, timelineDpr = 0;
+  const timelineLayers = [document.createElement('canvas'), document.createElement('canvas')];
+  let cueColours = {};
   function drawTimeline() {
     const cv = ui.tlCanvas, dpr = Math.min(2, devicePixelRatio || 1);
     const w = cv.clientWidth, h = cv.clientHeight;
-    if (!w || !track) return;
-    if (cv.width !== w * dpr) { cv.width = w * dpr; cv.height = h * dpr; }
+    if (!w || !track || document.hidden || !visible.timeline) return;
+    const width = Math.floor(w * dpr), height = Math.floor(h * dpr);
+    const d = track.duration || 1, now = player.time, mid = h * 0.55;
+    if (timelineTrack !== track || timelineEnv !== env || timelineDpr !== dpr || cv.width !== width || cv.height !== height) {
+      cv.width = width; cv.height = height;
+      timelineTrack = track; timelineEnv = env; timelineDpr = dpr;
+      // CSS custom properties are invariant between track/size changes, not a per-cue layout read.
+      const style = getComputedStyle(document.body);
+      cueColours = Object.fromEntries(Object.keys(KIND).map((kind) => [kind, style.getPropertyValue(`--k-${kind}`) || '#e9cf8c']));
+      timelineLayers.forEach((layer, played) => {
+        layer.width = width; layer.height = height;
+        const g = layer.getContext('2d');
+        g.setTransform(dpr, 0, 0, dpr, 0, 0);
+        if (env?.env?.length) {
+          g.fillStyle = played ? 'rgba(233,207,140,.85)' : 'rgba(233,207,140,.22)';
+          for (let x = 0; x < w; x++) {
+            const k = Math.min(env.env.length - 1, Math.floor((x / w) * env.env.length));
+            const a = env.env[k] ** 1.6 * mid * 0.95;
+            g.fillRect(x, mid - a, 1, a * 1.55);
+          }
+        }
+      });
+    }
     const g = cv.getContext('2d');
     g.setTransform(dpr, 0, 0, dpr, 0, 0);
     g.clearRect(0, 0, w, h);
-    const d = track.duration || 1, now = player.time, mid = h * 0.55;
     if (env?.env?.length) {
-      const n = env.env.length;
-      for (let x = 0; x < w; x++) {
-        const k = Math.min(n - 1, Math.floor((x / w) * n));
-        const v = env.env[k] ** 1.6;
-        g.fillStyle = (x / w) * d <= now ? 'rgba(233,207,140,.85)' : 'rgba(233,207,140,.22)';
-        const a = v * mid * 0.95;
-        g.fillRect(x, mid - a, 1, a * 1.55);
-      }
+      const edge = Math.max(0, Math.min(width, (Math.floor(now / d * w) + 1) * dpr));
+      // Disjoint slices preserve the original alpha (overpainting would darken the waveform).
+      if (edge) g.drawImage(timelineLayers[1], 0, 0, edge, height, 0, 0, edge / dpr, height / dpr);
+      if (edge < width) g.drawImage(timelineLayers[0], edge, 0, width - edge, height, edge / dpr, 0, (width - edge) / dpr, height / dpr);
     } else {
       g.fillStyle = 'rgba(233,207,140,.2)'; g.fillRect(0, mid, w, 1);
       g.fillStyle = 'rgba(233,207,140,.8)'; g.fillRect(0, mid, (now / d) * w, 1);
     }
     for (const c of track.cues) {
-      g.fillStyle = getComputedStyle(document.body).getPropertyValue(`--k-${c.kind}`) || '#e9cf8c';
+      g.fillStyle = cueColours[c.kind] || '#e9cf8c';
       g.beginPath(); g.arc(Math.max(2, (c.t / d) * w), h - 2.5, 2, 0, Math.PI * 2); g.fill();
     }
     ui.head.style.left = `${(now / d) * 100}%`;
@@ -692,7 +736,7 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   on(window, 'hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id && id !== track?.id) player.load(id, { play: true }); });
 
   const offs = [
-    player.on('play', playState), player.on('pause', playState),
+    player.on('play', () => { playState(); wake(); }), player.on('pause', () => { playState(); wake(); }),
     player.on('track', (t) => show(t)),
     player.on('blocked', (b) => { ui.curtain.hidden = !b; document.body.classList.toggle('waiting', b); }),
     player.on('advance', ({ from, to, interlude }) => {
@@ -708,28 +752,28 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
       ui.interlude.hidden = false;
       setTimeout(() => { ui.interlude.hidden = true; }, 3400);
     }),
-    player.on('seek', () => tick(true)),
+    player.on('seek', () => { tick(true); wake(); }),
   ];
   cleanups.push(() => offs.forEach((f) => f()));
 
   // ================================================================= per-frame update
   let lastTl = 0;
   function tick(force = false) {
-    if (!track) return;
-    const t = player.time;
-    ui.cur.textContent = fmt(t);
+    if (!track || document.hidden) return;
+    const t = player.time, now = performance.now();
+    // Read timeline dimensions before writing any text/layout for this frame.
+    if (visible.timeline && (force || now - lastTl > 120)) { drawTimeline(); lastTl = now; }
+    text(ui.cur, fmt(t));
     const i = cueAt(t);
     if (i !== cueIdx) showCue(i);
     const j = joinAt(t);
     if (j !== joinIdx) showJoin(j);
     const nextCue = track.cues[i + 1];
-    ui.cueNext.textContent = nextCue && player.playing ? `next note in ${fmt(nextCue.t - t)}` : '';
+    text(ui.cueNext, nextCue && player.playing ? `next note in ${fmt(nextCue.t - t)}` : '');
     let s = -1; track.sections.forEach((x, k) => { if (x.t <= t + 0.05) s = k; });
     if (s !== sectionIdx) { sectionIdx = s; $$('span', ui.tlSections).forEach((el, k) => el.classList.toggle('on', k === s)); }
-    const now = performance.now();
-    if (force || now - lastTl > 120) { drawTimeline(); lastTl = now; }
-    viewObj?.draw?.(t);
-    if (score) scoreReadouts(t);
+    if (visible.view) viewObj?.draw?.(t);
+    if (score && visible.wheel) scoreReadouts(t);
   }
 
   // ---- readouts from the written score (accurate where the score is aligned)
@@ -742,11 +786,12 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
     for (let p = 0; p < 12; p++) chroma[p] *= 0.5;
     for (const n of notes) chroma[n[2] % 12] = Math.min(1, chroma[n[2] % 12] + 0.6);
     const low = notes.reduce((a, n) => (a == null || n[2] < a ? n[2] : a), null);
-    ui.bass.innerHTML = low == null ? '—' : `${NAMES[low % 12]}<small style="font-size:.6em;opacity:.6">${Math.floor(low / 12) - 1}</small>`;
-    ui.top.textContent = notes.length ? [...new Set(notes.map((n) => NAMES[n[2] % 12]))].slice(0, 5).join(' · ') : '—';
+    html(ui.bass, low == null ? '—' : `${NAMES[low % 12]}<small style="font-size:.6em;opacity:.6">${Math.floor(low / 12) - 1}</small>`);
+    text(ui.top, notes.length ? [...new Set(notes.map((n) => NAMES[n[2] % 12]))].slice(0, 5).join(' · ') : '—');
     const ch = (score.chords ?? []).find((c) => c.t0 <= t && c.t1 > t);
-    ui.chord.textContent = ch ? ch.label : '—';
+    text(ui.chord, ch ? ch.label : '—');
     chordTones = [...new Set(notes.map((n) => n[2] % 12))];
+    wheelDirty = true;
   }
 
   // ================================================================= spectrogram, keyboard, wheel (the live visualizer)
@@ -827,16 +872,21 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   const chroma = new Float32Array(12);
   const TEMPLATES = [];
   for (let r = 0; r < 12; r++) {
-    const add = (suf, iv, w = 1) => TEMPLATES.push({ suf, root: r, tones: iv.map((x) => (r + x) % 12), w });
+    const add = (suf, iv, w = 1) => {
+      const weights = [1, 0.9, 0.8, 0.75].slice(0, iv.length);
+      TEMPLATES.push({ suf, root: r, tones: iv.map((x) => (r + x) % 12), w, weights, norm: Math.hypot(...weights) });
+    };
     add(' major', [0, 4, 7]); add(' minor', [0, 3, 7]); add('7', [0, 4, 7, 10], 0.97); add('maj7', [0, 4, 7, 11], 0.97); add('m7', [0, 3, 7, 10], 0.97); add('°7', [0, 3, 6, 9], 0.95);
   }
   let chordHold = { name: '', n: 0 }, shownChord = '', chordTones = [], lastRead = 0;
+  const raw = new Float32Array(12);
   function analyse() {
     const binHz = analyser.context.sampleRate / analyser.fftSize, n = freq.length;
     const now = performance.now();
-    analyser.getFloatTimeDomainData(wave);
     if (now - lastRead < 120) return;
     lastRead = now;
+    analyser.getFloatTimeDomainData(wave);
+    wheelDirty = true;
     let s2 = 0; for (let i = 0; i < wave.length; i++) s2 += wave[i] * wave[i];
     const db = 10 * Math.log10(s2 / wave.length + 1e-12);
     ui.loud.style.width = `${Math.max(0, Math.min(1, (db + 60) / 50)) * 100}%`;
@@ -845,7 +895,7 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
     const cent = den ? num / den : 0;
     ui.bright.style.width = `${Math.max(0, Math.min(1, Math.log2(Math.max(1, cent) / 250) / 4)) * 100}%`;
     if (score) return;   // pitch readouts come from the written score instead
-    const raw = new Float32Array(12);
+    raw.fill(0);
     const kLo = Math.ceil(80 / binHz), kHi = Math.min(n - 2, Math.floor(4200 / binHz));
     let maxDb = -200; for (let k = kLo; k <= kHi; k++) if (freq[k] > maxDb) maxDb = freq[k];
     const floor = Math.max(-85, maxDb - 38);
@@ -867,14 +917,13 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
       bass = `${NAMES[bassPc]}<small style="font-size:.6em;opacity:.6">${Math.floor(midi / 12) - 1}</small>`;
       break;
     }
-    ui.bass.innerHTML = bass;
+    html(ui.bass, bass);
     const order = [...chroma.keys()].sort((a, b) => chroma[b] - chroma[a]);
-    ui.top.textContent = silent ? '—' : order.filter((p) => chroma[p] > 0.55).slice(0, 4).map((p) => NAMES[p]).join(' · ');
+    text(ui.top, silent ? '—' : order.filter((p) => chroma[p] > 0.55).slice(0, 4).map((p) => NAMES[p]).join(' · '));
     let best = null, second = 0;
     const norm = Math.hypot(...chroma) || 1;
     for (const T of TEMPLATES) {
-      const wts = T.tones.map((_, k) => [1, 0.9, 0.8, 0.75][k]);
-      let sc = T.tones.reduce((a, pc, k) => a + chroma[pc] * wts[k], 0) / (norm * Math.hypot(...wts));
+      let sc = T.tones.reduce((a, pc, k) => a + chroma[pc] * T.weights[k], 0) / (norm * T.norm);
       sc *= T.w;
       if (bassPc === T.root) sc += 0.08; else if (T.tones.includes(bassPc)) sc += 0.02; else if (bassPc >= 0) sc -= 0.05;
       if (chroma[T.root] < 0.35) sc -= 0.1;
@@ -913,20 +962,44 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   }
 
   // ================================================================= main loop
-  let raf = 0;
-  function frame() {
-    if (!alive) return;
-    raf = requestAnimationFrame(frame);
-    tick();
-    if (player.playing && ensureAnalyser()) {
-      analyser.getFloatFrequencyData(freq);
-      if (view === 'sound') { drawSpectro(); drawKeys(); }
-      analyse();
-    } else if (!score) for (let p = 0; p < 12; p++) chroma[p] *= 0.96;
-    drawWheel();
+  let raf = 0, settling = 120, wheelDirty = true;
+  const visible = { view: true, wheel: true, timeline: true, notes: true };
+  const watched = new Map([[ui.frame, 'view'], [ui.wheel, 'wheel'], [ui.timeline, 'timeline'], [$('.notes'), 'notes']]);
+  const visibility = new IntersectionObserver((entries) => {
+    for (const entry of entries) visible[watched.get(entry.target)] = entry.isIntersecting;
+    if (Object.values(visible).some(Boolean)) wake();
+    else { cancelAnimationFrame(raf); raf = 0; }
+  });
+  for (const el of watched.keys()) visibility.observe(el);
+  cleanups.push(() => visibility.disconnect());
+  function wake() {
+    settling = 120;
+    if (alive && !document.hidden && !raf && Object.values(visible).some(Boolean)) raf = requestAnimationFrame(frame);
   }
-  const onResize = () => { if (view === 'sound') { setupSpectro(); setupKeys(); } setupWheel(); drawTimeline(); };
+  function frame(now) {
+    raf = 0;
+    if (!alive || document.hidden || !Object.values(visible).some(Boolean)) return;
+    tick();
+    if (player.playing && (visible.wheel || (visible.view && view === 'sound')) && ensureAnalyser()) {
+      if ((visible.view && view === 'sound') || now - lastRead >= 120) {
+        analyser.getFloatFrequencyData(freq);
+        if (visible.view && view === 'sound') { drawSpectro(); drawKeys(); }
+        if (visible.wheel) analyse();
+      }
+    } else if (!score && visible.wheel) {
+      for (let p = 0; p < 12; p++) chroma[p] *= 0.96;
+      wheelDirty = true;
+    }
+    if (visible.wheel && wheelDirty) { drawWheel(); wheelDirty = false; }
+    if (player.playing || --settling > 0) raf = requestAnimationFrame(frame);
+  }
+  on(document, 'visibilitychange', () => {
+    if (document.hidden) { cancelAnimationFrame(raf); raf = 0; }
+    else { tick(true); wheelDirty = true; wake(); }
+  });
+  const onResize = () => { if (view === 'sound') { setupSpectro(); setupKeys(); } setupWheel(); drawTimeline(); wheelDirty = true; wake(); };
   let rt; on(window, 'resize', () => { clearTimeout(rt); rt = setTimeout(onResize, 150); });
+  cleanups.push(() => clearTimeout(rt));
 
   // ================================================================= boot
   // Glossary popovers (shared with the Atlas; site.js owns them).
@@ -939,13 +1012,13 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   else if (!player.track) await player.load(0);
   await show(player.track);
   playState();
-  raf = requestAnimationFrame(frame);
-  // Start the concert if the visitor arrived by clicking (the browser then allows sound); otherwise show the curtain.
+  wake();
+  // Loading the hall or restoring a session is not consent to download cross-origin audio.
   if (!player.playing) {
-    const ok = await player.play();
+    const ok = navigator.userActivation?.hasBeenActive ? await player.play() : false;
     ui.curtain.hidden = ok;
     document.body.classList.toggle('waiting', !ok);
-  }
+  } else ui.curtain.hidden = true;
 
   return () => { alive = false; cancelAnimationFrame(raf); viewObj?.destroy?.(); cleanups.forEach((f) => { try { f(); } catch {} }); };
 }

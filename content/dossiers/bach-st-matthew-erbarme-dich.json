@@ -1,0 +1,171 @@
+{
+  "id": "bach-st-matthew-erbarme-dich",
+  "work": {
+    "title": "St Matthew Passion",
+    "catalogue": "BWV 244",
+    "movement": "No. 47 (New Bach Edition No. 39). Erbarme dich, mein Gott — aria for alto; a selected highlight from a complete recording, not the complete Passion",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["booklet", "archive-data"],
+      "note": "The performing edition is not identified. The booklet numbers the aria 47 (the Bach-Gesellschaft and BWV numbering) while the Internet Archive and retail track titles number it 39 (the New Bach Edition). The file contains the aria alone: the preceding chorus and recitative ‘Wahrlich, du bist auch einer von denen — Da hub er an’ (booklet No. 46) is the previous track and the chorale ‘Bin ich gleich von dir gewichen’ is the next. The booklet gives the composition as Leipzig 1729 or earlier, revised 1736."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Hertha Töpper", "role": "alto" },
+      { "name": "Otto Büchner", "role": "solo violin" },
+      { "name": "Münchener Bach-Orchester", "role": "orchestra" },
+      { "name": "Karl Richter", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["booklet", "lp-rip", "discogs"],
+    "note": "The booklet lists Hertha Töpper for the alto arias and Otto Büchner as the violinist. The label of the LP side that carries Nos. 42–53 credits both and does not assign Büchner to a single number; his identification as this aria’s solo violinist rests on that label and on the booklet naming no other violinist. The booklet also names continuo players for the whole Passion (organ Ekkehard Tietze and Hedwig Bilgram; double bass Franz Ortner; bassoon Karl Kolbinger; viola da gamba Oswald Uhl, whom Discogs also lists on continuo cello); which of them play in this aria is not stated, so they are not listed here."
+  },
+  "session": {
+    "date": {
+      "value": "23 June – 21 August 1958 (sessions 23 June–6 July, 11–12 August and 21 August)",
+      "status": "documented",
+      "sourceIds": ["lp-rip", "hra", "booklet"],
+      "note": "The Archiv Produktion LP labels print the recording dates as 6/23–7/6, 8/11–12 and 21/1958; the retail page gives 23 June–6 July, 11–12 and 21 August 1958; the booklet essay gives 22 sessions between 23 June and 21 August 1958. Which session produced this aria is not stated.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Herkulessaal, Munich",
+      "status": "documented",
+      "sourceIds": ["booklet", "hra"],
+      "note": "The booklet credit reads ‘München, Herkules-Saal’."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Archiv Produktion (Deutsche Grammophon Gesellschaft, History of Music Division)",
+      "status": "documented",
+      "sourceIds": ["lp-rip", "discogs"],
+      "note": "The labels read ‘Archive Production — History of Music Division Deutsche Grammophon Ges.’ and ‘Stereo’."
+    },
+    "catalogue": {
+      "value": "SAPM 198 009/012 (first stereo edition, four LPs); the scanned export pressing carries ARC 73 125–73 128 / SAPM 198 625–628, with this aria on the side labelled ARC 73 128 b / SAPM 198 628 b",
+      "status": "documented",
+      "sourceIds": ["discogs", "wiki-richter", "lp-rip"],
+      "note": "First release year is disputed in the sources: the booklet and Wikipedia say 1959 (the booklet reads ‘LPs released/veröffentlicht/paru 1959’ and prints ℗ 1959 Deutsche Grammophon); Discogs and the Internet Archive LP catalogue give 1958, which is the recording year. Both dates precede 1963. The digital file used here is a later remaster, not the LP."
+    },
+    "matrixTakeSides": {
+      "value": "First stereo edition: fifth side of the set (LP 3, side A), track E6 (7:44 on the LP); matrix and take numbers not read",
+      "status": "documented",
+      "sourceIds": ["discogs", "lp-rip"],
+      "note": "The side and position come from the Discogs tracklist; the scanned export label for ‘No. 42–53 Trial in the Presence of Kaiphas and Pilate (24’26)’ is numbered 5. No run-out inscription was seen, so matrix and take are unknown."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive-item", "hra"],
+      "note": "No remastering engineer or studio is credited in the item metadata or the booklet. The booklet’s © 2001 Deutsche Grammophon notice and the retail page’s ‘Digitally remastered’ line show only that commercial digital releases exist. The upload is a private Internet Archive upload in the hifidelity collection."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established. The Internet Archive item was created on 16 February 2026; that upload date is not a transfer date."
+    },
+    "processing": {
+      "value": "24-bit/192 kHz FLAC (item description ‘1959 [FLAC 24-192]’), digitally remastered according to the retail page; streamed here through the Internet Archive’s VBR MP3 derivative.",
+      "status": "inferred",
+      "sourceIds": ["archive-item", "archive-data", "hra"],
+      "note": "The item’s track titles and durations (7:46 for this track) match the retail page’s 2016 hi-res listing, so the file is probably that release, but the item names no source. No speed correction, noise reduction or restoration settings are stated."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b/47.%20Matth%C3%A4us-Passion%2C%20BWV%20244%2C%20Pt.%202%20-%20No.%2039%2C%20Aria.%20Erbarme%20dich%20(Alto).mp3",
+    "sourceChain": ["archive-item", "archive-data", "booklet", "hra"],
+    "format": "Internet Archive VBR MP3 derivative (11,386,076 bytes) of the uploaded 24-bit FLAC (465.67 s); the FLAC itself is over 100 MB and was not downloaded",
+    "durationSeconds": 465.67
+  },
+  "rights": {
+    "composition": {
+      "value": "Bach’s composition (d. 1750) and the Bach-Gesellschaft edition used for the orchestra view (Breitkopf & Härtel, 1854) are public domain.",
+      "status": "documented",
+      "sourceIds": ["score"],
+      "note": "IMSLP catalogues the Bach-Gesellschaft volume as Public Domain. This does not clear the sound recording, the later remaster or the booklet’s prose."
+    },
+    "recording": {
+      "value": "territorial — European recording-rights expiry; first publication documented before 1963 (Archiv Produktion stereo LP edition, 1958 or 1959).",
+      "status": "documented",
+      "sourceIds": ["booklet", "discogs", "wiki-richter", "lp-rip", "archive-item"],
+      "note": "Programme rule 3. The recording was made in June–August 1958 and first issued on four stereo LPs; the booklet states 1959 and quotes a critic’s review of the four LPs from May 1959. Whether the first issue fell in 1958 or 1959, a recording published by 1959 had exhausted the ordinary EU 50-year phonogram term (to the end of 2009) before the extension that applied from 1 November 2013. This is territorial, not a licence: the Internet Archive item carries no licence URL and no Public Domain Mark. US status is not established and no US public-domain claim is made. The audio file is a later commercial digital remaster; this dossier relies on the first publication of the recording and does not separately clear any rights claimed in the remastering, which is a point for the integration lead."
+    },
+    "creditLine": "J. S. Bach, St Matthew Passion, BWV 244: No. 47, Erbarme dich, mein Gott. Hertha Töpper, alto; Otto Büchner, solo violin; Münchener Bach-Orchester; Karl Richter. Recorded June–August 1958, Herkulessaal, Munich. Archiv Produktion SAPM 198 009/012, first issued 1958–59. Digital remaster via the Internet Archive. European recording-rights expiry only; US status unestablished.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    {
+      "id": "archive-item",
+      "title": "Internet Archive — Münchener Bach-Chor, Münchener Bach-Orchester, Karl Richter — Matthäus-Passion (1959) [24-192]",
+      "url": "https://archive.org/details/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b",
+      "locator": "Item page: title and description ‘1959 [FLAC 24-192]’, hifidelity collection, item created 2026-02-16, no licence URL.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive-data",
+      "title": "Internet Archive — item metadata and file list",
+      "url": "https://archive.org/metadata/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b",
+      "locator": "Track 47 ‘Matthäus-Passion, BWV 244, Pt. 2 - No. 39, Aria. Erbarme dich (Alto)’: FLAC 465.67 s (305,989,239 bytes) and VBR MP3 07:46 (11,386,076 bytes); track 46 is the chorus and recitative ‘Wahrlich, du bist auch einer von denen — Da hub er an’ (1:40) and track 48 the chorale ‘Bin ich gleich von dir gewichen’ (1:10).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "booklet",
+      "title": "Booklet.pdf in the same Internet Archive item (Deutsche Grammophon / Archiv Produktion)",
+      "url": "https://archive.org/download/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b/Booklet.pdf",
+      "locator": "Cast (Hertha Töpper, alto arias) and instrumental soloists (Otto Büchner, violin); track list ‘47. Arie (Alt): Erbarme dich, mein Gott (Chor I)’; text of Nos. 46–47; essay on 22 sessions between 23 June and 21 August 1958, stereo recording and the May 1959 review; credits: ‘LPs released/veröffentlicht/paru 1959’, ‘München, Herkules-Saal, 6–8/1958’, producers Karl-Heinz Schneider and Otto Gerdes, balance engineer Werner Wolf, ℗ 1959 and © 2001 Deutsche Grammophon.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "hra",
+      "title": "HIGHRESAUDIO — Bach, J.S.: St. Matthew Passion, BWV 244 (Münchener Bach-Orchester & Karl Richter)",
+      "url": "https://www.highresaudio.com/en/album/view/hr7jqe/munchener-bach-orchester-karl-richter-bach-j-s-st-matthew-passion-bwv-244",
+      "locator": "Album release 2016, label Archiv Produktion; ‘Recorded 23 June – 6 July, 11-12 & 21 August, 1958, Herkulessaal, München’; ‘Digitally remastered’; track 47 No.39 Aria: Erbarme dich 07:46; total 03:17:15.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs — Johann Sebastian Bach / Karl Richter — Passio Secundum Matthæum (Matthäus-Passion), Archiv Produktion 198 009/012 SAPM",
+      "url": "https://www.discogs.com/release/5148677-Johann-Sebastian-Bach-Karl-Richter-Passio-Secundum-Matth%C3%A6um-Matth%C3%A4us-Passion",
+      "locator": "Four stereo LPs, first edition, year 1958; tracklist E6 ‘Aria: Erbarme Dich, Mein Gott’ 7:44, preceded by E5 ‘Da Hub Er An, Sich Zu Verfluchen’; credits (Töpper, Büchner and others), producer Karl-Heinz Schneider, engineer Werner Wolf.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "lp-rip",
+      "title": "Internet Archive — Passio Secundum Matthæum (Matthäus-Passion) BWV 244, Karl Richter (Archive Production LP rip, sleeve and label scans)",
+      "url": "https://archive.org/details/lp_passio-secundum-matthum-matthuspassion-bwv_johann-sebastian-bach-karl-richter",
+      "locator": "Scanned label ‘No. 42 - 53 Trial in the Presence of Kaiphas and Pilate (24’26)’, ARC 73 128 b / SAPM 198 628 b, side 5: ‘Date of recording 6/23-7/6, 8/11-12 and 21/1958’, production Karl-Heinz Schneider, recording Werner Wolf, performance ‘Hertha Töpper, Alto … Otto Büchner, Violin … Munich Bach-Orchestra, Conductor: Karl Richter’. The item’s own date field (1958) is catalogue metadata.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "wiki-richter",
+      "title": "Wikipedia — Karl Richter (conductor), discography",
+      "url": "https://en.wikipedia.org/wiki/Karl_Richter_(conductor)",
+      "locator": "Four-LP set, Archiv Produktion, 1959, catalogue SAPM 198 009/012 (secondary source).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "IMSLP — Matthäus-Passion, BWV 244: Bach-Gesellschaft Ausgabe, vol. 4 (ed. Julius Rietz; Breitkopf & Härtel, 1854)",
+      "url": "https://imslp.org/wiki/St._Matthew_Passion,_BWV_244_(Bach,_Johann_Sebastian)",
+      "locator": "Part 2 file #00935 (PDF opened; No. 47 on printed pp. 168–172): Aria, Coro I, for Violino solo, violins I–II, viola, alto and continuo, ending Dal Segno; listed as Public Domain. The same page catalogues the autograph Mus. ms. Bach P 25 (Staatsbibliothek zu Berlin).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bach-society",
+      "title": "Netherlands Bach Society — St Matthew Passion (BWV 244)",
+      "url": "https://www.bachvereniging.nl/en/bwv/bwv-244",
+      "locator": "Text of the recitative and of No. 39 ‘Erbarme dich’ (Arie, Alt I); note that the manuscript of 1736 has been handed down; Coro I ‘provides the most important emotional reactions, as in the arias Erbarme dich and Aus Liebe’.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

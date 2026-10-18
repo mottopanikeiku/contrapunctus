@@ -314,6 +314,34 @@
   "artist": "The Griller String Quartet",
   "duration": 1092.62
  },
+ "archive:lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/01.04. Prelude To \"The Afternoon Of A Faun\".mp3": {
+  "stream": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/01.04.%20Prelude%20To%20%22The%20Afternoon%20Of%20A%20Faun%22.mp3",
+  "page": "https://archive.org/details/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony",
+  "license": "",
+  "artist": "Paul Paray; Claude Debussy; Detroit Symphony Orchestra",
+  "duration": 507.75
+ },
+ "archive:lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/02.01. From Dawn Till Noon On The Sea.mp3": {
+  "stream": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/02.01.%20From%20Dawn%20Till%20Noon%20On%20The%20Sea.mp3",
+  "page": "https://archive.org/details/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony",
+  "license": "",
+  "artist": "Paul Paray; Claude Debussy; Detroit Symphony Orchestra",
+  "duration": 493.94
+ },
+ "archive:lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/02.02. Play Of The Waves.mp3": {
+  "stream": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/02.02.%20Play%20Of%20The%20Waves.mp3",
+  "page": "https://archive.org/details/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony",
+  "license": "",
+  "artist": "Paul Paray; Claude Debussy; Detroit Symphony Orchestra",
+  "duration": 358.63
+ },
+ "archive:lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/02.03. Dialogue Of The Wind And The Sea.mp3": {
+  "stream": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/02.03.%20Dialogue%20Of%20The%20Wind%20And%20The%20Sea.mp3",
+  "page": "https://archive.org/details/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony",
+  "license": "",
+  "artist": "Paul Paray; Claude Debussy; Detroit Symphony Orchestra",
+  "duration": 451.23
+ },
  "archive:lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/disc1/01.01. Le Sacre Du Printemps (\"The Rite Of Spring\"): (Part I).mp3": {
   "stream": "https://archive.org/download/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/disc1/01.01.%20Le%20Sacre%20Du%20Printemps%20(%22The%20Rite%20Of%20Spring%22)%3A%20(Part%20I).mp3",
   "page": "https://archive.org/details/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0",
@@ -958,12 +986,33 @@
   "artist": "Carl Flisch",
   "duration": 227.54133333333334
  },
+ "File:HSO Bruckner-7 01.mp3": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/5/5c/HSO_Bruckner-7_01.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:HSO_Bruckner-7_01.mp3",
+  "license": "Public domain",
+  "artist": "University of Music and Theatre Munich",
+  "duration": 1074.6855
+ },
+ "File:HSO Bruckner-7 02.mp3": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/0/07/HSO_Bruckner-7_02.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:HSO_Bruckner-7_02.mp3",
+  "license": "Public domain",
+  "artist": "University of Music and Theatre Munich",
+  "duration": 1075.6520625
+ },
  "File:HSO Bruckner-7 03.mp3": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/7/78/HSO_Bruckner-7_03.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:HSO_Bruckner-7_03.mp3",
   "license": "Public domain",
   "artist": "University of Music and Theatre Munich",
   "duration": 535.4136875
+ },
+ "File:HSO Bruckner-7 04.mp3": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/a/a2/HSO_Bruckner-7_04.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:HSO_Bruckner-7_04.mp3",
+  "license": "Public domain",
+  "artist": "University of Music and Theatre Munich",
+  "duration": 754.3459375
  },
  "File:ICBSA Verdi - Messa da requiem parte 03, Dies irae.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg.mp3",
@@ -2001,12 +2050,26 @@
   "artist": "Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison ( JohnHarrisonViolin.com )",
   "duration": 208.84
  },
+ "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 01. Requiem aeternam.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_01._Requiem_aeternam.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_01._Requiem_aeternam.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Requiem,_K._626_(Bruno_Walter,_Wiener_Philharmoniker,_Wiener_Staatsopernchor,_1956)_-_01._Requiem_aeternam.ogg",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "duration": 338.3843990929705
+ },
  "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 03. Dies irae.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_03._Dies_irae.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_03._Dies_irae.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Requiem,_K._626_(Bruno_Walter,_Wiener_Philharmoniker,_Wiener_Staatsopernchor,_1956)_-_03._Dies_irae.ogg",
   "license": "Public domain",
   "artist": "Wolfgang Amadeus Mozart",
   "duration": 112.98829931972789
+ },
+ "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 08. Lacrimosa.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_08._Lacrimosa.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_08._Lacrimosa.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Requiem,_K._626_(Bruno_Walter,_Wiener_Philharmoniker,_Wiener_Staatsopernchor,_1956)_-_08._Lacrimosa.ogg",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "duration": 205.1715192743764
  },
  "File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 14. Communio Lux aeterna.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_14._Communio_Lux_aeterna.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_14._Communio_Lux_aeterna.ogg.mp3",

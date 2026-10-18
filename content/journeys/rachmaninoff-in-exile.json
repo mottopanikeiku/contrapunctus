@@ -1,0 +1,224 @@
+{
+  "id": "rachmaninoff-in-exile",
+  "title": "Rachmaninoff in exile",
+  "subtitle": "The music he carried, the performances he left",
+  "minutes": 24,
+  "hero": {
+    "file": "File:Somov Sergei Rachmaninoff 1925.JPG",
+    "caption": "Konstantin Somov, portrait of Sergei Rachmaninoff, 1925."
+  },
+  "intro": "Rachmaninoff left Russia in December 1917 and reached New York the following November. Follow the earlier music he carried into his performing life, through his own Edison and Victor records, and distinguish the dates of the works from the dates of the performances.",
+  "stations": [
+    {
+      "id": "s1",
+      "title": "Moscow, before the record",
+      "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 0, "to": 106 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1892 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Three heavy notes, A–G♯–C♯, receive a quiet chordal answer. This is Rachmaninoff playing his own C♯ minor Prelude for Edison in 1919, not a recording from his student years. The work belongs to 1892, the year he completed his composition studies at the Moscow Conservatory. He had come to Moscow in 1885 to study with Nikolai Zverev; later teachers included Alexander Siloti, Sergei Taneyev and Anton Arensky. Tchaikovsky admired the Prelude when Rachmaninoff presented his Op. 3 pieces to him in 1893. Keep the two dates apart: a young composer’s score, heard through the hands of the emigrant pianist.</p>",
+      "cues": [
+        { "at": 0, "text": "The three-note call is answered softly; notice the distance between the two levels." },
+        { "at": 64, "text": "Listen inside the chords: the upper voice remains a line, not just the top of a block." }
+      ],
+      "sources": [
+        { "title": "Tchaikovsky Research: Sergei Rachmaninoff — studies and the 1893 presentation of Op. 3", "url": "https://en.tchaikovsky-research.net/pages/Sergei_Rachmaninoff" },
+        { "title": "Commons: Rachmaninoff’s 1919 Edison recording, issued in December 1920", "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg" },
+        { "title": "Prelude in C♯ minor — score", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
+        { "title": "Recording guide: Edison Prelude — sections and timed listening notes", "url": "../hall.html#rachmaninoff-prelude-c-sharp-minor" }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "The Prelude travels first",
+      "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 106, "to": 227.9 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1892 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>The middle section exchanges the opening’s separated chords for moving triplets. When the opening material returns, the score needs four staves to accommodate its spread across the keyboard. The Prelude travelled internationally before Rachmaninoff’s permanent departure from Russia: Siloti played it on his 1898 tour of Europe, England and America. By 1900 it had helped establish its composer’s reputation abroad. Here, however, the expanding chordal return does not provide the final gesture. Let it give way to the quieter coda. The Edison disc preserves that withdrawal as well as the passages that made the piece a conspicuous concert item.</p>",
+      "cues": [
+        { "at": 112, "text": "Triplets replace the opening’s separated chordal answers." },
+        { "at": 138, "text": "The opening material returns across a much wider keyboard space; the printed score expands to four staves." },
+        { "at": 207, "text": "The coda is quiet. The earlier chordal weight is not the piece’s last word." }
+      ],
+      "sources": [
+        { "title": "Boston Symphony Orchestra: Marc Mandel on the Second Concerto and the Prelude’s early international success", "url": "https://www.bso.org/works/piano-concerto-no-2-6" },
+        { "title": "Prelude in C♯ minor — Agitato, four-stave return and coda", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
+        { "title": "Recording guide: Edison Prelude — sections and timed listening notes", "url": "../hall.html#rachmaninoff-prelude-c-sharp-minor" }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Ivanovka: a song becomes piano music",
+      "listen": { "id": "rachmaninoff-lilacs-piano", "from": 0, "to": 153 },
+      "art": {
+        "file": "File:Rachmaninoff at Ivanovka.jpg",
+        "caption": "Rachmaninoff at Ivanovka in the mid-1890s, standing second from the left; photographer unknown."
+      },
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1902 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Ivanovka was the Satin family’s estate near Tambov, where Rachmaninoff first spent the summer in 1890 and returned repeatedly before 1917. <i>Lilacs</i> began there as a song in 1902, setting words by Ekaterina Beketova; the piano transcription followed in 1913. Rachmaninoff is playing it here in a Victor recording from 27 December 1923. The melody is threaded through broken chords and triplets rather than carried by a singer. The transcription also adds pianistic decoration and a coda: it is not simply the song with its words removed. Hear the rising activity, the held trill and the subsequent retreat before the last flourish subsides.</p>",
+      "cues": [
+        { "at": 0, "text": "Follow the melody within the broken chords and triplets, rather than treating every moving note as the tune." },
+        { "at": 64, "text": "The acceleration and crescendo are leading towards a held trill and a quicker continuation." },
+        { "at": 132, "text": "A final quick flourish gives way to the quiet closing chord and its decay." }
+      ],
+      "sources": [
+        { "title": "Yevgeny Sudbin: Rachmaninov liner notes — Ivanovka, the song and its piano transcription", "url": "https://www.yevgenysudbin.com/artist.php?view=prog&rid=458" },
+        { "title": "Sergei Rachmaninoff — the Satin family and Ivanovka", "url": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff#1885–1894:_Moscow_Conservatory_and_first_compositions" },
+        { "title": "DAHR: Victor matrix B-24123, Lilacs — take 9, 27 December 1923", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700009327/B-24123-Lilacs_op._21_no._5" },
+        { "title": "Commons: Rachmaninoff at Ivanovka — photograph identification", "url": "https://commons.wikimedia.org/wiki/File:Rachmaninoff_at_Ivanovka.jpg" },
+        { "title": "Recording guide: Lilacs — score-based listening notes", "url": "../hall.html#rachmaninoff-lilacs-piano" }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Beyond a single famous Prelude",
+      "listen": { "id": "rachmaninoff-prelude-op32-10", "from": 0, "to": 168 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1910 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>This B minor Prelude was composed in 1910, seven years before Rachmaninoff left Russia. The pianist now is La Pianista, recorded in 2010, not Rachmaninoff. Its thirteen-piece set, Op. 32, completed his coverage of all twenty-four major and minor keys alongside the ten preludes of Op. 23 and the single C♯ minor Prelude. The opening combines small groups of moving notes with sustained chords. Listen for the inner lines as well as the melody, then for the heavier, <i>pesante</i> writing that enlarges the texture. The catalogue has moved beyond one celebrated early piece without abandoning the contrast between quiet voicing and chordal weight.</p>",
+      "cues": [
+        { "at": 0, "text": "Small groups of moving notes sit against held chords; listen for more than the top line." },
+        { "at": 96, "text": "The heavier pesante passage is approaching: follow the increasing weight of the chords." },
+        { "at": 160, "text": "The central crest is withdrawing; the next span will make more room around the moving notes." }
+      ],
+      "sources": [
+        { "title": "IMSLP: 13 Preludes, Op. 32 — date, keys and score", "url": "https://imslp.org/wiki/13_Preludes,_Op.32_(Rachmaninoff,_Sergei)" },
+        { "title": "Commons: Prelude in B minor — La Pianista’s recording of 12 May 2010", "url": "https://commons.wikimedia.org/wiki/File:Rachmaninoff_Prelude_in_B_Minor,_Op._32,_No._10.oga" },
+        { "title": "Recording guide: B minor Prelude — sections and score-based listening notes", "url": "../hall.html#rachmaninoff-prelude-op32-10" }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "1917: a border, not a cadence",
+      "listen": { "id": "rachmaninoff-prelude-op32-10", "from": 168, "to": 321.01 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1917 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Rachmaninoff left Russia with his wife and two daughters in December 1917, travelling through Finland to Sweden; the family then lived in Copenhagen before sailing for New York in November 1918. He did not return to Russia. The map records an itinerary, not a programme for the music: this Prelude had already existed for seven years. Its return of the opening material must not be made into a prediction of exile. Listen instead to what the score actually does after its central weight: moving decoration surrounds held notes, earlier gestures become recognisable, and the closing bass notes leave longer spaces before the sound disappears.</p>",
+      "cues": [
+        { "at": 192, "text": "Moving decoration surrounds longer-held notes; keep the sustained line in your ear." },
+        { "at": 256, "text": "The opening gestures are recognisable again, now after the central expansion." },
+        { "at": 312, "text": "Let the final sound decay; this is the end of the Prelude, not a musical account of departure." }
+      ],
+      "sources": [
+        { "title": "Tchaikovsky Research: Rachmaninoff’s emigration in December 1917", "url": "https://en.tchaikovsky-research.net/pages/Sergei_Rachmaninoff" },
+        { "title": "Sergei Rachmaninoff — Finland, Stockholm, Copenhagen and arrival in New York", "url": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff#1917–1925:_Leaving_Russia,_emigration_to_the_US,_and_concert_pianist" },
+        { "title": "Yevgeny Sudbin: the permanent departure from Russia", "url": "https://www.yevgenysudbin.com/artist.php?view=prog&rid=458" },
+        { "title": "Recording guide: B minor Prelude — return and closing span", "url": "../hall.html#rachmaninoff-prelude-op32-10" }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "America: Edison, then Victor",
+      "listen": { "id": "rachmaninoff-prelude-c-sharp-minor-victor-1928", "from": 0, "to": 210.8 },
+      "art": {
+        "file": "File:Somov Sergei Rachmaninoff 1925.JPG",
+        "caption": "Konstantin Somov’s 1925 portrait, painted during Rachmaninoff’s years as an émigré concert pianist."
+      },
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1918 },
+      "edge": null,
+      "compare": "rachmaninoff-prelude-c-sharp-minor",
+      "text": "<p>In America, concert playing became Rachmaninoff’s principal occupation. He made the Edison performance that opened this journey in 1919 and signed with Victor in 1920. Now the same Prelude returns in Victor’s electrical recording of 4 April 1928, made in New York: matrix BVE-25650, take 23. The comparison panel places these performances beside one another; neither the pianist’s identity nor the unchanged notes make them the same performance. Attend to the quiet opening answers, the change into central motion and the breadth of the later chords. The late withdrawal remains part of the design, but here we are hearing another occasion, another take and another recording process.</p>",
+      "cues": [
+        { "at": 0, "text": "The same pianist and Prelude, but a different record: Victor, New York, 4 April 1928, take 23." },
+        { "at": 92, "text": "The quieter opening span has given way to a clear change of momentum." },
+        { "at": 155, "text": "These broad later chords lie in one of this transfer’s strongest passages." },
+        { "at": 178, "text": "The sound withdraws from the chordal weight into the late quiet span." }
+      ],
+      "sources": [
+        { "title": "Library of Congress: David B. Cannata on Rachmaninoff’s American performing life and records", "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Rachman.pdf" },
+        { "title": "Sergei Rachmaninoff — the 1920 Victor contract", "url": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff#1917–1925:_Leaving_Russia,_emigration_to_the_US,_and_concert_pianist" },
+        { "title": "DAHR: Victor matrix BVE-25650 — take 23, 4 April 1928, New York", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor" },
+        { "title": "Commons: Somov’s 1925 portrait", "url": "https://commons.wikimedia.org/wiki/File:Somov_Sergei_Rachmaninoff_1925.JPG" },
+        { "title": "Recording guide: 1928 Victor Prelude — sections and timed observations", "url": "../hall.html#rachmaninoff-prelude-c-sharp-minor-victor-1928" }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "The Concerto fits a disc side",
+      "listen": { "id": "rachmaninoff-concerto-2-moderato-rachmaninoff-1929-side1", "from": 0, "to": 189.6 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>The Second Piano Concerto was completed in 1901 and dedicated to Nikolai Dahl, whose treatment had helped Rachmaninoff after the failure of his First Symphony. Its complete première took place in Moscow, with the composer at the piano and Siloti conducting. This is a later encounter: Rachmaninoff with Leopold Stokowski and the Philadelphia Orchestra, recorded at Philadelphia’s Academy of Music on 10 April 1929. We hear only the opening 78-rpm side of the first movement, not the whole Moderato. Follow the broad rise and the quieter continuation, but do not mistake the transfer’s stopping point for a composed ending. The work continues on another side.</p>",
+      "cues": [
+        { "at": 0, "text": "This transfer contains the first original disc side only; the movement will not reach its conclusion here." },
+        { "at": 26, "text": "The opening rise has led into a sustained, stronger span." },
+        { "at": 122, "text": "A marked withdrawal leads into quieter continuation, not the movement’s ending." },
+        { "at": 175, "text": "The disc-side boundary is approaching. The musical movement continues beyond this recording excerpt." }
+      ],
+      "sources": [
+        { "title": "Boston Symphony Orchestra: Marc Mandel — Dahl, the dedication and the 1901 première", "url": "https://www.bso.org/works/piano-concerto-no-2-6" },
+        { "title": "DAHR: Victor CVE-48963 — first movement, first part; take 3, 10 April 1929", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022749/CVE-48963-Concerto_no._2_in_C_minor" },
+        { "title": "Internet Archive: the HMV pressing carrying the opening Moderato side", "url": "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a" },
+        { "title": "Recording guide: composer-led 1929 Moderato side — scope and timing", "url": "../hall.html#rachmaninoff-concerto-2-moderato-rachmaninoff-1929-side1" }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Senar: composing abroad",
+      "listen": { "id": "rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1", "from": 0, "to": 184.56 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1934 },
+      "edge": "gregorian-chant--rachmaninoff-paganini-dies-irae",
+      "compare": null,
+      "text": "<p>Exile did not end composition. Villa Senar, beside Lake Lucerne, was Rachmaninoff’s summer home from 1933 to 1939; there he wrote the <i>Rhapsody on a Theme of Paganini</i> in 1934. Its twenty-four variations use Paganini’s Caprice No. 24, and Variation VII introduces the <i>Dies irae</i> chant in the piano against fragments of Paganini’s theme. The influence panel documents that meeting. It is not what is playing: our contextual music is the opening disc side of the Second Concerto’s Adagio, again recorded by Rachmaninoff, Stokowski and the Philadelphia Orchestra in 1929. Follow its long lines through the smaller moving notes; this side, too, stops before the movement does.</p>",
+      "cues": [
+        { "at": 0, "text": "This is the Second Concerto’s Adagio, not the Paganini Rhapsody; the panel concerns a different work." },
+        { "at": 28, "text": "After the opening rise, listen to the long line carried through the quieter texture." },
+        { "at": 150, "text": "A later swell gathers within this side; it does not bring the movement to its conclusion." },
+        { "at": 175, "text": "The transfer ends at an original disc-side boundary, not at the Adagio’s final cadence." }
+      ],
+      "sources": [
+        { "title": "Serge Rachmaninoff Foundation: Villa Senar — summer home, 1933–1939", "url": "https://rachmaninoff.ch/en/history/" },
+        { "title": "Houston Symphony: Calvin Dotsey on the 1934 Rhapsody, Paganini and Dies irae", "url": "https://houstonsymphony.org/rachmaninoff-rhapsody-paganini/" },
+        { "title": "DAHR: Victor CVE-48966 — Adagio sostenuto, first part; take 1, 10 April 1929", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800022752" },
+        { "title": "Internet Archive: the original opening Adagio side", "url": "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-2nd-movement-1st-record_sergei-rachmaninoff-and_gbia7026859b" },
+        { "title": "Recording guide: composer-led 1929 Adagio side — scope and timing", "url": "../hall.html#rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1" }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "One performance, not a lost country",
+      "listen": { "id": "rachmaninoff-lilacs-piano", "from": 0, "to": 153 },
+      "art": {
+        "file": "File:Rachmaninoff at Ivanovka.jpg",
+        "caption": "Ivanovka in the mid-1890s. The photograph precedes the 1902 song and the 1923 recording heard here."
+      },
+      "score": null,
+      "map": { "composer": "rachmaninoff", "year": 1943 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Rachmaninoff died at his Beverly Hills home in March 1943, without returning to Russia. To close, we return deliberately to the complete 1923 <i>Lilacs</i> performance, rather than leaving the Concerto suspended at a side change. Victor’s register lists twelve takes of this piece across sessions from 1920 to 1923; the recording here is take 9, made in Camden on 27 December 1923. That specificity matters: a record preserves one performance, not every choice its player ever made. The Ivanovka photograph, the pre-war transcription and the American recording belong to different moments. Hear the melody carried through its accompaniment once more, then let the final flourish and quiet chord finish the piece.</p>",
+      "cues": [
+        { "at": 0, "text": "The earlier Lilacs record returns in full: the same 1923 performance, not a later remake." },
+        { "at": 86, "text": "After the more active span, the texture has quietened again; keep following the melody within it." },
+        { "at": 132, "text": "The last quick run leads to a quiet chord. Unlike the Concerto sides, this excerpt reaches the piece’s ending." }
+      ],
+      "sources": [
+        { "title": "Sergei Rachmaninoff — final years and death in Beverly Hills", "url": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff#1942–1943:_Illness,_move_to_California,_and_death" },
+        { "title": "DAHR: Lilacs — twelve logged takes, with the present recording identified as take 9", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700009327/B-24123-Lilacs_op._21_no._5" },
+        { "title": "Yevgeny Sudbin: Lilacs, 1902 song and 1913 transcription", "url": "https://www.yevgenysudbin.com/artist.php?view=prog&rid=458" },
+        { "title": "Commons: the Ivanovka photograph, mid-1890s", "url": "https://commons.wikimedia.org/wiki/File:Rachmaninoff_at_Ivanovka.jpg" },
+        { "title": "Recording guide: Lilacs — return and closing flourish", "url": "../hall.html#rachmaninoff-lilacs-piano" }
+      ]
+    }
+  ]
+}

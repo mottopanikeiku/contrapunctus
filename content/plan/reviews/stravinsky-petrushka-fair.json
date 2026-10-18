@@ -1,0 +1,13 @@
+{
+  "id": "stravinsky-petrushka-fair",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "content/dossiers/stravinsky-petrushka-fair.json: session.date.note, session.place.note, rights.recording.note",
+      "severity": "minor",
+      "problem": "[MEAS] Four prose possessives retain straight apostrophes: tableau's, orchestra's, Archive's and Decca's.",
+      "evidence": "[EXT] AUTHORING.md requires curly apostrophes in visible prose. [MEAS] These forms occur in the three named dossier notes; source URLs and original filenames are separate identifiers.",
+      "fix": "Change these prose possessives to curly apostrophes. Preserve source URLs, filenames and matrix identifiers exactly. Musical, timeline, provenance and rights checks otherwise pass."
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "uniqueScoreAttacks": 2255,
+  "audioDetectedOnsets": 1500,
+  "medianAbsoluteOnsetDeviation": 0.029996050032877974,
+  "noteWeightedMedianDeviation": 0.02575144466386803,
+  "p95AbsoluteOnsetDeviation": 0.16643819764466905,
+  "fractionWithin150ms": 0.917960088691796,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 44,
+      "median": 0.01805564698997908,
+      "p95": 0.13737464157706092,
+      "max": 0.14964713627386406,
+      "adaptiveMedian": 0.029509984639016995,
+      "adaptiveP95": 0.09335355497037622
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 73,
+      "median": 0.02882803013678803,
+      "p95": 0.29903993855606786,
+      "max": 0.41255219076877836,
+      "adaptiveMedian": 0.029687074829929827,
+      "adaptiveP95": 0.12771664106502592
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 65,
+      "median": 0.04944268890351822,
+      "p95": 0.21080055592129263,
+      "max": 0.3311314461268431,
+      "adaptiveMedian": 0.03745900080462761,
+      "adaptiveP95": 0.09414692414600759
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 70,
+      "median": 0.03432011191573281,
+      "p95": 0.15984100833882273,
+      "max": 0.19150010972130005,
+      "adaptiveMedian": 0.0350182868846467,
+      "adaptiveP95": 0.13810204813107627
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 67,
+      "median": 0.030003803672002505,
+      "p95": 0.17107327920414048,
+      "max": 0.24116911710920874,
+      "adaptiveMedian": 0.03708097432520674,
+      "adaptiveP95": 0.14514467120180752
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 90,
+      "median": 0.05213978494623461,
+      "p95": 0.19934255906663656,
+      "max": 0.2392497256967303,
+      "adaptiveMedian": 0.0403586423816904,
+      "adaptiveP95": 0.1229013276278195
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 69,
+      "median": 0.05042169555995457,
+      "p95": 0.19696031014555318,
+      "max": 0.2501800892399899,
+      "adaptiveMedian": 0.043232682320230253,
+      "adaptiveP95": 0.08253118279569661
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 72,
+      "median": 0.04081683856338003,
+      "p95": 0.1495991076000358,
+      "max": 0.22352797893351806,
+      "adaptiveMedian": 0.03718093043668702,
+      "adaptiveP95": 0.12624887352791314
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 56,
+      "median": 0.029118937897756325,
+      "p95": 0.16678264208908544,
+      "max": 0.2159034452490971,
+      "adaptiveMedian": 0.0296191207665899,
+      "adaptiveP95": 0.11287414965987708
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 54,
+      "median": 0.027411235461919148,
+      "p95": 0.10713201667764097,
+      "max": 0.1334686562797316,
+      "adaptiveMedian": 0.04329924658034656,
+      "adaptiveP95": 0.07123335527759378
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 60,
+      "median": 0.02408675298077867,
+      "p95": 0.13598557530540772,
+      "max": 0.15282759125157952,
+      "adaptiveMedian": 0.030920506912430312,
+      "adaptiveP95": 0.06548573622999494
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 56,
+      "median": 0.03657216004681629,
+      "p95": 0.14004103576916194,
+      "max": 0.18489532587230428,
+      "adaptiveMedian": 0.03977551020408754,
+      "adaptiveP95": 0.12118740399387562
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 52,
+      "median": 0.023113689561853334,
+      "p95": 0.10113657376931101,
+      "max": 0.1381070879965023,
+      "adaptiveMedian": 0.03394601711652001,
+      "adaptiveP95": 0.08907376197790877
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 51,
+      "median": 0.015209860288209143,
+      "p95": 0.13245475824738406,
+      "max": 0.3210925316362818,
+      "adaptiveMedian": 0.02555979811279485,
+      "adaptiveP95": 0.06631965474362289
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 63,
+      "median": 0.03627664399094499,
+      "p95": 0.1422545680637654,
+      "max": 0.17660653938995097,
+      "adaptiveMedian": 0.03520005851804342,
+      "adaptiveP95": 0.07854781105992004
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 55,
+      "median": 0.030430985297343227,
+      "p95": 0.15869032258061677,
+      "max": 0.1711551459293048,
+      "adaptiveMedian": 0.04628088654816054,
+      "adaptiveP95": 0.15226616926336617
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 71,
+      "median": 0.028379855167827372,
+      "p95": 0.15997615390239162,
+      "max": 0.18316816619116594,
+      "adaptiveMedian": 0.03074555628703024,
+      "adaptiveP95": 0.14604959403111195
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 57,
+      "median": 0.03876219735204245,
+      "p95": 0.1464324189890931,
+      "max": 0.18425835710624483,
+      "adaptiveMedian": 0.04088215931534478,
+      "adaptiveP95": 0.10220835344886722
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 50,
+      "median": 0.0350058518030778,
+      "p95": 0.21120338673104128,
+      "max": 0.41543193621532737,
+      "adaptiveMedian": 0.03756645453873375,
+      "adaptiveP95": 0.12304917709018492
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 56,
+      "median": 0.02823884500038787,
+      "p95": 0.10544195742815532,
+      "max": 0.13485962987348898,
+      "adaptiveMedian": 0.03291844049445558,
+      "adaptiveP95": 0.06724328871336382
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 56,
+      "median": 0.020036061736547595,
+      "p95": 0.10029017628553305,
+      "max": 0.17009724965254236,
+      "adaptiveMedian": 0.02665796210955307,
+      "adaptiveP95": 0.05260811206206739
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 44,
+      "median": 0.034655475093259724,
+      "p95": 0.15327589605734035,
+      "max": 0.2068482188574876,
+      "adaptiveMedian": 0.032568722112472415,
+      "adaptiveP95": 0.06716085143735882
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 58,
+      "median": 0.022516348474866277,
+      "p95": 0.13275756711282574,
+      "max": 0.33495896423087856,
+      "adaptiveMedian": 0.027277960646586052,
+      "adaptiveP95": 0.060175148123764184
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 61,
+      "median": 0.022286884646348426,
+      "p95": 0.15073937531997217,
+      "max": 0.1613293833662226,
+      "adaptiveMedian": 0.025149586716366912,
+      "adaptiveP95": 0.0677498354180841
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 51,
+      "median": 0.015964011410943613,
+      "p95": 0.1297888230560602,
+      "max": 0.20385341233264853,
+      "adaptiveMedian": 0.024410650281623703,
+      "adaptiveP95": 0.05609874917711011
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 59,
+      "median": 0.023115646258531797,
+      "p95": 0.14971784799938065,
+      "max": 0.18771867456658242,
+      "adaptiveMedian": 0.025019310950170848,
+      "adaptiveP95": 0.14122748884495873
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 59,
+      "median": 0.02434803598859503,
+      "p95": 0.14742932850556936,
+      "max": 0.21430458635063587,
+      "adaptiveMedian": 0.02758159607935795,
+      "adaptiveP95": 0.08065512398509864
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 41,
+      "median": 0.02149703752471055,
+      "p95": 0.1340377441298699,
+      "max": 0.20331910613708715,
+      "adaptiveMedian": 0.026471801623870306,
+      "adaptiveP95": 0.13717767537116288
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 59,
+      "median": 0.026704995976842838,
+      "p95": 0.11558585326602891,
+      "max": 0.13949864677050527,
+      "adaptiveMedian": 0.037757735352215605,
+      "adaptiveP95": 0.1051368736741863
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 68,
+      "median": 0.029150830224594415,
+      "p95": 0.17672126398947224,
+      "max": 0.24335564333262028,
+      "adaptiveMedian": 0.025951942067138134,
+      "adaptiveP95": 0.10374339111987751
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 76,
+      "median": 0.034823860727073,
+      "p95": 0.1785523004901748,
+      "max": 0.2803165825470728,
+      "adaptiveMedian": 0.03312778874987998,
+      "adaptiveP95": 0.11513791968407361
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 56,
+      "median": 0.031069855899374943,
+      "p95": 0.15190754151130648,
+      "max": 0.15619457245256285,
+      "adaptiveMedian": 0.04121629727160325,
+      "adaptiveP95": 0.1331551459294218
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 86,
+      "median": 0.04940732206861753,
+      "p95": 0.18839869980253354,
+      "max": 0.22994243288712823,
+      "adaptiveMedian": 0.0398440860214464,
+      "adaptiveP95": 0.13807183088295005
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 71,
+      "median": 0.044466242410919676,
+      "p95": 0.19111601199620054,
+      "max": 0.28821944261568433,
+      "adaptiveMedian": 0.042346280447588924,
+      "adaptiveP95": 0.13430557384253916
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 85,
+      "median": 0.05262094945504714,
+      "p95": 0.27090616633746545,
+      "max": 0.3554671201815154,
+      "adaptiveMedian": 0.03880118499012042,
+      "adaptiveP95": 0.10367600029262576
+    },
+    {
+      "start": 280.0,
+      "end": 288.0,
+      "attacks": 55,
+      "median": 0.027423341379517296,
+      "p95": 0.31577075561410767,
+      "max": 0.4773846829054378,
+      "adaptiveMedian": 0.03032418989096186,
+      "adaptiveP95": 0.1238858459513153
+    },
+    {
+      "start": 288.0,
+      "end": 296.0,
+      "attacks": 39,
+      "median": 0.019931241313770443,
+      "p95": 0.1530753383074,
+      "max": 0.17930758539966973,
+      "adaptiveMedian": 0.019804403481828103,
+      "adaptiveP95": 0.15145523736380825
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 85,
+      "median": 0.05262094945504714,
+      "p95": 0.27090616633746545,
+      "max": 0.3554671201815154,
+      "adaptiveMedian": 0.03880118499012042,
+      "adaptiveP95": 0.10367600029262576
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 90,
+      "median": 0.05213978494623461,
+      "p95": 0.19934255906663656,
+      "max": 0.2392497256967303,
+      "adaptiveMedian": 0.0403586423816904,
+      "adaptiveP95": 0.1229013276278195
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 69,
+      "median": 0.05042169555995457,
+      "p95": 0.19696031014555318,
+      "max": 0.2501800892399899,
+      "adaptiveMedian": 0.043232682320230253,
+      "adaptiveP95": 0.08253118279569661
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 65,
+      "median": 0.04944268890351822,
+      "p95": 0.21080055592129263,
+      "max": 0.3311314461268431,
+      "adaptiveMedian": 0.03745900080462761,
+      "adaptiveP95": 0.09414692414600759
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 86,
+      "median": 0.04940732206861753,
+      "p95": 0.18839869980253354,
+      "max": 0.22994243288712823,
+      "adaptiveMedian": 0.0398440860214464,
+      "adaptiveP95": 0.13807183088295005
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 55,
+      "median": 0.030430985297343227,
+      "p95": 0.15869032258061677,
+      "max": 0.1711551459293048,
+      "adaptiveMedian": 0.04628088654816054,
+      "adaptiveP95": 0.15226616926336617
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 54,
+      "median": 0.027411235461919148,
+      "p95": 0.10713201667764097,
+      "max": 0.1334686562797316,
+      "adaptiveMedian": 0.04329924658034656,
+      "adaptiveP95": 0.07123335527759378
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 69,
+      "median": 0.05042169555995457,
+      "p95": 0.19696031014555318,
+      "max": 0.2501800892399899,
+      "adaptiveMedian": 0.043232682320230253,
+      "adaptiveP95": 0.08253118279569661
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 71,
+      "median": 0.044466242410919676,
+      "p95": 0.19111601199620054,
+      "max": 0.28821944261568433,
+      "adaptiveMedian": 0.042346280447588924,
+      "adaptiveP95": 0.13430557384253916
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 56,
+      "median": 0.031069855899374943,
+      "p95": 0.15190754151130648,
+      "max": 0.15619457245256285,
+      "adaptiveMedian": 0.04121629727160325,
+      "adaptiveP95": 0.1331551459294218
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 256.0,
+      "meanCosine": 0.7255513248216999
+    },
+    {
+      "start": 32.0,
+      "meanCosine": 0.7448339318840359
+    },
+    {
+      "start": 144.0,
+      "meanCosine": 0.7453106431359728
+    },
+    {
+      "start": 160.0,
+      "meanCosine": 0.7497582592070686
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.754317590399727
+    }
+  ],
+  "sections": [
+    {
+      "bar": "80",
+      "occ": 1,
+      "editorial": 74,
+      "aligned": 74.32438709677419,
+      "difference": 0.3243870967741884,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "232",
+      "occ": 1,
+      "editorial": 220,
+      "aligned": 219.48245161290322,
+      "difference": -0.517548387096781,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.75,
+      "audioSeconds": 0.9385967741935484,
+      "nearestOnsetDeviation": 0.0018113890717577075
+    },
+    {
+      "label": "middle",
+      "bar": "152",
+      "occ": 1,
+      "scoreQ": 303.94270833333326,
+      "audioSeconds": 144.2838329973118,
+      "nearestOnsetDeviation": 0.06301507525054717
+    },
+    {
+      "label": "last",
+      "bar": "310",
+      "occ": 1,
+      "scoreQ": 618.0,
+      "audioSeconds": 293.59496774193536,
+      "nearestOnsetDeviation": 0.021358788676877793
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 30,
+      "voice": "violone",
+      "durationQ": 0.5,
+      "onset": 26.533354838709677,
+      "offset": 26.77241935483871,
+      "durationSeconds": 0.23906451612903368
+    },
+    {
+      "bar": "198",
+      "occ": 1,
+      "midi": 37,
+      "voice": "violone",
+      "durationQ": 10.5,
+      "onset": 186.62283870967744,
+      "offset": 191.6831935483871,
+      "durationSeconds": 5.060354838709657
+    },
+    {
+      "bar": "217",
+      "occ": 1,
+      "midi": 30,
+      "voice": "violone",
+      "durationQ": 10.75,
+      "onset": 204.95174193548388,
+      "offset": 210.0516290322581,
+      "durationSeconds": 5.099887096774211
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.026147681451590188,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7846615851244733,
+  "endAnchor": {
+    "scoreQ": 620.0,
+    "audioSeconds": 297.0,
+    "decodedDuration": 297.0133333333333,
+    "activeEndMinus45dB": 297.00643990929706
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "bach-brandenburg-5-finale",
+  "tuningHz": 442.04,
+  "audioSha256": "785747830dd90e1eb98b6ca2c4326525c992c925dcb9f8fca934f2e78de5263d",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Only Mutopia 548’s complete movement-III score.ly and score.mid correspond to this recording. Individual practice-part MIDIs and movements I or II are not substituted.",
+    "The source names flute, principal violin, ripieno violin, viola, cello, violone and the two harpsichord source variables. Isolated compilation preserves harpsichord cross-staff ownership; labels follow source definitions rather than anonymous MIDI track names or General MIDI patches. Aggregate source pitch/onset identity is asserted against score.mid before any explicit sounding-pitch correction.",
+    "Joram Berger’s source-header note identifies the 2015 A–B–A refactoring and correction of discrepant returning notes. Source unfold repeats already generate 620 quarter units, so the 310-bar canonical timeline is used once.",
+    "The Violone source has no written MIDI transposition. MEAS: an independent ffmpeg/Welch spectrum at 187–191 s has a strongest low peak at 68.637 Hz (C♯2), 9.12 dB above the 139.293 Hz C♯3 peak. During source quarters 394–404.5, Violone alone sustains C♯3 continuously; cello C♯3 attacks last only 0.5 quarters every two quarters, and the harpsichord moves through pitches 49–62. No source part is below MIDI 49. The overlay shows sustained MIDI-37 energy under this pedal. INFERENCE: a 16-foot realisation best represents the written Violone line, so only that part is lowered 12 semitones in sounding events; the written engraving remains unchanged. This is not inferred from its contrabass patch. The physical bass instrument and harpsichord registration remain undocumented; a 16-foot keyboard stop could also contribute. The lowest F♯1/G1/A1 fundamentals are weak.",
+    "Figured-bass symbols are retained in the engraving but are not converted into invented continuo notes. Written trill indications, chord holds and source durations are not a transcription of performed ornament attacks or releases."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      0.3585967741935484,
+      0.92
+    ],
+    [
+      75.24,
+      74.0
+    ],
+    [
+      221.083,
+      220.0
+    ],
+    [
+      295.48374193548386,
+      293.58
+    ]
+  ],
+  "sourceChecks": {
+    "pitchOnsetInventory": {
+      "kind": "set",
+      "matched": true,
+      "count": 4698
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.75,
+      "audioSeconds": 0.92,
+      "peakSeconds": 0.96,
+      "window": [
+        0.85,
+        1.03
+      ],
+      "midiPitches": [
+        69
+      ],
+      "basis": "The fresh 0.4–3.5 s pitch overlay and independent attacks at 0.940, 1.103 and 1.393 s identify the source opening A4–D5–A4 after 0.75 quarter of written rests. Reject the broad first window’s 1.38 s rise (peak 1.40 s): it selects the third note’s repeated A4 and compresses the first two notes to milliseconds despite passing numeric gates. Restrict the first anchor to the actual initial A4. The closing D-major sonority begins around 293.6 s in the 292–296.5 s overlay, including new D2 bass energy. Reject the initial broad last window’s 295.52 s decay fluctuation, which delayed the last attack and failed the 0.5 s anchor gate."
+    },
+    {
+      "label": "last",
+      "scoreQ": 618.0,
+      "audioSeconds": 293.58,
+      "peakSeconds": 293.62,
+      "window": [
+        293.45,
+        293.95
+      ],
+      "midiPitches": [
+        38,
+        50,
+        66,
+        69,
+        74
+      ],
+      "basis": "The fresh 0.4–3.5 s pitch overlay and independent attacks at 0.940, 1.103 and 1.393 s identify the source opening A4–D5–A4 after 0.75 quarter of written rests. Reject the broad first window’s 1.38 s rise (peak 1.40 s): it selects the third note’s repeated A4 and compresses the first two notes to milliseconds despite passing numeric gates. Restrict the first anchor to the actual initial A4. The closing D-major sonority begins around 293.6 s in the 292–296.5 s overlay, including new D2 bass energy. Reject the initial broad last window’s 295.52 s decay fluctuation, which delayed the last attack and failed the 0.5 s anchor gate."
+    }
+  ],
+  "adaptiveOnsetCount": 1693,
+  "adaptiveMedianDeviation": 0.03345431936213572,
+  "gateReasons": [],
+  "elapsedSeconds": 0.7139510179986246,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 310,
+    "notes": 6008,
+    "voices": 8
+  },
+  "published": true,
+  "configSha256": "e6073c98821890e0634c1b2570aa7b631a22958ebf1d5c7d37ab052e4b0e2a6d",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1050/brand5-3/brand5-3-lys.zip",
+      "file": "brand5-3-lys.zip",
+      "sha256": "7112a5479b892f8f24a7b9ff3e66228a9633770cf58b5a9fb2c535140789ffc0"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1050/brand5-3/brand5-3-mids.zip",
+      "file": "brand5-3-mids.zip",
+      "sha256": "c58511d380295eccb820465cc3d64278f93e214920b1cde03ce074a55946fceb"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/bach-brandenburg-5-finale-0-8.9386.png",
+    "work/bach-brandenburg-5-finale-0.4-3.5.png",
+    "work/bach-brandenburg-5-finale-16-24.png",
+    "work/bach-brandenburg-5-finale-25-40.png",
+    "work/bach-brandenburg-5-finale-40-48.png",
+    "work/bach-brandenburg-5-finale-48-56.png",
+    "work/bach-brandenburg-5-finale-72-80.png",
+    "work/bach-brandenburg-5-finale-120-128.png",
+    "work/bach-brandenburg-5-finale-140.284-152.284.png",
+    "work/bach-brandenburg-5-finale-180-210.png",
+    "work/bach-brandenburg-5-finale-186-192.png",
+    "work/bach-brandenburg-5-finale-204-211.png",
+    "work/bach-brandenburg-5-finale-215-235.png",
+    "work/bach-brandenburg-5-finale-248-256.png",
+    "work/bach-brandenburg-5-finale-256-264.png",
+    "work/bach-brandenburg-5-finale-264-272.png",
+    "work/bach-brandenburg-5-finale-272-280.png",
+    "work/bach-brandenburg-5-finale-288-297.png",
+    "work/bach-brandenburg-5-finale-289.595-297.013.png",
+    "work/bach-brandenburg-5-finale-292-296.5.png"
+  ]
+}

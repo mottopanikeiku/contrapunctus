@@ -52,13 +52,14 @@ self.addEventListener('activate', (event) => {
 
 async function networkFirst(request, key) {
   const cache = await caches.open(HTML);
+  const offline = async () => await cache.match(key) || (revisions.has(key) ? await (await caches.open(SHELL)).match(revisionKey(key, revisions.get(key))) : undefined);
   try {
     const response = await fetch(request);
     if (storable(response)) { await cache.put(key, response.clone()); return response; }
     if (response.status < 500) return response;
-    return await cache.match(key) || response;
+    return await offline() || response;
   } catch (error) {
-    const cached = await cache.match(key);
+    const cached = await offline();
     if (cached) return cached;
     throw error;
   }
@@ -98,7 +99,9 @@ self.addEventListener('fetch', (event) => {
   const canonical = new URL(url.pathname, ROOT);
   if (canonical.pathname.endsWith('/')) canonical.pathname += 'index.html';
   const revision = revisions.get(canonical.href);
-  if (revision) {
+  if (request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/')) {
+    event.respondWith(networkFirst(request, canonical.href));
+  } else if (revision) {
     event.respondWith(caches.open(SHELL).then(async (cache) => {
       const key = revisionKey(canonical.href, revision);
       const found = await cache.match(key);
@@ -107,8 +110,6 @@ self.addEventListener('fetch', (event) => {
       if (storable(response)) await cache.put(key, response.clone());
       return response;
     }));
-  } else if (request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/')) {
-    event.respondWith(networkFirst(request, canonical.href));
   } else if (url.pathname.endsWith('.json') || /\/assets\/data\//.test(url.pathname) && !url.pathname.endsWith('.svg')) {
     event.respondWith(staleWhileRevalidate(event, url.href));
   } else if (url.pathname.endsWith('.svg') && /\/(?:data|scores)\//.test(url.pathname)) {
