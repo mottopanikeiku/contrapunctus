@@ -109,23 +109,6 @@
       ]
     },
     {
-      "name": "North Sea and London",
-      "country": "United Kingdom (today United Kingdom)",
-      "lat": 51.5072,
-      "lon": -0.1275,
-      "from": "1839",
-      "kind": "travelled",
-      "what": "A stormy sea passage to London inspired <i>Der fliegende Holländer</i>; he and Minna then went on to Paris.",
-      "work": "Der fliegende Holländer",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Richard Wagner — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
-        }
-      ]
-    },
-    {
       "name": "Paris",
       "country": "Kingdom of France (today France)",
       "lat": 48.8567,
@@ -143,23 +126,18 @@
       ]
     },
     {
-      "name": "Königliches Hoftheater, Dresden",
-      "country": "Kingdom of Saxony (today Germany)",
-      "lat": 51.0544,
-      "lon": 13.7353,
-      "from": "1842-10-20",
-      "kind": "premiere",
-      "what": "<i>Rienzi</i>, his first success, supported by Meyerbeer; <i>Der fliegende Holländer</i> followed on 2 January 1843.",
-      "work": "Rienzi",
+      "name": "Salle du Conservatoire, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8729,
+      "lon": 2.347,
+      "from": "1839-12-15",
+      "kind": "heard",
+      "what": "Newly arrived in Paris, he attended the third performance of Berlioz’s <i>Roméo et Juliette</i> at the Conservatoire.",
       "status": "documented",
       "sources": [
         {
-          "title": "Rienzi — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Rienzi"
-        },
-        {
-          "title": "Richard Wagner — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+          "title": "The Hector Berlioz Website: Berlioz and Wagner",
+          "url": "http://www.hberlioz.com/Predecessors/wagner.htm"
         }
       ]
     },
@@ -182,6 +160,27 @@
         {
           "title": "Tannhäuser (opera) — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Tannhäuser_(opera)"
+        }
+      ]
+    },
+    {
+      "name": "Königliches Hoftheater, Dresden",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.0544,
+      "lon": 13.7353,
+      "from": "1842-10-20",
+      "kind": "premiere",
+      "what": "<i>Rienzi</i>, his first success, supported by Meyerbeer; <i>Der fliegende Holländer</i> followed on 2 January 1843.",
+      "work": "Rienzi",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Rienzi — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Rienzi"
+        },
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
         }
       ]
     },
@@ -228,14 +227,13 @@
       ]
     },
     {
-      "name": "Wesendonck estate (Asyl), Zürich",
-      "country": "Switzerland (today Switzerland)",
-      "lat": 47.3589,
-      "lon": 8.5304,
-      "from": "1857",
-      "to": "1858",
-      "kind": "lived",
-      "what": "Wesendonck placed a cottage, the “Asyl”, at his disposal; the Mathilde affair ended it in 1858.",
+      "name": "Philharmonic Society, London",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1855",
+      "kind": "travelled",
+      "what": "Conducted several concerts, one before Queen Victoria, who enjoyed his <i>Tannhäuser</i> overture.",
       "status": "documented",
       "sources": [
         {
@@ -245,13 +243,14 @@
       ]
     },
     {
-      "name": "Philharmonic Society, London",
-      "country": "United Kingdom (today United Kingdom)",
-      "lat": 51.5072,
-      "lon": -0.1275,
-      "from": "1855",
-      "kind": "travelled",
-      "what": "Conducted several concerts, one before Queen Victoria, who enjoyed his <i>Tannhäuser</i> overture.",
+      "name": "Wesendonck estate (Asyl), Zürich",
+      "country": "Switzerland (today Switzerland)",
+      "lat": 47.3589,
+      "lon": 8.5304,
+      "from": "1857",
+      "to": "1858",
+      "kind": "lived",
+      "what": "Wesendonck placed a cottage, the “Asyl”, at his disposal; the Mathilde affair ended it in 1858.",
       "status": "documented",
       "sources": [
         {
@@ -333,23 +332,6 @@
       ]
     },
     {
-      "name": "National Theatre, Munich",
-      "country": "Kingdom of Bavaria (today Germany)",
-      "lat": 48.1394,
-      "lon": 11.5794,
-      "from": "1869-09-22",
-      "kind": "premiere",
-      "what": "<i>Das Rheingold</i> staged on Ludwig II’s orders, against Wagner’s wishes, before the full <i>Ring</i> was ready.",
-      "work": "Das Rheingold",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Das Rheingold — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Das_Rheingold"
-        }
-      ]
-    },
-    {
       "name": "Villa Tribschen, Lucerne",
       "country": "Switzerland (today Switzerland)",
       "lat": 47.0412,
@@ -376,23 +358,19 @@
       ]
     },
     {
-      "name": "Festspielhaus, Bayreuth",
+      "name": "National Theatre, Munich",
       "country": "Kingdom of Bavaria (today Germany)",
-      "lat": 49.96,
-      "lon": 11.5797,
-      "from": "1876-08-13",
+      "lat": 48.1394,
+      "lon": 11.5794,
+      "from": "1869-09-22",
       "kind": "premiere",
-      "what": "Opened with the first complete <i>Ring</i> cycle, 13–17 August, conducted by Hans Richter.",
-      "work": "Der Ring des Nibelungen",
+      "what": "<i>Das Rheingold</i> staged on Ludwig II’s orders, against Wagner’s wishes, before the full <i>Ring</i> was ready.",
+      "work": "Das Rheingold",
       "status": "documented",
       "sources": [
         {
-          "title": "Bayreuth Festspielhaus — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Bayreuth_Festspielhaus"
-        },
-        {
-          "title": "Richard Wagner — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+          "title": "Das Rheingold — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Das_Rheingold"
         }
       ]
     },
@@ -414,6 +392,27 @@
         {
           "title": "Wahnfried — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Wahnfried"
+        }
+      ]
+    },
+    {
+      "name": "Festspielhaus, Bayreuth",
+      "country": "Kingdom of Bavaria (today Germany)",
+      "lat": 49.96,
+      "lon": 11.5797,
+      "from": "1876-08-13",
+      "kind": "premiere",
+      "what": "Opened with the first complete <i>Ring</i> cycle, 13–17 August, conducted by Hans Richter.",
+      "work": "Der Ring des Nibelungen",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bayreuth Festspielhaus — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Bayreuth_Festspielhaus"
+        },
+        {
+          "title": "Richard Wagner — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
         }
       ]
     },

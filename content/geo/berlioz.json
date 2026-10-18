@@ -36,6 +36,22 @@
       ]
     },
     {
+      "name": "Théâtre de l’Odéon, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8495,
+      "lon": 2.3388,
+      "from": "1827-09-11",
+      "kind": "heard",
+      "what": "Saw <i>Hamlet</i> with Harriet Smithson as Ophelia, and her Juliet four days later; he married her in 1833.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Hector Berlioz Website: Berlioz in Paris — Théâtre de l’Odéon",
+          "url": "http://www.hberlioz.com/Paris/BPOdeon.html"
+        }
+      ]
+    },
+    {
       "name": "Salle du Conservatoire, Paris",
       "country": "Kingdom of France (today France)",
       "lat": 48.8729,
@@ -240,13 +256,13 @@
       ]
     },
     {
-      "name": "Rue de Calais, Paris",
+      "name": "Montmartre Cemetery, Paris",
       "country": "Kingdom of France (today France)",
-      "lat": 48.8825,
-      "lon": 2.3308,
-      "from": "1869-03-08",
-      "kind": "died",
-      "what": "Died at his house here at sixty-five.",
+      "lat": 48.8878,
+      "lon": 2.3303,
+      "from": "1869-03",
+      "kind": "buried",
+      "what": "Buried with his two wives, Harriet Smithson and Marie Recio.",
       "status": "documented",
       "sources": [
         {
@@ -256,13 +272,13 @@
       ]
     },
     {
-      "name": "Montmartre Cemetery, Paris",
+      "name": "Rue de Calais, Paris",
       "country": "Kingdom of France (today France)",
-      "lat": 48.8878,
-      "lon": 2.3303,
-      "from": "1869-03",
-      "kind": "buried",
-      "what": "Buried with his two wives, Harriet Smithson and Marie Recio.",
+      "lat": 48.8825,
+      "lon": 2.3308,
+      "from": "1869-03-08",
+      "kind": "died",
+      "what": "Died at his house here at sixty-five.",
       "status": "documented",
       "sources": [
         {

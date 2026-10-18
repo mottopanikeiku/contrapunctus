@@ -69,6 +69,26 @@
       ]
     },
     {
+      "name": "Paris Opéra (Salle Le Peletier)",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8731,
+      "lon": 2.3389,
+      "from": "1832-04-22",
+      "kind": "heard",
+      "what": "First heard Paganini at a benefit concert during the cholera epidemic, which led him to rebuild his technique.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Notes to Liszt: Grandes Études de Paganini, S141 — Hyperion Records",
+          "url": "https://www.hyperion-records.co.uk/tw.asp?w=W4348"
+        },
+        {
+          "title": "Franz Liszt — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Franz_Liszt"
+        }
+      ]
+    },
+    {
       "name": "Geneva",
       "country": "Switzerland (today Switzerland)",
       "lat": 46.2017,
@@ -102,13 +122,13 @@
       ]
     },
     {
-      "name": "Hanover Square Rooms, London",
-      "country": "United Kingdom (today United Kingdom)",
-      "lat": 51.5139,
-      "lon": -0.143,
-      "from": "1840-06-09",
+      "name": "Dresden",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.05,
+      "lon": 13.74,
+      "from": "1840",
       "kind": "travelled",
-      "what": "The concert credited as the first “recital” in the modern sense of a solo performance.",
+      "what": "Met Schumann for the first time here; in 1844 he attended a Dresden performance of Wagner’s <i>Rienzi</i>.",
       "status": "documented",
       "sources": [
         {
@@ -118,13 +138,13 @@
       ]
     },
     {
-      "name": "Dresden",
-      "country": "Kingdom of Saxony (today Germany)",
-      "lat": 51.05,
-      "lon": 13.74,
-      "from": "1840",
+      "name": "Hanover Square Rooms, London",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5139,
+      "lon": -0.143,
+      "from": "1840-06-09",
       "kind": "travelled",
-      "what": "Met Schumann for the first time here; in 1844 he attended a Dresden performance of Wagner’s <i>Rienzi</i>.",
+      "what": "The concert credited as the first “recital” in the modern sense of a solo performance.",
       "status": "documented",
       "sources": [
         {
@@ -234,23 +254,6 @@
       ]
     },
     {
-      "name": "Matthias Church, Budapest",
-      "country": "Kingdom of Hungary (today Hungary)",
-      "lat": 47.5019,
-      "lon": 19.0342,
-      "from": "1867-06-08",
-      "kind": "premiere",
-      "what": "Travelled to conduct his Hungarian Coronation Mass at the coronation of Franz Joseph and Elisabeth.",
-      "work": "Hungarian Coronation Mass",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Franz Liszt — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Franz_Liszt"
-        }
-      ]
-    },
-    {
       "name": "Villa d’Este, Tivoli",
       "country": "Kingdom of Italy (today Italy)",
       "lat": 41.963,
@@ -269,6 +272,23 @@
         {
           "title": "Villa d'Este — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Villa_d'Este"
+        }
+      ]
+    },
+    {
+      "name": "Matthias Church, Budapest",
+      "country": "Kingdom of Hungary (today Hungary)",
+      "lat": 47.5019,
+      "lon": 19.0342,
+      "from": "1867-06-08",
+      "kind": "premiere",
+      "what": "Travelled to conduct his Hungarian Coronation Mass at the coronation of Franz Joseph and Elisabeth.",
+      "work": "Hungarian Coronation Mass",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Franz Liszt — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Franz_Liszt"
         }
       ]
     },

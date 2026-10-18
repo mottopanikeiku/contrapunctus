@@ -53,14 +53,14 @@
       ]
     },
     {
-      "name": "Krasiński (Czapski) Palace, Warsaw",
+      "name": "Warsaw Conservatory",
       "country": "Duchy of Warsaw (today Poland)",
-      "lat": 52.2394,
-      "lon": 21.015,
-      "from": "1827",
-      "to": "1830-11",
-      "kind": "lived",
-      "what": "Family lodgings in the palace’s south annex on Krakowskie Przedmieście, where he lived until leaving Warsaw.",
+      "lat": 52.2356,
+      "lon": 21.0225,
+      "from": "1826-09",
+      "to": "1829-07",
+      "kind": "studied",
+      "what": "Three-year course with Józef Elsner in theory, figured bass and composition; his final report read “musical genius”.",
       "status": "documented",
       "sources": [
         {
@@ -70,14 +70,14 @@
       ]
     },
     {
-      "name": "Warsaw Conservatory",
+      "name": "Krasiński (Czapski) Palace, Warsaw",
       "country": "Duchy of Warsaw (today Poland)",
-      "lat": 52.2356,
-      "lon": 21.0225,
-      "from": "1826-09",
-      "to": "1829-07",
-      "kind": "studied",
-      "what": "Three-year course with Józef Elsner in theory, figured bass and composition; his final report read “musical genius”.",
+      "lat": 52.2394,
+      "lon": 21.015,
+      "from": "1827",
+      "to": "1830-11",
+      "kind": "lived",
+      "what": "Family lodgings in the palace’s south annex on Krakowskie Przedmieście, where he lived until leaving Warsaw.",
       "status": "documented",
       "sources": [
         {
@@ -158,22 +158,6 @@
       ]
     },
     {
-      "name": "Salons Pleyel, 9 rue Cadet, Paris",
-      "country": "Kingdom of France (today France)",
-      "lat": 48.8749,
-      "lon": 2.3429,
-      "from": "1832-02-26",
-      "kind": "premiere",
-      "what": "Debut Paris concert, with Liszt in the audience; Schumann had called him a genius the previous December.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Frédéric Chopin — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
-        }
-      ]
-    },
-    {
       "name": "38 Rue de la Chaussée-d’Antin, Paris",
       "country": "Kingdom of France (today France)",
       "lat": 48.8739,
@@ -183,6 +167,22 @@
       "kind": "lived",
       "what": "Lived here a few blocks from Liszt; the two performed together on seven occasions, 1833–41.",
       "status": "inferred",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Salons Pleyel, 9 rue Cadet, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8749,
+      "lon": 2.3429,
+      "from": "1832-02-26",
+      "kind": "premiere",
+      "what": "Debut Paris concert, with Liszt in the audience; Schumann had called him a genius the previous December.",
+      "status": "documented",
       "sources": [
         {
           "title": "Frédéric Chopin — Wikipedia (English)",
@@ -203,6 +203,22 @@
         {
           "title": "Frédéric Chopin — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig (Wieck’s house)",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.34,
+      "lon": 12.375,
+      "from": "1835-09",
+      "kind": "travelled",
+      "what": "Met Schumann for the first time, and Mendelssohn; he played his new D♭ Nocturne, which Mendelssohn learnt by ear.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "John Henken, programme note on Chopin’s Two Nocturnes, Op. 27 — Los Angeles Philharmonic",
+          "url": "https://www.laphil.com/works/two-nocturnes-op-27"
         }
       ]
     },
@@ -229,14 +245,14 @@
       ]
     },
     {
-      "name": "Nohant, Berry",
+      "name": "5 rue Tronchet, Paris",
       "country": "Kingdom of France (today France)",
-      "lat": 46.625,
-      "lon": 1.9756,
-      "from": "1839-05",
-      "to": "1846",
+      "lat": 48.8713,
+      "lon": 2.3252,
+      "from": "1839",
+      "to": "1842",
       "kind": "lived",
-      "what": "Summers at Sand’s estate, 1839–46; his most productive summers were 1839–43, excepting 1840.",
+      "what": "Autumn apartment close to Sand’s rented lodgings on rue Pigalle; moved to the Square d’Orléans in 1842.",
       "status": "documented",
       "sources": [
         {
@@ -246,14 +262,14 @@
       ]
     },
     {
-      "name": "5 rue Tronchet, Paris",
+      "name": "Nohant, Berry",
       "country": "Kingdom of France (today France)",
-      "lat": 48.8713,
-      "lon": 2.3252,
-      "from": "1839",
-      "to": "1842",
+      "lat": 46.625,
+      "lon": 1.9756,
+      "from": "1839-05",
+      "to": "1846",
       "kind": "lived",
-      "what": "Autumn apartment close to Sand’s rented lodgings on rue Pigalle; moved to the Square d’Orléans in 1842.",
+      "what": "Summers at Sand’s estate, 1839–46; his most productive summers were 1839–43, excepting 1840.",
       "status": "documented",
       "sources": [
         {

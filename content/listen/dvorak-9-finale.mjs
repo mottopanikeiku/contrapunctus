@@ -500,6 +500,30 @@ export default {
         "note": "Recapitulation region: the main subject returns before a quieter lyrical span."
       },
       {
+        "t": 400,
+        "playing": ["oboes", "clarinets", "horns", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["oboes", "horns"],
+        "note": "Withdrawal after the brass subject: oboe and horn phrases pass towards clarinet, with quiet trombone harmony and timpani beneath strings (printed p. 176). Broad anchor in the 6:40–6:56 low-level span."
+      },
+      {
+        "t": 416,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["clarinets"],
+        "note": "Lyrical-return region: the wind melody and string accompaniment replace the earlier trumpet-led texture. The 6:56 boundary and sustained quieter 7:00–7:40 span anchor the broad return."
+      },
+      {
+        "t": 464,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "violins-1"],
+        "note": "The lyrical span broadens through upper winds and strings, then settles over quieter harmony and timpani (including printed p. 182, PDF p. 184). Its melodic foreground is not carried by trumpets; the broad anchor is 7:44."
+      },
+      {
+        "t": 540,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["horns", "trumpets", "violins-1"],
+        "note": "Renewed coda: brass and timpani regain their stronger supporting and thematic roles with winds and strings. The 9:00 boundary and sustained rise through 9:55 anchor the return of orchestral weight."
+      },
+      {
         "t": 610,
         "playing": [
           "flutes",

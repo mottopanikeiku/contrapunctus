@@ -1,13 +1,5 @@
 {
   "id": "schumann-kinderszenen-happiness",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[0].evidence",
-      "severity": "minor",
-      "problem": "The report is misquoted as a D-major region from0:00 with pitch classes F♯ A G. The first window actually has A F♯ E and a local A-major estimate; D major is the global estimate, while several opening windows estimate F♯ minor.",
-      "evidence": "cache/analysis/schumann-kinderszenen-happiness.txt lines1,15–20: global Dmajor r0.69;0:00 A F♯ E,local Amajor;0:05 A G F♯,local F♯minor;0:25 first local Dmajor window. The score's two-sharp signature and D-major identity are not in dispute.",
-      "fix": "Ground the D-major identification in the score; distinguish the report's global D-major estimate from its opening local estimates, and quote any first-window pitch classes accurately. Preserve the real onset/loudness anchors."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

@@ -124,6 +124,23 @@
       ]
     },
     {
+      "name": "Paris",
+      "country": "Second French Empire (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1847-07",
+      "to": "1849-07",
+      "kind": "worked",
+      "what": "Based in Paris for two years with Strepponi; the Opéra commissioned <i>Jérusalem</i>, a French reworking of <i>I Lombardi</i>.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Giuseppe Verdi — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+        }
+      ]
+    },
+    {
       "name": "Her Majesty’s Theatre, London",
       "country": "United Kingdom (today United Kingdom)",
       "lat": 51.5081,
@@ -145,19 +162,23 @@
       ]
     },
     {
-      "name": "Paris",
-      "country": "Second French Empire (today France)",
-      "lat": 48.8567,
-      "lon": 2.3522,
-      "from": "1847-07",
-      "to": "1849-07",
-      "kind": "worked",
-      "what": "Based in Paris for two years with Strepponi; the Opéra commissioned <i>Jérusalem</i>, a French reworking of <i>I Lombardi</i>.",
+      "name": "La Fenice, Venice",
+      "country": "Kingdom of Lombardy–Venetia (Austrian Empire; today Italy)",
+      "lat": 45.4337,
+      "lon": 12.3339,
+      "from": "1851-03-11",
+      "kind": "premiere",
+      "what": "Rigoletto’s premiere was triumphant despite the censors; <i>La traviata</i> failed here in March 1853.",
+      "work": "Rigoletto; La traviata",
       "status": "documented",
       "sources": [
         {
-          "title": "Giuseppe Verdi — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+          "title": "Rigoletto — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Rigoletto"
+        },
+        {
+          "title": "La traviata — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/La_traviata"
         }
       ]
     },
@@ -204,23 +225,23 @@
       ]
     },
     {
-      "name": "La Fenice, Venice",
-      "country": "Kingdom of Lombardy–Venetia (Austrian Empire; today Italy)",
-      "lat": 45.4337,
-      "lon": 12.3339,
-      "from": "1851-03-11",
+      "name": "Bolshoi Kamenny Theatre, St Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9258,
+      "lon": 30.2981,
+      "from": "1862-11-10",
       "kind": "premiere",
-      "what": "Rigoletto’s premiere was triumphant despite the censors; <i>La traviata</i> failed here in March 1853.",
-      "work": "Rigoletto; La traviata",
+      "what": "Premiered at the Imperial Theatre that commissioned it; Verdi received the Order of St Stanislaus.",
+      "work": "La forza del destino",
       "status": "documented",
       "sources": [
         {
-          "title": "Rigoletto — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Rigoletto"
+          "title": "La forza del destino — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/La_forza_del_destino"
         },
         {
-          "title": "La traviata — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/La_traviata"
+          "title": "Giuseppe Verdi — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
         }
       ]
     },
@@ -246,23 +267,18 @@
       ]
     },
     {
-      "name": "Bolshoi Kamenny Theatre, St Petersburg",
-      "country": "Russian Empire (today Russia)",
-      "lat": 59.9258,
-      "lon": 30.2981,
-      "from": "1862-11-10",
-      "kind": "premiere",
-      "what": "Premiered at the Imperial Theatre that commissioned it; Verdi received the Order of St Stanislaus.",
-      "work": "La forza del destino",
+      "name": "Teatro Comunale, Bologna",
+      "country": "Kingdom of Italy (today Italy)",
+      "lat": 44.4965,
+      "lon": 11.3506,
+      "from": "1871-11-09",
+      "kind": "heard",
+      "what": "Attended Mariani’s <i>Lohengrin</i>, the first Wagner opera heard in Italy, and annotated a vocal score with his impressions.",
       "status": "documented",
       "sources": [
         {
-          "title": "La forza del destino — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/La_forza_del_destino"
-        },
-        {
-          "title": "Giuseppe Verdi — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+          "title": "Angelo Mariani (conductor) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Angelo_Mariani_(conductor)"
         }
       ]
     },
@@ -365,13 +381,13 @@
       ]
     },
     {
-      "name": "Grand Hotel et de Milan",
+      "name": "Cimitero Monumentale, Milan",
       "country": "Kingdom of Italy (today Italy)",
-      "lat": 45.4702,
-      "lon": 9.1928,
-      "from": "1901-01-27",
-      "kind": "died",
-      "what": "Stroke on 21 January while staying here; died on 27 January at eighty-seven, with Teresa Stolz at his side.",
+      "lat": 45.4858,
+      "lon": 9.1791,
+      "from": "1901-01",
+      "kind": "buried",
+      "what": "Buried first in a private ceremony here; a month later moved to the Casa di Riposo crypt.",
       "status": "documented",
       "sources": [
         {
@@ -381,13 +397,13 @@
       ]
     },
     {
-      "name": "Cimitero Monumentale, Milan",
+      "name": "Grand Hotel et de Milan",
       "country": "Kingdom of Italy (today Italy)",
-      "lat": 45.4858,
-      "lon": 9.1791,
-      "from": "1901-01",
-      "kind": "buried",
-      "what": "Buried first in a private ceremony here; a month later moved to the Casa di Riposo crypt.",
+      "lat": 45.4702,
+      "lon": 9.1928,
+      "from": "1901-01-27",
+      "kind": "died",
+      "what": "Stroke on 21 January while staying here; died on 27 January at eighty-seven, with Teresa Stolz at his side.",
       "status": "documented",
       "sources": [
         {

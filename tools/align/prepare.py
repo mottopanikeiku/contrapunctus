@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 import xml.etree.ElementTree as ET
 import zipfile
 
@@ -112,7 +113,9 @@ def prepare(cfg, lilypond=LILYPOND):
         selected = directory / '__selected.musicxml'
         ET.ElementTree(xml).write(selected, encoding='utf-8', xml_declaration=True)
         main.parent.mkdir(parents=True, exist_ok=True)
-        subprocess.run([str(Path(lilypond).with_name('musicxml2ly')), '--midi', '--npl', '-o', str(main), str(selected)], check=True)
+        subprocess.run([sys.executable, str(HERE / 'musicxml_convert.py'),
+                        '--converter', str(Path(lilypond).with_name('musicxml2ly')),
+                        '--midi', '--npl', '-o', str(main), str(selected)], check=True)
     legacy = source.get('legacyRelative')
     if legacy or source.get('patches'):
         extraction = cfg['extraction']

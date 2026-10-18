@@ -1,20 +1,5 @@
 {
   "id": "schumann-kinderszenen-foreign-lands",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[0]; transitions[0].how",
-      "severity": "major",
-      "problem": "The opening accompaniment is misdescribed as alternating bass notes and offbeat chords. Its defining layer is continuous broken-chord triplet quavers, shared across the staves, beneath the tune and above the separate bass punctuation.",
-      "evidence": "Independently inspected printed p.3 / PDF p.2 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf ; corroborating encoding https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.ly explicitly uses triplets throughout the inner voice.",
-      "fix": "Describe the tune, flowing inner triplet arpeggios and separate bass layer accurately; remove the offbeat-chord assertion from the public cue and its score evidence, and replace 'same rocking left hand' in the transition with the continuing triplet motion. Retain the correct G-major/2/4 description."
-    },
-    {
-      "where": "cues[3].text",
-      "severity": "minor",
-      "problem": "Saying the Kinderszenen were composed by 17 February can imply the finished cycle, although the same diary records further pieces on 24 and25 February.",
-      "evidence": "https://www.schumann-zwickau.de/media/archiv-sonderausstellungen/2013_175_Jahre_Kinderszenen.pdf item1 records work by17 February and Träumerei on24 February, another F-major scene on25 February.",
-      "fix": "Say that Schumann's diary records work on the Kinderszenen by17 February, not that the complete collection was already composed. The visit on22 February and March letter may remain."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

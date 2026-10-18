@@ -192,6 +192,26 @@
       ]
     },
     {
+      "name": "Vienna (Beethoven’s funeral)",
+      "country": "Austrian Empire (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1827-03-29",
+      "kind": "lived",
+      "what": "Walked among the torchbearers in Beethoven’s funeral procession, attended by an estimated ten thousand people.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ludwig van Beethoven — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+        },
+        {
+          "title": "Franz Schubert — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Franz_Schubert"
+        }
+      ]
+    },
+    {
       "name": "Vienna",
       "country": "Archduchy of Austria (today Austria)",
       "lat": 48.2083,
@@ -201,26 +221,6 @@
       "what": "Gave the only public concert of his own works, on the anniversary of Beethoven’s death; a popular and financial success.",
       "status": "documented",
       "sources": [
-        {
-          "title": "Franz Schubert — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Franz_Schubert"
-        }
-      ]
-    },
-    {
-      "name": "Kettenbrückengasse 6, Vienna",
-      "country": "Archduchy of Austria (today Austria)",
-      "lat": 48.1947,
-      "lon": 16.3614,
-      "from": "1828-11-19",
-      "kind": "died",
-      "what": "Died at three in the afternoon, aged 31, in his brother Ferdinand’s apartment; typhoid fever is the usual diagnosis.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Franz Schubert — Wikipedia (German)",
-          "url": "https://de.wikipedia.org/wiki/Franz_Schubert"
-        },
         {
           "title": "Franz Schubert — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Franz_Schubert"
@@ -245,6 +245,26 @@
         {
           "title": "Franz Schubert — Wikipedia (German)",
           "url": "https://de.wikipedia.org/wiki/Franz_Schubert"
+        }
+      ]
+    },
+    {
+      "name": "Kettenbrückengasse 6, Vienna",
+      "country": "Archduchy of Austria (today Austria)",
+      "lat": 48.1947,
+      "lon": 16.3614,
+      "from": "1828-11-19",
+      "kind": "died",
+      "what": "Died at three in the afternoon, aged 31, in his brother Ferdinand’s apartment; typhoid fever is the usual diagnosis.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Franz Schubert — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Franz_Schubert"
+        },
+        {
+          "title": "Franz Schubert — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Franz_Schubert"
         }
       ]
     },

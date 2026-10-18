@@ -4,6 +4,20 @@
   "source": {
     "mutopia": 301,
     "legacyRelative": "verify-midi",
+    "patches": [
+      {
+        "file": "spring-lys/spring2a.ly",
+        "old": "#(revert-auto-beam-setting '(end 1 32 3 4) 1 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 3 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 5 8)",
+        "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (6)) (1/12 . (3 3 3)) (1/32 . (8 8 8)))))",
+        "basis": "Migrate the first accompaniment’s removed revert-auto-beam-setting calls: removing the three off-beat eighth-note boundaries makes 32nd-type beams span each quarter (8+8+8 thirty-seconds). Preserve LilyPond 2.24’s other 3/4 exceptions. The source’s first explicitly beamed bar shows this same quarter grouping. Full published pitch/onset multiset equality remains required."
+      },
+      {
+        "file": "spring-lys/spring2b.ly",
+        "old": "#(revert-auto-beam-setting '(end 1 32 3 4) 1 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 3 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 5 8)",
+        "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (6)) (1/12 . (3 3 3)) (1/32 . (8 8 8)))))",
+        "basis": "Apply the identical source-specified quarter-note beaming migration to the second accompaniment, preserving the default 3/4 eighth/triplet exceptions and explicitly grouping 32nd-type beams as 8+8+8. Original bytes remain unchanged; no note or written duration is altered."
+      }
+    ],
     "title": "La Primavera / Spring, RV 269 — II. Largo",
     "edition": "Performers’ Facsimiles",
     "encoder": "Anonymous (Mutopia maintainer)",

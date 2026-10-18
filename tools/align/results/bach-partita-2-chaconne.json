@@ -1235,6 +1235,7 @@
     "This is the standalone solo-violin Chaconne, not the whole partita or a piano arrangement. The original source and published MIDI are retained with inventory SHA-256 pins.",
     "The four separately encoded variables melodyOne, melodyTwo, melodyThree and melodyFour are compiled independently. Names identify source variables rather than inferred soprano/alto/bass roles or MIDI channels; their notational voice settings are respectively voiceOne, voiceThree, voiceFive and voiceTwo.",
     "The source sets currentBarNumber to 2 before partial 2 and labels the opening fragment as bar 1. Its 257 source-comment bars occupy 770 quarter units. Source unisons and chord holds remain in their originating variables instead of being truncated by the published merged MIDI staff.",
+    "Engraving reuses the immutable source’s complete melody variable and sets both displayed and internal bar counters to 2 before partial 2. LilyPond’s rhythmic-location tags use its internal counter, not currentBarNumber: setting only the original displayed counter mislabels the pickup 0 and the last note 256. The wrapper preserves all notation while making the pickup tag 1 and the final written bar 257; a derived blank box is not a substitute for that final measure.",
     "The arpeggio markings at bars 89 and 201 are not a fully encoded performance realisation. Symbolic sustained chord tones must not be mistaken for Heifetz’s individual string attacks; no notes or repeated arpeggio patterns are fabricated. No aural review or recording-edition identity is claimed.",
     "The final written D4 hold uses an explicit 778.5 s pitch-energy display boundary rather than the noisy whole-file RMS end at 782.245 s. The strongest pitched energy fades around 775 s, with a weak measured tail reaching the documented boundary; neither the display duration nor that threshold is a measured violin release."
   ],
@@ -1302,7 +1303,7 @@
   "adaptiveOnsetCount": 4694,
   "adaptiveMedianDeviation": 0.03311482168625446,
   "gateReasons": [],
-  "elapsedSeconds": 1.3775656649959274,
+  "elapsedSeconds": 1.3907362010213546,
   "dtwSteps": [
     [
       1,
@@ -1328,7 +1329,7 @@
     "voices": 4
   },
   "published": true,
-  "configSha256": "8407cfaca42964b4f0549eb39cd2df295fdc30a4f9265053cca258b8ffc49c34",
+  "configSha256": "1253ec0452bc9d9dc9d18382f4f609f8292fee2b3761bebd962c62aed5d27d3c",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1004/bwv-1004_5/bwv-1004_5.ly",
@@ -1342,9 +1343,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "11c2855a8fa05c2cf2431395a88c9e1af06210340f0f1508caf543f5d60d29f6",
+    "candidateSha256": "11c2855a8fa05c2cf2431395a88c9e1af06210340f0f1508caf543f5d60d29f6",
+    "byteIdentical": true,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.0,
+      "noteDurationSeconds": 0.0,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": true
   },
   "overlays": [
     "work/bach-partita-2-chaconne-0-10.4.png",

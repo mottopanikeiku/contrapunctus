@@ -19,6 +19,22 @@
       ]
     },
     {
+      "name": "Pisa",
+      "country": "Grand Duchy of Tuscany (today Italy)",
+      "lat": 43.7167,
+      "lon": 10.4,
+      "from": "1876",
+      "kind": "heard",
+      "what": "Aged eighteen he walked twenty kilometres from Lucca to hear the first local performance of Verdi’s <i>Aida</i>.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "Giacomo Puccini — OperaVision",
+          "url": "https://operavision.eu/feature/giacomo-puccini"
+        }
+      ]
+    },
+    {
       "name": "Pacini School of Music, Lucca",
       "country": "Grand Duchy of Tuscany (today Italy)",
       "lat": 43.8417,
@@ -86,6 +102,27 @@
       ]
     },
     {
+      "name": "Torre del Lago, Tuscany",
+      "country": "Kingdom of Italy (today Italy)",
+      "lat": 43.8275,
+      "lon": 10.2894,
+      "from": "1891",
+      "to": "1921",
+      "kind": "lived",
+      "what": "Spent summers from 1891 beside Lake Massaciuccoli, hunting; he built a villa there by 1900.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Giacomo Puccini — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini"
+        },
+        {
+          "title": "Villa Puccini — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Villa_Puccini"
+        }
+      ]
+    },
+    {
       "name": "Teatro Regio, Turin",
       "country": "Kingdom of Italy (today Italy)",
       "lat": 45.0706,
@@ -116,27 +153,6 @@
         {
           "title": "La bohème — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/La_bohème"
-        }
-      ]
-    },
-    {
-      "name": "Torre del Lago, Tuscany",
-      "country": "Kingdom of Italy (today Italy)",
-      "lat": 43.8275,
-      "lon": 10.2894,
-      "from": "1891",
-      "to": "1921",
-      "kind": "lived",
-      "what": "Spent summers from 1891 beside Lake Massaciuccoli, hunting; he built a villa there by 1900.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Giacomo Puccini — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini"
-        },
-        {
-          "title": "Villa Puccini — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Villa_Puccini"
         }
       ]
     },

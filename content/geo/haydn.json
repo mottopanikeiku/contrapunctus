@@ -65,26 +65,6 @@
       ]
     },
     {
-      "name": "Michaelerhaus, Vienna",
-      "country": "Habsburg Monarchy (today Austria)",
-      "lat": 48.2081,
-      "lon": 16.3669,
-      "from": "1750",
-      "kind": "lived",
-      "what": "After losing his soprano voice, lived in an unheated garret attached to the Michaelerkirche, teaching and playing for pay.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
-        },
-        {
-          "title": "Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
-        }
-      ]
-    },
-    {
       "name": "Vienna (freelance years)",
       "country": "Habsburg Monarchy (today Austria)",
       "lat": 48.2083,
@@ -99,23 +79,6 @@
           "title": "Joseph Haydn — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
         },
-        {
-          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
-        }
-      ]
-    },
-    {
-      "name": "Mannersdorf spa",
-      "country": "Habsburg Monarchy (today Austria)",
-      "lat": 47.9667,
-      "lon": 16.6,
-      "from": "1753-06",
-      "to": "1753-09",
-      "kind": "travelled",
-      "what": "Summer with his teacher Porpora as accompanist and valet; met Gluck, Wagenseil and Bonno at parties.",
-      "status": "documented",
-      "sources": [
         {
           "title": "List of residences of Joseph Haydn — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
@@ -186,23 +149,6 @@
       ]
     },
     {
-      "name": "Esterházy palace, Wallnerstraße, Vienna",
-      "country": "Habsburg Monarchy (today Austria)",
-      "lat": 48.2096,
-      "lon": 16.367,
-      "from": "1761",
-      "to": "1766",
-      "kind": "worked",
-      "what": "The court spent part of each year in its Vienna palace, where Haydn served as Vice-Kapellmeister.",
-      "status": "inferred",
-      "sources": [
-        {
-          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
-        }
-      ]
-    },
-    {
       "name": "Esterháza (Fertőd)",
       "country": "Kingdom of Hungary (today Hungary)",
       "lat": 47.6206,
@@ -220,26 +166,6 @@
         {
           "title": "Joseph Haydn — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
-        }
-      ]
-    },
-    {
-      "name": "Vienna",
-      "country": "Habsburg Monarchy (today Austria)",
-      "lat": 48.2083,
-      "lon": 16.3725,
-      "from": "1784",
-      "kind": "travelled",
-      "what": "Met Mozart around 1784 on a Vienna visit; the two sometimes played chamber music together.",
-      "status": "inferred",
-      "sources": [
-        {
-          "title": "Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
-        },
-        {
-          "title": "Wolfgang Amadeus Mozart — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
         }
       ]
     },
@@ -340,6 +266,22 @@
       ]
     },
     {
+      "name": "London (Handel Festival)",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1791-05",
+      "kind": "heard",
+      "what": "At the end of May he attended the great Handel Festival, with over a thousand musicians; no venue is named.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Louis Nohl, Life of Haydn — Project Gutenberg",
+          "url": "https://www.gutenberg.org/files/67827/67827-h/67827-h.htm"
+        }
+      ]
+    },
+    {
       "name": "Oxford",
       "country": "Kingdom of Great Britain (today United Kingdom)",
       "lat": 51.7519,
@@ -348,26 +290,6 @@
       "kind": "travelled",
       "what": "Awarded an honorary doctorate at a grand ceremony; Symphony No. 92 was performed and took its nickname.",
       "work": "Symphony No. 92 “Oxford”",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
-        },
-        {
-          "title": "Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
-        }
-      ]
-    },
-    {
-      "name": "Slough",
-      "country": "Kingdom of Great Britain (today United Kingdom)",
-      "lat": 51.5084,
-      "lon": -0.5881,
-      "from": "1792-06-15",
-      "kind": "travelled",
-      "what": "Visited the astronomer and composer William Herschel; the visit influenced <i>The Creation</i>.",
       "status": "documented",
       "sources": [
         {
@@ -394,27 +316,6 @@
         {
           "title": "List of residences of Joseph Haydn — Wikipedia (English)",
           "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
-        }
-      ]
-    },
-    {
-      "name": "1 Bury Street, St James’s, London",
-      "country": "Kingdom of Great Britain (today United Kingdom)",
-      "lat": 51.5069,
-      "lon": -0.1385,
-      "from": "1794-02",
-      "to": "1795-08",
-      "kind": "lived",
-      "what": "Second London visit: concerts with Salomon, then the Opera Concerts under Viotti; benefit night in 1795 was a peak.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "List of residences of Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/List_of_residences_of_Joseph_Haydn"
-        },
-        {
-          "title": "Joseph Haydn — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Joseph_Haydn"
         }
       ]
     },
