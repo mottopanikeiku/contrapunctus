@@ -1,0 +1,180 @@
+{
+  "id": "debussy-clair-de-lune",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent saved-gate arithmetic, all15 current diagnostic images, all four actual native SVG pages, original source ending, complete event/bar/index/caller and provenance review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#debussy-clair-de-lune",
+    "finding": "Current source/counts, retained initial/final rests and high A-flat6, rejected arpeggio-as-final error, two exact interior corrections, legacy final coordinate and all gates agree with current evidence. Report distinguishes native cream masks from the raster preview artefact and does not claim aural review. Author-reported logarithmic ending inspection is not independently claimed here."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/debussy-clair-de-lune-checks.json",
+    "primaryMedianSeconds": 0.052176870747928206,
+    "primaryP95Seconds": 0.22940495086923818,
+    "maximumAnchorDeviationSeconds": 0.03292517006786966,
+    "maximumLocalRegionMedianSeconds": 0.05110733182161198,
+    "minimumPublishedNoteDurationSeconds": 0.01,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.009999999999990905,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 72,
+    "distinctEngravedBars": 72,
+    "sheetPages": 4,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "derivedBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All1468 note voice/bar indices resolve, durations positive and bar starts strictly increase. Actual native page ranges1-26/27-38/39-50/51-72 agree with index. Un poco mosso27, Calmato43,a Tempo I51 and morendo66 are visible; original9/8 is retained. Final72 clearly has dotted-half arpeggiated chord plus dotted-quarter rest. No black annotation mask or missing closing notation in actual native pages."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/debussy-clair-de-lune-0-11.6628.png",
+      "work/debussy-clair-de-lune-48-56.png",
+      "work/debussy-clair-de-lune-80-88.png",
+      "work/debussy-clair-de-lune-80-94.png",
+      "work/debussy-clair-de-lune-88-96.png",
+      "work/debussy-clair-de-lune-96-104.png",
+      "work/debussy-clair-de-lune-112-120.png",
+      "work/debussy-clair-de-lune-120-128.png",
+      "work/debussy-clair-de-lune-125.729-137.729.png",
+      "work/debussy-clair-de-lune-128-136.png",
+      "work/debussy-clair-de-lune-148-164.png",
+      "work/debussy-clair-de-lune-232-250.png",
+      "work/debussy-clair-de-lune-236.16-248.16.png",
+      "work/debussy-clair-de-lune-239.92-251.92.png",
+      "work/debussy-clair-de-lune-240.787-252.787.png"
+    ],
+    "finding": "All15 current windows independently inspected, including complete rising ending followed by separate closing sonority. No gross principal-pitch/order mismatch identified. Later broad-band detector activity is not substituted for another final score attack; quiet individual notes remain less certain than source contour."
+  },
+  "endingFits": {
+    "basis": "MEAS",
+    "measurements": [
+      {
+        "label": "first",
+        "scoreQ": 0.5,
+        "midiPitches": [
+          65,
+          68
+        ],
+        "audioSeconds": 3.64,
+        "peakSeconds": 3.7,
+        "mappedAudioSeconds": 3.662777777777778,
+        "mappingDeviationSeconds": 0.022777777777777786
+      },
+      {
+        "label": "final-arpeggio-F4",
+        "scoreQ": 316.5,
+        "midiPitches": [
+          65
+        ],
+        "audioSeconds": 240.16,
+        "peakSeconds": 240.16,
+        "mappedAudioSeconds": 240.16,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "final-arpeggio-D-flat6",
+        "scoreQ": 319.0,
+        "midiPitches": [
+          85
+        ],
+        "audioSeconds": 243.92,
+        "peakSeconds": 244.0,
+        "mappedAudioSeconds": 243.92,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "last",
+        "scoreQ": 319.5,
+        "midiPitches": [
+          61,
+          68,
+          73,
+          77,
+          80,
+          85,
+          89,
+          92
+        ],
+        "audioSeconds": 244.74,
+        "peakSeconds": 244.78,
+        "mappedAudioSeconds": 244.78666666666683,
+        "mappingDeviationSeconds": 0.046666666666823176
+      }
+    ],
+    "finding": "Every fitted pitch set is a subset of the actual source onset at the stated quarter. Explicit q316.5/F4 and q319/D-flat6 map exactly to240.160/243.920s; final q319.5 eight-note sonority is244.786666667s, not the rejected241.438s arpeggio. Legacy first3.64 and final244.74 targets retain respective0.022777778/0.046666667s mapping residuals; neither is an exact knot. Warped written holds are not physical key releases."
+  },
+  "source": {
+    "basis": "EXT",
+    "title": "Suite bergamasque — III. Clair de lune",
+    "edition": "E. Fromont (1905)",
+    "encoder": "Keith OHara",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1778",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "opened": true,
+    "notationUrl": "https://www.mutopiaproject.org/ftp/DebussyC/L75/debussy_Ste_Bergamesq_Clair/debussy_Ste_Bergamesq_Clair.ly",
+    "notationOpened": true,
+    "licenseOpened": true,
+    "finding": "Opened Mutopia1778 catalogue and original header/ending agree with Fromont1905,Keith OHara and Public Domain provenance. Original final four-voice parallelMusic material and score wrapper retain the written rests and cross-staff register handling. Historical Fromont scan was not independently opened here."
+  },
+  "sourceInventoryAudit": {
+    "basis": "MEAS",
+    "path": "tools/align/work/debussy-clair-de-lune-events.json",
+    "notes": 1468,
+    "staffCounts": [
+      743,
+      725
+    ],
+    "endQ": 324,
+    "lastAttackQ": 319.5,
+    "lastNoteEndQ": 322.5,
+    "finding": "Complete72x4.5quarter timeline retains final1.5quarter rest although pitched MIDI events end at322.5. First pitched source onset isq0.5 after its initial rest. Two labels aggregate source staves, not four independently tracked contrapuntal voices. sourceChecks is empty; VerS did not separately decode original MIDI or execute a strict source multiset comparison."
+  },
+  "recording": {
+    "basis": "EXT",
+    "url": "https://archive.org/metadata/78_clair-de-lune-moonlight_benno-moiseiwitsch-debussy_gbia3042373b/metadata",
+    "opened": true,
+    "finding": "Opened selected-transfer metadata identifies Moiseiwitsch,pianoforte solo,Suite bergamasque No.3 and1946. No independently authenticated studio/session-day or performing-copy claim is made."
+  },
+  "guide": {
+    "basis": "MEAS",
+    "nativeBars": [
+      15,
+      27,
+      43,
+      51,
+      66
+    ],
+    "mappedSeconds": [
+      52.597,
+      93.34,
+      136.57,
+      159.677,
+      218.542
+    ],
+    "finding": "Current guide has no structured bar pointers. Its explicitly passage-level flowing-middle span74-102 includes27; withdrawal/recollection138-180 includes51; closing210-238 includes66. Text explicitly avoids claiming that coarse154 equals the first a Tempo I note or220 the first morendo. Arrival cue245 follows244.787 chord. Existing approximate chapters are not treated as exact onset constraints."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete original solo-piano72-bar movement,once without added repeats/cuts or octave correction. Reviewed principal contour and ending are consistent with this published Fromont version; Moiseiwitsch physical performing edition is unknown."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false,
+    "tuningHz": 444.34,
+    "publicSha256": "b571b0d55010e581f9013ab0ba37757687ad3a6de956d8e3743cb0c30c91afb8"
+  },
+  "limitations": "MEAS: No aural review, software tests, build or full-site integration. Every native page was inspected; the recovered Chromium tab used raw in-memory screenshots after wrapper failure. No saved logarithmic ending PNG was independently inspected. Written timing, automatic fits and source agreement are provisional, not physical-key annotation."
+}

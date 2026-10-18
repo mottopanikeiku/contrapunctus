@@ -10,7 +10,7 @@ export async function capture(browser, origin, phase, startAt = 0) {
   await mkdir(dir, { recursive: true });
   const rows = [];
   let position = 0;
-  for (const [width, height] of [[1440, 900], [390, 844]]) for (const name of ['index.html', 'composers/mahler.html', 'hall.html', 'influence.html']) {
+  for (const [width, height] of [[1440, 900], [390, 844]]) for (const name of process.env.PAGES?.split(',') || ['index.html', 'composers/mahler.html', 'hall.html', 'influence.html']) {
     if (position++ < startAt) continue;
     const context = await browser.createBrowserContext();
     try {

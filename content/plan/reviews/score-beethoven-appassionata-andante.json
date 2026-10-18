@@ -1,0 +1,258 @@
+{
+  "id": "beethoven-appassionata-andante",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent saved-gate arithmetic, all17 current diagnostic PNGs, all5 actual native pages, saved quiet source-pitch image/measurements, exact performed order and full bar/index/caller/provenance review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#beethoven-appassionata-andante",
+    "finding": "Current report agrees with source counts/order, rejected first/quiet placements, corrected fitted coordinates, fresh gates, current paper/index and provisional physical-key/release limits. No aural-review upgrade is claimed."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/beethoven-appassionata-andante-checks.json",
+    "primaryMedianSeconds": 0.03802017358668053,
+    "primaryP95Seconds": 0.27553061224488573,
+    "maximumAnchorDeviationSeconds": 0.019501133786848035,
+    "maximumLocalRegionMedianSeconds": 0.06758088982712707,
+    "minimumPublishedNoteDurationSeconds": 0.017,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.016999999999995907,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 145,
+    "distinctEngravedBars": 102,
+    "taggedGlyphBars": 102,
+    "sheetPages": 5,
+    "svgBarSetEqualsIndexExceptDeclaredSilentBars": true,
+    "unresolvedScoreBars": [],
+    "derivedBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All note voice/bar indices resolve, durations positive and bar starts strictly increase. All5 actual native pages independently inspected: printed1-102, theme repeat barlines8/16, variable-length alternatives24-26,34-35,43-44,52-53, written-out third variation and return, distinct final101/102 arpeggiated diminished chords. No mask/counter/extra-opening-box mismatch identified."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/beethoven-appassionata-andante-0-8.6.png",
+      "work/beethoven-appassionata-andante-24-32.png",
+      "work/beethoven-appassionata-andante-32-40.png",
+      "work/beethoven-appassionata-andante-40-48.png",
+      "work/beethoven-appassionata-andante-48-56.png",
+      "work/beethoven-appassionata-andante-56-64.png",
+      "work/beethoven-appassionata-andante-86-102.png",
+      "work/beethoven-appassionata-andante-158-174.png",
+      "work/beethoven-appassionata-andante-226-242.png",
+      "work/beethoven-appassionata-andante-231.143-243.143.png",
+      "work/beethoven-appassionata-andante-286-302.png",
+      "work/beethoven-appassionata-andante-312-320.png",
+      "work/beethoven-appassionata-andante-320-328.png",
+      "work/beethoven-appassionata-andante-336-344.png",
+      "work/beethoven-appassionata-andante-342-358.png",
+      "work/beethoven-appassionata-andante-342.34-354.34.png",
+      "work/beethoven-appassionata-andante-349.002-360.124.png"
+    ],
+    "finding": "All17 current images independently inspected: opening,middle,worst-primary/local, every variation locator and full rolled pianissimo/fermata/forte ending. No remaining gross principal-pitch or performed-order mismatch identified. Whole-chord onset plotting alone cannot resolve the quiet roll; separate saved logarithmic evidence was also inspected."
+  },
+  "quietEvidence": {
+    "basis": "MEAS",
+    "image": "tools/align/results/beethoven-appassionata-andante-rolled-link.png",
+    "measurements": "tools/align/results/beethoven-appassionata-andante-rolled-link.json",
+    "bothOpenedAndImageInspected": true,
+    "matchesCurrentChecksAudioSha256": true,
+    "event": {
+      "sourceQ": 286,
+      "midiPitches": [
+        46,
+        49,
+        52,
+        55,
+        58,
+        61,
+        64,
+        67,
+        73
+      ],
+      "window": [
+        346.25,
+        346.6
+      ],
+      "fittedAudioSeconds": 346.34,
+      "mappedAudioSeconds": 346.34,
+      "sourcePitchPeakSeconds": 346.54,
+      "meanSourcePitchEnergyAtPeak": 0.0031249027233570814,
+      "preAttackMedianEnergy": 0.0002204545889981091
+    },
+    "completeSourceOnsetSetMatchesReceipt": true,
+    "recomputedPeakToPreAttackMedianRatio": 14.174813677314217,
+    "finding": "Opened log plot resolves a sequential lower-to-upper roll of all nine retained source pitches, with highD-flat5 energy near347.44, not a new chord in the350.52 gap. Fitted symbolic q286=346.34; saved complete-source-set peak346.54 and driver estimator peak346.38 are distinct measurements, not one independently certified first-key time. Simultaneous symbolic events do not assign each rolled physical attack."
+  },
+  "fittingAudit": {
+    "basis": "MEAS",
+    "measurements": [
+      {
+        "label": "first",
+        "scoreQ": 0.0,
+        "midiPitches": [
+          37,
+          49,
+          53,
+          56
+        ],
+        "audioSeconds": 0.6,
+        "peakSeconds": 0.66,
+        "mappedAudioSeconds": 0.6,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "penultimate-pianissimo-diminished-chord-first-bass",
+        "scoreQ": 286.0,
+        "midiPitches": [
+          46,
+          49,
+          52,
+          55,
+          58,
+          61,
+          64,
+          67,
+          73
+        ],
+        "audioSeconds": 346.34,
+        "peakSeconds": 346.38,
+        "mappedAudioSeconds": 346.34,
+        "mappingDeviationSeconds": 0.0
+      },
+      {
+        "label": "last",
+        "scoreQ": 288.0,
+        "midiPitches": [
+          58,
+          61,
+          64,
+          67,
+          70,
+          73,
+          76,
+          79,
+          85
+        ],
+        "audioSeconds": 353.0,
+        "peakSeconds": 353.04,
+        "mappedAudioSeconds": 353.0016551724137,
+        "mappingDeviationSeconds": 0.0016551724136775192
+      }
+    ],
+    "finding": "Each fitted pitch set belongs to its actual source onset. Explicit quiet interior knot maps exactly; legacy final target retains its recorded residual rather than becoming an exact knot. Warped durations/holds are not measured key releases or pedal resonance."
+  },
+  "source": {
+    "basis": "EXT",
+    "title": "Appassionata, Op.57 — Andante con moto",
+    "edition": "Schott Einzelausgabe",
+    "encoder": "Andreas Scherer",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=288",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "opened": true,
+    "licenseOpened": true,
+    "localOriginal": "tools/align/sources/beethoven-appassionata-andante/LVB_Sonate_57_2.ly",
+    "localOriginalOpened": true,
+    "finding": "Opened Mutopia288 catalogue and immutable header agree with Schott Einzelausgabe,Andreas Scherer,Public Domain. Original manual theme-repeat barlines, volta/alternative blocks and final nine-note arpeggios were read. Original score wrapper315-376 contains the same two complete staves; this typeset transcription is not claimed as a photographic historical facsimile."
+  },
+  "sourceInventoryAudit": {
+    "basis": "MEAS",
+    "path": "tools/align/work/beethoven-appassionata-andante-events.json",
+    "notes": 1985,
+    "staffCounts": [
+      1134,
+      851
+    ],
+    "endQ": 290,
+    "lastNoteEndQ": 290,
+    "performedInclusiveRanges": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        17,
+        25
+      ],
+      [
+        18,
+        23
+      ],
+      [
+        26,
+        34
+      ],
+      [
+        27,
+        33
+      ],
+      [
+        35,
+        43
+      ],
+      [
+        36,
+        42
+      ],
+      [
+        44,
+        52
+      ],
+      [
+        45,
+        51
+      ],
+      [
+        53,
+        102
+      ]
+    ],
+    "allPerformedNumbersMatchExpandedRanges": true,
+    "allPublicNumbersAndOccurrencesMatchSourceTable": true,
+    "allPerformedBarDurationsTwoQuarters": true,
+    "finding": "Exact complete performed number sequence was independently compared with inclusive configured ranges, then every public(n,occ) matched to the actual source table. Source staff labels are not claims of independent contrapuntal voice separation. sourceChecks is empty; VerS did not separately decode raw original MIDI or execute a strict canonical multiset comparison."
+  },
+  "recording": {
+    "basis": "EXT",
+    "url": "https://archive.org/metadata/beethovenschnabel6",
+    "opened": true,
+    "finding": "Opened selected track records75/76 credit Artur Schnabel and match the current listen-file movement/file names. No independent session-day or physical performing-copy authentication is claimed."
+  },
+  "guide": {
+    "basis": "MEAS",
+    "finding": "No structured bar pointers. Native first variation17=98.162, second variation36=167.765, third54=233.267, return86=293.829, quiet link101=346.340, forte102=353.002. Existing94/166/234/294/342 rounded chapters and transition spans are explicitly passage-level, contain the relevant joins and are not treated as exact source-onset anchors.350forward-looking-chord cue falls after the quiet roll and before the separate forte chord."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete original solo-piano Andante with both theme halves repeated, all written variation alternatives and later written-out return/link. Printed-source alternatives account for102 canonical bars and145 occurrences; no uniformly repeated movement or shortened last link is substituted. Physical Schnabel performing edition is unknown."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false,
+    "tuningHz": 440,
+    "publicSha256": "dc5ceb0f720a995d15710826d108d9e84455698c82151b3e0dc4bfe21fddcaea"
+  },
+  "limitations": "MEAS: No aural review, tests, build or full-site integration run by VerS. Every current diagnostic/native page and saved quiet proof was inspected. Fitted symbolic attacks, source timing and warped holds remain provisional, not separate physical-key/hammer/pedal annotations."
+}

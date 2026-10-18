@@ -10,7 +10,7 @@ const pages = process.env.PAGES?.split(',') || ['index.html', 'hall.html', 'infl
 const rows = [];
 for (const page of pages) for (const mode of process.env.MODES?.split(',') || ['mobile', 'desktop']) {
   const file = path.join(dir, `${page.replaceAll('/', '_')}.${mode}.json`);
-  const args = ['lighthouse', new URL(page, `${origin}/`).href, '--only-categories=performance', '--output=json', `--output-path=${file}`, `--chrome-flags=--headless --no-sandbox --disable-dev-shm-usage ${process.env.CHROME_FLAGS || ''}`, '--quiet', ...(mode === 'desktop' ? ['--preset=desktop'] : []), ...(process.env.THROTTLING_METHOD ? [`--throttling-method=${process.env.THROTTLING_METHOD}`] : [])];
+  const args = ['lighthouse', new URL(page, `${origin}/`).href, '--only-categories=performance', '--output=json', `--output-path=${file}`, `--chrome-flags=--headless --no-sandbox --disable-dev-shm-usage ${process.env.CHROME_FLAGS || ''}`, '--quiet', ...(mode === 'desktop' ? ['--preset=desktop'] : []), ...(process.env.THROTTLING_METHOD ? [`--throttling-method=${process.env.THROTTLING_METHOD}`] : []), ...(process.env.SAVE_ASSETS === '1' ? ['--save-assets'] : [])];
   console.log(`$ npx ${args.join(' ')}`);
   await new Promise((resolve, reject) => {
     const child = spawn('npx', args, { stdio: 'inherit' });
@@ -19,7 +19,7 @@ for (const page of pages) for (const mode of process.env.MODES?.split(',') || ['
   });
   const report = JSON.parse(await readFile(file, 'utf8')), a = report.audits;
   if (report.runtimeError) throw new Error(JSON.stringify(report.runtimeError));
-  const network = a['network-requests'].details.items;
+  const network = a['network-requests'].details.items.filter((request) => /^https?:/.test(request.url));
   const bytes = (type) => network.filter((r) => r.resourceType === type).reduce((sum, r) => sum + r.transferSize, 0);
   const row = { page, mode, score: Math.round(report.categories.performance.score * 100), lcp: Math.round(a['largest-contentful-paint'].numericValue), cls: a['cumulative-layout-shift'].numericValue, tbt: Math.round(a['total-blocking-time'].numericValue), bytes: a['total-byte-weight'].numericValue, requests: network.length, js: bytes('Script'), css: bytes('Stylesheet'), fonts: bytes('Font'), images: bytes('Image'), renderBlocking: a['render-blocking-insight']?.metricSavings || a['render-blocking-resources']?.details?.overallSavingsMs || null };
   rows.push(row);

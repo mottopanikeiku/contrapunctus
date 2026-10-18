@@ -798,3 +798,52 @@ The Python XML inventory examined **183 cached native pages** and found native w
 The refreshed `content/listen/` listing and all located inventory sources yield **29 newly processed whole-work candidates: 26 provisionally published and three withheld by unchanged numerical gates**, plus the separately documented compound Cortot recording rejected before alignment. Durable failed receipts are retained for [Raindrop](results/chopin-prelude-op28-15.json), [Op.10/5](results/chopin-etude-op10-5.json) and [Wöerner](results/rachmaninoff-prelude-c-sharp-minor-woerner-2005.json).
 
 No additional solo-keyboard match was manufactured from a work-title-only inventory entry: Op.57's listed file is movementII, with movementIII separately verified above, not a source for movementI; Kinderszenen sources cover nos.1–7, not the newly authored nos.8–13. The available Liszt, Mozart and Scarlatti keyboard sources do not match the currently recorded works. C.P.E. Bach's recorded Wq67 Fantasia is not the inventoried H288 Rondo. All15 newly listed *Pictures* tracks are orchestral, not the Mutopia piano original; Laucke's Gymnopédie is an explicitly transposed guitar arrangement. Existing Satie, Bach-fugue and Schubert keyboard baselines remain under AlignEng's separate baseline ownership.
+
+## Driver integration closure
+
+The config-driven driver and all three score owners' queues are complete. **Owner/reviewer evidence:** ScoreA reports 26 new publications, ScoreB 11 and ScoreC 6; VerS reports all **47** current publications, including the four baselines, have source/numeric/notation review receipts and eligible listen records. These are still **provisional automatic alignments**, with `review.by:null`; neither these reviews nor the checks below constitute listening review or a frontend integration test.
+
+### Continuous fitting-anchor correction
+
+**MEAS, AlignEng:** inspection of the saved Ballade 1 warp found the declared q1408 target at **571.740 s**, but its continuous source coordinate **590.334945054945 s** lay between retained knots **590.32 → 571.74** and **590.34 → 572.86**. Frame-boundary truncation therefore did not preserve the declared source attack under interpolation. The command and original measured neighbourhoods are retained in `work/interior-anchor-quantization.json`; this was not duplicate-frame averaging.
+
+`align.py` now retains each explicit interior fitting pair as an exact continuous knot in **both** passes, removing only incompatible grid knots so the common note/bar/diagnostic map stays strictly increasing. No individual note is clamped, no duration is invented and no numeric threshold changes. Checks expose the target, `mappedAudioSeconds` and signed `mappingDeviationSeconds`. Legacy first/last endpoint handling remains frame-based; the no-interior-anchor path used by the original four is unchanged.
+
+All eight previously published interior-anchor consumers were refreshed by their owners: Ravel scherzo, Hallelujah, Dies irae, Träumerei, the Lévy Op.27/2, Paquet Op.28/4, Rachmaninoff Minute Waltz and Victor 1921 C-sharp-minor Prelude. Their refreshed interior deviations are zero. **Owner-run diffs:** Ravel changes 14 note records, with maximum onset/duration changes **11/12 ms** and one bar time changing by **11 ms**; Handel maxima are **17/18/12 ms** for onset/duration/bar time, Mozart **66/66/66 ms**. Their note/bar identities remain unchanged. The per-piece sections and receipts retain the full results; later new publications used the corrected mapper.
+
+Coarse listen-section guides remain inverse-pass-one locators, not independent bar annotations. Goldberg's rejected first-B placement inside silence demonstrated that such refinement can preserve an initial mistake despite passing numeric gates. Its owner used actual source-pitch entry constraints, not a retimed chapter cue. This limitation is now explicit in the README.
+
+### Inline notation is not another performed bar
+
+Ballade 1's `chordMarkupA` contains a genuine miniature score annotation attached at printed bar 113. Its local bar 1 had inherited main-score indexing attributes, creating a false opening-bar box on page 5. The engraver now distinguishes its parent layout from a main score's parent paper definition, leaving all annotation ink intact without main rhythmic/staff/barline tags. Actual timed cue/ossia staves remain marked.
+
+**Owner/reviewer evidence:** after ScoreA's gated republish, VerS compared all ten actual SVG trees. Nine are identical after DOM-prefix normalisation; page 5 differs only by removal of `class="nh"`, `data-bar="1"` and `data-pos="0.0"` from the three annotation heads. Their outlines, positions and all other drawing attributes remain identical. The index loses only the false page-5 bar-1 box and corrects bar 113's width **30.42 → 30.25**; the full score JSON and its **5,013 events** are unchanged. No other publication repack was requested without evidence of this defect.
+
+### Executed final regressions
+
+After the owners' changes and remaining native-notation reviews landed, AlignEng ran:
+
+```sh
+env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMBA_NUM_THREADS=1 \
+  flock -w 7200 /tmp/contrapunctus-score.lock \
+  /tmp/contrapunctus-align-venv/bin/python -m unittest discover -s tools/align -p 'test_*.py'
+```
+
+The first run reported **`Ran 43 tests in 2.508s` / `FAILED (failures=2)`**. Both failed partial-tie fixtures had incorrectly compiled musicxml2ly's separate demo MIDI score, which wraps the music in `\articulate`, rather than the production written-duration path. That articulation pass shortens notes bearing note-specific ties. The fixtures now call the actual `prepare.definitions()` and `score_events.compile_midi()` helpers with every source voice present. The original sustained-C/reattacked-E assertions were **not weakened**; both tests additionally require C's full **two-quarter** duration.
+
+The full command then reported **`Ran 43 tests in 1.837s` / `OK`**. This includes the exact continuous-anchor regression, unchanged unconstrained-map conversion, native main-score/inline-example SVG fixture, canonical JSON, source event/ornament proofs, MusicXML structure/ties/graces, and every mandatory numeric gate. **No production converter, extractor, config or published asset changed for the fixture correction.** The four published MusicXML consumers—Ravel, Leiermann, Brahms 3 Poco and Brahms 1 Allegretto—already use the production compiled-MIDI path; their source-inventory receipts remain applicable.
+
+The earlier whiteout implementation was tested with:
+
+```sh
+env CARGO_BUILD_JOBS=1 flock -w 7200 /tmp/contrapunctus-score.lock \
+  /home/alp/.cargo/bin/cargo test --release --locked \
+  --manifest-path tools/sheetpack/Cargo.toml -- --test-threads=1
+```
+
+Its output reported **8 unit tests passed** and **2 integration tests passed**, including `preserves_whiteout_paper_colour_and_painter_order`. Both affected Op.27/2 packs were regenerated; the detailed whiteout section and `work/whiteout-repack.json` retain the **774 paper primitives per pack**, unchanged score/index/marked geometry, and final **834,253-byte** canonical pack totals. No Rust code changed after that run.
+
+The required original-four driver reruns recorded earlier produced byte-identical scores and **zero** note-onset, duration and bar-time differences. Subsequent compact JSON writing intentionally matches the site's serializer, so parsed content—not whitespace-sensitive hashes—is the comparison criterion. AlignEng's requested Ravel serialization check returned **`RAVEL_PARSED_EQUAL True`**, **`RAVEL_NOTES_EQUAL True`**, **`RAVEL_BARS_EQUAL True`** and **`DIFFERING_TOP_LEVEL_FIELDS []`**; the later explicit-anchor timing correction is separately disclosed above.
+
+**Not run by AlignEng:** full site build, browser playback integration or aural review. The lead owns the final site build.
+

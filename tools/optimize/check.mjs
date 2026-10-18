@@ -16,6 +16,7 @@ function localAsset(value, relative) {
   check(paths.has(file), `${relative}: missing ${value}`);
   if (file.endsWith('.avif')) referencedAvif.add(file);
 }
+const nodeText = (node) => node.value ?? (node.childNodes || []).map(nodeText).join('');
 for (const file of all) {
   const relative = path.relative(OUT, file).split(path.sep).join('/');
   if (file.endsWith('.json')) {
@@ -27,10 +28,17 @@ for (const file of all) {
   pages++;
   const html = await readFile(file, 'utf8'), doc = parse(html);
   check(!/fonts\.(?:googleapis|gstatic)\.com/.test(html), `${relative}: third-party font URL`);
-  let high = 0;
+  let high = 0, critical = '', deferredStyles = false, dark = false, decorativeGlyph = false;
   function visit(node) {
     const attrs = Object.fromEntries((node.attrs || []).map(({ name, value }) => [name, value]));
-    if (node.tagName === 'body') for (const name of (attrs['data-modules'] || '').split(/\s+/).filter(Boolean)) modules.add(name);
+    if (node.tagName === 'body') {
+      for (const name of (attrs['data-modules'] || '').split(/\s+/).filter(Boolean)) modules.add(name);
+      dark = (attrs.class || '').split(/\s+/).includes('is-over-dark');
+    }
+    if (node.tagName === 'style' && 'data-cp-critical' in attrs) critical += (node.childNodes || []).map((child) => child.value || '').join('');
+    if (attrs.class === 'bg-glyph') decorativeGlyph = true;
+    if (relative === 'hall.html' && ['now-composer', 'now-work', 'now-meta'].includes(attrs.class)) check(nodeText(node).trim(), `${relative}: initial ${attrs.class} is empty`);
+    if (node.tagName === 'link' && attrs.rel === 'stylesheet' && ['print', 'not x'].includes(attrs.media)) deferredStyles = true;
     if (node.tagName === 'picture') pictures++;
     if (node.tagName === 'img') {
       images++;
@@ -57,6 +65,22 @@ for (const file of all) {
   }
   visit(doc);
   check(high <= 1, `${relative}: ${high} high-priority images`);
+  const needsCritical = ['index.html', 'influence.html', 'atlas-map.html', 'glossary.html'].includes(relative) || relative.startsWith('compare/') || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative);
+  if (needsCritical) {
+    check(deferredStyles, `${relative}: critical extraction left every stylesheet render-blocking`);
+    check(critical.includes('.masthead .wrap'), `${relative}: critical CSS lost the masthead ancestor`);
+    check(/\.skip[{:]/.test(critical), `${relative}: critical CSS lost the skip link`);
+    if (dark) check(critical.includes('.is-over-dark .masthead'), `${relative}: critical CSS lost the dark masthead`);
+  }
+  if (decorativeGlyph) {
+    check(critical.includes(".page-hero span.bg-glyph{font-family:'CP Page Glyph'"), `${relative}: decorative glyph face is missing or loses to the external font shorthand`);
+    check(/@font-face\{font-family:'CP Page Glyph';[^}]*font-display:block/.test(critical) && html.includes('rel="preload" href="data:font/woff2'), `${relative}: decorative glyph can paint with a mismatched fallback`);
+  }
+  if (relative === 'index.html') {
+    check(/\.hero \.hero-caption\{[^}]*width:19rem/.test(critical), `${relative}: slideshow caption width is not reserved in critical CSS`);
+    for (const face of ['Caps', 'Display', 'Text']) check(critical.includes(`font-family:'CP Entrance ${face}'`), `${relative}: exact entrance ${face} face is missing`);
+  }
+  if (relative === 'glossary.html') check(critical.includes('content-visibility:auto'), `${relative}: glossary containment is missing from critical CSS`);
 }
 for (const file of all.filter((file) => file.endsWith('.avif'))) check(referencedAvif.has(file), `Unreferenced AVIF: ${path.relative(OUT, file)}`);
 for (const name of modules) check(paths.has(path.join(OUT, `assets/js/${name}.js`)), `Page module missing: ${name}`);
@@ -69,8 +93,7 @@ for (const face of manifest) {
   const font = fontkit.create(data), axis = font.variationAxes.wght;
   check(data.length === face.bytes && face.name.includes(hash(data).slice(0, 16)), `Font revision mismatch: ${face.name}`);
   check(!face.name.includes('.page.'), `Per-page font survived: ${face.name}`);
-  if (face.maxWeight !== face.weight) check(axis?.min === face.weight && axis?.max === face.maxWeight, `Font axis is not clamped: ${face.name}`);
-  else check(!axis, `Static face retains a weight axis: ${face.name}`);
+  check(!axis, `Static face retains a weight axis: ${face.name}`);
   if (face.family === 'Noto Music') for (const point of font.characterSet) music.add(point);
 }
 for (const char of '♯♭♮𝄞') check(music.has(char.codePointAt(0)), `Missing musical glyph: ${char}`);

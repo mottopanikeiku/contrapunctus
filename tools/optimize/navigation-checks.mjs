@@ -5,6 +5,7 @@ import { ROOT } from './cache.mjs';
 export async function checkNavigation(browser, origin, label = 'root') {
   const context = await browser.createBrowserContext();
   const page = await context.newPage();
+  await page.setViewport({ width: 1440, height: 900 });
   const cdp = await page.createCDPSession();
   await cdp.send('Network.enable');
   await cdp.send('Network.setCacheDisabled', { cacheDisabled: true });
@@ -23,7 +24,9 @@ export async function checkNavigation(browser, origin, label = 'root') {
     responses.push(row); requests.set(requestId, row);
   });
   cdp.on('Network.loadingFinished', ({ requestId, encodedDataLength }) => { const row = requests.get(requestId); if (row) row.bytes = encodedDataLength; });
-  const pages = ['index.html', 'influence.html', 'atlas-map.html', 'compare/mahler-5-adagietto.html', 'return-lab/beethoven-exposition-recapitulation.html', 'journeys/death-and-the-dies-irae.html', 'composers/mahler.html', 'glossary.html', 'hall.html'];
+  // Revisit the composer online after selecting the Hall's first piece, so
+  // the now-visible persistent-player thumbnail is also genuinely visited.
+  const pages = ['index.html', 'influence.html', 'atlas-map.html', 'compare/mahler-5-adagietto.html', 'return-lab/beethoven-exposition-recapitulation.html', 'journeys/death-and-the-dies-irae.html', 'composers/mahler.html', 'glossary.html', 'hall.html', 'composers/mahler.html'];
   const readiness = {
     'influence.html': '.iw-mounted',
     'atlas-map.html': '.am-ready',
@@ -43,6 +46,10 @@ export async function checkNavigation(browser, origin, label = 'root') {
       await evaluate((url) => window.CP.navigate(url), `${origin}/${name}`);
       await page.waitForNetworkIdle({ idleTime: 500, timeout: 30000 });
       if (readiness[name]) await page.waitForFunction((selector) => !!document.querySelector(selector)?.textContent.trim(), {}, readiness[name]);
+      if (name === 'hall.html' || name.startsWith('composers/')) await page.waitForFunction(() => [...document.images].filter((image) => {
+        const rect = image.getBoundingClientRect();
+        return image.getAttribute('src') && rect.width && rect.height && rect.bottom > 0 && rect.top < innerHeight && rect.right > 0 && rect.left < innerWidth;
+      }).every((image) => image.complete && image.naturalWidth > 0));
       const state = await evaluate(() => ({ url: location.pathname, modules: document.body.classList.contains('room') ? ['room'] : ['site', ...(document.body.dataset.modules || '').split(/\s+/).filter(Boolean)], content: !!document.querySelector('main, .stage'), persistentAudio: window.CP.player.audio === window.__acceptanceAudio, title: document.title, critical: document.querySelectorAll('style[data-cp-critical]').length }));
       if (!state.content || !state.persistentAudio) throw new Error(`Page did not mount: ${name}: ${JSON.stringify(state)}`);
       const fontRequests = responses.slice(firstResponse).filter((response) => response.type === 'Font');
@@ -55,6 +62,15 @@ export async function checkNavigation(browser, origin, label = 'root') {
     const range = responses.slice(rangeStart).find((response) => response.url.endsWith('favicon.svg?range-probe=1'));
     if (!range || range.worker) throw new Error('Range request was intercepted by the service worker');
     result.rangePassThrough = { status: range.status, fromServiceWorker: range.worker };
+    result.revisionIsolation = await evaluate(async (root) => {
+      const version = document.documentElement.dataset.app === '000000000000' ? '111111111111' : '000000000000';
+      const url = `${root}/assets/js/app.js?v=${version}`;
+      const response = await fetch(url);
+      await response.text();
+      const cachedSeparately = (await Promise.all((await caches.keys()).map(async (name) => (await (await caches.open(name)).keys()).some((request) => request.url === url)))).some(Boolean);
+      return { url, status: response.status, cachedSeparately };
+    }, origin);
+    if (!result.revisionIsolation.cachedSeparately || result.revisionIsolation.status !== 200) throw new Error('A different asset version reused the installed revision key');
     const offline = { offline: true, latency: 0, downloadThroughput: 0, uploadThroughput: 0 };
     const sessions = [cdp, ...await Promise.all(context.targets().filter((target) => target.type() === 'service_worker').map((target) => target.createCDPSession()))];
     for (const session of sessions) {
@@ -73,6 +89,8 @@ export async function checkNavigation(browser, origin, label = 'root') {
       if (state.online || !row.fromServiceWorker || row.status !== 200 || !row.heading || name === 'hall.html' && !row.room) throw new Error(`Offline rendering failed: ${JSON.stringify(row)}`);
       result.offline.push(row);
     }
+    result.revisionIsolation.offlineStatus = await evaluate((url) => fetch(url).then((response) => response.status), result.revisionIsolation.url);
+    if (result.revisionIsolation.offlineStatus !== 200) throw new Error('The separately cached asset version failed offline');
     result.cacheURLs = await evaluate(async () => (await Promise.all((await caches.keys()).map(async (name) => (await (await caches.open(name)).keys()).map((request) => request.url)))).flat());
     result.cachedAudio = result.cacheURLs.filter((url) => /\.(mp3|ogg|oga|opus|flac|wav|m4a)(?:$|\?)/.test(url) || new URL(url).origin !== new URL(origin).origin);
     result.responses = responses;
@@ -82,5 +100,5 @@ export async function checkNavigation(browser, origin, label = 'root') {
     await writeFile(path.join(ROOT, `cache/performance/navigation-${label}.json`), JSON.stringify(result, null, 2));
     await context.close();
   }
-  return { mounted: result.pages, offline: result.offline, rangePassThrough: result.rangePassThrough, errors, cachedAudio: result.cachedAudio };
+  return { mounted: result.pages, offline: result.offline, rangePassThrough: result.rangePassThrough, revisionIsolation: result.revisionIsolation, errors, cachedAudio: result.cachedAudio };
 }
