@@ -4,6 +4,7 @@ export default {
   order: 1,
   work: 'Requiem, Op. 48',
   movement: 'V. Agnus Dei',
+  set: { id: 'faure-requiem', title: 'Requiem, Op. 48', part: 5, of: 7 },
   year: '1887–1900',
   key: 'F major',
   forces: 'Mixed chorus, orchestra and organ',

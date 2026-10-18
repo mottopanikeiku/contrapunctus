@@ -11,6 +11,20 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "main": "SchumannOp15No06.ly",
     "midi": "SchumannOp15No06.mid",
+    "patches": [
+      {
+        "file": "SchumannOp15No06.ly",
+        "old": "\\repeat volta 1",
+        "new": "\\bar \".|:\"",
+        "basis": "The immutable source explicitly starts its middle-strain repeat at bar 8, quarter 2, but LilyPond 2.24 suppresses the signs of a count-one repeat. Restore that already-encoded opening marker as a visible repeat barline without unfolding or changing any music."
+      },
+      {
+        "file": "SchumannOp15No06.ly",
+        "old": "s2. s2. s2. s2. s2. s2. s2. s2 } s4",
+        "new": "s2. s2. s2. s2. s2. s2. s2. s2 } \\bar \":|.\" s4",
+        "basis": "Restore the corresponding already-encoded closing repeat marker at bar 16, quarter 2. The skip durations and all note expressions remain unchanged; the source pitch/onset multiset must match the immutable published MIDI."
+      }
+    ],
     "downloads": [
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No06/SchumannOp15No06.ly",
@@ -25,7 +39,10 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "compiled-midi",
+    "definitions": [{"file": "SchumannOp15No06.ly", "before": "\\score"}],
+    "comparePublished": {},
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\key a \\major \\time 3/4 \\viola \\violatwo \\oboes \\repeattr >> \\new Dynamics = \"dynamics\" \\dynamictr \\new Staff = \"down\" << \\clef bass \\key a \\major \\time 3/4 \\oboestwo \\bassvoicestwo \\bassvoices >> \\new Dynamics = \"pedal\" \\pedaltr >>"
   },
   "voices": [
     {
@@ -116,10 +133,12 @@
   "engraving": {
     "staff": 18,
     "width": 230,
-    "height": 297
+    "height": 297,
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\key a \\major \\time 3/4 \\viola \\violatwo \\oboes \\repeattr >> \\new Dynamics = \"dynamics\" \\dynamictr \\new Staff = \"down\" << \\clef bass \\key a \\major \\time 3/4 \\oboestwo \\bassvoicestwo \\bassvoices >> \\new Dynamics = \"pedal\" \\pedaltr >>"
   },
   "provenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/schumann-kinderszenen-important-event.mjs and cache/analysis/schumann-kinderszenen-important-event.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Read content/listen/schumann-kinderszenen-important-event.mjs and cache/analysis/schumann-kinderszenen-important-event.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "The immutable repeattr already encodes the exact middle-strain repeat boundaries with a count-one volta. Two guarded notation-only compatibility repairs make those suppressed markers visible in LilyPond 2.24; they add no notes or repeat durations. Identical compiled/engraved wrappers and the exact immutable published pitch/onset inventory are required."
   ]
 }

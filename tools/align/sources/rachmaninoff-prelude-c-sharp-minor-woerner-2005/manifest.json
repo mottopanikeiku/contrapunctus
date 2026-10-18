@@ -1,0 +1,24 @@
+{
+  "mutopia": 2033,
+  "title": "Prelude in C♯ minor, Op. 3 No. 2",
+  "edition": "Bosworth & Co. 1896; Universal Edition 1910",
+  "encoder": "Petro Kostandy",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "main": "rach-prelude-op3-no2.ly",
+  "midi": "rach-prelude-op3-no2.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2.ly",
+      "file": "rach-prelude-op3-no2.ly",
+      "sha256": "debdb6768d1d365492315ced4d735704e56539ae967600538b6d3c123a7f6681"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2.mid",
+      "file": "rach-prelude-op3-no2.mid",
+      "sha256": "cd7879a13accb06c539b1a74855121ed25ec4c71f8069473c6fc78ae56d7c43b"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

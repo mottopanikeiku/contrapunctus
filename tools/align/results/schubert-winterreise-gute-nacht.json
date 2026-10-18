@@ -569,7 +569,9 @@
       240.34
     ]
   ],
-  "sourceChecks": {},
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note tie emission"
+  },
   "endpointMeasurements": [
     {
       "label": "first",
@@ -612,7 +614,7 @@
   "gateReasons": [
     "Median unique-onset deviation exceeds 0.15 seconds."
   ],
-  "elapsedSeconds": 15.926361525955144,
+  "elapsedSeconds": 0.719851640984416,
   "dtwSteps": [
     [
       1,
@@ -725,9 +727,14 @@
       "Primary onset median remains above the mandatory 0.15-second gate despite lower adaptive-detector errors. No threshold was changed.",
       "The omitted second strophe is documented by Utz footnote 25; bars 7–38 are not repeated in the performed order. Source lyrics and original repeat notation remain in the engraving configuration.",
       "The final notated chord spans 240.366667–242.653333 seconds; durations are warped notation, not measured key releases."
-    ]
+    ],
+    "converterRefresh": "Candidate rerun after the mandatory general per-note-tie converter update; source inventory remains2176/2176, fresh endpoint/held/worst overlays inspected; all timing metrics and withholding unchanged."
   },
   "commandsRun": [
     "node tools/score.mjs schubert-winterreise-gute-nacht"
-  ]
+  ],
+  "withholdingReview": {
+    "reviewer": "VerS",
+    "decision": "Agrees that mandatory primary-gate failure requires withholding; not an instrumental or aural certification."
+  }
 }

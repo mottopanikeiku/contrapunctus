@@ -1,17 +1,17 @@
 {
   "id": "schumann-kinderszenen-happiness",
-  "verdict": "pass",
+  "verdict": "fix",
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, provenance, report and visual review; not aural review.",
-  "defects": [],
+  "defects": [{"basis": "MEAS", "code": "MISSING_SOURCE_A2_REATTACKS", "evidence": "The complete-source audit /tmp/score-a-curious-happiness-voice-audit.json found independently written bassvoices A2 quarter-note reattacks in printed bars 4 and 12 suppressed by legacy shared-channel MIDI. The 93 coincident unisons and two modern grace-clock moves are separately classified, not excuses for missing distinct attacks.", "fix": "Regenerate all four isolated named piano source voices, preserving the A2 reattacks and their overlapping written holds in every performed occurrence. Keep the half-open partial-bar return order, recompute unchanged gates, inspect fresh overlays, re-resolve the nine listener pointers, and update counts/report/source-voice metadata."}],
   "resolution": {
     "basis": "MEAS",
-    "finding": "The listening owner replaced the obsolete 46-second return inference with nine resolving bar anchors, corrected section timing, qualified the changed final pickup and removed the incorrect nineteen-second strain estimate. First B is bar 17/1 at 33.637 s; returning bar 9/2 is 52.546 s after its 51.825 s pickup; second B is bar 17/2 at 69.369 s. The initial repeat-cue contradiction is resolved without changing the passing audio score."
+    "finding": "The listener's obsolete 46-second return, strain estimate and pickup wording were corrected; nine bar pointers resolved against the earlier publication. Those caller repairs remain resolved independently of the newly discovered source-attack omission, which now requires complete-voice republication."
   },
   "report": {
     "basis": "MEAS",
     "path": "tools/align/REPORT.md#schumann-kinderszenen-happiness",
-    "finding": "The per-piece report agrees with recomputed gates, 42 occurrences / 673 notes / 81 quarter units, partial-bar return, source licence and real pickup packaging. It appropriately labels the performed order as inferred and the timing as provisional."
+    "finding": "The earlier 673-note publication agreed with timing gates and the 42-occurrence/81-quarter performed order, but its legacy source MIDI suppressed two independent A2 attacks. Update this inventory/report after complete four-source-voice regeneration; passing aggregate onset gates alone does not establish source fidelity."
   },
   "gates": {
     "basis": "MEAS",

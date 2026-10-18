@@ -18,7 +18,7 @@ export default {
   sections: [
     { t: 0, label: 'Menuetto · Allegretto, C major', m: 'A' },
     { t: 90, label: 'Trio · C minor', m: 'B' },
-    { t: 144, label: 'Menuetto da capo', m: 'A′', mNote: 'da capo: the Menuetto returns after the Trio' },
+    { t: 150, label: 'Menuetto da capo', m: 'A′', mNote: 'da capo: the Menuetto returns after the Trio' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'Without a pause', text: 'The Menuetto follows the Adagio’s final held G without a break, a bold move Shulman calls telescoping the two central movements into one. The key turns back to C major; the marking is Menuetto, Allegretto.', basis: 'documented', precision: 'passage', evidence: 'Shulman’s note describes the movement as following the Adagio without pause; the score (IMSLP #05812, p. 191) is headed Menuetto, Allegretto, in C major with no flats. The report reads C major at 0:00–0:10 (r 0.87–0.90); this file starts at its own beginning, so the join to the Adagio is not in the audio.' },
@@ -27,7 +27,7 @@ export default {
     { t: 90, kind: 'form', title: 'The Trio turns to C minor', text: 'The Menuetto ends with rising scales in all four parts, a crescendo to fortissimo and a final chord, marked Fine. Then the Trio begins in C minor, as in the Adagio, with Shulman’s “unison melody” and tense augmented chords.', basis: 'audio-feature', precision: 'moment', evidence: 'The strongest boundary in the report is 1:30 (novelty 1.00), with the local key moving to C minor (r 0.59–0.67) at 1:35–1:50. The score shows rising scales with crescendo and ff, then Fine, then a change to three flats and Trio; Shulman describes the Trio’s unison melody and augmented chords.' },
     { t: 110, kind: 'world', title: 'Not the first time', text: 'Playing the Menuetto and slow movement as one is unusual but not new in Haydn’s quartets: Shulman points to an earlier example in Op. 20 No. 2. The Trio’s C minor and some of its musical material also tie it back to the Adagio.', basis: 'documented', precision: 'passage', evidence: 'Shulman’s programme note (https://pac.uga.edu/wp-content/uploads/2022/05/Schumann-Quartet-program-pages.pdf) cites Op. 20 No. 2 as the precedent and says the Trio’s material is subtly linked to the Adagio.' },
     { t: 124, kind: 'music', title: 'Swell and fade, in pairs', text: 'In the second half of the Trio the score pairs forte with piano: each loud chord is followed by a fade. Listen for that rhythm of strike and fade, now in C minor, now touching G.', basis: 'audio-feature', precision: 'passage', evidence: 'Local key reads C minor at 2:05–2:25 (r 0.71–0.86) with G major at 1:55–2:00 and 2:25; boundaries at 1:52 (0.93) and 2:04 (0.56). The score’s f and p marks with fading hairpins in the Trio’s second part (IMSLP #05812, p. 192) support the description; bars are not aligned.' },
-    { t: 144, kind: 'form', title: 'Da capo', text: 'Around 2:24 the Menuetto begins again, as the direction Menuetto D.C. at the end of the Trio requires. This time the quartet plays it through without the repeats: it lasts about a minute, against the minute and a half of its first appearance.', basis: 'audio-feature', precision: 'passage', evidence: 'A recurrence analysis matches 9.5–53.0 s with 153.5–197.0 s (offset 144 s, similarity 0.95, no transposition); boundaries at 2:22 (0.47) and 2:30 (0.93); the score ends the Trio with Menuetto D.C. The first bar of the return is not aligned.' },
+    { t: 150, kind: 'form', title: 'Da capo', text: 'At about 2:30 the Menuetto begins again, as the direction Menuetto D.C. at the end of the Trio requires. The quartet plays it through without the repeats, so the return lasts about fifty seconds, against about ninety for its first appearance.', basis: 'audio-feature', precision: 'passage', evidence: 'A boundary at 2:30 (novelty 0.93) with a second at 2:34 (0.95), and a local key of C major at 2:30–2:35 after the Trio’s C minor; a Trio path in the recurrence analysis runs to about 149.5 s. The recurrence lag of 144 s between 9.5–53.0 s and 153.5–197.0 s relates two excerpts and is not itself the onset of the return. The score ends the Trio with Menuetto D.C.; the first bar is not aligned.' },
     { t: 186, kind: 'listen', title: 'A slow finale to come', text: 'The quartet’s last movement will not be the brisk, witty finale of convention: Shulman notes that Haydn opens it with another Adagio, and the music turns back to the Adagio’s gravity once more.', basis: 'documented', precision: 'passage', evidence: 'Shulman’s note describes the finale as “another Adagio” varied by a Presto middle section. The recording ends near 3:20 (−15.6 dB at 3:15); this cue looks ahead to the next movement rather than describing sound at 3:06.' },
   ],
   transitions: [
@@ -49,23 +49,23 @@ export default {
       title: 'The Trio hands back to the Menuetto',
       from: 'Trio',
       to: 'Menuetto da capo',
-      at: { t: 144 },
-      span: [132, 158],
+      at: { t: 150 },
+      span: [138, 164],
       how: '<p>The Trio’s second part ends in C minor, and the score’s direction Menuetto D.C. sends the players back to the beginning. The key signature returns to C major with no flats, so the opening Allegretto is restored without any transition passage: the join is a change of mode and a change of character, from the Trio’s serious C minor to the Menuetto’s dance. The Menuetto ends at its Fine.</p>',
       devices: ['direct modulation', 'motivic link'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'A recurrence analysis places the return near 144 s (opening material at 9.5–53.0 s recurs at 153.5–197.0 s); boundaries at 2:22 (0.47) and 2:30 (0.93), with C major at 2:30–2:35. The score shows Menuetto D.C. at the end of the Trio and the C major key signature at the top of the Menuetto; the exact bar is not aligned.',
+      evidence: 'The report has boundaries at 2:30 (0.93) and 2:34 (0.95) with C major at 2:30–2:35, after a Trio path in the recurrence analysis that runs to about 149.5 s; the 144 s lag between 9.5–53.0 s and 153.5–197.0 s is a lag between excerpts, not the onset of the return. The score shows Menuetto D.C. at the end of the Trio and the C major key signature at the top of the Menuetto; the exact bar is not aligned.',
     },
   ],
   orchestra: {
     ensemble: ['violins-1', 'violins-2', 'violas', 'cellos'],
     basis: 'score-proportion',
-    source: { title: 'Haydn, String Quartet in C major, Op. 54 No. 2, score (Leipzig: Eulenburg, ed. Wilhelm Altmann)', url: 'https://imslp.org/wiki/String_Quartet_in_C_major,_Hob.III:57_(Haydn,_Joseph)', locator: 'IMSLP #05812, III. Menuetto and Trio, printed pp. 191–192; times follow the boundary at 1:30 and the recurrence analysis at 144 s and are approximate.' },
+    source: { title: 'Haydn, String Quartet in C major, Op. 54 No. 2, score (Leipzig: Eulenburg, ed. Wilhelm Altmann)', url: 'https://imslp.org/wiki/String_Quartet_in_C_major,_Hob.III:57_(Haydn,_Joseph)', locator: 'IMSLP #05812, III. Menuetto and Trio, printed pp. 191–192; times follow the boundaries at 1:30 and 2:30 and are approximate.' },
     timeline: [
       { t: 0, playing: ['violins-1', 'violins-2', 'violas', 'cellos'], lead: ['violins-1'], note: 'Menuetto: the first violin carries the tune with accompanying chords below.' },
       { t: 90, playing: ['violins-1', 'violins-2', 'violas', 'cellos'], note: 'Trio: all four play the melody in unison.' },
-      { t: 144, playing: ['violins-1', 'violins-2', 'violas', 'cellos'], lead: ['violins-1'], note: 'Da capo: the Menuetto begins again.' },
+      { t: 150, playing: ['violins-1', 'violins-2', 'violas', 'cellos'], lead: ['violins-1'], note: 'Da capo: the Menuetto begins again.' },
     ],
   },
 };

@@ -1,27 +1,6 @@
 {
-  "id": "ravel-miroirs-vallee-des-cloches",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[2]",
-      "severity": "minor",
-      "problem": "The unqualified description of Delage as Ravel’s only pupil is misleading. Although the cited programme note says this, Ravel also taught musicians including Vaughan Williams and Rosenthal. No period-specific exclusivity is established here.",
-      "evidence": "https://en.wikipedia.org/wiki/Maurice_Ravel — teaching paragraphs name Vaughan Williams and Manuel Rosenthal; https://www.parlancechamberconcerts.org/individual-program-notes/maurice-ravel-(1875-1937)/the-valley-of-the-bells-for-piano is the source of the overstatement.",
-      "fix": "Use ‘his pupil’ or ‘his pupil and friend’, deleting ‘only’ and the corresponding evidence assertion. Leave the dedication and letter facts unchanged."
-    },
-    {
-      "where": "cues[8]",
-      "severity": "minor",
-      "problem": "‘A better pianist played some of the set’ can be read as referring to Miroirs, the set being heard. Fyr’s paragraph 30 instead describes a collection of Duo-Art rolls of five Ravel works; it does not establish substitution on several Miroirs movements.",
-      "evidence": "https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.fyr.html — paragraph 30 distinguishes the collection of five works, Ravel’s admission about some pieces, and uncertainty over this particular roll.",
-      "fix": "Specify ‘some of his piano-roll recordings’ or ‘some pieces in that roll collection’, not ‘some of the set’. Preserve the uncertainty over the player of La vallée des cloches."
-    },
-    {
-      "where": "transitions[3].how",
-      "severity": "minor",
-      "problem": "The join still says the first low rolled chord occurs ‘a bar later’, although the score has two bars of returning sextuplets before that first mf rolled attack. Cue 250 has already been appropriately broadened to ‘within a few bars’.",
-      "evidence": "https://commons.wikimedia.org/wiki/File:IMSLP02693-Ravel-Miroirs_DemetsEd.pdf — scan p. 48, systems 2–3: first returning sextuplet bar, another sextuplet bar, then the mf rolled chord. Fyr paragraph 22 identifies that rolled attack in bar 50.",
-      "fix": "Say ‘two bars later’, or use the cue’s passage-level ‘within a few bars’. Do not retain the one-bar claim."
-    }
-  ]
+ "id": "ravel-miroirs-vallee-des-cloches",
+ "verdict": "pass",
+ "defects": [],
+ "note": "Re-review by the lead (VerD unavailable): all three minor defects verified repaired on disk (cue at 38 s 'his pupil and friend'; cue at 186 s 'some pieces in that roll collection'; transition calm-to-carillon timing wording); files validate."
 }

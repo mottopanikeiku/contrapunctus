@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-15/Chop-28-15-lys.zip",
         "file": "Chop-28-15-lys.zip",
-        "sha256": null
+        "sha256": "66ab25a554d012e56b419519fdbef092b12a87b34ada28cd720f97599bff4ed7"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-15/Chop-28-15.mid",
         "file": "Chop-28-15.mid",
-        "sha256": null
+        "sha256": "bb9532e59bee378a42f0c53b64bf223ba4d6e261e00c1e2efb3ed8e023833bd9"
       }
     ]
   },

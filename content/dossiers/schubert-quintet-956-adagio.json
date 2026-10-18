@@ -1,0 +1,232 @@
+{
+  "id": "schubert-quintet-956-adagio",
+  "work": {
+    "title": "String Quintet in C major",
+    "catalogue": "D. 956 (Op. 163)",
+    "movement": "II. Adagio",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "discogs"
+      ],
+      "note": "The performing edition is not identified. The Internet Archive file names print the posthumous opus number 163 for the work, which Schubert’s catalogue gives as D. 956."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Isaac Stern",
+        "role": "violin"
+      },
+      {
+        "name": "Alexander Schneider",
+        "role": "violin"
+      },
+      {
+        "name": "Milton Katims",
+        "role": "viola"
+      },
+      {
+        "name": "Pablo Casals",
+        "role": "cello"
+      },
+      {
+        "name": "Paul Tortelier",
+        "role": "cello"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "substack"
+    ],
+    "note": "The Internet Archive item lists these five performers as creators; the Substack essay assigns the roles and calls the recording a Columbia release made at the Prades Festival. Which cellist plays the first cello part and which the second is not stated in any source consulted."
+  },
+  "session": {
+    "date": {
+      "value": "July 1952",
+      "status": "inferred",
+      "sourceIds": [
+        "substack",
+        "discogs"
+      ],
+      "note": "One secondary source (the Substack essay) says the recording was made by Columbia Records in July 1952 at the Prades Festival; the Discogs master release says “Recorded at Prades Festival, 1952” and a 6moons review also gives 1952. The day is not stated and the month rests on a single non-specialist source.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Prades, France (Prades Festival); the venue within Prades is not identified",
+      "status": "documented",
+      "sourceIds": [
+        "substack",
+        "discogs",
+        "sixmoons"
+      ],
+      "note": "Substack says the recording was made in Prades, France during the Prades Festival; Discogs and 6moons say it was recorded at the Prades Festival in 1952."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The label is the item’s publisher metadata and the title shown on its page."
+    },
+    "catalogue": {
+      "value": "ML 4714 / SL-183, Casals Festival at Prades, Third Series",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Internet Archive item page prints “Columbia Masterworks (ML 4714 / SL-183)” with publication date 1953. A 1976 CBS Classics reissue (61043) and a Philips issue (A 01188 L) are listed on Discogs and are not this carrier."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, second track of the LP (file 01.02 on the Internet Archive); matrix and take numbers are not established",
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Internet Archive file for the Adagio is a derivative linked to a segments file, so the cut between the first movement and the Adagio is the Internet Archive’s. No matrix or take numbers appear in the sources consulted."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Internet Archive item names the contributor “Internet Archive” and the scanning centre “cebu”, and lists the item in several vinyl collections, including the Boston Public Library’s. Which physical copy was digitised is not established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No transfer date is identified. The item’s public date is 24 November 2020 and its added date 4 January 2021, which are upload dates."
+    },
+    "processing": {
+      "value": "LP digitised by the Internet Archive; the Adagio file is an MP3 derivative of the side",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The stylus, cartridge, equalisation and noise treatment are not documented; the recording’s playing speed has not been checked."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne/disc1/01.02.%20Quintet%20In%20C%20Major%2C%20Op.%20163%3A%20Second%20Movement%3A%20Adagio.mp3",
+    "sourceChain": [
+      "archive"
+    ],
+    "format": "MP3 derivative supplied by the Internet Archive",
+    "durationSeconds": 794.23
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Schubert died in 1828. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "discogs",
+        "eu-audio",
+        "eu-extension"
+      ],
+      "note": "The Internet Archive item gives publication date 1953 and the Discogs master release gives the year 1953, so the 50-year European term expired before the 2013 extension. The item carries no licence statement; no US public-domain basis is claimed, and the 1953 date is not independently verified against a label image.",
+      "alternatives": [
+        {
+          "value": "Pre-1963 European public domain — territorial basis, publication 1953.",
+          "sourceIds": [
+            "archive",
+            "discogs",
+            "eu-audio",
+            "eu-extension"
+          ]
+        },
+        {
+          "value": "No licence or rights statement on the Internet Archive item.",
+          "sourceIds": [
+            "archive"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Franz Schubert, String Quintet in C major, D. 956, II. Adagio; Isaac Stern and Alexander Schneider, violins, Milton Katims, viola, Pablo Casals and Paul Tortelier, cellos; Prades Festival, 1952. Columbia Masterworks ML 4714 / SL-183, 1953; Internet Archive LP digitisation. Public domain in the EU only (pre-1963 publication); no worldwide recording clearance is asserted.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Casals Festival At Prades, Third Series: Quintet In C Major — opus 163",
+      "url": "https://archive.org/details/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne",
+      "locator": "Item page and metadata: creators Schubert, Stern, Schneider, Katims, Casals and Tortelier; publisher Columbia Masterworks (ML 4714 / SL-183); publication date 1953; source Vinyl LP; file disc1/01.02 “Second Movement: Adagio” 794.23 s; no licence URL. Metadata read at https://archive.org/metadata/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs — Casals Festival At Prades, Third Series: Quintet In C Major — opus 163 (master release)",
+      "url": "https://www.discogs.com/master/760597",
+      "locator": "Master release: year 1953; note “Recorded at Prades Festival, 1952.” Related releases listed: Philips A 01188 L and CBS Classics 61043 (1976, ℗ 1953).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "substack",
+      "title": "John Buxton — Building a Collection #24: Schubert’s String Quintet in C major",
+      "url": "https://classicalguy.substack.com/p/building-a-collection-24-schuberts",
+      "locator": "“The Essential Recording”: recorded by Columbia Records in July 1952 in Prades, France during the Prades Festival; players Stern (then 32), Schneider, Katims, Tortelier and Casals; Casals’s grunting audible in several places; quotes Jonathan Blumhofer’s programme note.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sixmoons",
+      "title": "6moons — Casals & friends play Schubert’s String Quintet in C Major D956",
+      "url": "https://6moons.com/worldmusic/casals.html",
+      "locator": "Review of the Sony Classical Casals Edition CD: the quintet “was recorded at the Prades festival in 1952”, with Stern, Schneider, Casals, Tortelier and Katims.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Wikipedia — Franz Schubert",
+      "url": "https://en.wikipedia.org/wiki/Franz_Schubert",
+      "locator": "Lead paragraph: 31 January 1797 – 19 November 1828.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights; the underlying composition requires a separate basis; territorial.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

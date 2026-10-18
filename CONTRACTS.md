@@ -220,7 +220,7 @@ checking; schema validation does not establish either.
 ### Search and recording exports
 
 `docs/assets/search.json` is a prebuilt inverted index, loaded only when search
-opens: `{ v, size, w, p, b }`. `w` is a sorted vocabulary of whitespace-delimited,
+opens: `{ v, previous?, size, w, p, b }`. `w` is a sorted vocabulary of whitespace-delimited,
 accent-folded tokens. Each string starts with a code point minus 32 giving the
 shared-prefix length with the previous word, followed by the remaining suffix.
 `p[i]` holds the word's ascending document postings: each code point minus 32 is
@@ -228,12 +228,20 @@ shared-prefix length with the previous word, followed by the remaining suffix.
 `b` holds the original composer/recording ranking boosts. The client retains
 the existing title-prefix, word-prefix and arbitrary-substring scores and stable
 tie order; it does not replace substring search with a narrower word search.
+This index is not display text: font subsetting must exclude its packed `w`/`p`
+code points. Search display strings come from the row shards and indexed pages,
+not from the encoded vocabulary/postings file.
 
-Display rows live in `assets/search/<shard>.json`, arrays of
+Display rows live in `assets/search/<v>/<shard>.json`, arrays of
 `[type, title, sub, url]`, with `size` rows per shard (currently 16).
-Only shards containing the first 24 results are requested, with `?v=<v>`;
-`v` hashes the complete source entries. The shell caches the index and shard
-promises across navigation, and ignores results from superseded queries.
+Only shards containing the first 24 results are requested. `v` hashes the complete
+source entries; immutable paths prevent an open tab from combining an old index
+with newly numbered display rows after deployment. The build writes all shards
+before publishing the index pointer and retains the current and previous generation.
+The optional `previous` hash preserves that retained generation across unchanged rebuilds.
+If an older generation is no longer available, the next search input refreshes
+the index rather than displaying unrelated rows. The shell caches index and shard
+promises across navigation and ignores results from superseded queries.
 Work, lesson and gallery URLs have generated anchors; recordings target `hall.html#<id>`.
 The index also covers glossary aliases, paintings and poems, Return Lab pages,
 and influence batches when present. Influence URLs are
@@ -270,10 +278,19 @@ The router coalesces hover/focus/touch prefetches with clicks, bounds its HTML c
 to eight entries/four MB/ten minutes, and keeps inactive parsed stylesheets with
 `media="not all"` for return navigation. Relative stylesheet URLs are made absolute
 before history changes. Only the page body outside `#cp-persist` is replaced.
+Page modules read their version from the literal `data-<module-name>` attribute,
+including hyphenated names such as `data-atlas-map`, with the site version as fallback.
+Mount selectors using those same data attributes must search the body subtree,
+so HTML version metadata cannot be mistaken for a page's UI root.
 Hall drawing follows requestAnimationFrame while visible; inactive views, hidden
 tabs and settled paused views do not keep drawing. Timeline waveforms and cue
 colours are cached until the track/envelope/size changes. Unchanged readouts,
 wheel data and orchestra styles do not trigger repeated DOM/canvas updates.
+The initially empty Hall view row invisibly reserves its actual tab line-height;
+populating it does not change the settled tab geometry.
+For an authored backdrop-filter pair, keep `-webkit-backdrop-filter` before
+the identical unprefixed declaration. The standard property must remain last
+so CSS minification does not leave Chrome with only the prefixed spelling.
 
 `node tools/perf-preview.mjs 8768` serves the current build locally with gzip and
 GitHub Pages' 600-second cache lifetime for browser transfer accounting.
@@ -383,8 +400,9 @@ reader for this index.
 (`YYYY`, `YYYY-MM`, or `YYYY-MM-DD`), `kind`, `what`, optional `work`,
 `status` (`documented`, `inferred`, `disputed`), and `sources: [{ title, url }]`.
 Kinds are `born`, `childhood`, `studied`, `lived`, `worked`, `travelled`,
-`premiere`, `heard`, `exile`, `died`, and `buried`. Omitted `to` means a
-point event, not an open-ended residence. Missing composer files are allowed.
+`premiere`, `heard`, `exile`, `died`, and `buried`. Omitted `to` is a point
+event in authored evidence. Residence carry-forward is a separate, explicitly
+labelled model; it never rewrites source dates. Missing composer files are allowed.
 
 `node tools/geo/prepare.mjs` caches the three public-domain Natural Earth
 1:50m layers once, pinned to the revision and SHA-256 provenance in
@@ -394,27 +412,39 @@ via the preparation module. Present-day outlines are orientation aids,
 not historical borders.
 
 The build writes `assets/data/geo/base.json` (projected SVG paths),
-`index.json` (compact chronology, bounded annual portrait callouts, city
-groups and documented date overlaps), and `<slug>.json` (full sourced
+`index.json` (compact annual primary locations, city groups, dated events,
+residence-derived intervals and classified overlaps), and `<slug>.json` (full sourced
 place records, exact projected coordinates, primary-region bounds, overseas
 insets, published recordings and placed influence links, fetched only on focus).
 `<slug>.svg` is the static chapter map. `placesSection(ctx, slug, add)` is the sole composer-page hook.
 `atlas-map.html#c-<slug>` focuses a life; `?year=1805` selects the year.
+Annual frames store `[composerIndex, placeIndex, dead, withinAuthoredDateRange]`.
+`cities[].visits` contains dated evidence; `cities[].residents` contains
+separately derived primary-residence intervals with their original source dates.
+Pairs carry `basis: "dated" | "residence"`; the card never presents the latter
+as documented attendance.
 
-Cities join coordinates within 7 km of a fixed centre. Encounters intersect
-documented date ranges at their recorded precision; premieres and burials
-do not count as living presence. No last-known location is carried forward
-into an encounter claim. Co-presence does not establish a meeting.
-The annual overview may show a last-recorded residence with a dashed frame.
+Cities join coordinates within 7 km of a fixed centre. The city list and
+encounters use the same primary-place rule as the cameos: birth, childhood,
+study, residence, work and exile records carry forward to the next primary
+residence record or death. Carry-forward is labelled
+“resident (from residence records)”; independently dated events are labelled
+“documented in this year”. Derived intervals and dated evidence remain
+separate, including in encounter labels. Premieres and burials do not establish
+living attendance. Co-presence does not establish a meeting.
 An explicitly dated ongoing professional post takes priority over overlapping
 residences, then other stays; the latest date breaks ties. Seasonal homes stay
 in the route but do not displace a simultaneous post. Gold location dots,
 death crosses and city-number badges are never geographically displaced.
-Portrait callouts have leaders bounded by 34.1 screen pixels at every zoom.
+Individual portrait callouts have leaders bounded by 26 screen pixels.
 The build computes clearance from the simplified coastline; callout radii
 shrink near the coast rather than moving a portrait centre across the sea.
-Cities with more than four living composers collapse to a named count
-medallion, expandable on hover, keyboard focus or click.
+At every zoom, overlapping portrait circles form screen-proximity clusters,
+including across city boundaries. Medallions use the most represented city's
+true centre, adding “area” when the group spans multiple cities. Overlapping
+medallions are merged too. Hover, keyboard focus or click opens a clearly
+labelled portrait-chooser ring; these menu portraits are not map positions.
+Every source location dot stays fixed, and clusters split again when zoom permits.
 Focused routes fit their European places; overseas records use separate,
 labelled-scale insets and dated arrow connectors ending at the inset frame.
 A life with no European record opens in its own recorded region.
@@ -429,6 +459,9 @@ cleans up listeners, requests, resize observation and animation on unmount;
 reduced motion disables premiere flashing and the gold glints that travel
 along journey arcs. The static base and animated overlay are separate SVG
 surfaces, so a moving glint does not repaint the engraved coastline.
+The module mounts on `.atlas-map-page[data-atlas-map]`, never the bare
+attribute selector: the optimiser also puts a `data-atlas-map` asset
+fingerprint on `<html>`.
 
 ## Guided journeys
 

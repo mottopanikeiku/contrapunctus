@@ -8,6 +8,14 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
   "main": "Sym9-lys/Mvt4_conFuoco.ly",
   "midi": "Mvt4_conFuoco.mid",
+  "patches": [
+    {
+      "file": "Sym9-lys/header.ily",
+      "old": "(string? string? ly:dir? ly:music? ly:music?)",
+      "new": "(string? string? ly:dir? ly:pitch? ly:music?)",
+      "basis": "The trCueWhile mc argument is a pitch passed to transposedCueDuring. Modern LilyPond requires ly:pitch?, not the old ly:music? predicate. Only the disposable source is repaired; the same grouped source music is used for extraction and engraving, with exact published pitch/onset multiset proof before sounding-pitch corrections."
+    }
+  ],
   "downloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-lys.zip",

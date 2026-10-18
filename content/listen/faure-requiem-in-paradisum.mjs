@@ -97,7 +97,8 @@ export default {
     timeline: [
       { t: 0, playing: ['organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'chorus'], lead: ['chorus', 'organ'], note: 'The organ’s shimmering broken chords and muted strings accompany the sopranos’ rising line.' },
       { t: 70, playing: ['organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'Divided tenors and basses join on Jerusalem, and the double basses enter pianissimo.' },
-      { t: 100, playing: ['harp', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus', 'harp'], note: 'A harp enters with rising semiquavers under Chorus angelorum and stays to the end.' },
+      { t: 100, playing: ['harp', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'chorus'], lead: ['chorus', 'harp'], note: 'A harp enters with rising semiquavers under Chorus angelorum and stays to the end; the double basses rest.' },
+      { t: 146, playing: ['harp', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'The double basses return near the end of the page for the crescendo into letter E.' },
       { t: 152, playing: ['harp', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'], lead: ['chorus'], note: 'The voices sing requiem in turn, pianissimo; strings hold long notes while organ and harp continue their figures.' },
     ],
   },

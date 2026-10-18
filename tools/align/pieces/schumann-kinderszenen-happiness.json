@@ -25,23 +25,19 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "isolated-voices",
+    "definitions": [
+      { "file": "SchumannOp15No05.ly", "before": "\\score" }
+    ],
+    "staves": ["up", "down"],
+    "global": "\\key d \\major \\time 2/4 \\partial 8",
+    "silent": "s8 s2*24"
   },
   "voices": [
-    {
-      "id": "upper",
-      "name": "Piano — upper staff",
-      "tracks": [
-        1
-      ]
-    },
-    {
-      "id": "lower",
-      "name": "Piano — lower staff",
-      "tracks": [
-        2
-      ]
-    }
+    { "id": "melody", "name": "Piano — written melody", "staff": "up", "music": "\\viola" },
+    { "id": "upper-inner", "name": "Piano — written upper inner voice", "staff": "up", "music": "\\violatwo" },
+    { "id": "bass-upper", "name": "Piano — written upper bass voice", "staff": "down", "music": "\\bassvoices" },
+    { "id": "bass-lower", "name": "Piano — written lower bass voice", "staff": "down", "music": "\\bassvoicestwo" }
   ],
   "bars": {
     "first": 0,
@@ -120,7 +116,8 @@
     "height": 297
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "EXT: All four unchanged sounding Liu piano voices are extracted separately; these are notation identities, not recovered recorded hands. MEAS: 497 canonical voice events / 404 distinct pitch-onset pairs versus legacy 402/402 comprise 93 coincident voice-unisons and two genuinely missing A2 quarter attacks at q7.5/q23.5 (bars 4/12; bassvoices a4, source lines 208/216) beneath bassvoicestwo A2 ties starting q6/q22 (lines 245–246/254–255). Both independent attacks and held voices are retained.",
+    "MEAS: Two A1 grace onsets relocate from q8.3697917/q24.3697917 to q8.3854167/q24.3854167 under modern LilyPond; they are not new main notes. Eleven shared-note duration differences are written-staccato playback policy, and two are grace-adjacent tie gates. Those A2 ties have written spans of 2.5Q; rendered MIDI gates are 2.3854167Q because the following grace steals time. These realizations do not establish measured recording key releases. No source pitch, repeat or written rest is removed; recording edition remains provisional.",
     "Read content/listen/schumann-kinderszenen-happiness.mjs and cache/analysis/schumann-kinderszenen-happiness.txt. Harmonic trajectories suggest A0–28, B28–46, A46–68, B68–90; these are coarse, not forced alignment anchors.",
     "Opened Henle critical notes p299, https://www.henle.de/media/05/bf/e6/1690899698/9924-1690899698-sync.pdf: FE2 writes repeats out; the D.C. at16 may be a manuscript remnant. This documents edition/order ambiguity, not proof of Betts's choice. The proposed return is subject to pitch/order inspection.",
     "DCML reference harmony https://raw.githubusercontent.com/DCMLab/schumann_kinderszenen/main/harmonies/n05.harmonies.tsv confirms the borrowed F-major region (local bIII of D); no reference-corpus notes or harmony labels are copied into this Mutopia-derived score."

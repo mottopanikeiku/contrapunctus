@@ -548,7 +548,9 @@
       247.64
     ]
   ],
-  "sourceChecks": {},
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note tie emission"
+  },
   "endpointMeasurements": [
     {
       "label": "first",
@@ -590,7 +592,7 @@
     "Median unique-onset deviation exceeds 0.15 seconds.",
     "A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds."
   ],
-  "elapsedSeconds": 13.636018093966413,
+  "elapsedSeconds": 1.0908815640141256,
   "dtwSteps": [
     [
       1,
@@ -707,9 +709,14 @@
       "Both primary-median and anchor gates reject this candidate.",
       "The 224–232-second weakest harmonic window has mean cosine 0.3231253 and a long path plateau; the image does not establish reliable local score-to-recording correspondence.",
       "The final notated chord spans 247.676748–252.1 seconds; the noise-tainted decay is not a measured key release."
-    ]
+    ],
+    "converterRefresh": "Candidate rerun after the mandatory general per-note-tie converter update; source inventory remains1637/1637 regular attacks plus2graces, fresh endpoint/held/worst overlays inspected; timing metrics and withholding unchanged."
   },
   "commandsRun": [
     "node tools/score.mjs schubert-winterreise-lindenbaum"
-  ]
+  ],
+  "withholdingReview": {
+    "reviewer": "VerS",
+    "decision": "Agrees that mandatory primary-median and final-anchor failures require withholding; not an instrumental or aural certification."
+  }
 }

@@ -2,7 +2,7 @@
   "uniqueScoreAttacks": 282,
   "audioDetectedOnsets": 197,
   "medianAbsoluteOnsetDeviation": 0.041304885590594864,
-  "noteWeightedMedianDeviation": 0.03524994846424079,
+  "noteWeightedMedianDeviation": 0.03416769738197445,
   "p95AbsoluteOnsetDeviation": 0.43678741496599227,
   "fractionWithin150ms": 0.6950354609929078,
   "regions": [
@@ -114,7 +114,7 @@
       "p95": 0.5196843434343426,
       "max": 0.6732704596989976,
       "adaptiveMedian": 0.03493635332920775,
-      "adaptiveP95": 0.08032495877134657
+      "adaptiveP95": 0.08769215110282212
     },
     {
       "start": 88.0,
@@ -254,11 +254,11 @@
   "worstFiveHarmonicRegions": [
     {
       "start": 48.0,
-      "meanCosine": 0.7606505545585909
+      "meanCosine": 0.7541589269837129
     },
     {
       "start": 56.0,
-      "meanCosine": 0.7821286747105004
+      "meanCosine": 0.7822141971903261
     },
     {
       "start": 0.0,
@@ -266,11 +266,11 @@
     },
     {
       "start": 8.0,
-      "meanCosine": 0.8053912772423377
+      "meanCosine": 0.8062700017954724
     },
     {
       "start": 104.0,
-      "meanCosine": 0.8075287084773576
+      "meanCosine": 0.8104144079746372
     }
   ],
   "sections": [
@@ -283,19 +283,19 @@
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
-      "bar": "16",
+      "bar": "15",
       "occ": 1,
-      "editorial": 55,
-      "aligned": 55.91727272727274,
-      "difference": 0.9172727272727386,
+      "editorial": 54,
+      "aligned": 53.46000000000001,
+      "difference": -0.539999999999992,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
       "bar": "9",
       "occ": 2,
-      "editorial": 73,
+      "editorial": 72,
       "aligned": 72.41272727272734,
-      "difference": -0.5872727272726621,
+      "difference": 0.4127272727273379,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     }
   ],
@@ -330,7 +330,7 @@
       "bar": "22",
       "occ": 2,
       "midi": 67,
-      "voice": "upper",
+      "voice": "lower-inner",
       "durationQ": 0.3333333333333333,
       "onset": 109.08227272727272,
       "offset": 111.17999999999994,
@@ -362,7 +362,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.2195454545454396,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.8234685373105212,
+  "meanPathChromaCosine": 0.8232720650577653,
   "endAnchor": {
     "scoreQ": 88.0,
     "audioSeconds": 111.18000000000008,
@@ -381,8 +381,10 @@
     "mido": "1.3.3"
   },
   "scoreProvenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/schumann-kinderszenen-foreign-lands.mjs and cache/analysis/schumann-kinderszenen-foreign-lands.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Four explicitly named source voices are compiled separately, including the cross-staff triplet line; these are written voice identities, not recovered hands or aural separation. EXT: Leichte Stücke, 1900. The recording's exact edition and expressive articulation remain provisional.",
+    "Read content/listen/schumann-kinderszenen-foreign-lands.mjs and cache/analysis/schumann-kinderszenen-foreign-lands.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Engraving only: replace the source's skip-only repeattr with the same 44-quarter control span and explicit already-encoded repeat signs at q0, q16 and q44. Every original pitched variable, dynamics and pedal voice remains unchanged; immutable source bytes are untouched.",
+    "The legacy published MIDI omits the visible oboes G3 triplet reattacks at source q10 and q38 (bars 6 and 20), while bassvoicestwo sustains tied G3 from q9/q37. A modern merged-staff compile has 224 attacks versus the legacy 222; these are genuine additional attacks, not coincident-onset duplicates. Separate source-voice extraction preserves both the reattacks and the longer ties. No exact legacy-MIDI identity is claimed."
   ],
   "sectionAnchorPairsSeconds": [
     [
@@ -390,12 +392,12 @@
       36.0
     ],
     [
-      56.84,
-      55.0
+      55.84,
+      54.0
     ],
     [
-      76.08,
-      73.0
+      75.16,
+      72.0
     ],
     [
       110.34045454545455,
@@ -438,7 +440,7 @@
   "adaptiveOnsetCount": 296,
   "adaptiveMedianDeviation": 0.04123995052566087,
   "gateReasons": [],
-  "elapsedSeconds": 0.4151453779777512,
+  "elapsedSeconds": 0.39418557001044974,
   "dtwSteps": [
     [
       1,
@@ -460,11 +462,11 @@
   ],
   "counts": {
     "bars": 44,
-    "notes": 444,
-    "voices": 2
+    "notes": 480,
+    "voices": 4
   },
   "published": true,
-  "configSha256": "5eb948eccae85869e93b735e1dc366258dd2b8a49a5c606ec7ba9d1ead52a7b8",
+  "configSha256": "40961bb25d2d31d4682c73929369f428ffd64f2edc09786949ca4f7a4886f0f6",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.ly",
@@ -478,9 +480,22 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "bdc2cbf9e87d2047ee934eea597e30c561ca8d57296bc9a98c1a4e4eeb43a200",
+    "candidateSha256": "aeaf44465a4e8fb18835168cca4ef29c72ab013d61befc8a9518eee896baba4f",
+    "byteIdentical": false,
+    "sameNoteIdentities": false,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": null,
+      "noteDurationSeconds": null,
+      "barSeconds": 0.020000000000010232
+    },
+    "metadataFieldsChanged": [
+      "voices"
+    ],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/schumann-kinderszenen-foreign-lands-0-8.52.png",

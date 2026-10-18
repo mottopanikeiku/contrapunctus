@@ -1,0 +1,24 @@
+{
+  "mutopia": 937,
+  "title": "Appassionata, Op.57 — Allegro ma non troppo — Presto",
+  "edition": "Breitkopf & Hartel (1862-1865)",
+  "encoder": "Stelios Samelis",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=937",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "LVB_Sonate_57_3.ly",
+  "midi": "LVB_Sonate_57_3.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_3/LVB_Sonate_57_3-lys.zip",
+      "file": "LVB_Sonate_57_3-lys.zip",
+      "sha256": "66836e2e1cbf8209ed6589494ae9fa856604462fc8c87e35966b9799a09787d5"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O57/LVB_Sonate_57_3/LVB_Sonate_57_3.mid",
+      "file": "LVB_Sonate_57_3.mid",
+      "sha256": "cba2978986da83870f6d4a84406a9ed923adebf865f19931d629fde204c388d8"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

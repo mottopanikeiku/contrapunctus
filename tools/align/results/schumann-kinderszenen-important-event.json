@@ -334,7 +334,10 @@
   },
   "scoreProvenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/schumann-kinderszenen-important-event.mjs and cache/analysis/schumann-kinderszenen-important-event.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Read content/listen/schumann-kinderszenen-important-event.mjs and cache/analysis/schumann-kinderszenen-important-event.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "The immutable repeattr already encodes the exact middle-strain repeat boundaries with a count-one volta. Two guarded notation-only compatibility repairs make those suppressed markers visible in LilyPond 2.24; they add no notes or repeat durations. Identical compiled/engraved wrappers and the exact immutable published pitch/onset inventory are required.",
+    "Verified derivative syntax repair in SchumannOp15No06.ly: The immutable source explicitly starts its middle-strain repeat at bar 8, quarter 2, but LilyPond 2.24 suppresses the signs of a count-one repeat. Restore that already-encoded opening marker as a visible repeat barline without unfolding or changing any music.",
+    "Verified derivative syntax repair in SchumannOp15No06.ly: Restore the corresponding already-encoded closing repeat marker at bar 16, quarter 2. The skip durations and all note expressions remain unchanged; the source pitch/onset multiset must match the immutable published MIDI."
   ],
   "sectionAnchorPairsSeconds": [
     [
@@ -350,7 +353,27 @@
       54.4
     ]
   ],
-  "sourceChecks": {},
+  "sourceChecks": {
+    "derivativePatches": [
+      {
+        "file": "SchumannOp15No06.ly",
+        "old": "\\repeat volta 1",
+        "new": "\\bar \".|:\"",
+        "basis": "The immutable source explicitly starts its middle-strain repeat at bar 8, quarter 2, but LilyPond 2.24 suppresses the signs of a count-one repeat. Restore that already-encoded opening marker as a visible repeat barline without unfolding or changing any music."
+      },
+      {
+        "file": "SchumannOp15No06.ly",
+        "old": "s2. s2. s2. s2. s2. s2. s2. s2 } s4",
+        "new": "s2. s2. s2. s2. s2. s2. s2. s2 } \\bar \":|.\" s4",
+        "basis": "Restore the corresponding already-encoded closing repeat marker at bar 16, quarter 2. The skip durations and all note expressions remain unchanged; the source pitch/onset multiset must match the immutable published MIDI."
+      }
+    ],
+    "pitchOnsetInventory": {
+      "kind": "multiset",
+      "matched": true,
+      "count": 440
+    }
+  },
   "endpointMeasurements": [
     {
       "label": "first",
@@ -392,7 +415,7 @@
   "adaptiveOnsetCount": 152,
   "adaptiveMedianDeviation": 0.04474277210884736,
   "gateReasons": [],
-  "elapsedSeconds": 0.6491378049831837,
+  "elapsedSeconds": 0.3032957259565592,
   "dtwSteps": [
     [
       1,
@@ -418,7 +441,7 @@
     "voices": 2
   },
   "published": true,
-  "configSha256": "4bd3e70d6cc8c015a3ecf8197fa847a73bab65971d749162a5cc25d63fecb594",
+  "configSha256": "2a1cc18e26984150593bff5d284b74f938262aaee3c6b8ff93aa2b92c3c68436",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No06/SchumannOp15No06.ly",
@@ -432,9 +455,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "8255dd414e2b866dc9ff119897c543620f44b25af560463485f161675cb6415e",
+    "candidateSha256": "2106dcb1bfae7bca5697f49bc4d0b7eb56e9b6e09379a3ac022a863860913add",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.0,
+      "noteDurationSeconds": 0.0,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": true
   },
   "overlays": [
     "work/schumann-kinderszenen-important-event-0-8.png",

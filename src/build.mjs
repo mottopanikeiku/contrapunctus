@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Static generator: content/*.mjs -> docs/*.html. No dependencies.
-import { mkdir, writeFile, readdir, unlink, readFile } from 'node:fs/promises';
+// Static generator: content/*.mjs -> docs/, followed by cached asset optimisation.
+import { mkdir, writeFile, readdir, unlink, readFile, rm } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
@@ -12,6 +12,8 @@ import { buildReturnLab } from './returnlab.mjs';
 import { buildCompare } from './compare.mjs';
 import { buildAtlasMap, placesSection } from './atlas-map.mjs';
 import { buildJourneys } from './journeys.mjs';
+import { optimize } from '../tools/optimize/index.mjs';
+import { picture } from '../tools/optimize/pictures.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'docs');
@@ -20,6 +22,8 @@ const { eras, composers, pages, site, art, listens: allListens, precursors = [],
 // Publication gate: a recording goes live when it was on the site before the expansion (content/plan/baseline.json)
 // or its independent review passed (content/plan/reviews/<id>.json, verdict "pass"). Everything else waits.
 const baseline = new Set(JSON.parse(await readFile(path.join(ROOT, 'content/plan/baseline.json'), 'utf8').catch(() => '[]')));
+const BASE_SCORES = new Set(['satie-gymnopedie-1', 'beethoven-5-first', 'bach-wtc1-fugue-b-minor', 'schubert-impromptu-gflat']);
+const reviewedScore = (id) => { try { return JSON.parse(readFileSync(path.join(ROOT, 'content/plan/reviews', `score-${id}.json`), 'utf8')).verdict === 'pass'; } catch { return false; } };
 const reviewed = (id) => { try { return JSON.parse(readFileSync(path.join(ROOT, 'content/plan/reviews', `${id}.json`), 'utf8')).verdict === 'pass'; } catch { return false; } };
 const listens = allListens.filter((l) => baseline.has(l.id) || reviewed(l.id));
 const held = allListens.filter((l) => !baseline.has(l.id) && !reviewed(l.id)).map((l) => l.id);
@@ -188,13 +192,10 @@ function artInfo(file, ctx) {
   return info;
 }
 
-function img(ctx, file, alt, { cls = '', sizes = '(max-width: 860px) 100vw, 50vw', eager = false, thumb = false } = {}) {
-  const i = artInfo(file, ctx);
-  if (!i) return `<div class="missing-img" style="aspect-ratio:4/3;background:var(--paper-3)"></div>`;
-  const renditions = [480, 960].filter((w) => w < i.w && existsSync(path.join(OUT, i.src.replace(/\.webp$/, `-${w}.webp`)))).map((w) => ({ src: i.src.replace(/\.webp$/, `-${w}.webp`), w }));
-  const src = thumb ? renditions[0]?.src ?? i.src : i.src;
-  const srcset = [...renditions, { src: i.src, w: i.w }].map((r) => `${ctx.base}${r.src} ${r.w}w`).join(', ');
-  return `<img src="${ctx.base}${src}" srcset="${srcset}" width="${i.w}" height="${i.h}" alt="${attr(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy" decoding="async"'}${cls ? ` class="${cls}"` : ''} sizes="${sizes}">`;
+function img(ctx, file, alt, options = {}) {
+  const image = artInfo(file, ctx);
+  if (!image) return `<div class="missing-img" style="aspect-ratio:4/3;background:var(--paper-3)"></div>`;
+  return picture(image, ctx.base, alt, options);
 }
 
 const staffRule = (cls = '') => `<svg class="staff-rule ${cls}" viewBox="0 0 1000 34" preserveAspectRatio="none" aria-hidden="true">${[5, 11, 17, 23, 29].map((y) => `<line x1="0" x2="1000" y1="${y}" y2="${y}" stroke="currentColor" stroke-width="1" vector-effect="non-scaling-stroke"/>`).join('')}<line x1="994" x2="994" y1="5" y2="29" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-width="1"/><line x1="999" x2="999" y1="5" y2="29" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-width="3"/></svg>`;
@@ -230,8 +231,7 @@ function scores(ctx, list = []) {
 <figcaption>${rich(ctx, s.caption ?? esc(s.title))}</figcaption></figure>`).join('\n');
 }
 
-const fonts = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Cormorant+SC:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Music&display=swap" rel="stylesheet">`;
+const fonts = '<!--cp-fonts-->'; // The optimiser injects local subsets after scanning the complete site.
 
 const NAV = [
   ['hall', 'The Hall', 'hall.html'],
@@ -331,7 +331,7 @@ const chip = (ctx, s) => {
 
 // ---------------------------------------------------------------- pages
 function listenLinks(c) {
-  const mine = listens.filter((l) => l.composer === c.slug).sort((a, b) => (a.order ?? 1) - (b.order ?? 1));
+  const mine = listens.filter((l) => l.composer === c.slug && l.concert !== false).sort((a, b) => setPos(a) - setPos(b) || (a.set?.part ?? 0) - (b.set?.part ?? 0) || (a.order ?? 1) - (b.order ?? 1));
   if (!mine.length) return '';
   return `<div class="listen-links"><span class="sc">Hear it in the Concert Hall</span>${mine.map((l) => `<a href="../hall.html#${l.id}"><span class="play-dot" aria-hidden="true"></span>${esc(l.work)}${l.movement ? ` · ${esc(l.movement)}` : ''}</a>`).join('')}</div>`;
 }
@@ -629,16 +629,22 @@ async function writeSearchIndex() {
   }
   const v = createHash('md5').update(JSON.stringify(entries)).digest('hex').slice(0, 8);
   const b = entries.map((e) => e.type === 'composer' ? 2 : e.type === 'recording' ? 1 : 0);
-  await emit('assets/search.json', JSON.stringify({ v, size, w, p, b }));
-  const dir = path.join(OUT, 'assets/search');
+  const previousIndex = await readJsonOr(path.join(OUT, 'assets/search.json'));
+  const previousVersion = previousIndex?.v === v ? previousIndex.previous : previousIndex?.v;
+  const root = path.join(OUT, 'assets/search'), dir = path.join(root, v);
   await mkdir(dir, { recursive: true });
-  const keep = new Set();
   for (let i = 0; i < entries.length; i += size) {
     const name = `${i / size}.json`;
-    keep.add(name);
     await writeFile(path.join(dir, name), JSON.stringify(entries.slice(i, i + size).map((e) => [e.type, e.title, e.sub, e.url])));
   }
-  for (const name of await readdir(dir)) if (/^\d+\.json$/.test(name) && !keep.has(name)) await unlink(path.join(dir, name));
+  // Publish the pointer only after every immutable shard is available. Retain one
+  // previous generation for open tabs, without accumulating every development build.
+  await emit('assets/search.json', JSON.stringify({ v, previous: previousVersion, size, w, p, b }));
+  const keep = new Set([v, previousVersion]);
+  for (const entry of await readdir(root, { withFileTypes: true })) {
+    if (entry.isDirectory() && /^[a-f0-9]{8}$/.test(entry.name) && !keep.has(entry.name)) await rm(path.join(root, entry.name), { recursive: true });
+    else if (entry.isFile() && /^\d+\.json$/.test(entry.name)) await unlink(path.join(root, entry.name));
+  }
 }
 
 const fieldValue = (v) => Array.isArray(v) ? v.map(fieldValue).join('; ') : v && typeof v === 'object' ? (v.name ? `${v.name}${v.role ? ` (${v.role})` : ''}` : Object.entries(v).map(([k, x]) => `${k}: ${fieldValue(x)}`).join('; ')) : v == null ? '' : String(v);
@@ -789,8 +795,10 @@ async function programme() {
     const prose = (html) => termify(tctx, `<p>${rich(ctx, html)}</p>`).replace(/^<p>|<\/p>$/g, '');
     const s = streams[sourceKey(l.source)];
     const p = c.portrait.file ? art[normalizeTitle(c.portrait.file)] : null;
-    const score = await readJsonOr(path.join(OUT, 'assets/data', l.id, 'score.json'));
-    const hasSheet = existsSync(path.join(OUT, 'assets/data', l.id, 'sheet/index.json'));
+    // Score alignments are shown only once independently reviewed (the four original alignments predate reviews).
+    const scoreOk = BASE_SCORES.has(l.id) || reviewedScore(l.id);
+    const score = scoreOk ? await readJsonOr(path.join(OUT, 'assets/data', l.id, 'score.json')) : null;
+    const hasSheet = scoreOk && existsSync(path.join(OUT, 'assets/data', l.id, 'sheet/index.json'));
     const barTime = (bar) => {
       if (!bar || !score) return null;
       const b = score.bars.find((x) => x.n === String(bar.n) && x.occ === (bar.occ ?? 1));
@@ -1026,3 +1034,4 @@ for (const dir of ['composers', 'eras']) {
 console.log(`built ${written.size} pages: ${composers.length} composers, ${eras.length} eras, ${Object.keys(pages).length} long pages`);
 console.log(`recordings: ${listens.length} published, ${held.length} awaiting review${held.length ? ` (${held.slice(0, 12).join(', ')}${held.length > 12 ? ', …' : ''})` : ''}`);
 if (warnings.length) { console.log(`\n${warnings.length} warnings:\n  ${[...new Set(warnings)].join('\n  ')}`); }
+await optimize();

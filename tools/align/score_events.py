@@ -61,6 +61,54 @@ def compile_midi(directory, name, music, midi, lilypond):
     return generated.with_suffix('.midi')
 
 
+def crop_notes(notes, extraction):
+    offset = extraction.get('offsetQ', 0)
+    end = extraction.get('endQ')
+    selected = notes[:, 0] >= offset - 1e-8
+    if end is not None:
+        selected &= notes[:, 0] < end - 1e-8
+    notes = notes[selected]
+    if end is not None:
+        notes[:, 1] = np.minimum(notes[:, 1], end - notes[:, 0])
+    notes[:, 0] -= offset
+    return notes
+
+
+def prove_notation(cfg, directory, original, lilypond):
+    extraction = cfg['extraction']
+    ornaments = extraction['notationProof'].get('ornaments', [])
+    if not ornaments:
+        raise ValueError('notationProof needs explicitly documented source ornaments')
+    omitted = Counter()
+    for ornament in ornaments:
+        literal = ornament['source']
+        text = inside(HERE / 'sources' / cfg['id'], literal['file']).read_text()
+        if not literal.get('text') or text.count(literal['text']) != 1:
+            raise ValueError('Notation ornament literal must occur exactly once in the immutable source')
+        if not ornament.get('basis') or not ornament.get('attacks'):
+            raise ValueError('Notation ornaments need a source basis and exact realized attacks')
+        for q, pitch in ornament['attacks']:
+            if int(pitch) != pitch:
+                raise ValueError('Notation ornament pitches must be integer MIDI keys')
+            omitted[(round(float(q), 7), int(pitch))] += 1
+    if omitted - original:
+        raise ValueError('Declared notation ornament attacks are absent from the published MIDI inventory')
+    midi = compile_midi(directory, '__notation', cfg['engraving']['music'],
+                        extraction.get('midiSettings', ''), lilypond)
+    notes, _ = midi_events(midi)
+    notes = crop_notes(notes, extraction)
+    notated = Counter((round(n[0], 7), int(n[2])) for n in notes)
+    expected = original - omitted
+    if notated != expected:
+        raise ValueError('Printed notation inventory differs after the exact ornament allowance: '
+                         f'missing {sum((expected - notated).values())}, extra {sum((notated - expected).values())}')
+    result = {'matched': True, 'publishedAttacks': sum(original.values()),
+              'notatedAttacks': sum(notated.values()), 'realizedOrnamentAttacks': sum(omitted.values()),
+              'ornaments': ornaments}
+    print('NOTATION', cfg['id'], json.dumps(result, ensure_ascii=False), flush=True)
+    return result
+
+
 def extract(ident, lilypond=LILYPOND, directory=None):
     cfg = load(ident)
     directory = directory or prepare(cfg, lilypond)
@@ -69,9 +117,11 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     mode = extraction['mode']
     source_checks = {}
     if cfg['source'].get('musicxml'):
-        source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note tie emission'
-        if cfg['source'].get('musicxmlTieRoutes'):
-            source_checks['musicxmlTieRoutes'] = cfg['source']['musicxmlTieRoutes']
+        source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards'
+        for key in ('musicxmlTieRoutes', 'musicxmlPartialMeasures', 'musicxmlSharedEndingsFrom',
+                    'musicxmlTrillSpans', 'musicxmlInitialGrace', 'musicxmlSingleNoteChordTies'):
+            if cfg['source'].get(key):
+                source_checks[key] = cfg['source'][key]
     if cfg['source'].get('patches'):
         source_checks['derivativePatches'] = cfg['source']['patches']
     if mode == 'isolated-voices':
@@ -118,11 +168,10 @@ def extract(ident, lilypond=LILYPOND, directory=None):
             if int(note[3]) not in mapping:
                 raise ValueError(f'{ident}: unmapped sounding MIDI track {int(note[3])}')
             note[3] = mapping[int(note[3])]
-    offset = extraction.get('offsetQ', 0)
+    notes = crop_notes(notes, extraction)
     if extraction.get('endQ') is not None:
-        notes = notes[notes[:, 0] < extraction['endQ'] - 1e-8]
-    notes = notes[notes[:, 0] >= offset - 1e-8]
-    notes[:, 0] -= offset
+        source_checks['crop'] = {'offsetQ': extraction.get('offsetQ', 0), 'endQ': extraction['endQ'],
+                                 'policy': 'Exclude later attacks and clip sounding durations at the explicit source boundary'}
     for tie in extraction.get('ties', []):
         masks = []
         for key in ('origin', 'continuation'):
@@ -132,13 +181,19 @@ def extract(ident, lilypond=LILYPOND, directory=None):
             if mask.sum() != 1 or notes[mask, 1][0] != row['durationQ']:
                 raise ValueError(f'{ident}: declared cross-voice tie does not match source: {tie}')
             masks.append(mask)
-        if tie['origin']['q'] + tie['origin']['durationQ'] != tie['continuation']['q']:
-            raise ValueError('Cross-voice tie must be contiguous')
-        notes[masks[0], 1] += notes[masks[1], 1][0]
+        gap = tie.get('gapQ', 0)
+        if (gap < 0 or (gap and not tie.get('basis'))
+                or tie['origin']['pitch'] != tie['continuation']['pitch']
+                or abs(tie['continuation']['q'] - tie['origin']['q'] - tie['origin']['durationQ'] - gap) > 1e-8):
+            raise ValueError('A tie must join the same pitch contiguously, or declare its exact nonnegative gapQ and source basis')
+        notes[masks[0], 1] += gap + notes[masks[1], 1][0]
         notes = notes[~masks[1]]
+    if extraction.get('ties'):
+        source_checks['ties'] = extraction['ties']
     if extraction.get('comparePublished') is not None:
         compare = extraction['comparePublished']
-        multiset = bool(cfg['source'].get('legacyRelative') == 'verify-midi' or cfg['source'].get('patches'))
+        multiset = bool(cfg['source'].get('legacyRelative') == 'verify-midi'
+                        or cfg['source'].get('patches') or extraction.get('notationProof') is not None)
         original = attack_inventory(inside(directory, cfg['source']['midi']), compare.get('offsetQ', 0), multiset)
         pairs = [(round(n[0], 7), int(n[2])) for n in notes]
         separated = Counter(pairs) if multiset else set(pairs)
@@ -149,6 +204,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         source_checks['pitchOnsetInventory'] = {
             'kind': 'multiset' if multiset else 'set', 'matched': True,
             'count': sum(original.values()) if multiset else len(original)}
+        if extraction.get('notationProof') is not None:
+            source_checks['notationProof'] = prove_notation(cfg, directory, original, lilypond)
     for vi, voice in enumerate(voices):
         notes[notes[:, 3] == vi, 2] += voice.get('transpose', 0) + extraction.get('transpose', 0)
         for correction in voice.get('transposeRanges', []):
@@ -214,7 +271,24 @@ def extract(ident, lilypond=LILYPOND, directory=None):
               'provenance': cfg.get('provenance', []) + [
                   f'Verified derivative syntax repair in {p["file"]}: {p["basis"]}' for p in cfg['source'].get('patches', [])]
                   + [f'Documented cross-voice MusicXML tie route in {r["part"]}, measure {r["measure"]}: {r["basis"]}'
-                     for r in cfg['source'].get('musicxmlTieRoutes', [])],
+                     for r in cfg['source'].get('musicxmlTieRoutes', [])]
+                  + [f'Documented short MusicXML measure {p["number"]}, {p["quarters"]} quarter units: {p["basis"]}'
+                     for p in cfg['source'].get('musicxmlPartialMeasures', [])]
+                  + ([f'MusicXML ending annotations shared from {cfg["source"]["musicxmlSharedEndingsFrom"]}; '
+                      'identical measure order and repeat barlines asserted in every part.']
+                     if cfg['source'].get('musicxmlSharedEndingsFrom') else [])
+                  + [f'Source-encoded ornament realization retained in playback; separate printed-notation inventory proved: {o["basis"]}'
+                     for o in extraction.get('notationProof', {}).get('ornaments', [])]
+                  + [f'Documented source tie sustains through {t["gapQ"]} quarter units before its continuation: {t["basis"]}'
+                     for t in extraction.get('ties', []) if t.get('gapQ')]
+                  + [f'Native-source-backed trill span in {t["part"]}, source quarters {t["startQ"]}–{t["endQ"]}: {t["basis"]}'
+                     for t in cfg['source'].get('musicxmlTrillSpans', [])]
+                  + ([f'Initial-grace contexts synchronized by silent grace skips, retaining source notes and main-time durations: '
+                      f'{cfg["source"]["musicxmlInitialGrace"]["basis"]}']
+                     if cfg['source'].get('musicxmlInitialGrace') else [])
+                  + (['Single-note MusicXML ties use note-specific chord syntax; any engraving-context relocation '
+                      'still requires an exact source endpoint audit.']
+                     if cfg['source'].get('musicxmlSingleNoteChordTies') else []),
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)

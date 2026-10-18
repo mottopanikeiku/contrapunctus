@@ -13,6 +13,8 @@ import zipfile
 from config import HERE, LILYPOND, inside, load
 from musicxml_tuplets import flatten_tuplets
 from musicxml_ties import route_ties
+from musicxml_structure import mark_initial_grace, preserve_partial_measures, share_endings
+from musicxml_trills import route_trills
 
 
 def definitions(cfg, directory):
@@ -113,6 +115,16 @@ def prepare(cfg, lilypond=LILYPOND):
             flatten_tuplets(xml, source['musicxmlFlattenTuplets'])
         if source.get('musicxmlTieRoutes'):
             route_ties(xml, source['musicxmlTieRoutes'])
+        if source.get('musicxmlPartialMeasures'):
+            preserve_partial_measures(xml, source['musicxmlPartialMeasures'])
+        if source.get('musicxmlSharedEndingsFrom'):
+            share_endings(xml, source['musicxmlSharedEndingsFrom'])
+        if source.get('musicxmlTrillSpans'):
+            route_trills(xml, source['musicxmlTrillSpans'], HERE / 'sources' / cfg['id'])
+        if source.get('musicxmlInitialGrace'):
+            mark_initial_grace(xml, source['musicxmlInitialGrace'])
+        if source.get('musicxmlSingleNoteChordTies'):
+            xml.set('cp-single-note-chord-ties', 'yes')
         selected = directory / '__selected.musicxml'
         ET.ElementTree(xml).write(selected, encoding='utf-8', xml_declaration=True)
         main.parent.mkdir(parents=True, exist_ok=True)
@@ -120,13 +132,16 @@ def prepare(cfg, lilypond=LILYPOND):
                         '--converter', str(Path(lilypond).with_name('musicxml2ly')),
                         '--midi', '--npl', '-o', str(main), str(selected)], check=True)
     legacy = source.get('legacyRelative')
-    if legacy or source.get('patches'):
-        extraction = cfg['extraction']
+    extraction = cfg['extraction']
+    notation_proof = extraction.get('notationProof')
+    if legacy or source.get('patches') or notation_proof is not None:
+        printed_music = cfg.get('engraving', {}).get('music')
         if ((legacy and legacy != 'verify-midi') or extraction['mode'] != 'compiled-midi'
                 or extraction.get('comparePublished') is None or not source.get('midi')
-                or not extraction.get('music')
-                or extraction['music'] != cfg.get('engraving', {}).get('music')):
-            raise ValueError('Source syntax repairs require compiled-midi, comparePublished, source.midi and identical extraction/engraving music')
+                or not extraction.get('music') or not printed_music
+                or (extraction['music'] != printed_music and notation_proof is None)):
+            raise ValueError('Source syntax repairs require compiled-midi, comparePublished, source.midi '
+                             'and identical extraction/engraving music or a separate notationProof')
     for patch in source.get('patches', []):
         file = inside(directory, patch['file'])
         old, new = patch['old'], patch['new']

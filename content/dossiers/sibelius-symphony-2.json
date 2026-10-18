@@ -26,7 +26,7 @@
       "status": "documented",
       "sourceIds": ["booklet", "ia-item"],
       "precision": "range",
-      "note": "The Decca booklet gives Kingsway Hall, 18–20 June 1958, for the disc whose track list holds this symphony (p. 38 beside the track list on p. 37; the 24 and 25 June 1958 sessions marked with an asterisk are for Elgar’s Enigma Variations on the same disc). The Internet Archive description narrows the date to 20 June 1958 without a source. The identification rests on the layout of the booklet’s credits, which the author read as attaching to the disc listing Sibelius and Elgar; the measured movement lengths of this file (10:17, 14:36, 6:14 and 12:49) match the booklet’s track times (10:16, 14:36, 6:15, 12:49)."
+      "note": "The Decca booklet gives Kingsway Hall, 18–20 June 1958, for the disc whose track list holds this symphony (PDF page 21, printed p. 40, beside the track list on PDF page 20, printed p. 39; the 24 and 25 June 1958 sessions marked with an asterisk are for Elgar’s Enigma Variations on the same disc). The Internet Archive description narrows the date to 20 June 1958 without a source. The identification rests on the layout of the booklet’s credits, which the author read as attaching to the disc listing Sibelius and Elgar; the measured movement lengths of this file (10:17, 14:36, 6:14 and 12:49) match the booklet’s track times (10:16, 14:36, 6:15, 12:49)."
     },
     "place": {
       "value": "Kingsway Hall, London",
@@ -109,7 +109,7 @@
       "id": "booklet",
       "title": "Decca Classics — Pierre Monteux: The Complete Decca/Philips Recordings (booklet)",
       "url": "https://d24ku69pnn7av2.cloudfront.net/decca-classics-booklets/2020/02894834711X_Pierre_Monteux_Booklet.pdf",
-      "locator": "p. 37 (track list with movement times 10.16, 14.36, 6.15, 12.49, with Elgar’s Enigma Variations marked *); p. 38 (Kingsway Hall, London, 18–20 June 1958 and 24 & 25 June 1958*; producers John Culshaw and James Walker*; balance engineer Kenneth Wilkinson; “First released as: RCA LSC 2342 (October 1959) / SB 207 (May 1960); DECCA SDD 234 (September 1970)”); pp. 48–51 (essay).",
+      "locator": "PDF page 20, printed p. 39 (track list with movement times 10.16, 14.36, 6.15, 12.49, with Elgar’s Enigma Variations marked *); PDF page 21, printed p. 40 (Kingsway Hall, London, 18–20 June 1958 and 24 & 25 June 1958*; producers John Culshaw and James Walker*; balance engineer Kenneth Wilkinson; “First released as: RCA LSC 2342 (October 1959) / SB 207 (May 1960); DECCA SDD 234 (September 1970)”); PDF page 26, printed pp. 50–51 (essay).",
       "accessed": "2026-10-17"
     },
     {

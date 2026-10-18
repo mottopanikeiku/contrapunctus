@@ -13,7 +13,7 @@ const residence = new Set(['born', 'childhood', 'studied', 'lived', 'worked', 'e
 const dates = (p) => `${p.from}${p.to && p.to !== p.from ? `–${p.to}` : ''}`;
 let catalogue;
 
-// Omitted ends are point events, never invented continuous residence intervals.
+// Authored events keep their precision; residence-derived intervals are separate.
 function dateLimit(date, end = false) {
   const [y, m, d] = String(date).split('-').map(Number);
   return y * 10000 + (m ?? (end ? 12 : 1)) * 100 + (d ?? (end ? new Date(Date.UTC(y, m ?? 12, 0)).getUTCDate() : 1));
@@ -55,24 +55,41 @@ function clusterCities(composers) {
   const places = composers.flatMap((c) => c.places).sort((a, b) => a.name.length - b.name.length || a.name.localeCompare(b.name));
   for (const p of places) {
     let city = cities.find((c) => Math.hypot((p.lon - c.lon) * Math.cos(p.lat * Math.PI / 180), p.lat - c.lat) * 111.2 < 7);
-    if (!city) { city = { id: cities.length, name: p.name, x: p.x, y: p.z, lat: p.lat, lon: p.lon, visits: [], pairs: [] }; cities.push(city); }
+    if (!city) { city = { id: cities.length, name: p.name, x: p.x, y: p.z, lat: p.lat, lon: p.lon, visits: [], residents: [], pairs: [] }; cities.push(city); }
     p.city = city.id;
   }
   for (const c of composers) for (let i = 0; i < c.places.length; i++) {
     const p = c.places[i];
     if (p.status !== 'documented' || ['premiere', 'buried'].includes(p.kind) || (c.died && p.y > c.died)) continue;
-    cities[p.city].visits.push({ c: c.id, p: i, from: p.from, to: p.to ?? p.from, a: p.y, b: p.end });
+    cities[p.city].visits.push({ c: c.id, p: i, from: p.from, to: p.to ?? p.from, a: p.y, b: p.end, basis: 'dated' });
+  }
+  // Use precisely the same primary-place selection as the cameos. Do not
+  // rewrite authored end dates to make these derived intervals look sourced.
+  for (const c of composers) {
+    let interval = null;
+    for (let y = 1680; y <= 1990; y++) {
+      const state = currentPlace(c, y);
+      if (!state || state.dead) { interval = null; continue; }
+      const p = c.places[state.p];
+      if (interval?.p === state.p && interval.b === y - 1) {
+        interval.b = y; interval.to = String(y);
+      } else {
+        interval = { c: c.id, p: state.p, from: p.y === y ? p.from : String(y), to: String(y), a: y, b: y, basis: 'residence', sourceFrom: p.from, sourceTo: p.to ?? p.from, sourceEnd: p.end, status: p.status };
+        cities[p.city].residents.push(interval);
+      }
+    }
   }
   for (const city of cities) {
-    const pairs = new Map();
-    for (let i = 0; i < city.visits.length; i++) for (let j = i + 1; j < city.visits.length; j++) {
-      const a = city.visits[i], b = city.visits[j];
+    const pairs = new Map(), presence = [...city.visits, ...city.residents];
+    for (let i = 0; i < presence.length; i++) for (let j = i + 1; j < presence.length; j++) {
+      const a = presence[i], b = presence[j];
       if (a.c === b.c) continue;
       const start = Math.max(dateLimit(a.from), dateLimit(b.from));
       const end = Math.min(dateLimit(a.to, true), dateLimit(b.to, true));
       if (start > end) continue;
-      const ids = [a.c, b.c].sort(), key = `${ids.join(':')}:${start}:${end}`;
-      pairs.set(key, { ids, from: Math.floor(start / 10000), to: Math.floor(end / 10000), evidence: [a, b].map(({ c, p }) => ({ c, p })) });
+      const ids = [a.c, b.c].sort(), basis = a.basis === 'dated' && b.basis === 'dated' ? 'dated' : 'residence';
+      const key = `${ids.join(':')}:${start}:${end}:${basis}`;
+      pairs.set(key, { ids, basis, from: Math.floor(start / 10000), to: Math.floor(end / 10000), evidence: [a, b].map(({ c, p, basis }) => ({ c, p, basis })) });
     }
     city.pairs = [...pairs.values()];
     delete city.lat; delete city.lon;
@@ -80,22 +97,10 @@ function clusterCities(composers) {
   return cities;
 }
 function packFrame(composers, y) {
-  const groups = new Map(), rows = [];
+  const rows = [];
   for (let i = 0; i < composers.length; i++) {
-    const c = composers[i], state = currentPlace(c, y);
-    if (!state) continue;
-    const row = [i, state.p, 0, 0, state.dead ? 1 : 0, state.known ? 1 : 0, 1];
-    rows.push(row);
-    if (state.dead) continue;
-    const city = c.places[state.p].city, group = groups.get(city) ?? [];
-    group.push(row); groups.set(city, group);
-  }
-  for (const group of groups.values()) for (const [i, row] of group.entries()) {
-    const angle = -Math.PI / 2 + i * Math.PI * 2 / group.length;
-    const radius = group.length === 1 ? 26 : 34;
-    row[2] = round(Math.cos(angle) * radius);
-    row[3] = round(Math.sin(angle) * radius);
-    row[6] = group.length;
+    const state = currentPlace(composers[i], y);
+    if (state) rows.push([i, state.p, state.dead ? 1 : 0, state.known ? 1 : 0]);
   }
   return rows;
 }
@@ -222,7 +227,7 @@ export async function buildAtlasMap({ out, layout, composers, eras, art, listens
 <aside class="am-card" aria-label="Places and encounters"><div class="am-card-bar"><span>Places &amp; encounters</span><button type="button" data-action="close" aria-label="Close place card">×</button></div><div class="am-card-content"></div></aside></div>
 <div class="am-time"><button type="button" data-action="time-play" aria-label="Play the years" aria-pressed="false">▶</button><label class="am-year-label" for="am-year">Year <output for="am-year" data-year-display>1805</output></label><div class="am-time-track"><div class="am-era-bands" aria-hidden="true">${bands}</div><input id="am-year" type="range" min="1680" max="1990" value="1805" step="1" aria-label="Map year"><div class="am-year-ticks" aria-hidden="true">${[1680, 1750, 1800, 1850, 1900, 1990].map((y) => `<span style="left:${(y - 1680) / 310 * 100}%">${y}</span>`).join('')}</div></div></div>
 <div class="am-legend"><span><i class="am-key-cameo"></i>Primary recorded post / home</span><span><i class="am-key-route"></i>Recorded path</span><span><b>✧</b> Premiere</span><span><b>†</b> Died</span><span><i class="am-key-dotted"></i>Music heard / influence</span></div><p class="am-status" role="status" aria-live="polite">Loading the engraved map…</p>
-<details class="am-method"><summary>How to read this map · sources &amp; method</summary><div><p>Gold dots mark the actual projected coordinates. Portraits are callouts connected by leaders no longer than 34.1 screen pixels; they are not displaced geographic locations. More than four living composers in a city collapse to a named medallion: hover, focus or click to open its ring of portraits. Death crosses remain on their recorded point.</p><p>The annual primary location is an explicitly dated ongoing post, then a residence, then another recorded stay; the latest record breaks ties. This keeps a summer home from displacing a simultaneous professional post. All seasonal homes remain on the full route. When no stay covers the year, a dashed portrait frame marks the <em>last recorded</em> place, not proof of continued residence. Short visits and premieres do not move a residence. This annual view cannot resolve overlapping places into a daily itinerary. A cross marks death; later burial records may move it.</p><p>City groups join coordinates within 7 km of a fixed centre. Encounters use only documented, explicitly dated presence: omitted end dates are point events. Premieres do not establish attendance, and burials do not establish living presence, so neither enters the encounter calculation. Overlapping date ranges are evidence of possible co-presence, not proof of a meeting. Annual labels retain the source’s precision in the individual records.</p><p>A focused life opens on its European places; overseas places have their own gilded inset. A life with no European record opens in its recorded region instead. Each stop retains an exact gold dot. Number lists are stacked at the named city’s true centre, never scattered across the sea; the card lists every stop individually. Arrow-labelled connectors end at the inset frame, not at invented positions in the Atlantic. The two maps have independent scales.</p><p>Lines join place records in date order, not historical roads or actual transit routes. Dotted influence lines connect musical evidence to a place; an origin may be an earlier residence, never an assertion of a meeting. Posthumous premieres are marked separately. Exact normalised work-title matches offer recordings of that work; otherwise the card explicitly offers other recordings by the composer. Only published recordings are offered.</p><p>Land, coastline and present-day country outlines: <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener">Natural Earth 1:50m, public domain</a>, via the <a href="https://github.com/nvkelso/natural-earth-vector/tree/${base.revision}/geojson" target="_blank" rel="noopener">pinned source revision</a>. Mercator projection and Douglas–Peucker simplification are computed at build time. Country outlines are orientation aids, <em>not historical political borders</em>. The map has no tile server. Place evidence and status appear in each composer’s card; unresearched composers simply do not appear.</p><p><a href="assets/data/geo/base.json" download>Download the projected base map</a> · <a href="assets/data/geo/index.json" download>Download the chronology and encounters</a>. Full records are loaded only when a composer is selected.</p></div></details><noscript><p>The interactive map needs JavaScript. Every composer’s <a href="composers/index.html">Places section</a> includes a static map, dates and sources without it.</p></noscript></div>`;
-  await out('atlas-map.html', layout({ base: '', page: 'atlas-map' }, { title: 'The Map — Contrapunctus', description: 'Follow composers through their recorded places, hear the music written and premiered there, and find documented overlaps in a city through time.', body, dark: true, nav: 'map', accent: '#dfc287', head: '<link rel="stylesheet" href="assets/css/atlas-map.css">', modules: ['atlas-map'] }));
-  console.log(`map: ${data.length} composers, ${cities.length} city groups, ${cities.reduce((n, c) => n + c.pairs.length, 0)} dated overlaps; ${(performance.now() - started).toFixed(0)} ms`);
+<details class="am-method"><summary>How to read this map · sources &amp; method</summary><div><p>Gold dots mark actual projected coordinates. Individual portrait callouts have leaders no longer than 26 screen pixels, shortened near the coast. Overlapping portrait circles merge into a screen-space medallion, recomputed as you zoom; a group spanning several cities is named for its most represented city, with “area” added. Hover, focus or click to open the portrait chooser. Its ring is a menu, <em>not relocated geographic positions</em>: all underlying gold dots stay fixed. Death crosses remain on their recorded points.</p><p>The annual primary location is an explicitly dated ongoing post, then a residence, then another recorded stay; the latest record breaks ties. This keeps a summer home from displacing a simultaneous professional post. Birth, childhood, study, home, work and exile records provide the residence chronology. When no dated stay covers the year, the last primary place is carried forward to the next residence record or death; a dashed portrait frame identifies that carry-forward. All seasonal homes remain on the full route. Short visits and premieres do not move a residence. This annual model is not a daily itinerary or proof of continued residence.</p><p>City groups join coordinates within 7 km of a fixed centre. “Who was here?” combines the same primary-residence chronology used by the cameos with explicitly dated events. The labels distinguish <em>resident (from residence records)</em> from <em>documented in this year</em>; residence-derived overlaps are separately labelled. Authored dates are never extended: an omitted event end remains a point event, and any carry-forward is stored as a separate model interval. Premieres do not establish attendance, and burials do not establish living presence, so neither enters the encounter calculation. No overlap proves a meeting; source dates and precision remain visible in each life’s records.</p><p>A focused life opens on its European places; overseas places have their own gilded inset. A life with no European record opens in its recorded region instead. Each stop retains an exact gold dot. Number lists are stacked at the named city’s true centre, never scattered across the sea; the card lists every stop individually. Arrow-labelled connectors end at the inset frame, not at invented positions in the Atlantic. The two maps have independent scales.</p><p>Lines join place records in date order, not historical roads or actual transit routes. Dotted influence lines connect musical evidence to a place; an origin may be an earlier residence, never an assertion of a meeting. Posthumous premieres are marked separately. Exact normalised work-title matches offer recordings of that work; otherwise the card explicitly offers other recordings by the composer. Only published recordings are offered.</p><p>Land, coastline and present-day country outlines: <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener">Natural Earth 1:50m, public domain</a>, via the <a href="https://github.com/nvkelso/natural-earth-vector/tree/${base.revision}/geojson" target="_blank" rel="noopener">pinned source revision</a>. Mercator projection and Douglas–Peucker simplification are computed at build time. Country outlines are orientation aids, <em>not historical political borders</em>. The map has no tile server. Place evidence and status appear in each composer’s card; unresearched composers simply do not appear.</p><p><a href="assets/data/geo/base.json" download>Download the projected base map</a> · <a href="assets/data/geo/index.json" download>Download the chronology and encounters</a>. Full records are loaded only when a composer is selected.</p></div></details><noscript><p>The interactive map needs JavaScript. Every composer’s <a href="composers/index.html">Places section</a> includes a static map, dates and sources without it.</p></noscript></div>`;
+  await out('atlas-map.html', layout({ base: '', page: 'atlas-map' }, { title: 'The Map — Contrapunctus', description: 'Follow composers through their recorded places, hear the music written and premiered there, and find possible encounters in a city through time.', body, dark: true, nav: 'map', accent: '#dfc287', head: '<link rel="stylesheet" href="assets/css/atlas-map.css">', modules: ['atlas-map'] }));
+  console.log(`map: ${data.length} composers, ${cities.length} city groups, ${cities.reduce((n, c) => n + c.pairs.length, 0)} possible overlaps; ${(performance.now() - started).toFixed(0)} ms`);
 }

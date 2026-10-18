@@ -766,5 +766,9 @@
   },
   "commandsRun": [
     "node tools/score.mjs schubert-winterreise-fruhlingstraum (rerun after source-preserving per-note tie correction)"
-  ]
+  ],
+  "withholdingReview": {
+    "reviewer": "VerS",
+    "decision": "Keep withheld under unchanged primary/anchor limits. Resolving the four untied chord reattacks does not waive those failures; no published-asset review is needed for this unpublished candidate."
+  }
 }

@@ -1,71 +1,403 @@
 {
-  "measurementLabel": "MEAS",
+  "label": "MEAS",
+  "recordedAt": "2026-10-18T04:56:05.570Z",
   "build": {
     "command": "/usr/bin/time -f 'BUILD elapsed=%e s maxrss=%M KB' node src/build.mjs",
-    "output": [
-      "map: 60 composers, 361 city groups, 409 dated overlaps; 1163 ms",
-      "comparisons: 29 published, 2 held (chopin-nocturne-op9-2-colours, leoncavallo-vesti-caruso)",
-      "built 116 pages: 60 composers, 7 eras, 2 long pages",
-      "recordings: 252 published, 125 awaiting review",
-      "BUILD elapsed=6.17 s maxrss=249416 KB"
+    "exitCode": 0,
+    "keyOutput": [
+      "map: 60 composers, 360 city groups, 415 dated overlaps; 910 ms",
+      "journeys: 6 published, 0 held",
+      "comparisons: 31 published, 0 held",
+      "built 125 pages: 60 composers, 7 eras, 2 long pages",
+      "recordings: 321 published, 58 awaiting review",
+      "BUILD elapsed=7.66 s maxrss=314644 KB"
     ],
-    "warningsEmitted": false
+    "warningLines": []
   },
-  "sizes": {
-    "command": "Node fs.readFile + zlib.gzipSync(bytes, { level: 9 })",
-    "assets/data/geo/base.json": { "bytes": 339916, "gzipBytes": 133062 },
-    "assets/data/geo/index.json": { "bytes": 615257, "gzipBytes": 70212 },
-    "assets/data/geo/mahler.json": { "bytes": 50219, "gzipBytes": 7072 },
-    "assets/data/geo/mahler.svg": { "bytes": 15404, "gzipBytes": 4893 },
-    "assets/js/atlas-map.js": { "bytes": 27875, "gzipBytes": 8614 },
-    "assets/css/atlas-map.css": { "bytes": 20147, "gzipBytes": 5414 }
+  "viewports": {
+    "desktop": [
+      1440,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "sizes": [
+    {
+      "file": "docs/assets/data/geo/base.json",
+      "bytes": 339916,
+      "gzip9": 133062
+    },
+    {
+      "file": "docs/assets/data/geo/index.json",
+      "bytes": 509971,
+      "gzip9": 63157
+    },
+    {
+      "file": "docs/assets/data/geo/mahler.json",
+      "bytes": 53061,
+      "gzip9": 7536
+    },
+    {
+      "file": "docs/assets/data/geo/mahler.svg",
+      "bytes": 14587,
+      "gzip9": 3618
+    },
+    {
+      "file": "docs/assets/js/atlas-map.js",
+      "bytes": 38153,
+      "gzip9": 11059
+    },
+    {
+      "file": "docs/assets/css/atlas-map.css",
+      "bytes": 23078,
+      "gzip9": 6091
+    }
+  ],
+  "canonicalAssetSizes": [
+    {
+      "file": "src/assets/js/atlas-map.js",
+      "bytes": 38153,
+      "gzip9": 11059
+    },
+    {
+      "file": "src/assets/css/atlas-map.css",
+      "bytes": 23078,
+      "gzip9": 6091
+    },
+    {
+      "file": "docs/assets/js/atlas-map.js",
+      "bytes": 38153,
+      "gzip9": 11059
+    },
+    {
+      "file": "docs/assets/css/atlas-map.css",
+      "bytes": 23078,
+      "gzip9": 6091
+    }
+  ],
+  "initialGeographicRequests": [
+    "http://127.0.0.1:8157/assets/data/geo/index.json",
+    "http://127.0.0.1:8157/assets/data/geo/base.json"
+  ],
+  "geographicMethod": {
+    "locationAnchors": "Every rendered person/death/premiere/route-stop anchor is compared to its precomputed projected location. City dots, cluster medallions and stacked city-number badges are compared to the actual city centre, not displaced individual venue labels.",
+    "coordinates": "Mercator projection at build precision (0.1 projected unit). A zero anchor difference remains zero under the common base/overlay affine transform; independent inset coordinates use their own affine transform.",
+    "cameos": "Leader distance is measured in screen pixels from the actual icon transform; no nonzero-offset cameo centre may lie outside the SVG land fill.",
+    "scope": "This checks rendering against sourced coordinates, not the historical correctness of the source coordinates."
+  },
+  "projectionChecks": {
+    "composers": 60,
+    "projectedRecords": 1366,
+    "maxProjectionError": 0,
+    "years": 311,
+    "frameMarkers": 8867,
+    "maxPackedLeader": 34.00367627183861
+  },
+  "renderedGeography": [
+    {
+      "view": "desktop-1805",
+      "markers": 17,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 34.000001814763806,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "desktop-1900",
+      "markers": 67,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 34.000001814763806,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "desktop-paris-hover",
+      "markers": 67,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 34.000001814763806,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "desktop-paris-click",
+      "markers": 67,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 33.9999988419669,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "desktop-vienna-1790",
+      "markers": 14,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 26.000000729280362,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "desktop-mahler-focused",
+      "markers": 74,
+      "numbers": 24,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 0,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "desktop-mahler-playing",
+      "markers": 74,
+      "numbers": 24,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 0,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "mobile-1805",
+      "markers": 17,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 27.87990465760231,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "mobile-1900",
+      "markers": 67,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 30.882355928421013,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "mobile-vienna-1790",
+      "markers": 14,
+      "numbers": 0,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 26.00000103314718,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "mobile-mahler-playing",
+      "markers": 74,
+      "numbers": 24,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 0,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    },
+    {
+      "view": "mobile-mahler-pan-pinch",
+      "markers": 74,
+      "numbers": 24,
+      "maxTruePointDisplacement": 0,
+      "maxNumberDisplacement": 0,
+      "maxCameoLeaderPx": 0,
+      "displacedCameosAtSea": [],
+      "layersMatch": true
+    }
+  ],
+  "cluster": {
+    "label": "Paris · 6 composers. Expand portraits.",
+    "expanded": "true",
+    "living": [
+      "faure",
+      "debussy",
+      "satie",
+      "ravel",
+      "lili-boulanger",
+      "poulenc"
+    ]
+  },
+  "encounters": {
+    "title": "Vienna 1790",
+    "residents": [
+      "Joseph Haydn",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "dates": [
+      "1790-10–1790-12-15",
+      "1781-03–1791-12-05"
+    ]
+  },
+  "focus": {
+    "hash": "#c-mahler",
+    "stops": 50,
+    "badges": 24,
+    "inset": "New York City · independent scale · 2 records",
+    "connector": "to New York City, 1908–1911"
+  },
+  "desktopPlayback": {
+    "before": "mahler-2-allegro-maestoso",
+    "first": "mahler-2-allegro-maestoso",
+    "second": "mahler-2-andante-moderato",
+    "changed": true
+  },
+  "placePlayback": {
+    "place": "33Munich1901-11-25 · premiere",
+    "work": "Symphony No. 4",
+    "before": "mahler-2-allegro-maestoso",
+    "after": "mahler-4-bedaechtig",
+    "changed": true
+  },
+  "mobilePlaybackAndDock": {
+    "hash": "#c-mahler",
+    "stops": 50,
+    "before": "mahler-2-andante-moderato",
+    "after": "mahler-2-allegro-maestoso",
+    "changed": true,
+    "timelineBottom": 768,
+    "playerTop": 770.078125,
+    "abovePlayer": true,
+    "overflow": false
+  },
+  "mobileEncounters": {
+    "title": "Vienna 1790",
+    "residents": [
+      "Joseph Haydn",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "open": true
+  },
+  "gestures": {
+    "before": "translate(-2788.267716535433 -1679.5157480314958) scale(1.9685039370078738)",
+    "pan": "translate(-2753.267716535433 -1659.5157480314958) scale(1.9685039370078738)",
+    "pinch": "translate(-4580.912065920795 -2751.338099787431) scale(3.177394578483304)",
+    "pans": true,
+    "pinches": true
+  },
+  "chapters": {
+    "desktop": {
+      "places": true,
+      "image": "http://127.0.0.1:8157/assets/data/geo/mahler.svg",
+      "track": "mahler-2-andante-moderato",
+      "unmounted": true
+    },
+    "mobile": {
+      "places": true,
+      "image": "http://127.0.0.1:8157/assets/data/geo/mahler.svg",
+      "track": "mahler-4-bedaechtig",
+      "unmounted": true,
+      "overflow": false
+    }
+  },
+  "reducedMotion": {
+    "baseline": {
+      "journey": "am-voyage",
+      "premiere": "am-premiere"
+    },
+    "reduced": {
+      "journey": "none",
+      "premiere": "none",
+      "mapAnimations": 0,
+      "playPressed": "false"
+    }
   },
   "animation": {
-    "command": "CDP Runtime.evaluate: click [data-action=time-play], sample 180 requestAnimationFrame intervals, click again to pause",
-    "viewport": [1440, 900],
-    "startYear": 1900,
-    "endYear": 1904,
-    "frames": 180,
-    "meanMilliseconds": 16.702222222155978,
-    "medianMilliseconds": 16.69999999999709,
-    "p95Milliseconds": 16.700000000004366,
-    "maximumMilliseconds": 33.30000000000291,
-    "note": "Foreground Chromium on the shared workstation; the maximum was a two-refresh interval. This is a measurement, not a guarantee for every device."
+    "final": {
+      "samples": 180,
+      "meanMs": 16.66611111111108,
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 16.79999999998836,
+      "maxMs": 16.80000000000291,
+      "intervalsOver25Ms": 0,
+      "from": 1900,
+      "to": 1904,
+      "mapLayoutReads": 0
+    },
+    "conditions": "Foreground private Chromium, no concurrent owned build; 180 requestAnimationFrame intervals during year playback. Earlier diagnostic samples under shared load were slower; no frame was removed from this sample.",
+    "diagnostics": {
+      "beforeVisibleOnlyAnimations": {
+        "samples": 180,
+        "meanMs": 19.81388888888889,
+        "p50Ms": 16.70000000001164,
+        "p95Ms": 33.399999999965075,
+        "maxMs": 100,
+        "intervalsOver25Ms": 24,
+        "from": 1900,
+        "to": 1905,
+        "mapLayoutReads": 0
+      },
+      "staticControl": {
+        "label": "MEAS static control, not acceptance",
+        "samples": 180,
+        "meanMs": 17.221666666666636,
+        "p95Ms": 16.80000000000291,
+        "maxMs": 116.59999999999127,
+        "intervalsOver25Ms": 1
+      },
+      "afterVisibilityFix": {
+        "samples": 180,
+        "meanMs": 17.498888888888825,
+        "p50Ms": 16.699999999982538,
+        "p95Ms": 16.79999999998836,
+        "maxMs": 66.69999999998254,
+        "intervalsOver25Ms": 6,
+        "from": 1900,
+        "to": 1904,
+        "mapLayoutReads": 0
+      },
+      "concurrentBuildSample": {
+        "samples": 180,
+        "meanMs": 17.961666666666662,
+        "p50Ms": 16.699999999999818,
+        "p95Ms": 33.30000000000018,
+        "maxMs": 50,
+        "intervalsOver25Ms": 13,
+        "from": 1900,
+        "to": 1904,
+        "mapLayoutReads": 0
+      }
+    },
+    "hiddenAnimationsAfterFix": 0
   },
-  "interaction": {
-    "method": "Real Chromium via browser helpers and a private Chrome DevTools Protocol connection; no mocked player or geography",
-    "desktopViewport": [1440, 900],
-    "mobileViewport": [390, 844],
-    "deepLink": "atlas-map.html?year=1900#c-mahler",
-    "mahlerNumberedRouteStops": 50,
-    "keyboardCameoFocus": "Input.dispatchKeyEvent Enter on .am-person[data-composer=mahler] produced #c-mahler and 50 route stops",
-    "playbackCommand": "Click a .am-recordings .am-listen button, then read window.CP.player.track.id",
-    "trackBefore": "mahler-2-allegro-maestoso",
-    "trackAfter": "mahler-2-andante-moderato",
-    "persistentPlayer": "The selected Mahler track remained loaded after app navigation to composers/mahler.html#places; the Map DOM unmounted",
-    "initialGeoRequests": ["index.json", "base.json"],
-    "lazyComposerDetails": "mahler.json loads on composer focus",
-    "vienna1790": ["Joseph Haydn: 1790-10–1790-12-15", "Wolfgang Amadeus Mozart: 1781-03–1791-12-05"],
-    "vienna1790Pair": ["haydn", "mozart"],
-    "touchPan": "Input.dispatchTouchEvent changed the map translation",
-    "touchPinch": "Input.dispatchTouchEvent changed map scale from 0.668859649122807 to 1.114766081871345",
-    "reducedMotion": "Emulation.setEmulatedMedia prefers-reduced-motion=reduce: computed star and travel animationName both none",
-    "mobileHorizontalOverflow": false,
-    "mobileSliderBottom": 768,
-    "mobilePlayerTop": 770.078125
-  },
+  "runtimePageErrors": [],
   "screenshots": [
-    "desktop-1805.png",
-    "desktop-1900.png",
-    "desktop-vienna-1790.png",
-    "desktop-mahler-playing.png",
-    "desktop-composer-places.png",
-    "mobile-1805.png",
-    "mobile-1900.png",
-    "mobile-vienna-1790.png",
-    "mobile-mahler-playing.png",
-    "mobile-composer-places.png"
+    "tools/geo/proof/desktop-1805.png",
+    "tools/geo/proof/desktop-1900.png",
+    "tools/geo/proof/desktop-vienna-1790.png",
+    "tools/geo/proof/desktop-mahler-focused.png",
+    "tools/geo/proof/desktop-mahler-playing.png",
+    "tools/geo/proof/desktop-composer-places.png",
+    "tools/geo/proof/mobile-1805.png",
+    "tools/geo/proof/mobile-1900.png",
+    "tools/geo/proof/mobile-vienna-1790.png",
+    "tools/geo/proof/mobile-mahler-playing.png",
+    "tools/geo/proof/mobile-mahler-route.png",
+    "tools/geo/proof/mobile-composer-places.png"
   ],
-  "historicalMethod": "Documented dated co-presence is not proof of a meeting. Missing end dates are point events. Inferred last-known residences never enter encounter calculations. Present-day borders are orientation aids, not historical borders.",
-  "scope": "No git commands. No changes to room.js, app.js or player.js. Missing composers were skipped during earlier 48- and 53-composer builds; the final build had all 60 source files."
+  "browserCommands": {
+    "transport": "Chrome DevTools Protocol: Runtime.evaluate, Input.dispatchKeyEvent, Input.dispatchMouseEvent, Input.dispatchTouchEvent, Page.captureScreenshot; private server at 127.0.0.1:8157 and private Chromium at 127.0.0.1:9237",
+    "geographicAudit": "()=>{const data=window.__proofIndex,detail=window.__proofDetails[document.querySelector('[name=\"composer\"]').value];const translation=n=>{const s=n.getAttribute('transform');return s.slice(s.indexOf('(')+1,s.indexOf(')')).trim().split(/[ ,]+/).map(Number);};let maxPoint=0,maxNumber=0,maxCameo=0,markers=0,numbers=0;const sea=[];for(const n of document.querySelectorAll('.am-true-marker')){if(n.closest('.am-hidden,[hidden]'))continue;const kind=n.dataset.geoKind;let expected;if(kind==='person'||kind==='premiere'){const c=data.composers.find(c=>c.id===n.dataset.composer),p=c.places[Number(n.dataset.geoPlace??n.dataset.place)];expected=[p.x,p.z];}else if(kind==='route-stop'){const p=detail.places[Number(n.dataset.routePlace)];expected=[p.x,p.z];}else if(kind==='city-numbers'){const s=detail.map.stops.find(s=>s.places.join(',')===n.dataset.routeIndices);expected=[s.x,s.z];}else{const c=data.cities[Number(n.dataset.city??n.dataset.cluster)];expected=[c.x,c.y];}const actual=translation(n),error=Math.hypot(actual[0]-expected[0],actual[1]-expected[1]);maxPoint=Math.max(maxPoint,error);markers++;if(kind==='city-numbers'){const text=n.querySelector('.am-stop-numbers');maxNumber=Math.max(maxNumber,error,Math.hypot(Number(text.getAttribute('x')),Number(text.getAttribute('y'))));numbers++;}if(kind==='person'&&!n.classList.contains('am-collapsed')&&!n.classList.contains('am-dead')){const [dx,dy]=translation(n.querySelector('.am-person-icon')),scale=document.querySelector('.am-world').transform.baseVal.getItem(1).matrix.a;maxCameo=Math.max(maxCameo,Math.hypot(dx,dy)*scale);if(Math.hypot(dx,dy)>.001&&!document.querySelector('.am-base-world>.am-land').isPointInFill(new DOMPoint(expected[0]+dx,expected[1]+dy)))sea.push(n.dataset.composer);}}return{markers,numbers,maxTruePointDisplacement:maxPoint,maxNumberDisplacement:maxNumber,maxCameoLeaderPx:maxCameo,displacedCameosAtSea:sea};}",
+    "frameProbe": "(async()=>{const root=document.querySelector('[data-atlas-map]'),original=Element.prototype.getBoundingClientRect;let layoutReads=0;Element.prototype.getBoundingClientRect=function(...args){if(root.contains(this))layoutReads++;return original.apply(this,args);};const from=Number(document.querySelector('#am-year').value),times=[];document.querySelector('[data-action=\"time-play\"]').click();await new Promise(resolve=>{let previous;function sample(t){if(previous!==undefined)times.push(t-previous);previous=t;if(times.length===180)resolve();else requestAnimationFrame(sample);}requestAnimationFrame(sample);});document.querySelector('[data-action=\"time-play\"]').click();Element.prototype.getBoundingClientRect=original;const sorted=[...times].sort((a,b)=>a-b);return{samples:times.length,meanMs:times.reduce((s,n)=>s+n,0)/times.length,p50Ms:sorted[90],p95Ms:sorted[171],maxMs:sorted.at(-1),intervalsOver25Ms:times.filter(t=>t>25).length,from,to:Number(document.querySelector('#am-year').value),mapLayoutReads:layoutReads};})()"
+  },
+  "sourceFiles": [
+    "src/atlas-map.mjs",
+    "src/assets/js/atlas-map.js",
+    "src/assets/css/atlas-map.css",
+    "tools/geo/prepare.mjs",
+    "CONTRACTS.md"
+  ],
+  "assetCutover": "PerfAssets moved the canonical runtime and stylesheet from docs/assets to src/assets after these edits; matching final incremental-update and visible-animation markers were read in the canonical copies."
 }

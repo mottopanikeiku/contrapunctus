@@ -1,0 +1,519 @@
+{
+  "uniqueScoreAttacks": 787,
+  "audioDetectedOnsets": 564,
+  "medianAbsoluteOnsetDeviation": 0.05060174069626555,
+  "noteWeightedMedianDeviation": 0.037659063625447686,
+  "p95AbsoluteOnsetDeviation": 0.1998862878484658,
+  "fractionWithin150ms": 0.9034307496823379,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 44,
+      "median": 0.06484760570894998,
+      "p95": 0.2534722055488858,
+      "max": 0.4037474989995995,
+      "adaptiveMedian": 0.04700188408696793,
+      "adaptiveP95": 0.14035263271975462
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 62,
+      "median": 0.040155812324929485,
+      "p95": 0.1591715519541144,
+      "max": 0.2326470588235292,
+      "adaptiveMedian": 0.02891139789249042,
+      "adaptiveP95": 0.07996605308790246
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 51,
+      "median": 0.07484777244231111,
+      "p95": 0.2505514705882348,
+      "max": 0.3591656662665095,
+      "adaptiveMedian": 0.04036414565826618,
+      "adaptiveP95": 0.09841403227957812
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 73,
+      "median": 0.047295418167266234,
+      "p95": 0.13089125650260325,
+      "max": 0.23471888755502235,
+      "adaptiveMedian": 0.03906829398425771,
+      "adaptiveP95": 0.10105905695611596
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 62,
+      "median": 0.052837218220620485,
+      "p95": 0.1486694427771073,
+      "max": 0.2914959317060166,
+      "adaptiveMedian": 0.05069961317860816,
+      "adaptiveP95": 0.12534227024143477
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 57,
+      "median": 0.05017990529545102,
+      "p95": 0.19067460317460672,
+      "max": 0.23189759237028085,
+      "adaptiveMedian": 0.04223255969054662,
+      "adaptiveP95": 0.10600810324129525
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 57,
+      "median": 0.06571211818060618,
+      "p95": 0.25037748432705886,
+      "max": 0.34409463785514305,
+      "adaptiveMedian": 0.033175436841403894,
+      "adaptiveP95": 0.08655865679604488
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 57,
+      "median": 0.04984593837534845,
+      "p95": 0.16605828998265793,
+      "max": 0.23530312124849928,
+      "adaptiveMedian": 0.03479791916767283,
+      "adaptiveP95": 0.09623739495798417
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 60,
+      "median": 0.039009187008133495,
+      "p95": 0.16762832633052652,
+      "max": 0.26771175136723,
+      "adaptiveMedian": 0.027073579431778683,
+      "adaptiveP95": 0.09596526944112113
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 64,
+      "median": 0.060890356142451196,
+      "p95": 0.16540310290782825,
+      "max": 0.21407796451914862,
+      "adaptiveMedian": 0.03793108910231524,
+      "adaptiveP95": 0.10857735594237068
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 58,
+      "median": 0.03981025743630795,
+      "p95": 0.23196022575697478,
+      "max": 0.3624119647859345,
+      "adaptiveMedian": 0.038721655328807,
+      "adaptiveP95": 0.1046753784847212
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 71,
+      "median": 0.038894224356425866,
+      "p95": 0.12743914232358833,
+      "max": 0.21968854208348887,
+      "adaptiveMedian": 0.04320678271308509,
+      "adaptiveP95": 0.0963570428171181
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 47,
+      "median": 0.05991496598639401,
+      "p95": 0.12521972122181776,
+      "max": 0.19563525410164573,
+      "adaptiveMedian": 0.03437841803386732,
+      "adaptiveP95": 0.09368090569561353
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 24,
+      "median": 0.036075430172083145,
+      "p95": 0.09649751567294301,
+      "max": 0.17297385620915406,
+      "adaptiveMedian": 0.04300837001466107,
+      "adaptiveP95": 0.07732087835135883
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 51,
+      "median": 0.07484777244231111,
+      "p95": 0.2505514705882348,
+      "max": 0.3591656662665095,
+      "adaptiveMedian": 0.04036414565826618,
+      "adaptiveP95": 0.09841403227957812
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 57,
+      "median": 0.06571211818060618,
+      "p95": 0.25037748432705886,
+      "max": 0.34409463785514305,
+      "adaptiveMedian": 0.033175436841403894,
+      "adaptiveP95": 0.08655865679604488
+    },
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 44,
+      "median": 0.06484760570894998,
+      "p95": 0.2534722055488858,
+      "max": 0.4037474989995995,
+      "adaptiveMedian": 0.04700188408696793,
+      "adaptiveP95": 0.14035263271975462
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 64,
+      "median": 0.060890356142451196,
+      "p95": 0.16540310290782825,
+      "max": 0.21407796451914862,
+      "adaptiveMedian": 0.03793108910231524,
+      "adaptiveP95": 0.10857735594237068
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 47,
+      "median": 0.05991496598639401,
+      "p95": 0.12521972122181776,
+      "max": 0.19563525410164573,
+      "adaptiveMedian": 0.03437841803386732,
+      "adaptiveP95": 0.09368090569561353
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 62,
+      "median": 0.052837218220620485,
+      "p95": 0.1486694427771073,
+      "max": 0.2914959317060166,
+      "adaptiveMedian": 0.05069961317860816,
+      "adaptiveP95": 0.12534227024143477
+    },
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 44,
+      "median": 0.06484760570894998,
+      "p95": 0.2534722055488858,
+      "max": 0.4037474989995995,
+      "adaptiveMedian": 0.04700188408696793,
+      "adaptiveP95": 0.14035263271975462
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 71,
+      "median": 0.038894224356425866,
+      "p95": 0.12743914232358833,
+      "max": 0.21968854208348887,
+      "adaptiveMedian": 0.04320678271308509,
+      "adaptiveP95": 0.0963570428171181
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 24,
+      "median": 0.036075430172083145,
+      "p95": 0.09649751567294301,
+      "max": 0.17297385620915406,
+      "adaptiveMedian": 0.04300837001466107,
+      "adaptiveP95": 0.07732087835135883
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 57,
+      "median": 0.05017990529545102,
+      "p95": 0.19067460317460672,
+      "max": 0.23189759237028085,
+      "adaptiveMedian": 0.04223255969054662,
+      "adaptiveP95": 0.10600810324129525
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 104.0,
+      "meanCosine": 0.6209158715045253
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.6326102842755217
+    },
+    {
+      "start": 96.0,
+      "meanCosine": 0.6443691296805159
+    },
+    {
+      "start": 88.0,
+      "meanCosine": 0.6550349080626748
+    },
+    {
+      "start": 72.0,
+      "meanCosine": 0.6561535849246889
+    }
+  ],
+  "sections": [
+    {
+      "bar": "39",
+      "occ": 1,
+      "editorial": 62,
+      "aligned": 61.614117647058826,
+      "difference": -0.3858823529411737,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "50",
+      "occ": 1,
+      "editorial": 80,
+      "aligned": 79.7529411764706,
+      "difference": -0.24705882352940023,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.18,
+      "nearestOnsetDeviation": 0.01582766439909311
+    },
+    {
+      "label": "middle",
+      "bar": "34",
+      "occ": 1,
+      "scoreQ": 134.0,
+      "audioSeconds": 54.33823529411765,
+      "nearestOnsetDeviation": 0.054508470054685176
+    },
+    {
+      "label": "last",
+      "bar": "68",
+      "occ": 1,
+      "scoreQ": 269.0,
+      "audioSeconds": 108.91735294117647,
+      "nearestOnsetDeviation": 0.09703548085902014
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "68",
+      "occ": 1,
+      "midi": 50,
+      "voice": "violas",
+      "durationQ": 1.0,
+      "onset": 108.91735294117647,
+      "offset": 109.35823529411765,
+      "durationSeconds": 0.4408823529411734
+    },
+    {
+      "bar": "68",
+      "occ": 1,
+      "midi": 62,
+      "voice": "violins-1",
+      "durationQ": 1.0,
+      "onset": 108.91735294117647,
+      "offset": 109.35823529411765,
+      "durationSeconds": 0.4408823529411734
+    },
+    {
+      "bar": "68",
+      "occ": 1,
+      "midi": 62,
+      "voice": "violins-2",
+      "durationQ": 1.0,
+      "onset": 108.91735294117647,
+      "offset": 109.35823529411765,
+      "durationSeconds": 0.4408823529411734
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.05011029411764589,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.6711745441885045,
+  "endAnchor": {
+    "scoreQ": 272.0,
+    "audioSeconds": 110.21999999999998,
+    "decodedDuration": 112.98829931972789,
+    "activeEndMinus45dB": 110.21351473922903
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "mozart-requiem-dies-irae",
+  "tuningHz": 447.17,
+  "audioSha256": "af93e0e37d551d59a11deaea800331ba54921822184f4c526bf7813b2dfeff9e",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Original Mutopia orchestral/SATB score and published MIDI retained byte-for-byte; this is the Brahms-edited 1877 Süssmayr completion, not an autograph-only attribution or a claim about Walter's marked performance parts.",
+    "Trumpets: trombe.ily writes C5/C4 and declares transposition d, producing published MIDI62/50 (range45–64). D trumpets sound a major second above the written pitch, so +12 restores74/62 and the proper sounding octave; engraving stays at written pitch. Independent transposition authority: https://utminers.utep.edu/charlesl/transpose.html ; separately reviewed by VerS.",
+    "F basset-horn transposition is already −7 and is retained. The clarinet-family section label explicitly names basset horns; they are not French horns. Other published MIDI pitches and chorus octaves remain unchanged.",
+    "The source has one Organo/orchestral-bass staff and no separately encoded cello, double-bass or trombone staves. Preserve its single written-pitch line rather than inventing doublings, octave layers or a continuo realisation. Source voice names identify notation, not separated instruments in the mono recording."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      61.32,
+      62.0
+    ],
+    [
+      78.82,
+      80.0
+    ],
+    [
+      107.4364705882353,
+      108.4
+    ],
+    [
+      107.83735294117648,
+      108.9
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.18,
+      "peakSeconds": 1.2,
+      "window": [
+        0,
+        1.5
+      ],
+      "midiPitches": [
+        50,
+        57,
+        62,
+        65,
+        69,
+        74
+      ],
+      "basis": "Independent pitch-energy inspection resolves the two final written quarters: the high D6/D5 tutti begins near 108.5 s, then the separate low D3/D4 string renewal follows near 109.0 s. The rejected broad-window candidate mistook the first chord for the last attack and compressed q268–269 to 0.081 s despite passing numeric gates. This narrow last search is a fitting constraint, not independent validation; no aural annotation."
+    },
+    {
+      "label": "internal-1",
+      "scoreQ": 268.0,
+      "audioSeconds": 108.4,
+      "peakSeconds": 108.56,
+      "window": [
+        108.4,
+        108.65
+      ],
+      "midiPitches": [
+        50,
+        62,
+        69,
+        74,
+        86
+      ],
+      "basis": "Final-bar upper D6 arrival follows the C-sharp6 leading tone near 108.3 s. This constrains the first final chord separately from the following low-string quarter; it is fitted pitch evidence, not an independent check."
+    },
+    {
+      "label": "last",
+      "scoreQ": 269.0,
+      "audioSeconds": 108.9,
+      "peakSeconds": 108.92,
+      "window": [
+        108.9,
+        109.15
+      ],
+      "midiPitches": [
+        50,
+        62
+      ],
+      "basis": "Independent pitch-energy inspection resolves the two final written quarters: the high D6/D5 tutti begins near 108.5 s, then the separate low D3/D4 string renewal follows near 109.0 s. The rejected broad-window candidate mistook the first chord for the last attack and compressed q268–269 to 0.081 s despite passing numeric gates. This narrow last search is a fitting constraint, not independent validation; no aural annotation."
+    }
+  ],
+  "adaptiveOnsetCount": 711,
+  "adaptiveMedianDeviation": 0.038687308256637465,
+  "gateReasons": [],
+  "elapsedSeconds": 0.3862459390074946,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 68,
+    "notes": 3921,
+    "voices": 12
+  },
+  "published": true,
+  "configSha256": "a86d706c7a8b7e2ee171d94ad44c637f368bcfc445208114b485d8479749a0ab",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae-lys.zip",
+      "file": "dies_irae-lys.zip",
+      "sha256": "a681daadcb59be324dd481dba37983e508783a91b8774bb581bd3f3ff69af375"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae.mid",
+      "file": "dies_irae.mid",
+      "sha256": "988faf187f2a661bfbfe7d6ef5a53241b96c21394969f23c01d000dc9796a399"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/mozart-requiem-dies-irae-0-5.png",
+    "work/mozart-requiem-dies-irae-0-8.png",
+    "work/mozart-requiem-dies-irae-0-9.18.png",
+    "work/mozart-requiem-dies-irae-16-24.png",
+    "work/mozart-requiem-dies-irae-32-40.png",
+    "work/mozart-requiem-dies-irae-40-48.png",
+    "work/mozart-requiem-dies-irae-48-56.png",
+    "work/mozart-requiem-dies-irae-50.3382-62.3382.png",
+    "work/mozart-requiem-dies-irae-72-80.png",
+    "work/mozart-requiem-dies-irae-80-88.png",
+    "work/mozart-requiem-dies-irae-88-96.png",
+    "work/mozart-requiem-dies-irae-96-104.png",
+    "work/mozart-requiem-dies-irae-98-112.png",
+    "work/mozart-requiem-dies-irae-104-112.png",
+    "work/mozart-requiem-dies-irae-104.4-112.988.png",
+    "work/mozart-requiem-dies-irae-104.917-112.988.png",
+    "work/mozart-requiem-dies-irae-107.5-110.png"
+  ]
+}

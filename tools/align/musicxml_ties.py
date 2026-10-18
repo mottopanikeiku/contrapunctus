@@ -8,9 +8,10 @@ from fractions import Fraction
 import xml.etree.ElementTree as ET
 
 
-def note_locations(part):
+def source_timing(part):
     divisions, elapsed = None, Fraction(0)
     result = {}
+    lengths = {}
     for measure in part.findall('measure'):
         cursor, extent, previous = Fraction(0), Fraction(0), None
         for item in measure:
@@ -46,7 +47,8 @@ def note_locations(part):
                 extent = max(extent, start + duration)
             extent = max(extent, cursor)
         elapsed += extent
-    return result
+        lengths[measure] = extent
+    return result, lengths
 
 
 def route_ties(xml, routes):
@@ -68,7 +70,7 @@ def route_ties(xml, routes):
         origin = select(route['measure'], route['fromNote'])
         target = select(route['measure'], route['toNote'])
         continuation = select(route['continuation']['measure'], route['continuation']['note'])
-        locations = note_locations(part)
+        locations, _ = source_timing(part)
         a, b, c = (locations[n] for n in (origin, target, continuation))
         if (a[:4] != b[:4] or a[2] is None or a[1] <= 0 or a[4] == b[4]
                 or c[0] != a[0] + a[1] or c[1] <= 0 or c[2:] != b[2:]):

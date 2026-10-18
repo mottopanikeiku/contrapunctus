@@ -13,6 +13,10 @@
     "musicxml": "Beethoven_Op.67_3.mxl",
     "stripLyrics": true,
     "otherDynamicsWords": true,
+    "musicxmlPartialMeasures": [
+      { "number": 162, "quarters": 2, "basis": "Every original MusicXML part contains exactly two quarter units in this first ending. The repeat returns to the one-quarter pickup; adding an importer spacer invents time and corrupts the ending structure." }
+    ],
+    "musicxmlSharedEndingsFrom": "P1",
     "downloads": [
       {
         "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/3/Beethoven_Op.67_3.mxl",
@@ -27,14 +31,13 @@
   },
   "extraction": {
     "mode": "compiled-midi",
-    "timeline": "performed",
     "definitions": [
       {
         "file": "Beethoven_Op.67_3.ly",
         "before": "\\score"
       }
     ],
-    "music": "\\unfoldRepeats \\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n\\new Staff = \"P16\" << \\new Voice { \\PartPOneSixVoiceOne } \\new Voice { \\PartPOneSixVoiceTwo } >>\n\\new Staff = \"P17\" << \\new Voice { \\PartPOneSevenVoiceOne } >>\n\\new Staff = \"P18\" << \\new Voice { \\PartPOneEightVoiceOne } >>\n>>"
+    "music": "\\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n\\new Staff = \"P16\" << \\new Voice { \\PartPOneSixVoiceOne } \\new Voice { \\PartPOneSixVoiceTwo } >>\n\\new Staff = \"P17\" << \\new Voice { \\PartPOneSevenVoiceOne } >>\n\\new Staff = \"P18\" << \\new Voice { \\PartPOneEightVoiceOne } >>\n>>"
   },
   "voices": [
     {
@@ -130,16 +133,17 @@
   ],
   "endpoints": {
     "first": [
-      0,
-      3
+      0.15,
+      0.4
     ],
     "last": [
       324.05,
       334.05
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+    "basis": "Independent opening pitch profiles distinguish the quiet G1/G2 pickup near 0.25 s, C2/C3 near 0.6 s, E-flat2/E-flat3 near 0.95 s, then G2/G3 near 1.25 s. The rejected broad-window endpoint 1.18 s selected the later G and compressed the pickup to 0.026 s. The narrow first window is a disclosed fitting constraint, not an independent or aural annotation."
   },
   "boundaries": [],
+  "diagnostics": { "overlays": [[0, 3], [216, 224], [248, 256], [256, 260]] },
   "engraving": {
     "staff": 12,
     "width": 310,
@@ -178,6 +182,6 @@
         374
       ]
     ],
-    "description": "Quarter-note pickup, then scherzo and trio with its written repeat: first pass through first ending, repeat starts on the trio upbeat within bar140, then second ending and written-out quiet scherzo return. XML split measures1/141/142/162 are implicit; no inserted padding rests."
+    "description": "Quarter-note pickup, then scherzo and trio with its written repeat: first pass through first ending, repeat starts on the trio upbeat within bar140, then second ending and written-out quiet scherzo return. XML1 is the initial pickup; XML141/142 form one 2+1-quarter bar, with only continuation142 marked implicit. The two-quarter first ending XML162 is preserved without importer padding, and P1's explicit endings are shared across identically repeated parts."
   }
 }

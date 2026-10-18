@@ -48,6 +48,10 @@
   "endpoints": {
     "first": [0.1, 0.45],
     "last": [208.7, 209.4],
+    "end": {
+      "seconds": 213.78,
+      "basis": "Fixed-common-reference pitch profiles distinguish a faint tonal decay from the global overlay’s display floor: E2 remains roughly 60 feature-dB above its adjacent semitone bins at 212.6 s, while G-sharp4/E5 also remain narrowly pitched through about 212.8 s. E2 then falls approximately 60–70 feature-dB below its final-chord reference by 213.6–213.8 s. Retain a 213.78 s pitched-decay display boundary, not an unsupported 210.6 s truncation. These are 20-log10 cached-feature ratios, not acoustic SPL or a measured bow release; the original whole-file RMS endpoint remains in the checks."
+    },
     "basis": "The genuine eighth-note pickup is the joint source-pitch rise near 0.28 s. The final E-major arrival is near 209.0 s, where E2/E5/G-sharp4 jointly replace the preceding B2/F-sharp5 dominant through 208.5 s. The stronger E/G-sharp energy around 205.5 s is an earlier cadence figure and must not collapse the remaining written notes. Pitch-band inspection, not closest-detector selection; no aural review is claimed."
   },
   "boundaries": [],

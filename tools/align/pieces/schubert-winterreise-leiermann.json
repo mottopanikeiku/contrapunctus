@@ -3,13 +3,19 @@
   "id": "schubert-winterreise-leiermann",
   "source": {
     "title": "Winterreise, D. 911 — No. 24 Der Leiermann (later version)",
-    "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established",
+    "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established. Rendering transposed −2 semitones (A minor → nominal G minor) to match this transfer, with the treble vocal line sounding 8vb; this does not establish the historical performers' chosen key.",
     "encoder": "OpenScore Lieder contributors",
     "url": "https://musescore.com/openscore-lieder-corpus/scores/5014023",
     "license": "CC0 1.0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "main": "song.ly",
     "musicxml": "lc5014023.mxl",
+    "musicxmlInitialGrace": {
+      "part": "P2",
+      "measure": 1,
+      "note": 1,
+      "basis": "Original lc5014023.mxl P2 measure 1 direct note index 1 is the visible D-sharp3 sixteenth grace in voice 5/staff 2 (sounding C-sharp3 after the documented whole-score transposition). Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes; retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.27/Documentation/notation/special-rhythmic-concerns#grace-notes ."
+    },
     "downloads": [
       {
         "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/24_Der_Leiermann_%28Sp%C3%A4tere_Fassung%29/lc5014023.mxl",
@@ -64,7 +70,7 @@
         61
       ]
     ],
-    "description": "Printed bars 1–61 once, all five poem stanzas written out in the later-version A-minor source. The first performed bar includes 0.0546875 quarter units of common MIDI pre-roll for the source's initial grace note, then its full three metric quarters; subsequent bars remain exactly three quarters. No strophic or hurdy-gurdy refrain repeat is inserted."
+    "description": "Printed bars 1–61 once, all five poem stanzas written out in the later-version A-minor source. The whole score is rendered −2 semitones in nominal G minor for this transfer; the baritone sounds a further octave below the treble vocal notation (8vb). This measured transfer-pitch match is not a historical-key assertion. The first performed bar includes 0.0546875 quarter units of common MIDI pre-roll for the source's initial grace note, then its full three metric quarters; subsequent bars remain exactly three quarters. No strophic or hurdy-gurdy refrain repeat is inserted."
   },
   "endpoints": {
     "first": [
@@ -83,7 +89,10 @@
       [
         169,
         192
-      ]
+      ],
+      [72, 80],
+      [104, 112],
+      [128, 136]
     ]
   },
   "provenance": [
@@ -98,6 +107,6 @@
     "staff": 17,
     "width": 240,
     "height": 320,
-    "music": "\\transpose c bes, <<\n        \n        \\new Staff\n        <<\n            \\set Staff.instrumentName = \"Voice (sounds 8vb)\"\n            \\set Staff.midiInstrument = \"acoustic grand\"\n            \n            \\context Staff << \n                \\mergeDifferentlyDottedOn\\mergeDifferentlyHeadedOn\n                \\context Voice = \"PartPOneVoiceOne\" {  \\PartPOneVoiceOne }\n                \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\set stanza = \"1.\" \\PartPOneVoiceOneLyricsOne }\n                >>\n            >>\n        \\new PianoStaff\n        <<\n            \\set PianoStaff.instrumentName = \"Pianoforte\"\n            \\set PianoStaff.midiInstrument = \"acoustic grand\"\n            \n            \\context Staff = \"1\" << \n                \\mergeDifferentlyDottedOn\\mergeDifferentlyHeadedOn\n                \\context Voice = \"PartPTwoVoiceOne\" {  \\voiceOne \\PartPTwoVoiceOne }\n                \\context Voice = \"PartPTwoVoiceTwo\" {  \\voiceTwo \\PartPTwoVoiceTwo }\n                >> \\context Staff = \"2\" <<\n                \\mergeDifferentlyDottedOn\\mergeDifferentlyHeadedOn\n                \\context Voice = \"PartPTwoVoiceFive\" {  \\voiceOne \\PartPTwoVoiceFive }\n                \\context Voice = \"PartPTwoVoiceSix\" {  \\voiceTwo \\PartPTwoVoiceSix }\n                >>\n            >>\n        \n        >>"
+    "music": "\\transpose c bes, << \\new Staff = \"voice\" \\with { instrumentName = \"Voice\" } << \\new Voice = \"PartPOneVoiceOne\" { \\once \\override Score.RehearsalMark.self-alignment-X = #LEFT \\mark \\markup { \\small \"Vocal line sounds one octave lower\" } \\PartPOneVoiceOne } \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\set stanza = \"1.\" \\PartPOneVoiceOneLyricsOne } >> \\new PianoStaff \\with { instrumentName = \"Pianoforte\" } << \\new Staff = \"1\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\new Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\new Voice = \"PartPTwoVoiceTwo\" { \\voiceTwo \\PartPTwoVoiceTwo } >> \\new Staff = \"2\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\new Voice = \"PartPTwoVoiceFive\" { \\voiceOne \\PartPTwoVoiceFive } \\new Voice = \"PartPTwoVoiceSix\" { \\voiceTwo \\PartPTwoVoiceSix } >> >> >>"
   }
 }

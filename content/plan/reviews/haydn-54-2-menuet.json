@@ -1,13 +1,5 @@
 {
   "id": "haydn-54-2-menuet",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "sections[2].t; cues[6]; transitions[1].at/span/evidence; orchestra.source.locator; orchestra.timeline[2].t",
-      "severity": "major",
-      "problem": "The recurrence lag of 144 seconds has been treated as the da-capo onset. It is the offset between excerpts, not the beginning of the return. The opening excerpt starts in the first strain’s second pass, whereas the da capo omits that repeat. The separate Trio path still runs through 149.5 seconds, making a restart at 144 inconsistent with the same evidence. The shorter da capo is about 45–48 seconds, not a full minute.",
-      "evidence": "cache/form/haydn-54-2-menuet.txt:41–44: 9.5–53.0 matches 153.5–197.0 (lag 144); Trio 116.5–132.0 matches 134.0–149.5. cache/analysis/haydn-54-2-menuet.txt: boundaries at 2:30 and 2:34, C major at 2:30–2:35. https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP05812-Haydn_-_Op._54,_No._2.pdf — printed pp. 191–192, first-strain repeat and Menuetto D.C.",
-      "fix": "Restore an approximate return marker around 150–152 seconds (150 is supported by the report), update all associated timestamps, transition span, clock text and orchestra locator, and explain that 144 is a lag rather than an onset. Retain the no-repeats observation but describe the da capo as roughly three-quarters of a minute, or simply shorter than the first appearance."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

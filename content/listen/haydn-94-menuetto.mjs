@@ -11,11 +11,11 @@ export default {
   performers: 'Boston Symphony Orchestra, Serge Koussevitzky',
   recorded: '1929',
   source: { file: 'File:Haydn; Symphony No. 94 "Surprise", 3. Menuetto (Allegro molto).ogg' },
-  intro: 'A minuet marked Allegro molto, so fast that the dance is already turning into a scherzo. Notice how the first strain is played twice, how a soft bassoon solo carries the Trio, and how the Menuetto returns shorter after it.',
+  intro: 'A minuet marked Allegro molto, so fast that the dance is already turning into a scherzo. Notice how the first strain is played twice, how the first violins and a soft bassoon carry the Trio together, and how the Menuetto returns shorter after it.',
   question: 'When does a minuet stop being a dance?',
   // Sources: https://www.laphil.com/works/symphony-no-94-surprise (Orrin Howard)
   // https://en.wikipedia.org/wiki/Symphony_No._94_(Haydn)
-  // Score: Haydn, Symphonies, ed. Rietz (Breitkopf & Härtel, plate 8876), IMSLP #546546, printed pp. 30–33
+  // Score: Haydn, Symphonies, ed. Rietz (Breitkopf & Härtel, plate 8876), IMSLP #546546, printed pp. 30–34
   sections: [
     { t: 0, label: 'Menuetto · Allegro molto, G major', m: 'A' },
     { t: 94, label: 'Trio · a quieter middle', m: 'B' },
@@ -26,10 +26,10 @@ export default {
     { t: 20, kind: 'music', title: 'The first strain again', text: 'The opening section lasts only about twenty seconds and is then played a second time, as the repeat sign requires. Listen for the same tune returning almost exactly: the repeat is part of the minuet’s design, not a mistake.', basis: 'audio-feature', precision: 'passage', evidence: 'A recurrence analysis matches 3.0–20.0 s with 23.5–40.5 s (offset 20.5 s, no transposition, similarity 0.96). The score marks a repeat after the first strain (IMSLP #546546, p. 30). The loudest windows include 0:15 and 0:35 (the two statements).' },
     { t: 46, kind: 'world', title: 'A peasant dance', text: 'Orrin Howard calls the Menuetto a true Austrian peasant dance, and the Trio that follows delightfully subtle and dignified. The contrast between the two is the point of the movement’s design.', basis: 'documented', precision: 'passage', evidence: 'Howard’s LA Phil note: https://www.laphil.com/works/symphony-no-94-surprise. The remark describes the movement as a whole and is not tied to a bar.' },
     { t: 84, kind: 'music', title: 'The strongest arrival', text: 'At 1:24 the movement’s strongest boundary falls: the level rises by about nine decibels in ten seconds, to the loudest stretch before the Trio. The Menuetto’s closing bars are near.', basis: 'audio-feature', precision: 'moment', evidence: 'The strongest boundary in the report is 1:24 (novelty 1.00); level rises from −21.2 dB at 1:20 to −12.0 dB at 1:30. The boundary marks a change in the second strain; the corresponding bar is not aligned.' },
-    { t: 94, kind: 'form', title: 'The Trio: a bassoon solo', text: 'The Trio is much quieter: the score gives a running first-bassoon line, marked piano, over light strings. Howard hears the Trio as subtle and dignified, and the contrast with the Menuetto’s forte opening is large.', basis: 'audio-feature', precision: 'passage', evidence: 'Level falls from −12.0 dB at 1:30 to −24.0 dB at 1:40 and stays near −22 to −26 dB through 2:20, with boundaries at 1:36 (0.57) and 1:40 (0.53). The score’s Trio (IMSLP #546546, p. 33) shows a line marked I. and p in the bassoon staff over soft strings; which player and phrase is not timed.' },
-    { t: 124, kind: 'music', title: 'The Trio repeats its phrases', text: 'Within the Trio, music of about twenty seconds is played twice, mirroring the Menuetto. Listen for a familiar phrase coming round again at about 2:16, shortly before the loud Menuetto returns.', basis: 'audio-feature', precision: 'passage', evidence: 'A recurrence analysis matches 115.5–132.0 s with 136.0–152.5 s (offset 20.5 s, no transposition, similarity 0.97). The score shows repeat signs in the Trio (IMSLP #546546, p. 33).' },
+    { t: 94, kind: 'form', title: 'The Trio: violins and bassoon', text: 'The Trio is much quieter. The first violins carry a running melody marked piano, doubled by the first bassoon, over light strings; in the middle of the Trio the bassoon rests and the violins go on alone. Howard hears the Trio as subtle and dignified.', basis: 'audio-feature', precision: 'passage', evidence: 'Level falls from −12.0 dB at 1:30 to −25.5 dB at 1:35 and stays between about −19 and −26 dB until 2:30, with boundaries at 1:36 (0.57) and 1:40 (0.53). The score’s Trio (IMSLP #546546, printed pp. 33–34) shows the first-violin melody marked p with the first bassoon (marked I.) on the same line, and the bassoon staff resting in the middle of the Trio; the entries are not timed.' },
+    { t: 124, kind: 'music', title: 'The Trio repeats its phrases', text: 'Within the Trio, music of about twenty seconds is played twice, mirroring the Menuetto. Listen for a familiar phrase coming round again at about 2:16, shortly before the loud Menuetto returns.', basis: 'audio-feature', precision: 'passage', evidence: 'A recurrence analysis matches 115.5–132.0 s with 136.0–152.5 s (offset 20.5 s, no transposition, similarity 0.97). The score shows repeat signs in the Trio (IMSLP #546546, printed pp. 33–34).' },
     { t: 154, kind: 'form', title: 'Da capo, and a shorter Menuetto', text: 'At about 2:34 the full Menuetto begins again, as the da capo instruction demands. This time the first strain is played once, so the return lasts about 75 seconds, against about 94 for the first statement.', basis: 'audio-feature', precision: 'passage', evidence: 'A recurrence analysis matches 3.0–20.5 s with 156.5–174.0 s (offset 153.5 s) and 23.0–93.5 s with 156.0–226.5 s (offset 133 s); the offsets differ by the 20.5 s length of the first strain, which indicates that it is played once in the return. The loudest windows include 2:50. The first bar is not aligned.' },
-    { t: 196, kind: 'listen', title: 'The last loud chords', text: 'The return ends with the second strain’s loud closing bars, with the loudest windows around 3:25. Listen for the sound to drop away by 3:30, quieter than anything before it.', basis: 'audio-feature', precision: 'passage', evidence: 'The loudest five-second windows include 3:25 (−11.1 dB at 3:20); the quietest windows include 3:30 and 3:45 (−27.5 dB at 3:30); the file ends at 3:50.' },
+    { t: 196, kind: 'listen', title: 'Loud chords and soft answers', text: 'The return alternates forte chords with soft answers: between 3:00 and 3:30 the level jumps from about −28 dB to about −11 dB and back. From about 3:36 a closing phrase runs down to the last quiet bars at 3:45. Listen for the swings.', basis: 'audio-feature', precision: 'passage', evidence: 'Levels are −28.5 dB at 3:00, −11.7 dB at 3:05, −28.5 dB at 3:15, −11.1 dB at 3:20, −10.8 dB at 3:25, −27.5 dB at 3:30 and −28.6 dB at 3:45; boundaries at 3:36 (0.77) and earlier ones at 3:00 and 3:14; the file ends at 3:50. The alternation is a recording observation, and the corresponding bars are not aligned.' },
   ],
   transitions: [
     {
@@ -39,11 +39,11 @@ export default {
       to: 'Trio',
       at: { t: 94 },
       span: [82, 108],
-      how: '<p>The Menuetto’s second strain ends forte with the whole orchestra, and the Trio follows at once in a much lower dynamic with a solo first bassoon and light strings. The dynamic and the orchestration change together. The key signature stays at one sharp, so the contrast is one of weight and colour. The Trio’s phrases are also repeated, as the Menuetto’s are.</p>',
-      devices: ['decrescendo', 'orchestration change', 'texture change'],
+      how: '<p>The Menuetto’s second strain ends forte with the whole orchestra, and the Trio follows at once in a much lighter dynamic: the first violins carry the melody, doubled by the first bassoon, over light strings. The dynamic and the orchestration change together, with no gradual decrescendo. The key signature stays at one sharp, so the contrast is one of weight and colour. The Trio’s phrases are repeated, as the Menuetto’s are.</p>',
+      devices: ['orchestration change', 'texture change'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'Level falls from −12.0 dB at 1:30 to −24.0 dB at 1:40; boundaries at 1:36 (0.57) and 1:40 (0.53). The bassoon solo and the key are read from the score at passage level (IMSLP #546546, pp. 32–33); no bar is aligned.',
+      evidence: 'Level falls from −12.0 dB at 1:30 to −25.5 dB at 1:35; boundaries at 1:36 (0.57) and 1:40 (0.53). The Trio’s scoring and the one-sharp key signature are read from the score at passage level (IMSLP #546546, printed pp. 33–34); no bar is aligned.',
     },
     {
       id: 'da-capo',
@@ -52,20 +52,20 @@ export default {
       to: 'Menuetto da capo',
       at: { t: 154 },
       span: [142, 168],
-      how: '<p>After the Trio the instruction da capo sends the orchestra back to the beginning of the Menuetto, and the full-orchestra forte of the opening returns without any transition. In this performance the first strain is played only once at the return, so the da capo is about twenty seconds shorter than the first statement. The join is a straightforward change of dynamic and texture, from soft bassoon solo to tutti.</p>',
+      how: '<p>After the Trio the instruction da capo sends the orchestra back to the beginning of the Menuetto, and the full-orchestra forte of the opening returns without any transition. In this performance the first strain is played only once at the return, so the da capo is about twenty seconds shorter than the first statement. The join is a straightforward change of dynamic and texture, from the soft violin and bassoon melody to the full orchestra.</p>',
       devices: ['texture change', 'orchestration change', 'motivic link'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'A recurrence analysis finds the opening strain again from about 153.5 s and the following music at an offset 20.5 s smaller, which indicates that the first-strain repeat is omitted. The score’s da capo direction is at the end of the Trio (IMSLP #546546, p. 33); the bar is not aligned.',
+      evidence: 'A recurrence analysis finds the opening strain again from about 153.5 s and the following music at an offset 20.5 s smaller, which indicates that the first-strain repeat is omitted. The score’s da capo direction, “Men. D. C.”, is at the end of the Trio on printed p. 34 (IMSLP #546546); the bar is not aligned.',
     },
   ],
   orchestra: {
     ensemble: ['flutes', 'oboes', 'bassoons', 'horns', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Haydn, Symphony No. 94, full score (Leipzig: Breitkopf & Härtel, ed. Rietz, plate 8876, [1855])', url: 'https://imslp.org/wiki/Symphony_No.94_in_G_major,_Hob.I:94_(Haydn,_Joseph)', locator: 'IMSLP #546546, III. Menuetto and Trio, printed pp. 30–33; times follow the boundary at 1:36 and the recurrence analysis at 154 s and are approximate.' },
+    source: { title: 'Haydn, Symphony No. 94, full score (Leipzig: Breitkopf & Härtel, ed. Rietz, plate 8876, [1855])', url: 'https://imslp.org/wiki/Symphony_No.94_in_G_major,_Hob.I:94_(Haydn,_Joseph)', locator: 'IMSLP #546546, III. Menuetto and Trio, printed pp. 30–34; times follow the boundary at 1:36 and the recurrence analysis at 154 s and are approximate.' },
     timeline: [
       { t: 0, playing: ['flutes', 'oboes', 'bassoons', 'horns', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'Menuetto: the whole orchestra at forte, with the violins carrying the tune.' },
-      { t: 94, playing: ['bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['bassoons'], note: 'Trio: a first-bassoon solo over light strings.' },
+      { t: 94, playing: ['bassoons', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'bassoons'], note: 'Trio: the first violins carry the tune, doubled by the first bassoon, which rests in the middle section.' },
       { t: 154, playing: ['flutes', 'oboes', 'bassoons', 'horns', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'Da capo: the full orchestra returns.' },
     ],
   },

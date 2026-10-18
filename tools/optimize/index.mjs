@@ -1,6 +1,5 @@
 import path from 'node:path';
 import { readFile } from 'node:fs/promises';
-import { pathToFileURL } from 'node:url';
 import { transform as javascript } from 'esbuild';
 import { transform as stylesheet, browserslistToTargets } from 'lightningcss';
 import browserslist from 'browserslist';
@@ -28,8 +27,11 @@ async function minifyAssets(out, source) {
   const versions = new Map();
   for (const file of await files(source)) {
     const relative = path.relative(source, file).split(path.sep).join('/');
-    if (!/\.(css|js)$/.test(relative)) continue;
     const input = await readFile(file);
+    if (!/\.(css|js)$/.test(relative)) {
+      await save(path.join(out, 'assets', relative), relative.endsWith('.json') ? JSON.stringify(JSON.parse(input)) : input);
+      continue;
+    }
     const css = relative.endsWith('.css');
     const key = hash(`assets-v1-${JSON.stringify(targets)}-${relative}-${hash(input)}`);
     const result = await cached(key, css ? 'css' : 'js', async () => {
@@ -80,15 +82,18 @@ async function criticalCSS(html, file) {
   const result = await processor.process(html);
   return result.replace(/<style>/g, '<style data-cp-critical>').replace(/\sdata-beasties-container(?:="")?/g, '');
 }
-export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets'), images = true } = {}) {
+export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets') } = {}) {
   const started = performance.now();
   const all = await files(out);
   const pages = all.filter((file) => file.endsWith('.html'));
-  // Source text is scanned before JS minification can escape or drop glyphs.
-  const fontFiles = [...all.filter((file) => /\.(?:html|json)$/.test(file)), ...(await files(source)).filter((file) => /\.(?:js|css)$/.test(file))];
+  // Scan display text before minification. Search postings are encoded binary
+  // strings; their original page text is already covered by the HTML scan.
+  // abcjs embeds notation vectors rather than text for these font families.
+  const fontFiles = [...all.filter((file) => /\.(?:html|json)$/.test(file) && !/^assets\/search(?:\/|\.json$)/.test(path.relative(out, file).split(path.sep).join('/'))), ...(await files(source)).filter((file) => /\.(?:js|css)$/.test(file) && !path.relative(source, file).startsWith(`vendor${path.sep}`))];
   const fonts = await optimizeFonts(fontFiles, out);
   const art = JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'));
-  const imageResult = images ? await optimizeImages(out) : null;
+  const imageResult = await optimizeImages(out);
+  const artVersion = hash(JSON.stringify([art, imageResult.formats]));
   const versions = await minifyAssets(out, source);
   for (const file of all.filter((file) => file.endsWith('.json'))) {
     const original = await readFile(file, 'utf8');
@@ -98,15 +103,17 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
   for (const file of pages) {
     const relative = path.relative(out, file).split(path.sep).join('/');
     const base = relative === '404.html' ? '/contrapunctus/' : '../'.repeat(relative.split('/').length - 1);
-    let html = versionHTML(await readFile(file, 'utf8'), relative, versions, programmeVersion);
-    if (relative === 'index.html' || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) html = await criticalCSS(html, file);
-    html = html.replace('<!--cp-fonts-->', fonts.head(base));
-    html = await htmlMinify(html, htmlOptions);
-    await save(file, html);
+    const html = versionHTML(await readFile(file, 'utf8'), relative, versions, programmeVersion);
+    const head = fonts.head(base);
+    const result = await cached(hash(`html-v2-${relative}-${artVersion}-${head}-${html}`), 'html', async () => {
+      let result = pictureHTML(html, relative, art, imageResult.formats);
+      if (relative === 'index.html' || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) result = await criticalCSS(result, file);
+      result = result.replace('<!--cp-fonts-->', head);
+      return htmlMinify(result, htmlOptions);
+    });
+    await save(file, result);
   }
   const worker = await generateServiceWorker(out);
-    html = pictureHTML(html, relative, art);
-  console.log(`optimized ${pages.length} pages, ${versions.size} CSS/JS files, ${fonts.manifest.length} subset fonts (${fonts.manifest.reduce((sum, f) => sum + f.bytes, 0)} bytes), ${imageResult?.generated ?? 0} new AVIFs; SW ${worker.entries} revisions; ${((performance.now() - started) / 1000).toFixed(2)}s`);
+  console.log(`optimized ${pages.length} pages, ${versions.size} CSS/JS files, ${fonts.manifest.length} subset fonts (${fonts.manifest.reduce((sum, f) => sum + f.bytes, 0)} bytes), ${imageResult.avifPictures} AVIF picture sets (${imageResult.generated} new encodes); SW ${worker.precached} precached/${worker.entries} revisioned; ${((performance.now() - started) / 1000).toFixed(2)}s`);
   return { fonts: fonts.manifest, images: imageResult, worker };
 }
-if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) await optimize();

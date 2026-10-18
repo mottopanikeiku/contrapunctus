@@ -168,10 +168,10 @@
       3
     ],
     "last": [
-      1004.88,
-      1014.88
+      1009.45,
+      1009.95
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
+    "basis": "The closing feature overlay shows two detached chords, then the final sustained C-major tutti rising near 1009.6–1009.7 s. The rejected broad-window last endpoint 1010.38 s was already inside that chord. This restricted final search is a disclosed fitting constraint, not independent validation or an aural annotation; the unchanged primary timing gate remains decisive."
   },
   "boundaries": [],
   "engraving": {

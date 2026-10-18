@@ -7,12 +7,12 @@ export default {
   set: { id: 'faure-requiem', title: 'Requiem, Op. 48', part: 2, of: 7 },
   year: '1887–1900',
   key: 'B minor',
-  forces: 'Altos, tenors and basses, baritone solo, orchestra and organ',
+  forces: 'Mixed chorus, baritone solo, orchestra and organ',
   performers: 'Bernard Kruysen, baritone; Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo, Louis Frémaux',
   recorded: '1962',
   source: { file: 'File:Fauré - Requiem - II. Offertoire.flac' },
   question: 'How does a canon on a narrow tune carry a prayer for the dead?',
-  intro: 'The Offertoire has no sopranos: altos and tenors sing a close canon on a plain modal tune, a baritone offers the Hostias, and the opening prayer returns. Follow the canon as it climbs and the last Amen turns to major.',
+  intro: 'The opening canon has no sopranos: altos and tenors sing a close canon on a plain modal tune, a baritone offers the Hostias, and the prayer returns with the sopranos added. Follow the canon as it climbs and the last Amen turns to major.',
   // Work history, text and structure: https://en.wikipedia.org/wiki/Requiem_(Faur%C3%A9)
   // Full score (Hamelle, 1901; Kalmus reprint): https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf
   sections: [
@@ -99,7 +99,7 @@ export default {
       to: 'Amen',
       at: { t: 422 },
       span: [410, 436],
-      how: '<p>The returning prayer climbs to its loudest point, then falls to pianissimo for “ne cadant in obscurum” at letter K, again broken by rests. Fauré closes the text with an “Amen” of his own: the voices sing it in imitation and the mode brightens to B major, the major form of the movement’s opening key. The organ and strings sink beneath the final chord. The prayer ends in consolation, not in the darkness it feared.</p>',
+      how: '<p>The returning prayer climbs to its loudest point, then falls to pianissimo for “ne cadant in obscurum” at letter K, again broken by rests. Fauré closes the text with an “Amen” of his own: the voices sing it in imitation and the mode brightens to B major, the major form of the movement’s opening key. The strings sound one chord at the change and then rest, leaving voices and organ to finish. The prayer ends in consolation, not in the darkness it feared.</p>',
       devices: ['decrescendo', 'texture change'],
       basis: 'audio-feature',
       precision: 'passage',
@@ -116,12 +116,12 @@ export default {
     },
     timeline: [
       { t: 0, playing: ['violas', 'cellos', 'organ'], lead: ['violas', 'cellos'], note: 'Violas and cellos rise over the organ at Adagio molto.' },
-      { t: 20, playing: ['violas', 'cellos', 'basses', 'organ'], lead: ['violas', 'cellos'], note: 'The basses join as the prelude swells to forte.' },
-      { t: 35, playing: ['chorus', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'Altos and tenors enter pianissimo in canon; the sopranos are not used in this movement.' },
+      { t: 35, playing: ['chorus', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'Altos and tenors enter pianissimo in canon; the sopranos are silent in this opening canon and join the returning prayer.' },
       { t: 210, playing: ['solo-voice', 'violas', 'cellos', 'basses', 'organ'], lead: ['solo-voice'], note: 'The baritone sings the Hostias over repeated quavers in the violas and cellos; the choir is silent.' },
       { t: 272, playing: ['solo-voice', 'violas', 'cellos', 'basses', 'organ'], lead: ['organ', 'solo-voice'], note: 'The organ is marked Solo at letter F as the strings thin to isolated chords.' },
-      { t: 345, playing: ['chorus', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'The choir returns in four parts at the first tempo, with strings and organ below.' },
-      { t: 422, playing: ['chorus', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'The choir sings the added Amen over strings and organ.' },
+      { t: 345, playing: ['chorus', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'The choir returns in four parts, now with the sopranos, at the first tempo, with strings and organ below.' },
+      { t: 422, playing: ['chorus', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'The choir sings the added Amen; the strings sound one chord at the change to B major.' },
+      { t: 430, playing: ['chorus', 'organ'], lead: ['chorus'], note: 'The strings rest; voices and organ finish the Amen.' },
     ],
   },
 };

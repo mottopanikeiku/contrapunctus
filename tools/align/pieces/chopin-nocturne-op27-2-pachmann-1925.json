@@ -15,24 +15,27 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.ly",
         "file": "chopin-nocturne-8.ly",
-        "sha256": null
+        "sha256": "60c9308bdfb60897a94abdf0ec449e82914559b53c2d36001ba0a628224e97ee"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O27/chopin-nocturne-8/chopin-nocturne-8.mid",
         "file": "chopin-nocturne-8.mid",
-        "sha256": null
+        "sha256": "9725f419ef122a816da97fb2e7186449471db151e5994023e7e0f81849a1a1b0"
       }
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "compiled-midi",
+    "definitions": [{"file": "chopin-nocturne-8.ly", "before": "\\score"}],
+    "music": "\\new PianoStaff << \\new Staff = \"upper\" { \\time 6/8 \\clef treble \\key des \\major \\treble } \\new Staff = \"lower\" { \\time 6/8 \\clef bass \\key des \\major \\bass } >>",
+    "midiSettings": "\\context { \\Voice \\remove \"Dynamic_performer\" }"
   },
   "voices": [
     {
       "id": "upper",
       "name": "Piano — upper staff",
       "tracks": [
-        3
+        1
       ]
     },
     {
@@ -74,7 +77,8 @@
     "height": 297
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Debussy-edited 1915 source, solo piano Nocturne No. 8 in D♭. INFERENCE: Correct work/key/scoring for Lévy; ornamental and textual variants have not been compared with the recording.",
-    "Read content/listen/chopin-nocturne-op27-2-pachmann-1925.mjs and cache/analysis/chopin-nocturne-op27-2-pachmann-1925.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise must be inspected separately."
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Debussy-edited 1915 source, solo piano Nocturne No. 8 in D-flat. INFERENCE: Correct work/key/scoring for the Pachmann transfer; ornamental and textual variants have not been compared with the recording.",
+    "Read content/listen/chopin-nocturne-op27-2-pachmann-1925.mjs and cache/analysis/chopin-nocturne-op27-2-pachmann-1925.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise must be inspected separately.",
+    "The original published MIDI has three channel-2 C-sharp5 releases at tick 58752 with only one active note, leaving two excess releases and no dangling onsets anywhere. Preserve that download unchanged, but compile the source's named treble and bass variables into explicit piano staves with LilyPond 2.24.4. Do not ignore unmatched releases or synthesize note durations."
   ]
 }
