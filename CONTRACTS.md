@@ -79,6 +79,7 @@ An empty `relations` array is a valid, honest answer.
 - Publication requires a primary unique-attack median ≤0.15 s, first/middle/last onset deviation ≤0.5 s, every nonempty eight-second local-normalised median ≤0.3 s, no collapsed notes/attacks, and a valid rounded score contract. A numeric pass never overrides an observed wrong edition, pitch or repeat order and never implies aural review.
 - Fresh candidate/check JSON and pitch-energy PNG overlays remain in `tools/align/work/`. Without `--publish`, public files are untouched; with it, engraving and sheetpacking must succeed before replacing `score.json` and `sheet/`. Notehead/rest `data-bar` and `data-pos` retain printed score coordinates; `bars[].occ` distinguishes repeated traversals. Source licences remain distinct from recording rights.
 - Engraved whiteout is paper, not ink: source white masks use `var(--paper, #fbf5e6)` and retain their order above earlier ink and below later annotations. Ordinary black ink inherits `currentColor`; other explicit source colours survive packing. Paper masks do not create barline geometry.
+- Inline score examples embedded in main-score markups retain their visible notation but do not supply main-score bar identities or staff/barline tags. A local annotation bar 1 must not create another opening-bar box on a later page. Real timed cue/ossia staves remain part of main-score instrumentation.
 
 ## Recording dossier: `content/dossiers/<id>.json`
 
@@ -277,12 +278,12 @@ or an activated Hall visit, never on passive navigation prefetch.
 
 The router coalesces hover/focus/touch prefetches with clicks, bounds its HTML cache
 to eight entries/four MB/ten minutes, and keeps inactive parsed stylesheets with
-`media="not all"` for return navigation. Relative stylesheet URLs are made absolute
-before history changes. Body swaps leave `#cp-persist` untouched.
-Inline `style[data-cp-fonts]` blocks are replaced at commit with the incoming page's
-ordered font declarations. Their `url(...)` values are resolved against their
-page's base URI both at startup and before incoming styles are inserted, so a
-history change cannot retarget font requests. Critical inline CSS is still removed.
+`media="not all"` for return navigation. All initial head `link[href]` URLs are
+made absolute before history changes, including stylesheets, favicons and preloads.
+Body swaps leave `#cp-persist` untouched.
+Shared font faces live in `assets/css/fonts.css`; their relative font URLs resolve
+against that stylesheet, independently of SPA history. The router retains this
+stylesheet like other shared CSS. Page-specific critical inline CSS is still removed.
 Page modules read their version from the literal `data-<module-name>` attribute,
 including hyphenated names such as `data-atlas-map`, with the site version as fallback.
 Mount selectors using those same data attributes must search the body subtree,
@@ -296,6 +297,11 @@ populating it does not change the settled tab geometry.
 For an authored backdrop-filter pair, keep `-webkit-backdrop-filter` before
 the identical unprefixed declaration. The standard property must remain last
 so CSS minification does not leave Chrome with only the prefixed spelling.
+
+Once the service worker is ready, the shell posts `cache-visited-assets` with
+deduplicated Resource Timing URLs for already-used same-origin app-root assets,
+excluding audio/media. This covers assets loaded before worker control; the worker
+owns cache population, and the app does not fetch additional assets for the handoff.
 
 `node tools/perf-preview.mjs 8768` serves the current build locally with gzip and
 GitHub Pages' 600-second cache lifetime for browser transfer accounting.

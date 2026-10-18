@@ -10,7 +10,7 @@ const pages = process.env.PAGES?.split(',') || ['index.html', 'hall.html', 'infl
 const rows = [];
 for (const page of pages) for (const mode of process.env.MODES?.split(',') || ['mobile', 'desktop']) {
   const file = path.join(dir, `${page.replaceAll('/', '_')}.${mode}.json`);
-  const args = ['lighthouse', new URL(page, `${origin}/`).href, '--only-categories=performance', '--output=json', `--output-path=${file}`, `--chrome-flags=--headless --no-sandbox --disable-dev-shm-usage ${process.env.CHROME_FLAGS || ''}`, '--quiet', ...(mode === 'desktop' ? ['--preset=desktop'] : [])];
+  const args = ['lighthouse', new URL(page, `${origin}/`).href, '--only-categories=performance', '--output=json', `--output-path=${file}`, `--chrome-flags=--headless --no-sandbox --disable-dev-shm-usage ${process.env.CHROME_FLAGS || ''}`, '--quiet', ...(mode === 'desktop' ? ['--preset=desktop'] : []), ...(process.env.THROTTLING_METHOD ? [`--throttling-method=${process.env.THROTTLING_METHOD}`] : [])];
   console.log(`$ npx ${args.join(' ')}`);
   await new Promise((resolve, reject) => {
     const child = spawn('npx', args, { stdio: 'inherit' });

@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "id": "rachmaninoff-prelude-c-sharp-minor",
+  "kind": "chromatic-coda-source-order-correction",
+  "audioSha256": "28bd8f1ac07e462fe14633a461f2c7dd14e767054786faa8d6ce1bd3376d1554",
+  "fractionalTuningHz": 430.45,
+  "nominalSoundingSemitoneCorrection": 0,
+  "basis": "Absolute tuned pitch-energy inspection of all chromatically changing upper voicings over the repeated tonic pedal. These are disclosed fitting observations, not independent or aural validation. The unchanged original-key engraving is not transposed.",
+  "events": [
+    {
+      "sourceQ": 219,
+      "printedPitches": [
+        52,
+        57,
+        61,
+        64,
+        69,
+        73
+      ],
+      "soundingPitches": [
+        52,
+        57,
+        61,
+        64,
+        69,
+        73
+      ],
+      "diagnosticSoundingPitches": [
+        57,
+        69
+      ],
+      "searchWindowSeconds": [
+        193.8,
+        194.2
+      ],
+      "diagnosticPeakSeconds": 194.02,
+      "diagnosticMeanEnergyAtPeak": 1.5412957668304443,
+      "diagnosticPreAttackMedianEnergy": 0.0012199325719848275,
+      "fittedAudioSeconds": 193.86,
+      "mappedAudioSeconds": 193.86,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "sourceQ": 223,
+      "printedPitches": [
+        52,
+        58,
+        61,
+        64,
+        68,
+        73
+      ],
+      "soundingPitches": [
+        52,
+        58,
+        61,
+        64,
+        68,
+        73
+      ],
+      "diagnosticSoundingPitches": [
+        58,
+        68
+      ],
+      "searchWindowSeconds": [
+        197.5,
+        197.95
+      ],
+      "diagnosticPeakSeconds": 197.76,
+      "diagnosticMeanEnergyAtPeak": 3.8185484409332275,
+      "diagnosticPreAttackMedianEnergy": 0.02710622549057007,
+      "fittedAudioSeconds": 197.64,
+      "mappedAudioSeconds": 197.64,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "sourceQ": 227,
+      "printedPitches": [
+        52,
+        55,
+        61,
+        64,
+        69,
+        73
+      ],
+      "soundingPitches": [
+        52,
+        55,
+        61,
+        64,
+        69,
+        73
+      ],
+      "diagnosticSoundingPitches": [
+        55,
+        69
+      ],
+      "searchWindowSeconds": [
+        201.5,
+        201.95
+      ],
+      "diagnosticPeakSeconds": 201.74,
+      "diagnosticMeanEnergyAtPeak": 0.14553199708461761,
+      "diagnosticPreAttackMedianEnergy": 0.00027707204571925104,
+      "fittedAudioSeconds": 201.68,
+      "mappedAudioSeconds": 201.68,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "sourceQ": 231,
+      "printedPitches": [
+        52,
+        54,
+        58,
+        61,
+        64,
+        66,
+        70,
+        73
+      ],
+      "soundingPitches": [
+        52,
+        54,
+        58,
+        61,
+        64,
+        66,
+        70,
+        73
+      ],
+      "diagnosticSoundingPitches": [
+        54,
+        58,
+        66,
+        70
+      ],
+      "searchWindowSeconds": [
+        206.15,
+        206.6
+      ],
+      "diagnosticPeakSeconds": 206.36,
+      "diagnosticMeanEnergyAtPeak": 0.6407950520515442,
+      "diagnosticPreAttackMedianEnergy": 0.00044633125071413815,
+      "fittedAudioSeconds": 206.28,
+      "mappedAudioSeconds": 206.28,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "sourceQ": 235,
+      "printedPitches": [
+        51,
+        54,
+        57,
+        61,
+        63,
+        66,
+        69,
+        73
+      ],
+      "soundingPitches": [
+        51,
+        54,
+        57,
+        61,
+        63,
+        66,
+        69,
+        73
+      ],
+      "diagnosticSoundingPitches": [
+        51,
+        54,
+        57,
+        63,
+        66,
+        69
+      ],
+      "searchWindowSeconds": [
+        211.25,
+        211.75
+      ],
+      "diagnosticPeakSeconds": 211.48,
+      "diagnosticMeanEnergyAtPeak": 0.053902190178632736,
+      "diagnosticPreAttackMedianEnergy": 4.7357738367281854e-05,
+      "fittedAudioSeconds": 211.38,
+      "mappedAudioSeconds": 211.38,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "sourceQ": 240,
+      "printedPitches": [
+        44,
+        49,
+        52,
+        56,
+        61,
+        64,
+        68,
+        73
+      ],
+      "soundingPitches": [
+        44,
+        49,
+        52,
+        56,
+        61,
+        64,
+        68,
+        73
+      ],
+      "diagnosticSoundingPitches": [
+        56,
+        68
+      ],
+      "searchWindowSeconds": [
+        214.95,
+        215.35
+      ],
+      "diagnosticPeakSeconds": 215.14,
+      "diagnosticMeanEnergyAtPeak": 0.0018200681079179049,
+      "diagnosticPreAttackMedianEnergy": 3.194156306562945e-05,
+      "fittedAudioSeconds": 215.02,
+      "mappedAudioSeconds": 215.02,
+      "mappingDeviationSeconds": 0.0
+    }
+  ],
+  "medianAbsoluteOnsetDeviation": 0.12724019689176203,
+  "p95AbsoluteOnsetDeviation": 0.5809286820419183,
+  "gateReasons": []
+}

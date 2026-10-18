@@ -33,7 +33,7 @@ async function minifyAssets(out, source) {
       continue;
     }
     const css = relative.endsWith('.css');
-    const key = hash(`assets-v1-${JSON.stringify(targets)}-${relative}-${hash(input)}`);
+    const key = hash(`assets-v2-${JSON.stringify(targets)}-${relative}-${hash(input)}`);
     const result = await cached(key, css ? 'css' : 'js', async () => {
       if (css) {
         const result = stylesheet({ filename: relative, code: Buffer.from(fontFallbacks(input.toString())), minify: true, targets, errorRecovery: false });
@@ -69,9 +69,9 @@ function versionHTML(html, relative, versions, programmeVersion) {
   });
 }
 async function criticalCSS(html, file) {
-  // These disconnected containers cover the masthead and the first viewport
-  // at both tested widths; no viewport/runtime dependency is added to builds.
-  html = html.replace(/<(header|section) class="(masthead|hero|c-hero)"/g, '<$1 data-beasties-container class="$2"');
+  // Match against the complete document. Subtree roots lose ancestor-based
+  // masthead selectors and the out-of-tree skip link, producing a cold-load
+  // layout shift when the complete sheet arrives.
   const processor = new Beasties({
     path: path.dirname(file), preload: 'media', pruneSource: false,
     reduceInlineStyles: false, mergeStylesheets: false, fonts: false,
@@ -104,16 +104,15 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
     const relative = path.relative(out, file).split(path.sep).join('/');
     const base = relative === '404.html' ? '/contrapunctus/' : '../'.repeat(relative.split('/').length - 1);
     const html = versionHTML(await readFile(file, 'utf8'), relative, versions, programmeVersion);
-    const head = await fonts.head(base, html, relative);
-    const result = await cached(hash(`html-v2-${relative}-${artVersion}-${head}-${html}`), 'html', async () => {
+    const head = fonts.head(base, relative);
+    const result = await cached(hash(`html-v5-${relative}-${artVersion}-${head}-${html}`), 'html', async () => {
       let result = pictureHTML(html, relative, art, imageResult.formats);
-      if (relative === 'index.html' || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) result = await criticalCSS(result, file);
+      if (['index.html', 'influence.html', 'atlas-map.html', 'glossary.html'].includes(relative) || relative.startsWith('compare/') || /^composers\/(?!index\.html)[^/]+\.html$/.test(relative)) result = await criticalCSS(result, file);
       result = result.replace('<!--cp-fonts-->', head);
       return htmlMinify(result, htmlOptions);
     });
     await save(file, result);
   }
-  await fonts.finish();
   const worker = await generateServiceWorker(out);
   console.log(`optimized ${pages.length} pages, ${versions.size} CSS/JS files, ${fonts.manifest.length} subset fonts (${fonts.manifest.reduce((sum, f) => sum + f.bytes, 0)} bytes), ${imageResult.avifPictures} AVIF picture sets (${imageResult.generated} new encodes); SW ${worker.precached} precached/${worker.entries} revisioned; ${((performance.now() - started) / 1000).toFixed(2)}s`);
   return { fonts: fonts.manifest, images: imageResult, worker };

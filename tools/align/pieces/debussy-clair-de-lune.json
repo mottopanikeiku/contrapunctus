@@ -67,11 +67,25 @@
       5
     ],
     "last": [
-      239,
-      248
+      244.65,
+      245.0
     ],
-    "basis": "Cached analysis identifies final tonic span after240s before a long noisy decay. These broad first-pass source-pitch search windows need fresh overlay inspection; high detected onsets in the tail are surface noise, not proof of extra piano attacks."
+    "basis": "The complete logarithmic absolute-pitch ending shows the final eight-note D-flat-major chord at244.8s, after the ascending left-hand D-flat6 at244.02s. The initial broad search wrongly selected241.44s during that arpeggio, despite passing numerical gates. These source-specific pitch windows are not an independent or aural review."
   },
+  "anchors": [
+    {
+      "label": "final-arpeggio-F4",
+      "scoreQ": 316.5,
+      "window": [240.15, 240.5],
+      "basis": "The source left-hand F4 ascent reaches MIDI65 at the measured240.30s pitch rise; the old mapping put it at239.03s. This constrains the actual ascending register sequence, not just repeated D-flat-major chroma."
+    },
+    {
+      "label": "final-arpeggio-D-flat6",
+      "scoreQ": 319,
+      "window": [243.85, 244.2],
+      "basis": "The final ascending D-flat6, MIDI85, has a distinct measured244.02s rise before the soft eight-note closing chord at244.8s. The old mapping reached this register near241s, several seconds too early."
+    }
+  ],
   "boundaries": [],
   "diagnostics": {
     "overlays": [

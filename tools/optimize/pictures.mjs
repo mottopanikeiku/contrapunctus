@@ -31,6 +31,7 @@ export function pictureHTML(html, relative, art, formats) {
   const edits = [], doc = parse(html, { sourceCodeLocationInfo: true });
   const base = relative === '404.html' ? '/contrapunctus/' : '../'.repeat(relative.split('/').length - 1);
   function visit(node) {
+    let handledImage = false;
     if (node.tagName === 'source' && node.attrs.some(({ name, value }) => name === 'type' && value === 'image/avif')) {
       const attribute = node.attrs.find(({ name }) => name === 'srcset' || name === 'data-srcset');
       if (attribute) {
@@ -62,7 +63,16 @@ export function pictureHTML(html, relative, art, formats) {
           if (!attributes.loading && attributes.fetchpriority !== 'high') extra += ' loading="lazy"';
           img = img.replace(/\s*\/?>$/, `${extra}>`);
           edits.push({ start: location.startOffset, end: location.endOffset, value: wrap(image, base, sizes, img, formats) });
+          handledImage = true;
         }
+      }
+    }
+    if (node.tagName === 'img' && !handledImage) {
+      const attributes = Object.fromEntries(node.attrs.map(({ name, value }) => [name, value]));
+      const extra = `${attributes.decoding ? '' : ' decoding="async"'}${attributes.loading || attributes.fetchpriority === 'high' ? '' : ' loading="lazy"'}`;
+      if (extra) {
+        const location = node.sourceCodeLocation;
+        edits.push({ start: location.startOffset, end: location.endOffset, value: html.slice(location.startOffset, location.endOffset).replace(/\s*\/?>$/, `${extra}>`) });
       }
     }
     for (const child of node.childNodes || []) visit(child);

@@ -75,6 +75,99 @@
     ],
     "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
   },
+  "anchors": [
+    {
+      "scoreQ": 401.203125,
+      "window": [432.0, 432.35],
+      "label": "bar-134-cadenza-A5-A6-peak",
+      "basis": "The complete source cadenza is compressed by scaleDurations2/22 in symbolic time. Full428–445s logarithmic inspection identifies its real A6 apex at432.16s (A6 energy0.53544), within the rising-and-falling flourish. A previous435.58s window captured only a weak residual harmonic (A5/A6 pair0.00441) and was rejected. The original unconstrained run was later still. This is disclosed source-pitch fitting evidence, not independent validation."
+    },
+    {
+      "scoreQ": 401.29427083333326,
+      "window": [432.8, 433.08],
+      "label": "bar-134-first-descending-A5",
+      "basis": "The first descending C-sharp5/A5 pair has a measured432.94s pitch peak after the432.16s A6 apex. Pinning the apex alone left the following 2/22-scaled notes compressed near437s; this directly inspected source event prevents that false held apex."
+    },
+    {
+      "scoreQ": 401.38541666666674,
+      "window": [433.6, 433.9],
+      "label": "bar-134-second-descending-A5",
+      "basis": "The second A5, now accompanied by A4, has the distinct433.74s peak after the E5/G5-grace/F5/E5 turn. Preserve this source-ordered recurrence rather than aliasing it to the earlier A5."
+    },
+    {
+      "scoreQ": 401.4765625,
+      "window": [434.5, 434.8],
+      "label": "bar-134-first-low-A4",
+      "basis": "The descending cadenza reaches the written C-sharp4/A4 pair at the434.64s pitch peak. The complete absolute-register contour, not a folded chroma recurrence, identifies this event."
+    },
+    {
+      "scoreQ": 401.56770833333326,
+      "window": [435.45, 435.78],
+      "label": "bar-134-second-low-A4",
+      "basis": "The next written E3/A4 pair peaks at435.62s, after the preceding E4/G4-grace/F4/E4 turn. Both subsequent turns and the final fermata remain in their source order."
+    },
+    {
+      "scoreQ": 401.65885416666674,
+      "window": [436.65, 436.98],
+      "label": "bar-134-third-low-A4",
+      "basis": "The third low-register A4 over E3 has a distinct436.82s rise before the final E4/G4-grace/F4/E4 turn. It is not the separately anchored439.2s A4 fermata."
+    },
+    {
+      "scoreQ": 401.7265625,
+      "window": [438.02, 438.38],
+      "label": "bar-134-E4-before-fermata",
+      "basis": "The source E4 over C-sharp4 immediately before the A4 fermata peaks at438.20s. These interior constraints resolve the printed cadenza's heavily compressed symbolic time; they are disclosed fitting evidence, not independent or aural validation."
+    },
+    {
+      "scoreQ": 401.7708333333333,
+      "window": [439.05, 439.4],
+      "label": "bar-134-cadenza-A4-fermata",
+      "basis": "The source explicitly has a4 fermata tied into a8 before the final B-flat/G-sharp turn. Cached logarithmic pitch inspection places this A4 near439.2s. It is not yet the main-theme A4 at the following bar135; the long fermata must not be filled with the earlier arpeggio."
+    },
+    {
+      "scoreQ": 401.9088541666667,
+      "window": [442.9, 443.2],
+      "label": "bar-134-post-fermata-B-flat4",
+      "basis": "The source's B-flat4 after the tied A4 fermata appears near443.0s, before G-sharp4 and the separate bar135 A4. Preserve that complete written turn; this constraint is not independent validation."
+    },
+    {
+      "scoreQ": 401.953125,
+      "window": [443.55, 443.95],
+      "label": "bar-134-post-fermata-G-sharp4",
+      "basis": "The visible G-sharp4 between the post-fermata B-flat4 and returning A4 lies near443.7s. It is the final source cadenza note, not a substituted beginning of the returning contrapuntal theme."
+    },
+    {
+      "scoreQ": 402,
+      "window": [444.25, 444.7],
+      "label": "bar-135-returning-A4",
+      "basis": "The separate A4 that opens the written legato return follows the cadenza's A-fermata/B-flat/G-sharp turn near444.5s. The recording's coarse444s section corroborates the order but is not itself the fitting timestamp. Retain every cadenza attack and full source bar."
+    },
+    {
+      "scoreQ": 600,
+      "window": [641.72, 642.02],
+      "label": "bar-201-staccato-C-F-G-chord",
+      "basis": "The C2/C3/C5/F5/G5/C6 chord peaks at641.90s before the separate C3-C4, D-flat3-D-flat4 and F3-F4 octaves near642.96,643.40,643.84s. The initial warp delayed this complete approach by several seconds across the later fermata."
+    },
+    {
+      "scoreQ": 604,
+      "window": [644.9, 645.22],
+      "label": "bar-202-last-fortissimo-C-major",
+      "basis": "The last fortissimo C1/C2/G3/C4/E4/G4 chord peaks at645.06s, after the preceding C-major chord644.10s and G-dominant chord644.46s. The initial model wrongly placed it at648.32s in the measured silence; preserve the actual long pause before the pianissimo."
+    },
+    {
+      "scoreQ": 606,
+      "window": [650.7, 651.08],
+      "label": "bar-203-first-pianissimo-chord",
+      "basis": "The first of the five written pianissimo chords, C3/G3/E4/C5/G5/C6, has a measured650.90s pitch peak after the long silence. The score's distinct five-chord progression and final tied chord remain complete."
+    },
+    {
+      "scoreQ": 618,
+      "window": [664.75, 665.15],
+      "label": "bar-207-fifth-pianissimo-chord",
+      "basis": "The fifth pianissimo chord, C2/C3/G3/C4/E4, has its measured665.00s pitch peak. The earlier four chords are near650.90/653.8/657.0/660.1s; the fifth must not be advanced into the quiet gap near663.1s. Its following written ties remain complete."
+    }
+  ],
+  "diagnostics": {"overlays": [[428,440],[435,447],[442,454],[640,654],[650,668]]},
   "boundaries": [],
   "engraving": {
     "staff": 18,

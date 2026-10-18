@@ -91,13 +91,49 @@
       "basis": "The third opening bell is C-sharp1/C-sharp2/C-sharp3 near 4.2 s. The unconstrained long hold began before its measured attack. This is an inspected fitting constraint, not independent validation."
     },
     {
+      "scoreQ": 219,
+      "window": [178.8, 179.2],
+      "label": "coda-first-chord-A3-A4-signature",
+      "basis": "The first coda voicing's A3/A4 signature appears near179.04s. The old numeric pass placed it184.554s, several seconds into later coda material. The five distinct chromatic signatures establish the source order; these are fitting constraints, not independent validation."
+    },
+    {
+      "scoreQ": 223,
+      "window": [182.85, 183.2],
+      "label": "coda-second-chord-A-sharp3-G-sharp4-signature",
+      "basis": "The second chord's A-sharp3/G-sharp4 pair peaks near183.02s, not the old187.857s assignment. A nearby detected onset alone does not establish the correct voicing."
+    },
+    {
+      "scoreQ": 227,
+      "window": [187.2, 187.6],
+      "label": "coda-third-chord-G3-A4-signature",
+      "basis": "The third coda chord's G3/A4 signature peaks near187.40s. Preserve the full progression instead of compressing its first three chords into the later quiet tail."
+    },
+    {
+      "scoreQ": 231,
+      "window": [191.95, 192.35],
+      "label": "coda-fourth-chord-F-sharp-A-sharp-signature",
+      "basis": "The fourth source voicing's F-sharp/A-sharp pairs are visible near192.20s, following the G3/A4 chord and preceding the D-sharp/F-sharp/A chord."
+    },
+    {
+      "scoreQ": 235,
+      "window": [197.0, 197.45],
+      "label": "coda-fifth-chord-D-sharp-F-sharp-A-signature",
+      "basis": "The fifth coda voicing's D-sharp/F-sharp/A combination is visible near197.28s in logarithmic pitch features. Historical noise limits individual-note certainty, not the observed chord sequence."
+    },
+    {
+      "scoreQ": 240,
+      "window": [200.8, 201.2],
+      "label": "closing-lower-C-sharp-minor-voicing",
+      "basis": "The lower closing voicing's G-sharp3/G-sharp4 pair peaks near200.96s, before the higher203.24s chord and separate final205.67s reattack. Retain all three written attacks."
+    },
+    {
       "scoreQ": 241.5,
       "window": [203.1, 203.5],
       "label": "penultimate-upper-C-sharp-minor-chord",
       "basis": "The written eighth-note upper chord near 203.25 s precedes a distinct final pianissimo reattack near 205.8 s. Their identical pitch classes had let the broad endpoint pick the earlier chord. Both source attacks remain; this is fitting evidence, not independent or aural validation."
     }
   ],
-  "diagnostics": {"overlays": [[176,188],[188,200],[200,211]]},
+  "diagnostics": {"overlays": [[176,188],[188,200],[200,210.8]]},
   "boundaries": [],
   "engraving": {
     "staff": 18,

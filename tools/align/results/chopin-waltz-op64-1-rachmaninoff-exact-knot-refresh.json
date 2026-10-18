@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "id": "chopin-waltz-op64-1-rachmaninoff",
+  "kind": "exact-interior-anchor-refresh",
+  "basis": "Source-keyed before/after time-warp changes after exact non-grid interior knots were retained in both continuous mappings. Full pre-refresh score snapshots were preserved for independent review. This is not an aural review.",
+  "sourceInventoryUnchanged": true,
+  "noteCount": 1370,
+  "barOccurrenceCount": 140,
+  "beforeNotesSha256": "ad4fec4ca17634b0f1ea06e7188685dfdf9aefebb3e757f2f9423b604fd46d32",
+  "afterNotesSha256": "be839214274542c782b625fc42d80efe28cc7b7e5760afdeae89f5b17dbc3a5b",
+  "hashEncoding": "UTF-8 JSON arrays, compact separators",
+  "changedNotes": [
+    {
+      "index": 515,
+      "sourceEvent": [
+        143.5,
+        0.5,
+        89,
+        0,
+        47,
+        90
+      ],
+      "before": [
+        31.821,
+        0.134,
+        89,
+        0,
+        47
+      ],
+      "after": [
+        31.821,
+        0.119,
+        89,
+        0,
+        47
+      ]
+    },
+    {
+      "index": 516,
+      "sourceEvent": [
+        144.0,
+        0.5,
+        87,
+        0,
+        48,
+        90
+      ],
+      "before": [
+        31.955,
+        0.094,
+        87,
+        0,
+        48
+      ],
+      "after": [
+        31.94,
+        0.109,
+        87,
+        0,
+        48
+      ]
+    },
+    {
+      "index": 517,
+      "sourceEvent": [
+        144.0,
+        1.0,
+        54,
+        1,
+        48,
+        90
+      ],
+      "before": [
+        31.955,
+        0.209,
+        54,
+        1,
+        48
+      ],
+      "after": [
+        31.94,
+        0.224,
+        54,
+        1,
+        48
+      ]
+    },
+    {
+      "index": 549,
+      "sourceEvent": [
+        154.0,
+        1.0,
+        56,
+        1,
+        51,
+        90
+      ],
+      "before": [
+        34.882,
+        1.229,
+        56,
+        1,
+        51
+      ],
+      "after": [
+        34.882,
+        1.238,
+        56,
+        1,
+        51
+      ]
+    },
+    {
+      "index": 550,
+      "sourceEvent": [
+        154.0,
+        1.0,
+        65,
+        1,
+        51,
+        90
+      ],
+      "before": [
+        34.882,
+        1.229,
+        65,
+        1,
+        51
+      ],
+      "after": [
+        34.882,
+        1.238,
+        65,
+        1,
+        51
+      ]
+    },
+    {
+      "index": 551,
+      "sourceEvent": [
+        155.0,
+        3.0,
+        68,
+        0,
+        51,
+        90
+      ],
+      "before": [
+        36.111,
+        1.475,
+        68,
+        0,
+        51
+      ],
+      "after": [
+        36.12,
+        1.465,
+        68,
+        0,
+        51
+      ]
+    }
+  ],
+  "changedBars": [
+    {
+      "index": 48,
+      "sourceBar": {
+        "n": "33",
+        "occ": 2,
+        "q": 144.0,
+        "durQ": 3.0
+      },
+      "before": {
+        "n": "33",
+        "occ": 2,
+        "t": 31.955
+      },
+      "after": {
+        "n": "33",
+        "occ": 2,
+        "t": 31.94
+      }
+    }
+  ],
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.6,
+      "peakSeconds": 0.64,
+      "window": [
+        0.45,
+        0.95
+      ],
+      "midiPitches": [
+        68
+      ],
+      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail.",
+      "mappedAudioSeconds": 0.6,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "second-strain-bar33-E-flat6",
+      "scoreQ": 144.0,
+      "audioSeconds": 31.94,
+      "peakSeconds": 31.98,
+      "window": [
+        31.9,
+        32.2
+      ],
+      "midiPitches": [
+        54,
+        87
+      ],
+      "basis": "The complete 24–34/31–41 s pitch overlays show the second-pass descending E-flat6 beginning near32 s after the F6 apex. Unconstrained DTW placed bar33 near35.055 s, despite passing onset gates. This source-pitch constraint corrects the locally accelerating strain, not an undocumented cut; it is not independent validation.",
+      "mappedAudioSeconds": 31.94,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "middle-pickup-A-flat4",
+      "scoreQ": 155.0,
+      "audioSeconds": 36.12,
+      "peakSeconds": 36.14,
+      "window": [
+        35.95,
+        36.35
+      ],
+      "midiPitches": [
+        68
+      ],
+      "basis": "Source bar37 beat3 is the sustained A-flat4 pickup after the closing D-flat4 and rest. The inspected 31–41 s overlay shows its clear pitch-energy onset near36.1 s; unconstrained DTW placed it after38 s. This inspected source-pitch constraint is not independent validation.",
+      "mappedAudioSeconds": 36.12,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 418.0,
+      "audioSeconds": 110.14,
+      "peakSeconds": 110.18,
+      "window": [
+        108,
+        112
+      ],
+      "midiPitches": [
+        53,
+        56,
+        65
+      ],
+      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail.",
+      "mappedAudioSeconds": 110.15542857142864,
+      "mappingDeviationSeconds": 0.015428571428643068
+    }
+  ],
+  "medianAbsoluteOnsetDeviation": 0.04340986394557689,
+  "p95AbsoluteOnsetDeviation": 0.12961604308389812,
+  "gateReasons": []
+}

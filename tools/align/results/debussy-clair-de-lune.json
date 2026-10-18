@@ -1,0 +1,776 @@
+{
+  "uniqueScoreAttacks": 763,
+  "audioDetectedOnsets": 1279,
+  "medianAbsoluteOnsetDeviation": 0.052176870747928206,
+  "noteWeightedMedianDeviation": 0.048575207860906744,
+  "p95AbsoluteOnsetDeviation": 0.22940495086923818,
+  "fractionWithin150ms": 0.872870249017038,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 7,
+      "median": 0.026487780297304475,
+      "p95": 0.047429705215419296,
+      "max": 0.04757369614512452,
+      "adaptiveMedian": 0.027913832199546462,
+      "adaptiveP95": 0.0667743764172333
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 11,
+      "median": 0.03317460317460075,
+      "p95": 0.15280234315948604,
+      "max": 0.18969009826152927,
+      "adaptiveMedian": 0.03317460317460075,
+      "adaptiveP95": 0.11299178004535015
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 16,
+      "median": 0.04182539682539854,
+      "p95": 0.12938019652304789,
+      "max": 0.26730536659107784,
+      "adaptiveMedian": 0.039295162509448645,
+      "adaptiveP95": 0.09714002267573285
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 16,
+      "median": 0.06294406651549167,
+      "p95": 0.18253684807255954,
+      "max": 0.2165986394557713,
+      "adaptiveMedian": 0.02556689342404006,
+      "adaptiveP95": 0.09245559334844877
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 10,
+      "median": 0.04133030990174191,
+      "p95": 0.24805687830687168,
+      "max": 0.34691232048373877,
+      "adaptiveMedian": 0.04111489040060334,
+      "adaptiveP95": 0.05711394557822586
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 12,
+      "median": 0.045074640967499136,
+      "p95": 0.09005612244897562,
+      "max": 0.09723356009070017,
+      "adaptiveMedian": 0.04039493575207942,
+      "adaptiveP95": 0.081418367346912
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 8,
+      "median": 0.07448129251700664,
+      "p95": 0.10970918367347586,
+      "max": 0.11475812547240594,
+      "adaptiveMedian": 0.012359221466365256,
+      "adaptiveP95": 0.09273280423288134
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 13,
+      "median": 0.04885487528348165,
+      "p95": 0.2166817838247053,
+      "max": 0.3337906273620632,
+      "adaptiveMedian": 0.029784580498855462,
+      "adaptiveP95": 0.0814247921390787
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 17,
+      "median": 0.04740362811790533,
+      "p95": 0.15933106575963332,
+      "max": 0.21139455782314087,
+      "adaptiveMedian": 0.03724489795919794,
+      "adaptiveP95": 0.056993197278907816
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 19,
+      "median": 0.0375888133031026,
+      "p95": 0.3990578231292388,
+      "max": 0.4372108843537461,
+      "adaptiveMedian": 0.03460317460319118,
+      "adaptiveP95": 0.07198639455781257
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 17,
+      "median": 0.04404761904761756,
+      "p95": 0.07252834467118702,
+      "max": 0.08663265306121559,
+      "adaptiveMedian": 0.05110733182161198,
+      "adaptiveP95": 0.07453212396069091
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 15,
+      "median": 0.10237906273621888,
+      "p95": 0.247921768707485,
+      "max": 0.2768820861678023,
+      "adaptiveMedian": 0.03391912320485346,
+      "adaptiveP95": 0.08587055933485595
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 47,
+      "median": 0.0902346938775338,
+      "p95": 0.2237870370370529,
+      "max": 0.3686224489795791,
+      "adaptiveMedian": 0.04542139077851459,
+      "adaptiveP95": 0.12245565633661071
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 49,
+      "median": 0.05713529856386401,
+      "p95": 0.16241723356008025,
+      "max": 0.2784448223733733,
+      "adaptiveMedian": 0.03621126228269134,
+      "adaptiveP95": 0.11451443001443513
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 46,
+      "median": 0.0655102040816189,
+      "p95": 0.16675217309147072,
+      "max": 0.20024376417237022,
+      "adaptiveMedian": 0.04667989417988849,
+      "adaptiveP95": 0.08473237906273923
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 66,
+      "median": 0.07497543461826695,
+      "p95": 0.23915532879818002,
+      "max": 0.28776266061983335,
+      "adaptiveMedian": 0.049286344167292384,
+      "adaptiveP95": 0.13391959561601752
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 57,
+      "median": 0.06962175610985355,
+      "p95": 0.25422562358276646,
+      "max": 0.4226492819349801,
+      "adaptiveMedian": 0.04839795918366008,
+      "adaptiveP95": 0.10214928193501004
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 53,
+      "median": 0.06726379440667074,
+      "p95": 0.3167331821617779,
+      "max": 0.41257180650040937,
+      "adaptiveMedian": 0.03618619299570014,
+      "adaptiveP95": 0.0818049886621111
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 53,
+      "median": 0.04898904006046223,
+      "p95": 0.17013794406652208,
+      "max": 0.2592403628118518,
+      "adaptiveMedian": 0.025529100529070092,
+      "adaptiveP95": 0.0877203325774758
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 40,
+      "median": 0.04715513983369135,
+      "p95": 0.2899696948224103,
+      "max": 0.3772278911564797,
+      "adaptiveMedian": 0.039511526832924915,
+      "adaptiveP95": 0.07780168178367858
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 17,
+      "median": 0.031249055177624996,
+      "p95": 0.06820634920635484,
+      "max": 0.0707898715041324,
+      "adaptiveMedian": 0.02068027210884793,
+      "adaptiveP95": 0.06820634920635484
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 22,
+      "median": 0.039075018896454594,
+      "p95": 0.12527463624336546,
+      "max": 0.17076908541190505,
+      "adaptiveMedian": 0.03172996976567788,
+      "adaptiveP95": 0.0788052721088249
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 21,
+      "median": 0.05281179138322045,
+      "p95": 0.229421768707482,
+      "max": 0.33073696145120834,
+      "adaptiveMedian": 0.04096749811031941,
+      "adaptiveP95": 0.0980385487527542
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 17,
+      "median": 0.03934240362815444,
+      "p95": 0.20493272864698603,
+      "max": 0.3055555555555429,
+      "adaptiveMedian": 0.02835600907025082,
+      "adaptiveP95": 0.07462622826906226
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 10,
+      "median": 0.059848828420271616,
+      "p95": 0.11460770975053974,
+      "max": 0.11750566893422842,
+      "adaptiveMedian": 0.03992630385482698,
+      "adaptiveP95": 0.09896485260771323
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 10,
+      "median": 0.02225056689347582,
+      "p95": 0.07598544973550929,
+      "max": 0.07905517762662839,
+      "adaptiveMedian": 0.021402116402114757,
+      "adaptiveP95": 0.07598544973550929
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 10,
+      "median": 0.04211262282683492,
+      "p95": 0.16630366591054288,
+      "max": 0.20301965230532915,
+      "adaptiveMedian": 0.02787603930457294,
+      "adaptiveP95": 0.0895124716556594
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 30,
+      "median": 0.05238000755859673,
+      "p95": 0.2199355253212516,
+      "max": 0.2501832955404666,
+      "adaptiveMedian": 0.038769841269839844,
+      "adaptiveP95": 0.09493357898716538
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 33,
+      "median": 0.028412698413120552,
+      "p95": 0.1380345804989133,
+      "max": 0.2292535903250439,
+      "adaptiveMedian": 0.027365835222951773,
+      "adaptiveP95": 0.06679176114888036
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 14,
+      "median": 0.03331632653056715,
+      "p95": 0.08094557823126536,
+      "max": 0.08797619047621197,
+      "adaptiveMedian": 0.03287414965986102,
+      "adaptiveP95": 0.09059457671969112
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 7,
+      "median": 0.025888133030946392,
+      "p95": 0.08022675736956154,
+      "max": 0.10049886621314386,
+      "adaptiveMedian": 0.017233560090716082,
+      "adaptiveP95": 0.08159863945576543
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 15,
+      "median": 0.10237906273621888,
+      "p95": 0.247921768707485,
+      "max": 0.2768820861678023,
+      "adaptiveMedian": 0.03391912320485346,
+      "adaptiveP95": 0.08587055933485595
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 47,
+      "median": 0.0902346938775338,
+      "p95": 0.2237870370370529,
+      "max": 0.3686224489795791,
+      "adaptiveMedian": 0.04542139077851459,
+      "adaptiveP95": 0.12245565633661071
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 66,
+      "median": 0.07497543461826695,
+      "p95": 0.23915532879818002,
+      "max": 0.28776266061983335,
+      "adaptiveMedian": 0.049286344167292384,
+      "adaptiveP95": 0.13391959561601752
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 8,
+      "median": 0.07448129251700664,
+      "p95": 0.10970918367347586,
+      "max": 0.11475812547240594,
+      "adaptiveMedian": 0.012359221466365256,
+      "adaptiveP95": 0.09273280423288134
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 57,
+      "median": 0.06962175610985355,
+      "p95": 0.25422562358276646,
+      "max": 0.4226492819349801,
+      "adaptiveMedian": 0.04839795918366008,
+      "adaptiveP95": 0.10214928193501004
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 17,
+      "median": 0.04404761904761756,
+      "p95": 0.07252834467118702,
+      "max": 0.08663265306121559,
+      "adaptiveMedian": 0.05110733182161198,
+      "adaptiveP95": 0.07453212396069091
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 66,
+      "median": 0.07497543461826695,
+      "p95": 0.23915532879818002,
+      "max": 0.28776266061983335,
+      "adaptiveMedian": 0.049286344167292384,
+      "adaptiveP95": 0.13391959561601752
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 57,
+      "median": 0.06962175610985355,
+      "p95": 0.25422562358276646,
+      "max": 0.4226492819349801,
+      "adaptiveMedian": 0.04839795918366008,
+      "adaptiveP95": 0.10214928193501004
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 46,
+      "median": 0.0655102040816189,
+      "p95": 0.16675217309147072,
+      "max": 0.20024376417237022,
+      "adaptiveMedian": 0.04667989417988849,
+      "adaptiveP95": 0.08473237906273923
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 47,
+      "median": 0.0902346938775338,
+      "p95": 0.2237870370370529,
+      "max": 0.3686224489795791,
+      "adaptiveMedian": 0.04542139077851459,
+      "adaptiveP95": 0.12245565633661071
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 256.0,
+      "meanCosine": 0.0
+    },
+    {
+      "start": 248.0,
+      "meanCosine": 0.5694328717237206
+    },
+    {
+      "start": 0.0,
+      "meanCosine": 0.6331577008292554
+    },
+    {
+      "start": 184.0,
+      "meanCosine": 0.6446566097558845
+    },
+    {
+      "start": 152.0,
+      "meanCosine": 0.6580114626403262
+    }
+  ],
+  "sections": [
+    {
+      "bar": "25",
+      "occ": 1,
+      "editorial": 86,
+      "aligned": 85.64000000000001,
+      "difference": -0.3599999999999852,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "49",
+      "occ": 1,
+      "editorial": 154,
+      "aligned": 152.72000000000003,
+      "difference": -1.2799999999999727,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "66",
+      "occ": 1,
+      "editorial": 220,
+      "aligned": 218.5416666666667,
+      "difference": -1.458333333333286,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.5,
+      "audioSeconds": 3.662777777777778,
+      "nearestOnsetDeviation": 0.029195011337868504
+    },
+    {
+      "label": "middle",
+      "bar": "40",
+      "occ": 1,
+      "scoreQ": 177.0,
+      "audioSeconds": 129.7287777777778,
+      "nearestOnsetDeviation": 0.010501133786874561
+    },
+    {
+      "label": "last",
+      "bar": "72",
+      "occ": 1,
+      "scoreQ": 319.5,
+      "audioSeconds": 244.78666666666683,
+      "nearestOnsetDeviation": 0.03292517006786966
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 61,
+      "voice": "lower",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 68,
+      "voice": "lower",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 73,
+      "voice": "lower",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 77,
+      "voice": "lower",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 80,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 85,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 89,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "midi": 92,
+      "voice": "upper",
+      "durationQ": 3.0,
+      "onset": 244.78666666666683,
+      "offset": 254.06888888888895,
+      "durationSeconds": 9.282222222222117
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.009856481481477886,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7645664883562794,
+  "endAnchor": {
+    "scoreQ": 324.0,
+    "audioSeconds": 258.72,
+    "decodedDuration": 259.8614512471655,
+    "activeEndMinus45dB": 258.7283446712018
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "debussy-clair-de-lune",
+  "tuningHz": 444.34,
+  "audioSha256": "29d161a57a5e0f94429c1bb7bd070a854ccdf75b74bf496eb985ac90f43fb000",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Read content/listen/debussy-clair-de-lune.mjs and cache/analysis/debussy-clair-de-lune.txt; selected recording is Moiseiwitsch1946, original piano scoring. Rights metadata belongs to the listen author, and no recording is republished by the score pipeline.",
+    "Opened Fromont1905-derived Mutopia1778 source and inspected both MIDI staff tracks. Source four notated voices are allocated across the two named staves; combined staff labels do not claim four independent voice tracks.",
+    "Canonical source section bar checks15,27,37,43,51,66 were read directly. Coarse recorded novelty times do not establish exact bar onsets, and no forced boundary anchors are supplied."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      0.3942592592592593,
+      3.64
+    ],
+    [
+      85.52,
+      86.0
+    ],
+    [
+      171.7,
+      154.0
+    ],
+    [
+      232.1,
+      220.0
+    ],
+    [
+      249.56611111111116,
+      240.16
+    ],
+    [
+      251.53740740740744,
+      243.92
+    ],
+    [
+      251.9316666666667,
+      244.74
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.5,
+      "audioSeconds": 3.64,
+      "peakSeconds": 3.7,
+      "window": [
+        0,
+        5
+      ],
+      "midiPitches": [
+        65,
+        68
+      ],
+      "basis": "The complete logarithmic absolute-pitch ending shows the final eight-note D-flat-major chord at244.8s, after the ascending left-hand D-flat6 at244.02s. The initial broad search wrongly selected241.44s during that arpeggio, despite passing numerical gates. These source-specific pitch windows are not an independent or aural review.",
+      "mappedAudioSeconds": 3.662777777777778,
+      "mappingDeviationSeconds": 0.022777777777777786
+    },
+    {
+      "label": "final-arpeggio-F4",
+      "scoreQ": 316.5,
+      "audioSeconds": 240.16,
+      "peakSeconds": 240.16,
+      "window": [
+        240.15,
+        240.5
+      ],
+      "midiPitches": [
+        65
+      ],
+      "basis": "The source left-hand F4 ascent reaches MIDI65 at the measured240.30s pitch rise; the old mapping put it at239.03s. This constrains the actual ascending register sequence, not just repeated D-flat-major chroma.",
+      "mappedAudioSeconds": 240.16,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "final-arpeggio-D-flat6",
+      "scoreQ": 319.0,
+      "audioSeconds": 243.92,
+      "peakSeconds": 244.0,
+      "window": [
+        243.85,
+        244.2
+      ],
+      "midiPitches": [
+        85
+      ],
+      "basis": "The final ascending D-flat6, MIDI85, has a distinct measured244.02s rise before the soft eight-note closing chord at244.8s. The old mapping reached this register near241s, several seconds too early.",
+      "mappedAudioSeconds": 243.92,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 319.5,
+      "audioSeconds": 244.74,
+      "peakSeconds": 244.78,
+      "window": [
+        244.65,
+        245.0
+      ],
+      "midiPitches": [
+        61,
+        68,
+        73,
+        77,
+        80,
+        85,
+        89,
+        92
+      ],
+      "basis": "The complete logarithmic absolute-pitch ending shows the final eight-note D-flat-major chord at244.8s, after the ascending left-hand D-flat6 at244.02s. The initial broad search wrongly selected241.44s during that arpeggio, despite passing numerical gates. These source-specific pitch windows are not an independent or aural review.",
+      "mappedAudioSeconds": 244.78666666666683,
+      "mappingDeviationSeconds": 0.046666666666823176
+    }
+  ],
+  "adaptiveOnsetCount": 1841,
+  "adaptiveMedianDeviation": 0.036651549508661674,
+  "gateReasons": [],
+  "elapsedSeconds": 0.5150332319899462,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 72,
+    "notes": 1468,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "d2b1674eae5d648cdf8370aace95701cce350fb439b650fda4282b57b0200af1",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/DebussyC/L75/debussy_Ste_Bergamesq_Clair/debussy_Ste_Bergamesq_Clair.ly",
+      "file": "debussy_Ste_Bergamesq_Clair.ly",
+      "sha256": "c1c58f806a8939fc5a157707ea479403abb9655a4820b25bb6b98e39fd781e7a"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/DebussyC/L75/debussy_Ste_Bergamesq_Clair/debussy_Ste_Bergamesq_Clair.mid",
+      "file": "debussy_Ste_Bergamesq_Clair.mid",
+      "sha256": "4eee9a1546ffde1ff74cb9824ba0e57cbc821185a15185bfea9faed97820bf8c"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/debussy-clair-de-lune-0-11.6628.png",
+    "work/debussy-clair-de-lune-48-56.png",
+    "work/debussy-clair-de-lune-80-88.png",
+    "work/debussy-clair-de-lune-80-94.png",
+    "work/debussy-clair-de-lune-88-96.png",
+    "work/debussy-clair-de-lune-96-104.png",
+    "work/debussy-clair-de-lune-112-120.png",
+    "work/debussy-clair-de-lune-120-128.png",
+    "work/debussy-clair-de-lune-125.729-137.729.png",
+    "work/debussy-clair-de-lune-128-136.png",
+    "work/debussy-clair-de-lune-148-164.png",
+    "work/debussy-clair-de-lune-232-250.png",
+    "work/debussy-clair-de-lune-236.16-248.16.png",
+    "work/debussy-clair-de-lune-239.92-251.92.png",
+    "work/debussy-clair-de-lune-240.787-252.787.png"
+  ]
+}

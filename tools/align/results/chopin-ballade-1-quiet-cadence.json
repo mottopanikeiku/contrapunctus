@@ -1,0 +1,67 @@
+{
+  "id": "chopin-ballade-1",
+  "kind": "quiet-repeated-chord-source-pitch-evidence",
+  "audioSha256": "9a3912dcb436cb9b867bee7340568a6be5c6d40694faa4ee9e91215dc504c39f",
+  "basis": "Measured cached pitch-bin energies; vertical lines are disclosed fitted constraints. All five encoded pitches and all three quiet attacks are retained. This is inspectable fitting evidence, not independent or aural validation.",
+  "frameRate": 50,
+  "plot": "chopin-ballade-1-quiet-cadence.png",
+  "events": [
+    {
+      "sourceQ": 1406,
+      "midiPitches": [
+        31,
+        43,
+        50,
+        55,
+        58
+      ],
+      "window": [
+        567.9,
+        568.25
+      ],
+      "fittedAudioSeconds": 568.04,
+      "mappedAudioSeconds": 568.04,
+      "sourcePitchPeakSeconds": 568.16,
+      "meanSourcePitchEnergyAtPeak": 0.08087283372879028,
+      "preAttackMedianEnergy": 0.00016595811757724732
+    },
+    {
+      "sourceQ": 1407.5,
+      "midiPitches": [
+        31,
+        43,
+        50,
+        55,
+        58
+      ],
+      "window": [
+        570.85,
+        571.15
+      ],
+      "fittedAudioSeconds": 570.9,
+      "mappedAudioSeconds": 570.9,
+      "sourcePitchPeakSeconds": 571.0400000000001,
+      "meanSourcePitchEnergyAtPeak": 0.042104434221982956,
+      "preAttackMedianEnergy": 0.003463253378868103
+    },
+    {
+      "sourceQ": 1408,
+      "midiPitches": [
+        31,
+        43,
+        50,
+        55,
+        58
+      ],
+      "window": [
+        571.65,
+        572.05
+      ],
+      "fittedAudioSeconds": 571.74,
+      "mappedAudioSeconds": 571.74,
+      "sourcePitchPeakSeconds": 571.86,
+      "meanSourcePitchEnergyAtPeak": 0.03495068475604057,
+      "preAttackMedianEnergy": 0.02134927362203598
+    }
+  ]
+}

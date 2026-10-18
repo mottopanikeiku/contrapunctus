@@ -84,6 +84,50 @@
     ],
     "basis": "Cached analysis has a quiet lead-in to about5s and a final melodic/cadential span285–290s; inspect exact attack and ornament overlays before publication."
   },
+  "anchors": [
+    {
+      "scoreQ": 48,
+      "window": [76.7, 77.05],
+      "label": "repeated-A-G3-G5",
+      "basis": "The repeated A section's G3/G5 attack peaks at76.88s. The initial unconstrained76.57s start was early; the following second G5/B3 near78.2s confirms the source order."
+    },
+    {
+      "scoreQ": 96,
+      "window": [147.05, 147.45],
+      "label": "first-B-D4-A4",
+      "basis": "VerS rejected the initial146.000s bar17 start inside the measured silent gap. The source D4/A4 entry has its measured combined peak147.28s, with the performed upper ornament beginning on a lower auxiliary. The editorial146s chapter label is not attack evidence."
+    },
+    {
+      "scoreQ": 96.5,
+      "window": [147.95, 148.25],
+      "label": "first-B-following-E4",
+      "basis": "The separate lower E4 half a quarter after the B entry peaks148.12s, not the initial model's146.756s. This establishes source order independently of the earlier editorial guide."
+    },
+    {
+      "scoreQ": 97,
+      "window": [148.55, 148.85],
+      "label": "first-B-second-A4-F-sharp4",
+      "basis": "The next F-sharp4/A4 pair begins at the148.70s local pitch rise. Later149.06s ornament energy is not a substitute for that first source attack; performed ornament notes are not invented in the MIDI."
+    },
+    {
+      "scoreQ": 144,
+      "window": [217.5, 217.75],
+      "label": "repeated-B-D4-A4",
+      "basis": "At the B repeat the D4 entry rises near217.64s, before the upper ornament's stronger218.1s A4 energy. Retain the actual lower-staff start rather than assigning the whole chord to a later ornament."
+    },
+    {
+      "scoreQ": 144.5,
+      "window": [218.35, 218.7],
+      "label": "repeated-B-following-E4",
+      "basis": "The repeated B section's separate E4 has its measured218.56s peak, following the D4 entry and preceding the next F-sharp4/A4 pair."
+    },
+    {
+      "scoreQ": 145,
+      "window": [218.95, 219.25],
+      "label": "repeated-B-second-A4-F-sharp4",
+      "basis": "The first rise of the repeated F-sharp4/A4 pair is near219.10s; the stronger219.38s ornament peak is later. All these constraints are disclosed source-pitch fitting, not independent or aural validation."
+    }
+  ],
   "boundaries": [],
   "diagnostics": {
     "recurrences": [

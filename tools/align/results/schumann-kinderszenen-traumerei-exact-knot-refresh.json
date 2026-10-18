@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "id": "schumann-kinderszenen-traumerei",
+  "kind": "exact-interior-anchor-refresh",
+  "basis": "Source-keyed before/after time-warp changes after exact non-grid interior knots were retained in both continuous mappings. Full pre-refresh score snapshots were preserved for independent review. This is not an aural review.",
+  "sourceInventoryUnchanged": true,
+  "noteCount": 474,
+  "barOccurrenceCount": 33,
+  "beforeNotesSha256": "3d4662dcb96864f6ee2bb78758d48f1bf3d87677087a622f485489a40f2a9864",
+  "afterNotesSha256": "82b8aea1b6210232326f88b9042e30e4b851ab8b7cdb55b8825042690bc1a3ee",
+  "hashEncoding": "UTF-8 JSON arrays, compact separators",
+  "changedNotes": [
+    {
+      "index": 417,
+      "sourceEvent": [
+        114.0,
+        3.0,
+        53,
+        1,
+        29,
+        90
+      ],
+      "before": [
+        164.828,
+        4.35,
+        53,
+        1,
+        29
+      ],
+      "after": [
+        164.828,
+        4.332,
+        53,
+        1,
+        29
+      ]
+    },
+    {
+      "index": 418,
+      "sourceEvent": [
+        114.0,
+        3.0,
+        60,
+        1,
+        29,
+        90
+      ],
+      "before": [
+        164.828,
+        4.35,
+        60,
+        1,
+        29
+      ],
+      "after": [
+        164.828,
+        4.332,
+        60,
+        1,
+        29
+      ]
+    },
+    {
+      "index": 423,
+      "sourceEvent": [
+        116.5,
+        0.5,
+        69,
+        0,
+        29,
+        95
+      ],
+      "before": [
+        168.441,
+        0.737,
+        69,
+        0,
+        29
+      ],
+      "after": [
+        168.441,
+        0.719,
+        69,
+        0,
+        29
+      ]
+    },
+    {
+      "index": 424,
+      "sourceEvent": [
+        117.0,
+        0.5,
+        72,
+        0,
+        30,
+        96
+      ],
+      "before": [
+        169.178,
+        0.917,
+        72,
+        0,
+        30
+      ],
+      "after": [
+        169.16,
+        0.92,
+        72,
+        0,
+        30
+      ]
+    },
+    {
+      "index": 425,
+      "sourceEvent": [
+        117.5,
+        0.5,
+        81,
+        0,
+        30,
+        98
+      ],
+      "before": [
+        170.095,
+        1.416,
+        81,
+        0,
+        30
+      ],
+      "after": [
+        170.08,
+        1.431,
+        81,
+        0,
+        30
+      ]
+    }
+  ],
+  "changedBars": [
+    {
+      "index": 30,
+      "sourceBar": {
+        "n": "22",
+        "occ": 1,
+        "q": 117.0,
+        "durQ": 4.0
+      },
+      "before": {
+        "n": "22",
+        "occ": 1,
+        "t": 169.178
+      },
+      "after": {
+        "n": "22",
+        "occ": 1,
+        "t": 169.16
+      }
+    }
+  ],
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.52,
+      "peakSeconds": 0.56,
+      "window": [
+        0,
+        4
+      ],
+      "midiPitches": [
+        60
+      ],
+      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication.",
+      "mappedAudioSeconds": 0.52,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-22-C5",
+      "scoreQ": 117.0,
+      "audioSeconds": 169.16,
+      "peakSeconds": 169.18,
+      "window": [
+        169.05,
+        169.35
+      ],
+      "midiPitches": [
+        72
+      ],
+      "basis": "MEAS: performed event q117 is the isolated upper C5 (MIDI 72) at printed bar 22. In the initial 168–176-second pitch-energy overlay its new C5 band begins near 169.15 s, before the unconstrained mapping near 169.64 s. This is disclosed source-pitch inspection, not an aural annotation or replacement of the independent onset gate.",
+      "mappedAudioSeconds": 169.16,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-22-A5",
+      "scoreQ": 117.5,
+      "audioSeconds": 170.08,
+      "peakSeconds": 170.1,
+      "window": [
+        169.98,
+        170.25
+      ],
+      "midiPitches": [
+        81
+      ],
+      "basis": "MEAS: performed event q117.5 is the isolated upper A5 (MIDI 81), following C5. The cached pitch-energy overlay shows its separate arrival near 170.10 s, before the initial mapping near 170.50 s. Constrain this observed ascending figure without changing notes, durations, repeats or gate thresholds.",
+      "mappedAudioSeconds": 170.08,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 127.0,
+      "audioSeconds": 193.14,
+      "peakSeconds": 193.18,
+      "window": [
+        189,
+        194
+      ],
+      "midiPitches": [
+        41,
+        57,
+        65
+      ],
+      "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication.",
+      "mappedAudioSeconds": 193.14604651162782,
+      "mappingDeviationSeconds": 0.006046511627829432
+    }
+  ],
+  "medianAbsoluteOnsetDeviation": 0.03441122185310519,
+  "p95AbsoluteOnsetDeviation": 0.34496077229338495,
+  "gateReasons": []
+}

@@ -1,8 +1,8 @@
 {
   "uniqueScoreAttacks": 787,
   "audioDetectedOnsets": 564,
-  "medianAbsoluteOnsetDeviation": 0.05060174069626555,
-  "noteWeightedMedianDeviation": 0.037659063625447686,
+  "medianAbsoluteOnsetDeviation": 0.05065259437108249,
+  "noteWeightedMedianDeviation": 0.03807856475923188,
   "p95AbsoluteOnsetDeviation": 0.1998862878484658,
   "fractionWithin150ms": 0.9034307496823379,
   "regions": [
@@ -140,11 +140,11 @@
       "start": 104.0,
       "end": 112.0,
       "attacks": 24,
-      "median": 0.036075430172083145,
+      "median": 0.04150743630785314,
       "p95": 0.09649751567294301,
       "max": 0.17297385620915406,
-      "adaptiveMedian": 0.04300837001466107,
-      "adaptiveP95": 0.07732087835135883
+      "adaptiveMedian": 0.0445789982659619,
+      "adaptiveP95": 0.07830782312926628
     }
   ],
   "worstFiveOnsetRegions": [
@@ -221,6 +221,16 @@
       "adaptiveP95": 0.14035263271975462
     },
     {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 24,
+      "median": 0.04150743630785314,
+      "p95": 0.09649751567294301,
+      "max": 0.17297385620915406,
+      "adaptiveMedian": 0.0445789982659619,
+      "adaptiveP95": 0.07830782312926628
+    },
+    {
       "start": 88.0,
       "end": 96.0,
       "attacks": 71,
@@ -229,16 +239,6 @@
       "max": 0.21968854208348887,
       "adaptiveMedian": 0.04320678271308509,
       "adaptiveP95": 0.0963570428171181
-    },
-    {
-      "start": 104.0,
-      "end": 112.0,
-      "attacks": 24,
-      "median": 0.036075430172083145,
-      "p95": 0.09649751567294301,
-      "max": 0.17297385620915406,
-      "adaptiveMedian": 0.04300837001466107,
-      "adaptiveP95": 0.07732087835135883
     },
     {
       "start": 40.0,
@@ -414,7 +414,9 @@
         69,
         74
       ],
-      "basis": "Independent pitch-energy inspection resolves the two final written quarters: the high D6/D5 tutti begins near 108.5 s, then the separate low D3/D4 string renewal follows near 109.0 s. The rejected broad-window candidate mistook the first chord for the last attack and compressed q268–269 to 0.081 s despite passing numeric gates. This narrow last search is a fitting constraint, not independent validation; no aural annotation."
+      "basis": "Independent pitch-energy inspection resolves the two final written quarters: the high D6/D5 tutti begins near 108.5 s, then the separate low D3/D4 string renewal follows near 109.0 s. The rejected broad-window candidate mistook the first chord for the last attack and compressed q268–269 to 0.081 s despite passing numeric gates. This narrow last search is a fitting constraint, not independent validation; no aural annotation.",
+      "mappedAudioSeconds": 1.18,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "internal-1",
@@ -432,7 +434,9 @@
         74,
         86
       ],
-      "basis": "Final-bar upper D6 arrival follows the C-sharp6 leading tone near 108.3 s. This constrains the first final chord separately from the following low-string quarter; it is fitted pitch evidence, not an independent check."
+      "basis": "Final-bar upper D6 arrival follows the C-sharp6 leading tone near 108.3 s. This constrains the first final chord separately from the following low-string quarter; it is fitted pitch evidence, not an independent check.",
+      "mappedAudioSeconds": 108.4,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "last",
@@ -447,13 +451,15 @@
         50,
         62
       ],
-      "basis": "Independent pitch-energy inspection resolves the two final written quarters: the high D6/D5 tutti begins near 108.5 s, then the separate low D3/D4 string renewal follows near 109.0 s. The rejected broad-window candidate mistook the first chord for the last attack and compressed q268–269 to 0.081 s despite passing numeric gates. This narrow last search is a fitting constraint, not independent validation; no aural annotation."
+      "basis": "Independent pitch-energy inspection resolves the two final written quarters: the high D6/D5 tutti begins near 108.5 s, then the separate low D3/D4 string renewal follows near 109.0 s. The rejected broad-window candidate mistook the first chord for the last attack and compressed q268–269 to 0.081 s despite passing numeric gates. This narrow last search is a fitting constraint, not independent validation; no aural annotation.",
+      "mappedAudioSeconds": 108.91735294117647,
+      "mappingDeviationSeconds": 0.017352941176469017
     }
   ],
   "adaptiveOnsetCount": 711,
-  "adaptiveMedianDeviation": 0.038687308256637465,
+  "adaptiveMedianDeviation": 0.038701814058956785,
   "gateReasons": [],
-  "elapsedSeconds": 0.3862459390074946,
+  "elapsedSeconds": 0.3633256600005552,
   "dtwSteps": [
     [
       1,
@@ -493,9 +499,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "a763c19f3b047a1f8e0aa4c77b2f9e6d3ae205e9befb3fbc611d181c55033f1a",
+    "candidateSha256": "e31d065a74138c0b4a33ef705503296d25f1401bd66916c31faf3a30b032b59a",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.06599999999998829,
+      "noteDurationSeconds": 0.066,
+      "barSeconds": 0.06599999999998829
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/mozart-requiem-dies-irae-0-5.png",

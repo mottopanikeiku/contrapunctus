@@ -130,11 +130,11 @@
       "start": 96.0,
       "end": 104.0,
       "attacks": 2,
-      "median": 0.012832199546480183,
-      "p95": 0.016477097505665485,
+      "median": 0.016332199546482684,
+      "p95": 0.016827097505665734,
       "max": 0.016882086167797183,
-      "adaptiveMedian": 0.01863718820861493,
-      "adaptiveP95": 0.030665759637180656
+      "adaptiveMedian": 0.017964852607711634,
+      "adaptiveP95": 0.029388321995464393
     },
     {
       "start": 104.0,
@@ -535,7 +535,9 @@
       "midiPitches": [
         59
       ],
-      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration."
+      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration.",
+      "mappedAudioSeconds": 0.06,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "bar-24-post-rest-chord",
@@ -554,7 +556,9 @@
         59,
         64
       ],
-      "basis": "The complete B1/B2/E3/F-sharp3/B3/E4 chord clearly enters near 101.2 s after the notated fermata rest. The unconstrained warp placed both closing bar-24 chords roughly half a second early and failed the 96–104 s local gate. This inspected source-pitch fitting constraint retains the source rest and all three final chords; it is not independent or aural validation."
+      "basis": "The complete B1/B2/E3/F-sharp3/B3/E4 chord clearly enters near 101.2 s after the notated fermata rest. The unconstrained warp placed both closing bar-24 chords roughly half a second early and failed the 96–104 s local gate. This inspected source-pitch fitting constraint retains the source rest and all three final chords; it is not independent or aural validation.",
+      "mappedAudioSeconds": 101.2,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "last",
@@ -573,13 +577,15 @@
         59,
         64
       ],
-      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration."
+      "basis": "The initial B3 pickup is already present at the file opening, before the first accompanying chord near 1.2 s; the original broad search incorrectly selected 2.82 s. The final E-minor chord occurs near 105.93 s. These source-pitch endpoint windows were checked against the actual pitch overlay, not inferred from total duration.",
+      "mappedAudioSeconds": 105.926,
+      "mappingDeviationSeconds": 0.006000000000000227
     }
   ],
   "adaptiveOnsetCount": 282,
   "adaptiveMedianDeviation": 0.04798979591836172,
   "gateReasons": [],
-  "elapsedSeconds": 0.35977699601789936,
+  "elapsedSeconds": 0.3511612610309385,
   "dtwSteps": [
     [
       1,
@@ -619,9 +625,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "69b586f74abe8c39d10998eb0909a23035ac4eb0bde039a3f5318b5d67cd6bca",
+    "candidateSha256": "a4626ed902a9e03a3342a7c13e8fd5ddc7ce816c0d4ed824db5a939c609b7c7f",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.006999999999990791,
+      "noteDurationSeconds": 0.007000000000000117,
+      "barSeconds": 0.006999999999990791
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/chopin-prelude-op28-4-paquet-0-8.06.png",

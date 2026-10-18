@@ -54,9 +54,9 @@ export async function buildJourneys({ out, layout, esc, attr, rich, img, art, PR
   const edges = journeys.some((j) => j.stations.some((s) => s.edge)) ? new Map((await readInfluence(ROOT)).edges.map((e) => [e.id, e])) : new Map();
   const geo = new Map(), scores = new Map(), comparisons = new Map();
   let geometry;
-  const painting = (ctx, a, eager = false) => {
+  const painting = (ctx, a) => {
     const info = art[normalizeTitle(a.file)];
-    return `<figure class="j-painting"><a class="frame j-gilt" href="${ctx.base}${attr(info?.src ?? '')}" aria-label="Enlarge painting">${img(ctx, a.file, a.caption, { sizes: '(max-width: 760px) 90vw, 42vw', eager })}</a><figcaption>${esc(a.caption)}${info?.page ? ` <a href="${attr(info.page)}" target="_blank" rel="noopener noreferrer">Image source ↗</a>` : ''}</figcaption></figure>`;
+    return `<figure class="j-painting"><a class="frame j-gilt" href="${ctx.base}${attr(info?.src ?? '')}" aria-label="Enlarge painting">${img(ctx, a.file, a.caption, { sizes: '(max-width: 760px) 90vw, 42vw' })}</a><figcaption>${esc(a.caption)}${info?.page ? ` <a href="${attr(info.page)}" target="_blank" rel="noopener noreferrer">Image source ↗</a>` : ''}</figcaption></figure>`;
   };
   const influence = (ctx, id) => {
     const e = edges.get(id);
@@ -98,7 +98,7 @@ export async function buildJourneys({ out, layout, esc, attr, rich, img, art, PR
     const ctx = { base: '../', page: `journeys/${j.id}` }, stations = [];
     for (const [i, s] of j.stations.entries()) {
       const t = programme.get(s.listen.id);
-      const visual = s.score ? await scoreFigure(s) : s.art ? painting(ctx, s.art, i === 0) : s.map ? await mapVignette(s) : s.edge ? influence(ctx, s.edge) : painting(ctx, j.hero, i === 0);
+      const visual = s.score ? await scoreFigure(s) : s.art ? painting(ctx, s.art) : s.map ? await mapVignette(s) : s.edge ? influence(ctx, s.edge) : painting(ctx, j.hero);
       const extra = `${s.score && s.art ? `<details class="j-context"><summary>The accompanying painting</summary>${painting(ctx, s.art)}</details>` : ''}${s.map && (s.score || s.art) ? `<details class="j-context"><summary>Places on record · ${s.map.year}</summary>${await mapVignette(s)}</details>` : ''}${s.edge && (s.score || s.map || s.art) ? `<details class="j-context"><summary>A thread of influence</summary>${influence(ctx, s.edge)}</details>` : ''}${s.compare ? await comparison(s.compare) : ''}`;
       stations.push(`<section class="j-station${i === 0 ? ' is-current' : ''}" data-j-station="${attr(s.id)}" aria-labelledby="j-title-${i}"><div class="j-station-copy"><span class="kicker">Station ${String(i + 1).padStart(2, '0')} <span aria-hidden="true">/</span> ${String(j.stations.length).padStart(2, '0')}</span><h2 id="j-title-${i}" tabindex="-1">${esc(s.title)}</h2><p class="j-recording"><b>${esc(t.composer.name)}</b> · ${esc(t.work)}${t.movement ? `<br><span>${esc(t.movement)}</span>` : ''}</p><div class="j-narration">${rich(ctx, s.text)}</div><div class="j-cue" aria-live="polite" aria-atomic="true"><span class="kicker">Listen closely</span><p data-j-cue>Let the music lead you into this station.</p></div><details class="j-sources"><summary>Sources &amp; recording</summary><p>${esc(t.performers)}<br>Excerpt ${fmt(s.listen.from)}–${fmt(s.listen.to)} · <a href="../hall.html#${attr(t.id)}">Full recording &amp; listening notes</a></p>${sources(s.sources)}${s.cues?.length ? `<ol class="j-cue-list">${s.cues.map((c) => `<li><time>${fmt(c.at)}</time> ${esc(c.text)}</li>`).join('')}</ol>` : ''}</details></div><div class="j-station-exhibit">${visual}${extra}</div></section>`);
     }

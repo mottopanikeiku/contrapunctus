@@ -1,8 +1,8 @@
 {
   "uniqueScoreAttacks": 734,
   "audioDetectedOnsets": 654,
-  "medianAbsoluteOnsetDeviation": 0.04333956916098991,
-  "noteWeightedMedianDeviation": 0.04242857142856593,
+  "medianAbsoluteOnsetDeviation": 0.04340986394557689,
+  "noteWeightedMedianDeviation": 0.04246371882085764,
   "p95AbsoluteOnsetDeviation": 0.12961604308389812,
   "fractionWithin150ms": 0.9727520435967303,
   "regions": [
@@ -40,7 +40,7 @@
       "start": 24.0,
       "end": 32.0,
       "attacks": 80,
-      "median": 0.04388208616779998,
+      "median": 0.04623752834466721,
       "p95": 0.13816524943310868,
       "max": 0.22166666666667112,
       "adaptiveMedian": 0.036506377551017266,
@@ -169,6 +169,16 @@
       "adaptiveP95": 0.08360924036281325
     },
     {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 80,
+      "median": 0.04623752834466721,
+      "p95": 0.13816524943310868,
+      "max": 0.22166666666667112,
+      "adaptiveMedian": 0.036506377551017266,
+      "adaptiveP95": 0.07897640306122111
+    },
+    {
       "start": 8.0,
       "end": 16.0,
       "attacks": 65,
@@ -187,16 +197,6 @@
       "max": 0.12111904761901826,
       "adaptiveMedian": 0.041102324263050605,
       "adaptiveP95": 0.08241839569160589
-    },
-    {
-      "start": 96.0,
-      "end": 104.0,
-      "attacks": 57,
-      "median": 0.04396371882086214,
-      "p95": 0.11975079365077756,
-      "max": 0.1403049886621517,
-      "adaptiveMedian": 0.03235374149659265,
-      "adaptiveP95": 0.08839410430838653
     }
   ],
   "worstFiveAdaptiveRegions": [
@@ -417,7 +417,9 @@
       "midiPitches": [
         68
       ],
-      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail."
+      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail.",
+      "mappedAudioSeconds": 0.6,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "second-strain-bar33-E-flat6",
@@ -432,7 +434,9 @@
         54,
         87
       ],
-      "basis": "The complete 24–34/31–41 s pitch overlays show the second-pass descending E-flat6 beginning near32 s after the F6 apex. Unconstrained DTW placed bar33 near35.055 s, despite passing onset gates. This source-pitch constraint corrects the locally accelerating strain, not an undocumented cut; it is not independent validation."
+      "basis": "The complete 24–34/31–41 s pitch overlays show the second-pass descending E-flat6 beginning near32 s after the F6 apex. Unconstrained DTW placed bar33 near35.055 s, despite passing onset gates. This source-pitch constraint corrects the locally accelerating strain, not an undocumented cut; it is not independent validation.",
+      "mappedAudioSeconds": 31.94,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "middle-pickup-A-flat4",
@@ -446,7 +450,9 @@
       "midiPitches": [
         68
       ],
-      "basis": "Source bar37 beat3 is the sustained A-flat4 pickup after the closing D-flat4 and rest. The inspected 31–41 s overlay shows its clear pitch-energy onset near36.1 s; unconstrained DTW placed it after38 s. This inspected source-pitch constraint is not independent validation."
+      "basis": "Source bar37 beat3 is the sustained A-flat4 pickup after the closing D-flat4 and rest. The inspected 31–41 s overlay shows its clear pitch-energy onset near36.1 s; unconstrained DTW placed it after38 s. This inspected source-pitch constraint is not independent validation.",
+      "mappedAudioSeconds": 36.12,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "last",
@@ -462,13 +468,15 @@
         56,
         65
       ],
-      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail."
+      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail.",
+      "mappedAudioSeconds": 110.15542857142864,
+      "mappingDeviationSeconds": 0.015428571428643068
     }
   ],
   "adaptiveOnsetCount": 771,
   "adaptiveMedianDeviation": 0.03948015873015809,
   "gateReasons": [],
-  "elapsedSeconds": 0.4164169579744339,
+  "elapsedSeconds": 0.3642871589981951,
   "dtwSteps": [
     [
       1,
@@ -508,15 +516,27 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "8e179235c08019c53a5dfc9e2566e93796ca13042b7788d2d954a45db2eb206c",
+    "candidateSha256": "fe636d026c4695d126ec6f0398e3dffe3d08b4c68caa3e2c8dfe07cb82f931ff",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.014999999999997016,
+      "noteDurationSeconds": 0.015000000000000013,
+      "barSeconds": 0.014999999999997016
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/chopin-waltz-op64-1-rachmaninoff-0-8.png",
     "work/chopin-waltz-op64-1-rachmaninoff-0-8.6.png",
     "work/chopin-waltz-op64-1-rachmaninoff-8-16.png",
     "work/chopin-waltz-op64-1-rachmaninoff-16-24.png",
+    "work/chopin-waltz-op64-1-rachmaninoff-24-32.png",
     "work/chopin-waltz-op64-1-rachmaninoff-24-34.png",
     "work/chopin-waltz-op64-1-rachmaninoff-27.94-39.94.png",
     "work/chopin-waltz-op64-1-rachmaninoff-31-41.png",
@@ -525,7 +545,6 @@
     "work/chopin-waltz-op64-1-rachmaninoff-48-56.png",
     "work/chopin-waltz-op64-1-rachmaninoff-52.0387-64.0387.png",
     "work/chopin-waltz-op64-1-rachmaninoff-56-64.png",
-    "work/chopin-waltz-op64-1-rachmaninoff-96-104.png",
     "work/chopin-waltz-op64-1-rachmaninoff-104-112.png",
     "work/chopin-waltz-op64-1-rachmaninoff-106.155-118.155.png"
   ]

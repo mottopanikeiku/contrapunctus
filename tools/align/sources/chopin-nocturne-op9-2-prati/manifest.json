@@ -31,8 +31,14 @@
       "file": "chopin_nocturne_op9_n2.ly",
       "old": "#(set-octavation 0)",
       "new": "\\ottava #0",
-      "basis": "Modern equivalent of the source's matching octave-display reset at line191. The complete compiled pitch/onset multiset must equal immutable published MIDI."
+      "basis": "Modern equivalent of the source's matching octave-display reset at line191. The complete compiled inventory must match immutable MIDI plus only the five separately source-proven polyphonic additions."
+    },
+    {
+      "file": "chopin_nocturne_op9_n2.ly",
+      "old": "\\cadenzaOff \\bar \"|\" \\normalsize",
+      "new": "\\cadenzaOff \\bar \"|\" \\set Score.currentBarNumber = #33 \\set Score.internalBarNumber = #33 \\normalsize",
+      "basis": "The source explicitly labels the completed free cadenza32 and following bars33/34. Reuse the existing Chaconne convention: synchronize both the displayed currentBarNumber and internalBarNumber, because LilyPond's rhythmic-location tags read the internal counter. A display-only reset leaves the last real bar mislabeled33 and invents a derived34. Preserve all24 cadenza quarters, every pitch/onset/duration and the multi-system32 boxes; actual33/34 must carry their real glyphs."
     }
   ],
-  "accessed": "2026-10-17"
+  "accessed": "2026-10-18"
 }

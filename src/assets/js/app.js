@@ -10,13 +10,8 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const fmt = (t) => { t = Math.max(0, Math.floor(t || 0)); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`; };
 const app = { player, root: ROOT, navigate, fmt };
 window.CP = app;
-// Initial relative style URLs otherwise change identity when pushState enters a nested directory.
-for (const link of $$('link[rel="stylesheet"]', document.head)) link.setAttribute('href', link.href);
-function rebaseFontURLs(style, base) {
-  style.textContent = style.textContent.replace(/url\(\s*(?:"([^"]*)"|'([^']*)'|([^)]*))\s*\)/gi,
-    (_, double, single, bare) => `url("${new URL(double ?? single ?? bare.trim(), base).href}")`);
-}
-for (const style of $$('style[data-cp-fonts]', document.head)) rebaseFontURLs(style, document.baseURI);
+// Initial relative head-link URLs otherwise retarget when pushState enters a nested directory.
+for (const link of $$('link[href]', document.head)) link.setAttribute('href', link.href);
 
 // ================================================================== now-playing bar
 const np = $('.np');
@@ -234,12 +229,6 @@ async function syncStyles(doc) {
     // Retain parsed stylesheets for the return trip without letting old rules bleed into the page.
     for (const l of $$('link[rel="stylesheet"]', document.head)) l.media = want.includes(l.href) ? 'all' : 'not all';
     $$('style[data-cp-critical]', document.head).forEach((style) => style.remove());
-    $$('style[data-cp-fonts]', document.head).forEach((style) => style.remove());
-    for (const style of $$('style[data-cp-fonts]', doc.head)) {
-      const fonts = document.importNode(style, true);
-      rebaseFontURLs(fonts, doc.baseURI);
-      document.head.append(fonts);
-    }
   };
 }
 
@@ -312,6 +301,17 @@ mount();
 if ('serviceWorker' in navigator) {
   const register = () => navigator.serviceWorker.register(new URL('../../sw.js', import.meta.url), {
     scope: new URL('../../', import.meta.url).pathname, updateViaCache: 'none',
+  }).then(() => navigator.serviceWorker.ready).then((registration) => {
+    const assets = new URL('assets/', ROOT), urls = new Set();
+    for (const entry of performance.getEntriesByType('resource')) {
+      if (entry.initiatorType === 'audio' || entry.initiatorType === 'video') continue;
+      const url = new URL(entry.name);
+      if (url.origin !== location.origin || !url.pathname.startsWith(assets.pathname)
+        || /\.(?:mp3|mp4|m4a|aac|ogg|oga|opus|wav|flac|webm|weba|aiff?|midi?)$/i.test(url.pathname)) continue;
+      urls.add(entry.name);
+    }
+    // Report already-used resources; cache population belongs to the worker, not the page.
+    registration.active.postMessage({ type: 'cache-visited-assets', urls: [...urls] });
   }).catch((error) => console.warn('Offline cache unavailable:', error));
   if (document.readyState === 'complete') register();
   else window.addEventListener('load', register, { once: true });

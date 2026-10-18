@@ -44,23 +44,23 @@ export async function capture(browser, origin, phase, startAt = 0) {
   await writeFile(path.join(dir, 'screenshots.json'), JSON.stringify(rows, null, 2));
   return rows.map(({ name, width, height, requests, bytes, errors }) => ({ name, width, height, requests, bytes, errors }));
 }
-export async function compareScreenshots() {
+export async function compareScreenshots(beforePhase = 'before', afterPhase = 'after') {
   const root = path.join(ROOT, 'cache/performance');
-  const rows = JSON.parse(await readFile(path.join(root, 'after/screenshots.json'), 'utf8'));
+  const rows = JSON.parse(await readFile(path.join(root, afterPhase, 'screenshots.json'), 'utf8'));
   const result = [];
   const { PNG } = await import('pngjs');
   const { default: pixelmatch } = await import('pixelmatch');
   for (const { name, width, height, screenshot } of rows) {
-    const before = PNG.sync.read(await readFile(path.join(root, 'before', screenshot)));
-    const after = PNG.sync.read(await readFile(path.join(root, 'after', screenshot)));
+    const before = PNG.sync.read(await readFile(path.join(root, beforePhase, screenshot)));
+    const after = PNG.sync.read(await readFile(path.join(root, afterPhase, screenshot)));
     if (before.width !== after.width || before.height !== after.height) throw new Error(`Viewport changed: ${screenshot}`);
     const diff = new PNG({ width: before.width, height: before.height });
     const changed = pixelmatch(before.data, after.data, diff.data, before.width, before.height, { threshold: 0.1 });
     let exact = 0;
     for (let i = 0; i < before.data.length; i += 4) if (before.data[i] !== after.data[i] || before.data[i + 1] !== after.data[i + 1] || before.data[i + 2] !== after.data[i + 2] || before.data[i + 3] !== after.data[i + 3]) exact++;
-    await writeFile(path.join(root, 'after', `diff-${screenshot}`), PNG.sync.write(diff));
+    await writeFile(path.join(root, afterPhase, `diff-${screenshot}`), PNG.sync.write(diff));
     result.push({ name, width, height, exactChangedPixels: exact, perceptualChangedPixels: changed, perceptualPercent: +(100 * changed / (width * height)).toFixed(4) });
   }
-  await writeFile(path.join(root, 'visual-diff.json'), JSON.stringify(result, null, 2));
+  await writeFile(path.join(root, afterPhase, 'visual-diff.json'), JSON.stringify(result, null, 2));
   return result;
 }

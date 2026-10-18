@@ -1,0 +1,917 @@
+{
+  "uniqueScoreAttacks": 544,
+  "audioDetectedOnsets": 408,
+  "medianAbsoluteOnsetDeviation": 0.12724019689176203,
+  "noteWeightedMedianDeviation": 0.10956860793098144,
+  "p95AbsoluteOnsetDeviation": 0.5809286820419183,
+  "fractionWithin150ms": 0.5459558823529411,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 3,
+      "median": 0.03464852607709812,
+      "p95": 0.043024832697307454,
+      "max": 0.04395553343288627,
+      "adaptiveMedian": 0.037314307836954885,
+      "adaptiveP95": 0.04467020629389955
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 17,
+      "median": 0.3380426967534973,
+      "p95": 0.5911489408771621,
+      "max": 0.7999679221282001,
+      "adaptiveMedian": 0.037521707870141086,
+      "adaptiveP95": 0.10052729384436741
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 18,
+      "median": 0.09598528842431442,
+      "p95": 0.5016924672307963,
+      "max": 0.8668248437586357,
+      "adaptiveMedian": 0.029482052983794915,
+      "adaptiveP95": 0.0822747359106243
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 17,
+      "median": 0.0946308279409358,
+      "p95": 0.4854995851999177,
+      "max": 0.5436552181848384,
+      "adaptiveMedian": 0.040258835241417046,
+      "adaptiveP95": 0.33908201979978897
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 18,
+      "median": 0.17325424478735485,
+      "p95": 0.6098810629943021,
+      "max": 0.768661025385768,
+      "adaptiveMedian": 0.04587965267407057,
+      "adaptiveP95": 0.1313241800785387
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 16,
+      "median": 0.1626975830982751,
+      "p95": 0.36532160831811566,
+      "max": 0.4266124661246593,
+      "adaptiveMedian": 0.02243294065593915,
+      "adaptiveP95": 0.13568262264255182
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 23,
+      "median": 0.14438360710136777,
+      "p95": 0.34790686355842404,
+      "max": 0.4437332005973147,
+      "adaptiveMedian": 0.05087218627287626,
+      "adaptiveP95": 0.17170267131243971
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 27,
+      "median": 0.24295116420550755,
+      "p95": 0.6089318068690851,
+      "max": 0.6310403185664555,
+      "adaptiveMedian": 0.05468171008240574,
+      "adaptiveP95": 0.34176881809634446
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 35,
+      "median": 0.19921575134119962,
+      "p95": 0.8152568995077898,
+      "max": 1.0972645318289977,
+      "adaptiveMedian": 0.04053091155162747,
+      "adaptiveP95": 0.11581195730324773
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 27,
+      "median": 0.31817377357445764,
+      "p95": 0.6998259609534984,
+      "max": 0.7431502682374003,
+      "adaptiveMedian": 0.04726729716277589,
+      "adaptiveP95": 0.12336308832478267
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 33,
+      "median": 0.3279088545987463,
+      "p95": 0.6404922294120835,
+      "max": 0.8139970134395469,
+      "adaptiveMedian": 0.04908909905428516,
+      "adaptiveP95": 0.1964672307947609
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 28,
+      "median": 0.2676267905536065,
+      "p95": 0.9543768596869799,
+      "max": 1.0782965543941145,
+      "adaptiveMedian": 0.02746363586085465,
+      "adaptiveP95": 0.12390928599081547
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 27,
+      "median": 0.16833250373321107,
+      "p95": 0.6834949394391727,
+      "max": 0.8548918754493542,
+      "adaptiveMedian": 0.02715889607873123,
+      "adaptiveP95": 0.1245206570432998
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 26,
+      "median": 0.07374039046513303,
+      "p95": 0.29171727227476296,
+      "max": 0.33250483933410635,
+      "adaptiveMedian": 0.05179746695424825,
+      "adaptiveP95": 0.15425474254740124
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 27,
+      "median": 0.10146894530171835,
+      "p95": 0.17189983961065136,
+      "max": 0.19161440185830259,
+      "adaptiveMedian": 0.03660417012333994,
+      "adaptiveP95": 0.06936231403128373
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 26,
+      "median": 0.05510370001658771,
+      "p95": 0.11680133842158824,
+      "max": 0.1298680935789065,
+      "adaptiveMedian": 0.04612410817985335,
+      "adaptiveP95": 0.10563934516897078
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 27,
+      "median": 0.04375089873346383,
+      "p95": 0.1181356119683187,
+      "max": 0.23826558265579934,
+      "adaptiveMedian": 0.035948232951653836,
+      "adaptiveP95": 0.10606570433047295
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 26,
+      "median": 0.12493390852279163,
+      "p95": 0.496347270615594,
+      "max": 0.6423549582435157,
+      "adaptiveMedian": 0.07656600851723283,
+      "adaptiveP95": 0.4772078424865711
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 26,
+      "median": 0.23174160721197268,
+      "p95": 0.5181986615784666,
+      "max": 0.689733974890828,
+      "adaptiveMedian": 0.22013162988770318,
+      "adaptiveP95": 0.5080736684918179
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 8,
+      "median": 0.11914744759691587,
+      "p95": 0.24429998340799552,
+      "max": 0.2685105912283632,
+      "adaptiveMedian": 0.10189038216911683,
+      "adaptiveP95": 0.21701404789556158
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 20,
+      "median": 0.051540843979893225,
+      "p95": 0.26367982965546166,
+      "max": 0.2909540401526556,
+      "adaptiveMedian": 0.057528068137855826,
+      "adaptiveP95": 0.2532308500636191
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 18,
+      "median": 0.05168934240363399,
+      "p95": 0.2583882805154743,
+      "max": 0.29813063436759535,
+      "adaptiveMedian": 0.06717327581441168,
+      "adaptiveP95": 0.27173975443837994
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 18,
+      "median": 0.1703415187213011,
+      "p95": 0.3035241137105543,
+      "max": 0.3394557823129105,
+      "adaptiveMedian": 0.07952436259056128,
+      "adaptiveP95": 0.26394651844478273
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 17,
+      "median": 0.05932415242523348,
+      "p95": 0.3978027763950933,
+      "max": 0.43821912504839133,
+      "adaptiveMedian": 0.05555942702287098,
+      "adaptiveP95": 0.2442502074001311
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 6,
+      "median": 0.07638736795530576,
+      "p95": 0.3730207123499696,
+      "max": 0.3842497649466168,
+      "adaptiveMedian": 0.07396106410040204,
+      "adaptiveP95": 0.3621725844809447
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 4,
+      "median": 0.0315884077208608,
+      "p95": 0.2353013107685782,
+      "max": 0.27122283059608776,
+      "adaptiveMedian": 0.047936507936512385,
+      "adaptiveP95": 0.10299800895930103
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 4,
+      "median": 0.2526530612245068,
+      "p95": 1.0356523422377248,
+      "max": 1.1399911509319338,
+      "adaptiveMedian": 0.03892760356175984,
+      "adaptiveP95": 0.05944826060506614
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 2,
+      "median": 0.1657358553177346,
+      "p95": 0.2725735855317623,
+      "max": 0.28444444444443207,
+      "adaptiveMedian": 0.04963608207511072,
+      "adaptiveP95": 0.051984016370776945
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 17,
+      "median": 0.3380426967534973,
+      "p95": 0.5911489408771621,
+      "max": 0.7999679221282001,
+      "adaptiveMedian": 0.037521707870141086,
+      "adaptiveP95": 0.10052729384436741
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 33,
+      "median": 0.3279088545987463,
+      "p95": 0.6404922294120835,
+      "max": 0.8139970134395469,
+      "adaptiveMedian": 0.04908909905428516,
+      "adaptiveP95": 0.1964672307947609
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 27,
+      "median": 0.31817377357445764,
+      "p95": 0.6998259609534984,
+      "max": 0.7431502682374003,
+      "adaptiveMedian": 0.04726729716277589,
+      "adaptiveP95": 0.12336308832478267
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 28,
+      "median": 0.2676267905536065,
+      "p95": 0.9543768596869799,
+      "max": 1.0782965543941145,
+      "adaptiveMedian": 0.02746363586085465,
+      "adaptiveP95": 0.12390928599081547
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 4,
+      "median": 0.2526530612245068,
+      "p95": 1.0356523422377248,
+      "max": 1.1399911509319338,
+      "adaptiveMedian": 0.03892760356175984,
+      "adaptiveP95": 0.05944826060506614
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 26,
+      "median": 0.23174160721197268,
+      "p95": 0.5181986615784666,
+      "max": 0.689733974890828,
+      "adaptiveMedian": 0.22013162988770318,
+      "adaptiveP95": 0.5080736684918179
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 8,
+      "median": 0.11914744759691587,
+      "p95": 0.24429998340799552,
+      "max": 0.2685105912283632,
+      "adaptiveMedian": 0.10189038216911683,
+      "adaptiveP95": 0.21701404789556158
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 18,
+      "median": 0.1703415187213011,
+      "p95": 0.3035241137105543,
+      "max": 0.3394557823129105,
+      "adaptiveMedian": 0.07952436259056128,
+      "adaptiveP95": 0.26394651844478273
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 26,
+      "median": 0.12493390852279163,
+      "p95": 0.496347270615594,
+      "max": 0.6423549582435157,
+      "adaptiveMedian": 0.07656600851723283,
+      "adaptiveP95": 0.4772078424865711
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 6,
+      "median": 0.07638736795530576,
+      "p95": 0.3730207123499696,
+      "max": 0.3842497649466168,
+      "adaptiveMedian": 0.07396106410040204,
+      "adaptiveP95": 0.3621725844809447
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 32.0,
+      "meanCosine": 0.2549939973755351
+    },
+    {
+      "start": 48.0,
+      "meanCosine": 0.33567874532276437
+    },
+    {
+      "start": 104.0,
+      "meanCosine": 0.3666894991591225
+    },
+    {
+      "start": 96.0,
+      "meanCosine": 0.3846767493559507
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.4095681275082443
+    }
+  ],
+  "sections": [
+    {
+      "bar": "30",
+      "occ": 1,
+      "editorial": 106,
+      "aligned": 104.58975609756097,
+      "difference": -1.410243902439035,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "39",
+      "occ": 1,
+      "editorial": 138,
+      "aligned": 137.1395121951219,
+      "difference": -0.8604878048780904,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "55",
+      "occ": 1,
+      "editorial": 192,
+      "aligned": 192.97463414634143,
+      "difference": 0.9746341463414296,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "0",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.22,
+      "nearestOnsetDeviation": 0.02226757369614507
+    },
+    {
+      "label": "middle",
+      "bar": "28",
+      "occ": 1,
+      "scoreQ": 112.0,
+      "audioSeconds": 99.20146341463413,
+      "nearestOnsetDeviation": 0.16833250373321107
+    },
+    {
+      "label": "last",
+      "bar": "61",
+      "occ": 1,
+      "scoreQ": 242.0,
+      "audioSeconds": 220.26390243902438,
+      "nearestOnsetDeviation": 0.04702726619103714
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 52,
+      "voice": "lower-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    },
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 56,
+      "voice": "lower-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    },
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 61,
+      "voice": "lower-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    },
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 64,
+      "voice": "lower-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    },
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 68,
+      "voice": "upper-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    },
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 73,
+      "voice": "upper-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    },
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 76,
+      "voice": "upper-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    },
+    {
+      "bar": "61",
+      "occ": 1,
+      "midi": 80,
+      "voice": "upper-main",
+      "durationQ": 4.0,
+      "onset": 220.26390243902438,
+      "offset": 222.14,
+      "durationSeconds": 1.8760975609756088
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.004402199904347981,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.49250240824372965,
+  "endAnchor": {
+    "scoreQ": 246.0,
+    "audioSeconds": 222.14,
+    "decodedDuration": 227.90820861678006,
+    "activeEndMinus45dB": 222.14530612244897
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "rachmaninoff-prelude-c-sharp-minor",
+  "tuningHz": 430.45,
+  "audioSha256": "28bd8f1ac07e462fe14633a461f2c7dd14e767054786faa8d6ce1bd3376d1554",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. The source identifies the complete solo-piano Op. 3 No. 2, not Rachmaninoff's physical performing edition.",
+    "Read content/listen/rachmaninoff-prelude-c-sharp-minor.mjs and cache/analysis/rachmaninoff-prelude-c-sharp-minor.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      1.7960975609756096,
+      4.4
+    ],
+    [
+      107.36,
+      106.0
+    ],
+    [
+      139.16,
+      138.0
+    ],
+    [
+      194.8,
+      192.0
+    ],
+    [
+      196.67268292682925,
+      193.86
+    ],
+    [
+      200.26487804878047,
+      197.64
+    ],
+    [
+      203.8570731707317,
+      201.68
+    ],
+    [
+      207.44926829268292,
+      206.28
+    ],
+    [
+      211.04146341463414,
+      211.38
+    ],
+    [
+      215.53170731707314,
+      215.02
+    ],
+    [
+      216.87878048780485,
+      217.6
+    ],
+    [
+      217.32780487804877,
+      220.26
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.22,
+      "peakSeconds": 1.28,
+      "window": [
+        0,
+        4
+      ],
+      "midiPitches": [
+        33,
+        45,
+        57
+      ],
+      "basis": "The first A-octave attack is near 1.22 s. The broad final search selected the penultimate upper chord near 217.8 s, not the visibly distinct final pianissimo reattack near 220.4 s. Both repeated upper chords must remain represented.",
+      "mappedAudioSeconds": 1.22,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "third-opening-C-sharp-octaves",
+      "scoreQ": 2.0,
+      "audioSeconds": 4.4,
+      "peakSeconds": 4.46,
+      "window": [
+        4.35,
+        4.75
+      ],
+      "midiPitches": [
+        25,
+        37,
+        49
+      ],
+      "basis": "The third opening bell is C-sharp1/C-sharp2/C-sharp3 near 4.5 s. Its long sustained pitch state had been allowed to start before the measured attack. This is an inspected source-pitch fitting constraint, not independent validation.",
+      "mappedAudioSeconds": 4.4,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "coda-first-chord-A3-A4-signature",
+      "scoreQ": 219.0,
+      "audioSeconds": 193.86,
+      "peakSeconds": 193.9,
+      "window": [
+        193.8,
+        194.2
+      ],
+      "midiPitches": [
+        52,
+        57,
+        61,
+        64,
+        69,
+        73
+      ],
+      "basis": "The first of the five chromatically distinct coda chords has the source A3/A4 signature near194.02s. The old numeric pass assigned it197.393s, near the next chord. Absolute-pitch inspection establishes the complete five-chord order; these are source fitting constraints, not independent validation.",
+      "mappedAudioSeconds": 193.86,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "coda-second-chord-A-sharp3-G-sharp4-signature",
+      "scoreQ": 223.0,
+      "audioSeconds": 197.64,
+      "peakSeconds": 197.68,
+      "window": [
+        197.5,
+        197.95
+      ],
+      "midiPitches": [
+        52,
+        58,
+        61,
+        64,
+        68,
+        73
+      ],
+      "basis": "The source's changed A-sharp3/G-sharp4 combination peaks near197.76s. It is the second coda voicing, not a delayed first chord or an interchangeable tonic-pedal onset.",
+      "mappedAudioSeconds": 197.64,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "coda-third-chord-G3-A4-signature",
+      "scoreQ": 227.0,
+      "audioSeconds": 201.68,
+      "peakSeconds": 201.72,
+      "window": [
+        201.5,
+        201.95
+      ],
+      "midiPitches": [
+        52,
+        55,
+        61,
+        64,
+        69,
+        73
+      ],
+      "basis": "The third coda chord's G3/A4 pair is visible near201.76s. The old warp's204.577s was a genuine source-phase error despite a passing onset median.",
+      "mappedAudioSeconds": 201.68,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "coda-fourth-chord-F-sharp-A-sharp-signature",
+      "scoreQ": 231.0,
+      "audioSeconds": 206.28,
+      "peakSeconds": 206.32,
+      "window": [
+        206.15,
+        206.6
+      ],
+      "midiPitches": [
+        52,
+        54,
+        58,
+        61,
+        64,
+        66,
+        70,
+        73
+      ],
+      "basis": "The fourth voicing has F-sharp3/A-sharp3/F-sharp4/A-sharp4 near206.38s. Preserve its order and chromatic change rather than matching a neighbouring bass attack.",
+      "mappedAudioSeconds": 206.28,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "coda-fifth-chord-D-sharp-F-sharp-A-signature",
+      "scoreQ": 235.0,
+      "audioSeconds": 211.38,
+      "peakSeconds": 211.42,
+      "window": [
+        211.25,
+        211.75
+      ],
+      "midiPitches": [
+        51,
+        54,
+        57,
+        61,
+        63,
+        66,
+        69,
+        73
+      ],
+      "basis": "The fifth chord's D-sharp/F-sharp/A signature is visible near211.50s in logarithmic absolute-pitch features, before the separate low C-sharp-minor closing voicing.",
+      "mappedAudioSeconds": 211.38,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "closing-lower-C-sharp-minor-voicing",
+      "scoreQ": 240.0,
+      "audioSeconds": 215.02,
+      "peakSeconds": 215.06,
+      "window": [
+        214.95,
+        215.35
+      ],
+      "midiPitches": [
+        44,
+        49,
+        52,
+        56,
+        61,
+        64,
+        68,
+        73
+      ],
+      "basis": "The lower closing voicing's G-sharp3/G-sharp4 pair peaks near215.12s, before the higher penultimate chord at217.6s and its final reattack. The weak historic signal is inspected fitting evidence, not an aural or independent check.",
+      "mappedAudioSeconds": 215.02,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "penultimate-upper-C-sharp-minor-chord",
+      "scoreQ": 241.5,
+      "audioSeconds": 217.6,
+      "peakSeconds": 217.6,
+      "window": [
+        217.6,
+        218.05
+      ],
+      "midiPitches": [
+        52,
+        56,
+        61,
+        64,
+        68,
+        73,
+        76,
+        80
+      ],
+      "basis": "The written eighth-note upper chord at q241.5 is reattacked as the final fermata chord at q242. Inspection distinguishes the stronger earlier attack near 217.8 s from the later pianissimo repeat near 220.4 s; the old endpoint had conflated them. This explicit fitting constraint is not independent or aural validation.",
+      "mappedAudioSeconds": 217.6,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 242.0,
+      "audioSeconds": 220.26,
+      "peakSeconds": 220.32,
+      "window": [
+        220.1,
+        220.8
+      ],
+      "midiPitches": [
+        52,
+        56,
+        61,
+        64,
+        68,
+        73,
+        76,
+        80
+      ],
+      "basis": "The first A-octave attack is near 1.22 s. The broad final search selected the penultimate upper chord near 217.8 s, not the visibly distinct final pianissimo reattack near 220.4 s. Both repeated upper chords must remain represented.",
+      "mappedAudioSeconds": 220.26390243902438,
+      "mappingDeviationSeconds": 0.0039024390243866947
+    }
+  ],
+  "adaptiveOnsetCount": 1106,
+  "adaptiveMedianDeviation": 0.04595155135225326,
+  "gateReasons": [],
+  "elapsedSeconds": 0.6603254539659247,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 62,
+    "notes": 1725,
+    "voices": 4
+  },
+  "published": true,
+  "configSha256": "a0a3e462217bf703312bd22a00f0918be7fcdf2eceeece6df5e3c63167ab79b1",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2.ly",
+      "file": "rach-prelude-op3-no2.ly",
+      "sha256": "debdb6768d1d365492315ced4d735704e56539ae967600538b6d3c123a7f6681"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2.mid",
+      "file": "rach-prelude-op3-no2.mid",
+      "sha256": "cd7879a13accb06c539b1a74855121ed25ec4c71f8069473c6fc78ae56d7c43b"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/rachmaninoff-prelude-c-sharp-minor-0-9.22.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-0.4-12.4.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-8-16.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-72-80.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-80-88.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-88-96.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-95.2015-107.201.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-136-144.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-144-152.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-152-160.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-176-184.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-180-192.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-189.86-201.86.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-192-200.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-192-204.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-193.64-205.64.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-197.68-209.68.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-202.28-214.28.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-204-216.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-207.38-219.38.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-208-216.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-211.02-223.02.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-213.6-225.6.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-216-227.png",
+    "work/rachmaninoff-prelude-c-sharp-minor-216.264-227.908.png"
+  ]
+}

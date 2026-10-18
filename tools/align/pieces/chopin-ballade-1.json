@@ -132,6 +132,45 @@
     ],
     "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
   },
+  "anchors": [
+    {
+      "scoreQ": 1388,
+      "window": [559.05, 559.35],
+      "label": "bar-248-F-sharp4-G5-cadenza-descent",
+      "basis": "The source F-sharp4/G5 attack is visible near559.2s before the descending cadenza reaches the bass. The unconstrained numerical pass put this passage roughly five seconds late. This is inspected source-pitch fitting evidence, not independent validation."
+    },
+    {
+      "scoreQ": 1404,
+      "window": [565.8, 566.05],
+      "label": "bar-252-first-ascent-G4-G5-arrival",
+      "basis": "Four-decade logarithmic inspection of cached absolute-pitch features shows the complete first ascending run ending on G4/G5 near565.94s, not571.238s. This measured dyad precedes the quiet repeated chords; it is not an invented cut or omitted scale."
+    },
+    {
+      "scoreQ": 1406,
+      "window": [567.9, 568.25],
+      "label": "first-quiet-G-minor-chord",
+      "basis": "The G1/G2/D3/G3/B-flat3 chord begins near568.0s in the logarithmic pitch view, after the completed scale and before its two quiet reattacks. This explicit fitting constraint is not independent validation."
+    },
+    {
+      "scoreQ": 1407.5,
+      "window": [570.85, 571.15],
+      "label": "second-quiet-G-minor-chord",
+      "basis": "A distinct same-voicing quiet reattack is visible near571.0s; preserve it separately from the first and third attacks instead of spreading the preceding scale into this quiet region."
+    },
+    {
+      "scoreQ": 1408,
+      "window": [571.65, 572.05],
+      "label": "third-quiet-G-minor-chord",
+      "basis": "The final quiet repeated G-minor chord precedes the next active figure near574s. Its source-pitch rise is visible near571.8s. This remains a disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 1448,
+      "window": [597.3, 597.75],
+      "label": "penultimate-high-G-minor-chord",
+      "basis": "The source's seven-note G-minor chord at q1448 has a strong measured source-pitch peak near597.54s, before the separate final low G octaves at600.26s. The earlier numeric pass delayed this penultimate attack until598.526s. Preserve both source attacks; this is source-pitch fitting evidence, not independent validation."
+    }
+  ],
+  "diagnostics": {"overlays": [[540,552],[552,564],[560,576],[576,588]]},
   "boundaries": [],
   "engraving": {
     "staff": 18,

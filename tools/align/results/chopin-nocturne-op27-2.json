@@ -768,7 +768,9 @@
       "midiPitches": [
         37
       ],
-      "basis": "The opening D-flat2 occurs near 0.84 s. Inspected final source-pitch evidence places the actual last D-flat3/F4/D-flat5 chord near 364.7 s, after the preceding A-flat chord near 360.5 s; the earlier broad window incorrectly selected a preceding event despite passing numerical gates."
+      "basis": "The opening D-flat2 occurs near 0.84 s. Inspected final source-pitch evidence places the actual last D-flat3/F4/D-flat5 chord near 364.7 s, after the preceding A-flat chord near 360.5 s; the earlier broad window incorrectly selected a preceding event despite passing numerical gates.",
+      "mappedAudioSeconds": 0.84,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "bar-60-low-A-flat-chord",
@@ -785,7 +787,9 @@
         61,
         63
       ],
-      "basis": "The source A-flat1/A-flat3/D-flat4/E-flat4 chord has a clear pitch rise near 268 s immediately before the ascending right-hand run. The unconstrained candidate placed this chord and run approximately one second late. This is an inspected source-pitch constraint, not independent or aural validation."
+      "basis": "The source A-flat1/A-flat3/D-flat4/E-flat4 chord has a clear pitch rise near 268 s immediately before the ascending right-hand run. The unconstrained candidate placed this chord and run approximately one second late. This is an inspected source-pitch constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 267.98,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "bar-76-high-A-flat6-F7",
@@ -801,7 +805,9 @@
         92,
         101
       ],
-      "basis": "Fixed cached absolute-pitch features show the closing ascent's F-sharp6/G-sharp6/B-flat6/C7/D-flat7/E-flat7 peaks at350.88/351.28/351.66/352.12/352.50/353.02s, then F7 at354.18s. The unconstrained ending warp delayed this final high dyad to357.666s despite passing gates. Bind the actual q225 A-flat6/F7 attack, retaining its notated hold, the following rest and both later chords. This is an inspected fitting constraint, not independent validation or a measured key release."
+      "basis": "Fixed cached absolute-pitch features show the closing ascent's F-sharp6/G-sharp6/B-flat6/C7/D-flat7/E-flat7 peaks at350.88/351.28/351.66/352.12/352.50/353.02s, then F7 at354.18s. The unconstrained ending warp delayed this final high dyad to357.666s despite passing gates. Bind the actual q225 A-flat6/F7 attack, retaining its notated hold, the following rest and both later chords. This is an inspected fitting constraint, not independent validation or a measured key release.",
+      "mappedAudioSeconds": 354.16,
+      "mappingDeviationSeconds": 0.0
     },
     {
       "label": "last",
@@ -817,13 +823,15 @@
         65,
         73
       ],
-      "basis": "The opening D-flat2 occurs near 0.84 s. Inspected final source-pitch evidence places the actual last D-flat3/F4/D-flat5 chord near 364.7 s, after the preceding A-flat chord near 360.5 s; the earlier broad window incorrectly selected a preceding event despite passing numerical gates."
+      "basis": "The opening D-flat2 occurs near 0.84 s. Inspected final source-pitch evidence places the actual last D-flat3/F4/D-flat5 chord near 364.7 s, after the preceding A-flat chord near 360.5 s; the earlier broad window incorrectly selected a preceding event despite passing numerical gates.",
+      "mappedAudioSeconds": 364.67324675324676,
+      "mappingDeviationSeconds": 0.013246753246733078
     }
   ],
   "adaptiveOnsetCount": 1409,
-  "adaptiveMedianDeviation": 0.04341166769737015,
+  "adaptiveMedianDeviation": 0.04346938775509557,
   "gateReasons": [],
-  "elapsedSeconds": 0.6439065729500726,
+  "elapsedSeconds": 0.6570610579801723,
   "dtwSteps": [
     [
       1,
@@ -863,9 +871,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "6ca333e6943a57d6fd65ccf6ce24b045e553c356b3787c5dd1980f9e2d27fb93",
+    "candidateSha256": "023c78aa926ba084eeb31282a05cf9ddc2b72ada4ec19f67ed25b54ed26c09ed",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.03699999999997772,
+      "noteDurationSeconds": 0.037000000000000366,
+      "barSeconds": 0.03699999999997772
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/chopin-nocturne-op27-2-0-8.png",
