@@ -115,7 +115,7 @@ export default {
       "text": "Rimsky-Korsakov became a professor at the Saint Petersburg Conservatory in 1871. His later autobiography describes how the appointment pushed him to strengthen his own technique while teaching others.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
+      "evidence": "Historical note, not a timed musical event. Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, chapter X, pp. 100–103: the summer 1871 invitation and autumn appointment, his lack of technical preparation, and his account of becoming a pupil himself while teaching. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
     },
     {
       "t": 202,

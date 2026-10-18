@@ -1,27 +1,5 @@
 {
   "id": "debussy-faune",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "sections[1].mNote; transitions[0].how",
-      "severity": "minor",
-      "problem": "Visible prose spells out D-flat rather than using the required accidental glyph.",
-      "evidence": "AUTHORING.md:10 requires ♯ ♭ ♮ for accidentals in prose. The score and Pearson analysis support the musical claim; this is typography only.",
-      "fix": "Use D♭ major / D♭-major as grammatically appropriate instead of D-flat major / D-flat-major."
-    },
-    {
-      "where": "cues[13].title",
-      "severity": "minor",
-      "problem": "The seven-word title exceeds LISTENING.md’s two-to-six-word cue-title range.",
-      "evidence": "LISTENING.md:51; the current title is The last sound is not a climax.",
-      "fix": "Use A quiet final resonance, or another concrete title of at most six words."
-    },
-    {
-      "where": "dossier: session.date.note, carrier.catalogue.note, transfer.date.note, rights and source locators",
-      "severity": "minor",
-      "problem": "Numerous prose words are accidentally joined to dates or identifiers, impairing the public dossier’s readability.",
-      "evidence": "Examples in this dossier include with1955, a1956, in1918, in1956, before1963 and former50-year. The underlying dates and provenance were independently checked.",
-      "fix": "Restore normal spaces throughout dossier prose, including words before years, month/year phrases and catalogue references. For example use with 1955, in 1956, before 1963 and former 50-year. Preserve exact machine identifiers, URLs, ISO dates and verbatim disputed matrix values."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

@@ -192,14 +192,18 @@
   },
   "endpoints": {
     "first": [
-      0,
-      3
+      0.35,
+      0.75
     ],
     "last": [
-      655.7,
+      665.35,
       665.7
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
+    "end": {
+      "seconds": 666.0,
+      "basis": "Independent closing pitch plot shows E40/E52 and upper E76/E88 decaying by666.0; this is an acoustic display boundary, not key release."
+    },
+    "basis": "Independent pitch plots identify the opening C48/E76 rise around0.4–0.7 before the next A45/F-sharp78 chord around2.1, rejecting broad-window first2.08. Original final bar311 separately rearticulates timpaniE52 and violinI E76/E88; closing low-E rise around665.4–665.7 supplies a candidate search, still subject to unchanged independent gates. No aural review."
   },
   "boundaries": [],
   "engraving": {

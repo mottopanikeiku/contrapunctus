@@ -1,0 +1,44 @@
+{
+  "id": "the-recorded-century",
+  "verdict": "pass",
+  "defects": [],
+  "resolvedDefects": [
+    "MEAS: s7 originally ended at 211 seconds, beyond the cached 1928 MP3's 210.866667-second duration. Writer corrected it to 210.86; changed field reopened.",
+    "MEAS: s6 originally ended at 209.64 seconds, beyond the cached 1921 MP3's 209.594750-second duration. Writer corrected it to 209.59; changed field reopened."
+  ],
+  "reviewed": {
+    "publication": "MEAS: all nine listens are published by baseline membership or pass recording verdicts, opened directly. All five linked comparison ids have pass comparison reviews, also opened.",
+    "timing": "MEAS: all nine content/listen modules and corresponding cache/analysis reports opened. Nine stations total 1422.35 seconds, 23 minutes 42.35 seconds. Bounds are within recording durations; exact metadata probes resolve the tightly rounded historic Prelude endpoints. Caruso 1902 ends within its 123.045417-second file; other interior cuts use existing section divisions. Prophet windows exactly match the published musical trims 4–224 and 4–259, not the residual noise tails.",
+    "cues": "MEAS: every timed cue agrees with its own recording guide and feature report. The Caruso and Prophet cues describe broad level/phrase regions, not guessed words, breath points or instrumental entrances. Paderewski timing questions are documented stylistic invitations, distinct from the approximate faster-middle division. Prelude crests and withdrawals agree with their separate reports; the 1928 peak is at 155 rather than its first chordal attack.",
+    "claims": "EXT: opened Science Museum research supports acoustic diaphragm/stylus capture, studio positioning, Nikisch's November 1913 session, Stroh reinforcement and side-capacity/repeat relationship. Opened DAHR catalogues support Caruso/Cottone, Paderewski 1917, the two issued acoustic Prelude takes, electrical take 23 and Chaliapin/Pitt. The opened Chaliapin discography and carrier catalogue support Coates/October 1927 take 2. Paderewski's own essay supports the qualified rubato claim. LOC supplies Columbia/Victor 1925 adoption; Yale supplies the microphone/amplifier/cutter mechanism. Edison catalogue separates recording 1919 from issue December 1920. Internet Archive documents the electrical transfer's filtering and de-noising.",
+    "comparisons": "MEAS: five comparison content files opened. Caruso mapped windows, Nikisch's modern-reference second exposition at 102.6, Prelude central-span measurements 28.8/31.2 seconds, and Prophet window durations/confidence qualifications match. None is treated as a controlled measurement of microphone causation, untouched timbre or original studio loudness.",
+    "rights": "EXT: exact Somov 1925 portrait file exists on Commons, identifies oil on canvas, and carries public-domain reproduction notices. It is not described as a recording-session image.",
+    "style": "MEAS: nine stations, three-sentence introduction, all title/subtitle/narration/cue limits met; British spelling and typographic musical accidentals retained. Performer and master uncertainties remain explicit rather than silently resolved."
+  },
+  "sourcesOpened": [
+    "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/",
+    "https://adp.library.ucsb.edu/index.php/matrix/refer/1000003400",
+    "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029",
+    "https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a",
+    "https://commons.wikimedia.org/wiki/File:Somov_Sergei_Rachmaninoff_1925.JPG",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/700004863/C-19781-Nocturne_in_F_sharp_major",
+    "https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm",
+    "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/",
+    "https://web.archive.org/web/20071108225217/http://www.nps.gov/archive/edis/edisonia/classical.htm",
+    "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg",
+    "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/700010909",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor",
+    "https://www.loc.gov/static/managed-content/uploads/sites/6/2017/02/recorded_sound_timeline-2013.pdf",
+    "https://web.library.yale.edu/printpdf/book/export/html/3443",
+    "https://archive.org/details/prelude-in-c-sharp-minor",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/2000007905",
+    "https://imslp.org/wiki/2_Romances,_Op.49_(Rimsky-Korsakov,_Nikolay)",
+    "https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022043",
+    "https://artmusiclounge.files.wordpress.com/2016/03/chaliapin-discography.pdf"
+  ],
+  "sourceAccessNotes": [
+    "EXT: DAHR refer routes for B-25650 and Cc550 initially returned 503 or a JavaScript challenge; alternate detail routes opened their full tables successfully. Victor 814's separate issue page was not opened (503); both issued takes and their linkage to 814 are directly visible in the opened matrix table.",
+    "EXT: Yale's blanket first-electrical-recording-in-1925 claim is not used; the journey correctly confines 1925 to Columbia/Victor commercial adoption. No worldwide sound-recording-rights conclusion is taken from the Swiss carrier site's blanket PD notice."
+  ]
+}

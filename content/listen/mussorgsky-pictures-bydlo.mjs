@@ -13,7 +13,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - iv. bydlo - sempre moderato, pesante.ogg' },
-  intro: 'A Polish ox-cart creaks past: the cart arrives from a distance, passes at full volume and rumbles away. Follow the level as well as the tune.',
+  intro: 'A Polish ox-cart creaks past: the cart arrives from a distance, passes at full volume and rumbles away. Follow the level as well as the tune. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How does an orchestra make something heavy move closer, pass, and recede?',
 
   sections: [

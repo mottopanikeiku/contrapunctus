@@ -14,7 +14,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - ix. la cabane sur des pattes de poule - allegro con brio, feroce - andante mosso - allegro molto.ogg' },
-  intro: 'Baba Yaga’s hut stands on chicken legs and her mortar flies. A fast, wild first part, a very quiet slower middle and a return are followed, without a break, by the Great Gate.',
+  intro: 'Baba Yaga’s hut stands on chicken legs and her mortar flies. A fast, wild first part, a very quiet slower middle and a return are followed, without a break, by the Great Gate. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How does an orchestra turn a clock and a flying witch into the same piece?',
 
   sections: [

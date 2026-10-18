@@ -1,0 +1,196 @@
+{
+  "id": "vienna-1900",
+  "title": "Vienna, 1900",
+  "subtitle": "Mahler, Klimt and the loosening of a musical centre",
+  "minutes": 23,
+  "hero": {
+    "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg",
+    "caption": "Gustav Klimt, the embracing couple from the Beethoven Frieze, 1902. Secession, Vienna."
+  },
+  "intro": "Klimt’s Beethoven exhibition brought Mahler into the Secession; Schoenberg’s Second Quartet later carried a soprano beyond dependable tonal bearings. Follow those documented connections through the Adagietto, a Mahler song and Entrückung, keeping Freud’s Vienna distinct from an invented psychological explanation of the notes.",
+  "stations": [
+    {
+      "id": "s1",
+      "title": "A new building, an old key",
+      "listen": { "id": "mahler-5-adagietto", "from": 0, "to": 276 },
+      "art": { "file": "File:Wiener Secessionsgebäude um 1900.jpg", "caption": "Joseph Maria Olbrich’s Secession building, completed in 1898. Anonymous photograph, around 1900; public domain." },
+      "score": null,
+      "map": { "composer": "mahler", "year": 1900 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>The Secession’s exhibition house was completed on 29 October 1898, after six months of construction. Joseph Maria Olbrich gave the artists a glass-roofed exhibition hall behind the entrance and its gilded dome: a purpose-built place to change how art was shown. The music here is not an opening ceremony. It is Mahler’s Adagietto, composed for the Fifth Symphony in 1901–02, with strings and harp replacing the surrounding movements’ larger orchestra. Its F-major opening supplies a point of reference that the long, leaning phrases repeatedly delay. Keep that audible centre in mind: Schoenberg’s finale will make its availability, rather than merely its colour, uncertain.</p>",
+      "cues": [
+        { "at": 20, "text": "Follow the sustained melodic line across changing harmony; the phrase lasts longer than any single attack." },
+        { "at": 80, "text": "Listen for leaning notes that delay rest before moving towards a chord tone." },
+        { "at": 175, "text": "The opening’s broad swell withdraws again; follow the quieter space after its crest." }
+      ],
+      "sources": [
+        { "title": "Vienna Secession: building history and Olbrich’s design", "url": "https://secession.at/building" },
+        { "title": "Commons: Secession building around 1900 — historical photograph and public-domain status", "url": "https://commons.wikimedia.org/wiki/File:Wiener_Secessionsgeb%C3%A4ude_um_1900.jpg" },
+        { "title": "Mahler, Symphony No. 5, IV: Peters full score, pp. 178–182", "url": "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf" },
+        { "title": "Mahler Foundation: Adagietto, scoring and form", "url": "https://mahlerfoundation.org/mahler/compositions/symphony-no-5/symphony-no-5-movement-4-adagietto-sehr-langsam/" }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Klimt’s Beethoven, Mahler’s conducting",
+      "listen": { "id": "mahler-5-adagietto", "from": 276, "to": 415 },
+      "art": { "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg", "caption": "Klimt, Beethoven Frieze, 1902: the embracing couple beneath the concluding appeal to joy." },
+      "score": null,
+      "map": { "composer": "mahler", "year": 1902 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>In April 1902 the Secession assembled twenty-one artists around Max Klinger’s Beethoven statue. Klimt’s frieze translated a reading of Beethoven’s Ninth Symphony into painted walls, ending with an embrace and Schiller’s appeal to the whole world. Mahler conducted a wind arrangement from the Ninth’s finale at the opening on 14 April. That is the concrete connection between conductor and exhibition; the Adagietto playing here was not the exhibition music. Its middle section is marked <i>Fließender</i>, more flowing, and moves beyond F major while the harp largely withdraws. Painting and music share a historical setting, not a demonstrated system of matching colours and chords.</p>",
+      "cues": [
+        { "at": 286, "text": "The more flowing middle moves away from the opening’s F major; follow continuity within the changed harmony." },
+        { "at": 325, "text": "Listen across this middle-section swell and retreat rather than treating its crest as a new section." }
+      ],
+      "sources": [
+        { "title": "Vienna Secession: the 1902 Beethoven exhibition and the frieze’s programme", "url": "https://secession.at/beethovenfrieze" },
+        { "title": "Mahler Foundation: XIVth Secession exhibition and Mahler’s 14 April performance", "url": "https://mahlerfoundation.org/mahler/locations/austria/vienna/secession-exhibitions/" },
+        { "title": "Mahler Foundation: the Adagietto’s middle section", "url": "https://mahlerfoundation.org/mahler/compositions/symphony-no-5/symphony-no-5-movement-4-adagietto-sehr-langsam/" },
+        { "title": "Commons: Klimt’s concluding Beethoven Frieze panel", "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Diesen_Kuss_der_ganzen_Welt.jpeg" }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "A love letter, with a witness",
+      "listen": { "id": "mahler-5-adagietto", "from": 415, "to": 621.27 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>Willem Mengelberg annotated his score with the story that Mahler sent the Adagietto to Alma Schindler as a declaration of love. His annotation is evidence that he told the story, not independent proof of the exchange. The distinction matters when biography tempts us to make a phrase stand for a private event. What the score establishes is a return: the slow opening material and harp recover the foreground, then grow into a larger swell before F major settles. Hear how the restored melody still carries delayed resolutions. Recognition does not erase tension; familiar material must complete its harmonic work before the final resonance fades.</p>",
+      "cues": [
+        { "at": 425, "text": "The opening material returns; compare its long phrases with the first station." },
+        { "at": 555, "text": "The returning phrase grows into the largest broad crest of this recording." },
+        { "at": 602, "text": "Follow the closing withdrawal into resonance rather than stopping at the last strong phrase." }
+      ],
+      "sources": [
+        { "title": "K. Dawn Grapes, Fort Collins Symphony: Mengelberg’s annotation", "url": "https://fcsymphony.org/mahler-adagietto/" },
+        { "title": "Mahler, Adagietto: Peters full score", "url": "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf" },
+        { "title": "Commons: the Peabody Symphony Orchestra recording used here", "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg" }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Before the quartet acquired words",
+      "listen": { "id": "mahler-2-urlicht", "from": 0, "to": 160 },
+      "art": { "file": "File:Gustav Klimt - Attersee - Google Art Project.jpg", "caption": "Klimt, Attersee, 1900. A later image of the lake beside Steinbach, not an illustration commissioned for Urlicht." },
+      "score": null,
+      "map": { "composer": "mahler", "year": 1893 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Before Schoenberg added a soprano to his quartet, Mahler had placed an alto inside the Second Symphony. <i>Urlicht</i> sets a poem from the 1808 second volume of <i>Des Knaben Wunderhorn</i>; an early orchestral manuscript ends ‘Steinbach / 19 Juli 1893’. The song existed before Mahler chose its symphonic place. Here one vocal phrase stands beside measured, hymn-like brass chords, and the subsequent accompaniment moves beneath the sustained voice. Klimt’s later painting names the same lake, Attersee, but supplies no evidence of musical borrowing. Listen to this vocal-and-instrumental relationship before the different balance of five independent performers in <i>Entrückung</i>.</p>",
+      "cues": [
+        { "at": 20, "text": "Compare the single vocal line with the measured, hymn-like brass chords around it." },
+        { "at": 130, "text": "Follow the accompaniment beneath sustained singing: a held vocal note need not mean stationary harmony." }
+      ],
+      "sources": [
+        { "title": "Mahler Foundation: Urlicht manuscript, earlier song and symphonic setting", "url": "https://mahlerfoundation.org/mahler/compositions/symphony-no-2/symphony-no-2-movement-4-lied-1-urlicht-sehr-feierlich-aber-schlicht/" },
+        { "title": "Deutsches Textarchiv: Des Knaben Wunderhorn, volume II, 1808", "url": "https://www.deutschestextarchiv.de/book/show/arnim_wunderhorn02_1808" },
+        { "title": "Commons: Klimt, Attersee, 1900", "url": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Attersee_-_Google_Art_Project.jpg" }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "The tonic no longer guides",
+      "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 0, "to": 74 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "schoenberg", "year": 1908 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Schoenberg’s Second String Quartet, written in 1907–08, reaches its most unsettled harmonic territory in the finale, <i>Entrückung</i>. The introduction suspends the ordinary feeling of a governing key, though fifth relationships still organise its pitches. This is an early crossing towards atonality, not the later twelve-tone method and not a claim that tonal references disappear everywhere. Unlike the Adagietto, the opening gives us no immediately dependable home to measure departures against. Follow a short contour through changes of register instead: relationships between moving lines can connect the passage when a familiar cadence does not.</p>",
+      "cues": [
+        { "at": 0, "text": "Follow the chromatic string lines without expecting an immediate home-key cadence." }
+      ],
+      "sources": [
+        { "title": "Therese Muxeneder, Arnold Schönberg Center: Quartet No. 2, introduction and tonal organisation", "url": "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10" },
+        { "title": "Arnold Schönberg Center: compositional chronology", "url": "https://schoenberg.at/en/schoenberg/timeline" }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Air from another planet",
+      "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 74, "to": 168 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": "stefan-george--schoenberg-quartet-2",
+      "compare": null,
+      "text": "<p>‘Ich fühle Luft von anderem Planeten’ — ‘I feel air from another planet’ — begins Stefan George’s poem. Schoenberg chose <i>Litanei</i> and <i>Entrückung</i> from George’s 1907 collection <i>Der siebente Ring</i> for the quartet’s last two movements. The soprano therefore enters a genre’s instrumental ensemble without turning every string line into chordal accompaniment. Schoenberg’s performance instruction asks that the voice stand out by timbre rather than loudness. Listen for a fifth melodic participant among two violins, viola and cello. The words name a departure; the music has already loosened its tonal bearings before the poem begins.</p>",
+      "cues": [
+        { "at": 75, "text": "Across the first vocal span, hear the soprano as a melodic participant among the strings, not above a single accompaniment." },
+        { "at": 145, "text": "Follow one line through register changes, then another; contour supplies landmarks where a home key is uncertain." }
+      ],
+      "sources": [
+        { "title": "Arnold Schönberg Center: George’s poems, scoring and Schoenberg’s balance instruction", "url": "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10" },
+        { "title": "Commons: Carmel Quartet and Rona Israel-Kolatt, 2007 recording", "url": "https://commons.wikimedia.org/wiki/File:Schoenberg_Quartet_No._2_4th_movement.OGG" }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "A listening room and a consulting room",
+      "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 168, "to": 352 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>At Berggasse 19, Freud’s waiting room hosted the Wednesday Psychological Society from 1902. Six years later the Rosé Quartet and Marie Gutheil-Schoder introduced Schoenberg’s Second Quartet in Vienna. Schoenberg’s account, written in 1936–37, remembers laughter beginning in the second movement and continuing through the George settings. These are two documented rooms in the same city, not evidence that psychoanalysis caused the harmonic break. The distinction directs attention back to the sounding work: short shapes can survive changes of rhythm and register, and successive swells can organise a passage without a conventional return to a tonic. Follow those connections rather than assigning a diagnosis to dissonance.</p>",
+      "cues": [
+        { "at": 215, "text": "Keep a short melodic shape in mind as rhythm and register change; a settled tonic is not the only connection." },
+        { "at": 260, "text": "This stretch approaches a brief forceful crest, then withdraws into quieter phrases." },
+        { "at": 325, "text": "Closely spaced attacks gather force before another retreat; follow the space left after the surge." }
+      ],
+      "sources": [
+        { "title": "Sigmund Freud Museum: Berggasse 19 and the Wednesday Psychological Society", "url": "https://www.freud-museum.at/en/exhibitions-program/exhibition-details" },
+        { "title": "Arnold Schönberg Center: motivic organisation and Schoenberg’s retrospective premiere account", "url": "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10" }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "The meeting was in Leiden",
+      "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 352, "to": 472 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "mahler", "year": 1910 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Mahler did consult Freud, but not in the Viennese rooms just described. They met in Leiden on 26 August 1910 during a crisis in Mahler’s marriage; Ernest Jones’s biography of Freud reports a four-hour walk. That meeting postdates both the Adagietto and Schoenberg’s quartet. It cannot serve as their compositional cause, and its later recollections are not a recording of the conversation. Keep this historical distance while the quartet quietly restarts and gathers two further waves. The music’s reduced level does not suspend interaction: small movements accumulate before the next crest, then retreat again before the closing instrumental paragraph.</p>",
+      "cues": [
+        { "at": 360, "text": "Listen through the quiet restart for small movements that accumulate before the sound regains weight." },
+        { "at": 425, "text": "The later span rises, withdraws and rises again; the first crest is not the ending." }
+      ],
+      "sources": [
+        { "title": "Mahler Foundation: the 26 August 1910 Leiden consultation and Jones’s account", "url": "https://mahlerfoundation.org/mahler/locations/netherlands/leiden/meeting-with-freud/" },
+        { "title": "Arnold Schönberg Center: Quartet No. 2, composition dates and instrumental coda", "url": "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10" },
+        { "title": "Commons: the quartet recording used here", "url": "https://commons.wikimedia.org/wiki/File:Schoenberg_Quartet_No._2_4th_movement.OGG" }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "A destination, not the old route",
+      "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 472, "to": 627.9 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": "mahler--schoenberg-harmonielehre",
+      "compare": null,
+      "text": "<p>After the soprano finishes, the strings continue alone. Schoenberg remembered this coda being heard without the interruptions that had accompanied the vocal movements at the premiere. The quartet ultimately reaches F♯ major, answering the F♯ minor in which the whole work began; its route has nevertheless suspended tonal bearings for substantial stretches. The break is therefore audible without pretending that every old relation has vanished. A further connection survives in print: Schoenberg dedicated his 1911 <i>Harmonielehre</i> to Mahler’s memory. Follow the final harmony and decay, then distinguish the recording’s remaining room sound from a new musical event.</p>",
+      "cues": [
+        { "at": 482, "text": "Across the closing span, the strings continue the argument after the poem has run its course." },
+        { "at": 550, "text": "The closing paragraph leads towards F♯ major, despite the finale’s unconventional harmonic route." },
+        { "at": 590, "text": "Listen for the final major harmony and its decay; later recorded activity is not identified as another musical phrase." }
+      ],
+      "sources": [
+        { "title": "Arnold Schönberg Center: coda, tonal ending and 1936–37 recollection", "url": "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10" },
+        { "title": "Contrapunctus recording guide: Entrückung’s F♯-major ending and timing evidence", "url": "../hall.html#schoenberg-quartet-2-entrueckung" },
+        { "title": "Universal Edition: Harmonielehre and its dedication", "url": "https://www.universaledition.com/en/Works/Harmonielehre/P0041937" },
+        { "title": "Mahler Foundation: Schoenberg’s relation to Mahler", "url": "https://www.mahlerfoundation.org/mahler/contemporaries/arnold-schoenberg/" }
+      ]
+    }
+  ]
+}

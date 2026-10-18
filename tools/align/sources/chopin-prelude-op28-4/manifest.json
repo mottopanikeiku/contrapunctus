@@ -1,0 +1,24 @@
+{
+  "mutopia": 921,
+  "title": "Prelude in E minor, Op. 28 No. 4",
+  "edition": "Peters, Herrmann Scholtz, 1900b",
+  "encoder": "Roland Goretzki",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=921",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "chp-28-04-a4.ly",
+  "midi": "Chop-28-4a.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a-lys.zip",
+      "file": "Chop-28-4a-lys.zip",
+      "sha256": "1f35c19d3bfdfeeac0a9c1a283aeb3a3cc8f98acb3f49593c4b25fcf6b161497"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-4a/Chop-28-4a.mid",
+      "file": "Chop-28-4a.mid",
+      "sha256": "b19f8e0d783915e80e33cc4f622ef9623994ab89f114a53983c3f628265b798b"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

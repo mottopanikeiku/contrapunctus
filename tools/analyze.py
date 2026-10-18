@@ -38,22 +38,44 @@ def mmss(t):
     return f'{t // 60}:{t % 60:02d}'
 
 
+def frame_features(y, sr, hop, chunk_s=90.0, pad_s=3.0):
+    """Frame-level features computed in overlapping chunks, so long works (a 45-minute symphony)
+    fit in about 1 GB instead of 4+ GB. Chunks are multiples of the hop and each is padded with
+    `pad_s` of neighbouring audio, then trimmed, so frames line up exactly with a single-pass run."""
+    n = len(y)
+    step = int(chunk_s * sr) // hop * hop
+    pad = int(pad_s * sr) // hop * hop
+    parts = {k: [] for k in ('rms', 'cent', 'onset', 'chroma', 'bass')}
+    for start in range(0, n, step):
+        a, b = max(0, start - pad), min(n, start + step + pad)
+        seg = y[a:b]
+        f0, f1 = (start - a) // hop, (start - a + min(step, n - start)) // hop + (1 if start + step >= n else 0)
+        rms = librosa.feature.rms(y=seg, hop_length=hop)[0]
+        cent = librosa.feature.spectral_centroid(y=seg, sr=sr, hop_length=hop)[0]
+        onset = librosa.onset.onset_strength(y=seg, sr=sr, hop_length=hop)
+        chroma = librosa.feature.chroma_cqt(y=seg, sr=sr, hop_length=hop, bins_per_octave=36)
+        # bass chroma: CQT restricted to C1..B3
+        cqt_bass = np.abs(librosa.cqt(seg, sr=sr, hop_length=hop, fmin=librosa.note_to_hz('C1'), n_bins=36, bins_per_octave=12))
+        bass = cqt_bass.reshape(3, 12, -1).sum(axis=0)
+        f1 = min(f1, rms.shape[-1])
+        parts['rms'].append(rms[f0:f1]); parts['cent'].append(cent[f0:f1]); parts['onset'].append(onset[f0:f1])
+        parts['chroma'].append(chroma[:, f0:f1]); parts['bass'].append(bass[:, f0:f1])
+    cat = lambda k, ax=-1: np.concatenate(parts[k], axis=ax)
+    return cat('rms'), cat('cent'), cat('onset'), cat('chroma'), cat('bass')
+
+
 def main(src, out_json, out_txt):
     sr = 22050
     y, _ = librosa.load(src, sr=sr, mono=True)
+    y = y.astype(np.float32)
     dur = len(y) / sr
     hop = 512
     fps = sr / hop
 
-    rms = librosa.feature.rms(y=y, hop_length=hop)[0]
+    rms, cent, onset_env, chroma, bass_pc = frame_features(y, sr, hop)
+    del y
     db = librosa.amplitude_to_db(rms, ref=np.max(rms) + 1e-12)
-    cent = librosa.feature.spectral_centroid(y=y, sr=sr, hop_length=hop)[0]
-    onset_env = librosa.onset.onset_strength(y=y, sr=sr, hop_length=hop)
     onsets = librosa.onset.onset_detect(onset_envelope=onset_env, sr=sr, hop_length=hop, units='time')
-    chroma = librosa.feature.chroma_cqt(y=y, sr=sr, hop_length=hop, bins_per_octave=36)
-    # bass chroma: CQT restricted to C1..B3
-    cqt_bass = np.abs(librosa.cqt(y, sr=sr, hop_length=hop, fmin=librosa.note_to_hz('C1'), n_bins=36, bins_per_octave=12))
-    bass_pc = cqt_bass.reshape(3, 12, -1).sum(axis=0)
 
     tempo = librosa.feature.tempo(onset_envelope=onset_env, sr=sr, hop_length=hop, aggregate=np.median)
     tempo = float(np.atleast_1d(tempo)[0])

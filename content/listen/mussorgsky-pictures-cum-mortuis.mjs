@@ -14,7 +14,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - cum mortuis in lingua mortua - andante non troppo, con lamento.ogg' },
-  intro: 'The walking theme returns changed into a lament, over an F♯ that never goes away. Here the visitor stops looking at the pictures and speaks to the dead.',
+  intro: 'The walking theme returns changed into a lament, over an F♯ that never goes away. Here the visitor stops looking at the pictures and speaks to the dead. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'What happens to the walking theme when it is slowed into a lament?',
 
   sections: [

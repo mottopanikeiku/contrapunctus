@@ -14,7 +14,7 @@ export function bounds(points, padding = 0) {
   const x = Math.min(...xs), y = Math.min(...ys);
   return [x - padding, y - padding, Math.max(...xs) - x + 2 * padding, Math.max(...ys) - y + 2 * padding].map(round);
 }
-export const EUROPE = bounds([project(-15, 64), project(42, 34)]);
+export const EUROPE = bounds([project(-10.5, 60.5), project(40.5, 38)]);
 export const WORLD = bounds([project(-135, 72), project(155, -48)]);
 
 /** Iterative Douglas–Peucker in projected units (no recursion-depth limit). */

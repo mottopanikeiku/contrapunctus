@@ -1,13 +1,5 @@
 {
   "id": "mozart-requiem-introitus",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "transitions[1].how",
-      "severity": "minor",
-      "problem": "The public transition uses B-flat-major instead of the required musical accidental symbol.",
-      "evidence": "local://VERIFY-BRIEF.md, line 11 (house style: ♯ ♭); content/listen/mozart-requiem-introitus.mjs, line 41. All eight Requiem listen/dossier files passed the targeted validator; the quiet-link timing and B♭-major score region were checked independently.",
-      "fix": "Replace B-flat-major region with B♭ major region. No musical or timing change is required."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

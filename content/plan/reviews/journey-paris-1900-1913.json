@@ -1,0 +1,46 @@
+{
+  "id": "paris-1900-1913",
+  "verdict": "pass",
+  "defects": [],
+  "reviewed": {
+    "publication": "MEAS: all eight listens are published. Satie, cathedral, quartet, La Mer and Firebird are baseline recordings; Nuages, Oiseaux tristes and Rite have pass recording reviews opened directly.",
+    "timing": "MEAS: all eight content/listen modules and corresponding cache/analysis reports opened. Nine stations total 1229.16 seconds, 20 minutes 29.16 seconds. All excerpt bounds are within recording durations and follow authored section divisions. Satie begins at bar 1 occurrence 1 (2.18) and ends exactly at bar 1 occurrence 2 (90.34), completing the first ending. Rite continues between stations at 180 and ends before the next authored dance at 363.",
+    "cues": "MEAS: all cues agree with the recording modules or score alignment. Satie bars 5, 19 and 32 occurrence 1 are 12.026, 42.928 and 71.408; the alignment remains labelled provisional. Nuages flute/harp and cor anglais passage cues, quartet technique contrast, La Mer layers, Oiseaux simultaneous subdivisions and D-minor return, Firebird sustained middle and Rite introduction/Augurs accents agree with the guides. No note-level event was inferred from feature-report chroma.",
+    "claims": "EXT: 1887/1888 Satie history and 1896 Debussy orchestrations are supported by the opened biographies. Debussy's 1889 Javanese encounter is distinguished from the unrelated cathedral recording; Pagodes is named as the specific later response. Opened institutional notes support Nocturnes premiere/Whistler context, Ravel quartet history and Miroirs premiere. Sibley documents the adapted Hokusai cover detail. Stravinsky foundation, Firebird history, van den Toorn and the label session table support the ballet chronology and recording identity. The Rite disturbance is qualified rather than embellished.",
+    "arrangements": "EXT: opened Commons credits identify Lawrence Odom/US Air Force Band and Thomas Knox/US Marine Band. Both excerpts are explicitly called concert-band arrangements, and no absent original string section is falsely identified in their sound.",
+    "rights": "EXT: exact Monet, Hokusai and Bakst Commons files exist and carry public-domain notices. Their dates/subjects match the captions. Monet is an editorial comparison, Hokusai a documented score-cover connection, Bakst a theatrical design rather than an alleged portrait or direct sonic cause.",
+    "style": "MEAS: nine stations, three-sentence introduction, subtitle and station titles within limits, 60–140-word narration and cues no longer than 25 words. British spelling, typographic quotes and accidental symbols retained. Both influence ids exist."
+  },
+  "sourcesOpened": [
+    "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37",
+    "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/erik-satie",
+    "https://www.marmottan.fr/en/notice/4014/",
+    "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+    "https://brenthugh.com/debnotes/gamelan.html",
+    "https://en.wikipedia.org/wiki/La_cath%C3%A9drale_engloutie",
+    "https://www.laphil.com/works/nocturnes",
+    "https://www.chambermusicsociety.org/about-the-music/composers/claude-debussy",
+    "https://www.chambermusicsociety.org/about-the-music/compositions/ravel-string-quartet",
+    "https://www.esm.rochester.edu/sibley/la-mer2/",
+    "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Thirty-Six_Views_of_Mount_Fuji-_The_Great_Wave_Off_the_Coast_of_Kanagawa_-_Google_Art_Project.jpg",
+    "https://www.bso.org/works/la-mer",
+    "https://commons.wikimedia.org/wiki/File:La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3",
+    "https://commons.wikimedia.org/wiki/File:IMSLP02693-Ravel-Miroirs_DemetsEd.pdf",
+    "https://enc.piano.or.jp/en/musics/329",
+    "https://imslp.org/wiki/Miroirs,_M.43_(Ravel,_Maurice)",
+    "https://fondation-igor-stravinsky.org/en/composer/biography/",
+    "https://en.wikipedia.org/wiki/The_Firebird",
+    "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Bakst_001.jpg",
+    "https://commons.wikimedia.org/wiki/File:Infernal_Dance_from_The_Firebird_by_Stravinsky.ogg",
+    "https://publishing.cdlib.org/ucpressebooks/public/book/stravinsky-and-the-rite-of-spring.html#d0e414",
+    "https://publishing.cdlib.org/img/ft967nb647_00181.gif",
+    "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/TheRiteOfSpring.pdf",
+    "https://media.musicalconcepts.net/wp-content/uploads/2021/06/28214506/PACL-95003_4-Booklet.pdf",
+    "https://s9.imslp.org/files/imglnks/usimg/a/af/IMSLP524674-PMLP179425-PMLUS00725-complete1.pdf"
+  ],
+  "sourceAccessNotes": [
+    "EXT: LOC Ballets Russes collection page was not opened (HTTP 403; alternate-host attempt 404). The 1909 collaboration claim is independently corroborated by the opened Firebird history and Stravinsky foundation chronology; no numbers are taken from the inaccessible page.",
+    "EXT: Rite score PDF opened with incomplete text extraction. The metre sign in van den Toorn's published analysis was opened as an image and reads 2/4; harmonic and structural claims are corroborated by the scholarly text and passed recording guide, not invented OCR.",
+    "EXT: label booklet's session table supports January 5–6, 1960. Its unrelated erroneous April 1913 premiere date is not used. Commons Firebird page's erroneous composer-death template is not used for any claim about Stravinsky's life or composition rights; the task's image-rights checks concern the three paintings/prints."
+  ]
+}

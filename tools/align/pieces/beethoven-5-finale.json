@@ -149,14 +149,17 @@
   "endpoints": {
     "first": [
       0,
-      3
+      0.3
     ],
     "last": [
-      694.7,
-      704.7
+      702,
+      706.4
     ],
-    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+    "basis": "Independent pitch plots show the first C36/C48/C84 chord already rising at the file start, not the broad-window selection1.74. The final tutti begins around701.3; the latest notated event is the second half-note of the source timpani roll, whose separate physical attack is unresolved. Its following search window is not an aural annotation or a publication waiver."
   },
+  "anchors": [
+    { "scoreQ": 2058, "window": [701.1, 701.5], "basis": "Independent closing pitch plot shows a sustained final C-major tutti after the distinct short chord near699.8 and ensuing silence. This constrains the whole-orchestra final chord; it does not independently identify the later notated timpani half-note." }
+  ],
   "boundaries": [],
   "engraving": {
     "staff": 12,
@@ -248,6 +251,6 @@
     "recurrences": [
       { "startQ": 4, "secondQ": 344, "length": 50, "search": 12 }
     ],
-    "overlays": [[0, 16], [365, 405]]
+    "overlays": [[0, 16], [365, 405], [690, 706.69]]
   }
 }

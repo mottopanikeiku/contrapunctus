@@ -148,7 +148,7 @@ export default {
       "text": "Rimsky-Korsakov served as Inspector of Naval Bands from 1873 to 1884. His professional work with wind players accompanied his growing responsibilities as a conservatory teacher and composer.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
+      "evidence": "Historical note, not a timed musical event. Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition: chapter XI, pp. 115–118 (spring 1873 appointment, May order and practical wind-instrument work); chapter XIX, pp. 226–227 (release from duties and abolition of the post in spring 1884). https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
     },
     {
       "t": 320,
@@ -444,21 +444,15 @@ export default {
     "source": {
       "title": "Rimsky-Korsakov, Scheherazade, IV, full-score scan",
       "url": "https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf",
-      "locator": "PDF pp. 1–3 opening gestures and violin; intervening festival transformations; p. 57 broad sea return; pp. 59–67 epilogue, violin and final chords. Stage changes are broad score-proportion estimates, not bar alignments."
+      "locator": "PDF pp. 1–4 opening gestures, violin replies and fast-section start; intervening festival transformations; p. 57 broad sea return; pp. 59–67 epilogue, violin and final chords. Stage changes are broad score-proportion estimates, not bar alignments."
     },
     "timeline": [
       {
         "t": 0,
         "playing": [
-          "flutes",
           "oboes",
           "clarinets",
           "bassoons",
-          "horns",
-          "trumpets",
-          "trombones",
-          "tuba",
-          "timpani",
           "violins-1",
           "violins-2",
           "violas",
@@ -466,25 +460,28 @@ export default {
           "basses"
         ],
         "lead": [
-          "trombones",
+          "oboes",
           "violins-1"
         ],
-        "note": "Opening region: forceful ensemble gestures alternate with pauses before the violin replies."
+        "note": "Opening gesture: oboes, clarinets and bassoons double the strings; flutes, brass and percussion rest (PDF p. 1). Pauses and a string continuation interrupt the initial force."
       },
       {
         "t": 30,
         "playing": [
           "solo-violin",
-          "harp"
+          "harp",
+          "cellos",
+          "basses"
         ],
         "lead": [
           "solo-violin"
         ],
-        "note": "Reduced solo-violin reply around the 0:30–0:42 changes; the frame alternates rather than maintaining full orchestral sound."
+        "note": "First solo-violin reply, with quiet held cello/bass support and a later harp chord (PDF p. 2). Broad anchor around the 0:30–0:42 changes, not a continuously sounding accompaniment."
       },
       {
         "t": 42,
         "playing": [
+          "piccolo",
           "flutes",
           "oboes",
           "clarinets",
@@ -494,6 +491,7 @@ export default {
           "trombones",
           "tuba",
           "timpani",
+          "percussion",
           "violins-1",
           "violins-2",
           "violas",
@@ -504,24 +502,30 @@ export default {
           "trombones",
           "violins-1"
         ],
-        "note": "Renewed forceful gesture after the solo reply, provisionally anchored at the 0:42 change."
+        "note": "Renewed forceful gesture: piccolo, winds, brass, strings and timpani are joined by other percussion, including triangle and tambourine (PDF pp. 2–3). Broadly anchored at the 0:42 change."
       },
       {
         "t": 56,
         "playing": [
           "solo-violin",
-          "harp"
+          "cellos",
+          "basses"
         ],
         "lead": [
           "solo-violin"
         ],
-        "note": "Second exposed violin continuation before the fast section, broadly anchored at 0:56."
+        "note": "Second solo-violin recitative above quiet held cellos and basses, without the first reply’s harp chord (PDF p. 4). Broadly anchored at 0:56 before the fast section."
       },
       {
         "t": 74,
         "playing": [
+          "flutes",
           "clarinets",
           "bassoons",
+          "horns",
+          "timpani",
+          "harp",
+          "percussion",
           "violins-1",
           "violins-2",
           "violas",
@@ -529,10 +533,10 @@ export default {
           "basses"
         ],
         "lead": [
-          "violins-1",
-          "clarinets"
+          "flutes",
+          "violas"
         ],
-        "note": "The fast festival starts from reduced wind-and-string scoring before its first larger build."
+        "note": "Fast-section opening region (PDF p. 4): a horn-and-string pulse with harp, timpani and other percussion gives way to flute above the lighter string motion, followed by clarinet and bassoon support. This broad state covers the changing scoring before the larger build."
       },
       {
         "t": 100,

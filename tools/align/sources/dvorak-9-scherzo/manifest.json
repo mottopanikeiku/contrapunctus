@@ -1,0 +1,24 @@
+{
+  "mutopia": 1793,
+  "title": "Symphony No. 9, Op. 95 — III. Scherzo. Molto vivace",
+  "edition": "N. Simrock GmbH (1894)",
+  "encoder": "Keith OHara",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793",
+  "license": "Creative Commons Attribution-ShareAlike 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "main": "Sym9-lys/Mvt3_Scherzo.ly",
+  "midi": "Mvt3_Scherzo.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-lys.zip",
+      "file": "Sym9-lys.zip",
+      "sha256": "32fe4b271d02a5a6934eadacd75a4e8dcaf59c565f9d61878cf47de41cd26cfa"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-mids.zip",
+      "file": "Sym9-mids.zip",
+      "sha256": "4ace203cafa10c6bd4e8cbc9d5c6e00bbfbba3efdf9d71ccee7b833f1582ac2c"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

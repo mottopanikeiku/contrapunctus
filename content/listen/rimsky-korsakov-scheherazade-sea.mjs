@@ -100,7 +100,7 @@ export default {
       "text": "Rimsky-Korsakov entered naval college in 1856 and served aboard the Almaz on a voyage from 1862 to 1865. The sea was part of his experience, but the score is not a documentary account of that voyage.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
+      "evidence": "Historical note, not a timed musical event. Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition: chapter I (July 1856 departure for the Marine Corps); chapters III–V (Almaz assignment, October 1862 departure and the 1862–65 cruise); chapter VI (September 1865 transfer ashore to Saint Petersburg). https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
     },
     {
       "t": 160,

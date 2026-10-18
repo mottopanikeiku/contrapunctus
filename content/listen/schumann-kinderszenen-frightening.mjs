@@ -22,16 +22,16 @@ export default {
     { t: 34, label: 'B · Schneller, pp, played twice', m: 'B', mNote: 'faster and quieter; repeat taken' },
     { t: 51, label: 'A′ · the tune again, with the sforzandi', m: 'A′', mNote: 'tune returns and is broken by sf chords' },
     { t: 94, label: 'B′ · Schneller returns', m: 'B′' },
-    { t: 108, label: 'A″ · the last return and close', m: 'A″', mNote: 'tune returns once more and slows to the end' },
+    { t: 108, label: 'A″ · the last return and close', m: 'A″', mNote: 'tune returns once more and the piece ends quietly' },
   ],
 
   cues: [
     { t: 0, kind: 'music', title: 'A tune that creeps', text: 'Two beats to the bar, marked pp, with the pedal down. The chords carry sharps and naturals that are not in the one-sharp key signature, so the harmony shifts by small steps. The eight bars are repeated: the form analysis finds the first pass again at about 0:20.', basis: 'audio-feature', precision: 'passage', evidence: 'First edition p. 16 (IMSLP #03060): 2/4, one sharp, pp, Ped., accidentals in the chords, closing repeat sign after bar 8. Form analysis: 0:03–0:15 matches 0:20–0:32 (lag 17 s, mean 0.95). Report: −24.2 dB at 0:00 and G major at 0:00–0:35.' },
     { t: 34, kind: 'form', title: 'Schneller: faster and staccato', text: 'The word Schneller, faster, heads four bars marked pp with staccato chords over quick left-hand figures. In the recording the rate of detected attacks jumps to nearly four a second near 0:35, higher than anywhere before it.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.75 at 0:34; onsets per second rise from 2.8 at 0:30 to 3.8 at 0:35 and 3.0 at 0:40; level −13.2 dB at 0:35. Score p. 16: Schneller and pp over four bars with repeat signs.' },
-    { t: 66, kind: 'listen', title: 'Sforzandi in every bar', text: 'When the tune returns it is broken by a group of bars with an sf on most of the chords. The loudest windows of the recording fall at about 1:00 and 1:05, and the level drops by about eleven decibels by 1:10.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.83 at 1:02 and 0.87 at 1:10; loudest windows 1:00 (−12.9 dB) and 1:05 (−12.3 dB); −23.2 dB at 1:10; B minor at 1:10–1:15. Score p. 16, last system: sf chords in four successive bars.' },
+    { t: 66, kind: 'listen', title: 'Sforzandi in every bar', text: 'When the tune returns it is broken by a group of bars with an sf on most of the chords. Among the loudest windows of the recording are those at about 1:00 and 1:05, and the level drops by about eleven decibels by 1:10.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.83 at 1:02 and 0.87 at 1:10; 1:00 (−12.9 dB) and 1:05 (−12.3 dB) are among the five loudest windows (with 0:40, 1:35 and 0:35); −23.2 dB at 1:10; B minor at 1:10–1:15. Score p. 16, last system: sf chords in four successive bars.' },
     { t: 80, kind: 'world', title: 'Liszt’s verdict', text: 'On 24 October 1839 Liszt addressed an open letter to Berlioz in the Revue et Gazette musicale. In it he praised Schumann’s Kinderszenen and called him a poet full of feeling and a great musician. Schumann marked the passage in red in his own scrapbook of press cuttings.', basis: 'documented', precision: 'passage', evidence: 'Zwickau catalogue 175 Jahre Kinderszenen, item 10: Liszt’s Lettre à M. Hector Berlioz, Revue et Gazette musicale, 24 October 1839, in Schumann’s Zeitungsstimmen volume with the final paragraph marked in red; the catalogue gives the German wording “ein Dichter voll Empfindung und ein großer Musiker”.' },
     { t: 96, kind: 'form', title: 'The scamper comes round again', text: 'Schneller returns near 1:34. The report finds the same jump in the rate of attacks that it found near 0:35, with 3.6 onsets a second at 1:35 and 3.4 at 1:40. Listen for how little the second pass changes.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.81 at 1:34; onsets per second 3.6 at 1:35 and 3.4 at 1:40; level −13.2 dB at 1:35. Form analysis: 0:27.5–0:52 matches 1:27.5–1:52 (lag 60 s, mean 0.95). Score p. 17: Schneller, pp, repeat signs.' },
-    { t: 114, kind: 'listen', title: 'The last return slows to a close', text: 'After the second scamper the creeping tune comes back for the last time and slows to the end. The report finds the sound thinning from −18 dB at 1:45 to −44 dB at 2:00, where the final chord decays.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.71 at 1:48; −17.8 dB at 1:45, −22.8 dB at 1:55, −44.4 dB at 2:00. Score p. 17, last system: the opening tune, ritardando, final bar.' },
+    { t: 114, kind: 'listen', title: 'The last return ends quietly', text: 'After the second scamper the creeping tune comes back for the last time and the piece ends quietly. The report finds the sound thinning from −18 dB at 1:45 to −44 dB at 2:00, where the final chord decays.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.71 at 1:48; −17.8 dB at 1:45, −22.8 dB at 1:55, −44.4 dB at 2:00. Score p. 17, last system: the opening tune and a quiet final bar, with no ritardando printed there.' },
   ],
 
   transitions: [
@@ -42,7 +42,7 @@ export default {
       to: 'B · Schneller',
       at: { t: 34 },
       span: [26, 42],
-      how: '<p>The creeping tune ends at a double bar and the next four bars are headed Schneller, faster, still marked <i>pp</i>. The long chords of the tune give way to short staccato chords, with quick figures and a falling line in the left hand. The report still reads G major, and the dynamic does not rise.</p>',
+      how: '<p>The creeping tune ends at a double bar and the next four bars are headed Schneller, faster, marked <i>pp</i>. The long chords of the tune give way to short staccato chords, with quick figures and a falling line in the left hand. The report still reads G major. The written dynamic drops back to pp, though the measured level in this recording rises.</p>',
       devices: ['tempo change', 'texture change'],
       basis: 'audio-feature',
       precision: 'passage',
@@ -59,7 +59,7 @@ export default {
       devices: ['tempo change', 'retransition'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'Report: novelty 1.00 at 0:50, onsets down to 2.0 per second, then novelty 0.83 at 1:02 where the loudest windows begin. Score pp. 16–17: tune, four sf bars, then ritard.',
+      evidence: 'Report: novelty 1.00 at 0:50, onsets down to 2.0 per second, then novelty 0.83 at 1:02, where some of the louder windows begin. Score pp. 16–17: tune, four sf bars, then ritard.',
     },
     {
       id: 'second-schneller',
@@ -76,16 +76,16 @@ export default {
     },
     {
       id: 'last-return',
-      title: 'The last return slows to the end',
+      title: 'The last return ends quietly',
       from: 'B′ · Schneller returns',
       to: 'A″ · the last return and close',
       at: { t: 108 },
       span: [100, 116],
-      how: '<p>After the repeat of the second Schneller the creeping tune returns for the last time and the piece closes with it, slowing at the end. The sforzandi do not come back, and the last bars are quiet.</p>',
+      how: '<p>After the repeat of the second Schneller the creeping tune returns for the last time and the piece closes with it. The sforzandi do not come back, and the last bars are quiet, ending on a soft chord.</p>',
       devices: ['tempo change', 'retransition'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'Report: novelty 0.71 at 1:48; −17.8 dB at 1:45; onsets falling from 2.6 to 1.4 per second at 1:55; −44.4 dB at 2:00. Score p. 17, last system: tune, ritardando, final bar.',
+      evidence: 'Report: novelty 0.71 at 1:48; −17.8 dB at 1:45; onsets falling from 2.6 to 1.4 per second at 1:55; −44.4 dB at 2:00. Score p. 17, last system: the opening tune and the final bar; the printed ritardando is earlier, in the middle passage.',
     },
   ],
 };

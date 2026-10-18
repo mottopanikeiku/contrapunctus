@@ -1,0 +1,134 @@
+{
+  "id": "sibelius-symphony-2",
+  "work": {
+    "title": "Symphony No. 2 in D major",
+    "catalogue": "Op. 43",
+    "movement": "Complete symphony in one file: I. Allegretto; II. Tempo andante, ma rubato; III. Vivacissimo; IV. Finale: Allegro moderato",
+    "version": {
+      "value": "The 1903 final version, as published by Fazer & Westerlund (the version in general use); the performing edition of this recording has not been checked against a score",
+      "status": "inferred",
+      "sourceIds": ["sibelius-society", "imslp"],
+      "note": "The Sibelius Society gives the first version (premiere 8 March 1902) and the final version of 1903. The 1958 recording would normally use the published score; the Decca booklet lists Breitkopf & Härtel as publisher of the edition. No source states which version Monteux used, and no score alignment was made."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "London Symphony Orchestra", "role": "orchestra" },
+      { "name": "Pierre Monteux", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["ia-item", "booklet"],
+    "note": "Both the Internet Archive description and the Decca booklet credit the London Symphony Orchestra under Monteux. The leader and principals on this session are not documented here; the booklet’s essay says that Hugh Maguire joined as leader after the orchestra’s 1957 arrival of young players, without tying that to this date."
+  },
+  "session": {
+    "date": {
+      "value": "18–20 June 1958",
+      "status": "documented",
+      "sourceIds": ["booklet", "ia-item"],
+      "precision": "range",
+      "note": "The Decca booklet gives Kingsway Hall, 18–20 June 1958, for the disc whose track list holds this symphony (p. 38 beside the track list on p. 37; the 24 and 25 June 1958 sessions marked with an asterisk are for Elgar’s Enigma Variations on the same disc). The Internet Archive description narrows the date to 20 June 1958 without a source. The identification rests on the layout of the booklet’s credits, which the author read as attaching to the disc listing Sibelius and Elgar; the measured movement lengths of this file (10:17, 14:36, 6:14 and 12:49) match the booklet’s track times (10:16, 14:36, 6:15, 12:49)."
+    },
+    "place": {
+      "value": "Kingsway Hall, London",
+      "status": "documented",
+      "sourceIds": ["booklet", "ia-item"],
+      "note": "Both sources name Kingsway Hall."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "RCA (US catalogue LSC 2342; UK catalogue SB 207); Decca reissue SDD 234 (September 1970)",
+      "status": "documented",
+      "sourceIds": ["booklet"],
+      "note": "The booklet’s “First released as” line names the catalogue numbers and months but not the label name for SB 207. The Internet Archive description says Decca–RCA. The author treats the first issue as RCA’s."
+    },
+    "catalogue": {
+      "value": "RCA LSC 2342 (October 1959); SB 207 (May 1960); Decca SDD 234 (September 1970)",
+      "status": "documented",
+      "sourceIds": ["booklet"],
+      "note": "The first issue was in October 1959 (LSC 2342) and May 1960 (SB 207); both dates are before 1963."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["booklet"],
+      "note": "The booklet names no matrix, take or side numbers."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["ia-item"],
+      "note": "The Internet Archive item was uploaded by a third party (account furiek@aol.com; subject tag “DWTKenInNY”) and its description does not name a transfer engineer or source disc."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["ia-item"],
+      "note": "The item’s public date is 11 June 2023; that is an upload date, not a transfer date."
+    },
+    "processing": {
+      "value": "A single VBR MP3 of the whole symphony; the uploader’s movement times are given in the description",
+      "status": "documented",
+      "sourceIds": ["ia-item"],
+      "note": "The Internet Archive derivative is a 78.7 MB VBR MP3 lasting 2,637 seconds. Whether it was sourced from an LP, CD or tape is not stated. No further processing is disclosed."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/sibelius-2-compl-monteux-lso/sibelius%202%20compl%20%28monteux-lso%29.mp3",
+    "sourceChain": ["ia-item"],
+    "format": "VBR MP3 as uploaded to the Internet Archive; one 44-minute file for the whole symphony",
+    "durationSeconds": 2637.04
+  },
+  "rights": {
+    "composition": {
+      "value": "Sibelius died in 1957, so the symphony (published 1903) is in copyright in countries with a life-plus-70 term, including the EU, until the end of 2027; IMSLP records it as public domain in the United States, Canada and life-plus-50 countries",
+      "status": "documented",
+      "sourceIds": ["imslp"],
+      "note": "The IMSLP work page carries a notice that the work is not in the public domain in life-plus-70 countries. The end date of 2027 is computed from Sibelius’s death in 1957, which the site’s Sibelius biography gives as 20 September 1957. This dossier does not claim the composition is out of copyright in the EU. The programme’s rule applies to the sound recording, not the composition."
+    },
+    "recording": {
+      "value": "Rule 3 — EU public domain (territorial): first published before 1963 (RCA LSC 2342, October 1959; SB 207, May 1960).",
+      "status": "documented",
+      "sourceIds": ["booklet", "ia-item"],
+      "note": "Territorial only: the recording’s first publication in 1959–60 predates 1963, so its EU 50-year term had expired before the 2013 extension. The United States status of a 1958–59 sound recording is not established here. The Internet Archive item carries no licence URL; its metadata and description contain no non-commercial restriction. The item belongs to a general “folksoundomy” collection and was uploaded by a third party, not by the rights holder."
+    },
+    "creditLine": "Jean Sibelius, Symphony No. 2 in D major, Op. 43. London Symphony Orchestra, Pierre Monteux, conductor. Recorded at Kingsway Hall, London, 18–20 June 1958; first issued as RCA LSC 2342 (1959). Single-file Internet Archive upload, item sibelius-2-compl-monteux-lso. Territorial public-domain basis (first published before 1963).",
+    "licenseUrl": "https://archive.org/details/sibelius-2-compl-monteux-lso"
+  },
+  "sources": [
+    {
+      "id": "ia-item",
+      "title": "Internet Archive — Sibelius: Symphony No. 2 in D, Op. 43, complete (Monteux–LSO 1958)",
+      "url": "https://archive.org/details/sibelius-2-compl-monteux-lso",
+      "locator": "Description: movement times at 0:01, 10:18, 24:54 and 31:08; “London Symphony Orchestra, Pierre Monteux, cond. Decca–RCA, recorded in Kingsway Hall, June 20, 1958”; files list: one VBR MP3 of 2,637 s; metadata has no licence URL; public date 2023-06-11.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "booklet",
+      "title": "Decca Classics — Pierre Monteux: The Complete Decca/Philips Recordings (booklet)",
+      "url": "https://d24ku69pnn7av2.cloudfront.net/decca-classics-booklets/2020/02894834711X_Pierre_Monteux_Booklet.pdf",
+      "locator": "p. 37 (track list with movement times 10.16, 14.36, 6.15, 12.49, with Elgar’s Enigma Variations marked *); p. 38 (Kingsway Hall, London, 18–20 June 1958 and 24 & 25 June 1958*; producers John Culshaw and James Walker*; balance engineer Kenneth Wilkinson; “First released as: RCA LSC 2342 (October 1959) / SB 207 (May 1960); DECCA SDD 234 (September 1970)”); pp. 48–51 (essay).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Symphony No. 2, Op. 43 (Sibelius, Jean)",
+      "url": "https://imslp.org/wiki/Symphony_No.2,_Op.43_(Sibelius,_Jean)",
+      "locator": "Copyright notice (public domain in Canada, the United States and life-plus-50 countries; not in life-plus-70 countries); first performance 8 March 1902; first publication Helsinki: Fazer & Westerlund, 1903.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "sibelius-society",
+      "title": "Sibelius Society of Finland — Second symphony op. 43 (1902)",
+      "url": "https://sibelius.klubi.fi/english/musiikki/ork_sinf_02.htm",
+      "locator": "First version 1902 and final version 1903; première 8 March 1902 (Helsinki) and 10 November 1903 (Stockholm); movement notes.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

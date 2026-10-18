@@ -1,0 +1,76 @@
+{
+  "id": "handel-messiah-hallelujah",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, source/report and visual review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#handel-messiah-hallelujah",
+    "finding": "The per-piece report matches final metrics, complete order, source uncertainty and six-page pack. It preserves the rejected numerical false positive and clearly distinguishes the three internal pitch-window fitting constraints from independent validation. The published method discloses them too."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/handel-messiah-hallelujah-checks.json",
+    "primaryMedianSeconds": 0.10068292565253145,
+    "primaryP95Seconds": 0.663115501519751,
+    "maximumAnchorDeviationSeconds": 0.13836734693877561,
+    "maximumLocalRegionMedianSeconds": 0.05039368939064914,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 94,
+    "distinctEngravedBars": 94,
+    "sheetPages": 6,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All 4927 note bar/voice indices resolve, durations are positive and bar times strictly increase. Actual SVG and index sets are exactly 1–94 with no derived boxes. All six SVG trees are identical to the independently inspected Sargent pack after consistent piece-specific DOM-id prefix renaming; index.json is byte-identical. The real printed opening and closing measures therefore match this publication too. Listening cues use seconds, with the coda explicitly approximate."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/handel-messiah-hallelujah-0-9.22.png",
+      "work/handel-messiah-hallelujah-24-32.png",
+      "work/handel-messiah-hallelujah-40-48.png",
+      "work/handel-messiah-hallelujah-95.957-107.957.png",
+      "work/handel-messiah-hallelujah-96-104.png",
+      "work/handel-messiah-hallelujah-136-144.png",
+      "work/handel-messiah-hallelujah-144-152.png",
+      "work/handel-messiah-hallelujah-152-160.png",
+      "work/handel-messiah-hallelujah-160-168.png",
+      "work/handel-messiah-hallelujah-168-176.png",
+      "work/handel-messiah-hallelujah-180-195.png",
+      "work/handel-messiah-hallelujah-182.14-194.14.png",
+      "work/handel-messiah-hallelujah-183.44-195.44.png",
+      "work/handel-messiah-hallelujah-184-192.png",
+      "work/handel-messiah-hallelujah-187.7-199.7.png",
+      "work/handel-messiah-hallelujah-189.858-201.017.png"
+    ],
+    "finding": "The former gross coda mismatch is resolved: no rapid score figures are placed in the actual pause around 184.7–185.9 s. The D pickup near 186.14, G arrival 187.44, G reattack 191.70 and final D 193.86 s follow the inspected pitch-energy sequence. No further gross pitch/order mismatch identified. The final written hold to 199.94 s is not a measured release."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459",
+    "opened": true,
+    "edition": "Unknown: the Mutopia catalogue does not identify a source edition",
+    "encoder": "Joshua Koo",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete Hallelujah, bars 1–94 once, in the encoded choral/orchestral order. Eight instrumental source staves and SATB are retained; no independent double-bass line or realised continuo is invented. No gross cut or arrangement mismatch identified, but crowded energy does not separately verify each recorded instrumental line.",
+    "physicalPerformingEdition": "Unknown; neither the unidentified symbolic source edition nor Scherchen’s performing copy is invented."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. Internal pitch constraints are fitting information, not independent listening annotations; the provisional label must remain."
+}

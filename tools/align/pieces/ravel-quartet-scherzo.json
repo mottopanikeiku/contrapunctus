@@ -20,6 +20,19 @@
         "basis": "The source viola has 36 sixteenths per bar in nested 3:2 quarter and 6:4 sixteenth tuplets, explicitly combined as 18:8 in time-modification. Each note is exactly 1/9 quarter; flatten only the nested brackets and represent the rational duration exactly, preserving pitches, order, beaming and slurs."
       }
     ],
+    "musicxmlTieRoutes": [
+      {
+        "part": "P3",
+        "measure": 88,
+        "fromNote": 1,
+        "toNote": 0,
+        "continuation": {
+          "measure": 89,
+          "note": 0
+        },
+        "basis": "The original viola bar 88 encodes simultaneous identical dotted-half A4 notes in voices 1 and 4 at q261; only voice 4 carries the outgoing tie, while bar 89’s first A4 at q264 carries its stop in voice 1. Route only that explicit tie start onto the identical voice-1 unison so the written continuation ends at q265 without an invented reattack at q264. Preserve both original notes, their onsets and durations, and the voice-4 inverted fermata; change only tie ownership in a disposable derivative."
+      }
+    ],
     "musicxmlMeasures": [
       213,
       411

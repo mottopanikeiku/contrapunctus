@@ -14,24 +14,24 @@ export default {
   performers: 'Donald Betts',
   recorded: '2005',
   source: { file: 'File:Robert Schumann - scenes from childhood, op. 15 - xiii. the poet speaks.ogg' },
-  intro: 'The cycle ends with the grown-up looking back. Chords in G major move together, a loosened passage of single lines and fermatas interrupts them, and the chords return and slow to a held G.',
+  intro: 'The cycle ends with the grown-up looking back. Chords in G major move together, a loosened passage of single lines and fermatas interrupts them, and the chords return and slow to a held chord.',
   question: 'Who is speaking at the end of a cycle about childhood?',
 
   sections: [
     { t: 0, label: 'A · chords moving together', m: 'A' },
     { t: 42, label: 'B · descending lines, fermatas', m: 'B' },
     { t: 58, label: 'C · single lines and held notes', m: 'C', mNote: 'grace figures, triplets, fermatas in the high register' },
-    { t: 84, label: 'A′ · the chords return and slow', m: 'A′', mNote: 'opening chords again, ending on a held G' },
+    { t: 84, label: 'A′ · the chords return and slow', m: 'A′', mNote: 'opening chords again, ending on a held chord' },
   ],
 
   cues: [
     { t: 0, kind: 'music', title: 'Chords that move together', text: 'Common time in G major, marked p with a swelling hairpin. Both hands play chords that move as a block, with the pedal down, so the writing sounds like a hymn heard slowly. The attacks are sparse, at most about 1.4 a second in the first twenty seconds.', basis: 'score-proportion', precision: 'passage', evidence: 'First edition p. 20 (IMSLP #03060): common time, one sharp, p with hairpin, chords in both hands, Ped. Report: G major at 0:00–0:20, 0.4–1.4 onsets per second, −19.4 dB at 0:00 rising to −16.6 dB at 0:10.' },
     { t: 26, kind: 'listen', title: 'The quietest stretch so far', text: 'Marked pp, the next chords fall away: the report’s relative level drops to about −33 dB between 0:25 and 0:35, the lowest in the first minute. The loud return at 0:40 is by contrast a sudden step up.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: −32.6 dB at 0:25, −29.5 dB at 0:30, −34.3 dB at 0:35, then −13.0 dB at 0:40 (listed among the loudest windows); novelty 0.36 at 0:36 and 0.41 at 0:40. Score p. 20, second system: pp over two bars, then p.' },
     { t: 44, kind: 'form', title: 'Descending lines, two fermatas', text: 'The chords give way to descending lines marked p, with ritardando and two fermatas over the melody. In the recording the rate of attacks sinks to 0.6 a second and the level to −31 dB near 0:55, the first long pause.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 0.41 at 0:40 and 0.32 at 0:58; −31.0 dB and 0.6 onsets per second at 0:55. Score p. 20, second system: p, descending lines, rit., two fermatas above the staff.' },
-    { t: 58, kind: 'music', title: 'The writing loosens', text: 'From about 1:00 single lines replace the chords: grace figures, triplet groups and fermatas, mostly in the right hand’s high register. The report’s brightness rises from about 500 Hz to between 714 and 879 Hz, and the chromatic notes make the key estimate waver.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: spectral centroid 609 Hz at 0:55 and 872, 856, 714, 879 Hz at 1:00, 1:05, 1:10, 1:15, against about 500 Hz elsewhere; local key B minor / C♯ minor with low confidence (0.52–0.69). Score p. 20, third system: fermatas, “3” groups, grace figures, pp, rit.' },
+    { t: 58, kind: 'music', title: 'The barlines disappear', text: 'From about 1:00 a free, recitative-like passage of single lines replaces the chords: grace figures, triplet groups, fermatas and many chromatic notes, mostly in the right hand’s high register. The report’s brightness rises from about 500 Hz to between 714 and 879 Hz.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: spectral centroid 609 Hz at 0:55 and 872, 856, 714, 879 Hz at 1:00, 1:05, 1:10, 1:15, against about 500 Hz elsewhere. Local key estimates in this span (E♭ minor 0.36, B major 0.55, C♯ minor 0.53–0.67) are low-confidence and are not used as harmony. Score p. 20, third system: no barlines, fermatas, “3” groups, grace figures, pp, rit.' },
     { t: 72, kind: 'world', title: 'Twelve chosen, thirteen printed', text: 'In March 1838 Schumann told Clara he had picked “about twelve” from some thirty pieces. The printed set has thirteen, and this one closes it. In 1956 Ludwig Kusche used the title Der Dichter spricht for a collection of Schumann’s own writings.', basis: 'documented', precision: 'passage', evidence: 'Zwickau catalogue 175 Jahre Kinderszenen, item 3 (letter begun 17 March 1838: “von denen ich etwa zwölf ausgelesen”) and item 35 (Kusche, Der Dichter spricht, Munich 1956).' },
     { t: 86, kind: 'form', title: 'The chords come back', text: 'Near 1:24 the opening chords return. The report’s strongest boundary falls here, and the form analysis finds the opening 22 seconds heard again at 1:26–1:48.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 1.00 at 1:24; −31.7 dB at 1:20 then −21.3 dB at 1:25 with G major at 1:30–1:35. Form analysis: 0:02.5–0:24 matches 1:26.5–1:48 (lag 84 s, mean 0.95, contrast 0.52).' },
-    { t: 122, kind: 'listen', title: 'Slowing onto a held G', text: 'The last system is marked ritardando over long hairpins and ends on a G octave with a fermata. The relative level sinks from −28 dB at 2:25 to −41 dB at 2:30 and −55 dB at 2:35; the final chord dies away by about 2:40.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: −28.3 dB at 2:25, −40.5 dB at 2:30, −54.9 dB at 2:35, −73.4 dB at 2:40; novelty 0.47 at 2:26 and 0.55 at 2:30. Score p. 20, last system: rit., dan, do, hairpins, fermata over the final octave.' },
+    { t: 122, kind: 'listen', title: 'Slowing onto a held chord', text: 'The last system is marked ritardando over long hairpins and ends on a held chord with a fermata. The relative level sinks from −28 dB at 2:25 to −41 dB at 2:30 and −55 dB at 2:35; the final chord dies away by about 2:40.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: −28.3 dB at 2:25, −40.5 dB at 2:30, −54.9 dB at 2:35, −73.4 dB at 2:40; novelty 0.47 at 2:26 and 0.55 at 2:30. Score p. 20, last system: rit., dan, do, hairpins, fermata over the final chord.' },
   ],
 
   transitions: [
@@ -55,11 +55,11 @@ export default {
       to: 'C · single lines and held notes',
       at: { t: 58 },
       span: [50, 66],
-      how: '<p>After the ritardando and fermatas the music goes on in single lines, with grace figures, triplet groups and fermatas at several points. The line climbs into the treble and moves through chromatic notes, so the key estimate becomes uncertain for a few bars. It is the least chord-like passage of the piece.</p>',
+      how: '<p>After the ritardando and fermatas the score abandons barlines. Single lines move freely, like recitative, with grace figures, triplet groups and fermatas at several points. The line climbs into the treble through chromatic notes, so the block chords of the opening give way to the least chord-like writing in the piece.</p>',
       devices: ['fermata', 'register change', 'texture change'],
       basis: 'audio-feature',
       precision: 'passage',
-      evidence: 'Report: novelty 0.32 at 0:58; spectral centroid 609 Hz at 0:55 and 872 Hz at 1:00; local key estimates of low confidence from 0:55 to 1:20. Score p. 20, third system: fermatas, triplet groups and grace figures in the right hand.',
+      evidence: 'Report: novelty 0.32 at 0:58; spectral centroid 609 Hz at 0:55 and 872 Hz at 1:00. Score p. 20, third system: no barlines; fermatas, triplet groups and grace figures in the right hand.',
     },
     {
       id: 'return-of-the-chords',
@@ -68,7 +68,7 @@ export default {
       to: 'A′ · the chords return and slow',
       at: { t: 84 },
       span: [76, 92],
-      how: '<p>The single lines end with a ritardando and a fermata, and the opening chords come back, marked <i>p</i> with a hairpin as at the start. The return to G major with block chords follows a passage whose key was uncertain, so it sounds settled.</p>',
+      how: '<p>The single lines end with a ritardando and a fermata, and the opening chords come back, marked <i>p</i> with a hairpin as at the start. Barlines and the block chords return with the G-major writing of the first system, so the free passage reads as an interruption.</p>',
       devices: ['fermata', 'tempo change', 'retransition', 'motivic link'],
       basis: 'audio-feature',
       precision: 'passage',

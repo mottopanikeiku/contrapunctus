@@ -1,5 +1,37 @@
 {
   "mutopia": 351,
+  "patches": [
+    {
+      "file": "winter-lys/winter3.ly",
+      "old": "#(override-auto-beam-setting '(end 1 32 3 8 )  1 8)\n#(override-auto-beam-setting '(end 1 32 3 8 )  2 8)",
+      "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (3)) (1/32 . (4 4 4)))))",
+      "basis": "At source mark N, replace removed automatic-beam Scheme calls with their exact rhythmic intent: 32nd-note beams end at 1/8 and 2/8 in 3/8, hence groups 4+4+4. Retain the default whole-bar eighth-note exception. Only a disposable derivative changes, behind full published MIDI pitch/onset multiset proof."
+    },
+    {
+      "file": "winter-lys/winter3a.ly",
+      "old": "#(override-auto-beam-setting '(end 1 32 3 8 )  1 8)\n#(override-auto-beam-setting '(end 1 32 3 8 )  2 8)",
+      "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (3)) (1/32 . (4 4 4)))))",
+      "basis": "Preserve violin I’s source mark-N 32nd-note beaming boundaries at each eighth of the 3/8 bar using modern 4+4+4 beamExceptions; pitches, note order and durations are unchanged."
+    },
+    {
+      "file": "winter-lys/winter3b.ly",
+      "old": "#(override-auto-beam-setting '(end 1 32 3 8 )  1 8)\n#(override-auto-beam-setting '(end 1 32 3 8 )  2 8)",
+      "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (3)) (1/32 . (4 4 4)))))",
+      "basis": "Preserve violin II’s source mark-N 32nd-note beaming boundaries at each eighth of the 3/8 bar using modern 4+4+4 beamExceptions; pitches, note order and durations are unchanged."
+    },
+    {
+      "file": "winter-lys/winter3c.ly",
+      "old": "#(override-auto-beam-setting '(end 1 32 3 8 )  1 8)\n#(override-auto-beam-setting '(end 1 32 3 8 )  2 8)",
+      "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (3)) (1/32 . (4 4 4)))))",
+      "basis": "Preserve viola’s source mark-N 32nd-note beaming boundaries at each eighth of the 3/8 bar using modern 4+4+4 beamExceptions; pitches, note order and durations are unchanged."
+    },
+    {
+      "file": "winter-lys/winter3d.ly",
+      "old": "#(override-auto-beam-setting '(end 1 32 3 8 )  1 8)\n#(override-auto-beam-setting '(end 1 32 3 8 )  2 8)",
+      "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (3)) (1/32 . (4 4 4)))))",
+      "basis": "Preserve the written bass’s source mark-N 32nd-note beaming boundaries at each eighth of the 3/8 bar using modern 4+4+4 beamExceptions; pitches, note order and durations are unchanged."
+    }
+  ],
   "title": "L’Inverno / Winter, RV 297 — III. Allegro",
   "edition": "Performers’ Facsimiles",
   "encoder": "Anonymous (Mutopia maintainer)",

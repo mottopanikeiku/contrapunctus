@@ -123,16 +123,15 @@
       "note": "Liszt died in 1886. This is a term calculation, not worldwide clearance of every edition."
     },
     "recording": {
-      "value": "Archive applies Public Domain Mark to the historical Odeon performance, dated 1912/3 by the reissue.",
+      "value": "Territorial EU public-domain basis for the historical commercial Odeon 76565 issue under the programme’s pre-1963 recording rule.",
       "status": "documented",
       "sourceIds": [
         "archive",
-        "scan",
-        "us-term"
+        "scan"
       ],
-      "note": "The historical issue falls within the project’s US pre-1926 basis. The CD scan separately asserts 1993 compilation rights; those are not represented as a new recording date or as a licence grant. PDM is a status declaration, not worldwide legal clearance."
+      "note": "The reissue’s 1912/3 chronology and the uploader’s narrower March 1913 attribution identify the historical issue period, not an independently established first-publication date. US first-publication evidence and US status are not established. Archive’s Public Domain Mark is not a rightsholder release; the CD’s separate 1993 compilation rights are not represented as a new historical recording date."
     },
-    "creditLine": "Liszt: Au bord d’une source; Eugen d’Albert, Odeon 76565, matrix xxB 5732, dated 1912/3 by Symposium. Via Symposium 1146 (1993), track 4, and Internet Archive; Archive Public Domain Mark for the historical recording.",
+    "creditLine": "Liszt: Au bord d’une source; Eugen d’Albert, Odeon 76565, matrix xxB 5732, dated 1912/3 by Symposium. Via Symposium 1146 (1993), track 4, and Internet Archive. Territorial EU pre-1963 basis; US status not established. Archive also applies Public Domain Mark.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   },
   "sources": [
@@ -155,13 +154,6 @@
       "title": "Eugen d’Albert — Hyperion artist biography",
       "url": "https://www.hyperion-records.co.uk/c.asp?c=C6",
       "locator": "Eliot Levin, 1994: d’Albert’s study with Liszt at Weimar and later recording activity.",
-      "accessed": "2026-10-17"
-    },
-    {
-      "id": "us-term",
-      "title": "US Copyright Office — pre-1972 sound recordings",
-      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
-      "locator": "Recordings first published before 1923 ended federal protection on 31 December 2021.",
       "accessed": "2026-10-17"
     }
   ],

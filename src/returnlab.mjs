@@ -82,12 +82,11 @@ function resolve(cmp, track, score, envelope) {
   };
 }
 
-export async function buildReturnLab({ out, layout, esc, attr, listens, bySlug, ROOT, OUT, warnings }) {
+export async function buildReturnLab({ out, layout, esc, attr, listens, bySlug, PROG, ROOT, OUT, warnings }) {
   const dir = path.join(ROOT, 'content/returnlab');
   const files = (await readdir(dir)).filter((f) => f.endsWith('.json')).sort();
-  // roomPage writes the current programme before this builder runs; use its established
-  // artwork URLs and stream durations rather than inventing a second asset convention.
-  const programme = new Map((await json(path.join(OUT, 'assets/listen/programme.json'))).map((t) => [t.id, t]));
+  // Reuse the generator's full metadata; the browser's programme is a compact wire format.
+  const programme = new Map(PROG.map((t) => [t.id, t]));
   const loaded = new Map();
   const list = [];
   for (const file of files) {

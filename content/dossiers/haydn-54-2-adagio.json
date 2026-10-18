@@ -1,0 +1,183 @@
+{
+  "id": "haydn-54-2-adagio",
+  "work": {
+    "title": "String Quartet in C major, Op. 54 No. 2",
+    "catalogue": "Hob. III:57",
+    "movement": "II. Adagio",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition and any editorial choices are not identified in the recording sources. The performance appears to omit the first-movement exposition repeat, which is an observation from the audio, not a documented fact."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "The Danish String Quartet",
+        "role": "string quartet"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "youtube",
+      "dsq"
+    ],
+    "note": "The Commons file and the video name the ensemble only. The individual players of this 2015 concert are not listed in the sources consulted, so no names are inferred."
+  },
+  "session": {
+    "date": {
+      "value": "May 2015",
+      "status": "documented",
+      "sourceIds": [
+        "youtube"
+      ],
+      "note": "The uploader’s video description gives the concert as May 2015. The Commons date, 24 July 2015, is the YouTube upload date, not a session date.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Tel Aviv Museum of Art, Tel Aviv, Israel",
+      "status": "documented",
+      "sourceIds": [
+        "youtube"
+      ],
+      "note": "Stated in the video description. The video is titled “Haydn Quartet Op. 54 No. 2, Danish String Quartet LIVE”; the description misprints the opus as 64."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [
+        "youtube"
+      ],
+      "note": "A born-digital concert video: there is no commercial disc or tape carrier."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [
+        "youtube"
+      ],
+      "note": "No catalogue number applies to a concert video upload."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [
+        "youtube"
+      ],
+      "note": "No matrix, take or side applies to a born-digital concert video."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "youtube",
+        "commons"
+      ],
+      "note": "The video description credits Gilad Shabani for the video and Ilan Rechtman as music director of the concert series; neither is credited for extracting the audio. A Commons uploader’s username is not a transfer credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented; the Commons date 2015-07-24 is the YouTube upload date."
+    },
+    "processing": {
+      "value": "Audio taken from the YouTube concert video and stored on Commons as an Ogg Vorbis file, which Commons transcodes to an MP3 derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons file is one of four movement extracts from a single 19-minute video; who made the cuts, and whether any editing or loudness processing was applied, is not stated."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_II._Adagio.ogg/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_II._Adagio.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "youtube"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 187.7815
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Haydn died in 1809. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution 3.0 (the Commons {{YouTube CC-BY}} template): an explicit release of the recording for any use with attribution.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "cc-by",
+        "youtube"
+      ],
+      "note": "This is rule 1 of the programme’s rights rule, an explicit recording release. The Commons file page records the YouTube CC-BY status of the source video. The sources do not show who applied that setting; it is taken to be the channel owner who posted the concert film, and it covers the video as posted."
+    },
+    "creditLine": "Joseph Haydn, String Quartet in C major, Op. 54 No. 2, II. Adagio; The Danish String Quartet, live at the Tel Aviv Museum of Art, May 2015. Video credited to Gilad Shabani, concert series music director Ilan Rechtman. Via Wikimedia Commons from YouTube; Creative Commons Attribution 3.0.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - II. Adagio.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Danish_String_Quartet_-_Haydn's_String_Quartet_No._42_in_C_major,_Op._54,_No._2,_Hob.III-57_-_II._Adagio.ogg",
+      "locator": "File-description wikitext: Description, Date 2015-07-24, Source {{From YouTube}} dGgmFFMFICc, Author, and licence template {{YouTube CC-BY}}; Commons licence field CC BY 3.0; duration and MP3 transcode.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "youtube",
+      "title": "Haydn Quartet Op. 54 No. 2, Danish String Quartet LIVE (Music Tel Aviv Museum of Art)",
+      "url": "https://www.youtube.com/watch?v=dGgmFFMFICc",
+      "locator": "Video page: uploaded 24 July 2015, duration 19:08; description: Tel Aviv Museum of Art, Israel, May 2015; concert series music director Ilan Rechtman; video Gilad Shabani.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dsq",
+      "title": "Wikipedia — Danish String Quartet",
+      "url": "https://en.wikipedia.org/wiki/Danish_String_Quartet",
+      "locator": "History section: debut at the Copenhagen Summer Festival in 2002; named the Danish String Quartet in 2008 when cellist Fredrik Schøyen Sjölin joined.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "cc-by",
+      "title": "Creative Commons — Attribution 3.0 Unported deed",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "locator": "Deed: share and adapt for any purpose, even commercially, with attribution.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Wikipedia — Joseph Haydn",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Haydn",
+      "locator": "Lead paragraph: 31 March 1732 – 31 May 1809.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

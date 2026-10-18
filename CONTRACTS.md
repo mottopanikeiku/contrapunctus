@@ -219,9 +219,22 @@ checking; schema validation does not establish either.
 
 ### Search and recording exports
 
-`docs/assets/search.json` contains `{ type, title, sub, url, k }` entries with
-site-relative URLs and lowercase, accent-folded keywords. Work, lesson and
-gallery entries have generated anchors; recordings target `hall.html#<id>`.
+`docs/assets/search.json` is a prebuilt inverted index, loaded only when search
+opens: `{ v, size, w, p, b }`. `w` is a sorted vocabulary of whitespace-delimited,
+accent-folded tokens. Each string starts with a code point minus 32 giving the
+shared-prefix length with the previous word, followed by the remaining suffix.
+`p[i]` holds the word's ascending document postings: each code point minus 32 is
+`4 * documentIdDelta + flags` (bit 1: searchable text, bit 2: first title token).
+`b` holds the original composer/recording ranking boosts. The client retains
+the existing title-prefix, word-prefix and arbitrary-substring scores and stable
+tie order; it does not replace substring search with a narrower word search.
+
+Display rows live in `assets/search/<shard>.json`, arrays of
+`[type, title, sub, url]`, with `size` rows per shard (currently 16).
+Only shards containing the first 24 results are requested, with `?v=<v>`;
+`v` hashes the complete source entries. The shell caches the index and shard
+promises across navigation, and ignores results from superseded queries.
+Work, lesson and gallery URLs have generated anchors; recordings target `hall.html#<id>`.
 The index also covers glossary aliases, paintings and poems, Return Lab pages,
 and influence batches when present. Influence URLs are
 `influence.html#edge-<id>`, `#thread-<id>` and `#node-<id>`. Repeated figure IDs
@@ -233,6 +246,38 @@ JSON-encoded strings, preserving source identifiers and disputed alternatives.
 The JSON export retains nulls; blank CSV values do not imply a negative finding.
 Evidence summaries count field statuses rather than assigning a recording-wide
 confidence label. `sources.html` supplies the field-level notes and source links.
+
+### Persistent player and hall payloads
+
+`assets/listen/programme.json?v=<data-prog>` contains `{ composers, eras, rows }`.
+Each row is `[id, stream, duration, composerIndex, work, movement, set, concert, eraIndex]`;
+`concert` is 1/0, and `eraIndex` is -1 for a guest without an era. Composer
+portrait/focus/name metadata and era artwork/accent metadata are stored once,
+not once per recording. `player.getProgramme()` decodes this wire format once
+into the existing track objects; every consumer uses that same persistent player.
+Build-time comparisons and Return Lab receive the full in-memory programme,
+not the browser wire format.
+
+All other per-piece fields (including score flags, key/tuning, recording provenance,
+sections, cues, joins and composer biography) live in
+`assets/hall/<id>.json?v=<data-prog>` and are fetched when that piece opens.
+The composer inheritance and comparison-link indexes load only when their hall
+tabs are opened. `influence-details.json` remains lazy until an evidence card opens.
+Selecting/restoring a recording sets `preload=none`; audio downloads begin on Play
+or an activated Hall visit, never on passive navigation prefetch.
+
+The router coalesces hover/focus/touch prefetches with clicks, bounds its HTML cache
+to eight entries/four MB/ten minutes, and keeps inactive parsed stylesheets with
+`media="not all"` for return navigation. Relative stylesheet URLs are made absolute
+before history changes. Only the page body outside `#cp-persist` is replaced.
+Hall drawing follows requestAnimationFrame while visible; inactive views, hidden
+tabs and settled paused views do not keep drawing. Timeline waveforms and cue
+colours are cached until the track/envelope/size changes. Unchanged readouts,
+wheel data and orchestra styles do not trigger repeated DOM/canvas updates.
+
+`node tools/perf-preview.mjs 8768` serves the current build locally with gzip and
+GitHub Pages' 600-second cache lifetime for browser transfer accounting.
+
 
 
 ## The Web of Influence
@@ -349,11 +394,11 @@ via the preparation module. Present-day outlines are orientation aids,
 not historical borders.
 
 The build writes `assets/data/geo/base.json` (projected SVG paths),
-`index.json` (compact chronology, prepacked annual cameo positions, city
+`index.json` (compact chronology, bounded annual portrait callouts, city
 groups and documented date overlaps), and `<slug>.json` (full sourced
-place records, projected coordinates, published recordings and placed
-influence links, fetched only on focus). `<slug>.svg` is the static chapter
-map. `placesSection(ctx, slug, add)` is the sole composer-page hook.
+place records, exact projected coordinates, primary-region bounds, overseas
+insets, published recordings and placed influence links, fetched only on focus).
+`<slug>.svg` is the static chapter map. `placesSection(ctx, slug, add)` is the sole composer-page hook.
 `atlas-map.html#c-<slug>` focuses a life; `?year=1805` selects the year.
 
 Cities join coordinates within 7 km of a fixed centre. Encounters intersect
@@ -361,9 +406,80 @@ documented date ranges at their recorded precision; premieres and burials
 do not count as living presence. No last-known location is carried forward
 into an encounter claim. Co-presence does not establish a meeting.
 The annual overview may show a last-recorded residence with a dashed frame.
+An explicitly dated ongoing professional post takes priority over overlapping
+residences, then other stays; the latest date breaks ties. Seasonal homes stay
+in the route but do not displace a simultaneous post. Gold location dots,
+death crosses and city-number badges are never geographically displaced.
+Portrait callouts have leaders bounded by 34.1 screen pixels at every zoom.
+The build computes clearance from the simplified coastline; callout radii
+shrink near the coast rather than moving a portrait centre across the sea.
+Cities with more than four living composers collapse to a named count
+medallion, expandable on hover, keyboard focus or click.
+Focused routes fit their European places; overseas records use separate,
+labelled-scale insets and dated arrow connectors ending at the inset frame.
+A life with no European record opens in its own recorded region.
+Each source place retains its exact dot; repeated city numbers share a badge
+at the city's true centre. Full numbers and individual evidence remain in
+the source card. Static chapter maps use the same primary/inset division.
 Route lines join records, not reconstructed roads; posthumous events are
 distinguished. Exact normalised work-title matches expose published listens;
 fallbacks are explicitly labelled as other recordings by that composer.
 Playback uses `app.player.load(id, { play: true, t: 0 })`. The page module
 cleans up listeners, requests, resize observation and animation on unmount;
-reduced motion disables flashing and travelling dashes.
+reduced motion disables premiere flashing and the gold glints that travel
+along journey arcs. The static base and animated overlay are separate SVG
+surfaces, so a moving glint does not repaint the engraved coastline.
+
+## Guided journeys
+
+`content/journeys/<id>.json` holds one sourced, 15–25-minute story. Its
+top-level fields are `id`, `title`, `subtitle` (up to 12 words), `minutes`,
+`hero: { file, caption }`, `intro` (two or three sentences), and `stations`.
+A station has a unique `id`, `title` (up to eight words),
+`listen: { id, from, to }` in absolute recording seconds, `text` (60–140
+words of HTML narration), `cues: [{ at, text }]` (up to 25 words each), and
+`sources: [{ title, url }]`. Every factual claim needs a source; cue times
+must come from the recording’s authored sections, cues, transitions or score
+alignment, never an estimate made for the journey.
+
+Optional station exhibits are `art: { file, caption }`,
+`score: { listen, bar }`, `map: { composer, year }`, `edge` (an influence
+edge id), and `compare` (a comparison id); unused exhibits are `null`.
+The main exhibit prioritises score, then painting, then map, then influence;
+additional exhibits remain in expandable panels alongside comparison links.
+Score pages and bar highlights resolve from the existing score and sheet
+pack. Missing engraving or alignment is stated, not replaced with invented
+notation or timing. Map vignettes use only authored date ranges covering the
+requested year; a point event is never extended into a residence. The
+comparison link appears only after its own review and recording gates pass.
+All journey hero and station paintings participate in `tools/art.mjs fetch`,
+including drafts awaiting review.
+
+`src/journeys.mjs` publishes `journeys/index.html` and `journeys/<id>.html`
+only for `content/plan/reviews/journey-<id>.json` with `verdict: "pass"` and
+published recordings for every station and score reference. Reviews with
+`verdict: "fix"`, absent reviews and unpublished listens hold the journey.
+The build removes stale journey pages, excludes held stories from the
+title-page band, and prints `journeys: N published, M held`.
+
+`assets/js/journeys.js` mounts through the router and uses only `app.player`.
+Begin starts the selected station at `from`; recording time at `to` advances
+to the next station. Adjacent excerpts of the same recording run without
+reseeking; other joins load the next recording and start at its `from`.
+The page cross-fades, not a second audio element. Timed cues use absolute
+recording time. The final station pauses instead of starting the Hall’s
+next recording. While engaged, the journey temporarily owns the concert
+advance setting and restores it on departure or external track selection.
+The opaque transport has a soft fade above it. Station content reserves the
+transport’s measured height plus two rem below its last line; resize
+observation keeps this clearance correct when the mobile controls wrap or
+text is enlarged, and disconnects on router cleanup.
+
+Next/Previous, numbered stations, Left/Right keys and horizontal swipes
+change stations. Space pauses or resumes outside native controls and open
+dialogs. `cp-journey:<id>` in localStorage retains station id, recording id,
+time and completion; reload never autoplays. Pause, page departure and
+periodic playback save the place. Reduced motion disables cross-fades and
+smooth rail movement. Router cleanup removes event listeners and animations
+without stopping the persistent recording. Without JavaScript, all station
+text, exhibits and sources remain readable.

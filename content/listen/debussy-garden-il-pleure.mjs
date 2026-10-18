@@ -129,7 +129,7 @@ export default {
         73,
         94
       ],
-      "how": "<p>The score asks for the first movement again. The flowing piano figure returns around the final stanza, restoring the earlier continuity even though the poem has not found a reason for its grief. The accompaniment eventually remains alone, carrying the repeated motion into the postlude.</p>",
+      "how": "<p>The score asks for the opening tempo again. The flowing piano figure returns around the final stanza, restoring the earlier continuity even though the poem has not found a reason for its grief. The accompaniment eventually remains alone, carrying the repeated motion into the postlude.</p>",
       "devices": [
         "tempo change",
         "motivic link",

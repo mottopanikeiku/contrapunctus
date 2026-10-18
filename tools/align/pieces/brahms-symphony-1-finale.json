@@ -21,6 +21,7 @@
       }
     ],
     "musicxmlImplicitMeasures": [
+      1,
       62
     ]
   },
@@ -147,19 +148,19 @@
     }
   ],
   "bars": {
-    "first": 1,
+    "first": 0,
     "count": 457,
     "quarters": 4,
     "overrides": {
-      "457": 3
+      "0": 3
     },
     "order": [
       [
-        1,
-        457
+        0,
+        456
       ]
     ],
-    "description": "Bars 1–457 once. XML measures 61/62 are contiguous fragments of one written bar; the last written bar contains three quarter units. LilyPond bar numbering is used."
+    "description": "Initial three-quarter pickup (engraved bar0), then bars1–456 once. Original XML measure1 has three quarters in every part; XML61/62 are contiguous three-plus-one-quarter fragments. The final XML458 is a full four-quarter bar. Total1827 quarters; no padded opening beat or artificial shortened finale."
   },
   "endpoints": {
     "first": [

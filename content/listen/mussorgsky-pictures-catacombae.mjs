@@ -14,7 +14,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - viii. catacombae. sepulcrum romanum - largo.ogg' },
-  intro: 'After the market’s noise, slow block chords alternate between loud and soft, like footsteps and echoes in a vault. Count the silences between the chords.',
+  intro: 'After the market’s noise, slow block chords alternate between loud and soft, like footsteps and echoes in a vault. Count the silences between the chords. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How do loud and soft chords, with almost no melody, make a space sound large?',
 
   sections: [

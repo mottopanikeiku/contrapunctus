@@ -2144,6 +2144,17 @@
   "license": "Public domain",
   "credit": "ygEIIXQmEkmkNA at Google Cultural Institute maximum zoom level"
  },
+ "File:Wiener Secessionsgebäude um 1900.jpg": {
+  "id": "wiener-secessionsgebaude-um-1900",
+  "src": "assets/img/art/wiener-secessionsgebaude-um-1900.webp",
+  "w": 973,
+  "h": 1210,
+  "page": "https://commons.wikimedia.org/wiki/File:Wiener_Secessionsgeb%C3%A4ude_um_1900.jpg",
+  "artist": "Unknown author Unknown author (The photographer is unknown and not mentioned in the source.)",
+  "date": "before 31 December 1900 date QS:P,+1900-12-31T00:00:00Z/7,P1326,+1900-12-31T00:00:00Z/11",
+  "license": "Public domain",
+  "credit": "\"Wiener Bauindustrie-Zeitung\", XVII. Jg., 1900, Plan 37 http://anno.onb.ac.at/cgi-content/anno-plus?aid=wbz&datum=1900&page=459&size=45"
+ },
  "File:Wilhelm Gause Hofball in Wien.jpg": {
   "id": "wilhelm-gause-hofball-in-wien",
   "src": "assets/img/art/wilhelm-gause-hofball-in-wien.webp",

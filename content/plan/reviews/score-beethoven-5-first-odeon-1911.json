@@ -1,0 +1,79 @@
+{
+  "id": "beethoven-5-first-odeon-1911",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, source/report and visual review; not aural review or certification of every historical orchestration detail.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#beethoven-5-first-odeon-1911",
+    "finding": "The report matches recomputed gates, complete unrepeated order, source identity, corrected final chord and actual 16-page pack. It explicitly retains the comparatively low harmonic similarity, acoustic/scoring uncertainty, disputed attribution and absence of aural review rather than treating numerical timing as proof of instrumentation."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/beethoven-5-first-odeon-1911-checks.json",
+    "primaryMedianSeconds": 0.04980705161748844,
+    "primaryP95Seconds": 0.18968858430943672,
+    "maximumAnchorDeviationSeconds": 0.04510485851147905,
+    "maximumLocalRegionMedianSeconds": 0.05222859558026016,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 502,
+    "distinctEngravedBars": 502,
+    "sheetPages": 16,
+    "glyphBearingBars": 497,
+    "derivedRestBars": ["57", "123", "124", "301", "389"],
+    "unresolvedScoreBars": [],
+    "unresolvedGlyphBarIds": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All 8295 note indices resolve, durations are positive and bar times strictly increase. Index.json is byte-identical to the independently reviewed Nikisch pack; all 16 SVG trees also match after consistent piece-specific DOM-id prefix renaming. The five derived boxes therefore correspond to the same individually inspected printed all-orchestra rest measures, not an invented final bar. Listening cues use seconds rather than structured bar references."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/beethoven-5-first-odeon-1911-0-8.57155.png",
+      "work/beethoven-5-first-odeon-1911-16-24.png",
+      "work/beethoven-5-first-odeon-1911-128-136.png",
+      "work/beethoven-5-first-odeon-1911-136-144.png",
+      "work/beethoven-5-first-odeon-1911-168-176.png",
+      "work/beethoven-5-first-odeon-1911-184-192.png",
+      "work/beethoven-5-first-odeon-1911-192-200.png",
+      "work/beethoven-5-first-odeon-1911-192.965-204.965.png",
+      "work/beethoven-5-first-odeon-1911-208-224.png",
+      "work/beethoven-5-first-odeon-1911-240-248.png",
+      "work/beethoven-5-first-odeon-1911-296-304.png",
+      "work/beethoven-5-first-odeon-1911-336-344.png",
+      "work/beethoven-5-first-odeon-1911-352-360.png",
+      "work/beethoven-5-first-odeon-1911-368-376.png",
+      "work/beethoven-5-first-odeon-1911-380-389.59.png",
+      "work/beethoven-5-first-odeon-1911-384-389.59.png",
+      "work/beethoven-5-first-odeon-1911-384.274-389.59.png"
+    ],
+    "finding": "The previous early final-C false positive is resolved: 388.274 s is the last separate closing chord. No gross additional repeat, cut or pitch shift identified in the 17 inspected windows, including all requested weak-harmonic regions. Weak bass fundamentals do not by themselves demonstrate either bass substitution or unchanged scoring. Final written hold is not a measured release."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+    "opened": true,
+    "edition": "Breitkopf and Härtel, 1862–1865",
+    "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete first movement, bars 1–502 once, without the exposition repeat; the extended oboe cadenza remains bar 268. Source clarinet/horn transpositions and the established −12 double-bass correction are retained. Main melodic/harmonic order corresponds in the inspected material; exact acoustic-session doubling/scoring is not independently established. Named source voices are not separated recorded stems.",
+    "physicalPerformingEdition": "Unknown; the B&H encoding is not claimed as the Odeon performers’ actual edition, and the recording’s disputed conductor/date attribution is not resolved by this alignment."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. This pass concerns the stated provisional timing/source-map gates and absence of an identified gross mismatch, not complete historical orchestration authentication."
+}

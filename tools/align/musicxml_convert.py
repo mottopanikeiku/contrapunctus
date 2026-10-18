@@ -51,6 +51,7 @@ def main():
     parser.add_argument('--converter', required=True)
     args, options = parser.parse_known_args()
     path, source = converter_source(args.converter)
+    sys.dont_write_bytecode = True
     sys.argv = [str(path), *options]
     # Preserve the converter's original relocation and resource lookup paths.
     namespace = {'__name__': '__main__', '__file__': str(path), '_install_note_ties': install_note_ties}

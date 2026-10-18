@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.ly",
         "file": "SchumannOp15No07.ly",
-        "sha256": null
+        "sha256": "be0a952c8465a216c8405a2f6154a9b101e983a4b080d64a90e532bd5118532a"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.mid",
         "file": "SchumannOp15No07.mid",
-        "sha256": null
+        "sha256": "6e0045d5783ff28dedcf05813074fe407ca3846e5e2a7246f2793ac5614e4851"
       }
     ]
   },
@@ -76,9 +76,25 @@
   "boundaries": [],
   "diagnostics": {
     "recurrences": [
-      { "startQ": 1, "startOffset": 1, "secondQ": 33, "secondOffset": 1, "length": 30, "search": 5 }
+      {
+        "startQ": 1,
+        "startOffset": 1,
+        "secondQ": 33,
+        "secondOffset": 1,
+        "length": 30,
+        "search": 5
+      }
     ],
-    "overlays": [[42, 60], [90, 106]]
+    "overlays": [
+      [
+        42,
+        60
+      ],
+      [
+        90,
+        106
+      ]
+    ]
   },
   "engraving": {
     "staff": 18,
