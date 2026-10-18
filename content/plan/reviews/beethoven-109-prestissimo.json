@@ -1,0 +1,34 @@
+{
+  "id": "beethoven-109-prestissimo",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "intro; question; cues[0–1]; cues[3]; transitions[0–1].how/evidence",
+      "severity": "major",
+      "problem": "EXT: Wikipedia’s sonatina paragraph says the usual thematic contrast is absent because of the material’s character; Larner identifies work on the opening bass in the middle, and the Biamonti analysis explicitly describes two related themes and a development. INFERENCE: Turning sonatina into categorical claims of no development and no new tune overstates the source and erases the central passage’s developmental work.",
+      "evidence": "https://en.wikipedia.org/wiki/Piano_Sonata_No._30_(Beethoven) — Prestissimo paragraph. https://geraldlarner.com/work/beethoven-sonata-in-e-major-op-109 — middle section draws material from the first theme’s bass. https://www.lvbeethoven.org/Opus109/ — Biamonti description: related themes, development and recapitulation. https://s9.imslp.org/files/imglnks/usimg/5/51/IMSLP51804-PMLP01487-Beethoven_Werke_Breitkopf_Serie_16_No_153_Op_109.pdf — printed pp. 101–103, contrasting register/voice-leading and the central contrapuntal passage.",
+      "fix": "Replace the categorical no-development/no-new-tune narrative with a compact sonata account: closely related E-minor and B-minor subject material, a central passage developing the opening bass and preparing the return, and recapitulation in E minor. If retaining sonatina as an alternative reading, attribute and qualify it instead of treating it as proof that no developmental work occurs. Update the intro, question and every dependent cue/transition together."
+    },
+    {
+      "where": "transitions[1].how",
+      "severity": "major",
+      "problem": "EXT: The score has an extended repeated B foundation before the quieter contrapuntal preparation and return. INFERENCE: The explicit denial of any dominant pedal sounded at length contradicts that score evidence.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/5/51/IMSLP51804-PMLP01487-Beethoven_Werke_Breitkopf_Serie_16_No_153_Op_109.pdf — printed p. 102, repeated B-bass foundation across the central systems, followed by una corda and the quiet lead-in to the return on printed p. 103.",
+      "fix": "Remove the denial and explain the dominant B foundation and the ensuing quiet contrapuntal preparation. Do not infer absence of a pedal or retransition from the novelty/loudness report."
+    },
+    {
+      "where": "cues[6]; transitions[2].how/devices/evidence",
+      "severity": "major",
+      "problem": "MEAS: At a 2:05 marker the text builds towards already-past loud windows near 2:00; the report has renewed attacks at 2:10 before silence at 2:15. EXT: The score rebuilds from quiet writing to a forte staccato E-minor close. INFERENCE: Treating the final file decay as a composed fade/decrescendo misdescribes the ending, and a recurrence-candidate endpoint does not establish an exact coda barline.",
+      "evidence": "cache/analysis/beethoven-109-prestissimo.txt: 2:00 −12.3 dB, 2:05 −21.1, 2:10 −14.8, 2:15 silence. cache/form/beethoven-109-prestissimo.txt:9,38: candidate endpoints are approximate windows, not barlines. https://s9.imslp.org/files/imglnks/usimg/5/51/IMSLP51804-PMLP01487-Beethoven_Werke_Breitkopf_Serie_16_No_153_Op_109.pdf — printed p. 104, last systems of Prestissimo: quiet passage, crescendo, f staccato final chords.",
+      "fix": "Describe the late quiet-to-forte staccato close and distinguish the last chord’s decay from a composed diminuendo. Remove the impossible future reference to 2:00 at t125, and do not use the candidate endpoint as proof of an exact coda onset. Keep a broad closing-span marker only with score-based function and the actual report anchors; adjust the devices to match the written crescendo/articulation."
+    },
+    {
+      "where": "cues[0] (held-pedal link)",
+      "severity": "minor",
+      "problem": "EXT: The cited score ends the previous movement with a pedal-release sign; Wikipedia discusses linked performances. MEAS: This is a separate track. INFERENCE: The sources do not establish a composer-mandated held-pedal connection or demonstrate it across this recorded track boundary.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/5/51/IMSLP51804-PMLP01487-Beethoven_Werke_Breitkopf_Serie_16_No_153_Op_109.pdf — printed p. 100, ending. https://en.wikipedia.org/wiki/Piano_Sonata_No._30_(Beethoven) — discussion of often-linked performances.",
+      "fix": "Qualify this as an often-used performance interpretation and do not assert a prescribed pedal held across the recorded track boundary."
+    }
+  ]
+}

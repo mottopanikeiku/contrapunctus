@@ -8,6 +8,20 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
   "main": "SchumannOp15No06.ly",
   "midi": "SchumannOp15No06.mid",
+  "patches": [
+    {
+      "file": "SchumannOp15No06.ly",
+      "old": "\\repeat volta 1",
+      "new": "\\bar \".|:\"",
+      "basis": "The immutable source explicitly starts its middle-strain repeat at bar 8, quarter 2, but LilyPond 2.24 suppresses the signs of a count-one repeat. Restore that already-encoded opening marker as a visible repeat barline without unfolding or changing any music."
+    },
+    {
+      "file": "SchumannOp15No06.ly",
+      "old": "s2. s2. s2. s2. s2. s2. s2. s2 } s4",
+      "new": "s2. s2. s2. s2. s2. s2. s2. s2 } \\bar \":|.\" s4",
+      "basis": "Restore the corresponding already-encoded closing repeat marker at bar 16, quarter 2. The skip durations and all note expressions remain unchanged; the source pitch/onset multiset must match the immutable published MIDI."
+    }
+  ],
   "downloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No06/SchumannOp15No06.ly",

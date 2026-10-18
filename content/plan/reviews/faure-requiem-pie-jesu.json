@@ -1,0 +1,20 @@
+{
+  "id": "faure-requiem-pie-jesu",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "orchestra.ensemble and every string-containing timeline state",
+      "severity": "major",
+      "problem": "[EXT] The violin staff is tacet throughout Pie Jesu. The sounding strings are violas, cellos and basses, not first and second violins. The new wind/harp alternations are an improvement but still light both violin groups in every accompanied passage.",
+      "evidence": "Independently viewed all nine pages (61–69) of IV in the Hamelle/Kalmus score: the 1ers et 2ds Violons staff contains only rests. https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf .",
+      "fix": "Remove violins-1 and violins-2 from the ensemble and all playing/lead arrays for this movement; add the violin tacet to the source locator. Keep the genuine muted viola/cello/bass parts."
+    },
+    {
+      "where": "closing orchestra state at 154 seconds",
+      "severity": "minor",
+      "problem": "[EXT] The final page includes a first-bassoon solo in its last two bars. Removing all woodwinds for the entire closing region misses that return.",
+      "evidence": "Same independently viewed score, page 69, bassoon staff marked 1o Solo in the penultimate/final bars; flute and clarinet staves rest there.",
+      "fix": "Represent the late bassoon return with a broad closing-region state or include bassoon in the closing span with a note explicitly limiting its part to the last bars. Do not restore flute/clarinet activity there."
+    }
+  ]
+}

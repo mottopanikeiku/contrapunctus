@@ -11,6 +11,20 @@
     "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
     "main": "SchumannOp15No01.ly",
     "midi": "SchumannOp15No01.mid",
+    "patches": [
+      {
+        "file": "SchumannOp15No01.ly",
+        "old": "\\repeat volta 1\n\t\t\t{ s2 s2 s2 s2 s2 s2 s2 s2 }\n\t\t\t\\repeat volta 1",
+        "new": "\\bar \".|:\"\n\t\t\t{ s2 s2 s2 s2 s2 s2 s2 s2 }\n\t\t\t\\bar \":|.|:\"",
+        "basis": "The immutable repeat-only voice explicitly encodes both strains as count-one voltas, whose signs LilyPond 2.24 suppresses. Restore the opening and shared end/start repeat markers without changing any skip or note duration."
+      },
+      {
+        "file": "SchumannOp15No01.ly",
+        "old": "\\bar \"|.\"",
+        "new": "\\bar \":|.\"",
+        "basis": "Make the already-encoded second-strain closing repeat visible at the original final barline. All canonical notes and 44 quarter-note units remain unchanged and must match the immutable published pitch/onset multiset."
+      }
+    ],
     "downloads": [
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No01/SchumannOp15No01.ly",
@@ -25,7 +39,10 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "compiled-midi",
+    "definitions": [{"file": "SchumannOp15No01.ly", "before": "\\score"}],
+    "comparePublished": {},
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\key g \\major \\time 2/4 \\viola \\oboes \\repeattr >> \\new Dynamics = \"dynamics\" \\dynamictr \\new Staff = \"down\" << \\clef bass \\key g \\major \\time 2/4 \\bassvoices \\bassvoicestwo >> \\new Dynamics = \"pedal\" \\pedaltr >>"
   },
   "voices": [
     {
@@ -113,10 +130,12 @@
   "engraving": {
     "staff": 18,
     "width": 230,
-    "height": 297
+    "height": 297,
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\key g \\major \\time 2/4 \\viola \\oboes \\repeattr >> \\new Dynamics = \"dynamics\" \\dynamictr \\new Staff = \"down\" << \\clef bass \\key g \\major \\time 2/4 \\bassvoices \\bassvoicestwo >> \\new Dynamics = \"pedal\" \\pedaltr >>"
   },
   "provenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/schumann-kinderszenen-foreign-lands.mjs and cache/analysis/schumann-kinderszenen-foreign-lands.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Read content/listen/schumann-kinderszenen-foreign-lands.mjs and cache/analysis/schumann-kinderszenen-foreign-lands.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Two exact notation-only compatibility patches restore visible signs for the immutable source's suppressed count-one repeats. Both source strains, canonical durations and performed order remain unchanged; identical compiled/engraved wrappers require exact published pitch/onset inventory proof."
   ]
 }

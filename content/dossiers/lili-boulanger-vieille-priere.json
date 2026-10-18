@@ -135,15 +135,16 @@
   },
   "rights": {
     "composition": {
-      "value": "Boulanger’s original music is out of term on an ordinary life-plus-70 calculation; rights in Karpelès’s French translation are not established.",
+      "value": "Underlying work clearance is not established: Boulanger died in 1918, but the French translator Suzanne Karpelès died in 1968.",
       "status": "unknown",
       "sourceIds": [
         "composer",
         "score",
         "translator",
-        "eu-term"
+        "eu-term",
+        "eu-extension"
       ],
-      "note": "Karpelès died in 1968, so an ordinary EU life-plus-70 translation term would run through 2038. No permission or applicable exception for that text has been established. The final programme’s sound-recording rule 3 is satisfied separately; this dossier does not turn phonogram expiry into text clearance. No sung lyrics or their translation are reproduced in the guide."
+      "note": "A separate ordinary life-plus-70 calculation would put Boulanger’s music out of term, but Karpelès’s translation term would run through 2038. Directive 2011/77/EU also provides a last-survivor term when words and music were specifically created for the same composition; whether that condition applies here has not been established. No permission or applicable text exception is established. The programme’s sound-recording rule 3 is satisfied separately; phonogram expiry is not underlying-work clearance. No lyrics or their translation are reproduced in the guide."
     },
     "recording": {
       "value": "Rule 3 — territorial EU sound-recording public domain: lawful publication documented by 1960, before 1963.",
@@ -234,7 +235,7 @@
       "id": "eu-extension",
       "title": "Directive 2011/77/EU — phonogram extension and transition",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
-      "locator": "Article 1 amendments: extended phonogram protection applies to recordings still protected on 1 November 2013. The 1960 publication evidence puts this recording’s former fifty-year term before that transition. This is a territorial EU basis, not a worldwide licence or US clearance.",
+      "locator": "Article 1(3), inserting Article 10(5): extended phonogram protection applies to recordings still protected on 1 November 2013. The 1960 publication evidence puts this recording’s former fifty-year term before that transition. Article 1(1), inserting Article 1(7), separately gives a last-survivor term for words and music specifically created together. Its applicability to this translation is not established. Territorial EU basis only; no worldwide or US clearance.",
       "accessed": "2026-10-17"
     },
     {

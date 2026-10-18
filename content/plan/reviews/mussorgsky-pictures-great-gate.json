@@ -1,13 +1,5 @@
 {
   "id": "mussorgsky-pictures-great-gate",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "97-second cue and transitions[1].how",
-      "severity": "minor",
-      "problem": "[MEAS] The quoted rise from about −30 to −11 dB occupies two seconds in the supplied finer measurements, not one: 1:36 −29.7, 1:37 −16.7, 1:38 −11.2 dB.",
-      "evidence": "The cue/transition’s own cited one-second measurements; the standard report also confirms the broader rise across 1:35–1:40.",
-      "fix": "Say ‘within about two seconds’ or ‘within a few seconds’ in both places, keeping the valid arrival anchor and numerical values."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

@@ -69,7 +69,7 @@ export default {
       to: 'Meno mosso coda',
       at: { t: 87 },
       span: [80, 98],
-      how: '<p>Near 1:26 the chatter stops for about a second, probably the fermata that the score places in bar 36. Four slower bars follow, marked “Meno mosso, sempre capriccioso”, and the last chord runs straight on into the Catacombs. The slower pace is the only tempo change in the piece.</p>',
+      how: '<p>Near 1:26 the chatter stops for about a second, probably the fermata that the score places in bar 36. Four slower bars follow, marked “Meno mosso, sempre capriccioso”, and they run straight on into the Catacombs. The score marks a poco accelerando in the last of them, bar 40, before the attacca.</p>',
       devices: ['fermata', 'tempo change', 'attacca'],
       basis: 'score-proportion',
       precision: 'passage',

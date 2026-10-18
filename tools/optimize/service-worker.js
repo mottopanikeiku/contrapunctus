@@ -8,6 +8,7 @@ const IMAGES = `${PREFIX}images:${BUILD}`;
 const SCORES = `${PREFIX}scores:${BUILD}`;
 const activeCaches = new Set([SHELL, HTML, DATA, IMAGES, SCORES]);
 const revisions = new Map(PRECACHE.map(({ url, revision }) => [new URL(url, ROOT).href, revision]));
+const precached = new Set(PRECACHE.filter((entry) => entry.precache).map(({ url }) => new URL(url, ROOT).href));
 const revisionKey = (url, revision) => `${url}?__revision=${revision}`;
 const storable = (response) => response.ok && response.status !== 206 && response.type === 'basic';
 let imageWrites = Promise.resolve();
@@ -15,15 +16,20 @@ let imageWrites = Promise.resolve();
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(SHELL);
-    // Four concurrent requests, not a burst of every asset. Reuse exact hashes
-    // from an installed release; changed bytes bypass GitHub Pages' HTTP cache.
+    // Four concurrent requests, not a burst of every asset. Reuse installed
+    // exact hashes, including visited non-core modules, without fetching
+    // notation/other page modules that the visitor has never needed.
     const entries = [...revisions];
     let next = 0;
     await Promise.all(Array.from({ length: Math.min(4, entries.length) }, async () => {
       while (next < entries.length) {
         const [url, revision] = entries[next++], key = revisionKey(url, revision);
         const previous = await caches.match(key);
-        const response = previous || await fetch(new Request(url, { cache: 'reload' }));
+        if (!previous && !precached.has(url)) continue;
+        // Reuse the first page's HTTP responses. Hash-named fonts and versioned
+        // CSS/JS/programme URLs are immutable; only HTML needs revalidation.
+        const fetchURL = /\.(?:css|js|json)$/.test(url) ? `${url}?v=${revision.slice(0, 12)}` : url;
+        const response = previous || await fetch(new Request(fetchURL, { cache: url.endsWith('.html') ? 'reload' : 'force-cache' }));
         if (!storable(response)) throw new Error(`Unable to precache ${url}: ${response.status}`);
         await cache.put(key, response);
       }

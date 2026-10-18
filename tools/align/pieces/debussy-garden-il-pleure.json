@@ -21,7 +21,19 @@
   },
   "extraction": {
     "mode": "isolated-voices",
-    "staves": ["voice", "1", "2"]
+    "staves": ["voice", "1", "2"],
+    "silent": "s2.*80",
+    "ties": [
+      {"origin": {"q": 81, "pitch": 50, "voice": "piano-lower-6", "durationQ": 3}, "continuation": {"q": 84, "pitch": 50, "voice": "piano-lower-5", "durationQ": 1}},
+      {"origin": {"q": 146.5, "pitch": 65, "voice": "piano-upper-1", "durationQ": 0.5}, "continuation": {"q": 147, "pitch": 65, "voice": "piano-upper-2", "durationQ": 3}},
+      {"origin": {"q": 192, "pitch": 52, "voice": "piano-lower-5", "durationQ": 3}, "continuation": {"q": 195, "pitch": 52, "voice": "piano-lower-7", "durationQ": 3}},
+      {"origin": {"q": 198, "pitch": 64, "voice": "piano-upper-1", "durationQ": 3}, "continuation": {"q": 201, "pitch": 64, "voice": "piano-upper-2", "durationQ": 3}},
+      {"origin": {"q": 228, "pitch": 32, "voice": "piano-lower-6", "durationQ": 6}, "continuation": {"q": 234, "pitch": 32, "voice": "piano-lower-5", "durationQ": 4}},
+      {"origin": {"q": 228, "pitch": 39, "voice": "piano-lower-6", "durationQ": 6}, "continuation": {"q": 234, "pitch": 39, "voice": "piano-lower-5", "durationQ": 4}},
+      {"origin": {"q": 228, "pitch": 44, "voice": "piano-lower-6", "durationQ": 6}, "continuation": {"q": 234, "pitch": 44, "voice": "piano-lower-5", "durationQ": 4}},
+      {"origin": {"q": 233.75, "pitch": 51, "voice": "piano-lower-5", "durationQ": 0.25}, "continuation": {"q": 234, "pitch": 51, "voice": "piano-lower-6", "durationQ": 4}},
+      {"origin": {"q": 233.5, "pitch": 56, "voice": "piano-lower-5", "durationQ": 0.25}, "continuation": {"q": 234, "pitch": 56, "voice": "piano-lower-6", "durationQ": 4}, "gapQ": 0.25, "basis": "Original lc5060918.mxl P2 bar 78 has a G-sharp3 sixteenth at q233.5 with explicit tie start; the following D-sharp3 sixteenth occupies q233.75. The G-sharp3 stop moves to encoded voice 6 at bar 79 q234, then remains tied to bar 80 q237 through q238. This explicit nonconsecutive tie sustains the existing G-sharp3 through the intervening 0.25 quarter; it is not a new note or inferred pedal."}
+    ]
   },
   "voices": [
     {
@@ -39,7 +51,7 @@
     {
       "id": "piano-upper-2",
       "name": "Piano · encoded voice 2 (cross-staff)",
-      "music": "\\PartPTwoVoiceTwo",
+      "music": "{ \\set tieWaitForNote = ##t \\PartPTwoVoiceTwo }",
       "staff": "1"
     },
     {
@@ -73,21 +85,28 @@
     "last": [126.8, 128.4],
     "basis": "Windows selected from the cached transfer's absolute-pitch spectrogram, work/debussy-garden-il-pleure-preparation-endpoints.png: initial D-sharp5/B4 motion starts near 1.2 s; the closing high-register dyad is inspected separately from the later noise cutoff. These are provisional source-pitch windows, not aural or word-aligned review."
   },
+  "anchors": [
+    {"scoreQ": 150, "window": [79.2, 79.75], "label": "bar51-F5-climax", "basis": "The source bar-51 F5/A4/D2/A2 attack follows the F4 lead-in. The fresh 73–94 s absolute-pitch overlay places its rise near 79.4 s; FFT 79.7–80.0 s measures F5 components 701.17/711.61 Hz and A4 440.76 Hz. This pitch inspection corrects the unanchored premature 78.965 s mapping, not a nearest-onset-only fit."},
+    {"scoreQ": 153, "window": [82.15, 82.65], "label": "bar52-D5-F4-descent", "basis": "The source moves from the held F5 to D5 over F4 at bar 52. The observed drop is near 82.3 s, not the rejected 80.634 s mapping: FFT 81.2–81.45 s still has strong F5 at 697.14/706.22 Hz; 82.65–83.0 s has D5 near 588.46 Hz and F4 348.23 Hz. The intervening source E4 and D4 accompaniment is independently visible near 80.7 and 81.2 s."},
+    {"scoreQ": 156, "window": [85.45, 85.85], "label": "bar53-accompaniment-return", "basis": "The source's broken accompaniment returns with B3/D4/G-sharp4 under renewed D5 at bar 53, after the C-sharp4 and C4 descent. FFT confirms C-sharp4 275.22 Hz at 83.4–83.65 s, C4 260.75 Hz at 84.5–84.75 s, G-sharp4 417.21 Hz at 85.6–85.85 s, and the following B3/D4/A4 at 245.61/293.73/437.73 Hz at 86.2–86.45 s. The large 85.5 s attack is therefore a source-pitch/order landmark, not the editorial 82 s section locator."}
+  ],
   "boundaries": [],
   "diagnostics": {
-    "overlays": [[55, 76], [73, 94], [118, 132.4]]
+    "overlays": [[55, 76], [73, 94], [78, 88], [118, 132.4]]
   },
   "provenance": [
     "This exact voice-and-piano song is OpenScore Lieder no. 2, transcribed from IMSLP #14819 according to the primary catalogue: https://github.com/OpenScore/Lieder/tree/main/scores/Debussy%2C_Claude/Ariettes_Oubli%C3%A9es/2_Il_pleure_dans_mon_coeur . The encoding is CC0 (https://github.com/OpenScore/Lieder#license-and-acknowledgement); downloaded bytes retain the inventory SHA-256. No individually named encoder or printed-edition imprint is claimed.",
     "The eligible existing recording is Mary Garden, soprano, with Claude Debussy, piano, Paris 1904; see content/listen/debussy-garden-il-pleure.mjs and its BnF/discographic evidence. This source is not La Chevelure or Mes longs cheveux.",
     "P1 is Voice, one treble line; P2 is PIANO, two staves with encoded voices 1, 2, 5, 6 and 7. Cross-staff movement of voices 1 and 2 is retained using the existing isolated-voice destination staves. Labels describe source encoding identities, not audio separation or MIDI instrument patches. All source lyrics remain in the engraving.",
     "Measured opening peaks 626.40/494.76 Hz at 1.0–1.5 s and 621.35/493.16 Hz at 3.0–3.5 s match written D-sharp5/B4 without a semitone or octave correction. Global transfer tuning estimate is +5 cents (A=441.272607 Hz); audible-performance tuning, the historical recording speed and the performers' original chosen key are not inferred from that global estimate. The source contains no transpose or octave-clef instruction.",
-    "The source's nonstandard dynamics ad libitum and con sordine are preserved as words by the supported MusicXML conversion option. Simultaneous/closing-slur and negative-skip converter warnings are retained for source-integrity inspection, not suppressed. A source or alignment failure must withhold this candidate regardless of nearby onset agreement."
+    "The source's nonstandard dynamics ad libitum and con sordine are preserved as words. The converter's pure-clef ownership correction preserves the original voice-6 chords at q42, q72 and q210 rather than moving their members to different times; immutable source notes and attributes are not edited. Named destination staves remain alive for all 240 quarters through silent skips, not added notes.",
+    "Eight explicitly notated contiguous cross-voice ties are joined by exact asserted origin and continuation events: D3 at q81–84, F4 at q146.5–147, E3 at q192–195, E4 at q198–201, G-sharp1/D-sharp2/G-sharp2 at q228–234, and D-sharp3 at q233.75–234. Source continuation voices remain documented even when their tied stop is not a new attack.",
+    "Piano encoded voice 2 has nonconsecutive C-sharp6 ties q47→48 and q49→51, spanning intervening notes. LilyPond's documented tieWaitForNote preserves these source ties in both extraction and engraving; its other four tie starts in this voice are ordinary contiguous same-voice ties. See https://lilypond.org/doc/v2.26/Documentation/notation/writing-rhythms#ties . The final G-sharp3 tie starts in voice 5 at q233.5, passes the D-sharp3 at q233.75, and continues in voice 6 at q234; the latter is a held continuation, not a new attack."
   ],
   "engraving": {
     "staff": 17,
     "width": 240,
     "height": 320,
-    "music": "<< \\new Staff << \\set Staff.instrumentName = \"Voice\" \\context Staff << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPOneVoiceOne\" { \\PartPOneVoiceOne } \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\set stanza = \"1.\" \\PartPOneVoiceOneLyricsOne } >> >> \\new PianoStaff << \\set PianoStaff.instrumentName = \"PIANO\" \\context Staff = \"1\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\context Voice = \"PartPTwoVoiceTwo\" { \\voiceTwo \\PartPTwoVoiceTwo } >> \\context Staff = \"2\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPTwoVoiceFive\" { \\voiceOne \\PartPTwoVoiceFive } \\context Voice = \"PartPTwoVoiceSix\" { \\voiceTwo \\PartPTwoVoiceSix } \\context Voice = \"PartPTwoVoiceSeven\" { \\voiceThree \\PartPTwoVoiceSeven } >> >> >>"
+    "music": "<< \\new Staff << \\set Staff.instrumentName = \"Voice\" \\context Staff << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPOneVoiceOne\" { \\PartPOneVoiceOne } \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\set stanza = \"1.\" \\PartPOneVoiceOneLyricsOne } >> >> \\new PianoStaff << \\set PianoStaff.instrumentName = \"PIANO\" \\context Staff = \"1\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\context Voice = \"PartPTwoVoiceTwo\" { \\voiceTwo \\set tieWaitForNote = ##t \\PartPTwoVoiceTwo } >> \\context Staff = \"2\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPTwoVoiceFive\" { \\voiceOne \\PartPTwoVoiceFive } \\context Voice = \"PartPTwoVoiceSix\" { \\voiceTwo \\PartPTwoVoiceSix } \\context Voice = \"PartPTwoVoiceSeven\" { \\voiceThree \\PartPTwoVoiceSeven } >> >> >>"
   }
 }

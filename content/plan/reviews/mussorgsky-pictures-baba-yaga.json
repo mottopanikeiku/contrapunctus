@@ -1,13 +1,5 @@
 {
   "id": "mussorgsky-pictures-baba-yaga",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "final section label; cue at 196 seconds; final transition",
-      "severity": "major",
-      "problem": "[EXT] The ending is not a passage of held chords replacing the running music. The score continues rapid semiquaver motion through its closing run into the Gate. The onset detector’s near-zero output has been mistaken for an absence of musical attacks.",
-      "evidence": "Opened Lamm/Mutopia baba-allegro-molto.ily, bars 187–211: continuous interlocking semiquavers and a rising closing run, with attacca on the last bar. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/baba-allegro-molto.ily . The report’s 3:15–3:30 low detected-onset rate does not identify sustained chords.",
-      "fix": "Rewrite the final section/cue/join to describe the continuing rapid motion and rising/brightening closing run into the attacca, not sustained chords. Keep the measured level and brightness rise; explicitly avoid treating low detector output as the written note rate. Do not add unsupported note-exact or instrument-specific timing."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

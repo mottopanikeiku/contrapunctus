@@ -40,7 +40,7 @@ export async function mount(app) {
   insetWorld.querySelector('.am-land').setAttribute('d', base.land);
   insetWorld.querySelector('.am-coast').setAttribute('d', base.coastline);
   const byId = new Map(data.composers.map((c, i) => [c.id, { ...c, index: i }]));
-  const detailCache = new Map(), sprites = [], trails = [], events = [], citySprites = [], clusterSprites = [], routeSprites = [], transferSprites = [];
+  const detailCache = new Map(), sprites = [], trails = [], events = [], citySprites = [], clusterSprites = new Map(), routeSprites = [], transferSprites = [];
   let year = clamp(Number(new URL(location.href).searchParams.get('year')) || 1805, data.first, data.last);
   let selected = '', selectedCity = Number(citySelect.value), detail = null, focusRequest = 0, selectedPlace = -1;
   let width = 900, height = 530, tx = 0, ty = 0, scale = 1, previousScale = 0;
@@ -48,7 +48,8 @@ export async function mount(app) {
   let encounterSignature = '', encounterYearNode = null;
   let view = data.europe, frame = [], paintId = 0, timeId = 0, playing = false, lastTick = 0, clock = 0;
   let moved = false, pointerRect, gesture, suppressClickUntil = 0;
-  let expandedCity = -1, pinnedCluster = -1, clusterTimer = 0, insetRegion = '', insetScale = 1;
+  let expandedCluster = '', pinnedCluster = '', clusterTimer = 0, clusterStamp = '', insetRegion = '', insetScale = 1;
+  let menuBounds = { top: 0, bottom: height };
   const pointers = new Map();
 
   for (const [index, c] of data.composers.entries()) {
@@ -91,12 +92,6 @@ export async function mount(app) {
     svgNode('circle', { r: 2.5, class: 'am-city-dot' }, icon);
     const label = svgNode('text', { x: 7, y: 4, class: 'am-city-name' }, icon); label.textContent = city.name;
     citySprites.push({ node, icon, city });
-    const cluster = svgNode('g', { class: 'am-cluster am-hidden am-true-marker', role: 'button', tabindex: '-1', 'data-cluster': city.id, 'data-geo-kind': 'cluster', 'data-geo-x': city.x, 'data-geo-y': city.y }, $('.am-clusters'));
-    const medallion = svgNode('g', {}, cluster);
-    svgNode('ellipse', { rx: 18, ry: 13 }, medallion);
-    const count = svgNode('text', { 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'am-cluster-count' }, medallion);
-    const name = svgNode('text', { y: 28, 'text-anchor': 'middle', class: 'am-cluster-name' }, medallion);
-    clusterSprites.push({ node: cluster, icon: medallion, count, name, city });
   }
 
   function schedulePaint() { if (!paintId) paintId = requestAnimationFrame(paint); }
@@ -107,11 +102,12 @@ export async function mount(app) {
       world.setAttribute('transform', camera); baseWorld.setAttribute('transform', camera);
       paintedCamera = camera;
     }
+    const stamp = `${year}|${scale}|${selected}|${selectedCity}`;
+    if (stamp !== clusterStamp) { layoutClusters(); clusterStamp = stamp; }
     const inverse = 1 / scale;
     for (const row of frame) {
       const sprite = sprites[row[0]], p = sprite.c.places[row[1]];
-      const radius = Math.hypot(row[2], row[3]), coastal = radius ? Math.min(1, p.shore * scale / radius) : 1;
-      const dx = row[2] * coastal, dy = row[3] * coastal;
+      const dx = 0, dy = row[2] ? 0 : -Math.min(26, p.shore * scale);
       if (sprite.paintedPlace === row[1] && sprite.paintedScale === scale && sprite.paintedDX === dx && sprite.paintedDY === dy) continue;
       sprite.paintedPlace = row[1]; sprite.paintedScale = scale; sprite.paintedDX = dx; sprite.paintedDY = dy;
       sprite.anchor.setAttribute('transform', `translate(${p.x} ${p.z})`);
@@ -122,10 +118,14 @@ export async function mount(app) {
       sprite.tether.setAttribute('d', `M0,0L${dx * inverse},${dy * inverse}`);
     }
     if (previousScale !== scale) {
-      for (const { node, icon, city } of [...citySprites, ...clusterSprites]) { node.setAttribute('transform', `translate(${city.x} ${city.y})`); icon.setAttribute('transform', `scale(${inverse})`); }
+      for (const { node, icon, city } of citySprites) { node.setAttribute('transform', `translate(${city.x} ${city.y})`); icon.setAttribute('transform', `scale(${inverse})`); }
       for (const { node, icon, p } of events) { node.setAttribute('transform', `translate(${p.x} ${p.z})`); icon.setAttribute('transform', `scale(${inverse})`); }
       for (const { glint } of trails) if (glint) glint.setAttribute('r', 2 * inverse);
       previousScale = scale;
+    }
+    for (const cluster of clusterSprites.values()) {
+      if (cluster.scale !== scale) { cluster.icon.setAttribute('transform', `scale(${inverse})`); cluster.scale = scale; }
+      if (cluster.key === expandedCluster) positionChooser(cluster);
     }
     for (const s of routeSprites) s.node.setAttribute('transform', `translate(${s.x} ${s.z}) scale(${1 / (s.region === detail?.map.primary ? scale : insetScale)})`);
     const endX = mobile.matches ? 153 : 224, endY = mobile.matches ? 84 : 238;
@@ -151,33 +151,141 @@ export async function mount(app) {
     const u = new URL(location.href); u.hash = id ? `c-${id}` : ''; u.searchParams.set('year', year);
     history.replaceState(null, '', u);
   }
-  function showFaces() {
-    for (const row of frame) {
-      const s = sprites[row[0]], p = s.c.places[row[1]], collapsed = row[6] > 4 && expandedCity !== p.city;
-      s.anchor.classList.toggle('am-collapsed', collapsed);
-      s.anchor.classList.toggle('am-shared-city', row[6] > 1);
-      s.anchor.dataset.clusterCity = p.city;
-      const faceScale = row[6] > 4 ? .55 : row[6] > 1 ? .75 : 1;
-      if (s.faceScale !== faceScale) { s.face.setAttribute('transform', `scale(${faceScale})`); s.faceScale = faceScale; }
-      s.anchor.setAttribute('tabindex', !selected && !collapsed ? '0' : '-1');
-      if (!selected && !collapsed && !row[4] && s.image && !s.image.hasAttribute('href')) s.image.setAttribute('href', url(s.c.portrait));
+  function screenGroups() {
+    if (selected) return [];
+    const points = frame.filter((row) => !row[2]).map((row) => {
+      const c = sprites[row[0]].c, p = c.places[row[1]];
+      return { row, c, p, x: p.x * scale, y: p.z * scale - Math.min(26, p.shore * scale) };
+    });
+    const parents = points.map((_, i) => i);
+    function find(i) { while (parents[i] !== i) { parents[i] = parents[parents[i]]; i = parents[i]; } return i; }
+    function join(a, b) { a = find(a); b = find(b); if (a === b) return false; parents[b] = a; return true; }
+    for (let i = 0; i < points.length; i++) for (let j = i + 1; j < points.length; j++) {
+      if (Math.hypot(points[i].x - points[j].x, points[i].y - points[j].y) < 52) join(i, j);
     }
-    for (const s of clusterSprites) {
-      s.node.classList.toggle('am-cluster-open', s.city.id === expandedCity);
-      s.node.setAttribute('aria-expanded', String(s.city.id === expandedCity));
+    let groups, merged;
+    do {
+      const components = new Map();
+      for (let i = 0; i < points.length; i++) {
+        const key = find(i), list = components.get(key) ?? [];
+        list.push(i); components.set(key, list);
+      }
+      groups = [...components.values()].map((indices) => {
+        const members = indices.map((i) => points[i]), counts = new Map();
+        for (const member of members) counts.set(member.p.city, (counts.get(member.p.city) ?? 0) + 1);
+        const cityId = [...counts].sort((a, b) => b[1] - a[1] || a[0] - b[0])[0][0], city = data.cities[cityId];
+        return { indices, members, city, key: members.map((m) => m.row[0]).join('-'), label: `${city.name}${counts.size > 1 ? ' area' : ''}`, x: members.length > 1 ? city.x * scale : members[0].x, y: members.length > 1 ? city.y * scale : members[0].y, radius: members.length > 1 ? 19 : 25 };
+      });
+      // Collapsing a group puts its medallion on a true city centre. Merge
+      // again if that medallion would collide with a neighbouring symbol.
+      merged = false;
+      for (let i = 0; i < groups.length; i++) for (let j = i + 1; j < groups.length; j++) {
+        const a = groups[i], b = groups[j];
+        if (Math.hypot(a.x - b.x, a.y - b.y) < a.radius + b.radius + 3) merged = join(a.indices[0], b.indices[0]) || merged;
+      }
+    } while (merged);
+    return groups.filter((g) => g.members.length > 1);
+  }
+  function makeCluster(group) {
+    const node = svgNode('g', { class: 'am-cluster am-true-marker', role: 'button', tabindex: '0', 'data-cluster': group.key, 'data-geo-kind': 'cluster' }, $('.am-clusters'));
+    const icon = svgNode('g', { class: 'am-cluster-icon' }, node);
+    const leader = svgNode('path', { class: 'am-cluster-menu-leader' }, icon);
+    const ring = svgNode('g', { class: 'am-cluster-ring am-hidden', role: 'group', 'aria-label': 'Portrait chooser, not geographic positions' }, icon);
+    const background = svgNode('circle', { class: 'am-cluster-menu-bg' }, ring);
+    const help = svgNode('text', { y: -3, 'text-anchor': 'middle', class: 'am-cluster-help' }, ring); help.textContent = 'Choose';
+    const helpLine = svgNode('tspan', { x: 0, dy: 13 }, help); helpLine.textContent = 'a portrait';
+    const members = group.members.map(({ c }) => {
+      const member = svgNode('g', { class: 'am-cluster-member', role: 'button', tabindex: '-1', 'data-focus': c.id, 'data-cluster-member': group.key }, ring);
+      svgNode('circle', { r: 30, class: 'am-cluster-member-hit' }, member);
+      svgNode('ellipse', { rx: 19, ry: 24, class: 'am-outer-frame' }, member);
+      svgNode('ellipse', { rx: 16, ry: 21, class: 'am-portrait-ground' }, member);
+      const image = c.portrait ? svgNode('image', { x: -16, y: -21, width: 32, height: 42, preserveAspectRatio: 'xMidYMin slice', 'clip-path': 'url(#am-oval)' }, member) : null;
+      if (!image) { const initial = svgNode('text', { y: 6, 'text-anchor': 'middle', class: 'am-monogram' }, member); initial.textContent = c.label[0]; }
+      svgNode('ellipse', { rx: 16, ry: 21, class: 'am-inner-frame' }, member);
+      const name = svgNode('text', { y: 40, 'text-anchor': 'middle', class: 'am-cluster-member-name' }, member); name.textContent = c.label;
+      const title = svgNode('title', {}, member);
+      return { node: member, image, title, c };
+    });
+    svgNode('ellipse', { rx: 18, ry: 13, class: 'am-cluster-medal' }, icon);
+    const count = svgNode('text', { 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'am-cluster-count' }, icon);
+    const name = svgNode('text', { y: 28, 'text-anchor': 'middle', class: 'am-cluster-name' }, icon);
+    return { key: group.key, node, icon, ring, leader, background, members, count, name, scale: 0 };
+  }
+  function layoutClusters() {
+    const groups = screenGroups(), active = new Set(), clusteredCities = new Set(), occupiedCities = new Set();
+    for (const sprite of sprites) sprite.cluster = '';
+    for (const row of frame) if (!row[2]) occupiedCities.add(sprites[row[0]].c.places[row[1]].city);
+    for (const group of groups) {
+      active.add(group.key);
+      let s = clusterSprites.get(group.key);
+      if (!s) { s = makeCluster(group); clusterSprites.set(group.key, s); }
+      s.city = group.city;
+      s.node.setAttribute('transform', `translate(${group.city.x} ${group.city.y})`);
+      s.node.dataset.city = group.city.id; s.node.dataset.geoX = group.city.x; s.node.dataset.geoY = group.city.y;
+      s.node.setAttribute('aria-label', `${group.label} · ${group.members.length} composers. Open the portrait chooser; gold dots retain their actual locations.`);
+      s.count.textContent = group.members.length; s.name.textContent = `${group.label} · ${group.members.length}`;
+      for (const [i, member] of group.members.entries()) {
+        sprites[member.row[0]].cluster = group.key; clusteredCities.add(member.p.city);
+        const label = `${member.c.name} · ${data.cities[member.p.city].name} · ${year}`;
+        s.members[i].node.setAttribute('aria-label', label); s.members[i].title.textContent = label;
+      }
+    }
+    for (const [key, s] of clusterSprites) if (!active.has(key)) { s.node.remove(); clusterSprites.delete(key); }
+    if (!active.has(expandedCluster)) expandedCluster = '';
+    if (!active.has(pinnedCluster)) pinnedCluster = '';
+    for (const row of frame) {
+      const s = sprites[row[0]];
+      s.anchor.classList.toggle('am-collapsed', Boolean(s.cluster));
+      s.anchor.dataset.clusterOwner = s.cluster;
+      s.anchor.setAttribute('tabindex', !selected && !s.cluster ? '0' : '-1');
+      if (!selected && !s.cluster && !row[2] && s.image && !s.image.hasAttribute('href')) s.image.setAttribute('href', url(s.c.portrait));
+    }
+    for (const s of citySprites) {
+      const present = s.city.visits.some((v) => v.a <= year && v.b >= year) || s.city.residents.some((v) => v.a <= year && v.b >= year);
+      const visible = !selected && (present || s.city.id === selectedCity) && !clusteredCities.has(s.city.id);
+      s.node.classList.toggle('am-hidden', !visible); s.node.setAttribute('tabindex', visible ? '0' : '-1');
+      s.node.classList.toggle('am-city-selected', s.city.id === selectedCity);
+      s.node.classList.toggle('am-city-occupied', occupiedCities.has(s.city.id));
+    }
+    showChooser();
+  }
+  function showChooser() {
+    for (const s of clusterSprites.values()) {
+      const open = s.key === expandedCluster;
+      s.node.classList.toggle('am-cluster-open', open); s.node.setAttribute('aria-expanded', String(open));
+      s.ring.classList.toggle('am-hidden', !open); s.leader.classList.toggle('am-hidden', !open);
+      for (const member of s.members) {
+        member.node.setAttribute('tabindex', open ? '0' : '-1');
+        if (open && member.image && !member.image.hasAttribute('href')) member.image.setAttribute('href', url(member.c.portrait));
+      }
     }
   }
-  function expandCluster(id, pin = false) {
-    clearTimeout(clusterTimer);
-    if (pin) pinnedCluster = pinnedCluster === id ? -1 : id;
-    expandedCity = pin ? pinnedCluster : id;
-    if (pin && pinnedCluster >= 0) {
-      const city = data.cities[id], rows = frame.filter((row) => !row[4] && sprites[row[0]].c.places[row[1]].city === id);
-      const shore = Math.min(...rows.map((row) => sprites[row[0]].c.places[row[1]].shore || 1));
-      scale = Math.max(scale, Math.min(9, 35 / shore));
-      tx = width / 2 - city.x * scale; ty = height / 2 - city.y * scale; schedulePaint();
+  function positionChooser(s) {
+    const n = s.members.length, radius = Math.max(18, Math.min(Math.max(38, 17 / Math.sin(Math.PI / n)), (width - 60) / 2, (menuBounds.bottom - menuBounds.top - 60) / 2));
+    const faceScale = Math.min(.625, (radius * Math.sin(Math.PI / n) - 2) / 24);
+    const x = tx + s.city.x * scale, y = ty + s.city.y * scale;
+    const dx = clamp(x, radius + 24, width - radius - 24) - x, dy = clamp(y, menuBounds.top + radius + 24, menuBounds.bottom - radius - 24) - y;
+    s.ring.setAttribute('transform', `translate(${dx} ${dy})`); s.background.setAttribute('r', radius + 20);
+    s.leader.setAttribute('d', `M0,0L${dx},${dy}`);
+    for (let i = 0; i < n; i++) {
+      const angle = -Math.PI / 2 + i * Math.PI * 2 / n;
+      s.members[i].node.setAttribute('transform', `translate(${Math.cos(angle) * radius} ${Math.sin(angle) * radius}) scale(${faceScale})`);
     }
-    showFaces();
+  }
+  function expandCluster(key, pin = false) {
+    clearTimeout(clusterTimer);
+    if (pin) { pinnedCluster = pinnedCluster === key ? '' : key; stopYears(); }
+    const next = pin ? pinnedCluster : key;
+    if (next === expandedCluster && !pin) return;
+    expandedCluster = clusterSprites.has(next) ? next : '';
+    if (expandedCluster) {
+      if (pin && mobile.matches) { card.classList.remove('am-card-open'); stage.scrollIntoView({ block: 'start', behavior: 'instant' }); }
+      // Interaction-only geometry reads; panning, zooming and year animation
+      // use cached dimensions and never read layout in their animation frames.
+      const rect = svg.getBoundingClientRect(), timeTop = $('.am-time').getBoundingClientRect().top;
+      menuBounds = { top: Math.max(0, (mobile.matches ? 78 : 116) - rect.top) + 8, bottom: Math.min(height, timeTop - rect.top) - 8 };
+    }
+    showChooser(); schedulePaint();
   }
   function updateYear(next, announce = false) {
     year = clamp(Math.round(next), data.first, data.last); slider.value = year;
@@ -189,25 +297,14 @@ export async function mount(app) {
     for (const row of frame) {
       const s = sprites[row[0]], visible = !selected;
       s.anchor.classList.toggle('am-hidden', !visible);
-      s.anchor.classList.toggle('am-dead', Boolean(row[4]));
-      s.anchor.classList.toggle('am-last-known', !row[5]);
+      s.anchor.classList.toggle('am-dead', Boolean(row[2]));
+      s.anchor.classList.toggle('am-last-known', !row[3]);
       s.anchor.setAttribute('tabindex', visible ? '0' : '-1');
       const p = s.c.places[row[1]], city = data.cities[p.city].name;
-      s.title.textContent = `${s.c.name} · ${row[4] ? 'died; ' : row[5] ? '' : 'last recorded place: '}${city} · ${year}`;
+      s.title.textContent = `${s.c.name} · ${row[2] ? 'died; ' : row[3] ? '' : 'residence record carried forward: '}${city} · ${year}`;
       s.anchor.setAttribute('aria-label', s.title.textContent);
-      if (!row[4]) alive++;
+      if (!row[2]) alive++;
     }
-    const counts = new Map();
-    for (const row of frame) if (!row[4]) counts.set(sprites[row[0]].c.places[row[1]].city, row[6]);
-    for (const s of clusterSprites) {
-      const count = counts.get(s.city.id) ?? 0, visible = !selected && count > 4;
-      s.node.classList.toggle('am-hidden', !visible); s.node.setAttribute('tabindex', visible ? '0' : '-1');
-      if (s.shownCount !== count) {
-        s.node.setAttribute('aria-label', `${s.city.name} · ${count} composers. Expand portraits.`);
-        s.count.textContent = count; s.name.textContent = `${s.city.name} · ${count}`; s.shownCount = count;
-      }
-    }
-    showFaces();
     for (const trail of trails) {
       const visible = !selected && trail.p.y <= year && (!trail.c.died || trail.p.y <= trail.c.died);
       trail.node.classList.toggle('am-hidden', !visible);
@@ -219,16 +316,8 @@ export async function mount(app) {
       const visible = event.p.y === year && (!selected || event.node.dataset.composer === selected);
       event.node.classList.toggle('am-hidden', !visible); event.node.setAttribute('tabindex', visible ? '0' : '-1');
     }
-    for (const s of citySprites) {
-      const present = s.city.visits.some((v) => v.a <= year && v.b >= year);
-      const visible = !selected && (present || s.city.id === selectedCity) && (counts.get(s.city.id) ?? 0) <= 4;
-      s.node.classList.toggle('am-hidden', !visible);
-      s.node.classList.toggle('am-city-selected', s.city.id === selectedCity);
-      s.node.classList.toggle('am-city-occupied', counts.get(s.city.id) === 1);
-      s.node.setAttribute('tabindex', visible ? '0' : '-1');
-    }
     if (!selected) renderEncounters(false);
-    if (announce) { status.textContent = `${year}: ${alive} living composers with place records. Select a city to see documented presence.`; updateHash(selected); }
+    if (announce) { status.textContent = `${year}: ${alive} living composers with place records. City cards distinguish residence-derived locations from dated events.`; updateHash(selected); }
     schedulePaint();
   }
   function openCard() {
@@ -238,17 +327,23 @@ export async function mount(app) {
   function renderEncounters(open = true) {
     const city = data.cities[selectedCity];
     if (!city) { cardContent.innerHTML = '<h2>Places are being researched</h2><p>No sourced geography is available yet.</p>'; return; }
-    const visits = city.visits.filter((v) => v.a <= year && v.b >= year), unique = new Map();
-    for (const visit of visits) { const list = unique.get(visit.c) ?? []; list.push(visit); unique.set(visit.c, list); }
-    const pairs = city.pairs.filter((p) => p.from <= year && p.to >= year);
-    const signature = `${city.id}|${visits.map((v) => `${v.c}:${v.p}`).join(',')}|${pairs.map((p) => `${p.ids.join('/')}:${p.from}:${p.to}`).join(',')}`;
+    const residents = city.residents.filter((v) => v.a <= year && v.b >= year), visits = city.visits.filter((v) => v.a <= year && v.b >= year), unique = new Map(), overlaps = new Map();
+    for (const record of [...residents, ...visits]) { const list = unique.get(record.c) ?? []; list.push(record); unique.set(record.c, list); }
+    for (const pair of city.pairs) {
+      if (pair.from > year || pair.to < year) continue;
+      const key = pair.ids.join(':'), previous = overlaps.get(key);
+      if (!previous || (previous.basis !== 'dated' && pair.basis === 'dated') || (previous.basis === pair.basis && pair.to - pair.from > previous.to - previous.from)) overlaps.set(key, pair);
+    }
+    const pairs = [...overlaps.values()];
+    const signature = `${city.id}|${residents.map((v) => `${v.c}:${v.p}:${v.a}:${v.b}:${year > v.sourceEnd}`).join(',')}|${visits.map((v) => `${v.c}:${v.p}`).join(',')}|${pairs.map((p) => `${p.ids.join('/')}:${p.from}:${p.to}:${p.basis}`).join(',')}`;
     if (signature === encounterSignature && encounterYearNode?.isConnected) {
       encounterYearNode.textContent = year; if (open) openCard(); return;
     }
-    cardContent.innerHTML = `<span class="kicker">Who was here?</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} with documented presence in this year.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
-      const c = byId.get(id);
-      return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small>${records.map((v) => escape(v.from === v.to ? v.from : `${v.from}–${v.to}`)).join(' · ')}</small></span><b aria-hidden="true">→</b></button></li>`;
-    }).join('')}</ul>` : '<p class="am-empty">No documented presence in the available records. This is a gap in the collection, not evidence that nobody was here.</p>'}<h3>Overlapping dates</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><small>${p.from === p.to ? p.from : `${p.from}–${p.to}`}</small></li>`).join('')}</ul>` : '<p class="am-small">No overlapping documented date ranges for two composers in this year.</p>'}<p class="am-caution">An overlap is not proof of a meeting. A year may include separate visits; open a life for the dates and sources.</p><div class="am-city-prompts"><button type="button" data-vienna="1790">Vienna · 1790</button><button type="button" data-vienna="1805">Vienna · 1805</button><button type="button" data-paris="1900">Paris · 1900</button></div>`;
+    cardContent.innerHTML = `<span class="kicker">Who was here?</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} from residence records or dated events.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
+      const c = byId.get(id), resident = records.find((r) => r.basis === 'residence');
+      const evidence = resident ? `record: ${resident.sourceFrom === resident.sourceTo ? resident.sourceFrom : `${resident.sourceFrom}–${resident.sourceTo}`}${year > resident.sourceEnd ? ' · carried forward' : ''}${resident.status !== 'documented' ? ` · ${resident.status} source` : ''}` : records.map((r) => r.from === r.to ? r.from : `${r.from}–${r.to}`).join(' · ');
+      return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small class="am-presence ${resident ? 'am-residence-presence' : 'am-dated-presence'}">${resident ? 'resident (from residence records)' : 'documented in this year'}</small><small>${escape(evidence)}</small></span><b aria-hidden="true">→</b></button></li>`;
+    }).join('')}</ul>` : '<p class="am-empty">No residence-derived or dated presence in the available records. This is a gap in the collection, not evidence that nobody was here.</p>'}<h3>Possible encounters</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><span class="am-overlap-evidence"><small>${p.from === p.to ? p.from : `${p.from}–${p.to}`}</small><small class="am-overlap-basis">${p.basis === 'dated' ? 'dated records' : 'residence-derived'}</small></span></li>`).join('')}</ul>` : '<p class="am-small">No overlapping residence-derived or documented intervals for two composers in this year.</p>'}<p class="am-caution">Resident intervals carry the primary place forward to the next residence or post. They are a model, not dated attendance records. An overlap does not prove a meeting.</p><div class="am-city-prompts"><button type="button" data-vienna="1790">Vienna · 1790</button><button type="button" data-vienna="1805">Vienna · 1805</button><button type="button" data-vienna="1900">Vienna · 1900</button><button type="button" data-paris="1900">Paris · 1900</button></div>`;
     encounterSignature = signature; encounterYearNode = cardContent.querySelector('h2 em');
     if (open) openCard();
   }
@@ -341,7 +436,7 @@ export async function mount(app) {
     focusRequest++; selected = ''; detail = null; selectedPlace = -1; composerSelect.value = '';
     $('.am-route').replaceChildren(); $('.am-route-points').replaceChildren(); $('.am-influence').replaceChildren(); routeSprites.length = 0;
     $('.am-transfers').replaceChildren(); $('.am-inset-points').replaceChildren(); $('.am-inset-routes').replaceChildren(); transferSprites.length = 0;
-    inset.hidden = true; root.classList.remove('am-focused'); expandedCity = pinnedCluster = -1;
+    inset.hidden = true; root.classList.remove('am-focused'); expandedCluster = pinnedCluster = '';
     if (changeHash) updateHash();
     updateYear(year); fit(data.europe);
   }
@@ -391,22 +486,26 @@ export async function mount(app) {
   on(citySelect, 'change', () => chooseCity(citySelect.value));
   on(insetSelect, 'change', () => { insetRegion = insetSelect.value; drawInset(); });
   const clusterFor = (target) => {
-    const node = target?.closest?.('[data-cluster],[data-cluster-city]');
-    return node ? Number(node.dataset.cluster ?? node.dataset.clusterCity) : -1;
+    const node = target?.closest?.('[data-cluster],[data-cluster-member],[data-cluster-owner]');
+    return node?.dataset.cluster ?? node?.dataset.clusterMember ?? node?.dataset.clusterOwner ?? '';
   };
-  on(root, 'pointerover', (event) => { const id = clusterFor(event.target); if (id >= 0 && pinnedCluster < 0) expandCluster(id); });
+  on(root, 'pointerover', (event) => { const key = clusterFor(event.target); if (key && !pinnedCluster) expandCluster(key); });
   on(root, 'pointerout', (event) => {
     const from = clusterFor(event.target), to = clusterFor(event.relatedTarget);
-    if (from >= 0 && to !== from && pinnedCluster < 0) clusterTimer = setTimeout(() => expandCluster(-1), 250);
+    if (from && to !== from && !pinnedCluster) {
+      clearTimeout(clusterTimer);
+      clusterTimer = setTimeout(() => { if (!pinnedCluster && expandedCluster === from) expandCluster(''); }, 250);
+    }
   });
-  on(root, 'focusin', (event) => { const id = clusterFor(event.target); if (id >= 0 && pinnedCluster < 0) expandCluster(id); });
+  on(root, 'focusin', (event) => { const key = clusterFor(event.target); if (key && !pinnedCluster) expandCluster(key); });
   on(root, 'click', async (event) => {
     if (performance.now() < suppressClickUntil && svg.contains(event.target)) { event.preventDefault(); return; }
     const target = event.target.closest('[data-action],[data-composer],[data-city],[data-cluster],[data-focus],[data-map-play],[data-route-place],[data-place-index],[data-vienna],[data-paris]');
     if (!target) return;
     if (target.dataset.cluster != null) {
-      const id = Number(target.dataset.cluster); expandCluster(id, true);
-      selectedCity = id; citySelect.value = String(id); renderEncounters(); return;
+      const key = target.dataset.cluster, cluster = clusterSprites.get(key); expandCluster(key, true);
+      if (cluster) { selectedCity = cluster.city.id; citySelect.value = String(selectedCity); renderEncounters(!mobile.matches); }
+      return;
     }
     if (target.dataset.composer) { focusComposer(target.dataset.composer, false, Number(target.dataset.place ?? -1)); return; }
     if (target.dataset.focus) { focusComposer(target.dataset.focus); return; }
@@ -448,7 +547,13 @@ export async function mount(app) {
   on($('.am-inset-map'), 'keydown', (event) => {
     if (['Enter', ' '].includes(event.key) && event.target.closest('[role="button"]')) { event.preventDefault(); event.target.dispatchEvent(new MouseEvent('click', { bubbles: true })); }
   });
-  on(root, 'keydown', (event) => { if (event.key === 'Escape') { stopYears(); if (selected) clearFocus(); card.classList.remove('am-card-open'); composerSelect.focus(); } });
+  on(root, 'keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    stopYears();
+    if (expandedCluster) { pinnedCluster = ''; expandCluster(''); svg.focus(); return; }
+    if (selected) clearFocus();
+    card.classList.remove('am-card-open'); composerSelect.focus();
+  });
   function gestureStart() {
     const points = [...pointers.values()], a = points[0], b = points[1] ?? a;
     gesture = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2, distance: Math.hypot(b.x - a.x, b.y - a.y), tx, ty, scale };
@@ -483,6 +588,7 @@ export async function mount(app) {
   }, { passive: false });
   const resize = new ResizeObserver((entries) => {
     const rect = entries[0].contentRect; width = rect.width; height = rect.height;
+    expandedCluster = pinnedCluster = ''; showChooser();
     const viewBox = `0 0 ${width} ${height}`;
     svg.setAttribute('viewBox', viewBox); baseSvg.setAttribute('viewBox', viewBox); fit(view); updateYear(year);
   });

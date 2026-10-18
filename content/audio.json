@@ -279,6 +279,41 @@
   "artist": "Artur SCHNABEL – Piano",
   "duration": 430.95
  },
+ "archive:BelaBartok-ConcertoForOrchestra/1.Introduzione.mp3": {
+  "stream": "https://archive.org/download/BelaBartok-ConcertoForOrchestra/1.Introduzione.mp3",
+  "page": "https://archive.org/details/BelaBartok-ConcertoForOrchestra",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "artist": "",
+  "duration": 595.36
+ },
+ "archive:BelaBartok-ConcertoForOrchestra/2.GiuocoDelleCoppie.mp3": {
+  "stream": "https://archive.org/download/BelaBartok-ConcertoForOrchestra/2.GiuocoDelleCoppie.mp3",
+  "page": "https://archive.org/details/BelaBartok-ConcertoForOrchestra",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "artist": "",
+  "duration": 350.31
+ },
+ "archive:BelaBartok-ConcertoForOrchestra/3.Elegia.mp3": {
+  "stream": "https://archive.org/download/BelaBartok-ConcertoForOrchestra/3.Elegia.mp3",
+  "page": "https://archive.org/details/BelaBartok-ConcertoForOrchestra",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "artist": "",
+  "duration": 470.44
+ },
+ "archive:BelaBartok-ConcertoForOrchestra/4.IntermezzoInterrotto.mp3": {
+  "stream": "https://archive.org/download/BelaBartok-ConcertoForOrchestra/4.IntermezzoInterrotto.mp3",
+  "page": "https://archive.org/details/BelaBartok-ConcertoForOrchestra",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "artist": "",
+  "duration": 269.23
+ },
+ "archive:BelaBartok-ConcertoForOrchestra/5.Finale.mp3": {
+  "stream": "https://archive.org/download/BelaBartok-ConcertoForOrchestra/5.Finale.mp3",
+  "page": "https://archive.org/details/BelaBartok-ConcertoForOrchestra",
+  "license": "http://creativecommons.org/licenses/publicdomain/",
+  "artist": "",
+  "duration": 543.46
+ },
  "archive:hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3": {
   "stream": "https://archive.org/download/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3",
   "page": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
@@ -313,6 +348,13 @@
   "license": "Public domain",
   "artist": "murphy, lambert ; dixon, raymond ; janequin, clément ; carlino, william ; guillaume de machaut ; di stefano, stefano ; weckerlin, j.-b",
   "duration": 98.8
+ },
+ "archive:loc-jukebox-35668-l-ci-darem-la-mano/jukebox-35668_l-ci-darem-la-mano.mp3": {
+  "stream": "https://archive.org/download/loc-jukebox-35668-l-ci-darem-la-mano/jukebox-35668_l-ci-darem-la-mano.mp3",
+  "page": "https://archive.org/details/loc-jukebox-35668-l-ci-darem-la-mano",
+  "license": "Public domain",
+  "artist": "werrenrath, reinald ; garrison, mabel ; mozart, wolfgang amadeus ; pasternack, josef",
+  "duration": 191.97
  },
  "archive:lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01. 3rd Movement: Molto Adagio - Andante; 4th Movement: Alla Marcia, Assal Vivace.mp3": {
   "stream": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01.%203rd%20Movement%3A%20Molto%20Adagio%20-%20Andante%3B%204th%20Movement%3A%20Alla%20Marcia%2C%20Assal%20Vivace.mp3",
@@ -362,6 +404,27 @@
   "license": "",
   "artist": "Claude Debussy; Robert Schumann; Robert Casadesus",
   "duration": 164.23
+ },
+ "archive:lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.01. Psaume 24.mp3": {
+  "stream": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.01.%20Psaume%2024.mp3",
+  "page": "https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
+  "license": "",
+  "artist": "Lili Boulanger; Igor Markevitch; Orchestre Des Concerts Lamoureux; Choeurs Elisabeth Brasseur",
+  "duration": 210.14
+ },
+ "archive:lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.02. Psaume 129.mp3": {
+  "stream": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.02.%20Psaume%20129.mp3",
+  "page": "https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
+  "license": "",
+  "artist": "Lili Boulanger; Igor Markevitch; Orchestre Des Concerts Lamoureux; Choeurs Elisabeth Brasseur",
+  "duration": 368.54
+ },
+ "archive:lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.04. Pie Jesu.mp3": {
+  "stream": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/disc1/02.04.%20Pie%20Jesu.mp3",
+  "page": "https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
+  "license": "",
+  "artist": "Lili Boulanger; Igor Markevitch; Orchestre Des Concerts Lamoureux; Choeurs Elisabeth Brasseur",
+  "duration": 286.23
  },
  "archive:lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/01.04. Prelude To \"The Afternoon Of A Faun\".mp3": {
   "stream": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/01.04.%20Prelude%20To%20%22The%20Afternoon%20Of%20A%20Faun%22.mp3",
@@ -419,6 +482,20 @@
   "artist": "Igor Stravinsky; L'Orchestre De La Suisse Romande; Ernest Ansermet",
   "duration": 803.23
  },
+ "archive:lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/disc1/01.01. Schoenberg Verklaerte Nacht (Part 1).mp3": {
+  "stream": "https://archive.org/download/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/disc1/01.01.%20Schoenberg%20Verklaerte%20Nacht%20(Part%201).mp3",
+  "page": "https://archive.org/details/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet",
+  "license": "",
+  "artist": "The Hollywood String Quartet",
+  "duration": 883.22
+ },
+ "archive:lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/disc1/02.01. Schoenberg Verklaerte Nacht (Conclusion).mp3": {
+  "stream": "https://archive.org/download/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/disc1/02.01.%20Schoenberg%20Verklaerte%20Nacht%20(Conclusion).mp3",
+  "page": "https://archive.org/details/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet",
+  "license": "",
+  "artist": "The Hollywood String Quartet",
+  "duration": 828.75
+ },
  "archive:lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/disc1/01.01. Le Sacre Du Printemps (\"The Rite Of Spring\"): (Part I).mp3": {
   "stream": "https://archive.org/download/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/disc1/01.01.%20Le%20Sacre%20Du%20Printemps%20(%22The%20Rite%20Of%20Spring%22)%3A%20(Part%20I).mp3",
   "page": "https://archive.org/details/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0",
@@ -439,6 +516,34 @@
   "license": "",
   "artist": "Bruno Walter; Columbia Symphony Orchestra; Wolfgang Amadeus Mozart",
   "duration": 436.83
+ },
+ "archive:lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/01.01. Symphony No. 5 Op. 47: Moderato.mp3": {
+  "stream": "https://archive.org/download/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/01.01.%20Symphony%20No.%205%20Op.%2047%3A%20Moderato.mp3",
+  "page": "https://archive.org/details/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony",
+  "license": "",
+  "artist": "Dmitri Shostakovich; Philharmonic Symphony Of London; Artur Rodzinski",
+  "duration": 874.73
+ },
+ "archive:lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/01.02. Symphony No. 5 Op. 47: Allegretto.mp3": {
+  "stream": "https://archive.org/download/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/01.02.%20Symphony%20No.%205%20Op.%2047%3A%20Allegretto.mp3",
+  "page": "https://archive.org/details/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony",
+  "license": "",
+  "artist": "Dmitri Shostakovich; Philharmonic Symphony Of London; Artur Rodzinski",
+  "duration": 267.84
+ },
+ "archive:lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/02.01. Symphony No. 5 Op. 47: Largo.mp3": {
+  "stream": "https://archive.org/download/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/02.01.%20Symphony%20No.%205%20Op.%2047%3A%20Largo.mp3",
+  "page": "https://archive.org/details/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony",
+  "license": "",
+  "artist": "Dmitri Shostakovich; Philharmonic Symphony Of London; Artur Rodzinski",
+  "duration": 848.33
+ },
+ "archive:lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/02.02. Symphony No. 5 Op. 47: Allegro Non Troppo.mp3": {
+  "stream": "https://archive.org/download/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony/disc1/02.02.%20Symphony%20No.%205%20Op.%2047%3A%20Allegro%20Non%20Troppo.mp3",
+  "page": "https://archive.org/details/lp_symphony-no-5-opus-47_dmitri-shostakovich-philharmonic-symphony",
+  "license": "",
+  "artist": "Dmitri Shostakovich; Philharmonic Symphony Of London; Artur Rodzinski",
+  "duration": 489.63
  },
  "archive:Mozart.PianoConcertoNo.21/01 Allegro maestoso.mp3": {
   "stream": "https://archive.org/download/Mozart.PianoConcertoNo.21/01%20Allegro%20maestoso.mp3",
@@ -951,6 +1056,13 @@
   "artist": "Robin Alciatore",
   "duration": 183.58857142857144
  },
+ "File:Fauré - Requiem - I. Introït et Kyrie.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Faur%C3%A9_-_Requiem_-_I._Intro%C3%AFt_et_Kyrie.flac/Faur%C3%A9_-_Requiem_-_I._Intro%C3%AFt_et_Kyrie.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_I._Intro%C3%AFt_et_Kyrie.flac",
+  "license": "Public domain",
+  "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
+  "duration": 383
+ },
  "File:Fauré - Requiem - V. Agnus Dei.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac/Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac",
@@ -1028,6 +1140,41 @@
   "artist": "Hermann Scherchen, conductor; London Symphony Orchestra; London Philharmonic Choir; Margaret Ritchie, soprano; Constance Schacklock, contralto; William Herbert, tenor; Richard Standen, bass; Frederick Jackson, chorus master; Thomas Matthews, violin; George Eskdale, trumpet",
   "duration": 201.0165986394558
  },
+ "File:Handel's Water Music - 11. Allegro - Chamber Orchestra - United States Marine Band.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 125.181
+ },
+ "File:Handel's Water Music - 12. Alla hornpipe - Chamber Orchestra - United States Marine Band.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Handel%27s_Water_Music_-_12._Alla_hornpipe_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_12._Alla_hornpipe_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_12._Alla_hornpipe_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 228.661
+ },
+ "File:Handel's Water Music - 13. Minuet - Chamber Orchestra - United States Marine Band.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Handel%27s_Water_Music_-_13._Minuet_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_13._Minuet_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_13._Minuet_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 195.301
+ },
+ "File:Handel's Water Music - 14. Lentement - Chamber Orchestra - United States Marine Band.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Handel%27s_Water_Music_-_14._Lentement_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_14._Lentement_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_14._Lentement_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 135.581
+ },
+ "File:Handel's Water Music - 15. Bourree - Chamber Orchestra - United States Marine Band.opus": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Handel%27s_Water_Music_-_15._Bourree_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_15._Bourree_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_15._Bourree_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 75.721
+ },
  "File:Hankyung Arte Philharmonic - Mendelssohn's Violin Concerto in E minor, Op. 64, MWV O 14 - I. Allegro molto appassionato.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_I._Allegro_molto_appassionato.ogg/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_I._Allegro_molto_appassionato.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor,_Op._64,_MWV_O_14_-_I._Allegro_molto_appassionato.ogg",
@@ -1041,6 +1188,13 @@
   "license": "CC BY 3.0",
   "artist": "Hankyung Arte Philharmonic",
   "duration": 502.90270833333335
+ },
+ "File:Hankyung Arte Philharmonic - Mendelssohn's Violin Concerto in E minor, Op. 64, MWV O 14 - III. Allegretto non troppo-Allegro molto vivace.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_III._Allegretto_non_troppo-Allegro_molto_vivace.ogg/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_III._Allegretto_non_troppo-Allegro_molto_vivace.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor,_Op._64,_MWV_O_14_-_III._Allegretto_non_troppo-Allegro_molto_vivace.ogg",
+  "license": "CC BY 3.0",
+  "artist": "Hankyung Arte Philharmonic",
+  "duration": 398.97989583333333
  },
  "File:Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg.mp3",
@@ -1609,6 +1763,13 @@
   "artist": "Modest Petrovich Mussorgsky",
   "duration": 733.2
  },
+ "File:Modest Mussorgsky - pictures at an exhibition - cum mortuis in lingua mortua - andante non troppo, con lamento.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_cum_mortuis_in_lingua_mortua_-_andante_non_troppo%2C_con_lamento.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_cum_mortuis_in_lingua_mortua_-_andante_non_troppo%2C_con_lamento.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_cum_mortuis_in_lingua_mortua_-_andante_non_troppo,_con_lamento.ogg",
+  "license": "Public domain",
+  "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
+  "duration": 110.736
+ },
  "File:Modest Mussorgsky - pictures at an exhibition - i. gnomus - vivo.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_i._gnomus_-_vivo.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_i._gnomus_-_vivo.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_i._gnomus_-_vivo.ogg",
@@ -1630,6 +1791,20 @@
   "artist": "(See Musopen for author information)",
   "duration": 62.04
  },
+ "File:Modest Mussorgsky - pictures at an exhibition - iv. bydlo - sempre moderato, pesante.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iv._bydlo_-_sempre_moderato%2C_pesante.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iv._bydlo_-_sempre_moderato%2C_pesante.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iv._bydlo_-_sempre_moderato,_pesante.ogg",
+  "license": "Public domain",
+  "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
+  "duration": 139.008
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - ix. la cabane sur des pattes de poule - allegro con brio, feroce - andante mosso - allegro molto.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ix._la_cabane_sur_des_pattes_de_poule_-_allegro_con_brio%2C_feroce_-_andante_mosso_-_allegro_molto.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ix._la_cabane_sur_des_pattes_de_poule_-_allegro_con_brio%2C_feroce_-_andante_mosso_-_allegro_molto.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ix._la_cabane_sur_des_pattes_de_poule_-_allegro_con_brio,_feroce_-_andante_mosso_-_allegro_molto.ogg",
+  "license": "Public domain",
+  "artist": "Modest Petrovich Mussorgsky",
+  "duration": 212.136
+ },
  "File:Modest Mussorgsky - pictures at an exhibition - promenade - allegro giusto, nel modo russico senza allegrezza, ma.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto%2C_nel_modo_russico_senza_allegrezza%2C_ma.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto%2C_nel_modo_russico_senza_allegrezza%2C_ma.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto,_nel_modo_russico_senza_allegrezza,_ma.ogg",
@@ -1644,6 +1819,13 @@
   "artist": "Modest Petrovich Mussorgsky",
   "duration": 56.544
  },
+ "File:Modest Mussorgsky - pictures at an exhibition - promenade - moderato non tanto, pesante.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_non_tanto%2C_pesante.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_non_tanto%2C_pesante.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_non_tanto,_pesante.ogg",
+  "license": "Public domain",
+  "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
+  "duration": 30.096
+ },
  "File:Modest Mussorgsky - pictures at an exhibition - promenade - tranquillo.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_tranquillo.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_tranquillo.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_tranquillo.ogg",
@@ -1651,12 +1833,40 @@
   "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
   "duration": 40.776
  },
+ "File:Modest Mussorgsky - pictures at an exhibition - v. ballet des poussins dans leurs coques - scherzino. vivo leggiero.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_v._ballet_des_poussins_dans_leurs_coques_-_scherzino._vivo_leggiero.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_v._ballet_des_poussins_dans_leurs_coques_-_scherzino._vivo_leggiero.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_v._ballet_des_poussins_dans_leurs_coques_-_scherzino._vivo_leggiero.ogg",
+  "license": "Public domain",
+  "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
+  "duration": 78.144
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - vi. samuel goldenberg and schmuyle - andante.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vi._samuel_goldenberg_and_schmuyle_-_andante.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vi._samuel_goldenberg_and_schmuyle_-_andante.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vi._samuel_goldenberg_and_schmuyle_-_andante.ogg",
+  "license": "Public domain",
+  "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
+  "duration": 128.352
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - vii. limoges. le marche - allegretto vivo, sempre scherzando.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vii._limoges._le_marche_-_allegretto_vivo%2C_sempre_scherzando.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vii._limoges._le_marche_-_allegretto_vivo%2C_sempre_scherzando.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vii._limoges._le_marche_-_allegretto_vivo,_sempre_scherzando.ogg",
+  "license": "Public domain",
+  "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
+  "duration": 99.96
+ },
  "File:Modest Mussorgsky - pictures at an exhibition - viii. catacombae. sepulcrum romanum - largo.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_viii._catacombae._sepulcrum_romanum_-_largo.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_viii._catacombae._sepulcrum_romanum_-_largo.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_viii._catacombae._sepulcrum_romanum_-_largo.ogg",
   "license": "Public domain",
   "artist": "Modest Mussorgsky (1839-1881) (see Musopen for performance author information)",
   "duration": 113.184
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - x. la grande porte de kiev - allegro alla breve. maestoso. con grandezza.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg",
+  "license": "Public domain",
+  "artist": "Modest Petrovich Mussorgsky",
+  "duration": 328.2
  },
  "File:Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac.mp3",
@@ -2141,6 +2351,27 @@
   "artist": "Carl Flisch",
   "duration": 283.370375
  },
+ "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - I. Vivace.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_I._Vivace.ogg/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_I._Vivace.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major,_Op._54,_No._2,_Hob.III-57_-_I._Vivace.ogg",
+  "license": "CC BY 3.0",
+  "artist": "The Danish String Quartet",
+  "duration": 263.23941666666667
+ },
+ "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - II. Adagio.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_II._Adagio.ogg/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_II._Adagio.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major,_Op._54,_No._2,_Hob.III-57_-_II._Adagio.ogg",
+  "license": "CC BY 3.0",
+  "artist": "The Danish String Quartet",
+  "duration": 187.7815
+ },
+ "File:The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - III. Minuet allegretto-Trio.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_III._Minuet_allegretto-Trio.ogg/The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major%2C_Op._54%2C_No._2%2C_Hob.III-57_-_III._Minuet_allegretto-Trio.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Danish_String_Quartet_-_Haydn%27s_String_Quartet_No._42_in_C_major,_Op._54,_No._2,_Hob.III-57_-_III._Minuet_allegretto-Trio.ogg",
+  "license": "CC BY 3.0",
+  "artist": "The Danish String Quartet",
+  "duration": 199.58020833333333
+ },
  "File:The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring,_RV_269_-_I._Allegro.ogg",
@@ -2239,11 +2470,25 @@
   "artist": "Composition: Pyotr Ilyich Tchaikovsky; Arrangement: Lawrence Odom; Performance: United States Air Force Band, Concert Band; Recording: United States Air Force",
   "duration": 450.2258
  },
+ "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 1. Allegro.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_1._Allegro.ogg/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_1._Allegro.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_1._Allegro.ogg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Wolfgang Amadeus Mozart",
+  "duration": 746.0693424036281
+ },
  "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg",
   "license": "CC BY-SA 2.0",
   "artist": "Wolfgang Amadeus Mozart",
   "duration": 452.7887301587302
+ },
+ "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 3. Allegro.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_3._Allegro.ogg/Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_3._Allegro.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_3._Allegro.ogg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Wolfgang Amadeus Mozart",
+  "duration": 531.3789569160998
  }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "faure-requiem-sanctus",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "orchestra.timeline at 24/78 seconds; into-pleni cello-entry wording",
+      "severity": "major",
+      "problem": "[EXT] Cellos already participate in the early answers, alongside the violins, on pages 46–51. They do not first enter at letter C/page 52. The current map leaves them inactive until 78 seconds, and the Pleni join calls that their beginning.",
+      "evidence": "Independently viewed Hamelle/Kalmus full score, pages 45–53, especially the cello notes under the men’s first answer on page 46: https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf .",
+      "fix": "Include cellos in the earlier answering passage, using the same broad region as the early violin/men’s-answer state. At Pleni describe their sustained support, not a first cello entry. No note-exact timing is required."
+    },
+    {
+      "where": "96-second Angelic violins cue",
+      "severity": "minor",
+      "problem": "[EXT] The Pleni/Gloria passage is not exclusively soprano throughout: page 53 gives Gloria tua to the men while the violin line continues. The contextual violin anecdote is sound, but its attached soprano-only claim is too narrow for this stretch.",
+      "evidence": "Same independently viewed score, pages 52–53: soprano Pleni on page 52, male Gloria response on page 53.",
+      "fix": "Remove the soprano-only clause from this cue, retaining the verified soft violin line above the harp and the attributed Ysaÿe anecdote."
+    }
+  ]
+}

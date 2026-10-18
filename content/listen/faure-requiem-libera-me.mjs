@@ -118,9 +118,10 @@ export default {
       { t: 96, playing: ['horns', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['horns', 'chorus'], note: 'Fortissimo horn chords break in at the Più mosso.' },
       { t: 110, playing: ['horns', 'trombones', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus', 'horns', 'trombones'], note: 'Trombones join the horns, choir and strings in the fortissimo Dies irae.' },
       { t: 140, playing: ['horns', 'trombones', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'The choir sings Requiem aeternam piano and dolce; horns and trombones drop to piano.' },
-      { t: 172, playing: ['horns', 'timpani', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus', 'timpani'], note: 'The choir sings the opening melody in unison over pizzicato strings and repeated timpani notes.' },
+      { t: 172, playing: ['timpani', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus', 'timpani'], note: 'The choir sings the opening melody in unison over pizzicato strings; the timpani take the ostinato rhythm.' },
+      { t: 196, playing: ['horns', 'trombones', 'timpani', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'Horns and trombones add sustained chords, pianissimo, as the choir sings on above repeated strings.' },
       { t: 216, playing: ['horns', 'trombones', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['chorus'], note: 'Horns and trombones sustain under the crescendo on Quando caeli movendi.' },
-      { t: 254, playing: ['chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['solo-voice', 'chorus'], note: 'The baritone sings alone over repeated pianissimo chords; the choir answers and the strings end on a held chord.' },
+      { t: 254, playing: ['timpani', 'chorus', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'organ'], lead: ['solo-voice', 'chorus'], note: 'The baritone sings alone over repeated pianissimo chords, with a soft timpani rhythm; the choir answers and the strings end on a held chord.' },
     ],
   },
 };

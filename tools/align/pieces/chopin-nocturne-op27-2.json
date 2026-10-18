@@ -65,11 +65,19 @@
       4
     ],
     "last": [
-      358,
-      364
+      364.4,
+      365.1
     ],
-    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+    "basis": "The opening D-flat2 occurs near 0.84 s. Inspected final source-pitch evidence places the actual last D-flat3/F4/D-flat5 chord near 364.7 s, after the preceding A-flat chord near 360.5 s; the earlier broad window incorrectly selected a preceding event despite passing numerical gates."
   },
+  "anchors": [
+    {
+      "scoreQ": 177,
+      "window": [267.85, 268.25],
+      "label": "bar-60-low-A-flat-chord",
+      "basis": "The source A-flat1/A-flat3/D-flat4/E-flat4 chord has a clear pitch rise near 268 s immediately before the ascending right-hand run. The unconstrained candidate placed this chord and run approximately one second late. This is an inspected source-pitch constraint, not independent or aural validation."
+    }
+  ],
   "boundaries": [],
   "engraving": {
     "staff": 18,

@@ -91,13 +91,16 @@ export default {
     source: {
       title: 'Fauré, Requiem, Op. 48, full orchestral score (Hamelle, 1901; Kalmus reprint)',
       url: 'https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf',
-      locator: 'IV. Pie Jesu, printed pp. 61–69. The strings are marked “Sourdines” (muted). Entries are set from the page layout and the report’s boundaries; the chorus staves are empty throughout.',
+      locator: 'IV. Pie Jesu, printed pp. 61–69. The strings are marked “Sourdines” (muted). The chorus, trumpet, trombone and timpani staves are empty throughout. Entries are set from the page layout and the report’s boundaries, so an instrument that plays in only part of a span is listed for the whole span.',
     },
     timeline: [
       { t: 0, playing: ['organ', 'solo-voice'], lead: ['solo-voice'], note: 'The boy soprano sings over a solo organ stop; the muted strings, harp and winds rest.' },
       { t: 33, playing: ['flutes', 'clarinets', 'bassoons', 'harp', 'organ', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-voice'], note: 'Muted strings, harp and woodwind add pianissimo chords beneath the soprano and organ.' },
-      { t: 128, playing: ['flutes', 'clarinets', 'bassoons', 'harp', 'organ', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-voice', 'flutes', 'clarinets', 'bassoons'], note: 'The opening melody returns with solo woodwind marked dolce beside the soprano.' },
-      { t: 154, playing: ['flutes', 'clarinets', 'bassoons', 'harp', 'organ', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-voice'], note: 'The plea sinks to a lower two-note figure over a pianissimo harp, with a poco ritenuto at the end.' },
+      { t: 48, playing: ['organ', 'solo-voice'], lead: ['solo-voice'], note: 'The second call is sung over the organ alone.' },
+      { t: 70, playing: ['flutes', 'clarinets', 'bassoons', 'harp', 'organ', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-voice'], note: 'Woodwind, harp and muted strings again add pianissimo figures before letter B.' },
+      { t: 82, playing: ['organ', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-voice'], note: 'The soprano’s “dona eis” and two-note plea are carried by muted strings and organ.' },
+      { t: 128, playing: ['flutes', 'clarinets', 'bassoons', 'organ', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-voice', 'flutes', 'clarinets', 'bassoons'], note: 'The opening melody returns with solo woodwind marked dolce beside the soprano.' },
+      { t: 154, playing: ['harp', 'organ', 'solo-voice', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-voice'], note: 'The plea sinks to a lower two-note figure over a pianissimo harp, with a poco ritenuto at the end.' },
     ],
   },
 };

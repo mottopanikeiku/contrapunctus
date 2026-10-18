@@ -5,8 +5,8 @@ const rendition = (image, width) => width === image.w ? image.src : image.src.re
 function srcset(image, base, format) {
   return widths(image).map((width) => `${base}${rendition(image, width).replace(/\.webp$/, `.${format}`)} ${width}w`).join(', ');
 }
-function wrap(image, base, sizes, img) {
-  return `<picture style="display:contents"><source type="image/avif" srcset="${srcset(image, base, 'avif')}" sizes="${escape(sizes)}"><source type="image/webp" srcset="${srcset(image, base, 'webp')}" sizes="${escape(sizes)}">${img}</picture>`;
+function wrap(image, base, sizes, img, avif = true) {
+  return `<picture style="display:contents">${avif ? `<source type="image/avif" srcset="${srcset(image, base, 'avif')}" sizes="${escape(sizes)}">` : ''}<source type="image/webp" srcset="${srcset(image, base, 'webp')}" sizes="${escape(sizes)}">${img}</picture>`;
 }
 export function picture(image, base, alt, { cls = '', sizes = '(max-width: 860px) 100vw, 50vw', eager = false, thumb = false } = {}) {
   const src = rendition(image, thumb ? widths(image)[0] : image.w);
@@ -15,7 +15,7 @@ export function picture(image, base, alt, { cls = '', sizes = '(max-width: 860px
 }
 // Some independent page generators emit literal images instead of img().
 // Upgrade those at publication without changing their source or CSS geometry.
-export function pictureHTML(html, relative, art) {
+export function pictureHTML(html, relative, art, formats) {
   const lookup = new Map();
   for (const image of Object.values(art)) {
     lookup.set(image.src, image);
@@ -23,6 +23,15 @@ export function pictureHTML(html, relative, art) {
   }
   const edits = [], doc = parse(html, { sourceCodeLocationInfo: true });
   function visit(node) {
+    if (node.tagName === 'source' && node.attrs.some(({ name, value }) => name === 'type' && value === 'image/avif')) {
+      const value = node.attrs.find(({ name }) => name === 'srcset' || name === 'data-srcset')?.value;
+      if (value) {
+        const first = value.trim().split(/\s+/)[0];
+        const url = new URL(first.replace(/^\/contrapunctus\//, '/'), `https://build.invalid/${relative}`);
+        const image = lookup.get(url.pathname.slice(1).replace(/\.avif$/, '.webp'));
+        if (image && !formats[image.src]) edits.push({ start: node.sourceCodeLocation.startOffset, end: node.sourceCodeLocation.endOffset, value: '' });
+      }
+    }
     if (node.tagName === 'img' && node.parentNode?.tagName !== 'picture') {
       const attributes = Object.fromEntries(node.attrs.map(({ name, value }) => [name, value]));
       if (attributes.src && !/^(?:[a-z]+:|\/\/)/i.test(attributes.src)) {
@@ -39,7 +48,7 @@ export function pictureHTML(html, relative, art) {
           if (!attributes.decoding) extra += ' decoding="async"';
           if (!attributes.loading && attributes.fetchpriority !== 'high') extra += ' loading="lazy"';
           img = img.replace(/\s*\/?>$/, `${extra}>`);
-          edits.push({ start: location.startOffset, end: location.endOffset, value: wrap(image, base, sizes, img) });
+          edits.push({ start: location.startOffset, end: location.endOffset, value: wrap(image, base, sizes, img, formats[image.src]) });
         }
       }
     }

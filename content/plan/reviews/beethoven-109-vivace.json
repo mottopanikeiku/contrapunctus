@@ -1,0 +1,20 @@
+{
+  "id": "beethoven-109-vivace",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "sections[2–3]; cues[4]; cues[6–7]; transitions[1–2]",
+      "severity": "major",
+      "problem": "EXT: The recapitulation brings back Vivace material before the second Adagio, not Adagio first; the same-session source review locates the later quiet opening-material return around 3:00. MEAS: The report places G/C-centred windows after the 2:12 boundary and its minimum at 2:55. INFERENCE: The 2:12 change is compatible with the second Adagio’s C-major outburst, not proof of restored Vivace; calling 2:24 the bar-66 coda misplaces the later narrative. A level boundary alone cannot establish tempo or form.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/5/51/IMSLP51804-PMLP01487-Beethoven_Werke_Breitkopf_Serie_16_No_153_Op_109.pdf — PDF pp. 4–6, printed 98–100: Vivace development/reprise before Adagio, then Tempo primo on printed 100. https://geraldlarner.com/work/beethoven-sonata-in-e-major-op-109 — first-theme tonic return on a crescendo before the Adagio reprise. https://musicweb-international.com/classrev/2005/Mar05/Beethoven_schnable9_8110763.htm — quiet opening-material return around 3:00 in Schnabel’s 1932 Op. 109. cache/analysis/beethoven-109-vivace.txt: 2:12 boundary, G/C-centred windows at 2:15–2:20, quietest window 2:55, renewed attacks at 3:00.",
+      "fix": "Correct the order to Vivace recapitulation, returning Adagio, then the Tempo-primo/coda continuation. Re-anchor affected section/cue/transition markers to the actual passages rather than interpreting every large level change as Adagio or Tempo primo; the later quiet return is around 3:00, corroborated by the review and the report’s 2:55–3:00 change. Do not invent exact bar times. If a join remains unresolved, use an explicitly broad score-supported passage and truthful report anchor. Also distinguish several loud windows from an exclusive ranking, and locate the actual 2:55 minimum accurately."
+    },
+    {
+      "where": "cues[9]; transitions[2].how (pedalled join claim)",
+      "severity": "minor",
+      "problem": "EXT: The cited Breitkopf ending has a fermata and pedal-release asterisk; Wikipedia discusses linked performances. MEAS: This is a separate audio file. INFERENCE: Neither establishes a composer-mandated pedal held into the Prestissimo or demonstrates a sustained pedal across this recording’s track join.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/5/51/IMSLP51804-PMLP01487-Beethoven_Werke_Breitkopf_Serie_16_No_153_Op_109.pdf — printed p. 100, final held chord and pedal-release sign. https://en.wikipedia.org/wiki/Piano_Sonata_No._30_(Beethoven) — general discussion of performers linking the first two movements. cache/analysis/beethoven-109-vivace.txt: file ends at 230.7 s.",
+      "fix": "Describe the often-linked performance practice as such, rather than claiming that Beethoven prescribes a pedal held into the following movement or that the recording proves it. Keep the distinction between the quiet ending in this file and the separately supplied Prestissimo."
+    }
+  ]
+}

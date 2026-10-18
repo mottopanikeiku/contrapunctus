@@ -66,7 +66,8 @@ async function engrave(id, options) {
   await stat(path.join(ROOT, 'content/listen', `${id}.mjs`));
   const cfg = { staff: 18, width: 230, height: 297, ...piece.engraving };
   if (!options.prepared) {
-    const preparation = piece.source.legacyRelative || piece.source.patches?.length ? 'score_events.py' : 'prepare.py';
+    const preparation = piece.source.legacyRelative || piece.source.patches?.length || piece.extraction.notationProof
+      ? 'score_events.py' : 'prepare.py';
     await run(PYTHON, [path.join(ROOT, 'tools/align', preparation), id], { maxBuffer: 1 << 26 });
   }
   const work = path.join(ROOT, 'cache/engrave', id);

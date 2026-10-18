@@ -11,6 +11,20 @@
     "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
     "main": "SchumannOp15No07.ly",
     "midi": "SchumannOp15No07.mid",
+    "patches": [
+      {
+        "file": "SchumannOp15No07.ly",
+        "old": "\\repeat volta 1",
+        "new": "\\bar \".|:\"",
+        "basis": "Make the immutable source's opening-strain repeat marker visible after its initial pickup; LilyPond 2.24 suppresses count-one volta signs. No note, skip, or performed repeat is added."
+      },
+      {
+        "file": "SchumannOp15No07.ly",
+        "old": "s1 s1 s1 s1 } s1",
+        "new": "s1 s1 s1 s1 } \\bar \":|.\" s1",
+        "basis": "Restore the already-encoded repeat ending after bar 8, retaining the original following bar, canonical note durations and all source pitches/onsets."
+      }
+    ],
     "downloads": [
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.ly",
@@ -25,7 +39,10 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "compiled-midi",
+    "definitions": [{"file": "SchumannOp15No07.ly", "before": "\\score"}],
+    "comparePublished": {},
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\key f \\major \\time 4/4 \\repeattr \\tempotr \\viola \\violatwo \\oboes >> \\new Dynamics = \"dynamics\" \\dynamictr \\new Staff = \"down\" << \\clef bass \\key f \\major \\time 4/4 \\oboestwo \\bassvoicestwo \\bassvoices >> \\new Dynamics = \"pedal\" \\pedaltr >>"
   },
   "voices": [
     {
@@ -113,10 +130,12 @@
   "engraving": {
     "staff": 18,
     "width": 230,
-    "height": 297
+    "height": 297,
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\key f \\major \\time 4/4 \\repeattr \\tempotr \\viola \\violatwo \\oboes >> \\new Dynamics = \"dynamics\" \\dynamictr \\new Staff = \"down\" << \\clef bass \\key f \\major \\time 4/4 \\oboestwo \\bassvoicestwo \\bassvoices >> \\new Dynamics = \"pedal\" \\pedaltr >>"
   },
   "provenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/schumann-kinderszenen-traumerei.mjs and cache/analysis/schumann-kinderszenen-traumerei.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Read content/listen/schumann-kinderszenen-traumerei.mjs and cache/analysis/schumann-kinderszenen-traumerei.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Two guarded notation-only compatibility patches restore the immutable source's suppressed count-one repeat signs. Identical compiled/engraved wrappers and exact published pitch/onset multiset proof preserve all canonical notes, the pickup and the already configured performed order."
   ]
 }

@@ -28,7 +28,7 @@ export default {
     { t: 64, kind: 'music', title: 'The same pattern, wider phrases', text: 'Soon after a minute the soprano phrase stretches over a wider range, and the men’s answers follow. The harp keeps the same figure underneath, so the music grows through the voices alone.', basis: 'score-proportion', precision: 'passage', evidence: 'The report finds boundaries at 1:02 (0.87) and 1:14 (0.87), with level steady around −17 to −20 dB across both. Pages 48–51 of the score continue the harp and viola pattern under longer vocal phrases; Wikipedia’s description notes melodies increasing in range.' },
     { t: 96, kind: 'world', title: 'Angelic violins', text: 'Fauré is reported to have remarked to the violinist Eugène Ysaÿe on the “angelic” violins of the Sanctus in the full-orchestral version. In this stretch the violins add a soft line above the harp while the sopranos sing alone.', basis: 'documented', precision: 'passage', evidence: 'The Versions section of the Wikipedia article on the Requiem reports the remark to Ysaÿe, citing Jean-Michel Nectoux’s Fauré (1991). Page 52 of the score shows the sopranos alone over the harp with divided violins; the boundary at 1:14 supports a change of texture.' },
     { t: 116, kind: 'music', title: 'The only fanfare', text: 'The harp’s rocking figure gives way to firm major chords, and horns and trumpets sound a forte fanfare as the men sing “Hosanna in excelsis”. This is the movement’s only loud passage, strongest from about 1:55 to 2:15.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level rises from −16.4 dB at 1:50 to −7.3 dB at 1:55 and −3.6 dB at 2:05, with the report’s strongest boundary at 1:58 (1.00). Pages 55–57 of the score show block chords in harp and strings and three brass staves (horns and trumpets) marked f; Wikipedia’s description names the horn fanfare.' },
-    { t: 146, kind: 'music', title: 'The harp comes back', text: 'The brass fall silent and the level subsides. The harp returns to its first arpeggios while a violin melody floats upward. The full choir then sings “Sanctus” again, helped by the organ, with the altos finally joining.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level falls from −12.9 dB at 2:20 to −16.9 dB at 2:25 and −21.7 dB at 2:35, with a boundary at 2:22 (0.56). Pages 58–60 of the score return to the harp figure and the violin line; Wikipedia’s description gives the choir’s repeated “Sanctus” with the organ and the altos.' },
+    { t: 146, kind: 'music', title: 'The harp comes back', text: 'The fanfare sinks to pianissimo and the brass then fall silent as the level subsides. The harp returns to its first arpeggios while a violin melody floats upward. The full choir sings “Sanctus” again, helped by the organ, with the altos finally joining.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level falls from −12.9 dB at 2:20 to −16.9 dB at 2:25 and −21.7 dB at 2:35, with a boundary at 2:22 (0.56). Pages 57–60 of the score show the horns and trumpets marked dim. and pp on pages 57–58, the harp figure and violin line returning on pages 58–59 and the choir’s closing “Sanctus”; Wikipedia’s description gives the repeated “Sanctus” with the organ and the altos.' },
     { t: 172, kind: 'world', title: 'Who scored it?', text: 'Hamelle published the full score in 1901 with a vocal score edited by Fauré’s pupil Jean Roger-Ducasse. Some critics suspect Roger-Ducasse of the orchestration; others doubt it, and the 1900 autograph does not survive.', basis: 'documented', precision: 'passage', evidence: 'The Final version section of the Wikipedia article on the Requiem gives the 1901 publication, the vocal score by Roger-Ducasse, the critics’ speculation on both sides and the loss of the autograph.' },
   ],
   transitions: [
@@ -73,12 +73,12 @@ export default {
     },
     {
       id: 'into-return',
-      title: 'The brass withdraw; the harp returns',
+      title: 'The fanfare sinks; the harp returns',
       from: 'Hosanna in excelsis',
       to: 'Sanctus returns',
       at: { t: 142 },
       span: [130, 160],
-      how: '<p>The fanfare dies away as the sopranos answer “Hosanna” in diminuendo. The horns and trumpets drop out, the harp returns to its opening arpeggios, and a violin melody floats upward over them. The full choir then sings “Sanctus” again, helped by the organ, with the altos finally joining. The movement ends as it began, with harp and strings, and with the fanfare withdrawn.</p>',
+      how: '<p>The fanfare dies away as the sopranos answer “Hosanna” in diminuendo. The horns and trumpets sink to pianissimo and fall silent by the next page, the harp returns to its opening arpeggios, and a violin melody floats upward over them. The full choir then sings “Sanctus” again, helped by the organ, with the altos finally joining. The movement ends as it began, with harp and strings, and with the fanfare withdrawn.</p>',
       devices: ['decrescendo', 'orchestration change', 'motivic link'],
       basis: 'audio-feature',
       precision: 'passage',
@@ -91,7 +91,7 @@ export default {
     source: {
       title: 'Fauré, Requiem, Op. 48, full orchestral score (Hamelle, 1901; Kalmus reprint)',
       url: 'https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf',
-      locator: 'III. Sanctus, printed pp. 45–60. Entries are set from the page layout and the report’s boundaries; the double bass part and the few wind notes at the diminuendo are not tracked.',
+      locator: 'III. Sanctus, printed pp. 45–60. The flute, clarinet, bassoon, trombone and timpani staves are empty; the double bass part is not tracked. Entries are set from the page layout and the report’s boundaries, so an instrument that plays in only part of a span is listed for the whole span.',
     },
     timeline: [
       { t: 0, playing: ['harp', 'violas', 'organ'], lead: ['harp', 'violas'], note: 'Harp arpeggios and two viola lines over a sustained organ chord.' },
@@ -99,8 +99,9 @@ export default {
       { t: 24, playing: ['harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'organ'], lead: ['chorus'], note: 'The violins enter pianissimo above the harp and violas.' },
       { t: 78, playing: ['harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'cellos', 'organ'], lead: ['chorus', 'violins-1', 'violins-2'], note: 'The sopranos sing alone over harp, divided violins and sustained cellos.' },
       { t: 124, playing: ['horns', 'trumpets', 'harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'cellos', 'organ'], lead: ['horns', 'trumpets', 'chorus'], note: 'Horns and trumpets sound a forte fanfare over block chords as the men sing Hosanna.' },
-      { t: 142, playing: ['harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'cellos', 'organ'], lead: ['violins-1', 'violins-2'], note: 'The brass withdraw; the harp arpeggios return and a violin melody floats upward.' },
-      { t: 166, playing: ['harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'cellos', 'organ'], lead: ['chorus'], note: 'The choir repeats Sanctus with the organ and the altos; harp and strings sustain to the final chord.' },
+      { t: 142, playing: ['horns', 'trumpets', 'harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'cellos', 'organ'], lead: ['chorus'], note: 'The fanfare sinks to pianissimo as the sopranos answer Hosanna; the harp arpeggios begin to return.' },
+      { t: 160, playing: ['harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'cellos', 'organ'], lead: ['violins-1', 'violins-2'], note: 'The brass are silent; a violin melody floats upward over the harp arpeggios.' },
+      { t: 170, playing: ['harp', 'chorus', 'violins-1', 'violins-2', 'violas', 'cellos', 'organ'], lead: ['chorus'], note: 'The choir repeats Sanctus with the organ and the altos; harp and strings sustain to the final chord.' },
     ],
   },
 };

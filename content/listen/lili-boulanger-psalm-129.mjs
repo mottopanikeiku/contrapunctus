@@ -98,7 +98,7 @@ export default {
       "t": 175,
       "kind": "world",
       "title": "Performed after her death",
-      "text": "The work reached the public after Boulanger’s death. The scholarly preface records its 1921 performance at the Salle Pleyel under Henri Büsser; the 1960 Everest session belongs to a later chapter in its reception.",
+      "text": "The work reached the public after Boulanger’s death. The scholarly preface records its 1921 performance at the Salle Pleyel under Henri Büsser; the Everest recording issued in 1960 belongs to a later chapter in its reception.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Helen Julia Minors, 2011 preface, performance history. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"

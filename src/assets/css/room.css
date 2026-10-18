@@ -224,8 +224,10 @@ body.waiting .backdrop img { filter: blur(0) brightness(.5) saturate(.95); trans
    the joins between sections, how-we-know, the recording dossier.
    ========================================================================== */
 .views { display: flex; gap: .3rem; align-items: center; justify-self: start; padding: .2rem; border: 1px solid var(--rule); border-radius: 999px; background: rgba(13, 11, 9, .5); }
-.views:empty { display: none; }
-.views button { padding: .38rem 1rem .42rem; border-radius: 999px; font: 600 .74rem var(--caps); letter-spacing: .18em; text-transform: lowercase; font-variant: small-caps; color: var(--muted); transition: color .3s, background .3s; }
+/* Reserve the real tab line while its recording metadata loads, including hash deep links. */
+.views:empty { visibility: hidden; }
+.views:empty::before { content: '\00a0'; }
+.views button, .views:empty::before { padding: .38rem 1rem .42rem; border-radius: 999px; font: 600 .74rem var(--caps); letter-spacing: .18em; text-transform: lowercase; font-variant: small-caps; color: var(--muted); transition: color .3s, background .3s; }
 .views button:hover { color: var(--ink); }
 .views button[aria-selected='true'] { color: var(--night); background: linear-gradient(180deg, var(--gold-hi), var(--gold)); box-shadow: 0 0 18px -4px rgba(233, 207, 140, .6); }
 

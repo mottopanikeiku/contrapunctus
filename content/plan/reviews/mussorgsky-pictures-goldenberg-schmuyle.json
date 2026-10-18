@@ -1,13 +1,5 @@
 {
   "id": "mussorgsky-pictures-goldenberg-schmuyle",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "world cue at 54 seconds",
-      "severity": "minor",
-      "problem": "[EXT] The cited accounts conflict about the title’s origin. Steinberg says the manuscript was untitled and the names came later, while the cited Wikipedia account explicitly says the personal names occur in Mussorgsky’s original manuscript. The current cue silently presents only the first account as settled fact.",
-      "evidence": "Both opened: https://www.bso.org/works/pictures-at-an-exhibition (Goldenberg section) and https://en.wikipedia.org/wiki/Pictures_at_an_Exhibition (movement 6). The linked autograph PDF could not yet be opened, so it is not used as proof here.",
-      "fix": "Remove the unqualified manuscript/title-origin sentence, retaining the verified two Hartmann portraits, ownership and Sandomierz context; or replace it with an explicitly sourced correction if the autograph can be inspected. Do not present conflicting secondary title histories as settled."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

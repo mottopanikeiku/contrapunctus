@@ -56,7 +56,7 @@ export default {
       "t": 35,
       "kind": "life",
       "title": "A Roman score",
-      "text": "The final page dates the work “Rome 1916.” This belongs to Boulanger’s second stay at the Villa Medici, after her 1913 Prix de Rome success; it is not a score written for this 1960 recording.",
+      "text": "The final page dates the work “Rome 1916.” This belongs to Boulanger’s second stay at the Villa Medici, after her 1913 Prix de Rome success; it is not a score written for the Everest album issued in 1960.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Printed p. 18 and scholarly preface: https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf"

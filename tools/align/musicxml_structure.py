@@ -44,9 +44,12 @@ def share_endings(xml, master_id):
     numbers = [m.get('number') for m in master_measures]
     if len(set(numbers)) != len(numbers):
         raise ValueError('Shared endings require unique measure numbers in the selected movement')
+    if not any(ending_signature(m) for m in master_measures):
+        raise ValueError('Shared ending master contains no ending annotations')
+    repeats = repeat_signature(master)
     for part in parts:
         measures = part.findall('measure')
-        if [m.get('number') for m in measures] != numbers or repeat_signature(part) != repeat_signature(master):
+        if [m.get('number') for m in measures] != numbers or repeat_signature(part) != repeats:
             raise ValueError('Shared endings require identical measure order and repeat barlines in every part')
         for source, target in zip(master_measures, measures):
             expected, actual = ending_signature(source), ending_signature(target)

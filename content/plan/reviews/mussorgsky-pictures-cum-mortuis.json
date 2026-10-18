@@ -1,20 +1,5 @@
 {
   "id": "mussorgsky-pictures-cum-mortuis",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "intro; cues[0]; transitions[0]",
-      "severity": "major",
-      "problem": "[EXT] The score does not have one unchanging F♯ underneath the theme throughout. The opening upper-register tremolo changes pitch chromatically after its initial F♯; a fixed high F♯ tremolo becomes the later backdrop. Pitch-class presence in every five-second window cannot establish either a continuously held note or its register.",
-      "evidence": "Opened Lamm/Mutopia promenade-6.ly: upper tremolo changes through E♯, E, D, B, A♯, A, G♯ and other notes before the later repeated F♯ backdrop; the Promenade is largely below it. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-6.ly .",
-      "fix": "Replace the whole-movement, lower-F♯-pedal account with the score’s actual layout: changing upper tremolo in the opening, and a later high F♯ backdrop/inverted pedal. Do not infer an uninterrupted bass pedal from top pitch-class counts. The 0:58 loudness anchor can remain for a broad later-texture discussion."
-    },
-    {
-      "where": "final listen cue at 102 seconds",
-      "severity": "major",
-      "problem": "[EXT] The claim that the lament ends not on a close but on a fading line misses the explicit B-major tonic conclusion. A quiet dynamic ending is not the absence of harmonic closure.",
-      "evidence": "The same opened score ends on B–D♯–F♯ chords in both parts, with a fermata: https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-6.ly .",
-      "fix": "Keep the measured final swell and decay, but describe the quiet B-major close rather than denying closure. A broad closing-region cue is sufficient; no note-exact timestamp is needed."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

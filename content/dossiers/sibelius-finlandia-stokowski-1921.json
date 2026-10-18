@@ -6,9 +6,9 @@
     "movement": "Abridged for one 12-inch single-faced side",
     "version": {
       "value": "Abridged orchestral version; which passages are omitted is not documented",
-      "status": "documented",
+      "status": "inferred",
       "sourceIds": ["dahr-matrix", "ia-item"],
-      "note": "The file lasts 4:06 against a typical performance of 7½–9 minutes (Wikipedia), and the disc is a single 12-inch side. DAHR and the Internet Archive do not describe the cut. This dossier does not locate cut bars."
+      "note": "The abridgement is inferred from the file’s length, 4:06, against a typical performance of 7½–9 minutes (Wikipedia), and from the disc being a single 12-inch side. DAHR and the Internet Archive do not describe the cut, and neither names an edition or cut scheme. This dossier does not locate cut bars."
     }
   },
   "performers": {

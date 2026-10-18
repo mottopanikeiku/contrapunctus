@@ -1,17 +1,25 @@
 {
   "id": "schumann-kinderszenen-foreign-lands",
-  "verdict": "pass",
+  "verdict": "fix",
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, source/report, bar-anchored cue and visual review; not aural review.",
-  "defects": [],
+  "defects": [
+    {
+      "id": "suppressed-binary-repeat-signs",
+      "basis": "MEAS",
+      "location": "docs/assets/data/schumann-kinderszenen-foreign-lands/sheet/p1.svg; immutable SchumannOp15No01.ly repeattr",
+      "finding": "Targeted inspection after the Important Event finding confirms that this page also lacks the source-encoded binary repeat signs. Both spacer-voice repeat-volta-count-1 wrappers are suppressed by modern engraving, although the performed map repeats 1–8 and 9–22.",
+      "requiredFix": "Restore the original repeat boundaries with a guarded notation-only compatibility repair: closing first-strain repeat after 8, second-strain start at 9 and closing repeat after 22 (plus the initial delimiter where appropriate). Preserve all 444 performed notes, both source MIDI tracks, 22 written bar identities, four resolving listen pointers and exact 1–8 twice / 9–22 twice traversal. Re-publish and document the legacy visibility repair; inspect the actual restored marks, not only index.json coverage."
+    }
+  ],
   "resolution": {
     "basis": "MEAS",
-    "finding": "The listening owner qualified the bar-15 return as beginning on D5 rather than the original B4, with the remaining top line following the opening, and made the intro consistent. The initial caller finding is resolved without changing the passing score."
+    "finding": "The listening owner qualified the bar-15 return as beginning on D5 rather than the original B4, with the remaining top line following the opening, and made the intro consistent. That initial caller finding is resolved; the subsequently discovered repeat-visibility defect remains separate."
   },
   "report": {
     "basis": "MEAS",
     "path": "tools/align/REPORT.md#schumann-kinderszenen-foreign-lands",
-    "finding": "The completed report matches the recomputed final gates, binary repeats, corrected quiet final attack, source attribution, one-page pack and provisional limitations."
+    "finding": "The completed report matches the numerical gates, performed binary repeats, corrected quiet final attack, source attribution and one-page bar coverage. It must additionally record restoration of the suppressed printed repeat signs."
   },
   "gates": {
     "basis": "MEAS",
@@ -64,7 +72,7 @@
   },
   "version": {
     "basis": "INFERENCE",
-    "finding": "Original piano scoring; bars 1–8 twice, then 9–22 twice. The written return at 15 is retained rather than replacing it with a literal copy of bars 1–8. Two source-staff aggregates are not separately recovered performed voices. No gross cut or arrangement mismatch identified.",
+    "finding": "Original piano scoring; bars 1–8 twice, then 9–22 twice. The written return at 15 is retained rather than replaced with a literal copy of 1–8. Timing/order are coherent, but missing printed repeat signs currently prevent notation acceptance. Two source-staff aggregates are not separately recovered performed voices.",
     "physicalPerformingEdition": "Unknown; the identified source edition is not claimed as Donald Betts’s performing copy."
   },
   "status": {

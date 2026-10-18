@@ -25,7 +25,15 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "rach-prelude23-05.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new PianoStaff << \\new Staff = \"md\" << \\time 4/4 \\clef treble \\key g \\minor \\new Voice \\RHone \\new Voice \\RHtwo >> \\new Staff = \"mg\" << \\clef bass \\key g \\minor \\new Voice \\LHone \\new Voice \\LHtwo >> >>",
+    "midiSettings": "\\context { \\Voice \\remove \"Dynamic_performer\" }"
   },
   "voices": [
     {
@@ -78,6 +86,7 @@
   },
   "provenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: IMSLP - Muzyka and Gutheil editions. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/rachmaninoff-prelude-op23-5.mjs and cache/analysis/rachmaninoff-prelude-op23-5.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Read content/listen/rachmaninoff-prelude-op23-5.mjs and cache/analysis/rachmaninoff-prelude-op23-5.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "The published source MIDI has an unmatched note-off at track 1, tick 4392 and is not accepted by the strict parser. Compile the complete original RHone/RHtwo/LHone/LHtwo source expressions with LilyPond 2.24 instead of ignoring MIDI errors or synthesizing note durations. The printed source remains unchanged."
   ]
 }

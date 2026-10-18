@@ -1,35 +1,65 @@
 import path from 'node:path';
-import { readFile } from 'node:fs/promises';
+import { readFile, unlink } from 'node:fs/promises';
 import sharp from 'sharp';
-import { ROOT, OUT, cached, eachLimit, hash, optional, save } from './cache.mjs';
+import { ROOT, OUT, CACHE, cached, eachLimit, hash, optional, save } from './cache.mjs';
 
-// Retain the reviewed WebP pixels. Never recompress an existing rendition.
-// AVIF uses 4:4:4 to avoid introducing chroma fringes around fine painting detail.
+// Keep the reviewed WebP pixels unless a complete responsive AVIF set is both
+// smaller and passes a conservative 40 dB PSNR screen. A partial AVIF srcset
+// can force a huge image onto a thumbnail, so formats are chosen per picture.
 export async function optimizeImages(out = OUT) {
   sharp.concurrency(1);
   const art = JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'));
   let generated = 0;
+  const formats = {}, report = [];
   await eachLimit([...new Map(Object.values(art).map((image) => [image.src, image])).values()], 2, async (image) => {
     const original = await readFile(path.join(out, image.src));
-    const digest = hash(original);
-    // Old art fetches also emitted e.g. -480.webp for a 300px original (no
-    // upscaling). Programme URLs can reference those names: twin them too.
-    const renditions = [160, 480, 960].map((width) => ({ width, webp: image.src.replace(/\.webp$/, `-${width}.webp`) }));
-    renditions.push({ width: image.w, webp: image.src });
-    for (const { width, webp } of renditions) {
+    const digest = hash(original), candidates = [];
+    for (const width of [...[160, 480, 960].filter((width) => width < image.w), image.w]) {
+      const webp = width === image.w ? image.src : image.src.replace(/\.webp$/, `-${width}.webp`);
       let input = webp === image.src ? original : await optional(path.join(out, webp));
-      if (!input && width >= image.w) continue;
       if (!input) {
         input = await cached(hash(`webp-v1-${sharp.versions.sharp}-${digest}-${width}`), 'webp', () => sharp(original).resize({ width, withoutEnlargement: true }).webp({ quality: 84, effort: 5 }).toBuffer());
         await save(path.join(out, webp), input);
       }
-      const avif = webp.replace(/\.webp$/, '.avif');
-      const result = await cached(hash(`avif-v1-${sharp.versions.sharp}-${hash(input)}`), 'avif', async () => {
+      const encoded = await cached(hash(`avif-v1-${sharp.versions.sharp}-${hash(input)}`), 'avif', async () => {
         generated++;
         return sharp(input).avif({ quality: 65, effort: 5, chromaSubsampling: '4:4:4' }).toBuffer();
       });
-      await save(path.join(out, avif), result);
+      let acceptable = false, mse = null;
+      if (encoded.length < input.length) {
+        const quality = JSON.parse((await cached(hash(`avif-quality-v2-${hash(input)}-${hash(encoded)}`), 'json', async () => {
+          const a = await sharp(input).ensureAlpha().raw().toBuffer();
+          const b = await sharp(encoded).ensureAlpha().raw().toBuffer();
+          if (a.length !== b.length) throw new Error(`AVIF dimensions changed: ${webp}`);
+          let error = 0, alphaEqual = true;
+          for (let i = 0; i < a.length; i += 4) {
+            for (let c = 0; c < 3; c++) error += (a[i + c] - b[i + c]) ** 2;
+            if (a[i + 3] !== b[i + 3]) alphaEqual = false;
+          }
+          return JSON.stringify({ mse: error / (a.length * 0.75), alphaEqual });
+        })).toString());
+        mse = quality.mse;
+        acceptable = quality.alphaEqual && mse <= 255 ** 2 / 10000;
+      }
+      candidates.push({ webp, encoded, acceptable, mse, webpBytes: input.length });
     }
+    const useAvif = candidates.every((candidate) => candidate.acceptable);
+    formats[image.src] = useAvif;
+    const published = new Set();
+    if (useAvif) for (const candidate of candidates) {
+      const avif = candidate.webp.replace(/\.webp$/, '.avif');
+      await save(path.join(out, avif), candidate.encoded);
+      published.add(avif);
+    }
+    // Only referenced picture sources enter docs/. Rejected experiments stay
+    // in the hash cache, not in the shipped site or version control.
+    for (const webp of [image.src, ...[160, 480, 960].map((width) => image.src.replace(/\.webp$/, `-${width}.webp`))]) {
+      const avif = webp.replace(/\.webp$/, '.avif');
+      if (!published.has(avif)) await unlink(path.join(out, avif)).catch((error) => { if (error.code !== 'ENOENT') throw error; });
+    }
+    report.push({ image: image.src, avif: useAvif, renditions: candidates.map(({ webp, encoded, acceptable, mse, webpBytes }) => ({ webp, webpBytes, avifBytes: encoded.length, acceptable, mse })) });
   });
-  return { originals: Object.keys(art).length, generated };
+  report.sort((a, b) => a.image.localeCompare(b.image));
+  await save(path.join(CACHE, 'images.json'), JSON.stringify(report));
+  return { originals: Object.keys(art).length, generated, avifPictures: Object.values(formats).filter(Boolean).length, formats: Object.fromEntries(report.map((image) => [image.image, image.avif])) };
 }

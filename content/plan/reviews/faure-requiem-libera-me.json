@@ -1,0 +1,20 @@
+{
+  "id": "faure-requiem-libera-me",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "96-second cue; orchestra.timeline from 70 to 216 seconds",
+      "severity": "major",
+      "problem": "[EXT] The solo baritone is tacet during the central choral sections. The score gives him a separate staff, which rests through Tremens, Dies illa and the choral return. The current text adds him to the fortissimo choir and the map keeps solo-voice active throughout those passages.",
+      "evidence": "Independently viewed Hamelle/Kalmus score, pages 97–111, separate Baryton Solo staff; his return is on page 112. https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf .",
+      "fix": "Remove solo-voice from the central choral states and the choir-plus-baritone claim. Reintroduce it for the genuine solo return near 254 seconds; preserve its later participation with the final choir."
+    },
+    {
+      "where": "172-second section; 176-second cue; into-return transition; orchestra return states",
+      "severity": "major",
+      "problem": "[EXT] Letter H restores the tempo and ostinato, but the choir is still finishing luceat eis. The opening Libera me melody does not return in choral unison until page 107, after the nine intervening bars on pages 105–106. The timpani pulse also stops as that new choral statement begins, while quiet horn/trombone chords occur around the preparation and later phrases. These are currently collapsed into one simultaneous return and one long timpani state.",
+      "evidence": "Same independently viewed score: H on page 105; remaining choral luceat eis and instrumental preparation on pages 105–106; unison Libera me on page 107, where timpani then rest. Horn/trombone chords occur on pages 106–107 and 109–111. Existing report anchors at 2:52 and the subsequent 3:00–3:20 windows can support broad regions.",
+      "fix": "Separate the ostinato/tempo preparation from the following choral melody in the section label, cue and join wording; do not claim that the new unison melody starts at H/2:52. Represent the later choral entry broadly by score proportion and report windows, and withdraw timpani after the preparatory pulse rather than leaving them active to 216 seconds. Include the genuine quiet horn/trombone preparation in the appropriate broad span."
+    }
+  ]
+}

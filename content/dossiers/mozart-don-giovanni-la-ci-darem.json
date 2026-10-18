@@ -92,13 +92,13 @@
   },
   "transfer": {
     "credits": {
-      "value": "Library of Congress Packard Campus, National Jukebox; source disc from UCSB Davidson Library",
+      "value": "Library of Congress National Jukebox, access-file provider; UCSB Davidson Library, source collection",
       "status": "documented",
       "sourceIds": [
         "loc",
         "archive"
       ],
-      "note": "IA presents an access mirror of the National Jukebox file; its claim of no added processing is an uploader statement, not a separate audio comparison."
+      "note": "The specific transfer operator and facility are unknown. IA presents an access mirror of the National Jukebox file; its generic Packard Campus attribution does not establish the facility for this UCSB-sourced recording. Its claim of no added processing is an uploader statement, not a separate audio comparison."
     },
     "date": {
       "value": null,
@@ -157,7 +157,7 @@
       "id": "loc",
       "title": "Library of Congress National Jukebox: Là ci darem la mano",
       "url": "https://www.loc.gov/item/jukebox-35668/?fo=json",
-      "locator": "Recording date and location, performers, conductor, Victor 87569, matrix B-23741 take 2, source collection and digitisation credit.",
+      "locator": "Recording date and location, performers, conductor, Victor 87569, matrix B-23741 take 2, UCSB source collection and National Jukebox access file.",
       "accessed": "2026-10-17"
     },
     {

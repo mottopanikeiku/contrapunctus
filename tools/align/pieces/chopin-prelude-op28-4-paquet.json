@@ -41,6 +41,18 @@
         "old": "s s s s \\! #(Text 0 -.8 #t) s4-\\dim s  % Takt 18",
         "new": "s s s s \\! #(Text 0 -.8 #t) s4-\\cpDimText s  % Takt 18",
         "basis": "Retain the exact printed dim. markup at bar 18 under its non-colliding name."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nMIDIrechts = \\context Staff \\relative c'{\n  \\context Voice = \"rechts\"",
+        "new": "\nMIDIrechts = \\context Voice = \"rechts\" \\relative c'{",
+        "basis": "Give the complete original playback right-hand expression its named Voice, retaining the source-defined turn realization and all playback attacks."
+      },
+      {
+        "file": "chp-28-04-a4.ly",
+        "old": "\nMIDIlinks =  \\context Staff \\relative c{\n  \\context Voice = \"links\"",
+        "new": "\nMIDIlinks = \\context Voice = \"links\" \\relative c{",
+        "basis": "Give the complete original playback left-hand expression its named Voice, without changing pitches, note onsets, or durations."
       }
     ],
     "downloads": [
@@ -61,11 +73,24 @@
     "definitions": [
       {
         "file": "chp-28-04-a4.ly",
-        "before": "MIDIrechts ="
+        "before": "MIDIdynamikR ="
       }
     ],
     "comparePublished": {},
-    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\global \\clef treble \\rechts \\dynamik >> \\new Staff = \"down\" << \\global \\clef bass \\links >> >>"
+    "endQ": 100,
+    "music": "\\new PianoStaff << \\new Staff = \"up\" << \\global \\clef treble \\MIDIrechts >> \\new Staff = \"down\" << \\global \\clef bass \\MIDIlinks >> >>",
+    "notationProof": {
+      "ornaments": [
+        {
+          "source": {
+            "file": "chp-28-04-a4.ly",
+            "text": "ais4\n  \\turn^\\markup { \\doublesharp }\n  g' fis8. e16"
+          },
+          "attacks": [[62.75,71],[62.8125,70],[62.875,69],[62.9375,70]],
+          "basis": "The printed bar-16 A-sharp4 carries a turn with a double-sharp lower auxiliary. The original MIDIrechts explicitly realizes B4/A-sharp4/G-double-sharp4/A-sharp4 in four 64th notes. Playback must match all 604 published attacks; separately compiled printed notation must match exactly that inventory minus these four ornament attacks."
+        }
+      ]
+    }
   },
   "voices": [
     {
@@ -120,7 +145,7 @@
   "provenance": [
     "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Peters, Herrmann Scholtz, 1900b. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
     "Read content/listen/chopin-prelude-op28-4-paquet.mjs and cache/analysis/chopin-prelude-op28-4-paquet.txt. Editorial sections are coarse; they are not forced alignment anchors.",
-    "Compile printed rechts/links, not the separately altered MIDIrechts/MIDIlinks playback parts; preserve the printed three-quarter final bar.",
-    "Five exact syntax-only repairs apply to disposable source copies; original downloads stay unchanged. Compile and engrave the identical printed staff expression with original clefs, dynamics and cross-staff names, omitting the separate MIDI-only definitions. Require the driver's exact published pitch/onset multiset proof; its comparison does not substitute the playback-only six-quarter final hold for the printed three quarters."
+    "Compile the complete source-defined MIDIrechts/MIDIlinks playback realization, including the four bar-16 turn attacks, while engraving the unchanged printed rechts/links and turn glyph. Explicit endQ100 retains the printed three-quarter final bar rather than the playback-only six-quarter final hold.",
+    "Seven exact syntax-only repairs apply to disposable copies; immutable downloads remain unchanged. Dual multiset proof requires all 604 published playback attacks and separately proves the 600 printed attacks against that inventory minus exactly the four declared, source-pinned ornament attacks. Different wrappers do not authorize any other pitch/onset difference."
   ]
 }

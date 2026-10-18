@@ -38,6 +38,18 @@
       "old": "s s s s \\! #(Text 0 -.8 #t) s4-\\dim s  % Takt 18",
       "new": "s s s s \\! #(Text 0 -.8 #t) s4-\\cpDimText s  % Takt 18",
       "basis": "Retain the exact printed dim. markup at bar 18 under its non-colliding name."
+    },
+    {
+      "file": "chp-28-04-a4.ly",
+      "old": "\nMIDIrechts = \\context Staff \\relative c'{\n  \\context Voice = \"rechts\"",
+      "new": "\nMIDIrechts = \\context Voice = \"rechts\" \\relative c'{",
+      "basis": "Give the complete original playback right-hand expression its named Voice, retaining the source-defined turn realization and all playback attacks."
+    },
+    {
+      "file": "chp-28-04-a4.ly",
+      "old": "\nMIDIlinks =  \\context Staff \\relative c{\n  \\context Voice = \"links\"",
+      "new": "\nMIDIlinks = \\context Voice = \"links\" \\relative c{",
+      "basis": "Give the complete original playback left-hand expression its named Voice, without changing pitches, note onsets, or durations."
     }
   ],
   "downloads": [

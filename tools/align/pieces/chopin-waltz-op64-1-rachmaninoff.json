@@ -72,14 +72,14 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      0.45,
+      0.95
     ],
     "last": [
       108,
       112
     ],
-    "basis": "Initial score-pitch search windows from cached analysis; inspect final-attack and worst-region overlays before publication."
+    "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail."
   },
   "boundaries": [],
   "engraving": {

@@ -8,6 +8,7 @@ import { OUT, cached, hash, save } from './cache.mjs';
 
 // Google Fonts upstream blobs, pinned by Git object ID. Only the CSS-used
 // ranges are retained; bold HTML retains the previous nearest-face behaviour.
+const sourceCommit = '47d54ca1ebb14fd864695f1d39dc734f39017c33';
 const faces = [
   ['cormorant-garamond-normal', 'Cormorant Garamond', 'normal', '400 600', 'cormorantgaramond/CormorantGaramond[wght].ttf', 'd992a83ce525c330fad3a19087746bcb2dc038ee'],
   ['cormorant-garamond-italic', 'Cormorant Garamond', 'italic', '300 600', 'cormorantgaramond/CormorantGaramond-Italic[wght].ttf', '0d914e7663b7a1429d06ec60a5c5bb026031a2ef'],
@@ -25,7 +26,7 @@ const licenses = [
 ];
 async function source(file, sha) {
   return cached(`source-${sha}`, path.extname(file).slice(1), async () => {
-    const response = await fetch(`https://raw.githubusercontent.com/google/fonts/main/ofl/${file.split('/').map(encodeURIComponent).join('/')}`);
+    const response = await fetch(`https://raw.githubusercontent.com/google/fonts/${sourceCommit}/ofl/${file.split('/').map(encodeURIComponent).join('/')}`);
     if (!response.ok) throw new Error(`Font source ${file}: HTTP ${response.status}`);
     const data = Buffer.from(await response.arrayBuffer());
     const actual = createHash('sha1').update(`blob ${data.length}\0`).update(data).digest('hex');
@@ -55,9 +56,10 @@ export async function optimizeFonts(textFiles, out = OUT) {
     const original = await source(file, sha);
     const font = fontkit.create(original);
     const included = points.filter((point) => font.hasGlyphForCodePoint(point) && (family !== 'Noto Music' || point >= 0x2669 && point <= 0x266f || point >= 0x1d000 && point <= 0x1d24f));
-    // Core Latin (including Extended-A) stays together. Credits/source titles
-    // in other scripts get a separate unicode-range, loaded only when needed.
-    const core = (point) => point <= 0x17f || point >= 0x2000 && point <= 0x206f || [0x20ac, 0x2122, 0x2212, 0x266d, 0x266e, 0x266f].includes(point);
+    // Latin, combining marks and shared punctuation/symbols stay together.
+    // A single arrow must not download every Greek/Cyrillic credit glyph.
+    const coreScripts = /[\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u;
+    const core = (point) => point <= 0x17f || coreScripts.test(String.fromCodePoint(point));
     const groups = family === 'Noto Music' ? [included] : [included.filter(core), included.filter((point) => !core(point))];
     const weights = weight.split(' ').map(Number);
     const variationAxes = font.variationAxes.wght ? { wght: { min: weights[0], max: weights.at(-1) } } : undefined;

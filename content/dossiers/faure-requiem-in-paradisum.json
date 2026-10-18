@@ -51,10 +51,17 @@
         "sleeve",
         "commons",
         "imslp",
-        "gagnaux"
+        "gagnaux",
+        "discogs-cd"
       ],
       "note": "The scanned Erato sleeve prints “Enregistré … à Monaco, le 11 Août 1962”. The Commons date field (“10 August 1962”), IMSLP and René Gagnaux give 10 August 1962; Commons does not say whether its date is a session or an issue date. The 1988 CD reissue notes “Recording: 08/1962”. Both candidate days fall in 1962; the rights assessment relies on that year only.",
       "alternatives": [
+        {
+          "value": "1962-08-11",
+          "sourceIds": [
+            "sleeve"
+          ]
+        },
         {
           "value": "1962-08-10",
           "sourceIds": [
@@ -77,6 +84,13 @@
       ],
       "note": "The sleeve gives the cathedral in Monaco, and a 1983 Erato LP pressing (EF 28002) is noted on Discogs as “Registered in 1962 in the Cathedral of Monaco”. IMSLP and Gagnaux give the Salle Alcazar, Monte-Carlo. Commons gives no venue. The sleeve also credits the engineer: “Prise de son : Peter Willemoes”.",
       "alternatives": [
+        {
+          "value": "Cathedral of Our Lady Immaculate (Notre-Dame-de-l’Immaculée-Conception), Monaco",
+          "sourceIds": [
+            "sleeve",
+            "discogs-ef28002"
+          ]
+        },
         {
           "value": "Salle Alcazar, Monte-Carlo",
           "sourceIds": [

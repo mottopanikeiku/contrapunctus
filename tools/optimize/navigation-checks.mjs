@@ -2,7 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ROOT } from './cache.mjs';
 
-export async function checkNavigation(browser, origin) {
+export async function checkNavigation(browser, origin, label = 'root') {
   const context = await browser.createBrowserContext();
   const page = await context.newPage();
   const cdp = await page.createCDPSession();
@@ -13,7 +13,15 @@ export async function checkNavigation(browser, origin) {
   page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
   cdp.on('Network.responseReceived', ({ response }) => responses.push({ url: response.url, status: response.status, worker: response.fromServiceWorker }));
   const pages = ['index.html', 'influence.html', 'atlas-map.html', 'compare/mahler-5-adagietto.html', 'return-lab/beethoven-exposition-recapitulation.html', 'journeys/death-and-the-dies-irae.html', 'composers/mahler.html', 'glossary.html', 'hall.html'];
-  const result = { pages: [], offline: [], errors };
+  const readiness = {
+    'influence.html': '.iw-mounted',
+    'atlas-map.html': '.am-ready',
+    'compare/mahler-5-adagietto.html': '[data-cmp-select][aria-pressed="true"]',
+    'return-lab/beethoven-exposition-recapitulation.html': '[data-rl-voices] > li',
+    'journeys/death-and-the-dies-irae.html': '[data-j-reader].is-enhanced[data-station]',
+    'hall.html': '.now-composer'
+  };
+  const result = { origin, pages: [], offline: [], errors };
   try {
     await page.goto(`${origin}/index.html`, { waitUntil: 'networkidle0' });
     await page.evaluate(() => navigator.serviceWorker.ready);
@@ -22,6 +30,7 @@ export async function checkNavigation(browser, origin) {
     for (const name of pages) {
       await page.evaluate((url) => window.CP.navigate(url), `${origin}/${name}`);
       await page.waitForNetworkIdle({ idleTime: 500, timeout: 30000 });
+      if (readiness[name]) await page.waitForFunction((selector) => !!document.querySelector(selector)?.textContent.trim(), {}, readiness[name]);
       const state = await page.evaluate(() => ({ url: location.pathname, modules: document.body.classList.contains('room') ? ['room'] : ['site', ...(document.body.dataset.modules || '').split(/\s+/).filter(Boolean)], content: !!document.querySelector('main, .stage'), persistentAudio: window.CP.player.audio === window.__acceptanceAudio, title: document.title, critical: document.querySelectorAll('style[data-cp-critical]').length }));
       if (!state.content || !state.persistentAudio) throw new Error(`Page did not mount: ${name}: ${JSON.stringify(state)}`);
       result.pages.push({ name, ...state });
@@ -44,7 +53,7 @@ export async function checkNavigation(browser, origin) {
     result.responses = responses;
   } finally {
     await mkdir(path.join(ROOT, 'cache/performance'), { recursive: true });
-    await writeFile(path.join(ROOT, 'cache/performance/navigation.json'), JSON.stringify(result, null, 2));
+    await writeFile(path.join(ROOT, `cache/performance/navigation-${label}.json`), JSON.stringify(result, null, 2));
     await context.close();
   }
   return { mounted: result.pages, offline: result.offline, errors, cachedAudio: result.cachedAudio };

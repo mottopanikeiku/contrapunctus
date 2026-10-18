@@ -33,6 +33,125 @@
         "basis": "The original viola bar 88 encodes simultaneous identical dotted-half A4 notes in voices 1 and 4 at q261; only voice 4 carries the outgoing tie, while bar 89’s first A4 at q264 carries its stop in voice 1. Route only that explicit tie start onto the identical voice-1 unison so the written continuation ends at q265 without an invented reattack at q264. Preserve both original notes, their onsets and durations, and the voice-4 inverted fermata; change only tie ownership in a disposable derivative."
       }
     ],
+    "musicxmlTrillSpans": [
+      {
+        "part": "P1",
+        "start": {"measure": 9, "note": 1, "number": "1"},
+        "stop": {"measure": 10, "note": 6, "number": "1"},
+        "startQ": 25,
+        "endQ": 28,
+        "basis": "Native violin-I trill ends at II.10 quarter 1, where the next trill starts. The MusicXML stop is at the end of a hidden voice-4 cue; retain the hidden cue and route only its ornament stop to the existing voice-1 onset.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='1']/Measure[222]/voice[1]/Spanner[1]/next/location",
+          "expected": {"measures": "1"}
+        }
+      },
+      {
+        "part": "P1",
+        "start": {"measure": 10, "note": 1, "number": "2"},
+        "stop": {"measure": 11, "note": 7, "number": "2"},
+        "startQ": 28,
+        "endQ": 31,
+        "basis": "Native violin-I trill ends at II.11 quarter 1, where the next trill starts. The MusicXML stop is at the end of a hidden voice-4 cue; preserve that cue's visibility and all timed notes.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='1']/Measure[223]/voice[1]/Spanner[2]/next/location",
+          "expected": {"measures": "1"}
+        }
+      },
+      {
+        "part": "P1",
+        "start": {"measure": 11, "note": 1, "number": "1"},
+        "stop": {"measure": 12, "note": 4, "number": "1"},
+        "startQ": 31,
+        "endQ": 36,
+        "basis": "Native violin-I next-location advances two measures minus one quarter from II.11 quarter 1, ending at II.13 quarter 0. The original stop belongs to the end of the hidden voice-3 rest in II.12, not its onset.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='1']/Measure[224]/voice[1]/Spanner[2]/next/location",
+          "expected": {"measures": "2", "fractions": "-1/4"}
+        }
+      },
+      {
+        "part": "P1",
+        "start": {"measure": 50, "note": 0, "number": "1"},
+        "stop": {"measure": 51, "note": 3, "number": "1"},
+        "startQ": 147,
+        "endQ": 153,
+        "basis": "Native violin-I trill spans II.50–51 and ends at II.52 quarter 0. Preserve the hidden voice-3 rest carrying the exported stop and route only that stop to its source-defined ending in voice 1.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='1']/Measure[263]/voice[1]/Spanner[2]/next/location",
+          "expected": {"measures": "2"}
+        }
+      },
+      {
+        "part": "P1",
+        "start": {"measure": 160, "note": 2, "number": "1"},
+        "stop": {"measure": 161, "note": 3, "number": "1"},
+        "startQ": 483.5,
+        "endQ": 489,
+        "basis": "Native violin-I trill starts at II.160 quarter 0.5 and ends two measures minus half a quarter later, at II.162 quarter 0. The voice-2 rest's exported stop is an end-of-rest position, not an attack or a duration change.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='1']/Measure[373]/voice[1]/Spanner[2]/next/location",
+          "expected": {"measures": "2", "fractions": "-1/8"}
+        }
+      },
+      {
+        "part": "P3",
+        "start": {"measure": 175, "note": 0, "number": "1"},
+        "stop": {"measure": 175, "note": 2, "number": "1"},
+        "startQ": 528,
+        "endQ": 530,
+        "basis": "Native viola E-flat5 trill lasts half a whole-note unit, ending at II.175 quarter 2 as the D5 trill begins. Keep the hidden voice-2 rest and place only its stop at the existing voice-1 D5 onset.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='3']/Measure[388]/voice[1]/Spanner[2]/next/location",
+          "expected": {"fractions": "1/2"}
+        }
+      },
+      {
+        "part": "P3",
+        "start": {"measure": 175, "note": 1, "number": "2"},
+        "stop": {"measure": 176, "note": 2, "number": "2"},
+        "startQ": 530,
+        "endQ": 532,
+        "basis": "Native viola D5 trill advances one measure minus one quarter, ending at II.176 quarter 1. Preserve the written auxiliary D-sharp5 and route only its exported end-of-note stop to the voice-1 C-sharp5 onset.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='3']/Measure[388]/voice[1]/Spanner[5]/next/location",
+          "expected": {"measures": "1", "fractions": "-1/4"}
+        }
+      },
+      {
+        "part": "P3",
+        "start": {"measure": 176, "note": 1, "number": "1"},
+        "stop": null,
+        "startQ": 532,
+        "endQ": 534,
+        "basis": "MusicXML export omits this stop. The immutable native MSCX explicitly advances one measure minus one quarter from II.176 quarter 1 to II.177 quarter 0, with a reciprocal previous-location entry there; the companion viola PDF page 8 shows the same bounded C-sharp5 trill before B4. Restore only that source-proven stop at the existing voice-1 B4 onset, not a guessed duration.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='3']/Measure[389]/voice[1]/Spanner[2]/next/location",
+          "expected": {"measures": "1", "fractions": "-1/4"}
+        }
+      },
+      {
+        "part": "P3",
+        "start": {"measure": 177, "note": 0, "number": "2"},
+        "stop": {"measure": 178, "note": 3, "number": "2"},
+        "startQ": 534,
+        "endQ": 540,
+        "basis": "Native viola B4 trill spans II.177–178 and ends before the pizzicato passage at II.179 quarter 0. The existing voice-1 quarter rest provides that exact stop position; no timed event or note is added.",
+        "evidence": {
+          "file": "sq8482283.mscx",
+          "selector": "./Score/Staff[@id='3']/Measure[390]/voice[1]/Spanner[3]/next/location",
+          "expected": {"measures": "2"}
+        }
+      }
+    ],
     "musicxmlMeasures": [
       213,
       411
@@ -42,6 +161,11 @@
         "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Ravel%2C_Maurice/String_Quartet_in_F_major/sq8482283.mxl",
         "file": "sq8482283.mxl",
         "sha256": "3bffd57550f92adb8049971ab1a6b92a14f24c984a92f3f2ddbc32c7aa79f72e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Ravel%2C_Maurice/String_Quartet_in_F_major/sq8482283.mscx",
+        "file": "sq8482283.mscx",
+        "sha256": "ac1aeb12d7cae5241b200187faf5e5edb9ae4b0a2c7a107570f2a4370b55d38b"
       }
     ]
   },
@@ -123,7 +247,8 @@
     "Select zero-based half-open MusicXML measure indices [213, 411] from every part, preserving inherited clefs, keys and time signatures. Original CC0 MXL download remains unchanged.",
     "Four source-defined instrument parts are retained, including all explicitly encoded subsidiary voices within each staff. MIDI articulations are not used to invent performed note lengths.",
     "Metric-equivalence instructions and textual dynamics require semantics-preserving conversion to text for LilyPond 2.24.4; no note or rhythmic content is removed.",
-    "Viola bars 120–123 require an explicit nested-tuplet derivative because musicxml2ly duplicated their note groups. The source’s written sixteenth type and combined 18:8 ratio determine 1/9-quarter notes, despite rounded XML durations of 53/480. Exact rational rescaling and equivalent flat 18:8 brackets preserve all 36 notes per bar; the four-part 600-quarter bar grid is not enlarged to accommodate the converter defect."
+    "Viola bars 120–123 require an explicit nested-tuplet derivative because musicxml2ly duplicated their note groups. The source’s written sixteenth type and combined 18:8 ratio determine 1/9-quarter notes, despite rounded XML durations of 53/480. Exact rational rescaling and equivalent flat 18:8 brackets preserve all 36 notes per bar; the four-part 600-quarter bar grid is not enlarged to accommodate the converter defect.",
+    "The separately pinned original OpenScore MSCX preserves all nine complete trill spanners. In movement-II quarter units, violin I spans are 25–28, 28–31, 31–36, 147–153 and 483.5–489; viola spans are 528–530, 530–532, 532–534 and 534–540. Native Staff 3, zero-based measure index 388, explicitly sends the C-sharp trill at II.176 quarter 1 to the next measure minus one quarter: II.177 quarter 0, q534. This resolves the stop omitted by MusicXML export without inventing an ornament duration. Visible written trill auxiliary/cue notes remain source notation, not claimed independent physical reattacks."
   ],
   "engraving": {
     "staff": 17,
