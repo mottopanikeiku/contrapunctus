@@ -1,10 +1,10 @@
 {
-  "uniqueScoreAttacks": 223,
+  "uniqueScoreAttacks": 228,
   "audioDetectedOnsets": 227,
-  "medianAbsoluteOnsetDeviation": 0.03437536254813267,
-  "noteWeightedMedianDeviation": 0.03309497442388931,
-  "p95AbsoluteOnsetDeviation": 0.26893397009966113,
-  "fractionWithin150ms": 0.8923766816143498,
+  "medianAbsoluteOnsetDeviation": 0.034051574118024064,
+  "noteWeightedMedianDeviation": 0.0323809523809615,
+  "p95AbsoluteOnsetDeviation": 0.34496077229338495,
+  "fractionWithin150ms": 0.8947368421052632,
   "regions": [
     {
       "start": 0.0,
@@ -20,11 +20,11 @@
       "start": 8.0,
       "end": 16.0,
       "attacks": 10,
-      "median": 0.02626774837842394,
-      "p95": 0.0929362893090049,
-      "max": 0.10450339696602207,
-      "adaptiveMedian": 0.031534567315299356,
-      "adaptiveP95": 0.0929362893090049
+      "median": 0.030903338079419918,
+      "p95": 0.16423340847966905,
+      "max": 0.20360425565574936,
+      "adaptiveMedian": 0.03950798924220944,
+      "adaptiveP95": 0.17516336088699047
     },
     {
       "start": 16.0,
@@ -39,12 +39,12 @@
     {
       "start": 24.0,
       "end": 32.0,
-      "attacks": 9,
-      "median": 0.03650055370986394,
-      "p95": 0.08743508411116423,
-      "max": 0.09160575858249942,
-      "adaptiveMedian": 0.048110531034126325,
-      "adaptiveP95": 0.08743508411116423
+      "attacks": 10,
+      "median": 0.040573748879403126,
+      "p95": 0.15440339410957843,
+      "max": 0.1944542662025981,
+      "adaptiveMedian": 0.04374255128408322,
+      "adaptiveP95": 0.0992213718820853
     },
     {
       "start": 32.0,
@@ -71,10 +71,10 @@
       "end": 56.0,
       "attacks": 10,
       "median": 0.06528028265570285,
-      "p95": 0.20311820222275995,
-      "max": 0.24863055687392688,
+      "p95": 0.18430642896694377,
+      "max": 0.22435730105997465,
       "adaptiveMedian": 0.07108527131783404,
-      "adaptiveP95": 0.21472817954702234
+      "adaptiveP95": 0.19591640629120616
     },
     {
       "start": 56.0,
@@ -99,32 +99,32 @@
     {
       "start": 72.0,
       "end": 80.0,
-      "attacks": 8,
-      "median": 0.03290354901651682,
-      "p95": 0.5458928439592987,
-      "max": 0.5998987501977666,
-      "adaptiveMedian": 0.033343880187750585,
-      "adaptiveP95": 0.3838977251753405
+      "attacks": 9,
+      "median": 0.03699836523757938,
+      "p95": 0.500975293993568,
+      "max": 0.5398987501977643,
+      "adaptiveMedian": 0.04860834256184887,
+      "adaptiveP95": 0.4197925301903638
     },
     {
       "start": 80.0,
       "end": 88.0,
       "attacks": 12,
       "median": 0.03508463850657506,
-      "p95": 0.1958231292516977,
-      "max": 0.21901808785530363,
+      "p95": 0.17511306227914838,
+      "max": 0.32893845910450636,
       "adaptiveMedian": 0.038062542846603264,
-      "adaptiveP95": 0.19466213151927075
+      "adaptiveP95": 0.17064325264987568
     },
     {
       "start": 88.0,
       "end": 96.0,
       "attacks": 9,
-      "median": 0.06487581078943094,
-      "p95": 0.17121408796077442,
-      "max": 0.20788383958235102,
-      "adaptiveMedian": 0.06487581078943094,
-      "adaptiveP95": 0.1828240652850439
+      "median": 0.022670463534296914,
+      "p95": 0.09685661551455382,
+      "max": 0.10126562252818871,
+      "adaptiveMedian": 0.03428044085856641,
+      "adaptiveP95": 0.1038226019091155
     },
     {
       "start": 96.0,
@@ -139,12 +139,12 @@
     {
       "start": 104.0,
       "end": 112.0,
-      "attacks": 12,
-      "median": 0.026794283604935742,
-      "p95": 0.08110425565575097,
+      "attacks": 13,
+      "median": 0.026894478721743553,
+      "p95": 0.07974160206718461,
       "max": 0.09609344512998064,
-      "adaptiveMedian": 0.03191319938830617,
-      "adaptiveP95": 0.08226525338817793
+      "adaptiveMedian": 0.031864156515339914,
+      "adaptiveP95": 0.08206359753203855
     },
     {
       "start": 112.0,
@@ -159,12 +159,12 @@
     {
       "start": 120.0,
       "end": 128.0,
-      "attacks": 11,
-      "median": 0.022174761377414143,
-      "p95": 0.04765248114750875,
+      "attacks": 12,
+      "median": 0.02002425776513661,
+      "p95": 0.04738778674261539,
       "max": 0.05029942519644237,
-      "adaptiveMedian": 0.033784738701683636,
-      "adaptiveP95": 0.05926245847177114
+      "adaptiveMedian": 0.03224753467279129,
+      "adaptiveP95": 0.05899776406687848
     },
     {
       "start": 128.0,
@@ -181,20 +181,20 @@
       "end": 144.0,
       "attacks": 5,
       "median": 0.04146706744714379,
-      "p95": 0.6490629119864819,
+      "p95": 0.641128249749505,
       "max": 0.757432895638857,
       "adaptiveMedian": 0.053077044771413284,
-      "adaptiveP95": 0.1881634762431986
+      "adaptiveP95": 0.16571280915470651
     },
     {
       "start": 144.0,
       "end": 152.0,
       "attacks": 10,
-      "median": 0.04095765437963905,
-      "p95": 0.19877395289514357,
-      "max": 0.24428630754627534,
-      "adaptiveMedian": 0.04756051257713523,
-      "adaptiveP95": 0.21038393021938465
+      "median": 0.03927490375998843,
+      "p95": 0.17996217963933522,
+      "max": 0.22001305173233732,
+      "adaptiveMedian": 0.04007277329536407,
+      "adaptiveP95": 0.1915721569635763
     },
     {
       "start": 152.0,
@@ -229,12 +229,12 @@
     {
       "start": 176.0,
       "end": 184.0,
-      "attacks": 9,
-      "median": 0.046731002478878736,
-      "p95": 0.18785909402525924,
-      "max": 0.24909455254976365,
-      "adaptiveMedian": 0.04844170226232336,
-      "adaptiveP95": 0.19946907134952874
+      "attacks": 10,
+      "median": 0.049703106048781365,
+      "p95": 0.11880931287256966,
+      "max": 0.1374666455731699,
+      "adaptiveMedian": 0.05055845594050368,
+      "adaptiveP95": 0.13041929019683915
     },
     {
       "start": 184.0,
@@ -263,20 +263,10 @@
       "end": 56.0,
       "attacks": 10,
       "median": 0.06528028265570285,
-      "p95": 0.20311820222275995,
-      "max": 0.24863055687392688,
+      "p95": 0.18430642896694377,
+      "max": 0.22435730105997465,
       "adaptiveMedian": 0.07108527131783404,
-      "adaptiveP95": 0.21472817954702234
-    },
-    {
-      "start": 88.0,
-      "end": 96.0,
-      "attacks": 9,
-      "median": 0.06487581078943094,
-      "p95": 0.17121408796077442,
-      "max": 0.20788383958235102,
-      "adaptiveMedian": 0.06487581078943094,
-      "adaptiveP95": 0.1828240652850439
+      "adaptiveP95": 0.19591640629120616
     },
     {
       "start": 192.0,
@@ -291,12 +281,12 @@
     {
       "start": 176.0,
       "end": 184.0,
-      "attacks": 9,
-      "median": 0.046731002478878736,
-      "p95": 0.18785909402525924,
-      "max": 0.24909455254976365,
-      "adaptiveMedian": 0.04844170226232336,
-      "adaptiveP95": 0.19946907134952874
+      "attacks": 10,
+      "median": 0.049703106048781365,
+      "p95": 0.11880931287256966,
+      "max": 0.1374666455731699,
+      "adaptiveMedian": 0.05055845594050368,
+      "adaptiveP95": 0.13041929019683915
     },
     {
       "start": 112.0,
@@ -307,6 +297,16 @@
       "max": 0.7709149396192743,
       "adaptiveMedian": 0.04633655012396076,
       "adaptiveP95": 0.38343748352055995
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 11,
+      "median": 0.0431872593998861,
+      "p95": 0.317893265833483,
+      "max": 0.5657891683805332,
+      "adaptiveMedian": 0.0431872593998861,
+      "adaptiveP95": 0.0753045404208521
     }
   ],
   "worstFiveAdaptiveRegions": [
@@ -315,10 +315,10 @@
       "end": 56.0,
       "attacks": 10,
       "median": 0.06528028265570285,
-      "p95": 0.20311820222275995,
-      "max": 0.24863055687392688,
+      "p95": 0.18430642896694377,
+      "max": 0.22435730105997465,
       "adaptiveMedian": 0.07108527131783404,
-      "adaptiveP95": 0.21472817954702234
+      "adaptiveP95": 0.19591640629120616
     },
     {
       "start": 192.0,
@@ -331,24 +331,14 @@
       "adaptiveP95": 0.06719611875766418
     },
     {
-      "start": 88.0,
-      "end": 96.0,
-      "attacks": 9,
-      "median": 0.06487581078943094,
-      "p95": 0.17121408796077442,
-      "max": 0.20788383958235102,
-      "adaptiveMedian": 0.06487581078943094,
-      "adaptiveP95": 0.1828240652850439
-    },
-    {
       "start": 136.0,
       "end": 144.0,
       "attacks": 5,
       "median": 0.04146706744714379,
-      "p95": 0.6490629119864819,
+      "p95": 0.641128249749505,
       "max": 0.757432895638857,
       "adaptiveMedian": 0.053077044771413284,
-      "adaptiveP95": 0.1881634762431986
+      "adaptiveP95": 0.16571280915470651
     },
     {
       "start": 0.0,
@@ -359,28 +349,38 @@
       "max": 0.11973527395454386,
       "adaptiveMedian": 0.052327690766230006,
       "adaptiveP95": 0.12895427938617465
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 10,
+      "median": 0.03753361809841138,
+      "p95": 0.408795180087538,
+      "max": 0.5113452512788115,
+      "adaptiveMedian": 0.05163423508939147,
+      "adaptiveP95": 0.40183040658123914
     }
   ],
   "worstFiveHarmonicRegions": [
     {
-      "start": 112.0,
-      "meanCosine": 0.7194534336409892
-    },
-    {
       "start": 72.0,
-      "meanCosine": 0.7310239333844636
+      "meanCosine": 0.7203847161963501
     },
     {
-      "start": 136.0,
-      "meanCosine": 0.7496112036053765
+      "start": 112.0,
+      "meanCosine": 0.7302779838589142
     },
     {
       "start": 176.0,
-      "meanCosine": 0.7522264988908555
+      "meanCosine": 0.7586374559094327
     },
     {
-      "start": 56.0,
-      "meanCosine": 0.7610379345181166
+      "start": 200.0,
+      "meanCosine": 0.7649163502971071
+    },
+    {
+      "start": 136.0,
+      "meanCosine": 0.7655397344745086
     }
   ],
   "sections": [
@@ -404,8 +404,8 @@
       "bar": "17",
       "occ": 1,
       "editorial": 137,
-      "aligned": 138.90837209302325,
-      "difference": 1.908372093023246,
+      "aligned": 139.28837209302324,
+      "difference": 2.2883720930232414,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     }
   ],
@@ -422,9 +422,9 @@
       "label": "middle",
       "bar": "8",
       "occ": 2,
-      "scoreQ": 63.0,
-      "audioSeconds": 90.02976744186044,
-      "nearestOnsetDeviation": 0.005606707799415744
+      "scoreQ": 63.5,
+      "audioSeconds": 91.58651162790696,
+      "nearestOnsetDeviation": 0.01620946052841532
     },
     {
       "label": "last",
@@ -440,7 +440,7 @@
       "bar": "24",
       "occ": 1,
       "midi": 41,
-      "voice": "lower",
+      "voice": "lower-upper",
       "durationQ": 2.0,
       "onset": 193.14604651162782,
       "offset": 200.91999999999993,
@@ -450,7 +450,7 @@
       "bar": "24",
       "occ": 1,
       "midi": 57,
-      "voice": "upper",
+      "voice": "upper-inner",
       "durationQ": 2.0,
       "onset": 193.14604651162782,
       "offset": 200.91999999999993,
@@ -460,7 +460,7 @@
       "bar": "24",
       "occ": 1,
       "midi": 65,
-      "voice": "upper",
+      "voice": "melody",
       "durationQ": 2.0,
       "onset": 193.14604651162782,
       "offset": 200.91999999999993,
@@ -480,9 +480,9 @@
     }
   ],
   "zeroOrNegativeDurations": 0,
-  "minimumNoteDuration": 0.3693970714900967,
+  "minimumNoteDuration": 0.08495639534883637,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.8096029592122035,
+  "meanPathChromaCosine": 0.8111197299526528,
   "endAnchor": {
     "scoreQ": 129.0,
     "audioSeconds": 200.91999999999993,
@@ -501,8 +501,10 @@
     "mido": "1.3.3"
   },
   "scoreProvenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
-    "Read content/listen/schumann-kinderszenen-traumerei.mjs and cache/analysis/schumann-kinderszenen-traumerei.txt. Editorial sections are coarse; they are not forced alignment anchors."
+    "Five explicitly named, sounding source voices are compiled separately; these are written voice identities, not recovered hands or aural separation. The empty oboestwo control expression is retained in engraving but is not invented as a sounding voice. EXT: Leichte Stücke, 1900; exact performance articulation remains provisional.",
+    "Read content/listen/schumann-kinderszenen-traumerei.mjs and cache/analysis/schumann-kinderszenen-traumerei.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Engraving only: replace the source's skip-only repeattr with the same 97-quarter span (one-quarter pickup plus 24 four-quarter bars), explicitly restoring its already-encoded repeat signs at q1 and q33. Every original pitched variable, tempo, dynamics and pedal voice remains unchanged; immutable source bytes are untouched.",
+    "The legacy published MIDI has 339 attacks versus 344 in a modern merged-staff compile, with seven differently timed grace attacks and five genuinely visible reattacks: viola C5 at q31 after its same-pitch acciaccatura; viola G4 at q42, D5 at q58 and D5 at q88.5 against sustained violatwo unisons; and bassvoicestwo A3 as the second grace before q22, tied onward. Separate unchanged source-voice extraction preserves these attacks and written ties. No exact legacy-MIDI identity is claimed."
   ],
   "sectionAnchorPairsSeconds": [
     [
@@ -514,7 +516,7 @@
       92.0
     ],
     [
-      150.46166666666667,
+      150.48,
       137.0
     ],
     [
@@ -592,9 +594,9 @@
     }
   ],
   "adaptiveOnsetCount": 386,
-  "adaptiveMedianDeviation": 0.041358434846841874,
+  "adaptiveMedianDeviation": 0.04145599325003957,
   "gateReasons": [],
-  "elapsedSeconds": 0.5872926019947045,
+  "elapsedSeconds": 0.5006296070059761,
   "dtwSteps": [
     [
       1,
@@ -616,11 +618,11 @@
   ],
   "counts": {
     "bars": 33,
-    "notes": 449,
-    "voices": 2
+    "notes": 474,
+    "voices": 5
   },
   "published": true,
-  "configSha256": "898cd28a314206a6c3256349ba4e3abf3a827645546cf4852720133c2e1f4df2",
+  "configSha256": "fe052ab11fb97c465b05fd5028a5e673dfae08a888bdd06b879748754a58f485",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.ly",
@@ -634,17 +636,31 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "02a152a33e73c842e2b6e1866a0a501c63ba19f9eb468475f135f2e2742125ef",
+    "candidateSha256": "eb41cf4a527a2e8f9dbabb124c44cebd465f948b4ef48e47e14c669f203b0bc9",
+    "byteIdentical": false,
+    "sameNoteIdentities": false,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": null,
+      "noteDurationSeconds": null,
+      "barSeconds": 0.3800000000000239
+    },
+    "metadataFieldsChanged": [
+      "voices"
+    ],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/schumann-kinderszenen-traumerei-0-8.png",
     "work/schumann-kinderszenen-traumerei-0-8.52.png",
+    "work/schumann-kinderszenen-traumerei-32-40.png",
+    "work/schumann-kinderszenen-traumerei-40-48.png",
     "work/schumann-kinderszenen-traumerei-42-60.png",
     "work/schumann-kinderszenen-traumerei-48-56.png",
-    "work/schumann-kinderszenen-traumerei-86.0298-98.0298.png",
-    "work/schumann-kinderszenen-traumerei-88-96.png",
+    "work/schumann-kinderszenen-traumerei-87.5865-99.5865.png",
     "work/schumann-kinderszenen-traumerei-90-106.png",
     "work/schumann-kinderszenen-traumerei-112-120.png",
     "work/schumann-kinderszenen-traumerei-136-144.png",

@@ -9,17 +9,24 @@
       "basis": "MEAS",
       "location": "docs/assets/data/schumann-kinderszenen-foreign-lands/sheet/p1.svg; immutable SchumannOp15No01.ly repeattr",
       "finding": "Targeted inspection after the Important Event finding confirms that this page also lacks the source-encoded binary repeat signs. Both spacer-voice repeat-volta-count-1 wrappers are suppressed by modern engraving, although the performed map repeats 1–8 and 9–22.",
-      "requiredFix": "Restore the original repeat boundaries with a guarded notation-only compatibility repair: closing first-strain repeat after 8, second-strain start at 9 and closing repeat after 22 (plus the initial delimiter where appropriate). Preserve all 444 performed notes, both source MIDI tracks, 22 written bar identities, four resolving listen pointers and exact 1–8 twice / 9–22 twice traversal. Re-publish and document the legacy visibility repair; inspect the actual restored marks, not only index.json coverage."
+      "requiredFix": "Restore the original repeat boundaries with a guarded notation-only compatibility repair: closing first-strain repeat after 8, second-strain start at 9 and closing repeat after 22 (plus the initial delimiter where appropriate). Keep the pitched source expressions and 22 written bar identities unchanged while separately repairing the extraction defect below. Preserve exact 1–8 twice / 9–22 twice traversal and the four listen references; document and inspect the restored marks."
+    },
+    {
+      "id": "legacy-midi-loses-cross-staff-reattacks",
+      "basis": "MEAS",
+      "location": "Immutable SchumannOp15No01.ly logical piano voices oboes and bassvoicestwo; canonical q10 and q38, printed bars 6 and 20",
+      "finding": "The source-to-MIDI classification identifies two genuine G3 reattacks in the cross-staff triplet line while another logical voice holds a tied G3. They are not coincident-onset duplicates. The published legacy MIDI omits those attacks; its 222-event inventory is therefore not the complete written source.",
+      "requiredFix": "Extract the unchanged logical source voices with independent MIDI identity so both held notes and genuine G3 reattacks survive. Audit all source-voice attacks/ties, not a hand-inserted two-note exception; retain immutable original downloads and document the legacy loss. Re-align and publish only after unchanged gates, exact bar coverage and new source inventory pass. Piano logical-voice labels must not misrepresent Liu's template names as real oboe/viola instruments."
     }
   ],
   "resolution": {
     "basis": "MEAS",
-    "finding": "The listening owner qualified the bar-15 return as beginning on D5 rather than the original B4, with the remaining top line following the opening, and made the intro consistent. That initial caller finding is resolved; the subsequently discovered repeat-visibility defect remains separate."
+    "finding": "The listening owner qualified the bar-15 return as beginning on D5 rather than the original B4, with the remaining top line following the opening, and made the intro consistent. That initial caller finding is resolved; the subsequently discovered repeat-visibility and source-attack defects remain separate."
   },
   "report": {
     "basis": "MEAS",
     "path": "tools/align/REPORT.md#schumann-kinderszenen-foreign-lands",
-    "finding": "The completed report matches the numerical gates, performed binary repeats, corrected quiet final attack, source attribution and one-page bar coverage. It must additionally record restoration of the suppressed printed repeat signs."
+    "finding": "The current report matches the existing numeric checks but does not yet resolve missing written cross-staff reattacks or suppressed repeat signs. Update it after complete source-voice extraction, restored notation and fresh unchanged-gate publication."
   },
   "gates": {
     "basis": "MEAS",
@@ -72,7 +79,7 @@
   },
   "version": {
     "basis": "INFERENCE",
-    "finding": "Original piano scoring; bars 1–8 twice, then 9–22 twice. The written return at 15 is retained rather than replaced with a literal copy of 1–8. Timing/order are coherent, but missing printed repeat signs currently prevent notation acceptance. Two source-staff aggregates are not separately recovered performed voices.",
+    "finding": "Original piano form: bars 1–8 twice, then 9–22 twice, retaining the altered written return at 15. Timing/order are coherent, but missing printed repeat signs and known legacy-MIDI attack losses currently prevent source/notation acceptance.",
     "physicalPerformingEdition": "Unknown; the identified source edition is not claimed as Donald Betts’s performing copy."
   },
   "status": {

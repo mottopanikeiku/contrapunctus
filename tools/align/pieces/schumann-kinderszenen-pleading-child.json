@@ -25,23 +25,20 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "isolated-voices",
+    "definitions": [
+      { "file": "SchumannOp15No04.ly", "before": "\\score" }
+    ],
+    "staves": ["up", "down"],
+    "global": "\\key d \\major \\time 2/4",
+    "silent": "s2*17"
   },
   "voices": [
-    {
-      "id": "upper",
-      "name": "Piano — upper staff",
-      "tracks": [
-        1
-      ]
-    },
-    {
-      "id": "lower",
-      "name": "Piano — lower staff",
-      "tracks": [
-        2
-      ]
-    }
+    { "id": "melody", "name": "Piano — written melody", "staff": "up", "music": "\\viola" },
+    { "id": "upper-inner", "name": "Piano — written upper inner voice", "staff": "up", "music": "\\violatwo" },
+    { "id": "cross-staff-inner", "name": "Piano — written cross-staff inner voice", "staff": "up", "music": "\\oboes" },
+    { "id": "lower-inner", "name": "Piano — written lower inner voice", "staff": "down", "music": "\\oboestwo" },
+    { "id": "bass", "name": "Piano — written bass", "staff": "down", "music": "\\bassvoices" }
   ],
   "bars": {
     "first": 1,
@@ -74,7 +71,7 @@
     "height": 297
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "EXT: Unchanged named sounding voices from Liu's Leichte Stücke (1900) source are extracted separately; these are written voice identities, not recovered recorded hands. MEAS: 250 canonical voice events contain the same 222 distinct pitch/onset pairs as the legacy MIDI, plus 28 coincident source-voice unisons. Two untied D3 bass quarters at q11/q15 (bars 6/8, beat 2; bassvoices source lines 187/189) are restored from legacy 0.75Q to the written 1Q; separate oboes D3 sixteenths at q11.75/q15.75 remain independent. No source pitches, attacks or written rests are removed. INFERENCE: Recording edition and articulation remain provisional; MIDI duration is not evidence of recording equivalence.",
     "Read content/listen/schumann-kinderszenen-pleading-child.mjs and cache/analysis/schumann-kinderszenen-pleading-child.txt. Editorial sections are coarse; they are not forced alignment anchors."
   ]
 }

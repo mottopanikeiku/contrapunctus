@@ -3,11 +3,11 @@
   "verdict": "fix",
   "defects": [
     {
-      "where": "cues[3].text/evidence",
+      "where": "cues[3].text",
       "severity": "minor",
-      "problem": "MEAS: The corrected early-swell cue still overstates the window rankings. Its 1:00 window is −38.2 dB, but the opening 0:00 window is quieter at −40.7 dB; the report’s five loudest windows also include 2:15 and 2:35. INFERENCE: Calling 1:00 the quietest point of the first half and listing only the early three as the loudest windows remains too absolute. The reported formal-order, later-coda and pedal-link defects are resolved by the broad, qualified replacement passages.",
-      "evidence": "cache/analysis/beethoven-109-vivace.txt — loudest five-second windows 1:40, 1:20, 2:15, 1:35, 2:35; opening −40.7 dB and 1:00 −38.2 dB. content/listen/beethoven-109-vivace.mjs:31.",
-      "fix": "Use one of the quietest early passages, or qualify the comparison as after the opening, and change the evidence to say the loudest windows include 1:40, 1:20 and 1:35 rather than implying that this is an exhaustive list."
+      "problem": "MEAS: The latest wording removes the first-half restriction and now calls 1:00 the quietest window after the opening. The later 2:55 and 3:50 windows are quieter. INFERENCE: The globalised minimum claim is still false; the revised loudest-window evidence is corrected.",
+      "evidence": "MEAS: cache/analysis/beethoven-109-vivace.txt:24,39,62,73 — 1:00 −38.2 dB; 2:55 −44.8 dB; 3:50 −42.7 dB.",
+      "fix": "Use exactly one of the quietest early passages, or the quietest window of the first half after the opening. Keep both the temporal restriction and the exclusion of the opening if retaining the superlative."
     }
   ]
 }

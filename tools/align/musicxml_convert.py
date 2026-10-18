@@ -74,8 +74,11 @@ def prime_initial_graces(voices, musicexp, parts, make_duration):
                 raise ValueError('Initial grace synchronization needs a sequential source voice')
             found = False
             for index, event in enumerate(music.elements):
-                if event.get_length() > 0:
-                    if not isinstance(event, (musicexp.ChordEvent, musicexp.RhythmicEvent)):
+                # 2.24.4's MultiMeasureRest inherits Music.get_length()==0;
+                # its actual written duration is stored separately.
+                length = event.duration.get_length() if isinstance(event, musicexp.MultiMeasureRest) else event.get_length()
+                if length > 0:
+                    if not isinstance(event, (musicexp.ChordEvent, musicexp.RhythmicEvent, musicexp.MultiMeasureRest)):
                         raise ValueError('Unsupported first timed element for initial grace synchronization')
                     grace = getattr(event, 'grace_elements', None)
                     lead = sum((e.get_length() for e in grace.elements), Fraction(0)) if grace else Fraction(0)
@@ -90,6 +93,8 @@ def prime_initial_graces(voices, musicexp, parts, make_duration):
     maximum = max((p[-1] for p in positions), default=Fraction(0))
     if maximum <= 0:
         raise ValueError('Declared initial grace is absent from converted music')
+    if any(0 < p[-1] < maximum for p in positions):
+        raise ValueError('Unequal existing initial grace groups require separate source-aware treatment')
     for part, name, music, index, event, lead in positions:
         if lead == maximum:
             continue

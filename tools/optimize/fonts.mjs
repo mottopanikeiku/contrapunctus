@@ -65,11 +65,12 @@ export async function optimizeFonts(textFiles, out = OUT) {
     const original = await source(file, sha);
     const font = fontkit.create(original);
     const included = points.filter((point) => covered(point, family) && font.hasGlyphForCodePoint(point));
-    // Latin, combining marks and shared punctuation/symbols stay together.
-    // A single arrow must not download every Greek/Cyrillic credit glyph.
-    const coreScripts = /[\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u;
-    const core = (point) => point <= 0x17f || coreScripts.test(String.fromCodePoint(point));
-    const groups = family === 'Noto Music' ? [included] : [included.filter(core), included.filter((point) => !core(point))];
+    // Keep the common Latin face small, as the original CSS did. Extended
+    // Latin and non-Latin scripts remain available without taxing every page.
+    const latinScripts = /[\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u;
+    const latin = (point) => latinScripts.test(String.fromCodePoint(point));
+    const core = (point) => point <= 0xff || point >= 0x2000 && point <= 0x206f || [0x131, 0x152, 0x153, 0x2bb, 0x2bc, 0x2c6, 0x2da, 0x2dc, 0x304, 0x308, 0x329, 0x20ac, 0x2122, 0x2191, 0x2193, 0x2212, 0x2215, 0xfeff, 0xfffd].includes(point);
+    const groups = family === 'Noto Music' ? [included] : [included.filter(core), included.filter((point) => !core(point) && latin(point)), included.filter((point) => !core(point) && !latin(point))];
     const weights = weight.split(' ').map(Number);
     const variationAxes = font.variationAxes.wght ? { wght: { min: weights[0], max: weights.at(-1) } } : undefined;
     const keepFeatures = ['kern', 'liga', 'clig', 'calt', 'rlig', 'ccmp', 'locl', 'mark', 'mkmk', 'onum', 'pnum', 'lnum', 'tnum', 'smcp', 'c2sc'];

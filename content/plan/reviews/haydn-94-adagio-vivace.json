@@ -1,0 +1,27 @@
+{
+  "id": "haydn-94-adagio-vivace",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[0].evidence; cues[3–4]; transitions[0]",
+      "severity": "major",
+      "problem": "EXT: The Vivace begins piano with the two violins, in a dominant-region phrase; the full-orchestra tonic G arrival comes four bars later. The first violin leads out of the Adagio rather than a written general pause separating the sections. MEAS: The large 1:32 boundary follows the very quiet 1:25 window and precedes the loud 1:35 window. INFERENCE: Treating that largest level change as the first Vivace bar conflates the quiet tempo entry with the subsequent forte, and the prose incorrectly makes tempo, metre and orchestral weight change simultaneously.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/3/35/IMSLP546546-PMLP34746-JHaydn_Symphony_No.94_fullscore_bh1855.pdf — printed p. 2: the violin link, four quiet violin bars of Vivace, then tutti. https://de.wikipedia.org/wiki/94._Sinfonie_(Haydn) — I, bars 18–22, dominant-region opening and subsequent tonic tutti. MEAS: cache/analysis/haydn-94-adagio-vivace.txt:43–47, boundary list:12.",
+      "fix": "Describe the sequence explicitly: Adagio dominant close/link, soft two-violin Vivace phrase, then the full-orchestra G arrival. Keep the approximate section marker if useful but use passage precision unless the quiet first bar is independently aligned; identify 1:32 as the nearby forte/weight change, not proof of the tempo’s first bar. Remove the unsupported general-pause device and the claim that weight changes at once with metre and tempo."
+    },
+    {
+      "where": "orchestra.timeline[0–2]",
+      "severity": "major",
+      "problem": "EXT: Flutes join the introduction, and trumpets and timpani participate prominently in the Vivace tutti passages, including the reprise and ending. MEAS: The current timeline never includes trumpets or timpani in any playing state, and omits the flute colour from its whole introductory state. INFERENCE: The sparse orchestration map therefore hides written, audible instrumental groups rather than giving a faithful broad overview.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/3/35/IMSLP546546-PMLP34746-JHaydn_Symphony_No.94_fullscore_bh1855.pdf — printed pp. 1–2, 4–5 and 12–18; especially the first forte on p. 2 and the reprise tutti on p. 12.",
+      "fix": "Include the introductory flute contribution and the trumpets/timpani in the corresponding broad tutti/reprise passages. Either add appropriately approximate states or explain the successive quiet and full-orchestra phases in broad paragraph states; do not invent exact instrumental entry times."
+    },
+    {
+      "where": "intro",
+      "severity": "minor",
+      "problem": "EXT: The score and Larner’s account show substantial working of the main theme through the development and return. INFERENCE: The unsupported opposition between several tunes and one theme worked hard misdescribes that thematic work; Howard’s list of three characters does not establish its absence.",
+      "evidence": "EXT: https://geraldlarner.com/work/haydn-symphony-no-94-in-g-major-surprise — discussion of the first movement’s main motif, development and interleaved recapitulatory themes. https://s9.imslp.org/files/imglnks/usimg/3/35/IMSLP546546-PMLP34746-JHaydn_Symphony_No.94_fullscore_bh1855.pdf — printed pp. 9–18.",
+      "fix": "Keep the useful promise of several thematic characters in the exposition, but remove the rather-than claim. A concrete account can contrast that varied exposition with the subsequent working and reappearance of the main motif."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "haydn-94-menuetto",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "intro; cues[4]; transitions[0–1].how; transitions[0].devices; orchestra.timeline[1]",
+      "severity": "major",
+      "problem": "EXT: The first violins share/double the Trio melody with the first bassoon, and continue alone during a substantial stretch where the bassoon rests. The strings are not merely accompaniment beneath an exposed bassoon solo throughout. The written join changes to piano rather than specifying a gradual diminuendo. INFERENCE: The solo-bassoon-over-strings narrative and bassoon-only lead state misrepresent the texture, and a frame-level drop alone does not establish a composed decrescendo.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/3/35/IMSLP546546-PMLP34746-JHaydn_Symphony_No.94_fullscore_bh1855.pdf — printed pp. 33–34: corresponding first-violin/bassoon melody, bassoon rests in the second strain, and later doubling. https://geraldlarner.com/work/haydn-symphony-no-94-in-g-major-surprise — Trio characterised through bassoon and violins together.",
+      "fix": "Describe the first-violin melody with first-bassoon doubling/contribution, noting that the bassoon rests in the middle. Include violins among the Trio leads and correct all dependent solo descriptions, including the da-capo transition. Describe the join as a sudden lighter dynamic/texture and remove decrescendo unless separately evidenced as an actual gradual performance feature."
+    },
+    {
+      "where": "cues[7].title/text/evidence",
+      "severity": "major",
+      "problem": "MEAS: The 3:30 dip is −27.5 dB, not quieter than everything before it: 3:00 and 3:15 are −28.5 dB. Activity then increases again at 3:35–3:40 before the final 3:45 decay. INFERENCE: Calling the 3:25–3:30 change the last loud chords/drop-away ending suppresses the remaining closing phrase and overstates the quietness ranking.",
+      "evidence": "MEAS: cache/analysis/haydn-94-menuetto.txt:63–72: −28.5 at 3:00/3:15; −10.8 at 3:25; −27.5 at 3:30; −18.9/−17.8 at 3:35/3:40; −28.6 at 3:45; duration 229.8 s.",
+      "fix": "Either describe the 3:25-to-3:30 contrast as an internal loud-to-soft turn followed by renewed activity, or move the ending cue to the actual closing stretch. Do not call 3:30 an unprecedented minimum or the terminal fade."
+    },
+    {
+      "where": "score comment; transitions[1].evidence; orchestra.source.locator",
+      "severity": "minor",
+      "problem": "EXT: The Trio continues onto printed p. 34, where the Menuetto da-capo instruction appears. INFERENCE: The cited movement range ending at p. 33 and the assertion that the da-capo direction is on p. 33 are inaccurate locators.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/3/35/IMSLP546546-PMLP34746-JHaydn_Symphony_No.94_fullscore_bh1855.pdf — PDF pp. 35–36 = printed pp. 33–34, with Men. D.C. at the end of printed p. 34.",
+      "fix": "Use printed pp. 30–34 for the movement/Trio range and printed p. 34 for the da-capo instruction."
+    }
+  ]
+}

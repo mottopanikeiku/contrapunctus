@@ -86,8 +86,10 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
   const started = performance.now();
   const all = await files(out);
   const pages = all.filter((file) => file.endsWith('.html'));
-  // Source text is scanned before JS minification can escape or drop glyphs.
-  const fontFiles = [...all.filter((file) => /\.(?:html|json)$/.test(file)), ...(await files(source)).filter((file) => /\.(?:js|css)$/.test(file))];
+  // Scan display text before minification. Search postings are encoded binary
+  // strings; their original page text is already covered by the HTML scan.
+  // abcjs embeds notation vectors rather than text for these font families.
+  const fontFiles = [...all.filter((file) => /\.(?:html|json)$/.test(file) && !/^assets\/search(?:\/|\.json$)/.test(path.relative(out, file).split(path.sep).join('/'))), ...(await files(source)).filter((file) => /\.(?:js|css)$/.test(file) && !path.relative(source, file).startsWith(`vendor${path.sep}`))];
   const fonts = await optimizeFonts(fontFiles, out);
   const art = JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'));
   const imageResult = await optimizeImages(out);

@@ -304,12 +304,20 @@ class MusicXMLConversion(unittest.TestCase):
   <part id="P1"><measure number="1">
     <attributes><divisions>4</divisions><time><beats>3</beats><beat-type>4</beat-type></time>
       <clef><sign>G</sign><line>2</line></clef></attributes>
+    <note><rest measure="yes"/><duration>12</duration><type>half</type><dot/></note>
+  </measure><measure number="2">
+    <note><rest measure="yes"/><duration>12</duration><type>half</type><dot/></note>
+  </measure><measure number="3">
     <note><pitch><step>E</step><octave>4</octave></pitch><duration>12</duration><type>half</type><dot/></note>
   </measure></part>
   <part id="P2"><measure number="1">
     <attributes><divisions>4</divisions><time><beats>3</beats><beat-type>4</beat-type></time>
       <clef><sign>F</sign><line>4</line></clef></attributes>
     <note><grace/><pitch><step>D</step><octave>3</octave></pitch><type>16th</type></note>
+    <note><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><type>half</type><dot/></note>
+  </measure><measure number="2">
+    <note><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><type>half</type><dot/></note>
+  </measure><measure number="3">
     <note><pitch><step>C</step><octave>3</octave></pitch><duration>12</duration><type>half</type><dot/></note>
   </measure></part>
 </score-partwise>''')
@@ -318,6 +326,7 @@ class MusicXMLConversion(unittest.TestCase):
         after, lily = self.convert(ET.tostring(xml, encoding='unicode'))
         self.assertEqual(before, after)
         self.assertEqual(lily.count('\\grace'), 2)
+        self.assertRegex(lily, r'\\grace\s*\{\s*s16\s*\}\s*R2\.\*2')
 
 
 

@@ -562,6 +562,7 @@ export async function mount(app) {
   }
   on(svg, 'pointerdown', (event) => {
     if (event.button !== 0) return;
+    if (!pointers.size) suppressClickUntil = 0;
     pointerRect = svg.getBoundingClientRect();
     pointers.set(event.pointerId, { x: event.clientX - pointerRect.left, y: event.clientY - pointerRect.top });
     if (!event.target.closest('[role="button"]')) svg.setPointerCapture(event.pointerId);

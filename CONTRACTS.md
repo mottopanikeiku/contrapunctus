@@ -228,6 +228,9 @@ shared-prefix length with the previous word, followed by the remaining suffix.
 `b` holds the original composer/recording ranking boosts. The client retains
 the existing title-prefix, word-prefix and arbitrary-substring scores and stable
 tie order; it does not replace substring search with a narrower word search.
+This index is not display text: font subsetting must exclude its packed `w`/`p`
+code points. Search display strings come from the row shards and indexed pages,
+not from the encoded vocabulary/postings file.
 
 Display rows live in `assets/search/<v>/<shard>.json`, arrays of
 `[type, title, sub, url]`, with `size` rows per shard (currently 16).
