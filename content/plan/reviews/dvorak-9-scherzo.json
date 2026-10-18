@@ -1,0 +1,13 @@
+{
+  "id": "dvorak-9-scherzo",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "orchestra.timeline",
+      "severity": "major",
+      "problem": "[EXT] Timpani participates in the trio, including the passage around bars 174–182, but every 208–330-second trio state omits it. [INFERENCE] The stronger 150-second state also persists through the reduced 180-second link, and no separate 375-second state restores the returning internal contrast.",
+      "evidence": "Score PDF pp. 112–117 and corresponding repeated material: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf ; cache/analysis/dvorak-9-scherzo.txt:63–69,75–92,102–113; docs/assets/js/room.js:486–498.",
+      "fix": "Review the trio’s timpani part alongside the triangle and include timpani in the appropriate broad states. Add reduced-link coverage around 180 seconds and restore the lighter internal-contrast state around 375 seconds before its later triangle punctuation. Preserve the already-correct exclusion of trombones and tuba."
+    }
+  ]
+}

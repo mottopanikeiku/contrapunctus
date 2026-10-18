@@ -94,8 +94,8 @@
   },
   "endpoints": {
     "first": [0.15, 0.5],
-    "last": [346.8, 347.4],
-    "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 347.0 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed."
+    "last": [346.45, 346.75],
+    "basis": "Opening A4/E4/A3 pizzicato occurs around 0.25 s; the stronger same-pitch entry around 2.54 s is a later repetition, not the beginning. The final pizzicato sonority occurs around 346.55 s after the preceding arpeggiated bars, not the earlier chord around 342.94 s. The final window includes the actual attack rather than its later 346.9 s decay. These source-pitch windows prevent collapsing the first three and final three bars onto repeated harmonies. Numerical and visual inspection only; no aural review is claimed."
   },
   "boundaries": [],
   "provenance": [

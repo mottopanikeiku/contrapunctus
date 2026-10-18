@@ -1,20 +1,5 @@
 {
   "id": "schumann-kinderszenen-pleading-child",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "intro",
-      "severity": "major",
-      "problem": "The assertion that every swell is the pianist's own contradicts the written hairpin that the guide itself correctly describes later.",
-      "evidence": "Printed p.7 / PDF p.6 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf has p,pp and a hairpin; cues[2] and transitions[1] already acknowledge it.",
-      "fix": "Describe the restrained p/pp range and the scope for shaping it, while acknowledging the written hairpin; remove the claim that every swell is unwritten."
-    },
-    {
-      "where": "cues[4].text",
-      "severity": "minor",
-      "problem": "The audio report does not establish literal silence at1:20: it records a low but finite -40.9dB relative window.",
-      "evidence": "cache/analysis/schumann-kinderszenen-pleading-child.txt line32:1:20,-40.9dB,0 detected onsets/s. A low decay level is not proof of digital or audible silence.",
-      "fix": "Use 'near silence' or 'a quiet decay by about1:20' rather than literal silence."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

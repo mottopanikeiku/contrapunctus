@@ -1,0 +1,20 @@
+{
+  "id": "schumann-kinderszenen-frightening",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "sections[4].mNote; cues[5]; transitions[3]",
+      "severity": "major",
+      "problem": "The cited original score does not print ritardando over the final closing system. Its visible ritardando is earlier, in the contrasting middle passage. The guide repeatedly attributes a closing ritardando to the wrong location. A falling level and decreasing onset count alone do not establish a performed tempo change at the close.",
+      "evidence": "Independently inspected printed p.17 / PDF p.16 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf . The ritardando appears in the first system; the final system has no such instruction. The report's1:48 novelty and1:55–2:00 level decline support return/decay, not an exact tempo measurement.",
+      "fix": "Remove the false closing-score attribution and revise the closing section note/cue/transition to describe the returning material, quiet cadence and decay. If asserting an actual extra slowing by Betts, provide independent tempo evidence and distinguish it from the printed score. Keep the genuine earlier ritardando description."
+    },
+    {
+      "where": "cues[2].text; cues[2].evidence; transitions[0].how",
+      "severity": "minor",
+      "problem": "The1:00/1:05 windows are among the loudest, not the overall peak:0:40 is louder. At the first Schneller the written pp marking remains unchanged, but the measured level does rise, so an unqualified statement that the dynamic does not rise is ambiguous.",
+      "evidence": "cache/analysis/schumann-kinderszenen-frightening.txt:0:40=-11.9dB,1:05=-12.3dB,1:00=-12.9dB;0:30=-17.6dB and0:35=-13.2dB. The score retains pp at Schneller.",
+      "fix": "Say 'among the loudest windows' for1:00/1:05 and, in the transition, explicitly say the written dynamic marking stays pp rather than implying no measured rise."
+    }
+  ]
+}

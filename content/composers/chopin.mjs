@@ -1,6 +1,6 @@
 export default {
   slug: 'chopin', name: 'Frédéric Chopin', given: 'Frédéric', family: 'Chopin',
-  born: { year: 1810, date: '1 March 1810', place: 'Żelazowa Wola, Duchy of Warsaw' },
+  born: { year: 1810, date: '1 March 1810 by his family’s reckoning; the parish register gives 22 February', place: 'Żelazowa Wola, Duchy of Warsaw' },
   died: { year: 1849, date: '17 October 1849', place: 'Paris' },
   era: 'romantic', featured: false,
   epithet: 'He made the piano sing through ornament, contrapuntal voice-leading and the unstable accents of Polish dance.',

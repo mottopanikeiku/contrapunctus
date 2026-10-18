@@ -1,20 +1,5 @@
 {
   "id": "schumann-kinderszenen-important-event",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "transitions[0].how",
-      "severity": "major",
-      "problem": "The second section does not retain the opening A-major tonal region: it turns towards D major. An unchanged written key signature is not an unchanged key.",
-      "evidence": "Printed p.10 / PDF p.9 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf ; https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No06/SchumannOp15No06.ly shows the middle's D-major chords and natural G. cache/analysis/schumann-kinderszenen-important-event.txt estimates Dmajor throughout0:15–0:35, returning to Amajor at0:40.",
-      "fix": "Retain the unchanged metre and ff/texture contrast but replace the unchanged-key assertion with the turn towards D major (the subdominant region). Record the score and report corroboration in evidence."
-    },
-    {
-      "where": "cues[2].evidence",
-      "severity": "minor",
-      "problem": "The citation says Schumann's clumsy/narrow-minded judgement is quoted at schumann-portal.de/3213.html, but that page does not contain that sentence. The GMTH paper does support it.",
-      "evidence": "Opened https://www.schumann-portal.de/3213.html and https://storage.gmth.de/proceedings/articles/117/pdf/gmth-proceedings-artikel-117.pdf ; the latter prints the judgement on its second PDF page, footnote2 identifying the1839 Dorn letter.",
-      "fix": "Cite the GMTH paper for that judgement; remove the false attribution of that particular quotation to the portal review. The factual public cue may remain."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

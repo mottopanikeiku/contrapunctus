@@ -61,6 +61,43 @@
       ]
     },
     {
+      "name": "Saint Petersburg",
+      "country": "Russian Empire (today Russia)",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1863",
+      "kind": "heard",
+      "what": "In spring he attended all six of Wagner’s Saint Petersburg concerts, as a conservatory student.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Chronology — Tchaikovsky Research",
+          "url": "http://en.tchaikovsky-research.net/pages/Chronology"
+        },
+        {
+          "title": "Pyotr Ilyich Tchaikovsky — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"
+        }
+      ]
+    },
+    {
+      "name": "Kamenka, Ukraine",
+      "country": "Russian Empire (today Russia)",
+      "lat": 49.0333,
+      "lon": 32.1,
+      "from": "1865",
+      "to": "1884",
+      "kind": "lived",
+      "what": "Repeated summers at his sister Aleksandra Davydova’s estate, where he settled in April 1881 and began Piano Concerto No. 2.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Chronology — Tchaikovsky Research",
+          "url": "http://en.tchaikovsky-research.net/pages/Chronology"
+        }
+      ]
+    },
+    {
       "name": "Pavlovsk",
       "country": "Russian Empire (today Russia)",
       "lat": 59.6833,
@@ -184,23 +221,6 @@
       ]
     },
     {
-      "name": "Kamenka, Ukraine",
-      "country": "Russian Empire (today Russia)",
-      "lat": 49.0333,
-      "lon": 32.1,
-      "from": "1865",
-      "to": "1884",
-      "kind": "lived",
-      "what": "Repeated summers at his sister Aleksandra Davydova’s estate, where he settled in April 1881 and began Piano Concerto No. 2.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Chronology — Tchaikovsky Research",
-          "url": "http://en.tchaikovsky-research.net/pages/Chronology"
-        }
-      ]
-    },
-    {
       "name": "Maydanovo, near Klin",
       "country": "Russian Empire (today Russia)",
       "lat": 56.3305,
@@ -215,28 +235,6 @@
         {
           "title": "Chronology — Tchaikovsky Research",
           "url": "http://en.tchaikovsky-research.net/pages/Chronology"
-        }
-      ]
-    },
-    {
-      "name": "Frolovskoye, near Klin",
-      "country": "Russian Empire (today Russia)",
-      "lat": 56.2814,
-      "lon": 36.7811,
-      "from": "1888-05-06",
-      "to": "1891-05",
-      "kind": "lived",
-      "what": "Settled in a new house and wrote the Fifth Symphony and <i>Hamlet</i>; the Sleeping Beauty commission came in October.",
-      "work": "Symphony No. 5",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Chronology — Tchaikovsky Research",
-          "url": "http://en.tchaikovsky-research.net/pages/Chronology"
-        },
-        {
-          "title": "Tchaikovsky State House-Museum — Wikipedia (English)",
-          "url": "https://en.wikipedia.org/wiki/Tchaikovsky_State_House-Museum"
         }
       ]
     },
@@ -274,18 +272,24 @@
       ]
     },
     {
-      "name": "Music Hall, New York",
-      "country": "United States",
-      "lat": 40.765,
-      "lon": -73.98,
-      "from": "1891-05-05",
-      "kind": "travelled",
-      "what": "Conducted his Coronation March at the opening concert of Carnegie’s new hall, on a tour that included Baltimore and Philadelphia.",
+      "name": "Frolovskoye, near Klin",
+      "country": "Russian Empire (today Russia)",
+      "lat": 56.2814,
+      "lon": 36.7811,
+      "from": "1888-05-06",
+      "to": "1891-05",
+      "kind": "lived",
+      "what": "Settled in a new house and wrote the Fifth Symphony and <i>Hamlet</i>; the Sleeping Beauty commission came in October.",
+      "work": "Symphony No. 5",
       "status": "documented",
       "sources": [
         {
           "title": "Chronology — Tchaikovsky Research",
           "url": "http://en.tchaikovsky-research.net/pages/Chronology"
+        },
+        {
+          "title": "Tchaikovsky State House-Museum — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Tchaikovsky_State_House-Museum"
         }
       ]
     },
@@ -299,6 +303,22 @@
       "kind": "premiere",
       "what": "Premieres of <i>The Sleeping Beauty</i> (1890), <i>The Queen of Spades</i> (December 1890), and <i>Iolanta</i> with <i>The Nutcracker</i> (1892).",
       "work": "The Sleeping Beauty; The Queen of Spades; The Nutcracker",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Chronology — Tchaikovsky Research",
+          "url": "http://en.tchaikovsky-research.net/pages/Chronology"
+        }
+      ]
+    },
+    {
+      "name": "Music Hall, New York",
+      "country": "United States",
+      "lat": 40.765,
+      "lon": -73.98,
+      "from": "1891-05-05",
+      "kind": "travelled",
+      "what": "Conducted his Coronation March at the opening concert of Carnegie’s new hall, on a tour that included Baltimore and Philadelphia.",
       "status": "documented",
       "sources": [
         {

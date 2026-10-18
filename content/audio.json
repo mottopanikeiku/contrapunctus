@@ -160,6 +160,13 @@
   "artist": "Ignace Jan Paderewski; Chopin",
   "duration": 130
  },
+ "archive:78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a/Pagliacci - Vesti la giubba (On With the P - Enrico Caruso.mp3": {
+  "stream": "https://archive.org/download/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a/Pagliacci%20-%20Vesti%20la%20giubba%20(On%20With%20the%20P%20-%20Enrico%20Caruso.mp3",
+  "page": "https://archive.org/details/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a",
+  "license": "",
+  "artist": "Enrico Caruso; Ruggiero Leoncavallo",
+  "duration": 195.96
+ },
  "archive:78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/POMP AND CIRC - Chicago Symphony Orchestra and Grand Organ.mp3": {
   "stream": "https://archive.org/download/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/POMP%20AND%20CIRC%20-%20Chicago%20Symphony%20Orchestra%20and%20Grand%20Organ.mp3",
   "page": "https://archive.org/details/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b",
@@ -194,6 +201,13 @@
   "license": "",
   "artist": "Feodor Chaliapin; Poushkin; Rimsky-Korsakow",
   "duration": 231
+ },
+ "archive:78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a/Vesti la Giubba (On with the Motley) - Enrico Caruso.mp3": {
+  "stream": "https://archive.org/download/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a/Vesti%20la%20Giubba%20(On%20with%20the%20Motley)%20-%20Enrico%20Caruso.mp3",
+  "page": "https://archive.org/details/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a",
+  "license": "",
+  "artist": "Enrico Caruso; Leoncavallo",
+  "duration": 123
  },
  "archive:Beethoven_Sinf5-1_BPhO-Nikisch_EQ/nikisch_beethovensymphony5mvt1_eq.mp3": {
   "stream": "https://archive.org/download/Beethoven_Sinf5-1_BPhO-Nikisch_EQ/nikisch_beethovensymphony5mvt1_eq.mp3",
@@ -789,6 +803,13 @@
   "license": "CC BY-SA 4.0",
   "artist": "Frédéric Chopin",
   "duration": 218.8399375
+ },
+ "File:Fryderyk Chopin - Nocturne op. 9 n.2 Es-dur - Patrizia Prati.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg/Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Frédéric Chopin",
+  "duration": 302.05527083333334
  },
  "File:Grieg+plays+Grieg+Wedding+Day+(1903).ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg.mp3",
@@ -1560,12 +1581,61 @@
   "artist": "Sviatoslav Richter , Witold Rowicki , Warsaw National Philharmonic Orchestra",
   "duration": 867.0133333333333
  },
+ "File:Robert Schumann - scenes from childhood, op. 15 - i. of foreign lands and peoples.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_i._of_foreign_lands_and_peoples.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_i._of_foreign_lands_and_peoples.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_i._of_foreign_lands_and_peoples.ogg",
+  "license": "Public domain",
+  "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+  "duration": 111.88244897959184
+ },
  "File:Robert Schumann - scenes from childhood, op. 15 - ii. a curious story.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_ii._a_curious_story.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_ii._a_curious_story.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_ii._a_curious_story.ogg",
   "license": "Public domain",
   "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
   "duration": 97.22775510204082
+ },
+ "File:Robert Schumann - scenes from childhood, op. 15 - iv. pleading child.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_iv._pleading_child.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_iv._pleading_child.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_iv._pleading_child.ogg",
+  "license": "Public domain",
+  "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+  "duration": 82.8604081632653
+ },
+ "File:Robert Schumann - scenes from childhood, op. 15 - v. happiness.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_v._happiness.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_v._happiness.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_v._happiness.ogg",
+  "license": "Public domain",
+  "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+  "duration": 89.93959183673469
+ },
+ "File:Robert Schumann - scenes from childhood, op. 15 - vi. an important event.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vi._an_important_event.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vi._an_important_event.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_vi._an_important_event.ogg",
+  "license": "Public domain",
+  "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+  "duration": 60.02938775510204
+ },
+ "File:Robert Schumann - scenes from childhood, op. 15 - vii. dreaming.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_vii._dreaming.ogg",
+  "license": "Public domain",
+  "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+  "duration": 202.99755102040817
+ },
+ "File:Robert Schumann - scenes from childhood, op. 15 - x. almost too serious.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_x._almost_too_serious.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_x._almost_too_serious.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_x._almost_too_serious.ogg",
+  "license": "Public domain",
+  "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+  "duration": 117.42040816326531
+ },
+ "File:Robert Schumann - scenes from childhood, op. 15 - xii. child falling asleep.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_xii._child_falling_asleep.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_xii._child_falling_asleep.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_xii._child_falling_asleep.ogg",
+  "license": "Public domain",
+  "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+  "duration": 121.46938775510205
  },
  "File:Satie Gymnopedie No 1 performed by Michael Laucke.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac/Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac.mp3",

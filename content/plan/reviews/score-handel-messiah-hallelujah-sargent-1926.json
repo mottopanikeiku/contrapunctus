@@ -1,0 +1,73 @@
+{
+  "id": "handel-messiah-hallelujah-sargent-1926",
+  "verdict": "fix",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, provenance and visual review; not aural review.",
+  "defects": [
+    {
+      "basis": "MEAS",
+      "where": "tools/align/REPORT.md",
+      "problem": "The score and six-page sheet are published, but no per-piece report heading was present at review.",
+      "fix": "Append the id-specific report with the actual final metrics below, 94 unrepeated bars / 4927 notes / 12 source staves, six sheet pages, Mutopia 459 / Joshua Koo / Public Domain and honestly unidentified underlying edition. Document opening 3.08 s, final D-major attack 250.403829787234 s, the independently inspected 256.7 s pitched-decay display end versus noisy whole-file RMS activity to 265.05578231292515 s, and provisional/no-aural-review limits. Do not alter the passing score to address this report-only defect."
+    }
+  ],
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/handel-messiah-hallelujah-sargent-1926-checks.json",
+    "primaryMedianSeconds": 0.04895465455680892,
+    "primaryP95Seconds": 0.21352740990013191,
+    "maximumAnchorDeviationSeconds": 0.03147392290249407,
+    "maximumLocalRegionMedianSeconds": 0.05493010324697423,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 94,
+    "distinctEngravedBars": 94,
+    "sheetPages": 6,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "Score traverses 1–94 once; all SVG glyph bar identities equal the index set. All 4927 note bar/voice indices resolve, durations are positive, and bar times strictly increase. Engraved first and last pages were inspected, including the real closing bars 92–94. Listening cues use seconds rather than structured bar anchors."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/handel-messiah-hallelujah-sargent-1926-0-11.08.png",
+      "work/handel-messiah-hallelujah-sargent-1926-8-16.png",
+      "work/handel-messiah-hallelujah-sargent-1926-32-40.png",
+      "work/handel-messiah-hallelujah-sargent-1926-48-56.png",
+      "work/handel-messiah-hallelujah-sargent-1926-127.679-139.679.png",
+      "work/handel-messiah-hallelujah-sargent-1926-144-152.png",
+      "work/handel-messiah-hallelujah-sargent-1926-184-192.png",
+      "work/handel-messiah-hallelujah-sargent-1926-192-200.png",
+      "work/handel-messiah-hallelujah-sargent-1926-216-224.png",
+      "work/handel-messiah-hallelujah-sargent-1926-246.404-258.404.png",
+      "work/handel-messiah-hallelujah-sargent-1926-248-256.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified in the inspected windows. The final D-major chord begins near 250.4 s and its pitched bands disappear near 256.7 s; later transfer noise is not treated as nine extra seconds of sustained music. Surface noise and crowded textures do not verify each instrumental line separately."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459",
+    "opened": true,
+    "edition": "Unknown: the Mutopia catalogue does not identify a source edition",
+    "encoder": "Joshua Koo",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete 94-bar Hallelujah traversal for chorus and orchestral source staves; no gross cut or alternate musical order identified in inspected pitch-energy evidence. The source defines eight instrumental staves and SATB, not separately recovered recorded stems; no independent double-bass line or realised continuo is invented.",
+    "physicalPerformingEdition": "Unknown; neither the unidentified symbolic source edition nor Sargent’s performing copy is invented."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label must remain."
+}

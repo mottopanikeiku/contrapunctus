@@ -440,6 +440,24 @@ export default {
         "note": "Introduction region: violas and cellos begin the line; wind and horn responses enter around the low strings."
       },
       {
+        "t": 60,
+        "playing": ["flutes", "oboes", "clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["timpani", "violins-1"],
+        "note": "The introduction’s forceful wind, horn and string gestures include timpani (printed p. 3, PDF p. 5). Broadly anchored to the report’s strong 1:00–1:05 rise, not an exact drum entrance."
+      },
+      {
+        "t": 74,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "oboes", "horns"],
+        "note": "The introduction reduces to wind figures, horn replies and quieter strings (printed p. 4). The report’s 1:14 boundary and quiet 1:15–1:20 windows anchor the change of scale."
+      },
+      {
+        "t": 96,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["horns", "trumpets", "trombones"],
+        "note": "Later introductory gestures add trumpets and trombones to winds and strings (printed p. 5). Broad placement follows the report’s 1:36 boundary and renewed stronger gestures before the Allegro."
+      },
+      {
         "t": 120,
         "playing": [
           "flutes",
@@ -460,6 +478,12 @@ export default {
           "violins-1"
         ],
         "note": "Main-subject region: horn call and string response develop into fuller orchestral statements."
+      },
+      {
+        "t": 150,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["horns", "trombones", "violins-1"],
+        "note": "Main-subject climax: trombones and timpani reinforce the full wind, brass and string scoring (printed p. 11, PDF p. 13). The 2:30 window is one of the report’s strongest."
       },
       {
         "t": 180,
@@ -562,6 +586,30 @@ export default {
           "violins-1"
         ],
         "note": "Recapitulation region: the main subject returns, followed by lighter secondary and closing-theme scoring."
+      },
+      {
+        "t": 440,
+        "playing": ["flutes", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes"],
+        "note": "Secondary return: the strings prepare a quiet bed for the solo flute’s transposed melody (printed pp. 52–53). The 7:15–7:30 reduction anchors this lighter region, not the flute’s first note."
+      },
+      {
+        "t": 476,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trombones", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "oboes", "violins-1"],
+        "note": "The secondary material expands through wind and string doubling, with horn and trombone reinforcement (printed p. 58). Broad placement follows the 7:56 boundary and the stronger 8:00 window."
+      },
+      {
+        "t": 505,
+        "playing": ["flutes", "oboes", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "oboes"],
+        "note": "The expanded secondary return thins to wind phrases and strings (printed p. 62), matching the recorded withdrawal across 8:25–8:35 before the closing theme."
+      },
+      {
+        "t": 520,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes"],
+        "note": "Closing-theme return: solo flute over quieter strings, followed by oboe, clarinet and bassoon support (printed p. 63). This broad state starts with the 8:40–8:55 rise, not the previous brass-led main subject."
       },
       {
         "t": 550,

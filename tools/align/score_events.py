@@ -68,6 +68,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     voices = cfg['voices']
     mode = extraction['mode']
     source_checks = {}
+    if cfg['source'].get('musicxml'):
+        source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note tie emission'
     if cfg['source'].get('patches'):
         source_checks['derivativePatches'] = cfg['source']['patches']
     if mode == 'isolated-voices':

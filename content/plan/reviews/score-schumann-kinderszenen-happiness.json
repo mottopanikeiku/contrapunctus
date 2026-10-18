@@ -1,0 +1,79 @@
+{
+  "id": "schumann-kinderszenen-happiness",
+  "verdict": "fix",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, provenance, report and visual review; not aural review.",
+  "defects": [
+    {
+      "basis": "MEAS",
+      "where": "content/listen/schumann-kinderszenen-happiness.mjs: sections, form cues and transitions into-flat-side/da-capo/second-flat-side",
+      "problem": "The listening text still places the first B at 28 s and the da capo/opening music at 46 s, based on printed-tempo arithmetic. The inspected audio/score traversal instead places bar 17 at 33.637 s and the returning G-sharp pickup at 51.825 s, followed by bar 9 at 52.546 s. At 46 s the first B is still underway. This directly contradicts the now-supported performed repeat order, although no structured bar pointers are present.",
+      "fix": "Have the listening-file owner update the affected section/cue/transition times and their evidence to the provisional measured map: first B near 33.64 s, returning pickup near 51.83 s (A downbeat near 52.55 s), second B near 69.37 s. Remove the obsolete 44-second-pass calculation as evidence of an observed 46-second return. Describe the inferred AABAB traversal without claiming a renewed extra A repetition or an aural review. Preserve the passing score and engraved bar identities."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#schumann-kinderszenen-happiness",
+    "finding": "The per-piece report agrees with recomputed gates, 42 occurrences / 673 notes / 81 quarter units, partial-bar return, source licence and real pickup packaging. It appropriately labels the performed order as inferred and the timing as provisional."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/schumann-kinderszenen-happiness-checks.json",
+    "primaryMedianSeconds": 0.04576719576720478,
+    "primaryP95Seconds": 0.2802464096749768,
+    "maximumAnchorDeviationSeconds": 0.04576719576720478,
+    "maximumLocalRegionMedianSeconds": 0.05211892164271603,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 42,
+    "distinctEngravedBars": 25,
+    "sheetPages": 1,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "Actual SVG/index bars are 0–24, including real pickup glyphs in bar 0. Score order is 0–24, then the last 0.5 quarter of bar 8 and bars 9–24. All 673 note indices resolve, durations are positive, and bar occurrence times strictly increase. The single engraved page was visually inspected."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/schumann-kinderszenen-happiness-0-8.4.png",
+      "work/schumann-kinderszenen-happiness-8-16.png",
+      "work/schumann-kinderszenen-happiness-20-36.png",
+      "work/schumann-kinderszenen-happiness-37.9707-49.9707.png",
+      "work/schumann-kinderszenen-happiness-40-48.png",
+      "work/schumann-kinderszenen-happiness-40-56.png",
+      "work/schumann-kinderszenen-happiness-48-56.png",
+      "work/schumann-kinderszenen-happiness-56-64.png",
+      "work/schumann-kinderszenen-happiness-62-78.png",
+      "work/schumann-kinderszenen-happiness-64-72.png",
+      "work/schumann-kinderszenen-happiness-80-88.png",
+      "work/schumann-kinderszenen-happiness-83.8122-89.9614.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified. Both A and B returns have corresponding melodic/bass contours; no second compressed A cycle is required on the return. Earlier coarse 46-second return inference is superseded by this evidence."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=372",
+    "opened": true,
+    "edition": "Leichte Stücke, 1900",
+    "encoder": "Ying-Chun Liu",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Original piano scoring with AABAB performed order: source writes A+A+B, followed here by the returning pickup and A+B rather than a complete second A+A+B traversal. Source staff aggregation does not identify separately recovered performed voices.",
+    "physicalPerformingEdition": "Unknown; the source edition is identified, not claimed as Donald Betts’s performing copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The score itself passes; the repeat-related listening-cue contradiction remains to be resolved by its owner."
+}

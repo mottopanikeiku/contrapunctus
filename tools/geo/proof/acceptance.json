@@ -1,0 +1,71 @@
+{
+  "measurementLabel": "MEAS",
+  "build": {
+    "command": "/usr/bin/time -f 'BUILD elapsed=%e s maxrss=%M KB' node src/build.mjs",
+    "output": [
+      "map: 60 composers, 361 city groups, 409 dated overlaps; 1163 ms",
+      "comparisons: 29 published, 2 held (chopin-nocturne-op9-2-colours, leoncavallo-vesti-caruso)",
+      "built 116 pages: 60 composers, 7 eras, 2 long pages",
+      "recordings: 252 published, 125 awaiting review",
+      "BUILD elapsed=6.17 s maxrss=249416 KB"
+    ],
+    "warningsEmitted": false
+  },
+  "sizes": {
+    "command": "Node fs.readFile + zlib.gzipSync(bytes, { level: 9 })",
+    "assets/data/geo/base.json": { "bytes": 339916, "gzipBytes": 133062 },
+    "assets/data/geo/index.json": { "bytes": 615257, "gzipBytes": 70212 },
+    "assets/data/geo/mahler.json": { "bytes": 50219, "gzipBytes": 7072 },
+    "assets/data/geo/mahler.svg": { "bytes": 15404, "gzipBytes": 4893 },
+    "assets/js/atlas-map.js": { "bytes": 27875, "gzipBytes": 8614 },
+    "assets/css/atlas-map.css": { "bytes": 20147, "gzipBytes": 5414 }
+  },
+  "animation": {
+    "command": "CDP Runtime.evaluate: click [data-action=time-play], sample 180 requestAnimationFrame intervals, click again to pause",
+    "viewport": [1440, 900],
+    "startYear": 1900,
+    "endYear": 1904,
+    "frames": 180,
+    "meanMilliseconds": 16.702222222155978,
+    "medianMilliseconds": 16.69999999999709,
+    "p95Milliseconds": 16.700000000004366,
+    "maximumMilliseconds": 33.30000000000291,
+    "note": "Foreground Chromium on the shared workstation; the maximum was a two-refresh interval. This is a measurement, not a guarantee for every device."
+  },
+  "interaction": {
+    "method": "Real Chromium via browser helpers and a private Chrome DevTools Protocol connection; no mocked player or geography",
+    "desktopViewport": [1440, 900],
+    "mobileViewport": [390, 844],
+    "deepLink": "atlas-map.html?year=1900#c-mahler",
+    "mahlerNumberedRouteStops": 50,
+    "keyboardCameoFocus": "Input.dispatchKeyEvent Enter on .am-person[data-composer=mahler] produced #c-mahler and 50 route stops",
+    "playbackCommand": "Click a .am-recordings .am-listen button, then read window.CP.player.track.id",
+    "trackBefore": "mahler-2-allegro-maestoso",
+    "trackAfter": "mahler-2-andante-moderato",
+    "persistentPlayer": "The selected Mahler track remained loaded after app navigation to composers/mahler.html#places; the Map DOM unmounted",
+    "initialGeoRequests": ["index.json", "base.json"],
+    "lazyComposerDetails": "mahler.json loads on composer focus",
+    "vienna1790": ["Joseph Haydn: 1790-10–1790-12-15", "Wolfgang Amadeus Mozart: 1781-03–1791-12-05"],
+    "vienna1790Pair": ["haydn", "mozart"],
+    "touchPan": "Input.dispatchTouchEvent changed the map translation",
+    "touchPinch": "Input.dispatchTouchEvent changed map scale from 0.668859649122807 to 1.114766081871345",
+    "reducedMotion": "Emulation.setEmulatedMedia prefers-reduced-motion=reduce: computed star and travel animationName both none",
+    "mobileHorizontalOverflow": false,
+    "mobileSliderBottom": 768,
+    "mobilePlayerTop": 770.078125
+  },
+  "screenshots": [
+    "desktop-1805.png",
+    "desktop-1900.png",
+    "desktop-vienna-1790.png",
+    "desktop-mahler-playing.png",
+    "desktop-composer-places.png",
+    "mobile-1805.png",
+    "mobile-1900.png",
+    "mobile-vienna-1790.png",
+    "mobile-mahler-playing.png",
+    "mobile-composer-places.png"
+  ],
+  "historicalMethod": "Documented dated co-presence is not proof of a meeting. Missing end dates are point events. Inferred last-known residences never enter encounter calculations. Present-day borders are orientation aids, not historical borders.",
+  "scope": "No git commands. No changes to room.js, app.js or player.js. Missing composers were skipped during earlier 48- and 53-composer builds; the final build had all 60 source files."
+}

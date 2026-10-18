@@ -3,11 +3,11 @@
   "verdict": "fix",
   "defects": [
     {
-      "where": "transitions[0].how; sections[1]; cues[1]",
-      "severity": "major",
-      "problem": "The second part is not uninterrupted staccato with only a change of melodic direction: it turns towards G-major harmony and includes slurred figures, sustained chords and a chromatic run before the opening gesture returns. The score also repeats this second part with alternative endings, which the guide does not explain.",
-      "evidence": "Inspected printed p.6 / PDF p.5 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf ; complete encoding https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No03/SchumannOp15No03.ly . cache/form/schumann-kinderszenen-blind-mans-buff.txt candidate1 records the13-second recurrence; analysis report's middle windows support the G-major region.",
-      "fix": "Retain the familiar sfp gesture at the join, but remove the claim that staccato continues unbroken and that only melodic direction changes. Explain the intervening sustained/slurred contrast and the second-part repeat (a section mNote or revised cue is sufficient; no mandatory extra section). Keep approximate timings explicitly passage-level."
+      "where": "sections[1].mNote",
+      "severity": "minor",
+      "problem": "The cue correctly qualifies the repeat omission as apparent, but the section note states it as certain. Duration arithmetic at the printed metronome mark does not independently measure Betts's actual tempo or establish whether the repeat was taken.",
+      "evidence": "cues[1].text says 'appears not'; its evidence assumes quaver=138. cache/form/schumann-kinderszenen-blind-mans-buff.txt explicitly warns that its recurring windows are not barlines or aural verification.",
+      "fix": "Qualify the section note to match the cue, e.g. 'repeat sign with endings; apparently not played twice here', or leave the performance's repeat status uncertain. The corrected articulation and formal-contrast descriptions otherwise pass."
     }
   ]
 }

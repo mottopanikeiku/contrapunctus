@@ -483,6 +483,12 @@ export default {
         "note": "Main-material return: fuller orchestral weight restores the emphatic scherzo character."
       },
       {
+        "t": 180,
+        "playing": ["clarinets", "horns", "timpani", "violas", "cellos", "basses"],
+        "lead": ["clarinets", "cellos"],
+        "note": "Reduced link: clarinet and horn fragments, low-string figures and quiet timpani remain after the stronger scherzo scoring (printed pp. 111–112). The report drops through 3:00–3:20 before the trio."
+      },
+      {
         "t": 208,
         "playing": [
           "flutes",
@@ -504,9 +510,9 @@ export default {
       },
       {
         "t": 238,
-        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["clarinets", "violins-1"],
-        "note": "Trio continuation: selective triangle rolls and punctuations colour the woodwind/string dialogue (bars 178–192). Broadly anchored to the 3:58 change."
+        "note": "Trio continuation: quiet timpani underpin selected phrases while triangle rolls and punctuations colour the woodwind/string dialogue (around bars 176–192, including printed p. 115). Broadly anchored to the 3:58 change."
       },
       {
         "t": 266,
@@ -516,9 +522,9 @@ export default {
       },
       {
         "t": 308,
-        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "violins-1"],
-        "note": "Later trio phrases again include triangle colour (bars 224–239), followed by rests before the scherzo. Placement is approximate around the 5:08 change, not a continuous sounding claim."
+        "note": "Later trio phrases include timpani punctuation and triangle colour (around bars 224–239), followed by rests before the scherzo. Placement is approximate around the 5:08 change, not a continuous percussion claim."
       },
       {
         "t": 330,
@@ -548,6 +554,12 @@ export default {
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "violins-1"],
         "note": "After the returning opening’s triangle roll, the scherzo continues in its lighter wind-and-string texture; the report drops at 5:35."
+      },
+      {
+        "t": 375,
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "lead": ["flutes", "oboes"],
+        "note": "The internal contrast returns with lighter wind-led phrases and quieter strings before its later triangle punctuation. The sharp 6:15 level drop anchors this change from the stronger scherzo."
       },
       {
         "t": 407,

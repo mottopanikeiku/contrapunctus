@@ -1,0 +1,13 @@
+{
+  "id": "schumann-kinderszenen-knight-of-the-hobbyhorse",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "intro; cues[0].text; cues[0].evidence; transitions[0].how",
+      "severity": "major",
+      "problem": "The opening right-hand rest lasts a quaver, not the whole first crotchet beat. The right hand already enters on the second half of beat one, so describing a full first-beat rest followed simply by later-beat chords misstates the central syncopation.",
+      "evidence": "Independently inspected printed p.13 / PDF p.12 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf at enlarged scale. https://storage.gmth.de/proceedings/articles/117/pdf/gmth-proceedings-artikel-117.pdf figures3–6 analyse the displaced right-hand grouping against the left-hand3/4 layer.",
+      "fix": "Specify the initial quaver rest and offbeat right-hand entry against the left-hand pulse; remove the whole-first-beat-rest assertion and the implication that all chords simply fall on later crotchet beats. Preserve the valid repeat/form evidence and timing."
+    }
+  ]
+}
