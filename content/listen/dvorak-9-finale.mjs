@@ -220,22 +220,13 @@ export default {
       "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     },
     {
-      "t": 665,
+      "t": 683,
       "kind": "music",
       "title": "The last crest is sustained",
       "text": "The final arrival keeps its recorded weight across several windows before the decay. Listen for the difference between a strong attack and the sustained sound that remains after it.",
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/dvorak-9-finale.txt: The report’s strongest windows lie at 11:00, 11:10 and 11:15; level then falls from roughly −10 dB at 11:25 to −27 dB at 11:40."
-    },
-    {
-      "t": 683,
-      "kind": "listen",
-      "title": "The chord outlasts the attack",
-      "text": "At the close, distinguish the final chord’s initial impact from its remaining resonance. The length of that decay is a feature of this recording, not a new statement of the theme.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     }
   ],
   "transitions": [

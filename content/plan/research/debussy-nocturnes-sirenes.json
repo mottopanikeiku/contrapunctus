@@ -136,7 +136,7 @@
     },
     "recording": {
       "value": "Rule 3 territorial pre-1963 publication basis; US public-domain status not established; publication separately blocked by performer identity",
-      "status": "inferred",
+      "status": "documented",
       "sourceIds": [
         "stuart",
         "archive",

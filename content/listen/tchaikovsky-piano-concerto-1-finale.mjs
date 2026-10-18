@@ -136,15 +136,6 @@ export default {
       "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
     },
     {
-      "t": 272,
-      "kind": "listen",
-      "title": "Major-mode enlargement",
-      "text": "The final part of the concerto gives the broad melody an expanded B♭-major setting. The tonal destination differs from the first movement’s B♭-minor main argument.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
-    },
-    {
       "t": 275,
       "kind": "music",
       "title": "A measured accumulation",

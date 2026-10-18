@@ -3,7 +3,7 @@
   "work": {
     "title": "Variations on an Original Theme “Enigma”",
     "catalogue": "Op. 36",
-    "movement": "II. “H.D.S-P.” (Allegro)",
+    "movement": "II. “H.D.S.-P.” (Allegro)",
     "version": {
       "value": null,
       "status": "unknown",
@@ -148,7 +148,7 @@
         }
       ]
     },
-    "creditLine": "Edward Elgar, II. “H.D.S-P.” (Allegro), Enigma Variations, Op. 36; Hallé Orchestra, John Barbirolli, attributed to 1947. Public Domain Archive → Internet Archive → Wikimedia Commons. Territorial PD-EU-audio basis; no worldwide recording clearance asserted.",
+    "creditLine": "Edward Elgar, II. “H.D.S.-P.” (Allegro), Enigma Variations, Op. 36; Hallé Orchestra, John Barbirolli, attributed to 1947. Public Domain Archive → Internet Archive → Wikimedia Commons. Territorial PD-EU-audio basis; no worldwide recording clearance asserted.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
@@ -161,7 +161,7 @@
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata for II. “H.D.S-P.” (Allegro)",
+      "title": "Wikimedia Commons — structured and embedded metadata for II. “H.D.S.-P.” (Allegro)",
       "url": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_II._H.D.S.-P.ogg#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-17"

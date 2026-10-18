@@ -1,0 +1,73 @@
+{
+  "id": "bach-cello-suite-1-prelude",
+  "verdict": "fix",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, provenance and visual review; not aural review.",
+  "defects": [
+    {
+      "basis": "MEAS",
+      "where": "tools/align/REPORT.md",
+      "problem": "The score and sheet are published, but the inspected report has no per-piece heading for this id.",
+      "fix": "Append a bach-cello-suite-1-prelude section recording the Schirmer 1916 / Andreas Scherer / Mutopia 517 public-domain source, unrepeated 42-bar Prelude and original cello-octave wrapper, final primary median 0.05591836734693345 s and P95 0.30997278911565046 s, maximum endpoint/middle deviation 0.04612244897960238 s, maximum local-region median 0.04036281179138257 s, zero collapses/invalid durations, 656 notes in one cello voice, 2 sheet pages / 42 bars, rejected late opening anchor and corrected 0.54 s first attack, and provisional/no-aural-review limits. Do not change the passing published notes to address this documentation defect."
+    }
+  ],
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/bach-cello-suite-1-prelude-checks.json",
+    "primaryMedianSeconds": 0.05591836734693345,
+    "primaryP95Seconds": 0.30997278911565046,
+    "maximumAnchorDeviationSeconds": 0.04612244897960238,
+    "maximumLocalRegionMedianSeconds": 0.04036281179138257,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 42,
+    "distinctEngravedBars": 42,
+    "sheetPages": 2,
+    "unresolvedScoreBars": [],
+    "svgBarSetEqualsIndex": true,
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "Published score traverses 1–42 once. Both engraved pages were inspected; the SVG data-bar identities equal index.json, all note bar/voice indices resolve, and bar times strictly increase. Listen cues use seconds; their prose bar-22 fermata and bars-37–42 close agree with the selected notation without claiming exact cue timing."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/bach-cello-suite-1-prelude-0-8.54.png",
+      "work/bach-cello-suite-1-prelude-48-56.png",
+      "work/bach-cello-suite-1-prelude-54.0829-66.0829.png",
+      "work/bach-cello-suite-1-prelude-56-64.png",
+      "work/bach-cello-suite-1-prelude-58-72.png",
+      "work/bach-cello-suite-1-prelude-72-80.png",
+      "work/bach-cello-suite-1-prelude-80-88.png",
+      "work/bach-cello-suite-1-prelude-112-120.png",
+      "work/bach-cello-suite-1-prelude-118-130.png",
+      "work/bach-cello-suite-1-prelude-119.043-130.3.png",
+      "work/bach-cello-suite-1-prelude-120-128.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified. The corrected first G2 begins near 0.54 s rather than a later repeated G; the bar-22 D4 hold around 61.1–62.36 s and final G-major chord near 123.04 s correspond to visible pitched energy. Bow changes and acoustic releases are not established."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=517",
+    "opened": true,
+    "edition": "Schirmer, 1916",
+    "encoder": "Andreas Scherer",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete Prelude only, unrepeated 42-bar traversal for unaccompanied cello; neither the remaining suite movements nor the separately supplied viola arrangement is substituted. Original source transpose c c, is applied once to extraction and engraving; visible register and published source inventory agree. No gross cut or arrangement mismatch identified in the inspected material.",
+    "physicalPerformingEdition": "Unknown; the identified Schirmer edition is the symbolic source, not claimed as John Michel’s performing copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label must remain."
+}

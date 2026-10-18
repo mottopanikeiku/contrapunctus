@@ -161,15 +161,6 @@ export default {
     },
     {
       "t": 351,
-      "kind": "listen",
-      "title": "Five notes, many possibilities",
-      "text": "Pentatonic writing draws on a five-note collection. Listen for how a melody can remain distinctive through rhythm and contour even when it avoids the semitone steps of an ordinary major scale.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 363,
       "kind": "music",
       "title": "Pressure across the development",
       "text": "This central span sustains considerably more recorded force than the quiet end of the exposition. Follow the succession of gestures through the changing harmonic ground.",
@@ -223,22 +214,13 @@ export default {
       "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
     },
     {
-      "t": 570,
+      "t": 585,
       "kind": "music",
       "title": "The closing weight persists",
       "text": "The last stretch maintains a strong recorded level across several phrases. It does not retreat immediately after the coda’s first crest.",
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/dvorak-9-adagio.txt: Windows from 9:10 through 9:55 stay relatively strong, including high levels at 9:25, 9:30 and 9:50."
-    },
-    {
-      "t": 585,
-      "kind": "listen",
-      "title": "Brass and timpani at the close",
-      "text": "The score’s coda strengthens the main subject with brass and timpani. Listen for the difference between adding orchestral weight and introducing another thematic idea.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     }
   ],
   "transitions": [

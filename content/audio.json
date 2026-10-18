@@ -118,6 +118,20 @@
   "artist": "Sergei RACHMANINOFF - Piano",
   "duration": 236
  },
+ "archive:3.-debussy-nocturnes-3-sirenes/1 Debussy Nocturnes 1 Nuages.mp3": {
+  "stream": "https://archive.org/download/3.-debussy-nocturnes-3-sirenes/1%20Debussy%20Nocturnes%201%20Nuages.mp3",
+  "page": "https://archive.org/details/3.-debussy-nocturnes-3-sirenes",
+  "license": "",
+  "artist": "Ansermet Ernest, cond.; OSR",
+  "duration": 431.1
+ },
+ "archive:3.-debussy-nocturnes-3-sirenes/2 Debussy Nocturnes 2 Fêtes.mp3": {
+  "stream": "https://archive.org/download/3.-debussy-nocturnes-3-sirenes/2%20Debussy%20Nocturnes%202%20F%C3%AAtes.mp3",
+  "page": "https://archive.org/details/3.-debussy-nocturnes-3-sirenes",
+  "license": "",
+  "artist": "Ansermet Ernest, cond.; OSR",
+  "duration": 376.11
+ },
  "archive:78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a/CONCERTO NO. 2 IN C MINOR, OP. 18 1st Movement (1st Rec - SERGEI RACHMANINOFF and the PHILADELPHIA SYMPHONY ORCHESTRA.mp3": {
   "stream": "https://archive.org/download/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a/CONCERTO%20NO.%202%20IN%20C%20MINOR%2C%20OP.%2018%201st%20Movement%20(1st%20Rec%20-%20SERGEI%20RACHMANINOFF%20and%20the%20PHILADELPHIA%20SYMPHONY%20ORCHESTRA.mp3",
   "page": "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a",
@@ -237,6 +251,13 @@
   "artist": "Sir Edward Elgar (1857-1934)",
   "duration": 952
  },
+ "archive:loc-jukebox-12087-douce-dame-jolie/jukebox-12087_douce-dame-jolie.mp3": {
+  "stream": "https://archive.org/download/loc-jukebox-12087-douce-dame-jolie/jukebox-12087_douce-dame-jolie.mp3",
+  "page": "https://archive.org/details/loc-jukebox-12087-douce-dame-jolie",
+  "license": "Public domain",
+  "artist": "murphy, lambert ; dixon, raymond ; janequin, clément ; carlino, william ; guillaume de machaut ; di stefano, stefano ; weckerlin, j.-b",
+  "duration": 98.8
+ },
  "archive:lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01. 3rd Movement: Molto Adagio - Andante; 4th Movement: Alla Marcia, Assal Vivace.mp3": {
   "stream": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01.%203rd%20Movement%3A%20Molto%20Adagio%20-%20Andante%3B%204th%20Movement%3A%20Alla%20Marcia%2C%20Assal%20Vivace.mp3",
   "page": "https://archive.org/details/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet",
@@ -334,6 +355,13 @@
   "license": "Public domain",
   "artist": "Johann Sebastian Bach",
   "duration": 292.4266666666667
+ },
+ "File:Bach, Toccata und Fuge d-moll BWV 565, Norbert Schenk.mp3": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bach%2C_Toccata_und_Fuge_d-moll_BWV_565%2C_Norbert_Schenk.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Bach,_Toccata_und_Fuge_d-moll_BWV_565,_Norbert_Schenk.mp3",
+  "license": "CC BY 4.0",
+  "artist": "Norbert Schenk",
+  "duration": 463.9693254889885
  },
  "File:Bach; Chaconne d-moll Heifetz.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Bach%3B_Chaconne_d-moll_Heifetz.flac/Bach%3B_Chaconne_d-moll_Heifetz.flac.mp3",
@@ -713,12 +741,33 @@
   "artist": "",
   "duration": 109.81442176870749
  },
+ "File:Ives - Piano Sonata No.2 - I. Emerson (Eric Xi Xin Liang).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Ives_-_Piano_Sonata_No.2_-_I._Emerson_%28Eric_Xi_Xin_Liang%29.flac/Ives_-_Piano_Sonata_No.2_-_I._Emerson_%28Eric_Xi_Xin_Liang%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ives_-_Piano_Sonata_No.2_-_I._Emerson_(Eric_Xi_Xin_Liang).flac",
+  "license": "Public domain",
+  "artist": "Eric Xi Xin Liang (performance/recording) Charles Ives (composition)",
+  "duration": 937.7639455782313
+ },
+ "File:Ives - Piano Sonata No.2 - II. Hawthorne (Eric Xi Xin Liang).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Ives_-_Piano_Sonata_No.2_-_II._Hawthorne_%28Eric_Xi_Xin_Liang%29.flac/Ives_-_Piano_Sonata_No.2_-_II._Hawthorne_%28Eric_Xi_Xin_Liang%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ives_-_Piano_Sonata_No.2_-_II._Hawthorne_(Eric_Xi_Xin_Liang).flac",
+  "license": "Public domain",
+  "artist": "Eric Xi Xin Liang (performance/recording) Charles Ives (composition)",
+  "duration": 762.3545578231292
+ },
  "File:Ives - Piano Sonata No.2 - III. The Alcotts (Eric Xi Xin Liang).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Ives_-_Piano_Sonata_No.2_-_III._The_Alcotts_%28Eric_Xi_Xin_Liang%29.flac/Ives_-_Piano_Sonata_No.2_-_III._The_Alcotts_%28Eric_Xi_Xin_Liang%29.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Ives_-_Piano_Sonata_No.2_-_III._The_Alcotts_(Eric_Xi_Xin_Liang).flac",
   "license": "Public domain",
   "artist": "Eric Xi Xin Liang (performance/recording) Charles Ives (composition)",
   "duration": 347.43691609977327
+ },
+ "File:Ives - Piano Sonata No.2 - IV. Thoreau (Eric Xi Xin Liang).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Ives_-_Piano_Sonata_No.2_-_IV._Thoreau_%28Eric_Xi_Xin_Liang%29.flac/Ives_-_Piano_Sonata_No.2_-_IV._Thoreau_%28Eric_Xi_Xin_Liang%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Ives_-_Piano_Sonata_No.2_-_IV._Thoreau_(Eric_Xi_Xin_Liang).flac",
+  "license": "Public domain",
+  "artist": "Eric Xi Xin Liang (performance/recording) Charles Ives (composition)",
+  "duration": 631.0393541666666
  },
  "File:Janáček - Piano Sonata 1.X.1905, 2nd Movement (Eric Xi Xin Liang).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Jan%C3%A1%C4%8Dek_-_Piano_Sonata_1.X.1905%2C_2nd_Movement_%28Eric_Xi_Xin_Liang%29.flac/Jan%C3%A1%C4%8Dek_-_Piano_Sonata_1.X.1905%2C_2nd_Movement_%28Eric_Xi_Xin_Liang%29.flac.mp3",
@@ -1133,6 +1182,13 @@
   "artist": "Frédéric Chopin",
   "duration": 120.18648526077098
  },
+ "File:O frondens 2.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/O_frondens_2.ogg/O_frondens_2.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:O_frondens_2.ogg",
+  "license": "Public domain",
+  "artist": "User:Makemi",
+  "duration": 96.07256235827664
+ },
  "File:Overture to Tannhauser - U.S. Marine Band.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Overture_to_Tannhauser_-_U.S._Marine_Band.ogg/Overture_to_Tannhauser_-_U.S._Marine_Band.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Overture_to_Tannhauser_-_U.S._Marine_Band.ogg",
@@ -1146,6 +1202,13 @@
   "license": "Public domain",
   "artist": "Frédéric Chopin",
   "duration": 197.69469387755103
+ },
+ "File:Pange Lingua Latin in Latin.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Pange_Lingua_Latin_in_Latin.ogg/Pange_Lingua_Latin_in_Latin.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Pange_Lingua_Latin_in_Latin.ogg",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "duration": 205.15990929705217
  },
  "File:PDP-CH - Feodor Chaliapin - The Prophet, Op. 49 - Rimsky-Korsakov - Pushkin - Gramophone-db1103-2-022043.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/PDP-CH_-_Feodor_Chaliapin_-_The_Prophet%2C_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac/PDP-CH_-_Feodor_Chaliapin_-_The_Prophet%2C_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac.mp3",
@@ -1202,6 +1265,13 @@
   "license": "Public domain",
   "artist": "",
   "duration": 250.845171875
+ },
+ "File:PDP-CH - Philadelphia Orchestra, Leopold Stokowski - Toccata and Fugue in D minor, BWV 565 - Bach - Hmv-d1428-5-0761.flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/PDP-CH_-_Philadelphia_Orchestra%2C_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor%2C_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac/PDP-CH_-_Philadelphia_Orchestra%2C_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor%2C_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra,_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor,_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 264.67265104166665
  },
  "File:PDP-CH - Royal Choral Society - Malcolm Sargent - Messiah - Hallelujah Chorus - Electrola-ej39-04871.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac/PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac.mp3",

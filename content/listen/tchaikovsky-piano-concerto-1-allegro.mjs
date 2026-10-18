@@ -100,19 +100,10 @@ export default {
       "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
     },
     {
-      "t": 123,
-      "kind": "listen",
-      "title": "Across the keyboard",
-      "text": "Wide registers allow the piano to spread a harmony across much of its compass. Follow the relationship between the bass notes and the highest part of each gesture.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
-    },
-    {
-      "t": 135,
+      "t": 127,
       "kind": "music",
       "title": "An early broad crest",
-      "text": "The introduction sustains a high recorded level here before gradually withdrawing. Compare that broad crest with the shorter, more varied surges in the later Allegro.",
+      "text": "The introduction builds back into a broad recorded crest before gradually withdrawing. Compare that broad rise with the shorter, more varied surges in the later Allegro.",
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/tchaikovsky-piano-concerto-1-allegro.txt: The 2:15 and 2:20 windows are among the loudest; the level falls to about −24 dB by 3:00."
@@ -314,15 +305,6 @@ export default {
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/tchaikovsky-piano-concerto-1-allegro.txt: Levels fall to about −37 dB at 16:45 and 17:25, with fewer detected attacks than in the preceding strong span."
-    },
-    {
-      "t": 1025,
-      "kind": "listen",
-      "title": "Rejoining the orchestra",
-      "text": "When piano and orchestra share the texture again, compare their roles with the opening. The pianist may now carry moving figures while the orchestra restores a thematic line.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
     },
     {
       "t": 1066,

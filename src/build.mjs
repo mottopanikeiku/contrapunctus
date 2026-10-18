@@ -773,14 +773,14 @@ async function programme() {
     out.push({
       id: l.id,
       composer: {
-        slug: c.slug, page: c.slug.startsWith('guest-') ? null : c.era === 'before-bach' ? `origins.html${c.anchor ? '#' + c.anchor : ''}` : `composers/${c.slug}.html`, name: c.name, given: c.given, family: c.family, dates: lifespan(c),
+        slug: c.slug, page: c.slug.startsWith('guest-') ? null : c.era === 'before-bach' ? `origins.html${c.anchor ? '#' + c.anchor : ''}` : `composers/${c.slug}.html`, name: c.name, given: c.given, family: c.family, dates: c.dates ?? lifespan(c),
         born: `${c.born.date ?? c.born.year}, ${c.born.place}`, died: c.died ? `${c.died.date ?? c.died.year}, ${c.died.place}` : null,
         epithet: c.epithet, portrait: rendition(p?.src ?? null, 480), thumb: rendition(p?.src ?? null, 160), focus: c.portrait.focus ?? '50% 25%',
         facts: (c.facts ?? []).map(([k, v]) => [k, rich(ctx, v)]),
         quote: c.quote ?? null, background: background(ctx, c),
       },
       era: e ? { slug: e.slug, numeral: e.numeral, name: e.name, span: e.span, accent: e.accent, hero: rendition(art[normalizeTitle(e.hero.file)]?.src ?? null, 480), heroCaption: `${e.hero.artist}, ${e.hero.title}` } : null,
-      tuning: tuning.hz ?? 440, tuningStatus: tuning.status ?? 'standard', work: l.work, movement: l.movement ?? '', set: l.set ?? null, concert: l.concert ?? true, year: l.year, key: l.key ?? '', forces: l.forces, performers: l.performers, recorded: l.recorded ?? '',
+      tuning: tuning.hz ?? 440, tuningStatus: tuning.status ?? 'standard', work: l.work, movement: l.movement ?? '', set: l.set ?? null, monophonic: !!l.monophonic, concert: l.concert ?? true, year: l.year, key: l.key ?? '', forces: l.forces, performers: l.performers, recorded: l.recorded ?? '',
       question: l.question ?? '', intro, stream: s.stream, sourcePage: s.page, license: l.license ?? s.license, duration: s.duration,
       sections: l.sections ?? [], relations: rel, cues, transitions, orchestra: l.orchestra ?? null,
       hasScore: !!score, hasSheet, voices: score?.voices?.map((v) => v.name) ?? [],

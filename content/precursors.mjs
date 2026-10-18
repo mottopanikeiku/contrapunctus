@@ -3,7 +3,7 @@
 // Approximate birth years place uncertain medieval lives in chronological order.
 export default [
   {
-    slug: 'origins-gregorian', name: 'Gregorian chant', given: '', family: 'Gregorian chant',
+    slug: 'origins-gregorian', dates: 'from c. 800', name: 'Gregorian chant', given: '', family: 'Gregorian chant',
     born: { year: 900, place: '' }, died: null,
     epithet: 'A single melodic line carries Latin liturgy.',
     portrait: { file: 'File:Codex 10127-10144 fol 90.png', caption: 'The Gradual of Mont-Blandin, c. 800: a manuscript witness, not a composer portrait.', focus: '50% 30%' },

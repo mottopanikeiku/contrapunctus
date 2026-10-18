@@ -9,6 +9,7 @@
   "main": "Beethoven_Op.67_4.ly",
   "musicxml": "Beethoven_Op.67_4.mxl",
   "stripLyrics": true,
+  "otherDynamicsWords": true,
   "downloads": [
     {
       "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/4/Beethoven_Op.67_4.mxl",

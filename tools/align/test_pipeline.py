@@ -8,8 +8,9 @@ from unittest.mock import patch
 import xml.etree.ElementTree as ET
 
 import mido
+import numpy as np
 
-from align import publication_reasons
+from align import endpoint_anchors, publication_reasons
 from pipeline import comparison
 from score_events import attack_inventory, extract
 from musicxml_tuplets import flatten_tuplets
@@ -134,6 +135,39 @@ class PerformedEvents(unittest.TestCase):
         self.assertEqual(set(single), set(double))
         self.assertNotEqual(single, double)
         self.assertEqual(sum(double.values()), 8)
+
+
+class PitchAnchors(unittest.TestCase):
+    def setUp(self):
+        self.events = {'notes': [[0, 1, 60, 0], [1, 1, 64, 0], [2, 1, 67, 0]]}
+        pitch = np.zeros((128, 350))
+        for note, frame in [(60, 50), (64, 150), (67, 250)]:
+            pitch[note, frame:frame + 20] = 1
+        self.data = {'pitch': pitch}
+        self.config = {'endpoints': {'first': [.8, 1.2], 'last': [4.8, 5.2], 'basis': 'Fixture'},
+                       'anchors': [{'scoreQ': 1, 'window': [2.8, 3.2], 'basis': 'Fixture', 'label': 'coda'}]}
+
+    def test_internal_pitch_window_retains_endpoints(self):
+        anchors = endpoint_anchors(self.config, self.events, self.data)
+        self.assertEqual([a['label'] for a in anchors], ['first', 'coda', 'last'])
+        self.assertEqual(anchors[1]['audioSeconds'], 2.98)
+        self.assertEqual(anchors[1]['midiPitches'], [64])
+        self.assertEqual(anchors[1]['basis'], 'Fixture')
+
+    def test_nonattack_and_duplicate_anchor_rejected(self):
+        self.config['anchors'][0]['scoreQ'] = .5
+        with self.assertRaisesRegex(ValueError, 'no score attack'):
+            endpoint_anchors(self.config, self.events, self.data)
+        self.config['anchors'][0]['scoreQ'] = 1
+        self.config['anchors'].append(copy.deepcopy(self.config['anchors'][0]))
+        with self.assertRaisesRegex(ValueError, 'increase'):
+            endpoint_anchors(self.config, self.events, self.data)
+
+    def test_backward_recording_anchor_rejected(self):
+        self.data['pitch'][64, 20:30] = 1
+        self.config['anchors'][0]['window'] = [.2, .6]
+        with self.assertRaisesRegex(ValueError, 'increase'):
+            endpoint_anchors(self.config, self.events, self.data)
 
 
 class MusicXMLTuplets(unittest.TestCase):

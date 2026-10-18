@@ -124,22 +124,13 @@ export default {
       "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     },
     {
-      "t": 196,
+      "t": 202,
       "kind": "music",
       "title": "A quiet connecting stretch",
       "text": "The recorded sound is unusually reduced before the central trio. Let that withdrawal separate the preceding scherzo from the more sustained phrases that follow.",
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/dvorak-9-scherzo.txt: The 3:15–3:20 windows are the quietest internal span, both near −31 dB."
-    },
-    {
-      "t": 202,
-      "kind": "form",
-      "title": "The separate trio",
-      "text": "The central trio offers another kind of dance, with a less urgent surface. Its contrast comes through melodic shape and orchestral lightness as well as through dynamics.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     },
     {
       "t": 243,

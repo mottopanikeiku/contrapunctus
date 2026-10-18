@@ -39,7 +39,7 @@ export default {
       "t": 66,
       "label": "B · Invocation and close",
       "m": "B",
-      "mNote": "The later words name saints and a Sunday birth; this is an approximate region, not timed subtitles."
+      "mNote": "Saints and a Sunday birth: an approximate region, not timed subtitles."
     }
   ],
   "cues": [

@@ -14,7 +14,7 @@ export default {
     archive: { item: '3.-debussy-nocturnes-3-sirenes', file: '2 Debussy Nocturnes 2 Fêtes.mp3' },
     rights: { basis: 'eu-published-before-1963', published: 1952, evidence: 'Decca LXT 2637, issued March 1952: Philip Stuart, Decca discography, session S080, https://charm.rhul.ac.uk/pubs/DeccaS.pdf. The Internet Archive item identifies this LP and gives October 1951 as the recording date, not publication: https://archive.org/details/3.-debussy-nocturnes-3-sirenes' },
   },
-  intro: 'A restless dance is interrupted by a procession heard at a distance. The procession grows until its broad brass line and the quick festive figures occupy the same space; afterwards, the movement withdraws rather than ending in a blaze.',
+  intro: 'A restless dance is interrupted by a procession heard at a distance. The procession grows until its broad brass line and the quick festive figures occupy the same space; afterwards, the movement withdraws rather than ending in a blaze. The third movement, Sirènes, is not included here because the women’s chorus in this recording has not been fully identified.',
   question: 'How does Debussy make two different kinds of motion seem to approach, meet and move apart?',
   sections: [
     { t: 0, label: 'A · Festive motion', m: 'A', mNote: 'quick figures circulate through strings and winds' },
@@ -57,7 +57,7 @@ export default {
       to: 'B′ · Procession and festival together',
       at: { t: 220 },
       span: [203, 244],
-      how: '<p>The procession does not stop to make room for the festival. Its broad line gains trumpets and low brass while the quicker wind and string figures circulate around it. Timpani, snare and cymbals increase the weight of the arrival, and the brass are asked to sound vibrant without harshness. The join is an accumulation of layers: two kinds of motion become simultaneous over the continuing rhythmic foundation, rather than being separated by a cadence or silence.</p>',
+      how: '<p>The procession does not stop to make room for the festival. Its broad line gains trumpets and low brass while the quicker wind and string figures circulate around it. Timpani, snare and cymbals increase the weight of the arrival, and the brass are asked to sound full-toned without harshness. The join is an accumulation of layers: two kinds of motion become simultaneous over the continuing rhythmic foundation, rather than being separated by a cadence or silence.</p>',
       devices: ['crescendo build', 'orchestration change', 'motivic link', 'texture change'],
       basis: 'score-proportion',
       precision: 'passage',

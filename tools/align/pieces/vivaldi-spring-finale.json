@@ -4,6 +4,26 @@
   "source": {
     "mutopia": 301,
     "legacyRelative": "verify-midi",
+    "patches": [
+      {
+        "file": "spring-lys/spring3.ly",
+        "old": "\\context Voice = \"solodown\" { \\stemDown e,8._\"Tutti\" fis16 e8 } >> e,4 fis8",
+        "new": "\\context Voice = \"solodown\" { \\stemDown e,8._\"Tutti\" fis16 e8 } >> e4 fis8",
+        "basis": "Restore the old-relative solo register after the simultaneous voices in bar 22: published MIDI places the following E at MIDI 76 (q127.5), while unmodified modern relative semantics put it at 64. Remove one relative octave-down mark; the entire generated pitch/onset multiset must still equal the published movement MIDI."
+      },
+      {
+        "file": "spring-lys/spring3.ly",
+        "old": ">>\nb8 gis b  b16 ( cis  dis8) e-| |",
+        "new": ">>\nb'8 gis b  b16 ( cis  dis8) e-| |",
+        "basis": "Restore the old-relative solo register after the long simultaneous solo passage ending in bar 48. The following B must continue from the upper branch, not the lower branch’s final E. One explicit relative octave-up mark compensates the changed branch-exit semantics; full published MIDI pitch/onset multiset equality remains mandatory."
+      },
+      {
+        "file": "spring-lys/spring3.ly",
+        "old": "\\key e \\major\n\tgis8._\"Tutti\" a16 gis8  gis4 a8 |",
+        "new": "\\key e \\major\n\tgis'8._\"Tutti\" a16 gis8  gis4 a8 |",
+        "basis": "Restore the old-relative solo register after the simultaneous F-sharp trill/B accompaniment in bar 79. The following G-sharp tutti must follow the upper branch; one relative octave-up mark prevents a third cumulative octave drop. This is a syntax-migration derivative, accepted only if every generated pitch/onset occurrence equals the original published MIDI."
+      }
+    ],
     "title": "La Primavera / Spring, RV 269 — III. Allegro — Danza pastorale",
     "edition": "Performers’ Facsimiles",
     "encoder": "Anonymous (Mutopia maintainer)",

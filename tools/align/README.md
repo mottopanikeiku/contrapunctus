@@ -89,7 +89,11 @@ For all modes:
 
 Every `.ly`, `.ily`, `.lyi` in the disposable source copy goes through adjacent `convert-ly`; files without versions inherit the main file’s version. Relative includes retain their locations; built-in includes such as `articulate.ly` remain built-in. Engraving retains `data-bar`/`data-pos` on noteheads and rests, including custom movement wrappers. Sheetpack must resolve every aligned printed bar before publication. See [sheetpack](../sheetpack/README.md) for its coordinate contract.
 
+For an initial pickup LilyPond reports negative rhythmic positions before bar 1. The instrumentation labels those actual pickup glyphs `data-bar="0"` (generally the preceding bar number), preserving their negative `data-pos` values exactly. Thus the packer uses real pickup ink rather than inventing an empty geometric interval.
+
 The removed pre-2.17.15 `old-relative` option is **not silently ignored**. An explicit `source.legacyRelative:"verify-midi"` permits removing only that obsolete directive from derivative files, but requires `compiled-midi`, `comparePublished:{}`, a published `source.midi`, and exactly identical `extraction.music`/`engraving.music`. The selected movement’s generated and published pitch/onset **multisets** must match before alignment; changed octave semantics therefore withhold publication. Standalone re-engraving also runs this proof. Source directives remain intact in the hashed downloads. See LilyPond’s [conversion limitations](https://lilypond.org/doc/v2.24/Documentation/usage/updating-files-with-convert_002dly); syntactic conversion alone is not proof of musical equivalence.
+
+`source.patches:[{file,old,new,basis}]` permits documented, exact LilyPond syntax repairs in the disposable tree **before** conversion, for example explicit register resets after old-relative polyphonic blocks. Each nonempty `old` string must occur exactly once, replacements must differ, and only `.ly`/`.ily`/`.lyi` files are eligible. Every patched source requires the same compiled/published **multiset** proof and identical extraction/engraving music described above; there is no unverified patch mode. The check report retains the exact patches and their bases, and published provenance records each repair. Original downloaded bytes and hashes remain unchanged.
 
 ### MusicXML input
 
@@ -150,7 +154,7 @@ Lower-level `fetch.py`, `prepare.py`, `score_events.py`, `align.py` remain diagn
 
 Without explicit ids, `node tools/engrave.mjs` re-engraves only configured recordings that already have a published `score.json`, not withheld candidates.
 
-Deterministic gate-boundary, rounding, equivalence, pickup/repeat and transposition regressions (no recording decoding or network):
+Deterministic gate-boundary, rounding, equivalence, pickup/repeat, transposition, pitch-anchor and exact nested-tuplet regressions (no recording decoding or network):
 
 ```sh
 /tmp/contrapunctus-align-venv/bin/python -m unittest discover -s tools/align -p 'test_*.py'

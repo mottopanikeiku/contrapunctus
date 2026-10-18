@@ -39,7 +39,7 @@ export default {
       "t": 84,
       "label": "B · Wider surges",
       "m": "B",
-      "mNote": "A listening region of larger rises and releases, not a separate fixed-tempo dance."
+      "mNote": "Larger rises and releases preserve the flexible pulse."
     },
     {
       "t": 194,
@@ -77,7 +77,7 @@ export default {
       "t": 70,
       "kind": "world",
       "title": "A place between two larger designs",
-      "text": "This middle sketch occupies the scherzo-like position within La Mer. Its quick exchanges contrast with the first movement’s journey toward a broad arrival and the finale’s more forceful confrontation. Its lightness is a role inside the three-part work, not a lack of structure.",
+      "text": "This middle sketch occupies the scherzo-like position within La Mer. Its quick exchanges contrast with the first movement’s growth toward a broad arrival and the finale’s more forceful confrontation. Its lightness is a role inside the three-part work, not a lack of structure.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Susan Key, LA Phil programme note, describes the second movement as the work’s scherzo and the outer movements’ symphonic roles: https://www.laphil.com/works/la-mer"

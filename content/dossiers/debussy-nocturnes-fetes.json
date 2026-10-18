@@ -138,7 +138,7 @@
     },
     "recording": {
       "value": "Rule 3 territorial basis: EU sound recording first published before 1963; US public-domain status not established",
-      "status": "inferred",
+      "status": "documented",
       "sourceIds": [
         "stuart",
         "archive",

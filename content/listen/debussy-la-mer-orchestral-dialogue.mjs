@@ -39,13 +39,13 @@ export default {
       "t": 134,
       "label": "B · Broader expansion",
       "m": "B",
-      "mNote": "A listening region of growing orchestral weight, not a new movement or fixed programme."
+      "mNote": "Growing orchestral weight, without a new movement or fixed programme."
     },
     {
       "t": 234,
       "label": "C · A quieter centre",
       "m": "C",
-      "mNote": "The recorded level falls sharply; quieter lines leave room before the renewed rise."
+      "mNote": "Quieter lines leave room after the recorded level falls sharply."
     },
     {
       "t": 304,

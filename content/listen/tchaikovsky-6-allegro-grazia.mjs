@@ -85,15 +85,6 @@ export default {
       "evidence": "Historical or source-context note; no timed musical event is asserted. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
     },
     {
-      "t": 132,
-      "kind": "music",
-      "title": "The first broad crest",
-      "text": "The opening dance grows into a broad recorded crest before its sudden reduction. Follow the whole swell rather than treating the louder notes as a new metre.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/tchaikovsky-6-allegro-grazia.txt: The 2:15–2:25 windows are among the loudest; level drops from about −5 dB at 2:25 to −24 dB at 2:35."
-    },
-    {
       "t": 159,
       "kind": "listen",
       "title": "Plucked and sustained",

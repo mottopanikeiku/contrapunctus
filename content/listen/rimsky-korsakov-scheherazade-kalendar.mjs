@@ -169,7 +169,7 @@ export default {
       "text": "This performance was issued in the Victor 78-rpm album DM-920. The number identifies an album, not a matrix or take; the available source does not document the individual side allocations.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
+      "evidence": "The Commons description and upstream transfer record identify the original Victor album as DM-920, without supplying individual matrices or side allocations: https://commons.wikimedia.org/w/index.php?oldid=718302084 ; https://archive.org/metadata/Sheherazade/metadata ."
     },
     {
       "t": 444,

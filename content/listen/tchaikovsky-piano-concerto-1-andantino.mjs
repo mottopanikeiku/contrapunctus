@@ -105,17 +105,8 @@ export default {
     {
       "t": 245,
       "kind": "music",
-      "title": "The middle moves faster",
-      "text": "The fast central episode uses a more mobile piano texture and sharper exchanges with the orchestra. Compare its small note values with the longer breathing of the outer melody.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
-    },
-    {
-      "t": 257,
-      "kind": "music",
       "title": "The central episode crests",
-      "text": "The fast middle reaches a strong recorded crest before withdrawing into the preparation for the slower return. Follow both halves of that motion rather than hearing the crest as an ending.",
+      "text": "The fast middle approaches its strongest recorded crest before withdrawing into the preparation for the slower return. Follow both halves of that motion rather than hearing the crest as an ending.",
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/tchaikovsky-piano-concerto-1-andantino.txt: The 4:15 window is the report’s loudest, followed by a decline to about −30 dB at 4:35–4:40."

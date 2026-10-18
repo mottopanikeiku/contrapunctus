@@ -691,27 +691,6 @@
       "lon": 13.405
     },
     {
-      "name": "Moscow",
-      "country": "Soviet Union (today Russia)",
-      "from": "1933",
-      "kind": "lived",
-      "what": "Spent increasing periods in Moscow before his permanent return.",
-      "status": "documented",
-      "sources": [
-        {
-          "title": "Boosey & Hawkes / David Nice: Serge Prokofieff work catalogue",
-          "url": "https://www.boosey.com/downloads/prokofjew_werkverzeichnis.pdf"
-        },
-        {
-          "title": "Wikipedia coordinate records",
-          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Vienna%7CParis%7CLondon%7CMoscow%7CSaint_Petersburg%7CNew_York_City%7CBudapest%7CBerlin%7CMunich%7CPrague%7CDresden%7CCologne%7CChicago%7CSan_Francisco%7CLos_Angeles%7CBeverly_Hills%7CRome%7CHelsinki%7CStockholm%7CCopenhagen%7COslo%7CLausanne%7CGeneva%7CBrussels%7CBarcelona%7CHamburg%7CBoston%7CWarsaw%7CAvignon%7CNantes%7CGrenoble%7CLowestoft%7CAldeburgh%7CLugoj%7CTimi%C8%99oara%7CAppen%7CPaide%7CRakvere%7CTallinn%7CHonfleur%7CCiboure%7CMontfort-l%27Amaury%7CEttal%7CKislovodsk%7CBrno%7CTbilisi%7CAlmaty%7CNalchik%7CPerm%7CIvanovo"
-        }
-      ],
-      "to": "1936",
-      "lat": 55.75583333,
-      "lon": 37.61777778
-    },
-    {
       "name": "Madrid",
       "country": "Second Spanish Republic (today Spain)",
       "from": "1935-12-01",
@@ -737,7 +716,7 @@
       "country": "Soviet Union (today Russia)",
       "from": "1936",
       "kind": "lived",
-      "what": "Settled permanently with his family in the Soviet Union.",
+      "what": "After increasing stays from 1933, settled permanently with his family in the Soviet Union.",
       "status": "documented",
       "sources": [
         {
@@ -1195,6 +1174,23 @@
       "work": "Cello Sonata",
       "lat": 55.7562765,
       "lon": 37.6054314
+    },
+    {
+      "name": "Moscow",
+      "country": "Soviet Union (today Russia)",
+      "from": "1952-02-18",
+      "kind": "premiere",
+      "what": "Rostropovich and Richter introduced the first version, initially titled Second Cello Concerto.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Wikipedia: Prokofiev Symphony-Concerto, first and final versions",
+          "url": "https://en.wikipedia.org/w/index.php?title=Symphony-Concerto_(Prokofiev)&action=render"
+        }
+      ],
+      "work": "Symphony-Concerto, first version",
+      "lat": 55.75583333,
+      "lon": 37.61777778
     },
     {
       "name": "Moscow",

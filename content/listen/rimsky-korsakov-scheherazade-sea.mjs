@@ -154,7 +154,7 @@ export default {
       "text": "The source credits the San Francisco Symphony Orchestra under Pierre Monteux, with Naoum Blinder as solo violinist. The sessions took place on 3–4 March 1942; the documentation does not assign this movement to one day separately.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
+      "evidence": "The Commons description and upstream transfer record name the orchestra, conductor and violinist, and give 3–4 March 1942 for the complete suite: https://commons.wikimedia.org/w/index.php?oldid=628862047 ; https://archive.org/metadata/Sheherazade/metadata . No day is assigned to this movement separately."
     },
     {
       "t": 399,

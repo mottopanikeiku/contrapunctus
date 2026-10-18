@@ -1,0 +1,522 @@
+{
+  "uniqueScoreAttacks": 654,
+  "audioDetectedOnsets": 428,
+  "medianAbsoluteOnsetDeviation": 0.05591836734693345,
+  "noteWeightedMedianDeviation": 0.05575963718820365,
+  "p95AbsoluteOnsetDeviation": 0.30997278911565046,
+  "fractionWithin150ms": 0.7385321100917431,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 43,
+      "median": 0.05623582766439883,
+      "p95": 0.22029931972789124,
+      "max": 0.3366893424036279,
+      "adaptiveMedian": 0.027482993197279093,
+      "adaptiveP95": 0.06854421768707451
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 46,
+      "median": 0.058866213151926416,
+      "p95": 0.3657482993197272,
+      "max": 0.400997732426303,
+      "adaptiveMedian": 0.024217687074829186,
+      "adaptiveP95": 0.12160997732426271
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 46,
+      "median": 0.058775510204078785,
+      "p95": 0.2875056689342417,
+      "max": 0.35387755102040686,
+      "adaptiveMedian": 0.030181405895692848,
+      "adaptiveP95": 0.14191609977324227
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 46,
+      "median": 0.034716553287982066,
+      "p95": 0.20002267573696386,
+      "max": 0.5224489795918359,
+      "adaptiveMedian": 0.017165532879818812,
+      "adaptiveP95": 0.08870748299319953
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 46,
+      "median": 0.06929705215419801,
+      "p95": 0.2786961451247141,
+      "max": 0.3656235827664389,
+      "adaptiveMedian": 0.023764172335592804,
+      "adaptiveP95": 0.07370748299318919
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 46,
+      "median": 0.04158730158729895,
+      "p95": 0.21270975056689068,
+      "max": 0.34625850340135855,
+      "adaptiveMedian": 0.02371882086167787,
+      "adaptiveP95": 0.08735827664399487
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 43,
+      "median": 0.08952380952380423,
+      "p95": 0.3254557823129274,
+      "max": 0.394285714285715,
+      "adaptiveMedian": 0.04036281179138257,
+      "adaptiveP95": 0.10438095238095355
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 35,
+      "median": 0.07183673469388197,
+      "p95": 0.3109659863945464,
+      "max": 0.47387755102040074,
+      "adaptiveMedian": 0.0323809523809544,
+      "adaptiveP95": 0.0861859410430781
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 43,
+      "median": 0.06929705215421222,
+      "p95": 0.2297324263038462,
+      "max": 0.29886621315193906,
+      "adaptiveMedian": 0.03081632653061206,
+      "adaptiveP95": 0.0756961451246994
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 39,
+      "median": 0.09482993197281075,
+      "p95": 0.3660725623582821,
+      "max": 0.4832199546485185,
+      "adaptiveMedian": 0.03764172335597493,
+      "adaptiveP95": 0.12669387755103262
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 40,
+      "median": 0.08349206349205929,
+      "p95": 0.3411587301587381,
+      "max": 0.3689795918367338,
+      "adaptiveMedian": 0.023605442176865665,
+      "adaptiveP95": 0.08235147392288615
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 40,
+      "median": 0.05426303854875414,
+      "p95": 0.28768027210884234,
+      "max": 0.498956916099786,
+      "adaptiveMedian": 0.026417233560081854,
+      "adaptiveP95": 0.061253968253969046
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 46,
+      "median": 0.04346938775508136,
+      "p95": 0.1790249433106652,
+      "max": 0.36961451247165655,
+      "adaptiveMedian": 0.02725623582765735,
+      "adaptiveP95": 0.08217687074829172
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 41,
+      "median": 0.03736961451247112,
+      "p95": 0.1803174603174682,
+      "max": 0.18104308390023505,
+      "adaptiveMedian": 0.029433106575964985,
+      "adaptiveP95": 0.17111111111111654
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 42,
+      "median": 0.052312925170063806,
+      "p95": 0.34232199546486186,
+      "max": 0.5360544217687249,
+      "adaptiveMedian": 0.031224489795910415,
+      "adaptiveP95": 0.17630158730157522
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 12,
+      "median": 0.08192743764175248,
+      "p95": 0.1835804988662396,
+      "max": 0.19582766439913257,
+      "adaptiveMedian": 0.032947845805011866,
+      "adaptiveP95": 0.10948072562356898
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 39,
+      "median": 0.09482993197281075,
+      "p95": 0.3660725623582821,
+      "max": 0.4832199546485185,
+      "adaptiveMedian": 0.03764172335597493,
+      "adaptiveP95": 0.12669387755103262
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 43,
+      "median": 0.08952380952380423,
+      "p95": 0.3254557823129274,
+      "max": 0.394285714285715,
+      "adaptiveMedian": 0.04036281179138257,
+      "adaptiveP95": 0.10438095238095355
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 40,
+      "median": 0.08349206349205929,
+      "p95": 0.3411587301587381,
+      "max": 0.3689795918367338,
+      "adaptiveMedian": 0.023605442176865665,
+      "adaptiveP95": 0.08235147392288615
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 12,
+      "median": 0.08192743764175248,
+      "p95": 0.1835804988662396,
+      "max": 0.19582766439913257,
+      "adaptiveMedian": 0.032947845805011866,
+      "adaptiveP95": 0.10948072562356898
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 35,
+      "median": 0.07183673469388197,
+      "p95": 0.3109659863945464,
+      "max": 0.47387755102040074,
+      "adaptiveMedian": 0.0323809523809544,
+      "adaptiveP95": 0.0861859410430781
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 43,
+      "median": 0.08952380952380423,
+      "p95": 0.3254557823129274,
+      "max": 0.394285714285715,
+      "adaptiveMedian": 0.04036281179138257,
+      "adaptiveP95": 0.10438095238095355
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 39,
+      "median": 0.09482993197281075,
+      "p95": 0.3660725623582821,
+      "max": 0.4832199546485185,
+      "adaptiveMedian": 0.03764172335597493,
+      "adaptiveP95": 0.12669387755103262
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 12,
+      "median": 0.08192743764175248,
+      "p95": 0.1835804988662396,
+      "max": 0.19582766439913257,
+      "adaptiveMedian": 0.032947845805011866,
+      "adaptiveP95": 0.10948072562356898
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 35,
+      "median": 0.07183673469388197,
+      "p95": 0.3109659863945464,
+      "max": 0.47387755102040074,
+      "adaptiveMedian": 0.0323809523809544,
+      "adaptiveP95": 0.0861859410430781
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 42,
+      "median": 0.052312925170063806,
+      "p95": 0.34232199546486186,
+      "max": 0.5360544217687249,
+      "adaptiveMedian": 0.031224489795910415,
+      "adaptiveP95": 0.17630158730157522
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 40.0,
+      "meanCosine": 0.6295074142789076
+    },
+    {
+      "start": 48.0,
+      "meanCosine": 0.6339151542901137
+    },
+    {
+      "start": 0.0,
+      "meanCosine": 0.6550950699750288
+    },
+    {
+      "start": 56.0,
+      "meanCosine": 0.6680690742150168
+    },
+    {
+      "start": 72.0,
+      "meanCosine": 0.6790987060938328
+    }
+  ],
+  "sections": [
+    {
+      "bar": "23",
+      "occ": 1,
+      "editorial": 64,
+      "aligned": 63.93714285714286,
+      "difference": -0.0628571428571405,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "37",
+      "occ": 1,
+      "editorial": 106,
+      "aligned": 106.61714285714285,
+      "difference": 0.6171428571428521,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.54,
+      "nearestOnsetDeviation": 0.0172789115646258
+    },
+    {
+      "label": "middle",
+      "bar": "21",
+      "occ": 1,
+      "scoreQ": 81.75,
+      "audioSeconds": 58.08285714285714,
+      "nearestOnsetDeviation": 0.0018594104308462533
+    },
+    {
+      "label": "last",
+      "bar": "42",
+      "occ": 1,
+      "scoreQ": 164.0,
+      "audioSeconds": 123.04285714285713,
+      "nearestOnsetDeviation": 0.04612244897960238
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "22",
+      "occ": 1,
+      "midi": 62,
+      "voice": "cello",
+      "durationQ": 0.75,
+      "onset": 61.09142857142857,
+      "offset": 62.35999999999957,
+      "durationSeconds": 1.2685714285710006
+    },
+    {
+      "bar": "42",
+      "occ": 1,
+      "midi": 43,
+      "voice": "cello",
+      "durationQ": 4.0,
+      "onset": 123.04285714285713,
+      "offset": 127.25999999999999,
+      "durationSeconds": 4.217142857142861
+    },
+    {
+      "bar": "42",
+      "occ": 1,
+      "midi": 59,
+      "voice": "cello",
+      "durationQ": 4.0,
+      "onset": 123.04285714285713,
+      "offset": 127.25999999999999,
+      "durationSeconds": 4.217142857142861
+    },
+    {
+      "bar": "42",
+      "occ": 1,
+      "midi": 67,
+      "voice": "cello",
+      "durationQ": 4.0,
+      "onset": 123.04285714285713,
+      "offset": 127.25999999999999,
+      "durationSeconds": 4.217142857142861
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.06857142857143117,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.6991931401653101,
+  "endAnchor": {
+    "scoreQ": 168.0,
+    "audioSeconds": 127.25999999999999,
+    "decodedDuration": 130.29986394557824,
+    "activeEndMinus45dB": 127.26857142857143
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "bach-cello-suite-1-prelude",
+  "tuningHz": 442.29,
+  "audioSha256": "56aa35d1982fc6f6c8e74e4fac353988874840028b9653029131e9b3e293653c",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "The original bwv1007.ly compiles the Prelude first, followed by the six dance scores. Its unsuffixed bwv1007.mid contains 656 attacks over 168 quarter units, beginning G2–D3–B3 and ending with the bar-42 G2–B3–G4 chord; the separately named viola files are excluded.",
+    "Extraction and engraving select the unchanged prelude variable and retain the original wrapper’s transpose c c, exactly once. This is the source’s cello octave, not a recording-derived transposition.",
+    "One cello staff contains temporary notational subdivisions in bars 33–36; they are not advertised as continuous contrapuntal voices. The bar-22 fermata D4 eighth tied to a sixteenth remains one written event. Written holds and slurs do not establish performed bow changes or release times."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      66.46,
+      64.0
+    ],
+    [
+      108.0,
+      106.0
+    ],
+    [
+      123.70285714285713,
+      123.04
+    ]
+  ],
+  "sourceChecks": {
+    "pitchOnsetInventory": {
+      "kind": "set",
+      "matched": true,
+      "count": 656
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.54,
+      "peakSeconds": 0.66,
+      "window": [
+        0.4,
+        0.85
+      ],
+      "midiPitches": [
+        43
+      ],
+      "basis": "Pitch-energy inspection: the first G2 rise peaks at 0.64 s; the broader initial window selected the repeated half-bar G2 at 2.06 s and was rejected despite passing onset gates. Restrict the opening to the actual first rise. The final G2–B3–G4 chord’s aggregate rise peaks at 123.20 s, with its leading edge at 123.04 s; decay is not a new attack."
+    },
+    {
+      "label": "last",
+      "scoreQ": 164.0,
+      "audioSeconds": 123.04,
+      "peakSeconds": 123.2,
+      "window": [
+        120,
+        125
+      ],
+      "midiPitches": [
+        43,
+        59,
+        67
+      ],
+      "basis": "Pitch-energy inspection: the first G2 rise peaks at 0.64 s; the broader initial window selected the repeated half-bar G2 at 2.06 s and was rejected despite passing onset gates. Restrict the opening to the actual first rise. The final G2–B3–G4 chord’s aggregate rise peaks at 123.20 s, with its leading edge at 123.04 s; decay is not a new attack."
+    }
+  ],
+  "adaptiveOnsetCount": 775,
+  "adaptiveMedianDeviation": 0.028231292517007844,
+  "gateReasons": [],
+  "elapsedSeconds": 0.8118946389877237,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 42,
+    "notes": 656,
+    "voices": 1
+  },
+  "published": true,
+  "configSha256": "38eb1480ec75c771b401dfe37e468d4f78b4afda9ec66f09a58c78fea2f49d0a",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1007/bwv1007/bwv1007-lys.zip",
+      "file": "bwv1007-lys.zip",
+      "sha256": "b3497b85f8351fb8812577c7faf49c157ef37876eadc71d76214f92ef10ccf6e"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1007/bwv1007/bwv1007-mids.zip",
+      "file": "bwv1007-mids.zip",
+      "sha256": "57fccefc88f315d90e479ce400a6647fc86fbc2b5cbda64f5f29e6c58ea143ce"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/bach-cello-suite-1-prelude-0-8.54.png",
+    "work/bach-cello-suite-1-prelude-48-56.png",
+    "work/bach-cello-suite-1-prelude-54.0829-66.0829.png",
+    "work/bach-cello-suite-1-prelude-56-64.png",
+    "work/bach-cello-suite-1-prelude-58-72.png",
+    "work/bach-cello-suite-1-prelude-72-80.png",
+    "work/bach-cello-suite-1-prelude-80-88.png",
+    "work/bach-cello-suite-1-prelude-112-120.png",
+    "work/bach-cello-suite-1-prelude-118-130.png",
+    "work/bach-cello-suite-1-prelude-119.043-130.3.png",
+    "work/bach-cello-suite-1-prelude-120-128.png"
+  ]
+}

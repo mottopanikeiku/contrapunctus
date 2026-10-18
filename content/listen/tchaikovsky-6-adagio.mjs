@@ -232,22 +232,13 @@ export default {
       "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/e52ecfb9f5036941073dd02193700851.pdf"
     },
     {
-      "t": 740,
+      "t": 754,
       "kind": "music",
       "title": "A sustained central crest",
       "text": "The central argument sustains a high recorded level across several phrases. Compare that extended pressure with the abrupt quiet passages heard earlier.",
       "basis": "audio-feature",
       "precision": "passage",
       "evidence": "cache/analysis/tchaikovsky-6-adagio.txt: The 12:15 window is the report’s loudest; further high windows occur at 12:55 and 13:05."
-    },
-    {
-      "t": 754,
-      "kind": "form",
-      "title": "Major after minor",
-      "text": "The later lyrical return moves the second subject towards B major, the major form of the movement’s home key. A change of mode alters the harmony without requiring a wholly new melody.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/e52ecfb9f5036941073dd02193700851.pdf"
     },
     {
       "t": 793,

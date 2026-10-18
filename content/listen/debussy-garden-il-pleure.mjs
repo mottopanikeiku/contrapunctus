@@ -33,19 +33,19 @@ export default {
       "t": 0,
       "label": "A · Rain and inward grief",
       "m": "A",
-      "mNote": "The moving piano figure supports the poem’s first contrasts between rain outside and grief within."
+      "mNote": "Moving piano figures accompany the contrast between rain and inward grief."
     },
     {
       "t": 64,
       "label": "B · A freer question",
       "m": "B",
-      "mNote": "Approximate approach to the score’s more freely paced question, not a word-aligned subtitle."
+      "mNote": "The more freely paced question approaches; timing is approximate."
     },
     {
       "t": 82,
       "label": "A′ · The flowing figure returns",
       "m": "A′",
-      "mNote": "The opening manner resumes for the final stanza and piano postlude; placement is approximate."
+      "mNote": "Opening motion resumes for the final stanza and postlude; approximate placement."
     }
   ],
   "cues": [

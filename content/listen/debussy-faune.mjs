@@ -39,13 +39,13 @@ export default {
       "t": 324,
       "label": "A′ · Opening tempo recovered",
       "m": "A′",
-      "mNote": "The flute and harp recover the opening manner; other earlier wind ideas follow."
+      "mNote": "Flute and harp recover the opening manner; earlier wind ideas follow."
     },
     {
       "t": 390,
       "label": "Coda · The line remembered",
       "m": "Coda",
-      "mNote": "The opening contour returns once more, with antique cymbals and a quiet E-major close."
+      "mNote": "The opening contour returns, coloured by antique cymbals, before E-major repose."
     }
   ],
   "cues": [

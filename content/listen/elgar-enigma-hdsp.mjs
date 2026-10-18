@@ -3,7 +3,7 @@ export default {
   "composer": "elgar",
   "order": 2,
   "work": "Variations on an Original Theme “Enigma”, Op. 36",
-  "movement": "II. “H.D.S-P.” (Allegro)",
+  "movement": "II. “H.D.S.-P.” (Allegro)",
   "set": {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",

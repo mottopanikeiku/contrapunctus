@@ -32,7 +32,7 @@ export default {
     { t: 346, label: 'Renewed orchestral drive', m: 'C', mNote: 'a later high-pressure span gathers the instrumental groups' },
     { t: 386, label: 'Quiet plateau', m: 'Link', mNote: 'the Tranquillo region reduces weight before the long final build' },
     { t: 436, label: 'Final accumulation', m: 'Coda', mNote: 'a long increase in weight prepares the concluding pages' },
-    { t: 518, label: 'Revised ending', m: 'Coda′', mNote: 'Bartók’s expanded ending replaces the shorter original close' },
+    { t: 518, label: 'Revised ending', m: 'Coda', mNote: 'Bartók’s expanded ending replaces the shorter original close' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'A call before the rush', text: 'The horns open with a short, weighty call. The strings then set the fast motion in train: a change from a signal that can be answered to a current that must be sustained.', basis: 'score-proportion', precision: 'passage', evidence: `Score p. 79, opening Pesante, acceleration and Presto at bar 8: ${SCORE}. The report begins relatively quietly and grows through the first half-minute. The 0:08 map anchor is score-proportioned, not an instrument-detection result.` },

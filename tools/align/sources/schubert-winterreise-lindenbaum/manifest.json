@@ -1,0 +1,18 @@
+{
+  "title": "Winterreise, D. 911 — No. 5 Der Lindenbaum",
+  "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established",
+  "encoder": "OpenScore Lieder contributors",
+  "url": "https://musescore.com/openscore-lieder-corpus/scores/5016466",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "song.ly",
+  "musicxml": "lc5016466.mxl",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/05_Der_Lindenbaum/lc5016466.mxl",
+      "file": "lc5016466.mxl",
+      "sha256": "f4312876fee5664a805aeace05621015c4be0143055bd3b58f348d039420452e"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

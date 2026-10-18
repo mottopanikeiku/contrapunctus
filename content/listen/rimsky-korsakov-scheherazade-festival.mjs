@@ -211,7 +211,7 @@ export default {
       "text": "The upstream source credits Bob Varney with transferring the original Victor 78-rpm set. It does not document stylus choice, equalisation or noise-reduction settings, so those procedures are not inferred from the word “restored”.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
+      "evidence": "The upstream Internet Archive description credits Bob Varney with the transfer from the Victor 78-rpm set; Commons calls it restored without specifying processing: https://archive.org/metadata/Sheherazade/metadata ; https://commons.wikimedia.org/w/index.php?oldid=718302109 ."
     },
     {
       "t": 601,

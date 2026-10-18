@@ -31,6 +31,7 @@
       "sleeve-labels",
       "archive",
       "reissue-session",
+      "label-reissue",
       "work-history"
     ],
     "note": "Original sleeve and labels establish the displayed credit. Later Westminster reissue documentation and the publisher’s discography identify the orchestra as the Royal Philharmonic Orchestra. That cross-identification is not substituted silently for the original label credit; individual players and soloists are not established."
@@ -141,6 +142,7 @@
         "sleeve-labels",
         "archive",
         "work-history",
+        "label-reissue",
         "eu-term",
         "eu-extension"
       ],
@@ -235,10 +237,24 @@
       "accessed": "2026-10-17"
     },
     {
+      "id": "ross-testimony",
+      "title": "Alex Ross — Unauthorized",
+      "url": "https://www.newyorker.com/magazine/2004/09/06/unauthorized",
+      "locator": "The New Yorker, 30 August 2004 / 6 September print issue. Reports Testimony’s 1979 publication, Laurel Fay’s documentary challenge and the continuing distinction between corroborated anecdotes and authenticated authorship. Used as independent evidence of the controversy, not as a settled verdict on every memoir statement or on the finale’s meaning.",
+      "accessed": "2026-10-17"
+    },
+    {
       "id": "eu-term",
       "title": "Directive 2006/116/EC — copyright and related-rights terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Article 1(1), ordinary life-plus-70 author term; Article 3, former 50-year phonogram/performer terms; Article 8, calculation from the following January; recital 17, relevant acts count regardless of country.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "label-reissue",
+      "title": "Decca Eloquence — Artur Rodzinski, Complete Westminster Recordings",
+      "url": "https://www.eloquenceclassics.com/releases-archive/artur-rodzinski-edition/",
+      "locator": "Label’s catalogue 4848489, CD 16: Shostakovich Symphony No. 5, Royal Philharmonic Orchestra. The label also quotes a High Fidelity review dated December 1955, corroborating circulation before the selected sleeve’s 1956 date. The original 1955 review and exact session ledger were not inspected; the conservative 1956 publication upper bound and inferred session fields are retained.",
       "accessed": "2026-10-17"
     },
     {

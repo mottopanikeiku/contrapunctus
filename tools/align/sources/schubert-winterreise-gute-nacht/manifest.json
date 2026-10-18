@@ -7,6 +7,7 @@
   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
   "main": "song.ly",
   "musicxml": "lc5015378.mxl",
+  "otherDynamicsWords": true,
   "downloads": [
     {
       "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/01_Gute_Nacht/lc5015378.mxl",

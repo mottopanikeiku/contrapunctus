@@ -22,7 +22,7 @@ export default {
     rights: {
       basis: 'eu-published-before-1963',
       published: 1958,
-      evidence: 'London CS 6009, dated 1958 by the Internet Archive carrier metadata: https://archive.org/metadata/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro. Territorial EU recording basis; US sound-recording status is not established.',
+      evidence: 'London CS 6009 is pictured as NOW AVAILABLE in the Grosse Pointe News, 6 November 1958, p. 7, London/Pecar Electronics advertisement: https://digitize.gp.lib.mi.us/history/newspapers/grossePointeNews/year_ranges/1950s/1958/pdf/1958-11-06.pdf . The inspected sleeve and Archive carrier metadata identify this Ansermet/OSR Original Edition. First lawful publication anywhere before 1963; territorial EU recording basis only, US sound-recording status not established.',
     },
   },
   intro: 'Behind the puppet theatre, Petrushka’s music alternates violent gestures with exposed piano and wind lines. Two clarinets make the famous C-major/F♯-major clash sound like one character unable to settle into a single harmonic identity.',

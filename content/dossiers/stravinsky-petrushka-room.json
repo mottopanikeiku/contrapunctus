@@ -132,18 +132,26 @@
       "value": "Rule 3 — first lawful publication anywhere before 1963: London CS 6009, commercially published by 1958. Territorial EU sound-recording basis only; US sound-recording status is not established.",
       "status": "documented",
       "sourceIds": [
+        "contemporary-ad",
         "archive",
         "london-carrier",
         "decca-reissue",
         "eu-term",
         "eu-extension"
       ],
-      "note": "Archive dates this London commercial issue 1958, corroborated by Decca’s ℗ 1958 attribution to the same original-edition performance. The rule concerns first lawful publication anywhere, not first EU publication; a US London issue is therefore pertinent. A 1958 lawful publication exhausted the former 50-year EU performance/phonogram term by the end of 2008, before the 1 November 2013 protection threshold for the 70-year extension. The exact earliest market/day and any earlier issue are not established or required for this pre-1963 finding. No CC licence, worldwide public-domain claim, or US recording clearance is asserted."
+      "note": "A contemporary London/Pecar Electronics advertisement in the Grosse Pointe News, 6 November 1958, p. 7, pictures this Petrushka/Ansermet cover with catalogue CS 6009 under recordings NOW AVAILABLE. This directly establishes commercial availability in 1958; Archive's 1958 carrier date and Decca's ℗ 1958 attribution corroborate it. The rule concerns first lawful publication anywhere, not first EU publication; the US advertisement is therefore pertinent. A 1958 lawful publication exhausted the former 50-year EU performance/phonogram term by the end of 2008, before the 1 November 2013 protection threshold for the 70-year extension. The exact earliest market/day and any earlier issue are not established or required for this pre-1963 finding. No CC licence, worldwide public-domain claim, or US recording clearance is asserted."
     },
     "creditLine": "Igor Stravinsky, Petrushka (1911 original orchestration), II. Petrushka’s room; Orchestre de la Suisse Romande, Ernest Ansermet. Recorded 1957, Victoria Hall, Geneva; London CS 6009, 1958. Internet Archive LP digitisation, 29 June 2021. Territorial EU recording-term basis only; US recording status unestablished and composition rights separate.",
     "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
   },
   "sources": [
+    {
+      "id": "contemporary-ad",
+      "title": "Grosse Pointe News, 6 November 1958 — London stereo advertisement",
+      "url": "https://digitize.gp.lib.mi.us/history/newspapers/grossePointeNews/year_ranges/1950s/1958/pdf/1958-11-06.pdf",
+      "locator": "Printed p. 7, right-hand London/Pecar Electronics advertisement, visually inspected. The heading says over 100 ffss recordings NOW AVAILABLE; the third row pictures the Petrushka/Ansermet sleeve and prints CS 6009 beneath it. Page header explicitly dates the issue Thursday, November 6, 1958.",
+      "accessed": "2026-10-17"
+    },
     {
       "id": "archive",
       "title": "Internet Archive — London CS 6009 carrier and digitisation metadata",

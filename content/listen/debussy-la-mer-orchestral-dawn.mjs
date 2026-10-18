@@ -39,13 +39,13 @@ export default {
       "t": 86,
       "label": "A · The sea in motion",
       "m": "A",
-      "mNote": "A broad listening region after the opening build; individual themes pass between sections."
+      "mNote": "After the opening build, individual themes pass between orchestral sections."
     },
     {
       "t": 276,
       "label": "B · Renewed motion and retreat",
       "m": "B",
-      "mNote": "The later course rebuilds energy and then leaves a quiet space before the final broadening."
+      "mNote": "Renewed energy gives way to quiet before the final broadening."
     },
     {
       "t": 438,
