@@ -1,0 +1,84 @@
+{
+  "id": "beethoven-5-first-nikisch-1913",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, source/report and visual review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#beethoven-5-first-nikisch-1913",
+    "finding": "The per-piece report matches the recomputed final gates, source, unrepeated order, corrected opening, note/voice counts, 16-page pack and provisional limitations. It retains high regional primary errors and the rejected later opening attack."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/beethoven-5-first-nikisch-1913-checks.json",
+    "primaryMedianSeconds": 0.06343591085351363,
+    "primaryP95Seconds": 0.4363302137423,
+    "maximumAnchorDeviationSeconds": 0.14286566303049808,
+    "maximumLocalRegionMedianSeconds": 0.056500550121427295,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 502,
+    "distinctEngravedBars": 502,
+    "sheetPages": 16,
+    "glyphBearingBars": 497,
+    "derivedRestBars": ["57", "123", "124", "301", "389"],
+    "unresolvedScoreBars": [],
+    "unresolvedGlyphBarIds": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All 8295 note indices resolve, durations are positive, and bar times strictly increase. The five derived intervals have no score attacks and were individually checked against their printed all-orchestra rest measures on pages 2, 4, 10 and 13; they are genuine internal rest bars, not a fabricated endpoint. First and last pages show the actual 1–502 numbering. Listening cues use seconds and agree with the documented repeat omission."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/beethoven-5-first-nikisch-1913-0-10.0979.png",
+      "work/beethoven-5-first-nikisch-1913-72-80.png",
+      "work/beethoven-5-first-nikisch-1913-96-104.png",
+      "work/beethoven-5-first-nikisch-1913-128-136.png",
+      "work/beethoven-5-first-nikisch-1913-160-168.png",
+      "work/beethoven-5-first-nikisch-1913-168-176.png",
+      "work/beethoven-5-first-nikisch-1913-202.644-214.644.png",
+      "work/beethoven-5-first-nikisch-1913-208-216.png",
+      "work/beethoven-5-first-nikisch-1913-232-240.png",
+      "work/beethoven-5-first-nikisch-1913-256-264.png",
+      "work/beethoven-5-first-nikisch-1913-296-304.png",
+      "work/beethoven-5-first-nikisch-1913-304-312.png",
+      "work/beethoven-5-first-nikisch-1913-312-320.png",
+      "work/beethoven-5-first-nikisch-1913-376-384.png",
+      "work/beethoven-5-first-nikisch-1913-392-404.454.png",
+      "work/beethoven-5-first-nikisch-1913-397.257-404.454.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified, including corrected first G near 2.10 s, exposed oboe cadenza, harmonic-worst windows and final two separate chords near 400.46/401.26 s. The short final notated hold is not a measured instrumental release. Acoustic balance does not independently verify every instrumental line."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+    "opened": true,
+    "edition": "Breitkopf and Härtel, 1862–1865",
+    "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
+    "license": "Public Domain"
+  },
+  "recordingVersionEvidence": {
+    "basis": "EXT",
+    "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/",
+    "opened": true,
+    "finding": "The recording study explicitly documents omission of the exposition repeat and evidence for original orchestral forces, with Stroh reinforcement rather than a generic assumption of bass substitution. It does not identify Nikisch’s physical performing edition."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete first movement, bars 1–502 once; no exposition repeat. The extended oboe cadenza remains one numbered bar 268. Original source clarinet/horn transpositions are retained and the source’s missing double-bass sounding octave is corrected by −12. Named section voices describe notation rather than separated recorded stems. No gross cut or arrangement mismatch identified.",
+    "physicalPerformingEdition": "Unknown; the B&H source is not claimed as Nikisch’s personal marked score."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label and disclosed acoustic/primary-detector limits must remain."
+}

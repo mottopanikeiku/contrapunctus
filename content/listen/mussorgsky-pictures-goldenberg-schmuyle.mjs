@@ -14,7 +14,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - vi. samuel goldenberg and schmuyle - andante.ogg' },
-  intro: 'Two men, one rich and imposing, one poor and nervous, are drawn as two tunes that finally sound at once. Hear which one commands and which one pleads.',
+  intro: 'Two men, one rich and imposing, one poor and nervous, are drawn as two tunes that finally sound at once. Hear which one commands and which one pleads. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How can two melodies at different speeds stand for two people?',
 
   sections: [

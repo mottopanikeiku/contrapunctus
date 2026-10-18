@@ -16,7 +16,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - x. la grande porte de kiev - allegro alla breve. maestoso. con grandezza.ogg' },
-  intro: 'A gate that was never built becomes the suite’s finale: a grand theme, a quiet chant, bells, the Promenade, and a long climax. Follow the alternation of loud and hushed.',
+  intro: 'A gate that was never built becomes the suite’s finale: a grand theme, a quiet chant, bells, the Promenade, and a long climax. Follow the alternation of loud and hushed. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How does a rondo of loud and quiet themes build a monument out of sound?',
 
   sections: [

@@ -1,0 +1,76 @@
+{
+  "id": "schumann-kinderszenen-foreign-lands",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, source/report, bar-anchored cue and visual review; not aural review.",
+  "defects": [],
+  "resolution": {
+    "basis": "MEAS",
+    "finding": "The listening owner qualified the bar-15 return as beginning on D5 rather than the original B4, with the remaining top line following the opening, and made the intro consistent. The initial caller finding is resolved without changing the passing score."
+  },
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#schumann-kinderszenen-foreign-lands",
+    "finding": "The completed report matches the recomputed final gates, binary repeats, corrected quiet final attack, source attribution, one-page pack and provisional limitations."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/schumann-kinderszenen-foreign-lands-checks.json",
+    "primaryMedianSeconds": 0.041304885590594864,
+    "primaryP95Seconds": 0.43678741496599227,
+    "maximumAnchorDeviationSeconds": 0.07409374355803067,
+    "maximumLocalRegionMedianSeconds": 0.052261389404236525,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 44,
+    "distinctEngravedBars": 22,
+    "sheetPages": 1,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 4,
+    "unresolvedListenPointers": [],
+    "finding": "All 444 note bar/voice indices resolve, durations are positive and occurrence times strictly increase. Actual glyph/index sets are exactly 1–22; the single printed page was inspected. Cue 1/2 resolves to 17.925 s; transition anchors 9/1, 15/1 and 9/2 resolve to 36.135, 53.460 and 72.413 s respectively. The corrected bar-15 narrative now agrees with the source melody."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/schumann-kinderszenen-foreign-lands-0-8.52.png",
+      "work/schumann-kinderszenen-foreign-lands-12-24.png",
+      "work/schumann-kinderszenen-foreign-lands-16-24.png",
+      "work/schumann-kinderszenen-foreign-lands-32-40.png",
+      "work/schumann-kinderszenen-foreign-lands-40-48.png",
+      "work/schumann-kinderszenen-foreign-lands-48.7253-60.7253.png",
+      "work/schumann-kinderszenen-foreign-lands-56-64.png",
+      "work/schumann-kinderszenen-foreign-lands-62-78.png",
+      "work/schumann-kinderszenen-foreign-lands-64-72.png",
+      "work/schumann-kinderszenen-foreign-lands-72-80.png",
+      "work/schumann-kinderszenen-foreign-lands-88-96.png",
+      "work/schumann-kinderszenen-foreign-lands-105.082-111.901.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified across the opening, repeat returns, middle, both detector-worst regions and corrected quiet final G4 near 109.08 s. Final written durations are not measured key releases."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=354",
+    "opened": true,
+    "edition": "Leichte Stücke, 1900",
+    "encoder": "Ying-Chun Liu",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Original piano scoring; bars 1–8 twice, then 9–22 twice. The written return at 15 is retained rather than replacing it with a literal copy of bars 1–8. Two source-staff aggregates are not separately recovered performed voices. No gross cut or arrangement mismatch identified.",
+    "physicalPerformingEdition": "Unknown; the identified source edition is not claimed as Donald Betts’s performing copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The alignment and source-voice interpretation remain provisional."
+}

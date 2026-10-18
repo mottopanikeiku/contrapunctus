@@ -1,13 +1,5 @@
 {
   "id": "mahler-das-lied-trinklied",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cue at t:150, evidence",
-      "severity": "minor",
-      "problem": "The corrected major/minor sequence is right, but the newly added A-major correlation range 0.67–0.75 is not in the cited report windows. The actual correlations are 0.44 at 2:30, 0.64 at 2:35 and 0.67 at 2:40. All other reported defects are now cleared.",
-      "evidence": "cache/analysis/mahler-das-lied-trinklied.txt:57-59.",
-      "fix": "Replace the A-major correlation range with 0.44–0.67, or omit only that parenthetical range. Keep the correct A-minor range 0.66–0.71 for 2:45–2:50."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

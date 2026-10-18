@@ -28,18 +28,23 @@ export async function mount(app) {
   try { [data, base] = await Promise.all([getJSON('index'), getJSON('base')]); }
   catch (error) { if (!signal.aborted) status.textContent = `${error.message}. Composer Places sections remain available.`; return () => abort.abort(); }
   if (!root.isConnected) { abort.abort(); return; }
-  for (const [key, cls] of [['land', 'land'], ['coastline', 'coast'], ['countries', 'countries'], ['graticule', 'graticule']]) $(`.am-${cls}`).setAttribute('d', base[key]);
+  for (const [key, cls] of [['land', 'land'], ['coastline', 'coast'], ['countries', 'countries'], ['graticule', 'graticule']]) world.querySelector(`.am-${cls}`).setAttribute('d', base[key]);
+  const inset = $('.am-inset'), insetSelect = $('[name="inset"]'), insetWorld = $('.am-inset-world');
+  insetWorld.querySelector('.am-land').setAttribute('d', base.land);
+  insetWorld.querySelector('.am-coast').setAttribute('d', base.coastline);
   const byId = new Map(data.composers.map((c, i) => [c.id, { ...c, index: i }]));
-  const detailCache = new Map(), sprites = [], trails = [], events = [], citySprites = [], routeSprites = [];
+  const detailCache = new Map(), sprites = [], trails = [], events = [], citySprites = [], clusterSprites = [], routeSprites = [], transferSprites = [];
   let year = clamp(Number(new URL(location.href).searchParams.get('year')) || 1805, data.first, data.last);
   let selected = '', selectedCity = Number(citySelect.value), detail = null, focusRequest = 0, selectedPlace = -1;
   let width = 900, height = 530, tx = 0, ty = 0, scale = 1, previousScale = 0;
   let view = data.europe, frame = [], paintId = 0, timeId = 0, playing = false, lastTick = 0, clock = 0;
   let moved = false, pointerRect, gesture, suppressClickUntil = 0;
+  let expandedCity = -1, pinnedCluster = -1, clusterTimer = 0, insetRegion = '', insetScale = 1;
   const pointers = new Map();
 
   for (const [index, c] of data.composers.entries()) {
-    const anchor = svgNode('g', { class: 'am-person', role: 'button', tabindex: '-1', 'data-composer': c.id, 'aria-label': c.name }, $('.am-people'));
+    const anchor = svgNode('g', { class: 'am-person am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'person', 'data-composer': c.id, 'aria-label': c.name }, $('.am-people'));
+    const dot = svgNode('circle', { r: 2.8, class: 'am-person-dot' }, anchor);
     const tether = svgNode('path', { class: 'am-tether' }, anchor);
     const icon = svgNode('g', { class: 'am-person-icon' }, anchor);
     const title = svgNode('title', {}, icon); title.textContent = c.name;
@@ -51,11 +56,11 @@ export async function mount(app) {
     svgNode('ellipse', { rx: 16, ry: 21, class: 'am-inner-frame' }, face);
     const name = svgNode('text', { y: 38, 'text-anchor': 'middle', class: 'am-person-name' }, face); name.textContent = c.label;
     const cross = svgNode('text', { y: 7, 'text-anchor': 'middle', class: 'am-cross' }, icon); cross.textContent = '†';
-    sprites.push({ anchor, icon, tether, title, image, index, c });
+    sprites.push({ anchor, icon, face, dot, tether, title, image, index, c });
     c.places.forEach((p, i) => {
       if (p.path) trails.push({ node: svgNode('path', { d: p.path, class: `am-trail${p.kind === 'travelled' ? ' am-travel' : ''}` }, $('.am-trails')), p, c });
       if (p.kind === 'premiere') {
-        const g = svgNode('g', { class: 'am-premiere', role: 'button', tabindex: '-1', 'data-composer': c.id, 'data-place': i, 'aria-label': `${p.work}, ${p.y}` }, $('.am-events'));
+        const g = svgNode('g', { class: 'am-premiere am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'premiere', 'data-geo-x': p.x, 'data-geo-y': p.z, 'data-composer': c.id, 'data-place': i, 'aria-label': `${p.work}, ${p.y}` }, $('.am-events'));
         const icon = svgNode('g', {}, g);
         const star = svgNode('text', { 'text-anchor': 'middle', y: 8, class: 'am-star' }, icon); star.textContent = '✧';
         const label = svgNode('text', { x: 18, y: -7, class: 'am-premiere-name' }, icon); label.textContent = p.work;
@@ -65,13 +70,18 @@ export async function mount(app) {
     });
   }
   for (const city of data.cities) {
-    if (!city.visits.length) continue;
-    const node = svgNode('g', { class: 'am-city', role: 'button', tabindex: '-1', 'data-city': city.id, 'aria-label': `Who was in ${city.name}?` }, $('.am-cities'));
+    const node = svgNode('g', { class: 'am-city am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'city', 'data-geo-x': city.x, 'data-geo-y': city.y, 'data-city': city.id, 'aria-label': `Who was in ${city.name}?` }, $('.am-cities'));
     const icon = svgNode('g', {}, node);
     svgNode('circle', { r: 14, class: 'am-city-hit' }, icon);
     svgNode('circle', { r: 2.5, class: 'am-city-dot' }, icon);
     const label = svgNode('text', { x: 7, y: 4, class: 'am-city-name' }, icon); label.textContent = city.name;
     citySprites.push({ node, icon, city });
+    const cluster = svgNode('g', { class: 'am-cluster am-hidden am-true-marker', role: 'button', tabindex: '-1', 'data-cluster': city.id, 'data-geo-kind': 'cluster', 'data-geo-x': city.x, 'data-geo-y': city.y }, $('.am-clusters'));
+    const medallion = svgNode('g', {}, cluster);
+    svgNode('ellipse', { rx: 18, ry: 13 }, medallion);
+    const count = svgNode('text', { 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'am-cluster-count' }, medallion);
+    const name = svgNode('text', { y: 28, 'text-anchor': 'middle', class: 'am-cluster-name' }, medallion);
+    clusterSprites.push({ node: cluster, icon: medallion, count, name, city });
   }
 
   function schedulePaint() { if (!paintId) paintId = requestAnimationFrame(paint); }
@@ -80,29 +90,36 @@ export async function mount(app) {
     world.setAttribute('transform', `translate(${tx} ${ty}) scale(${scale})`);
     const inverse = 1 / scale;
     for (const row of frame) {
-      const sprite = sprites[row[0]], p = sprite.c.places[row[1]], dx = row[2], dy = row[3];
+      const sprite = sprites[row[0]], p = sprite.c.places[row[1]];
+      const radius = Math.hypot(row[2], row[3]), coastal = radius ? Math.min(1, p.shore * scale / radius) : 1;
+      const dx = row[2] * coastal, dy = row[3] * coastal;
       sprite.anchor.setAttribute('transform', `translate(${p.x} ${p.z})`);
+      sprite.anchor.dataset.geoX = p.x; sprite.anchor.dataset.geoY = p.z;
+      sprite.anchor.dataset.geoPlace = row[1];
       sprite.icon.setAttribute('transform', `translate(${dx * inverse} ${dy * inverse}) scale(${inverse})`);
+      sprite.dot.setAttribute('transform', `scale(${inverse})`);
       sprite.tether.setAttribute('d', `M0,0L${dx * inverse},${dy * inverse}`);
     }
     if (previousScale !== scale) {
-      for (const { node, icon, city } of citySprites) { node.setAttribute('transform', `translate(${city.x} ${city.y})`); icon.setAttribute('transform', `scale(${inverse})`); }
+      for (const { node, icon, city } of [...citySprites, ...clusterSprites]) { node.setAttribute('transform', `translate(${city.x} ${city.y})`); icon.setAttribute('transform', `scale(${inverse})`); }
       for (const { node, icon, p } of events) { node.setAttribute('transform', `translate(${p.x} ${p.z})`); icon.setAttribute('transform', `scale(${inverse})`); }
       previousScale = scale;
     }
-    for (const { node, p, dx, dy } of routeSprites) node.setAttribute('transform', `translate(${p.x + dx * inverse} ${p.z + dy * inverse}) scale(${inverse})`);
+    for (const s of routeSprites) s.node.setAttribute('transform', `translate(${s.x} ${s.z}) scale(${1 / (s.region === detail?.map.primary ? scale : insetScale)})`);
+    const endX = mobile.matches ? 153 : 224, endY = mobile.matches ? 84 : 238;
+    for (const transfer of transferSprites) {
+      const x = tx + transfer.item.x * scale, y = ty + transfer.item.z * scale;
+      transfer.path.setAttribute('d', `M${x},${y}Q${(x + endX) / 2},${Math.min(y, endY) - 35} ${endX},${endY}`);
+      transfer.label.setAttribute('x', endX + 9); transfer.label.setAttribute('y', endY - 12);
+    }
   }
   function fit(box) {
     view = box;
-    scale = clamp(Math.min((width - 85) / Math.max(box[2], 100), (height - 90) / Math.max(box[3], 90)), .18, 9);
-    tx = width / 2 - (box[0] + box[2] / 2) * scale;
+    const reserve = detail?.map.regions.length && !mobile.matches && box === detail.map.bounds ? 224 : 0;
+    scale = clamp(Math.min((width - reserve - 40) / Math.max(box[2], 70), (height - 48) / Math.max(box[3], 70)), .18, 9);
+    tx = reserve + (width - reserve) / 2 - (box[0] + box[2] / 2) * scale;
     ty = height / 2 - (box[1] + box[3] / 2) * scale;
     schedulePaint();
-  }
-  function routeBounds(c) {
-    let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
-    for (const p of c.places) { minX = Math.min(minX, p.x); maxX = Math.max(maxX, p.x); minY = Math.min(minY, p.z); maxY = Math.max(maxY, p.z); }
-    return [minX - 24, minY - 30, Math.max(100, maxX - minX + 48), Math.max(100, maxY - minY + 60)];
   }
   function zoom(factor, x = width / 2, y = height / 2) {
     const next = clamp(scale * factor, .18, 12), ratio = next / scale;
@@ -112,14 +129,41 @@ export async function mount(app) {
     const u = new URL(location.href); u.hash = id ? `c-${id}` : ''; u.searchParams.set('year', year);
     history.replaceState(null, '', u);
   }
+  function showFaces() {
+    for (const row of frame) {
+      const s = sprites[row[0]], p = s.c.places[row[1]], collapsed = row[6] > 4 && expandedCity !== p.city;
+      s.anchor.classList.toggle('am-collapsed', collapsed);
+      s.anchor.classList.toggle('am-shared-city', row[6] > 1);
+      s.anchor.dataset.clusterCity = p.city;
+      s.face.setAttribute('transform', `scale(${row[6] > 4 ? .55 : row[6] > 1 ? .75 : 1})`);
+      s.anchor.setAttribute('tabindex', !selected && !collapsed ? '0' : '-1');
+      if (!selected && !collapsed && !row[4] && s.image && !s.image.hasAttribute('href')) s.image.setAttribute('href', url(s.c.portrait));
+    }
+    for (const s of clusterSprites) {
+      s.node.classList.toggle('am-cluster-open', s.city.id === expandedCity);
+      s.node.setAttribute('aria-expanded', String(s.city.id === expandedCity));
+    }
+  }
+  function expandCluster(id, pin = false) {
+    clearTimeout(clusterTimer);
+    if (pin) pinnedCluster = pinnedCluster === id ? -1 : id;
+    expandedCity = pin ? pinnedCluster : id;
+    if (pin && pinnedCluster >= 0) {
+      const city = data.cities[id], rows = frame.filter((row) => !row[4] && sprites[row[0]].c.places[row[1]].city === id);
+      const shore = Math.min(...rows.map((row) => sprites[row[0]].c.places[row[1]].shore || 1));
+      scale = Math.max(scale, Math.min(9, 35 / shore));
+      tx = width / 2 - city.x * scale; ty = height / 2 - city.y * scale; schedulePaint();
+    }
+    showFaces();
+  }
   function updateYear(next, announce = false) {
     year = clamp(Math.round(next), data.first, data.last); slider.value = year;
     for (const output of yearDisplays) output.textContent = year;
-    frame = (mobile.matches ? data.mobileFrames : data.frames)[year - data.first];
+    frame = data.frames[year - data.first];
     for (const sprite of sprites) { sprite.anchor.classList.add('am-hidden'); sprite.anchor.setAttribute('tabindex', '-1'); }
     let alive = 0;
     for (const row of frame) {
-      const s = sprites[row[0]], visible = !selected || s.c.id === selected;
+      const s = sprites[row[0]], visible = !selected;
       s.anchor.classList.toggle('am-hidden', !visible);
       s.anchor.classList.toggle('am-dead', Boolean(row[4]));
       s.anchor.classList.toggle('am-last-known', !row[5]);
@@ -127,8 +171,17 @@ export async function mount(app) {
       const p = s.c.places[row[1]], city = data.cities[p.city].name;
       s.title.textContent = `${s.c.name} · ${row[4] ? 'died; ' : row[5] ? '' : 'last recorded place: '}${city} · ${year}`;
       s.anchor.setAttribute('aria-label', s.title.textContent);
-      if (!row[4]) { alive++; if (s.image && !s.image.hasAttribute('href') && visible) s.image.setAttribute('href', url(s.c.portrait)); }
+      if (!row[4]) alive++;
     }
+    const counts = new Map();
+    for (const row of frame) if (!row[4]) counts.set(sprites[row[0]].c.places[row[1]].city, row[6]);
+    for (const s of clusterSprites) {
+      const count = counts.get(s.city.id) ?? 0, visible = !selected && count > 4;
+      s.node.classList.toggle('am-hidden', !visible); s.node.setAttribute('tabindex', visible ? '0' : '-1');
+      s.node.setAttribute('aria-label', `${s.city.name} · ${count} composers. Expand portraits.`);
+      s.count.textContent = count; s.name.textContent = `${s.city.name} · ${count}`;
+    }
+    showFaces();
     for (const trail of trails) {
       const visible = !selected && trail.p.y <= year && (!trail.c.died || trail.p.y <= trail.c.died);
       trail.node.classList.toggle('am-hidden', !visible);
@@ -140,9 +193,10 @@ export async function mount(app) {
     }
     for (const s of citySprites) {
       const present = s.city.visits.some((v) => v.a <= year && v.b >= year);
-      const visible = !selected && (present || s.city.id === selectedCity);
+      const visible = !selected && (present || s.city.id === selectedCity) && (counts.get(s.city.id) ?? 0) <= 4;
       s.node.classList.toggle('am-hidden', !visible);
       s.node.classList.toggle('am-city-selected', s.city.id === selectedCity);
+      s.node.classList.toggle('am-city-occupied', counts.get(s.city.id) === 1);
       s.node.setAttribute('tabindex', visible ? '0' : '-1');
     }
     if (!selected) renderEncounters(false);
@@ -175,20 +229,51 @@ export async function mount(app) {
     }).join('')}</ol>${c.influences.length ? `<section class="am-evidence"><h3>Music connected to a place</h3><p class="am-small">Dotted lines are musical connections, not asserted meetings or travel routes.</p><ul>${c.influences.map((e) => `<li><a href="${url(`influence.html#edge-${e.id}`)}">${escape(e.title)}</a><small>${escape(e.place)} · ${e.year} · ${escape(e.status)}</small></li>`).join('')}</ul></section>` : ''}<p class="am-small"><a href="${url(`assets/data/geo/${c.id}.json`)}" download>Download this life’s sourced place records</a></p>`;
     cardContent.scrollTop = 0; openCard();
   }
-  function drawRoute(c) {
-    $('.am-route').replaceChildren(); $('.am-route-points').replaceChildren(); $('.am-influence').replaceChildren(); routeSprites.length = 0;
+  function routeMarker(parent, p, region, indices, badge = false) {
+    const node = svgNode('g', { class: `${badge ? 'am-route-badge' : 'am-route-point'} am-true-marker`, role: 'button', tabindex: '0', 'data-geo-kind': badge ? 'city-numbers' : 'route-stop', 'data-geo-x': p.x, 'data-geo-y': p.z, 'data-route-place': indices[0], 'data-route-indices': indices.join(','), 'aria-label': `${p.name}: ${indices.map((i) => i + 1).join(', ')}` }, parent);
+    if (badge) {
+      const numbers = indices.slice(0, 3).map((i) => i + 1).join(',') + (indices.length > 3 ? '…' : '');
+      const half = Math.max(12, numbers.length * 3.3 + 5);
+      svgNode('rect', { x: -half, y: -10, width: half * 2, height: 20, rx: 7 }, node);
+      const label = svgNode('text', { x: 0, y: 0, 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'am-stop-numbers' }, node); label.textContent = numbers;
+      const city = svgNode('text', { y: -15, 'text-anchor': 'middle', class: 'am-stop-city' }, node); city.textContent = p.name;
+    } else svgNode('circle', { r: 2.8 }, node);
+    const title = svgNode('title', {}, node); title.textContent = `${p.name} · records ${indices.map((i) => i + 1).join(', ')}`;
+    routeSprites.push({ node, x: p.x, z: p.z, region, places: indices });
+  }
+  function drawRegion(c, region, routes, points) {
     const compact = byId.get(c.id);
     for (const [i, p] of c.places.entries()) {
-      const item = compact.places[i];
-      if (item.path) svgNode('path', { d: item.path, class: `am-life-route${c.died && p.y > c.died ? ' am-posthumous' : ''}` }, $('.am-route'));
-      const [dx, dy] = mobile.matches ? p.mobileMarker : p.marker;
-      const node = svgNode('g', { class: 'am-route-point', role: 'button', tabindex: '0', 'data-route-place': i, 'aria-label': `${i + 1}. ${p.name}, ${dateText(p)}` }, $('.am-route-points'));
-      svgNode('path', { d: `M${-dx},${-dy}L0,0`, class: 'am-point-tether' }, node);
-      svgNode('circle', { r: 10 }, node);
-      const label = svgNode('text', { y: 4, 'text-anchor': 'middle' }, node); label.textContent = i + 1;
-      const title = svgNode('title', {}, node); title.textContent = `${p.name} · ${dateText(p)}`;
-      routeSprites.push({ node, p, dx, dy });
+      if (p.region !== region) continue;
+      if (i && c.places[i - 1].region === region && compact.places[i].path) svgNode('path', { d: compact.places[i].path, class: `am-life-route${c.died && p.y > c.died ? ' am-posthumous' : ''}` }, routes);
+      routeMarker(points, p, region, [i]);
     }
+    for (const stop of c.map.stops) if (stop.region === region) routeMarker(points, stop, region, stop.places, true);
+  }
+  function drawInset() {
+    $('.am-inset-routes').replaceChildren(); $('.am-inset-points').replaceChildren(); $('.am-transfers').replaceChildren(); transferSprites.length = 0;
+    for (let i = routeSprites.length - 1; i >= 0; i--) if (routeSprites[i].region !== detail.map.primary) routeSprites.splice(i, 1);
+    const region = detail.map.regions.find((r) => r.id === insetRegion);
+    inset.hidden = !region;
+    if (!region) return;
+    const box = region.bounds;
+    insetScale = Math.min(182 / Math.max(box[2], 32), 104 / Math.max(box[3], 32));
+    insetWorld.setAttribute('transform', `translate(${100 - (box[0] + box[2] / 2) * insetScale} ${65 - (box[1] + box[3] / 2) * insetScale}) scale(${insetScale})`);
+    drawRegion(detail, region.id, $('.am-inset-routes'), $('.am-inset-points'));
+    $('.am-inset-caption').textContent = `${region.label} · independent scale · ${region.places.length} records`;
+    for (const item of detail.map.transfers.filter((t) => t.region === region.id)) {
+      const path = svgNode('path', { class: 'am-transfer-line', 'marker-end': 'url(#am-arrow)' }, $('.am-transfers'));
+      const label = svgNode('text', { class: 'am-transfer-label' }, $('.am-transfers')); label.textContent = item.label;
+      transferSprites.push({ item, path, label });
+    }
+    schedulePaint();
+  }
+  function drawRoute(c) {
+    $('.am-route').replaceChildren(); $('.am-route-points').replaceChildren(); $('.am-influence').replaceChildren(); routeSprites.length = 0;
+    root.classList.add('am-focused');
+    drawRegion(c, c.map.primary, $('.am-route'), $('.am-route-points'));
+    insetSelect.innerHTML = c.map.regions.map((r) => `<option value="${r.id}">${escape(r.label)}</option>`).join('');
+    insetRegion = c.map.regions[0]?.id ?? ''; insetSelect.value = insetRegion; drawInset();
     for (const edge of c.influences) {
       const line = svgNode('path', { class: 'am-influence-line', d: edge.path }, $('.am-influence'));
       const title = svgNode('title', {}, line); title.textContent = `${edge.title} · ${edge.place}, ${edge.year}. ${edge.note}`;
@@ -211,8 +296,8 @@ export async function mount(app) {
       if (!detailCache.has(id)) detailCache.set(id, getJSON(id));
       const loaded = await detailCache.get(id);
       if (signal.aborted || request !== focusRequest) return;
-      detail = loaded; renderDetail(detail); drawRoute(detail); fit(routeBounds(detail));
-      status.textContent = `${detail.name}: ${detail.places.length} sourced places. The whole route is shown; select a numbered stop for its evidence.`;
+      detail = loaded; renderDetail(detail); drawRoute(detail); fit(detail.map.bounds);
+      status.textContent = `${detail.name}: ${detail.places.length} exact place dots. City badges stack their record numbers; overseas places use the inset.`;
       if (selectedPlace >= 0) revealPlace(selectedPlace, true);
     } catch (error) {
       detailCache.delete(id);
@@ -222,23 +307,31 @@ export async function mount(app) {
   function clearFocus(changeHash = true) {
     focusRequest++; selected = ''; detail = null; selectedPlace = -1; composerSelect.value = '';
     $('.am-route').replaceChildren(); $('.am-route-points').replaceChildren(); $('.am-influence').replaceChildren(); routeSprites.length = 0;
+    $('.am-transfers').replaceChildren(); $('.am-inset-points').replaceChildren(); $('.am-inset-routes').replaceChildren(); transferSprites.length = 0;
+    inset.hidden = true; root.classList.remove('am-focused'); expandedCity = pinnedCluster = -1;
     if (changeHash) updateHash();
     updateYear(year); fit(data.europe);
   }
   function revealPlace(index, scroll) {
     const p = detail?.places[index]; if (!p) return;
     selectedPlace = index;
-    for (const [i, s] of routeSprites.entries()) s.node.classList.toggle('am-place-selected', i === index);
+    for (const s of routeSprites) s.node.classList.toggle('am-place-selected', s.places.includes(index));
     const row = cardContent.querySelector(`[data-record="${index}"]`);
     for (const el of cardContent.querySelectorAll('.am-place-active')) el.classList.remove('am-place-active');
     row?.classList.add('am-place-active');
     if (scroll && row) { cardContent.scrollTo({ top: row.offsetTop - cardContent.offsetTop - 14, behavior: reduced.matches ? 'instant' : 'smooth' }); openCard(); }
-    scale = Math.max(scale, mobile.matches ? 1.3 : 2); tx = width / 2 - p.x * scale; ty = height / 2 - p.z * scale; schedulePaint();
+    if (p.region !== detail.map.primary) {
+      insetRegion = p.region; insetSelect.value = insetRegion; drawInset();
+      for (const s of routeSprites) s.node.classList.toggle('am-place-selected', s.places.includes(index));
+    } else {
+      scale = Math.max(scale, mobile.matches ? 1.3 : 2); tx = width / 2 - p.x * scale; ty = height / 2 - p.z * scale;
+    }
+    schedulePaint();
   }
   function chooseCity(id) {
     clearFocus(); selectedCity = Number(id); citySelect.value = String(id); updateYear(year); renderEncounters();
     const city = data.cities[selectedCity];
-    if (city) { scale = mobile.matches ? 1.2 : 1.7; tx = width / 2 - city.x * scale; ty = height / 2 - city.y * scale; schedulePaint(); }
+    if (city) { scale = Math.max(scale, mobile.matches ? 1.2 : 1.7); tx = width / 2 - city.x * scale; ty = height / 2 - city.y * scale; schedulePaint(); }
   }
   function stopYears() {
     playing = false; cancelAnimationFrame(timeId); timeId = 0;
@@ -263,10 +356,25 @@ export async function mount(app) {
   on(slider, 'input', () => { stopYears(); updateYear(Number(slider.value), true); });
   on(composerSelect, 'change', () => composerSelect.value ? focusComposer(composerSelect.value) : clearFocus());
   on(citySelect, 'change', () => chooseCity(citySelect.value));
+  on(insetSelect, 'change', () => { insetRegion = insetSelect.value; drawInset(); });
+  const clusterFor = (target) => {
+    const node = target?.closest?.('[data-cluster],[data-cluster-city]');
+    return node ? Number(node.dataset.cluster ?? node.dataset.clusterCity) : -1;
+  };
+  on(root, 'pointerover', (event) => { const id = clusterFor(event.target); if (id >= 0 && pinnedCluster < 0) expandCluster(id); });
+  on(root, 'pointerout', (event) => {
+    const from = clusterFor(event.target), to = clusterFor(event.relatedTarget);
+    if (from >= 0 && to !== from && pinnedCluster < 0) clusterTimer = setTimeout(() => expandCluster(-1), 250);
+  });
+  on(root, 'focusin', (event) => { const id = clusterFor(event.target); if (id >= 0 && pinnedCluster < 0) expandCluster(id); });
   on(root, 'click', async (event) => {
     if (performance.now() < suppressClickUntil && svg.contains(event.target)) { event.preventDefault(); return; }
-    const target = event.target.closest('[data-action],[data-composer],[data-city],[data-focus],[data-map-play],[data-route-place],[data-place-index],[data-vienna],[data-paris]');
+    const target = event.target.closest('[data-action],[data-composer],[data-city],[data-cluster],[data-focus],[data-map-play],[data-route-place],[data-place-index],[data-vienna],[data-paris]');
     if (!target) return;
+    if (target.dataset.cluster != null) {
+      const id = Number(target.dataset.cluster); expandCluster(id, true);
+      selectedCity = id; citySelect.value = String(id); renderEncounters(); return;
+    }
     if (target.dataset.composer) { focusComposer(target.dataset.composer, false, Number(target.dataset.place ?? -1)); return; }
     if (target.dataset.focus) { focusComposer(target.dataset.focus); return; }
     if (target.dataset.city != null) { chooseCity(target.dataset.city); return; }
@@ -289,7 +397,7 @@ export async function mount(app) {
       case 'zoom-out': zoom(1 / 1.35); break;
       case 'europe': fit(data.europe); break;
       case 'world': fit(data.world); break;
-      case 'route-fit': case 'fit': fit(detail ? routeBounds(detail) : data.europe); break;
+      case 'route-fit': case 'fit': fit(detail ? detail.map.bounds : data.europe); break;
       case 'recordings': {
         const section = $('.am-recordings');
         if (section) { section.querySelector('details')?.setAttribute('open', ''); cardContent.scrollTo({ top: section.offsetTop - 12, behavior: reduced.matches ? 'instant' : 'smooth' }); }
@@ -303,6 +411,9 @@ export async function mount(app) {
     if (['Enter', ' '].includes(event.key) && event.target !== svg) { event.preventDefault(); event.target.dispatchEvent(new MouseEvent('click', { bubbles: true })); return; }
     const actions = { '+': () => zoom(1.25), '=': () => zoom(1.25), '-': () => zoom(.8), Home: () => fit(data.europe), ArrowLeft: () => { tx += 65; }, ArrowRight: () => { tx -= 65; }, ArrowUp: () => { ty += 65; }, ArrowDown: () => { ty -= 65; } };
     if (actions[event.key]) { event.preventDefault(); actions[event.key](); schedulePaint(); }
+  });
+  on($('.am-inset-map'), 'keydown', (event) => {
+    if (['Enter', ' '].includes(event.key) && event.target.closest('[role="button"]')) { event.preventDefault(); event.target.dispatchEvent(new MouseEvent('click', { bubbles: true })); }
   });
   on(root, 'keydown', (event) => { if (event.key === 'Escape') { stopYears(); if (selected) clearFocus(); card.classList.remove('am-card-open'); composerSelect.focus(); } });
   function gestureStart() {
@@ -352,6 +463,6 @@ export async function mount(app) {
   followHash();
   root.classList.add('am-ready');
   return () => {
-    abort.abort(); resize.disconnect(); stopYears(); cancelAnimationFrame(paintId); focusRequest++; pointers.clear();
+    abort.abort(); resize.disconnect(); stopYears(); cancelAnimationFrame(paintId); clearTimeout(clusterTimer); focusRequest++; pointers.clear();
   };
 }

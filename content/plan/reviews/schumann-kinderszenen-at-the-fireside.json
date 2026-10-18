@@ -1,20 +1,5 @@
 {
   "id": "schumann-kinderszenen-at-the-fireside",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[0].evidence",
-      "severity": "minor",
-      "problem": "The quoted first-window F-major confidence is not the figure in the report.",
-      "evidence": "cache/analysis/schumann-kinderszenen-at-the-fireside.txt:0:00 has Fmajor r0.85 and0:05 r0.90, not r0.88 at0:00.",
-      "fix": "Quote r0.85 at0:00, or give the correctly labelled0.85–0.90 opening-region range."
-    },
-    {
-      "where": "transitions[0].how",
-      "severity": "minor",
-      "problem": "The unqualified claim that the second-part tune keeps its F-major home can be read as a local tonal assertion. An unchanged one-flat signature does not establish that; the report instead identifies the dominant C region through most of this span.",
-      "evidence": "Printed p.12 / PDF p.11 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf ; cache/analysis/schumann-kinderszenen-at-the-fireside.txt has local Cmajor estimates from0:10 through1:05. Fmajor is the work's home key, not proof of an uninterrupted local tonic.",
-      "fix": "Remove or qualify the local F-major assertion. The safe musical point is that the same two-beat pulse continues under the slower-moving bass; add a specific local harmonic reading only if grounded in the score."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

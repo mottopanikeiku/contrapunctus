@@ -1,0 +1,210 @@
+{
+  "id": "beethoven-109-vivace",
+  "work": {
+    "title": "Piano Sonata No. 30 in E major",
+    "catalogue": "Op. 109",
+    "movement": "I. Vivace, ma non troppo — Adagio espressivo",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The edition Schnabel played from is not identified in the recording sources."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Artur Schnabel",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "upstream",
+      "discography"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "22 March 1932",
+      "status": "documented",
+      "sourceIds": [
+        "upstream",
+        "discography"
+      ],
+      "note": "The Internet Archive description gives “recorded 22.III.1932” for the Op. 109 sonata and the Naxos Historical review gives 22 March 1932 for the same session; the Commons date field says only 1932.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Abbey Road Studio No. 3, London",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "Given for the whole sonata in the review of the Naxos Historical reissue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice (HMV)",
+      "status": "documented",
+      "sourceIds": [
+        "upstream",
+        "discography"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DB 1822–24",
+      "status": "documented",
+      "sourceIds": [
+        "discography"
+      ],
+      "note": "The catalogue span identifies the original complete-sonata issue (the sonata runs about twenty minutes). Which sides carry this movement is not established, and the span is not shown to be the physical source of the Internet Archive MP3."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established for this movement."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "upstream",
+        "discography"
+      ],
+      "note": "The transfer engineer of the Internet Archive MP3 is not identified. Mark Obert-Thorn is credited for the separate Naxos reissue, not for this transfer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "No transfer date is documented; the Internet Archive item was added in March 2020 and the Commons file in January 2021, which are upload dates."
+    },
+    "processing": {
+      "value": "Internet Archive original: 256 kbps MP3, track 094 of Beethoven Piano Sonatas vol. 8; Commons holds an Ogg Vorbis conversion and supplies an MP3 derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "upstream",
+        "commons"
+      ],
+      "note": "No restoration settings or original transfer chain are documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Klaviersonate_Nr._30_E-Dur_op._109_-_I._Vivace%2C_ma_non_troppo.ogg/Klaviersonate_Nr._30_E-Dur_op._109_-_I._Vivace%2C_ma_non_troppo.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "upstream"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 230.66122448979593
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Beethoven died in 1827. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "eu-audio",
+        "eu-extension",
+        "upstream"
+      ],
+      "note": "Commons applies PD-EU-audio to Schnabel’s 1932 HMV recording and the Internet Archive item carries a Public Domain Mark 1.0 licence URL. The programme’s pre-1963 European rule applies because the 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. The exact first-publication date is not independently documented.",
+      "alternatives": [
+        {
+          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "sourceIds": [
+            "commons",
+            "eu-audio"
+          ]
+        },
+        {
+          "value": "Public Domain Mark 1.0 — licence URL on the Internet Archive item.",
+          "sourceIds": [
+            "upstream"
+          ]
+        }
+      ]
+    },
+    "creditLine": "Ludwig van Beethoven, Piano Sonata No. 30, Op. 109, I. Vivace, ma non troppo — Adagio espressivo; Artur Schnabel, piano, HMV, Abbey Road Studio No. 3, 22 March 1932. Internet Archive (Beethoven Piano Sonatas vol. 8) via Wikimedia Commons. Commons asserts EU public-domain recording status (PD-EU-audio); rights elsewhere are not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Klaviersonate Nr. 30 E-Dur op. 109 - I. Vivace, ma non troppo.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Klaviersonate_Nr._30_E-Dur_op._109_-_I._Vivace,_ma_non_troppo.ogg",
+      "locator": "File-description wikitext: Description, Date 1932, Source (Internet Archive items beethovenschnabel4–8), Author, and licence template PD-EU-audio.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "upstream",
+      "title": "Internet Archive — Artur Schnabel, Beethoven Piano Sonatas vol. 8",
+      "url": "https://archive.org/metadata/beethovenschnabel8",
+      "locator": "metadata.description: “Nr. 30 op. 109: recorded 22.III.1932”; “first complete recording … by Artur Schnabel between 1932 and 1935 … His Master’s Voice”; file 094 - Klaviersonate Nr. 30 E-Dur op. 109 - I. Vivace, ma non troppo.mp3; licenseurl Public Domain Mark 1.0; added 27 March 2020.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "discography",
+      "title": "MusicWeb International — Colin Clarke, review of Naxos Historical 8.110763",
+      "url": "https://musicweb-international.com/classrev/2005/Mar05/Beethoven_schnable9_8110763.htm",
+      "locator": "Heading: Op. 109, HMV DB 1822–24, recorded Abbey Road Studio No. 3 on 22 March 1932; sonata timing 20:21. The review concerns a separate Naxos transfer.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Wikipedia — Ludwig van Beethoven",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+      "locator": "Lead paragraph: baptised 17 December 1770 – 26 March 1827.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC — copyright term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-audio",
+      "title": "Wikimedia Commons — PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation: expiry of European performers’ and producers’ rights; the underlying composition requires a separate basis; territorial.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

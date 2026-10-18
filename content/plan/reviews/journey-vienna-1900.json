@@ -1,0 +1,49 @@
+{
+  "id": "vienna-1900",
+  "verdict": "pass",
+  "defects": [],
+  "reviewer": "VerJourney",
+  "scope": "MEAS: all nine stations, introduction, captions, linked edges, map moments and timed cues reviewed. All three listens are in the published baseline.",
+  "timing": {
+    "classification": "MEAS",
+    "seconds": 1409.17,
+    "evidence": [
+      "mahler-5-adagietto.mjs and its analysis report: consecutive 0–276, 276–415 and 415–621.27 excerpts use the A/B/A′ section boundaries and complete decay; cached duration 621.2712698412698 seconds. Every cue matches the guide’s general listening prompts, measured swells or provisionally located returns.",
+      "mahler-2-urlicht.mjs and its analysis report: 0–160 ends at the narrative-middle boundary, after the first stanza; the report’s 2:40 structural change supports the broad division. Cues at 20 and 130 retain the guide’s passage-level wording.",
+      "schoenberg-quartet-2-entrueckung.mjs and its analysis report: consecutive 0–74–168–352–472–627.9 excerpts preserve the whole recorded traversal; cached duration 627.905306122449 seconds. The 1:14, 2:48, 5:52 and 7:52 changes correspond to the authored sections. All prompts match existing cues; the ending explicitly distinguishes residual recorded activity after the musical close and does not label it another phrase."
+    ],
+    "qualification": "INFERENCE: passage boundaries are musically sensible relative to the available listen sections and transitions; they are not independently ear-checked attacks or word alignments."
+  },
+  "claims": [
+    "EXT: Secession building completion/design, the 1902 exhibition, Mahler’s 14 April wind performance and the Beethoven Frieze programme checked against the opened Secession and Mahler Foundation pages. The Adagietto is explicitly not presented as exhibition music.",
+    "EXT: Mengelberg’s story remains attributed testimony, not an independently proved love-letter exchange. Urlicht’s manuscript date, earlier existence and Wunderhorn volume checked against the manuscript account and the 1808 book catalogue.",
+    "EXT: Quartet dates, George collection, soprano balance instruction and the retrospective premiere/coda account checked against the Arnold Schönberg Center. Its weakened tonality is not confused with twelve-tone technique. The F♯-major ending is additionally sourced to the baseline recording guide.",
+    "EXT: Freud’s Wednesday society location checked against the Freud Museum; the later Leiden consultation remains distinct from Vienna and from composition of the works. The 1911 dedication checked in Universal Edition’s explicit dedication field.",
+    "MEAS: linked edge ids exist in content/influence/modern.json; map years have corresponding composer geography data."
+  ],
+  "images": [
+    { "classification": "EXT", "file": "File:Wiener Secessionsgebäude um 1900.jpg", "status": "Public domain; anonymous photograph published by 1900; correct replacement for the initially proposed CC BY-SA modern photograph.", "url": "https://commons.wikimedia.org/wiki/File:Wiener_Secessionsgeb%C3%A4ude_um_1900.jpg" },
+    { "classification": "EXT", "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg", "status": "Public-domain reproduction; 1902 Beethoven Frieze detail.", "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Diesen_Kuss_der_ganzen_Welt.jpeg" },
+    { "classification": "EXT", "file": "File:Gustav Klimt - Attersee - Google Art Project.jpg", "status": "Public-domain reproduction; dated 1900; contextual relationship explicitly qualified.", "url": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Attersee_-_Google_Art_Project.jpg" }
+  ],
+  "style": "MEAS: nine stations meet the 60–140-word narration and at-most-25-word cue limits; titles and subtitle meet the contract. British spelling, curly quotes and accidental symbols retained. No unsupported psychological programme or borrowing is asserted.",
+  "sourcesOpened": [
+    "https://secession.at/building",
+    "https://secession.at/beethovenfrieze",
+    "https://mahlerfoundation.org/mahler/locations/austria/vienna/secession-exhibitions/",
+    "https://mahlerfoundation.org/mahler/compositions/symphony-no-5/symphony-no-5-movement-4-adagietto-sehr-langsam/",
+    "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf",
+    "https://fcsymphony.org/mahler-adagietto/",
+    "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg",
+    "https://mahlerfoundation.org/mahler/compositions/symphony-no-2/symphony-no-2-movement-4-lied-1-urlicht-sehr-feierlich-aber-schlicht/",
+    "https://www.deutschestextarchiv.de/book/show/arnim_wunderhorn02_1808",
+    "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10",
+    "https://schoenberg.at/en/schoenberg/timeline",
+    "https://commons.wikimedia.org/wiki/File:Schoenberg_Quartet_No._2_4th_movement.OGG",
+    "https://www.freud-museum.at/en/exhibitions-program/exhibition-details",
+    "https://mahlerfoundation.org/mahler/locations/netherlands/leiden/meeting-with-freud/",
+    "https://www.universaledition.com/en/Works/Harmonielehre/P0041937",
+    "https://www.mahlerfoundation.org/mahler/contemporaries/arnold-schoenberg/"
+  ],
+  "method": "MEAS: static content/evidence review only. No build, formatter, automated test or browser acceptance run performed. Score PDF opened with incomplete text extraction; score-derived narrative was cross-checked against the opened institutional accounts and the baseline listen guides, not reconstructed from OCR."
+}

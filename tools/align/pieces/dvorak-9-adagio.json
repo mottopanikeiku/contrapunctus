@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "id": "dvorak-9-adagio",
+  "source": {
+    "mutopia": 1793,
+    "title": "Symphony No. 9, Op. 95 — I. Adagio — Allegro molto",
+    "edition": "N. Simrock GmbH (1894)",
+    "encoder": "Keith OHara",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793",
+    "license": "Creative Commons Attribution-ShareAlike 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "Sym9-lys/Mvt1_Adagio.ly",
+    "midi": "Mvt1_Adagio.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-lys.zip",
+        "file": "Sym9-lys.zip",
+        "sha256": "32fe4b271d02a5a6934eadacd75a4e8dcaf59c565f9d61878cf47de41cd26cfa"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-mids.zip",
+        "file": "Sym9-mids.zip",
+        "sha256": "4ace203cafa10c6bd4e8cbc9d5c6e00bbfbba3efdf9d71ccee7b833f1582ac2c"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "comparePublished": { "offsetQ": 0 },
+    "music": "\\keepWithTag #'score \\killCues << \\new Devnull \\conductormA \\new Staff = \"flute1\" \\fluteImA \\new Staff = \"flute2\" \\fluteIImA \\new Staff = \"oboe1\" \\oboeImA \\new Staff = \"oboe2\" \\oboeIImA \\new Staff = \"clarinet1\" \\clarinetImA \\new Staff = \"clarinet2\" \\clarinetIImA \\new Staff = \"bassoon1\" \\bassoonImA \\new Staff = \"bassoon2\" \\bassoonIImA \\new Staff = \"horn1\" \\hornImA \\new Staff = \"horn2\" \\hornIImA \\new Staff = \"horn3\" \\hornIIImA \\new Staff = \"horn4\" \\hornIVmA \\new Staff = \"trumpet1\" \\trumpetImA \\new Staff = \"trumpet2\" \\trumpetIImA \\new Staff = \"trombone1\" \\tromboneImA \\new Staff = \"trombone2\" \\tromboneIImA \\new Staff = \"bassTrombone\" \\bassTrombonemA \\new Staff = \"timpani\" \\timpanimA \\unfoldRepeats << \\new Staff = \"violin1\" \\violinImA \\new Staff = \"violin2\" \\violinIImA \\new Staff = \"viola\" \\violamA \\new Staff = \"cello\" \\cellomA \\new Staff = \"bass\" \\bassmA >> >>"
+  },
+  "voices": [
+    { "id": "flutes", "name": "Flutes and piccolo", "tracks": ["flute1:", "flute2:"] },
+    { "id": "oboes", "name": "Oboes", "tracks": ["oboe1:", "oboe2:"] },
+    { "id": "clarinets", "name": "Clarinets", "tracks": ["clarinet1:", "clarinet2:"] },
+    { "id": "bassoons", "name": "Bassoons", "tracks": ["bassoon1:", "bassoon2:"] },
+    { "id": "horns", "name": "Horns", "tracks": ["horn1:", "horn2:", "horn3:", "horn4:"] },
+    { "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet1:", "trumpet2:"] },
+    { "id": "trombones", "name": "Trombones", "tracks": ["trombone1:", "trombone2:", "bassTrombone:"] },
+    { "id": "timpani", "name": "Timpani", "tracks": ["timpani:"] },
+    { "id": "violins-1", "name": "Violins I", "tracks": ["violin1:"] },
+    { "id": "violins-2", "name": "Violins II", "tracks": ["violin2:"] },
+    { "id": "violas", "name": "Violas", "tracks": ["viola:"] },
+    { "id": "cellos", "name": "Cellos", "tracks": ["cello:"] },
+    { "id": "basses", "name": "Double basses", "tracks": ["bass:"] }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 452,
+    "quarters": 2,
+    "overrides": {
+      "1": 4, "2": 4, "3": 4, "4": 4, "5": 4, "6": 4,
+      "7": 4, "8": 4, "9": 4, "10": 4, "11": 4, "12": 4,
+      "13": 4, "14": 4, "15": 4, "16": 4, "17": 4, "18": 4,
+      "19": 4, "20": 4, "21": 4, "22": 4, "23": 4
+    },
+    "order": [[1, 176], [181, 452]],
+    "description": "Written bars 1–176, then 181–452: exposition repeat not taken and first ending 177–180 omitted. Bars 1–23 use the encoder's doubled Adagio durations (4/4 rather than the original 4/8), then 2/4 from bar 24. Canonical source extent is 950 quarter units; the performed traversal is 942. This order is subject to fresh recording/source correspondence inspection, not inferred from duration alone."
+  },
+  "endpoints": {
+    "first": [0, 3],
+    "last": [596, 603],
+    "basis": "Initial inspection windows for score-pitch energy: the opening lower-string sonority is E3–G3–E4; the last attack is the third separated E-minor closing chord, not its decay. Fresh overlays must establish the precise edges before publication; these windows do not relax any gate."
+  },
+  "diagnostics": {
+    "scanRecurrence": true,
+    "overlays": [[0, 24], [112, 136], [298, 334], [390, 414], [586, 604]]
+  },
+  "engraving": {
+    "staff": 13,
+    "width": 290,
+    "height": 410
+  },
+  "provenance": [
+    "The original published MIDI is canonical, not an already repeated performance: every sounding track ends at source q948.5 within the 950-quarter, 452-bar source. The conductor alone carries the exposition volta; named instrumental variables contain the written first and second endings once. String unfoldRepeats expands written tremolos, not an exposition repeat.",
+    "Published MIDI track 5 (trombone:) has an unmatched E3/MIDI52 note-off at q856. Regenerate each of the 23 named source instrumental variables on its own MIDI staff, grouping only the resulting source-defined section identities; assert aggregate pitch/onset set equality against the immutable published MIDI before applying the recorded bar order. No malformed MIDI message is silently suppressed and no source part is invented.",
+    "Source-declared sounding transpositions are retained: A clarinets; E horns I/II; C horns III/IV changing to E; E/C/E/C trumpets; flute II's brief piccolo change (c'' then c'); and double bass bass_8. The double-bass source begins E3/MIDI52 while cello begins E4/MIDI64 and later reaches low E1/MIDI28; no blanket additional octave lowering is applied. Other parts are non-transposing. Instrument names follow source variables, not MIDI patches.",
+    "All timing remains provisional and has not been checked by ear. Source duration warping is not a measured release or a transcription of tremolo/articulation performance."
+  ]
+}

@@ -5,14 +5,14 @@
     "catalogue": "CD 93; L.88",
     "movement": "Act III, scene 1 · Mes longs cheveux descendent",
     "version": {
-      "value": "ActIII scene1 excerpt for soprano and piano, with largely unaccompanied vocal phrases",
+      "value": "Act III scene 1 excerpt for soprano and piano, with largely unaccompanied vocal phrases",
       "status": "documented",
       "sourceIds": [
         "archive",
         "bnf",
         "score"
       ],
-      "note": "The performing forces are established. The precise edition, any session-specific alteration and the original sounding pitch are not established. The two-record Garden1904 set is an archival grouping, not a claim that these extracts form a two-movement composition."
+      "note": "The performing forces are established. The precise edition, any session-specific alteration and the original sounding pitch are not established. The two-record Garden 1904 set is an archival grouping, not a claim that these extracts form a two-movement composition."
     }
   },
   "performers": {
@@ -64,7 +64,7 @@
         "archive",
         "ircc-discography"
       ],
-      "note": "Original commercial acoustic disc attribution. The1937IRCC/RCA carrier catalogued by BnF is a later reissue."
+      "note": "Original commercial acoustic disc attribution. The 1937 IRCC/RCA carrier catalogued by BnF is a later reissue."
     },
     "catalogue": {
       "value": "33447",
@@ -73,16 +73,16 @@
         "archive",
         "ircc-discography"
       ],
-      "note": "OriginalG&T catalogue number. The archive describes a ten-inch disc."
+      "note": "Original G&T catalogue number. The archive describes a ten-inch disc."
     },
     "matrixTakeSides": {
-      "value": "3078F (discography); Internet Archive gives3078Fll",
+      "value": "3078F (discography); Internet Archive gives 3078Fll",
       "status": "documented",
       "sourceIds": [
         "archive",
         "ircc-discography"
       ],
-      "note": "The common base number is3078F. The archive suffix is preserved verbatim; it is not decoded as a verified take. The laterIRCC transfer matrix0EA5669-1 is not the original recording matrix."
+      "note": "The common base number is 3078F. The archive suffix is preserved verbatim; it is not decoded as a verified take. The later IRCC transfer matrix 0EA5669-1 is not the original recording matrix."
     }
   },
   "transfer": {
@@ -100,10 +100,10 @@
       "sourceIds": [
         "archive"
       ],
-      "note": "The2019 added/public dates belong to the repository. No date of digitisation of this copy is established."
+      "note": "The 2019 added/public dates belong to the repository. No date of digitisation of this copy is established."
     },
     "processing": {
-      "value": "Playback at74rpm; stylus-size field “35”; MP3 access file.",
+      "value": "Playback at 74 rpm; stylus-size field “35”; MP3 access file.",
       "status": "documented",
       "sourceIds": [
         "archive"
@@ -123,26 +123,26 @@
   },
   "rights": {
     "composition": {
-      "value": "Underlying composition and original French words are out of copyright under ordinary life-plus-70 terms; the historical score predates1926.",
+      "value": "Underlying composition and original French words are out of copyright under ordinary life-plus-70 terms; the historical score predates 1926.",
       "status": "inferred",
       "sourceIds": [
         "composer",
         "lyricist",
         "score"
       ],
-      "note": "Debussy died1918 and Maeterlinck1949. No modern translation is reproduced; national exceptions and modern editions require separate consideration."
+      "note": "Debussy died in 1918 and Maeterlinck in 1949. No modern translation is reproduced; national exceptions and modern editions require separate consideration."
     },
     "recording": {
-      "value": "Rule 2 — US public domain: original G&T commercial issue dated1904, before the1925 cutoff.",
+      "value": "Rule 2 — US public domain: original G&T commercial issue dated 1904, before the 1925 cutoff.",
       "status": "documented",
       "sourceIds": [
         "archive",
         "ircc-discography",
         "us-term"
       ],
-      "note": "The originalG&T catalogue and1904 attribution establish a pre-cutoff recording publication basis. The1937 reissue and2019 archive upload are not used as the original publication date. No free-recording licence is inferred from a composition-only tag."
+      "note": "The original G&T catalogue and 1904 attribution establish a pre-cutoff recording publication basis. The 1937 reissue and 2019 archive upload are not used as the original publication date. No free-recording licence is inferred from a composition-only tag."
     },
-    "creditLine": "Claude Debussy, Mes longs cheveux descendent; Mary Garden, soprano, and Claude Debussy, piano. Paris,1904; G&T33447; Internet Archive transfer. US pre-1926 publication basis.",
+    "creditLine": "Claude Debussy, Mes longs cheveux descendent; Mary Garden, soprano, and Claude Debussy, piano. Paris, 1904; G&T 33447; Internet Archive transfer. US pre-1926 publication basis.",
     "licenseUrl": ""
   },
   "sources": [
@@ -150,56 +150,56 @@
       "id": "archive",
       "title": "Internet Archive — Mes longs cheveux",
       "url": "https://archive.org/metadata/78_meslongscheveux_010_14/metadata",
-      "locator": "G&T catalogue33447; date1904; coverageParis; MaryGarden and Debussy; soprano/piano; ten-inch disc; transfer at74rpm; stylus string 35 without stated units. The2019 repository dates are not session or transfer dates.",
+      "locator": "G&T catalogue 33447; date 1904; coverage Paris; Mary Garden and Debussy; soprano/piano; ten-inch disc; transfer at 74 rpm; stylus string 35 without stated units. The 2019 repository dates are not session or transfer dates.",
       "accessed": "2026-10-17"
     },
     {
       "id": "bnf",
       "title": "Bibliothèque nationale de France — historical Debussy recording catalogue",
       "url": "https://catalogue.bnf.fr/ark:/12148/cb38388874b",
-      "locator": "Subnotice7 names MaryGarden, soprano, and ClaudeDebussy, piano, recorded1904. Its carrier is the later1937 RCA/IRCC reissue, not the originalG&T disc transferred here.",
+      "locator": "Subnotice 7 names Mary Garden, soprano, and Claude Debussy, piano, recorded in 1904. Its carrier is the later 1937 RCA/IRCC reissue, not the original G&T disc transferred here.",
       "accessed": "2026-10-17"
     },
     {
       "id": "ircc-discography",
       "title": "The Record Collector — International Record Collectors Club discography",
       "url": "https://www.therecordcollector.org/articles/HRSandIRCCdiscographies/internationalrecordcollectorsclub.php",
-      "locator": "IRCC106: Garden, soprano; Debussy, piano; Paris1904; matrix3078F; originalG&T33447; later transfer matrix0EA5669-1.",
+      "locator": "IRCC 106: Garden, soprano; Debussy, piano; Paris 1904; matrix 3078F; original G&T 33447; later transfer matrix 0EA5669-1.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr",
       "title": "Discography of American Historical Recordings — Mary Garden",
       "url": "https://adp.library.ucsb.edu/names/102667",
-      "locator": "Performer entry consulted for discographic cross-checking. Its displayed Victor/Columbia records do not establish the FrenchG&T matrix here; no unrelated American matrix or session date is imported.",
+      "locator": "Performer entry consulted for discographic cross-checking. Its displayed Victor/Columbia records do not establish the French G&T matrix here; no unrelated American matrix or session date is imported.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Debussy — Pelléas et Mélisande,1902 Fromont vocal score",
+      "title": "Debussy — Pelléas et Mélisande, 1902 Fromont vocal score",
       "url": "https://s9.imslp.org/files/imglnks/usimg/d/d6/IMSLP33280-PMLP09094-Debussy-L088vsFR.pdf",
-      "locator": "Title and cast pages (PDF3–5); ActIII scene1, printed pp.102–104 (PDF108–110), inspected visually. PlateE.1416F.; piano interludes and unaccompanied vocal phrases.",
+      "locator": "Title and cast pages (PDF 3–5); Act III scene 1, printed pp. 102–104 (PDF 108–110), inspected visually. Plate E. 1416 F.; piano interludes and unaccompanied vocal phrases.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
       "title": "IMSLP — Claude Debussy biographical dates",
       "url": "https://imslp.org/wiki/Category:Debussy,_Claude",
-      "locator": "Debussy died25March1918.",
+      "locator": "Debussy died on 25 March 1918.",
       "accessed": "2026-10-17"
     },
     {
       "id": "lyricist",
       "title": "IMSLP — Maurice Maeterlinck biographical dates",
       "url": "https://imslp.org/wiki/Category:Maeterlinck,_Maurice",
-      "locator": "Maeterlinck died5May1949.",
+      "locator": "Maeterlinck died on 5 May 1949.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
       "title": "United States Copyright Office — Classics Protection and Access Act",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
-      "locator": "Term: recordings first published before1923 ceased receiving the specified federal remedies after31December2021. The programme also permits publication through1925 as of2026.",
+      "locator": "Term: recordings first published before 1923 ceased receiving the specified federal remedies after 31 December 2021. The programme also permits publication through 1925 as of 2026.",
       "accessed": "2026-10-17"
     }
   ],

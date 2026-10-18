@@ -85,10 +85,10 @@ function tempoChart(recordings, duration, passages, esc) {
   return `<svg class="cmp-tempo-svg" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="cmp-tempo-title cmp-tempo-desc"><title id="cmp-tempo-title">Local time ratio against the reference recording</title><desc id="cmp-tempo-desc">Each gold line follows a performer. Above one means that recording takes longer over the corresponding music. Numbered vertical lines identify the passages below.</desc>${grid.join('')}${markers}${lines}<line class="cmp-playhead" data-cmp-playhead x1="${left}" x2="${left}" y1="${top}" y2="${H - bottom}" visibility="hidden"/></svg>`;
 }
 
-export async function buildCompare({ out, layout, esc, attr, bySlug, listens, held = [], ROOT, OUT }) {
+export async function buildCompare({ out, layout, esc, attr, bySlug, listens, held = [], PROG, ROOT, OUT }) {
   const dir = path.join(ROOT, 'content/compare');
   const files = (await readdir(dir).catch((error) => { if (error.code === 'ENOENT') return []; throw error; })).filter((file) => file.endsWith('.json')).sort();
-  const programme = new Map((await json(path.join(OUT, 'assets/listen/programme.json'))).map((r) => [r.id, r]));
+  const programme = new Map(PROG.map((r) => [r.id, r]));
   const envelopes = new Map();
   const comparisons = [], heldComparisons = [];
   const knownIds = new Set([...listens.map((r) => r.id), ...held]);

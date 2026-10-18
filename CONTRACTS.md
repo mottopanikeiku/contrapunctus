@@ -349,11 +349,11 @@ via the preparation module. Present-day outlines are orientation aids,
 not historical borders.
 
 The build writes `assets/data/geo/base.json` (projected SVG paths),
-`index.json` (compact chronology, prepacked annual cameo positions, city
+`index.json` (compact chronology, bounded annual portrait callouts, city
 groups and documented date overlaps), and `<slug>.json` (full sourced
-place records, projected coordinates, published recordings and placed
-influence links, fetched only on focus). `<slug>.svg` is the static chapter
-map. `placesSection(ctx, slug, add)` is the sole composer-page hook.
+place records, exact projected coordinates, primary-region bounds, overseas
+insets, published recordings and placed influence links, fetched only on focus).
+`<slug>.svg` is the static chapter map. `placesSection(ctx, slug, add)` is the sole composer-page hook.
 `atlas-map.html#c-<slug>` focuses a life; `?year=1805` selects the year.
 
 Cities join coordinates within 7 km of a fixed centre. Encounters intersect
@@ -361,9 +361,74 @@ documented date ranges at their recorded precision; premieres and burials
 do not count as living presence. No last-known location is carried forward
 into an encounter claim. Co-presence does not establish a meeting.
 The annual overview may show a last-recorded residence with a dashed frame.
+An explicitly dated ongoing professional post takes priority over overlapping
+residences, then other stays; the latest date breaks ties. Seasonal homes stay
+in the route but do not displace a simultaneous post. Gold location dots,
+death crosses and city-number badges are never geographically displaced.
+Portrait callouts have leaders bounded by 34.1 screen pixels at every zoom.
+The build computes clearance from the simplified coastline; callout radii
+shrink near the coast rather than moving a portrait centre across the sea.
+Cities with more than four living composers collapse to a named count
+medallion, expandable on hover, keyboard focus or click.
+Focused routes fit their European places; overseas records use separate,
+labelled-scale insets and dated arrow connectors ending at the inset frame.
+A life with no European record opens in its own recorded region.
+Each source place retains its exact dot; repeated city numbers share a badge
+at the city's true centre. Full numbers and individual evidence remain in
+the source card. Static chapter maps use the same primary/inset division.
 Route lines join records, not reconstructed roads; posthumous events are
 distinguished. Exact normalised work-title matches expose published listens;
 fallbacks are explicitly labelled as other recordings by that composer.
 Playback uses `app.player.load(id, { play: true, t: 0 })`. The page module
 cleans up listeners, requests, resize observation and animation on unmount;
 reduced motion disables flashing and travelling dashes.
+
+## Guided journeys
+
+`content/journeys/<id>.json` holds one sourced, 15–25-minute story. Its
+top-level fields are `id`, `title`, `subtitle` (up to 12 words), `minutes`,
+`hero: { file, caption }`, `intro` (two or three sentences), and `stations`.
+A station has a unique `id`, `title` (up to eight words),
+`listen: { id, from, to }` in absolute recording seconds, `text` (60–140
+words of HTML narration), `cues: [{ at, text }]` (up to 25 words each), and
+`sources: [{ title, url }]`. Every factual claim needs a source; cue times
+must come from the recording’s authored sections, cues, transitions or score
+alignment, never an estimate made for the journey.
+
+Optional station exhibits are `art: { file, caption }`,
+`score: { listen, bar }`, `map: { composer, year }`, `edge` (an influence
+edge id), and `compare` (a comparison id); unused exhibits are `null`.
+The main exhibit prioritises score, then painting, then map, then influence;
+additional exhibits remain in expandable panels alongside comparison links.
+Score pages and bar highlights resolve from the existing score and sheet
+pack. Missing engraving or alignment is stated, not replaced with invented
+notation or timing. Map vignettes use only authored date ranges covering the
+requested year; a point event is never extended into a residence. The
+comparison link appears only after its own review and recording gates pass.
+All journey hero and station paintings participate in `tools/art.mjs fetch`,
+including drafts awaiting review.
+
+`src/journeys.mjs` publishes `journeys/index.html` and `journeys/<id>.html`
+only for `content/plan/reviews/journey-<id>.json` with `verdict: "pass"` and
+published recordings for every station and score reference. Reviews with
+`verdict: "fix"`, absent reviews and unpublished listens hold the journey.
+The build removes stale journey pages, excludes held stories from the
+title-page band, and prints `journeys: N published, M held`.
+
+`assets/js/journeys.js` mounts through the router and uses only `app.player`.
+Begin starts the selected station at `from`; recording time at `to` advances
+to the next station. Adjacent excerpts of the same recording run without
+reseeking; other joins load the next recording and start at its `from`.
+The page cross-fades, not a second audio element. Timed cues use absolute
+recording time. The final station pauses instead of starting the Hall’s
+next recording. While engaged, the journey temporarily owns the concert
+advance setting and restores it on departure or external track selection.
+
+Next/Previous, numbered stations, Left/Right keys and horizontal swipes
+change stations. Space pauses or resumes outside native controls and open
+dialogs. `cp-journey:<id>` in localStorage retains station id, recording id,
+time and completion; reload never autoplays. Pause, page departure and
+periodic playback save the place. Reduced motion disables cross-fades and
+smooth rail movement. Router cleanup removes event listeners and animations
+without stopping the persistent recording. Without JavaScript, all station
+text, exhibits and sources remain readable.

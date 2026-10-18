@@ -14,7 +14,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - i. gnomus - vivo.ogg' },
-  intro: 'The first picture is a toy gnome that lurches, halts and shrieks. Listen for the rests: the music is built from bursts of motion and the silences between them.',
+  intro: 'The first picture is a toy gnome that lurches, halts and shrieks. Listen for the rests: the music is built from bursts of motion and the silences between them. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How do silence and abrupt changes of speed draw a character with crooked legs?',
 
   sections: [

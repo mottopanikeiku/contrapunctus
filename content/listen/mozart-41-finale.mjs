@@ -287,6 +287,7 @@ export default {
       {
         "t": 154,
         "playing": [
+          "horns",
           "violins-1",
           "violins-2",
           "violas",
@@ -297,7 +298,7 @@ export default {
           "violins-1",
           "cellos"
         ],
-        "note": "The development begins in a reduced string texture; winds rejoin within the paragraph."
+        "note": "The development begins in a reduced string texture with held horn support; woodwinds rejoin within the paragraph. This is an approximate passage state, not continuous activity."
       },
       {
         "t": 175,
@@ -305,6 +306,9 @@ export default {
           "flutes",
           "oboes",
           "bassoons",
+          "horns",
+          "trumpets",
+          "timpani",
           "violins-1",
           "violins-2",
           "violas",
@@ -315,7 +319,7 @@ export default {
           "violins-1",
           "oboes"
         ],
-        "note": "Woodwinds and strings share the travelling contrapuntal material; activity changes within the span."
+        "note": "Woodwinds and strings share the travelling contrapuntal material, with intermittent horn, trumpet and timpani punctuation. Activity changes within this approximate passage."
       },
       {
         "t": 226,
@@ -323,6 +327,9 @@ export default {
           "flutes",
           "oboes",
           "bassoons",
+          "horns",
+          "trumpets",
+          "timpani",
           "violins-1",
           "violins-2",
           "violas",
@@ -332,7 +339,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "The opening theme returns over moving inner strings; wind support enters in the returning phrase."
+        "note": "The opening theme returns over moving inner strings; winds, horns, trumpets and timpani support the returning phrase intermittently. This passage state is not an exact entrance or continuous-tutti map."
       },
       {
         "t": 255,

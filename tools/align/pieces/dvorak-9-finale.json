@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "id": "dvorak-9-finale",
+  "source": {
+    "mutopia": 1793,
+    "title": "Symphony No. 9, Op. 95 — IV. Allegro con fuoco",
+    "edition": "N. Simrock GmbH (1894)",
+    "encoder": "Keith OHara",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793",
+    "license": "Creative Commons Attribution-ShareAlike 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "Sym9-lys/Mvt4_conFuoco.ly",
+    "midi": "Mvt4_conFuoco.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-lys.zip",
+        "file": "Sym9-lys.zip",
+        "sha256": "32fe4b271d02a5a6934eadacd75a4e8dcaf59c565f9d61878cf47de41cd26cfa"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-mids.zip",
+        "file": "Sym9-mids.zip",
+        "sha256": "4ace203cafa10c6bd4e8cbc9d5c6e00bbfbba3efdf9d71ccee7b833f1582ac2c"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      "control track", "flute:", "oboe:", "clarinet:", "bassoon:",
+      "trombone:", "violin1:", "violin2:", "viola:", "cello:", "bass:",
+      "french hornA:", "french hornB:", "trumpet:", "timpani:", "cymbal:"
+    ]
+  },
+  "voices": [
+    { "id": "flutes", "name": "Flutes", "tracks": ["flute:"] },
+    { "id": "oboes", "name": "Oboes", "tracks": ["oboe:"] },
+    { "id": "clarinets", "name": "Clarinets", "tracks": ["clarinet:"] },
+    { "id": "bassoons", "name": "Bassoons", "tracks": ["bassoon:"] },
+    { "id": "horns", "name": "Horns", "tracks": ["french hornA:", "french hornB:"] },
+    { "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet:"] },
+    { "id": "trombones", "name": "Trombones", "tracks": ["trombone:"] },
+    { "id": "violins-1", "name": "Violins I", "tracks": ["violin1:"] },
+    { "id": "violins-2", "name": "Violins II", "tracks": ["violin2:"] },
+    { "id": "violas", "name": "Violas", "tracks": ["viola:"] },
+    { "id": "cellos", "name": "Cellos", "tracks": ["cello:"] },
+    { "id": "basses", "name": "Double basses", "tracks": ["bass:"] },
+    { "id": "timpani", "name": "Timpani", "tracks": ["timpani:"] },
+    { "id": "cymbal", "name": "Cymbal (unpitched)", "tracks": ["cymbal:"] }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 348,
+    "quarters": 4,
+    "order": [[1, 348]],
+    "description": "Bars 1–348 once, without a pickup or structural repeat. The source doubles the original note values into 4/4; its conductor reaches rehearsal 12 at bar 299, Meno mosso at bar 327, then four plus eighteen bars to the close. Local unfold/percent repetitions are written-out figurations, not a second traversal."
+  },
+  "endpoints": {
+    "first": [0, 2],
+    "last": [684, 695],
+    "basis": "Initial source-led inspection windows, not listening annotations: the opening is the strings' B in octaves (MIDI 35, 47, 59); the last attack is the E-major chord at source q1388, followed by held winds and brass. The cached 702.9-second recording's final E-major energy decays through its closing seconds. Fresh pitch-energy overlays must establish the attack inside these windows before any publication."
+  },
+  "diagnostics": {
+    "overlays": [[0, 12], [680, 702.9]]
+  },
+  "engraving": {
+    "staff": 13,
+    "width": 290,
+    "height": 410
+  },
+  "method": "CC BY-SA 3.0 orchestral LilyPond/published MIDI → source-staff performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows. Existing approximate passage labels are non-independent locators, not listening annotations. Note-offs are warped notation, not measured releases; final written holds extend to an estimated decay threshold. Provisional, not checked by ear.",
+  "provenance": [
+    "Mutopia1793, Keith OHara, Simrock 1894 orchestral source, CC BY-SA 3.0. Main-file SHA-256 dfdbd22023909d9f1a4f71046547abf21d0b4a9ace525b8d55628d3e97eab208; movement MIDI SHA-256 71c515b6c3ea75dc9958e5fb9ea45e1f930b1b05c8a5799cea8ed93273cef97d. Original cached archives are copied, not modified.",
+    "The 384-PPQ published MIDI has 16 named tracks including its silent control track, 15 sounding staff tracks and 14 grouped instrument sections; all 14,310 source note events are retained. Its last onset is q1388 and final held releases are q1392, exactly 348 four-quarter source bars. No structural repeat, first ending or pickup occurs in this movement; no additional unfolding is applied.",
+    "Track names, not GM patches or registers, identify sections. The two horn staves group four horns; the trombone staff merges alto, tenor and bass trombones, without tuba. Oboes have no cor-anglais doubling here. The actual cymbal part contains one unpitched crash at q254 lasting seven source quarters; MIDI percussion key 49 is retained as an encoding token, not claimed to be a sounding C-sharp pitch.",
+    "Source-declared transpositions are retained: A clarinets; horns E/F/E, with horns III/IV additionally C/E; trumpets E/E-flat/E/C/E. These MIDI pitches already include the source transpositions. Flutes, oboes, bassoons, trombones, timpani, violins, violas and cellos need no added shift. All source clef changes and ottavas remain notation, not inferred instrument identities.",
+    "The bass_8 source is already sounding: its opening B1 is MIDI35, an octave below cello B2 MIDI47; minimum bass pitch is E1 MIDI28. No blanket minus-12 correction is applied. The last E-major sonority has pitch classes E, G-sharp and B; winds/horns/trumpets hold four source quarters, while strings/trombones/timpani have one-quarter attacks followed by rests. Warped durations are not measured bow or breath releases."
+  ]
+}

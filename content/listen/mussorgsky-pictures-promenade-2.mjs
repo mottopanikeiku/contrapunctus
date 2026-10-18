@@ -14,7 +14,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - promenade - moderato comodo e con delicatezza.ogg' },
-  intro: 'After the gnome the visitor walks on, more gently. The same five-and-six-beat theme now sounds in a different key and a softer colour.',
+  intro: 'After the gnome the visitor walks on, more gently. The same five-and-six-beat theme now sounds in a different key and a softer colour. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'What changes when the same walking tune is played “with delicacy”?',
 
   sections: [

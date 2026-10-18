@@ -15,7 +15,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - vii. limoges. le marche - allegretto vivo, sempre scherzando.ogg' },
-  intro: 'Women quarrel and gossip in a French market. The movement is a rapid scherzo with one huge climax, a sudden hush and a scurrying run that goes straight into the Catacombs.',
+  intro: 'Women quarrel and gossip in a French market. The movement is a rapid scherzo with one huge climax, a sudden hush and a scurrying run that goes straight into the Catacombs. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How does a fast piece sound like many voices at once?',
 
   sections: [

@@ -1,16 +1,13 @@
 {
   "id": "schumann-kinderszenen-happiness",
-  "verdict": "fix",
+  "verdict": "pass",
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, provenance, report and visual review; not aural review.",
-  "defects": [
-    {
-      "basis": "MEAS",
-      "where": "content/listen/schumann-kinderszenen-happiness.mjs: sections, form cues and transitions into-flat-side/da-capo/second-flat-side",
-      "problem": "The listening text still places the first B at 28 s and the da capo/opening music at 46 s, based on printed-tempo arithmetic. The inspected audio/score traversal instead places bar 17 at 33.637 s and the returning G-sharp pickup at 51.825 s, followed by bar 9 at 52.546 s. At 46 s the first B is still underway. This directly contradicts the now-supported performed repeat order, although no structured bar pointers are present.",
-      "fix": "Have the listening-file owner update the affected section/cue/transition times and their evidence to the provisional measured map: first B near 33.64 s, returning pickup near 51.83 s (A downbeat near 52.55 s), second B near 69.37 s. Remove the obsolete 44-second-pass calculation as evidence of an observed 46-second return. Describe the inferred AABAB traversal without claiming a renewed extra A repetition or an aural review. Preserve the passing score and engraved bar identities."
-    }
-  ],
+  "defects": [],
+  "resolution": {
+    "basis": "MEAS",
+    "finding": "The listening owner replaced the obsolete 46-second return inference with nine resolving bar anchors, corrected section timing, qualified the changed final pickup and removed the incorrect nineteen-second strain estimate. First B is bar 17/1 at 33.637 s; returning bar 9/2 is 52.546 s after its 51.825 s pickup; second B is bar 17/2 at 69.369 s. The initial repeat-cue contradiction is resolved without changing the passing audio score."
+  },
   "report": {
     "basis": "MEAS",
     "path": "tools/align/REPORT.md#schumann-kinderszenen-happiness",
@@ -35,9 +32,9 @@
     "sheetPages": 1,
     "svgBarSetEqualsIndex": true,
     "unresolvedScoreBars": [],
-    "barAnchoredListenPointers": 0,
+    "barAnchoredListenPointers": 9,
     "unresolvedListenPointers": [],
-    "finding": "Actual SVG/index bars are 0–24, including real pickup glyphs in bar 0. Score order is 0–24, then the last 0.5 quarter of bar 8 and bars 9–24. All 673 note indices resolve, durations are positive, and bar occurrence times strictly increase. The single engraved page was visually inspected."
+    "finding": "Actual SVG/index bars are 0–24, including real pickup glyphs in bar 0. Score order is 0–24, then the last 0.5 quarter of bar 8 and bars 9–24. All 673 note indices resolve, durations are positive, and bar occurrence times strictly increase. The single engraved page was visually inspected. All six bar-anchored cues and three transition anchors resolve to exactly one published bar occurrence and agree with the corrected repeat description."
   },
   "overlays": {
     "basis": "MEAS",
@@ -75,5 +72,5 @@
     "value": "provisional",
     "namedAuralReview": false
   },
-  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The score itself passes; the repeat-related listening-cue contradiction remains to be resolved by its owner."
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The source, inferred performed order and timing remain explicitly provisional."
 }

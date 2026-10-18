@@ -1,0 +1,39 @@
+{
+  "id": "death-and-the-dies-irae",
+  "verdict": "pass",
+  "defects": [],
+  "reviewed": {
+    "publication": "MEAS: all five listen ids are published: Rachmaninoff Prelude is in the baseline; Pange lingua, Berlioz finale, Liszt Sonata and Verdi Dies irae have pass recording reviews, opened directly.",
+    "timing": "MEAS: all five content/listen modules and cache/analysis reports opened. Eight stations total 1256.14 seconds, 20 minutes 56.14 seconds. Excerpt bounds are inside the recording durations; Berlioz splits at authored section boundaries 335 and 490 seconds, Liszt stops at 208, and the Prelude splits at its 138-second return and ends with its complete recorded decay. Whole chant and Verdi opening-number endpoints retain their recorded tails.",
+    "cues": "MEAS: every cue compared with the recording-specific module. Broad Berlioz bells/chant, rhythmic diminution, imitating round, combination and late col legno agree with its guide; Liszt opening motifs and Grandioso agree; Verdi opening blows, reduction and Quantus tremor agree; Rachmaninoff voicing, triplet transition, four-stave return and coda agree. Feature-report chroma was not treated as proof of notes or orchestration.",
+    "claims": "EXT: opened composer programme and score commentary distinguish Berlioz chant and round; Liszt premiere attendance and 1833 transcription are documented. The direct Berlioz-to-Totentanz route remains explicitly inferred. Saint-Saëns details match the opened Library of Congress essay. Verdi text inheritance is distinguished from plainchant quotation. Rachmaninoff picture stimulus and Paganini variation VII scoring match the opened sources.",
+    "contextualAudio": "MEAS: absent Totentanz, Danse macabre, Isle of the Dead and Paganini recordings are not passed off as audible excerpts; their contextual substitutes are explicitly identified. Bruegel is not misidentified as the Pisa fresco and the displayed Böcklin colour version is not called the monochrome reproduction Rachmaninoff saw.",
+    "rights": "EXT: both image files exist on Commons. Bruegel's circa-1562 painting and Böcklin's first 1880 version carry public-domain two-dimensional-reproduction notices. Audio licences are separate: the existing chant and Verdi recordings are openly licensed rather than falsely described as public domain.",
+    "style": "MEAS: eight stations, two-sentence introduction, subtitle/title/narration/cue lengths within contract; British spelling and typographic musical accidentals retained. Influence ids resolve in the existing romantic and favourites datasets."
+  },
+  "sourcesOpened": [
+    "https://gregobase.selapa.net/chant.php?id=3441",
+    "https://commons.wikimedia.org/wiki/File:Pange_Lingua_Latin_in_Latin.ogg",
+    "https://www.newadvent.org/cathen/11441c.htm",
+    "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+    "http://www.hberlioz.com/Scores/fantas.htm",
+    "http://www.hberlioz.com/Scores/sfantastique.htm",
+    "http://www.hberlioz.com/scosupp/symfantas5.pdf",
+    "http://www.hberlioz.com/Predecessors/liszt.htm",
+    "https://en.wikipedia.org/wiki/Totentanz_(Liszt)",
+    "https://www.laphil.com/works/totentanz",
+    "https://www.classicalmusic-notes.com/liszt-sonata-1/",
+    "https://blogs.loc.gov/nls-music-notes/2022/10/song-stories-camille-saint-sans-and-danse-macabre/",
+    "https://ks15.imslp.org/files/imglnks/usimg/7/71/IMSLP407348-PMLP01812-Verdi_Requiem_whole.pdf",
+    "https://commons.wikimedia.org/wiki/File:ICBSA_Verdi_-_Messa_da_requiem_parte_03,_Dies_irae.ogg",
+    "https://thelistenersclub.com/2019/09/18/rachmaninovs-isle-of-the-dead-a-tone-poem-in-black-and-white/",
+    "https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg",
+    "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf",
+    "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg",
+    "https://houstonsymphony.org/rachmaninoff-rhapsody-paganini/"
+  ],
+  "sourceAccessNotes": [
+    "EXT: the Verdi score PDF opened but text extraction is incomplete. Recording-specific attack, text and endpoint checks use the independently passed local listen module, not invented OCR readings.",
+    "EXT: Library of Congress Danse macabre essay contains an unused fifteenth-century origin assertion; this journey does not repeat it. Its instrumentation and 1874 work-history statements are the relevant evidence."
+  ]
+}

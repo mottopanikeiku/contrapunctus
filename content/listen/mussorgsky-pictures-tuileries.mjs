@@ -13,7 +13,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - iii. tuileries - allegretto non troppo, capriccioso.ogg' },
-  intro: 'Children squabble in a Paris garden after their games. The minute-long picture is a small three-part scherzo; listen for the chatter that frames a smoother, more singing middle.',
+  intro: 'Children squabble in a Paris garden after their games. The minute-long picture is a small three-part scherzo; listen for the chatter that frames a smoother, more singing middle. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How does a short piece make quarrelling children sound like a tune?',
 
   sections: [

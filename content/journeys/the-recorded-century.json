@@ -1,0 +1,219 @@
+{
+  "id": "the-recorded-century",
+  "title": "The recorded century",
+  "subtitle": "What the horn demanded, what the microphone changed",
+  "minutes": 24,
+  "hero": { "file": "File:Somov Sergei Rachmaninoff 1925.JPG", "caption": "Konstantin Somov, portrait of Sergei Rachmaninoff, 1925, oil on canvas. A painted portrait, not a depiction of a recording session." },
+  "intro": "Recording changed the work of performing: acoustic studios organised players around a horn, while electrical recording replaced direct mechanical capture with a microphone and amplification. These nine stations follow Caruso, Nikisch, Paderewski, Rachmaninoff and Chaliapin across that transition, using the published comparison pages to revisit corresponding phrases. Different accompaniments, omitted repeats, uncertain takes and modern transfers remain part of the evidence—not defects to conceal when comparing performances.",
+  "stations": [
+    {
+      "id": "s1",
+      "title": "Caruso: a voice meets the horn",
+      "listen": { "id": "leoncavallo-vesti-caruso-1902", "from": 0, "to": 123 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "leoncavallo-vesti-caruso",
+      "text": "<p>In acoustic recording, sound entering a horn vibrated a diaphragm attached to the cutting stylus: the performers’ sound energy made the groove, without a microphone. Balance therefore depended on position and projection; singers could be directed to turn or step back during louder passages. Those are documented studio practices, not movements we can reconstruct for Caruso from this transfer. He recorded this piano-accompanied <i>Vesti la giubba</i> with Salvatore Cottone in Milan on 30 November 1902. Follow the sustained tenor line across the piano’s separate attacks. The complete short side is a performance for a recording apparatus, not an unmediated seat in an opera house.</p>",
+      "cues": [
+        { "at": 0, "text": "Follow Caruso’s line across Cottone’s separate piano attacks; this is the piano-accompanied side." },
+        { "at": 50, "text": "The central phrase regains recorded weight after the earlier relaxation." },
+        { "at": 85, "text": "Listen across the later sustained crest rather than isolating one attack." },
+        { "at": 108, "text": "Follow the voice and piano’s release, distinguishing musical decay from disc surface sound." }
+      ],
+      "sources": [
+        { "title": "Kolkowski, Miller and Blier-Carruthers: acoustic mechanism, balance and performer directions", "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/" },
+        { "title": "DAHR: Gramophone 2875b, Caruso, Cottone and 30 November 1902", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/1000003400" },
+        { "title": "Caruso 1902 guide: complete side and relative-level landmarks", "url": "../hall.html#leoncavallo-vesti-caruso-1902" },
+        { "title": "Wikimedia Commons: Somov’s 1925 Rachmaninoff portrait and public-domain status", "url": "https://commons.wikimedia.org/wiki/File:Somov_Sergei_Rachmaninoff_1925.JPG" }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "The same tenor, another accompaniment",
+      "listen": { "id": "leoncavallo-vesti-caruso-1907", "from": 0, "to": 142 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "leoncavallo-vesti-caruso",
+      "text": "<p>The orchestral side changes more than the background colour: sustained accompaniment now frames the same tenor’s phrases. Its source attributes Victor 88061 to Caruso’s acoustic performance of 17 March 1907, but the transferred disc’s exact master has not been confirmed from a legible runout. Keep that qualification beside the date. The comparison maps only 0:05–1:54 of the piano side to 0:07–2:19 here; neither complete duration is a tempo measurement. Listen through the early relaxation and broad later crest, then use Compare within those shared bounds. A more prominent voice in one transfer would not, by itself, prove that Caruso sang more loudly.</p>",
+      "cues": [
+        { "at": 0, "text": "Orchestral accompaniment replaces the piano; the transfer does not reveal the recording room’s original balance directly." },
+        { "at": 40, "text": "The early phrase relaxes before regaining weight; this is not simply a silence." },
+        { "at": 65, "text": "The first stronger expansion rises and releases before the later crest." },
+        { "at": 105, "text": "Keep the accompaniment in your attention through the broader high-level span." }
+      ],
+      "sources": [
+        { "title": "DAHR: Victor C-4317, original master and later dub distinction", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029" },
+        { "title": "Internet Archive: Victor 88061 transfer attribution", "url": "https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a" },
+        { "title": "Published Caruso comparison: master uncertainty and exact mapped windows", "url": "../compare/leoncavallo-vesti-caruso.html" },
+        { "title": "Caruso orchestral-side guide: provisional phrase landmarks", "url": "../hall.html#leoncavallo-vesti-caruso-1907" }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Nikisch: the orchestra must fit",
+      "listen": { "id": "beethoven-5-first-nikisch-1913", "from": 0, "to": 182 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "beethoven-5-first",
+      "text": "<p>Nikisch and the Berlin Philharmonic recorded Beethoven’s Fifth on 10 November 1913. Archival research places the performance within an acoustic practice that reinforced conventional strings with directional Stroh instruments; this was not the generic substitution of tubas for double basses. Space on a side also mattered: at Nikisch’s broad pace, taking the exposition repeat would have exceeded the first side’s capacity. He omits it. The comparison therefore matches his opening to the modern reference’s second exposition, beginning at 1:42.6. This is a concrete alteration of performed form, not merely a different recorded tone. Compare phrase breadth only after accounting for the music each performance actually includes.</p>",
+      "cues": [
+        { "at": 50, "text": "The transfer reaches an early recorded crest; horn capture and later processing also shape its apparent balance." },
+        { "at": 104, "text": "The exposition has not been repeated: shorter total duration does not establish a faster performance." }
+      ],
+      "sources": [
+        { "title": "Science Museum Group Journal: Nikisch session, Stroh reinforcement, side capacity and omitted repeat", "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/" },
+        { "title": "Published Beethoven comparison: Nikisch aligned to the repeated exposition", "url": "../compare/beethoven-5-first.html" },
+        { "title": "Nikisch recording guide: early crest and unrepeated exposition", "url": "../hall.html#beethoven-5-first-nikisch-1913" }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Paderewski: the hands need not coincide",
+      "listen": { "id": "chopin-nocturne-op15-2-paderewski", "from": 0, "to": 144 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "chopin-nocturne-op15-2",
+      "text": "<p>Paderewski’s 14 May 1917 recording of Chopin’s F♯-major Nocturne preserves a different sort of evidence: the relationship between melody and accompaniment. Jonathan Woolf describes hand dislocation and arpeggiation in these recordings—notes belonging together need not begin simultaneously. Paderewski’s own 1909 essay rejects the rule that every expressive delay must be mechanically repaid within the bar. Listen for independent melodic timing, but keep it distinct from Chopin’s written <i>doppio movimento</i> in the middle. Compare links this performance with Paderewski in 1937 and other pianists. The record lets us revisit an interpretive practice; its noise and equalisation are not themselves evidence of his touch.</p>",
+      "cues": [
+        { "at": 0, "text": "Listen for whether the upper melody arrives with its supporting chord or speaks independently." },
+        { "at": 56, "text": "Separating the hands differs from slowing both together; keep those two kinds of timing distinct." },
+        { "at": 108, "text": "The written faster middle is a structural contrast, distinct from local expressive timing." },
+        { "at": 136, "text": "The central force withdraws before the slower song returns beyond this excerpt." }
+      ],
+      "sources": [
+        { "title": "DAHR: C-19781, take 1, New York, 14 May 1917", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700004863/C-19781-Nocturne_in_F_sharp_major" },
+        { "title": "Jonathan Woolf: Paderewski’s American recordings, dislocation and arpeggiation", "url": "https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm" },
+        { "title": "Paderewski, Tempo Rubato (1909), reproduced by the USC Polish Music Center", "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/" },
+        { "title": "Paderewski 1917 guide: opening, faster middle and return", "url": "../hall.html#chopin-nocturne-op15-2-paderewski" },
+        { "title": "Published Op. 15 No. 2 comparison: five recorded perspectives", "url": "../compare/chopin-nocturne-op15-2.html" }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "1919: the composer is not a metronome",
+      "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 106, "to": 227.9 },
+      "art": { "file": "File:Somov Sergei Rachmaninoff 1925.JPG", "caption": "Konstantin Somov, Sergei Rachmaninoff, 1925. The portrait falls between the acoustic and electrical performances compared here; it does not document either session." },
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "rachmaninoff-prelude-c-sharp-minor",
+      "text": "<p>Rachmaninoff’s 1919 Edison performance was issued on Diamond Disc 82187-R in December 1920. It is a sound recording of the pianist, not a reproducing-piano roll. We enter the Prelude at the agitated middle, then hear its broad chordal return and quiet coda. Remember the time taken by those three functions, not just the grain of the piano sound. This restored copy, credited to Adam Cuerden, serves as the comparison’s reference for the composer’s 1921 and 1928 remakes. Repeated recordings preserve different performances of the same score; ‘played by the composer’ identifies a performer, not a single immutable set of timings.</p>",
+      "cues": [
+        { "at": 112, "text": "Follow the melodic line through the triplet activity as it gathers towards the chordal return." },
+        { "at": 138, "text": "The opening material returns in a wider chordal texture; four written staves still belong to one pianist." },
+        { "at": 207, "text": "After the enlarged return, quieter and more widely spaced chords complete the coda." }
+      ],
+      "sources": [
+        { "title": "National Park Service catalogue: Edison recording in 1919, issue in December 1920", "url": "https://web.archive.org/web/20071108225217/http://www.nps.gov/archive/edis/edisonia/classical.htm" },
+        { "title": "Wikimedia Commons: Edison recording and Adam Cuerden restoration credit", "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg" },
+        { "title": "Mutopia: Prelude Op. 3 No. 2, Agitato, four-stave return and coda", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
+        { "title": "Published Rachmaninoff comparison: Edison reference and remakes", "url": "../compare/rachmaninoff-prelude-c-sharp-minor.html" },
+        { "title": "Wikimedia Commons: Somov’s 1925 portrait", "url": "https://commons.wikimedia.org/wiki/File:Somov_Sergei_Rachmaninoff_1925.JPG" }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "1921: a remake without one secure take",
+      "listen": { "id": "rachmaninoff-prelude-c-sharp-minor-victor-1921", "from": 94, "to": 209.64 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "rachmaninoff-prelude-c-sharp-minor",
+      "text": "<p>The Victor remake is still acoustic, but it is not a duplicate of the Edison performance. Our map gives the Edison reference’s 1:46–2:18 central span a corresponding duration of about 28.8 seconds here. That provisional transfer measurement is a useful comparison of pacing, not a recovered studio metronome mark: historical playback speed remains uncertain. The disc identity has a second limit. DAHR lists two issued 1921 takes under Victor 814, and this transfer does not establish which it contains. Listen from the central change through the broader chords and final retreat. The catalogue narrows the event; it does not license an invented exact session date.</p>",
+      "cues": [
+        { "at": 94, "text": "The central texture changes after a quiet stretch; compare its pace with the Edison reference." },
+        { "at": 120, "text": "Follow the breadth of this strong recorded span, not just its loudest attack." },
+        { "at": 174, "text": "The passage withdraws towards the quiet close; the noisy decay cannot identify a pedal change." }
+      ],
+      "sources": [
+        { "title": "DAHR: B-25650, the 1921 sessions and issued takes", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700010909" },
+        { "title": "DAHR: Victor 814 and its master references", "url": "https://adp.library.ucsb.edu/index.php/objects/refer/52653" },
+        { "title": "Published Rachmaninoff comparison: central-span duration and speed limitations", "url": "../compare/rachmaninoff-prelude-c-sharp-minor.html" },
+        { "title": "1921 recording guide: central change, crest and withdrawal", "url": "../hall.html#rachmaninoff-prelude-c-sharp-minor-victor-1921" }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "1928: the microphone changes the capture",
+      "listen": { "id": "rachmaninoff-prelude-c-sharp-minor-victor-1928", "from": 92, "to": 211 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "rachmaninoff-prelude-c-sharp-minor",
+      "text": "<p>Columbia and Victor introduced electrical recording commercially in 1925, extending the tonal range captured by records. A microphone and amplification replaced the acoustic horn’s direct dependence on performers’ sound pressure to move the cutter. Rachmaninoff’s electrical Prelude is securely identified as take 23 of 4 April 1928. The same reference central span occupies about 31.2 seconds in its provisional comparison map, against 28.8 in the 1921 transfer. That difference concerns the reproduced performance, not a demonstrated effect of the microphone on his tempo. This digital copy has also been equalised, filtered and de-noised. Hear the later distribution of weight, without treating its apparent brightness as an untouched record of his piano.</p>",
+      "cues": [
+        { "at": 92, "text": "Compare the change of momentum with the earlier versions; apparent brightness also depends on the transfer." },
+        { "at": 155, "text": "The highest average level occurs later within the chordal span, not at its first attack." },
+        { "at": 178, "text": "Compare the closing withdrawal; filtering and de-noising make the residual sound an uncertain guide to original pedalling." }
+      ],
+      "sources": [
+        { "title": "Library of Congress, Recorded Sound Timeline: microphone recording and Columbia/Victor’s 1925 introduction", "url": "https://www.loc.gov/static/managed-content/uploads/sites/6/2017/02/recorded_sound_timeline-2013.pdf" },
+        { "title": "Science Museum Group Journal: acoustic sound energy and the change to electrical methods", "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/" },
+        { "title": "Yale University Library, History of 78 RPM recordings, p. 2: microphone, amplified electrical signal and cutting stylus", "url": "https://web.library.yale.edu/printpdf/book/export/html/3443" },
+        { "title": "DAHR: BVE-25650, issued take 23, 4 April 1928", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor" },
+        { "title": "Published Rachmaninoff comparison: 31.2-second mapped span and transfer qualifications", "url": "../compare/rachmaninoff-prelude-c-sharp-minor.html" },
+        { "title": "1928 recording guide: processing and measured passage landmarks", "url": "../hall.html#rachmaninoff-prelude-c-sharp-minor-victor-1928" }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Chaliapin: establish the earlier phrase",
+      "listen": { "id": "rimsky-korsakov-prophet-chaliapin-1921", "from": 4, "to": 224 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "rimsky-korsakov-prophet",
+      "text": "<p>Return to 1921 for a second controlled comparison: Chaliapin singing Rimsky-Korsakov’s Pushkin setting <i>The Prophet</i> with Percy Pitt. This is a concert song, not an operatic role, performed here with orchestra rather than the original piano accompaniment. Our excerpt follows the published comparison window, leaving out the lead-in and residual tail. Listen to how a held vowel connects with the next syllable and how the broad crests surround quieter spans. Those are invitations to compare phrasing, not claims that a particular word has been aligned. The late quiet passage is less securely matched to the remake; a jumping comparison cursor there is not proof that Chaliapin suddenly changed tempo.</p>",
+      "cues": [
+        { "at": 35, "text": "Follow the connection between a sustained sound and the next syllable, without assigning a particular word to this timestamp." },
+        { "at": 80, "text": "Listen across the early broad crest and its withdrawal." },
+        { "at": 115, "text": "Keep the length of this quieter middle span in mind for the remake." },
+        { "at": 170, "text": "The late quiet passage has lower comparison confidence; follow whole phrases rather than supposed syllable matches." },
+        { "at": 200, "text": "The final broad crest sustains its weight before the side’s close." }
+      ],
+      "sources": [
+        { "title": "DAHR: Cc550, Chaliapin with Percy Pitt, 10 October 1921", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007905" },
+        { "title": "IMSLP: Two Romances, Op. 49, original voice-and-piano setting", "url": "https://imslp.org/wiki/2_Romances,_Op.49_(Rimsky-Korsakov,_Nikolay)" },
+        { "title": "Published Prophet comparison: 4–224-second window and lower-confidence passage", "url": "../compare/rimsky-korsakov-prophet.html" },
+        { "title": "1921 Prophet recording guide: phrase and level landmarks", "url": "../hall.html#rimsky-korsakov-prophet-chaliapin-1921" }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "The microphone is not the only variable",
+      "listen": { "id": "rimsky-korsakov-prophet-chaliapin-1927", "from": 4, "to": 259 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": "rimsky-korsakov-prophet",
+      "text": "<p>Chaliapin returned to <i>The Prophet</i> with Albert Coates on 20 October 1927, now in an electrical recording. The same song and singer give a comparison across the change of apparatus, but six years and another conductor separate the performances. This mapped musical span lasts 255 seconds against the earlier side’s 220; the complete file lengths also contain sound outside the comparison. Follow the broader crests and quieter intervals rather than explaining every difference by the microphone. Recording altered the conditions under which performers worked and preserved their choices for repeated scrutiny. It did not remove interpretation, recording balance or later transfer decisions from what we hear.</p>",
+      "cues": [
+        { "at": 40, "text": "Compare how a held vowel carries into the next syllable; the map is not a word-level alignment." },
+        { "at": 90, "text": "Listen to the time spent across this sustained early crest, not merely its peak." },
+        { "at": 130, "text": "The quieter middle lowers the recorded level before another rise." },
+        { "at": 195, "text": "This late withdrawal is a less certain point in the automatic comparison." },
+        { "at": 225, "text": "Follow the last broad crest over the accompaniment without equating recorded level with studio vocal loudness." },
+        { "at": 252, "text": "The ending releases; the comparison window stops before the residual surface-noise tail." }
+      ],
+      "sources": [
+        { "title": "Swiss Foundation Public Domain: Chaliapin, Coates, 20 October 1927 and electrical transfer", "url": "https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022043" },
+        { "title": "Chaliapin discography: October 1927, Cc10957 take 2", "url": "https://artmusiclounge.files.wordpress.com/2016/03/chaliapin-discography.pdf" },
+        { "title": "Published Prophet comparison: 4–259-second electrical window and interpretation limits", "url": "../compare/rimsky-korsakov-prophet.html" },
+        { "title": "1927 Prophet recording guide: measured crests, withdrawals and closing release", "url": "../hall.html#rimsky-korsakov-prophet-chaliapin-1927" },
+        { "title": "Science Museum Group Journal: recording conditions and the limits of historical reproduction", "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/" }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,14 @@
 {
   "id": "handel-messiah-hallelujah-sargent-1926",
-  "verdict": "fix",
+  "verdict": "pass",
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, provenance and visual review; not aural review.",
-  "defects": [
-    {
-      "basis": "MEAS",
-      "where": "tools/align/REPORT.md",
-      "problem": "The score and six-page sheet are published, but no per-piece report heading was present at review.",
-      "fix": "Append the id-specific report with the actual final metrics below, 94 unrepeated bars / 4927 notes / 12 source staves, six sheet pages, Mutopia 459 / Joshua Koo / Public Domain and honestly unidentified underlying edition. Document opening 3.08 s, final D-major attack 250.403829787234 s, the independently inspected 256.7 s pitched-decay display end versus noisy whole-file RMS activity to 265.05578231292515 s, and provisional/no-aural-review limits. Do not alter the passing score to address this report-only defect."
-    }
-  ],
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#handel-messiah-hallelujah-sargent-1926",
+    "finding": "The completed per-piece report matches the independently recomputed final gates, complete order, source/edition uncertainty, six-page bar map and pitch-decay boundary. The initial report-only finding is resolved."
+  },
   "gates": {
     "basis": "MEAS",
     "checks": "tools/align/work/handel-messiah-hallelujah-sargent-1926-checks.json",

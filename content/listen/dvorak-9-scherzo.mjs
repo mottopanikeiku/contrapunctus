@@ -522,9 +522,9 @@ export default {
       },
       {
         "t": 308,
-        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
+        "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "violins-1"],
-        "note": "Later trio phrases include timpani punctuation and triangle colour (around bars 224–239), followed by rests before the scherzo. Placement is approximate around the 5:08 change, not a continuous percussion claim."
+        "note": "Later trio phrases include timpani punctuation and triangle colour (around bars 224–239), with repeated trumpet accompaniment in bars 233–239. Placement is approximate around the 5:08 change, not a continuous percussion claim."
       },
       {
         "t": 330,

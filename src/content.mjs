@@ -21,10 +21,12 @@ export async function loadContent() {
   let art = {};
   try { art = JSON.parse(await readFile(path.join(C, 'art.json'), 'utf8')); } catch {}
   const listens = await importDir(path.join(C, 'listen'));
+  const journeyFiles = await readdir(path.join(C, 'journeys')).catch((error) => { if (error.code === 'ENOENT') return []; throw error; });
+  const journeys = await Promise.all(journeyFiles.filter((f) => f.endsWith('.json')).sort().map(async (f) => JSON.parse(await readFile(path.join(C, 'journeys', f), 'utf8'))));
   // Composers before Bach who appear only in the concert's prologue and on the Origins page.
   let precursors = [], prologue = null;
   try { const m = await import(pathToFileURL(path.join(C, 'precursors.mjs')).href); precursors = m.default; prologue = m.era ?? null; } catch {}
-  return { eras, composers, pages, site, art, listens, precursors, prologue };
+  return { eras, composers, pages, site, art, listens, precursors, prologue, journeys };
 }
 
 /** Every Commons title referenced anywhere in the content tree (keys named `file`). */
@@ -40,6 +42,10 @@ export function collectFiles(content) {
     }
   };
   walk({ eras: content.eras, composers: content.composers, pages: content.pages, site: content.site, precursors: content.precursors, prologue: content.prologue });
+  for (const journey of content.journeys ?? []) {
+    walk(journey.hero);
+    for (const station of journey.stations ?? []) walk(station.art);
+  }
   return found;
 }
 

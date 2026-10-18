@@ -11,6 +11,7 @@ import routes from '../content/routes.mjs';
 import { buildReturnLab } from './returnlab.mjs';
 import { buildCompare } from './compare.mjs';
 import { buildAtlasMap, placesSection } from './atlas-map.mjs';
+import { buildJourneys } from './journeys.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'docs');
@@ -237,6 +238,7 @@ const NAV = [
   ['influence', 'Influence', 'influence.html'],
   ['compare', 'Compare', 'compare/index.html'],
   ['map', 'Map', 'atlas-map.html'],
+  ['journeys', 'Journeys', 'journeys/index.html'],
   ['eras', 'Atlas', 'index.html#movements'],
   ['composers', 'Composers', 'composers/index.html'],
   ['origins', 'Origins', 'origins.html'],
@@ -420,6 +422,7 @@ function indexPage() {
 <div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${listens.filter((l) => l.concert !== false).length} recordings · the score lights up as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#prelude">Or wander the Atlas ↓</a></div></div>
 <div><p class="hero-caption" aria-live="polite"></p><div class="hero-dots">${site.heroSlides.map((_, i) => `<button type="button" aria-label="Painting ${i + 1}"${i === 0 ? ' class="on"' : ''}></button>`).join('')}</div></div></div>
 <a class="scroll-cue" href="#prelude">Prelude ↓</a></section>
+${journeys.band(ctx)}
 ${readerPaths(ctx)}
 <section class="section" id="prelude"><div class="wrap"><div class="section-head"><span class="kicker">Prelude</span><h2>${esc(site.preludeTitle)}</h2></div>
 <div class="prose">${rich(ctx, site.prelude)}</div></div></section>
@@ -433,7 +436,7 @@ ${readerPaths(ctx)}
 <div class="reveal"><span class="kicker">Before Bach</span><h2 style="margin:.8rem 0 1rem"><a href="origins.html" style="text-decoration:none">Origins</a></h2><p>${rich(ctx, pages.origins?.lede ?? '')}</p><a class="more" href="origins.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Begin with the monochord →</a></div>
 <div class="reveal"><span class="kicker">How it works</span><h2 style="margin:.8rem 0 1rem"><a href="workshop.html" style="text-decoration:none">The Workshop</a></h2><p>${rich(ctx, pages.workshop?.lede ?? '')}</p><a class="more" href="workshop.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Open the workshop →</a></div>
 </div></section>`;
-  return layout(ctx, { title: `Contrapunctus — ${site.kicker}`, body, dark: true, nav: '', ogImage: art[normalizeTitle(site.heroSlides[0].file)]?.src });
+  return layout(ctx, { title: `Contrapunctus — ${site.kicker}`, body, dark: true, nav: '', ogImage: art[normalizeTitle(site.heroSlides[0].file)]?.src, head: journeys.head });
 }
 
 function composersIndex() {
@@ -598,6 +601,44 @@ function searchIndex() {
   if (edges.size) for (const figure of figures.values()) add('figure', figure.name, `${figure.kind} · ${figure.dates ?? ''}`, `influence.html#node-${figure.id}`);
   add('page', 'Sources & method', 'Dossiers, evidence, recording register, scores, downloads and citation', 'sources.html');
   return entries;
+}
+
+// Lossless substring/prefix search: front-coded vocabulary and delta-coded postings.
+// Flags: 1 = searchable text token, 2 = first title token. Display rows are fetched
+// only for the best 24 matches, in small shards; prose never enters the hot search loop.
+async function writeSearchIndex() {
+  const entries = searchIndex(), words = new Map(), size = 16;
+  entries.forEach((e, id) => {
+    const tokens = new Set(e.k.split(/\s+/).filter(Boolean));
+    const title = fold(e.title).split(/\s+/)[0];
+    for (const word of new Set([...tokens, title])) {
+      if (!word) continue;
+      if (!words.has(word)) words.set(word, []);
+      words.get(word).push([id, (tokens.has(word) ? 1 : 0) | (word === title ? 2 : 0)]);
+    }
+  });
+  const w = [], p = [];
+  let previous = '';
+  for (const [word, postings] of [...words].sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)) {
+    let prefix = 0;
+    while (prefix < word.length && prefix < previous.length && word[prefix] === previous[prefix]) prefix++;
+    w.push(String.fromCodePoint(prefix + 32) + word.slice(prefix));
+    previous = word;
+    let last = 0;
+    p.push(postings.map(([id, flags]) => { const delta = id - last; last = id; return String.fromCodePoint(delta * 4 + flags + 32); }).join(''));
+  }
+  const v = createHash('md5').update(JSON.stringify(entries)).digest('hex').slice(0, 8);
+  const b = entries.map((e) => e.type === 'composer' ? 2 : e.type === 'recording' ? 1 : 0);
+  await emit('assets/search.json', JSON.stringify({ v, size, w, p, b }));
+  const dir = path.join(OUT, 'assets/search');
+  await mkdir(dir, { recursive: true });
+  const keep = new Set();
+  for (let i = 0; i < entries.length; i += size) {
+    const name = `${i / size}.json`;
+    keep.add(name);
+    await writeFile(path.join(dir, name), JSON.stringify(entries.slice(i, i + size).map((e) => [e.type, e.title, e.sub, e.url])));
+  }
+  for (const name of await readdir(dir)) if (/^\d+\.json$/.test(name) && !keep.has(name)) await unlink(path.join(dir, name));
 }
 
 const fieldValue = (v) => Array.isArray(v) ? v.map(fieldValue).join('; ') : v && typeof v === 'object' ? (v.name ? `${v.name}${v.role ? ` (${v.role})` : ''}` : Object.entries(v).map(([k, x]) => `${k}: ${fieldValue(x)}`).join('; ')) : v == null ? '' : String(v);
@@ -793,17 +834,23 @@ async function programme() {
 
 async function roomPage(prog) {
   // The player needs only the index; everything a reader opens in the hall is fetched per piece.
-  const DETAIL = ['intro', 'question', 'sections', 'relations', 'cues', 'transitions', 'orchestra', 'dossier', 'scoreSource', 'voices'];
-  const index = prog.map((t) => {
-    const o = Object.fromEntries(Object.entries(t).filter(([k]) => !DETAIL.includes(k)));
-    o.composer = Object.fromEntries(Object.entries(t.composer).filter(([k]) => !['facts', 'quote', 'background', 'born', 'died', 'epithet'].includes(k)));
-    return o;
+  const INDEX = new Set(['id', 'stream', 'duration', 'composer', 'work', 'movement', 'set', 'concert', 'era']);
+  const BIO = new Set(['facts', 'quote', 'background', 'born', 'died', 'epithet']);
+  const composers = [], eras = [], composerIds = new Map(), eraIds = new Map();
+  const rows = prog.map((t) => {
+    if (!composerIds.has(t.composer.slug)) {
+      composerIds.set(t.composer.slug, composers.length);
+      composers.push(Object.fromEntries(Object.entries(t.composer).filter(([k]) => !BIO.has(k))));
+    }
+    if (t.era && !eraIds.has(t.era.slug)) { eraIds.set(t.era.slug, eras.length); eras.push(t.era); }
+    return [t.id, t.stream, t.duration, composerIds.get(t.composer.slug), t.work, t.movement, t.set, t.concert === false ? 0 : 1, t.era ? eraIds.get(t.era.slug) : -1];
   });
+  const index = { composers, eras, rows };
   await writeFile(path.join(OUT, 'assets/listen/programme.json'), JSON.stringify(index));
   await mkdir(path.join(OUT, 'assets/hall'), { recursive: true });
   for (const t of prog) {
-    const d = Object.fromEntries(DETAIL.map((k) => [k, t[k]]));
-    d.composer = { facts: t.composer.facts, quote: t.composer.quote, background: t.composer.background, born: t.composer.born, died: t.composer.died, epithet: t.composer.epithet };
+    const d = Object.fromEntries(Object.entries(t).filter(([k]) => !INDEX.has(k)));
+    d.composer = Object.fromEntries(Object.entries(t.composer).filter(([k]) => BIO.has(k)));
     await writeFile(path.join(OUT, 'assets/hall', `${t.id}.json`), JSON.stringify(d));
   }
   const keep = new Set([...allListens.map((l) => `${l.id}.json`), 'programme.json']);  // analysis envelopes of recordings still in review must survive
@@ -835,7 +882,7 @@ ${headScripts(ctx)}
 <div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
 <header class="r-top">
   <a class="r-brand" href="index.html"><span class="glyph">𝄞</span>Contrapunctus</a>
-  <nav class="r-nav"><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="atlas-map.html">Map</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
+  <nav class="r-nav"><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="atlas-map.html">Map</a><a href="journeys/index.html">Journeys</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
 </header>
 
 <main class="stage">
@@ -946,23 +993,24 @@ PROG_V = createHash('md5').update(JSON.stringify(PROG)).digest('hex').slice(0, 8
 const influenceModule = existsSync(path.join(ROOT, 'src/influence.mjs')) ? await import('./influence.mjs') : null;
 if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, furtherReading, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
 await buildAtlasMap({ out, layout, composers, eras, art, listens, ROOT, OUT });
+const journeys = await buildJourneys({ out, layout, esc, attr, rich, img, art, PROG, ROOT, OUT });
 await out('index.html', indexPage());
 await out('hall.html', await roomPage(PROG));
-const comparisonSearch = await buildCompare({ out, layout, esc, attr, bySlug, listens, held, ROOT, OUT });
+const comparisonSearch = await buildCompare({ out, layout, esc, attr, bySlug, listens, held, PROG, ROOT, OUT });
 await out('atlas.html', `<!doctype html><meta charset="utf-8"><title>Contrapunctus</title><meta http-equiv="refresh" content="0; url=index.html"><link rel="canonical" href="index.html"><a href="index.html">Contrapunctus</a>`);
 await out('composers/index.html', composersIndex());
 for (const [i, c] of composers.entries()) await out(`composers/${c.slug}.html`, composerPage(c, i));
 for (const e of eras) await out(`eras/${e.slug}.html`, eraPage(e));
 for (const p of Object.values(pages)) await out(`${p.slug}.html`, longPage(p));
 await out('timeline.html', timelinePage());
-await buildReturnLab({ out, layout, esc, attr, listens, bySlug, ROOT, OUT, warnings });
+await buildReturnLab({ out, layout, esc, attr, listens, bySlug, PROG, ROOT, OUT, warnings });
 await out('gallery.html', galleryPage());
 await out('credits.html', creditsPage());
 await out('routes.html', routesPage());
 await out('glossary.html', glossaryPage());
 await out('sources.html', sourcesPage());
 await emit('assets/glossary.json', JSON.stringify(Object.fromEntries(GLOSSARY.map((g) => [g.slug, { term: g.term, short: g.short }]))));
-await emit('assets/search.json', JSON.stringify(searchIndex()));
+await writeSearchIndex();
 const recordings = recordingRows();
 await emit('assets/data/recordings.json', JSON.stringify(recordings, null, 2) + '\n');
 await emit('assets/data/recordings.csv', recordingsCsv(recordings));

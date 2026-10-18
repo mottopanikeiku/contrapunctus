@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "id": "dvorak-9-scherzo",
+  "source": {
+    "mutopia": 1793,
+    "title": "Symphony No. 9, Op. 95 — III. Scherzo. Molto vivace",
+    "edition": "N. Simrock GmbH (1894)",
+    "encoder": "Keith OHara",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793",
+    "license": "Creative Commons Attribution-ShareAlike 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "Sym9-lys/Mvt3_Scherzo.ly",
+    "midi": "Mvt3_Scherzo.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-lys.zip",
+        "file": "Sym9-lys.zip",
+        "sha256": "32fe4b271d02a5a6934eadacd75a4e8dcaf59c565f9d61878cf47de41cd26cfa"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-mids.zip",
+        "file": "Sym9-mids.zip",
+        "sha256": "4ace203cafa10c6bd4e8cbc9d5c6e00bbfbba3efdf9d71ccee7b833f1582ac2c"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      "control track", "flute:", "oboe:", "clarinet:", "bassoon:",
+      "triangle:", "violin1:", "violin2:", "viola:", "cello:", "bass:",
+      "french hornA:", "timpani:", "french hornB:", "trumpet:"
+    ]
+  },
+  "voices": [
+    { "id": "flutes", "name": "Flutes", "tracks": ["flute:"] },
+    { "id": "oboes", "name": "Oboes", "tracks": ["oboe:"] },
+    { "id": "clarinets", "name": "Clarinets", "tracks": ["clarinet:"] },
+    { "id": "bassoons", "name": "Bassoons", "tracks": ["bassoon:"] },
+    { "id": "horns", "name": "Horns", "tracks": ["french hornA:", "french hornB:"] },
+    { "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet:"] },
+    { "id": "timpani", "name": "Timpani", "tracks": ["timpani:"] },
+    { "id": "triangle", "name": "Triangle", "tracks": ["triangle:"] },
+    { "id": "violins-1", "name": "Violins I", "tracks": ["violin1:"] },
+    { "id": "violins-2", "name": "Violins II", "tracks": ["violin2:"] },
+    { "id": "violas", "name": "Violas", "tracks": ["viola:"] },
+    { "id": "cellos", "name": "Cellos", "tracks": ["cello:"] },
+    { "id": "basses", "name": "Double basses", "tracks": ["bass:"] }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 299,
+    "quarters": 3,
+    "overrides": { "191": 6, "247": 6 },
+    "order": [
+      [1, 59],
+      [1, 190],
+      { "from": [191, 0], "to": [191, 3] },
+      [176, 190],
+      { "from": [191, 3], "to": [191, 6] },
+      [192, 238],
+      [192, 246],
+      { "from": [247, 0], "to": [247, 3] },
+      [1, 141],
+      [248, 299]
+    ],
+    "description": "Printed bars 1–59 twice, then 60–175; trio 176–190 with first ending 191, then 176–190 with second ending 191; 192–238 twice, then 239–247; D.C. 1–141 without repeats, then coda 248–299. The source numbers both trio endings 191 and inserts an unperformed full-bar spacer after 247: six-quarter source extents preserve those encoded coordinates, while performed fragments select three quarters each. There is no pickup. The source MIDI is canonical, not a complete unfolded performance."
+  },
+  "endpoints": {
+    "first": [0, 2],
+    "last": [498, 505.5],
+    "basis": "Initial source-pitch energy inspection windows, not listening annotations: opening E octaves and the final short E-minor tutti after the written general pause. These broad initial windows require fresh overlay inspection before publication."
+  },
+  "diagnostics": {
+    "recurrences": [
+      { "start": 3, "secondQ": 177, "secondOffset": 3, "length": 35, "search": 5 },
+      { "startQ": 702, "startOffset": 1, "secondQ": 750, "secondOffset": 1, "length": 10, "search": 5 },
+      { "startQ": 798, "startOffset": 1, "secondQ": 939, "secondOffset": 1, "length": 30, "search": 5 },
+      { "start": 3, "secondQ": 1107, "secondOffset": 3, "length": 35, "search": 5 }
+    ],
+    "overlays": [[0, 12], [204, 216], [232, 244], [318, 338], [454, 470], [490, 505.5]]
+  },
+  "engraving": { "staff": 13, "width": 290, "height": 410 },
+  "provenance": [
+    "Mutopia1793 provides the full orchestral movement, not a reduction. Its third movement has no trombone/tuba staff; triangle is present and is retained as a source-defined unpitched percussion part. MIDI percussion key 81 is a triangle identifier, not a claim of sounding A5.",
+    "All fourteen sounding MIDI tracks are assigned to thirteen named source parts; the two genuine horn staves are grouped. Instrument identities come from Mvt3_Scherzo.ly, never General MIDI patches.",
+    "Clarinets in A already sound down three semitones through the source transposition a; horns and trumpets use source transposition e and documented changes to c and back. The bass_8 source already places double basses at sounding pitch: initial MIDI E3 (52), one octave below cello E4 (64), with E1 (28) later. No additional transposition is applied.",
+    "The source conductor has 299 printed bars, 3/4 throughout, explicit repeats at 1–59, 176–191 and 192–238, D.C. al coda after 247 and a coda jump after 141. The MIDI includes both bar-191 endings and a silent spacer before the coda but does not execute these repeats or D.C. Recording recurrence and harmonic correspondence remain subject to fresh diagnostics.",
+    "The published MIDI advances violin I/II by 0.1015625 quarter after its second-ending grace; other parts retain integer-quarter final attacks. This source-specific clock discrepancy is disclosed and must be inspected against a common-clock modern compilation before publication.",
+    "All alignment is provisional and not checked by ear. Source note durations represent warped notation, not measured bow releases or percussion decay."
+  ]
+}

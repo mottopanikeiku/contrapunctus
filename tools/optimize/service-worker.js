@@ -1,0 +1,119 @@
+// Revisions and BUILD are injected by the post-build generator.
+const ROOT = new URL('./', self.location);
+const PREFIX = `contrapunctus:${ROOT.pathname}:`;
+const SHELL = `${PREFIX}shell:${BUILD}`;
+const HTML = `${PREFIX}html:${BUILD}`;
+const DATA = `${PREFIX}data:${BUILD}`;
+const IMAGES = `${PREFIX}images:${BUILD}`;
+const SCORES = `${PREFIX}scores:${BUILD}`;
+const activeCaches = new Set([SHELL, HTML, DATA, IMAGES, SCORES]);
+const revisions = new Map(PRECACHE.map(({ url, revision }) => [new URL(url, ROOT).href, revision]));
+const revisionKey = (url, revision) => `${url}?__revision=${revision}`;
+const storable = (response) => response.ok && response.status !== 206 && response.type === 'basic';
+let imageWrites = Promise.resolve();
+
+self.addEventListener('install', (event) => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(SHELL);
+    // Four concurrent requests, not a burst of every asset. Reuse exact hashes
+    // from an installed release; changed bytes bypass GitHub Pages' HTTP cache.
+    const entries = [...revisions];
+    let next = 0;
+    await Promise.all(Array.from({ length: Math.min(4, entries.length) }, async () => {
+      while (next < entries.length) {
+        const [url, revision] = entries[next++], key = revisionKey(url, revision);
+        const previous = await caches.match(key);
+        const response = previous || await fetch(new Request(url, { cache: 'reload' }));
+        if (!storable(response)) throw new Error(`Unable to precache ${url}: ${response.status}`);
+        await cache.put(key, response);
+      }
+    }));
+  })());
+  // Do not skipWaiting: a new release must not replace a playing page's shell.
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    const names = await caches.keys();
+    // Preserve visited HTML/data across releases for offline navigation. New
+    // network responses replace these; immutable shell entries stay revisioned.
+    for (const name of names) {
+      if (!name.startsWith(PREFIX) || activeCaches.has(name)) continue;
+      const destination = name.startsWith(`${PREFIX}html:`) ? HTML : name.startsWith(`${PREFIX}data:`) ? DATA : null;
+      if (destination) {
+        const old = await caches.open(name), current = await caches.open(destination);
+        for (const key of await old.keys()) if (!await current.match(key)) await current.put(key, await old.match(key));
+      }
+      await caches.delete(name);
+    }
+    await self.clients.claim();
+  })());
+});
+
+async function networkFirst(request, key) {
+  const cache = await caches.open(HTML);
+  try {
+    const response = await fetch(request);
+    if (storable(response)) { await cache.put(key, response.clone()); return response; }
+    if (response.status < 500) return response;
+    return await cache.match(key) || response;
+  } catch (error) {
+    const cached = await cache.match(key);
+    if (cached) return cached;
+    throw error;
+  }
+}
+async function staleWhileRevalidate(event, key) {
+  const cache = await caches.open(DATA);
+  const update = fetch(event.request).then(async (response) => {
+    if (storable(response)) await cache.put(key, response.clone());
+    return response;
+  });
+  event.waitUntil(update.catch(() => {}));
+  return await cache.match(key) || update;
+}
+async function cacheImage(event, name, limit) {
+  const cache = await caches.open(name), key = event.request;
+  let response = await cache.match(key);
+  if (!response) response = await fetch(key);
+  if (storable(response)) {
+    const copy = response.clone();
+    // CacheStorage insertion order is our LRU. A hit is touched as well as a
+    // miss; serialisation makes simultaneous image loads respect the bound.
+    const write = imageWrites.then(async () => {
+      await cache.delete(key);
+      await cache.put(key, copy);
+      const keys = await cache.keys();
+      for (let i = 0; i < keys.length - limit; i++) await cache.delete(keys[i]);
+    });
+    imageWrites = write.catch(() => {});
+    event.waitUntil(imageWrites);
+  }
+  return response;
+}
+self.addEventListener('fetch', (event) => {
+  const request = event.request, url = new URL(request.url);
+  // No audio bytes, partial requests, remote CDNs, or third-party responses.
+  if (request.method !== 'GET' || url.origin !== ROOT.origin || !url.pathname.startsWith(ROOT.pathname) || request.headers.has('Range') || request.destination === 'audio' || /\.(?:mp3|ogg|oga|opus|flac|wav|m4a|aac)$/i.test(url.pathname)) return;
+  const canonical = new URL(url.pathname, ROOT);
+  if (canonical.pathname.endsWith('/')) canonical.pathname += 'index.html';
+  const revision = revisions.get(canonical.href);
+  if (revision) {
+    event.respondWith(caches.open(SHELL).then(async (cache) => {
+      const key = revisionKey(canonical.href, revision);
+      const found = await cache.match(key);
+      if (found) return found;
+      const response = await fetch(request);
+      if (storable(response)) await cache.put(key, response.clone());
+      return response;
+    }));
+  } else if (request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/')) {
+    event.respondWith(networkFirst(request, canonical.href));
+  } else if (url.pathname.endsWith('.json') || /\/assets\/data\//.test(url.pathname) && !url.pathname.endsWith('.svg')) {
+    event.respondWith(staleWhileRevalidate(event, url.href));
+  } else if (url.pathname.endsWith('.svg') && /\/(?:data|scores)\//.test(url.pathname)) {
+    event.respondWith(cacheImage(event, SCORES, 300));
+  } else if (request.destination === 'image' || /\.(?:avif|webp|png|jpe?g|gif|svg)$/.test(url.pathname)) {
+    event.respondWith(cacheImage(event, IMAGES, 300));
+  }
+});

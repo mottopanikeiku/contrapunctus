@@ -1,0 +1,680 @@
+{
+  "uniqueScoreAttacks": 1175,
+  "audioDetectedOnsets": 605,
+  "medianAbsoluteOnsetDeviation": 0.07236645647607531,
+  "noteWeightedMedianDeviation": 0.049677259031483345,
+  "p95AbsoluteOnsetDeviation": 0.5471092007579214,
+  "fractionWithin150ms": 0.6697872340425531,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 28,
+      "median": 0.024158046780356213,
+      "p95": 0.14461404653185503,
+      "max": 0.30122635355512095,
+      "adaptiveMedian": 0.03370422141459323,
+      "adaptiveP95": 0.05007779641537004
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 27,
+      "median": 0.022447737085702357,
+      "p95": 0.12020234212406268,
+      "max": 0.1363038548752833,
+      "adaptiveMedian": 0.02098530736495441,
+      "adaptiveP95": 0.0546088590687404
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 26,
+      "median": 0.018566147920354936,
+      "p95": 0.29040925045817456,
+      "max": 0.31712421955083414,
+      "adaptiveMedian": 0.02007175472928857,
+      "adaptiveP95": 0.09312661137514411
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 29,
+      "median": 0.022337154039696827,
+      "p95": 0.08182250799863197,
+      "max": 0.1268924921566814,
+      "adaptiveMedian": 0.030748920572793992,
+      "adaptiveP95": 0.08570285465784333
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 34,
+      "median": 0.020021588544089752,
+      "p95": 0.24534783959245393,
+      "max": 0.35346752399590997,
+      "adaptiveMedian": 0.021353128009195643,
+      "adaptiveP95": 0.07477505979560481
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 47,
+      "median": 0.027848290000925147,
+      "p95": 0.1462192609159338,
+      "max": 0.1797657875935812,
+      "adaptiveMedian": 0.027546982263224606,
+      "adaptiveP95": 0.07022615164786992
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 51,
+      "median": 0.08105845991364902,
+      "p95": 0.29807124219550474,
+      "max": 0.3360376479358891,
+      "adaptiveMedian": 0.026152269126825445,
+      "adaptiveP95": 0.08469628490665215
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 41,
+      "median": 0.04024477370856516,
+      "p95": 0.3519553940297584,
+      "max": 0.5144363681545627,
+      "adaptiveMedian": 0.026993445780142622,
+      "adaptiveP95": 0.051678625788206034
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 35,
+      "median": 0.037494486379031855,
+      "p95": 0.173647998011981,
+      "max": 0.29320752958717833,
+      "adaptiveMedian": 0.033285496847128115,
+      "adaptiveP95": 0.06688019134594467
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 38,
+      "median": 0.05049700245394462,
+      "p95": 0.30003988444693164,
+      "max": 0.31643400739289973,
+      "adaptiveMedian": 0.03014024787997016,
+      "adaptiveP95": 0.14241313328984048
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 50,
+      "median": 0.11297549156648756,
+      "p95": 0.24602073432112978,
+      "max": 0.31116578138104956,
+      "adaptiveMedian": 0.03483319355138548,
+      "adaptiveP95": 0.13617876557016612
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 51,
+      "median": 0.17230050010870457,
+      "p95": 0.5282833224613981,
+      "max": 0.6188152704004182,
+      "adaptiveMedian": 0.054680831236595395,
+      "adaptiveP95": 0.26125384400335605
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 37,
+      "median": 0.10051843568477636,
+      "p95": 0.5140198179728569,
+      "max": 0.5879613580592036,
+      "adaptiveMedian": 0.042388096791228236,
+      "adaptiveP95": 0.1436668219799344
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 57,
+      "median": 0.16265119746528,
+      "p95": 0.8291144348150222,
+      "max": 0.9750560680893301,
+      "adaptiveMedian": 0.036183642406740546,
+      "adaptiveP95": 0.17555502749044363
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 80,
+      "median": 0.15110583046004677,
+      "p95": 0.5588299708011127,
+      "max": 0.6472904047463857,
+      "adaptiveMedian": 0.05153377028132411,
+      "adaptiveP95": 0.2183287205293125
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 88,
+      "median": 0.10128009194545484,
+      "p95": 0.9578286817009961,
+      "max": 1.1487438262976326,
+      "adaptiveMedian": 0.03975325899006066,
+      "adaptiveP95": 0.11952788908559953
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 131,
+      "median": 0.240772994129145,
+      "p95": 0.7867104908934692,
+      "max": 0.9156513838412081,
+      "adaptiveMedian": 0.06254610215472667,
+      "adaptiveP95": 0.2699581430745752
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 41,
+      "median": 0.035235610225839764,
+      "p95": 0.2895504198635592,
+      "max": 0.3869679744043708,
+      "adaptiveMedian": 0.034846395179044976,
+      "adaptiveP95": 0.09674789550524565
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 27,
+      "median": 0.045523561022633885,
+      "p95": 0.3112939458888604,
+      "max": 0.3477327369303964,
+      "adaptiveMedian": 0.030202217873465997,
+      "adaptiveP95": 0.06795191501257421
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 37,
+      "median": 0.14944149349241798,
+      "p95": 0.4666699593079383,
+      "max": 0.5760538005156093,
+      "adaptiveMedian": 0.021442238996058904,
+      "adaptiveP95": 0.06808337216165797
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 55,
+      "median": 0.11412015034321144,
+      "p95": 0.5420310781846864,
+      "max": 0.6361581710309849,
+      "adaptiveMedian": 0.032468704376725555,
+      "adaptiveP95": 0.10777810393563526
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 35,
+      "median": 0.023021153666945793,
+      "p95": 0.22523293883763496,
+      "max": 0.35346845587548614,
+      "adaptiveMedian": 0.03152859317239631,
+      "adaptiveP95": 0.0600350076103552
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 46,
+      "median": 0.036222004783624584,
+      "p95": 0.21562001056130953,
+      "max": 0.3542316652688555,
+      "adaptiveMedian": 0.030593141366125565,
+      "adaptiveP95": 0.06678035597798271
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 31,
+      "median": 0.0434349082098322,
+      "p95": 0.3084061752554845,
+      "max": 0.45202062560184686,
+      "adaptiveMedian": 0.02749666076474,
+      "adaptiveP95": 0.08124048706240217
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 26,
+      "median": 0.024837697636129974,
+      "p95": 0.30184962569500584,
+      "max": 0.34087658807817434,
+      "adaptiveMedian": 0.02233280526823478,
+      "adaptiveP95": 0.053451526729425325
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 26,
+      "median": 0.03498648774578328,
+      "p95": 0.3119811760320559,
+      "max": 0.4783779082408728,
+      "adaptiveMedian": 0.04389401422669437,
+      "adaptiveP95": 0.15315153915445734
+    },
+    {
+      "start": 208.0,
+      "end": 214.03333333333333,
+      "attacks": 1,
+      "median": 0.4085745348368448,
+      "p95": 0.4085745348368448,
+      "max": 0.4085745348368448,
+      "adaptiveMedian": 0.03260460348516858,
+      "adaptiveP95": 0.03260460348516858
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 208.0,
+      "end": 214.03333333333333,
+      "attacks": 1,
+      "median": 0.4085745348368448,
+      "p95": 0.4085745348368448,
+      "max": 0.4085745348368448,
+      "adaptiveMedian": 0.03260460348516858,
+      "adaptiveP95": 0.03260460348516858
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 131,
+      "median": 0.240772994129145,
+      "p95": 0.7867104908934692,
+      "max": 0.9156513838412081,
+      "adaptiveMedian": 0.06254610215472667,
+      "adaptiveP95": 0.2699581430745752
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 51,
+      "median": 0.17230050010870457,
+      "p95": 0.5282833224613981,
+      "max": 0.6188152704004182,
+      "adaptiveMedian": 0.054680831236595395,
+      "adaptiveP95": 0.26125384400335605
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 57,
+      "median": 0.16265119746528,
+      "p95": 0.8291144348150222,
+      "max": 0.9750560680893301,
+      "adaptiveMedian": 0.036183642406740546,
+      "adaptiveP95": 0.17555502749044363
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 80,
+      "median": 0.15110583046004677,
+      "p95": 0.5588299708011127,
+      "max": 0.6472904047463857,
+      "adaptiveMedian": 0.05153377028132411,
+      "adaptiveP95": 0.2183287205293125
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 131,
+      "median": 0.240772994129145,
+      "p95": 0.7867104908934692,
+      "max": 0.9156513838412081,
+      "adaptiveMedian": 0.06254610215472667,
+      "adaptiveP95": 0.2699581430745752
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 51,
+      "median": 0.17230050010870457,
+      "p95": 0.5282833224613981,
+      "max": 0.6188152704004182,
+      "adaptiveMedian": 0.054680831236595395,
+      "adaptiveP95": 0.26125384400335605
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 80,
+      "median": 0.15110583046004677,
+      "p95": 0.5588299708011127,
+      "max": 0.6472904047463857,
+      "adaptiveMedian": 0.05153377028132411,
+      "adaptiveP95": 0.2183287205293125
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 26,
+      "median": 0.03498648774578328,
+      "p95": 0.3119811760320559,
+      "max": 0.4783779082408728,
+      "adaptiveMedian": 0.04389401422669437,
+      "adaptiveP95": 0.15315153915445734
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 37,
+      "median": 0.10051843568477636,
+      "p95": 0.5140198179728569,
+      "max": 0.5879613580592036,
+      "adaptiveMedian": 0.042388096791228236,
+      "adaptiveP95": 0.1436668219799344
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 112.0,
+      "meanCosine": 0.6295912933729179
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.6867935099848904
+    },
+    {
+      "start": 144.0,
+      "meanCosine": 0.7181460785751809
+    },
+    {
+      "start": 120.0,
+      "meanCosine": 0.7311904254139003
+    },
+    {
+      "start": 32.0,
+      "meanCosine": 0.7339471406495642
+    }
+  ],
+  "sections": [
+    {
+      "bar": "14",
+      "occ": 1,
+      "editorial": 33.2,
+      "aligned": 33.26100456621005,
+      "difference": 0.061004566210044686,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "30",
+      "occ": 1,
+      "editorial": 73.9,
+      "aligned": 73.43613394216133,
+      "difference": -0.46386605783867196,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "46",
+      "occ": 1,
+      "editorial": 113.9,
+      "aligned": 113.77126331811264,
+      "difference": -0.12873668188736076,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "67",
+      "occ": 1,
+      "editorial": 165.2,
+      "aligned": 166.20487062404868,
+      "difference": 1.0048706240486922,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "77",
+      "occ": 1,
+      "editorial": 192.3,
+      "aligned": 193.52182648401828,
+      "difference": 1.2218264840182655,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "0",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.28,
+      "nearestOnsetDeviation": 0.024580498866213163
+    },
+    {
+      "label": "middle",
+      "bar": "46",
+      "occ": 1,
+      "scoreQ": 183.875,
+      "audioSeconds": 115.98475646879757,
+      "nearestOnsetDeviation": 0.47492607088497607
+    },
+    {
+      "label": "last",
+      "bar": "82",
+      "occ": 1,
+      "scoreQ": 326.5,
+      "audioSeconds": 209.26045662100464,
+      "nearestOnsetDeviation": 0.4085745348368448
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "82",
+      "occ": 1,
+      "midi": 40,
+      "voice": "continuo-bass",
+      "durationQ": 2.0,
+      "onset": 209.26045662100464,
+      "offset": 213.78,
+      "durationSeconds": 4.519543378995365
+    },
+    {
+      "bar": "82",
+      "occ": 1,
+      "midi": 68,
+      "voice": "violas",
+      "durationQ": 2.0,
+      "onset": 209.26045662100464,
+      "offset": 213.78,
+      "durationSeconds": 4.519543378995365
+    },
+    {
+      "bar": "82",
+      "occ": 1,
+      "midi": 76,
+      "voice": "solo-violin",
+      "durationQ": 2.0,
+      "onset": 209.26045662100464,
+      "offset": 213.78,
+      "durationSeconds": 4.519543378995365
+    },
+    {
+      "bar": "82",
+      "occ": 1,
+      "midi": 76,
+      "voice": "violins-1",
+      "durationQ": 2.0,
+      "onset": 209.26045662100464,
+      "offset": 213.78,
+      "durationSeconds": 4.519543378995365
+    },
+    {
+      "bar": "82",
+      "occ": 1,
+      "midi": 76,
+      "voice": "violins-2",
+      "durationQ": 2.0,
+      "onset": 209.26045662100464,
+      "offset": 213.78,
+      "durationSeconds": 4.519543378995365
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.023335235920853847,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.8034264699046334,
+  "endAnchor": {
+    "scoreQ": 328.5,
+    "audioSeconds": 213.78,
+    "decodedDuration": 214.03333333333333,
+    "activeEndMinus45dB": 213.77451247165533
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "vivaldi-spring-allegro-modena",
+  "tuningHz": 441.53,
+  "audioSha256": "a734fc8c7093e220046bc393e2eab230a66c0c285647800c52c2395e10ee5403",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "The archive’s spring-score.mid is movement I only, with named source staves solo, violinone, violintwo, viola and cello. spring-score-1.mid and spring-score-2.mid are movements II and III and are not used.",
+    "The source’s Organo e Violoncello part supplies one written bass line plus figured-bass symbols. No realised continuo pitches or separately inferred double-bass voice are invented. The source maintainer is explicitly Anonymous.",
+    "Source MIDI contains 3173 note attacks over 328.5 quarter-note units; the pickup is labelled bar 0, followed by 82 complete 4/4 bars."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      34.06,
+      33.2
+    ],
+    [
+      76.18,
+      73.9
+    ],
+    [
+      117.44,
+      113.9
+    ],
+    [
+      170.86,
+      165.2
+    ],
+    [
+      196.62,
+      192.3
+    ],
+    [
+      212.20015220700154,
+      209.26
+    ]
+  ],
+  "sourceChecks": {
+    "pitchOnsetInventory": {
+      "kind": "multiset",
+      "matched": true,
+      "count": 3173
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.28,
+      "peakSeconds": 0.32,
+      "window": [
+        0.1,
+        0.45
+      ],
+      "midiPitches": [
+        52,
+        68,
+        71,
+        76
+      ],
+      "basis": "The genuine eighth-note pickup is the joint source-pitch rise near 0.28 s. The final E-major arrival is near 209.0 s, where E2/E5/G-sharp4 jointly replace the preceding B2/F-sharp5 dominant through 208.5 s. The stronger E/G-sharp energy around 205.5 s is an earlier cadence figure and must not collapse the remaining written notes. Pitch-band inspection, not closest-detector selection; no aural review is claimed."
+    },
+    {
+      "label": "last",
+      "scoreQ": 326.5,
+      "audioSeconds": 209.26,
+      "peakSeconds": 209.3,
+      "window": [
+        208.7,
+        209.4
+      ],
+      "midiPitches": [
+        40,
+        68,
+        76
+      ],
+      "basis": "The genuine eighth-note pickup is the joint source-pitch rise near 0.28 s. The final E-major arrival is near 209.0 s, where E2/E5/G-sharp4 jointly replace the preceding B2/F-sharp5 dominant through 208.5 s. The stronger E/G-sharp energy around 205.5 s is an earlier cadence figure and must not collapse the remaining written notes. Pitch-band inspection, not closest-detector selection; no aural review is claimed."
+    }
+  ],
+  "adaptiveOnsetCount": 1036,
+  "adaptiveMedianDeviation": 0.03417885875809645,
+  "gateReasons": [],
+  "elapsedSeconds": 0.8179818210192025,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 83,
+    "notes": 3173,
+    "voices": 5
+  },
+  "published": true,
+  "configSha256": "4bcfdacde7dd74c939dae30a2c1bb3c8b351ce8d49055f731b9b0c50af038704",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-lys.zip",
+      "file": "spring-lys.zip",
+      "sha256": "3a87fa93faace5b2d6689fe6d39b3ee32dde6649d924a394f6b05239b22cbab9"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-mids.zip",
+      "file": "spring-mids.zip",
+      "sha256": "1e3d57ffee2dc77a4d06d777f01633d3726c57221b35661d6093095ca8cef3fd"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/vivaldi-spring-allegro-modena-0-8.28.png",
+    "work/vivaldi-spring-allegro-modena-88-96.png",
+    "work/vivaldi-spring-allegro-modena-96-104.png",
+    "work/vivaldi-spring-allegro-modena-104-112.png",
+    "work/vivaldi-spring-allegro-modena-111.985-123.985.png",
+    "work/vivaldi-spring-allegro-modena-112-120.png",
+    "work/vivaldi-spring-allegro-modena-128-136.png",
+    "work/vivaldi-spring-allegro-modena-200-208.png",
+    "work/vivaldi-spring-allegro-modena-205.26-214.033.png",
+    "work/vivaldi-spring-allegro-modena-208-214.033.png"
+  ]
+}

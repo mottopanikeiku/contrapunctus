@@ -13,7 +13,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - promenade - moderato non tanto, pesante.ogg' },
-  intro: 'The shortest Promenade in this set is also the heaviest, marked pesante. Listen for how it ends: it does not close, it leaves the next picture to answer.',
+  intro: 'The shortest Promenade in this set is also the heaviest, marked pesante. Listen for how it ends: it does not close, it leaves the next picture to answer. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How can a piece end so that the next one has to begin?',
 
   sections: [

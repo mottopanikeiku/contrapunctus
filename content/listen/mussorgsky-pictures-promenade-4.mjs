@@ -14,7 +14,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - promenade - tranquillo.ogg' },
-  intro: 'After the heavy ox-cart the visitor walks quietly, in woodwinds. A short swell of strings crests in the middle, then the sound thins into the next picture.',
+  intro: 'After the heavy ox-cart the visitor walks quietly, in woodwinds. A short swell of strings crests in the middle, then the sound thins into the next picture. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How does the walking theme change when it is played quietly by wind instruments?',
 
   sections: [
@@ -25,6 +25,7 @@ export default {
   cues: [
     { t: 0, kind: 'music', title: 'Winds, in bars of five, six, seven', text: 'In Ravel’s scoring the flutes begin, then oboes and bassoons take over the walking. The piano score’s bars run five, six and seven beats, so the stride is less even than in the first Promenade. The level stays gentle, about −14 to −18 dB.', basis: 'documented', precision: 'passage', evidence: 'Flutes, then oboes and bassoons: LA Phil note (Orrin Howard). Five-, six- and seven-beat bars: Lamm’s score (Mutopia, promenade-4.ly). Relative level −13.9, −17.6, −13.4 and −13.1 dB at 0:00, 0:05, 0:10 and 0:15.' },
     { t: 18, kind: 'form', title: 'Strings swell to a short peak', text: 'At about 0:18 the sound grows: blustery strings join the delicate woodwinds, and the level peaks around −5 dB between 0:20 and 0:30, the loudest stretch of the movement. The crest is short; the tranquil walk resumes at once.', basis: 'audio-feature', precision: 'passage', evidence: 'Strongest boundary at 0:18 (novelty 1.00); relative level −13.1 dB (0:15), −6.2, −5.3 and −7.4 dB at 0:20, 0:25 and 0:30, the loudest windows. Blustery strings added to the woodwinds: Philharmonia guide.' },
+    { t: 26, kind: 'world', title: 'Mussorgsky in the interludes', text: 'Writing to Stasov around 12 June 1874, as he reached the fourth number, Mussorgsky said the transitions were good and added: “My physiognomy can be seen in the interludes.” By his own account the Promenades carry his own face.', basis: 'documented', precision: 'passage', evidence: 'Letter to Vladimir Stasov, probably 12 June 1874, quoted in Wikipedia’s Pictures at an Exhibition article (composition history), which also gives Stasov’s account of the Promenade as Mussorgsky roving through the exhibition. The note sits over the loudest stretch of the movement (−5 to −7 dB, 0:25–0:30).' },
     { t: 33, kind: 'listen', title: 'A light, quick close', text: 'The level falls by about fourteen decibels at 0:35 and the attacks pick up again, over three a second, at a much quieter level. The Promenade thins into small, quick figures that lead directly into the next picture.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level −7.4 dB (0:30), −21.3 (0:35), −23.2 (0:40); onsets per second 1.0 (0:30), 3.4 (0:35). That the Promenade leads into the next movement: Philharmonia guide (“before leading us into the next movement”).' },
   ],
 

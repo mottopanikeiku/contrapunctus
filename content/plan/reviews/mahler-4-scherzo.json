@@ -1,41 +1,5 @@
 {
   "id": "mahler-4-scherzo",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[15].text; cues[15].evidence",
-      "severity": "major",
-      "problem": "The claimed forty-second near-absence of attacks from 5:05 and the stated level range do not match the report.",
-      "evidence": "MEAS: cache/analysis/mahler-4-scherzo.txt:88–96 gives 1.0, 2.0, 0.6 and 1.6 onsets/s at 5:05–5:20, with levels −16.6 to −21.5 dB. Only 5:25–5:45 is consistently sparse (0.0–0.4 onsets/s), at roughly −22 to −23 dB.",
-      "fix": "Retain the approximately placed rehearsal-9 context, but describe a retreat in stages from 5:05 and the sparse twenty-second 5:25–5:45 span; use the actual onset and level ranges above. Do not claim forty seconds of 0.0–0.2 onsets/s or −22 to −29 dB."
-    },
-    {
-      "where": "cues[3].evidence",
-      "severity": "major",
-      "problem": "The 0:58 listening cue has only score/general context and no selected-recording report anchor. Calling it a description rather than a timed event does not satisfy the verification brief’s recording-evidence requirement.",
-      "evidence": "MEAS: content/listen/mahler-4-scherzo.mjs:33; cache/analysis/mahler-4-scherzo.txt:37–41. EXT: local://VERIFY-BRIEF.md:7.",
-      "fix": "Add a genuine local report anchor for the active scherzo passage (for example the 0:50–1:10 activity windows), retaining the distinction between feature evidence and the score’s instrument colours. Keep col legno explicitly a later score colour, not an entrance detected at 0:58."
-    },
-    {
-      "where": "cues[7].evidence; cues[8].evidence; cues[12].evidence; transitions[1].evidence",
-      "severity": "minor",
-      "problem": "Several small numerical statements disagree with the report: the 2:15–2:30 onset range excludes the actual 1.4 at 2:30; the return’s rise is 0.4 at 2:25 to 1.4 at 2:30 (1.6 at 2:35); and four, not three, of the five loudest windows lie between 3:30 and 3:45.",
-      "evidence": "MEAS: cache/analysis/mahler-4-scherzo.txt:23,54–58,69–72.",
-      "fix": "Use 2:15–2:25 for the sparse pre-return windows; describe the rise from 0.4 at 2:25 to 1.4 at 2:30 and 1.6 at 2:35; change the loudest-window tally to four of five. Update the repeated range in transitions[1].evidence too."
-    },
-    {
-      "where": "cues[20].text/evidence",
-      "severity": "minor",
-      "problem": "The guide’s description of soft solo playing is repeated without distinguishing the quiet background/second solo staff from the first solo staff’s strong pizzicato punctuation at the cited return.",
-      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/4/40/IMSLP70999-PMLP58739-Mahler_-_Symphony_No._4_(orch._score).pdf — PDF p.73 (printed p.299), rehearsal 13, shows muted background strings at ppp while the first solo staff has pizzicato notes marked ff/sempre ff. The cached unannotated higher-resolution render /tmp/fava3/img/z-073.png makes the distinction clear.",
-      "fix": "Keep the documented quiet muted background and Basinger’s overall gentler interpretation, but do not imply that all solo playing is soft. Distinguish the first solo staff’s ff pizzicato punctuation, or omit the specific soft-solo claim rather than letting the secondary guide override this primary scoring."
-    },
-    {
-      "where": "cues[22].evidence",
-      "severity": "minor",
-      "problem": "A low measured level is described as literal silence by 8:30, which the report does not establish.",
-      "evidence": "MEAS: cache/analysis/mahler-4-scherzo.txt:129 gives −68.1 dB and zero detected attacks at 8:30, not an exact final-note or absolute-silence measurement.",
-      "fix": "Say that the report reaches near-silence/−68.1 dB by 8:30, without claiming an exact inaudibility cutoff."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

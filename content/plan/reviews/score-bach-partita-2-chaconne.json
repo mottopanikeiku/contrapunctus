@@ -1,22 +1,14 @@
 {
   "id": "bach-partita-2-chaconne",
-  "verdict": "fix",
+  "verdict": "pass",
   "reviewer": "VerS",
   "scope": "MEAS: independently recomputed gates, published bar-map, provenance and all 18 final-candidate pitch-energy overlays; not aural review.",
-  "defects": [
-    {
-      "basis": "MEAS",
-      "where": "docs/assets/data/bach-partita-2-chaconne/sheet/{index.json,p1.svg,p2.svg,p3.svg,p4.svg,p5.svg}",
-      "problem": "The score uses bars 1–257, but actual engraved glyph identities run 0–256. The index has 258 keys because a fabricated 1.01-unit-wide box after the last real bar is added as 257. Thus every aligned bar selects the following printed measure, and the final aligned bar selects blank space.",
-      "fix": "Repair the pickup/current-bar-number handling in the declared engraving wrapper or shared tagging logic, retaining the original source and its two-quarter opening bar 1 followed by bars 2–257. Regenerate and republish all SVGs and index.json so the first real note glyphs and their box are bar 1, the real closing D4 glyph and box are bar 257, and the SVG/index bar sets are exactly 1–257 with no blank derived endpoint. Do not shift the audio score or invent an extra engraved measure. If this cannot be repaired, remove score.json and sheet/ rather than leave the mismatched publication."
-    },
-    {
-      "basis": "MEAS",
-      "where": "tools/align/REPORT.md",
-      "problem": "No completed per-piece publication report was present in the inspected report at this handoff.",
-      "fix": "Append the per-id report after the sheet repair, with the final metrics below, the original incorrect pickup mapping and its resolution, the licensed BGA 1879 source, complete unrepeated Chaconne traversal, source-voice/arpeggio limitations, and the explicit 778.5 s pitch-decay display end distinct from the 782.245 s noisy RMS end. Report the actual corrected sheet count; do not describe the present dummy bar 257 as valid."
-    }
-  ],
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#bach-partita-2-chaconne",
+    "finding": "The completed per-piece report matches the final gates, source, order, pitch-decay boundary and corrected sheet. It records the rejected pickup mapping and detector limitations. Both initial findings are resolved; the audio score is byte-identical across the sheet repair."
+  },
   "gates": {
     "basis": "MEAS",
     "checks": "tools/align/work/bach-partita-2-chaconne-checks.json",
@@ -32,12 +24,12 @@
   "barMap": {
     "basis": "MEAS",
     "performedBars": 257,
-    "distinctEngravedIndexKeys": 258,
+    "distinctEngravedBars": 257,
     "sheetPages": 5,
-    "svgBarSetEqualsIndex": false,
+    "svgBarSetEqualsIndex": true,
     "barAnchoredListenPointers": 0,
     "unresolvedListenPointers": [],
-    "finding": "All 3123 published notes have valid voice/bar indices and positive duration; performed bar times strictly increase. Index membership alone falsely passes because the missing actual bar 257 is supplied by a blank derived box. The listened-work module uses seconds rather than structured bar anchors."
+    "finding": "All 3123 published notes have valid voice/bar indices and positive duration; performed bar times strictly increase. All five SVGs and index.json have exactly bars 1–257. Real opening glyphs are tagged 1 at negative pickup positions; the real final D4 glyphs are tagged 257 with a 9.04-unit box. First and last pages were visually inspected. The listening module uses seconds rather than structured bar anchors."
   },
   "overlays": {
     "basis": "MEAS",
@@ -61,7 +53,7 @@
       "work/bach-partita-2-chaconne-768-776.png",
       "work/bach-partita-2-chaconne-768.132-780.132.png"
     ],
-    "finding": "No gross audio pitch/order mismatch identified in the inspected overlays, including the quiet major section and final D4. This does not excuse the separate engraved bar-map defect. The final written hold ends at a documented pitched-decay display boundary, not a measured bow release."
+    "finding": "No gross audio pitch/order mismatch identified in the inspected overlays, including the quiet major section and final D4. The final written hold ends at a documented pitched-decay display boundary, not a measured bow release."
   },
   "source": {
     "basis": "EXT",
@@ -81,5 +73,5 @@
     "value": "provisional",
     "namedAuralReview": false
   },
-  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. Numerical success does not override the engraved mapping defect."
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The provisional label and disclosed quiet-region detector limitations must remain."
 }

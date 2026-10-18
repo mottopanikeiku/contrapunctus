@@ -1,0 +1,184 @@
+{
+  "id": "how-the-symphony-grew",
+  "title": "How the symphony grew",
+  "subtitle": "Larger arguments, changing orchestras, and the meaning of an ending",
+  "minutes": 24,
+  "hero": { "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg", "caption": "Gustav Klimt, Diesen Kuss der ganzen Welt, detail of the Beethoven Frieze, 1902. A later reception of the symphonic tradition, not an illustration of the excerpts." },
+  "intro": "Follow eight passages in which a symphony makes more of its material: by varying a tune, combining independent lines, enlarging a return or withholding a triumphant ending. Haydn supplies our starting model before we step back to Mozart’s 1788 symphonies; the Hall’s Form letters and Orchestra timelines distinguish what returns from who plays it. Except where score alignment is available, the markers identify approximate passages, not exact instrumental attacks.",
+  "stations": [
+    {
+      "id": "s1",
+      "title": "Haydn: enlargement without a new tune",
+      "listen": { "id": "haydn-94-andante", "from": 0, "to": 164 },
+      "art": null,
+      "score": null,
+      "map": { "composer": "haydn", "year": 1791 },
+      "edge": null,
+      "compare": null,
+      "text": "<p>Haydn’s Symphony No. 94 dates from his first London visit in 1791, when Johann Peter Salomon organised his concerts. Its Andante makes enlargement audible without replacing the tune: quiet strings establish the C-major phrases, the full orchestra interrupts, and the first variation adds decoration around the same harmonic route. In the <a href=\"../hall.html#haydn-94-andante\">Hall</a>, Form names these spans ‘Theme’ and ‘Var 1’; Orchestra shows the contrast between strings and the wind, brass and timpani reinforcement. The simple melody is a measuring device: remember its phrase endings beneath the extra notes. Here, increased activity does not require a larger formal outline.</p>",
+      "cues": [
+        { "at": 0, "text": "Keep the C-major theme’s regular phrase endings in mind; they will survive the added decoration." },
+        { "at": 38, "text": "In this opening paragraph, the quiet string statement gives way to the full-orchestra interruption; its exact attack is not aligned." },
+        { "at": 94, "text": "The first variation adds activity around the theme’s familiar harmonic route." }
+      ],
+      "sources": [
+        { "title": "Orrin Howard, LA Phil: Symphony No. 94 — London, date, forces and variations", "url": "https://www.laphil.com/works/symphony-no-94-surprise" },
+        { "title": "Haydn recording guide: Theme, Var 1 and the Orchestra timeline", "url": "../hall.html#haydn-94-andante" },
+        { "title": "Wikimedia Commons: Klimt’s 1902 Beethoven Frieze detail and public-domain image", "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Diesen_Kuss_der_ganzen_Welt.jpeg" }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Mozart: the return changes the route",
+      "listen": { "id": "mozart-40-molto-allegro", "from": 120, "to": 338 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>Step back three years to Mozart’s G-minor Symphony, K. 550. The development breaks the opening figure into material that can migrate between keys and parts. Form then changes from ‘Dev’ to ‘A′’, not simply ‘A’: the recapitulation expands the connecting passage, and ‘B′’ brings the second theme back in G minor rather than its earlier B♭ major. This is growth inside a return. Follow the Orchestra timeline’s exchanges between winds and strings rather than treating every stronger passage as a new section. Its roster deliberately excludes clarinets: Mozart left two scorings, and this recording’s version has not been established.</p>",
+      "cues": [
+        { "at": 130, "text": "Follow the opening cell as development changes its key and companions rather than presenting a complete new melody." },
+        { "at": 205, "text": "A′: the main material returns, but the route between the themes has changed." },
+        { "at": 280, "text": "B′: the second theme now belongs to G minor, not the exposition’s B♭ major." }
+      ],
+      "sources": [
+        { "title": "Matthew Lorenzon, ABC Classic: Mozart’s Symphony No. 40 and sonata form", "url": "https://www.abc.net.au/listen/classic/read-and-watch/music-reads/mozart-symphony-no-40-sonata-form/10160386" },
+        { "title": "Indianapolis Symphony: 1788 chronology and the two scorings", "url": "https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/" },
+        { "title": "K. 550 recording guide: provisional sections and common-part Orchestra roster", "url": "../hall.html#mozart-40-molto-allegro" }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Jupiter: more lines, not more minutes",
+      "listen": { "id": "mozart-41-finale", "from": 226, "to": 436.83 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>Mozart’s other 1788 answer is contrapuntal: give several melodies independent lives at the same time. We enter the <i>Jupiter</i> finale at the provisional ‘A′’ marker, where C major and the opening material return. Its four-note idea, C–D–F–E, remains recognisable against faster figures. In the coda, five thematic ideas enter combinations rather than taking turns as tune and accompaniment. Orchestra alternates fuller statements, including trumpets and timpani, with reduced textures that expose the lines. Growth here means more simultaneous relationships, not merely extra instruments. Follow one figure below the foreground; the final C-major chords unite parts that have retained their independence.</p>",
+      "cues": [
+        { "at": 245, "text": "A′ restores the home-key argument without removing the overlapping lines." },
+        { "at": 385, "text": "The coda combines five thematic ideas; follow a sustained line against a quicker figure." },
+        { "at": 420, "text": "The independent parts converge on the final C-major orchestral close." }
+      ],
+      "sources": [
+        { "title": "K. Dawn Grapes, Fort Collins Symphony: the 1788 Jupiter and its five-theme coda", "url": "https://fcsymphony.org/mozart-41-jupiter/" },
+        { "title": "Mozart, K. 551: full score, finale, bars 225–424", "url": "https://imslp.org/wiki/Symphony_No.41_in_C_major,_K.551_(Mozart,_Wolfgang_Amadeus)" },
+        { "title": "Jupiter recording guide: provisional A′, coda and orchestral changes", "url": "../hall.html#mozart-41-finale" },
+        { "title": "Internet Archive: Walter/Columbia transfer and complete finale duration", "url": "https://archive.org/details/lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0" }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Beethoven: one rhythm changes its job",
+      "listen": { "id": "beethoven-5-first", "from": 203.1, "to": 402.2 },
+      "art": null,
+      "score": { "listen": "beethoven-5-first", "bar": "125" },
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>The Fifth’s development begins at bar 125 by retaining the three-short-note rhythm while changing its pitches and destination. Exchanges contract into isolated chords; the return at bar 248 restores the opening motto with stronger wind and brass reinforcement. Yet ‘A′’ contains an interruption absent from the opening: the oboe’s unaccompanied Adagio in bar 268. At ‘B′’, bassoons take the call previously given to horns, and the lyrical theme moves from E♭ major to C major. Form and orchestration now revise one another. The score link begins this whole passage; its automatic alignment is provisional, particularly around the oboe’s fermata and short notes.</p>",
+      "cues": [
+        { "at": 203.1, "text": "Dev: the familiar short-note rhythm connects new pitches instead of restarting the exposition." },
+        { "at": 257.23, "text": "The exchanges contract into held chords; listen across the rests between strings and winds." },
+        { "at": 295.7, "text": "A′: the opening motto returns with wind and brass reinforcement." },
+        { "at": 314.496, "text": "Bar 268 contains the oboe’s unaccompanied Adagio; the exact cadenza release remains provisionally aligned." },
+        { "at": 349.7, "text": "B′: bassoons replace the earlier horns before the lyrical theme returns in C major." }
+      ],
+      "sources": [
+        { "title": "Mutopia 941: Beethoven’s Fifth, first-movement score and orchestral parts", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941" },
+        { "title": "Beethoven recording guide: bars 125, 196, 248, 268 and 303; Form and Orchestra", "url": "../hall.html#beethoven-5-first" },
+        { "title": "Published score alignment: bar times and alignment qualifications", "url": "../assets/data/beethoven-5-first/score.json" }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Brahms: the introduction stores the ending",
+      "listen": { "id": "brahms-symphony-1-finale", "from": 130, "to": 274 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": "beethoven-9-finale--brahms-1-finale-theme",
+      "compare": null,
+      "text": "<p>Brahms’s First Symphony, completed in 1876, makes its finale’s introduction a reserve of material. We hear ‘B’, the C-major horn call over string tremolo, followed by ‘C’, a compact chorale led by trombones and bassoons. Those letters are this recording’s local labels, not Beethoven’s thematic names. The main Allegro has still not begun. Its broad string tune will invite comparison with Beethoven’s ‘Ode to Joy’, but the chorale heard here supplies the later coda’s enlarged statement. Three distinct ideas carry different jobs across a longer span. The Orchestra timeline makes their separation visible: solo call, low-brass chords, then the string-led Allegro beyond this excerpt.</p>",
+      "cues": [
+        { "at": 190, "text": "Hear the long wind call against rapid string tremolo; the background moves faster than the melody." },
+        { "at": 228, "text": "Keep this compact trombone-and-bassoon chorale distinct from the call: it returns with greater force in the coda." },
+        { "at": 266, "text": "The preparation recedes towards the main Allegro, which follows after this excerpt." }
+      ],
+      "sources": [
+        { "title": "Brahms-Institut: Symphony No. 1, first-edition finale score", "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_erstdrucke/op_068_part_s_043.html" },
+        { "title": "Kelly Dean Hansen: Op. 68, horn call, chorale and finale design", "url": "http://www.kellydeanhansen.com/opus68.html" },
+        { "title": "Boston Symphony: Brahms’s First and the Beethoven resemblance", "url": "https://www.bso.org/works/symphony-no-1-in-c-minor" },
+        { "title": "Brahms finale guide: B, C, A and the Orchestra timeline", "url": "../hall.html#brahms-symphony-1-finale" }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Bruckner: a small figure fills blocks",
+      "listen": { "id": "bruckner-7-scherzo", "from": 0, "to": 198 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>The Seventh’s scherzo builds larger spans from a fast repeated string figure. A trumpet call rises above it; later the Orchestra timeline exposes trombone-and-tuba colour inside a quieter continuation before the next accumulation. Form marks the opening ‘A’ and that continuation ‘B’. The slower F-major trio, labelled ‘C’, follows our excerpt, after which ‘A’ returns: a ternary scherzo-and-trio design contains smaller contrasting blocks. Added brass does not mean permanent loudness. The bass tuba can join a quiet chorale as well as a forceful tutti. Do not look for Wagner tubas here: they belong to other movements of the Seventh, not this scherzo’s roster.</p>",
+      "cues": [
+        { "at": 0, "text": "Follow the small repeated figure beneath the larger themes and orchestral blocks." },
+        { "at": 40, "text": "The opening builds sustained force without abandoning its repeated rhythmic material." },
+        { "at": 115, "text": "A busy surface continues at a lower level; motion and loudness are different measures of scale." },
+        { "at": 155, "text": "Another accumulation grows from familiar material before the slower trio begins beyond this excerpt." }
+      ],
+      "sources": [
+        { "title": "Bruckner, Seventh Symphony: 1885 full score, Scherzo and Trio", "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)" },
+        { "title": "Steve Lacoste, LA Phil: Bruckner’s Seventh and its orchestration", "url": "https://www.laphil.com/works/symphony-no-7-bruckner" },
+        { "title": "Bruckner scherzo guide: A, B, C and movement-specific Orchestra roster", "url": "../hall.html#bruckner-7-scherzo" }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Tchaikovsky: the ending loses its forces",
+      "listen": { "id": "tchaikovsky-6-finale", "from": 486, "to": 618.97 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>In February 1893 Tchaikovsky told Vladimir Davydov that his Sixth would end with a prolonged Adagio rather than a noisy Allegro. We enter the finale’s quiet low-brass transition, then ‘B′’: a melody previously heard in D major returns in B minor. The ending still has one swell before the forces contract towards low strings and a bass pulse. Read the Orchestra timeline as subtraction, not an invitation to expect a final tutti. The symphony’s expanded resources make their withdrawal consequential. Tchaikovsky kept the programme private; the planned slow ending is documented, whereas treating these final bars as a prediction of his death is not.</p>",
+      "cues": [
+        { "at": 524, "text": "B′ restores the contrasting melody in B minor, over the low tonic foundation." },
+        { "at": 545, "text": "The closing span has one more swell; it does not fade continuously from its first bar." },
+        { "at": 585, "text": "Follow the remaining phrase and supporting pulse as the texture loses weight." },
+        { "at": 608, "text": "This slow movement ends the symphony; no subsequent fast finale will reverse its withdrawal." }
+      ],
+      "sources": [
+        { "title": "Tchaikovsky Research: Symphony No. 6 and Letter 4865, 11/23 February 1893", "url": "https://en.tchaikovsky-research.net/pages/Symphony_No._6" },
+        { "title": "Modeste Tchaikovsky, The Life and Letters, edited by Rosa Newmarch, pp. 702–703: February 1893 letter to Vladimir Davydov", "url": "https://www.gutenberg.org/files/45259/45259-h/45259-h.htm#page_702" },
+        { "title": "Boston Symphony: the finale’s low-brass transition and B-minor ending", "url": "https://www.bso.org/works/tchaikovsky-symphony-no-6" },
+        { "title": "Finale guide: approximate Link and B′ sections, closing Orchestra reduction", "url": "../hall.html#tchaikovsky-6-finale" }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Mahler: time remains after the climax",
+      "listen": { "id": "mahler-9-adagio", "from": 950, "to": 1110.3 },
+      "art": null,
+      "score": null,
+      "map": null,
+      "edge": null,
+      "compare": null,
+      "text": "<p>Mahler’s Ninth also ends slowly, but its final page changes continuity itself. The Form map has already passed through ‘A’, ‘B’, altered returns and another development; we arrive in the coda’s Adagissimo. Only strings remain, beginning this page with muted second violins. Short phrases and rests replace the earlier broad paragraphs, and D♭ major persists without a forceful closing stroke. In Orchestra, the large available roster contracts to a few string groups. Compare Haydn’s added decoration with these removals: the symphonic argument can grow in the amount of time a fragment requires, even while the number of sounding parts diminishes.</p>",
+      "cues": [
+        { "at": 960, "text": "Adagissimo: strings alone continue in fragments separated by rests." },
+        { "at": 1080, "text": "D♭ major arrives without a forceful final stroke; keep listening through the releases and intervening quiet." }
+      ],
+      "sources": [
+        { "title": "Mahler, Ninth Symphony: first-edition score, finale, especially printed page 180", "url": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP353450-PMLP48640-Mahler_Symphony_9_.pdf" },
+        { "title": "Lew Smoley, Mahler Foundation: finale’s subjects, returns and final string page", "url": "https://mahlerfoundation.org/mahler/listening-guide/listening-guide-movement-4-adagio-sehr-langsam-und-noch-zuruckhaltend/" },
+        { "title": "Mahler finale guide: Form sections and the final Orchestra reduction", "url": "../hall.html#mahler-9-adagio" }
+      ]
+    }
+  ]
+}

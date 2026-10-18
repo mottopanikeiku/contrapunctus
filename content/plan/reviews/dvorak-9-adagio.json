@@ -1,13 +1,5 @@
 {
   "id": "dvorak-9-adagio",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "orchestra.timeline",
-      "severity": "major",
-      "problem": "[EXT] The introduction includes timpani and later full brass, and the first Allegro climax includes trombones. These desks are omitted from their corresponding states. [INFERENCE] The 398-second horn/string-led state also persists across both quieter recapitulation themes until 550 seconds.",
-      "evidence": "Score PDF pp. 5–7, 13, 54–64: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf ; cache/analysis/dvorak-9-adagio.txt:39–44,57,115–134; docs/assets/js/room.js:486–498.",
-      "fix": "Add report-anchored passage states for the introduction’s stronger timpani/brass gestures and subsequent reduction, and the main-subject tutti including trombones. Add separate recapitulation states around the existing 440- and 520-second section boundaries, restoring the relevant wind-led secondary and closing-theme textures instead of retaining the 398-second state. Keep timings approximate and score-backed."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

@@ -8,16 +8,25 @@ audio.crossOrigin = 'anonymous';   // Commons sends CORS headers; required for t
 audio.preload = 'none';
 
 let programme = null;
+let programmeRequest = null;
 let index = -1;
 let pendingT = 0;
 let graph = null;
 let concert = localStorage.getItem('cp-concert') !== '0';
 
 async function getProgramme() {
-  if (!programme) {
+  if (!programmeRequest) {
     const url = new URL(`assets/listen/programme.json?v=${document.documentElement.dataset.prog ?? ''}`, ROOT);
-    programme = await fetch(url).then((r) => r.json());
+    programmeRequest = fetch(url).then((r) => {
+      if (!r.ok) throw new Error(`Programme: HTTP ${r.status}`);
+      return r.json();
+    }).then(({ composers, eras, rows }) => {
+      programme = rows.map(([id, stream, duration, composer, work, movement, set, concert, era]) => ({
+        id, stream, duration, composer: composers[composer], work, movement, set, concert: !!concert, era: eras[era] ?? null,
+      }));
+    }).catch((error) => { programmeRequest = null; throw error; });
   }
+  await programmeRequest;
   return programme;
 }
 
@@ -56,7 +65,7 @@ export const player = {
     if (i !== index) {
       index = i;
       pendingT = 0;
-      audio.preload = play ? 'auto' : 'metadata';
+      audio.preload = 'none'; // Selecting/restoring a recording must not request audio before Play.
       audio.src = P[i].stream;
       emit('track', P[i]);
       if ('mediaSession' in navigator) {
@@ -70,6 +79,7 @@ export const player = {
   },
   async play() {
     if (index < 0) await player.load(0);
+    audio.preload = 'auto';
     const g = ensureGraph();
     try { await g.ctx.resume(); } catch {}
     try { await audio.play(); emit('blocked', false); return true; }

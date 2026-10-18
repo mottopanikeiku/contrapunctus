@@ -49,35 +49,72 @@ if (np) {
 
 // ================================================================== search
 const dlg = $('dialog.srch');
-let index = null;
+let indexRequest = null, searchVersion = 0;
+const searchShards = new Map();
 const fold = (s) => (s ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-async function openSearch() {
+const escapeHtml = (s = '') => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+function searchIndex() {
+  return indexRequest ??= fetch(new URL('assets/search.json', ROOT)).then((r) => {
+    if (!r.ok) throw new Error(`Search: HTTP ${r.status}`);
+    return r.json();
+  }).then((index) => {
+    let previous = '';
+    index.w = index.w.map((packed) => (previous = previous.slice(0, packed.codePointAt(0) - 32) + packed.slice(1)));
+    index.parts = index.w.map((word) => word.split(/[^a-z0-9]+/));
+    return index;
+  }).catch((error) => { indexRequest = null; throw error; });
+}
+function openSearch() {
   if (!dlg) return;
   dlg.showModal();
   const input = $('input', dlg);
   input.value = ''; render('');
   input.focus();
-  if (!index) index = await fetch(new URL('assets/search.json', ROOT)).then((r) => r.json()).catch(() => []);
+  // The first open starts just the compact index, never recordings or display shards.
+  searchIndex().catch(() => {});
 }
-function render(q) {
-  const box = $('.srch-results', dlg);
+async function render(q) {
+  const version = ++searchVersion, box = $('.srch-results', dlg);
   const terms = fold(q).split(/\s+/).filter(Boolean);
   if (!terms.length) { box.innerHTML = '<li class="srch-hint">A composer (Ravel), a work (Boléro), a recording, an idea (fugue, sonata form, Tristan chord).</li>'; return; }
-  if (!index) { box.innerHTML = '<li class="srch-hint">Loading…</li>'; return; }
-  const hits = [];
-  for (const e of index) {
-    let s = 0;
-    for (const t of terms) {
-      if (fold(e.title).startsWith(t)) s += 6;
-      else if (e.k.split(/[^a-z0-9]+/).some((w) => w.startsWith(t))) s += 3;
-      else if (e.k.includes(t)) s += 1;
-      else { s = -1; break; }
+  box.innerHTML = '<li class="srch-hint">Loading…</li>';
+  try {
+    const index = await searchIndex();
+    if (version !== searchVersion) return;
+    const total = new Uint16Array(index.b.length), matched = new Uint16Array(index.b.length);
+    for (const term of terms) {
+      const scores = new Uint8Array(index.b.length);
+      for (let i = 0; i < index.w.length; i++) {
+        const word = index.w[i];
+        if (!word.includes(term)) continue;
+        const title = word.startsWith(term), value = index.parts[i].some((w) => w.startsWith(term)) ? 3 : 1;
+        let id = 0;
+        for (const code of index.p[i]) {
+          const packed = code.codePointAt(0) - 32, flags = packed & 3;
+          id += Math.floor(packed / 4);
+          const score = title && (flags & 2) ? 6 : flags & 1 ? value : 0;
+          if (score > scores[id]) scores[id] = score;
+        }
+      }
+      for (let id = 0; id < scores.length; id++) if (scores[id]) { total[id] += scores[id]; matched[id]++; }
     }
-    const type = e.type.toLowerCase();
-    if (s > 0) hits.push([s + (type === 'composer' ? 2 : type === 'recording' ? 1 : 0), e]);
+    const hits = [];
+    for (let id = 0; id < total.length; id++) if (matched[id] === terms.length) hits.push(id);
+    hits.sort((a, b) => total[b] + index.b[b] - total[a] - index.b[a] || a - b);
+    const best = hits.slice(0, 24);
+    const rows = await Promise.all(best.map(async (id) => {
+      const shard = Math.floor(id / index.size);
+      if (!searchShards.has(shard)) searchShards.set(shard, fetch(new URL(`assets/search/${shard}.json?v=${index.v}`, ROOT)).then((r) => {
+        if (!r.ok) throw new Error(`Search results: HTTP ${r.status}`);
+        return r.json();
+      }).catch((error) => { searchShards.delete(shard); throw error; }));
+      return (await searchShards.get(shard))[id % index.size];
+    }));
+    if (version !== searchVersion) return;
+    box.innerHTML = rows.map(([type, title, sub, url], i) => `<li><a href="${escapeHtml(new URL(url, ROOT).href)}"${i === 0 ? ' class="sel"' : ''}><span class="srch-t">${escapeHtml(type)}</span><span class="srch-n">${escapeHtml(title)}</span><span class="srch-s">${escapeHtml(sub)}</span></a></li>`).join('') || '<li class="srch-hint">Nothing found. Try fewer words.</li>';
+  } catch {
+    if (version === searchVersion) box.innerHTML = '<li class="srch-hint">Search could not load. Type again to retry.</li>';
   }
-  hits.sort((a, b) => b[0] - a[0]);
-  box.innerHTML = hits.slice(0, 24).map(([, e], i) => `<li><a href="${new URL(e.url, ROOT).href}"${i === 0 ? ' class="sel"' : ''}><span class="srch-t">${e.type}</span><span class="srch-n">${e.title}</span><span class="srch-s">${e.sub ?? ''}</span></a></li>`).join('') || '<li class="srch-hint">Nothing found. Try fewer words.</li>';
 }
 if (dlg) {
   $('input', dlg).addEventListener('input', (e) => render(e.target.value));
@@ -116,19 +153,72 @@ async function mount() {
 
 const sameSite = (u) => u.origin === location.origin && u.pathname.startsWith(ROOT.pathname) && (/\.html$/.test(u.pathname) || u.pathname.endsWith('/'));
 
+// Share in-flight requests between hover, touch and navigation. Bound both lifetime and memory;
+// large pages such as the source register must not turn a long visit into a document archive.
+const pageCache = new Map();
+let pageBytes = 0;
+function pageHTML(url) {
+  const key = new URL(url); key.hash = '';
+  let entry = pageCache.get(key.href);
+  if (entry && Date.now() - entry.at < 600000) return entry.request;
+  if (entry) { pageBytes -= entry.bytes; pageCache.delete(key.href); }
+  entry = { at: Date.now(), bytes: 0 };
+  entry.request = fetch(key.href).then((r) => { if (!r.ok) throw new Error(`Page: HTTP ${r.status}`); return r.text(); }).then((html) => {
+    if (pageCache.get(key.href) === entry) {
+      entry.bytes = html.length * 2; pageBytes += entry.bytes;
+      while (pageCache.size > 8 || pageBytes > 4000000) {
+        const [oldKey, old] = pageCache.entries().next().value;
+        pageBytes -= old.bytes; pageCache.delete(oldKey);
+      }
+    }
+    return html;
+  }).catch((error) => { if (pageCache.get(key.href) === entry) pageCache.delete(key.href); throw error; });
+  pageCache.set(key.href, entry);
+  return entry.request;
+}
+function prefetchLink(event) {
+  const connection = navigator.connection;
+  if (connection?.saveData || /(^|-)2g$/.test(connection?.effectiveType ?? '')) return;
+  const a = event.target.closest?.('a[href]');
+  if (!a || a.target || a.hasAttribute('download') || a.closest('.frame')) return;
+  const url = new URL(a.href);
+  if (!sameSite(url) || (url.pathname === location.pathname && url.search === location.search)) return;
+  pageHTML(url).catch(() => {});
+}
+document.addEventListener('pointerover', prefetchLink, { passive: true });
+document.addEventListener('focusin', prefetchLink);
+document.addEventListener('touchstart', prefetchLink, { passive: true });
+// New-tab links bypass the persistent router. Prefetch documents, not prerendered players.
+if (HTMLScriptElement.supports?.('speculationrules') && !navigator.connection?.saveData) {
+  const rules = document.createElement('script');
+  rules.type = 'speculationrules';
+  rules.textContent = JSON.stringify({ prefetch: [{ source: 'document', where: { and: [
+    { href_matches: `${ROOT.origin}${ROOT.pathname}*.html*` }, { selector_matches: 'a[target="_blank"]:not([download])' },
+  ] }, eagerness: 'moderate' }] });
+  document.head.append(rules);
+}
+
 async function syncStyles(doc) {
   const want = $$('link[rel="stylesheet"]', doc.head).map((l) => new URL(l.getAttribute('href'), doc.baseURI || location.href).href);
   const have = $$('link[rel="stylesheet"]', document.head);
   const loads = [];
   for (const href of want) {
-    if (have.some((l) => l.href === href)) continue;
-    const l = document.createElement('link');
-    l.rel = 'stylesheet'; l.href = href;
-    loads.push(new Promise((res) => { l.onload = l.onerror = res; }));
-    document.head.append(l);
+    let l = have.find((link) => link.href === href);
+    if (l?.sheet) continue;
+    const fresh = !l;
+    if (fresh) { l = document.createElement('link'); l.rel = 'stylesheet'; l.href = href; l.media = 'not all'; }
+    loads.push(new Promise((resolve) => {
+      l.addEventListener('load', resolve, { once: true });
+      l.addEventListener('error', resolve, { once: true });
+    }));
+    if (fresh) document.head.append(l);
   }
   await Promise.all(loads);
-  return () => have.forEach((l) => { if (!want.includes(l.href)) l.remove(); });
+  return () => {
+    // Retain parsed stylesheets for the return trip without letting old rules bleed into the page.
+    for (const l of $$('link[rel="stylesheet"]', document.head)) l.media = want.includes(l.href) ? 'all' : 'not all';
+    $$('style[data-cp-critical]', document.head).forEach((style) => style.remove());
+  };
 }
 
 export async function navigate(href, { push = true } = {}) {
@@ -141,7 +231,7 @@ export async function navigate(href, { push = true } = {}) {
   }
   const my = ++token;
   let html;
-  try { const r = await fetch(url.href); if (!r.ok) throw 0; html = await r.text(); } catch { location.href = url.href; return; }
+  try { html = await pageHTML(url); } catch { location.href = url.href; return; }
   if (my !== token) return;
   const doc = new DOMParser().parseFromString(html, 'text/html');
   const base = doc.createElement('base'); base.href = url.href; doc.head.prepend(base);
@@ -167,7 +257,7 @@ export async function navigate(href, { push = true } = {}) {
   document.body.setAttribute('style', doc.body.getAttribute('style') ?? '');
   if (doc.body.dataset.modules) document.body.dataset.modules = doc.body.dataset.modules; else delete document.body.dataset.modules;
   document.title = doc.title;
-  for (const k of ['site', 'room', 'prog']) if (doc.documentElement.dataset[k]) document.documentElement.dataset[k] = doc.documentElement.dataset[k];
+  for (const [key, value] of Object.entries(doc.documentElement.dataset)) document.documentElement.dataset[key] = value;
   dropOld();
   if (push) history.pushState(null, '', url.href);
   if (url.hash) document.getElementById(decodeURIComponent(url.hash.slice(1)))?.scrollIntoView(); else scrollTo(0, 0);
@@ -194,3 +284,12 @@ try {
   if (last && !document.body.classList.contains('room')) player.load(last.id, { t: last.t }).then(npTrack);
 } catch {}
 mount();
+
+// No audio or cross-origin resources enter the offline cache. Activation never interrupts playback.
+if ('serviceWorker' in navigator) {
+  const register = () => navigator.serviceWorker.register(new URL('../../sw.js', import.meta.url), {
+    scope: new URL('../../', import.meta.url).pathname, updateViaCache: 'none',
+  }).catch((error) => console.warn('Offline cache unavailable:', error));
+  if (document.readyState === 'complete') register();
+  else window.addEventListener('load', register, { once: true });
+}

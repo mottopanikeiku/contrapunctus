@@ -15,7 +15,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - ii. il vecchio castello - andante.ogg' },
-  intro: 'A troubadour sings before a medieval castle, over a bass note that never leaves G♯. Listen to the song and to the drone beneath it.',
+  intro: 'A troubadour sings before a medieval castle, over a bass note that never leaves G♯. Listen to the song and to the drone beneath it. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How does one repeated bass note hold a long melody in place?',
 
   sections: [

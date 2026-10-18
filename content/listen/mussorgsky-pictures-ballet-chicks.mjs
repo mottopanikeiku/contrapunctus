@@ -15,7 +15,7 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - v. ballet des poussins dans leurs coques - scherzino. vivo leggiero.ogg' },
-  intro: 'Children in eggshell costumes dance in a ballet: a quick scherzino, a trio of chirping trills, then the scherzino again without the trio. Listen for the trills.',
+  intro: 'Children in eggshell costumes dance in a ballet: a quick scherzino, a trio of chirping trills, then the scherzino again without the trio. Listen for the trills. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
   question: 'How do trills and tiny repeated notes turn a costume design into music?',
 
   sections: [

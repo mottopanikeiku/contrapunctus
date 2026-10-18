@@ -1,0 +1,81 @@
+{
+  "id": "brahms-3-poco-allegretto",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, source/report and visual review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#brahms-3-poco-allegretto",
+    "finding": "The report matches recomputed gates, the repaired split-measure timing, source identity/transpositions, complete pickup-to-final traversal, 4037 notes / 10 grouped source voices and six-page pack. The published run records the guarded per-note-tie converter; no aural verification is claimed."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/brahms-3-poco-allegretto-checks.json",
+    "primaryMedianSeconds": 0.09092720114620079,
+    "primaryP95Seconds": 0.42285881223654087,
+    "maximumAnchorDeviationSeconds": 0.10677601101789946,
+    "maximumLocalRegionMedianSeconds": 0.07641361657135803,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 164,
+    "distinctEngravedBars": 164,
+    "sheetPages": 6,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All six SVGs and index.json agree on 0–163, including real initial eighth-note pickup 0 and final bar 163; no derived boxes. All 4037 note indices resolve, durations are positive and bar times strictly increase. Printed first and last pages were inspected. Listening cues use seconds rather than structured bar references and explicitly qualify their coarse section locations."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/brahms-3-poco-allegretto-0-8.76.png",
+      "work/brahms-3-poco-allegretto-24-32.png",
+      "work/brahms-3-poco-allegretto-80-88.png",
+      "work/brahms-3-poco-allegretto-152-160.png",
+      "work/brahms-3-poco-allegretto-155.14-167.14.png",
+      "work/brahms-3-poco-allegretto-192-200.png",
+      "work/brahms-3-poco-allegretto-200-208.png",
+      "work/brahms-3-poco-allegretto-248-256.png",
+      "work/brahms-3-poco-allegretto-336-344.png",
+      "work/brahms-3-poco-allegretto-344-352.png",
+      "work/brahms-3-poco-allegretto-360-368.png",
+      "work/brahms-3-poco-allegretto-362.358-370.079.png",
+      "work/brahms-3-poco-allegretto-72-80.png",
+      "work/brahms-3-poco-allegretto-224-232.png",
+      "work/brahms-3-poco-allegretto-352-360.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified, including quiet held changes at 200–208 s, the closing pause/next chord around 358.1 s and actual final source attack near 366.36 s. Written holds are not measured instrumental releases."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/MarkGotham/Hauptstimme/tree/main/data/Brahms%2C_Johannes/Symphony_No.3%2C_Op.90/3",
+    "opened": true,
+    "edition": "IMSLP #317593",
+    "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from the derivative",
+    "license": "CC0 1.0 Universal",
+    "licenseEvidenceUrl": "https://github.com/MarkGotham/Hauptstimme#licence"
+  },
+  "retainedSourceInspection": {
+    "basis": "MEAS",
+    "path": "tools/align/sources/brahms-3-poco-allegretto/Brahms_Op.90_3.mxl",
+    "finding": "Original XML identifies IMSLP #317593. Both C-horn parts P9/P10 explicitly declare octave-change −1 and use treble clef, so another blanket −12 correction would be wrong. The retained full source, not its separate extracted melody, supplies the score."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete third movement in original orchestral scoring, pickup 0 and bars 1–163 once. Split XML fragments represent contiguous parts of bars, not inserted rests or repeated sections. Ten grouped source section identities do not claim recovered recorded stems; no gross cut or arrangement mismatch identified.",
+    "physicalPerformingEdition": "Unknown; the cited source identifier is not claimed as the recording’s physical performing score. The listening module retains its disputed ensemble attribution."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. Source transpositions and provisional alignment do not independently identify each recorded player or instrument."
+}

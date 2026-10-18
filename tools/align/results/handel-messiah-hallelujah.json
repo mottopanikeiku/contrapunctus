@@ -1,0 +1,806 @@
+{
+  "uniqueScoreAttacks": 722,
+  "audioDetectedOnsets": 374,
+  "medianAbsoluteOnsetDeviation": 0.10068292565253145,
+  "noteWeightedMedianDeviation": 0.05250108554059807,
+  "p95AbsoluteOnsetDeviation": 0.663115501519751,
+  "fractionWithin150ms": 0.5955678670360111,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 24,
+      "median": 0.0899276306267186,
+      "p95": 0.36201794760457373,
+      "max": 0.5150325662179736,
+      "adaptiveMedian": 0.03517006802721134,
+      "adaptiveP95": 0.25615728277126204
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 32,
+      "median": 0.04279876489602863,
+      "p95": 0.31444507164568014,
+      "max": 0.370192984995418,
+      "adaptiveMedian": 0.03973416316881284,
+      "adaptiveP95": 0.28119520432286427
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 30,
+      "median": 0.03562744246634608,
+      "p95": 0.26400299126743043,
+      "max": 0.5282105466299996,
+      "adaptiveMedian": 0.02449703285569349,
+      "adaptiveP95": 0.08776243547064036
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 18,
+      "median": 0.21038838230327883,
+      "p95": 0.7849849471703543,
+      "max": 0.7958450330486784,
+      "adaptiveMedian": 0.024933661407827046,
+      "adaptiveP95": 0.1460742751001117
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 23,
+      "median": 0.02873112365513464,
+      "p95": 1.5330170309258475,
+      "max": 1.5934095624065208,
+      "adaptiveMedian": 0.027600714044481833,
+      "adaptiveP95": 0.08390437593476886
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 32,
+      "median": 0.04200414917739792,
+      "p95": 0.23559859120953774,
+      "max": 0.36878129975394813,
+      "adaptiveMedian": 0.05039368939064914,
+      "adaptiveP95": 0.07861861340281137
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 46,
+      "median": 0.13586011000144183,
+      "p95": 0.5278419452887491,
+      "max": 0.7842408452742831,
+      "adaptiveMedian": 0.03653929656968913,
+      "adaptiveP95": 0.11059825348579189
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 46,
+      "median": 0.12281227384571025,
+      "p95": 0.7694495103005767,
+      "max": 0.8747165532879819,
+      "adaptiveMedian": 0.031010758913492253,
+      "adaptiveP95": 0.1196779562888981
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 34,
+      "median": 0.10431852173493894,
+      "p95": 0.42008657789357623,
+      "max": 0.5184609446615553,
+      "adaptiveMedian": 0.04029044241810453,
+      "adaptiveP95": 0.0886722632315397
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 16,
+      "median": 0.0623119602451041,
+      "p95": 0.5323090654701588,
+      "max": 0.561437738215858,
+      "adaptiveMedian": 0.0404146765089024,
+      "adaptiveP95": 0.06881350412504261
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 18,
+      "median": 0.08579123848120673,
+      "p95": 0.5428950644087321,
+      "max": 0.5936006175519992,
+      "adaptiveMedian": 0.03400395619240726,
+      "adaptiveP95": 0.06895804988661919
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 26,
+      "median": 0.0429256525305135,
+      "p95": 0.4975336517585802,
+      "max": 0.9568504848748063,
+      "adaptiveMedian": 0.03344285231823818,
+      "adaptiveP95": 0.06700487287113788
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 33,
+      "median": 0.20475322043712652,
+      "p95": 0.5959486659912155,
+      "max": 0.954938968495199,
+      "adaptiveMedian": 0.02744632604813546,
+      "adaptiveP95": 0.07913870796545266
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 25,
+      "median": 0.08785014715107309,
+      "p95": 0.674665508756692,
+      "max": 0.7849326964828407,
+      "adaptiveMedian": 0.03723741979061401,
+      "adaptiveP95": 0.1032873064119144
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 27,
+      "median": 0.045084189704255095,
+      "p95": 0.5075993631495166,
+      "max": 0.6675650118203293,
+      "adaptiveMedian": 0.02830896897765456,
+      "adaptiveP95": 0.07938635596081979
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 28,
+      "median": 0.030833212717702452,
+      "p95": 0.39464881555457915,
+      "max": 0.46843633907462845,
+      "adaptiveMedian": 0.02210546629999044,
+      "adaptiveP95": 0.08524173782989235
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 25,
+      "median": 0.0848593621846021,
+      "p95": 0.40196613113330376,
+      "max": 0.44650552419545875,
+      "adaptiveMedian": 0.024088387127903843,
+      "adaptiveP95": 0.1113464563130094
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 26,
+      "median": 0.15722391084094056,
+      "p95": 0.46248757659090245,
+      "max": 0.7050841897042233,
+      "adaptiveMedian": 0.027761374053170584,
+      "adaptiveP95": 0.07455999421044623
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 29,
+      "median": 0.15228253003331815,
+      "p95": 0.47650967337289096,
+      "max": 0.7256303372412845,
+      "adaptiveMedian": 0.04143146620350535,
+      "adaptiveP95": 0.07772837361895313
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 35,
+      "median": 0.07649587494574916,
+      "p95": 0.4798682877406319,
+      "max": 0.6670685579196345,
+      "adaptiveMedian": 0.041140058860406725,
+      "adaptiveP95": 0.10513764654799032
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 49,
+      "median": 0.10934240362809078,
+      "p95": 0.48051970859264587,
+      "max": 0.6822009938726978,
+      "adaptiveMedian": 0.042059149901092496,
+      "adaptiveP95": 0.12192666570173281
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 50,
+      "median": 0.2097814444927053,
+      "p95": 1.2178477830848675,
+      "max": 1.4187861243788404,
+      "adaptiveMedian": 0.049930284170386585,
+      "adaptiveP95": 0.1543211752786064
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 42,
+      "median": 0.06234500892554706,
+      "p95": 0.5090503690838255,
+      "max": 0.7810295749505656,
+      "adaptiveMedian": 0.03588845467264434,
+      "adaptiveP95": 0.09867327640276213
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 7,
+      "median": 0.40565397790322777,
+      "p95": 1.352062623631033,
+      "max": 1.5877879094900607,
+      "adaptiveMedian": 0.03205094803880115,
+      "adaptiveP95": 0.26655425290682894
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 1,
+      "median": 0.1332387706854945,
+      "p95": 0.1332387706854945,
+      "max": 0.1332387706854945,
+      "adaptiveMedian": 0.005529020118615335,
+      "adaptiveP95": 0.005529020118615335
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 7,
+      "median": 0.40565397790322777,
+      "p95": 1.352062623631033,
+      "max": 1.5877879094900607,
+      "adaptiveMedian": 0.03205094803880115,
+      "adaptiveP95": 0.26655425290682894
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 18,
+      "median": 0.21038838230327883,
+      "p95": 0.7849849471703543,
+      "max": 0.7958450330486784,
+      "adaptiveMedian": 0.024933661407827046,
+      "adaptiveP95": 0.1460742751001117
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 50,
+      "median": 0.2097814444927053,
+      "p95": 1.2178477830848675,
+      "max": 1.4187861243788404,
+      "adaptiveMedian": 0.049930284170386585,
+      "adaptiveP95": 0.1543211752786064
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 33,
+      "median": 0.20475322043712652,
+      "p95": 0.5959486659912155,
+      "max": 0.954938968495199,
+      "adaptiveMedian": 0.02744632604813546,
+      "adaptiveP95": 0.07913870796545266
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 26,
+      "median": 0.15722391084094056,
+      "p95": 0.46248757659090245,
+      "max": 0.7050841897042233,
+      "adaptiveMedian": 0.027761374053170584,
+      "adaptiveP95": 0.07455999421044623
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 32,
+      "median": 0.04200414917739792,
+      "p95": 0.23559859120953774,
+      "max": 0.36878129975394813,
+      "adaptiveMedian": 0.05039368939064914,
+      "adaptiveP95": 0.07861861340281137
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 50,
+      "median": 0.2097814444927053,
+      "p95": 1.2178477830848675,
+      "max": 1.4187861243788404,
+      "adaptiveMedian": 0.049930284170386585,
+      "adaptiveP95": 0.1543211752786064
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 49,
+      "median": 0.10934240362809078,
+      "p95": 0.48051970859264587,
+      "max": 0.6822009938726978,
+      "adaptiveMedian": 0.042059149901092496,
+      "adaptiveP95": 0.12192666570173281
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 29,
+      "median": 0.15228253003331815,
+      "p95": 0.47650967337289096,
+      "max": 0.7256303372412845,
+      "adaptiveMedian": 0.04143146620350535,
+      "adaptiveP95": 0.07772837361895313
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 35,
+      "median": 0.07649587494574916,
+      "p95": 0.4798682877406319,
+      "max": 0.6670685579196345,
+      "adaptiveMedian": 0.041140058860406725,
+      "adaptiveP95": 0.10513764654799032
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 32.0,
+      "meanCosine": 0.6228507306877844
+    },
+    {
+      "start": 184.0,
+      "meanCosine": 0.6475629013361419
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.6534541750104674
+    },
+    {
+      "start": 24.0,
+      "meanCosine": 0.6597511893650589
+    },
+    {
+      "start": 88.0,
+      "meanCosine": 0.6853271420954011
+    }
+  ],
+  "sections": [
+    {
+      "bar": "17",
+      "occ": 1,
+      "editorial": 36,
+      "aligned": 35.48468085106383,
+      "difference": -0.5153191489361717,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "51",
+      "occ": 1,
+      "editorial": 104,
+      "aligned": 104.88212765957446,
+      "difference": 0.8821276595744649,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "68",
+      "occ": 1,
+      "editorial": 138,
+      "aligned": 137.9608510638298,
+      "difference": -0.03914893617019288,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "93",
+      "occ": 1,
+      "editorial": 186,
+      "aligned": 187.45191489361704,
+      "difference": 1.4519148936170438,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.22,
+      "nearestOnsetDeviation": 0.13836734693877561
+    },
+    {
+      "label": "middle",
+      "bar": "48",
+      "occ": 1,
+      "scoreQ": 190.0,
+      "audioSeconds": 99.95702127659574,
+      "nearestOnsetDeviation": 0.08799633328507639
+    },
+    {
+      "label": "last",
+      "bar": "94",
+      "occ": 1,
+      "scoreQ": 372.0,
+      "audioSeconds": 193.85787234042562,
+      "nearestOnsetDeviation": 0.1332387706854945
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 38,
+      "voice": "bassoons",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 38,
+      "voice": "cellos",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 50,
+      "voice": "timpani",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 50,
+      "voice": "choral-bass",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 57,
+      "voice": "tenor",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 62,
+      "voice": "violas",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 66,
+      "voice": "trumpets",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 66,
+      "voice": "alto",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 74,
+      "voice": "oboes",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 74,
+      "voice": "trumpets",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 74,
+      "voice": "soprano",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 78,
+      "voice": "violins-2",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    },
+    {
+      "bar": "94",
+      "occ": 1,
+      "midi": 81,
+      "voice": "violins-1",
+      "durationQ": 4.0,
+      "onset": 193.85787234042562,
+      "offset": 199.94,
+      "durationSeconds": 6.0821276595743825
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.019057750759856162,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7283554669934255,
+  "endAnchor": {
+    "scoreQ": 376.0,
+    "audioSeconds": 199.94,
+    "decodedDuration": 201.0165986394558,
+    "activeEndMinus45dB": 199.94702947845806
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "handel-messiah-hallelujah",
+  "tuningHz": 438.73,
+  "audioSha256": "e3ffe81ce544444c06b1a565b2d2eda9e4d239c5dcfef55eca181e01778f3f18",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [],
+  "sectionAnchorPairsSeconds": [
+    [
+      34.34,
+      36.0
+    ],
+    [
+      104.82,
+      104.0
+    ],
+    [
+      141.7,
+      138.0
+    ],
+    [
+      193.82,
+      186.0
+    ],
+    [
+      193.96340425531915,
+      186.14
+    ],
+    [
+      194.49191489361704,
+      187.44
+    ],
+    [
+      196.07744680851064,
+      191.7
+    ],
+    [
+      196.60595744680853,
+      193.84
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.22,
+      "peakSeconds": 1.28,
+      "window": [
+        0,
+        3
+      ],
+      "midiPitches": [
+        50,
+        66,
+        69,
+        74
+      ],
+      "basis": "Score-pitch energy inspection, not listening: the final G bass (43/55) and upper B (83) disappear around193.5, while final D (50) and A (81) rise around193.7–194.0. The previous193–198 window clipped its peak at193.0 and was rejected. See work/handel-messiah-hallelujah-final-harmony.png."
+    },
+    {
+      "label": "internal-1",
+      "scoreQ": 367.0,
+      "audioSeconds": 186.14,
+      "peakSeconds": 186.16,
+      "window": [
+        185.8,
+        186.15
+      ],
+      "midiPitches": [
+        50,
+        57,
+        62,
+        66,
+        69,
+        74,
+        78,
+        81
+      ],
+      "basis": "Bar92 beat4 D-bass/A-upper pickup after the independently visible184.7–185.85 silence; D50/A81 energy rise in work/handel-messiah-hallelujah-coda-harmony.png."
+    },
+    {
+      "label": "internal-2",
+      "scoreQ": 368.0,
+      "audioSeconds": 187.44,
+      "peakSeconds": 187.46,
+      "window": [
+        187.1,
+        187.5
+      ],
+      "midiPitches": [
+        43,
+        50,
+        55,
+        59,
+        62,
+        67,
+        74,
+        79,
+        83
+      ],
+      "basis": "Bar93 G-major arrival: independent G43/G67 energy rise around187.2–187.5, after the D pickup; not inferred from nearest-onset proximity."
+    },
+    {
+      "label": "internal-3",
+      "scoreQ": 371.0,
+      "audioSeconds": 191.7,
+      "peakSeconds": 191.74,
+      "window": [
+        191.3,
+        191.75
+      ],
+      "midiPitches": [
+        43,
+        50,
+        55,
+        59,
+        62,
+        67,
+        74,
+        79,
+        83
+      ],
+      "basis": "Bar93 final-quarter G reattack: G67/B83 renewed energy around191.5 before final D. Windows independently inspected by VerS; no listening claim."
+    },
+    {
+      "label": "last",
+      "scoreQ": 372.0,
+      "audioSeconds": 193.84,
+      "peakSeconds": 193.86,
+      "window": [
+        193.6,
+        194.15
+      ],
+      "midiPitches": [
+        38,
+        50,
+        57,
+        62,
+        66,
+        74,
+        78,
+        81
+      ],
+      "basis": "Score-pitch energy inspection, not listening: the final G bass (43/55) and upper B (83) disappear around193.5, while final D (50) and A (81) rise around193.7–194.0. The previous193–198 window clipped its peak at193.0 and was rejected. See work/handel-messiah-hallelujah-final-harmony.png."
+    }
+  ],
+  "adaptiveOnsetCount": 1011,
+  "adaptiveMedianDeviation": 0.03517392772711503,
+  "gateReasons": [],
+  "elapsedSeconds": 0.6515942960395478,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 94,
+    "notes": 4927,
+    "voices": 12
+  },
+  "published": true,
+  "configSha256": "5b28bb544e8418c5be5ccc9c262aa87d9ca08d5310e0f0943b130370e9218cd9",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/hallelujah/hallelujah-lys.zip",
+      "file": "hallelujah-lys.zip",
+      "sha256": "bece0f8dc876fbddd006d177a66f243b7813d4074bed9f276b03d10b665730ab"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/hallelujah/hallelujah-mids.zip",
+      "file": "hallelujah-mids.zip",
+      "sha256": "74bf4f72e3c534d3cea991885106a829c0bb38e362f13432e24b85a7981277d3"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/handel-messiah-hallelujah-0-9.22.png",
+    "work/handel-messiah-hallelujah-24-32.png",
+    "work/handel-messiah-hallelujah-40-48.png",
+    "work/handel-messiah-hallelujah-95.957-107.957.png",
+    "work/handel-messiah-hallelujah-96-104.png",
+    "work/handel-messiah-hallelujah-136-144.png",
+    "work/handel-messiah-hallelujah-144-152.png",
+    "work/handel-messiah-hallelujah-152-160.png",
+    "work/handel-messiah-hallelujah-160-168.png",
+    "work/handel-messiah-hallelujah-168-176.png",
+    "work/handel-messiah-hallelujah-180-195.png",
+    "work/handel-messiah-hallelujah-182.14-194.14.png",
+    "work/handel-messiah-hallelujah-183.44-195.44.png",
+    "work/handel-messiah-hallelujah-184-192.png",
+    "work/handel-messiah-hallelujah-187.7-199.7.png",
+    "work/handel-messiah-hallelujah-189.858-201.017.png"
+  ]
+}

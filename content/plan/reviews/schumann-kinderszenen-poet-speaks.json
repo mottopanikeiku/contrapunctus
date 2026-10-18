@@ -1,20 +1,5 @@
 {
   "id": "schumann-kinderszenen-poet-speaks",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[3].evidence; cues[3].text; transitions[1].how; transitions[2].how",
-      "severity": "major",
-      "problem": "The evidence misquotes B minor where the report gives B major, and misstates the confidence range. More importantly, the public explanation turns a weak key estimator into the musical reason for this passage and its return. Low model confidence is not itself evidence that the scored harmony is indeterminate.",
-      "evidence": "cache/analysis/schumann-kinderszenen-poet-speaks.txt:1:00 E♭minor r0.36;1:05 Bmajor r0.55;1:10/1:15 C♯minor r0.57/0.67. Printed p.20 / PDF p.19 of https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf directly supports a free chromatic recitative and the return of the G-major chordal opening.",
-      "fix": "Correct or omit the misquoted local-key labels/range. Explain the musical contrast using the score's chromatic, freely paced recitative and recovered G-major chordal material, not the estimator's uncertainty. Keep the accurately quoted spectral-centroid and level anchors in evidence."
-    },
-    {
-      "where": "transitions[1].how",
-      "severity": "minor",
-      "problem": "The middle recitative is unbarred, so describing its span as 'a few bars' misses a defining feature of the notation.",
-      "evidence": "Printed p.20 of the same score; https://storage.gmth.de/proceedings/articles/117/pdf/gmth-proceedings-artikel-117.pdf section6 explicitly discusses the absence of barlines in No.13's recitative.",
-      "fix": "Describe the unbarred recitative or free passage rather than a few bars."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

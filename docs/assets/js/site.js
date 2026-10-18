@@ -161,7 +161,14 @@ export async function mount(app) {
     const dots = $$('.hero-dots button');
     let i = 0, timer;
     // Later slides carry data-src/data-srcset; fetch each one a slide ahead so the hero costs one image up front.
-    const prime = (k) => { const im = slides[(k + slides.length) % slides.length]?.querySelector('img[data-src]'); if (!im) return; if (im.dataset.srcset) im.srcset = im.dataset.srcset; im.src = im.dataset.src; im.removeAttribute('data-src'); im.removeAttribute('data-srcset'); };
+    const prime = (k) => {
+      const slide = slides[(k + slides.length) % slides.length], im = slide?.querySelector('img[data-src]');
+      if (!im) return;
+      for (const source of slide.querySelectorAll('source[data-srcset]')) { source.srcset = source.dataset.srcset; source.removeAttribute('data-srcset'); }
+      if (im.dataset.srcset) im.srcset = im.dataset.srcset;
+      im.src = im.dataset.src;
+      im.removeAttribute('data-src'); im.removeAttribute('data-srcset');
+    };
     const show = (n) => {
       prime(n); prime(n + 1);
       slides[i].classList.remove('on'); dots[i]?.classList.remove('on');

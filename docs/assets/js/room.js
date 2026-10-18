@@ -411,6 +411,7 @@ export async function mount(app) {
     const NAME = { 'violins-1': 'First violins', 'violins-2': 'Second violins', violas: 'Violas', cellos: 'Cellos', basses: 'Double basses', piccolo: 'Piccolo', flutes: 'Flutes', oboes: 'Oboes', 'cor-anglais': 'Cor anglais', 'e-flat-clarinet': 'E♭ clarinet', clarinets: 'Clarinets', 'bass-clarinet': 'Bass clarinet', saxophones: 'Saxophones', bassoons: 'Bassoons', contrabassoon: 'Contrabassoon', horns: 'Horns', cornets: 'Cornets', trumpets: 'Trumpets', trombones: 'Trombones', euphoniums: 'Euphoniums', tuba: 'Tuba', timpani: 'Timpani', percussion: 'Percussion', harp: 'Harp', celesta: 'Celesta', piano: 'Piano', organ: 'Organ', harpsichord: 'Harpsichord', 'solo-violin': 'Solo violin', 'solo-voice': 'Voice', chorus: 'Chorus' };
     // Score part names → stage sections. Order matters: specific names before families.
     const MAP = [
+      [/chorus|choir|\bcoro\b|\bchor\b/i, 'chorus'],  // before voices and basses: 'Chorus bass' is the chorus
       [/contrabassoon|contrafagott|double bassoon/i, 'contrabassoon'], [/bass clarinet|clarinetto basso|bassklarinette/i, 'bass-clarinet'],
       [/cor anglais|english horn|corno inglese|englischhorn/i, 'cor-anglais'], [/e♭ clarinet|eb clarinet|e-flat clarinet|clarinetto piccolo/i, 'e-flat-clarinet'],
       [/^(violins? i|violin 1|1st violins?|first violins?|violini? i|violine i)$/i, 'violins-1'], [/^(violins? ii|violin 2|2nd violins?|second violins?|violini? ii|violine ii)$/i, 'violins-2'],

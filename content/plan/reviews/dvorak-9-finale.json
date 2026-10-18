@@ -1,13 +1,5 @@
 {
   "id": "dvorak-9-finale",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "orchestra.timeline",
-      "severity": "major",
-      "problem": "[INFERENCE] The full-orchestra, horn/trumpet-led recapitulation state at 378 seconds persists until 610 seconds. It therefore remains displayed through the substantial quieter lyrical return identified in its own note, then through the renewed coda, without representing their principal change of lead and weight.",
-      "evidence": "Score recapitulation and coda, including the reduced wind/string texture on PDF p. 184: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf ; cache/analysis/dvorak-9-finale.txt:105–138; docs/assets/js/room.js:486–498.",
-      "fix": "Add a score-backed reduced wind/string lyrical-return state after the returning brass subject, broadly anchored to the 6:40–6:56 withdrawal/boundaries, then a renewed full-orchestra state around the existing 540-second coda boundary. Review the melodic lead through the intervening lyrical span; do not leave horns and trumpets carrying it until 610 seconds."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

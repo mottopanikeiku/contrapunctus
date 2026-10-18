@@ -1,0 +1,840 @@
+{
+  "uniqueScoreAttacks": 1241,
+  "audioDetectedOnsets": 1025,
+  "medianAbsoluteOnsetDeviation": 0.09092720114620079,
+  "noteWeightedMedianDeviation": 0.0756270606402154,
+  "p95AbsoluteOnsetDeviation": 0.42285881223654087,
+  "fractionWithin150ms": 0.67767929089444,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 38,
+      "median": 0.0936971189293716,
+      "p95": 0.375919382886079,
+      "max": 0.4484019865614952,
+      "adaptiveMedian": 0.030288524407716677,
+      "adaptiveP95": 0.11030018919633289
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 41,
+      "median": 0.1008639038437451,
+      "p95": 0.35843634795432067,
+      "max": 0.5639191463906652,
+      "adaptiveMedian": 0.039799674471012736,
+      "adaptiveP95": 0.1008639038437451
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 43,
+      "median": 0.10406160010016308,
+      "p95": 0.23864794179430396,
+      "max": 0.3336446725929534,
+      "adaptiveMedian": 0.04182101470445332,
+      "adaptiveP95": 0.08556999568744103
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 39,
+      "median": 0.17317529874936,
+      "p95": 0.49647435415883556,
+      "max": 0.6084439992766022,
+      "adaptiveMedian": 0.034348037783626495,
+      "adaptiveP95": 0.0905868703309626
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 38,
+      "median": 0.11444249683513874,
+      "p95": 0.3919501690246782,
+      "max": 0.5732954940667412,
+      "adaptiveMedian": 0.049694086223439626,
+      "adaptiveP95": 0.11321198336185566
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 39,
+      "median": 0.09184702920023824,
+      "p95": 0.2924002058901337,
+      "max": 0.32630135080616895,
+      "adaptiveMedian": 0.040876145959408916,
+      "adaptiveP95": 0.08307107382830167
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 31,
+      "median": 0.11470250267798576,
+      "p95": 0.5384310615861985,
+      "max": 0.5582669059443859,
+      "adaptiveMedian": 0.03629842939221106,
+      "adaptiveP95": 0.0921694976559202
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 27,
+      "median": 0.14191922985965277,
+      "p95": 0.47996817049927354,
+      "max": 0.5877278355104991,
+      "adaptiveMedian": 0.03913414854694253,
+      "adaptiveP95": 0.0816523795612234
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 32,
+      "median": 0.11121322148490975,
+      "p95": 0.48337867089575964,
+      "max": 0.5962144039620085,
+      "adaptiveMedian": 0.04409623972287591,
+      "adaptiveP95": 0.09872320298262593
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 26,
+      "median": 0.13066357831476694,
+      "p95": 0.5028837833702191,
+      "max": 0.673523920815768,
+      "adaptiveMedian": 0.03767552828903575,
+      "adaptiveP95": 0.08595307652711881
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 40,
+      "median": 0.1460627686657432,
+      "p95": 0.4739474841061151,
+      "max": 0.5298276365761012,
+      "adaptiveMedian": 0.0451028755060463,
+      "adaptiveP95": 0.12422119277157151
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 40,
+      "median": 0.12410041317141207,
+      "p95": 0.5450351404365277,
+      "max": 0.6706979397075798,
+      "adaptiveMedian": 0.0519089353532749,
+      "adaptiveP95": 0.1367460039230451
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 46,
+      "median": 0.07477589972594245,
+      "p95": 0.25501432883988073,
+      "max": 0.40683332637759406,
+      "adaptiveMedian": 0.03295521889739206,
+      "adaptiveP95": 0.09840240390633781
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 26,
+      "median": 0.08802309829865607,
+      "p95": 0.23719815533575783,
+      "max": 0.40568451511484227,
+      "adaptiveMedian": 0.052150021562795246,
+      "adaptiveP95": 0.09386697828412593
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 22,
+      "median": 0.05799646648025458,
+      "p95": 0.3143738296954751,
+      "max": 0.35323372702863765,
+      "adaptiveMedian": 0.05063728558908309,
+      "adaptiveP95": 0.13394797100845035
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 22,
+      "median": 0.02177023774745379,
+      "p95": 0.15262692152523338,
+      "max": 0.20046074871665098,
+      "adaptiveMedian": 0.02557586633834319,
+      "adaptiveP95": 0.06241147420114145
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 23,
+      "median": 0.047525562372186414,
+      "p95": 0.3393229553580055,
+      "max": 0.351179555666846,
+      "adaptiveMedian": 0.040258197348492786,
+      "adaptiveP95": 0.1065261791151698
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 23,
+      "median": 0.03742247819371869,
+      "p95": 0.14802077334001915,
+      "max": 0.3251828666026597,
+      "adaptiveMedian": 0.035646536733281664,
+      "adaptiveP95": 0.10728925128333626
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 15,
+      "median": 0.034929816507400346,
+      "p95": 0.21816827344436251,
+      "max": 0.2846469958126363,
+      "adaptiveMedian": 0.02065439672801972,
+      "adaptiveP95": 0.06923322621481985
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 11,
+      "median": 0.19388784552677407,
+      "p95": 0.6346897041024988,
+      "max": 0.7132481949835494,
+      "adaptiveMedian": 0.06308946482482725,
+      "adaptiveP95": 0.10644004841199717
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 10,
+      "median": 0.05427291571025705,
+      "p95": 0.2693790465061422,
+      "max": 0.4117897138405624,
+      "adaptiveMedian": 0.04698496167382871,
+      "adaptiveP95": 0.0942997648957643
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 24,
+      "median": 0.05417442232516123,
+      "p95": 0.14103399969392993,
+      "max": 0.283999276602259,
+      "adaptiveMedian": 0.04093332220416812,
+      "adaptiveP95": 0.09008285686462043
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 21,
+      "median": 0.047149952005355544,
+      "p95": 0.13789880778486463,
+      "max": 0.30815658778851684,
+      "adaptiveMedian": 0.03596316236104258,
+      "adaptiveP95": 0.07988175229195349
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 10,
+      "median": 0.094067442928079,
+      "p95": 0.39980301322982964,
+      "max": 0.4189791744918807,
+      "adaptiveMedian": 0.028136277005714305,
+      "adaptiveP95": 0.05348923945854264
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 7,
+      "median": 0.17603216337658978,
+      "p95": 0.5193249864363307,
+      "max": 0.6157664538207825,
+      "adaptiveMedian": 0.04687756493188999,
+      "adaptiveP95": 0.06672773813005221
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 8,
+      "median": 0.20857782785915902,
+      "p95": 0.9930941251756535,
+      "max": 1.0478419097700566,
+      "adaptiveMedian": 0.038231431631956525,
+      "adaptiveP95": 0.06819417664816284
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 6,
+      "median": 0.09446503345714063,
+      "p95": 0.21973449911661902,
+      "max": 0.225220427639357,
+      "adaptiveMedian": 0.02437766926809104,
+      "adaptiveP95": 0.06987681371115428
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 37,
+      "median": 0.09362630941950556,
+      "p95": 0.3104009014649189,
+      "max": 0.4388314344142259,
+      "adaptiveMedian": 0.03149979828333471,
+      "adaptiveP95": 0.09544370713516624
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 34,
+      "median": 0.12767079838070572,
+      "p95": 0.5085379436027878,
+      "max": 0.6245969144304695,
+      "adaptiveMedian": 0.03806769333498039,
+      "adaptiveP95": 0.09275126246816394
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 47,
+      "median": 0.12636506545351267,
+      "p95": 0.4066195901673722,
+      "max": 0.5082957027391615,
+      "adaptiveMedian": 0.037373231501192095,
+      "adaptiveP95": 0.0751376264206669
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 38,
+      "median": 0.14126566782131533,
+      "p95": 0.42353511956936235,
+      "max": 0.6095048898905304,
+      "adaptiveMedian": 0.04323080561471215,
+      "adaptiveP95": 0.2920284350959349
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 40,
+      "median": 0.11068834077597955,
+      "p95": 0.49081716122032176,
+      "max": 0.5509230276978201,
+      "adaptiveMedian": 0.052991388784604965,
+      "adaptiveP95": 0.1255219732065099
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 41,
+      "median": 0.08081688299057532,
+      "p95": 0.3497288649611505,
+      "max": 0.5999810803666605,
+      "adaptiveMedian": 0.035652379561213365,
+      "adaptiveP95": 0.10822753641338068
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 30,
+      "median": 0.06598891601626633,
+      "p95": 0.25147073717008933,
+      "max": 0.2613764033221173,
+      "adaptiveMedian": 0.03774953744280651,
+      "adaptiveP95": 0.12231661171627763
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 27,
+      "median": 0.08680967683591234,
+      "p95": 0.4995053628813934,
+      "max": 0.7059235146000447,
+      "adaptiveMedian": 0.027377544064563608,
+      "adaptiveP95": 0.07506403461175068
+    },
+    {
+      "start": 280.0,
+      "end": 288.0,
+      "attacks": 31,
+      "median": 0.0671101651294066,
+      "p95": 0.25190559659446876,
+      "max": 0.3664844260812856,
+      "adaptiveMedian": 0.041339398745265044,
+      "adaptiveP95": 0.09162082829044493
+    },
+    {
+      "start": 288.0,
+      "end": 296.0,
+      "attacks": 23,
+      "median": 0.06141674665781238,
+      "p95": 0.21542083663728695,
+      "max": 0.22415925879556653,
+      "adaptiveMedian": 0.03522613135237407,
+      "adaptiveP95": 0.09868436208839168
+    },
+    {
+      "start": 296.0,
+      "end": 304.0,
+      "attacks": 34,
+      "median": 0.08261230054395696,
+      "p95": 0.4006285630816474,
+      "max": 0.5777763866282157,
+      "adaptiveMedian": 0.04695393903980971,
+      "adaptiveP95": 0.10275764784439045
+    },
+    {
+      "start": 304.0,
+      "end": 312.0,
+      "attacks": 41,
+      "median": 0.0748819609643192,
+      "p95": 0.4010942782021516,
+      "max": 0.5887834397563552,
+      "adaptiveMedian": 0.03605052655007057,
+      "adaptiveP95": 0.07934727265131869
+    },
+    {
+      "start": 312.0,
+      "end": 320.0,
+      "attacks": 40,
+      "median": 0.10385209298448217,
+      "p95": 0.6565312660852752,
+      "max": 0.7220177232446758,
+      "adaptiveMedian": 0.036322913623536124,
+      "adaptiveP95": 0.092251798060613
+    },
+    {
+      "start": 320.0,
+      "end": 328.0,
+      "attacks": 41,
+      "median": 0.10343196583335157,
+      "p95": 0.21752152803867375,
+      "max": 0.3130834828818365,
+      "adaptiveMedian": 0.04464727404263158,
+      "adaptiveP95": 0.12869913609603145
+    },
+    {
+      "start": 328.0,
+      "end": 336.0,
+      "attacks": 6,
+      "median": 0.05839419612425445,
+      "p95": 0.1480066218716587,
+      "max": 0.164428028880252,
+      "adaptiveMedian": 0.03870539626890945,
+      "adaptiveP95": 0.11372612439660656
+    },
+    {
+      "start": 336.0,
+      "end": 344.0,
+      "attacks": 8,
+      "median": 0.04256416677097263,
+      "p95": 0.3045404337604565,
+      "max": 0.37992265208748677,
+      "adaptiveMedian": 0.055405589638723995,
+      "adaptiveP95": 0.13180514168859928
+    },
+    {
+      "start": 344.0,
+      "end": 352.0,
+      "attacks": 8,
+      "median": 0.09084540155527066,
+      "p95": 0.7151594257334748,
+      "max": 0.8725520637702857,
+      "adaptiveMedian": 0.05897124493969841,
+      "adaptiveP95": 0.1054843287008282
+    },
+    {
+      "start": 352.0,
+      "end": 360.0,
+      "attacks": 4,
+      "median": 0.1025302227230327,
+      "p95": 0.33099304425250575,
+      "max": 0.3587660503874872,
+      "adaptiveMedian": 0.025618018168444223,
+      "adaptiveP95": 0.14241945939927514
+    },
+    {
+      "start": 360.0,
+      "end": 368.0,
+      "attacks": 3,
+      "median": 0.06400762349926481,
+      "p95": 0.07517301726414871,
+      "max": 0.07641361657135803,
+      "adaptiveMedian": 0.07641361657135803,
+      "adaptiveP95": 0.07872412114136296
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 8,
+      "median": 0.20857782785915902,
+      "p95": 0.9930941251756535,
+      "max": 1.0478419097700566,
+      "adaptiveMedian": 0.038231431631956525,
+      "adaptiveP95": 0.06819417664816284
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 11,
+      "median": 0.19388784552677407,
+      "p95": 0.6346897041024988,
+      "max": 0.7132481949835494,
+      "adaptiveMedian": 0.06308946482482725,
+      "adaptiveP95": 0.10644004841199717
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 7,
+      "median": 0.17603216337658978,
+      "p95": 0.5193249864363307,
+      "max": 0.6157664538207825,
+      "adaptiveMedian": 0.04687756493188999,
+      "adaptiveP95": 0.06672773813005221
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 39,
+      "median": 0.17317529874936,
+      "p95": 0.49647435415883556,
+      "max": 0.6084439992766022,
+      "adaptiveMedian": 0.034348037783626495,
+      "adaptiveP95": 0.0905868703309626
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 40,
+      "median": 0.1460627686657432,
+      "p95": 0.4739474841061151,
+      "max": 0.5298276365761012,
+      "adaptiveMedian": 0.0451028755060463,
+      "adaptiveP95": 0.12422119277157151
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 360.0,
+      "end": 368.0,
+      "attacks": 3,
+      "median": 0.06400762349926481,
+      "p95": 0.07517301726414871,
+      "max": 0.07641361657135803,
+      "adaptiveMedian": 0.07641361657135803,
+      "adaptiveP95": 0.07872412114136296
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 11,
+      "median": 0.19388784552677407,
+      "p95": 0.6346897041024988,
+      "max": 0.7132481949835494,
+      "adaptiveMedian": 0.06308946482482725,
+      "adaptiveP95": 0.10644004841199717
+    },
+    {
+      "start": 344.0,
+      "end": 352.0,
+      "attacks": 8,
+      "median": 0.09084540155527066,
+      "p95": 0.7151594257334748,
+      "max": 0.8725520637702857,
+      "adaptiveMedian": 0.05897124493969841,
+      "adaptiveP95": 0.1054843287008282
+    },
+    {
+      "start": 336.0,
+      "end": 344.0,
+      "attacks": 8,
+      "median": 0.04256416677097263,
+      "p95": 0.3045404337604565,
+      "max": 0.37992265208748677,
+      "adaptiveMedian": 0.055405589638723995,
+      "adaptiveP95": 0.13180514168859928
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 40,
+      "median": 0.11068834077597955,
+      "p95": 0.49081716122032176,
+      "max": 0.5509230276978201,
+      "adaptiveMedian": 0.052991388784604965,
+      "adaptiveP95": 0.1255219732065099
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 352.0,
+      "meanCosine": 0.7637498283628203
+    },
+    {
+      "start": 224.0,
+      "meanCosine": 0.794307728732612
+    },
+    {
+      "start": 72.0,
+      "meanCosine": 0.7964859524628246
+    },
+    {
+      "start": 360.0,
+      "meanCosine": 0.7996480248680653
+    },
+    {
+      "start": 336.0,
+      "meanCosine": 0.8007036430848794
+    }
+  ],
+  "sections": [
+    {
+      "bar": "53",
+      "occ": 1,
+      "editorial": 110,
+      "aligned": 110.66879345603273,
+      "difference": 0.6687934560327307,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "99",
+      "occ": 1,
+      "editorial": 214,
+      "aligned": 215.95321063394687,
+      "difference": 1.953210633946867,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "150",
+      "occ": 1,
+      "editorial": 330,
+      "aligned": 329.3189775051125,
+      "difference": -0.6810224948874861,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "0",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.76,
+      "nearestOnsetDeviation": 0.006258503401360582
+    },
+    {
+      "label": "middle",
+      "bar": "75",
+      "occ": 1,
+      "scoreQ": 112.5,
+      "audioSeconds": 159.140245398773,
+      "nearestOnsetDeviation": 0.10677601101789946
+    },
+    {
+      "label": "last",
+      "bar": "163",
+      "occ": 1,
+      "scoreQ": 243.5,
+      "audioSeconds": 366.3584867075665,
+      "nearestOnsetDeviation": 0.06400762349926481
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "163",
+      "occ": 1,
+      "midi": 36,
+      "voice": "cellos",
+      "durationQ": 0.5,
+      "onset": 366.3584867075665,
+      "offset": 367.1184867075665,
+      "durationSeconds": 0.7599999999999909
+    },
+    {
+      "bar": "163",
+      "occ": 1,
+      "midi": 36,
+      "voice": "basses",
+      "durationQ": 0.5,
+      "onset": 366.3584867075665,
+      "offset": 367.1184867075665,
+      "durationSeconds": 0.7599999999999909
+    },
+    {
+      "bar": "163",
+      "occ": 1,
+      "midi": 48,
+      "voice": "violas",
+      "durationQ": 0.5,
+      "onset": 366.3584867075665,
+      "offset": 367.1184867075665,
+      "durationSeconds": 0.7599999999999909
+    },
+    {
+      "bar": "163",
+      "occ": 1,
+      "midi": 60,
+      "voice": "violins-1",
+      "durationQ": 0.5,
+      "onset": 366.3584867075665,
+      "offset": 367.1184867075665,
+      "durationSeconds": 0.7599999999999909
+    },
+    {
+      "bar": "163",
+      "occ": 1,
+      "midi": 60,
+      "voice": "violins-2",
+      "durationQ": 0.5,
+      "onset": 366.3584867075665,
+      "offset": 367.1184867075665,
+      "durationSeconds": 0.7599999999999909
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.010427175641899433,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.844876661435279,
+  "endAnchor": {
+    "scoreQ": 244.5,
+    "audioSeconds": 367.88,
+    "decodedDuration": 370.0793197278912,
+    "activeEndMinus45dB": 367.8853514739229
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "brahms-3-poco-allegretto",
+  "tuningHz": 443.06,
+  "audioSha256": "5d33b3c1ebc097175039f563126c54f6483651f0645241d136212b57e9bb93d4",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Original CC0 orchestral MusicXML retained byte-for-byte; only separately licensed analytical lyric nodes are omitted before conversion.",
+    "Sounding-pitch changes declared by MusicXML are performed by LilyPond; no blanket woodwind, brass or double-bass octave correction is applied.",
+    "Custom MIDI score bypasses musicxml2ly articulate playback so durations describe written notation."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      117.2,
+      110.0
+    ],
+    [
+      221.2602247191011,
+      214.0
+    ],
+    [
+      336.76,
+      330.0
+    ],
+    [
+      365.6184867075665,
+      366.34
+    ]
+  ],
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note tie emission"
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.76,
+      "peakSeconds": 0.8,
+      "window": [
+        0,
+        3
+      ],
+      "midiPitches": [
+        55,
+        60
+      ],
+      "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
+    },
+    {
+      "label": "last",
+      "scoreQ": 243.5,
+      "audioSeconds": 366.34,
+      "peakSeconds": 366.56,
+      "window": [
+        358.08,
+        368.08
+      ],
+      "midiPitches": [
+        36,
+        48,
+        60
+      ],
+      "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
+    }
+  ],
+  "adaptiveOnsetCount": 2333,
+  "adaptiveMedianDeviation": 0.03902230012657526,
+  "gateReasons": [],
+  "elapsedSeconds": 0.7039016970084049,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 164,
+    "notes": 4037,
+    "voices": 10
+  },
+  "published": true,
+  "configSha256": "d615ea5a3e5627b5a8c557954f31e6ebbb8f7852e48269f08850e3fc356c56a5",
+  "sourceDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.3%2C_Op.90/3/Brahms_Op.90_3.mxl",
+      "file": "Brahms_Op.90_3.mxl",
+      "sha256": "c2d33f9dcaaf8d88afd439a1e539e4d395d740cadb6147194d09f233be8190c3"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/brahms-3-poco-allegretto-0-8.76.png",
+    "work/brahms-3-poco-allegretto-24-32.png",
+    "work/brahms-3-poco-allegretto-72-80.png",
+    "work/brahms-3-poco-allegretto-80-88.png",
+    "work/brahms-3-poco-allegretto-152-160.png",
+    "work/brahms-3-poco-allegretto-155.14-167.14.png",
+    "work/brahms-3-poco-allegretto-192-200.png",
+    "work/brahms-3-poco-allegretto-200-208.png",
+    "work/brahms-3-poco-allegretto-224-232.png",
+    "work/brahms-3-poco-allegretto-248-256.png",
+    "work/brahms-3-poco-allegretto-336-344.png",
+    "work/brahms-3-poco-allegretto-344-352.png",
+    "work/brahms-3-poco-allegretto-352-360.png",
+    "work/brahms-3-poco-allegretto-360-368.png",
+    "work/brahms-3-poco-allegretto-362.358-370.079.png"
+  ]
+}

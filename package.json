@@ -9,5 +9,18 @@
     "build": "node src/build.mjs",
     "validate": "node tools/validate.mjs content/composers/*.mjs content/eras/*.mjs content/pages/*.mjs",
     "serve": "python3 -m http.server 8080 -d docs"
+  },
+  "devDependencies": {
+    "beasties": "^0.5.5",
+    "browserslist": "^4.29.3",
+    "esbuild": "^0.28.2",
+    "fontkit": "^2.0.4",
+    "html-minifier-terser": "^7.2.0",
+    "lighthouse": "^13.5.0",
+    "lightningcss": "^1.33.0",
+    "pixelmatch": "^8.0.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.5",
+    "subset-font": "^2.9.0"
   }
 }
