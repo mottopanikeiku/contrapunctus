@@ -51,10 +51,10 @@
       "note": "First release year is disputed in the sources: the booklet and Wikipedia say 1959 (the booklet reads ‘LPs released/veröffentlicht/paru 1959’ and prints ℗ 1959 Deutsche Grammophon); Discogs and the Internet Archive LP catalogue give 1958, which is the recording year. Both dates precede 1963. The digital file used here is a later remaster, not the LP."
     },
     "matrixTakeSides": {
-      "value": "First stereo edition: LP 1, side A, first track (9:50 on the LP); matrix and take numbers not read",
+      "value": "First stereo edition: first programme side of the set (Discogs side A), first track (9:50 on the LP); matrix and take numbers not read",
       "status": "documented",
       "sourceIds": ["discogs"],
-      "note": "The side and position come from the Discogs tracklist only. No run-out inscription was seen, so matrix and take are unknown."
+      "note": "The side and position come from the Discogs tracklist only, whose first edition is automatically coupled, so the programme side is not the physical side of a particular LP. No run-out inscription was seen, so matrix and take are unknown."
     }
   },
   "transfer": {

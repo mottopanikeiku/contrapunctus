@@ -102,8 +102,8 @@
   },
   "endpoints": {
     "first": [
-      2.1,
-      2.5
+      1.35,
+      1.8
     ],
     "last": [
       167.25,
@@ -113,7 +113,7 @@
       "seconds": 169.9,
       "basis": "The final C-sharp4/E4 pitch bands decay to the feature noise floor around 169.8–170.0 s; the 171.649 s container tail is not a sustained string note. This is a measured pitched-decay display end, not a measured bow release."
     },
-    "basis": "The first joint C-sharp4/G-sharp4 accompaniment rises around 2.2 s, before the repeated figure at 2.9 s. At the end, all six E4/F-sharp4 dotted-sixteenth/thirty-second figures of bar 38 must remain before the final bar-39 C-sharp4/E4 fermata: the last F-sharp4 is near 167.1 s and the final tonic arrival follows near 167.4 s. The broad-window 165.045 s match was an earlier accompaniment attack and is rejected. These are individual pitch-band measurements, not an aural review."
+    "basis": "Source q0 is the pianissimo E4/G-sharp4 violin accompaniment, visible around 1.5 s, followed by F-sharp4/A4 near 2.0 s. The much stronger C-sharp4 viola dog-entry around 2.2 s is q0.5 after a written eighth rest, not the first attack. At the end, all six E4/F-sharp4 dotted-sixteenth/thirty-second figures of bar 38 must remain before the final bar-39 C-sharp4/E4 fermata: the last F-sharp4 is near 167.1 s and the final tonic arrival follows near 167.4 s. The broad-window 165.045 s match was an earlier accompaniment attack and is rejected. These are source-specific pitch-band measurements, not an aural review."
   },
   "boundaries": [],
   "provenance": [

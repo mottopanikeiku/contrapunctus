@@ -206,7 +206,7 @@ export async function mount(app) {
     cap.innerHTML = `The written score${track.scoreSource?.title ? `: ${track.scoreSource.title}` : ''}${track.scoreSource?.edition ? `, ${track.scoreSource.edition}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Touch a bar to hear it.`;
     ui.layer.append(wrap, cap);
     const t0 = track;
-    let pack = null, pages = [], current = null, lit = [], userScroll = 0, barLen = 0.25, io = null;
+    let pack = null, pages = [], current = null, lit = [], userScroll = 0, barLen = 0.25, io = null, destroyed = false;
     const hl = document.createElement('div');
     hl.className = 'sheet-hl';
     const heads = new Map();   // bar n → [{ el, pos }] for loaded pages
@@ -215,7 +215,7 @@ export async function mount(app) {
       if (P.state) return;
       P.state = 'loading';
       const txt = await fetch(new URL(P.src, base)).then((r) => r.text());
-      if (!alive || track !== t0) return;
+      if (!alive || destroyed || track !== t0) return;
       P.el.insertAdjacentHTML('afterbegin', txt);
       P.state = 'ready';
       let maxPos = 0;
@@ -230,7 +230,7 @@ export async function mount(app) {
     }
 
     fetch(new URL('index.json', base)).then((r) => r.json()).then((j) => {
-      if (!alive || track !== t0 || view !== 'score') return;
+      if (!alive || destroyed || track !== t0 || view !== 'score') return;
       pack = j;
       wrap.innerHTML = '';
       pages = j.pages.map((p, i) => {
@@ -283,12 +283,12 @@ export async function mount(app) {
         }
         const next = (heads.get(bar.n) ?? []).filter((x) => x.pos / barLen <= frac + 0.02).map((x) => x.el);
         if (next.length !== lit.length || next.some((el, i) => el !== lit[i])) {
-          lit.forEach((el) => el.classList.remove('lit'));
+          for (const el of lit) if (!next.includes(el)) el.classList.remove('lit');
+          for (const el of next) if (!lit.includes(el)) el.classList.add('lit');
           lit = next;
-          lit.forEach((el) => el.classList.add('lit'));
         }
       },
-      destroy() { io?.disconnect(); },
+      destroy() { destroyed = true; io?.disconnect(); },
     };
   }
 

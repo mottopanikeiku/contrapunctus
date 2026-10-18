@@ -1,0 +1,13 @@
+{
+  "id": "haydn-54-2-adagio",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "transitions[1].how",
+      "severity": "minor",
+      "problem": "The key estimate does not hold C minor for the rest of the movement: its final windows read G minor and G major, and the score closes on the dominant G.",
+      "evidence": "cache/analysis/haydn-54-2-adagio.txt: C minor 1:55–2:55, G minor 3:00 and G major 3:05. https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP05812-Haydn_-_Op._54,_No._2.pdf — printed p. 190, final held dominant and attacca.",
+      "fix": "Say that the C-minor estimate holds through most of the remaining passage, before the final held dominant on G, rather than for the entire remainder."
+    }
+  ]
+}

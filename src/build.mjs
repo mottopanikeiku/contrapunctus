@@ -268,14 +268,14 @@ function persist(ctx) {
 </div>`;
 }
 const headScripts = (ctx) => `<link rel="stylesheet" href="${ctx.base}assets/css/shared.css?v=${V.shared}">
-<link rel="modulepreload" href="${ctx.base}assets/js/player.js">
+<link rel="modulepreload" href="${ctx.base}assets/js/player.js?v=${V.player}">
 <script type="module" src="${ctx.base}assets/js/app.js?v=${V.app}"></script>`;
 
 function layout(ctx, { title, description, body, dark = false, accent, nav, ogImage, head = '', modules = [] }) {
   const style = accent ? ` style="--accent:${accent}"` : '';
   body = termify(ctx, ctx.chapter ? numberFigures(ctx, body) : body);
   return `<!doctype html>
-<html lang="en" data-site="${V.js}" data-room="${V.room}" data-prog="${PROG_V}">
+<html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -610,7 +610,7 @@ async function writeSearchIndex() {
   const entries = searchIndex(), words = new Map(), size = 16;
   entries.forEach((e, id) => {
     const tokens = new Set(e.k.split(/\s+/).filter(Boolean));
-    const title = fold(e.title).split(/\s+/)[0];
+    const title = e.title.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().split(/\s+/)[0];
     for (const word of new Set([...tokens, title])) {
       if (!word) continue;
       if (!words.has(word)) words.set(word, []);
@@ -863,7 +863,7 @@ async function roomPage(prog) {
   const eraList = [{ slug: 'before-bach', numeral: '0', name: 'Before Bach', accent: '#9fc3c6' }, ...eras].map((e) => ({ e, tracks: prog.filter((t) => t.era?.slug === e.slug && t.concert !== false) })).filter((x) => x.tracks.length);
   const fmt = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}`;
   return `<!doctype html>
-<html lang="en" data-site="${V.js}" data-room="${V.room}" data-prog="${PROG_V}">
+<html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">

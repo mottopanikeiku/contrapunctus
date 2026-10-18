@@ -1,0 +1,84 @@
+{
+  "id": "bach-brandenburg-5-finale",
+  "verdict": "pass",
+  "reviewer": "VerS",
+  "scope": "MEAS: independent numerical, published bar-map, source/report and visual review; not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#bach-brandenburg-5-finale",
+    "finding": "The report matches recomputed final gates, eight source parts / 6008 events, complete 310-bar order, corrected opening/final attacks and 12-page pack. It explicitly distinguishes measured low-frequency evidence from the inferred 16-foot Violone interpretation and leaves physical instrumentation/keyboard registration unknown."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/bach-brandenburg-5-finale-checks.json",
+    "primaryMedianSeconds": 0.029996050032877974,
+    "primaryP95Seconds": 0.16643819764466905,
+    "maximumAnchorDeviationSeconds": 0.06301507525054717,
+    "maximumLocalRegionMedianSeconds": 0.04628088654816054,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 310,
+    "distinctEngravedBars": 310,
+    "sheetPages": 12,
+    "svgBarSetEqualsIndex": true,
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 0,
+    "unresolvedListenPointers": [],
+    "finding": "All 6008 note bar/voice indices resolve, durations are positive and bar times strictly increase. Every SVG/index bar is within the exact 1–310 set, with no derived boxes. Actual pages 1, 8 and 12 were inspected, including written opening rests, tied Violone pedal and genuine closing chord. The initial rests stay inside bar 1, not an invented pickup. Listening cues use seconds rather than structured bar pointers."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/bach-brandenburg-5-finale-0-8.9386.png",
+      "work/bach-brandenburg-5-finale-0.4-3.5.png",
+      "work/bach-brandenburg-5-finale-16-24.png",
+      "work/bach-brandenburg-5-finale-25-40.png",
+      "work/bach-brandenburg-5-finale-40-48.png",
+      "work/bach-brandenburg-5-finale-48-56.png",
+      "work/bach-brandenburg-5-finale-72-80.png",
+      "work/bach-brandenburg-5-finale-120-128.png",
+      "work/bach-brandenburg-5-finale-140.284-152.284.png",
+      "work/bach-brandenburg-5-finale-180-210.png",
+      "work/bach-brandenburg-5-finale-186-192.png",
+      "work/bach-brandenburg-5-finale-204-211.png",
+      "work/bach-brandenburg-5-finale-215-235.png",
+      "work/bach-brandenburg-5-finale-248-256.png",
+      "work/bach-brandenburg-5-finale-256-264.png",
+      "work/bach-brandenburg-5-finale-264-272.png",
+      "work/bach-brandenburg-5-finale-272-280.png",
+      "work/bach-brandenburg-5-finale-288-297.png",
+      "work/bach-brandenburg-5-finale-289.595-297.013.png",
+      "work/bach-brandenburg-5-finale-292-296.5.png"
+    ],
+    "finding": "No gross pitch/order mismatch identified. Corrected first A4–D5–A4 follows the actual opening rather than squeezing two notes into milliseconds; final D-major arrival is near 293.595 s, not the later decay fluctuation. Both sustained low-bass pedals and the written return are represented. Final hold to the estimated 297 s decay boundary is not a measured physical release."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=548",
+    "opened": true,
+    "edition": "Bach-Gesellschaft",
+    "encoder": "Joshua Koo; LilyPond 2.18 update and A–B–A corrections by Joram Berger",
+    "license": "Public Domain"
+  },
+  "registerInterpretation": {
+    "basis": "INFERENCE",
+    "finding": "The visible sustained octave-below band near C-sharp2 during the source C-sharp3 Violone pedal, and surrounding low-bass trajectories, support −12 for Violone events only. The original written bass-clef engraving remains unchanged. Neither the clef nor a General MIDI patch proves this interpretation; the physical bass instrument and any 16-foot keyboard contribution remain unknown. Reported Welch-spectrum values were not independently recomputed by VerS."
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Complete third movement in the source’s already unfolded A–B–A order, 1–310 once. Bar 233 is a written source return, not an extra traversal. Flute, solo/ripieno violin, viola, cello, Violone and two harpsichord source parts are retained; no gross cut or arrangement mismatch identified.",
+    "physicalPerformingEdition": "Unknown; the Bach-Gesellschaft transcription is identified as the symbolic source, not the Advent ensemble’s physical performing copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser integration check was performed by VerS. The inferred Violone register, source-part identities and warped written durations must not be presented as independently recovered recorded stems or physical releases."
+}

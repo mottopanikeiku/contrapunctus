@@ -111,6 +111,7 @@ Optional explicit derivative transformations:
 - `metricEquivalenceWords:true`: preserve two-beat-unit metric-equivalence metronomes as equivalent printed words, avoiding a LilyPond 2.24.4 converter failure.
 - `otherDynamicsWords:true`: preserve nonstandard `other-dynamics` text as words rather than invalid identifiers; ordinary dynamics remain intact.
 - `musicxmlFlattenTuplets`: `[{part:"P3",measures:[120,121,122,123],outerNumber:1,basis:"source nested-tuplet evidence"}]` handles the converter’s duplicated uniform nested-tuplet groups. Each selected single-voice measure must have explicit combined type/ratio and complete outer groups. Their brackets flatten to that combined ratio; exact written durations replace rounded playback ticks on a common divisions grid. Pitch/order, beams and slurs stay unchanged; other part durations are exactly rescaled. Ambiguous/mixed groups, cross-measure groups, chords and grace notes are rejected, not guessed.
+- `musicxmlTieRoutes`: `[{part:"P3",measure:88,fromNote:1,toNote:0,continuation:{measure:89,note:0},basis:"documented cross-voice tie"}]`. Note indices are zero-based direct note children of the selected original XML measures. This moves an explicit tie start from one note onto an **already existing identical simultaneous unison** in the destination voice, allowing LilyPond’s within-voice tie model to reach the source continuation. Pitch, onset, duration, staff, destination voice and matching contiguous stop are asserted; both origin notes and other notations such as fermatas remain untouched. There is no generic equal-pitch merging or new note synthesis. Exact routes are retained in checks and their bases in published provenance.
 
 Explain transformations in provenance and the per-piece report. Original downloaded bytes remain unmodified. The optional tuplet operation derives exact time from the source’s written type/dots/ratio rather than its rounded MIDI-style ticks; it does not invent pitches or duplicate notes. Inspect generated variables and bar numbers: successful conversion does not establish edition or repeat correctness.
 
@@ -160,7 +161,7 @@ Lower-level `fetch.py`, `prepare.py`, `score_events.py`, `align.py` remain diagn
 
 Without explicit ids, `node tools/engrave.mjs` re-engraves only configured recordings that already have a published `score.json`, not withheld candidates.
 
-Deterministic gate-boundary, rounding, equivalence, pickup/repeat, transposition, pitch-anchor, exact nested-tuplet and partial-chord-tie regressions (no recording decoding or network; the tie fixture invokes the installed LilyPond 2.24.4 converter and MIDI compiler):
+Deterministic gate-boundary, rounding, equivalence, pickup/repeat, transposition, pitch-anchor, exact nested-tuplet, cross-voice tie-route and partial-chord-tie regressions (no recording decoding or network; the partial-tie fixture invokes the installed LilyPond 2.24.4 converter and MIDI compiler):
 
 ```sh
 /tmp/contrapunctus-align-venv/bin/python -m unittest discover -s tools/align -p 'test_*.py'

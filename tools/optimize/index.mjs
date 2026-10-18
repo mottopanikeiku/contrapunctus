@@ -10,6 +10,7 @@ import { ROOT, OUT, files, hash, cached, save } from './cache.mjs';
 import { optimizeFonts, fontFallbacks } from './fonts.mjs';
 import { optimizeImages } from './images.mjs';
 import { generateServiceWorker } from './sw.mjs';
+import { pictureHTML } from './pictures.mjs';
 
 const targets = browserslistToTargets(browserslist('last 2 years and not dead'));
 const htmlOptions = {
@@ -86,6 +87,7 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
   // Source text is scanned before JS minification can escape or drop glyphs.
   const fontFiles = [...all.filter((file) => /\.(?:html|json)$/.test(file)), ...(await files(source)).filter((file) => /\.(?:js|css)$/.test(file))];
   const fonts = await optimizeFonts(fontFiles, out);
+  const art = JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'));
   const imageResult = images ? await optimizeImages(out) : null;
   const versions = await minifyAssets(out, source);
   for (const file of all.filter((file) => file.endsWith('.json'))) {
@@ -103,6 +105,7 @@ export async function optimize({ out = OUT, source = path.join(ROOT, 'src/assets
     await save(file, html);
   }
   const worker = await generateServiceWorker(out);
+    html = pictureHTML(html, relative, art);
   console.log(`optimized ${pages.length} pages, ${versions.size} CSS/JS files, ${fonts.manifest.length} subset fonts (${fonts.manifest.reduce((sum, f) => sum + f.bytes, 0)} bytes), ${imageResult?.generated ?? 0} new AVIFs; SW ${worker.entries} revisions; ${((performance.now() - started) / 1000).toFixed(2)}s`);
   return { fonts: fonts.manifest, images: imageResult, worker };
 }

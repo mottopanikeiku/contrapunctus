@@ -70,6 +70,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     source_checks = {}
     if cfg['source'].get('musicxml'):
         source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note tie emission'
+        if cfg['source'].get('musicxmlTieRoutes'):
+            source_checks['musicxmlTieRoutes'] = cfg['source']['musicxmlTieRoutes']
     if cfg['source'].get('patches'):
         source_checks['derivativePatches'] = cfg['source']['patches']
     if mode == 'isolated-voices':
@@ -210,7 +212,9 @@ def extract(ident, lilypond=LILYPOND, directory=None):
               'bars': bars, 'notes': sorted(performed), 'endQ': cursor,
               'repeats': spec['description'],
               'provenance': cfg.get('provenance', []) + [
-                  f'Verified derivative syntax repair in {p["file"]}: {p["basis"]}' for p in cfg['source'].get('patches', [])],
+                  f'Verified derivative syntax repair in {p["file"]}: {p["basis"]}' for p in cfg['source'].get('patches', [])]
+                  + [f'Documented cross-voice MusicXML tie route in {r["part"]}, measure {r["measure"]}: {r["basis"]}'
+                     for r in cfg['source'].get('musicxmlTieRoutes', [])],
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -2,7 +2,7 @@
 // - Same-site links are fetched and swapped in place; everything inside #cp-persist (audio state, the
 //   now-playing bar, search) survives. Stylesheets are synchronised before the swap.
 // - The concert hall (body.room) mounts room.js; every other page mounts site.js.
-import { player } from './player.js';
+const { player } = await import(`./player.js?v=${document.documentElement.dataset.player ?? ''}`);
 
 const ROOT = player.root;
 const $ = (s, r = document) => r.querySelector(s);
@@ -10,6 +10,8 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const fmt = (t) => { t = Math.max(0, Math.floor(t || 0)); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`; };
 const app = { player, root: ROOT, navigate, fmt };
 window.CP = app;
+// Initial relative links otherwise change identity when pushState enters a nested directory.
+for (const link of $$('link[rel="stylesheet"]', document.head)) link.setAttribute('href', link.href);
 
 // ================================================================== now-playing bar
 const np = $('.np');
@@ -134,17 +136,21 @@ addEventListener('keydown', (e) => {
 // ================================================================== router
 let unmounts = [];
 let token = 0;
+let pageURL = new URL(location.href);
 const modules = {};
 
 // The hall mounts room.js; every other page mounts site.js. Pages may add their own modules with
 // <body data-modules="name …">, each loaded from assets/js/<name>.js and exporting mount(app) → cleanup.
 async function mount() {
+  const my = token;
   const room = document.body.classList.contains('room');
   const names = [room ? 'room' : 'site', ...(document.body.dataset.modules ?? '').split(/\s+/).filter(Boolean)];
   for (const name of names) {
     try {
       modules[name] ??= await import(new URL(`assets/js/${name}.js?v=${document.documentElement.dataset[name] ?? document.documentElement.dataset.site ?? ''}`, ROOT).href);
+      if (my !== token) return;
       const off = await modules[name].mount(app);
+      if (my !== token) { if (typeof off === 'function') off(); return; }
       if (typeof off === 'function') unmounts.push(off);
     } catch (err) { console.error(`mount ${name} failed`, err); }
   }
@@ -224,7 +230,7 @@ async function syncStyles(doc) {
 export async function navigate(href, { push = true } = {}) {
   const url = new URL(href, location.href);
   if (!sameSite(url)) { location.href = url.href; return; }
-  if (url.pathname === location.pathname && url.search === location.search) {
+  if (url.pathname === pageURL.pathname && url.search === pageURL.search) {
     if (push && url.hash !== location.hash) history.pushState(null, '', url.href);
     if (url.hash) { document.getElementById(decodeURIComponent(url.hash.slice(1)))?.scrollIntoView({ behavior: 'smooth' }); window.dispatchEvent(new HashChangeEvent('hashchange')); }
     return;
@@ -260,6 +266,7 @@ export async function navigate(href, { push = true } = {}) {
   for (const [key, value] of Object.entries(doc.documentElement.dataset)) document.documentElement.dataset[key] = value;
   dropOld();
   if (push) history.pushState(null, '', url.href);
+  pageURL = url;
   if (url.hash) document.getElementById(decodeURIComponent(url.hash.slice(1)))?.scrollIntoView(); else scrollTo(0, 0);
   ($('h1') ?? document.body).setAttribute('tabindex', '-1');
   ($('h1') ?? document.body).focus({ preventScroll: true });

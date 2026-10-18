@@ -28,7 +28,14 @@ export async function mount(app) {
   try { [data, base] = await Promise.all([getJSON('index'), getJSON('base')]); }
   catch (error) { if (!signal.aborted) status.textContent = `${error.message}. Composer Places sections remain available.`; return () => abort.abort(); }
   if (!root.isConnected) { abort.abort(); return; }
-  for (const [key, cls] of [['land', 'land'], ['coastline', 'coast'], ['countries', 'countries'], ['graticule', 'graticule']]) world.querySelector(`.am-${cls}`).setAttribute('d', base[key]);
+  // Keep the engraved base on its own composited surface: animated journeys
+  // must not repaint the world's coastline on every frame.
+  const baseSvg = svgNode('svg', { class: 'am-base-map', 'aria-hidden': 'true' });
+  stage.prepend(baseSvg);
+  const baseWorld = svgNode('g', { class: 'am-base-world' }, baseSvg);
+  for (const [key, cls] of [['land', 'land'], ['coastline', 'coast'], ['countries', 'countries'], ['graticule', 'graticule']]) {
+    const path = world.querySelector(`.am-${cls}`); path.setAttribute('d', base[key]); baseWorld.append(path);
+  }
   const inset = $('.am-inset'), insetSelect = $('[name="inset"]'), insetWorld = $('.am-inset-world');
   insetWorld.querySelector('.am-land').setAttribute('d', base.land);
   insetWorld.querySelector('.am-coast').setAttribute('d', base.coastline);
@@ -37,6 +44,7 @@ export async function mount(app) {
   let year = clamp(Number(new URL(location.href).searchParams.get('year')) || 1805, data.first, data.last);
   let selected = '', selectedCity = Number(citySelect.value), detail = null, focusRequest = 0, selectedPlace = -1;
   let width = 900, height = 530, tx = 0, ty = 0, scale = 1, previousScale = 0;
+  let paintedCamera = '';
   let view = data.europe, frame = [], paintId = 0, timeId = 0, playing = false, lastTick = 0, clock = 0;
   let moved = false, pointerRect, gesture, suppressClickUntil = 0;
   let expandedCity = -1, pinnedCluster = -1, clusterTimer = 0, insetRegion = '', insetScale = 1;
@@ -56,9 +64,15 @@ export async function mount(app) {
     svgNode('ellipse', { rx: 16, ry: 21, class: 'am-inner-frame' }, face);
     const name = svgNode('text', { y: 38, 'text-anchor': 'middle', class: 'am-person-name' }, face); name.textContent = c.label;
     const cross = svgNode('text', { y: 7, 'text-anchor': 'middle', class: 'am-cross' }, icon); cross.textContent = '†';
+    anchor.append(dot);
     sprites.push({ anchor, icon, face, dot, tether, title, image, index, c });
     c.places.forEach((p, i) => {
-      if (p.path) trails.push({ node: svgNode('path', { d: p.path, class: `am-trail${p.kind === 'travelled' ? ' am-travel' : ''}` }, $('.am-trails')), p, c });
+      if (p.path) {
+        const node = svgNode('path', { d: p.path, class: `am-trail${p.kind === 'travelled' ? ' am-travel' : ''}` }, $('.am-trails'));
+        const glint = p.kind === 'travelled' ? svgNode('circle', { r: 2, class: 'am-journey-glint am-hidden', 'aria-hidden': 'true' }, $('.am-trails')) : null;
+        if (glint) glint.style.offsetPath = `path("${p.path}")`;
+        trails.push({ node, glint, p, c });
+      }
       if (p.kind === 'premiere') {
         const g = svgNode('g', { class: 'am-premiere am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'premiere', 'data-geo-x': p.x, 'data-geo-y': p.z, 'data-composer': c.id, 'data-place': i, 'aria-label': `${p.work}, ${p.y}` }, $('.am-events'));
         const icon = svgNode('g', {}, g);
@@ -87,7 +101,11 @@ export async function mount(app) {
   function schedulePaint() { if (!paintId) paintId = requestAnimationFrame(paint); }
   function paint() {
     paintId = 0;
-    world.setAttribute('transform', `translate(${tx} ${ty}) scale(${scale})`);
+    const camera = `translate(${tx} ${ty}) scale(${scale})`;
+    if (camera !== paintedCamera) {
+      world.setAttribute('transform', camera); baseWorld.setAttribute('transform', camera);
+      paintedCamera = camera;
+    }
     const inverse = 1 / scale;
     for (const row of frame) {
       const sprite = sprites[row[0]], p = sprite.c.places[row[1]];
@@ -103,6 +121,7 @@ export async function mount(app) {
     if (previousScale !== scale) {
       for (const { node, icon, city } of [...citySprites, ...clusterSprites]) { node.setAttribute('transform', `translate(${city.x} ${city.y})`); icon.setAttribute('transform', `scale(${inverse})`); }
       for (const { node, icon, p } of events) { node.setAttribute('transform', `translate(${p.x} ${p.z})`); icon.setAttribute('transform', `scale(${inverse})`); }
+      for (const { glint } of trails) if (glint) glint.setAttribute('r', 2 * inverse);
       previousScale = scale;
     }
     for (const s of routeSprites) s.node.setAttribute('transform', `translate(${s.x} ${s.z}) scale(${1 / (s.region === detail?.map.primary ? scale : insetScale)})`);
@@ -185,7 +204,9 @@ export async function mount(app) {
     for (const trail of trails) {
       const visible = !selected && trail.p.y <= year && (!trail.c.died || trail.p.y <= trail.c.died);
       trail.node.classList.toggle('am-hidden', !visible);
-      trail.node.classList.toggle('am-travelling', trail.p.kind === 'travelled' && trail.p.y <= year && trail.p.end >= year);
+      const travelling = trail.p.kind === 'travelled' && trail.p.y <= year && trail.p.end >= year;
+      trail.node.classList.toggle('am-travelling', travelling);
+      trail.glint?.classList.toggle('am-hidden', !visible || !travelling);
     }
     for (const event of events) {
       const visible = event.p.y === year && (!selected || event.node.dataset.composer === selected);
@@ -450,7 +471,8 @@ export async function mount(app) {
   }, { passive: false });
   const resize = new ResizeObserver((entries) => {
     const rect = entries[0].contentRect; width = rect.width; height = rect.height;
-    svg.setAttribute('viewBox', `0 0 ${width} ${height}`); fit(view); updateYear(year);
+    const viewBox = `0 0 ${width} ${height}`;
+    svg.setAttribute('viewBox', viewBox); baseSvg.setAttribute('viewBox', viewBox); fit(view); updateYear(year);
   });
   resize.observe(stage);
   on(mobile, 'change', () => { if (detail) drawRoute(detail); updateYear(year); });

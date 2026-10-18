@@ -2,9 +2,13 @@
   "id": "how-the-symphony-grew",
   "verdict": "pass",
   "defects": [],
+  "resolvedDefects": [
+    "MEAS: Jupiter publication blocker resolved by VerH's pass recording review.",
+    "MEAS: s3 endpoint corrected from upstream 436.83 to cached-file duration 436.8 seconds; changed field reopened. Other tight final endpoints checked against cached MP3 metadata: Tchaikovsky 618.97 is within 618.972494 and Mahler 1110.3 is within 1110.347755."
+  ],
   "reviewed": {
     "classification": "MEAS: all eight listen modules and their cache/analysis reports opened; all station cues compared with the corresponding authored cues, sections and transitions. Beethoven score.json bars 125, 196, 248, 268, 303 and 374 checked directly.",
-    "timing": "MEAS: 1427.2 seconds of excerpts (23 minutes 47.2 seconds); all bounds within cached durations. Interior starts/ends use the listen section boundaries; final excerpts retain the recorded decays. Provisional mappings are disclosed, not presented as ear-checked attacks.",
+    "timing": "MEAS: 1427.17 seconds of excerpts (23 minutes 47.17 seconds); all bounds within cached durations. Interior starts/ends use the listen section boundaries; final excerpts retain the recorded decays. Provisional mappings are disclosed, not presented as ear-checked attacks.",
     "publication": "MEAS: all eight listens are now published by baseline membership or a pass recording review. mozart-41-finale has a pass review independently issued by VerH; its former publication blocker is resolved.",
     "style": "MEAS: eight stations; narration and cue lengths meet the contract; British spelling, accidental symbols and typographic quotes retained.",
     "rights": "EXT: the hero Commons page identifies the 1902 Klimt reproduction as public domain."

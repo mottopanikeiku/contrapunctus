@@ -1,0 +1,42 @@
+{
+  "id": "rachmaninoff-in-exile",
+  "verdict": "pass",
+  "defects": [],
+  "resolvedDefects": [
+    "MEAS: s8 endpoint changed from 184.57 to 184.56 seconds, within exact cached Adagio-side duration 184.565417; corrected field reopened."
+  ],
+  "reviewed": {
+    "publication": "MEAS: all six unique listens are published: Edison Prelude is a baseline recording, and Lilacs, B minor Prelude, Victor 1928 Prelude and both 1929 concerto sides have pass reviews, opened directly. Linked Prelude comparison also has a pass review. Influence edge id resolves in the existing favourites material; composer/year map moments have corresponding geographic records.",
+    "timing": "MEAS: all six content/listen modules and cache/analysis reports opened. Nine stations total 1439.87 seconds, 23 minutes 59.87 seconds. Every from/to is within exact cached MP3 duration: Edison 227.908209, Lilacs 153.4, B minor 321.020227, Victor 1928 210.866667, Moderato side 189.600083, Adagio side 184.565417. Edison split 106 and B minor split 168 follow authored section/transition boundaries. Lilacs is deliberately reprised to close with a complete composition after two explicitly partial disc sides.",
+    "cues": "MEAS: every cue checked against its recording-specific guide and report. Edison opening voicing, triplet change, four-stave return and quiet coda agree. Lilacs acceleration/trill and later flourish agree. B minor's 96-second approach, post-crest withdrawal, 192-second decoration and 256-second recollection agree with its passage-level mapping; none claims a precisely aligned bar. Victor 1928's change at 92, high-level span at 155 and withdrawal at 178 agree. Concerto-side rises, quieter continuations and end warnings agree with their separate reports; no unverified note/instrument entrance is invented.",
+    "claims": "EXT: opened Tchaikovsky Research verifies Moscow training, composition graduation and the 1893 Op. 3 presentation. BSO verifies Siloti's 1898 Prelude tour, early reputation, Dahl, concerto dedication and complete 1901 premiere. Sudbin verifies Lilacs' 1902 song, Beketova text, 1913 transcription, added cadenzas/coda and permanent December 1917 departure. Biography chronology verifies the Scandinavian route, November 1918 arrival, Victor 1920 contract and death in Beverly Hills in March 1943. IMSLP verifies the 1910 Op. 32 set and twenty-four-key coverage. DAHR tables verify Lilacs' twelve takes and the current Camden take 9, the 1928 New York take 23, and the April 1929 Philadelphia sides. LOC and carrier records corroborate the latter. The Foundation verifies Senar 1933–1939; Houston Symphony's 2025 note verifies the 1934 Rhapsody and variation VII's piano Dies irae against Paganini fragments.",
+    "scope": "MEAS: La Pianista's modern 2010 B minor performance is explicitly distinguished from composer recordings. Both concerto excerpts are original opening sides, never called complete movements. The Paganini discussion expressly identifies the sounding Adagio as contextual music, not a performance of the Rhapsody or its Dies irae quotation. Work, photograph, performance and issue dates remain separate. No musical prediction of exile or undocumented inner feeling is presented as fact.",
+    "rights": "EXT: both exact image files exist on Commons. Somov's 1925 oil portrait carries PD reproduction notices. The anonymous mid-1890s Ivanovka photograph carries a PD-US notice; this is a US public-domain basis, not proof of worldwide expiry. Its caption correctly distinguishes it from the later song and recording. La Pianista's CC BY audio licence is separate from the PD image requirement.",
+    "style": "MEAS: nine stations, two-sentence introduction, all subtitle/title/narration/cue limits met. British spelling, typographic quotes and musical accidental symbols retained. A single biographical story is sustained without turning the music into unsupported autobiography."
+  },
+  "sourcesOpened": [
+    "https://commons.wikimedia.org/wiki/File:Somov_Sergei_Rachmaninoff_1925.JPG",
+    "https://en.tchaikovsky-research.net/pages/Sergei_Rachmaninoff",
+    "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg",
+    "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf",
+    "https://www.bso.org/works/piano-concerto-no-2-6",
+    "https://www.yevgenysudbin.com/artist.php?view=prog&rid=458",
+    "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/700009327",
+    "https://commons.wikimedia.org/wiki/File:Rachmaninoff_at_Ivanovka.jpg",
+    "https://imslp.org/wiki/13_Preludes,_Op.32_(Rachmaninoff,_Sergei)",
+    "https://commons.wikimedia.org/wiki/File:Rachmaninoff_Prelude_in_B_Minor,_Op._32,_No._10.oga",
+    "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Rachman.pdf",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/800022749/CVE-48963-Concerto_no._2_in_C_minor",
+    "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-1st-movement-1st-record_sergei-rachmaninoff-and_gbia7026860a",
+    "https://rachmaninoff.ch/en/history/",
+    "https://houstonsymphony.org/rachmaninoff-rhapsody-paganini/",
+    "https://adp.library.ucsb.edu/index.php/matrix/detail/800022752/CVE-48966-Concerto_no._2_in_C_minor",
+    "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-2nd-movement-1st-record_sergei-rachmaninoff-and_gbia7026859b"
+  ],
+  "sourceAccessNotes": [
+    "EXT: Lilacs' fully named DAHR URL initially returned 503; its shorter detail route opened the full take table. The Adagio refer and short detail routes returned 503; the fully named CVE-48966 route opened successfully. No numbers are taken from the error pages.",
+    "EXT: Internet Archive pressing publication dates are not substituted for DAHR session dates. The Foundation page's unrelated suggestion that composing resumed only in 1932 is not used. Mutopia PDF extraction is incomplete; timed musical details are additionally grounded in the published recording's authored score-based guide."
+  ]
+}

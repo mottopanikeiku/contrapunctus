@@ -24,17 +24,19 @@ body:has(.atlas-map-page)::after { opacity: .24; }
 .am-workspace { display: grid; grid-template-columns: minmax(0, 1fr) 340px; border: 1px solid #a88b53; box-shadow: 0 0 0 3px #111511, 0 0 0 4px #6a583a, 0 16px 45px #0004; background: #121a17; }
 .am-stage { position: relative; height: clamp(440px, calc(100svh - 395px), 660px); overflow: hidden; background: radial-gradient(ellipse at 48% 38%, #1b2520, #101a18 85%); }
 .am-stage::after { content: ''; position: absolute; inset: 6px; border: 1px solid #bca57530; pointer-events: none; }
-.am-map { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; }
+.am-map { position: relative; width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; transform: translateZ(0); }
+.am-base-map { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; transform: translateZ(0); }
 .am-map:active { cursor: grabbing; }
-.am-map path { vector-effect: non-scaling-stroke; }
+.am-map path, .am-base-map path { vector-effect: non-scaling-stroke; }
 .am-land { fill: #363226; fill-rule: evenodd; stroke: none; }
 .am-coast { fill: none; stroke: #c0a576; stroke-width: .85; stroke-opacity: .72; }
 .am-countries { fill: none; stroke: #baa26d; stroke-width: .5; stroke-opacity: .18; }
 .am-graticule { fill: none; stroke: #a48f61; stroke-width: .6; stroke-opacity: .16; stroke-dasharray: 2 5; }
 .am-trail { fill: none; stroke: #cfb47c; stroke-width: .9; opacity: .24; pointer-events: none; }
 .am-travel { stroke-dasharray: 3 6; }
-.am-travelling { opacity: .9; stroke: #f2d79c; stroke-width: 1.6; animation: am-voyage 2s linear infinite; }
-@keyframes am-voyage { to { stroke-dashoffset: -36; } }
+.am-travelling { opacity: .9; stroke: #f2d79c; stroke-width: 1.6; }
+.am-journey-glint { fill: #ffe2a2; stroke: #76603b; stroke-width: .6; vector-effect: non-scaling-stroke; offset-distance: 0%; offset-rotate: 0deg; animation: am-voyage 2s linear infinite; pointer-events: none; }
+@keyframes am-voyage { to { offset-distance: 100%; } }
 .am-person, .am-city, .am-route-point, .am-route-badge, .am-cluster, .am-premiere { cursor: pointer; }
 .am-hidden { display: none; }
 .am-tether { fill: none; stroke: #b79a62; stroke-width: .65; opacity: .48; }

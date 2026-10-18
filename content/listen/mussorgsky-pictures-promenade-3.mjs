@@ -23,7 +23,6 @@ export default {
 
   cues: [
     { t: 0, kind: 'music', title: 'Trumpet and trombones, full band', text: 'The walking theme returns heavily, marked pesante, with trumpet and trombones in front and the full orchestra behind them. The level peaks around 0:10, the loudest point of the movement.', basis: 'documented', precision: 'passage', evidence: 'Trumpet and trombones with full orchestra: LA Phil note (Orrin Howard); Philharmonia guide for the tone. Relative level −10.4 dB at 0:00, −4.8 dB at 0:10 (the loudest 5-second window).' },
-    { t: 14, kind: 'form', title: 'The second half begins', text: 'The strongest boundary of this short movement falls at 0:14. After it the sound eases from its peak towards −10 dB, and a few seconds later the plucked strings begin to thin the texture.', basis: 'audio-feature', precision: 'passage', evidence: 'Boundary at 0:14 (novelty 1.00); relative level −4.8 dB (0:10), −8.5 (0:15), −10.1 (0:20); onsets per second 1.6 (0:10), 2.2 (0:15), 2.0 (0:20), 3.4 (0:25). The plucked strings are from the Philharmonia guide; no chord or key change is claimed.' },
     { t: 24, kind: 'listen', title: 'A cliffhanger in pizzicato', text: 'In the last seconds the strings pluck and slow down while the level drops from −10 dB to −26 dB. The movement stops unresolved, leaving the next picture, Tuileries, to continue.', basis: 'documented', precision: 'passage', evidence: 'Slowing pizzicato strings and cliffhanger ending: Philharmonia guide. Relative level −10.1 dB (0:20), −18.6 (0:25), −26.3 (0:30); onsets per second rise to 3.4 at 0:25, then fall to 0.2 at 0:30.' },
   ],
 
@@ -35,7 +34,7 @@ export default {
       to: 'Second half and plucked ending',
       at: { t: 14 },
       span: [8, 30],
-      how: '<p>After the heaviest moment near 0:10 the scoring lightens: the level eases, and in the last seconds the strings pluck more and more slowly, with the level falling about sixteen decibels in five seconds. The Promenade does not end on a settled cadence; it is left suspended, so the walk seems to stop in front of the next picture.</p>',
+      how: '<p>After the heaviest moment near 0:10 the scoring lightens: the level eases, and in the last seconds the strings pluck more and more slowly, with the level falling about sixteen decibels in ten seconds, from 0:20 to 0:30. The Promenade does not end on a settled cadence; it is left suspended, so the walk seems to stop in front of the next picture.</p>',
       devices: ['orchestration change', 'decrescendo', 'tempo change'],
       basis: 'audio-feature',
       precision: 'passage',

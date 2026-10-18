@@ -83,7 +83,7 @@ def route_ties(xml, routes):
                 or not any(t.get('type') == 'stop' for t in continuation.findall('tie'))):
             raise ValueError('Tie route must move one explicit start onto an untied unison with a matching stop')
         origin.remove(sounding[0])
-        origin.find('notations').remove(drawn[0])
+        next(n for n in origin.findall('notations') if drawn[0] in list(n)).remove(drawn[0])
         target.insert(list(target).index(target.find('duration')) + 1, copy.deepcopy(sounding[0]))
         notations = target.find('notations')
         if notations is None:

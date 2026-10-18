@@ -38,7 +38,7 @@
     { "id": "clarinets", "name": "Clarinets", "tracks": ["clarinet:"] },
     { "id": "bassoons", "name": "Bassoons", "tracks": ["bassoon:"] },
     { "id": "horns", "name": "Horns", "tracks": ["french hornA:", "french hornB:"] },
-    { "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet:"] },
+    { "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet:"], "transpose": 12 },
     { "id": "timpani", "name": "Timpani", "tracks": ["timpani:"] },
     { "id": "triangle", "name": "Triangle", "tracks": ["triangle:"] },
     { "id": "violins-1", "name": "Violins I", "tracks": ["violin1:"] },
@@ -67,9 +67,9 @@
     "description": "Printed bars 1–59 twice, then 60–175; trio 176–190 with first ending 191, then 176–190 with second ending 191; 192–238 twice, then 239–247; D.C. 1–141 without repeats, then coda 248–299. The source numbers both trio endings 191 and inserts an unperformed full-bar spacer after 247: six-quarter source extents preserve those encoded coordinates, while performed fragments select three quarters each. There is no pickup. The source MIDI is canonical, not a complete unfolded performance."
   },
   "endpoints": {
-    "first": [0, 2],
-    "last": [498, 505.5],
-    "basis": "Initial source-pitch energy inspection windows, not listening annotations: opening E octaves and the final short E-minor tutti after the written general pause. These broad initial windows require fresh overlay inspection before publication."
+    "first": [0.25, 0.55],
+    "last": [503.1, 503.8],
+    "basis": "Non-aural source-pitch inspection: the first E-octave energy edge is 0.38 s, peak 0.44 s. The broad initial 0–2 s search incorrectly selected the later opening reattack at 0.94 s; the source begins with E eighths before the held E, so the first rise, not the strongest later rise, is required. The final E-minor tutti follows the written general pause and has its pitch-energy edge near 503.4 s, not the quiet preceding decay or noise. These source-based windows do not relax any onset gate."
   },
   "diagnostics": {
     "recurrences": [
@@ -78,15 +78,16 @@
       { "startQ": 798, "startOffset": 1, "secondQ": 939, "secondOffset": 1, "length": 30, "search": 5 },
       { "start": 3, "secondQ": 1107, "secondOffset": 3, "length": 35, "search": 5 }
     ],
-    "overlays": [[0, 12], [204, 216], [232, 244], [318, 338], [454, 470], [490, 505.5]]
+    "overlays": [[0, 12], [88, 96], [204, 216], [232, 244], [318, 338], [360, 368], [376, 384], [454, 470], [490, 505.5], [496, 504], [504, 505.5]]
   },
   "engraving": { "staff": 13, "width": 290, "height": 410 },
   "provenance": [
-    "Mutopia1793 provides the full orchestral movement, not a reduction. Its third movement has no trombone/tuba staff; triangle is present and is retained as a source-defined unpitched percussion part. MIDI percussion key 81 is a triangle identifier, not a claim of sounding A5.",
+    "Publication withheld on source correspondence independently of numeric gates: the full orchestral third movement contains Triangle, but the current score schema and feature extractor treat its unpitched MIDI drum key 81 as pitched A5/A chroma. This is not a sounding-pitch assertion. Omitting the genuine triangle part or inventing a pitched substitute is not acceptable. There is no trombone/tuba staff in this movement.",
     "All fourteen sounding MIDI tracks are assigned to thirteen named source parts; the two genuine horn staves are grouped. Instrument identities come from Mvt3_Scherzo.ly, never General MIDI patches.",
-    "Clarinets in A already sound down three semitones through the source transposition a; horns and trumpets use source transposition e and documented changes to c and back. The bass_8 source already places double basses at sounding pitch: initial MIDI E3 (52), one octave below cello E4 (64), with E1 (28) later. No additional transposition is applied.",
-    "The source conductor has 299 printed bars, 3/4 throughout, explicit repeats at 1–59, 176–191 and 192–238, D.C. al coda after 247 and a coda jump after 141. The MIDI includes both bar-191 endings and a silent spacer before the coda but does not execute these repeats or D.C. Recording recurrence and harmonic correspondence remain subject to fresh diagnostics.",
-    "The published MIDI advances violin I/II by 0.1015625 quarter after its second-ending grace; other parts retain integer-quarter final attacks. This source-specific clock discrepancy is disclosed and must be inspected against a common-clock modern compilation before publication.",
+    "Clarinets in A already sound down three semitones through source transposition a. Horn E/C changes retain source sounding pitches; the original score PDF47/printed225 writes the low horn C2 in bass clef, sounding E2 under the historical convention, matching MIDI40. The bass_8 source already yields initial E3 (MIDI52), one octave below cello E4 (64), and E1 (28) later; no extra bass transposition is applied.",
+    "Trumpets alone receive +12 semitones throughout. Both source trumpet variables use transposition e, then c, then e, one octave below the required registers. Original full-score PDF50/printed228 has the C-trumpet C5/C4 entry while source q669 is MIDI60/48; PDF54/printed232 has final E-trumpet written C4 while source q900 is MIDI52. Corrections yield C5/C4 and E4 respectively. Scan: https://s9.imslp.org/files/imglnks/usimg/4/42/IMSLP405834-PMLP08710-DvorakSymph9.pdf . The independent instrument convention reference is https://utminers.utep.edu/charlesl/transpose.html ; this correction is grounded in those actual written registers, not guessed from range or audio fit.",
+    "The source conductor has 299 printed bars, 3/4 throughout, explicit repeats at 1–59, 176–191 and 192–238, D.C. al coda after 247 and a coda jump after 141. MIDI includes both bar-191 endings and a silent coda spacer but does not execute repeats or D.C. Initial independent audio/audio recurrence cosines were 0.9493 for 3–38 to 48.5–83.5 s, 0.9736 for trio 209–219 to 224–234 s, 0.9328 for 239–269 to 281.5–311.5 s, and 0.9388 for 3–38 to 333.5–368.5 s, supporting the configured order; nearest section labels are not independent bar assertions.",
+    "Further source correspondence blocker: strings.notesS.ily lines 128–129 and 335–336 contain hidden slur-layout aids, absent from the original PDF48/printed226 notation. Published MIDI emits hidden G5/G4 at q572.875 for 1/384 quarter and hidden D5/C4 grace events there for 0.22395833 quarter, then delays violin I/II regular onsets by 0.1015625 quarter through q900.1015625. These must not be accepted as real attacks or silently deleted without an accounted-for common clock. The reproducible diagnostic candidate retains and discloses this defect, and is not a publication-ready score.",
     "All alignment is provisional and not checked by ear. Source note durations represent warped notation, not measured bow releases or percussion decay."
   ]
 }

@@ -1,20 +1,5 @@
 {
   "id": "stravinsky-petrushka-room",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "content/listen/stravinsky-petrushka-room.mjs: orchestra.timeline, t = 72, playing",
-      "severity": "major",
-      "problem": "[EXT] The Adagietto snapshot includes oboes although the cited rehearsal 52 has the oboe staves resting.",
-      "evidence": "[EXT] Viewed original-orchestration score, printed p. 67 (PDF p. 61), rehearsal 52: piccolo, flutes, clarinets, xylophone and piano play; oboes rest. The cor anglais has a short subsequent bridge on p. 68 but is a separate ensemble identifier, not oboes. Score: https://vmirror.imslp.org/files/imglnks/usimg/1/18/IMSLP472771-PMLP179431-PMLUS00370-Stravinsky_-_Petrushka_OrchScore.pdf . [MEAS] cache/analysis/stravinsky-petrushka-room.txt supports the 1:12 reduction; the timing need not change.",
-      "fix": "Remove oboes from the t = 72 playing array. Keep the supported Adagietto groups and existing timing; a separately qualified cor-anglais bridge is optional, not required."
-    },
-    {
-      "where": "content/dossiers/stravinsky-petrushka-room.json: session.date.note, session.place.note, rights.recording.note",
-      "severity": "minor",
-      "problem": "[MEAS] Four prose possessives retain straight apostrophes: tableau's, orchestra's, Archive's and Decca's.",
-      "evidence": "[EXT] AUTHORING.md requires curly apostrophes in visible prose. [MEAS] These forms occur in the three named dossier notes; source URLs and original filenames are separate identifiers.",
-      "fix": "Change these prose possessives to curly apostrophes. Preserve source URLs, filenames and matrix identifiers exactly. Other cue, join, source and rights checks pass."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

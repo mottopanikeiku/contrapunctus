@@ -15,12 +15,12 @@
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No06/SchumannOp15No06.ly",
         "file": "SchumannOp15No06.ly",
-        "sha256": null
+        "sha256": "943b26118a6c68a31db06c1848cea9efb3d36243d8bd1e9bb79ab2d742578fcd"
       },
       {
         "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No06/SchumannOp15No06.mid",
         "file": "SchumannOp15No06.mid",
-        "sha256": null
+        "sha256": "8b93d7117c14e3867ec8364032b7385415634b312ba6b157606bdc04ee029cf3"
       }
     ]
   },
@@ -52,8 +52,26 @@
       "24": 2
     },
     "order": [
-      { "from": [0, 0], "to": [16, 2] },
-      { "from": [8, 2], "to": [24, 2] }
+      {
+        "from": [
+          0,
+          0
+        ],
+        "to": [
+          16,
+          2
+        ]
+      },
+      {
+        "from": [
+          8,
+          2
+        ],
+        "to": [
+          24,
+          2
+        ]
+      }
     ],
     "description": "Play the opening pickup and bars 1–8, repeat the middle eight-bar span from the last quarter of bar 8 up to (but not including) the last quarter of bar 16, then continue to bar 24. The central repeat uses exact quarter offsets, not a whole-bar substitute."
   },
@@ -71,9 +89,29 @@
   "boundaries": [],
   "diagnostics": {
     "recurrences": [
-      { "startQ": 24, "startOffset": 1, "secondQ": 48, "secondOffset": 1, "length": 9, "search": 3 }
+      {
+        "startQ": 24,
+        "startOffset": 1,
+        "secondQ": 48,
+        "secondOffset": 1,
+        "length": 9,
+        "search": 3
+      }
     ],
-    "overlays": [[10, 18], [22, 34], [35, 45]]
+    "overlays": [
+      [
+        10,
+        18
+      ],
+      [
+        22,
+        34
+      ],
+      [
+        35,
+        45
+      ]
+    ]
   },
   "engraving": {
     "staff": 18,

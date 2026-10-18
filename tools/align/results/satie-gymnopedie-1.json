@@ -476,6 +476,7 @@
     "decodedDuration": 183.60743764172335,
     "activeEndMinus45dB": 181.7077551020408
   },
+  "roundedCollapsedAttackIntervals": 0,
   "id": "satie-gymnopedie-1",
   "tuningHz": 441.02,
   "audioSha256": "664bd754fd049c9b80a3f62fd4e4138d22dad83e54eaa04ec253c5ad826af632",
@@ -507,6 +508,13 @@
       176.78
     ]
   ],
+  "sourceChecks": {
+    "pitchOnsetInventory": {
+      "kind": "set",
+      "matched": true,
+      "count": 282
+    }
+  },
   "endpointMeasurements": [
     {
       "label": "first",
@@ -546,7 +554,7 @@
   "adaptiveOnsetCount": 323,
   "adaptiveMedianDeviation": 0.037230071515788055,
   "gateReasons": [],
-  "elapsedSeconds": 0.9557853429578245,
+  "elapsedSeconds": 0.7201753060217015,
   "dtwSteps": [
     [
       1,
@@ -572,7 +580,7 @@
     "voices": 4
   },
   "published": true,
-  "configSha256": "83e6cda1ae1217908896cad7382802b04e0fe303ba87c0a67b7055a68bca48bc",
+  "configSha256": "6c9f97896710b0aa79faa5f143ac211c57b7a2a3e608e86c9fe3031b88075143",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.ly",

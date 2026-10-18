@@ -11,6 +11,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "main": "Sym9-lys/Mvt4_conFuoco.ly",
     "midi": "Mvt4_conFuoco.mid",
+    "patches": [
+      {
+        "file": "Sym9-lys/header.ily",
+        "old": "(string? string? ly:dir? ly:music? ly:music?)",
+        "new": "(string? string? ly:dir? ly:pitch? ly:music?)",
+        "basis": "The trCueWhile mc argument is a pitch passed to transposedCueDuring. Modern LilyPond requires ly:pitch?, not the old ly:music? predicate. Only the disposable source is repaired; the same grouped source music is used for extraction and engraving, with exact published pitch/onset multiset proof before sounding-pitch corrections."
+      }
+    ],
     "downloads": [
       {
         "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-lys.zip",
@@ -25,11 +33,13 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi",
+    "mode": "compiled-midi",
+    "comparePublished": {},
+    "music": "\\keepWithTag #'score \\killCues << \\new Devnull \\conductormF \\new StaffGroup << \\new Staff = \"flute\" \\with { instrumentName = \"Flutes\" } << \\fluteImF \\fluteIImF >> \\new Staff = \"oboe\" \\with { instrumentName = \"Oboes\" } << \\oboeImF \\oboeIImF >> \\new Staff = \"clarinet\" \\with { instrumentName = \"Clarinets in A\" } << \\clarinetImF \\clarinetIImF >> \\new Staff = \"bassoon\" \\with { instrumentName = \"Bassoons\" } << \\bassoonImF \\bassoonIImF >> >> \\new StaffGroup << \\new Staff = \"french hornA\" \\with { instrumentName = \"Horns I II\" } << \\hornImF \\hornIImF >> \\new Staff = \"french hornB\" \\with { instrumentName = \"Horns III IV\" } << \\hornIIImF \\hornIVmF >> \\new Staff = \"trumpet\" \\with { instrumentName = \"Trumpets\" } << \\trumpetImF \\trumpetIImF >> \\new Staff = \"trombone\" \\with { instrumentName = \"Trombones I II III\" } << \\tromboneImF \\tromboneIImF \\bassTrombonemF >> >> \\new Staff = \"timpani\" \\with { instrumentName = \"Timpani\" } \\timpanimF \\new DrumStaff = \"cymbal\" \\with { instrumentName = \"Cymbal\" } \\cymbalmF \\unfoldRepeats \\new StaffGroup << \\new Staff = \"violin1\" \\with { instrumentName = \"Violins I\" } \\violinImF \\new Staff = \"violin2\" \\with { instrumentName = \"Violins II\" } \\violinIImF \\new Staff = \"viola\" \\with { instrumentName = \"Violas\" } \\violamF \\new Staff = \"cello\" \\with { instrumentName = \"Cellos\" } \\cellomF \\new Staff = \"bass\" \\with { instrumentName = \"Double basses\" } \\bassmF >> >>",
     "expectedTracks": [
-      "control track", "flute:", "oboe:", "clarinet:", "bassoon:",
-      "trombone:", "violin1:", "violin2:", "viola:", "cello:", "bass:",
-      "french hornA:", "french hornB:", "trumpet:", "timpani:", "cymbal:"
+      null, "flute:", "oboe:", "clarinet:", "bassoon:",
+      "french hornA:", "french hornB:", "trumpet:", "trombone:",
+      "timpani:", "cymbal:", "violin1:", "violin2:", "viola:", "cello:", "bass:"
     ]
   },
   "voices": [
@@ -38,7 +48,25 @@
     { "id": "clarinets", "name": "Clarinets", "tracks": ["clarinet:"] },
     { "id": "bassoons", "name": "Bassoons", "tracks": ["bassoon:"] },
     { "id": "horns", "name": "Horns", "tracks": ["french hornA:", "french hornB:"] },
-    { "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet:"] },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": ["trumpet:"],
+      "transposeRanges": [
+        {
+          "fromQ": 0,
+          "toQ": 780,
+          "semitones": 12,
+          "basis": "Source trumpet e/ef encodes an octave below the written E/E-flat trumpet convention: E sounds a major third above, E-flat a minor third above (https://utminers.utep.edu/charlesl/transpose.html). Original full score PDF56/printed234 has written C4 at bar 10, sounding E4/MIDI64, not the published MIDI52. At bar 196 the source changes to c', already concert pitch."
+        },
+        {
+          "fromQ": 1000,
+          "toQ": 1392,
+          "semitones": 12,
+          "basis": "At rehearsal 10/bar 251 the source returns from c' to e. Apply the same E-trumpet octave correction through bar 348; the intervening C section q780–1000 is unchanged. PDF80/printed258 confirms the final written C4/C5 trumpet octave, sounding E4/E5."
+        }
+      ]
+    },
     { "id": "trombones", "name": "Trombones", "tracks": ["trombone:"] },
     { "id": "violins-1", "name": "Violins I", "tracks": ["violin1:"] },
     { "id": "violins-2", "name": "Violins II", "tracks": ["violin2:"] },
@@ -53,27 +81,30 @@
     "count": 348,
     "quarters": 4,
     "order": [[1, 348]],
-    "description": "Bars 1–348 once, without a pickup or structural repeat. The source doubles the original note values into 4/4; its conductor reaches rehearsal 12 at bar 299, Meno mosso at bar 327, then four plus eighteen bars to the close. Local unfold/percent repetitions are written-out figurations, not a second traversal."
+    "description": "Bars 1–348 once, 4/4 throughout, without a pickup or structural repeat. The conductor reaches rehearsal 12 at bar 299, Meno mosso at bar 327, then four plus eighteen bars to the close. Local unfold/percent repetitions are written-out figurations, not a second traversal. Original full-score PDF55/printed233 confirms common time and the same opening durations; the conductor file's inherited comment about doubled note values does not describe this movement."
   },
   "endpoints": {
-    "first": [0, 2],
-    "last": [684, 695],
-    "basis": "Initial source-led inspection windows, not listening annotations: the opening is the strings' B in octaves (MIDI 35, 47, 59); the last attack is the E-major chord at source q1388, followed by held winds and brass. The cached 702.9-second recording's final E-major energy decays through its closing seconds. Fresh pitch-energy overlays must establish the attack inside these windows before any publication."
+    "first": [0.2, 0.5],
+    "last": [697.15, 697.6],
+    "basis": "Fresh pitch-energy inspection, not listening: the opening B-octave energy first rises at 0.36 s (peak 0.40); the broader window incorrectly selected a later bow-energy swell at 0.66 s. The final whole E-major chord is the last isolated attack at about 697.30 s (peak 697.36), after the short closing chord sequence at 693.02, 693.76, 694.48 and 695.88 s. The initial 687.96 s choice was still inside the fast preceding passage and was rejected despite a small onset deviation. Original full-score PDF80/printed258 shows the matching short attacks then held winds/brass with string/trombone/timpani rests. Windows are source/order constraints, not detector-threshold tuning."
   },
   "diagnostics": {
-    "overlays": [[0, 12], [680, 702.9]]
+    "overlays": [[0, 12], [224, 232], [672, 680], [680, 688], [680, 702.9]]
   },
   "engraving": {
+    "music": "\\keepWithTag #'score \\killCues << \\new Devnull \\conductormF \\new StaffGroup << \\new Staff = \"flute\" \\with { instrumentName = \"Flutes\" } << \\fluteImF \\fluteIImF >> \\new Staff = \"oboe\" \\with { instrumentName = \"Oboes\" } << \\oboeImF \\oboeIImF >> \\new Staff = \"clarinet\" \\with { instrumentName = \"Clarinets in A\" } << \\clarinetImF \\clarinetIImF >> \\new Staff = \"bassoon\" \\with { instrumentName = \"Bassoons\" } << \\bassoonImF \\bassoonIImF >> >> \\new StaffGroup << \\new Staff = \"french hornA\" \\with { instrumentName = \"Horns I II\" } << \\hornImF \\hornIImF >> \\new Staff = \"french hornB\" \\with { instrumentName = \"Horns III IV\" } << \\hornIIImF \\hornIVmF >> \\new Staff = \"trumpet\" \\with { instrumentName = \"Trumpets\" } << \\trumpetImF \\trumpetIImF >> \\new Staff = \"trombone\" \\with { instrumentName = \"Trombones I II III\" } << \\tromboneImF \\tromboneIImF \\bassTrombonemF >> >> \\new Staff = \"timpani\" \\with { instrumentName = \"Timpani\" } \\timpanimF \\new DrumStaff = \"cymbal\" \\with { instrumentName = \"Cymbal\" } \\cymbalmF \\unfoldRepeats \\new StaffGroup << \\new Staff = \"violin1\" \\with { instrumentName = \"Violins I\" } \\violinImF \\new Staff = \"violin2\" \\with { instrumentName = \"Violins II\" } \\violinIImF \\new Staff = \"viola\" \\with { instrumentName = \"Violas\" } \\violamF \\new Staff = \"cello\" \\with { instrumentName = \"Cellos\" } \\cellomF \\new Staff = \"bass\" \\with { instrumentName = \"Double basses\" } \\bassmF >> >>",
     "staff": 13,
     "width": 290,
     "height": 410
   },
-  "method": "CC BY-SA 3.0 orchestral LilyPond/published MIDI → source-staff performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows. Existing approximate passage labels are non-independent locators, not listening annotations. Note-offs are warped notation, not measured releases; final written holds extend to an estimated decay threshold. Provisional, not checked by ear.",
+  "method": "CC BY-SA 3.0 orchestral LilyPond → source-staff performed event table; regenerated pitch/onset multiset checked against published MIDI before explicit sounding-pitch corrections. Tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows. Existing approximate passage labels are non-independent locators, not listening annotations. Note-offs are warped notation, not measured releases; final written holds extend to an estimated decay threshold. Provisional, not checked by ear.",
   "provenance": [
     "Mutopia1793, Keith OHara, Simrock 1894 orchestral source, CC BY-SA 3.0. Main-file SHA-256 dfdbd22023909d9f1a4f71046547abf21d0b4a9ace525b8d55628d3e97eab208; movement MIDI SHA-256 71c515b6c3ea75dc9958e5fb9ea45e1f930b1b05c8a5799cea8ed93273cef97d. Original cached archives are copied, not modified.",
-    "The 384-PPQ published MIDI has 16 named tracks including its silent control track, 15 sounding staff tracks and 14 grouped instrument sections; all 14,310 source note events are retained. Its last onset is q1388 and final held releases are q1392, exactly 348 four-quarter source bars. No structural repeat, first ending or pickup occurs in this movement; no additional unfolding is applied.",
+    "The 384-PPQ published MIDI has 16 named tracks including its silent control track, 15 sounding staff tracks and 14 grouped instrument sections. Modern compilation retains the original MIDI staff grouping and all 14,310 source attacks, with exact pitch/onset multiset equality required before the explicit trumpet corrections. Its last onset is q1388 and final held releases are q1392, exactly 348 four-quarter source bars. No structural repeat, first ending or pickup occurs in this movement; the original local string unfoldRepeats does not add a second traversal.",
     "Track names, not GM patches or registers, identify sections. The two horn staves group four horns; the trombone staff merges alto, tenor and bass trombones, without tuba. Oboes have no cor-anglais doubling here. The actual cymbal part contains one unpitched crash at q254 lasting seven source quarters; MIDI percussion key 49 is retained as an encoding token, not claimed to be a sounding C-sharp pitch.",
-    "Source-declared transpositions are retained: A clarinets; horns E/F/E, with horns III/IV additionally C/E; trumpets E/E-flat/E/C/E. These MIDI pitches already include the source transpositions. Flutes, oboes, bassoons, trombones, timpani, violins, violas and cellos need no added shift. All source clef changes and ottavas remain notation, not inferred instrument identities.",
-    "The bass_8 source is already sounding: its opening B1 is MIDI35, an octave below cello B2 MIDI47; minimum bass pitch is E1 MIDI28. No blanket minus-12 correction is applied. The last E-major sonority has pitch classes E, G-sharp and B; winds/horns/trumpets hold four source quarters, while strings/trombones/timpani have one-quarter attacks followed by rests. Warped durations are not measured bow or breath releases."
+    "A clarinets and horns E/F/E (III/IV additionally C/E) already sound at the source-declared transpositions. E/E-flat trumpet segments alone receive the documented octave correction; the C-trumpet segment q780–1000 uses c' and is unchanged. Flutes, oboes, bassoons, trombones, timpani, violins, violas and cellos need no added shift. All source clef changes and ottavas remain notation, not inferred instrument identities.",
+    "The bass_8 source is already sounding: its opening B1 is MIDI35, an octave below cello B2 MIDI47; minimum bass pitch is E1 MIDI28. Original full-score PDF55/printed233 confirms written bass B2 sounding B1. No blanket minus-12 correction is applied. The last E-major sonority has pitch classes E, G-sharp and B; winds/horns/trumpets hold four source quarters, while strings/trombones/timpani have one-quarter attacks followed by rests. Warped durations are not measured bow or breath releases.",
+    "Independent notation comparison: https://s9.imslp.org/files/imglnks/usimg/4/42/IMSLP405834-PMLP08710-DvorakSymph9.pdf PDF55–57/printed233–235 (opening, trumpet theme), PDF70/printed248 (C-trumpet change), PDF80/printed258 (final attack/hold distinction). Notation and feature inspection are not aural review.",
+    "The identical extraction/engraving wrapper retains every original source instrument variable, grouping on the original MIDI staves and adding explicit section labels. The three trombone parts remain truthfully grouped; no tuba is invented. Only the obsolete cue-function pitch predicate is repaired in derivative sources. Original source slur/hairpin and dangling-tie warnings are not silently rewritten."
   ]
 }

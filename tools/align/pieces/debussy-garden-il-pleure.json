@@ -10,6 +10,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "main": "song.ly",
     "musicxml": "lc5060918.mxl",
+    "otherDynamicsWords": true,
     "downloads": [
       {
         "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Debussy%2C_Claude/Ariettes_Oubli%C3%A9es/2_Il_pleure_dans_mon_coeur/lc5060918.mxl",
@@ -17,5 +18,76 @@
         "sha256": "fa5a10c4844855430ec517570fa895e792e3b6b50516058b64af5624e87af4c4"
       }
     ]
+  },
+  "extraction": {
+    "mode": "isolated-voices",
+    "staves": ["voice", "1", "2"]
+  },
+  "voices": [
+    {
+      "id": "voice",
+      "name": "Voice (soprano)",
+      "music": "\\PartPOneVoiceOne",
+      "staff": "voice"
+    },
+    {
+      "id": "piano-upper-1",
+      "name": "Piano · encoded voice 1 (cross-staff)",
+      "music": "\\PartPTwoVoiceOne",
+      "staff": "1"
+    },
+    {
+      "id": "piano-upper-2",
+      "name": "Piano · encoded voice 2 (cross-staff)",
+      "music": "\\PartPTwoVoiceTwo",
+      "staff": "1"
+    },
+    {
+      "id": "piano-lower-5",
+      "name": "Piano lower staff · encoded voice 5",
+      "music": "\\PartPTwoVoiceFive",
+      "staff": "2"
+    },
+    {
+      "id": "piano-lower-6",
+      "name": "Piano lower staff · encoded voice 6",
+      "music": "\\PartPTwoVoiceSix",
+      "staff": "2"
+    },
+    {
+      "id": "piano-lower-7",
+      "name": "Piano lower staff · encoded voice 7",
+      "music": "\\PartPTwoVoiceSeven",
+      "staff": "2"
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 80,
+    "quarters": 3,
+    "order": [[1, 80]],
+    "description": "Complete printed bars 1–80 once. All four stanzas of Verlaine's poem are written out; no repeat or pickup is encoded. The five-sharp opening signature gives way to no signature at bar 47 and returns at bar 57. This candidate tests complete-song correspondence rather than assuming the recording has no cut."
+  },
+  "endpoints": {
+    "first": [0.9, 1.5],
+    "last": [126.8, 128.4],
+    "basis": "Windows selected from the cached transfer's absolute-pitch spectrogram, work/debussy-garden-il-pleure-preparation-endpoints.png: initial D-sharp5/B4 motion starts near 1.2 s; the closing high-register dyad is inspected separately from the later noise cutoff. These are provisional source-pitch windows, not aural or word-aligned review."
+  },
+  "boundaries": [],
+  "diagnostics": {
+    "overlays": [[55, 76], [73, 94], [118, 132.4]]
+  },
+  "provenance": [
+    "This exact voice-and-piano song is OpenScore Lieder no. 2, transcribed from IMSLP #14819 according to the primary catalogue: https://github.com/OpenScore/Lieder/tree/main/scores/Debussy%2C_Claude/Ariettes_Oubli%C3%A9es/2_Il_pleure_dans_mon_coeur . The encoding is CC0 (https://github.com/OpenScore/Lieder#license-and-acknowledgement); downloaded bytes retain the inventory SHA-256. No individually named encoder or printed-edition imprint is claimed.",
+    "The eligible existing recording is Mary Garden, soprano, with Claude Debussy, piano, Paris 1904; see content/listen/debussy-garden-il-pleure.mjs and its BnF/discographic evidence. This source is not La Chevelure or Mes longs cheveux.",
+    "P1 is Voice, one treble line; P2 is PIANO, two staves with encoded voices 1, 2, 5, 6 and 7. Cross-staff movement of voices 1 and 2 is retained using the existing isolated-voice destination staves. Labels describe source encoding identities, not audio separation or MIDI instrument patches. All source lyrics remain in the engraving.",
+    "Measured opening peaks 626.40/494.76 Hz at 1.0–1.5 s and 621.35/493.16 Hz at 3.0–3.5 s match written D-sharp5/B4 without a semitone or octave correction. Global transfer tuning estimate is +5 cents (A=441.272607 Hz); audible-performance tuning, the historical recording speed and the performers' original chosen key are not inferred from that global estimate. The source contains no transpose or octave-clef instruction.",
+    "The source's nonstandard dynamics ad libitum and con sordine are preserved as words by the supported MusicXML conversion option. Simultaneous/closing-slur and negative-skip converter warnings are retained for source-integrity inspection, not suppressed. A source or alignment failure must withhold this candidate regardless of nearby onset agreement."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 240,
+    "height": 320,
+    "music": "<< \\new Staff << \\set Staff.instrumentName = \"Voice\" \\context Staff << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPOneVoiceOne\" { \\PartPOneVoiceOne } \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\set stanza = \"1.\" \\PartPOneVoiceOneLyricsOne } >> >> \\new PianoStaff << \\set PianoStaff.instrumentName = \"PIANO\" \\context Staff = \"1\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\context Voice = \"PartPTwoVoiceTwo\" { \\voiceTwo \\PartPTwoVoiceTwo } >> \\context Staff = \"2\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\context Voice = \"PartPTwoVoiceFive\" { \\voiceOne \\PartPTwoVoiceFive } \\context Voice = \"PartPTwoVoiceSix\" { \\voiceTwo \\PartPTwoVoiceSix } \\context Voice = \"PartPTwoVoiceSeven\" { \\voiceThree \\PartPTwoVoiceSeven } >> >> >>"
   }
 }

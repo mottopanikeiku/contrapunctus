@@ -159,7 +159,7 @@ export async function mount(app) {
   if (slides.length) {
     const cap = $('.hero-caption');
     const dots = $$('.hero-dots button');
-    let i = 0, timer;
+    let i = 0, timer, preloadTimer;
     // Later slides carry data-src/data-srcset; fetch each one a slide ahead so the hero costs one image up front.
     const prime = (k) => {
       const slide = slides[(k + slides.length) % slides.length], im = slide?.querySelector('img[data-src]');
@@ -176,12 +176,16 @@ export async function mount(app) {
       slides[i].classList.add('on'); dots[i]?.classList.add('on');
       cap.innerHTML = slides[i].dataset.caption;
     };
-    const auto = () => { clearInterval(timer); if (!reduced) timer = setInterval(() => show(i + 1), 9000); };
-    cleanups.push(() => clearInterval(timer));
+    const auto = () => {
+      clearInterval(timer); clearTimeout(preloadTimer);
+      if (!reduced) {
+        preloadTimer = setTimeout(() => prime(i + 1), 6000);
+        timer = setInterval(() => show(i + 1), 9000);
+      }
+    };
+    cleanups.push(() => { clearInterval(timer); clearTimeout(preloadTimer); });
     dots.forEach((d, n) => d.addEventListener('click', () => { show(n); auto(); }));
     cap.innerHTML = slides[0].dataset.caption;
-    addEventListener('load', () => prime(1), { once: true });
-    if (document.readyState === 'complete') prime(1);
     auto();
   }
 

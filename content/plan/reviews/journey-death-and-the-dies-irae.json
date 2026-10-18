@@ -2,9 +2,12 @@
   "id": "death-and-the-dies-irae",
   "verdict": "pass",
   "defects": [],
+  "resolvedDefects": [
+    "MEAS: s6 endpoint corrected from 122.09 to 122.08 seconds after exact cached Verdi duration 122.083265 was measured; changed field reopened. The complete chant, Berlioz and Prelude endpoints are also within exact cached-file durations."
+  ],
   "reviewed": {
     "publication": "MEAS: all five listen ids are published: Rachmaninoff Prelude is in the baseline; Pange lingua, Berlioz finale, Liszt Sonata and Verdi Dies irae have pass recording reviews, opened directly.",
-    "timing": "MEAS: all five content/listen modules and cache/analysis reports opened. Eight stations total 1256.14 seconds, 20 minutes 56.14 seconds. Excerpt bounds are inside the recording durations; Berlioz splits at authored section boundaries 335 and 490 seconds, Liszt stops at 208, and the Prelude splits at its 138-second return and ends with its complete recorded decay. Whole chant and Verdi opening-number endpoints retain their recorded tails.",
+    "timing": "MEAS: all five content/listen modules and cache/analysis reports opened. Eight stations total 1256.13 seconds, 20 minutes 56.13 seconds. Excerpt bounds are inside the recording durations; Berlioz splits at authored section boundaries 335 and 490 seconds, Liszt stops at 208, and the Prelude splits at its 138-second return and ends with its complete recorded decay. Whole chant and Verdi opening-number endpoints retain their recorded tails.",
     "cues": "MEAS: every cue compared with the recording-specific module. Broad Berlioz bells/chant, rhythmic diminution, imitating round, combination and late col legno agree with its guide; Liszt opening motifs and Grandioso agree; Verdi opening blows, reduction and Quantus tremor agree; Rachmaninoff voicing, triplet transition, four-stave return and coda agree. Feature-report chroma was not treated as proof of notes or orchestration.",
     "claims": "EXT: opened composer programme and score commentary distinguish Berlioz chant and round; Liszt premiere attendance and 1833 transcription are documented. The direct Berlioz-to-Totentanz route remains explicitly inferred. Saint-Saëns details match the opened Library of Congress essay. Verdi text inheritance is distinguished from plainchant quotation. Rachmaninoff picture stimulus and Paganini variation VII scoring match the opened sources.",
     "contextualAudio": "MEAS: absent Totentanz, Danse macabre, Isle of the Dead and Paganini recordings are not passed off as audible excerpts; their contextual substitutes are explicitly identified. Bruegel is not misidentified as the Pisa fresco and the displayed Böcklin colour version is not called the monochrome reproduction Rachmaninoff saw.",

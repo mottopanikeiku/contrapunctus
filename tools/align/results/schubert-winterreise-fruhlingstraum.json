@@ -1,0 +1,770 @@
+{
+  "uniqueScoreAttacks": 605,
+  "audioDetectedOnsets": 444,
+  "medianAbsoluteOnsetDeviation": 0.19674314170110563,
+  "noteWeightedMedianDeviation": 0.20869414432442568,
+  "p95AbsoluteOnsetDeviation": 1.3720219939827867,
+  "fractionWithin150ms": 0.41818181818181815,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 20,
+      "median": 0.4854023831754921,
+      "p95": 1.5359888399804358,
+      "max": 1.6274829931972787,
+      "adaptiveMedian": 0.03426154906406986,
+      "adaptiveP95": 0.0576341870081364
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 25,
+      "median": 0.10357967492552511,
+      "p95": 0.9917339380196505,
+      "max": 1.120584233693478,
+      "adaptiveMedian": 0.05527055266551173,
+      "adaptiveP95": 0.08732847583477862
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 18,
+      "median": 0.1481774932195119,
+      "p95": 0.40008650867754575,
+      "max": 0.7123765061580158,
+      "adaptiveMedian": 0.021130674492018997,
+      "adaptiveP95": 0.06650091147570344
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 17,
+      "median": 0.11526032635276451,
+      "p95": 1.2769692765995273,
+      "max": 1.3336596860966523,
+      "adaptiveMedian": 0.06556756035747924,
+      "adaptiveP95": 0.16513823307100628
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 17,
+      "median": 0.09391756702680709,
+      "p95": 0.2985048241518866,
+      "max": 0.48240273887332563,
+      "adaptiveMedian": 0.03844648970699183,
+      "adaptiveP95": 0.11691014183450786
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 12,
+      "median": 0.18808679027166164,
+      "p95": 0.3213087457205095,
+      "max": 0.3389785543847097,
+      "adaptiveMedian": 0.09241696678671474,
+      "adaptiveP95": 0.13708945800542194
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 13,
+      "median": 0.07835489751456493,
+      "p95": 0.2705173625005554,
+      "max": 0.3839171224045188,
+      "adaptiveMedian": 0.05095638255301793,
+      "adaptiveP95": 0.11614245698279427
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 14,
+      "median": 0.5439618069450027,
+      "p95": 1.9999474678760378,
+      "max": 2.178647903605885,
+      "adaptiveMedian": 0.027317816015298035,
+      "adaptiveP95": 0.09325547996976374
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 30,
+      "median": 0.18188030767861818,
+      "p95": 0.6473883108799061,
+      "max": 0.7465906362544814,
+      "adaptiveMedian": 0.040804988662131336,
+      "adaptiveP95": 0.09577875594681941
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 25,
+      "median": 0.13542750433506967,
+      "p95": 0.4642955849006369,
+      "max": 0.5348081454804117,
+      "adaptiveMedian": 0.02734071406341343,
+      "adaptiveP95": 0.09753456938332476
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 21,
+      "median": 0.1337326041527831,
+      "p95": 0.4682944288826576,
+      "max": 0.4829576274954377,
+      "adaptiveMedian": 0.031105775643624156,
+      "adaptiveP95": 0.06823351562846369
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 25,
+      "median": 0.17982259570494818,
+      "p95": 0.8485629807478317,
+      "max": 1.0645938375350283,
+      "adaptiveMedian": 0.033831310301891904,
+      "adaptiveP95": 0.061579120537098186
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 25,
+      "median": 0.26050153394690767,
+      "p95": 0.8542551242719354,
+      "max": 0.8683624560935357,
+      "adaptiveMedian": 0.03573340447290718,
+      "adaptiveP95": 0.12692952736650215
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 23,
+      "median": 0.2081161353430332,
+      "p95": 0.733966342092398,
+      "max": 0.9329144991329912,
+      "adaptiveMedian": 0.03199768796406488,
+      "adaptiveP95": 0.09114699213018722
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 17,
+      "median": 0.5597430083144275,
+      "p95": 3.4389499799919885,
+      "max": 3.798827975634694,
+      "adaptiveMedian": 0.035172735760966134,
+      "adaptiveP95": 0.07455568894225734
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 19,
+      "median": 1.591241830065357,
+      "p95": 4.197298919567822,
+      "max": 4.34867547018807,
+      "adaptiveMedian": 0.0422995865012723,
+      "adaptiveP95": 0.10430750077809547
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 10,
+      "median": 0.6766267247639917,
+      "p95": 1.2703602329820907,
+      "max": 1.4111813614334778,
+      "adaptiveMedian": 0.028758169934647526,
+      "adaptiveP95": 0.06676423902894725
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 15,
+      "median": 0.15216664443556738,
+      "p95": 0.3011830509981678,
+      "max": 0.3219910186296602,
+      "adaptiveMedian": 0.05681294740116982,
+      "adaptiveP95": 0.12578738161929826
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 18,
+      "median": 0.11894379974209812,
+      "p95": 0.23918029433996807,
+      "max": 0.3224667644835506,
+      "adaptiveMedian": 0.0543341781156812,
+      "adaptiveP95": 0.14850611355654023
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 16,
+      "median": 0.09496909875061021,
+      "p95": 0.8192928282424106,
+      "max": 0.915146503045662,
+      "adaptiveMedian": 0.061765595126928474,
+      "adaptiveP95": 0.12392268018317765
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 17,
+      "median": 0.05756435907699142,
+      "p95": 0.22702921168469734,
+      "max": 0.3386176692899596,
+      "adaptiveMedian": 0.04982259570496694,
+      "adaptiveP95": 0.11530060913255508
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 10,
+      "median": 0.2243052776666019,
+      "p95": 1.0210867013471976,
+      "max": 1.2685180738962174,
+      "adaptiveMedian": 0.031421457471878966,
+      "adaptiveP95": 0.07218167266909176
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 15,
+      "median": 0.386154461784713,
+      "p95": 1.421181598565377,
+      "max": 1.549479347294465,
+      "adaptiveMedian": 0.042959405984618115,
+      "adaptiveP95": 0.1712633053221366
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 12,
+      "median": 0.41440739258669623,
+      "p95": 1.0723166599973293,
+      "max": 1.3734782802009704,
+      "adaptiveMedian": 0.04004105345839548,
+      "adaptiveP95": 0.0886077542127694
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 24,
+      "median": 0.13220199190787696,
+      "p95": 0.4630023120359027,
+      "max": 0.5944515584011469,
+      "adaptiveMedian": 0.0271670890578406,
+      "adaptiveP95": 0.07174889955982447
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 30,
+      "median": 0.41238562091503184,
+      "p95": 1.2139910408607875,
+      "max": 1.298130363256405,
+      "adaptiveMedian": 0.030286336756944365,
+      "adaptiveP95": 0.09850982615265584
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 20,
+      "median": 0.18761749144103135,
+      "p95": 0.7544217390659924,
+      "max": 0.7846840958605412,
+      "adaptiveMedian": 0.025162731759380108,
+      "adaptiveP95": 0.09200692869739983
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 25,
+      "median": 0.42363434262594524,
+      "p95": 1.1185841447690161,
+      "max": 1.223321328531398,
+      "adaptiveMedian": 0.03194477791114991,
+      "adaptiveP95": 0.058823351562824644
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 24,
+      "median": 0.16399226357209784,
+      "p95": 0.6321262505002148,
+      "max": 0.7191818949802098,
+      "adaptiveMedian": 0.03663020763862335,
+      "adaptiveP95": 0.09262249344180727
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 24,
+      "median": 0.0953872660175108,
+      "p95": 0.5019375972611227,
+      "max": 0.5937735094037464,
+      "adaptiveMedian": 0.032277800008898794,
+      "adaptiveP95": 0.060107976523939045
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 17,
+      "median": 0.22337290471742222,
+      "p95": 0.4763746387443971,
+      "max": 0.6963136365657476,
+      "adaptiveMedian": 0.05159486016628989,
+      "adaptiveP95": 0.10222382286249283
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 7,
+      "median": 1.4717086834733664,
+      "p95": 2.6868764394646543,
+      "max": 2.8520136943666046,
+      "adaptiveMedian": 0.022444533368940256,
+      "adaptiveP95": 0.04540407274022583
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 19,
+      "median": 1.591241830065357,
+      "p95": 4.197298919567822,
+      "max": 4.34867547018807,
+      "adaptiveMedian": 0.0422995865012723,
+      "adaptiveP95": 0.10430750077809547
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 7,
+      "median": 1.4717086834733664,
+      "p95": 2.6868764394646543,
+      "max": 2.8520136943666046,
+      "adaptiveMedian": 0.022444533368940256,
+      "adaptiveP95": 0.04540407274022583
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 10,
+      "median": 0.6766267247639917,
+      "p95": 1.2703602329820907,
+      "max": 1.4111813614334778,
+      "adaptiveMedian": 0.028758169934647526,
+      "adaptiveP95": 0.06676423902894725
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 17,
+      "median": 0.5597430083144275,
+      "p95": 3.4389499799919885,
+      "max": 3.798827975634694,
+      "adaptiveMedian": 0.035172735760966134,
+      "adaptiveP95": 0.07455568894225734
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 14,
+      "median": 0.5439618069450027,
+      "p95": 1.9999474678760378,
+      "max": 2.178647903605885,
+      "adaptiveMedian": 0.027317816015298035,
+      "adaptiveP95": 0.09325547996976374
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 12,
+      "median": 0.18808679027166164,
+      "p95": 0.3213087457205095,
+      "max": 0.3389785543847097,
+      "adaptiveMedian": 0.09241696678671474,
+      "adaptiveP95": 0.13708945800542194
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 17,
+      "median": 0.11526032635276451,
+      "p95": 1.2769692765995273,
+      "max": 1.3336596860966523,
+      "adaptiveMedian": 0.06556756035747924,
+      "adaptiveP95": 0.16513823307100628
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 16,
+      "median": 0.09496909875061021,
+      "p95": 0.8192928282424106,
+      "max": 0.915146503045662,
+      "adaptiveMedian": 0.061765595126928474,
+      "adaptiveP95": 0.12392268018317765
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 15,
+      "median": 0.15216664443556738,
+      "p95": 0.3011830509981678,
+      "max": 0.3219910186296602,
+      "adaptiveMedian": 0.05681294740116982,
+      "adaptiveP95": 0.12578738161929826
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 25,
+      "median": 0.10357967492552511,
+      "p95": 0.9917339380196505,
+      "max": 1.120584233693478,
+      "adaptiveMedian": 0.05527055266551173,
+      "adaptiveP95": 0.08732847583477862
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 208.0,
+      "meanCosine": 0.2563638538825496
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.2887907538924017
+    },
+    {
+      "start": 184.0,
+      "meanCosine": 0.2949239037525952
+    },
+    {
+      "start": 48.0,
+      "meanCosine": 0.34198336424756787
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.35357321413977144
+    }
+  ],
+  "sections": [],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "0",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.96,
+      "nearestOnsetDeviation": 1.6274829931972787
+    },
+    {
+      "label": "middle",
+      "bar": "44",
+      "occ": 1,
+      "scoreQ": 114.0,
+      "audioSeconds": 120.42522875816994,
+      "nearestOnsetDeviation": 4.34867547018807
+    },
+    {
+      "label": "last",
+      "bar": "88",
+      "occ": 1,
+      "scoreQ": 227.5,
+      "audioSeconds": 250.48122004357296,
+      "nearestOnsetDeviation": 2.8520136943666046
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 31,
+      "voice": "piano-lower-5",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    },
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 34,
+      "voice": "piano-lower-5",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    },
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 38,
+      "voice": "piano-lower-5",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    },
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 43,
+      "voice": "piano-lower-5",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    },
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 55,
+      "voice": "piano-upper-1",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    },
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 58,
+      "voice": "piano-upper-1",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    },
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 62,
+      "voice": "piano-upper-1",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    },
+    {
+      "bar": "88",
+      "occ": 1,
+      "midi": 67,
+      "voice": "piano-upper-1",
+      "durationQ": 2.0,
+      "onset": 250.48122004357296,
+      "offset": 254.34,
+      "durationSeconds": 3.8587799564270426
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.004295683551196916,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.47840271785214233,
+  "endAnchor": {
+    "scoreQ": 229.5,
+    "audioSeconds": 254.34,
+    "decodedDuration": 259.23918367346937,
+    "activeEndMinus45dB": 254.33977324263037
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "schubert-winterreise-fruhlingstraum",
+  "tuningHz": 452.37,
+  "audioSha256": "24c3e6e5993a73bf3454c56c1e8aabfa0cbbf13c4659cc6a8e2a20d189f21d41",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "OpenScore Lieder releases these encodings under CC0: https://github.com/OpenScore/Lieder#license-and-acknowledgement . Exact downloaded MXL bytes match the inventory SHA-256. This is voice and piano, not an orchestral arrangement; Mutopia 373 is Einsamkeit and is not used.",
+    "Source part P1 is Singstimme (one treble-clef vocal line); P2 is Pianoforte (two staves with explicitly numbered MusicXML voices). Each source voice is extracted separately. These are encoding identities, not source-separated audio or MIDI-patch-derived instruments.",
+    "The recording is Hans Duhan, baritone, with Ferdinand Foll, piano (1928): Christian Utz, ZGMTH 18/Sonderausgabe (2021), https://www.gmth.de/zeitschrift/artikel/1132.aspx . The conventional treble vocal line sounds one octave below its written pitches. The engraving labels that octave convention explicitly; no vocal lyrics are stripped.",
+    "Transposition describes the sounding pitches of this particular Commons transfer relative to the global librosa tuning estimate, not a claim about the historical performers’ selected key or original tuning. Utz footnote 73 explicitly warns that Duhan’s transferred pitch/key is particularly uncertain. Absolute piano spectra, not filenames or a global key-classifier label, determine the configured shifts.",
+    "Opening piano E5 and A3 become nominal D5 and G3: measured peaks 603.9 and 201.7 Hz (2.5–3.0 s), at global tuning +48 cents (A=452.370 Hz). Additional global shift −2 semitones; vocal line an additional −12."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      250.1806100217865,
+      250.48
+    ]
+  ],
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note tie emission"
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.96,
+      "peakSeconds": 2.0,
+      "window": [
+        1.5,
+        2.4
+      ],
+      "midiPitches": [
+        74
+      ],
+      "basis": "Windows selected from absolute-pitch inspection of the cached Commons transfer. The final window isolates the last written piano attack, not the later surface-noise cutoff; see work/schubert-winterreise-fruhlingstraum-preparation-end.png. No listening annotation is claimed."
+    },
+    {
+      "label": "last",
+      "scoreQ": 227.5,
+      "audioSeconds": 250.48,
+      "peakSeconds": 250.54,
+      "window": [
+        250,
+        251.5
+      ],
+      "midiPitches": [
+        31,
+        34,
+        38,
+        43,
+        55,
+        58,
+        62,
+        67
+      ],
+      "basis": "Windows selected from absolute-pitch inspection of the cached Commons transfer. The final window isolates the last written piano attack, not the later surface-noise cutoff; see work/schubert-winterreise-fruhlingstraum-preparation-end.png. No listening annotation is claimed."
+    }
+  ],
+  "adaptiveOnsetCount": 1792,
+  "adaptiveMedianDeviation": 0.03639233471167813,
+  "gateReasons": [
+    "Median unique-onset deviation exceeds 0.15 seconds.",
+    "A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds."
+  ],
+  "elapsedSeconds": 0.6901555510121398,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 89,
+    "notes": 1273,
+    "voices": 4
+  },
+  "published": false,
+  "configSha256": "021faaf1e67ae3972b1a3723fd6e508790868a6739beb759fe29842925655a29",
+  "sourceDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/11_Fr%C3%BChlingstraum/lc5023603.mxl",
+      "file": "lc5023603.mxl",
+      "sha256": "a4a9cf7031385889659aa88bab88e46674f346dcf8e8154d46ea4ed63d7d3f00"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/schubert-winterreise-fruhlingstraum-0-9.96.png",
+    "work/schubert-winterreise-fruhlingstraum-8-16.png",
+    "work/schubert-winterreise-fruhlingstraum-24-32.png",
+    "work/schubert-winterreise-fruhlingstraum-40-48.png",
+    "work/schubert-winterreise-fruhlingstraum-50-68.png",
+    "work/schubert-winterreise-fruhlingstraum-56-64.png",
+    "work/schubert-winterreise-fruhlingstraum-112-120.png",
+    "work/schubert-winterreise-fruhlingstraum-116.425-128.425.png",
+    "work/schubert-winterreise-fruhlingstraum-118-135.png",
+    "work/schubert-winterreise-fruhlingstraum-120-128.png",
+    "work/schubert-winterreise-fruhlingstraum-128-136.png",
+    "work/schubert-winterreise-fruhlingstraum-136-144.png",
+    "work/schubert-winterreise-fruhlingstraum-152-160.png",
+    "work/schubert-winterreise-fruhlingstraum-177-195.png",
+    "work/schubert-winterreise-fruhlingstraum-246.481-258.481.png",
+    "work/schubert-winterreise-fruhlingstraum-247-255.png",
+    "work/schubert-winterreise-fruhlingstraum-248-256.png"
+  ],
+  "publicationDecision": {
+    "outcome": "withheld",
+    "publishCommandRun": false,
+    "engravingAndSheetpackRun": false,
+    "reasons": [
+      "Median unique-onset deviation exceeds 0.15 seconds.",
+      "A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds."
+    ]
+  },
+  "manualInspection": {
+    "classification": "MEAS source inventory and image inspection; no aural review",
+    "auralReviewPerformed": false,
+    "sourceIdentity": {
+      "basis": "Direct original MusicXML-to-events multiset of quarter onset, sounding MIDI pitch and encoded voice, after the general per-note tie conversion correction. Tied continuations and grace anticipation timing are treated separately.",
+      "regularSourceAttacks": 1263,
+      "regularMatchedAttacks": 1263,
+      "sourceGraceNotes": 10,
+      "renderedGraceNotes": 10,
+      "missingRegularAttacks": 0,
+      "unexpectedRegularAttacks": 0
+    },
+    "resolvedSourceDefect": "Original musicxml2ly chord-level ties merged four untied reattacks at q81/82/83/84 (piano-upper-1, sounding pitches71/74/72/71). The shared guarded per-note-tie converter restores them without source-note synthesis. The corrected candidate has1273 rather than1269 events.",
+    "inspectedWindowsSeconds": [
+      [
+        0,
+        9.96
+      ],
+      [
+        116.425,
+        128.425
+      ],
+      [
+        246.481,
+        258.481
+      ],
+      [
+        120,
+        128
+      ],
+      [
+        40,
+        48
+      ],
+      [
+        80,
+        88
+      ],
+      [
+        208,
+        216
+      ]
+    ],
+    "additionalDiagnosticCommands": [
+      "/tmp/contrapunctus-align-venv/bin/python tools/align/diagnose.py schubert-winterreise-fruhlingstraum 80 88",
+      "/tmp/contrapunctus-align-venv/bin/python tools/align/diagnose.py schubert-winterreise-fruhlingstraum 208 216"
+    ],
+    "observations": [
+      "The conversion-integrity defect is resolved, but the mandatory primary-median and anchor gates still reject the candidate.",
+      "The weakest harmonic window208–216 seconds has mean cosine0.25636385. Inspection does not certify reliable local pitch/order correspondence.",
+      "The final written G-minor chord spans250.481220–254.34 seconds; durations are warped notation, not measured key releases.",
+      "Simultaneous-slur conversion warnings remain disclosed. Engraving and sheetpack were not run because the candidate is withheld."
+    ]
+  },
+  "commandsRun": [
+    "node tools/score.mjs schubert-winterreise-fruhlingstraum (rerun after source-preserving per-note tie correction)"
+  ]
+}

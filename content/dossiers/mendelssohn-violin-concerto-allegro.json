@@ -1,0 +1,206 @@
+{
+  "id": "mendelssohn-violin-concerto-allegro",
+  "work": {
+    "title": "Violin Concerto in E minor",
+    "catalogue": "Op. 64; MWV O 14",
+    "movement": "I. Allegro molto appassionato",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "youtube",
+        "wikipedia"
+      ],
+      "note": "Neither the Commons file page nor the YouTube description names the edition, the text (the printed version or the Kraków autograph, which Wikipedia says differs in the solo passage-work) or the first-movement cadenza played. The Breitkopf & Härtel full score on IMSLP (Rietz edition) is cited only as a viewable public-domain score for the timeline and page references."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Soojin Han",
+        "role": "violin (soloist)"
+      },
+      {
+        "name": "Seokwon Hong",
+        "role": "conductor"
+      },
+      {
+        "name": "Hankyung Arte Philharmonic",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "youtube",
+      "commons",
+      "hkphil"
+    ],
+    "note": "The video description on the YouTube channel named “한수진 Soojin Han” reads “Vn. Soojin Han / Cond. Seokwon Hong / Orch. Hankyung Arte Philharmonic”. The Commons file page names only the orchestra as author, linking the orchestra’s own site. That site’s news column reports a later concert (September 2026) played by the orchestra under a conductor named 홍석원 (Hong Seok-won, professor at Seoul National University), which supports the association but says nothing about the 2022 concert. No roster of players is given, and no second source for the soloist was opened."
+  },
+  "session": {
+    "date": {
+      "value": "23 September 2022",
+      "status": "documented",
+      "sourceIds": [
+        "youtube"
+      ],
+      "note": "The video description gives “23rd September 2022”. The Commons date field, 2023-02-18, is the YouTube upload date shown on the video page, not a session date; the Commons page does not state a performance date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Seoul Arts Centre Concert Hall",
+      "status": "documented",
+      "sourceIds": [
+        "youtube"
+      ],
+      "note": "The video description gives “Seoul Arts Centre Concert Hall”. No programme, press release or other source for the concert was opened."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "YouTube video on the channel “한수진 Soojin Han”; no commercial label",
+      "status": "documented",
+      "sourceIds": [
+        "youtube",
+        "commons"
+      ],
+      "note": "The video is titled “Mendelssohn Violin Concerto - Soojin Han”, runs 30:09 and was uploaded on 2023-02-18. This audio exists on Commons as three separate movement files cut from it; no disc or label release is documented."
+    },
+    "catalogue": {
+      "value": "YouTube video ID aegrdfHxXRA; Commons file Hankyung Arte Philharmonic - Mendelssohn's Violin Concerto in E minor, Op. 64, MWV O 14 - I. Allegro molto appassionato.ogg",
+      "status": "documented",
+      "sourceIds": [
+        "youtube",
+        "commons"
+      ],
+      "note": "These are the platform’s own identifiers, not a label catalogue number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "A digital concert video has no disc matrix, take or side. This is not a statement about the original capture medium."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "media"
+      ],
+      "note": "The Commons file history names the uploader “Toast for Teddy” (UploadWizard, 28 November 2023) and the page lists “Hankyung Arte Philharmonic” as author; neither identifies a recording, editing or mastering engineer. An uploader is not treated as a transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "media",
+        "youtube"
+      ],
+      "note": "The Commons upload (2023-11-28) and the YouTube upload (2023-02-18) are not transfer or session dates."
+    },
+    "processing": {
+      "value": "Ogg Vorbis file of about 146 kbit/s on Commons, 832.542 s, cut from a 30:09 YouTube video; the stream is a Wikimedia-made MP3 derivative (194–208 kbit/s measured on the cached copies), which adds a second lossy encode.",
+      "status": "inferred",
+      "sourceIds": [
+        "media",
+        "youtube",
+        "commons"
+      ],
+      "note": "Commons records the YouTube address as source, so the file is derived from the video’s audio; the three movement files total 1,734.4 s against 1,809 s for the video, leaving about 75 s unaccounted for (tuning, silence, applause or titles), and the cut points are not documented. The processing history before upload is unknown, and the bit rates are from the Commons media record and ffprobe."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_I._Allegro_molto_appassionato.ogg/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_I._Allegro_molto_appassionato.ogg.mp3",
+    "sourceChain": [
+      "youtube",
+      "commons"
+    ],
+    "format": "MP3 derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 832.542
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain by age: Mendelssohn died in 1847.",
+      "status": "inferred",
+      "sourceIds": [
+        "imslp",
+        "wikipedia"
+      ],
+      "note": "The Commons file pages carry no composition notice. The conclusion rests on the composer’s death date, which the IMSLP work page and Wikipedia give; it does not license a modern critical edition."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution 3.0 (CC BY 3.0), through the “YouTube CC-BY” licence template on Commons. Rights rule 1: the licence covers the sound recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "template",
+        "hkphil"
+      ],
+      "note": "The Commons file page applies {{YouTube CC-BY}}, whose text says the video or audio excerpt was released under the Creative Commons option on YouTube before August 2025 (then CC BY 3.0). The licence is set by the YouTube channel, which the Commons page does not name as author; the page shows no LicenseReview mark, and the YouTube page as fetched did not display its licence line, so the YouTube setting itself was not seen. The Commons author link goes to the orchestra’s own site (hkphil.com, titled 한경arte필하모닉), so the named author is the orchestra, but that site does not itself state the licence."
+    },
+    "creditLine": "Felix Mendelssohn, Violin Concerto in E minor, Op. 64, I. Allegro molto appassionato — Soojin Han (violin), Hankyung Arte Philharmonic, Seokwon Hong (conductor); Seoul Arts Centre Concert Hall, 23 September 2022. CC BY 3.0, via YouTube and Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Hankyung Arte Philharmonic - Mendelssohn's Violin Concerto in E minor, Op. 64, MWV O 14 - I. Allegro molto appassionato.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=999982350",
+      "locator": "Summary: description, date 2023-02-18, source (From YouTube aegrdfHxXRA), author Hankyung Arte Philharmonic; Licensing: {{YouTube CC-BY}}. Raw wikitext read on the access date; file history: first revision 826031193 by Toast for Teddy, 2023-11-28.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "youtube",
+      "title": "YouTube — Mendelssohn Violin Concerto - Soojin Han (video aegrdfHxXRA)",
+      "url": "https://www.youtube.com/watch?v=aegrdfHxXRA",
+      "locator": "Page header: channel 한수진 Soojin Han, uploaded 2023-02-18, duration 30:09. Description: Mendelssohn Violin Concerto in e minor op.64; Vn. Soojin Han; Cond. Seokwon Hong; Orch. Hankyung Arte Philharmonic; 23rd September 2022; Seoul Arts Centre Concert Hall. The licence line was not shown in the fetched text.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "template",
+      "title": "Wikimedia Commons — Template:YouTube CC-BY (English text)",
+      "url": "https://commons.wikimedia.org/wiki/Template:YouTube_CC-BY",
+      "locator": "English text of the template (Template:YouTube CC-BY/i18n/en): released under the Creative Commons option on YouTube before August 2025; cc-by-3.0 licence box. Raw wikitext read on the access date.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata API",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AHankyung%20Arte%20Philharmonic%20-%20Mendelssohn's%20Violin%20Concerto%20in%20E%20minor%2C%20Op.%2064%2C%20MWV%20O%2014%20-%20I.%20Allegro%20molto%20appassionato.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Ctimestamp%7Cuser%7Cderivatives&format=json&formatversion=2",
+      "locator": "videoinfo[0]: duration 832.542 s, MIME application/ogg, Vorbis and MP3 derivatives, uploader and timestamp 2023-11-28.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Violin Concerto in E minor, Op.64 (Mendelssohn, Felix)",
+      "url": "https://imslp.org/wiki/Violin_Concerto_in_E_minor,_Op.64_(Mendelssohn,_Felix)",
+      "locator": "General information: composition years, first performance (13 March 1845, Leipzig, Ferdinand David, Gade conducting), dedication, instrumentation; composer’s dates.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia — Violin Concerto (Mendelssohn)",
+      "url": "https://en.wikipedia.org/wiki/Violin_Concerto_(Mendelssohn)",
+      "locator": "Composition history, structure and legacy; the Kraków autograph with its different solo passage-work.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "hkphil",
+      "title": "Hankyung Arte Philharmonic (한경arte필하모닉) — home page",
+      "url": "https://www.hkphil.com/",
+      "locator": "Site title 한경arte필하모닉 (the orchestra), the author link on the Commons page; news column: a September 2026 concert played by 한경아르떼필하모닉 under 홍석원, professor at Seoul National University.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -219,9 +219,22 @@ checking; schema validation does not establish either.
 
 ### Search and recording exports
 
-`docs/assets/search.json` contains `{ type, title, sub, url, k }` entries with
-site-relative URLs and lowercase, accent-folded keywords. Work, lesson and
-gallery entries have generated anchors; recordings target `hall.html#<id>`.
+`docs/assets/search.json` is a prebuilt inverted index, loaded only when search
+opens: `{ v, size, w, p, b }`. `w` is a sorted vocabulary of whitespace-delimited,
+accent-folded tokens. Each string starts with a code point minus 32 giving the
+shared-prefix length with the previous word, followed by the remaining suffix.
+`p[i]` holds the word's ascending document postings: each code point minus 32 is
+`4 * documentIdDelta + flags` (bit 1: searchable text, bit 2: first title token).
+`b` holds the original composer/recording ranking boosts. The client retains
+the existing title-prefix, word-prefix and arbitrary-substring scores and stable
+tie order; it does not replace substring search with a narrower word search.
+
+Display rows live in `assets/search/<shard>.json`, arrays of
+`[type, title, sub, url]`, with `size` rows per shard (currently 16).
+Only shards containing the first 24 results are requested, with `?v=<v>`;
+`v` hashes the complete source entries. The shell caches the index and shard
+promises across navigation, and ignores results from superseded queries.
+Work, lesson and gallery URLs have generated anchors; recordings target `hall.html#<id>`.
 The index also covers glossary aliases, paintings and poems, Return Lab pages,
 and influence batches when present. Influence URLs are
 `influence.html#edge-<id>`, `#thread-<id>` and `#node-<id>`. Repeated figure IDs
@@ -233,6 +246,38 @@ JSON-encoded strings, preserving source identifiers and disputed alternatives.
 The JSON export retains nulls; blank CSV values do not imply a negative finding.
 Evidence summaries count field statuses rather than assigning a recording-wide
 confidence label. `sources.html` supplies the field-level notes and source links.
+
+### Persistent player and hall payloads
+
+`assets/listen/programme.json?v=<data-prog>` contains `{ composers, eras, rows }`.
+Each row is `[id, stream, duration, composerIndex, work, movement, set, concert, eraIndex]`;
+`concert` is 1/0, and `eraIndex` is -1 for a guest without an era. Composer
+portrait/focus/name metadata and era artwork/accent metadata are stored once,
+not once per recording. `player.getProgramme()` decodes this wire format once
+into the existing track objects; every consumer uses that same persistent player.
+Build-time comparisons and Return Lab receive the full in-memory programme,
+not the browser wire format.
+
+All other per-piece fields (including score flags, key/tuning, recording provenance,
+sections, cues, joins and composer biography) live in
+`assets/hall/<id>.json?v=<data-prog>` and are fetched when that piece opens.
+The composer inheritance and comparison-link indexes load only when their hall
+tabs are opened. `influence-details.json` remains lazy until an evidence card opens.
+Selecting/restoring a recording sets `preload=none`; audio downloads begin on Play
+or an activated Hall visit, never on passive navigation prefetch.
+
+The router coalesces hover/focus/touch prefetches with clicks, bounds its HTML cache
+to eight entries/four MB/ten minutes, and keeps inactive parsed stylesheets with
+`media="not all"` for return navigation. Relative stylesheet URLs are made absolute
+before history changes. Only the page body outside `#cp-persist` is replaced.
+Hall drawing follows requestAnimationFrame while visible; inactive views, hidden
+tabs and settled paused views do not keep drawing. Timeline waveforms and cue
+colours are cached until the track/envelope/size changes. Unchanged readouts,
+wheel data and orchestra styles do not trigger repeated DOM/canvas updates.
+
+`node tools/perf-preview.mjs 8768` serves the current build locally with gzip and
+GitHub Pages' 600-second cache lifetime for browser transfer accounting.
+
 
 
 ## The Web of Influence
@@ -381,7 +426,9 @@ distinguished. Exact normalised work-title matches expose published listens;
 fallbacks are explicitly labelled as other recordings by that composer.
 Playback uses `app.player.load(id, { play: true, t: 0 })`. The page module
 cleans up listeners, requests, resize observation and animation on unmount;
-reduced motion disables flashing and travelling dashes.
+reduced motion disables premiere flashing and the gold glints that travel
+along journey arcs. The static base and animated overlay are separate SVG
+surfaces, so a moving glint does not repaint the engraved coastline.
 
 ## Guided journeys
 
@@ -423,6 +470,10 @@ The page cross-fades, not a second audio element. Timed cues use absolute
 recording time. The final station pauses instead of starting the Hall’s
 next recording. While engaged, the journey temporarily owns the concert
 advance setting and restores it on departure or external track selection.
+The opaque transport has a soft fade above it. Station content reserves the
+transport’s measured height plus two rem below its last line; resize
+observation keeps this clearance correct when the mobile controls wrap or
+text is enlarged, and disconnects on router cleanup.
 
 Next/Previous, numbered stations, Left/Right keys and horizontal swipes
 change stations. Space pauses or resumes outside native controls and open

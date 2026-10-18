@@ -1,0 +1,24 @@
+{
+  "mutopia": 364,
+  "title": "Requiem, K. 626 — Dies irae",
+  "edition": "Breitkopf & Härtel, 1877, edited by Johannes Brahms; Süssmayr completion",
+  "encoder": "Martin Norbäck; 2014 update by Francisco Vila",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=364",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "dies_irae-lys/score.ly",
+  "midi": "dies_irae.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae-lys.zip",
+      "file": "dies_irae-lys.zip",
+      "sha256": "a681daadcb59be324dd481dba37983e508783a91b8774bb581bd3f3ff69af375"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae.mid",
+      "file": "dies_irae.mid",
+      "sha256": "988faf187f2a661bfbfe7d6ef5a53241b96c21394969f23c01d000dc9796a399"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "haydn-54-2-vivace",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[4].evidence; transitions[0].evidence",
+      "severity": "minor",
+      "problem": "The development boundary at 1:32 (0.99) is called the strongest, although the same report ranks 3:26 at 1.00.",
+      "evidence": "cache/analysis/haydn-54-2-vivace.txt: novelty-boundary list, 1:32 = 0.99 and 3:26 = 1.00.",
+      "fix": "Change both descriptions of 1:32 to a strong boundary rather than the strongest; retain its actual 0.99 value."
+    },
+    {
+      "where": "cues[7].evidence",
+      "severity": "minor",
+      "problem": "The p dolce second-group entry is on printed p. 181, not p. 180, in the cited Eulenburg score.",
+      "evidence": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP05812-Haydn_-_Op._54,_No._2.pdf — PDF p. 3, printed p. 181, first system.",
+      "fix": "Correct this locator to printed p. 181."
+    },
+    {
+      "where": "cues[8].text",
+      "severity": "minor",
+      "problem": "The passage near 3:25 is called the movement’s loudest, but the report’s maximum five-second window is 2:50 at −7.6 dB; 3:25 is −8.4 dB.",
+      "evidence": "cache/analysis/haydn-54-2-vivace.txt: loudest-window ranking.",
+      "fix": "Replace the superlative with one of the movement’s loudest stretches, or remove the ranking claim."
+    }
+  ]
+}

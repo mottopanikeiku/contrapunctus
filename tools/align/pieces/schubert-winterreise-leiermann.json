@@ -27,28 +27,28 @@
     {
       "id": "voice",
       "name": "Voice (baritone; treble notation sounds one octave lower)",
-      "tracks": [1],
+      "tracks": ["voice:"],
       "transpose": -12
     },
     {
       "id": "piano-upper-1",
       "name": "Piano upper staff · encoded voice 1",
-      "tracks": [2]
+      "tracks": ["piano-upper-1:"]
     },
     {
       "id": "piano-upper-2",
       "name": "Piano upper staff · encoded voice 2",
-      "tracks": [3]
+      "tracks": ["piano-upper-2:"]
     },
     {
       "id": "piano-lower-5",
       "name": "Piano lower staff · encoded voice 5",
-      "tracks": [4]
+      "tracks": ["piano-lower-5:"]
     },
     {
       "id": "piano-lower-6",
       "name": "Piano lower staff · encoded voice 6",
-      "tracks": [5]
+      "tracks": ["piano-lower-6:"]
     }
   ],
   "bars": {

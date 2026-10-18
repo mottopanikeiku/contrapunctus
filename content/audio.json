@@ -342,6 +342,34 @@
   "artist": "Paul Paray; Claude Debussy; Detroit Symphony Orchestra",
   "duration": 451.23
  },
+ "archive:lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.01. 1st Tableau: The Shrovetide Fair.mp3": {
+  "stream": "https://archive.org/download/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.01.%201st%20Tableau%3A%20The%20Shrovetide%20Fair.mp3",
+  "page": "https://archive.org/details/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro",
+  "license": "",
+  "artist": "Igor Stravinsky; L'Orchestre De La Suisse Romande; Ernest Ansermet",
+  "duration": 591.34
+ },
+ "archive:lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.02. 2nd Tableau: In Petrushko's Room.mp3": {
+  "stream": "https://archive.org/download/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.02.%202nd%20Tableau%3A%20In%20Petrushko's%20Room.mp3",
+  "page": "https://archive.org/details/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro",
+  "license": "",
+  "artist": "Igor Stravinsky; L'Orchestre De La Suisse Romande; Ernest Ansermet",
+  "duration": 266.83
+ },
+ "archive:lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/02.01. 3rd Tableau: In The Moor's Room.mp3": {
+  "stream": "https://archive.org/download/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/02.01.%203rd%20Tableau%3A%20In%20The%20Moor's%20Room.mp3",
+  "page": "https://archive.org/details/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro",
+  "license": "",
+  "artist": "Igor Stravinsky; L'Orchestre De La Suisse Romande; Ernest Ansermet",
+  "duration": 443.64
+ },
+ "archive:lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/02.02. 4th Tableau: The Shrovetime Fair (Evening).mp3": {
+  "stream": "https://archive.org/download/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/02.02.%204th%20Tableau%3A%20The%20Shrovetime%20Fair%20(Evening).mp3",
+  "page": "https://archive.org/details/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro",
+  "license": "",
+  "artist": "Igor Stravinsky; L'Orchestre De La Suisse Romande; Ernest Ansermet",
+  "duration": 803.23
+ },
  "archive:lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/disc1/01.01. Le Sacre Du Printemps (\"The Rite Of Spring\"): (Part I).mp3": {
   "stream": "https://archive.org/download/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0/disc1/01.01.%20Le%20Sacre%20Du%20Printemps%20(%22The%20Rite%20Of%20Spring%22)%3A%20(Part%20I).mp3",
   "page": "https://archive.org/details/lp_stravinsky-conducts-le-sacre-du-printemps_igor-stravinsky-columbia-symphony-orchestr_0",
@@ -383,6 +411,20 @@
   "license": "http://creativecommons.org/licenses/publicdomain/",
   "artist": "Mozart",
   "duration": 404.16
+ },
+ "archive:munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b/01. Matthäus-Passion, BWV 244, Pt. 1 - No. 1, Chorus. Kommt, ihr Töchter, helft mir klagen (Chorus III).mp3": {
+  "stream": "https://archive.org/download/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b/01.%20Matth%C3%A4us-Passion%2C%20BWV%20244%2C%20Pt.%201%20-%20No.%201%2C%20Chorus.%20Kommt%2C%20ihr%20T%C3%B6chter%2C%20helft%20mir%20klagen%20(Chorus%20III).mp3",
+  "page": "https://archive.org/details/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b",
+  "license": "",
+  "artist": "",
+  "duration": 589
+ },
+ "archive:munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b/47. Matthäus-Passion, BWV 244, Pt. 2 - No. 39, Aria. Erbarme dich (Alto).mp3": {
+  "stream": "https://archive.org/download/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b/47.%20Matth%C3%A4us-Passion%2C%20BWV%20244%2C%20Pt.%202%20-%20No.%2039%2C%20Aria.%20Erbarme%20dich%20(Alto).mp3",
+  "page": "https://archive.org/details/munchener-bach-chor-munchener-bach-orchester-karl-richter-johann-sebastian-b",
+  "license": "",
+  "artist": "",
+  "duration": 466
  },
  "archive:nanny-larsen-todsen-preiser-lv-174-side-a/03 - Nanny LARSEN-TODSEN Preiser LV 174 Side A - Tristan und Isolde - Liebestod (Columbia L 2206, 1928).mp3": {
   "stream": "https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/03%20-%20Nanny%20LARSEN-TODSEN%20Preiser%20LV%20174%20Side%20A%20-%20Tristan%20und%20Isolde%20-%20Liebestod%20(Columbia%20L%202206%2C%201928).mp3",
@@ -1503,6 +1545,41 @@
   "license": "Public domain",
   "artist": "Modest Petrovich Mussorgsky",
   "duration": 733.2
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - i. gnomus - vivo.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_i._gnomus_-_vivo.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_i._gnomus_-_vivo.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_i._gnomus_-_vivo.ogg",
+  "license": "Public domain",
+  "artist": "Modest Petrovich Mussorgsky",
+  "duration": 161.64
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - ii. il vecchio castello - andante.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ii._il_vecchio_castello_-_andante.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ii._il_vecchio_castello_-_andante.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ii._il_vecchio_castello_-_andante.ogg",
+  "license": "Public domain",
+  "artist": "Modest Petrovich Mussorgsky",
+  "duration": 284.712
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - iii. tuileries - allegretto non troppo, capriccioso.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iii._tuileries_-_allegretto_non_troppo%2C_capriccioso.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iii._tuileries_-_allegretto_non_troppo%2C_capriccioso.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iii._tuileries_-_allegretto_non_troppo,_capriccioso.ogg",
+  "license": "Public domain",
+  "artist": "(See Musopen for author information)",
+  "duration": 62.04
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - promenade - allegro giusto, nel modo russico senza allegrezza, ma.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto%2C_nel_modo_russico_senza_allegrezza%2C_ma.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto%2C_nel_modo_russico_senza_allegrezza%2C_ma.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto,_nel_modo_russico_senza_allegrezza,_ma.ogg",
+  "license": "Public domain",
+  "artist": "Composer: Modest Mussorgsky (see Musopen for performance author information)",
+  "duration": 100.584
+ },
+ "File:Modest Mussorgsky - pictures at an exhibition - promenade - moderato comodo e con delicatezza.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_comodo_e_con_delicatezza.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_comodo_e_con_delicatezza.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_comodo_e_con_delicatezza.ogg",
+  "license": "Public domain",
+  "artist": "Modest Petrovich Mussorgsky",
+  "duration": 56.544
  },
  "File:Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac.mp3",

@@ -51,10 +51,10 @@
       "note": "First release year is disputed in the sources: the booklet and Wikipedia say 1959 (the booklet reads ‘LPs released/veröffentlicht/paru 1959’ and prints ℗ 1959 Deutsche Grammophon); Discogs and the Internet Archive LP catalogue give 1958, which is the recording year. Both dates precede 1963. The digital file used here is a later remaster, not the LP."
     },
     "matrixTakeSides": {
-      "value": "First stereo edition: fifth side of the set (LP 3, side A), track E6 (7:44 on the LP); matrix and take numbers not read",
+      "value": "First stereo edition: fifth programme side of the set (Discogs side E), track E6 (7:44 on the LP); matrix and take numbers not read",
       "status": "documented",
       "sourceIds": ["discogs", "lp-rip"],
-      "note": "The side and position come from the Discogs tracklist; the scanned export label for ‘No. 42–53 Trial in the Presence of Kaiphas and Pilate (24’26)’ is numbered 5. No run-out inscription was seen, so matrix and take are unknown."
+      "note": "The side and position come from the Discogs tracklist, whose first edition is automatically coupled, so the programme side is not the physical side of a particular LP; the scanned export label for ‘No. 42–53 Trial in the Presence of Kaiphas and Pilate (24’26)’ is numbered 5 (ARC 73 128 b / SAPM 198 628 b). No run-out inscription was seen, so matrix and take are unknown."
     }
   },
   "transfer": {

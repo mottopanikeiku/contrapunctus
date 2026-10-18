@@ -1,0 +1,393 @@
+{
+  "uniqueScoreAttacks": 253,
+  "audioDetectedOnsets": 156,
+  "medianAbsoluteOnsetDeviation": 0.04983630952380835,
+  "noteWeightedMedianDeviation": 0.04177667942176866,
+  "p95AbsoluteOnsetDeviation": 0.243889243197281,
+  "fractionWithin150ms": 0.8260869565217391,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 61,
+      "median": 0.04014048327664321,
+      "p95": 0.16245145975056685,
+      "max": 0.29047725340135955,
+      "adaptiveMedian": 0.04064927012471653,
+      "adaptiveP95": 0.16245145975056685
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 58,
+      "median": 0.05532357213718786,
+      "p95": 0.24793739370748394,
+      "max": 0.3361568168934266,
+      "adaptiveMedian": 0.052216198979589734,
+      "adaptiveP95": 0.22499206349206444
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 61,
+      "median": 0.048414647108842246,
+      "p95": 0.20521665958049695,
+      "max": 0.34357603458049724,
+      "adaptiveMedian": 0.04267697704081641,
+      "adaptiveP95": 0.12920262896825108
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 59,
+      "median": 0.06567247732426296,
+      "p95": 0.3421159828514755,
+      "max": 0.5062060657596383,
+      "adaptiveMedian": 0.047597257653059444,
+      "adaptiveP95": 0.16689308744330614
+    },
+    {
+      "start": 32.0,
+      "end": 37.173696145124715,
+      "attacks": 14,
+      "median": 0.040404443027210135,
+      "p95": 0.16393485154478496,
+      "max": 0.17333882511338317,
+      "adaptiveMedian": 0.04022303713152198,
+      "adaptiveP95": 0.13352800807823043
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 59,
+      "median": 0.06567247732426296,
+      "p95": 0.3421159828514755,
+      "max": 0.5062060657596383,
+      "adaptiveMedian": 0.047597257653059444,
+      "adaptiveP95": 0.16689308744330614
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 58,
+      "median": 0.05532357213718786,
+      "p95": 0.24793739370748394,
+      "max": 0.3361568168934266,
+      "adaptiveMedian": 0.052216198979589734,
+      "adaptiveP95": 0.22499206349206444
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 61,
+      "median": 0.048414647108842246,
+      "p95": 0.20521665958049695,
+      "max": 0.34357603458049724,
+      "adaptiveMedian": 0.04267697704081641,
+      "adaptiveP95": 0.12920262896825108
+    },
+    {
+      "start": 32.0,
+      "end": 37.173696145124715,
+      "attacks": 14,
+      "median": 0.040404443027210135,
+      "p95": 0.16393485154478496,
+      "max": 0.17333882511338317,
+      "adaptiveMedian": 0.04022303713152198,
+      "adaptiveP95": 0.13352800807823043
+    },
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 61,
+      "median": 0.04014048327664321,
+      "p95": 0.16245145975056685,
+      "max": 0.29047725340135955,
+      "adaptiveMedian": 0.04064927012471653,
+      "adaptiveP95": 0.16245145975056685
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 58,
+      "median": 0.05532357213718786,
+      "p95": 0.24793739370748394,
+      "max": 0.3361568168934266,
+      "adaptiveMedian": 0.052216198979589734,
+      "adaptiveP95": 0.22499206349206444
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 59,
+      "median": 0.06567247732426296,
+      "p95": 0.3421159828514755,
+      "max": 0.5062060657596383,
+      "adaptiveMedian": 0.047597257653059444,
+      "adaptiveP95": 0.16689308744330614
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 61,
+      "median": 0.048414647108842246,
+      "p95": 0.20521665958049695,
+      "max": 0.34357603458049724,
+      "adaptiveMedian": 0.04267697704081641,
+      "adaptiveP95": 0.12920262896825108
+    },
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 61,
+      "median": 0.04014048327664321,
+      "p95": 0.16245145975056685,
+      "max": 0.29047725340135955,
+      "adaptiveMedian": 0.04064927012471653,
+      "adaptiveP95": 0.16245145975056685
+    },
+    {
+      "start": 32.0,
+      "end": 37.173696145124715,
+      "attacks": 14,
+      "median": 0.040404443027210135,
+      "p95": 0.16393485154478496,
+      "max": 0.17333882511338317,
+      "adaptiveMedian": 0.04022303713152198,
+      "adaptiveP95": 0.13352800807823043
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 16.0,
+      "meanCosine": 0.7205066354214632
+    },
+    {
+      "start": 24.0,
+      "meanCosine": 0.7329430432860206
+    },
+    {
+      "start": 32.0,
+      "meanCosine": 0.7331883530391563
+    },
+    {
+      "start": 8.0,
+      "meanCosine": 0.7620403123658661
+    },
+    {
+      "start": 0.0,
+      "meanCosine": 0.7847811222419311
+    }
+  ],
+  "sections": [
+    {
+      "bar": "12",
+      "occ": 1,
+      "editorial": 12,
+      "aligned": 11.655625,
+      "difference": -0.34437499999999943,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.26,
+      "nearestOnsetDeviation": 0.018639455782312908
+    },
+    {
+      "label": "middle",
+      "bar": "16",
+      "occ": 1,
+      "scoreQ": 31.5,
+      "audioSeconds": 17.09328125,
+      "nearestOnsetDeviation": 0.0778752125850346
+    },
+    {
+      "label": "last",
+      "bar": "21",
+      "occ": 1,
+      "scoreQ": 63.0,
+      "audioSeconds": 34.813125,
+      "nearestOnsetDeviation": 0.028416950113381745
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "21",
+      "occ": 1,
+      "midi": 59,
+      "voice": "lower",
+      "durationQ": 1.0,
+      "onset": 34.813125,
+      "offset": 35.68,
+      "durationSeconds": 0.8668750000000003
+    },
+    {
+      "bar": "21",
+      "occ": 1,
+      "midi": 62,
+      "voice": "lower",
+      "durationQ": 1.0,
+      "onset": 34.813125,
+      "offset": 35.68,
+      "durationSeconds": 0.8668750000000003
+    },
+    {
+      "bar": "21",
+      "occ": 1,
+      "midi": 71,
+      "voice": "lower",
+      "durationQ": 1.0,
+      "onset": 34.813125,
+      "offset": 35.68,
+      "durationSeconds": 0.8668750000000003
+    },
+    {
+      "bar": "21",
+      "occ": 1,
+      "midi": 83,
+      "voice": "upper",
+      "durationQ": 1.0,
+      "onset": 34.813125,
+      "offset": 35.68,
+      "durationSeconds": 0.8668750000000003
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.06861979166666643,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7484366229192517,
+  "endAnchor": {
+    "scoreQ": 64.0,
+    "audioSeconds": 35.68,
+    "decodedDuration": 37.173696145124715,
+    "activeEndMinus45dB": 35.68907029478458
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "schumann-kinderszenen-blind-mans-buff",
+  "tuningHz": 441.53,
+  "audioSha256": "a38f291cc8bc82fdf95c412b700ce1680e18b4cbed1ad258d1fd832976e32406",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "Read content/listen/schumann-kinderszenen-blind-mans-buff.mjs and cache/analysis/schumann-kinderszenen-blind-mans-buff.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      12.56,
+      12.0
+    ],
+    [
+      34.8665625,
+      34.8
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.26,
+      "peakSeconds": 0.3,
+      "window": [
+        0,
+        4
+      ],
+      "midiPitches": [
+        47,
+        66,
+        71
+      ],
+      "basis": "Inspected the complete0–37.17s overlays. The broad32–35s final search incorrectly selected the earlier32.60s B attack and omitted the last run. Cached pitch features show the very quiet final B3/D4/B4/B5 chord rising near34.8s (D4/B4/B5 increase together), after D6/C-sharp6/B5/A-sharp5; use34.65–35.05s. Opening0.26s already matches the first attack."
+    },
+    {
+      "label": "last",
+      "scoreQ": 63.0,
+      "audioSeconds": 34.8,
+      "peakSeconds": 34.84,
+      "window": [
+        34.65,
+        35.05
+      ],
+      "midiPitches": [
+        59,
+        62,
+        71,
+        83
+      ],
+      "basis": "Inspected the complete0–37.17s overlays. The broad32–35s final search incorrectly selected the earlier32.60s B attack and omitted the last run. Cached pitch features show the very quiet final B3/D4/B4/B5 chord rising near34.8s (D4/B4/B5 increase together), after D6/C-sharp6/B5/A-sharp5; use34.65–35.05s. Opening0.26s already matches the first attack."
+    }
+  ],
+  "adaptiveOnsetCount": 212,
+  "adaptiveMedianDeviation": 0.04411834785997826,
+  "gateReasons": [],
+  "elapsedSeconds": 0.5448187330039218,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 32,
+    "notes": 400,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "f5ac1d3058f394a9bcca003bcf3784b3cb235bbd9181a420fc008374637c1a74",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No03/SchumannOp15No03.ly",
+      "file": "SchumannOp15No03.ly",
+      "sha256": "2f94fd6a14f4fd168cb08ad0707d29872478882be5bfa6f867474950991817f0"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No03/SchumannOp15No03.mid",
+      "file": "SchumannOp15No03.mid",
+      "sha256": "0a7db994303307a0c5ba33a497bbafaf1ffc45b6ddfda45151d86a761bab9c85"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/schumann-kinderszenen-blind-mans-buff-0-8.png",
+    "work/schumann-kinderszenen-blind-mans-buff-0-8.26.png",
+    "work/schumann-kinderszenen-blind-mans-buff-8-16.png",
+    "work/schumann-kinderszenen-blind-mans-buff-13.0933-25.0933.png",
+    "work/schumann-kinderszenen-blind-mans-buff-16-24.png",
+    "work/schumann-kinderszenen-blind-mans-buff-24-32.png",
+    "work/schumann-kinderszenen-blind-mans-buff-30.8131-37.1737.png",
+    "work/schumann-kinderszenen-blind-mans-buff-32-37.1737.png"
+  ]
+}

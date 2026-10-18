@@ -22,21 +22,42 @@
         "file": "Sym9-mids.zip",
         "sha256": "4ace203cafa10c6bd4e8cbc9d5c6e00bbfbba3efdf9d71ccee7b833f1582ac2c"
       }
+    ],
+    "patches": [
+      {
+        "file": "Sym9-lys/header.ily",
+        "old": "(string? string? ly:dir? ly:music? ly:music?)",
+        "new": "(string? string? ly:dir? ly:pitch? ly:music?)",
+        "basis": "The legacy trCueWhile wrapper passes mc to transposedCueDuring, whose modern argument is a pitch rather than a NoteEvent. Change only that declared parameter type; retain all supplied pitches, cue music and source notes. The driver must establish compiled/published pitch-onset multiset identity."
+      }
     ]
   },
   "extraction": {
     "mode": "compiled-midi",
     "comparePublished": { "offsetQ": 0 },
-    "music": "\\keepWithTag #'score \\killCues << \\new Devnull \\conductormA \\new Staff = \"flute1\" \\fluteImA \\new Staff = \"flute2\" \\fluteIImA \\new Staff = \"oboe1\" \\oboeImA \\new Staff = \"oboe2\" \\oboeIImA \\new Staff = \"clarinet1\" \\clarinetImA \\new Staff = \"clarinet2\" \\clarinetIImA \\new Staff = \"bassoon1\" \\bassoonImA \\new Staff = \"bassoon2\" \\bassoonIImA \\new Staff = \"horn1\" \\hornImA \\new Staff = \"horn2\" \\hornIImA \\new Staff = \"horn3\" \\hornIIImA \\new Staff = \"horn4\" \\hornIVmA \\new Staff = \"trumpet1\" \\trumpetImA \\new Staff = \"trumpet2\" \\trumpetIImA \\new Staff = \"trombone1\" \\tromboneImA \\new Staff = \"trombone2\" \\tromboneIImA \\new Staff = \"bassTrombone\" \\bassTrombonemA \\new Staff = \"timpani\" \\timpanimA \\unfoldRepeats << \\new Staff = \"violin1\" \\violinImA \\new Staff = \"violin2\" \\violinIImA \\new Staff = \"viola\" \\violamA \\new Staff = \"cello\" \\cellomA \\new Staff = \"bass\" \\bassmA >> >>"
+    "midiSettings": "\\context { \\Staff \\remove \"Key_performer\" }",
+    "music": "\\keepWithTag #'score \\killCues << \\new Devnull \\conductormA \\new Staff = \"flute\" \\with { instrumentName = \"Flutes and piccolo\" } << \\fluteImA \\fluteIImA >> \\new Staff = \"oboe\" \\with { instrumentName = \"Oboes\" } << \\oboeImA \\oboeIImA >> \\new Staff = \"clarinet\" \\with { instrumentName = \"Clarinets in A\" } << \\clarinetImA \\clarinetIImA >> \\new Staff = \"bassoon\" \\with { instrumentName = \"Bassoons\" } << \\bassoonImA \\bassoonIImA >> \\new Staff = \"hornA\" \\with { instrumentName = \"Horns I/II in E\" } << \\hornImA \\hornIImA >> \\new Staff = \"hornB\" \\with { instrumentName = \"Horns III/IV in C/E\" } << \\hornIIImA \\hornIVmA >> \\new Staff = \"trumpet\" \\with { instrumentName = \"Trumpets in E/C\" } << \\trumpetImA \\trumpetIImA >> \\new Staff = \"trombone\" \\with { instrumentName = \"Trombones\" } << \\tromboneImA \\tromboneIImA \\bassTrombonemA >> \\new Staff = \"timpani\" \\with { instrumentName = \"Timpani\" } \\timpanimA \\unfoldRepeats << \\new Staff = \"violin1\" \\with { instrumentName = \"Violins I\" } \\violinImA \\new Staff = \"violin2\" \\with { instrumentName = \"Violins II\" } \\violinIImA \\new Staff = \"viola\" \\with { instrumentName = \"Violas\" } \\violamA \\new Staff = \"cello\" \\with { instrumentName = \"Cellos\" } \\cellomA \\new Staff = \"bass\" \\with { instrumentName = \"Double basses\" } \\bassmA >> >>"
   },
   "voices": [
-    { "id": "flutes", "name": "Flutes and piccolo", "tracks": ["flute1:", "flute2:"] },
-    { "id": "oboes", "name": "Oboes", "tracks": ["oboe1:", "oboe2:"] },
-    { "id": "clarinets", "name": "Clarinets", "tracks": ["clarinet1:", "clarinet2:"] },
-    { "id": "bassoons", "name": "Bassoons", "tracks": ["bassoon1:", "bassoon2:"] },
-    { "id": "horns", "name": "Horns", "tracks": ["horn1:", "horn2:", "horn3:", "horn4:"] },
-    { "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet1:", "trumpet2:"] },
-    { "id": "trombones", "name": "Trombones", "tracks": ["trombone1:", "trombone2:", "bassTrombone:"] },
+    { "id": "flutes", "name": "Flutes and piccolo", "tracks": ["flute:"] },
+    { "id": "oboes", "name": "Oboes", "tracks": ["oboe:"] },
+    { "id": "clarinets", "name": "Clarinets", "tracks": ["clarinet:"] },
+    { "id": "bassoons", "name": "Bassoons", "tracks": ["bassoon:"] },
+    { "id": "horns", "name": "Horns", "tracks": ["hornA:", "hornB:"] },
+    {
+      "id": "trumpets", "name": "Trumpets", "tracks": ["trumpet:"],
+      "transposeRanges": [
+        {
+          "fromQ": 0, "toQ": 342, "semitones": 12,
+          "basis": "E trumpet sounds a major third above written pitch, not the horn's minor sixth below (https://utminers.utep.edu/charlesl/transpose.html). Original score IMSLP405834 PDF7/printed185, bar19, writes D5/E4; source transposition e gives F#4/G#3 instead of F#5/G#4. Correct until the C-trumpet declaration at bar149/source q342; C uses c' and needs no change."
+        },
+        {
+          "fromQ": 614, "toQ": 836, "semitones": 12,
+          "basis": "Same E-trumpet octave correction after source brass.notesA.ily returns to transposition e at bar285/source q614; stop at transposition c' at bar396/source q836. These bounds follow the conductor's numbered bars and instrument-change declarations, not audio detector results."
+        }
+      ]
+    },
+    { "id": "trombones", "name": "Trombones", "tracks": ["trombone:"] },
     { "id": "timpani", "name": "Timpani", "tracks": ["timpani:"] },
     { "id": "violins-1", "name": "Violins I", "tracks": ["violin1:"] },
     { "id": "violins-2", "name": "Violins II", "tracks": ["violin2:"] },
@@ -64,17 +85,20 @@
   },
   "diagnostics": {
     "scanRecurrence": true,
+    "held": { "voice": 4, "onsets": [916, 924, 928, 930, 940] },
     "overlays": [[0, 24], [112, 136], [298, 334], [390, 414], [586, 604]]
   },
   "engraving": {
     "staff": 13,
     "width": 290,
-    "height": 410
+    "height": 410,
+    "music": "\\keepWithTag #'score \\killCues << \\new Devnull \\conductormA \\new Staff = \"flute\" \\with { instrumentName = \"Flutes and piccolo\" } << \\fluteImA \\fluteIImA >> \\new Staff = \"oboe\" \\with { instrumentName = \"Oboes\" } << \\oboeImA \\oboeIImA >> \\new Staff = \"clarinet\" \\with { instrumentName = \"Clarinets in A\" } << \\clarinetImA \\clarinetIImA >> \\new Staff = \"bassoon\" \\with { instrumentName = \"Bassoons\" } << \\bassoonImA \\bassoonIImA >> \\new Staff = \"hornA\" \\with { instrumentName = \"Horns I/II in E\" } << \\hornImA \\hornIImA >> \\new Staff = \"hornB\" \\with { instrumentName = \"Horns III/IV in C/E\" } << \\hornIIImA \\hornIVmA >> \\new Staff = \"trumpet\" \\with { instrumentName = \"Trumpets in E/C\" } << \\trumpetImA \\trumpetIImA >> \\new Staff = \"trombone\" \\with { instrumentName = \"Trombones\" } << \\tromboneImA \\tromboneIImA \\bassTrombonemA >> \\new Staff = \"timpani\" \\with { instrumentName = \"Timpani\" } \\timpanimA \\unfoldRepeats << \\new Staff = \"violin1\" \\with { instrumentName = \"Violins I\" } \\violinImA \\new Staff = \"violin2\" \\with { instrumentName = \"Violins II\" } \\violinIImA \\new Staff = \"viola\" \\with { instrumentName = \"Violas\" } \\violamA \\new Staff = \"cello\" \\with { instrumentName = \"Cellos\" } \\cellomA \\new Staff = \"bass\" \\with { instrumentName = \"Double basses\" } \\bassmA >> >>"
   },
   "provenance": [
     "The original published MIDI is canonical, not an already repeated performance: every sounding track ends at source q948.5 within the 950-quarter, 452-bar source. The conductor alone carries the exposition volta; named instrumental variables contain the written first and second endings once. String unfoldRepeats expands written tremolos, not an exposition repeat.",
-    "Published MIDI track 5 (trombone:) has an unmatched E3/MIDI52 note-off at q856. Regenerate each of the 23 named source instrumental variables on its own MIDI staff, grouping only the resulting source-defined section identities; assert aggregate pitch/onset set equality against the immutable published MIDI before applying the recorded bar order. No malformed MIDI message is silently suppressed and no source part is invented.",
-    "Source-declared sounding transpositions are retained: A clarinets; E horns I/II; C horns III/IV changing to E; E/C/E/C trumpets; flute II's brief piccolo change (c'' then c'); and double bass bass_8. The double-bass source begins E3/MIDI52 while cello begins E4/MIDI64 and later reaches low E1/MIDI28; no blanket additional octave lowering is applied. Other parts are non-transposing. Instrument names follow source variables, not MIDI patches.",
+    "Published MIDI track 5 (trombone:) has an unmatched E3/MIDI52 note-off at q856. Regenerate the named source staves with LilyPond 2.24.4, retaining the original MIDI grouping, and require aggregate pitch/onset multiset equality against the immutable published MIDI before sounding-pitch corrections and recorded bar order. No malformed MIDI message is silently suppressed and no source part is invented.",
+    "Generated MIDI omits key-signature metadata through Staff Key_performer removal: a transposed source key otherwise emits the non-standard eight-sharp MIDI key rejected by mido. Printed key signatures, sounding note events, source durations and instrumental transpositions remain unchanged; the required published pitch/onset multiset comparison remains active.",
+    "A clarinets, E horns I/II, C-to-E horns III/IV, flute II's brief piccolo change (c'' then c'), and double bass bass_8 retain source sounding transpositions. Only E-trumpet sections receive the documented regional +12 correction; C-trumpet sections already use c' and stay unchanged. Original score IMSLP405834 PDF5/printed183 shows opening bass written E4, sounding E3/MIDI52, while cello sounds E4/MIDI64. No blanket bass octave lowering. Other parts are non-transposing; identities follow source variables, not MIDI patches.",
     "All timing remains provisional and has not been checked by ear. Source duration warping is not a measured release or a transcription of tremolo/articulation performance."
   ]
 }

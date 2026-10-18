@@ -1,0 +1,606 @@
+{
+  "uniqueScoreAttacks": 457,
+  "audioDetectedOnsets": 730,
+  "medianAbsoluteOnsetDeviation": 0.040850776207918216,
+  "noteWeightedMedianDeviation": 0.04006453863596704,
+  "p95AbsoluteOnsetDeviation": 0.14260352346066438,
+  "fractionWithin150ms": 0.9562363238512035,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 19,
+      "median": 0.0495429966858536,
+      "p95": 0.1399251264608399,
+      "max": 0.23754011861154734,
+      "adaptiveMedian": 0.03837694051979934,
+      "adaptiveP95": 0.08357701029129601
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 21,
+      "median": 0.040433891505321284,
+      "p95": 0.09897566718995243,
+      "max": 0.13355965463108355,
+      "adaptiveMedian": 0.03945011337868465,
+      "adaptiveP95": 0.11000392464678121
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 22,
+      "median": 0.03204343275771748,
+      "p95": 0.09298988313273869,
+      "max": 0.1260125588697001,
+      "adaptiveMedian": 0.028302808302807847,
+      "adaptiveP95": 0.06466045264259392
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 21,
+      "median": 0.05828536542822249,
+      "p95": 0.1173015873015899,
+      "max": 0.1632670504099103,
+      "adaptiveMedian": 0.04166971916971818,
+      "adaptiveP95": 0.08005058433630197
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 22,
+      "median": 0.05148373451944721,
+      "p95": 0.1358442351299388,
+      "max": 0.16988444095586885,
+      "adaptiveMedian": 0.033822824001394025,
+      "adaptiveP95": 0.09435738269668013
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 22,
+      "median": 0.037309436595151624,
+      "p95": 0.14513768969126234,
+      "max": 0.1583974358974345,
+      "adaptiveMedian": 0.039279609279610384,
+      "adaptiveP95": 0.06633525204953941
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 23,
+      "median": 0.05968602825745961,
+      "p95": 0.11196105878248941,
+      "max": 0.17090310483168025,
+      "adaptiveMedian": 0.05993197278912277,
+      "adaptiveP95": 0.09762698412699107
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 21,
+      "median": 0.0357230071515815,
+      "p95": 0.11077446363159993,
+      "max": 0.17927045177045642,
+      "adaptiveMedian": 0.028193354264779202,
+      "adaptiveP95": 0.09916448630733754
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 23,
+      "median": 0.04119658119658709,
+      "p95": 0.1424341967556131,
+      "max": 0.3053811268097064,
+      "adaptiveMedian": 0.03908948194663253,
+      "adaptiveP95": 0.1160803680446605
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 21,
+      "median": 0.04695098552241461,
+      "p95": 0.09633132740276551,
+      "max": 0.10867913832200315,
+      "adaptiveMedian": 0.035668498168504925,
+      "adaptiveP95": 0.11191043083898933
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 22,
+      "median": 0.044129600558186155,
+      "p95": 0.08549910605268778,
+      "max": 0.09987223094366016,
+      "adaptiveMedian": 0.04268336821910168,
+      "adaptiveP95": 0.07658703994417734
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 22,
+      "median": 0.04429857840572993,
+      "p95": 0.1516577053898345,
+      "max": 0.2417089656375282,
+      "adaptiveMedian": 0.028656026513175448,
+      "adaptiveP95": 0.09511058782486968
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 22,
+      "median": 0.03715899180184579,
+      "p95": 0.1865774245595638,
+      "max": 0.2263644688644746,
+      "adaptiveMedian": 0.031408512122816035,
+      "adaptiveP95": 0.09300093755449906
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 23,
+      "median": 0.029954648526071992,
+      "p95": 0.05945691609976648,
+      "max": 0.07596153846154152,
+      "adaptiveMedian": 0.03465027036456547,
+      "adaptiveP95": 0.06324254317111837
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 22,
+      "median": 0.04063339438339142,
+      "p95": 0.09106019972092695,
+      "max": 0.11197671376241658,
+      "adaptiveMedian": 0.032205651491374,
+      "adaptiveP95": 0.07054698674340898
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 22,
+      "median": 0.03986394557822592,
+      "p95": 0.13084981684983318,
+      "max": 0.20741801848946295,
+      "adaptiveMedian": 0.036684763649049046,
+      "adaptiveP95": 0.1354265218908132
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 22,
+      "median": 0.04089721786151301,
+      "p95": 0.13950904849119322,
+      "max": 0.15304727019011466,
+      "adaptiveMedian": 0.04520320948894607,
+      "adaptiveP95": 0.1002779522065211
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 21,
+      "median": 0.03547531833245898,
+      "p95": 0.1786503575789311,
+      "max": 0.18078449328447732,
+      "adaptiveMedian": 0.046388888888884594,
+      "adaptiveP95": 0.1733499040641675
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 23,
+      "median": 0.039486307343480576,
+      "p95": 0.10430638409210359,
+      "max": 0.13047139368566718,
+      "adaptiveMedian": 0.050528519099970026,
+      "adaptiveP95": 0.09937183847898151
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 22,
+      "median": 0.049652450723897346,
+      "p95": 0.14567748124891436,
+      "max": 0.20600558171989292,
+      "adaptiveMedian": 0.04566195709054455,
+      "adaptiveP95": 0.10375100296527505
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 21,
+      "median": 0.03446363160648502,
+      "p95": 0.1252289377289344,
+      "max": 0.17158206872491633,
+      "adaptiveMedian": 0.031894732251885216,
+      "adaptiveP95": 0.06284842141985791
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 23,
+      "median": 0.05968602825745961,
+      "p95": 0.11196105878248941,
+      "max": 0.17090310483168025,
+      "adaptiveMedian": 0.05993197278912277,
+      "adaptiveP95": 0.09762698412699107
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 21,
+      "median": 0.05828536542822249,
+      "p95": 0.1173015873015899,
+      "max": 0.1632670504099103,
+      "adaptiveMedian": 0.04166971916971818,
+      "adaptiveP95": 0.08005058433630197
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 22,
+      "median": 0.05148373451944721,
+      "p95": 0.1358442351299388,
+      "max": 0.16988444095586885,
+      "adaptiveMedian": 0.033822824001394025,
+      "adaptiveP95": 0.09435738269668013
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 22,
+      "median": 0.049652450723897346,
+      "p95": 0.14567748124891436,
+      "max": 0.20600558171989292,
+      "adaptiveMedian": 0.04566195709054455,
+      "adaptiveP95": 0.10375100296527505
+    },
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 19,
+      "median": 0.0495429966858536,
+      "p95": 0.1399251264608399,
+      "max": 0.23754011861154734,
+      "adaptiveMedian": 0.03837694051979934,
+      "adaptiveP95": 0.08357701029129601
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 23,
+      "median": 0.05968602825745961,
+      "p95": 0.11196105878248941,
+      "max": 0.17090310483168025,
+      "adaptiveMedian": 0.05993197278912277,
+      "adaptiveP95": 0.09762698412699107
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 23,
+      "median": 0.039486307343480576,
+      "p95": 0.10430638409210359,
+      "max": 0.13047139368566718,
+      "adaptiveMedian": 0.050528519099970026,
+      "adaptiveP95": 0.09937183847898151
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 21,
+      "median": 0.03547531833245898,
+      "p95": 0.1786503575789311,
+      "max": 0.18078449328447732,
+      "adaptiveMedian": 0.046388888888884594,
+      "adaptiveP95": 0.1733499040641675
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 22,
+      "median": 0.049652450723897346,
+      "p95": 0.14567748124891436,
+      "max": 0.20600558171989292,
+      "adaptiveMedian": 0.04566195709054455,
+      "adaptiveP95": 0.10375100296527505
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 22,
+      "median": 0.04089721786151301,
+      "p95": 0.13950904849119322,
+      "max": 0.15304727019011466,
+      "adaptiveMedian": 0.04520320948894607,
+      "adaptiveP95": 0.1002779522065211
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 64.0,
+      "meanCosine": 0.5961858404747279
+    },
+    {
+      "start": 152.0,
+      "meanCosine": 0.6436913639777703
+    },
+    {
+      "start": 40.0,
+      "meanCosine": 0.6703991064788482
+    },
+    {
+      "start": 72.0,
+      "meanCosine": 0.6735637252218647
+    },
+    {
+      "start": 136.0,
+      "meanCosine": 0.6971818328409286
+    }
+  ],
+  "sections": [
+    {
+      "bar": "8",
+      "occ": 1,
+      "editorial": 32,
+      "aligned": 32.18205128205128,
+      "difference": 0.18205128205128318,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "20",
+      "occ": 1,
+      "editorial": 85,
+      "aligned": 84.61641025641023,
+      "difference": -0.3835897435897664,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "24",
+      "occ": 1,
+      "editorial": 102,
+      "aligned": 102.04102564102564,
+      "difference": 0.04102564102564088,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "34",
+      "occ": 1,
+      "editorial": 146,
+      "aligned": 145.57538461538462,
+      "difference": -0.42461538461537884,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.52,
+      "nearestOnsetDeviation": 0.09197278911564633
+    },
+    {
+      "label": "middle",
+      "bar": "20",
+      "occ": 1,
+      "scoreQ": 57.0,
+      "audioSeconds": 84.61641025641023,
+      "nearestOnsetDeviation": 0.04354439211584804
+    },
+    {
+      "label": "last",
+      "bar": "39",
+      "occ": 1,
+      "scoreQ": 114.0,
+      "audioSeconds": 167.36128205128205,
+      "nearestOnsetDeviation": 0.038288854003127426
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "39",
+      "occ": 1,
+      "midi": 61,
+      "voice": "violins-2",
+      "durationQ": 3.0,
+      "onset": 167.36128205128205,
+      "offset": 169.9,
+      "durationSeconds": 2.5387179487179594
+    },
+    {
+      "bar": "39",
+      "occ": 1,
+      "midi": 61,
+      "voice": "violas",
+      "durationQ": 3.0,
+      "onset": 167.36128205128205,
+      "offset": 169.9,
+      "durationSeconds": 2.5387179487179594
+    },
+    {
+      "bar": "39",
+      "occ": 1,
+      "midi": 64,
+      "voice": "violins-1",
+      "durationQ": 3.0,
+      "onset": 167.36128205128205,
+      "offset": 169.9,
+      "durationSeconds": 2.5387179487179594
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.11989316239319692,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7441841993086749,
+  "endAnchor": {
+    "scoreQ": 117.0,
+    "audioSeconds": 169.9,
+    "decodedDuration": 171.64916099773242,
+    "activeEndMinus45dB": 171.63029478458049,
+    "configuredEnd": {
+      "seconds": 169.9,
+      "basis": "The final C-sharp4/E4 pitch bands decay to the feature noise floor around 169.8–170.0 s; the 171.649 s container tail is not a sustained string note. This is a measured pitched-decay display end, not a measured bow release."
+    }
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "vivaldi-spring-largo",
+  "tuningHz": 443.57,
+  "audioSha256": "d57eb33b71448e48cd4c541094a869259b3566bc068b3b62f15d4de27f661050",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "The complete concerto archive is immutable; spring-score-1.mid and the spring2 source definitions select only movement 2. Its published MIDI contains 1042 sounding note attacks over 117 quarter-note units.",
+    "Source staves are solo violin, violin I, violin II, viola, and the written organ/cello bass line. Figured-bass symbols are retained visually but no realised continuo pitches or inferred separate double-bass part are invented. The source maintainer explicitly uses Anonymous.",
+    "The source cello/organ part explicitly reads Largo Tacet for all 39 bars and its MIDI track contains no notes; only the four sounding source string staves are included in this movement’s voice list and engraving.",
+    "Verified derivative syntax repair in spring-lys/spring2a.ly: Migrate the first accompaniment’s removed revert-auto-beam-setting calls: removing the three off-beat eighth-note boundaries makes 32nd-type beams span each quarter (8+8+8 thirty-seconds). Preserve LilyPond 2.24’s other 3/4 exceptions. The source’s first explicitly beamed bar shows this same quarter grouping. Full published pitch/onset multiset equality remains required.",
+    "Verified derivative syntax repair in spring-lys/spring2b.ly: Apply the identical source-specified quarter-note beaming migration to the second accompaniment, preserving the default 3/4 eighth/triplet exceptions and explicitly grouping 32nd-type beams as 8+8+8. Original bytes remain unchanged; no note or written duration is altered."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      30.04,
+      32.0
+    ],
+    [
+      82.38,
+      85.0
+    ],
+    [
+      99.26,
+      102.0
+    ],
+    [
+      142.88,
+      146.0
+    ],
+    [
+      164.0625641025641,
+      167.36
+    ]
+  ],
+  "sourceChecks": {
+    "derivativePatches": [
+      {
+        "file": "spring-lys/spring2a.ly",
+        "old": "#(revert-auto-beam-setting '(end 1 32 3 4) 1 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 3 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 5 8)",
+        "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (6)) (1/12 . (3 3 3)) (1/32 . (8 8 8)))))",
+        "basis": "Migrate the first accompaniment’s removed revert-auto-beam-setting calls: removing the three off-beat eighth-note boundaries makes 32nd-type beams span each quarter (8+8+8 thirty-seconds). Preserve LilyPond 2.24’s other 3/4 exceptions. The source’s first explicitly beamed bar shows this same quarter grouping. Full published pitch/onset multiset equality remains required."
+      },
+      {
+        "file": "spring-lys/spring2b.ly",
+        "old": "#(revert-auto-beam-setting '(end 1 32 3 4) 1 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 3 8)\n#(revert-auto-beam-setting '(end 1 32 3 4) 5 8)",
+        "new": "\\set Timing.beamExceptions = #'((end . ((1/8 . (6)) (1/12 . (3 3 3)) (1/32 . (8 8 8)))))",
+        "basis": "Apply the identical source-specified quarter-note beaming migration to the second accompaniment, preserving the default 3/4 eighth/triplet exceptions and explicitly grouping 32nd-type beams as 8+8+8. Original bytes remain unchanged; no note or written duration is altered."
+      }
+    ],
+    "pitchOnsetInventory": {
+      "kind": "multiset",
+      "matched": true,
+      "count": 1042
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.52,
+      "peakSeconds": 1.6,
+      "window": [
+        1.35,
+        1.8
+      ],
+      "midiPitches": [
+        64,
+        68
+      ],
+      "basis": "Source q0 is the pianissimo E4/G-sharp4 violin accompaniment, visible around 1.5 s, followed by F-sharp4/A4 near 2.0 s. The much stronger C-sharp4 viola dog-entry around 2.2 s is q0.5 after a written eighth rest, not the first attack. At the end, all six E4/F-sharp4 dotted-sixteenth/thirty-second figures of bar 38 must remain before the final bar-39 C-sharp4/E4 fermata: the last F-sharp4 is near 167.1 s and the final tonic arrival follows near 167.4 s. The broad-window 165.045 s match was an earlier accompaniment attack and is rejected. These are source-specific pitch-band measurements, not an aural review."
+    },
+    {
+      "label": "last",
+      "scoreQ": 114.0,
+      "audioSeconds": 167.36,
+      "peakSeconds": 167.4,
+      "window": [
+        167.25,
+        167.85
+      ],
+      "midiPitches": [
+        61,
+        64
+      ],
+      "basis": "Source q0 is the pianissimo E4/G-sharp4 violin accompaniment, visible around 1.5 s, followed by F-sharp4/A4 near 2.0 s. The much stronger C-sharp4 viola dog-entry around 2.2 s is q0.5 after a written eighth rest, not the first attack. At the end, all six E4/F-sharp4 dotted-sixteenth/thirty-second figures of bar 38 must remain before the final bar-39 C-sharp4/E4 fermata: the last F-sharp4 is near 167.1 s and the final tonic arrival follows near 167.4 s. The broad-window 165.045 s match was an earlier accompaniment attack and is rejected. These are source-specific pitch-band measurements, not an aural review."
+    }
+  ],
+  "adaptiveOnsetCount": 982,
+  "adaptiveMedianDeviation": 0.03908948194663253,
+  "gateReasons": [],
+  "elapsedSeconds": 0.6184834709856659,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 39,
+    "notes": 1042,
+    "voices": 4
+  },
+  "published": true,
+  "configSha256": "306648f36b89998879946b79104d34e0d87a1f5ec70f189259922eb3bc227b1c",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-lys.zip",
+      "file": "spring-lys.zip",
+      "sha256": "3a87fa93faace5b2d6689fe6d39b3ee32dde6649d924a394f6b05239b22cbab9"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-mids.zip",
+      "file": "spring-mids.zip",
+      "sha256": "1e3d57ffee2dc77a4d06d777f01633d3726c57221b35661d6093095ca8cef3fd"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/vivaldi-spring-largo-0-8.png",
+    "work/vivaldi-spring-largo-0-9.52.png",
+    "work/vivaldi-spring-largo-24-32.png",
+    "work/vivaldi-spring-largo-32-40.png",
+    "work/vivaldi-spring-largo-48-56.png",
+    "work/vivaldi-spring-largo-80.6164-92.6164.png",
+    "work/vivaldi-spring-largo-128-136.png",
+    "work/vivaldi-spring-largo-136-144.png",
+    "work/vivaldi-spring-largo-144-152.png",
+    "work/vivaldi-spring-largo-152-160.png",
+    "work/vivaldi-spring-largo-163.361-171.649.png"
+  ]
+}

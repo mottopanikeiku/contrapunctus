@@ -171,6 +171,10 @@ export async function mount(app) {
   await player.getProgramme();
   if (!root.isConnected) return;
   root.classList.add('is-enhanced'); document.body.classList.add('journey-reading');
+  const transportSize = new ResizeObserver(([entry]) => {
+    root.style.setProperty('--j-transport-height', `${entry.borderBoxSize[0].blockSize}px`);
+  });
+  transportSize.observe(root.querySelector('.j-transport'));
   // A router return may rejoin the same still-playing passage without restarting it.
   if (started && !complete && matches() && player.playing && player.time >= current().listen.from && player.time < current().listen.to) {
     position = player.time; acquire();
@@ -219,6 +223,7 @@ export async function mount(app) {
   return () => {
     if (engaged && matches() && !complete) position = clamp(player.time);
     save(); alive = false; events.abort(); off.forEach((remove) => remove());
+    transportSize.disconnect();
     animations.forEach((a) => { a.onfinish = null; a.cancel(); });
     release(); document.body.classList.remove('journey-reading');
   };

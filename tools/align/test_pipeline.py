@@ -16,6 +16,7 @@ from align import endpoint_anchors, publication_reasons
 from config import HERE, LILYPOND
 from pipeline import comparison
 from score_events import attack_inventory, extract
+from musicxml_ties import note_locations, route_ties
 from musicxml_tuplets import flatten_tuplets
 
 
@@ -204,6 +205,48 @@ class MusicXMLNoteTies(unittest.TestCase):
                 self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
             self.assertEqual(attack_inventory(directory / 'out.midi', multiset=True),
                              {(0., 60): 1, (0., 64): 1, (1., 64): 1})
+
+
+class MusicXMLTieRoutes(unittest.TestCase):
+    def fixture(self):
+        xml = ET.fromstring('''<score-partwise><part id="P3">
+<measure number="88"><attributes><divisions>12</divisions></attributes>
+  <note><pitch><step>A</step><octave>4</octave></pitch><duration>36</duration><voice>1</voice><type>half</type><dot/></note>
+  <backup><duration>36</duration></backup>
+  <note><pitch><step>A</step><octave>4</octave></pitch><duration>36</duration><tie type="start"/>
+    <voice>4</voice><type>half</type><dot/><notations><tied type="start"/><fermata type="inverted"/></notations></note>
+</measure><measure number="89">
+  <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><tie type="stop"/>
+    <voice>1</voice><type>quarter</type><notations><tied type="stop"/></notations></note>
+</measure></part></score-partwise>''')
+        route = {'part': 'P3', 'measure': 88, 'fromNote': 1, 'toNote': 0,
+                 'continuation': {'measure': 89, 'note': 0}, 'basis': 'Fixture'}
+        return xml, route
+
+    def test_only_tie_origin_moves_between_exact_unisons(self):
+        xml, route = self.fixture()
+        part = xml.find('part')
+        before = note_locations(part)
+        fermata = xml.find('.//fermata')
+        route_ties(xml, [route])
+        self.assertEqual(before, note_locations(part))
+        self.assertEqual(len(xml.findall('.//note')), 3)
+        notes = part.find('measure').findall('note')
+        self.assertEqual(notes[0].find('tie').get('type'), 'start')
+        self.assertIsNone(notes[1].find('tie'))
+        self.assertIs(notes[1].find('notations/fermata'), fermata)
+        self.assertEqual(fermata.get('type'), 'inverted')
+        self.assertEqual(xml.findall('.//measure')[1].find('note/tie').get('type'), 'stop')
+
+    def test_nonidentical_or_noncontiguous_routes_rejected(self):
+        for selector, text in [('part/measure/note/pitch/step', 'G'),
+                               ('part/measure/note/duration', '24'),
+                               ('part/measure[@number=\"89\"]/note/voice', '2')]:
+            with self.subTest(selector=selector):
+                xml, route = self.fixture()
+                xml.find(selector).text = text
+                with self.assertRaisesRegex(ValueError, 'identical simultaneous unison'):
+                    route_ties(xml, [route])
 
 
 class MusicXMLTuplets(unittest.TestCase):

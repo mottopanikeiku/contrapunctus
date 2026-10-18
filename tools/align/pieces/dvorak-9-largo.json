@@ -67,6 +67,7 @@
     {
       "id": "trumpets",
       "name": "Trumpets",
+      "transpose": 12,
       "tracks": [
         7
       ]
@@ -175,6 +176,7 @@
     "height": 410
   },
   "provenance": [
+    "Trumpet MIDI is raised one octave: brass.notesL.ily declares transposition e, then c, placing written C4 at E3/C3. E and C trumpets sound a major third above and at written pitch, respectively, not one octave lower. Correct the source MIDI by +12 throughout while retaining its printed written notes. Transposition reference: https://utminers.utep.edu/charlesl/transpose.html . Horn E/C conventions are different and remain unchanged.",
     "Bass MIDI retained unchanged. Independent score inspection by VerS: https://s9.imslp.org/files/imglnks/usimg/4/42/IMSLP405834-PMLP08710-DvorakSymph9.pdf PDF page 29 (printed 207), Largo bar 5, writes double-bass D-flat4, sounding D-flat3 (MIDI49), in sounding unison with the cello. The source bass_8 clef and low E1 elsewhere must not receive the separate Beethoven source’s blanket -12 correction. This is notation inspection, not aural review.",
     "Clarinets, cor anglais and horns contain source-declared sounding transpositions, including instrument changes. GM patches are not used to identify parts."
   ]

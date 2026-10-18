@@ -60,7 +60,7 @@ body:has(.j-reader) > .colophon { display: none; }
 .j-rail .is-past .j-rail-number { background: #b8975622; color: #dbc38f; }
 .j-stations { display: grid; }
 .j-station { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); align-items: start; gap: clamp(2rem, 5vw, 5rem); padding: .6rem 0 1.5rem; }
-.is-enhanced .j-station { grid-area: 1 / 1; }
+.is-enhanced .j-station { grid-area: 1 / 1; padding-bottom: calc(var(--j-transport-height, 5rem) + 2rem); }
 .j-station.is-leaving { pointer-events: none; }
 .j-station[hidden], .j-reader [hidden] { display: none !important; }
 .j-station-copy > h2 { margin: .65rem 0 1.1rem; color: #f5e8ce; font: 400 clamp(2.8rem, 4.3vw, 4.7rem)/.98 var(--display); letter-spacing: -.015em; }
@@ -109,7 +109,8 @@ body:has(.j-reader) > .colophon { display: none; }
 .j-compare { display: grid; gap: .4rem; margin-top: 1rem; padding: 1.1rem 1.3rem; border: 1px solid var(--j-rule); color: inherit; background: #1d1a13b8; text-decoration: none; }
 .j-compare strong { font: 500 1.5rem var(--display); }
 .j-compare > span:last-child, .j-exhibit-note { color: var(--j-muted); font-size: .9rem; }
-.j-transport { position: sticky; bottom: max(.6rem, env(safe-area-inset-bottom)); z-index: 4; display: grid; grid-template-columns: auto auto 1fr auto; align-items: center; gap: 1.5rem; padding: .85rem 1.2rem; border: 1px solid #c7a65d99; background: #181610f5; box-shadow: 0 10px 35px #0008, inset 0 0 0 3px #13120f, inset 0 0 0 4px #a8843a33; }
+.j-transport { position: sticky; bottom: max(.6rem, env(safe-area-inset-bottom)); z-index: 4; display: grid; grid-template-columns: auto auto 1fr auto; align-items: center; gap: 1.5rem; padding: .85rem 1.2rem; border: 1px solid #c7a65d99; background: linear-gradient(180deg, #211d16, #13120f); box-shadow: 0 10px 35px #0008, inset 0 0 0 3px #13120f, inset 0 0 0 4px #a8843a33; }
+.j-transport::before { content: ''; position: absolute; left: -1px; right: -1px; bottom: 100%; height: 2rem; background: linear-gradient(180deg, #211d1600, #211d16); pointer-events: none; }
 .j-transport button { min-height: 44px; padding: .5rem .65rem; background: none; border: 0; color: #e6cf9a; font: 500 1rem var(--text); cursor: pointer; }
 .j-transport .j-play { min-width: 7rem; padding: .5rem 1.5rem; border: 1px solid #e6cb85b3; background: linear-gradient(140deg, #b8975622, #b8975609); color: #ffe5a9; font: italic 500 1.4rem var(--display); }
 .j-reader button:disabled { cursor: default; opacity: .45; }
