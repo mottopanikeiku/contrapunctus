@@ -1,13 +1,5 @@
 {
   "id": "beethoven-109-vivace",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "cues[3].text",
-      "severity": "minor",
-      "problem": "MEAS: The latest wording removes the first-half restriction and now calls 1:00 the quietest window after the opening. The later 2:55 and 3:50 windows are quieter. INFERENCE: The globalised minimum claim is still false; the revised loudest-window evidence is corrected.",
-      "evidence": "MEAS: cache/analysis/beethoven-109-vivace.txt:24,39,62,73 — 1:00 −38.2 dB; 2:55 −44.8 dB; 3:50 −42.7 dB.",
-      "fix": "Use exactly one of the quietest early passages, or the quietest window of the first half after the opening. Keep both the temporal restriction and the exclusion of the opening if retaining the superlative."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

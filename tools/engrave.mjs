@@ -104,6 +104,8 @@ async function engrave(id, options) {
   const outDir = options.out ?? path.join(ROOT, 'docs/assets/data', id, 'sheet');
   const score = options.score ?? path.join(ROOT, 'docs/assets/data', id, 'score.json');
   const { stdout } = await run(PACK, ['--out', outDir, '--score', score, ...svgs.map((f) => path.join(work, f))], { maxBuffer: 1 << 20 });
+  const indexFile = path.join(outDir, 'index.json');
+  await writeFile(indexFile, JSON.stringify(JSON.parse(await readFile(indexFile, 'utf8'))));
   console.log(stdout.trim());
 
 }

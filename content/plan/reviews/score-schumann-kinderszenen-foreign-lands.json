@@ -1,32 +1,17 @@
 {
   "id": "schumann-kinderszenen-foreign-lands",
-  "verdict": "fix",
+  "verdict": "pass",
   "reviewer": "VerS",
   "scope": "MEAS: independent numerical, published bar-map, source/report, bar-anchored cue and visual review; not aural review.",
-  "defects": [
-    {
-      "id": "suppressed-binary-repeat-signs",
-      "basis": "MEAS",
-      "location": "docs/assets/data/schumann-kinderszenen-foreign-lands/sheet/p1.svg; immutable SchumannOp15No01.ly repeattr",
-      "finding": "Targeted inspection after the Important Event finding confirms that this page also lacks the source-encoded binary repeat signs. Both spacer-voice repeat-volta-count-1 wrappers are suppressed by modern engraving, although the performed map repeats 1–8 and 9–22.",
-      "requiredFix": "Restore the original repeat boundaries with a guarded notation-only compatibility repair: closing first-strain repeat after 8, second-strain start at 9 and closing repeat after 22 (plus the initial delimiter where appropriate). Keep the pitched source expressions and 22 written bar identities unchanged while separately repairing the extraction defect below. Preserve exact 1–8 twice / 9–22 twice traversal and the four listen references; document and inspect the restored marks."
-    },
-    {
-      "id": "legacy-midi-loses-cross-staff-reattacks",
-      "basis": "MEAS",
-      "location": "Immutable SchumannOp15No01.ly logical piano voices oboes and bassvoicestwo; canonical q10 and q38, printed bars 6 and 20",
-      "finding": "The source-to-MIDI classification identifies two genuine G3 reattacks in the cross-staff triplet line while another logical voice holds a tied G3. They are not coincident-onset duplicates. The published legacy MIDI omits those attacks; its 222-event inventory is therefore not the complete written source.",
-      "requiredFix": "Extract the unchanged logical source voices with independent MIDI identity so both held notes and genuine G3 reattacks survive. Audit all source-voice attacks/ties, not a hand-inserted two-note exception; retain immutable original downloads and document the legacy loss. Re-align and publish only after unchanged gates, exact bar coverage and new source inventory pass. Piano logical-voice labels must not misrepresent Liu's template names as real oboe/viola instruments."
-    }
-  ],
+  "defects": [],
   "resolution": {
     "basis": "MEAS",
-    "finding": "The listening owner qualified the bar-15 return as beginning on D5 rather than the original B4, with the remaining top line following the opening, and made the intro consistent. That initial caller finding is resolved; the subsequently discovered repeat-visibility and source-attack defects remain separate."
+    "finding": "The listener's bar-15 return wording is corrected and all four references still resolve. Complete isolated source extraction now retains 240 canonical events / 224 distinct pitch-onset pairs: 16 coincident unisons plus the two genuine G3 reattacks at q10/q38 against independent two-quarter G3 holds at q9/q37. All 480 performed events preserve these identities. Guarded replacement of only the skip-only repeat lane restores the opening repeat, combined end/start after 8, and closing repeat after 22; actual published marks were inspected."
   },
   "report": {
     "basis": "MEAS",
     "path": "tools/align/REPORT.md#schumann-kinderszenen-foreign-lands",
-    "finding": "The current report matches the existing numeric checks but does not yet resolve missing written cross-staff reattacks or suppressed repeat signs. Update it after complete source-voice extraction, restored notation and fresh unchanged-gate publication."
+    "finding": "The revised report agrees with recomputed gates, 480 notes / four named written piano voices, 44 occurrences / 88 quarters and the one-page 22-bar pack. It records the legacy shared-channel attack losses, surviving holds/unisons, precise restored repeat boundaries and corrected final attack without claiming the physical performing edition or aural review."
   },
   "gates": {
     "basis": "MEAS",
@@ -35,6 +20,8 @@
     "primaryP95Seconds": 0.43678741496599227,
     "maximumAnchorDeviationSeconds": 0.07409374355803067,
     "maximumLocalRegionMedianSeconds": 0.052261389404236525,
+    "minimumPublishedNoteDurationSeconds": 0.22,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.10400000000000276,
     "zeroOrNegativeDurations": 0,
     "collapsedAttackIntervals": 0,
     "roundedCollapsedAttackIntervals": 0,
@@ -49,7 +36,7 @@
     "unresolvedScoreBars": [],
     "barAnchoredListenPointers": 4,
     "unresolvedListenPointers": [],
-    "finding": "All 444 note bar/voice indices resolve, durations are positive and occurrence times strictly increase. Actual glyph/index sets are exactly 1–22; the single printed page was inspected. Cue 1/2 resolves to 17.925 s; transition anchors 9/1, 15/1 and 9/2 resolve to 36.135, 53.460 and 72.413 s respectively. The corrected bar-15 narrative now agrees with the source melody."
+    "finding": "All 480 note bar/voice indices resolve, durations are positive and occurrence times strictly increase. Actual glyph/index sets are exactly 1–22 with no derived bars; the complete printed page and restored repeats were inspected. Cue 1/2 resolves to 17.925 s; transition anchors 9/1, 15/1 and 9/2 resolve to 36.135, 53.460 and 72.413 s respectively. The qualified bar-15 return narrative agrees with the source melody."
   },
   "overlays": {
     "basis": "MEAS",
@@ -67,7 +54,7 @@
       "work/schumann-kinderszenen-foreign-lands-88-96.png",
       "work/schumann-kinderszenen-foreign-lands-105.082-111.901.png"
     ],
-    "finding": "No gross pitch/order mismatch identified across the opening, repeat returns, middle, both detector-worst regions and corrected quiet final G4 near 109.08 s. Final written durations are not measured key releases."
+    "finding": "All twelve current complete-voice overlays independently inspected, including restored-note regions. No gross pitch/order mismatch identified across opening, repeat returns, middle, detector-worst regions and corrected quiet final G4 near 109.082273 s. Both overlapping source holds and reattacks are retained; final written durations are not measured key releases."
   },
   "source": {
     "basis": "EXT",
@@ -79,7 +66,7 @@
   },
   "version": {
     "basis": "INFERENCE",
-    "finding": "Original piano form: bars 1–8 twice, then 9–22 twice, retaining the altered written return at 15. Timing/order are coherent, but missing printed repeat signs and known legacy-MIDI attack losses currently prevent source/notation acceptance.",
+    "finding": "Complete piano form: bars 1–8 twice, then 9–22 twice, retaining the altered written return at 15. The actual printed repeat boundaries and full source-voice event inventory agree with this performed traversal. No gross cut/arrangement mismatch identified.",
     "physicalPerformingEdition": "Unknown; the identified source edition is not claimed as Donald Betts’s performing copy."
   },
   "status": {

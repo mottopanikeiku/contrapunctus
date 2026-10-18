@@ -1,0 +1,488 @@
+{
+  "uniqueScoreAttacks": 734,
+  "audioDetectedOnsets": 667,
+  "medianAbsoluteOnsetDeviation": 0.034149659863949466,
+  "noteWeightedMedianDeviation": 0.03352380952380685,
+  "p95AbsoluteOnsetDeviation": 0.08051337868481721,
+  "fractionWithin150ms": 0.9945504087193461,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 64,
+      "median": 0.02698866213151918,
+      "p95": 0.07511700680272072,
+      "max": 0.0933786848072562,
+      "adaptiveMedian": 0.03250113378684816,
+      "adaptiveP95": 0.06049251700680349
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 76,
+      "median": 0.036018140589571424,
+      "p95": 0.07696371882086295,
+      "max": 0.10799092970521329,
+      "adaptiveMedian": 0.03853968253968265,
+      "adaptiveP95": 0.07179365079365052
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 72,
+      "median": 0.03354195011337602,
+      "p95": 0.06949387755101723,
+      "max": 0.14834467120181571,
+      "adaptiveMedian": 0.03489342403628015,
+      "adaptiveP95": 0.051879818594105134
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 79,
+      "median": 0.03563718820861794,
+      "p95": 0.07122902494330918,
+      "max": 0.09750566893423951,
+      "adaptiveMedian": 0.038249433106575026,
+      "adaptiveP95": 0.06922902494331387
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 31,
+      "median": 0.03609070294783834,
+      "p95": 0.15097052154195012,
+      "max": 0.3118004535147918,
+      "adaptiveMedian": 0.0374421768707478,
+      "adaptiveP95": 0.14551020408161364
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 32,
+      "median": 0.02762358276643795,
+      "p95": 0.0619297052154085,
+      "max": 0.0702222222222062,
+      "adaptiveMedian": 0.03760544217686146,
+      "adaptiveP95": 0.06778458049885287
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 40,
+      "median": 0.029034013605436115,
+      "p95": 0.04977414965985254,
+      "max": 0.05768707482992852,
+      "adaptiveMedian": 0.03572902494330776,
+      "adaptiveP95": 0.057743310657593125
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 24,
+      "median": 0.03456689342403152,
+      "p95": 0.11735056689339947,
+      "max": 0.12185941043079396,
+      "adaptiveMedian": 0.04617687074829391,
+      "adaptiveP95": 0.12547755102038308
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 58,
+      "median": 0.033287981859402294,
+      "p95": 0.09112607709751258,
+      "max": 0.2200272108843535,
+      "adaptiveMedian": 0.033079365079366596,
+      "adaptiveP95": 0.06573968253968729
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 73,
+      "median": 0.03443083900225474,
+      "p95": 0.08295873015873663,
+      "max": 0.13080272108844326,
+      "adaptiveMedian": 0.037922902494329946,
+      "adaptiveP95": 0.06329614512471265
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 76,
+      "median": 0.03624036281179599,
+      "p95": 0.07901360544219216,
+      "max": 0.10269690098262174,
+      "adaptiveMedian": 0.036997732426300445,
+      "adaptiveP95": 0.05596825396824201
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 67,
+      "median": 0.04051700680271608,
+      "p95": 0.08016598639457156,
+      "max": 0.09634467120181966,
+      "adaptiveMedian": 0.03991836734694232,
+      "adaptiveP95": 0.06239999999999525
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 42,
+      "median": 0.03740589569162012,
+      "p95": 0.0702267573695998,
+      "max": 0.1540136054426,
+      "adaptiveMedian": 0.04331519274375495,
+      "adaptiveP95": 0.08131020408162534
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 67,
+      "median": 0.04051700680271608,
+      "p95": 0.08016598639457156,
+      "max": 0.09634467120181966,
+      "adaptiveMedian": 0.03991836734694232,
+      "adaptiveP95": 0.06239999999999525
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 42,
+      "median": 0.03740589569162012,
+      "p95": 0.0702267573695998,
+      "max": 0.1540136054426,
+      "adaptiveMedian": 0.04331519274375495,
+      "adaptiveP95": 0.08131020408162534
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 76,
+      "median": 0.03624036281179599,
+      "p95": 0.07901360544219216,
+      "max": 0.10269690098262174,
+      "adaptiveMedian": 0.036997732426300445,
+      "adaptiveP95": 0.05596825396824201
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 31,
+      "median": 0.03609070294783834,
+      "p95": 0.15097052154195012,
+      "max": 0.3118004535147918,
+      "adaptiveMedian": 0.0374421768707478,
+      "adaptiveP95": 0.14551020408161364
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 76,
+      "median": 0.036018140589571424,
+      "p95": 0.07696371882086295,
+      "max": 0.10799092970521329,
+      "adaptiveMedian": 0.03853968253968265,
+      "adaptiveP95": 0.07179365079365052
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 24,
+      "median": 0.03456689342403152,
+      "p95": 0.11735056689339947,
+      "max": 0.12185941043079396,
+      "adaptiveMedian": 0.04617687074829391,
+      "adaptiveP95": 0.12547755102038308
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 42,
+      "median": 0.03740589569162012,
+      "p95": 0.0702267573695998,
+      "max": 0.1540136054426,
+      "adaptiveMedian": 0.04331519274375495,
+      "adaptiveP95": 0.08131020408162534
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 67,
+      "median": 0.04051700680271608,
+      "p95": 0.08016598639457156,
+      "max": 0.09634467120181966,
+      "adaptiveMedian": 0.03991836734694232,
+      "adaptiveP95": 0.06239999999999525
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 76,
+      "median": 0.036018140589571424,
+      "p95": 0.07696371882086295,
+      "max": 0.10799092970521329,
+      "adaptiveMedian": 0.03853968253968265,
+      "adaptiveP95": 0.07179365079365052
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 79,
+      "median": 0.03563718820861794,
+      "p95": 0.07122902494330918,
+      "max": 0.09750566893423951,
+      "adaptiveMedian": 0.038249433106575026,
+      "adaptiveP95": 0.06922902494331387
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 104.0,
+      "meanCosine": 0.0
+    },
+    {
+      "start": 64.0,
+      "meanCosine": 0.6846715010818395
+    },
+    {
+      "start": 96.0,
+      "meanCosine": 0.7378067184027349
+    },
+    {
+      "start": 72.0,
+      "meanCosine": 0.7588030600572289
+    },
+    {
+      "start": 8.0,
+      "meanCosine": 0.7636802212096032
+    }
+  ],
+  "sections": [
+    {
+      "bar": "37",
+      "occ": 1,
+      "editorial": 34,
+      "aligned": 33.74228571428572,
+      "difference": -0.2577142857142789,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "72",
+      "occ": 1,
+      "editorial": 64,
+      "aligned": 64.00228571428572,
+      "difference": 0.0022857142857191093,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "122",
+      "occ": 1,
+      "editorial": 98,
+      "aligned": 98.83942857142858,
+      "difference": 0.8394285714285843,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.3,
+      "nearestOnsetDeviation": 0.013469387755102036
+    },
+    {
+      "label": "middle",
+      "bar": "56",
+      "occ": 1,
+      "scoreQ": 211.0,
+      "audioSeconds": 51.20838095238096,
+      "nearestOnsetDeviation": 0.04966893424035135
+    },
+    {
+      "label": "last",
+      "bar": "125",
+      "occ": 1,
+      "scoreQ": 418.0,
+      "audioSeconds": 102.63295238095242,
+      "nearestOnsetDeviation": 0.04568707482989964
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "125",
+      "occ": 1,
+      "midi": 53,
+      "voice": "lower",
+      "durationQ": 1.0,
+      "onset": 102.63295238095242,
+      "offset": 103.62647619047621,
+      "durationSeconds": 0.9935238095237935
+    },
+    {
+      "bar": "125",
+      "occ": 1,
+      "midi": 56,
+      "voice": "lower",
+      "durationQ": 1.0,
+      "onset": 102.63295238095242,
+      "offset": 103.62647619047621,
+      "durationSeconds": 0.9935238095237935
+    },
+    {
+      "bar": "125",
+      "occ": 1,
+      "midi": 65,
+      "voice": "lower",
+      "durationQ": 1.0,
+      "onset": 102.63295238095242,
+      "offset": 103.62647619047621,
+      "durationSeconds": 0.9935238095237935
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.017741496598645767,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7848814187142196,
+  "endAnchor": {
+    "scoreQ": 420.0,
+    "audioSeconds": 104.62,
+    "decodedDuration": 107.4455328798186,
+    "activeEndMinus45dB": 104.61750566893424
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "chopin-waltz-op64-1-gurevich",
+  "tuningHz": 439.24,
+  "audioSha256": "f049af7dbe6c31b5547403c8dd2bdc989748c26712d2aa01d0564fe1feb6cd81",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Engraving uses the original complete scoreAll variable and definitions preceding the first score block, preserving all written pitches, repeats and controls. The unrelated legacy MIDI-only block calls the obsolete one-argument Scheme unfold-repeats API; it is not parsed by this print wrapper. Published MIDI extraction is unchanged.",
+    "Read content/listen/chopin-waltz-op64-1-gurevich.mjs and cache/analysis/chopin-waltz-op64-1-gurevich.txt; broad middle and return timings are compatible with the explicit source repeat. Their coarse boundaries are not independent bar annotations.",
+    "Source RH/LH MIDI tracks inspected; source sec2.ly contains the repeated bars 21–35 and alternate endings 36/37. Staves identify notation allocations, not independent contrapuntal voices.",
+    "The final bar includes a written rest after the last left-hand chord; MIDI sounding notes end at quarter 419 while the performed bar sequence extends to quarter 420."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      38.193333333333335,
+      34.0
+    ],
+    [
+      64.1,
+      64.0
+    ],
+    [
+      101.20054054054054,
+      98.0
+    ],
+    [
+      103.8232380952381,
+      102.62
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.3,
+      "peakSeconds": 0.34,
+      "window": [
+        0.2,
+        0.65
+      ],
+      "midiPitches": [
+        68
+      ],
+      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.3 s; the broad initial search incorrectly chose a later recurrence at 2.78 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 102.68 s is followed by the notated rest."
+    },
+    {
+      "label": "last",
+      "scoreQ": 418.0,
+      "audioSeconds": 102.62,
+      "peakSeconds": 102.68,
+      "window": [
+        102,
+        105
+      ],
+      "midiPitches": [
+        53,
+        56,
+        65
+      ],
+      "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.3 s; the broad initial search incorrectly chose a later recurrence at 2.78 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 102.68 s is followed by the notated rest."
+    }
+  ],
+  "adaptiveOnsetCount": 731,
+  "adaptiveMedianDeviation": 0.03703854875283552,
+  "gateReasons": [],
+  "elapsedSeconds": 0.35573571402346715,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 140,
+    "notes": 1370,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "450bda9697010f5fef564cbf881f870947e9d5e5055bdbe63290d714006a484c",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O64/chopin_valse_op64_no1/chopin_valse_op64_no1-lys.zip",
+      "file": "chopin_valse_op64_no1-lys.zip",
+      "sha256": "454db76ff64d7a9d55698df98fb3637f0c805ff66c276e041c84d87896e73f75"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O64/chopin_valse_op64_no1/chopin_valse_op64_no1.mid",
+      "file": "chopin_valse_op64_no1.mid",
+      "sha256": "62333ad9f9b22603d009734ab500330a12ac09aeca13d185ac0ba64a7fb9d206"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/chopin-waltz-op64-1-gurevich-0-8.3.png",
+    "work/chopin-waltz-op64-1-gurevich-8-16.png",
+    "work/chopin-waltz-op64-1-gurevich-24-32.png",
+    "work/chopin-waltz-op64-1-gurevich-32-40.png",
+    "work/chopin-waltz-op64-1-gurevich-47.2084-59.2084.png",
+    "work/chopin-waltz-op64-1-gurevich-56-64.png",
+    "work/chopin-waltz-op64-1-gurevich-80-88.png",
+    "work/chopin-waltz-op64-1-gurevich-88-96.png",
+    "work/chopin-waltz-op64-1-gurevich-96-104.png",
+    "work/chopin-waltz-op64-1-gurevich-98.633-107.446.png"
+  ]
+}

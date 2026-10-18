@@ -83,11 +83,16 @@
   },
   "boundaries": [],
   "engraving": {
+    "definitions": [
+      { "file": "chopin_valse_op64_no1-lys/chopin_valse_op64_no1.ly", "before": "\\score" }
+    ],
+    "music": "\\scoreAll",
     "staff": 18,
     "width": 230,
     "height": 297
   },
   "provenance": [
+    "Engraving uses the original complete scoreAll variable and definitions preceding the first score block, preserving all written pitches, repeats and controls. The unrelated legacy MIDI-only block calls the obsolete one-argument Scheme unfold-repeats API; it is not parsed by this print wrapper. Published MIDI extraction is unchanged.",
     "Read content/listen/chopin-waltz-op64-1-gurevich.mjs and cache/analysis/chopin-waltz-op64-1-gurevich.txt; broad middle and return timings are compatible with the explicit source repeat. Their coarse boundaries are not independent bar annotations.",
     "Source RH/LH MIDI tracks inspected; source sec2.ly contains the repeated bars 21–35 and alternate endings 36/37. Staves identify notation allocations, not independent contrapuntal voices.",
     "The final bar includes a written rest after the last left-hand chord; MIDI sounding notes end at quarter 419 while the performed bar sequence extends to quarter 420."

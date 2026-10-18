@@ -8,6 +8,7 @@
   "main": "song.ly",
   "musicxml": "lc5060918.mxl",
   "otherDynamicsWords": true,
+  "musicxmlSingleNoteChordTies": true,
   "downloads": [
     {
       "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Debussy%2C_Claude/Ariettes_Oubli%C3%A9es/2_Il_pleure_dans_mon_coeur/lc5060918.mxl",

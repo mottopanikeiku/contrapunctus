@@ -123,6 +123,8 @@ def prepare(cfg, lilypond=LILYPOND):
             route_trills(xml, source['musicxmlTrillSpans'], HERE / 'sources' / cfg['id'])
         if source.get('musicxmlInitialGrace'):
             mark_initial_grace(xml, source['musicxmlInitialGrace'])
+        if source.get('musicxmlSingleNoteChordTies'):
+            xml.set('cp-single-note-chord-ties', 'yes')
         selected = directory / '__selected.musicxml'
         ET.ElementTree(xml).write(selected, encoding='utf-8', xml_declaration=True)
         main.parent.mkdir(parents=True, exist_ok=True)

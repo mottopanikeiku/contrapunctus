@@ -81,13 +81,35 @@
     ],
     "basis": "Inspected source-pitch overlays show the genuine opening A-flat4 near 0.6 s; the broad initial search incorrectly chose a later recurrence at 1.54 s despite passing numerical gates. The final F3/A-flat3/F4 chord near 110.18 s is followed by the notated rest and transfer noise tail."
   },
+  "anchors": [
+    {
+      "scoreQ": 144,
+      "window": [31.9, 32.2],
+      "label": "second-strain-bar33-E-flat6",
+      "basis": "The complete 24–34/31–41 s pitch overlays show the second-pass descending E-flat6 beginning near32 s after the F6 apex. Unconstrained DTW placed bar33 near35.055 s, despite passing onset gates. This source-pitch constraint corrects the locally accelerating strain, not an undocumented cut; it is not independent validation."
+    },
+    {
+      "scoreQ": 155,
+      "window": [35.95, 36.35],
+      "label": "middle-pickup-A-flat4",
+      "basis": "Source bar37 beat3 is the sustained A-flat4 pickup after the closing D-flat4 and rest. The inspected 31–41 s overlay shows its clear pitch-energy onset near36.1 s; unconstrained DTW placed it after38 s. This inspected source-pitch constraint is not independent validation."
+    }
+  ],
   "boundaries": [],
+  "diagnostics": {
+    "overlays": [[24, 34], [31, 41]]
+  },
   "engraving": {
+    "definitions": [
+      { "file": "chopin_valse_op64_no1-lys/chopin_valse_op64_no1.ly", "before": "\\score" }
+    ],
+    "music": "\\scoreAll",
     "staff": 18,
     "width": 230,
     "height": 297
   },
   "provenance": [
+    "Engraving uses the original complete scoreAll variable and definitions preceding the first score block, preserving all written pitches, repeats and controls. The unrelated legacy MIDI-only block calls the obsolete one-argument Scheme unfold-repeats API; it is not parsed by this print wrapper. Published MIDI extraction is unchanged.",
     "Read content/listen/chopin-waltz-op64-1-rachmaninoff.mjs and cache/analysis/chopin-waltz-op64-1-rachmaninoff.txt; broad middle and return timings are compatible with the explicit source repeat. Their coarse boundaries are not independent bar annotations.",
     "Source RH/LH MIDI tracks inspected; source sec2.ly contains the repeated bars 21–35 and alternate endings 36/37. Staves identify notation allocations, not independent contrapuntal voices.",
     "The final bar includes a written rest after the last left-hand chord; MIDI sounding notes end at quarter 419 while the performed bar sequence extends to quarter 420."

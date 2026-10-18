@@ -25,23 +25,20 @@
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "isolated-voices",
+    "definitions": [
+      { "file": "SchumannOp15No02.ly", "before": "\\score" }
+    ],
+    "staves": ["up", "down"],
+    "global": "\\key d \\major \\time 3/4 \\partial 4",
+    "silent": "s4 s2.*39 s2"
   },
   "voices": [
-    {
-      "id": "upper",
-      "name": "Piano — upper staff",
-      "tracks": [
-        1
-      ]
-    },
-    {
-      "id": "lower",
-      "name": "Piano — lower staff",
-      "tracks": [
-        2
-      ]
-    }
+    { "id": "melody", "name": "Piano — written melody", "staff": "up", "music": "\\viola" },
+    { "id": "upper-inner", "name": "Piano — written upper inner voice", "staff": "up", "music": "\\oboes" },
+    { "id": "lower-inner", "name": "Piano — written lower inner voice", "staff": "down", "music": "\\oboestwo" },
+    { "id": "cross-staff-inner", "name": "Piano — written cross-staff inner voice", "staff": "down", "music": "\\oboesthree" },
+    { "id": "bass", "name": "Piano — written bass", "staff": "down", "music": "\\bassvoices" }
   ],
   "bars": {
     "first": 0,
@@ -77,7 +74,7 @@
     "height": 297
   },
   "provenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "EXT: All five unchanged sounding Liu piano-source variables are extracted separately; their helper names are not actual instrumentation or recovered recorded hands. MEAS: 623 canonical voice events contain the same 621 distinct pitch/onset pairs as legacy MIDI, plus two simultaneous D5 voice-unisons at q83/q119 (bars 28/40). The bassvoices D3 half notes at q58/q94 (bars 20/32; SchumannOp15No02.ly lines 234/246, <d a'>2) retain their full 2Q instead of the legacy 1.5Q truncation at independent oboesthree D3 eighths (lines 197/200). All seven written tied pitch-events retain their full spans. No source attacks, rests or pitched variables are replaced. Recording edition and articulation remain provisional.",
     "Read content/listen/schumann-kinderszenen-curious-story.mjs and cache/analysis/schumann-kinderszenen-curious-story.txt. Editorial sections are coarse; they are not forced alignment anchors."
   ]
 }

@@ -13,12 +13,27 @@ import textwrap
 
 
 def install_note_ties(musicexp):
-    original_note = musicexp.NoteEvent.print_ly
+    source = inspect.getsource(musicexp.NoteEvent.print_ly)
+    old = '            self.pitch.print_ly(printer)\n            printer(self.pitch_mods())'
+    if source.count(old) != 1:
+        raise ValueError('MusicXML single-note printer changed; review note-specific tie syntax')
+    new = ('            specific = _cp_single_note_chord_ties and getattr(self, "_cp_tie_to_next", False)\n'
+           '            if specific:\n'
+           '                printer("<")\n'
+           '            self.pitch.print_ly(printer)\n'
+           '            printer(self.pitch_mods())\n'
+           '            if specific:\n'
+           '                printer("~>")')
+    methods = {}
+    musicexp._cp_single_note_chord_ties = False
+    exec(compile(textwrap.dedent(source.replace(old, new, 1)), '<musicxml note-specific single ties>', 'exec'),
+         musicexp.__dict__, methods)
+    original_note = methods['print_ly']
     original_chord_element = musicexp.NoteEvent.chord_element_ly
 
     def print_note(self, printer):
         original_note(self, printer)
-        if getattr(self, '_cp_tie_to_next', False):
+        if getattr(self, '_cp_tie_to_next', False) and not musicexp._cp_single_note_chord_ties:
             printer('~')
 
     def chord_element(self):
@@ -172,6 +187,7 @@ def converter_source(path):
             'def OrnamenthasWavyline(mxl_event):\n'
             '    return _ornament_has_wavyline(mxl_event)',
         '    return (all_ly_voices, all_ly_staffinfo)':
+            '    musicexp._cp_single_note_chord_ties = bool(parts and getattr(parts[0]._parent, "cp-single-note-chord-ties", None) == "yes")\n'
             '    _prime_initial_graces(all_ly_voices, musicexp, parts, musicxml2ly_conversion.rational_to_lily_duration)\n'
             '    return (all_ly_voices, all_ly_staffinfo)',
     }

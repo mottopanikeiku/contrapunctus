@@ -14,7 +14,7 @@ import mido
 import numpy as np
 
 from align import endpoint_anchors, publication_reasons
-from config import HERE, LILYPOND
+from config import HERE, LILYPOND, write_json
 from pipeline import comparison
 from score_events import attack_inventory, crop_notes, extract, prove_notation
 from musicxml_ties import source_timing, route_ties
@@ -80,6 +80,16 @@ class ScoreComparison(unittest.TestCase):
         changed = copy.deepcopy(self.score)
         changed['voices'][0]['name'] = 'Invented voice'
         self.assertFalse(self.check_diff(changed)['numericallyEquivalent'])
+
+
+class PublicJSONSerialization(unittest.TestCase):
+    def test_matches_site_serializer_without_changing_values(self):
+        data = {'integer': 1., 'negativeZero': -0., 'small': 1e-7, 'label': 'é'}
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / 'score.json'
+            write_json(path, data, compact=True)
+            self.assertEqual(path.read_text(), '{"integer":1,"negativeZero":0,"small":1e-7,"label":"é"}')
+            self.assertEqual(json.loads(path.read_text()), data)
 
 
 class PerformedEvents(unittest.TestCase):
@@ -278,6 +288,24 @@ class MusicXMLConversion(unittest.TestCase):
   </measure></part>
 </score-partwise>''')
         self.assertEqual(attacks, {(0., 60): 1, (0., 64): 1, (1., 64): 1})
+
+    def test_single_note_tie_uses_note_specific_chord_syntax(self):
+        attacks, lily = self.convert('''<score-partwise version="3.1" cp-single-note-chord-ties="yes">
+  <part-list><score-part id="P1"><part-name>Piano</part-name></score-part></part-list>
+  <part id="P1"><measure number="1">
+    <attributes><divisions>4</divisions><time><beats>2</beats><beat-type>4</beat-type></time>
+      <clef><sign>G</sign><line>2</line></clef></attributes>
+    <note><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><tie type="start"/>
+      <voice>1</voice><type>quarter</type><notations><tied type="start"/></notations></note>
+    <note><pitch><step>C</step><octave>4</octave></pitch><duration>4</duration><tie type="stop"/>
+      <voice>1</voice><type>quarter</type><notations><tied type="stop"/></notations></note>
+    <backup><duration>8</duration></backup>
+    <note><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>2</voice><type>quarter</type></note>
+    <note><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>2</voice><type>quarter</type></note>
+  </measure></part>
+</score-partwise>''')
+        self.assertEqual(attacks, {(0., 60): 1, (0., 64): 1, (1., 64): 1})
+        self.assertRegex(lily, r'<\s*c[,\x27]*\s*~\s*>\s*4')
 
     def test_midmeasure_clef_does_not_displace_an_earlier_chord(self):
         attacks, _ = self.convert('''<score-partwise version="3.1">

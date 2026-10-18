@@ -152,7 +152,7 @@ async function mount() {
   const names = [room ? 'room' : 'site', ...(document.body.dataset.modules ?? '').split(/\s+/).filter(Boolean)];
   for (const name of names) {
     try {
-      modules[name] ??= await import(new URL(`assets/js/${name}.js?v=${document.documentElement.dataset[name] ?? document.documentElement.dataset.site ?? ''}`, ROOT).href);
+      modules[name] ??= await import(new URL(`assets/js/${name}.js?v=${document.documentElement.getAttribute(`data-${name}`) ?? document.documentElement.dataset.site ?? ''}`, ROOT).href);
       if (my !== token) return;
       const off = await modules[name].mount(app);
       if (my !== token) { if (typeof off === 'function') off(); return; }

@@ -119,7 +119,7 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     if cfg['source'].get('musicxml'):
         source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards'
         for key in ('musicxmlTieRoutes', 'musicxmlPartialMeasures', 'musicxmlSharedEndingsFrom',
-                    'musicxmlTrillSpans', 'musicxmlInitialGrace'):
+                    'musicxmlTrillSpans', 'musicxmlInitialGrace', 'musicxmlSingleNoteChordTies'):
             if cfg['source'].get(key):
                 source_checks[key] = cfg['source'][key]
     if cfg['source'].get('patches'):
@@ -285,7 +285,10 @@ def extract(ident, lilypond=LILYPOND, directory=None):
                      for t in cfg['source'].get('musicxmlTrillSpans', [])]
                   + ([f'Initial-grace contexts synchronized by silent grace skips, retaining source notes and main-time durations: '
                       f'{cfg["source"]["musicxmlInitialGrace"]["basis"]}']
-                     if cfg['source'].get('musicxmlInitialGrace') else []),
+                     if cfg['source'].get('musicxmlInitialGrace') else [])
+                  + (['Single-note MusicXML ties use note-specific chord syntax; any engraving-context relocation '
+                      'still requires an exact source endpoint audit.']
+                     if cfg['source'].get('musicxmlSingleNoteChordTies') else []),
               'midiTracks': tracks, 'sourceChecks': source_checks}
     out = HERE / 'work' / (ident + '-events.json')
     out.parent.mkdir(parents=True, exist_ok=True)

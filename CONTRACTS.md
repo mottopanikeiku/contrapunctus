@@ -278,12 +278,19 @@ The router coalesces hover/focus/touch prefetches with clicks, bounds its HTML c
 to eight entries/four MB/ten minutes, and keeps inactive parsed stylesheets with
 `media="not all"` for return navigation. Relative stylesheet URLs are made absolute
 before history changes. Only the page body outside `#cp-persist` is replaced.
+Page modules read their version from the literal `data-<module-name>` attribute,
+including hyphenated names such as `data-atlas-map`, with the site version as fallback.
+Mount selectors using those same data attributes must search the body subtree,
+so HTML version metadata cannot be mistaken for a page's UI root.
 Hall drawing follows requestAnimationFrame while visible; inactive views, hidden
 tabs and settled paused views do not keep drawing. Timeline waveforms and cue
 colours are cached until the track/envelope/size changes. Unchanged readouts,
 wheel data and orchestra styles do not trigger repeated DOM/canvas updates.
 The initially empty Hall view row invisibly reserves its actual tab line-height;
 populating it does not change the settled tab geometry.
+For an authored backdrop-filter pair, keep `-webkit-backdrop-filter` before
+the identical unprefixed declaration. The standard property must remain last
+so CSS minification does not leave Chrome with only the prefixed spelling.
 
 `node tools/perf-preview.mjs 8768` serves the current build locally with gzip and
 GitHub Pages' 600-second cache lifetime for browser transfer accounting.
@@ -452,6 +459,9 @@ cleans up listeners, requests, resize observation and animation on unmount;
 reduced motion disables premiere flashing and the gold glints that travel
 along journey arcs. The static base and animated overlay are separate SVG
 surfaces, so a moving glint does not repaint the engraved coastline.
+The module mounts on `.atlas-map-page[data-atlas-map]`, never the bare
+attribute selector: the optimiser also puts a `data-atlas-map` asset
+fingerprint on `<html>`.
 
 ## Guided journeys
 

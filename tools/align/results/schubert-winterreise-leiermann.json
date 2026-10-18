@@ -1,8 +1,8 @@
 {
   "uniqueScoreAttacks": 321,
   "audioDetectedOnsets": 342,
-  "medianAbsoluteOnsetDeviation": 0.05457863591567502,
-  "noteWeightedMedianDeviation": 0.04924702249699031,
+  "medianAbsoluteOnsetDeviation": 0.056067630813714686,
+  "noteWeightedMedianDeviation": 0.05404515269468391,
   "p95AbsoluteOnsetDeviation": 0.5941068361961186,
   "fractionWithin150ms": 0.7414330218068536,
   "regions": [
@@ -50,10 +50,10 @@
       "start": 32.0,
       "end": 40.0,
       "attacks": 12,
-      "median": 0.07162557868807795,
+      "median": 0.08319282234681324,
       "p95": 0.1602671208781963,
       "max": 0.1653070418271554,
-      "adaptiveMedian": 0.03080446751986443,
+      "adaptiveMedian": 0.026653232132055393,
       "adaptiveP95": 0.06509982105029442
     },
     {
@@ -70,11 +70,11 @@
       "start": 48.0,
       "end": 56.0,
       "attacks": 17,
-      "median": 0.04525195655773473,
-      "p95": 0.40003785709011763,
-      "max": 0.42639130806320225,
-      "adaptiveMedian": 0.03734186671125883,
-      "adaptiveP95": 0.09453964653877449
+      "median": 0.05274451903020605,
+      "p95": 0.3040378570901168,
+      "max": 0.34639130806320395,
+      "adaptiveMedian": 0.043826922315737704,
+      "adaptiveP95": 0.0981314403046298
     },
     {
       "start": 56.0,
@@ -83,15 +83,15 @@
       "median": 0.056089506207786854,
       "p95": 0.49543906463045023,
       "max": 0.5834903234478972,
-      "adaptiveMedian": 0.04900032236302465,
-      "adaptiveP95": 0.07783618335729761
+      "adaptiveMedian": 0.056089506207786854,
+      "adaptiveP95": 0.07489851477842427
     },
     {
       "start": 64.0,
       "end": 72.0,
       "attacks": 13,
       "median": 0.05602347066037794,
-      "p95": 0.19523611789757067,
+      "p95": 0.1796936314479836,
       "max": 0.2007421975519179,
       "adaptiveMedian": 0.05389453919362097,
       "adaptiveP95": 0.06073279318413255
@@ -119,42 +119,42 @@
     {
       "start": 88.0,
       "end": 96.0,
-      "attacks": 11,
-      "median": 0.07220822928633197,
-      "p95": 0.47911371749985676,
+      "attacks": 10,
+      "median": 0.09194247286213653,
+      "p95": 0.4895347787700243,
       "max": 0.5833243302015347,
-      "adaptiveMedian": 0.04171290025975338,
-      "adaptiveP95": 0.10935743884853366
+      "adaptiveMedian": 0.05077451224325813,
+      "adaptiveP95": 0.11228785150126719
     },
     {
       "start": 96.0,
       "end": 104.0,
-      "attacks": 14,
-      "median": 0.07382979077566176,
-      "p95": 0.5066632231598917,
+      "attacks": 15,
+      "median": 0.06743883981829413,
+      "p95": 0.5064095043961288,
       "max": 0.5099615670888085,
-      "adaptiveMedian": 0.042346493893248294,
-      "adaptiveP95": 0.0864471261254259
+      "adaptiveMedian": 0.04220927157085441,
+      "adaptiveP95": 0.08555764264079782
     },
     {
       "start": 104.0,
       "end": 112.0,
       "attacks": 16,
-      "median": 0.0645367887242756,
-      "p95": 0.5283843807905662,
-      "max": 0.5896296541463784,
-      "adaptiveMedian": 0.05494081575555043,
-      "adaptiveP95": 0.07568611161193672
+      "median": 0.06916364457381974,
+      "p95": 0.3719886058074984,
+      "max": 0.45798389462338207,
+      "adaptiveMedian": 0.028498616722949066,
+      "adaptiveP95": 0.06653253277752924
     },
     {
       "start": 112.0,
       "end": 120.0,
       "attacks": 12,
-      "median": 0.04005799824660983,
-      "p95": 0.3379509488515154,
-      "max": 0.37447248741445094,
-      "adaptiveMedian": 0.030495329026571483,
-      "adaptiveP95": 0.06108596427915955
+      "median": 0.05821943350626668,
+      "p95": 0.36495094885151635,
+      "max": 0.4344724874144532,
+      "adaptiveMedian": 0.04815848066853334,
+      "adaptiveP95": 0.06828691741302534
     },
     {
       "start": 120.0,
@@ -173,18 +173,18 @@
       "median": 0.07529554379331671,
       "p95": 0.549268437040628,
       "max": 0.5941068361961186,
-      "adaptiveMedian": 0.028433051510049268,
+      "adaptiveMedian": 0.02469034036444384,
       "adaptiveP95": 0.08206327131594406
     },
     {
       "start": 136.0,
       "end": 144.0,
       "attacks": 13,
-      "median": 0.04766553573472265,
-      "p95": 0.5394708171462012,
+      "median": 0.04951878681563926,
+      "p95": 0.527470817146195,
       "max": 0.6359409356617505,
-      "adaptiveMedian": 0.014217794497000114,
-      "adaptiveP95": 0.06334657760505137
+      "adaptiveMedian": 0.021994328210865888,
+      "adaptiveP95": 0.06722999658089747
     },
     {
       "start": 144.0,
@@ -213,8 +213,8 @@
       "median": 0.18307889397063093,
       "p95": 0.725988117182203,
       "max": 0.7682123755851649,
-      "adaptiveMedian": 0.041021655614287056,
-      "adaptiveP95": 0.07188901934380709
+      "adaptiveMedian": 0.03495516966832213,
+      "adaptiveP95": 0.08231684230176058
     },
     {
       "start": 168.0,
@@ -265,8 +265,18 @@
       "median": 0.18307889397063093,
       "p95": 0.725988117182203,
       "max": 0.7682123755851649,
-      "adaptiveMedian": 0.041021655614287056,
-      "adaptiveP95": 0.07188901934380709
+      "adaptiveMedian": 0.03495516966832213,
+      "adaptiveP95": 0.08231684230176058
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 10,
+      "median": 0.09194247286213653,
+      "p95": 0.4895347787700243,
+      "max": 0.5833243302015347,
+      "adaptiveMedian": 0.05077451224325813,
+      "adaptiveP95": 0.11228785150126719
     },
     {
       "start": 176.0,
@@ -287,39 +297,9 @@
       "max": 0.9402010534912613,
       "adaptiveMedian": 0.04402724514329215,
       "adaptiveP95": 0.07583068305637214
-    },
-    {
-      "start": 128.0,
-      "end": 136.0,
-      "attacks": 14,
-      "median": 0.07529554379331671,
-      "p95": 0.549268437040628,
-      "max": 0.5941068361961186,
-      "adaptiveMedian": 0.028433051510049268,
-      "adaptiveP95": 0.08206327131594406
     }
   ],
   "worstFiveAdaptiveRegions": [
-    {
-      "start": 104.0,
-      "end": 112.0,
-      "attacks": 16,
-      "median": 0.0645367887242756,
-      "p95": 0.5283843807905662,
-      "max": 0.5896296541463784,
-      "adaptiveMedian": 0.05494081575555043,
-      "adaptiveP95": 0.07568611161193672
-    },
-    {
-      "start": 64.0,
-      "end": 72.0,
-      "attacks": 13,
-      "median": 0.05602347066037794,
-      "p95": 0.19523611789757067,
-      "max": 0.2007421975519179,
-      "adaptiveMedian": 0.05389453919362097,
-      "adaptiveP95": 0.06073279318413255
-    },
     {
       "start": 56.0,
       "end": 64.0,
@@ -327,8 +307,38 @@
       "median": 0.056089506207786854,
       "p95": 0.49543906463045023,
       "max": 0.5834903234478972,
-      "adaptiveMedian": 0.04900032236302465,
-      "adaptiveP95": 0.07783618335729761
+      "adaptiveMedian": 0.056089506207786854,
+      "adaptiveP95": 0.07489851477842427
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 13,
+      "median": 0.05602347066037794,
+      "p95": 0.1796936314479836,
+      "max": 0.2007421975519179,
+      "adaptiveMedian": 0.05389453919362097,
+      "adaptiveP95": 0.06073279318413255
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 10,
+      "median": 0.09194247286213653,
+      "p95": 0.4895347787700243,
+      "max": 0.5833243302015347,
+      "adaptiveMedian": 0.05077451224325813,
+      "adaptiveP95": 0.11228785150126719
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 12,
+      "median": 0.05821943350626668,
+      "p95": 0.36495094885151635,
+      "max": 0.4344724874144532,
+      "adaptiveMedian": 0.04815848066853334,
+      "adaptiveP95": 0.06828691741302534
     },
     {
       "start": 120.0,
@@ -339,16 +349,6 @@
       "max": 0.4859913514578551,
       "adaptiveMedian": 0.04592897890665171,
       "adaptiveP95": 0.08081953757987748
-    },
-    {
-      "start": 72.0,
-      "end": 80.0,
-      "attacks": 12,
-      "median": 0.039913851361326635,
-      "p95": 0.18093231876574828,
-      "max": 0.23264376292392797,
-      "adaptiveMedian": 0.04451365329823176,
-      "adaptiveP95": 0.0806447020445297
     }
   ],
   "worstFiveHarmonicRegions": [
@@ -358,22 +358,55 @@
     },
     {
       "start": 104.0,
-      "meanCosine": 0.6336477613806072
+      "meanCosine": 0.6189046387626297
     },
     {
       "start": 128.0,
-      "meanCosine": 0.6379182251291285
+      "meanCosine": 0.6382062463242624
     },
     {
       "start": 160.0,
-      "meanCosine": 0.6461606344632341
+      "meanCosine": 0.6486260658956385
     },
     {
       "start": 56.0,
-      "meanCosine": 0.6685286685527653
+      "meanCosine": 0.6676632409927741
     }
   ],
-  "sections": [],
+  "sections": [
+    {
+      "bar": "9",
+      "occ": 1,
+      "editorial": 22,
+      "aligned": 22.630426358243355,
+      "difference": 0.6304263582433549,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "27",
+      "occ": 1,
+      "editorial": 80,
+      "aligned": 79.50084759506636,
+      "difference": -0.4991524049336391,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "49",
+      "occ": 1,
+      "editorial": 148,
+      "aligned": 148.77802910673893,
+      "difference": 0.7780291067389271,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "58",
+      "occ": 1,
+      "editorial": 178,
+      "aligned": 178.89323972515044,
+      "difference": 0.8932397251504369,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
   "anchors": [
     {
       "label": "first",
@@ -456,7 +489,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.034414522071898546,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.7334925459556046,
+  "meanPathChromaCosine": 0.732564339934236,
   "endAnchor": {
     "scoreQ": 183.0546875,
     "audioSeconds": 191.76,
@@ -480,16 +513,39 @@
     "The recording is Hans Duhan, baritone, with Ferdinand Foll, piano (1928): Christian Utz, ZGMTH 18/Sonderausgabe (2021), https://www.gmth.de/zeitschrift/artikel/1132.aspx . The conventional treble vocal line sounds one octave below its written pitches. The engraving labels that octave convention explicitly; no vocal lyrics are stripped.",
     "Transposition describes the sounding pitches of this particular Commons transfer relative to the global librosa tuning estimate, not a claim about the historical performers’ selected key or original tuning. Utz footnote 73 explicitly warns that Duhan’s transferred pitch/key is particularly uncertain. Absolute piano spectra, not filenames or a global key-classifier label, determine the configured shifts.",
     "Opening piano A2/E3 drone becomes nominal G2/D3: measured peaks 100.1/150.4 Hz (4.0–4.5 s), at global tuning +44 cents (A=451.326 Hz). Additional global shift −2 semitones; vocal line an additional −12. This pitch match is measured; the filename’s later-version label alone is not evidence of recorded pitch.",
-    "The source begins with a real piano-lower-5 grace note. Isolated compilation introduced a 0.0546875-quarter startup lead only in that voice; simultaneous named-voice compilation gives every voice the same origin. Preserve the initial grace and account for the common lead in performed bar 1 rather than dropping a note, moving individual regular attacks, or drifting the parts independently."
+    "The source begins with a real piano-lower-5 grace note. Isolated compilation introduced a 0.0546875-quarter startup lead only in that voice; simultaneous named-voice compilation gives every voice the same origin. Preserve the initial grace and account for the common lead in performed bar 1 rather than dropping a note, moving individual regular attacks, or drifting the parts independently.",
+    "Initial-grace contexts synchronized by silent grace skips, retaining source notes and main-time durations: Original lc5014023.mxl P2 measure 1 direct note index 1 is the visible D-sharp3 sixteenth grace in voice 5/staff 2 (sounding C-sharp3 after the documented whole-score transposition). Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes; retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.27/Documentation/notation/special-rhythmic-concerns#grace-notes ."
   ],
   "sectionAnchorPairsSeconds": [
+    [
+      24.4,
+      22.0
+    ],
+    [
+      81.72,
+      80.0
+    ],
+    [
+      149.12,
+      148.0
+    ],
+    [
+      177.1,
+      178.0
+    ],
     [
       187.3583099312876,
       188.58
     ]
   ],
   "sourceChecks": {
-    "musicxmlConversion": "LilyPond 2.24.4 with per-note tie emission"
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards",
+    "musicxmlInitialGrace": {
+      "part": "P2",
+      "measure": 1,
+      "note": 1,
+      "basis": "Original lc5014023.mxl P2 measure 1 direct note index 1 is the visible D-sharp3 sixteenth grace in voice 5/staff 2 (sounding C-sharp3 after the documented whole-score transposition). Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes; retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.27/Documentation/notation/special-rhythmic-concerns#grace-notes ."
+    }
   },
   "endpointMeasurements": [
     {
@@ -526,9 +582,9 @@
     }
   ],
   "adaptiveOnsetCount": 1165,
-  "adaptiveMedianDeviation": 0.03964019215583647,
+  "adaptiveMedianDeviation": 0.0389415034504168,
   "gateReasons": [],
-  "elapsedSeconds": 0.612478184979409,
+  "elapsedSeconds": 0.45237097796052694,
   "dtwSteps": [
     [
       1,
@@ -554,7 +610,7 @@
     "voices": 5
   },
   "published": true,
-  "configSha256": "036efcd7b3b6c388a41121d58cb7a366101db7962f06b9af9e86f52a178b4ea0",
+  "configSha256": "ace6aeef1d37eb69fb91afba1c0f2cf044ea05b1dd8b724372b300e56fcddab0",
   "sourceDownloads": [
     {
       "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Schubert%2C_Franz/Winterreise%2C_D.911/24_Der_Leiermann_%28Sp%C3%A4tere_Fassung%29/lc5014023.mxl",
@@ -564,34 +620,88 @@
   ],
   "comparison": {
     "previousScore": true,
-    "previousSha256": "7560d677e3daf39d0ba62e43d9a48964ca1e1915c0bb4f5f9c51c83187dd6eba",
-    "candidateSha256": "7560d677e3daf39d0ba62e43d9a48964ca1e1915c0bb4f5f9c51c83187dd6eba",
-    "byteIdentical": true,
+    "previousSha256": "9649bce34bc9ee5f8bede06075ab782ab99b02909c48df691c516a90575e72b2",
+    "candidateSha256": "7716c61ebcfd74ed4cb45cbe9b26134554bbc92b18b4a082e775fca228ad0009",
+    "byteIdentical": false,
     "sameNoteIdentities": true,
     "sameBarIdentities": true,
     "maximumAbsoluteDifferences": {
-      "noteOnsetSeconds": 0.0,
-      "noteDurationSeconds": 0.0,
-      "barSeconds": 0.0
+      "noteOnsetSeconds": 0.6600000000000108,
+      "noteDurationSeconds": 0.6600000000000001,
+      "barSeconds": 0.6599999999999966
     },
     "metadataFieldsChanged": [],
     "toleranceSeconds": 0.001,
-    "numericallyEquivalent": true
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/schubert-winterreise-leiermann-0-9.28.png",
     "work/schubert-winterreise-leiermann-24-32.png",
     "work/schubert-winterreise-leiermann-56-64.png",
     "work/schubert-winterreise-leiermann-64-72.png",
-    "work/schubert-winterreise-leiermann-72-80.png",
+    "work/schubert-winterreise-leiermann-88-96.png",
     "work/schubert-winterreise-leiermann-93.5904-105.59.png",
-    "work/schubert-winterreise-leiermann-104-112.png",
+    "work/schubert-winterreise-leiermann-112-120.png",
     "work/schubert-winterreise-leiermann-120-128.png",
-    "work/schubert-winterreise-leiermann-128-136.png",
     "work/schubert-winterreise-leiermann-152-160.png",
     "work/schubert-winterreise-leiermann-160-168.png",
     "work/schubert-winterreise-leiermann-169-192.png",
     "work/schubert-winterreise-leiermann-176-184.png",
     "work/schubert-winterreise-leiermann-184.598-195.5.png"
+  ],
+  "publicationDecision": {
+    "outcome": "published-provisionally",
+    "publishCommandRun": true,
+    "engravingAndSheetpackRun": true,
+    "reasons": []
+  },
+  "manualInspection": {
+    "classification": "MEAS source inventory and native-browser/image inspection; no aural review",
+    "auralReviewPerformed": false,
+    "sourceIdentity": {
+      "basis": "Direct immutable MusicXML-to-events multiset comparison of quarter onset, sounding pitch and source voice, subtracting the common 0.0546875-quarter initial grace lead. The rest-priming correction leaves the note and bar arrays exactly unchanged.",
+      "regularSourceAttacks": 561,
+      "regularMatchedAttacks": 561,
+      "sourceGraceNotes": 2,
+      "missingRegularAttacks": 0,
+      "unexpectedRegularAttacks": 0,
+      "sourceBars": 61,
+      "barIdentityMismatches": 0
+    },
+    "inspectedWindowsSeconds": [
+      [0, 9.28],
+      [93.5904, 105.59],
+      [184.598, 195.5],
+      [152, 160],
+      [56, 64],
+      [169, 192],
+      [72, 80],
+      [104, 112],
+      [128, 136]
+    ],
+    "inspectedNativeSheetPages": ["sheet/p1.svg", "sheet/p2.svg"],
+    "observations": [
+      "The later A-minor source is performed once through all 61 bars and all five poem stanzas. The current transfer matches a global lowering of two semitones, with the baritone line sounding another octave below its treble notation. This describes the present transfer, not an established historical key choice.",
+      "The original D-sharp3 initial grace becomes sounding C-sharp3. Simultaneous named MIDI staves retain its common 0.0546875-quarter lead exactly once in bar 1; no grace is discarded and no artificial pickup or pitched note is added.",
+      "The initial-grace adapter now primes the original multimeasure rests with nonsounding grace skips, before R2.*3 and R2.*2. Native Chromium shows exactly three initial staves, with clefs, two-flat signatures and time signatures on the staves; no glyph was hidden. The visible instruction states that the vocal line sounds one octave lower.",
+      "The worst primary-detector window, 152–160 seconds, has median 0.465482744 seconds, versus adaptive median 0.038584724 seconds. Its absolute-pitch overlay preserves the piano contour and bass changes. The weakest-harmony windows also preserve the baritone contour over the piano drone; this is image inspection, not listening.",
+      "The final G-minor chord begins at 188.598309931 seconds and its written three-quarter duration maps to 191.76 seconds. These are warped notation timings, not measured note releases.",
+      "The last rest-priming repair changes MIDI track-allocation metadata but not source notes or bars. Relative to the earlier public alignment, the final driver records up to 0.66-second timing differences with unchanged note/bar identities; the fresh candidate's endpoints, held ending, primary/adaptive worst windows and weak harmonic windows were inspected before publication."
+    ],
+    "sheet": {
+      "pages": 2,
+      "printedBars": 61,
+      "derivedBars": 0,
+      "markedGlyphs": 600,
+      "packedBytesIncludingIndex": 225558
+    }
+  },
+  "commandsRun": [
+    "node tools/score.mjs schubert-winterreise-leiermann",
+    "node tools/engrave.mjs schubert-winterreise-leiermann --prepared --score tools/align/work/schubert-winterreise-leiermann-candidate.json --out tools/align/work/schubert-winterreise-leiermann-sheet-inspection",
+    "/tmp/contrapunctus-align-venv/bin/python tools/align/diagnose.py schubert-winterreise-leiermann 72 80",
+    "/tmp/contrapunctus-align-venv/bin/python tools/align/diagnose.py schubert-winterreise-leiermann 104 112",
+    "/tmp/contrapunctus-align-venv/bin/python tools/align/diagnose.py schubert-winterreise-leiermann 128 136",
+    "node tools/score.mjs schubert-winterreise-leiermann --publish"
   ]
 }

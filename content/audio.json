@@ -1259,12 +1259,26 @@
   "artist": "Hankyung Arte Philharmonic",
   "duration": 398.97989583333333
  },
+ "File:Haydn; Symphony No. 94 \"Surprise\", 1. Adagio – Vivace assai.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_1._Adagio_%E2%80%93_Vivace_assai.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_1._Adagio_%E2%80%93_Vivace_assai.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_1._Adagio_%E2%80%93_Vivace_assai.ogg",
+  "license": "Public domain",
+  "artist": "Boston Symphony Orchestra Serge Koussevitzky",
+  "duration": 369.7035827664399
+ },
  "File:Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_2._Andante.ogg",
   "license": "Public domain",
   "artist": "Boston Symphony Orchestra Serge Koussevitzky",
   "duration": 438.26560090702947
+ },
+ "File:Haydn; Symphony No. 94 \"Surprise\", 3. Menuetto (Allegro molto).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_3._Menuetto_%28Allegro_molto%29.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_3._Menuetto_%28Allegro_molto%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_3._Menuetto_(Allegro_molto).ogg",
+  "license": "Public domain",
+  "artist": "Boston Symphony Orchestra Serge Koussevitzky",
+  "duration": 229.75741496598638
  },
  "File:Hector Berlioz - Symphonie fantastique, op. 14 - 1. Rêveries – Passions (Igor Markevitch, Orchestre Lamoureux, 1962).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_1._R%C3%AAveries_%E2%80%93_Passions_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.flac/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_1._R%C3%AAveries_%E2%80%93_Passions_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.flac.mp3",
@@ -1447,6 +1461,13 @@
   "license": "CC0",
   "artist": "Composed by Johann Sebastian Bach, performed by Kimiko Ishizaka",
   "duration": 482.17334375
+ },
+ "File:Klaviersonate Nr. 30 E-Dur op. 109 - I. Vivace, ma non troppo.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Klaviersonate_Nr._30_E-Dur_op._109_-_I._Vivace%2C_ma_non_troppo.ogg/Klaviersonate_Nr._30_E-Dur_op._109_-_I._Vivace%2C_ma_non_troppo.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Klaviersonate_Nr._30_E-Dur_op._109_-_I._Vivace,_ma_non_troppo.ogg",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "duration": 230.66122448979593
  },
  "File:Klaviersonate Nr. 30 E-Dur op. 109 - II. Prestissimo.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Klaviersonate_Nr._30_E-Dur_op._109_-_II._Prestissimo.ogg/Klaviersonate_Nr._30_E-Dur_op._109_-_II._Prestissimo.ogg.mp3",

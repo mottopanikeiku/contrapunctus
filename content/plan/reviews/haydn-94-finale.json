@@ -1,34 +1,5 @@
 {
   "id": "haydn-94-finale",
-  "verdict": "fix",
-  "defects": [
-    {
-      "where": "sections[1–3]; cues[4]; cues[6–8]; transitions[0–2]; orchestra.timeline[2]",
-      "severity": "major",
-      "problem": "EXT: The development begins with repeated C-based chords and a G-major thematic recall, not the later F♯-bass climax. Its later forceful thematic return is in G minor; the reprise is shortened, returning directly to the first theme’s continuation before the secondary theme in G. The coda starts quietly and its soft timpani roll precedes an E♭-major surprise and the later loud ending. MEAS: The untransposed recurrence is 7.5–21.5→141–155 s, while G-major estimates resume at 2:25; 1:20 is already a return from the exposition’s D region, and 2:55 is quiet before the later surge. INFERENCE: The current 1:42 development onset, D-major opening return at 2:13, late recap marker and loud-start coda all misidentify stages of the score. The global loudest window is 1:45, not the coda.",
-      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/3/35/IMSLP546546-PMLP34746-JHaydn_Symphony_No.94_fullscore_bh1855.pdf — printed pp. 41–42 (C chords and G recall), 45–47 (development and shortened return), 49–52 (quiet coda, pp timpani roll and subsequent tutti). https://de.wikipedia.org/wiki/94._Sinfonie_(Haydn) — IV: exposition ends at 99/103; development recalls G, then G minor at 146; shortened reprise from 182; quiet coda from 222 and E♭ turn. MEAS: cache/analysis/haydn-94-finale.txt:41–67 and cache/form/haydn-94-finale.txt:27–28.",
-      "fix": "Rebuild these joins from the score with broad, explicitly approximate anchors: development around the earlier 1:20 recall (1:18 boundary and G region), shortened tonic reprise around 2:20 (the 141–155 unshifted match and subsequent G region), secondary theme in G around 2:40, and quiet coda around 2:55 before the later loud surge. Do not present the preceding D-key estimate as proof that the untransposed thematic match is in D, or audio pitch-class spelling A♭ as a score-established harmonic fact. Keep the 1:42 feature as tension inside the development if useful. Describe the soft timpani preparation and E♭ detour, not a uniformly loud G-major coda; say among the loudest rather than loudest-of-the-movement. Do not invent exact bar times."
-    },
-    {
-      "where": "dossier.carrier.matrixTakeSides",
-      "severity": "major",
-      "problem": "EXT: Young’s independent discography lists both issued takes 2 and 3 for CVE-48988. The Archive description identifies Varney’s Victor M-55 transfer but not the particular pressing/take, and its photograph is an album cover, not a run-out. INFERENCE: A documented take 3 from an HMV discography cannot by itself identify which issued take is heard in this Victor-sourced digital file.",
-      "evidence": "EXT: Edward D. Young, Serge Koussevitzky: A Complete Discography, Part I, ARSC Journal21/1 (1990), printed p. 81/PDF p. 37: https://www.arsc-amp.org/journals/v21/v21n1p45-129.pdf . https://archive.org/metadata/Haydn_Symphony_No_94_Surprise and https://archive.org/download/Haydn_Symphony_No_94_Surprise/DSCN9230.JPG establish the source attribution/cover, not a take inscription.",
-      "fix": "Retain the documented matrix identity and list the issued-take alternatives with the correct distinction between discographic evidence and this transfer’s unidentified take. Do not assert take 3 as documented for the selected file without item-specific evidence. Young also supplies the September 1929 release and M-55 disc range if useful for strengthening provenance/territorial rights."
-    },
-    {
-      "where": "orchestra.timeline[0]",
-      "severity": "minor",
-      "problem": "EXT: The opening begins with strings, but first flute and then first bassoon contribute before the first full-orchestra forte. MEAS: The sole opening state remains strings-only until t28. INFERENCE: Without a qualifying broad-passages explanation or an intermediate state, the diagram omits those opening woodwind colours.",
-      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/3/35/IMSLP546546-PMLP34746-JHaydn_Symphony_No.94_fullscore_bh1855.pdf — printed pp. 35–36: first-flute line, then first-flute/first-bassoon participation before the tutti on p. 37.",
-      "fix": "Represent the opening woodwind contribution in a broad source-supported state, or add appropriately approximate states. Preserve the true strings-only initial phrase, but do not imply that winds wait until the tutti; no exact entrance time is required or established."
-    },
-    {
-      "where": "cues[1]",
-      "severity": "minor",
-      "problem": "EXT: The cue largely reproduces Howard’s generic evaluative praise. INFERENCE: It supplies neither a concrete musical feature nor a recording observation at its listening position, and reads as filler rather than the required useful listening prose.",
-      "evidence": "EXT: https://www.laphil.com/works/symphony-no-94-surprise — concluding sentence. local://AUTHOR-BRIEF.md:16–17 requires concrete instruments, register, harmony or changes for listening cues.",
-      "fix": "Remove the generic praise cue or replace it in fresh language with a concrete score-supported feature of the opening paragraph, at general/passage precision and without inventing a timed instrument entrance."
-    }
-  ]
+  "verdict": "pass",
+  "defects": []
 }

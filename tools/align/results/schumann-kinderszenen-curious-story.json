@@ -2,7 +2,7 @@
   "uniqueScoreAttacks": 210,
   "audioDetectedOnsets": 201,
   "medianAbsoluteOnsetDeviation": 0.029555272108842345,
-  "noteWeightedMedianDeviation": 0.02594557823128696,
+  "noteWeightedMedianDeviation": 0.02526927437641291,
   "p95AbsoluteOnsetDeviation": 0.09257018140588918,
   "fractionWithin150ms": 0.9619047619047619,
   "regions": [
@@ -104,7 +104,7 @@
       "p95": 0.6353340065192895,
       "max": 0.6596606788548769,
       "adaptiveMedian": 0.03055328798188839,
-      "adaptiveP95": 0.09155600907023426
+      "adaptiveP95": 0.08515600907024917
     },
     {
       "start": 80.0,
@@ -234,23 +234,23 @@
   "worstFiveHarmonicRegions": [
     {
       "start": 96.0,
-      "meanCosine": 0.30368872911242295
+      "meanCosine": 0.25576495781662556
     },
     {
       "start": 64.0,
-      "meanCosine": 0.730379371363489
+      "meanCosine": 0.7290786504641211
     },
     {
       "start": 88.0,
-      "meanCosine": 0.7572351436754106
+      "meanCosine": 0.7527460071560456
     },
     {
       "start": 40.0,
-      "meanCosine": 0.7750743972889883
+      "meanCosine": 0.7792897423831334
     },
     {
-      "start": 72.0,
-      "meanCosine": 0.785302811920417
+      "start": 56.0,
+      "meanCosine": 0.7854471327806232
     }
   ],
   "sections": [
@@ -279,11 +279,11 @@
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
-      "bar": "31",
+      "bar": "33",
       "occ": 1,
-      "editorial": 72,
-      "aligned": 71.15,
-      "difference": -0.8499999999999943,
+      "editorial": 76.5,
+      "aligned": 78.07900000000001,
+      "difference": 1.5790000000000077,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     }
   ],
@@ -318,7 +318,7 @@
       "bar": "40",
       "occ": 1,
       "midi": 66,
-      "voice": "lower",
+      "voice": "cross-staff-inner",
       "durationQ": 1.0,
       "onset": 94.839,
       "offset": 97.08,
@@ -328,7 +328,17 @@
       "bar": "40",
       "occ": 1,
       "midi": 74,
-      "voice": "upper",
+      "voice": "melody",
+      "durationQ": 1.0,
+      "onset": 94.839,
+      "offset": 97.08,
+      "durationSeconds": 2.2409999999999997
+    },
+    {
+      "bar": "40",
+      "occ": 1,
+      "midi": 74,
+      "voice": "upper-inner",
       "durationQ": 1.0,
       "onset": 94.839,
       "offset": 97.08,
@@ -339,7 +349,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.044132812499981355,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.7971421505551414,
+  "meanPathChromaCosine": 0.796563620259685,
   "endAnchor": {
     "scoreQ": 120.0,
     "audioSeconds": 97.08,
@@ -358,7 +368,7 @@
     "mido": "1.3.3"
   },
   "scoreProvenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "EXT: All five unchanged sounding Liu piano-source variables are extracted separately; their helper names are not actual instrumentation or recovered recorded hands. MEAS: 623 canonical voice events contain the same 621 distinct pitch/onset pairs as legacy MIDI, plus two simultaneous D5 voice-unisons at q83/q119 (bars 28/40). The bassvoices D3 half notes at q58/q94 (bars 20/32; SchumannOp15No02.ly lines 234/246, <d a'>2) retain their full 2Q instead of the legacy 1.5Q truncation at independent oboesthree D3 eighths (lines 197/200). All seven written tied pitch-events retain their full spans. No source attacks, rests or pitched variables are replaced. Recording edition and articulation remain provisional.",
     "Read content/listen/schumann-kinderszenen-curious-story.mjs and cache/analysis/schumann-kinderszenen-curious-story.txt. Editorial sections are coarse; they are not forced alignment anchors."
   ],
   "sectionAnchorPairsSeconds": [
@@ -371,12 +381,12 @@
       46.0
     ],
     [
-      67.772,
+      67.77172413793103,
       64.0
     ],
     [
-      74.0,
-      72.0
+      77.46,
+      76.5
     ],
     [
       96.033,
@@ -421,7 +431,7 @@
   "adaptiveOnsetCount": 220,
   "adaptiveMedianDeviation": 0.03804520975056569,
   "gateReasons": [],
-  "elapsedSeconds": 0.5480753969750367,
+  "elapsedSeconds": 0.41094381094444543,
   "dtwSteps": [
     [
       1,
@@ -443,11 +453,11 @@
   ],
   "counts": {
     "bars": 41,
-    "notes": 621,
-    "voices": 2
+    "notes": 623,
+    "voices": 5
   },
   "published": true,
-  "configSha256": "5d86d447137458acfa4848cad67285004d67ec69e40554d60c8bc8344436b55a",
+  "configSha256": "7e79725ff1a22964077509a131c093ea36e991c196258f252b19b3e1fc4b44f1",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No02/SchumannOp15No02.ly",
@@ -461,9 +471,22 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "52415156b6eda9b748b5a64640c2bf68d7744e172ab22141d5915f4ae3880c0d",
+    "candidateSha256": "4b795eea9f0f65c64e9d14490feaaa8ceadba6ce664b07c90b7314347919c03f",
+    "byteIdentical": false,
+    "sameNoteIdentities": false,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": null,
+      "noteDurationSeconds": null,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [
+      "voices"
+    ],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/schumann-kinderszenen-curious-story-0-8.png",

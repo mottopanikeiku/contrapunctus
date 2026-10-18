@@ -1,10 +1,10 @@
 {
   "uniqueScoreAttacks": 323,
   "audioDetectedOnsets": 227,
-  "medianAbsoluteOnsetDeviation": 0.04576719576720478,
-  "noteWeightedMedianDeviation": 0.04500377928948929,
+  "medianAbsoluteOnsetDeviation": 0.04548500881834361,
+  "noteWeightedMedianDeviation": 0.04164273116654371,
   "p95AbsoluteOnsetDeviation": 0.2802464096749768,
-  "fractionWithin150ms": 0.6965944272445821,
+  "fractionWithin150ms": 0.6934984520123839,
   "regions": [
     {
       "start": 0.0,
@@ -23,67 +23,67 @@
       "median": 0.04617787855883293,
       "p95": 0.2584182413706233,
       "max": 0.32729654824897025,
-      "adaptiveMedian": 0.05063492063492525,
+      "adaptiveMedian": 0.04824472999076157,
       "adaptiveP95": 0.20360191484000698
     },
     {
       "start": 16.0,
       "end": 24.0,
       "attacks": 29,
-      "median": 0.03880070546737713,
+      "median": 0.040922146636468426,
       "p95": 0.2565255731922349,
       "max": 0.28073318216175025,
-      "adaptiveMedian": 0.04675233056185846,
-      "adaptiveP95": 0.21425749559082516
+      "adaptiveMedian": 0.05026958931721737,
+      "adaptiveP95": 0.2193675988914073
     },
     {
       "start": 24.0,
       "end": 32.0,
       "attacks": 32,
-      "median": 0.042095825984718616,
-      "p95": 0.24185934744268225,
+      "median": 0.04422776518014082,
+      "p95": 0.2437266313932991,
       "max": 0.2535575711766107,
-      "adaptiveMedian": 0.04583900226758075,
+      "adaptiveMedian": 0.04713970773495291,
       "adaptiveP95": 0.23800377928948802
     },
     {
       "start": 32.0,
       "end": 40.0,
       "attacks": 28,
-      "median": 0.03912068531116475,
+      "median": 0.0374603174603223,
       "p95": 0.2743116654068899,
       "max": 0.32113126732173214,
-      "adaptiveMedian": 0.04643172083652658,
+      "adaptiveMedian": 0.04532753842278581,
       "adaptiveP95": 0.25189367598890505
     },
     {
       "start": 40.0,
       "end": 48.0,
       "attacks": 30,
-      "median": 0.038073822121447165,
+      "median": 0.03884101788864314,
       "p95": 0.24347871000250326,
       "max": 0.2927412446460096,
-      "adaptiveMedian": 0.04770597127741283,
+      "adaptiveMedian": 0.049341143864964465,
       "adaptiveP95": 0.2320297304106762
     },
     {
       "start": 48.0,
       "end": 56.0,
       "attacks": 25,
-      "median": 0.05054673721339498,
+      "median": 0.04061980347695737,
       "p95": 0.3067477954144533,
       "max": 0.3400982615268262,
-      "adaptiveMedian": 0.0433786848072657,
-      "adaptiveP95": 0.18820534139582035
+      "adaptiveMedian": 0.042113882590079754,
+      "adaptiveP95": 0.21634246661631087
     },
     {
       "start": 56.0,
       "end": 64.0,
       "attacks": 32,
-      "median": 0.04656021667927135,
-      "p95": 0.23485966238346342,
-      "max": 0.24369110607204192,
-      "adaptiveMedian": 0.04675422020661202,
+      "median": 0.046058201058215786,
+      "p95": 0.2336611237087286,
+      "max": 0.2523431594859886,
+      "adaptiveMedian": 0.044285714285727806,
       "adaptiveP95": 0.13227021919880355
     },
     {
@@ -91,30 +91,30 @@
       "end": 72.0,
       "attacks": 29,
       "median": 0.05977828168302324,
-      "p95": 0.5071146384479499,
-      "max": 0.6326177878558639,
-      "adaptiveMedian": 0.05211892164271603,
-      "adaptiveP95": 0.22372965482488777
+      "p95": 0.5155097001763774,
+      "max": 0.6526177878558599,
+      "adaptiveMedian": 0.04894683799447819,
+      "adaptiveP95": 0.223445704207603
     },
     {
       "start": 72.0,
       "end": 80.0,
       "attacks": 26,
-      "median": 0.04365835222979797,
+      "median": 0.0425875535399598,
       "p95": 0.29937389770721623,
       "max": 0.31837994457043806,
-      "adaptiveMedian": 0.04365835222979797,
+      "adaptiveMedian": 0.0425875535399598,
       "adaptiveP95": 0.23199798437890706
     },
     {
       "start": 80.0,
       "end": 88.0,
       "attacks": 26,
-      "median": 0.05801650289746618,
-      "p95": 0.35292642983115385,
+      "median": 0.04838183421517073,
+      "p95": 0.3515375409422319,
       "max": 0.3687881078355417,
-      "adaptiveMedian": 0.04889581758634165,
-      "adaptiveP95": 0.23951835055009596
+      "adaptiveMedian": 0.04758755353999078,
+      "adaptiveP95": 0.25705341395816816
     }
   ],
   "worstFiveOnsetRegions": [
@@ -123,149 +123,157 @@
       "end": 72.0,
       "attacks": 29,
       "median": 0.05977828168302324,
-      "p95": 0.5071146384479499,
-      "max": 0.6326177878558639,
-      "adaptiveMedian": 0.05211892164271603,
-      "adaptiveP95": 0.22372965482488777
+      "p95": 0.5155097001763774,
+      "max": 0.6526177878558599,
+      "adaptiveMedian": 0.04894683799447819,
+      "adaptiveP95": 0.223445704207603
     },
     {
       "start": 80.0,
       "end": 88.0,
       "attacks": 26,
-      "median": 0.05801650289746618,
-      "p95": 0.35292642983115385,
+      "median": 0.04838183421517073,
+      "p95": 0.3515375409422319,
       "max": 0.3687881078355417,
-      "adaptiveMedian": 0.04889581758634165,
-      "adaptiveP95": 0.23951835055009596
+      "adaptiveMedian": 0.04758755353999078,
+      "adaptiveP95": 0.25705341395816816
     },
     {
-      "start": 48.0,
-      "end": 56.0,
-      "attacks": 25,
-      "median": 0.05054673721339498,
-      "p95": 0.3067477954144533,
-      "max": 0.3400982615268262,
-      "adaptiveMedian": 0.0433786848072657,
-      "adaptiveP95": 0.18820534139582035
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 35,
+      "median": 0.04617787855883293,
+      "p95": 0.2584182413706233,
+      "max": 0.32729654824897025,
+      "adaptiveMedian": 0.04824472999076157,
+      "adaptiveP95": 0.20360191484000698
+    },
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 31,
+      "median": 0.04614764424288298,
+      "p95": 0.21475686570924613,
+      "max": 0.2399370118417714,
+      "adaptiveMedian": 0.04502393550012762,
+      "adaptiveP95": 0.19250356932896584
     },
     {
       "start": 56.0,
       "end": 64.0,
       "attacks": 32,
-      "median": 0.04656021667927135,
-      "p95": 0.23485966238346342,
-      "max": 0.24369110607204192,
-      "adaptiveMedian": 0.04675422020661202,
+      "median": 0.046058201058215786,
+      "p95": 0.2336611237087286,
+      "max": 0.2523431594859886,
+      "adaptiveMedian": 0.044285714285727806,
       "adaptiveP95": 0.13227021919880355
-    },
-    {
-      "start": 8.0,
-      "end": 16.0,
-      "attacks": 35,
-      "median": 0.04617787855883293,
-      "p95": 0.2584182413706233,
-      "max": 0.32729654824897025,
-      "adaptiveMedian": 0.05063492063492525,
-      "adaptiveP95": 0.20360191484000698
     }
   ],
   "worstFiveAdaptiveRegions": [
     {
-      "start": 64.0,
-      "end": 72.0,
+      "start": 16.0,
+      "end": 24.0,
       "attacks": 29,
-      "median": 0.05977828168302324,
-      "p95": 0.5071146384479499,
-      "max": 0.6326177878558639,
-      "adaptiveMedian": 0.05211892164271603,
-      "adaptiveP95": 0.22372965482488777
-    },
-    {
-      "start": 8.0,
-      "end": 16.0,
-      "attacks": 35,
-      "median": 0.04617787855883293,
-      "p95": 0.2584182413706233,
-      "max": 0.32729654824897025,
-      "adaptiveMedian": 0.05063492063492525,
-      "adaptiveP95": 0.20360191484000698
-    },
-    {
-      "start": 80.0,
-      "end": 88.0,
-      "attacks": 26,
-      "median": 0.05801650289746618,
-      "p95": 0.35292642983115385,
-      "max": 0.3687881078355417,
-      "adaptiveMedian": 0.04889581758634165,
-      "adaptiveP95": 0.23951835055009596
+      "median": 0.040922146636468426,
+      "p95": 0.2565255731922349,
+      "max": 0.28073318216175025,
+      "adaptiveMedian": 0.05026958931721737,
+      "adaptiveP95": 0.2193675988914073
     },
     {
       "start": 40.0,
       "end": 48.0,
       "attacks": 30,
-      "median": 0.038073822121447165,
+      "median": 0.03884101788864314,
       "p95": 0.24347871000250326,
       "max": 0.2927412446460096,
-      "adaptiveMedian": 0.04770597127741283,
+      "adaptiveMedian": 0.049341143864964465,
       "adaptiveP95": 0.2320297304106762
     },
     {
-      "start": 56.0,
-      "end": 64.0,
-      "attacks": 32,
-      "median": 0.04656021667927135,
-      "p95": 0.23485966238346342,
-      "max": 0.24369110607204192,
-      "adaptiveMedian": 0.04675422020661202,
-      "adaptiveP95": 0.13227021919880355
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 29,
+      "median": 0.05977828168302324,
+      "p95": 0.5155097001763774,
+      "max": 0.6526177878558599,
+      "adaptiveMedian": 0.04894683799447819,
+      "adaptiveP95": 0.223445704207603
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 35,
+      "median": 0.04617787855883293,
+      "p95": 0.2584182413706233,
+      "max": 0.32729654824897025,
+      "adaptiveMedian": 0.04824472999076157,
+      "adaptiveP95": 0.20360191484000698
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 26,
+      "median": 0.04838183421517073,
+      "p95": 0.3515375409422319,
+      "max": 0.3687881078355417,
+      "adaptiveMedian": 0.04758755353999078,
+      "adaptiveP95": 0.25705341395816816
     }
   ],
   "worstFiveHarmonicRegions": [
     {
+      "start": 8.0,
+      "meanCosine": 0.7557505733309583
+    },
+    {
       "start": 48.0,
-      "meanCosine": 0.7482845826938344
+      "meanCosine": 0.7584240961457845
     },
     {
       "start": 64.0,
-      "meanCosine": 0.7508430572125182
+      "meanCosine": 0.7637964998450443
     },
     {
-      "start": 8.0,
-      "meanCosine": 0.7528796452623013
+      "start": 88.0,
+      "meanCosine": 0.7986788413765139
     },
     {
-      "start": 80.0,
-      "meanCosine": 0.7890309611769121
-    },
-    {
-      "start": 24.0,
-      "meanCosine": 0.7967005591244819
+      "start": 16.0,
+      "meanCosine": 0.7995768405709147
     }
   ],
   "sections": [
     {
-      "bar": "14",
+      "bar": "9",
       "occ": 1,
-      "editorial": 28,
-      "aligned": 27.620493827160487,
-      "difference": -0.3795061728395126,
+      "editorial": 16,
+      "aligned": 16.483703703703704,
+      "difference": 0.4837037037037035,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
-      "bar": "23",
+      "bar": "17",
       "occ": 1,
-      "editorial": 46,
-      "aligned": 46.7627160493827,
-      "difference": 0.7627160493827034,
+      "editorial": 34,
+      "aligned": 33.63728395061728,
+      "difference": -0.36271604938271906,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "8",
+      "occ": 2,
+      "editorial": 52,
+      "aligned": 51.70543209876543,
+      "difference": -0.2945679012345721,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
       "bar": "17",
       "occ": 2,
-      "editorial": 68,
+      "editorial": 69,
       "aligned": 69.36913580246912,
-      "difference": 1.369135802469117,
+      "difference": 0.3691358024691169,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     }
   ],
@@ -300,7 +308,7 @@
       "bar": "24",
       "occ": 2,
       "midi": 54,
-      "voice": "upper",
+      "voice": "upper-inner",
       "durationQ": 0.75,
       "onset": 87.8122222222222,
       "offset": 89.95999999999995,
@@ -310,7 +318,7 @@
       "bar": "24",
       "occ": 2,
       "midi": 57,
-      "voice": "upper",
+      "voice": "upper-inner",
       "durationQ": 0.75,
       "onset": 87.8122222222222,
       "offset": 89.95999999999995,
@@ -321,10 +329,10 @@
     {
       "aStart": 17.5,
       "aEnd": 29.5,
-      "predictedBStart": 53.546172839506085,
+      "predictedBStart": 53.547901234567824,
       "bestBStart": 53.5,
       "offsetSeconds": 36.0,
-      "boundaryResidualSeconds": -0.04617283950608453,
+      "boundaryResidualSeconds": -0.04790123456782425,
       "cosine": 0.9219534349864715,
       "searchRadiusSeconds": 5
     },
@@ -342,7 +350,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.09641975308642081,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.7926197347525706,
+  "meanPathChromaCosine": 0.7979708597927712,
   "endAnchor": {
     "scoreQ": 81.0,
     "audioSeconds": 89.95999999999995,
@@ -361,23 +369,28 @@
     "mido": "1.3.3"
   },
   "scoreProvenance": [
-    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Leichte Stucke, 1900. MEAS: Correct work/movement catalogue number and original piano scoring. INFERENCE: The recording’s exact edition, repeat choices, cuts and ornaments remain unverified; do not use MIDI duration as evidence of equivalence.",
+    "EXT: All four unchanged sounding Liu piano voices are extracted separately; these are notation identities, not recovered recorded hands. MEAS: 497 canonical voice events / 404 distinct pitch-onset pairs versus legacy 402/402 comprise 93 coincident voice-unisons and two genuinely missing A2 quarter attacks at q7.5/q23.5 (bars 4/12; bassvoices a4, source lines 208/216) beneath bassvoicestwo A2 ties starting q6/q22 (lines 245–246/254–255). Both independent attacks and held voices are retained.",
+    "MEAS: Two A1 grace onsets relocate from q8.3697917/q24.3697917 to q8.3854167/q24.3854167 under modern LilyPond; they are not new main notes. Eleven shared-note duration differences are written-staccato playback policy, and two are grace-adjacent tie gates. Those A2 ties have written spans of 2.5Q; rendered MIDI gates are 2.3854167Q because the following grace steals time. These realizations do not establish measured recording key releases. No source pitch, repeat or written rest is removed; recording edition remains provisional.",
     "Read content/listen/schumann-kinderszenen-happiness.mjs and cache/analysis/schumann-kinderszenen-happiness.txt. Harmonic trajectories suggest A0–28, B28–46, A46–68, B68–90; these are coarse, not forced alignment anchors.",
     "Opened Henle critical notes p299, https://www.henle.de/media/05/bf/e6/1690899698/9924-1690899698-sync.pdf: FE2 writes repeats out; the D.C. at16 may be a manuscript remnant. This documents edition/order ambiguity, not proof of Betts's choice. The proposed return is subject to pitch/order inspection.",
     "DCML reference harmony https://raw.githubusercontent.com/DCMLab/schumann_kinderszenen/main/harmonies/n05.harmonies.tsv confirms the borrowed F-major region (local bIII of D); no reference-corpus notes or harmony labels are copied into this Mutopia-derived score."
   ],
   "sectionAnchorPairsSeconds": [
     [
-      29.68,
-      28.0
+      17.76,
+      16.0
     ],
     [
-      48.2,
-      46.0
+      36.36,
+      34.0
     ],
     [
-      71.04,
-      68.0
+      53.885000000000005,
+      52.0
+    ],
+    [
+      71.6,
+      69.0
     ],
     [
       88.73074074074073,
@@ -417,9 +430,9 @@
     }
   ],
   "adaptiveOnsetCount": 278,
-  "adaptiveMedianDeviation": 0.04704207608970279,
+  "adaptiveMedianDeviation": 0.04691358024692249,
   "gateReasons": [],
-  "elapsedSeconds": 0.621047210006509,
+  "elapsedSeconds": 0.3778162390226498,
   "dtwSteps": [
     [
       1,
@@ -441,11 +454,11 @@
   ],
   "counts": {
     "bars": 42,
-    "notes": 673,
-    "voices": 2
+    "notes": 832,
+    "voices": 4
   },
   "published": true,
-  "configSha256": "af2bc9ee7eb6132631494a2dcc1691f931a9c1446cdef33bd0963d013606e584",
+  "configSha256": "cbc9f4dc92f188749f05153d33c534f193040c80b004b8e5c8b8d65375add19e",
   "sourceDownloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/SchumannR/O15/SchumannOp15No05/SchumannOp15No05.ly",
@@ -459,18 +472,32 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "86d9d7296ef13b9850b021ad52f8b4d636b76cdad924b239c1f58399739e3a0b",
+    "candidateSha256": "78cc066ced99dd5ad4cb878a4ee87b513614d819e79eaa52a1287c54ccf40788",
+    "byteIdentical": false,
+    "sameNoteIdentities": false,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": null,
+      "noteDurationSeconds": null,
+      "barSeconds": 0.12000000000000455
+    },
+    "metadataFieldsChanged": [
+      "voices"
+    ],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
+    "work/schumann-kinderszenen-happiness-0-8.png",
     "work/schumann-kinderszenen-happiness-0-8.4.png",
     "work/schumann-kinderszenen-happiness-8-16.png",
+    "work/schumann-kinderszenen-happiness-16-24.png",
     "work/schumann-kinderszenen-happiness-20-36.png",
     "work/schumann-kinderszenen-happiness-37.9707-49.9707.png",
     "work/schumann-kinderszenen-happiness-40-48.png",
     "work/schumann-kinderszenen-happiness-40-56.png",
-    "work/schumann-kinderszenen-happiness-48-56.png",
     "work/schumann-kinderszenen-happiness-56-64.png",
     "work/schumann-kinderszenen-happiness-62-78.png",
     "work/schumann-kinderszenen-happiness-64-72.png",

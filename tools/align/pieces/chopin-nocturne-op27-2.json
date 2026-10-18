@@ -76,6 +76,12 @@
       "window": [267.85, 268.25],
       "label": "bar-60-low-A-flat-chord",
       "basis": "The source A-flat1/A-flat3/D-flat4/E-flat4 chord has a clear pitch rise near 268 s immediately before the ascending right-hand run. The unconstrained candidate placed this chord and run approximately one second late. This is an inspected source-pitch constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 225,
+      "window": [354.05, 354.35],
+      "label": "bar-76-high-A-flat6-F7",
+      "basis": "Fixed cached absolute-pitch features show the closing ascent's F-sharp6/G-sharp6/B-flat6/C7/D-flat7/E-flat7 peaks at350.88/351.28/351.66/352.12/352.50/353.02s, then F7 at354.18s. The unconstrained ending warp delayed this final high dyad to357.666s despite passing gates. Bind the actual q225 A-flat6/F7 attack, retaining its notated hold, the following rest and both later chords. This is an inspected fitting constraint, not independent validation or a measured key release."
     }
   ],
   "boundaries": [],

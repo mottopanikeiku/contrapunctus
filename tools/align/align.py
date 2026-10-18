@@ -385,7 +385,7 @@ def run(ident):
     diagnostics['dtwSteps'] = kwargs['step_sizes'].tolist()
     diagnostics['dtwStepWeights'] = kwargs['step_weights'].tolist()
     diagnostics['counts'] = {'bars': len(score['bars']), 'notes': len(score['notes']), 'voices': len(score['voices'])}
-    write_json(HERE / 'work' / (ident + '-candidate.json'), score)
+    write_json(HERE / 'work' / (ident + '-candidate.json'), score, compact=True)
     write_json(HERE / 'work' / (ident + '-checks.json'), diagnostics)
     np.savez_compressed(HERE / 'work' / (ident + '-path.npz'), score_seconds=sx, audio_seconds=ay, scale=scale)
     print('CHECKS', ident, json.dumps({k: diagnostics[k] for k in ('medianAbsoluteOnsetDeviation', 'p95AbsoluteOnsetDeviation', 'zeroOrNegativeDurations', 'collapsedAttackIntervals', 'meanPathChromaCosine', 'gateReasons')}), flush=True)

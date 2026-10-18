@@ -138,10 +138,11 @@
       "sourceIds": [
         "archive",
         "pristine",
+        "goldenbook",
         "eu-audio",
         "eu-extension"
       ],
-      "note": "The Internet Archive item carries a CC0 licence URL declared by the uploader, which is not treated as authority to waive Victor’s rights. The pre-1963 European rule applies because the recording was made in 1927 and issued on Victor 6663–6665 long before 1963, so the 50-year term expired before the 2013 extension; the exact issue year is not stated in the sources consulted. This is territorial, not a worldwide licence. The recording was published after 1925, so a US public-domain basis is not established.",
+      "note": "The Internet Archive item carries a CC0 licence URL declared by the uploader, which is not treated as authority to waive Victor’s rights. The pre-1963 European rule applies because the recording was made in 1927 and was on sale by January 1928 (a Victor advertisement in The Golden Book Magazine offers Records Nos. 6663-4-5), so the 50-year term expired before the 2013 extension; the exact first issue date is not established. This is territorial, not a worldwide licence. The recording was published after 1925, so a US public-domain basis is not established.",
       "alternatives": [
         {
           "value": "Pre-1963 European public domain — territorial basis.",
@@ -181,6 +182,13 @@
       "title": "John R. Bolig — His Master’s Voice Celebrity Series Recordings and Historical Reissues, 1924–1958",
       "url": "https://www.examenapium.it/cs/biblio/Bolig2020.pdf",
       "locator": "Entries DB 7–9 for Symphony No. 8 in B minor, Philadelphia Orchestra, Stokowski: first movement parts 1–3, CVE-29052-6, -29053-6 and -29054-6, 28 April 1927; second movement part 1, CVE-29055-7, 28 April 1927, parts 2 and 3, CVE-29056-7 and -29057-7, 30 April 1927; Victor 6663–6665 and later issues; Philadelphia, Academy of Music. The text was read from an extract of the book on 17 October 2026; the PDF could not be fetched directly.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "goldenbook",
+      "title": "The Golden Book Magazine, January 1928 — Victor advertisement",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Golden_Book_1928-01.pdf",
+      "locator": "PDF p. 20: Victor advertisement for Schubert’s Unfinished Symphony, Records Nos. 6663-4-5 by Leopold Stokowski and the Philadelphia Symphony Orchestra; the issue is dated January 1928 by its Commons file description. The PDF was read at https://upload.wikimedia.org/wikipedia/commons/2/20/The_Golden_Book_1928-01.pdf.",
       "accessed": "2026-10-17"
     },
     {

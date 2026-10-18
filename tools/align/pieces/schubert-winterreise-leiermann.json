@@ -3,7 +3,7 @@
   "id": "schubert-winterreise-leiermann",
   "source": {
     "title": "Winterreise, D. 911 — No. 24 Der Leiermann (later version)",
-    "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established",
+    "edition": "OpenScore Lieder transcription from IMSLP #60822; printed-edition imprint not independently established. Rendering transposed −2 semitones (A minor → nominal G minor) to match this transfer, with the treble vocal line sounding 8vb; this does not establish the historical performers' chosen key.",
     "encoder": "OpenScore Lieder contributors",
     "url": "https://musescore.com/openscore-lieder-corpus/scores/5014023",
     "license": "CC0 1.0",
@@ -70,7 +70,7 @@
         61
       ]
     ],
-    "description": "Printed bars 1–61 once, all five poem stanzas written out in the later-version A-minor source. The first performed bar includes 0.0546875 quarter units of common MIDI pre-roll for the source's initial grace note, then its full three metric quarters; subsequent bars remain exactly three quarters. No strophic or hurdy-gurdy refrain repeat is inserted."
+    "description": "Printed bars 1–61 once, all five poem stanzas written out in the later-version A-minor source. The whole score is rendered −2 semitones in nominal G minor for this transfer; the baritone sounds a further octave below the treble vocal notation (8vb). This measured transfer-pitch match is not a historical-key assertion. The first performed bar includes 0.0546875 quarter units of common MIDI pre-roll for the source's initial grace note, then its full three metric quarters; subsequent bars remain exactly three quarters. No strophic or hurdy-gurdy refrain repeat is inserted."
   },
   "endpoints": {
     "first": [
@@ -89,7 +89,10 @@
       [
         169,
         192
-      ]
+      ],
+      [72, 80],
+      [104, 112],
+      [128, 136]
     ]
   },
   "provenance": [

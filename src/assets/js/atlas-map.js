@@ -10,7 +10,7 @@ const svgNode = (tag, attrs = {}, parent) => {
 const clamp = (n, a, b) => Math.max(a, Math.min(b, n));
 
 export async function mount(app) {
-  const root = document.querySelector('[data-atlas-map]'); if (!root) return;
+  const root = document.querySelector('.atlas-map-page[data-atlas-map]'); if (!root) return;
   const abort = new AbortController(), signal = abort.signal;
   const on = (node, event, handler, options = {}) => node.addEventListener(event, handler, { ...options, signal });
   const $ = (selector) => root.querySelector(selector);
@@ -602,7 +602,7 @@ export async function mount(app) {
   function followHash() { const id = location.hash.match(/^#c-([a-z0-9-]+)$/)?.[1]; if (id) focusComposer(id, true); else if (selected) clearFocus(false); }
   on(window, 'hashchange', followHash); on(window, 'popstate', followHash);
   updateYear(year); fit(data.europe);
-  status.textContent = `${year}: select a portrait to follow a life, or a city for documented presence.`;
+  status.textContent = `${year}: select a portrait to follow a life, or a city for residences and dated events.`;
   followHash();
   root.classList.add('am-ready');
   return () => {

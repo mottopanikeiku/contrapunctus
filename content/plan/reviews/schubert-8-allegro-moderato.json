@@ -1,0 +1,41 @@
+{
+  "id": "schubert-8-allegro-moderato",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[t=202].text/evidence; transitions[0].how/devices; orchestra.timeline[t=202]",
+      "severity": "major",
+      "problem": "EXT: The development restates the introductory low-string motto in E minor, not the oboe/clarinet melody over violin tremolo. The score puts the quiet arco cello/bass restatement after the exposition’s second ending; the higher strings subsequently take it up. EXT: The held B at the join is a tonic pedal in B minor, so the dominant-pedal device also contradicts the correctly named tonic pedal in the paragraph.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/2/20/IMSLP73284-PMLP05477-FS8.pdf — standalone printed p. 7, development after the second ending. https://en.wikipedia.org/wiki/Symphony_No._8_(Schubert) — opening melody in the development; bar-109 tonic B pedal. MEAS: cache/analysis/schubert-8-allegro-moderato.txt, 3:14 boundary and E-minor region at 3:20–3:30.",
+      "fix": "Describe the introductory cello/bass motto returning quietly arco in E minor, with its subsequent string treatment, and correct the corresponding orchestra state. Retain approximate passage timing rather than inventing aligned entries. Change the device to tonic pedal. Distinguish this motto from the oboe/clarinet first-subject melody."
+    },
+    {
+      "where": "cues[t=66].text/evidence; orchestra.timeline[t=66]",
+      "severity": "major",
+      "problem": "EXT: Bassoons participate in the four-bar transition alongside the horns. The primary score has sounding notes in both the Fagotti and Corni staves; the assertion that two horns play alone, and the horns-only orchestra state, omit the bassoons. INFERENCE: The secondary description of four measures for horns has been strengthened beyond what the score supports.",
+      "evidence": "EXT: https://s9.imslp.org/files/imglnks/usimg/2/20/IMSLP73284-PMLP05477-FS8.pdf — instrument names on p. 1; p. 4, bars 38–41, fourth and fifth staves (bassoons and horns).",
+      "fix": "Describe the brief bassoon-and-horn transition towards the cello melody in G, remove alone, and include bassoons in the corresponding playing state. Cite the score for the instrumentation; keep the unaligned passage timing."
+    },
+    {
+      "where": "cues[t=112].t/precision",
+      "severity": "minor",
+      "problem": "MEAS: This moment cue is at 1:52 but explicitly names and evidences the strongest boundary at 1:56, four seconds later. EXT: Moment precision requires an approximately ±2-second anchor.",
+      "evidence": "MEAS: cache/analysis/schubert-8-allegro-moderato.txt, strongest boundary 1:56. EXT: local://VERIFY-BRIEF.md, timing precision requirement.",
+      "fix": "Move the cue to 116 seconds, or use passage precision with appropriately approximate wording."
+    },
+    {
+      "where": "cues[t=0].text; cues[t=610].text",
+      "severity": "minor",
+      "problem": "EXT: This file is the first of the symphony’s two completed movements. Its coda and concluding chords are not the symphony’s last pages or the end of the symphony.",
+      "evidence": "EXT: https://en.wikipedia.org/wiki/Symphony_No._8_(Schubert) — the two completed movements. content/listen/schubert-8-allegro-moderato.mjs, set part 1 of 2.",
+      "fix": "Use movement rather than symphony for these two references to this movement’s coda and ending."
+    },
+    {
+      "where": "dossier.digital.format",
+      "severity": "minor",
+      "problem": "EXT: The Archive file inventory classifies the selected MP3 as source original, whereas the dossier calls it an Internet Archive MP3 derivative. The Ogg is the derivative. Original here describes the uploaded file, not a 1927 digital master.",
+      "evidence": "EXT: https://archive.org/metadata/SchubertSymphonyNo.8unfinished_347/files — 01_schubertNo.8M1.mp3, source original; corresponding Ogg source derivative.",
+      "fix": "Call it an uploader-supplied MP3 classified as original by the Archive, with encoding history unknown; distinguish the Archive’s Ogg derivative."
+    }
+  ]
+}

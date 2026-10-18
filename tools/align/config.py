@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 import re
+import subprocess
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
@@ -31,6 +32,15 @@ def inside(directory, relative):
     return result
 
 
-def write_json(path, data):
+def write_json(path, data, *, compact=False):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n')
+    if compact:
+        # Match the site's JSON.stringify pass exactly, including 1.0 -> 1,
+        # negative zero and exponent formatting, without a final newline.
+        payload = json.dumps(data, ensure_ascii=False, separators=(',', ':'), allow_nan=False)
+        payload = subprocess.run(
+            ['node', '-e', 'process.stdout.write(JSON.stringify(JSON.parse(require("node:fs").readFileSync(0,"utf8"))))'],
+            input=payload, stdout=subprocess.PIPE, encoding='utf-8', check=True).stdout
+    else:
+        payload = json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n'
+    path.write_text(payload, encoding='utf-8')

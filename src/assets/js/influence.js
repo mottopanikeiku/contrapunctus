@@ -4,7 +4,7 @@ const esc = (s = '') => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;
 const kindLabel = (s) => s.replaceAll('-', ' ');
 
 export function mount(app) {
-  const root = document.querySelector('[data-influence]');
+  const root = document.body.querySelector('[data-influence]');
   if (!root) return;
   const data = JSON.parse(root.querySelector('#influence-data').textContent);
   root.classList.add('iw-mounted');

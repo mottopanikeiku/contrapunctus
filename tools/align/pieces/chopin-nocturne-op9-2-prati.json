@@ -22,10 +22,27 @@
         "file": "chopin_nocturne_op9_n2.mid",
         "sha256": "e202d3941ce5f26397f57f59f0e2e4e3ad9e19061fa3c4dc596c5ee6a6a2548e"
       }
+    ],
+    "patches": [
+      {
+        "file": "chopin_nocturne_op9_n2.ly",
+        "old": "#(set-octavation 1)",
+        "new": "\\ottava #1",
+        "basis": "Modern LilyPond equivalent of the original octave-display instruction at source line180; preserve sounding pitches and the original ottava span, not a transposition or deleted bracket."
+      },
+      {
+        "file": "chopin_nocturne_op9_n2.ly",
+        "old": "#(set-octavation 0)",
+        "new": "\\ottava #0",
+        "basis": "Modern equivalent of the source's matching octave-display reset at line191. The complete compiled pitch/onset multiset must equal immutable published MIDI."
+      }
     ]
   },
   "extraction": {
-    "mode": "published-midi"
+    "mode": "compiled-midi",
+    "definitions": [{"file": "chopin_nocturne_op9_n2.ly", "before": "\\score"}],
+    "comparePublished": {},
+    "music": "\\new PianoStaff << \\set PianoStaff.instrumentName = \"Piano  \" \\new Staff = \"upper\" \\upper \\new Staff = \"lower\" \\lower >>"
   },
   "voices": [
     {
@@ -75,6 +92,7 @@
     "overlays": [[260,272],[270,282]]
   },
   "engraving": {
+    "music": "\\new PianoStaff << \\set PianoStaff.instrumentName = \"Piano  \" \\new Staff = \"upper\" \\upper \\new Staff = \"lower\" \\lower >>",
     "staff": 18,
     "width": 230,
     "height": 297
