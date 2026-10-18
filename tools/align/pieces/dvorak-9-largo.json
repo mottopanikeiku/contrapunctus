@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "id": "dvorak-9-largo",
+  "source": {
+    "mutopia": 1793,
+    "title": "Symphony No. 9, Op. 95 — II. Largo",
+    "edition": "N. Simrock GmbH (1894)",
+    "encoder": "Keith OHara",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1793",
+    "license": "Creative Commons Attribution-ShareAlike 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "Sym9-lys/Mvt2_Largo.ly",
+    "midi": "Mvt2_Largo.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-lys.zip",
+        "file": "Sym9-lys.zip",
+        "sha256": "32fe4b271d02a5a6934eadacd75a4e8dcaf59c565f9d61878cf47de41cd26cfa"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/DvorakA/O95/Sym9/Sym9-mids.zip",
+        "file": "Sym9-mids.zip",
+        "sha256": "4ace203cafa10c6bd4e8cbc9d5c6e00bbfbba3efdf9d71ccee7b833f1582ac2c"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "flutes",
+      "name": "Flutes",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "oboes",
+      "name": "Oboes and cor anglais",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "clarinets",
+      "name": "Clarinets",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        4
+      ]
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "tracks": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": [
+        7
+      ]
+    },
+    {
+      "id": "trombones",
+      "name": "Trombones and tuba",
+      "tracks": [
+        8
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        9
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        10
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        11
+      ]
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        12
+      ]
+    },
+    {
+      "id": "basses",
+      "name": "Double basses",
+      "tracks": [
+        13
+      ]
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        14
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 127,
+    "quarters": 4,
+    "overrides": {
+      "34": 2
+    },
+    "order": [
+      [
+        1,
+        127
+      ]
+    ],
+    "description": "Bars 1–127 once; bar 34 is 2/4, the others 4/4. Oboe/cor-anglais doubling and trombone/tuba writing retain the compound identities of the published source MIDI staves."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      680,
+      691
+    ],
+    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+  },
+  "boundaries": [
+    [
+      "7",
+      1,
+      24
+    ],
+    [
+      "46",
+      1,
+      270
+    ],
+    [
+      "90",
+      1,
+      465
+    ],
+    [
+      "101",
+      1,
+      520
+    ]
+  ],
+  "engraving": {
+    "staff": 13,
+    "width": 290,
+    "height": 410
+  },
+  "provenance": [
+    "Bass MIDI retained unchanged. Independent score inspection by VerS: https://s9.imslp.org/files/imglnks/usimg/4/42/IMSLP405834-PMLP08710-DvorakSymph9.pdf PDF page 29 (printed 207), Largo bar 5, writes double-bass D-flat4, sounding D-flat3 (MIDI49), in sounding unison with the cello. The source bass_8 clef and low E1 elsewhere must not receive the separate Beethoven source’s blanket -12 correction. This is notation inspection, not aural review.",
+    "Clarinets, cor anglais and horns contain source-declared sounding transpositions, including instrument changes. GM patches are not used to identify parts."
+  ]
+}

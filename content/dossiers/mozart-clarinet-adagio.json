@@ -129,13 +129,12 @@
       "note": "The composer died in 1791. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0).",
+      "value": "Rule 1 — recording licence/release: CC BY-SA 2.0 (EFF Open Audio License).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data"
+        "rights-audit-commons"
       ],
-      "note": "Commons links the original EFF Open Audio License grant to its stated CC BY-SA 2.0 replacement. Reusers must retain attribution, link the licence, identify changes and apply the licence’s share-alike condition to adaptations."
+      "note": "Commons explicitly applies cc-by-sa-2.0 to the McColl/Kaplan recording dated December 1987 and describes its EFF Open Audio License grant. Retain attribution and share-alike terms."
     },
     "creditLine": "Wolfgang Amadeus Mozart, Clarinet Concerto, K. 622, II; William McColl, basset clarinet; University of Washington Symphony Orchestra, Abraham Kaplan, December 1987. Al Goldstein collection / Pandora Music at ibiblio, via Wikimedia Commons. CC BY-SA 2.0; Commons supplies the MP3 access transcode.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
@@ -182,6 +181,13 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1258921827%7C661044101%7C642919319%7C1111732218%7C509438495%7C999902261%7C718748653%7C901919689%7C1204343741%7C718302093&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

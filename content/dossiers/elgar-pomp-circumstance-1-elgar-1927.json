@@ -1,0 +1,46 @@
+{
+  "id": "elgar-pomp-circumstance-1-elgar-1927",
+  "work": {
+    "title": "Pomp and Circumstance",
+    "catalogue": "Op. 39 No. 1",
+    "movement": "March No. 1 in D",
+    "version": { "value": "Orchestral version", "status": "documented", "sourceIds": ["label", "elgar-discography"], "note": "The Elgar Society identifies this as Elgar’s first complete recording of the march, distinguishing it from the severely cut 1914 acoustic version. Complete does not establish that every written repeat was taken. The precise performing edition and organ participation are not established." }
+  },
+  "performers": { "value": [{ "name": "Royal Albert Hall Orchestra", "role": "orchestra" }, { "name": "Edward Elgar", "role": "conductor" }], "status": "documented", "sourceIds": ["label", "archive", "naxos"], "note": "The label explicitly says conducted by Sir Edward Elgar; the composer credit alone was not used to infer this role." },
+  "session": {
+    "date": { "value": "27 April 1926", "status": "documented", "sourceIds": ["elgar-discography", "naxos"], "note": "Independently documented in the Elgar Society recording account and Naxos 8.111022 discography. Internet Archive’s date 1927 concerns the Victor issue, not the recording session. The identifier retains that issue year.", "precision": "day" },
+    "place": { "value": "Queen’s Hall, London", "status": "documented", "sourceIds": ["label", "elgar-discography", "naxos"], "note": "Venue is printed on the disc label; it is not inferred from the orchestra’s Royal Albert Hall name." }
+  },
+  "carrier": {
+    "label": { "value": "Victrola (Victor Talking Machine Company)", "status": "documented", "sourceIds": ["label"], "note": "The label says Orthophonic Recording, identifying the electrical process." },
+    "catalogue": { "value": "9016-A", "status": "documented", "sourceIds": ["label", "publication"], "note": "Victor 9016 couples Marches Nos. 1 and 2; the January 1927 trade listing identifies the same performers." },
+    "matrixTakeSides": { "value": "CR 336; Victor side 9016-A", "status": "documented", "sourceIds": ["naxos", "label", "archive"], "note": "The specialist Naxos discography lists matrix CR 336-2 and original British issue HMV D 1102. The transferred pressing’s take suffix is not independently legible. Internet Archive’s matrix 9016A is the issue-side number, and its other ID CR331 is not silently adopted as the master number." }
+  },
+  "transfer": {
+    "credits": { "value": "George Blood, L.P.; Phoebe Pugh, transfer", "status": "documented", "sourceIds": ["archive"], "note": "The item identifies the digitisation facility and user_transferred field; these are transfer credits, not original session personnel." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["archive"], "note": "The November 2023 upload does not establish the transfer date." },
+    "processing": { "value": "Digitised at 78 rpm; preferred 3.8 mil truncated-conical stylus transfer; equalised with turnover 250 and rolloff 0; MP3 derivative", "status": "documented", "sourceIds": ["archive"], "note": "The original FLAC’s embedded comment identifies the selected stylus and equalisation. The site uses the supplied preferred MP3 without joining or changing the audio." }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a/Pomp%20and%20Circumstance%20%28No.%201%20-%20Royal%20Albert%20Hall%20Orchestra.mp3",
+    "sourceChain": ["archive", "label"],
+    "format": "VBR MP3 derived from the Great 78 Project’s original FLAC; decoded duration rounded from cache/analysis/elgar-pomp-circumstance-1-elgar-1927.txt",
+    "durationSeconds": 264.1
+  },
+  "rights": {
+    "composition": { "value": "Elgar’s original 1901 march is public domain in ordinary life-plus-70 jurisdictions", "status": "inferred", "sourceIds": ["naxos", "elgar-work", "eu-term"], "note": "Elgar died in 1934. This concerns the underlying composition, not an unidentified modern edition." },
+    "recording": { "value": "Territorial EU public-domain basis: Victor 9016 announced for publication on 28 January 1927", "status": "documented", "sourceIds": ["publication", "label", "archive", "eu-term"], "note": "Rule 3. The Talking Machine World, 15 January 1927, p. 131, lists 9016 under the Victor list for 28 January, naming both marches and Elgar with the Royal Albert Hall Orchestra. This is publication evidence, not a session-date substitution; the British first issue may be earlier. Its 50-year term expired before the 2013 extension. US status is not established. The selected Great 78 item, original FLAC and label were checked; no NC licence or separate upstream digital recording is stated. The Naxos booklet is used only as documentary evidence: its commercial restoration is not the selected audio." },
+    "creditLine": "Elgar, Pomp and Circumstance March No. 1 — Royal Albert Hall Orchestra, Edward Elgar; Queen’s Hall, 27 April 1926. Victrola 9016-A, issued 1927; master CR 336. George Blood, L.P./Internet Archive Great 78 Project transfer. Territorial EU public-domain basis; US status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Victrola 9016-A, GBIA7040596A", "url": "https://archive.org/metadata/78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a", "locator": "Complete metadata, transfer description and original FLAC comment; date 1927 comes from a catalogue match, not a session ledger; no licenseurl or NC condition.", "accessed": "2026-10-17" },
+    { "id": "label", "title": "Victrola 9016-A — original disc-label scan", "url": "https://archive.org/download/78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a/78_pomp-and-circumstance-no-1-in-d_royal-albert-hall-orchestra-elgar-sir-edward-elgar-_gbia7040596a_itemimage.jpg", "locator": "Performer, conductor, Queen’s Hall venue, Orthophonic Recording and catalogue 9016-A.", "accessed": "2026-10-17" },
+    { "id": "publication", "title": "The Talking Machine World — January 1927 Victor releases", "url": "https://archive.org/download/talkingmachinewo23bill/talkingmachinewo23bill_djvu.txt", "locator": "15 January 1927, printed p. 131; Victor Talking Machine Co., list for January 28, Red Seal Records, 9016. OCR lines 24294–24410 place the listing beneath that release heading; digitised bound volume talkingmachinewo23bill.", "accessed": "2026-10-17" },
+    { "id": "elgar-discography", "title": "Elgar Society — Pomp and Circumstance, Elgar’s own recordings", "url": "https://www.elgar.org/3pomp-d.htm", "locator": "1926 first electrical and first complete recording, Queen’s Hall, Royal Albert Hall Orchestra; distinguished from 1914 and 1932 recordings.", "accessed": "2026-10-17" },
+    { "id": "naxos", "title": "Naxos 8.111022 — Elgar conducts Elgar booklet", "url": "https://eclassical.textalk.se/shop/17115/art52/4932952-db12c1-747313302222.pdf", "locator": "Printed p. 5: March No. 1, 27 April 1926, Queen’s Hall, CR 336-2, first issued HMV D 1102; notes pp. 2–3 discuss Elgar’s electrical recordings. Documentary use only; audio is not sourced from Naxos.", "accessed": "2026-10-17" },
+    { "id": "elgar-work", "title": "Elgar Society — Pomp and Circumstance introduction", "url": "https://www.elgar.org/3pomp-a.htm", "locator": "1901 composition, D-major march and G-major trio, later adaptation as Land of Hope and Glory.", "accessed": "2026-10-17" },
+    { "id": "eu-term", "title": "Directive 2011/77/EU — recording term and transition", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077", "locator": "Recitals 1–3; Article 1(3) inserts Article 10(5), limiting extension to recordings still protected on 1 November 2013.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "id": "vivaldi-winter-finale",
+  "source": {
+    "mutopia": 351,
+    "title": "L’Inverno / Winter, RV 297 — III. Allegro",
+    "edition": "Performers’ Facsimiles",
+    "encoder": "Anonymous (Mutopia maintainer)",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "winter-lys/winter-score.ly",
+    "midi": "winter-score-2.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/winter/winter-lys.zip",
+        "file": "winter-lys.zip",
+        "sha256": "f44b7cc8ec983ce1ab87dce2952d4ec0c07e96471868e2f5a7fab2a6dabc5745"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/winter/winter-mids.zip",
+        "file": "winter-mids.zip",
+        "sha256": "c130e79b4ab861a3d9210c30cff432014284c675ad8a218f15e8bd7543b4a950"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      "control track",
+      "solo",
+      "violinone",
+      "violintwo",
+      "viola",
+      "cello"
+    ],
+    "definitions": [
+      {
+        "file": "winter-lys/winter3.ly"
+      },
+      {
+        "file": "winter-lys/winter3a.ly"
+      },
+      {
+        "file": "winter-lys/winter3b.ly"
+      },
+      {
+        "file": "winter-lys/winter3c.ly"
+      },
+      {
+        "file": "winter-lys/winter3d.ly"
+      },
+      {
+        "file": "winter-lys/winter3f.ly"
+      }
+    ]
+  },
+  "voices": [
+    {
+      "id": "solo-violin",
+      "name": "Solo violin",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        4
+      ]
+    },
+    {
+      "id": "continuo-bass",
+      "name": "Organ and cello bass line (not realised continuo)",
+      "tracks": [
+        5
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 153,
+    "quarters": 1.5,
+    "order": [
+      [
+        1,
+        153
+      ]
+    ],
+    "description": "Only movement 3: bars 1–153 once in written order, with no pickup or repeat traversal. Returning material is written out in the source."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      186,
+      191
+    ],
+    "basis": "Initial score-pitch search windows from the cached recording analysis. Refine from endpoint pitch-energy evidence before publication; source-file tail or container duration is not the final musical attack."
+  },
+  "boundaries": [],
+  "provenance": [
+    "The complete concerto archive is immutable; winter-score-2.mid and the winter3 source definitions select only movement 3. Its published MIDI contains 2696 sounding note attacks over 229.5 quarter-note units.",
+    "Source staves are solo violin, violin I, violin II, viola, and the written organ/cello bass line. Figured-bass symbols are retained visually but no realised continuo pitches or inferred separate double-bass part are invented. The source maintainer explicitly uses Anonymous.",
+    "The Commons file history reports a lossless trim on 24 September 2011 without identifying its location. This alone is not evidence of a musical cut; full written-order correspondence must survive alignment and overlay inspection."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 250,
+    "height": 320,
+    "music": "\\new StaffGroup << \\new Staff = \"solo\" \\with { instrumentName = \"Violin solo\" } { \\ViolinoPrincipaleWinterThree } \\new Staff = \"violinone\" \\with { instrumentName = \"Violin I\" } { \\ViolinoPrimoWinterThree } \\new Staff = \"violintwo\" \\with { instrumentName = \"Violin II\" } { \\ViolinoSecondoWinterThree } \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } { \\AltoViolaWinterThree } \\new Staff = \"cello\" \\with { instrumentName = \"Continuo bass\" } << \\FiguredBassWinterThree \\VioloncelloWinterThree >> >>"
+  }
+}

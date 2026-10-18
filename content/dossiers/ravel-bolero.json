@@ -141,13 +141,15 @@
       "note": "The tag concerns a copyright term measured from the composer’s death. It is not a recording licence, nor a worldwide determination of composition rights."
     },
     "recording": {
-      "value": null,
-      "status": "unknown",
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data"
+        "rights-audit-commons",
+        "rights-audit-eu-term",
+        "rights-audit-eu-audio",
+        "rights-audit-fricsay-carriers"
       ],
-      "note": "Commons supplies a composer-lifetime PD-old-70 tag but no separate recording-specific licence or term analysis. Its generic Structured data public-domain statement does not resolve the rights in this performance or the credited restoration."
+      "note": "Commons supplies only composition-level PD-old-70; its description says November 1956, its filename says November 1959, and the dossier preserves an unexplained 1954 embedded date. All three attributions precede 1963. The opened Fricsay/RIAS commercial-carrier listing also documents French 1955 and German 1958 editions, but has not been matched to this transfer and does not settle its session. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date."
     },
     "creditLine": "Maurice Ravel, Boléro; Ferenc Fricsay and ‘Berlin Symphonic Orchestra’ as credited by Commons. Audio restoration: Pablo Varela (2015). Session date disputed; recording and restoration rights not independently established. Streamed from Wikimedia Commons.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg#Licensing"
@@ -173,6 +175,34 @@
       "url": "http://affordance.typepad.com//mon_weblog/2016/05/cher-maurice-ravel.html",
       "locator": "Source link in the Commons wikitext. Attempts to retrieve the historic post were redirected to an unavailable domain-parking page; its assertions could not be checked independently.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1091171287&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-term",
+      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-audio",
+      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-fricsay-carriers",
+      "title": "Recordsale — Fricsay/RIAS Boléro original commercial editions",
+      "url": "https://recordsale.de/en/artists/maurice-ravel/albums/bolero-symphonie-classique-op-25",
+      "locator": "Available releases: DGG 17 042, France 1955; LPE 17 042, Germany 1958; also 1963 reissue. Notes give a 1953 session; this carrier has not been audio-matched to the Commons transfer and does not resolve its conflicting dates.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

@@ -125,24 +125,27 @@
   },
   "rights": {
     "composition": {
-      "value": "Music by Gustav Mahler (died 1911); words adapted by Mahler from Hans Bethge’s Die chinesische Flöte (Bethge died 1946). The 1912 first edition is published public-domain material on IMSLP.",
+      "value": "Music by Gustav Mahler (died 1911); words adapted by Mahler from Hans Bethge’s Die chinesische Flöte (Bethge died 1946), itself a paraphrase of Tang-dynasty poems by way of French and German translations. The 1912 first edition is hosted on IMSLP as public domain.",
       "status": "inferred",
       "sourceIds": [
         "wp-lied",
         "mf-intro",
-        "imslp"
+        "imslp",
+        "mahler-archives",
+        "cleveland",
+        "li-2025"
       ],
       "note": "A term calculation (life plus 70 years; Bethge’s text has been free in life-plus-70 jurisdictions since 2017), not a clearance of every edition or translation."
     },
     "recording": {
-      "value": "Treated as public domain in the European Union (territorial): a live broadcast of 5 October 1939 whose related rights expired well before the extended term applied on 1 November 2013. United States status is not established.",
+      "value": "Treated as public domain in the European Union (territorial): a live broadcast of 5 October 1939 whose related rights, on the sources consulted, had expired before the extended terms applied on 1 November 2013. United States status is not established.",
       "status": "inferred",
       "sourceIds": [
         "archive",
         "eu-2011-77",
         "mf-history"
       ],
-      "note": "Under Directive 2006/116/EC as amended by Directive 2011/77/EU, a performer’s right for a performance of 1939 ran 50 years from the performance (to 1989), or, if a phonogram fixation was lawfully published or communicated to the public in that time, 70 years from that event (to 2009); the 70-year terms apply only to rights still alive on 1 November 2013 (Article 10(5)). The CD issues came later. The item carries a Public Domain Mark 1.0 licence URL, which is the uploader’s statement and not the basis used here."
+      "note": "Before the 2011 extension, Directive 2006/116/EC gave performers and phonogram producers 50-year terms. For a performance of 1939 the performer’s term ran 50 years from the performance, to 1989, unless a fixation of it in a phonogram was lawfully published or lawfully communicated to the public within that period, which would have started a longer term from that event. The live radio broadcast was a communication of the performance, not of a phonogram fixation, and the sources consulted document no earlier publication of the acetate fixation; the date of its first issue on disc is not given in them, so this is an inference, not a clearance. Directive 2011/77/EU lengthened terms to 70 years only for rights still protected on 1 November 2013 (Article 10(5)), so rights that had already expired were not revived. The item carries a Public Domain Mark 1.0 licence URL, which is the uploader’s statement and not the basis used here."
     },
     "creditLine": "Gustav Mahler, Das Lied von der Erde, III. Von der Jugend; Carl Martin Öhmann, tenor; Concertgebouw Orchestra, Amsterdam; Carl Schuricht, conductor; live, 5 October 1939. Internet Archive item “Das Lied von der Erde (Mahler) – Concertgebouw Amsterdam Carl Schuricht (5. X. 1939)”, marked Public Domain Mark 1.0 by its uploader; treated here as EU public domain (territorial), US status not established.",
     "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/"
@@ -160,6 +163,34 @@
       "title": "Mahler Foundation — History: Das Lied von der Erde",
       "url": "https://mahlerfoundation.org/mahler/compositions/das-lied-von-der-erde/das-lied-von-der-erde-history/",
       "locator": "Recordings, versions with female and male soloists: Schuricht, Thorborg and Öhmann, Royal Concertgebouw Orchestra, “October 1939 broadcast concert, live (Bel Age CD, from acetates)”.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "mahler-archives",
+      "title": "The Mahler Archives — Das Lied von der Erde: texts and Chinese sources",
+      "url": "http://www.mahlerarchives.net/Archive%20documents/DLvDE/DLvDE.htm",
+      "locator": "One page per song (Der_Jugend.htm, Der_Trunkene.htm, Der_Abschied.htm and others): Chinese poem, French, Heilmann and Bethge versions beside Mahler’s text.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "cleveland",
+      "title": "The Cleveland Orchestra — Das Lied von der Erde, note by Peter Laki",
+      "url": "https://www.clevelandorchestra.com/works/das-lied-von-der-erde",
+      "locator": "Paragraphs on each of the six movements, including the porcelain pavilion of Von der Jugend.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "li-2025",
+      "title": "Edwin K. C. Li, Re-translating Mahler’s Das Lied von der Erde, Journal of the Royal Musical Association 150/2 (2025)",
+      "url": "https://doi.org/10.1017/rma.2025.10043",
+      "locator": "Footnote 3 (the Chinese poems generally agreed for each movement) and footnote 8 (doubts about the source of Von der Jugend).",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "tenor-history",
+      "title": "History of the Tenor — Carl Martin Öhman",
+      "url": "https://historyofthetenor.com/carl-ohman/",
+      "locator": "Swedish tenor, 1887–1967; Berlin ensemble to 1937; pupils Nicolai Gedda and Martti Talvela.",
       "accessed": "2026-10-17"
     },
     {
@@ -181,13 +212,6 @@
       "title": "Wikipedia — Kerstin Thorborg",
       "url": "https://en.wikipedia.org/wiki/Kerstin_Thorborg",
       "locator": "Biography: the 1939 Concertgebouw recording under Schuricht.",
-      "accessed": "2026-10-17"
-    },
-    {
-      "id": "tenor-history",
-      "title": "History of the Tenor — Carl Martin Öhman",
-      "url": "https://historyofthetenor.com/carl-ohman/",
-      "locator": "Swedish tenor, 1887–1967; Berlin ensemble to 1937; pupils Nicolai Gedda and Martti Talvela.",
       "accessed": "2026-10-17"
     },
     {

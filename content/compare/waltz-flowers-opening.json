@@ -1,0 +1,25 @@
+{
+  "id": "waltz-flowers-opening",
+  "title": "The waltz, orchestra and band",
+  "composer": "tchaikovsky",
+  "group": "century",
+  "work": "Waltz of the Flowers — principal-waltz passage",
+  "question": "How does the same waltz melody sit above its accompaniment in two orchestras and a concert band?",
+  "intro": "Stokowski’s Philadelphia recording dates from 1934 and Robinson’s London session from 18 January 1945. The United States Air Force Band plays Lawrence Odom’s arrangement on its 1996 album Christmas on Stage and Screen. Only the shared principal-waltz passage is aligned: the unequal introductions and different record-side endings are excluded, and no historical sides are concatenated.",
+  "recordings": [
+    { "listen": "tchaikovsky-waltz-flowers-stokowski-side1", "label": "Stokowski, 1934 · side 1", "year": 1934, "note": "Follow the long melody across the accompaniment; the shared window starts at 0:54 on this side." },
+    { "listen": "tchaikovsky-waltz-flowers-robinson-side1", "label": "Robinson, 1945 · side 1", "year": 1945, "note": "Compare the answering phrase’s increasing weight; this side begins the principal waltz later than Stokowski’s." },
+    { "listen": "tchaikovsky-waltz-flowers", "label": "US Air Force Band, 1996", "year": 1996, "note": "Hear Lawrence Odom’s concert-band arrangement, not the original orchestral string scoring." }
+  ],
+  "reference": "tchaikovsky-waltz-flowers-stokowski-side1",
+  "passages": [
+    { "label": "Principal waltz", "t": 60, "note": "The comparison begins after the introductory cadenza; matching is by musical position, not elapsed time." },
+    { "label": "Answering phrase", "t": 90, "note": "Follow the sustained melodic arc above the three-beat accompaniment." },
+    { "label": "Continuing dance", "t": 120, "note": "All three maps cover this passage. The side endings and the later full-band continuation are outside the common window." }
+  ],
+  "sources": [
+    { "title": "Stokowski — 1934 session and release, first side", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Leopold_Stokowski_-_Nutcracker_Suite,_Opus_71A_-_Tchaikovsky_-_Waltz_of_the_Flowers,_Part_1_-_Hmv-db2542-2a87004.flac" },
+    { "title": "Robinson — January 1945 session, September release", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson,_conductor_-_The_Nutcracker_Suite,_Op._71_-_Waltz_of_the_Flowers_-_Tchaikovsky_-_Decca-k1144-ar9079.flac" },
+    { "title": "US Air Force Band — Odom arrangement and 1996 album attribution", "url": "https://commons.wikimedia.org/wiki/File:Waltz_of_the_Flowers_-_Concert_Band_-_United_States_Air_Force_Band.mp3" }
+  ]
+}

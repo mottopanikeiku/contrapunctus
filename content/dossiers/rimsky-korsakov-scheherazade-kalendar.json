@@ -1,0 +1,170 @@
+{
+  "id": "rimsky-korsakov-scheherazade-kalendar",
+  "work": {
+    "title": "Scheherazade, Op. 35",
+    "catalogue": "Op. 35",
+    "movement": "II. The Story of the Kalender Prince",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording documentation does not identify the performing edition. No revision or editorial intervention is inferred from the file title."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "San Francisco Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Pierre Monteux",
+        "role": "conductor"
+      },
+      {
+        "name": "Naoum Blinder",
+        "role": "solo violin"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "archive"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "3–4 March 1942",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Dates cover the complete suite; this movement is not assigned to either day separately.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "War Memorial Opera House, San Francisco",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "DM-920",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Original 78-rpm album, not a matrix number."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "The Commons and Archive sources identify DM-920 but not matrices, takes or side allocations. A DAHR search for Monteux and Scheherazade did not locate a matching entry; none is invented."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Bob Varney",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Transferred from the original Victor 78-rpm set."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not transfer dates."
+    },
+    "processing": {
+      "value": "Transfer from original 78-rpm discs; described on Commons as restored",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "archive"
+      ],
+      "note": "Stylus, equalisation, noise reduction, speed correction and side-join processing are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Rimsky-Korsakov._Scheherazade%2C_Symphonic_Suite%2C_Op._35_-_02_The_Story_Of_The_Kalandar_Prince.ogg/Rimsky-Korsakov._Scheherazade%2C_Symphonic_Suite%2C_Op._35_-_02_The_Story_Of_The_Kalandar_Prince.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "archive"
+    ],
+    "format": "Wikimedia Commons MP3 access derivative; source Ogg Vorbis",
+    "durationSeconds": 625.680544217687
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition in life-plus-70 jurisdictions",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composer died in 1908. This assessment does not cover a later edition or arrangement."
+    },
+    "recording": {
+      "value": "Rule 1 — CC0 1.0 Universal Public Domain Dedication stated for this recording file",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons explicitly supplies CC0 for this sound file; this is the programme’s recording-licence route, not a composition-only tag or an age-based clearance. The uploader’s chain of title is not independently established."
+    },
+    "creditLine": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin. Victor DM-920, recorded 3–4 March 1942. Transfer by Bob Varney, Internet Archive, via Wikimedia Commons. Scheherazade, Op. 35, II. The Story of the Kalender Prince. Commons CC0 dedication.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 02 The Story Of The Kalandar Prince.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=718302084",
+      "locator": "File-description revision: description, source, author, date and recording-specific licensing template.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&titles=File%3ARimsky-Korsakov.+Scheherazade%2C+Symphonic+Suite%2C+Op.+35+-+02+The+Story+Of+The+Kalandar+Prince.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives",
+      "locator": "Duration, MIME type and MP3 derivative URL. Measured file duration is not the date or identity of the performance.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — Scheherazade",
+      "url": "https://archive.org/metadata/Sheherazade/metadata",
+      "locator": "Description credits orchestra, conductor, violinist, sessions, venue, Victor DM-920 and Bob Varney’s transfer. The licence URL is the historical Creative Commons public-domain dedication.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

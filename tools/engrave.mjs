@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Engrave licensed LilyPond sources into paged, glyph-deduplicated SVG packs.
 // Noteheads/rests retain data-bar/data-pos; index.json contains full-system bar boxes.
-//   node tools/engrave.mjs [id ...]        (default: every configured recording)
+//   node tools/engrave.mjs [id ...]        (default: configured, published scores)
 // Needs LilyPond 2.24 at $LILYPOND or ~/.local/opt/lilypond-2.24.4/bin/lilypond,
 // and Cargo at $CARGO or ~/.cargo/bin/cargo. See tools/sheetpack/README.md.
 import { mkdir, readdir, readFile, writeFile, cp, rm, stat } from 'node:fs/promises';
@@ -117,7 +117,17 @@ for (let i = 0; i < args.length; i++) {
   } else if (args[i].startsWith('-')) throw new Error(`Unknown option ${args[i]}`);
   else ids.push(args[i]);
 }
-if (!ids.length) ids.push(...(await readdir(CONFIGS)).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)).sort());
+if (!ids.length) {
+  const configured = (await readdir(CONFIGS)).filter(f => f.endsWith('.json')).map(f => f.slice(0, -5)).sort();
+  for (const id of configured) {
+    try {
+      await stat(path.join(ROOT, 'docs/assets/data', id, 'score.json'));
+      ids.push(id);
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
+  }
+}
 if (ids.length !== 1 && (options.out || options.score)) throw new Error('--score/--out require one recording');
 await run(CARGO, ['build', '--release', '--locked', '--manifest-path', PACK_MANIFEST], { maxBuffer: 1 << 20 });
 for (const id of ids) {

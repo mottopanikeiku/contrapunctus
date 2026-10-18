@@ -1,0 +1,143 @@
+{
+  "id": "tchaikovsky-piano-concerto-1-andantino",
+  "work": {
+    "title": "Piano Concerto No. 1 in B♭ minor, Op. 23",
+    "catalogue": "Op. 23",
+    "movement": "II. Andantino semplice — Prestissimo",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording documentation does not identify the performing edition. No revision or editorial intervention is inferred from the file title."
+    }
+  },
+  "performers": {
+    "value": [],
+    "status": "unknown",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "No soloist, conductor or orchestral personnel are named. Musopen is the source repository, not an inferred performer."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No session date is established; composition, release and upload dates are not recording dates.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No session venue is documented."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original record label is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is identified."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side allocation is documented; an Ogg or FLAC file does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The uploader is not assumed to be a transfer or mastering engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Encoding format alone does not establish equalisation, noise reduction, speed correction or other processing."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_II._Andantino.ogg/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_II._Andantino.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia Commons MP3 access derivative; source Ogg Vorbis",
+    "durationSeconds": 387.5410430839002
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition in life-plus-70 jurisdictions",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composer died in 1893. This assessment does not cover a later edition or arrangement."
+    },
+    "recording": {
+      "value": "Rule 1 — CC0 1.0 Universal Public Domain Dedication stated for this recording file",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons explicitly supplies CC0 for this sound file from Musopen. The underlying performers and session remain unidentified; the licence is not inferred from the composer’s death."
+    },
+    "creditLine": "Performers uncredited. Musopen via Wikimedia Commons. Piano Concerto No. 1 in B♭ minor, Op. 23, II. Andantino semplice — Prestissimo. Commons CC0 dedication.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Tchaikovsky, Concerto No.1 in B-flat minor Op.23, II. Andantino.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=454506223",
+      "locator": "File-description revision: description, source, author, date and recording-specific licensing template.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&titles=File%3ATchaikovsky%2C+Concerto+No.1+in+B-flat+minor+Op.23%2C+II.+Andantino.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives",
+      "locator": "Duration, MIME type and MP3 derivative URL. Measured file duration is not the date or identity of the performance.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

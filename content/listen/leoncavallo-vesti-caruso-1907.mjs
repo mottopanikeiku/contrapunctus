@@ -10,8 +10,30 @@ export default {
   key: '',
   forces: 'Tenor and orchestra',
   performers: 'Enrico Caruso, tenor; orchestra',
-  recorded: '17 March 1907',
-  source: { archive: { item: 'I_Pagliacci_Vesti_La_Giubba', file: 'I_Pagliacci_Vesti_La_Giubba.mp3' } },
-  intro: 'Caruso’s 1907 Victor side uses orchestral accompaniment, unlike his 1902 piano-accompanied recording. Bob Varney’s transfer preserves the longer side as one stream; a shared-passage comparison does not equate the two complete durations.',
+  recorded: '17 March 1907, New York',
+  source: {
+    archive: { item: '78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a', file: 'Pagliacci - Vesti la giubba (On With the P - Enrico Caruso.mp3' },
+    rights: { basis: 'us-published-before-cutoff', published: 1907, evidence: ['https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a', 'https://adp.library.ucsb.edu/index.php/matrix/refer/200006029'] },
+  },
+  intro: 'Caruso’s 1907 Victor side uses orchestral accompaniment, unlike his 1902 piano-accompanied recording. This Great 78 transfer preserves the longer side as one stream; a shared-passage comparison does not equate the two complete durations.',
   question: 'How does orchestral accompaniment frame Caruso’s phrasing?',
+  sections: [
+    { t: 0, label: 'Opening dramatic span', m: 'A' },
+    { t: 58, label: 'Central expansion', m: 'B', mNote: 'analysis landmark, not an aligned word or score bar' },
+    { t: 96, label: 'The broad crest', m: 'C' },
+    { t: 142, label: 'Later continuation and close', m: 'Coda' },
+  ],
+  cues: [
+    { t: 0, kind: 'listen', title: 'The orchestra replaces the piano', text: 'This Victor side places orchestral accompaniment beneath Caruso’s tenor. Follow the relation between the singer’s line and the accompaniment, without assuming that the transfer preserves the original balance of the recording room.', basis: 'documented', precision: 'passage', evidence: 'The Great 78 metadata and DAHR C-4317 identify tenor with orchestra and an acoustic recording: https://adp.library.ucsb.edu/index.php/matrix/refer/200006029. The microphone or horn balance is not measured.' },
+    { t: 40, kind: 'music', title: 'A marked early relaxation', text: 'The early dramatic span relaxes into a quieter stretch before regaining weight. Listen for the continuity of the phrase across that contrast rather than treating it as silence.', basis: 'audio-feature', precision: 'passage', evidence: 'A boundary occurs at 0:40; relative level falls from −12.7 dB at 0:25 to −23.3 dB at 0:40, then rises again at 0:50. This does not locate an exact sung word.' },
+    { t: 65, kind: 'listen', title: 'The first stronger expansion', text: 'The next rise reaches a stronger recorded span, then releases. Compare the shape of that expansion with the later, broader crest on the same side.', basis: 'audio-feature', precision: 'passage', evidence: 'Boundaries at 0:58, 1:02 and 1:10 surround the rise to −9.3 dB at 1:05. The later 1:40–1:55 span is stronger within this transfer.' },
+    { t: 105, kind: 'music', title: 'A broad late crest', text: 'The central-late span holds its greater weight across several gestures. Listen through the whole crest, keeping the accompaniment audible in your attention as well as the tenor.', basis: 'audio-feature', precision: 'passage', evidence: 'The 1:40, 1:45, 1:50 and 1:55 windows are four of the report’s five highest; boundaries at 1:36 and 1:46 locate this broad passage.' },
+    { t: 142, kind: 'listen', title: 'Beyond the compared passage', text: 'The side continues after the excerpt used by the comparison map. Its later sound has less recorded weight; hear it on its own terms rather than stretching the shorter 1902 side to fill the remaining time.', basis: 'audio-feature', precision: 'passage', evidence: 'The strongest boundary is 2:22, after the selected map endpoint of 139 seconds. The 2:20–2:25 windows are among the quietest; the stream continues to 195.9 seconds. No unverified word or cut is assigned here.' },
+    { t: 185, kind: 'listen', title: 'The transfer’s last sound', text: 'Near the end, the remaining sound diminishes towards the disc’s surface noise. The complete file duration includes this closing material and is not a measure of the shared excerpt’s pace.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level falls from −21.5 dB at 3:00 to −29.1 at 3:05 and −33.9 at 3:15. The comparison excludes this later continuation; onset counts are not treated as clean note detections.' },
+  ],
+  transitions: [
+    { id: 'central-expansion', title: 'The quieter span gains weight', from: 'Opening dramatic span', to: 'Central expansion', at: { t: 58 }, how: '<p>The quieter early span gives way to a stronger expansion while tenor and orchestra remain together. The section marker follows a measured contour rather than a precisely identified syllable.</p>', devices: ['crescendo build'], basis: 'audio-feature', precision: 'passage', evidence: 'Boundary at 0:58; level rises from −19.0 dB at 0:55 to −9.3 dB at 1:05.' },
+    { id: 'broad-crest', title: 'The phrase develops a broader crest', from: 'Central expansion', to: 'The broad crest', at: { t: 96 }, how: '<p>The phrase gathers into a longer high-level span than the preceding brief rise. Keep following its direction across successive gestures rather than isolating one recorded peak.</p>', devices: ['crescendo build'], basis: 'audio-feature', precision: 'passage', evidence: 'Boundary at 1:36; the following 1:40–1:55 windows are the strongest sustained span in the report.' },
+    { id: 'later-continuation', title: 'The crest leaves a quieter continuation', from: 'The broad crest', to: 'Later continuation and close', at: { t: 142 }, how: '<p>The late high-level gestures are followed by a markedly quieter continuation. This material remains part of the unedited source, but lies outside the comparison excerpt.</p>', devices: ['decrescendo'], basis: 'audio-feature', precision: 'passage', evidence: 'Strong boundary at 2:22; level drops from −12.5 dB at 2:15 to −25.6 dB at 2:25. No compositional cut or orchestral entrance is inferred.' },
+  ],
 };

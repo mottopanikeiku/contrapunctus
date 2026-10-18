@@ -26,7 +26,7 @@
       "discography",
       "rubato"
     ],
-    "note": "Commons dates its Pearl-sourced transfer 1917 and says published in the USA before1921. APR identifies Paderewski’s 1917 Victor waltz; matching that discographic performance to this transfer is inferred, since Commons supplies no matrix."
+    "note": "Commons dates its Pearl-sourced transfer 1917 and says published in the USA before 1921. APR identifies Paderewski’s 1917 Victor waltz; matching that discographic performance to this transfer is inferred, since Commons supplies no matrix."
   },
   "session": {
     "date": {
@@ -37,7 +37,7 @@
         "discography",
         "rubato"
       ],
-      "note": "Commons dates its Pearl-sourced transfer 1917 and says published in the USA before1921. APR identifies Paderewski’s 1917 Victor waltz; matching that discographic performance to this transfer is inferred, since Commons supplies no matrix.",
+      "note": "Commons dates its Pearl-sourced transfer 1917 and says published in the USA before 1921. APR identifies Paderewski’s 1917 Victor waltz; matching that discographic performance to this transfer is inferred, since Commons supplies no matrix.",
       "precision": "day"
     },
     "place": {
@@ -119,7 +119,7 @@
   },
   "rights": {
     "composition": {
-      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "value": "The underlying composition is public domain where the ordinary life-plus-70 term has expired.",
       "status": "inferred",
       "sourceIds": [
         "source"
@@ -135,7 +135,7 @@
         "rubato",
         "term"
       ],
-      "note": "Programme rule 2. The recording-specific permission statement supplies a pre1926 publication claim; APR corroborates the historic Victor issue. This does not turn every track on the later Pearl album into public domain."
+      "note": "Programme rule 2. The recording-specific permission statement supplies a pre 1926 publication claim; APR corroborates the historic Victor issue. This does not turn every track on the later Pearl album into public domain."
     },
     "creditLine": "Waltz in C♯ minor, Op. 64 No. 2; Ignacy Jan Paderewski, piano (Steinway). US public domain: Commons records US publication before 1921 for this 1917 performance. Source: Wikimedia Commons.",
     "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
@@ -152,7 +152,7 @@
       "id": "discography",
       "title": "APR — complete Victor recordings catalogue",
       "url": "https://www.europadisc.co.uk/classical/128588/Paderewski_-_The_American_Recordings_%28The_Complete_Victor_Recordings%2C_1914-31%29.htm",
-      "locator": "CD1 track8: Waltz Op64/2, C19923-2, Victor74539, 23 May1917, New York.",
+      "locator": "CD1 track8: Waltz Op64/2, C19923-2, Victor74539, 23 May 1917, New York.",
       "accessed": "2026-10-17"
     },
     {
@@ -164,9 +164,9 @@
     },
     {
       "id": "term",
-      "title": "US Copyright Office — pre1972 sound recordings",
+      "title": "US Copyright Office — pre 1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
-      "locator": "Recordings first published before1923 and the annual expiration schedule for1923–1946 publications; as of2026 the cutoff is1925.",
+      "locator": "Recordings first published before 1923 and the annual expiration schedule for 1923–1946 publications; as of 2026 the cutoff is 1925.",
       "accessed": "2026-10-17"
     }
   ],

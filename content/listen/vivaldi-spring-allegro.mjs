@@ -6,6 +6,7 @@ export default {
   order: 1,
   work: 'The Four Seasons · Spring, RV 269',
   movement: 'I. Allegro',
+  set: { id: 'vivaldi-spring', title: 'The Four Seasons · Spring, RV 269', part: 1, of: 3 },
   year: '1725, publication',
   key: 'E major',
   forces: 'Solo violin, strings and continuo',

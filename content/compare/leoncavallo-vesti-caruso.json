@@ -1,0 +1,27 @@
+{
+  "id": "leoncavallo-vesti-caruso",
+  "title": "Caruso with piano and orchestra",
+  "composer": null,
+  "group": "singers",
+  "work": "Ruggero Leoncavallo: Recitar!… Vesti la giubba",
+  "question": "How does Caruso shape the shared vocal passage with piano in 1902 and orchestra in 1907?",
+  "intro": "Caruso recorded Gramophone matrix 2875b with pianist Salvatore Cottone in Milan on 30 November 1902, and Victor C-4317 with orchestra in New York on 17 March 1907. These are different acoustic masters, not the later electrically re-orchestrated dubs of the Victor recording. The provisional map compares only 5–114 seconds of the piano side with 13–139 seconds of the orchestral side; the complete streams retain their different openings and later continuations. A two-semitone difference between their analysed pitch profiles is compensated in features only, without changing playback or treating the excerpt-duration ratio as a whole-side tempo comparison.",
+  "recordings": [
+    { "listen": "leoncavallo-vesti-caruso-1902", "label": "Caruso and Salvatore Cottone", "year": 1902, "note": "Piano; Milan, 30 November. Gramophone 2875b [1], transferred from HMV V.A.30." },
+    { "listen": "leoncavallo-vesti-caruso-1907", "label": "Caruso with orchestra", "year": 1907, "note": "New York, 17 March. Acoustic Victor 88061; C-4317 take 1 attributed through the catalogue." }
+  ],
+  "reference": "leoncavallo-vesti-caruso-1902",
+  "passages": [
+    { "label": "Voice and accompaniment", "t": 10, "note": "Compare the tenor’s phrase against piano and orchestra. Recording balance is not a direct measure of the singer’s projection." },
+    { "label": "The central rise", "t": 50, "note": "Follow the rise and release across the shared passage, avoiding a comparison of the transfers’ absolute playback levels." },
+    { "label": "The later crest", "t": 85, "note": "Compare how the vocal line crosses successive gestures; vibrato, breath and horn placement have not been measured." },
+    { "label": "The excerpt’s final span", "t": 108, "note": "The map ends soon after this point. Continue each complete side separately rather than assuming their later material corresponds." }
+  ],
+  "sources": [
+    { "title": "DAHR — Gramophone 2875b: session and pianist", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/1000003400" },
+    { "title": "1902 master’s transferred HMV reissue and rights metadata", "url": "https://archive.org/metadata/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a" },
+    { "title": "DAHR — Victor C-4317: original acoustic master and later dub distinction", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029" },
+    { "title": "1907 Victor 88061 transfer and rights metadata", "url": "https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a" },
+    { "title": "Vesti la giubba: dramatic text and context", "url": "https://en.wikipedia.org/wiki/Vesti_la_giubba" }
+  ]
+}

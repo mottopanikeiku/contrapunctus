@@ -2623,7 +2623,22 @@
     ],
     "bestTargetRank": 14,
     "rankingBasis": "INFERENCE: Existing usable recording first; piano/chamber before orchestral density. Four already-implemented baseline sources are excluded. Download and rights are established; conversion and alignment are not tested.",
-    "bestTargetScope": "II. Adagio cantabile first; remaining sources cover I and III."
+    "bestTargetScope": "II. Adagio cantabile first; remaining sources cover I and III.",
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Piano Sonata No. 8 in C minor, Op. 13 “Pathétique”",
+        "movements": [
+          "I. Grave — Allegro di molto e con brio",
+          "II. Adagio cantabile",
+          "III. Rondo: Allegro"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "Piano Sonata No. 8 in C minor, Op. 13 “Pathétique”"
+    ]
   },
   {
     "piece": "Piano Sonata No. 14 in C♯ minor “Moonlight”, Op. 27 No. 2",
@@ -2691,7 +2706,22 @@
       "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=276"
     },
     "bestTargetRank": 13,
-    "rankingBasis": "INFERENCE: Existing usable recording first; piano/chamber before orchestral density. Four already-implemented baseline sources are excluded. Download and rights are established; conversion and alignment are not tested."
+    "rankingBasis": "INFERENCE: Existing usable recording first; piano/chamber before orchestral density. Four already-implemented baseline sources are excluded. Download and rights are established; conversion and alignment are not tested.",
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Piano Sonata No. 14 in C♯ minor, Op. 27 No. 2 “Moonlight”",
+        "movements": [
+          "I. Adagio sostenuto",
+          "II. Allegretto — Trio",
+          "III. Presto agitato"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "Piano Sonata No. 14 in C♯ minor, Op. 27 No. 2 “Moonlight”"
+    ]
   },
   {
     "piece": "Piano Sonata No. 17 in D minor “Tempest”, Op. 31 No. 2",
@@ -2890,6 +2920,21 @@
           "attribution": "Stelios Samelis"
         }
       }
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Piano Sonata No. 23 in F minor, Op. 57 “Appassionata”",
+        "movements": [
+          "I. Allegro assai",
+          "II. Andante con moto",
+          "III. Allegro ma non troppo — Presto"
+        ],
+        "recordingPriority": 1
+      }
+    ],
+    "aliases": [
+      "Piano Sonata No. 23 in F minor, Op. 57 “Appassionata”"
     ]
   },
   {
@@ -2960,7 +3005,7 @@
       "lilypondVersion": "2.6.3",
       "licence": "CC BY-SA 2.5"
     },
-    "matchesEdition": "EXT: Seven-movement original quartet with individual score MIDIs. INFERENCE: Convert all old 2.5/2.6-era dependencies; do not confuse the unsuffixed finale MIDI with the whole cycle.",
+    "matchesEdition": "EXT: Seven-movement original quartet with individual score MIDIs. The unsuffixed quartet_o131.mid is movement I; suffixes -1 through -6 are movements II through VII. INFERENCE: Convert all old 2.5/2.6-era dependencies; concatenate or regenerate movements in this order for a whole-quartet recording.",
     "priority": 2,
     "status": "mutopia-ready",
     "coverage": "complete",
@@ -3013,6 +3058,16 @@
         "quartet_o131-6.mid",
         "quartet_o131.mid"
       ],
+      "midiMovementMap": {
+        "I": "quartet_o131.mid",
+        "II": "quartet_o131-1.mid",
+        "III": "quartet_o131-2.mid",
+        "IV": "quartet_o131-3.mid",
+        "V": "quartet_o131-4.mid",
+        "VI": "quartet_o131-5.mid",
+        "VII": "quartet_o131-6.mid"
+      },
+      "midiMovementMapBasis": "EXT: ScoreB inspected the downloaded MIDI files and supplied these movement assignments.",
       "assetChecks": [
         {
           "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O131/quartet_o131/quartet_o131-lys.zip",
@@ -3031,7 +3086,17 @@
       "sourceFileListNote": "MEAS: First 24 LilyPond wrappers listed; download ZIP for all score/part files and include dependencies.",
       "attribution": "Will Oram",
       "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=594"
-    }
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "String Quartet No. 14 in C♯ minor, Op. 131",
+        "movements": [
+          "I–VII complete quartet, single file (Adagio ma non troppo e molto espressivo … Allegro)"
+        ],
+        "recordingPriority": 1
+      }
+    ]
   },
   {
     "piece": "Symphony No. 3 in E♭ major “Eroica”, Op. 55",
@@ -3110,7 +3175,23 @@
       "sourceFileCount": 102,
       "attribution": "Jay Anderson",
       "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1655"
-    }
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 3 in E♭ major, Op. 55 “Eroica”",
+        "movements": [
+          "I. Allegro con brio",
+          "II. Marcia funebre: Adagio assai",
+          "III. Scherzo: Allegro vivace",
+          "IV. Finale: Allegro molto"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "Symphony No. 3 in E♭ major, Op. 55 “Eroica”"
+    ]
   },
   {
     "piece": "Symphony No. 5 in C minor, Op. 67",
@@ -3281,6 +3362,19 @@
           "inspection": "MEAS: MXL archive opened; META-INF/container.xml resolved; score-partwise XML and part list parsed. Conversion, engraving, MIDI generation and alignment not run.",
           "conversion": "INFERENCE: Unzip MXL to its root XML, convert with musicxml2ly, then generate MIDI from the same score; inspect repeats, transpositions, ties and grace notes before alignment."
         }
+      }
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 5 in C minor, Op. 67",
+        "movements": [
+          "I. Allegro con brio",
+          "II. Andante con moto",
+          "III. Allegro (Scherzo)",
+          "IV. Allegro (Finale)"
+        ],
+        "recordingPriority": 1
       }
     ]
   },
@@ -8797,7 +8891,17 @@
       "entryFile": "Erlkoenig.ly",
       "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1030",
       "attribution": "Ph. Raynaud"
-    }
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Erlkönig, D. 328",
+        "movements": [
+          "Erlkönig"
+        ],
+        "recordingPriority": 2
+      }
+    ]
   },
   {
     "piece": "An die Musik, D. 547",
@@ -8852,7 +8956,17 @@
       "entryFile": "AnDieMusik.ly",
       "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1001",
       "attribution": "Ph. Raynaud"
-    }
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "An die Musik, D. 547",
+        "movements": [
+          "An die Musik"
+        ],
+        "recordingPriority": 2
+      }
+    ]
   },
   {
     "piece": "Die Forelle, D. 550",
@@ -8966,7 +9080,17 @@
       "entryFile": "SchubertF-D776_DuBistDieRuh.ly",
       "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1053",
       "attribution": "Ph. Raynaud"
-    }
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Du bist die Ruh, D. 776",
+        "movements": [
+          "Du bist die Ruh"
+        ],
+        "recordingPriority": 3
+      }
+    ]
   },
   {
     "piece": "String Quartet in C minor “Quartettsatz”, D. 703",
@@ -11455,6 +11579,19 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=50",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=60",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=70"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Grosse Fuge in B♭ major, Op. 133",
+        "movements": [
+          "Grosse Fuge, Op. 133"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "Grosse Fuge in B♭ major, Op. 133"
     ]
   },
   {
@@ -11872,6 +12009,22 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=30",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=40",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=50"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "String Quartet No. 14 in D minor, D. 810 “Death and the Maiden”",
+        "movements": [
+          "I. Allegro",
+          "II. Andante con moto",
+          "III. Scherzo: Allegro molto",
+          "IV. Presto"
+        ],
+        "recordingPriority": 3
+      }
+    ],
+    "aliases": [
+      "String Quartet No. 14 in D minor, D. 810 “Death and the Maiden”"
     ]
   },
   {
@@ -12549,6 +12702,22 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=50",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=60",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=70"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 9 in D minor, Op. 125 “Choral”",
+        "movements": [
+          "I. Allegro ma non troppo, un poco maestoso",
+          "II. Molto vivace — Presto",
+          "III. Adagio molto e cantabile",
+          "IV. Presto — “Ode to Joy”"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "Symphony No. 9 in D minor, Op. 125 “Choral”"
     ]
   },
   {
@@ -13453,6 +13622,21 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=0",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=10",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=20"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 94 in G major “Surprise”, Hob. I:94 (movements I, III, IV)",
+        "movements": [
+          "I. Adagio — Vivace assai",
+          "III. Menuetto: Allegro molto",
+          "IV. Finale: Allegro molto"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "Symphony No. 94 in G major “Surprise”, Hob. I:94 (movements I, III, IV)"
     ]
   },
   {
@@ -13488,7 +13672,23 @@
       "inspection": "MEAS: MXL archive opened; META-INF/container.xml resolved; score-partwise XML and part list parsed. Conversion, engraving, MIDI generation and alignment not run.",
       "conversion": "INFERENCE: Unzip MXL to its root XML, convert with musicxml2ly, then generate MIDI from the same score; inspect repeats, transpositions, ties and grace notes before alignment."
     },
-    "coverage": "complete quartet"
+    "coverage": "complete quartet",
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "String Quartet in D major, Op. 64 No. 5 “The Lark”, Hob. III:63",
+        "movements": [
+          "I. Allegro moderato",
+          "II. Adagio cantabile",
+          "III. Menuet: Allegretto",
+          "IV. Finale: Vivace"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "String Quartet in D major, Op. 64 No. 5 “The Lark”, Hob. III:63"
+    ]
   },
   {
     "piece": "String Quartet in C major, Op. 54 No. 2",
@@ -13508,6 +13708,22 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=0",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=10",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=20"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "String Quartet in C major, Op. 54 No. 2, Hob. III:57",
+        "movements": [
+          "I. Vivace",
+          "II. Adagio",
+          "III. Menuet: Allegretto — Trio",
+          "IV. Finale: Adagio — Presto — Adagio"
+        ],
+        "recordingPriority": 1
+      }
+    ],
+    "aliases": [
+      "String Quartet in C major, Op. 54 No. 2, Hob. III:57"
     ]
   },
   {
@@ -13535,6 +13751,22 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=70",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=80",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=90"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 41 in C major, K. 551 “Jupiter”",
+        "movements": [
+          "I. Allegro vivace",
+          "II. Andante cantabile",
+          "III. Menuetto",
+          "IV. Finale: Molto allegro"
+        ],
+        "recordingPriority": 1
+      }
+    ],
+    "aliases": [
+      "Symphony No. 41 in C major, K. 551 “Jupiter”"
     ]
   },
   {
@@ -13589,6 +13821,18 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=70",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=80",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=90"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Piano Concerto No. 21 in C major, K. 467",
+        "movements": [
+          "I. Allegro maestoso",
+          "II. Andante",
+          "III. Allegro vivace assai"
+        ],
+        "recordingPriority": 1
+      }
     ]
   },
   {
@@ -13795,6 +14039,20 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=30",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=40",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=50"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 8 in B minor, D. 759 “Unfinished”",
+        "movements": [
+          "I. Allegro moderato",
+          "II. Andante con moto"
+        ],
+        "recordingPriority": 1
+      }
+    ],
+    "aliases": [
+      "Symphony No. 8 in B minor, D. 759 “Unfinished”"
     ]
   },
   {
@@ -14265,7 +14523,43 @@
         }
       }
     ],
-    "coverage": "24 songs in MusicXML; Mutopia separately supplies No.12 only"
+    "coverage": "24 songs in MusicXML; Mutopia separately supplies No.12 only",
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Winterreise, D. 911 (24 songs)",
+        "movements": [
+          "1. Gute Nacht",
+          "2. Die Wetterfahne",
+          "3. Gefrorne Tränen",
+          "4. Erstarrung",
+          "5. Der Lindenbaum",
+          "6. Wasserflut",
+          "7. Auf dem Flusse",
+          "8. Rückblick",
+          "9. Irrlicht",
+          "10. Rast",
+          "11. Frühlingstraum",
+          "12. Einsamkeit",
+          "13. Die Post",
+          "14. Der greise Kopf",
+          "15. Die Krähe",
+          "16. Letzte Hoffnung",
+          "17. Im Dorfe",
+          "18. Der stürmische Morgen",
+          "19. Täuschung",
+          "20. Der Wegweiser",
+          "21. Das Wirtshaus",
+          "22. Mut",
+          "23. Die Nebensonnen",
+          "24. Der Leiermann"
+        ],
+        "recordingPriority": 1
+      }
+    ],
+    "aliases": [
+      "Winterreise, D. 911 (24 songs)"
+    ]
   },
   {
     "piece": "String Quintet in C major, D. 956 — II. Adagio",
@@ -14288,6 +14582,16 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=30",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=40",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=SchubertF&startat=50"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "String Quintet in C major, D. 956 — II. Adagio",
+        "movements": [
+          "II. Adagio"
+        ],
+        "recordingPriority": 2
+      }
     ]
   },
   {
@@ -18609,7 +18913,23 @@
       "sourceMetadata": "EXT",
       "downloadInspection": "MEAS",
       "recordingMatch": "INFERENCE"
-    }
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "String Quartet No. 19 in C major, K. 465 “Dissonance”",
+        "movements": [
+          "I. Adagio — Allegro",
+          "II. Andante cantabile",
+          "III. Menuetto: Allegretto",
+          "IV. Allegro molto"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "String Quartet No. 19 in C major, K. 465 “Dissonance”"
+    ]
   },
   {
     "piece": "Don Giovanni, K. 527 — Deh vieni alla finestra",
@@ -19081,6 +19401,18 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=70",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=80",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=90"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Piano Concerto No. 27 in B♭ major, K. 595",
+        "movements": [
+          "I. Allegro",
+          "II. Larghetto",
+          "III. Allegro"
+        ],
+        "recordingPriority": 2
+      }
     ]
   },
   {
@@ -19162,6 +19494,21 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=70",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=80",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=90"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 40 in G minor, K. 550 (movements II–IV)",
+        "movements": [
+          "II. Andante",
+          "III. Menuetto: Allegretto",
+          "IV. Finale: Allegro assai"
+        ],
+        "recordingPriority": 2
+      }
+    ],
+    "aliases": [
+      "Symphony No. 40 in G minor, K. 550 (movements II–IV)"
     ]
   },
   {
@@ -19182,6 +19529,22 @@
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=0",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=10",
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=HaydnFJ&startat=20"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 100 in G major “Military”, Hob. I:100",
+        "movements": [
+          "I. Adagio — Allegro",
+          "II. Allegretto",
+          "III. Menuetto: Moderato",
+          "IV. Finale: Presto"
+        ],
+        "recordingPriority": 3
+      }
+    ],
+    "aliases": [
+      "Symphony No. 100 in G major “Military”, Hob. I:100"
     ]
   },
   {
@@ -22581,6 +22944,434 @@
     "recordingEvidence": "content/listen/rachmaninoff-concerto-2-allegro-scherzando.mjs",
     "searched": [
       "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=RachmaninoffS&startat=0"
+    ]
+  },
+  {
+    "piece": "String Quartet No. 15 in A minor, Op. 132",
+    "composer": "beethoven",
+    "work": "String Quartet No. 15 in A minor, Op. 132",
+    "origin": "shortlisted-candidate",
+    "mutopia": null,
+    "matchesEdition": "MEAS: No matching complete Mutopia LilyPond+MIDI or clean MusicXML/MEI source with established compatible rights was located for the specified version. INFERENCE: Do not replace a piano duet, band transcription, vocal arrangement or paired recording side with another version.",
+    "priority": 3,
+    "status": "not-located",
+    "claimBasis": {
+      "sourceMetadata": "EXT",
+      "catalogueSearch": "MEAS",
+      "recordingMatch": "INFERENCE"
+    },
+    "searched": [
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=0",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=10",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=20",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=30",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=40",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=50",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=60",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=70"
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "String Quartet No. 15 in A minor, Op. 132",
+        "movements": [
+          "I. Assai sostenuto — Allegro",
+          "II. Allegro ma non tanto",
+          "III. Molto adagio (Heiliger Dankgesang) — IV. Alla marcia, assai vivace, one file",
+          "V. Allegro appassionato — Presto"
+        ],
+        "recordingPriority": 1
+      }
+    ]
+  },
+  {
+    "piece": "Piano Sonata No. 30 in E major, Op. 109 (movements I–II)",
+    "composer": "beethoven",
+    "work": "Piano Sonata No. 30 in E major, Op. 109 (movements I–II)",
+    "origin": "shortlisted-candidate",
+    "mutopia": null,
+    "matchesEdition": "MEAS: No matching complete Mutopia LilyPond+MIDI or clean MusicXML/MEI source with established compatible rights was located for the specified version. INFERENCE: Do not replace a piano duet, band transcription, vocal arrangement or paired recording side with another version. EXT: DCMLab has a non-commercial MuseScore corpus, not an established clean MusicXML substitute.",
+    "priority": 3,
+    "status": "not-located",
+    "claimBasis": {
+      "sourceMetadata": "EXT",
+      "catalogueSearch": "MEAS",
+      "recordingMatch": "INFERENCE"
+    },
+    "searched": [
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=0",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=10",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=20",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=30",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=40",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=50",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=60",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=BeethovenLv&startat=70"
+    ],
+    "otherEncoding": {
+      "url": "https://github.com/DCMLab/beethoven_piano_sonatas",
+      "format": "MuseScore .mscx, not a published MusicXML file",
+      "licence": "CC BY-NC-SA 4.0",
+      "note": "EXT: Complete sonata corpus includes 30-3.mscx. INFERENCE: Export through MuseScore would be required before musicxml2ly; non-commercial restriction prevents treating it as a CC0 substitute."
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Piano Sonata No. 30 in E major, Op. 109 (movements I–II)",
+        "movements": [
+          "I. Vivace, ma non troppo",
+          "II. Prestissimo"
+        ],
+        "recordingPriority": 2
+      }
+    ]
+  },
+  {
+    "piece": "Requiem in D minor, K. 626 (Süssmayr completion)",
+    "composer": "mozart",
+    "work": "Requiem in D minor, K. 626 (Süssmayr completion)",
+    "origin": "shortlisted-candidate",
+    "mutopia": {
+      "id": 364,
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=364",
+      "ly": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae-lys.zip",
+      "mid": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae.mid",
+      "lilypondVersion": "2.18.0",
+      "licence": "Public Domain"
+    },
+    "sourceDetails": {
+      "basis": "EXT",
+      "edition": "Breitkopf & Haertel, 1877",
+      "instrumentation": "Voice (SATB), Orchestra: Basset Horns in F, Bassoon, Trumpet in D, Timpani, Violins, Viola, Cello, Organ/Bass",
+      "sourceVersions": [
+        "2.18.0"
+      ],
+      "sourceFiles": [
+        "dies_irae-lys/organo.ily",
+        "dies_irae-lys/timpani.ily",
+        "dies_irae-lys/score.ly",
+        "dies_irae-lys/viola.ily",
+        "dies_irae-lys/basso.ily",
+        "dies_irae-lys/violino-1.ily",
+        "dies_irae-lys/violino-2.ily",
+        "dies_irae-lys/tenore.ily",
+        "dies_irae-lys/soprano.ily",
+        "dies_irae-lys/trombe.ily",
+        "dies_irae-lys/choir.ily",
+        "dies_irae-lys/fagotti.ily",
+        "dies_irae-lys/alto.ily",
+        "dies_irae-lys/corni_di_bassetto.ily"
+      ],
+      "midiFiles": [
+        "dies_irae.mid"
+      ],
+      "assetChecks": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae-lys.zip",
+          "bytes": 12889,
+          "sha256": "a681daadcb59be324dd481dba37983e508783a91b8774bb581bd3f3ff69af375"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae.mid",
+          "bytes": 40179,
+          "sha256": "988faf187f2a661bfbfe7d6ef5a53241b96c21394969f23c01d000dc9796a399"
+        }
+      ],
+      "inspection": "MEAS: Public GETs succeeded; LilyPond text/archive inspected; MIDI MThd headers inspected. No compilation, engraving or alignment run.",
+      "conversion": "INFERENCE: Use convert-ly on every dependency before LilyPond 2.24; compilation compatibility is not established by a successful download.",
+      "attribution": "Martin Norbäck",
+      "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=364"
+    },
+    "matchesEdition": "EXT: Mutopia 364 supplies Dies irae only from the Süssmayr/Brahms-edited Breitkopf source. MEAS: No complete fourteen-number Requiem source located. INFERENCE: Covers only the shortlisted Dies irae, not the complete recording set.",
+    "priority": 2,
+    "status": "mutopia-partial",
+    "coverage": "Dies irae only; remaining listed numbers missing",
+    "claimBasis": {
+      "sourceMetadata": "EXT",
+      "downloadInspection": "MEAS",
+      "recordingMatch": "INFERENCE"
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Requiem in D minor, K. 626 (Süssmayr completion)",
+        "movements": [
+          "I. Introitus: Requiem aeternam",
+          "II. Kyrie",
+          "III. Dies irae",
+          "IV. Tuba mirum",
+          "V. Rex tremendæ",
+          "VI. Recordare",
+          "VII. Confutatis",
+          "VIII. Lacrimosa",
+          "IX. Domine Jesu",
+          "X. Hostias",
+          "XI. Sanctus",
+          "XII. Benedictus",
+          "XIII. Agnus Dei",
+          "XIV. Communio: Lux aeterna"
+        ],
+        "recordingPriority": 1
+      }
+    ]
+  },
+  {
+    "piece": "Don Giovanni, K. 527 (excerpts, historic 78 rpm)",
+    "composer": "mozart",
+    "work": "Don Giovanni, K. 527 (excerpts, historic 78 rpm)",
+    "origin": "shortlisted-candidate",
+    "mutopia": {
+      "id": 189,
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=189",
+      "ly": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/canzonetta/canzonetta-lys.zip",
+      "mid": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/canzonetta/canzonetta-mids.zip",
+      "lilypondVersion": "2.16.1",
+      "licence": "Public Domain"
+    },
+    "sourceDetails": {
+      "basis": "EXT",
+      "edition": "Neue Mozartausgabe",
+      "instrumentation": "Ensemble: Baritone, Mandolin, Violin, Viola, 'Cello",
+      "sourceVersions": [
+        "2.16.1"
+      ],
+      "sourceFiles": [
+        "canzonetta-lys/cello.ly",
+        "canzonetta-lys/viola.ly",
+        "canzonetta-lys/violin2.ly",
+        "canzonetta-lys/mandolin.ly",
+        "canzonetta-lys/violin1.ly",
+        "canzonetta-lys/score.ly",
+        "canzonetta-lys/giovanni.ly",
+        "canzonetta-lys/canz.ly",
+        "canzonetta-lys/notes.ly",
+        "canzonetta-lys/header.ly"
+      ],
+      "midiFiles": [
+        "canz.mid",
+        "score.mid"
+      ],
+      "assetChecks": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/canzonetta/canzonetta-lys.zip",
+          "bytes": 7082,
+          "sha256": "41331ba17dacf03575fafa4adc58b91270f4fa9a5cf596642e7ca5bf16f855f8"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/canzonetta/canzonetta-mids.zip",
+          "bytes": 3564,
+          "sha256": "56a78b2ce78a1e561dbc0917bb7bbccb493f531956087f63ff5eedf7f835496b"
+        }
+      ],
+      "inspection": "MEAS: Public GETs succeeded; LilyPond text/archive inspected; MIDI MThd headers inspected. No compilation, engraving or alignment run.",
+      "conversion": "INFERENCE: Use convert-ly on every dependency before LilyPond 2.24; compilation compatibility is not established by a successful download.",
+      "attribution": "Erik Sandberg",
+      "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=189"
+    },
+    "matchesEdition": "EXT: Mutopia 189 is Deh vieni alla finestra, baritone/mandolin/strings. MEAS: No matching LilyPond+MIDI located for Là ci darem or Batti batti. INFERENCE: Historic 78-rpm cuts, strophes and transpositions remain unverified; do not label all three excerpts covered.",
+    "priority": 2,
+    "status": "mutopia-partial",
+    "coverage": "Deh vieni only; Là ci darem and Batti batti missing",
+    "claimBasis": {
+      "sourceMetadata": "EXT",
+      "downloadInspection": "MEAS",
+      "recordingMatch": "INFERENCE"
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Don Giovanni, K. 527 (excerpts, historic 78 rpm)",
+        "movements": [
+          "No. 7 Là ci darem la mano (Don Giovanni, Zerlina)",
+          "No. 16 Deh, vieni alla finestra (Don Giovanni, serenade)",
+          "No. 12 Batti, batti, o bel Masetto (Zerlina)"
+        ],
+        "recordingPriority": 1
+      }
+    ]
+  },
+  {
+    "piece": "Clarinet Concerto in A major, K. 622 (movements I and III)",
+    "composer": "mozart",
+    "work": "Clarinet Concerto in A major, K. 622 (movements I and III)",
+    "origin": "shortlisted-candidate",
+    "mutopia": null,
+    "matchesEdition": "MEAS: Full ZIP and Score-2.ly contain orchestral accompaniment only: no clarinet solo staff. Source uses .lyp dependencies. Page states PD, embedded score footer says CC BY 3.0. INFERENCE: Cannot supply the basset-clarinet recording’s complete score or solo MIDI.",
+    "priority": 3,
+    "status": "not-located",
+    "claimBasis": {
+      "sourceMetadata": "EXT",
+      "catalogueSearch": "MEAS",
+      "recordingMatch": "INFERENCE"
+    },
+    "searched": [
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=0",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=10",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=20",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=30",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=40",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=50",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=60",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=70",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=80",
+      "https://www.mutopiaproject.org/cgibin/make-table.cgi?Composer=MozartWA&startat=90"
+    ],
+    "rejectedNearMatches": [
+      {
+        "mutopia": {
+          "id": 1635,
+          "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1635",
+          "ly": "https://www.mutopiaproject.org/ftp/MozartWA/KV622/MozartK622/MozartK622-lys.zip",
+          "mid": "https://www.mutopiaproject.org/ftp/MozartWA/KV622/MozartK622/MozartK622-mids.zip",
+          "lilypondVersion": "2.12.2",
+          "licence": "Public Domain"
+        },
+        "reason": "MEAS: Full ZIP and Score-2.ly contain orchestral accompaniment only: no clarinet solo staff. Source uses .lyp dependencies. Page states PD, embedded score footer says CC BY 3.0. INFERENCE: Cannot supply the basset-clarinet recording’s complete score or solo MIDI.",
+        "sourceDetails": {
+          "basis": "EXT",
+          "edition": "Breitkopf - Leipzig (1877-1910 Plate B.517)",
+          "instrumentation": "Orchestra: Flute, Bassoon, Horn, Violin, Alto, Cello, DoubleBass",
+          "sourceVersions": [
+            "2.11.64",
+            "2.12.1"
+          ],
+          "sourceFiles": [
+            "MozartK622-lys/Alto.ly",
+            "MozartK622-lys/Basson1.ly",
+            "MozartK622-lys/Basson2.ly",
+            "MozartK622-lys/Contrebasse.ly",
+            "MozartK622-lys/Cor1.ly",
+            "MozartK622-lys/Cor2.ly",
+            "MozartK622-lys/Flute1.ly",
+            "MozartK622-lys/Flute2.ly",
+            "MozartK622-lys/Midi-1.ly",
+            "MozartK622-lys/Midi-2.ly",
+            "MozartK622-lys/Midi-3.ly",
+            "MozartK622-lys/Mutopia-Header.ly",
+            "MozartK622-lys/Score-1.ly",
+            "MozartK622-lys/Score-2.ly",
+            "MozartK622-lys/Score-3.ly",
+            "MozartK622-lys/Violon1.ly",
+            "MozartK622-lys/Violon2.ly",
+            "MozartK622-lys/Violoncelle.ly"
+          ],
+          "midiFiles": [
+            "Midi-1.mid",
+            "Midi-2.mid",
+            "Midi-3.mid"
+          ],
+          "assetChecks": [
+            {
+              "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV622/MozartK622/MozartK622-lys.zip",
+              "bytes": 63327,
+              "sha256": "f81998325338f242ceb07f43603d5029a0056a799ce2e01f1f33a17fb4e795a0"
+            },
+            {
+              "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV622/MozartK622/MozartK622-mids.zip",
+              "bytes": 30236,
+              "sha256": "4e05eaf9f1559e3c0ca960d96d758bff9edcc38fbeb37806c8b83c644e863f32"
+            }
+          ],
+          "inspection": "MEAS: Public GETs succeeded; LilyPond text/archive inspected; MIDI MThd headers inspected. No compilation, engraving or alignment run.",
+          "conversion": "INFERENCE: Use convert-ly on every dependency before LilyPond 2.24; compilation compatibility is not established by a successful download.",
+          "sourceFileCount": 18,
+          "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1635",
+          "attribution": "M. Leménager"
+        }
+      }
+    ],
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Clarinet Concerto in A major, K. 622 (movements I and III)",
+        "movements": [
+          "I. Allegro",
+          "III. Rondo: Allegro"
+        ],
+        "recordingPriority": 2
+      }
+    ]
+  },
+  {
+    "piece": "Symphony No. 5 in C minor, Op. 67 — first movement, Nikisch 1913",
+    "composer": "beethoven",
+    "work": "Symphony No. 5 in C minor, Op. 67 — first movement, Nikisch 1913",
+    "origin": "shortlisted-candidate",
+    "mutopia": {
+      "id": 941,
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+      "ly": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip",
+      "mid": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1.mid",
+      "lilypondVersion": "2.16.2",
+      "licence": "Public Domain"
+    },
+    "sourceDetails": {
+      "basis": "EXT",
+      "edition": "Breitkopf and Härtel (1862-1865)",
+      "instrumentation": "Orchestra",
+      "sourceVersions": [
+        "2.16.2"
+      ],
+      "sourceFiles": [
+        "Symphony5_1-lys/Symphony5_1.ly",
+        "Symphony5_1-lys/basso.ly",
+        "Symphony5_1-lys/beethoven-s5.1-cb.ly",
+        "Symphony5_1-lys/beethoven-s5.1-v1.ly",
+        "Symphony5_1-lys/beethoven-s5.1-v2.ly",
+        "Symphony5_1-lys/beethoven-s5.1-va.ly",
+        "Symphony5_1-lys/beethoven-s5.1-vc.ly",
+        "Symphony5_1-lys/clarinetti.ly",
+        "Symphony5_1-lys/cornies.ly",
+        "Symphony5_1-lys/fagotti.ly",
+        "Symphony5_1-lys/flauti.ly",
+        "Symphony5_1-lys/jhe-title.ly",
+        "Symphony5_1-lys/oboi.ly",
+        "Symphony5_1-lys/struktur.ly",
+        "Symphony5_1-lys/timpani.ly",
+        "Symphony5_1-lys/trombec.ly",
+        "Symphony5_1-lys/viola.ly",
+        "Symphony5_1-lys/violinoone.ly",
+        "Symphony5_1-lys/violinotwo.ly",
+        "Symphony5_1-lys/violoncello.ly"
+      ],
+      "midiFiles": [
+        "Symphony5_1.mid"
+      ],
+      "assetChecks": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip",
+          "bytes": 94967,
+          "sha256": "a0165591776ac4f277ff4331b075774d739639726f26f162aad57761554abf80"
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1.mid",
+          "bytes": 74649,
+          "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046"
+        }
+      ],
+      "inspection": "MEAS: Public GETs succeeded; LilyPond text/archive inspected; MIDI MThd headers inspected. No compilation, engraving or alignment run.",
+      "conversion": "INFERENCE: Use convert-ly on every dependency before LilyPond 2.24; compilation compatibility is not established by a successful download.",
+      "attribution": "Stelios Samelis (adapted to 2.16.2 by Johannes Heinecke)",
+      "licenceEvidence": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941"
+    },
+    "matchesEdition": "EXT: Complete original orchestral first movement, Breitkopf & Härtel source. INFERENCE: Nikisch’s historical recording requires its own repeat/cut map; do not reuse the Skidmore recording’s unfolded score order without inspection.",
+    "priority": 2,
+    "status": "mutopia-ready",
+    "coverage": "first movement only",
+    "claimBasis": {
+      "sourceMetadata": "EXT",
+      "downloadInspection": "MEAS",
+      "recordingMatch": "INFERENCE"
+    },
+    "candidateRefs": [
+      {
+        "file": "content/plan/candidates/classical.json",
+        "work": "Symphony No. 5 in C minor, Op. 67 — first movement, Nikisch 1913",
+        "movements": [
+          "I. Allegro con brio"
+        ],
+        "recordingPriority": 2
+      }
     ]
   }
 ]

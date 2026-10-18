@@ -58,7 +58,7 @@ export default {
       { t: 320, playing: ['flutes', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'violins-1'], note: 'First full idée fixe in flute and first violins; score-derived approximate region.' },
       { t: 490, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'Developmental region with changing wind and string prominence.' },
       { t: 695, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'cornets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'Expanded late-allegro orchestral weight; a passage overview rather than a continuous tutti claim.' },
-      { t: 810, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'cornets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'Quiet sustained closing chords distribute notes through the orchestra; instruments drop out before the final silence.' },
+      { t: 810, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'Quiet wind, horn and string chords with sparse timpani punctuation; piccolo joins only in the final three bars. Trumpets and cornets rest throughout the Religiosamente.' },
     ],
   },
 };

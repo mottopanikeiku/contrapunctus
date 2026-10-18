@@ -4,6 +4,7 @@ export default {
   order: 1,
   work: 'Symphony No. 5, Op. 67',
   movement: 'I. Allegro con brio',
+  set: { id: 'beethoven-5', title: 'Symphony No. 5, Op. 67', part: 1, of: 4 },
   year: '1804–08',
   key: 'C minor',
   forces: 'Orchestra',

@@ -1,0 +1,132 @@
+{
+  "id": "rachmaninoff-prelude-c-sharp-minor",
+  "title": "Rachmaninoff records his Prelude three times",
+  "composer": "rachmaninoff",
+  "work": "Prelude in C-sharp minor, Op. 3 No. 2",
+  "question": "Where does the composer change pace between his Edison, acoustic Victor and electrical Victor recordings?",
+  "intro": "Rachmaninoff’s 1919 Edison performance is the timeline reference for his 1921 acoustic Victor and 1928 electrical remake, with Martin Wörner’s May 2005 recording as a modern counterpart. DAHR identifies the 1928 issued take 23, but Victor 814 can contain either of two 1921 takes and this transfer does not resolve which. The complete access files run about3:48, 3:30, 3:31 and 3:53 respectively; those lengths include leads and decays, while the maps compare musical position. Chroma feature transposition, where reported, changes alignment features only: no audio has been retuned.",
+  "group": "composer-performers",
+  "recordings": [
+    {
+      "listen": "rachmaninoff-prelude-c-sharp-minor",
+      "label": "Rachmaninoff, 1919 (Edison)",
+      "year": 1919,
+      "note": "Composer at the piano; Edison transfer is the timeline reference."
+    },
+    {
+      "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1921",
+      "label": "Rachmaninoff, 1921 (Victor)",
+      "year": 1921,
+      "note": "Two issued takes share Victor 814; this pressing’s take remains unresolved. Compare the central span, not the crackle."
+    },
+    {
+      "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1928",
+      "label": "Rachmaninoff, 1928 (electrical)",
+      "year": 1928,
+      "note": "Issued take 23 is identified. Modern filtering and de-noising mean timbre is not an untouched record of his piano."
+    },
+    {
+      "listen": "rachmaninoff-prelude-c-sharp-minor-woerner-2005",
+      "label": "Martin Wörner, 2005",
+      "year": 2005,
+      "note": "Private recording by Tobias Lohner; modern explicitly licensed counterpart, with no documented piano model or venue."
+    }
+  ],
+  "reference": "rachmaninoff-prelude-c-sharp-minor",
+  "passages": [
+    {
+      "label": "Opening bell figure",
+      "t": 5,
+      "note": "Compare the spacing between attacks and the following quiet phrase; avoid interpreting transfer noise as continued sound from the piano."
+    },
+    {
+      "label": "Approach to Agitato",
+      "t": 106,
+      "note": "The reference’s central change is measured near 1:46. Compare the acceleration into the active middle, not the global onset-tempo estimate."
+    },
+    {
+      "label": "Chordal return",
+      "t": 138,
+      "note": "The reference’s quieter transition into the renewed chordal span provides a shared landmark; note-exact onset has not been verified."
+    },
+    {
+      "label": "Coda region",
+      "t": 192,
+      "note": "Follow the withdrawal and final resonance. The end of the digital file is not the same thing as the last keyboard attack."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a"
+    },
+    {
+      "title": "DAHR — Victor B-25650",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700010909"
+    },
+    {
+      "title": "DAHR — Victor 814",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/52653"
+    },
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_Morceaux_de_fantasie_op._3_No._2_c_sharp_minor.ogg"
+    },
+    {
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/prelude-in-c-sharp-minor"
+    },
+    {
+      "title": "DAHR — Victor BVE-25650",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor"
+    },
+    {
+      "title": "DAHR — Victor 1326",
+      "url": "https://adp.library.ucsb.edu/index.php/object/detail/86692/Victor_1326"
+    },
+    {
+      "title": "DAHR — Gramophone DA-996",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/79186"
+    },
+    {
+      "title": "Edison reference — recording dossier",
+      "url": "../sources.html#dossier-rachmaninoff-prelude-c-sharp-minor"
+    }
+  ],
+  "alignment": {
+    "scope": "Complete recordings; edge silence and sustained closing resonance remain less reliable than phrase interiors.",
+    "method": "Automatic chroma CENS + DTW, provisional; no audio retuning.",
+    "maps": [
+      {
+        "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1921",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 1,
+        "medianConfidence": 0.967,
+        "minimumConfidence": 0.898,
+        "fractionBelow075": 0,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1928",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.923,
+        "minimumConfidence": 0.698,
+        "fractionBelow075": 0.011,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "rachmaninoff-prelude-c-sharp-minor-woerner-2005",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.904,
+        "minimumConfidence": 0.69,
+        "fractionBelow075": 0.022,
+        "interpretation": "Sound overall; local uncertainty remains."
+      }
+    ]
+  }
+}

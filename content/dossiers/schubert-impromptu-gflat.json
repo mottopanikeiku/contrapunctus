@@ -127,14 +127,12 @@
       "note": "No. 3 was first published in 1857; Schubert died in 1828. Modern editions are a separate rights question."
     },
     "recording": {
-      "value": "Creative Commons Attribution 3.0",
+      "value": "Rule 1 — recording licence/release: CC BY 3.0 Unported.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured",
-        "upstream"
+        "rights-audit-commons"
       ],
-      "note": "The upstream IMSLP recording and Commons agree on CC BY 3.0."
+      "note": "Commons explicitly applies cc-by-3.0 to Chiara Bertoglio’s recording and identifies the performer as author. The 20 December 2012 item/submission date is not treated as a session date."
     },
     "creditLine": "Chiara Bertoglio, piano. Published by Chiara Bertoglio through IMSLP, also cited by Musopen, via Wikimedia Commons. CC BY 3.0.",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
@@ -195,6 +193,13 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from 1 January after the relevant event; this citation concerns authors, not the later amended recording term.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Schubert's Impromptu no. 3 in G-flat major, D.899 - Chiara Bertoglio.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Schubert's Impromptu no. 3 in G-flat major, D.899 - Chiara Bertoglio.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

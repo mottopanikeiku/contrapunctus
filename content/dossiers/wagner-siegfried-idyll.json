@@ -36,18 +36,20 @@
       "value": "1925",
       "status": "inferred",
       "sourceIds": [
-        "archive"
+        "archive",
+        "discography"
       ],
-      "note": "The item describes a 1925 acoustic pressing. Its machine date 1925-03-03 is not independently established as a session day; a precise session date is withheld.",
+      "note": "The item describes a 1925 acoustic pressing; the independent collector discography dates the matching issue circa 1925. The item’s machine date 1925-03-03 is not independently established as a session day.",
       "precision": "approximate"
     },
     "place": {
-      "value": null,
-      "status": "unknown",
+      "value": "London",
+      "status": "inferred",
       "sourceIds": [
-        "archive"
+        "archive",
+        "discography"
       ],
-      "note": "The source does not establish the session venue."
+      "note": "The independent collector discography locates the matching Chapple/Modern Chamber Orchestra issue in London. The selected transfer’s own metadata supplies no venue, and no particular studio is established."
     }
   },
   "carrier": {
@@ -63,9 +65,10 @@
       "value": "K5157–K5158 in title/description; K0557–K0558 in embedded tags",
       "status": "disputed",
       "sourceIds": [
-        "archive"
+        "archive",
+        "discography"
       ],
-      "note": "The digit strings disagree within the source. No unsupported correction or zero-padding normalisation is imposed.",
+      "note": "The digit strings disagree within the selected item. The independent collector lists K-05157 and K-05158, supporting the title/description rather than the shorter embedded-tag numbers; the internal discrepancy remains visible.",
       "alternatives": [
         {
           "value": "K5157–K5158",
@@ -82,12 +85,13 @@
       ]
     },
     "matrixTakeSides": {
-      "value": "Four sides (1–4); matrix and take numbers unknown",
-      "status": "documented",
+      "value": "Four sides; matching-issue discography lists 03836XX, 03837XX, 03838, 03839",
+      "status": "inferred",
       "sourceIds": [
-        "archive"
+        "archive",
+        "discography"
       ],
-      "note": "The album tags identify four sides, not their precise joins in the combined digital file. No waveform change is labelled a side join."
+      "note": "The selected item documents four sides. The matrix series is corroboration for the matching issue, not a transcription of inspected labels from the selected copy; take suffixes and precise digital side joins remain unestablished."
     }
   },
   "transfer": {
@@ -151,25 +155,32 @@
       "title": "Siegfried Idyll — 1925 Vocalion transfer",
       "url": "https://archive.org/metadata/1925-siegfried-idyll-wagner-modern-chamber-orch-voc-k-5157-58",
       "locator": "Item title and description identify 1925 acoustic Vocalion pressing K5157–58; MP3 creator and album tags give Chapple, K0557–0558, four sides; comment credits a 2021 Animating Apothecary transfer.",
-      "accessed": "2026-10-16"
+      "accessed": "2026-09-29"
     },
     {
       "id": "score",
       "title": "Siegfried-Idyll — Schott score, 1878",
       "url": "https://hdl.handle.net/1802/20380",
       "locator": "Sibley Music Library public-domain full score, plate 22430; published orchestration, not documentary evidence of 1925 session staffing.",
-      "accessed": "2026-10-16"
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "discography",
+      "title": "Damian’s 78s — Stanley Chapple’s acoustic Siegfried Idyll",
+      "url": "https://music.damians78s.co.uk/2013/07/07/adrian-boult-and-stanley-chapple-conduct-wagner-on-vocalion/",
+      "locator": "Siegfried Idyll entry: Modern Chamber Orchestra, Stanley Chapple; Vocalion K-05157/K-05158, matrices 03836XX, 03837XX, 03838, 03839; recorded circa 1925, London. This page supplies corroboration, not the selected audio transfer.",
+      "accessed": "2026-09-29"
     },
     {
       "id": "us-term",
       "title": "US Copyright Office — pre-1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "For 1923–1946 publication, 95 years plus 5 years; 1925 publications enter US public domain 1 January 2026.",
-      "accessed": "2026-10-16"
+      "accessed": "2026-09-29"
     }
   ],
   "editorial": {
     "editor": "Contrapunctus research desk",
-    "revised": "2026-10-16"
+    "revised": "2026-09-29"
   }
 }

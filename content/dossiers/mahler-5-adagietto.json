@@ -123,14 +123,13 @@
       "note": "The composer died in 1911. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Commons applies CC0 1.0 Universal to this recording.",
+      "value": "Rule 1 — recording licence/release: CC0 1.0 Universal; upstream public-domain recording release.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data",
-        "archive"
+        "rights-audit-commons",
+        "rights-audit-upstream-release"
       ],
-      "note": "The upstream item instead links to the older Creative Commons public-domain dedication URL. The reviewed records do not independently establish the uploader’s authority to dedicate the orchestra’s performance; CC0 is reported as the Commons rights statement, not as independently cleared ownership."
+      "note": "Commons applies cc-zero to the Peabody Symphony Orchestra recording. The opened upstream Internet Archive metadata links a public-domain dedication; 19 November 2006 is a repository publication/upload date, not an established session date."
     },
     "creditLine": "Gustav Mahler, Symphony No. 5, IV. Adagietto; Peabody Symphony Orchestra. Conductor and session date unestablished. Internet Archive item Mahler_Symphony_5, via Wikimedia Commons; Commons states CC0 1.0 Universal.",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -170,6 +169,20 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Mahler Symphony No. 5, IV. Adagietto.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Mahler Symphony No. 5, IV. Adagietto.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-upstream-release",
+      "title": "Internet Archive — Mahler Symphony 5",
+      "url": "https://archive.org/metadata/Mahler_Symphony_5/metadata",
+      "locator": "Opened metadata.licenseurl: legacy Creative Commons public-domain dedication, not a non-commercial licence; upload/publication dates kept separate from session dates.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

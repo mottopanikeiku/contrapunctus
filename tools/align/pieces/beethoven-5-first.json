@@ -27,7 +27,7 @@
   "extraction": {
     "mode": "published-midi",
     "expectedTracks": [
-      "",
+      null,
       "one:",
       "two:",
       "three:",

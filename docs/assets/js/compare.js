@@ -168,6 +168,7 @@ export async function mount(app) {
 
   try { await player.getProgramme(); }
   catch { say('The shared player could not load. The recording sources and notes remain available below.'); return () => {}; }
+  if (!root.isConnected) return () => {};
   say('Press Play, then switch performers at the same musical moment.');
   on(root, 'click', (event) => {
     const select = event.target.closest('[data-cmp-select]');
@@ -206,10 +207,12 @@ export async function mount(app) {
   on(seek, 'input', () => {
     const ref = Number(seek.value), time = fromReference(selected, ref);
     if (time == null) return;
-    clearSequence(); referencePosition = ref;
+    clearSequence(`Reference position ${fmt(ref)} · ${fmt(time)} in ${recordings.get(selected).label}.`); referencePosition = ref;
     if (player.track?.id === selected) { changing = true; player.seek(time); changing = false; refresh(); }
     else activate(selected, time, false);
   });
+  on(window, 'pagehide', () => { clearSequence(); restoreConcert(); });
+  on(window, 'pageshow', () => { if (ownsTrack() && player.playing) takeConcert(); });
   off.push(player.on('track', () => {
     if (changing) return;
     if (sequence && player.track?.id !== sequence.spans[sequence.index]?.id) clearSequence('The shared player selected another recording.');

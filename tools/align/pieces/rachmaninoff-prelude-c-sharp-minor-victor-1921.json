@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "id": "rachmaninoff-prelude-c-sharp-minor-victor-1921",
+  "source": {
+    "mutopia": 2033,
+    "title": "Prelude in C♯ minor, Op. 3 No. 2",
+    "edition": "Bosworth & Co. 1896; Universal Edition 1910",
+    "encoder": "Petro Kostandy",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "main": "rach-prelude-op3-no2.ly",
+    "midi": "rach-prelude-op3-no2.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2.ly",
+        "file": "rach-prelude-op3-no2.ly",
+        "sha256": null
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2.mid",
+        "file": "rach-prelude-op3-no2.mid",
+        "sha256": null
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "upper-main",
+      "name": "Piano — upper main staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "upper-extra",
+      "name": "Piano — upper auxiliary staff",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "lower-main",
+      "name": "Piano — lower main staff",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "lower-extra",
+      "name": "Piano — lower auxiliary staff",
+      "tracks": [
+        4
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 62,
+    "quarters": 4,
+    "overrides": {
+      "0": 2
+    },
+    "order": [
+      [
+        0,
+        61
+      ]
+    ],
+    "description": "Play the pickup, then printed bars 1–61 once; returns are written out, with no inserted repeat."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      198,
+      206
+    ],
+    "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Source MIDI tracks were inspected against the named score staves; staff labels do not claim contrapuntal voice separation. EXT: Bosworth 1896 and Universal 1910 piano editions. INFERENCE: Correct Op. 3 No. 2, not a concerto reduction; Rachmaninoff’s 1919 performance may alter voicing, timing and ornaments. No cut/repeat check performed.",
+    "Read content/listen/rachmaninoff-prelude-c-sharp-minor-victor-1921.mjs and cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1921.txt. Same complete work; recording sections are coarse locators, not forced bar anchors. Historic transfer tuning and noise must be inspected separately."
+  ]
+}

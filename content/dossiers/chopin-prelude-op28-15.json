@@ -1,0 +1,136 @@
+{
+  "id": "chopin-prelude-op28-15",
+  "work": {
+    "title": "Prelude in D♭ major, Op. 28 No. 15",
+    "catalogue": "Op. 28 No. 15",
+    "movement": "Sostenuto — Raindrop",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The standard solo-piano work is identified; edition, individual readings and completeness have not been established by a score audit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Ivan Ilić",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer named on the selected recording source."
+  },
+  "session": {
+    "date": {
+      "value": "2005-10",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The Commons raw file description explicitly gives performance_date = Paris, October 2005; this is not an upload date.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The same performance_date field supplies Paris; the individual venue is not identified."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The original commercial recording label is not established."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier, matrix, take or side is established; a digital copy alone does not establish a born-digital original."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Ivan Ilić — original IMSLP upload; Wikimedia Commons mirror",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Source-chain attribution, not a claim that Ilić was the recording or mastering engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload or reissue dates are not used as session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Equalisation, editing, noise reduction, pitch correction and other processing are not documented; no absence of processing is implied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Ivan_Ili%C4%87-Chopin_-_Prelude_no._15_in_D_flat_major.ogg/Ivan_Ili%C4%87-Chopin_-_Prelude_no._15_in_D_flat_major.ogg.mp3",
+    "sourceChain": [
+      "source"
+    ],
+    "format": "MP3 streaming derivative of source ogg",
+    "durationSeconds": 263.576
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; the nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution 3.0",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The Commons source wikitext explicitly uses cc-by-3.0 for this recording. The composition’s copyright status is independent. The embedded metadata also contains a BY-SA URL alongside its Attribution label; the explicit file-description licence governs the stated credit, and the metadata inconsistency is retained here."
+    },
+    "creditLine": "Ivan Ilić, piano; Paris, October 2005. Originally uploaded by the performer to IMSLP, mirrored at Wikimedia Commons; CC BY 3.0. MP3 streaming derivative of the Ogg source; no musical editing by this site.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://commons.wikimedia.org/wiki/File:Ivan_Ili%C4%87-Chopin_-_Prelude_no._15_in_D_flat_major.ogg",
+      "locator": "Performer, description, upstream source and recording-licence statement.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Prelude in D♭ major, Op. 28 No. 15",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/208",
+      "locator": "Work identity, date, publication and formal commentary.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-09-29"
+  }
+}

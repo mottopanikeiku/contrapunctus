@@ -17,6 +17,20 @@ export default {
   },
   intro: 'Chaliapin and Keneman’s arrangement turns the Russian folk song into a bass solo with orchestra. This 1922 acoustic side, conducted by George W. Byng, precedes Chaliapin’s electrical remake by five years.',
   question: 'How does a solo bass give a repeated folk-song phrase direction?',
-  sections: [],
-  cues: [],
+  sections: [
+    { t: 0, label: 'Opening and gradual rise', m: 'A', mNote: 'Measured listening span, not a verse boundary' },
+    { t: 52, label: 'First strong crest', m: 'B', mNote: 'Strong measured change followed by high relative level' },
+    { t: 95, label: 'Middle crest', m: 'C', mNote: 'A later recorded swell, without a word-level alignment' },
+    { t: 140, label: 'Last high-level span', m: 'D', mNote: 'Relative level remains high before the withdrawal' },
+    { t: 154, label: 'Closing withdrawal', m: 'E', mNote: 'The level recedes towards the disc’s noise floor' },
+  ],
+  cues: [
+    { t: 0, kind: 'listen', title: 'Folk song as bass solo', text: 'The Victrola label credits Chaliapin and Keneman’s arrangement for bass with orchestra. Follow how the solo line carries the repeated song forward; this is a concert arrangement, not a field recording of a group at work.', basis: 'documented', precision: 'passage', evidence: 'The digitised label and DAHR identify the arrangers and forces: https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686. No verse or vocal entrance is assigned to this time.' },
+    { t: 35, kind: 'music', title: 'A gradual recorded rise', text: 'Across the opening, the recorded level grows in stages. Listen for how the bass sustains the line through that growth rather than equating a stronger sound with a faster pulse.', basis: 'audio-feature', precision: 'passage', evidence: 'cache/analysis/volga-boatmen-chaliapin-1922.txt: level rises from −26.6 dB at 0:05 to −14.6 at 0:35 and −11.0 at 0:50. These are within-transfer relative levels.' },
+    { t: 55, kind: 'listen', title: 'Across the first crest', text: 'This passage reaches an early crest and then draws back. Compare its phrase lengths with the 1927 remake; different orchestral balance and surface noise need not signify a different vocal intention.', basis: 'audio-feature', precision: 'passage', evidence: 'The report gives strong boundaries at 0:52 and 1:04, a high-level window at 0:55 and a drop at 1:05. The map follows the surrounding phrase, not individual words.' },
+    { t: 95, kind: 'music', title: 'Another broad rise', text: 'A later swell carries the song onwards before another retreat. Attend to the bass line’s continuity across the crest and to what remains of the accompaniment beneath it.', basis: 'audio-feature', precision: 'passage', evidence: 'The report’s highest five-second window is 1:35, with high level continuing at 1:40 and a drop at 1:45. No particular syllable, register change or orchestral entrance is claimed.' },
+    { t: 120, kind: 'listen', title: 'Repeated harmony needs caution', text: 'The automatic comparison becomes locally uncertain through this stretch: repeated harmony can match more than one place. Compare the larger phrase by ear, not the apparent surge or stall in the timing curve.', basis: 'general', precision: 'passage', evidence: 'Inspection of the automatic path shows a plateau at reference 121–126 seconds and a compensating jump near 137–138 seconds, despite high chroma similarity. Local speed estimates around 2:00–2:25 should not be interpreted musically.' },
+    { t: 140, kind: 'music', title: 'Before the final withdrawal', text: 'The song passes through a final sustained high-level stretch before receding. Listen for the whole contour rather than assuming that the last large sound must be the ending.', basis: 'audio-feature', precision: 'passage', evidence: 'The report lists 2:20 and 2:25 among the loudest windows, followed by a fall at 2:30 and a boundary at 2:34. This is an envelope observation, not a verse label.' },
+    { t: 165, kind: 'listen', title: 'Music and surface noise', text: 'The closing span grows quieter until disc noise becomes more prominent. Follow the retreat of the musical line, and avoid reading the persistent hiss as continued orchestral sound.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level falls from −20.1 dB at 2:35 towards −28.6 at 3:00 while measured brightness rises. The alignment stops at 180 seconds rather than including the final noisy tail.' },
+  ],
 };

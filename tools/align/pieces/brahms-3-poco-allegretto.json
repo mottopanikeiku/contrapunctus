@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "id": "brahms-3-poco-allegretto",
+  "source": {
+    "title": "Symphony No. 3, Op. 90 — III. Poco allegretto — ",
+    "edition": "IMSLP #317593",
+    "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from the derivative",
+    "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.3%2C_Op.90/3/Brahms_Op.90_3.mxl",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+    "main": "Brahms_Op.90_3.ly",
+    "musicxml": "Brahms_Op.90_3.mxl",
+    "stripLyrics": true,
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.3%2C_Op.90/3/Brahms_Op.90_3.mxl",
+        "file": "Brahms_Op.90_3.mxl",
+        "sha256": "c2d33f9dcaaf8d88afd439a1e539e4d395d740cadb6147194d09f233be8190c3"
+      }
+    ],
+    "musicxmlImplicitMeasures": [
+      1,
+      54,
+      55,
+      100,
+      101,
+      166
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "Brahms_Op.90_3.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } \\new Voice { \\PartPOneFourVoiceTwo } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n>>"
+  },
+  "voices": [
+    {
+      "id": "flutes",
+      "name": "Flutes",
+      "tracks": [
+        "P1:",
+        "P2:"
+      ]
+    },
+    {
+      "id": "oboes",
+      "name": "Oboes",
+      "tracks": [
+        "P3:",
+        "P4:"
+      ]
+    },
+    {
+      "id": "clarinets",
+      "name": "Clarinets",
+      "tracks": [
+        "P5:",
+        "P6:"
+      ]
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        "P7:",
+        "P8:"
+      ]
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "tracks": [
+        "P9:",
+        "P10:"
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        "P11:"
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        "P12:"
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        "P13:"
+      ]
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        "P14:"
+      ]
+    },
+    {
+      "id": "basses",
+      "name": "Double basses",
+      "tracks": [
+        "P15:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 164,
+    "quarters": 1.5,
+    "overrides": {
+      "0": 0.5,
+      "163": 1
+    },
+    "order": [
+      [
+        0,
+        163
+      ]
+    ],
+    "description": "Opening eighth-note pickup (bar 0), then bars 1–163 once. Source XML split measures 54/55 and 100/101 are contiguous, not additional rests; LilyPond bar numbering is used."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      358.08,
+      368.08
+    ],
+    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 12,
+    "width": 310,
+    "height": 440
+  },
+  "provenance": [
+    "Original CC0 orchestral MusicXML retained byte-for-byte; only separately licensed analytical lyric nodes are omitted before conversion.",
+    "Sounding-pitch changes declared by MusicXML are performed by LilyPond; no blanket woodwind, brass or double-bass octave correction is applied.",
+    "Custom MIDI score bypasses musicxml2ly articulate playback so durations describe written notation."
+  ]
+}

@@ -12,7 +12,7 @@ export default {
   "source": {
     "file": "File:Richard Wagner - Ride of the Valkyries.ogg"
   },
-  "intro": "The beginning of <i>Die Walküre</i>’s third act turns a rocking compound pulse into the Valkyries’ riding music. This short acoustic Edison record presents an orchestral concert excerpt, not the full scene with the eight singers.",
+  "intro": "The beginning of <i>Die Walküre</i>’s third act turns a rocking compound pulse into the Valkyries’ riding music. This short acoustic Edison record presents an orchestral concert excerpt, not the full scene with its Valkyrie voices.",
   "question": "How does the rocking accompaniment keep the tune airborne between its statements?",
   "sections": [
     {
@@ -158,7 +158,7 @@ export default {
         70,
         92
       ],
-      "how": "<p>The sound loses weight after the first broad span, making room for a later renewal. Treat this as a textural and dynamic contrast within the continuous excerpt, not as an independently verified cadence or a change to a named key.</p>",
+      "how": "<p>The sound loses weight after the first broad span, making room for a later renewal. The contrast lies in changing weight and texture while the excerpt continues.</p>",
       "devices": [
         "decrescendo",
         "texture change"
@@ -201,14 +201,14 @@ export default {
         230,
         252
       ],
-      "how": "<p>The late strong span gives way to the excerpt’s closing gestures and their decay. The source establishes a self-contained orchestral record but not its arranger; a particular operatic bar or concert-ending cadence is therefore not assigned to this boundary.</p>",
+      "how": "<p>The late strong span gives way to the excerpt’s closing gestures and their decay.</p>",
       "devices": [
         "texture change",
         "decrescendo"
       ],
       "basis": "audio-feature",
       "precision": "passage",
-      "evidence": "Analysis boundary 4:00, relatively strong windows through 4:05, then falling level and near-silence by 4:15."
+      "evidence": "Analysis boundary 4:00, relatively strong windows through 4:05, then falling level and near-silence by 4:15. The source establishes a self-contained orchestral record but not its arranger; a particular operatic bar or concert-ending cadence is not assigned to this boundary."
     }
   ]
 };

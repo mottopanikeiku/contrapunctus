@@ -1,0 +1,169 @@
+{
+  "id": "schumann-kinderszenen-happiness",
+  "work": {
+    "title": "Kinderszenen",
+    "catalogue": "Op. 15",
+    "movement": "No. 5 · Glückes genug — Happy Enough",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons-data",
+        "album"
+      ],
+      "note": "The sources do not say which printed edition Donald Betts played from. Schumann’s Kinderszenen exist in a pre-publication printing, the 1839 first edition and its revised second issue, and Clara Schumann’s later edition; the recording is not matched to any of them here."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Donald Betts",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons-data",
+      "album"
+    ],
+    "note": "The Commons description says only “see Musopen for performance author information”. The embedded Artist and Album Artist tags of the file name Donald Betts; the album page lists him as the pianist of Schumann’s Scenes from Childhood on the album The Inner Voice."
+  },
+  "session": {
+    "date": {
+      "value": "2005-05",
+      "status": "inferred",
+      "sourceIds": [
+        "album",
+        "commons-data"
+      ],
+      "note": "The album page gives “Recorded May 2005” for the album The Inner Voice, which contains all thirteen Kinderszenen. The link from this Commons file to that album rests on its embedded tags (Album: The Inner Voice; Artist: Donald Betts; track number 5); the file itself records no session date. The Commons upload date (22 January 2008) is not a session date.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Janet Wallace Concert Hall, Macalester College, St Paul, Minnesota, USA",
+      "status": "inferred",
+      "sourceIds": [
+        "album",
+        "commons-data"
+      ],
+      "note": "Stated on the album page for the album as a whole; the file-to-album link is by embedded tags, as for the date."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "album"
+      ],
+      "note": "The album page carries a copyright line in Donald Betts’s name and names no record label. The Commons file comes from Musopen, a free-music site, not from a commercial carrier."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "album"
+      ],
+      "note": "No catalogue number is given for the album or for this track."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "album"
+      ],
+      "note": "No matrix, take or side identification is supplied; this is not a claim that such identifiers cannot exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Recording and mastering: Russ Borud. Editing and design: Paul Cantrell. Production assistance: Jane C. Betts.",
+      "status": "documented",
+      "sourceIds": [
+        "album"
+      ],
+      "note": "These are the album’s production credits. They are not credits for the Musopen or Commons upload, which names no transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is identified. The Commons upload (22 January 2008, user Raul654) is not treated as a transfer date."
+    },
+    "processing": {
+      "value": "Stereo Ogg Vorbis, 44.1 kHz, nominal 192 kbps; Commons supplies an MP3 derivative for streaming.",
+      "status": "documented",
+      "sourceIds": [
+        "commons-data"
+      ],
+      "note": "The embedded encoder tag reads Xiph.Org libVorbis I 20050304. The editing history between the session and the upload is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_v._happiness.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_v._happiness.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "commons-data",
+      "album"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 89.94
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain composition, as asserted by Commons (PD-old-100).",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "composer"
+      ],
+      "note": "Schumann died in 1856. This covers the music only; it does not license a recording or a modern edition."
+    },
+    "recording": {
+      "value": "Public domain: the Commons page releases the recording under PD-author, attributed to Musopen, with a Wikimedia volunteer-response permission ticket (2008012110017088).",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is an explicit recording release recorded on Commons, not an independent worldwide clearance. The album’s own page carries “Copyright © 2005 Donald Betts” and states no licence; the reviewed records do not show how the Musopen release relates to that notice. Musopen’s performer page could not be opened (HTTP 403)."
+    },
+    "creditLine": "Robert Schumann, Kinderszenen, Op. 15, No. 5, Glückes genug; Donald Betts, piano, from the album The Inner Voice (recorded May 2005, Janet Wallace Concert Hall, Macalester College, per the album page). Musopen, via Wikimedia Commons; public domain per Commons.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_v._happiness.ogg"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Robert Schumann - scenes from childhood, op. 15 - v. happiness.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_v._happiness.ogg",
+      "locator": "File-description wikitext (page revision of 2026-08-20T01:58:14Z): Information template (description, source musopen.com, author line), licence line “Music: PD-old-100; Recording: PD-author, Musopen”, PermissionTicket 2008012110017088; file-history upload of 22 January 2008.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-data",
+      "title": "Wikimedia Commons — embedded and structured file metadata",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3ARobert+Schumann+-+scenes+from+childhood%2C+op.+15+-+v.+happiness.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&redirects=1",
+      "locator": "videoinfo: length 89.94 s, Ogg Vorbis, stereo, 44.1 kHz; embedded comments Title “Scenes from Childhood, Op. 15 - V. Happy Enough”, Album “The Inner Voice”, Album Artist and Artist “Donald Betts”, Composer “Robert Schumann”, TRACKNUMBER 5.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "album",
+      "title": "The Inner Voice — Donald Betts (innig.net album page)",
+      "url": "https://innig.net/music/albums/betts-innervoice/",
+      "locator": "Album credits: “Recorded May 2005 at Janet Wallace Concert Hall, Macalester College, St. Paul, Minnesota”; Piano Donald Betts; Recording and mastering Russ Borud; Editing and design Paul Cantrell; Production assistance Jane C. Betts; Copyright © 2005 Donald Betts. Track list begins with Scenes from Childhood.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "Robert Schumann — biographical dates",
+      "url": "https://en.wikipedia.org/wiki/Robert_Schumann",
+      "locator": "Lead paragraph: composer’s death, 29 July 1856.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

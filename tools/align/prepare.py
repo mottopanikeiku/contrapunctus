@@ -24,7 +24,7 @@ def definitions(cfg, directory):
         # Keep relative includes relative to the file containing the definitions.
         parent = inside(directory, entry['file']).parent
         text = re.sub(r'\\include\s+"([^"]+)"',
-                      lambda m: '\\include "' + str(parent / m[1]) + '"', text)
+                      lambda m: '\\include "' + str(parent / m[1]) + '"' if (parent / m[1]).is_file() else m[0], text)
         chunks.append(text)
     return '\n'.join(chunks)
 
@@ -92,6 +92,16 @@ def prepare(cfg, lilypond=LILYPOND):
                     words.text = ' = '.join(units)
                     direction.insert(list(direction).index(metronome), words)
                     direction.remove(metronome)
+        if source.get('otherDynamicsWords'):
+            for direction in xml.findall('.//direction-type'):
+                for dynamics in direction.findall('dynamics'):
+                    for other in dynamics.findall('other-dynamics'):
+                        words = ET.Element('words')
+                        words.text = other.text
+                        direction.insert(list(direction).index(dynamics), words)
+                        dynamics.remove(other)
+                    if not len(dynamics):
+                        direction.remove(dynamics)
         implicit = {str(n) for n in source.get('musicxmlImplicitMeasures', [])}
         for measure in xml.findall('.//measure'):
             if measure.get('number') in implicit:

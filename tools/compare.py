@@ -83,6 +83,8 @@ def main():
     json.dump({
         'method': 'chroma CENS + DTW (librosa), resampled every 0.5 s of A; automatic, provisional',
         'transposeB': transpose,
+        'trimA': list(trims['--trim-a']) if '--trim-a' in trims else None,
+        'trimB': list(trims['--trim-b']) if '--trim-b' in trims else None,
         'durationA': round(durA, 2), 'durationB': round(durB, 2),
         'map': [[round(t + off_a, 2), round(b + off_b, 2)] for t, b in zip(grid, mb)],
         'ratio': [round(float(r), 3) for r in ratio],

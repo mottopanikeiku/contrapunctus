@@ -67,12 +67,12 @@
       "note": ""
     },
     "matrixTakeSides": {
-      "value": "022110; first movement, side 1 of 2",
+      "value": "First movement, side 1 of 2; matrix and take not established",
       "status": "documented",
       "sourceIds": [
         "source"
       ],
-      "note": ""
+      "note": "022110 occurs in the source filename, but has not been independently established as a matrix number. The side scope is documented by the two supplied source files."
     }
   },
   "transfer": {
@@ -111,7 +111,7 @@
   },
   "rights": {
     "composition": {
-      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "value": "The underlying composition is public domain where the ordinary life-plus-70 term has expired.",
       "status": "inferred",
       "sourceIds": [
         "source"
@@ -140,9 +140,9 @@
     },
     {
       "id": "term",
-      "title": "EU Directive2011/77 — transitional term provisions",
+      "title": "EU Directive 2011/77 — transitional term provisions",
       "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
-      "locator": "Article1, amendments to Directive2006/116 Article10: recordings still protected on30October2011. A pre1963 publication whose former50-year term expired is not revived.",
+      "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected under the former rules as at 1 November 2013. An expired pre-1963 publication term is not revived.",
       "accessed": "2026-10-17"
     }
   ],

@@ -1,0 +1,188 @@
+{
+  "id": "mozart-40-finale",
+  "work": {
+    "title": "Symphony No. 40 in G minor",
+    "catalogue": "K. 550",
+    "movement": "IV. Finale: Allegro assai",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording documentation does not identify the original scoring or the revision with clarinets, nor a performing edition. The orchestra guide uses only shared instrumental families."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Musopen Symphony",
+        "role": "orchestra, as named on Commons"
+      }
+    ],
+    "status": "disputed",
+    "sourceIds": [
+      "commons",
+      "upstream"
+    ],
+    "note": "Commons names Musopen Symphony; the upstream FLAC entry names Czech National Symphony Orchestra. A relationship between project credit and ensemble name is possible but not documented. No conductor is supplied.",
+    "alternatives": [
+      {
+        "value": [
+          {
+            "name": "Musopen Symphony",
+            "role": "orchestra"
+          }
+        ],
+        "sourceIds": [
+          "commons"
+        ]
+      },
+      {
+        "value": [
+          {
+            "name": "Czech National Symphony Orchestra",
+            "role": "orchestra"
+          }
+        ],
+        "sourceIds": [
+          "upstream"
+        ]
+      }
+    ]
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "2012 is the release/project date. A separate recording-session date is not established.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "Neither the Commons description nor the upstream collection identifies a recording venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Musopen — digital Kickstarter project",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "Publisher/project credit, not an identified physical record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "upstream"
+      ],
+      "note": "No carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The digital distribution does not establish any matrix, take or earlier physical carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "No recording or transfer engineer is identified; the uploader is not assumed to be the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "Upload dates are not transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "upstream"
+      ],
+      "note": "The source is a FLAC file and the selected stream is its Wikimedia MP3 derivative. Restoration, equalisation and original capture settings are not established from the documentation consulted."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_IV._Finale._Allegro_assai_%28Musopen_Symphony%29.flac/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_IV._Finale._Allegro_assai_%28Musopen_Symphony%29.flac.mp3",
+    "sourceChain": [
+      "upstream",
+      "commons"
+    ],
+    "format": "MP3 access derivative of a Wikimedia Commons FLAC master",
+    "durationSeconds": 284.73827083333333
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons separates the expired composition copyright from the recording dedication; Mozart died in 1791."
+    },
+    "recording": {
+      "value": "Rule 1 — explicit PD-author public-domain dedication of the recording by Musopen",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons explicitly applies the Musopen release to the sound recording. The Public Domain Mark is descriptive; it is not treated as an independent licence or as proof derived from the composition’s age."
+    },
+    "creditLine": "Musopen Symphony (Commons credit); Czech National Symphony Orchestra (upstream credit; attribution unresolved). Musopen Kickstarter Project, via Internet Archive and Wikimedia Commons. Public-domain dedication attributed to Musopen.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Mozart - Symphony No. 40 in G minor, K550 - IV. Finale. Allegro assai (Musopen Symphony).flac",
+      "url": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_IV._Finale._Allegro_assai_(Musopen_Symphony).flac",
+      "locator": "Summary, source credit and separate recording PD-author dedication; duration and MP3 derivative in file metadata.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "upstream",
+      "title": "Internet Archive: Musopen Collection as FLAC",
+      "url": "https://archive.org/metadata/MusopenCollectionAsFlac",
+      "locator": "File Mozart_SymphonyNo.40inGMinor/WolfgangAmadeusMozart-SymphonyNo.40InGMinorK.550-04-AllegroAssai.flac; artist and album fields; collection description.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Mozarts Werke, Serie VIII, Symphony No. 40 (Breitkopf & Härtel, 1880)",
+      "url": "https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)",
+      "locator": "Plate W.A.M. 550. Both orchestral versions printed together; movement 4.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

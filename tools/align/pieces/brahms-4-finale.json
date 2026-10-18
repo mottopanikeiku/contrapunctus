@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "id": "brahms-4-finale",
+  "source": {
+    "title": "Symphony No. 4, Op. 98 — IV. Allegro energico e passionato — ",
+    "edition": "IMSLP #466339",
+    "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from the derivative",
+    "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.4%2C_Op.98/4/Brahms_Op.98_4.mxl",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+    "main": "Brahms_Op.98_4.ly",
+    "musicxml": "Brahms_Op.98_4.mxl",
+    "stripLyrics": true,
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Brahms%2C_Johannes/Symphony_No.4%2C_Op.98/4/Brahms_Op.98_4.mxl",
+        "file": "Brahms_Op.98_4.mxl",
+        "sha256": "6a293d53c12b84f5436a211a1d14280c290597a42b8676e3f5cdc61dfb201406"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "Brahms_Op.98_4.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n\\new Staff = \"P16\" << \\new Voice { \\PartPOneSixVoiceOne } >>\n\\new Staff = \"P17\" << \\new Voice { \\PartPOneSevenVoiceOne } >>\n\\new Staff = \"P18\" << \\new Voice { \\PartPOneEightVoiceOne } >>\n\\new Staff = \"P19\" << \\new Voice { \\PartPOneNineVoiceOne } >>\n\\new Staff = \"P20\" << \\new Voice { \\PartPTwoZeroVoiceOne } >>\n\\new Staff = \"P21\" << \\new Voice { \\PartPTwoOneVoiceOne } >>\n\\new Staff = \"P22\" << \\new Voice { \\PartPTwoTwoVoiceOne } >>\n\\new Staff = \"P23\" << \\new Voice { \\PartPTwoThreeVoiceOne } \\new Voice { \\PartPTwoThreeVoiceTwo } >>\n\\new Staff = \"P24\" << \\new Voice { \\PartPTwoFourVoiceOne } >>\n>>"
+  },
+  "voices": [
+    {
+      "id": "flutes",
+      "name": "Flutes",
+      "tracks": [
+        "P1:",
+        "P2:"
+      ]
+    },
+    {
+      "id": "oboes",
+      "name": "Oboes",
+      "tracks": [
+        "P3:",
+        "P4:"
+      ]
+    },
+    {
+      "id": "clarinets",
+      "name": "Clarinets",
+      "tracks": [
+        "P5:",
+        "P6:"
+      ]
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        "P7:",
+        "P8:"
+      ]
+    },
+    {
+      "id": "contrabassoon",
+      "name": "Contrabassoon",
+      "tracks": [
+        "P9:"
+      ]
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "tracks": [
+        "P10:",
+        "P11:",
+        "P12:",
+        "P13:"
+      ]
+    },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": [
+        "P14:",
+        "P15:"
+      ]
+    },
+    {
+      "id": "trombones",
+      "name": "Trombones",
+      "tracks": [
+        "P16:",
+        "P17:",
+        "P18:"
+      ]
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        "P19:"
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        "P20:"
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        "P21:"
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        "P22:"
+      ]
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        "P23:"
+      ]
+    },
+    {
+      "id": "basses",
+      "name": "Double basses",
+      "tracks": [
+        "P24:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 311,
+    "quarters": 3.0,
+    "overrides": {
+      "97": 6.0,
+      "98": 6.0,
+      "99": 6.0,
+      "100": 6.0,
+      "101": 6.0,
+      "102": 6.0,
+      "103": 6.0,
+      "104": 6.0,
+      "105": 6.0,
+      "106": 6.0,
+      "107": 6.0,
+      "108": 6.0,
+      "109": 6.0,
+      "110": 6.0,
+      "111": 6.0,
+      "112": 6.0,
+      "113": 6.0,
+      "114": 6.0,
+      "115": 6.0,
+      "116": 6.0,
+      "117": 6.0,
+      "118": 6.0,
+      "119": 6.0,
+      "120": 6.0,
+      "121": 6.0,
+      "122": 6.0,
+      "123": 6.0,
+      "124": 6.0,
+      "125": 6.0,
+      "126": 6.0,
+      "127": 6.0,
+      "128": 6.0
+    },
+    "order": [
+      [
+        1,
+        311
+      ]
+    ],
+    "description": "Encoded bars 1–311 once; source-defined staves grouped only by orchestral section. No synthetic instrumental parts are added."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      655.7,
+      665.7
+    ],
+    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not listening annotations."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 12,
+    "width": 310,
+    "height": 440
+  },
+  "provenance": [
+    "Original CC0 orchestral MusicXML retained byte-for-byte; only separately licensed analytical lyric nodes are omitted before conversion.",
+    "Sounding-pitch changes declared by MusicXML are performed by LilyPond; no blanket woodwind, brass or double-bass octave correction is applied.",
+    "Custom MIDI score bypasses musicxml2ly articulate playback so durations describe written notation."
+  ]
+}

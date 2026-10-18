@@ -1,0 +1,53 @@
+{
+  "id": "chopin-nocturne-op9-2-elman",
+  "work": {
+    "title": "Nocturne in E♭ major",
+    "catalogue": "Op. 9 No. 2",
+    "movement": "Violin and piano transcription",
+    "version": { "value": "Sarasate arrangement attributed by the catalogue discography", "status": "documented", "sourceIds": ["dahr-1906", "dahr-1910"], "note": "Both candidate matrices name Sarasate; the exact performing edition and transferred master remain unestablished." }
+  },
+  "performers": { "value": [{ "name": "Mischa Elman", "role": "violin" }], "status": "documented", "sourceIds": ["commons", "i78s", "dahr-catalogue"], "note": "Pianist unresolved. Commons and i78s credit Percy B. Kahn; DAHR assigns Kahn to C-8813 takes 1–2 and Walter Golde to takes 3–6, but the file’s master is not known." },
+  "session": {
+    "date": { "value": null, "status": "disputed", "sourceIds": ["commons", "dahr-1906", "dahr-1910", "dahr-catalogue"], "note": "Commons gives circa 1906; 9 April 1910 is not established for this file. Victor 74052 also covered a 1906 Gramophone master and a questionable 1915 remake issue.", "precision": null, "alternatives": [
+      { "value": "Circa 1906 (Commons); approximately August 1906 for Gramophone 727c (DAHR)", "sourceIds": ["commons", "dahr-1906"] },
+      { "value": "9 April 1910, C-8813 take 2", "sourceIds": ["dahr-1910"] },
+      { "value": "30 December 1915, C-8813 take 6; issue questionable", "sourceIds": ["dahr-1910"] }
+    ] },
+    "place": { "value": null, "status": "unknown", "sourceIds": ["dahr-1906", "dahr-1910"], "note": "Candidate sessions were in London, New York and Camden; none is assigned to this transfer without master identification." }
+  },
+  "carrier": {
+    "label": { "value": "Victor Red Seal", "status": "documented", "sourceIds": ["commons", "i78s"], "note": "" },
+    "catalogue": { "value": "74052; 12-inch single-sided disc", "status": "documented", "sourceIds": ["commons", "i78s", "dahr-catalogue"], "note": "" },
+    "matrixTakeSides": { "value": null, "status": "disputed", "sourceIds": ["dahr-1906", "dahr-1910", "dahr-catalogue"], "note": "The catalogue number alone cannot distinguish Gramophone 727c [take 1] from Victor C-8813 take 2; DAHR also lists take 6 but calls that issue questionable. No matrix or take is invented for the streamed copy.", "alternatives": [
+      { "value": "Gramophone 727c, take [1]", "sourceIds": ["dahr-1906"] },
+      { "value": "Victor C-8813, take 2", "sourceIds": ["dahr-1910"] },
+      { "value": "Victor C-8813, take 6 (questionable issue)", "sourceIds": ["dahr-1910"] }
+    ] }
+  },
+  "transfer": {
+    "credits": { "value": null, "status": "unknown", "sourceIds": ["commons", "i78s"], "note": "i78s is the source repository, not an identified transfer engineer." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons", "i78s"], "note": "No transfer date is given; the 2022 Commons upload is not a session date." },
+    "processing": { "value": null, "status": "unknown", "sourceIds": ["commons", "i78s"], "note": "No equalisation, restoration or speed correction is documented. Analysis-only chroma transposition does not change playback audio." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mischa_Elman_-_Nocturne_in_E_flat_major%2C_Op_9_No_2.mp3",
+    "sourceChain": ["commons", "i78s"],
+    "format": "Original MP3 supplied through Wikimedia Commons; historic disc transfer",
+    "durationSeconds": 260.136
+  },
+  "rights": {
+    "composition": { "value": "Historical Chopin composition; Sarasate arrangement identified by DAHR.", "status": "documented", "sourceIds": ["commons", "dahr-1906", "dahr-1910"], "note": "Composition and arrangement rights are separate from the recording-specific publication basis." },
+    "recording": { "value": "US public domain: sound recording published before 1 January 1926.", "status": "documented", "sourceIds": ["commons", "dahr-catalogue"], "note": "Rule 2. Commons explicitly applies PD-US-record-expired to this sound recording, not a composition-only tag. DAHR documents pre-1926 issued masters attached to Victor 74052. The exact session remains unresolved; neither a new 1912 publication date nor a specific take is asserted." },
+    "creditLine": "Frédéric Chopin, Nocturne Op. 9 No. 2, violin-and-piano transcription attributed to Sarasate; Mischa Elman, violin, pianist unresolved. Victor 74052; source i78s via Wikimedia Commons. Session and take disputed; Commons states US public-domain sound recording.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-record-expired"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — Elman Nocturne", "url": "https://commons.wikimedia.org/wiki/File:Mischa_Elman_-_Nocturne_in_E_flat_major,_Op_9_No_2.mp3", "locator": "Performance date circa 1906; Kahn attribution; Victor 74052; recording-specific PD-US-record-expired.", "accessed": "2026-10-17" },
+    { "id": "i78s", "title": "i78s — Victor Red Seal 74052", "url": "https://i78s.org/preview/f6622bbe6f922d36995a0580b99019bb", "locator": "Source repository, Elman/Kahn attribution and 12-inch single-sided issue; no take supplied.", "accessed": "2026-10-17" },
+    { "id": "dahr-catalogue", "title": "DAHR — Victor 74052", "url": "https://adp.library.ucsb.edu/index.php/objects/refer/47059", "locator": "Three matrix/take entries under one catalogue number; 1906, 1910 and 1915.", "accessed": "2026-10-17" },
+    { "id": "dahr-1910", "title": "DAHR — Victor C-8813", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200008912", "locator": "9 April 1910 take 2, Kahn; 30 December 1915 take 6, Golde, issue questionable; Sarasate arranger.", "accessed": "2026-10-17" },
+    { "id": "dahr-1906", "title": "DAHR — Gramophone 727c", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/1000003314", "locator": "Approximately August 1906, London; take [1]; Victor 74052; Sarasate arranger; pianist not named.", "accessed": "2026-10-17" },
+    { "id": "work", "title": "Nocturnes, Op. 9 — composition and texture", "url": "https://en.wikipedia.org/wiki/Nocturnes,_Op._9_(Chopin)", "locator": "1831–32; piano original, ornamented melody and accompaniment.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

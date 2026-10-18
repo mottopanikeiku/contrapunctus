@@ -8,6 +8,7 @@ export default {
   order: 1,
   work: 'Scheherazade, Op. 35',
   movement: 'III. The Young Prince and the Young Princess',
+  set: { id: 'rimsky-scheherazade', title: 'Scheherazade, Op. 35', part: 3, of: 4 },
   year: '1888',
   key: 'G major',
   forces: 'Orchestra with solo violin',

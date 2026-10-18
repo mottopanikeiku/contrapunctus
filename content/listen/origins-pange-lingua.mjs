@@ -1,0 +1,15 @@
+export default {
+  id: 'origins-pange-lingua',
+  composer: 'origins-gregorian',
+  order: 1,
+  work: 'Pange lingua gloriosi corporis mysterium',
+  movement: 'Traditional plainchant hymn',
+  year: 'Medieval melody; exact date unknown',
+  key: 'Mode III',
+  forces: 'Unaccompanied solo voice',
+  performers: 'Gareth Hughes, voice',
+  recorded: '14 March 2005',
+  source: { file: 'File:Pange Lingua Latin in Latin.ogg' },
+  intro: 'A single voice carries the melody without a harmonic accompaniment. Listen for the recurring shape of the chant as successive stanzas give it new words.',
+  question: 'How does a single melodic line mark a phrase ending without a chord?',
+};

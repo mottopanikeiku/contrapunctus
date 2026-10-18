@@ -1,0 +1,172 @@
+{
+  "id": "beethoven-5-scherzo",
+  "work": {
+    "title": "Symphony No. 5 in C minor",
+    "catalogue": "Op. 67",
+    "movement": "III. Allegro",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source does not identify its performing edition. The public-domain Breitkopf score is used for musical commentary, not asserted to be the players’ edition."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Skidmore College orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "Named in Commons’ separate recording-rights statement. No conductor or individual players are identified."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The date 22 December 1808 concerns the premiere of the composition, not the recording; 30 October 2007 is the original upload date. No recording date is established.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No session venue is documented. The ensemble’s institutional location does not establish where this performance was recorded."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original recording label is identified; Musopen is the credited online source, not an established original record label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No carrier catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side numbers are supplied; the original recording medium is not established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Raul654 is the original Commons uploader; no original transfer or mastering engineer is established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original transfer date is supplied; upload and MP3 transcoding dates are not session or transfer dates."
+    },
+    "processing": {
+      "value": "Uploaded Ogg Vorbis; Wikimedia supplies an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "Embedded encoder: Lavf55.19.104. Commons’ 30 October 2014 upload comment documents removing finale material that had been incorrectly included after movement III. The separately hosted finale is retained as its own track; no new splice is made here."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_iii._allegro.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_iii._allegro.ogg.mp3",
+    "sourceChain": [
+      "commons",
+      "musopen"
+    ],
+    "format": "MP3 access derivative; uploaded source: Ogg Vorbis",
+    "durationSeconds": 336.0
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons identifies Beethoven’s composition as public domain (PD-old-100).",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composition’s status is separate from the rights in this orchestral performance."
+    },
+    "recording": {
+      "value": "Commons records a public-domain dedication by Skidmore College orchestra, with unrestricted fallback permission.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "commons-data"
+      ],
+      "note": "Programme rule 1: the page’s Recording subsection applies PD-author to the performance, not merely PD-old-100 to the composition. The public VRT notice records permission ticket 2008012110017088. Its private correspondence has not been inspected. An attribution-only tag and Musopen’s request for in-line URL credit are also retained."
+    },
+    "creditLine": "Ludwig van Beethoven, Symphony No. 5, Op. 67, III. Allegro; Skidmore College orchestra. Source: Musopen (https://musopen.org/) via Wikimedia Commons. Public-domain dedication by the performer; attribution retained.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_iii._allegro.ogg#Licensing"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Symphony No. 5, III. Allegro",
+      "url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_iii._allegro.ogg?oldid=1053117032",
+      "locator": "Summary, Recording subsection of Licensing, file history, and Transcode status. The 2014 file-history comment documents correction of the movement boundary.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "commons-data",
+      "title": "Commons — embedded and structured metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_iii._allegro.ogg#structureddata",
+      "locator": "Encoder, recording rights, and (where supplied) duration and VRT ticket. Structured data is not independent confirmation of the file description.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "musopen",
+      "title": "Musopen — upstream page named by Commons",
+      "url": "https://musopen.org/music/113/ludwig-van-beethoven/symphony-no-5-in-cm-op-67/",
+      "locator": "Linked in Commons’ recording-rights statement; direct access returned HTTP 403. No further session metadata is claimed from this unavailable page.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Beethoven, Symphony No. 5, full score, Breitkopf & Härtel, plate B.5",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/0/0c/IMSLP52624-PMLP01586-Beethoven_Werke_Breitkopf_Serie_1_No_5_Op_67.pdf",
+      "locator": "Printed pp. 37–51: Allegro, trio, altered return and link to finale.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eastman",
+      "title": "Eastman School of Music — Beethoven Symphony Basics, Symphony No. 5",
+      "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+      "locator": "Composition history, dedication, instrumentation and movement structure. The illustrated video’s timings are not used for this recording.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "bach-brandenburg-5-finale",
+  "source": {
+    "mutopia": 548,
+    "title": "Brandenburg Concerto No. 5 in D major, BWV 1050 — III. Allegro",
+    "edition": "Bach-Gesellschaft",
+    "encoder": "Joshua Koo; LilyPond 2.18 update and A–B–A corrections by Joram Berger",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=548",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "brand5-3-lys/score.ly",
+    "midi": "score.mid",
+    "downloads": [
+      { "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1050/brand5-3/brand5-3-lys.zip", "file": "brand5-3-lys.zip", "sha256": "7112a5479b892f8f24a7b9ff3e66228a9633770cf58b5a9fb2c535140789ffc0" },
+      { "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1050/brand5-3/brand5-3-mids.zip", "file": "brand5-3-mids.zip", "sha256": "c58511d380295eccb820465cc3d64278f93e214920b1cde03ce074a55946fceb" }
+    ]
+  },
+  "extraction": {
+    "mode": "isolated-voices",
+    "definitions": [{ "file": "brand5-3-lys/score.ly", "before": "\\score" }],
+    "staves": ["flute", "violinP", "violin", "viola", "cello", "violone", "harpsichordUp", "harpsichordDown"],
+    "global": "\\time 2/4",
+    "silent": "s2*310",
+    "comparePublished": {}
+  },
+  "voices": [
+    { "id": "flute", "name": "Flute", "music": "\\flute", "staff": "flute" },
+    { "id": "solo-violin", "name": "Solo violin", "music": "\\violinP", "staff": "violinP" },
+    { "id": "ripieno-violin", "name": "Ripieno violin", "music": "\\violin", "staff": "violin" },
+    { "id": "viola", "name": "Viola", "music": "\\viola", "staff": "viola" },
+    { "id": "cello", "name": "Cello", "music": "\\cello", "staff": "cello" },
+    { "id": "violone", "name": "Violone", "music": "\\violone", "staff": "violone" },
+    { "id": "harpsichord-treble", "name": "Harpsichord · treble-source part", "music": "\\harpsichordTreble", "staff": "harpsichordUp" },
+    { "id": "harpsichord-bass", "name": "Harpsichord · bass-source part", "music": "\\harpsichordBass", "staff": "harpsichordDown" }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 310,
+    "quarters": 2,
+    "order": [[1, 310]],
+    "description": "Complete movement III, 310 engraved 2/4 bars in written order. The source’s repeat unfold constructs already write out the A–B–A return, with staggered staff-rest prefixes and alternatives; no additional repeat traversal is applied. The opening rests stay within bar 1, not an invented pickup."
+  },
+  "endpoints": {
+    "first": [0, 3],
+    "last": [290, 296],
+    "basis": "Initial source-pitch search windows from the cached 297.025-second recording and analysis: first solo-violin A4 after 0.75 quarter units of written rests; final D-major sonority. Inspect fresh pitch-energy evidence before publication."
+  },
+  "diagnostics": {
+    "held": { "voice": 5, "onsets": [57, 394, 432] },
+    "overlays": [[25, 40], [180, 210], [215, 235], [288, 297]]
+  },
+  "boundaries": [],
+  "engraving": { "staff": 16, "width": 260, "height": 340 },
+  "provenance": [
+    "Only Mutopia 548’s complete movement-III score.ly and score.mid correspond to this recording. Individual practice-part MIDIs and movements I or II are not substituted.",
+    "The source names flute, principal violin, ripieno violin, viola, cello, violone and the two harpsichord source variables. Isolated compilation preserves harpsichord cross-staff ownership; labels follow source definitions rather than anonymous MIDI track names or General MIDI patches. Aggregate source pitch/onset identity is asserted against score.mid before any explicit sounding-pitch correction.",
+    "Joram Berger’s source-header note identifies the 2015 A–B–A refactoring and correction of discrepant returning notes. Source unfold repeats already generate 620 quarter units, so the 310-bar canonical timeline is used once.",
+    "The Violone source uses an ordinary bass clef and no transposition, with the same initial written F♯2 as cello. The contrabass MIDI patch does not establish the Advent recording’s 8-foot or 16-foot realisation. Its sounding octave remains to be substantiated from independent low-frequency pitch evidence before publication; no patch-derived octave correction is assumed.",
+    "Figured-bass symbols are retained in the engraving but are not converted into invented continuo notes. Written trill indications, chord holds and source durations are not a transcription of performed ornament attacks or releases."
+  ]
+}

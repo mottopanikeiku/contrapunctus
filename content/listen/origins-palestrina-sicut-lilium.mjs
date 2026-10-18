@@ -1,0 +1,15 @@
+export default {
+  id: 'origins-palestrina-sicut-lilium',
+  composer: 'origins-palestrina',
+  order: 1,
+  work: 'Sicut lilium inter spinas',
+  movement: 'Motet',
+  year: '',
+  key: '',
+  forces: 'Unaccompanied vocal ensemble',
+  performers: 'The Tudor Consort; Michael Stewart, director',
+  recorded: 'Live; exact date unestablished',
+  source: { file: 'File:The Tudor Consort - 01 - Palestrina - Sicut lilium inter spinas.ogg' },
+  intro: 'The Tudor Consort sings the motet rather than the Mass which shares its title. Listen for the way separate vocal lines keep a phrase moving when another part reaches a resting point.',
+  question: 'How does overlapping vocal writing keep the music moving through a cadence?',
+};

@@ -1,6 +1,6 @@
 // Performer comparisons: static, portrait-free listening desks and per-page alignment data.
 // Map coordinates are absolute recording seconds, including offsets from compare.py trims.
-import { readdir, readFile, unlink } from 'node:fs/promises';
+import { readdir, readFile, writeFile, unlink } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 
@@ -86,15 +86,20 @@ function tempoChart(recordings, duration, passages, esc) {
   return `<svg class="cmp-tempo-svg" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="cmp-tempo-title cmp-tempo-desc"><title id="cmp-tempo-title">Local time ratio against the reference recording</title><desc id="cmp-tempo-desc">Each gold line follows a performer. Above one means that recording takes longer over the corresponding music. Numbered vertical lines identify the passages below.</desc>${grid.join('')}${markers}${lines}<line class="cmp-playhead" data-cmp-playhead x1="${left}" x2="${left}" y1="${top}" y2="${H - bottom}" visibility="hidden"/></svg>`;
 }
 
-export async function buildCompare({ out, layout, esc, attr, bySlug, ROOT, OUT }) {
+export async function buildCompare({ out, layout, esc, attr, bySlug, listens, held = [], ROOT, OUT }) {
   const dir = path.join(ROOT, 'content/compare');
   const files = (await readdir(dir).catch((error) => { if (error.code === 'ENOENT') return []; throw error; })).filter((file) => file.endsWith('.json')).sort();
   const programme = new Map((await json(path.join(OUT, 'assets/listen/programme.json'))).map((r) => [r.id, r]));
   const envelopes = new Map();
-  const comparisons = [];
+  const comparisons = [], heldComparisons = [];
+  const knownIds = new Set([...listens.map((r) => r.id), ...held]);
   linkIndex = {};
   for (const file of files) {
+    const review = await optionalJson(path.join(ROOT, 'content/plan/reviews', `compare-${path.basename(file, '.json')}.json`));
+    if (review?.verdict !== 'pass') { heldComparisons.push(path.basename(file, '.json')); continue; }
     const c = await json(path.join(dir, file));
+    for (const r of c.recordings ?? []) if (!knownIds.has(r.listen)) throw new Error(`compare/${c.id}: recording does not exist: ${r.listen}`);
+    if ((c.recordings ?? []).some((r) => !programme.has(r.listen))) { heldComparisons.push(c.id); continue; }
     if (!/^[a-z0-9][a-z0-9-]*$/.test(c.id) || `${c.id}.json` !== file) throw new Error(`compare/${file}: id must match filename`);
     if (c.recordings.length < 2 || !c.recordings.some((r) => r.listen === c.reference)) throw new Error(`compare/${c.id}: two recordings and a listed reference are required`);
     const recordings = [];
@@ -155,7 +160,9 @@ ${ornament}<section class="cmp-notes" aria-labelledby="cmp-notes-heading"><span 
   }).join('');
   const body = `<article class="cmp-page cmp-index"><header class="cmp-hero"><div class="wrap cmp-heading"><p class="crumbs"><a href="../hall.html">The concert hall</a><span aria-hidden="true"> / </span>The listening desk</p><span class="kicker">The art of interpretation</span><h1>One piece.<br><i>Different hands.</i></h1><p class="cmp-question">Hear what changes when the performer changes.</p><p class="cmp-index-intro">Set recordings beside one another, switch at the same musical moment, and follow the way each performance takes its time. Read the evidence; listen for yourself.</p><div class="cmp-index-facts"><span><b>${comparisons.length}</b> comparisons</span><span><b>${new Set(comparisons.flatMap(({ recordings }) => recordings.map((r) => r.listen))).size}</b> recordings</span>${years.length ? `<span><b>${Math.min(...years)}–${Math.max(...years)}</b> recording years</span>` : ''}</div><nav class="cmp-group-nav" aria-label="Comparison groups">${GROUPS.map(([id, title]) => `<a href="#${id}">${title}</a>`).join('')}</nav></div><div class="cmp-record-art" aria-hidden="true"><div><span>CONTRAPUNCTUS</span><i>Same music<br>another moment</i><b>78</b></div></div></header><div class="wrap cmp-content">${groups}${ornament}<section class="cmp-index-guide"><div><span class="kicker">A listening instrument</span><h2>One transport.<br>More than one reading.</h2></div><ol><li><b>Choose a performance.</b> Its recording plays through the Hall’s shared player.</li><li><b>Change the hands.</b> The alignment seeks the other recording to the corresponding phrase.</li><li><b>Keep the evidence in view.</b> Automatic chroma alignment is provisional and may be wrong across cuts. A duration is a measurement, not an explanation.</li></ol></section></div></article>`;
   await out('compare/index.html', page('index', 'Compare performers', 'Compare recordings of the same music at the same musical moment: composer-performers, a century of one piece, singers and Golden Age pianists.', body));
-  await out('assets/compare-index.json', JSON.stringify(linkIndex));
+  await writeFile(path.join(OUT, 'assets/compare-index.json'), JSON.stringify(linkIndex));
   const live = new Set(['index.html', ...comparisons.map(({ c }) => `${c.id}.html`)]);
   for (const file of await readdir(path.join(OUT, 'compare'))) if (file.endsWith('.html') && !live.has(file)) await unlink(path.join(OUT, 'compare', file));
+  console.log(`comparisons: ${comparisons.length} published, ${heldComparisons.length} held${heldComparisons.length ? ` (${heldComparisons.join(', ')})` : ''}`);
+  return comparisons.map(({ c, composer }) => ({ id: c.id, title: c.title, question: c.question, work: c.work, composer: composer.name }));
 }

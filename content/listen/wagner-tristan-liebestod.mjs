@@ -6,13 +6,18 @@ export default {
   "movement": "Liebestod — “Mild und leise”",
   "year": "1857–59",
   "key": "B major",
-  "forces": "Orchestra",
+  "forces": "Soprano and orchestra",
   "performers": "Nanny Larsen-Todsen, soprano; Bayreuth Festival Orchestra; Karl Elmendorff",
   "recorded": "1928",
   "source": {
     "archive": {
       "item": "nanny-larsen-todsen-preiser-lv-174-side-a",
       "file": "03 - Nanny LARSEN-TODSEN Preiser LV 174 Side A - Tristan und Isolde - Liebestod (Columbia L 2206, 1928).mp3"
+    },
+    "rights": {
+      "basis": "eu-published-before-1963",
+      "published": 1928,
+      "evidence": "The selected item's Preiser LV 174 sleeve identifies the original 1928 Columbia L 2206 issue, matrices AX 3986/87, with Larsen-Todsen, Bayreuth Festival Orchestra and Karl Elmendorff. Territorial EU basis; US status is not established. https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/Larsen-Todsen%20Preiser%20%282%29.JPG"
     }
   },
   "set": {
@@ -395,12 +400,14 @@ export default {
         "playing": [
           "flutes",
           "oboes",
+          "cor-anglais",
           "clarinets",
           "bass-clarinet",
           "bassoons",
           "horns",
           "trumpets",
           "trombones",
+          "timpani",
           "harp",
           "violins-1",
           "violins-2",
@@ -412,7 +419,7 @@ export default {
           "violins-1",
           "oboes"
         ],
-        "note": "Final orchestral cadence, p. 30. The voice has finished; quiet wind and string lines settle into the final chords."
+        "note": "Final orchestral cadence, p. 30. The voice has finished; quiet wind and string lines settle into the final chords. Cor anglais and timpani contribute within this closing region, not continuously throughout it."
       }
     ]
   }

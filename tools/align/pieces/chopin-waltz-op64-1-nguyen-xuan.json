@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "chopin-waltz-op64-1-nguyen-xuan",
+  "source": {
+    "mutopia": 483,
+    "title": "Waltz in D♭ major “Minute”, Op. 64 No. 1",
+    "edition": "Edition Peters",
+    "encoder": "Magnus Lewis-Smith",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "chopin_valse_op64_no1-lys/chopin_valse_op64_no1.ly",
+    "midi": "chopin_valse_op64_no1.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O64/chopin_valse_op64_no1/chopin_valse_op64_no1-lys.zip",
+        "file": "chopin_valse_op64_no1-lys.zip",
+        "sha256": "454db76ff64d7a9d55698df98fb3637f0c805ff66c276e041c84d87896e73f75"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O64/chopin_valse_op64_no1/chopin_valse_op64_no1.mid",
+        "file": "chopin_valse_op64_no1.mid",
+        "sha256": "62333ad9f9b22603d009734ab500330a12ac09aeca13d185ac0ba64a7fb9d206"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "timeline": "performed",
+    "expectedTracks": [
+      "control track",
+      "rh:",
+      "lh:"
+    ]
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 125,
+    "quarters": 3,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        36
+      ],
+      [
+        21,
+        35
+      ],
+      [
+        37,
+        125
+      ]
+    ],
+    "description": "Play bars 1–36, repeat 21–35, take second ending 37, then continue through 125. The central melody and final return are written out; the published MIDI already unfolds this exact repeat order."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      115,
+      118
+    ],
+    "basis": "Initial score-pitch search windows from cached analysis; inspect final-attack and worst-region overlays before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "Read content/listen/chopin-waltz-op64-1-nguyen-xuan.mjs and cache/analysis/chopin-waltz-op64-1-nguyen-xuan.txt; broad middle and return timings are compatible with the explicit source repeat. Their coarse boundaries are not independent bar annotations.",
+    "Source RH/LH MIDI tracks inspected; source sec2.ly contains the repeated bars 21–35 and alternate endings 36/37. Staves identify notation allocations, not independent contrapuntal voices.",
+    "The final bar includes a written rest after the last left-hand chord; MIDI sounding notes end at quarter 419 while the performed bar sequence extends to quarter 420."
+  ]
+}

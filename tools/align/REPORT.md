@@ -130,3 +130,46 @@ The inventory has no complete matching source for the remaining six Kinderszenen
 - **Evidence:** the listening module identifies two consecutive études, Op. 10 No. 5 followed by Op. 25 No. 9. Inventory source [Mutopia 926](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=926) covers only the first. Stretching that MIDI over the complete recording would be a gross score-order mismatch even if a nearest-onset median passed.
 - **Measurements:** no alignment run or timing median claimed. The single-work performance `chopin-etude-op10-5` is processed separately.
 
+## beethoven-131-lener — withheld before alignment
+
+- **Decision:** do not publish a one-movement or unsubstantiated seven-movement score map for the complete Léner Quartet recording.
+- **Recording scope (MEAS):** `content/listen/beethoven-131-lener.mjs` identifies movements I–VII in one file. `ffprobe` measured the cached MP3 at **2441.490 s**. No movement has been silently substituted for that complete recording.
+- **Source (EXT):** [Mutopia 594](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=594), Eulenburg 1911, encoded by Will Oram, CC BY-SA 2.5, supplies seven separate movement MIDIs. Direct MIDI inspection establishes **`quartet_o131.mid` = I**, then suffixes **`-1` through `-6` = II through VII**. The unsuffixed file is not the finale or the complete quartet.
+- **Blocking correspondence:** the recorded traversal of the variation/scherzo repeats and any historic side joins/cuts has not been substantiated. Independently, the current driver has no demonstrated movement-prefixed engraving/bar map for seven reset-numbered movements, pickups and alternative-ending bar resets. It can concatenate source definitions, but concatenation alone does not establish the performed order or unambiguous bar identity.
+- **Measurements:** source MIDI durations are **485 / 595.5 / 44 / approximately 1026 / 2000 / 84 / 1549 quarter units**, respectively; these are symbolic coordinates, not recorded movement boundaries. No alignment, timing median or aural review is claimed. This withholding is a correspondence/compound-map limitation, not absence of a complete symbolic source.
+
+## Config-driven baseline reproduction — 17 October 2026
+
+**MEAS decision:** the new driver regenerated and published all four original `score.json` files **byte-identically**. Every note identity, voice, performed-bar identity and metadata field is unchanged; maximum onset, duration and bar-time differences are **0.000 s**, not merely within the 1 ms numerical-equivalence tolerance. Per-piece `work/<id>-diff.json`, `work/<id>-checks.json` and published `results/<id>.json` retain the comparisons and source/config/audio hashes.
+
+Commands exercised:
+
+```sh
+node tools/score.mjs satie-gymnopedie-1 --publish
+node tools/score.mjs beethoven-5-first --publish
+node tools/score.mjs bach-wtc1-fugue-b-minor --publish
+node tools/score.mjs schubert-impromptu-gflat --publish
+```
+
+The initial Satie attempt correctly withheld on an overly strict incidental track-0 title expectation; the config now explicitly leaves only that title unspecified while asserting the source-bearing track identities. A tool-process interruption lost background command delivery after Satie completed and during Beethoven engraving. Satie’s persisted check report records `"published": true` and matching original/candidate hashes; the remaining commands were resumed with captured output in `work/<id>-driver.log`. No unfinished candidate was substituted for a publication.
+
+| Recording | Primary median (s) | Maximum first/middle/last deviation (s) | Maximum local eight-second median (s) | Bars / notes / voices | Diff |
+| --- | ---: | ---: | ---: | --- | --- |
+| Satie | 0.029311 | 0.066893 | 0.049105 | 78 / 455 / 4 | byte-identical |
+| Beethoven | 0.069122 | 0.036614 | 0.051950 | 626 / 10135 / 12 | byte-identical |
+| Bach | 0.023463 | 0.015957 | 0.046006 | 76 / 1808 / 4 | byte-identical |
+| Schubert | 0.119800 | 0.130272 | 0.089367 | 86 / 2730 / 5 | byte-identical |
+
+All reports have `gateReasons: []`, zero collapsed attack intervals and zero non-positive note durations. The Beethoven/Bach/Schubert captured commands each ended `EXIT 0`, printed `PUBLISHED <id> provisional; not checked by ear`, and reported `"byteIdentical": true` with all three `maximumAbsoluteDifferences` equal to zero. SHA-256 before = after:
+
+```text
+satie-gymnopedie-1         07c4061d8fa397c5705f8f3e1457aa89d6ed24a8e59b895efd8509405aeac88a
+beethoven-5-first          f2fb4fbfb67938b821049b67d1eb12d3f9cc3fbf025f932ae1bbab279b075715
+bach-wtc1-fugue-b-minor     85a4a99c39e538af74fa6fdfa050df70a398fca0f7a28525259da384b293f612
+schubert-impromptu-gflat    e25ff06d057b382b80bc66927bcd678669c5b519ffc9d87ea82f4517e5e559e5
+```
+
+Fresh final-candidate endpoint, middle and worst-region pitch-energy overlays were regenerated; their exact paths are in each check report. The old Beethoven endpoint-image discrepancy is not carried into the new report’s overlays. Engraving/packing output included **16 pages / 502 bars / 11,235 marked glyphs** for Beethoven, **4 / 76 / 2,048** for Bach and **7 / 86 / 2,869** for Schubert, with all aligned bars resolved. The driver uses configured sources and movement wrappers rather than an id-specific engraving table.
+
+**Unchanged limits:** provisional automatic alignment, not aural review. The high primary-detector Beethoven/Schubert P95 values above remain visible; no detector or threshold was loosened to obtain this reproduction. Historical commands earlier in this report describe the original run; `align.py --publish` has now been removed in favour of the single gated driver.
+

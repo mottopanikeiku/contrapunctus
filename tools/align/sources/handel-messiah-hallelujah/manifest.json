@@ -1,0 +1,24 @@
+{
+  "mutopia": 459,
+  "title": "Messiah, HWV 56 — Hallelujah",
+  "edition": "Unknown: the Mutopia catalogue does not identify a source edition",
+  "encoder": "Joshua Koo",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "hallelujah-lys/combined-score.ly",
+  "midi": "combined-score.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/hallelujah/hallelujah-lys.zip",
+      "file": "hallelujah-lys.zip",
+      "sha256": "bece0f8dc876fbddd006d177a66f243b7813d4074bed9f276b03d10b665730ab"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/hallelujah/hallelujah-mids.zip",
+      "file": "hallelujah-mids.zip",
+      "sha256": "74bf4f72e3c534d3cea991885106a829c0bb38e362f13432e24b85a7981277d3"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

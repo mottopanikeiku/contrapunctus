@@ -1,0 +1,37 @@
+{
+  "id": "leoncavallo-vesti-caruso-1907",
+  "work": { "title": "Pagliacci", "catalogue": "", "movement": "Recitar!… Vesti la giubba", "version": { "value": "Tenor with acoustic orchestral accompaniment; Italian", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "This is the original acoustic recording, not the later electrically re-orchestrated dubs which DAHR lists separately as CS-58966. Performing edition unknown." } },
+  "performers": { "value": [{ "name": "Enrico Caruso", "role": "tenor" }], "status": "documented", "sourceIds": ["archive", "dahr"], "note": "Orchestral accompaniment is documented, but no orchestra name, conductor or individual orchestral players are established by the cited sources." },
+  "session": {
+    "date": { "value": "17 March 1907", "status": "documented", "sourceIds": ["dahr"], "note": "Date of the original acoustic session, not of a later reissue or dub.", "precision": "day" },
+    "place": { "value": "New York, New York", "status": "documented", "sourceIds": ["dahr"], "note": "No studio address is asserted." }
+  },
+  "carrier": {
+    "label": { "value": "Victrola", "status": "documented", "sourceIds": ["archive"], "note": "The transferred label is identified in the IA metadata; the underlying master is Victor." },
+    "catalogue": { "value": "88061", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "The physical pressing date is unknown; 1907 identifies the original recording and issue history, not this copy’s manufacture." },
+    "matrixTakeSides": { "value": "Victor C-4317, take 1", "status": "inferred", "sourceIds": ["archive", "dahr"], "note": "DAHR identifies take 1 as the issued master for Victor 88061; take 2 was held. This identifies the master through the catalogue, not through inspection of a legible runout. IA’s matrix field repeats the catalogue number 88061 and is not accepted as the matrix." }
+  },
+  "transfer": {
+    "credits": { "value": "Nicholas Klein; George Blood, L.P.", "status": "documented", "sourceIds": ["archive"], "note": "IA user_transferred identifies Nicholas Klein; scanningcenter identifies George Blood, L.P." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["archive"], "note": "The May 2021 upload date is not treated as a documented transfer date." },
+    "processing": { "value": "Transferred at 78 rpm using four styli; engineer-preferred version selected", "status": "documented", "sourceIds": ["archive"], "note": "The item specifies 3.8, 2.3, 2.8 and 3.3 mil truncated-conical styli. The specific selected stylus and further restoration are not established. Playback audio remains unaltered." }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a/Pagliacci%20-%20Vesti%20la%20giubba%20%28On%20With%20the%20P%20-%20Enrico%20Caruso.mp3",
+    "sourceChain": ["archive", "dahr"],
+    "format": "Internet Archive VBR MP3 derivative of the supplied 24-bit FLAC disc transfer",
+    "durationSeconds": 195.93
+  },
+  "rights": {
+    "composition": { "value": "Historical aria from the 1892 opera Pagliacci", "status": "documented", "sourceIds": ["work"], "note": "The composition is separate from rights in the historic sound recording." },
+    "recording": { "value": "US public domain: recording first published before 1 January 1926", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "Rule 2. IA identifies the historic 1907 Victor/Victrola 88061 issue; DAHR identifies its 17 March 1907 acoustic master. Opened IA metadata contains no licenseurl and no non-commercial licence. This does not rely on a modern uploader’s composition-only tag." },
+    "creditLine": "Ruggero Leoncavallo, Recitar!… Vesti la giubba; Enrico Caruso, tenor, with orchestra. New York, 17 March 1907; Victor C-4317 take 1 attributed through Victor 88061. Transfer credited to Nicholas Klein / George Blood, L.P.; Internet Archive Great 78 Project. US public-domain historic recording.",
+    "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Caruso Vesti la giubba, GBIA0276270A", "url": "https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a", "locator": "No licenseurl; date 1907; Victrola 88061; acoustic tenor with orchestra; transfer personnel and four-stylus method; selected MP3 derivative.", "accessed": "2026-10-17" },
+    { "id": "dahr", "title": "DAHR — Victor C-4317", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029", "locator": "17 March 1907, New York; take 1 issued as 88061, take 2 held; original orchestral accompaniment and distinction from later electric dubs.", "accessed": "2026-10-17" },
+    { "id": "work", "title": "Vesti la giubba — dramatic text and opera", "url": "https://en.wikipedia.org/wiki/Vesti_la_giubba", "locator": "1892 opera and recitative/aria text.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

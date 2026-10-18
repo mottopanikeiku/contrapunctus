@@ -5,6 +5,238 @@
   "noteWeightedMedianDeviation": 0.02716553287981327,
   "p95AbsoluteOnsetDeviation": 0.06638792953115567,
   "fractionWithin150ms": 1.0,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 6,
+      "median": 0.033664747950462814,
+      "p95": 0.0642682714111289,
+      "max": 0.06544915402058304,
+      "adaptiveMedian": 0.0452747252747252,
+      "adaptiveP95": 0.07297575440432569
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 8,
+      "median": 0.035110762253619754,
+      "p95": 0.05171463457177765,
+      "max": 0.053594976452119525,
+      "adaptiveMedian": 0.045679399965114165,
+      "adaptiveP95": 0.06332461189604119
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 9,
+      "median": 0.025243328100472695,
+      "p95": 0.05425710797139516,
+      "max": 0.057477760334904815,
+      "adaptiveMedian": 0.03450549450549545,
+      "adaptiveP95": 0.05425710797139516
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 7,
+      "median": 0.026450375021813244,
+      "p95": 0.05379382522240198,
+      "max": 0.05798011512298018,
+      "adaptiveMedian": 0.037488226059654295,
+      "adaptiveP95": 0.06540380254666436
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 10,
+      "median": 0.020409907552764395,
+      "p95": 0.04292377463806396,
+      "max": 0.04355485784057578,
+      "adaptiveMedian": 0.026139891854182196,
+      "adaptiveP95": 0.04292377463806396
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 7,
+      "median": 0.012858887144595599,
+      "p95": 0.06996895168324282,
+      "max": 0.08831327402756983,
+      "adaptiveMedian": 0.01461015175301128,
+      "adaptiveP95": 0.07809593581022649
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 10,
+      "median": 0.025379382522242366,
+      "p95": 0.0665245072388227,
+      "max": 0.0876783533926968,
+      "adaptiveMedian": 0.035225885225887765,
+      "adaptiveP95": 0.0665245072388227
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 10,
+      "median": 0.028658642944360935,
+      "p95": 0.04675859061575237,
+      "max": 0.05149485435202905,
+      "adaptiveMedian": 0.03948020233734795,
+      "adaptiveP95": 0.05209157509159077
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 10,
+      "median": 0.03373800802373239,
+      "p95": 0.08907779522064557,
+      "max": 0.09160997732425358,
+      "adaptiveMedian": 0.04534798534799478,
+      "adaptiveP95": 0.09490057561485869
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 10,
+      "median": 0.031046572475148082,
+      "p95": 0.08850165707309111,
+      "max": 0.1098517355660249,
+      "adaptiveMedian": 0.042656549799417576,
+      "adaptiveP95": 0.10011163439735421
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 7,
+      "median": 0.03749520320948818,
+      "p95": 0.07340275597412357,
+      "max": 0.0775754404325113,
+      "adaptiveMedian": 0.049105180533757675,
+      "adaptiveP95": 0.08501273329838879
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 5,
+      "median": 0.003799058084766216,
+      "p95": 0.06616012558915259,
+      "max": 0.06689342403684861,
+      "adaptiveMedian": 0.01540903540903571,
+      "adaptiveP95": 0.0754481074485568
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 9,
+      "median": 0.03425780568639425,
+      "p95": 0.05254351997207891,
+      "max": 0.05507064364206826,
+      "adaptiveMedian": 0.035286935286947596,
+      "adaptiveP95": 0.05824594453164593
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 9,
+      "median": 0.031693703122272154,
+      "p95": 0.043732775161348054,
+      "max": 0.04740973312401309,
+      "adaptiveMedian": 0.04227455084600251,
+      "adaptiveP95": 0.04752136752137232
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 8,
+      "median": 0.025778824350268792,
+      "p95": 0.055309436595150877,
+      "max": 0.06062445491016888,
+      "adaptiveMedian": 0.03618175475318708,
+      "adaptiveP95": 0.06691941391942037
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 9,
+      "median": 0.019630211058796476,
+      "p95": 0.08930333158905338,
+      "max": 0.1259375545089938,
+      "adaptiveMedian": 0.03124018838305176,
+      "adaptiveP95": 0.10091330891331435
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 8,
+      "median": 0.018158032443764682,
+      "p95": 0.06671271585557503,
+      "max": 0.0809837781266225,
+      "adaptiveMedian": 0.025672422815276263,
+      "adaptiveP95": 0.0632297226582942
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 11,
+      "median": 0.02905982905983251,
+      "p95": 0.0503244374673244,
+      "max": 0.058161521018718076,
+      "adaptiveMedian": 0.039881388452812416,
+      "adaptiveP95": 0.061934414791579684
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 10,
+      "median": 0.024256061398943984,
+      "p95": 0.04324454910169634,
+      "max": 0.04922728065585602,
+      "adaptiveMedian": 0.027019012733333625,
+      "adaptiveP95": 0.04846903889761762
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 9,
+      "median": 0.0351787894644815,
+      "p95": 0.049093319379016974,
+      "max": 0.050015698587117186,
+      "adaptiveMedian": 0.04265480551197243,
+      "adaptiveP95": 0.05872457701028679
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 9,
+      "median": 0.03192743764174111,
+      "p95": 0.04848212105365519,
+      "max": 0.04979242979260334,
+      "adaptiveMedian": 0.0435374149660106,
+      "adaptiveP95": 0.05661957090529768
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 6,
+      "median": 0.021123321123326377,
+      "p95": 0.11522501308208888,
+      "max": 0.1437955695097628,
+      "adaptiveMedian": 0.029338915053216397,
+      "adaptiveP95": 0.11617303331582463
+    },
+    {
+      "start": 176.0,
+      "end": 183.60743764172335,
+      "attacks": 1,
+      "median": 0.008578405721237914,
+      "p95": 0.008578405721237914,
+      "max": 0.008578405721237914,
+      "adaptiveMedian": 0.008578405721237914,
+      "adaptiveP95": 0.008578405721237914
+    }
+  ],
   "worstFiveOnsetRegions": [
     {
       "start": 80.0,
@@ -314,7 +546,7 @@
   "adaptiveOnsetCount": 323,
   "adaptiveMedianDeviation": 0.037230071515788055,
   "gateReasons": [],
-  "elapsedSeconds": 0.9339012209966313,
+  "elapsedSeconds": 0.9557853429578245,
   "dtwSteps": [
     [
       1,
@@ -338,5 +570,47 @@
     "bars": 78,
     "notes": 455,
     "voices": 4
-  }
+  },
+  "published": true,
+  "configSha256": "83e6cda1ae1217908896cad7382802b04e0fe303ba87c0a67b7055a68bca48bc",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.ly",
+      "file": "gymnopedie_1.ly",
+      "sha256": "420a52244e9fbe106dd33ba2cac84414fd66e0d01c6d472205bad39678d4ce04"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.mid",
+      "file": "gymnopedie_1.mid",
+      "sha256": "09ce7337b4bf42ba12e1aa64b4c7dc7fcfa6455f1070cb12f8880a755df97384"
+    }
+  ],
+  "comparison": {
+    "previousScore": true,
+    "previousSha256": "07c4061d8fa397c5705f8f3e1457aa89d6ed24a8e59b895efd8509405aeac88a",
+    "candidateSha256": "07c4061d8fa397c5705f8f3e1457aa89d6ed24a8e59b895efd8509405aeac88a",
+    "byteIdentical": true,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.0,
+      "noteDurationSeconds": 0.0,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": true
+  },
+  "overlays": [
+    "work/satie-gymnopedie-1-0-8.png",
+    "work/satie-gymnopedie-1-0-10.18.png",
+    "work/satie-gymnopedie-1-8-16.png",
+    "work/satie-gymnopedie-1-64-72.png",
+    "work/satie-gymnopedie-1-80-88.png",
+    "work/satie-gymnopedie-1-86.34-98.34.png",
+    "work/satie-gymnopedie-1-96-104.png",
+    "work/satie-gymnopedie-1-152-160.png",
+    "work/satie-gymnopedie-1-160-168.png",
+    "work/satie-gymnopedie-1-172.817-183.607.png"
+  ]
 }

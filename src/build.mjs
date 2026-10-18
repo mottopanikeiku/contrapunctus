@@ -581,6 +581,8 @@ function searchIndex() {
   for (const r of routes) add('route', r.title, r.intro, `routes.html#${r.id}`);
   add('return-lab', 'The Return Lab', 'Compare returning passages in the same recording', 'return-lab/index.html');
   add('page', 'The Web of Influence', 'Composers, paintings, poems and the evidence connecting them', 'influence.html');
+  add('page', 'Compare performers', 'Switch performers at the same musical moment', 'compare/index.html');
+  for (const c of comparisonSearch) add('comparison', c.title, `${c.composer} · ${c.work}`, `compare/${c.id}.html`, c.question);
   const figures = new Map(composers.map((c) => [c.slug, { id: c.slug, name: c.name, dates: lifespan(c), kind: 'composer' }]));
   const edges = new Map(), threads = new Map();
   for (const batch of influenceBatches) {
@@ -801,7 +803,7 @@ async function roomPage(prog) {
     d.composer = { facts: t.composer.facts, quote: t.composer.quote, background: t.composer.background, born: t.composer.born, died: t.composer.died, epithet: t.composer.epithet };
     await writeFile(path.join(OUT, 'assets/hall', `${t.id}.json`), JSON.stringify(d));
   }
-  const keep = new Set([...listens.map((l) => `${l.id}.json`), 'programme.json']);
+  const keep = new Set([...allListens.map((l) => `${l.id}.json`), 'programme.json']);  // analysis envelopes of recordings still in review must survive
   for (const f of await readdir(path.join(OUT, 'assets/listen'))) if (!keep.has(f)) await unlink(path.join(OUT, 'assets/listen', f));
   for (const f of await readdir(path.join(OUT, 'assets/hall'))) if (!keep.has(f)) await unlink(path.join(OUT, 'assets/hall', f));
   const vcss = await ver('assets/css/room.css');
@@ -942,7 +944,7 @@ const influenceModule = existsSync(path.join(ROOT, 'src/influence.mjs')) ? await
 if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, furtherReading, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
 await out('index.html', indexPage());
 await out('hall.html', await roomPage(PROG));
-await buildCompare({ out, layout, esc, attr, bySlug, ROOT, OUT });
+const comparisonSearch = await buildCompare({ out, layout, esc, attr, bySlug, listens, held, ROOT, OUT });
 await out('atlas.html', `<!doctype html><meta charset="utf-8"><title>Contrapunctus</title><meta http-equiv="refresh" content="0; url=index.html"><link rel="canonical" href="index.html"><a href="index.html">Contrapunctus</a>`);
 await out('composers/index.html', composersIndex());
 for (const [i, c] of composers.entries()) await out(`composers/${c.slug}.html`, composerPage(c, i));

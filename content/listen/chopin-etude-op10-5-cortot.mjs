@@ -2,7 +2,7 @@ export default {
   "id": "chopin-etude-op10-5-cortot",
   "composer": "chopin",
   "order": 20,
-  "work": "Étude in G-flat major, Op. 10 No. 5; Étude in G-flat major, Op. 25 No. 9",
+  "work": "Étude in G♭ major, Op. 10 No. 5; Étude in G♭ major, Op. 25 No. 9",
   "movement": "Black Keys, followed by Butterfly — complete disc side",
   "year": "1829–37",
   "key": "G♭ major",
@@ -30,12 +30,12 @@ export default {
       "m": "A"
     },
     {
-      "t": 26,
+      "t": 28.3,
       "label": "B · Black Keys central expansion",
       "m": "B"
     },
     {
-      "t": 52,
+      "t": 53.9,
       "label": "A′ · Black Keys return and close",
       "m": "A′",
       "mNote": "the opening material returns before the first étude closes"
@@ -90,7 +90,7 @@ export default {
       "text": "Listen for the first étude’s concluding gestures and decay before the next piece begins. A shared disc side does not make the two studies one uninterrupted composition.",
       "basis": "audio-feature",
       "precision": "passage",
-      "evidence": "Report novelty around 1:34 coincides with the end region. CompAuthB’s 0.25-second band-limited RMS inspection located final attacks near 91.75 and 92.50s, then decay through 94.50s and a low floor until about96.25s."
+      "evidence": "The 1:34 report boundary marks the end region. Supplementary 0.25-second RMS inspection places the final attack near 92.5 s, decay through 94.5 s and a low floor to 96.25 s. Reproducible comparison record and trim note: docs/assets/data/compare/chopin-black-keys-cortot-neeman/chopin-etude-op10-5-cortot.json ."
     },
     {
       "t": 102,
@@ -99,13 +99,13 @@ export default {
       "text": "The second piece is Op. 25 No. 9, the “Butterfly”. Its compact groups alternate connected and detached articulation, a different problem from the near-continuous right-hand stream of “Black Keys”.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "DAHR and Archive identify both works. New attack after the inter-piece low floor is around96.50–96.75s in supplementary quarter-second RMS inspection. Articulation design: https://en.wikipedia.org/wiki/%C3%89tude_Op._25,_No._9_(Chopin)."
+      "evidence": "DAHR and Archive identify both works. The comparison record’s RMS note places renewed attacks at 96.5–96.75 s: docs/assets/data/compare/chopin-black-keys-cortot-neeman/chopin-etude-op10-5-cortot.json . Articulation design: https://en.wikipedia.org/wiki/%C3%89tude_Op._25,_No._9_(Chopin)."
     },
     {
       "t": 126,
       "kind": "world",
       "title": "A later book of studies",
-      "text": "The second piece comes from Op. 25, published in 1837 and dedicated to Marie d’Agoult. The two works share G-flat major, but belong to different collections and explore different ways of touching and grouping notes.",
+      "text": "The second piece comes from Op. 25, published in 1837 and dedicated to Marie d’Agoult. The two works share G♭ major, but belong to different collections and explore different ways of touching and grouping notes.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Op.25 publication/dedication: https://chopin.nifc.pl/en/chopin/gatunki/9_etiudy; work identity/key in DAHR and https://en.wikipedia.org/wiki/%C3%89tude_Op._25,_No._9_(Chopin)."
@@ -127,11 +127,11 @@ export default {
       "from": "A · Black Keys opening",
       "to": "B · Black Keys central expansion",
       "at": {
-        "t": 26
+        "t": 28.3
       },
       "span": [
-        16,
-        38
+        18.3,
+        40.3
       ],
       "how": "<p>The first étude’s right-hand pattern continues while the harmonic direction and accents change. Listening to the left hand makes this expansion more distinct than following the fast surface alone. This is a central span within Black Keys, not the beginning of the second étude.</p>",
       "devices": [
@@ -140,7 +140,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate central-region marker near the 0:28 report boundary; not a counted score bar."
+      "evidence": "Report novelty at 0:28; the persisted chroma map places Neeman’s approximate 30.0-second central-region marker at 28.30 here, local similarity 0.823 and map median 0.833. Usable with caution, not bar-aligned: docs/assets/data/compare/chopin-black-keys-cortot-neeman/chopin-etude-op10-5-cortot.json ."
     },
     {
       "id": "into-black-keys-return",
@@ -148,11 +148,11 @@ export default {
       "from": "B · Black Keys central expansion",
       "to": "A′ · Black Keys return and close",
       "at": {
-        "t": 52
+        "t": 53.9
       },
       "span": [
-        42,
-        64
+        43.9,
+        65.9
       ],
       "how": "<p>The opening material returns within the first étude, keeping its rapid figuration while recovering the original harmonic orientation. The return then leads towards the final flourish. There is no change of work here; the second étude begins only after the ensuing close and pause.</p>",
       "devices": [
@@ -161,7 +161,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate return following the 0:48 novelty region, based on broad formal proportions within the first96seconds; not bar-aligned."
+      "evidence": "The persisted chroma map places Neeman’s approximate 60.0-second return at 53.93 here, local similarity 0.905 and map median 0.833. Passage placement is usable with caution, not an exact bar boundary or measured rubato: docs/assets/data/compare/chopin-black-keys-cortot-neeman/chopin-etude-op10-5-cortot.json ."
     },
     {
       "id": "between-etudes",
@@ -175,14 +175,14 @@ export default {
         86.5,
         108.5
       ],
-      "how": "<p>Black Keys ends and its sound decays before Butterfly begins. Both pieces are in G-flat major, but the second replaces continuous right-hand figuration with compact connected-and-detached groups. The silence is a gap between independent works on one disc side, not a modulation inside a single étude.</p>",
+      "how": "<p>Black Keys ends and its sound decays before Butterfly begins. Both pieces are in G♭ major, but the second replaces continuous right-hand figuration with compact connected-and-detached groups. The silence is a gap between independent works on one disc side, not a modulation inside a single étude.</p>",
       "devices": [
         "general pause",
         "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "DAHR documents the two-piece side. Supplementary 0.25s RMS inspection by CompAuthB found a low floor at94.50–96.25s and renewed attack96.50–96.75s; the1:34 report boundary marks preceding decay, not the new opening."
+      "evidence": "DAHR documents the two-piece side. The persisted comparison record’s 0.25-second RMS note places the low floor at 94.5–96.25 s and renewed attacks at 96.5–96.75 s; the 1:34 report boundary marks decay, not the new opening: docs/assets/data/compare/chopin-black-keys-cortot-neeman/chopin-etude-op10-5-cortot.json ."
     }
   ]
 };

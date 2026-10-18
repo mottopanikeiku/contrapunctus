@@ -75,6 +75,9 @@ An empty `relations` array is a valid, honest answer.
 
 - `notes` rows are `[onset_s, duration_s, midi, voiceIndex, barIndex]`, where `barIndex` indexes `bars` (the performed occurrence).
 - `voices` are named only when the encoding really distinguishes them (separate staves or LilyPond voices). A MIDI channel or a register range is never presented as a contrapuntal voice.
+- Reproducible publication uses `node tools/score.mjs <id> [--publish]` and the recording-specific `tools/align/pieces/<id>.json`. Only an existing `content/listen/<id>.mjs` is eligible. Source URLs and SHA-256 digests, selected movement/variables, sounding-pitch corrections, performed bar order and endpoint inspection windows are explicit inputs; originals remain unchanged.
+- Publication requires a primary unique-attack median ≤0.15 s, first/middle/last onset deviation ≤0.5 s, every nonempty eight-second local-normalised median ≤0.3 s, no collapsed notes/attacks, and a valid rounded score contract. A numeric pass never overrides an observed wrong edition, pitch or repeat order and never implies aural review.
+- Fresh candidate/check JSON and pitch-energy PNG overlays remain in `tools/align/work/`. Without `--publish`, public files are untouched; with it, engraving and sheetpacking must succeed before replacing `score.json` and `sheet/`. Notehead/rest `data-bar` and `data-pos` retain printed score coordinates; `bars[].occ` distinguishes repeated traversals. Source licences remain distinct from recording rights.
 
 ## Recording dossier: `content/dossiers/<id>.json`
 
@@ -288,6 +291,14 @@ does not substitute for checking historical claims and transcriptions.
 `sources: [{ title, url }]`. Recording notes are ≤ 25 words; passage notes
 are ≤ 30 words. Optional `group` is `composer-performers`, `century`,
 `singers`, or `golden-age`, the four sections of `compare/index.html`.
+
+Publication requires every referenced recording to be published (baseline
+or an independent passing review), and
+`content/plan/reviews/compare-<id>.json` with `verdict: "pass"`.
+Comparisons still awaiting review are held as a whole, not partially built.
+The generator prints one published/held summary; the index, Hall links and
+search contain only published comparisons. Removed or held comparisons’
+previously generated pages are removed on the next build.
 
 Each recording remains a normal listen file and dossier. Comparison-only
 recordings set `concert: false`; guests additionally set `composer: null`

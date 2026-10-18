@@ -1,0 +1,402 @@
+{
+  "id": "chopin",
+  "places": [
+    {
+      "name": "Żelazowa Wola",
+      "country": "Duchy of Warsaw (today Poland)",
+      "lat": 52.25,
+      "lon": 20.3167,
+      "from": "1810-03-01",
+      "to": "1810-10",
+      "kind": "born",
+      "what": "Born west of Warsaw to a French father; the parish record gives 22 February, tradition 1 March.",
+      "status": "disputed",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Saxon Palace, Warsaw",
+      "country": "Duchy of Warsaw (today Poland)",
+      "lat": 52.2411,
+      "lon": 21.0114,
+      "from": "1810-10",
+      "to": "1817",
+      "kind": "childhood",
+      "what": "Family moved when his father took a French-teaching post at the Warsaw Lyceum, housed in the palace.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Szafarnia",
+      "country": "Duchy of Warsaw (today Poland)",
+      "lat": 53.1108,
+      "lon": 19.1456,
+      "from": "1824",
+      "to": "1825",
+      "kind": "travelled",
+      "what": "School-holiday guest of the Dziewanowski family, where he first encountered Polish rural folk music.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Krasiński (Czapski) Palace, Warsaw",
+      "country": "Duchy of Warsaw (today Poland)",
+      "lat": 52.2394,
+      "lon": 21.015,
+      "from": "1827",
+      "to": "1830-11",
+      "kind": "lived",
+      "what": "Family lodgings in the palace’s south annex on Krakowskie Przedmieście, where he lived until leaving Warsaw.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Warsaw Conservatory",
+      "country": "Duchy of Warsaw (today Poland)",
+      "lat": 52.2356,
+      "lon": 21.0225,
+      "from": "1826-09",
+      "to": "1829-07",
+      "kind": "studied",
+      "what": "Three-year course with Józef Elsner in theory, figured bass and composition; his final report read “musical genius”.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1828-09",
+      "kind": "travelled",
+      "what": "Visited as a student, hearing Spontini’s operas; a second trip in 1829 included a stay with Prince Radziwiłł.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "National Theatre, Warsaw",
+      "country": "Duchy of Warsaw (today Poland)",
+      "lat": 52.2433,
+      "lon": 21.0094,
+      "from": "1830-03-17",
+      "kind": "premiere",
+      "what": "Played the premiere of what was published as Piano Concerto No. 2, aged twenty; No. 1 premiered on 11 October.",
+      "work": "Piano Concerto No. 2 in F minor",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Piano Concerto No. 2 (Chopin) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Piano_Concerto_No._2_(Chopin)"
+        },
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Habsburg Monarchy (today Austria)",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1830-11",
+      "to": "1831-07",
+      "kind": "travelled",
+      "what": "Set out on 2 November; gave two concerts; was stranded in Vienna when the November Uprising broke out.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1831-10-05",
+      "to": "1849-10-17",
+      "kind": "exile",
+      "what": "Arrived 5 October 1831 after the uprising was crushed; never returned to Poland and later took French citizenship.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Salons Pleyel, 9 rue Cadet, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8749,
+      "lon": 2.3429,
+      "from": "1832-02-26",
+      "kind": "premiere",
+      "what": "Debut Paris concert, with Liszt in the audience; Schumann had called him a genius the previous December.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "38 Rue de la Chaussée-d’Antin, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8739,
+      "lon": 2.3328,
+      "from": "1832",
+      "to": "1836",
+      "kind": "lived",
+      "what": "Lived here a few blocks from Liszt; the two performed together on seven occasions, 1833–41.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Carlsbad (Karlovy Vary)",
+      "country": "Kingdom of Bohemia (Habsburg; today Czech Republic)",
+      "lat": 50.2306,
+      "lon": 12.8725,
+      "from": "1835",
+      "kind": "travelled",
+      "what": "Spent time with his parents here; it was the last time he would see them.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Valldemossa, Mallorca",
+      "country": "Kingdom of Spain (today Spain)",
+      "lat": 39.7089,
+      "lon": 2.6219,
+      "from": "1838-11-08",
+      "to": "1839-02-13",
+      "kind": "travelled",
+      "what": "Winter with George Sand in a cold former monastery; he worked on the Op. 28 Preludes and other pieces.",
+      "work": "24 Preludes, Op. 28",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        },
+        {
+          "title": "24 Preludes, Op. 28 (Chopin) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/24_Preludes,_Op._28_(Chopin)"
+        }
+      ]
+    },
+    {
+      "name": "Nohant, Berry",
+      "country": "Kingdom of France (today France)",
+      "lat": 46.625,
+      "lon": 1.9756,
+      "from": "1839-05",
+      "to": "1846",
+      "kind": "lived",
+      "what": "Summers at Sand’s estate, 1839–46; his most productive summers were 1839–43, excepting 1840.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "5 rue Tronchet, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8713,
+      "lon": 2.3252,
+      "from": "1839",
+      "to": "1842",
+      "kind": "lived",
+      "what": "Autumn apartment close to Sand’s rented lodgings on rue Pigalle; moved to the Square d’Orléans in 1842.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Square d’Orléans, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8774,
+      "lon": 2.336,
+      "from": "1842",
+      "to": "1848",
+      "kind": "lived",
+      "what": "Moved into adjacent buildings with Sand; his relations with her soured in 1846 over her daughter Solange.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1848-04",
+      "to": "1848-11",
+      "kind": "travelled",
+      "what": "Left Paris during the 1848 Revolution; played at concerts and receptions in great houses.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Scotland",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 55.9533,
+      "lon": -3.1892,
+      "from": "1848-08",
+      "to": "1848-10",
+      "kind": "travelled",
+      "what": "Stayed at Calder House and Johnstone Castle as Jane Stirling’s guest; concerts in Glasgow and Edinburgh.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Guildhall, London",
+      "country": "United Kingdom (today United Kingdom)",
+      "lat": 51.5159,
+      "lon": -0.092,
+      "from": "1848-11-16",
+      "kind": "premiere",
+      "what": "His last public concert appearance, a benefit for Polish refugees.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Hôtel Baudard de Saint-James, Place Vendôme, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8675,
+      "lon": 2.3294,
+      "from": "1849-09",
+      "to": "1849-10-17",
+      "kind": "died",
+      "what": "Died a few minutes before 2 a.m. on 17 October, aged 39; Ludwika was with him.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "La Madeleine, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.87,
+      "lon": 2.3244,
+      "from": "1849-10-30",
+      "kind": "buried",
+      "what": "Funeral held on 30 October, with Mozart’s Requiem sung; ticket holders only, thousands excluded.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Père Lachaise Cemetery, Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.86,
+      "lon": 2.395,
+      "from": "1849-10-30",
+      "kind": "buried",
+      "what": "Buried here after a procession led by Prince Czartoryski; Clésinger sculpted the tomb installed in 1850.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        }
+      ]
+    },
+    {
+      "name": "Holy Cross Church, Warsaw",
+      "country": "Congress Poland (today Poland)",
+      "lat": 52.2387,
+      "lon": 21.0168,
+      "from": "1850",
+      "kind": "buried",
+      "what": "His heart, removed by his doctor, was carried to Poland by Ludwika; its urn was immured in 1882.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Frédéric Chopin — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Frédéric_Chopin"
+        },
+        {
+          "title": "Holy Cross Church, Warsaw — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Holy_Cross_Church,_Warsaw"
+        }
+      ]
+    }
+  ]
+}

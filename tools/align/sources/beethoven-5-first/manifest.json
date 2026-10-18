@@ -1,15 +1,13 @@
 {
   "mutopia": 941,
-  "base": "BeethovenLv/O67/Symphony5_1/Symphony5_1",
-  "zip": true,
   "title": "Symphony No. 5, Op. 67 — first movement",
   "edition": "Breitkopf and Härtel, 1862–1865",
   "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
-  "revision": "Mutopia-2017/11/05-941",
   "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
   "license": "Public Domain",
   "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
-  "accessed": "2026-10-16",
+  "main": "Symphony5_1-lys/Symphony5_1.ly",
+  "midi": "Symphony5_1.mid",
   "downloads": [
     {
       "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip",
@@ -21,5 +19,6 @@
       "file": "Symphony5_1.mid",
       "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046"
     }
-  ]
+  ],
+  "accessed": "2026-10-17"
 }

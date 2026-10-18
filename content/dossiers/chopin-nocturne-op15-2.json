@@ -1,0 +1,142 @@
+{
+  "id": "chopin-nocturne-op15-2",
+  "work": {
+    "title": "Nocturne in F♯ major, Op. 15 No. 2",
+    "catalogue": "Op. 15 No. 2",
+    "movement": "Larghetto",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The standard solo-piano work is identified; edition, individual readings and completeness have not been established by a score audit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Luke Faulkner",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer named on the selected recording source."
+  },
+  "session": {
+    "date": {
+      "value": "circa 2014",
+      "status": "inferred",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Commons gives circa 2014 for the Musopen source, but an independently documented session date is not available.",
+      "precision": "approximate"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "A recording location and venue are not established by the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The original commercial recording label is not established."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No original carrier, matrix, take or side is established; a digital copy alone does not establish a born-digital original."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Musopen — Set Chopin Free project",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "Project/source attribution; the consulted page does not identify a session or transfer engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload or reissue dates are not used as session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Equalisation, editing, noise reduction, pitch correction and other processing are not documented; no absence of processing is implied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Chopin_-_Nocturne_No._5_in_F-sharp_major%2C_Op._15_No._2_%28Luke_Faulkner%29.flac/Chopin_-_Nocturne_No._5_in_F-sharp_major%2C_Op._15_No._2_%28Luke_Faulkner%29.flac.mp3",
+    "sourceChain": [
+      "musopen",
+      "source"
+    ],
+    "format": "MP3 streaming derivative of source flac",
+    "durationSeconds": 204
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; the nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Public-domain release by Musopen",
+      "status": "documented",
+      "sourceIds": [
+        "source"
+      ],
+      "note": "The Copyright information template explicitly applies PD-author, naming Musopen, to the recording separately from the PD-old composition tag."
+    },
+    "creditLine": "Luke Faulkner, piano; Musopen Set Chopin Free project, public-domain recording via Wikimedia Commons. MP3 streaming derivative.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-author"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._5_in_F-sharp_major,_Op._15_No._2_(Luke_Faulkner).flac",
+      "locator": "Performer, description, upstream source and recording-licence statement.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Nocturne in F♯ major, Op. 15 No. 2",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/173",
+      "locator": "Work identity, date, publication and formal commentary.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "musopen",
+      "title": "Musopen: Set Chopin Free release update",
+      "url": "https://www.kickstarter.com/projects/Musopen/set-chopin-free/posts/1193714",
+      "locator": "Upstream project release linked by the Commons file description.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-09-29"
+  }
+}

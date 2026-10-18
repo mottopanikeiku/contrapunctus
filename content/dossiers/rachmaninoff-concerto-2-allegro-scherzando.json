@@ -1,0 +1,206 @@
+{
+  "id": "rachmaninoff-concerto-2-allegro-scherzando",
+  "work": {
+    "title": "Piano Concerto No. 2 in C minor",
+    "catalogue": "Op. 18",
+    "movement": "III. Allegro scherzando",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performance is of the orchestral concerto, not a two-piano reduction. The exact performing edition and any editorial changes are not specified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Sviatoslav Richter",
+        "role": "piano"
+      },
+      {
+        "name": "Warsaw National Philharmonic Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Stanisław Wisłocki",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons",
+      "discography"
+    ],
+    "note": "The Commons filename/description and DG release catalogue agree on all three credits."
+  },
+  "session": {
+    "date": {
+      "value": "1959",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "discography",
+        "dg-catalogue"
+      ],
+      "note": "The file identifies 1959. Youngrok Lee’s DG discography gives 26–28 April 1959 for the concerto; this secondary refinement is not promoted to a precisely verified day for the finale. Commons’ 1 January display is not treated as a session day.",
+      "precision": "year"
+    },
+    "place": {
+      "value": "Warsaw Philharmonic Hall, Warsaw, Poland",
+      "status": "inferred",
+      "sourceIds": [
+        "discography",
+        "dg-catalogue",
+        "commons"
+      ],
+      "note": "Two secondary discographies locate the matched Richter/Wisłocki concerto at the Philharmonic Hall. Commons itself does not specify the hall; the connection follows the matching personnel and year."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Deutsche Grammophon",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "discography"
+      ],
+      "note": "The selected Commons record names Deutsche Grammophon as source."
+    },
+    "catalogue": {
+      "value": "Deutsche Grammophon 138 076 SLPM (stereo LP); corresponding mono issue 18 596 LPM",
+      "status": "inferred",
+      "sourceIds": [
+        "discography",
+        "dg-catalogue",
+        "commons"
+      ],
+      "note": "These catalogue numbers belong to the documented matching concerto release. The uploader does not identify the particular LP pressing, CD or other carrier used for the FLAC."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons",
+        "discography",
+        "dg-catalogue"
+      ],
+      "note": "No matrix, take, tape-reel or transferred side identifier is established for this file."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The upload does not name a transfer, restoration or mastering engineer. The uploader is not assumed to have performed those tasks."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "1959 is the performance year; the Commons upload date is not a documented date for a transfer or mastering session."
+    },
+    "processing": {
+      "value": "Wikimedia Commons supplies an MP3 access derivative of the uploaded FLAC.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The antecedent mastering, editing, equalisation and restoration history is not described. A lossless uploaded container does not prove an unprocessed original source."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_3._Allegro_scherzando_(Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959).flac/Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_3._Allegro_scherzando_(Sviatoslav_Richter%2C_Stanis%C5%82aw_Wis%C5%82ocki%2C_Warsaw_National_Philharmonic_Orchestra%2C_1959).flac.mp3",
+    "sourceChain": [
+      "commons",
+      "discography",
+      "dg-catalogue"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: FLAC",
+    "durationSeconds": 699.7
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about an unidentified modern performing edition."
+    },
+    "recording": {
+      "value": "Territorial public domain: Commons applies PD-EU-audio to this 1959 recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons",
+        "discography",
+        "dg-catalogue"
+      ],
+      "note": "Eligibility rests on the recording-specific PD-EU-audio notice and the documented pre-1963 commercial recording/release, not a composition-only tag. This is territorial: US public-domain status is not established. No worldwide licence or clearance of an unidentified later creative remaster is asserted."
+    },
+    "creditLine": "Sviatoslav Richter, piano; Warsaw National Philharmonic Orchestra; Stanisław Wisłocki, conductor — Deutsche Grammophon, 1959. Source: Wikimedia Commons, PD-EU-audio (territorial; US status not established).",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: Richter/Wisłocki, Piano Concerto No. 2, finale",
+      "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_3._Allegro_scherzando_(Sviatoslav_Richter,_Stanis%C5%82aw_Wis%C5%82ocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac",
+      "locator": "File description, source Deutsche Grammophon, performer/date credits, recording-specific PD-EU-audio notice, FLAC original and MP3 transcode; revision 718748672.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "discography",
+      "title": "Pianist Discography: DG 138 076",
+      "url": "https://pianistdiscography.com/discography/pianistLabel.php?cdnum=2186",
+      "locator": "Concerto personnel, product number, 1959 release and Warsaw Philharmonic Hall session references.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "dg-catalogue",
+      "title": "Youngrok Lee: DG 138 051–100 LP catalogue",
+      "url": "https://lee.classite.com/music/dgg-lps/dg-138051-100.htm",
+      "locator": "Entry 138 076: concerto sessions 26–28 April 1959, Philharmonie, Warsaw; stereo and mono catalogue numbers. Secondary discographic compilation, not a session ledger.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Rachmaninoff, Piano Concerto No. 2: full score",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP528309-PMLP01953-Rachmaninoff_-_Piano_Concerto_No._2_(orch._score).pdf",
+      "locator": "Finale printed pp. 68–116, especially pp. 77, 97, 108–110 and 116; Gutheil engraving in Boosey & Hawkes reprint, plate B. & H. 16674.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "bso",
+      "title": "Marc Mandel: Piano Concerto No. 2, Boston Symphony Orchestra",
+      "url": "https://www.bso.org/works/piano-concerto-no-2-6",
+      "locator": "Composition, Dahl dedication, partial premiere in December 1900 and complete premiere in November 1901; later popular-song use.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

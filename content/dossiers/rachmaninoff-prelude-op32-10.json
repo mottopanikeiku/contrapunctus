@@ -1,0 +1,177 @@
+{
+  "id": "rachmaninoff-prelude-op32-10",
+  "work": {
+    "title": "Prelude in B minor",
+    "catalogue": "Op. 32 No. 10",
+    "movement": "Lento",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original solo-piano work is identified, but the pianist’s performing edition is not named."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "La Pianista",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "Commons names the performer La Pianista, associated with user LaPianista. No unverified civil name is substituted."
+  },
+  "session": {
+    "date": {
+      "value": "2010-05-12",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The description explicitly identifies this as the performance/recording date rather than merely the upload date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No venue or town is identified; neither the performer’s location nor upload metadata establishes the session place."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording is posted as the performer’s own work; no original commercial label or physical carrier is named."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side is supplied. A modern date alone is not proof that no earlier physical recording medium existed."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performer identifies the recording as own work, but no separate recording, editing or mastering engineer credit is supplied."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performance date is documented; a distinct editing, transfer or encoding date is not."
+    },
+    "processing": {
+      "value": "Commons stores an Ogg Vorbis file and provides an MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No equalisation, editing, noise reduction or mastering method is described. The digital file format does not establish the session equipment."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Rachmaninoff_Prelude_in_B_Minor%2C_Op._32%2C_No._10.oga/Rachmaninoff_Prelude_in_B_Minor%2C_Op._32%2C_No._10.oga.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; uploaded source: Ogg Vorbis",
+    "durationSeconds": 321
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "composer",
+        "eu-term"
+      ],
+      "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about an unidentified modern performing edition."
+    },
+    "recording": {
+      "value": "Creative Commons Attribution 3.0 Unported, applied explicitly to the recording by La Pianista.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The page has separate notices for recording and composition. CC BY 3.0 governs this performance; the composition’s public-domain notice is not substituted for the recording licence."
+    },
+    "creditLine": "La Pianista (LaPianista), piano — Rachmaninoff, Prelude in B minor, Op. 32 No. 10, recorded 12 May 2010. Source: Wikimedia Commons. Recording licensed CC BY 3.0; this stream is Commons’ MP3 access transcode.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: La Pianista, Prelude in B minor, Op. 32 No. 10",
+      "url": "https://commons.wikimedia.org/wiki/File:Rachmaninoff_Prelude_in_B_Minor,_Op._32,_No._10.oga",
+      "locator": "Description and performance date; “For the Recording” CC BY 3.0 notice and separate “For the Composition” public-domain notice; revision 1227005124.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "score",
+      "title": "Rachmaninoff: Prelude Op. 32 No. 10, Gutheil engraving in Boosey & Hawkes reprint",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/e/ee/IMSLP868406-PMLP2018-B%26H-1992-Rachmaninoff-Preludes-Op.32-No.10.pdf",
+      "locator": "Printed pp. 92–95: Lento, pesante, central chordal expansion, L’istesso tempo, decorated passage and a tempo, come prima return.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP: Thirteen Preludes, Op. 32",
+      "url": "https://imslp.org/wiki/13_Preludes,_Op.32_(Rachmaninoff,_Sergei)",
+      "locator": "1910 composition, 1911 publication and the twenty-four-key collection.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "recollection",
+      "title": "Preludes, Op. 32: documented recollection of Benno Moiseiwitsch",
+      "url": "https://en.wikipedia.org/wiki/Preludes,_Op._32_(Rachmaninoff)",
+      "locator": "Böcklin association attributed to Moiseiwitsch’s recollection, citing Bertensson and Leyda, A Lifetime in Music, p. 296; not treated as an inscription in the score.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP: Sergei Rachmaninoff",
+      "url": "https://imslp.org/wiki/Category:Rachmaninoff,_Sergei",
+      "locator": "Life dates: 1 April 1873–28 March 1943.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1(1) and 8: ordinary life-plus-70 author term, calculated from the following 1 January.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

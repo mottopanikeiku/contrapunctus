@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "id": "beethoven-5-first-nikisch-1913",
+  "source": {
+    "mutopia": 941,
+    "title": "Symphony No. 5, Op. 67 — first movement",
+    "edition": "Breitkopf and Härtel, 1862–1865",
+    "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "Symphony5_1-lys/Symphony5_1.ly",
+    "midi": "Symphony5_1.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip",
+        "file": "Symphony5_1-lys.zip",
+        "sha256": "a0165591776ac4f277ff4331b075774d739639726f26f162aad57761554abf80"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1.mid",
+        "file": "Symphony5_1.mid",
+        "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "flutes",
+      "name": "Flutes",
+      "tracks": [
+        1
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "oboes",
+      "name": "Oboes",
+      "tracks": [
+        2
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "clarinets",
+      "name": "Clarinets",
+      "tracks": [
+        3
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        4
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "tracks": [
+        5
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": [
+        6
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        7
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        8
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        9
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        10
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        11
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "basses",
+      "name": "Double basses",
+      "tracks": [
+        12
+      ],
+      "transpose": -12
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 502,
+    "quarters": 2,
+    "overrides": {
+      "268": 12
+    },
+    "order": [
+      [
+        1,
+        502
+      ]
+    ],
+    "description": "Bars 1–502 once, without the exposition repeat. Bar 268 contains the twelve-quarter encoded oboe cadenza and remains one numbered bar."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      394.453917,
+      403.453917
+    ],
+    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 14,
+    "width": 260,
+    "height": 360
+  },
+  "provenance": [
+    "Source-defined twelve orchestral staves retained. Acoustic recording balance and reinforced instrumental groups are not separated stems; precise historic session doubling is not inferred from the score.",
+    "Double basses lowered one octave because the Mutopia source MIDI omits their written-to-sounding octave; clarinets and horns already sound transposed.",
+    "Exposition-repeat omission is documented by the recording dossier, citing https://journal.sciencemuseum.ac.uk/article/acoustic-recording/."
+  ]
+}

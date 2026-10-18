@@ -1,0 +1,152 @@
+{
+  "id": "saint-saens-cygne-weilerstein",
+  "work": {
+    "title": "Le Carnaval des animaux",
+    "catalogue": "",
+    "movement": "XIII. Le Cygne",
+    "version": {
+      "value": "Cello and one piano",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording source identifies the forces; the performing edition is not established."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Alisa Weilerstein",
+        "role": "cello"
+      },
+      {
+        "name": "Jason Yoder",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": ""
+  },
+  "session": {
+    "date": {
+      "value": "4 November 2009",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The summary names the event and exact date; the infobox date 1886 refers to the composition.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "White House, Washington, DC",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical issue is identified for this source."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No physical catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or original recording medium is identified in the source."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Whitehouse.gov; audio extraction uploaded by TonyTheTiger",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Whitehouse.gov is credited for the video recording; the uploader is not identified as its recording engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "An upload date does not establish a recording or transfer date."
+    },
+    "processing": {
+      "value": "Audio extracted from the linked official video",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The 31 May 2011 file history says the audio portion of the video replaced an earlier extraction to eliminate clicking. No further processing is established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg/20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative supplied by Wikimedia Commons; source OGG",
+    "durationSeconds": 176.208
+  },
+  "rights": {
+    "composition": {
+      "value": "Commons explicitly marks the composition as public domain.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "This is separate from the performance licence and government-recording statement."
+    },
+    "recording": {
+      "value": "CC BY 3.0 performance; US-government recording",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons explicitly separates composition (PD-old), performance (CC BY 3.0) and recording (PD-USGov). Acceptance rests on those performance/recording statements, not the composition tag or the page’s speculative PD-self phrase."
+    },
+    "creditLine": "Camille Saint-Saëns, Le Cygne; Alisa Weilerstein, cello; Jason Yoder, piano. White House, 4 November 2009. Whitehouse.gov recording, audio extraction via Wikimedia Commons. Performance CC BY 3.0; recording PD-USGov in the United States. No audio alteration by Contrapunctus.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — 20091104 Alisa Weilerstein and Jason Yoder - Saint Saëns' The Swan.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg",
+      "locator": "Summary, source, licensing, file history and transcode table.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "work",
+      "title": "Le Cygne — instrumentation and score outline",
+      "url": "https://en.wikipedia.org/wiki/Le_cygne",
+      "locator": "Movement XIII; G major; original cello/two-piano forces, often performed with one piano.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

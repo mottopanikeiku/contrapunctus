@@ -9,7 +9,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
-from score_events import HERE
+from config import HERE
 
 
 def plot(ident, start, end, verbose=True):

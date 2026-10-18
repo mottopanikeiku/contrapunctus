@@ -1,0 +1,164 @@
+{
+  "id": "liszt-sonata-b-minor",
+  "work": {
+    "title": "Piano Sonata in B minor, S. 178",
+    "catalogue": "S. 178",
+    "movement": "",
+    "version": {
+      "value": "Solo-piano Sonata in B minor, complete",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The file presents the whole Sonata. Performing edition, editorial interventions and piano make are not identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Jorge Bolet",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "Performer attribution is the Commons description and title; no additional session participants are claimed."
+  },
+  "session": {
+    "date": {
+      "value": "1960",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source identifies the recording by year. The 2021 Commons upload is not the session date; no day or month is supplied.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The source does not establish the session venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The original carrier label is unidentified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix or take identification is established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer engineer is identified; an uploader is not automatically the engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The upload date is not treated as a transfer date."
+    },
+    "processing": {
+      "value": "Commons hosts a 256 kbps MP3 source file.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No named restoration engineer, editing history or original recording medium is established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Liszt-_sonata_In_B_Minor_%28piano_-_Jorge_Bolet_-_1960%29.mp3",
+    "sourceChain": [
+      "upstream",
+      "commons"
+    ],
+    "format": "Original 256 kbps MP3 hosted by Wikimedia Commons",
+    "durationSeconds": 1655.52
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition is out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": [
+        "commons",
+        "score"
+      ],
+      "note": "Liszt died in 1886. This is a term calculation, not worldwide clearance of every edition."
+    },
+    "recording": {
+      "value": "Commons applies PD-EU-audio to the sound recording.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Territorial EU public-domain declaration, not worldwide clearance. The precise first-publication history is not independently established here; US public-domain status is not claimed. This is an audio-recording template, not merely PD-old for the composition."
+    },
+    "creditLine": "Liszt: Sonata in B minor; Jorge Bolet, 1960, via Wikimedia Commons. Commons PD-EU-audio declaration; territorial EU basis, US status not established.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Jorge Bolet — Liszt Sonata (1960), Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Liszt-_sonata_In_B_Minor_(piano_-_Jorge_Bolet_-_1960).mp3",
+      "locator": "Summary names Bolet, year 1960 and upstream YouTube URL; PD-EU-audio licence template; original MP3 file history and audio metadata.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "upstream",
+      "title": "Source video linked by the Commons uploader",
+      "url": "https://www.youtube.com/watch?v=yFlbP0j7lqA",
+      "locator": "Upstream link supplied by Commons; no extra session or carrier metadata is inferred from it.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "score",
+      "title": "Liszt: Sonate in H moll — Schott, 1917",
+      "url": "https://hdl.handle.net/1802/22030",
+      "locator": "Sibley Music Library public-domain score. Printed p. 7 identifies the Schumann dedication and 1853 composition, and shows the Lento scales followed by the Allegro’s leaping and repeated-note gestures. The catalogue identifies Liszt’s dates, 1811–1886. This is a reference score, not an identification of Bolet’s performing edition.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "analysis",
+      "title": "Liszt Sonata — thematic and formal analysis",
+      "url": "https://www.classicalmusic-notes.com/liszt-sonata-1/",
+      "locator": "Motif derivations, slow and fugal regions, quiet ending, composition/publication/première chronology.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-09-29"
+  }
+}

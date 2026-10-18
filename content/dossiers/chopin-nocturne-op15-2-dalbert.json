@@ -1,0 +1,175 @@
+{
+  "id": "chopin-nocturne-op15-2-dalbert",
+  "work": {
+    "title": "Nocturne in F♯ major, Op. 15 No. 2",
+    "catalogue": "Op. 15 No. 2",
+    "movement": "Larghetto",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The standard solo-piano work is identified; edition, individual readings and completeness have not been established by a score audit."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Eugen d’Albert",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "source"
+    ],
+    "note": "Performer named on the selected recording source."
+  },
+  "session": {
+    "date": {
+      "value": "1916",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "scan"
+      ],
+      "note": "Both the selected track filename/item description and the pictured Symposium track list date this Nocturne to 1916; the album-level 1913 date is not used.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "A recording location and venue are not established by the consulted source."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Gramophone; reissued by Symposium",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "scan"
+      ],
+      "note": "Original disc label and modern compilation are distinguished."
+    },
+    "catalogue": {
+      "value": "Gramophone 045578 / 045678 (conflicting sources); reissue Symposium 1146",
+      "status": "disputed",
+      "sourceIds": [
+        "source",
+        "scan"
+      ],
+      "note": "The primary CD track-list scan prints 045578 for track 10; the Archive description and filename give 045678. Both identify the same work, matrix and year. The compilation is dated 1993, not the historical session.",
+      "alternatives": [
+        {
+          "value": "Gramophone 045578",
+          "sourceIds": [
+            "scan"
+          ]
+        },
+        {
+          "value": "Gramophone 045678",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ]
+    },
+    "matrixTakeSides": {
+      "value": "1120m; take not established",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "scan"
+      ],
+      "note": "Both consulted representations agree on the matrix; neither establishes a take number."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Symposium 1146 compilation; Internet Archive digital copy",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "scan"
+      ],
+      "note": "Reissue/source attribution only. A named transfer engineer and any relationship to the different Arbiter reissue are not established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No transfer date is established; upload or reissue dates are not used as session or transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "Equalisation, editing, noise reduction, pitch correction and other processing are not documented; no absence of processing is implied."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/02-eugen-d-albert-syposium-1146/10%20-%20Eugen%20d'Albert%20-%20Nocturne%20in%20Fis-Dur%20op.15%20No.2%20(Chopin)%20Gram.%20045678%2C%20Mx.%201120%20m%20(1916).mp3",
+    "sourceChain": [
+      "scan",
+      "source"
+    ],
+    "format": "MP3 derivative of the Archive WAV track, identified as Symposium 1146 track 10",
+    "durationSeconds": 187
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain",
+      "status": "documented",
+      "sourceIds": [
+        "work"
+      ],
+      "note": "Chopin died in 1849; the nineteenth-century composition is out of copyright in the programme jurisdictions. This does not determine the recording rights."
+    },
+    "recording": {
+      "value": "Public Domain Mark 1.0 designation on the selected Archive item",
+      "status": "documented",
+      "sourceIds": [
+        "source",
+        "scan"
+      ],
+      "note": "The selected item explicitly designates the audio as public domain, with no non-commercial restriction. Its historical Gramophone track is dated 1916. The pictured 1993 compilation copyright is recorded as reissue information, not treated as the date of the original recording or a new recording licence."
+    },
+    "creditLine": "Eugen d’Albert, piano; Gramophone matrix 1120m (1916), catalogue number disputed between 045578 and 045678. Symposium 1146 reissue, via the Internet Archive; selected item carries Public Domain Mark 1.0. Transfer engineer and processing unknown.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "source",
+      "title": "Selected recording source",
+      "url": "https://archive.org/metadata/02-eugen-d-albert-syposium-1146",
+      "locator": "Performer, description, upstream source and recording-licence statement.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "work",
+      "title": "Fryderyk Chopin Institute: Nocturne in F♯ major, Op. 15 No. 2",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/173",
+      "locator": "Work identity, date, publication and formal commentary.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "scan",
+      "title": "Symposium 1146: photographed track list",
+      "url": "https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg",
+      "locator": "Track 10: Chopin Nocturne Op. 15 No. 2, matrix 1120m, catalogue 045578, year 1916; footer identifies 1993 compilation.",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "interpretation",
+      "title": "Mark Mitchell and Allan Evans: The Centaur Pianist",
+      "url": "https://arbiterrecords.org/catalog/eugen-d-albert-the-centaur-pianist/",
+      "locator": "Arbiter notes reproduce Kempff’s recollection of d’Albert’s Op. 15 No. 2 and document Liszt studies; not evidence about this Symposium transfer’s engineering.",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-09-29"
+  }
+}

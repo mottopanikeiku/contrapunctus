@@ -74,7 +74,7 @@ export default {
       "text": "Goldstein’s opening span expands well beyond its quiet beginning. Listen to the supporting chords as well as the melody: a change in the weight of accompaniment can make a returning phrase feel newly emphatic.",
       "basis": "audio-feature",
       "precision": "passage",
-      "evidence": "Report shows the opening rising from −28 to −34 dB at 0:05–0:20 to −11 to −14 dB at 0:50–1:05. This anchors a broad dynamic contrast, not a touch judgement."
+      "evidence": "Report shows the opening rising from approximately −42 to −34 dB at 0:05–0:20 to −19 to −16 dB at 0:50–1:05. This anchors a broad dynamic contrast, not a touch judgement."
     },
     {
       "t": 105,
@@ -245,7 +245,7 @@ export default {
         368,
         390
       ],
-      "how": "<p>The later development gathers enough force to bring back the opening idea in a larger texture. Fuller chords and bass support make the earlier dialogue sound public and emphatic. The thematic return and recovery of A-flat major work together: recognition also supplies tonal orientation.</p>",
+      "how": "<p>The later development gathers enough force to bring back the opening idea in a larger texture. Fuller chords and bass support make the earlier dialogue sound public and emphatic. The thematic return and recovery of A♭ major work together: recognition also supplies tonal orientation.</p>",
       "devices": [
         "retransition",
         "crescendo build",

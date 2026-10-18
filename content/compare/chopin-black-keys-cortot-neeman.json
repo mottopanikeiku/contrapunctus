@@ -1,0 +1,26 @@
+{
+  "id": "chopin-black-keys-cortot-neeman",
+  "title": "Black Keys: Cortot and Neeman",
+  "composer": "chopin",
+  "group": "century",
+  "work": "Étude in G♭ major, Op. 10 No. 5",
+  "question": "How do Cortot and Neeman distribute time between the right-hand figures and the phrases carried by the left?",
+  "intro": "Cortot recorded the Black Keys and Butterfly études together on one Victor side on 22 April 1920; Edward Neeman’s separate Black Keys recording was released by Musopen, with only an approximate source date of 2014. This comparison matches Neeman’s 0–108.5 seconds to Cortot’s 3.5–95.5 seconds, excluding Cortot’s lead-in and the Butterfly that begins around 96.5 seconds; the uncut historical stream still contains both pieces. Median alignment confidence is 0.833, usable with caution: surface noise and repeated pitch patterns make local matches, especially around Neeman’s 80–86 seconds and the closing decay, less secure. The passage points invite broad phrase comparisons, not exact bar matches or a precise local-tempo ranking.",
+  "recordings": [
+    { "listen": "chopin-etude-op10-5", "label": "Edward Neeman", "year": null, "note": "Separate Black Keys recording; Commons source date c. 2014, session not established. Musopen public-domain recording dedication." },
+    { "listen": "chopin-etude-op10-5-cortot", "label": "Alfred Cortot · Black Keys portion", "year": 1920, "note": "Victor 64989, take 2, Camden, 22 April 1920. Map uses 3.5–95.5 seconds only; the uncut stream continues with Butterfly." }
+  ],
+  "reference": "chopin-etude-op10-5",
+  "passages": [
+    { "label": "The opening’s two layers", "t": 12, "note": "Follow the lower phrase beneath the fast right hand. The approximate correspondence is Neeman 12 seconds to Cortot 13 seconds." },
+    { "label": "A broader central phrase", "t": 30, "note": "Compare how each pianist gives weight to the phrase beneath the figuration. Alignment is provisional; do not compare the transfers’ raw loudness." },
+    { "label": "Renewed opening material", "t": 60, "note": "Listen for the familiar gesture as activity resumes. The automatic map places this region near Cortot 54 seconds, not at a certified bar line." },
+    { "label": "Towards the final span", "t": 96, "note": "Compare the forward motion of the closing figures. Cortot’s point is about 85 seconds; precise ending rubato is not established by this map." }
+  ],
+  "sources": [
+    { "title": "DAHR: Victor matrix B-23953, take 2, 22 April 1920; both études on Victor 64989", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700009148/B-23953-Etude_in_G_flat_op._10_no._5_Black_keys" },
+    { "title": "DAHR: Victor 64989 issue record; MARC publication field dates the issue to 1920", "url": "https://adp.library.ucsb.edu/index.php/objects/detail/41582" },
+    { "title": "Internet Archive item metadata: 1920 Victor side, transfer chain, no licenceurl or non-commercial licence", "url": "https://archive.org/metadata/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a" },
+    { "title": "Neeman: Commons source date and Musopen’s recording-specific public-domain dedication", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._5_in_G-Flat_major_%27Black_Keys%27_(Edward_Neeman).flac" }
+  ]
+}

@@ -17,6 +17,20 @@ export default {
   },
   intro: 'Chaliapin returns to the folk-song arrangement with Albert Coates in 1927. The 1928 issue supplies the territorial European public-domain basis for this transfer; US recording status is not established.',
   question: 'Where does Chaliapin broaden a phrase in the electrical remake?',
-  sections: [],
-  cues: [],
+  sections: [
+    { t: 0, label: 'Opening and gradual rise', m: 'A', mNote: 'Measured listening span, not a verse boundary' },
+    { t: 50, label: 'First strong crest', m: 'B', mNote: 'Strong measured change followed by high relative level' },
+    { t: 100, label: 'Middle crest', m: 'C', mNote: 'A later recorded swell, without a word-level alignment' },
+    { t: 140, label: 'Last high-level span', m: 'D', mNote: 'Relative level stays high before the withdrawal' },
+    { t: 160, label: 'Closing withdrawal', m: 'E', mNote: 'Recorded level recedes towards the end of the side' },
+  ],
+  cues: [
+    { t: 0, kind: 'listen', title: 'The arrangement returns', text: 'Chaliapin sings the same folk-song arrangement with Albert Coates five years after the acoustic side. Compare the shaping of the bass line, remembering that conductor, recording process and transfer have changed as well as the performance date.', basis: 'documented', precision: 'passage', evidence: 'The source identifies Chaliapin, Coates, the arrangers and 20 October 1927: https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051. It does not name the orchestra.' },
+    { t: 35, kind: 'listen', title: 'Carry the repeated line', text: 'Through the opening, follow the spaces between the sung phrases as well as their sustained notes. Repeated material gives the singer several opportunities to alter emphasis without changing the song’s identity.', basis: 'general', precision: 'passage', evidence: 'This is a passage-level listening suggestion for the documented folk-song arrangement. The analysis places a measured change near 0:42 but does not identify a particular word, breath or verse.' },
+    { t: 60, kind: 'music', title: 'An early crest', text: 'The recorded level reaches an early crest and then recedes. Compare the length of this rise and withdrawal with 1922, rather than ranking the transfers by apparent volume.', basis: 'audio-feature', precision: 'passage', evidence: 'cache/analysis/volga-boatmen-chaliapin-1927.txt: a strong boundary at 0:50 leads towards the high-level 1:00 window; level falls from −9.2 to −17.9 dB by 1:05. Levels are relative within this recording.' },
+    { t: 105, kind: 'music', title: 'The middle swell', text: 'The middle stretch carries another broad increase in recorded level. Listen through its crest to the retreat afterwards, keeping the vocal line distinct from the orchestral support.', basis: 'audio-feature', precision: 'passage', evidence: 'The report lists 1:40 and 1:45 among its loudest windows, with a drop at 1:50. This does not attribute the level change to a separated voice or instrument.' },
+    { t: 130, kind: 'listen', title: 'A provisional local match', text: 'Repeated harmony makes this part of the automatic map ambiguous. A sudden change in its timing curve is not proof that Chaliapin abruptly changes speed; use the surrounding phrase as the comparison unit.', basis: 'general', precision: 'passage', evidence: 'The mapped path around this recording’s 126–145 seconds includes a plateau and compensating jump in the 1922 reference. High cosine similarity does not resolve repeated harmonic material; local tempo claims are withheld.' },
+    { t: 148, kind: 'music', title: 'The last sustained span', text: 'The recorded level stays comparatively high before a longer withdrawal. Follow how the line carries through this last sustained span rather than listening only for the next strong attack.', basis: 'audio-feature', precision: 'passage', evidence: 'The report remains near −10 to −11 dB at 2:20–2:30, then falls to −19.3 dB at 2:40. No exact word or harmonic arrival is timed.' },
+    { t: 175, kind: 'listen', title: 'Receding into the transfer', text: 'The closing span lowers the recorded level until the musical sound approaches the disc’s residual noise. Compare the scale of that retreat with the acoustic side, not the absolute amount of hiss in either file.', basis: 'audio-feature', precision: 'passage', evidence: 'The report shows a low-level closing region from 2:40, reaching −31.6 dB at 3:10 and −35.5 at 3:20. Alignment ends at 190 seconds; later noise is not matched.' },
+  ],
 };

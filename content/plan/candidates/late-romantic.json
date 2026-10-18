@@ -1,0 +1,3597 @@
+{
+  "cluster": "late-romantic",
+  "researcher": "DiscLate (Claude Sonnet 5.5)",
+  "date": "2026-10-17",
+  "rightsRule": "local://PROGRAM.md “Rights rule (final)”: rule 1 licence covers recording; rule 2 US-published ≤1925; rule 3 EU-published <1963 (territorial).",
+  "summary": {
+    "works": 30,
+    "primaryRecordings": 109,
+    "primaryMinutes": 618,
+    "alternativeRecordings": 33,
+    "alternativeMinutes": 357,
+    "byPriority": {
+      "p1": 13,
+      "p2": 16,
+      "p3": 1
+    },
+    "territorialWorks": 10,
+    "note": "Primary counts exclude one duplicate file (Tchaikovsky 5 first-movement file) and Janáček II (already in content/listen); five other movements already in content/listen (Tchaikovsky 6 IV, Dvořák 9 II, Elgar Nimrod, Scheherazade III, Fauré Agnus Dei) ARE counted, with notes. Single-file sources (Sibelius 2, Elgar Cello Concerto) are counted by movement span."
+  },
+  "gaps": [
+    "R. Strauss tone poems Till Eulenspiegel, Also sprach Zarathustra, Don Quixote, Ein Heldenleben: no usable recording found. Commons has only 86-second royalty-free Zarathustra intro excerpts (CC BY, Kevin MacLeod) and a synthetic file; Archive has only post-1925 Victor/Telefunken sets (e.g. Mengelberg Heldenleben 1928) without a free licence or rule-3 basis. (Till already exists with the Navy Band.)",
+    "R. Strauss conducting: his 1917 DG sides (Berlin), Dec 1921 Brunswick sides (Salome, Bourgeois gentilhomme) and Jan 1922 Columbia sides (Don Juan, Rosenkavalier waltzes, Salome) exist per Pristine PASC175 and DAHR but were NOT found free on Commons or the Internet Archive; only the April 1926 Tivoli Rosenkavalier sides were found (2 of 6).",
+    "Pictures at an Exhibition, solo-piano original: no real piano recording is free. Commons holds MIDI-rendered (piano-midi.de), software-synthesised (Pracchia, MuseScore) and two-piano-transcription files only.",
+    "Pictures at an Exhibition, Ravel: the Skidmore College Orchestra set is orchestral but the orchestration is not stated anywhere; Karajan’s LP rests on an unverified EU-1957 publication date. Koussevitzky 1930, Stokowski 1939, Ormandy/Cailliet 1937 and Rodzinski 1945 items are US-published after 1925 or carry CC BY-NC-SA on the Internet Archive, hence excluded.",
+    "Sibelius Symphony 2: only Monteux/LSO 1958 (single file, publication date unverified) and Sargent/BBC SO (LP rip, date unverified). Koussevitzky 1935 is CC BY-NC-ND (excluded); Kajanus item is a 1:32 excerpt. Swan of Tuonela, Karelia, Violin Concerto, Tapiola, En saga: only post-1925 items without a free licence or NC-licensed items.",
+    "Elgar conducting pre-1926: only the abridged Cello Concerto (Harrison, 1919–20) and the Starlight Express sides (Feb 1916) were found. Elgar’s 1914–25 acoustic orchestral discs (Carissima, Pomp and Circumstance No. 1, Chanson de matin, Bavarian Dances, Enigma Nimrod/Dorabella 1920) were not located free; his later electrical recordings (1926–33) are not 1925-free.",
+    "Scriabin playing: only three short Welte-Mignon roll files (Op. 11/1, Op. 11/2, Op. 40/2) exist on Commons, tagged {{PD-old}} only with undocumented playback provenance. No Scriabin orchestral work (Poème de l’extase, Prometheus, Piano Concerto) has a free recording: Goossens 1958 and Stokowski 1959 LP rips lack licence and EU-1958/59 publication evidence.",
+    "Rimsky-Korsakov: only Scheherazade (CC0, 1942) and Russian Easter Overture (not listed as a work; Musopen Symphony FLAC, 15:36) found; no Capriccio espagnol or Snow Maiden.",
+    "Janáček: violin sonata only movements II and III are on Commons (Wikipedia 10 concert, CC BY-SA 3.0); no string quartets or Taras Bulba free; Sinfonietta rests on a 1947 Czech 78-rpm set (rule-3 inference).",
+    "Tchaikovsky: Symphonies 1 and 2 have no complete free performance found; Symphony 3 exists as “European Archive” Commons files (not checked); Violin Concerto only amateur/MIDI/synthesised items.",
+    "Dvořák Cello Concerto: only a youth-orchestra first movement (Goldstein collection, CC BY-SA 2.0); Slavonic Dances and Humoresque only band/viola-piano arrangements."
+  ],
+  "spare": [
+    "Tchaikovsky: Romeo and Juliet fantasy-overture (Skidmore College Orchestra via Musopen, 18:32, {{PD-author|Musopen}}); 1812 Overture (Skidmore, 16:39).",
+    "Elgar: Pomp and Circumstance No. 1, United States Marine Band (5:46, {{PD-USGov-Marines}}); Land of Hope and Glory, Clara Butt 1911 ({{PD-old}}, 1911); Crown of India suite (US Marine Band).",
+    "Strauss: Burleske, Neal O’Doan with Seattle Philharmonic, Nico Snel, 1991 (21:14, CC BY-SA 2.0); Salome Dance, other Stokowski copies.",
+    "Fauré: Élégie, Op. 24 (Hans Goldstein, cello, and Eli Kalman, piano, 7:06, CC BY-SA 2.0).",
+    "Rimsky-Korsakov: Russian Easter Festival Overture, Musopen Symphony (15:36, {{PD-author|Musopen}}).",
+    "Janáček: Violin Sonata II and III (Halbychová/Martínek, 2011, CC BY-SA 3.0).",
+    "Dvořák: Landon Ronald 1927 electrical New World (Swiss Public Domain Project, {{Pdproject}} {{PD-old-70}}, EU 1927).",
+    "Elgar: Serenade for Strings, Op. 20, United States Army Strings (Commons file titled “mvt-1” but 12:37 long, probably the whole serenade; {{PD-USGov-Military-Army}}): File:Serenade for Strings -mvt-1- Elgar.ogg",
+    "Tchaikovsky: Symphony No. 3 “Polish”, five “European Archive” files via Musopen on Commons (not checked for templates or durations)."
+  ],
+  "works": [
+    {
+      "composer": "tchaikovsky",
+      "work": "Symphony No. 6 in B minor, Op. 74 “Pathétique”",
+      "year": "1893",
+      "priority": 1,
+      "why": "The Pathétique and its dying-away finale; this set completes the existing Finale track, which uses the same Musopen performance.",
+      "complete": true,
+      "set": "tchaikovsky-symphony-6",
+      "movements": [
+        {
+          "movement": "I. Adagio — Allegro non troppo",
+          "source": {
+            "file": "File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - I. Adagio - Allegro non troppo (Musopen Symphony).flac"
+          },
+          "duration": 1051,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No._6_in_B_minor,_Op._74_%27Path%C3%A9tique%27_-_I._Adagio_-_Allegro_non_troppo_(Musopen_Symphony).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen Symphony (orchestra and conductor not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata."
+        },
+        {
+          "movement": "II. Allegro con grazia",
+          "source": {
+            "file": "File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - II. Allegro con grazia (Musopen Symphony).flac"
+          },
+          "duration": 496,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No._6_in_B_minor,_Op._74_%27Path%C3%A9tique%27_-_II._Allegro_con_grazia_(Musopen_Symphony).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen Symphony (orchestra and conductor not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata."
+        },
+        {
+          "movement": "III. Allegro molto vivace",
+          "source": {
+            "file": "File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - III. Allegro molto vivace (Musopen Symphony).flac"
+          },
+          "duration": 593,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No._6_in_B_minor,_Op._74_%27Path%C3%A9tique%27_-_III._Allegro_molto_vivace_(Musopen_Symphony).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen Symphony (orchestra and conductor not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata."
+        },
+        {
+          "movement": "IV. Finale — Adagio lamentoso",
+          "source": {
+            "file": "File:Tchaikovsky - Symphony No. 6 in B minor, Op. 74 'Pathétique' - IV. Finale – Adagio lamentoso (Musopen Symphony).flac"
+          },
+          "duration": 619,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No._6_in_B_minor,_Op._74_%27Path%C3%A9tique%27_-_IV._Finale_%E2%80%93_Adagio_lamentoso_(Musopen_Symphony).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen Symphony (orchestra and conductor not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata.",
+          "note": "Already in the site as content/listen/tchaikovsky-6-finale.mjs (same file)."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Landon Ronald, Royal Albert Hall Orchestra, 1923 (acoustic, HMV D 713–717; US Victor 55240–44)",
+          "complete": "nearly (14-bar cut in finale; only one Scherzo-trio repeat taken)",
+          "movements": [
+            {
+              "movement": "I. Adagio — Allegro non troppo",
+              "source": {
+                "archive": {
+                  "item": "55240-4-tchaikovsky-6-i",
+                  "file": "55240-4 Tchaikovsky 6 (i).mp3"
+                }
+              },
+              "duration": 996,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/55240-4-tchaikovsky-6-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1923,
+                "evidence": "Shellackophile item notes: HMV D 713–717 issued Aug 1923; Victor 55240–55244 issued May 1925; matrices Cc 2463–Cc 2986. https://archive.org/details/55240-4-tchaikovsky-6-i"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "Jan, May and June 1923, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923 transfer; not auditioned; expect narrow band, surface noise."
+            },
+            {
+              "movement": "II. Allegro con grazia",
+              "source": {
+                "archive": {
+                  "item": "55240-4-tchaikovsky-6-i",
+                  "file": "55240-4 Tchaikovsky 6 (ii).mp3"
+                }
+              },
+              "duration": 403,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/55240-4-tchaikovsky-6-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1923,
+                "evidence": "Shellackophile item notes: HMV D 713–717 issued Aug 1923; Victor 55240–55244 issued May 1925; matrices Cc 2463–Cc 2986. https://archive.org/details/55240-4-tchaikovsky-6-i"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "Jan, May and June 1923, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923 transfer; not auditioned; expect narrow band, surface noise."
+            },
+            {
+              "movement": "III. Allegro molto vivace",
+              "source": {
+                "archive": {
+                  "item": "55240-4-tchaikovsky-6-i",
+                  "file": "55240-4 Tchaikovsky 6 (iii).mp3"
+                }
+              },
+              "duration": 521,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/55240-4-tchaikovsky-6-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1923,
+                "evidence": "Shellackophile item notes: HMV D 713–717 issued Aug 1923; Victor 55240–55244 issued May 1925; matrices Cc 2463–Cc 2986. https://archive.org/details/55240-4-tchaikovsky-6-i"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "Jan, May and June 1923, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923 transfer; not auditioned; expect narrow band, surface noise."
+            },
+            {
+              "movement": "IV. Finale — Adagio lamentoso",
+              "source": {
+                "archive": {
+                  "item": "55240-4-tchaikovsky-6-i",
+                  "file": "55240-4 Tchaikovsky 6 (iv).mp3"
+                }
+              },
+              "duration": 505,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/55240-4-tchaikovsky-6-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1923,
+                "evidence": "Shellackophile item notes: HMV D 713–717 issued Aug 1923; Victor 55240–55244 issued May 1925; matrices Cc 2463–Cc 2986. https://archive.org/details/55240-4-tchaikovsky-6-i"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "Jan, May and June 1923, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923 transfer; not auditioned; expect narrow band, surface noise.",
+              "cut": "14 bars cut (mm. 94–107) per transfer notes"
+            }
+          ]
+        },
+        {
+          "label": "Wilhelm Furtwängler, Berlin Philharmonic, Oct–Nov 1938 (Commons upload from EMI/Parlophone)",
+          "complete": true,
+          "flag": "Upstream of the other Commons upload is an Internet Archive \"NEWTRANSFER\" item (series often CC BY-NC-SA) that could not be retrieved; source of this upload is only stated as \"EMI/Parlophone\". Lead to decide.",
+          "movements": [
+            {
+              "movement": "I. Adagio — Allegro non troppo",
+              "source": {
+                "file": "File:Tchaikovsky Symphony No. 6 in B Minor, Op. 74 ＂Pathétique＂： I. Adagio - Allegro non troppo - Furtwangler Berlin Philharmonic.ogg"
+              },
+              "duration": 1207,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_Symphony_No._6_in_B_Minor,_Op._74_%EF%BC%82Path%C3%A9tique%EF%BC%82%EF%BC%9A_I._Adagio_-_Allegro_non_troppo_-_Furtwangler_Berlin_Philharmonic.ogg",
+              "licence": "Commons {{PD-old-70}} {{PD-EU-audio}}",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1938,
+                "territorial": true,
+                "evidence": "Commons file page tags {{PD-EU-audio}}; EU publication 1938 (EMI/Parlophone per Commons)."
+              },
+              "performers": "Berlin Philharmonic Orchestra, Wilhelm Furtwängler",
+              "recorded": "October–November 1938",
+              "quality": "fair",
+              "qualityNote": "1938 shellac-era transfer; not auditioned.",
+              "territorial": true
+            },
+            {
+              "movement": "II. Allegro con grazia",
+              "source": {
+                "file": "File:Tchaikovsky Symphony No. 6 in B Minor, Op. 74 ＂Pathétique＂： II. Allegro con grazia - Furtwangler Berlin Philharmonic.ogg"
+              },
+              "duration": 530,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_Symphony_No._6_in_B_Minor,_Op._74_%EF%BC%82Path%C3%A9tique%EF%BC%82%EF%BC%9A_II._Allegro_con_grazia_-_Furtwangler_Berlin_Philharmonic.ogg",
+              "licence": "Commons {{PD-old-70}} {{PD-EU-audio}}",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1938,
+                "territorial": true,
+                "evidence": "Commons file page tags {{PD-EU-audio}}; EU publication 1938 (EMI/Parlophone per Commons)."
+              },
+              "performers": "Berlin Philharmonic Orchestra, Wilhelm Furtwängler",
+              "recorded": "October–November 1938",
+              "quality": "fair",
+              "qualityNote": "1938 shellac-era transfer; not auditioned.",
+              "territorial": true
+            },
+            {
+              "movement": "III. Allegro molto vivace",
+              "source": {
+                "file": "File:Tchaikovsky Symphony No. 6 in B Minor, Op. 74 ＂Pathétique＂： III. Allegro molto vivace - Furtwangler Berlin Philharmonic.ogg"
+              },
+              "duration": 556,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_Symphony_No._6_in_B_Minor,_Op._74_%EF%BC%82Path%C3%A9tique%EF%BC%82%EF%BC%9A_III._Allegro_molto_vivace_-_Furtwangler_Berlin_Philharmonic.ogg",
+              "licence": "Commons {{PD-old-70}} {{PD-EU-audio}}",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1938,
+                "territorial": true,
+                "evidence": "Commons file page tags {{PD-EU-audio}}; EU publication 1938 (EMI/Parlophone per Commons)."
+              },
+              "performers": "Berlin Philharmonic Orchestra, Wilhelm Furtwängler",
+              "recorded": "October–November 1938",
+              "quality": "fair",
+              "qualityNote": "1938 shellac-era transfer; not auditioned.",
+              "territorial": true
+            },
+            {
+              "movement": "IV. Finale — Adagio lamentoso",
+              "source": {
+                "file": "File:Tchaikovsky Symphony No. 6 in B Minor, Op. 74 ＂Pathétique＂： IV. Finale. Adagio lamentoso - Andante - Furtwangler Berlin Philharmonic.ogg"
+              },
+              "duration": 624,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_Symphony_No._6_in_B_Minor,_Op._74_%EF%BC%82Path%C3%A9tique%EF%BC%82%EF%BC%9A_IV._Finale._Adagio_lamentoso_-_Andante_-_Furtwangler_Berlin_Philharmonic.ogg",
+              "licence": "Commons {{PD-old-70}} {{PD-EU-audio}}",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1938,
+                "territorial": true,
+                "evidence": "Commons file page tags {{PD-EU-audio}}; EU publication 1938 (EMI/Parlophone per Commons)."
+              },
+              "performers": "Berlin Philharmonic Orchestra, Wilhelm Furtwängler",
+              "recorded": "October–November 1938",
+              "quality": "fair",
+              "qualityNote": "1938 shellac-era transfer; not auditioned.",
+              "territorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "tchaikovsky",
+      "work": "Piano Concerto No. 1 in B♭ minor, Op. 23",
+      "year": "1874–75",
+      "priority": 1,
+      "why": "The most famous piano concerto; three movements on Commons under CC0, ready for the concert.",
+      "complete": true,
+      "set": "tchaikovsky-piano-concerto-1",
+      "movements": [
+        {
+          "movement": "I. Allegro non troppo e molto maestoso — Allegro con spirito",
+          "source": {
+            "file": "File:Tchaikovsky, Concerto No.1 in B-flat minor Op.23, I. Allegro.ogg"
+          },
+          "duration": 1127,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Concerto_No.1_in_B-flat_minor_Op.23,_I._Allegro.ogg",
+          "licence": "CC0 (Commons {{Cc-zero}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-zero}}"
+          },
+          "performers": "Musopen recording; soloist, orchestra and conductor not named on Commons",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "Unknown provenance and date; not auditioned; confirm soloist by ear."
+        },
+        {
+          "movement": "II. Andantino semplice — Prestissimo",
+          "source": {
+            "file": "File:Tchaikovsky, Concerto No.1 in B-flat minor Op.23, II. Andantino.ogg"
+          },
+          "duration": 388,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Concerto_No.1_in_B-flat_minor_Op.23,_II._Andantino.ogg",
+          "licence": "CC0 (Commons {{Cc-zero}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-zero}}"
+          },
+          "performers": "Musopen recording; soloist, orchestra and conductor not named on Commons",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "Unknown provenance and date; not auditioned; confirm soloist by ear."
+        },
+        {
+          "movement": "III. Allegro con fuoco",
+          "source": {
+            "file": "File:Tchaikovsky, Concerto No.1 in B-flat minor Op.23, III. Allegro.ogg"
+          },
+          "duration": 370,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Concerto_No.1_in_B-flat_minor_Op.23,_III._Allegro.ogg",
+          "licence": "CC0 (Commons {{Cc-zero}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-zero}}"
+          },
+          "performers": "Musopen recording; soloist, orchestra and conductor not named on Commons",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "Unknown provenance and date; not auditioned; confirm soloist by ear."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "tchaikovsky",
+      "work": "Symphony No. 4 in F minor, Op. 36",
+      "year": "1877–78",
+      "priority": 2,
+      "why": "The first of the three late symphonies; a complete four-movement Commons set, plus Beecham’s 1957–58 Royal Philharmonic performance as a comparison.",
+      "complete": true,
+      "set": "tchaikovsky-symphony-4",
+      "movements": [
+        {
+          "movement": "I. Andante sostenuto — Moderato con anima",
+          "source": {
+            "file": "File:P.I. Tchalkovsky Symphony No.4 in F Minor Op.36 I. Andante sossenuto (Tchaikovsky) European Archive.ogg"
+          },
+          "duration": 1052,
+          "performers": "“European Archives” (Musopen upload); orchestra and conductor not named on Commons",
+          "recorded": "not stated (PD-EU-audio implies first publication before 1963; INFERENCE)",
+          "licence": "Commons {{PD-EU-audio}}",
+          "territorial": true,
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "territorial": true,
+            "evidence": "Commons file page tags {{PD-EU-audio}} (template read for movement I; II–IV same uploader batch, dated 2021-01-30). Recording date and publication year are NOT stated, so rule 3 is documented only by the template."
+          },
+          "quality": "fair",
+          "qualityNote": "LP-era recording of unknown date; not auditioned."
+        },
+        {
+          "movement": "II. Andantino in modo di canzona",
+          "source": {
+            "file": "File:P.I. Tchalkovsky Symphony No.4 in F Minor Op.36 II. Andantino (Tchaikovsky) European Archive.ogg"
+          },
+          "duration": 547,
+          "performers": "“European Archives” (Musopen upload); orchestra and conductor not named on Commons",
+          "recorded": "not stated (PD-EU-audio implies first publication before 1963; INFERENCE)",
+          "licence": "Commons {{PD-EU-audio}}",
+          "territorial": true,
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "territorial": true,
+            "evidence": "Commons file page tags {{PD-EU-audio}} (template read for movement I; II–IV same uploader batch, dated 2021-01-30). Recording date and publication year are NOT stated, so rule 3 is documented only by the template."
+          },
+          "quality": "fair",
+          "qualityNote": "LP-era recording of unknown date; not auditioned."
+        },
+        {
+          "movement": "III. Scherzo: Pizzicato ostinato — Allegro",
+          "source": {
+            "file": "File:P.I. Tchaikovsky Symphony No.4 in F minor Op.36 III. Scherzo (Tchaikovsky) European Archive.ogg"
+          },
+          "duration": 344,
+          "performers": "“European Archives” (Musopen upload); orchestra and conductor not named on Commons",
+          "recorded": "not stated (PD-EU-audio implies first publication before 1963; INFERENCE)",
+          "licence": "Commons {{PD-EU-audio}}",
+          "territorial": true,
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "territorial": true,
+            "evidence": "Commons file page tags {{PD-EU-audio}} (template read for movement I; II–IV same uploader batch, dated 2021-01-30). Recording date and publication year are NOT stated, so rule 3 is documented only by the template."
+          },
+          "quality": "fair",
+          "qualityNote": "LP-era recording of unknown date; not auditioned."
+        },
+        {
+          "movement": "IV. Finale: Allegro con fuoco",
+          "source": {
+            "file": "File:P.I. Tchalkovsky Symphony No.4 in F Minor Op.36 IV. Finale Allegro con fuocco (Tchaikovsky) European Archive.ogg"
+          },
+          "duration": 527,
+          "performers": "“European Archives” (Musopen upload); orchestra and conductor not named on Commons",
+          "recorded": "not stated (PD-EU-audio implies first publication before 1963; INFERENCE)",
+          "licence": "Commons {{PD-EU-audio}}",
+          "territorial": true,
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "territorial": true,
+            "evidence": "Commons file page tags {{PD-EU-audio}} (template read for movement I; II–IV same uploader batch, dated 2021-01-30). Recording date and publication year are NOT stated, so rule 3 is documented only by the template."
+          },
+          "quality": "fair",
+          "qualityNote": "LP-era recording of unknown date; not auditioned."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Thomas Beecham, Royal Philharmonic Orchestra, 1957–58 (Commons upload from Classical Music Archive; one 42:28 file)",
+          "complete": true,
+          "flag": "Single file for the whole symphony; the author must slice it.",
+          "movements": [
+            {
+              "movement": "Complete symphony (I–IV in one file)",
+              "source": {
+                "file": "File:Tchaikovsky - Symphony No 4 - Thomas Beecham (1957).ogg"
+              },
+              "duration": 2548,
+              "performers": "Royal Philharmonic Orchestra, Sir Thomas Beecham",
+              "recorded": "Wagram Hall, Paris (Aug/Nov 1957) and Kingsway Hall, London (16 April 1958) per Commons description",
+              "licence": "Commons {{PD-EU-audio}}",
+              "territorial": true,
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "territorial": true,
+                "published": 1958,
+                "evidence": "Commons file tags {{PD-EU-audio}}; session dates 1957–58 per Commons description; publication year not stated (INFERRED ≤1962)."
+              },
+              "quality": "good",
+              "qualityNote": "1957–58 stereo-era EMI; not auditioned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "tchaikovsky",
+      "work": "Symphony No. 5 in E minor, Op. 64",
+      "year": "1888",
+      "priority": 2,
+      "why": "The fate-motto symphony; a complete 1951 Concertgebouw performance, plus Stokowski’s 1923 acoustic Andante cantabile for comparison.",
+      "complete": true,
+      "set": "tchaikovsky-symphony-5",
+      "movements": [
+        {
+          "movement": "I. Andante — Allegro con anima",
+          "source": {
+            "file": "File:Tchaikovsky - Symphony No.5, E minor, Op.64 - van Kempen - Primo movimento.oga"
+          },
+          "duration": 821,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No.5,_E_minor,_Op.64_-_van_Kempen_-_Primo_movimento.oga",
+          "licence": "Commons {{PD-author|Musopen}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1951,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-author|Musopen}} only; recording dated 1951 (Netherlands), so EU rule 3 applies. Weak: Musopen is not the performer."
+          },
+          "performers": "Concertgebouw Orchestra, Paul van Kempen (Commons: “Koninklijk Concertgebouworkest”)",
+          "recorded": "1951",
+          "quality": "fair",
+          "qualityNote": "1951 radio-era recording via Musopen; not auditioned.",
+          "territorial": true,
+          "duplicateOf": "I+II combined file (first 13:41 of it)",
+          "excludeFromTotals": true
+        },
+        {
+          "movement": "I + II combined: I. Andante — Allegro con anima; II. Andante cantabile",
+          "source": {
+            "file": "File:Tchaikovsky - Symphony No.5, E minor, Op.64 - van Kempen - I Andante II Andante.ogg"
+          },
+          "duration": 1337,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No.5,_E_minor,_Op.64_-_van_Kempen_-_I_Andante_II_Andante.ogg",
+          "licence": "Commons {{PD-author|Musopen}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1951,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-author|Musopen}} only; recording dated 1951 (Netherlands), so EU rule 3 applies. Weak: Musopen is not the performer."
+          },
+          "performers": "Concertgebouw Orchestra, Paul van Kempen (Commons: “Koninklijk Concertgebouworkest”)",
+          "recorded": "1951",
+          "quality": "fair",
+          "qualityNote": "1951 radio-era recording via Musopen; not auditioned.",
+          "territorial": true,
+          "note": "One file holds movements I and II; split needed. The standalone first-movement file above is a duplicate of the first part."
+        },
+        {
+          "movement": "III. Valse + IV. Finale combined",
+          "source": {
+            "file": "File:Tchaikovsky - Symphony No.5, E minor, Op.64 - van Kempen - III Allegro IV Andante.ogg"
+          },
+          "duration": 1261,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Symphony_No.5,_E_minor,_Op.64_-_van_Kempen_-_III_Allegro_IV_Andante.ogg",
+          "licence": "Commons {{PD-author|Musopen}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1951,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-author|Musopen}} only; recording dated 1951 (Netherlands), so EU rule 3 applies. Weak: Musopen is not the performer."
+          },
+          "performers": "Concertgebouw Orchestra, Paul van Kempen (Commons: “Koninklijk Concertgebouworkest”)",
+          "recorded": "1951",
+          "quality": "fair",
+          "qualityNote": "1951 radio-era recording via Musopen; not auditioned.",
+          "territorial": true,
+          "note": "One file holds movements III and IV; split needed."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Stokowski, Philadelphia Orchestra, 1923 — II. Andante cantabile only (acoustic, Victor 6430–31)",
+          "complete": "single movement, complete",
+          "movements": [
+            {
+              "movement": "II. Andante cantabile, con alcuna licenza",
+              "source": {
+                "archive": {
+                  "item": "6430-1a-tchaikovsky-5-andante",
+                  "file": "6430-1a Tchaikovsky 5 Andante.mp3"
+                }
+              },
+              "duration": 798,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/6430-1a-tchaikovsky-5-andante",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1924,
+                "evidence": "Shellackophile item notes: issued as Victor 6430 and 6431 in February 1924. https://archive.org/details/6430-1a-tchaikovsky-5-andante"
+              },
+              "performers": "Philadelphia Orchestra, Leopold Stokowski",
+              "recorded": "30 April 1923, Camden NJ (matrices C-27904–C-27906)",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923; not auditioned; expect narrow band and surface noise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "tchaikovsky",
+      "work": "Eugene Onegin, Op. 24 — Tatiana’s Letter Scene",
+      "year": "1877–78",
+      "priority": 2,
+      "why": "Tchaikovsky’s great operatic scene, sung by Claudia Muzio in a 1920–21 acoustic recording (in Italian).",
+      "complete": true,
+      "set": null,
+      "movements": [
+        {
+          "movement": "Letter Scene (“Sei forse l’angelo fedele”, in Italian)",
+          "source": {
+            "file": "File:Tchaikovsky - Tatiana's letter scene from Eugene Onegin - Claudia Muzio (1920).ogg"
+          },
+          "duration": 234,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Tatiana%27s_letter_scene_from_Eugene_Onegin_-_Claudia_Muzio_(1920).ogg",
+          "licence": "Commons {{PD-US}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "Commons {{PD-US}}; source Internet Archive item EDIS-SRP-0197-12 (date 1921, CC public-domain licence URL, matrix 7614-C-3-3). https://archive.org/details/EDIS-SRP-0197-12",
+            "note": "Commons description claims a Met performance on 3 Nov 1920; treat as unverified."
+          },
+          "performers": "Claudia Muzio, soprano (orchestra not credited)",
+          "recorded": "1920–21 (Commons: 3 Nov 1920; archive item date 1921, matrix 7614-C)",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc; not auditioned; expect noise and narrow band."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "dvorak",
+      "work": "Symphony No. 9 in E minor “From the New World”, Op. 95",
+      "year": "1893",
+      "priority": 1,
+      "why": "Extends the existing Largo to the whole symphony; two acoustic complete recordings (Harty 1923, Ronald 1919–21) allow performer comparison.",
+      "complete": true,
+      "set": "dvorak-symphony-9",
+      "movements": [
+        {
+          "movement": "I. Adagio — Allegro molto",
+          "source": {
+            "file": "File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - i. adagio - allegro molto.ogg"
+          },
+          "duration": 605,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_i._adagio_-_allegro_molto.ogg",
+          "licence": "Commons {{PD-author|Musopen}} (all four tagged so; template text read for each)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "Whether the four Commons files come from one Musopen performance is not documented on Commons."
+          },
+          "performers": "Musopen recording; performers not named on Commons",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "Unknown performer; movements may differ in provenance; not auditioned."
+        },
+        {
+          "movement": "II. Largo",
+          "source": {
+            "file": "File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - ii. largo.ogg"
+          },
+          "duration": 694,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_ii._largo.ogg",
+          "licence": "Commons {{PD-author|Musopen}} (all four tagged so; template text read for each)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "Whether the four Commons files come from one Musopen performance is not documented on Commons."
+          },
+          "performers": "Musopen recording; performers not named on Commons",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "Unknown performer; movements may differ in provenance; not auditioned.",
+          "note": "Already in the site as content/listen/dvorak-9-largo.mjs (same file)."
+        },
+        {
+          "movement": "III. Scherzo — Molto vivace",
+          "source": {
+            "file": "File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - iii. molto vivace.ogg"
+          },
+          "duration": 506,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_iii._molto_vivace.ogg",
+          "licence": "Commons {{PD-author|Musopen}} (all four tagged so; template text read for each)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "Whether the four Commons files come from one Musopen performance is not documented on Commons."
+          },
+          "performers": "Musopen recording; performers not named on Commons",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "Unknown performer; movements may differ in provenance; not auditioned."
+        },
+        {
+          "movement": "IV. Allegro con fuoco",
+          "source": {
+            "file": "File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - iv. allegro con fuoco.ogg"
+          },
+          "duration": 703,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_iv._allegro_con_fuoco.ogg",
+          "licence": "Commons {{PD-author|Musopen}} (all four tagged so; template text read for each)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "Whether the four Commons files come from one Musopen performance is not documented on Commons."
+          },
+          "performers": "Musopen recording; performers not named on Commons",
+          "recorded": "",
+          "quality": "fair",
+          "qualityNote": "Unknown performer; movements may differ in provenance; not auditioned."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Hamilton Harty, Hallé Orchestra, 1923 (acoustic; English Columbia L 1523–27; US Columbia Masterworks Set 3, 67000–67004-D)",
+          "complete": true,
+          "movements": [
+            {
+              "movement": "I. Adagio — Allegro molto",
+              "source": {
+                "archive": {
+                  "item": "cm-3-dvorak-new-world-harty-i",
+                  "file": "CM3 Dvorak New World Harty (i).mp3"
+                }
+              },
+              "duration": 516,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/cm-3-dvorak-new-world-harty-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1924,
+                "evidence": "Shellackophile item notes: first issued Feb 1924 as English Columbia L 1523–27, US Nov 1924 as Masterworks Set 3 (67000-D–67004-D); described as the first complete recording. https://archive.org/details/cm-3-dvorak-new-world-harty-i"
+              },
+              "performers": "Hallé Orchestra, Hamilton Harty",
+              "recorded": "10 April 1923 (retakes 23–24 Oct 1923), Petty France Studios, London",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923, US pressing c. 1926; not auditioned; surface noise expected."
+            },
+            {
+              "movement": "II. Largo",
+              "source": {
+                "archive": {
+                  "item": "cm-3-dvorak-new-world-harty-i",
+                  "file": "CM3 Dvorak New World Harty (ii).mp3"
+                }
+              },
+              "duration": 704,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/cm-3-dvorak-new-world-harty-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1924,
+                "evidence": "Shellackophile item notes: first issued Feb 1924 as English Columbia L 1523–27, US Nov 1924 as Masterworks Set 3 (67000-D–67004-D); described as the first complete recording. https://archive.org/details/cm-3-dvorak-new-world-harty-i"
+              },
+              "performers": "Hallé Orchestra, Hamilton Harty",
+              "recorded": "10 April 1923 (retakes 23–24 Oct 1923), Petty France Studios, London",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923, US pressing c. 1926; not auditioned; surface noise expected."
+            },
+            {
+              "movement": "III. Scherzo — Molto vivace",
+              "source": {
+                "archive": {
+                  "item": "cm-3-dvorak-new-world-harty-i",
+                  "file": "CM3 Dvorak New World Harty (iii).mp3"
+                }
+              },
+              "duration": 371,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/cm-3-dvorak-new-world-harty-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1924,
+                "evidence": "Shellackophile item notes: first issued Feb 1924 as English Columbia L 1523–27, US Nov 1924 as Masterworks Set 3 (67000-D–67004-D); described as the first complete recording. https://archive.org/details/cm-3-dvorak-new-world-harty-i"
+              },
+              "performers": "Hallé Orchestra, Hamilton Harty",
+              "recorded": "10 April 1923 (retakes 23–24 Oct 1923), Petty France Studios, London",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923, US pressing c. 1926; not auditioned; surface noise expected."
+            },
+            {
+              "movement": "IV. Allegro con fuoco",
+              "source": {
+                "archive": {
+                  "item": "cm-3-dvorak-new-world-harty-i",
+                  "file": "CM3 Dvorak New World Harty (iv).mp3"
+                }
+              },
+              "duration": 642,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/cm-3-dvorak-new-world-harty-i",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1924,
+                "evidence": "Shellackophile item notes: first issued Feb 1924 as English Columbia L 1523–27, US Nov 1924 as Masterworks Set 3 (67000-D–67004-D); described as the first complete recording. https://archive.org/details/cm-3-dvorak-new-world-harty-i"
+              },
+              "performers": "Hallé Orchestra, Hamilton Harty",
+              "recorded": "10 April 1923 (retakes 23–24 Oct 1923), Petty France Studios, London",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1923, US pressing c. 1926; not auditioned; surface noise expected."
+            }
+          ]
+        },
+        {
+          "label": "Landon Ronald, Royal Albert Hall Orchestra, 1919–21 (acoustic, HMV D 536, 537, 587, 613) — ABRIDGED",
+          "complete": false,
+          "movements": [
+            {
+              "movement": "I. Adagio — Allegro molto",
+              "source": {
+                "archive": {
+                  "item": "d-613-dvorak-new-world-iv",
+                  "file": "D536 Dvorak New World (i).mp3"
+                }
+              },
+              "duration": 462,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/d-613-dvorak-new-world-iv",
+              "licence": "No licence on item; published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1921,
+                "evidence": "Shellackophile item notes: D 536/537 issued April 1921, D 587 Jan 1922, D 613 May 1922 (UK). https://archive.org/details/d-613-dvorak-new-world-iv"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "1 Nov 1919; 8 Sep and 29 Nov 1921, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1919–21; cuts in three movements; not auditioned.",
+              "cut": "36 bars cut (92% complete)"
+            },
+            {
+              "movement": "II. Largo",
+              "source": {
+                "archive": {
+                  "item": "d-613-dvorak-new-world-iv",
+                  "file": "D537 Dvorak New World (ii).mp3"
+                }
+              },
+              "duration": 474,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/d-613-dvorak-new-world-iv",
+              "licence": "No licence on item; published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1921,
+                "evidence": "Shellackophile item notes: D 536/537 issued April 1921, D 587 Jan 1922, D 613 May 1922 (UK). https://archive.org/details/d-613-dvorak-new-world-iv"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "1 Nov 1919; 8 Sep and 29 Nov 1921, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1919–21; cuts in three movements; not auditioned.",
+              "cut": "27 bars cut (79% complete)"
+            },
+            {
+              "movement": "III. Scherzo — Molto vivace",
+              "source": {
+                "archive": {
+                  "item": "d-613-dvorak-new-world-iv",
+                  "file": "D587 Dvorak New World (iii).mp3"
+                }
+              },
+              "duration": 424,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/d-613-dvorak-new-world-iv",
+              "licence": "No licence on item; published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1921,
+                "evidence": "Shellackophile item notes: D 536/537 issued April 1921, D 587 Jan 1922, D 613 May 1922 (UK). https://archive.org/details/d-613-dvorak-new-world-iv"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "1 Nov 1919; 8 Sep and 29 Nov 1921, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1919–21; cuts in three movements; not auditioned.",
+              "cut": "complete apart from beats 2–3 of m. 191"
+            },
+            {
+              "movement": "IV. Allegro con fuoco",
+              "source": {
+                "archive": {
+                  "item": "d-613-dvorak-new-world-iv",
+                  "file": "D613 Dvorak New World (iv).mp3"
+                }
+              },
+              "duration": 488,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/d-613-dvorak-new-world-iv",
+              "licence": "No licence on item; published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1921,
+                "evidence": "Shellackophile item notes: D 536/537 issued April 1921, D 587 Jan 1922, D 613 May 1922 (UK). https://archive.org/details/d-613-dvorak-new-world-iv"
+              },
+              "performers": "Royal Albert Hall Orchestra, Landon Ronald",
+              "recorded": "1 Nov 1919; 8 Sep and 29 Nov 1921, HMV Recording Room 1, Hayes",
+              "quality": "fair",
+              "qualityNote": "Acoustic 1919–21; cuts in three movements; not auditioned.",
+              "cut": "73 bars cut (79% complete)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "dvorak",
+      "work": "Symphony No. 8 in G major, Op. 88",
+      "year": "1889",
+      "priority": 2,
+      "why": "Dvořák’s most Bohemian symphony; a complete four-movement CC-licensed performance (DuPage Symphony, 2006).",
+      "complete": true,
+      "set": "dvorak-symphony-8",
+      "movements": [
+        {
+          "movement": "I. Allegro con brio",
+          "source": {
+            "file": "File:Dvořák, Antonin — Symphony No. 8, Op. 88 — 1. Allegro con brio.ogg"
+          },
+          "duration": 639,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k,_Antonin_%E2%80%94_Symphony_No._8,_Op._88_%E2%80%94_1._Allegro_con_brio.ogg",
+          "licence": "CC BY 3.0 US on Commons ({{Cc-by-3.0-us}}); IMSLP page states CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-by-3.0-us}}",
+            "note": "Licence label differs between Commons (CC BY 3.0 US) and IMSLP (CC BY-SA 3.0); both are free. Source: IMSLP #79947–79950, from archive.org."
+          },
+          "performers": "DuPage Symphony Orchestra, Barbara Schubert (per IMSLP)",
+          "recorded": "7 October 2006 (IMSLP)",
+          "quality": "fair",
+          "qualityNote": "Amateur community orchestra, live-concert recording; not auditioned."
+        },
+        {
+          "movement": "II. Adagio",
+          "source": {
+            "file": "File:Dvořák, Antonin — Symphony No. 8, Op. 88 — 2. adagio.ogg"
+          },
+          "duration": 611,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k,_Antonin_%E2%80%94_Symphony_No._8,_Op._88_%E2%80%94_2._adagio.ogg",
+          "licence": "CC BY 3.0 US on Commons ({{Cc-by-3.0-us}}); IMSLP page states CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-by-3.0-us}}",
+            "note": "Licence label differs between Commons (CC BY 3.0 US) and IMSLP (CC BY-SA 3.0); both are free. Source: IMSLP #79947–79950, from archive.org."
+          },
+          "performers": "DuPage Symphony Orchestra, Barbara Schubert (per IMSLP)",
+          "recorded": "7 October 2006 (IMSLP)",
+          "quality": "fair",
+          "qualityNote": "Amateur community orchestra, live-concert recording; not auditioned."
+        },
+        {
+          "movement": "III. Allegretto grazioso — Molto vivace",
+          "source": {
+            "file": "File:Dvořák, Antonin — Symphony No. 8, Op. 88 — 3. allegretto grazioso.ogg"
+          },
+          "duration": 346,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k,_Antonin_%E2%80%94_Symphony_No._8,_Op._88_%E2%80%94_3._allegretto_grazioso.ogg",
+          "licence": "CC BY 3.0 US on Commons ({{Cc-by-3.0-us}}); IMSLP page states CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-by-3.0-us}}",
+            "note": "Licence label differs between Commons (CC BY 3.0 US) and IMSLP (CC BY-SA 3.0); both are free. Source: IMSLP #79947–79950, from archive.org."
+          },
+          "performers": "DuPage Symphony Orchestra, Barbara Schubert (per IMSLP)",
+          "recorded": "7 October 2006 (IMSLP)",
+          "quality": "fair",
+          "qualityNote": "Amateur community orchestra, live-concert recording; not auditioned."
+        },
+        {
+          "movement": "IV. Allegro ma non troppo",
+          "source": {
+            "file": "File:Dvořák, Antonin — Symphony No. 8, Op. 88 — 4. allegro.ogg"
+          },
+          "duration": 605,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k,_Antonin_%E2%80%94_Symphony_No._8,_Op._88_%E2%80%94_4._allegro.ogg",
+          "licence": "CC BY 3.0 US on Commons ({{Cc-by-3.0-us}}); IMSLP page states CC BY-SA 3.0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-by-3.0-us}}",
+            "note": "Licence label differs between Commons (CC BY 3.0 US) and IMSLP (CC BY-SA 3.0); both are free. Source: IMSLP #79947–79950, from archive.org."
+          },
+          "performers": "DuPage Symphony Orchestra, Barbara Schubert (per IMSLP)",
+          "recorded": "7 October 2006 (IMSLP)",
+          "quality": "fair",
+          "qualityNote": "Amateur community orchestra, live-concert recording; not auditioned."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "dvorak",
+      "work": "String Quartet No. 12 in F major, Op. 96 “American”",
+      "year": "1893",
+      "priority": 2,
+      "why": "Chamber companion to the New World Symphony, written in Spillville, Iowa; complete four movements by the Musopen String Quartet.",
+      "complete": true,
+      "set": "dvorak-quartet-12",
+      "movements": [
+        {
+          "movement": "I. Allegro ma non troppo",
+          "source": {
+            "file": "File:Dvořák - String Quartet No. 12 in F major, Op. 96 'American' - I. Allegro ma non troppo (Musopen String Quartet).flac"
+          },
+          "duration": 476,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k_-_String_Quartet_No._12_in_F_major,_Op._96_%27American%27_-_I._Allegro_ma_non_troppo_(Musopen_String_Quartet).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen String Quartet (players not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata."
+        },
+        {
+          "movement": "II. Lento",
+          "source": {
+            "file": "File:Dvořák - String Quartet No. 12 in F major, Op. 96 'American' - II. Lento (Musopen String Quartet).flac"
+          },
+          "duration": 471,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k_-_String_Quartet_No._12_in_F_major,_Op._96_%27American%27_-_II._Lento_(Musopen_String_Quartet).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen String Quartet (players not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata."
+        },
+        {
+          "movement": "III. Molto vivace",
+          "source": {
+            "file": "File:Dvořák - String Quartet No. 12 in F major, Op. 96 'American' - III. Molto vivace (Musopen String Quartet).flac"
+          },
+          "duration": 250,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k_-_String_Quartet_No._12_in_F_major,_Op._96_%27American%27_-_III._Molto_vivace_(Musopen_String_Quartet).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen String Quartet (players not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata."
+        },
+        {
+          "movement": "IV. Finale — Vivace ma non troppo",
+          "source": {
+            "file": "File:Dvořák - String Quartet No. 12 in F major, Op. 96 'American' - IV. Finale. Vivace ma non troppo (Musopen String Quartet).flac"
+          },
+          "duration": 352,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k_-_String_Quartet_No._12_in_F_major,_Op._96_%27American%27_-_IV._Finale._Vivace_ma_non_troppo_(Musopen_String_Quartet).flac",
+          "licence": "Public domain (Commons {{PD-author|Musopen}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}"
+          },
+          "performers": "Musopen String Quartet (players not named on Commons)",
+          "recorded": "2012",
+          "quality": "good",
+          "qualityNote": "Modern digital FLAC; not auditioned beyond metadata."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "dvorak",
+      "work": "Rusalka, Op. 114 — Song to the Moon",
+      "year": "1900–01",
+      "priority": 2,
+      "why": "The opera’s showpiece sung by Emmy Destinn, a Czech soprano who knew the composer’s circle, in a 1915 Victor recording.",
+      "complete": true,
+      "set": null,
+      "movements": [
+        {
+          "movement": "“Měsíčku na nebi hlubokém” (Song to the Moon), Act I",
+          "source": {
+            "file": "File:Emmy Destinn - Antonin Dvorak - Rusalka - Song to the Moon (restored).ogg"
+          },
+          "duration": 258,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Emmy_Destinn_-_Antonin_Dvorak_-_Rusalka_-_Song_to_the_Moon_(restored).ogg",
+          "licence": "Commons {{PD-US}} {{PD-US-record-expired}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1915,
+            "evidence": "Commons description: Victor 88519, matrix C-14757-3, performed 9 March 1915; Internet Archive source https://archive.org/details/VrsAcoustics-88519-EmmyDestinn",
+            "note": "Commons title gives the German incipit “Lieblicher Mond”: language of the 1915 recording not verified."
+          },
+          "performers": "Emmy Destinn, soprano; orchestra conducted by Walter B. Rogers (Victor 88519)",
+          "recorded": "9 March 1915, Camden NJ (matrix C-14757-3)",
+          "quality": "fair",
+          "qualityNote": "Restored acoustic disc; not auditioned."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "mussorgsky",
+      "work": "Pictures at an Exhibition",
+      "year": "1874 (piano); 1922 (Ravel orchestration)",
+      "priority": 1,
+      "why": "The Hartmann suite complete in 15 movements; Commons has an orchestral Skidmore College performance, plus Karajan’s Ravel recording for comparison.",
+      "complete": true,
+      "set": "mussorgsky-pictures",
+      "movements": [
+        {
+          "movement": "Promenade (Allegro giusto)",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - promenade - allegro giusto, nel modo russico senza allegrezza, ma.ogg"
+          },
+          "duration": 101,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_allegro_giusto,_nel_modo_russico_senza_allegrezza,_ma.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "I. Gnomus",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - i. gnomus - vivo.ogg"
+          },
+          "duration": 162,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_i._gnomus_-_vivo.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "Promenade (Moderato comodo e con delicatezza)",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - promenade - moderato comodo e con delicatezza.ogg"
+          },
+          "duration": 57,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_comodo_e_con_delicatezza.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "II. Il vecchio castello",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - ii. il vecchio castello - andante.ogg"
+          },
+          "duration": 285,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ii._il_vecchio_castello_-_andante.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "Promenade (Moderato non tanto, pesante)",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - promenade - moderato non tanto, pesante.ogg"
+          },
+          "duration": 30,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_moderato_non_tanto,_pesante.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "III. Tuileries",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - iii. tuileries - allegretto non troppo, capriccioso.ogg"
+          },
+          "duration": 62,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iii._tuileries_-_allegretto_non_troppo,_capriccioso.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "IV. Bydło",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - iv. bydlo - sempre moderato, pesante.ogg"
+          },
+          "duration": 139,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_iv._bydlo_-_sempre_moderato,_pesante.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "Promenade (Tranquillo)",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - promenade - tranquillo.ogg"
+          },
+          "duration": 41,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_promenade_-_tranquillo.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "V. Ballet des poussins dans leurs coques",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - v. ballet des poussins dans leurs coques - scherzino. vivo leggiero.ogg"
+          },
+          "duration": 78,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_v._ballet_des_poussins_dans_leurs_coques_-_scherzino._vivo_leggiero.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "VI. Samuel Goldenberg and Schmuÿle",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - vi. samuel goldenberg and schmuyle - andante.ogg"
+          },
+          "duration": 128,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vi._samuel_goldenberg_and_schmuyle_-_andante.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "VII. Limoges. Le marché",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - vii. limoges. le marche - allegretto vivo, sempre scherzando.ogg"
+          },
+          "duration": 100,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_vii._limoges._le_marche_-_allegretto_vivo,_sempre_scherzando.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "VIII. Catacombae. Sepulcrum romanum",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - viii. catacombae. sepulcrum romanum - largo.ogg"
+          },
+          "duration": 113,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_viii._catacombae._sepulcrum_romanum_-_largo.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "Cum mortuis in lingua mortua",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - cum mortuis in lingua mortua - andante non troppo, con lamento.ogg"
+          },
+          "duration": 111,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_cum_mortuis_in_lingua_mortua_-_andante_non_troppo,_con_lamento.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "IX. La cabane sur des pattes de poule (Baba-Yaga)",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - ix. la cabane sur des pattes de poule - allegro con brio, feroce - andante mosso - allegro molto.ogg"
+          },
+          "duration": 212,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_ix._la_cabane_sur_des_pattes_de_poule_-_allegro_con_brio,_feroce_-_andante_mosso_-_allegro_molto.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        },
+        {
+          "movement": "X. La grande porte de Kiev",
+          "source": {
+            "file": "File:Modest Mussorgsky - pictures at an exhibition - x. la grande porte de kiev - allegro alla breve. maestoso. con grandezza.ogg"
+          },
+          "duration": 328,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg",
+          "licence": "Commons {{PD-author|Musopen}}; archive.org copy CC0",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{PD-author|Musopen}}",
+            "note": "archive.org item modest-mussorgsky-pictures-at-an-exhibition-promenade carries CC0 licence URL and credits Skidmore College Orchestra; Free Music Archive album Mussorgskys_Pictures_at_an_Exhibition-2471 lists the same 15 tracks."
+          },
+          "performers": "Skidmore College Orchestra (per Internet Archive/Free Music Archive; Musopen upload)",
+          "recorded": "2008 or earlier (archive.org)",
+          "quality": "fair",
+          "qualityNote": "Student orchestra; orchestration (presumably Ravel) not stated anywhere; not auditioned."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Herbert von Karajan, Philharmonia Orchestra (Ravel orchestration; Internet Archive LP rip, item year 1957) — two LP sides, movements not separated",
+          "complete": true,
+          "flag": "EU rule 3 only: first-publication year taken from the Internet Archive item metadata (1957), not independently verified. Item has no licence URL.",
+          "movements": [
+            {
+              "movement": "Side 1: Promenade, I Gnomus, II Il vecchio castello, III Tuileries, IV Bydło, V Ballet, VI Goldenberg and Schmuÿle (with promenades)",
+              "source": {
+                "archive": {
+                  "item": "lp_pictures-at-an-exhibition_modest-mussorgsky-maurice-ravel-herbert",
+                  "file": "disc1/01.01. No.1 \"Gnomus\"; No.2 \"Il Veccio Castello\"; No.3 \"Tuileries, Disput D'enfants Après Jeux\"; No.4 \"Bydlo\"; No.5 \"Ballet Of The Chicken In Their Shells\"; No.6 \"Samuel Goldenberg And Schmuyle\".mp3"
+                }
+              },
+              "duration": 1139,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/lp_pictures-at-an-exhibition_modest-mussorgsky-maurice-ravel-herbert",
+              "licence": "No licence URL on item",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1957,
+                "territorial": true,
+                "evidence": "Internet Archive item lp_pictures-at-an-exhibition_modest-mussorgsky-maurice-ravel-herbert (date 1957); EU first publication not verified."
+              },
+              "performers": "Philharmonia Orchestra, Herbert von Karajan",
+              "recorded": "(not stated; item year 1957)",
+              "quality": "good",
+              "qualityNote": "Mono/stereo LP transfer; not auditioned.",
+              "territorial": true
+            },
+            {
+              "movement": "Side 2: VII Limoges, VIII Catacombae, IX Baba-Yaga, X Great Gate of Kiev",
+              "source": {
+                "archive": {
+                  "item": "lp_pictures-at-an-exhibition_modest-mussorgsky-maurice-ravel-herbert",
+                  "file": "disc1/02.01. No.7 \"Limoges. Le Marché\"; No.8 \"Catacombs\"; No.9 \"The Hut On Fowls' Legs\"; No.10 \"The Great Gate At Kiew\".mp3"
+                }
+              },
+              "duration": 929,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/lp_pictures-at-an-exhibition_modest-mussorgsky-maurice-ravel-herbert",
+              "licence": "No licence URL on item",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1957,
+                "territorial": true,
+                "evidence": "Internet Archive item lp_pictures-at-an-exhibition_modest-mussorgsky-maurice-ravel-herbert (date 1957); EU first publication not verified."
+              },
+              "performers": "Philharmonia Orchestra, Herbert von Karajan",
+              "recorded": "(not stated; item year 1957)",
+              "quality": "good",
+              "qualityNote": "Mono/stereo LP transfer; not auditioned.",
+              "territorial": true
+            }
+          ]
+        },
+        {
+          "label": "Neal and Nancy O’Doan, two pianos (Russel Warner’s two-piano transcription, not the solo original)",
+          "complete": "3 files covering the suite",
+          "movements": [
+            {
+              "movement": "Part 1 (two-piano transcription)",
+              "source": {
+                "file": "File:Modest Mussorgsky - Pictures at an Exhibition, movement 1.ogg"
+              },
+              "duration": 628,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_Pictures_at_an_Exhibition,_movement_1.ogg",
+              "licence": "CC BY-SA 2.0 (Commons)",
+              "rights": {
+                "basis": "commons-licence",
+                "rule": 1,
+                "template": "CC BY-SA 2.0",
+                "note": "From the Al Goldstein collection, Pandora repository at ibiblio.org."
+              },
+              "performers": "Neal and Nancy O’Doan, two pianos",
+              "recorded": "",
+              "quality": "fair",
+              "qualityNote": "Home/community recording; not auditioned."
+            },
+            {
+              "movement": "Part 2 (two-piano transcription)",
+              "source": {
+                "file": "File:Modest Mussorgsky - Pictures at an Exhibition, movement 2.ogg"
+              },
+              "duration": 400,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_Pictures_at_an_Exhibition,_movement_2.ogg",
+              "licence": "CC BY-SA 2.0 (Commons)",
+              "rights": {
+                "basis": "commons-licence",
+                "rule": 1,
+                "template": "CC BY-SA 2.0",
+                "note": "From the Al Goldstein collection, Pandora repository at ibiblio.org."
+              },
+              "performers": "Neal and Nancy O’Doan, two pianos",
+              "recorded": "",
+              "quality": "fair",
+              "qualityNote": "Home/community recording; not auditioned."
+            },
+            {
+              "movement": "Part 3 (two-piano transcription)",
+              "source": {
+                "file": "File:Modest Mussorgsky - Pictures at an Exhibition, movement 3.ogg"
+              },
+              "duration": 845,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_Pictures_at_an_Exhibition,_movement_3.ogg",
+              "licence": "CC BY-SA 2.0 (Commons)",
+              "rights": {
+                "basis": "commons-licence",
+                "rule": 1,
+                "template": "CC BY-SA 2.0",
+                "note": "From the Al Goldstein collection, Pandora repository at ibiblio.org."
+              },
+              "performers": "Neal and Nancy O’Doan, two pianos",
+              "recorded": "",
+              "quality": "fair",
+              "qualityNote": "Home/community recording; not auditioned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "sibelius",
+      "work": "Finlandia, Op. 26 No. 7",
+      "year": "1899–1900",
+      "priority": 1,
+      "why": "Sibelius’s national anthem-in-all-but-name, in Stokowski’s 1921 acoustic recording, the first American recording of the work.",
+      "complete": "abridged (about 4 minutes)",
+      "set": null,
+      "movements": [
+        {
+          "movement": "Finlandia (abridged, one 12-inch side)",
+          "source": {
+            "archive": {
+              "item": "78_finlandia_philadelphia-symphony-orchestra-sibelius-leopold-stokowski_gbia0298333a",
+              "file": "Finlandia - Philadelphia Symphony Orchestra.mp3"
+            }
+          },
+          "duration": 246,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_finlandia_philadelphia-symphony-orchestra-sibelius-leopold-stokowski_gbia0298333a",
+          "licence": "No licence on item; US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "DAHR matrix C-24988 (first take 15 Mar 1921) https://adp.library.ucsb.edu/index.php/matrix/refer/700010224; Victrola 74698 (Great 78 item, matrix/catalogue 74698); take 4 dated 18 Apr 1921 per Discogs. https://archive.org/details/78_finlandia_philadelphia-symphony-orchestra-sibelius-leopold-stokowski_gbia0298333a",
+            "note": "The separate archive item finlandia-1921 carries CC BY-NC-ND and must NOT be used."
+          },
+          "performers": "Philadelphia Orchestra, Leopold Stokowski",
+          "recorded": "15 March and 18 April 1921, Camden NJ (matrix C-24988)",
+          "quality": "fair",
+          "qualityNote": "Acoustic 1921; abridged; not auditioned; expect narrow band and noise.",
+          "cut": "one-side abridgement"
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "American Symphony Orchestra (Edison), 18 June 1923 — abridged",
+          "complete": false,
+          "movements": [
+            {
+              "movement": "Finlandia (abridged, Edison Diamond Disc 80756)",
+              "source": {
+                "archive": {
+                  "item": "edison-80756_01_9036",
+                  "file": "cusb_ed_80756_01_9036_0b.mp3"
+                }
+              },
+              "duration": 225,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/edison-80756_01_9036",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1923,
+                "evidence": "Internet Archive item edison-80756_01_9036 (UCSB Cylinder/Edison collection; item cites DAHR; matrix 9036, catalogue 80756). https://archive.org/details/edison-80756_01_9036"
+              },
+              "performers": "American Symphony Orchestra (Edison house orchestra); conductor not credited",
+              "recorded": "18 June 1923 (item date)",
+              "quality": "fair",
+              "qualityNote": "Edison acoustic; not auditioned.",
+              "cut": "abridged (3:45)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "sibelius",
+      "work": "Symphony No. 2 in D major, Op. 43",
+      "year": "1901–02",
+      "priority": 1,
+      "why": "Sibelius’s most popular symphony; only a 1958 Decca/RCA recording of the whole work was found free of non-commercial terms.",
+      "complete": true,
+      "set": "sibelius-symphony-2",
+      "movements": [
+        {
+          "movement": "I. Allegretto",
+          "source": {
+            "archive": {
+              "item": "sibelius-2-compl-monteux-lso",
+              "file": "sibelius 2 compl (monteux-lso).mp3"
+            }
+          },
+          "duration": 617,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/sibelius-2-compl-monteux-lso",
+          "span": {
+            "start": 1,
+            "end": 618
+          },
+          "fileDuration": 2637,
+          "licence": "No licence URL on item (folksoundomy collection)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1958,
+            "territorial": true,
+            "evidence": "Item description: “recorded in Kingsway Hall, June 20, 1958”; first EU publication date not verified (probably 1958–59, INFERENCE). https://archive.org/details/sibelius-2-compl-monteux-lso"
+          },
+          "performers": "London Symphony Orchestra, Pierre Monteux (Decca–RCA)",
+          "recorded": "20 June 1958, Kingsway Hall, London",
+          "quality": "good",
+          "qualityNote": "1958 stereo-era Decca; one 44-minute file; not auditioned.",
+          "territorial": true,
+          "flag": "One continuous file for the whole symphony; the author must slice it. Publication date needs checking against a discography before rule 3 can be called documented."
+        },
+        {
+          "movement": "II. Tempo andante, ma rubato",
+          "source": {
+            "archive": {
+              "item": "sibelius-2-compl-monteux-lso",
+              "file": "sibelius 2 compl (monteux-lso).mp3"
+            }
+          },
+          "duration": 876,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/sibelius-2-compl-monteux-lso",
+          "span": {
+            "start": 618,
+            "end": 1494
+          },
+          "fileDuration": 2637,
+          "licence": "No licence URL on item (folksoundomy collection)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1958,
+            "territorial": true,
+            "evidence": "Item description: “recorded in Kingsway Hall, June 20, 1958”; first EU publication date not verified (probably 1958–59, INFERENCE). https://archive.org/details/sibelius-2-compl-monteux-lso"
+          },
+          "performers": "London Symphony Orchestra, Pierre Monteux (Decca–RCA)",
+          "recorded": "20 June 1958, Kingsway Hall, London",
+          "quality": "good",
+          "qualityNote": "1958 stereo-era Decca; one 44-minute file; not auditioned.",
+          "territorial": true,
+          "flag": "One continuous file for the whole symphony; the author must slice it. Publication date needs checking against a discography before rule 3 can be called documented."
+        },
+        {
+          "movement": "III. Vivacissimo",
+          "source": {
+            "archive": {
+              "item": "sibelius-2-compl-monteux-lso",
+              "file": "sibelius 2 compl (monteux-lso).mp3"
+            }
+          },
+          "duration": 374,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/sibelius-2-compl-monteux-lso",
+          "span": {
+            "start": 1494,
+            "end": 1868
+          },
+          "fileDuration": 2637,
+          "licence": "No licence URL on item (folksoundomy collection)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1958,
+            "territorial": true,
+            "evidence": "Item description: “recorded in Kingsway Hall, June 20, 1958”; first EU publication date not verified (probably 1958–59, INFERENCE). https://archive.org/details/sibelius-2-compl-monteux-lso"
+          },
+          "performers": "London Symphony Orchestra, Pierre Monteux (Decca–RCA)",
+          "recorded": "20 June 1958, Kingsway Hall, London",
+          "quality": "good",
+          "qualityNote": "1958 stereo-era Decca; one 44-minute file; not auditioned.",
+          "territorial": true,
+          "flag": "One continuous file for the whole symphony; the author must slice it. Publication date needs checking against a discography before rule 3 can be called documented.",
+          "note": "III and IV run without a break; boundary taken from the uploader’s time stamps (iii at 24:54, iv at 31:08)."
+        },
+        {
+          "movement": "IV. Finale: Allegro moderato",
+          "source": {
+            "archive": {
+              "item": "sibelius-2-compl-monteux-lso",
+              "file": "sibelius 2 compl (monteux-lso).mp3"
+            }
+          },
+          "duration": 769,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/sibelius-2-compl-monteux-lso",
+          "span": {
+            "start": 1868,
+            "end": 2637
+          },
+          "fileDuration": 2637,
+          "licence": "No licence URL on item (folksoundomy collection)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1958,
+            "territorial": true,
+            "evidence": "Item description: “recorded in Kingsway Hall, June 20, 1958”; first EU publication date not verified (probably 1958–59, INFERENCE). https://archive.org/details/sibelius-2-compl-monteux-lso"
+          },
+          "performers": "London Symphony Orchestra, Pierre Monteux (Decca–RCA)",
+          "recorded": "20 June 1958, Kingsway Hall, London",
+          "quality": "good",
+          "qualityNote": "1958 stereo-era Decca; one 44-minute file; not auditioned.",
+          "territorial": true,
+          "flag": "One continuous file for the whole symphony; the author must slice it. Publication date needs checking against a discography before rule 3 can be called documented."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Malcolm Sargent, BBC Symphony Orchestra, c. 1958 (LP rip; labels and exact date not given)",
+          "complete": true,
+          "flag": "Item year 1958 only; label and publication date unverified.",
+          "movements": [
+            {
+              "movement": "I. Allegretto",
+              "source": {
+                "archive": {
+                  "item": "lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s",
+                  "file": "disc1/01.01. Symphony No. 2 In D Major, Op. 43: First Movement: Allegretto.mp3"
+                }
+              },
+              "duration": 592,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s",
+              "licence": "No licence URL on item",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1958,
+                "territorial": true,
+                "evidence": "Internet Archive item lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s (year 1958); EU first publication unverified."
+              },
+              "performers": "BBC Symphony Orchestra, Malcolm Sargent",
+              "recorded": "(item year 1958)",
+              "quality": "good",
+              "qualityNote": "LP transfer; not auditioned.",
+              "territorial": true
+            },
+            {
+              "movement": "II. Tempo andante, ma rubato",
+              "source": {
+                "archive": {
+                  "item": "lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s",
+                  "file": "disc1/01.02. Symphony No. 2 In D Major, Op. 43: Second Movement: Tempo Andante Ma Rubato.mp3"
+                }
+              },
+              "duration": 866,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s",
+              "licence": "No licence URL on item",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1958,
+                "territorial": true,
+                "evidence": "Internet Archive item lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s (year 1958); EU first publication unverified."
+              },
+              "performers": "BBC Symphony Orchestra, Malcolm Sargent",
+              "recorded": "(item year 1958)",
+              "quality": "good",
+              "qualityNote": "LP transfer; not auditioned.",
+              "territorial": true
+            },
+            {
+              "movement": "III. Vivacissimo + IV. Finale (one file)",
+              "source": {
+                "archive": {
+                  "item": "lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s",
+                  "file": "disc1/02.01. Symphony No. 2 In D Major, Op. 43: Third Movement: Vivacissimo Lento E Suave; Fourth Movement: Allegro Moderato.mp3"
+                }
+              },
+              "duration": 1236,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s",
+              "licence": "No licence URL on item",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1958,
+                "territorial": true,
+                "evidence": "Internet Archive item lp_symphony-no-2_jean-sibelius-sir-malcolm-sargent-bbc-s (year 1958); EU first publication unverified."
+              },
+              "performers": "BBC Symphony Orchestra, Malcolm Sargent",
+              "recorded": "(item year 1958)",
+              "quality": "good",
+              "qualityNote": "LP transfer; not auditioned.",
+              "territorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "elgar",
+      "work": "Variations on an Original Theme “Enigma”, Op. 36",
+      "year": "1898–99",
+      "priority": 1,
+      "why": "Elgar’s breakthrough; the whole set of 14 variations extends the existing Nimrod track, same Barbirolli/Hallé performance.",
+      "complete": true,
+      "set": "elgar-enigma",
+      "movements": [
+        {
+          "movement": "I. “C.A.E.” (L’istesso tempo)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme I. C.A.E.ogg"
+          },
+          "duration": 200,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_I._C.A.E.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "II. “H.D.S-P.” (Allegro)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme II. H.D.S.-P.ogg"
+          },
+          "duration": 42,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_II._H.D.S.-P.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "III. “R.B.T.” (Allegretto)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme III. R.B.T.ogg"
+          },
+          "duration": 78,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_III._R.B.T.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "IV. “W.M.B.” (Allegro di molto)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme IV. W.M.B.ogg"
+          },
+          "duration": 28,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IV._W.M.B.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "V. “R.P.A.” (Moderato)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme V. R.P.A.ogg"
+          },
+          "duration": 119,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_V._R.P.A.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "VI. “Ysobel” (Andantino)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme VI. Ysobel.ogg"
+          },
+          "duration": 65,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VI._Ysobel.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "VII. “Troyte” (Presto)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme VII. Troyte.ogg"
+          },
+          "duration": 53,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VII._Troyte.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "VIII. “W.N.” (Allegretto)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme VIII. W.N.ogg"
+          },
+          "duration": 88,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_VIII._W.N.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "IX. “Nimrod” (Adagio)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme IX. Nimrod.ogg"
+          },
+          "duration": 174,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true,
+          "note": "Already in the site as content/listen/elgar-enigma-nimrod.mjs (same file)."
+        },
+        {
+          "movement": "X. “Dorabella” (Intermezzo: Allegretto)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme X. Intermezzo Dorabella.ogg"
+          },
+          "duration": 125,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_X._Intermezzo_Dorabella.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "XI. “G.R.S.” (Allegro di molto)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme XI. G.R.S.ogg"
+          },
+          "duration": 50,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XI._G.R.S.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "XII. “B.G.N.” (Andante)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme XII. B.G.N.ogg"
+          },
+          "duration": 136,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XII._B.G.N.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "XIII. “***” (Romanza: Moderato)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme XIII. Romanza.ogg"
+          },
+          "duration": 132,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XIII._Romanza.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        },
+        {
+          "movement": "XIV. “E.D.U.” (Finale: Allegro)",
+          "source": {
+            "file": "File:Elgar; Enigma variations, Theme XIV. Finale E.D.U.ogg"
+          },
+          "duration": 263,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_XIV._Finale_E.D.U.ogg",
+          "licence": "Commons {{PD-EU-audio}}; archive.org upstream item EdwardElgar-EnigmaVariations carries a public-domain licence URL",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; upstream Internet Archive item https://archive.org/details/EdwardElgar-EnigmaVariations has licenseurl creativecommons.org/licenses/publicdomain; EU publication 1947 assumed from Commons date."
+          },
+          "performers": "Hallé Orchestra, John Barbirolli",
+          "recorded": "1947 (Commons)",
+          "quality": "good",
+          "qualityNote": "1947 78-rpm-era transfer; not auditioned; each variation is its own file.",
+          "territorial": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "elgar",
+      "work": "Cello Concerto in E minor, Op. 85",
+      "year": "1919",
+      "priority": 1,
+      "why": "Elgar conducting the work’s first recording, with Beatrice Harrison, in 1919–20 acoustic sound — the composer-led performance the brief asks for.",
+      "complete": false,
+      "set": "elgar-cello-concerto",
+      "movements": [
+        {
+          "movement": "I. Adagio — Moderato (abridged)",
+          "source": {
+            "archive": {
+              "item": "httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+              "file": "Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3"
+            }
+          },
+          "duration": 240,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+          "span": {
+            "start": 0,
+            "end": 240
+          },
+          "fileDuration": 952,
+          "licence": "No licence URL on item (opensource_audio); US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "Internet Archive item notes: HMV D 541–545, matrices HO 4197-AF, HO 4194-AF, HO 4607-AF, HO 4198-AF; “First Recording”; item dated 1921; side timings 4:00, 3:52, 3:58, 4:00. https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545"
+          },
+          "performers": "Beatrice Harrison, cello; Symphony Orchestra conducted by Sir Edward Elgar",
+          "recorded": "22 December 1919 and 16 November 1920, Hayes, Middlesex (acoustic)",
+          "quality": "poor",
+          "qualityNote": "Acoustic 1919–20, abridged to about half; not auditioned; narrow band.",
+          "cut": "heavily abridged",
+          "flag": "One continuous 15:52 file for four abridged sides; movement spans are INFERRED from the side timings in the item description (4:00, 3:52, 3:58, 4:00) and need checking by ear."
+        },
+        {
+          "movement": "II. Lento — Allegro molto (abridged)",
+          "source": {
+            "archive": {
+              "item": "httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+              "file": "Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3"
+            }
+          },
+          "duration": 232,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+          "span": {
+            "start": 240,
+            "end": 472
+          },
+          "fileDuration": 952,
+          "licence": "No licence URL on item (opensource_audio); US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "Internet Archive item notes: HMV D 541–545, matrices HO 4197-AF, HO 4194-AF, HO 4607-AF, HO 4198-AF; “First Recording”; item dated 1921; side timings 4:00, 3:52, 3:58, 4:00. https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545"
+          },
+          "performers": "Beatrice Harrison, cello; Symphony Orchestra conducted by Sir Edward Elgar",
+          "recorded": "22 December 1919 and 16 November 1920, Hayes, Middlesex (acoustic)",
+          "quality": "poor",
+          "qualityNote": "Acoustic 1919–20, abridged to about half; not auditioned; narrow band.",
+          "cut": "abridged",
+          "flag": "One continuous 15:52 file for four abridged sides; movement spans are INFERRED from the side timings in the item description (4:00, 3:52, 3:58, 4:00) and need checking by ear."
+        },
+        {
+          "movement": "III. Adagio (abridged)",
+          "source": {
+            "archive": {
+              "item": "httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+              "file": "Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3"
+            }
+          },
+          "duration": 238,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+          "span": {
+            "start": 472,
+            "end": 710
+          },
+          "fileDuration": 952,
+          "licence": "No licence URL on item (opensource_audio); US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "Internet Archive item notes: HMV D 541–545, matrices HO 4197-AF, HO 4194-AF, HO 4607-AF, HO 4198-AF; “First Recording”; item dated 1921; side timings 4:00, 3:52, 3:58, 4:00. https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545"
+          },
+          "performers": "Beatrice Harrison, cello; Symphony Orchestra conducted by Sir Edward Elgar",
+          "recorded": "22 December 1919 and 16 November 1920, Hayes, Middlesex (acoustic)",
+          "quality": "poor",
+          "qualityNote": "Acoustic 1919–20, abridged to about half; not auditioned; narrow band.",
+          "cut": "abridged",
+          "flag": "One continuous 15:52 file for four abridged sides; movement spans are INFERRED from the side timings in the item description (4:00, 3:52, 3:58, 4:00) and need checking by ear."
+        },
+        {
+          "movement": "IV. Allegro — Moderato — Allegro ma non troppo — Poco più mosso — Adagio (abridged)",
+          "source": {
+            "archive": {
+              "item": "httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+              "file": "Elgar_Concerto-for-Violoncello-and-Orchestra-in-E-minor-Op85_HMV_D541-545.mp3"
+            }
+          },
+          "duration": 242,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
+          "span": {
+            "start": 710,
+            "end": 952
+          },
+          "fileDuration": 952,
+          "licence": "No licence URL on item (opensource_audio); US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "Internet Archive item notes: HMV D 541–545, matrices HO 4197-AF, HO 4194-AF, HO 4607-AF, HO 4198-AF; “First Recording”; item dated 1921; side timings 4:00, 3:52, 3:58, 4:00. https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545"
+          },
+          "performers": "Beatrice Harrison, cello; Symphony Orchestra conducted by Sir Edward Elgar",
+          "recorded": "22 December 1919 and 16 November 1920, Hayes, Middlesex (acoustic)",
+          "quality": "poor",
+          "qualityNote": "Acoustic 1919–20, abridged to about half; not auditioned; narrow band.",
+          "cut": "abridged",
+          "flag": "One continuous 15:52 file for four abridged sides; movement spans are INFERRED from the side timings in the item description (4:00, 3:52, 3:58, 4:00) and need checking by ear."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Skidmore College Orchestra (Musopen) — IV. Allegro only",
+          "complete": "one movement",
+          "movements": [
+            {
+              "movement": "IV. Allegro — Moderato — Allegro ma non troppo — Poco più mosso — Adagio",
+              "source": {
+                "file": "File:Edward Elgar - cello concerto in e minor, op. 85 - iv. allegro.ogg"
+              },
+              "duration": 694,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:Edward_Elgar_-_cello_concerto_in_e_minor,_op._85_-_iv._allegro.ogg",
+              "licence": "Commons {{PD-author|Musopen}}",
+              "rights": {
+                "basis": "commons-licence",
+                "rule": 1,
+                "template": "{{PD-author|Musopen}}"
+              },
+              "performers": "Skidmore College Orchestra (cello soloist not named)",
+              "recorded": "",
+              "quality": "fair",
+              "qualityNote": "Student orchestra; finale only; not auditioned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "richard-strauss",
+      "work": "Don Juan, Op. 20",
+      "year": "1888",
+      "priority": 1,
+      "why": "The tone poem that made Strauss famous, in an acoustic 1922 recording by Albert Coates, the earliest complete Don Juan on the archive.",
+      "complete": "likely cut (14:09 for four sides; typical length about 17 minutes)",
+      "set": null,
+      "movements": [
+        {
+          "movement": "Don Juan (four 12-inch sides)",
+          "source": {
+            "archive": {
+              "item": "1922-don-juan-richard-strauss-albert-coates-and-victor-symphony-vic-55176-77-4-sides",
+              "file": "1922 Don Juan - Richard Strauss - Albert Coates and Victor Symphony VIC 55176-77 4 sides.mp3"
+            }
+          },
+          "duration": 849,
+          "itemLicenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "itemUrl": "https://archive.org/details/1922-don-juan-richard-strauss-albert-coates-and-victor-symphony-vic-55176-77-4-sides",
+          "licence": "Public Domain Mark (uploader’s licence URL); US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1922,
+            "evidence": "Internet Archive item (Animating Apothecary Archives, licenseurl publicdomain/mark/1.0): “ca 1922… Victor 55176-77 4 sides”. Victor blue-label 55xxx reissued HMV discs (cf. 55240–44 = HMV D 713–717), so the orchestra is probably HMV’s house orchestra (INFERENCE). https://archive.org/details/1922-don-juan-richard-strauss-albert-coates-and-victor-symphony-vic-55176-77-4-sides"
+          },
+          "performers": "Albert Coates; orchestra credited by the uploader as “Victor Symphony” (Victor 55176–55177)",
+          "recorded": "c. 1922 (item date 1922-05)",
+          "quality": "fair",
+          "qualityNote": "Acoustic c. 1922; some filtering per uploader; not auditioned.",
+          "cut": "duration suggests cuts; verify"
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "richard-strauss",
+      "work": "Tod und Verklärung, Op. 24",
+      "year": "1888–89",
+      "priority": 2,
+      "why": "Strauss’s tone poem of dying and transfiguration, in a 1923 acoustic recording by Albert Coates with one documented cut.",
+      "complete": "abridged (one cut of just over four score pages before the final section)",
+      "set": null,
+      "movements": [
+        {
+          "movement": "Tod und Verklärung (four sides, HMV D 743–744)",
+          "source": {
+            "archive": {
+              "item": "d-743-4-tod-und-verklarung",
+              "file": "D743-4 Tod und Verklarung.mp3"
+            }
+          },
+          "duration": 1063,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/d-743-4-tod-und-verklarung",
+          "licence": "No licence on item; US/UK-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1923,
+            "evidence": "Shellackophile item notes: first issued as HMV D 743–744 in Oct 1923 and as Victor 55264–55265 in Aug 1925; matrices Cc 2897-3, Cc 2901-1, Cc 2902-1, Cc 2970-2. https://archive.org/details/d-743-4-tod-und-verklarung"
+          },
+          "performers": "Symphony Orchestra conducted by Albert Coates",
+          "recorded": "27 April and 11 May 1923, Gramophone Co. Recording Room 1, Hayes",
+          "quality": "fair",
+          "qualityNote": "Acoustic 1923 from a slightly battered copy; not auditioned.",
+          "cut": "cut between Parts 3 and 4 of just over four pages (introduction to final section)"
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "richard-strauss",
+      "work": "Salome, Op. 54 — Dance of the Seven Veils",
+      "year": "1905",
+      "priority": 2,
+      "why": "Stokowski’s 1921 Victor record, the earliest orchestral Salome dance found; shows how Strauss’s orchestra sounded to Americans before electrical recording.",
+      "complete": "abridged (two 12-inch sides, about 7½ minutes)",
+      "set": null,
+      "movements": [
+        {
+          "movement": "Part 1 (Victor 74729)",
+          "source": {
+            "archive": {
+              "item": "78_salomes-dance_philadelphia-symphony-orchestra-richard-strauss-leopold-stokowski_gbia0459869a",
+              "file": "Salome's Dance - Philadelphia Symphony Orchestra.mp3"
+            }
+          },
+          "duration": 269,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_salomes-dance_philadelphia-symphony-orchestra-richard-strauss-leopold-stokowski_gbia0459869a",
+          "licence": "No licence on item; US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "DAHR matrix C-25788, take 3 master, Victor 74729, 12/5/1921 https://adp.library.ucsb.edu/index.php/matrix/refer/700011052 (C-25789 is part 2); Great 78 items catalogue 74729/74730."
+          },
+          "performers": "Philadelphia Orchestra, Leopold Stokowski",
+          "recorded": "5 December 1921, Camden NJ (matrices C-25788, C-25789)",
+          "quality": "fair",
+          "qualityNote": "Acoustic 1921; abridged; not auditioned.",
+          "cut": "abridged"
+        },
+        {
+          "movement": "Part 2 (Victor 74730)",
+          "source": {
+            "archive": {
+              "item": "78_salomes-dance_philadelphia-symphony-orchestra-richard-strauss-leopold-stokowski_gbia0459870a",
+              "file": "Salome's Dance - Philadelphia Symphony Orchestra.mp3"
+            }
+          },
+          "duration": 179,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_salomes-dance_philadelphia-symphony-orchestra-richard-strauss-leopold-stokowski_gbia0459870a",
+          "licence": "No licence on item; US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1921,
+            "evidence": "DAHR matrix C-25788, take 3 master, Victor 74729, 12/5/1921 https://adp.library.ucsb.edu/index.php/matrix/refer/700011052 (C-25789 is part 2); Great 78 items catalogue 74729/74730."
+          },
+          "performers": "Philadelphia Orchestra, Leopold Stokowski",
+          "recorded": "5 December 1921, Camden NJ (matrices C-25788, C-25789)",
+          "quality": "fair",
+          "qualityNote": "Acoustic 1921; abridged; not auditioned.",
+          "cut": "abridged"
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "richard-strauss",
+      "work": "Der Rosenkavalier — waltz sequence and Presentation of the Rose (orchestral suite)",
+      "year": "1910–11 (suite arranged 1926)",
+      "priority": 2,
+      "why": "Strauss conducting his own music: the April 1926 Queen’s Hall recordings, the nearest in-scope sound to the composer’s own hands.",
+      "complete": "two of the six sides of HMV D 1094–1096 found",
+      "set": "strauss-rosenkavalier-1926",
+      "movements": [
+        {
+          "movement": "Waltz sequence (Electrola EJ 35, matrix CR 280-II)",
+          "source": {
+            "archive": {
+              "item": "ej-35-strauss-walzer",
+              "file": "EJ 35 Strauss Walzer.mp3"
+            }
+          },
+          "duration": 252,
+          "itemLicenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+          "itemUrl": "https://archive.org/details/ej-35-strauss-walzer",
+          "licence": "Public Domain Mark (uploader’s licence URL, Emilio’s heritage collection)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1926,
+            "territorial": true,
+            "evidence": "Internet Archive items ej-35-strauss-walzer and ej-35-strauss-rosenuberreichung carry licenseurl publicdomain/mark/1.0; session dates, matrices (CR 280-II etc.) and HMV D 1094–1096 per Pristine Classical PASC175 https://www.pristineclassical.com/products/pasc175. Post-1925 so US status NOT established."
+          },
+          "performers": "Augmented Tivoli Orchestra, conducted by Richard Strauss",
+          "recorded": "13–14 April 1926, Queen’s Hall, London (early electrical)",
+          "quality": "good",
+          "qualityNote": "1926 electrical, “astonishingly vivid” per Pristine; not auditioned.",
+          "territorial": true
+        },
+        {
+          "movement": "Presentation of the Silver Rose",
+          "source": {
+            "archive": {
+              "item": "ej-35-strauss-rosenuberreichung",
+              "file": "EJ 35 Strauss Rosenüberreichung.mp3"
+            }
+          },
+          "duration": 297,
+          "itemLicenceUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+          "itemUrl": "https://archive.org/details/ej-35-strauss-rosenuberreichung",
+          "licence": "Public Domain Mark (uploader’s licence URL, Emilio’s heritage collection)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1926,
+            "territorial": true,
+            "evidence": "Internet Archive items ej-35-strauss-walzer and ej-35-strauss-rosenuberreichung carry licenseurl publicdomain/mark/1.0; session dates, matrices (CR 280-II etc.) and HMV D 1094–1096 per Pristine Classical PASC175 https://www.pristineclassical.com/products/pasc175. Post-1925 so US status NOT established."
+          },
+          "performers": "Augmented Tivoli Orchestra, conducted by Richard Strauss",
+          "recorded": "13–14 April 1926, Queen’s Hall, London (early electrical)",
+          "quality": "good",
+          "qualityNote": "1926 electrical, “astonishingly vivid” per Pristine; not auditioned.",
+          "territorial": true
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Great 78 Project copies of D 1094 (waltz movements; presentation of the Silver Rose)",
+          "complete": "same two sides",
+          "movements": [
+            {
+              "movement": "Waltz movements (D 1094, matrix 4-0829)",
+              "source": {
+                "archive": {
+                  "item": "78_rosenkavalier-waltz-movements_augmented-tivoli-orchestra-richard-strauss-dr-rich_gbia7026470a",
+                  "file": "\"ROSENKAVALIER\"-Waltz movemen - AUGMENTED TIVOLI ORCHESTRA.mp3"
+                }
+              },
+              "duration": 253,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/78_rosenkavalier-waltz-movements_augmented-tivoli-orchestra-richard-strauss-dr-rich_gbia7026470a",
+              "licence": "No licence on item",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1926,
+                "territorial": true,
+                "evidence": "Great 78 items; matrices 4-0829/4-0830, catalogue D 1094; EU rule 3."
+              },
+              "performers": "Augmented Tivoli Orchestra, Richard Strauss",
+              "recorded": "13–14 April 1926, Queen’s Hall, London",
+              "quality": "good",
+              "qualityNote": "George Blood transfer; not auditioned.",
+              "territorial": true
+            },
+            {
+              "movement": "Presentation of the Silver Rose (matrix 4-0830)",
+              "source": {
+                "archive": {
+                  "item": "78_rosenkavalier-the-presentation-of-the-silver-rose_augmented-tivoli-orchestra-rich_gbia7026470b",
+                  "file": "\"ROSENKAVALIER\"-The presentat - AUGMENTED TIVOLI ORCHESTRA.mp3"
+                }
+              },
+              "duration": 297,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/78_rosenkavalier-the-presentation-of-the-silver-rose_augmented-tivoli-orchestra-rich_gbia7026470b",
+              "licence": "No licence on item",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1926,
+                "territorial": true,
+                "evidence": "Great 78 items; matrices 4-0829/4-0830, catalogue D 1094; EU rule 3."
+              },
+              "performers": "Augmented Tivoli Orchestra, Richard Strauss",
+              "recorded": "13–14 April 1926, Queen’s Hall, London",
+              "quality": "good",
+              "qualityNote": "George Blood transfer; not auditioned.",
+              "territorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "puccini",
+      "work": "Manon Lescaut — “Donna non vidi mai”",
+      "year": "1893",
+      "priority": 2,
+      "why": "Puccini’s first great success, in Caruso’s 1913 Victor recording; his 1902 acoustic version is offered for comparison.",
+      "complete": true,
+      "set": null,
+      "movements": [
+        {
+          "movement": "“Donna non vidi mai” (Act I)",
+          "source": {
+            "file": "File:Enrico Caruso, Donna non vidi mai (Manon Lescaut (Puccini)).ogg"
+          },
+          "duration": 172,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Enrico_Caruso,_Donna_non_vidi_mai_(Manon_Lescaut_(Puccini)).ogg",
+          "licence": "Commons {{PD-US}} {{PD-old}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1913,
+            "evidence": "Commons description: matrix B-12945, recorded 24 February 1913; source Internet Archive Caruso_part1 (https://archive.org/details/Caruso_part1), cleanup by Adam Cuerden."
+          },
+          "performers": "Enrico Caruso, tenor (orchestra not credited)",
+          "recorded": "24 February 1913, Victor matrix B-12945",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Enrico Caruso, 30 January 1902 (Gramophone & Typewriter, piano accompaniment; Swiss Public Domain Project copy)",
+          "complete": true,
+          "movements": [
+            {
+              "movement": "“Donna non vidi mai”",
+              "source": {
+                "file": "File:PDP-CH - Enrico Caruso - Manon Lescaut - Donna non vidi mai - Giacomo Puccini - Gramophone-da106-7-52039.flac"
+              },
+              "duration": 167,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Enrico_Caruso_-_Manon_Lescaut_-_Donna_non_vidi_mai_-_Giacomo_Puccini_-_Gramophone-da106-7-52039.flac",
+              "licence": "Commons {{Pdproject}} {{Pd-old-70}} (composition tag)",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1903,
+                "evidence": "Commons description: 1st recording date 1902/01/30, 1st release date 1903 (HMV DA 106); US ≤1925 by date."
+              },
+              "performers": "Enrico Caruso, tenor (piano)",
+              "recorded": "30 January 1902",
+              "quality": "poor",
+              "qualityNote": "1902 piano-accompanied disc; not auditioned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "puccini",
+      "work": "Tosca — three arias",
+      "year": "1900",
+      "priority": 1,
+      "why": "Caruso’s Recondita armonia and E lucevan le stelle and Destinn’s Vissi d’arte: three pre-1926 voices from the opera’s first generation.",
+      "complete": false,
+      "set": "puccini-tosca-arias",
+      "movements": [
+        {
+          "movement": "Recondita armonia (Act I, Cavaradossi)",
+          "source": {
+            "file": "File:Enrico Caruso, Recondita armonia (Tosca).ogg"
+          },
+          "duration": 145,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Enrico_Caruso,_Recondita_armonia_(Tosca).ogg",
+          "licence": "Commons {{PD-US}} {{PD-old}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1909,
+            "evidence": "Commons description and date 1909; source Internet Archive Caruso_part2 (https://archive.org/details/Caruso_part2). A second Commons upload (Hmv-da112-7-52004.ogg, Swiss Public Domain Project) states first recording date 11 June 1909, first release 1910."
+          },
+          "performers": "Enrico Caruso, tenor (orchestra not credited)",
+          "recorded": "11 June 1909 (Victor)",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        },
+        {
+          "movement": "Vissi d’arte (Act II, Tosca)",
+          "source": {
+            "file": "File:Emmy Destinn, Vissi d'arte (Tosca).ogg"
+          },
+          "duration": 191,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Emmy_Destinn,_Vissi_d%27arte_(Tosca).ogg",
+          "licence": "Commons {{PD-US}} {{PD-old}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1914,
+            "evidence": "Commons description: Victor 88487, matrix C-14508-4, recorded 23 April 1914; source https://archive.org/details/VrsAcoustics-88487-EmmyDestinn"
+          },
+          "performers": "Emmy Destinn, soprano; orchestra",
+          "recorded": "23 April 1914, Victor 88487, matrix C-14508-4",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        },
+        {
+          "movement": "E lucevan le stelle (Act III, Cavaradossi)",
+          "source": {
+            "file": "File:E lucevan le stelle (1902).opus"
+          },
+          "duration": 154,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:E_lucevan_le_stelle_(1902).opus",
+          "licence": "Commons {{PD-old-70-1923}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1902,
+            "evidence": "Commons date 1902-04-11 (from a YouTube transfer); template {{PD-old-70-1923}} (published before 1923). Piano-accompanied disc, so not the orchestral version."
+          },
+          "performers": "Enrico Caruso, tenor; Salvatore Cottone, piano",
+          "recorded": "11 April 1902 (Commons)",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "puccini",
+      "work": "La bohème — duets with Caruso",
+      "year": "1896",
+      "priority": 1,
+      "why": "Caruso with Melba (1907) and with Scotti: two pre-1926 Victor duets from Puccini’s best-loved opera.",
+      "complete": false,
+      "set": "puccini-boheme-duets",
+      "movements": [
+        {
+          "movement": "“O soave fanciulla” (Act I duet)",
+          "source": {
+            "file": "File:Enrico Caruso - Nellie Melba - La bohème - O soave fanciulla (restored).ogg"
+          },
+          "duration": 196,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Enrico_Caruso_-_Nellie_Melba_-_La_boh%C3%A8me_-_O_soave_fanciulla_(restored).ogg",
+          "licence": "Commons {{PD-old-70-1923}} {{PD-Australia}} (restoration by Adam Cuerden, attribution required)",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1907,
+            "evidence": "Commons description: recorded in New York 24 March 1907 (Victor C4326); DAHR https://adp.library.ucsb.edu/index.php/matrix/refer/200006039 as cited on the Commons page; source https://archive.org/details/Caruso_part1.",
+            "note": "Commons attribution clause: credit Adam Cuerden and commons.wikimedia.org for the restored file."
+          },
+          "performers": "Enrico Caruso, tenor; Nellie Melba, soprano (orchestra)",
+          "recorded": "24 March 1907, New York (Victor C-4326)",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        },
+        {
+          "movement": "“O Mimì, tu più non torni” (Act IV duet)",
+          "source": {
+            "file": "File:La bohème, O Mimì, tu più non torni (Caruso, Scotti).ogg"
+          },
+          "duration": 185,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:La_boh%C3%A8me,_O_Mim%C3%AC,_tu_pi%C3%B9_non_torni_(Caruso,_Scotti).ogg",
+          "licence": "Commons {{PD-US}} {{PD-old}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1907,
+            "evidence": "Commons description: Matrix C-4315, 1907; source Internet Archive OMimiTuPiuNonTorni https://archive.org/details/OMimiTuPiuNonTorni."
+          },
+          "performers": "Enrico Caruso, tenor; Antonio Scotti, baritone (orchestra)",
+          "recorded": "1907 (Victor matrix C-4315)",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "puccini",
+      "work": "Madama Butterfly — selected numbers",
+      "year": "1904",
+      "priority": 2,
+      "why": "Alda (1913) and the Caruso–Farrar Act I finale (1908), plus La Scala’s 1929 Un bel dì as a later comparison.",
+      "complete": false,
+      "set": "puccini-butterfly-selections",
+      "movements": [
+        {
+          "movement": "“Ancora un passo” (Act I, Butterfly’s entrance)",
+          "source": {
+            "file": "File:Frances Alda, Ancora un passo (Madama Butterfly).ogg"
+          },
+          "duration": 154,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Frances_Alda,_Ancora_un_passo_(Madama_Butterfly).ogg",
+          "licence": "Commons {{PD-old-auto-record-expired}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1913,
+            "evidence": "Commons description: Victor 64334, matrix B-13108-2, recorded April 10, 1913; source https://archive.org/details/VrsAcoustics-64334-FrancesAlda"
+          },
+          "performers": "Frances Alda, soprano (orchestra)",
+          "recorded": "10 April 1913, Victor 64334, matrix B-13108-2",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        },
+        {
+          "movement": "“O quanti occhi fisi” (end of Act I)",
+          "source": {
+            "file": "File:Gramophone-78515-054201.ogg"
+          },
+          "duration": 213,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Gramophone-78515-054201.ogg",
+          "licence": "Commons {{Pdproject-wmde}} {{PD-old-70-1923}}",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1909,
+            "evidence": "Commons description (Swiss Public Domain Project): first recording date 3 October 1908, first release 1909; US ≤1925 by date."
+          },
+          "performers": "Enrico Caruso, tenor; Geraldine Farrar, soprano (orchestra)",
+          "recorded": "3 October 1908",
+          "quality": "fair",
+          "qualityNote": "Acoustic-era disc, restored; not auditioned; expect noise, narrow band."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "La Scala forces under Lorenzo Molajoli, London 1929 — Un bel dì vedremo (Columbia D 14536)",
+          "complete": "aria only",
+          "flag": "Post-1925 (recorded 25 April–11 May 1929, first release 1929). Commons tags {{Cc-zero-project}} {{Pd-old-70}}: explicit CC0 release by the Swiss project; EU rule 3 applies independently.",
+          "movements": [
+            {
+              "movement": "“Un bel dì vedremo” (Act II)",
+              "source": {
+                "file": "File:CC0-CH - Various artists - Madama Butterfly - Un bel di vedremo - Giacomo Puccini - Columbia-d14536-bx563.flac"
+              },
+              "duration": 221,
+              "pageUrl": "https://commons.wikimedia.org/wiki/File:CC0-CH_-_Various_artists_-_Madama_Butterfly_-_Un_bel_di_vedremo_-_Giacomo_Puccini_-_Columbia-d14536-bx563.flac",
+              "licence": "Commons {{Cc-zero-project}} {{Pd-old-70}}",
+              "rights": {
+                "basis": "eu-published-before-1963",
+                "rule": 3,
+                "published": 1929,
+                "territorial": true,
+                "evidence": "Commons file tags {{Cc-zero-project}}; first release 1929 (EU rule 3)."
+              },
+              "performers": "Rosetta Pampanini, soprano; orchestra and chorus of La Scala, Milan; Lorenzo Molajoli, conductor",
+              "recorded": "25 April–11 May 1929, London",
+              "quality": "good",
+              "qualityNote": "1929 electrical Columbia; not auditioned.",
+              "territorial": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "scriabin",
+      "work": "Mazurka Op. 40 No. 2; Preludes Op. 11 Nos. 1 and 2 — Scriabin playing (Welte-Mignon rolls)",
+      "year": "1910 (rolls)",
+      "priority": 2,
+      "why": "Scriabin at the keyboard: the only recordings of the composer himself, from Welte-Mignon rolls made in Moscow in January 1910.",
+      "complete": "three short pieces",
+      "set": "scriabin-welte-1910",
+      "movements": [
+        {
+          "movement": "Prelude in C major, Op. 11 No. 1 (piano roll)",
+          "source": {
+            "file": "File:Skrjabin op 11 1.ogg"
+          },
+          "duration": 53,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Skrjabin_op_11_1.ogg",
+          "licence": "Commons {{PD-old}} only (composition/author tag)",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1910,
+            "evidence": "Commons descriptions: “plays his … for Welte-Mignon in Moscow, January 1910” (Op. 40 No. 2: source “piano-roll”, date 1910). The audio is a modern playback; who made it, on what instrument, and under what licence is NOT documented. Commons template is {{PD-old}} only.",
+            "needsLeadDecision": true
+          },
+          "performers": "Alexander Scriabin, piano — Welte-Mignon reproducing-piano roll (NOT a sound recording of the pianist)",
+          "recorded": "January 1910, Moscow (per Commons description)",
+          "quality": "fair",
+          "qualityNote": "Roll playback of undocumented origin; not auditioned; label as rolls; short."
+        },
+        {
+          "movement": "Prelude in A minor, Op. 11 No. 2 (piano roll)",
+          "source": {
+            "file": "File:Skrjabin op 11 2.ogg"
+          },
+          "duration": 107,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Skrjabin_op_11_2.ogg",
+          "licence": "Commons {{PD-old}} only (composition/author tag)",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1910,
+            "evidence": "Commons descriptions: “plays his … for Welte-Mignon in Moscow, January 1910” (Op. 40 No. 2: source “piano-roll”, date 1910). The audio is a modern playback; who made it, on what instrument, and under what licence is NOT documented. Commons template is {{PD-old}} only.",
+            "needsLeadDecision": true
+          },
+          "performers": "Alexander Scriabin, piano — Welte-Mignon reproducing-piano roll (NOT a sound recording of the pianist)",
+          "recorded": "January 1910, Moscow (per Commons description)",
+          "quality": "fair",
+          "qualityNote": "Roll playback of undocumented origin; not auditioned; label as rolls; short."
+        },
+        {
+          "movement": "Mazurka in C major, Op. 40 No. 2 (piano roll)",
+          "source": {
+            "file": "File:Skrjabin op 40 2.ogg"
+          },
+          "duration": 49,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Skrjabin_op_40_2.ogg",
+          "licence": "Commons {{PD-old}} only (composition/author tag)",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1910,
+            "evidence": "Commons descriptions: “plays his … for Welte-Mignon in Moscow, January 1910” (Op. 40 No. 2: source “piano-roll”, date 1910). The audio is a modern playback; who made it, on what instrument, and under what licence is NOT documented. Commons template is {{PD-old}} only.",
+            "needsLeadDecision": true
+          },
+          "performers": "Alexander Scriabin, piano — Welte-Mignon reproducing-piano roll (NOT a sound recording of the pianist)",
+          "recorded": "January 1910, Moscow (per Commons description)",
+          "quality": "fair",
+          "qualityNote": "Roll playback of undocumented origin; not auditioned; label as rolls; short."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Alfred Cortot — “Pathetic Study” (Étude Op. 8 No. 12), 1923 (Great 78; compare with the existing Pratt track)",
+          "complete": true,
+          "movements": [
+            {
+              "movement": "Étude in D♯ minor, Op. 8 No. 12",
+              "source": {
+                "archive": {
+                  "item": "78_pathetic-study_alfred-cortot-a-scribine_gbia0291204b",
+                  "file": "Pathetic Study - Alfred Cortot - A. Scriàbine.mp3"
+                }
+              },
+              "duration": 156,
+              "itemLicenceUrl": null,
+              "itemUrl": "https://archive.org/details/78_pathetic-study_alfred-cortot-a-scribine_gbia0291204b",
+              "licence": "No licence on item; US-published ≤1925",
+              "rights": {
+                "basis": "us-published-before-cutoff",
+                "rule": 2,
+                "published": 1923,
+                "evidence": "Great 78 item (date 1923; catalogue/matrix 982-B; publisher label not stated; description confirms “Op. 8, No. 12”). Verify label and issue date before use. https://archive.org/details/78_pathetic-study_alfred-cortot-a-scribine_gbia0291204b"
+              },
+              "performers": "Alfred Cortot, piano",
+              "recorded": "1923 (item date)",
+              "quality": "fair",
+              "qualityNote": "Acoustic-era disc; not auditioned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "composer": "rimsky-korsakov",
+      "work": "Scheherazade, Op. 35",
+      "year": "1888",
+      "priority": 1,
+      "why": "The whole suite, Monteux’s 1942 San Francisco recording, extending the existing Young Prince track from the same performance.",
+      "complete": true,
+      "set": "rimsky-scheherazade",
+      "movements": [
+        {
+          "movement": "I. The Sea and Sinbad’s Ship",
+          "source": {
+            "file": "File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 01 The Sea And Sinbads Ship.ogg"
+          },
+          "duration": 499,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov._Scheherazade,_Symphonic_Suite,_Op._35_-_01_The_Sea_And_Sinbads_Ship.ogg",
+          "licence": "CC0 (Commons {{Cc-zero}}); upstream archive.org item Sheherazade carries a public-domain licence URL",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-zero}}",
+            "note": "Upstream Internet Archive item https://archive.org/details/Sheherazade (licenseurl creativecommons.org/licenses/publicdomain, hifidelity collection). The original 1942 Victor set is not US public domain; the lead already accepted this CC0 upload for the existing Young Prince track."
+          },
+          "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
+          "recorded": "3–4 March 1942, War Memorial Opera House, San Francisco (Victor DM-920)",
+          "quality": "good",
+          "qualityNote": "1942 Victor transfer restored; not auditioned."
+        },
+        {
+          "movement": "II. The Story of the Kalender Prince",
+          "source": {
+            "file": "File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 02 The Story Of The Kalandar Prince.ogg"
+          },
+          "duration": 626,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov._Scheherazade,_Symphonic_Suite,_Op._35_-_02_The_Story_Of_The_Kalandar_Prince.ogg",
+          "licence": "CC0 (Commons {{Cc-zero}}); upstream archive.org item Sheherazade carries a public-domain licence URL",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-zero}}",
+            "note": "Upstream Internet Archive item https://archive.org/details/Sheherazade (licenseurl creativecommons.org/licenses/publicdomain, hifidelity collection). The original 1942 Victor set is not US public domain; the lead already accepted this CC0 upload for the existing Young Prince track."
+          },
+          "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
+          "recorded": "3–4 March 1942, War Memorial Opera House, San Francisco (Victor DM-920)",
+          "quality": "good",
+          "qualityNote": "1942 Victor transfer restored; not auditioned."
+        },
+        {
+          "movement": "III. The Young Prince and the Young Princess",
+          "source": {
+            "file": "File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 03 The Young Prince And Princess.ogg"
+          },
+          "duration": 496,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov._Scheherazade,_Symphonic_Suite,_Op._35_-_03_The_Young_Prince_And_Princess.ogg",
+          "licence": "CC0 (Commons {{Cc-zero}}); upstream archive.org item Sheherazade carries a public-domain licence URL",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-zero}}",
+            "note": "Upstream Internet Archive item https://archive.org/details/Sheherazade (licenseurl creativecommons.org/licenses/publicdomain, hifidelity collection). The original 1942 Victor set is not US public domain; the lead already accepted this CC0 upload for the existing Young Prince track."
+          },
+          "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
+          "recorded": "3–4 March 1942, War Memorial Opera House, San Francisco (Victor DM-920)",
+          "quality": "good",
+          "qualityNote": "1942 Victor transfer restored; not auditioned.",
+          "note": "Already in the site as content/listen/rimsky-korsakov-scheherazade-prince.mjs (same file)."
+        },
+        {
+          "movement": "IV. Festival at Baghdad — The Sea — The Ship Breaks against the Cliff",
+          "source": {
+            "file": "File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 04 Festival At Baghdad The Sea.ogg"
+          },
+          "duration": 701,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov._Scheherazade,_Symphonic_Suite,_Op._35_-_04_Festival_At_Baghdad_The_Sea.ogg",
+          "licence": "CC0 (Commons {{Cc-zero}}); upstream archive.org item Sheherazade carries a public-domain licence URL",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{Cc-zero}}",
+            "note": "Upstream Internet Archive item https://archive.org/details/Sheherazade (licenseurl creativecommons.org/licenses/publicdomain, hifidelity collection). The original 1942 Victor set is not US public domain; the lead already accepted this CC0 upload for the existing Young Prince track."
+          },
+          "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
+          "recorded": "3–4 March 1942, War Memorial Opera House, San Francisco (Victor DM-920)",
+          "quality": "good",
+          "qualityNote": "1942 Victor transfer restored; not auditioned."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "mussorgsky",
+      "work": "Boris Godunov — Chaliapin: Varlaam’s song, Farewell and Death of Boris",
+      "year": "1869–72",
+      "priority": 2,
+      "why": "Feodor Chaliapin, the opera’s defining Boris, in his acoustic Victor recordings of 1922–23.",
+      "complete": false,
+      "set": "mussorgsky-boris-chaliapin",
+      "movements": [
+        {
+          "movement": "“In the town of Kazan” (Varlaam’s song, Act I)",
+          "source": {
+            "archive": {
+              "item": "loc-jukebox-44082-in-the-town-of-kaz-n",
+              "file": "jukebox-44082_in-the-town-of-kaz-n.mp3"
+            }
+          },
+          "duration": 144,
+          "itemLicenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "itemUrl": "https://archive.org/details/loc-jukebox-44082-in-the-town-of-kaz-n",
+          "licence": "Public Domain Mark (Library of Congress National Jukebox item)",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1922,
+            "evidence": "DAHR session of 1/30/1922 lists matrix B-26100 “In the town of Kazàn”, Chaliapin, bass vocal solo with orchestra https://adp.library.ucsb.edu/index.php/date/browse/1922-01-30; Internet Archive item loc-jukebox-44082 with licenseurl publicdomain/mark/1.0 (credits Josef Pasternack)."
+          },
+          "performers": "Feodor Chaliapin, bass; orchestra (Josef Pasternack credited on the Library of Congress item)",
+          "recorded": "30 January 1922, Victor B-26100 (DAHR)",
+          "quality": "fair",
+          "qualityNote": "Acoustic 1922–23; not auditioned; expect noise, narrow band."
+        },
+        {
+          "movement": "Farewell of Boris (Act IV, “Farewell, my son”)",
+          "source": {
+            "archive": {
+              "item": "78_boris-godounow-farewell-of-boris-farewell-my-son-i-am-dying_feodor-chaliapin-mo_gbia0517943a",
+              "file": "Boris Godounow-Farewell of Boris (Farew - Feodor Chaliapin.mp3"
+            }
+          },
+          "duration": 267,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_boris-godounow-farewell-of-boris-farewell-my-son-i-am-dying_feodor-chaliapin-mo_gbia0517943a",
+          "licence": "No licence on item; US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1923,
+            "evidence": "DAHR 1/30/1922 session lists C-26101 “Farewell of Boris”, bass vocal solo with harp and orchestra https://adp.library.ucsb.edu/index.php/date/browse/1922-01-30; Great 78 item catalogue 6455-A dated 1923."
+          },
+          "performers": "Feodor Chaliapin, bass; orchestra (Josef Pasternack credited on the Library of Congress item)",
+          "recorded": "30 January 1922, Victor C-26101 (DAHR); issued as Victor 6455-A, item date 1923",
+          "quality": "fair",
+          "qualityNote": "Acoustic 1922–23; not auditioned; expect noise, narrow band."
+        },
+        {
+          "movement": "Death of Boris (Act IV, “Hark! ’tis the passing bell”)",
+          "source": {
+            "archive": {
+              "item": "78_boris-godounow-death-of-boris-hark-tis-the-passing-bell_feodor-chaliapin-mouss_gbia0517943b",
+              "file": "Boris Godounow-Death of Boris (Hark! 'T - Feodor Chaliapin.mp3"
+            }
+          },
+          "duration": 251,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_boris-godounow-death-of-boris-hark-tis-the-passing-bell_feodor-chaliapin-mouss_gbia0517943b",
+          "licence": "No licence on item; US-published ≤1925",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1923,
+            "evidence": "Great 78 item catalogue 6455-B, date 1923; DAHR matrix not read."
+          },
+          "performers": "Feodor Chaliapin, bass; orchestra (Josef Pasternack credited on the Library of Congress item)",
+          "recorded": "1922–23 (Victor 6455-B; recording date not read from DAHR)",
+          "quality": "fair",
+          "qualityNote": "Acoustic 1922–23; not auditioned; expect noise, narrow band."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "faure",
+      "work": "Requiem, Op. 48",
+      "year": "1887–1900",
+      "priority": 1,
+      "why": "The gentlest of requiems; completes the existing Agnus Dei with all seven movements from the same Frémaux performance.",
+      "complete": true,
+      "set": "faure-requiem",
+      "movements": [
+        {
+          "movement": "I. Introït et Kyrie",
+          "source": {
+            "file": "File:Fauré - Requiem - I. Introït et Kyrie.flac"
+          },
+          "duration": 383,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_I._Intro%C3%AFt_et_Kyrie.flac",
+          "licence": "Commons {{PD-EU-audio}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1962,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; source Erato Records; recorded 10 Aug 1962. First-publication date within 1962 is NOT verified: rule 3 needs publication before 31 Dec 1962."
+          },
+          "performers": "Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo; Louis Frémaux (soloists not named on Commons)",
+          "recorded": "10 August 1962 (Commons date; Erato)",
+          "quality": "good",
+          "qualityNote": "1962 Erato stereo transfer (FLAC); not auditioned.",
+          "territorial": true
+        },
+        {
+          "movement": "II. Offertoire",
+          "source": {
+            "file": "File:Fauré - Requiem - II. Offertoire.flac"
+          },
+          "duration": 460,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_II._Offertoire.flac",
+          "licence": "Commons {{PD-EU-audio}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1962,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; source Erato Records; recorded 10 Aug 1962. First-publication date within 1962 is NOT verified: rule 3 needs publication before 31 Dec 1962."
+          },
+          "performers": "Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo; Louis Frémaux (soloists not named on Commons)",
+          "recorded": "10 August 1962 (Commons date; Erato)",
+          "quality": "good",
+          "qualityNote": "1962 Erato stereo transfer (FLAC); not auditioned.",
+          "territorial": true
+        },
+        {
+          "movement": "III. Sanctus",
+          "source": {
+            "file": "File:Fauré - Requiem - III. Sanctus.flac"
+          },
+          "duration": 190,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_III._Sanctus.flac",
+          "licence": "Commons {{PD-EU-audio}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1962,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; source Erato Records; recorded 10 Aug 1962. First-publication date within 1962 is NOT verified: rule 3 needs publication before 31 Dec 1962."
+          },
+          "performers": "Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo; Louis Frémaux (soloists not named on Commons)",
+          "recorded": "10 August 1962 (Commons date; Erato)",
+          "quality": "good",
+          "qualityNote": "1962 Erato stereo transfer (FLAC); not auditioned.",
+          "territorial": true
+        },
+        {
+          "movement": "IV. Pie Jesu",
+          "source": {
+            "file": "File:Fauré - Requiem - IV. Pie Jesu.flac"
+          },
+          "duration": 181,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_IV._Pie_Jesu.flac",
+          "licence": "Commons {{PD-EU-audio}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1962,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; source Erato Records; recorded 10 Aug 1962. First-publication date within 1962 is NOT verified: rule 3 needs publication before 31 Dec 1962."
+          },
+          "performers": "Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo; Louis Frémaux (soloists not named on Commons)",
+          "recorded": "10 August 1962 (Commons date; Erato)",
+          "quality": "good",
+          "qualityNote": "1962 Erato stereo transfer (FLAC); not auditioned.",
+          "territorial": true
+        },
+        {
+          "movement": "V. Agnus Dei",
+          "source": {
+            "file": "File:Fauré - Requiem - V. Agnus Dei.flac"
+          },
+          "duration": 349,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_V._Agnus_Dei.flac",
+          "licence": "Commons {{PD-EU-audio}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1962,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; source Erato Records; recorded 10 Aug 1962. First-publication date within 1962 is NOT verified: rule 3 needs publication before 31 Dec 1962."
+          },
+          "performers": "Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo; Louis Frémaux (soloists not named on Commons)",
+          "recorded": "10 August 1962 (Commons date; Erato)",
+          "quality": "good",
+          "qualityNote": "1962 Erato stereo transfer (FLAC); not auditioned.",
+          "territorial": true,
+          "note": "Already in the site as content/listen/faure-requiem-agnus-dei.mjs (same file)."
+        },
+        {
+          "movement": "VI. Libera me",
+          "source": {
+            "file": "File:Fauré - Requiem - VI. Libera Me.flac"
+          },
+          "duration": 294,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_VI._Libera_Me.flac",
+          "licence": "Commons {{PD-EU-audio}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1962,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; source Erato Records; recorded 10 Aug 1962. First-publication date within 1962 is NOT verified: rule 3 needs publication before 31 Dec 1962."
+          },
+          "performers": "Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo; Louis Frémaux (soloists not named on Commons)",
+          "recorded": "10 August 1962 (Commons date; Erato)",
+          "quality": "good",
+          "qualityNote": "1962 Erato stereo transfer (FLAC); not auditioned.",
+          "territorial": true
+        },
+        {
+          "movement": "VII. In paradisum",
+          "source": {
+            "file": "File:Fauré - Requiem - VII. In paradisum.flac"
+          },
+          "duration": 215,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Requiem_-_VII._In_paradisum.flac",
+          "licence": "Commons {{PD-EU-audio}}",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1962,
+            "territorial": true,
+            "evidence": "Commons file tags {{PD-EU-audio}}; source Erato Records; recorded 10 Aug 1962. First-publication date within 1962 is NOT verified: rule 3 needs publication before 31 Dec 1962."
+          },
+          "performers": "Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo; Louis Frémaux (soloists not named on Commons)",
+          "recorded": "10 August 1962 (Commons date; Erato)",
+          "quality": "good",
+          "qualityNote": "1962 Erato stereo transfer (FLAC); not auditioned.",
+          "territorial": true
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "faure",
+      "work": "Violin Sonata No. 1 in A major, Op. 13",
+      "year": "1875–76",
+      "priority": 2,
+      "why": "The work that made Fauré’s name; a complete four-movement CC BY performance from 2019.",
+      "complete": true,
+      "set": "faure-violin-sonata-1",
+      "movements": [
+        {
+          "movement": "I. Allegro molto",
+          "source": {
+            "file": "File:Fauré - Violin Sonata No. 1 - I. Allegro molto.ogg"
+          },
+          "duration": 534,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Violin_Sonata_No._1_-_I._Allegro_molto.ogg",
+          "licence": "CC BY 3.0 (Commons)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "CC BY 3.0",
+            "note": "Commons page imported from YouTube xFJVAWkAWf4 under CC BY 3.0; no licence template text in wikitext, licence field read from file metadata."
+          },
+          "performers": "Yeh Che-Jui, violin (Commons also names “Chiayi Symphony Orchestra”; pianist not named)",
+          "recorded": "2019 (from YouTube)",
+          "quality": "good",
+          "qualityNote": "Modern concert recording from YouTube; not auditioned."
+        },
+        {
+          "movement": "II. Andante",
+          "source": {
+            "file": "File:Fauré - Violin Sonata No. 1 - II. Andante.ogg"
+          },
+          "duration": 449,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Violin_Sonata_No._1_-_II._Andante.ogg",
+          "licence": "CC BY 3.0 (Commons)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "CC BY 3.0",
+            "note": "Commons page imported from YouTube xFJVAWkAWf4 under CC BY 3.0; no licence template text in wikitext, licence field read from file metadata."
+          },
+          "performers": "Yeh Che-Jui, violin (Commons also names “Chiayi Symphony Orchestra”; pianist not named)",
+          "recorded": "2019 (from YouTube)",
+          "quality": "good",
+          "qualityNote": "Modern concert recording from YouTube; not auditioned."
+        },
+        {
+          "movement": "III. Scherzo. Allegro vivo",
+          "source": {
+            "file": "File:Fauré - Violin Sonata No. 1 - III. Scherzo. Allegro vivo.ogg"
+          },
+          "duration": 249,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Violin_Sonata_No._1_-_III._Scherzo._Allegro_vivo.ogg",
+          "licence": "CC BY 3.0 (Commons)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "CC BY 3.0",
+            "note": "Commons page imported from YouTube xFJVAWkAWf4 under CC BY 3.0; no licence template text in wikitext, licence field read from file metadata."
+          },
+          "performers": "Yeh Che-Jui, violin (Commons also names “Chiayi Symphony Orchestra”; pianist not named)",
+          "recorded": "2019 (from YouTube)",
+          "quality": "good",
+          "qualityNote": "Modern concert recording from YouTube; not auditioned."
+        },
+        {
+          "movement": "IV. Finale. Allegro quasi presto",
+          "source": {
+            "file": "File:Fauré - Violin Sonata No. 1 - IV. Finale. Allegro quasi presto.ogg"
+          },
+          "duration": 336,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9_-_Violin_Sonata_No._1_-_IV._Finale._Allegro_quasi_presto.ogg",
+          "licence": "CC BY 3.0 (Commons)",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "CC BY 3.0",
+            "note": "Commons page imported from YouTube xFJVAWkAWf4 under CC BY 3.0; no licence template text in wikitext, licence field read from file metadata."
+          },
+          "performers": "Yeh Che-Jui, violin (Commons also names “Chiayi Symphony Orchestra”; pianist not named)",
+          "recorded": "2019 (from YouTube)",
+          "quality": "good",
+          "qualityNote": "Modern concert recording from YouTube; not auditioned."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "janacek",
+      "work": "Piano Sonata 1.X.1905 “From the Street”",
+      "year": "1905",
+      "priority": 2,
+      "why": "Adds the first movement, Foreboding, to the existing Death movement, completing the sonata from the same CC BY pianist.",
+      "complete": true,
+      "set": "janacek-sonata-1x1905",
+      "movements": [
+        {
+          "movement": "I. Předtucha (Presentiment) — Con moto",
+          "source": {
+            "file": "File:Janáček - Piano Sonata 1.X.1905, 1st Movement (Eric Xi Xin Liang).flac"
+          },
+          "duration": 306,
+          "pageUrl": "https://commons.wikimedia.org/wiki/File:Jan%C3%A1%C4%8Dek_-_Piano_Sonata_1.X.1905,_1st_Movement_(Eric_Xi_Xin_Liang).flac",
+          "licence": "CC BY 4.0 (Commons {{cc-by-4.0}})",
+          "rights": {
+            "basis": "commons-licence",
+            "rule": 1,
+            "template": "{{cc-by-4.0}}"
+          },
+          "performers": "Eric Xi Xin Liang, piano",
+          "recorded": "2023",
+          "quality": "good",
+          "qualityNote": "Modern studio FLAC; not auditioned."
+        },
+        {
+          "movement": "II. Smrt (Death) — Adagio",
+          "existing": true,
+          "note": "Already in the site as content/listen/janacek-sonata-death.mjs (same performer)."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "janacek",
+      "work": "Sinfonietta",
+      "year": "1926",
+      "priority": 2,
+      "why": "Janáček’s fanfare symphony in Kubelík’s 1947 Czech Philharmonic recording, six 78-rpm sides; no free modern Sinfonietta exists on Commons.",
+      "complete": "probably (six sides, about 21 minutes; not checked against the score)",
+      "set": "janacek-sinfonietta",
+      "movements": [
+        {
+          "movement": "Side 1 (C.7671 A): I. Allegretto + II. Andante — Allegretto (part 1)",
+          "source": {
+            "archive": {
+              "item": "78_sinfonietta-1st-mov-allegretto-2nd-mov-part-1-andante-allegretto_czech_gbia0289057a",
+              "file": "SINFONIETTA - 1st Mov.: All - CZECH PHILHARMONIC ORCHESTRA.mp3"
+            }
+          },
+          "duration": 215,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_sinfonietta-1st-mov-allegretto-2nd-mov-part-1-andante-allegretto_czech_gbia0289057a",
+          "licence": "No licence on items (Great 78 Project)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Great 78 items (matrix 2HC, catalogue C.7671–C.7673; item date 1947-05). Publication in Czechoslovakia; EU rule 3 is an inference for a recording first issued before 1963. Label/publisher not stated."
+          },
+          "performers": "Czech Philharmonic Orchestra, Rafael Kubelík",
+          "recorded": "May 1947 (item date 1947-05)",
+          "quality": "fair",
+          "qualityNote": "1947 shellac sides; not auditioned.",
+          "territorial": true,
+          "flag": "Sides split movements mid-way: concatenate sides in order 1,2,3,4,5,6 (side numbers inferred from catalogue numbers and movement order)."
+        },
+        {
+          "movement": "Side 2 (C.7672 A): II. (conclusion)",
+          "source": {
+            "archive": {
+              "item": "78_sinfonietta-2nd-mov-conclusion-allegretto_czech-philharmonic-orchestra-jane_gbia0289058a",
+              "file": "SINFONIETTA - 2nd Mov.: (Co - CZECH PHILHARMONIC ORCHESTRA.mp3"
+            }
+          },
+          "duration": 272,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_sinfonietta-2nd-mov-conclusion-allegretto_czech-philharmonic-orchestra-jane_gbia0289058a",
+          "licence": "No licence on items (Great 78 Project)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Great 78 items (matrix 2HC, catalogue C.7671–C.7673; item date 1947-05). Publication in Czechoslovakia; EU rule 3 is an inference for a recording first issued before 1963. Label/publisher not stated."
+          },
+          "performers": "Czech Philharmonic Orchestra, Rafael Kubelík",
+          "recorded": "May 1947 (item date 1947-05)",
+          "quality": "fair",
+          "qualityNote": "1947 shellac sides; not auditioned.",
+          "territorial": true,
+          "flag": "Sides split movements mid-way: concatenate sides in order 1,2,3,4,5,6 (side numbers inferred from catalogue numbers and movement order)."
+        },
+        {
+          "movement": "Side 3 (C.7673 A): III. Moderato (part 1)",
+          "source": {
+            "archive": {
+              "item": "78_sinfonietta-3rd-mov-part-1-moderato_czech-philharmonic-orchestra-janek-rafa_gbia0289059a",
+              "file": "SINFONIETTA - 3rd Mov.: (Pa - CZECH PHILHARMONIC ORCHESTRA.mp3"
+            }
+          },
+          "duration": 277,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_sinfonietta-3rd-mov-part-1-moderato_czech-philharmonic-orchestra-janek-rafa_gbia0289059a",
+          "licence": "No licence on items (Great 78 Project)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Great 78 items (matrix 2HC, catalogue C.7671–C.7673; item date 1947-05). Publication in Czechoslovakia; EU rule 3 is an inference for a recording first issued before 1963. Label/publisher not stated."
+          },
+          "performers": "Czech Philharmonic Orchestra, Rafael Kubelík",
+          "recorded": "May 1947 (item date 1947-05)",
+          "quality": "fair",
+          "qualityNote": "1947 shellac sides; not auditioned.",
+          "territorial": true,
+          "flag": "Sides split movements mid-way: concatenate sides in order 1,2,3,4,5,6 (side numbers inferred from catalogue numbers and movement order)."
+        },
+        {
+          "movement": "Side 4 (C.7673 B): III. (conclusion) + IV. Allegretto",
+          "source": {
+            "archive": {
+              "item": "78_sinfonietta-3rd-mov-conclusion-moderato-4th-mov-allegretto_czech-philharm_gbia0289059b",
+              "file": "SINFONIETTA - 3rd Mov.: (Co - CZECH PHILHARMONIC ORCHESTRA.mp3"
+            }
+          },
+          "duration": 210,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_sinfonietta-3rd-mov-conclusion-moderato-4th-mov-allegretto_czech-philharm_gbia0289059b",
+          "licence": "No licence on items (Great 78 Project)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Great 78 items (matrix 2HC, catalogue C.7671–C.7673; item date 1947-05). Publication in Czechoslovakia; EU rule 3 is an inference for a recording first issued before 1963. Label/publisher not stated."
+          },
+          "performers": "Czech Philharmonic Orchestra, Rafael Kubelík",
+          "recorded": "May 1947 (item date 1947-05)",
+          "quality": "fair",
+          "qualityNote": "1947 shellac sides; not auditioned.",
+          "territorial": true,
+          "flag": "Sides split movements mid-way: concatenate sides in order 1,2,3,4,5,6 (side numbers inferred from catalogue numbers and movement order)."
+        },
+        {
+          "movement": "Side 5 (C.7672 B): V. Allegro (part 1)",
+          "source": {
+            "archive": {
+              "item": "78_sinfonietta-5th-mov-part-1-allegro_czech-philharmonic-orchestra-janek-rafae_gbia0289058b",
+              "file": "SINFONIETTA - 5th Mov.: (Pa - CZECH PHILHARMONIC ORCHESTRA.mp3"
+            }
+          },
+          "duration": 248,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_sinfonietta-5th-mov-part-1-allegro_czech-philharmonic-orchestra-janek-rafae_gbia0289058b",
+          "licence": "No licence on items (Great 78 Project)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Great 78 items (matrix 2HC, catalogue C.7671–C.7673; item date 1947-05). Publication in Czechoslovakia; EU rule 3 is an inference for a recording first issued before 1963. Label/publisher not stated."
+          },
+          "performers": "Czech Philharmonic Orchestra, Rafael Kubelík",
+          "recorded": "May 1947 (item date 1947-05)",
+          "quality": "fair",
+          "qualityNote": "1947 shellac sides; not auditioned.",
+          "territorial": true,
+          "flag": "Sides split movements mid-way: concatenate sides in order 1,2,3,4,5,6 (side numbers inferred from catalogue numbers and movement order)."
+        },
+        {
+          "movement": "Side 6 (C.7671 B): V. (conclusion)",
+          "source": {
+            "archive": {
+              "item": "78_sinfonietta-5th-mov-conclusion-allegro_czech-philharmonic-orchestra-janek-r_gbia0289057b",
+              "file": "SINFONIETTA - 5th Mov.: (Co - CZECH PHILHARMONIC ORCHESTRA.mp3"
+            }
+          },
+          "duration": 168,
+          "itemLicenceUrl": null,
+          "itemUrl": "https://archive.org/details/78_sinfonietta-5th-mov-conclusion-allegro_czech-philharmonic-orchestra-janek-r_gbia0289057b",
+          "licence": "No licence on items (Great 78 Project)",
+          "rights": {
+            "basis": "eu-published-before-1963",
+            "rule": 3,
+            "published": 1947,
+            "territorial": true,
+            "evidence": "Great 78 items (matrix 2HC, catalogue C.7671–C.7673; item date 1947-05). Publication in Czechoslovakia; EU rule 3 is an inference for a recording first issued before 1963. Label/publisher not stated."
+          },
+          "performers": "Czech Philharmonic Orchestra, Rafael Kubelík",
+          "recorded": "May 1947 (item date 1947-05)",
+          "quality": "fair",
+          "qualityNote": "1947 shellac sides; not auditioned.",
+          "territorial": true,
+          "flag": "Sides split movements mid-way: concatenate sides in order 1,2,3,4,5,6 (side numbers inferred from catalogue numbers and movement order)."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "composer": "elgar",
+      "work": "The Starlight Express, Op. 78 — “Hearts must be soft” and “The Laugher’s Song”",
+      "year": "1915–16",
+      "priority": 3,
+      "why": "Elgar named on HMV D 458 (February 1916), an early British acoustic disc of his incidental music; shows the composer’s theatre side.",
+      "complete": false,
+      "set": null,
+      "movements": [
+        {
+          "movement": "“Hearts must be soft” (Agnes Nicholls and Charles Mott)",
+          "source": {
+            "archive": {
+              "item": "78_heartsmustbesoftshinydressed_324_07",
+              "file": "Heartsmustbesoftshinydressed - Agnes Nicholls - Charles Mott - Siredward Elgar - Sir Edward Elgar.mp3"
+            }
+          },
+          "duration": 271,
+          "itemUrl": "https://archive.org/details/78_heartsmustbesoftshinydressed_324_07",
+          "itemLicenceUrl": null,
+          "performers": "Agnes Nicholls, soprano; Charles Mott, baritone; orchestra; Elgar listed among the item’s creators (conductor not stated; Elgar conducting is INFERRED)",
+          "recorded": "18 February 1916, Hayes (item date)",
+          "licence": "No licence on item; UK-published 1916 (≤1925)",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1916,
+            "evidence": "Great 78 / 78-opera item: HMV D-458, matrix HO1550ae, dated 1916-02-18 (item metadata), recorded at Hayes. https://archive.org/details/78_heartsmustbesoftshinydressed_324_07"
+          },
+          "quality": "fair",
+          "qualityNote": "Acoustic 1916; not auditioned; file title garbled by uploader."
+        },
+        {
+          "movement": "“The Laugher’s Song” (Agnes Nicholls)",
+          "source": {
+            "archive": {
+              "item": "78_thelaugherssong_324_06",
+              "file": "Thelaugher'ssong - Agnes Nicholls - Siredward Elgar - Sir Edward Elgar.mp3"
+            }
+          },
+          "duration": 149,
+          "itemUrl": "https://archive.org/details/78_thelaugherssong_324_06",
+          "itemLicenceUrl": null,
+          "performers": "Agnes Nicholls, soprano; orchestra; Elgar listed among the item’s creators (conductor not stated)",
+          "recorded": "18 February 1916, Hayes (item date)",
+          "licence": "No licence on item; UK-published 1916 (≤1925)",
+          "rights": {
+            "basis": "us-published-before-cutoff",
+            "rule": 2,
+            "published": 1916,
+            "evidence": "Great 78 / 78-opera item: HMV D-458, matrix HO1550ae, dated 1916-02-18 (item metadata), recorded at Hayes. https://archive.org/details/78_thelaugherssong_324_06"
+          },
+          "quality": "fair",
+          "qualityNote": "Acoustic 1916; not auditioned."
+        }
+      ],
+      "alternatives": []
+    }
+  ]
+}

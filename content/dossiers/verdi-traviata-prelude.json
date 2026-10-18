@@ -142,14 +142,15 @@
       "note": "The source catalogue gives Verdi’s death year as 1901. This does not determine rights in the 1929 recording."
     },
     "recording": {
-      "value": "The source claims worldwide public-domain status; present US recording clearance is not established.",
-      "status": "disputed",
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
       "sourceIds": [
-        "pdp",
-        "commons",
-        "us-recordings"
+        "rights-audit-commons",
+        "rights-audit-eu-term",
+        "rights-audit-eu-audio",
+        "rights-audit-electrola-release"
       ],
-      "note": "The source catalogue’s US-expiry and worldwide claims cannot be treated as current legal clearance. Under § 1401, a recording first published in 1929 or the source’s tentative 1930 would ordinarily still have US protection in 2026. The exact first-publication year remains unresolved. The CC BY-SA notice on the catalogue website covers its text, not automatically this sound recording.",
+      "note": "Commons describes first release in 1930; the Public Domain Project identifies Electrola EJ 423, order 6-0755, matrix CVE-48936, and tentatively dates first release to 1930. The 1929 session-day disagreement does not affect the pre-1963 release bound. The source’s worldwide expiry claim and its website’s CC BY-SA notice are not used as a sound-recording licence. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date.",
       "alternatives": [
         {
           "value": "Public-domain recording worldwide — claim made by the Public Domain Project and reproduced by Commons.",
@@ -205,6 +206,34 @@
       "url": "https://www.law.cornell.edu/uscode/text/17/1401",
       "locator": "Section (a)(2): protection periods for pre-1972 sound recordings; recordings first published in 1923–1946 generally have a 100-year period. This postdates the source catalogue’s broad US-expiry assertion.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-term",
+      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-audio",
+      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-electrola-release",
+      "title": "Public Domain Project — Electrola EJ 423 / 6-0755",
+      "url": "https://pool.publicdomainproject.org/index.php?title=Electrola-ej423-6-0755",
+      "locator": "Original carrier and matrix CVE-48936; first release 1930?; source worldwide/US expiry claims are not relied upon.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

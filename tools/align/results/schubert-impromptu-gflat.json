@@ -5,6 +5,448 @@
   "noteWeightedMedianDeviation": 0.08524706006435423,
   "p95AbsoluteOnsetDeviation": 0.5360121156989877,
   "fractionWithin150ms": 0.6198189614101953,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 44,
+      "median": 0.1365434003058592,
+      "p95": 0.3629013473606477,
+      "max": 0.5184925249169439,
+      "adaptiveMedian": 0.03498151004587946,
+      "adaptiveP95": 0.20538074144386442
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 47,
+      "median": 0.13825792332437103,
+      "p95": 0.377464061593628,
+      "max": 0.49539392501186974,
+      "adaptiveMedian": 0.046344789853929313,
+      "adaptiveP95": 0.14398040921794697
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 48,
+      "median": 0.09321389020727011,
+      "p95": 0.3376436349733625,
+      "max": 0.41322687602172437,
+      "adaptiveMedian": 0.04087047803617594,
+      "adaptiveP95": 0.19061881361070868
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 46,
+      "median": 0.12411050466698192,
+      "p95": 0.40064492366714255,
+      "max": 0.5562265991668021,
+      "adaptiveMedian": 0.05049982202183401,
+      "adaptiveP95": 0.1818154267520944
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 46,
+      "median": 0.0784998747561012,
+      "p95": 0.7698156442809703,
+      "max": 0.9854624795654594,
+      "adaptiveMedian": 0.04549639429409069,
+      "adaptiveP95": 0.14412424853663275
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 48,
+      "median": 0.08210169145178625,
+      "p95": 0.2604015484100586,
+      "max": 0.35333320149767644,
+      "adaptiveMedian": 0.044719651426472495,
+      "adaptiveP95": 0.14271816827506925
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 47,
+      "median": 0.11278680852183243,
+      "p95": 0.6217427819965127,
+      "max": 0.8695158334651865,
+      "adaptiveMedian": 0.04186570558456992,
+      "adaptiveP95": 0.17178299187891982
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 50,
+      "median": 0.13030173891262464,
+      "p95": 0.36335009953594577,
+      "max": 0.514615369403586,
+      "adaptiveMedian": 0.040899877392824635,
+      "adaptiveP95": 0.13554492300794543
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 49,
+      "median": 0.08025727732949406,
+      "p95": 0.2777631176501586,
+      "max": 0.36221404841005267,
+      "adaptiveMedian": 0.03605672889310085,
+      "adaptiveP95": 0.1399287559985225
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 52,
+      "median": 0.12496618414809291,
+      "p95": 0.44741800562278566,
+      "max": 0.560031310973983,
+      "adaptiveMedian": 0.040420786531662145,
+      "adaptiveP95": 0.1793011456520615
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 44,
+      "median": 0.13479153483098827,
+      "p95": 1.058119281627385,
+      "max": 1.2436278542425043,
+      "adaptiveMedian": 0.04532718319885731,
+      "adaptiveP95": 0.17819852146282292
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 49,
+      "median": 0.07637979222697311,
+      "p95": 0.5283694563096614,
+      "max": 0.7011950245214393,
+      "adaptiveMedian": 0.04110109159941544,
+      "adaptiveP95": 0.11674509571268166
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 49,
+      "median": 0.10754752676261603,
+      "p95": 0.28669149132520594,
+      "max": 0.4536909376153204,
+      "adaptiveMedian": 0.0511753810051232,
+      "adaptiveP95": 0.26351198386331
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 49,
+      "median": 0.05255932605599867,
+      "p95": 0.29965021357378374,
+      "max": 0.503159903496254,
+      "adaptiveMedian": 0.03853926066551594,
+      "adaptiveP95": 0.15306949058694097
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 53,
+      "median": 0.06509327374359941,
+      "p95": 0.24691213151928076,
+      "max": 0.4384058429573372,
+      "adaptiveMedian": 0.03698966408272497,
+      "adaptiveP95": 0.11360193534778489
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 39,
+      "median": 0.17131084216627812,
+      "p95": 0.5526472670463735,
+      "max": 0.8342414834153402,
+      "adaptiveMedian": 0.053427068501832764,
+      "adaptiveP95": 0.17135847439803917
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 50,
+      "median": 0.09151693429305396,
+      "p95": 0.27702740863787617,
+      "max": 0.34411531666935957,
+      "adaptiveMedian": 0.03806784923276041,
+      "adaptiveP95": 0.14362515490687144
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 48,
+      "median": 0.18250497679689204,
+      "p95": 0.6950060578494927,
+      "max": 0.7429746084480655,
+      "adaptiveMedian": 0.04479242472166334,
+      "adaptiveP95": 0.13515914873695178
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 54,
+      "median": 0.2113102159468241,
+      "p95": 0.8191915803143114,
+      "max": 1.0465977825239179,
+      "adaptiveMedian": 0.05138055028211852,
+      "adaptiveP95": 0.1527182308970053
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 51,
+      "median": 0.13404498233396112,
+      "p95": 0.5469469905210076,
+      "max": 0.6945752254389674,
+      "adaptiveMedian": 0.0445074618995136,
+      "adaptiveP95": 0.10867785292411725
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 56,
+      "median": 0.07115204608976455,
+      "p95": 0.2512851177292674,
+      "max": 0.4493658703791539,
+      "adaptiveMedian": 0.04239627827877257,
+      "adaptiveP95": 0.08341500553709835
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 52,
+      "median": 0.10329094157040686,
+      "p95": 0.3772004330802415,
+      "max": 0.5020147128618078,
+      "adaptiveMedian": 0.0434029755313361,
+      "adaptiveP95": 0.1831041930338215
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 56,
+      "median": 0.13581639244844723,
+      "p95": 0.7354645065390315,
+      "max": 0.9516193376575188,
+      "adaptiveMedian": 0.039919876865468495,
+      "adaptiveP95": 0.12870497811529447
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 44,
+      "median": 0.08797447661231672,
+      "p95": 0.22737890892790208,
+      "max": 0.5189935005006703,
+      "adaptiveMedian": 0.042134749248532444,
+      "adaptiveP95": 0.14524942981063446
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 49,
+      "median": 0.06236506618157023,
+      "p95": 0.16884453277434655,
+      "max": 0.2554228629436466,
+      "adaptiveMedian": 0.038708537678729726,
+      "adaptiveP95": 0.15439602119916457
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 49,
+      "median": 0.15208590412910894,
+      "p95": 0.41439290987713656,
+      "max": 0.5000570848494021,
+      "adaptiveMedian": 0.048639917207282224,
+      "adaptiveP95": 0.20406724938030701
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 53,
+      "median": 0.24544079259604246,
+      "p95": 1.0978395691609364,
+      "max": 1.2017983045931544,
+      "adaptiveMedian": 0.04370524178671076,
+      "adaptiveP95": 0.15658794758217595
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 34,
+      "median": 0.10188389890841165,
+      "p95": 0.37158104928009955,
+      "max": 0.6236547487212079,
+      "adaptiveMedian": 0.047353563518541364,
+      "adaptiveP95": 0.15267588692446876
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 50,
+      "median": 0.14596302668351768,
+      "p95": 0.4553902105415758,
+      "max": 0.5432693271107212,
+      "adaptiveMedian": 0.041938116331849074,
+      "adaptiveP95": 0.13303272491166634
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 45,
+      "median": 0.09604354532510229,
+      "p95": 0.21135339872387815,
+      "max": 0.2801918868321991,
+      "adaptiveMedian": 0.038206705162764365,
+      "adaptiveP95": 0.17346498444333633
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 47,
+      "median": 0.12237501977540433,
+      "p95": 0.24979472525438098,
+      "max": 0.35509742656762455,
+      "adaptiveMedian": 0.05779158756527636,
+      "adaptiveP95": 0.18097217607974572
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 44,
+      "median": 0.08453995939463255,
+      "p95": 0.3128171834626159,
+      "max": 0.6251438327268204,
+      "adaptiveMedian": 0.03989242208515975,
+      "adaptiveP95": 0.10718659362962628
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 51,
+      "median": 0.12402092232230189,
+      "p95": 0.4789538179612407,
+      "max": 0.5805882013658561,
+      "adaptiveMedian": 0.03965234931183659,
+      "adaptiveP95": 0.1848684609501845
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 48,
+      "median": 0.1373481912143859,
+      "p95": 0.9909861407741741,
+      "max": 1.2241203923430817,
+      "adaptiveMedian": 0.0448947292095454,
+      "adaptiveP95": 0.18869315575078355
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 50,
+      "median": 0.0896390009492336,
+      "p95": 0.23610189579716517,
+      "max": 0.2646370563729761,
+      "adaptiveMedian": 0.04357738332134886,
+      "adaptiveP95": 0.10746755853504623
+    },
+    {
+      "start": 280.0,
+      "end": 288.0,
+      "attacks": 47,
+      "median": 0.048490283710464155,
+      "p95": 0.20149530664984353,
+      "max": 0.30204312345091466,
+      "adaptiveMedian": 0.03932546274324977,
+      "adaptiveP95": 0.17984198175386712
+    },
+    {
+      "start": 288.0,
+      "end": 296.0,
+      "attacks": 48,
+      "median": 0.09326744845219537,
+      "p95": 0.2584683429574966,
+      "max": 0.2868779992617192,
+      "adaptiveMedian": 0.0359990969255648,
+      "adaptiveP95": 0.09359871855712354
+    },
+    {
+      "start": 296.0,
+      "end": 304.0,
+      "attacks": 58,
+      "median": 0.135259172467471,
+      "p95": 0.35308917282998775,
+      "max": 0.4245969124083331,
+      "adaptiveMedian": 0.05532164610033874,
+      "adaptiveP95": 0.1703610023466041
+    },
+    {
+      "start": 304.0,
+      "end": 312.0,
+      "attacks": 47,
+      "median": 0.16201992037127866,
+      "p95": 0.357938854611541,
+      "max": 0.522529333438797,
+      "adaptiveMedian": 0.051875560301766654,
+      "adaptiveP95": 0.2465623895875977
+    },
+    {
+      "start": 312.0,
+      "end": 320.0,
+      "attacks": 62,
+      "median": 0.15285965597482232,
+      "p95": 0.6746370827400341,
+      "max": 0.7973635171123306,
+      "adaptiveMedian": 0.046617129410009284,
+      "adaptiveP95": 0.20676984786176428
+    },
+    {
+      "start": 320.0,
+      "end": 328.0,
+      "attacks": 42,
+      "median": 0.19337011548816463,
+      "p95": 0.5392412527025838,
+      "max": 0.6265714813056888,
+      "adaptiveMedian": 0.054817605337262876,
+      "adaptiveP95": 0.154691112297931
+    },
+    {
+      "start": 328.0,
+      "end": 336.0,
+      "attacks": 45,
+      "median": 0.1311991773454224,
+      "p95": 0.2255242182145252,
+      "max": 0.3056046643462764,
+      "adaptiveMedian": 0.03673634182348451,
+      "adaptiveP95": 0.13557488266623066
+    },
+    {
+      "start": 336.0,
+      "end": 344.0,
+      "attacks": 38,
+      "median": 0.1375518443811643,
+      "p95": 0.45145616134039396,
+      "max": 0.7362630517322373,
+      "adaptiveMedian": 0.037491397722220654,
+      "adaptiveP95": 0.11998927846333908
+    },
+    {
+      "start": 344.0,
+      "end": 352.0,
+      "attacks": 21,
+      "median": 0.44554982070343385,
+      "p95": 1.0436811158571686,
+      "max": 1.055179230606882,
+      "adaptiveMedian": 0.08936738648958453,
+      "adaptiveP95": 0.34431076306520936
+    }
+  ],
   "worstFiveOnsetRegions": [
     {
       "start": 344.0,
@@ -264,6 +706,7 @@
     "decodedDuration": 357.8466666666667,
     "activeEndMinus45dB": 357.81950113378684
   },
+  "roundedCollapsedAttackIntervals": 0,
   "id": "schubert-impromptu-gflat",
   "tuningHz": 440.0,
   "audioSha256": "6abb43e0f67d70375e41c5caa5ad0222760c34d6d087f628ce9a6fcb4e3530a4",
@@ -335,7 +778,7 @@
   "adaptiveOnsetCount": 1841,
   "adaptiveMedianDeviation": 0.04325113378686751,
   "gateReasons": [],
-  "elapsedSeconds": 0.7279679359926376,
+  "elapsedSeconds": 0.9412056570290588,
   "dtwSteps": [
     [
       1,
@@ -359,5 +802,48 @@
     "bars": 86,
     "notes": 2730,
     "voices": 5
-  }
+  },
+  "published": true,
+  "configSha256": "704490f2dc4e57749bdf0cd42115b482c8e058e7376308b4c44fca792656418d",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchubertF/D899/SchubertF-D899-3-Impromptu/SchubertF-D899-3-Impromptu.ly",
+      "file": "SchubertF-D899-3-Impromptu.ly",
+      "sha256": "705bb3e1c6f699d774f36d421210124ced774a238174772310a024be289679ce"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/SchubertF/D899/SchubertF-D899-3-Impromptu/SchubertF-D899-3-Impromptu.mid",
+      "file": "SchubertF-D899-3-Impromptu.mid",
+      "sha256": "3ae00ab41634cd65c495a0aec41798ff191bd2690f48ec93daa53dd0266edaa2"
+    }
+  ],
+  "comparison": {
+    "previousScore": true,
+    "previousSha256": "e25ff06d057b382b80bc66927bcd678669c5b519ffc9d87ea82f4517e5e559e5",
+    "candidateSha256": "e25ff06d057b382b80bc66927bcd678669c5b519ffc9d87ea82f4517e5e559e5",
+    "byteIdentical": true,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.0,
+      "noteDurationSeconds": 0.0,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": true
+  },
+  "overlays": [
+    "work/schubert-impromptu-gflat-0-8.6.png",
+    "work/schubert-impromptu-gflat-120-128.png",
+    "work/schubert-impromptu-gflat-136-144.png",
+    "work/schubert-impromptu-gflat-144-152.png",
+    "work/schubert-impromptu-gflat-168.87-180.87.png",
+    "work/schubert-impromptu-gflat-208-216.png",
+    "work/schubert-impromptu-gflat-240-248.png",
+    "work/schubert-impromptu-gflat-296-304.png",
+    "work/schubert-impromptu-gflat-320-328.png",
+    "work/schubert-impromptu-gflat-344-352.png",
+    "work/schubert-impromptu-gflat-344.233-356.233.png"
+  ]
 }

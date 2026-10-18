@@ -121,13 +121,13 @@
       "note": "The musical-composition tag is PD-old-auto-expired, 1937. This does not license a later edition, arrangement or recording."
     },
     "recording": {
-      "value": "Public domain in the United States: U.S. Army federal-government recording.",
+      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Army (US-law basis).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "structured"
+        "rights-audit-commons",
+        "rights-audit-us-government"
       ],
-      "note": "Commons uses PD-USGov-Military-Army; the structured public-domain statement is explicitly qualified to the United States. No worldwide public-domain claim is made."
+      "note": "Commons expressly applies PD-USGov-Military-Army to the recording or official federal-government performance, not only to the composition. Under 17 U.S.C. § 105(a), official US Government works are not protected by US copyright. This is rule 1’s recording-specific public-domain release route, not rule 2’s publication-date route; it does not establish worldwide public-domain status."
     },
     "creditLine": "String players of the United States Army Band. U.S. Army Strings audio-download source, via Wikimedia Commons. Recording: U.S. federal-government work, public domain in the United States.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Army"
@@ -160,6 +160,20 @@
       "url": "https://web.archive.org/web/20161016172826/http://www.usarmyband.com:80/Audio/army_strings_audio_downloads.html",
       "locator": "Archived page identifies the U.S. Army Strings and its MP3 download service. The retrieved page supplies no player names or session date; “Updated 19 May 2009” is a webpage date.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Ravel - String Quartet, mvt 2 - US Army Band.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1044306038&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Ravel - String Quartet, mvt 2 - US Army Band.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-us-government",
+      "title": "17 U.S.C. § 105 — United States Government works",
+      "url": "https://www.law.cornell.edu/uscode/text/17/105",
+      "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

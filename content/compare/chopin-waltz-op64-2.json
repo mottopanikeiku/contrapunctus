@@ -1,0 +1,147 @@
+{
+  "id": "chopin-waltz-op64-2",
+  "title": "A waltz, four ways of breathing",
+  "composer": "chopin",
+  "work": "Waltz in C-sharp minor, Op. 64 No. 2",
+  "question": "How do four pianists distribute time between the singing opening and the revolving continuation?",
+  "intro": "Paderewski’s 1917 transfer, Pachmann’s 1925 HMV side and Rummel’s 1943 recording are compared with Olga Gurevich’s modern Musopen performance. Pachmann’s original file contains Étude Op. 25 No. 3 first, so only the waltz beginning around 1:57 is aligned. Paderewski’s automatic map is usable only with caution, while Rummel is limited to the shared opening because the later full-file path becomes unreliable. These restrictions preserve the original audio rather than inventing a continuous correspondence across every second.",
+  "group": "golden-age",
+  "recordings": [
+    {
+      "listen": "chopin-waltz-op64-2-paderewski-1917",
+      "label": "Paderewski, 1917",
+      "year": 1917,
+      "note": "Automatic alignment requires caution; compare broad phrases, not note-exact delays or a global tempo ratio."
+    },
+    {
+      "listen": "chopin-waltz-op64-2-pachmann-1925",
+      "label": "Vladimir de Pachmann, 1925",
+      "year": 1925,
+      "note": "Waltz starts around 1:57 after Étude Op. 25 No. 3 on the original side; pre-waltz material is outside the comparison."
+    },
+    {
+      "listen": "chopin-waltz-op64-2-rummel-1943",
+      "label": "Walter Morse Rummel, 1943",
+      "year": 1943,
+      "note": "Shared opening only; later full-file correspondence failed inspection. Use the unedited recording without extrapolating the map."
+    },
+    {
+      "listen": "chopin-waltz-op64-2-gurevich",
+      "label": "Olga Gurevich, c. 2014",
+      "year": 2014,
+      "note": "Modern reference; high-level regions recur rather than building continuously towards the end."
+    }
+  ],
+  "reference": "chopin-waltz-op64-2-gurevich",
+  "passages": [
+    {
+      "label": "Opening waltz",
+      "t": 5,
+      "note": "Compare the length and shape of the singing phrase. Historic recording balance is not a direct measure of piano touch."
+    },
+    {
+      "label": "An early turn",
+      "t": 30,
+      "note": "A measured reference change lies within the shared opening of all four files; automatic correspondence remains provisional."
+    },
+    {
+      "label": "Quicker figure",
+      "t": 42,
+      "note": "Follow the revolving motion through the contrast. Rummel’s published map does not extend to the complete later return structure."
+    },
+    {
+      "label": "Early recorded crest",
+      "t": 55,
+      "note": "Gurevich’s highest five-second level window occurs here; compare phrase placement rather than normalised amplitude across different recordings."
+    },
+    {
+      "label": "Central contrast",
+      "t": 80,
+      "note": "Rummel is outside its published map here. The other files remain available, with Paderewski’s lower-confidence correspondence clearly cautioned."
+    },
+    {
+      "label": "Later renewed span",
+      "t": 164,
+      "note": "Compare the later phrase with the opening while retaining the distinction between a source-file duration and musical time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Paderewski_-_Steinway_grand_piano.ogg"
+    },
+    {
+      "title": "APR — complete Victor recordings catalogue",
+      "url": "https://www.europadisc.co.uk/classical/128588/Paderewski_-_The_American_Recordings_%28The_Complete_Victor_Recordings%2C_1914-31%29.htm"
+    },
+    {
+      "title": "Paderewski — Tempo Rubato (1909)",
+      "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/"
+    },
+    {
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2"
+    },
+    {
+      "title": "Alan Kelly — Gramophone Bb/Cc matrix series",
+      "url": "https://gramophonecompanydiscography.com/PDF/File%20D%20-%20BB.pdf"
+    },
+    {
+      "title": "The Gramophone, December 1925, pp.338–339",
+      "url": "https://archive.org/stream/gramophone-1925-12/Gramophone%201925-12_djvu.txt"
+    },
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Walter_Morse_Rummel,_piano_-_Waltz_in_C-sharp_minor,_Op._64,_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac"
+    },
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._7_in_C-sharp_minor,_Op._64_No._2_(Olga_Gurevich).flac"
+    }
+  ],
+  "alignment": {
+    "scope": "Pachmann: only source 117–276. Rummel: reference 0–76 to source 0–82.5. Paderewski is cautious, not a note-exact alignment.",
+    "method": "Automatic chroma CENS + DTW; no audio speed change or concatenation.",
+    "maps": [
+      {
+        "listen": "chopin-waltz-op64-2-paderewski-1917",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.839,
+        "minimumConfidence": 0.587,
+        "fractionBelow075": 0.098,
+        "interpretation": "Usable with caution; no note-exact or unqualified local-tempo claim."
+      },
+      {
+        "listen": "chopin-waltz-op64-2-pachmann-1925",
+        "trimA": null,
+        "trimB": [
+          117,
+          276
+        ],
+        "transposeB": 0,
+        "medianConfidence": 0.929,
+        "minimumConfidence": 0.827,
+        "fractionBelow075": 0,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "chopin-waltz-op64-2-rummel-1943",
+        "trimA": [
+          0,
+          76
+        ],
+        "trimB": [
+          0,
+          82.5
+        ],
+        "transposeB": 0,
+        "medianConfidence": 0.813,
+        "minimumConfidence": 0.556,
+        "fractionBelow075": 0.25,
+        "interpretation": "Usable with caution; no note-exact or unqualified local-tempo claim."
+      }
+    ]
+  }
+}

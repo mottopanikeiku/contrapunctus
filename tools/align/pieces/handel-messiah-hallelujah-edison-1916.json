@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "id": "handel-messiah-hallelujah-edison-1916",
+  "source": {
+    "mutopia": 459,
+    "title": "Messiah, HWV 56 — Hallelujah",
+    "edition": "Unknown: the Mutopia catalogue does not identify a source edition",
+    "encoder": "Joshua Koo",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "hallelujah-lys/combined-score.ly",
+    "midi": "combined-score.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/HandelGF/hallelujah/hallelujah-lys.zip",
+        "file": "hallelujah-lys.zip",
+        "sha256": "bece0f8dc876fbddd006d177a66f243b7813d4074bed9f276b03d10b665730ab"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/HandelGF/hallelujah/hallelujah-mids.zip",
+        "file": "hallelujah-mids.zip",
+        "sha256": "74bf4f72e3c534d3cea991885106a829c0bb38e362f13432e24b85a7981277d3"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "oboes",
+      "name": "Oboes",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        4
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        5
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        6
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        7
+      ]
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        8
+      ]
+    },
+    {
+      "id": "soprano",
+      "name": "Chorus soprano",
+      "tracks": [
+        9
+      ]
+    },
+    {
+      "id": "alto",
+      "name": "Chorus alto",
+      "tracks": [
+        10
+      ]
+    },
+    {
+      "id": "tenor",
+      "name": "Chorus tenor",
+      "tracks": [
+        11
+      ]
+    },
+    {
+      "id": "choral-bass",
+      "name": "Chorus bass voice",
+      "tracks": [
+        12
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 94,
+    "quarters": 4,
+    "order": [
+      [
+        1,
+        94
+      ]
+    ],
+    "description": "Bars 1–94 once. The source separates SATB, winds, brass, timpani and four string staves; no independent double-bass part or keyboard realisation is invented."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      5
+    ],
+    "last": [
+      210,
+      220
+    ],
+    "basis": "Initial score-pitch search windows from existing historical-recording analysis. Inspect the final chord separately from transfer noise before publication."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 13,
+    "width": 280,
+    "height": 400
+  },
+  "provenance": [
+    "Mutopia 459 supplies the complete Hallelujah chorus, 94 bars in 4/4, with source-defined orchestral staves and four SATB choral staves. Combined-source MIDI is used; timbral MIDI patches are not interpreted as recording instrumentation.",
+    "The source catalogue labels its underlying edition Unknown. Separate double-bass pitches and realised continuo are not encoded and are not invented.",
+    "This historical recording has transfer noise; its RMS tail is not automatically evidence of sustained music. No aural review is claimed.",
+    "The Oratorio Chorus recording does not credit the instrumental players. Source-part labels describe the notation, not verified acoustic stems or a claim about the accompanying personnel."
+  ]
+}

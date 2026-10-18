@@ -1,0 +1,24 @@
+{
+  "mutopia": 548,
+  "title": "Brandenburg Concerto No. 5 in D major, BWV 1050 — III. Allegro",
+  "edition": "Bach-Gesellschaft",
+  "encoder": "Joshua Koo; LilyPond 2.18 update and A–B–A corrections by Joram Berger",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=548",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "brand5-3-lys/score.ly",
+  "midi": "score.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1050/brand5-3/brand5-3-lys.zip",
+      "file": "brand5-3-lys.zip",
+      "sha256": "7112a5479b892f8f24a7b9ff3e66228a9633770cf58b5a9fb2c535140789ffc0"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1050/brand5-3/brand5-3-mids.zip",
+      "file": "brand5-3-mids.zip",
+      "sha256": "c58511d380295eccb820465cc3d64278f93e214920b1cde03ce074a55946fceb"
+    }
+  ],
+  "accessed": "2026-10-17"
+}

@@ -133,21 +133,29 @@
       "note": "Rachmaninoff died in 1943. This is a territorial term calculation, not worldwide clearance or a statement about an unidentified modern performing edition."
     },
     "recording": {
-      "value": "Internet Archive applies Public Domain Mark 1.0 to the audio; the underlying performance is a historic Victor commercial issue from the pre-1926 period.",
+      "value": "US public domain: the issued sound recording was commercially available by 1925; Internet Archive also applies Public Domain Mark 1.0 to the access file.",
       "status": "documented",
       "sourceIds": [
         "archive",
         "archive-data",
         "dahr",
         "booklet",
+        "victor-1925",
         "us-term"
       ],
-      "note": "Eligibility is based on the historic issued sound recording, not merely on the age of the composition or the 1992 reissue date. DAHR and the booklet document the early Victor issue and take; the precise first-publication day is not established here. The 1992 booklet retains an all-rights-reserved notice for the reissue. No claim is made that its text, artwork or compilation is public domain, or that an unidentified new creative contribution to the transfer has independent clearance worldwide."
+      "note": "Victor’s contemporary 1925 catalogue lists this Prelude on record 812, which DAHR maps to the same B-24642 take 5 as the earlier single-faced 64963. This establishes publication no later than 1925, independently of the 1921 session date, and eligibility under the project’s pre-1926 US recording rule. The exact first-publication day remains unknown. The 1992 booklet retains an all-rights-reserved reissue notice: no claim is made that its text, artwork or compilation is public domain, or that any unidentified new creative contribution to the mastering is independently cleared worldwide."
     },
     "creditLine": "Sergei Rachmaninoff, piano — Victor 64963, matrix B-24642-5. Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s recording-rights statement.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   },
   "sources": [
+    {
+      "id": "victor-1925",
+      "title": "1925 Catalog of Victor Records, Victor Talking Machine Company",
+      "url": "https://archive.org/download/catalogueofvicto00vict_0/catalogueofvicto00vict_0_djvu.txt",
+      "locator": "Title page: copyright 1925. Red Seal section, “The Rachmaninoff Records—Continued”: Op. 23 No. 5 and Op. 32 No. 5 both on 6261; Op. 32 No. 12 on 812. Contemporary publication evidence, linked to takes through DAHR.",
+      "accessed": "2026-10-17"
+    },
     {
       "id": "archive",
       "title": "Internet Archive: Complete Rachmaninoff, CD 10",

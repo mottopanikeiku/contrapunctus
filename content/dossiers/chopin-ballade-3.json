@@ -54,9 +54,9 @@
     },
     "matrixTakeSides": {
       "value": null,
-      "status": "not applicable",
+      "status": "unknown",
       "sourceIds": [],
-      "note": "No historic disc matrix or side is involved in the documented digital source."
+      "note": "No original carrier, matrix, take or side has been established from the consulted source; a digital copy does not establish a born-digital original."
     }
   },
   "transfer": {
@@ -116,25 +116,25 @@
       "title": "Selected recording source",
       "url": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Ballade_Ab_major_Opus_47.ogg",
       "locator": "Description, performer attribution, source chain and recording-licence statement.",
-      "accessed": "2026-10-16"
+      "accessed": "2026-09-29"
     },
     {
       "id": "work",
       "title": "Fryderyk Chopin Institute: Ballade No. 3 in A♭ major, Op. 47",
       "url": "https://chopin.nifc.pl/en/chopin/kompozycja/110",
       "locator": "Work commentary, date, dedication and formal description.",
-      "accessed": "2026-10-16"
+      "accessed": "2026-09-29"
     },
     {
       "id": "repository",
       "title": "Al Goldstein: Pandora Music repository",
       "url": "http://music.ibiblio.org/pub/multimedia/pandora/vorbis/index.html",
       "locator": "Upstream source named on the Commons file page; the source page, not an upload date, supplies attribution.",
-      "accessed": "2026-10-16"
+      "accessed": "2026-09-29"
     }
   ],
   "editorial": {
     "editor": "Contrapunctus research desk",
-    "revised": "2026-10-16"
+    "revised": "2026-09-29"
   }
 }

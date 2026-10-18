@@ -24,9 +24,10 @@
     "status": "documented",
     "sourceIds": [
       "commons",
-      "archive"
+      "archive",
+      "classical-connect"
     ],
-    "note": "The ensemble is named by both sources. The embedded tag ‘Murai/PSO’ is retained as a research lead only; it does not establish a full conductor credit or identify individual players."
+    "note": "Commons and the Archive name the ensemble. The embedded tag ‘Murai/PSO’ is a research lead. Classical Connect separately credits a Peabody performance of this symphony to Hajime Teri Murai, but a link between its recording and these audio files is not established; no full conductor credit or individual players are assigned here."
   },
   "session": {
     "date": {
@@ -34,9 +35,10 @@
       "status": "unknown",
       "sourceIds": [
         "commons",
-        "archive"
+        "archive",
+        "classical-connect"
       ],
-      "note": "19 November 2006 is the Archive added/public date, repeated by Commons. It is not a documented performance date. The filename code PSO020103 is not decoded as a date.",
+      "note": "19 November 2006 is the Archive added/public date, repeated by Commons, not a documented performance date. Classical Connect separately lists a Peabody/Murai recording as ‘Recorded on 02/01/2003’, but its identity with these audio files is unconfirmed. The filename code PSO020103 is not decoded as a date.",
       "precision": null
     },
     "place": {
@@ -151,6 +153,13 @@
       "title": "Internet Archive — Mahler Symphony 5",
       "url": "https://archive.org/metadata/Mahler_Symphony_5",
       "locator": "metadata.creator, licenseurl, addeddate and publicdate; files 05.PSO020103-Mahler-5-V.mp3 and 05.PSO020103-Mahler-5-V.ogg. Item describes complete movements I–V.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "classical-connect",
+      "title": "Classical Connect — Symphony No. 5, Peabody Symphony Orchestra",
+      "url": "https://www.classicalconnect.com/Orchestral_Music/Mahler/Symphony_No._5/3521",
+      "locator": "Credits Hajime Teri Murai and states ‘Recorded on 02/01/2003, uploaded on 06/07/2010’. Consulted as a candidate provenance lead; the page does not expose an audio filename establishing identity with the selected Commons/Archive files.",
       "accessed": "2026-10-17"
     },
     {

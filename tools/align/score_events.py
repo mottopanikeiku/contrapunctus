@@ -89,7 +89,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         else:
             raise ValueError(f'Unknown extraction mode: {mode}')
         notes, tracks = midi_events(midi)
-        if extraction.get('expectedTracks') is not None and tracks != extraction['expectedTracks']:
+        expected = extraction.get('expectedTracks')
+        if expected is not None and (len(tracks) != len(expected) or any(e is not None and e != a for e, a in zip(expected, tracks))):
             raise ValueError(f'{ident}: MIDI track identities changed: {tracks}')
         mapping = {}
         for vi, voice in enumerate(voices):

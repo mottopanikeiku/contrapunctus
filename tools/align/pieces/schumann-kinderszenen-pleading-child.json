@@ -47,9 +47,7 @@
     "first": 1,
     "count": 17,
     "quarters": 2,
-    "overrides": {
-      "17": 1
-    },
+    "overrides": {},
     "order": [
       [
         1,

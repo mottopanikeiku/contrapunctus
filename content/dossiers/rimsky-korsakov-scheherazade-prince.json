@@ -132,13 +132,14 @@
       "note": "Nikolai Rimsky-Korsakov died in 1908. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "CC0 1.0 designation on Commons; public-domain dedication at the upstream Archive item",
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "archive"
+        "rights-audit-commons",
+        "rights-audit-eu-term",
+        "rights-audit-eu-audio"
       ],
-      "note": "These are the digital-file sources’ rights statements. They do not by themselves demonstrate that the uploader could waive all rights in the underlying 1942 Victor recording; no independent United States clearance is established here."
+      "note": "Commons identifies the original Victor DM-920 78-rpm set and Monteux/San Francisco sessions of 3–4 March 1942. Its CC0 tag does not independently prove that the uploader could waive Victor’s recording rights; this assessment instead uses the historic commercial recording under rule 3. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date."
     },
     "creditLine": "Nikolai Rimsky-Korsakov: Scheherazade, Op. 35, III. The Young Prince and the Young Princess — San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin. Victor DM-920, recorded 3–4 March 1942. Transfer by Bob Varney, Internet Archive, via Wikimedia Commons; the file is designated CC0, with underlying recording rights not independently cleared.",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -171,6 +172,27 @@
       "url": "https://archive.org/download/Sheherazade/DSCN9173.JPG",
       "locator": "Lower cover inscription: San Francisco Symphony Orchestra, Pierre Monteux, conductor, Victor Red Seal Records. No readable matrix or individual disc-side numbers are shown.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 03 The Young Prince And Princess.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1258921827%7C661044101%7C642919319%7C1111732218%7C509438495%7C999902261%7C718748653%7C901919689%7C1204343741%7C718302093&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 03 The Young Prince And Princess.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-term",
+      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-eu-audio",
+      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
+      "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

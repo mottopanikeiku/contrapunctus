@@ -1,0 +1,32 @@
+{
+  "id": "chopin-nocturne-op9-2-colours",
+  "title": "A nocturne between keys and strings",
+  "composer": "chopin",
+  "group": "golden-age",
+  "work": "Nocturne in E♭ major, Op. 9 No. 2",
+  "question": "What changes when Elman’s violin sustains the melody that Lévy and Prati play on piano?",
+  "intro": "Lévy’s Musopen performance is dated circa 2014; Prati’s live account comes from Madrid on 24 November 2015. Elman plays a violin-and-piano transcription, but Victor 74052 covers several masters: his date, take and pianist remain unresolved. The provisional piano map covers Lévy 0–260 and Prati 0–290 seconds. Elman is mapped only in the opening, Lévy 0–65 to Elman 3–82; a full-piece trial failed to follow later recurring material. His pitch features are shifted one semitone for analysis, not playback. Even in this opening, lower confidence requires caution: the map is a listening aid, not evidence of exact bar identity or instrument technique.",
+  "recordings": [
+    { "listen": "chopin-nocturne-op9-2-levy", "label": "Frank Lévy", "year": 2014, "note": "Circa 2014, not an exact session date; solo piano. Musopen’s explicit recording dedication." },
+    { "listen": "chopin-nocturne-op9-2-elman", "label": "Mischa Elman", "year": null, "note": "Violin and piano; opening-only map. Victor 74052 master, session and pianist unresolved; the source credits Percy B. Kahn." },
+    { "listen": "chopin-nocturne-op9-2-prati", "label": "Patrizia Prati", "year": 2015, "note": "Museum of Romanticism, Madrid, 24 November; live solo piano, released under CC BY-SA 4.0." }
+  ],
+  "reference": "chopin-nocturne-op9-2-levy",
+  "passages": [
+    { "label": "Melody and accompaniment", "t": 5, "note": "Compare a bowed melodic line with a pianist’s decaying notes; the maps locate passages, not individual articulations." },
+    { "label": "Within the opening phrase", "t": 30, "note": "Compare the space around the line’s smaller attacks. Elman’s opening map is provisional, not a note-for-note alignment." },
+    { "label": "After the first rise", "t": 55, "note": "Lévy settles after the preceding rise. Compare how the other performers make room before continuing; Elman’s coverage ends at reference second 65." },
+    { "label": "The ornamented line", "t": 95, "note": "Lévy and Prati only: follow the whole phrase through its smaller attacks. Elman has no published correspondence here." },
+    { "label": "Later expansion", "t": 145, "note": "Lévy and Prati only: compare the rise and retreat without turning recording level into a claim about loudness." },
+    { "label": "Closing build", "t": 215, "note": "Lévy and Prati only: compare the broad ascent with its ornamental release." },
+    { "label": "Last cadential sound", "t": 250, "note": "Lévy and Prati only: listen beyond arrival into resonance. Their map intentionally excludes the final low-level tails." }
+  ],
+  "sources": [
+    { "title": "Lévy: approximate date and Musopen recording dedication", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac" },
+    { "title": "Prati: live session and recording licence", "url": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg" },
+    { "title": "Elman transfer: source attribution and recording-specific US public-domain tag", "url": "https://commons.wikimedia.org/wiki/File:Mischa_Elman_-_Nocturne_in_E_flat_major,_Op_9_No_2.mp3" },
+    { "title": "DAHR: Victor 74052 includes several masters", "url": "https://adp.library.ucsb.edu/index.php/objects/refer/47059" },
+    { "title": "DAHR: C-8813 takes, accompanists and questionable 1915 issue", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200008912" },
+    { "title": "Chopin Op. 9 No. 2: written ornamentation and accompaniment", "url": "https://en.wikipedia.org/wiki/Nocturnes,_Op._9_(Chopin)" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "leoncavallo-vesti-caruso-1902",
+  "work": { "title": "Pagliacci", "catalogue": "", "movement": "Vesti la giubba", "version": { "value": "Tenor with piano; Italian", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "The performing edition and exact textual cuts are not established. The comparison uses a shared excerpt, not an equivalence of complete sides." } },
+  "performers": { "value": [{ "name": "Enrico Caruso", "role": "tenor" }, { "name": "Salvatore Cottone", "role": "piano" }], "status": "documented", "sourceIds": ["archive", "dahr"], "note": "DAHR identifies Cottone and recordist Frederick William Gaisberg; the latter is not a performer." },
+  "session": {
+    "date": { "value": "30 November 1902", "status": "documented", "sourceIds": ["dahr"], "note": "Session date, not the date of the later Archive Series pressing transferred here.", "precision": "day" },
+    "place": { "value": "Milan, Italy", "status": "documented", "sourceIds": ["dahr"], "note": "No more specific venue is asserted." }
+  },
+  "carrier": {
+    "label": { "value": "His Master’s Voice / Gramophone Archive Series", "status": "documented", "sourceIds": ["archive", "dahr-issue"], "note": "The transferred pressing is a reissue of the 1902 Gramophone master." },
+    "catalogue": { "value": "V.A.30; original Gramophone 52440 also identified", "status": "documented", "sourceIds": ["archive", "dahr", "dahr-issue"], "note": "IA lists V.A.30 and the additional identifier 52440. The exact manufacture date of this reissue copy is unknown." },
+    "matrixTakeSides": { "value": "2875b, take [1]", "status": "documented", "sourceIds": ["archive", "dahr"], "note": "IA transcribes 2875 B; DAHR gives 2875b and brackets the take number. The ten-inch master is one complete side; no concatenation." }
+  },
+  "transfer": {
+    "credits": { "value": "Casey Dougherty; George Blood, L.P.", "status": "documented", "sourceIds": ["archive"], "note": "IA user_transferred identifies Casey Dougherty; scanningcenter identifies George Blood, L.P." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["archive"], "note": "The November 2018 upload date is not treated as a documented transfer date." },
+    "processing": { "value": "Transferred at 78 rpm using four styli; engineer-preferred version selected", "status": "documented", "sourceIds": ["archive"], "note": "The item specifies 3.8, 2.3, 2.8 and 3.3 mil truncated-conical styli. Which stylus supplied this friendly filename, and any subsequent restoration, are not independently established." }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a/Vesti%20la%20Giubba%20%28On%20with%20the%20Motley%29%20-%20Enrico%20Caruso.mp3",
+    "sourceChain": ["archive", "dahr", "dahr-issue"],
+    "format": "Internet Archive VBR MP3 derivative of the supplied 24-bit FLAC disc transfer",
+    "durationSeconds": 123.05
+  },
+  "rights": {
+    "composition": { "value": "Historical aria from the 1892 opera Pagliacci", "status": "documented", "sourceIds": ["work"], "note": "The historical composition is separate from rights in this recording and transfer." },
+    "recording": { "value": "US public domain: recording first published before 1 January 1926", "status": "documented", "sourceIds": ["archive", "dahr", "dahr-issue"], "note": "Rule 2. IA dates the recording 1902 and identifies matrix 2875 B; DAHR links that master to Gramophone 52440 and the V.A.30 reissue. The opened metadata has no licenseurl and no non-commercial licence. The later physical pressing date is not asserted as the original publication date." },
+    "creditLine": "Ruggero Leoncavallo, Vesti la giubba; Enrico Caruso, tenor; Salvatore Cottone, piano. Milan, 30 November 1902; Gramophone 2875b [1], reissued as HMV V.A.30. Transfer credited to Casey Dougherty / George Blood, L.P.; Internet Archive Great 78 Project. US public-domain historic sound recording.",
+    "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Caruso Vesti la giubba, GBIA0077656A", "url": "https://archive.org/metadata/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a", "locator": "metadata: no licenseurl; date 1902; piano, matrix 2875 B, V.A.30/52440; transfer personnel and stylus method; selected MP3 file.", "accessed": "2026-10-17" },
+    { "id": "dahr", "title": "DAHR — Gramophone 2875b", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/1000003400", "locator": "30 November 1902, Milan; take [1]; Caruso, Cottone and Gaisberg; Gramophone 52440 and V.A.30.", "accessed": "2026-10-17" },
+    { "id": "dahr-issue", "title": "DAHR — Gramophone Archive Series V.A.30", "url": "https://adp.library.ucsb.edu/index.php/objects/detail/108244/Gramophone_Archive_Series_VA-30", "locator": "Coupling and 2875b identification; catalogue links the transferred reissue to the historic master.", "accessed": "2026-10-17" },
+    { "id": "work", "title": "Vesti la giubba — opera and dramatic situation", "url": "https://en.wikipedia.org/wiki/Vesti_la_giubba", "locator": "1892 opera, Act I conclusion, Canio and the dramatic text.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

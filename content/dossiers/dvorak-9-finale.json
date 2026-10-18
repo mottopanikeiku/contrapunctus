@@ -1,0 +1,143 @@
+{
+  "id": "dvorak-9-finale",
+  "work": {
+    "title": "Symphony No. 9 in E minor “From the New World”, Op. 95",
+    "catalogue": "Op. 95",
+    "movement": "IV. Allegro con fuoco",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The recording documentation does not identify the performing edition. No revision or editorial intervention is inferred from the file title."
+    }
+  },
+  "performers": {
+    "value": [],
+    "status": "unknown",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "No soloist, conductor or orchestral personnel are named. Musopen is the source repository, not an inferred performer. The four Musopen movements are grouped as one work; the source does not establish that they share one recording session."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No session date is established; composition, release and upload dates are not recording dates.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No session venue is documented."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original record label is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No original carrier catalogue number is identified."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side allocation is documented; an Ogg or FLAC file does not establish the original carrier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The uploader is not assumed to be a transfer or mastering engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented. Upload and transcode dates are not transfer dates."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Encoding format alone does not establish equalisation, noise reduction, speed correction or other processing."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "Wikimedia Commons MP3 access derivative; source Ogg Vorbis",
+    "durationSeconds": 702.888
+  },
+  "rights": {
+    "composition": {
+      "value": "Public-domain original composition in life-plus-70 jurisdictions",
+      "status": "inferred",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The composer died in 1904. This assessment does not cover a later edition or arrangement."
+    },
+    "recording": {
+      "value": "Rule 1 — explicit Musopen public-domain release of the sound recording",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Commons applies PD-author by Musopen to the recording. This is a recording release, not an inference from the composer’s death or the composition date. Courtesy attribution and resale requests in the historic Musopen wording are not a non-commercial licence."
+    },
+    "creditLine": "Performers uncredited — Symphony No. 9 in E minor “From the New World”, Op. 95, IV. Allegro con fuoco. Public-domain recording release by Musopen, via Wikimedia Commons.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - iv. allegro con fuoco.ogg",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1013138524",
+      "locator": "File-description revision: description, source, author, date and recording-specific licensing template.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "media",
+      "title": "Wikimedia Commons audio metadata",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&titles=File%3AAntonin+Dvorak+-+symphony+no.+9+in+e+minor+%27from+the+new+world%27%2C+op.+95+-+iv.+allegro+con+fuoco.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives",
+      "locator": "Duration, MIME type and MP3 derivative URL. Measured file duration is not the date or identity of the performance.",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-17"
+  }
+}

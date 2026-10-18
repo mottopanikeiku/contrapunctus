@@ -116,13 +116,13 @@
       "note": "This is the stated basis for the underlying composition. The government-work claim for the US Navy transcription and recording is a separate issue."
     },
     "recording": {
-      "value": "PD-USGov-Military-Navy: transcription, performance and recording described as works of US Navy personnel.",
+      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Navy (US-law basis).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data"
+        "rights-audit-commons",
+        "rights-audit-us-government"
       ],
-      "note": "The file page attributes Herb Weber’s transcription, the band performance and the Navy recording to US military personnel acting in official duties. The claim establishes a US government-work public-domain basis; it is not a worldwide Creative Commons licence."
+      "note": "Commons expressly applies PD-USGov-Military-Navy to the recording or official federal-government performance, not only to the composition. Under 17 U.S.C. § 105(a), official US Government works are not protected by US copyright. This is rule 1’s recording-specific public-domain release route, not rule 2’s publication-date route; it does not establish worldwide public-domain status."
     },
     "creditLine": "Richard Strauss, Till Eulenspiegel’s Merry Pranks, Op. 28; transcribed by Herb Weber; United States Navy Band. Celebrations (2001), track 8. US Navy government-work public-domain claim in the United States; streamed from Wikimedia Commons.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy"
@@ -148,6 +148,20 @@
       "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
       "locator": "Source linked by Commons for the military-band recording. The page returned HTTP 403 on access; the album and track identification below are taken from Commons, not independently recovered from this page.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Till Eulenspiegel's Merry Pranks - United States Navy Band.opus",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1263822001&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Till Eulenspiegel's Merry Pranks - United States Navy Band.opus; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-us-government",
+      "title": "17 U.S.C. § 105 — United States Government works",
+      "url": "https://www.law.cornell.edu/uscode/text/17/105",
+      "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

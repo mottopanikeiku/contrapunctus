@@ -45,7 +45,7 @@ export default {
       "t": 564,
       "label": "B′ · Second theme expanded",
       "m": "B′",
-      "mNote": "the second theme returns in D-flat with fuller accompaniment"
+      "mNote": "the second theme returns in D♭ with fuller accompaniment"
     },
     {
       "t": 645,
@@ -66,7 +66,7 @@ export default {
       "text": "The opening invitation centres on C major rather than immediately settling in F minor. It prepares the first song without giving away the full tonal character of the work; remember its melodic contour for its later return.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Introduction and later return described by Tomaszewski; formal pitch centres corroborated by the report’s opening C-major windows. https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
+      "evidence": "C-major introductory harmony in the public Joseffy score, bars 1–7: https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys/ballade-4.ly . The opening report windows support timing, not the harmonic identification."
     },
     {
       "t": 35,
@@ -174,7 +174,7 @@ export default {
       "text": "The introductory idea returns in a different tonal setting, A major. A familiar contour can serve as a point of recognition even when its new harmony does not bring the music back to the opening’s place.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Strong boundary at 6:48 and A-major-coloured report windows around 6:50–7:10 support the approximate placement; returning introduction and ensuing cadenza: https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
+      "evidence": "Strong report boundary at 6:48 supports approximate placement. A-major introductory return and cadenza in the public Joseffy score, bars 129–134: https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys/ballade-4.ly . These bars identify the passage but are not aligned to this recording."
     },
     {
       "t": 455,
@@ -187,7 +187,7 @@ export default {
     },
     {
       "t": 490,
-      "kind": "world",
+      "kind": "music",
       "title": "Variation and counterpoint",
       "text": "Variation changes a theme’s setting; counterpoint combines distinguishable melodic lines. Tomaszewski identifies both as essential to this Ballade. They explain why a return can be recognisable yet contain more information than its first statement.",
       "basis": "documented",
@@ -207,10 +207,10 @@ export default {
       "t": 560,
       "kind": "form",
       "title": "The other song returns",
-      "text": "The second theme returns in a fuller setting, now in D-flat major. Compare the breadth of its melody with the first appearance: the surrounding activity has changed more drastically than the tune’s basic identity.",
+      "text": "The second theme returns in a fuller setting, now in D♭ major. Compare the breadth of its melody with the first appearance: the surrounding activity has changed more drastically than the tune’s basic identity.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate boundary at 9:24; report identifies D-flat-major-coloured windows in the returning region. The second theme’s transformed return is described by https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
+      "evidence": "Approximate report boundary at 9:24. D♭-major second-theme return in the public Joseffy score, bars 169 onward: https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys/ballade-4.ly . The score establishes the harmony; report windows only support approximate placement."
     },
     {
       "t": 595,
@@ -219,7 +219,7 @@ export default {
       "text": "The returning second-theme span gathers sustained weight. Listen for the longer dynamic direction across many phrases, not only the smaller rises and falls within each one.",
       "basis": "audio-feature",
       "precision": "passage",
-      "evidence": "Report levels rise from about −16.9 dB at 9:25 to −4.8 at 10:15 and −2.5 at 10:25; a broad contour, not a claim about a written crescendo’s exact start."
+      "evidence": "Report levels rise from −12.6 dB at 9:25 to −8.4 at 10:15 and −5.3 at 10:25; a broad contour, not a claim about a written crescendo’s exact start."
     },
     {
       "t": 630,
@@ -293,7 +293,7 @@ export default {
         275,
         297
       ],
-      "how": "<p>After the first theme has acquired increasingly elaborate surroundings, a second song appears in B-flat major. Its chordal, gently swaying character offers a different kind of continuity from the first theme’s variations. The compound metre remains a common ground despite the change in melodic profile.</p>",
+      "how": "<p>After the first theme has acquired increasingly elaborate surroundings, a second song appears in B♭ major. Its chordal, gently swaying character offers a different kind of continuity from the first theme’s variations. The compound metre remains a common ground despite the change in melodic profile.</p>",
       "devices": [
         "texture change",
         "link passage"
@@ -322,7 +322,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Strong report boundary 6:48 and A-major-coloured windows; return and cadenza documented by https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
+      "evidence": "Strong report boundary at 6:48 anchors approximate timing. A-major return and cadenza in the public Joseffy score, bars 129–134: https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys/ballade-4.ly . NIFC documents the returning introduction’s formal function."
     },
     {
       "id": "into-canonic-return",
@@ -344,7 +344,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Placement follows the low 7:20 window and ensuing F-minor region; NIFC describes the canonic theme: https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
+      "evidence": "The 7:20 low-level window and ensuing activity anchor the approximate return. Imitative construction and the initially transposed theme before F minor is recovered are visible in the public Joseffy score, bars 135–140 onward: https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys/ballade-4.ly . No immediate F-minor return is inferred from chroma."
     },
     {
       "id": "into-expanded-second",
@@ -358,7 +358,7 @@ export default {
         554,
         576
       ],
-      "how": "<p>The first theme’s renewed elaboration leads to the second theme in D-flat major. The melody broadens over fuller accompaniment, giving its return more weight than the first B-flat-major appearance. Familiar thematic shape and changed harmony are heard together rather than as separate events.</p>",
+      "how": "<p>The first theme’s renewed elaboration leads to the second theme in D♭ major. The melody broadens over fuller accompaniment, giving its return more weight than the first B♭-major appearance. Familiar thematic shape and changed harmony are heard together rather than as separate events.</p>",
       "devices": [
         "motivic link",
         "texture change",
@@ -366,7 +366,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate 9:24 boundary with D-flat-major-coloured windows; transformed thematic return: https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
+      "evidence": "Approximate report boundary at 9:24; the score, not chroma, establishes the D♭-major second-theme return. Public Joseffy score, bars 169 onward: https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys/ballade-4.ly ."
     },
     {
       "id": "into-quiet-link",
@@ -388,7 +388,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Report drops from loud 10:35–10:40 windows to −37.5 dB with almost no attacks at 10:45, remaining quiet through 11:10."
+      "evidence": "Report drops from loud 10:35–10:40 windows to −37.3 dB with almost no attacks at 10:45, remaining quiet through 11:10."
     },
     {
       "id": "into-coda",
@@ -410,7 +410,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Report boundary 11:14; level rises from −34.4 dB at 11:10 to −10.5 at 11:15 and onset density increases sharply; coda function: https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
+      "evidence": "Report boundary 11:14; level rises from −34.2 dB at 11:10 to −10.6 at 11:15 and onset density increases sharply; coda function: https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
     }
   ]
 };

@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "id": "vivaldi-spring-largo",
+  "source": {
+    "mutopia": 301,
+    "title": "La Primavera / Spring, RV 269 — II. Largo",
+    "edition": "Performers’ Facsimiles",
+    "encoder": "Anonymous (Mutopia maintainer)",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "spring-lys/spring-score.ly",
+    "midi": "spring-score-1.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-lys.zip",
+        "file": "spring-lys.zip",
+        "sha256": "3a87fa93faace5b2d6689fe6d39b3ee32dde6649d924a394f6b05239b22cbab9"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-mids.zip",
+        "file": "spring-mids.zip",
+        "sha256": "1e3d57ffee2dc77a4d06d777f01633d3726c57221b35661d6093095ca8cef3fd"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      "control track",
+      "solo",
+      "violinone",
+      "violintwo",
+      "viola",
+      "cello"
+    ],
+    "definitions": [
+      {
+        "file": "spring-lys/spring2.ly"
+      },
+      {
+        "file": "spring-lys/spring2a.ly"
+      },
+      {
+        "file": "spring-lys/spring2b.ly"
+      },
+      {
+        "file": "spring-lys/spring2c.ly"
+      },
+      {
+        "file": "spring-lys/spring2d.ly"
+      },
+      {
+        "file": "spring-lys/spring2f.ly"
+      }
+    ]
+  },
+  "voices": [
+    {
+      "id": "solo-violin",
+      "name": "Solo violin",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        4
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 39,
+    "quarters": 3,
+    "order": [
+      [
+        1,
+        39
+      ]
+    ],
+    "description": "Only movement 2: bars 1–39 once in written order, with no pickup or repeat traversal. Returning material is written out in the source."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      160,
+      169
+    ],
+    "basis": "Initial score-pitch search windows from the cached recording analysis. Refine from endpoint pitch-energy evidence before publication; source-file tail or container duration is not the final musical attack."
+  },
+  "boundaries": [],
+  "provenance": [
+    "The complete concerto archive is immutable; spring-score-1.mid and the spring2 source definitions select only movement 2. Its published MIDI contains 1042 sounding note attacks over 117 quarter-note units.",
+    "Source staves are solo violin, violin I, violin II, viola, and the written organ/cello bass line. Figured-bass symbols are retained visually but no realised continuo pitches or inferred separate double-bass part are invented. The source maintainer explicitly uses Anonymous.",
+    "The source cello/organ part explicitly reads Largo Tacet for all 39 bars and its MIDI track contains no notes; only the four sounding source string staves are included in this movement’s voice list and engraving."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 250,
+    "height": 320,
+    "music": "\\new StaffGroup << \\new Staff = \"solo\" \\with { instrumentName = \"Violin solo\" } { \\ViolinoPrincipaleSpringTwo } \\new Staff = \"violinone\" \\with { instrumentName = \"Violin I\" } { \\ViolinoPrimoSpringTwo } \\new Staff = \"violintwo\" \\with { instrumentName = \"Violin II\" } { \\ViolinoSecondoSpringTwo } \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } { \\AltoViolaSpringTwo } >>"
+  }
+}

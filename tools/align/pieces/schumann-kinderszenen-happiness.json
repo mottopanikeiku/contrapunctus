@@ -74,6 +74,12 @@
     "basis": "Initial score-pitch search windows from cached recording analysis; final onset positions and worst-region overlays must be inspected before publication."
   },
   "boundaries": [],
+  "diagnostics": {
+    "recurrences": [
+      { "startQ": 0, "startOffset": 1, "secondQ": 48.5, "secondOffset": 1, "length": 35, "search": 8 }
+    ],
+    "overlays": [[20, 36], [40, 56], [62, 78]]
+  },
   "engraving": {
     "staff": 18,
     "width": 230,

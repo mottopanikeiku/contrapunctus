@@ -1,0 +1,27 @@
+{
+  "id": "ravel-miroirs-noctuelles",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "dossier.carrier",
+      "severity": "major",
+      "problem": "The source documents the Wikimedia/Lviv cooperation but does not establish that the recording was never commercially released, that no catalogue number exists, or that no take identifiers exist. Missing carrier information is being converted into documented negative facts or ‘not applicable’ statuses.",
+      "evidence": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac?oldid=1285841712 — source/credit fields identify the cooperation; no original carrier label, catalogue or matrix/take information is supplied.",
+      "fix": "Set carrier.label, carrier.catalogue and carrier.matrixTakeSides to value null and status unknown, with notes saying the consulted source supplies no such identifiers. Preserve the documented Lviv/Wikimedia distribution credit in the source chain or credit line. Do not assert no commercial release without evidence. Apply the same correction to the other four Miroirs dossiers if their carrier blocks match."
+    },
+    {
+      "where": "dossier.rights.composition",
+      "severity": "minor",
+      "problem": "‘Out of copyright’ is unqualified, while the note only establishes expiry in life-plus-70 jurisdictions. That is not a worldwide clearance.",
+      "evidence": "https://commons.wikimedia.org/wiki/File:IMSLP02693-Ravel-Miroirs_DemetsEd.pdf — the composition template limits its statement to the country of origin and life-plus-70-or-shorter territories and explicitly warns about longer terms elsewhere.",
+      "fix": "Qualify the value and note to the jurisdiction/term actually supported, for example public domain in France and countries applying life plus seventy years, not a worldwide assertion. Retain inferred status and the modern-edition caveat. Apply across the five dossiers if shared."
+    },
+    {
+      "where": "cues[4]",
+      "severity": "minor",
+      "problem": "The last sentence presents Dubois’s resignation as the scandal’s settled outcome. Sources disagree on resignation versus an already planned retirement, so this causal formulation is stronger than the evidence warrants.",
+      "evidence": "https://fr.wikipedia.org/wiki/Th%C3%A9odore_Dubois — biography distinguishes retirement from resignation and questions the causal connection; https://www.academiedesbeauxarts.fr/theodore-dubois confirms his directorship ended in 1905 but makes no causal claim.",
+      "fix": "Remove the final sentence, or replace it with the neutral ‘Fauré succeeded Dubois as Conservatoire director that year’, citing the source for succession without asserting that the scandal caused a resignation. The elimination and critical reaction may remain."
+    }
+  ]
+}

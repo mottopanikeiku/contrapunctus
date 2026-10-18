@@ -50,11 +50,11 @@ export default {
     {
       "t": 30,
       "kind": "world",
-      "title": "A study beyond fingerwork",
-      "text": "An étude isolates a pianistic problem, but Chopin also gives it a distinct musical form. Here the contrast between the quick outer sections and a slower central song makes a small three-part composition.",
+      "title": "Three publishing centres",
+      "text": "The Op. 25 études appeared in French, German and English editions through Schlesinger, Breitkopf & Härtel and Wessel. Printed editions could carry the same composition to different markets long before recordings circulated a pianist’s particular performance.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "NIFC calls this a scherzo in miniature with a trio-like middle: https://chopin.nifc.pl/en/chopin/kompozycja/191"
+      "evidence": "The NIFC work record lists the French, German and English first editions and their publishers: https://chopin.nifc.pl/en/chopin/kompozycja/191"
     },
     {
       "t": 60,

@@ -1,0 +1,134 @@
+{
+  "id": "beethoven-5-first",
+  "title": "Beethoven’s Fifth through the recording horn",
+  "composer": "beethoven",
+  "work": "Symphony No. 5 in C minor, Op. 67 — first movement",
+  "question": "What changes in phrasing when acoustic pioneers and Mengelberg meet a modern orchestra?",
+  "intro": "The Odeon recording’s Kark/1910 attribution is disputed by James Hepokoski’s research, which dates the recording to August 1911 and infers Künneke as its unnamed conductor; Nikisch’s November 1913 session is securely documented. Nikisch omits the exposition repeat, so his map begins at the modern reference’s repeated exposition, 1:42.6, rather than falsely equating the two complete durations. Mengelberg is represented by one unjoined disc side, with mapping limited to the shared exposition and its repeat. Acoustic recording balances and historic transfer speeds complicate claims about original orchestral tone or exact tempo.",
+  "group": "century",
+  "recordings": [
+    {
+      "listen": "beethoven-5-first-odeon-1911",
+      "label": "Odeon, 1910–11 (conductor disputed)",
+      "year": 1911,
+      "note": "Early acoustic orchestra; conductor/date disputed. Follow the phrase through its narrow recorded balance."
+    },
+    {
+      "listen": "beethoven-5-first-nikisch-1913",
+      "label": "Nikisch, 1913",
+      "year": 1913,
+      "note": "Exposition repeat omitted; map starts at reference 1:42.6. The shorter whole file is not a simple tempo comparison."
+    },
+    {
+      "listen": "beethoven-5-first-mengelberg-side1",
+      "label": "Mengelberg, 1939–40 (side 1)",
+      "year": 1940,
+      "note": "One historical side only; mapped through the exposition and repeat, not the complete movement."
+    },
+    {
+      "listen": "beethoven-5-first",
+      "label": "Skidmore College Orchestra",
+      "year": null,
+      "note": "Modern Musopen reference takes the exposition repeat; use the repeated opening to include Nikisch."
+    }
+  ],
+  "reference": "beethoven-5-first",
+  "passages": [
+    {
+      "label": "Opening motto, repeated",
+      "t": 102.6,
+      "note": "The reference begins its exposition repeat here. Nikisch’s unrepeated opening is matched to this occurrence, not the first."
+    },
+    {
+      "label": "Within the repeated first group",
+      "t": 130,
+      "note": "Compare the spacing and weight of the short figure; acoustic balance is not a transparent concert-hall balance."
+    },
+    {
+      "label": "Towards the second subject",
+      "t": 150,
+      "note": "Follow the longer phrase after the motto; the mapping is automatic rather than bar-verified."
+    },
+    {
+      "label": "Development",
+      "t": 203.1,
+      "note": "Nikisch and Odeon continue here; the Mengelberg excerpt’s alignment ends at the shared exposition boundary."
+    },
+    {
+      "label": "Coda region",
+      "t": 402.2,
+      "note": "Compare the later accumulation without inferring tempo from unequal repeat structures."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/BeethovenFifth1910"
+    },
+    {
+      "title": "Science Museum Group Journal — Nikisch recording",
+      "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/"
+    },
+    {
+      "title": "James Hepokoski, “Listen and Be Amazed!” (JAMS 76/1, 2023) — publisher-deposited abstract",
+      "url": "https://api.crossref.org/works/10.1525/jams.2023.76.1.113"
+    },
+    {
+      "title": "Internet Archive — recording item",
+      "url": "https://archive.org/details/Beethoven_Sinf5-1_BPhO-Nikisch_EQ"
+    },
+    {
+      "title": "Wikimedia Commons — recording file",
+      "url": "https://commons.wikimedia.org/wiki/File:Telefunken-sk2210-022110.ogg"
+    },
+    {
+      "title": "Modern reference — recording and musical dossier",
+      "url": "../sources.html#dossier-beethoven-5-first"
+    }
+  ],
+  "alignment": {
+    "scope": "Nikisch mapped to reference 102.6–499; Mengelberg mapped only reference 0–203.1 to side 0–186.7; Odeon complete comparison. No whole-file tempo inference across different repeat structures.",
+    "method": "Automatic chroma DTW; no audio concatenation or speed correction.",
+    "maps": [
+      {
+        "listen": "beethoven-5-first-odeon-1911",
+        "trimA": null,
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.885,
+        "minimumConfidence": 0.672,
+        "fractionBelow075": 0.029,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "beethoven-5-first-nikisch-1913",
+        "trimA": [
+          102.6,
+          499
+        ],
+        "trimB": null,
+        "transposeB": 0,
+        "medianConfidence": 0.924,
+        "minimumConfidence": 0.727,
+        "fractionBelow075": 0.001,
+        "interpretation": "Sound overall; local uncertainty remains."
+      },
+      {
+        "listen": "beethoven-5-first-mengelberg-side1",
+        "trimA": [
+          0,
+          203.1
+        ],
+        "trimB": [
+          0,
+          186.7
+        ],
+        "transposeB": 0,
+        "medianConfidence": 0.906,
+        "minimumConfidence": 0.759,
+        "fractionBelow075": 0,
+        "interpretation": "Sound overall; local uncertainty remains."
+      }
+    ]
+  }
+}

@@ -127,7 +127,7 @@ export default {
         50,
         72
       ],
-      "how": "<p>The middle’s harmonic expansion gives way to the opening material in G-flat major. The right hand’s familiar kind of movement continues, so the return is easiest to recognise through the melodic contour, bass and harmonic destination rather than a sudden change of texture.</p>",
+      "how": "<p>The middle’s harmonic expansion gives way to the opening material in G♭ major. The right hand’s familiar kind of movement continues, so the return is easiest to recognise through the melodic contour, bass and harmonic destination rather than a sudden change of texture.</p>",
       "devices": [
         "retransition",
         "motivic link"

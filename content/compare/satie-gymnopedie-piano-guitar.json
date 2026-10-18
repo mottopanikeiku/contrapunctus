@@ -1,0 +1,26 @@
+{
+  "id": "satie-gymnopedie-piano-guitar",
+  "title": "Satie: piano strings, guitar strings",
+  "composer": "satie",
+  "group": "century",
+  "work": "Gymnopédie No. 1",
+  "question": "How does a plucked guitar carry the held melody and changing sevenths of Satie’s piano piece?",
+  "intro": "Robin Alciatore plays Satie’s piano original in a source dated approximately 2008; Michael Laucke’s guitar source is dated 23 July 2001, neither date establishing the recording session. Laucke adapts the bass, chords and held melody to six strings in A rather than D, so the alignment compensates for five semitones without altering playback. The map covers both complete files, 183.61 and 171.89 seconds, with provisional median confidence 0.954; the sparse opening and final decay are less secure than the middle phrases. Compare phrase spacing and the survival of held tones, not raw volume or identical voicings.",
+  "recordings": [
+    { "listen": "satie-gymnopedie-1", "label": "Robin Alciatore · piano", "year": null, "note": "Piano original; Commons gives c. 2008, not a verified session date. Recording released to the public domain by Alciatore." },
+    { "listen": "satie-gymnopedie-1-laucke", "label": "Michael Laucke · guitar", "year": null, "note": "Guitar arrangement; Commons source date 23 July 2001, not a verified session date. Recording and arrangement licensed CC BY-SA 4.0." }
+  ],
+  "reference": "satie-gymnopedie-1",
+  "passages": [
+    { "label": "A melody above renewed chords", "t": 12, "note": "Follow the held melodic line while the accompaniment attacks again. Compare what remains audible between those attacks." },
+    { "label": "The lower phrase", "t": 42.9, "note": "Follow the bass route beneath the sustained melody. The instruments use different registers; the correspondence is musical, not an identical voicing." },
+    { "label": "The opening returns", "t": 90.3, "note": "Compare the space before the renewed accompaniment with the first opening. These passage points remain automatic, not ear-checked bar starts." },
+    { "label": "A different ending", "t": 158.5, "note": "Keep the earlier close in memory as the second ending changes the harmony. Listen to the upper line as well as the bass." },
+    { "label": "The final resonance", "t": 176.8, "note": "Listen beyond the last attack. Decay differs between instrument and recording; the map is less exact here and does not measure pedal use." }
+  ],
+  "sources": [
+    { "title": "Alciatore recording, approximate source date and public-domain dedication", "url": "https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg" },
+    { "title": "Laucke arrangement, source date, CC BY-SA 4.0 and VRT permission", "url": "https://commons.wikimedia.org/wiki/File:Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac" },
+    { "title": "Satie’s piano score: Mutopia 37, Evin Robertson encoding", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37" }
+  ]
+}

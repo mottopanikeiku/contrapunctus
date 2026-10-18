@@ -17,6 +17,18 @@ export default {
   },
   intro: 'Grieg recorded this shortened version of his own piano piece in Paris in 1903. Its two-minute disc is not the complete score, and the comparison follows only shared opening material rather than equating whole-file durations.',
   question: 'How does Grieg’s own pacing shape the shared opening?',
-  sections: [],
-  cues: [],
+  sections: [
+    { t: 0, label: 'Opening of the shortened side', m: 'A', mNote: 'The complete historical disc, not the complete score' },
+    { t: 46, label: 'Middle listening span', m: 'B', mNote: 'Measured change; no bar number is assigned' },
+    { t: 74, label: 'Later high-level span', m: 'C', mNote: 'Strong measured change followed by a sustained crest' },
+    { t: 98, label: 'Shortened ending', m: 'D', mNote: 'Outside the shared comparison passage' },
+  ],
+  cues: [
+    { t: 0, kind: 'listen', title: 'A disc, not a roll', text: 'This is Grieg’s own acoustic disc, recorded in Paris on 2 May 1903, not a piano-roll reconstruction. Listen to the relationship between melody and accompaniment, while remembering that the horn and transfer limit what survives of his touch.', basis: 'documented', precision: 'passage', evidence: 'Marston’s discography lists the session, Wedding-Day at Troldhaugen and matrix 2149F: https://www.marstonrecords.com/products/legendary-piano. The streamed Commons transfer is separate from Marston’s restoration.' },
+    { t: 18, kind: 'listen', title: 'The shared opening passage', text: 'The comparison begins eighteen seconds into this side and stops at 1:28. Within that shared passage, compare the spacing of the piano attacks with Vetter’s complete performance; do not infer Grieg’s tempo from the two recordings’ total durations.', basis: 'general', precision: 'passage', evidence: 'The analysis locates an early boundary near 0:16. The final map uses only Grieg 18–88 seconds and Vetter 21.6–116.31 seconds; the cut ending and Vetter’s contrasting middle are excluded.' },
+    { t: 38, kind: 'listen', title: 'Pitch is not harmony', text: 'The old recording’s unstable pitch and restricted sound can obscure the harmony. Keep the melody’s direction in view rather than treating every wavering tone as an expressive inflection or a different written note.', basis: 'documented', precision: 'passage', evidence: 'Marston’s notes discuss the early Paris discs’ pitch instability and uncertain replay speed. This report’s weak global key estimate is not used to reinterpret the score; no exact tuning is asserted.' },
+    { t: 52, kind: 'music', title: 'A stronger recorded presence', text: 'Across this middle stretch, the piano gains recorded level. Compare the continuity of the pulse with the growth in sound: stronger attacks and a faster beat are different things.', basis: 'audio-feature', precision: 'passage', evidence: 'cache/analysis/grieg-wedding-day-grieg-1903.txt: measured changes at 0:46 and 0:52; level rises from −16.9 dB at 0:45 to −9.2 dB at 0:55. The report does not establish a beat-by-beat tempo.' },
+    { t: 74, kind: 'listen', title: 'Across the later crest', text: 'This later span carries some of the side’s highest recorded levels. Follow the shape of the phrase through the crest; the automatic match becomes unreliable near the abbreviated ending, so the comparison stops before it.', basis: 'audio-feature', precision: 'passage', evidence: 'The strongest measured boundary is 1:14; 1:15, 1:25 and 1:30 are among the loudest windows. An exploratory map stalled around 1:30, so its final section was excluded rather than presented as a tempo change.' },
+    { t: 98, kind: 'listen', title: 'The shortened side closes', text: 'The recording recedes towards its ending. This closing material is not mapped onto Vetter’s complete performance: the two-minute disc omits much of the score, and a convincing comparison must leave that difference audible.', basis: 'audio-feature', precision: 'passage', evidence: 'The report falls from −13.5 dB at 1:35 through −21.1 at 1:45 to −49.4 at 2:00. The complete source file is played, while alignment is restricted to 18–88 seconds.' },
+  ],
 };

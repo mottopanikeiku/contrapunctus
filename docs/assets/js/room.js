@@ -409,7 +409,17 @@ export async function mount(app) {
     ];
     const CHAIRS = { 'violins-1': 16, 'violins-2': 14, violas: 12, cellos: 10, basses: 8, piccolo: 1, flutes: 2, oboes: 2, 'cor-anglais': 1, 'e-flat-clarinet': 1, clarinets: 2, 'bass-clarinet': 1, saxophones: 4, bassoons: 2, contrabassoon: 1, horns: 4, cornets: 3, trumpets: 2, trombones: 3, euphoniums: 2, tuba: 1, timpani: 1, percussion: 3, harp: 2, celesta: 1, piano: 1, organ: 1, harpsichord: 1, chorus: 24 };
     const NAME = { 'violins-1': 'First violins', 'violins-2': 'Second violins', violas: 'Violas', cellos: 'Cellos', basses: 'Double basses', piccolo: 'Piccolo', flutes: 'Flutes', oboes: 'Oboes', 'cor-anglais': 'Cor anglais', 'e-flat-clarinet': 'E♭ clarinet', clarinets: 'Clarinets', 'bass-clarinet': 'Bass clarinet', saxophones: 'Saxophones', bassoons: 'Bassoons', contrabassoon: 'Contrabassoon', horns: 'Horns', cornets: 'Cornets', trumpets: 'Trumpets', trombones: 'Trombones', euphoniums: 'Euphoniums', tuba: 'Tuba', timpani: 'Timpani', percussion: 'Percussion', harp: 'Harp', celesta: 'Celesta', piano: 'Piano', organ: 'Organ', harpsichord: 'Harpsichord', 'solo-violin': 'Solo violin', 'solo-voice': 'Voice', chorus: 'Chorus' };
-    const MAP = [[/^(violins? i|violin 1|violini? i)$/i, 'violins-1'], [/^(violins? ii|violin 2|violini? ii)$/i, 'violins-2'], [/viol(a|e)s?\b/i, 'violas'], [/cell/i, 'cellos'], [/bass(es)?$|contrab/i, 'basses'], [/piccolo/i, 'piccolo'], [/flute|flauti/i, 'flutes'], [/oboe/i, 'oboes'], [/clarinet/i, 'clarinets'], [/bassoon|fagott/i, 'bassoons'], [/horn|corni/i, 'horns'], [/trumpet|trombe/i, 'trumpets'], [/trombone/i, 'trombones'], [/timp/i, 'timpani']];
+    // Score part names → stage sections. Order matters: specific names before families.
+    const MAP = [
+      [/contrabassoon|contrafagott|double bassoon/i, 'contrabassoon'], [/bass clarinet|clarinetto basso|bassklarinette/i, 'bass-clarinet'],
+      [/cor anglais|english horn|corno inglese|englischhorn/i, 'cor-anglais'], [/e♭ clarinet|eb clarinet|e-flat clarinet|clarinetto piccolo/i, 'e-flat-clarinet'],
+      [/^(violins? i|violin 1|1st violins?|first violins?|violini? i|violine i)$/i, 'violins-1'], [/^(violins? ii|violin 2|2nd violins?|second violins?|violini? ii|violine ii)$/i, 'violins-2'],
+      [/solo violin|violino solo/i, 'solo-violin'], [/viol(a|e)s?\b|bratsche/i, 'violas'], [/cell|violoncell/i, 'cellos'], [/double bass|contrabass|kontrabass|basses?$|bassi$/i, 'basses'],
+      [/piccolo|ottavino/i, 'piccolo'], [/flute|flauti?|flöte/i, 'flutes'], [/oboe|oboi/i, 'oboes'], [/clarinet|clarinetti?|klarinette/i, 'clarinets'], [/bassoon|fagott/i, 'bassoons'],
+      [/horn|corni?\b/i, 'horns'], [/trumpet|trombe|tromba|trompete|cornet/i, 'trumpets'], [/trombone|tromboni|posaune/i, 'trombones'], [/tuba/i, 'tuba'], [/timp|pauke/i, 'timpani'],
+      [/percussion|drum|cymbal|triangle|tam-tam|glockenspiel/i, 'percussion'], [/harp|arpa|harfe/i, 'harp'], [/celesta/i, 'celesta'], [/organ|organo|orgel/i, 'organ'],
+      [/piano|pianoforte|klavier/i, 'piano'], [/harpsichord|cembalo/i, 'harpsichord'], [/soprano|alto|tenor|bass(o)? solo|baritone|voice|singer/i, 'solo-voice'], [/chorus|choir|coro|chor/i, 'chorus'],
+    ];
     const orch = track.orchestra;
     const voiceId = score ? score.voices.map((v) => MAP.find(([re]) => re.test(v.name))?.[1] ?? null) : [];
     const ensemble = new Set([...(orch?.ensemble ?? []), ...voiceId.filter(Boolean)]);

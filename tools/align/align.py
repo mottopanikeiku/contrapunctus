@@ -331,6 +331,10 @@ def run(ident):
         reasons.append('Rounded publication bar times are not strictly increasing.')
     if any(n[1] <= 0 for n in score['notes']):
         reasons.append('Rounded publication contains a non-positive note duration.')
+    rounded_attacks = np.round(mapq(np.unique(np.asarray(events['notes'])[:, 0])), 3)
+    diagnostics['roundedCollapsedAttackIntervals'] = int(np.sum(np.diff(rounded_attacks) <= 0))
+    if diagnostics['roundedCollapsedAttackIntervals']:
+        reasons.append('Rounding collapses distinct score attacks in the publication.')
     diagnostics.update({'id': ident, 'tuningHz': score['tuningHz'], 'audioSha256': str(data['audio_sha256']),
                         'software': {p: importlib.metadata.version(p) for p in ('librosa', 'synctoolbox', 'numpy', 'scipy', 'mido')},
                         'scoreProvenance': events['provenance'], 'sectionAnchorPairsSeconds': [(s, a + origin) for s, a in anchors],

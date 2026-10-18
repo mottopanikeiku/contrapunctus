@@ -88,6 +88,13 @@
       "note": "Commons and the discography identify take 1. The upstream table says “CC-11709-2” but also gives “CC 11709I”; its own cited reference says take 1. The discography lists take 2 as unpublished.",
       "alternatives": [
         {
+          "value": "Cc11709, take 1 (Commons and discography; preferred identification)",
+          "sourceIds": [
+            "commons",
+            "discography"
+          ]
+        },
+        {
           "value": "Cc11709, take 2 (upstream table; internally inconsistent)",
           "sourceIds": [
             "upstream"

@@ -1,0 +1,13 @@
+{
+  "id": "mahler-2-im-tempo-des-scherzos",
+  "verdict": "fix",
+  "defects": [
+    {
+      "where": "cues[0], cues[1], cues[4], cues[5], cues[8], cues[11], cues[14], cues[17], cues[20], cues[28], cues[29], cues[33], cues[35], cues[38], cues[42], cues[45], cues[47], cues[50], cues[52] — evidence",
+      "severity": "major",
+      "problem": "These timed music/form/listen cues cite score or general musical context but do not name a real local anchor from the selected file’s analysis report. Passage precision and disclaimers about unaligned entrances do not replace the recording-specific evidence required by VERIFY-BRIEF §2.",
+      "evidence": "MEAS: content/listen/mahler-2-im-tempo-des-scherzos.mjs:29–81; cache/analysis/mahler-2-im-tempo-des-scherzos.txt:27–452. For example cues at 2:40, 11:20, 19:20, 28:00 and 33:20 contain no local report window or boundary in their evidence. EXT: local://VERIFY-BRIEF.md:7.",
+      "fix": "Add a genuine nearby report window, contour or boundary to each listed evidence field, explaining how it locates the broad passage without pretending that the feature identifies an instrument, word or bar. Retain the existing passage-level caveats. Examples available in the report include the 2:35–3:00 level contour, the 11:10–11:25 plateau, the 19:10–19:40 retreat, the 28:00–28:20 withdrawal and the sustained high-level 33:00–33:20 region. At 0:00 describe the measured opening span, not an aligned first attack. If a musical claim cannot honestly be located in the chosen region, move or rewrite that cue instead of adding an unrelated anchor."
+    }
+  ]
+}

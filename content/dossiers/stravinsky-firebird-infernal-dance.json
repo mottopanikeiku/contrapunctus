@@ -141,13 +141,13 @@
       ]
     },
     "recording": {
-      "value": "PD-USGov-Military-Marine: transcription, performance and recording described as works of US Marine personnel.",
+      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Marine (US-law basis).",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data"
+        "rights-audit-commons",
+        "rights-audit-us-government"
       ],
-      "note": "The file page attributes Thomas Knox’s transcription, the band’s performance and the Marine recording to official US government work. This is a US public-domain basis for those contributions, not worldwide clearance of Stravinsky’s underlying composition."
+      "note": "Commons expressly applies PD-USGov-Military-Marine to the recording or official federal-government performance, not only to the composition. Under 17 U.S.C. § 105(a), official US Government works are not protected by US copyright. This is rule 1’s recording-specific public-domain release route, not rule 2’s publication-date route; it does not establish worldwide public-domain status."
     },
     "creditLine": "Igor Stravinsky, Infernal Dance from The Firebird; transcribed by Thomas Knox; “The President’s Own” United States Marine Band, Colonel John R. Bourgeois as credited. US Marine government-work recording, via Wikimedia Commons. Underlying composition rights are territory-dependent; Commons’ composer death year is erroneous.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marine"
@@ -194,6 +194,20 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: ordinary life-plus-70 term, calculated from 1 January after the relevant event.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Infernal Dance from The Firebird by Stravinsky.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Infernal Dance from The Firebird by Stravinsky.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "rights-audit-us-government",
+      "title": "17 U.S.C. § 105 — United States Government works",
+      "url": "https://www.law.cornell.edu/uscode/text/17/105",
+      "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

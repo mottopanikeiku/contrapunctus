@@ -107,7 +107,7 @@
   },
   "rights": {
     "composition": {
-      "value": "The underlying composition is public domain where the ordinary life-plus70 term has expired.",
+      "value": "The underlying composition is public domain where the ordinary life-plus-70 term has expired.",
       "status": "inferred",
       "sourceIds": [
         "source"
@@ -136,9 +136,9 @@
     },
     {
       "id": "term",
-      "title": "US Copyright Office — pre1972 sound recordings",
+      "title": "US Copyright Office — pre 1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
-      "locator": "Recordings first published before1923 and the annual expiration schedule for1923–1946 publications; as of2026 the cutoff is1925.",
+      "locator": "Recordings first published before 1923 and the annual expiration schedule for 1923–1946 publications; as of 2026 the cutoff is 1925.",
       "accessed": "2026-10-17"
     }
   ],

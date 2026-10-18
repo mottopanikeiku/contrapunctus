@@ -1,0 +1,451 @@
+{
+  "id": "mendelssohn",
+  "places": [
+    {
+      "name": "Hamburg",
+      "country": "Free Imperial City of Hamburg (today Germany)",
+      "lat": 53.55,
+      "lon": 10,
+      "from": "1809-02-03",
+      "to": "1811",
+      "kind": "born",
+      "what": "Born in the independent city-state; the family fled to Berlin in 1811 for fear of French reprisal.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1811",
+      "to": "1829",
+      "kind": "childhood",
+      "what": "Studied with Zelter and Berger; wrote the Octet at sixteen and the <i>Midsummer Night’s Dream</i> overture at seventeen.",
+      "work": "String Octet; A Midsummer Night’s Dream overture",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        },
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Weimar",
+      "country": "Grand Duchy of Saxe-Weimar-Eisenach (today Germany)",
+      "lat": 50.9811,
+      "lon": 11.3294,
+      "from": "1821",
+      "kind": "travelled",
+      "what": "Aged twelve, spent sixteen days with Goethe, who tested his playing and compared him to Mozart.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1825",
+      "kind": "travelled",
+      "what": "Travelled with his father; met Rossini, Meyerbeer and Cherubini, who judged his talent highly.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Leipziger Straße 3, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5097,
+      "lon": 13.3804,
+      "from": "1825",
+      "to": "1829",
+      "kind": "lived",
+      "what": "Family house with a garden hall for Sunday concerts; the <i>Midsummer Night’s Dream</i> overture was first played there.",
+      "work": "A Midsummer Night’s Dream overture",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Königliches Opernhaus, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5136,
+      "lon": 13.3922,
+      "from": "1827-04-29",
+      "kind": "premiere",
+      "what": "The only performance in his lifetime of his opera; an intrigue prevented a second, and he wrote no more.",
+      "work": "Die Hochzeit des Camacho",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Sing-Akademie, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.5189,
+      "lon": 13.3953,
+      "from": "1829-03-11",
+      "kind": "premiere",
+      "what": "Conducted an abridged <i>St Matthew Passion</i>, the first revival since Bach’s death, with a 158-voice choir.",
+      "work": "Bach, St Matthew Passion (revival)",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Maxim Gorki Theater — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Maxim_Gorki_Theater"
+        },
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1829-04",
+      "to": "1829-11",
+      "kind": "travelled",
+      "what": "First visit: conducted at the Philharmonic Society and toured Scotland, where Staffa inspired the <i>Hebrides</i>.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Staffa, Scotland",
+      "country": "Kingdom of Great Britain (today United Kingdom)",
+      "lat": 56.4361,
+      "lon": -6.3403,
+      "from": "1829-08",
+      "kind": "travelled",
+      "what": "Visited Fingal’s Cave with Klingemann; it inspired the <i>Hebrides</i> overture and the Scottish Symphony.",
+      "work": "The Hebrides overture",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Hebrides (overture) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/The_Hebrides_(overture)"
+        },
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Rome",
+      "country": "Papal States (today Italy)",
+      "lat": 41.8933,
+      "lon": 12.4828,
+      "from": "1830-11-01",
+      "to": "1831",
+      "kind": "travelled",
+      "what": "Arrived 1 November; in March 1831 he met Berlioz and became friends with him.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "Kingdom of France (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1831-12-09",
+      "to": "1832-04-20",
+      "kind": "travelled",
+      "what": "Met Chopin and Liszt; the <i>Midsummer Night’s Dream</i> overture was played at the Conservatoire in February.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Philharmonic Society, London",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 51.5072,
+      "lon": -0.1275,
+      "from": "1833-05-13",
+      "kind": "premiere",
+      "what": "Conducted the premiere of the Italian Symphony for the Philharmonic Society; he withheld it from publication.",
+      "work": "Symphony No. 4 “Italian”",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 4 (Mendelssohn) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._4_(Mendelssohn)"
+        },
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Düsseldorf",
+      "country": "Kingdom of Prussia (Rhine Province; today Germany)",
+      "lat": 51.2256,
+      "lon": 6.7767,
+      "from": "1833",
+      "to": "1835",
+      "kind": "worked",
+      "what": "First paid post, as musical director; the 1833 festival began a Handel revival; <i>St Paul</i> premiered here in 1836.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        },
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Gewandhaus, Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3383,
+      "lon": 12.3772,
+      "from": "1835",
+      "to": "1847",
+      "kind": "worked",
+      "what": "Conductor of the Gewandhaus Orchestra; premiered Schubert’s Ninth Symphony here on 21 March 1839.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        },
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Gewandhaus, Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3383,
+      "lon": 12.3772,
+      "from": "1842-03-03",
+      "kind": "premiere",
+      "what": "The Scottish Symphony premiered; the Violin Concerto followed on 13 March 1845, with David as soloist.",
+      "work": "Symphony No. 3 “Scottish”; Violin Concerto",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Symphony No. 3 (Mendelssohn) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._3_(Mendelssohn)"
+        },
+        {
+          "title": "Violin Concerto (Mendelssohn) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Violin_Concerto_(Mendelssohn)"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1841",
+      "to": "1845",
+      "kind": "worked",
+      "what": "Called by Frederick William IV as Kapellmeister and General Music Director; wrote <i>Antigone</i> and <i>Midsummer Night’s Dream</i> music.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig Conservatory",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3383,
+      "lon": 12.3772,
+      "from": "1843-04-03",
+      "kind": "worked",
+      "what": "Founded Germany’s first conservatory, opened in Gewandhaus buildings; Schumann and Moscheles joined the staff.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Town Hall, Birmingham",
+      "country": "United Kingdom of Great Britain and Ireland (today United Kingdom)",
+      "lat": 52.4796,
+      "lon": -1.9037,
+      "from": "1846-08-26",
+      "kind": "premiere",
+      "what": "Conducted <i>Elijah</i> in English for the Birmingham Triennial Festival; it was immediately acclaimed.",
+      "work": "Elijah",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Elijah (oratorio) — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Elijah_(oratorio)"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Königstraße 5 (now Goldschmidtstraße 12), Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3361,
+      "lon": 12.3833,
+      "from": "1845",
+      "to": "1847-11-04",
+      "kind": "lived",
+      "what": "Eight-room first-floor flat; his last home and where he died, now the Mendelssohn-Haus museum.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mendelssohn-Haus (Leipzig) — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Mendelssohn-Haus_(Leipzig)"
+        },
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        }
+      ]
+    },
+    {
+      "name": "Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3361,
+      "lon": 12.3833,
+      "from": "1847-11-04",
+      "kind": "died",
+      "what": "Died at 9:24 p.m., aged 38, after strokes on 9 and 25 October and 3 November.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Paulinerkirche, Leipzig",
+      "country": "Kingdom of Saxony (today Germany)",
+      "lat": 51.3389,
+      "lon": 12.38,
+      "from": "1847-11-07",
+      "kind": "buried",
+      "what": "Funeral held here; the coffin went by special train to Berlin.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Felix Mendelssohn — Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+        }
+      ]
+    },
+    {
+      "name": "Dreifaltigkeitsfriedhof I, Kreuzberg, Berlin",
+      "country": "Kingdom of Prussia (today Germany)",
+      "lat": 52.4953,
+      "lon": 13.3919,
+      "from": "1847-11-08",
+      "kind": "buried",
+      "what": "Buried beside his sister Fanny in the family’s honorary grave, field 1.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Felix Mendelssohn Bartholdy — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+        },
+        {
+          "title": "Friedhöfe vor dem Halleschen Tor — Wikipedia (German)",
+          "url": "https://de.wikipedia.org/wiki/Friedhöfe_vor_dem_Halleschen_Tor"
+        }
+      ]
+    }
+  ]
+}

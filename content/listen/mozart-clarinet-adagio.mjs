@@ -4,6 +4,7 @@ export default {
   order: 2,
   work: 'Clarinet Concerto in A major, K. 622',
   movement: 'II. Adagio',
+  set: { id: 'mozart-clarinet-concerto', title: 'Clarinet Concerto in A major, K. 622', part: 2, of: 3 },
   year: '1791',
   key: 'D major',
   forces: 'Basset clarinet and orchestra',

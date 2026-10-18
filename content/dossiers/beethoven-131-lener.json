@@ -1,0 +1,130 @@
+{
+  "id": "beethoven-131-lener",
+  "work": {
+    "title": "String Quartet No. 14 in C♯ minor",
+    "catalogue": "Op. 131",
+    "movement": "I–VII. Complete quartet — seven linked movements in one archival file",
+    "version": {
+      "value": "Original quartet scoring; all seven numbered movements presented in a single joined transfer.",
+      "status": "documented",
+      "sourceIds": ["archive", "score"],
+      "note": "The item explicitly presents the complete work in one file. This establishes the intended movement coverage, not a bar-by-bar audit: the performing edition, cuts, repeat observance and any material removed at side joins remain unknown. The public-domain score used for commentary is not identified as the players’ edition."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Léner String Quartet", "role": "string quartet" },
+      { "name": "Jenö Léner", "role": "first violin" },
+      { "name": "Joszef Smilovits", "role": "second violin" },
+      { "name": "Sándor Roth", "role": "viola" },
+      { "name": "Imre Hartman", "role": "cello" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "dahr-ax301", "label"],
+    "note": "The item assigns first and second violin; DAHR confirms the four names and instruments. The photographed label uses the spellings Lener, Smilovits, Roth and Hartmann."
+  },
+  "session": {
+    "date": {
+      "value": "11, 21 and 22 February; 25 August 1924",
+      "status": "documented",
+      "sourceIds": ["archive", "dahr-set", "dahr-ax301", "dahr-ax302", "dahr-ax332"],
+      "note": "These are four session dates for the issued masters, not one continuous performance. AX300–301: 11 February; AX323–328: 21 February; AX332: 22 February; issued AX302 take 4: 25 August. DAHR marks some unissued AX302 dates unconfirmed; that qualification is not attached to its issued take-4 row. The item’s short February/August summary must not erase the two additional February dates in its own side list.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Columbia’s Petty France Studios, London, England",
+      "status": "documented",
+      "sourceIds": ["archive", "dahr-ax301", "dahr-ax302", "dahr-ax332"],
+      "note": "The studio is named by the transfer author on the Archive item. The consulted individual DAHR master records independently give London, not the studio."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Graphophone Co., Ltd. (British issue)",
+      "status": "documented",
+      "sourceIds": ["archive", "label"],
+      "note": "The item explicitly says the transfer derives from the British issue. The photographed L1581 label reads Columbia Graphophone Co. Limited, London and Made in England."
+    },
+    "catalogue": {
+      "value": "Columbia (UK) L1581–L1585; corresponding US issue 67021-D–67025-D, Masterworks Set 6",
+      "status": "documented",
+      "sourceIds": ["archive", "label", "dahr-set", "dahr-ax301", "dahr-ax302", "dahr-ax332"],
+      "note": "Five double-sided 12-inch discs. The Archive description dates both British and US publication to November 1924. DAHR identifies the set as M-6 but notes that pre-CBS pressings may lack the M prefix; M-6 is therefore a discographic identifier, not a claim about the original album’s typography."
+    },
+    "matrixTakeSides": {
+      "value": [
+        "Side 1: AX300-1 — I, first part — 11 February 1924",
+        "Side 2: AX301-1 — I, second part — 11 February 1924",
+        "Side 3: AX302-4 — II and III — 25 August 1924",
+        "Side 4: AX323-3 — IV, first part — 21 February 1924",
+        "Side 5: AX324-2 — IV, second part — 21 February 1924",
+        "Side 6: AX325-2 — IV, third part — 21 February 1924",
+        "Side 7: AX326-1 — IV, fourth part; V, first part — 21 February 1924",
+        "Side 8: AX327-2 — V, second part — 21 February 1924",
+        "Side 9: AX328-2 — VI; VII, first part — 21 February 1924",
+        "Final side: AX332-2 — VII, second part — 22 February 1924"
+      ],
+      "status": "documented",
+      "sourceIds": ["archive", "dahr-set", "dahr-ax301", "dahr-ax302", "dahr-ax332", "label"],
+      "note": "All ten matrix/take pairs and session dates agree with the DAHR set listing. Movement-to-side allocation comes from the Archive description, with AX301, AX302 and AX332 individually corroborated by DAHR part titles. The item calls the last entry ‘Side 19’; it is retained here as ‘Final side’, not treated as evidence of nineteen sides. The label photograph establishes AX300 and L1581 but does not make the take suffix legible. No physical run-out inspection or digital join-to-matrix alignment has been made."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-data"],
+      "note": "The description says ‘My transfer’ and identifies the British source discs, but does not name the transfer engineer. The uploader account and shellackophile-recordings collection are not expanded into a personal mastering credit."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive-data"],
+      "note": "27 February 2022 is the item’s added/public date and a digital-file timestamp, not an established date of the analogue transfer."
+    },
+    "processing": {
+      "value": "Ten acoustic-era disc sides joined into one file; Internet Archive VBR MP3 access derivative of an uploaded FLAC.",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-data", "label"],
+      "note": "The item describes the acoustic-era recording and continuous presentation; its file list names the FLAC parent of the selected MP3. The photographed label specifies ‘Speed 80’, not a demonstrated playback speed of this transfer. Stylus, equalisation, de-clicking, noise reduction, join edits, speed adjustment and absolute pitch calibration are unestablished. No tuning value is inferred from automatic key estimates, and no portamento or tempo habit is asserted as an audited feature of this performance."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/l-1581-5-beethoven-quartet-op-131/L1581-5%20Beethoven%20Quartet%20op131.mp3",
+    "sourceChain": ["archive", "archive-data", "label", "dahr-set"],
+    "format": "Internet Archive VBR MP3 derivative (listed average 105 kbps), parent L1581-5 Beethoven Quartet op131.flac",
+    "durationSeconds": 2441.55
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying composition and the nineteenth-century Breitkopf & Härtel score are public domain.",
+      "status": "documented",
+      "sourceIds": ["imslp", "score", "work-history", "eu-original"],
+      "note": "Op. 131 dates from 1826 and was published after Beethoven’s death in 1827. IMSLP identifies the consulted engraving as the 1863 collected edition, plate B.50, and marks it Public Domain. This is not clearance of any unidentified later performing edition."
+    },
+    "recording": {
+      "value": "United States public-domain basis: first published in 1924, before the project’s 1926 cutoff.",
+      "status": "documented",
+      "sourceIds": ["archive", "label", "dahr-set", "dahr-ax301", "us-term"],
+      "note": "The transfer author expressly dates Columbia L1581–L1585 and US 67021-D–67025-D/Set 6 to November 1924; DAHR corroborates their identity with the 1924 masters, not independently the November publication month. Under the Copyright Office’s stated 95-plus-5-year term for recordings first published in 1923–1946, a 1924 publication has exhausted that term. The Archive metadata supplies no separate Creative Commons recording licence. Admission rests on the historical recording’s US term, not Beethoven’s death, the upload date, an uploader licence or a blanket worldwide clearance. No separate restoration rights claim was identified in the consulted item."
+    },
+    "creditLine": "Ludwig van Beethoven, String Quartet No. 14, Op. 131; Léner String Quartet, London, February and August 1924. Columbia (UK) L1581–L1585; anonymous transfer author, Internet Archive item l-1581-5-beethoven-quartet-op-131. Historical recording: US public-domain publication-term basis.",
+    "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
+  },
+  "sources": [
+    { "id": "archive", "title": "Internet Archive — Beethoven Quartet Op. 131 (Lener Quartet, 1924)", "url": "https://archive.org/details/l-1581-5-beethoven-quartet-op-131", "locator": "Description: personnel, Petty France studio, November 1924 British and US issues, British transfer source, ten matrix/take entries and complete single-file presentation. Final-side numbering typo is not silently adopted.", "accessed": "2026-10-17" },
+    { "id": "archive-data", "title": "Internet Archive — item and file metadata", "url": "https://archive.org/metadata/l-1581-5-beethoven-quartet-op-131", "locator": "Selected file L1581-5 Beethoven Quartet op131.mp3: derivative, VBR MP3, length 2441.55, original FLAC; FLAC length 2441.49. Added/public date and uploader are digital provenance only.", "accessed": "2026-10-17" },
+    { "id": "label", "title": "Columbia L1581 — photographed British label", "url": "https://archive.org/download/l-1581-5-beethoven-quartet-op-131/L1581.JPG", "locator": "Viewed label: Quartet in C sharp minor in ten parts, part 1, Op.131, Léner quartet surnames, AX300, L1581, Speed 80, Made in England.", "accessed": "2026-10-17" },
+    { "id": "dahr-set", "title": "DAHR — Columbia M-6, Léner Quartet Op.131", "url": "https://adp.library.ucsb.edu/index.php/objects/refer/595384", "locator": "Ten issued matrix/take/date rows AX300–AX332; note about the M prefix on pre-CBS pressings. Matrix records cite Ronald Taylor’s Columbia twelve-inch discography (1994).", "accessed": "2026-10-17" },
+    { "id": "dahr-ax301", "title": "DAHR — Columbia (UK) AX301, Adagio part 2", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000714494/AX301-Quartet_in_c_minor_op._131", "locator": "Personnel; master take 1, 11 February 1924, London; L1581, 67021-D and M-6 issue identities.", "accessed": "2026-10-17" },
+    { "id": "dahr-ax302", "title": "DAHR — Columbia (UK) AX302, Allegro molto vivace; Allegro moderato", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000714495", "locator": "Issued take 4, 25 August 1924, London; L1582, 67022-D and M-6. Other take dates carry explicit qualifications.", "accessed": "2026-10-17" },
+    { "id": "dahr-ax332", "title": "DAHR — Columbia (UK) AX332, Allegro part 2", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000714525", "locator": "Issued take 2, 22 February 1924, London; L1585, 67025-D and M-6.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Beethoven, Op.131 — Breitkopf & Härtel collected-edition score, plate B.50", "url": "https://www.lvbeethoven.it/wp-content/uploads/2016/11/Opus131.pdf", "locator": "Viewed original quartet engraving, printed pp.119–158 (PDF pp.1–40). Movement joins at printed pp.122, 126–127, 137–138 and 147–148; closing page 158. Score evidence, not the recording’s performing-edition provenance.", "accessed": "2026-10-17" },
+    { "id": "imslp", "title": "IMSLP — Op.131 edition catalogue", "url": "https://imslp.org/wiki/String_Quartet_No.14,_Op.131_(Beethoven,_Ludwig_van)", "locator": "Complete-score listing: Beethovens Werke, Serie 6, Band 2, No.50, 1863, plate B.50, Public Domain. Direct IMSLP PDF access was challenged; the same engraving was viewed at the score mirror.", "accessed": "2026-10-17" },
+    { "id": "work-history", "title": "Beethoven Music Research Center — Opus 131", "url": "https://www.lvbeethoven.org/opus131/", "locator": "Documentary creation/publication section: 1825–26 sketches, August 1826 engraver’s copy, 1827 parts and 1828 full score; letters to Schott, changed dedication, posthumous public performance. Speculative Hamlet/Pergolesi programmes are not adopted.", "accessed": "2026-10-17" },
+    { "id": "museum", "title": "Beethoven-Haus — The string quartets of Beethoven", "url": "https://internet.beethoven.de/pdf-sonderausstellung/Beethovens-Streichquartette-Brief-Guide.pdf", "locator": "Exhibition guide, pp.6–8 and 11–12: Galitzin commission, Schuppanzigh’s players, Op.131 dedication, seven pieces and attacca, sul ponticello, engraver’s copy. Text extraction has damaged characters; uncertain numeric details were not reused.", "accessed": "2026-10-17" },
+    { "id": "us-term", "title": "US Copyright Office — Classics Protection and Access Act", "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/", "locator": "Term: 95 years after first-publication year plus five for 1923–1946 recordings.", "accessed": "2026-10-17" },
+    { "id": "eu-original", "title": "Directive 2006/116/EC", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116", "locator": "Articles 1 and 8: composition term and calendar-year calculation.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}

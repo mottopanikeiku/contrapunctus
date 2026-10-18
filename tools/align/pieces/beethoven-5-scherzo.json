@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "id": "beethoven-5-scherzo",
+  "source": {
+    "title": "Symphony No. 5, Op. 67 — III. Allegro",
+    "edition": "IMSLP #575952",
+    "encoder": "OpenScore Orchestra / Hauptstimme contributors; analytical lyrics omitted from derivative",
+    "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/3/Beethoven_Op.67_3.mxl",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseEvidence": "https://github.com/MarkGotham/Hauptstimme#licence",
+    "main": "Beethoven_Op.67_3.ly",
+    "musicxml": "Beethoven_Op.67_3.mxl",
+    "stripLyrics": true,
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/MarkGotham/Hauptstimme/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/3/Beethoven_Op.67_3.mxl",
+        "file": "Beethoven_Op.67_3.mxl",
+        "sha256": "af08083c5ce61850e8fbf81672b3ccadb0d81f5038fc70a099309419dca55c02"
+      }
+    ],
+    "musicxmlImplicitMeasures": [
+      1,
+      141,
+      142,
+      162
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "Beethoven_Op.67_3.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new StaffGroup <<\n\\new Staff = \"P1\" << \\new Voice { \\PartPOneVoiceOne } >>\n\\new Staff = \"P2\" << \\new Voice { \\PartPTwoVoiceOne } >>\n\\new Staff = \"P3\" << \\new Voice { \\PartPThreeVoiceOne } >>\n\\new Staff = \"P4\" << \\new Voice { \\PartPFourVoiceOne } >>\n\\new Staff = \"P5\" << \\new Voice { \\PartPFiveVoiceOne } >>\n\\new Staff = \"P6\" << \\new Voice { \\PartPSixVoiceOne } >>\n\\new Staff = \"P7\" << \\new Voice { \\PartPSevenVoiceOne } >>\n\\new Staff = \"P8\" << \\new Voice { \\PartPEightVoiceOne } >>\n\\new Staff = \"P9\" << \\new Voice { \\PartPNineVoiceOne } >>\n\\new Staff = \"P10\" << \\new Voice { \\PartPOneZeroVoiceOne } >>\n\\new Staff = \"P11\" << \\new Voice { \\PartPOneOneVoiceOne } >>\n\\new Staff = \"P12\" << \\new Voice { \\PartPOneTwoVoiceOne } >>\n\\new Staff = \"P13\" << \\new Voice { \\PartPOneThreeVoiceOne } >>\n\\new Staff = \"P14\" << \\new Voice { \\PartPOneFourVoiceOne } >>\n\\new Staff = \"P15\" << \\new Voice { \\PartPOneFiveVoiceOne } >>\n\\new Staff = \"P16\" << \\new Voice { \\PartPOneSixVoiceOne } \\new Voice { \\PartPOneSixVoiceTwo } >>\n\\new Staff = \"P17\" << \\new Voice { \\PartPOneSevenVoiceOne } >>\n\\new Staff = \"P18\" << \\new Voice { \\PartPOneEightVoiceOne } >>\n>>"
+  },
+  "voices": [
+    {
+      "id": "flutes",
+      "name": "Flutes",
+      "tracks": [
+        "P1:",
+        "P2:"
+      ]
+    },
+    {
+      "id": "oboes",
+      "name": "Oboes",
+      "tracks": [
+        "P3:",
+        "P4:"
+      ]
+    },
+    {
+      "id": "clarinets",
+      "name": "Clarinets",
+      "tracks": [
+        "P5:",
+        "P6:"
+      ]
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        "P7:",
+        "P8:"
+      ]
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "tracks": [
+        "P9:",
+        "P10:"
+      ]
+    },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": [
+        "P11:",
+        "P12:"
+      ]
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        "P13:"
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        "P14:"
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        "P15:"
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        "P16:"
+      ]
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        "P17:"
+      ]
+    },
+    {
+      "id": "basses",
+      "name": "Double basses",
+      "tracks": [
+        "P18:"
+      ]
+    }
+  ],
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      324.05,
+      334.05
+    ],
+    "basis": "Score-pitch energy-rise search windows; provisional automatic alignment, not aural annotations."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 12,
+    "width": 310,
+    "height": 440
+  },
+  "provenance": [
+    "Original CC0 orchestral MusicXML retained byte-for-byte; separately licensed analytical lyric nodes omitted before conversion.",
+    "Custom MIDI bypasses articulate playback; source transpositions, including double bass and C horns, remain active. No register-derived part splitting.",
+    "Repeat order is a candidate to be inspected against audio harmonic/recurrence diagnostics; duration is not independent evidence of repetition."
+  ],
+  "bars": {
+    "first": 0,
+    "count": 375,
+    "quarters": 3,
+    "overrides": {
+      "0": 1,
+      "160": 2
+    },
+    "order": [
+      [
+        0,
+        160
+      ],
+      {
+        "from": [
+          140,
+          2
+        ],
+        "to": [
+          159,
+          3
+        ]
+      },
+      [
+        161,
+        374
+      ]
+    ],
+    "description": "Quarter-note pickup, then scherzo and trio with its written repeat: first pass through first ending, repeat starts on the trio upbeat within bar140, then second ending and written-out quiet scherzo return. XML split measures1/141/142/162 are implicit; no inserted padding rests."
+  }
+}

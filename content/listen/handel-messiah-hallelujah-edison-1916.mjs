@@ -7,7 +7,7 @@ export default {
   movement: 'Hallelujah',
   year: '1741',
   key: 'D major',
-  forces: 'Chorus with accompaniment; instrumental personnel uncredited',
+  forces: 'Mixed chorus and orchestra; instrumental personnel uncredited',
   performers: 'Oratorio Chorus; conductor and accompanying players uncredited',
   recorded: '1916',
   source: { file: 'File:Messiah Hallelujah Chorus 1916.ogg' },

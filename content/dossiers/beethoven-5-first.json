@@ -117,13 +117,12 @@
       "note": "This statement concerns the composition, not the modern orchestral performance. The file page does not supply a separate US composition tag."
     },
     "recording": {
-      "value": "Commons lists both PD-author and an attribution-only permission for the recording.",
+      "value": "Rule 1 — recording licence/release: PD-author by Skidmore College orchestra; attribution retained.",
       "status": "documented",
       "sourceIds": [
-        "commons",
-        "commons-data"
+        "rights-audit-commons"
       ],
-      "note": "PD-author names Skidmore College orchestra and states a worldwide dedication or unrestricted fallback permission. A separate attribution tag also requires credit; this dossier retains the orchestra credit rather than silently dropping that condition."
+      "note": "Commons separately marks the recording PD-author by Skidmore College orchestra and includes an attribution template. The session date is unknown; the 1808 date is not used to date this recording."
     },
     "creditLine": "Ludwig van Beethoven, Symphony No. 5, Op. 67, I; Skidmore College orchestra. Source: Musopen via Wikimedia Commons. Commons lists a public-domain dedication and attribution-only permission; orchestra attribution is retained.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg#Licensing"
@@ -149,6 +148,13 @@
       "url": "https://musopen.org/music/113/ludwig-van-beethoven/symphony-no-5-in-cm-op-67/",
       "locator": "Upstream link in Commons’ recording-rights statement; direct access returned HTTP 403 on the access date. No additional session facts are claimed from this unavailable page.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
+      "locator": "Opened file-description wikitext for File:Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

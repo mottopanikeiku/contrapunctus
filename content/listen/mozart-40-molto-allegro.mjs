@@ -4,6 +4,7 @@ export default {
   order: 1,
   work: 'Symphony No. 40, K. 550',
   movement: 'I. Molto allegro',
+  set: { id: 'mozart-40', title: 'Symphony No. 40 in G minor, K. 550', part: 1, of: 4 },
   year: '1788',
   key: 'G minor',
   forces: 'Orchestra',

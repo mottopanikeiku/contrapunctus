@@ -110,12 +110,12 @@
       "note": "Commons marks the music PD-old-100; this is separate from the recording dedication and does not identify the performing edition."
     },
     "recording": {
-      "value": "Public-domain dedication by Musopen, as recorded on Commons",
+      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen.",
       "status": "documented",
       "sourceIds": [
-        "commons"
+        "rights-audit-commons"
       ],
-      "note": "Commons cites permission ticket 2008012110017088 and quotes Musopen’s public-domain policy. The private permission correspondence was not inspected. Musopen requests in-line attribution, which is supplied here."
+      "note": "Commons explicitly applies PD-author by Musopen to the recording, separately from the composition. This is the programme’s explicit Musopen recording-release route, not an age-based inference or a claim that a Public Domain Mark is itself a licence. The session date is not needed for this route. The reproduced Musopen policy says use is unrestricted; resale and attribution requests are courtesy requests, not a non-commercial licence."
     },
     "creditLine": "Modest Mussorgsky: Night on Bald Mountain, attributed to Rimsky-Korsakov’s concert version — performers unidentified. Public-domain recording supplied by Musopen, via Wikimedia Commons. Musopen attribution retained as requested.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
@@ -134,6 +134,13 @@
       "url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3AModest+Mussorgsky+-+night+on+bald+mountain.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cderivatives&format=json&formatversion=2",
       "locator": "videoinfo[0]: duration, source MIME type and MP3 URL; source for digital.durationSeconds, digital.format and digital.streamUrl.",
       "accessed": "2026-10-16"
+    },
+    {
+      "id": "rights-audit-commons",
+      "title": "Wikimedia Commons — sound-recording licence audit: File:Modest Mussorgsky - night on bald mountain.ogg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1258921827%7C661044101%7C642919319%7C1111732218%7C509438495%7C999902261%7C718748653%7C901919689%7C1204343741%7C718302093&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
+      "locator": "Opened file-description wikitext for File:Modest Mussorgsky - night on bald mountain.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
+      "accessed": "2026-10-17"
     }
   ],
   "editorial": {

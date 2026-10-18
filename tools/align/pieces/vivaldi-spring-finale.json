@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "id": "vivaldi-spring-finale",
+  "source": {
+    "mutopia": 301,
+    "title": "La Primavera / Spring, RV 269 — III. Allegro — Danza pastorale",
+    "edition": "Performers’ Facsimiles",
+    "encoder": "Anonymous (Mutopia maintainer)",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "main": "spring-lys/spring-score.ly",
+    "midi": "spring-score-2.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-lys.zip",
+        "file": "spring-lys.zip",
+        "sha256": "3a87fa93faace5b2d6689fe6d39b3ee32dde6649d924a394f6b05239b22cbab9"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-mids.zip",
+        "file": "spring-mids.zip",
+        "sha256": "1e3d57ffee2dc77a4d06d777f01633d3726c57221b35661d6093095ca8cef3fd"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      "control track",
+      "solo",
+      "violinone",
+      "violintwo",
+      "viola",
+      "cello"
+    ],
+    "definitions": [
+      {
+        "file": "spring-lys/spring3.ly"
+      },
+      {
+        "file": "spring-lys/spring3a.ly"
+      },
+      {
+        "file": "spring-lys/spring3b.ly"
+      },
+      {
+        "file": "spring-lys/spring3c.ly"
+      },
+      {
+        "file": "spring-lys/spring3d.ly"
+      },
+      {
+        "file": "spring-lys/spring3f.ly"
+      }
+    ]
+  },
+  "voices": [
+    {
+      "id": "solo-violin",
+      "name": "Solo violin",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        4
+      ]
+    },
+    {
+      "id": "continuo-bass",
+      "name": "Organ and cello bass line (not realised continuo)",
+      "tracks": [
+        5
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 89,
+    "quarters": 6,
+    "order": [
+      [
+        1,
+        89
+      ]
+    ],
+    "description": "Only movement 3: bars 1–89 once in written order, with no pickup or repeat traversal. Returning material is written out in the source."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      3
+    ],
+    "last": [
+      230,
+      239
+    ],
+    "basis": "Initial score-pitch search windows from the cached recording analysis. Refine from endpoint pitch-energy evidence before publication; source-file tail or container duration is not the final musical attack."
+  },
+  "boundaries": [],
+  "provenance": [
+    "The complete concerto archive is immutable; spring-score-2.mid and the spring3 source definitions select only movement 3. Its published MIDI contains 2071 sounding note attacks over 534 quarter-note units.",
+    "Source staves are solo violin, violin I, violin II, viola, and the written organ/cello bass line. Figured-bass symbols are retained visually but no realised continuo pitches or inferred separate double-bass part are invented. The source maintainer explicitly uses Anonymous.",
+    "The Commons file history reports a lossless trim on 24 September 2011 without identifying its location. This alone is not evidence of a musical cut; full written-order correspondence must survive alignment and overlay inspection."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 250,
+    "height": 320,
+    "music": "\\new StaffGroup << \\new Staff = \"solo\" \\with { instrumentName = \"Violin solo\" } { \\ViolinoPrincipaleSpringThree } \\new Staff = \"violinone\" \\with { instrumentName = \"Violin I\" } { \\ViolinoPrimoSpringThree } \\new Staff = \"violintwo\" \\with { instrumentName = \"Violin II\" } { \\ViolinoSecondoSpringThree } \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } { \\AltoViolaSpringThree } \\new Staff = \"cello\" \\with { instrumentName = \"Continuo bass\" } << \\FiguredBassSpringThree \\VioloncelloSpringThree >> >>"
+  }
+}

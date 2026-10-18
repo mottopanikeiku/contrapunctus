@@ -11,7 +11,10 @@
     "status": "disputed",
     "sourceIds": ["commons"],
     "note": "The Commons title, summary and source link credit the Modena Chamber Orchestra; its embedded Author metadata instead says Orpheus Chamber Orchestra. No soloist or conductor is established, and the conflicting tag is not treated as proof of Orpheus’s participation.",
-    "alternatives": [{ "value": "Orpheus Chamber Orchestra (embedded Author tag only)", "sourceIds": ["commons"] }]
+    "alternatives": [
+      { "value": "The Modena Chamber Orchestra (Commons title and summary attribution)", "sourceIds": ["commons"] },
+      { "value": "Orpheus Chamber Orchestra (embedded Author tag only)", "sourceIds": ["commons"] }
+    ]
   },
   "session": {
     "date": { "value": null, "status": "unknown", "sourceIds": ["commons"], "note": "The summary’s ≤ 2020-05-16 is an availability bound, not an identified session. Embedded digitizing metadata says 15 May 2020 and upload occurred on 26 December 2022; neither establishes when the musicians recorded.", "precision": null },

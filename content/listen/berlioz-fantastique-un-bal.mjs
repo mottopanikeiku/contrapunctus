@@ -48,7 +48,7 @@ export default {
       { t: 70, playing: ['flutes', 'oboes', 'clarinets', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'The dance expands through wind and string exchanges.' },
       { t: 120, playing: ['flutes', 'oboes', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes'], note: 'Central idée fixe region: wind melody above the continuing string dance.' },
       { t: 180, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'Returning waltz and its expanding orchestration; entries vary within the passage.' },
-      { t: 300, playing: ['clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'Short late recollection, approximately located from the score and recorded withdrawal.' },
+      { t: 300, playing: ['flutes', 'clarinets', 'horns', 'harp'], lead: ['clarinets'], note: 'Short late recollection: clarinet with brief flute, horn and harp support. The strings rest through the exposed continuation.' },
       { t: 328, playing: ['piccolo', 'flutes', 'oboes', 'clarinets', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], note: 'Final waltz rush, including the two written harp parts.' },
     ],
   },

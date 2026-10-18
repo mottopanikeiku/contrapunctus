@@ -1,0 +1,44 @@
+{
+  "id": "elgar-pomp-circumstance-1-usmb",
+  "work": {
+    "title": "Pomp and Circumstance",
+    "catalogue": "Op. 39 No. 1",
+    "movement": "March No. 1 — concert-band arrangement",
+    "version": { "value": "Concert-band arrangement; arranger and edition unestablished", "status": "documented", "sourceIds": ["commons", "upstream"], "note": "This is not labelled as the same orchestral scoring as the Elgar and Stock recordings. The band transfer’s shared reprise aligns two semitones below the orchestral reference; this measured pitch relationship does not identify a printed arrangement. A separate self-alignment of 81–139 against 140–199 seconds yields median confidence 0.971 without transposition (cache/analysis/elgar-pomp-circumstance-1-usmb-trio-repeat.json), supporting an additional earlier trio traversal. The three-way comparison is restricted to the later reprise and final trio." }
+  },
+  "performers": { "value": [{ "name": "United States Marine Band", "role": "concert band" }], "status": "documented", "sourceIds": ["commons", "upstream"], "note": "No conductor is named by the selected Commons description; none is inferred from the organisation’s historical directorships." },
+  "session": {
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons", "upstream"], "note": "Commons explicitly says Unknown date. The upstream filename contains 1988, which is a lead rather than an independently established session date; the 2020 query token and 2021 upload date are not recording dates.", "precision": null },
+    "place": { "value": null, "status": "unknown", "sourceIds": ["commons", "upstream"], "note": "No session venue is identified in the available source description." }
+  },
+  "carrier": {
+    "label": { "value": null, "status": "unknown", "sourceIds": ["commons", "upstream"], "note": "The official downloadable MP3 does not establish the original recording carrier or label." },
+    "catalogue": { "value": null, "status": "unknown", "sourceIds": ["commons", "upstream"], "note": "No original issue catalogue number is identified." },
+    "matrixTakeSides": { "value": null, "status": "unknown", "sourceIds": ["commons", "upstream"], "note": "The original recording medium and session identifiers are unknown; they are not declared inapplicable merely because an MP3 is available." }
+  },
+  "transfer": {
+    "credits": { "value": null, "status": "unknown", "sourceIds": ["commons", "upstream"], "note": "Commons uploader Mysterymanblue is not treated as the recording or transfer engineer." },
+    "date": { "value": null, "status": "unknown", "sourceIds": ["commons", "upstream"], "note": "Neither the upload date nor the upstream URL version token establishes a transfer date." },
+    "processing": { "value": "MP3 supplied by the Marine Band and uploaded to Commons", "status": "documented", "sourceIds": ["commons", "upstream"], "note": "Original session medium and mastering are not specified. The project leaves the audio unaltered. Only pitch-class features are shifted for comparison; no playback retuning is applied." }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/ELGAR_Pomp_and_Circumstance_in_D%2C_Opus_39%2C_No._1_-_United_States_Marine_Band.mp3",
+    "sourceChain": ["commons", "upstream"],
+    "format": "Original Commons MP3, attributed to the official Marine Band download; decoded duration rounded from cache/analysis/elgar-pomp-circumstance-1-usmb.txt",
+    "durationSeconds": 346.0
+  },
+  "rights": {
+    "composition": { "value": "Elgar’s underlying march is public domain; the specific band arrangement is unidentified", "status": "inferred", "sourceIds": ["commons", "elgar-work"], "note": "Commons separately marks the composition PD-old-80-expired and gives Elgar’s death year as 1934. Those composition tags are not used as recording permission or as identification of the arrangement." },
+    "recording": { "value": "US-government sound recording: Commons explicitly applies PD-USGov-Military-Marines to the performance/recording", "status": "documented", "sourceIds": ["commons", "upstream", "us-law", "distribution"], "note": "Rule 1, recording-specific US-law basis under 17 USC §105, not worldwide CC clearance. Commons separates Performance/Recording from Composition and attributes the file to a Marine Band official-duty recording with an official .mil source. No CC-NC licence appears in the Commons record or the reviewed official source wording. Marine Band boilerplate says its institutionally distributed recordings ‘may not be distributed for private use and are not for sale’ because appropriated funds are used: this is the agency’s physical-distribution policy, not a non-commercial copyright licence on the government performance. Official web downloads are offered separately. Direct upstream retrieval returned HTTP 403 during this research; the official page’s indexed distribution wording and reader-accessible download instructions were examined, and the file’s recording-specific Commons declaration remains explicit. No claim of worldwide rights or a cleared private arrangement is made." },
+    "creditLine": "Edward Elgar, Pomp and Circumstance March No. 1, concert-band arrangement — United States Marine Band; conductor, arranger and session date unestablished. Official Marine Band Web Exclusives download via Wikimedia Commons. Sound recording identified as a US-government work under 17 USC §105; not a worldwide CC licence.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines"
+  },
+  "sources": [
+    { "id": "commons", "title": "Wikimedia Commons — Elgar, United States Marine Band", "url": "https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3?oldid=1134522659", "locator": "Summary: Unknown date, United States Marine Band and official source URL. Licensing explicitly separates Composition from Performance/Recording and applies the US Marine government-work declaration to the latter. Structured data and file history also inspected.", "accessed": "2026-10-17" },
+    { "id": "upstream", "title": "United States Marine Band — official Pomp and Circumstance MP3", "url": "https://www.marineband.marines.mil/Portals/175/Docs/Audio/Web_Exclusives/web_exclusives/pomp-and-circumstance1988.mp3?ver=2020-05-28-080627-740", "locator": "Exact upstream audio link supplied by Commons. Filename 1988 is not expanded into a documented session date. Direct retrieval returned HTTP 403; the selected audio is the Commons-hosted original MP3.", "accessed": "2026-10-17" },
+    { "id": "distribution", "title": "United States Marine Band — Web Exclusives and distribution wording", "url": "https://www.marineband.marines.mil/Audio-Resources/Web-Exclusives/", "locator": "Official download instructions; indexed boilerplate on free distribution to educational institutions, public libraries and radio stations, appropriated funds, private-use distribution and not-for-sale status. This is distinguished from a CC-NC licence. Reader mirror https://r.jina.ai/https://www.marineband.marines.mil/Audio-Resources/Web-Exclusives/ supplies download instructions where direct access is blocked.", "accessed": "2026-10-17" },
+    { "id": "us-law", "title": "17 USC §105 — United States Government works", "url": "https://www.law.cornell.edu/uscode/text/17/105", "locator": "Subsection (a): US copyright protection unavailable for works of the United States Government; historical notes distinguish foreign protection and privately owned material.", "accessed": "2026-10-17" },
+    { "id": "elgar-work", "title": "Elgar Society — Pomp and Circumstance introduction", "url": "https://www.elgar.org/3pomp-a.htm", "locator": "Original 1901 D-major march and G-major trio; does not identify the band arrangement heard here.", "accessed": "2026-10-17" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
+}
