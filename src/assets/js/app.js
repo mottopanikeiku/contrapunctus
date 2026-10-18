@@ -13,6 +13,25 @@ window.CP = app;
 // Initial relative head-link URLs otherwise retarget when pushState enters a nested directory.
 for (const link of $$('link[href]', document.head)) link.setAttribute('href', link.href);
 
+// A delegated entry point, not a page module: no tour code, data or CSS is fetched until requested.
+let tourRequest;
+async function startTour(id) {
+  try {
+    tourRequest ??= import(new URL(`assets/js/tour.js?v=${document.documentElement.dataset.tour ?? ''}`, ROOT).href)
+      .then((module) => (app.tour = module.createTour(app))).catch((error) => { tourRequest = null; throw error; });
+    await (await tourRequest).start(id);
+  } catch (error) {
+    let note = $('#cp-tour-error');
+    if (!note) { note = document.createElement('p'); note.id = 'cp-tour-error'; note.setAttribute('role', 'alert'); $('#cp-persist').append(note); }
+    note.textContent = `${error.message} Use Guide to choose the lesson again.`;
+  }
+}
+document.addEventListener('click', (event) => {
+  const button = event.target.closest('button[data-tour]');
+  if (!button) return;
+  event.preventDefault(); $('#cp-tour-error')?.remove(); startTour(button.dataset.tour);
+});
+
 // ================================================================== now-playing bar
 const np = $('.np');
 const npUi = np && { play: $('.np-play', np), c: $('.np-c', np), w: $('.np-w', np), prog: $('.np-prog span', np), time: $('.np-time', np), now: $('.np-now', np), next: $('.np-next', np) };
@@ -149,6 +168,8 @@ const modules = {};
 async function mount() {
   const my = token;
   const room = document.body.classList.contains('room');
+  // The cold Hall welcome is server-rendered; an already-playing visit needs no curtain.
+  if (room && player.playing) { $('.curtain').hidden = true; document.body.classList.remove('waiting'); }
   const names = [room ? 'room' : 'site', ...(document.body.dataset.modules ?? '').split(/\s+/).filter(Boolean)];
   for (const name of names) {
     try {
@@ -160,6 +181,7 @@ async function mount() {
     } catch (err) { console.error(`mount ${name} failed`, err); }
   }
   npShow();
+  app.tour?.mount();
 }
 
 const sameSite = (u) => u.origin === location.origin && u.pathname.startsWith(ROOT.pathname) && (/\.html$/.test(u.pathname) || u.pathname.endsWith('/'));
@@ -227,7 +249,7 @@ async function syncStyles(doc) {
   await Promise.all(loads);
   return () => {
     // Retain parsed stylesheets for the return trip without letting old rules bleed into the page.
-    for (const l of $$('link[rel="stylesheet"]', document.head)) l.media = want.includes(l.href) ? 'all' : 'not all';
+    for (const l of $$('link[rel="stylesheet"]', document.head)) l.media = want.includes(l.href) || l.hasAttribute('data-cp-tour') ? 'all' : 'not all';
     $$('style[data-cp-critical]', document.head).forEach((style) => style.remove());
   };
 }
@@ -259,6 +281,7 @@ export async function navigate(href, { push = true } = {}) {
   const base = doc.createElement('base'); base.href = url.href; doc.head.prepend(base);
   const dropOld = await syncStyles(doc);
   if (my !== token) return;
+  app.tour?.unmount();
   for (const f of unmounts.splice(0)) { try { f(); } catch {} }
   // swap everything in <body> except the persistent layer
   const persist = $('#cp-persist');
@@ -306,7 +329,9 @@ try {
   const last = JSON.parse(localStorage.getItem('cp-last') || 'null');
   if (last && !document.body.classList.contains('room')) player.load(last.id, { t: last.t }).then(npTrack);
 } catch {}
-mount();
+mount().then(() => {
+  try { if (sessionStorage.getItem('cp-tour')) startTour(); } catch {}
+});
 
 // No audio or cross-origin resources enter the offline cache. Activation never interrupts playback.
 if ('serviceWorker' in navigator) {

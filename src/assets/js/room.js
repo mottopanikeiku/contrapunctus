@@ -1012,6 +1012,17 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   else if (!player.track) await player.load(0);
   await show(player.track);
   playState();
+  // One invitation on the first Hall visit, never on subsequent visits or after a tour.
+  const hint = $('.hall-hint');
+  if (hint) {
+    try {
+      if (!localStorage.getItem('cp-hall-guide') && !app.hallGuideSeen) {
+        hint.hidden = false; app.hallGuideSeen = true;
+        localStorage.setItem('cp-hall-guide', 'seen');
+      }
+    } catch { if (!app.hallGuideSeen) { hint.hidden = false; app.hallGuideSeen = true; } }
+    on($('.hall-hint-close'), 'click', () => { hint.hidden = true; try { localStorage.setItem('cp-hall-guide', 'dismissed'); } catch {} });
+  }
   wake();
   // Loading the hall or restoring a session is not consent to download cross-origin audio.
   if (!player.playing) {
@@ -1019,6 +1030,8 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
     ui.curtain.hidden = ok;
     document.body.classList.toggle('waiting', !ok);
   } else ui.curtain.hidden = true;
+  $('.begin').disabled = false;
+  $('.begin').textContent = 'Begin the concert';
 
   return () => { alive = false; cancelAnimationFrame(raf); viewObj?.destroy?.(); cleanups.forEach((f) => { try { f(); } catch {} }); };
 }
