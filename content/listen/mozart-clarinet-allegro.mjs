@@ -18,311 +18,187 @@ export default {
   "source": {
     "file": "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 1. Allegro.ogg"
   },
-  "intro": "The orchestra establishes a complete conversation before the soloist takes it over. William McColl plays a basset clarinet he built himself, restoring the low-register possibilities for which Mozart wrote the concerto.",
-  "question": "When the soloist takes over an orchestral idea, what changes besides its tone colour?",
+  "intro": "Mozart gives the clarinet a graceful A major tune, then sends it through quick runs, low phrases and sudden turns into minor keys. William McColl plays a basset clarinet of his own construction with Abraham Kaplan and the University of Washington Symphony Orchestra.",
   "sections": [
     {
       "t": 0,
-      "label": "Orchestral opening",
+      "label": "Intro · The strings introduce the tune",
       "m": "Intro",
-      "mNote": "A major; themes before the solo exposition"
+      "mNote": "A major phrases pass between strings and winds"
     },
     {
       "t": 100,
-      "label": "Solo exposition",
+      "label": "A · The clarinet takes the floor",
       "m": "A",
-      "mNote": "The opening theme gains a solo voice"
+      "mNote": "The soloist extends the theme into new melodies and runs"
     },
     {
       "t": 356,
-      "label": "Development · changing ground",
+      "label": "Dev · The solo tune changes key",
       "m": "Dev",
-      "mNote": "The solo line explores contrasting tonal regions"
+      "mNote": "Clarinet phrases travel beyond the exposition’s E major close"
     },
     {
       "t": 510,
-      "label": "Recapitulation · shared return",
+      "label": "A′ · The tune returns in A",
       "m": "A′",
-      "mNote": "Earlier material brought back towards A major"
+      "mNote": "The clarinet recovers the opening melody above quiet strings"
     },
     {
       "t": 704,
-      "label": "Closing orchestral ritornello",
+      "label": "Coda · The orchestra finishes in A",
       "m": "Coda",
-      "mNote": "The orchestra completes the movement"
+      "mNote": "Strings and winds take over the closing phrases"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The orchestra speaks first",
-      "text": "Strings introduce the opening melody over a moving inner pulse. The soloist’s first independent statement comes later: listen now for the melodic shapes that will become part of the clarinet’s vocabulary.",
+      "title": "The strings begin the conversation",
+      "text": "The strings introduce a graceful A major melody. Winds soon join their answers, and Mozart sets parts of the tune chasing one another in canon. The orchestra has a lively conversation of its own before the first independent solo.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf score (1881), I, PDF pp. 1–5, labelled opening Tutti and later Solo. Report begins quietly, then gains relative level through 0:15–0:35. No claim is made about optional solo doubling in the tutti."
+      "evidence": "Breitkopf & Härtel full score (1881), I, pp. 207–211. Calvin Dotsey describes the canon within the opening orchestral exposition: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/."
     },
     {
-      "t": 35,
-      "kind": "music",
-      "title": "Running lines and chords",
-      "text": "The opening paragraph alternates broad chords with running figures. Flutes and violins can share the quick movement while the lower strings keep it connected to a firm bass line.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf I, opening orchestral ritornello, PDF pp. 1–4; report rises to −7.8 dB at 0:35 with increased onset density. This is a passage description."
-    },
-    {
-      "t": 70,
-      "kind": "listen",
-      "title": "Remember more than a tune",
-      "text": "Try to remember the orchestra’s ways of answering as well as its melodies. Imitation and small echoing phrases will remain useful when the solo clarinet becomes the centre of attention.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Breitkopf I, opening ritornello, PDF pp. 2–5; report alternates stronger 1:05–1:10 and quieter 1:15–1:20 windows. No particular imitative entry is timed."
-    },
-    {
-      "t": 105,
+      "t": 100,
       "kind": "form",
-      "title": "A new speaking voice",
-      "text": "The solo exposition gives the opening idea to the clarinet, with a lighter orchestral background. A familiar melody becomes more flexible when one player can extend it with runs, turns and changes of register.",
+      "title": "The melody gains a soloist",
+      "text": "The clarinet takes up the opening melody over soft strings. It soon extends the tune, adds new phrases and runs farther than the orchestra’s version. The wind section rests at the entry, giving the soloist room.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, first Solo on PDF p. 5, bar 57; report falls from −8.6 dB at 1:35 to −20.4 dB at 1:40 and −24.2 dB at 1:45. The solo-entry marker at 1:40 is provisional."
-    },
-    {
-      "t": 140,
-      "kind": "life",
-      "title": "Written for Stadler",
-      "text": "Mozart writes the concerto for Anton Stadler, whose instrument extends below the range of an ordinary clarinet. That lower register is part of the work’s design, not a later decorative addition.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto”, https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/."
-    },
-    {
-      "t": 175,
-      "kind": "music",
-      "title": "Major gives way to shadow",
-      "text": "In this part of the solo exposition, the initially secure major-key world becomes less stable. Follow the line through its darker turns rather than treating every change of register as a new theme.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf I, solo exposition, PDF pp. 7–9; report boundaries 2:42 and 2:48 accompany departure from the opening A-major profile. The score, not the local-key estimator, establishes the minor-mode contrast."
+      "evidence": "Breitkopf & Härtel full score (1881), I, first solo from bar 57, p. 211. The solo exposition’s new melodies are discussed by Calvin Dotsey."
     },
     {
       "t": 210,
-      "kind": "listen",
-      "title": "Breath and long phrases",
-      "text": "Listen for how the solo line makes several small gestures into one longer phrase. An instrumental melody need not stop wherever a singer would need to breathe, but this concerto often invites that comparison.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Score I, solo exposition, PDF pp. 8–11; report 3:30–3:50 remains at moderate relative level with the dominant region becoming more stable. This is a listening strategy, not a measured breath."
-    },
-    {
-      "t": 245,
-      "kind": "world",
-      "title": "A lost autograph",
-      "text": "The concerto’s complete autograph does not survive. Early printed versions adapt the solo part for the ordinary clarinet, so modern basset-clarinet performances must reconstruct details of the lost low-register writing.",
+      "kind": "life",
+      "title": "Written for Anton Stadler",
+      "text": "Mozart writes the concerto for Anton Stadler and his extended-range clarinet. Its extra low notes open up another room in the instrument: the solo can descend below the ordinary clarinet’s compass, then climb back into its bright upper voice.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto”, https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/."
+      "evidence": "Calvin Dotsey, Houston Symphony, on Stadler’s basset clarinet and the concerto’s origin: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/. The performance uses McColl’s self-built basset clarinet: https://soniventorum.com/soniventorum_archives.html."
     },
     {
       "t": 280,
       "kind": "music",
-      "title": "Not always in front",
-      "text": "The clarinet can support an orchestral melody with broken-chord movement rather than continually carrying the tune. Listen for moments when the apparent soloist behaves like an accompanist.",
+      "title": "The soloist accompanies the orchestra",
+      "text": "The clarinet’s quick broken chords make an accompaniment beneath the orchestra’s phrases. Mozart lets the soloist be useful in several ways: it can sing the melody, answer it, or keep a stream of notes moving underneath.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, later solo exposition, PDF pp. 11–13; report returns to a sustained E-major profile from 4:35–5:05 after the low-level 4:25 window. The role reversal is from the score and is not assigned to an exact bar here."
+      "evidence": "Breitkopf & Härtel full score (1881), I, later solo exposition, orchestral phrases above the clarinet’s running broken-chord figures."
     },
     {
-      "t": 315,
+      "t": 356,
       "kind": "form",
-      "title": "The orchestra closes a paragraph",
-      "text": "The orchestral ritornello gathers the exposition’s material into a firmer conclusion. Its fuller texture is a structural landmark, but it does not mean that the concerto has finished its argument.",
+      "title": "The tune leaves familiar ground",
+      "text": "After the orchestra closes in E major, the clarinet begins the development with a familiar phrase. Changing keys draw it away from the opening’s easy balance. The soloist’s wide range gives these exchanges a deep bass voice as well as a singing top.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, Tutti on PDF pp. 13–14; report rises from −15.6 dB at 5:15 to −8.4 dB at 5:20 and remains strong through 5:35."
-    },
-    {
-      "t": 350,
-      "kind": "life",
-      "title": "A busy final autumn",
-      "text": "The concerto belongs to the same final autumn as The Magic Flute and La clemenza di Tito. Mozart is still writing for particular performers and institutions; the music need not be read as a coded farewell.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Composer biography, 1791; Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto”, https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/."
-    },
-    {
-      "t": 385,
-      "kind": "music",
-      "title": "Familiar shapes travel",
-      "text": "The development draws the clarinet through changing tonal surroundings. Fragments of the opening vocabulary remain recognisable even when the bass no longer gives them the same harmonic support.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf I, development, PDF pp. 14–18; report boundaries 6:26 and 6:32 precede changing pitch profiles and contrasting relative levels around 6:35–6:50."
-    },
-    {
-      "t": 420,
-      "kind": "listen",
-      "title": "Colour inside the line",
-      "text": "Through the central passage, follow the solo line as it crosses registers. McColl’s extended instrument allows a low response to belong to the same musical sentence as a much brighter upper phrase.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "The basset instrument is documented by the performer archive. Report boundary 7:06 and changing pitch profiles support the central contrasting passage, but no particular reconstructed low note is located."
+      "evidence": "Breitkopf & Härtel full score (1881), I, development following the E major orchestral close; Calvin Dotsey’s account of the first movement."
     },
     {
       "t": 455,
       "kind": "world",
-      "title": "The player builds the instrument",
-      "text": "The performer archive identifies McColl’s basset clarinet as an instrument of his own construction. It does not identify the reconstruction or edition of the solo part, so the guide leaves that question open.",
+      "title": "McColl’s handmade basset clarinet",
+      "text": "In December 1987, William McColl performs the concerto on a basset clarinet he has built himself. The University of Washington orchestra plays under Abraham Kaplan. The maker and the soloist are the same person.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Wikimedia Commons file description and Soni Ventorum archive, Mozart K. 622, https://soniventorum.com/soniventorum_archives.html."
+      "evidence": "The Soni Ventorum archive identifies the performers, date and McColl’s instrument: https://soniventorum.com/soniventorum_archives.html."
     },
     {
-      "t": 490,
-      "kind": "music",
-      "title": "The ensemble gathers again",
-      "text": "The orchestra’s fuller writing prepares the return from the development. Listen for the solo line’s changing relationship to a texture that can now speak collectively again.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf I, final developmental tutti and return preparation, PDF pp. 18–20; report boundaries 7:56 and 8:08, with higher relative level at 8:10–8:20."
-    },
-    {
-      "t": 525,
+      "t": 510,
       "kind": "form",
-      "title": "The opening returns together",
-      "text": "The recapitulatory passage restores the opening material to A major. Soloist and orchestra now revisit a shared history: the theme no longer sounds like something one side has introduced to the other for the first time.",
+      "title": "A major and the opening melody",
+      "text": "The clarinet brings the opening melody back in A major. Quiet strings surround it, with first violins answering the solo line. The familiar phrases have returned, though Mozart still gives the soloist plenty of room to elaborate them.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, Solo and returning main theme, PDF pp. 20–21; report turns quieter at 8:30–8:35 and remains strongly A-major centred through 9:10. Section marker 8:30 is provisional."
+      "evidence": "Breitkopf & Härtel full score (1881), I, recapitulation, p. 227."
     },
     {
-      "t": 560,
-      "kind": "music",
-      "title": "A shadow within the return",
-      "text": "The return does not simply erase the minor-mode material. Listen for darker turns inside the home-key passage before the line again finds its major-key balance.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf I, recapitulated solo exposition, PDF pp. 22–24; report boundary 9:18 and A-minor-centred windows around 9:20–9:25 corroborate the score’s local modal contrast."
-    },
-    {
-      "t": 595,
-      "kind": "listen",
-      "title": "Follow the answering strings",
-      "text": "The strings are more than a quiet surface underneath the soloist. Try following one of their answering figures for a phrase, then return your attention to the clarinet and hear how the two lines fit.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Breitkopf I, recapitulation, PDF pp. 23–26; report has boundary 9:52 and moderate, varied relative level across 9:55–10:15. This is a general listening task."
-    },
-    {
-      "t": 630,
-      "kind": "world",
-      "title": "A university performance",
-      "text": "McColl plays with the University of Washington Symphony Orchestra under Abraham Kaplan in December 1987. The sources identify the month and ensemble, but not a particular day or concert hall.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Wikimedia Commons file description and Soni Ventorum archive, Mozart K. 622, https://soniventorum.com/soniventorum_archives.html."
-    },
-    {
-      "t": 665,
-      "kind": "music",
-      "title": "Motion without a new destination",
-      "text": "The later solo passage revisits quick figures and answering orchestral material within the home-key argument. Listen for increasing continuity rather than expecting another large change of scene.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf I, late recapitulation, PDF pp. 26–28; after the low-level 10:50 window, the report resumes an A-major profile across 11:05–11:25."
-    },
-    {
-      "t": 700,
+      "t": 704,
       "kind": "form",
-      "title": "The orchestra has the last word",
-      "text": "The final orchestral ritornello takes over the close. Its firm phrases answer the soloist’s more elaborate movement without requiring a long, separate showpiece cadenza.",
+      "title": "The orchestra takes the last turn",
+      "text": "Strings and winds take over the closing phrases in A major. Mozart gives this movement no large, separate cadenza: the clarinet’s freedom has been woven through the solos. The final orchestral cadence answers its last flourish.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, final Tutti, PDF pp. 28–29; report rises from −15.8 dB at 11:40 to −7.8 dB at 11:45. The 11:44 section marker is a passage estimate, not a timed entry."
-    },
-    {
-      "t": 735,
-      "kind": "listen",
-      "title": "A clear full stop",
-      "text": "The final A-major cadence closes the first movement. Listen for the distinction between the last musical chord and the quieter recording tail that follows it.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Breitkopf I, final page 29; report falls from −12.8 dB at 12:15 to −43.8 dB at 12:20 and −50.2 dB at 12:25. The cue describes the ending span rather than an exact cutoff."
+      "evidence": "Breitkopf & Härtel full score (1881), I, final ritornello, pp. 234–235. Calvin Dotsey notes the absence of a conventional first-movement cadenza."
     }
   ],
   "transitions": [
     {
       "id": "first-solo",
-      "title": "The tutti yields the theme",
-      "from": "Orchestral opening",
-      "to": "Solo exposition",
+      "title": "The clarinet takes the opening tune",
+      "from": "Intro · The strings introduce the tune",
+      "to": "A · The clarinet takes the floor",
       "at": {
         "t": 100
       },
-      "how": "<p>The opening orchestral ritornello closes firmly in A major. The accompaniment thins and the clarinet takes up the main melody, extending it with soloistic decoration. A cadence and a change of texture mark the new formal role without requiring a new key.</p>",
+      "how": "<p>The full orchestra closes in A major. Flutes, bassoons and horns then fall silent, and the clarinet begins its independent solo over quiet strings. The familiar melody carries across the change of players, with the violins supplying answers beneath it.</p>",
       "devices": [
         "perfect cadence",
-        "texture change",
-        "orchestration change"
+        "orchestration change",
+        "motivic link",
+        "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, first Solo, PDF p. 5; report relative-level fall around 1:40–1:45."
+      "evidence": "Breitkopf & Härtel full score (1881), I, first solo from bar 57, p. 211."
     },
     {
       "id": "into-development",
-      "title": "The dominant close opens outward",
-      "from": "Solo exposition",
-      "to": "Development",
+      "title": "Beyond the E major cadence",
+      "from": "A · The clarinet takes the floor",
+      "to": "Dev · The solo tune changes key",
       "at": {
         "t": 356
       },
-      "how": "<p>The exposition’s orchestral close establishes E major. The clarinet resumes with familiar material, but the continuation carries it into contrasting tonal regions rather than merely repeating the exposition. The opening idea supplies the link while changing harmony gives it a new function.</p>",
+      "how": "<p>The orchestra rounds off the exposition in E major. The clarinet resumes with a familiar melodic phrase over lighter string accompaniment. Repeated figures and changing bass notes carry the solo away from that cadence into the development.</p>",
       "devices": [
         "perfect cadence",
+        "texture change",
         "motivic link",
         "sequence"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, end of orchestral ritornello and development opening, PDF pp. 14–15; report E-major region through 6:20, followed by stronger boundaries at 6:26–6:48. The marker estimates the earlier solo restart, not a detected key change."
+      "evidence": "Breitkopf & Härtel full score (1881), I, close of the exposition and opening of the development."
     },
     {
       "id": "into-recapitulation",
-      "title": "The home key receives the soloist",
-      "from": "Development",
-      "to": "Recapitulation",
+      "title": "E prepares the return to A",
+      "from": "Dev · The solo tune changes key",
+      "to": "A′ · The tune returns in A",
       "at": {
         "t": 510
       },
-      "how": "<p>Sequential orchestral writing and dominant preparation lead back to A major. The soloist returns to the opening melody over a lighter accompaniment. Familiar material now continues towards the tonic rather than retracing the exposition’s move to E major.</p>",
+      "how": "<p>The dominant E prepares the return to A major. The clarinet restores the opening tune over quiet upper strings, with cellos and double basses resting at its entry. First violins answer the solo line as the opening phrases unfold again.</p>",
       "devices": [
         "retransition",
-        "sequence",
+        "motivic link",
         "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, PDF pp. 19–21; report fuller 8:10–8:25 span and reduction around 8:30–8:35. Timing remains provisional."
+      "evidence": "Breitkopf & Härtel full score (1881), I, recapitulation, pp. 226–227."
     },
     {
       "id": "final-ritornello",
-      "title": "Solo movement becomes ensemble closure",
-      "from": "Recapitulation",
-      "to": "Closing orchestral ritornello",
+      "title": "The orchestra completes the soloist’s cadence",
+      "from": "A′ · The tune returns in A",
+      "to": "Coda · The orchestra finishes in A",
       "at": {
         "t": 704
       },
-      "how": "<p>The solo line brings its quick passagework to a cadence, and the orchestra gathers the closing material into A major. Winds and horns strengthen the string texture. The movement ends through the return of an established orchestral function, not through a new thematic episode.</p>",
+      "how": "<p>The clarinet’s closing flourish leads into the orchestral ritornello in A major. Winds reinforce the strings, then the scoring briefly thins before the final full cadence. Mozart finishes with the orchestra together, without a separate cadenza breaking the approach.</p>",
       "devices": [
         "perfect cadence",
-        "orchestration change"
+        "orchestration change",
+        "motivic link"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf I, PDF pp. 28–29; report sharp relative-level rise at 11:45 and sustained stronger windows through 11:55."
+      "evidence": "Breitkopf & Härtel full score (1881), I, pp. 234–235."
     }
   ],
   "orchestra": {
@@ -340,9 +216,9 @@ export default {
     "solo": "clarinets",
     "basis": "score-proportion",
     "source": {
-      "title": "Mozart, Clarinet Concerto K. 622, Breitkopf & Härtel, Mozarts Werke XII/20 (1881), plate W.A.M. 622; shared orchestral fabric only",
+      "title": "Mozart, Clarinet Concerto K. 622, Breitkopf & Härtel, Mozarts Werke XII/20 (1881), plate W.A.M. 622",
       "url": "https://imslp.org/wiki/Clarinet_Concerto_in_A_major,_K.622_(Mozart,_Wolfgang_Amadeus)",
-      "locator": "I. Allegro, PDF pp. 1–29. The ordinary-clarinet edition does not establish McColl’s reconstructed low notes. “Clarinets” represents the solo basset clarinet. Tutti doubling is not inferred; timeline markers cover approximate passages."
+      "locator": "I. Allegro, printed pp. 207–235: orchestral opening, solo entries, development and return. The solo instrument in this performance is McColl’s basset clarinet."
     },
     "timeline": [
       {
@@ -357,7 +233,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "Orchestral opening: strings establish the theme and moving inner parts."
+        "note": "Strings introduce the tune above moving viola, cello and bass parts."
       },
       {
         "t": 30,
@@ -375,7 +251,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "The opening tutti expands to winds and horns; activity alternates within the passage."
+        "note": "Flutes, bassoons and horns join the strings’ opening phrases."
       },
       {
         "t": 100,
@@ -388,7 +264,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "First solo passage: clarinet above violins and viola; cellos and basses rest initially and join later in the phrase."
+        "note": "The clarinet begins its first solo above violins and viola; lower strings join later."
       },
       {
         "t": 280,
@@ -404,7 +280,7 @@ export default {
           "violins-1",
           "clarinets"
         ],
-        "note": "Later solo exposition includes changes between melodic and accompanying roles."
+        "note": "The clarinet accompanies the strings with quick broken chords, then takes the melody again."
       },
       {
         "t": 320,
@@ -422,7 +298,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "Exposition-closing orchestral ritornello; no solo doubling is asserted."
+        "note": "Winds and strings bring the exposition to its E major close."
       },
       {
         "t": 356,
@@ -437,7 +313,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "Development opening restores the solo-led texture."
+        "note": "The clarinet starts the development over quiet strings."
       },
       {
         "t": 490,
@@ -455,7 +331,7 @@ export default {
           "bassoons",
           "violins-1"
         ],
-        "note": "Orchestral return preparation includes sequential motion and sustained lower-wind lines."
+        "note": "Strings repeat their figures at changing pitches above sustained bassoon notes."
       },
       {
         "t": 510,
@@ -468,7 +344,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "The solo main theme returns above violins and viola; cellos and basses rest initially and join later in the phrase."
+        "note": "The clarinet recovers the opening tune above violins and viola; lower strings join later."
       },
       {
         "t": 704,
@@ -486,13 +362,13 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "Closing tutti gathers winds, horns and strings for the final cadence."
+        "note": "Winds, horns and strings gather for the final A major cadence."
       },
       {
         "t": 741,
         "playing": [],
         "lead": [],
-        "note": "Recording tail after the closing cadence; no instrumental activity assigned."
+        "note": "The final A major chord has ended."
       }
     ]
   }

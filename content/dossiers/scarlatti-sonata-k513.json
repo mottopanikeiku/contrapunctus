@@ -1,0 +1,135 @@
+{
+  "id": "scarlatti-sonata-k513",
+  "work": {
+    "title": "Sonata in C major, K. 513, “Pastorale”",
+    "catalogue": "K. 513; L. S3; P. 176",
+    "movement": "Moderato – Molto allegro; Presto",
+    "version": {
+      "value": "Complete two-movement sonata for keyboard, performed on harpsichord",
+      "status": "documented",
+      "sourceIds": ["commons", "catalogue", "score"],
+      "note": "Hansen’s performing edition is unidentified. The section map includes the repeat of the first movement’s Moderato and Molto allegro, followed by Presto; times are broad passage guideposts."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Eliza Hansen", "role": "harpsichord" }],
+    "status": "documented",
+    "sourceIds": ["commons"],
+    "note": "Commons explicitly identifies Hansen and the harpsichord. The instrument’s builder, model and pitch standard are not established from the selected file’s documentation."
+  },
+  "session": {
+    "date": {
+      "value": "1953-10-22/1953-10-23",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "The author/session field gives 22–23 October 1953. The individual take’s day is unspecified.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Beethovensaal, Hannover, Germany",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Commons gives Hannover and spells the venue ‘Beetovensaal’; the conventional spelling is used here."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Archiv",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Label name transcribed from the source credit."
+    },
+    "catalogue": {
+      "value": "13001 AP",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "The catalogue reference supplied by the Médiathèque musicale Mahler source credit."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "The source credit does not identify a pressing matrix, take or side."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Commons uploader: Flopinot2012; source collection: Médiathèque musicale Mahler",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Collection and upload credits are documented; the transfer engineer is unidentified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "13 October 2023 is the upload date. The digitisation date is unspecified."
+    },
+    "processing": {
+      "value": "Commons MP3 derivative of an uploaded FLAC",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Playback equipment, restoration and any pitch correction are unspecified."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Domenico_Scarlatti_-_Sonate_en_ut_majeur_Kk.513_%28Eliza_Hansen_1953%29.flac/Domenico_Scarlatti_-_Sonate_en_ut_majeur_Kk.513_%28Eliza_Hansen_1953%29.flac.mp3",
+    "sourceChain": ["commons"],
+    "format": "MP3 access derivative; uploaded source is FLAC",
+    "durationSeconds": 324.045782312925
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain: Scarlatti’s eighteenth-century composition",
+      "status": "documented",
+      "sourceIds": ["commons", "catalogue", "manuscripts"],
+      "note": "Commons applies PD-old-70-expired. The 1756 date belongs to the Venice manuscript copy. Gouin’s modern score is cited for research and is not redistributed here."
+    },
+    "recording": {
+      "value": "Public domain in the European Union under Commons’ PD-EU-audio designation",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "The host’s licence field is Public domain. Its licensing section also warns of continuing US protection for this pre-1972 sound recording. The EU designation does not provide worldwide clearance."
+    },
+    "creditLine": "Domenico Scarlatti, Sonata in C major, K. 513, Pastorale; Eliza Hansen, harpsichord, Hannover, 22–23 October 1953. Archiv 13001 AP; Médiathèque musicale Mahler collection; Commons upload by Flopinot2012. Commons PD-EU-audio; US recording restrictions remain.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_ut_majeur_Kk.513_(Eliza_Hansen_1953).flac#Licensing"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Hansen, Scarlatti Sonata K. 513",
+      "url": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_ut_majeur_Kk.513_(Eliza_Hansen_1953).flac",
+      "locator": "Description identifies the harpsichord and performer; author field supplies session range and Hannover venue. Source reference Archiv 13001 AP; licensing, file history, duration and MP3 transcode.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "catalogue",
+      "title": "IMSLP — Keyboard Sonata in C major, K. 513",
+      "url": "https://imslp.org/wiki/Keyboard_Sonata_in_C_major,_K.513_(Scarlatti,_Domenico)",
+      "locator": "General Information: catalogue concordances, C major, keyboard, two movements: Pastorale, Moderato–Molto allegro; Presto.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Scarlatti — Sonata K. 513, Pierre Gouin edition",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/f/f0/IMSLP292935-PMLP475319-Scarlatti_Sonate_K.513.pdf",
+      "locator": "Les Éditions Outremontaises, 2013; all four pages inspected visually. Moderato in twelve-eight; Molto allegro from bar 17; Presto in three-eight from bar 36; repeat signs and final cadence.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "manuscripts",
+      "title": "Sonate K. 513 — manuscript witnesses",
+      "url": "https://fr.wikipedia.org/wiki/Sonate_K._513",
+      "locator": "Manuscrits: Venice XII, no. 30, Ms. 9783 (1756), copied for Maria Bárbara; also Parma XIV, no. 30.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "programme",
+      "title": "Giulio d’Amore — Scarlatti Sonata in C major, K. 513",
+      "url": "https://www.flaminioonline.it/Guide/Scarlatti/Scarlatti-Sonata513.html",
+      "locator": "Accademia Nazionale di Santa Cecilia programme, Rome, 13 February 1998: southern Italian pastoral associations and fast toccata-like conclusion.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

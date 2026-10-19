@@ -1,0 +1,191 @@
+{
+  "id": "rossini-largo-al-factotum",
+  "work": {
+    "title": "Il barbiere di Siviglia",
+    "catalogue": "",
+    "movement": "Act I — Largo al factotum",
+    "version": {
+      "value": "Figaro’s Italian-language entrance aria, recorded as a standalone acoustic disc side",
+      "status": "documented",
+      "sourceIds": ["label", "archive", "discography"],
+      "note": "The label identifies Act I, a baritone and orchestral accompaniment. This is the published aria side, not a complete opera or a recording of the surrounding recitatives. The performing edition, cuts and exact studio orchestration are not established. The listening guide groups broad passages from the historical full score; it does not claim word-level synchronisation."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Titta Ruffo", "role": "baritone — Figaro" },
+      { "name": "Josef Pasternack", "role": "conductor" },
+      { "name": "Unidentified orchestra", "role": "orchestral accompaniment" }
+    ],
+    "status": "documented",
+    "sourceIds": ["label", "discography", "archive"],
+    "note": "Bolig and Milmo identify Pasternack as conductor. The label states ‘Baritone with orchestra’; neither it nor the consulted discography names the orchestral players."
+  },
+  "session": {
+    "date": {
+      "value": "1920-04-19",
+      "status": "documented",
+      "sourceIds": ["discography", "ruffo-discography", "archive"],
+      "note": "All three sources associate matrix C-23945, take 2, with this date. It is not Ruffo’s separate 1912 recording of the same aria.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Camden, New Jersey, United States",
+      "status": "documented",
+      "sourceIds": ["discography"],
+      "note": "Bolig and Milmo list Camden for this matrix. No particular studio room or street address is established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor Talking Machine Company — Victrola",
+      "status": "documented",
+      "sourceIds": ["label"],
+      "note": "The accompanying National Jukebox label image shows a red Victrola label and the Victor Talking Machine Company name."
+    },
+    "catalogue": {
+      "value": "6263-A; also issued as Victor 88391",
+      "status": "documented",
+      "sourceIds": ["label", "discography", "ruffo-discography"],
+      "note": "The transferred carrier’s label reads 6263-A. The discographies connect the same matrix with both Victor numbers and HMV DB 405; the exact pressing date of the photographed copy is unknown."
+    },
+    "matrixTakeSides": {
+      "value": "C-23945, take 2; side A of Victor 6263",
+      "status": "documented",
+      "sourceIds": ["archive", "label", "discography"],
+      "note": "The matrix and take are identified by the catalogue metadata and discography; the label establishes the side. Stamper and pressing-run details are not established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Library of Congress Packard Campus for Audio Visual Conservation; National Jukebox MP3 mirrored by Hessel Digital Library",
+      "status": "documented",
+      "sourceIds": ["archive", "loc"],
+      "note": "These are the digitisation and mirror credits stated in the Internet Archive item, which links to the original National Jukebox record. The Library of Congress record identifies its source disc as Victor 6263-A, matrix C-23945-2. No individual transfer engineer is identified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The Library of Congress digitisation date is not supplied. The mirror describes a 30 September 2026 retrieval of the LOC MP3; that is a copying event, not the recording or digitisation date."
+    },
+    "processing": {
+      "value": "The mirror reports a bit-exact copy of the Library of Congress MP3, with no processing added by the uploader.",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files", "loc"],
+      "note": "The uploader states a bit-exact copy. The Library of Congress master WAV of Victor 6263-A has the same duration, 247.78 seconds, and the same performance at the same speed and pitch throughout; byte identity with the Library’s own access MP3 has not been checked. The original stylus, playback speed, equalisation, noise reduction and restoration settings remain unknown."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/loc-jukebox-188720-largo-al-factotum/jukebox-188720_largo-al-factotum.mp3",
+    "sourceChain": ["label", "archive", "archive-files"],
+    "format": "VBR MP3 mirror of a Library of Congress National Jukebox acoustic-disc transfer",
+    "durationSeconds": 247.83
+  },
+  "rights": {
+    "composition": {
+      "value": "Rossini’s music and Sterbini’s Italian libretto are out of copyright under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": ["composer", "work-catalogue", "score"],
+      "note": "Rossini died in 1868 and Sterbini in 1831. This assessment covers the historical work, not unidentified modern arrangements or editions."
+    },
+    "recording": {
+      "value": "US public domain: first published no later than 1924, on double-faced Victor 6263; the mirror carries the Public Domain Mark.",
+      "status": "documented",
+      "sourceIds": ["victor-1924", "loc", "discography", "us-term"],
+      "note": "Selected under the project’s us-published-before-cutoff rule. Victor’s 1924 catalogue lists the Ruffo Largo al factotum on 6263, which is absent from the 1923 catalogue; the Library of Congress identifies 6263-A as this matrix. The same recording was also issued on single-faced Victor 88391, replacing Ruffo’s 1912 recording under that number; the mirror states first publication in 1920, but no dated release source was found. On either date, US protection ended no later than 31 December 2024. The Public Domain Mark is a status declaration, not a new licence grant or a worldwide clearance."
+    },
+    "creditLine": "Gioachino Rossini — Largo al factotum. Titta Ruffo, baritone; Josef Pasternack, conductor; orchestra. Victor C-23945-2 (19 April 1920), carrier 6263-A. Library of Congress National Jukebox transfer, mirrored by Hessel Digital Library on Internet Archive.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Largo al factotum — National Jukebox 188720 mirror metadata",
+      "url": "https://archive.org/metadata/loc-jukebox-188720-largo-al-factotum/metadata",
+      "locator": "Session, matrix, digitisation credit, first-publication statement, Public Domain Mark and mirror provenance",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive: National Jukebox 188720 — file manifest",
+      "url": "https://archive.org/metadata/loc-jukebox-188720-largo-al-factotum/files",
+      "locator": "jukebox-188720_largo-al-factotum.mp3; VBR MP3; 247.83 seconds",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "label",
+      "title": "Victrola 6263-A: label image accompanying National Jukebox 188720",
+      "url": "https://archive.org/download/loc-jukebox-188720-largo-al-factotum/jukebox-188720_label.jpg",
+      "locator": "Titta Ruffo; Barbiere di Siviglia — Largo al factotum; Act I; baritone with orchestra; Italian; 6263-A",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discography",
+      "title": "John R. Bolig and John Milmo: His Master’s Voice Celebrity Series Recordings and Historical Reissues, 1924–1958 (2020)",
+      "url": "https://www.examenapium.it/cs/biblio/Bolig2020.pdf",
+      "locator": "PDF p. 312, DB 405: C-23945-2, 19 April 1920, Camden; Ruffo and Pasternack; Victor 88391 and 6263",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "ruffo-discography",
+      "title": "Titta Ruffo official website: Recordings — discography",
+      "url": "https://tittaruffo.com/en/recordings/",
+      "locator": "Rossini, Il barbiere di Siviglia, Largo al factotum: C-23945-2, 19 April 1920; acoustic Victor recording history",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Rossini: Il barbiere di Siviglia, Act I — Ricordi full score, Dover reprint",
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c8/IMSLP517981-PMLP7237-Rossini_-_Il_barbiere_di_Siviglia_-_Act_I_(orch._score)_(etc).pdf",
+      "locator": "Printed/PDF pp. 54–73, Figaro’s Cavatina",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "libretto",
+      "title": "Cesare Sterbini: Il barbiere di Siviglia — libretto",
+      "url": "https://www.librettidopera.it/barb_siv/rid.html",
+      "locator": "Act I, scene 2: Figaro’s entrance, aria and following recitative",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP: Il barbiere di Siviglia — work catalogue",
+      "url": "https://imslp.org/wiki/Il_barbiere_di_Siviglia_(Rossini,_Gioachino)",
+      "locator": "General information; 1816 work and Cesare Sterbini’s life dates",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "composer",
+      "title": "Rossini Opera Festival: Gioachino Rossini — biographical sketch and opera chronology",
+      "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/",
+      "locator": "1816 and 1868 entries",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "loc",
+      "title": "Library of Congress National Jukebox — Largo al factotum (jukebox-188720)",
+      "url": "https://www.loc.gov/item/jukebox-188720/",
+      "locator": "JSON record: 19 April 1920; Camden, New Jersey; Ruffo, Pasternack; master WAV dlc_victor_6263_01_c23945_02 (Victor 6263, matrix C-23945, take 2).",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "victor-1924",
+      "title": "Victor Talking Machine Company — Victor Records (1924 catalogue)",
+      "url": "https://archive.org/details/catalogueofvicto00vict",
+      "locator": "Copyright 1924. Opera numbers: “Barbiere di Siviglia—Largo al factotum … 6263”, coupled with Rigoletto—Pari siamo, Ruffo. The 1923 catalogue (archive.org 1923catalogueofv00unse) lists 88391 but not 6263.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "us-term",
+      "title": "US Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term: recordings first published before 1923 (protected until 31 December 2021) and 1923–1946 (100 years after first publication)",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

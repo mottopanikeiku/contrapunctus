@@ -1,0 +1,30 @@
+{
+  "id": "price",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Rae Linda Brown, *The Heart of a Woman: The Life and Music of Florence B. Price*, edited and with a foreword by Guthrie P. Ramsey Jr. (University of Illinois Press, 2020).",
+      "url": "https://www.press.uillinois.edu/books/?id=54mmh4mt9780252043239",
+      "kind": "biography",
+      "note": "The starting point for how Price’s training, teaching, family responsibilities and Chicago career connect to her major compositions; combines archival and interview research with musical examples."
+    },
+    {
+      "cite": "Samantha Ege, *South Side Impresarios: How Race Women Transformed Chicago’s Classical Music Scene* (University of Illinois Press, 2024).",
+      "url": "https://www.press.uillinois.edu/books/?id=p088339",
+      "kind": "cultural history",
+      "note": "Explains who made the South Side’s classical music possible: the teachers, patrons, organisers and women’s networks around Price, Margaret Bonds and Nora Holt. Especially useful for understanding the work behind a public première."
+    },
+    {
+      "cite": "Florence Price, *Symphonies Nos. 1 and 3*, edited by Rae Linda Brown and Wayne Shirley, Music of the United States of America 19 (A-R Editions, 2008).",
+      "url": "https://ci.nii.ac.jp/ncid/BA91355046",
+      "kind": "critical edition",
+      "note": "Provides the full orchestral scores and English critical commentary for tracing the brass hymn, Juba movements and editorial decisions. Its 2008 publication also establishes that substantial Price scholarship preceded the St. Anne manuscript discovery."
+    },
+    {
+      "cite": "Michael Lively, ‘Multi-Linear Continuity and “Songs to the Dark Virgin” by Florence Price [1888–1953]’, *College Music Symposium* 63, no. 1 (2023), doi:10.18177/sym.2023.63.sr.11581.",
+      "url": "https://symposium.music.org/63-1/articles/multi-linear-continuity-and-songs-to-the-dark-virgin-by-florence-price-1888-1953",
+      "kind": "analysis",
+      "note": "Examines how piano figures, recurring dissonances and competing harmonic readings interact with Hughes’s poem. Its interpretation is an argument to weigh against the music; the article’s title retains an older birth year, while its text gives 1887."
+    }
+  ]
+}

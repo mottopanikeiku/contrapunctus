@@ -1,17 +1,30 @@
 export default {
-  intro: 'Rachmaninoff recorded this waltz for Victor in 1923. The transfer includes several seconds of silence after the music, so its two-minute file length is not the playing time.',
-  question: 'How does Rachmaninoff separate the running figures from the broader middle?',
-  sections: [
-    { t: 0, label: 'Opening running figures', m: 'A' },
-    { t: 36, label: 'Less active middle', m: 'B' },
-    { t: 72, label: 'Running figures resume', m: 'A′', mNote: 'denser attacks return after the quieter middle' },
-    { t: 110, label: 'Final decay and transfer silence', m: 'Coda' },
+  "intro": "Rachmaninoff records Chopin’s <i>Minute Waltz</i> for Victor in 1923, bringing one composer-pianist’s hands to another’s quicksilver writing. A long melody and an unaccompanied trill interrupt the famous circling notes.",
+  "sections": [
+    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "The left hand waits before joining the dance" },
+    { "t": 36, "label": "B · The singing middle", "m": "B", "mNote": "Sostenuto: longer notes above the waltz accompaniment" },
+    { "t": 72, "label": "A′ · The running notes return", "m": "A′", "mNote": "The circling figure returns, then the bass joins" },
+    { "t": 110, "label": "Coda · D♭ major closes the dance", "m": "Coda", "mNote": "The final scale ends in a firm chord" }
   ],
-  cues: [
-    { t: 0, kind: 'listen', title: 'A pianist on shellac', text: 'Rachmaninoff plays a Steinway grand in this source attribution. Listen to the spacing of phrases rather than treating the restricted recorded tone as the full sound of his instrument.', basis: 'documented', precision: 'passage', evidence: 'Commons names the Steinway and dates the recording 5 April 1923; DAHR matrix B-24192 lists that session and the issued take 5. No particular piano timbre is inferred from the analysis.' },
-    { t: 36, kind: 'listen', title: 'The surface leaves more space', text: 'Across this quieter stretch, the rapid surface gives way to more widely spaced attacks. Compare the melodic line with the accompaniment instead of assuming that fewer notes must mean a slower underlying waltz beat.', basis: 'audio-feature', precision: 'passage', evidence: 'The report marks a boundary at 0:36: detected attacks fall from 6–7 per second in the opening to roughly 4–5 at 0:35–1:05. The estimate describes activity, not beat tempo.' },
-    { t: 76, kind: 'music', title: 'The running surface returns', text: 'The later span regains the closely spaced attacks of the opening and grows in recorded weight. Follow the phrase through its rise rather than counting every fast note as a separate accent.', basis: 'audio-feature', precision: 'passage', evidence: 'Boundaries at 1:12 and 1:18 accompany a rise from −26 dB at 1:10 to −11.7 at 1:20; detected attacks rise to 6.8–7.2 per second.' },
-    { t: 106, kind: 'listen', title: 'Music ends before the file', text: 'After the final phrase, this transfer falls into silence. Compare musical endings between pianists before comparing file lengths: a digital tail is not rubato.', basis: 'audio-feature', precision: 'passage', evidence: 'The 1:50 window falls to −36.9 dB and the 1:55 and 2:00 windows are silent at −80 dB. Complete file duration is 121.5 seconds.' },
+  "cues": [
+    {
+      "bar": { "n": "1", "occ": 1 }, "kind": "music", "title": "One hand starts the dance",
+      "text": "Only the right hand plays at first: a quick loop around A♭, marked <i>leggiero</i>. When the bass enters, its single low note and two answering chords make the three beats plain. The melody keeps running across them.",
+      "basis": "score-aligned", "precision": "passage",
+      "evidence": "Peters edition, bars 1–8. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
+    },
+    {
+      "t": 36, "kind": "world", "title": "Victor, April 1923",
+      "text": "On 5 April 1923 Rachmaninoff records this waltz for Victor. The day’s sessions also include his playing of a piano arrangement of Strauss’s <i>The Blue Danube</i>. The composer of vast concertos is at work on music for a single record side.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Discography of American Historical Recordings, sessions for 5 April 1923; Chopin matrix B-24192 and Strauss C-27732. https://adp.library.ucsb.edu/index.php/date/browse/1923-04-05"
+    },
+    {
+      "bar": { "n": "69", "occ": 1 }, "kind": "music", "title": "A trill without a bass",
+      "text": "The accompaniment stops. A long trill occupies the right hand alone, hanging over the gap before the circling quavers resume. For a few bars, Chopin removes the waltz’s feet from the floor.",
+      "basis": "score-aligned", "precision": "passage",
+      "evidence": "Peters edition, bars 69–77: trill above a resting left hand, followed by the unaccompanied running figure. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
+    }
   ],
   "id": "chopin-waltz-op64-1-rachmaninoff",
   "composer": "chopin",

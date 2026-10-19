@@ -19,217 +19,99 @@ export default {
   "performers": "Musopen Symphony",
   "recorded": "",
   "license": "Public domain",
-  "intro": "A dance in five beats surrounds a darker middle built over a persistent bass. Count two plus three, then listen for how the same metre survives changes of mood and scoring.",
-  "question": "How does an unequal metre remain graceful?",
+  "intro": "The cellos dance in five beats, two followed by three, with the ease of a waltz. A B-minor middle brings a repeated timpani note beneath the melody.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Five-beat dance",
-      "m": "A",
-      "mNote": "cello-led melody in D major"
-    },
-    {
-      "t": 154,
-      "label": "Minor-key middle · approximate",
-      "m": "B",
-      "mNote": "sustained melody above a repeated D foundation"
-    },
-    {
-      "t": 294,
-      "label": "Dance returns · approximate",
-      "m": "A′",
-      "mNote": "opening melodic and accompanimental character restored"
-    },
-    {
-      "t": 416,
-      "label": "Coda · approximate",
-      "m": "Coda",
-      "mNote": "middle-section colour enters the quieter closing span"
-    }
+    { "t": 0, "label": "A · Cellos dance in five", "m": "A", "mNote": "A D-major cello tune over plucked strings" },
+    { "t": 154, "label": "B · B minor over repeated D", "m": "B", "mNote": "Timpani and basses keep pulsing beneath the descending tune" },
+    { "t": 294, "label": "A′ · The D-major dance returns", "m": "A′", "mNote": "The cello tune recovers its light accompaniment" },
+    { "t": 416, "label": "Coda · Falling woodwind scales", "m": "Coda", "mNote": "The close remembers the middle section’s descending phrases" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "Five beats, not three",
-      "text": "Tchaikovsky writes this dance in 5/4. Count two beats followed by three: the unequal groups belong to the metre, not to a performer losing a waltz beat.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
-    },
-    {
-      "t": 40,
       "kind": "music",
-      "title": "A cello-led melody",
-      "text": "The opening tune belongs to the cellos, with light support from winds, horns and plucked strings. The melody’s long shape smooths over the unequal groups beneath it.",
-      "basis": "general",
+      "title": "Cellos dance in five",
+      "text": "The cellos sing a D-major tune above plucked strings. Each bar holds five beats, grouped as two and three. Clarinets and bassoons answer with little falling phrases; the horns fill the gaps.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
-    },
-    {
-      "t": 79,
-      "kind": "listen",
-      "title": "Keep the unequal groups",
-      "text": "Try maintaining the two-plus-three pulse while following the melody. A phrase can cross the bar line without changing the underlying five-beat pattern.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
+      "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, pp. 11–13: opening cello melody, wind accompaniment and the five-beat dance. https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
     },
     {
       "t": 119,
       "kind": "life",
-      "title": "The last movement sketched",
-      "text": "The surviving sketches indicate that this second movement was the last of the four to be drafted. Concert order and order of composition are not the same.",
+      "title": "The last page of sketches",
+      "text": "At the end of this movement’s sketches, Tchaikovsky writes: “Today 24 March finished the rough sketches completely!!!” It is 1893, and he has already drafted the other three movements. The gentle dance is the last piece of the symphony to fall into place.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
+      "evidence": "Tchaikovsky’s inscription in the second-movement sketches, dated 24 March 1893 Old Style (5 April New Style); composition order documented at https://en.tchaikovsky-research.net/pages/Symphony_No._6."
     },
     {
-      "t": 159,
-      "kind": "listen",
-      "title": "Plucked and sustained",
-      "text": "Pizzicato strings give an accompaniment a short release, while bowed melody and wind notes can continue across it. Listen to those contrasting lengths rather than only to the tune.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
-    },
-    {
-      "t": 198,
+      "t": 154,
       "kind": "form",
-      "title": "A darker middle",
-      "text": "The central section moves from D major to B minor without abandoning the five-beat framework. The change of mode and accompaniment transforms the dance more than a new metre would.",
-      "basis": "general",
+      "title": "The timpani stay on D",
+      "text": "The middle turns to B minor. Flute, first violins and cellos carry a descending melody while timpani and double basses repeat D beneath it. Tchaikovsky’s marking asks for sweetness and a plaintive voice: <i>con dolcezza e flebile</i>.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
+      "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 14, reproduces the middle-section score; the expression marking is discussed in Harlow Robinson’s note, https://www.bso.org/works/tchaikovsky-symphony-no-6."
     },
     {
-      "t": 238,
-      "kind": "music",
-      "title": "A persistent foundation",
-      "text": "In the middle section, repeated timpani notes help sustain a pedal beneath the melody. A pedal keeps one pitch present while the harmony above it changes.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
-    },
-    {
-      "t": 278,
-      "kind": "world",
-      "title": "Grace is written down",
-      "text": "The heading is “Allegro con grazia” — fast, with grace. The middle section adds “con dolcezza e flebile”, asking for sweetness and a plaintive character within the same movement.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
-    },
-    {
-      "t": 317,
-      "kind": "listen",
-      "title": "Repeated notes, changing harmony",
-      "text": "When the bass or percussion repeats a pitch, attend to the moving notes above it. A stationary foundation can make the upper harmony seem more unsettled rather than more secure.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
-    },
-    {
-      "t": 357,
+      "t": 294,
       "kind": "form",
-      "title": "The dance returns",
-      "text": "The outer D-major material returns after the minor-key middle. Compare the familiar melodic contour with the darker passage that has intervened.",
-      "basis": "general",
+      "title": "D major again",
+      "text": "The opening dance returns in D major. Its tune still fits five beats with extraordinary ease, and the plucked accompaniment puts spring back beneath the long notes.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
+      "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, pp. 11–14, describes the return of the opening dance. Tonal plan: https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)."
     },
     {
-      "t": 403,
+      "t": 416,
       "kind": "music",
-      "title": "A matching later crest",
-      "text": "The returning dance has its own strong rise and retreat. Compare its scale with the earlier swell before the minor-key middle.",
-      "basis": "audio-feature",
+      "title": "Woodwinds on the way down",
+      "text": "Descending woodwind scales lead into the coda. The middle section’s falling phrases return to the D-major dance, softened for the close.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/tchaikovsky-6-allegro-grazia.txt: Level reaches about −5 dB at 6:45, then falls to −22 dB by 6:55."
-    },
-    {
-      "t": 436,
-      "kind": "life",
-      "title": "Published after the premiere",
-      "text": "Jurgenson issued the full score in February 1894, after Tchaikovsky’s death. His own piano-duet arrangement had appeared earlier, in November 1893.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
-    },
-    {
-      "t": 476,
-      "kind": "listen",
-      "title": "A measured departure",
-      "text": "Follow the closing phrases without letting the five-beat pulse become a three-beat waltz. The movement’s gentleness does not cancel the asymmetry that organised its opening.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
+      "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 14: descending woodwind scales and the coda’s recollection of the middle section. https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
     }
   ],
   "transitions": [
     {
       "id": "join-1",
-      "title": "The dance turns inward",
-      "from": "Five-beat dance",
-      "to": "Minor-key middle · approximate",
-      "at": {
-        "t": 154
-      },
-      "span": [
-        144,
-        169
-      ],
-      "how": "<p>The outer dance relaxes after its crest. The central B-minor span retains five beats but sets a more plaintive melody above repeated D notes, including the timpani; altered mode and articulation create the contrast.</p>",
-      "devices": [
-        "decrescendo",
-        "texture change"
-      ],
+      "title": "Five beats over a single note",
+      "from": "A · Cellos dance in five",
+      "to": "B · B minor over repeated D",
+      "at": { "t": 154 },
+      "span": [144, 169],
+      "how": "<p>The D-major dance turns towards B minor. Timpani and double basses settle on repeated D, while flutes, first violins and cellos descend above them. The five-beat bar stays intact; the new marking, <i>con dolcezza e flebile</i>, asks for sweetness and plaintiveness.</p>",
+      "devices": ["texture change", "orchestration change", "decrescendo"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/tchaikovsky-6-allegro-grazia.txt: Strong boundaries at 2:34 and 2:40 follow the 2:20–2:25 crest; the bass estimate remains D through most of the middle. Written design: https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
+      "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 14; marking in Harlow Robinson’s programme note, https://www.bso.org/works/tchaikovsky-symphony-no-6."
     },
     {
       "id": "join-2",
-      "title": "The outer motion returns",
-      "from": "Minor-key middle · approximate",
-      "to": "Dance returns · approximate",
-      "at": {
-        "t": 294
-      },
-      "span": [
-        284,
-        309
-      ],
-      "how": "<p>The persistent middle-section foundation gives way to the dance’s more mobile accompaniment and returning D-major melody. The five-beat metre remains unchanged; the return is articulated through texture and thematic identity.</p>",
-      "devices": [
-        "motivic link",
-        "texture change"
-      ],
+      "title": "The dance regains D major",
+      "from": "B · B minor over repeated D",
+      "to": "A′ · The D-major dance returns",
+      "at": { "t": 294 },
+      "span": [284, 309],
+      "how": "<p>The repeated bass note releases its hold, and the opening tune returns in D major with its plucked string accompaniment. The melody stretches across the same two-plus-three bar that carried the B-minor middle.</p>",
+      "devices": ["motivic link", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/tchaikovsky-6-allegro-grazia.txt: A boundary at 4:54 coincides with rising onset density after the comparatively sustained middle. Written design: https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
+      "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, pp. 11–14; D-major reprise in https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)."
     },
     {
       "id": "join-3",
-      "title": "After the second crest",
-      "from": "Dance returns · approximate",
-      "to": "Coda · approximate",
-      "at": {
-        "t": 416
-      },
-      "span": [
-        406,
-        431
-      ],
-      "how": "<p>After the returning dance builds to another crest, the coda reduces its force. The score recalls the middle’s plaintive colour within the D-major close instead of ending with an unchanged full statement of the dance.</p>",
-      "devices": [
-        "decrescendo",
-        "motivic link",
-        "texture change"
-      ],
+      "title": "Falling scales soften the close",
+      "from": "A′ · The D-major dance returns",
+      "to": "Coda · Falling woodwind scales",
+      "at": { "t": 416 },
+      "span": [406, 431],
+      "how": "<p>Woodwinds descend in scales as the returning dance quietens. The coda recalls the middle section’s falling phrases within the D-major close; the five-beat accompaniment carries on beneath them.</p>",
+      "devices": ["decrescendo", "motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/tchaikovsky-6-allegro-grazia.txt: The 6:45 crest drops markedly by 6:55; the strongest measured boundary is 6:56, followed by a quieter closing span. Written design: https://en.tchaikovsky-research.net/pages/Symphony_No._6 Score: https://archive.org/download/Cantorion_sheet_music_collection_2/d450a4b450eded96239c50fdf958f258.pdf"
+      "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 14. https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
     }
   ],
   "orchestra": {

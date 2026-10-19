@@ -1,0 +1,162 @@
+{
+  "id": "rossini-barber-overture",
+  "work": {
+    "title": "Il barbiere di Siviglia",
+    "catalogue": "",
+    "movement": "Overture",
+    "version": {
+      "value": "Orchestral overture",
+      "status": "documented",
+      "sourceIds": ["sleeve", "score"],
+      "note": "The LP identifies the overture. The particular edition and orchestral parts used in the session are not established. The historical Ricordi score supplies the listening guide’s broad formal divisions, not a claim of bar-by-bar alignment."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Chicago Symphony Orchestra", "role": "orchestra" },
+      { "name": "Fritz Reiner", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["sleeve", "archive"],
+    "note": "Named on the original RCA sleeve. Individual orchestral players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": "1958-11-22",
+      "status": "documented",
+      "sourceIds": ["session-review"],
+      "note": "The dated review of RCA’s reissue gives this session date for the Rossini programme. This is distinct from the 1959 LP publication and the 2021 transfer; a particular session take has not been established.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Orchestra Hall, Chicago, Illinois, United States",
+      "status": "documented",
+      "sourceIds": ["session-review"],
+      "note": "The reissue review names the recording venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "RCA Victor Red Seal",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive"],
+      "note": "Original US mono LP, not a later Living Stereo CD or SACD."
+    },
+    "catalogue": {
+      "value": "LM 2318 — Rossini Overtures",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive"],
+      "note": "The sleeve bears LM-2318 and © RCA 1959; the Internet Archive catalogue dates this issue to 1959."
+    },
+    "matrixTakeSides": {
+      "value": "Side 2, band 1",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive-files"],
+      "note": "The sleeve’s running order and the segmented filename agree. The runout matrix, stamper, session take and original tape number are not established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP transfer",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Attributed to the institution; the source’s operator-account address is not reproduced. The original sleeve separately credits Richard Mohr as musical director and Lewis Layton as recording engineer; those are not digital-transfer credits."
+    },
+    "date": {
+      "value": "2021-11-12",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item’s ripping_date is 20211112022420. Its 27 October 2021 scan date records a different event."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable with Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; segmented VBR MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "The source documents this playback and digitisation chain. Equalisation, pitch correction, noise reduction and any further restoration settings are not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0/disc1/02.01.%20The%20Barber%20Of%20Seville.mp3",
+    "sourceChain": ["sleeve", "archive", "archive-files"],
+    "format": "VBR MP3 derivative of a mono vinyl LP transfer",
+    "durationSeconds": 423.02
+  },
+  "rights": {
+    "composition": {
+      "value": "Rossini’s underlying composition is out of copyright under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": ["composer", "work-catalogue", "score"],
+      "note": "Rossini died in 1868. The overture originated in Aureliano in Palmira in 1813 and was reused in Elisabetta in 1815 and Barber in 1816. This assessment does not clear unidentified modern editions."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: documented commercial publication in 1959, before 1963.",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve", "eu-term"],
+      "note": "Selected under the project’s eu-published-before-1963 rule. The pre-extension fifty-year term had expired before 1 November 2013. This is not a worldwide public-domain claim, a Creative Commons licence, or a claim that the 1959 recording is out of copyright in the United States."
+    },
+    "creditLine": "Gioachino Rossini — Il barbiere di Siviglia, Overture. Chicago Symphony Orchestra; Fritz Reiner. RCA Victor Red Seal LM 2318 (1959); LP transfer from Internet Archive.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Rossini Overtures, RCA Victor Red Seal LM 2318 — item metadata",
+      "url": "https://archive.org/metadata/lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0/metadata",
+      "locator": "Publication date, label, catalogue, lineage, ripping_date and ripping_operator",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive: Rossini Overtures — file manifest",
+      "url": "https://archive.org/metadata/lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0/files",
+      "locator": "disc1/02.01. The Barber Of Seville.mp3; VBR MP3; 423.02 seconds",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "sleeve",
+      "title": "RCA Victor Red Seal LM-2318: original sleeve transcription",
+      "url": "https://archive.org/download/lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0/lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0_djvu.txt",
+      "locator": "Side 2 running order; performer and production credits; © RCA 1959",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "session-review",
+      "title": "Peter J. Lawson: Rossini Overtures, Reiner and the Chicago Symphony Orchestra — MusicWeb International, June 2005",
+      "url": "https://www.musicweb-international.com/classrev/2005/june05/Rossini_overtures_82876658442.htm",
+      "locator": "Recording information: Orchestra Hall, Chicago, 22 November 1958",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Rossini: Il barbiere di Siviglia, Act I — Ricordi full score, Dover reprint",
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/c/c8/IMSLP517981-PMLP7237-Rossini_-_Il_barbiere_di_Siviglia_-_Act_I_(orch._score)_(etc).pdf",
+      "locator": "Sinfonia, printed/PDF pp. 1–22; Andante maestoso, Allegro vivo and Più mosso",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP: Il barbiere di Siviglia — work catalogue",
+      "url": "https://imslp.org/wiki/Il_barbiere_di_Siviglia_(Rossini,_Gioachino)",
+      "locator": "General information and overture reuse note",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "composer",
+      "title": "Rossini Opera Festival: Gioachino Rossini — biographical sketch and opera chronology",
+      "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/",
+      "locator": "1813, 1815, 1816 and 1868 entries",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU amending Directive 2006/116/EC on the term of protection",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Article 1; amended Article 3 and Article 10(5), transitional protection on 1 November 2013",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

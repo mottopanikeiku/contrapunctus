@@ -1,25 +1,27 @@
 {
   "id": "liszt-rhapsody-opening",
-  "title": "One rhapsody, piano and orchestra",
+  "title": "Liszt’s rhapsody leaves the keyboard",
   "composer": "liszt",
   "group": "century",
   "work": "Hungarian Rhapsody No. 2, S. 244/2 — shared opening",
-  "question": "What changes when Liszt’s opening gestures pass from Rachmaninoff’s piano to two orchestras?",
-  "intro": "Rachmaninoff’s 1919 Edison side is the piano original; the 1936 Stokowski source credits Karl Müller-Berghaus’s orchestration, while Goehr’s 1945 source leaves the arranger unidentified. Only the shared opening is compared, using each recording’s first side without concatenation. Analysis shifts the orchestral pitch-class features by one semitone, not the playback audio; Goehr’s alignment has median confidence 0.788 and should be used with caution, not for precise tempo claims.",
+  "question": "What happens to Liszt’s pauses and flourishes when one pianist becomes a whole orchestra?",
+  "intro": "Liszt opens with a summons: accented chords, pauses and quick little flourishes. Rachmaninoff plays the piano original, while Stokowski’s Philadelphia players use Karl Müller-Berghaus’s orchestration. Goehr adds a London performance from Kingsway Hall; all three meet in the opening of their first disc sides.",
   "recordings": [
-    { "listen": "liszt-rhapsody-2-rachmaninoff-side1", "label": "Rachmaninoff, 1919 · side 1", "year": 1919, "note": "Hear the separately struck piano gestures; this Edison file is part I only." },
-    { "listen": "liszt-rhapsody-2-stokowski-side1", "label": "Stokowski, 1936 · side 1", "year": 1936, "note": "Compare the sustained orchestral weight; the source credits Müller-Berghaus’s arrangement." },
-    { "listen": "liszt-rhapsody-2-goehr-side1", "label": "Goehr, 1945 · side 1", "year": 1945, "note": "Compare the opening orchestral phrasing cautiously: the lower-confidence map cannot support precise timing conclusions." }
+    { "listen": "liszt-rhapsody-2-rachmaninoff-side1", "label": "Sergei Rachmaninoff, 1919", "year": 1919, "note": "Rachmaninoff plays Liszt’s solo original for Edison, in his first year of gramophone recording." },
+    { "listen": "liszt-rhapsody-2-stokowski-side1", "label": "Leopold Stokowski, Philadelphia Orchestra, 1936", "year": 1936, "note": "Philadelphia plays Karl Müller-Berghaus’s orchestration, spreading Liszt’s piano writing across an orchestra." },
+    { "listen": "liszt-rhapsody-2-goehr-side1", "label": "Walter Goehr, National Symphony Orchestra of London, 1945", "year": 1945, "note": "Goehr recorded the National Symphony Orchestra of London at Kingsway Hall in 1945." }
   ],
   "reference": "liszt-rhapsody-2-rachmaninoff-side1",
   "passages": [
-    { "label": "Opening gestures", "t": 8, "note": "The semitone adjustment applies only to alignment features; original playback pitch is unchanged." },
-    { "label": "The opening gathers weight", "t": 32, "note": "The piano report shows increasing recorded weight; compare phrasing without equating transfer volume with performance dynamics." },
-    { "label": "Early broad crest", "t": 48, "note": "This lies within the common opening. Later side contents are deliberately excluded from the alignment." }
+    { "label": "The opening call", "t": 8, "note": "Accented chords punctuate a winding line; short flourishes dart between the broad notes." },
+    { "label": "The slow dance", "t": 32, "note": "The slow melody unfolds above a repeated bass figure, with little turns tucked between its longer notes." },
+    { "label": "Chords beneath the melody", "t": 48, "note": "The melody grows fuller in chords, while the bass keeps its heavy tread." }
   ],
   "sources": [
     { "title": "Rachmaninoff — Edison 82169-R, part I", "url": "https://commons.wikimedia.org/wiki/File:Second_Hungarian_Rhapsody.ogg" },
     { "title": "Stokowski — 1936 recording, July 1937 release", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac" },
-    { "title": "Goehr — Kingsway Hall, 1945, first side", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London,_Walter_Goehr_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Decca-k1321-ar9230.flac" }
+    { "title": "Goehr — Kingsway Hall, 1945, first side; the source does not identify an arranger", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London,_Walter_Goehr_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Decca-k1321-ar9230.flac" },
+    { "title": "Liszt — piano score, edited by Homer N. Bartlett: opening call and Lassan, first page", "url": "https://vmirror.imslp.org/files/imglnks/usimg/5/5b/IMSLP00374-Liszt_-_Hungarian_Rhapsody_02.pdf" },
+    { "title": "Rachmaninoff Performance Diary — first Edison sessions and ten released recordings", "url": "https://rachmaninoffdiary.com/diary-entry/gramophone-recording" }
   ]
 }

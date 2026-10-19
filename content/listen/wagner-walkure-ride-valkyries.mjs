@@ -12,203 +12,84 @@ export default {
   "source": {
     "file": "File:Richard Wagner - Ride of the Valkyries.ogg"
   },
-  "intro": "The beginning of <i>Die Walküre</i>’s third act turns a rocking compound pulse into the Valkyries’ riding music. This short acoustic Edison record presents an orchestral concert excerpt, not the full scene with its Valkyrie voices.",
-  "question": "How does the rocking accompaniment keep the tune airborne between its statements?",
+  "intro": "Wagner’s Valkyries arrive on rushing strings and a loping brass tune. This 1921 Edison disc gives their ride four breathless minutes.",
   "sections": [
     {
       "t": 0,
-      "label": "Opening accumulation",
-      "m": "Intro"
+      "label": "Intro · Strings gather for the ride",
+      "m": "Intro",
+      "mNote": "Upward string runs pass beneath the woodwind"
     },
     {
       "t": 48,
-      "label": "First broad span",
-      "m": "A"
+      "label": "A · The brass riding tune",
+      "m": "A",
+      "mNote": "The broad tune rides above the quick accompaniment"
     },
     {
       "t": 80,
-      "label": "A lighter interval",
-      "m": "B"
+      "label": "B · The gallop carries on",
+      "m": "B",
+      "mNote": "The accompaniment keeps its three-beat swing"
     },
     {
       "t": 164,
-      "label": "Renewed late surges",
-      "m": "A′"
+      "label": "A′ · Brass calls and racing strings",
+      "m": "A′",
+      "mNote": "Long brass notes stand above the strings’ quicker figures"
     },
     {
       "t": 240,
-      "label": "Concert close",
-      "m": "Coda"
+      "label": "Coda · The ride ends",
+      "m": "Coda",
+      "mNote": "The orchestral ride reaches the end of the disc"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A rocking foundation",
-      "text": "The written riding music sets a strongly profiled tune against a restless compound-time accompaniment. Follow the underlying swing before concentrating on the famous melody; this orchestral excerpt removes the Valkyries’ sung calls.",
-      "basis": "general",
+      "title": "Strings take to the air",
+      "text": "The strings fling short runs upwards, one group answering another. Woodwind notes hang over them. Wagner writes 9/8: three broad beats, each divided into three, giving the coming brass tune its loping stride.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General description of the Act III opening. The NPS source identifies the orchestral Edison excerpt, not a vocal performance."
+      "evidence": "Wagner, Der Ritt der Walküren, Schott concert full score, plate 22159, pp. 2–3: 9/8, upward string figures and woodwind entries. https://s9.imslp.org/files/imglnks/usimg/4/4a/IMSLP1006817-PMLP4725-ROTV2.pdf. The precise edition and cuts used on the Edison disc are unidentified."
     },
     {
       "t": 32,
       "kind": "world",
-      "title": "An Edison orchestra",
-      "text": "The National Park Service dates this American Symphony Orchestra recording to 1921 and its release to December of that year. The name identifies an early recording ensemble, not the orchestra founded by Leopold Stokowski in 1962.",
+      "title": "A mountain on a disc",
+      "text": "The American Symphony Orchestra records the <i>Ride</i> for Edison in 1921. Buyers can take it home that December on Diamond Disc 80638-R: a small piece of Wagner’s mountain, with the orchestra carrying the scene alone.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://www.nps.gov/edis/learn/photosmultimedia/classical-instrumental.htm documents recording and release dates; no conductor is credited. The modern orchestra’s foundation is a separate institutional identity."
+      "evidence": "Thomas Edison National Historical Park recording catalogue: recorded 1921, released December 1921; Edison Diamond Disc 80638-R, matrix 7846-B-1-6, object EDIS 41877. https://www.nps.gov/edis/learn/photosmultimedia/classical-instrumental.htm."
     },
     {
       "t": 64,
-      "kind": "listen",
-      "title": "Two layers of motion",
-      "text": "Across the riding music, distinguish the broad tune from the quicker accompaniment beneath it. The tune can sustain or repeat a note while the underlying figure keeps the motion continuous.",
+      "kind": "music",
+      "title": "The tune has long legs",
+      "text": "The riding tune stretches dotted notes across the busy accompaniment. Its long-short rhythm gives each phrase a kick; the strings keep rushing while the brass hold their ground. The two speeds are what make this music feel airborne.",
       "basis": "general",
       "precision": "passage",
-      "evidence": "General listening prompt about the riding theme’s characteristic layered texture; no instrumental entrance is claimed for 1:04."
-    },
-    {
-      "t": 96,
-      "kind": "music",
-      "title": "Less weight then renewed force",
-      "text": "The recorded level falls in the preceding stretch, then rises again. Listen for the riding character to remain recognisable when the texture is less forceful; intensity and thematic identity are different things.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −13.4 dB at 1:15, −20.4 at 1:20 and −22.6 at 1:30, then −11.6 at 1:45."
+      "evidence": "Schott concert full score, pp. 3–6, dotted riding figure and quicker string accompaniment. This note describes the recurring theme, without assigning an entrance to this timestamp."
     },
     {
       "t": 128,
       "kind": "world",
-      "title": "Before the complete Ring",
-      "text": "<i>Die Walküre</i> first reaches the stage in Munich in 1870, six years before the complete <i>Ring</i> cycle at Bayreuth. The concert excerpt gives the riding music an independent life outside its dramatic setting.",
+      "title": "The sisters gather their dead",
+      "text": "At the opening of Act III, the Valkyries assemble on a mountain with the dead heroes they have collected for Wotan. Their greetings cross the orchestral gallop. These riders have work to do, and the scene is full of voices calling from one rock to another.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Wagner work chronology in the site biography; https://en.wikipedia.org/wiki/Die_Walk%C3%BCre documents Munich 1870 and Bayreuth 1876."
-    },
-    {
-      "t": 160,
-      "kind": "form",
-      "title": "Surges replace a steady plateau",
-      "text": "The later part alternates stronger attacks with local withdrawals instead of simply remaining loud. Track those changes against the continuing pulse: each fresh increase can renew the riding gesture without introducing a new tune.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundaries 2:44, 2:52 and 3:02; levels alternate −12.4 at 2:40, −18 at 2:45, −11.5 at 2:50 and −19.5 at 3:00."
-    },
-    {
-      "t": 192,
-      "kind": "music",
-      "title": "The late crest",
-      "text": "This late span contains the recording’s strongest measured window. Compare its weight with the earlier statements, while keeping the accompaniment’s motion in the foreground of your attention.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: loudest five-second window at 3:05, −10.8 dB; the following 3:20 span remains strong at −11.8 dB."
+      "evidence": "Wagner, Die Walküre, Act III, scene 1, stage directions and Valkyries’ dialogue; synopsis at https://en.wikipedia.org/wiki/Die_Walk%C3%BCre. Dramatic context: the voices are absent from this orchestral disc."
     },
     {
       "t": 224,
       "kind": "world",
-      "title": "A processed historical transfer",
-      "text": "The current Commons file credits hiss reduction and equalisation, with a beat removed near the start. Those transfer decisions belong to the digital copy, not to Wagner’s score or an instruction for the 1921 players.",
+      "title": "Brünnhilde brings someone living",
+      "text": "Brünnhilde arrives carrying Sieglinde, a living woman she has rescued against Wotan’s command. Her sisters recoil from helping her. The exhilarating ride leads straight into a family quarrel with a human life at stake.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Commons current-file upload history and description: https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Ride_of_the_Valkyries.ogg; Adam Cuerden’s noise-removal/equalisation version."
-    },
-    {
-      "t": 246,
-      "kind": "listen",
-      "title": "An ending made for the excerpt",
-      "text": "The concert extract reaches its own stopping point. In the opera, the Valkyries’ gathering belongs to a continuing scene; here the final attacks and their decay close a single record-length performance.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "NPS identifies “The Valkyrie—Ride of the Valkyries”, Edison 80638-R. Analysis falls from −13.8 dB at 4:05 to −49.9 dB at 4:15. Exact arranger and cuts are unestablished."
-    }
-  ],
-  "transitions": [
-    {
-      "id": "first-span",
-      "title": "Accumulation opens into a broad statement",
-      "from": "Opening accumulation",
-      "to": "First broad span",
-      "at": {
-        "t": 48
-      },
-      "span": [
-        38,
-        60
-      ],
-      "how": "<p>A rising recorded level carries the opening into the first sustained strong span. The riding theme and its quicker accompaniment work at different rhythmic scales, so the broader melodic statement does not cancel the underlying motion. The precise acoustic arrangement is unidentified.</p>",
-      "devices": [
-        "crescendo build",
-        "texture change"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundaries at 0:40 and 0:48; level rises from −32.8 dB at the start to approximately −13 dB by 0:25–0:50."
-    },
-    {
-      "id": "lighter-interval",
-      "title": "The intensity recedes without stopping",
-      "from": "First broad span",
-      "to": "A lighter interval",
-      "at": {
-        "t": 80
-      },
-      "span": [
-        70,
-        92
-      ],
-      "how": "<p>The sound loses weight after the first broad span, making room for a later renewal. The contrast lies in changing weight and texture while the excerpt continues.</p>",
-      "devices": [
-        "decrescendo",
-        "texture change"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundary 1:20 and lower levels at 1:20–1:30; no individual harmonic event is inferred from chroma."
-    },
-    {
-      "id": "late-surges",
-      "title": "A continuing pulse supports renewed surges",
-      "from": "A lighter interval",
-      "to": "Renewed late surges",
-      "at": {
-        "t": 164
-      },
-      "span": [
-        154,
-        176
-      ],
-      "how": "<p>The later span renews its force through successive rises separated by brief reductions. Familiar rhythmic material links the surges, while the alternation of lighter and heavier textures refreshes the broad riding gesture.</p>",
-      "devices": [
-        "motivic link",
-        "crescendo build",
-        "texture change"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis strongest boundary at 2:44, with further changes at 2:52 and 3:02; passage-level description."
-    },
-    {
-      "id": "excerpt-close",
-      "title": "The concert span reaches its close",
-      "from": "Renewed late surges",
-      "to": "Concert close",
-      "at": {
-        "t": 240
-      },
-      "span": [
-        230,
-        252
-      ],
-      "how": "<p>The late strong span gives way to the excerpt’s closing gestures and their decay.</p>",
-      "devices": [
-        "texture change",
-        "decrescendo"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundary 4:00, relatively strong windows through 4:05, then falling level and near-silence by 4:15. The source establishes a self-contained orchestral record but not its arranger; a particular operatic bar or concert-ending cadence is not assigned to this boundary."
+      "evidence": "Wagner, Die Walküre, Act III, scene 1; synopsis at https://en.wikipedia.org/wiki/Die_Walk%C3%BCre. This is the surrounding opera’s action, not a synchronisation of the shortened recording with Brünnhilde’s entrance."
     }
   ]
 };

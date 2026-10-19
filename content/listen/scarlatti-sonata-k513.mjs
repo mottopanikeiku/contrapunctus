@@ -1,0 +1,47 @@
+export default {
+  id: 'scarlatti-sonata-k513',
+  composer: 'scarlatti',
+  order: 3,
+  work: 'Sonata in C major, K. 513, “Pastorale”',
+  movement: 'Moderato – Molto allegro; Presto',
+  year: '1756, Venice manuscript copy',
+  key: 'C major',
+  forces: 'Solo harpsichord',
+  performers: 'Eliza Hansen, harpsichord',
+  recorded: '22–23 October 1953, Beethovensaal, Hannover',
+  source: { file: 'File:Domenico Scarlatti - Sonate en ut majeur Kk.513 (Eliza Hansen 1953).flac' },
+  intro: 'Scarlatti’s pastoral C-major sonata begins with a lilting melody, quickens into a rustic dance and finishes with racing semiquavers. Eliza Hansen plays the complete two-movement work on harpsichord.',
+  sections: [
+    { t: 0, label: 'A · Pastorale in twelve-eight', m: 'A' },
+    { t: 64, label: 'B · Molto allegro, repeated bass chords', m: 'B' },
+    { t: 129, label: 'A · The pastorale returns', m: 'A' },
+    { t: 194, label: 'B · The quicker dance again', m: 'B' },
+    { t: 259, label: 'C · Presto in three-eight', m: 'C', mNote: 'Running semiquavers pass between the hands' },
+  ],
+  cues: [
+    {
+      t: 0, kind: 'music', title: 'A pastoral lilt',
+      text: 'Scarlatti marks the opening <i>Pastorale</i> and <i>Moderato</i>. Its twelve-eight metre gives the melody a gentle lilt; little dotted figures pass between the hands. Flats and sharps soon disturb the opening C major.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Scarlatti, Sonata K. 513, Pierre Gouin edition (2013), p. 1: title, Moderato, twelve-eight and chromatic writing in bars 3–16. https://s9.imslp.org/files/imglnks/usimg/f/f0/IMSLP292935-PMLP475319-Scarlatti_Sonate_K.513.pdf',
+    },
+    {
+      t: 72, kind: 'music', title: 'The bass starts dancing',
+      text: 'The <i>Molto allegro</i> keeps the twelve-eight metre but plants repeated bass chords beneath the melody. Short replies in the right hand give the pastoral tune a sharper, dancing tread.',
+      basis: 'score-proportion', precision: 'passage',
+      evidence: 'Gouin edition, p. 2, bars 17–35: Molto allegro within the first movement, repeated bass notes and chords. Giulio d’Amore relates the passage to southern Italian pastoral playing. https://www.flaminioonline.it/Guide/Scarlatti/Scarlatti-Sonata513.html',
+    },
+    {
+      t: 150, kind: 'world', title: 'The queen’s last pages',
+      text: 'A copy made in 1756 closes the twelfth Venice volume of Scarlatti’s sonatas. The manuscript was prepared for Maria Bárbara, Queen of Spain; this pastorale occupies its final pages.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'The work’s manuscript catalogue identifies Venice XII, no. 30, Ms. 9783, dated 1756 and copied for Maria Bárbara. https://fr.wikipedia.org/wiki/Sonate_K._513',
+    },
+    {
+      t: 268, kind: 'form', title: 'Presto: the hands take turns',
+      text: 'The second movement switches to three-eight and <i>Presto</i>. Semiquaver runs pass from the right hand to the left, while the other hand holds a note or answers in shorter phrases. The pastoral song ends in a rush of keyboard playing.',
+      basis: 'score-proportion', precision: 'passage',
+      evidence: 'Gouin edition, pp. 3–4, from bar 36: Presto in three-eight, alternating semiquaver passages and sustained notes. IMSLP lists Pastorale and Presto as the sonata’s two movements. https://imslp.org/wiki/Keyboard_Sonata_in_C_major,_K.513_(Scarlatti,_Domenico)',
+    },
+  ],
+};

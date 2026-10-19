@@ -18,137 +18,91 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, IV (Fischer-Dieskau, Kempe, 1955).ogg"
   },
-  "intro": "The parent first imagines that the children have merely gone for a walk, then that they have gone ahead to another world. Mahler repeats and alters a short stanza pattern, keeping the accompaniment moving beneath each attempted reassurance.",
-  "question": "What changes in a repeated melody when “gone out” becomes “gone ahead”?",
+  "intro": "The children have only gone for a walk; soon they will come home. Dietrich Fischer-Dieskau sings the fourth <i>Kindertotenlied</i> with Rudolf Kempe and the Berlin Philharmonic, as the same tune slowly changes what those comforting words mean.",
   "sections": [
     {
       "t": 0,
-      "label": "First stanza · only gone out",
+      "label": "A · They have only gone out",
       "m": "A",
-      "mNote": "horn and string lines frame the first reassurance"
+      "mNote": "Horn and strings above moving cellos"
     },
     {
       "t": 54,
-      "label": "Second stanza · reassurance repeated",
+      "label": "A′ · They will come home",
       "m": "A′",
-      "mNote": "the vocal outline returns with changed instrumental support"
+      "mNote": "Clarinet and bassoon accompany the renewed promise"
     },
     {
       "t": 110,
-      "label": "Last stanza · gone ahead",
+      "label": "A″ · They have gone ahead",
       "m": "A″",
-      "mNote": "the repeated idea leads towards a larger final rise"
+      "mNote": "The same tune carries the changed words"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Movement beneath reassurance",
-      "text": "Horn and strings shape the opening above a steady lower pulse. Listen for the short moving figures in the cellos: the accompaniment does not become motionless just because the poem speaks reassuringly.",
-      "basis": "documented",
+      "title": "A walk in the sunshine",
+      "text": "The horn and violins sing above little cello figures, with harp and plucked bass marking the steps. Fischer-Dieskau’s first thought is a familiar one: the children are out somewhere, and the day is fine. Mahler marks the music calmly moving, without haste.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Song IV, printed p. 48; the opening cello figure, horn line and harp/bass pulse are visible. This describes the opening passage rather than a single attack."
+      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), pp. 48–49: Ruhig bewegt, ohne zu eilen and Rückert’s first stanza. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
-      "t": 30,
-      "kind": "world",
-      "title": "A small verbal change",
-      "text": "The poem begins by imagining that the children have simply gone out and will return. Its last stanza changes that thought: they have gone ahead, and the parent will eventually follow them.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-lied-4-oft-denk-ich-sie-sind-nur-ausgegangen/ German text: ausgegangen becomes vorausgegangen. This is an overview of the poem, not a subtitle timed to a sung word."
-    },
-    {
-      "t": 60,
+      "t": 54,
       "kind": "form",
-      "title": "The reassurance starts again",
-      "text": "The second stanza recovers the first stanza’s melodic outline, but the accompaniment is not copied note for note. Compare the renewed vocal phrase with the instrumental figures that keep the line moving.",
+      "title": "Saying it again",
+      "text": "“Ja wohl, sie sind nur ausgegangen” — yes, surely, they have only gone out. The voice tries the thought again. Much of the orchestra falls silent, leaving clarinets and bassoon around the baritone’s familiar phrase.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 52, rehearsal 3. Both reports mark a change at 0:54 and renewed activity near 1:06. The stanza boundary is estimated, not word-aligned."
+      "evidence": "Kahnt full score, p. 52, rehearsal 3, a tempo; Rückert’s second stanza, our translation."
     },
     {
-      "t": 90,
-      "kind": "world",
-      "title": "A song published separately",
-      "text": "The piano-vocal version of this fourth song appears as a supplement to the <i>Neue Zeitschrift für Musik</i> on 10 May 1905. The complete cycle’s first editions follow later that year.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://www.mahlercat.org.uk/Pages/KtL/KtL.htm Chronology: separate publication on 10 May 1905, then full-score, part and vocal-score publication in August."
-    },
-    {
-      "t": 120,
-      "kind": "listen",
-      "title": "Variation within repetition",
-      "text": "In the last stanza, follow the returning vocal shape against the cello and woodwind lines. Repetition makes the changed words audible as a revision of the earlier thought, not the start of a different song.",
+      "t": 110,
+      "kind": "form",
+      "title": "One word changes",
+      "text": "“Ausgegangen” becomes “vorausgegangen”: gone out becomes gone ahead. The children will stay where they are; the parents will catch up with them. Fischer-Dieskau sings the familiar tune over the harp’s pulse and the cellos’ moving line.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 56, rehearsal 5. The report marks 1:50, then a rise from the quiet 1:55 window into the 2:02 change. These features support passage-level placement only."
-    },
-    {
-      "t": 150,
-      "kind": "life",
-      "title": "Before Mahler’s own loss",
-      "text": "Mahler completes the cycle in 1904. His daughter Maria dies in 1907; these songs are settings of Rückert’s bereavement, not a memorial composed after Maria’s death.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The composition range is documented in https://www.mahlercat.org.uk/Pages/KtL/KtL.htm; Mahler’s 1907 loss is recorded in the Mahler Foundation’s cycle introduction (https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/). The dates establish chronology, not a prophecy."
+      "evidence": "Kahnt full score, pp. 56–58, rehearsal 5; Rückert’s last stanza, our translations of ausgegangen and vorausgegangen."
     },
     {
       "t": 174,
-      "kind": "listen",
-      "title": "The final rise subsides",
-      "text": "The strongest late swell gives way to a short, quiet ending. Compare its rise with its withdrawal: the repeated stanza has accumulated more force before the instruments settle.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "The distant sunny heights",
+      "text": "The voice reaches the sunny heights of the last line, then the instruments complete the phrase. The horn sings softly, the harp resumes its steady notes, and the strings sink into a closing chord marked “morendo” — dying away.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The analysis identifies 2:40 as the loudest five-second window; level falls from −9.0 dB at 2:50 to −21.5 dB at 2:55 and −44.5 dB at 3:00. No final chord is identified from the machine key estimate."
+      "evidence": "Kahnt full score, p. 59, final vocal phrase and postlude. The existing closing cue marks this passage."
     }
   ],
   "transitions": [
     {
       "id": "renewed-reassurance",
-      "title": "The stanza returns in a thinner texture",
-      "from": "First stanza · only gone out",
-      "to": "Second stanza · reassurance repeated",
-      "at": {
-        "t": 54
-      },
-      "span": [
-        44,
-        66
-      ],
-      "how": "<p>After a brief slowing, the vocal outline begins again at the restored pace. Clarinet and bassoon writing comes forward while much of the string texture briefly falls away. The repeated phrase is recognisable, but the altered accompaniment makes the renewed reassurance an active attempt rather than a mechanical repeat.</p>",
-      "devices": [
-        "tempo change",
-        "texture change",
-        "motivic link"
-      ],
+      "title": "Clarinets carry the second promise",
+      "from": "A · They have only gone out",
+      "to": "A′ · They will come home",
+      "at": { "t": 54 },
+      "span": [44, 66],
+      "how": "<p>A brief <i>poco ritardando</i> closes the first stanza. At <i>a tempo</i>, the string parts empty out and clarinets take the moving phrase, with bassoon below. The voice restarts the tune on “Ja wohl”; the harp is silent at the join.</p>",
+      "devices": ["tempo change", "texture change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 52, rehearsal 3. Both reports identify a boundary at 0:54; the exact first word of the stanza is unaligned."
+      "evidence": "Kahnt full score, p. 52, rehearsal 3. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
       "id": "gone-ahead",
-      "title": "The same melody carries a changed claim",
-      "from": "Second stanza · reassurance repeated",
-      "to": "Last stanza · gone ahead",
-      "at": {
-        "t": 110
-      },
-      "span": [
-        100,
-        122
-      ],
-      "how": "<p>The third stanza retains the earlier melodic family while harp pulse and moving cello figures support it differently. Woodwinds and divided strings sustain and answer the voice. The score’s instruction not to hurry keeps the repeated material connected to its first appearance, even as the final ascent gives the thought a greater range.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "register change"
-      ],
+      "title": "The harp restores the pulse",
+      "from": "A′ · They will come home",
+      "to": "A″ · They have gone ahead",
+      "at": { "t": 110 },
+      "span": [100, 122],
+      "how": "<p>The third stanza begins <i>a tempo, Nicht eilen</i> — in tempo, without hurrying. The harp marks steady notes while bowed cellos keep the small running figure moving. Clarinets recall the tune above, and the voice is marked <i>schlicht</i> — plain — for the changed words “Sie sind uns nur vorausgegangen”.</p>",
+      "devices": ["motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 56–59, rehearsal 5 onwards. The 1:50 change and quiet 1:55 window supply the approximate stanza boundary. The rise is measured later, around 2:35–2:45."
+      "evidence": "Kahnt full score, p. 56, rehearsal 5. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     }
   ],
   "orchestra": {
@@ -171,7 +125,7 @@ export default {
     "source": {
       "title": "Mahler, Kindertotenlieder, full score (C. F. Kahnt, plate 4460)",
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425",
-      "locator": "Song IV, printed pp. 48–59; passage-level scoring, not an instantaneous list of sounding parts. Timings are provisional score proportions checked against the recording’s level changes; no bar alignment or aural verification."
+      "locator": "Song IV, printed pp. 48–59: horn, violins and moving cellos at the opening, clarinets at the second stanza and the quiet orchestral close."
     },
     "timeline": [
       {
@@ -189,7 +143,7 @@ export default {
           "horns",
           "cellos"
         ],
-        "note": "Opening passage: horn melody, moving cellos and string lines above harp and pizzicato bass."
+        "note": "Horn and violins share the tune above moving cellos, harp and plucked double basses."
       },
       {
         "t": 22,
@@ -208,7 +162,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The first vocal stanza develops the opening material amid changing wind and string support."
+        "note": "Fischer-Dieskau takes up the opening tune as the father imagines the children coming home."
       },
       {
         "t": 54,
@@ -223,7 +177,7 @@ export default {
           "solo-voice",
           "clarinets"
         ],
-        "note": "At the renewed stanza, clarinet figures and bassoon support emerge from a thinner texture."
+        "note": "Clarinets answer the singer above a bassoon line at the start of the second stanza."
       },
       {
         "t": 110,
@@ -241,7 +195,7 @@ export default {
           "solo-voice",
           "cellos"
         ],
-        "note": "Last-stanza passage: cello movement and the harp pulse continue beneath sustained wind and string lines."
+        "note": "Running cellos and the harp’s repeated notes accompany the last stanza."
       }
     ]
   }

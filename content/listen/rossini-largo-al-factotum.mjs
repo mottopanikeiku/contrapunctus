@@ -1,0 +1,58 @@
+export default {
+  id: 'rossini-largo-al-factotum',
+  composer: 'rossini',
+  order: 2,
+  work: 'Il barbiere di Siviglia',
+  movement: 'Act I · Largo al factotum',
+  year: '1816',
+  key: '',
+  forces: 'Baritone and orchestra',
+  performers: 'Titta Ruffo, baritone; Josef Pasternack, conductor',
+  recorded: '19 April 1920',
+  source: {
+    archive: {
+      item: 'loc-jukebox-188720-largo-al-factotum',
+      file: 'jukebox-188720_largo-al-factotum.mp3',
+    },
+    rights: {
+      basis: 'us-published-before-cutoff',
+      published: 1924,
+      evidence: 'Victor’s 1924 record catalogue lists Ruffo’s Largo al factotum on double-faced Victor 6263; the Library of Congress identifies its Victor 6263-A, the transfer heard here, as matrix C-23945-2, recorded at Camden on 19 April 1920. The recording was also issued on single-faced Victor 88391; that release date is not established. https://archive.org/details/catalogueofvicto00vict https://www.loc.gov/item/jukebox-188720/ https://tittaruffo.com/en/recordings/',
+    },
+  },
+  intro: 'Figaro arrives at dawn with a guitar round his neck and a magnificent opinion of himself. Titta Ruffo sings his entrance aria on a Victor acoustic recording made in 1920.',
+  sections: [
+    { t: 0, label: 'A · Figaro praises himself', m: 'A' },
+    { t: 94, label: 'B · The barber’s trade', m: 'B' },
+    { t: 142, label: 'C · The clamouring customers', m: 'C' },
+  ],
+  cues: [
+    {
+      t: 0,
+      kind: 'music',
+      title: 'The barber advertises himself',
+      text: 'The bouncing 6/8 carries Figaro’s self-portrait: always ready, always in demand, delighted with his trade. His name becomes a little fanfare of its own.',
+      basis: 'general',
+      precision: 'passage',
+      evidence: 'Ricordi full score, reprinted by Dover, pp. 54–61: Allegro vivace in 6/8, with Figaro’s repeated name and self-congratulations. https://ks15.imslp.org/files/imglnks/usimg/c/c8/IMSLP517981-PMLP7237-Rossini_-_Il_barbiere_di_Siviglia_-_Act_I_(orch._score)_(etc).pdf',
+    },
+    {
+      t: 80,
+      kind: 'world',
+      title: 'Razors, combs and lancets',
+      text: 'Sterbini equips Figaro with razors, combs, lancets and scissors. Shaving is only part of the business: this barber also lets blood and carries messages between lovers.',
+      basis: 'documented',
+      precision: 'passage',
+      evidence: 'Sterbini, Act I, scene 2: the inventory begins “Rasori e pettini”; the later recitative names Figaro’s services to the unmarried and widowed. In the Ricordi full score, p. 66, the customers’ calls include “presto il biglietto” (quick, the note). https://www.librettidopera.it/barb_siv/rid.html https://ks15.imslp.org/files/imglnks/usimg/c/c8/IMSLP517981-PMLP7237-Rossini_-_Il_barbiere_di_Siviglia_-_Act_I_(orch._score)_(etc).pdf',
+    },
+    {
+      t: 170,
+      kind: 'music',
+      title: 'A crowd in one voice',
+      text: 'Figaro acts out his customers’ demands himself: a wig, a shave, a bloodletting. The repeated calls of his name leave him pleading for one person at a time, before he boasts that he is as quick as lightning.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'Ricordi full score, reprinted by Dover, pp. 65–70: “Tutti mi chiedono”, the customers’ requests and repeated “Figaro” calls, followed by “Pronto prontissimo”. https://ks15.imslp.org/files/imglnks/usimg/c/c8/IMSLP517981-PMLP7237-Rossini_-_Il_barbiere_di_Siviglia_-_Act_I_(orch._score)_(etc).pdf',
+    },
+  ],
+};

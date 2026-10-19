@@ -1,58 +1,58 @@
 {
   "id": "rachmaninoff-prelude-c-sharp-minor",
-  "title": "Rachmaninoff records his Prelude three times",
+  "title": "Three bass notes, four performances",
   "composer": "rachmaninoff",
   "work": "Prelude in C-sharp minor, Op. 3 No. 2",
-  "question": "Where does the composer change pace between his Edison, acoustic Victor and electrical Victor recordings?",
-  "intro": "Rachmaninoff’s 1919 Edison performance is the timeline reference for his 1921 acoustic Victor and 1928 electrical remake, with Martin Wörner’s May 2005 recording as a modern counterpart. DAHR identifies the 1928 issued take 23, but Victor 814 can contain either of two 1921 takes and this transfer does not resolve which. The complete access files run about3:48, 3:30, 3:31 and 3:53 respectively; those lengths include leads and decays, while the maps compare musical position. Chroma feature transposition, where reported, changes alignment features only: no audio has been retuned.",
+  "question": "How do Rachmaninoff and Wörner turn three tolling bass notes into a rush of triplets and back again?",
+  "intro": "A–G♯–C♯: three low notes, followed by a hush. Rachmaninoff returned to the Prelude in the recording studio in 1919, 1921 and 1928, carrying its tolling chords from Edison to Victor. Martin Wörner’s 2005 performance places another pair of hands beside the composer’s.",
   "group": "composer-performers",
   "recordings": [
     {
       "listen": "rachmaninoff-prelude-c-sharp-minor",
-      "label": "Rachmaninoff, 1919 (Edison)",
+      "label": "Sergei Rachmaninoff, 1919",
       "year": 1919,
-      "note": "Composer at the piano; Edison transfer is the timeline reference."
+      "note": "Rachmaninoff plays his own Prelude for Edison, in the first year of his gramophone career."
     },
     {
       "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1921",
-      "label": "Rachmaninoff, 1921 (Victor)",
+      "label": "Sergei Rachmaninoff, 1921",
       "year": 1921,
-      "note": "Two issued takes share Victor 814; this pressing’s take remains unresolved. Compare the central span, not the crackle."
+      "note": "Rachmaninoff records the Prelude again for Victor in New York, two years after the Edison performance."
     },
     {
       "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1928",
-      "label": "Rachmaninoff, 1928 (electrical)",
+      "label": "Sergei Rachmaninoff, 1928",
       "year": 1928,
-      "note": "Issued take 23 is identified. Modern filtering and de-noising mean timbre is not an untouched record of his piano."
+      "note": "Rachmaninoff’s electrical remake was recorded in New York on 4 April; Victor released take 23."
     },
     {
       "listen": "rachmaninoff-prelude-c-sharp-minor-woerner-2005",
       "label": "Martin Wörner, 2005",
       "year": 2005,
-      "note": "Private recording by Tobias Lohner; modern explicitly licensed counterpart, with no documented piano model or venue."
+      "note": "Wörner plays in a private recording made by Tobias Lohner in May 2005."
     }
   ],
   "reference": "rachmaninoff-prelude-c-sharp-minor",
   "passages": [
     {
-      "label": "Opening bell figure",
+      "label": "Three notes, then quiet chords",
       "t": 5,
-      "note": "Compare the spacing between attacks and the following quiet phrase; avoid interpreting transfer noise as continued sound from the piano."
+      "note": "Three low notes, A–G♯–C♯, announce the piece. The answering chords fall to a whisper."
     },
     {
-      "label": "Central-span timing",
+      "label": "The melody inside the triplets",
       "t": 106,
-      "note": "Reference 1:46–2:18 maps to 28.8 seconds in 1921, 31.2 in 1928, and 33.9 in 2005. These are provisional stream timings; historical playback speed is unknown."
+      "note": "A descending melody runs inside the right hand’s triplets, while the left hand keeps changing the bass beneath it."
     },
     {
-      "label": "Chordal return",
+      "label": "Triplet chords drive towards the return",
       "t": 138,
-      "note": "The reference’s quieter transition into the renewed chordal span provides a shared landmark; note-exact onset has not been verified."
+      "note": "The triplets become thick chords, passed between the hands and driven down the keyboard towards the return of the opening theme."
     },
     {
-      "label": "Coda region",
+      "label": "The chords subside",
       "t": 192,
-      "note": "Follow the withdrawal and final resonance. The end of the digital file is not the same thing as the last keyboard attack."
+      "note": "The great chords subside over a low C♯; shorter answers and rests carry the Prelude towards its final quiet chord."
     }
   ],
   "sources": [
@@ -65,7 +65,7 @@
       "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700010909"
     },
     {
-      "title": "DAHR — Victor 814",
+      "title": "DAHR — Victor 814: issued takes 3 and 13; the supplied pressing’s take remains unresolved",
       "url": "https://adp.library.ucsb.edu/index.php/objects/refer/52653"
     },
     {
@@ -95,6 +95,14 @@
     {
       "title": "Edison reference — recording dossier",
       "url": "../sources.html#dossier-rachmaninoff-prelude-c-sharp-minor"
+    },
+    {
+      "title": "Rachmaninoff — Prelude score, Mutopia edition after Bosworth and Universal: opening octaves, triplets, four-stave return and coda",
+      "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf"
+    },
+    {
+      "title": "Rachmaninoff Performance Diary — the first Edison sessions in 1919",
+      "url": "https://rachmaninoffdiary.com/diary-entry/gramophone-recording"
     }
   ],
   "alignment": {

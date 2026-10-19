@@ -1,0 +1,30 @@
+{
+  "id": "gershwin",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Howard Pollack, *George Gershwin: His Life and Work* (University of California Press, 2007).",
+      "url": "https://www.ucpress.edu/books/george-gershwin/hardcover",
+      "kind": "biography",
+      "note": "How did the songs, concert works and opera grow out of Gershwin’s working life? A large documentary biography with separate chapters on the major scores and their reception."
+    },
+    {
+      "cite": "Larry Starr, *George Gershwin* (Yale University Press, 2011).",
+      "url": "https://gershwin.com/bibliographydiscographylinks/",
+      "kind": "study",
+      "note": "How does Gershwin’s musical language work in the Broadway theatre? A compact study in Yale’s Broadway Masters series, useful beside the larger biography."
+    },
+    {
+      "cite": "Ira Gershwin, *Lyrics on Several Occasions* (1959; Limelight reprint, 2004).",
+      "url": "https://gershwin.com/bibliographydiscographylinks/",
+      "kind": "memoir",
+      "note": "How were words fitted to George’s already-composed tunes? Ira explains his craft through lyrics, discarded ideas and the circumstances of particular songs."
+    },
+    {
+      "cite": "Richard Crawford, ‘George Gershwin’s “I Got Rhythm” (1930)’, in *The American Musical Landscape: The Business of Musicianship from Billings to Gershwin* (University of California Press, 1993), chapter 7.",
+      "url": "https://publishing.cdlib.org/ucpressebooks/public/book/the-american-musical-landscape-the-business-of-musicianship-from-billings-to-gershwin-updated-with-a-new-preface.html#d0e6504",
+      "kind": "chapter",
+      "note": "How did one show tune become a jazz standard and the harmonic basis of other compositions? Crawford follows performers and recordings as well as the Gershwins’ original song."
+    }
+  ]
+}

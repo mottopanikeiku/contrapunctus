@@ -18,76 +18,66 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme XIII. Romanza.ogg"
   },
-  "intro": "A quiet Romanza contains a recognisable quotation from Mendelssohn’s Calm Sea and Prosperous Voyage. Its three asterisks leave the dedicatee less certain than the other portraits.",
-  "question": "What can a quotation suggest without settling a person’s identity?",
+  "intro": "A clarinet quotes Mendelssohn’s <i>Calm Sea and Prosperous Voyage</i> over the distant throb of a liner’s engines. Elgar leaves three asterisks where his traveller’s name should be.",
   "sections": [
     {
       "t": 0,
-      "label": "Romanza · Moderato",
+      "label": "Var 13 · Clarinet over moving strings",
       "m": "Var 13",
-      "mNote": "a gently moving phrase introduces the portrait"
+      "mNote": "The G-major Romanza begins gently"
     },
     {
       "t": 18,
-      "label": "The quieter seascape",
+      "label": "Quotation · Mendelssohn at sea",
       "m": "Quotation",
-      "mNote": "Mendelssohn is quoted within a much softer texture"
+      "mNote": "Solo clarinet above a soft timpani roll"
     },
     {
       "t": 62,
-      "label": "A broader return and close",
+      "label": "Var 13 · Brass, then the Romanza again",
       "m": "Var 13",
-      "mNote": "the Romanza expands before its final withdrawal"
+      "mNote": "A brief brass swell, then the clarinet returns"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Motion under a quiet melody",
-      "text": "The clarinet begins above moving second violins and cellos. Listen for the difference between the melody’s relatively long notes and the little waves of accompaniment underneath.",
-      "basis": "general",
+      "title": "Clarinet over little waves",
+      "text": "A clarinet sings over rising and falling second violins and cellos. The first violins join, then the winds widen the phrase. Elgar calls this a Romanza; the opening has the ease of a song in G major.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello p. 87, rehearsal 55: clarinet melody, moving second violins and cellos, with other instruments joining later in the phrase."
+      "evidence": "Novello full score, p. 87, rehearsal 55: Moderato in G major, opening clarinet melody and moving second-violin and cello parts."
     },
     {
-      "t": 30,
-      "kind": "world",
-      "title": "A portrait with asterisks",
-      "text": "The Elgar Society identifies Lady Mary Lygon as the probable subject, but the three asterisks do not establish her name beyond doubt. The alternative suggestion of Helen Weaver remains a hypothesis, not a second documented dedicatee.",
-      "basis": "documented",
+      "t": 18,
+      "kind": "music",
+      "title": "A ship’s engines",
+      "text": "The clarinet quotes <i>Calm Sea and Prosperous Voyage</i> by [[mendelssohn|Mendelssohn]], above a whispering timpani roll. Elgar asks for side-drum sticks on the timpani. His commentary identifies the sound beneath the tune as the engines of a distant liner.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The Elgar Society explicitly qualifies Mary Lygon as probable and discusses the competing Weaver theory. No claim of certain identity or a literal voyage by the dedicatee is made. https://elgar.org/3enigma.htm"
+      "evidence": "Novello full score, p. 88, rehearsal 56: tranquillo, quotation marks around the clarinet phrase and timpani marked ppp with side-drum sticks. Elgar’s account of the liner appears at https://en.wikipedia.org/wiki/Enigma_Variations, variation XIII."
     },
     {
       "t": 65,
       "kind": "world",
-      "title": "Mendelssohn at sea",
-      "text": "The Romanza quotes Mendelssohn’s overture Calm Sea and Prosperous Voyage. The borrowed phrase supplies a musical association with the sea; it is not proof of who the unnamed person is or where she is travelling.",
+      "title": "The woman behind the asterisks",
+      "text": "Lady Mary Lygon of Madresfield Court supports local music-making and sails to Australia in 1899. Her initials appear in Elgar’s sketches; three asterisks replace them in print. The missing name keeps this portrait’s secret alive while the clarinet sends its borrowed tune out to sea.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society identifies the quotation. Novello p. 88 places quotation marks around the clarinet phrase over soft timpani; the timestamp is contextual, not the quotation’s onset. https://elgar.org/3enigma.htm"
-    },
-    {
-      "t": 100,
-      "kind": "listen",
-      "title": "The quiet is sustained",
-      "text": "The final part gradually retreats into a very soft recorded span. Listen for how much motion can continue inside a quiet texture instead of waiting only for another large orchestral attack.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report falls through 1:40–2:00 and remains low towards the ending, after the much stronger 1:05–1:15 span."
+      "evidence": "The Elgar Society regards Lady Mary Lygon as the probable subject: https://elgar.org/3enigma.htm. Her festival support and the initials L.M.L. in the sketches are discussed at https://en.wikipedia.org/wiki/Enigma_Variations, citing Michael Kennedy, Portrait of Elgar, pp. 95–96. Helen Weaver is an alternative identification; the voyage began after the music was completed."
     }
   ],
   "transitions": [
     {
       "id": "quieter-seascape",
-      "title": "The texture makes space for a quotation",
-      "from": "Romanza · Moderato",
-      "to": "The quieter seascape",
+      "title": "The Romanza puts out to sea",
+      "from": "Var 13 · Clarinet over moving strings",
+      "to": "Quotation · Mendelssohn at sea",
       "at": {
         "t": 18
       },
-      "how": "<p>A poco rallentando leads to tranquillo. The texture becomes very soft: violas move quietly while timpani sustain a roll, and the solo clarinet introduces the quoted Mendelssohn phrase. The quotation enters inside a thinning texture rather than as a grand announcement.</p>",
+      "how": "<p><i>Poco rallentando</i> leads to <i>tranquillo</i>. The upper strings fade out while divided violas keep a small rising-and-falling figure moving. A soft timpani roll and held cello notes support the clarinet’s Mendelssohn quotation. The score puts quotation marks around the borrowed phrase.</p>",
       "devices": [
         "tempo change",
         "texture change",
@@ -95,17 +85,17 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello p. 88, rehearsal 56. The strongest report boundary is 0:18; the ensuing 0:25–0:50 span is markedly quiet. This anchors the whole transition, not the clarinet’s first quoted note."
+      "evidence": "Novello full score, p. 88, rehearsal 56: slowing, divided viola accompaniment, soft timpani, held cellos and the marked clarinet quotation."
     },
     {
       "id": "broader-return",
-      "title": "The Romanza gathers weight again",
-      "from": "The quieter seascape",
-      "to": "A broader return and close",
+      "title": "Brass interrupt the crossing",
+      "from": "Quotation · Mendelssohn at sea",
+      "to": "Var 13 · Brass, then the Romanza again",
       "at": {
         "t": 62
       },
-      "how": "<p>The subdued quotation passage gives way to a more expansive Romanza phrase. Moving string accompaniment and fuller wind support restore forward motion, and the dynamic grows before the music returns to its quiet ending.</p>",
+      "how": "<p>Trumpets, trombones and tuba enter softly, then swell over repeated low-string figures. The timpani change from their roll to measured notes. Elgar quickly withdraws the brass again: <i>diminuendo molto</i>, then <i>Come prima</i>, with the clarinet and the moving strings of the G-major Romanza.</p>",
       "devices": [
         "orchestration change",
         "crescendo build",
@@ -113,7 +103,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 89–92 develop the Romanza material. The report changes at 1:02 and rises towards a 1:10 crest; no exact bar is assigned."
+      "evidence": "Novello full score, p. 90, rehearsals 58–59: brass crescendo over repeating low strings, measured timpani notes, diminuendo molto and Come prima."
     }
   ],
   "orchestra": {
@@ -140,17 +130,17 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 87–92, rehearsal figures 55–60. Whole-variation passage map: the 0:18 and 1:02 changes, the strong 1:05–1:15 span, and the quiet final minute distinguish the Romanza, quotations and expansion. No precise quotation onset is asserted."
+      "locator": "Novello full score, pp. 87–92, rehearsal figures 55–60: the clarinet Romanza, quotations from Mendelssohn and the central brass passage."
     },
     "timeline": [
-      { "t": 0, "playing": ["clarinets", "violins-2", "cellos"], "lead": ["clarinets"], "note": "Clarinet begins over gently moving second violins and cellos (p. 87)." },
-      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "The first Romanza phrase spreads through the wind and string parts with restrained horn support (p. 87)." },
-      { "t": 24, "playing": ["clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets"], "note": "Solo clarinet introduces the quiet quotation above timpani and subdued strings; other desks gradually withdraw (p. 88)." },
-      { "t": 40, "playing": ["clarinets", "timpani", "violas", "cellos"], "lead": ["clarinets"], "note": "The very soft quotation passage leaves the clarinet exposed above moving viola and sustained cello support (p. 89)." },
-      { "t": 62, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "violins-1"], "note": "The central expansion gains brass and timpani weight as the recorded level rises (p. 90)." },
-      { "t": 80, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "The Romanza resumes its more lightly scored wind-and-string motion after the larger swell (pp. 90–91)." },
-      { "t": 100, "playing": ["clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets"], "note": "The final quotation is prepared by another thinning of the texture and a quiet timpani roll (p. 92)." },
-      { "t": 118, "playing": ["clarinets", "timpani", "violas", "cellos"], "lead": ["clarinets"], "note": "Clarinet and the soft lower-string texture remain after upper strings, horns and basses release (p. 92)." }
+      { "t": 0, "playing": ["clarinets", "violins-2", "cellos"], "lead": ["clarinets"], "note": "Clarinet sings over gently rocking second violins and cellos (p. 87)." },
+      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "Winds and strings take up the Romanza phrase, with quiet horn chords beneath them (p. 87)." },
+      { "t": 24, "playing": ["clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets"], "note": "Solo clarinet quotes Mendelssohn above a soft timpani roll and quiet strings (p. 88)." },
+      { "t": 40, "playing": ["clarinets", "timpani", "violas", "cellos"], "lead": ["clarinets"], "note": "The clarinet continues over rocking violas and a held cello note (p. 89)." },
+      { "t": 62, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "violins-1"], "note": "Brass chords swell and recede above the timpani before the Romanza returns (p. 90)." },
+      { "t": 80, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "Marked Come prima, the Romanza returns to the woodwinds and rocking strings (pp. 90–91)." },
+      { "t": 100, "playing": ["clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets"], "note": "The strings fall quiet and the timpani roll returns beneath another clarinet quotation (p. 92)." },
+      { "t": 118, "playing": ["clarinets", "timpani", "violas", "cellos"], "lead": ["clarinets"], "note": "Clarinet, violas and cellos remain after the upper strings, horns and basses fall silent (p. 92)." }
     ]
   }
 };

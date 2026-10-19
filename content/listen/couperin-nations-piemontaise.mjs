@@ -1,100 +1,105 @@
-// Life and context: https://www.operaroyal-versailles.fr/genre-event/couperin/
-// Sonade and preface: https://earlymusicreview.com/francois-couperin-les-nations-1726/
-// Movement order: https://imslp.org/wiki/Les_nations_(Couperin,_Fran%C3%A7ois)
-// Pitch is an estimate from the score-to-recording offset, not a performer-supplied standard.
 export default {
-  id: 'couperin-nations-piemontaise',
-  composer: 'couperin',
-  order: 1,
-  work: 'Les Nations',
-  movement: 'La Piémontaise · Sonade',
-  year: '1726, publication',
-  key: 'G minor',
-  forces: 'Two treble instruments and continuo; here violin, flute, viola da gamba and keyboard',
-  performers: 'New Comma Baroque: Matthew C. Cataldi, Baroque violin; Leighann Daihl, Baroque flute; Phillip W. Serna, viola da gamba; Emily J. Morlan, historical keyboards',
-  recorded: '10 September 2012',
-  license: 'CC BY-SA 3.0',
-  tuning: { hz: 415, status: 'inferred', note: 'Approximately A = 415 Hz, estimated from a consistent semitone offset; not documented by the performers.' },
-  source: { file: "File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg" },
-  question: 'How do three musical lines become a conversation?',
-  intro: 'Couperin places an Italian-style trio sonata before the French dances of <i>La Piémontaise</i>, played here by four musicians sharing three written parts. How do the two upper lines exchange the lead above their shared bass?',
-  sections: [
-    { t: 0, label: 'Gravement · opening dialogue', m: 'A' },
-    { t: 90, label: 'Vivement', m: 'B' },
-    { t: 134, label: 'Gravement', m: 'C' },
-    { t: 202, label: 'Vivement et marqué', m: 'D' },
-    { t: 274, label: 'Airs · gracieusement', m: 'E' },
-    { t: 514, label: 'Gravement et marqué', m: 'F' },
-    { t: 545, label: 'Légèrement · conclusion', m: 'G' },
+  "id": "couperin-nations-piemontaise",
+  "composer": "couperin",
+  "order": 1,
+  "work": "Les Nations",
+  "movement": "La Piémontaise · Sonade",
+  "year": "1726, publication",
+  "key": "G minor",
+  "forces": "Two treble instruments and continuo; here violin, flute, viola da gamba and keyboard",
+  "performers": "New Comma Baroque: Matthew C. Cataldi, Baroque violin; Leighann Daihl, Baroque flute; Phillip W. Serna, viola da gamba; Emily J. Morlan, historical keyboards",
+  "recorded": "10 September 2012",
+  "license": "CC BY-SA 3.0",
+  "tuning": { hz: 415, status: 'inferred', note: 'Approximately A = 415 Hz, estimated from a consistent semitone offset; not documented by the performers.' },
+  "source": { "file": "File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg" },
+  "intro": "A violin and flute trade long notes, quick runs and graceful little airs in the sonata that opens <i>La Piémontaise</i>. New Comma Baroque plays it with viola da gamba and keyboard sharing the bass: four people make Couperin’s three-part conversation.",
+  "sections": [
+    { "t": 0, "label": "A · Long notes, Gravement", "m": "A", "mNote": "Violin and flute overlap above the shared bass" },
+    { "t": 90, "label": "B · Quick exchanges, Vivement", "m": "B", "mNote": "Runs pass between the upper parts and the bass" },
+    { "t": 134, "label": "C · Gravement, with even notes", "m": "C", "mNote": "Held upper notes give the bass room to move" },
+    { "t": 202, "label": "D · Vivement et marqué", "m": "D", "mNote": "Quick figures with clearly marked beginnings" },
+    { "t": 274, "label": "E · Two airs and a return", "m": "E", "mNote": "A graceful major-key air frames its minor-key companion" },
+    { "t": 514, "label": "F · Gravement et marqué", "m": "F", "mNote": "Dotted figures above a held bass" },
+    { "t": 545, "label": "G · Légèrement, in six-eight", "m": "G", "mNote": "Running quavers pass through all three parts" }
   ],
-  cues: [
-    { t: 0, kind: 'music', title: 'Three parts, four players', text: 'Violin and flute carry the two upper parts; viol and keyboard share the bass. Through the opening, listen for the relationship between those lines: one can sustain a note while another moves, making harmony out of their overlap.', basis: 'general', precision: 'passage', evidence: 'The score has two upper parts and a bass; Commons identifies the four players in this recording.' },
-    { t: 38, kind: 'listen', title: 'An estimated lower pitch', text: 'This recording appears to use a pitch near A = 415 Hz, about a semitone below modern A = 440. That is an estimate, not a documented tuning choice; the score’s G minor would therefore sound lower than on a modern piano.', basis: 'audio-feature', precision: 'passage', evidence: 'The recording’s estimated pitches repeatedly fall about a semitone below the written music; the performers do not document a pitch standard.' },
-    { t: 73, kind: 'life', title: 'An inherited organ loft', text: 'Couperin’s father Charles was organist of Saint-Gervais in Paris. After Charles died in 1679, the post was reserved for the young François; Lalande held it until he could take over.', basis: 'documented', precision: 'passage', evidence: 'The Opéra Royal de Versailles biography describes Charles’s death, François’s succession and Lalande’s interim service.' },
-    { t: 95, kind: 'listen', title: 'Quicker exchanges', text: 'The first quick section gives the upper lines shorter figures to exchange. Follow the changing relationship between the parts rather than assigning one a permanent melody role and the other a permanent accompaniment.', basis: 'score-proportion', precision: 'passage', evidence: 'The first Vivement follows the slow opening in the score; increased activity around 1:30 supports approximate placement.' },
-    { t: 134, kind: 'form', title: 'Alternating kinds of pace', text: 'The sonade alternates quick sections with more sustained ones. Around this transition, compare how much space the longer notes leave between gestures, rather than expecting one dance rhythm to continue throughout.', basis: 'score-proportion', precision: 'passage', evidence: 'The score places a Gravement after the first Vivement; reduced activity around 2:10–2:35 supports the broad transition.' },
-    { t: 170, kind: 'world', title: 'An Italian disguise', text: 'In the preface to <i>Les Nations</i>, Couperin says he first presented a sonata as the work of an Italian whose name was an anagram of his own. Its success encouraged him to write more. This is Couperin’s account, not an independently witnessed episode.', basis: 'documented', precision: 'passage', evidence: 'Brian Robins’s Early Music Review article recounts the story from Couperin’s preface.' },
-    { t: 202, kind: 'form', title: 'Quick and marked', text: 'The next quick section is marked “Vivement et marqué”. Listen for how distinct beginnings help separate the upper lines’ short figures above the bass; articulation can clarify imitation without changing the ensemble.', basis: 'score-proportion', precision: 'passage', evidence: 'The score gives this marking; renewed activity after the low-level interval around 3:20 supports approximate placement.' },
-    { t: 240, kind: 'life', title: 'A royal chapel organist', text: 'In 1693 Couperin became an organist of Louis XIV’s royal chapel. His publications include organ masses, sacred vocal music, harpsichord pieces and chamber music: the same musician worked across church and court settings.', basis: 'documented', precision: 'passage', evidence: 'The Opéra Royal de Versailles biography records the 1693 appointment and these categories of work.' },
-    { t: 274, kind: 'form', title: 'The graceful airs', text: 'The central airs ask for a more graceful manner than the preceding quick exchanges. Follow the shape of a whole melodic phrase across its smaller ornaments, keeping the bass line in view.', basis: 'score-proportion', precision: 'passage', evidence: 'The score labels the airs “gracieusement”; a low-level interval around 4:30 and less frequent attacks afterwards support their approximate location.' },
-    { t: 310, kind: 'listen', title: 'Ornament and main note', text: 'Throughout the airs, distinguish principal notes from the ornaments around them. Listen for how a trill or a brief turn shapes the approach to a resting point, rather than counting each small note as a new melodic destination.', basis: 'general', precision: 'passage', evidence: 'This is a guide to ornamented melodic lines, not an identification of a particular trill in the recording.' },
-    { t: 345, kind: 'world', title: 'Four names in print', text: '<i>Les Nations</i> appeared in 1726 as four ordres: <i>La Françoise</i>, <i>L’Espagnole</i>, <i>L’Impériale</i> and <i>La Piémontaise</i>. Each joins an Italian-style sonata to a sequence of French dances.', basis: 'documented', precision: 'passage', evidence: 'The publication’s titles and date are listed by Opéra Royal de Versailles; Brian Robins describes the sonata-and-suite design.' },
-    { t: 416, kind: 'life', title: 'A keyboard teaching book', text: 'Couperin published <i>L’Art de toucher le clavecin</i> in 1716, between his first and second books of harpsichord pieces. His work as a teacher accompanied his performing and composing posts.', basis: 'documented', precision: 'passage', evidence: 'The Opéra Royal de Versailles biography records the treatise’s 1716 publication and Couperin’s harpsichord teaching.' },
-    { t: 485, kind: 'world', title: 'Corelli beside Lully', text: 'Couperin’s preface names both Corelli and Lully as composers he admired. The combination of an Italian-style sonata with French dances makes that double allegiance part of the collection’s design.', basis: 'documented', precision: 'passage', evidence: 'Brian Robins quotes the preface’s acknowledgement of Corelli and Lully in Early Music Review.' },
-    { t: 518, kind: 'form', title: 'A measured closing section', text: 'The later slow section is marked “Gravement et marqué”, before the final quick passage. Compare its deliberate articulation with the airs: the same small ensemble can distinguish sections through pace and phrasing rather than a change of instruments.', basis: 'score-proportion', precision: 'passage', evidence: 'The score’s movement order supplies the contrast; a low-level interval near 8:30 supports this approximate location.' },
-    { t: 550, kind: 'form', title: 'The last quick exchange', text: 'The concluding “Légèrement” restores quicker movement. Follow the bass beneath the upper lines so that their short figures do not obscure the direction of each phrase.', basis: 'score-proportion', precision: 'passage', evidence: 'The score ends the sonade with Légèrement; more frequent attacks from roughly 9:05 support the passage’s placement.' },
-    { t: 590, kind: 'listen', title: 'The sonade’s final cadence', text: 'The closing passage brings the sonade to a cadence. In the complete <i>La Piémontaise</i>, an allemande follows to begin the French dance sequence; this recording stops before those dances.', basis: 'score-proportion', precision: 'passage', evidence: 'The score’s movement list places the allemande next; the recording analysis shows the sonade fading to near silence by 10:00.' },
+  "cues": [
+    {
+      "t": 0, "kind": "music", "title": "Four players, three lines",
+      "text": "Violin and flute take the two upper parts; gamba and keyboard share the bass. In the opening <i>Gravement</i>, one upper voice often holds a note while the other moves. Trills decorate the long notes, and the bass has ornaments of its own.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Couperin, La Piémontoise, Cmaj7 edition (2022), score pp. 1–2. Performers are identified in the recording’s Commons description. Score: https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
+    },
+    {
+      "t": 90, "kind": "music", "title": "The bass joins the conversation",
+      "text": "The <i>Vivement</i> gives the bass running semiquavers as well as the upper parts. A phrase can begin below the violin and flute, then rise into their conversation. The keyboard and gamba have plenty to say together.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, first Vivement, bars 30 onwards, pp. 3–5. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
+    },
+    {
+      "t": 170, "kind": "world", "title": "An Italian name for Couperin",
+      "text": "In his 1726 preface, Couperin tells a story about his first sonata. He presents it as the work of an Italian composer, whose name is an anagram of his own. The audience welcomes it. Encouraged, he writes more sonatas under the same disguise.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Couperin’s preface to Les Nations (1726), discussed by Brian Robins, 22 July 2019. https://earlymusicreview.com/francois-couperin-les-nations-1726/"
+    },
+    {
+      "t": 274, "kind": "music", "title": "The violin sings alone",
+      "text": "The first air is in G major and marked <i>Gracieusement</i>. The violin carries its opening phrase while the flute rests. The bass answers with small steps and ornaments; then the flute takes up the tune and the violin falls silent.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, first Air, pp. 12–13: first dessus alone above the bass in bars 1–7, second dessus enters in bar 8. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
+    },
+    {
+      "t": 345, "kind": "world", "title": "Four nations on the title pages",
+      "text": "The four ordres of <i>Les Nations</i> bear grand names: France, Spain, the Empire and Piedmont. Each opens with an Italian-style sonata, then turns to French dances. Here, after the sonata, the printed score continues with an allemande marked “nobly, and without slowness”.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Collection and design: https://earlymusicreview.com/francois-couperin-les-nations-1726/. Allemande marking, ‘Noblement, et sans lenteur’, score p. 20: https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf. English translation is literal."
+    },
+    {
+      "t": 485, "kind": "world", "title": "Corelli beside Lully",
+      "text": "Couperin names both Corelli and Lully in his preface to <i>Les Nations</i>, “both of whose compositions I shall love as long as I live”. Italian sonatas and French dances share his book. He has no wish to give up either composer.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Couperin, preface to Les Nations (1726), in the English translation quoted by Brian Robins. https://earlymusicreview.com/francois-couperin-les-nations-1726/"
+    },
+    {
+      "t": 514, "kind": "music", "title": "Dotted notes above a held bass",
+      "text": "The later <i>Gravement et marqué</i> begins with a long C in the bass. The violin sets out a dotted figure; the flute enters with it a bar later. Their short and long notes pull against the bass’s unbroken sound.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, Gravement et marqué, p. 16, opening three bars: held C in the bass and successive entries of the upper parts. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
+    },
+    {
+      "t": 545, "kind": "form", "title": "Six quavers, three moving parts",
+      "text": "The final <i>Légèrement</i> changes to six-eight. The flute begins the running quavers while the violin rests; soon the figures pass between the upper parts and the bass. The long sonata ends with all three lines still taking their turns.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, Légèrement, pp. 17–19. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
+    }
   ],
-  transitions: [
+  "transitions": [
     {
-      id: 'opening-to-vivement',
-      title: 'Long overlaps become short exchanges',
-      from: 'Gravement · opening dialogue',
-      to: 'Vivement',
-      at: { t: 90 },
-      how: '<p>The opening’s sustained upper lines give way to the shorter, quicker figures of Vivement. Violin and flute remain equal participants: the change is from overlapping long notes to more frequent exchanges, not from an introduction to a solo with accompaniment. G minor remains the home-key reference, while viol and keyboard keep the common bass audible beneath the busier counterpoint. Couperin makes the seam through pace and articulation, without needing a new instrumental colour.</p>',
-      devices: ['tempo change', 'texture change'],
-      basis: 'score-proportion',
-      precision: 'passage',
-      evidence: 'The 1:30 section boundary agrees with increasing attack density, from about two attacks per second near 1:25 to 4.2 near 1:35. The published movement order and existing score-based cue identify Gravement followed by Vivement and the shorter upper-part exchanges. Written G minor is distinguished from the recording’s approximately semitone-lower pitch; no individual cadence is inferred from the analysis.',
+      "id": "opening-to-vivement", "title": "The bass breaks into running notes",
+      "from": "A · Long notes, Gravement", "to": "B · Quick exchanges, Vivement", "at": { "t": 90 },
+      "how": "<p>A D major chord closes the slow opening. <i>Vivement</i> begins in G minor and common time: the violin drops out after its first note while flute and bass keep moving. Running semiquavers soon pass between the gamba, keyboard and upper instruments. Couperin replaces the opening’s long overlaps with brisk exchanges.</p>",
+      "devices": ["tempo change", "metre change", "texture change"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, bars 29–33, p. 3: D major closing chord and Vivement in common time. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
     },
     {
-      id: 'vivement-to-gravement',
-      title: 'The quick conversation makes room for held notes',
-      from: 'Vivement',
-      to: 'Gravement',
-      at: { t: 134 },
-      span: [126, 151],
-      how: '<p>The first Vivement gives way to another Gravement rather than extending its quick figures into a continuous dance. Longer upper notes make their overlap with the changing bass more exposed: listen for tension between a note still held and the harmony newly arriving below it. The violin and flute retain their separate lines, with viol and keyboard supplying the same shared bass. The ensemble has not changed; the amount of time available to hear each vertical combination has.</p>',
-      devices: ['tempo change', 'texture change'],
-      basis: 'score-proportion',
-      precision: 'passage',
-      evidence: 'The 2:14 section boundary is an analysis change within the strong 2:08–2:22 cluster, following a low-level window near 2:10. The score’s Vivement–Gravement succession and sustained trio texture supply the description. The span is deliberately broad; no particular suspension or modulation chord has been aligned.',
+      "id": "vivement-to-gravement", "title": "E♭ under the held notes",
+      "from": "B · Quick exchanges, Vivement", "to": "C · Gravement, with even notes", "at": { "t": 134 }, "span": [126, 151],
+      "how": "<p>The new <i>Gravement</i> opens on E♭ major: E♭ in the bass, G and B♭ in the upper parts. The metre returns to three-two, and violin and flute hold long notes. Later Couperin asks for <i>notes égales</i>, evenly played notes, as the gamba and keyboard bass begin moving beneath them.</p>",
+      "devices": ["tempo change", "metre change", "texture change"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, second Gravement, p. 6, bars 1–8. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
     },
     {
-      id: 'marked-section-to-airs',
-      title: 'The marked figures yield to an air',
-      from: 'Vivement et marqué',
-      to: 'Airs',
-      at: { t: 274 },
-      span: [265, 291],
-      how: '<p>After the distinctly attacked figures of Vivement et marqué, the first air asks for gracieusement: the ear follows a longer melodic phrase through its ornaments. Its G-major colour replaces the sonade’s home-key B♭ with B♮. The continuo still supplies the bass beneath two upper lines, but their graceful phrasing matters more than the preceding passage’s quick exchanges. This first air will return after the minor-key air; the major colour introduced here therefore becomes something recognisable later.</p>',
-      devices: ['texture change', 'tempo change'],
-      basis: 'score-proportion',
-      precision: 'passage',
-      evidence: 'The 4:34 section boundary follows a strong change and near-silence at 4:30, with fewer attacks after the restart. The score labels the airs gracieusement; the form relation identifies the major first air at 4:34.5–5:11.5 and its return at 7:12.5–7:49.5 after the minor air. Keys are written pitches, not the lower sounding estimates. The exact cadential chord before the air is not claimed.',
+      "id": "marked-section-to-airs", "title": "A graceful tune over G",
+      "from": "D · Vivement et marqué", "to": "E · Two airs and a return", "at": { "t": 274 }, "span": [265, 291],
+      "how": "<p>The quick movement slows to <i>très lentement</i> and closes on D major. The air answers in G major, with G in the bass and a three-beat metre. Marked <i>Gracieusement</i>, the violin begins a rounded, ornamented phrase over gamba and keyboard; the flute rests before taking its turn.</p>",
+      "devices": ["perfect cadence", "tempo change", "metre change", "texture change"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, final bars of Vivement et marqué and opening of the Air, pp. 11–12. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
     },
     {
-      id: 'grave-to-conclusion',
-      title: 'Measured weight gives way to light motion',
-      from: 'Gravement et marqué',
-      to: 'Légèrement',
-      at: { t: 545 },
-      how: '<p>The final Gravement et marqué is a short weighty preparation, not the sonade’s ending. Légèrement releases it into quicker movement, with the two treble parts again exchanging figures over the continuo bass. The conclusion brings the music back through G-minor territory towards the sonade’s final cadence; this is not yet the allemande that begins the following French suite. Listen to the bass’s phrase endings beneath the light upper activity: they give the conclusion its punctuation.</p>',
-      devices: ['tempo change', 'texture change'],
-      basis: 'score-proportion',
-      precision: 'passage',
-      evidence: 'The 9:05 section boundary agrees with attack density rising to about 4.6 per second from 1.4 near 9:00. The published order gives Gravement et marqué followed by Légèrement, then an allemande outside this recording; the late pitch estimates are compatible with written G minor at the inferred lower tuning. No exact closing chord or literal return of an earlier theme is asserted.',
-    },
-  ],
+      "id": "grave-to-conclusion", "title": "From dotted notes to six-eight",
+      "from": "F · Gravement et marqué", "to": "G · Légèrement, in six-eight", "at": { "t": 545 },
+      "how": "<p>The slow section reaches D major before <i>Légèrement</i> begins over G in the bass. Six-eight replaces common time. The flute starts a stream of quavers; the violin gives a single note, then rests. Gamba and keyboard keep dotted crotchets beneath the first phrase before joining the quicker movement.</p>",
+      "devices": ["tempo change", "metre change", "texture change"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, join between Gravement et marqué and Légèrement, p. 17. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
+    }
+  ]
 };

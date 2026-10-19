@@ -1,46 +1,46 @@
 {
   "id": "volga-boatmen",
-  "title": "Chaliapin’s Volga Boatmen, horn and microphone",
+  "title": "Chaliapin’s boatmen, near and far",
   "composer": null,
   "work": "Song of the Volga Boatmen, arranged by Chaliapin and Keneman",
-  "question": "How does Chaliapin shape the repeated song in acoustic and electrical recordings five years apart?",
-  "intro": "Chaliapin recorded this bass-and-orchestra arrangement with George W. Byng in 1922 and Albert Coates in 1927. The comparison follows 0:05–3:00 of the acoustic side and 0:05–3:10 of the electrical remake, not their residual noise tails. Repeated harmony makes the automatic path locally ambiguous around 2:00–2:25 in 1922, so its apparent stalls and surges are not evidence of sudden tempo changes. The 1927 recording was first published in 1928 and is used as territorial European public domain, with US status unestablished.",
+  "question": "How does Chaliapin build a whole drama from the boatmen’s repeated call?",
+  "intro": "Men hauling barges along the Volga sang to coordinate each heave. Chaliapin and Fyodor Keneman made their work song into a piece for bass and orchestra. Chaliapin keeps returning to the same short call, swelling it into a shout and letting it dwindle.",
   "group": "singers",
   "recordings": [
     {
       "listen": "volga-boatmen-chaliapin-1922",
-      "label": "Chaliapin · Byng · acoustic",
+      "label": "Fyodor Chaliapin, George W. Byng",
       "year": 1922,
-      "note": "Hayes, 9 October; Cc1891, take 4; Victrola 88663. US public domain. Local timing around 2:00–2:25 remains ambiguous."
+      "note": "Made through an acoustic horn, with Byng conducting: Chaliapin’s first recording of the arrangement he helped create."
     },
     {
       "listen": "volga-boatmen-chaliapin-1927",
-      "label": "Chaliapin · Coates · electrical",
+      "label": "Fyodor Chaliapin, Albert Coates",
       "year": 1927,
-      "note": "London, 20 October; DB 1103, first published 1928. Territorial European public domain; source take-number inconsistency disclosed in dossier."
+      "note": "The microphone remake, with Coates conducting, made five years after Chaliapin’s first version."
     }
   ],
   "reference": "volga-boatmen-chaliapin-1922",
   "passages": [
     {
-      "label": "Opening rise",
+      "label": "The call grows stronger",
       "t": 35,
-      "note": "Follow how the bass line carries a gradual rise, without equating a stronger recorded sound with a faster pulse."
+      "note": "The bass gives the repeated call more force, building a long swell from the short phrases."
     },
     {
-      "label": "First crest",
+      "label": "The first shout subsides",
       "t": 55,
-      "note": "Compare the crest and retreat as one phrase; surface noise and transfer balance differ between these sources."
+      "note": "Chaliapin reaches the top of the swell, then softens the next phrases as the orchestra continues beneath him."
     },
     {
-      "label": "Middle swell",
+      "label": "The song swells again",
       "t": 95,
-      "note": "Compare continuity across the later swell. The map is not a word-by-word transcription."
+      "note": "The repeated call gathers strength again. The bass sustains the rise across successive phrases."
     },
     {
-      "label": "Closing withdrawal",
+      "label": "The boatmen recede",
       "t": 165,
-      "note": "Listen to the musical line recede; the map ends before the residual noise tails."
+      "note": "The voice grows quieter, and the last calls fade into the orchestral accompaniment."
     }
   ],
   "sources": [
@@ -67,6 +67,22 @@
     {
       "title": "Chaliapin discography — issued take 1, unpublished take 2",
       "url": "https://artmusiclounge.files.wordpress.com/2016/03/chaliapin-discography.pdf"
+    },
+    {
+      "title": "Marston, Chaliapin: sessions, recording history and the Gaisberg–Keneman arrangement",
+      "url": "https://www.marstonrecords.com/products/chaliapin"
+    },
+    {
+      "title": "The Song of the Volga Boatmen: the traditional hauling song and its text",
+      "url": "https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen"
+    },
+    {
+      "title": "Conrad L. Osborne, Chaliapin, Phenomenon: Part Two (22 March 2019), p. 8: the first 1922 recording",
+      "url": "https://conradlosborne.com/2019/03/22/chaliapin-phenomenon-part-two/8/"
+    },
+    {
+      "title": "Patrick Bade, lecture of 1 June 2022: Chaliapin’s soft singing and powerful climaxes in the Boatmen",
+      "url": "https://www.lockdownuniversity.org/lectures/1006-feodor-chaliapin-the-20th-centurys-greatest-singing-actor/transcript"
     }
   ],
   "alignment": {

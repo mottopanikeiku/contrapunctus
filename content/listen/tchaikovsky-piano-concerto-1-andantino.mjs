@@ -19,192 +19,108 @@ export default {
   "forces": "Piano and orchestra",
   "performers": "Musopen recording; performers uncredited",
   "recorded": "",
-  "intro": "A quiet flute melody and piano dialogue frame a fast central episode. The change of pace allows the movement to act as both slow movement and scherzo.",
-  "question": "What remains recognisable when the quieter opening returns?",
+  "intro": "A flute sings over plucked strings, and the piano answers as gently. Inside this D♭-major slow movement, Tchaikovsky hides a fast dance built around a French song his brothers used to sing.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Andantino song",
-      "m": "A",
-      "mNote": "flute melody and piano dialogue in D♭ major"
-    },
-    {
-      "t": 184,
-      "label": "Prestissimo region · approximate",
-      "m": "B",
-      "mNote": "faster central episode and quoted French song"
-    },
-    {
-      "t": 290,
-      "label": "Andantino returns · approximate",
-      "m": "A′",
-      "mNote": "outer melody and quieter pacing restored"
-    },
-    {
-      "t": 336,
-      "label": "Closing span · approximate",
-      "m": "Coda",
-      "mNote": "reduced texture prolongs the return’s conclusion"
-    }
+    { "t": 0, "label": "A · Flute over plucked strings", "m": "A", "mNote": "The D♭-major melody passes from flute to piano" },
+    { "t": 184, "label": "B · Fast piano and a French song", "m": "B", "mNote": "The Prestissimo begins in F major" },
+    { "t": 290, "label": "A′ · The piano brings the song back", "m": "A′", "mNote": "The opening melody returns with new piano decoration" },
+    { "t": 336, "label": "Coda · A quiet D♭-major close", "m": "Coda", "mNote": "The oboe completes the tune before the final cadence" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "A song around a scherzo",
-      "text": "The slow movement surrounds a fast central episode with quieter song-like music. It combines the contrasting functions of a slow movement and a scherzo within one span.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
-    },
-    {
-      "t": 41,
       "kind": "music",
-      "title": "Flute above plucked strings",
-      "text": "The opening melody is introduced by solo flute above pizzicato strings. Short plucked sounds leave space around the flute’s sustained notes.",
-      "basis": "general",
+      "title": "Flute and plucked strings",
+      "text": "Plucked strings make a quiet space for the flute’s D♭-major melody. The piano takes the tune next. After the first movement’s huge opening chords, the soloist arrives here almost as another woodwind.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
-    },
-    {
-      "t": 82,
-      "kind": "listen",
-      "title": "The pianist joins the song",
-      "text": "The piano participates in the lyrical material as well as decorating it. Listen for the melodic line within the solo part, not only its smaller notes.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "Second-movement opening and solo handover: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky). Tonic Chord identifies flute bars 5–12 and piano bars 13–20: https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/."
     },
     {
       "t": 123,
       "kind": "life",
-      "title": "The composer at the keyboard",
-      "text": "Tchaikovsky made the work’s two-piano arrangement himself in December 1874. That practical version preceded the publication of the full orchestral score.",
+      "title": "Two pianos before the orchestra",
+      "text": "By 2 January 1875, Tchaikovsky has completed the concerto’s two-piano arrangement. Three days later he plays the work to Nikolay Rubinstein and Nikolay Hubert. The full orchestral score still lies ahead.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "Manuscript date 21 December 1874/2 January 1875; private play-through 24 December/5 January; orchestration completed 9/21 February. https://en.tchaikovsky-research.net/index.php?title=Piano_Concerto_No._1"
     },
     {
-      "t": 163,
-      "kind": "listen",
-      "title": "Colour without a new tune",
-      "text": "As the quiet melody passes between instruments, compare its phrase shape across the different attacks. A wind note and a piano note can articulate the same contour differently.",
-      "basis": "general",
+      "t": 184,
+      "kind": "form",
+      "title": "The piano slips into a dance",
+      "text": "The Prestissimo starts in F major with quick piano writing. Soon the strings take a new tune in D major, and the pianist becomes their accompanist. A miniature scherzo has slipped into the middle of the slow movement.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "Second-movement middle section, keys and scoring: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky); formal outline at https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/."
     },
     {
       "t": 204,
       "kind": "world",
-      "title": "A French song remembered",
-      "text": "Modest Tchaikovsky identified the central fast section’s tune as “Il faut s’amuser, danser et rire”, a song he and his brother Anatoly sang in the early 1870s. The claim is his recollection, not an anonymous folk attribution.",
+      "title": "The brothers’ French song",
+      "text": "The fast middle borrows <i>Il faut s’amuser, danser et rire</i> — one must have fun, dance and laugh. Modest Tchaikovsky remembers singing it constantly with his brother Anatoly in the early 1870s. Their brother puts the refrain into a piano concerto.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "Modest Tchaikovsky, The Life of Pyotr Ilyich Tchaikovsky, vol. 1 (1900), p. 466, quoted under Related Works. The tune is by Jean-Baptiste-Edouard Montaubry. https://en.tchaikovsky-research.net/index.php?title=Piano_Concerto_No._1"
     },
     {
-      "t": 245,
-      "kind": "music",
-      "title": "The central episode crests",
-      "text": "The fast middle approaches its strongest recorded crest before withdrawing into the preparation for the slower return. Follow both halves of that motion rather than hearing the crest as an ending.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/tchaikovsky-piano-concerto-1-andantino.txt: The 4:15 window is the report’s loudest, followed by a decline to about −30 dB at 4:35–4:40."
-    },
-    {
-      "t": 286,
+      "t": 290,
       "kind": "form",
-      "title": "The outer pace returns",
-      "text": "The quiet material returns after the fast episode. Listen for the restoration of longer phrases and more space between attacks, rather than assuming a completely new theme.",
-      "basis": "general",
+      "title": "The piano remembers the flute",
+      "text": "The opening melody returns in D♭ major, now in the piano and dressed in small ornaments. The oboe continues it. The fast dance is over, and the flute’s first tune has become a conversation.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "Second-movement reprise: ornamented piano theme followed by oboe, https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
     },
     {
-      "t": 327,
-      "kind": "world",
-      "title": "A source, not a session",
-      "text": "Commons credits this file to Musopen but identifies neither its performers nor its recording date. The piano and orchestra are real musical forces; their personnel cannot be recovered from the title alone.",
-      "basis": "documented",
+      "t": 336,
+      "kind": "music",
+      "title": "Three pianissimos in D♭",
+      "text": "The coda settles quietly in D♭ major. Its last cadence moves from G♭ major to D♭, marked <i>ppp</i>: a gentle answer to the first movement’s closing chords.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1 Recording provenance: https://commons.wikimedia.org/w/index.php?oldid=454506223"
-    },
-    {
-      "t": 368,
-      "kind": "listen",
-      "title": "Leave space around the melody",
-      "text": "The outer sections depend on the contrast between a sustained tune and lightly articulated accompaniment. Follow the remaining space between gestures as the movement closes.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "The second movement ends ppp with a plagal cadence in D♭ major. https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)"
     }
   ],
   "transitions": [
     {
       "id": "join-1",
-      "title": "The song yields to speed",
-      "from": "Andantino song",
-      "to": "Prestissimo region · approximate",
-      "at": {
-        "t": 184
-      },
-      "span": [
-        174,
-        199
-      ],
-      "how": "<p>After the outer song’s rise and withdrawal, the central Prestissimo changes the rate and articulation of the music. Its quick piano writing and quoted French song occupy a lighter, scherzo-like world within the same movement.</p>",
-      "devices": [
-        "tempo change",
-        "texture change",
-        "decrescendo"
-      ],
+      "title": "An F-major chord starts running",
+      "from": "A · Flute over plucked strings",
+      "to": "B · Fast piano and a French song",
+      "at": { "t": 184 },
+      "span": [174, 199],
+      "how": "<p>The piano holds a high F-major chord, pianissimo, at the end of the quiet section. The Prestissimo begins in that same key with fast solo writing. The strings then introduce the French song in D major over the piano’s accompaniment.</p>",
+      "devices": ["tempo change", "texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/tchaikovsky-piano-concerto-1-andantino.txt: A quiet 3:00 window is followed by 4.8 detected attacks per second at 3:05 and the strong 3:08 boundary. Written design: https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "High F-major chord, Prestissimo opening and D-major string tune: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
     },
     {
       "id": "join-2",
-      "title": "The opening pace returns",
-      "from": "Prestissimo region · approximate",
-      "to": "Andantino returns · approximate",
-      "at": {
-        "t": 290
-      },
-      "span": [
-        280,
-        305
-      ],
-      "how": "<p>The fast central episode reduces its momentum before the Andantino melody returns. Quieter pacing and renewed D♭-major stability reconnect the passage with the opening rather than adding a separate slow movement.</p>",
-      "devices": [
-        "retransition",
-        "tempo change",
-        "motivic link"
-      ],
+      "title": "The piano returns to D♭",
+      "from": "B · Fast piano and a French song",
+      "to": "A′ · The piano brings the song back",
+      "at": { "t": 290 },
+      "span": [280, 305],
+      "how": "<p>A cadenza-like piano passage ends the fast episode. The soloist brings back the opening D♭-major melody at the slower tempo, adding ornaments to the line first sung by the flute.</p>",
+      "devices": ["retransition", "tempo change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/tchaikovsky-piano-concerto-1-andantino.txt: The report’s strongest boundary occurs at 4:50, after a quieter and more unstable-looking 4:25–4:45 span; onset density then drops. Written design: https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "Tonic Chord identifies the solo link in bars 135–145 and the D♭-major return at bar 146. https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/"
     },
     {
       "id": "join-3",
-      "title": "A return becomes a close",
-      "from": "Andantino returns · approximate",
-      "to": "Closing span · approximate",
-      "at": {
-        "t": 336
-      },
-      "span": [
-        326,
-        351
-      ],
-      "how": "<p>The returning melody settles into a quieter closing span. Sustained tones and increasingly sparse activity let the movement end without reviving the Prestissimo’s rapid surface.</p>",
-      "devices": [
-        "decrescendo",
-        "texture change",
-        "perfect cadence"
-      ],
+      "title": "The oboe completes the tune",
+      "from": "A′ · The piano brings the song back",
+      "to": "Coda · A quiet D♭-major close",
+      "at": { "t": 336 },
+      "span": [326, 351],
+      "how": "<p>The oboe continues the returning melody and resolves it in D♭ major. A brief coda follows, ending with a G♭-major chord moving to D♭, marked <i>ppp</i>.</p>",
+      "devices": ["decrescendo", "plagal cadence", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/tchaikovsky-piano-concerto-1-andantino.txt: The 5:36 boundary follows the return’s rise; level generally recedes from 5:40 towards the final decay, with low attack density. Written design: https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+      "evidence": "Oboe continuation, tonic resolution and plagal close: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
     }
   ]
 };

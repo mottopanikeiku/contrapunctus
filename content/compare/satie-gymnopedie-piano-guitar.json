@@ -1,26 +1,28 @@
 {
   "id": "satie-gymnopedie-piano-guitar",
-  "title": "Satie: piano strings, guitar strings",
+  "title": "Satie: from piano to six strings",
   "composer": "satie",
   "group": "century",
   "work": "Gymnopédie No. 1",
-  "question": "How does a plucked guitar carry the held melody and changing sevenths of Satie’s piano piece?",
-  "intro": "Robin Alciatore plays Satie’s piano original in a source dated approximately 2008; Michael Laucke’s guitar source is dated 23 July 2001, neither date establishing the recording session. Laucke adapts the bass, chords and held melody to six strings in A rather than D, so the alignment compensates for five semitones without altering playback. The map covers both complete files, 183.61 and 171.89 seconds, with provisional median confidence 0.954; the sparse opening and final decay are less secure than the middle phrases. Compare phrase spacing and the survival of held tones, not raw volume or identical voicings.",
+  "question": "How does a guitar keep Satie’s melody singing above the bass and chords?",
+  "intro": "Satie’s first <i>Gymnopédie</i> begins with four bars of bass notes and chords, swaying in three beats. Then a melody enters, hanging above the accompaniment. Robin Alciatore plays the piano original; Michael Laucke fits all three parts onto six guitar strings.",
   "recordings": [
-    { "listen": "satie-gymnopedie-1", "label": "Robin Alciatore · piano", "year": null, "note": "Piano original; Commons gives c. 2008, not a verified session date. Recording released to the public domain by Alciatore." },
-    { "listen": "satie-gymnopedie-1-laucke", "label": "Michael Laucke · guitar", "year": null, "note": "Guitar arrangement; Commons source date 23 July 2001, not a verified session date. Recording and arrangement licensed CC BY-SA 4.0." }
+    { "listen": "satie-gymnopedie-1", "label": "Robin Alciatore", "year": null, "note": "Alciatore plays Satie’s original solo-piano version in this recording released through Musopen." },
+    { "listen": "satie-gymnopedie-1-laucke", "label": "Michael Laucke", "year": null, "note": "Laucke plays his own arrangement on one classical guitar, without overdubbing." }
   ],
   "reference": "satie-gymnopedie-1",
   "passages": [
-    { "label": "A melody above renewed chords", "t": 12, "note": "Follow the held melodic line while the accompaniment attacks again. Compare what remains audible between those attacks." },
-    { "label": "The lower phrase", "t": 42.9, "note": "Follow the bass route beneath the sustained melody. The instruments use different registers; the correspondence is musical, not an identical voicing." },
-    { "label": "The opening returns", "t": 90.3, "note": "Compare the space before the renewed accompaniment with the first opening. These passage points remain automatic, not ear-checked bar starts." },
-    { "label": "A different ending", "t": 158.5, "note": "Keep the earlier close in memory as the second ending changes the harmony. Listen to the upper line as well as the bass." },
-    { "label": "The final resonance", "t": 176.8, "note": "Listen beyond the last attack. Decay differs between instrument and recording; the map is less exact here and does not measure pedal use." }
+    { "label": "The melody enters", "t": 12, "note": "The melody steps into the space above the bass and chords; its longer notes stretch across the three-beat accompaniment." },
+    { "label": "The melody drops", "t": 42.9, "note": "The piano melody settles on a low E, held while the bass and chords change beneath it." },
+    { "label": "Four bars before the tune", "t": 90.3, "note": "The opening bass notes and chords return alone. Four bars pass before the melody joins them again." },
+    { "label": "The changed ending", "t": 158.5, "note": "In the piano score, F♮ replaces F♯, and the melody’s rising C♯–D–E becomes falling E–D–C." },
+    { "label": "The final minor chord", "t": 176.8, "note": "The piano closes on D minor: F♮ sits between D and A, and the last chord hangs in the air." }
   ],
   "sources": [
     { "title": "Alciatore recording, approximate source date and public-domain dedication", "url": "https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg" },
     { "title": "Laucke arrangement, source date, CC BY-SA 4.0 and VRT permission", "url": "https://commons.wikimedia.org/wiki/File:Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac" },
-    { "title": "Satie’s piano score: Mutopia 37, Evin Robertson encoding", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37" }
+    { "title": "Satie’s piano score: Mutopia 37, Evin Robertson encoding", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37" },
+    { "title": "Satie’s written melody, bass, accompaniment and alternative endings", "url": "https://www.mutopiaproject.org/ftp/SatieE/gymnopedie_1/gymnopedie_1.ly" },
+    { "title": "Michael Laucke: transcription and Flamenco Road liner notes identifying one classical guitar without overdubbing", "url": "https://en.wikipedia.org/wiki/Michael_Laucke#Trois_Gymnopédies_by_Eric_Satie" }
   ]
 }

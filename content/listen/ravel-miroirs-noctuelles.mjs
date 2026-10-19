@@ -13,84 +13,93 @@ export default {
   key: 'D♭ major',
   forces: 'Piano',
   performers: 'Olena Havyuk-Sheremet, piano',
-  recorded: '2014-04-01',
+  recorded: '1 April 2014',
   source: { file: 'File:Maurice Ravel - Miroirs - 1. Noctuelles.flac' },
-  intro: 'Night moths open Ravel’s Miroirs: quick chromatic figures that keep stopping and restarting, a slow dark middle section, then a shorter return. All five pieces of this set are one performance, by Olena Havyuk-Sheremet of the Lviv Conservatory.',
-  question: 'How can a piece sound improvised when its metre and phrase lengths are written out exactly?',
+  "intro": "Night moths dart through the first of Ravel’s <i>Miroirs</i>: quick piano figures stop, turn and vanish between phrases. A dark, slower song interrupts their flight.",
 
-  sections: [
-    { t: 0, label: 'A · Moths in flight — Très léger', m: 'A' },
-    { t: 60, label: 'B · Pas trop lent — sombre et expressif', m: 'B' },
-    { t: 148, label: 'Link · The first tempo returns, building', m: 'Link' },
-    { t: 196, label: 'A′ · The opening figure returns', m: 'A′', mNote: 'opening figure restated; metre-shifting passage returns, shorter' },
-    { t: 232, label: 'Coda · Presque lent', m: 'Coda' },
+  "sections": [
+    { "t": 0, "label": "A · Moths in flight", "m": "A", "mNote": "Quick chromatic figures break off between phrases" },
+    { "t": 60, "label": "B · A dark song in B♭ minor", "m": "B", "mNote": "Long chords move above a detached bass" },
+    { "t": 148, "label": "Link · The flutter returns low down", "m": "Link", "mNote": "The first tempo returns over repeated bass notes" },
+    { "t": 196, "label": "A′ · The opening moths return", "m": "A′", "mNote": "The opening figures return in a shorter passage" },
+    { "t": 232, "label": "Coda · Distant chords, then a last flutter", "m": "Coda", "mNote": "Presque lent interrupts the quick figures before the close" }
   ],
 
-  cues: [
-    { t: 0, kind: 'form', title: 'Night moths, nine bars', text: 'Noctuelles means night moths. Ravel marks the opening Très léger: quick chromatic figures flutter in the middle of the keyboard while the metre keeps shifting, so the pulse never settles. The first flurry lasts nine bars and ends in a near-silent bar about ten seconds in.', basis: 'score-proportion', precision: 'passage', evidence: 'The first edition (scan p. 1) has nine bars before the first very quiet rest bar, and a published analysis divides the opening into nine-, eleven- and sixteen-bar segments (PTNA Piano Encyclopedia). In the recording the quietest early window is 0:10–0:15 (−31.5 dB against −10.8 dB just before), after which the music restarts.' },
-    { t: 42, kind: 'world', title: 'Fargue and the Apaches', text: 'Ravel dedicated Noctuelles to the poet Léon-Paul Fargue. Each piece in Miroirs goes to a member of the Apaches, the circle of poets, painters and musicians around Ravel and Ricardo Viñes who met every week from about 1903, often in the painter Paul Sordes’s studio.', basis: 'documented', precision: 'passage', evidence: 'The dedications are listed on IMSLP’s work page and on the first edition; the group’s weekly meetings and the Sordes studio are described in Wikipedia’s article on Les Apaches (https://en.wikipedia.org/wiki/Les_Apaches).' },
-    { t: 60, kind: 'music', title: 'The flutter stops', text: 'The music darkens and slows. Ravel writes Pas trop lent, sombre et expressif: bars alternate between five and three beats, a detached repeated figure sounds low in the left hand, and long phrases move above it.', basis: 'audio-feature', precision: 'moment', evidence: 'This is the strongest change in the first half of the recording: the report’s boundary at 1:00 scores 0.92, and the onset rate falls from about 3.6 to 0.6 attacks a second. The marking, the 5/4 and 3/4 bars and the repeated left-hand figure are on scan p. 4 of the first edition.' },
-    { t: 92, kind: 'listen', title: 'Count five, then three', text: 'Count the slow beat: bars of five alternate with bars of three, so the phrases lean forward before they settle. Through this stretch the recording stays sparse, at one or two attacks a second, and each chord is left to ring.', basis: 'score-proportion', precision: 'passage', evidence: 'The alternating 5/4 and 3/4 bars are on scan p. 4 of the first edition. The report’s onset rate stays between 0.6 and 2.2 attacks a second from 1:00 to 1:35.' },
-    { t: 122, kind: 'world', title: 'Eliminated in the first round', text: 'In 1905, while Miroirs was being finished, Ravel entered the Prix de Rome for the last time and was eliminated in the first round. Even critics unsympathetic to his music called the result unjustifiable. Gabriel Fauré succeeded Théodore Dubois as director of the Conservatoire that year.', basis: 'documented', precision: 'passage', evidence: 'Wikipedia’s Maurice Ravel article (https://en.wikipedia.org/wiki/Maurice_Ravel) describes the 1905 elimination and the critics’ reaction and names Fauré as Dubois’s replacement; the Académie des beaux-arts notice (https://www.academiedesbeauxarts.fr/theodore-dubois) says Dubois directed the Conservatoire until 1905. Whether the affair caused Dubois’s departure is disputed (French Wikipedia on Dubois reports a retirement, not a resignation), so the text states only the sequence.' },
-    { t: 150, kind: 'form', title: 'The first tempo returns', text: 'Around 2:30 Ravel marks the first tempo to return, and the fluttering figures come back in fragments. In this recording the level rises quickly, and the loudest stretch of the whole piece falls between about 2:35 and 2:50, where one figure repeats bar after bar.', basis: 'audio-feature', precision: 'passage', evidence: 'The report shows a boundary at 2:28 (0.56), the onset rate rising from 1.6 to 4.6 attacks a second at 2:35, and the two loudest 5-second windows at 2:35 and 2:45. The instruction “revenez au premier mouvement” and the repeated figure are on scan pp. 5–6; the exact bar is not aligned.' },
-    { t: 196, kind: 'form', title: 'The opening comes back', text: 'From about 3:15 the first figure returns after a near-silent bar, pianissimo, and the metre-shifting passage that followed it at the start comes back in shorter form. Compare its length with the first section’s minute.', basis: 'audio-feature', precision: 'passage', evidence: 'The 5-second window at 3:15 is one of the five quietest in the recording (−23.0 dB), and the onset rate jumps from 2.0 to 4.6 attacks a second by 3:20. Scan p. 7 restates the figure of scan p. 1 and scan p. 8 a passage close to scan p. 3; the return’s start is estimated, not bar-aligned.' },
-    { t: 218, kind: 'world', title: 'Ravel on his own harmony', text: 'In his 1928 autobiographical sketch, dictated to Roland-Manuel, Ravel said that Miroirs marked a change in his harmony large enough to disconcert musicians used to his earlier style. Noctuelles starts the set with chromatic figures that obscure its home key, D♭ major.', basis: 'documented', precision: 'passage', evidence: 'The sketch is quoted in Kyle Fyr, “Mapping Ravel’s ‘La vallée des cloches’”, Music Theory Online 26.4 (2020), paragraph 1 (https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.fyr.html), citing Orenstein, A Ravel Reader (2003), p. 30. The D♭ major home key is given on IMSLP’s work page.' },
-    { t: 232, kind: 'music', title: 'Presque lent, lointain', text: 'Marked Presque lent and lointain (distant), the fluttering gives way to quiet chords and a slow line marked pp expressif. This is the strongest change in the whole recording: the onset rate falls to about one attack a second and the tone darkens.', basis: 'audio-feature', precision: 'moment', evidence: 'The report’s strongest boundary is 3:52 (1.00). Brightness falls from 1166 Hz at 3:40 to about 560 Hz, and the onset rate to 1.0 a second by 3:55. The markings are on scan p. 9 of the first edition.' },
-    { t: 250, kind: 'music', title: 'A last shimmer', text: 'The first tempo returns one last time: chords repeat pianissimo high on the keyboard in a shimmering rhythm, and a small last fragment fades. In this recording the shimmer is audible around 4:10 and the sound is nearly gone by 4:15.', basis: 'audio-feature', precision: 'passage', evidence: 'The onset rate rises from 0.8 to 4.8 attacks a second at 4:10, then the level drops to −30.4 dB at 4:15; the file ends at 4:19. The “1er Mouvt” and the closing figure are on scan p. 9.' },
+  "cues": [
+    {
+      "t": 0, "kind": "music", "title": "Moths at the keyboard",
+      "text": "The title means night moths. Ravel writes <i>Très léger</i>, very light: little chromatic figures dart between the hands, often with two notes pressed together. Rising runs carry them upwards, then a quiet gap breaks the flight.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Miroirs, Demets edition (1906), Noctuelles, opening page; chromatic figures, double notes and phrase divisions also described by Arisa Tachi: https://enc.piano.or.jp/en/musics/329. Score: https://vmirror.imslp.org/files/imglnks/usimg/e/e2/IMSLP02693-Ravel-Miroirs,DemetsEd.pdf"
+    },
+    {
+      "t": 42, "kind": "world", "title": "A poet among the moths",
+      "text": "The dedication names Léon-Paul Fargue, a poet in Ravel’s circle of friends, the Apaches. Each of the five <i>Miroirs</i> belongs to someone in that circle: poets and musicians share the set with the painter Paul Sordes.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Dedications and the Apaches connection: Arisa Tachi, PTNA Piano Encyclopedia, https://enc.piano.or.jp/en/musics/329. The dedicatees are listed at https://imslp.org/wiki/Miroirs,_M.43_(Ravel,_Maurice)."
+    },
+    {
+      "t": 60, "kind": "form", "title": "A song in five beats",
+      "text": "The flutter stops. In B♭ minor, a slow melody moves above detached bass notes, with five-beat bars alternating with three. Ravel asks for <i>sombre et expressif</i>: dark and expressive. The right hand suddenly has time to hold a chord.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, p. 4: Pas trop lent, sombre et expressif, 5/4 and 3/4. B♭ minor and the F–B♭ bass are discussed at https://enc.piano.or.jp/en/musics/329."
+    },
+    {
+      "t": 148, "kind": "form", "title": "A flutter in the bass",
+      "text": "The first tempo returns softly. The quick figure starts low in the keyboard over a repeated bass note, climbs, and breaks into fragments of the slower song. The moths are back among the chords.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 5–6: revenez au premier mouvement, low ppp figures and subsequent ascent."
+    },
+    {
+      "t": 196, "kind": "form", "title": "The first flight returns",
+      "text": "The opening figure returns at <i>pp</i>, after another quiet gap. Its crooked little shapes are familiar, but Ravel shortens their route. The passage moves quickly towards the slower closing chords.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 7–9; the shortened return is also described by Arisa Tachi at https://enc.piano.or.jp/en/musics/329."
+    },
+    {
+      "t": 232, "kind": "form", "title": "Distant chords, one last flutter",
+      "text": "<i>Presque lent</i>: almost slow. Quiet chords sound over a low bass, marked <i>lointain</i>, distant. Then the first tempo returns for a few bars of high repeated chords and a tiny falling phrase.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, p. 9: Presque lent, lointain, then 1er Mouvement and the final repeated chords."
+    }
   ],
 
-  transitions: [
+  "transitions": [
     {
-      id: 'flutter-to-slow-section',
-      title: 'A cascade dies away into slow 5/4',
-      from: 'A',
-      to: 'B',
-      at: { t: 60 },
-      span: [48, 76],
-      how: '<p>The fluttering section ends with a loud chord held under a fermata, then a very fast descending cascade across both hands that fades to ppp. The next bar is in 5/4, and Ravel marks Pas trop lent, sombre et expressif: the tempo is much slower, the left hand repeats a detached figure low down, and long phrases of chords replace the chromatic flutter. The cascade is the last of the moth music; nothing links the two sections except the silence between them.</p>',
-      devices: ['fermata', 'decrescendo', 'tempo change', 'metre change', 'texture change'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The recording’s boundary at 1:00 scores 0.92, with the onset rate falling from about 3.6 to 0.6 attacks a second. The fermata chord, the ppp cascade and the 5/4 bar are on scan pp. 3–4 of the first edition (IMSLP #02693).',
+      "id": "flutter-to-slow-section", "title": "A cascade into B♭ minor",
+      "from": "A · Moths in flight", "to": "B · A dark song in B♭ minor",
+      "at": { t: 60 }, "span": [48, 76],
+      "how": "<p>A held chord and a quick descending cascade end the moths’ first flight. The piano settles into B♭ minor, <i>Pas trop lent</i>, with F and B♭ recurring in the bass. Five-beat and three-beat bars carry a long upper melody marked <i>sombre et expressif</i>.</p>",
+      "devices": ["fermata", "decrescendo", "tempo change", "metre change", "texture change"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition (1906), pp. 3–4; bass and key discussed at https://enc.piano.or.jp/en/musics/329."
     },
     {
-      id: 'slow-section-to-first-tempo',
-      title: 'Low repeated notes, then the flutter returns',
-      from: 'B',
-      to: 'Link',
-      at: { t: 148 },
-      span: [136, 166],
-      how: '<p>The slow section thins out to quiet chords above a low repeated note. Ravel writes “revenez au premier mouvement”, and the first tempo resumes with the fluttering figure now low in the keyboard at ppp, over the same repeated bass note. A crescendo then carries the figure upward to forte, where one pattern repeats bar after bar. The motif is the opening’s, but it returns in fragments under a held bass, not in the opening’s bright middle register.</p>',
-      devices: ['texture change', 'tempo change', 'crescendo build', 'motivic link'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The report has a boundary at 2:28 (0.56) and an onset rate that jumps from 1.6 to 4.6 attacks a second by 2:35. The instruction and the low, quiet restart of the figure are on scan p. 5 of the first edition; the crescendo to forte is on scan p. 6. Exact bars are not aligned.',
+      "id": "slow-section-to-first-tempo", "title": "Quick notes over the lingering bass",
+      "from": "B · A dark song in B♭ minor", "to": "Link · The flutter returns low down",
+      "at": { t: 148 }, "span": [136, 166],
+      "how": "<p>The slow chords fade over a repeated low note. Ravel writes <i>revenez au premier mouvement</i>, and the quick figure returns at <i>ppp</i> above that same bass. It climbs through the keyboard while longer chords from the song interrupt it.</p>",
+      "devices": ["texture change", "tempo change", "crescendo build", "motivic link"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 5–6: return to the first tempo and the low repeated bass."
     },
     {
-      id: 'development-to-return',
-      title: 'Rising runs and a silent bar',
-      from: 'Link',
-      to: 'A′',
-      at: { t: 196 },
-      span: [172, 208],
-      how: '<p>After the forte stretch the volume falls back to pianissimo, and the writing runs through rising arpeggio figures like those that ended the first page of the score. A bar marked ppp follows, and the opening’s first figure then returns in its original notation, pianissimo. The listener is back at the start without any new transitional material: the join is made of a quiet gap, not a cadence.</p>',
-      devices: ['decrescendo', 'motivic link', 'retransition'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The level falls from −10.0 dB at 2:50 to −22.9 dB at 2:55; the 3:15 window is one of the five quietest in the recording (−23.0 dB) and the onset rate jumps to 4.6 a second at 3:20. The rising runs are on scan p. 6 and the restated figure on scan p. 7 of the first edition. The start of the return is estimated.',
+      "id": "development-to-return", "title": "A quiet gap before the moths",
+      "from": "Link · The flutter returns low down", "to": "A′ · The opening moths return",
+      "at": { t: 196 }, "span": [172, 208],
+      "how": "<p>Rising runs lose their momentum and leave a quiet bar at <i>ppp</i>. The first figure then reappears at <i>pp</i>, in its original position on the keyboard. The two hands recover the opening’s light, uneven phrases.</p>",
+      "devices": ["decrescendo", "motivic link", "retransition"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 6–7: rising runs, ppp bar and the return of the opening figure."
     },
     {
-      id: 'return-to-coda',
-      title: 'A fortissimo chord, then a distant chorale',
-      from: 'A′',
-      to: 'Coda',
-      at: { t: 232 },
-      span: [220, 246],
-      how: '<p>The return ends with a fortissimo chord under a fermata. A pianissimo, très léger run of figures follows and dies to ppp. Ravel then writes Presque lent in 3/4. Quiet chords marked lointain (distant) sit above a low sustained bass, and a line marked pp expressif answers them. The flutter is gone: the section is slow and quiet, and the music ends by recalling the first tempo for a few bars.</p>',
-      devices: ['fermata', 'decrescendo', 'tempo change', 'metre change', 'texture change'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The strongest boundary in the report is 3:52 (1.00); the onset rate falls to about one attack a second and the brightness to about 560 Hz. The fermata chord, the ppp rush and the Presque lent bars are on scan p. 9 of the first edition.',
-    },
+      "id": "return-to-coda", "title": "The flight ends in distant chords",
+      "from": "A′ · The opening moths return", "to": "Coda · Distant chords, then a last flutter",
+      "at": { t: 232 }, "span": [220, 246],
+      "how": "<p>A fortissimo chord pauses under a fermata. Quick figures run down through both hands to <i>ppp</i>; then <i>Presque lent</i> brings quiet chords above a low sustained bass. Ravel marks them <i>lointain</i>. The first tempo returns once more before the end.</p>",
+      "devices": ["fermata", "decrescendo", "tempo change", "texture change"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, p. 9: fermata, descending figures, Presque lent and final 1er Mouvement."
+    }
   ],
 };

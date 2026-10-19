@@ -19,217 +19,135 @@ export default {
   "source": {
     "file": "File:Vivaldi - Four Seasons 4 Winter mvt 1 Allegro non molto - John Harrison violin.oga"
   },
-  "intro": "Winter begins with repeated notes that gather into shivering. Rapid violin figures cut across them as gusts of wind, while the returning orchestral music develops the sonnet’s stamping feet and chattering teeth.",
-  "question": "How does Vivaldi make cold audible through rhythm rather than a change of instruments?",
+  "intro": "Cold gets into the strings: first a shiver, then stamping feet and chattering teeth. Between them the solo violin sends gusts of demisemiquavers across the orchestra.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Shivering refrain",
-      "m": "A"
-    },
-    {
-      "t": 38,
-      "label": "Wind solo · approximate",
-      "m": "B"
-    },
-    {
-      "t": 58,
-      "label": "Refrain and stamping · approximate",
-      "m": "A′",
-      "mNote": "the returning refrain develops into the stamping figure"
-    },
-    {
-      "t": 84,
-      "label": "Second solo episode · approximate",
-      "m": "C"
-    },
-    {
-      "t": 122,
-      "label": "E♭-major refrain · approximate",
-      "m": "A″",
-      "mNote": "repeated-note refrain returns in a new key"
-    },
-    {
-      "t": 141,
-      "label": "Solo and chattering teeth · approximate",
-      "m": "D"
-    },
-    {
-      "t": 181,
-      "label": "Final stamping refrain · approximate",
-      "m": "A′",
-      "mNote": "the stamping portion returns in F minor"
-    }
+    { "t": 0, "label": "A · Shivering strings", "m": "A", "mNote": "Repeated notes gather from the bass upwards; the violin adds trills" },
+    { "t": 38, "label": "B · The violin’s bitter wind", "m": "B", "mNote": "Rapid broken chords interrupt the shivering" },
+    { "t": 58, "label": "A′ · Shivering turns to stamping", "m": "A′", "mNote": "Repeated quavers tighten into semiquavers and demisemiquavers" },
+    { "t": 84, "label": "C · Solo runs and orchestral gusts", "m": "C", "mNote": "The violin travels from F minor towards E♭ major" },
+    { "t": 122, "label": "A″ · Shivering in E♭ major", "m": "A″", "mNote": "The strings return with the refrain’s repeated notes" },
+    { "t": 141, "label": "D · The violin chatters its teeth", "m": "D", "mNote": "Repeated semiquavers carry the solo back towards F minor" },
+    { "t": 181, "label": "A′ · Stamping in F minor", "m": "A′", "mNote": "The full strings repeat the stamping music to close" }
   ],
   "cues": [
     {
-      "t": 0,
+      "bar": { "n": "1", "occ": 1 },
       "kind": "music",
-      "title": "The texture accumulates",
-      "text": "Repeated notes begin low in the strings, and the higher parts join in stages. When the violin line adds trills, the same pulse becomes less steady in colour: the score’s shivering image grows from small changes inside a repeated rhythm.",
-      "basis": "documented",
+      "title": "Cold from the ground up",
+      "text": "“Aggiacciato tremar trà nevi algenti” — “To shiver, frozen, among icy snows.” The 1725 sonnet starts with a body in the cold. Repeated string notes build upwards from the bass; the solo violin joins with a trill on each short note.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "Mutopia I, opening bars 1–11, gives staggered entries and repeated notes, with trills in the solo part. The opening remains relatively quiet through the report’s first half-minute: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Winter sonnet, letter A; translation ours. Mutopia score after Performers’ Facsimiles, I, bars 1–11: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351. The sonnets were published anonymously with Op. 8."
     },
     {
-      "t": 40,
-      "kind": "listen",
-      "title": "Wind across the pulse",
-      "text": "The solo violin breaks into much faster figures. The contrast is not just speed: its runs range across registers while brief orchestral interruptions recall the repeated-note shivering.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "The score labels bar 12 Orrido Vento and writes demisemiquaver solo figures. The same-recording guide places this at about 0:38, also the report’s strongest boundary: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
-    },
-    {
-      "t": 70,
-      "kind": "world",
-      "title": "Instructions in the parts",
-      "text": "The winter sonnet describes shivering, harsh wind, stamping feet and chattering teeth. Vivaldi links those images to the score with verbal labels, so the bodily actions belong to the work’s published programme.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The sonnet and score annotations are reproduced and discussed in the movement analysis: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://nac-cna.ca/en/event/notes/36996."
-    },
-    {
-      "t": 100,
+      "bar": { "n": "12", "occ": 1 },
       "kind": "music",
-      "title": "Solo motion over recurring figures",
-      "text": "The soloist’s rapid patterns continue against reminders of the refrain. Listen for the difference between a running line and a note insistently repeated: Vivaldi uses both to keep this episode moving.",
-      "basis": "score-proportion",
+      "title": "The bitter wind",
+      "text": "“Al Severo Spirar d’orrido Vento” — “In the harsh breath of a dreadful wind.” The solo violin breaks into demisemiquavers, leaping through broken chords and racing down scales. Short orchestral interruptions bring back the shivering.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "Mutopia bars 26–38 place the solo’s rapid notes against recalled figures and later tutti wind interruptions. The guide places the episode around 1:23.5–2:02; the report has changes at 1:26, 1:40 and 1:50: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Winter sonnet, 1725, letter B; translation ours. Mutopia score, I, bars 12–18, solo marked Orrido Vento: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     },
     {
-      "t": 130,
-      "kind": "life",
-      "title": "Work beyond Venice",
-      "text": "Between 1718 and 1720 Vivaldi worked in Mantua for Prince Philip of Hesse-Darmstadt. His career moved between institutional music-making, aristocratic employment and the opera stage; Venice was its centre, not its only setting.",
-      "basis": "documented",
+      "bar": { "n": "22", "occ": 1 },
+      "kind": "music",
+      "title": "Feet against the cold",
+      "text": "“Correr battendo i piedi ogni momento” — “To run, stamping one’s feet at every moment.” Vivaldi squeezes the repeated notes closer together. Semiquavers sprout little bursts of demisemiquavers: the shivering body is trying to warm itself.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "The Pietà biography records the Mantua appointment and its 1718–1720 period: https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi. No claim is made here that Winter was composed there."
+      "evidence": "Winter sonnet, 1725, letter C; translation ours. Mutopia score, I, bars 20–26; the stamping inscription begins halfway through bar 22: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     },
     {
-      "t": 160,
-      "kind": "world",
-      "title": "Teeth in the notation",
-      "text": "The score labels this later episode “Batter li denti”: chattering teeth. Repeated short notes make the image specific without requiring the listener to identify a real-world sound effect.",
-      "basis": "documented",
+      "bar": { "n": "47", "occ": 1 },
+      "kind": "music",
+      "title": "Teeth in the bow",
+      "text": "“E pel Soverchio gel batter i denti” — “And to chatter one’s teeth from the excessive frost.” The solo violin repeats short notes under the words <i>Batter li denti</i>. The teeth keep chattering while the harmony passes through A♭ major and C minor towards F minor.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "Mutopia first violin bar 47 carries Batter li denti over repeated semiquavers; the same-recording guide places the image from about 2:31.5: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351; https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
+      "evidence": "Winter sonnet, 1725, letter D; translation ours. Mutopia score, I, bars 47–56; harmonic route in José Rodríguez Alvira’s commentary: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
     },
     {
-      "t": 192,
+      "bar": { "n": "56", "occ": 1 },
       "kind": "form",
-      "title": "Stamping closes the movement",
-      "text": "The ending keeps the more forceful stamping figure rather than replaying every detail of the opening shiver. The refrain can close the movement through one recognisable portion of its material.",
-      "basis": "score-proportion",
+      "title": "One last stamp",
+      "text": "The full strings take over in F minor. Vivaldi brings back the stamping part of the refrain, with its rapid repeated notes, and drives it to the final cadence. The movement ends on its feet.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "The score and commentary identify the final ritornello, bars 56–63, with the stamping portion. The guide starts it near 3:01; the report shows sustained high relative level through 3:20 before the abrupt final decay: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, I, bars 56–63, final ritornello; its use of the stamping music is identified at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
     }
   ],
   "transitions": [
     {
       "id": "wind-breaks-in",
-      "title": "Rapid arpeggios replace repeated notes",
-      "from": "Shivering refrain",
-      "to": "Wind solo",
-      "at": {
-        "t": 38
-      },
-      "how": "<p>The opening has moved from F minor towards C minor. The soloist takes over with rapid broken chords and register changes, while the orchestra interrupts with the earlier shivering rhythm. The contrast is in speed and distribution of the figures, not a new basic tempo.</p>",
-      "devices": [
-        "texture change",
-        "register change",
-        "motivic link"
-      ],
+      "title": "A C-minor gust",
+      "from": "A · Shivering strings",
+      "to": "B · The violin’s bitter wind",
+      "at": { "t": 38 },
+      "how": "<p>The shivering passage moves from F minor to C minor. The solo violin begins the wind on C, leaping an octave before racing through the notes of a C-minor chord. The orchestra interrupts with short returns of the shivering rhythm; the Allegro non molto marking remains.</p>",
+      "devices": ["texture change", "register change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The guide gives 0:38 for score bar 12; the report’s strongest novelty peak is also 0:38. The score identifies the wind and the interruptions: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, I, bars 9–18; key change discussed at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
     },
     {
       "id": "refrain-stamps",
-      "title": "The pulse becomes more insistent",
-      "from": "Wind solo",
-      "to": "Refrain and stamping",
-      "at": {
-        "t": 58
-      },
-      "how": "<p>The wind solo returns to F minor and the strings resume the repeated-note refrain. Shorter note values then transform its pulse into stamping figures. The new action develops inside the refrain instead of requiring a separate theme with unrelated material.</p>",
-      "devices": [
-        "motivic link",
-        "texture change"
-      ],
+      "title": "The shiver becomes a stamp",
+      "from": "B · The violin’s bitter wind",
+      "to": "A′ · Shivering turns to stamping",
+      "at": { "t": 58 },
+      "how": "<p>The wind returns to F minor and the full strings resume the repeated-note refrain. At bar 20 the violin turns its short quavers into semiquavers on F. Demisemiquaver bursts then break into that pulse under the inscription about running and stamping feet.</p>",
+      "devices": ["motivic link", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The guide places the return near 0:58 and the stamping development near 1:11.5; report changes occur at 1:00 and 1:10. Score bars 18–26 connect those figures: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, I, bars 18–26: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     },
     {
       "id": "second-solo",
-      "title": "The soloist runs beyond the refrain",
-      "from": "Refrain and stamping",
-      "to": "Second solo episode",
-      "at": {
-        "t": 84
-      },
-      "how": "<p>The full-string stamping yields to a running solo line. Repeated figures and brief tutti interventions retain a connection with what has just been heard, while the harmony travels from F minor towards E♭ major.</p>",
-      "devices": [
-        "orchestration change",
-        "motivic link"
-      ],
+      "title": "The violin runs out of F minor",
+      "from": "A′ · Shivering turns to stamping",
+      "to": "C · Solo runs and orchestral gusts",
+      "at": { "t": 84 },
+      "how": "<p>The stamping strings release the soloist in F minor. Its demisemiquavers wind around F, E♮ and G before climbing higher. The orchestra keeps the shivering figure beneath it, then interrupts with bursts marked winds as the episode travels towards E♭ major.</p>",
+      "devices": ["orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The commentary locates bars 26–38 at approximately 1:23.5–2:02. The report marks a change at 1:26 and the later E♭-major-compatible region; the score supplies the tonal destination: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, I, bars 26–38; orchestral wind interruptions and E♭-major destination described at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
     },
     {
       "id": "major-refrain",
-      "title": "A familiar rhythm in E♭ major",
-      "from": "Second solo episode",
-      "to": "E♭-major refrain",
-      "at": {
-        "t": 122
-      },
-      "how": "<p>The solo passage reaches E♭ major and repeated orchestral figures return in that key. The refrain keeps its shivering and short-note motion but does not yet restore the full stamping pattern reserved for the close.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change"
-      ],
+      "title": "The strings shiver in E♭",
+      "from": "C · Solo runs and orchestral gusts",
+      "to": "A″ · Shivering in E♭ major",
+      "at": { "t": 122 },
+      "how": "<p>The solo episode reaches E♭ major. The full strings bring back the repeated-note refrain in that key, including its semiquaver version. Vivaldi saves the denser stamping figures for the final return in F minor.</p>",
+      "devices": ["motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The source identifies score bars 38–44 and places the return near 2:02; the report has a strong boundary at 2:02. The form is established by notation, not by the feature peak alone: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, I, bars 38–44; the refrain’s contents are identified at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
     },
     {
       "id": "teeth-episode",
-      "title": "A solo leads into repeated semiquavers",
-      "from": "E♭-major refrain",
-      "to": "Solo and chattering teeth",
-      "at": {
-        "t": 141
-      },
-      "how": "<p>The orchestra yields to the soloist before the chattering figure takes hold. Repeated semiquavers then run through changing harmony, passing beyond E♭ major and returning towards F minor. The bodily image is maintained by rhythmic repetition rather than by staying on one chord.</p>",
-      "devices": [
-        "orchestration change",
-        "motivic link"
-      ],
+      "title": "The solo begins to chatter",
+      "from": "A″ · Shivering in E♭ major",
+      "to": "D · The violin chatters its teeth",
+      "at": { "t": 141 },
+      "how": "<p>The soloist leaves the E♭-major refrain and begins another rapid passage. At bar 47 repeated semiquavers carry the inscription <i>Batter li denti</i>. The episode passes through A♭ major and C minor before reaching F minor for the last tutti.</p>",
+      "devices": ["orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The guide gives about 2:20.5 for bar 44 and 2:31.5 for the teeth image at bar 47. The report shows renewed rapid activity around 2:30. The region is deliberately broader than an individual entrance: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, I, bars 44–56; harmonic itinerary at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
     },
     {
       "id": "final-stamping",
-      "title": "The stamping portion returns to close",
-      "from": "Solo and chattering teeth",
-      "to": "Final stamping refrain",
-      "at": {
-        "t": 181
-      },
-      "how": "<p>The solo episode has regained F minor. The full strings take up the stamping material, with rapid repeated notes reinforcing its rhythmic drive. A fragment of the refrain is enough to supply the final return and cadence.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "perfect cadence"
-      ],
+      "title": "F minor under stamping feet",
+      "from": "D · The violin chatters its teeth",
+      "to": "A′ · Stamping in F minor",
+      "at": { "t": 181 },
+      "how": "<p>The solo episode reaches F minor and the full strings take up the stamping music. Rapid repeated notes alternate with broken chords. The final refrain keeps this denser part of the earlier tutti through to the F-minor cadence.</p>",
+      "devices": ["motivic link", "orchestration change", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score bars 56–63 and the commentary identify the final stamping ritornello. Its same-recording start is about 3:01, within the report’s rise to the loud 3:00–3:20 region: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, I, bars 56–63; final ritornello described at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
     }
   ],
   "orchestra": {

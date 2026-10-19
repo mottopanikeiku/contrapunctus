@@ -1,0 +1,112 @@
+{
+  "id": "bizet-carmen-habanera",
+  "work": {
+    "title": "Carmen",
+    "catalogue": "Macdonald catalogue 9",
+    "movement": "Act I: Habanera — L’amour est un oiseau rebelle",
+    "version": {
+      "value": "French-language solo recording of the Habanera, with orchestral accompaniment; both verses and the closing refrain",
+      "status": "documented",
+      "sourceIds": ["ia", "fau", "score"],
+      "note": "A complete commercial aria side, not a recording of the surrounding stage scene. The English title on the disc describes the aria; the performance is in French. Ensemble participation in the stage score is not claimed for this solo recording."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Geraldine Farrar", "role": "Carmen, soprano" },
+      { "name": "Walter B. Rogers", "role": "conductor" },
+      { "name": "Orchestra, players not individually identified", "role": "orchestral accompaniment" }
+    ],
+    "status": "documented",
+    "sourceIds": ["ia", "loc", "fau"],
+    "note": "The Library of Congress supplies the conductor for matrix B-15474, take 2. Its catalogued issue is Victor 621; FAU connects the same matrix and take to Victor 87210, the issue digitised here."
+  },
+  "session": {
+    "date": {
+      "value": "1914-12-09",
+      "precision": "day",
+      "status": "documented",
+      "sourceIds": ["loc", "fau"],
+      "note": "Recording date, distinct from the February 1915 release bulletin and the 2021 Archive accession."
+    },
+    "place": {
+      "value": "New York, United States",
+      "status": "documented",
+      "sourceIds": ["loc"],
+      "note": "No particular studio address is asserted."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor / Victrola",
+      "status": "documented",
+      "sourceIds": ["ia", "fau", "release"],
+      "note": "The digitised pressing is labelled Victrola; the contemporary release bulletin lists it under the Victor Talking Machine Company."
+    },
+    "catalogue": {
+      "value": "87210",
+      "status": "documented",
+      "sourceIds": ["ia", "fau", "release"],
+      "note": "Ten-inch, single-sided Red Seal issue, announced in the February 1915 list."
+    },
+    "matrixTakeSides": {
+      "value": "B-15474, take 2; single side",
+      "status": "documented",
+      "sourceIds": ["fau", "loc"],
+      "note": "IA transcribes an inscription as 3L87210. That inscription is retained as transfer metadata, not substituted for the recording matrix identified by FAU and the Library of Congress."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "George Blood L.P.; digitisation and metadata: Nicholas Hoffman; cleaning: Kevin Coupe",
+      "status": "documented",
+      "sourceIds": ["ia"],
+      "note": "Credits reproduced from the Great 78 Project item metadata."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["ia"],
+      "note": "The item became public on 19 October 2021. The exact digitisation date is not established and is not replaced by that upload date."
+    },
+    "processing": {
+      "value": "Four stylus transfers were made; the selected friendly-filename transfer was preferred by the digitising engineer. Flat and equalised versions are described, with 500 Hz turnover for the latter.",
+      "status": "documented",
+      "sourceIds": ["ia", "ia-files"],
+      "note": "The notes name 3.8, 2.3, 2.8 and 3.3 mil truncated-conical styli but do not unambiguously identify the chosen stylus or equalisation for the friendly-filename MP3. Surface noise, distortion and small pops are noted by the archive; no site-side restoration is added."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/Carmen%20(%22Love%20is%20Like%20a%20Wood%20Bird%22)%20(Ac%20-%20Geraldine%20Farrar.mp3",
+    "sourceChain": ["ia", "ia-files"],
+    "format": "Internet Archive VBR MP3 derivative of the preferred FLAC transfer",
+    "durationSeconds": 198.66
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain: Bizet’s 1875 score and the nineteenth-century French text",
+      "status": "documented",
+      "sourceIds": ["catalogue", "score"],
+      "note": "Bizet died in 1875; the Habanera’s text is his own. This is the original French aria, not a modern translation or arrangement."
+    },
+    "recording": {
+      "value": "Public domain in the United States: commercially published in 1915, before the 1923 statutory boundary",
+      "status": "documented",
+      "sourceIds": ["release", "us-law"],
+      "note": "The Talking Machine World, January 1915, p. 62, lists Victor 87210 under ‘The February Red Seal Records’. This establishes publication independently of the December 1914 session and the Archive’s generic 1914 date. Under the Classics Protection and Access Act, protection for pre-1923 publications ended on 31 December 2021. No worldwide-rights claim is made."
+    },
+    "creditLine": "Georges Bizet: Carmen, Habanera. Geraldine Farrar; Walter B. Rogers, conductor. Victor 87210, matrix B-15474-2, recorded 9 December 1914. Great 78 Project / George Blood L.P.; transfer Nicholas Hoffman, cleaning Kevin Coupe. Public domain in the United States.",
+    "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
+  },
+  "sources": [
+    { "id": "ia", "title": "Internet Archive / Great 78 Project — Carmen (Love Is Like a Wood Bird), Geraldine Farrar, GBIA0354066A", "url": "https://archive.org/metadata/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/metadata", "locator": "Performer, French-language description, catalogue, transfer credits, technical notes and accession date", "accessed": "2026-10-19" },
+    { "id": "ia-files", "title": "Internet Archive — GBIA0354066A file manifest", "url": "https://archive.org/metadata/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/files", "locator": "Preferred friendly-filename FLAC and VBR MP3, derivative chain and durations", "accessed": "2026-10-19" },
+    { "id": "fau", "title": "Florida Atlantic University Recorded Sound Archives — Habanera, Victor 87210", "url": "https://rsa.fau.edu/album/7640", "locator": "Catalogue 87210, matrix B-15474-2, date recorded 9 December 1914, ten-inch single-sided disc", "accessed": "2026-10-19" },
+    { "id": "loc", "title": "Library of Congress National Jukebox — Habanera, matrix B-15474, take 2", "url": "https://www.loc.gov/item/jukebox-11762/?fo=json", "locator": "9 December 1914, New York; Farrar and Walter B. Rogers; Victor 621 reissue of the same matrix", "accessed": "2026-10-19" },
+    { "id": "release", "title": "The Talking Machine World, January 1915 — Record Bulletins for February 1915", "url": "https://www.worldradiohistory.com/Archive-Talking-Machine/10s/Talking-Machine-1915-01.pdf", "locator": "Printed p. 62, PDF p. 62: ‘The February Red Seal Records’, Victor 87210, Carmen–Habañera, Geraldine Farrar, soprano solo in French", "accessed": "2026-10-19" },
+    { "id": "catalogue", "title": "Hugh Macdonald — Bizet Catalogue: Carmen", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html", "locator": "Catalogue 9; composition, Habanera text and Iradier borrowing", "accessed": "2026-10-19" },
+    { "id": "score", "title": "Carmen, vocal score arranged by the composer — Choudens, Paris (archive.org copy catalogued 1883)", "url": "https://archive.org/details/carmenopracomi00bize", "locator": "No. 5, Habanera, printed pp. 49–59, with the footnote on p. 49 acknowledging the Spanish source; digitised copy from the University of North Carolina. The archive catalogues this copy as 1883, not as the 1875 first edition.", "accessed": "2026-10-19" },
+    { "id": "us-law", "title": "U.S. Copyright Office — Classics Protection and Access Act", "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/", "locator": "Term: protection for recordings first published before 1923 ended on 31 December 2021", "accessed": "2026-10-19" }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-19" }
+}

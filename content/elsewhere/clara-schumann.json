@@ -1,0 +1,66 @@
+{
+  "composer": "clara-schumann",
+  "items": [
+    {
+      "work": "Piano Concerto in A minor, Op. 7",
+      "year": "1833–35",
+      "performers": "Isata Kanneh-Mason, piano; Jonathan Aasgaard, cello; Royal Liverpool Philharmonic Orchestra; Holly Mathieson, conductor",
+      "recorded": "April 2019, The Friary, Liverpool",
+      "label": "Decca",
+      "note": "The teenage Clara Wieck puts a piano-and-cello duet at the centre of her concerto. Kanneh-Mason’s forceful playing has a generous orchestral partner in the Royal Liverpool Philharmonic, with Jonathan Aasgaard joining her in the Romance.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/romance-the-piano-music-of-clara-schumann/1463178540",
+          "title": "Decca album on Apple Music — Isata Kanneh-Mason, concerto on tracks 1–3"
+        },
+        {
+          "kind": "label",
+          "url": "https://www.universalmusic.it/musica-classica/album/romance-ndash-the-piano-music-of-clara-schumann_33251970890/",
+          "title": "Decca / Universal Music catalogue — Romance"
+        }
+      ]
+    },
+    {
+      "work": "Piano Trio in G minor, Op. 17",
+      "year": "1846",
+      "performers": "The Nash Ensemble: Stephanie Gonley, violin; Adrian Brendel, cello; Simon Crawford-Phillips, piano",
+      "recorded": "May 2019, St Silas the Martyr, Kentish Town, London",
+      "label": "Hyperion",
+      "note": "Written in Dresden in 1846, this four-movement trio reserves a substantial fugue for its finale. The Nash Ensemble brings fire to the playing and a fine balance between violin, cello and piano.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W153_68307",
+          "title": "Hyperion catalogue — complete trio from CDA68307, The Nash Ensemble"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Decca / Universal Music — Romance, concerto credits and label",
+      "url": "https://www.universalmusic.it/musica-classica/album/romance-ndash-the-piano-music-of-clara-schumann_33251970890/"
+    },
+    {
+      "title": "Antony Hodgson, The Classical Source (July 2019) — recording dates, Kanneh-Mason’s interpretation and Aasgaard’s cello solo",
+      "url": "https://www.classicalsource.com/cd/isata-kanneh-mason-plays-the-piano-music-of-clara-schumann-concerto-romances-sonata-transcriptions-decca/"
+    },
+    {
+      "title": "Breitkopf & Härtel — Piano Concerto, Op. 7, composition and première dates",
+      "url": "https://www.breitkopf.com/en/work/20680/piano-concerto-in-a-minor-op.-7"
+    },
+    {
+      "title": "Harlow Robinson, Los Angeles Philharmonic — the concerto’s central Romance for piano and cello",
+      "url": "https://www.laphil.com/works/piano-concerto-in-a-minor-op-7"
+    },
+    {
+      "title": "Hyperion — Piano Trio, Op. 17: Natasha Loges’s work note, session details and published reviews",
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W153_68307"
+    },
+    {
+      "title": "Hyperion CDA68307 — detailed Nash Ensemble personnel",
+      "url": "https://www.hyperion-records.co.uk/service-getFullPersonnel.asp?id=D_CDA68307&type=C&lang=1"
+    }
+  ]
+}

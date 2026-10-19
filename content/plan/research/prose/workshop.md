@@ -1,0 +1,118 @@
+# Workshop prose sources
+
+Source record for the rewrite of `content/pages/workshop.mjs`. The page schema has no `sources` array. Existing lesson ids, numerals, listening ids and times, image filenames and ABC strings are retained. The invented examples remain labelled as invented or schematic; their explanations describe the supplied notation.
+
+## Counterpoint, fugue and figured bass
+
+- [Open Music Theory: species counterpoint](https://pressbooks.nebraska.edu/openmusictheory/chapter/species-counterpoint/) supports the note-against-note exercise, consonances, treatment of dissonance, parallel fifths and octaves, and the five species.
+- [Ramona Hocker, Newberry Library, on Fux’s *Gradus ad Parnassum*](https://italian.newberry.t-pen.org/essay/075) supplies Vienna, 1725, and the imaginary dialogue between Josephus and Aloysius, representing Palestrina. This also grounds the title-page arts note.
+- [Open Music Theory: High Baroque fugal exposition](https://pressbooks.nebraska.edu/openmusictheory/chapter/high-baroque-fugal-exposition/) distinguishes subject, real and tonal answer, countersubject, link and episode. Its BWV 847 example gives the exposition in bars 1–8, two countersubjects and the episode beginning in bar 9.
+- [José Rodríguez Alvira’s BWV 846 analysis](https://www.teoria.com/en/articles/BWV846/) and the [Mutopia LilyPond score](https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-fugue1/wtk1-fugue1.ly) establish the fourteen-note subject, the opening alto, soprano entry in bar 2, later tenor and bass entries, and stretto. The printed excerpt continues past the subject’s last E into its continuation.
+- [Open Music Theory: basso continuo](https://openmusictheory.github.io/bassoContinuo.html) supports the figures and the distinction between a bass line, its figures and the realised upper voices. The four-player account describes the recording attached to `couperin-nations-piemontaise`, with violin, flute, gamba and keyboard; it is not a claim that Couperin prescribed that combination for every performance.
+
+## Temperament and harmony
+
+- [Mark Lindley, acoustical introduction](https://www.simpk.de/forschung/publikationen/online-publikationen/1-lindley.html) supplies harmonic ratios, beats, commas, meantone and the historical separation of enharmonic keyboard notes. The ratios 81:64, 81:80 and 531441:524288 follow from the stated pure fifth and third. The laboratory retains its original ratios and 220 Hz reference; the explanatory text describes the corresponding partial pairs.
+- [Lindley, *Valuable nuances of tuning for Bach’s Well-Tempered Clavier I*](https://www.simpk.de/forschung/publikationen/online-publikationen/mark-lindley-valuable-nuances-of-tuning-for-bachs-wtc-i.html) supports keeping the distinction between a usable twenty-four-key tuning and modern equal temperament. Bach’s precise tuning is not asserted.
+- [Bach BWV 846 Prelude, Mutopia source](https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1.ly), bars 1–4: C major; D minor seventh over C; G7 over B; C major. The bass is C–C–B–C. The prose compresses that to its movement from C to B and back, and identifies F–E at the resolution.
+- The cadence and pivot examples are original teaching examples. In the supplied notation the G7 omits its fifth, and the final C-major chord of the figured-bass example omits G. The new captions make those voicings explicit.
+
+## Sonata form and chromaticism
+
+- [Beethoven Fifth, Mutopia full score](https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-a4.pdf), together with the existing score-linked `beethoven-5-first` listening entry, supplies the E♭-major violin theme at bar 63, its C-major return at bar 307, the cello’s B♭–B♭–B♭–E♭ at bars 65–66, and the development beginning at bar 125. The return’s bassoon call replaces the exposition’s horns.
+- [Rodríguez Alvira, Beethoven’s *Waldstein*](https://www.teoria.com/en/tutorials/forms/sonata/waldstein.php) confirms the second group’s E major in the exposition and A major followed by C major in the recapitulation.
+- [Rodríguez Alvira, Chopin Prelude No. 4, voice movement in bars 1–8](https://www.teoria.com/en/articles/chopin-prelude-04/02.php), including its [voice-leading diagram](https://www.teoria.com/res/images/articles/chopin-prelude-04/graf.gif), confirms the lower voice’s successive semitone descents G–F♯–F–E during bars 1–4. The [opening harmonic reduction](https://www.teoria.com/en/articles/chopin-prelude-04/01.php) supplies the wider context.
+- The Neapolitan, German sixth and diminished-seventh progressions remain invented examples. Spelling is essential: A♭–C–E♭–F♯ points to G; the enharmonic A♭7 can point to D♭. B–D–F–A♭ and G♯–B–D–F have the same equal-tempered pitch classes but different leading notes.
+
+## Tristan and leitmotif
+
+- [John Rothgeb, “The Tristan Chord: Identity and Origin”, *Music Theory Online* 1.1 (1995)](https://mtosmt.org/issues/mto.95.1.1/mto.95.1.1.rothgeb.html) supplies the discussion of bars 2–3, F–B–D♯–G♯, the oboe’s G♯–A–A♯–B and the French-sixth/appoggiatura interpretation. The interpretation stays in a note; the main account describes the dominant arrival and silence.
+- [University of Texas, Wagner’s *Ring*: the Sword family](https://www.laits.utexas.edu/wagner/122.html) gives the motive’s first occurrence in *Rheingold*, scene 4, and its Siegmund, Nothung and Siegfried relations.
+- [Wagner, *Siegfried*, Margaret Armour’s translation, illustrated by Rackham (1911)](https://www.gutenberg.org/files/49507/49507-h/49507-h.htm), Act I, opens at Mime’s anvil. Mime says he cannot weld Nothung’s fragments; the contents identify the later forging of Nothung. [Commons’ record of the existing image](https://commons.wikimedia.org/wiki/File:Siegfried_and_the_Twilight_of_the_Gods_p_004.jpg) identifies the Rackham illustration.
+- [Benedikt von Bernstorff, Berliner Philharmoniker note on *Symphonie fantastique*](https://www.berliner-philharmoniker.de/en/programme-notes/hector-berlioz-symphonie-fantastique-op-14/) supports the idée fixe across all five movements and its high-clarinet, trilled caricature in the finale.
+
+## Modes, whole-tone and octatonic scales
+
+- [Open Music Theory: twentieth-century scales](https://openmusictheory.github.io/scales2) supports the scale constructions and their transpositional symmetries. The prose uses explicit note lists instead of relying on collection-number conventions.
+- [*L’isle joyeuse*, analysis and cited scholarship](https://en.wikipedia.org/wiki/L%27isle_joyeuse) identifies A major with the Lydian D♯ at bar 67. The attempted direct retrieval of Dmitri Tymoczko’s “Scale Networks and Debussy” failed, so the page does not add its more detailed bar-by-bar analysis.
+- [Rodríguez Alvira, Debussy’s *Voiles*](https://www.teoria.com/en/articles/2020/debussy-preludes/02/index.php) gives whole-tone bars 1–41, pentatonic bars 42–47, and the whole-tone return at bar 48. Both collections lack semitones; the rewritten question avoids implying that the pentatonic passage restores them.
+- [*Petrushka* chord, score examples and cited analyses](https://en.wikipedia.org/wiki/Petrushka_chord) supports the C/F♯ combination and the later A/E♭ chords completing the octatonic collection. The page does not assign a rehearsal number that was not checked against the relevant score edition.
+
+## Atonality and twelve-tone writing
+
+- [Arnold Schönberg Center, Second String Quartet, Op. 10](https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10), including the composer’s introductory account, supports the 1907–08 dating and the distinction between the fourth movement’s free opening and its surviving tonal cadences.
+- [Lenbachhaus, *Impression III (Concert)*](https://www.lenbachhaus.de/en/digital/collection-online/detail/impression-iii-konzert-30012206) identifies the Munich concert on 2 January 1911, Franz Marc among Kandinsky’s companions, and the piano and audience in the painting and preparatory drawings. The museum text’s anachronistic reference to twelve-tone music at this concert is not repeated. Programme details and the fuller companion list were omitted rather than extended beyond this source.
+- [Eike Feß, Arnold Schönberg Center, Suite for Piano Op. 25](https://schoenberg.at/en/schoenberg/kompositionen/suite-for-piano-op-25) supplies 1921–23, the eight row forms actually used, the reversed B–A–C–H ending, repeated pitches from Prelude bar 3, the Intermezzo’s low melody, and the Gigue’s accents.
+- The quotation “a uniform musical idea” is Schoenberg’s, in a letter to Nicolas Slonimsky dated **3 June 1937**, reproduced in Feß’s article. The source’s sweeping claim that pitch repetition is prohibited is not adopted; the same article documents repetitions.
+- The atonal cell is C–C♯–F, with directed distances +1 and +4 semitones. C♯–F is not called a spelled major third. Its inversion C–B–G has distances −1 and −4. All row and cell examples retain their original ABC.
+
+## Rhythm and orchestration
+
+- [Eric Bromberger, Seattle Chamber Music Society programme, 31 January 2026](https://www.seattlechambermusic.org/wp-content/uploads/2026/01/Concert-5-WF26-Program-Notes.pdf), Ravel quartet section, describes the pizzicato opening and the 6/8(3/4) signature with competing accents.
+- [Monash composers’ analysis of Bartók’s Bulgarian dances](https://monashcomposers.wordpress.com/2009/10/28/bela-bartok-dances-in-bulgarian-rhythm-mikrokosmos-vol-6148-153/) gives No. 148 as 4+2+3 and No. 149 as 2+2+3. No broader ethnographic claim is made from this source.
+- [Peter Laki, Cleveland Orchestra note on *Boléro*](https://www.clevelandorchestra.com/posts/ravels-bolero) describes the instrumental sequence, including flute, clarinet, bassoon, trumpet/flute, horn/celesta/piccolos and trombone. The linked listening entry supplies the unchanged cue times. The prose concentrates on these concrete changes instead of retaining a catalogue of orchestration treatises.
+- The hemiola, added-value and three-against-two captions are derived from the unchanged examples. “Three against two” means three and two attacks in the same duration, not independently changing tempi.
+
+## Minimalism
+
+- [Steve Reich’s programme note for *Piano Phase*](https://stevereich.com/composition/piano-phase/) is the primary source for his late-1966 experiment with tape and live piano, the 1967 work, gradual phase shifts and the return to unison. The four-note illustration is explicitly distinguished from the work’s twelve-note opening figure.
+- [Terry Riley, *In C*, score and performing directions](https://www.djspooky.com/media/TerryRiley_InC.pdf) supplies 1964, fifty-three ordered patterns, individually chosen repetitions, the request to stay within two or three patterns, and the optional repeated high-C pulse.
+- [Tim Page’s notes, Philip Glass’s *Two Pages* recording](https://philipglass.com/recordings/two_pages/) support expansion and contraction by additive process. No uncertain composition date or broader biographical inference is added.
+- [Arvo Pärt Centre, *Für Alina*](https://www.arvopart.ee/en/arvo-part/work/477/) supplies 1976, the B-minor triadic voice, and phrases growing and contracting by note count. The melody is no longer called uniformly stepwise. The nearest-strictly-lower rule in A minor belongs to the invented example, not to a claimed complete analysis of Pärt’s piece.
+
+## Spectralism and Piero
+
+- [IRCAM catalogue and Grisey programme note for *Partiels*](https://ressources.ircam.fr/en/work/partiels) establish the eighteen-player ensemble and instrumental synthesis.
+- [François-Xavier Féron, IRCAM lecture, 9 November 2022](https://ressources.ircam.fr/en/media/xc3f6d1_francois-xavier-feron-lexploration-musi) explicitly rejects a trombone-sound model for *Périodes* and *Partiels*, and identifies later use of Michèle Castellengo’s analyses for *Modulations* and *Transitoires*. This remains a source note instead of becoming a defensive qualification throughout the explanation.
+- [CIEREC, *Gondwana* analysis](https://musinf.univ-st-etienne.fr/recherches/analyses/SpectralSiteLP/gondwana.html) describes its frequency-modulation calculations and inharmonic orchestral chords. [Philippe Lalitte and Julian Anderson, IRCAM survey of Murail](https://ressources.ircam.fr/fr/composer/tristan-murail/workcourse) supports 1980 and the bell/brass spectral models and continuing transformations.
+- The harmonic-series cents values are mathematical comparisons with twelve-tone equal temperament: third/sixth +1.96 cents, fifth −13.69, seventh −31.17. The ABC remains a tempered approximation.
+- [Grisey’s programme note for *L’Icône paradoxale*, Festival Musica 1996, reproduced by IRCAM](https://brahms.ircam.fr/fr/work/l%27icone-paradoxale) links Piero’s fresco, the nested openings, proportions 3:5:8:12, durations, the divided orchestra and the singers’ text. The arts note reports the composer’s account rather than asserting an independent mathematical analysis of the fresco.
+
+## Removed or narrowed claims
+
+Unnecessary historical tours and cross-composer comparisons were cut, including the Glinka and Rimsky-Korsakov precedents, the broad Sibelius/Vaughan Williams modal comparison, and the orchestration-treatise list. These were not treated as established evidence for the replacement prose. The Kandinsky concert’s fuller programme and companion list were narrowed to the consulted museum account. Unsupported implications of universal stepwise motion in *Für Alina*, compulsory pitch non-repetition in twelve-tone writing, and quieter upper partials in every instrumental sound are avoided. No unresolved factual claim is knowingly left in the rewritten explanations.
+
+## Fact-check (independent)
+
+Checked 18 October 2026 by a second reader. Each source below was opened and read; the quotation, every dated or numbered claim and every score detail in `content/pages/workshop.mjs` was matched against a source, a score or arithmetic. No change was needed. The file was not edited.
+
+### Confirmed quotation
+
+- Schoenberg to Nicolas Slonimsky, 3 June 1937: “Afterward, I was preoccupied with the notion of deliberately basing the structure of my music on a uniform musical idea, one which would not only foster all other ideas, but also regulate their accompaniment and the chords…” The lesson’s “a uniform musical idea” and its account of governing themes and accompaniment follow it exactly ([Eike Feß, Schönberg Center](https://schoenberg.at/en/schoenberg/kompositionen/suite-for-piano-op-25)).
+
+### Confirmed facts, counterpoint to harmony
+
+- Fux, *Gradus ad Parnassum*, Vienna 1725; pupil Josephus (= Fux), teacher Aloysius (= Palestrina) ([Newberry Library](https://italian.newberry.t-pen.org/essay/075)).
+- Bach BWV 846 fugue, read in the [Mutopia LilyPond source](https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-fugue1/wtk1-fugue1.ly): alto subject on C in bar 1, soprano answer on G in bar 2, tenor answer on G in bar 4, bass subject on C in bar 5 — subject, answer, answer, subject; the answer keeps every interval of the subject (real); the subject has fourteen notes and ends on the first E of bar 2; later entries overlap (stretto: the bass answer enters in bar 15 before the alto subject begun in bar 14 has ended).
+- BWV 847: exposition bars 1–8, two regular countersubjects, tonal answer, episode from bar 9 ([Open Music Theory](https://pressbooks.nebraska.edu/openmusictheory/chapter/high-baroque-fugal-exposition/)).
+- Temperament: all ratios and cent values checked by arithmetic — 3⁴/2⁴ ÷ 4 = 81:64; 81:80 = 21.51 cents; 531441:524288 = 23.46 cents; a quarter-comma narrowing is 5.38 cents; the equal-tempered major third is 13.69 cents wide; over A = 220 Hz the equal-tempered fifth gives partials at 660 and 659.255 Hz (0.745 Hz, about three beats in four seconds) and the third gives 1100 and 1108.73 Hz (8.73 beats per second).
+- Bach Prelude BWV 846, bars 1–4 (C; D minor seventh over C; G7 over B; C; F falls to E into bar 4): taken from the earlier Mutopia reading in this record and not re-derived in this pass.
+- Beethoven Fifth, first movement, read from the [Mutopia LilyPond part files](https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip) and the printed bar numbers of the [Mutopia PDF](https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-a4.pdf): first violins enter on B♭ then E♭ (marked *dolce*) in bar 63; cellos play three quavers on B♭ after a quaver rest in bar 65 and an E♭ crotchet in bar 66; the horns’ call is at bar 125 with strings answering D♭ D♭ D♭ then C in bars 126–128; after the exposition repeat the development begins at bar 125; in the recapitulation violins rest for bars 303–306 while bassoons sound and the violin tune G C B C D A enters on bar 307 in C major (the five unnumbered bars of the oboe cadenza make the raw part-file count run five bars ahead of the printed numbers after bar 268).
+- *Waldstein*: second group in E major in the exposition; in the recapitulation it starts in A major before reaching C major ([Teoría](https://www.teoria.com/en/tutorials/forms/sonata/waldstein.php)).
+- Chopin Prelude Op. 28 No. 4, read in the [Mutopia LilyPond source](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=921): lowest left-hand notes G, F♯, F, E in bars 1–4.
+
+### Confirmed facts, Tristan to octatonic
+
+- *Tristan* bars 2–3: bass F, the chord’s intervals above it A4, A6 and A9; the oboe slide G♯–A–A♯–B understood by Rothgeb as an indivisible ornament that “enter[s] prematurely” above the bass before the one it belongs to; Mayrberger’s long appoggiatura reading; E7 in bar 3 followed by silence ([John Rothgeb, *Music Theory Online* 1.1](https://mtosmt.org/issues/mto.95.1.1/mto.95.1.1.rothgeb.html)).
+- Debussy, *Golliwogg’s Cake-walk*, from *Children’s Corner* (1908): the opening bars turn the Tristan chord into a syncopated arpeggio, and the middle section is interrupted several times by the Tristan opening marked *avec une grande émotion* ([Wikipedia, Golliwogg’s Cakewalk](https://en.wikipedia.org/wiki/Golliwogg%27s_Cakewalk)).
+- Wagner’s sword motive first occurs in *Rheingold* scene 4 ([University of Texas](https://www.laits.utexas.edu/wagner/122.html)); Hans von Wolzogen’s 1876 guide named the Ring motives ([Wikipedia, Leitmotif](https://en.wikipedia.org/wiki/Leitmotif)); Mime at the anvil is plate 2 of Rackham’s illustrations for *Siegfried* and the libretto has Mime unable to weld Nothung’s pieces ([Gutenberg 49507](https://www.gutenberg.org/files/49507/49507-h/49507-h.htm)).
+- Berlioz: the *idée fixe* appears in all five movements, and in the finale “the high clarinet” plays it ornamented by trills ([Berliner Philharmoniker](https://www.berliner-philharmoniker.de/en/programme-notes/hector-berlioz-symphonie-fantastique-op-14/)); the E♭ clarinet statement is documented in the local Sabbat listen file.
+- *L’isle joyeuse*: A major with occasional Lydian D♯ at the second theme, bar 67 ([Wikipedia](https://en.wikipedia.org/wiki/L%27isle_joyeuse), citing Samson).
+- *Voiles*: whole-tone bars 1–41, pentatonic bars 42–47, whole-tone return from bar 48 ([Teoría](https://www.teoria.com/en/articles/2020/debussy-preludes/02/index.php)); pedal B♭ in the bass and black-key pentatonic middle section (web analyses read via search; consistent with Teoría’s motive m3 in the bass).
+- *Petrushka* chord: C major over F♯ major in the second tableau, played by piano and clarinets; at the end of the third tableau versions on A and E♭ exhaust the octatonic collection ([Wikipedia](https://en.wikipedia.org/wiki/Petrushka_chord)). Messiaen’s modes 1 and 2 are the whole-tone and octatonic scales: standard.
+
+### Confirmed facts, atonality to spectralism
+
+- Quartet Op. 10 dated 1907/08; finale’s introduction suspends tonality while other passages have conspicuously tonal cadences ([Schönberg Center](https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10)).
+- Kandinsky, 2 January 1911, Schoenberg concert with Marc; black grand piano and bent backs of the audience in the painting and in two preparatory drawings ([Lenbachhaus](https://www.lenbachhaus.de/en/digital/collection-online/detail/impression-iii-konzert-30012206)).
+- Suite Op. 25: row E F G D♭ G♭ E♭ A♭ D B C A B♭ — the ABC prime, inversion about E, retrograde and retrograde inversion were all recomputed pitch by pitch; the retrograde begins B♭–A–C–B♮ (B–A–C–H); eight of 48 forms used, original, cancrizans, inversion, cancrizans inversion and their tritone transpositions; pitch repetitions from Prelude bar 3; calm low-register Intermezzo melody; 1921–23 ([Feß](https://schoenberg.at/en/schoenberg/kompositionen/suite-for-piano-op-25)).
+- Ravel String Quartet scherzo: pizzicato opening, 6/8(3/4) with first violin in 3/4 against 6/8 accents elsewhere ([Eric Bromberger, Seattle Chamber Music Society](https://www.seattlechambermusic.org/wp-content/uploads/2026/01/Concert-5-WF26-Program-Notes.pdf)).
+- Bartók *Mikrokosmos* 148 in 9/8 grouped 4+2+3 and 149 in 7/8 grouped 2+2+3 ([Monash Composers](https://monashcomposers.wordpress.com/2009/10/28/bela-bartok-dances-in-bulgarian-rhythm-mikrokosmos-vol-6148-153/)).
+- *Boléro* orchestration order from the [Timbre and Orchestration Resource](https://timbreandorchestration.org/learn-about-orchestration/scores-and-recordings/ravel/bolero): flute, clarinet, then bassoon on the second tune, E♭ clarinet, oboe d’amore, flute with muted trumpet, saxophones, horn with piccolos and celesta, trombone; the snare drums play the rhythm without interruption and the bass has the same two notes for all but eight bars ([Laki](https://www.clevelandorchestra.com/posts/ravels-bolero)).
+- Reich’s late-1966 tape-loop experiment and gradual phasing ([Steve Reich](https://stevereich.com/composition/piano-phase/)); Riley’s *In C* (1964): 53 patterns played in sequence, free repetition, “stay within 2 or 3 patterns of each other”, eighth-note pulse on high C’s ([score and directions](https://www.djspooky.com/media/TerryRiley_InC.pdf)); Glass’s *Two Pages* written in 1967 or 1968 as a study in elongation and contraction, “additive process” ([Tim Page, Philip Glass site](https://philipglass.com/recordings/two_pages/)); Pärt’s *Für Alina* (1976) ([Arvo Pärt Centre](https://www.arvopart.ee/en/arvo-part/work/477/)).
+- Grisey, *Partiels* (1975), eighteen players ([IRCAM](https://brahms.ircam.fr/en/works/work/8966/)); Féron’s lecture of 9 November 2022 recalls that no trombone sound served as a model in *Périodes* and *Partiels*, and that Castellengo’s analyses served sections of *Modulations* and *Transitoires* ([IRCAM](https://ressources.ircam.fr/en/media/xc3f6d1_francois-xavier-feron-lexploration-musi)); Murail’s *Gondwana* (1980) uses FM-generated inharmonic chords modelled on bells and brass ([IRCAM survey](https://ressources.ircam.fr/fr/composer/tristan-murail/workcourse); [CIEREC](https://musinf.univ-st-etienne.fr/recherches/analyses/SpectralSiteLP/gondwana.html)); harmonic-series offsets of +1.96, −13.69 and −31.17 cents recomputed from 3:1, 5:1 and 7:1.
+- Grisey’s programme note for *L’Icône paradoxale* (Festival Musica 96): angels parting the curtain answered by fingers parting the dress, “un espace s’ouvre sur un espace qui s’entrouvre”; Piero’s signatures and extracts from *De perspectiva pingendi* as vocal material; the fresco’s proportions 3–5–8–12 as temporal material ([IRCAM](https://brahms.ircam.fr/fr/work/l%27icone-paradoxale)).
+
+### Protected data
+
+No error found. Ids, numerals, listening ids and times, image file names and ABC strings were not changed.

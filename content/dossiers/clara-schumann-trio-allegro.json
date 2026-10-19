@@ -1,0 +1,170 @@
+{
+  "id": "clara-schumann-trio-allegro",
+  "work": {
+    "title": "Piano Trio in G minor",
+    "catalogue": "Op. 17",
+    "movement": "I. Allegro moderato",
+    "version": {
+      "value": "Original scoring for violin, cello and piano",
+      "status": "documented",
+      "sourceIds": ["label-scan", "score"],
+      "note": "The original label identifies the movement and the three instruments. The edition and part materials used at the session are not established. Section timings are broad score-proportion anchors; no bar-level alignment or listening review is claimed."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Leopold Mannes", "role": "piano" },
+      { "name": "Bronislav Gimpel", "role": "violin" },
+      { "name": "Luigi Silva", "role": "cello" }
+    ],
+    "status": "documented",
+    "sourceIds": ["label-scan", "archive"],
+    "note": "The label names The Mannes-Gimpel-Silva Trio and prints Gimpel’s given name as Bronislav; that spelling is retained."
+  },
+  "session": {
+    "date": {
+      "value": "1951",
+      "status": "documented",
+      "sourceIds": ["session-review"],
+      "note": "Jonathan Woolf identifies Clara’s Trio as recorded at the same 1951 sessions as the Beethoven coupling. No precise session date is established. The separate Archive date field describes the LP publication.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "session-review"],
+      "note": "Neither the transfer metadata nor the consulted reissue review establishes the recording venue. The Archive country field identifies the US release, not the session location."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Decca Gold Label Series",
+      "status": "documented",
+      "sourceIds": ["label-scan"],
+      "note": "Original 33⅓-rpm LP label, not the Forgotten Records reissue."
+    },
+    "catalogue": {
+      "value": "DL 9555",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive", "publication-review"],
+      "note": "Internet Archive dates the LP to 1951. A contemporary review independently establishes commercial publication by September 1952; the rights assessment uses that documented upper bound."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, band 1; printed label matrix MG 2301",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive-files"],
+      "note": "The label lists the first three movements on side 1; the selected derivative is the first band. MG 2301 is the printed side matrix. No individual take or tape number is established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP digitisation",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item belongs to the Boston Public Library vinyl collection. No unverified personal mastering credit is inferred from operator accounts."
+    },
+    "date": {
+      "value": "2021-07-15",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The ripping_date field is 20210715042255. This is the transfer date; the sleeve and labels were scanned separately in June 2021."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable with Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; segmented VBR MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "The playback and digitisation chain is stated in the item’s lineage field. Equalisation, pitch correction and noise-reduction settings are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/disc1/01.01.%20Trio%20In%20G%20Minor%2C%20Op%2017%3A%201st%20Mov't%3A%20%20Allegro%20Moderato.mp3",
+    "sourceChain": ["label-scan", "archive", "archive-files"],
+    "format": "VBR MP3 derivative of a mono vinyl LP transfer",
+    "durationSeconds": 466.44
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain under ordinary life-plus-70 terms; the original score was published in 1847 and Clara Schumann died in 1896.",
+      "status": "inferred",
+      "sourceIds": ["score-catalogue", "pearson"],
+      "note": "This assessment concerns the historical composition and first edition, not an unidentified modern edition or every jurisdiction."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: commercial publication on Decca DL 9555 documented by September 1952, before 1963.",
+      "status": "documented",
+      "sourceIds": ["publication-review", "label-scan", "eu-term"],
+      "note": "The project’s pre-1963 rule relies on expiry of the former 50-year phonogram term before the 2013 extension. Audio Engineering reviews this LP in September 1952. The year 1952 is a conservative publication-by date, distinct from the documented 1951 sessions and the Archive’s 1951 release attribution. US recording status is not established. This is not a Creative Commons licence or worldwide clearance."
+    },
+    "creditLine": "Clara Schumann, Piano Trio in G minor, Op. 17: I. Allegro moderato; The Mannes-Gimpel-Silva Trio — Leopold Mannes, piano; Bronislav Gimpel, violin; Luigi Silva, cello. Recorded 1951; Decca DL 9555, published by September 1952; Internet Archive LP transfer. Territorial EU public-domain basis; US recording status not established.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Decca DL 9555 transfer metadata",
+      "url": "https://archive.org/metadata/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/metadata",
+      "locator": "Original US Decca LP, catalogue DL 9555, date 1951; ensemble, track list, collection, lineage and ripping_date fields.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "label-scan",
+      "title": "Decca DL 9555 — original LP labels",
+      "url": "https://archive.org/download/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma.pdf",
+      "locator": "Four-page scan inspected visually, especially side 1 on PDF p. 3: Leopold Mannes, Bronislav Gimpel, Luigi Silva; DL 9555, MG 2301; Allegro moderato as the first band. Side 2 identifies the ensemble and Beethoven coupling.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — segmented MP3 derivatives",
+      "url": "https://archive.org/metadata/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/files",
+      "locator": "disc1/01.01. Trio In G Minor, Op 17: 1st Mov't:  Allegro Moderato.mp3; VBR MP3; duration 466.44 seconds.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "session-review",
+      "title": "Jonathan Woolf — Mannes-Gimpel-Silva Trio reissue review, MusicWeb International, May 2019",
+      "url": "https://musicweb-international.com/classrev/2019/May/Schumann_trio_FR1601.htm",
+      "locator": "Names the trio members and instruments; identifies the Clara recording with the 1951 Beethoven sessions and original Decca DL 9555. Describes the two original Decca LPs as mono.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "publication-review",
+      "title": "Edward Tatnall Canby — Record Revue, Audio Engineering, September 1952",
+      "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/50s/Audio-1952-09.pdf",
+      "locator": "Printed p. 48 (PDF p. 50), under “Some novel Romantics”: Clara Schumann, Trio in G minor, Op. 17; Beethoven, Trio No. 8 in B flat; Mannes-Gimpel-Silva Trio; Decca DL 9555. A contemporary commercial-release review, establishing publication before 1963.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Clara Schumann — Piano Trio, first edition, Breitkopf & Härtel, plate 7562",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=4511&itemFileId=6784",
+      "locator": "Sibley Music Library scan, printed pp. 2–13. Opening, second subject, development, recapitulation and coda pages inspected visually.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score-catalogue",
+      "title": "IMSLP — Piano Trio in G minor, Op. 17",
+      "url": "https://imslp.org/wiki/Piano_Trio_in_G_minor,_Op.17_(Schumann,_Clara)",
+      "locator": "Composition 1846; first edition, plate 7562, dated 1847 by Hofmeister reference; four movements and original instrumentation.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "pearson",
+      "title": "Pearson Edexcel — Clara Wieck-Schumann, Piano Trio, movement 1",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Music/2016/teaching-and-learning-materials/A_level_Schumann_Piano_Trio_set_work_support_guide.pdf",
+      "locator": "Pp. 3–7: formal plan, bars 1–90, 91–164, 165–288; second subjects at 45 and 210; G-minor coda from 250. P. 1 gives Clara’s death in 1896. Formal timings in this recording remain approximate.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3 and Article 1(2)–(3): former 50-year term, lawful publication and extension for recordings still protected on 1 November 2013.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

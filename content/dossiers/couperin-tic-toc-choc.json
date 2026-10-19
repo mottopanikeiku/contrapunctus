@@ -1,0 +1,142 @@
+{
+  "id": "couperin-tic-toc-choc",
+  "work": {
+    "title": "Le Tic-Toc-Choc, ou Les Maillotins",
+    "catalogue": "Troisième Livre, XVIIIe Ordre, no. 6; Cauchie 278",
+    "movement": "",
+    "version": {
+      "value": "Harpsichord piece performed on piano",
+      "status": "documented",
+      "sourceIds": ["commons", "authority", "score", "discography"],
+      "note": "Meyer’s exact edition and octave disposition are unidentified. Couperin’s preface authorises octave displacement for a single keyboard. The formal map groups the first two couplets with their returning refrains; its times are broad passage guideposts."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Marcelle Meyer", "role": "piano" }],
+    "status": "documented",
+    "sourceIds": ["commons", "discography"],
+    "note": "The Commons file identifies Meyer; the discography places the work among her Les Discophiles Français piano recordings."
+  },
+  "session": {
+    "date": {
+      "value": "Late 1953 or January 1954",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Commons supplies this range; the independent chronology gives 1953/1954. The same pianist also recorded the work in 1946, so the session range follows the attribution of this particular upload.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Salle Adyar, Paris, France",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Both sources identify the venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Les Discophiles Français",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Historical label named in the source credit."
+    },
+    "catalogue": {
+      "value": "DF 86",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "The collection reference given by Commons and the LP issue listed in the chronology."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "discography"],
+      "note": "The selected file’s pressing matrix, take and physical side have not been established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Commons uploader: Flopinot2012; source collection: Médiathèque musicale Mahler, fonds Discophiles Français",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "These are the upload and collection credits. The digitisation engineer is unidentified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "The file was uploaded on 23 September 2023; the date of digitisation is unspecified."
+    },
+    "processing": {
+      "value": "Commons MP3 derivative of an uploaded FLAC",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Playback equipment, equalisation, noise reduction and pitch correction are unspecified."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Fran%C3%A7ois_Couperin_-_Le_tic_toc_choc_ou_les_maillotins_%28Marcelle_Meyer%2C_1954%29.flac/Fran%C3%A7ois_Couperin_-_Le_tic_toc_choc_ou_les_maillotins_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
+    "sourceChain": ["commons"],
+    "format": "MP3 access derivative; uploaded source is FLAC",
+    "durationSeconds": 134.88
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain: Couperin’s eighteenth-century composition",
+      "status": "documented",
+      "sourceIds": ["commons", "authority", "score"],
+      "note": "Commons applies PD-old-70-expired to the work. The modern Gouin engraving is cited for research and is not redistributed with the recording."
+    },
+    "recording": {
+      "value": "Public domain in the European Union under Commons’ PD-EU-audio designation",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "The host’s licence field is Public domain. Its licensing section separately warns of continuing US protection for this pre-1972 sound recording. This territorial basis does not provide worldwide clearance."
+    },
+    "creditLine": "François Couperin, Le Tic-Toc-Choc, ou Les Maillotins; Marcelle Meyer, piano. Les Discophiles Français DF 86; Médiathèque musicale Mahler collection; Commons upload by Flopinot2012. Commons PD-EU-audio; US recording restrictions remain.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:François_Couperin_-_Le_tic_toc_choc_ou_les_maillotins_(Marcelle_Meyer,_1954).flac#Licensing"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Meyer, Le Tic-Toc-Choc",
+      "url": "https://commons.wikimedia.org/wiki/File:François_Couperin_-_Le_tic_toc_choc_ou_les_maillotins_(Marcelle_Meyer,_1954).flac",
+      "locator": "Summary, source credit, author/session attribution, licensing, file history, duration and MP3 transcode.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "authority",
+      "title": "Bibliothèque nationale de France — Le tic-toc choc",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb148179652",
+      "locator": "Work authority: 1722, pièce croisée, rondeau, XVIIIe Ordre, Cauchie no. 278.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Couperin — Le Tic-Toc-Choc, Pierre Gouin edition",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/e/ec/IMSLP128601-WIMA.a398-Couperin_18eOrdre_Le_TicTocChoc.pdf",
+      "locator": "Les Éditions Outremontaises, 2005; all three pages consulted, with opening and final page inspected visually. Rondeau, three couplets and supplément.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "preface",
+      "title": "Carey Beebe — Different harpsichord editions of Couperin’s Le Tic-toc-choc",
+      "url": "https://www.hpschd.nu/tech/rsc/tic.html",
+      "locator": "1722 preface instructions for two manuals and octave displacement; original refrain reproduced in facsimile.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "programme",
+      "title": "Angela Hewitt — Couperin Keyboard Music, Volume 1",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67440",
+      "locator": "2003 notes, Dix-Huitième Ordre: crossed piece, three couplets and concluding coda.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discography",
+      "title": "Classical Pianists — Marcelle Meyer chronology",
+      "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/",
+      "locator": "MaMe-C#016, Salle Adyar 1953/1954, Couperin selections and DF 86. The distinct 1946 session is listed separately.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

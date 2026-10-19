@@ -541,13 +541,13 @@ export async function mount(app) {
   const cueAt = (t) => { const cs = track.cues; let i = -1; for (let k = 0; k < cs.length; k++) { if (cs[k].t <= t + 0.05) i = k; else break; } return i; };
   function showCue(i) {
     cueIdx = i;
-    const c = track.cues[Math.max(0, i)] ?? { kind: 'listen', title: track.question || track.work, text: track.intro, how: '' };
+    const c = track.cues[Math.max(0, i)] ?? { kind: 'music', title: track.work, text: track.intro, how: '' };
     ui.cue.dataset.kind = c.kind;
     ui.kind.textContent = KIND[c.kind] ?? c.kind;
     ui.cueTitle.textContent = c.title;
     if (joinIdx < 0) wideCue.innerHTML = `<span>${KIND[c.kind] ?? ''}</span>${escapeHtml(c.title)}`;
     ui.cueText.innerHTML = c.text;
-    ui.cueHow.innerHTML = `${c.how ?? ''} ${escapeHtml(c.evidence ?? '')}${c.precision === 'passage' ? ' This note describes a stretch of music, so it may appear a little before or after what it describes.' : ''}`;
+    ui.cueHow.innerHTML = `${c.how ?? ''} ${linkify(escapeHtml(c.evidence ?? ''))}`;
     $('.cue-how').hidden = !(c.how || c.evidence);
     if (!reduced) { ui.cue.classList.remove('enter'); void ui.cue.offsetWidth; ui.cue.classList.add('enter'); }
     ui.past.innerHTML = track.cues.slice(0, Math.max(0, i)).reverse().map((p) => `<li data-kind="${p.kind}" data-t="${p.t}" tabindex="0"><span class="tm">${fmt(p.t)}</span><div><b>${p.title}</b><span>${p.text}</span></div></li>`).join('');
@@ -571,7 +571,7 @@ export async function mount(app) {
 
   function renderJoinsTab() {
     const js = track.transitions;
-    ui.tabJoins.innerHTML = js.length ? `<p class="joins-intro">How ${escapeHtml(track.composer.family ?? track.composer.name)} gets from one section to the next. Each join appears in <em>As it plays</em> when the music reaches it.</p>` + js.map((j) => `<article class="join-item"><span class="join-k"><span class="diamond">◆</span> ${fmt(j.at)} · ${escapeHtml(j.from)} → ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span><h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div><div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div><button type="button" class="join-again" data-span="${j.span[0]}">Hear this join</button></article>`).join('')
+    ui.tabJoins.innerHTML = js.length ? `<p class="joins-intro">How ${escapeHtml(track.composer.short ?? track.composer.name)} gets from one section to the next. Each join appears in <em>As it plays</em> when the music reaches it.</p>` + js.map((j) => `<article class="join-item"><span class="join-k"><span class="diamond">◆</span> ${fmt(j.at)} · ${escapeHtml(j.from)} → ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span><h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div><div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div><button type="button" class="join-again" data-span="${j.span[0]}">Hear this join</button></article>`).join('')
       : '<p class="joins-intro">This piece runs as one continuous span; there are no section joins to dissect.</p>';
   }
   on(ui.tabJoins, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
@@ -590,24 +590,25 @@ ${c.page === null ? '' : `<a class="more-link" href="${new URL(c.page ?? `compos
       if (!mine || track !== t0 || (!mine.in?.length && !mine.out?.length)) return;
       const item = (e, dir) => `<li><a href="${new URL(`influence.html#edge-${e.id}`, app.root).href}"><span class="ih-y">${e.year ?? ''}</span><span class="ih-t">${escapeHtml(e.title)}</span><span class="ih-w">${dir === 'in' ? 'from' : 'to'} ${escapeHtml(e.name ?? e.from ?? e.to ?? '')} · ${escapeHtml(e.kind)}</span></a></li>`;
       $('.inherit', ui.tabComposer).innerHTML = `<h4 class="tab-h">Inheritance</h4>
-${mine.in?.length ? `<p class="ih-k">What ${escapeHtml(c.family ?? c.name)} took</p><ol class="ih">${mine.in.map((e) => item(e, 'in')).join('')}</ol>` : ''}
-${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.family ?? c.name)}</p><ol class="ih">${mine.out.map((e) => item(e, 'out')).join('')}</ol>` : ''}
-<a class="more-link" href="${new URL(`influence.html#node-${c.slug}`, app.root).href}">See ${escapeHtml(c.family ?? c.name)} in the Web of Influence →</a>`;
+${mine.in?.length ? `<p class="ih-k">What ${escapeHtml(c.short ?? c.name)} took</p><ol class="ih">${mine.in.map((e) => item(e, 'in')).join('')}</ol>` : ''}
+${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short ?? c.name)}</p><ol class="ih">${mine.out.map((e) => item(e, 'out')).join('')}</ol>` : ''}
+<a class="more-link" href="${new URL(`influence.html#node-${c.slug}`, app.root).href}">See ${escapeHtml(c.short ?? c.name)} in the Web of Influence →</a>`;
     });
   }
   let compareData = null;
   const compareIndex = () => (compareData ??= fetch(new URL(`assets/compare-index.json?v=${document.documentElement.dataset.prog ?? ''}`, app.root)).then((r) => (r.ok ? r.json() : null)).catch(() => null));
   let influenceData = null;
   const influence = () => (influenceData ??= fetch(new URL(`assets/influence.json?v=${document.documentElement.dataset.prog ?? ''}`, app.root)).then((r) => (r.ok ? r.json() : null)).catch(() => null));
+  const host = (url = '') => (/archive\.org/.test(url) ? 'Internet Archive' : 'Wikimedia Commons');
   function renderPieceTab() {
     const t = track, d = t.dossier;
     const dossier = d ? `<dl class="dossier">${d.fields.map((f) => `<div class="st-${f.status.replace(' ', '-')}"><dt>${f.label}</dt><dd>${escapeHtml(f.value || '—')}${f.src.length ? ` <sup>${f.src.join(',')}</sup>` : ''}<small>${f.statusText}${f.note ? ` — ${escapeHtml(f.note)}` : ''}</small>${f.alts.map((a) => `<small class="alt">or: ${escapeHtml(a)}</small>`).join('')}</dd></div>`).join('')}</dl>
 <p class="credit">${escapeHtml(d.credit)}${d.licenseUrl ? ` · <a href="${d.licenseUrl}" target="_blank" rel="noopener">licence</a>` : ''}</p>
 <ol class="sources">${d.sources.map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a>${s.locator ? ` — ${escapeHtml(s.locator)}` : ''}</li>`).join('')}</ol>`
-      : `<dl class="dossier"><div><dt>Performers</dt><dd>${escapeHtml(t.performers)}</dd></div><div><dt>Recording</dt><dd><a href="${t.sourcePage}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${escapeHtml(t.license)}</dd></div></dl>`;
-    const cite = `${t.composer.name}, <i>${escapeHtml(t.work)}</i>${t.movement ? `, ${escapeHtml(t.movement)}` : ''}. ${escapeHtml(t.performers)}. Audio: <a href="${t.sourcePage}" target="_blank" rel="noopener">Wikimedia Commons</a>. Notes: Contrapunctus, ${location.href.split('#')[0]}#${t.id}.`;
+      : `<dl class="dossier"><div><dt>Performers</dt><dd>${escapeHtml(t.performers)}</dd></div><div><dt>Recording</dt><dd><a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a> · ${escapeHtml(t.license)}</dd></div></dl>`;
+    const cite = `${t.composer.name}, <i>${escapeHtml(t.work)}</i>${t.movement ? `, ${escapeHtml(t.movement)}` : ''}. ${escapeHtml(t.performers)}. Audio: <a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a>. Notes: Contrapunctus, ${location.href.split('#')[0]}#${t.id}.`;
     ui.tabPiece.innerHTML = `<h3>${t.work}${t.movement ? `<br><small style="font-style:italic;font-size:.75em">${t.movement}</small>` : ''}</h3>
-${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class="intro">${t.intro}</p>
+<p class="intro">${t.intro}</p>${t.workPage ? `<p class="work-link"><a href="${new URL(t.workPage, app.root).href}">Every recording of this work, with all its notes →</a></p>` : ''}
 <dl>${t.year ? `<div><dt>Composed</dt><dd>${t.year}</dd></div>` : ''}${t.key ? `<div><dt>Key</dt><dd>${t.key}</dd></div>` : ''}<div><dt>Forces</dt><dd>${t.forces}</dd></div></dl>
 <h4 class="tab-h">The recording</h4>${dossier}
 <h4 class="tab-h">Form</h4><ol class="sec-list">${t.sections.map((s) => `<li data-t="${s.t}"><span>${fmt(s.t)}</span><span>${s.label}</span></li>`).join('')}</ol>
@@ -727,17 +728,44 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
   on(ui.progBtn, 'click', () => { ui.prog.hidden = !ui.prog.hidden; ui.progBtn.setAttribute('aria-expanded', String(!ui.prog.hidden)); });
   on($('.prog-close'), 'click', () => { ui.prog.hidden = true; });
   on(ui.prog, 'click', async (e) => {
+    const evening = e.target.closest('button[data-programme]');
+    if (evening) { ui.prog.hidden = true; await player.setQueue(evening.dataset.programme || null, { play: true }); queueState(); return; }
     const b = e.target.closest('button[data-id]'); if (!b) return;
     ui.prog.hidden = true;
+    if (player.queue && !player.queue.ids.includes(b.dataset.id)) await player.setQueue(null);
     await player.load(b.dataset.id, { play: true });
   });
   on($('.begin'), 'click', () => begin());
   on(ui.curtain, 'click', (e) => { if (e.target === ui.curtain) begin(); });
-  on(window, 'hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id && id !== track?.id) player.load(id, { play: true }); });
+  // #<id>, #<id>&t=<seconds> (a moment) and #programme-<id> (an evening) are shareable.
+  const parseHash = () => {
+    let raw = ''; try { raw = decodeURIComponent(location.hash.slice(1)); } catch {}
+    if (raw.startsWith('programme-')) return { programme: raw.slice(10) };
+    const [id, ...rest] = raw.split('&');
+    const t = Number(new URLSearchParams(rest.join('&')).get('t'));
+    return { id, t: Number.isFinite(t) && t > 0 ? t : 0 };
+  };
+  on(window, 'hashchange', async () => {
+    const h = parseHash();
+    if (h.programme) { await player.setQueue(h.programme, { play: true }); return; }
+    if (h.id && (h.id !== track?.id || h.t)) player.load(h.id, { play: true, t: h.t });
+  });
+  function queueState() {
+    const q = player.queue, n = q ? q.ids.indexOf(player.track?.id) : -1;
+    ui.progBtn.textContent = n >= 0 ? `${q.title} · ${n + 1} of ${q.ids.length}` : 'Programme';
+    $$('button[data-programme]', ui.prog).forEach((b) => b.setAttribute('aria-pressed', String((q?.id ?? '') === b.dataset.programme)));
+  }
+  on($('.cue-share'), 'click', async (e) => {
+    const url = `${location.origin}${location.pathname}#${encodeURIComponent(track.id)}&t=${Math.floor(player.time)}`;
+    try { await navigator.clipboard.writeText(url); e.target.textContent = 'Link copied'; } catch { e.target.textContent = url; }
+    setTimeout(() => { if (alive) e.target.textContent = 'Link to this moment'; }, 2500);
+  });
 
   const offs = [
     player.on('play', () => { playState(); wake(); }), player.on('pause', () => { playState(); wake(); }),
-    player.on('track', (t) => show(t)),
+    player.on('track', (t) => { show(t); queueState(); }),
+    player.on('queue', () => queueState()),
+    player.on('queue-end', () => { ui.prog.hidden = false; ui.progBtn.setAttribute('aria-expanded', 'true'); }),
     player.on('blocked', (b) => { ui.curtain.hidden = !b; document.body.classList.toggle('waiting', b); }),
     player.on('advance', ({ from, to, interlude }) => {
       if (!interlude || reduced || !to) return;
@@ -1007,9 +1035,11 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
     .then((m) => { if (alive && m.mountTerms) { const off = m.mountTerms(app); if (typeof off === 'function') cleanups.push(off); } })
     .catch(() => {});
   setupSpectro(); setupKeys(); setupWheel();
-  const want = decodeURIComponent(location.hash.slice(1));
-  if (want && want !== player.track?.id && P.some((x) => x.id === want)) await player.load(want);
+  const want = parseHash();
+  if (want.programme && (await player.getProgrammes()).some((p) => p.id === want.programme)) await player.setQueue(want.programme);
+  else if (want.id && P.some((x) => x.id === want.id) && (want.id !== player.track?.id || want.t)) await player.load(want.id, { t: want.t });
   else if (!player.track) await player.load(0);
+  queueState();
   await show(player.track);
   playState();
   // One invitation on the first Hall visit, never on subsequent visits or after a tour.
@@ -1038,3 +1068,4 @@ ${t.question ? `<p class="question">${escapeHtml(t.question)}</p>` : ''}<p class
 
 function roman(n) { return ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'][n] ?? String(n); }
 function escapeHtml(s = '') { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+function linkify(s) { return s.replace(/https?:\/\/[^\s<]+[^\s<.,;:)]/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 48)}${u.length > 56 ? '…' : ''}</a>`); }

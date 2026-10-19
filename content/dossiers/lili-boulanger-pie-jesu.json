@@ -98,7 +98,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Internet Archive ripping operator: associate-louiemar-secuya@archive.org; workstation archivelp-rip-cebu19.",
+      "value": "Internet Archive; workstation archivelp-rip-cebu19.",
       "status": "documented",
       "sourceIds": [
         "archive"

@@ -2,8 +2,8 @@
  {
   "id": "dies-irae",
   "name": "Dies irae",
-  "summary": "The Dies irae is a medieval chant for the Day of Judgement whose opening notes became a musical sign of death. Its recognisable outline lets composers summon terror, turn a dance sinister, or pit mortal fear against consolation.",
-  "abcNote": "Opening eight notes checked against the Vatican Graduale Romanum (1908), p. 83*, through GregoBase. Pitches are preserved; equal note lengths and the playback tempo are editorial aids, not a claim that the chant has a regular beat.",
+  "summary": "F–E–F–D: four notes that can bring death into a piece before a word is sung. The medieval <i>Dies irae</i> chant tells of the Day of Judgement. Later composers carry its opening into symphonies and dances, where the old tune can terrify or grin.",
+  "abcNote": "Opening eight notes checked against the Vatican Graduale Romanum (1908), p. 83*, through GregoBase. Pitches are preserved. Equal note lengths and the playback tempo are editorial aids; the chant itself has a free rhythm.",
   "abc": "X:1\nT:Dies irae — chant incipit\nM:none\nL:1/4\nQ:1/4=90\nK:Ddor\nF E F D E C D D |]",
   "source": {
    "title": "Graduale Romanum (Vatican, 1908), p. 83*; GregoBase no. 3441, opening phrase and GABC transcription",
@@ -13,8 +13,8 @@
  {
   "id": "bach-motif",
   "name": "B–A–C–H",
-  "summary": "B♭–A–C–B♮ spells Bach in German note names, turning a surname into a four-note musical signature. Later composers used its tightly packed semitones both to salute Bach and to test what their own counterpoint could make of his name.",
-  "abcNote": "Checked against the third subject of the unfinished Art of Fugue, Bach-Gesellschaft engraving, p. 100. The identifying cell is shown an octave higher with equal quarter notes, not the fugue’s original rhythm; playback tempo is editorial.",
+  "summary": "B♭–A–C–B♮ spells Bach in German note names. He writes that signature into the third subject of his unfinished fugue in <i>The Art of Fugue</i>. Later composers take the four notes as a challenge: a name that can be turned upside down, woven into a fugue or carried into new harmony.",
+  "abcNote": "Checked against the third subject of the unfinished Art of Fugue, Bach-Gesellschaft engraving, p. 100. The cell is shown an octave higher with its rhythm normalised to equal crotchets; playback tempo is editorial.",
   "abc": "X:1\nT:B–A–C–H — pitch cell, rhythm normalised\nM:4/4\nL:1/4\nQ:1/4=72\nK:C\n_B A c =B |]",
   "source": {
    "title": "Bach-Gesellschaft Ausgabe XXV/1, p. 100: unfinished fugue, third subject (score excerpt)",
@@ -24,8 +24,8 @@
  {
   "id": "tristan-chord",
   "name": "The Tristan chord",
-  "summary": "The Tristan chord is the four-note sonority near the opening of Wagner’s prelude whose continuation keeps a firm arrival out of reach. It became a shorthand for unresolved longing that later composers could embrace, remember or mischievously puncture.",
-  "abcNote": "Prelude, bar 2: F–B–D♯–G♯ in the original register, checked against the linked score image. This isolates one chord; its four-beat duration and playback tempo are editorial, not a transcription of the surrounding 6/8 phrase.",
+  "summary": "F–B–D♯–G♯ sounds in bar 2 of Wagner’s <i>Tristan und Isolde</i> prelude. The chord promises a resolution that the music keeps postponing. Its four notes came to stand for longing itself, ready for later composers to quote with devotion or a sly smile.",
+  "abcNote": "Prelude, bar 2: F–B–D♯–G♯ in the original register, checked against the linked score image. The chord is isolated from its 6/8 phrase; its four-beat duration and playback tempo are editorial.",
   "abc": "X:1\nT:Tristan — isolated sonority\nM:4/4\nL:1/4\nQ:1/4=60\nK:C\n[F,B,^D^G]4 |]",
   "source": {
    "title": "University of Texas at Austin, Tristan und Isolde motives: Prelude to Act I, bars 1–3, score image",
@@ -35,8 +35,8 @@
  {
   "id": "lament-bass",
   "name": "The lament bass",
-  "summary": "A lament bass falls step by step through a fourth, sometimes filling the descent with chromatic notes. Returning beneath changing voices, it can make grief feel inescapable without requiring every lament to quote the same melody.",
-  "abcNote": "This particular example is Purcell’s ground for ‘When I am laid in earth’, in G minor and 3/2, checked against the cited bass transcription and its embedded LilyPond source. The ABC retains the initial half-note upbeat and final incomplete bar; playback tempo is editorial.",
+  "summary": "The bass falls through a fourth and starts again. In Purcell’s <i>When I am laid in earth</i>, it fills the descent from G to D with every semitone while Dido sings her farewell. Her phrases change; the bass keeps coming back.",
+  "abcNote": "Purcell’s ground for ‘When I am laid in earth’, in G minor and 3/2, checked against the cited bass transcription and its embedded LilyPond source. The ABC retains the initial minim upbeat and final incomplete bar; playback tempo is editorial.",
   "abc": "X:1\nT:Dido’s lament — ground bass\nM:3/2\nL:1/2\nQ:1/2=52\nK:Gm clef=bass\nG, | ^F,2 =F, | =E,2 _E, | D,2 B,, | C, D,2 | G,,2 |]",
   "source": {
    "title": "Purcell, Dido’s Lament: Analysis, engraved ground-bass example and embedded LilyPond source",
@@ -46,8 +46,8 @@
  {
   "id": "la-folia",
   "name": "La Folia",
-  "summary": "La Folia is an inherited dance framework whose familiar minor-key melody and harmonic circuit invite successive variations. Its fixed outline lets composers display wildly different rhythms, textures and virtuosity while listeners keep their bearings.",
-  "abcNote": "Vivaldi RV 63, opening eight bars, first violin in the original D minor, checked against the complete score edited by Louise Cawte. The playback tempo is editorial; this example does not imply that Vivaldi or Corelli invented the older tradition.",
+  "summary": "An old dance tune and a familiar round of chords leave plenty of room for mischief. Vivaldi begins his <i>Folia</i> in D minor, the first violin stepping slowly through the tune. The variations soon set the fingers running.",
+  "abcNote": "Vivaldi RV 63, opening eight bars, first violin in the original D minor, checked against the complete score edited by Louise Cawte. Playback tempo is editorial. Vivaldi’s setting belongs to the older Folia tradition.",
   "abc": "X:1\nT:La Folia — Vivaldi RV 63, bars 1–8\nM:3/4\nL:1/8\nQ:1/4=60\nK:Dm\nd2 d3 d | ^c2 c3 c | d2 d3 d | e2 e3 e | f2 f3 f | e2 e3 e | d2 d3 d | ^c6 |]",
   "source": {
    "title": "Vivaldi, Trio Sonata RV 63, first page, first violin bars 1–8; Louise Cawte edition (IMSLP 280769)",
@@ -57,8 +57,8 @@
  {
   "id": "ode-to-joy",
   "name": "Ode to Joy",
-  "summary": "Beethoven’s Ode to Joy melody carries Schiller’s appeal to human fellowship into the finale of the Ninth Symphony. Its plain, singable shape made it available for virtuoso transcription, symphonic argument and public ceremonies far beyond the concert hall.",
-  "abcNote": "Four-bar soprano line from the cited public-domain hymn arrangement in G major, transposed from the symphony’s D major. This is not an orchestral-register quotation; playback tempo is editorial.",
+  "summary": "Beethoven’s tune begins with two repeated notes, climbs by step and comes back down. It carries Schiller’s appeal to human fellowship into the Ninth Symphony’s finale. That plain, singable line has travelled through piano transcriptions and public ceremonies far beyond the concert hall.",
+  "abcNote": "Four-bar soprano line from the cited public-domain hymn arrangement in G major, transposed from the symphony’s D major. The register follows the hymn version; playback tempo is editorial.",
   "abc": "X:1\nT:Ode to Joy — hymn version in G major\nM:4/4\nL:1/4\nQ:1/4=100\nK:G\nB B c d | d c B A | G G A B | B3/2 A/2 A2 |]",
   "source": {
    "title": "Mutopia Project, Ode to Joy, public-domain SATB arrangement, soprano bars 1–4; LilyPond source",
@@ -68,8 +68,8 @@
  {
   "id": "frere-jacques",
   "name": "Frère Jacques",
-  "summary": "Frère Jacques is a round whose repeated phrases make its tune immediately recognisable even when the surrounding music changes. Mahler’s First Symphony turns that familiarity into estrangement by placing a minor-mode version inside a funeral procession.",
-  "abcNote": "Mahler 1, III, bars 3–6: solo double bass, with the additional F–E eighth-note turn, checked against the linked score. The ABC gives sounding pitch, one octave below the written notes, and omits timpani and subsequent canonic entries; playback tempo is editorial.",
+  "summary": "The familiar round enters Mahler’s First Symphony on a solo double bass, in D minor, over the timpani’s tread. <i>Frère Jacques</i> still repeats its little phrases, but now they belong to a funeral procession. The bassoon and cellos join the round.",
+  "abcNote": "Mahler 1, III, bars 3–6: solo double bass, with the additional F–E quaver turn, checked against the linked score. The ABC gives sounding pitch, one octave below the written notes, and omits timpani and subsequent canonic entries; playback tempo is editorial.",
   "abc": "X:1\nT:Mahler 1, III — solo bass, sounding pitch\nM:4/4\nL:1/4\nQ:1/4=56\nK:Dm clef=bass\nD, E, F,/2 E,/2 D, | D, E, F,/2 E,/2 D, | F, G, A,2 | F, G, A,2 |]",
   "source": {
    "title": "Mahler, Symphony No. 1, movement III, score extract, first page: solo double bass bars 3–6",

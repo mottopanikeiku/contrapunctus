@@ -23,17 +23,18 @@ Each concern lives in its own file, so editors never collide. The generator (`sr
 {
   t: 88,                       // display time in seconds (required unless `bar` is given)
   bar: { n: '22', occ: 2 },    // OPTIONAL, for score-aligned pieces only: display at this performed bar occurrence
-  kind: 'music' | 'form' | 'listen' | 'life' | 'world',
+  kind: 'music' | 'form' | 'life' | 'world',   // 'listen' is retired: say what happens instead
   title, text,                 // text ≤ 55 words
   basis: 'score-aligned' | 'score-proportion' | 'audio-feature' | 'documented' | 'general',
   precision: 'moment' | 'passage',   // 'moment': the event is within about ±2 s of t; 'passage': describes the surrounding stretch
-  evidence: '…',               // shown to readers under "How we know"; plain English, no jargon dumps
+  evidence: '…',               // shown to readers under "How we know": the source in plain English (score edition and bars, letter, book and page, URL); never analysis figures
 }
 ```
 
-- `music`, `form` and `listen` notes are the primary lane. `life` and `world` notes are context: shown collapsed, never replacing a musical note.
-- Only `basis: 'score-aligned'` or a strong `audio-feature` (a silence, a large level jump, a strong boundary) may use `precision: 'moment'`. Everything else is `passage`, and its wording must stay true if it appears 10 seconds early or late ("In this stretch…", "Soon…", "Through this section…").
-- Never name an instrument entrance, a sung word or a bar number at a moment unless the basis supports it.
+- `music` and `form` notes are the primary lane. `life` and `world` notes are context: shown collapsed, never replacing a musical note.
+- 3–10 notes per recording, at most one per 45 seconds of music.
+- Only `basis: 'score-aligned'` or a strong `audio-feature` (a silence, a large level jump, a strong boundary) may use `precision: 'moment'`. Everything else is `passage`, and its wording must stay true if it appears 10 seconds early or late.
+- Never name an instrument entrance, a sung word or a bar number at a moment unless the basis supports it. Audio analysis may locate a boundary; its figures never appear in `title`, `text` or `evidence`.
 
 ## Formal relations: `content/relations/<id>.json`
 
@@ -152,25 +153,54 @@ What the composer does at the joins between sections: how one section is left an
 Controlled `devices` vocabulary:
 perfect cadence, half cadence, deceptive cadence, plagal cadence, elision, pivot chord, common-tone modulation, direct modulation, enharmonic reinterpretation, chromatic slide, sequence, dominant pedal, tonic pedal, retransition, standing on the dominant, liquidation, motivic link, fermata, general pause, medial caesura, crescendo build, decrescendo, texture change, orchestration change, register change, tempo change, metre change, link passage, cadenza, attacca, fade.
 
-## Textbook apparatus
+## Page apparatus
 
-`src/build.mjs` numbers Origins as chapter 1, the seven era chapters as 2–8,
-Workshop as 9, and composer chapters from 10 in birth order. Sections use
-`chapter.section`; captions use `Fig. chapter.figure` in page order. Lesson
-questions and listening pointers come from the existing `question` and `listen`
-fields. Key ideas extract opening statements from the authored lesson, sound or
-period vocabulary. Chicago and BibTeX citations use the canonical page URL and
-label the build date as an access-date suggestion, not a publication date.
+Pages carry no chapter, section or figure numbers. Era pages keep their numeral
+(I–VII); Origins and Workshop lessons show their own `numeral` and `label`.
+A lesson's `question` is printed as a dek under its heading, and its `listen`
+pointers (`{ id, t, why }`) become a list of play buttons after the lesson; `why`
+says what happens at that point. Chicago and BibTeX citations sit in a closed
+“Cite this page” disclosure at the foot of composer, era, long and sources pages;
+the build date is offered as an access date, not a publication date. Only pages
+containing score figures request the abcjs vendor script.
 
-Composer and era questions reuse the hosted recordings’ authored `question`
-and `intro`; where no recording is hosted, they point to a playable score
-example, explicitly distinguishing synthesis from a recording. Lessons without
-recording pointers can likewise play their first authored score example.
-Only pages containing score figures request the abcjs vendor script.
+The main navigation is six sections (Hall, Journeys, Composers, Influence, Map,
+Workshop) plus Search; every other page is reached from the footer and marks its
+parent section (`NAV_PARENT` in `src/build.mjs`). The masthead collapses to a
+labelled mobile menu.
 
-`content/site.mjs` defines four reader paths below the title-page hero. The
-featured Influence door is separate from the preserved `.hero-doors` Hall
-entrance. The two-tier masthead collapses to a labelled mobile menu.
+### Work pages
+
+`works/<composer>-<work-slug>.html` gathers every published recording of one
+work (the movements of a set and rival performances), grouped by the listen
+file's `work` title with any key phrase (“in C♯ minor”) removed. Each recording
+shows its intro, all its notes and joins with play-from buttons, and a Hall link;
+the page also links comparisons, journeys, influence edges with an exhibit from
+these recordings, and glossary terms whose `hear` points at them. The composer's
+matching `works[]` entry (exact title, else longest whole-word prefix) supplies
+the lede, year and forces. Composer headers list works rather than movements.
+Recordings by guests and prologue composers have no work page.
+
+### Evenings: `content/programmes.mjs`
+
+An array of `{ id, title, subtitle, note, tracks: [listenId] }`. Unpublished ids
+are dropped with a build warning; evenings with fewer than three tracks are
+omitted. The home page shows them as cards linking to `hall.html#programme-<id>`;
+`programme.json` carries `programmes: [{ id, title, subtitle, ids }]`.
+`player.setQueue(id)` plays an evening in its own order and stops after its last
+track (`queue-end`); choosing a recording outside it returns to the whole concert.
+The Hall also accepts `hall.html#<listenId>&t=<seconds>` for a moment.
+
+### Listening elsewhere: `content/elsewhere/<slug>.json`
+
+`{ composer, items: [{ work, year, performers, recorded, label, note,
+links: [{ kind, url, title }], moments?: [{ t, text }] }], sources }` for
+recordings the Hall cannot host. `kind` is youtube, spotify, apple, label,
+publisher or bandcamp; links go only to official channels (YouTube uploader
+checked through oEmbed). `moments` refer to the single linked official video and
+come from its own chapters or description. Composer pages show these as “Where
+to hear it” (or “Where to hear more” when the Hall also has recordings); era
+pages list the first two items for each composer without Hall recordings.
 
 ### Glossary
 
@@ -259,7 +289,7 @@ confidence label. `sources.html` supplies the field-level notes and source links
 
 ### Persistent player and hall payloads
 
-`assets/listen/programme.json?v=<data-prog>` contains `{ composers, eras, rows }`.
+`assets/listen/programme.json?v=<data-prog>` contains `{ composers, eras, rows, programmes }`.
 Each row is `[id, stream, duration, composerIndex, work, movement, set, concert, eraIndex]`;
 `concert` is 1/0, and `eraIndex` is -1 for a guest without an era. Composer
 portrait/focus/name metadata and era artwork/accent metadata are stored once,

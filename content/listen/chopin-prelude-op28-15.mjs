@@ -8,157 +8,89 @@ export default {
   "key": "D♭ major",
   "forces": "Piano",
   "performers": "Ivan Ilić",
-  "recorded": "Paris, October 2005",
+  "recorded": "October 2005, Paris",
   "source": {
     "file": "File:Ivan Ilić-Chopin - Prelude no. 15 in D flat major.ogg"
   },
-  "intro": "The repeated note in the “Raindrop” Prelude survives a change from D♭ major to a darker minor-key setting written C♯ minor. In Ivan Ilić’s recording, follow that persistent sound as its register, surroundings and expressive weight change, then listen for the opening melody’s return.",
-  "question": "What changes around the repeated note, and what remains recognisable?",
+  "intro": "A♭ keeps sounding beneath the <i>Raindrop</i> Prelude’s melody, then becomes G♯ in a dark C♯-minor middle. Ivan Ilić plays this piece of extraordinary persistence, recorded in Paris in October 2005.",
   "sections": [
-    {
-      "t": 0,
-      "label": "A · D♭-major song",
-      "m": "A"
-    },
-    {
-      "t": 86,
-      "label": "B · C♯-minor middle",
-      "m": "B"
-    },
-    {
-      "t": 210,
-      "label": "A′ · Opening song returns",
-      "m": "A′",
-      "mNote": "the opening melody returns after the darker middle"
-    }
+    { "t": 0, "label": "A · A♭ beneath the D♭-major song", "m": "A", "mNote": "Repeated quavers under a slow right-hand melody" },
+    { "t": 86, "label": "B · G♯ above low C♯-minor chords", "m": "B", "mNote": "The repeated note moves to the right hand" },
+    { "t": 210, "label": "A′ · The D♭-major song returns", "m": "A′", "mNote": "The opening melody returns for a shortened farewell" }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A repeated note persists",
-      "text": "The melody moves above a recurring A♭. Listen to both layers: the repeated pitch supplies continuity while changing harmony and melodic direction keep the passage from standing still.",
-      "basis": "documented",
+      "title": "A♭ keeps coming back",
+      "text": "The right hand sings in D♭ major while A♭ keeps returning underneath it. Chords change around that repeated note. Chopin marks the piece <i>Sostenuto</i>: even with the quavers ticking away, the melody has long breaths.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Repeated-note construction: https://chopin.nifc.pl/en/chopin/kompozycja/208; pitch identity and tonal plan: https://en.wikipedia.org/wiki/Prelude,_Op._28,_No._15_(Chopin)."
-    },
-    {
-      "t": 30,
-      "kind": "life",
-      "title": "Winter at Valldemossa",
-      "text": "Chopin completed the collection during the Mallorca winter of 1838–39 with George Sand and her children. The difficult weather belongs to that history, but it does not require the music to imitate a storm.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Mallorca completion in https://chopin.nifc.pl/en/chopin/gatunki/12_preludia; Sand’s weather account and Chopin’s rejection of literal imitation in https://chopin.nifc.pl/en/chopin/kompozycja/208"
+      "evidence": "Breitkopf & Härtel first edition, bars 1–4: Sostenuto, recurring A♭ quavers and sustained right-hand melody. https://chopinscores.org/partytura/128"
     },
     {
       "t": 60,
-      "kind": "world",
-      "title": "A memoir, not a programme",
-      "text": "Sand associated Chopin’s music with falling rain and recalled his resistance to literal imitation. The familiar nickname can be a starting point for attention, but a repeated note also has a musical function independent of that story.",
+      "kind": "life",
+      "title": "Sand comes through the rain",
+      "text": "At Valldemossa, George Sand returns from Palma through heavy rain and finds Chopin distraught at the piano. In her memoir, he has dreamt of drowning, with icy drops falling on his chest. When she points to rain on the roof, he angrily rejects the comparison.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Tomaszewski discusses Sand’s memoir and the disputed relation between imitation and musical association: https://chopin.nifc.pl/en/chopin/kompozycja/208. No claim that the anecdote proves a literal programme."
+      "evidence": "George Sand’s Histoire de ma vie, account of the Mallorca winter of 1838–39, quoted at https://en.wikipedia.org/wiki/Prelude,_Op._28,_No._15_(Chopin). Her memoir leaves the prelude unnamed; later tradition attaches the episode to No. 15. Mieczysław Tomaszewski discusses the rain association: https://chopin.nifc.pl/en/chopin/kompozycja/208"
     },
     {
-      "t": 90,
+      "t": 86,
       "kind": "form",
-      "title": "The same pitch changes setting",
-      "text": "The middle turns to C♯ minor and a darker register. The recurring A♭ is respelled G♯: the sounding pitch remains, but its harmonic and registral surroundings give it a different weight.",
+      "title": "The repeated note changes hands",
+      "text": "A♭ is now written G♯, the same piano key. The right hand repeats it while the left sings in low chords. D♭ major has become C♯ minor, and Chopin marks the new passage <i>sotto voce</i>, under the breath.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate boundary at1:26, where the report marks a change in density and colour. Written enharmonic pitch and tonal plan: https://en.wikipedia.org/wiki/Prelude,_Op._28,_No._15_(Chopin)."
+      "evidence": "Breitkopf & Härtel first edition, bars 27–31: change of key signature, right-hand G♯ quavers and lower left-hand melody, marked sotto voce. https://chopinscores.org/partytura/128"
     },
     {
-      "t": 120,
-      "kind": "listen",
-      "title": "A longer dynamic rise",
-      "text": "The middle has more than one wave of intensity. Listen across the whole phrase rather than treating each louder chord as the ultimate crest; the repeated note continues beneath the changing pressure.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Report shows a crest around1:55–2:00, a retreat near2:05, and a later stronger rise around2:35–2:40. These are broad amplitude contours, not exact written dynamic markings."
-    },
-    {
-      "t": 150,
-      "kind": "world",
-      "title": "Bach and a different order",
-      "text": "Chopin had Bach’s Well-Tempered Clavier with him in Mallorca. Both collections cover all major and minor keys, but Chopin orders his preludes in major–relative-minor pairs around the circle of fifths, not Bach’s chromatic sequence.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Bach source and key ordering: https://chopin.nifc.pl/en/chopin/gatunki/12_preludia"
-    },
-    {
-      "t": 180,
-      "kind": "music",
-      "title": "Persistence inside changing weight",
-      "text": "In the later middle, compare the continuing repeated pitch with the phrases around it. A persistent note can sound like support, insistence or a point of resistance depending on register, harmony and dynamics.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Listening invitation within the C♯-minor middle; no single instantaneous emotional or harmonic event is claimed."
-    },
-    {
-      "t": 215,
+      "t": 210,
       "kind": "form",
-      "title": "The opening song returns",
-      "text": "The D♭-major melody returns after the darker central span. Its earlier character becomes recognisable again, but the return is shorter: Chopin does not repeat the entire opening at its original length.",
+      "title": "F above D♭ again",
+      "text": "The opening melody returns, beginning on F above D♭. The repeated note is A♭ again, back beneath the tune. This return is brief: Chopin brings back the first song, then lets it wander towards its last bare phrase.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate return around3:30 after a broad withdrawal in the3:20–3:30 windows. ABA return and shortened reprise: https://en.wikipedia.org/wiki/Prelude,_Op._28,_No._15_(Chopin)."
+      "evidence": "Breitkopf & Härtel first edition, bars 75–83: return to the original key signature and opening melody at bar 76, followed by the abbreviated close. https://chopinscores.org/partytura/128"
     },
     {
       "t": 246,
-      "kind": "listen",
-      "title": "Hear the ending’s space",
-      "text": "The last phrases let the sound recede rather than repeating the middle’s weight. Listen to the gaps between gestures and to the surviving melodic contour as the piece comes to rest.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "Two bars without the drops",
+      "text": "Near the end, the left hand falls silent for two bars. The melody descends alone in plain crotchets. A♭ returns beneath the closing chords, and the piano finally rests on D♭ major.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Report boundaries at4:04 and declining late activity place this cue in the closing span. No particular pedal release or exact final-note onset is asserted."
+      "evidence": "Breitkopf & Härtel first edition, bars 82–89: two bars of unaccompanied melody, then the repeated A♭ and final D♭-major chord. https://chopinscores.org/partytura/128"
     }
   ],
   "transitions": [
     {
       "id": "into-minor-middle",
-      "title": "A persistent pitch enters a darker setting",
-      "from": "A · D♭-major song",
-      "to": "B · C♯-minor middle",
-      "at": {
-        "t": 86
-      },
-      "span": [
-        76,
-        98
-      ],
-      "how": "<p>The opening melody yields to the middle’s lower, darker texture. D♭ major becomes C♯ minor in the notation, while the recurring A♭ is respelled G♯. The shared sounding pitch acts as a link, but new harmony, register and chordal weight change what that continuity feels like.</p>",
-      "devices": [
-        "common-tone modulation",
-        "register change",
-        "texture change"
-      ],
+      "title": "A♭ becomes G♯",
+      "from": "A · A♭ beneath the D♭-major song",
+      "to": "B · G♯ above low C♯-minor chords",
+      "at": { "t": 86 },
+      "span": [76, 98],
+      "how": "<p>The opening melody stops while A♭ continues alone in quavers. The key signature changes to C♯ minor, and the same sounding note becomes G♯ in the right hand. Low C♯ and G♯ begin the left-hand phrase; E♮ soon supplies the minor third. Chopin marks the passage <i>sotto voce</i>.</p>",
+      "devices": ["common-tone modulation", "enharmonic reinterpretation", "register change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate1:26 report boundary. Written keys and recurring pitch: https://en.wikipedia.org/wiki/Prelude,_Op._28,_No._15_(Chopin); the chroma estimate is not the harmonic source."
+      "evidence": "Breitkopf & Härtel first edition, bars 27–28. https://chopinscores.org/partytura/128"
     },
     {
       "id": "into-major-return",
-      "title": "The repeated pitch leads back to the song",
-      "from": "B · C♯-minor middle",
-      "to": "A′ · Opening song returns",
-      "at": {
-        "t": 210
-      },
-      "span": [
-        200,
-        222
-      ],
-      "how": "<p>The middle’s accumulated force recedes and the D♭-major opening melody returns. The recurring pitch links the two tonal spellings, while the lighter texture and recovered melodic contour make the reprise recognisable. The return is abbreviated, directing the music towards its close rather than beginning the whole argument again.</p>",
-      "devices": [
-        "decrescendo",
-        "common-tone modulation",
-        "motivic link"
-      ],
+      "title": "The song rises above the quavers",
+      "from": "B · G♯ above low C♯-minor chords",
+      "to": "A′ · The D♭-major song returns",
+      "at": { "t": 210 },
+      "span": [200, 222],
+      "how": "<p>The low G♯ bass supports the last hushed chords. In the linking half-bar, G♯ is respelt A♭ and the left hand moves through F, G♭ and E♭. A D♭ bass then brings back the opening melody on F, marked <i>piano</i>. The repeated quavers sit beneath the tune again.</p>",
+      "devices": ["decrescendo", "enharmonic reinterpretation", "motivic link", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate return around3:30 follows lower-level3:20–3:30 windows. Tonal plan and shortened reprise: https://en.wikipedia.org/wiki/Prelude,_Op._28,_No._15_(Chopin)."
+      "evidence": "Breitkopf & Härtel first edition, bars 74–76. https://chopinscores.org/partytura/128"
     }
   ]
 };

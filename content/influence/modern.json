@@ -7,12 +7,12 @@
    "to": "debussy",
    "kind": "heard",
    "year": 1889,
-   "title": "A Javanese gamelan in Paris reshapes Debussy’s ear",
+   "title": "Debussy hears a gamelan in Paris",
    "works": {
     "from": "Javanese gamelan at the Exposition Universelle, Paris (1889)",
     "to": "Pagodes, from Estampes (1903)"
    },
-   "claim": "<p>[[debussy]] heard a Javanese gamelan at the Paris Exposition Universelle of 1889, and its scales, melodies, rhythms and layered textures appealed to him. Their echoes are heard in <i>Pagodes</i>, the first piece of the piano suite <i>Estampes</i>, which uses pentatonic scales and mimics gamelan melodies. He later wrote that Javanese music “obeys laws of counterpoint which make Palestrina seem like child’s play”.</p>",
+   "claim": "<p>At the Paris Exposition of 1889, [[debussy]] heard a Javanese gamelan. Its echoes reach the piano in <i>Pagodes</i>: a gong-like bass beneath a pentatonic tune and faster notes above. He later wrote that Javanese music “obeys laws of counterpoint which make Palestrina seem like child’s play”.</p>",
    "status": "documented",
    "sources": [
     {
@@ -43,7 +43,7 @@
     "from": "L’après-midi d’un faune (poem, 1876)",
     "to": "Prélude à l’après-midi d’un faune (1894)"
    },
-   "claim": "<p>[[debussy]]’s orchestral prelude, first performed in Paris on 22 December 1894 under Gustave Doret, takes Mallarmé’s poem as its subject; Debussy called it “a very free illustration” of the poem, not a synthesis of it. Mallarmé had doubted that music should be set beside poetry, but after attending the premiere at Debussy’s invitation he wrote that the music went further than his text “into nostalgia and into light”.</p>",
+   "claim": "<p>[[debussy]] called his prelude “a very free illustration” of Mallarmé’s poem. Gustave Doret conducted the première in Paris on 22 December 1894, with Mallarmé in the audience. The poet wrote to Debussy afterwards that the music went further than his text, “into nostalgia and into light”.</p>",
    "status": "documented",
    "sources": [
     {
@@ -59,13 +59,14 @@
    "to": "debussy",
    "kind": "depicted",
    "year": 1905,
-   "title": "Hokusai’s wave on the cover of La mer",
+   "title": "Hokusai’s wave covers La Mer",
    "works": {
     "from": "The Great Wave off Kanagawa (c. 1831)",
     "to": "La mer, first edition of the orchestral score (Durand, 1905)"
    },
-   "claim": "<p>The first edition of the orchestral score of <i>La mer</i> (Durand, 1905) carried a detail of Hokusai’s <i>Great Wave off Kanagawa</i> on its cover: roughly the left half of the print, the great wave with a smaller wave in front of it. The choice of the print is credited to [[debussy]] and is read as a sign of how much Japanese art meant to him. What is documented is the cover; how far the picture shaped the music is a matter of interpretation.</p>",
+   "claim": "<p>Durand put Hokusai’s <i>Great Wave off Kanagawa</i> on the cover of [[debussy]]’s <i>La Mer</i> in 1905. The cropped image keeps roughly the left half of the print: the great wave poised above a smaller one.</p>",
    "status": "documented",
+   "note": "The cover is documented. How far Hokusai’s image shaped the composition remains a matter of interpretation.",
    "sources": [
     {
      "title": "Eastman School of Music, Sibley Library: Claude Debussy, La Mer",
@@ -142,12 +143,12 @@
    "to": "satie",
    "kind": "championed",
    "year": 1892,
-   "title": "Péladan makes Satie composer to the Rose+Croix",
+   "title": "Satie sounds Péladan’s ceremonial fanfares",
    "works": {
     "from": "Salon de la Rose+Croix, Paris (10 March–10 April 1892)",
     "to": "Sonneries de la Rose+Croix (1892)"
    },
-   "claim": "<p>Sâr Joséphin Péladan, founder of the Ordre de la Rose-Croix Catholique, invited [[satie]] to become the order’s official composer. For Péladan’s first Salon de la Rose-Croix (10 March–10 April 1892), each gathering opened with a Solemn Mass of the Holy Ghost, preceded by three fanfares for harp and trumpet that Satie composed. They were published as <i>Sonneries de la Rose+Croix</i>, music written for the order’s ceremonies rather than the concert hall.</p>",
+   "claim": "<p>Sâr Joséphin Péladan invited [[satie]] to become official composer to his Ordre de la Rose-Croix Catholique. At its first Salon, from 10 March to 10 April 1892, Satie’s three fanfares for harp and trumpet preceded the Solemn Mass of the Holy Ghost. They reached print as <i>Sonneries de la Rose+Croix</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -252,7 +253,7 @@
     "from": "Chopin, 24 Preludes, Op. 28 (1839)",
     "to": "Scriabin, 24 Preludes, Op. 11 (1888–96)"
    },
-   "claim": "<p>[[scriabin]]’s Op. 11 keeps strictly to the circle of fifths to cover every major and minor key, the plan of [[chopin]]’s Op. 28 set. Both cycles are built alike, with pieces arranged in relative major and minor pairs, and the resemblance sits beside a wider spiritual kinship with Chopin that runs through Scriabin’s early music.</p>",
+   "claim": "<p>[[scriabin]]’s twenty-four Preludes, Op. 11, follow the same circle of fifths as [[chopin]]’s Op. 28. Each major key is paired with its relative minor until the piano has travelled through all twenty-four.</p>",
    "status": "inferred",
    "note": "The sources describe the likeness of construction between the two cycles; a statement by Scriabin that he modelled Op. 11 on Op. 28 was not found.",
    "sources": [
@@ -620,7 +621,7 @@
    "to": "webern",
    "kind": "modelled",
    "year": 1906,
-   "title": "Webern edits Isaac and learns the interplay of parts",
+   "title": "Webern learns counterpoint from Isaac’s choirbook",
    "works": {
     "from": "Choralis Constantinus II (early 16th century)",
     "to": "Webern’s doctoral edition and his later counterpoint"
@@ -735,13 +736,14 @@
    "to": "stravinsky",
    "kind": "modelled",
    "year": 1920,
-   "title": "Stravinsky recomposes music then thought to be Pergolesi’s",
+   "title": "Stravinsky borrows from “Pergolesi”",
    "works": {
     "from": "Pieces then attributed to Pergolesi",
     "to": "Pulcinella (1920)"
    },
-   "claim": "<p><i>Pulcinella</i>, first danced in Paris in May 1920 with designs by Picasso, is a ballet on a commedia dell’arte libretto and music then believed to be by Pergolesi. The attribution has since been shown to be spurious: some of the music may be by Domenico Gallo, Unico Wilhelm van Wassenaer, Carlo Ignazio Monza and Alessandro Parisotti. [[stravinsky]]’s score recomposes it, so the influence is of an eighteenth-century idiom rather than of Pergolesi himself.</p>",
+   "claim": "<p>In <i>Pulcinella</i>, [[stravinsky]] recomposes music that reached him under Pergolesi’s name for a ballet drawn from commedia dell’arte. It was first danced in Paris in May 1920, with designs by Picasso.</p>",
    "status": "documented",
+   "note": "The Pergolesi attribution covers music from several hands. The cited account names Domenico Gallo, Unico Wilhelm van Wassenaer, Carlo Ignazio Monza and Alessandro Parisotti among the other possible composers.",
    "sources": [
     {
      "title": "Wikipedia: Pulcinella (Stravinsky)",
@@ -824,7 +826,7 @@
    "to": "shostakovich",
    "kind": "modelled",
    "year": 1950,
-   "title": "Leipzig’s Bach competition prompts Shostakovich’s 24 Preludes and Fugues",
+   "title": "Shostakovich brings Bach home from Leipzig",
    "works": {
     "from": "The Well-Tempered Clavier (1722, 1742)",
     "to": "24 Preludes and Fugues, Op. 87 (1950–51)"
@@ -1065,7 +1067,7 @@
    "to": "messiaen",
    "kind": "heard",
    "year": 1919,
-   "title": "A gift of Pelléas becomes “a thunderbolt” for Messiaen",
+   "title": "Pelléas strikes Messiaen like a thunderbolt",
    "works": {
     "from": "Pelléas et Mélisande (1902)",
     "to": "Messiaen’s early music"
@@ -1185,7 +1187,7 @@
     "from": "Sonatas and Interludes for prepared piano (1946–48)",
     "to": "Boulez’s early publications"
    },
-   "claim": "<p>[[boulez]]’s friendship with John Cage began in 1949, when Cage was visiting Paris. Cage introduced him to two publishers, Heugel and Amphion, who agreed to take his recent pieces, and Boulez helped arrange a private performance of Cage’s <i>Sonatas and Interludes</i> for prepared piano.</p>",
+   "claim": "<p>[[boulez]]’s friendship with [[cage|John Cage]] began in 1949, when Cage was visiting Paris. Cage introduced him to two publishers, Heugel and Amphion, who agreed to take his recent pieces, and Boulez helped arrange a private performance of Cage’s <i>Sonatas and Interludes</i> for prepared piano.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1206,7 +1208,7 @@
     "from": "Webern’s Symphony, Op. 21 at Carnegie Hall (January 1950)",
     "to": "Feldman’s graph pieces and Projections"
    },
-   "claim": "<p>In January 1950 [[feldman]] met John Cage walking out of Carnegie Hall, where both had gone to hear the New York Philharmonic under Dimitri Mitropoulos play Webern’s Symphony, Op. 21. Feldman soon moved into Cage’s apartment building on Grand Street, and through Cage met Jackson Pollock, Philip Guston and Frank O’Hara.</p>",
+   "claim": "<p>In January 1950 [[feldman]] met [[cage|John Cage]] walking out of Carnegie Hall, where both had gone to hear the New York Philharmonic under Dimitri Mitropoulos play Webern’s Symphony, Op. 21. Feldman soon moved into Cage’s apartment building on Grand Street, and through Cage met Jackson Pollock, Philip Guston and Frank O’Hara.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1232,7 +1234,7 @@
     "from": "Mark Rothko’s paintings in the Rothko Chapel, Houston",
     "to": "Rothko Chapel (1971)"
    },
-   "claim": "<p>In the 1970s [[feldman]] wrote a number of pieces about twenty minutes long, among them <i>Rothko Chapel</i> (1971), written for the building in Houston that houses paintings by Mark Rothko. He found inspiration in abstract expressionist painting and knew its painters through Cage, who introduced him to Jackson Pollock, Philip Guston and Frank O’Hara.</p>",
+   "claim": "<p>In the 1970s [[feldman]] wrote a number of pieces about twenty minutes long, among them <i>Rothko Chapel</i> (1971), written for the building in Houston that houses paintings by Mark Rothko. He found inspiration in abstract expressionist painting and knew its painters through [[cage|John Cage]], who introduced him to Jackson Pollock, Philip Guston and Frank O’Hara.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1248,7 +1250,7 @@
    "to": "part",
    "kind": "modelled",
    "year": 1976,
-   "title": "Pärt studies chant and Notre Dame polyphony before tintinnabuli",
+   "title": "Pärt studies chant before Für Alina",
    "works": {
     "from": "Gregorian chant and the Notre Dame School",
     "to": "Für Alina (1976) and the tintinnabuli style"
@@ -1368,7 +1370,7 @@
     "from": "Silence: Lectures and Writings (1961)",
     "to": "Adams’s music from the 1970s"
    },
-   "claim": "<p>[[adams]]’s early work was aligned with modernist music, but he began to disagree with its tenets on reading John Cage’s <i>Silence: Lectures and Writings</i>. Teaching at the San Francisco Conservatory of Music, he went on to develop a style of his own.</p>",
+   "claim": "<p>[[adams]]’s early work was aligned with modernist music, but he began to disagree with its tenets on reading [[cage|John Cage]]’s <i>Silence: Lectures and Writings</i>. Teaching at the San Francisco Conservatory of Music, he went on to develop a style of his own.</p>",
    "status": "inferred",
    "note": "The date is not given in the source; the year 1970 stands for the late 1960s and early 1970s of his training and is approximate.",
    "sources": [
@@ -1425,7 +1427,7 @@
    "id":"bach-signature--reger-op46","from":"bach","to":"reger","kind":"quoted","year":1900,
    "title":"Reger builds an organ monument on BACH","thread":"bach-motif",
    "works":{"from":"The B–A–C–H musical signature","to":"Fantasie und Fuge über B-A-C-H, Op. 46 (1900)"},
-   "claim":"<p>Reger made B–A–C–H the named subject of his large organ Fantasy and Fugue, Op. 46, composed in February 1900. Its dedication is to Josef Rheinberger: the Bach homage in its musical material should not be confused with the person named on the dedication page.</p>",
+   "claim":"<p>Reger built his large organ Fantasy and Fugue, Op. 46, on the four notes B–A–C–H in February 1900. He dedicated the score to Josef Rheinberger.</p>",
    "status":"documented",
    "sources":[{"title":"Reger, Fantasie und Fuge über B-A-C-H, Op. 46: work catalogue","url":"https://imslp.org/wiki/Fantasie_und_Fuge_%C3%BCber_B-A-C-H,_Op.46_(Reger,_Max)","locator":"General Information: February 1900, organ, dedication to Josef Rheinberger"}]
   },
@@ -1433,8 +1435,8 @@
    "id":"bach-signature--webern-quartet-op28","from":"bach","to":"webern","kind":"quoted","year":1938,
    "title":"Bach’s four notes begin Webern’s twelve-tone row","thread":"bach-motif",
    "works":{"from":"The B–A–C–H musical signature","to":"String Quartet, Op. 28 (1936–38)"},
-   "claim":"<p>Webern’s Op. 28 row begins B♭–A–C–B♮, and its three four-note groups are transformations of that same B–A–C–H cell. The quartet therefore carries an identifiable Bach signature inside its twelve-tone organisation rather than quoting a whole Bach tune.</p>",
-   "status":"documented","note":"1938 anchors the completed quartet’s first performance, on 22 September at the Coolidge Festival in Pittsfield, not the start of composition.",
+   "claim":"<p>Webern’s String Quartet, Op. 28, begins its twelve-note row with B♭–A–C–B♮. Each of the row’s three four-note groups transforms the same little cell: Bach’s name runs through all twelve notes.</p>",
+   "status":"documented","note":"1938 dates the first performance, on 22 September at the Coolidge Festival in Pittsfield. Composition began earlier.",
    "sources":[{"title":"String Quartet, Op. 28 (Webern): tone-row analysis","url":"https://en.wikipedia.org/wiki/String_Quartet_(Webern)","locator":"‘Tone row’: opening B-flat–A–C–B-natural and three related tetrachords; opening chronology"},{"title":"Universal Edition: Webern, String Quartet Op. 28","url":"https://www.universaledition.com/en/String-Quartet/P0035206","locator":"Publisher work catalogue"}]
   },
   {
@@ -1449,7 +1451,7 @@
    "id":"gregorian-chant--crumb-black-angels","from":"gregorian-chant","to":"crumb","kind":"quoted","year":1970,
    "title":"The chant haunts an amplified string quartet","thread":"dies-irae",
    "works":{"from":"Dies irae, the Requiem plainchant","to":"Black Angels, Thirteen Images from the Dark Land (1970)"},
-   "claim":"<p>Crumb acknowledged the <i>Dies irae</i> among the musical allusions in <i>Black Angels</i>, alongside Schubert’s <i>Death and the Maiden</i> and Tartini’s <i>Devil’s Trill</i>. The chant’s appearance in a work for amplified string quartet extends its afterlife beyond Romantic orchestral spectacle into an intimate, unsettling modern sound-world.</p>",
+   "claim":"<p>Crumb’s amplified string quartet <i>Black Angels</i> summons the <i>Dies irae</i> alongside Schubert’s <i>Death and the Maiden</i> and Tartini’s <i>Devil’s Trill</i>. Crumb names all three allusions in his foreword.</p>",
    "status":"documented",
    "sources":[{"title":"Victoria Adamenko, Library of Congress National Recording Registry: Black Angels","url":"https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Black-Angels.pdf","locator":"p. 2: Crumb’s foreword acknowledges Dies irae and other allusions; pp. 1–2: scoring and 13 March 1970 completion"}]
   },
@@ -1465,7 +1467,7 @@
    "id":"beethoven-ninth--bernstein-berlin-freedom","from":"beethoven","to":"bernstein","kind":"championed","year":1989,
    "title":"Bernstein changes joy to freedom in Berlin","thread":"ode-to-joy",
    "works":{"from":"Symphony No. 9, finale, Schiller’s An die Freude","to":"Berlin Freedom Concert, Schauspielhaus, 25 December 1989"},
-   "claim":"<p>At the Christmas Day 1989 concert in East Berlin, Bernstein conducted Beethoven’s Ninth with singers substituting <i>Freiheit</i> for <i>Freude</i> in the finale. The alteration answered the opening of the Berlin Wall; it is a documented performance decision, not evidence that Schiller originally wrote the poem with that word.</p>",
+   "claim":"<p>At the Christmas Day 1989 concert in East Berlin, Bernstein conducted Beethoven’s Ninth with one changed word. The singers sang <i>Freiheit</i>, freedom, in place of <i>Freude</i>, joy, answering the opening of the Berlin Wall.</p>",
    "status":"documented",
    "sources":[{"title":"Leonard Bernstein Office: Berlin Wall Concert, 1989","url":"https://leonardbernstein.com/about/conductor/historic-concerts/berlin-wall-concert-1989","locator":"Klaus Geitel’s account: 25 December 1989, East Berlin Schauspielhaus, Freude changed to Freiheit"}]
   },
@@ -1473,9 +1475,367 @@
    "id":"frere-jacques--beatles-paperback-writer","from":"frere-jacques-round","to":"beatles","kind":"quoted","year":1966,
    "title":"A children’s round enters Paperback Writer","thread":"frere-jacques",
    "works":{"from":"Frère Jacques, traditional round","to":"Paperback Writer, backing vocals (1966)"},
-   "claim":"<p>The Beatles sing <i>Frère Jacques</i> in the backing vocals of <i>Paperback Writer</i>, recorded in April 1966. Unlike Mahler’s minor-key funeral transformation, this is a brief vocal quotation tucked into a pop recording: the same familiar round travels into a different musical setting.</p>",
+   "claim":"<p>In the backing vocals of <i>Paperback Writer</i>, recorded in April 1966, the Beatles sing <i>Frère Jacques</i>. The children’s round slips into the pop song behind its main tune.</p>",
    "status":"documented",
    "sources":[{"title":"The Beatles: Paperback Writer","url":"https://www.thebeatles.com/paperback-writer","locator":"Official song page: recording on 13 and 14 April 1966; May/June release"},{"title":"The Beatles Bible: Paperback Writer","url":"https://www.beatlesbible.com/songs/paperback-writer/","locator":"Recording account: 14 April backing vocals and Frère Jacques quotation; updated 30 July 2026"}]
+  },
+  {
+   "id": "chadwick--price-new-england-conservatory-1903",
+   "from": "chadwick",
+   "to": "price",
+   "kind": "studied-with",
+   "year": 1903,
+   "title": "Price studies at New England Conservatory, privately with Chadwick",
+   "works": {
+    "from": "Composition with Wallace Goodrich and Frederick Converse; private lessons with George W. Chadwick, director of the conservatory",
+    "to": "Price’s training in Boston, 1903–06, before her Symphony in E minor (1931)"
+   },
+   "claim": "<p>In 1903 Florence Smith, later [[price]], enrolled at the New England Conservatory in Boston, a notable achievement for a Black woman at the time. She completed the four-year course in three years and graduated in 1906 with two diplomas, a soloist’s diploma in organ and a teacher’s diploma in piano. Rae Linda Brown, her biographer, writes that she studied composition there with Wallace Goodrich and Frederick Converse and studied privately with the conservatory’s director, George W. Chadwick; the Song of America project likewise records private composition lessons with him.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Rae Linda Brown: “Symphony No. 1 in E minor (1932)”, American Symphony Orchestra programme note (15 April 1994)",
+     "url": "https://americansymphony.org/concert-notes/symphony-no-1-in-e-minor/",
+     "locator": "paragraph beginning “Florence Beatrice Smith Price was born in Little Rock”"
+    },
+    {
+     "title": "Song of America: Florence Beatrice Price",
+     "url": "https://songofamerica.net/composer/price-florence",
+     "locator": "“About”: private composition lessons with George Whitefield Chadwick"
+    },
+    {
+     "title": "Phillip Huscher: “Florence Price’s Symphony No. 1”, Chicago Symphony Orchestra (26 February 2024)",
+     "url": "https://chicagosymphony.org/inside-the-music/article/17666/florence-prices-symphony-no-1",
+     "locator": "paragraph on 1903 and the two diplomas"
+    }
+   ]
+  },
+  {
+   "id": "dvorak--price-symphony-no-1-1931",
+   "from": "dvorak",
+   "to": "price",
+   "kind": "modelled",
+   "year": 1931,
+   "title": "Dvořák’s New World Symphony shapes Price’s Symphony No. 1",
+   "works": {
+    "from": "Dvořák, Symphony No. 9 “From the New World” (1893) and the American works",
+    "to": "Price, Symphony No. 1 in E minor (begun January 1931)"
+   },
+   "claim": "<p>[[price]] began her Symphony in E minor in January 1931 and worked on it for much of the year. It won a Rodman Wanamaker prize in 1932, and Frederick Stock conducted the Chicago Symphony in its first performance on 15 June 1933. Like [[dvorak]]’s <i>New World</i> Symphony, it has four movements in the familiar order. Phillip Huscher hears its opening, a syncopated bassoon solo, at once recalling the <i>New World</i>, and Rae Linda Brown finds Dvořák’s influence “most evident” in the second theme of the first movement. Brown adds that the “American” works Dvořák wrote while heading the National Conservatory in New York inspired a generation of American composers, Black and white.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Phillip Huscher: “Florence Price’s Symphony No. 1”, Chicago Symphony Orchestra (26 February 2024)",
+     "url": "https://chicagosymphony.org/inside-the-music/article/17666/florence-prices-symphony-no-1",
+     "locator": "paragraph on the four movements and the syncopated bassoon solo; January 1931; the 1932 prize"
+    },
+    {
+     "title": "Rae Linda Brown: “Symphony No. 1 in E minor (1932)”, American Symphony Orchestra programme note (15 April 1994)",
+     "url": "https://americansymphony.org/concert-notes/symphony-no-1-in-e-minor/",
+     "locator": "paragraphs on Dvořák’s American works and on the first movement"
+    }
+   ]
+  },
+  {
+   "id": "african-american-spirituals--price-fantasie-negre-1929",
+   "from": "african-american-spirituals",
+   "to": "price",
+   "kind": "quoted",
+   "year": 1929,
+   "title": "Price builds Fantasie nègre on a spiritual",
+   "works": {
+    "from": "“Sinner, Please Don’t Let This Harvest Pass”, African American spiritual",
+    "to": "Price, Fantasie nègre (1929), dedicated to Margaret Bonds"
+   },
+   "claim": "<p>In 1929 [[price]] dedicated her <i>Fantasie nègre</i> to the young Margaret Bonds. Samantha Ege writes that Price borrows her theme from the spiritual “Sinner, Please Don’t Let This Harvest Pass”. The pianist Lara Downes remembers it as the first post-Romantic virtuoso piece she had heard built on a spiritual melody, and found that it moved audiences wherever she played it. A dance troupe led by Ludmilla Speranza and Katherine Dunham later staged the work as a ballet, with Bonds at the piano.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Samantha Ege: programme notes, Crossing Borders Music",
+     "url": "https://crossingbordersmusic.org/notes/",
+     "locator": "section on Florence Price: Fantasie Negre (1929), the spiritual, the ballet"
+    },
+    {
+     "title": "Arionne Nettles: “Florence Price was one of the greatest composers of the 20th Century”, WBEZ Curious City (21 July 2022)",
+     "url": "https://www.wbez.org/curious-city/2022/07/21/who-was-florence-price",
+     "locator": "section “Legacy”: Lara Downes on the first Fantasie"
+    }
+   ]
+  },
+  {
+   "id": "marian-anderson--price-lincoln-memorial-1939",
+   "from": "marian-anderson",
+   "to": "price",
+   "kind": "championed",
+   "year": 1939,
+   "title": "Anderson sings Price’s spiritual at the Lincoln Memorial",
+   "works": {
+    "from": "Marian Anderson’s concert at the Lincoln Memorial, Washington, 9 April 1939",
+    "to": "Price’s arrangement of “My Soul’s Been Anchored in de Lord”"
+   },
+   "claim": "<p>When the Daughters of the American Revolution refused [[marian-anderson]] the use of Constitution Hall because she was Black, an open-air concert was arranged on the steps of the Lincoln Memorial. On Easter Sunday, 9 April 1939, she sang to a crowd of 75,000, with six microphones carrying the concert to radio and Kosti Vehanen at the piano. After “America”, Donizetti’s “O mio Fernando” and Schubert’s “Ave Maria”, she sang three spirituals: Harry T. Burleigh’s arrangement of “Gospel Train”, Edward Boatner’s “Trampin’” and Florence Price’s arrangement of “My Soul’s Been Anchored in the Lord”. According to Rae Linda Brown, Price wrote many of her art songs and spiritual arrangements for Anderson.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Cait Miller: “Marian Anderson’s #LincolnMemorialMoment”, Library of Congress, In The Muse (12 May 2022)",
+     "url": "https://blogs.loc.gov/music/2022/05/marian-andersons-lincoln-memorial-moment/",
+     "locator": "paragraphs on the refusal of Constitution Hall and on Anderson’s programme"
+    },
+    {
+     "title": "Dan Dykema: “Florence Price (1887–1953)”, Encyclopedia of Arkansas (updated 7 April 2025)",
+     "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/",
+     "locator": "paragraph on Chicago and the Wanamaker prizes: Anderson at the Lincoln Memorial, 9 April 1939"
+    },
+    {
+     "title": "Rae Linda Brown: “Symphony No. 1 in E minor (1932)”, American Symphony Orchestra programme note (15 April 1994)",
+     "url": "https://americansymphony.org/concert-notes/symphony-no-1-in-e-minor/",
+     "locator": "penultimate paragraph: songs and spiritual arrangements for Marian Anderson"
+    }
+   ]
+  },
+  {
+   "id": "price--margaret-bonds-chicago-mentoring-1932",
+   "from": "price",
+   "to": "margaret-bonds",
+   "kind": "taught",
+   "year": 1932,
+   "title": "Price mentors Margaret Bonds in Chicago",
+   "works": {
+    "from": "Price as teacher and mentor in the Bonds household, Chicago",
+    "to": "Bonds’s song prize in the 1932 Wanamaker competition; Price’s Fantasie nègre (1929), dedicated to her"
+   },
+   "claim": "<p>When [[price]] moved to Chicago in 1927 she was welcomed into the Bonds family. After her marriage ended, the pianist Estella Bonds, whom she had met through the city’s Black music organisations, invited Price and her daughters to live in her three-storey house. Price became a teacher and mentor to Estella’s daughter Margaret, and dedicated her <i>Fantasie nègre</i> to her; Bonds became a frequent interpreter of Price’s works. In 1932 Price’s symphony and piano sonata won Rodman Wanamaker prizes, and Bonds won one for a song. Under Price’s tutelage, Arionne Nettles writes, Bonds went on to become one of the great composers of the Chicago Black Renaissance.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Arionne Nettles: “Florence Price was one of the greatest composers of the 20th Century”, WBEZ Curious City (21 July 2022)",
+     "url": "https://www.wbez.org/curious-city/2022/07/21/who-was-florence-price",
+     "locator": "section “The Chicago Black Renaissance” and the paragraphs on Estella and Margaret Bonds"
+    },
+    {
+     "title": "Samantha Ege: programme notes, Crossing Borders Music",
+     "url": "https://crossingbordersmusic.org/notes/",
+     "locator": "sections on Price and on Margaret Bonds"
+    },
+    {
+     "title": "Dan Dykema: “Florence Price (1887–1953)”, Encyclopedia of Arkansas (updated 7 April 2025)",
+     "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/",
+     "locator": "paragraph on the 1932 Wanamaker prizes"
+    }
+   ]
+  },
+  {
+   "id": "nadia-boulanger--copland-fontainebleau-1921",
+   "from": "nadia-boulanger",
+   "to": "copland",
+   "kind": "studied-with",
+   "year": 1921,
+   "title": "Copland chooses Nadia Boulanger as his teacher",
+   "works": {
+    "from": "Boulanger’s harmony and composition classes, Fontainebleau and Paris, 1921–24",
+    "to": "Copland, Symphony for Organ and Orchestra (first played 1925)"
+   },
+   "claim": "<p>In May 1921 [[copland]] enrolled at the newly established American Conservatory at Fontainebleau. A friend urged him to attend the harmony class of a young Frenchwoman, Nadia Boulanger. He later remembered hesitating, “because I had never heard of any composer who had studied with a woman”, but he chose her as his teacher and began composition studies with her in October. A year of study in France became three. In 1924 Boulanger took him to meet Koussevitzky in Paris; after hearing part of Copland’s ballet <i>Grohg</i> at the piano, the conductor ordered an organ concerto for Boulanger to play. It became the Symphony for Organ and Orchestra, which she played in New York in 1925 under Walter Damrosch. “I don’t know what my career would have been like without her!” Copland often said.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Vivian Perlis: “The Man Behind The Music”, aaroncopland.com",
+     "url": "https://www.aaroncopland.com/about/the-man-behind-the-music/",
+     "locator": "paragraphs on Fontainebleau, Boulanger and Koussevitzky"
+    },
+    {
+     "title": "Michael Boriskin: “Aaron Copland: Timeline of a Musical Life”, Copland House",
+     "url": "https://www.coplandhouse.org/aaron-copland/timeline/",
+     "locator": "entries for 1921 and 1925"
+    }
+   ]
+  },
+  {
+   "id": "copland--bernstein-first-meeting-1937",
+   "from": "copland",
+   "to": "bernstein",
+   "kind": "taught",
+   "year": 1937,
+   "title": "Copland mentors the teenage Bernstein",
+   "works": {
+    "from": "Copland’s Piano Variations (1930) and his letters to Bernstein from 1937",
+    "to": "Bernstein’s arrangements of El Salón México; the Third Symphony performances of the 1940s"
+   },
+   "claim": "<p>On 14 November 1937 the Harvard undergraduate Leonard Bernstein found himself seated next to [[copland]] at a dance recital in New York, and the poet Muriel Rukeyser introduced them. Bernstein had already studied and performed Copland’s <i>Piano Variations</i>. Copland invited him to his birthday party that night and began a correspondence in which he wrote as counsellor and addressed him as “Dear Pupil”. Bernstein often called Copland the closest he came to having a real composition teacher. The first published works under his name were the solo and two-piano arrangements of <i>El Salón México</i> that Copland asked him to make. In the 1940s he conducted many of the early performances of the Third Symphony and cut a few bars from its finale on his own initiative. Copland came to agree: it was the only change, Vivian Perlis writes, that he ever accepted.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Michael Boriskin: “Aaron Copland at 125: A Defining Musical Friendship”, Leonard Bernstein Office (18 November 2025)",
+     "url": "https://leonardbernstein.com/news/blog/310/aaron-copland-at-125-a-defining-musical-friendship",
+     "locator": "whole article: the meeting of 14 November 1937, “Dear Pupil”, the El Salón México arrangements, the Third Symphony cut"
+    },
+    {
+     "title": "Vivian Perlis: “The Man Behind The Music”, aaroncopland.com",
+     "url": "https://www.aaroncopland.com/about/the-man-behind-the-music/",
+     "locator": "paragraph on the Third Symphony and Bernstein’s cut"
+    },
+    {
+     "title": "Aaron Copland: El Salón México, work record, aaroncopland.com",
+     "url": "https://www.aaroncopland.com/works/el-salon-mexico/",
+     "locator": "Arrangements: solo piano and two pianos, arr. Bernstein"
+    }
+   ]
+  },
+  {
+   "id": "carlos-chavez--copland-el-salon-mexico-1932",
+   "from": "carlos-chavez",
+   "to": "copland",
+   "kind": "championed",
+   "year": 1932,
+   "title": "Chávez brings Copland to Mexico and El Salón México",
+   "works": {
+    "from": "Chávez’s invitation and the first all-Copland concert, Mexico City, 2 September 1932",
+    "to": "Copland, El Salón México (1932–36), conducted by Chávez at the première, 27 August 1937"
+   },
+   "claim": "<p>[[carlos-chavez]] arranged Copland’s first visit to Mexico in 1932 and organised the first all-Copland programme, at the Conservatorio Nacional on 2 September: the Two Pieces for String Quartet, the <i>Piano Variations</i>, the Two Pieces for Chorus and <i>Music for the Theatre</i>. He also took his friend to a nightclub called El Salón México. “I was attracted by the spirit of the place and by the Mexican people,” Copland said. “Using Mexican melodies seemed appropriate.” He finished the orchestral piece in 1936, and Chávez conducted the Orquesta Sinfónica de México in the first performance, in Mexico City on 27 August 1937.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Aaron Copland: El Salón México, work record with Vivian Perlis’s programme note, aaroncopland.com",
+     "url": "https://www.aaroncopland.com/works/el-salon-mexico/",
+     "locator": "Premiere; Program Note"
+    },
+    {
+     "title": "Michael Boriskin: “Aaron Copland: Timeline of a Musical Life”, Copland House",
+     "url": "https://www.coplandhouse.org/aaron-copland/timeline/",
+     "locator": "entries for 1932 and 1936"
+    }
+   ]
+  },
+  {
+   "id": "william-hamilton-stepp--copland-rodeo-hoe-down-1942",
+   "from": "william-hamilton-stepp",
+   "to": "copland",
+   "kind": "quoted",
+   "year": 1942,
+   "title": "Copland builds Hoe-Down on a Kentucky fiddler’s tune",
+   "works": {
+    "from": "W. H. Stepp, “Bonaparte’s Retreat”, recorded by Alan and Elizabeth Lomax, Salyersville, Kentucky, October 1937",
+    "to": "Copland, Rodeo (1942), final section “Hoe-Down”"
+   },
+   "claim": "<p>In October 1937 Alan and Elizabeth Lomax recorded the Kentucky fiddler [[william-hamilton-stepp]] at Salyersville playing “Bonaparte’s Retreat”. Stepp almost doubled the tempo of the old march tune, turning a 4/4 march into a reel or hoedown. When Agnes de Mille asked [[copland]] in April 1942 to score <i>Rodeo</i>, he worked from Ruth Crawford Seeger’s transcription of Stepp’s version in the Lomaxes’ book <i>Our Singing Country</i> (1941), and adopted it almost note for note, Alan Jabbour writes, as the main theme of the final “Hoe-Down”. He added the fiddle tunes “Hop Light Ladies” and “Gilderoy”. The Library of Congress’s account is that Copland probably never heard the field recording. The Ballet Russe de Monte Carlo gave <i>Rodeo</i> its first performance in New York on 16 October 1942.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Stephen Winick: “Bill Stepp, Aaron Copland, and ‘Bonaparte’s Retreat’”, Library of Congress, Folklife Today (25 November 2013)",
+     "url": "https://blogs.loc.gov/folklife/2013/11/bill-stepp-aaron-copland-and-bonapartes-retreat/",
+     "locator": "whole post: the Lomax recording, Our Singing Country, Jabbour’s account, Copland and the field recording"
+    },
+    {
+     "title": "David S. Lynch: “‘Bonaparte’s Retreat’—W.H. Stepp (1937)”, Library of Congress, National Recording Registry essay",
+     "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/BonapartesRetreat.pdf",
+     "locator": "paragraphs on De Mille’s April 1942 request and Copland’s use of the transcription, “Hop Light Ladies” and “Gilderoy”"
+    },
+    {
+     "title": "Aaron Copland: Rodeo (ballet), work record, aaroncopland.com",
+     "url": "https://www.aaroncopland.com/works/rodeo-ballet/",
+     "locator": "Premiere (New York, 16 October 1942); Commission Info: Ballet Russe de Monte Carlo"
+    }
+   ]
+  },
+  {
+   "id": "charles-hambitzer--gershwin-piano-lessons-1913",
+   "from": "charles-hambitzer",
+   "to": "gershwin",
+   "kind": "studied-with",
+   "year": 1913,
+   "title": "Hambitzer becomes Gershwin’s first important piano teacher",
+   "works": {
+    "from": "Charles Hambitzer’s piano lessons, from about early 1913 until 1918",
+    "to": "Gershwin’s earliest songs; his work as a song plugger for Remick from May 1914"
+   },
+   "claim": "<p>[[gershwin|George Gershwin]]’s first important piano teacher was Charles Hambitzer, whom he later described as “the first great musical influence in my life”. The Library of Congress dates the lessons from about early 1913 until Hambitzer’s death in 1918, though how often they met in the later years is uncertain. From 1912 Gershwin had been going to concerts by Leopold Godowsky, Josef Lhévinne, Leo Ornstein and Efrem Zimbalist, and in May 1914, at fifteen, already a skilled sight-reader and transposer, he left school to become a piano pounder at Jerome H. Remick and Company.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Library of Congress, Music Division: George and Ira Gershwin Collection, finding aid (revised February 2025)",
+     "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu010014/mu010014.pdf",
+     "locator": "biographical chronology: 1912–14 (concerts), circa 1913–18 (Hambitzer), 1914 May (Remick)"
+    }
+   ]
+  },
+  {
+   "id": "dubose-heyward--gershwin-porgy-and-bess-1933",
+   "from": "dubose-heyward",
+   "to": "gershwin",
+   "kind": "set-text",
+   "year": 1933,
+   "title": "Heyward’s Porgy becomes Gershwin’s Porgy and Bess",
+   "works": {
+    "from": "DuBose Heyward’s novel Porgy and the play he and Dorothy Heyward adapted from it",
+    "to": "Gershwin, Porgy and Bess, Alvin Theatre, New York, 10 October 1935"
+   },
+   "claim": "<p>In October 1926 [[gershwin|George Gershwin]] read DuBose Heyward’s novel <i>Porgy</i> and saw its operatic possibilities. He mentioned the idea to Heyward soon afterwards, but serious work began only in November 1933, when Heyward sent him the draft libretto for the first scenes, with more to follow early in 1934. The opera, credited to the Gershwins and the Heywards and based on the novel and on the play Heyward and his wife Dorothy adapted from it, took about twenty months: eleven composing and nine orchestrating. It opened at Boston’s Colonial Theatre on 30 September 1935 and at the Alvin Theatre in New York on 10 October, with Todd Duncan and Anne Wiggins Brown in the title roles, and ran for 124 performances.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "Library of Congress, Music Division: George and Ira Gershwin Collection, finding aid (revised February 2025)",
+     "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu010014/mu010014.pdf",
+     "locator": "biographical chronology: 1926 October; 1933 November; 1935"
+    },
+    {
+     "title": "Gershwin: Porgy and Bess (opera), official catalogue page",
+     "url": "https://gershwin.com/publications/porgy-and-bess/",
+     "locator": "opening paragraphs: authors, the novel and the play"
+    }
+   ]
+  },
+  {
+   "id": "schoenberg--cage-lessons-1935",
+   "from": "schoenberg",
+   "to": "cage",
+   "kind": "studied-with",
+   "year": 1935,
+   "title": "Cage studies with Schoenberg in Los Angeles",
+   "works": {
+    "from": "Schoenberg’s analysis, counterpoint and composition classes, Los Angeles, from 18 March 1935",
+    "to": "Cage’s rhythmic structures at the Cornish School, Seattle, late 1930s"
+   },
+   "claim": "<p>Prepared by Henry Cowell and Adolph Weiss, [[cage|John Cage]] asked [[schoenberg]] to teach him. Schoenberg warned that he probably could not afford his price; Cage said he had no money, and when he answered yes to the question whether he would devote his life to music, Schoenberg taught him free of charge. From 18 March 1935 Cage studied analysis in small group sessions at Schoenberg’s Hollywood home, and he also attended a private counterpoint class and classes in composition, harmony and counterpoint at the University of Southern California and then at UCLA. After two years it was clear to both of them, Cage remembered, that he had no feeling for harmony, which for Schoenberg was structural. “You’ll come to a wall and won’t be able to get through,” Schoenberg told him. “Then I’ll spend my life knocking my head against that wall,” Cage answered. At the Cornish School in Seattle he made what he called his response to Schoenberg’s structural harmony: a rhythmic structure in which the large parts of a piece have the same proportion as the phrases of a single unit.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "John Cage: “An Autobiographical Statement” (1990), John Cage Trust",
+     "url": "https://johncage.org/cage-autobiographical-statement",
+     "locator": "paragraphs on Buhlig, Cowell, Weiss and Schoenberg, and on the Cornish School"
+    },
+    {
+     "title": "Paul van Emmerik: A John Cage Compendium, Chronology 1912–1971",
+     "url": "https://cagecompendium.org/chronology/1912-1971/",
+     "locator": "entries for 1934–35 (Weiss, Schoenberg’s arrival in California) and “18 March 1935–1937”"
+    }
+   ]
+  },
+  {
+   "id": "satie--cage-black-mountain-festival-1948",
+   "from": "satie",
+   "to": "cage",
+   "kind": "heard",
+   "year": 1948,
+   "title": "Cage stages a Satie festival at Black Mountain",
+   "works": {
+    "from": "Satie’s music and his play Le Piège de Méduse (1913)",
+    "to": "Cage’s Satie festival and Defense of Satie, Black Mountain College, summer 1948; the Vexations performance, 1963"
+   },
+   "claim": "<p>[[cage|John Cage]] came to know the music of [[satie]] in Paris in 1930, and it stayed a lifelong source of inspiration. Teaching at Black Mountain College in July and August 1948, he found its largely German community unfamiliar with Satie and organised a festival of twenty-five concerts, each with short introductions of his own. In the middle he placed a lecture, <i>Defense of Satie</i>, that set Satie against Beethoven and found Satie right; it caused a controversy. The festival included Satie’s play <i>Le Piège de Méduse</i>, with Buckminster Fuller as Baron Méduse and Elaine de Kooning as Frisette, and Merce Cunningham danced the “Monkey Dances” as Jonas to Cage’s prepared piano. In 1949 Cage published Satie’s <i>Vexations</i>, found in Henri Sauguet’s private collection, in <i>Contrepoints</i> (Paris, no. 6). On 9–10 September 1963 he initiated the first complete performance, at the Pocket Theatre in New York: eighteen hours and forty minutes, with a relay of ten pianists.</p>",
+   "status": "documented",
+   "sources": [
+    {
+     "title": "John Cage: “An Autobiographical Statement” (1990), John Cage Trust",
+     "url": "https://johncage.org/cage-autobiographical-statement",
+     "locator": "paragraph on Black Mountain College and the Satie festival"
+    },
+    {
+     "title": "Paul van Emmerik: A John Cage Compendium, Chronology 1912–1971",
+     "url": "https://cagecompendium.org/chronology/1912-1971/",
+     "locator": "entries for June 1930 (Paris), 1 July–25 August 1948, 1949 (Contrepoints), 9–10 September 1963"
+    }
+   ]
   }
  ],
  "figures": [
@@ -1534,13 +1894,6 @@
    "dates": "Medieval tradition",
    "year": 800,
    "kind": "tradition"
-  },
-  {
-   "id": "cage",
-   "name": "John Cage",
-   "dates": "1912–1992",
-   "year": 1912,
-   "kind": "composer"
   },
   {
    "id": "kandinsky",
@@ -1693,6 +2046,15 @@
   {"id":"crumb","name":"George Crumb","dates":"1929–2022","year":1929,"kind":"composer"},
   {"id":"european-anthem","name":"The European anthem","dates":"Adopted 1972; European Community adoption 1985","year":1972,"kind":"tradition"},
   {"id":"bernstein","name":"Leonard Bernstein","dates":"1918–1990","year":1918,"kind":"performer"},
-  {"id":"beatles","name":"The Beatles","dates":"1960–1970","year":1960,"kind":"performer"}
+  {"id":"beatles","name":"The Beatles","dates":"1960–1970","year":1960,"kind":"performer"},
+  {"id":"african-american-spirituals","name":"African American spirituals","dates":"Oral tradition; Price’s Fantasie nègre, 1929","year":1929,"kind":"tradition"},
+  {"id":"marian-anderson","name":"Marian Anderson","dates":"1897–1993","year":1897,"kind":"performer"},
+  {"id":"margaret-bonds","name":"Margaret Bonds","dates":"1913–1972","year":1913,"kind":"composer"},
+  {"id":"chadwick","name":"George Whitefield Chadwick","dates":"1854–1931","year":1854,"kind":"teacher"},
+  {"id":"nadia-boulanger","name":"Nadia Boulanger","dates":"1887–1979","year":1887,"kind":"teacher"},
+  {"id":"carlos-chavez","name":"Carlos Chávez","dates":"1899–1978","year":1899,"kind":"composer"},
+  {"id":"william-hamilton-stepp","name":"William Hamilton Stepp","dates":"1875–1957","year":1875,"kind":"performer"},
+  {"id":"charles-hambitzer","name":"Charles Hambitzer","dates":"c. 1878–1918","year":1878,"kind":"teacher"},
+  {"id":"dubose-heyward","name":"DuBose Heyward","dates":"1885–1940","year":1885,"kind":"writer"}
  ]
 }

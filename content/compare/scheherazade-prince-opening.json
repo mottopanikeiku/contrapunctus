@@ -1,25 +1,27 @@
 {
   "id": "scheherazade-prince-opening",
-  "title": "Two orchestras breathe the same melody",
+  "title": "The prince’s tune, lingering and striding",
   "composer": "rimsky-korsakov",
   "group": "century",
   "work": "Scheherazade, Op. 35 — III, opening passage",
-  "question": "How do Stokowski and Monteux make room for the opening melody’s long phrases?",
-  "intro": "Stokowski recorded the Philadelphia Orchestra on 12 November 1934; Monteux’s San Francisco recording dates from 3–4 March 1942. The comparison uses Stokowski’s first disc side against the opening of Monteux’s complete movement. Alignment is restricted to the inspected opening phrases, Stokowski 2.8–65 seconds and Monteux 2.2–42 seconds; later music and whole-movement speed comparisons are excluded.",
+  "question": "Why does the same violin melody seem to linger with Stokowski and stride with Monteux?",
+  "intro": "Two violin sections begin the young lovers’ movement of <i>Scheherazade</i>, singing in G major above held lower strings. Stokowski’s Philadelphia players slide between notes and take their time over the tune. Monteux’s San Francisco orchestra keeps it moving, with a brisker step beneath the long phrases.",
   "recordings": [
-    { "listen": "rimsky-korsakov-scheherazade-stokowski-side1", "label": "Stokowski, 1934 · side 1", "year": 1934, "note": "Follow the long melodic span and the early crest around one minute; this is only the movement’s first record side." },
-    { "listen": "rimsky-korsakov-scheherazade-prince", "label": "Monteux, 1942", "year": 1942, "note": "Follow the opening melody and accompaniment alongside Stokowski; the complete movement remains playable beyond the aligned phrases." }
+    { "listen": "rimsky-korsakov-scheherazade-stokowski-side1", "label": "Leopold Stokowski, Philadelphia Orchestra", "year": 1934, "note": "Broad phrases and audible slides between string notes give the melody a singing, unhurried warmth." },
+    { "listen": "rimsky-korsakov-scheherazade-prince", "label": "Pierre Monteux, San Francisco Symphony", "year": 1942, "note": "Monteux presses ahead through the lovers’ music, keeping the beat moving beneath the violins’ long phrases." }
   ],
   "reference": "rimsky-korsakov-scheherazade-stokowski-side1",
   "passages": [
-    { "label": "Opening lyrical span", "t": 20, "note": "Compare the phrase’s duration and release, not the two transfers’ noise or volume." },
-    { "label": "Continuing opening phrase", "t": 40, "note": "The same ordered melodic contour continues in both recordings; the automatic map is not a note-by-note score alignment." },
-    { "label": "The early crest", "t": 58, "note": "The reference report places its largest early crest around 0:50–1:05; this is a within-recording level observation." }
+    { "label": "The violins’ long tune", "t": 20, "note": "Both violin sections sing together. Long notes open into little runs above the held chords of the lower strings." },
+    { "label": "Quick notes within the phrase", "t": 40, "note": "The violins curl through quick notes, then settle back onto the melody’s longer ones. The lower strings keep their quiet support." },
+    { "label": "The strings swell", "t": 58, "note": "The violin phrase grows fuller and more emphatic, then eases back as the melody continues." }
   ],
   "sources": [
     { "title": "Stokowski — session and first-side identification", "url": "https://commons.wikimedia.org/wiki/File:Hmv-db2525-2a84519.ogg" },
     { "title": "Monteux recording — Commons attribution and CC0", "url": "https://commons.wikimedia.org/wiki/File:Rimsky-Korsakov._Scheherazade,_Symphonic_Suite,_Op._35_-_03_The_Young_Prince_And_Princess.ogg" },
     { "title": "Monteux upstream transfer — Bob Varney, public-domain release", "url": "https://archive.org/metadata/Sheherazade/metadata" },
-    { "title": "Third movement score — opening string melody", "url": "https://s9.imslp.org/files/imglnks/usimg/0/0f/IMSLP01398-Rimsky_Sheherazade_3.pdf" }
+    { "title": "Third movement score — opening string melody", "url": "https://s9.imslp.org/files/imglnks/usimg/0/0f/IMSLP01398-Rimsky_Sheherazade_3.pdf" },
+    { "title": "Jonathan Woolf, MusicWeb, July 2018: Stokowski’s relaxed 1934 performance and string portamento", "url": "https://www.musicweb-international.com/classrev/2018/Jul/RimskyK_Stokowski_PASC529.htm" },
+    { "title": "Jonathan Woolf, MusicWeb, July 2004: Monteux’s forward-moving 1942 performance", "url": "https://musicweb-international.com/classRev/2004/July04/Monteux_archipel.htm" }
   ]
 }

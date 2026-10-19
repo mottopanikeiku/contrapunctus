@@ -32,13 +32,28 @@
   },
   "session": {
     "date": {
-      "value": "1945-01-18",
-      "status": "documented",
+      "value": "January 1945; sources give 18 or 26 January",
+      "status": "disputed",
       "sourceIds": [
-        "source"
+        "source",
+        "damian78s"
       ],
-      "note": "Commons distinguishes recording on 18 January 1945 from first release in September 1945.",
-      "precision": "day"
+      "note": "Commons gives 18 January 1945 for this side. Damian’s 78s lists matrices AR 9079-2 and 9080-2 among tracks recorded on 26 January 1945, with tracks 1–5 on 18 January. Both place the session at Kingsway Hall and the release in September 1945.",
+      "alternatives": [
+        {
+          "value": "18 January 1945",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "value": "26 January 1945",
+          "sourceIds": [
+            "damian78s"
+          ]
+        }
+      ],
+      "precision": "month"
     },
     "place": {
       "value": "Kingsway Hall, London",
@@ -72,7 +87,7 @@
       "sourceIds": [
         "source"
       ],
-      "note": "Commons distinguishes recording on 18 January 1945 from first release in September 1945."
+      "note": ""
     }
   },
   "transfer": {
@@ -136,6 +151,13 @@
       "title": "Wikimedia Commons — PDP-CH - National Symphony Orchestra of London - Stanford Robinson, conductor - The Nutcracker Suite, Op. 71 - Waltz of the Flowers - Tchaikovsky - Decca-k1144-ar9079.flac",
       "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson,_conductor_-_The_Nutcracker_Suite,_Op._71_-_Waltz_of_the_Flowers_-_Tchaikovsky_-_Decca-k1144-ar9079.flac",
       "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
+      "accessed": "2026-10-17"
+    },
+    {
+      "id": "damian78s",
+      "title": "Damian’s 78s — Stanford Robinson’s Nutcracker and Bransby Williams’s Scrooge",
+      "url": "https://music.damians78s.co.uk/2014/12/24/stanford-robinsons-nutcracker-and-bransby-williamss-scrooge/",
+      "locator": "Recording details below track 8: Decca AK 1142-4, matrices, session dates and release month.",
       "accessed": "2026-10-17"
     },
     {

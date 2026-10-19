@@ -1,0 +1,99 @@
+{
+  "composer": "part",
+  "items": [
+    {
+      "work": "Tabula rasa",
+      "year": "1977",
+      "performers": "Gidon Kremer and Tatjana Grindenko (violins); Alfred Schnittke (prepared piano); Lithuanian Chamber Orchestra; Saulius Sondeckis (conductor)",
+      "recorded": "November 1977, live",
+      "label": "ECM New Series",
+      "note": "Two solo violins lead this double concerto through eight variations before the slow ‘Silentium’, whose voices move at different speeds. Kremer and Grindenko, the première’s violin soloists, are joined by Alfred Schnittke at the prepared piano on the album that launched ECM’s New Series.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/3D3dLscRKfP5b9zIr0FED9",
+          "title": "Tabula Rasa — ECM Records on Spotify"
+        },
+        {
+          "kind": "label",
+          "url": "https://ecmrecords.com/product/arvo-part-tabula-rasa-gidon-kremer-keith-jarrett-tatjana-grindenko-alfred-schnittke-the-12-cellists-of-the-berlin-philharmonic-orchestra-staatsorchester-stuttgart-dennis-russell-davies-lithuan/",
+          "title": "Tabula Rasa — ECM Records catalogue"
+        }
+      ]
+    },
+    {
+      "work": "Spiegel im Spiegel — violin and piano",
+      "year": "1978",
+      "performers": "Vladimir Spivakov (violin); Sergej Bezrodny (piano)",
+      "recorded": "July 1995",
+      "label": "ECM New Series",
+      "note": "The violin’s phrases lengthen above three-note piano arpeggios, returning each time to A. Spivakov, the work’s dedicatee, and Bezrodny open Alina with this version, recorded with Pärt present in Frankfurt’s Festeburgkirche.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/1wkqPUdNQ1LOUzxthKmr9M",
+          "title": "Alina — ECM Records on Spotify"
+        },
+        {
+          "kind": "label",
+          "url": "https://ecmrecords.com/product/arvo-part-alina-vladimir-spivakov-sergej-bezrodny-dietmar-schwalke-alexander-malter/",
+          "title": "Alina — ECM Records catalogue"
+        }
+      ]
+    },
+    {
+      "work": "Passio Domini nostri Jesu Christi secundum Joannem",
+      "year": "1982",
+      "performers": "The Hilliard Ensemble; Michael George (bass); John Potter (tenor); Christopher Bowers-Broadbent (organ); The Western Wind Chamber Choir; Paul Hillier (conductor)",
+      "recorded": "March 1988",
+      "label": "ECM New Series",
+      "note": "Four singers share the Evangelist’s words in Pärt’s Latin St John Passion, while an organ accompanies Jesus and Pilate. The Hilliard Ensemble’s recording with Paul Hillier, made in St Jude’s on the Hill in London, brought the work to international attention.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/1Js1IlOar8nBZxmArvjUFM",
+          "title": "Passio — ECM Records on Spotify"
+        },
+        {
+          "kind": "label",
+          "url": "https://ecmrecords.com/product/arvo-part-passio-the-hilliard-ensemble/",
+          "title": "Passio — ECM Records catalogue"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "ECM Records — Tabula Rasa: performers, original issue and critical reception",
+      "url": "https://ecmrecords.com/product/arvo-part-tabula-rasa-gidon-kremer-keith-jarrett-tatjana-grindenko-alfred-schnittke-the-12-cellists-of-the-berlin-philharmonic-orchestra-staatsorchester-stuttgart-dennis-russell-davies-lithuan/"
+    },
+    {
+      "title": "Arvo Pärt Centre — Tabula rasa: composition, première and the two movements",
+      "url": "https://www.arvopart.ee/en/arvo-part/work/537/"
+    },
+    {
+      "title": "Jazz Discography Project — ECM 1275: the November 1977 Bonn live recording of Tabula rasa",
+      "url": "https://www.jazzdisco.org/ecm-records/catalog-1200-series/"
+    },
+    {
+      "title": "ECM Records — Alina: July 1995 sessions, performers and Pärt’s participation",
+      "url": "https://ecmrecords.com/product/arvo-part-alina-vladimir-spivakov-sergej-bezrodny-dietmar-schwalke-alexander-malter/"
+    },
+    {
+      "title": "Arvo Pärt Centre — Spiegel im Spiegel: original violin version, dedication and musical construction",
+      "url": "https://www.arvopart.ee/en/arvo-part/work/544/"
+    },
+    {
+      "title": "ECM Records — Passio: performers, recording venue and March 1988 session",
+      "url": "https://ecmrecords.com/product/arvo-part-passio-the-hilliard-ensemble/"
+    },
+    {
+      "title": "Arvo Pärt Centre — Passio: Latin text, vocal roles, instrumentation and the Hilliard recording",
+      "url": "https://www.arvopart.ee/en/arvo-part/work/530/"
+    },
+    {
+      "title": "ECM Records — New Series 40: reception of the Tabula Rasa and Passio recordings",
+      "url": "https://ecmrecords.com/ecm-new-series-40/"
+    }
+  ]
+}

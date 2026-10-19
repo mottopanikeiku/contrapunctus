@@ -18,111 +18,74 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme XII. B.G.N.ogg"
   },
-  "intro": "A solo cello opens a warmly sustained portrait of a chamber-music friend. The phrase expands through the orchestra, then returns to a more intimate scale.",
-  "question": "What remains personal when a chamber-sized idea becomes orchestral?",
+  "intro": "Basil Nevinson is the cellist in Elgar’s piano trio, and the cello opens and closes his portrait. Between those two solos, a roomful of friends becomes an orchestra.",
   "sections": [
     {
       "t": 0,
-      "label": "The cello-led opening",
+      "label": "Var 12 · Nevinson’s cello",
       "m": "Var 12",
-      "mNote": "a sustained solo line introduces the portrait"
+      "mNote": "A solo cello sings over hushed lower strings"
     },
     {
       "t": 38,
-      "label": "Orchestral expansion",
+      "label": "Var 12 · The violins join",
       "m": "Var 12",
-      "mNote": "the same expressive character gains weight"
+      "mNote": "Divided violins rise above the cello phrase"
     },
     {
       "t": 112,
-      "label": "An intimate close",
+      "label": "Var 12 · The cello’s last word",
       "m": "Var 12",
-      "mNote": "the cello line re-emerges as the texture diminishes"
+      "mNote": "The orchestra falls quiet around the soloist"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "listen",
-      "title": "Follow the cello’s line",
-      "text": "The opening solo cello sings above restrained accompaniment. Try following the bow’s long phrase rather than the individual beats: the melody’s shape is more important than a strongly marked pulse.",
-      "basis": "general",
+      "kind": "music",
+      "title": "Nevinson’s own instrument",
+      "text": "A solo cello begins <i>molto espressivo</i>, free to linger over its first two bars. Quiet violas and the other cellos support it. Then the whole cello section takes up the tune, still broad and singing.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello p. 82, rehearsal 52, labels the cello solo; the quiet opening lasts through the report’s 0:00–0:10 span."
+      "evidence": "Novello full score, p. 82, rehearsal 52: solo cello marked molto espressivo and ad libitum, followed by a tempo and largamente ed espressivo for the cello section."
     },
     {
       "t": 30,
       "kind": "world",
-      "title": "Basil George Nevinson",
-      "text": "Basil George Nevinson is the cellist in Elgar’s chamber-music circle. With Elgar on violin and Hew David Steuart-Powell at the piano, he belongs to the same musical friendship already pictured in the second variation.",
+      "title": "The trio’s generous cellist",
+      "text": "Nevinson plays chamber music with Elgar on violin and Hew David Steuart-Powell at the piano. Elgar’s written tribute praises more than his playing: Nevinson puts his scientific and artistic skills at his friends’ disposal, wholeheartedly.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society identifies Nevinson and the trio. https://elgar.org/3enigma.htm"
+      "evidence": "Elgar, My Friends Pictured Within (Novello, 1946), commentary on variation XII, reproduced at https://en.wikipedia.org/wiki/Enigma_Variations. The Elgar Society confirms the trio: https://elgar.org/3enigma.htm"
     },
     {
-      "t": 65,
+      "t": 112,
       "kind": "music",
-      "title": "The line gains orchestral weight",
-      "text": "As the portrait broadens, keep the long melody distinct from its richer surroundings. More players and a larger recorded swell need not turn the music into a new theme.",
+      "title": "A private farewell",
+      "text": "The orchestra dwindles, and the cello has the last phrase. Elgar writes a long pause, then lets the soloist reach upwards once more over held lower strings. The final instruction is <i>attacca</i>: the Romanza follows without a break.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 83–85 expand the string writing with winds. The report has sustained higher-level spans near 0:40–1:10; the time is a listening window, not the entry of a specific desk."
-    },
-    {
-      "t": 98,
-      "kind": "listen",
-      "title": "The later crest",
-      "text": "The later swell becomes stronger than the opening expansion. Listen for the sense of a phrase carried further before the music withdraws, rather than a series of equally weighted statements.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report’s largest level windows are around 1:35–1:45; this observation concerns the shape of this performance."
-    },
-    {
-      "t": 120,
-      "kind": "music",
-      "title": "Back to a smaller scale",
-      "text": "The closing phrase returns attention to the cello and dwindles into a held ending. The score permits a separate ending when this variation is played alone, but otherwise points onwards to the Romanza.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Novello p. 86 labels cello Solo, longa fermatas and attacca; its footnote reserves the final extra bar for separate performance. The report falls sharply from 1:50 through 2:00–2:15. The transfer’s exact choice of optional bar is not claimed."
+      "evidence": "Novello full score, p. 86: diminuendo molto, solo cello, longa fermata, ritardando and attacca. The extra final bar is reserved for separate performances."
     }
   ],
   "transitions": [
     {
-      "id": "orchestral-expansion",
-      "title": "The solo character grows",
-      "from": "The cello-led opening",
-      "to": "Orchestral expansion",
-      "at": {
-        "t": 38
-      },
-      "how": "<p>The expressive cello character spreads into a fuller string texture, with winds adding support. Elgar increases the density and dynamic weight while keeping the broad Andante pace, so the portrait expands without losing its chamber-music origin.</p>",
-      "devices": [
-        "orchestration change",
-        "crescendo build",
-        "motivic link"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Novello pp. 83–84; the report changes at 0:38 and rises strongly in its 0:40–0:45 windows."
-    },
-    {
       "id": "intimate-close",
-      "title": "The larger phrase gives way",
-      "from": "Orchestral expansion",
-      "to": "An intimate close",
+      "title": "The cello keeps singing",
+      "from": "Var 12 · The violins join",
+      "to": "Var 12 · The cello’s last word",
       "at": {
         "t": 112
       },
-      "how": "<p>After the later crest, the orchestra diminishes and the solo cello’s long line becomes exposed again. Held notes and a long pause arrest the motion; the written attacca points beyond that suspension into the next variation.</p>",
+      "how": "<p>The G-minor Andante contracts around the cello. Elgar writes <i>diminuendo molto</i> across the winds and strings; the flutes and oboes stop, then the bassoons and horns. The basses fall silent while the orchestral cellos hold a low note beneath the soloist’s last upward phrase and its long pause.</p>",
       "devices": [
         "decrescendo",
-        "texture change",
+        "orchestration change",
         "fermata"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello p. 86; the report changes at 1:52 and drops markedly after 1:50. The boundary indicates the closing span, not an exactly timed cello entrance."
+      "evidence": "Novello full score, p. 86: successive wind releases, silent double basses, held orchestral cellos and the solo cello’s final phrase."
     }
   ],
   "orchestra": {
@@ -149,17 +112,17 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 82–86, rehearsal figures 52–54. Whole-variation passage map, following the report’s changes at 0:14, 0:38, 1:22 and 1:52 and the final withdrawal. Solo and ensemble roles are passage-level, not individual-note alignment."
+      "locator": "Novello full score, pp. 82–86, rehearsal figures 52–54: solo cello, the orchestral answer and the return of the opening solo."
     },
     "timeline": [
-      { "t": 0, "playing": ["violas", "cellos"], "lead": ["cellos"], "note": "Solo cello begins above quiet viola support (p. 82)." },
-      { "t": 14, "playing": ["flutes", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos", "violins-1"], "note": "The full string section takes up the broader phrase, with sparse flute and bassoon colour towards its continuation (pp. 82–83)." },
-      { "t": 38, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "Wind, horn and restrained timpani support enrich the expanded string phrase (p. 83)." },
-      { "t": 64, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "The long string line is coloured by more active woodwind writing (p. 84)." },
-      { "t": 82, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "Lower-wind support and a G-string violin phrase begin the later expansion (p. 85)." },
-      { "t": 98, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "The later crest broadens the wind and string phrase without introducing the heavy brass (pp. 85–86)." },
-      { "t": 112, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos"], "note": "The cello solo is exposed again as the accompanying winds and strings diminish (p. 86)." },
-      { "t": 124, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos"], "note": "The final suspension is carried by soft strings after the wind parts release (p. 86)." }
+      { "t": 0, "playing": ["violas", "cellos"], "lead": ["cellos"], "note": "Solo cello sings above divided violas and a held note in the other cellos (p. 82)." },
+      { "t": 14, "playing": ["oboes", "clarinets", "bassoons", "horns", "violas", "cellos", "basses"], "lead": ["cellos", "violas"], "note": "All the cellos take up the tune with violas and basses; wind replies join them before the violins enter (pp. 82–83)." },
+      { "t": 38, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "Divided violins join the melody over a quiet timpani roll and wind chords (p. 83)." },
+      { "t": 64, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "Woodwind phrases weave around the long violin melody (p. 84)." },
+      { "t": 82, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "The violins sing on their G strings above lower wind chords (p. 85)." },
+      { "t": 98, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "cellos"], "note": "Woodwinds join the rising strings; trumpets and trombones remain silent (pp. 85–86)." },
+      { "t": 112, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos"], "note": "Elgar writes dim. molto as the winds fall silent and the cello returns to its solo (p. 86)." },
+      { "t": 124, "playing": ["violas", "cellos"], "lead": ["cellos"], "note": "Solo cello recalls its opening phrase over divided violas and held cello notes (p. 86)." }
     ]
   }
 };

@@ -9,7 +9,8 @@ import { normalizeTitle, sourceKey } from '../tools/commons.mjs';
 import { pathToFileURL } from 'node:url';
 import routes from '../content/routes.mjs';
 import { buildReturnLab } from './returnlab.mjs';
-import { buildCompare } from './compare.mjs';
+import { buildCompare, compareLinks } from './compare.mjs';
+import PROGRAMMES from '../content/programmes.mjs';
 import { buildAtlasMap, placesSection } from './atlas-map.mjs';
 import { buildJourneys } from './journeys.mjs';
 import { buildGuide, guideVersion } from './guide.mjs';
@@ -20,6 +21,13 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT = path.join(ROOT, 'docs');
 const C = await loadContent();
 const { eras, composers, pages, site, art, listens: allListens, precursors = [], prologue } = C;
+// Short display name: the surname, unless two composers share it (J. S. Bach / C. P. E. Bach, Robert / Clara Schumann).
+const familyCount = new Map();
+for (const c of composers) familyCount.set(c.family, (familyCount.get(c.family) ?? 0) + 1);
+for (const c of composers) {
+  const given = (c.given ?? '').trim().split(/\s+/).filter(Boolean);
+  c.short = !c.family || familyCount.get(c.family) < 2 || !given.length ? c.family ?? c.name : given.length === 1 ? `${given[0]} ${c.family}` : `${given.map((g) => `${g[0]}.`).join(' ')} ${c.family}`;
+}
 // Publication gate: a recording goes live when it was on the site before the expansion (content/plan/baseline.json)
 // or its independent review passed (content/plan/reviews/<id>.json, verdict "pass"). Everything else waits.
 const baseline = new Set(JSON.parse(await readFile(path.join(ROOT, 'content/plan/baseline.json'), 'utf8').catch(() => '[]')));
@@ -44,7 +52,10 @@ async function jsonDirectory(name) {
 }
 const glossaryFile = path.join(ROOT, 'content/glossary.mjs');
 const GLOSSARY = existsSync(glossaryFile) ? (await import(pathToFileURL(glossaryFile).href)).default : [];
-const [bibliographies, dossiers, returnLabs, influenceBatches] = await Promise.all(['bibliography', 'dossiers', 'returnlab', 'influence'].map(jsonDirectory));
+const [bibliographies, dossiers, returnLabs, influenceBatches, elsewhereFiles] = await Promise.all(['bibliography', 'dossiers', 'returnlab', 'influence', 'elsewhere'].map(jsonDirectory));
+const elsewhereBy = new Map(elsewhereFiles.map((e) => [e.composer, e]));
+const influenceEdges = influenceBatches.flatMap((b) => (Array.isArray(b) ? [] : b.edges ?? []));
+const publishedJourneys = (C.journeys ?? []).filter((j) => { try { return JSON.parse(readFileSync(path.join(ROOT, 'content/plan/reviews', `journey-${j.id}.json`), 'utf8')).verdict === 'pass'; } catch { return false; } });
 const bibliography = new Map(bibliographies.map((b) => [b.id, b]));
 const dossierById = new Map(dossiers.map((d) => [d.id, d]));
 const listenById = new Map(listens.map((l) => [l.id, l]));
@@ -60,10 +71,8 @@ const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').r
 const attr = esc;
 const dash = (a, b) => (b == null ? `b. ${a}` : `${a}–${b}`);
 const lifespan = (c) => dash(c.born.year, c.died?.year);
-const plain = (s = '') => String(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => label ?? bySlug.get(target)?.family ?? target).replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').trim();
+const plain = (s = '') => String(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => label ?? bySlug.get(target)?.short ?? target).replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').trim();
 const fold = (s) => plain(s).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
-const firstSentence = (html) => plain(html.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? html).match(/^.*?[.!?](?=\s|$)|^.+$/s)?.[0] ?? '';
-const pageChapter = (slug) => slug === 'origins' ? 1 : slug === 'workshop' ? eras.length + 2 : null;
 const termAliases = new Map();
 for (const g of GLOSSARY) for (const name of [g.term, ...(g.aka ?? [])]) {
   if (name) termAliases.set(name.toLocaleLowerCase('en'), g.slug);
@@ -98,14 +107,6 @@ export function termify(ctx, html) {
   });
 }
 
-function numberFigures(ctx, html) {
-  let n = 0;
-  return html.replace(/<figcaption\b([^>]*)>/g, (_, attrs) => `<figcaption${attrs}><span class="fig-number">Fig. ${ctx.chapter}.${++n}</span> `);
-}
-
-function keyIdeas(ctx, items) {
-  return `<aside class="key-ideas" aria-label="Key ideas"><h2>Key ideas</h2><ul>${items.filter(Boolean).slice(0, 4).map((s) => `<li>${rich(ctx, s)}</li>`).join('')}</ul></aside>`;
-}
 
 function furtherReading(ctx, id) {
   const items = bibliography.get(id)?.items ?? [];
@@ -123,29 +124,13 @@ function citePage(ctx, title) {
   const chicago = `Contrapunctus. “${title}.” Accessed ${accessed}. ${url}.`;
   const tex = (s) => s.replace(/[\\{}%&#_$]/g, (c) => c === '\\' ? '\\textbackslash{}' : `\\${c}`);
   const bibtex = `@misc{contrapunctus-${ctx.page.replace(/\//g, '-')},\n  author = {{Contrapunctus}},\n  title = {${tex(title)}},\n  howpublished = {\\url{${url}}},\n  note = {Accessed ${date}}\n}`;
-  return `<section class="apparatus citation" id="cite"><h2>Cite this page</h2><p class="citation-note">No publication date is asserted. The access date below is the site build date; replace it with the date you consulted the page.</p><h3>Chicago</h3><p id="cite-chicago">${esc(chicago)}</p><button type="button" class="textbook-button" data-copy="cite-chicago">Copy Chicago citation</button><details><summary>BibTeX</summary><pre id="cite-bibtex"><code>${esc(bibtex)}</code></pre><button type="button" class="textbook-button" data-copy="cite-bibtex">Copy BibTeX</button></details><p class="copy-status" role="status"></p></section>`;
+  return `<details class="apparatus citation" id="cite"><summary>Cite this page</summary><p id="cite-chicago">${esc(chicago)}</p><button type="button" class="textbook-button" data-copy="cite-chicago">Copy Chicago citation</button><pre id="cite-bibtex"><code>${esc(bibtex)}</code></pre><button type="button" class="textbook-button" data-copy="cite-bibtex">Copy BibTeX</button><p class="copy-status" role="status"></p></details>`;
 }
 
 function hearButton(id, t = 0, label = 'Hear it') {
   return listenById.has(id) ? `<button type="button" class="play" data-play-id="${attr(id)}" data-play-t="${t}">${esc(label)}</button>` : '';
 }
 
-function questions(ctx, lesson) {
-  if (!lesson.question) return '';
-  const pointers = (lesson.listen ?? []).filter((l) => listenById.has(l.id));
-  const example = lesson.score?.[0];
-  return `<aside class="questions"><h3>Questions to take away</h3><p>${esc(lesson.question)}</p>${pointers.map((l) => `<div class="listen-question">${hearButton(l.id, l.t)}<p>${rich(ctx, l.why ?? '')}</p><a href="${ctx.base}hall.html#${l.id}">${esc(listenById.get(l.id).work)} · recording</a></div>`).join('')}${!pointers.length && example ? `<div class="listen-question"><button type="button" class="play" data-play-example="${attr(example.id ?? `${lesson.id}-ex-1`)}">Play example</button> <a href="#${attr(example.id ?? `${lesson.id}-ex-1`)}">${esc(example.title)}</a><p>Synthesised from the notation above; read the caption for its source or schematic basis.</p></div>` : ''}</aside>`;
-}
-
-function chapterQuestions(ctx, recordings, examples = []) {
-  const prompts = recordings.filter((l) => l.question).slice(0, 2);
-  const items = prompts.map((l) => `<li><h3>${esc(l.question)}</h3><p>${rich(ctx, l.intro)}</p>${hearButton(l.id, l.sections?.[0]?.t ?? 0, 'Play recording')} <a href="${ctx.base}hall.html#${l.id}">${esc(l.work)}${l.movement ? ` · ${esc(l.movement)}` : ''}</a></li>`);
-  if (!items.length && examples.length) {
-    const example = examples[0], id = example.id ?? 'ex-1';
-    items.push(`<li><h3>Which features can you hear before following the notation?</h3><p>Listen to ‘${esc(example.title)}’, then compare what you heard with the caption and the written notes. Distinguish a quoted passage from a schematic illustration.</p><button type="button" class="play" data-play-example="${attr(id)}">Play example</button> <a href="#${attr(id)}">Read the example</a></li>`);
-  }
-  return items.length ? `<section class="apparatus takeaways" id="questions"><h2>Questions to take away</h2><ol>${items.join('')}</ol></section>` : '';
-}
 
 /** Partials 1–16 over C2: bar height ~ 1/n, label = nearest note and deviation from equal temperament. */
 function harmonicSeriesSvg() {
@@ -181,7 +166,7 @@ function href(ctx, target) {
 function rich(ctx, html = '') {
   return html.replace(/<p>\s*\{\{harmonic-series\}\}\s*<\/p>|\{\{harmonic-series\}\}/g, () => harmonicSeriesSvg()).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => {
     const url = href(ctx, target.trim());
-    const text = label ?? bySlug.get(target.trim())?.family ?? bySlug.get(target.trim())?.name ?? target;
+    const text = label ?? bySlug.get(target.trim())?.short ?? bySlug.get(target.trim())?.name ?? target;
     if (!url) { warnings.push(`${ctx.page}: unresolved link [[${target}]]`); return text; }
     return `<a href="${url}">${text}</a>`;
   });
@@ -236,20 +221,15 @@ const fonts = '<!--cp-fonts-->'; // The optimiser injects local subsets after sc
 
 const NAV = [
   ['hall', 'The Hall', 'hall.html'],
-  ['guide', 'Guide', 'guide.html'],
-  ['influence', 'Influence', 'influence.html'],
-  ['compare', 'Compare', 'compare/index.html'],
-  ['map', 'Map', 'atlas-map.html'],
   ['journeys', 'Journeys', 'journeys/index.html'],
-  ['eras', 'Atlas', 'index.html#movements'],
   ['composers', 'Composers', 'composers/index.html'],
-  ['origins', 'Origins', 'origins.html'],
+  ['influence', 'Influence', 'influence.html'],
+  ['map', 'Map', 'atlas-map.html'],
   ['workshop', 'Workshop', 'workshop.html'],
-  ['glossary', 'Glossary', 'glossary.html'],
-  ['timeline', 'Timeline', 'timeline.html'],
-  ['gallery', 'Gallery', 'gallery.html'],
-  ['sources', 'Sources', 'sources.html'],
 ];
+// Pages outside the main navigation mark the section they belong to.
+const NAV_PARENT = { eras: 'composers', timeline: 'composers', works: 'composers', compare: 'hall', 'return-lab': 'hall', returnlab: 'hall', routes: 'hall', origins: 'workshop', glossary: 'workshop', gallery: 'influence' };
+const navItems = (ctx, current) => NAV.map(([k, t, u]) => `<li><a href="${ctx.base}${u}"${current === k ? ' aria-current="page"' : ''}>${t}</a></li>`).join('');
 
 /** The layer that survives page changes: now-playing bar and search. */
 function persist(ctx) {
@@ -275,7 +255,7 @@ const headScripts = (ctx) => `<link rel="stylesheet" href="${ctx.base}assets/css
 
 function layout(ctx, { title, description, body, dark = false, accent, nav, ogImage, head = '', modules = [] }) {
   const style = accent ? ` style="--accent:${accent}"` : '';
-  body = termify(ctx, ctx.chapter ? numberFigures(ctx, body) : body);
+  body = termify(ctx, body);
   return `<!doctype html>
 <html lang="en" data-site="${V.js}" data-room="${V.room}" data-player="${V.player}" data-prog="${PROG_V}" data-guide="${guideVersion}">
 <head>
@@ -298,7 +278,7 @@ ${head}
 <header class="masthead"><div class="wrap">
 <a class="brand" href="${ctx.base}index.html"><span class="glyph" aria-hidden="true">𝄞</span>Contrapunctus</a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
-<nav aria-label="Main navigation"><ul class="nav" id="nav">${NAV.map(([k, t, u]) => `<li><a href="${ctx.base}${u}"${nav === k ? ' aria-current="page"' : ''}>${t}</a></li>`).join('')}<li><a href="#" data-search aria-label="Search">Search</a></li></ul></nav>
+<nav aria-label="Main navigation"><ul class="nav" id="nav">${navItems(ctx, NAV_PARENT[nav] ?? nav)}<li><a href="#" data-search aria-label="Search">Search</a></li></ul></nav>
 </div></header>
 <main id="main">
 ${body}
@@ -306,8 +286,10 @@ ${body}
 <footer class="colophon"><div class="wrap">
 <div>${staffRule()}<a class="brand" href="${ctx.base}index.html"><span class="glyph" aria-hidden="true">𝄞</span>Contrapunctus</a>
 <p>${site.colophon}</p></div>
-<div><h5>Chapters</h5><ul>${eras.map((e) => `<li><a href="${ctx.base}eras/${e.slug}.html">${e.numeral}. ${esc(e.name)}</a></li>`).join('')}</ul></div>
-<div><h5>Reading</h5><ul><li><a href="${ctx.base}origins.html">Before Bach</a></li><li><a href="${ctx.base}workshop.html">The Workshop</a></li><li><a href="${ctx.base}glossary.html">Glossary</a></li><li><a href="${ctx.base}timeline.html">Lifelines</a></li><li><a href="${ctx.base}gallery.html">Sister Arts</a></li><li><a href="${ctx.base}sources.html">Sources &amp; method</a></li><li><a href="${ctx.base}credits.html">Image credits</a></li></ul></div>
+<div><h5>Listen</h5><ul><li><a href="${ctx.base}hall.html">The Concert Hall</a></li><li><a href="${ctx.base}journeys/index.html">Guided journeys</a></li><li><a href="${ctx.base}compare/index.html">Compare performers</a></li><li><a href="${ctx.base}return-lab/index.html">The Return Lab</a></li><li><a href="${ctx.base}routes.html">Listening routes</a></li><li><a href="${ctx.base}guide.html">Guide</a></li></ul></div>
+<div><h5>Read</h5><ul><li><a href="${ctx.base}composers/index.html">Composers</a></li>${eras.map((e) => `<li><a href="${ctx.base}eras/${e.slug}.html">${e.numeral}. ${esc(e.name)}</a></li>`).join('')}<li><a href="${ctx.base}origins.html">Before Bach</a></li></ul></div>
+<div><h5>Look and learn</h5><ul><li><a href="${ctx.base}workshop.html">The Workshop</a></li><li><a href="${ctx.base}glossary.html">Glossary</a></li><li><a href="${ctx.base}timeline.html">Lifelines</a></li><li><a href="${ctx.base}gallery.html">Sister Arts</a></li><li><a href="${ctx.base}atlas-map.html">The Map</a></li><li><a href="${ctx.base}influence.html">The Web of Influence</a></li></ul></div>
+<div><h5>About</h5><ul><li><a href="${ctx.base}about.html">About Contrapunctus</a></li><li><a href="${ctx.base}sources.html">Sources &amp; method</a></li><li><a href="${ctx.base}credits.html">Image credits</a></li></ul></div>
 <div class="fine"><span>Set in Cormorant Garamond and EB Garamond. Music engraved in the browser with abcjs.</span><span>Paintings are public-domain reproductions via Wikimedia Commons.</span></div>
 </div></footer>
 <dialog class="lightbox"><button type="button" aria-label="Close">×</button><img alt=""><p></p></dialog>
@@ -317,8 +299,8 @@ ${persist(ctx)}
 `;
 }
 
-function chapter(n, id, title, inner, sub) {
-  return `<section class="chapter" id="${id}"><header class="reveal"><h2><span class="n">${n}</span>${title}</h2>${sub ? `<p>${sub}</p>` : ''}</header>${inner}</section>`;
+function chapter(id, title, inner, sub) {
+  return `<section class="chapter" id="${id}"><header class="reveal"><h2>${title}</h2>${sub ? `<p>${sub}</p>` : ''}</header>${inner}</section>`;
 }
 
 function card(ctx, c) {
@@ -331,53 +313,109 @@ const chip = (ctx, s) => {
   return c ? `<a class="chip" href="${ctx.base}composers/${s}.html">${esc(c.name)}</a>` : `<span class="chip ext">${esc(s)}</span>`;
 };
 
-// ---------------------------------------------------------------- pages
-function listenLinks(c) {
-  const mine = listens.filter((l) => l.composer === c.slug && l.concert !== false).sort((a, b) => setPos(a) - setPos(b) || (a.set?.part ?? 0) - (b.set?.part ?? 0) || (a.order ?? 1) - (b.order ?? 1));
-  if (!mine.length) return '';
-  return `<div class="listen-links"><span class="sc">Hear it in the Concert Hall</span>${mine.map((l) => `<a href="../hall.html#${l.id}"><span class="play-dot" aria-hidden="true"></span>${esc(l.work)}${l.movement ? ` · ${esc(l.movement)}` : ''}</a>`).join('')}</div>`;
+// ---------------------------------------------------------------- works
+// A work page gathers every hosted recording of one piece: the movements of a set and rival performances.
+const keyless = (s) => plain(s).split(/;| — /)[0].replace(/\s+in\s+[A-G](?:♯|♭|-sharp|-flat)?\s+(?:major|minor)/gi, '');
+const workSlug = (s) => keyless(s).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[“”‘’"']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 64);
+const WORKS = new Map();      // slug → { slug, composer, title, listens, entry }
+const workOf = new Map();     // listen id → work slug
+const workOfEntry = new Map(); // composer works[] entry → work slug
+const progById = new Map();
+const fmtTime = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}`;
+const hours = (secs) => secs >= 3600 ? `${Math.floor(secs / 3600)} h ${Math.round((secs % 3600) / 60)} min` : `${Math.round(secs / 60)} min`;
+
+/** The composer's own works[] entry for a hosted work: exact title match first, then the longest whole-word prefix. */
+function matchWork(c, title) {
+  const target = workSlug(title);
+  let best = null;
+  for (const w of c.works ?? []) {
+    for (const s of [workSlug(w.title), workSlug(`${w.title} ${w.cat ?? ''}`)]) {
+      if (!s) continue;
+      const hit = s === target || (target.startsWith(s) && target[s.length] === '-') || (s.startsWith(target) && s[target.length] === '-');
+      if (hit && (!best || s.length > best.len)) best = { w, len: s.length };
+    }
+  }
+  return best?.w ?? null;
 }
 
+function collectWorks(prog) {
+  for (const t of prog) progById.set(t.id, t);
+  for (const l of listens) {
+    const c = bySlug.get(l.composer);
+    if (!c || !progById.has(l.id)) continue;   // guests and the prologue have no work pages
+    const slug = `${c.slug}-${workSlug(l.work)}`;
+    if (!WORKS.has(slug)) WORKS.set(slug, { slug, composer: c, title: keyless(l.work), listens: [] });
+    const w = WORKS.get(slug);
+    w.listens.push(l);
+    if (!/[;—]/.test(l.work) && l.work.length > w.title.length) w.title = l.work;
+    workOf.set(l.id, slug);
+  }
+  for (const w of WORKS.values()) {
+    w.listens.sort((a, b) => (a.concert === false) - (b.concert === false) || (!a.set) - (!b.set) || (a.set?.part ?? 0) - (b.set?.part ?? 0) || (a.order ?? 1) - (b.order ?? 1));
+    w.entry = matchWork(w.composer, w.title);
+    if (w.entry && !workOfEntry.has(w.entry)) workOfEntry.set(w.entry, w.slug);
+    w.duration = w.listens.filter((l) => l.concert !== false).reduce((a, l) => a + (progById.get(l.id)?.duration ?? 0), 0);
+    w.first = Math.min(...w.listens.map((l) => setPos(l)));
+  }
+}
+const composerWorks = (c) => [...WORKS.values()].filter((w) => w.composer === c).sort((a, b) => a.first - b.first || a.title.localeCompare(b.title));
+
+function workPills(c) {
+  const list = composerWorks(c);
+  const elsewhere = elsewhereBy.get(c.slug);
+  if (!list.length && !elsewhere) return '';
+  const count = (w) => {
+    const movements = new Set(w.listens.filter((l) => l.set).map((l) => l.movement)).size;
+    return movements > 1 ? `${movements} movements` : w.listens.length > 1 ? `${w.listens.length} recordings` : fmtTime(progById.get(w.listens[0].id)?.duration ?? 0);
+  };
+  return `<div class="listen-links"><span class="sc">${list.length ? 'Hear it in the Concert Hall' : 'Not yet in the Concert Hall'}</span>${list.map((w) => `<a href="../works/${w.slug}.html"><span class="play-dot" aria-hidden="true"></span>${esc(keyless(w.title))}<small>${esc(count(w))}</small></a>`).join('')}${elsewhere ? `<a href="#elsewhere" class="elsewhere-link">Where to hear it ↓</a>` : ''}</div>`;
+}
+
+/** Official recordings on other services, for composers the Hall cannot host. */
+function elsewhereSection(ctx, data, { heading = true } = {}) {
+  const label = { youtube: 'YouTube', spotify: 'Spotify', apple: 'Apple Music', label: 'Label', publisher: 'Publisher', bandcamp: 'Bandcamp' };
+  return `<ul class="elsewhere">${data.items.map((it) => `<li class="reveal"><div class="ew-head"><span class="w">${esc(it.work)}</span>${it.year ? `<span class="y">${esc(it.year)}</span>` : ''}</div><span class="p">${esc([it.performers, it.label, it.recorded].filter(Boolean).join(' · '))}</span>${it.note ? `<p>${rich(ctx, it.note)}</p>` : ''}<p class="ew-links">${(it.links ?? []).map((k) => `<a href="${attr(k.url)}" target="_blank" rel="noopener" title="${attr(k.title ?? '')}">${esc(label[k.kind] ?? k.kind)} ↗</a>`).join('')}</p>${it.moments?.length ? `<ol class="ew-moments">${it.moments.map((m) => `<li><time>${esc(m.t)}</time> ${esc(m.text)}</li>`).join('')}</ol>` : ''}</li>`).join('')}</ul>${heading ? '<p class="ew-note">These recordings are under copyright, so the Hall cannot play them; the links go to the labels’ and artists’ own uploads and to streaming services.</p>' : ''}`;
+}
+
+// ---------------------------------------------------------------- pages
 function composerPage(c, i) {
-  const ctx = { base: '../', page: `composers/${c.slug}`, chapter: eras.length + 3 + i };
+  const ctx = { base: '../', page: `composers/${c.slug}` };
   const era = eraBySlug.get(c.era);
   if (!era) warnings.push(`${c.slug}: unknown era ${c.era}`);
   const prev = composers[i - 1], next = composers[i + 1];
   const parts = [];
   const toc = [];
-  let section = 0;
-  const add = (id, title, inner, sub) => { const n = `${ctx.chapter}.${++section}`; toc.push([id, n, title]); parts.push(chapter(n, id, title, inner, sub)); };
+  const add = (id, title, inner, sub) => { toc.push([id, title]); parts.push(chapter(id, title, inner, sub)); };
+  const elsewhere = elsewhereBy.get(c.slug);
 
   add('life', 'Life', `<div class="prose">${rich(ctx, c.life)}</div>`);
+  if (elsewhere && !composerWorks(c).length) add('elsewhere', 'Where to hear it', elsewhereSection(ctx, elsewhere));
   placesSection(ctx, c.slug, add);
   const inheritance = influenceModule?.influenceSection?.(ctx, c.slug) ?? '';
-  if (inheritance) { toc.push(['inheritance', '', 'Musical inheritance']); parts.push(inheritance); }
-  if (c.sound?.length) add('sound', 'The Sound', `<div class="anatomy">${c.sound.map((s) => `<div class="reveal"><h4>${s.glyph ? `<span class="glyph">${s.glyph}</span>` : ''}${esc(s.aspect)}</h4>${rich(ctx, s.html)}</div>`).join('')}</div>`, 'How the music is built — harmony, line, rhythm, colour, form.');
-  if (c.works?.length) add('works', 'Works', `<ol class="works">${c.works.map((w, j) => `<li class="reveal" id="work-${j + 1}"><span class="yr">${esc(w.year)}</span><div><span class="t">${w.titleHtml ?? esc(w.title)}</span>${w.cat ? `<span class="cat">${esc(w.cat)}</span>` : ''}${w.forces ? `<span class="forces">${esc(w.forces)}</span>` : ''}${w.note ? `<div class="w-note">${rich(ctx, w.note)}</div>` : ''}</div></li>`).join('')}</ol>`, 'A listening path, not a complete catalogue.');
-  if (c.score?.length) add('score', 'In the Score', scores(ctx, c.score), 'Short examples, engraved and playable. Press play; notes light up as they sound.');
-  if (c.arts?.length) add('arts', 'Sister Arts', arts(ctx, c.arts), 'Paintings and poems that share a world with this music.');
-  if (c.recordings?.length) add('listen', 'Listen', `<ul class="discs">${c.recordings.map((r) => `<li class="reveal"><span class="disc" aria-hidden="true"></span><div><span class="w">${esc(r.work)}</span><span class="p">${esc(r.performers)}</span><span class="m">${esc([r.label, r.year].filter(Boolean).join(' · '))}</span>${r.note ? `<span class="d">${rich(ctx, r.note)}</span>` : ''}</div></li>`).join('')}</ul>`, 'Recordings worth seeking out.');
-  if (c.lineage) add('lineage', 'Lineage', `<div class="lineage reveal"><div class="side from"><span class="sc">Drew from</span>${(c.lineage.from ?? []).map((s) => chip(ctx, s)).join('')}</div><div class="self">${esc(c.family ?? c.name)}</div><div class="side to"><span class="sc">Passed to</span>${(c.lineage.to ?? []).map((s) => chip(ctx, s)).join('')}</div></div>${c.lineage.note ? `<div class="lineage-note">${rich(ctx, c.lineage.note)}</div>` : ''}`);
-
-  const takeaways = chapterQuestions(ctx, listens.filter((l) => l.composer === c.slug), c.score);
-  if (takeaways) toc.push(['questions', '', 'Questions to take away']);
-  if (bibliography.has(c.slug)) toc.push(['further-reading', '', 'Further reading']);
-  toc.push(['cite', '', 'Cite this page']);
+  if (inheritance) { toc.push(['inheritance', 'Musical inheritance']); parts.push(inheritance); }
+  if (c.sound?.length) add('sound', 'The Sound', `<div class="anatomy">${c.sound.map((s) => `<div class="reveal"><h4>${s.glyph ? `<span class="glyph">${s.glyph}</span>` : ''}${esc(s.aspect)}</h4>${rich(ctx, s.html)}</div>`).join('')}</div>`);
+  if (c.works?.length) add('works', 'Works', `<ol class="works">${c.works.map((w, j) => { const page = workOfEntry.get(w); return `<li class="reveal" id="work-${j + 1}"><span class="yr">${esc(w.year)}</span><div><span class="t">${page ? `<a href="../works/${page}.html">${w.titleHtml ?? esc(w.title)}</a>` : w.titleHtml ?? esc(w.title)}</span>${w.cat ? `<span class="cat">${esc(w.cat)}</span>` : ''}${w.forces ? `<span class="forces">${esc(w.forces)}</span>` : ''}${w.note ? `<div class="w-note">${rich(ctx, w.note)}</div>` : ''}${page ? `<a class="w-hear" href="../works/${page}.html">Hear it in the Hall →</a>` : ''}</div></li>`; }).join('')}</ol>`, 'A listening path, not a complete catalogue.');
+  if (c.score?.length) add('score', 'In the Score', scores(ctx, c.score), 'Short examples, engraved and playable.');
+  if (c.arts?.length) add('arts', 'Sister Arts', arts(ctx, c.arts));
+  if (c.recordings?.length) add('listen', 'Recordings to own', `<ul class="discs">${c.recordings.map((r) => `<li class="reveal"><span class="disc" aria-hidden="true"></span><div><span class="w">${esc(r.work)}</span><span class="p">${esc(r.performers)}</span><span class="m">${esc([r.label, r.year].filter(Boolean).join(' · '))}</span>${r.note ? `<span class="d">${rich(ctx, r.note)}</span>` : ''}</div></li>`).join('')}</ul>`);
+  if (elsewhere && composerWorks(c).length) add('elsewhere', 'Where to hear more', elsewhereSection(ctx, elsewhere));
+  if (c.lineage) add('lineage', 'Lineage', `<div class="lineage reveal"><div class="side from"><span class="sc">Drew from</span>${(c.lineage.from ?? []).map((s) => chip(ctx, s)).join('')}</div><div class="self">${esc(c.short)}</div><div class="side to"><span class="sc">Passed to</span>${(c.lineage.to ?? []).map((s) => chip(ctx, s)).join('')}</div></div>${c.lineage.note ? `<div class="lineage-note">${rich(ctx, c.lineage.note)}</div>` : ''}`);
+  if (bibliography.has(c.slug)) toc.push(['further-reading', 'Further reading']);
 
   const facts = (c.facts ?? []).map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${rich(ctx, v)}</dd></div>`).join('');
   const body = `<section class="c-hero"><div class="wrap">
 <figure class="portrait reveal"><a class="frame" href="${ctx.base}${artInfo(c.portrait.file, ctx)?.src ?? ''}" data-caption="${attr(c.portrait.caption ?? c.name)}"><span class="canvas">${img(ctx, c.portrait.file, `Portrait of ${c.name}`, { eager: true, sizes: '(max-width: 860px) 18rem, 23rem' })}</span></a><figcaption>${esc(c.portrait.caption ?? `Portrait of ${c.name}`)}</figcaption></figure>
-<div><div class="crumbs">Chapter ${ctx.chapter} · <a href="../composers/index.html">Composers</a> / ${era ? `<a href="../eras/${era.slug}.html">${era.numeral}. ${esc(era.name)}</a>` : ''}</div>
+<div><div class="crumbs"><a href="../composers/index.html">Composers</a> / ${era ? `<a href="../eras/${era.slug}.html">${era.numeral}. ${esc(era.name)}</a>` : ''}</div>
 <h1><span class="given">${esc(c.given ?? '')}</span>${esc(c.family ?? c.name)}</h1>
 <div class="lifespan"><span>Born <b>${esc(c.born.date ?? c.born.year)}</b>, ${esc(c.born.place)}</span>${c.died ? `<span>Died <b>${esc(c.died.date ?? c.died.year)}</b>, ${esc(c.died.place)}</span>` : ''}</div>
 <p class="epithet">${esc(c.epithet)}</p>
-${listenLinks(c)}
+${workPills(c)}
 ${facts ? `<dl class="facts">${facts}</dl>` : ''}
 </div></div></section>
-<div class="wrap c-body"><nav class="toc" aria-label="On this page"><ol>${toc.map(([id, n, t]) => `<li><a href="#${id}"><span class="n">${n}</span>${t}</a></li>`).join('')}</ol></nav>
-<div>${keyIdeas(ctx, (c.sound ?? []).slice(0, 3).map((s) => `<b>${esc(s.aspect)}.</b> ${esc(firstSentence(s.html))}`))}${c.quote ? `<blockquote class="prose" style="margin:4.5rem 0 0;font:italic 400 clamp(1.5rem,2.6vw,2.1rem)/1.35 var(--display);color:var(--ink-2)"><span>“${esc(c.quote.text)}”</span><footer class="sc" style="font:600 .8rem var(--caps);letter-spacing:.16em;color:var(--muted);margin-top:1rem;font-style:normal">— ${esc(c.quote.source)}</footer></blockquote>` : ''}
+<div class="wrap c-body"><nav class="toc" aria-label="On this page"><ol>${toc.map(([id, t]) => `<li><a href="#${id}">${t}</a></li>`).join('')}</ol></nav>
+<div>${c.quote ? `<blockquote class="prose c-quote"><span>“${esc(c.quote.text)}”</span><footer class="sc">— ${esc(c.quote.source)}</footer></blockquote>` : ''}
 ${parts.join('\n')}
-${takeaways}${furtherReading(ctx, c.slug)}${citePage(ctx, c.name)}
+${furtherReading(ctx, c.slug)}${citePage(ctx, c.name)}
 <nav class="pager">${prev ? `<a href="${prev.slug}.html"><span class="sc">← Earlier</span><span class="nm">${esc(prev.name)}</span></a>` : '<span></span>'}${next ? `<a href="${next.slug}.html"><span class="sc">Later →</span><span class="nm">${esc(next.name)}</span></a>` : ''}</nav>
 </div></div>`;
   return layout(ctx, {
@@ -387,25 +425,35 @@ ${takeaways}${furtherReading(ctx, c.slug)}${citePage(ctx, c.name)}
 }
 
 function eraPage(e) {
-  const ctx = { base: '../', page: `eras/${e.slug}`, chapter: eras.indexOf(e) + 2 };
+  const ctx = { base: '../', page: `eras/${e.slug}` };
   const list = composers.filter((c) => c.era === e.slug);
   const parts = [];
-  let n = 0;
-  const add = (id, t, inner, sub) => parts.push(chapter(`${ctx.chapter}.${++n}`, id, t, inner, sub));
+  const add = (id, t, inner, sub) => parts.push(chapter(id, t, inner, sub));
   add('essay', 'The Story', `<div class="prose">${rich(ctx, e.essay)}</div>`);
-  if (e.glossary?.length) add('terms', 'Terms of Art', `<div class="glossary">${e.glossary.map((g) => `<div class="reveal"><h4>${esc(g.term)}</h4>${rich(ctx, g.html)}</div>`).join('')}</div>`, 'The vocabulary you need to hear this period clearly.');
+  if (e.glossary?.length) add('terms', 'Terms of Art', `<div class="glossary">${e.glossary.map((g) => `<div class="reveal"><h4>${esc(g.term)}</h4>${rich(ctx, g.html)}</div>`).join('')}</div>`);
   if (e.score?.length) add('score', 'In the Score', scores(ctx, e.score));
   if (e.arts?.length) add('arts', 'Sister Arts', arts(ctx, e.arts));
   add('composers', 'Composers', `<div class="composer-grid">${list.map((c) => card(ctx, c)).join('')}</div>`);
+  const unhosted = list.filter((c) => !composerWorks(c).length && elsewhereBy.get(c.slug));
+  if (unhosted.length) add('elsewhere', 'Where to hear this music', `<div class="era-elsewhere">${unhosted.map((c) => `<section><h3><a href="../composers/${c.slug}.html">${esc(c.name)}</a></h3>${elsewhereSection(ctx, { items: elsewhereBy.get(c.slug).items.slice(0, 2) }, { heading: false })}</section>`).join('')}</div><p class="ew-note">These recordings are under copyright, so the Hall cannot play them; the links go to the labels’ and artists’ own uploads and to streaming services.</p>`);
   const i = eras.indexOf(e);
   const prev = eras[i - 1], next = eras[i + 1];
   const h = e.hero;
   const body = `<section class="e-hero" style="--focus:${h.focus ?? '50% 40%'}">${img(ctx, h.file, `${h.artist}, ${h.title}`, { eager: true, sizes: '100vw' })}
-<div class="wrap"><div><span class="n">${e.numeral}</span><span class="span">Chapter ${ctx.chapter} · ${esc(e.span)}</span><h1>${esc(e.name)}</h1><p class="sub">${esc(e.subtitle)}</p></div>
+<div class="wrap"><div><span class="n">${e.numeral}</span><span class="span">${esc(e.span)}</span><h1>${esc(e.name)}</h1><p class="sub">${esc(e.subtitle)}</p></div>
 <p class="hero-caption"><b>${esc(h.artist)}</b><cite>${esc(h.title)}</cite>, ${esc(h.date)}${h.collection ? `<br>${esc(h.collection)}` : ''}</p></div></section>
-<div class="wrap">${keyIdeas(ctx, (e.glossary ?? []).slice(0, 3).map((g) => `<b>${esc(g.term)}.</b> ${esc(firstSentence(g.html))}`))}${parts.join('\n')}${chapterQuestions(ctx, listens.filter((l) => bySlug.get(l.composer)?.era === e.slug), e.score)}${furtherReading(ctx, e.slug)}${citePage(ctx, e.name)}
+<div class="wrap">${parts.join('\n')}${furtherReading(ctx, e.slug)}${citePage(ctx, e.name)}
 <nav class="pager">${prev ? `<a href="${prev.slug}.html"><span class="sc">← ${prev.numeral}</span><span class="nm">${esc(prev.name)}</span></a>` : '<a href="../origins.html"><span class="sc">← Prelude</span><span class="nm">Before Bach</span></a>'}${next ? `<a href="${next.slug}.html"><span class="sc">${next.numeral} →</span><span class="nm">${esc(next.name)}</span></a>` : '<a href="../timeline.html"><span class="sc">Coda →</span><span class="nm">Lifelines</span></a>'}</nav></div>`;
   return layout(ctx, { title: `${e.numeral}. ${e.name} (${e.span}) — Contrapunctus`, description: e.subtitle, body, dark: true, accent: e.accent, nav: 'eras', ogImage: art[normalizeTitle(e.hero.file)]?.src });
+}
+
+/** The curated Hall programmes that survive the publication gate, with their running times. */
+function liveProgrammes() {
+  return PROGRAMMES.map((p) => {
+    const tracks = p.tracks.filter((id) => progById.has(id));
+    for (const id of p.tracks) if (!progById.has(id)) warnings.push(`programme ${p.id}: ${id} is not published`);
+    return { ...p, tracks, duration: tracks.reduce((a, id) => a + (progById.get(id).duration ?? 0), 0) };
+  }).filter((p) => p.tracks.length >= 3);
 }
 
 function indexPage() {
@@ -415,21 +463,25 @@ function indexPage() {
     const list = composers.filter((c) => c.era === e.slug);
     return `<article class="movement" style="--accent:${e.accent}"><div class="movement-art">${painting(ctx, { ...e.hero }, { sizes: '(max-width: 860px) 100vw, 50vw' })}</div>
 <div class="reveal"><span class="movement-num">${e.numeral}</span><span class="movement-span">${esc(e.span)}</span><h3><a href="eras/${e.slug}.html">${esc(e.name)}</a></h3><div class="precis">${rich(ctx, e.precis)}</div>
-<ul class="roster">${list.map((c) => `<li><a href="composers/${c.slug}.html">${esc(c.family ?? c.name)}</a></li>`).join('')}</ul>
+<ul class="roster">${list.map((c) => `<li><a href="composers/${c.slug}.html">${esc(c.short)}</a></li>`).join('')}</ul>
 <a class="more" href="eras/${e.slug}.html">Read the chapter</a></div></article>`;
   }).join('\n');
+  const concert = PROG.filter((t) => t.concert !== false);
+  const programmes = liveProgrammes();
+  const programmeBand = programmes.length ? `<section class="section night programmes-band" id="programmes"><div class="wrap"><div class="section-head"><span class="kicker">Tonight in the Hall</span><h2>${esc(site.programmesTitle)}</h2><p>${rich(ctx, site.programmesLede)}</p></div>
+<div class="programme-cards">${programmes.map((p) => `<a class="programme-card" href="hall.html#programme-${attr(p.id)}"><span class="pc-meta">${p.tracks.length} pieces · ${hours(p.duration)}</span><h3>${esc(p.title)}</h3><p class="pc-sub">${esc(p.subtitle)}</p><p>${esc(p.note)}</p><span class="pc-go">Play this programme →</span></a>`).join('')}</div></div></section>` : '';
   const body = `<section class="hero"><div class="hero-slides">${slides}</div>
 <div class="wrap hero-inner"><div><h1 class="hero-title">Contrapunctus</h1><p class="hero-sub"><span class="sc">${esc(site.kicker)}</span>${esc(site.tagline)}</p>
-<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${listens.filter((l) => l.concert !== false).length} recordings · the score lights up as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#prelude">Or wander the Atlas ↓</a></div></div>
+<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${concert.length} recordings, ${hours(concert.reduce((a, t) => a + (t.duration || 0), 0))} of music, with notes as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#programmes">Or choose a concert ↓</a></div></div>
 <div><p class="hero-caption" aria-live="polite"></p><div class="hero-dots">${site.heroSlides.map((_, i) => `<button type="button" aria-label="Painting ${i + 1}"${i === 0 ? ' class="on"' : ''}></button>`).join('')}</div></div></div>
-<a class="scroll-cue" href="#prelude">Prelude ↓</a></section>
+<a class="scroll-cue" href="#programmes">Begin ↓</a></section>
+${programmeBand}
 ${journeys.band(ctx)}
-${readerPaths(ctx)}
 <section class="section" id="prelude"><div class="wrap"><div class="section-head"><span class="kicker">Prelude</span><h2>${esc(site.preludeTitle)}</h2></div>
 <div class="prose">${rich(ctx, site.prelude)}</div></div></section>
 <section class="section" id="movements"><div class="wrap"><div class="section-head"><span class="kicker">Seven movements</span><h2>${esc(site.erasTitle)}</h2><p>${rich(ctx, site.erasLede)}</p></div>
 <div class="movements">${movements}</div></div></section>
-<section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Who overlapped with whom</h2><p>Every composer in the atlas on one axis. Bach died the year Haydn turned eighteen; Brahms heard the thirty-year-old Mahler conduct <i>Don Giovanni</i> in Budapest in 1890 and praised it; Rachmaninoff outlived Ravel and Mahler and died two years before Bartók.</p></div>
+<section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Who overlapped with whom</h2><p>${rich(ctx, site.lifelinesLede)}</p></div>
 <div class="tl-wrap">${timelineSvg(ctx, { compact: true, dark: true })}</div><p style="margin-top:1.6rem"><a class="more" style="color:var(--gold-hi)" href="timeline.html">The full timeline, with history and painting alongside →</a></p></div></section>
 <section class="section"><div class="wrap atlas-pair">
 <div class="reveal"><span class="kicker">Before Bach</span><h2 style="margin:.8rem 0 1rem"><a href="origins.html" style="text-decoration:none">Origins</a></h2><p>${rich(ctx, pages.origins?.lede ?? '')}</p><a class="more" href="origins.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Begin with the monochord →</a></div>
@@ -446,13 +498,70 @@ function composersIndex() {
 }
 
 function longPage(p) {
-  const ctx = { base: '', page: p.slug, chapter: pageChapter(p.slug) };
-  const lessons = p.lessons.map((l, i) => `<section class="lesson chapter" id="${l.id}"><div class="n">${ctx.chapter}.${i + 1}<small>${esc(l.label ?? '')}</small></div><div>
-<h2 class="reveal">${esc(l.heading)}</h2><div class="prose">${rich(ctx, l.html)}</div>${scores({ ...ctx, scorePrefix: l.id }, l.score)}${l.arts?.length ? `<div style="margin-top:3rem">${arts(ctx, l.arts)}</div>` : ''}${questions(ctx, l)}</div></section>`).join('\n');
-  const ideas = new Set(p.slug === 'origins' ? ['monochord', 'notation', 'polyphony', 'continuo'] : ['counterpoint', 'harmony', 'sonata-form', 'orchestration']);
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Chapter ${ctx.chapter} · ${esc(p.kicker)}</span><h1>${esc(p.title)}</h1><div class="lede">${rich(ctx, p.lede)}</div></div><span class="bg-glyph" aria-hidden="true">${p.glyph ?? '𝄐'}</span></header>
-<div class="wrap">${keyIdeas(ctx, p.lessons.filter((l) => ideas.has(l.id)).map((l) => esc(firstSentence(l.html))))}<nav class="chapter-map" aria-label="Chapter contents">${p.lessons.map((l, i) => `<a href="#${l.id}"><span>${ctx.chapter}.${i + 1}</span> ${esc(l.label || l.heading)}</a>`).join('')}</nav>${lessons}${p.slug === 'workshop' ? joinsSection(ctx) : ''}${furtherReading(ctx, p.slug)}${citePage(ctx, p.title)}</div>`;
+  const ctx = { base: '', page: p.slug };
+  const hear = (l) => {
+    const pointers = (l.listen ?? []).filter((x) => listenById.has(x.id));
+    return pointers.length ? `<ul class="lesson-hear">${pointers.map((x) => `<li>${hearButton(x.id, x.t)}<p>${rich(ctx, x.why ?? '')} <a href="${ctx.base}${workOf.has(x.id) ? `works/${workOf.get(x.id)}.html` : `hall.html#${x.id}`}">${esc(listenById.get(x.id).work)}</a></p></li>`).join('')}</ul>` : '';
+  };
+  const lessons = p.lessons.map((l) => `<section class="lesson chapter" id="${l.id}"><div class="n">${esc(l.numeral ?? '')}<small>${esc(l.label ?? '')}</small></div><div>
+<h2 class="reveal">${esc(l.heading)}</h2>${l.question ? `<p class="lesson-question">${esc(l.question)}</p>` : ''}<div class="prose">${rich(ctx, l.html)}</div>${scores({ ...ctx, scorePrefix: l.id }, l.score)}${l.arts?.length ? `<div style="margin-top:3rem">${arts(ctx, l.arts)}</div>` : ''}${hear(l)}</div></section>`).join('\n');
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">${esc(p.kicker)}</span><h1>${esc(p.title)}</h1><div class="lede">${rich(ctx, p.lede)}</div></div><span class="bg-glyph" aria-hidden="true">${p.glyph ?? '𝄐'}</span></header>
+<div class="wrap"><nav class="chapter-map" aria-label="Contents">${p.lessons.map((l) => `<a href="#${l.id}"><span>${esc(l.numeral ?? '')}</span> ${esc(l.label || l.heading)}</a>`).join('')}</nav>${lessons}${p.slug === 'workshop' ? joinsSection(ctx) : ''}${furtherReading(ctx, p.slug)}${citePage(ctx, p.title)}</div>`;
   return layout(ctx, { title: `${p.title} — Contrapunctus`, description: plain(p.lede), body, accent: p.accent, nav: p.slug });
+}
+
+function workPage(w) {
+  const ctx = { base: '../', page: `works/${w.slug}` };
+  const c = w.composer, era = eraBySlug.get(c.era), entry = w.entry;
+  const ids = new Set(w.listens.map((l) => l.id));
+  const first = w.listens.find((l) => l.concert !== false) ?? w.listens[0];
+  const portrait = rendition(art[normalizeTitle(c.portrait.file)]?.src ?? null, 160);
+  const meta = [entry?.year ?? first.year, entry?.cat, entry?.forces ?? first.forces].filter(Boolean).join(' · ');
+  const recording = (l) => {
+    const t = progById.get(l.id);
+    return `<li class="w-rec"><div class="w-rec-head">${hearButton(l.id, 0, 'Play')}<div><span class="w-mv">${esc(l.movement || l.work)}</span><span class="w-perf">${esc([l.performers, l.recorded].filter(Boolean).join(' · '))}</span></div><span class="w-dur">${fmtTime(t?.duration ?? 0)}</span></div>${l.intro ? `<p class="w-intro">${rich(ctx, l.intro)}</p>` : ''}${notes(l)}<p class="w-hall"><a href="../hall.html#${attr(l.id)}">Open in the Concert Hall${t?.hasSheet ? ', with the score' : ''} →</a></p></li>`;
+  };
+  const notes = (l) => {
+    const cues = (l.cues ?? []).map((q) => ({ ...q, at: anchorTime(l.id, q) })).filter((q) => q.at != null).sort((a, b) => a.at - b.at);
+    const joins = (l.transitions ?? []).map((tr) => ({ ...tr, at: anchorTime(l.id, tr.at ?? {}) })).filter((tr) => tr.at != null).sort((a, b) => a.at - b.at);
+    if (!cues.length && !joins.length) return '';
+    return `<details class="w-notes"><summary>Notes as it plays${joins.length ? ' · how it is joined' : ''}</summary><ol class="w-cues">${cues.map((q) => `<li>${hearButton(l.id, q.at, fmtTime(q.at))}<div><b>${esc(q.title)}</b><p>${rich(ctx, q.text)}</p></div></li>`).join('')}</ol>${joins.length ? `<h4>How it is joined</h4><ol class="w-cues w-joins">${joins.map((tr) => `<li>${hearButton(l.id, Math.max(0, tr.at - 8), fmtTime(tr.at))}<div><b>${esc(tr.title)}</b>${rich(ctx, tr.how)}</div></li>`).join('')}</ol>` : ''}</details>`;
+  };
+  const concert = w.listens.filter((l) => l.concert !== false), others = w.listens.filter((l) => l.concert === false);
+  const comparisons = [...new Map(w.listens.flatMap((l) => compareLinks(l.id)).map((x) => [x.compare, x])).values()];
+  const journeyLinks = publishedJourneys.filter((j) => j.stations.some((s) => ids.has(s.listen?.id)));
+  const edges = influenceEdges.filter((e) => ids.has(e.exhibit?.from?.listen?.id) || ids.has(e.exhibit?.to?.listen?.id));
+  const terms = GLOSSARY.filter((g) => (g.hear ?? []).some((h) => ids.has(h.listen)));
+  const related = [
+    comparisons.length ? `<div><h3>Other performers</h3><ul>${comparisons.map((x) => `<li><a href="../compare/${attr(x.compare)}.html">${esc(x.label)}</a></li>`).join('')}</ul></div>` : '',
+    journeyLinks.length ? `<div><h3>Guided journeys</h3><ul>${journeyLinks.map((j) => `<li><a href="../journeys/${attr(j.id)}.html">${esc(j.title)}</a></li>`).join('')}</ul></div>` : '',
+    edges.length ? `<div><h3>Borrowed and handed on</h3><ul>${edges.map((e) => `<li><a href="../influence.html#edge-${attr(e.id)}">${esc(e.title)}</a></li>`).join('')}</ul></div>` : '',
+    terms.length ? `<div><h3>Terms you can hear here</h3><ul>${terms.map((g) => `<li><a href="../glossary.html#${attr(g.slug)}">${esc(g.term)}</a></li>`).join('')}</ul></div>` : '',
+  ].filter(Boolean).join('');
+  const body = `<header class="w-hero" style="--accent:${era?.accent ?? 'var(--gold)'}"><div class="wrap">
+<p class="crumbs"><a href="../composers/${c.slug}.html">${portrait ? `<img src="../${portrait}" alt="" width="40" height="40" loading="lazy" style="object-position:${c.portrait.focus ?? '50% 25%'}">` : ''}${esc(c.name)}</a>${era ? ` / <a href="../eras/${era.slug}.html">${era.numeral}. ${esc(era.name)}</a>` : ''}</p>
+<h1>${entry?.titleHtml ?? esc(keyless(w.title))}</h1>${meta ? `<p class="w-meta">${esc(meta)}</p>` : ''}
+${entry?.note ? `<div class="w-lede">${rich(ctx, entry.note)}</div>` : ''}
+${concert.length ? `<p class="w-play">${hearButton(concert[0].id, 0, concert.length > 1 ? 'Play from the beginning' : 'Play')} <span>${concert.length > 1 ? `${concert.length} recordings · ` : ''}${hours(w.duration)}</span></p>` : ''}
+</div></header>
+<div class="wrap w-body">
+${concert.length ? `<section class="chapter" id="recordings"><header><h2>${concert.length > 1 ? 'In the Hall' : 'The recording'}</h2></header><ol class="w-recs">${concert.map(recording).join('')}</ol></section>` : ''}
+${others.length ? `<section class="chapter" id="other-recordings"><header><h2>${concert.length ? 'Other performances' : 'Recordings'}</h2><p>Historical and comparison recordings, outside the concert’s running order.</p></header><ol class="w-recs">${others.map(recording).join('')}</ol></section>` : ''}
+${related ? `<section class="chapter w-related" id="related"><header><h2>Around this piece</h2></header><div class="w-related-grid">${related}</div></section>` : ''}
+<p class="w-back"><a href="../composers/${c.slug}.html#works">More by ${esc(c.short)} →</a></p>
+</div>`;
+  return layout(ctx, { title: `${plain(keyless(w.title))} · ${c.name} — Contrapunctus`, description: plain(entry?.note ?? first.intro ?? `${c.name}: ${w.title}`), body, dark: true, accent: era?.accent, nav: 'works', ogImage: art[normalizeTitle(c.portrait.file)]?.src });
+}
+
+function aboutPage() {
+  const ctx = { base: '', page: 'about' };
+  const concert = PROG.filter((t) => t.concert !== false);
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Colophon</span><h1>About Contrapunctus</h1><div class="lede">${rich(ctx, site.about.lede)}</div></div><span class="bg-glyph" aria-hidden="true">𝄐</span></header>
+<div class="wrap section"><div class="prose about">${rich(ctx, site.about.html)}
+<h3><span class="sc">In numbers</span>What is here</h3>
+<ul><li>${composers.length} composers in seven chapters, and ${precursors.length} before Bach.</li><li>${concert.length} recordings in the Concert Hall (${hours(concert.reduce((a, t) => a + (t.duration || 0), 0))}), ${PROG.length - concert.length} more for comparing performers.</li><li>${WORKS.size} works with their own pages, ${PROG.filter((t) => t.hasSheet).length} of them with the score following the recording.</li><li>${INFLUENCE_EDGES} sourced connections in the Web of Influence; ${GLOSSARY.length} terms in the glossary.</li></ul>
+${rich(ctx, site.about.coda)}</div></div>`;
+  return layout(ctx, { title: 'About — Contrapunctus', description: plain(site.about.lede), body, nav: '' });
 }
 
 function timelineSvg(ctx, { compact = false } = {}) {
@@ -537,10 +646,6 @@ function creditsPage() {
   return layout(ctx, { title: 'Image credits — Contrapunctus', body, nav: '' });
 }
 
-function readerPaths(ctx) {
-  return `<section class="section night reader-paths" id="reader-paths"><div class="wrap"><div class="section-head"><span class="kicker">Four ways in</span><h2>Choose your first door</h2></div><div class="reader-doors">${site.readerPaths.map((p, i) => `<article class="reader-door${p.featured ? ' reader-door-featured' : ''}"><span class="door-number">${['I', 'II', 'III', 'IV'][i]}</span><h3>${esc(p.title)}</h3><p>${esc(p.text)}</p><ul>${p.links.map(([title, url]) => `<li><a href="${ctx.base}${url}">${esc(title)} <span aria-hidden="true">→</span></a></li>`).join('')}</ul></article>`).join('')}</div>${staffRule('tight')}</div></section>`;
-}
-
 function routesPage() {
   const ctx = { base: '', page: 'routes' };
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Listen first</span><h1>Listening routes</h1><p class="lede">Follow a returning melody, an independent voice or a change of instrument. Each button starts the recording without leaving the page.</p></div></header><div class="wrap section">${routes.map((r) => `<section class="route" id="${r.id}"><h2>${esc(r.title)}</h2><p>${esc(r.intro)}</p><ol>${r.tracks.filter((t) => listenById.has(t.id)).map((t) => { const l = listenById.get(t.id); return `<li><h3><a href="hall.html#${l.id}">${esc(bySlug.get(l.composer)?.name)} · ${esc(l.work)}</a></h3>${l.movement ? `<p>${esc(l.movement)}</p>` : ''}${t.why ? `<p>${esc(t.why)}</p>` : ''}${hearButton(t.id, 0, 'Play recording')}</li>`; }).join('')}</ol></section>`).join('')}</div>`;
@@ -554,7 +659,7 @@ function anchorTime(id, anchor) {
 
 function joinsSection(ctx) {
   const examples = listens.flatMap((l) => (l.transitions ?? []).slice(0, 1).map((tr) => ({ l, tr, t: anchorTime(l.id, tr.at ?? {}) }))).filter((x) => x.t != null).slice(0, 4);
-  return `<section class="apparatus" id="joins"><span class="kicker">At the boundary</span><h2>How pieces are joined</h2><p>A cadence can close a section; a pedal, sequence or shared motif can carry one into the next. Compare the written device with the recording. The Hall’s ‘The joins’ tab gives the evidence for each transition.</p><div class="join-examples">${examples.map(({ l, tr, t }) => `<article><h3>${esc(tr.title)}</h3><p class="sc">${esc(l.work)} · ${esc(tr.from)} → ${esc(tr.to)}</p>${rich(ctx, tr.how)}${hearButton(l.id, Math.max(0, t - 8), 'Hear the join')} <a href="hall.html#${l.id}">Open this recording</a><p class="timing-note">${esc(BASIS_TEXT[tr.basis] ?? '')} ${esc(tr.evidence ?? '')}</p></article>`).join('')}</div></section>`;
+  return `<section class="apparatus" id="joins"><span class="kicker">At the boundary</span><h2>How pieces are joined</h2><p>A cadence can close a section; a held bass note, a sequence or a shared motif can carry the music into the next. Four joins from the Hall, each with the passage to hear:</p><div class="join-examples">${examples.map(({ l, tr, t }) => `<article><h3>${esc(tr.title)}</h3><p class="sc">${esc(l.work)} · ${esc(tr.from)} → ${esc(tr.to)}</p>${rich(ctx, tr.how)}${hearButton(l.id, Math.max(0, t - 8), 'Hear the join')} <a href="${workOf.has(l.id) ? `works/${workOf.get(l.id)}.html` : `hall.html#${l.id}`}">More on this piece</a><p class="timing-note">${esc(tr.evidence ?? '')}</p></article>`).join('')}</div></section>`;
 }
 
 function glossaryPage() {
@@ -562,10 +667,10 @@ function glossaryPage() {
   const entries = [...GLOSSARY].sort((a, b) => a.term.localeCompare(b.term, 'en'));
   const kinds = [...new Set(entries.map((g) => g.kind))].sort();
   if (!entries.length) return layout(ctx, { title: 'Glossary — Contrapunctus', nav: 'glossary', body: `<header class="page-hero"><div class="wrap"><span class="kicker">A listening vocabulary</span><h1>Glossary</h1><p class="lede">This edition has no glossary entries. The <a href="workshop.html">Workshop</a> explains musical techniques with notation and listening examples.</p></div></header>` });
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">A listening vocabulary</span><h1>Glossary</h1><p class="lede">Definitions beside examples from the recordings. Bar references identify a performed occurrence: a repeated bar can have more than one time.</p></div></header><div class="wrap section"><div class="glossary-controls"><label for="glossary-kind">Show a kind of term</label><select id="glossary-kind"><option value="">All kinds</option>${kinds.map((k) => `<option value="${attr(k)}">${esc(k)}</option>`).join('')}</select><p id="glossary-count" role="status">${entries.length} terms</p></div><nav class="glossary-alphabet" aria-label="Glossary alphabet">${[...new Set(entries.map((g) => g.term[0].toLocaleUpperCase('en')))].map((letter) => `<a href="#${entries.find((g) => g.term[0].toLocaleUpperCase('en') === letter).slug}">${esc(letter)}</a>`).join('')}</nav><div class="glossary-entries">${entries.map((g) => `<article class="glossary-entry" id="${attr(g.slug)}" data-kind="${attr(g.kind)}"><header><span class="kicker">${esc(g.kind)}</span><h2>${esc(g.term)}</h2>${g.aka?.length ? `<p class="aliases">Also: ${g.aka.map(esc).join('; ')}</p>` : ''}</header><p class="definition">${esc(g.short)}</p>${rich(ctx, g.html)}${(g.hear ?? []).map((h) => {
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">A listening vocabulary</span><h1>Glossary</h1><p class="lede">Every term, defined in plain words, and wherever we can, played: press Hear it for an example from the recordings.</p></div></header><div class="wrap section"><div class="glossary-controls"><label for="glossary-kind">Show a kind of term</label><select id="glossary-kind"><option value="">All kinds</option>${kinds.map((k) => `<option value="${attr(k)}">${esc(k)}</option>`).join('')}</select><p id="glossary-count" role="status">${entries.length} terms</p></div><nav class="glossary-alphabet" aria-label="Glossary alphabet">${[...new Set(entries.map((g) => g.term[0].toLocaleUpperCase('en')))].map((letter) => `<a href="#${entries.find((g) => g.term[0].toLocaleUpperCase('en') === letter).slug}">${esc(letter)}</a>`).join('')}</nav><div class="glossary-entries">${entries.map((g) => `<article class="glossary-entry" id="${attr(g.slug)}" data-kind="${attr(g.kind)}"><header><span class="kicker">${esc(g.kind)}</span><h2>${esc(g.term)}</h2>${g.aka?.length ? `<p class="aliases">Also: ${g.aka.map(esc).join('; ')}</p>` : ''}</header><p class="definition">${esc(g.short)}</p>${rich(ctx, g.html)}${(g.hear ?? []).map((h) => {
     const t = anchorTime(h.listen, h), l = listenById.get(h.listen), score = scoreIndex.get(h.listen);
     if (!l) return '';
-    return `<div class="term-hear">${t != null ? hearButton(h.listen, t, 'Hear it') : `<a href="hall.html#${h.listen}">Open recording</a>`}<p>${esc(h.note)} <a href="hall.html#${h.listen}">${esc(l.work)}</a>${h.bar ? `<small>Bar ${esc(h.bar.n)}, occurrence ${h.bar.occ ?? 1} · ${t == null ? 'alignment unavailable; no timed jump' : score?.status === 'reviewed' ? 'reviewed alignment' : 'provisional alignment'}</small>` : '<small>Listening time is an editorial pointer, not a bar alignment.</small>'}</p></div>`;
+    return `<div class="term-hear">${t != null ? hearButton(h.listen, t, 'Hear it') : `<a href="hall.html#${h.listen}">Open recording</a>`}<p>${esc(h.note)} <a href="${workOf.has(h.listen) ? `works/${workOf.get(h.listen)}.html` : `hall.html#${h.listen}`}">${esc(l.work)}</a>${h.bar && t != null ? `<small>Bar ${esc(h.bar.n)}${score?.status === 'reviewed' ? '' : ' · timed automatically'}</small>` : ''}</p></div>`;
   }).join('')}${g.see?.length ? `<p class="see-also">See also: ${g.see.filter((slug) => GLOSSARY.some((x) => x.slug === slug)).map((slug) => `<a href="#${slug}">${esc(GLOSSARY.find((x) => x.slug === slug).term)}</a>`).join(' · ')}</p>` : ''}</article>`).join('')}</div></div>`;
   return layout(ctx, { title: 'Glossary — Contrapunctus', body, nav: 'glossary' });
 }
@@ -575,10 +680,13 @@ function searchIndex() {
   const add = (type, title, sub, url, extra = '') => entries.push({ type, title: plain(title), sub: plain(sub), url, k: fold(`${title} ${sub} ${extra}`) });
   for (const c of composers) {
     add('composer', c.name, `${lifespan(c)} · ${eraBySlug.get(c.era)?.name}`, `composers/${c.slug}.html`, c.epithet);
-    (c.works ?? []).forEach((w, i) => add('work', w.title, `${c.name} · ${w.cat ?? ''} · ${w.year}`, `composers/${c.slug}.html#work-${i + 1}`, `${w.forces ?? ''} ${w.note ?? ''}`));
+    (c.works ?? []).forEach((w, i) => add('work', w.title, `${c.name} · ${w.cat ?? ''} · ${w.year}`, workOfEntry.has(w) ? `works/${workOfEntry.get(w)}.html` : `composers/${c.slug}.html#work-${i + 1}`, `${w.forces ?? ''} ${w.note ?? ''}`));
   }
   for (const e of eras) add('era', e.name, e.span, `eras/${e.slug}.html`, e.subtitle);
-  for (const l of listens) add('recording', `${bySlug.get(l.composer)?.name} · ${l.work}`, `${l.movement ?? ''} · ${l.performers}`, `hall.html#${l.id}`, l.key);
+  for (const l of listens) add('recording', `${bySlug.get(l.composer)?.name ?? l.guest?.name ?? ''} · ${l.work}`, `${l.movement ?? ''} · ${l.performers}`, workOf.has(l.id) ? `works/${workOf.get(l.id)}.html` : `hall.html#${l.id}`, l.key);
+  for (const w of WORKS.values()) if (!w.entry) add('work', keyless(w.title), `${w.composer.name} · in the Concert Hall`, `works/${w.slug}.html`);
+  for (const p of liveProgrammes()) add('programme', p.title, `A concert in the Hall · ${hours(p.duration)}`, `hall.html#programme-${p.id}`, `${p.subtitle} ${p.note}`);
+  add('page', 'About Contrapunctus', 'What this is, how it is made, and how to correct it', 'about.html');
   for (const p of Object.values(pages)) for (const l of p.lessons ?? []) add('lesson', l.heading, p.title, `${p.slug}.html#${l.id}`, `${l.label} ${l.question ?? ''}`);
   for (const g of GLOSSARY) add('glossary', g.term, g.short, `glossary.html#${g.slug}`, `${(g.aka ?? []).join(' ')} ${g.kind}`);
   for (const { a, id } of allArt()) add(['poem', 'text'].includes(a.type) ? 'poem' : 'painting', a.title, `${a.author ?? a.artist} · ${a.date ?? ''}`, `gallery.html#${id}`, a.note ?? '');
@@ -744,11 +852,11 @@ function dossierFor(d) {
 }
 
 const BASIS_TEXT = {
-  'score-aligned': 'From the written score, timed by aligning the score to this recording (automatic; not yet checked by ear).',
-  'score-proportion': 'Placed from the score’s proportions; the timing is approximate.',
-  'audio-feature': 'Located by measuring this recording.',
-  documented: 'Documented fact.',
-  general: 'A general description of this stretch of music.',
+  'score-aligned': 'Timed from the score, aligned to this recording automatically.',
+  'score-proportion': 'Placed from the score; the timing is approximate.',
+  'audio-feature': 'Placed by measuring this recording.',
+  documented: '',
+  general: 'About the passage as a whole.',
 };
 
 /** The smallest existing rendition at least `w` wide (renditions: -480, -960), else the original. */
@@ -821,8 +929,9 @@ async function programme() {
     const tuning = typeof l.tuning === 'object' ? l.tuning : { hz: l.tuning ?? 440, status: l.tuning ? 'documented' : 'standard' };
     out.push({
       id: l.id,
+      workPage: bySlug.has(l.composer) ? `works/${l.composer}-${workSlug(l.work)}.html` : null,
       composer: {
-        slug: c.slug, page: c.slug.startsWith('guest-') ? null : c.era === 'before-bach' ? `origins.html${c.anchor ? '#' + c.anchor : ''}` : `composers/${c.slug}.html`, name: c.name, given: c.given, family: c.family, dates: c.dates ?? lifespan(c),
+        slug: c.slug, page: c.slug.startsWith('guest-') ? null : c.era === 'before-bach' ? `origins.html${c.anchor ? '#' + c.anchor : ''}` : `composers/${c.slug}.html`, name: c.name, given: c.given, family: c.family, short: c.short ?? c.family ?? c.name, dates: c.dates ?? lifespan(c),
         born: `${c.born.date ?? c.born.year}, ${c.born.place}`, died: c.died ? `${c.died.date ?? c.died.year}, ${c.died.place}` : null,
         epithet: c.epithet, portrait: rendition(p?.src ?? null, 480), thumb: rendition(p?.src ?? null, 160), focus: c.portrait.focus ?? '50% 25%',
         facts: (c.facts ?? []).map(([k, v]) => [k, rich(ctx, v)]),
@@ -830,7 +939,7 @@ async function programme() {
       },
       era: e ? { slug: e.slug, numeral: e.numeral, name: e.name, span: e.span, accent: e.accent, hero: rendition(art[normalizeTitle(e.hero.file)]?.src ?? null, 480), heroCaption: `${e.hero.artist}, ${e.hero.title}` } : null,
       tuning: tuning.hz ?? 440, tuningStatus: tuning.status ?? 'standard', work: l.work, movement: l.movement ?? '', set: l.set ?? null, monophonic: !!l.monophonic, concert: l.concert ?? true, year: l.year, key: l.key ?? '', forces: l.forces, performers: l.performers, recorded: l.recorded ?? '',
-      question: l.question ?? '', intro, stream: s.stream, sourcePage: s.page, license: l.license ?? s.license, duration: s.duration,
+      intro, stream: s.stream, sourcePage: s.page, license: l.license ?? s.license, duration: s.duration,
       sections: l.sections ?? [], relations: rel, cues, transitions, orchestra: l.orchestra ?? null,
       hasScore: !!score, hasSheet, voices: score?.voices?.map((v) => v.name) ?? [],
       scoreSource: score ? { title: score.source?.title ?? '', edition: score.source?.edition ?? '', url: score.source?.url ?? '', license: score.source?.license ?? '', status: score.status } : null,
@@ -853,7 +962,7 @@ async function roomPage(prog) {
     if (t.era && !eraIds.has(t.era.slug)) { eraIds.set(t.era.slug, eras.length); eras.push(t.era); }
     return [t.id, t.stream, t.duration, composerIds.get(t.composer.slug), t.work, t.movement, t.set, t.concert === false ? 0 : 1, t.era ? eraIds.get(t.era.slug) : -1];
   });
-  const index = { composers, eras, rows };
+  const index = { composers, eras, rows, programmes: liveProgrammes().map((p) => ({ id: p.id, title: p.title, subtitle: p.subtitle, ids: p.tracks })) };
   await writeFile(path.join(OUT, 'assets/listen/programme.json'), JSON.stringify(index));
   await mkdir(path.join(OUT, 'assets/hall'), { recursive: true });
   for (const t of prog) {
@@ -882,9 +991,9 @@ async function roomPage(prog) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Concert Hall — Contrapunctus</title>
-<meta name="description" content="A concert from Bach to Bartók: real recordings, the score lighting up as it plays, and notes that explain each piece and every turn it takes.">
+<meta name="description" content="A concert from plainchant to Shostakovich in real recordings, with the score following the music where we have it, and notes on what you are hearing.">
 <meta property="og:title" content="The Concert Hall — Contrapunctus">
-<meta property="og:description" content="Real recordings, the score lighting up as it plays, and the music explained as it unfolds.">
+<meta property="og:description" content="Real recordings, the score following the music, and notes on what you are hearing as it plays.">
 ${first?.era?.hero ? `<meta property="og:image" content="${SITE_URL}${first.era.hero.replace(/-480\.webp$/, '.webp')}"><meta name="twitter:card" content="summary_large_image">` : ''}
 <meta name="theme-color" content="#0d0b09">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -896,7 +1005,7 @@ ${headScripts(ctx)}
 <div class="backdrop" aria-hidden="true"><img alt=""><img alt=""></div>
 <header class="r-top">
   <a class="r-brand" href="index.html"><span class="glyph">𝄞</span>Contrapunctus</a>
-  <nav class="r-nav" aria-label="Main navigation"><a href="guide.html">Guide</a><a href="influence.html">Influence</a><a href="compare/index.html">Compare</a><a href="atlas-map.html">Map</a><a href="journeys/index.html">Journeys</a><a href="index.html#movements">Atlas</a><a href="composers/index.html">Composers</a><a href="glossary.html">Glossary</a><a href="return-lab/index.html">Return Lab</a><a href="workshop.html">Workshop</a><a href="#" data-search>Search</a></nav>
+  <nav class="r-nav" aria-label="Main navigation">${NAV.filter(([k]) => k !== 'hall').map(([, t, u]) => `<a href="${u}">${t}</a>`).join('')}<a href="#" data-search>Search</a></nav>
 </header>
 
 <main class="stage">
@@ -942,7 +1051,7 @@ ${headScripts(ctx)}
     </div>
     <div class="tab tab-live" data-panel="live">
       <article class="join-card" hidden></article>
-      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><details class="cue-how"><summary>How we know</summary><p></p></details><span class="cue-next"></span></article>
+      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><details class="cue-how"><summary>How we know</summary><p></p></details><span class="cue-next"></span><button type="button" class="cue-share">Link to this moment</button></article>
       <ol class="cue-past"></ol>
     </div>
     <div class="tab tab-joins" data-panel="joins" hidden></div>
@@ -971,7 +1080,8 @@ ${headScripts(ctx)}
 <aside class="hall-hint" hidden aria-label="Welcome to the Hall"><span>New here? <button type="button" data-tour="hall-welcome">Take the 1-minute tour</button></span><button type="button" class="hall-hint-close" aria-label="Dismiss the tour invitation">×</button></aside>
 
 <aside class="programme" hidden>
-  <header><h2>The programme</h2><p>${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in order of the composers’ births. It plays straight through; choose anything to jump there. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
+  <header><h2>The programme</h2><p>Choose an evening, or the whole concert: ${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in the order the composers were born. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
+  ${(() => { const progs = liveProgrammes(); return progs.length ? `<section class="p-curated"><h3><span>✦</span>Evenings</h3><ol>${progs.map((p) => `<li><button data-programme="${attr(p.id)}"><span class="p-c">${esc(p.title)}</span><span class="p-w">${esc(p.subtitle)}</span><span class="p-d">${Math.round(p.duration / 60)} min</span></button></li>`).join('')}<li><button data-programme=""><span class="p-c">The whole concert</span><span class="p-w">Everything, in the order the composers were born</span><span class="p-d">${Math.round(concertSecs / 3600)} h</span></button></li></ol></section>` : ''; })()}
   ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t, i) => {
     const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>${(() => { const n = tracks.filter((x) => x.set?.id === t.set.id).length; return n >= t.set.of ? `complete · ${t.set.of} movements` : `${n} of ${t.set.of} movements`; })()}</em></li>` : '';
     return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${t.set ? esc(t.movement || t.work) : `${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}`}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
@@ -981,8 +1091,8 @@ ${headScripts(ctx)}
 <div class="curtain">
   <div class="curtain-inner">
     <span class="kicker">The Concert Hall</span>
-    <h2>A concert from Bach to Bartók</h2>
-    <p>${concertN} recordings play one after another. Where the score is known, it lights up as the music sounds; elsewhere the visualizer traces pitch and harmony. Notes explain each piece, and every turn it takes, as it happens.</p>
+    <h2>From plainchant to ${esc(concert.at(-1)?.composer.family ?? '')}</h2>
+    <p>${concertN} recordings, in the order the composers were born. Where we have the score, it follows the music; notes say what you are hearing as it happens. Or open the programme and choose an evening.</p>
     <button class="begin" disabled>Loading the concert…</button>
     <small>Browsers need one click before a page may play sound. After that, the music plays on its own.</small>
   </div>
@@ -1006,6 +1116,7 @@ const out = async (rel, html) => { written.add(rel); await emit(rel, html); };
 
 const PROG = await programme();
 PROG_V = createHash('md5').update(JSON.stringify(PROG)).digest('hex').slice(0, 8);  // versions programme.json and assets/hall/*.json
+collectWorks(PROG);
 const influenceModule = existsSync(path.join(ROOT, 'src/influence.mjs')) ? await import('./influence.mjs') : null;
 if (influenceModule) await influenceModule.buildInfluence({ out, layout, esc, attr, rich, termify, furtherReading, composers, bySlug, eras, eraBySlug, art, listens, ROOT, OUT, warnings, img });
 await buildAtlasMap({ out, layout, composers, eras, art, listens, ROOT, OUT });
@@ -1016,6 +1127,8 @@ const comparisonSearch = await buildCompare({ out, layout, esc, attr, bySlug, li
 await out('atlas.html', `<!doctype html><meta charset="utf-8"><title>Contrapunctus</title><meta http-equiv="refresh" content="0; url=index.html"><link rel="canonical" href="index.html"><a href="index.html">Contrapunctus</a>`);
 await out('composers/index.html', composersIndex());
 for (const [i, c] of composers.entries()) await out(`composers/${c.slug}.html`, composerPage(c, i));
+for (const w of WORKS.values()) await out(`works/${w.slug}.html`, workPage(w));
+await out('about.html', aboutPage());
 for (const e of eras) await out(`eras/${e.slug}.html`, eraPage(e));
 for (const p of Object.values(pages)) await out(`${p.slug}.html`, longPage(p));
 await out('timeline.html', timelinePage());
@@ -1034,7 +1147,7 @@ await emit('assets/data/recordings.csv', recordingsCsv(recordings));
 await out('404.html', layout({ base: '/contrapunctus/', page: '404' }, { title: 'Not found — Contrapunctus', nav: '', body: `<header class="page-hero"><div class="wrap"><span class="kicker">Tacet</span><h1>A rest, not a note</h1><p class="lede">This page does not exist. The <a href="/contrapunctus/composers/index.html">composers</a> and the <a href="/contrapunctus/index.html">seven chapters</a> are where you left them.</p></div><span class="bg-glyph" aria-hidden="true">𝄽</span></header>` }));
 
 // remove stale generated pages
-for (const dir of ['composers', 'eras']) {
+for (const dir of ['composers', 'eras', 'works']) {
   for (const f of await readdir(path.join(OUT, dir)).catch(() => [])) {
     if (f.endsWith('.html') && !written.has(`${dir}/${f}`)) await unlink(path.join(OUT, dir, f));
   }

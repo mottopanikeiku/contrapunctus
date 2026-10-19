@@ -19,174 +19,119 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, II (Anderson, Monteux, 1950).ogg"
   },
-  "intro": "The parent reinterprets the children’s eyes as a light already preparing to leave. Mahler gives this sonnet a less regular musical shape than the first song, with chromatic links that repeatedly postpone a settled tonic. This is Marian Anderson’s contralto performance with Pierre Monteux.",
-  "question": "How does the orchestra keep a phrase moving when the voice seems ready to come to rest?",
+  "intro": "Marian Anderson takes the parent’s part in this song about the last looks of dying children, with Pierre Monteux and the San Francisco Symphony. A rising cello phrase becomes the voice’s first attempt to make sense of those eyes.",
   "sections": [
     {
       "t": 0,
-      "label": "Opening argument · dark flames",
+      "label": "A · A cello phrase becomes speech",
       "m": "A",
-      "mNote": "rising orchestral figures and an unsettled vocal line"
+      "mNote": "The contralto takes up the opening ascent"
     },
     {
       "t": 116,
-      "label": "Central appeal · a brighter region",
+      "label": "B · The children’s wish, in D major",
       "m": "B",
-      "mNote": "the score opens into a contrasting D-major passage"
+      "mNote": "Harp arpeggios and a vocal line marked warm"
     },
     {
       "t": 146,
-      "label": "Returning figures · changed perspective",
+      "label": "A′ · The eyes grow distant",
       "m": "A′",
-      "mNote": "earlier melodic fragments recur without a literal stanza repeat"
+      "mNote": "Flute and low strings surround the returning phrases"
     },
     {
       "t": 222,
-      "label": "Orchestral close",
+      "label": "Coda · C minor after the stars",
       "m": "Coda",
-      "mNote": "the voice leaves a short chromatic postlude"
+      "mNote": "A rising harp figure leaves the winds sustaining"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "An unsettled beginning",
-      "text": "The orchestral opening starts with a rising cello phrase and gradually adds other lines. Across the song, listen for motion towards a resting chord that is diverted into another chromatic turn.",
-      "basis": "documented",
+      "kind": "music",
+      "title": "Cellos before the contralto",
+      "text": "The cellos’ upward phrase begins quietly and gathers winds and plucked strings around it. Anderson’s opening words inherit that climb. Mahler writes “Ruhig, nicht schleppend” — calm, without dragging.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Song II, printed pp. 18–32; the opening cello line and chromatic continuation are score facts, not an identification of a chord from the audio."
+      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, p. 18; our translation of Mahler’s marking. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
       "t": 34,
       "kind": "world",
-      "title": "A sonnet about eyes",
-      "text": "Rückert’s poem has two four-line stanzas followed by two three-line stanzas: the shape of a Petrarchan sonnet. Its last image transforms the children’s eyes into stars visible on future nights.",
+      "title": "A look understood too late",
+      "text": "“Doch ahnt’ ich nicht” — yet I did not suspect. Rückert’s parent remembers a brightness in the children’s eyes that now seems like a farewell. The poem is a sonnet, its fourteen lines ending far from the room, among the stars.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-lied-2-nun-seh-ich-wohl-warum-so-dunkle-flammen/ The German text supplies the stanza pattern and final image; no modern English translation is quoted."
+      "evidence": "Rückert, Nun seh’ ich wohl, German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text; our translation. The sonnet form is discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
     },
     {
-      "t": 68,
-      "kind": "listen",
-      "title": "Hear the inner movement",
-      "text": "Listen across the phrases for the strings and winds moving beneath a held vocal note. The singer need not change pitch for the harmony to change; the accompanying lines can shift the ground underneath it.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 18–25. This listening instruction concerns the song’s layered writing, not a timestamped inner-voice event."
-    },
-    {
-      "t": 102,
-      "kind": "life",
-      "title": "Published after the premiere",
-      "text": "C. F. Kahnt publishes the cycle’s full score, orchestral parts and piano-vocal score in 1905, after the January premiere. Mahler’s songs therefore circulate in both orchestral and domestic forms from their first publication.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://www.mahlercat.org.uk/Pages/KtL/KtL.htm Chronology records the August 1905 publications and the 29 January first performance."
-    },
-    {
-      "t": 136,
-      "kind": "listen",
-      "title": "Contrast without a new world",
-      "text": "In the central part, compare the harp’s moving figures with the sustained wind and string lines. The score passes into D major, but the neighbouring-note motives still connect this brighter stretch with the opening.",
+      "t": 116,
+      "kind": "form",
+      "title": "A wish to stay",
+      "text": "Anderson now gives the children their imagined reply: they want to remain close. The harp opens into broad D-major arpeggios, with soft winds above. Mahler’s direction for the voice is simply “warm”.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 26–27. The report shows a renewed rise around 1:55–2:10 followed by a marked withdrawal by 2:25. The D-major region is identified from the score; its first chord is not aligned."
+      "evidence": "Kahnt full score, pp. 26–27, rehearsal 3; Rückert’s third stanza and the vocal marking warm."
     },
     {
-      "t": 170,
-      "kind": "listen",
-      "title": "Return as recollection",
-      "text": "In the later part, listen for earlier melodic fragments rather than a complete repeated stanza. The orchestra can recall a vocal turn after the singer has moved on to different words.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 28–31 contain varied returns of earlier material. No returning note is identified at this timestamp."
-    },
-    {
-      "t": 204,
-      "kind": "world",
-      "title": "A recording, not a premiere",
-      "text": "Marian Anderson sings here with the San Francisco Symphony Orchestra under Pierre Monteux. Commons identifies the session only as 1950; its source is an RCA compact disc, not the original recording carrier.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Commons file description: File:Mahler - Kindertotenlieder, II (Anderson, Monteux, 1950).ogg. The 1950 date is distinct from the 1951 issue catalogued by the University of the Arts Helsinki."
-    },
-    {
-      "t": 226,
-      "kind": "listen",
-      "title": "The orchestra completes the sentence",
-      "text": "The short postlude carries the music beyond the singer’s final phrase. Listen for its falling intensity and the time allowed for the remaining tones to disappear.",
+      "t": 146,
+      "kind": "form",
+      "title": "The stars to come",
+      "text": "The reply ends with fate’s refusal. The flute carries a high, quiet line while viola and cello phrases move below Anderson’s voice. The last stanza turns the children’s eyes into stars shining on future nights.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 32. The report marks 3:42 and drops from −16.8 dB at 3:45 to −38.9 dB at 3:55. The end of the sung line is not bar-aligned."
+      "evidence": "Kahnt full score, pp. 28–31, rehearsal 4 onwards; Rückert’s concluding stanza. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
+    },
+    {
+      "t": 222,
+      "kind": "music",
+      "title": "Winds after Anderson",
+      "text": "The harp rises after the contralto’s final phrase. Its chord takes an unexpected turn into C minor; flutes, clarinets and bassoon sustain while the strings fade. The score’s last instruction is “morendo” — dying away.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Kahnt full score, p. 32; our translation of morendo. Woltjer discusses the final harmonic turn: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
     }
   ],
   "transitions": [
     {
       "id": "central-appeal",
-      "title": "Chromatic motion opens into a brighter region",
-      "from": "Opening argument · dark flames",
-      "to": "Central appeal · a brighter region",
-      "at": {
-        "t": 116
-      },
-      "span": [
-        106,
-        128
-      ],
-      "how": "<p>The opening argument’s chromatic phrases give way to a more clearly defined D-major region in the written score. Harp figures move beneath sustained upper lines, with flutes lending the passage a different colour from the initial low-string phrase. The neighbouring-note motives remain: the contrast comes from their harmonic setting and spacing rather than from an unrelated tune.</p>",
-      "devices": [
-        "orchestration change",
-        "texture change",
-        "motivic link"
-      ],
+      "title": "D major beneath “Leuchten”",
+      "from": "A · A cello phrase becomes speech",
+      "to": "B · The children’s wish, in D major",
+      "at": { "t": 116 },
+      "span": [106, 128],
+      "how": "<p>The voice holds back before “Leuchten” — shining. At <i>Tempo I</i>, the harp opens a D-major arpeggio above plucked D notes in cellos and basses. Flute, clarinet and bassoon sustain, and Anderson’s line broadens under the direction <i>warm</i>.</p>",
+      "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 25–27. The 1:56 novelty peak and subsequent 2:00–2:10 level rise support the approximate central boundary. The timestamp is provisional; written D major is not an audio-derived chord label."
+      "evidence": "Kahnt full score, p. 26, rehearsal 3. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
       "id": "returning-fragments",
-      "title": "Earlier phrases return without a full repeat",
-      "from": "Central appeal · a brighter region",
-      "to": "Returning figures · changed perspective",
-      "at": {
-        "t": 146
-      },
-      "span": [
-        136,
-        158
-      ],
-      "how": "<p>The brighter middle does not close off as an independent song. Its phrase subsides, and earlier melodic fragments reappear in voice and orchestra with different words and altered continuation. Mahler uses the instrumental lines to connect the fragments, so the return is heard as renewed argument rather than a restart of the whole opening.</p>",
-      "devices": [
-        "decrescendo",
-        "motivic link",
-        "link passage"
-      ],
+      "title": "The wish meets its refusal",
+      "from": "B · The children’s wish, in D major",
+      "to": "A′ · The eyes grow distant",
+      "at": { "t": 146 },
+      "span": [136, 158],
+      "how": "<p>D major darkens through A7 into G minor. The flute continues above the words about fate, with soft violas underneath. The cellos put bow to string after their plucked notes; horn and bassoon recall earlier phrases between the vocal sentences.</p>",
+      "devices": ["motivic link", "orchestration change", "link passage"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 27–31. The quiet 2:25 window and renewed 2:30 activity locate this approximate return. This does not align a particular word or melodic note."
+      "evidence": "Kahnt full score, pp. 27–28; Woltjer, song II, harmonic route through bars 44–60. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
     },
     {
       "id": "postlude",
-      "title": "The voice leaves the chromatic continuation",
-      "from": "Returning figures · changed perspective",
-      "to": "Orchestral close",
-      "at": {
-        "t": 222
-      },
-      "span": [
-        212,
-        234
-      ],
-      "how": "<p>After the final vocal phrase, the orchestra continues the harmonic motion with falling lines and a short harp figure. The written close settles into C minor, but Mahler reaches it through chromatic voice-leading rather than a detached closing fanfare. The reduced texture and diminishing sound allow the postlude to finish the sentence begun by the voice.</p>",
-      "devices": [
-        "texture change",
-        "decrescendo",
-        "chromatic slide"
-      ],
+      "title": "The harp turns towards C minor",
+      "from": "A′ · The eyes grow distant",
+      "to": "Coda · C minor after the stars",
+      "at": { "t": 222 },
+      "span": [212, 234],
+      "how": "<p>After the voice, a rising harp figure outlines an A♭ seventh chord over plucked low strings. The expected D♭ resolution turns into C minor. The strings fall away, leaving flutes, clarinets and bassoon to sustain the final chord under <i>morendo</i>.</p>",
+      "devices": ["texture change", "decrescendo", "chromatic slide"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 32. The report’s 3:42 boundary and final decline at 3:45–3:55 locate the close. C minor comes from the written score, not the report’s inconsistent key estimates."
+      "evidence": "Kahnt full score, p. 32; Woltjer, song II, final cadence. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
     }
   ],
   "orchestra": {
@@ -210,7 +155,7 @@ export default {
     "source": {
       "title": "Mahler, Kindertotenlieder, full score (C. F. Kahnt, plate 4460)",
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425",
-      "locator": "Song II, printed pp. 18–32; passage-level scoring, not an instantaneous list of sounding parts. Timings are provisional score proportions checked against the recording’s level changes; no bar alignment or aural verification."
+      "locator": "Song II, printed pp. 18–32: the opening cello melody, D-major harp arpeggios at rehearsal 3 and the final C-minor chord."
     },
     "timeline": [
       {
@@ -221,7 +166,7 @@ export default {
         "lead": [
           "cellos"
         ],
-        "note": "The cello line begins the orchestral prelude; other parts enter within the following bars."
+        "note": "The cellos begin alone with a rising phrase; winds and plucked strings join them."
       },
       {
         "t": 16,
@@ -239,7 +184,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Early vocal passage: strings and selected winds surround the singer with moving inner parts."
+        "note": "Anderson takes up the cellos’ rising melody, surrounded by flute, clarinet and bassoon phrases."
       },
       {
         "t": 116,
@@ -247,6 +192,7 @@ export default {
           "solo-voice",
           "flutes",
           "clarinets",
+          "bassoons",
           "harp",
           "violins-1",
           "violins-2",
@@ -258,7 +204,7 @@ export default {
           "solo-voice",
           "flutes"
         ],
-        "note": "Central passage: harp figures run beneath the vocal line and sustained upper parts."
+        "note": "Harp arpeggios open D major beneath the voice; cellos and basses pluck a low D."
       },
       {
         "t": 146,
@@ -268,15 +214,18 @@ export default {
           "oboes",
           "clarinets",
           "bassoons",
+          "horns",
+          "harp",
           "violins-1",
           "violins-2",
           "violas",
-          "cellos"
+          "cellos",
+          "basses"
         ],
         "lead": [
           "solo-voice"
         ],
-        "note": "Earlier melodic material returns in a changing mixture of wind and string lines."
+        "note": "Flute and violas sustain while bassoon and horn recall short phrases from the opening."
       },
       {
         "t": 222,
@@ -295,7 +244,7 @@ export default {
           "flutes",
           "clarinets"
         ],
-        "note": "The closing instrumental passage passes between wind tones, strings and the harp’s final figure."
+        "note": "The harp rises into C minor; flutes, clarinets and bassoons hold the last chord."
       }
     ]
   }

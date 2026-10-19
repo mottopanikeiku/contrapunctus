@@ -13,42 +13,87 @@ export default {
   recorded: '1 April 2014',
   source: { file: 'File:Maurice Ravel - Gaspard de la nuit - 3. Scarbo.flac' },
   set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 3, of: 3 },
-  intro: 'Repeated notes, abrupt gaps and leaping figures make Scarbo difficult to keep in focus. Andriy Makarevych returns for this finale: the preceding Le Gibet uses OE1FEU’s separate recording, not the same pianist or session.',
-  question: 'How do interruptions change the force of a figure when it returns?',
-  sections: [
-    { t: 0, label: 'Whispered drumming', m: 'A', mNote: 'repeated notes interrupt isolated low gestures' },
-    { t: 36, label: 'The dance takes shape', m: 'B', mNote: 'leaping figures replace the opening hesitations' },
-    { t: 128, label: 'Figures enlarged and reshuffled', m: 'Dev', mNote: 'contrasting gestures accumulate force in successive surges' },
-    { t: 308, label: 'The drumming recalled', m: 'A′', mNote: 'opening repeated-note texture returns in a darker register' },
-    { t: 390, label: 'The dance rebuilt', m: 'B′', mNote: 'earlier moving figures return through changing registers' },
-    { t: 510, label: 'The last large crest', m: 'Dev', mNote: 'the piano sustains its greatest late pressure' },
-    { t: 564, label: 'A vanishing close', m: 'Coda', mNote: 'the force collapses into light final gestures' },
+  "intro": "Scarbo is the creature who scratches at the bed curtains, vanishes and comes back larger than the room. Ravel gives him whispered repeated notes, enormous leaps and silences long enough to make the next sound a shock.",
+  "sections": [
+    { "t": 0, "label": "A · Low notes and whispered drumming", "m": "A", "mNote": "A trembling note answers the low opening figure" },
+    { "t": 36, "label": "B · Leaps across the keyboard", "m": "B", "mNote": "Vif: the two hands spring apart" },
+    { "t": 128, "label": "Dev · Repeated notes and rising chords", "m": "Dev", "mNote": "Short figures return in larger leaps and chords" },
+    { "t": 308, "label": "A′ · The low whisper returns", "m": "A′", "mNote": "The opening drumming descends into the bass" },
+    { "t": 390, "label": "B′ · The dance starts again", "m": "B′", "mNote": "Quick figures emerge from the low repeated notes" },
+    { "t": 510, "label": "Dev · The last assault of chords", "m": "Dev", "mNote": "Leaps and repeated chords fill the keyboard" },
+    { "t": 564, "label": "Coda · The dwarf disappears", "m": "Coda", "mNote": "Quiet repeated chords flicker out without slowing" }
   ],
-  cues: [
-    { t: 0, kind: 'music', title: 'Attack, tremble, wait', text: 'The opening sets an isolated low gesture against very quiet repeated notes. Do not hurry to find a continuous tune: the interruptions and the sound left hanging between attacks are part of the material.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 23: Modéré, low gesture, très fondu, en trémolo and pauses. The report’s first half-minute alternates low-level attacks with sparse or zero-onset windows.' },
-    { t: 36, kind: 'form', title: 'The dance breaks out', text: 'The hesitant opening gives way to leaping, more continuous figures. Listen for the contrast between this moving texture and the whispered drumming; both will remain available for Ravel to interrupt and recombine.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 23–24 move from the opening through En accélérant to Vif. A measured change at 0:36 and higher relative level around 0:35–0:50 anchor the approximate region.' },
-    { t: 72, kind: 'world', title: 'A dwarf in the room', text: 'Bertrand’s Scarbo laughs in the shadow of an alcove, scratches the curtains and spins on one foot. The poem does not supply a literal cue sheet for every piano gesture; it supplies a creature who appears, changes size and disappears.', basis: 'documented', precision: 'passage', evidence: 'The poem printed before Scarbo is the later Scarbo text in Bertrand’s collection, not the earlier poem of the same title: https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Scarbo_2' },
-    { t: 108, kind: 'music', title: 'A sudden loss of weight', text: 'After the early burst, the sound retreats sharply. The interruption makes the next accumulation matter: keep the preceding active figures in memory rather than treating the quiet stretch as a fresh beginning.', basis: 'audio-feature', precision: 'passage', evidence: 'The report falls from −12.9 dB at 1:35 to −31.4 at 1:45, with zero detected onsets at 1:40 and a strong boundary at 1:46. No precise rest length is claimed.' },
-    { t: 144, kind: 'music', title: 'The next surge grows', text: 'The piano regains weight across this passage, reaching a more sustained burst than the preceding retreat. Listen for the way short gestures can accumulate pressure without becoming one long singing melody.', basis: 'audio-feature', precision: 'passage', evidence: 'The 2:08 boundary is followed by a rise from −21.3 dB at 2:05 to −9.5 at 2:35. The cue describes the file’s contour, not a particular chord progression.' },
-    { t: 180, kind: 'life', title: 'Three different dedications', text: 'Ravel dedicates each movement to a different musical colleague: Ondine to Harold Bauer, Le Gibet to Jean Marnold and Scarbo to Rudolph Ganz. These dedications belong to the published score; they are not the personnel of the premiere.', basis: 'documented', precision: 'passage', evidence: 'Dedications printed on Durand pp. 3, 17 and 23; also catalogued at https://imslp.org/wiki/Gaspard_de_la_nuit_(Ravel%2C_Maurice).' },
-    { t: 216, kind: 'listen', title: 'Follow a gesture’s outline', text: 'Choose a short pattern and follow its rhythm and direction, not just its register. Ravel can move a figure across the keyboard, enlarge its intervals or surround it with thicker chords without making it entirely new.', basis: 'general', precision: 'passage', evidence: 'A movement-wide listening task grounded in the recurring repeated-note and leaping figures of Durand pp. 23–42. It does not identify a particular motivic entry at 3:36.' },
-    { t: 252, kind: 'music', title: 'Another crest approaches', text: 'A renewed rise carries the music towards the large surge in the next half-minute. Compare the repeated build-and-retreat pattern with Ondine: here the contrasts are more abrupt, with less continuous surface linking them.', basis: 'audio-feature', precision: 'passage', evidence: 'The report marks a boundary at 4:16 and rises to −7.3 dB at 4:25, with high-level windows through 4:40. The comparison concerns recorded contours, not a claim that the movements share themes.' },
-    { t: 288, kind: 'listen', title: 'Do not mistake a retreat', text: 'The piano gives up some of the recent force, then makes a short renewed attack. Listen beyond each drop in level: a retreat in Scarbo can prepare an interruption rather than a secure ending.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level falls from −8.3 dB at 4:40 to −21.7 at 4:55, rises to −9.9 at 5:00 and falls again by 5:05. The strong 5:08 boundary follows this unstable span.' },
-    { t: 324, kind: 'world', title: 'Larger than the room', text: 'The poem’s dwarf grows until he seems as high as a Gothic cathedral. His body then becomes translucent and pale, like a candle going out. Growth and disappearance are linked in the text, rather than ending with a defeated monster.', basis: 'documented', precision: 'passage', evidence: 'Final two paragraphs of the exact poem reproduced in the score: https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Scarbo_2. This context is not mapped to individual notes.' },
-    { t: 360, kind: 'form', title: 'A darker recollection', text: 'The whispered repeated-note texture has returned in a lower register. It recalls the opening’s discontinuous behaviour, but the later surroundings change its effect: memory of the large intervening surges now sits behind the quiet sound.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 34–35 explicitly reprise the introductory low gesture and repeated-note writing, moving into the bass. The 5:08 change leads to very low-level windows at 5:20–5:45 and a gradual recovery after 5:50; alignment is approximate.' },
-    { t: 396, kind: 'music', title: 'Movement gathers again', text: 'The piano rebuilds an active texture after the quiet recollection. Listen for familiar patterns in a different balance of registers: returning material need not return with its original weight or brightness.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 35–38 restore moving figures after the introductory recall. The report marks changes at 6:30 and 6:44, with increasing brightness and level around 6:35–6:45; no exact thematic downbeat is identified.' },
-    { t: 432, kind: 'listen', title: 'Keep rhythm and register separate', text: 'Try to follow the pulse of the repeated figures while their position on the keyboard changes. What sounds newly brilliant may be an older gesture placed higher, rather than the arrival of an unrelated idea.', basis: 'general', precision: 'passage', evidence: 'General listening task based on the score’s redistribution of repeated-note and leaping figures. The cue makes no pitch, bar or instrumental-entry claim at 7:12.' },
-    { t: 468, kind: 'music', title: 'The surge is interrupted', text: 'A forceful burst gives way to another sharp retreat. Compare the amount of sound before and after it; Scarbo’s momentum repeatedly depends on a sudden reduction as well as on accumulation.', basis: 'audio-feature', precision: 'passage', evidence: 'The report reaches −9.7 dB at 7:35, then drops to −21.6 at 7:45; a measured boundary at 7:42 lies in the retreat.' },
-    { t: 504, kind: 'music', title: 'Build towards the last crest', text: 'The final large accumulation sustains its pressure for longer than the preceding burst. Follow the rise across several phrases, not just the individual attacks: the coming withdrawal will depend on how much weight has been gathered.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level rises from −16.3 dB at 8:10 to −6.7 at 8:40, the loudest five-second window in the report. The span at 8:30–8:45 remains relatively high.' },
-    { t: 540, kind: 'listen', title: 'A crest with aftershocks', text: 'The last great rise does not descend evenly. Listen for the renewed bursts inside the overall retreat, then compare the weight of these attacks with the lighter gestures waiting at the end.', basis: 'audio-feature', precision: 'passage', evidence: 'After −6.7 dB at 8:40, level falls to −18.3 at 9:00 but rises again to −9.1 at 9:10. The 8:54 and 9:24 boundaries bracket the uneven closing retreat.' },
-    { t: 570, kind: 'form', title: 'Vanishing rather than triumph', text: 'Ravel lets the closing gestures become light and brief instead of ending with the preceding weight. The final page says “without slowing”: disappearance need not mean a grand ritardando or a heavy final chord.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 42 ends with ppp repeated sonorities, small final gestures and Sans ralentir. The report falls sharply around 9:24 and remains far below the crest at 9:25–9:35.' },
+  "cues": [
+    {
+      "t": 0, "kind": "music", "title": "Something beneath the bed",
+      "text": "Three low notes rise out of the piano. A quiet repeated note trembles underneath a held chord, then stops. Ravel puts a fermata over the silence and marks it <i>très long</i> — very long.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score (1909), plate D. & F. 7207, p. 23: opening low figure, très fondu, en trémolo, and très long fermata. https://s9.imslp.org/files/imglnks/usimg/6/6a/IMSLP246875-PMLP02576-Ravel,_Maurice-Gaspard_de_la_nuit_Durand_7207_scan.pdf"
+    },
+    {
+      "t": 36, "kind": "form", "title": "The dwarf springs up",
+      "text": "The piano accelerates through rising figures and arrives at <i>Vif</i>. The hands leap apart, pulling bass notes and high chords into the same quick dance. Sudden rests still cut holes in it.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, pp. 23–24: En accélérant, Vif, widely separated hands and rests after the first outburst."
+    },
+    {
+      "t": 72, "kind": "world", "title": "A nail on silk",
+      "text": "Bertrand’s narrator hears Scarbo laughing in his alcove, then “grincer son ongle sur la soie des courtines de mon lit” — “his nail scraping the silk curtains of my bed”. The dwarf spins on one foot and rolls around the room like a witch’s dropped spindle.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Aloysius Bertrand, Scarbo, Gaspard de la nuit, Mercure de France edition (1895), pp. 247–248, second and third paragraphs; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Scarbo_2"
+    },
+    {
+      "t": 180, "kind": "music", "title": "Three notes, enormous hands",
+      "text": "The opening’s little rising figure keeps returning in new octaves. Repeated notes and leaps do much of the work: the pianist must turn tiny shapes into great bursts of chords without losing their sharp edges.",
+      "basis": "general", "precision": "passage",
+      "evidence": "Durand score, pp. 23–42: recurring rising three-note figure, repeated-note writing and octave displacement."
+    },
+    {
+      "t": 308, "kind": "form", "title": "The whisper comes back",
+      "text": "The opening returns with its low three-note figure, held chord and repeated-note tremble. This time the drumming sinks further into the bass. Ravel asks for the soft pedal and leaves the upper piano almost empty.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, pp. 34–35: reprise of the opening, sourdine, low repeated notes and subsequent ppp bass writing."
+    },
+    {
+      "t": 432, "kind": "world", "title": "As high as a cathedral",
+      "text": "The dwarf grows between the narrator and the moon “comme le clocher d’une cathédrale gothique” — “like the tower of a Gothic cathedral”. A little golden bell shakes on his pointed cap. Bertrand lets something absurd become immense.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Bertrand, Scarbo, Mercure de France edition (1895), p. 248, fourth paragraph; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Scarbo_2"
+    },
+    {
+      "t": 564, "kind": "form", "title": "A candle goes out",
+      "text": "The piano retreats into tiny repeated chords and a final dart up the keys. Ravel writes <i>Sans ralentir</i>, without slowing. Bertrand’s last words are “et soudain il s’éteignait” — “and suddenly he went out”, like a candle.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 42: ppp repeated chords and Sans ralentir. Bertrand, Scarbo, final sentence, Mercure de France edition (1895), p. 248; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Scarbo_2"
+    }
   ],
-  transitions: [
-    { id: 'into-dance', title: 'Accelerate out of the interruptions', from: 'Whispered drumming', to: 'The dance takes shape', at: { t: 36 }, span: [24, 52], how: '<p>The isolated opening gesture and repeated-note tremble give way to rising figures marked En accélérant, then Vif. Wider keyboard leaps and more continuous attacks turn the hesitant start into moving dance material. The piano itself supplies the change of scale: no extra players arrive to create the force.</p>', devices: ['tempo change', 'register change', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 23–24; measured boundaries at 0:36 and 0:50 with higher level than the preceding sparse windows. This is a passage estimate, not exact alignment of Vif.' },
-    { id: 'figures-expanded', title: 'Rebuild from the shortened gestures', from: 'The dance takes shape', to: 'Figures enlarged and reshuffled', at: { t: 128 }, span: [108, 154], how: '<p>A reduction in force interrupts the early dance. The next accumulation reuses its short figures, allowing changes of register, spacing and attack to enlarge them. The join is therefore a rebuilding after interruption rather than the continuous presentation of a second long melody.</p>', devices: ['texture change', 'register change', 'crescendo build'], basis: 'audio-feature', precision: 'passage', evidence: 'The 1:46 retreat is followed by a strong boundary at 2:08 and the 2:05–2:35 level rise. The score supplies the short-figure writing; this section does not name an exact harmonic arrival.' },
-    { id: 'drumming-returns', title: 'The opening returns below the crest', from: 'Figures enlarged and reshuffled', to: 'The drumming recalled', at: { t: 308 }, span: [294, 346], how: '<p>Ravel cuts back from forceful figures to the introductory low gesture and whispered repeated notes. Their later placement reaches farther into the bass, while pauses again interrupt the flow. Recognisable material returns, but it now follows a much larger accumulation: the change of register and scale makes the recollection less like a restart.</p>', devices: ['motivic link', 'register change', 'decrescendo', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 34–35 reprise the introduction. A strong 5:08 boundary precedes the low-level, sparse 5:10–5:45 region. The first recalled note is not independently timed.' },
-    { id: 'dance-rebuilt', title: 'Moving figures emerge from the whisper', from: 'The drumming recalled', to: 'The dance rebuilt', at: { t: 390 }, span: [366, 418], how: '<p>The repeated-note background leads back towards moving figures and the earlier dance gestures. Register and the distribution of sustained and moving notes change as the piano gains weight. This is not a literal replay of the first dance: the quiet recall has changed its point of departure, and the fragments rebuild across several phrases.</p>', devices: ['motivic link', 'texture change', 'register change'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 35–38 move from the introductory recall into transformed moving figures. Measured changes at 6:30, 6:44 and 6:58 anchor a broad rebuilding region, not a single thematic entrance.' },
-    { id: 'last-crest', title: 'Keep the accumulation under pressure', from: 'The dance rebuilt', to: 'The last large crest', at: { t: 510 }, span: [490, 534], how: '<p>The later figures accumulate into a sustained high-level span. Wide-ranging piano writing and successive attacks keep the phrase under pressure across the join; there is no intervening silent reset. The crest is a large-scale result of the rebuilding, rather than a separate melody announced at the boundary.</p>', devices: ['crescendo build', 'register change'], basis: 'audio-feature', precision: 'passage', evidence: 'The report rises across 8:10–8:40, with its highest window at 8:40 and high values at 8:30–8:45. No chordal analysis is inferred from those levels.' },
-    { id: 'vanishing-close', title: 'Cut the weight, keep the motion', from: 'The last large crest', to: 'A vanishing close', at: { t: 564 }, span: [550, 578], how: '<p>After the last forceful bursts, the piano sheds its weight and leaves light repeated sonorities and short closing gestures. The score’s Sans ralentir keeps the end from turning into an emphatic slow conclusion. Ravel joins the huge late span to its disappearance by changing density and force, not by adding a triumphant final statement.</p>', devices: ['decrescendo', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 42; the 9:24 measured boundary and fall to −29.9 dB at 9:25 place the withdrawal. The final notes are not aligned individually.' },
+  "transitions": [
+    {
+      "id": "into-dance", "title": "The silence breaks into leaps",
+      "from": "A · Low notes and whispered drumming", "to": "B · Leaps across the keyboard",
+      "at": { t: 36 }, "span": [24, 52],
+      "how": "<p>After the held silences, rising piano figures accelerate. At <i>Vif</i>, the hands spring apart: low notes answer high chords, and a crescendo runs from <i>pp</i> to <i>ff</i>. Two bars of rests interrupt the burst before the moving accompaniment starts again.</p>",
+      "devices": ["tempo change", "register change", "texture change"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score (1909), pp. 23–24: En accélérant, Vif, crescendo and rests."
+    },
+    {
+      "id": "drumming-returns", "title": "The low three notes return",
+      "from": "Dev · Repeated notes and rising chords", "to": "A′ · The low whisper returns",
+      "at": { t: 308 }, "span": [294, 346],
+      "how": "<p>The running figures fall away and the opening’s three low notes return under the soft pedal. The held chord and repeated-note tremble follow them, with another fermata. Ravel then moves the drumming down into the bass at <i>ppp</i>.</p>",
+      "devices": ["motivic link", "register change", "decrescendo", "fermata"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, pp. 34–35: return of the introduction and its descent into the bass."
+    },
+    {
+      "id": "vanishing-close", "title": "The chords become a flicker",
+      "from": "Dev · The last assault of chords", "to": "Coda · The dwarf disappears",
+      "at": { t: 564 }, "span": [550, 578],
+      "how": "<p>The wide arpeggios contract into quiet repeated chords above a low held bass. The pianist moves through short rests and little answering figures, then darts upwards to the last note. <i>Sans ralentir</i> keeps the ending quick.</p>",
+      "devices": ["decrescendo", "texture change", "register change"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 42: ppp repeated chords, low pedal, final short figures and Sans ralentir."
+    }
   ],
 };

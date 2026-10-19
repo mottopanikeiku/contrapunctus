@@ -18,43 +18,33 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme VI. Ysobel.ogg"
   },
-  "intro": "A viola string-crossing exercise becomes a lyrical portrait. The tune’s leaps have a physical source in the movement of a bow from string to string.",
-  "question": "How does a technical exercise become an expressive melody?",
+  "intro": "Elgar gives Isabel Fitton, his viola pupil, a portrait built from a string-crossing exercise. The awkward leap becomes a tender melody for her own instrument.",
   "sections": [
     {
       "t": 0,
-      "label": "VI · A viola exercise transformed",
+      "label": "Var 6 · Isabel’s viola exercise",
       "m": "Var 6",
-      "mNote": "wide intervals connect the exercise with the lyrical line"
+      "mNote": "The bow crosses strings; the phrase opens into song"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "listen",
+      "kind": "music",
       "title": "A bow crosses strings",
-      "text": "The viola’s opening figure crosses between strings. Listen across the variation for the contrast between that separated, leaping motion and the more connected melody that grows from it.",
-      "basis": "general",
+      "text": "The violas’ opening figure dips low and leaps back up across the strings. A long note follows the leap, giving the phrase room to sing. Bassoons and clarinets answer in little fragments while the violas keep returning to their exercise.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 31–34, rehearsal figures 19–22; Elgar describes the opening as an exercise in crossing strings. https://en.wikipedia.org/wiki/Enigma_Variations"
+      "evidence": "Novello full score, pp. 31–34, rehearsal figures 19–22. Elgar identifies the recurring opening phrase as a string-crossing exercise in My Friends Pictured Within, section VI. https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf"
     },
     {
       "t": 30,
-      "kind": "world",
-      "title": "Isabel Fitton’s instrument",
-      "text": "“Ysobel” is Isabel Fitton, an amateur viola player from a Malvern musical family. The chosen instrument belongs to the person being remembered, not merely to a convenient orchestral colour.",
+      "kind": "life",
+      "title": "Isabel brings her viola",
+      "text": "Isabel Fitton belongs to a musical family in Malvern and studies viola with Elgar. Crossing from one string to another is a beginner’s difficulty he knows from teaching. For her portrait he takes that small piece of daily practice and builds an entire Andantino around it.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society identifies Fitton and her instrument. https://elgar.org/3enigma.htm"
-    },
-    {
-      "t": 52,
-      "kind": "music",
-      "title": "The later swell recedes",
-      "text": "After the later swell, the sound diminishes towards the short ending. Keep the viola’s leaping shape in mind while the accompaniment gives back its weight.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report peaks around 0:40–0:45 and drops at 0:50, reaching a low level by 1:00. This supports a closing withdrawal, not a precise solo entry."
+      "evidence": "Elgar, My Friends Pictured Within (Novello), section VI: https://s9.imslp.org/files/imglnks/usimg/0/06/IMSLP339677-SIBLEY1802.27173.6d2a-39087004945996text.pdf. Fitton’s family and viola playing: https://elgar.org/3enigma.htm. Her lessons with Elgar: Max Raimi, Chicago Symphony, 9 July 2025, https://cso.org/experience/article/24910/elgar-and-his-close-circle-of-friends-immorta"
     }
   ],
   "transitions": [],
@@ -82,14 +72,14 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 31–34, rehearsal figures 19–22. Whole-variation passage map; the report’s changes around 0:12, 0:22, 0:40 and 0:50 support the succession from exposed viola to fuller phrases and a quiet close."
+      "locator": "Novello full score, pp. 31–34, rehearsal figures 19–22: Variation VI, Ysobel, with its string-crossing figure and solo viola."
     },
     "timeline": [
-      { "t": 0, "playing": ["clarinets", "bassoons", "trombones", "tuba", "violins-1", "violas", "cellos", "basses"], "lead": ["violas"], "note": "Viola string-crossing is exposed over restrained support; the initial very soft low-brass chord belongs to the link from the preceding variation (p. 31)." },
-      { "t": 12, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violas", "cellos", "basses"], "lead": ["violas", "bassoons"], "note": "Flutes and horns enter the growing phrase; bassoon figures answer the viola’s shape (pp. 31–32)." },
-      { "t": 24, "playing": ["flutes", "clarinets", "bassoons", "horns", "violins-1", "violas", "cellos", "basses"], "lead": ["violas", "cellos"], "note": "The middle phrase keeps the lower string voices exposed, with small wind responses rather than heavy brass (p. 32)." },
-      { "t": 40, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas", "flutes"], "note": "The later swell broadens the string line and adds wind colour around it (p. 33; the report’s strongest span)." },
-      { "t": 50, "playing": ["flutes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas", "clarinets"], "note": "The closing string and wind gestures diminish; horn support remains restrained and the large brass is silent (p. 34)." }
+      { "t": 0, "playing": ["clarinets", "bassoons", "trombones", "tuba", "violins-1", "violas", "cellos", "basses"], "lead": ["violas"], "note": "The violas begin their string-crossing figure as the low-brass chord from the preceding variation dies away (p. 31)." },
+      { "t": 12, "playing": ["flutes", "clarinets", "bassoons", "horns", "violins-1", "violas", "cellos", "basses"], "lead": ["violas", "bassoons"], "note": "Flutes and horns join the phrase, and the viola line becomes a solo. Bassoons answer with small rising figures (pp. 31–32)." },
+      { "t": 24, "playing": ["flutes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas", "cellos"], "note": "The solo viola sings molto cantabile, with clarinet and bassoon replies. Second violins add a few plucked notes (p. 32)." },
+      { "t": 40, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas", "flutes"], "note": "The first violins rise above the viola melody. Oboes join the woodwinds, and a brief timpani roll supports the phrase (p. 33)." },
+      { "t": 50, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas", "clarinets"], "note": "A horn holds a soft note while a solo viola recalls the opening leap. The cellos close with a quiet chord (p. 34)." }
     ]
   }
 };

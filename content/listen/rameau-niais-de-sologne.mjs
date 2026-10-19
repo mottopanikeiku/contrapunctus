@@ -1,0 +1,51 @@
+export default {
+  id: 'rameau-niais-de-sologne',
+  composer: 'rameau',
+  order: 3,
+  work: 'Les Niais de Sologne',
+  movement: 'With the first and second doubles',
+  year: '1724, publication',
+  key: 'D major',
+  forces: 'Solo piano; originally harpsichord',
+  performers: 'Marcelle Meyer, piano',
+  recorded: '29–30 October 1953, Salle Adyar, Paris',
+  source: { file: 'File:Jean-Philippe Rameau - Les Niais de Sologne (Marcelle Meyer, 1953).flac' },
+  intro: 'A plain D-major tune becomes a test for both hands: triplets fill the first variation, and the left hand races through the second. Marcelle Meyer plays Rameau’s sly portrait of the “simpletons of Sologne” on piano.',
+  sections: [
+    { t: 0, label: 'Theme · A plain tune in D', m: 'Theme', mNote: 'An even-moving bass beneath the ornamented melody' },
+    { t: 122, label: 'Var 1 · Triplets in the right hand', m: 'Var 1' },
+    { t: 214, label: 'Var 2 · The left hand races', m: 'Var 2', mNote: 'The right hand keeps the tune above semiquavers' },
+  ],
+  cues: [
+    {
+      t: 0, kind: 'music', title: 'A tune above even quavers',
+      text: 'The right hand sings a short, ornamented tune in D major while the left keeps moving in quavers. Rameau writes <i>Nottes Egales</i>: the notes are to be even, without the long–short swing French players often supplied.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Rameau, Les Niais de Sologne, Gouin edition (2005), p. 1, opening and “Nottes Egales”. Steven Devine explains the marking in his Resonus booklet, p. 4. https://eclassical.textalk.se/shop/17115/art89/4850889-2fc822-RES10131_booklet_300dpi.pdf',
+    },
+    {
+      t: 60, kind: 'world', title: 'The clever simpletons',
+      text: 'The Académie française’s dictionary of 1694 calls a “simpleton of Sologne” a man who pretends to be foolish while making mistakes that profit him. Rameau’s apparently easy tune has two demanding variations waiting behind it.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Dictionnaire de l’Académie française, 1694, “Niais, aise”, under “Nid”: the proverbial niais de Sologne feigns simplicity and errs to his own advantage. https://www.dictionnaire-academie.fr/article/A1N0043-04',
+    },
+    {
+      t: 125, kind: 'form', title: 'Three notes against two',
+      text: 'The first <i>double</i> — a variation — fills the right hand with triplets while the left hand keeps its pairs of quavers. The two hands divide the same beat differently. The tune is still there, tucked into the quicker notes.',
+      basis: 'score-proportion', precision: 'passage',
+      evidence: 'Gouin edition, pp. 3–4, Premier Double des Niais; Steven Devine’s Resonus notes, p. 4, discuss the written triplets against duplets. https://s9.imslp.org/files/imglnks/usimg/d/df/IMSLP132660-WIMA.e0b8-Rameau_Les_Niais.pdf',
+    },
+    {
+      t: 224, kind: 'form', title: 'The left hand races',
+      text: 'In the second double, the right hand restores the plain tune while the left pours out semiquavers. Rameau keeps the melody recognisable above the bustle, turning the accompaniment into the harder part.',
+      basis: 'score-proportion', precision: 'passage',
+      evidence: 'Gouin edition, pp. 5–7, Second Double des Niais. Mahan Esfahani describes the continuing right-hand tune and virtuoso left-hand writing in his Hyperion notes. https://www.hyperion-records.co.uk/dw.asp?dc=W15934_68071&vw=dc',
+    },
+    {
+      t: 280, kind: 'world', title: 'Meyer at Salle Adyar',
+      text: 'Marcelle Meyer records Rameau’s keyboard music in the Salle Adyar in Paris on 29 and 30 October 1953. Les Discophiles Français issues the collection as DF 98/99. The harpsichord’s little character pieces have a concert pianist’s hands.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Commons identifies the venue, dates, pianist and DF 98/99 source; the Marcelle Meyer chronology lists the same October sessions and issue. https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_(Marcelle_Meyer,_1953).flac ; https://classical-pianists.net/viii/marcelle-meyer/chronology/',
+    },
+  ],
+};

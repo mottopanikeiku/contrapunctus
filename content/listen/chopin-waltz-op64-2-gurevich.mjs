@@ -13,85 +13,45 @@ export default {
   "source": {
     "file": "File:Chopin - Waltz No. 7 in C-sharp minor, Op. 64 No. 2 (Olga Gurevich).flac"
   },
-  "intro": "Olga Gurevich’s Musopen recording is the modern timeline reference for this waltz comparison. Its approximate 2014 dating and performer attribution are documented by Commons; no exact session or instrument is supplied. The complete recording provides an uncut stream against which the historical files can be located cautiously.",
-  "question": "How do song and revolving motion share the waltz’s time?",
+  "intro": "Olga Gurevich plays a waltz with three distinct voices: a sighing C♯ minor melody, quick descending quavers and a slower song in D♭ major. The running tune keeps coming back between the others.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening waltz",
-      "m": "A"
-    },
-    {
-      "t": 42,
-      "label": "Quicker figure",
-      "m": "B"
-    },
-    {
-      "t": 76,
-      "label": "Central contrast",
-      "m": "C"
-    },
-    {
-      "t": 114,
-      "label": "Continuing central span",
-      "m": "D"
-    },
-    {
-      "t": 164,
-      "label": "Later return region",
-      "m": "E"
-    },
-    {
-      "t": 192,
-      "label": "Closing span",
-      "m": "F"
-    }
+    { "t": 0, "label": "A · Held notes and small flourishes", "m": "A", "mNote": "Tempo giusto: a chordal melody above the waltz bass" },
+    { "t": 42, "label": "B · Descending quavers", "m": "B", "mNote": "Più mosso sends the right hand running" },
+    { "t": 76, "label": "C · A song in D♭ major", "m": "C", "mNote": "Più lento broadens the melody" },
+    { "t": 114, "label": "D · Song and returning quavers", "m": "D", "mNote": "The long melody leads back towards C♯ minor" },
+    { "t": 164, "label": "E · The chordal melody again", "m": "E", "mNote": "Long notes return between the right hand’s flourishes" },
+    { "t": 192, "label": "F · The last running refrain", "m": "F", "mNote": "Descending quavers carry the waltz towards its close" }
   ],
   "cues": [
     {
-      "t": 0,
-      "kind": "world",
-      "title": "A modern reference",
-      "text": "Musopen explicitly dedicated this performance to the public domain. The approximate date is not an upload date pressed into service as a session date.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._7_in_C-sharp_minor,_Op._64_No._2_(Olga_Gurevich).flac"
+      "t": 0, "kind": "music", "title": "Held notes, then a curl",
+      "text": "Two notes sound together in the right hand and hang across the bar line. A small, quick curl answers them. Below, the left hand keeps leaping from a bass note to two chords. Chopin marks this opening <i>Tempo giusto</i>.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, opening Tempo giusto; engraving by Knute Snortum (2023), p. 1. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     },
     {
-      "t": 55,
-      "kind": "listen",
-      "title": "An early crest",
-      "text": "The highest average five-second level occurs in this early contrasting span. Compare the return later in the performance: similar material need not receive identical recorded weight.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-gurevich.txt: highest level55 seconds; another high window160 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 42, "kind": "form", "title": "Quavers take over",
+      "text": "<i>Più mosso</i>: more movement. The right hand runs down in chains of quavers while the left keeps the bass-and-two-chords pattern. This is the waltz’s recurring tune; it will return after each of the broader melodies.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, first Più mosso, pp. 1–2; its returns appear on pp. 3 and 5. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     },
     {
-      "t": 76,
-      "kind": "listen",
-      "title": "The central turn",
-      "text": "The strongest pair of measured changes lies around 1:16–1:20. Follow the shape of the longer phrase across the turn rather than listening only for a new speed.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-gurevich.txt: largest novelty76 seconds and near-maximum80 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 76, "kind": "form", "title": "Five flats on the page",
+      "text": "Four sharps become five flats: D♭ major, the bright twin of C♯ minor on the keyboard. The marking is <i>Più lento</i>, slower. Long melody notes open out above chords that carry their own little answering lines.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, Più lento, pp. 2–3: D♭ major key signature and sustained melody. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     },
     {
-      "t": 164,
-      "kind": "listen",
-      "title": "A late renewed swell",
-      "text": "Another prominent change coincides with the later high-level region. Its position gives a useful landmark for comparing how the older pianists distribute time.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-gurevich.txt: novelty164 seconds; high level windows160–165 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 164, "kind": "world", "title": "After school in Baku",
+      "text": "As a girl in Baku, Gurevich goes from ordinary school to music school: piano lessons, solfège, music history and choir. At seventeen she moves to Moscow to study at the Gnesin Academy. New York becomes her home in 1998, where she performs and teaches.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Childhood and Gnesin training: https://www.bsmny.org/team/olga-gurevich-2/. Move to New York: https://www.musiciansclubofny.org/biographies/olgagurevich"
     },
     {
-      "t": 192,
-      "kind": "listen",
-      "title": "The closing region",
-      "text": "A later measured boundary precedes the final quiet tail. The tail contributes to the file’s duration but should not be treated as a phrase-length or tempo measurement.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-gurevich.txt: novelty192 seconds; quiet final windows225–230 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 192, "kind": "form", "title": "One last descent",
+      "text": "The running refrain gets the last word. Its quavers fall, climb back up and fall again; the left hand continues its three-beat tread beneath them. The waltz closes in C♯ minor.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, final Più mosso and C♯ minor cadence, p. 5. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     }
   ]
 };

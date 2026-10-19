@@ -1,82 +1,82 @@
 {
   "id": "chopin-nocturne-op15-2",
-  "title": "Chopin’s nocturne, five recorded perspectives",
+  "title": "A song with a racing heart",
   "composer": "chopin",
-  "work": "Nocturne in F-sharp major, Op. 15 No. 2",
-  "question": "How do the older pianists and two modern recordings distribute time between song, contrast and return?",
-  "intro": "The comparison places d’Albert’s 1916 recording beside Paderewski’s 1917 and 1937 accounts, then Luke Faulkner and Patrizia Prati’s modern recordings. Paderewski’s 1909 essay describes rubato as expressive flexibility, not time that must always be repaid mechanically within a bar. Prati’s live Madrid performance is dated 24 November 2015; Faulkner’s recording date is not established. Recorded amplitude and piano colour reflect different transfer chains and should not be mistaken for direct measurements of touch.",
+  "work": "Nocturne in F♯ major, Op. 15 No. 2",
+  "question": "How much can the hushed, quick middle change the song that returns?",
+  "intro": "The F♯-major melody lingers over its ornaments, then the middle begins to hurry under its breath. Chopin asks for twice the motion, <i>doppio movimento</i>, while keeping the opening of that passage <i>sotto voce</i>. Paderewski’s accounts, separated by twenty years, sit beside Liszt’s pupil d’Albert and the younger pianists Faulkner and Prati.",
   "group": "golden-age",
   "recordings": [
     {
       "listen": "chopin-nocturne-op15-2-dalbert",
       "label": "Eugen d’Albert, 1916",
       "year": 1916,
-      "note": "Historical alternative: compare how the central contrast develops rather than treating the acoustic tone as his unmediated touch."
+      "note": "Kempff remembered d’Albert making a single A♯ seem to tremble like a human voice."
     },
     {
       "listen": "chopin-nocturne-op15-2-paderewski",
-      "label": "Paderewski, 1917",
+      "label": "Ignacy Jan Paderewski, 1917",
       "year": 1917,
-      "note": "Earlier Paderewski; automatic correspondence requires caution in locally uncertain passages."
+      "note": "In his Victor recordings, Paderewski often spreads chords and lets the two hands enter at different moments."
     },
     {
       "listen": "chopin-nocturne-op15-2-paderewski-1937",
-      "label": "Paderewski, 1937",
+      "label": "Ignacy Jan Paderewski, 1937",
       "year": 1937,
-      "note": "The same pianist two decades later; the highest recorded five-second level lies around 2:05."
+      "note": "The pianist who defended stolen time returns to the nocturne twenty years after his New York recording."
     },
     {
       "listen": "chopin-nocturne-op15-2",
       "label": "Luke Faulkner",
       "year": null,
-      "note": "Modern timeline reference; its session date is not established, and an upload date is not substituted."
+      "note": "Faulkner studied piano and composition at Chetham’s, then trained in music for the screen at Edinburgh."
     },
     {
       "listen": "chopin-nocturne-op15-2-prati-2015",
-      "label": "Patrizia Prati, 2015 (live)",
+      "label": "Patrizia Prati, 2015",
       "year": 2015,
-      "note": "Museum of Romanticism, Madrid; high-level windows cluster around the central contrast."
+      "note": "A pupil of Aldo Ciccolini and András Schiff, Prati recorded this nocturne at Madrid’s Museum of Romanticism."
     }
   ],
   "reference": "chopin-nocturne-op15-2",
   "passages": [
     {
-      "label": "Opening cantabile",
+      "label": "A sustained song",
       "t": 5,
-      "note": "Compare the long line above the accompaniment; source noise and equalisation make direct tonal comparisons less secure than timing."
+      "note": "The right hand threads little flourishes through a sustained melody; evenly spaced bass notes and chords hold the phrase beneath it."
     },
     {
-      "label": "Towards the central change",
+      "label": "Before the quickening",
       "t": 74,
-      "note": "A strong measured change occurs here in Faulkner; listen across the transition rather than treating its timestamp as a verified bar line."
+      "note": "The F♯-minor phrase falls from its high notes, its little runs marked <i>dolcissimo</i> — very sweetly."
     },
     {
-      "label": "The strongest contrast",
+      "label": "Twice the motion",
       "t": 86,
-      "note": "The reference analysis places its largest change at 1:26. Compare the phrase’s continuation through the contrast."
+      "note": "A dotted tune rides above quick notes in the same hand. The bass leaps beneath it, and the opening is hushed."
     },
     {
-      "label": "Recorded crest",
+      "label": "The middle gathers force",
       "t": 110,
-      "note": "Faulkner’s highest five-second level window occurs here; this is a relative measurement within his recording, not calibrated loudness across pianists."
+      "note": "The dotted rhythm grows insistent and the piano gathers force, bringing the restless middle to its climax."
     },
     {
-      "label": "Quieter return region",
+      "label": "A breath before the return",
       "t": 128,
-      "note": "A measured change accompanies a quieter region. Follow the return of the singing line rather than comparing whole-file durations."
+      "note": "The repeated figure slows and dies away. A pause leaves space for the opening melody to return."
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons — recording file",
+      "title": "Paderewski — London recording, 30 January 1937",
       "url": "https://commons.wikimedia.org/wiki/File:Ignacy_Jan_Paderewski_-_Nocturne_in_F-sharp_major,_Op._15,_No._2_(Chopin)_-_Hmv-db3711-2ea4573.ogg"
     },
     {
-      "title": "Paderewski — Tempo Rubato(1909)",
+      "title": "Paderewski — Tempo Rubato (1909)",
       "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/"
     },
     {
-      "title": "Wikimedia Commons — recording file",
+      "title": "Prati — museum recording, 24 November 2015",
       "url": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg"
     },
     {
@@ -86,6 +86,34 @@
     {
       "title": "Paderewski 1917 recording dossier",
       "url": "../sources.html#dossier-chopin-nocturne-op15-2-paderewski"
+    },
+    {
+      "title": "Mieczysław Tomaszewski — F♯ minor, the quick middle and the return",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/173"
+    },
+    {
+      "title": "Chopin — Op. 15 No. 2, Breitkopf & Härtel first edition",
+      "url": "https://chopinscores.org/partytura/86"
+    },
+    {
+      "title": "Mark Mitchell and Allan Evans — d’Albert’s Liszt studies and Kempff’s recollection",
+      "url": "https://arbiterrecords.org/catalog/eugen-d-albert-the-centaur-pianist/"
+    },
+    {
+      "title": "Jonathan Woolf — Paderewski’s playing and Victor session dates",
+      "url": "https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm"
+    },
+    {
+      "title": "Luke Faulkner — piano and composition studies",
+      "url": "https://www.lukefaulkner.com/about"
+    },
+    {
+      "title": "Patrizia Prati — teachers and museum recordings",
+      "url": "https://patriziaprati.com/cv"
+    },
+    {
+      "title": "Rubén Ojeda — Prati’s museum session, recorded without an audience",
+      "url": "https://diff.wikimedia.org/es/2016/02/14/la-musica-del-romanticismo-suena-en-wikipedia/"
     }
   ],
   "alignment": {

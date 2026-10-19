@@ -1,46 +1,54 @@
 export default {
-  id: 'rameau-la-poule',
-  composer: 'rameau',
-  order: 2,
-  work: 'La Poule',
-  movement: '',
-  year: 'c. 1728, publication',
-  key: 'G minor',
-  forces: 'Solo piano; originally harpsichord',
-  performers: 'Marcelle Meyer, piano',
-  recorded: '29–30 October 1953; Salle Adyar, Paris (Commons attribution)',
-  source: { file: 'File:Jean-Philippe Rameau - La Poule (Marcelle Meyer, 1953).flac' },
-  intro: 'A hen’s repeated clucking becomes a keyboard figure that can change harmony, register and weight. Marcelle Meyer plays Rameau’s harpsichord piece on piano, keeping the repeated attack at the centre of the argument.',
-  question: 'How much can Rameau build from a repeated note?',
-
-  sections: [
-    { t: 0, label: 'First strain · the repeated-note figure', m: 'A', mNote: 'clucking figure grows into chords and running passages' },
-    { t: 94, label: 'Second strain · the figure renewed', m: 'A′', mNote: 'related repeated-note material begins from a different tonal position' },
-    { t: 166, label: 'Closing drive', m: 'Coda', mNote: 'repeated attacks and descending runs gather towards the close' },
+  "id": "rameau-la-poule",
+  "composer": "rameau",
+  "order": 2,
+  "work": "La Poule",
+  "movement": "",
+  "year": "c. 1728, publication",
+  "key": "G minor",
+  "forces": "Solo piano; originally harpsichord",
+  "performers": "Marcelle Meyer, piano",
+  "recorded": "29–30 October 1953, Salle Adyar, Paris",
+  "source": { "file": "File:Jean-Philippe Rameau - La Poule (Marcelle Meyer, 1953).flac" },
+  "intro": "A hen’s clucking grows into repeated chords and running passages in Rameau’s <i>La Poule</i>, played here by Marcelle Meyer on piano. The bird starts on a single G.",
+  "sections": [
+    { "t": 0, "label": "A · The hen clucks on G", "m": "A", "mNote": "Repeated Gs grow into chords and quick runs" },
+    { "t": 94, "label": "A′ · The clucking starts again on D", "m": "A′", "mNote": "The repeated-note figure begins the second half in D minor" },
+    { "t": 166, "label": "Coda · Runs descend into G minor", "m": "Coda", "mNote": "The bass runs down beneath the final chord" }
   ],
-  cues: [
-    { t: 0, kind: 'music', title: 'A hen in notation', text: 'Rameau writes the hen’s “co co co” beneath repeated notes at the opening. The little rising flourish attached to the repeated pitch becomes part of the musical vocabulary: listen for the difference between reiterating one note and suddenly opening out into a run.', basis: 'general', precision: 'passage', evidence: 'The inspected keyboard score prints the syllables beneath the opening and repeatedly combines reiteration with flourishes. This describes the written figure, not a machine-identified animal sound. Score scan, printed pp. 86–89: https://archive.org/download/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe/Rameau_-_nouvelles_suite.pdf' },
-    { t: 30, kind: 'world', title: 'Character inside a suite', text: '<i>La Poule</i> belongs to the G-centred group in the <i>Nouvelles Suites de pièces de clavecin</i>. Dances and character pieces share the collection: the title supplies an image, while key and keyboard technique connect it to its neighbours.', basis: 'documented', precision: 'passage', evidence: 'The score places La Poule after the menuets and before Les Triolets; the collection’s G-major/minor grouping is also described at https://en.wikipedia.org/wiki/Jean-Philippe_Rameau#Harpsichord_music' },
-    { t: 60, kind: 'listen', title: 'One note acquires weight', text: 'Across the piece, the repeated figure appears both as an exposed line and inside thicker chords. Keep hold of its rhythm when the surrounding harmony changes; a new weight of attack need not mean a new idea.', basis: 'general', precision: 'passage', evidence: 'Printed pp. 86–89 show the single-note figure, repeated chordal writing and fort/doux contrasts. The report’s sharp level change between 1:00 and 1:05 supports local contrast but does not identify the exact chord or a pedal technique.' },
-    { t: 90, kind: 'life', title: 'Theory before the theatre', text: 'Rameau publishes his <i>Traité de l’harmonie</i> in 1722, before his operatic career begins. His first opera, <i>Hippolyte et Aricie</i>, reaches the Paris Opéra in 1733, shortly after his fiftieth birthday.', basis: 'documented', precision: 'passage', evidence: 'Dates and career order agree with the existing Rameau biography and the documented biography at https://en.wikipedia.org/wiki/Jean-Philippe_Rameau#Life' },
-    { t: 120, kind: 'music', title: 'Repetition changes its surroundings', text: 'In the second strain, familiar repeated notes coexist with decorated upper lines and changing bass support. Listen below the clucking figure: the bass can redirect the phrase even while the surface rhythm remains recognisable.', basis: 'score-proportion', precision: 'passage', evidence: 'The second strain begins near the end of printed p. 87 and continues on pp. 88–89. Its approximate placement after the strong 1:34 boundary is consistent with the report; the local D-minor estimates are corroboration only, not individual chord labels.' },
-    { t: 150, kind: 'world', title: 'Meyer’s twentieth-century keyboard', text: 'This is Marcelle Meyer at the piano, recorded at Salle Adyar in Paris on 29–30 October 1953 according to the source and discography. Rameau’s original instrument is the harpsichord; Meyer’s piano changes the available sustain and dynamic weight.', basis: 'documented', precision: 'passage', evidence: 'Commons names the session and DF 98/99; Classical Pianists chronology, entry MaMe-C#015, gives the same date and venue. The 22 August 2019 Commons Date field is the upload date. https://classical-pianists.net/viii/marcelle-meyer/chronology/' },
-    { t: 178, kind: 'listen', title: 'Let the last attacks settle', text: 'Towards the close, separate repeated attacks give way to the final resonance. Keep listening after the last forceful gesture: the remaining sound is not another repetition of the figure.', basis: 'audio-feature', precision: 'passage', evidence: 'The report’s onset density falls from 3.4 attacks/s at 2:55 to 1.6 at 3:00 and zero at 3:05; relative level reaches −46.5 dB at 3:05. This identifies the closing withdrawal, not an exact release.' },
+  "cues": [
+    { "t": 0, "kind": "music", "title": "A hen on one G", "text": "The right hand repeats G, then flicks upwards. Rameau prints “co co co co co” beneath the opening notes. The left hand joins the clucking, and the little flourish begins to climb higher.", "basis": "score-proportion", "precision": "passage", "evidence": "Rameau, La Poule, in Nouvelles Suites de pièces de clavecin (c. 1728), Saint-Saëns edition (Durand, 1895), p. 86: repeated Gs and the printed clucking syllables. https://archive.org/download/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe/Rameau_-_nouvelles_suite.pdf" },
+    { "t": 30, "kind": "world", "title": "Meyer at Salle Adyar", "text": "Paris, October 1953: Marcelle Meyer records Rameau’s three harpsichord books at Salle Adyar, playing them on the piano. <i>La Poule</i> belongs to the third book, alongside dances, <i>Les Sauvages</i> and <i>L’Enharmonique</i>.", "basis": "documented", "precision": "passage", "evidence": "Classical Pianists chronology, Marcelle Meyer, session MaMe-C#015, lists the Rameau recordings on 29–30 October 1953 at Salle Adyar: https://classical-pianists.net/viii/marcelle-meyer/chronology/. The Nouvelles Suites score gives the contents of the third book." },
+    { "t": 60, "kind": "music", "title": "One note becomes a chord", "text": "The repeated-note figure keeps acquiring companions. Sometimes one line clucks alone; elsewhere both hands repeat chords beneath a longer upper note. Rameau marks exchanges of <i>fort</i> and <i>doux</i> — loud and soft — across the piece.", "basis": "general", "precision": "passage", "evidence": "Saint-Saëns edition, pp. 86–89: single-note figures, repeated chords, held upper notes and fort/doux markings." },
+    { "t": 94, "kind": "form", "title": "The hen starts on D", "text": "The second half begins with the clucking figure on D, after a cadence in D minor. The same quick upward flick sets off another stretch of repeated notes and runs, now working back towards G minor.", "basis": "score-proportion", "precision": "passage", "evidence": "Saint-Saëns edition, pp. 87–89: D minor cadence and double bar, repeated Ds at the start of the second half, then the eventual G minor close." },
+    { "t": 166, "kind": "music", "title": "The bass makes its descent", "text": "Near the end, repeated notes trade places between the hands while quick runs sweep across them. The last G minor chord stays above a descending bass run, which carries the piano down to a low G.", "basis": "score-proportion", "precision": "passage", "evidence": "Saint-Saëns edition, p. 89, final systems: exchanges of repeated notes and runs, then a held G minor chord over the descending bass." }
   ],
-  transitions: [
+  "transitions": [
     {
-      id: 'into-second-strain', title: 'The repeated note starts another argument',
-      from: 'First strain', to: 'Second strain', at: { t: 94 }, span: [82, 108],
-      how: '<p>The first strain closes in D minor; the second takes up the repeated-note idea from that tonal position instead of immediately restoring the opening G minor. The recognisable attack pattern binds the strains together while renewed passagework creates the route back towards the home key.</p>',
-      devices: ['perfect cadence', 'motivic link'], basis: 'score-proportion', precision: 'passage',
-      evidence: 'Printed p. 87 ends the first strain with a D-minor cadence and double bar before renewed repeated notes. The report’s strongest boundary is 1:34, following an A-centred span and preceding D-minor estimates; the join is provisionally placed, not bar-aligned.',
+      "id": "into-second-strain",
+      "title": "D minor starts another round",
+      "from": "A · The hen clucks on G",
+      "to": "A′ · The clucking starts again on D",
+      "at": { "t": 94 },
+      "span": [82, 108],
+      "how": "<p>The first half closes in D minor, with the bass running down beneath the held chord. After the double bar, the right hand alone repeats D and adds the familiar upward flick. The left hand re-enters as the figure climbs.</p>",
+      "devices": ["perfect cadence", "motivic link"],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Saint-Saëns edition, pp. 87–88: D minor cadence, double bar, repeated Ds and renewed accompaniment. https://archive.org/download/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe/Rameau_-_nouvelles_suite.pdf"
     },
     {
-      id: 'into-closing-drive', title: 'Repetition gathers into the ending',
-      from: 'Second strain', to: 'Closing drive', at: { t: 166 }, span: [154, 183],
-      how: '<p>Near the end, the repeated-note figure passes through different registers while short flourishes expand into descending runs. The final G-minor cadence draws these gestures together. This closing span continues existing material rather than introducing a contrasting tune.</p>',
-      devices: ['register change', 'motivic link', 'perfect cadence'], basis: 'score-proportion', precision: 'passage',
-      evidence: 'Printed p. 89 supplies the alternating registers, runs and G-minor close. The 2:46 measured boundary follows a stronger 2:40–2:45 span; 2:46 labels an approximate closing region, not a single notated cadence.',
-    },
-  ],
+      "id": "into-closing-drive",
+      "title": "Clucking and runs converge on G",
+      "from": "A′ · The clucking starts again on D",
+      "to": "Coda · Runs descend into G minor",
+      "at": { "t": 166 },
+      "span": [154, 183],
+      "how": "<p>The piano exchanges repeated notes between high and low parts, with quick runs crossing them. The final phrase settles into G minor. Its upper chord holds while the bass runs down to G.</p>",
+      "devices": ["register change", "motivic link", "perfect cadence"],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Saint-Saëns edition, p. 89, final systems: repeated-note exchanges, G minor cadence and descending bass. https://archive.org/download/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe/Rameau_-_nouvelles_suite.pdf"
+    }
+  ]
 };

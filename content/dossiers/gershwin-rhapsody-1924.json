@@ -1,0 +1,209 @@
+{
+  "id": "gershwin-rhapsody-1924",
+  "work": {
+    "title": "Rhapsody in Blue",
+    "catalogue": "",
+    "movement": "1924 abridged recording — both original sides",
+    "version": {
+      "value": "Gershwin’s 1924 acoustic recording with Paul Whiteman’s band, in Ferde Grofé’s original jazz-band orchestration; abridged for two sides of Victor 55225",
+      "status": "documented",
+      "sourceIds": ["archive", "registry", "bolig", "schiff"],
+      "note": "The selected source supplies a single, already-joined MP3 of both parts. Contrapunctus has not joined separate 78 sides. It is the complete issued abridgement, not an uncut performance of the score. Schiff’s Table 1 distinguishes these recording cuts from the cuts in the solo-piano arrangement. The three listening sections group the introduction, the faster dances, and the broad melody with its piano continuation and finale; their starts are passage-level editorial estimates, without bar alignment or aural review. The source does not identify the score or parts used at the session."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "George Gershwin", "role": "piano" },
+      { "name": "Paul Whiteman Concert Orchestra", "role": "jazz band" },
+      { "name": "Paul Whiteman", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "loc-part-1", "loc-part-2", "bolig"],
+    "note": "The Library of Congress credits Gershwin as pianist and Whiteman as leader. Farrington’s essay additionally identifies Ross Gorman’s clarinet and Henry Busse’s trumpet. No complete session personnel list is asserted."
+  },
+  "session": {
+    "date": {
+      "value": "1924-06-10",
+      "status": "documented",
+      "sourceIds": ["loc-part-1", "loc-part-2", "bolig", "registry"],
+      "note": "Recording date of both Victor sides; separate from the September release and the modern upload.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York, United States",
+      "status": "documented",
+      "sourceIds": ["loc-part-1", "loc-part-2", "bolig"],
+      "note": "City is documented. A particular Victor studio address or room has not been established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor, blue label",
+      "status": "documented",
+      "sourceIds": ["label-image", "registry", "bolig"],
+      "note": "Original commercial issue. The image accompanying the selected transfer shows the blue Victor label, but its relationship to the physical copy digitised is unknown."
+    },
+    "catalogue": {
+      "value": "55225-A / 55225-B",
+      "status": "documented",
+      "sourceIds": ["label-image", "loc-part-1", "loc-part-2", "bolig", "advertisement"],
+      "note": "Two sides of one 12-inch disc. Bolig dates publication to 5 September 1924; the same day’s Chicago Tribune advertisement lists both parts under 55225, price $1.50, beneath the heading ‘Out today’."
+    },
+    "matrixTakeSides": {
+      "value": "Part 1: C-30174, take 1; Part 2: C-30173, take 2",
+      "status": "disputed",
+      "sourceIds": ["loc-part-1", "loc-part-2", "bolig", "registry"],
+      "note": "The side-specific Library of Congress catalogue records and Bolig’s discography agree on these matrix/take assignments, which are preferred here. Farrington’s essay reverses the issued take numbers in its final paragraph. The selected upload supplies no runout photographs or transfer log, so its particular pressing and stampers remain unidentified.",
+      "alternatives": [
+        { "value": "Part 1: C-30174, take 1; Part 2: C-30173, take 2", "sourceIds": ["loc-part-1", "loc-part-2", "bolig"] },
+        { "value": "Part 1: take 2; Part 2: take 1", "sourceIds": ["registry"] }
+      ]
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "Internet Archive identifies an uploader but gives no disc-transfer or restoration credit. The uploaded filename resembles a video title; that alone does not establish a transfer engineer or source chain before this upload."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item was added on 18 March 2024. This is an upload date, not an established digitisation or restoration date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive-files"],
+      "note": "The archive lists the single MP3 as an original upload, with format ‘VBR MP3’. Playback equipment, stylus, speed, equalisation, noise reduction, pitch correction, and the method used to join the two sides are undocumented. No additional audio editing was performed for the Hall."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/1st-recording-of-rhapsody-in-blue-paul-whiteman-orch.-george-gershwin-piano-1924-version/1st%20RECORDING%20OF_%20Rhapsody%20In%20Blue%20-%20Paul%20Whiteman%20Orch.%20%26%20George%20Gershwin%20piano%20(1924%20version).mp3",
+    "sourceChain": ["archive", "archive-files"],
+    "format": "Single MP3 upload of the two-sided acoustic disc recording; listed by Internet Archive as VBR MP3",
+    "durationSeconds": 545.71
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain in the United States: Gershwin’s 1924 composition and Grofé’s original 1924 jazz-band setting",
+      "status": "documented",
+      "sourceIds": ["imslp", "copyright-office"],
+      "note": "IMSLP identifies first publication of the two-piano score in 1924 and explicitly distinguishes the US-public-domain 1924 jazz-band setting from the later 1942 symphonic orchestration. This assessment is confined to the original version heard here. Grofé’s orchestrations remain protected in many other countries; no worldwide clearance or permission for modern editions is asserted."
+    },
+    "recording": {
+      "value": "Territorial United States public domain from 1 January 2025, on the documented published-1924 basis",
+      "status": "inferred",
+      "sourceIds": ["advertisement", "bolig", "us-term", "archive"],
+      "note": "Victor 55225 was commercially published on 5 September 1924. Under 17 USC 1401(a)(2)(A) and (B)(ii), the 95-year period plus five-year transition ended on 31 December 2024. The archive supplies no Creative Commons licence. This is a statutory US term assessment of the historical recording, not a worldwide licence; no independent creative restoration claim is documented in the upload."
+    },
+    "creditLine": "George Gershwin, Rhapsody in Blue; George Gershwin, piano; Paul Whiteman Concert Orchestra, Paul Whiteman; orchestration by Ferde Grofé. Recorded New York, 10 June 1924; Victor 55225, issued 5 September 1924. Single joined transfer supplied by Internet Archive; transfer engineer unknown. Territorial US public-domain basis.",
+    "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Paul Whiteman: Rhapsody in Blue (1924), selected joined transfer",
+      "url": "https://archive.org/metadata/1st-recording-of-rhapsody-in-blue-paul-whiteman-orch.-george-gershwin-piano-1924-version/metadata",
+      "locator": "Description identifies the original Victor recording of 10 June 1924 with Gershwin at the piano; addeddate is 18 March 2024. No licenceurl or transfer credit is supplied.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — selected MP3 file metadata",
+      "url": "https://archive.org/metadata/1st-recording-of-rhapsody-in-blue-paul-whiteman-orch.-george-gershwin-piano-1924-version/files",
+      "locator": "1st RECORDING OF_ Rhapsody In Blue - Paul Whiteman Orch. & George Gershwin piano (1924 version).mp3; original upload, VBR MP3, length 545.71 seconds, SHA-1 a64d998ecba1406d744d163248764fca0ce1567a.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "label-image",
+      "title": "Victor 55225-A label image accompanying the selected upload",
+      "url": "https://archive.org/download/1st-recording-of-rhapsody-in-blue-paul-whiteman-orch.-george-gershwin-piano-1924-version/OIP.jpg",
+      "locator": "Blue label: Rhapsody in Blue—Part 1; arranged by Ferdie Grofé; Paul Whiteman and His Concert Orchestra; ‘The Composer at the piano’; 55225-A. Physical-copy identity is not established.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "loc-part-1",
+      "title": "Library of Congress National Jukebox — Rhapsody in blue, part 1",
+      "url": "https://www.loc.gov/item/jukebox-70342/?fo=json",
+      "locator": "Victor 55225; C-30174, take 1; 10 June 1924; New York; Gershwin, Whiteman, Grofé and Paul Whiteman Concert Orchestra. This catalogue is a reference source, not the source of the selected MP3.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "loc-part-2",
+      "title": "Library of Congress National Jukebox — Rhapsody in blue, part 2",
+      "url": "https://www.loc.gov/item/jukebox-70335/?fo=json",
+      "locator": "Victor 55225; C-30173, take 2; 10 June 1924; New York. This catalogue is a reference source, not the source of the selected MP3.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "bolig",
+      "title": "John R. Bolig — The Victor Discography: Green, Blue, and Purple Labels",
+      "url": "https://adp-assets.library.ucsb.edu/BoligGreenBluePurple.pdf",
+      "locator": "Printed p. 174: Victor 55225 Parts 1 and 2, matrices C-30174-1 and C-30173-2; recorded 10 June 1924, New York; issued 5 September 1924. First edition 2006; UCSB eBook edition 2023.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "advertisement",
+      "title": "Victor Records advertisement — Chicago Tribune, 5 September 1924, p. 17",
+      "url": "https://commons.wikimedia.org/wiki/File:Victor_Records_ad,_Sept_5,_1924_in_Chicago_Tribune.jpg",
+      "locator": "Image inspected: ‘Out today’, both parts of Rhapsody in Blue, Paul Whiteman and His Concert Orchestra, catalogue 55225, price $1.50; accompanying text identifies the composer at the piano. The image’s source identifies the newspaper date and page.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "registry",
+      "title": "Jim Farrington — Rhapsody in Blue, National Recording Registry essay",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/RhapsodyInBlue.pdf",
+      "locator": "pp. 1–2: première, orchestration, original acoustic record, roughly one-third cut, Ross Gorman’s clarinet and Henry Busse’s trumpet. p. 3 reverses the issued take numbers given by the side-specific catalogues and Bolig; that discrepancy is preserved above. The essay rejects unsupported million-selling claims.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "schiff",
+      "title": "David Schiff — Gershwin: Rhapsody in Blue, Cambridge University Press excerpt",
+      "url": "https://assets.cambridge.org/97805215/59539/excerpt/9780521559539_excerpt.pdf",
+      "locator": "Printed pp. 4–10 inspected as page images. Table 1, pp. 7–9, distinguishes themes, cadenzas and the 1924 recording’s cuts (column G); p. 9 identifies the E-major melody. The table uses the later miniature score’s bar numbering as its reference, not a bar alignment to this recording.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Rhapsody in Blue work and rights information",
+      "url": "https://imslp.org/wiki/Rhapsody_in_Blue_(Gershwin,_George)",
+      "locator": "General Information: 1924 composition and two-piano publication; original jazz-band instrumentation; US-public-domain status of the 1924 and 1926 Grofé settings; restrictions on later orchestration and in other territories.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "copyright-office",
+      "title": "US Copyright Office — The Lifecycle of Copyright: 1924 Works Enter the Public Domain",
+      "url": "https://blogs.loc.gov/copyright/2020/02/the-lifecycle-of-copyright-1924-works-enter-the-public-domain/",
+      "locator": "20 February 2020: publication-based US composition term; expressly distinguishes the longer protection of historical sound recordings.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "us-term",
+      "title": "17 USC 1401 — Unauthorized use of pre-1972 sound recordings",
+      "url": "https://www.law.cornell.edu/uscode/text/17/1401",
+      "locator": "Subsection (a)(2)(A) and (B)(ii): 95 years from publication plus five years for recordings first published in 1923–1946.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "estate",
+      "title": "The Gershwin estate — Rhapsody in Blue",
+      "url": "https://gershwin.com/publications/rhapsody-in-blue/",
+      "locator": "Première on 12 February 1924, Aeolian Hall, with Gershwin at the piano and Paul Whiteman’s orchestra; Ross Gorman’s clarinet.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-analysis",
+      "title": "Rhapsody in Blue — work analysis and tonal plan",
+      "url": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue",
+      "locator": "Form and analysis: B-flat opening and ending, train theme at rehearsal 9, varied piano styles. Sales claims elsewhere on this page are not adopted.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

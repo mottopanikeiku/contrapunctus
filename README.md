@@ -1,6 +1,6 @@
 # Contrapunctus
 
-An illustrated atlas of Western art music, from Bach to the present: composer portraits with technical listening notes, playable score examples, the origins of the forms, and the paintings and poems that share their world.
+An illustrated atlas of Western art music, from plainchant to the present: a concert you can walk through, sixty-six composers’ lives told from letters and memoirs, the scores lighting up as the recordings play, and the paintings and poems that shared their world.
 
 **Site:** https://mottopanikeiku.github.io/contrapunctus/
 
@@ -50,36 +50,47 @@ not estimates of every visitor’s experience.
 
 ## The Concert Hall
 
-A continuous concert from Gregorian chant, Hildegard and Machaut to Stravinsky, Bartók and Shostakovich: 379 recordings (about 38 hours, mostly complete works) streamed from Wikimedia Commons, in order of the composers' births. The music keeps playing as you move through the site (one persistent player, a gilded now-playing bar, pause any time).
+One continuous concert, from Gregorian chant, Hildegard and Machaut to Copland and Shostakovich: 340 recordings in the order the composers were born, about 41½ hours of music, streamed from Wikimedia Commons and the Internet Archive. Another 64 recordings (historical takes, comparisons) sit outside the running order, for 404 in all. One player follows you through the site.
 
-- **Views of the music**: the engraved **score** lighting up bar by bar (Bach, Beethoven 5, Schubert, Satie; LilyPond engraving aligned to the recording), a gold **note-roll** by voice, the **orchestra** on its stage with each section glowing as its part sounds, the piece's **form** as an arc diagram joining every return of its material, and the live **sound** (spectrogram, keyboard, pitch wheel, key-aware note names). Press F to let any view fill the hall.
-- **Notes timed to the recording**, each with *How we know* (score-aligned, measured, documented or general), and **the joins**: 224 dissected transitions between sections, appearing as gilded cards as the music reaches them, marked ◆ on the timeline.
-- **This recording**: a provenance dossier for each recording (documented / inferred / disputed, alternatives, sources, how to cite).
+- **Evenings**: eight curated programmes (a first evening, Paris 1888–1913, Vienna, the composers playing their own music, late at night, the first recordings, a night at the opera, the New World). An evening plays its tracks in order and stops.
+- **Shareable moments**: `hall.html#<id>` opens a recording, `#<id>&t=<seconds>` a moment within it, `#programme-<id>` an evening. *Link to this moment* copies the address.
+- **Views of the music**: the engraved score lighting up bar by bar where an aligned score exists, a note-roll by voice, the orchestra on its stage, the form as an arc diagram, and the live sound (spectrogram, keyboard, pitch wheel). F fills the hall with any view.
+- **Notes as it plays**: 2,389 timed notes, written from the score and from documents (letters, premières, recording sessions), each with *How we know*, and 1,176 dissected joins between sections, marked ◆ on the timeline.
+- **This recording**: a provenance dossier for every recording (documented / inferred / disputed, alternatives, sources, how to cite).
+
+## Composers and works
+
+- **66 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès, with Rossini, Bizet, Florence Price, Gershwin, Copland and Cage among the newest. Each life is built from scenes and the composer’s own words; most quote letters, diaries or memoirs.
+- Each page: the life with margin notes, how the music works (harmony, line, rhythm, orchestration, form), a listening path through the works, playable engraved score examples, sister arts (public-domain paintings, prints and poems with new translations), recordings to own and lineage.
+- **168 work pages** (`works/<composer>-<work>.html`) gather every recording of a piece, with its notes and joins and a button to play from the beginning.
+- **Where to hear it**: for 23 composers, hand-picked recordings on official channels (label pages, the artist’s or label’s own YouTube and Spotify uploads, verified through oEmbed). For composers the Hall cannot host, such as Messiaen, Britten or Saariaho, this is where their music lives on the site; for the rest it adds performances the public domain cannot supply.
 
 ## The Web of Influence
 
-264 sourced connections between the 60 composers and 115 painters, poets, philosophers, teachers and traditions, laid out across four centuries. Touch a portrait to light what flowed in and out; open a connection for the claim, its evidence status and sources, the two passages engraved side by side and playable, or the painting beside the music. Seven motif threads (Dies irae, B–A–C–H, the Tristan chord, the lament bass, La Folia, the Ode to Joy, Frère Jacques) can be traced as one golden path through time.
+287 sourced connections between the 66 composers and 124 painters, poets, teachers, performers and traditions, laid out across four centuries. Touch a portrait to light what flowed in and out; open a connection for the story, its evidence status and sources, the two passages engraved side by side and playable, or the painting beside the music. Seven motif threads (Dies irae, B–A–C–H, the Tristan chord, the lament bass, La Folia, the Ode to Joy, Frère Jacques) can be traced as one golden path through time.
 
 ## Compare performers
 
-31 comparisons of the same music in different hands: composers playing their own works (Rachmaninoff 1919/1921/1928, Grieg 1903, Ravel conducting Boléro), Nikisch's 1913 Beethoven 5, Paderewski, de Pachmann, Cortot, Caruso and Chaliapin across the acoustic and electrical eras. One transport switches performer at the same musical moment (chroma alignment, `tools/compare.py`), with tempo maps and documented notes.
+31 comparisons of the same music in different hands: composers playing their own works (Rachmaninoff 1919/1921/1928, Grieg 1903, Ravel conducting Boléro), Nikisch’s 1913 Beethoven 5, Paderewski, de Pachmann, Cortot, Caruso and Chaliapin across the acoustic and electrical eras. One transport switches performer at the same musical moment (chroma alignment, `tools/compare.py`), with tempo maps and notes.
 
 ## The Map
 
-1,366 sourced places in the lives of all 60 composers on an engraved map of Europe (with a New York inset), animated year by year from 1680 to 1990: residences, journeys, premieres and who was in which city at the same time, with each place linked to its recordings.
+1,447 sourced places in the lives of all 66 composers on an engraved map of Europe (with a New York inset), animated year by year from 1680 to 1990: homes, journeys, premières, and who was in which city at the same time, each place linked to its recordings.
 
 ## Guided journeys
 
-Six narrated journeys (Vienna 1900, the Dies irae, how the symphony grew, Paris 1900–1913, the recorded century, Rachmaninoff in exile) that play continuously through the concert's recordings while paintings, scores, map moments and influence evidence appear station by station.
+Six narrated journeys (Vienna 1900, the Dies irae, how the symphony grew, Paris 1900–1913, the recorded century, Rachmaninoff in exile) that play continuously through the concert’s recordings while paintings, scores, map moments and influence evidence appear station by station.
 
-## What's inside
+## Also inside
 
-- **60 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès.
-- Each page: a life with margin notes, a technical anatomy of the style (harmony, line, rhythm, orchestration, form), a listening path through the works, **playable engraved score examples**, sister arts (public-domain paintings, prints and poems with new translations), recordings and lineage.
-- **Before Bach** — the origins: Pythagoras's ratios, chant, Guido's staff, organum, the ars nova, Renaissance polyphony, the violin family, the birth of opera, figured bass. Includes an interactive harmonic series.
-- **A modern textbook**: numbered chapters and figures, key ideas, questions to take away, further reading (verified bibliographies for every composer, era and topic), citation in Chicago and BibTeX, a 120-term **glossary** with popovers and “hear it” moments, **Sources & method** with downloadable recording data, the **Return Lab** (a passage beside its return), and search (press /).
-- **The Workshop** — eighteen lessons from species counterpoint to spectralism, with a tuning laboratory that plays pure and tempered intervals.
-- **Lifelines** — every lifespan on one axis against history and the other arts; **Sister Arts** — every image hung salon-style.
+- **Before Bach**: Pythagoras’s ratios, chant, Guido’s staff, organum, the ars nova, Renaissance polyphony, the violin family, the birth of opera, figured bass, with an interactive harmonic series.
+- **The Workshop**: eighteen lessons from species counterpoint to spectralism, with a tuning laboratory that plays pure and tempered intervals.
+- **Reference**: verified further reading for every composer, era and topic; citation in Chicago and BibTeX (folded away at the foot of each page); a 120-term glossary with popovers and “hear it” moments; **Sources & method** with downloadable recording data; the **Return Lab** (a passage beside its return); search (press /); an **About** page.
+- **Lifelines**: every lifespan on one axis against history and the other arts. **Sister Arts**: every image hung salon-style.
+
+## House style
+
+`AUTHORING.md` sets the voice: scenes, sounds you can point to in the score, people speaking in their own words. No machine language (decibels, “relative level”, analysis reports), no defensive hedging, no instructions to the listener. `tools/validate.mjs` enforces the checkable parts; every quotation and fact traces to a source in the cue’s `evidence` or in `content/plan/research/prose/<slug>.md`, and each rewritten page carries an independent fact-check section there.
 
 ## Structure
 
@@ -88,14 +99,17 @@ Six narrated journeys (Vienna 1900, the Dies irae, how the symphony grew, Paris 
 | `content/composers/*.mjs` | One file per composer (life, sound, works, score examples in ABC, sister arts, recordings, lineage) |
 | `content/eras/*.mjs` | The seven chapters |
 | `content/pages/*.mjs` | Long-form pages: Origins, Workshop |
-| `content/site.mjs` | Home page copy, hero slides, timeline events |
+| `content/site.mjs` | Home page copy, hero slides, timeline events, About page |
+| `content/programmes.mjs` | The Hall’s curated evenings |
+| `content/elsewhere/*.json` | Where to hear it: official recordings on other services |
+| `content/plan/research/prose/*.md` | Source ledgers for every rewritten page, with independent fact-check sections |
 | `src/build.mjs` | Static generator and final asset optimisation → `docs/` |
 | `src/assets/{js,css,vendor}/` | Canonical readable browser sources; edit these, never the minified copies in `docs/assets/` |
 | `tools/optimize/` | Responsive pictures, cached AVIF/WOFF2 generation, minification, critical CSS and revisioned service-worker generation |
 | `tools/art.mjs` | Wikimedia Commons search / check / fetch (images re-encoded to WebP) |
-| `tools/validate.mjs` | Schema, links, ABC notation and image checks for content files |
+| `tools/validate.mjs` | Schema, links, ABC notation, image and house-style checks for content files |
 | `content/listen/*.mjs` | One file per recording: metadata, formal sections and timed cues (see `LISTENING.md`) |
-| `tools/audio.mjs`, `tools/analyze.py` | Find Commons recordings; analyse them (librosa) for cue timing |
+| `tools/audio.mjs`, `tools/analyze.py` | Find Commons and Internet Archive recordings; analyse them (librosa) to help place section boundaries |
 | `tools/barcheck.mjs` | Checks every bar of every score example against its time signature |
 | `content/influence/*.json` | The Web of Influence: edges, figures, threads (validated by `tools/validate-influence.mjs`) |
 | `content/glossary.mjs`, `content/bibliography/*.json` | Glossary and further reading |

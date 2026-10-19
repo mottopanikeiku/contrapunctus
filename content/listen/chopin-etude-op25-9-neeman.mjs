@@ -13,66 +13,31 @@ export default {
   "source": {
     "file": "File:Chopin - 12 Études, Op. 25 - No. 9 in G-Flat major 'Butterfly Wings' (Edward Neeman).flac"
   },
-  "intro": "Edward Neeman’s Musopen recording provides a modern public-domain counterpart to d’Albert and Cortot. Commons gives an approximate 2014 date, not a precisely documented session. The complete short étude is used here; Cortot’s comparison passage begins after the Black Keys Étude on his unedited source side.",
-  "question": "Where does Neeman place the weight inside the flying figure?",
+  "intro": "Chopin’s <i>Butterfly</i> Étude packs its flight into little groups of four notes: a spring, then two clipped octaves. Edward Neeman plays this quick G♭-major study for Musopen.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening figure",
-      "m": "A"
-    },
-    {
-      "t": 22,
-      "label": "Early contrast",
-      "m": "B"
-    },
-    {
-      "t": 32,
-      "label": "Central drive",
-      "m": "C"
-    },
-    {
-      "t": 48,
-      "label": "Final turn",
-      "m": "D"
-    }
+    { "t": 0, "label": "A · Springing octaves", "m": "A", "mNote": "Four semiquavers to each beat, with sharply different touches" },
+    { "t": 22, "label": "B · Octaves over jumping bass", "m": "B", "mNote": "The left hand jumps between bass notes and chords" },
+    { "t": 32, "label": "C · The four-note figure continues", "m": "C", "mNote": "Slurred pairs and detached octaves keep changing places" },
+    { "t": 48, "label": "D · Last flights in G♭", "m": "D", "mNote": "The right hand flies high above G♭-major chords" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "world",
-      "title": "A modern open recording",
-      "text": "Musopen dedicated this recording to the public domain. The performer is identified as Edward Neeman, but the source does not establish a specific piano, venue or exact session date.",
+      "kind": "music",
+      "title": "Four notes, two touches",
+      "text": "Each beat has four semiquavers. The first two are joined under a slur; the next two are detached octaves. Underneath, the left hand jumps from a single bass note to a chord. Chopin marks the whole contraption <i>leggiero</i> — light.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Breitkopf & Härtel first edition, opening bars: Allegro assai, leggiero, four-note right-hand groups and leaping left-hand quavers. Chopin Institute digital score: https://chopinscores.org/partytura/194"
+    },
+    {
+      "t": 32,
+      "kind": "life",
+      "title": "Neeman at the ballet",
+      "text": "Edward Neeman also works at the ballet piano. In 2014 he accompanies American Ballet Theatre on its Japanese tour. His other keyboard partnership is the Neeman Piano Duo, with his wife Stephanie.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_(Edward_Neeman).flac"
-    },
-    {
-      "t": 22,
-      "kind": "listen",
-      "title": "A brief contrast",
-      "text": "The analysis registers a clear change here in the short span. Compare the figure’s continuity across it with the historical recordings rather than assuming every strong change is a new tempo.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-etude-op25-9-neeman.txt: novelty22 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
-    },
-    {
-      "t": 40,
-      "kind": "listen",
-      "title": "The recorded crest",
-      "text": "This recording’s highest five-second level window lies around 0:40. Its crest is distributed across the preceding central span, not merely the final chord.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-etude-op25-9-neeman.txt: highest level40 seconds; other high windows35, 30, 20, 15 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
-    },
-    {
-      "t": 48,
-      "kind": "listen",
-      "title": "The final turn",
-      "text": "The strongest measured change falls here. The last part grows quieter before the remaining resonance dies away; the trailing silence is not extra music.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-etude-op25-9-neeman.txt: maximum novelty48 seconds; very low level65 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Australian National University biography of Edward Neeman documents the 2014 ballet tour and his duo with Stephanie Neeman: https://music.cass.anu.edu.au/people/dr-edward-neeman"
     }
   ]
 };

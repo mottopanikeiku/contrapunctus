@@ -13,71 +13,38 @@ export default {
   "source": {
     "file": "File:PDP-CH - Walter Morse Rummel, piano - Waltz in C-sharp minor, Op. 64, No. 2 - Chopin - Gramophone-68063-2218ge9.flac"
   },
-  "intro": "Walter Morse Rummel recorded this waltz on18 January 1943; the Public Domain Project identifies its Gramophone issue and first release in the same year. The recording venue is not established. Its extended running time is a starting point for comparison, not proof that every phrase moves more slowly.",
-  "question": "Where does Rummel spend the extra time?",
+  "intro": "Walter Morse Rummel, a pianist closely associated with Debussy, records Chopin’s C♯ minor Waltz in January 1943. The piece moves between a chordal melody, a running refrain and a slower D♭ major song.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening waltz",
-      "m": "A"
-    },
-    {
-      "t": 66,
-      "label": "First large contrast",
-      "m": "B"
-    },
-    {
-      "t": 144,
-      "label": "Central span",
-      "m": "C"
-    },
-    {
-      "t": 184,
-      "label": "Late return region",
-      "m": "D"
-    },
-    {
-      "t": 220,
-      "label": "Closing contrast",
-      "m": "E"
-    }
+    { "t": 0, "label": "A · The chordal opening melody", "m": "A", "mNote": "Long notes alternate with little right-hand flourishes" },
+    { "t": 66, "label": "B · Quavers over the waltz bass", "m": "B", "mNote": "The right hand moves in quick descending phrases" },
+    { "t": 144, "label": "C · Song and running replies", "m": "C", "mNote": "Longer phrases alternate with the descending tune" },
+    { "t": 184, "label": "D · The opening melody returns", "m": "D", "mNote": "Paired notes and short flourishes return in C♯ minor" },
+    { "t": 220, "label": "E · The final running tune", "m": "E", "mNote": "Più mosso leads towards the last C♯ minor chords" }
   ],
   "cues": [
     {
-      "t": 0,
-      "kind": "world",
-      "title": "A dated wartime disc",
-      "text": "The source identifies the18 January 1943 session and a 1943 release. It does not identify the venue, so the date should not be turned into an invented wartime scene around the pianist.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Walter_Morse_Rummel,_piano_-_Waltz_in_C-sharp_minor,_Op._64,_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac"
+      "t": 0, "kind": "music", "title": "Two voices in one hand",
+      "text": "Chopin writes the opening melody in paired notes, with one voice sustained beneath the other. Little flourishes loosen the line; the bass keeps its waltz pattern. The first change of pace, <i>Più mosso</i>, will send the upper voice running down in quavers.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, opening Tempo giusto and first Più mosso; Knute Snortum engraving (2023), p. 1. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     },
     {
-      "t": 66,
-      "kind": "listen",
-      "title": "A strong early contrast",
-      "text": "The analysis detects a prominent change here, followed by quieter recorded sound around 1:15. Compare the phrase’s shape with the corresponding passage, not just the total file length.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-rummel-1943.txt: novelty66 seconds; quiet window75 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 66, "kind": "world", "title": "An invitation from Paderewski",
+      "text": "On his way to Paris in 1908, Rummel meets Paderewski in Switzerland. Paderewski likes his compositions and invites him to stay for a year as a pupil. Rummel turns him down and continues to Paris, where he meets Debussy.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Rummel’s move to Paris, encounter with Paderewski and subsequent association with Debussy: https://en.wikipedia.org/wiki/Walter_Morse_Rummel"
     },
     {
-      "t": 120,
-      "kind": "listen",
-      "title": "The recorded crest",
-      "text": "The highest five-second average level falls around 2:00. Other strong windows are widely separated, making this a series of swells rather than one steady build.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-rummel-1943.txt: highest level120 seconds; other high windows40, 30, 240, 130 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 144, "kind": "world", "title": "Bach on Rummel’s piano",
+      "text": "Rummel’s piano also carries music written for other instruments and for voices. He arranges organ works by Bach and Vivaldi, and fills four books with piano versions of movements from Bach’s cantatas. Several singing parts must live under ten fingers.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Rummel’s editions and transcriptions: https://en.wikipedia.org/wiki/Walter_Morse_Rummel"
     },
     {
-      "t": 220,
-      "kind": "listen",
-      "title": "The largest late change",
-      "text": "The strongest measured change occurs here, followed by another large one at 3:52. The ending must be heard as several turns, not as a single continuous slowing.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-rummel-1943.txt: maximum novelty220 seconds; second-strongest232 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 220, "kind": "form", "title": "The refrain comes home",
+      "text": "The quicker tune closes the waltz in C♯ minor. Its slurred quavers keep descending across the bass’s three beats, with upward runs resetting the phrase. The final right-hand leap and left-hand chord bring both hands to rest.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, final Più mosso and cadence, p. 5. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     }
   ]
 };

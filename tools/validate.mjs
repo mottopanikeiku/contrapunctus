@@ -27,6 +27,46 @@ const warn = (f, m) => console.log(`warn  ${f}: ${m}`);
 const nonempty = (v) => typeof v === 'string' && !!v.trim();
 const webUrl = (v) => { try { return ['http:', 'https:'].includes(new URL(v).protocol); } catch { return false; } };
 
+// ---------------------------------------------------------------- house style (AUTHORING.md)
+// Reader-facing prose only: notation, file names, URLs, identifiers, sources and poem originals are skipped.
+const PROSE_SKIP = new Set(['abc', 'file', 'url', 'href', 'id', 'slug', 'focus', 'accent', 'glyph', 'kind', 'basis', 'precision', 'status', 'era', 'numeral', 'devices', 'stream', 'page', 'license', 'licenseUrl', 'locator', 'sources', 'source', 'rights', 'reading', 'orchestra', 'lang', 'original', 'translation', 'frame', 'checked', 'archive', 'composer', 'listen', 'alignment', 'aka']);
+const MACHINE = [
+  /[−-]?\d+(?:\.\d+)?\s?dB\b/, /\bdB\b/, /\bdecibels?\b/i, /\brelative level\b/i, /\b(?:the |recorded )level (?:rises|falls|drops|jumps|stays|climbs|sinks|dips)\b/i,
+  /\bloudest windows?\b/i, /\bfive-second\b/i, /\bthe report\b/i, /\banalysis (?:shows|places|detects|finds|suggests|report)\b/i, /\bkey estimate/i,
+  /\bcache\//, /\bnovelty (?:peak|curve)\b/i, /\b(?:at|confidence(?: of)?) 0\.\d\d\b/, /\bWikipedia (?:hears|says|calls|describes|notes)\b/i,
+  /\baccording to the [^.]{0,60}?\bnotes?\b/i,
+];
+const HEDGE = [/\bneed not\b/i, /\bnot evidence (?:of|for)\b/i, /\bis not evidence\b/i, /\bnot a documented\b/i, /\beditorial comparison\b/i, /\bdoes not (?:claim|establish|identify|imply|assert)\b/i, /\bis claimed\b/i, /\bnot a measurement\b/i];
+const INSTRUCT = /(?:^\s*|[.!?:;]\s+|—\s*)(?:Listen|Follow|Compare|Notice|Keep|Track|Watch|Try|Stay|Hear|Imagine)\b|[,;:]\s+(?:listen|follow|notice|watch|try) (?:for|to|out|how|the|one)\b/g;
+// An imperative inside a quotation belongs to the person quoted (Couperin's “Keep the wrists level”).
+const quoted = (s, i) => (s.slice(0, i).match(/“/g)?.length ?? 0) > (s.slice(0, i).match(/”/g)?.length ?? 0);
+const instruction = (s) => [...s.matchAll(INSTRUCT)].find((m) => !quoted(s, m.index + m[0].length));
+const NEGATION = /\brather than\b|[,;—]\s*not (?:a|an|the|as|in|by|to|only|merely|simply|just|one|every)\b|\bnot (?:only|merely|simply|just) [^.]{1,80}? but\b/gi;
+const stripTags = (s) => s.replace(/<[^>]+>/g, ' ').replace(/\[\[[^\]|]+\|([^\]]+)\]\]/g, '$1').replace(/\[\[([^\]]+)\]\]/g, '$1');
+function proseOf(v, key = '', out = { prose: [], evidence: [] }) {
+  if (typeof v === 'string') { if (/[a-z]{3}\s+[a-z]/i.test(v)) (key === 'evidence' ? out.evidence : out.prose).push(stripTags(v)); }
+  else if (Array.isArray(v)) v.forEach((x) => proseOf(x, key, out));
+  else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (!PROSE_SKIP.has(k)) proseOf(x, k, out);
+  return out;
+}
+function houseStyle(f, mod, { instruct = false } = {}) {
+  const { prose, evidence } = proseOf(mod);
+  const snippet = (s, re) => { const m = s.match(re); const i = Math.max(0, (m?.index ?? 0) - 40); return `“…${s.slice(i, i + 110).trim()}…”`; };
+  for (const s of [...prose, ...evidence]) {
+    const machine = MACHINE.find((re) => re.test(s)), hedge = HEDGE.find((re) => re.test(s));
+    if (machine) err(f, `house style: machine language ${snippet(s, machine)}`);
+    if (hedge) err(f, `house style: defensive hedging ${snippet(s, hedge)}`);
+  }
+  if (instruct) for (const s of prose) { const m = instruction(s); if (m) err(f, `house style: instruction to the listener “…${s.slice(Math.max(0, m.index - 40), m.index + 70).trim()}…”`); }
+  const all = prose.join('\n');
+  const words = all.split(/\s+/).filter(Boolean).length;
+  const negations = [...all.matchAll(NEGATION)].length;
+  const allowed = Math.max(1, Math.floor(words / 250));
+  if (negations > allowed) err(f, `house style: ${negations} contrasts by negation (“rather than”, “, not a …”) in ${words} words; at most ${allowed}`);
+  const listener = [...all.matchAll(/\bthe listener\b/gi)].length;
+  if (listener) warn(f, `house style: “the listener” ×${listener}`);
+}
+
 function validateBibliography(f, b) {
   if (!b || typeof b !== 'object' || Array.isArray(b)) { err(f, 'bibliography must be an object'); return; }
   if (path.basename(f, '.json') !== b.id) err(f, 'bibliography file name must equal id');
@@ -106,6 +146,7 @@ for (const f of files) {
       field(mod.rights?.composition, 'rights.composition'); field(mod.rights?.recording, 'rights.recording');
       if (!mod.rights?.creditLine) err(f, 'rights.creditLine missing');
       if (!(mod.sources ?? []).length) err(f, 'no sources');
+      if (/[\w.-]+@[\w-]+\.[a-z]{2,}/i.test(JSON.stringify(mod))) err(f, 'contains an email address; name the institution, not a person’s account');
       for (const s of mod.sources ?? []) if (!s.id || !s.url || !s.accessed) err(f, `source ${s.id ?? '?'} needs id, url, accessed`);
     }
     if (f.includes('/relations/')) {
@@ -116,6 +157,7 @@ for (const f of files) {
         if (!r.label || !r.basis || !['provisional', 'reviewed'].includes(r.status)) err(f, `relation "${r.label}" needs label, basis, status`);
       }
     }
+    if (/\/(journeys|compare|returnlab|influence)\//.test(f)) houseStyle(f, mod, { instruct: /\/(journeys|compare)\//.test(f) });
     console.log(`${bad ? '' : 'ok    '}${f}`);
     continue;
   }
@@ -124,10 +166,12 @@ for (const f of files) {
   if (path.basename(f) === 'glossary.mjs') {
     const before = bad;
     await validateGlossary(f, mod);
+    houseStyle(f, mod);
     if (bad === before) console.log(`ok    ${f}: ${mod.length} glossary entries`);
     continue;
   }
   const text = JSON.stringify(mod);
+  houseStyle(f, mod, { instruct: /\/(listen|composers|eras|pages)\/|precursors\.mjs$/.test(f) });
   const isComposer = f.includes('/composers/');
 
   if (isComposer) {
@@ -188,9 +232,10 @@ for (const f of files) {
         }
         if (c.bar && (typeof c.bar.n !== 'string' || !c.bar.occ)) err(f, `cue "${c.title}": bar must be { n: '12', occ: 1 }`);
       }
-      const kinds = new Set(['music', 'form', 'listen', 'life', 'world']);
+      const kinds = new Set(['music', 'form', 'life', 'world']);
       for (const c of cues) {
-        if (!kinds.has(c.kind)) err(f, `bad cue kind ${c.kind}`);
+        if (c.kind === 'listen') err(f, `cue "${c.title}": kind "listen" is retired; say what happens (music/form)`);
+        else if (!kinds.has(c.kind)) err(f, `bad cue kind ${c.kind}`);
         if (!c.title || !c.text) err(f, `cue at ${c.t} needs title and text`);
         const words = (c.text ?? '').split(/\s+/).length;
         if (words > 58) err(f, `cue at ${c.t} has ${words} words (max 55)`);
@@ -221,17 +266,15 @@ for (const f of files) {
         if (tr.at?.t != null && (tr.at.t < 0 || tr.at.t > dur)) err(f, `transition ${name}: at.t outside recording`);
         if (tr.at?.bar && tr.basis !== 'score-aligned') err(f, `transition ${name}: bar anchors require basis score-aligned`);
         const words = (tr.how ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
-        if (!words || words > 115) err(f, `transition ${name}: how must be 1–110 words (has ${words})`);
+        if (!words || words > 90) err(f, `transition ${name}: how must be 1–80 words (has ${words})`);
         for (const dv of tr.devices ?? []) if (!DEVICES.has(dv)) err(f, `transition ${name}: unknown device "${dv}"`);
         if (!(tr.devices ?? []).length) err(f, `transition ${name}: needs at least one device`);
         if (!BASES.has(tr.basis) || !['moment', 'passage'].includes(tr.precision) || !tr.evidence) err(f, `transition ${name}: needs basis, precision, evidence`);
         if (tr.precision === 'moment' && !['score-aligned', 'audio-feature'].includes(tr.basis)) err(f, `transition ${name}: moment precision needs score-aligned or audio-feature basis`);
       }
-      const gaps = cues.slice(1).map((c, i) => c.t - cues[i].t);
-      const maxGap = Math.max(0, ...gaps, dur - (cues.at(-1)?.t ?? 0));
-      if (maxGap > 75) warn(f, `longest stretch without a cue: ${Math.round(maxGap)} s`);
-      const lw = cues.filter((c) => c.kind === 'life' || c.kind === 'world').length;
-      if (lw < 3) warn(f, `only ${lw} life/world cues`);
+      const maxNotes = Math.max(3, Math.ceil(dur / 45));
+      if (cues.length > maxNotes) err(f, `${cues.length} notes for ${Math.round(dur)} s; at most ${maxNotes} (one per 45 s of music)`);
+      if (!cues.length) err(f, 'no notes');
     }
   }
 
@@ -241,7 +284,7 @@ for (const f of files) {
     if (!ok) err(f, `unresolvable link [[${m[1]}]] (use a roster slug, era:<slug>, origins#id, workshop#id)`);
   }
 
-  const slop = [...new Set([...text.matchAll(SLOP)].map((m) => m[0].toLowerCase()))];
+  const slop = [...new Set(proseOf(mod).prose.flatMap((s) => [...s.matchAll(SLOP)].map((m) => m[0].toLowerCase())))];
   if (slop.length) warn(f, `house style: avoid ${slop.join(', ')}`);
 
   const scores = [mod.score ?? [], ...(mod.lessons ?? []).map((l) => l.score ?? [])].flat();

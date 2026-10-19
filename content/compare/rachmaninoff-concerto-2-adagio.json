@@ -1,41 +1,41 @@
 {
   "id": "rachmaninoff-concerto-2-adagio",
-  "title": "Rachmaninoff and Richter: the Adagio opening",
+  "title": "Rachmaninoff and Richter: passing the song",
   "composer": "rachmaninoff",
   "work": "Piano Concerto No. 2, Op. 18 — II. Adagio sostenuto, opening-side comparison only",
-  "question": "How do Rachmaninoff and Richter connect the Adagio’s long phrases with the piano’s smaller moving notes?",
-  "intro": "Rachmaninoff, Stokowski and the Philadelphia Orchestra recorded the Adagio’s first side on 10 April 1929; Richter’s reference recording with Wisłocki and the Warsaw National Philharmonic Orchestra dates from 1959. Only HMV D.B. 1334’s Adagio opening is used, matching 0–214.4 seconds of Richter to 3–174 seconds of the historical transfer and excluding the later cadenza and return. The provisional map has median chroma confidence 0.854 after shifting the historical pitch-class features down one semitone, without altering the audio. Surface noise weakens some local matches, so these passages invite comparison of broad phrasing rather than beat-exact rubato or speed-corrected historical tempo.",
+  "question": "How do Rachmaninoff and Richter keep the Adagio’s song flowing as it passes from flute and clarinet to piano?",
+  "intro": "Muted strings make the short crossing from C minor into E major, and the piano begins to circle quietly. Flute and clarinet unfold a melody that the pianist will soon take over. Rachmaninoff and Stokowski recorded these opening phrases in Philadelphia in 1929; Richter and Wisłocki revisit them with the Warsaw Philharmonic in 1959.",
   "group": "composer-performers",
   "recordings": [
     {
       "listen": "rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1",
-      "label": "Rachmaninoff / Stokowski · first side",
+      "label": "Rachmaninoff, Stokowski, Philadelphia Orchestra, 1929",
       "year": 1929,
-      "note": "HMV D.B. 1334, concerto side No. 4; only the Adagio’s first side, independently transferred by George Blood."
+      "note": "The composer plays at Philadelphia’s Academy of Music on 10 April 1929; this opening side preserves the first take of this passage."
     },
     {
       "listen": "rachmaninoff-concerto-2-adagio",
-      "label": "Richter / Wisłocki",
+      "label": "Richter, Wisłocki, Warsaw Philharmonic, 1959",
       "year": 1959,
-      "note": "Existing complete-movement recording; comparison stops within the opening, before the more active middle."
+      "note": "The Warsaw Philharmonic accompanies Richter in the 1959 Deutsche Grammophon recording of the complete concerto."
     }
   ],
   "reference": "rachmaninoff-concerto-2-adagio",
   "passages": [
     {
-      "label": "The opening’s broad motion",
+      "label": "The piano begins to circle",
       "t": 20,
-      "note": "Follow the sustained sound through its rise and retreat; compare the space between gestures rather than the two files’ absolute recorded levels."
+      "note": "The strings settle into E major, and the piano opens the chord into quiet, circling notes. The wind melody is still to come."
     },
     {
-      "label": "Connecting the long phrase",
+      "label": "Clarinet above the moving piano",
       "t": 100,
-      "note": "Listen for continuity between the longer notes while the smaller notes keep moving; the automatic match locates a passage, not an exact beat."
+      "note": "The clarinet’s long melody floats over the piano’s even arpeggios; the strings sustain the harmony beneath them."
     },
     {
-      "label": "A later opening phrase",
+      "label": "The pianist takes the song",
       "t": 180,
-      "note": "Compare how each performance carries the line through changing weight; this remains within the original opening side, not the Adagio’s later return."
+      "note": "The piano now carries the song in its upper notes, while the clarinet supplies quick figures around it."
     }
   ],
   "alignment": {
@@ -60,6 +60,8 @@
     { "title": "DAHR: CVE-48966, take 1, Philadelphia session and HMV issue", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800022752" },
     { "title": "Internet Archive: HMV D.B. 1334 Adagio opening side and transfer metadata", "url": "https://archive.org/details/78_concerto-no-2-in-c-minor-op-18-2nd-movement-1st-record_sergei-rachmaninoff-and_gbia7026859b" },
     { "title": "Wikimedia Commons: Richter, Wisłocki and Warsaw, 1959; PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninov_-_Concerto_no._2_for_Piano_and_Orchestra_in_C_minor_-_2._Adagio_sostenuto_(Sviatoslav_Richter,_Stanisław_Wisłocki,_Warsaw_National_Philharmonic_Orchestra,_1959).flac" },
-    { "title": "Generated opening alignment: absolute coordinates, trims, feature transposition and confidence", "url": "../assets/data/compare/rachmaninoff-concerto-2-adagio/rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1.json" }
+    { "title": "Generated opening alignment: absolute coordinates, trims, feature transposition and confidence", "url": "../assets/data/compare/rachmaninoff-concerto-2-adagio/rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1.json" },
+    { "title": "Rachmaninoff — full score, Gutheil, Boosey & Hawkes reprint, pp. 48–52: muted strings, flute, clarinet and piano handovers", "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP528309-PMLP01953-Rachmaninoff_-_Piano_Concerto_No._2_(orch._score).pdf" },
+    { "title": "Deutsche Grammophon — Richter, Wisłocki and the Warsaw Philharmonic in the complete concerto", "url": "https://www.deutschegrammophon.com/en/catalogue/products/rachmaninov-tchaikovsky-piano-concertos-richter-4901" }
   ]
 }

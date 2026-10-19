@@ -1,0 +1,184 @@
+{
+  "id": "price",
+  "places": [
+    {
+      "name": "Little Rock",
+      "country": "United States",
+      "lat": 34.7444,
+      "lon": -92.2881,
+      "from": "1887-04-09",
+      "kind": "born",
+      "what": "Born Florence Beatrice Smith; her mother provided her early musical instruction.",
+      "status": "documented",
+      "sources": [
+        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Boston",
+      "country": "United States",
+      "lat": 42.36027778,
+      "lon": -71.05777778,
+      "from": "1903",
+      "to": "1906",
+      "kind": "studied",
+      "what": "Studied at the New England Conservatory, receiving an organ soloist’s diploma and a piano teacher’s diploma in 1906.",
+      "status": "documented",
+      "sources": [
+        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "NEC Archives: A Celebration of NEC’s African American Legacy", "url": "https://necmusic.edu/about/news/archives-celebration-necs-african-american-legacy/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Cotton Plant",
+      "country": "United States",
+      "lat": 35.00815,
+      "lon": -91.25124,
+      "from": "1906",
+      "to": "1907",
+      "kind": "worked",
+      "what": "Taught music at Cotton Plant Academy after returning from Boston.",
+      "status": "documented",
+      "sources": [
+        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "GeoNames: Cotton Plant", "url": "https://www.geonames.org/4106733/cotton-plant.html" }
+      ]
+    },
+    {
+      "name": "North Little Rock",
+      "country": "United States",
+      "lat": 34.769536,
+      "lon": -92.267094,
+      "from": "1907",
+      "to": "1910",
+      "kind": "worked",
+      "what": "Taught music at Shorter College.",
+      "status": "documented",
+      "sources": [
+        { "title": "Rae Linda Brown: Symphony No. 1 in E minor — biographical chronology", "url": "https://americansymphony.org/concert-notes/symphony-no-1-in-e-minor/" },
+        { "title": "Mapcarta: North Little Rock, OpenStreetMap place record", "url": "https://mapcarta.com/North_Little_Rock" }
+      ]
+    },
+    {
+      "name": "Atlanta",
+      "country": "United States",
+      "lat": 33.74888889,
+      "lon": -84.39,
+      "from": "1910",
+      "to": "1912",
+      "kind": "worked",
+      "what": "Headed the music department at Clark University.",
+      "status": "documented",
+      "sources": [
+        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Little Rock",
+      "country": "United States",
+      "lat": 34.7444,
+      "lon": -92.2881,
+      "from": "1912",
+      "to": "1927",
+      "kind": "lived",
+      "what": "Returned to marry Thomas Jewell Price in September 1912; taught piano in her own studio before the family moved to Chicago in 1927.",
+      "status": "documented",
+      "sources": [
+        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Chicago",
+      "country": "United States",
+      "lat": 41.88194444,
+      "lon": -87.62777778,
+      "from": "1927",
+      "to": "1953-06-03",
+      "kind": "lived",
+      "what": "Settled on the South Side and worked as a teacher, pianist, organist and composer; Estella and Margaret Bonds became important friends and collaborators.",
+      "status": "documented",
+      "sources": [
+        { "title": "Arionne Nettles: Florence Price and Black Chicago — WBEZ", "url": "https://www.wbez.org/curious-city/2022/07/21/who-was-florence-price" },
+        { "title": "Dan Dykema, Florence Price — death date", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Chicago",
+      "country": "United States",
+      "lat": 41.88194444,
+      "lon": -87.62777778,
+      "from": "1933-06-15",
+      "kind": "premiere",
+      "what": "Frederick Stock conducted the Chicago Symphony Orchestra in the première at the Auditorium Theatre, during the Century of Progress celebrations.",
+      "work": "Symphony No. 1 in E minor",
+      "status": "documented",
+      "sources": [
+        { "title": "Phillip Huscher: Florence Price’s Symphony No. 1 — Chicago Symphony Orchestra", "url": "https://chicagosymphony.org/inside-the-music/article/17666/florence-prices-symphony-no-1" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Chicago",
+      "country": "United States",
+      "lat": 41.88194444,
+      "lon": -87.62777778,
+      "from": "1934-06-24",
+      "kind": "premiere",
+      "what": "Price played the solo part with the Chicago Musical College Orchestra at Orchestra Hall; the conductor is unidentified in the works catalogue.",
+      "work": "Piano Concerto in One Movement",
+      "status": "documented",
+      "sources": [
+        { "title": "Florence B. Price Works Catalog: Piano Concerto in One Movement", "url": "https://fbpricecatalog.net/price-piano-concerto-no1/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Little Rock",
+      "country": "United States",
+      "lat": 34.7444,
+      "lon": -92.2881,
+      "from": "1935",
+      "kind": "travelled",
+      "what": "Returned for a concert of her own compositions at Dunbar High School, sponsored by the Philander Smith College Alumni Association.",
+      "status": "documented",
+      "sources": [
+        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Detroit",
+      "country": "United States",
+      "lat": 42.33166667,
+      "lon": -83.04583333,
+      "from": "1940-11-06",
+      "kind": "premiere",
+      "what": "Valter Poole conducted the Detroit Civic Orchestra at the Detroit Institute of Arts in the première of the Federal Music Project commission.",
+      "work": "Symphony No. 3 in C minor",
+      "status": "documented",
+      "sources": [
+        { "title": "G. Schirmer / Wise Music Classical: Symphony No. 3 in C minor", "url": "https://www.wisemusicclassical.com/work/58894/Symphony-No-3-in-C-minor--Florence-Price/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    },
+    {
+      "name": "Chicago",
+      "country": "United States",
+      "lat": 41.88194444,
+      "lon": -87.62777778,
+      "from": "1953-06-03",
+      "kind": "died",
+      "what": "Died in Chicago after more than a quarter-century based in the city.",
+      "status": "documented",
+      "sources": [
+        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
+      ]
+    }
+  ]
+}

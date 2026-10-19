@@ -1,0 +1,205 @@
+{
+  "id": "richard-strauss-im-abendrot",
+  "work": {
+    "title": "Four Last Songs",
+    "catalogue": "TrV 296",
+    "movement": "IV. Im Abendrot — Andante",
+    "version": {
+      "value": "Complete song in the original scoring for soprano and orchestra, sung in German",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive", "score"],
+      "note": "The fourth song is separately banded on the LP and transferred as one complete track. The published score places the orchestral prelude on pp. 44–46, the vocal stanzas on pp. 46–54, and the postlude on pp. 54–55. Hall sections and musical cues use approximate score-proportion passage timings; no bar alignment or syllable-level timing is asserted. The edition of the orchestral parts used at the session is unknown."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Elisabeth Schwarzkopf", "role": "soprano" },
+      { "name": "Philharmonia Orchestra", "role": "orchestra" },
+      { "name": "Otto Ackermann", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["label-scan", "archive", "reissue-session"],
+    "note": "All three credits appear on the original side-one label. The consulted sources do not identify the individual orchestral soloists. This is the Ackermann recording, distinct from Schwarzkopf’s later recording with George Szell."
+  },
+  "session": {
+    "date": {
+      "value": "1953-09",
+      "status": "documented",
+      "sourceIds": ["reissue-session", "naxos-session"],
+      "note": "Warner’s reissue metadata, reproduced by Presto, dates the Four Last Songs to 25 September 1953 and the accompanying Capriccio scene to 26 September. Naxos gives 25–26 September for the songs. Month-level precision retains the date on which both accounts agree; the exact day and take of Im Abendrot remain unresolved.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Watford Town Hall, Watford, England",
+      "status": "documented",
+      "sourceIds": ["reissue-session", "label-scan"],
+      "note": "The Warner track documentation names Watford Town Hall. The original Angel label states Recorded in England."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Angel Records",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive"],
+      "note": "The source is an original Angel vinyl LP transfer, not the later Warner or Naxos digital remaster."
+    },
+    "catalogue": {
+      "value": "35084; ANG. 35084",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive"],
+      "note": "Internet Archive catalogues this United States release as 1954. The booklet carries the 1954 copyright notice for Edward Cushing’s English translations."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, band 4; printed side matrix XAX-380; label number 1-35084",
+      "status": "documented",
+      "sourceIds": ["label-scan", "tracklist"],
+      "note": "XAX-380 and 1-35084 are visible on the side-one label; the track listing places Im Abendrot fourth on that side. No take number or pressing-specific runout suffix has been established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP digitisation",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The institutional contributor is credited; no personal account identifier or additional restoration credit is reproduced."
+    },
+    "date": {
+      "value": "2021-06-22",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The ripping_date field is 20210622081253. The sleeve scan is dated 31 May 2021; neither date is a recording-session or LP-publication date."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable with Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; whole-side 24-bit FLAC transfer and segmented VBR MP3 access derivative",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "The playback chain is stated in the item metadata. The whole-side FLAC is marked Processed by SoX; the selected MP3 is derived through the item’s segment data. Equalisation settings, pitch adjustment, noise reduction and other restoration decisions are unknown."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil/disc1/01.04.%20Four%20Last%20Songs%3A%20Im%20Abendrot.mp3",
+    "sourceChain": ["label-scan", "archive", "tracklist", "archive-files"],
+    "format": "VBR MP3 derivative of a vinyl LP transfer",
+    "durationSeconds": 439.44
+  },
+  "rights": {
+    "composition": {
+      "value": "Strauss’s music and Eichendorff’s German poem are public domain under ordinary EU life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": ["composer", "poet", "work-catalogue", "score"],
+      "note": "Strauss died in 1949 and Eichendorff in 1857. This assessment concerns Im Abendrot alone, not the three other songs’ Hermann Hesse texts. The score was first published in 1950 and remains identified by IMSLP as protected in the United States; no US composition clearance is asserted. The copyrighted English translation in the LP booklet is not reproduced."
+    },
+    "recording": {
+      "value": "Territorial EU public domain under the pre-1963 commercial-publication rule: Angel 35084 was published in 1954.",
+      "status": "inferred",
+      "sourceIds": ["archive", "label-scan", "eu-term"],
+      "note": "The documented 1954 lawful commercial issue predates the programme’s 1963 cutoff. Its former 50-year phonogram term had expired before the 2013 extension, which applies to recordings still protected on 1 November 2013. This is a territorial term assessment, not a Creative Commons licence or a declaration of US or worldwide public-domain status. The transferred LP, not a modern commercial remaster, supplies the audio."
+    },
+    "creditLine": "Richard Strauss, Four Last Songs: IV. Im Abendrot, text by Joseph von Eichendorff; Elisabeth Schwarzkopf, Philharmonia Orchestra, Otto Ackermann. Recorded September 1953, Watford Town Hall; Angel 35084 (1954); Internet Archive LP transfer. Territorial EU public-domain basis; US rights not cleared.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Angel 35084 item metadata",
+      "url": "https://archive.org/metadata/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil/metadata",
+      "locator": "Creator credits; publisher Angel Records; catalogue 35084 / ANG. 35084; country US; date 1954; source Vinyl LP; transfer equipment, ripping_date and ripping_operator fields.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "label-scan",
+      "title": "Angel 35084 — original sleeve, booklet and labels",
+      "url": "https://archive.org/download/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil.pdf",
+      "locator": "Seven-page scan: cover and booklet; German sung texts and 1954 translation copyright on p. 4; Andrew Porter’s work notes on p. 5; side-one label on p. 6, visually inspected for performers, Recorded in England, 1-35084 and XAX-380.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "tracklist",
+      "title": "Internet Archive — Angel 35084 disc and band listing",
+      "url": "https://archive.org/download/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil/disc-metadata.json",
+      "locator": "Disc 1, side-index 1, ordinal 4: Four Last Songs: Im Abendrot; album date 1954.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — selected Im Abendrot derivative and transfer files",
+      "url": "https://archive.org/metadata/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil/files",
+      "locator": "disc1/01.04. Four Last Songs: Im Abendrot.mp3: VBR MP3, length 439.44 seconds, derived from segment data; whole-side source is 24bit Flac with the comment Processed by SoX.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "reissue-session",
+      "title": "Warner Classics 5674952 — track-level session documentation via Presto Music",
+      "url": "https://www.prestomusic.com/classical/products/7949101--strauss-r-vier-letzte-lieder-etc",
+      "locator": "Four Last Songs: Schwarzkopf, Philharmonia Orchestra and Ackermann; recorded 25 September 1953 at Watford Town Hall. The adjacent Capriccio scene is separately dated 26 September 1953. Used for session attribution, not as the streamed carrier.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "naxos-session",
+      "title": "Naxos Historical 8.111145 — original reissue back cover",
+      "url": "https://cdn.naxos.com/SharedFiles/pdf/rear/8.111145r.pdf",
+      "locator": "Tracks 1–4 list Schwarzkopf, Philharmonia Orchestra and Otto Ackermann; session dates 25 and 26 September 1953. This broader date range is retained in the session note; the Naxos remaster is not used for the audio.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Richard Strauss — Four Last Songs, Boosey & Hawkes full score",
+      "url": "https://petruccimusiclibrary.ca/files/imglnks/caimg/8/83/IMSLP615036-PMLP36684-Strauss_-_Four_Last_Songs.pdf",
+      "locator": "1950, plate B. & H. 16918; Im Abendrot, printed pp. 44–55, inspected visually. Prelude; first vocal stanza after B; paired flute trills around D–E and solo violin in the third stanza; final question and orchestral postlude around G–I; both flautists change to piccolo at I.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP — Four Last Songs, TrV 296",
+      "url": "https://imslp.org/wiki/4_Letzte_Lieder,_TrV_296_(Strauss,_Richard)",
+      "locator": "Catalogue TrV 296; four song titles and poets; first publication 1950; work marked non-public-domain in the United States.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP — Richard Strauss biographical dates",
+      "url": "https://imslp.org/wiki/Category:Strauss,_Richard",
+      "locator": "11 June 1864–8 September 1949.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "poet",
+      "title": "IMSLP — Joseph von Eichendorff biographical dates",
+      "url": "https://imslp.org/wiki/Category:Eichendorff,_Joseph_von",
+      "locator": "10 March 1788–26 November 1857.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — sound-recording term and transitional provisions",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077&from=EN",
+      "locator": "Recitals 1–3 describe the previous 50-year term; Article 1(2) extends relevant terms; Article 1(3), adding Article 10(5), restricts the extension to performances and phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "composition-history",
+      "title": "Bryan Gilliam — Boston Symphony Four Last Songs programme note",
+      "url": "https://www.bso.org/works/four-last-songs",
+      "locator": "Quotes Ernst Roth’s account: final sketch of Im Abendrot dated Montreux, 27 April 1948; full score completed 6 May 1948. Describes Roth’s posthumous title and ordering. The page’s conflicting première-venue and quotation-instrument details are not used.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "song-programme",
+      "title": "Calvin Dotsey — Metaphysical Sunset: Strauss’s Four Last Songs",
+      "url": "https://houstonsymphony.org/strauss-four-last-songs/",
+      "locator": "Houston Symphony, 12 November 2019: Eichendorff’s couple, paired flute larks, sunset prelude and quotation from Death and Transfiguration. Score inspection supplies the final change to piccolos.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "tone-poem-history",
+      "title": "Calvin Dotsey — The Ultimate Mystery: Strauss’s Death and Transfiguration",
+      "url": "https://houstonsymphony.org/strausss-death-transfiguration/",
+      "locator": "Houston Symphony, 30 October 2019: the tone poem was completed in 1889; account of its transfiguration theme.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

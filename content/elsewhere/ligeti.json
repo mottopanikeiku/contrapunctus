@@ -1,0 +1,100 @@
+{
+  "composer": "ligeti",
+  "items": [
+    {
+      "work": "Atmosphères",
+      "year": "1961",
+      "performers": "Wiener Philharmoniker; Claudio Abbado",
+      "recorded": "1988",
+      "label": "Deutsche Grammophon",
+      "note": "The divided strings move in opposite directions until their separate lines fuse into a slowly changing chord. Abbado’s Vienna Philharmonic recording places Ligeti beside Nono, Boulez and Rihm on the Wien Modern album.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deutschegrammophon.com/en/catalogue/products/ligeti-atmospheres-abbado-722",
+          "title": "Deutsche Grammophon — Atmosphères / Abbado"
+        }
+      ]
+    },
+    {
+      "work": "Études pour piano, Books I–III",
+      "year": "1985–2001",
+      "performers": "Danny Driver, piano",
+      "recorded": "28–30 October 2019, St Silas the Martyr, Kentish Town, London",
+      "label": "Hyperion",
+      "note": "Désordre sets the right hand on white keys and the left on black, then lets their accents drift apart. Driver’s one-disc recording includes all eighteen studies, from Désordre to Canon.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68286",
+          "title": "Hyperion — Ligeti: The 18 Études"
+        }
+      ]
+    },
+    {
+      "work": "Violin Concerto",
+      "year": "1990–92; revised 1993",
+      "performers": "Isabelle Faust, violin; Les Siècles; François-Xavier Roth",
+      "recorded": "September–October 2023, Maison de l’Orchestre national d’Île-de-France, Alfortville",
+      "label": "harmonia mundi",
+      "note": "Four ocarinas and retuned violin and viola parts disturb the orchestra’s usual tuning. Faust plays a cadenza she devised with Oscar Strasnoy.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.harmoniamundi.com/en/albums/ligeti-concertos-violin-romanesc-piano-faust-neuburger-siecles-roth/",
+          "title": "harmonia mundi — Ligeti concertos / Faust, Neuburger, Les Siècles"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Deutsche Grammophon — Atmosphères / Abbado: recording and performer catalogue",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/ligeti-atmospheres-abbado-722"
+    },
+    {
+      "title": "Universal Edition — Atmosphères: composition date, instrumentation and George Benjamin’s work introduction",
+      "url": "https://www.universaledition.com/en/Works/Atmospheres/P0006870"
+    },
+    {
+      "title": "American Symphony Orchestra — Paul Griffiths on the opposing string lines in Atmosphères",
+      "url": "https://americansymphony.org/concert-notes/atmosphres-1961/"
+    },
+    {
+      "title": "Universal Music Japan — DG 120th-anniversary box, CD 113: Abbado’s Wien Modern recording dated 1988",
+      "url": "https://www.universal-music.co.jp/p/483-5268/"
+    },
+    {
+      "title": "Deutsche Grammophon — Wien Modern: programme and performers",
+      "url": "https://www.deutschegrammophon.com/de/katalog/produkte/wien-modern-claudio-abbado-9718"
+    },
+    {
+      "title": "Hyperion — CDA68286: complete eighteen-study recording, Danny Driver’s notes and published reviews",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68286"
+    },
+    {
+      "title": "Hyperion — CDA68286 booklet: track list and recording sessions, 28–30 October 2019",
+      "url": "https://www.hyperion-records.co.uk/notes/68286-B.pdf"
+    },
+    {
+      "title": "Da Vinci Classics — Emanuele Delucchi’s notes on the eighteen Études, composed 1985–2001",
+      "url": "https://davinci-edition.com/product/c00459/"
+    },
+    {
+      "title": "harmonia mundi — HMM905382: performers and Faust–Strasnoy cadenza credit",
+      "url": "https://www.harmoniamundi.com/en/albums/ligeti-concertos-violin-romanesc-piano-faust-neuburger-siecles-roth/"
+    },
+    {
+      "title": "harmonia mundi — HMM905382 booklet: concerto instrumentation, performers and September–October 2023 sessions",
+      "url": "https://www.harmoniamundi.com/wp-content/uploads/2025/03/905382_booklet.pdf"
+    },
+    {
+      "title": "György Ligeti official catalogue — Violin Concerto: composer’s account of composition in 1990 and revision in 1992",
+      "url": "https://en.gyorgy-ligeti.com/work/konzert-1"
+    },
+    {
+      "title": "Tokyo Metropolitan Symphony Orchestra — Robert Markow on the Violin Concerto’s final 1993 revision",
+      "url": "https://www.tmso.or.jp/e/concert/detail/detail.php?id=3599"
+    }
+  ]
+}

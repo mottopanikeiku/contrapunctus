@@ -1,0 +1,53 @@
+{
+  "composer": "bizet",
+  "items": [
+    {
+      "work": "Carmen — complete opera",
+      "year": "1873–75",
+      "performers": "Victoria de los Ángeles, Nicolai Gedda, Janine Micheau, Ernest Blanc; French Radio chorus and orchestra; Thomas Beecham",
+      "recorded": "1958–59, Salle Wagram, Paris",
+      "label": "EMI / Warner Classics",
+      "note": "The two acoustic arias in the Hall introduce Carmen and Escamillo separately. The complete opera supplies José’s Flower Song, the cards and the final duet, where the bullring crowd’s refrain becomes part of a murder scene. Beecham’s set is the first choice for the music’s dancing ease and the tenderness that makes its ending hurt.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.warnerclassics.com/release/bizet-carmen-11",
+          "title": "Warner Classics — Beecham’s complete Carmen, with official streaming and purchase links"
+        }
+      ]
+    },
+    {
+      "work": "Les Pêcheurs de perles — complete opera",
+      "year": "1863",
+      "performers": "Nicolai Gedda; Opéra-Comique chorus and orchestra; Pierre Dervaux",
+      "recorded": "1960",
+      "label": "EMI / Warner Classics",
+      "note": "The friendship duet is only the beginning. Nadir’s romance and the conflict around Leïla need the complete work; Gedda’s elegant line makes Dervaux’s recording a persuasive way into Bizet’s earlier theatre. Warner’s page identifies the complete performance rather than a highlights compilation.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.warnerclassics.com/release/bizet-les-pecheurs-de-perles-1",
+          "title": "Warner Classics — Pierre Dervaux’s complete Les Pêcheurs de perles"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Warner Classics — Beecham Carmen: full cast, French Radio forces and 1958–59 Salle Wagram sessions; checked 19 October 2026",
+      "url": "https://www.warnerclassics.com/release/bizet-carmen-11"
+    },
+    {
+      "title": "Warner Classics — Dervaux Les Pêcheurs de perles: complete performance, Nicolai Gedda and Opéra-Comique forces; checked 19 October 2026",
+      "url": "https://www.warnerclassics.com/release/bizet-les-pecheurs-de-perles-1"
+    },
+    {
+      "title": "Hugh Macdonald — Bizet Catalogue: Les Pêcheurs de perles, discography, Opéra-Comique / Dervaux 1960",
+      "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Pecheurs_de_perles.html"
+    },
+    {
+      "title": "Hugh Macdonald — Bizet Catalogue: Carmen, composition and stage version",
+      "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html"
+    }
+  ]
+}

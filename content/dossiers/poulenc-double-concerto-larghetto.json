@@ -1,0 +1,171 @@
+{
+  "id": "poulenc-double-concerto-larghetto",
+  "work": {
+    "title": "Concerto for Two Pianos in D minor",
+    "catalogue": "FP 61",
+    "movement": "II. Larghetto",
+    "version": {
+      "value": "Original orchestral scoring; complete second movement",
+      "status": "documented",
+      "sourceIds": ["archive", "label-3", "label-4", "score"],
+      "note": "The transfer joins the two 78-rpm sides containing the Larghetto. The source identifies the original concerto, not a piano reduction. The exact edition used by the performers is unknown. The section landmarks are provisional passage timings, established from the score and the transfer; they have not been reviewed by ear."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Arthur Whittemore", "role": "piano" },
+      { "name": "Jack Lowe", "role": "piano" },
+      { "name": "RCA Victor Symphony Orchestra", "role": "orchestra" },
+      { "name": "Dimitri Mitropoulos", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["label-3", "label-4", "rca-review"],
+    "note": "The original labels and RCA's contemporary advertisement name all four performing credits. The sources consulted do not allocate the first and second piano parts to the individual pianists."
+  },
+  "session": {
+    "date": {
+      "value": "1947",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The transfer description gives 15 December 1947. The year is retained here; the exact day has not been checked against a session ledger. The item-level date 1947 is the recording year, not the commercial publication year.",
+      "precision": "year"
+    },
+    "place": {
+      "value": "NBC Studio 3-A, New York City, United States",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Venue as identified by the transfer description."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "RCA Victor Red Seal",
+      "status": "documented",
+      "sourceIds": ["label-3", "label-4"],
+      "note": "Original shellac-record imprint."
+    },
+    "catalogue": {
+      "value": "DM-1235; record 12-0368",
+      "status": "documented",
+      "sourceIds": ["label-3", "label-4", "rca-review"],
+      "note": "The automatic-sequence album contains three 12-inch records. RCA's September 1948 magazine advertises both M-1235 and DM-1235. The Larghetto occupies record 12-0368 in the transferred DM set."
+    },
+    "matrixTakeSides": {
+      "value": "Sides 3–4: 12-0368-A and 12-0368-B; matrices D7-RC-8226 and D7-RC-8227",
+      "status": "documented",
+      "sourceIds": ["archive", "label-3", "label-4"],
+      "note": "Side and record numbers were read on the labels, which also print the corresponding manual-sequence numbers 12-0364-A/B. Matrix numbers are transcribed from the transfer description; no take suffix or stamper has been established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive, Shellackophile Recordings collection",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Host and collection are identified. The original record producer is RCA; no separate personal transfer-engineer credit has been established."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item was uploaded on 3 April 2022. Its digitisation date is not stated."
+    },
+    "processing": {
+      "value": "Uploaded FLAC transfer; Internet Archive VBR MP3 derivative",
+      "status": "documented",
+      "sourceIds": ["archive-files"],
+      "note": "The complete-movement MP3 derives from the uploaded FLAC. Playback equipment, side-join method, equalisation, pitch correction and noise reduction are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/dm-1235-poulenc-double-concerto-i/DM1235%20Poulenc%20Double%20Concerto%20%28ii%29.mp3",
+    "sourceChain": ["label-3", "label-4", "archive", "archive-files"],
+    "format": "VBR MP3 derivative of a joined shellac transfer",
+    "durationSeconds": 404.77
+  },
+  "rights": {
+    "composition": {
+      "value": "Separate composition copyright remains in force in life-plus-70 territories; IMSLP identifies public-domain status in Canada.",
+      "status": "documented",
+      "sourceIds": ["work-catalogue", "programme-note"],
+      "note": "Poulenc died in 1963. IMSLP explicitly warns that this work remains protected in the EU and probably in the US. The accepted historical-phonogram rule below does not clear the underlying composition; no separate permission or worldwide composition licence has been established."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: commercial publication in 1948, before 1963.",
+      "status": "documented",
+      "sourceIds": ["rca-review", "archive", "eu-term"],
+      "note": "RCA's September 1948 magazine advertises M/DM-1235 with performers, format and prices. Under the project's pre-1963 phonogram rule, the former 50-year term expired before the 2013 extension. The recording is not offered under a Creative Commons licence; US recording status is not established."
+    },
+    "creditLine": "Francis Poulenc, Concerto for Two Pianos, FP 61: II. Larghetto; Arthur Whittemore and Jack Lowe, RCA Victor Symphony Orchestra, Dimitri Mitropoulos. Recorded 1947; RCA Victor Red Seal DM-1235, published 1948. Shellackophile collection / Internet Archive transfer. Territorial EU phonogram basis only; the underlying composition remains separately protected.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Poulenc Double Concerto, Whittemore and Lowe, 1947",
+      "url": "https://archive.org/metadata/dm-1235-poulenc-double-concerto-i/metadata",
+      "locator": "Description distinguishes the 15 December 1947 session in NBC Studio 3-A from the 1948 issue; gives carrier and matrix details. Collection and 2022 upload date are separate metadata.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — Larghetto derivative and source FLAC",
+      "url": "https://archive.org/metadata/dm-1235-poulenc-double-concerto-i/files",
+      "locator": "DM1235 Poulenc Double Concerto (ii).mp3, 404.77 seconds; derivative of the complete-movement FLAC, 404.72 seconds.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "label-3",
+      "title": "RCA Victor DM-1235 — original side 3 label",
+      "url": "https://archive.org/download/dm-1235-poulenc-double-concerto-i/DM1235%20label%203.JPG",
+      "locator": "12-0368-A, side 3; Larghetto, part 1; Whittemore, Lowe, RCA Victor Symphony Orchestra and Dimitri Mitropoulos.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "label-4",
+      "title": "RCA Victor DM-1235 — original side 4 label",
+      "url": "https://archive.org/download/dm-1235-poulenc-double-concerto-i/DM1235%20label%204.JPG",
+      "locator": "12-0368-B, side 4; Larghetto, concluded; same performers as side 3.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "rca-review",
+      "title": "RCA Victor Record Review, September 1948 — Music of Poulenc",
+      "url": "https://www.worldradiohistory.com/ARCHIVE-RCA/RCA-Victor-Record-Review/RCA-Victor-Record-Review-1948-09.pdf",
+      "locator": "PDF p. 6 advertises the recorded première as M/DM-1235, three 12-inch RCA Victor records, and names the pianists, orchestra and conductor. Cover and masthead establish September 1948.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "score",
+      "title": "Poulenc — Concerto for Two Pianos, full score",
+      "url": "https://petruccimusiclibrary.ca/files/imglnks/caimg/d/d9/IMSLP376787-PMLP489112-Poulenc_-_Concerto_for_Two_Pianos_%28orch._score%29.pdf",
+      "locator": "Rouart, Lerolle & Cie., plate R.L. 11887, Larghetto pp. 37–63. Opening, Plus allant at rehearsal 34, Tempo I on p. 59 and the closing page inspected visually. Score used for research, not republished.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP — Concerto for Two Pianos, FP 61",
+      "url": "https://imslp.org/wiki/Concerto_for_2_Pianos%2C_FP_61_%28Poulenc%2C_Francis%29",
+      "locator": "1932 composition, 1933 publication, movement titles and instrumentation; explicit Canada versus EU/US composition-rights warning.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "programme-note",
+      "title": "Steven Ledbetter — Boston Symphony note on Poulenc's Two-Piano Concerto",
+      "url": "https://www.bso.org/works/poulenc-concerto-in-d-minor-for-two-pianos",
+      "locator": "Poulenc's dates, the Polignac commission, Venice première and the composer's explanation of the Mozartian Larghetto opening.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3 and Article 1(2)–(3): former 50-year phonogram term and extension for recordings still protected on 1 November 2013.",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

@@ -1,29 +1,31 @@
 {
   "id": "chopin-nocturne-op9-2-colours",
-  "title": "Two pianists shape a nocturne",
+  "title": "One melody, ever more extravagant",
   "composer": "chopin",
   "group": "century",
   "work": "Nocturne in E♭ major, Op. 9 No. 2",
-  "question": "How do Lévy and Prati give space to the melody and its ornaments?",
-  "intro": "Lévy’s Musopen performance is dated circa 2014; Prati’s live account comes from Madrid on 24 November 2015. The automatic piano map covers Lévy 0–260 and Prati 0–290 seconds, excluding the final low-level tails. Compare the sustained melodic outline with the smaller attacks that decorate it. The planned historical violin transfer is omitted because its upstream source restricts use to scholarship and research.",
+  "question": "How do Lévy and Prati keep the tune singing as its ornaments grow more elaborate?",
+  "intro": "Frank Lévy and Patrizia Prati play a song that keeps inventing new ways to sing. A leap from B♭ to G begins it, over the left hand’s rocking bass and chords. Each return gathers more ornaments, until a tiny cadenza sends the melody spinning free.",
   "recordings": [
-    { "listen": "chopin-nocturne-op9-2-levy", "label": "Frank Lévy", "year": 2014, "note": "Circa 2014, not an exact session date; solo piano. Musopen’s explicit recording dedication." },
-    { "listen": "chopin-nocturne-op9-2-prati", "label": "Patrizia Prati", "year": 2015, "note": "Museum of Romanticism, Madrid, 24 November; live solo piano, released under CC BY-SA 4.0." }
+    { "listen": "chopin-nocturne-op9-2-levy", "label": "Frank Lévy, c. 2014", "year": 2014, "note": "A pupil of Maria Tipo and Leon Fleisher, Lévy made this recording for Musopen’s Chopin project." },
+    { "listen": "chopin-nocturne-op9-2-prati", "label": "Patrizia Prati, 2015", "year": 2015, "note": "Prati recorded twelve Chopin nocturnes at Madrid’s Museum of Romanticism on 24 November 2015." }
   ],
   "reference": "chopin-nocturne-op9-2-levy",
   "passages": [
-    { "label": "Melody and accompaniment", "t": 5, "note": "Follow the melodic line above the piano accompaniment; the map locates corresponding passages, not individual articulations." },
-    { "label": "Within the opening phrase", "t": 30, "note": "Compare the space around the line’s smaller attacks; the automatic map is not a note-for-note alignment." },
-    { "label": "After the first rise", "t": 55, "note": "Lévy settles after the preceding rise. Compare how both pianists make room before continuing." },
-    { "label": "The ornamented line", "t": 95, "note": "Follow the whole phrase through its smaller attacks." },
-    { "label": "Later expansion", "t": 145, "note": "Compare the rise and retreat without turning recording level into a claim about loudness." },
-    { "label": "Closing build", "t": 215, "note": "Compare the broad ascent with its ornamental release." },
-    { "label": "Last cadential sound", "t": 250, "note": "Listen beyond arrival into resonance. The map intentionally excludes the final low-level tails." }
+    { "label": "Melody and accompaniment", "t": 5, "note": "The melody hangs above the left hand’s recurring bass note and two answering chords." },
+    { "label": "The phrase settles", "t": 30, "note": "A leap into the treble is answered by a falling run; the phrase settles back onto E♭." },
+    { "label": "A trill in the song", "t": 55, "note": "A trill catches on a held note before the melody resumes its descent. The left hand keeps the same rocking pattern." },
+    { "label": "The ornamented line", "t": 95, "note": "The tune returns with small, quick notes wound around its longer ones. The bass retraces its familiar route." },
+    { "label": "Two notes at a time", "t": 145, "note": "Paired notes thicken the right-hand melody, then short, detached chords draw the phrase towards its next return." },
+    { "label": "The last ascent", "t": 215, "note": "The right hand climbs into octaves as the music gathers force. The cadenza is close." },
+    { "label": "E♭ after the cadenza", "t": 250, "note": "The cadenza has spent itself. Softly rolling E♭-major chords restore the pulse and lead into the final hush." }
   ],
   "sources": [
-    { "title": "Lévy: approximate date and Musopen recording dedication", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac" },
-    { "title": "Prati: live session and recording licence", "url": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg" },
-    { "title": "Excluded historical violin transfer — upstream research-only terms", "url": "https://i78s.org/api/tos" },
-    { "title": "Chopin Op. 9 No. 2: written ornamentation and accompaniment", "url": "https://en.wikipedia.org/wiki/Nocturnes,_Op._9_(Chopin)" }
+    { "title": "Lévy — Musopen recording; date approximate", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac" },
+    { "title": "Prati — museum recording, 24 November 2015", "url": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._9_n.2_Es-dur_-_Patrizia_Prati.ogg" },
+    { "title": "Mieczysław Tomaszewski — the nocturne’s theme and changing ornaments", "url": "https://chopin.nifc.pl/en/chopin/kompozycja/154_nokturn-es-dur" },
+    { "title": "Chopin — Op. 9 No. 2, Schirmer edition (1881), transcribed by Mutopia", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1590" },
+    { "title": "Frank Lévy — teachers and Musopen Chopin project", "url": "https://www.franklevy.com/bio" },
+    { "title": "Rubén Ojeda — Prati’s fourteen-piece museum session, recorded without an audience", "url": "https://diff.wikimedia.org/es/2016/02/14/la-musica-del-romanticismo-suena-en-wikipedia/" }
   ]
 }

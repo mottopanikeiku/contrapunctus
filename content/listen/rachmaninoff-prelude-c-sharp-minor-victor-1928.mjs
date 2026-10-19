@@ -24,66 +24,58 @@ export default {
       ]
     }
   },
-  "intro": "The 1928 Victor remake is an electrical recording, and DAHR identifies the issued performance as take 23 of4 April. Unlike the uncertain 1921 pressing, its matrix and take can be matched to Victor1326-A. The supplied transfer has been equalised, filtered and de-noised, so differences of tone are not simply differences between the pianist’s hands.",
-  "question": "How does the electrical remake reshape the same musical span?",
+  "intro": "Rachmaninoff records his C♯ minor Prelude in New York in April 1928, thirty-six years after writing it. The quiet chords at the start return as a whole keyboard of bells.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening bell figure",
-      "m": "A"
-    },
-    {
-      "t": 92,
-      "label": "Central change",
-      "m": "B"
-    },
-    {
-      "t": 120,
-      "label": "Loud chordal span",
-      "m": "C"
-    },
-    {
-      "t": 178,
-      "label": "Late retreat",
-      "m": "D"
-    }
+    { "t": 0, "label": "A · Bells, then rushing triplets", "m": "A", "mNote": "Three low notes introduce the Lento" },
+    { "t": 92, "label": "B · Triplets gather force", "m": "B", "mNote": "The Agitato melody rises above the running notes" },
+    { "t": 120, "label": "C · Descending chords and returning bells", "m": "C", "mNote": "The rush leads back to the opening chords" },
+    { "t": 178, "label": "D · Quiet chords over C♯", "m": "D", "mNote": "A held bass supports the last slow chords" }
   ],
   "cues": [
     {
-      "t": 0,
-      "kind": "world",
-      "title": "An identified electrical take",
-      "text": "This is the issued electrical take 23, recorded in New York on4 April 1928. The matrix series also contains earlier sessions; those dates must not be attached to this particular take.",
-      "basis": "documented",
+      "bar": { "n": "0", "occ": 1 },
+      "kind": "music",
+      "title": "Bells and a whisper",
+      "text": "Three low notes, A–G♯–C♯, sound in octaves. Rachmaninoff marks them <i>fortissimo</i>, then drops to <i>ppp</i> for the chordal answer. The piano has scarcely begun before it falls to a whisper.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor"
+      "evidence": "Bosworth (1896) and Universal Edition (1910), opening upbeat and bars 1–4; Petro Kostandy’s Mutopia engraving. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
+    },
+    {
+      "bar": { "n": "14", "occ": 1 },
+      "kind": "music",
+      "title": "The right hand divides",
+      "text": "In the <i>Agitato</i>, the right hand carries a descending E–D♯–D♮–C♯ melody while triplets turn beneath it. The left hand reaches down for bass notes, then rises to answer the tune.",
+      "basis": "score-aligned",
+      "precision": "passage",
+      "evidence": "Bosworth and Universal Edition score, bars 14–21: separately stemmed upper melody, triplet quavers and the answering left-hand line. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     },
     {
       "t": 92,
-      "kind": "listen",
-      "title": "Leaving the quiet span",
-      "text": "A measured change follows a quiet region around 1:25. Compare the change of momentum with 1919 and 1921, without assuming that the keyboard’s apparent brightness survived the transfer unchanged.",
-      "basis": "audio-feature",
+      "kind": "world",
+      "title": "Two days in the studio",
+      "text": "On 21 March 1928, Rachmaninoff makes three takes of the Prelude in Camden, New Jersey. Victor discards all three. On 4 April he tries again in New York; the second take that day becomes the published record.",
+      "basis": "documented",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1928.txt: novelty92 seconds; quiet five-second window85 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Discography of American Historical Recordings, Victor matrix BVE-25650: takes 19–21 marked Destroy; takes 22–23 dated 4 April 1928, with take 23 the master. https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor"
     },
     {
-      "t": 155,
-      "kind": "listen",
-      "title": "A later recorded crest",
-      "text": "The highest average level falls here. The largest level windows are spread across the chordal passage, rather than concentrated at its first attack.",
-      "basis": "audio-feature",
+      "bar": { "n": "45", "occ": 1 },
+      "kind": "form",
+      "title": "The piano fills four staves",
+      "text": "<i>Tempo primo</i>: the opening returns, vastly enlarged. The score spreads the piano over four staves and marks the chords <i>fff pesante</i>. The bass keeps tolling while both hands strike the tune in octaves.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1928.txt: highest five-second level155 seconds; other high windows135, 145, 150, 120 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Bosworth and Universal Edition score, bars 45–48: four-stave notation, Tempo primo and fff pesante. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     },
     {
-      "t": 178,
-      "kind": "listen",
-      "title": "The closing change",
-      "text": "This is the strongest measured change before the quiet ending. Let the phrase’s withdrawal be the comparison: de-noising and filtering make the remaining resonance a less secure guide to original pedalling.",
-      "basis": "audio-feature",
+      "bar": { "n": "55", "occ": 1 },
+      "kind": "music",
+      "title": "The bass stays on C♯",
+      "text": "The closing chords settle over a low C♯ held across the bars. After so many repeated blows, the last chord simply stays: C♯ minor, <i>ppp</i>, with a fermata above it.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1928.txt: maximum novelty178 seconds; ending level falls through195–210 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Bosworth and Universal Edition score, bars 55–61: C♯ pedal and final ppp chord with fermata. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     }
   ]
 };

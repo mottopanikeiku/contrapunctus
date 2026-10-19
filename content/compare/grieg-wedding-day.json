@@ -1,41 +1,41 @@
 {
   "id": "grieg-wedding-day",
-  "title": "Grieg’s Wedding Day, abridged and complete",
+  "title": "Grieg plays his wedding march",
   "composer": null,
   "work": "Wedding Day at Troldhaugen, Op. 65 No. 6",
-  "question": "How does Grieg’s own pacing compare with Vetter’s in music both recordings actually share?",
-  "intro": "Grieg recorded an abridged version of his piano piece in Paris on 2 May 1903; Harald Vetter’s complete performance dates from 2006. The historical disc is US public domain, and Vetter’s recording carries CC BY 4.0 at both IMSLP and Commons. Only the shared opening passage is mapped: Grieg 0:18–1:28 against Vetter 0:21.6–1:56.31, excluding the unreliable opening, cut ending and modern performance’s contrasting middle. Historical pitch instability and undocumented transfer choices limit exact tempo comparisons; the two whole-file durations are not comparable.",
+  "question": "How differently do Grieg and Harald Vetter make this wedding march dance?",
+  "intro": "More guests than expected arrived at Troldhaugen for Edvard and Nina Grieg’s silver wedding on 11 June 1892. Four years later, Grieg remembered the occasion in a piano piece, <i>Wedding Day at Troldhaugen</i>. His own 1903 disc squeezes the party into two minutes; Harald Vetter plays the complete piece.",
   "group": "composer-performers",
   "recordings": [
     {
       "listen": "grieg-wedding-day-grieg-1903",
-      "label": "Edvard Grieg · composer at the piano",
+      "label": "Edvard Grieg",
       "year": 1903,
-      "note": "Acoustic disc, matrix 2149F; abridged. Only 0:18–1:28 is aligned; the complete historical side remains playable."
+      "note": "The composer plays his own abridged version in Paris in 1903, with the march packed onto a short disc."
     },
     {
       "listen": "grieg-wedding-day-vetter-2006",
-      "label": "Harald Vetter · complete performance",
+      "label": "Harald Vetter",
       "year": 2006,
-      "note": "CC BY 4.0. Complete performance; only 0:21.6–1:56.31 participates in the comparison. Do not equate whole-track durations."
+      "note": "The complete piece, recorded on 4 October 2006, includes the quiet middle section and the march’s return."
     }
   ],
   "reference": "grieg-wedding-day-grieg-1903",
   "passages": [
     {
-      "label": "Shared phrase",
+      "label": "The march steps out",
       "t": 18,
-      "note": "Begin within the music both versions share; compare the spacing of attacks rather than overall file length."
+      "note": "Low octaves and clipped chords give the march its tread. Little triplets send the right hand skipping into the next phrase."
     },
     {
-      "label": "Growing recorded presence",
+      "label": "The piano grows bolder",
       "t": 52,
-      "note": "Follow continuity through a stronger recorded span. The map follows the phrase, not finger or pedal movements."
+      "note": "The march gathers strength, with firmer bass notes beneath the right hand’s chords."
     },
     {
-      "label": "Later opening crest",
+      "label": "Full chords",
       "t": 74,
-      "note": "Compare phrase lengths through the crest. The map stops before the historical side’s shortened ending becomes ambiguous."
+      "note": "The piano fills out the march in emphatic chords, keeping the short, lively figures between its heavier beats."
     }
   ],
   "sources": [
@@ -62,6 +62,18 @@
     {
       "title": "Creative Commons Attribution 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "title": "Ernst-Günter Heinemann and Einar Steen-Nøkleberg, Henle preface: the 1892 celebration and 1896 composition",
+      "url": "https://www.henle.de/media/ea/19/79/1690886070/0713-1690886070-sync.pdf"
+    },
+    {
+      "title": "Grieg, Wedding Day at Troldhaugen: Mutopia score after the 1903 Schirmer edition",
+      "url": "https://www.mutopiaproject.org/ftp/GriegE/O65/troldhaugen/troldhaugen-a4.pdf"
+    },
+    {
+      "title": "Arnulf Christian Mattes, What Else Can Grieg’s Historical Recordings Tell Us? (2020): Paris recording sessions",
+      "url": "https://bora.uib.no/bora-xmlui/bitstream/handle/11250/2755485/what_else_can_griegs_historical_recordings_tell_us-2.pdf?sequence=2"
     }
   ],
   "alignment": {

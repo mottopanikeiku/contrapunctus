@@ -18,133 +18,105 @@ export default {
   "source": {
     "file": "File:Mozart - Symphony No. 40 in G minor, K550 - IV. Finale. Allegro assai (Musopen Symphony).flac"
   },
-  "intro": "A quiet upward leap receives a forceful answer, and the finale builds an entire argument from that opposition. Follow the lyrical second idea into the recapitulation: it returns without rescuing the symphony from G minor.",
-  "question": "Does the lyrical second idea sound changed when it returns in the home minor key?",
+  "intro": "A quiet string arpeggio shoots upwards and the orchestra answers fiercely. Even the finale’s lyrical second tune eventually comes back in G minor; Mozart holds to that key right to the end.",
   "sections": [
     {
       "t": 0,
-      "label": "Exposition · rising question",
+      "label": "A · Rising strings, fierce orchestral answer",
       "m": "A",
-      "mNote": "Quiet upward figure and forceful reply"
+      "mNote": "A quiet arpeggio climbs through G minor"
     },
     {
       "t": 66,
-      "label": "Second group · lyrical contrast",
+      "label": "B · A gentler tune in B♭",
       "m": "B",
-      "mNote": "B♭ major"
+      "mNote": "Violins and winds share the second theme"
     },
     {
       "t": 116,
-      "label": "Development · the leap unsettled",
+      "label": "Dev · The arpeggio breaks apart",
       "m": "Dev",
-      "mNote": "Chromatic unison and imitation"
+      "mNote": "Chromatic unison, then fragments in imitation"
     },
     {
       "t": 188,
-      "label": "Recapitulation · the question returns",
+      "label": "A′ · The G minor leap returns",
       "m": "A′",
-      "mNote": "The opening returns in G minor"
+      "mNote": "Quiet strings and the forceful answer return"
     },
     {
       "t": 228,
-      "label": "Second group returns",
+      "label": "B′ · The gentle tune in G minor",
       "m": "B′",
-      "mNote": "Lyrical material now in G minor"
+      "mNote": "The second theme takes on the home minor key"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A leap and an answer",
-      "text": "The opening string figure climbs through the notes of a chord, then receives a much stronger answer. Keep that question-and-answer contrast in mind: the upward shape can be broken apart later without losing its identity.",
+      "title": "Upwards, then the answer",
+      "text": "The strings climb quietly through a G minor chord. The orchestra answers with a forceful rush. Mozart keeps setting the two against each other: the spare rising phrase and the crowded reply.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, bars 1–16, PDF pp. 33–34; report begins quietly at −24.4 dB and rises over the opening paragraph. No single answer is timed."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 1–16. The triadic opening and rushing violin response are described by Marianne Williams Tobias: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/."
     },
     {
-      "t": 35,
-      "kind": "listen",
-      "title": "Running figures carry weight",
-      "text": "Listen below the top melody. Fast string figures pass through different registers while winds and horns give the more forceful statements their weight. The motion continues even when the main idea is briefly absent.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf IV, bars 30–60, PDF pp. 35–36; report boundary 0:28 and higher relative level from 0:30 to 0:55."
-    },
-    {
-      "t": 70,
+      "t": 66,
       "kind": "form",
-      "title": "A more lyrical voice",
-      "text": "The second group offers a quieter, more sustained idea in B♭ major. The contrast is not a new tempo: the accompanying pulse still belongs to the same fast movement.",
+      "title": "Violins and winds soften",
+      "text": "The second theme sings in B♭ major, shared by violins and winds. Its longer notes make a welcome space in this fast movement. The accompanying pulse continues underneath.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, second group, PDF pp. 37–38; report’s strongest boundary is 1:06, with level falling to −25.3 dB at 1:05 and B♭-centred estimates at 1:10–1:25."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, second group, pp. 37–38 of the numbered scan; Tobias’s Indianapolis Symphony note describes the violin-and-wind melody."
     },
     {
-      "t": 105,
-      "kind": "life",
-      "title": "No final commission known",
-      "text": "The intended occasion for Mozart’s last three symphonies remains uncertain. Their close dates in his catalogue do not prove that they were conceived as a farewell or that he knew they would be his last.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Marianne Williams Tobias, Indianapolis Symphony Orchestra programme note, Symphony No. 40 (2015), https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/. Composer biography, final-symphony context."
-    },
-    {
-      "t": 140,
-      "kind": "music",
-      "title": "The leap loses its footing",
-      "text": "In the development, the familiar upward gesture encounters chromatic notes and moving harmonic ground. Imitative exchanges let separate parts pursue the same fragment instead of presenting a new tune over a stable accompaniment.",
+      "t": 116,
+      "kind": "form",
+      "title": "The leap breaks loose",
+      "text": "At the development, the opening leap returns in a jagged unison, studded with chromatic notes. The strings then chase fragments of it through overlapping entries. The tidy arpeggio has become difficult to pin down.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, bars 125–170, PDF pp. 40–42; report boundaries 2:00 and 2:10 precede an active span with changing pitch regions at 2:15–2:45. Timing is approximate."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 125–170: chromatic opening of the development and subsequent imitative writing."
     },
     {
       "t": 175,
       "kind": "world",
-      "title": "No victory added",
-      "text": "This symphony has neither trumpets nor timpani. Its conclusion will use the same wind, horn and string resources, and the minor key is not exchanged for a ceremonial major-key ending.",
+      "title": "Horns without trumpets",
+      "text": "The whole symphony uses horns, woodwinds and strings. Mozart leaves out trumpets and timpani. Even the finale’s fiercest answers come from this comparatively small orchestra.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Breitkopf orchestral score and final G-minor cadence, PDF p. 49. This describes the written scoring and ending, not a newly detected instrument."
+      "evidence": "Instrumentation in both versions of K. 550, listed at https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)."
     },
     {
-      "t": 210,
+      "t": 188,
       "kind": "form",
-      "title": "Home does not mean calm",
-      "text": "The recapitulation brings the rising figure back to G minor. The music still has to revisit the second group; the return of the first theme is the start of another argument, not the end of one.",
+      "title": "The first leap again",
+      "text": "The quiet rising figure is back in G minor, with its fierce answer still attached. After the development’s chromatic scrambling, the notes of the opening chord are suddenly clear again.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, bars 206 onward, PDF p. 44; report boundary 3:08 and return of the opening pitch profile around 3:10–3:25. This cue describes the recapitulation passage, not its first bar."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulation from bar 206."
     },
     {
-      "t": 245,
-      "kind": "music",
-      "title": "A familiar line darkened",
-      "text": "The lyrical material now belongs to G minor. Listen for how a recognisable melodic shape changes character when its new tonal setting removes the earlier major-key contrast.",
+      "t": 228,
+      "kind": "form",
+      "title": "The tune turns minor",
+      "text": "The gentle second theme returns in G minor. Its familiar curves remain, but the earlier B♭ major warmth has gone. The symphony keeps this minor key through its final chords.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, recapitulated second group, PDF pp. 46–47; report lower relative level at 3:45–3:55 and G-minor-centred windows through 4:00–4:10."
-    },
-    {
-      "t": 275,
-      "kind": "world",
-      "title": "The source leaves a gap",
-      "text": "Musopen’s release makes this performance freely available, but it does not identify a conductor or a recording session. The release year is not used here as a substitute for the date the musicians played.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Commons file page and upstream MusopenCollectionAsFlac metadata; session and conductor remain unknown in this recording’s dossier."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulated second group and final cadence, pp. 46–49 of the numbered scan."
     }
   ],
   "transitions": [
     {
       "id": "into-second-group",
-      "title": "A forceful paragraph makes room",
-      "from": "Exposition",
-      "to": "Second group · lyrical contrast",
+      "title": "F prepares the gentler tune",
+      "from": "A · Rising strings, fierce orchestral answer",
+      "to": "B · A gentler tune in B♭",
       "at": {
         "t": 66
       },
-      "how": "<p>The transition concentrates its energy on the dominant of B♭. A reduction in texture then lets the quieter second group establish the relative major. The contrast comes from a new melodic manner and lighter accompaniment, not from a new basic tempo.</p>",
+      "how": "<p>The transition gathers on F, the dominant of B♭ major. After the break, violins and woodwinds share the quieter second theme. Longer notes replace the opening’s rushing answer, while the Allegro assai pulse continues.</p>",
       "devices": [
         "medial caesura",
         "texture change",
@@ -152,17 +124,17 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, transition and second-group opening, PDF pp. 36–37; report strong boundary 1:06 and sharp relative-level fall at 1:05."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, transition and second-group opening, pp. 36–37 of the numbered scan."
     },
     {
       "id": "into-development",
-      "title": "The opening gesture is destabilised",
-      "from": "Second group · lyrical contrast",
-      "to": "Development",
+      "title": "A jagged answer to B♭",
+      "from": "B · A gentler tune in B♭",
+      "to": "Dev · The arpeggio breaks apart",
       "at": {
         "t": 116
       },
-      "how": "<p>After the exposition’s B♭-major close, the upward gesture returns in a chromatically disrupted unison. The familiar contour is retained while its comfortable chordal basis is removed. Short fragments then become material for imitative, sequential working.</p>",
+      "how": "<p>The exposition closes in B♭ major. Its successor is the opening leap stretched into a chromatic unison: the orchestra briefly loses the comfort of a supporting chord. The strings then take up fragments in imitation, one entry pursuing another.</p>",
       "devices": [
         "perfect cadence",
         "motivic link",
@@ -171,17 +143,17 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, bars 118–140, PDF p. 40; report boundaries 2:00 and 2:10 mark the changed texture. The development marker at 1:56 is proportional, not an aligned attack."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 118–140."
     },
     {
       "id": "into-recapitulation",
-      "title": "The restless passage finds G",
-      "from": "Development",
-      "to": "Recapitulation",
+      "title": "D leads back to G",
+      "from": "Dev · The arpeggio breaks apart",
+      "to": "A′ · The G minor leap returns",
       "at": {
         "t": 188
       },
-      "how": "<p>The development’s running fragments lead back to the dominant of G minor. The quiet opening gesture returns over its original tonic, followed by the forceful answer. The recognisable texture helps make the tonal return audible.</p>",
+      "how": "<p>The running string fragments lead to D, the dominant of G minor. The opening arpeggio returns quietly in the strings over its original G minor harmony. Then comes the familiar forceful answer.</p>",
       "devices": [
         "retransition",
         "motivic link",
@@ -189,24 +161,24 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, bars 193–214, PDF p. 44; report level falls around 3:05 and opening pitch material recurs after boundary 3:08."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 193–214."
     },
     {
       "id": "second-group-home",
-      "title": "The lyrical idea changes key",
-      "from": "Recapitulation",
-      "to": "Second group returns",
+      "title": "D prepares the changed melody",
+      "from": "A′ · The G minor leap returns",
+      "to": "B′ · The gentle tune in G minor",
       "at": {
         "t": 228
       },
-      "how": "<p>The return of the second group is prepared within the home-key argument rather than by another escape to B♭ major. Its quieter melody now settles in G minor. Mozart retains the textural contrast while removing the exposition’s contrast of tonal centres.</p>",
+      "how": "<p>The returning transition prepares G minor through its dominant, D. Violins and winds resume the quieter second theme in that home key. The orchestral contrast survives; the earlier change to B♭ major is replaced by a G minor melody.</p>",
       "devices": [
         "standing on the dominant",
         "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf IV, recapitulatory transition and second group, PDF pp. 45–47; report low-level windows at 3:45–3:55 and boundaries 3:48 and 3:52. Timing remains provisional."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulatory transition and second group, pp. 45–47 of the numbered scan."
     }
   ],
   "orchestra": {
@@ -225,7 +197,7 @@ export default {
     "source": {
       "title": "Mozart, Symphony No. 40, K. 550, Breitkopf & Härtel, Mozarts Werke VIII/40 (1880), plate W.A.M. 550; parts common to both versions",
       "url": "https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)",
-      "locator": "IV. Allegro assai; PDF pp. 33–49, especially bars 1–16, 44–60, 79–110, 125–140, 193–214 and 293–308. Both versions are printed together. Clarinets and version-specific oboe detail are not inferred from this recording. Timings are provisional passage estimates, not aligned entrances."
+      "locator": "IV. Allegro assai, PDF pp. 33–49: opening arpeggio, second theme, development and recapitulation. The edition prints both orchestral versions."
     },
     "timeline": [
       {
@@ -241,7 +213,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "Opening passage: the quiet upward violin gesture is supported by the lower parts."
+        "note": "The violins’ quiet rising arpeggio is supported by bassoons and lower strings."
       },
       {
         "t": 28,
@@ -260,7 +232,7 @@ export default {
           "violins-1",
           "violins-2"
         ],
-        "note": "Transition passage: winds and horns reinforce running string figures."
+        "note": "Winds and horns reinforce the running string figures."
       },
       {
         "t": 66,
@@ -276,7 +248,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "Quieter second-group passage; strings and wind replies alternate rather than playing continuously."
+        "note": "The violins’ gentler B♭ major tune alternates with wind replies."
       },
       {
         "t": 116,
@@ -295,7 +267,7 @@ export default {
           "violins-1",
           "violins-2"
         ],
-        "note": "Development: chromatic unison and subsequent imitation disrupt the opening gesture."
+        "note": "The opening arpeggio breaks into a chromatic unison, then passes between imitating parts."
       },
       {
         "t": 188,
@@ -310,7 +282,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "The quiet opening texture returns in the recapitulation."
+        "note": "The quiet rising arpeggio returns in the violins, with bassoons and lower strings."
       },
       {
         "t": 228,
@@ -326,7 +298,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "The lyrical second group returns in G minor, with version-specific wind detail withheld."
+        "note": "The gentler second theme returns in G minor, with strings and winds answering each other."
       },
       {
         "t": 266,
@@ -345,7 +317,7 @@ export default {
           "violins-1",
           "violins-2"
         ],
-        "note": "Closing paragraph: running strings and sustained or punctuating wind-and-horn chords."
+        "note": "Running strings press towards the close beneath held and accented wind chords."
       }
     ]
   }

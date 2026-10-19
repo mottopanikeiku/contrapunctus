@@ -20,156 +20,110 @@ export default {
       "evidence": "Everest mono LPBR 6059: sleeve ©1960 Belock Instrument Corp. (https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt); Edwards and Callahan Everest Classical Album Discography lists LPBR 6059 / SDBR 3059 [1960] (https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf). First publication documented by 1960, anywhere; territorial EU rule 3 only. US recording status not established."
     }
   },
-  "intro": "A prayer for the whole universe moves from low choral declamation through a flute interlude and a tenor solo towards a large communal close. Boulanger’s score alternates words and wordless humming; listen for how those different kinds of vocal sound join the sections.",
-  "question": "How does the same prayer expand from low voices to the full ensemble?",
+  "intro": "Low voices begin Boulanger’s prayer for the happiness of every living being; a solo flute and Michel Sénéchal’s tenor take it up in turn. The quiet chant eventually fills the whole choir and orchestra.",
   "sections": [
     {
       "t": 0,
-      "label": "Choral prayer",
+      "label": "A · Altos and basses chant",
       "m": "A",
-      "mNote": "low voices repeat a compact melodic formula"
+      "mNote": "Repeated Gs in the voices over a C-centred accompaniment"
     },
     {
       "t": 148,
-      "label": "Flute interlude",
+      "label": "B · The flute sings freely",
       "m": "B",
-      "mNote": "the instruments continue the melodic thread"
+      "mNote": "Solo flute above harps and divided strings"
     },
     {
       "t": 198,
-      "label": "Tenor prayer",
+      "label": "C · One tenor carries the prayer",
       "m": "C",
-      "mNote": "a solo voice carries the next broad span"
+      "mNote": "Bowed and plucked strings alternate beneath the solo voice"
     },
     {
       "t": 330,
-      "label": "Communal proclamation",
+      "label": "D · Choir and strings in octaves",
       "m": "D",
-      "mNote": "full choir and strings enlarge the prayer"
+      "mNote": "The full choir takes the chant after a long pause"
     },
     {
       "t": 405,
-      "label": "Wordless coda",
+      "label": "Coda · Wordless voices, accelerating orchestra",
       "m": "Coda",
-      "mNote": "acceleration and crescendo drive the final chord"
+      "mNote": "Repeated notes accelerate towards the final chord"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A low collective voice",
-      "text": "The prayer begins with altos and basses together, over a restrained orchestral foundation. Repeated notes and a compact melodic shape matter more than a long lyrical tune. Listen for how repetition makes the line feel like sustained address.",
-      "basis": "documented",
+      "title": "A chant on G",
+      "text": "Altos and basses begin together, returning insistently to G. The accompaniment rests around C, with the lowered second, D♭, giving the chant its Phrygian sound. Boulanger asks the singers for <i>grave, simple</i> — solemn and simple.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed p. 1; the opening has a C-centred Phrygian inflection: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. Whole-work listening point, not an assertion that a particular note or entrance occurs at this timestamp."
+      "evidence": "Durand full score, plate D. & F. 10090, p. 1; Konstantin Galluhn’s preface (2010) identifies the opening Phrygian mode on C and repeated G. https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
     },
     {
       "t": 35,
       "kind": "world",
-      "title": "A French Buddhist text",
-      "text": "Suzanne Karpelès supplied the French text used by Boulanger. The score calls the work a daily prayer for the whole universe. Its setting belongs to a French concert tradition; the orchestral colours are not evidence of a documented Buddhist performance practice.",
+      "title": "A prayer for everyone",
+      "text": "Suzanne Karpelès supplies Boulanger with the French text in 1914. Its prayer embraces every breathing creature, women and men, gods and humans, east and west, north and south. Each is to overcome suffering and move freely along its own path.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Konstantin Galluhn preface; translator credit on score p. 1: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
+      "evidence": "Translator’s credit on the Durand score, p. 1; French text and the date it reached Boulanger in Konstantin Galluhn’s preface (2010). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
     },
     {
-      "t": 70,
-      "kind": "listen",
-      "title": "Humming joins the phrases",
-      "text": "Wordless humming is part of the score’s design, not background noise. Sopranos and tenors enter with closed mouths while the lower voices carry the words. Across the work, that sustained vocal colour helps one span pass into another.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Visually inspected Durand full score, opening, bar 9, and printed p. 17; structural account: https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. Whole-work listening point, not an assertion that a particular note or entrance occurs at this timestamp."
-    },
-    {
-      "t": 105,
-      "kind": "music",
-      "title": "A broader first span",
-      "text": "The opening prayer has expanded into a stronger, brighter stretch. Follow the growth across the phrase instead of hearing every change of volume as a new section.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Actual cached mono stream: cache/analysis/lili-boulanger-vieille-priere.txt, a marked change at 1:26 leads into stronger 1:30–2:10 windows, reaching −4.6 dB near 2:10 Source file: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d. These measurements establish the broad contour, not isolated instruments or words."
-    },
-    {
-      "t": 145,
+      "t": 148,
       "kind": "form",
-      "title": "The flute continues the thread",
-      "text": "The instrumental interlude takes up the earlier melodic material in a freely shaped flute line. Harp motion and divided strings keep an accompaniment beneath it. Listen for a change of speaker rather than a break in the prayer’s continuity.",
+      "title": "The flute takes the chant",
+      "text": "The choir’s last notes linger while a solo flute picks up its phrases. Boulanger asks for the flute to sing freely. Grace notes and quick runs open out the chant above harps, plucked violas and trembling divided violins.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 8–10, flute solo after the second choral stanza: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. cache/analysis/lili-boulanger-vieille-priere.txt: the withdrawal around 2:25 and boundary at 2:28 locate the interlude approximately. Approximate passage placement; no bar-to-audio alignment or exact entrance is claimed."
+      "evidence": "Durand full score, pp. 8–10, flute interlude from bar 36: laisser la Flûte chanter librement, grace notes, harps, divided violin tremolo and pizzicato violas."
     },
     {
-      "t": 180,
-      "kind": "life",
-      "title": "Rome to Arcachon",
-      "text": "Begun in Rome in 1914, the work was completed in Arcachon in 1917. Those places and dates are written at the end of the score. Its long gestation crossed the war years; the music should not be reduced to a diary entry.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Printed p. 24: Rome 1914 / Arcachon 1917; also https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf"
-    },
-    {
-      "t": 215,
+      "t": 198,
       "kind": "form",
-      "title": "A single tenor speaks",
-      "text": "The tenor’s central span shifts the prayer from collective declamation to one voice. Michel Sénéchal sings this recording’s solo; the score surrounds the line with divided strings and restrained wind colours rather than the opening’s choral mass.",
+      "title": "A tenor, calm and clear",
+      "text": "Michel Sénéchal takes the third stanza, marked <i>calme et clair</i>. The divided strings alternate bowed and plucked notes beneath his line. The prayer reaches women, men and fallen beings; its most troubled chords surround the words about those who have fallen.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 11–12, figure 4, A Tempo: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. cache/analysis/lili-boulanger-vieille-priere.txt: the strong changes around 3:14–3:18 and quiet subsequent windows support the approximate start of the solo region. Approximate passage placement; no bar-to-audio alignment or exact entrance is claimed."
-    },
-    {
-      "t": 250,
-      "kind": "listen",
-      "title": "A deep withdrawal",
-      "text": "This central passage makes room for very soft sound. Keep following the line through the withdrawal: low recorded level does not itself mean a pause or the end of a stanza.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Actual cached mono stream: cache/analysis/lili-boulanger-vieille-priere.txt, relative level falls to about −16.9 dB at 4:10 before recovering; the analysis does not identify a particular sung word Source file: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d. These measurements establish the broad contour, not isolated instruments or words."
+      "evidence": "Durand full score, pp. 11–14, tenor solo from bar 48. Konstantin Galluhn’s preface singles out the dissonant setting of ceux qui sont déchus in bars 57–59."
     },
     {
       "t": 285,
-      "kind": "world",
-      "title": "First heard after her death",
-      "text": "Boulanger never heard the completed work in concert. The scholarly preface records the first performance on 9 June 1921, conducted by Henri Büsser with the Concerts Dandelot orchestra, more than three years after her death.",
+      "kind": "life",
+      "title": "Rome to Arcachon",
+      "text": "Boulanger begins the score in Rome in 1914 and finishes it at Arcachon, on the Atlantic coast, in 1917. Both places appear on the last page. She never hears the finished work in concert; Henri Büsser conducts its première on 9 June 1921.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Performance history in Konstantin Galluhn’s preface. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
+      "evidence": "Durand full score, p. 24, dated Rome 1914 / Arcachon 1917; composition and première history in Konstantin Galluhn’s preface (2010). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
     },
     {
-      "t": 325,
-      "kind": "listen",
-      "title": "From humming to full speech",
-      "text": "Near the later return, humming and a held pause make room for a much fuller choral statement. The complete choir and strings take up the line together. Compare this unified weight with the low voices and more restrained accompaniment at the beginning.",
+      "t": 330,
+      "kind": "form",
+      "title": "From humming to full choir",
+      "text": "Closed-mouth humming leads into a long held pause. Then the full choir and strings proclaim the chant in octaves. The strings remove their mutes; the voices are marked <i>clamant</i>, crying out, as the prayer turns to east, west, north and south.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 17–18, figure 7 and following choral entry: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. cache/analysis/lili-boulanger-vieille-priere.txt: the quiet 5:25 window is followed by the large 5:30 level and brightness jump; no exact first-word timing is claimed. Approximate passage placement; no bar-to-audio alignment or exact entrance is claimed."
-    },
-    {
-      "t": 365,
-      "kind": "music",
-      "title": "The larger voice persists",
-      "text": "The expanded sound holds its force through this later stretch. Listen for the difference between a sustained communal statement and a single loud accent: the preceding quiet span has changed the scale of what follows.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Actual cached mono stream: cache/analysis/lili-boulanger-vieille-priere.txt, the 5:35–6:10 windows sustain substantially higher levels than the preceding central passage Source file: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d. These measurements establish the broad contour, not isolated instruments or words."
+      "evidence": "Durand full score, pp. 17–18: bouches fermées, long fermata, unmuted strings and full choir marked ff clamant."
     },
     {
       "t": 405,
       "kind": "form",
-      "title": "A coda without words",
-      "text": "The final coda abandons words for open vowels and increases its motion. Acceleration, repeated attacks and crescendo lead to a broad final chord. This score ends with a forceful affirmation, not a long pianissimo fade.",
+      "title": "One last wordless cry",
+      "text": "The words end, and the choir continues on open vowels. Repeated notes accelerate through the orchestra; harps sweep down with the winds. At <i>Large</i> the rush broadens into a held chord, which swells to <i>fortississimo</i>.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 23–24, Accel., figure 10 and Large: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. cache/analysis/lili-boulanger-vieille-priere.txt: onset activity increases around 6:50–7:00, while the last strong windows precede the final recorded decay around 7:10. Approximate passage placement; no bar-to-audio alignment or exact entrance is claimed."
+      "evidence": "Durand full score, pp. 23–24, coda from bar 98: Accel., wordless Ah, descending harp and wind figures, Large and final crescendo."
     }
   ],
   "transitions": [
     {
       "id": "into-flute-interlude",
-      "title": "The flute inherits the sung line",
-      "from": "Choral prayer",
-      "to": "Flute interlude",
+      "title": "The flute continues the last syllable",
+      "from": "A · Altos and basses chant",
+      "to": "B · The flute sings freely",
       "at": {
         "t": 148
       },
@@ -177,7 +131,7 @@ export default {
         133,
         168
       ],
-      "how": "<p>The second choral span tapers into sustained humming. A solo flute then varies the preceding melodic figures above harp motion, divided strings and quieter wind support. The choir does not need a full stop to hand over the foreground: the held vocal sound and continuing accompaniment turn the instrumental passage into a link.</p>",
+      "how": "<p>The choir holds its last syllable while the bass moves into a new chord. At <i>a Tempo</i> the solo flute begins above repeated harp notes, plucked violas and divided violins trembling over the fingerboard. The chant’s short phrases acquire grace notes and runs as the harmony moves away from its opening C.</p>",
       "devices": [
         "decrescendo",
         "orchestration change",
@@ -186,13 +140,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 8–10: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. Actual cached analysis, cache/analysis/lili-boulanger-vieille-priere.txt: the level drops after 2:10 and the 2:28 change locates the interlude approximately. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score, pp. 8–10, bar 36 onwards: a Tempo, sustained choral syllable, solo flute, harp figures, pizzicato violas and violin tremolo marked sur la touche."
     },
     {
       "id": "into-tenor-prayer",
-      "title": "The flute’s freedom becomes a vocal line",
-      "from": "Flute interlude",
-      "to": "Tenor prayer",
+      "title": "A voice after the flute",
+      "from": "B · The flute sings freely",
+      "to": "C · One tenor carries the prayer",
       "at": {
         "t": 198
       },
@@ -200,7 +154,7 @@ export default {
         183,
         219
       ],
-      "how": "<p>After the flute’s increasingly mobile figure, a yielding gesture leads to A Tempo at figure 4. The tenor begins a calm, clear line while divided strings alternate bowed and plucked sounds beneath it. Winds retain sustained notes and answering phrases. A change of foreground and accompaniment, not a hard silence, introduces the solo prayer.</p>",
+      "how": "<p>A <i>Cédez</i> slows the flute’s run before figure 4. At <i>a Tempo</i> the tenor enters, <i>calme et clair</i>. The violins and violas divide between bowed and plucked notes; cellos and basses sustain the slower-moving foundation while bass clarinet and bassoons hold their chords.</p>",
       "devices": [
         "texture change",
         "orchestration change",
@@ -208,13 +162,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 10–12, figure 4: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. Actual cached analysis, cache/analysis/lili-boulanger-vieille-priere.txt: strong novelty around 3:14–3:18 and a quieter following stretch provide the approximate anchor. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score, pp. 10–12, figure 4: Cédez, a Tempo, tenor entry and divided arco/pizzicato strings."
     },
     {
       "id": "into-communal-proclamation",
-      "title": "A held breath releases the full choir",
-      "from": "Tenor prayer",
-      "to": "Communal proclamation",
+      "title": "A pause before the cry",
+      "from": "C · One tenor carries the prayer",
+      "to": "D · Choir and strings in octaves",
       "at": {
         "t": 330
       },
@@ -222,7 +176,7 @@ export default {
         311,
         345
       ],
-      "how": "<p>The solo region gives way to overlapping voices and closed-mouth humming. After a long held pause, the full choir and strings state the line together, marked loudly and declaimed. Brass and percussion reinforce the larger sound. Boulanger makes the contrast through a held breath, unified vocal rhythm and expanded scoring.</p>",
+      "how": "<p>The voices hum over held wind chords and a descending harp run. A fermata marked <i>long</i> suspends them. The choir then begins in octaves, <i>ff clamant</i>, with the unmuted strings; low winds, trombones and basses reinforce the next sustained chord.</p>",
       "devices": [
         "fermata",
         "texture change",
@@ -231,13 +185,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 17–18, held pause and full-choir statement: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. Actual cached analysis, cache/analysis/lili-boulanger-vieille-priere.txt: the 5:25 window is quiet; at 5:30 level rises to −3.9 dB and brightness to about 1769 Hz. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score, pp. 17–18: humming, long fermata, ff clamant entry and strings instructed to remove mutes."
     },
     {
       "id": "into-wordless-coda",
-      "title": "Words release an accelerating final gesture",
-      "from": "Communal proclamation",
-      "to": "Wordless coda",
+      "title": "The vowels carry on",
+      "from": "D · Choir and strings in octaves",
+      "to": "Coda · Wordless voices, accelerating orchestra",
       "at": {
         "t": 405
       },
@@ -245,7 +199,7 @@ export default {
         390,
         425
       ],
-      "how": "<p>The last textual statement leads into open-vowel choral sound. Repeated orchestral attacks gather speed under an acceleration, with a crescendo through the brass, winds and strings. The final Large broadens the arrival into a forceful chord. The change from words to sustained vowels allows the orchestra’s rhythmic energy to finish the argument.</p>",
+      "how": "<p>The choir leaves its final syllable for an open <i>Ah</i>. Winds repeat accented notes above a descending bass, and <i>Accel.</i> drives the orchestra onwards. A downward sweep in harps and winds reaches <i>Large</i>; the choir holds its chord while brass, strings and percussion swell around it.</p>",
       "devices": [
         "tempo change",
         "crescendo build",
@@ -253,7 +207,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 23–24, Accel. through Large: https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf. Actual cached analysis, cache/analysis/lili-boulanger-vieille-priere.txt: higher onset activity around 6:50–7:00 and strong late windows locate the closing drive approximately. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score, pp. 23–24: wordless coda, accelerating repeated notes, descending bass and harp figures, then Large and crescendo."
     }
   ],
   "orchestra": {
@@ -284,7 +238,7 @@ export default {
     "source": {
       "title": "Lili Boulanger, Vieille prière bouddhique, Durand full score, plate D. & F. 10090",
       "url": "https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf",
-      "locator": "Printed pp. 1, 8–12, 17–18, 23–24. Two harps share one icon. Sarrusophone is written but has no stage icon; no substitution is inferred. Trumpets are present in the full score despite their omission from the short nomenclature list. The French sung text has separate unresolved rights; no lyrics are reproduced here. Representative passage snapshots, placed approximately using the cached level/novelty report and score order. Not continuous player detection; individual rests are not mapped."
+      "locator": "Printed pp. 1, 8–12, 17–18, 23–24. The full score includes trumpets, sarrusophone and two harps. A footnote permits six tenors to sing the tenor solo."
     },
     "timeline": [
       {
@@ -305,7 +259,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "Altos and basses begin together above the held orchestral foundation; no instrumental prelude."
+        "note": "Altos and basses begin together over held harp and string chords, with clarinets and horns taking up their phrase."
       },
       {
         "t": 45,
@@ -325,7 +279,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "Upper choral humming complements the lower voices; this is a broad opening snapshot, not an exact bar-9 entrance."
+        "note": "Sopranos and tenors hum above the words sung by altos and basses."
       },
       {
         "t": 148,
@@ -345,7 +299,7 @@ export default {
         "lead": [
           "flutes"
         ],
-        "note": "The central flute interlude unfolds over two harps and divided strings; choral sound tapers at its beginning."
+        "note": "A solo flute continues the chant above two harps and divided strings."
       },
       {
         "t": 198,
@@ -364,7 +318,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The tenor’s calm central statement replaces the flute foreground; divided strings retain bowed and plucked layers."
+        "note": "The tenor enters, calm and clear, above strings divided between bowed and plucked notes."
       },
       {
         "t": 280,
@@ -389,7 +343,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "Towards the end of the solo region, choral imitation and humming prepare the communal return."
+        "note": "The choir takes up the tenor’s phrases in imitation, then hums over the strings."
       },
       {
         "t": 330,
@@ -415,7 +369,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "After the held pause, full choir and strings declaim together with lower brass and percussion reinforcement."
+        "note": "After a long pause, choir and unmuted strings proclaim the chant in octaves, with low brass and percussion."
       },
       {
         "t": 405,
@@ -444,7 +398,7 @@ export default {
           "chorus",
           "trumpets"
         ],
-        "note": "The accelerating wordless coda gathers the full ensemble, then broadens for the final chord."
+        "note": "Wordless voices rise above accelerating wind and string figures. The final chord broadens and swells."
       }
     ]
   }

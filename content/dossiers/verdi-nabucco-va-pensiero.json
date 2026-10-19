@@ -1,0 +1,178 @@
+{
+  "id": "verdi-nabucco-va-pensiero",
+  "work": {
+    "title": "Nabucco",
+    "catalogue": "",
+    "movement": "Act III: Va, pensiero, sull’ali dorate",
+    "version": {
+      "value": "Italian-language chorus with orchestra, presented as a separate LP selection",
+      "status": "documented",
+      "sourceIds": ["booklet", "archive-files", "score", "scala"],
+      "note": "The selection includes the chorus’s orchestral introduction and closing cadence. Zaccaria’s ensuing prophecy, joined to the chorus in the opera’s dramatic design, is outside this selection. The performing edition and any small editorial alterations are unidentified. Section joins are broad score-proportional estimates informed by the required audio analysis; they have no bar-level alignment or aural review."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Chorus of La Scala", "role": "chorus" },
+      { "name": "Orchestra of La Scala", "role": "orchestra" },
+      { "name": "Tullio Serafin", "role": "conductor" },
+      { "name": "Norberto Mola", "role": "chorus master" }
+    ],
+    "status": "documented",
+    "sourceIds": ["booklet", "archive"],
+    "note": "The original cover and booklet credit the Chorus and Orchestra of La Scala, Tullio Serafin and chorus master Norberto Mola. Internet Archive uses the equivalent Italian ensemble names Coro Del Teatro Alla Scala and Orchestra Del Teatro Alla Scala. No individual choristers or orchestral players are identified."
+  },
+  "session": {
+    "date": {
+      "value": "1955-06",
+      "status": "documented",
+      "sourceIds": ["booklet", "discography"],
+      "note": "The original booklet states ‘Recorded June 1955 at La Scala with full orchestra and chorus.’ Youngrok Lee’s discography gives 6–7 June for these choruses, but the primary source supports month precision; a particular day and take for this track remain unidentified. The 2021 digitisation is separate.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Teatro alla Scala, Milan, Italy",
+      "status": "documented",
+      "sourceIds": ["booklet", "discography"],
+      "note": "The booklet explicitly names La Scala as the recording venue. A particular room, stage configuration or microphone layout is not established."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Angel Records",
+      "status": "documented",
+      "sourceIds": ["booklet", "archive"],
+      "note": "The source is an Angel mono vinyl LP, La Scala Presents Verdi Operas: The Great Choruses."
+    },
+    "catalogue": {
+      "value": "35265; ANG. 35265",
+      "status": "documented",
+      "sourceIds": ["booklet", "archive", "retail-catalogue"],
+      "note": "Internet Archive dates the US issue 1955; Recordsale dates Angel 35265 to 1956. The original booklet’s ©1955 notice concerns its publication material and is kept distinct from proof of an exact release date. The later catalogue year, 1956, supplies the conservative publication year for the recording-rights assessment."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, band 1",
+      "status": "documented",
+      "sourceIds": ["booklet", "archive-files"],
+      "note": "The booklet places Nabucco first on side one, matching the selected 01.01 MP3 derivative. Pressing matrix, stamper, original tape identifier and session take are unknown."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP transfer",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item credits Internet Archive and identifies its LP digitisation workflow. Operator account identifiers are not expanded into unverified personal mastering credits."
+    },
+    "date": {
+      "value": "2021-06-17",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The ripping_date field is 20210617045418. The item’s 31 May 2021 scan/publication date and the derivative’s 2023 processing timestamp are separate events, not recording-session dates."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable with Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; segmented VBR MP3 access derivative",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "The playback and digitisation chain is transcribed from the item’s lineage field. Equalisation settings, pitch correction, noise reduction and other restoration decisions are unknown."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t/disc1/01.01.%20Nabucco%3A%20Chorus%20Of%20Jews%3A%20Va%2C%20Pensiero%2C%20Sull%27%20Ali%20Dorate%20%28Act%203%29.mp3",
+    "sourceChain": ["booklet", "archive", "archive-files"],
+    "format": "VBR MP3 derivative of a mono vinyl LP transfer",
+    "durationSeconds": 280.44
+  },
+  "rights": {
+    "composition": {
+      "value": "Verdi’s composition and Solera’s Italian text are in the public domain under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": ["work-catalogue", "scala", "eu-term"],
+      "note": "The opera was composed in 1841 and first published in 1842. Solera died in 1878 and Verdi in 1901. This assessment concerns their original music and text; unidentified modern editions and translations have separate rights."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: commercial publication in 1955–56, before 1963.",
+      "status": "documented",
+      "sourceIds": ["archive", "booklet", "retail-catalogue", "eu-term"],
+      "note": "The transferred commercial Angel 35265 issue is dated 1955 by Internet Archive and 1956 by Recordsale. Both dates precede 1963; source.rights uses 1956 conservatively. Under the project’s EU rule the former 50-year phonogram term expired before the extension applicable to recordings still protected on 1 November 2013. The booklet identifies the performers and June 1955 session independently of the release dating. Internet Archive supplies no Creative Commons licence. US recording status and worldwide clearance are not established."
+    },
+    "creditLine": "Giuseppe Verdi, Nabucco: Va, pensiero, sull’ali dorate; words by Temistocle Solera. Chorus and Orchestra of La Scala; Tullio Serafin, conductor; Norberto Mola, chorus master. Recorded June 1955, La Scala, Milan; Angel 35265, issued 1955–56. Internet Archive LP transfer. Territorial EU public-domain basis; US recording status not established.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Angel 35265 transfer metadata",
+      "url": "https://archive.org/metadata/lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t/metadata",
+      "locator": "Creator credits; publisher Angel Records; catalogue 35265 / ANG. 35265; issue date 1955; US; vinyl source; lineage; ripping_date 20210617045418. No licence URL is supplied.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "booklet",
+      "title": "Angel 35265 — original cover, labels and William Weaver booklet",
+      "url": "https://archive.org/download/lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t/lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t_djvu.txt",
+      "locator": "Original cover and booklet p. 2 name the ensembles, Serafin and Norberto Mola and state ‘Recorded June 1955 at La Scala with full orchestra and chorus’; ©1955 Electric and Musical Industries (U.S.) Ltd. Texts identify Nabucco as the first selection on side one. Weaver’s Nabucco note names Strepponi at the première and as Verdi’s later wife.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — selected Nabucco derivative",
+      "url": "https://archive.org/metadata/lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t/files",
+      "locator": "disc1/01.01. Nabucco: Chorus Of Jews: Va, Pensiero, Sull' Ali Dorate (Act 3).mp3; VBR MP3, 280.44 seconds, derived from the segmented LP transfer.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "retail-catalogue",
+      "title": "Recordsale — Angel 35265 issue identification",
+      "url": "https://recordsale.de/en/artists/giuseppe-verdi/albums/la-scala-presents-verdi-operas-the-great-choruses",
+      "locator": "Identifies Angel 35265, US, 1956, mono LP with booklet; corroborates ensemble and Norberto Mola credits. The later of the two consulted catalogue years is used for the rights cutoff.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discography",
+      "title": "Youngrok Lee — Tullio Serafin discography",
+      "url": "https://lee.classite.com/music/Serafin/discography-serafin.htm#Choruses",
+      "locator": "Opera Choruses entry: 6–7 June 1955, Teatro alla Scala, Milan, monaural; Columbia 33CX 1376 and Angel 35265. The dossier retains the original booklet’s month precision.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Verdi — Va, pensiero, El Atril / Free-scores vocal score",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Va_pensiero%2C_from_Nabucco%2C_by_Verdi.pdf",
+      "locator": "PDF pp. 1–11: six-sharp signature; Largo introduction, bars 1–11; shared choral melody from bar 12; harmonic expansion at Arpa d’or, bars 28–29; final stanza from bar 36; repeated closing text and decrescendo from bar 41 to the end. Pages 1, 2, 6, 8, 10 and 11 inspected visually. The re-engraving’s editor and date are unidentified.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "text",
+      "title": "The Cleveland Orchestra — Va, pensiero from Nabucco",
+      "url": "https://www.clevelandorchestra.com/works/verdi-va-pensiero-from-nabucco",
+      "locator": "Composition year 1841; Temistocle Solera attribution; complete Italian chorus text and English translation, including the Jordan, Zion, the golden harp and final prayer for strength in suffering.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP — Nabucco work catalogue",
+      "url": "https://imslp.org/wiki/Nabucco_(Verdi,_Giuseppe)",
+      "locator": "Composition 1841; first performance 9 March 1842 at Teatro alla Scala, Milan; first publication 1842; Solera’s dates 1815–1878; Act III chorus listed separately as No. 12.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "scala",
+      "title": "Teatro alla Scala — Nabucodonosor study guide, 2025–26 season",
+      "url": "https://www.teatroallascala.org/static/upload/dis/dispensa-nabuccol.pdf",
+      "locator": "Emilio Sala’s synopsis, PDF p. 12, places the captive Hebrews on the Euphrates; pp. 8–9 explain the chorus and Zaccaria’s subsequent prophecy. Raffaele Mellace’s chronology, PDF pp. 20–22, gives the 9 March 1842 première under the original title and Verdi’s death in January 1901.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — composition and sound-recording terms",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3 and Article 1(2)–(3): former 50-year phonogram term and the extension’s 1 November 2013 transition. Article 1(1): musical compositions with words, 70 years from the death of the last surviving lyricist or composer.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

@@ -60,12 +60,12 @@ export async function mount(app) {
     now.textContent = r.label;
     clock.textContent = fmt(owns ? player.time : fromReference(id, ref) ?? 0);
     duration.textContent = `/ ${fmt(r.duration)}`;
-    referenceTime.textContent = ref == null ? 'outside aligned span' : fmt(ref);
+    referenceTime.textContent = ref == null ? 'no matched time' : fmt(ref);
     const bounds = r.listen === data.reference ? [0, data.duration] : r.map?.length ? [r.map[0][0], r.map.at(-1)[0]] : null;
     seek.disabled = busy || !bounds;
     if (bounds) { seek.min = bounds[0]; seek.max = bounds[1]; }
     if (ref != null) seek.value = ref;
-    seek.setAttribute('aria-valuetext', ref == null ? 'Outside the aligned reference span' : `${fmt(ref)} in the reference recording`);
+    seek.setAttribute('aria-valuetext', ref == null ? 'No matching time in the reference' : `${fmt(ref)} in the reference recording`);
     play.disabled = busy;
     play.textContent = owns && player.playing ? 'Pause' : 'Play';
     play.setAttribute('aria-label', `${owns && player.playing ? 'Pause' : 'Play'} ${r.label}`);
@@ -76,8 +76,8 @@ export async function mount(app) {
       const available = !owns || active || targetTime != null;
       button.disabled = busy || !available;
       button.setAttribute('aria-pressed', String(active));
-      button.textContent = active ? 'Selected' : available ? 'Switch performer' : 'Outside aligned span';
-      button.title = available ? `Select ${recordings.get(target).label} at the same musical moment` : 'There is no mapped counterpart at the current position. Choose an aligned passage below.';
+      button.textContent = active ? 'Selected' : available ? 'Switch performer' : 'No match here';
+      button.title = available ? `Select ${recordings.get(target).label} at the matching phrase` : 'Choose a passage below to hear matching versions.';
     }
     for (const line of lines) line.classList.toggle('is-selected', line.dataset.cmpLine === id);
     for (const button of passages) {
@@ -120,15 +120,15 @@ export async function mount(app) {
         player.play().then((ok) => {
           if (!alive || token !== operation) return;
           awaitingStart = false;
-          if (!ok) fail('Playback could not start. Press Play to try again, or open the recording source below.');
+          if (!ok) fail('Could not start playback; press Play to try again or open the source below.');
           else { refresh(); armBoundary(); }
-        }).catch(() => { if (alive && token === operation) fail('The recording could not be played. Its original source is linked below.'); });
+        }).catch(() => { if (alive && token === operation) fail('Could not play the recording; try its original source below.'); });
       }
       refresh();
     } catch (error) {
       if (!alive || token !== operation) return;
       changing = false;
-      fail('The shared player could not load this recording. Its original source is linked below.');
+      fail('Could not load the recording; try its original source below.');
     }
   }
 
@@ -159,7 +159,7 @@ export async function mount(app) {
     clearTimeout(timer); timer = 0;
     sequence.index++;
     if (sequence.index >= sequence.spans.length) {
-      player.pause(); clearSequence('Sequence complete. Switch performers to continue comparing, or choose another moment.'); refresh(); return;
+      player.pause(); clearSequence('You have heard each version; choose another passage or keep switching performers.'); refresh(); return;
     }
     const span = sequence.spans[sequence.index];
     say(`Playing ${sequence.index + 1} of ${sequence.spans.length}: ${recordings.get(span.id).label}.`);
@@ -167,9 +167,9 @@ export async function mount(app) {
   }
 
   try { await player.getProgramme(); }
-  catch { say('The shared player could not load. The recording sources and notes remain available below.'); return () => {}; }
+  catch { say('Could not load the player; you can still read the notes and open the recording sources below.'); return () => {}; }
   if (!root.isConnected) return () => {};
-  say('Press Play, then switch performers at the same musical moment.');
+  say('Press Play, then switch performers to hear the phrase in other hands.');
   on(root, 'click', (event) => {
     const select = event.target.closest('[data-cmp-select]');
     if (select) {
@@ -177,33 +177,33 @@ export async function mount(app) {
       if (id === selected) return;
       const owns = ownsTrack(), ref = owns ? toReference(player.track.id, player.time) : referencePosition;
       const time = ref == null ? null : fromReference(id, ref);
-      if (owns && time == null) { say('This moment is outside the aligned span. Choose a passage to compare instead.'); return; }
+      if (owns && time == null) { say('No match at this point; choose a passage below.'); return; }
       clearSequence();
       const start = time ?? recordings.get(id).map?.[0]?.[1] ?? 0;
-      say(time == null ? `Selected ${recordings.get(id).label} at the start of its available span; no counterpart at the previous position.` : `Same musical moment · ${fmt(ref)} in the reference → ${fmt(start)} in ${recordings.get(id).label}.`);
+      say(time == null ? `Selected ${recordings.get(id).label} at its first matched passage.` : `Matched phrase · ${fmt(ref)} in the reference → ${fmt(start)} in ${recordings.get(id).label}.`);
       activate(id, start, owns && player.playing);
       return;
     }
     const passage = event.target.closest('[data-cmp-passage]');
     if (passage) {
       const i = Number(passage.dataset.cmpPassage), spans = passageSpans[i];
-      if (spans.length < 2) { say('Fewer than two recordings cover this whole passage.'); return; }
+      if (spans.length < 2) { say('This passage needs two matching recordings to play a comparison.'); return; }
       clearSequence(); sequence = { passage: i, spans, index: 0 };
       const omitted = data.recordings.length - spans.length;
-      say(`Playing 1 of ${spans.length}: ${recordings.get(spans[0].id).label}.${omitted ? ` ${omitted} recording(s) omitted because the passage is outside their aligned span.` : ''}`);
+      say(`Playing 1 of ${spans.length}: ${recordings.get(spans[0].id).label}.${omitted ? ` Unmatched recordings skipped: ${omitted}.` : ''}`);
       activate(spans[0].id, spans[0].start, true);
     }
   });
   on(play, 'click', () => {
     if (ownsTrack()) {
       if (player.playing) { operation++; awaitingStart = false; player.pause(); }
-      else { takeConcert(); player.play().then((ok) => { if (alive && !ok) fail('Playback could not start. Try the recording’s original source below.'); }); }
+      else { takeConcert(); player.play().then((ok) => { if (alive && !ok) fail('Could not start playback; try the recording’s original source below.'); }); }
     } else {
       const r = recordings.get(selected);
       activate(selected, fromReference(selected, referencePosition) ?? r.map?.[0]?.[1] ?? 0, true);
     }
   });
-  on(stop, 'click', () => { operation++; awaitingStart = false; clearSequence('Sequence stopped.'); if (ownsTrack()) player.pause(); refresh(); });
+  on(stop, 'click', () => { operation++; awaitingStart = false; clearSequence('Comparison stopped.'); if (ownsTrack()) player.pause(); refresh(); });
   on(seek, 'input', () => {
     const ref = Number(seek.value), time = fromReference(selected, ref);
     if (time == null) return;
@@ -215,7 +215,7 @@ export async function mount(app) {
   on(window, 'pageshow', () => { if (ownsTrack() && player.playing) takeConcert(); });
   off.push(player.on('track', () => {
     if (changing) return;
-    if (sequence && player.track?.id !== sequence.spans[sequence.index]?.id) clearSequence('The shared player selected another recording.');
+    if (sequence && player.track?.id !== sequence.spans[sequence.index]?.id) clearSequence('Another recording is selected.');
     if (!ownsTrack()) restoreConcert();
     refresh();
   }));
@@ -225,11 +225,11 @@ export async function mount(app) {
   off.push(player.on('playing', () => { refresh(); armBoundary(); }));
   off.push(player.on('pause', () => {
     clearTimeout(timer); timer = 0;
-    if (!changing && !busy && !awaitingStart && !player.playing && sequence) clearSequence('Sequence paused. Choose a passage to hear each version again.');
+    if (!changing && !busy && !awaitingStart && !player.playing && sequence) clearSequence('Paused; choose a passage to hear each version again.');
     refresh();
   }));
   off.push(player.on('ended', () => { if (sequence && !busy) advance(); else refresh(); }));
-  off.push(player.on('error', () => { if (ownsTrack()) fail('This recording could not be streamed. Try its original source below.'); }));
+  off.push(player.on('error', () => { if (ownsTrack()) fail('Could not stream the recording; try its original source below.'); }));
   refresh();
   return () => {
     alive = false; operation++; clearSequence(); events.abort(); off.forEach((remove) => remove()); restoreConcert();

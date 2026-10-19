@@ -1,0 +1,91 @@
+{
+  "composer": "kurtag",
+  "items": [
+    {
+      "work": "Játékok — selections",
+      "year": "from 1973",
+      "performers": "György Kurtág and Márta Kurtág (piano)",
+      "recorded": "July 1996",
+      "label": "ECM New Series",
+      "note": "These miniature piano games include palm-strokes, a peal of bells for Stravinsky and homages to friends. György and Márta Kurtág recorded this selection at two and four hands in Vienna, interleaving it with four of his Bach transcriptions.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/7bKQ5VzqjTNMmpg7MTxpne",
+          "title": "Kurtág, Bach: Játékok — ECM Records on Spotify"
+        },
+        {
+          "kind": "label",
+          "url": "https://ecmrecords.com/product/jatekok-gyorgy-kurtag-marta-kurtag/",
+          "title": "Játékok — ECM Records catalogue"
+        }
+      ]
+    },
+    {
+      "work": "Kafka-Fragmente, Op. 24",
+      "year": "1985–87",
+      "performers": "Juliane Banse (soprano); András Keller (violin)",
+      "recorded": "September 2005",
+      "label": "ECM New Series",
+      "note": "Forty pieces for soprano and violin set fragments of Kafka’s diaries, letters and other writings, some lasting only seconds. Banse and Keller recorded the cycle with Kurtág at the sessions; Keller had also advised him on the violin writing and played its première.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/3UlnVzqEabXLt9gAG1ssVh",
+          "title": "Kafka-Fragmente — ECM Records on Spotify"
+        },
+        {
+          "kind": "label",
+          "url": "https://ecmrecords.com/product/gyorgy-kurtag-kafka-fragmente-juliane-banse-andras-keller/",
+          "title": "Kafka-Fragmente — ECM Records catalogue"
+        }
+      ]
+    },
+    {
+      "work": "Stele, Op. 33",
+      "year": "1994",
+      "performers": "Berliner Philharmoniker; Claudio Abbado (conductor)",
+      "recorded": "December 1994, live",
+      "label": "Deutsche Grammophon",
+      "note": "Wagner tubas and cimbalom join the large orchestra in Stele, whose central lament is marked ‘desperate’. Abbado and the Berlin Philharmonic, the work’s dedicatees, recorded this performance live in December 1994.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/5hh8BbVRERN3R2KC3jIQo6",
+          "title": "Stele — Deutsche Grammophon on Spotify"
+        },
+        {
+          "kind": "label",
+          "url": "https://www.deutschegrammophon.com/de/katalog/produkte/stockhausen-gruppen-kurtag-abbado-4300",
+          "title": "Stele, Grabstein für Stephan and Gruppen — Deutsche Grammophon catalogue"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "ECM Records — Játékok: programme, performers, recording date and reviews",
+      "url": "https://ecmrecords.com/product/jatekok-gyorgy-kurtag-marta-kurtag/"
+    },
+    {
+      "title": "IRCAM — Játékok: András Wilheim’s account of the piano collection, begun in 1973",
+      "url": "https://resources.ircam.fr/en/work/jatekok"
+    },
+    {
+      "title": "ECM Records — Kafka-Fragmente: composition, Keller’s collaboration, recording sessions and reviews",
+      "url": "https://ecmrecords.com/product/gyorgy-kurtag-kafka-fragmente-juliane-banse-andras-keller/"
+    },
+    {
+      "title": "Deutsche Grammophon — Stockhausen: Gruppen / Kurtág: Grabstein für Stephan, Stele, catalogue 447 761-2",
+      "url": "https://www.deutschegrammophon.com/de/katalog/produkte/stockhausen-gruppen-kurtag-abbado-4300"
+    },
+    {
+      "title": "Budapest Music Center — Stele, Op. 33: date, dedication, instrumentation and movements",
+      "url": "https://info.bmc.hu/en/compositions/1112887460-stele-op-33"
+    },
+    {
+      "title": "Deutsche Grammophon — Berliner Philharmoniker Centenary Edition booklet, disc 44: Stele recording credits",
+      "url": "https://cdn.naxosmusiclibrary.com/sharedfiles/booklets/DGG/booklet-00028947920809.pdf"
+    }
+  ]
+}

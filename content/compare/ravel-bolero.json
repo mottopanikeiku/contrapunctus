@@ -1,51 +1,51 @@
 {
   "id": "ravel-bolero",
-  "title": "Boléro: Ravel and Fricsay",
+  "title": "One drumbeat, two long crescendos",
   "composer": "ravel",
   "work": "Boléro",
-  "question": "How does the same accumulating rhythm occupy different amounts of time?",
-  "intro": "Ravel directs the Lamoureux orchestra in the transfer attributed to 1930; BnF confirms the performer combination and a published Polydor issue by 1935. Fricsay’s reference file has conflicting1950s dates, so no exact session year is asserted for it. The access streams last about15:52 and 13:26 respectively, including their recorded leads and tails; the alignment follows shared musical position rather than multiplying every moment by one ratio. Tzipine and the unverified Munch/Lamoureux alternatives are not included.",
+  "question": "How does the chosen pulse change the climb from solo flute to the final brass and percussion?",
+  "intro": "A snare drum starts its two-bar pattern, and a flute begins the tune of <i>Boléro</i>. In 1930 Ravel recorded the long crescendo with the Lamoureux Orchestra; Fricsay conducts the Berlin orchestra in the second performance. The flute’s quiet entrance has a long way to travel before the trombones and percussion bring everything down.",
   "group": "composer-performers",
   "recordings": [
     {
       "listen": "ravel-bolero-ravel-1930",
-      "label": "Ravel, 1930 (Lamoureux)",
+      "label": "Maurice Ravel, Lamoureux Orchestra, 1930",
       "year": 1930,
-      "note": "The composer conducts; the transferred historic recording was published by 1935. Listen to the distribution of time through the accumulation."
+      "note": "The composer conducts the Lamoureux Orchestra for Polydor in January 1930."
     },
     {
       "listen": "ravel-bolero",
-      "label": "Fricsay, 1950s (date disputed)",
+      "label": "Ferenc Fricsay, Berlin Symphonic Orchestra",
       "year": null,
-      "note": "Existing reference; filename, description and embedded date disagree. Its faster overall file is not evidence of constant local acceleration."
+      "note": "Fricsay conducts Berlin’s orchestra in a recording restored by Pablo Varela in 2015."
     }
   ],
   "reference": "ravel-bolero",
   "passages": [
     {
-      "label": "First melody",
+      "label": "The flute begins",
       "t": 13,
-      "note": "The reference estimates the opening flute statement here. Compare phrase length while keeping the repeating drum pattern in attention."
+      "note": "A solo flute curls through the first tune above the snare drum and plucked strings. The bass alternates C and G."
     },
     {
-      "label": "Changing instrumental colour",
+      "label": "The oboe d’amore’s turn",
       "t": 190,
-      "note": "A new solo colour carries familiar material. The map follows pitch content; it does not identify instruments by itself."
+      "note": "The oboe d’amore brings back the first melody. Bassoons take up the drum’s rhythm while the strings keep plucking."
     },
     {
-      "label": "Composite colour",
+      "label": "Horn, celesta and two piccolos",
       "t": 360,
-      "note": "Ravel’s score combines instruments while maintaining the repeated design. Compare pacing across the colour change, not merely captured loudness."
+      "note": "A horn carries the tune beneath celesta and two piccolos. Their notes at different heights combine into one strange, bright voice."
     },
     {
-      "label": "The harmonic break",
+      "label": "Eight bars in E major",
       "t": 770,
-      "note": "The late departure from the long C-centred pattern is approximately located by the reference analysis; the precise first chord is not hand-aligned."
+      "note": "The bass finally leaves C, and the orchestra swings into E major. The drum’s two-bar rhythm carries on through the sudden change."
     },
     {
-      "label": "Return and close",
+      "label": "Trombone slides and the final crash",
       "t": 788,
-      "note": "Compare the final disruption with the patient accumulation before it; both transfers retain their original recorded endings."
+      "note": "C major returns with trombone slides. Bass drum, cymbals and tam-tam join the last six bars, and the orchestra brings the dance crashing to a halt."
     }
   ],
   "sources": [
@@ -58,7 +58,7 @@
       "url": "https://catalogue.bnf.fr/ark:/12148/cb38509551s"
     },
     {
-      "title": "Commons — Fricsay source and conflicting dates",
+      "title": "Commons — Fricsay source, Pablo Varela’s 2015 restoration credit and conflicting recording dates",
       "url": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg"
     },
     {
@@ -72,6 +72,10 @@
     {
       "title": "Cleveland Orchestra — Boléro",
       "url": "https://www.clevelandorchestra.com/posts/ravels-bolero"
+    },
+    {
+      "title": "Timbre and Orchestration Resource — Boléro’s sequence of soloists and instrumental combinations",
+      "url": "https://timbreandorchestration.org/learn-about-orchestration/scores-and-recordings/ravel/bolero"
     }
   ],
   "alignment": {

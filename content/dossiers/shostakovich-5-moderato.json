@@ -88,7 +88,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Internet Archive ripping operator: associate-louiemar-secuya@archive.org",
+      "value": "Internet Archive",
       "status": "documented",
       "sourceIds": [
         "archive"
@@ -149,7 +149,7 @@
       ],
       "note": "The original Westminster sleeve/labels and album metadata establish the selected 1956 WN 18001/XWN 18001 issue. A visually inspected High Fidelity review, December 1955, p. 80, already names this London orchestra, Rodzinski, his second recording of the Fifth and Westminster catalogue 18001; the review prints SWN 18001 and erroneously calls the symphony D major, so those details are not silently normalized. The publisher also lists Nixa WLP 20004 in 1955. First lawful publication anywhere before 1963 is the rule; no EU-first-release claim is required or made. source.rights.published 1956 remains a conservative upper bound tied to the selected physical issue, not a first-release date. Even using 1956, the ordinary 50-year recording term had expired before the 2013 extension. US sound-recording status is not established. Complete item metadata, original side-transfer provenance and scans disclose no Creative Commons non-commercial condition or separate upstream digital source. This is not a worldwide public-domain or composition-rights clearance."
     },
-    "creditLine": "Shostakovich, Symphony No. 5 in D minor, Op. 47, I. Moderato — Philharmonic Symphony Orchestra of London, Artur Rodzinski. Westminster WN 18001/XWN 18001, issued 1956; side 1, XTV 22720. Session attributed by reissue documentation to 2–14 October 1954, Walthamstow Hall, London. Internet Archive LP transfer, ripping operator associate-louiemar-secuya@archive.org, 15 September 2021. Territorial EU recording basis only; US status and composition clearance not established.",
+    "creditLine": "Shostakovich, Symphony No. 5 in D minor, Op. 47, I. Moderato — Philharmonic Symphony Orchestra of London, Artur Rodzinski. Westminster WN 18001/XWN 18001, issued 1956; side 1, XTV 22720. Session attributed by reissue documentation to 2–14 October 1954, Walthamstow Hall, London. Internet Archive LP transfer, 15 September 2021. Territorial EU recording basis only; US status and composition clearance not established.",
     "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
   },
   "sources": [

@@ -14,33 +14,31 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - promenade - tranquillo.ogg' },
-  intro: 'After the heavy ox-cart the visitor walks quietly, in woodwinds. A short swell of strings crests in the middle, then the sound thins into the next picture. Instruments named here follow Ravel’s orchestration, the probable but undocumented version.',
-  question: 'How does the walking theme change when it is played quietly by wind instruments?',
+  intro: 'After the ox-cart, the Promenade returns quietly in D minor. Flutes begin the walk; oboes and bassoons take their turn before the tune drops into the bass.',
 
   sections: [
-    { t: 0, label: 'Winds walk quietly', m: 'A' },
-    { t: 18, label: 'Strings join; brief climax', m: 'B' },
+    { t: 0, label: 'A · Flutes begin a quiet walk', m: 'A', mNote: 'The familiar tune returns in D minor' },
+    { t: 18, label: 'B · Low octaves, then quick notes', m: 'B', mNote: 'The tune drops into the bass before a quick flicker' },
   ],
 
   cues: [
-    { t: 0, kind: 'music', title: 'Winds, in bars of five, six, seven', text: 'In Ravel’s scoring the flutes begin, then oboes and bassoons take over the walking. The piano score’s bars run five, six and seven beats, so the stride is less even than in the first Promenade. The level stays gentle, about −14 to −18 dB.', basis: 'documented', precision: 'passage', evidence: 'Flutes, then oboes and bassoons: LA Phil note (Orrin Howard). Five-, six- and seven-beat bars: Lamm’s score (Mutopia, promenade-4.ly). Relative level −13.9, −17.6, −13.4 and −13.1 dB at 0:00, 0:05, 0:10 and 0:15.' },
-    { t: 18, kind: 'world', title: 'Mussorgsky in the interludes', text: 'Writing to Stasov around 12 June 1874, as he reached the fourth number, Mussorgsky said the transitions were good and added: “My physiognomy can be seen in the interludes.” By his own account the Promenades carry his own face.', basis: 'documented', precision: 'passage', evidence: 'Letter to Vladimir Stasov, probably 12 June 1874, quoted in Wikipedia’s Pictures at an Exhibition article (composition history), which also gives Stasov’s account of the Promenade as Mussorgsky roving through the exhibition. The note sits at the start of the movement’s short swell (−13 to −6 dB, 0:15–0:20); the swell itself is described in the join card.' },
-    { t: 33, kind: 'listen', title: 'A light, quick close', text: 'The level falls by about fourteen decibels at 0:35 and the attacks pick up again, over three a second, at a much quieter level. The Promenade thins into small, quick figures that lead directly into the next picture.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level −7.4 dB (0:30), −21.3 (0:35), −23.2 (0:40); onsets per second 1.0 (0:30), 3.4 (0:35). That the Promenade leads into the next movement: Philharmonia guide (“before leading us into the next movement”).' },
+    { t: 0, kind: 'music', title: 'Flutes, oboes and bassoons', text: 'The walking tune passes from flutes to oboes and bassoons, marked <i>Tranquillo</i>. D minor darkens it. Bars of five, six and seven beats make the steps unequal, even in this quiet stretch.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano text, Promenade IV, gives D minor, Tranquillo and changing metres. Orrin Howard’s LA Phil note identifies the wind sequence in Ravel’s scoring, inferred for this recording. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-4.ly ; https://www.laphil.com/musicdb/pieces/557/pictures-at-an-exhibition' },
+    { t: 18, kind: 'life', title: 'Mussorgsky’s face in the music', text: 'In June 1874, writing to Vladimir Stasov as he composes <i>Pictures</i>, Mussorgsky says: “My physiognomy can be seen in the interludes.” The man walking between Hartmann’s pictures is the composer himself.', basis: 'documented', precision: 'passage', evidence: 'Mussorgsky’s letter to Vladimir Stasov, probably 12 June 1874, quoted in the composition history at https://en.wikipedia.org/wiki/Pictures_at_an_Exhibition . The exact date is uncertain.' },
   ],
 
   transitions: [
     {
       id: 'into-brief-climax',
-      title: 'Strings enter and the walk swells',
-      from: 'Winds walk quietly',
-      to: 'Strings join; brief climax',
+      title: 'The walk drops into the bass',
+      from: 'A · Flutes begin a quiet walk',
+      to: 'B · Low octaves, then quick notes',
       at: { t: 18 },
       span: [10, 30],
-      how: '<p>The woodwind walk reaches a point of rest, then blustery strings join and the sound grows to its short peak between 0:20 and 0:30. The pulse is still the unequal walk, but the colour turns from delicate winds to a fuller blend. The crest is brief: the movement is a quiet interlude, not a statement of weight, and it falls away within ten seconds of its peak.</p>',
-      devices: ['orchestration change', 'crescendo build'],
-      basis: 'audio-feature',
+      how: '<p>The D-minor tune moves down into bass octaves, beginning A–B♭–E. The upper part answers in octaves too. After this heavier exchange, the music dwindles to isolated A notes and a quick flicker of chords before the next picture.</p>',
+      devices: ['register change', 'texture change', 'decrescendo'],
+      basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'Strongest boundary at 0:18 (novelty 1.00); relative level −13.1 dB (0:15) to −6.2 dB (0:20) and −5.3 dB (0:25), then −21.3 dB at 0:35. Strings added to woodwinds: Philharmonia guide.',
+      evidence: 'Lamm’s piano text, Promenade IV, bars 5–10: bass-octave phrase, upper-octave answer and the final short figures. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-4.ly',
     },
   ],
 };

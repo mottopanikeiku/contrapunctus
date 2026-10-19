@@ -19,217 +19,135 @@ export default {
   "source": {
     "file": "File:12 - Vivaldi Winter mvt 3 Allegro - John Harrison violin.ogg"
   },
-  "intro": "The finale starts with the solo violin over a held bass, then turns cautious steps into slipping and running. A remarkably quiet Sirocco passage removes the low strings before the opposing winds drive the conclusion.",
-  "question": "How does a fixed bass make the violin’s movement above it feel more precarious?",
+  "intro": "A solo violin ventures onto the ice above a long bass F; before long, everyone is slipping. Vivaldi ends the concerto with the Sirocco and north wind fighting through the strings.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Solo over the ice",
-      "m": "A"
-    },
-    {
-      "t": 20.5,
-      "label": "Cautious steps and slipping · approximate",
-      "m": "B"
-    },
-    {
-      "t": 64,
-      "label": "Running solo · approximate",
-      "m": "C"
-    },
-    {
-      "t": 97,
-      "label": "Breaking ice and solo link · approximate",
-      "m": "D"
-    },
-    {
-      "t": 119,
-      "label": "Sirocco · approximate",
-      "m": "E"
-    },
-    {
-      "t": 156,
-      "label": "North wind and opposing gusts · approximate",
-      "m": "F"
-    },
-    {
-      "t": 176,
-      "label": "Final tutti · approximate",
-      "m": "F′",
-      "mNote": "the full strings develop the preceding wind figures"
-    }
+    { "t": 0, "label": "A · A violin on the ice", "m": "A", "mNote": "The solo circles above a long F in the bass" },
+    { "t": 20.5, "label": "B · Cautious steps, then a fall", "m": "B", "mNote": "The strings join over C and tumble downwards" },
+    { "t": 64, "label": "C · Running across the ice", "m": "C", "mNote": "The solo’s detached semiquavers climb above held strings" },
+    { "t": 97, "label": "D · The ice breaks", "m": "D", "mNote": "Short string phrases break apart in C minor" },
+    { "t": 119, "label": "E · The Sirocco without basses", "m": "E", "mNote": "Lento in E♭ major; the low strings fall silent" },
+    { "t": 156, "label": "F · The winds go to war", "m": "F", "mNote": "Solo runs alternate with repeated-note orchestral gusts" },
+    { "t": 176, "label": "F′ · The last F-minor gusts", "m": "F′", "mNote": "The full strings carry the wind figures to the cadence" }
   ],
   "cues": [
     {
-      "t": 0,
+      "bar": { "n": "1", "occ": 1 },
       "kind": "music",
-      "title": "A moving violin, a held bass",
-      "text": "The solo violin keeps changing direction above a long F in the bass. The low note gives the music a fixed point while the solo line moves around it; the orchestral upper strings initially rest.",
-      "basis": "documented",
+      "title": "A foot on the ice",
+      "text": "“Caminar Sopra’l giaccio, e à passo lento / Per timor di cader gersene intenti” — “To walk on ice with slow steps, taking care for fear of falling.” The 1725 sonnet begins cautiously. The solo violin changes direction above a long F; the other upper strings wait.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "Mutopia III bars 1–20 show the solo over a held F, with the accompanying upper strings resting. The report’s opening is relatively subdued before the change at 0:20: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Winter sonnet, letters F–G; translation ours. Mutopia score after Performers’ Facsimiles, III, bars 1–20: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351. The sonnets were published anonymously with Op. 8."
     },
     {
-      "t": 30,
-      "kind": "world",
-      "title": "Walking on ice",
-      "text": "The sonnet asks us to imagine moving cautiously on ice, slipping, falling and getting up to run. These changing actions occupy the finale before its account of competing winds. The score supplies the programme, rather than a later performance tradition.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The original Italian winter sonnet and the score annotations identify these actions: https://nac-cna.ca/en/event/notes/36996; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
-    },
-    {
-      "t": 66,
-      "kind": "listen",
-      "title": "Motion above a quieter foundation",
-      "text": "The soloist’s running figures climb and turn while the accompaniment offers a less mobile foundation. Follow one layer at a time: the apparent rush comes from the violin’s note pattern, not simply from everyone playing faster together.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Mutopia bar 51 is marked Correr forte; the upper-string accompaniment sustains while the basso briefly rests. The same-recording guide places the running episode near 1:04, shortly after the report’s strong rise around 1:00: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
-    },
-    {
-      "t": 98,
-      "kind": "life",
-      "title": "A violinist’s working world",
-      "text": "Vivaldi’s father Giovanni Battista was a violinist at St Mark’s in Venice and probably gave his son his first musical instruction. The concertos draw on a violinist’s practical knowledge of bowing, figuration and register, not only on the seasonal poems.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The Pietà biography documents the father’s work at St Mark’s but qualifies him as likely the first to teach his son: https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi. That qualification is retained. The comment about instrumental knowledge concerns the score’s violin writing, not a claim that the father taught a particular passage."
-    },
-    {
-      "t": 124,
+      "bar": { "n": "51", "occ": 1 },
       "kind": "music",
-      "title": "The bass falls silent",
-      "text": "In the Lento marked for the Sirocco, the low strings rest and the upper parts become much quieter. The missing bass matters as much as the reduced activity: listen for how little weight remains under the upper-string phrases.",
-      "basis": "score-proportion",
+      "title": "Down, then up again",
+      "text": "“Gir forte Sdruzziolar, cader à terra / Di nuovo ir Sopra ’l giaccio e correr forte” — “Turn sharply, slip, fall to the ground; go back onto the ice and run hard.” After the orchestra’s falling scales, the solo violin scrambles upwards in detached semiquavers.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "Mutopia III bars 101–119 give the Lento/Sirocco and nineteen bars of basso rest. The guide places this around 1:59; report levels fall as low as roughly −37 to −40 dB during 2:10–2:30: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Winter sonnet, 1725, letters H–I; translation ours. Mutopia score, III, bars 40–60, including Cader à terra at bar 48 and Correr forte at bar 51: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     },
     {
-      "t": 151,
-      "kind": "world",
-      "title": "Two named winds",
-      "text": "Sirocco and Borea are named in the score and sonnet. The first passage gives way to the north wind and then to winds in conflict. Vivaldi changes tempo and texture as well as using rapid notes to make that contrast.",
-      "basis": "documented",
+      "bar": { "n": "89", "occ": 1 },
+      "kind": "music",
+      "title": "Cracks between the notes",
+      "text": "“Sin ch’il giaccio Si rompe, e Si disserra” — “Until the ice breaks and splits open.” The strings interrupt their running with short notes and gaps. Little bursts of demisemiquavers fill the cracks before the soloist takes over again.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "The score marks Il Vento Sirocco at bar 101 and Il Vento Borea e tutti li Venti at bar 120. The sonnet names the winds: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351; https://nac-cna.ca/en/event/notes/36996."
+      "evidence": "Winter sonnet, 1725, letter L; translation ours. Mutopia score, III, bars 85–100, especially the rests and short figures at bars 89–92: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     },
     {
-      "t": 181,
-      "kind": "form",
-      "title": "The gusts become a conclusion",
-      "text": "The full strings develop the wind figures in F minor. The finale closes by intensifying material from the immediately preceding episode, rather than returning wholesale to the quiet opening solo.",
-      "basis": "score-proportion",
+      "bar": { "n": "101", "occ": 1 },
+      "kind": "music",
+      "title": "Beyond the iron gates",
+      "text": "“Sentir uscir dalle ferrate porte” — “To hear emerging from the iron gates.” The sonnet unleashes the winds. For the Sirocco, Vivaldi writes Lento in E♭ major and removes the bass entirely. Only the upper strings remain.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "The source commentary identifies the closing tutti as a development of the preceding wind motive; Mutopia’s last seventeen bars show rapid tutti figures and the F-minor close. The guide gives about 2:56; the report remains loud through 3:05 before the final decay: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Winter sonnet, 1725, letter M; translation ours. Mutopia score, III, bars 101–119, marked Il Vento Sirocco and Lento, with basso tacet: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+    },
+    {
+      "bar": { "n": "120", "occ": 1 },
+      "kind": "music",
+      "title": "The winds at war",
+      "text": "“Sirocco, Borea, e tutti i Venti in guerra” — “Sirocco, Boreas, and all the winds at war.” Solo runs collide with orchestral bursts. The sonnet ends: “Quest’è ’l verno, mà tal, che gioja apporte” — “This is winter, yet it brings joy.” Vivaldi drives the strings towards F minor.",
+      "basis": "score-aligned",
+      "precision": "passage",
+      "evidence": "Winter sonnet, 1725, letter N and final line; translation ours. Mutopia score, III, bars 120–153; the last line is printed above the closing bars: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     }
   ],
   "transitions": [
     {
       "id": "held-tonic-to-dominant",
-      "title": "The pedal changes under the strings",
-      "from": "Solo over the ice",
-      "to": "Cautious steps and slipping",
-      "at": {
-        "t": 20.5
-      },
-      "how": "<p>The bass moves from held F to held C, turning tonic support into a dominant pedal. The orchestral upper strings join the soloist and then articulate shorter, cautiously repeated figures. A fixed bass still anchors the scene, but the harmony now feels less settled.</p>",
-      "devices": [
-        "tonic pedal",
-        "dominant pedal",
-        "orchestration change"
-      ],
+      "title": "F moves to C",
+      "from": "A · A violin on the ice",
+      "to": "B · Cautious steps, then a fall",
+      "at": { "t": 20.5 },
+      "how": "<p>The bass changes its long F to C, the dominant of F minor. The orchestral strings join the soloist, first in running semiquavers, then in cautious quavers. The C stays underneath as the steps grow more insistent and the falling scales begin.</p>",
+      "devices": ["tonic pedal", "dominant pedal", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mutopia bar 21 moves the basso F to C and adds the orchestral strings. The guide places this at 0:20.5, matching the report’s strong 0:20 change: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, III, bars 21–50; the dominant pedal and walking episode are described at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php."
     },
     {
       "id": "running-after-fall",
-      "title": "A falling tutti releases the running solo",
-      "from": "Cautious steps and slipping",
-      "to": "Running solo",
-      "at": {
-        "t": 64
-      },
-      "how": "<p>After the downward figures labelled as a fall, the soloist begins short, running semiquavers. The accompaniment becomes a held upper-string support, with the basso briefly resting before its pedal returns. The scene changes through articulation and distribution of activity.</p>",
-      "devices": [
-        "texture change",
-        "orchestration change"
-      ],
+      "title": "F minor after the fall",
+      "from": "B · Cautious steps, then a fall",
+      "to": "C · Running across the ice",
+      "at": { "t": 64 },
+      "how": "<p>The strings tumble down in scales, then the soloist starts running from F. Its detached semiquavers climb above held upper-string notes. The basso briefly rests; the solo travels from F minor towards C minor, where long C and G pedals support the later passage.</p>",
+      "devices": ["texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mutopia bars 48–51 mark Cader à terra and Correr forte; the guide starts the running region near 1:04. The report’s change near 1:00 and increased level support the broad placement, not an exact fall timestamp: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, III, bars 48–84; harmonic route at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php."
     },
     {
       "id": "breaking-ice",
-      "title": "The orchestra interrupts the running line",
-      "from": "Running solo",
-      "to": "Breaking ice and solo link",
-      "at": {
-        "t": 97
-      },
-      "how": "<p>The solo’s passage towards C minor reaches a tutti interruption. Brief fragments, rests and renewed solo motion replace the preceding continuous run. The dominant G remains important beneath these exchanges before the following slow contrast.</p>",
-      "devices": [
-        "texture change",
-        "dominant pedal"
-      ],
+      "title": "The C-minor run breaks apart",
+      "from": "C · Running across the ice",
+      "to": "D · The ice breaks",
+      "at": { "t": 97 },
+      "how": "<p>The solo’s descending triplets reach a tutti in C minor. Running scales break into short notes, rests and little demisemiquaver flurries. G, the dominant, supports the exchanges before the solo finishes the passage on a low G.</p>",
+      "devices": ["texture change", "dominant pedal"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mutopia bars 85–100 show the tutti interruption, short figures and solo continuation; the guide places the group around 1:37–1:59. The report has changes at 1:36, 1:46 and 1:50: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, III, bars 80–100: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351; C-minor context described by Rodríguez Alvira."
     },
     {
       "id": "sirocco",
-      "title": "The low strings withdraw for the Lento",
-      "from": "Breaking ice and solo link",
-      "to": "Sirocco",
-      "at": {
-        "t": 119
-      },
-      "how": "<p>The rapid C-minor episode gives way to a slower E♭-major passage. The basso rests for the whole Sirocco span, leaving the upper strings to carry its restrained phrases. Tempo, register and the loss of bass weight all contribute to the contrast.</p>",
-      "devices": [
-        "tempo change",
-        "orchestration change",
-        "texture change"
-      ],
+      "title": "The bass vanishes in E♭",
+      "from": "D · The ice breaks",
+      "to": "E · The Sirocco without basses",
+      "at": { "t": 119 },
+      "how": "<p>The C-minor solo ends on G. At the Lento the upper strings begin in E♭ major, and the basso falls silent for nineteen bars. The violin’s opening G–F–E♭ now moves in quavers under the words <i>Il Vento Sirocco</i>.</p>",
+      "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The score begins Lento at bar 101 and has nineteen bars of basso rest. The guide gives 1:59 and the report’s strongest boundary is 1:58, followed by the extended quiet region: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, III, bars 100–119; E♭ major identified at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php."
     },
     {
       "id": "north-wind",
-      "title": "Rapid solo figures break the quiet",
-      "from": "Sirocco",
-      "to": "North wind and opposing gusts",
-      "at": {
-        "t": 156
-      },
-      "how": "<p>The slow upper-string passage yields to rapid solo figuration. Brief orchestral bursts repeatedly cut across it as the bass returns, and the harmony moves from E♭ towards F minor. The contrast is abrupt; it is not a gradual crescendo inside the Sirocco.</p>",
-      "devices": [
-        "tempo change",
-        "texture change",
-        "orchestration change"
-      ],
+      "title": "The north wind starts on E♭",
+      "from": "E · The Sirocco without basses",
+      "to": "F · The winds go to war",
+      "at": { "t": 156 },
+      "how": "<p>The solo violin bursts into demisemiquavers on E♭, under the words naming Boreas and all the winds. Repeated-note tutti gusts interrupt its runs and bring the bass back. The episode leaves E♭ major and reaches F minor.</p>",
+      "devices": ["texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mutopia bar 120 labels Borea and all the winds; subsequent bars alternate solo runs with tutti repeated-note bursts. The guide gives 2:36; the report rises from about −36.6 dB at 2:30 to −18.2 at 2:35 and −13.1 at 2:40: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, III, bars 120–139; harmonic route described at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php."
     },
     {
       "id": "closing-tutti",
-      "title": "The interruptions become the closing texture",
-      "from": "North wind and opposing gusts",
-      "to": "Final tutti",
-      "at": {
-        "t": 176
-      },
-      "how": "<p>The repeated-note wind figures pass into the full strings. Instead of introducing another pastoral scene, the final tutti extends their rapid motion and directs it to the F-minor cadence. The soloist is absorbed into the collective finish.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "perfect cadence"
-      ],
+      "title": "The whole orchestra becomes the wind",
+      "from": "F · The winds go to war",
+      "to": "F′ · The last F-minor gusts",
+      "at": { "t": 176 },
+      "how": "<p>The soloist rejoins the full strings in F minor. Their repeated demisemiquavers and downward runs extend the wind music through the final tutti. E♮ sharpens the approach to F before the last held chord.</p>",
+      "devices": ["motivic link", "orchestration change", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The closing tutti is identified in the commentary and visible in Mutopia’s final bars. The guide gives 2:56 and the report a boundary at 2:56: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
+      "evidence": "Mutopia score, III, closing tutti, bars 137–153: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     }
   ],
   "orchestra": {

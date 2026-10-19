@@ -1,0 +1,101 @@
+{
+  "composer": "messiaen",
+  "items": [
+    {
+      "work": "Quatuor pour la fin du temps",
+      "year": "1940–41",
+      "performers": "Tashi: Ida Kavafian, violin; Richard Stoltzman, clarinet; Fred Sherry, cello; Peter Serkin, piano",
+      "recorded": "1975",
+      "label": "RCA Red Seal / Sony Music",
+      "note": "Eight movements for clarinet, violin, cello and piano grew out of Messiaen’s captivity in 1940–41. Tashi brings fierce unanimity to the dances and gives the cello’s slow ‘Louange’ a continuous, singing line.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/messiaen-quatuor-pour-la-fin-du-temps/1228321670",
+          "title": "Tashi’s RCA recording, Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "Vingt Regards sur l’Enfant-Jésus",
+      "year": "1944",
+      "performers": "Steven Osborne, piano",
+      "recorded": "November 2001",
+      "label": "Hyperion",
+      "note": "Messiaen’s twenty piano meditations on the infant Christ begin with the recurring ‘Theme of God’. Osborne sustains the two-hour span with a finely varied touch, from the quiet contemplations to the dancing ‘Regard de l’Esprit de joie’.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67351%2F2",
+          "title": "Hyperion catalogue, Steven Osborne"
+        }
+      ]
+    },
+    {
+      "work": "Turangalîla-Symphonie",
+      "year": "1946–48",
+      "performers": "Jean-Yves Thibaudet, piano; Takashi Harada, ondes Martenot; Royal Concertgebouw Orchestra; Riccardo Chailly, conductor",
+      "recorded": "March 1992",
+      "label": "Decca",
+      "note": "A solo piano and the electronic ondes Martenot lead an enormous orchestra through ten movements of love music. Chailly’s recording makes the crowded instrumental lines unusually clear, with Thibaudet in the virtuoso piano part.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deccaclassics.com/en/catalogue/products/messiaen-turangalla-symphonie-chailly-3111",
+          "title": "Decca Classics catalogue, Riccardo Chailly"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/5v11pHRIdNpMawxLVjTevI",
+          "title": "Decca recording, Spotify"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Olivier Messiaen website — work dates, instrumentation and the quartet’s 1941 première",
+      "url": "https://www.oliviermessiaen.org/list-of-works"
+    },
+    {
+      "title": "Apple Music Classical — Tashi’s quartet, RCA label and Sony issue",
+      "url": "https://classical.music.apple.com/ca/album/1228321670"
+    },
+    {
+      "title": "CiNii Books — Tashi recording sessions, September and December 1975",
+      "url": "https://ci.nii.ac.jp/ncid/BA30560267?l=en"
+    },
+    {
+      "title": "CDJapan — Sony SICC-1830, RCA Red Seal provenance and recording dates",
+      "url": "https://www.cdjapan.co.jp/product/SICC-1830"
+    },
+    {
+      "title": "Alex Ross, ‘Revelations’ — quartet history and Tashi’s ensemble unanimity",
+      "url": "https://therestisnoise.com/quartet_for_the_2/"
+    },
+    {
+      "title": "Rick Masters, Peter Serkin appreciation — Tashi personnel and Fred Sherry’s cello ‘Louange’",
+      "url": "https://www.musicweb-international.com/classrev/2020/Feb/Serkin_appreciation.pdf"
+    },
+    {
+      "title": "Hyperion CDA67351/2 — session details, reviews and Nigel Simeone’s booklet on Vingt Regards",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67351%2F2"
+    },
+    {
+      "title": "Decca Classics — Chailly’s Turangalîla-Symphonie, performers and official streaming links",
+      "url": "https://www.deccaclassics.com/en/catalogue/products/messiaen-turangalla-symphonie-chailly-3111"
+    },
+    {
+      "title": "Anne Ozorio, MusicWeb International — Chailly’s March 1992 recording session",
+      "url": "https://musicweb-international.com/classrev/2009/Jan09/Messiaen_4780352.htm"
+    },
+    {
+      "title": "Max Loppert, BBC Music Magazine — Chailly’s orchestral clarity and Thibaudet’s piano playing",
+      "url": "https://www.classical-music.com/reviews/orchestral/messiaen-35"
+    },
+    {
+      "title": "Boston Symphony Orchestra, Jean-Pascal Vachon — Turangalîla’s ten movements, solo instruments and love-song conception",
+      "url": "https://www.bso.org/works/messiaen-turangalila-symphonie"
+    }
+  ]
+}

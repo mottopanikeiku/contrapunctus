@@ -1,0 +1,66 @@
+{
+  "composer": "fanny-hensel",
+  "items": [
+    {
+      "work": "Das Jahr (The Year)",
+      "year": "1841–42",
+      "performers": "Lauma Skride, piano",
+      "recorded": "6–7 October 2005, Rolf-Liebermann-Studios, Hamburg",
+      "label": "Sony Classical",
+      "note": "Twelve piano pieces and an epilogue recall Hensel’s Italian travels, with a Christmas chorale in ‘December’. Skride plays the revised cycle with clear fingerwork in its most demanding passages.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://classical.music.apple.com/us/album/213622364",
+          "title": "Sony Classical album on Apple Music Classical — Lauma Skride"
+        }
+      ]
+    },
+    {
+      "work": "Piano Trio in D minor, Op. 11",
+      "year": "1846–47",
+      "performers": "Kaleidoscope Chamber Collective: Elena Urioste, violin; Laura van der Heijden, cello; Tom Poster, piano",
+      "recorded": "8–9 November 2021, Potton Hall, Dunwich, Suffolk",
+      "label": "Chandos",
+      "note": "Written for her sister Rebecka’s birthday, the trio opens with violin and cello in octaves over a surging piano. Urioste and van der Heijden bring a particularly tender, singing partnership to the two short middle movements.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/1BEQyzeLFkle2QS3xaXyQ9",
+          "title": "Chandos album on Spotify — Kaleidoscope Chamber Collective, tracks 5–8"
+        },
+        {
+          "kind": "label",
+          "url": "https://www.chandos.net/products/catalogue/CHAN%2020256",
+          "title": "Chandos catalogue — CHAN 20256, complete trio on tracks 5–8"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple Music Classical — Skride’s complete Das Jahr, performer and Sony Classical release credits",
+      "url": "https://classical.music.apple.com/us/album/213622364"
+    },
+    {
+      "title": "CiNii Books — Sony Classical 88697030162, session dates and Hamburg venue",
+      "url": "https://ci.nii.ac.jp/ncid/BA90068650"
+    },
+    {
+      "title": "Rob Challinor, MusicWeb International (12 February 2023) — Das Jahr’s Italian background, December chorale, 1842 revisions and Skride’s fingerwork",
+      "url": "https://musicwebinternational.com/2023/02/mendelssohn-f-das-jahr-danacord-records/"
+    },
+    {
+      "title": "Chandos CHAN 20256 — track listing, performers and recording dates",
+      "url": "https://www.chandos.net/products/catalogue/CHAN%2020256"
+    },
+    {
+      "title": "Bayan Northcott, Chandos CHAN 20256 booklet, pp. 3–4, 10–12 and 33 — composition dates, opening, Rebecka’s birthday, personnel and sessions",
+      "url": "https://www.chandos.net/chanimages/Booklets/CH20256.pdf"
+    },
+    {
+      "title": "Erica Jeal, The Guardian (28 July 2022) — Kaleidoscope’s recording and the string players’ partnership in the middle movements",
+      "url": "https://www.theguardian.com/music/2022/jul/28/fanny-and-felix-mendelssohn-piano-sextet-quartet-and-trio-review"
+    }
+  ]
+}

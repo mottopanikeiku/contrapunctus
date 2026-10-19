@@ -18,156 +18,91 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, III (Fischer-Dieskau, Kempe, 1955).ogg"
   },
-  "intro": "A mother enters a room, and the speaker’s gaze drops to the place where their child would normally be. Mahler sets the two related stanzas without violins, leaving cor anglais, other winds and lower strings unusually exposed.",
-  "question": "How does the second stanza change the opening’s familiar instrumental pattern?",
+  "intro": "A mother comes through the door; the father looks down for the little face beside her. Dietrich Fischer-Dieskau sings this scene with Rudolf Kempe and the Berlin Philharmonic, in a song whose orchestra has no violins.",
   "sections": [
     {
       "t": 0,
-      "label": "First stanza · the empty threshold",
+      "label": "A · The empty place by the door",
       "m": "A",
-      "mNote": "cor anglais and lower parts begin a closely woven texture"
+      "mNote": "Cor anglais and bassoons above plucked cellos"
     },
     {
       "t": 114,
-      "label": "Second stanza · the remembered entrance",
+      "label": "A′ · The mother brings a candle",
       "m": "A′",
-      "mNote": "the opening returns with harp and pizzicato double bass"
+      "mNote": "Harp and plucked double bass renew the opening"
     },
     {
       "t": 236,
-      "label": "Orchestral close · the opening recalled",
+      "label": "Coda · Cor anglais after the lament",
       "m": "Coda",
-      "mNote": "horns and bowed cellos change the opening’s colour"
+      "mNote": "Horns and bowed cellos; a G-major ending"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The violins are absent",
-      "text": "Cor anglais and bassoons begin over plucked cellos. There are no violin parts anywhere in this song: listen to how the exposed wind lines and lower strings establish the colour before the singer joins them.",
-      "basis": "documented",
+      "title": "An orchestra without violins",
+      "text": "Cor anglais and bassoons wind around one another above plucked cellos. Mahler marks the opening “Schwer, dumpf” — heavy, muffled. Fischer-Dieskau joins an orchestra stripped of violins for the whole song.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Song III, printed p. 33. Its instrumentation list omits violins; the opening staves identify cor anglais, bassoons and pizzicato cellos. This describes the opening passage, not a timed voice entrance."
+      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), p. 33: instrumentation and opening marking; our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
       "t": 34,
       "kind": "world",
-      "title": "Looking below the mother’s face",
-      "text": "The speaker turns towards the entering mother, but first looks lower, at the place where the child’s face would have been. The poem locates absence in an ordinary movement of the eyes, before its final lament gives that loss a name.",
+      "title": "At the child’s height",
+      "text": "Rückert’s father turns towards his wife, then looks below her face: “näher nach der Schwelle” — nearer the threshold. His eyes still expect the daughter who used to come in beside her. The room remembers a habit the father cannot stop.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-lied-3-wenn-dein-mutterlein/ Paraphrase of the first stanza and the final lament; not a subtitle aligned to a particular sung phrase."
+      "evidence": "Rückert, Wenn dein Mütterlein, first stanza as set by Mahler; German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text. Our translation."
     },
     {
-      "t": 68,
-      "kind": "listen",
-      "title": "From separate lines to chords",
-      "text": "Across each stanza, compare the opening’s independently moving parts with the more chordal passages later on. The change lets a relatively simple vocal shape meet different kinds of accompaniment without becoming a wholly new melody.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 33–39 and the related second-stanza passage, pp. 40–46. The distinction is visible in the full score and discussed by Geert Woltjer: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html No exact change of texture is asserted at this timestamp."
-    },
-    {
-      "t": 102,
-      "kind": "world",
-      "title": "Music for smaller halls",
-      "text": "Mahler gives the early performances in smaller halls in Vienna and Graz. The detailed scoring is not simply a large orchestra playing quietly: important lines are repeatedly entrusted to a few individual players.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://www.mahlercat.org.uk/Pages/KtL/KtL.htm Scoring and performance-history notes identify the Kleiner Musikvereinsaal and Graz’s Stephaniesaal as the composer’s preferred early venues. This does not establish the ensemble size used for this recording."
-    },
-    {
-      "t": 136,
+      "t": 114,
       "kind": "form",
-      "title": "The opening returns with changes",
-      "text": "The second stanza brings back the opening cor anglais line. Harp and plucked double bass add a different foundation to the familiar pattern; compare this return with the cellos’ plucked pulse at the start.",
+      "title": "The doorway again",
+      "text": "The cor anglais begins again, now with harp and plucked double bass underneath. In the second stanza the mother carries a candle, and the child seems to slip into the room behind her. Fischer-Dieskau’s closing lament calls her a light extinguished too soon.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 40, rehearsal 3. The report marks 1:54, followed by the opening-like G–B–C profile and a quieter span around 2:00–2:15. The cue describes the surrounding return; no instrumental attack or syllable is precisely aligned."
+      "evidence": "Kahnt full score, pp. 40–46, rehearsal 3 onwards; Rückert’s second stanza. The changed bass scoring is discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html"
     },
     {
-      "t": 170,
-      "kind": "listen",
-      "title": "The second stanza is not a copy",
-      "text": "As the second stanza unfolds, listen for shifts between the singer and the accompanying lines. Mahler preserves much of the first stanza’s design but redistributes details, so a familiar phrase can acquire another voice or register.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 43–46. Woltjer describes the exchanged melodic material in the second stanza: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html This is a passage-level comparison, not a claim about a particular attack."
-    },
-    {
-      "t": 204,
-      "kind": "world",
-      "title": "Mahler reshapes Rückert’s poem",
-      "text": "Mahler changes the order of Rückert’s two stanzas and shortens the text. The version he sets begins with the gaze towards the threshold and ends with the image of a light of joy extinguished too soon.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html Describes reversal of Rückert’s stanzas, omission of part of the original first stanza and relocation of the final line. The resulting text is reproduced at https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-lied-3-wenn-dein-mutterlein/."
-    },
-    {
-      "t": 238,
+      "t": 236,
       "kind": "music",
-      "title": "The opening changes its colour",
-      "text": "In the orchestral ending, cor anglais recalls the opening material, but horns and bowed cellos alter its support. The written close rests on G, the dominant of C minor, rather than returning to a settled C-minor final chord.",
+      "title": "The cellos take their bows",
+      "text": "The cor anglais recalls the opening after the voice has finished. The cellos now bow their notes, with horns close beside them. The song comes to rest on G major, the chord that would normally lead back to C minor.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 47. The report marks 3:56 before the quieter close, then 4:10 and 4:20 as activity reduces; G–B–D occupies the final sustained windows. The score establishes the harmony; the report only corroborates its broad location."
-    },
-    {
-      "t": 260,
-      "kind": "listen",
-      "title": "Hold the unresolved ending",
-      "text": "The last sustained tones diminish without a further vocal phrase. Keep the earlier plucked pulse in mind while the ending becomes nearly motionless: familiar material has reached a different kind of stopping point.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report shows onset density falling to 0.2 per second at 4:15–4:20 and zero at 4:25; level drops from −22.6 dB at 4:20 to −48.2 dB at 4:30. The harmonic interpretation comes from the preceding score-based cue."
+      "evidence": "Kahnt full score, p. 47: Wieder wie zu Anfang, bowed cellos, horns and the final dominant chord. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html"
     }
   ],
   "transitions": [
     {
       "id": "second-stanza",
-      "title": "The same outline gains a new foundation",
-      "from": "First stanza · the empty threshold",
-      "to": "Second stanza · the remembered entrance",
-      "at": {
-        "t": 114
-      },
-      "span": [
-        104,
-        126
-      ],
-      "how": "<p>After the first stanza’s descending close, the cor anglais recovers its initial line at the opening pace. Harp and pizzicato double bass now underpin the texture that the plucked cellos established at the start. The C-minor setting and familiar melody make the return clear, while the change in the lowest parts prevents an exact repetition.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "tempo change"
-      ],
+      "title": "A new bass beneath the doorway",
+      "from": "A · The empty place by the door",
+      "to": "A′ · The mother brings a candle",
+      "at": { "t": 114 },
+      "span": [104, 126],
+      "how": "<p>The first stanza descends to its low “Töchterlein” and closes in C minor. After the ritardando, <i>Wie zu Anfang</i> restores the opening pace and cor anglais tune. Harp and plucked double bass replace the cello pulse; a held bass-clarinet note crosses the join.</p>",
+      "devices": ["motivic link", "orchestration change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 40, rehearsal 3, marked “Wie zu Anfang”. The 1:54 novelty point and subsequent quieter G–B–C profile support the return’s approximate location. The sung stanza itself begins later than this instrumental return."
+      "evidence": "Kahnt full score, p. 40, rehearsal 3; Woltjer, song III, bars 31–33. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html"
     },
     {
       "id": "instrumental-close",
-      "title": "The opening returns without its plucked bass",
-      "from": "Second stanza · the remembered entrance",
-      "to": "Orchestral close · the opening recalled",
-      "at": {
-        "t": 236
-      },
-      "span": [
-        226,
-        248
-      ],
-      "how": "<p>The vocal lament gives way to the opening cor anglais figure, now supported by horns and bowed cellos rather than the initial pizzicato cello pulse. The descending wind figures lengthen and the texture gradually loses motion. Its G-major close leaves C minor’s dominant standing, so the return of the opening melody does not bring a tonic conclusion.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "decrescendo",
-        "half cadence"
-      ],
+      "title": "Bowed cellos replace the plucked pulse",
+      "from": "A′ · The mother brings a candle",
+      "to": "Coda · Cor anglais after the lament",
+      "at": { "t": 236 },
+      "span": [226, 248],
+      "how": "<p><i>Wieder wie zu Anfang</i> brings the cor anglais back, with horns and bowed cellos beneath it. The wind phrases lengthen and slow. Harp and low strings support a final G-major chord, C minor’s dominant, held under fermatas.</p>",
+      "devices": ["motivic link", "orchestration change", "decrescendo", "half cadence"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 47, marked “Wieder wie zu Anfang”. The 3:56 boundary and low onset density from 3:50 onwards anchor the approximate coda span. The precise final vocal release has not been aligned."
+      "evidence": "Kahnt full score, p. 47. The dominant ending is discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html"
     }
   ],
   "orchestra": {
@@ -190,7 +125,7 @@ export default {
     "source": {
       "title": "Mahler, Kindertotenlieder, full score (C. F. Kahnt, plate 4460)",
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425",
-      "locator": "Song III, printed pp. 33–47; no violins. These are passage-level scoring groups, not instantaneous lists of sounding parts. Timings are provisional score proportions checked against the audio report, without bar alignment or aural verification."
+      "locator": "Song III, printed pp. 33–47: cor anglais and plucked cellos at the opening, harp and double basses in the second stanza. Violins are silent throughout."
     },
     "timeline": [
       {
@@ -219,7 +154,7 @@ export default {
           "solo-voice",
           "cor-anglais"
         ],
-        "note": "First-stanza opening: the voice joins a changing network of wind lines over the low pulse."
+        "note": "The baritone joins the cor anglais and bassoons above plucked cellos."
       },
       {
         "t": 114,
@@ -233,7 +168,7 @@ export default {
         "lead": [
           "cor-anglais"
         ],
-        "note": "Return passage: harp and pizzicato double bass replace the opening cello foundation beneath the familiar wind figure."
+        "note": "Harp and plucked double basses replace the cellos beneath the returning cor anglais phrase."
       },
       {
         "t": 236,
@@ -250,7 +185,7 @@ export default {
           "cor-anglais",
           "horns"
         ],
-        "note": "Coda: horns and bowed cellos give the returning opening figure a different weight before its G-centred close."
+        "note": "Cor anglais, horns and bowed cellos recall the opening before the final G-major chord."
       }
     ]
   }

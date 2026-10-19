@@ -1,51 +1,51 @@
 {
   "id": "tchaikovsky-6-finale",
-  "title": "Two ways to sustain the last lament",
+  "title": "Two orchestras sing the last lament",
   "composer": "tchaikovsky",
   "group": "century",
   "work": "Symphony No. 6 in B minor “Pathétique”, Op. 74 — IV. Finale: Adagio lamentoso",
-  "question": "Where do Furtwängler and the Musopen Symphony spend their time inside a slow finale of nearly equal length?",
-  "intro": "Furtwängler and the Berlin Philharmonic recorded the symphony in Berlin in October–November 1938; the comparison reuses the site’s Musopen Symphony finale, whose session date is not established. The provisional map aligns Musopen’s 0–615 seconds with Furtwängler’s 0–600, excluding terminal tails, and has median chroma confidence 0.875. Local confidence falls below 0.8 in parts of the quiet music, especially around reference 330–355 seconds and the ending, so compare broader phrases rather than trusting each switching instant. Commons explicitly applies territorial PD-EU-audio to Furtwängler’s recording, but US status and the terms of the now-unavailable upstream transfer remain unestablished.",
+  "question": "How do two orchestras keep Tchaikovsky’s slow finale moving as its melodies fall towards silence?",
+  "intro": "In February 1893, Tchaikovsky told his nephew Vladimir Davydov that his new symphony would end with “a most long-drawn-out Adagio”. The finale begins with a falling melody whose notes pass between the two violin sections. Furtwängler’s Berlin Philharmonic and the Musopen Symphony carry that lament through its great outbursts to the quiet low strings at the end.",
   "recordings": [
     {
       "listen": "tchaikovsky-6-finale-furtwangler-1938",
-      "label": "Berlin Philharmonic / Furtwängler",
+      "label": "Wilhelm Furtwängler, Berlin Philharmonic",
       "year": 1938,
-      "note": "Beethovensaal, Berlin; Victor DM 553 transfer; recording-specific European rights statement, with unavailable upstream provenance."
+      "note": "Broad phrases keep their momentum through the lament; Furtwängler draws the climaxes into long sweeps."
     },
     {
       "listen": "tchaikovsky-6-finale",
       "label": "Musopen Symphony",
       "year": null,
-      "note": "Existing Musopen public-domain recording; session date, conductor and performing edition unidentified."
+      "note": "The modern recording carries the whole finale, from the opening violin exchanges to the last descent into cellos and basses."
     }
   ],
   "reference": "tchaikovsky-6-finale",
   "passages": [
     {
-      "label": "Opening phrase lengths",
+      "label": "One tune, two violin sections",
       "t": 0,
-      "note": "Follow the rise and release of the first broad phrase, not merely the time between the first attacks."
+      "note": "First and second violins exchange notes of the falling tune. Together they make a melody that neither section plays complete."
     },
     {
-      "label": "Beginning a longer rise",
+      "label": "The D-major song",
       "t": 170,
-      "note": "Compare the growth across several gestures; this quieter region has less secure automatic matching, so judge the phrase by ear."
+      "note": "Horns support a broad descending melody in the first violins and violas; trombones answer it."
     },
     {
-      "label": "After the earlier crest",
+      "label": "The orchestra rushes down",
       "t": 270,
-      "note": "Listen through the withdrawal after sustained force: an arrival can leave the phrase needing to continue."
+      "note": "Fast descending scales carry the broad melody to its climax. The whole orchestra joins the fall."
     },
     {
-      "label": "The later sustained span",
+      "label": "Brass joins the lament",
       "t": 420,
-      "note": "Compare how long the stronger sound persists before retreating, without treating either recording’s level as an absolute dynamic measurement."
+      "note": "The returning lament reaches another outburst. Trombones and tuba reinforce the strings as the music presses towards a long-held F♯."
     },
     {
-      "label": "The closing decline",
+      "label": "The last descent",
       "t": 545,
-      "note": "Follow the remaining line through its smaller renewals and retreats. Sustained quiet notes make the later alignment less certain."
+      "note": "The broad melody returns in B minor. Muted strings descend, and the tune sinks gradually towards the cellos and basses."
     }
   ],
   "alignment": {
@@ -85,6 +85,22 @@
     {
       "title": "Tchaikovsky’s planned slow finale and documentary chronology",
       "url": "https://en.tchaikovsky-research.net/pages/Symphony_No._6"
+    },
+    {
+      "title": "Kate Hopkins, Philharmonia programme, 5 February 2023: Tchaikovsky’s letter to Davydov",
+      "url": "https://philharmonia-assets.s3.amazonaws.com/uploads/2023/01/05.02.23_RFH-online.pdf"
+    },
+    {
+      "title": "Queensland Symphony Orchestra: Sixth Symphony learning resource, finale pp. 16–17",
+      "url": "https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
+    },
+    {
+      "title": "Symphony No. 6: finale’s divided melody, keys, bass pedal and muted-string ending",
+      "url": "https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)"
+    },
+    {
+      "title": "Christopher Howell and Jonathan Woolf, MusicWeb, January 2004: Furtwängler’s 1938 performance",
+      "url": "https://musicweb-international.com/classRev/2004/Jan04/Tchaikovsky6_Furtwangler.htm"
     }
   ]
 }

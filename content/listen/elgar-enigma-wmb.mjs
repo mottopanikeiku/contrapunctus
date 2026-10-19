@@ -18,34 +18,33 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme IV. W.M.B.ogg"
   },
-  "intro": "Elgar compresses a country squire’s brisk manner into the shortest variation. Strong repeated accents leave little room for a leisurely melody.",
-  "question": "How much character can a few accented gestures carry?",
+  "intro": "William Meath Baker, squire of Hasfield, gets the shortest of Elgar’s portraits. His brisk announcements become hard accents; his hurried exit supplies the punchline.",
   "sections": [
     {
       "t": 0,
-      "label": "IV · A brisk interruption",
+      "label": "Var 4 · Baker bangs the door",
       "m": "Var 4",
-      "mNote": "the shortest portrait concentrates on repeated accents"
+      "mNote": "Repeated accents and a bustling Allegro di molto"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Accents instead of conversation",
-      "text": "The orchestra attacks short, repeated gestures at an Allegro di molto pace. Listen for the abrupt changes of weight: this portrait works through accent and interruption rather than a long singing line.",
-      "basis": "general",
+      "title": "Baker takes the floor",
+      "text": "Strings and woodwinds speak in clipped, heavily accented phrases, with horns, trumpets and timpani behind them. The marking is <i>Allegro di molto</i>. Almost before this bustling little speech has begun, the orchestra is racing towards its last chord.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 20–23, rehearsal figures 11–14; the report is strong at 0:00–0:05 and 0:20, with a quieter middle. Whole-variation description."
+      "evidence": "Novello full score, pp. 20–23, rehearsal figures 11–14: opening accents and the concise ending. https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf"
     },
     {
       "t": 13,
-      "kind": "world",
-      "title": "William Meath Baker",
-      "text": "William Meath Baker is the country squire announcing the day’s arrangements to his guests. Elgar’s brief portrait remembers his brisk manner rather than illustrating a particular landscape.",
+      "kind": "life",
+      "title": "Carriages for the guests",
+      "text": "Baker has a houseful of guests and carriages to arrange. With a slip of paper in his hand, he reads out the day’s plans forcefully and hurries from the music room, accidentally banging the door. Elgar includes the guests’ teasing response in the middle of the variation.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society identifies Baker and the domestic incident. https://elgar.org/3enigma.htm"
+      "evidence": "Elgar, My Friends Pictured Within (Novello), section IV: the paper, carriage arrangements, door and guests’ response in bars 15–24. https://s9.imslp.org/files/imglnks/usimg/0/06/IMSLP339677-SIBLEY1802.27173.6d2a-39087004945996text.pdf. Baker’s Hasfield home: https://en.wikipedia.org/wiki/Enigma_Variations"
     }
   ],
   "transitions": [],
@@ -73,13 +72,13 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 20–23, rehearsal figures 11–14. Whole-variation passage map: opening accents, the report’s quieter 0:12 span, and the renewed weight around 0:20. Desk changes are approximate."
+      "locator": "Novello full score, pp. 20–23, rehearsal figures 11–14: Variation IV, W.M.B., marked Allegro di molto."
     },
     "timeline": [
-      { "t": 0, "playing": ["oboes", "clarinets", "bassoons", "horns", "trumpets", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Wind, horns, trumpets and strings deliver the opening accents above timpani; flutes and low brass are initially silent (p. 20)." },
-      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "Flutes and low brass join as the upper strings move rapidly beneath broader wind and brass notes (pp. 20–21)." },
-      { "t": 12, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "oboes"], "note": "The middle exchange temporarily lightens to winds and strings before the next crescendo (p. 22)." },
-      { "t": 19, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns", "trumpets"], "note": "Fuller wind and brass accents return for the concise ending (pp. 22–23; the report rises again around 0:20)." }
+      { "t": 0, "playing": ["oboes", "clarinets", "bassoons", "horns", "trumpets", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Strings and woodwinds begin with clipped accents, reinforced by horns, trumpets and timpani (p. 20)." },
+      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "First violins, violas, cellos and basses run beneath the longer wind notes. Flutes and low brass join the exchange (pp. 20–21)." },
+      { "t": 12, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "oboes"], "note": "Oboes and clarinets chatter in short notes. Flute and violin flourishes interrupt them while the other strings leave gaps (p. 22)." },
+      { "t": 19, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns", "trumpets"], "note": "The full orchestra returns to the opening accents, now marked fff, and ends with a sudden stop (pp. 22–23)." }
     ]
   }
 };

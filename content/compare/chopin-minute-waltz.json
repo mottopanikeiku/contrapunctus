@@ -1,26 +1,30 @@
 {
   "id": "chopin-minute-waltz",
-  "title": "Three ways around a waltz",
+  "title": "A waltz that pauses to sing",
   "composer": "chopin",
   "group": "golden-age",
   "work": "Waltz in D♭ major, Op. 64 No. 1",
-  "question": "How do three pianists redistribute time between the running outer music and the broader middle?",
-  "intro": "Rachmaninoff recorded the waltz for Victor on 5 April 1923; Muriel Nguyen Xuan’s recording is dated 2007 and Olga Gurevich’s approximately 2014. The files include different amounts of final decay and silence, so the alignment trims their tails rather than treating file length as playing time. Listen for where the running surface relaxes, then resumes.",
+  "question": "How much room does each pianist give the singing middle before the circling notes return?",
+  "intro": "Chopin starts the <i>Minute Waltz</i> with the right hand chasing a little circle of notes. A singing middle, marked <i>sostenuto</i>, opens between the fast passages. Rachmaninoff, Olga Gurevich and Muriel Nguyen Xuan each have that small oasis before the trill sends the tune running again.",
   "recordings": [
-    { "listen": "chopin-waltz-op64-1-rachmaninoff", "label": "Rachmaninoff, 1923", "year": 1923, "note": "Compare the relatively spacious middle with the later running figures; the file contains silence after the music." },
-    { "listen": "chopin-waltz-op64-1-gurevich", "label": "Gurevich, c. 2014", "year": 2014, "note": "Follow the reduction in activity near the middle and the strong renewed start around 1:05." },
-    { "listen": "chopin-waltz-op64-1-nguyen-xuan", "label": "Nguyen Xuan, 2007", "year": 2007, "note": "Compare the spacing of the middle melody with the later crest; Stéphane Magnenat is the credited recordist." }
+    { "listen": "chopin-waltz-op64-1-rachmaninoff", "label": "Sergei Rachmaninoff, 1923", "year": 1923, "note": "Rachmaninoff plays a Steinway concert grand, recording Chopin’s dance for Victor on 5 April 1923." },
+    { "listen": "chopin-waltz-op64-1-gurevich", "label": "Olga Gurevich, c. 2014", "year": 2014, "note": "Born in Baku, Gurevich moved to Moscow at seventeen to study piano at the Gnesin Academy." },
+    { "listen": "chopin-waltz-op64-1-nguyen-xuan", "label": "Muriel Nguyen Xuan, 2007", "year": 2007, "note": "Nguyen Xuan plays a Yamaha grand; Stéphane Magnenat recorded her on 16 July 2007." }
   ],
   "reference": "chopin-waltz-op64-1-rachmaninoff",
   "passages": [
-    { "label": "Opening running figures", "t": 12, "note": "Compare phrase lengths rather than matching elapsed seconds; all positions are automatically aligned." },
-    { "label": "Broader middle", "t": 40, "note": "Between reference 40 and 60 seconds, Gurevich’s mapped interval lasts about 13.7 seconds and Nguyen Xuan’s 14.8." },
-    { "label": "Running figures resume", "t": 78, "note": "The reference report registers denser attacks and renewed weight after the quieter middle." }
+    { "label": "The circling tune", "t": 12, "note": "The right hand circles around A♭, then spills into a running tune. Bass notes and two answering chords keep the waltz turning." },
+    { "label": "The singing middle", "t": 40, "note": "The quick notes stretch into a sustained melody, marked <i>sostenuto</i>. The left hand keeps its three-beat dance underneath." },
+    { "label": "The running notes return", "t": 78, "note": "The circling figure returns after the long trill, and the bass rejoins it. The running tune is off again." }
   ],
   "sources": [
     { "title": "Rachmaninoff — 1923 session and transfer", "url": "https://commons.wikimedia.org/wiki/File:Minute_Waltz,_by_Chopin_-_Performed_by_Sergej_Rachmaninoff.ogg" },
-    { "title": "Gurevich — Musopen recording", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._6_in_D-flat_major,_Op._64,_No._1_%27Minute%27_(Olga_Gurevich).flac" },
-    { "title": "Nguyen Xuan — 2007 recording", "url": "https://commons.wikimedia.org/wiki/File:Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg" },
-    { "title": "DAHR — Victor matrix B-24192", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700009401" }
+    { "title": "Gurevich — Musopen recording; date approximate", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._6_in_D-flat_major,_Op._64,_No._1_%27Minute%27_(Olga_Gurevich).flac" },
+    { "title": "Nguyen Xuan — Yamaha grand and Magnenat’s 16 July 2007 recording", "url": "https://commons.wikimedia.org/wiki/File:Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg" },
+    { "title": "DAHR — Victor matrix B-24192", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700009401" },
+    { "title": "Chopin — Op. 64 No. 1, Peters edition, transcribed by Mutopia", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483" },
+    { "title": "Mieczysław Tomaszewski — the waltz’s singing trio", "url": "https://chopin.nifc.pl/en/chopin/kompozycja/259" },
+    { "title": "Bloomingdale School of Music — Gurevich’s Baku childhood and Moscow training", "url": "https://www.bsmny.org/team/olga-gurevich/" },
+    { "title": "Rachmaninoff chronology — Victor session, 5 April 1923", "url": "https://classical-pianists.net/vii-b/sergei-rachmaninoff/chronology-2/" }
   ]
 }

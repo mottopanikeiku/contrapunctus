@@ -19,227 +19,135 @@ export default {
   "source": {
     "file": "File:Vivaldi - Four Seasons 1 Spring mvt 3 Allegro - John Harrison violin.oga"
   },
-  "intro": "A lilting dance in 12/8 grows over long bass notes that suggest rustic bagpipes. The refrain’s returns pass through minor keys before the finale regains E major.",
-  "question": "When the dance returns in a different key, what still makes it recognisable?",
+  "intro": "Nymphs and shepherds dance to lilting violins over the long E and B of a country bagpipe. Vivaldi lets the dance wander into C♯ minor and E minor before bringing everyone home.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Pastoral refrain",
-      "m": "A"
-    },
-    {
-      "t": 34,
-      "label": "First solo episode · approximate",
-      "m": "B"
-    },
-    {
-      "t": 59,
-      "label": "Minor-key refrain · approximate",
-      "m": "A′",
-      "mNote": "the refrain returns in C♯ minor and moves towards B major"
-    },
-    {
-      "t": 90,
-      "label": "Extended solo episode · approximate",
-      "m": "C"
-    },
-    {
-      "t": 150,
-      "label": "Refrain turns to minor · approximate",
-      "m": "A″",
-      "mNote": "E-major refrain gives way to E minor"
-    },
-    {
-      "t": 185,
-      "label": "Minor-key solo · approximate",
-      "m": "D"
-    },
-    {
-      "t": 212,
-      "label": "Final refrain · approximate",
-      "m": "A",
-      "mNote": "E major returns for the final dance"
-    }
+    { "t": 0, "label": "A · The bagpipe dance", "m": "A", "mNote": "A lilting violin tune above long E and B notes" },
+    { "t": 34, "label": "B · The soloist leaves the drone", "m": "B", "mNote": "Rising sequences and a chromatic bass lead towards C♯ minor" },
+    { "t": 59, "label": "A′ · The dance in C♯ minor", "m": "A′", "mNote": "The refrain returns in C♯ minor and reaches B major" },
+    { "t": 90, "label": "C · Solo violin and answering strings", "m": "C", "mNote": "The solo travels through several keys above sustained bass notes" },
+    { "t": 150, "label": "A″ · The dance turns to E minor", "m": "A″", "mNote": "The refrain begins in E major, then loses its G♯" },
+    { "t": 185, "label": "D · Solo violin over B", "m": "D", "mNote": "The bass holds B while the upper strings rest" },
+    { "t": 212, "label": "A · The last E-major dance", "m": "A", "mNote": "The full strings return to E major" }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A dance over a drone",
-      "text": "The tune rocks in four groups of three quavers, the 12/8 metre of this pastoral dance. Under it, long E and B notes suggest the fixed drones of bagpipes without adding any bagpipe to the string ensemble.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Mutopia III, opening 12 bars, shows the compound metre and sustained bass notes. Resonances explains the pastoral drone: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301; https://human.libretexts.org/Bookshelves/Music/Ethnomusicology/Resonances_-_Engaging_Music_in_its_Cultural_Context_(Morgan-Ellis_Ed.)/02%3A_Music_for_Storytelling/06%3A_Stories_without_Words/6.04%3A_Antonio_Vivaldi_-_The_Four_Seasons_Spring."
-    },
-    {
-      "t": 32,
-      "kind": "world",
-      "title": "Nymphs and shepherds",
-      "text": "Spring’s last sonnet stanza imagines nymphs and shepherds dancing to rustic bagpipes. These are conventional figures of the pastoral world, not named characters in a plot that the violin must narrate note by note.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The final stanza names nymphs, shepherds and bagpipes: https://nac-cna.ca/en/event/notes/36996."
-    },
-    {
-      "t": 64,
-      "kind": "form",
-      "title": "The refrain in a minor key",
-      "text": "The dance shape returns in C♯ minor. Its familiar rhythm survives the change of key, and the passage continues onwards rather than settling into a simple replay of the opening.",
+      "title": "A country bagpipe",
+      "text": "“Di pastoral Zampogna al Suon festante” — “To the merry sound of a shepherd’s bagpipe.” The 1725 sonnet gives this dance its instrument. Long E and B notes in the bass imitate the bagpipe’s drone while the violin tune rocks in four groups of three quavers.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The same-recording analysis places the second ritornello near 0:58.5; the report’s C♯-minor region extends across about 0:45–1:15. The score has the refrain in C♯ minor at movement bar 22: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+      "evidence": "Spring sonnet, letter G; translation ours. Mutopia score after Performers’ Facsimiles, III, bars 1–12, marked Danza Pastorale in 12/8: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+    },
+    {
+      "t": 59,
+      "kind": "form",
+      "title": "The dance in C♯ minor",
+      "text": "The strings return with the same rocking dance in C♯ minor. The bass holds C♯ where it first held E. Soon it starts moving again, carrying the tune through E major towards B major.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Mutopia score, III, bars 22–34; José Rodríguez Alvira traces the progression: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
     },
     {
       "t": 96,
-      "kind": "life",
-      "title": "More than a concerto composer",
-      "text": "Vivaldi’s first staged opera, Ottone in villa, was performed in Vicenza in 1713. His career in the theatre ran alongside the instrumental music for which he is now most widely known.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The Pietà biography identifies Ottone in villa, Vicenza, 1713: https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi."
-    },
-    {
-      "t": 128,
-      "kind": "listen",
-      "title": "The solo line and its support",
-      "text": "During this extended episode, compare the solo violin’s changing figures with the longer notes and recurring patterns beneath it. The accompaniment does not have to imitate the soloist’s speed to give its movement direction.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "The score’s extended second solo includes sustained bass support and answering violin figures, followed by repeated quavers; the report is relatively subdued around 1:45–2:15. This prompt covers the episode rather than timing a single answer: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301; https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
-    },
-    {
-      "t": 160,
-      "kind": "form",
-      "title": "The same tonic, another mode",
-      "text": "The returning dance passes from E major to E minor. The tonal centre stays E, but G-sharp gives way to G-natural. Listen for the familiar figure carrying a changed harmonic colour.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "The score changes to E minor at movement bar 61; the same-recording commentary places the mixed major/minor refrain at about 2:29.5–3:04.5. The report marks a strong change at 2:40 and a minor-compatible region later in that span: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
-    },
-    {
-      "t": 192,
       "kind": "world",
-      "title": "Published as a collection",
-      "text": "The Four Seasons opened Vivaldi’s Op. 8, published in Amsterdam in 1725. The seasonal titles and attached poems invite detailed listening, but the solo episodes also follow the concerto’s musical business of contrast, travel and return.",
+      "title": "Nymphs beside the shepherds",
+      "text": "“Danzan Ninfe e Pastor nel tetto amato / Di primavera all’apparir brillante” — “Nymphs and shepherds dance beneath their beloved shelter at spring’s brilliant arrival.” The sonnet puts mythological nymphs beside working shepherds. Their music is the same country dance.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Pietà biography documents the 1725 Amsterdam publication; the movement’s episodes and returns are established in the score: https://www.vivaldichurchvenice.com/en/biography-of-antonio-vivaldi; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+      "evidence": "Spring sonnet, 1725, final two lines, letter G; translation ours. The text is printed with the Mutopia score and reproduced at https://nac-cna.ca/en/event/notes/36996. The sonnets were published anonymously."
     },
     {
-      "t": 224,
+      "t": 150,
       "kind": "form",
-      "title": "The dance finds E major again",
-      "text": "The last refrain restores E major. Its final phrases include a quieter echo before the ending; listen for a change of level without a change of the dance’s basic pulse.",
+      "title": "G♯ becomes G♮",
+      "text": "The dance returns in E major, then turns to E minor. G♯ becomes G♮; the bass descends by semitones beneath the familiar lilt. The tune keeps dancing through the change.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The score returns to E major at bar 79 and marks the later phrase piano at bar 86. The guide places the last refrain near 3:32; report levels retreat around 3:50–4:00: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+      "evidence": "Mutopia score, III, bars 58–70, including the change to E minor in bar 61 and chromatic bass descent; commentary at https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
+    },
+    {
+      "t": 212,
+      "kind": "form",
+      "title": "Back to the bagpipe",
+      "text": "The long bass B resolves to E, and the full strings restore the major-key dance. The final phrase has a soft echo. After the soloist’s wandering, the bass can settle back into its bagpipe drone.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Mutopia score, III, bars 79–89, with the return to E major and the later piano echo: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
     }
   ],
   "transitions": [
     {
       "id": "first-solo",
-      "title": "The drone gives way to a travelling bass",
-      "from": "Pastoral refrain",
-      "to": "First solo episode",
-      "at": {
-        "t": 34
-      },
-      "how": "<p>The full-string refrain releases the solo violin while the bass begins to move away from its held E and B. Ascending sequences lead through A and B towards C♯ minor; chromatic descending bass motion then intensifies the approach to the next refrain.</p>",
-      "devices": [
-        "orchestration change",
-        "sequence"
-      ],
+      "title": "The drone starts walking",
+      "from": "A · The bagpipe dance",
+      "to": "B · The soloist leaves the drone",
+      "at": { "t": 34 },
+      "how": "<p>The solo violin leaves the full-string dance while the bass still holds E. Then the bass begins to move: ascending sequences pass through A and B towards C♯ minor. A descent by semitones tightens the approach to the next refrain.</p>",
+      "devices": ["orchestration change", "sequence"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The score’s first solo starts within bar 12; the guide places it at 0:33.5 and explains the sequence and chromatic bass. Report pitch estimates move from E to C♯ minor shortly afterwards: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+      "evidence": "Mutopia score, III, bars 12–22; bass and harmonic route shown at https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
     },
     {
       "id": "minor-refrain",
-      "title": "The dance shape returns in C♯ minor",
-      "from": "First solo episode",
-      "to": "Minor-key refrain",
-      "at": {
-        "t": 59
-      },
-      "how": "<p>The solo passage reaches C♯ minor and the full strings resume the opening dance figure in that key. Its characteristic rhythm makes the return audible before the continuing sequence moves through E major towards B major.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "sequence"
-      ],
+      "title": "The strings land on C♯",
+      "from": "B · The soloist leaves the drone",
+      "to": "A′ · The dance in C♯ minor",
+      "at": { "t": 59 },
+      "how": "<p>The bass resolves G♯ to C♯. The full strings resume the opening dance in C♯ minor over a long C♯ pedal. Its dotted rhythm survives intact, then a descending-fifths progression takes the phrase through E major towards B major.</p>",
+      "devices": ["perfect cadence", "motivic link", "orchestration change", "sequence"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mutopia bar 22 marks tutti in C♯ minor. The guide’s synchronization gives 0:58.5 and its prose explains the later B-major destination; report windows around 0:55–1:15 favour C♯ minor: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
+      "evidence": "Mutopia score, III, bars 21–34; harmonic sequence explained at https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
     },
     {
       "id": "extended-solo",
-      "title": "A cadence releases the soloist again",
-      "from": "Minor-key refrain",
-      "to": "Extended solo episode",
-      "at": {
-        "t": 90
-      },
-      "how": "<p>The refrain reaches B major. The soloist begins another mobile episode, with the orchestral violins answering later within it. A chain of fifth-related harmonies takes the line away from B before bringing it back; the 12/8 pulse continues through the handover.</p>",
-      "devices": [
-        "orchestration change",
-        "sequence"
-      ],
+      "title": "B major releases the soloist",
+      "from": "A′ · The dance in C♯ minor",
+      "to": "C · Solo violin and answering strings",
+      "at": { "t": 90 },
+      "how": "<p>The bass moves E–F♯–B at the cadence. The soloist begins a new episode in B major while short bass notes punctuate the phrase. A chain of fifths carries it through E, A and D before the music finds its way back to B.</p>",
+      "devices": ["perfect cadence", "orchestration change", "sequence"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The score marks solo in bar 34, after the B-major cadence. The same-recording guide starts this episode at 1:30 and describes its harmonic itinerary: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+      "evidence": "Mutopia score, III, bars 33–58; key sequence in Rodríguez Alvira’s commentary: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
     },
     {
       "id": "mixed-refrain",
-      "title": "The returning tune changes mode",
-      "from": "Extended solo episode",
-      "to": "Refrain turns to minor",
-      "at": {
-        "t": 150
-      },
-      "how": "<p>The solo passage ends in B major, and the refrain begins again in E major. Within a few bars its G-sharp changes to G-natural and the music proceeds in E minor. The return therefore supplies both recognition and a new departure.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "direct modulation"
-      ],
+      "title": "The returning dance loses G♯",
+      "from": "C · Solo violin and answering strings",
+      "to": "A″ · The dance turns to E minor",
+      "at": { "t": 150 },
+      "how": "<p>The solo episode ends in B major. The bass restores its long E and the strings begin the dance in E major. At bar 61 the key signature changes to one sharp: G♮ replaces G♯, and the refrain continues in E minor.</p>",
+      "devices": ["motivic link", "orchestration change", "direct modulation"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mutopia bars 58–61 show tutti and the change of key signature. The guide gives about 2:29.5 for the return; the analysis report has strong changes at 2:28 and 2:40: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+      "evidence": "Mutopia score, III, bars 58–61: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
     },
     {
       "id": "minor-solo",
-      "title": "The strings leave a dominant pedal",
-      "from": "Refrain turns to minor",
-      "to": "Minor-key solo",
-      "at": {
-        "t": 185
-      },
-      "how": "<p>The orchestral violins withdraw while the solo violin moves over a sustained B in the bass. The dominant pedal holds the harmony in suspense: the soloist’s changing notes can intensify the phrase without immediately changing its foundation.</p>",
-      "devices": [
-        "orchestration change",
-        "dominant pedal"
-      ],
+      "title": "A long B under the solo",
+      "from": "A″ · The dance turns to E minor",
+      "to": "D · Solo violin over B",
+      "at": { "t": 185 },
+      "how": "<p>The bass descends E–D♯–D–C♯–C–B and holds the B. The orchestral violins withdraw, leaving the soloist above that dominant pedal. The held note lasts through the episode until the final return to E major.</p>",
+      "devices": ["orchestration change", "dominant pedal"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mutopia bars 71–78 show orchestral rests and the sustained B bass. The guide gives about 3:04.5; the report marks a change at 3:04: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301; https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
+      "evidence": "Mutopia score, III, bars 68–79, bass descent and sustained B: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
     },
     {
       "id": "last-refrain",
-      "title": "Major-mode dance after the held dominant",
-      "from": "Minor-key solo",
-      "to": "Final refrain",
-      "at": {
-        "t": 212
-      },
-      "how": "<p>The long B support resolves towards E and the full-string dance returns in E major. The familiar dotted figure replaces the solo figuration; Vivaldi needs no new tempo to make the final arrival clear.</p>",
-      "devices": [
-        "dominant pedal",
-        "motivic link",
-        "orchestration change"
-      ],
+      "title": "E major after the long B",
+      "from": "D · Solo violin over B",
+      "to": "A · The last E-major dance",
+      "at": { "t": 212 },
+      "how": "<p>The bass leaves its long B for E, and the full strings resume the dance in E major. The soloist rejoins the orchestral violins. Long E and B notes support the last phrases, including their piano echo.</p>",
+      "devices": ["dominant pedal", "motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The score restores E major and tutti at bar 79. The guide gives about 3:32 and the report marks 3:30, with renewed E-major-compatible content: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php; https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
+      "evidence": "Mutopia score, III, bars 79–89: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
     }
   ],
   "orchestra": {

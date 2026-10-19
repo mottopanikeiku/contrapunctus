@@ -70,8 +70,10 @@ export async function mount(app) {
     let c = -1;
     for (let i = 0; i < s.cues.length && s.cues[i].at <= position; i++) c = i;
     if (c !== cueIndex) {
-      panels[index].querySelector('[data-j-cue]').textContent = c < 0 ? 'Let the music lead you into this station.' : s.cues[c].text;
-      panels[index].querySelector('.j-cue').classList.toggle('has-cue', c >= 0);
+      const box = panels[index].querySelector('.j-cue');
+      box.querySelector('[data-j-cue]').textContent = c < 0 ? '' : s.cues[c].text;
+      box.hidden = c < 0;
+      box.classList.toggle('has-cue', c >= 0);
       cueIndex = c;
     }
   }
@@ -129,9 +131,9 @@ export async function mount(app) {
           }
         }
         if (!alive) return;
-        status.textContent = player.playing ? `Station ${index + 1}: ${current().title}. The next station follows automatically.` : 'Paused here. Press Resume when you are ready.';
+        status.textContent = player.playing ? `Station ${index + 1}: ${current().title}; the next station follows automatically.` : 'Paused; press Resume when you are ready.';
       } catch {
-        if (alive) status.textContent = 'The recording could not be opened. Press Resume to try again.';
+        if (alive) status.textContent = 'Could not open the recording; press Resume to try again.';
       }
     } else {
       status.textContent = `Station ${index + 1}: ${current().title}. Press ${started ? 'Resume' : 'Begin'} to listen here.`;
@@ -146,7 +148,7 @@ export async function mount(app) {
     // Retain the concert override: the player's ended handler runs after ours.
     if (engaged && matches()) player.pause();
     paint(); controls(); save();
-    status.textContent = 'Journey complete. Your final station is saved.';
+    status.textContent = 'The final station is saved; revisit any station to listen again.';
   }
   function advance() {
     if (loading || !engaged || complete || !matches()) return;
@@ -180,7 +182,7 @@ export async function mount(app) {
     position = player.time; acquire();
   }
   show(index, { animate: false }); paint();
-  status.textContent = complete ? 'Journey complete. Choose a station or listen again.' : engaged ? 'The music is continuing from where you left it.' : started ? 'Your place is kept. Press Resume to continue.' : 'Use Begin to start the music.';
+  status.textContent = complete ? 'You have reached the end; choose a station or listen again.' : engaged ? 'The music continues where you left it.' : started ? 'Welcome back; press Resume to continue.' : 'Press Begin to start the music.';
   on(play, 'click', toggle);
   on(previous, 'click', () => go(index - 1, { focus: true }));
   on(next, 'click', () => index === stations.length - 1 ? end() : go(index + 1, { focus: true }));
@@ -203,18 +205,18 @@ export async function mount(app) {
   on(stages, 'touchcancel', () => { touch = null; }, { passive: true });
   listen('timeupdate', tick);
   listen('ended', advance);
-  listen('play', () => { if (engaged && matches() && !loading) { controls(); status.textContent = 'Listening. The next station follows automatically.'; } });
+  listen('play', () => { if (engaged && matches() && !loading) { controls(); status.textContent = 'Playing; the next station follows automatically.'; } });
   listen('pause', () => {
     if (!engaged || loading || !matches()) return;
-    if (!complete) { paint(player.time); status.textContent = 'Paused here. Your place is kept.'; }
+    if (!complete) { paint(player.time); status.textContent = 'Paused, with your place saved.'; }
     controls(); save();
   });
   listen('seek', (t) => { if (engaged && !loading && matches()) { paint(t); save(); } });
   listen('track', () => {
-    if (!loading && engaged && !matches()) { save(); release(); controls(); status.textContent = 'Another recording is playing. Resume to return to this journey.'; }
+    if (!loading && engaged && !matches()) { save(); release(); controls(); status.textContent = 'Another recording is playing; press Resume to return here.'; }
   });
-  listen('blocked', (blocked) => { if (blocked && engaged) { controls(); status.textContent = 'Your browser paused playback. Press Resume to listen.'; } });
-  listen('error', () => { if (engaged) { controls(); status.textContent = 'The recording is unavailable. You can resume or choose the next station.'; } });
+  listen('blocked', (blocked) => { if (blocked && engaged) { controls(); status.textContent = 'Your browser paused playback; press Resume to listen.'; } });
+  listen('error', () => { if (engaged) { controls(); status.textContent = 'Could not play the recording; try Resume or choose the next station.'; } });
   on(window, 'pagehide', save);
   on(document, 'visibilitychange', () => { if (document.hidden) save(); });
   on(reduced, 'change', () => {

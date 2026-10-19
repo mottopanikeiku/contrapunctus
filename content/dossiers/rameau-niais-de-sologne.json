@@ -1,0 +1,149 @@
+{
+  "id": "rameau-niais-de-sologne",
+  "work": {
+    "title": "Les Niais de Sologne",
+    "catalogue": "RCT 3, no. 2",
+    "movement": "With the first and second doubles",
+    "version": {
+      "value": "Complete keyboard piece and its two doubles, performed on piano",
+      "status": "documented",
+      "sourceIds": ["commons", "catalogue", "score", "discography"],
+      "note": "The original is for harpsichord. Meyer’s edition is unidentified. The three large sections follow the theme and two doubles; their times are broad passage guideposts."
+    }
+  },
+  "performers": {
+    "value": [{ "name": "Marcelle Meyer", "role": "piano" }],
+    "status": "documented",
+    "sourceIds": ["commons", "discography"],
+    "note": "Named in the file attribution and in the discography of the complete Rameau keyboard recordings."
+  },
+  "session": {
+    "date": {
+      "value": "1953-10-29/1953-10-30",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "The two-day session range is documented; the day and take of this individual piece are unspecified.",
+      "precision": "range"
+    },
+    "place": {
+      "value": "Salle Adyar, Paris, France",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Recording venue stated by both sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Les Discophiles Français",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "Label of the collection cited by the uploader."
+    },
+    "catalogue": {
+      "value": "DF 98/99",
+      "status": "documented",
+      "sourceIds": ["commons", "discography"],
+      "note": "The complete Rameau keyboard collection; the Commons file is a single-piece extract."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "discography"],
+      "note": "The pressing, runout and take underlying the selected digital file are unidentified."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Commons uploader: Flopinot2012; source collection: Médiathèque musicale Mahler, fonds Discophiles Français",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "The file credits the collection and uploader; the digitisation engineer is unidentified."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "22 August 2019 is the upload date. No transfer date is supplied."
+    },
+    "processing": {
+      "value": "Commons MP3 derivative of an uploaded FLAC",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "The analogue playback chain and any restoration or pitch correction are unspecified."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_%28Marcelle_Meyer%2C_1953%29.flac/Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_%28Marcelle_Meyer%2C_1953%29.flac.mp3",
+    "sourceChain": ["commons"],
+    "format": "MP3 access derivative; uploaded source is FLAC",
+    "durationSeconds": 323.964807256236
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain: Rameau’s composition published in 1724",
+      "status": "documented",
+      "sourceIds": ["commons", "catalogue"],
+      "note": "Commons applies PD-old-70-expired to the composition. The modern Gouin engraving is consulted as a research source and is not redistributed here."
+    },
+    "recording": {
+      "value": "Public domain in the European Union under Commons’ PD-EU-audio designation",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "The host’s licence field is Public domain. Commons separately warns of continuing US protection for this pre-1972 sound recording; the territorial EU designation is not worldwide clearance."
+    },
+    "creditLine": "Jean-Philippe Rameau, Les Niais de Sologne with two doubles; Marcelle Meyer, piano, Paris, 29–30 October 1953. Les Discophiles Français DF 98/99; Médiathèque musicale Mahler collection; Commons upload by Flopinot2012. Commons PD-EU-audio; US recording restrictions remain.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_(Marcelle_Meyer,_1953).flac#Licensing"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Meyer, Les Niais de Sologne",
+      "url": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_(Marcelle_Meyer,_1953).flac",
+      "locator": "Summary and author/session field, DF 98/99 source credit, licensing, file history, duration and MP3 transcode.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "catalogue",
+      "title": "IMSLP — Suite in D major, RCT 3",
+      "url": "https://imslp.org/wiki/Suite_in_D_major,_RCT_3_(Rameau,_Jean-Philippe)",
+      "locator": "General Information: no. 2, Les niais de Sologne with two doubles; 1724 publication and harpsichord scoring.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Rameau — Les Niais de Sologne, Pierre Gouin edition",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/d/df/IMSLP132660-WIMA.e0b8-Rameau_Les_Niais.pdf",
+      "locator": "Les Éditions Outremontaises, 2005, after a facsimile of the 1736 edition. Pages 1, 3, 5 and 7 inspected visually: even-note marking, triplets, left-hand semiquavers and closing reprise.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "dictionary",
+      "title": "Dictionnaire de l’Académie française — Niais, aise",
+      "url": "https://www.dictionnaire-academie.fr/article/A1N0043-04",
+      "locator": "First edition, 1694, sub-entry under Nid: proverbial niais de Sologne who feigns simplicity and errs to his own advantage.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "devine",
+      "title": "Steven Devine — Rameau Pièces de Clavecin, Volume 1",
+      "url": "https://eclassical.textalk.se/shop/17115/art89/4850889-2fc822-RES10131_booklet_300dpi.pdf",
+      "locator": "Resonus RES10131 booklet, p. 4: notes égales, triplets against duplets and the second double’s left-hand writing.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "esfahani",
+      "title": "Mahan Esfahani — Rameau Suite in D major",
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W15934_68071&vw=dc",
+      "locator": "Hyperion notes, 2014: title’s proverb, first-double triplets, second-double melody in the right hand and passagework in the left.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discography",
+      "title": "Classical Pianists — Marcelle Meyer chronology",
+      "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/",
+      "locator": "MaMe-C#015: Rameau keyboard works, Salle Adyar, 29–30 October 1953, Les Discophiles Français DF 98/99.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

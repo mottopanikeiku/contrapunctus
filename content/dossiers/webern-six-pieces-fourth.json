@@ -1,0 +1,169 @@
+{
+  "id": "webern-six-pieces-fourth",
+  "work": {
+    "title": "Six Pieces for Orchestra",
+    "catalogue": "Op. 6",
+    "movement": "IV. Langsam (Marcia funebre)",
+    "version": {
+      "value": "Original 1909 orchestral version",
+      "status": "documented",
+      "sourceIds": ["version-review", "score", "work-catalogue"],
+      "note": "High Fidelity, September 1979, p. 129 explicitly identifies Craft's Columbia MS 6216 as the first version, distinguishing it from the 1928 revision in his separate complete-Webern set. The original score heads movement IV Langsam, marcia funebre; its central solo begins on alto flute, not the revision's clarinet. Section landmarks are broad score-proportion timings, without aural review."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Columbia Symphony Orchestra", "role": "orchestra" },
+      { "name": "Robert Craft", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["label-scan", "audio-review"],
+    "note": "The original labels and contemporary review name the orchestra and conductor. The fourth piece uses wind instruments and percussion; individual players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "label-scan"],
+      "note": "The sources establish the commercial issue but do not state this track's recording-session date. It is not assigned a date from Craft's separate 1950s complete-Webern project.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "label-scan"],
+      "note": "No recording venue is stated in the transfer metadata or original labels."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": ["label-scan"],
+      "note": "Original stereo LP imprint."
+    },
+    "catalogue": {
+      "value": "MS 6216",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive", "audio-review"],
+      "note": "Internet Archive dates this US stereo LP to 1960. Audio magazine reviewed MS 6216 in August 1961 and separately identified mono ML 5616. The rights assessment uses the conservative publication bound of 1961."
+    },
+    "matrixTakeSides": {
+      "value": "Side 2, band 5; label matrix XSM 51683",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive-files"],
+      "note": "The label lists Schoenberg as band 1 and Webern's six pieces as bands 2–7; No. 4 is therefore band 5. The matrix is printed on the label. No session take or stamper suffix is asserted."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP transfer",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The transfer institution is identified; no personal mastering credit is inferred from an operator account."
+    },
+    "date": {
+      "value": "2021-07-30",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The ripping_date field is 20210730073437. The separate scan date is 9 July 2021."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 with Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 → Focusrite Scarlett 2i2; segmented VBR MP3 derivative",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "The item documents the playback chain and derives tracks from a 24-bit FLAC side transfer. Equalisation settings, noise reduction and pitch correction are not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/disc1/02.05.%20Six%20Pieces%20For%20Orchestra%2C%20Op.%206%3A%20No.%204.mp3",
+    "sourceChain": ["label-scan", "archive", "archive-files"],
+    "format": "VBR MP3 derivative of a stereo vinyl LP transfer",
+    "durationSeconds": 207.74
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Webern composition is out of copyright under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": ["programme-note", "work-catalogue", "score"],
+      "note": "Webern died in 1945. The original version was first published in 1913. This assessment concerns the composition in life-plus-70 territories, not every edition or jurisdiction; copyright in the cited 1961 score edition is separate and no worldwide clearance is asserted for that printed score."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: commercial publication no later than 1961, before 1963.",
+      "status": "documented",
+      "sourceIds": ["audio-review", "archive", "label-scan", "eu-term"],
+      "note": "Audio's August 1961 review establishes commercial availability of the exact LP. The Archive's 1960 date may identify an earlier issue; the conservative 1961 bound is sufficient for the project's former 50-year phonogram-term rule. This is not a Creative Commons licence; US recording status is not established."
+    },
+    "creditLine": "Anton Webern, Six Pieces for Orchestra, Op. 6: IV. Langsam (Marcia funebre), original 1909 version; Columbia Symphony Orchestra, Robert Craft. Columbia Masterworks MS 6216, commercially available by 1961; Internet Archive LP transfer. Territorial EU public-domain phonogram basis; US recording status not established.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Columbia MS 6216 transfer metadata",
+      "url": "https://archive.org/metadata/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/metadata",
+      "locator": "Date 1960; publisher Columbia Masterworks; catalogue MS 6216; United States; artists; equipment lineage; ripping_date 20210730073437.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — Webern's fourth piece access derivative",
+      "url": "https://archive.org/metadata/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/files",
+      "locator": "disc1/02.05. Six Pieces For Orchestra, Op. 6: No. 4.mp3, 207.74 seconds; VBR MP3; 24-bit FLAC side transfer also listed.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "label-scan",
+      "title": "Columbia Masterworks MS 6216 — original stereo labels",
+      "url": "https://archive.org/download/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a.pdf",
+      "locator": "PDF pp. 2 and 4, side 2: Robert Craft conducting the Columbia Symphony Orchestra; Webern No. 4 is band 5; MS 6216 and label matrix XSM 51683. Labels inspected visually.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "audio-review",
+      "title": "Audio, August 1961 — review of Columbia MS 6216",
+      "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/60s/Audio-1961-Aug.pdf",
+      "locator": "PDF p. 71: Berg Three Pieces, Schoenberg Begleitungsmusik and Webern Six Pieces; Columbia Symphony, Robert Craft; MS 6216 stereo, ML 5616 mono. Establishes publication by August 1961.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "version-review",
+      "title": "High Fidelity, September 1979 — Webern recording comparison",
+      "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/70s/High-Fidelity-1979-09.pdf",
+      "locator": "Printed and PDF p. 129, left column: explicitly states that Craft recorded the first version of Op. 6 on Columbia MS 6216, whereas his complete-Webern set uses the later 1928 version. Inspected visually.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Webern — Six Pieces for Orchestra, original 1909 version",
+      "url": "https://imslp.eu/files/imglnks/euimg/2/2d/IMSLP424298-PMLP02079-Op._6_6_Pieces_Original_copy.pdf",
+      "locator": "Universal Edition, plate UE 6646, 1961 corrected edition of the original version; movement IV, printed pp. 16–22, bars 1–40, inspected visually: percussion opening with distant low bells, alto flute at bar 19 followed by horn and muted trumpet, separate bass-drum strokes, brass climax, ritardando and percussion-only ending.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP — Six Pieces for Large Orchestra, Op. 6",
+      "url": "https://imslp.org/wiki/6_Pieces_for_Large_Orchestra%2C_Op.6_%28Webern%2C_Anton%29",
+      "locator": "1909 composition and 1928 revision; original Langsam, Marcia funebre heading, 1913 first publication and 1961 corrected engraving of the original version.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "programme-note",
+      "title": "Robert Markow — Tokyo Metropolitan Symphony note on Webern's Six Pieces",
+      "url": "https://www.tmso.or.jp/e/concert/detail/detail.php?id=3582",
+      "locator": "Programme for 13 December 2022 supplies Webern's life dates. Its movement commentary concerns the 1928 revision, not Craft's MS 6216 recording; the original score and version-review source establish this entry's musical details.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3 and Article 1(2)–(3): former 50-year phonogram term and extension for recordings still protected on 1 November 2013.",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

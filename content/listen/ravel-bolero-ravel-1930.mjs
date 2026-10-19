@@ -13,76 +13,51 @@ export default {
   "source": {
     "file": "File:Bolero-Maurice Ravel-1930.ogg"
   },
-  "intro": "Ravel directs the Orchestre des Concerts Lamoureux in the 1930 performance identified by this transfer. BnF documents a published Polydor issue of the same Ravel/Lamoureux recording by 1935. It is compared with Fricsay’s1950s reading, not with the misattributed later Lamoureux files.",
-  "question": "How differently can the same accumulating rhythm occupy time?",
+  "intro": "Ravel conducts the Lamoureux orchestra in <i>Boléro</i>, recorded in 1930. The composer himself presides over the snare drum’s obstinate rhythm and the long parade of soloists.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Quiet opening",
-      "m": "A"
-    },
-    {
-      "t": 202,
-      "label": "Early accumulation",
-      "m": "B"
-    },
-    {
-      "t": 460,
-      "label": "Middle span",
-      "m": "C"
-    },
-    {
-      "t": 660,
-      "label": "Later accumulation",
-      "m": "D"
-    },
-    {
-      "t": 912,
-      "label": "Final surge",
-      "m": "E"
-    },
-    {
-      "t": 932,
-      "label": "Closing break",
-      "m": "F"
-    }
+    { "t": 0, "label": "A · Drum, plucked strings and flute", "m": "A", "mNote": "The first tune begins over C and G" },
+    { "t": 202, "label": "B · Solo winds over the drum", "m": "B", "mNote": "The two tunes pass between exposed solo instruments" },
+    { "t": 460, "label": "C · Horn, celesta and woodwinds", "m": "C", "mNote": "Groups of instruments now share the melody" },
+    { "t": 660, "label": "D · Violins join the tune", "m": "D", "mNote": "Strings and winds carry the melody together" },
+    { "t": 912, "label": "E · The turn into E major", "m": "E", "mNote": "The bass breaks out of its C-major pattern" },
+    { "t": 932, "label": "F · Trombone slides and the final chord", "m": "F", "mNote": "The full orchestra returns to C major" }
   ],
   "cues": [
     {
-      "t": 0,
-      "kind": "world",
-      "title": "The composer conducts",
-      "text": "This file is attributed to Ravel directing the Lamoureux orchestra. BnF confirms that performer combination and its four historical matrices; the source is not one of the later mislabelled Lamoureux recordings.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://catalogue.bnf.fr/ark:/12148/cb38509551s"
+      "t": 0, "kind": "music", "title": "The drummer’s two bars",
+      "text": "A snare drum repeats its two bars over plucked strings. The flute’s first melody moves through C major while the bass stays with C and G. Ravel builds almost the entire piece on this small foundation.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand full score (1929), opening; rhythm, bass and flute scoring: https://en.wikipedia.org/wiki/Boléro."
     },
     {
-      "t": 460,
-      "kind": "listen",
-      "title": "A middle landmark",
-      "text": "A prominent measured change falls here within the long accumulation. Compare the persistence of the pulse across the change; a timbral change is not automatically a tempo change.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/ravel-bolero-ravel-1930.txt: novelty460 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 202, "kind": "world", "title": "Ravel on four record sides",
+      "text": "Ravel conducts the Lamoureux players for Polydor in January 1930. The performance fills four sides of two 78 rpm discs. The long crescendo has to cross three breaks before it reaches its final chord.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Recording date: https://en.wikipedia.org/wiki/Boléro. The BnF catalogue identifies Ravel, the orchestra, two discs and four matrices: https://catalogue.bnf.fr/ark:/12148/cb38509551s."
     },
     {
-      "t": 910,
-      "kind": "listen",
-      "title": "Late recorded weight",
-      "text": "The highest five-second average level occurs in this late stretch. The recording’s earlier narrow balance and later saturation should not be mistaken for an unmediated measurement of the orchestra’s crescendo.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/ravel-bolero-ravel-1930.txt: highest level910 seconds; other high windows935, 820, 840, 940 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 460, "kind": "music", "title": "More than one mouth",
+      "text": "The parade of solitary wind players opens into groups. Ravel combines horn, celesta and two piccolos, then gives the tune to a choir of reeds. The same eighteen-bar phrase now has several players breathing through it.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand full score, ninth and tenth statements. The sequence of instrumental combinations is described at https://www.clevelandorchestra.com/posts/ravels-bolero."
     },
     {
-      "t": 932,
-      "kind": "listen",
-      "title": "The largest final change",
-      "text": "The strongest measured change is near the end, after another large change at 15:12. Follow the final disruption of the repeated pattern; the algorithm supplies a passage location, not a note-exact cadence.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/ravel-bolero-ravel-1930.txt: maximum novelty932 seconds and secondary912 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 660, "kind": "music", "title": "Violins above the drum",
+      "text": "The violins join the melody with the woodwinds. Ravel has kept them accompanying for most of the piece; their arrival in the tune broadens it across the orchestra. The drum’s rhythm remains unchanged underneath.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand full score, thirteenth and following statements; violin entries: https://en.wikipedia.org/wiki/Boléro."
+    },
+    {
+      "t": 912, "kind": "form", "title": "The bass finally moves",
+      "text": "The closing passage breaks into E major after the long stay in C. Brass, winds and strings carry the change together. The drum continues through the eight-bar excursion.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand full score, rehearsal 18: E major for eight bars. https://en.wikipedia.org/wiki/Boléro."
+    },
+    {
+      "t": 932, "kind": "form", "title": "A crash in C",
+      "text": "Trombones slide, the percussion crashes, and the orchestra recovers C major. The ending takes only a few bars. Nothing in the long crescendo has prepared a gentle departure.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand full score, final six bars: trombone glissandos, bass drum, cymbals, tam-tam and final C-major chord. https://en.wikipedia.org/wiki/Boléro."
     }
   ]
 };

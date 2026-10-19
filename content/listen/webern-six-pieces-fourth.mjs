@@ -1,0 +1,58 @@
+export default {
+  id: 'webern-six-pieces-fourth',
+  composer: 'webern',
+  order: 1,
+  work: 'Six Pieces for Orchestra, Op. 6',
+  movement: 'IV. Langsam (Marcia funebre)',
+  year: '1909',
+  key: '',
+  forces: 'Wind instruments and percussion',
+  performers: 'Columbia Symphony Orchestra; Robert Craft',
+  recorded: '',
+  source: {
+    archive: {
+      item: 'lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a',
+      file: 'disc1/02.05. Six Pieces For Orchestra, Op. 6: No. 4.mp3',
+    },
+    rights: {
+      basis: 'eu-published-before-1963',
+      published: 1961,
+      evidence: 'Columbia Masterworks MS 6216 was commercially available by August 1961: Audio magazine reviews this exact Craft / Columbia Symphony programme, PDF p. 71, https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/60s/Audio-1961-Aug.pdf. Internet Archive dates the carrier 1960; 1961 is the conservative, independently documented publication bound. Territorial EU phonogram basis only.',
+    },
+  },
+  intro: 'Webern’s funeral march begins with bass drum, tam-tam and low bells, leaving the strings silent throughout. Robert Craft conducts its slow rise from a murmur to a final percussion outburst.',
+  sections: [
+    { t: 0, label: 'A · Percussion and wind fragments', m: 'A' },
+    { t: 92, label: 'B · A tune above muted brass', m: 'B' },
+    { t: 166, label: 'C · Brass and percussion swell', m: 'C' },
+  ],
+  cues: [
+    {
+      t: 0,
+      kind: 'music',
+      title: 'Drum, gong, bells',
+      text: 'A bass-drum roll underlies quiet strokes of tam-tam and low bells. Webern places the low bells at a distance. Wind instruments emerge from this subdued procession; the strings remain silent throughout the movement.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'Webern, Six Pieces, Op. 6, original 1909 version, Universal Edition, plate UE 6646, movement IV, bars 1–10, p. 16: bass drum, tam-tam and low bells placed at a distance, then winds; no strings appear in the movement. https://imslp.eu/files/imglnks/euimg/2/2d/IMSLP424298-PMLP02079-Op._6_6_Pieces_Original_copy.pdf',
+    },
+    {
+      t: 92,
+      kind: 'form',
+      title: 'A soft brass tread',
+      text: 'An alto-flute phrase passes to horn and muted trumpet. Beneath them, muted trombones and a tuba move in soft chords. The bass drum replaces its continuous roll with separate strokes, putting a slow tread beneath the melody.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'Universal Edition, plate UE 6646, original 1909 version, movement IV, bars 19–27, pp. 17–18: alto flute, horn and muted-trumpet phrases over muted trombones and tuba; the bass drum has separate strokes from bar 19. https://imslp.eu/files/imglnks/euimg/2/2d/IMSLP424298-PMLP02079-Op._6_6_Pieces_Original_copy.pdf',
+    },
+    {
+      t: 166,
+      kind: 'form',
+      title: 'The march breaks open',
+      text: 'Horns and trombones press their short phrases harder. The pace then broadens as drums, tam-tam and bells grow underneath them. The wind instruments cut off before the end, leaving percussion to carry the final surge alone.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'Universal Edition, plate UE 6646, original 1909 version, movement IV, bars 34–40, pp. 20–22: the brass climax, ritardando at rehearsal 10 and final percussion crescendo after the winds stop. https://imslp.eu/files/imglnks/euimg/2/2d/IMSLP424298-PMLP02079-Op._6_6_Pieces_Original_copy.pdf',
+    },
+  ],
+};

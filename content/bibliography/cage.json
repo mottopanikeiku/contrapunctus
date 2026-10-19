@@ -1,0 +1,30 @@
+{
+  "id": "cage",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "John Cage, *Silence: Lectures and Writings*, 50th anniversary edition (Wesleyan University Press, 2013).",
+      "url": "https://www.weslpress.org/9780819573650/silence/",
+      "kind": "primary writings",
+      "note": "Cage’s own lectures and essays: the starting point for his treatment of silence, composition and the performance of a text. The date identifies the linked anniversary paperback."
+    },
+    {
+      "cite": "James Pritchett, *The Music of John Cage* (Cambridge University Press, 1993).",
+      "url": "https://openlibrary.org/books/OL1739193M/The_music_of_John_Cage",
+      "kind": "study",
+      "note": "Explains the compositional work behind the ideas, especially the difference between using chance to make a score and leaving decisions to performers."
+    },
+    {
+      "cite": "John Cage, *The Selected Letters of John Cage*, edited by Laura Kuhn (Wesleyan University Press, 2016).",
+      "url": "https://www.weslpress.org/9780819575920/the-selected-letters-of-john-cage/",
+      "kind": "letters",
+      "note": "Correspondence for tracing the people, practical requests and artistic exchanges behind Cage’s works; a useful counterweight to the familiar anecdotes."
+    },
+    {
+      "cite": "Kenneth Silverman, *Begin Again: A Biography of John Cage* (Northwestern University Press, 2012).",
+      "url": "https://nupress.northwestern.edu/9780810128309/begin-again/",
+      "kind": "biography",
+      "note": "A substantial account of Cage’s life among musicians, dancers, artists and friends. This citation identifies the checked Northwestern paperback edition."
+    }
+  ]
+}

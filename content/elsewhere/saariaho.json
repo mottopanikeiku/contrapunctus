@@ -1,0 +1,95 @@
+{
+  "composer": "saariaho",
+  "items": [
+    {
+      "work": "Lichtbogen",
+      "year": "1985–86",
+      "performers": "Avanti! Chamber Orchestra; Hannu Lintu",
+      "recorded": "2001",
+      "label": "Ondine",
+      "note": "A cello harmonic breaking into noise supplied the seed for this work for nine musicians and live electronics. Hannu Lintu conducts Avanti! in a programme that sets this early electronic work beside the chamber version of Graal théâtre.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/0sS1loCOhNJYmv3xB3P7dw",
+          "title": "Spotify · Avanti! and Hannu Lintu — Graal théâtre / Solar / Lichtbogen"
+        },
+        {
+          "kind": "label",
+          "url": "https://ondine.lnk.to/ode9972",
+          "title": "Ondine · ODE 997-2"
+        }
+      ]
+    },
+    {
+      "work": "Graal théâtre (chamber version)",
+      "year": "1994; chamber version 1997",
+      "performers": "John Storgårds, violin; Avanti! Chamber Orchestra; Hannu Lintu",
+      "recorded": "2001",
+      "label": "Ondine",
+      "note": "The violin concerto sets a lyrical Delicato against a fierce Impetuoso. John Storgårds plays Saariaho’s chamber version with Avanti!, the orchestra he led, under Hannu Lintu.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/0sS1loCOhNJYmv3xB3P7dw",
+          "title": "Spotify · John Storgårds, Avanti! and Hannu Lintu — Graal théâtre"
+        },
+        {
+          "kind": "label",
+          "url": "https://ondine.lnk.to/ode9972",
+          "title": "Ondine · ODE 997-2"
+        }
+      ]
+    },
+    {
+      "work": "L’Amour de loin",
+      "year": "1999–2000",
+      "performers": "Daniel Belcher (Jaufré Rudel), Ekaterina Lekhina (Clémence), Marie-Ange Todorovitch (Le Pèlerin); Rundfunkchor Berlin; Deutsches Symphonie-Orchester Berlin; Kent Nagano",
+      "recorded": "2006, 2008",
+      "label": "harmonia mundi",
+      "note": "Amin Maalouf’s libretto sends the troubadour Jaufré Rudel across the sea to Clémence, countess of Tripoli. Kent Nagano, conductor of the première, leads this studio recording with Daniel Belcher, Ekaterina Lekhina and Marie-Ange Todorovitch.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/0U87oFi5yMbht78x78l5BE",
+          "title": "Spotify · L’Amour de loin — Kent Nagano"
+        },
+        {
+          "kind": "label",
+          "url": "https://www.harmoniamundi.com/en/albums/lamour-de-loin/",
+          "title": "harmonia mundi · HMC 801937.38"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ondine ODE 997-2 — official streaming page",
+      "url": "https://ondine.lnk.to/ode9972"
+    },
+    {
+      "title": "Ondine ODE 997-2 booklet — Kimmo Korhonen’s notes, Avanti! personnel and October 2001 recording credit",
+      "url": "https://cdn.naxosmusiclibrary.com/sharedfiles/booklets/ODE/booklet-ODE997-2.pdf"
+    },
+    {
+      "title": "Wise Music Classical — Saariaho’s programme note for Lichtbogen",
+      "url": "https://www.wisemusicclassical.com/work/4340/Lichtbogen--Kaija-Saariaho/"
+    },
+    {
+      "title": "Wise Music Classical — Graal théâtre, chamber version and Saariaho’s programme note",
+      "url": "https://www.wisemusicclassical.com/work/7857/Graal-thtre-chamber-version--Kaija-Saariaho/"
+    },
+    {
+      "title": "harmonia mundi HMC 801937.38 — L’Amour de loin catalogue and cast",
+      "url": "https://www.harmoniamundi.com/en/albums/lamour-de-loin/"
+    },
+    {
+      "title": "harmonia mundi HMC 801937.38 booklet — synopsis, Lichtbogen composition dates and March 2006 / October 2008 session credits",
+      "url": "https://www.harmoniamundi.com/wp-content/uploads/2022/12/liv1937.38.pdf"
+    },
+    {
+      "title": "IRCAM — L’Amour de loin composition dates and première personnel",
+      "url": "https://brahms.ircam.fr/fr/work/l%27amour-de-loin"
+    }
+  ]
+}
