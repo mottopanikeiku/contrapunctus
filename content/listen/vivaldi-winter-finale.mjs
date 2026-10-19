@@ -19,22 +19,22 @@ export default {
   "source": {
     "file": "File:12 - Vivaldi Winter mvt 3 Allegro - John Harrison violin.ogg"
   },
-  "intro": "A solo violin ventures onto the ice above a long bass F; before long, everyone is slipping. Vivaldi ends the concerto with the Sirocco and north wind fighting through the strings.",
+  "intro": "The third movement, Allegro, of Winter, RV 297, from Vivaldi’s The Four Seasons opens with the solo violin on the ice over a long held F in the bass, and soon all the players are slipping. The concerto ends with the Sirocco and the north wind fighting through the strings.",
   "sections": [
-    { "t": 0, "label": "A · A violin on the ice", "m": "A", "mNote": "The solo circles above a long F in the bass" },
-    { "t": 20.5, "label": "B · Cautious steps, then a fall", "m": "B", "mNote": "The strings join over C and tumble downwards" },
-    { "t": 64, "label": "C · Running across the ice", "m": "C", "mNote": "The solo’s detached semiquavers climb above held strings" },
-    { "t": 97, "label": "D · The ice breaks", "m": "D", "mNote": "Short string phrases break apart in C minor" },
-    { "t": 119, "label": "E · The Sirocco without basses", "m": "E", "mNote": "Lento in E♭ major; the low strings fall silent" },
-    { "t": 156, "label": "F · The winds go to war", "m": "F", "mNote": "Solo runs alternate with repeated-note orchestral gusts" },
-    { "t": 176, "label": "F′ · The last F-minor gusts", "m": "F′", "mNote": "The full strings carry the wind figures to the cadence" }
+    { "t": 0, "label": "A · Solo violin over F pedal", "m": "A", "mNote": "The solo violin plays above a sustained F in the bass." },
+    { "t": 20.5, "label": "B · Strings over C, descending figures", "m": "B", "mNote": "The strings enter over C and play descending figures." },
+    { "t": 64, "label": "C · Solo semiquavers over held strings", "m": "C", "mNote": "The solo violin climbs in detached semiquavers above held strings." },
+    { "t": 97, "label": "D · Short string phrases, C minor", "m": "D", "mNote": "Short string phrases separate into fragments in C minor." },
+    { "t": 119, "label": "E · Lento, E♭ major, without basses", "m": "E", "mNote": "Lento in E♭ major; the low strings rest." },
+    { "t": 156, "label": "F · Solo runs and repeated-note tutti", "m": "F", "mNote": "Solo runs alternate with repeated-note passages for the orchestra." },
+    { "t": 176, "label": "F′ · Wind figures in F minor", "m": "F′", "mNote": "The full strings play the wind figures to the cadence." }
   ],
   "cues": [
     {
       "bar": { "n": "1", "occ": 1 },
       "kind": "music",
-      "title": "A foot on the ice",
-      "text": "“Caminar Sopra’l giaccio, e à passo lento / Per timor di cader gersene intenti” — “To walk on ice with slow steps, taking care for fear of falling.” The 1725 sonnet begins cautiously. The solo violin changes direction above a long F; the other upper strings wait.",
+      "title": "Winter sonnet, letters F–G",
+      "text": "“Caminar Sopra’l giaccio, e à passo lento / Per timor di cader gersene intenti”, “To walk on ice with slow steps, taking care for fear of falling”, come from the 1725 Winter sonnet. The solo violin changes direction above a long F. The other upper strings rest.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, letters F–G; translation ours. Mutopia score after Performers’ Facsimiles, III, bars 1–20: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351. The sonnets were published anonymously with Op. 8."
@@ -42,8 +42,8 @@ export default {
     {
       "bar": { "n": "51", "occ": 1 },
       "kind": "music",
-      "title": "Down, then up again",
-      "text": "“Gir forte Sdruzziolar, cader à terra / Di nuovo ir Sopra ’l giaccio e correr forte” — “Turn sharply, slip, fall to the ground; go back onto the ice and run hard.” After the orchestra’s falling scales, the solo violin scrambles upwards in detached semiquavers.",
+      "title": "Falling and running on the ice",
+      "text": "“Gir forte Sdruzziolar, cader à terra / Di nuovo ir Sopra ’l giaccio e correr forte” — “Turn sharply, slip, fall to the ground; go back onto the ice and run hard.” The orchestra plays falling scales. Then the solo violin climbs in detached semiquavers.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letters H–I; translation ours. Mutopia score, III, bars 40–60, including Cader à terra at bar 48 and Correr forte at bar 51: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -51,8 +51,8 @@ export default {
     {
       "bar": { "n": "89", "occ": 1 },
       "kind": "music",
-      "title": "Cracks between the notes",
-      "text": "“Sin ch’il giaccio Si rompe, e Si disserra” — “Until the ice breaks and splits open.” The strings interrupt their running with short notes and gaps. Little bursts of demisemiquavers fill the cracks before the soloist takes over again.",
+      "title": "Sonnet line L, the ice breaking",
+      "text": "“Sin ch’il giaccio Si rompe, e Si disserra” — “Until the ice breaks and splits open.” The strings break off their running figures with short notes and rests. Brief bursts of demisemiquavers fill the gaps, and then the soloist takes over again.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter L; translation ours. Mutopia score, III, bars 85–100, especially the rests and short figures at bars 89–92: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -60,8 +60,8 @@ export default {
     {
       "bar": { "n": "101", "occ": 1 },
       "kind": "music",
-      "title": "Beyond the iron gates",
-      "text": "“Sentir uscir dalle ferrate porte” — “To hear emerging from the iron gates.” The sonnet unleashes the winds. For the Sirocco, Vivaldi writes Lento in E♭ major and removes the bass entirely. Only the upper strings remain.",
+      "title": "Sirocco episode, Lento",
+      "text": "“Sentir uscir dalle ferrate porte” — “To hear emerging from the iron gates.” The sonnet describes the winds. For the Sirocco, Vivaldi marked the music Lento in E♭ major and left out the bass entirely, so only the upper strings play.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter M; translation ours. Mutopia score, III, bars 101–119, marked Il Vento Sirocco and Lento, with basso tacet: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -69,8 +69,8 @@ export default {
     {
       "bar": { "n": "120", "occ": 1 },
       "kind": "music",
-      "title": "The winds at war",
-      "text": "“Sirocco, Borea, e tutti i Venti in guerra” — “Sirocco, Boreas, and all the winds at war.” Solo runs collide with orchestral bursts. The sonnet ends: “Quest’è ’l verno, mà tal, che gioja apporte” — “This is winter, yet it brings joy.” Vivaldi drives the strings towards F minor.",
+      "title": "Closing section, sonnet letter N",
+      "text": "“Sirocco, Borea, e tutti i Venti in guerra” — “Sirocco, Boreas, and all the winds at war.” Solo runs alternate with short orchestral passages, and the strings move towards F minor. The sonnet ends: “Quest’è ’l verno, mà tal, che gioja apporte” — “This is winter, yet it brings joy.”",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter N and final line; translation ours. Mutopia score, III, bars 120–153; the last line is printed above the closing bars: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -79,11 +79,11 @@ export default {
   "transitions": [
     {
       "id": "held-tonic-to-dominant",
-      "title": "F moves to C",
-      "from": "A · A violin on the ice",
-      "to": "B · Cautious steps, then a fall",
+      "title": "The bass pedal moves from F to C",
+      "from": "A · Solo violin over F pedal",
+      "to": "B · Strings over C, descending figures",
       "at": { "t": 20.5 },
-      "how": "<p>The bass changes its long F to C, the dominant of F minor. The orchestral strings join the soloist, first in running semiquavers, then in cautious quavers. The C stays underneath as the steps grow more insistent and the falling scales begin.</p>",
+      "how": "<p>The bass moves from its held F to C, the dominant of F minor. The orchestral strings join the soloist, first in running semiquavers and then in quavers. The C is held underneath through the walking episode and into the falling scales.</p>",
       "devices": ["tonic pedal", "dominant pedal", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -91,11 +91,11 @@ export default {
     },
     {
       "id": "running-after-fall",
-      "title": "F minor after the fall",
-      "from": "B · Cautious steps, then a fall",
-      "to": "C · Running across the ice",
+      "title": "Descending scales to the F minor solo",
+      "from": "B · Strings over C, descending figures",
+      "to": "C · Solo semiquavers over held strings",
       "at": { "t": 64 },
-      "how": "<p>The strings tumble down in scales, then the soloist starts running from F. Its detached semiquavers climb above held upper-string notes. The basso briefly rests; the solo travels from F minor towards C minor, where long C and G pedals support the later passage.</p>",
+      "how": "<p>The strings play descending scales, and the soloist then starts a running passage from F. Its detached semiquavers climb above held notes in the upper strings. The basso rests for a few bars. The solo modulates from F minor towards C minor, and long pedals on C and G support the later part of the passage.</p>",
       "devices": ["texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -103,11 +103,11 @@ export default {
     },
     {
       "id": "breaking-ice",
-      "title": "The C-minor run breaks apart",
-      "from": "C · Running across the ice",
-      "to": "D · The ice breaks",
+      "title": "Tutti in C minor after solo triplets",
+      "from": "C · Solo semiquavers over held strings",
+      "to": "D · Short string phrases, C minor",
       "at": { "t": 97 },
-      "how": "<p>The solo’s descending triplets reach a tutti in C minor. Running scales break into short notes, rests and little demisemiquaver flurries. G, the dominant, supports the exchanges before the solo finishes the passage on a low G.</p>",
+      "how": "<p>The solo’s descending triplets lead to a tutti in C minor. The running scales are broken into short notes, rests and brief demisemiquaver flurries. The exchanges are held over G, the dominant, and the solo ends the passage on a low G.</p>",
       "devices": ["texture change", "dominant pedal"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -115,11 +115,11 @@ export default {
     },
     {
       "id": "sirocco",
-      "title": "The bass vanishes in E♭",
-      "from": "D · The ice breaks",
-      "to": "E · The Sirocco without basses",
+      "title": "The basso drops out in E♭",
+      "from": "D · Short string phrases, C minor",
+      "to": "E · Lento, E♭ major, without basses",
       "at": { "t": 119 },
-      "how": "<p>The C-minor solo ends on G. At the Lento the upper strings begin in E♭ major, and the basso falls silent for nineteen bars. The violin’s opening G–F–E♭ now moves in quavers under the words <i>Il Vento Sirocco</i>.</p>",
+      "how": "<p>The C-minor solo ends on G. At the Lento the upper strings begin in E♭ major, and the basso is silent for nineteen bars. The violin’s opening G–F–E♭ is now played in quavers under the words <i>Il Vento Sirocco</i>.</p>",
       "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -127,11 +127,11 @@ export default {
     },
     {
       "id": "north-wind",
-      "title": "The north wind starts on E♭",
-      "from": "E · The Sirocco without basses",
-      "to": "F · The winds go to war",
+      "title": "Solo demisemiquavers on E♭",
+      "from": "E · Lento, E♭ major, without basses",
+      "to": "F · Solo runs and repeated-note tutti",
       "at": { "t": 156 },
-      "how": "<p>The solo violin bursts into demisemiquavers on E♭, under the words naming Boreas and all the winds. Repeated-note tutti gusts interrupt its runs and bring the bass back. The episode leaves E♭ major and reaches F minor.</p>",
+      "how": "<p>The solo violin enters with demisemiquavers on E♭, under the words naming Boreas and all the winds. Tutti passages in repeated notes interrupt its runs, and the bass returns with them. The episode moves from E♭ major to F minor.</p>",
       "devices": ["texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -139,11 +139,11 @@ export default {
     },
     {
       "id": "closing-tutti",
-      "title": "The whole orchestra becomes the wind",
-      "from": "F · The winds go to war",
-      "to": "F′ · The last F-minor gusts",
+      "title": "Soloist and strings in the final tutti",
+      "from": "F · Solo runs and repeated-note tutti",
+      "to": "F′ · Wind figures in F minor",
       "at": { "t": 176 },
-      "how": "<p>The soloist rejoins the full strings in F minor. Their repeated demisemiquavers and downward runs extend the wind music through the final tutti. E♮ sharpens the approach to F before the last held chord.</p>",
+      "how": "<p>The soloist rejoins the full strings in F minor. All play repeated demisemiquavers and downward runs, which continue the wind music through the final tutti (bars 137–153). E♮ sharpens the approach to F before the last held chord.</p>",
       "devices": ["motivic link", "orchestration change", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -237,7 +237,7 @@ export default {
           "solo-violin",
           "violins-1"
         ],
-        "note": "Tutti interruptions and a solo link alternate in this region."
+        "note": "Tutti interruptions and a solo link alternate in this passage."
       },
       {
         "t": 119,
@@ -265,7 +265,7 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "Rapid solo figures alternate with short orchestral wind bursts; participation is intermittent."
+        "note": "Rapid solo figures alternate with short orchestral wind bursts; the orchestra plays intermittently."
       },
       {
         "t": 176,

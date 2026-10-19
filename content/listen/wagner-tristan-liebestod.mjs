@@ -26,45 +26,45 @@ export default {
     "part": 2,
     "of": 2
   },
-  "intro": "Isolde looks at Tristan’s body and sees him smiling. Nanny Larsen-Todsen sings her last vision over muted strings, sweeping harp figures and the long-delayed peace of B major.",
+  "intro": "Nanny Larsen-Todsen sings the Liebestod, “Mild und leise”, from <i>Tristan und Isolde</i>, WWV 90, in which Isolde looks at Tristan’s body and sees him smiling. Muted strings and harp figures accompany her, and the music closes in B major.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Isolde sees Tristan smiling",
+      "label": "A · Isolde’s first words, “Mild und leise”",
       "m": "A",
-      "mNote": "Bass clarinet and muted cellos surround the first quiet words"
+      "mNote": "Bass clarinet and muted cellos accompany Isolde’s first quiet words."
     },
     {
       "t": 140,
-      "label": "B · Harp notes flow beneath the voice",
+      "label": "B · Harp figures beneath the soprano",
       "m": "B",
-      "mNote": "Harp figures and trembling strings carry the soprano’s long phrases"
+      "mNote": "Harp figures and string tremolo accompany the soprano’s long phrases"
     },
     {
       "t": 240,
-      "label": "Dev · Isolde hears waves around her",
+      "label": "Dev · wind phrases over strings and harp",
       "m": "Dev",
-      "mNote": "Wind phrases rise over circling strings and harp"
+      "mNote": "Wind phrases rise over circling strings and harp."
     },
     {
       "t": 320,
       "label": "C · Piccolo above the soprano",
       "m": "C",
-      "mNote": "The piccolo and high violins shine above sustained brass"
+      "mNote": "The piccolo and high violins play above sustained brass."
     },
     {
       "t": 350,
-      "label": "Coda · The last words and B major",
+      "label": "Coda · Isolde’s last words, B major",
       "m": "Coda",
-      "mNote": "The harp keeps moving after Isolde’s last words"
+      "mNote": "The harp continues after Isolde’s last words"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A voice above muted cellos",
-      "text": "“Mild und leise, wie er lächelt” — “Softly and gently, how he smiles.” Isolde’s first words rise above muted, divided cellos. The bass clarinet has its own tender phrase; a clarinet and then the horns join it. The violins wait.",
+      "title": "Isolde’s first words, muted cellos",
+      "text": "“Mild und leise, wie er lächelt” — “Softly and gently, how he smiles.” Isolde’s first words rise above muted, divided cellos. The bass clarinet has a phrase of its own, and a clarinet and then the horns join it, while the violins rest.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Wagner’s Act III text, sung by Isolde over Tristan’s body. Breitkopf & Härtel, Vorspiel und Isoldens Liebestod, plate Part. B. 1544, p. 14: bass clarinet, divided muted cellos, subsequent clarinet and horn entries. Own translation. https://hdl.handle.net/1802/13070."
@@ -72,8 +72,8 @@ export default {
     {
       "t": 76,
       "kind": "world",
-      "title": "Isolde sees what others cannot",
-      "text": "“Seht ihr, Freunde?” — “Do you see, friends?” Isolde asks the people around Tristan’s body to share her vision. She describes his opening eyes, his swelling heart, his breath. The man on the ground is dead.",
+      "title": "Isolde’s address to the onlookers",
+      "text": "“Seht ihr, Freunde?” — “Do you see, friends?” Isolde asks the people around Tristan’s body to see what she sees. She describes his eyes opening, his heart swelling and his breath. Tristan has already died.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Wagner’s libretto, Act III, Isolde’s final monologue; Breitkopf excerpt score, pp. 14–18. Own translation of ‘Seht ihr, Freunde?’ The preceding death of Tristan is described in the Act III synopsis at https://en.wikipedia.org/wiki/Tristan_und_Isolde."
@@ -81,8 +81,8 @@ export default {
     {
       "t": 152,
       "kind": "music",
-      "title": "Harp beneath the long phrases",
-      "text": "The harp’s figures flow up through trembling strings. High flute notes stretch across the bar while the soprano keeps her own, slower line. The orchestra moves in small, quick notes beneath a voice that still has room to breathe.",
+      "title": "Harp arpeggios and string tremolos",
+      "text": "The harp enters with rising arpeggios over divided string tremolos. High flute phrases are held across the bar, and the soprano sings a slower, sustained line above the quicker notes of the orchestra.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf score, pp. 18–22, harp entry and developing arpeggios, divided string tremolos, high flute phrases and sustained vocal writing."
@@ -90,8 +90,8 @@ export default {
     {
       "t": 190,
       "kind": "life",
-      "title": "From Agathe to Isolde",
-      "text": "Larsen-Todsen begins her stage career in Stockholm in 1906 as Agathe in Weber’s <i>Der Freischütz</i>. She grows into Wagner’s great soprano parts. In 1928 she sings Isolde at Bayreuth and records the role with Karl Elmendorff and the festival orchestra.",
+      "title": "Stage career, 1906–1928",
+      "text": "Larsen-Todsen began her stage career in Stockholm in 1906 as Agathe in Weber’s <i>Der Freischütz</i>, and later took on Wagner’s major soprano roles. In 1928 she sang Isolde at Bayreuth and recorded the role with Karl Elmendorff and the festival orchestra.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Dr Anton Odelga, biographical note on Preiser LV 174; recording entry for ‘Mild und leise’, Columbia L 2206, 1928, Bayreuth Festival Orchestra, Karl Elmendorff. https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/Larsen-Todsen%20Preiser%20%282%29.JPG."
@@ -99,8 +99,8 @@ export default {
     {
       "t": 240,
       "kind": "music",
-      "title": "Waves in words and orchestra",
-      "text": "Isolde hears sounds swelling around her and wonders whether they are waves of air. The harp sweeps up and down; strings circle through quick figures. Above them, the wind instruments repeat a broad rising phrase, swelling and subsiding while the smaller notes keep going.",
+      "title": "Rehearsal Hh, harp and winds",
+      "text": "At rehearsal Hh Isolde hears sounds swelling around her and wonders whether they are waves of air. The harp plays arpeggios up and down, and the strings play continuous quick figures. Above them the wind instruments repeat a broad rising phrase, with swells.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf score, pp. 23–25, especially rehearsal Hh on p. 24: ‘mich umwallend, sind es Wellen sanfter Lüfte’, harp arpeggios, continuous string figures and repeated wind phrases with swells."
@@ -109,7 +109,7 @@ export default {
       "t": 320,
       "kind": "music",
       "title": "Piccolo above the voice",
-      "text": "The piccolo and first violins reach high above Isolde. The harp sweeps across its strings, and brass hold the harmony underneath. Her melody moves in long notes through this brilliant company. The orchestra does the running for her.",
+      "text": "The piccolo and first violins play high above Isolde. The harp plays wide arpeggios, and the brass hold sustained chords underneath. Her melody moves in long notes.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf score, pp. 27–28, piccolo and high violin writing, wide harp arpeggios, sustained brass chords and Isolde’s long notes at ‘Welt-Atems wehendem All’."
@@ -117,8 +117,8 @@ export default {
     {
       "t": 380,
       "kind": "music",
-      "title": "The orchestra finishes the sentence",
-      "text": "Isolde’s last words are “höchste Lust” — “supreme bliss”. The harp keeps moving after she falls silent. The closing music settles into B major, and the last arpeggios give way to a held chord marked pianissimo.",
+      "title": "Final bars in B major",
+      "text": "Isolde’s last words are “höchste Lust” — “supreme bliss”. The harp continues after the voice stops. The closing music settles in B major, and the last arpeggios give way to a held chord marked pianissimo.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Wagner’s Act III text, final words of Isolde; own translation. Breitkopf score, pp. 29–30, harp continuation after the vocal release, final B-major chord, pp and fermata."
@@ -127,9 +127,9 @@ export default {
   "transitions": [
     {
       "id": "gathering-waves",
-      "title": "The wind phrases rise over circling strings",
-      "from": "B · Harp notes flow beneath the voice",
-      "to": "Dev · Isolde hears waves around her",
+      "title": "Rising wind phrases over circling strings",
+      "from": "B · Harp figures beneath the soprano",
+      "to": "Dev · wind phrases over strings and harp",
       "at": {
         "t": 240
       },
@@ -137,7 +137,7 @@ export default {
         230,
         252
       ],
-      "how": "<p>Long bass notes support repeated rising phrases in the woodwind. Trumpets and trombones sustain the harmony, while the harp sweeps up and down and the strings keep circling in quick notes. Each broad wind phrase swells, then withdraws; Isolde’s line continues through these successive waves.</p>",
+      "how": "<p>The bass holds long notes beneath repeated rising phrases in the woodwind (rehearsal Hh). Trumpets and trombones sustain the harmony. The harp plays arpeggios up and down, and the strings continue their circling figures in quick notes. Each broad wind phrase swells and then falls back, and Isolde’s line continues through the successive phrases.</p>",
       "devices": [
         "sequence",
         "crescendo build",
@@ -149,9 +149,9 @@ export default {
     },
     {
       "id": "towards-cadence",
-      "title": "The voice leaves the harp moving",
+      "title": "Harp continues to the final cadence",
       "from": "C · Piccolo above the soprano",
-      "to": "Coda · The last words and B major",
+      "to": "Coda · Isolde’s last words, B major",
       "at": {
         "t": 350
       },
@@ -159,7 +159,7 @@ export default {
         340,
         362
       ],
-      "how": "<p>The high violin figures turn downwards and the brass recede. Harp arpeggios continue beneath Isolde’s last phrase, then beneath the orchestra alone. A sustained bass and increasingly quiet wind chords lead towards B major. The harp finally stops running; the last chord is held under a fermata.</p>",
+      "how": "<p>The high violin figures turn downwards and the brass grow softer. Harp arpeggios continue beneath Isolde’s last phrase, then beneath the orchestra alone. A sustained bass and increasingly quiet wind chords move towards B major. The harp stops, and the last chord is held under a fermata.</p>",
       "devices": [
         "decrescendo",
         "texture change",
@@ -235,7 +235,7 @@ export default {
           "solo-voice",
           "violins-1"
         ],
-        "note": "Approximate first expansion, pp. 15–17: brighter woodwind and harp join the string-and-voice texture."
+        "note": "Approximate first expansion, pp. 15–17: brighter woodwind and harp join the strings and voice."
       },
       {
         "t": 140,
@@ -282,7 +282,7 @@ export default {
           "solo-voice",
           "violins-1"
         ],
-        "note": "Broad accumulating span, pp. 24–27: harp, woodwind and strings remain active as brass reinforces the rises."
+        "note": "Broad accumulating span, pp. 24–27: harp, woodwind and strings keep playing while the brass reinforces the rises."
       },
       {
         "t": 320,
@@ -335,7 +335,7 @@ export default {
           "violins-1",
           "oboes"
         ],
-        "note": "Final orchestral cadence, p. 30. The voice has finished; quiet wind and string lines settle into the final chords. Cor anglais and timpani contribute within this closing region, not continuously throughout it."
+        "note": "Final orchestral cadence, p. 30. The voice has finished; quiet wind and string lines move to the final chords. Cor anglais and timpani play at points within this closing section, not throughout it."
       }
     ]
   }

@@ -1,20 +1,20 @@
 {
   "id": "scheherazade-prince-opening",
-  "title": "The prince’s tune, lingering and striding",
+  "title": "Scheherazade, III, opening: Stokowski and Monteux",
   "composer": "rimsky-korsakov",
   "group": "century",
   "work": "Scheherazade, Op. 35 — III, opening passage",
-  "question": "Why does the same violin melody seem to linger with Stokowski and stride with Monteux?",
-  "intro": "Two violin sections begin the young lovers’ movement of <i>Scheherazade</i>, singing in G major above held lower strings. Stokowski’s Philadelphia players slide between notes and take their time over the tune. Monteux’s San Francisco orchestra keeps it moving, with a brisker step beneath the long phrases.",
+  "question": "Why does the same violin melody sound different under Stokowski and under Monteux?",
+  "intro": "Two violin sections begin the young lovers’ movement of <i>Scheherazade</i>, playing in G major above held lower strings. Stokowski’s Philadelphia players slide between notes and take the tune slowly. Monteux’s San Francisco orchestra takes it at a faster tempo, with a brisker pulse beneath the long phrases.",
   "recordings": [
-    { "listen": "rimsky-korsakov-scheherazade-stokowski-side1", "label": "Leopold Stokowski, Philadelphia Orchestra", "year": 1934, "note": "Broad phrases and audible slides between string notes give the melody a singing, unhurried warmth." },
-    { "listen": "rimsky-korsakov-scheherazade-prince", "label": "Pierre Monteux, San Francisco Symphony", "year": 1942, "note": "Monteux presses ahead through the lovers’ music, keeping the beat moving beneath the violins’ long phrases." }
+    { "listen": "rimsky-korsakov-scheherazade-stokowski-side1", "label": "Leopold Stokowski, Philadelphia Orchestra", "year": 1934, "note": "The strings play the melody in broad phrases, with audible slides between notes." },
+    { "listen": "rimsky-korsakov-scheherazade-prince", "label": "Pierre Monteux, San Francisco Symphony", "year": 1942, "note": "Monteux keeps the tempo moving through the lovers’ music, under the long phrases in the violins." }
   ],
   "reference": "rimsky-korsakov-scheherazade-stokowski-side1",
   "passages": [
-    { "label": "The violins’ long tune", "t": 20, "note": "Both violin sections sing together. Long notes open into little runs above the held chords of the lower strings." },
-    { "label": "Quick notes within the phrase", "t": 40, "note": "The violins curl through quick notes, then settle back onto the melody’s longer ones. The lower strings keep their quiet support." },
-    { "label": "The strings swell", "t": 58, "note": "The violin phrase grows fuller and more emphatic, then eases back as the melody continues." }
+    { "label": "Opening melody, violins", "t": 20, "note": "Both violin sections play the melody together. Long notes lead into short runs above held chords in the lower strings." },
+    { "label": "Quick notes within the melody", "t": 40, "note": "The violins play quick notes, then return to the longer notes of the melody. The lower strings continue their quiet accompaniment." },
+    { "label": "Crescendo and diminuendo, violins", "t": 58, "note": "The violin phrase becomes fuller and louder, then quietens as the melody continues." }
   ],
   "sources": [
     { "title": "Stokowski — session and first-side identification", "url": "https://commons.wikimedia.org/wiki/File:Hmv-db2525-2a84519.ogg" },

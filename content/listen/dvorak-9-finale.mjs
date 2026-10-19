@@ -19,22 +19,22 @@ export default {
   "forces": "Orchestra",
   "performers": "Musopen recording; performers uncredited",
   "recorded": "",
-  "intro": "The finale of the <i>New World</i> Symphony opens with rushing strings and a brass tune built to fill a hall. By the end, melodies from all four movements have returned, and the last E-major chord fades in the winds after the strings have stopped.",
+  "intro": "The finale of the <i>New World</i> Symphony opens with fast string figures and a theme in the brass. Before the end, melodies from all four movements return, and the final E-major chord fades in the winds after the strings have stopped.",
   "sections": [
-    { "t": 0, "label": "A · Strings rush towards the brass", "m": "A", "mNote": "Rising string figures launch the broad brass tune" },
-    { "t": 105, "label": "B · A clarinet song in G major", "m": "B", "mNote": "The clarinet sings while cellos weave quick figures below" },
-    { "t": 230, "label": "Dev · Earlier tunes return", "m": "Dev", "mNote": "The Largo and scherzo meet the finale’s own melody" },
-    { "t": 378, "label": "A′ · The main tune returns", "m": "A′", "mNote": "The opening tune leads a shortened return of earlier music" },
-    { "t": 540, "label": "Coda · Brass recalls the Largo chords", "m": "Coda", "mNote": "The slow movement’s chords return in the full orchestra" },
-    { "t": 610, "label": "Link · Clarinets above a held bass", "m": "Link", "mNote": "The orchestra softens to give the winds room" },
-    { "t": 648, "label": "Close · E major and a fading chord", "m": "Close", "mNote": "The final chord remains in the winds after the strings stop" }
+    { "t": 0, "label": "A · String introduction and brass theme", "m": "A", "mNote": "Rising string figures lead to the main theme in the brass" },
+    { "t": 105, "label": "B · Clarinet theme in G major", "m": "B", "mNote": "The clarinet plays the theme over quick figures in the cellos." },
+    { "t": 230, "label": "Dev · Earlier tunes return", "m": "Dev", "mNote": "Largo and scherzo themes return alongside the finale’s own melody" },
+    { "t": 378, "label": "A′ · Main theme returns", "m": "A′", "mNote": "The opening theme leads a shortened return of earlier music." },
+    { "t": 540, "label": "Coda · Largo chords return in the brass", "m": "Coda", "mNote": "The slow movement’s chords return in the full orchestra." },
+    { "t": 610, "label": "Link · Clarinets above a held bass", "m": "Link", "mNote": "The orchestra plays more softly beneath the winds." },
+    { "t": 648, "label": "Close · E major, final wind chord", "m": "Close", "mNote": "The winds hold the final chord after the strings stop." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Strings before the brass",
-      "text": "The strings begin alone, driving a short figure upwards. Winds and brass enter as the climb reaches its summit. The main tune then strides out in the brass, with a broad opening and a sharply accented answer.",
+      "title": "Opening and main theme",
+      "text": "The strings begin alone and drive a short figure upwards. Winds and brass enter at the top of the climb. The brass then play the main theme, which has a broad opening phrase and a sharply accented reply.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, movement IV, printed pp. 133–137, Allegro con fuoco. https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
@@ -42,8 +42,8 @@ export default {
     {
       "t": 105,
       "kind": "music",
-      "title": "The clarinet takes its time",
-      "text": "A solo clarinet introduces the second tune in G major. Its long notes float above the cellos’ quick, curling figures. The brass falls silent, and the flutes later join the clarinet’s song.",
+      "title": "Second theme, solo clarinet",
+      "text": "A solo clarinet plays the second theme in G major. It holds long notes over quick figures in the cellos. The brass rests, and the flutes later join the clarinet.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, printed pp. 146–148: solo clarinet, moving cellos and subsequent flute entries."
@@ -51,8 +51,8 @@ export default {
     {
       "t": 161,
       "kind": "life",
-      "title": "A telegram after the ending",
-      "text": "On 24 May 1893, Dvořák finishes the score at nine in the morning. That afternoon a telegram tells him his children have reached Southampton on their way to America. He adds the news beside the time of completion.",
+      "title": "Completion of the score, 24 May 1893",
+      "text": "Dvořák finished the score at nine in the morning on 24 May 1893. That afternoon a telegram told him that his children had reached Southampton on their way to America, and he added the news beside the time of completion.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Josef Kovařík’s memoir records the completion time and telegram annotation on 24 May 1893; reproduced at https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -60,8 +60,8 @@ export default {
     {
       "t": 230,
       "kind": "form",
-      "title": "The other movements return",
-      "text": "The development draws on the whole symphony. The Largo’s song and the scherzo’s quick figures meet the finale’s main tune. Dvořák changes their companions and their accompaniment, letting melodies from different movements occupy the same bars.",
+      "title": "Themes from earlier movements",
+      "text": "The development combines themes from the second, third and fourth movements. The slow movement’s melody and the scherzo’s quick figures sound against the finale’s main theme. Dvořák changes their pairings and accompaniment, so that melodies from different movements occupy the same bars.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The Dvořák work catalogue identifies the combination of themes from movements II, III and IV in the finale’s development: https://www.antonin-dvorak.cz/en/work/symphony-no-9/. Šourek full score, printed pp. 157–170."
@@ -69,8 +69,8 @@ export default {
     {
       "t": 300,
       "kind": "form",
-      "title": "Memory saved for later",
-      "text": "Beethoven’s Ninth recalls the earlier movements at the start of its finale and then drops them. Dvořák waits for the development to bring them back, and keeps adding to them until the coda has gathered every key idea of the symphony.",
+      "title": "Recall of earlier movements",
+      "text": "In the finale of Beethoven’s Ninth, themes from the earlier movements are recalled at the start and then dropped. Dvořák brings them back in the development and adds more of them as the movement goes on. By the coda, every key idea of the symphony has returned.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Dvořák work catalogue, Symphony No. 9, analysis of the fourth movement and the principle of reminiscence: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -78,8 +78,8 @@ export default {
     {
       "t": 340,
       "kind": "world",
-      "title": "“If the composers are Dr. Dvořák”",
-      "text": "At the public rehearsal on 15 December 1893 the <i>Herald</i> asks musicians what the symphony means for America. Seidl hopes it will lead younger composers towards “a truly national school”. Victor Herbert, asked whether it will shape the country’s music, answers: “Yes, if the composers are Dr. Dvořák.”",
+      "title": "Public rehearsal, New York, 1893",
+      "text": "At the public rehearsal on 15 December 1893 the <i>Herald</i> asked musicians what the symphony meant for America. Seidl hoped it would lead younger composers towards “a truly national school”. Victor Herbert was asked whether it would shape the country’s music and replied: “Yes, if the composers are Dr. Dvořák.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "New York Herald report of the full rehearsal, quoted in the première section of the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -87,8 +87,8 @@ export default {
     {
       "t": 378,
       "kind": "form",
-      "title": "The main tune comes back",
-      "text": "The finale’s main tune returns after the tangle of earlier melodies. Its broad statement now leads into a shortened recapitulation. Dvořák saves the longest reckoning with the symphony’s past for the coda.",
+      "title": "Return of the main theme",
+      "text": "The finale’s main theme returns after the combination of earlier melodies. Its broad statement leads into a shortened recapitulation. Dvořák kept the longest treatment of material from the earlier movements for the expanded coda.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The abbreviated recapitulation and expanded coda are described in the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -96,8 +96,8 @@ export default {
     {
       "t": 430,
       "kind": "world",
-      "title": "London, Karlovy Vary, Prague",
-      "text": "London hears the symphony first in Europe, on 21 June 1894. Czech audiences first hear it at Karlovy Vary on 20 July. In Prague, on 13 October, Dvořák conducts it himself at the National Theatre.",
+      "title": "First performances in Europe, 1894",
+      "text": "London heard the symphony first in Europe, on 21 June 1894. Czech audiences first heard it at Karlovy Vary on 20 July. In Prague, on 13 October, Dvořák conducted it himself at the National Theatre.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Performance history in the Dvořák work catalogue, Symphony No. 9: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -105,8 +105,8 @@ export default {
     {
       "t": 482,
       "kind": "life",
-      "title": "A title added in November",
-      "text": "In November 1893, Anton Seidl asks for the score to prepare its première. Just before Kovařík carries it away, Dvořák adds <i>From the New World</i> to the title page. Until that evening, it has simply said <i>Symphony in E minor</i>.",
+      "title": "Title page, November 1893",
+      "text": "In November 1893 Anton Seidl asked for the score so that he could prepare its première. Shortly before Kovařík took it to him, Dvořák added <i>From the New World</i> to the title page. Until that evening the title page had read <i>Symphony in E minor</i>.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Josef Kovařík’s memoir places the title-page addition in mid-November 1893, just before he delivered the score to Seidl; reproduced at https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -114,8 +114,8 @@ export default {
     {
       "t": 540,
       "kind": "form",
-      "title": "The Largo’s chords grow immense",
-      "text": "The coda gathers the symphony’s old tunes around the finale’s own. Even the quiet chords that opened the Largo return, enlarged for the full orchestra. Rising strings press against their long brass notes.",
+      "title": "Coda, return of the Largo chords",
+      "text": "The coda brings back themes from the earlier movements alongside the finale’s own. The chords that opened the Largo return, scored for full orchestra. The brass hold them in long notes while the strings rise against them.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, coda, printed pp. 190–197; the Largo-chord reminiscence is identified in the Dvořák work catalogue."
@@ -123,8 +123,8 @@ export default {
     {
       "t": 575,
       "kind": "world",
-      "title": "“A triumph such as this”",
-      "text": "After the première Dvořák writes to his publisher Simrock in Berlin that “the papers are saying that no composer has ever achieved a triumph such as this”. The applause was so long, he adds, that he had to bow from his box “like a king (don’t laugh!)”.",
+      "title": "Letter to Simrock, December 1893",
+      "text": "After the première Dvořák wrote to his publisher Simrock in Berlin that “the papers are saying that no composer has ever achieved a triumph such as this”. The applause was so long, he added, that he had to bow from his box “like a king (don’t laugh!)”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Dvořák to Fritz Simrock, December 1893, quoted in the première section of the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -132,8 +132,8 @@ export default {
     {
       "t": 610,
       "kind": "music",
-      "title": "Clarinets above the quiet bass",
-      "text": "The orchestra draws back from its huge chords. Repeated string figures soften, and the bass settles into a long note. Clarinets emerge into the space, beginning another quiet recollection before the final climb.",
+      "title": "Clarinets over held bass, bar 310",
+      "text": "From bar 310 the orchestra makes a diminuendo after its large chords. The repeated string figures soften and the bass holds a long note. The clarinets enter above it with another quiet recollection before the final climb.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, printed pp. 198–199, bars 310 onwards: diminuendo, held bass and clarinet soli."
@@ -141,8 +141,8 @@ export default {
     {
       "t": 648,
       "kind": "form",
-      "title": "The winds keep the ending",
-      "text": "The closing pages drive towards E major. At the very end, strings, trombones and timpani cut their last chord short, but the other winds and brass hold on. Their sound diminishes to <i>ppp</i> under a long fermata.",
+      "title": "Final chord in E major",
+      "text": "The closing pages move towards E major. In the final bar the strings, trombones and timpani play their last chord short, while the woodwind, horns and trumpets hold theirs. The held chord makes a diminuendo to <i>ppp</i> under a long fermata.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, printed pp. 200–204, particularly the final bar: short string, trombone and timpani notes against sustained wind, horn and trumpet notes, diminuendo to ppp and lunga corona."
@@ -151,12 +151,12 @@ export default {
   "transitions": [
     {
       "id": "join-1",
-      "title": "The brass yields to a clarinet",
-      "from": "A · Strings rush towards the brass",
-      "to": "B · A clarinet song in G major",
+      "title": "Brass to solo clarinet",
+      "from": "A · String introduction and brass theme",
+      "to": "B · Clarinet theme in G major",
       "at": { "t": 105 },
       "span": [95, 120],
-      "how": "<p>The brass withdraws and the strings soften. A solo clarinet opens the G-major second tune, stretching its phrases above the cellos’ quick figures. The upper strings hold long chords while the melody finds room to breathe.</p>",
+      "how": "<p>The brass stop and the strings play more softly. A solo clarinet enters with the second theme in G major, in long phrases above quick figures in the cellos. The upper strings hold long chords beneath the melody.</p>",
       "devices": ["decrescendo", "texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -164,12 +164,12 @@ export default {
     },
     {
       "id": "join-2",
-      "title": "The strings reopen the argument",
-      "from": "B · A clarinet song in G major",
+      "title": "From exposition into development",
+      "from": "B · Clarinet theme in G major",
       "to": "Dev · Earlier tunes return",
       "at": { "t": 230 },
       "span": [220, 245],
-      "how": "<p>The exposition’s closing figures diminish over a held bass. The first violins turn upwards from this quiet ending, setting the development in motion. Horns, trumpets and winds take up memories of the other movements above the moving strings.</p>",
+      "how": "<p>The exposition’s closing figures diminish over a held bass. The first violins then play a rising phrase that begins the development. Above the moving strings, horns, trumpets and winds take up themes from the other movements.</p>",
       "devices": ["motivic link", "texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -177,12 +177,12 @@ export default {
     },
     {
       "id": "join-3",
-      "title": "The main tune gathers the orchestra",
+      "title": "Return of the main tune",
       "from": "Dev · Earlier tunes return",
-      "to": "A′ · The main tune returns",
+      "to": "A′ · Main theme returns",
       "at": { "t": 378 },
       "span": [368, 393],
-      "how": "<p>Repeated wind chords and rising violin figures build towards the main tune’s return. Horns, bassoons and low strings give it weight below the high winds. The returning music follows a shorter course than the exposition, leaving the great accumulation for the coda.</p>",
+      "how": "<p>Repeated wind chords and rising violin figures build towards the return of the main tune. Horns, bassoons and low strings give it weight below the high winds. The recapitulation is shorter than the exposition, and the largest build-up comes in the coda.</p>",
       "devices": ["retransition", "motivic link", "crescendo build"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -190,12 +190,12 @@ export default {
     },
     {
       "id": "join-4",
-      "title": "The orchestra enlarges the Largo chords",
-      "from": "A′ · The main tune returns",
-      "to": "Coda · Brass recalls the Largo chords",
+      "title": "Tempo I into the coda",
+      "from": "A′ · Main theme returns",
+      "to": "Coda · Largo chords return in the brass",
       "at": { "t": 540 },
       "span": [530, 555],
-      "how": "<p>At <i>Tempo I</i>, the quieter return gives way to long orchestral chords and a forceful line in bassoons, cellos and basses. The coda gathers earlier themes, including the Largo’s opening chord sequence. Brass sustains the harmony while the strings repeatedly climb beneath it.</p>",
+      "how": "<p>At <i>Tempo I</i>, the quieter return gives way to long orchestral chords and a forceful line in bassoons, cellos and basses. The coda brings back earlier themes, including the Largo’s opening chord sequence. Brass sustains the harmony while the strings climb repeatedly beneath it.</p>",
       "devices": ["motivic link", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -203,12 +203,12 @@ export default {
     },
     {
       "id": "join-5",
-      "title": "The clarinets emerge from the chords",
-      "from": "Coda · Brass recalls the Largo chords",
+      "title": "Clarinets enter over the held bass",
+      "from": "Coda · Largo chords return in the brass",
       "to": "Link · Clarinets above a held bass",
       "at": { "t": 610 },
       "span": [600, 625],
-      "how": "<p>The wind chords and repeated string figures diminish together. Cellos and basses stop their running notes and hold a quiet foundation. Clarinets begin a new phrase above it, while the brass rests and the timpani roll fades.</p>",
+      "how": "<p>The wind chords and repeated string figures diminish together. Cellos and basses stop their running notes and hold a quiet foundation. The clarinets begin a new phrase above it. The brass rests and the timpani roll fades.</p>",
       "devices": ["decrescendo", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -216,12 +216,12 @@ export default {
     },
     {
       "id": "join-6",
-      "title": "E major fills the closing pages",
+      "title": "Into the final E major chord",
       "from": "Link · Clarinets above a held bass",
-      "to": "Close · E major and a fading chord",
+      "to": "Close · E major, final wind chord",
       "at": { "t": 648 },
       "span": [638, 663],
-      "how": "<p>The quiet wind recollection grows into the final orchestral drive. Rising strings, emphatic brass and timpani push towards E major. The last chord separates the orchestra: strings, trombones and timpani stop short; winds, horns and trumpets sustain and diminish to <i>ppp</i>.</p>",
+      "how": "<p>The quiet wind recollection leads into the final orchestral build. The strings rise, and brass and timpani play emphatically as the music moves to E major. At the last chord the orchestra divides. Strings, trombones and timpani stop short, and winds, horns and trumpets hold the chord and diminish to <i>ppp</i>.</p>",
       "devices": ["crescendo build", "orchestration change", "decrescendo"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -267,7 +267,7 @@ export default {
           "violas",
           "cellos"
         ],
-        "note": "The strings begin alone, driving a short figure upwards towards the brass entrance."
+        "note": "The strings begin alone, playing a short figure that rises towards the entry of the brass."
       },
       {
         "t": 15,
@@ -290,13 +290,13 @@ export default {
           "horns",
           "trumpets"
         ],
-        "note": "Horns and trumpets project the broad E-minor tune above moving strings."
+        "note": "Horns and trumpets play the broad E-minor tune above moving strings."
       },
       {
         "t": 100,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "clarinets"],
-        "note": "A single soft cymbal stroke rings across three bars as the music approaches the clarinet’s song."
+        "note": "A single soft cymbal stroke sounds across three bars before the clarinet melody."
       },
       {
         "t": 105,
@@ -315,7 +315,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "The clarinet sings in G major above quick cello figures and held upper strings."
+        "note": "The clarinet plays in G major above quick cello figures and held upper strings."
       },
       {
         "t": 230,
@@ -374,7 +374,7 @@ export default {
         "t": 416,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["clarinets"],
-        "note": "The clarinet recovers the lyrical tune, with the other winds and strings answering around it."
+        "note": "The clarinet plays the lyrical tune again, with the other winds and strings answering around it."
       },
       {
         "t": 464,
@@ -386,7 +386,7 @@ export default {
         "t": 540,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["horns", "trumpets", "violins-1"],
-        "note": "Brass and timpani rejoin the winds and strings as the coda gathers the symphony’s earlier tunes."
+        "note": "Brass and timpani rejoin the winds and strings in the coda, which brings back the symphony’s earlier themes."
       },
       {
         "t": 610,
@@ -408,7 +408,7 @@ export default {
           "clarinets",
           "horns"
         ],
-        "note": "Clarinets sing above a held bass; the horn call follows, with quiet timpani and trombone chords."
+        "note": "Clarinets play above a held bass; the horn call follows, with quiet timpani and trombone chords."
       },
       {
         "t": 648,
@@ -432,7 +432,7 @@ export default {
           "trumpets",
           "trombones"
         ],
-        "note": "The orchestra drives towards E major; winds, horns and trumpets hold the final chord after the strings stop."
+        "note": "The orchestra moves towards E major; winds, horns and trumpets hold the final chord after the strings stop."
       }
     ]
   }

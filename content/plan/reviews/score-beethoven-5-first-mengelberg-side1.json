@@ -1,0 +1,102 @@
+{
+  "id": "beethoven-5-first-mengelberg-side1",
+  "verdict": "pass",
+  "reviewer": "RevScores",
+  "date": "2026-10-19",
+  "scope": "MEAS: second independent review after republication: source/order, bar map, gate arithmetic, all 23 constraint identities, fresh overlays and audio features (constant-Q pitch-band onsets, per-bar chroma shift scan, audio-to-audio DTW against the reviewed baseline recording); not aural review.",
+  "defects": [],
+  "resolvedFindings": [
+    {
+      "basis": "MEAS",
+      "code": "BARS_22_49_EARLY_BOTH_EXPOSITIONS",
+      "finding": "Resolved. Published bar-22 A-flats are now 22.800/23.063/23.489 s (A-flat band rises measured 22.85/23.10/23.49 s); bar 23 F 23.720 s (F band rise 23.67 s); bar-25 violin-I A-flat4s 27.14/27.33/27.52 s (MIDI-68 rises 27.17/27.33/27.46 s); bar 29 29.54 s (C band 29.58 s); bar 33 32.24 s (C band 32.21 s). Second statement: A-flats from 116.04 s (rise 116.00 s), F 116.86 s (116.87 s), bar-25 A-flat4s 120.74/120.92/121.10 s (120.77/120.92/121.05 s), bar 29 123.24 s (123.17 s), bar 33 125.64 s (125.32–125.63 s). Audio-to-audio DTW from the baseline beethoven-5-first now gives published-minus-reference offsets within ±0.31 s for 27 of the 31 bars 19–49 of the first statement and within ±0.39 s for 28 of 31 in the second. The exceptions are bars 22 and 25 of the first statement and 22, 24 and 25 of the second, at the fermata pauses where the reference DTW collapses (it gives bars 24/25 of the second statement 118.73/118.85 s, only 0.12 s apart). The other exceptions are bars 45–46 of the first statement (−1.00/−0.53 s), which the DTW maps both to 40.89 s. There the B-natural band (MIDI 47/59/71) rises to −18.3 dB at 41.59 s against bar 48's G-seventh chord at 41.72 s (second statement 134.86 against 135.08 s), so bars 44–48 are correctly bracketed. The fresh overlays 16–32, 32–48, 108–124 and 124–140 s show the bar-22/23 lines on the loud entries and bars 25–28 after the F fermata."
+    },
+    {
+      "basis": "MEAS",
+      "code": "DEVELOPMENT_ANCHORS_MISASSIGNED_BARS_129_131_EARLY",
+      "finding": "Resolved. The constraints now pin q504.5 (Violins II C5, bar 129) at 192.90 s and q506 (Violins II A-flat4, violas/cellos C4, bassoons F3/F4, bar 130) at 193.48 s; the generated event table confirms both identities. Published bar-129 C5s are 192.90/193.09/193.29 s (C5 band rises 192.86/193.10/193.36 s), the clarinets' C-sharp5s are 193.65/193.83/194.02 s (C-sharp5 rises 193.61/193.78/193.91 s) and bar 131's C5 is 194.205 s (rise 194.20 s). REPORT.md, the config labels and provenance now describe the correct events."
+    }
+  ],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "BAR_250_LIT_DURING_E_FLAT_FERMATA",
+      "finding": "This is a non-blocking limitation, still disclosed. Bar 250 lights at 273.07 s while the E-flat fermata sounds until about 274.6 s; its downbeat is a rest with no attack to constrain."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_133_LOCAL_COMPRESSION",
+      "finding": "This is non-blocking and does not affect bar placement. Inside bar 133 the second violins' three C5 eighths are published at 195.714/195.771/195.849 s, 57–78 ms apart. This is a local attack-spacing artefact; bar 133 itself (195.571 s) and bar 134 (196.01 s) sit on their chords."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#beethoven-5-first-mengelberg-side1",
+    "finding": "The section matches the republication. Score SHA-256 afd9d86c…0388, config SHA-256 ffaad4de…a35a14 (equal to results.configSha256), 23 constraints, gates, middle anchor bar 50 occurrence 2, the listed new bar times and 50 listed overlays all agree with results/checks. The work candidate equals the public score, checks equal results, and the diff report shows unchanged note/bar identities against the previously reviewed c851849b… with maximum onset/bar changes of 3.09/3.04 s. Source downloads and cached audio match their pinned SHA-256 values."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/beethoven-5-first-mengelberg-side1-checks.json",
+    "primaryMedianSeconds": 0.07926460655184542,
+    "primaryP95Seconds": 0.4171293481931926,
+    "maximumAnchorDeviationSeconds": 0.060313,
+    "maximumLocalRegionMedianSeconds": 0.06505668934241271,
+    "minimumPublishedNoteDurationSeconds": 0.014,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.014,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 376,
+    "distinctTimedBars": 252,
+    "sheetPages": 16,
+    "indexBars": 500,
+    "derivedBars": ["57", "123", "124"],
+    "svgGlyphBars": 497,
+    "unresolvedScoreBars": [],
+    "finding": "All 5594 notes lie inside their bar occurrence; bar times strictly increase; all 252 timed bars resolve in the index. The order is bars 1–124 then 1–252; the first note is at 0.846 s and the last ends at the 280.2-s display end. Listen cues use seconds."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revscores_consist.py, revscores_scan.py, revscores_band.py, revscores_a2a.py, revscores_plot.py, revscores_bars.py",
+    "constraintIdentities": "All 23 constraint scoreQ values were looked up in work/…-events.json; each lands on its labelled bar, occurrence and pitch set.",
+    "shiftScan": "The ±3-s per-bar chroma scan now flags no bar from 22 to 43 in the first statement; before the fix it flagged 22–25, 27–29, 34–35 and 40. In the second statement it flags 24, 25, 29 and 38, where it previously flagged 22–25, 27–28, 34–35, 38 and 40. Those four are contradicted by direct measurement: bar 24 is the continuing F hold; bar 25's A-flat4s and bar 29's chord agree with band onsets within 0.07 s; and baseline DTW puts bar 38 at +0.04 s. The other remaining flags (18–19, 44, 48, 51, 58–59, 63) were also flagged in the earlier review. They fall on fermatas, sustained single harmonies or quiet passages under the transfer's mains-hum lines (G1/D3), and baseline DTW or pitch-band onsets do not support moving them.",
+    "carriedOver": "Unchanged from the first review: tuning 446.92 Hz; exposition repeat taken (passes agree, path cosine 0.977); side end on the bar-251–252 D fermata with display end 280.2 s; development and recapitulation from bar 132 onwards without displacement."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/beethoven-5-first-mengelberg-side1-16-32.png",
+      "work/beethoven-5-first-mengelberg-side1-32-48.png",
+      "work/beethoven-5-first-mengelberg-side1-108-124.png",
+      "work/beethoven-5-first-mengelberg-side1-124-140.png"
+    ],
+    "independentRenders": [
+      "~/.cache/direction-scratch/b5m-r2-18-34.png",
+      "~/.cache/direction-scratch/b5m-r2-111-127.png",
+      "~/.cache/direction-scratch/b5m-r2-186-200.png"
+    ],
+    "finding": "All inspected pipeline overlays are in the results' fresh list; work/ also holds older PNGs that results no longer list, and these were not used. The renders put the published note lines on the measured pitch energy at bars 21–35 in both statements and bars 125–140."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+    "opened": true,
+    "edition": "Breitkopf and Härtel, 1862–1865",
+    "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The source edition and the order (exposition repeat taken, side ending at bar 252) match the recording. The B&H encoding is not claimed as Mengelberg's performing edition."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScores. The 23 constraints are fitting evidence. Pitch-band and DTW checks establish bar-level correspondence, not individual-attack accuracy. Public score SHA-256 afd9d86cd036c1a468d7bc6137df706a252f34cd24df1969f830af147b5b0388."
+}

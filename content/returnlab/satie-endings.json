@@ -1,11 +1,11 @@
 {
   "id": "satie-endings",
   "track": "satie-gymnopedie-1",
-  "title": "Satie: the ending darkens",
-  "question": "How does Satie change the tune’s final eight bars?",
+  "title": "Satie: the ending",
+  "question": "Satie’s alteration of the tune’s final eight bars",
   "kind": "varied return",
   "status": "provisional",
-  "intro": "Thirty-one bars return unchanged: the same piano melody, bass notes and chords. Then the last eight bars turn another way. F♮ replaces F♯, and the piece ends in D minor after its first D-major close.",
+  "intro": "Thirty-one bars return unchanged, with the same piano melody, bass notes and chords. The last eight bars then differ. F♮ replaces F♯, and the piece ends in D minor after its first D-major close.",
   "first": {
     "label": "Melody and first ending",
     "from": { "n": "1", "occ": 1 },
@@ -25,17 +25,17 @@
     {
       "a": ["34", 1],
       "b": ["42", 1],
-      "text": "The tune turns upwards: B–C–F replaces B–A–B. The left hand changes with it, replacing B–D–F♯ over low B with A–C–F over low E."
+      "text": "The tune rises, with B–C–F in place of B–A–B. The left hand changes at the same point, replacing B–D–F♯ over low B with A–C–F over low E."
     },
     {
       "a": ["35", 1],
       "b": ["43", 1],
-      "text": "C♯–D–E rises twice in bars 35–36; E–D–C falls twice in bars 43–44. Low E stays beneath both versions, while C♯ in the chords becomes C♮, and the second bar’s F♯ becomes F♮."
+      "text": "In bars 35–36 C♯–D–E rises twice; in bars 43–44 E–D–C falls twice. Low E stays beneath both versions. The C♯ in the chords becomes C♮, and the F♯ in the second bar becomes F♮."
     },
     {
       "a": ["36", 1],
       "b": ["44", 1],
-      "text": "Satie’s diminuendo starts on D, the second beat of bar 36; on the return it waits until C, the third beat of bar 44. The first fade ends at the chord in bar 38, the second at the final chord in bar 47."
+      "text": "Satie’s diminuendo starts on D, the second beat of bar 36; on the return it starts later, on C, the third beat of bar 44. The first fade ends at the chord in bar 38, the second at the final chord in bar 47."
     },
     {
       "a": ["37", 1],
@@ -45,7 +45,7 @@
     {
       "a": ["39", 1],
       "b": ["47", 1],
-      "text": "One note changes the last chord. After the same A–C–E–G in bars 38 and 46, F♯ becomes F♮: D major in bar 39 turns to D minor in bar 47. The Ds and As stay put; both chords last three beats."
+      "text": "One note changes the last chord. After the same A–C–E–G in bars 38 and 46, F♯ becomes F♮, so that D major in bar 39 becomes D minor in bar 47. The Ds and As are held unchanged; both chords last three beats."
     }
   ],
   "listenFor": "The last eight bars change the piano tune, the bass and finally the chord’s F♯, which falls to F♮.",

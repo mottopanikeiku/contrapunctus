@@ -1,49 +1,49 @@
 {
   "id": "tchaikovsky-6-finale",
-  "title": "Two orchestras sing the last lament",
+  "title": "“Pathétique” finale: Furtwängler and the Musopen Symphony",
   "composer": "tchaikovsky",
   "group": "century",
   "work": "Symphony No. 6 in B minor “Pathétique”, Op. 74 — IV. Finale: Adagio lamentoso",
-  "question": "How do two orchestras keep Tchaikovsky’s slow finale moving as its melodies fall towards silence?",
-  "intro": "In February 1893, Tchaikovsky told his nephew Vladimir Davydov that his new symphony would end with “a most long-drawn-out Adagio”. The finale begins with a falling melody whose notes pass between the two violin sections. Furtwängler’s Berlin Philharmonic and the Musopen Symphony carry that lament through its great outbursts to the quiet low strings at the end.",
+  "question": "How do two orchestras pace Tchaikovsky’s slow finale, whose melodies descend towards silence?",
+  "intro": "In February 1893 Tchaikovsky told his nephew Vladimir Davydov that his new symphony would end with “a most long-drawn-out Adagio”. The finale begins with a falling melody whose notes pass between the first and second violins. The recordings here are by Furtwängler with the Berlin Philharmonic and by the Musopen Symphony. Both play the movement through its loud climaxes to the quiet low strings at the end.",
   "recordings": [
     {
       "listen": "tchaikovsky-6-finale-furtwangler-1938",
       "label": "Wilhelm Furtwängler, Berlin Philharmonic",
       "year": 1938,
-      "note": "Broad phrases keep their momentum through the lament; Furtwängler draws the climaxes into long sweeps."
+      "note": "Furtwängler keeps the broad phrases of the lament moving and takes the climaxes in long spans."
     },
     {
       "listen": "tchaikovsky-6-finale",
       "label": "Musopen Symphony",
       "year": null,
-      "note": "The modern recording carries the whole finale, from the opening violin exchanges to the last descent into cellos and basses."
+      "note": "The modern recording contains the whole finale, from the opening exchanges between the violins to the final descent in the cellos and basses."
     }
   ],
   "reference": "tchaikovsky-6-finale",
   "passages": [
     {
-      "label": "One tune, two violin sections",
+      "label": "Falling theme divided between violins",
       "t": 0,
-      "note": "First and second violins exchange notes of the falling tune. Together they make a melody that neither section plays complete."
+      "note": "First and second violins exchange notes of the falling tune. Neither section plays the complete melody; it is heard only from the two together."
     },
     {
-      "label": "The D-major song",
+      "label": "Second theme in D major",
       "t": 170,
       "note": "Horns support a broad descending melody in the first violins and violas; trombones answer it."
     },
     {
-      "label": "The orchestra rushes down",
+      "label": "Descending scales to the climax",
       "t": 270,
-      "note": "Fast descending scales carry the broad melody to its climax. The whole orchestra joins the fall."
+      "note": "Fast descending scales carry the broad melody to its climax. The whole orchestra plays the descent."
     },
     {
-      "label": "Brass joins the lament",
+      "label": "Return of the opening theme",
       "t": 420,
-      "note": "The returning lament reaches another outburst. Trombones and tuba reinforce the strings as the music presses towards a long-held F♯."
+      "note": "The lament theme returns and builds to another climax. Trombones and tuba double the strings as the music moves towards a long-held F♯."
     },
     {
-      "label": "The last descent",
+      "label": "Second theme in B minor",
       "t": 545,
       "note": "The broad melody returns in B minor. Muted strings descend, and the tune sinks gradually towards the cellos and basses."
     }

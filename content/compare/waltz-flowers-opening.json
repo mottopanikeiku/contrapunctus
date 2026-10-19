@@ -1,21 +1,21 @@
 {
   "id": "waltz-flowers-opening",
-  "title": "The waltz joins the band",
+  "title": "Waltz of the Flowers in three recordings",
   "composer": "tchaikovsky",
   "group": "century",
   "work": "Waltz of the Flowers — principal-waltz passage",
   "question": "What happens to Tchaikovsky’s waltz when a concert band takes the place of the strings?",
-  "intro": "A flourish from the harp clears the floor, and four horns begin the dance. Stokowski’s Philadelphia orchestra and Robinson’s London players keep Tchaikovsky’s scoring, with violins waiting to take over. Lawrence Odom’s concert-band arrangement gives the strings’ work to wind players.",
+  "intro": "The harp plays a flourish, and four horns begin the dance. Stokowski’s Philadelphia orchestra and Robinson’s London players keep Tchaikovsky’s scoring, in which the violins then take over. Lawrence Odom’s concert-band arrangement gives the string parts to wind players.",
   "recordings": [
     { "listen": "tchaikovsky-waltz-flowers-stokowski-side1", "label": "Leopold Stokowski, Philadelphia Orchestra", "year": 1934, "note": "The Philadelphia Orchestra in Camden’s Trinity Church studio, with the original horn melody and string accompaniment." },
     { "listen": "tchaikovsky-waltz-flowers-robinson-side1", "label": "Stanford Robinson, National Symphony Orchestra", "year": 1945, "note": "London’s National Symphony Orchestra plays Tchaikovsky’s scoring, recorded at Kingsway Hall in January 1945." },
-    { "listen": "tchaikovsky-waltz-flowers", "label": "United States Air Force Band", "year": 1996, "note": "Lawrence Odom’s concert-band arrangement, recorded for <i>Christmas on Stage and Screen</i>: the winds take on the strings’ parts." }
+    { "listen": "tchaikovsky-waltz-flowers", "label": "United States Air Force Band", "year": 1996, "note": "Lawrence Odom’s arrangement for concert band, recorded for <i>Christmas on Stage and Screen</i>. The wind instruments play the parts written for strings." }
   ],
   "reference": "tchaikovsky-waltz-flowers-stokowski-side1",
   "passages": [
-    { "label": "The horns begin", "t": 60, "note": "Four horns sing the first tune above a plucked bass and quiet chords from the strings." },
-    { "label": "The clarinet’s answer", "t": 90, "note": "The clarinet curls through quick notes between the horns’ phrases; the accompaniment keeps the three-beat dance going." },
-    { "label": "The strings take over", "t": 120, "note": "The strings carry a fuller melody while brass chords mark the beat and the woodwind add quick flourishes." }
+    { "label": "Horn melody", "t": 60, "note": "Four horns play the first tune above a plucked bass and quiet chords from the strings." },
+    { "label": "Clarinet runs between horn phrases", "t": 90, "note": "The clarinet plays runs of quick notes between the horns’ phrases; the accompaniment keeps up the three-beat dance rhythm." },
+    { "label": "String melody", "t": 120, "note": "The strings play a fuller melody while brass chords mark the beat and the woodwind add quick flourishes." }
   ],
   "sources": [
     { "title": "Stokowski — 1934 session and release, first side", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Leopold_Stokowski_-_Nutcracker_Suite,_Opus_71A_-_Tchaikovsky_-_Waltz_of_the_Flowers,_Part_1_-_Hmv-db2542-2a87004.flac" },

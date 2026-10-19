@@ -1,0 +1,140 @@
+{
+  "id": "jacquet-de-la-guerre-gigue-nef",
+  "work": {
+    "title": "Pièces de clavecin",
+    "catalogue": "",
+    "movement": "Gigue",
+    "version": {
+      "value": "A gigue by Jacquet de La Guerre for harpsichord; the printed source (book and suite) is not identified",
+      "status": "unknown",
+      "sourceIds": ["archive", "edition", "imslp"],
+      "note": "The labels and the Internet Archive record name only an Allemande and a Gigue by Elizabeth Jacquet de la Guerre. An earlier comparison of pitch content with the printed gigues of the 1687 book proposed the F major gigue (EJG.04) and could not be reproduced. Re-measured for this review with the mains hum removed, the pitch content is centred on A minor (G♯ present, B♭ rare) and the first strain ends on an E harmony with G♯, which does not fit an F major piece. The gigue of the A minor suite (EJG.03, printed page 28) is a candidate that was matched only on key and first-strain cadence. The Allemande on the reverse sounds in G major, so the two sides may come from different suites. The 1707 book (EJG.05–06) was not compared, because its scan could not be downloaded."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Isabelle Nef", "role": "harpsichord" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "gallica"],
+    "note": "The Bibliothèque nationale de France record reads “Isabelle Nef, clav.” and gives her dates as 1898–1976. The make of the instrument is not established."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "gallica"],
+      "note": "The recording date is not stated in the sources consulted. The BnF record dates the disc 1942; an Oiseau-Lyre discography after Jim Davidson’s Lyrebird Rising (1994) gives its release as 1938 or 1939, recording site and date unknown (https://medieval.org/emfaq/cds/lol75.htm). The Internet Archive upload date of 25 October 2018 is not a session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "No recording venue is established by the sources."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Éditions de l’Oiseau-Lyre",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Named as publisher in the Internet Archive item. The label issued its first 78 rpm discs in December 1937."
+    },
+    "catalogue": {
+      "value": "O. L. 75",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The Internet Archive description gives “Catalog number: O. L. 75”, and the label scan reads “O. L. 75” on both sides."
+    },
+    "matrixTakeSides": {
+      "value": "PART 1296 (Gigue); the reverse side, the Allemande, is PART 1295",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Matrix numbers are taken from the item’s external identifiers. No take is supplied."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "George Blood, L.P., for the Internet Archive’s 78 rpm project (Boston Public Library collection)",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item’s description names an audio engineer at George Blood, L.P., and lists the item in the Boston Public Library and George Blood collections."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The upload date of 25 October 2018 is not treated as a transfer date."
+    },
+    "processing": {
+      "value": "Digitised at 78 rpm with four stylus sizes, flat and equalised; the engineer’s preferred version is the one offered, as a variable-bitrate MP3 derived from a 24-bit FLAC.",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The pitch of the file, re-measured for this review, is about 25 cents above A = 440, as on the other side of the disc. The written key of the piece is not established, so the transfer speed cannot be checked against a score; no speed correction was applied here."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_gigue_elizabeth-jacquet-de-la-guerre-isabelle-nef_gbia0075989b/Gigue%20-%20Elizabeth%20Jacquet%20de%20la%20Guerre%20-%20Isabelle%20Nef.mp3",
+    "sourceChain": ["archive"],
+    "format": "Internet Archive variable-bitrate MP3 derivative of a 24-bit FLAC transfer of one side of a 78 rpm disc",
+    "durationSeconds": 154.2
+  },
+  "rights": {
+    "composition": {
+      "value": "Out of copyright where the ordinary life-plus-70 term applies.",
+      "status": "inferred",
+      "sourceIds": ["imslp"],
+      "note": "Jacquet de La Guerre died in 1729. This is a term calculation, not clearance of every edition."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis for a disc dated 1942 by the Bibliothèque nationale de France (release in 1938 or 1939 according to an Oiseau-Lyre discography), under the programme’s pre-1963 recording rule.",
+      "status": "documented",
+      "sourceIds": ["gallica", "archive"],
+      "note": "The BnF date is a catalogue date for the disc, not an independently verified first-publication date; an Oiseau-Lyre discography (https://medieval.org/emfaq/cds/lol75.htm, after Davidson’s Lyrebird Rising) places the release in 1938 or 1939, and the label began issuing discs in December 1937. Either date is before 1963. The Gallica record marks its own digital copy as public domain; the Internet Archive item carries no licence. US first-publication evidence and US status are not established."
+    },
+    "creditLine": "Jacquet de La Guerre: Gigue; Isabelle Nef, harpsichord; Éditions de l’Oiseau-Lyre O. L. 75, 78 rpm disc dated 1942 by the Bibliothèque nationale de France. Transfer by George Blood, L.P., via the Internet Archive (Boston Public Library 78 rpm collection). Territorial EU pre-1963 basis; US status not established.",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k127370x"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive item: Gigue, Elizabeth Jacquet de la Guerre; Isabelle Nef (George Blood transfer, Boston Public Library collection)",
+      "url": "https://archive.org/metadata/78_gigue_elizabeth-jacquet-de-la-guerre-isabelle-nef_gbia0075989b",
+      "locator": "Description (performer, writer, instrument, digitisation at 78 rpm with four styli); publisher Éditions de l’Oiseau-Lyre; catalogue number O. L. 75; external identifier matrix PART 1296; reverse side Allemande; label scan (the item’s .jpg) reading “Éditions de l’Oiseau-Lyre, Part. 1296, O. L. 75, Elizabeth Jacquet de la Guerre, Gigue, Clavecin: Isabelle Nef”; files FLAC and MP3.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "gallica",
+      "title": "Gallica (BnF): Allemande ; Gigue / Elizabeth Jacquet de la Guerre ; Isabelle Nef, clav. (copy of the page held by the Internet Archive)",
+      "url": "https://web.archive.org/web/20250130115756/https://gallica.bnf.fr/ark:/12148/bpt6k127370x",
+      "locator": "Title, performer Isabelle Nef (1898–1976), date 1942 (Dublin Core metadata DC.date), document type audio recording, rights “domaine public”; BnF Audiovisuel shelfmark C-1569.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "edition",
+      "title": "Élisabeth Jacquet de La Guerre, Pièces de clavecin (1687), edited and typeset by Steve Wiberg, Due West Editions, 2007, based on a facsimile of the first printing (IMSLP 18522; Creative Commons Attribution-ShareAlike 3.0)",
+      "url": "http://conquest.imslp.info/files/imglnks/usimg/3/31/IMSLP18522-LaGuerre_PiecesDeClavecin_Complete.pdf",
+      "locator": "Gigues on printed pages 7 (D minor), 19 and 20 (G minor), 28 (A minor) and 40 (F major); each is in two strains.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP: Pièces de clavecin, Livre 1 (Jacquet de La Guerre, Elisabeth)",
+      "url": "https://imslp.org/wiki/Pi%C3%A8ces_de_clavecin,_Livre_1_(Jacquet_de_La_Guerre,_Elisabeth)",
+      "locator": "First publication 1687; four suites, EJG.01–04; dedicated to Louis XIV.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "medieval",
+      "title": "Pierre-F. Roberge, Early Music FAQ: Oiseau-Lyre OL. 75, Elisabeth Jacquet de la Guerre, Allemande; Gigue, Isabelle Nef",
+      "url": "https://medieval.org/emfaq/cds/lol75.htm",
+      "locator": "Recording site and date unknown [1938]; released 1938 or 1939; information from Jim Davidson, Lyrebird Rising: Louise Hanson-Dyer of Oiseau-Lyre 1884–1962 (Amadeus Press, 1994), p. 490, and the BnF catalogue.",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "id": "nielsen",
+  "places": [
+    {
+      "name": "Nørre Lyndelse, Funen",
+      "country": "Denmark",
+      "lat": 55.3053,
+      "lon": 10.3925,
+      "from": "1865-06-09",
+      "kind": "born",
+      "what": "Born in a cottage at Sortelung, in the parish of Nørre Lyndelse, the seventh of twelve children. The cottage no longer stands; a memorial stone marks the site. Coordinates mark the village.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        },
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Nørre Lyndelse",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Nørre_Lyndelse"
+        }
+      ]
+    },
+    {
+      "name": "Nørre Lyndelse, Funen",
+      "country": "Denmark",
+      "lat": 55.3053,
+      "lon": 10.3925,
+      "from": "1865",
+      "to": "1879-11",
+      "kind": "childhood",
+      "what": "Grew up in the parish. He played the violin from the age of six, herded geese at Bramstrup from eight or nine, and had lessons from the assistant teacher Emil Petersen. By 1879 the family had moved to a house called Petersborg, which is now a museum.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        }
+      ]
+    },
+    {
+      "name": "Odense",
+      "country": "Denmark",
+      "lat": 55.3958,
+      "lon": 10.3886,
+      "from": "1879-11-01",
+      "to": "1883-12",
+      "kind": "worked",
+      "what": "Military musician with the Sixteenth Battalion, from 1 November 1879, with violin lessons in the town. He left at the turn of 1883–84 for the Copenhagen Conservatory.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        },
+        {
+          "title": "Wikipedia coordinate record: Odense",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Odense"
+        }
+      ]
+    },
+    {
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1884-01",
+      "to": "1886-12",
+      "kind": "studied",
+      "what": "Student at the Conservatory on a scholarship, studying violin with Valdemar Tofte and theory and counterpoint with Orla Rosenhoff. He left at the end of 1886. Coordinates mark the city.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        },
+        {
+          "title": "Wikipedia coordinate record: Copenhagen",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Copenhagen"
+        }
+      ]
+    },
+    {
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1889",
+      "to": "1905",
+      "kind": "worked",
+      "what": "Second violin in the Royal Orchestra, a place he won in a competition in August 1889 and held for sixteen years.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        }
+      ]
+    },
+    {
+      "name": "Royal Theatre, Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1906-11-11",
+      "kind": "premiere",
+      "what": "First performance of the opera Maskarade at the Royal Theatre, Nielsen conducting. It played twenty times in the 1906–07 season.",
+      "work": "Maskarade",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 2: Maskarade",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=2"
+        },
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        }
+      ]
+    },
+    {
+      "name": "Royal Theatre, Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1908",
+      "to": "1914-05-30",
+      "kind": "worked",
+      "what": "Conductor at the Royal Theatre. He resigned in 1914 and gave his last performance on 30 May 1914.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        },
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        }
+      ]
+    },
+    {
+      "name": "Odd Fellow Palace, Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1916-02-01",
+      "kind": "premiere",
+      "what": "First performance of the Fourth Symphony, “The Inextinguishable”, at the Music Society, Nielsen conducting.",
+      "work": "Symphony No. 4",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 28: Symphony No. 4",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=28"
+        },
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        }
+      ]
+    },
+    {
+      "name": "Odd Fellow Palace, Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1922-01-24",
+      "kind": "premiere",
+      "what": "First performance of the Fifth Symphony at the Music Society, Nielsen conducting, after five rehearsals.",
+      "work": "Symphony No. 5",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 29: Symphony No. 5",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=29"
+        },
+        {
+          "title": "The Carl Nielsen Edition II/5, Symphony No. 5: preface",
+          "url": "http://img.kb.dk/export/sites/kb_dk/da/nb/dcm/cnu/pdf/CNU_II_05_symphony_5.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Odd Fellow Palace, Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1922-10-09",
+      "kind": "premiere",
+      "what": "First public performance of the Wind Quintet, by the Copenhagen Wind Quintet at the New Music Society.",
+      "work": "Wind Quintet",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 70: Wind Quintet, Op. 43",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=70"
+        }
+      ]
+    },
+    {
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1931-10-03",
+      "kind": "died",
+      "what": "Died at ten minutes past midnight in the National Hospital, where he had been admitted on 1 October.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        }
+      ]
+    },
+    {
+      "name": "Vestre Kirkegård, Copenhagen",
+      "country": "Denmark",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "from": "1931-10-09",
+      "kind": "buried",
+      "what": "The funeral service was at Vor Frue Kirke on 9 October. At Vestre Kirkegård the Royal Orchestra’s wind quintet played the closing chorale of the Wind Quintet as the coffin was lowered.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        }
+      ]
+    },
+    {
+      "name": "Dresden",
+      "country": "Germany",
+      "lat": 51.05,
+      "lon": 13.74,
+      "from": "1890-09-03",
+      "to": "1890-10-18",
+      "kind": "heard",
+      "what": "Heard Wagner’s Ring on his first stay in Germany, on an Ancker grant; his diary of 10 September records Das Rheingold. He left for Berlin on 18 October.",
+      "work": "Wagner, Der Ring des Nibelungen",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): diary, Dresden, 10 September 1890",
+          "url": "https://epub3.kb.dk/cnb/EPUB/100054.xhtml"
+        },
+        {
+          "title": "Wikipedia coordinate record: Dresden",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Dresden"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1890-10-18",
+      "to": "1891-01",
+      "kind": "travelled",
+      "what": "Met Sibelius, Christian Sinding and the violinist Joseph Joachim. Through the winter he divided his time between Berlin, Leipzig and Dresden, and left for Paris at the end of January 1891.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Berlin",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Berlin"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1891-02-26",
+      "to": "1891-04",
+      "kind": "travelled",
+      "what": "Arrived on 26 February. At a party at the Bendix home on 1 March he met the sculptor Anne Marie Brodersen, and by 16 March they had decided to marry.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Paris",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris"
+        }
+      ]
+    },
+    {
+      "name": "Florence",
+      "country": "Italy",
+      "lat": 43.7714,
+      "lon": 11.2542,
+      "from": "1891-05-10",
+      "kind": "travelled",
+      "what": "Married Anne Marie Brodersen in the English church on 10 May 1891, then spent the weeks until late June in Italy studying works of art.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Carl Nielsen",
+          "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen"
+        },
+        {
+          "title": "Wikipedia coordinate record: Florence",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Florence"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1894-11-05",
+      "to": "1894-11-15",
+      "kind": "travelled",
+      "what": "Visited Brahms on 7 November 1894 with Dr Eduard Schiff. Brahms kept the First Symphony and the F minor String Quartet to look through. Nielsen left Vienna on 15 November.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): letter to Orla Rosenhoff, 13 November 1894",
+          "url": "https://epub3.kb.dk/cnb/EPUB/100520.xhtml"
+        },
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): diary, 17 November 1894",
+          "url": "https://epub3.kb.dk/cnb/EPUB/100522.xhtml"
+        },
+        {
+          "title": "Wikipedia coordinate record: Vienna",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Vienna"
+        }
+      ]
+    },
+    {
+      "name": "Athens",
+      "country": "Greece",
+      "lat": 37.9842,
+      "lon": 23.7281,
+      "from": "1903",
+      "to": "1903-07",
+      "kind": "travelled",
+      "what": "Joined Anne Marie, who was copying sculptures in the Acropolis Museum, and finished the Helios overture in a study room at the local conservatory on 23 April 1903. They returned to Copenhagen at the end of July.",
+      "work": "Helios",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Athens",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Athens"
+        }
+      ]
+    },
+    {
+      "name": "Troldhaugen, Bergen",
+      "country": "Norway",
+      "lat": 60.3196,
+      "lon": 5.3295,
+      "from": "1911",
+      "kind": "travelled",
+      "what": "Stayed as a guest of Nina Grieg in the summer and began the Violin Concerto in Grieg’s composition hut by the water.",
+      "work": "Violin Concerto",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Troldhaugen",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Troldhaugen"
+        }
+      ]
+    },
+    {
+      "name": "Humlebæk, Zealand",
+      "country": "Denmark",
+      "lat": 55.9611,
+      "lon": 12.525,
+      "from": "1921-03",
+      "kind": "worked",
+      "what": "Spent much of the spring at Højbo, a house at Tibberup near Humlebæk lent by Vera and Carl Johan Michaelsen, and finished the first part of the Fifth Symphony at the beginning of March.",
+      "work": "Symphony No. 5",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Carl Nielsen Edition II/5, Symphony No. 5: preface",
+          "url": "http://img.kb.dk/export/sites/kb_dk/da/nb/dcm/cnu/pdf/CNU_II_05_symphony_5.pdf"
+        },
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 29: Symphony No. 5",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=29"
+        },
+        {
+          "title": "Wikipedia coordinate record: Humlebæk",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Humlebæk"
+        }
+      ]
+    },
+    {
+      "name": "Gothenburg",
+      "country": "Sweden",
+      "lat": 57.7075,
+      "lon": 11.9675,
+      "from": "1921",
+      "to": "1922-04",
+      "kind": "worked",
+      "what": "Guest conductor with the Gothenburg orchestra in the 1921–22 season, after an engagement in autumn 1918. He had begun the Wind Quintet before leaving Copenhagen for Gothenburg on 1 February 1922 and finished it here in April. He conducted the Fifth Symphony on 8 March 1922, and the quintet was first played in private on 30 April.",
+      "work": "Wind Quintet",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 70: Wind Quintet, Op. 43",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=70"
+        },
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): letter to Anne Marie Carl-Nielsen, 2 March 1922",
+          "url": "https://epub3.kb.dk/cnb/EPUB/700198.xhtml"
+        },
+        {
+          "title": "Wikipedia coordinate record: Gothenburg",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Gothenburg"
+        }
+      ]
+    },
+    {
+      "name": "Queen’s Hall, London",
+      "country": "United Kingdom",
+      "lat": 51.5181,
+      "lon": -0.1425,
+      "from": "1923-06-22",
+      "kind": "travelled",
+      "what": "Conducted the London Symphony Orchestra in the Fourth Symphony. Ernest Newman reviewed the concert in the Sunday Times on 24 June.",
+      "work": "Symphony No. 4",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 28: Symphony No. 4",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=28"
+        },
+        {
+          "title": "Wikipedia coordinate record: Queen's Hall",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Queen's_Hall"
+        }
+      ]
+    },
+    {
+      "name": "Aarhus Cathedral",
+      "country": "Denmark",
+      "lat": 56.1569,
+      "lon": 10.2106,
+      "from": "1931-08-14",
+      "kind": "premiere",
+      "what": "First public performance of the organ work Commotio, played by Emilius Bangert. Nielsen interrupted his holiday to attend.",
+      "work": "Commotio",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Aarhus Cathedral",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Aarhus_Cathedral"
+        }
+      ]
+    }
+  ]
+}

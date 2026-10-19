@@ -1,21 +1,21 @@
 {
   "id": "debussy-cathedrale-meyer-ilic",
-  "title": "Debussy’s cathedral rises twice",
+  "title": "La cathédrale engloutie: Meyer and Ilić",
   "composer": "debussy",
   "group": "century",
   "work": "La cathédrale engloutie, Préludes I, No. 10",
   "question": "How can the same piano sound like distant bells and a full cathedral organ?",
-  "intro": "The bells come first: bare fifths sounding through Debussy’s mist. Then the piano becomes an organ, its C-major chords filling the keyboard before retreating to a quiet echo. Marcelle Meyer and Ivan Ilić recorded <i>La cathédrale engloutie</i> in Paris, fifty years apart.",
+  "intro": "The piece opens with bare fifths in the manner of bells. The piano then imitates an organ, with C-major chords spread across the keyboard, before the music returns to a quiet echo. Marcelle Meyer and Ivan Ilić recorded <i>La cathédrale engloutie</i> in Paris, fifty years apart.",
   "recordings": [
-    { "listen": "debussy-cathedrale-engloutie", "label": "Marcelle Meyer, 1956", "year": 1956, "note": "Meyer, a pupil of Cortot and Viñes, brings a full piano tone and carefully judged pedalling to Debussy’s great chords." },
-    { "listen": "debussy-cathedrale-engloutie-ilic", "label": "Ivan Ilić, 2006", "year": 2006, "note": "Ilić’s Paris recording gives the chords firm edges; flexible rhythms keep the phrases moving through their changes of pace." }
+    { "listen": "debussy-cathedrale-engloutie", "label": "Marcelle Meyer, 1956", "year": 1956, "note": "Meyer, a pupil of Cortot and Viñes, plays Debussy’s great chords with a full piano tone and carefully judged pedalling." },
+    { "listen": "debussy-cathedrale-engloutie-ilic", "label": "Ivan Ilić, 2006", "year": 2006, "note": "Ilić’s Paris recording plays the chords with firm edges and uses flexible rhythm through the changes of pace." }
   ],
   "reference": "debussy-cathedrale-engloutie",
   "passages": [
-    { "label": "Opening fifths", "t": 0, "note": "Bare Gs and Ds ring out quietly. Rising fifths leave wide spaces between the notes, like distant bells." },
-    { "label": "First expansion", "t": 74, "note": "Triplets start moving beneath the rising chords; the piano gathers strength as the cathedral emerges from the mist." },
-    { "label": "Broad chordal span", "t": 120, "note": "The organ-like tune stands in full C-major chords. Their top notes sing the melody above a deep bass." },
-    { "label": "Quiet echo", "t": 278, "note": "The great tune returns lower and pianissimo, over a gently moving bass. Debussy marks it as an echo of the earlier phrase." }
+    { "label": "Opening fifths", "t": 0, "note": "Bare Gs and Ds are played quietly. Rising fifths leave wide spaces between the notes." },
+    { "label": "Triplets beneath rising chords", "t": 74, "note": "Triplets enter beneath the rising chords, and the piano grows louder." },
+    { "label": "Melody in C-major chords", "t": 120, "note": "The organ-like tune is set in full C-major chords. Their top notes carry the melody above a deep bass." },
+    { "label": "Return of the melody, pianissimo", "t": 278, "note": "The great tune returns lower and pianissimo, over a moving bass. Debussy marks it as an echo of the earlier phrase." }
   ],
   "sources": [
     { "title": "Meyer recording: session, carrier and territorial recording rights", "url": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_-_Pr%C3%A9ludes_(Livre_I)_-_X._La_Cath%C3%A9drale_engloutie_(Marcelle_Meyer,_1956).flac" },

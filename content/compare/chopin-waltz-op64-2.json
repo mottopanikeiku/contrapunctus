@@ -1,10 +1,10 @@
 {
   "id": "chopin-waltz-op64-2",
-  "title": "The waltz keeps coming back",
+  "title": "Chopin, Waltz Op. 64 No. 2, in four recordings",
   "composer": "chopin",
   "work": "Waltz in C♯ minor, Op. 64 No. 2",
   "question": "How do these four pianists make the circling tune answer the slower melodies?",
-  "intro": "Paderewski, Pachmann, Rummel and Gurevich begin with the same small tension: a melody that lingers while the bass keeps dancing. Chopin sets quick quavers running between that C♯-minor song and a gentler one in D♭ major. The circling refrain keeps returning, and gets the last word.",
+  "intro": "Paderewski, Pachmann, Rummel and Gurevich all begin with the same opening, a melody held back over a bass that keeps moving. Chopin sets quick quavers running between that C♯-minor melody and a second one in D♭ major. The circling refrain returns repeatedly and closes the piece.",
   "group": "golden-age",
   "recordings": [
     {
@@ -29,7 +29,7 @@
       "listen": "chopin-waltz-op64-2-gurevich",
       "label": "Olga Gurevich, c. 2014",
       "year": 2014,
-      "note": "Gurevich grew up studying piano in Baku; her teachers’ ideal of a singing tone remains central to her own teaching."
+      "note": "Gurevich grew up studying piano in Baku. Her teachers’ ideal of a singing tone is central to her own teaching."
     }
   ],
   "reference": "chopin-waltz-op64-2-gurevich",
@@ -37,32 +37,32 @@
     {
       "label": "Opening waltz",
       "t": 5,
-      "note": "Held notes lean across the bar line, then a quick curl answers them. The bass keeps its note-and-two-chords step."
+      "note": "Held notes cross the bar line, then a quick figure follows. The bass keeps its pattern of one note and two chords."
     },
     {
-      "label": "The phrase takes breath",
+      "label": "Second phrase of the opening melody",
       "t": 30,
-      "note": "The opening melody finishes another turn, its short flourishes tucked between longer notes; the waltz accompaniment keeps going."
+      "note": "The opening melody completes another phrase, with short flourishes placed between longer notes. The waltz accompaniment continues."
     },
     {
-      "label": "The quavers start running",
+      "label": "Più mosso in quavers",
       "t": 42,
-      "note": "The right hand starts running in chains of quavers, marked <i>più mosso</i> — more movement. The left hand keeps dancing beneath it."
+      "note": "The right hand plays chains of quavers, marked <i>più mosso</i> (more movement). The left hand continues beneath it."
     },
     {
-      "label": "Falling and rising",
+      "label": "Falling and rising quaver figure",
       "t": 55,
-      "note": "The quick tune falls, climbs back and falls again, fitting its curls across the left hand’s three-beat pattern."
+      "note": "The quick tune falls, rises and falls again, its turns fitted across the left hand’s three-beat pattern."
     },
     {
-      "label": "A song in D♭ major",
+      "label": "Più lento in D♭ major",
       "t": 80,
-      "note": "The piano turns to D♭ major and a broader melody. <i>Più lento</i> asks for a slower pace."
+      "note": "The piano moves to D♭ major and a broader melody. The marking <i>Più lento</i> calls for a slower tempo."
     },
     {
-      "label": "The opening melody returns",
+      "label": "Return of the opening melody",
       "t": 164,
-      "note": "The opening C♯-minor melody returns, with its held notes and little answering flourishes, before the quick refrain has the final say."
+      "note": "The opening C♯-minor melody returns with its held notes and short answering flourishes, and the quick refrain closes the piece."
     }
   ],
   "sources": [

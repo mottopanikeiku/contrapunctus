@@ -25,21 +25,21 @@ export default {
       ]
     }
   },
-  "intro": "Pachmann plays the D♭-major Nocturne on his own Baldwin piano at Hayes in June 1925. The critic reviewing the disc that December rejoices in its phrasing — and in the famous pianist’s silence between the notes.",
+  "intro": "Pachmann recorded the Nocturne in D♭ major, Op. 27 No. 2, on his own Baldwin piano at Hayes in June 1925. The critic who reviewed the disc that December praised its phrasing and noted that the famous pianist stayed silent between the notes.",
   "sections": [
-    { "t": 0, "label": "A · A solo tune over D♭", "m": "A", "mNote": "The left hand begins alone before F starts the melody" },
-    { "t": 34, "label": "B · A duet in thirds", "m": "B", "mNote": "B♭ in the bass changes the harmony to minor" },
-    { "t": 90, "label": "C · The opening melody returns", "m": "C", "mNote": "F sings above D♭ again, marked dolce" },
-    { "t": 130, "label": "D · The duet reaches C♯ minor", "m": "D", "mNote": "G♯ in the bass supports the crowded right-hand voices" },
-    { "t": 158, "label": "E · A third statement in D♭", "m": "E", "mNote": "The opening tune returns before the long ornamental flourish" },
-    { "t": 218, "label": "F · D♭ holds beneath the coda", "m": "F", "mNote": "Changing chords above a recurring D♭ bass" }
+    { "t": 0, "label": "A · Melody over D♭ accompaniment", "m": "A", "mNote": "The left hand plays alone before the melody enters on F." },
+    { "t": 34, "label": "B · Duet in thirds", "m": "B", "mNote": "B♭ in the bass changes the harmony to minor" },
+    { "t": 90, "label": "C · Opening melody again, D♭ major", "m": "C", "mNote": "The melody restarts on F above D♭, marked dolce." },
+    { "t": 130, "label": "D · Duet in C♯ minor", "m": "D", "mNote": "G♯ in the bass under close right-hand voices" },
+    { "t": 158, "label": "E · Third statement of the theme, D♭", "m": "E", "mNote": "The opening theme returns before a long ornamental passage." },
+    { "t": 218, "label": "F · Coda over D♭ pedal", "m": "F", "mNote": "Changing chords above a recurring D♭ bass" }
   ],
   "cues": [
     {
       "bar": { "n": "1", "occ": 1 },
       "kind": "music",
-      "title": "The piano begins alone",
-      "text": "For one bar the left hand has the whole piano to itself, spreading D♭ major into groups of six semiquavers. Then F begins the melody. Chopin asks for a slow, sustained song above the uninterrupted accompaniment.",
+      "title": "Opening bars, left hand",
+      "text": "For one bar the left hand plays alone, spreading D♭ major into groups of six semiquavers. The melody then begins on F. Chopin marks it Lento sostenuto, a slow, sustained song above an unbroken accompaniment.",
       "basis": "score-aligned",
       "precision": "moment",
       "evidence": "Claude Debussy edition (1915), bars 1–4, Lento sostenuto and dolce. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486"
@@ -47,8 +47,8 @@ export default {
     {
       "bar": { "n": "10", "occ": 1 },
       "kind": "music",
-      "title": "Two voices on one keyboard",
-      "text": "The right hand doubles its song in thirds as the bass moves to B♭. The new phrase is marked <i>espressivo</i>. Little rests and ornaments make the two voices catch their breath together.",
+      "title": "Melody in thirds, bars 10–13",
+      "text": "The right hand doubles the melody in thirds as the bass moves to B♭. The new phrase is marked <i>espressivo</i>, and both voices share its short rests and ornaments.",
       "basis": "score-aligned",
       "precision": "moment",
       "evidence": "Claude Debussy edition (1915), bars 10–13. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486"
@@ -56,8 +56,8 @@ export default {
     {
       "t": 60,
       "kind": "world",
-      "title": "“What a fine builder”",
-      "text": "The critic signing K.K. in <i>The Gramophone</i>, December 1925, greets this record with relief: “he does not utter a word the whole time”. Then comes the praise: “What a fine builder he is!” Pachmann’s phrasing survives the critic’s complaints about the recorded piano.",
+      "title": "Review in The Gramophone, 1925",
+      "text": "The critic signing K.K. in <i>The Gramophone</i>, December 1925, welcomed this record with relief: “he does not utter a word the whole time”. He praised the playing (“What a fine builder he is!”) and complained about the recorded piano.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "K.K., review of HMV DB 860, The Gramophone, December 1925, pp. 338–339. https://archive.org/stream/gramophone-1925-12/Gramophone%201925-12_djvu.txt"
@@ -65,8 +65,8 @@ export default {
     {
       "t": 130,
       "kind": "world",
-      "title": "His own Baldwin",
-      "text": "Pachmann brings his own Baldwin to the Hayes session on 26 June 1925. The new electrical recording captures enough of the piano to trouble the December reviewer: some notes sound splendid, others clang. The critic nevertheless praises the pianist’s spirit.",
+      "title": "Recording session, Hayes, 1925",
+      "text": "Pachmann brought his own Baldwin to the Hayes session on 26 June 1925. The new electrical process recorded the piano clearly enough for the reviewer in <i>The Gramophone</i> in December to note that some notes sounded splendid and others clanged. The critic nevertheless praised the pianist’s spirit.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Session date, place, piano and electrical process: https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2. Contemporary comments: The Gramophone, December 1925, pp. 338–339, https://archive.org/stream/gramophone-1925-12/Gramophone%201925-12_djvu.txt"
@@ -74,8 +74,8 @@ export default {
     {
       "bar": { "n": "46", "occ": 1 },
       "kind": "form",
-      "title": "D♭ and the first tune",
-      "text": "A falling run brings back the low D♭ and the opening melody. The right hand starts its third statement with the same F. Before long, that tune flowers into a long cascade of small notes.",
+      "title": "Third statement of the opening melody",
+      "text": "A falling run brings back the low D♭ and the opening melody. The right hand begins its third statement on the same F. The melody then turns into a long run of small notes.",
       "basis": "score-aligned",
       "precision": "moment",
       "evidence": "Claude Debussy edition (1915), bars 45–52. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486"
@@ -83,8 +83,8 @@ export default {
     {
       "bar": { "n": "62", "occ": 1 },
       "kind": "form",
-      "title": "A bass that stays",
-      "text": "The bass settles on D♭. The chords above it keep changing while pairs of notes in the right hand descend, marked <i>dolcissimo</i>. The left hand’s semiquavers still sweep across the keyboard.",
+      "title": "Pedal on D♭, bars 62–68",
+      "text": "The bass holds D♭. Above it the chords change while the right hand descends in pairs of notes, marked <i>dolcissimo</i>, and the left hand continues its semiquavers across the keyboard.",
       "basis": "score-aligned",
       "precision": "moment",
       "evidence": "Claude Debussy edition (1915), bars 62–68. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486"
@@ -92,8 +92,8 @@ export default {
     {
       "bar": { "n": "75", "occ": 1 },
       "kind": "music",
-      "title": "Sixths into the distance",
-      "text": "The right hand climbs in sixths, two ribbons of notes rising together. <i>Dolcissimo e diminuendo</i>: very sweetly and growing softer. After the climb, the last D♭-major chord sits quietly beneath a pause.",
+      "title": "Rising sixths and final chord",
+      "text": "The right hand rises in sixths, marked <i>dolcissimo e diminuendo</i> (very sweetly and growing softer). The final D♭-major chord is held under a fermata.",
       "basis": "score-aligned",
       "precision": "moment",
       "evidence": "Claude Debussy edition (1915), bars 75–77: rising sixths, dolcissimo e diminuendo, pianissimo and final fermata. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486"

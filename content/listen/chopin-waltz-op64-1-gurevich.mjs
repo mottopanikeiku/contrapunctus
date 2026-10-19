@@ -1,27 +1,27 @@
 export default {
-  "intro": "Chopin’s <i>Minute Waltz</i> spins on a handful of notes, then opens into a long singing phrase. Olga Gurevich plays it for Musopen’s Set Chopin Free project.",
+  "intro": "Chopin’s Waltz in D♭ major, Op. 64 No. 1, known as the <i>Minute Waltz</i>, opens with a figure turning on a few notes before a longer melodic phrase enters. Olga Gurevich recorded it for Musopen’s Set Chopin Free project.",
   "sections": [
-    { "t": 0, "label": "A · Quavers circle A♭", "m": "A", "mNote": "Four bars for the right hand alone" },
-    { "t": 34, "label": "B · The sostenuto melody", "m": "B", "mNote": "Long notes over the continuing waltz bass" },
-    { "t": 64, "label": "A′ · Trill and circling quavers", "m": "A′", "mNote": "The right hand spins alone before the bass returns" },
-    { "t": 98, "label": "Coda · A scale down to D♭", "m": "Coda", "mNote": "A high leap launches the final descending run" }
+    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "Four bars for the right hand alone" },
+    { "t": 34, "label": "B · Sostenuto melody over waltz bass", "m": "B", "mNote": "Long notes over the continuing waltz bass" },
+    { "t": 64, "label": "A′ · Trill and circling quavers", "m": "A′", "mNote": "The right hand plays alone before the bass re-enters." },
+    { "t": 98, "label": "Coda · Descending scale to D♭", "m": "Coda", "mNote": "A high leap begins the final descending run" }
   ],
   "cues": [
     {
-      "bar": { "n": "1", "occ": 1 }, "kind": "music", "title": "Four bars alone",
-      "text": "The right hand circles A♭, dipping to G♮ and rising to B♭. For four bars it has the keyboard to itself. Then the left hand supplies the waltz: a low bass note followed by two chords, while the little wheel above it keeps turning.",
+      "bar": { "n": "1", "occ": 1 }, "kind": "music", "title": "Opening, right hand alone",
+      "text": "The right hand circles A♭, dipping to G♮ and rising to B♭, and plays alone for four bars. The left hand then enters with the waltz accompaniment, a low bass note followed by two chords, while the right-hand figure continues.",
       "basis": "score-aligned", "precision": "passage",
       "evidence": "Peters edition, bars 1–8. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
     },
     {
-      "t": 34, "kind": "world", "title": "A waltz to share",
-      "text": "Gurevich’s performance belongs to Musopen’s Set Chopin Free project. Musopen releases the recording into the public domain: anyone can copy it, teach with it or pass it on. A nineteenth-century salon piece finds a new home on the open web.",
+      "t": 34, "kind": "world", "title": "Recording, Musopen’s Set Chopin Free",
+      "text": "Olga Gurevich’s performance belongs to Musopen’s Set Chopin Free project. Musopen has released the recording into the public domain, so anyone may copy it, teach with it or pass it on.",
       "basis": "documented", "precision": "passage",
       "evidence": "The recording’s source and public-domain dedication: https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._6_in_D-flat_major,_Op._64,_No._1_'Minute'_(Olga_Gurevich).flac"
     },
     {
-      "bar": { "n": "74", "occ": 1 }, "kind": "form", "title": "The little wheel returns",
-      "text": "The circling quavers return alone. This time the left hand’s arrival is marked <i>forte</i>; three bars later, the opening tune climbs above them again. Chopin brings back the same little figure with a stronger push from below.",
+      "bar": { "n": "74", "occ": 1 }, "kind": "form", "title": "Return of the opening figure",
+      "text": "The circling quavers return unaccompanied. The left hand enters <i>forte</i> at bar 78, and three bars later the opening tune rises above the quavers again.",
       "basis": "score-aligned", "precision": "moment",
       "evidence": "Peters edition, bars 74–85: unaccompanied return, forte at bar 78, rising figure at bar 81. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
     }

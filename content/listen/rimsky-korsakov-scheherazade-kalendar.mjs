@@ -19,23 +19,23 @@ export default {
   "forces": "Orchestra with solo violin",
   "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
   "recorded": "3–4 March 1942",
-  "intro": "Scheherazade’s violin introduces a bassoon with a tale of its own. Its winding B-minor melody passes to the oboe and strings, while brass fanfares keep interrupting.",
+  "intro": "The Story of the Kalender Prince is the second movement of Scheherazade, Op. 35. Scheherazade’s violin introduces the bassoon, whose winding melody in B minor passes to the oboe and strings, and brass fanfares interrupt it repeatedly.",
   "sections": [
-    { "t": 0, "label": "Frame · Violin and harp return", "m": "Frame", "mNote": "The violin reopens Scheherazade’s recitative" },
-    { "t": 34, "label": "A · Bassoon over muted double basses", "m": "A", "mNote": "Four double basses hold the floor beneath the solo" },
+    { "t": 0, "label": "Frame · Violin and harp return", "m": "Frame", "mNote": "The violin plays Scheherazade’s recitative again." },
+    { "t": 34, "label": "A · Bassoon solo over muted double basses", "m": "A", "mNote": "Four double basses play beneath the bassoon solo." },
     { "t": 178, "label": "B · Brass fanfares interrupt", "m": "B", "mNote": "Short calls replace the long woodwind phrases" },
-    { "t": 245, "label": "Link · Clarinet and plucked strings", "m": "Link", "mNote": "A free clarinet solo crosses softly repeated string chords" },
-    { "t": 276, "label": "Dev · The brass march grows", "m": "Dev", "mNote": "Piccolo and percussion join the orchestral march" },
-    { "t": 386, "label": "A′ · The bassoon speaks again", "m": "A′", "mNote": "A bassoon cadenza recalls the opening melody" },
-    { "t": 440, "label": "A″ · The tune fills the orchestra", "m": "A″", "mNote": "Winds and strings enlarge the bassoon’s melody" },
-    { "t": 522, "label": "Coda · Wind phrases, then B major", "m": "Coda", "mNote": "The final Animato drives towards the major chord" }
+    { "t": 245, "label": "Link · Clarinet and plucked strings", "m": "Link", "mNote": "A free clarinet solo over soft repeated string chords" },
+    { "t": 276, "label": "Dev · Brass march, expanded", "m": "Dev", "mNote": "Piccolo and percussion join the orchestral march." },
+    { "t": 386, "label": "A′ · Bassoon theme returns", "m": "A′", "mNote": "A bassoon cadenza restates the opening melody." },
+    { "t": 440, "label": "A″ · Kalender theme, full orchestra", "m": "A″", "mNote": "Winds and strings take up the bassoon’s melody" },
+    { "t": 522, "label": "Coda · Wind phrases, then B major", "m": "Coda", "mNote": "The final Animato moves to the major chord." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The violin returns",
-      "text": "The solo violin begins another winding recitative over harp chords. Scheherazade’s voice is familiar from the first movement. Her cadenza slows before a quite different soloist takes over.",
+      "title": "Solo violin recitative",
+      "text": "The solo violin plays another recitative over harp chords, marked Lento, Recitativo. The theme is Scheherazade’s, heard in the first movement. The violin cadenza slows with a ritardando, and the bassoon takes over as soloist.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, second movement, printed pp. 24–25: Lento, Recitativo, violin cadenza and ritardando before the bassoon. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
@@ -43,8 +43,8 @@ export default {
     {
       "t": 34,
       "kind": "music",
-      "title": "Bassoon and four double basses",
-      "text": "A bassoon begins in B minor, <i>dolce ed espressivo</i> — sweetly and expressively. Four muted double basses hold a quiet foundation beneath it. The tune mixes little dancing figures with longer notes, as though its teller keeps stopping to remember a detail.",
+      "title": "Bassoon solo in B minor",
+      "text": "A bassoon begins in B minor, marked <i>dolce ed espressivo</i>, sweetly and expressively. Four muted double basses hold a quiet foundation beneath it. The tune alternates short dance figures with longer held notes.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed p. 25: Andantino, bassoon marked Capriccioso, quasi recitando and dolce ed espressivo; four solo double basses, con sordino. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
@@ -52,8 +52,8 @@ export default {
     {
       "t": 70,
       "kind": "life",
-      "title": "A violinist who taught Stern",
-      "text": "The solo violin is Naoum Blinder, concertmaster of the San Francisco Symphony. He reaches the United States in 1928 with the banker Felix Warburg’s sponsorship and teaches many violinists, Isaac Stern among them.",
+      "title": "Naoum Blinder, solo violin",
+      "text": "The solo violin is Naoum Blinder, concertmaster of the San Francisco Symphony. He reached the United States in 1928 with the banker Felix Warburg’s sponsorship and taught many violinists, Isaac Stern among them.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Jewish Telegraphic Agency obituary of Naoum Blinder: former concertmaster of the San Francisco Symphony, teacher of Isaac Stern, in the United States from 1928 under Felix Warburg’s sponsorship. https://www.jta.org/archive/naoum-blinder-teacher-of-many-ranking-musicians-dies-in-san-francisco"
@@ -61,8 +61,8 @@ export default {
     {
       "t": 112,
       "kind": "music",
-      "title": "The tune in new colours",
-      "text": "The bassoon’s tune returns again and again in new colours. Strings shimmer in tremolo, a thrumming accompaniment turns beneath it, and sharper sounds prick the texture.",
+      "title": "Variations on the bassoon theme",
+      "text": "The bassoon’s theme returns several times, each time with a different orchestration. The strings play tremolo, a repeated accompaniment figure runs beneath the theme, and short, sharp figures cut across the texture.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Paul Serotsky describes the movement as a kaleidoscope of variations with string tremolandos, thrummings and pricking textures. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -70,8 +70,8 @@ export default {
     {
       "t": 162,
       "kind": "life",
-      "title": "The professor teaches himself",
-      "text": "In 1871 Rimsky-Korsakov accepts a professorship at the Saint Petersburg Conservatory. He is twenty-seven. Alongside teaching, he sets about learning the harmony and counterpoint his own training has left out.",
+      "title": "Conservatory professorship, 1871",
+      "text": "In 1871 the composer accepted a professorship at the Saint Petersburg Conservatory. He was twenty-seven. Alongside his teaching, he set about learning the harmony and counterpoint that his own training had left out.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Orrin Howard gives the appointment and age; Paul Serotsky describes the subsequent self-education. https://www.laphil.com/works/scheherazade-last-movement ; https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -79,8 +79,8 @@ export default {
     {
       "t": 178,
       "kind": "form",
-      "title": "The brass breaks in",
-      "text": "The long melody meets short, fierce brass calls. The new idea grows out of the Sultan’s phrase from the first movement. Horns, trumpets and trombones turn it into a march.",
+      "title": "Brass calls and march",
+      "text": "Short, loud brass calls interrupt the long melody. The new idea comes from the Sultan’s phrase in the first movement, and horns, trumpets and trombones develop it into a march.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed pp. 30–31; Serotsky identifies the central idea’s relation to the Sultan’s motto and its development into a march. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -88,8 +88,8 @@ export default {
     {
       "t": 215,
       "kind": "world",
-      "title": "Not the Sultan",
-      "text": "The unison phrase that opened the suite for the stern Sultan returns in this movement’s brass. Rimsky-Korsakov says it serves here as musical material alone: in the Kalender’s tale, “there cannot, however, be any mention of Sultan Shakhriar.”",
+      "title": "The Sultan’s theme in the brass",
+      "text": "The unison phrase associated with the Sultan at the opening of the suite returns in the brass in this movement. Rimsky-Korsakov wrote that it serves here only as musical material, since in the Kalender’s tale “there cannot, however, be any mention of Sultan Shakhriar.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, pp. 247–248. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
@@ -97,8 +97,8 @@ export default {
     {
       "t": 245,
       "kind": "music",
-      "title": "Clarinet over plucked strings",
-      "text": "A clarinet stretches the tune into a free solo. The strings pluck repeated chords beneath it, quickening and slowing with the soloist. The score asks the clarinet to begin <i>lento, lungo</i> — slowly, at length — before accelerating.",
+      "title": "Clarinet solo over pizzicato strings",
+      "text": "A solo clarinet plays the tune freely, and the strings play repeated pizzicato chords beneath it, following the soloist’s tempo. The score marks the clarinet <i>lento, lungo</i> (slowly, at length), then accelerando.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed p. 32, rehearsal F: Moderato assai, Recitativo; clarinet ad libitum, lento lungo, accelerando; strings pizzicato and colla parte. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
@@ -106,8 +106,8 @@ export default {
     {
       "t": 320,
       "kind": "world",
-      "title": "A fanfare that sails on",
-      "text": "The sharp fanfare for muted trumpet and trombone first sounds in this movement. Rimsky-Korsakov notes that it returns in the finale “in the delineation of the wrecking ship”, though that episode has no connection with the Kalender’s tale.",
+      "title": "Fanfare for muted trumpet and trombone",
+      "text": "The sharp fanfare for muted trumpet and trombone first sounds in this movement. Rimsky-Korsakov wrote that it returns in the finale “in the delineation of the wrecking ship”, though that episode has no connection with the Kalender’s tale.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, pp. 247–248. A muted trumpet (con sord.) begins the fanfare before rehearsal E in the full score, printed p. 30. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf ; https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
@@ -115,8 +115,8 @@ export default {
     {
       "t": 386,
       "kind": "form",
-      "title": "The bassoon’s second tale",
-      "text": "The bassoon returns in a cadenza, answering the earlier clarinet solo. Its familiar tune opens the movement’s last large section. The same little figures now have the brass march behind them.",
+      "title": "Bassoon cadenza and final section",
+      "text": "The bassoon returns with a cadenza, following the earlier clarinet cadenza. Its tune opens the last large section of the movement. The same short figures are now accompanied by the brass march.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Paul Serotsky describes the two cadenzas, first clarinet and then bassoon, with the bassoon initiating the final section. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -124,8 +124,8 @@ export default {
     {
       "t": 522,
       "kind": "form",
-      "title": "Towards the B-major chord",
-      "text": "Short woodwind phrases prepare the final rush. The last page is marked <i>Animato</i>: strings race beneath brass chords, with timpani reinforcing the bass. A sharp final chord brings the B-minor tale to a B-major end.",
+      "title": "Closing Animato and B-major chord",
+      "text": "Short woodwind phrases lead into the last page, marked <i>Animato</i>. Strings play rapid figures beneath brass chords, and timpani reinforce the bass. The B-minor tale ends on a sharp B-major chord.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, closing pages, especially printed p. 53: Animato and final B-major chord. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
@@ -134,12 +134,12 @@ export default {
   "transitions": [
     {
       "id": "join-1",
-      "title": "The violin leaves a bassoon",
+      "title": "Violin cadenza to bassoon Andantino",
       "from": "Frame · Violin and harp return",
-      "to": "A · Bassoon over muted double basses",
+      "to": "A · Bassoon solo over muted double basses",
       "at": { "t": 34 },
       "span": [24, 49],
-      "how": "<p>The violin’s cadenza slows, marked <i>ritardando assai</i>. At <i>Andantino</i>, the bassoon begins its B-minor tune above four muted double basses. The violin’s high ending hangs briefly over the new, much lower voice.</p>",
+      "how": "<p>The violin cadenza slows, marked <i>ritardando assai</i>. At the <i>Andantino</i> the bassoon begins its B-minor tune above four muted double basses.</p>",
       "devices": ["cadenza", "orchestration change", "register change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -148,11 +148,11 @@ export default {
     {
       "id": "join-2",
       "title": "The Sultan’s phrase becomes a march",
-      "from": "A · Bassoon over muted double basses",
+      "from": "A · Bassoon solo over muted double basses",
       "to": "B · Brass fanfares interrupt",
       "at": { "t": 178 },
       "span": [168, 193],
-      "how": "<p>A figure first plucked by the low strings grows into brass fanfares. Its kinship with the Sultan’s motto links the interruption to the first movement. Horns, trumpets and trombones exchange short calls while the sustained woodwinds and strings support them.</p>",
+      "how": "<p>A figure first played pizzicato by the low strings is taken up by the brass as fanfares. The figure is related to the Sultan’s motto, which connects this interruption to the first movement. Horns, trumpets and trombones exchange short calls over sustained chords in the woodwind and strings.</p>",
       "devices": ["motivic link", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -160,12 +160,12 @@ export default {
     },
     {
       "id": "join-3",
-      "title": "Plucked strings under a free clarinet",
+      "title": "Pizzicato strings under solo clarinet",
       "from": "B · Brass fanfares interrupt",
       "to": "Link · Clarinet and plucked strings",
       "at": { "t": 245 },
       "span": [235, 260],
-      "how": "<p>The orchestral chord stops at a fermata. At <i>Moderato assai</i>, a solo clarinet takes up a free recitative. The strings pluck short repeated chords, following the soloist’s slowing and acceleration. Their soft attacks leave the clarinet’s long notes exposed.</p>",
+      "how": "<p>The orchestral chord stops at a fermata. At <i>Moderato assai</i> (rehearsal F), a solo clarinet plays a free recitative. The strings play short repeated pizzicato chords marked <i>colla parte</i>, slowing and speeding up with the soloist.</p>",
       "devices": ["fermata", "tempo change", "orchestration change", "cadenza"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -209,7 +209,7 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "The solo violin winds above harp chords."
+        "note": "The solo violin plays above harp chords."
       },
       {
         "t": 34,
@@ -324,7 +324,7 @@ export default {
           "violins-1",
           "trumpets"
         ],
-        "note": "Piccolo, brass, timpani, triangle and cymbals join the strings as the march grows."
+        "note": "Piccolo, brass, timpani, triangle and cymbals join the strings as the march grows louder."
       },
       {
         "t": 386,
@@ -340,7 +340,7 @@ export default {
         "lead": [
           "bassoons"
         ],
-        "note": "The bassoon recalls the opening tune above quiet strings."
+        "note": "The bassoon plays the opening tune again above quiet strings."
       },
       {
         "t": 440,
@@ -386,7 +386,7 @@ export default {
           "bassoons",
           "clarinets"
         ],
-        "note": "Short woodwind phrases emerge as the orchestral accompaniment thins."
+        "note": "Short woodwind phrases enter as the orchestral accompaniment thins."
       },
       {
         "t": 600,
@@ -412,7 +412,7 @@ export default {
           "trumpets",
           "violins-1"
         ],
-        "note": "At Animato, strings race beneath brass chords; timpani and cymbals reinforce the B-major ending."
+        "note": "At Animato, strings play fast under brass chords; timpani and cymbals reinforce the B-major ending."
       }
     ],
     "solo": "solo-violin"

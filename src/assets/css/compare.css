@@ -137,7 +137,7 @@ html.np-on:has([data-cmp-page]) body { padding-bottom: 0; }
 .cmp-index .cmp-hero { overflow: hidden; }
 .cmp-index .cmp-heading { padding-block: 8rem 3rem; }
 .cmp-index h1 { font-size: clamp(4rem, 7.8vw, 7.8rem); max-width: 60rem; }
-.cmp-index-intro { font-size: 1.16rem; line-height: 1.5; max-width: 37rem; color: var(--ink-2); }
+.cmp-index-intro { font-size: 1.16rem; line-height: 1.5; max-width: 37rem; margin-top: 1rem; color: var(--ink-2); }
 .cmp-index-facts { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin: 1.7rem 0 2rem; color: var(--muted); font: .72rem/1.5 var(--caps); letter-spacing: .07em; text-transform: uppercase; }
 .cmp-index-facts b { font: 500 1.6rem/1.2 var(--display); letter-spacing: 0; color: var(--gold-hi); display: block; }
 .cmp-group-nav { display: flex; flex-wrap: wrap; gap: .45rem 1.4rem; max-width: 65rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .97rem; }
@@ -163,7 +163,6 @@ html.np-on:has([data-cmp-page]) body { padding-bottom: 0; }
 .cmp-study-recordings span { display: grid; grid-template-columns: 3.5rem minmax(0, 1fr); gap: .6rem; }
 .cmp-study-recordings b { color: var(--gold-hi); font-weight: 400; font-variant-numeric: lining-nums; }
 .cmp-study-open { display: flex; justify-content: space-between; gap: .7rem; align-items: center; border-top: 1px solid var(--rule); padding-top: .8rem; color: var(--gold-hi); font-size: .96rem; }
-.cmp-study-open span { font-size: 1.3rem; }
 .cmp-empty { border-block: 1px solid var(--rule); padding: 1rem 0; color: var(--muted); font-style: italic; }
 .cmp-index-guide { display: grid; grid-template-columns: 1fr 1.2fr; gap: 3rem; }
 .cmp-index-guide ol { padding-left: 1.2rem; color: var(--muted); font-size: 1.1rem; margin: 0; }

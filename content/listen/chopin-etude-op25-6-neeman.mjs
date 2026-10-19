@@ -1,14 +1,14 @@
 export default {
-  intro: 'A right-hand trill grows into scales of paired notes while the left hand supplies a slower melody. Edward Neeman plays this quick-fingered G♯-minor study, which Chopin marks <i>sotto voce</i> — in an undertone.',
+  intro: 'Edward Neeman plays Chopin’s Étude in G♯ minor, Op. 25 No. 6 (“Thirds”), which Chopin marked <i>sotto voce</i> — in an undertone. A right-hand trill leads into scales of paired notes, and the left hand plays a slower melody.',
   sections: [
-    { t: 0, label: 'A · A trill in thirds', m: 'A', mNote: 'The right hand begins with two notes at a time' },
-    { t: 44, label: 'B · A melody beneath the thirds', m: 'B', mNote: 'The slower left hand sings beneath the right-hand pairs' },
-    { t: 62, label: 'C · Thirds climb and descend', m: 'C', mNote: 'The right hand keeps its paired notes moving smoothly' },
-    { t: 116, label: 'Coda · The paired notes come to rest', m: 'Coda', mNote: 'The running thirds reach the study’s closing bars' },
+    { t: 0, label: 'A · Trill in thirds, right hand', m: 'A', mNote: 'The right hand opens playing two notes at a time.' },
+    { t: 44, label: 'B · Left-hand melody beneath right-hand thirds', m: 'B', mNote: 'The left hand plays a slower melody beneath the right-hand thirds.' },
+    { t: 62, label: 'C · Thirds climb and descend', m: 'C', mNote: 'The right hand plays its paired notes in smooth succession.' },
+    { t: 116, label: 'Coda · Closing bars in thirds', m: 'Coda', mNote: 'The running thirds continue into the study’s closing bars.' },
   ],
   cues: [
-    { t: 0, kind: 'music', title: 'A trill in thirds', text: 'The right hand opens with a trill in thirds: each movement shifts two notes together. Soon the pairs run up and down in chromatic scales. Beneath all this finger-work, the left hand carries a slower melody. Chopin asks for an undertone, <i>sotto voce</i>.', basis: 'score-proportion', precision: 'passage', evidence: 'Opening trill, scales and the hands’ relationship: Fred Yu, https://www.ourchopin.com/analysis/etude25.html. Sotto voce marking: Mieczysław Tomaszewski, https://chopin.nifc.pl/en/chopin/kompozycja/192.' },
-    { t: 44, kind: 'world', title: 'The pianist changes the pedals', text: 'Neeman’s curiosity extends beneath the keyboard. He develops a change to the sostenuto mechanism that lets a pianist combine it with the damper pedal in new ways, and presents the results to teachers and performers.', basis: 'documented', precision: 'passage', evidence: 'Australian National University biography describes Neeman’s innovation to the sostenuto mechanism and presentations at the MTNA National Conference and Australian National Academy of Music. https://music.cass.anu.edu.au/people/dr-edward-neeman' },
+    { t: 0, kind: 'music', title: 'Opening trill in thirds', text: 'The right hand opens with a trill in thirds, each movement shifting two notes together. The pairs then run up and down in chromatic scales. Beneath them the left hand plays a slower melody, which Chopin marked <i>sotto voce</i>.', basis: 'score-proportion', precision: 'passage', evidence: 'Opening trill, scales and the hands’ relationship: Fred Yu, https://www.ourchopin.com/analysis/etude25.html. Sotto voce marking: Mieczysław Tomaszewski, https://chopin.nifc.pl/en/chopin/kompozycja/192.' },
+    { t: 44, kind: 'world', title: 'Neeman’s sostenuto mechanism', text: 'Neeman developed a change to the sostenuto mechanism that allows a pianist to combine it with the damper pedal in new ways. He presented the results to teachers and performers.', basis: 'documented', precision: 'passage', evidence: 'Australian National University biography describes Neeman’s innovation to the sostenuto mechanism and presentations at the MTNA National Conference and Australian National Academy of Music. https://music.cass.anu.edu.au/people/dr-edward-neeman' },
   ],
   "id": "chopin-etude-op25-6-neeman",
   "composer": "chopin",

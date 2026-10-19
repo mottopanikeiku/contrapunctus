@@ -1,29 +1,29 @@
 {
   "id": "chopin-nocturne-op15-2",
-  "title": "A song with a racing heart",
+  "title": "Chopin, Nocturne Op. 15 No. 2, in five recordings",
   "composer": "chopin",
   "work": "Nocturne in F♯ major, Op. 15 No. 2",
-  "question": "How much can the hushed, quick middle change the song that returns?",
-  "intro": "The F♯-major melody lingers over its ornaments, then the middle begins to hurry under its breath. Chopin asks for twice the motion, <i>doppio movimento</i>, while keeping the opening of that passage <i>sotto voce</i>. Paderewski’s accounts, separated by twenty years, sit beside Liszt’s pupil d’Albert and the younger pianists Faulkner and Prati.",
+  "question": "How much does the quiet, fast middle section change the melody when it returns?",
+  "intro": "The F♯-major melody is heavily ornamented, and the middle section is faster. Chopin marked it <i>doppio movimento</i>, twice the motion, and asked for the opening of that passage to be played <i>sotto voce</i>. Paderewski’s recordings, made twenty years apart, are listed here alongside those of Liszt’s pupil d’Albert and the younger pianists Faulkner and Prati.",
   "group": "golden-age",
   "recordings": [
     {
       "listen": "chopin-nocturne-op15-2-dalbert",
       "label": "Eugen d’Albert, 1916",
       "year": 1916,
-      "note": "Kempff remembered d’Albert making a single A♯ seem to tremble like a human voice."
+      "note": "Kempff recalled that d’Albert could make a single A♯ tremble like a human voice."
     },
     {
       "listen": "chopin-nocturne-op15-2-paderewski",
       "label": "Ignacy Jan Paderewski, 1917",
       "year": 1917,
-      "note": "In his Victor recordings, Paderewski often spreads chords and lets the two hands enter at different moments."
+      "note": "In his Victor recordings Paderewski often spread chords and let the two hands enter at different moments."
     },
     {
       "listen": "chopin-nocturne-op15-2-paderewski-1937",
       "label": "Ignacy Jan Paderewski, 1937",
       "year": 1937,
-      "note": "The pianist who defended stolen time returns to the nocturne twenty years after his New York recording."
+      "note": "The pianist who defended stolen time returned to the nocturne twenty years after his New York recording."
     },
     {
       "listen": "chopin-nocturne-op15-2",
@@ -41,29 +41,29 @@
   "reference": "chopin-nocturne-op15-2",
   "passages": [
     {
-      "label": "A sustained song",
+      "label": "Opening melody",
       "t": 5,
-      "note": "The right hand threads little flourishes through a sustained melody; evenly spaced bass notes and chords hold the phrase beneath it."
+      "note": "The right hand plays small flourishes around a sustained melody, and evenly spaced bass notes and chords sit beneath the phrase."
     },
     {
-      "label": "Before the quickening",
+      "label": "F♯-minor phrase, dolcissimo",
       "t": 74,
       "note": "The F♯-minor phrase falls from its high notes, its little runs marked <i>dolcissimo</i> — very sweetly."
     },
     {
-      "label": "Twice the motion",
+      "label": "Middle section, dotted melody",
       "t": 86,
-      "note": "A dotted tune rides above quick notes in the same hand. The bass leaps beneath it, and the opening is hushed."
+      "note": "A dotted tune sits above quick notes in the same hand. The bass leaps beneath it. The opening is quiet."
     },
     {
-      "label": "The middle gathers force",
+      "label": "Climax of the middle section",
       "t": 110,
-      "note": "The dotted rhythm grows insistent and the piano gathers force, bringing the restless middle to its climax."
+      "note": "The dotted rhythm continues, the piano grows louder and the middle section reaches its climax."
     },
     {
-      "label": "A breath before the return",
+      "label": "Pause before the opening returns",
       "t": 128,
-      "note": "The repeated figure slows and dies away. A pause leaves space for the opening melody to return."
+      "note": "The repeated figure slows and dies away. After a pause the opening melody returns."
     }
   ],
   "sources": [

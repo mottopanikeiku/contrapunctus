@@ -1,20 +1,20 @@
 {
   "id": "chopin-thirds",
-  "title": "A whisper in running thirds",
+  "title": "Chopin, Étude Op. 25 No. 6: Neeman and Paderewski",
   "composer": "chopin",
   "group": "century",
   "work": "Étude in G♯ minor, Op. 25 No. 6",
-  "question": "How do the racing thirds leave room for the slower tune underneath?",
-  "intro": "The right hand begins with a trill in thirds, two notes sounding together at every turn. The pairs soon race up and down while the left hand carries a slower melody. Paderewski and Neeman must make this busy finger-work speak in an undertone: Chopin writes <i>sotto voce</i> above the notes.",
+  "question": "How do the fast thirds leave room for the slower tune underneath?",
+  "intro": "The right hand begins with a trill in thirds, two notes sounding together at every turn. The pairs soon race up and down while the left hand carries a slower melody. Chopin writes <i>sotto voce</i> above the notes, so Paderewski and Neeman have to play this fast finger-work in an undertone.",
   "recordings": [
-    { "listen": "chopin-etude-op25-6-neeman", "label": "Edward Neeman, c. 2014", "year": 2014, "note": "Neeman developed a modification to the sostenuto mechanism, opening new ways to combine the piano’s sostenuto and damper pedals." },
+    { "listen": "chopin-etude-op25-6-neeman", "label": "Edward Neeman, c. 2014", "year": 2014, "note": "Neeman developed a modification to the sostenuto mechanism that allowed the piano’s sostenuto and damper pedals to be combined in new ways." },
     { "listen": "chopin-etude-op25-6-paderewski", "label": "Ignacy Jan Paderewski, 1923", "year": 1923, "note": "Four years after serving as Poland’s prime minister, Paderewski recorded this étude in Camden, New Jersey, on 4 May 1923." }
   ],
   "reference": "chopin-etude-op25-6-neeman",
   "passages": [
-    { "label": "Thirds above a slower voice", "t": 12, "note": "The right hand’s paired notes run smoothly above the slower left-hand line." },
-    { "label": "A melody beneath the pairs", "t": 44, "note": "The left hand carries a broad melody while the right keeps turning through its closely spaced pairs." },
-    { "label": "Scales in pairs", "t": 85, "note": "The thirds sweep up and down the keyboard, with the left hand’s phrase still threading underneath." }
+    { "label": "Thirds above a slower voice", "t": 12, "note": "The right hand plays paired notes above the slower left-hand line." },
+    { "label": "Left-hand melody beneath thirds", "t": 44, "note": "The left hand plays a broad melody while the right continues its closely spaced pairs." },
+    { "label": "Scales in pairs", "t": 85, "note": "The right hand plays thirds up and down the keyboard while the left hand continues its phrase underneath." }
   ],
   "sources": [
     { "title": "Neeman — Musopen recording", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_(Edward_Neeman).flac" },

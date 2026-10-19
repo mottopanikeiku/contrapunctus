@@ -24,19 +24,19 @@ export default {
       ]
     }
   },
-  "intro": "Rachmaninoff records his C♯ minor Prelude in New York in April 1928, thirty-six years after writing it. The quiet chords at the start return as a whole keyboard of bells.",
+  "intro": "Rachmaninoff recorded his Prelude in C♯ minor, Op. 3 No. 2, in New York in April 1928, thirty-six years after he wrote it. The quiet chords of the opening return later, spread across the whole keyboard.",
   "sections": [
-    { "t": 0, "label": "A · Bells, then rushing triplets", "m": "A", "mNote": "Three low notes introduce the Lento" },
-    { "t": 92, "label": "B · Triplets gather force", "m": "B", "mNote": "The Agitato melody rises above the running notes" },
-    { "t": 120, "label": "C · Descending chords and returning bells", "m": "C", "mNote": "The rush leads back to the opening chords" },
-    { "t": 178, "label": "D · Quiet chords over C♯", "m": "D", "mNote": "A held bass supports the last slow chords" }
+    { "t": 0, "label": "A · Lento, three low notes, then triplets", "m": "A", "mNote": "Three low notes open the Lento." },
+    { "t": 92, "label": "B · Agitato in triplets", "m": "B", "mNote": "The Agitato melody rises above running triplets." },
+    { "t": 120, "label": "C · Descending chords, return of opening", "m": "C", "mNote": "The fast passage leads back to the opening chords." },
+    { "t": 178, "label": "D · Slow chords over held C♯", "m": "D", "mNote": "A held bass supports the last slow chords." }
   ],
   "cues": [
     {
       "bar": { "n": "0", "occ": 1 },
       "kind": "music",
-      "title": "Bells and a whisper",
-      "text": "Three low notes, A–G♯–C♯, sound in octaves. Rachmaninoff marks them <i>fortissimo</i>, then drops to <i>ppp</i> for the chordal answer. The piano has scarcely begun before it falls to a whisper.",
+      "title": "Opening, bars 1–4",
+      "text": "Three low notes, A–G♯–C♯, sound in octaves. Rachmaninoff marks them <i>fortissimo</i>. The chords that follow are marked <i>ppp</i>.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Bosworth (1896) and Universal Edition (1910), opening upbeat and bars 1–4; Petro Kostandy’s Mutopia engraving. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
@@ -44,8 +44,8 @@ export default {
     {
       "bar": { "n": "14", "occ": 1 },
       "kind": "music",
-      "title": "The right hand divides",
-      "text": "In the <i>Agitato</i>, the right hand carries a descending E–D♯–D♮–C♯ melody while triplets turn beneath it. The left hand reaches down for bass notes, then rises to answer the tune.",
+      "title": "Agitato, divided right hand",
+      "text": "In the <i>Agitato</i> (bars 14–21), the right hand plays a descending E–D♯–D♮–C♯ melody above triplet quavers. The left hand takes low bass notes, then moves up into a separate line in reply to the melody.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Bosworth and Universal Edition score, bars 14–21: separately stemmed upper melody, triplet quavers and the answering left-hand line. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
@@ -53,8 +53,8 @@ export default {
     {
       "t": 92,
       "kind": "world",
-      "title": "Two days in the studio",
-      "text": "On 21 March 1928, Rachmaninoff makes three takes of the Prelude in Camden, New Jersey. Victor discards all three. On 4 April he tries again in New York; the second take that day becomes the published record.",
+      "title": "Recording sessions, 1928",
+      "text": "On 21 March 1928 Rachmaninoff made three takes of the Prelude in Camden, New Jersey, and Victor discarded all three. He recorded it again in New York on 4 April. The second take from that day became the published record.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Discography of American Historical Recordings, Victor matrix BVE-25650: takes 19–21 marked Destroy; takes 22–23 dated 4 April 1928, with take 23 the master. https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor"
@@ -62,8 +62,8 @@ export default {
     {
       "bar": { "n": "45", "occ": 1 },
       "kind": "form",
-      "title": "The piano fills four staves",
-      "text": "<i>Tempo primo</i>: the opening returns, vastly enlarged. The score spreads the piano over four staves and marks the chords <i>fff pesante</i>. The bass keeps tolling while both hands strike the tune in octaves.",
+      "title": "Return of the opening, four staves",
+      "text": "At <i>Tempo primo</i> the opening returns, greatly enlarged. The score sets the piano on four staves and marks the chords <i>fff pesante</i>. The bass continues its repeated notes while both hands play the tune in octaves.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Bosworth and Universal Edition score, bars 45–48: four-stave notation, Tempo primo and fff pesante. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
@@ -71,8 +71,8 @@ export default {
     {
       "bar": { "n": "55", "occ": 1 },
       "kind": "music",
-      "title": "The bass stays on C♯",
-      "text": "The closing chords settle over a low C♯ held across the bars. After so many repeated blows, the last chord simply stays: C♯ minor, <i>ppp</i>, with a fermata above it.",
+      "title": "Final bars over C♯ pedal",
+      "text": "The closing chords sound over a low C♯ held across the bars. The last chord is C♯ minor, <i>ppp</i>, with a fermata above it.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Bosworth and Universal Edition score, bars 55–61: C♯ pedal and final ppp chord with fermata. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"

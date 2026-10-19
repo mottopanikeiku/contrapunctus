@@ -7,12 +7,12 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1893,
-   "title": "A folk poem interrupts the symphony",
+   "title": "Folk poem within a symphony",
    "works": {
     "from": "Des Knaben Wunderhorn: Urlicht",
     "to": "Urlicht; Symphony No. 2, movement IV"
    },
-   "claim": "<p>Mahler set <i>Urlicht</i>, a poem from <i>Des Knaben Wunderhorn</i>, before placing it between the Second Symphony’s scherzo and finale. After three instrumental movements, an alto enters with an intimate appeal for release.</p>",
+   "claim": "<p>Mahler set <i>Urlicht</i>, a poem from <i>Des Knaben Wunderhorn</i>, before placing it between the Second Symphony’s scherzo and finale. After three instrumental movements, an alto enters and sings the poem’s appeal for release.</p>",
    "status": "documented",
    "sources": [
     {
@@ -33,12 +33,12 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1893,
-   "title": "The fish sermon loses its words",
+   "title": "The fish sermon without words",
    "works": {
     "from": "Des Knaben Wunderhorn: Des Antonius von Padua Fischpredigt",
     "to": "Des Antonius von Padua Fischpredigt; Symphony No. 2, movement III"
    },
-   "claim": "<p>In Mahler’s Wunderhorn song, Saint Anthony preaches to the fish. They listen attentively, then carry on exactly as before. Mahler takes the song’s music into the Second Symphony’s scherzo, where the sermon circles on without words.</p>",
+   "claim": "<p>In Mahler’s Wunderhorn song, Saint Anthony preaches to the fish. They listen, then carry on exactly as before. Mahler reused the song’s music in the scherzo of the Second Symphony, without the words.</p>",
    "status": "documented",
    "sources": [
     {
@@ -54,12 +54,12 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1900,
-   "title": "A child’s heaven becomes the destination",
+   "title": "A child’s heaven as destination",
    "works": {
     "from": "Des Knaben Wunderhorn: Das himmlische Leben",
     "to": "Symphony No. 4, finale"
    },
-   "claim": "<p>Mahler composed <i>Das himmlische Leben</i> in 1892, years before the Fourth Symphony, then reorchestrated it as the finale. The symphony ends with this older song: a soprano describing a child’s heaven of food, saints and music.</p>",
+   "claim": "<p>Mahler composed <i>Das himmlische Leben</i> in 1892, years before the Fourth Symphony, then reorchestrated it as the finale. The symphony ends with this older song, in which a soprano describes a child’s heaven of food, saints and music.</p>",
    "status": "documented",
    "sources": [
     {
@@ -80,7 +80,7 @@
     "from": "Symphony No. 3, 1877 version",
     "to": "Piano-duet arrangement, 1878–1880"
    },
-   "claim": "<p>Mahler and Rudolf Krzyzanowski prepared a piano-duet arrangement of [[bruckner]]’s Third Symphony, compressing the 1877 orchestral score into four hands at one keyboard.</p>",
+   "claim": "<p>Mahler and Rudolf Krzyzanowski prepared a piano-duet arrangement of [[bruckner]]’s Third Symphony, reducing the 1877 orchestral score for four hands at one keyboard.</p>",
    "status": "documented",
    "note": "The precise division of work between Mahler and Krzyzanowski remains uncertain.",
    "sources": [
@@ -102,7 +102,7 @@
    "to": "mahler",
    "kind": "heard",
    "year": 1883,
-   "title": "Parsifal heard at Bayreuth",
+   "title": "Parsifal at Bayreuth",
    "works": {
     "from": "Parsifal",
     "to": "Mahler’s Bayreuth visit and letter to Fritz Löhr"
@@ -123,13 +123,13 @@
    "to": "mahler",
    "kind": "quoted",
    "year": 1888,
-   "title": "Bruder Martin walks into a funeral",
+   "title": "“Bruder Martin” as funeral march",
    "thread": "frere-jacques",
    "works": {
     "from": "Bruder Martin / Frère Jacques, traditional round",
     "to": "Symphony No. 1, movement III, opening canon"
    },
-   "claim": "<p>Over the timpani’s tread, the First Symphony’s third movement introduces <i>Bruder Martin</i>, the round also known as <i>Frère Jacques</i>, in D minor and builds a canon from it. Mahler adds a small F–E quaver turn. Minor-mode versions of the round were already circulating in Austria.</p>",
+   "claim": "<p>Over a timpani ostinato, the third movement of the First Symphony presents <i>Bruder Martin</i>, the round also known as <i>Frère Jacques</i>, in D minor and builds a canon from it. Mahler added a short F–E quaver turn. Minor-mode versions of the round were already in circulation in Austria.</p>",
    "status": "documented",
    "sources": [
     {
@@ -157,7 +157,7 @@
    "to": "mahler",
    "kind": "modelled",
    "year": 1893,
-   "title": "Jean Paul lends Mahler a title",
+   "title": "Jean Paul as source of a Mahler title",
    "works": {
     "from": "Titan, novel",
     "to": "Symphony No. 1: Hamburg programme, 1893"
@@ -178,14 +178,14 @@
    "to": "mahler",
    "kind": "modelled",
    "year": 1900,
-   "title": "Reading the symphonies beside The Brothers Karamazov",
+   "title": "The symphonies and The Brothers Karamazov",
    "works": {
     "from": "The Brothers Karamazov",
     "to": "Symphonies Nos. 3 and 4"
    },
-   "claim": "<p>Mahler admired Dostoevsky’s <i>The Brothers Karamazov</i>. Celeste Belknap reads his Third and Fourth Symphonies alongside the novel, bringing its questions of faith and childhood to bear on the Fourth’s closing vision of heaven.</p>",
+   "claim": "<p>Mahler admired Dostoevsky’s <i>The Brothers Karamazov</i>. Celeste Belknap reads his Third and Fourth Symphonies alongside the novel and relates its questions of faith and childhood to the picture of heaven at the close of the Fourth.</p>",
    "status": "inferred",
-   "note": "Belknap proposes structural and philosophical parallels. Their role in Mahler’s actual compositional decisions remains unproven.",
+   "note": "Belknap proposed structural and philosophical parallels. Their role in Mahler’s actual compositional decisions has not been proven.",
    "sources": [
     {
      "title": "Celeste Belknap: Brothers in Philosophy: Interpreting Mahler’s Third and Fourth Symphonies through a Dostoevskian Lens",
@@ -200,14 +200,14 @@
    "to": "mahler",
    "kind": "modelled",
    "year": 1888,
-   "title": "Rott and Mahler dance the Ländler",
+   "title": "Rott and Mahler: the Ländler",
    "works": {
     "from": "Symphony in E major, scherzo, 1878–1880",
     "to": "Symphony No. 1, scherzo; comparison with Symphony No. 5"
    },
-   "claim": "<p>The Ländler-like scherzo of Hans Rott’s E-major Symphony has close cousins in Mahler’s First and Fifth. Mahler knew Rott as a fellow student, later praised his music and borrowed the symphony’s score in 1900.</p>",
+   "claim": "<p>The Ländler-like scherzo of Hans Rott’s E-major Symphony has close parallels in Mahler’s First and Fifth. Mahler knew Rott as a fellow student, later praised his music and borrowed the symphony’s score in 1900.</p>",
    "status": "inferred",
-   "note": "Mahler’s access to Rott’s score before composing his First Symphony remains uncertain. The documented loan of 1900 comes later; the edge year dates Mahler’s work.",
+   "note": "Whether Mahler had access to Rott’s score before composing his First Symphony is uncertain. The documented loan dates from 1900, after that work; the edge year is the date of Mahler’s work.",
    "sources": [
     {
      "title": "Mahler Foundation: Hans Rott",
@@ -222,12 +222,12 @@
    "to": "mahler",
    "kind": "heard",
    "year": 1860,
-   "title": "The garrison town enters the orchestra",
+   "title": "Garrison-town music in the orchestra",
    "works": {
     "from": "Military bands and street music in Iglau",
     "to": "Mahler’s childhood listening; later marches and fanfares"
    },
-   "claim": "<p>Mahler grew up in Iglau, a Bohemian garrison town where military bands sounded alongside church bells, synagogue music and street musicians. Michael Tilson Thomas traces the marches and fanfares of Mahler’s orchestra back to those childhood streets.</p>",
+   "claim": "<p>Mahler grew up in Iglau, a Bohemian garrison town where military bands played alongside church bells, synagogue music and street musicians. Michael Tilson Thomas traces the marches and fanfares in Mahler’s orchestral writing back to the streets of his childhood.</p>",
    "status": "documented",
    "sources": [
     {
@@ -243,12 +243,12 @@
    "to": "mahler",
    "kind": "modelled",
    "year": 1896,
-   "title": "Bach on the composing-hut desk",
+   "title": "Bach scores in the composing hut",
    "works": {
     "from": "Bach-Gesellschaft collected edition; contrapuntal works",
     "to": "Mahler’s Bach study during the Hamburg years"
    },
-   "claim": "<p>Mahler subscribed to the Bach-Gesellschaft edition during his Hamburg years. Natalie Bauer-Lechner and Alma Mahler remembered his sustained study of [[bach]]; Bach’s scores accompanied him even to his composing retreat.</p>",
+   "claim": "<p>Mahler subscribed to the Bach-Gesellschaft edition during his Hamburg years. Natalie Bauer-Lechner and Alma Mahler recorded his sustained study of [[bach]], and he took Bach’s scores with him to his composing retreat.</p>",
    "status": "documented",
    "sources": [
     {
@@ -264,7 +264,7 @@
    "to": "mahler",
    "kind": "copied",
    "year": 1910,
-   "title": "Two Bach suites become one programme",
+   "title": "Two Bach suites in one programme",
    "works": {
     "from": "Orchestral Suites Nos. 2 and 3, BWV 1067–1068",
     "to": "Suite aus den Orchesterwerken von J. S. Bach"
@@ -290,7 +290,7 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1908,
-   "title": "China reaches Mahler through several translators",
+   "title": "China to Mahler through several translators",
    "works": {
     "from": "Die chinesische Flöte, 1907",
     "to": "Das Lied von der Erde"
@@ -311,12 +311,12 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1904,
-   "title": "Rückert’s private grief becomes five songs",
+   "title": "Rückert’s private grief: five song settings",
    "works": {
     "from": "Kindertotenlieder, poems written after the deaths of two children",
     "to": "Kindertotenlieder, 1901–1904"
    },
-   "claim": "<p>Friedrich Rückert wrote his <i>Kindertotenlieder</i> after losing two children in 1833–34. Mahler selected five poems and set them in 1901–04. His own daughter Maria died in 1907.</p>",
+   "claim": "<p>Friedrich Rückert wrote his <i>Kindertotenlieder</i> after the deaths of two of his children in 1833–34. Mahler chose five of the poems and set them in 1901–04. His own daughter Maria died in 1907.</p>",
    "status": "documented",
    "sources": [
     {
@@ -332,12 +332,12 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1894,
-   "title": "A memorial service unlocks the finale",
+   "title": "Memorial service and the finale",
    "works": {
     "from": "Die Auferstehung",
     "to": "Symphony No. 2, finale"
    },
-   "claim": "<p>At Hans von Bülow’s memorial service in 1894, Mahler heard Klopstock’s resurrection hymn and found the words with which to begin his Second Symphony’s finale. He joined part of the hymn to verses of his own.</p>",
+   "claim": "<p>At Hans von Bülow’s memorial service in 1894, Mahler heard Klopstock’s resurrection hymn and found in it the words with which to begin his Second Symphony’s finale. He joined part of the hymn to verses of his own.</p>",
    "status": "documented",
    "sources": [
     {
@@ -353,7 +353,7 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1906,
-   "title": "Faust answers Veni creator spiritus",
+   "title": "Veni creator spiritus and Faust",
    "works": {
     "from": "Faust, Part II, closing scene",
     "to": "Symphony No. 8, Part II"
@@ -374,12 +374,12 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1896,
-   "title": "Zarathustra sings at midnight",
+   "title": "Zarathustra’s midnight song",
    "works": {
     "from": "Also sprach Zarathustra: Midnight Song",
     "to": "Symphony No. 3, movement IV"
    },
-   "claim": "<p>After three instrumental movements, Mahler’s Third Symphony brings in an alto singing Nietzsche’s midnight poem from <i>Also sprach Zarathustra</i>. The orchestra grows sparse and slow around the solitary voice contemplating sorrow and eternity.</p>",
+   "claim": "<p>After three instrumental movements, Mahler’s Third Symphony brings in an alto singing Nietzsche’s midnight poem from <i>Also sprach Zarathustra</i>. The orchestral writing around the solo voice is sparse and slow, and the poem’s subjects are sorrow and eternity.</p>",
    "status": "documented",
    "sources": [
     {
@@ -395,12 +395,12 @@
    "to": "berg",
    "kind": "modelled",
    "year": 1915,
-   "title": "Mahler’s orchestra behind Berg’s three pieces",
+   "title": "Mahler’s orchestra and Berg’s Three Pieces",
    "works": {
     "from": "Symphony No. 9",
     "to": "Three Pieces for Orchestra, Op. 6"
    },
-   "claim": "<p>Mark DeVoto hears Mahler’s Ninth behind [[berg]]’s <i>Three Pieces for Orchestra</i>, written in 1914–15. The central <i>Reigen</i> turns through dances including a Ländler; the final <i>Marsch</i> drives the orchestra into a destructive march.</p>",
+   "claim": "<p>Mark DeVoto heard Mahler’s Ninth behind [[berg]]’s <i>Three Pieces for Orchestra</i>, written in 1914–15. The central <i>Reigen</i> moves through a series of dances, among them a Ländler. The final <i>Marsch</i> is a destructive march for full orchestra.</p>",
    "status": "documented",
    "sources": [
     {
@@ -416,12 +416,12 @@
    "to": "britten",
    "kind": "heard",
    "year": 1930,
-   "title": "Teenage Britten hears Mahler’s Fourth",
+   "title": "Teenage Britten and Mahler’s Fourth",
    "works": {
     "from": "Symphony No. 4, London Prom, September 1930",
     "to": "Britten’s diary; early orchestral work including Plymouth Town"
    },
-   "claim": "<p>The teenage [[britten]] heard Mahler’s Fourth at a London Prom in September 1930. His diary mingles impatience at its length with admiration for its beauty. David Matthews traces the encounter, and Britten’s subsequent purchase of the <i>Lieder eines fahrenden Gesellen</i> score, into the orchestra of <i>Plymouth Town</i>.</p>",
+   "claim": "<p>The teenage [[britten]] heard Mahler’s Fourth at a London Prom in September 1930. In his diary he recorded both impatience at its length and admiration for its beauty. David Matthews traces the encounter, and Britten’s later purchase of the score of the <i>Lieder eines fahrenden Gesellen</i>, into the orchestration of <i>Plymouth Town</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -437,12 +437,12 @@
    "to": "rachmaninoff",
    "kind": "studied-with",
    "year": 1885,
-   "title": "Zverev’s household was also a conservatory",
+   "title": "Zverev’s household as conservatory",
    "works": {
     "from": "Nikolai Zverev’s residential piano teaching",
     "to": "Rachmaninoff’s Moscow training, from 1885"
    },
-   "claim": "<p>Rachmaninoff entered Nikolai Zverev’s Moscow household as a piano pupil in 1885. Its musical gatherings also brought him into contact with [[tchaikovsky]], so the teacher provided both intensive pianistic training and access to the professional circle in which the young composer was first heard.</p>",
+   "claim": "<p>Rachmaninoff entered Nikolai Zverev’s Moscow household as a piano pupil in 1885. Zverev gave him intensive pianistic training, and the musical gatherings in his house brought Rachmaninoff into contact with [[tchaikovsky]] and the professional circle in which the young composer was first heard.</p>",
    "status": "documented",
    "sources": [
     {
@@ -458,12 +458,12 @@
    "to": "rachmaninoff",
    "kind": "studied-with",
    "year": 1888,
-   "title": "A cousin takes over the piano lessons",
+   "title": "Piano lessons with a cousin",
    "works": {
     "from": "Alexander Siloti’s piano teaching",
     "to": "Rachmaninoff’s senior Moscow studies"
    },
-   "claim": "<p>In 1888 Rachmaninoff entered the senior course at the Moscow Conservatory and began piano lessons with his cousin Alexander Siloti. Alongside them came composition with Arensky and counterpoint with Taneyev.</p>",
+   "claim": "<p>In 1888 Rachmaninoff entered the senior course at the Moscow Conservatory and began piano lessons with his cousin Alexander Siloti. He also studied composition with Arensky and counterpoint with Taneyev.</p>",
    "status": "documented",
    "sources": [
     {
@@ -479,12 +479,12 @@
    "to": "rachmaninoff",
    "kind": "studied-with",
    "year": 1888,
-   "title": "Tchaikovsky recommends advanced counterpoint",
+   "title": "Tchaikovsky’s recommendation of advanced counterpoint",
    "works": {
     "from": "Sergei Taneyev’s advanced counterpoint teaching",
     "to": "Rachmaninoff’s Moscow Conservatory studies"
    },
-   "claim": "<p>On [[tchaikovsky]]’s recommendation, Rachmaninoff studied advanced counterpoint with Sergei Taneyev at the Moscow Conservatory: the craft of making independent voices work together.</p>",
+   "claim": "<p>On [[tchaikovsky]]’s recommendation, Rachmaninoff studied advanced counterpoint, the craft of combining independent voices, with Sergei Taneyev at the Moscow Conservatory.</p>",
    "status": "documented",
    "sources": [
     {
@@ -500,7 +500,7 @@
    "to": "rachmaninoff",
    "kind": "studied-with",
    "year": 1888,
-   "title": "Arensky teaches the composer’s working tools",
+   "title": "Arensky as teacher of composition",
    "works": {
     "from": "Anton Arensky’s harmony, instrumentation and composition classes",
     "to": "Rachmaninoff’s Moscow Conservatory studies"
@@ -521,7 +521,7 @@
    "to": "rachmaninoff",
    "kind": "championed",
    "year": 1893,
-   "title": "Tchaikovsky champions the graduation opera",
+   "title": "Tchaikovsky’s support for the graduation opera",
    "works": {
     "from": "Tchaikovsky’s support and proposed Iolanta double bill",
     "to": "Aleko, composed 1892; Bolshoi premiere, 1893"
@@ -542,12 +542,12 @@
    "to": "rachmaninoff",
    "kind": "modelled",
    "year": 1893,
-   "title": "A memorial trio answers a memorial trio",
+   "title": "Two memorial trios",
    "works": {
     "from": "Piano Trio in A minor, Op. 50, in memory of Nikolai Rubinstein",
     "to": "Trio élégiaque No. 2 in D minor, Op. 9"
    },
-   "claim": "<p>Rachmaninoff completed his Second <i>Trio élégiaque</i> in December 1893, mourning [[tchaikovsky]]. The choice of a large piano trio followed his patron’s example: Tchaikovsky had written his own trio in memory of Nikolai Rubinstein.</p>",
+   "claim": "<p>Rachmaninoff completed his Second <i>Trio élégiaque</i> in December 1893, in memory of [[tchaikovsky]]. In choosing a large piano trio he followed the example of his patron, who had written his own trio in memory of Nikolai Rubinstein.</p>",
    "status": "documented",
    "sources": [
     {
@@ -563,7 +563,7 @@
    "to": "rachmaninoff",
    "kind": "modelled",
    "year": 1891,
-   "title": "Grieg provides a concerto starting point",
+   "title": "Grieg as concerto starting point",
    "works": {
     "from": "Piano Concerto in A minor, Op. 16",
     "to": "Piano Concerto No. 1 in F-sharp minor, Op. 1, original version"
@@ -584,13 +584,13 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1909,
-   "title": "Dies irae crosses the dark water",
+   "title": "Dies irae and the crossing of dark water",
    "thread": "dies-irae",
    "works": {
     "from": "Dies irae, Requiem sequence",
     "to": "The Isle of the Dead, Op. 29"
    },
-   "claim": "<p>The medieval <i>Dies irae</i> crosses Rachmaninoff’s <i>The Isle of the Dead</i> in fragments and fuller statements. Böcklin supplied the island; the chant brings its own memory of death to the music.</p>",
+   "claim": "<p>The medieval <i>Dies irae</i> appears in Rachmaninoff’s <i>The Isle of the Dead</i> in fragments and in fuller statements. The island came from Böcklin, and the chant carries its own association with death.</p>",
    "status": "documented",
    "sources": [
     {
@@ -606,13 +606,13 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1934,
-   "title": "The death chant interrupts Paganini",
+   "title": "Death chant and Paganini theme",
    "thread": "dies-irae",
    "works": {
     "from": "Dies irae, Requiem sequence",
     "to": "Rhapsody on a Theme of Paganini, Op. 43, variation VII"
    },
-   "claim": "<p>In Variation VII of the <i>Paganini Rhapsody</i>, the piano plays <i>Dies irae</i>. Bassoons and pizzicato cellos answer with fragments of Paganini’s theme: the death chant and the violin caprice now share the same music.</p>",
+   "claim": "<p>In Variation VII of the <i>Paganini Rhapsody</i>, the piano plays the <i>Dies irae</i>, and bassoons and pizzicato cellos answer with fragments of Paganini’s theme.</p>",
    "status": "documented",
    "sources": [
     {
@@ -628,13 +628,13 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1940,
-   "title": "Dies irae returns in the last dance",
+   "title": "Dies irae in the last dance",
    "thread": "dies-irae",
    "works": {
     "from": "Dies irae, Requiem sequence",
     "to": "Symphonic Dances, Op. 45, movement III"
    },
-   "claim": "<p>The final <i>Symphonic Dance</i> repeatedly invokes <i>Dies irae</i>, returning to a melody Rachmaninoff had already used in <i>The Isle of the Dead</i> and the <i>Paganini Rhapsody</i>. It is set against music recalled from his own <i>All-Night Vigil</i>, turning the movement into an encounter between a Western death chant and his Russian sacred repertory.</p>",
+   "claim": "<p>The final <i>Symphonic Dance</i> quotes the <i>Dies irae</i> several times, a melody Rachmaninoff had already used in <i>The Isle of the Dead</i> and the <i>Paganini Rhapsody</i>. The chant is set against music taken from his own <i>All-Night Vigil</i>, so the movement combines the Western chant for the dead with material from his Russian sacred music.</p>",
    "status": "documented",
    "sources": [
     {
@@ -650,12 +650,12 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1915,
-   "title": "Old chant becomes a choral orchestra",
+   "title": "Chant set for choir and orchestra",
    "works": {
     "from": "Russian Orthodox Znamenny chant",
     "to": "All-Night Vigil, Op. 37, including Nos. 8 and 12"
    },
-   "claim": "<p>Rachmaninoff built parts of his <i>All-Night Vigil</i> around inherited Orthodox chants. In No. 8, altos and basses carry the Znamenny melody in octaves; No. 12 draws on the same chant tradition.</p>",
+   "claim": "<p>Rachmaninoff built parts of his <i>All-Night Vigil</i> on existing Orthodox chants. In No. 8 the altos and basses sing the Znamenny melody in octaves, and No. 12 also draws on Znamenny chant.</p>",
    "status": "documented",
    "sources": [
     {
@@ -671,12 +671,12 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1940,
-   "title": "The Vigil’s Alleluia survives in exile",
+   "title": "The Vigil’s Alleluia in exile",
    "works": {
     "from": "All-Night Vigil, Op. 37, No. 9, based on Znamenny chant",
     "to": "Symphonic Dances, Op. 45, movement III, coda"
    },
-   "claim": "<p>Near the end of the <i>Symphonic Dances</i>, Rachmaninoff recalls the ninth movement of his <i>All-Night Vigil</i> and marks the passage with an Alleluia indication. The Russian sacred melody reaches the orchestral work through his own earlier choral setting: it is both inherited chant and self-quotation.</p>",
+   "claim": "<p>Near the end of the <i>Symphonic Dances</i>, Rachmaninoff quoted the ninth movement of his <i>All-Night Vigil</i> and marked the passage with an Alleluia indication. The Russian sacred melody came into the orchestral work by way of his own earlier choral setting, so the passage quotes inherited chant and his own music at once.</p>",
    "status": "documented",
    "sources": [
     {
@@ -692,14 +692,14 @@
    "to": "rachmaninoff",
    "kind": "depicted",
    "year": 1909,
-   "title": "Böcklin’s island becomes a symphonic poem",
+   "title": "Böcklin’s island painting as symphonic poem",
    "works": {
     "from": "Die Toteninsel / Isle of the Dead, series of paintings",
     "to": "The Isle of the Dead, Op. 29"
    },
-   "claim": "<p>A black-and-white reproduction of Böcklin’s <i>Isle of the Dead</i> prompted Rachmaninoff’s tone poem. When he later saw the painting in colour, he found it less compelling. In the music, a recurring 5/8 carries the imagined crossing towards the island.</p>",
+   "claim": "<p>Rachmaninoff wrote his tone poem after seeing a black-and-white reproduction of Böcklin’s <i>Isle of the Dead</i>. When he later saw the painting in colour, he found it less compelling. A recurring 5/8 metre runs through the music, representing the crossing towards the island.</p>",
    "status": "documented",
-   "note": "The illustration shows the Basel version of the painting. The exact reproduction Rachmaninoff saw remains unidentified here.",
+   "note": "The illustration shows the Basel version of the painting. The exact reproduction Rachmaninoff saw has not been identified here.",
    "sources": [
     {
      "title": "Timothy Judd: Rachmaninov’s Isle of the Dead: A Tone Poem in Black and White",
@@ -723,7 +723,7 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1903,
-   "title": "Chopin’s miniature becomes twenty-two variations",
+   "title": "Twenty-two variations on a Chopin miniature",
    "works": {
     "from": "Prelude in C minor, Op. 28 No. 20",
     "to": "Variations on a Theme of Chopin, Op. 22"
@@ -761,12 +761,12 @@
    "to": "rachmaninoff",
    "kind": "modelled",
    "year": 1919,
-   "title": "The pianist writes inside Liszt’s rhapsody",
+   "title": "The pianist’s own writing in Liszt’s rhapsody",
    "works": {
     "from": "Hungarian Rhapsody No. 2",
     "to": "Rachmaninoff’s cadenza, documented in a concert programme of 23 January 1919"
    },
-   "claim": "<p>At Carnegie Hall in January 1919, Rachmaninoff played [[liszt]]’s Second Hungarian Rhapsody with a cadenza of his own. The programme names his addition: the pianist had written himself into the piece.</p>",
+   "claim": "<p>At Carnegie Hall in January 1919, Rachmaninoff played [[liszt]]’s Second Hungarian Rhapsody with a cadenza of his own. The programme lists the cadenza as his addition.</p>",
    "status": "documented",
    "sources": [
     {
@@ -787,12 +787,12 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1934,
-   "title": "Paganini’s theme arrives after its first variation",
+   "title": "Paganini’s theme after its first variation",
    "works": {
     "from": "Caprice No. 24 in A minor, Op. 1",
     "to": "Rhapsody on a Theme of Paganini, Op. 43"
    },
-   "claim": "<p>Rachmaninoff built his <i>Rhapsody</i> on Paganini’s Twenty-fourth Caprice, putting a skeletal first variation before the theme itself. In the eighteenth variation he turns the theme upside down and into the major, and the long singing melody emerges.</p>",
+   "claim": "<p>Rachmaninoff built his <i>Rhapsody</i> on Paganini’s Twenty-fourth Caprice and placed a skeletal first variation before the theme itself. In the eighteenth variation he inverted the theme and put it in the major, which gives the long melody of that variation.</p>",
    "status": "documented",
    "sources": [
     {
@@ -820,12 +820,12 @@
    "to": "rachmaninoff",
    "kind": "set-text",
    "year": 1913,
-   "title": "Poe’s bells arrive through Balmont",
+   "title": "Poe’s bells via Balmont",
    "works": {
     "from": "The Bells, in Konstantin Balmont’s Russian adaptation",
     "to": "The Bells, Op. 35"
    },
-   "claim": "<p>Rachmaninoff’s choral symphony <i>The Bells</i> sets Konstantin Balmont’s free Russian adaptation of Poe. Its four movements pass through sleigh bells, wedding bells, alarm bells and funeral bells. Balmont brings death into the poem earlier than Poe does.</p>",
+   "claim": "<p>Rachmaninoff’s choral symphony <i>The Bells</i> sets Konstantin Balmont’s free Russian adaptation of Poe. Its four movements deal in turn with sleigh bells, wedding bells, alarm bells and funeral bells. Balmont brings death into the poem earlier than Poe does.</p>",
    "status": "documented",
    "sources": [
     {
@@ -841,7 +841,7 @@
    "to": "rachmaninoff",
    "kind": "championed",
    "year": 1910,
-   "title": "Mahler rehearses Rachmaninoff’s Third",
+   "title": "Mahler’s rehearsal of Rachmaninoff’s Third",
    "works": {
     "from": "Mahler’s conducting in New York",
     "to": "Piano Concerto No. 3, January 1910 performances"
@@ -862,12 +862,12 @@
    "to": "ravel",
    "kind": "studied-with",
    "year": 1897,
-   "title": "Fauré’s classroom hears the young Ravel",
+   "title": "Ravel as a student in Fauré’s class",
    "works": {
     "from": "Fauré’s Paris Conservatoire composition class",
     "to": "Ravel’s studies; early Sonata for violin and piano"
    },
-   "claim": "<p>Ravel entered [[faure]]’s composition class in 1897. His early single-movement violin sonata belongs to those student years; Bru Zane hears Fauré’s chamber music behind it.</p>",
+   "claim": "<p>Ravel entered [[faure]]’s composition class in 1897. His early single-movement violin sonata dates from those student years; Bru Zane hears the influence of Fauré’s chamber music in it.</p>",
    "status": "documented",
    "note": "Bru Zane dates a classroom performance to 1897–98 but treats it as probable.",
    "sources": [
@@ -889,7 +889,7 @@
    "to": "ravel",
    "kind": "studied-with",
    "year": 1897,
-   "title": "Gédalge teaches the contrapuntal craft",
+   "title": "Gédalge’s teaching of counterpoint",
    "works": {
     "from": "André Gédalge’s private counterpoint instruction",
     "to": "Ravel’s Conservatoire-period training"
@@ -910,12 +910,12 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1893,
-   "title": "Chabrier behind the grotesque serenade",
+   "title": "Chabrier and the grotesque serenade",
    "works": {
     "from": "Chabrier’s piano music",
     "to": "Sérénade grotesque"
    },
-   "claim": "<p>Looking back in his autobiographical account, Ravel named Chabrier as the model behind his early piano piece <i>Sérénade grotesque</i>.</p>",
+   "claim": "<p>In his autobiographical sketch, Ravel named Chabrier as the model for his early piano piece <i>Sérénade grotesque</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -931,12 +931,12 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1893,
-   "title": "Ravel names Satie as an early model",
+   "title": "Ravel on Satie as an early model",
    "works": {
     "from": "Satie’s early music",
     "to": "Ballade de la reine morte d’aimer"
    },
-   "claim": "<p>Ravel’s autobiographical sketch names [[satie]] as an influence on his early <i>Ballade de la reine morte d’aimer</i>.</p>",
+   "claim": "<p>Ravel’s autobiographical sketch named [[satie]] as an influence on his early <i>Ballade de la reine morte d’aimer</i>.</p>",
    "status": "documented",
    "note": "The piece is unavailable for musical comparison. The connection rests on Ravel’s retrospective statement.",
    "sources": [
@@ -953,12 +953,12 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1899,
-   "title": "The Pavane’s Satie-like wrong-note chords",
+   "title": "Satie-like wrong-note chords in the Pavane",
    "works": {
     "from": "Gymnopédies and early piano harmony",
     "to": "Pavane pour une infante défunte, original piano version"
    },
-   "claim": "<p>In the <i>Pavane</i>’s calmly held dissonances and unexpected bass notes, Peter Jost hears a kinship with [[satie]]’s early piano writing. The resemblance lies beneath Ravel’s tune, in the accompaniment.</p>",
+   "claim": "<p>Peter Jost hears a kinship with [[satie]]’s early piano writing in the held dissonances and unexpected bass notes of the <i>Pavane</i>. The resemblance lies in the accompaniment beneath Ravel’s tune.</p>",
    "status": "inferred",
    "note": "Jost proposes a harmonic resemblance. Whether Ravel consciously drew on a particular Satie passage remains uncertain.",
    "sources": [
@@ -991,7 +991,7 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1928,
-   "title": "Ravel takes compositional advice from Poe",
+   "title": "Ravel and Poe on composition",
    "works": {
     "from": "The Philosophy of Composition, through Baudelaire’s translations",
     "to": "Ravel’s account of his compositional method"
@@ -1017,12 +1017,12 @@
    "to": "ravel",
    "kind": "copied",
    "year": 1922,
-   "title": "Pictures gains a saxophone and an orchestra",
+   "title": "Pictures in orchestral version, with saxophone",
    "works": {
     "from": "Pictures at an Exhibition, piano suite, 1874",
     "to": "Pictures at an Exhibition, orchestration, 1922"
    },
-   "claim": "<p>Serge Koussevitzky commissioned Ravel’s orchestration of [[mussorgsky]]’s piano <i>Pictures at an Exhibition</i>, first performed in Paris in October 1922. The trumpet’s opening <i>Promenade</i> and the alto saxophone of <i>The Old Castle</i> are Ravel’s instrumental decisions: the melodies and suite belong to Mussorgsky, while the familiar orchestral colours belong to the arranger.</p>",
+   "claim": "<p>Serge Koussevitzky commissioned Ravel’s orchestration of [[mussorgsky]]’s piano <i>Pictures at an Exhibition</i>, first performed in Paris in October 1922. The melodies and the order of the suite are Mussorgsky’s. The choice of instruments is Ravel’s, including the trumpet in the opening <i>Promenade</i> and the alto saxophone in <i>The Old Castle</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1038,7 +1038,7 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1917,
-   "title": "An old French suite mourns modern soldiers",
+   "title": "Old French suite as memorial to modern soldiers",
    "works": {
     "from": "Couperin and the French keyboard-suite tradition",
     "to": "Le Tombeau de Couperin, piano suite, 1914–1917"
@@ -1064,12 +1064,12 @@
    "to": "ravel",
    "kind": "heard",
    "year": 1908,
-   "title": "Spanish songs remembered from his mother",
+   "title": "Spanish songs learnt from his mother",
    "works": {
     "from": "Spanish songs sung by Ravel’s mother",
     "to": "Ravel’s Spanish musical world, including Rapsodie espagnole"
    },
-   "claim": "<p>Spain began at home for Ravel: his mother sang Spanish songs to him. That childhood music helps explain the recurring Spanish subjects of his work, including <i>Rapsodie espagnole</i>.</p>",
+   "claim": "<p>Ravel’s mother sang Spanish songs to him when he was a child. Those songs help explain the Spanish subjects that recur in his work, among them <i>Rapsodie espagnole</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1090,12 +1090,12 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1914,
-   "title": "The Trio sways in three-two-three",
+   "title": "Trio in three-two-three metre",
    "works": {
     "from": "Basque dance rhythm",
     "to": "Piano Trio in A minor, movement I"
    },
-   "claim": "<p>The first movement of Ravel’s Piano Trio groups its eight quavers as 3 + 2 + 3. The short middle group gives the bar its uneven sway, a rhythm drawn from Basque dance.</p>",
+   "claim": "<p>The first movement of Ravel’s Piano Trio groups its eight quavers as 3 + 2 + 3, with the shorter group in the middle of the bar. The rhythm is drawn from Basque dance.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1111,7 +1111,7 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1927,
-   "title": "Ravel’s Blues predates the American tour",
+   "title": "Ravel’s Blues, before the American tour",
    "works": {
     "from": "Jazz and blues idioms",
     "to": "Sonata for violin and piano, movement II, Blues"
@@ -1132,7 +1132,7 @@
    "to": "ravel",
    "kind": "heard",
    "year": 1928,
-   "title": "Gershwin plays at Ravel’s birthday party",
+   "title": "Gershwin at Ravel’s birthday party",
    "works": {
     "from": "Rhapsody in Blue and The Man I Love",
     "to": "Ravel’s New York encounter with Gershwin, 7 March 1928"
@@ -1153,12 +1153,12 @@
    "to": "ravel",
    "kind": "heard",
    "year": 1889,
-   "title": "Russian orchestral colour reaches Paris",
+   "title": "Russian orchestral music in Paris",
    "works": {
     "from": "Rimsky-Korsakov’s music at the Paris Exposition",
     "to": "Ravel’s youthful orchestral listening"
    },
-   "claim": "<p>At the Paris Exposition of 1889, the young Ravel heard Russian music associated with [[rimsky-korsakov]]. His interest in the Russian orchestra dates back to that encounter.</p>",
+   "claim": "<p>At the Paris Exposition of 1889 the young Ravel heard Russian music associated with [[rimsky-korsakov]]. His interest in the Russian orchestra dates from that encounter.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1174,12 +1174,12 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1908,
-   "title": "Gaspard renews Lisztian virtuosity",
+   "title": "Gaspard and Lisztian virtuosity",
    "works": {
     "from": "Liszt’s virtuoso piano tradition",
     "to": "Gaspard de la nuit, especially Scarbo"
    },
-   "claim": "<p>Emily Kilpatrick places <i>Gaspard de la nuit</i> in [[liszt]]’s tradition of the virtuoso pianist-composer. In <i>Scarbo</i>, extreme demands on the hands bring the goblin’s antics to the keyboard.</p>",
+   "claim": "<p>Emily Kilpatrick places <i>Gaspard de la nuit</i> in the tradition of the virtuoso pianist-composer established by [[liszt]]. In <i>Scarbo</i>, the goblin’s antics are written into extreme technical demands on the pianist’s hands.</p>",
    "status": "inferred",
    "note": "The Liszt connection is Kilpatrick’s interpretation of Ravel’s piano writing. A particular borrowed passage has not been identified.",
    "sources": [
@@ -1196,12 +1196,12 @@
    "to": "ravel",
    "kind": "reacted-against",
    "year": 1908,
-   "title": "Scarbo aims beyond Islamey",
+   "title": "Scarbo and Islamey",
    "works": {
     "from": "Islamey",
     "to": "Gaspard de la nuit: Scarbo"
    },
-   "claim": "<p>Ravel wanted <i>Scarbo</i> to be harder to play than Balakirev’s <i>Islamey</i>. Repeated notes and leaps make Bertrand’s elusive goblin a formidable opponent for the pianist.</p>",
+   "claim": "<p>Ravel wanted <i>Scarbo</i> to be harder to play than Balakirev’s <i>Islamey</i>. Its portrait of Bertrand’s goblin is written in repeated notes and leaps, which make it difficult for the pianist.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1217,12 +1217,12 @@
    "to": "ravel",
    "kind": "depicted",
    "year": 1908,
-   "title": "Three prose poems become piano scenes",
+   "title": "Piano pieces after three prose poems",
    "works": {
     "from": "Gaspard de la nuit: Ondine, Le Gibet and Scarbo",
     "to": "Gaspard de la nuit, three poems for piano"
    },
-   "claim": "<p>Ravel printed Aloysius Bertrand’s prose poems alongside the three movements of <i>Gaspard de la nuit</i>. The water spirit of <i>Ondine</i> speaks, the bell of <i>Le Gibet</i> tolls, and the goblin <i>Scarbo</i> disappears.</p>",
+   "claim": "<p>Ravel printed Aloysius Bertrand’s prose poems alongside the three movements of <i>Gaspard de la nuit</i>. In <i>Ondine</i> the speaker is a water spirit. <i>Le Gibet</i> has a tolling bell, and in <i>Scarbo</i> the goblin of the title disappears.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1250,12 +1250,12 @@
    "to": "ravel",
    "kind": "modelled",
    "year": 1911,
-   "title": "Schubert lends two waltz titles",
+   "title": "Two waltz titles borrowed from Schubert",
    "works": {
     "from": "Valses nobles and Valses sentimentales",
     "to": "Valses nobles et sentimentales"
    },
-   "claim": "<p>Ravel took the name <i>Valses nobles et sentimentales</i> from [[schubert]]’s two waltz collections. The old titles sit over waltzes with Ravel’s abrasive harmonies.</p>",
+   "claim": "<p>Ravel took the name <i>Valses nobles et sentimentales</i> from [[schubert]]’s two waltz collections. The old titles stand over waltzes written in Ravel’s abrasive harmonic language.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1271,12 +1271,12 @@
    "to": "vaughan-williams",
    "kind": "taught",
    "year": 1908,
-   "title": "Vaughan Williams comes to Paris for clarity",
+   "title": "Vaughan Williams in Paris",
    "works": {
     "from": "Ravel’s lessons in composition and orchestral craft",
     "to": "Vaughan Williams’s Paris study, 1907–1908"
    },
-   "claim": "<p>Ralph Vaughan Williams spent about three months studying with Ravel in Paris in 1907–08. Their surviving correspondence records lessons in clear writing and orchestral craft, with a Mozart minuet among the pieces on the desk.</p>",
+   "claim": "<p>Ralph Vaughan Williams spent about three months studying with Ravel in Paris in 1907–08. Their surviving correspondence records lessons in clear writing and orchestration, and a Mozart minuet was among the pieces they worked on.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1292,7 +1292,7 @@
    "to": "prokofiev",
    "kind": "studied-with",
    "year": 1906,
-   "title": "Rimsky’s crowded orchestration classroom",
+   "title": "Rimsky-Korsakov’s orchestration class",
    "works": {
     "from": "Rimsky-Korsakov’s St Petersburg Conservatory orchestration classes",
     "to": "Prokofiev’s student training"
@@ -1313,12 +1313,12 @@
    "to": "prokofiev",
    "kind": "studied-with",
    "year": 1906,
-   "title": "Lyadov’s rules meet an impatient modernist",
+   "title": "Lyadov’s rules and an impatient modernist",
    "works": {
     "from": "Anatoly Lyadov’s harmony and counterpoint teaching",
     "to": "Prokofiev’s St Petersburg Conservatory studies"
    },
-   "claim": "<p>Prokofiev found Anatoly Lyadov’s harmony and counterpoint lessons uninspiring. Lyadov, in turn, was alarmed by the traces of Scriabin in his pupil’s 1909 examination pieces.</p>",
+   "claim": "<p>Prokofiev found Anatoly Lyadov’s harmony and counterpoint lessons uninspiring. Lyadov was alarmed by the traces of Scriabin in his pupil’s 1909 examination pieces.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1339,12 +1339,12 @@
    "to": "prokofiev",
    "kind": "studied-with",
    "year": 1909,
-   "title": "Conducting lessons plant the Classical Symphony",
+   "title": "Conducting lessons and the Classical Symphony",
    "works": {
     "from": "Nikolai Tcherepnin’s conducting classes and Haydn/Mozart study",
     "to": "Prokofiev’s training; Piano Concerto No. 1 dedication"
    },
-   "claim": "<p>Nikolai Tcherepnin taught Prokofiev conducting and encouraged his close study of Haydn and Mozart. Prokofiev dedicated his First Piano Concerto to him, while the Tcherepnin Society’s account connects those classical studies with the later conception of the <i>Classical Symphony</i>.</p>",
+   "claim": "<p>Nikolai Tcherepnin taught Prokofiev conducting and encouraged his close study of Haydn and Mozart. Prokofiev dedicated his First Piano Concerto to him. The Tcherepnin Society’s account connects those classical studies with the later conception of the <i>Classical Symphony</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1365,7 +1365,7 @@
    "to": "prokofiev",
    "kind": "studied-with",
    "year": 1902,
-   "title": "Glière visits the child composer at home",
+   "title": "Glière’s visit to the child composer’s home",
    "works": {
     "from": "Reinhold Glière’s summer composition teaching",
     "to": "Prokofiev’s lessons at Sontsovka, 1902–1903"
@@ -1386,12 +1386,12 @@
    "to": "prokofiev",
    "kind": "modelled",
    "year": 1917,
-   "title": "Haydn’s orchestra, with modern wrong turns",
+   "title": "Haydn’s orchestra and modern departures from it",
    "works": {
     "from": "Haydn’s symphonic style and orchestral practice",
     "to": "Symphony No. 1 in D major, Op. 25, Classical"
    },
-   "claim": "<p>Writing his <i>Classical Symphony</i> in 1916–17, Prokofiev wondered how [[haydn]] might compose in the modern world. He kept the compact orchestra and four movements, threw in abrupt turns of harmony, and put a gavotte where Haydn usually put a minuet.</p>",
+   "claim": "<p>Prokofiev wrote his <i>Classical Symphony</i> in 1916–17, asking himself how [[haydn]] might compose if he were alive in the modern world. He kept the compact orchestra and the four movements, added abrupt turns of harmony, and used a gavotte where Haydn usually wrote a minuet.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1419,12 +1419,12 @@
    "to": "prokofiev",
    "kind": "championed",
    "year": 1915,
-   "title": "Diaghilev rejects one ballet and orders another",
+   "title": "Diaghilev’s rejection of one ballet, commission of another",
    "works": {
     "from": "Diaghilev’s Ballets Russes commissions",
     "to": "Ala et Lolly; Chout; Scythian Suite"
    },
-   "claim": "<p>Diaghilev commissioned <i>Ala et Lolly</i> after meeting Prokofiev in 1914, rejected it, then ordered the Russian folk-tale ballet <i>Chout</i>. Prokofiev rescued the rejected music for his <i>Scythian Suite</i>.</p>",
+   "claim": "<p>Diaghilev commissioned <i>Ala et Lolly</i> after meeting Prokofiev in 1914. He rejected it and then ordered <i>Chout</i>, a ballet on a Russian folk tale. Prokofiev reused the rejected music in his <i>Scythian Suite</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1440,12 +1440,12 @@
    "to": "prokofiev",
    "kind": "reacted-against",
    "year": 1922,
-   "title": "A piano audition turns into a quarrel",
+   "title": "A piano audition and a quarrel",
    "works": {
     "from": "Stravinsky’s criticism at Diaghilev’s 1922 audition",
     "to": "The Love for Three Oranges and Prokofiev’s response"
    },
-   "claim": "<p>At a 1922 piano presentation of <i>The Love for Three Oranges</i> for Diaghilev, [[stravinsky]] objected to the opera and quarrelled with Prokofiev. The two had once sat at the piano together to play <i>Petrushka</i>.</p>",
+   "claim": "<p>At a 1922 piano presentation of <i>The Love for Three Oranges</i> for Diaghilev, [[stravinsky]] objected to the opera and quarrelled with Prokofiev. Earlier, the two had sat at the piano together to play <i>Petrushka</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1466,12 +1466,12 @@
    "to": "prokofiev",
    "kind": "modelled",
    "year": 1938,
-   "title": "Film follows music; music follows film",
+   "title": "Film and music",
    "works": {
     "from": "Sergei Eisenstein’s Alexander Nevsky, film",
     "to": "Alexander Nevsky film score; concert cantata, Op. 78"
    },
-   "claim": "<p>For <i>Alexander Nevsky</i>, Eisenstein sometimes shaped images to Prokofiev’s music; elsewhere Prokofiev composed to the images. In 1939 he recast the previous year’s film score as a concert cantata.</p>",
+   "claim": "<p>For <i>Alexander Nevsky</i>, Eisenstein sometimes shaped images to Prokofiev’s music; elsewhere Prokofiev composed to the images. In 1939 Prokofiev recast the previous year’s film score as a concert cantata.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1492,7 +1492,7 @@
    "to": "prokofiev",
    "kind": "depicted",
    "year": 1935,
-   "title": "Romeo and Juliet nearly survived the ballet",
+   "title": "Romeo and Juliet ballet: the abandoned happy ending",
    "works": {
     "from": "Romeo and Juliet",
     "to": "Romeo and Juliet, ballet, Op. 64"
@@ -1513,12 +1513,12 @@
    "to": "prokofiev",
    "kind": "set-text",
    "year": 1936,
-   "title": "Prokofiev’s Onegin waits for a cancelled production",
+   "title": "Prokofiev’s Onegin and a cancelled production",
    "works": {
     "from": "Eugene Onegin, verse novel",
     "to": "Eugene Onegin, incidental music, Op. 71"
    },
-   "claim": "<p>Prokofiev wrote <i>Eugene Onegin</i> music for Alexander Tairov’s planned stage production in 1936, setting spoken voices against an orchestra. The production was cancelled; the score survived.</p>",
+   "claim": "<p>Prokofiev wrote <i>Eugene Onegin</i> music for Alexander Tairov’s planned stage production in 1936, setting spoken voices against an orchestra. The production was cancelled, and the score survived.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1534,12 +1534,12 @@
    "to": "prokofiev",
    "kind": "modelled",
    "year": 1933,
-   "title": "Christian Science enters the composer’s own account",
+   "title": "Christian Science in the composer’s own account",
    "works": {
     "from": "Science and Health with Key to the Scriptures; Christian Science teaching",
     "to": "Prokofiev’s diaries and 31 January 1933 letter to Eve Crain"
    },
-   "claim": "<p>Prokofiev’s diaries record his reading of Mary Baker Eddy’s <i>Science and Health</i> and his interest in Christian Science from 1924. In a letter of 1933, he connected the faith with his work as a composer.</p>",
+   "claim": "<p>Prokofiev’s diaries record his reading of Mary Baker Eddy’s <i>Science and Health</i> and his interest in Christian Science from 1924. In a letter of 1933 he connected the faith with his work as a composer.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1555,7 +1555,7 @@
    "to": "prokofiev",
    "kind": "set-text",
    "year": 1917,
-   "title": "Dostoevsky’s obsession becomes an opera",
+   "title": "Opera after Dostoevsky",
    "works": {
     "from": "The Gambler",
     "to": "The Gambler, opera, Op. 24, 1915–1917; revised 1927–1928"
@@ -1576,7 +1576,7 @@
    "to": "prokofiev",
    "kind": "set-text",
    "year": 1941,
-   "title": "Tolstoy’s invasion meets a second invasion",
+   "title": "Tolstoy’s invasion and a second invasion",
    "works": {
     "from": "War and Peace",
     "to": "War and Peace, opera, Op. 91, begun 1941"
@@ -1593,7 +1593,7 @@
   },
   {
    "id":"corelli-folia--rachmaninoff-op42","from":"corelli","to":"rachmaninoff","kind":"quoted","year":1931,
-   "title":"Rachmaninoff’s Corelli theme is the older Folia","thread":"la-folia",
+   "title":"Rachmaninoff’s Corelli theme as the older Folia","thread":"la-folia",
    "works":{"from":"Corelli, Sonata Op. 5 No. 12, Follia (1700), inherited theme","to":"Variations on a Theme of Corelli, Op. 42 (1931)"},
    "claim":"<p>Rachmaninoff composed his <i>Variations on a Theme of Corelli</i> in May and June 1931. The theme is the old Folia melody that Corelli had used for his Op. 5 finale.</p>",
    "status":"documented","note":"The route by which Rachmaninoff knew the Folia remains uncertain. Kreisler is often proposed as the intermediary; the critical discussion also points to Rachmaninoff’s familiarity with Liszt’s Rhapsodie espagnole.",

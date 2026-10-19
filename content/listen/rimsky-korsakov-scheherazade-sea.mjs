@@ -19,57 +19,57 @@ export default {
   "forces": "Orchestra with solo violin",
   "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
   "recorded": "3–4 March 1942",
-  "intro": "A stern phrase for brass and strings, answered by one violin over a harp: the Sultan and Scheherazade are already in the room. Pierre Monteux conducts the San Francisco Symphony, with Naoum Blinder as the storyteller.",
+  "intro": "The first movement of <i>Scheherazade</i>, Op. 35, opens with a phrase for brass and strings, followed by a solo violin over a harp, representing the Sultan and Scheherazade. Pierre Monteux conducts the San Francisco Symphony, with Naoum Blinder playing the solo violin part.",
   "sections": [
     {
       "t": 0,
       "label": "Intro · Brass and strings in unison",
       "m": "Intro",
-      "mNote": "The Sultan’s descending phrase, marked Largo e maestoso"
+      "mNote": "The Sultan’s descending phrase, marked Largo e maestoso."
     },
     {
       "t": 30,
       "label": "Frame · Violin over harp chords",
       "m": "Frame",
-      "mNote": "The violin’s winding recitative introduces Scheherazade"
+      "mNote": "The violin’s winding recitative introduces Scheherazade."
     },
     {
       "t": 68,
-      "label": "A · Strings set the waves moving",
+      "label": "A · Strings, Allegro non troppo",
       "m": "A",
-      "mNote": "Allegro non troppo: rolling accompaniment beneath the long tune"
+      "mNote": "Allegro non troppo; rolling accompaniment beneath the long tune."
     },
     {
       "t": 162,
-      "label": "B · Solo winds between the waves",
+      "label": "B · Horn and woodwind solos",
       "m": "B",
-      "mNote": "Horn and woodwind solos replace the massed orchestra"
+      "mNote": "Horn and woodwind solos follow the full-orchestra passages."
     },
     {
       "t": 220,
-      "label": "Dev · Strings and brass gather again",
+      "label": "Dev · Strings and brass return",
       "m": "Dev",
-      "mNote": "The sea tune grows above the moving strings"
+      "mNote": "The sea theme builds above the moving strings."
     },
     {
       "t": 370,
-      "label": "A′ · The sea theme returns",
+      "label": "A′ · Sea theme returns",
       "m": "A′",
-      "mNote": "The broad tune rides over the rolling accompaniment"
+      "mNote": "The broad theme sounds over the rolling accompaniment."
     },
     {
       "t": 420,
-      "label": "Coda · The waves settle in E major",
+      "label": "Coda · E major, wind and strings",
       "m": "Coda",
-      "mNote": "Wind chords and plucked strings bring the movement to rest"
+      "mNote": "Wind chords and pizzicato strings close the movement."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The Sultan’s first word",
-      "text": "Brass, low woodwinds and strings deliver a descending phrase in octaves. <i>Largo e maestoso</i> — broad and majestic. The strings press heavily into their notes, and pauses break up the phrase before the winds answer softly.",
+      "title": "Opening phrase in octaves",
+      "text": "Brass, low woodwinds and strings play a descending phrase in octaves, marked <i>Largo e maestoso</i>. The strings are marked <i>pesante</i>. Pauses break up the phrase, and soft wind chords follow.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, first movement, pp. 1–2: Largo e maestoso, strings marked pesante, and the quiet wind chords. https://archive.org/download/Cantorion_sheet_music_collection_5/a2f9ec91cec0e2d1d7dd842aa83ea8fb.pdf"
@@ -77,8 +77,8 @@ export default {
     {
       "t": 30,
       "kind": "music",
-      "title": "One violin answers",
-      "text": "Scheherazade’s violin winds above the harp. The score marks it <i>Recitativo</i>: a singer’s freedom, with no words. After the orchestra’s heavy opening, Naoum Blinder has room to turn a single phrase into a tale.",
+      "title": "Solo violin and harp",
+      "text": "After the heavy orchestral opening, the solo violin, Scheherazade’s theme, plays above the harp. The score marks the passage Lento and <i>Recitativo</i>. Naoum Blinder is the soloist.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, first movement, p. 2: Lento, Recitativo, solo violin and harp. Blinder is credited in the recording documentation: https://archive.org/metadata/Sheherazade/metadata."
@@ -86,8 +86,8 @@ export default {
     {
       "t": 68,
       "kind": "form",
-      "title": "The strings make waves",
-      "text": "<i>Allegro non troppo</i>. The strings begin their rolling accompaniment, and the Sultan’s stern phrase becomes the broad sea tune. Its long notes ride over the quicker motion below; the same melody has put out to sea.",
+      "title": "Allegro non troppo, sea theme",
+      "text": "<i>Allegro non troppo</i>. The strings begin a rolling accompaniment, and the Sultan’s phrase returns as the broad sea theme. Its long notes are held over the quicker motion below.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, first movement, p. 2 onwards. Paul Serotsky describes the opening motto’s transformation into the sea music: https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm."
@@ -95,8 +95,8 @@ export default {
     {
       "t": 120,
       "kind": "life",
-      "title": "Three years at sea",
-      "text": "At twelve, Rimsky-Korsakov enters naval college. He begins his First Symphony before a three-year voyage, then returns to a life divided between music and the navy. For years his jobs include inspecting naval bands.",
+      "title": "Naval career",
+      "text": "Rimsky-Korsakov entered naval college at twelve. He began his First Symphony before a three-year voyage, and on his return divided his life between music and the navy. For years his posts included inspecting naval bands.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Orrin Howard, LA Philharmonic programme note, documents the naval training, voyage, First Symphony and band-inspection work. https://www.laphil.com/works/scheherazade-last-movement"
@@ -104,8 +104,8 @@ export default {
     {
       "t": 239,
       "kind": "world",
-      "title": "A story buys another night",
-      "text": "In <i>The Thousand and One Nights</i>, Scheherazade keeps her husband waiting for the end of each story. The Sultan postpones her execution to hear what happens next. Rimsky-Korsakov gives this woman one violin against a whole orchestra.",
+      "title": "Scheherazade and the Sultan",
+      "text": "In <i>The Thousand and One Nights</i>, Scheherazade leaves each story unfinished at the end of the night. The Sultan postpones her execution so that he can hear the rest. Rimsky-Korsakov gave her a solo violin, which plays against the full orchestra.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Herbert Glass, LA Philharmonic programme note, explains the framing tale and the solo violin’s association with Scheherazade. https://www.laphil.com/works/scheherazade"
@@ -113,8 +113,8 @@ export default {
     {
       "t": 359,
       "kind": "world",
-      "title": "San Francisco, March 1942",
-      "text": "Monteux and the San Francisco Symphony make this recording at the War Memorial Opera House on 3–4 March 1942. Naoum Blinder plays the violin solos. The complete suite fills Victor’s 78-rpm album DM-920.",
+      "title": "Recording, San Francisco, March 1942",
+      "text": "Monteux and the San Francisco Symphony made this recording at the War Memorial Opera House on 3–4 March 1942. Naoum Blinder played the violin solos. The complete suite filled Victor’s 78-rpm album DM-920.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The original transfer documentation gives the venue, sessions, performers and Victor album number. https://archive.org/metadata/Sheherazade/metadata"
@@ -122,8 +122,8 @@ export default {
     {
       "t": 370,
       "kind": "form",
-      "title": "The sea tune returns",
-      "text": "The broad sea tune returns over the rolling strings. Brass and strings enlarge a melody that began as the Sultan’s solitary command. The accompaniment keeps rising and falling beneath its long notes.",
+      "title": "Return of the sea theme",
+      "text": "The broad sea tune returns over rolling string figures. Brass and strings now play the melody, which first appeared as the Sultan’s unaccompanied theme. Beneath its long notes the accompaniment rises and falls.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, first movement, later return of the Allegro material; Serotsky describes the alternating orchestral crests and quieter solo episodes. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -131,8 +131,8 @@ export default {
     {
       "t": 420,
       "kind": "form",
-      "title": "E major, at rest",
-      "text": "The closing pages settle into E major. Small solo phrases remain among the strings and winds; at the very end a cello’s rising and falling figure rests beneath held wind chords. The strings finish with soft plucked notes.",
+      "title": "Closing pages in E major",
+      "text": "The closing pages are in E major. Short solo phrases continue in the strings and winds. At the end a solo cello plays a rising and falling figure under held wind chords, and the strings finish with soft pizzicato notes.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, first movement, closing pages, especially p. 23: solo cello, sustained winds and pizzicato strings. https://archive.org/download/Cantorion_sheet_music_collection_5/a2f9ec91cec0e2d1d7dd842aa83ea8fb.pdf"
@@ -141,12 +141,12 @@ export default {
   "transitions": [
     {
       "id": "join-1",
-      "title": "Wind chords leave room for violin",
+      "title": "Wind chords before the violin recitative",
       "from": "Intro · Brass and strings in unison",
       "to": "Frame · Violin over harp chords",
       "at": { "t": 30 },
       "span": [20, 45],
-      "how": "<p>The heavy opening stops. Soft wind chords, separated by fermatas, prepare the violin’s <i>Lento</i> recitative. Harp chords replace the orchestral bass, and the violin climbs into its winding, <i>espressivo</i> line.</p>",
+      "how": "<p>The heavy opening stops. Soft wind chords, separated by fermatas, lead to the violin’s <i>Lento</i> recitative. Harp chords replace the orchestral bass, and the violin climbs into its winding <i>espressivo</i> line.</p>",
       "devices": ["fermata", "orchestration change", "register change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -154,12 +154,12 @@ export default {
     },
     {
       "id": "join-2",
-      "title": "The strings begin to roll",
+      "title": "From violin cadenza to Allegro non troppo",
       "from": "Frame · Violin over harp chords",
-      "to": "A · Strings set the waves moving",
+      "to": "A · Strings, Allegro non troppo",
       "at": { "t": 68 },
       "span": [58, 83],
-      "how": "<p>A cadenza and held violin note end the recitative. At <i>Allegro non troppo</i>, the key signature changes to E minor. Violas and cellos begin their rolling figures; the violins take up the broad tune above them, with winds sustaining the harmony.</p>",
+      "how": "<p>A cadenza and a held violin note end the recitative. At <i>Allegro non troppo</i> the key signature changes to E minor. Violas and cellos begin rolling figures, the violins take up the broad tune above them, and the winds sustain the harmony.</p>",
       "devices": ["cadenza", "tempo change", "texture change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -258,7 +258,7 @@ export default {
           "cellos",
           "violins-1"
         ],
-        "note": "At Allegro non troppo, moving violas and cellos carry the waves beneath the violin tune."
+        "note": "At the Allegro non troppo, the violas and cellos play the wave figures beneath the violin tune."
       },
       {
         "t": 110,
@@ -304,7 +304,7 @@ export default {
           "bassoons",
           "violins-1"
         ],
-        "note": "Woodwind solos emerge between the strings’ rolling phrases."
+        "note": "Woodwind solos enter between the string phrases."
       },
       {
         "t": 220,
@@ -350,7 +350,7 @@ export default {
           "clarinets",
           "violins-1"
         ],
-        "note": "Wind solos and string replies emerge as the brass falls silent."
+        "note": "The brass stops, and solo wind instruments play, answered by the strings."
       },
       {
         "t": 370,
@@ -396,7 +396,7 @@ export default {
           "clarinets",
           "cellos"
         ],
-        "note": "Held wind chords settle above the strings’ continuing motion."
+        "note": "The wind hold chords above the continuing motion in the strings."
       },
       {
         "t": 474,
@@ -415,7 +415,7 @@ export default {
         "lead": [
           "cellos"
         ],
-        "note": "A solo cello winds beneath held woodwinds; plucked string chords finish the E-major cadence."
+        "note": "A solo cello plays beneath held woodwinds; plucked string chords complete the E-major cadence."
       }
     ],
     "solo": "solo-violin"

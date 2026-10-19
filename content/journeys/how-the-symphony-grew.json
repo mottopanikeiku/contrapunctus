@@ -1,25 +1,25 @@
 {
   "id": "how-the-symphony-grew",
   "title": "How the symphony grew",
-  "subtitle": "From Haydn’s sudden chord to Mahler’s last few strings",
+  "subtitle": "Haydn’s sudden chord to Mahler’s last few strings",
   "minutes": 24,
   "hero": { "file": "File:Hanover-Square-Rooms-concert.jpg", "caption": "A concert in London’s Hanover Square Rooms. Engraving in <i>The Illustrated London News</i>, 24 June 1843." },
-  "intro": "At the Hanover Square Rooms in 1792, Haydn startles London with a single chord. A little over a century later, the last page of Mahler’s Ninth needs only strings, soft enough to make the gaps between phrases feel enormous.",
+  "intro": "At the Hanover Square Rooms in 1792, Haydn startled London with a single chord. A little over a century later, the last page of Mahler’s Ninth needs only strings, played softly.",
   "stations": [
     {
       "id": "s1",
-      "title": "Haydn sets a trap",
+      "title": "Haydn’s surprise",
       "listen": { "id": "haydn-94-andante", "from": 0, "to": 164 },
       "art": null,
       "score": null,
       "map": { "composer": "haydn", "year": 1791 },
       "edge": null,
       "compare": null,
-      "text": "<p>London, 23 March 1792. At Salomon’s concert in the Hanover Square Rooms, Haydn’s new symphony lets the strings play a tune of almost nursery simplicity. They repeat it more softly. Then the whole orchestra lands on one fortissimo chord, with timpani. The joke has survived two centuries of advance warning. Haydn wrote the symphony during his first London visit; the slow movement turns its little C-major tune into a set of variations. In the first, the second violins and violas keep the melody while the first violins run semiquavers around it.</p>",
+      "text": "<p>London, 23 March 1792. At Salomon’s concert in the Hanover Square Rooms, Haydn’s new symphony had the strings play a short, plain tune. They repeat it more softly. Then the whole orchestra plays one fortissimo chord, with timpani. Haydn wrote the symphony during his first London visit. The slow movement sets its C-major tune as a series of variations. In the first variation the second violins and violas keep the melody while the first violins play semiquavers around it.</p>",
       "cues": [
-        { "at": 0, "text": "The strings begin a little C-major tune, with a bass note at the start of each bar." },
+        { "at": 0, "text": "The strings begin a short tune in C major, with a bass note at the start of each bar." },
         { "at": 38, "text": "The quiet repeat ends with a single fortissimo chord from the whole orchestra, including timpani." },
-        { "at": 94, "text": "The first violins run semiquavers around the tune, now held by second violins and violas." }
+        { "at": 94, "text": "The first violins play semiquavers around the tune, now held by the second violins and violas." }
       ],
       "sources": [
         { "title": "Orrin Howard, LA Phil: Symphony No. 94 — London, date, forces and variations", "url": "https://www.laphil.com/works/symphony-no-94-surprise" },
@@ -31,18 +31,18 @@
     },
     {
       "id": "s2",
-      "title": "Mozart comes home by another road",
+      "title": "Mozart’s return by a different route",
       "listen": { "id": "mozart-40-molto-allegro", "from": 120, "to": 338 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Three years before Haydn’s London visit, Mozart wrote his G-minor Symphony, K. 550. Its opening violin figure has a nervous insistence: in the development, scraps of it pass between strings and winds, each repetition landing somewhere less settled. Mozart then brings the opening back to G minor. The return is longer than the first statement because the bridge between the themes keeps travelling. And the second theme, which first appeared in B♭ major, comes back in G minor. Its gentle phrases sound pinched and darker now, with semitones rubbing together in the woodwind and strings.</p>",
+      "text": "<p>Three years before Haydn’s London visit, Mozart wrote his G-minor Symphony, K. 550. It opens with a repeated figure in the violins. In the development, fragments of it pass between strings and winds, and each repetition moves into a less stable key. Mozart then brings the opening back in G minor. The recapitulation is longer than the exposition because the bridge between the themes modulates further. The second theme, first heard in B♭ major, returns in G minor, with semitone clashes in the woodwind and strings.</p>",
       "cues": [
         { "at": 130, "text": "Scraps of the opening violin figure pass between instruments and through changing keys." },
-        { "at": 205, "text": "The opening returns in G minor; the bridge between the themes now takes a longer route." },
-        { "at": 280, "text": "The second theme comes back in G minor, darkening its earlier B♭-major phrases." }
+        { "at": 205, "text": "The opening returns in G minor; the bridge between the themes is now longer." },
+        { "at": 280, "text": "The second theme returns in G minor; it was first heard in B♭ major." }
       ],
       "sources": [
         { "title": "Matthew Lorenzon, ABC Classic: Mozart’s Symphony No. 40 and sonata form", "url": "https://www.abc.net.au/listen/classic/read-and-watch/music-reads/mozart-symphony-no-40-sonata-form/10160386" },
@@ -52,17 +52,17 @@
     },
     {
       "id": "s3",
-      "title": "Mozart fits five tunes together",
+      "title": "Mozart: five themes in combination",
       "listen": { "id": "mozart-41-finale", "from": 226, "to": 436.8 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>By the end of the <i>Jupiter</i> finale, the orchestra seems crowded with people who all have something to say. The four-note tune C–D–F–E keeps its long notes while quicker figures hurry past it; one part can begin before another has finished. Mozart wrote this symphony in the same summer of 1788 as the G-minor. Here the return to C major has still more work ahead. Five themes fit together in the coda, each keeping its own rhythm as they pass between the instruments. Trumpets and timpani join the final C-major chords.</p>",
+      "text": "<p>Mozart wrote the <i>Jupiter</i> Symphony in the summer of 1788, the same summer as the G-minor. In the finale the four-note tune C–D–F–E keeps its long notes while quicker figures pass it, and one part can begin before another has finished. The return to C major is followed by further development. In the coda five themes are combined, each keeping its own rhythm as they pass between the instruments. Trumpets and timpani join the final C-major chords.</p>",
       "cues": [
         { "at": 245, "text": "The four-note tune returns in C major, with quicker figures moving around it." },
-        { "at": 385, "text": "Five themes fit together in the coda: long notes cross paths with running figures and short replies." },
+        { "at": 385, "text": "In the coda five themes are combined, with long notes set against running figures and short replies." },
         { "at": 420, "text": "Trumpets and timpani reinforce the final C-major chords as the running lines converge." }
       ],
       "sources": [
@@ -74,19 +74,19 @@
     },
     {
       "id": "s4",
-      "title": "Beethoven stops for an oboe",
+      "title": "Beethoven: a pause for an oboe",
       "listen": { "id": "beethoven-5-first", "from": 203.1, "to": 402.2 },
       "art": null,
       "score": { "listen": "beethoven-5-first", "bar": "125" },
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>The Fifth’s opening rhythm keeps working long after its first thunderous statement. In the development it passes between instruments and through changing keys; eventually the exchanges shrink to isolated chords, with silence between the replies. When the opening returns at bar 248, winds and brass reinforce it. Then Beethoven does something astonishingly small. At bar 268 the orchestra stops, leaving an oboe alone in an <i>Adagio</i>. A whole argument waits for one player to finish. Later, bassoons take the call previously played by horns, and the second theme returns in C major, a minor third below its earlier E♭ major.</p>",
+      "text": "<p>The Fifth’s opening rhythm continues to work long after its first statement. In the development it passes between instruments and through changing keys, and the exchanges eventually shrink to isolated chords, with silence between the replies. When the opening returns at bar 248, winds and brass reinforce it. At bar 268 the orchestra stops, leaving an oboe alone in an <i>Adagio</i>. Later, bassoons take the call previously played by horns, and the second theme returns in C major, a minor third below its earlier E♭ major.</p>",
       "cues": [
-        { "at": 203.1, "text": "The opening rhythm travels through new pitches and keys as the development begins." },
+        { "at": 203.1, "text": "The opening rhythm moves through new pitches and keys as the development begins." },
         { "at": 257.23, "text": "Winds and strings exchange slow chords; the replies grow shorter, with rests between them." },
         { "at": 295.7, "text": "The opening returns, with winds and brass reinforcing its short-note rhythm." },
-        { "at": 314.496, "text": "At bar 268 the orchestra pauses and one oboe plays an unaccompanied <i>Adagio</i>." },
+        { "at": 314.496, "text": "At bar 268 the orchestra stops and one oboe plays an unaccompanied <i>Adagio</i>." },
         { "at": 349.7, "text": "Bassoons take the horns’ old call before the second theme returns in C major." }
       ],
       "sources": [
@@ -104,11 +104,11 @@
       "map": null,
       "edge": "beethoven-9-finale--brahms-1-finale-theme",
       "compare": null,
-      "text": "<p>In 1868 Brahms sent Clara Schumann a melody from the Bernese Alps, with the words: “High on the mountain, deep in the valley, I greet you many thousand times.” Eight years later a horn sings a version of that greeting in the finale of his First Symphony. The strings tremble beneath it; flutes take over the call. Then trombones and bassoons play a short chorale. The great string tune of the main Allegro is still to come, but Brahms has already planted his ending: this compact chorale will return, blazing, in the coda.</p>",
+      "text": "<p>In 1868 Brahms sent Clara Schumann a melody from the Bernese Alps, with the words: “High on the mountain, deep in the valley, I greet you many thousand times.” Eight years later a horn plays a version of that melody in the finale of his First Symphony, over tremolo strings; flutes then take it over. Trombones and bassoons follow with a short chorale. All this comes before the long string theme of the main Allegro. The chorale returns, played loud, in the coda.</p>",
       "cues": [
-        { "at": 190, "text": "The long wind call stretches above strings trembling on rapidly repeated notes." },
-        { "at": 228, "text": "Trombones and bassoons play a short chorale. Brahms saves its next appearance for the coda." },
-        { "at": 266, "text": "The call subsides, leaving room for the main Allegro that follows this excerpt." }
+        { "at": 190, "text": "The long wind call is held above strings playing rapidly repeated notes." },
+        { "at": 228, "text": "Trombones and bassoons play a short chorale. It does not appear again until the coda." },
+        { "at": 266, "text": "The call dies away, and the main Allegro follows after this excerpt." }
       ],
       "sources": [
         { "title": "Brahms-Institut: Symphony No. 1, first-edition finale score", "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_erstdrucke/op_068_part_s_043.html" },
@@ -120,19 +120,19 @@
     },
     {
       "id": "s6",
-      "title": "Bruckner keeps the strings running",
+      "title": "Bruckner and the string writing",
       "listen": { "id": "bruckner-7-scherzo", "from": 0, "to": 198 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>A little repeated figure in the strings starts the Seventh’s scherzo in A minor. Over it comes a trumpet call, answered by clarinet; that small exchange will help fill a movement of enormous orchestral surges. Bruckner keeps returning to the same scraps, moving them between instruments and building them into long crescendos. Between the outbursts, the brass can be unexpectedly gentle: trombones and tuba join a soft chorale while the strings keep moving. Another swell gathers before the excerpt ends. Beyond it lies the slower F-major trio, with a violin song introduced by quiet timpani.</p>",
+      "text": "<p>A short repeated figure in the strings opens the scherzo of the Seventh, in A minor. Over it a trumpet plays a call and the clarinet answers; this exchange supplies much of the material for a movement built on large orchestral crescendos. Bruckner returns repeatedly to the same short figures, moves them between instruments and builds them into long crescendos. Between the loud passages the brass play quietly: trombones and tuba join in a soft chorale while the strings continue to move. Another crescendo begins before the excerpt ends. After it comes the slower trio in F major, in which quiet timpani introduce a melody for the violins.</p>",
       "cues": [
-        { "at": 0, "text": "A small repeated string figure starts the scherzo; a trumpet call rises above it." },
-        { "at": 40, "text": "Brass and timpani join the rushing strings in the first great outburst." },
-        { "at": 115, "text": "Trombones and tuba play softly within the quieter passage; the strings remain busy beneath them." },
-        { "at": 155, "text": "The strings gather winds and brass into another crescendo before the slower trio." }
+        { "at": 0, "text": "A short repeated figure in the strings opens the scherzo, and a trumpet call rises above it." },
+        { "at": 40, "text": "Brass and timpani join the strings in the first loud passage." },
+        { "at": 115, "text": "Trombones and tuba play softly in the quieter passage; the strings stay busy beneath them." },
+        { "at": 155, "text": "Winds and brass join the strings in another crescendo before the slower trio." }
       ],
       "sources": [
         { "title": "Bruckner, Seventh Symphony: 1885 full score, Scherzo and Trio", "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)" },
@@ -143,19 +143,19 @@
     },
     {
       "id": "s7",
-      "title": "Tchaikovsky lets the basses fade",
+      "title": "Tchaikovsky’s fading basses",
       "listen": { "id": "tchaikovsky-6-finale", "from": 486, "to": 618.97 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>In Klin on 23 February 1893, Tchaikovsky told his nephew Vladimir Davydov that the Sixth would end with “the most drawn-out <i>Adagio</i>”. He was delighted with the new symphony. Here, after the low-brass chorale, a melody previously heard in D major returns in B minor. It still has strength for one last swell. Then the orchestra falls away around the low strings, and the double basses keep repeating B as the sound thins. Their pulse grows softer until it can scarcely be heard.</p>",
+      "text": "<p>In Klin on 23 February 1893, Tchaikovsky told his nephew Vladimir Davydov that the Sixth would end with “the most drawn-out <i>Adagio</i>”. He was delighted with the new symphony. Here, after the low-brass chorale, a melody first heard in D major returns in B minor and rises to one last climax. The orchestra then drops out until only the low strings remain, and the double basses repeat B as the texture thins. Their pulse grows softer until it is barely audible.</p>",
       "cues": [
         { "at": 524, "text": "The second theme returns in B minor, over the low B in the basses." },
-        { "at": 545, "text": "The strings rise into one last swell before the long retreat." },
-        { "at": 585, "text": "The remaining phrase sinks towards the low strings and their repeated bass pulse." },
-        { "at": 608, "text": "The double basses’ B grows softer as the symphony reaches its quiet end." }
+        { "at": 545, "text": "The strings play one last swell." },
+        { "at": 585, "text": "The remaining phrase descends towards the low strings and their repeated bass pulse." },
+        { "at": 608, "text": "The double basses hold a B, growing softer, as the symphony ends quietly." }
       ],
       "sources": [
         { "title": "Tchaikovsky Research: Symphony No. 6 and Letter 4865, 11/23 February 1893", "url": "https://en.tchaikovsky-research.net/pages/Symphony_No._6" },
@@ -167,17 +167,17 @@
     },
     {
       "id": "s8",
-      "title": "Mahler leaves room for silence",
+      "title": "Mahler and silence in the symphony",
       "listen": { "id": "mahler-9-adagio", "from": 950, "to": 1110.3 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>The last page of Mahler’s Ninth begins with muted second violins. <i>Adagissimo</i>: slower still. Only strings remain, and the long melodies of the finale have broken into phrases of a few notes, separated by rests. Each attempt to continue seems to cost more time. The earlier climaxes are far behind, yet these tiny phrases keep finding somewhere to go. One note hangs after its companions have gone; another softly answers it. A viola’s small upward turn sounds inside the last D♭-major chord.</p>",
+      "text": "<p>The last page of Mahler’s Ninth begins with muted second violins. The marking is <i>Adagissimo</i>, slower still. Only strings remain, and the long melodies of the finale have broken into phrases of a few notes, separated by rests. One note is held after the others stop, and another, played softly, follows it. A viola plays a small upward turn inside the last D♭-major chord.</p>",
       "cues": [
         { "at": 960, "text": "<i>Adagissimo</i>: muted second violins begin the final page, with strings alone and long rests between phrases." },
-        { "at": 1080, "text": "The viola turns its phrase upwards inside the last D♭-major chord; the remaining notes fade." }
+        { "at": 1080, "text": "The viola plays its phrase upwards inside the last D♭-major chord, and the remaining notes die away." }
       ],
       "sources": [
         { "title": "Mahler, Ninth Symphony: first-edition score, finale, especially printed page 180", "url": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP353450-PMLP48640-Mahler_Symphony_9_.pdf" },

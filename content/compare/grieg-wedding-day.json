@@ -1,41 +1,41 @@
 {
   "id": "grieg-wedding-day",
-  "title": "Grieg plays his wedding march",
+  "title": "Wedding Day at Troldhaugen: Grieg and Vetter",
   "composer": "grieg",
   "work": "Wedding Day at Troldhaugen, Op. 65 No. 6",
-  "question": "How differently do Grieg and Harald Vetter make this wedding march dance?",
-  "intro": "More guests than expected arrived at Troldhaugen for Edvard and Nina Grieg’s silver wedding on 11 June 1892. Four years later, Grieg remembered the occasion in a piano piece, <i>Wedding Day at Troldhaugen</i>. His own 1903 disc squeezes the party into two minutes; Harald Vetter plays the complete piece.",
+  "question": "How do Grieg and Harald Vetter differ in treating this wedding march as a dance?",
+  "intro": "More guests than expected arrived at Troldhaugen for Edvard and Nina Grieg’s silver wedding on 11 June 1892. Four years later Grieg wrote a piano piece on the occasion, <i>Wedding Day at Troldhaugen</i>. His own 1903 recording shortens the piece to two minutes; Harald Vetter plays it complete.",
   "group": "composer-performers",
   "recordings": [
     {
       "listen": "grieg-wedding-day-grieg-1903",
       "label": "Edvard Grieg",
       "year": 1903,
-      "note": "The composer plays his own abridged version in Paris in 1903, with the march packed onto a short disc."
+      "note": "The composer played his own abridged version in Paris in 1903, with the march fitted onto a short disc."
     },
     {
       "listen": "grieg-wedding-day-vetter-2006",
       "label": "Harald Vetter",
       "year": 2006,
-      "note": "The complete piece, recorded on 4 October 2006, includes the quiet middle section and the march’s return."
+      "note": "The complete piece, recorded on 4 October 2006, includes the quiet middle section and the return of the march."
     }
   ],
   "reference": "grieg-wedding-day-grieg-1903",
   "passages": [
     {
-      "label": "The march steps out",
+      "label": "Opening march over low octaves",
       "t": 18,
-      "note": "Low octaves and clipped chords give the march its tread. Little triplets send the right hand skipping into the next phrase."
+      "note": "The march rests on low octaves and short, clipped chords. Triplets in the right hand lead into the next phrase."
     },
     {
-      "label": "The piano grows bolder",
+      "label": "March with firmer bass",
       "t": 52,
-      "note": "The march gathers strength, with firmer bass notes beneath the right hand’s chords."
+      "note": "The march continues with firmer bass notes beneath the right hand’s chords."
     },
     {
-      "label": "Full chords",
+      "label": "March in full chords",
       "t": 74,
-      "note": "The piano fills out the march in emphatic chords, keeping the short, lively figures between its heavier beats."
+      "note": "The piano plays the march in full chords and keeps the short, quick figures between the heavier beats."
     }
   ],
   "sources": [

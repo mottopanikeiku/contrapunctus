@@ -1,0 +1,24 @@
+{
+  "mutopia": 781,
+  "title": "Wedding-day at Troldhaugen, Op. 65 No. 6",
+  "edition": "G. Schirmer, 1903, edited by Louis Oesterle",
+  "encoder": "David Whipple",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=781",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "troldhaugen.ly",
+  "midi": "troldhaugen.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/GriegE/O65/troldhaugen/troldhaugen.ly",
+      "file": "troldhaugen.ly",
+      "sha256": "eed026a31dbbdba7b0e4a633ad651db6a4aae8dbaf6570f9edae5878606b072d"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/GriegE/O65/troldhaugen/troldhaugen.mid",
+      "file": "troldhaugen.mid",
+      "sha256": "668205876de4597aa3647f0f85bf40f056205512dcb265ca3f549f408e952225"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

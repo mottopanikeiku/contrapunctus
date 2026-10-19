@@ -14,28 +14,28 @@ export default {
   performers: 'Donald Betts',
   recorded: '2005',
   source: { file: 'File:Robert Schumann - scenes from childhood, op. 15 - ix. knight of the hobbyhorse.ogg' },
-  intro: 'A child gallops on a stick horse, and the piano takes the adventure seriously. C-major chords lurch off the beat while the bass keeps its seat.',
+  intro: '“Ritter vom Steckenpferd” (Knight of the Hobbyhorse), No. 9 of <i>Kinderszenen</i>, Op. 15, depicts a child galloping on a stick horse. Its C-major chords fall off the beat above a steady bass.',
 
   sections: [
-    { t: 0, label: 'A · Offbeat chords in C major', m: 'A', mNote: 'The right hand starts each bar with a rest' },
-    { t: 13, label: 'B · The gallop reaches fortissimo', m: 'B', mNote: 'Chromatic bass notes beneath the same bounding rhythm' },
+    { t: 0, label: 'A · Offbeat chords in C major', m: 'A', mNote: 'The right hand starts each bar with a rest.' },
+    { t: 13, label: 'B · Same rhythm at fortissimo', m: 'B', mNote: 'Chromatic bass notes beneath the same bounding rhythm' },
   ],
 
   cues: [
-    { t: 0, kind: 'music', title: 'A slightly lopsided gallop', text: 'The right hand misses the downbeat, then lands a chord halfway through the beat. Its long–short–long rhythm sits awkwardly in a three-beat bar. Accents make the toy horse buck.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, plate 6016, p. 13: 3/4, opening quaver rests, crotchet–quaver–crotchet chords and accents. https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf' },
-    { t: 13, kind: 'form', title: 'The horse keeps its rhythm', text: 'The second part keeps the gallop exactly as it was. New flats and sharps slip into the chords and bass; later the music reaches <i>fortissimo</i>. Both halves have repeat signs.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, p. 13: two repeated strains; chromatic writing in the second, followed by fortissimo.' },
-    { t: 28, kind: 'life', title: 'The children are getting older', text: 'On 6 July 1838 Schumann chases his publisher Raimund Härtel for news of <i>Kinderszenen</i>. “They will grow too old with time,” he writes. “Please — do not forget them; I long to see them.”', basis: 'documented', precision: 'passage', evidence: 'Schumann to Raimund Härtel, 6 July 1838, quoted in Thomas Synofzik, 175 Jahre Kinderszenen (2013), item 6. Translation from the German. https://www.schumann-zwickau.de/media/archiv-sonderausstellungen/2013_175_Jahre_Kinderszenen.pdf' },
+    { t: 0, kind: 'music', title: 'Opening rhythm and accents', text: 'The right hand rests on the downbeat and plays a chord halfway through the beat. Its long–short–long rhythm of crotchet, quaver and crotchet sits across the three-beat bar. Accents mark the chords.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, plate 6016, p. 13: 3/4, opening quaver rests, crotchet–quaver–crotchet chords and accents. https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf' },
+    { t: 13, kind: 'form', title: 'Second strain', text: 'The second part keeps the rhythm of the first unchanged. Chromatic notes enter the chords and bass, and the music later reaches <i>fortissimo</i>. Both halves have repeat signs.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, p. 13: two repeated strains; chromatic writing in the second, followed by fortissimo.' },
+    { t: 28, kind: 'life', title: 'Letter to Raimund Härtel, 1838', text: 'On 6 July 1838 Schumann wrote to his publisher Raimund Härtel asking for news of <i>Kinderszenen</i>. “They will grow too old with time,” he wrote. “Please — do not forget them; I long to see them.”', basis: 'documented', precision: 'passage', evidence: 'Schumann to Raimund Härtel, 6 July 1838, quoted in Thomas Synofzik, 175 Jahre Kinderszenen (2013), item 6. Translation from the German. https://www.schumann-zwickau.de/media/archiv-sonderausstellungen/2013_175_Jahre_Kinderszenen.pdf' },
   ],
 
   transitions: [
     {
       id: 'into-second-part',
-      title: 'New chords, the same horse',
+      title: 'First strain to second strain',
       from: 'A · Offbeat chords in C major',
-      to: 'B · The gallop reaches fortissimo',
+      to: 'B · Same rhythm at fortissimo',
       at: { t: 13 },
       span: [7, 20],
-      how: '<p>The first strain closes in C major. The second keeps the right hand’s quaver rest and bounding chords, while the left hand moves into chromatic notes. Its longer bass notes continue underneath the offbeat attacks; later, <i>fortissimo</i> gives the returning C-major chords an extra kick.</p>',
+      how: '<p>The first strain closes in C major. The second keeps the right hand’s quaver rest and offbeat chords, and the left hand moves into chromatic notes. Its longer bass notes continue underneath the offbeat attacks. Later the C-major chords return marked <i>fortissimo</i>.</p>',
       devices: ['motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

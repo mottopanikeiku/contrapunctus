@@ -100,6 +100,20 @@ def prime_initial_graces(voices, musicexp, parts, make_duration):
                     positions.append((part, name, music, index, event, lead))
                     found = True
                     break
+                if isinstance(event, musicexp.TimeScaledMusic):
+                    # A leading tuplet starts the voice's main time. Synchronize it
+                    # with a standalone grace skip before the tuplet, but only when
+                    # the tuplet's own opening carries no grace of its own.
+                    inner = event.element.elements if isinstance(event.element, musicexp.NestedMusic) else []
+                    opening = next((e for e in inner if e.get_length() > 0), None)
+                    if (opening is None or getattr(opening, 'grace_elements', None)
+                            or any(getattr(e, 'grace_elements', None) or isinstance(e, musicexp.MusicWrapper)
+                                   or (isinstance(e, musicexp.NestedMusic) and e.elements)
+                                   for e in inner[:inner.index(opening)])):
+                        raise ValueError('Initial grace synchronization does not guess through a leading tuplet')
+                    positions.append((part, name, music, index, event, Fraction(0)))
+                    found = True
+                    break
                 if ((isinstance(event, musicexp.NestedMusic) and event.elements)
                         or getattr(event, 'element', None) is not None or getattr(event, 'grace_elements', None)):
                     raise ValueError('Initial grace synchronization does not guess through leading nested music')

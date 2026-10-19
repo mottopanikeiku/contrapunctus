@@ -1,0 +1,60 @@
+{
+  "composer": "strozzi",
+  "items": [
+    {
+      "work": "La voce sola — songs from Opp. 2, 3, 5, 6, 7 and 8",
+      "year": "2021",
+      "performers": "Renata Dubinskaitė, mezzo-soprano; Canto Fiorito",
+      "recorded": "",
+      "label": "Brilliant Classics, 96436",
+      "note": "A survey of Strozzi’s books in chronological order, from Op. 2 to Op. 8, with Lagrime mie and what the label describes as the first recording of a piece without an opus number. The linked video is the complete album; the times below are the chapters given in its description.",
+      "links": [
+        { "kind": "youtube", "url": "https://www.youtube.com/watch?v=rWJeZKgzI2c", "title": "Brilliant Classics — Strozzi: La voce sola (complete album)" },
+        { "kind": "label", "url": "https://www.brilliantclassics.com/articles/s/strozzi-la-voce-sola/", "title": "Brilliant Classics — Strozzi: La voce sola, catalogue number 96436" }
+      ],
+      "moments": [
+        { "t": "0:00", "text": "L’amante segreto, Op. 2" },
+        { "t": "7:48", "text": "Riamata da chi amava, Op. 2" },
+        { "t": "13:00", "text": "Moralità amorosa, Op. 3" },
+        { "t": "16:53", "text": "O Maria, quam pulchra es, Op. 5" },
+        { "t": "23:11", "text": "Parla alli suoi pensieri, Op. 6" },
+        { "t": "27:45", "text": "Non vuole amar più, Op. 6" },
+        { "t": "31:07", "text": "Lagrime mie, Op. 7" },
+        { "t": "38:37", "text": "Havete torto, from Cantate à voce sola di diversi auttori" },
+        { "t": "42:26", "text": "Sino alla morte, Op. 7" },
+        { "t": "56:58", "text": "Che si può fare, Op. 8" }
+      ]
+    },
+    {
+      "work": "Lagrime mie, Op. 7",
+      "year": "Video published 2019",
+      "performers": "Mary Bevan, soprano; Elizabeth Kenny, theorbo; Orchestra of the Age of Enlightenment",
+      "recorded": "",
+      "label": "Orchestra of the Age of Enlightenment",
+      "note": "A performance by a soprano and a theorbo player, published on the orchestra’s own channel with details of its Strozzi concert at Kings Place, London. The piece is the lament that opens with the words “Lagrime mie”.",
+      "links": [
+        { "kind": "youtube", "url": "https://www.youtube.com/watch?v=1z2xtmkqaAs", "title": "Orchestra of the Age of Enlightenment — Lagrime Mie, Barbara Strozzi" },
+        { "kind": "publisher", "url": "https://oae.co.uk/lagrime-mie-barbara-strozzi", "title": "Orchestra of the Age of Enlightenment — Lagrime Mie, Barbara Strozzi" }
+      ]
+    },
+    {
+      "work": "Sacri musicali affetti, Op. 5",
+      "year": "2021",
+      "performers": "Aurata Fonte; Anna Simboli and Miho Kamiya, sopranos; Andrea Arrivabene, alto; Perikli Pite, viola da gamba; Valeria Montanari, harpsichord; Giuseppe Monari, organ",
+      "recorded": "",
+      "label": "Tactus, TC 611990",
+      "note": "The label calls this the first complete recording of the book. It comprises fourteen motets for solo voice on two discs, from Mater Anna to Iubilemus, and includes Oleum effusum and Surgite, surgite.",
+      "links": [
+        { "kind": "label", "url": "https://www.tactus.it/tc611990-barbara-strozzi-strozzi-sacri-musicali-affetti-opera-quinta-venezia-1665/", "title": "Tactus Records — Strozzi: Sacri musicali affetti, Op. 5, TC 611990" }
+      ]
+    }
+  ],
+  "sources": [
+    { "title": "Brilliant Classics — Strozzi: La voce sola (artists, catalogue number 96436, release September 2021)", "url": "https://www.brilliantclassics.com/articles/s/strozzi-la-voce-sola/" },
+    { "title": "YouTube oEmbed — Strozzi: La voce sola; uploader Brilliant Classics, checked 19 October 2026; description gives the chapter times", "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=rWJeZKgzI2c&format=json" },
+    { "title": "YouTube oEmbed — Lagrime Mie; uploader Orchestra of the Age of Enlightenment, checked 19 October 2026", "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=1z2xtmkqaAs&format=json" },
+    { "title": "Orchestra of the Age of Enlightenment — Lagrime Mie, Barbara Strozzi (performers named on the page)", "url": "https://oae.co.uk/lagrime-mie-barbara-strozzi" },
+    { "title": "Tactus Records — Strozzi: Sacri musicali affetti, Op. 5 (performers, track list, July 2021 release)", "url": "https://www.tactus.it/tc611990-barbara-strozzi-strozzi-sacri-musicali-affetti-opera-quinta-venezia-1665/" },
+    { "title": "IMSLP: Sacri musicali affetti, Op. 5 (fourteen motets)", "url": "https://imslp.org/wiki/Sacri_musicali_affetti,_Op.5_(Strozzi,_Barbara)" }
+  ]
+}

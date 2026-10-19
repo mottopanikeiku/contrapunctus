@@ -1,0 +1,23 @@
+{
+  "title": "String Quartet No. 2 in D major — III. Notturno: Andante",
+  "edition": "OpenScore String Quartets transcription by markpearse from the IMSLP file(s) at https://imslp.org/wiki/Special:ReverseLookup/644692; printed-edition imprint not independently established",
+  "encoder": "markpearse / OpenScore String Quartets",
+  "url": "https://github.com/OpenScore/StringQuartets/tree/main/scores/Borodin%2C_Alexander/String_Quartet_No.2",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "quartet-III.ly",
+  "musicxml": "sq10675759.mxl",
+  "musicxmlMeasures": [
+    603,
+    783
+  ],
+  "otherDynamicsWords": true,
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Borodin%2C_Alexander/String_Quartet_No.2/sq10675759.mxl",
+      "file": "sq10675759.mxl",
+      "sha256": "4e4ed43ab0989842e62a372dd113dd5488e59f49535bb1e3a8455b790adc6826"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

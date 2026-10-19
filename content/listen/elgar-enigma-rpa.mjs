@@ -18,33 +18,33 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme V. R.P.A.ogg"
   },
-  "intro": "Richard Penrose Arnold can never keep a serious conversation serious for long. Elgar gives him a solemn tune in the basses, then lets the woodwinds break in with jokes.",
+  "intro": "The fifth of Elgar’s “Enigma” Variations, Op. 36, “R.P.A.” (Moderato), portrays Richard Penrose Arnold, who could never keep a serious conversation serious for long. The basses play a solemn tune, and the woodwinds break in with interjections.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Arnold begins solemnly",
+      "label": "A · Theme in C minor, cellos and basses",
       "m": "A",
-      "mNote": "Cellos and basses carry the C-minor theme"
+      "mNote": "Cellos and basses play the theme in C minor."
     },
     {
       "t": 32,
-      "label": "B · The woodwinds interrupt",
+      "label": "B · C major, flute and oboe replies",
       "m": "B",
-      "mNote": "C major, with quick flute and oboe replies"
+      "mNote": "C major, with quick replies from flute and oboe"
     },
     {
       "t": 98,
-      "label": "Link · On towards Ysobel",
+      "label": "Link · String figure leading to Ysobel",
       "m": "Link",
-      "mNote": "A quiet string figure keeps the music moving"
+      "mNote": "A string figure continues into the next variation."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A solemn beginning",
-      "text": "Cellos and double basses set out the theme in C minor, marked <i>sostenuto</i>. The violins wind around it on their lowest strings. Arnold begins his conversation with a properly serious face.",
+      "title": "Theme in C minor, lower strings",
+      "text": "Cellos and double basses play the theme in C minor, marked <i>sostenuto</i>. Around it the violins play a figure on the G string. In his commentary on the variation, Elgar linked the solemnity of the theme to Arnold’s conversation.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Novello full score, p. 24, rehearsal 15: sostenuto lower strings, violin figuration marked sul G. Elgar connects the theme’s solemnity with Arnold’s conversation in his commentary on variation V: https://en.wikipedia.org/wiki/Enigma_Variations"
@@ -52,8 +52,8 @@ export default {
     {
       "t": 35,
       "kind": "world",
-      "title": "The poet’s son at the piano",
-      "text": "Arnold, son of the poet Matthew Arnold, teaches himself the piano. Elgar enjoys the way he gets round the difficult bits while still conveying the music’s feeling. His conversation has the same freedom: earnest talk keeps breaking into whimsical remarks.",
+      "title": "Arnold at the piano",
+      "text": "Arnold, son of the poet Matthew Arnold, taught himself the piano. Elgar enjoyed the way he got round the difficult passages while still conveying the music’s feeling. In his conversation, earnest talk kept breaking into whimsical remarks.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Elgar’s recollections of Arnold’s piano playing and conversation, quoted in John Pickard’s BBC programme note (2005): https://www.bbc.com/radio3/classical/elgar/notes/note_enigma.shtml"
@@ -61,8 +61,8 @@ export default {
     {
       "t": 98,
       "kind": "music",
-      "title": "The conversation carries on",
-      "text": "The wind chatter subsides. Small string figures continue over quiet timpani and low brass, leading straight into Isabel Fitton’s portrait, <i>Ysobel</i>. Elgar writes <i>attacca</i> at the end of the page.",
+      "title": "Link to Variation VI",
+      "text": "The woodwind figures stop. Short string figures continue over soft timpani and low brass and lead directly into Isabel Fitton’s portrait, <i>Ysobel</i>. Elgar marks <i>attacca</i> at the end of the page.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Novello full score, pp. 29–30: chromatic closing link, soft trombones and tuba, timpani roll and attacca into variation VI."
@@ -71,13 +71,13 @@ export default {
   "transitions": [
     {
       "id": "lighter-replies",
-      "title": "The flute cracks a joke",
-      "from": "A · Arnold begins solemnly",
-      "to": "B · The woodwinds interrupt",
+      "title": "Flute and wind over C major",
+      "from": "A · Theme in C minor, cellos and basses",
+      "to": "B · C major, flute and oboe replies",
       "at": {
         "t": 32
       },
-      "how": "<p>The C-minor bass melody settles on C, and E♮ brightens the harmony into C major. A solo flute runs upwards while oboes and clarinets exchange short replies. The strings fall to <i>pianissimo</i>; the Moderato pace holds, though the conversation has become much less solemn.</p>",
+      "how": "<p>The C-minor bass melody comes to rest on C, and E♮ turns the harmony to C major. A solo flute runs upwards and oboes and clarinets exchange short phrases. The strings drop to <i>pianissimo</i>, and the Moderato tempo continues.</p>",
       "devices": [
         "direct modulation",
         "texture change",
@@ -89,13 +89,13 @@ export default {
     },
     {
       "id": "into-link",
-      "title": "Low brass under the farewell",
-      "from": "B · The woodwinds interrupt",
-      "to": "Link · On towards Ysobel",
+      "title": "Low brass and attacca into “Ysobel”",
+      "from": "B · C major, flute and oboe replies",
+      "to": "Link · String figure leading to Ysobel",
       "at": {
         "t": 98
       },
-      "how": "<p>A falling clarinet run leads into the closing link. The strings keep a small curling figure moving while timpani hold a quiet roll. Trombones and tuba enter <i>pianissimo</i>, and the double basses sustain their note beneath them. The page ends <i>attacca</i>, carrying Arnold’s last sentence into <i>Ysobel</i>.</p>",
+      "how": "<p>A falling solo clarinet run leads into the closing link. The strings play a small curling figure while the timpani hold a soft roll. Trombones and tuba enter <i>pianissimo</i>, and the double basses sustain their note beneath them. The page is marked <i>attacca</i>, and the music continues without a break into <i>Ysobel</i>.</p>",
       "devices": [
         "decrescendo",
         "link passage",
@@ -133,10 +133,10 @@ export default {
       "locator": "Novello full score, pp. 24–30, rehearsal figures 15–18: the solemn C-minor melody, its C-major wind interruptions and the link into Ysobel."
     },
     "timeline": [
-      { "t": 0, "playing": ["bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos", "basses"], "note": "Cellos and basses carry the solemn melody, with bassoon and horn replies (p. 24)." },
+      { "t": 0, "playing": ["bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["cellos", "basses"], "note": "Cellos and basses play the melody, with answering phrases in bassoon and horn (p. 24)." },
       { "t": 32, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "Short wind phrases interrupt in C major over quiet strings (pp. 25–26)." },
-      { "t": 48, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Wind and brass join the long melody while the strings keep moving beneath it (pp. 26–28)." },
-      { "t": 84, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "flutes"], "note": "The brass withdraw and short clarinet and flute replies return (pp. 28–29)." },
+      { "t": 48, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Wind and brass take up the long melody while the strings continue their moving figures beneath it (pp. 26–28)." },
+      { "t": 84, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "flutes"], "note": "The brass stop and short clarinet and flute replies return (pp. 28–29)." },
       { "t": 98, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "violins-1"], "note": "A clarinet run and moving strings lead into quiet low-brass chords and timpani (pp. 29–30)." }
     ]
   }

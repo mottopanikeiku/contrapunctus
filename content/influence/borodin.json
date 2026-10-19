@@ -1,0 +1,115 @@
+{
+  "batch": "borodin",
+  "edges": [
+    {
+      "id": "balakirev--borodin-symphony-1-1862",
+      "from": "balakirev",
+      "to": "borodin",
+      "kind": "taught",
+      "year": 1862,
+      "title": "Balakirev’s urging of Borodin to write a symphony",
+      "works": {
+        "from": "Balakirev’s four-hand playing and criticism in his circle, from 1862",
+        "to": "Symphony No. 1 in E♭ major (1862–67)"
+      },
+      "claim": "<p>In 1862 Borodin joined Mily Balakirev’s circle. Balakirev played the works of Beethoven, Schumann, Berlioz, Liszt and Glinka with him as piano duets and analysed their form and content, without teaching theory systematically. As Balakirev wrote to Stasov, he was the first to reproach Borodin for treating his compositions as of little importance, and Borodin then began his Symphony in E♭ major. He finished it in 1867, and Balakirev conducted its first performance in January 1869.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Alfred Habets, Borodin and Liszt (translated by Rosa Newmarch)",
+          "url": "https://archive.org/details/borodinlisztilif00habe",
+          "locator": "Ch. I, pp. 11–12 (Balakirev’s letter to Stasov); ch. III, pp. 20–21 (first performance)"
+        },
+        {
+          "title": "Russian Biographical Dictionary, vol. 3 (1908): Borodin",
+          "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%91%D0%A1/%D0%92%D0%A2/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%BE%D1%80%D1%84%D0%B8%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+          "locator": "Paragraph on 1862 and Balakirev’s circle"
+        }
+      ]
+    },
+    {
+      "id": "liszt--borodin-weimar-1877",
+      "from": "liszt",
+      "to": "borodin",
+      "kind": "championed",
+      "year": 1877,
+      "title": "Borodin’s visit to Liszt at Weimar",
+      "works": {
+        "from": "Liszt’s reception of Borodin at Weimar, 1 July 1877; letter of 3 September 1880",
+        "to": "Symphony No. 1 in E♭ major"
+      },
+      "claim": "<p>On 1 July 1877 Borodin called on [[liszt]] at Weimar. Liszt told him he had played the symphony to the Grand Duke two days earlier, praised his piano arrangement and, when Borodin said he was criticised for modulating too much, answered: “Do not touch it, alter nothing.” He also scolded Borodin for leaving his scores unpublished. After hearing the First Symphony at the Baden-Baden festival of May 1880, Liszt wrote to Borodin that its instrumentation was “written by a master hand”.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Alfred Habets, Borodin and Liszt (translated by Rosa Newmarch)",
+          "url": "https://archive.org/details/borodinlisztilif00habe",
+          "locator": "Part II, letter to Madame Borodin, Jena, 3 July 1877, pp. 107–116; ch. III, p. 22 (Liszt’s letter of 3 September 1880); ch. IV, pp. 32–33 (Baden-Baden; Habets prints Borodin’s date as 20 June, the festival programme gives 20 May 1880)"
+        }
+      ]
+    },
+    {
+      "id": "borodin--liszt-steppes-dedication-1881",
+      "from": "borodin",
+      "to": "liszt",
+      "kind": "dedicated",
+      "year": 1881,
+      "title": "Borodin’s dedication of the Steppes to Liszt",
+      "works": {
+        "from": "In the Steppes of Central Asia (1880), dedicated to Liszt",
+        "to": "Liszt, Weimar, June 1881"
+      },
+      "claim": "<p>Borodin wrote <i>In the Steppes of Central Asia</i> in 1880. At Weimar in June 1881 he wrote to his wife that [[liszt]] was much pleased with it and urged him to make a four-hand arrangement by the next day. Borodin dedicated the piece to Liszt, who embraced him and thanked him. The orchestral score was first published in 1882, by Rahter in Hamburg.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Alfred Habets, Borodin and Liszt (translated by Rosa Newmarch)",
+          "url": "https://archive.org/details/borodinlisztilif00habe",
+          "locator": "Part II, letter to Madame Borodin, Weimar, 19 June 1881, pp. 189–192"
+        },
+        {
+          "title": "IMSLP: In the Steppes of Central Asia (Borodin)",
+          "url": "https://imslp.org/wiki/In_the_Steppes_of_Central_Asia_(Borodin,_Aleksandr)",
+          "locator": "General information: dedication to Liszt; first publication 1882, Hamburg: Rahter"
+        },
+        {
+          "title": "Hollywood Bowl: In the Steppes of Central Asia (note by Mary Mayer)",
+          "url": "https://www.hollywoodbowl.com/musicdb/pieces/5184/in-the-steppes-of-central-asia",
+          "locator": "Liszt’s reaction and the dedication, Weimar, 1881"
+        }
+      ]
+    },
+    {
+      "id": "rimsky-korsakov--borodin-igor-completion-1887",
+      "from": "rimsky-korsakov",
+      "to": "borodin",
+      "kind": "championed",
+      "year": 1887,
+      "title": "Rimsky-Korsakov and Glazunov’s completion of Prince Igor",
+      "works": {
+        "from": "Rimsky-Korsakov’s sorting and orchestration of Borodin’s manuscripts, 1887–88",
+        "to": "Prince Igor; Overture; Symphony No. 3, two movements"
+      },
+      "claim": "<p>After Borodin’s death on 27 February 1887, [[rimsky-korsakov]] and Stasov took his manuscripts to Rimsky-Korsakov’s house, and Rimsky-Korsakov and Glazunov sorted them. Glazunov filled the gaps in Act III of <i>Prince Igor</i> and wrote out from memory the overture he had heard Borodin play. Rimsky-Korsakov orchestrated and completed the rest, including the Polovtsian March. They also added music of their own. The overture and two movements of the Third Symphony were first played at a Russian Symphony Concert in Borodin’s memory. The score was published in 1889, and the opera was staged at the Mariinsky Theatre in October 1890 in the Russian calendar.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Rimsky-Korsakov, My Musical Life (Knopf, 1923)",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf",
+          "locator": "Ch. XX, pp. 238–239 and 245–246 (the memorial concert); ch. XXI (the staging of 23 October 1890)"
+        },
+        {
+          "title": "Boston Symphony Orchestra: Overture to Prince Igor (Harlow Robinson)",
+          "url": "https://www.bso.org/works/overture-to-prince-igor",
+          "locator": "What Borodin left; Glazunov on the overture; the additions by the two editors; publication in 1889"
+        },
+        {
+          "title": "Alfred Habets, Borodin and Liszt (translated by Rosa Newmarch)",
+          "url": "https://archive.org/details/borodinlisztilif00habe",
+          "locator": "Ch. IX, pp. 90–91; ch. VII, p. 64 (score published by Belyayev, Leipzig, 1889)"
+        }
+      ]
+    }
+  ],
+  "figures": []
+}

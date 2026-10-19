@@ -41,7 +41,7 @@ export function createTour(app) {
     }
     if (!catalogue) {
       const response = await fetch(new URL(`assets/guide-tours.json?v=${revision}`, app.root));
-      if (!response.ok) throw new Error('Tour lessons could not load.');
+      if (!response.ok) throw new Error('The tours could not load.');
       catalogue = new Map((await response.json()).map((tour) => [tour.id, tour]));
     }
   }
@@ -62,7 +62,7 @@ export function createTour(app) {
   }
   function ui() {
     shell = document.createElement('div'); shell.className = 'cp-tour';
-    shell.innerHTML = `<div class="tour-ring" aria-hidden="true" hidden></div><section class="tour-card" role="dialog" aria-modal="false" aria-labelledby="tour-title" aria-describedby="tour-text"><div aria-live="polite" aria-atomic="true"><span class="tour-count"></span><h2 id="tour-title" tabindex="-1"></h2><p id="tour-text"></p></div><p class="tour-note" role="status"></p><button type="button" class="tour-do">Do it for me</button><nav class="tour-controls" aria-label="Tour controls"><button type="button" class="tour-back">← Back</button><button type="button" class="tour-next">Next →</button><button type="button" class="tour-skip">Skip tour</button></nav><span class="tour-keys">← → steps · Esc closes · music keeps playing</span></section>`;
+    shell.innerHTML = `<div class="tour-ring" aria-hidden="true" hidden></div><section class="tour-card" role="dialog" aria-modal="false" aria-labelledby="tour-title" aria-describedby="tour-text"><div aria-live="polite" aria-atomic="true"><span class="tour-count"></span><h2 id="tour-title" tabindex="-1"></h2><p id="tour-text"></p></div><p class="tour-note" role="status"></p><button type="button" class="tour-do">Do this step</button><nav class="tour-controls" aria-label="Tour controls"><button type="button" class="tour-back">Back</button><button type="button" class="tour-next">Next</button><button type="button" class="tour-skip">Skip tour</button></nav><span class="tour-keys">← → steps · Esc closes · playback continues</span></section>`;
     document.querySelector('#cp-persist').append(shell);
     card = $('.tour-card'); ring = $('.tour-ring');
     $('.tour-back').onclick = () => go(Math.max(0, index - 1));
@@ -74,17 +74,17 @@ export function createTour(app) {
     ui(); $('.tour-count').textContent = `Step ${index + 1} of ${lesson.steps.length} · ${lesson.title}`;
     $('#tour-title').textContent = step.title; $('#tour-text').textContent = step.text;
     $('.tour-back').disabled = index === 0;
-    $('.tour-next').textContent = index === lesson.steps.length - 1 ? 'Finish →' : 'Next →';
+    $('.tour-next').textContent = index === lesson.steps.length - 1 ? 'Finish' : 'Next';
     $('.tour-do').hidden = !step.action; $('.tour-do').disabled = true;
-    say('Opening this step…'); position();
+    say('Loading this step…'); position();
   }
   function complete() {
     clearStep(); running = false; storage(sessionStorage, SESSION, null);
     storage(localStorage, HINT, 'completed');
     ui(); shell.classList.add('tour-complete');
     $('.tour-count').textContent = lesson.title;
-    $('#tour-title').textContent = 'Keep exploring.';
-    $('#tour-text').textContent = 'Try another lesson in Guide, or keep listening.';
+    $('#tour-title').textContent = 'Tour complete';
+    $('#tour-text').textContent = 'The other tours are listed in the Guide.';
     say(notes.join(' '));
     $('.tour-do').hidden = $('.tour-back').hidden = $('.tour-skip').hidden = true;
     $('.tour-next').textContent = 'Close'; $('.tour-next').onclick = close;
@@ -242,7 +242,7 @@ export function createTour(app) {
       returnFocus = document.activeElement;
       try { await assets(); } catch (error) { sheet?.remove(); sheet = null; throw error; }
       lesson = catalogue.get(id);
-      if (!lesson) { storage(sessionStorage, SESSION, null); sheet?.remove(); sheet = null; throw new Error('This lesson is no longer in the Guide.'); }
+      if (!lesson) { storage(sessionStorage, SESSION, null); sheet?.remove(); sheet = null; throw new Error('This tour is no longer in the Guide.'); }
       notes = []; lastPage = null; running = true;
       storage(localStorage, HINT, 'started');
       const hint = document.querySelector('.hall-hint'); if (hint) hint.hidden = true;
@@ -259,9 +259,9 @@ export function createTour(app) {
       if (!running || routing) return;
       // Ordinary navigation is allowed: do not drag the reader back unexpectedly.
       paused = true; ui(); $('.tour-count').textContent = `Step ${index + 1} of ${lesson.steps.length}`;
-      $('#tour-title').textContent = 'Take your time.';
-      $('#tour-text').textContent = 'Your tour is saved; choose Resume step to return, or Skip tour to keep exploring.';
-      $('.tour-do').hidden = $('.tour-back').hidden = true; $('.tour-next').textContent = 'Resume step →';
+      $('#tour-title').textContent = 'Tour paused';
+      $('#tour-text').textContent = 'The tour is saved. Resume step returns to it; Skip tour closes it.';
+      $('.tour-do').hidden = $('.tour-back').hidden = true; $('.tour-next').textContent = 'Resume step';
       position(); $('#tour-title').focus({ preventScroll: true });
     },
   };

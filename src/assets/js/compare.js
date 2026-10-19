@@ -76,8 +76,8 @@ export async function mount(app) {
       const available = !owns || active || targetTime != null;
       button.disabled = busy || !available;
       button.setAttribute('aria-pressed', String(active));
-      button.textContent = active ? 'Selected' : available ? 'Switch performer' : 'No match here';
-      button.title = available ? `Select ${recordings.get(target).label} at the matching phrase` : 'Choose a passage below to hear matching versions.';
+      button.textContent = active ? 'Selected' : available ? 'Switch to this recording' : 'No match here';
+      button.title = available ? `Select ${recordings.get(target).label} at the matching phrase` : 'The passages below play each matching version.';
     }
     for (const line of lines) line.classList.toggle('is-selected', line.dataset.cmpLine === id);
     for (const button of passages) {
@@ -159,7 +159,7 @@ export async function mount(app) {
     clearTimeout(timer); timer = 0;
     sequence.index++;
     if (sequence.index >= sequence.spans.length) {
-      player.pause(); clearSequence('You have heard each version; choose another passage or keep switching performers.'); refresh(); return;
+      player.pause(); clearSequence('Every version of this passage has played.'); refresh(); return;
     }
     const span = sequence.spans[sequence.index];
     say(`Playing ${sequence.index + 1} of ${sequence.spans.length}: ${recordings.get(span.id).label}.`);
@@ -167,9 +167,9 @@ export async function mount(app) {
   }
 
   try { await player.getProgramme(); }
-  catch { say('Could not load the player; you can still read the notes and open the recording sources below.'); return () => {}; }
+  catch { say('The player could not load. The notes, the charts and the recording sources below are still available.'); return () => {}; }
   if (!root.isConnected) return () => {};
-  say('Press Play, then switch performers to hear the phrase in other hands.');
+  say('Press Play; selecting another recording continues from the matching point.');
   on(root, 'click', (event) => {
     const select = event.target.closest('[data-cmp-select]');
     if (select) {

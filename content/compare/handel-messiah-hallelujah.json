@@ -1,17 +1,17 @@
 {
   "id": "handel-messiah-hallelujah",
-  "title": "Three choirs shout Hallelujah",
+  "title": "Messiah, Hallelujah chorus, in three recordings",
   "composer": "handel",
   "group": "century",
   "work": "Messiah, HWV 56 — Hallelujah chorus",
   "question": "How much room does each choir leave between Handel’s cries of ‘Hallelujah’?",
-  "intro": "Handel sets the choir shouting together, then sends a tune chasing from one voice to the next. Edison’s Oratorio Chorus recorded it in 1916; Sargent’s performance comes from the Royal Albert Hall in 1926. Scherchen’s brisk 1953 account prompted Owen Jensen, writing in the <i>New Zealand Listener</i> in June 1954, to joke about “Handelian traffic inspectors”.",
+  "intro": "Handel sets the choir singing together in chords, then passes a tune from one voice to the next. Edison’s Oratorio Chorus recorded it in 1916; Sargent’s performance comes from the Royal Albert Hall in 1926. Scherchen’s fast 1953 account led Owen Jensen, writing in the <i>New Zealand Listener</i> in June 1954, to joke about “Handelian traffic inspectors”.",
   "recordings": [
     {
       "listen": "handel-messiah-hallelujah-edison-1916",
       "label": "Oratorio Chorus",
       "year": 1916,
-      "note": "Edison’s choir in 1916: chorus and accompaniment fitted onto one Diamond Disc side, released that May."
+      "note": "Edison’s choir recorded the chorus in 1916, with its accompaniment, on one side of a Diamond Disc released that May."
     },
     {
       "listen": "handel-messiah-hallelujah-sargent-1926",
@@ -29,24 +29,24 @@
   "reference": "handel-messiah-hallelujah",
   "passages": [
     {
-      "label": "Strings, then the choir",
+      "label": "Orchestral opening and choir entry",
       "t": 0,
-      "note": "The violins announce the rhythm; the choir enters three bars later, all four voices crying ‘Hallelujah’ together."
+      "note": "The violins play the rhythm first. The choir enters three bars later, all four voices singing ‘Hallelujah’ together."
     },
     {
-      "label": "The kingdom of this world",
+      "label": "“The kingdom of this world”",
       "t": 70,
       "note": "The choir moves together in measured notes above a descending bass. Trumpets and drums fall silent."
     },
     {
-      "label": "King of kings",
+      "label": "“King of kings”",
       "t": 120,
-      "note": "The sopranos hold their proclamation above the quick answers below, then climb higher with each new phrase."
+      "note": "The sopranos hold their line above the quick answers in the lower voices, then enter higher with each new phrase."
     },
     {
-      "label": "The final word",
+      "label": "Final cadence in D major",
       "t": 186,
-      "note": "Choir and orchestra stop. After the silence comes one broad ‘Hallelujah’, ending on a held D-major chord."
+      "note": "Choir and orchestra stop. After the rest the choir sings one broad ‘Hallelujah’, ending on a held D-major chord."
     }
   ],
   "alignment": {

@@ -26,39 +26,39 @@ export default {
     "part": 1,
     "of": 3
   },
-  "intro": "A low B, two harps and the soft roll of timpani open <i>La Mer</i>; by noon, horns and trombones are singing a chorale. Paul Paray conducts the Detroit Symphony Orchestra.",
+  "intro": "“De l’aube à midi sur la mer”, the first movement of <i>La Mer</i>, opens on a low B with two harps and a soft timpani roll, and horns and trombones later play a chorale. Paul Paray conducts the Detroit Symphony Orchestra.",
   "sections": [
     {
       "t": 0,
       "label": "Intro · Low strings, harps and timpani",
       "m": "Intro",
-      "mNote": "The first phrases emerge above a low B"
+      "mNote": "The first phrases enter above a low B."
     },
     {
       "t": 86,
       "label": "A · D♭ major, running strings",
       "m": "A",
-      "mNote": "Short wind phrases ride over quick string figures"
+      "mNote": "Short wind phrases over quick string figures"
     },
     {
       "t": 276,
       "label": "B · Sixteen cellos in four parts",
       "m": "B",
-      "mNote": "The cellos unfold a long, strongly rhythmic tune"
+      "mNote": "The cellos play a long, strongly rhythmic tune."
     },
     {
       "t": 438,
-      "label": "Coda · The noon chorale",
+      "label": "Coda · Chorale for horns and trombones",
       "m": "Coda",
-      "mNote": "Horns and trombones broaden the tune above flowing harps"
+      "mNote": "Horns and trombones broaden the tune above flowing harps."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Dawn on B",
-      "text": "Double basses and timpani hold a low B. The two harps answer one another; muted cellos and violas begin to move above them. Debussy writes <i>Très lent</i> — very slow. The violins wait.",
+      "title": "Opening, low B",
+      "text": "Double basses and timpani hold a low B. The two harps alternate, and muted cellos and violas begin to move above them. Debussy marks the opening <i>Très lent</i>, very slow.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, opening, printed p. 143: timpani and divided basses on B, alternating harps, then muted cellos and violas. https://s9.imslp.org/files/imglnks/usimg/b/b6/IMSLP15420-Debussy_-_La_Mer_%28orch._score%29.pdf"
@@ -66,8 +66,8 @@ export default {
     {
       "t": 74,
       "kind": "life",
-      "title": "The sea from Burgundy",
-      "text": "Debussy begins <i>La Mer</i> in the summer of 1903, while staying with his parents-in-law in Burgundy. The sea is far away. He has the memory of childhood holidays at Cannes, and the score grows from there.",
+      "title": "Composition in Burgundy, 1903",
+      "text": "Debussy began <i>La Mer</i> in the summer of 1903, while staying with his parents-in-law in Burgundy, far from the sea. As a child he had spent holidays at Cannes.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Composition in Burgundy: https://en.wikipedia.org/wiki/La_mer_(Debussy). Childhood visits to Cannes: Jacob Greenberg’s Boston Symphony programme note, https://www.bso.org/works/la-mer"
@@ -75,8 +75,8 @@ export default {
     {
       "t": 86,
       "kind": "form",
-      "title": "D♭ begins to flow",
-      "text": "The main movement changes to D♭ major and 6/8, marked <i>Modéré, sans lenteur</i> — moderate, without slowness. Divided strings keep the semiquavers running while the woodwinds pass short phrases between them.",
+      "title": "Main section in D♭ major, 6/8",
+      "text": "The main movement changes to D♭ major and 6/8, marked <i>Modéré, sans lenteur</i> (moderate, without slowness). Divided strings play continuous semiquavers, and the woodwinds pass short phrases between them.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, printed pp. 147–150: 6/8 and five flats, moving divided strings and wind phrases."
@@ -84,8 +84,8 @@ export default {
     {
       "t": 130,
       "kind": "world",
-      "title": "Three symphonic sketches",
-      "text": "Debussy tells André Messager on 12 September 1903 that he is working on “three symphonic sketches” under the title <i>La Mer</i>: “Mer belle aux Sanguinaires”, “Jeu de vagues” and “le vent fait danser la mer”. The published sketches are <i>De l’aube à midi sur la mer</i>, <i>Jeux de vagues</i> and <i>Dialogue du vent et de la mer</i>.",
+      "title": "Letter to André Messager, 1903",
+      "text": "On 12 September 1903 Debussy told André Messager of “three symphonic sketches” titled <i>La Mer</i>: “Mer belle aux Sanguinaires”, “Jeu de vagues” and “le vent fait danser la mer”. Published, they became <i>De l’aube à midi sur la mer</i>, <i>Jeux de vagues</i> and <i>Dialogue du vent et de la mer</i>.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Debussy to André Messager, Bichain, 12 September 1903, as printed in the Sotheby’s catalogue of the Debussy–Messager correspondence (17 June 2020, lot 133): « Je travaille à trois esquisses symphoniques intitulées : 1° Mer belle aux Sanguinaires. 2° Jeu de vagues. 3° le vent fait danser la mer. Sous le titre général de La Mer. » https://www.sothebys.com/en/buy/auction/2020/bibliotheque-r-b-l-une-decennie-de-ventes/debussy-correspondance-avec-andre-messager-1902 . Published subtitle, trois esquisses symphoniques, and movement titles: Durand score, IMSLP, https://imslp.org/wiki/La_mer_(Debussy,_Claude) . Simon Trezise, Debussy: La Mer (Cambridge University Press, 1994), p. 47, on the subtitle as a way of avoiding both symphony and symphonic poem, is known only as quoted on Wikipedia and is not used. The English renderings are ours."
@@ -93,8 +93,8 @@ export default {
     {
       "t": 185,
       "kind": "music",
-      "title": "Two against three",
-      "text": "Twos and threes keep crossing in this movement. One part divides the beat into triplets while another plays even notes. The harps and divided strings can be busy with several rhythms beneath a single wind phrase.",
+      "title": "Duplets against triplets",
+      "text": "Duplets and triplets cross throughout this movement. One part divides the beat into triplets while another plays even notes. Beneath a single wind phrase, the harps and divided strings can play several rhythms at once.",
       "basis": "general",
       "precision": "passage",
       "evidence": "Jacob Greenberg describes the persistent interplay of duplets and triplets in movement I: https://www.bso.org/works/la-mer. Examples appear throughout the Durand score."
@@ -102,7 +102,7 @@ export default {
     {
       "t": 230,
       "kind": "world",
-      "title": "Dedicated to his publisher",
+      "title": "Dedication and first performance, 1905",
       "text": "Debussy dedicated <i>La Mer</i> to his publisher, Jacques Durand. Camille Chevillard conducted the first performance with the Lamoureux Orchestra in Paris on 15 October 1905, and Durand published the score that November.",
       "basis": "documented",
       "precision": "passage",
@@ -111,8 +111,8 @@ export default {
     {
       "t": 276,
       "kind": "form",
-      "title": "Sixteen cellos",
-      "text": "Debussy asks for sixteen cellos, divided into four groups. They sing a new tune in interlocking parts, with the horns answering above them. <i>Très rythmé</i>, he writes: the long melody still has a spring in its step.",
+      "title": "Divided cellos, rehearsal 9",
+      "text": "Debussy calls for sixteen cellos, divided into four groups. They play a new melody in interlocking parts, and the horns reply above them. The marking is <i>Très rythmé</i>.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, rehearsal 9, printed p. 161: sixteen cellos divided into four parts, Très rythmé, with horn replies."
@@ -120,8 +120,8 @@ export default {
     {
       "t": 333,
       "kind": "world",
-      "title": "Hokusai’s wave",
-      "text": "Debussy chooses Hokusai’s <i>The Great Wave off Kanagawa</i> for the cover of the published score. The Japanese print is cropped and redrawn for Durand’s 1905 edition.",
+      "title": "Cover of the first edition, 1905",
+      "text": "Debussy chose Hokusai’s <i>The Great Wave off Kanagawa</i> for the cover of the published score. The Japanese print was cropped and redrawn for the 1905 edition.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Debussy’s choice of the Hokusai image: Jacob Greenberg, https://www.bso.org/works/la-mer; the first-edition cover is reproduced at https://en.wikipedia.org/wiki/La_mer_(Debussy)."
@@ -129,8 +129,8 @@ export default {
     {
       "t": 385,
       "kind": "life",
-      "title": "Enough to make the fish weep",
-      "text": "Writing to his publisher Durand from Le Puys, near Dieppe, on 8 August 1906, Debussy complains about bathers: “all those arms, those legs moving in such ridiculous rhythms, it’s enough to make the fish weep.” In the sea, he says, there should be nothing but Sirens.",
+      "title": "Letter to Jacques Durand, 1906",
+      "text": "Writing to his publisher Durand from Le Puys, near Dieppe, on 8 August 1906, Debussy complained about bathers: “all those arms, those legs moving in such ridiculous rhythms, it’s enough to make the fish weep.” He wrote that there should be nothing in the sea but Sirens.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Debussy to Jacques Durand, Le Puys near Dieppe, 8 August 1906: French original (“c’est à faire pleurer les poissons”) in the extracts from Debussy’s letters collected at https://geraldlarner.com/source/debussy-la-mer-from-debussy-s-letters (where the file labels the letter “Durand 44”). The same French passage, headed Grand Hôtel Château de Puys, près Dieppe, 8 août 1906, is quoted by François-Bernard Mâche in his text for the Académie des beaux-arts “Journée Debussy” of 24 October 2012: https://podcasts.institutdefrance.fr/emissions/carrefour-des-arts/debussy-et-la-nature-je-me-suis-fait-une-religion-de-la-mysterieuse-nature . Translation ours."
@@ -138,8 +138,8 @@ export default {
     {
       "t": 438,
       "kind": "form",
-      "title": "Horns, trombones, noon",
-      "text": "<i>Très lent</i> again. Bassoons, horns and trombones sing the chorale, with triplets in the flutes and flowing harp figures below. The music is broad without standing still. Its final chords bring D♭ major into full daylight.",
+      "title": "Brass chorale and close in D♭ major",
+      "text": "<i>Très lent</i> again. Bassoons, horns and trombones play the chorale over triplets in the flutes and harp figures. The movement ends on chords of D♭ major.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, rehearsal 14 to the end of movement I, printed pp. 171–173: Très lent, bassoon and brass chorale, flute triplets, harps and D♭-major ending."
@@ -147,7 +147,7 @@ export default {
     {
       "t": 470,
       "kind": "world",
-      "title": "Detroit, December 1955",
+      "title": "Recording, Detroit, December 1955",
       "text": "Paul Paray and the Detroit Symphony recorded <i>La Mer</i> in the city’s Old Orchestra Hall on 3–4 December 1955, for Mercury’s Living Presence series. One Schoeps microphone in the centre and two Neumann U-47s left and right fed three-track half-inch tape.",
       "basis": "documented",
       "precision": "passage",
@@ -157,7 +157,7 @@ export default {
   "transitions": [
     {
       "id": "into-moving-sea",
-      "title": "B opens into D♭",
+      "title": "From B to D♭ major",
       "from": "Intro · Low strings, harps and timpani",
       "to": "A · D♭ major, running strings",
       "at": {
@@ -167,7 +167,7 @@ export default {
         72,
         101
       ],
-      "how": "<p>The introduction accelerates into <i>Modéré, sans lenteur</i>. B-centred harmony opens into D♭ major, and 6/4 becomes 6/8. The bassoons and harps punctuate the change while divided second violins and violas set the semiquavers running.</p>",
+      "how": "<p>The introduction accelerates into <i>Modéré, sans lenteur</i>. The harmony moves from a B centre to D♭ major, and the metre changes from 6/4 to 6/8. Bassoons and harps mark the change, and divided second violins and violas begin the running semiquavers.</p>",
       "devices": ["tempo change", "metre change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -175,7 +175,7 @@ export default {
     },
     {
       "id": "into-later-course",
-      "title": "The cellos take four parts",
+      "title": "The cellos divide into four parts",
       "from": "A · D♭ major, running strings",
       "to": "B · Sixteen cellos in four parts",
       "at": {
@@ -185,7 +185,7 @@ export default {
         261,
         291
       ],
-      "how": "<p>The preceding chords subside into quiet timpani and strings. At <i>Très rythmé</i>, sixteen cellos divide into four parts, their tune rising over plucked double basses. Horn calls answer the cello phrases; the high woodwinds fall silent.</p>",
+      "how": "<p>The preceding chords die away to soft timpani and strings. At <i>Très rythmé</i>, sixteen cellos divide into four parts and play a rising tune over plucked double basses. Horn calls follow the cello phrases. The high woodwinds stop.</p>",
       "devices": ["decrescendo", "tempo change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -193,9 +193,9 @@ export default {
     },
     {
       "id": "into-noon-coda",
-      "title": "The brass opens out",
+      "title": "Brass chorale at Très lent",
       "from": "B · Sixteen cellos in four parts",
-      "to": "Coda · The noon chorale",
+      "to": "Coda · Chorale for horns and trombones",
       "at": {
         "t": 438
       },
@@ -203,7 +203,7 @@ export default {
         424,
         457
       ],
-      "how": "<p>The quiet cor anglais and cello phrases lead to <i>Très lent</i>. Bassoons, horns and trombones take up the chorale above a low D♭. Harps keep moving beneath them, and the flutes play triplets. A crescendo carries this hushed opening to the full-orchestra D♭-major close.</p>",
+      "how": "<p>Phrases for cor anglais and cellos lead to <i>Très lent</i> at rehearsal 14. Bassoons, horns and trombones take up the chorale above a low D♭. The harps keep moving beneath them, and the flutes play triplets. A crescendo builds to the close in D♭ major for full orchestra.</p>",
       "devices": ["tempo change", "orchestration change", "crescendo build"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -345,7 +345,7 @@ export default {
           "trumpets",
           "trombones"
         ],
-        "note": "The full orchestra gathers around D♭ major, ending with short, emphatic chords."
+        "note": "The full orchestra arrives at D♭ major and ends with short, emphatic chords."
       }
     ]
   }

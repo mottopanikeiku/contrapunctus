@@ -19,21 +19,21 @@ export default {
   "performers": "Musopen Symphony",
   "recorded": "",
   "license": "Public domain",
-  "intro": "A bassoon begins at the bottom of its range; the violins eventually answer with one of Tchaikovsky’s great love songs. Between them lies a movement capable of turning six pianissimos into an orchestral explosion.",
+  "intro": "The first movement, Adagio — Allegro non troppo, of Tchaikovsky’s Symphony No. 6 in B minor, Op. 74, “Pathétique”, opens with a bassoon at the bottom of its range, and the violins later play one of Tchaikovsky’s great love songs. In this movement, a passage marked with six pianissimos is followed by an orchestral explosion.",
   "sections": [
-    { "t": 0, "label": "Intro · Bassoon and low strings", "m": "Intro", "mNote": "A four-note bassoon phrase rises above the double basses" },
-    { "t": 98, "label": "A · Violas set the pace", "m": "A", "mNote": "The bassoon’s phrase becomes a quick, detached viola tune" },
-    { "t": 266, "label": "B · The D-major string melody", "m": "B", "mNote": "Muted violins and cellos sing in long phrases" },
+    { "t": 0, "label": "Intro · Adagio, bassoon and low strings", "m": "Intro", "mNote": "A four-note bassoon phrase rises above the double basses." },
+    { "t": 98, "label": "A · Allegro non troppo, viola theme", "m": "A", "mNote": "The bassoon’s phrase returns as a quick, detached viola tune." },
+    { "t": 266, "label": "B · D-major melody, muted strings", "m": "B", "mNote": "Muted violins and cellos play the melody in long phrases." },
     { "t": 538, "label": "Dev · The orchestra breaks in", "m": "Dev", "mNote": "The opening tune is pulled apart in racing string passages" },
-    { "t": 838, "label": "B′ · The melody in B major", "m": "B′", "mNote": "The broad string tune returns in the tonic major" },
-    { "t": 930, "label": "Coda · Winds over plucked strings", "m": "Coda", "mNote": "Descending pizzicato strings accompany the quiet B-major close" }
+    { "t": 838, "label": "B′ · String melody in B major", "m": "B′", "mNote": "The broad string melody returns in the tonic major." },
+    { "t": 930, "label": "Coda · Winds over pizzicato strings, B major", "m": "Coda", "mNote": "Descending pizzicato strings accompany the quiet close in B major." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Bassoon in the depths",
-      "text": "A bassoon starts low, above double basses that move down by semitones. Its little four-note phrase climbs, tries again higher, then passes to the violas. The symphony begins with instruments usually kept beneath the tune.",
+      "title": "Opening, solo bassoon",
+      "text": "A bassoon begins low, above double basses that descend by semitones. Its four-note phrase rises, is repeated higher, then passes to the violas.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Queensland Symphony Orchestra, learning resource on Symphony No. 6, pp. 5–7, with score excerpts of the bassoon, basses and violas. https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
@@ -41,7 +41,7 @@ export default {
     {
       "t": 98,
       "kind": "form",
-      "title": "The violas hurry",
+      "title": "Allegro non troppo, violas",
       "text": "The violas take the bassoon’s phrase into the Allegro, adding quick descending notes and playing it short and detached. Second violas and cellos accompany them.",
       "basis": "score-proportion",
       "precision": "passage",
@@ -50,8 +50,8 @@ export default {
     {
       "t": 198,
       "kind": "life",
-      "title": "Four days at the desk",
-      "text": "In February 1893 Tchaikovsky tells his nephew Vladimir Davydov that the first movement’s sketches are ready after less than four days. “You can’t imagine how blissful I feel,” he writes, “in the conviction that my time is not yet passed, and to work is still possible.”",
+      "title": "Letter to Vladimir Davydov, 1893",
+      "text": "In February 1893 Tchaikovsky told his nephew Vladimir Davydov that he had finished the sketches for the first movement in less than four days. “You can’t imagine how blissful I feel,” he wrote, “in the conviction that my time is not yet passed, and to work is still possible.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Tchaikovsky to Vladimir Davydov, letter 4865, 11/23 February 1893, quoted in Tchaikovsky Research’s composition history. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
@@ -59,8 +59,8 @@ export default {
     {
       "t": 266,
       "kind": "form",
-      "title": "The strings sing",
-      "text": "Muted violins and cellos open the D-major melody. Tchaikovsky asks for tenderness, singing tone and breadth: <i>teneramente, molto cantabile, con espansione</i>. After all those short viola notes, the tune seems to take an enormous breath.",
+      "title": "Second subject, muted strings",
+      "text": "Muted violins and cellos play the D-major melody after the short viola notes. Tchaikovsky marked it <i>teneramente, molto cantabile, con espansione</i>.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 8, reproduces the Andante string theme and its expression markings. The D-major second subject is also identified at https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)."
@@ -68,8 +68,8 @@ export default {
     {
       "t": 317,
       "kind": "world",
-      "title": "A secret for Davydov",
-      "text": "Tchaikovsky tells Davydov that the symphony has a programme which will remain an enigma: “Let them guess.” He also admits to weeping while composing it in his head on his travels. The finished score bears Davydov’s name as its dedicatee.",
+      "title": "Letter to Vladimir Davydov, 1893",
+      "text": "In a letter of 11/23 February 1893, Tchaikovsky told Vladimir Davydov that the symphony had a programme which would remain an enigma: “Let them guess.” He also said he had wept while composing it in his head on his travels. The autograph score bears a dedication to Davydov.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Letter 4865 to Vladimir Davydov, 11/23 February 1893; dedication on the autograph score. Both are documented at https://en.tchaikovsky-research.net/pages/Symphony_No._6."
@@ -77,8 +77,8 @@ export default {
     {
       "t": 420,
       "kind": "life",
-      "title": "Two pages in a day",
-      "text": "On 3 August 1893, scoring the symphony, Tchaikovsky tells his brother Modest: “Today I spent the whole day sitting over two pages — and nothing came out as I wanted it to.” Twenty years earlier he went full steam ahead without thinking; now he is timid and unsure of himself.",
+      "title": "Letter to Modest Tchaikovsky, 1893",
+      "text": "On 3 August 1893, scoring the symphony, Tchaikovsky wrote to his brother Modest: “Today I spent the whole day sitting over two pages — and nothing came out as I wanted it to.” Twenty years earlier he had gone full steam ahead without thinking; now he was timid and unsure of himself.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Tchaikovsky to Modest Tchaikovsky, letter 4984, 22 July/3 August 1893, quoted in Tchaikovsky Research’s composition history of the symphony. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
@@ -86,8 +86,8 @@ export default {
     {
       "t": 538,
       "kind": "form",
-      "title": "Six pianissimos, then fortissimo",
-      "text": "The exposition ends with a bassoon line marked <i>pppppp</i>. The full orchestra breaks into that near-silence, and fast strings tear through pieces of the earlier tune. Tchaikovsky makes the join almost physically startling.",
+      "title": "End of exposition, bassoon",
+      "text": "The exposition ends with a bassoon line marked <i>pppppp</i>. The development opens with the full orchestra at fortissimo, and fast strings play fragments of the earlier theme.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 10; Harlow Robinson’s Boston Symphony programme note describes the bassoon’s six-piano marking and the development’s orchestral attack. https://www.bso.org/works/tchaikovsky-symphony-no-6"
@@ -95,8 +95,8 @@ export default {
     {
       "t": 635,
       "kind": "world",
-      "title": "A funeral chant",
-      "text": "The brass carry a fragment of the Orthodox funeral service into the first movement. Its words ask Christ to give peace to the soul of his servant. In the score, the quotation occupies just four bars.",
+      "title": "Orthodox Requiem quotation, brass",
+      "text": "In bars 202–205 of the first movement the brass play a fragment of the Orthodox funeral service. Its words ask Christ to give peace to the soul of his servant.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Tchaikovsky Research identifies the Orthodox Requiem quotation in bars 202–205; Harlow Robinson’s Boston Symphony note identifies its brass scoring. https://en.tchaikovsky-research.net/pages/Symphony_No._6 ; https://www.bso.org/works/tchaikovsky-symphony-no-6"
@@ -104,8 +104,8 @@ export default {
     {
       "t": 740,
       "kind": "world",
-      "title": "“A blizzard”, said Balanchine",
-      "text": "George Balanchine, who made a ballet to the symphony’s finale, called this first movement “a blizzard”. In the development, fast strings tear through pieces of the earlier tunes, and the brass drive the music into wider waves, led by trombones and tuba.",
+      "title": "Balanchine on the first movement",
+      "text": "George Balanchine, who made a ballet to the symphony’s finale, called this first movement “a blizzard”. In the development, fast strings play fragments of the earlier themes, and the brass, led by trombones and tuba, build the music in wider waves.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Balanchine’s phrase and his ballet on the fourth movement: Harlow Robinson’s Boston Symphony programme note. The development’s fast strings and the trombone-and-tuba waves: Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 10. https://www.bso.org/works/tchaikovsky-symphony-no-6 ; https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
@@ -113,8 +113,8 @@ export default {
     {
       "t": 838,
       "kind": "form",
-      "title": "The song comes home",
-      "text": "The broad string melody returns in B major. The tune that first appeared in D now sings in the major version of the symphony’s home key, after the trombones and racing strings have spent their fury.",
+      "title": "Return of the second subject, B major",
+      "text": "The broad string melody returns in B major. First heard in D, it now comes back in the major of the symphony’s home key, after the passage for trombones and fast strings.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The first movement’s B-major second-subject return is described at https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky); orchestration and sequence in Queensland Symphony Orchestra’s learning resource, p. 10."
@@ -122,8 +122,8 @@ export default {
     {
       "t": 930,
       "kind": "music",
-      "title": "Plucked steps downwards",
-      "text": "The closing wind and brass phrases rest on descending pizzicato strings. B major holds, and the movement ends quietly, its last steps plucked instead of bowed.",
+      "title": "Coda in B major",
+      "text": "The closing phrases in the wind and brass sit over descending pizzicato strings. The coda stays in B major to the end of the movement.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 10, describes the wind and brass close over descending pizzicato strings. B-major coda: https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)."
@@ -131,8 +131,8 @@ export default {
     {
       "t": 990,
       "kind": "world",
-      "title": "A title before the première",
-      "text": "Modest Tchaikovsky later claimed he thought of the title the day after the première. On 2 October 1893, weeks earlier, the publisher Jurgenson had already written: “What is to be done with pathétique and W. Davidoff or Dawidow?” Davydov, Tchaikovsky’s nephew, is the dedicatee.",
+      "title": "The title “Pathétique”, 1893",
+      "text": "Modest Tchaikovsky later claimed that he thought of the title the day after the première. Weeks earlier, on 2 October 1893, the publisher Jurgenson had already written: “What is to be done with pathétique and W. Davidoff or Dawidow?” The dedicatee is Davydov, Tchaikovsky’s nephew.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Tchaikovsky Research, Symphony No. 6, note 1: Modest’s claim (his 1902 life of his brother, vol. 3, p. 645) set against Jurgenson’s letters to Tchaikovsky of 20 September/2 October and 19/31 October 1893; the title page of the autograph score reads “To Vladimir Lvovich Davydov”. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
@@ -141,12 +141,12 @@ export default {
   "transitions": [
     {
       "id": "join-1",
-      "title": "The bassoon’s tune becomes a viola tune",
-      "from": "Intro · Bassoon and low strings",
-      "to": "A · Violas set the pace",
+      "title": "Bassoon theme taken over by violas",
+      "from": "Intro · Adagio, bassoon and low strings",
+      "to": "A · Allegro non troppo, viola theme",
       "at": { "t": 98 },
       "span": [88, 113],
-      "how": "<p>At <i>Allegro non troppo</i>, the first violas reshape the bassoon phrase in B minor. Second violas and cellos accompany them; extra semiquavers and staccato dots turn the slow solo into a quick string tune.</p>",
+      "how": "<p>At <i>Allegro non troppo</i> the first violas play the bassoon phrase in B minor in a new rhythm, accompanied by the second violas and cellos. Added semiquavers and staccato dots turn the slow solo into a quick string theme.</p>",
       "devices": ["tempo change", "motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -154,12 +154,12 @@ export default {
     },
     {
       "id": "join-2",
-      "title": "A pause before the strings sing",
-      "from": "A · Violas set the pace",
-      "to": "B · The D-major string melody",
+      "title": "Pause before the D-major Andante",
+      "from": "A · Allegro non troppo, viola theme",
+      "to": "B · D-major melody, muted strings",
       "at": { "t": 266 },
       "span": [256, 281],
-      "how": "<p>The quick music slows, and an ascending arpeggio passes from cellos to violas. After a pause, muted violins and cellos begin the D-major Andante. The instruction is <i>teneramente, molto cantabile, con espansione</i>: tenderly, very singing, with breadth.</p>",
+      "how": "<p>The quick music slows, and an ascending arpeggio passes from cellos to violas. After a pause, muted violins and cellos begin the D-major Andante, marked <i>teneramente, molto cantabile, con espansione</i> (tenderly, very singing, with breadth).</p>",
       "devices": ["tempo change", "general pause", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -167,12 +167,12 @@ export default {
     },
     {
       "id": "join-3",
-      "title": "The orchestra breaks the silence",
-      "from": "B · The D-major string melody",
+      "title": "Clarinet solo into the development",
+      "from": "B · D-major melody, muted strings",
       "to": "Dev · The orchestra breaks in",
       "at": { "t": 538 },
       "span": [528, 553],
-      "how": "<p>A descending clarinet solo passes its last notes to the bassoon, marked <i>pppppp</i>. The full orchestra answers fortissimo. A half-diminished chord sends the harmony towards D minor, and the strings launch into the development.</p>",
+      "how": "<p>A solo clarinet plays a descending line, and its last notes pass to the bassoon, marked <i>pppppp</i>. The full orchestra then enters fortissimo. A half-diminished chord moves the harmony towards D minor, and the strings begin the development.</p>",
       "devices": ["texture change", "orchestration change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -182,10 +182,10 @@ export default {
       "id": "join-4",
       "title": "B major after the trombones",
       "from": "Dev · The orchestra breaks in",
-      "to": "B′ · The melody in B major",
+      "to": "B′ · String melody in B major",
       "at": { "t": 838 },
       "span": [828, 853],
-      "how": "<p>The trombones’ climax subsides through bass and brass phrases. The strings recover the broad Andante tune in B major, changing the home key’s D♮ to D♯. Its long notes replace the preceding rush of semiquavers.</p>",
+      "how": "<p>After the trombones’ climax, phrases in the bass and brass bring the dynamic down. The strings then play the broad Andante tune again in B major, so the D♮ of the home key becomes D♯. The tune moves in long notes, following the semiquavers of the previous passage.</p>",
       "devices": ["decrescendo", "texture change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -193,12 +193,12 @@ export default {
     },
     {
       "id": "join-5",
-      "title": "B major on plucked strings",
-      "from": "B′ · The melody in B major",
-      "to": "Coda · Winds over plucked strings",
+      "title": "B major over pizzicato strings",
+      "from": "B′ · String melody in B major",
+      "to": "Coda · Winds over pizzicato strings, B major",
       "at": { "t": 930 },
       "span": [920, 945],
-      "how": "<p>The returning melody quietens. Winds and brass carry the last phrases over pizzicato strings descending through the B-major close. The bowed song ends with small plucked steps beneath it.</p>",
+      "how": "<p>The returning melody grows quieter. Winds and brass play its last phrases while the strings, playing pizzicato, descend through the close in B major.</p>",
       "devices": ["decrescendo", "texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -245,7 +245,7 @@ export default {
         "t": 54,
         "playing": ["oboes", "clarinets", "bassoons", "horns", "violas", "cellos", "basses"],
         "lead": ["violas", "bassoons"],
-        "note": "Latter introduction: winds, horns and cellos join the low strings (score PDF p. 2). The report’s 0:54 change anchors this broad state, not each entrance."
+        "note": "Latter introduction: winds, horns and cellos join the low strings (score PDF p. 2). The report’s change at 0:54 marks this section as a whole, not each entrance."
       },
       {
         "t": 98,
@@ -265,7 +265,7 @@ export default {
           "violas",
           "violins-1"
         ],
-        "note": "Allegro region: string figures carry the motif, with wind replies and horn support."
+        "note": "Allegro section: string figures carry the motif, with replies in the wind and support from the horns."
       },
       {
         "t": 266,
@@ -295,7 +295,7 @@ export default {
         "t": 532,
         "playing": ["bassoons"],
         "lead": ["bassoons"],
-        "note": "The exposed bassoon continuation ends the exposition (score PDF p. 19). This brief reduced state is provisionally placed inside the very quiet 8:50–8:58 span, not bar-aligned."
+        "note": "The exposed bassoon continuation ends the exposition (score PDF p. 19). This brief reduced passage is provisionally placed within the very quiet span at 8:50–8:58 and is not aligned to the bar."
       },
       {
         "t": 538,
@@ -320,7 +320,7 @@ export default {
           "violins-2",
           "trombones"
         ],
-        "note": "Central argument: active strings are answered and reinforced by winds, brass and timpani across the passage."
+        "note": "The strings are active throughout the passage, and winds, brass and timpani answer and reinforce them."
       },
       {
         "t": 838,
@@ -343,7 +343,7 @@ export default {
           "violins-1",
           "cellos"
         ],
-        "note": "Later lyrical return: the broad string line expands with wind and brass reinforcement."
+        "note": "Later lyrical return: the broad string line is reinforced by wind and brass."
       },
       {
         "t": 930,
@@ -364,7 +364,7 @@ export default {
           "flutes",
           "clarinets"
         ],
-        "note": "Closing passage: softer wind harmony and a lightly articulated lower-string foundation replace the preceding breadth."
+        "note": "In the closing passage softer wind harmony and lightly articulated lower strings replace the preceding breadth."
       }
     ]
   }

@@ -19,7 +19,7 @@ export function mountTerms(app) {
   popup.setAttribute('role', 'dialog'); popup.setAttribute('aria-label', 'Glossary definition');
   const title = document.createElement('strong'), text = document.createElement('p'), link = document.createElement('a'), close = document.createElement('button');
   text.id = 'term-popover-description';
-  link.textContent = 'Read the glossary entry →';
+  link.textContent = 'Full glossary entry';
   close.type = 'button'; close.textContent = '×'; close.setAttribute('aria-label', 'Close definition');
   popup.append(close, title, text, link); document.body.append(popup);
   let active = null, tapped = null, pointer = 'mouse', timer;
@@ -90,7 +90,7 @@ export async function mount(app) {
     } catch {
       const selection = window.getSelection(), range = document.createRange();
       range.selectNodeContents(target); selection.removeAllRanges(); selection.addRange(range);
-      if (status) status.textContent = 'Citation selected. Use your browser’s Copy command.';
+      if (status) status.textContent = 'Citation selected; copy it with the browser’s Copy command.';
     }
   }));
   const kind = $('#glossary-kind');

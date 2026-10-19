@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "id": "grieg-wedding-day-vetter-2006",
+  "source": {
+    "mutopia": 781,
+    "title": "Wedding-day at Troldhaugen, Op. 65 No. 6",
+    "edition": "G. Schirmer, 1903, edited by Louis Oesterle",
+    "encoder": "David Whipple",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=781",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "troldhaugen.ly",
+    "midi": "troldhaugen.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/GriegE/O65/troldhaugen/troldhaugen.ly",
+        "file": "troldhaugen.ly",
+        "sha256": "eed026a31dbbdba7b0e4a633ad651db6a4aae8dbaf6570f9edae5878606b072d"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/GriegE/O65/troldhaugen/troldhaugen.mid",
+        "file": "troldhaugen.mid",
+        "sha256": "668205876de4597aa3647f0f85bf40f056205512dcb265ca3f549f408e952225"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "troldhaugen.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new PianoStaff << \\new Staff = \"upper\" \\upper \\new Staff = \"lower\" << \\clef bass \\lower >> >>",
+    "expectedTracks": [
+      null,
+      "upper:",
+      "lower:"
+    ]
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        2
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 179,
+    "quarters": 4,
+    "overrides": {
+      "57": 2,
+      "58": 2,
+      "59": 2,
+      "60": 2,
+      "61": 2,
+      "62": 2,
+      "63": 2,
+      "64": 2,
+      "65": 2,
+      "66": 2,
+      "67": 2,
+      "68": 2,
+      "69": 2,
+      "70": 2,
+      "71": 2,
+      "72": 2,
+      "73": 2,
+      "74": 2,
+      "75": 2,
+      "76": 2,
+      "77": 2,
+      "78": 2,
+      "79": 2,
+      "80": 2,
+      "81": 2,
+      "82": 2,
+      "83": 2,
+      "84": 2,
+      "85": 2,
+      "86": 2,
+      "87": 2,
+      "88": 2,
+      "89": 2,
+      "90": 2,
+      "91": 2,
+      "92": 2,
+      "93": 2,
+      "94": 2,
+      "95": 2,
+      "96": 2,
+      "97": 2,
+      "98": 2,
+      "99": 2,
+      "100": 2,
+      "101": 2,
+      "102": 2,
+      "103": 2,
+      "104": 2,
+      "105": 2,
+      "106": 2
+    },
+    "order": [
+      [
+        1,
+        106
+      ],
+      [
+        75,
+        179
+      ]
+    ],
+    "description": "Play the 4/4 march, bars 1–56, and the 2/4 Poco tranquillo, bars 57–106; repeat the source's volta section, bars 75–106, once; then the written-out Tempo I return and coda, bars 107–179."
+  },
+  "endpoints": {
+    "first": [
+      1.9,
+      2.4
+    ],
+    "last": [
+      408.5,
+      409.1
+    ],
+    "basis": "The opening lower-staff D2/A2 quarter rises near 2.1 s, followed by the upper D3/A3 eighths; the initial broad window wrongly selected bar 2's repeated D/A downbeat near 4.2 s despite passing numerical gates. The final fff D-major chord (D1/A1/D2 bass, D5/F-sharp5/A5/D6 treble) rises near 408.8 s after the bar-178 staccato near 407.8 s."
+  },
+  "anchors": [
+    {
+      "scoreQ": 388,
+      "window": [261.3, 261.6],
+      "label": "bar-107-Tempo-I-D2-A2",
+      "basis": "MEAS: performed q388 is the lower-staff D2/A2 quarter opening the Tempo I return, bar 107, after the pause that ends the repeated Poco tranquillo. In the initial 256–264-s pitch-energy overlay the D2/A2/D3/A3 bands and the onset envelope stay silent from about 259.7 s until a joint rise near 261.4 s, whereas the unconstrained map put this downbeat at 260.85 s inside the silence. Inspected source-pitch fitting constraint, not independent or aural validation."
+    }
+  ],
+  "boundaries": [],
+  "diagnostics": {
+    "recurrences": [
+      {
+        "startQ": 260,
+        "startOffset": 1,
+        "secondQ": 324,
+        "secondOffset": 1,
+        "length": 40,
+        "search": 5
+      },
+      {
+        "startQ": 0,
+        "startOffset": 1,
+        "secondQ": 388,
+        "secondOffset": 1,
+        "length": 60,
+        "search": 5
+      }
+    ],
+    "overlays": [
+      [114, 128],
+      [198, 212],
+      [256, 268]
+    ]
+  },
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "EXT: Mutopia 781 transcribes the G. Schirmer 1903 edition edited by Louis Oesterle; the listen module already cites that Oesterle edition for its bar references. Labels identify the two printed staves, not separated hands or contrapuntal voices.",
+    "The LilyPond 2.8.4 source is converted only in a disposable copy and compiled with LilyPond 2.24.4. The legacy published MIDI unfolds the repeat and carries old grace-note timing drift, so a strict pitch/onset identity comparison is not configured; every one of its attacks is matched by pitch within 0.15 quarter in the modern unfolded compilation, which additionally retains same-pitch grace/main-note rearticulations the legacy file coalesced.",
+    "Read content/listen/grieg-wedding-day-vetter-2006.mjs and cache/analysis/grieg-wedding-day-vetter-2006.txt. Editorial sections are coarse; they are not forced alignment anchors."
+  ]
+}

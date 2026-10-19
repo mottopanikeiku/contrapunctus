@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "id": "beach-years-at-the-spring-eames-1905",
+  "source": {
+    "title": "3 Browning Songs, Op. 44 — No. 1 The Year’s at the Spring",
+    "edition": "OpenScore Lieder transcription by markpearse from IMSLP #522898 (D-flat major); printed-edition imprint not independently established",
+    "encoder": "markpearse / OpenScore Lieder",
+    "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "main": "song.ly",
+    "musicxml": "lc6212179.mxl",
+    "otherDynamicsWords": true,
+    "musicxmlInitialGrace": {
+      "part": "P2",
+      "measure": 1,
+      "note": 27,
+      "basis": "Original lc6212179.mxl P2 measure 1 direct note index 27 is the visible D-flat2 eighth acciaccatura in voice 5/staff 2, before the bass D-flat3 on the first beat. Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes (before the opening triplet group where a voice begins with one); retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.24/Documentation/notation/special-rhythmic-concerns#grace-notes ."
+    },
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring/lc6212179.mxl",
+        "file": "lc6212179.mxl",
+        "sha256": "de6f04d0bebda71809ce9c42f77a6e04dd24c3e378dd9e66821bf20c9307e1e4"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "music": "\\new StaffGroup << \\new Staff = \"voice\" \\with { instrumentName = \"Voice\" } { \\PartPOneVoiceOne } \\new Staff = \"piano-upper-1\" \\with { instrumentName = \"Piano upper voice 1\" } { \\PartPTwoVoiceOne } \\new Staff = \"piano-upper-2\" \\with { instrumentName = \"Piano upper voice 2\" } { \\PartPTwoVoiceTwo } \\new Staff = \"piano-lower-5\" \\with { instrumentName = \"Piano lower voice 5\" } { \\PartPTwoVoiceFive } \\new Staff = \"piano-lower-6\" \\with { instrumentName = \"Piano lower voice 6\" } { \\PartPTwoVoiceSix } >>"
+  },
+  "voices": [
+    {
+      "id": "voice",
+      "name": "Voice (soprano)",
+      "tracks": [
+        "voice:"
+      ]
+    },
+    {
+      "id": "piano-upper-1",
+      "name": "Piano upper staff · encoded voice 1",
+      "tracks": [
+        "piano-upper-1:"
+      ]
+    },
+    {
+      "id": "piano-upper-2",
+      "name": "Piano upper staff · encoded voice 2",
+      "tracks": [
+        "piano-upper-2:"
+      ]
+    },
+    {
+      "id": "piano-lower-5",
+      "name": "Piano lower staff · encoded voice 5",
+      "tracks": [
+        "piano-lower-5:"
+      ]
+    },
+    {
+      "id": "piano-lower-6",
+      "name": "Piano lower staff · encoded voice 6",
+      "tracks": [
+        "piano-lower-6:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 29,
+    "quarters": 3,
+    "overrides": {
+      "1": 3.1119791666666665,
+      "7": 4,
+      "25": 4
+    },
+    "order": [
+      [
+        1,
+        29
+      ]
+    ],
+    "description": "Printed bars 1–29 once in written order: both settings of the opening lines, the lark/snail lines and the two “God’s in His heaven” statements. Bars 7 and 25 are 4/4; the others 3/4. The first performed bar includes the common 43/384-quarter MIDI lead of the source's initial D-flat2 grace note, then its full three metric quarters. No repeat signs occur in the source."
+  },
+  "endpoints": {
+    "first": [
+      0.34,
+      0.4
+    ],
+    "last": [
+      52.6,
+      52.9
+    ],
+    "basis": "MEAS, cached Commons transfer (work/beach-years-at-the-spring-eames-1905-0-12.png, 36-56.png and pitch-band tables). The first score attack is the piano's D-flat2 grace (q0, voice 5). Its own band is at about −80 dB throughout the opening of this acoustic recording, below the horn's bass response, so it cannot be located directly. The following bar-1 chord (D-flat3 bass with A-flat3/F4/A-flat4; their D-flat4/D-flat5/A-flat5 partials) rises from about −36 to −16…−21 dB between 0.30 and 0.50 s, with the first librosa onset at 0.43 s. The first window therefore places the grace immediately before that rise, 43/384 quarter (about 0.05 s) ahead of the chord; this is a documented placement, not a measurement of the grace itself. At the end, the dominant-pitch trace shows the voice's held A-flat5 (“right”) at 37.5–41 s, G-flat5 at 41.75 s, E-flat5 at 42.5–43.5 s, F5 (“with the”) at 44.75–46 s and D-flat5 (“world”) from 46.5 s; piano onsets at 50.95/51.8/52.75 s are the bar-28 beat-2/beat-3 attacks and the final bar-29 chord. A first broad window (40–58 s) had selected the F5 entry near 45.0 s as the final chord; that candidate was rejected. Numerical and visual inspection only; no aural review is claimed."
+  },
+  "boundaries": [],
+  "provenance": [
+    "OpenScore Lieder releases its scores under CC0 (https://github.com/OpenScore/Lieder#license-and-acknowledgement). The MusicXML identification reads 'Transcribed by markpearse from IMSLP #522898' and carries rights 'OpenScore (CC0)'. Exact downloaded MXL bytes match the SHA-256 pinned in this config; no printed-edition imprint beyond that IMSLP reference is asserted.",
+    "Source part P1 is the Voice (one treble line with lyrics); P2 is Piano (two staves with explicitly numbered MusicXML voices 1/2 and 5/6). Each source voice is a separate MIDI track in one simultaneous compilation, not inferred from register. Two print-object=\"no\" rests in piano bars 11 and 13 are omitted by the converter. Voice labels are encoding identities, not separated audio stems.",
+    "Nonstandard MusicXML other-dynamics texts ('a tempo', 'dolce marcato', 'poco rall.') are preserved as printed words via otherDynamicsWords, because LilyPond 2.24.4's converter would otherwise emit invalid identifiers; no note or rhythm changes.",
+    "Recording: Emma Eames, soprano, with piano, Victor 85057, 16 March 1905 (content/listen module; the Victor label gives the key as D-flat). The OpenScore source is in D-flat major and the transfer's tuning estimate is −1 cent, so no transposition is applied; the soprano line sounds as written.",
+    "Initial grace: the piano's opening D-flat2 acciaccatura (voice 5) gives every MIDI track one common 43/384-quarter lead, retained once in bar 1's quarter extent. The guarded grace-priming adapter places nonprinting grace skips before the opening triplet groups of the other voices so that the engraving does not duplicate the initial clef/key/time glyphs; the converted event arrays are identical with and without that priming (995 notes).",
+    "Inspection (MEAS, not aural): a per-note dominant-pitch ranking found the written vocal pitch ranked first among 64–89 in most sung notes, including the A-flat5 'right' hold (37.1–41 s), G-flat5/E-flat5/F5 'All's right with the' (41.8/42.6/44.9 s) and D-flat5 'world' from 46.5 s; misses are mostly short pickups under louder piano chords."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 240,
+    "height": 320,
+    "music": "<< \\new Staff = \"voice\" \\with { instrumentName = \"Voice\" } << \\new Voice = \"PartPOneVoiceOne\" { \\PartPOneVoiceOne } \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\PartPOneVoiceOneLyricsOne } >> \\new PianoStaff \\with { instrumentName = \"Piano\" } << \\new Staff = \"1\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\new Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\new Voice = \"PartPTwoVoiceTwo\" { \\voiceTwo \\PartPTwoVoiceTwo } >> \\new Staff = \"2\" << \\mergeDifferentlyDottedOn \\mergeDifferentlyHeadedOn \\new Voice = \"PartPTwoVoiceFive\" { \\voiceOne \\PartPTwoVoiceFive } \\new Voice = \"PartPTwoVoiceSix\" { \\voiceTwo \\PartPTwoVoiceSix } >> >> >>"
+  }
+}

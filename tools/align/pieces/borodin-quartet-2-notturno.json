@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "id": "borodin-quartet-2-notturno",
+  "source": {
+    "title": "String Quartet No. 2 in D major — III. Notturno: Andante",
+    "edition": "OpenScore String Quartets transcription by markpearse from the IMSLP file(s) at https://imslp.org/wiki/Special:ReverseLookup/644692; printed-edition imprint not independently established",
+    "encoder": "markpearse / OpenScore String Quartets",
+    "url": "https://github.com/OpenScore/StringQuartets/tree/main/scores/Borodin%2C_Alexander/String_Quartet_No.2",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "main": "quartet-III.ly",
+    "musicxml": "sq10675759.mxl",
+    "musicxmlMeasures": [
+      603,
+      783
+    ],
+    "otherDynamicsWords": true,
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenScore/StringQuartets/main/scores/Borodin%2C_Alexander/String_Quartet_No.2/sq10675759.mxl",
+        "file": "sq10675759.mxl",
+        "sha256": "4e4ed43ab0989842e62a372dd113dd5488e59f49535bb1e3a8455b790adc6826"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "definitions": [
+      {
+        "file": "quartet-III.ly",
+        "before": "\\score"
+      }
+    ],
+    "music": "\\new StaffGroup << \\new Staff = \"violin-1\" \\with { instrumentName = \"Violin I\" } << \\new Voice = \"PartPOneVoiceOne\" { \\voiceOne \\PartPOneVoiceOne } \\new Voice = \"PartPOneVoiceTwo\" { \\voiceTwo \\PartPOneVoiceTwo } >> \\new Staff = \"violin-2\" \\with { instrumentName = \"Violin II\" } << \\new Voice = \"PartPTwoVoiceOne\" { \\voiceOne \\PartPTwoVoiceOne } \\new Voice = \"PartPTwoVoiceTwo\" { \\voiceTwo \\PartPTwoVoiceTwo } >> \\new Staff = \"viola\" \\with { instrumentName = \"Viola\" } << \\new Voice = \"PartPThreeVoiceOne\" { \\PartPThreeVoiceOne } >> \\new Staff = \"cello\" \\with { instrumentName = \"Cello\" } << \\new Voice = \"PartPFourVoiceOne\" { \\voiceOne \\PartPFourVoiceOne } \\new Voice = \"PartPFourVoiceTwo\" { \\voiceTwo \\PartPFourVoiceTwo } >> >>"
+  },
+  "voices": [
+    {
+      "id": "violin-1",
+      "name": "Violin I",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "violin-2",
+      "name": "Violin II",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "tracks": [
+        3
+      ]
+    },
+    {
+      "id": "cello",
+      "name": "Cello",
+      "tracks": [
+        4
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 180,
+    "quarters": 3,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        180
+      ]
+    ],
+    "description": "Movement III only: bars 1–180 once in written order. The selected MusicXML has no repeat signs or endings; the Tempo I return at bar 111 is written out."
+  },
+  "endpoints": {
+    "first": [
+      0.3,
+      0.9
+    ],
+    "last": [
+      542.2,
+      542.8
+    ],
+    "basis": "Windows from source-pitch energy inspection of the cached recording (endpoint_peaks.py, work/borodin-quartet-2-notturno-0-12.png and the 515–547 s pitch-band table). The opening viola A3 / violin II C-sharp4–E4 eighth chord rises at about 0.45 s, before the cello's A4 entry; the broad first-pass window had selected a later 7.9 s recurrence of the same pitches. At the end, separate pitch bands show the bar-178 viola figure A4/B4/C-sharp5/B4/A4 at about 536.2/536.8/537.2/537.8/538.3 s and the bar-179 E5 at about 539.2 s; the final bar-180 viola A4 under the pause re-enters quietly at about 542.4–542.6 s. The strongest A4 rise at 536.38 s, chosen by the first broad pass, is the bar-178 A4, not the last score attack. Numerical and visual inspection only; no aural review is claimed."
+  },
+  "boundaries": [],
+  "provenance": [
+    "OpenScore String Quartets releases its scores under CC0 (https://github.com/OpenScore/StringQuartets#license-and-acknowledgement). The MusicXML identification credits markpearse's transcription from the IMSLP file(s) at https://imslp.org/wiki/Special:ReverseLookup/644692 and carries rights 'OpenScore (CC0)'. No printed-edition imprint is asserted beyond that reference.",
+    "Select zero-based half-open MusicXML measure indices [603, 783) from every part: the 'III. Notturno' Andante heading through the bar before 'IV. Finale'. Inherited clefs, key and time signature carry into the first selected bar. The original MXL download remains unchanged.",
+    "Four source-defined instrument parts are retained, with every explicitly encoded subsidiary voice inside its staff. The converter omits the source's print-object=\"no\" elements (violin I bar 52 and violin II bars 56/64 hidden voice-2 quarter notes beneath written trills; hidden voice-2 rests in bar 43), so only printed notes are timed. Voice labels identify score parts, not separated audio stems or MIDI patches."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 250,
+    "height": 320
+  }
+}

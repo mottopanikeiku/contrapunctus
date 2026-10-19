@@ -12,19 +12,19 @@ export default {
   "source": {
     "file": "File:Chopin - 12 Études, Op. 10 - No. 5 in G-Flat major 'Black Keys' (Edward Neeman).flac"
   },
-  "intro": "Edward Neeman plays the <i>Black Keys</i> étude: the right hand races over the five black notes while the left supplies crisp chords and surprises in the bass. Even the final octave dash stays on the black keys.",
+  "intro": "Edward Neeman plays the Étude in G♭ major, Op. 10 No. 5, marked Vivace and known as the <i>Black Keys</i> étude, in which the right hand plays across the five black notes while the left hand plays chords and the bass line. The final run in octaves also stays on the black keys.",
   "sections": [
-    { "t": 0, "label": "A · Black-note triplets, crisp left-hand chords", "m": "A", "mNote": "The right hand runs; the left answers with detached chords" },
-    { "t": 30, "label": "B · D♭ major and left-hand calls", "m": "B", "mNote": "The triplets continue while the left hand changes the harmony" },
-    { "t": 60, "label": "A′ · G♭ major brings back the opening", "m": "A′", "mNote": "The opening figure returns, then dwindles to pianissimo" },
-    { "t": 86, "label": "Coda · Both hands on black keys", "m": "Coda", "mNote": "Wide arpeggios lead to a final dash in octaves" }
+    { "t": 0, "label": "A · Black-note triplets, detached left-hand chords", "m": "A", "mNote": "Right-hand runs over detached chords in the left hand." },
+    { "t": 30, "label": "B · D♭ major, left-hand calls", "m": "B", "mNote": "The triplets continue while the left hand changes the harmony." },
+    { "t": 60, "label": "A′ · Opening figure returns, G♭ major", "m": "A′", "mNote": "The opening figure returns, then falls to pianissimo." },
+    { "t": 86, "label": "Coda · Both hands on black keys", "m": "Coda", "mNote": "Wide arpeggios lead to a closing run in octaves." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Five black notes",
-      "text": "The right hand runs in semiquaver triplets over the piano’s five black notes. Below it, the left hand plays detached chords and octaves. The opening phrase is full of quick changes between <i>forte</i> and <i>piano</i> — a bold statement, then a quiet answer.",
+      "title": "Opening, right-hand triplets",
+      "text": "The right hand plays semiquaver triplets on the piano’s five black notes, and the left hand plays detached chords and octaves below. In the opening phrase the dynamics change quickly between <i>forte</i> and <i>piano</i>, with a loud statement followed by a soft reply.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Opening triplets, left-hand articulation and four-bar dynamic pattern: https://en.wikipedia.org/wiki/Étude_Op._10,_No._5_(Chopin), citing Hugo Leichtentritt, Analyse der Chopin’schen Klavierwerke, vol. 2 (1922), pp. 105–106."
@@ -32,8 +32,8 @@ export default {
     {
       "t": 40,
       "kind": "world",
-      "title": "Chopin for free",
-      "text": "Neeman joins the pianists recording Chopin for Musopen’s <i>Set Chopin Free</i> project. Launched through crowdfunding in 2013, the project seeks new recordings that anyone can download, share and use.",
+      "title": "Set Chopin Free project, 2013",
+      "text": "Edward Neeman was among the pianists who recorded Chopin for Musopen’s <i>Set Chopin Free</i> project. The project was launched through crowdfunding in 2013 to make new recordings that anyone could download, share and use.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Culture.pl, ‘Set Chopin Free’, 11 September 2013, names Edward Neeman among the project’s pianists and describes its crowdfunding and free-access purpose. https://culture.pl/en/article/set-chopin-free"
@@ -41,8 +41,8 @@ export default {
     {
       "t": 86,
       "kind": "form",
-      "title": "Both hands join the dash",
-      "text": "The coda brings the middle section’s figure back in G♭ major. Wide arpeggios spread across the keyboard, then both hands race in detached octaves on the black keys. The closing direction is <i>fortissimo</i>.",
+      "title": "Coda in G♭ major",
+      "text": "The coda brings the middle section’s figure back in G♭ major. Wide arpeggios cover the keyboard, then both hands play detached octaves on the black keys. The closing marking is <i>fortissimo</i>.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Coda and final black-key octaves: https://en.wikipedia.org/wiki/Étude_Op._10,_No._5_(Chopin), citing Leichtentritt, vol. 2, p. 109."
@@ -52,11 +52,11 @@ export default {
     {
       "id": "into-central-expansion",
       "title": "The triplets continue into D♭ major",
-      "from": "A · Black-note triplets, crisp left-hand chords",
-      "to": "B · D♭ major and left-hand calls",
+      "from": "A · Black-note triplets, detached left-hand chords",
+      "to": "B · D♭ major, left-hand calls",
       "at": { "t": 30 },
       "span": [20, 42],
-      "how": "<p>The opening moves from G♭ major to its dominant, D♭ major. The right-hand triplets keep running as the left hand changes the bass and chord pattern. The middle section stretches the opening’s neat four-bar phrases into less regular lengths.</p>",
+      "how": "<p>The opening modulates from G♭ major to its dominant, D♭ major. The right-hand triplets continue without a break, and the left hand changes the bass and the chord pattern. In the middle section the regular four-bar phrases of the opening are extended to irregular lengths.</p>",
       "devices": ["sequence", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -64,12 +64,12 @@ export default {
     },
     {
       "id": "into-opening-figure",
-      "title": "The left hand brings G♭ home",
-      "from": "B · D♭ major and left-hand calls",
-      "to": "A′ · G♭ major brings back the opening",
+      "title": "Return to G♭ major",
+      "from": "B · D♭ major, left-hand calls",
+      "to": "A′ · Opening figure returns, G♭ major",
       "at": { "t": 60 },
       "span": [50, 72],
-      "how": "<p>The left hand’s short calls lead back to G♭ major and the opening figure. The right hand continues its black-note triplets, while the bass restores the original harmony. The return soon softens towards <i>delicatissimo, pianissimo, smorzando</i> — very delicate, very quiet, dying away.</p>",
+      "how": "<p>At bar 49 the left hand’s short figures lead back to G♭ major and the opening figure. The right hand continues its black-note triplets, and the bass restores the original harmony. Soon after the return the markings change to <i>delicatissimo, pianissimo, smorzando</i> — very delicate, very quiet, dying away.</p>",
       "devices": ["retransition", "motivic link", "decrescendo"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -77,12 +77,12 @@ export default {
     },
     {
       "id": "into-final-flourish",
-      "title": "The coda spreads across the keyboard",
-      "from": "A′ · G♭ major brings back the opening",
+      "title": "Cadence into the G♭ major coda",
+      "from": "A′ · Opening figure returns, G♭ major",
       "to": "Coda · Both hands on black keys",
       "at": { "t": 86 },
       "span": [76, 98],
-      "how": "<p>A quiet cadence leads to the coda in G♭ major. The middle section’s figure returns in the home key, then the hands spread into wide arpeggios above an ascending bass. Both hands finish with black-key octaves, marked <i>fortissimo</i> and detached.</p>",
+      "how": "<p>A soft cadence leads into the coda in G♭ major. The figure from the middle section returns in the home key. The hands then move apart into wide arpeggios over a rising bass. The étude ends with octaves on the black keys in both hands, marked <i>fortissimo</i> and played detached.</p>",
       "devices": ["motivic link", "texture change", "register change"],
       "basis": "score-proportion",
       "precision": "passage",

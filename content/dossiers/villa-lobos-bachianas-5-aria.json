@@ -1,0 +1,164 @@
+{
+  "id": "villa-lobos-bachianas-5-aria",
+  "work": {
+    "title": "Bachianas Brasileiras No. 5",
+    "catalogue": "W389 (Appleby)",
+    "movement": "I. Ária (Cantilena)",
+    "version": {
+      "value": "First movement only, for soprano and an orchestra of cellos, in the form of 1938; sung in Portuguese.",
+      "status": "documented",
+      "sourceIds": ["labels", "imslp"],
+      "note": "The Columbia labels give the movement as “Aria – Cantilena”, in two parts marked “Beginning” and “Conclusion”, and read “Sung in Portuguese”. The Dansa (Martelo) was added in 1945 and is not on this disc."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Bidú Sayão", "role": "soprano" },
+      { "name": "Leonard Rose", "role": "solo cello" },
+      { "name": "Eight cellos and double bass (players not named)", "role": "ensemble" },
+      { "name": "Heitor Villa-Lobos", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["labels", "archive"],
+    "note": "Both label scans read “BIDÚ SAYÃO (Soprano) with Eight ’Celli and Bass conducted by Heitor Villa-Lobos; Solo ’Cello: Leonard Rose”. The Internet Archive description gives the same names."
+  },
+  "session": {
+    "date": {
+      "value": "1945 (year only)",
+      "status": "inferred",
+      "sourceIds": ["archive", "catalogue", "newyorker"],
+      "note": "The Internet Archive item dates the recording 1945. The record appears in the Columbia catalogue of 1946, and a New Yorker profile places Villa-Lobos in New York in February 1945. No session date is stated in the sources consulted.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No recording location is stated on the labels or in the Internet Archive description."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks (United States)",
+      "status": "documented",
+      "sourceIds": ["labels"],
+      "note": "The labels read “Columbia Masterworks … Made in U.S.A.”."
+    },
+    "catalogue": {
+      "value": "71670-D, 12-inch 78 rpm; listed in the Columbia catalogues of 1946 and 1947",
+      "status": "documented",
+      "sourceIds": ["labels", "catalogue"],
+      "note": "The 1946 catalogue lists “Bachiana Brasileira No. 5 (Villa-Lobos)” with Bidú Sayão and an orchestra conducted by Villa-Lobos at 71670-D; the 1947 catalogue lists it at the same number with a price of 1.00."
+    },
+    "matrixTakeSides": {
+      "value": "Side one, “(Beginning)”: XCO 34194; side two, “(Conclusion)”: XCO 34195. Take numbers are not shown.",
+      "status": "documented",
+      "sourceIds": ["labels"],
+      "note": "Read from the two label scans in the Internet Archive item."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item was uploaded by a private account in the Internet Archive’s hifidelity collection. No transfer engineer is named, and the account name is not reproduced here."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item’s public date, 10 March 2025, is the date of upload, not of the transfer."
+    },
+    "processing": {
+      "value": "Per the uploader: equalisation with a 300 Hz bass turnover and a treble roll-off, and de-clicking with iZotope RX10; the original file is a WAV and the site’s stream is the Internet Archive MP3 derivative.",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The two disc sides are run together in one file. The source disc copy and the playback equipment are not described."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/bachianas-brasileiras-no.-5/Bachianas%20Brasileiras%20No.%205.mp3",
+    "sourceChain": ["archive"],
+    "format": "Internet Archive derivative VBR MP3 from an uploaded WAV; one file for both disc sides",
+    "durationSeconds": 417.96
+  },
+  "rights": {
+    "composition": {
+      "value": "Villa-Lobos died in 1959, so the work is in copyright in the EU, under the life-plus-70 term, until the end of 2029. IMSLP records it as public domain in Canada and in life-plus-50 countries and as probably still protected in the United States; its first publication was in 1947 (Associated Music Publishers).",
+      "status": "documented",
+      "sourceIds": ["imslp"],
+      "note": "Rights in the composition are stated separately from rights in the recording. This dossier does not assert that the composition is free of copyright."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: first published before 1963 (Columbia 71670-D, listed in the 1946 catalogue).",
+      "status": "documented",
+      "sourceIds": ["catalogue", "labels"],
+      "note": "The 1946 catalogue is a dated witness that the disc was on sale by then; the exact release date is not established. The Internet Archive item carries a CC BY-NC-ND 4.0 label chosen by the uploader, which is not relied on here. The United States status of a recording first published in 1945 or 1946 is not established."
+    },
+    "creditLine": "Heitor Villa-Lobos, Bachianas Brasileiras No. 5, I. Ária (Cantilena). Bidú Sayão, soprano; Leonard Rose, solo cello; eight cellos and double bass; Heitor Villa-Lobos, conductor. Columbia Masterworks 71670-D (matrices XCO 34194–34195), recorded 1945, issued by 1946. Internet Archive item bachianas-brasileiras-no.-5 (uploader’s transfer). Territorial EU basis (first published before 1963); US status not established.",
+    "licenseUrl": "https://archive.org/details/bachianas-brasileiras-no.-5"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Bachianas Brasileiras No. 5 (Bidú Sayão; Heitor Villa-Lobos): metadata and file inventory",
+      "url": "https://archive.org/metadata/bachianas-brasileiras-no.-5",
+      "locator": "metadata.description (performers, Columbia Masterworks 71670-D, equalisation and de-click notes), date 1945, licenseurl, publicdate; files Bachianas Brasileiras No. 5.mp3 (417.96 s), label1.jpg, label2.jpg",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "labels",
+      "title": "Label scans of Columbia Masterworks 71670-D, in the same Internet Archive item",
+      "url": "https://archive.org/download/bachianas-brasileiras-no.-5/label1.jpg",
+      "locator": "label1.jpg: “Aria – Cantilena (Beginning)”, “Sung In Portuguese”, XCO 34194; label2.jpg: “(Conclusion)”, XCO 34195; both: Bidú Sayão with Eight ’Celli and Bass conducted by Heitor Villa-Lobos, Solo ’Cello: Leonard Rose",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "catalogue",
+      "title": "Columbia Record Catalog (1946), Columbia Recording Corporation (Media History Digital Library scan)",
+      "url": "https://archive.org/details/columbiarecordca00colu_2",
+      "locator": "Index entries under “Bachiana Brasileira No. 5” and “Latin American Music”: Bidú Sayão, orchestra conducted by Heitor Villa-Lobos, 71670-D. The 1947 edition (columbiarecordca00colu_1) lists the same number at 1.00.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Bachianas brasileiras No.5, W389-391 (Villa-Lobos, Heitor)",
+      "url": "https://imslp.org/wiki/Bachianas_brasileiras_No.5,_W389-391_(Villa-Lobos,_Heitor)",
+      "locator": "General Information: movements, key (A minor for the Ária), first performance 1939-03-25, first publication 1947, dedication, copyright notice for life-plus-70 countries and the United States",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "newyorker",
+      "title": "John McCarten — Villa-Lobos, The New Yorker, 10 February 1945",
+      "url": "https://www.newyorker.com/magazine/1945/02/10/villa-lobos",
+      "locator": "Talk of the Town: Villa-Lobos at the Waldorf, conducting the Philharmonic that week",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "museu",
+      "title": "Museu Villa-Lobos — Bachianas Brasileiras n° 5, autograph full score 1994.21.0002",
+      "url": "https://museuvillalobos.acervos.museus.gov.br/partituras/bachianas-brasileiras-n-5-2",
+      "locator": "Execuções: first performance 25 March 1939 in Rio with Ruth Valadares Correa; 4 May 1939 at the World’s Fair Hall, New York, with Bidu Sayão and Walter Burle-Marx, the first performance in the United States",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wright",
+      "title": "Simon Wright — note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5), 1987",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66257",
+      "locator": "Paragraphs on the replaced text of the first movement, the second movement added in 1945, the ternary design and the doubling of the soprano by the leading cellist",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "cueto",
+      "title": "Amancio Cueto Jr. — Villa-Lobos: Bachianas Brasileiras nº5, Euterpe – Blog de Música Clássica",
+      "url": "https://euterpe.blog.br/villa-lobos-bachianas-brasileiras-5",
+      "locator": "Section 1, Aria (Cantilena): the melody on “Ah” repeated by the first cello, pizzicato accompaniment, recitative-like middle part with Ruth Valadares Corrêa’s poem, return of the melody sung bocca chiusa",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

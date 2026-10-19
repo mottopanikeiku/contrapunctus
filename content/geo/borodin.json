@@ -1,0 +1,330 @@
+{
+  "id": "borodin",
+  "places": [
+    {
+      "name": "Saint Petersburg",
+      "country": "Russia",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1833-11-12",
+      "kind": "born",
+      "what": "Born in Saint Petersburg on 31 October in the Russian calendar. The Saint Petersburg State Library gives the house as no. 9 Gagarinskaya Street. The coordinates are for the city, not the house.",
+      "status": "documented",
+      "sources": [
+        { "title": "Saint Petersburg State Library: on the 190th anniversary of A. P. Borodin’s birth", "url": "https://www.gbs.spb.ru/ru/pages/resursy/novinki/rubrika_staraia_plastinka/arkhiv_rubriki_za_2023_g/k_190_letiiu_so_dnia_rozhdeniia_aleksandra_porfirevicha_borodina" },
+        { "title": "Stephen Walsh, Who Was Alexander Borodin? (Chamber Music Society of Lincoln Center)", "url": "https://www.chambermusicsociety.org/about-the-music/composers/alexander-borodin" },
+        { "title": "Wikipedia coordinate record: Saint Petersburg", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Saint_Petersburg" }
+      ]
+    },
+    {
+      "name": "Saint Petersburg, Medical-Surgical Academy",
+      "country": "Russia",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1850",
+      "to": "1858",
+      "kind": "studied",
+      "what": "Entered the Academy in 1850; worked in Zinin’s chemical laboratory from his third year; took the doctorate in medicine on 3 May 1858 (Russian calendar). The coordinates are those of the city and do not mark the Academy’s buildings.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. I (admitted 1850; Zinin’s laboratory)", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Russian Biographical Dictionary, vol. 3 (1908): Borodin (doctorate of 3 May 1858)", "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%91%D0%A1/%D0%92%D0%A2/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%BE%D1%80%D1%84%D0%B8%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87" }
+      ]
+    },
+    {
+      "name": "Saint Petersburg, military hospital",
+      "country": "Russia",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1856",
+      "kind": "worked",
+      "what": "Appointed army surgeon at a military hospital in 1856. He met the officer Modest Mussorgsky there in the autumn, according to Borodin’s article on Mussorgsky of 1881.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. I (Borodin’s account of meeting Mussorgsky, autumn 1856)", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Russian Biographical Dictionary, vol. 3 (1908): Borodin (posted to the Second Military Land Hospital, 1856)", "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%91%D0%A1/%D0%92%D0%A2/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%BE%D1%80%D1%84%D0%B8%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87" }
+      ]
+    },
+    {
+      "name": "Heidelberg",
+      "country": "Germany",
+      "lat": 49.4167,
+      "lon": 8.7167,
+      "from": "1859",
+      "to": "1861",
+      "kind": "studied",
+      "what": "Sent abroad for three years in 1859, he spent most of them in Heidelberg, working in Erlenmeyer’s laboratory beside Mendeleev. He met Ekaterina Protopopova there in 1861. A sextet of his was played in Heidelberg in 1860.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. II", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Russian Biographical Dictionary, vol. 3 (1908): Borodin", "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%91%D0%A1/%D0%92%D0%A2/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%BE%D1%80%D1%84%D0%B8%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87" },
+        { "title": "Wikipedia coordinate record: Heidelberg", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Heidelberg" }
+      ]
+    },
+    {
+      "name": "Verona",
+      "country": "Italy",
+      "lat": 45.4386,
+      "lon": 10.9928,
+      "from": "1860",
+      "kind": "travelled",
+      "what": "On a journey through northern Italy in the spring of 1860 with Mendeleev, Austrian police stopped their carriage near Verona and took Borodin for an escaped prisoner. The story is Mendeleev’s. Coordinates mark the city.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. II (Mendeleev’s account)", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Verona", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Verona" }
+      ]
+    },
+    {
+      "name": "Pisa",
+      "country": "Italy",
+      "lat": 43.7167,
+      "lon": 10.4,
+      "from": "1861",
+      "to": "1862",
+      "kind": "worked",
+      "what": "Went to Pisa with Protopopova on a doctor’s advice and worked in the university laboratory on fluorine compounds, the research that led to his paper on benzoyl fluoride in 1862.",
+      "status": "documented",
+      "sources": [
+        { "title": "Saint Petersburg State Library: on the 190th anniversary of A. P. Borodin’s birth", "url": "https://www.gbs.spb.ru/ru/pages/resursy/novinki/rubrika_staraia_plastinka/arkhiv_rubriki_za_2023_g/k_190_letiiu_so_dnia_rozhdeniia_aleksandra_porfirevicha_borodina" },
+        { "title": "Russian Biographical Dictionary, vol. 3 (1908): Borodin (work on fluorine compounds in Italy)", "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%91%D0%A1/%D0%92%D0%A2/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%BE%D1%80%D1%84%D0%B8%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87" },
+        { "title": "Takashi Okazoe, history of organofluorine chemistry, Proc. Jpn. Acad. B 85 (2009) (benzoyl fluoride, 1862)", "url": "https://www.jstage.jst.go.jp/article/pjab/85/8/85_8_276/_pdf" },
+        { "title": "Wikipedia coordinate record: Pisa", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Pisa" }
+      ]
+    },
+    {
+      "name": "Saint Petersburg, Medical-Surgical Academy (professor)",
+      "country": "Russia",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1862",
+      "to": "1887",
+      "kind": "worked",
+      "what": "Adjunct professor of chemistry from 1862 and professor from 1864. He lived in a flat in the Academy building beside his laboratory until his death. From 1872 he also lectured at the medical courses for women.",
+      "status": "documented",
+      "sources": [
+        { "title": "Rimsky-Korsakov, My Musical Life, ch. VI (the flat near the Liteyny Bridge)", "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf" },
+        { "title": "Russian Biographical Dictionary, vol. 3 (1908): Borodin (1862, 1864, 1872)", "url": "https://ru.wikisource.org/wiki/%D0%A0%D0%91%D0%A1/%D0%92%D0%A2/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D0%BE%D1%80%D1%84%D0%B8%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87" },
+        { "title": "Alfred Habets, Borodin and Liszt, ch. II", "url": "https://archive.org/details/borodinlisztilif00habe" }
+      ]
+    },
+    {
+      "name": "Saint Petersburg, Symphony No. 1",
+      "country": "Russia",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1869-01",
+      "kind": "premiere",
+      "what": "First performance of the Symphony in E♭ major, conducted by Balakirev at a Russian Musical Society concert in the Hall of the Nobility, on 4 January in the Russian calendar. Coordinates mark the city, not the hall.",
+      "work": "Symphony No. 1 in E♭ major",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. III", "url": "https://archive.org/details/borodinlisztilif00habe" }
+      ]
+    },
+    {
+      "name": "Saint Petersburg, Symphony No. 2",
+      "country": "Russia",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1877-02",
+      "kind": "premiere",
+      "what": "First performance of the Symphony in B minor under Nápravník, on 2 February in the Russian calendar, in the Hall of the Knights. Habets says it had no success. Coordinates mark the city, not the hall.",
+      "work": "Symphony No. 2 in B minor",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. VII", "url": "https://archive.org/details/borodinlisztilif00habe" }
+      ]
+    },
+    {
+      "name": "Jena",
+      "country": "Germany",
+      "lat": 50.9272,
+      "lon": 11.5861,
+      "from": "1877-06-30",
+      "to": "1877-07",
+      "kind": "travelled",
+      "what": "Stayed in rented rooms in Jena in July 1877 during a tour of German university towns with two pupils, and wrote to his wife from there on 3, 12 and 18 July.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, part II, letters of July 1877", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Jena", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Jena" }
+      ]
+    },
+    {
+      "name": "Weimar",
+      "country": "Germany",
+      "lat": 50.9811,
+      "lon": 11.3294,
+      "from": "1877-07-01",
+      "kind": "travelled",
+      "what": "Called on Liszt in the Marienstrasse. Liszt told him he had played the First Symphony to the Grand Duke two days earlier.",
+      "work": "Symphony No. 1 in E♭ major",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, part II, letter of 3 July 1877", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Weimar", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Weimar" }
+      ]
+    },
+    {
+      "name": "Marburg",
+      "country": "Germany",
+      "lat": 50.81,
+      "lon": 8.7708,
+      "from": "1877-07-22",
+      "kind": "travelled",
+      "what": "Wrote to his wife from Marburg on 22 July 1877, having met several professors there.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, part II, letter of 22 July 1877", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Marburg", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Marburg" }
+      ]
+    },
+    {
+      "name": "Kineshma",
+      "country": "Russia",
+      "lat": 57.4333,
+      "lon": 42.1333,
+      "from": "1880",
+      "kind": "travelled",
+      "what": "Spent the summer of 1880 at an old manor house on a hill above the Volga, eight versts from Kineshma in the Kostroma province, arriving on 22 June in the Russian calendar. The coordinates mark the town.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. VII (Borodin’s letter from Sokolovo)", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Kineshma", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Kineshma" }
+      ]
+    },
+    {
+      "name": "Magdeburg",
+      "country": "Germany",
+      "lat": 52.1317,
+      "lon": 11.6392,
+      "from": "1881-06",
+      "kind": "travelled",
+      "what": "At the festival of the Allgemeiner Deutscher Musikverein in June 1881, where he saw Liszt again; he left for Weimar on 14 June.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, part II: preface and letters to Cui and to his wife, June 1881", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Magdeburg", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Magdeburg" }
+      ]
+    },
+    {
+      "name": "Weimar, 1881",
+      "country": "Germany",
+      "lat": 50.9811,
+      "lon": 11.3294,
+      "from": "1881-06-14",
+      "kind": "travelled",
+      "what": "Visited Liszt a second time. Liszt liked In the Steppes of Central Asia and asked for a four-hand arrangement by the next day. Borodin dedicated the piece to him.",
+      "work": "In the Steppes of Central Asia",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, part II, letter of 19 June 1881", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Weimar", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Weimar" }
+      ]
+    },
+    {
+      "name": "Liège",
+      "country": "Belgium",
+      "lat": 50.6397,
+      "lon": 5.5706,
+      "from": "1885-08",
+      "kind": "travelled",
+      "what": "Visited Liège and the Countess Mercy-Argenteau’s château at Argenteau in August 1885, and wrote to his wife that he was being taken from breakfasts to dinners and suppers where Russian music was played.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. VIII (letter of August 1885)", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Liège", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Li%C3%A8ge" }
+      ]
+    },
+    {
+      "name": "Antwerp",
+      "country": "Belgium",
+      "lat": 51.2178,
+      "lon": 4.4003,
+      "from": "1885-09-09",
+      "to": "1885-09-19",
+      "kind": "heard",
+      "what": "At the Antwerp International Exhibition, concerts of his music were played on 9 September (the Steppes), 16 September (Symphony No. 2) and 19 September (Symphony No. 1). He declined to conduct and made a speech to the orchestra.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. VIII (letter of 21 September 1885)", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Antwerp", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Antwerp" }
+      ]
+    },
+    {
+      "name": "Brussels",
+      "country": "Belgium",
+      "lat": 50.8467,
+      "lon": 4.3525,
+      "from": "1886-01",
+      "kind": "heard",
+      "what": "With Cui in Belgium at the turn of 1885–86 (25 December in the Russian calendar). His Second Symphony was played in Brussels at the Grande Harmonie and the Théâtre de la Monnaie on successive days.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. VIII (letters of December 1885 and January 1886)", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Brussels", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Brussels" }
+      ]
+    },
+    {
+      "name": "Moscow",
+      "country": "Russia",
+      "lat": 55.7558,
+      "lon": 37.6178,
+      "from": "1886-09",
+      "to": "1886-11",
+      "kind": "travelled",
+      "what": "Spent most of the autumn of 1886 in Moscow caring for his wife, who was seriously ill, and for his mother-in-law. The months are an estimate; Habets says only “autumn”.",
+      "status": "inferred",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. IX", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Wikipedia coordinate record: Moscow", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Moscow" }
+      ]
+    },
+    {
+      "name": "Saint Petersburg, flat in the Academy building",
+      "country": "Russia",
+      "lat": 59.9375,
+      "lon": 30.3086,
+      "from": "1887-02-27",
+      "kind": "died",
+      "what": "Died in his flat during a party, on the evening of 15 February in the Russian calendar. Rimsky-Korsakov heard of it from Stasov the next morning. Coordinates mark the city.",
+      "status": "documented",
+      "sources": [
+        { "title": "Rimsky-Korsakov, My Musical Life, ch. XX", "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf" },
+        { "title": "Alfred Habets, Borodin and Liszt, ch. IX", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Boston Symphony Orchestra: Overture to Prince Igor (Harlow Robinson)", "url": "https://www.bso.org/works/overture-to-prince-igor" }
+      ]
+    },
+    {
+      "name": "Tikhvin Cemetery, Alexander Nevsky Monastery",
+      "country": "Russia",
+      "lat": 59.9228,
+      "lon": 30.3861,
+      "from": "1887",
+      "kind": "buried",
+      "what": "Buried in the cemetery of the Alexander Nevsky Monastery beside Mussorgsky. Students carried the coffin through the city.",
+      "status": "documented",
+      "sources": [
+        { "title": "Alfred Habets, Borodin and Liszt, ch. IX", "url": "https://archive.org/details/borodinlisztilif00habe" },
+        { "title": "Saint Petersburg State Library: on the 190th anniversary of A. P. Borodin’s birth", "url": "https://www.gbs.spb.ru/ru/pages/resursy/novinki/rubrika_staraia_plastinka/arkhiv_rubriki_za_2023_g/k_190_letiiu_so_dnia_rozhdeniia_aleksandra_porfirevicha_borodina" },
+        { "title": "Wikipedia coordinate record: Tikhvin Cemetery", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Tikhvin_Cemetery" }
+      ]
+    },
+    {
+      "name": "Mariinsky Theatre",
+      "country": "Russia",
+      "lat": 59.9256,
+      "lon": 30.2961,
+      "from": "1890-11-04",
+      "kind": "premiere",
+      "what": "First staging of Prince Igor, completed by Rimsky-Korsakov and Glazunov, on 23 October 1890 in the Russian calendar (4 November in the Western calendar). Kuchera rehearsed it after Nápravník declined to conduct.",
+      "work": "Prince Igor",
+      "status": "documented",
+      "sources": [
+        { "title": "Rimsky-Korsakov, My Musical Life, ch. XXI", "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf" },
+        { "title": "Wikipedia coordinate record: Mariinsky Theatre", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Mariinsky_Theatre" }
+      ]
+    }
+  ]
+}

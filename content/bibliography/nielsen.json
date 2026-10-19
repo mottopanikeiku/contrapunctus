@@ -1,0 +1,36 @@
+{
+  "id": "nielsen",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "“Carl Nielsen”, *Dansk Biografisk Leksikon* (Lex, Gyldendal).",
+      "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen",
+      "kind": "reference",
+      "note": "The standard short life in Danish, with an account of the sources of Nielsen’s music and of its reception in the Danish tradition, a survey of the works up to Commotio, and a bibliography."
+    },
+    {
+      "cite": "Knud Ketting, Carl Nielsen biography (web biography, Carl Nielsen Society).",
+      "url": "https://www.carlnielsen.dk/gb/bio/",
+      "kind": "biography",
+      "note": "A long account in English, based on the diaries and letters, that follows the symphonies, the Wind Quintet and the songs through his life and describes the circumstances of each work."
+    },
+    {
+      "cite": "*The Carl Nielsen Edition* (Royal Danish Library, Copenhagen, 1998–2009).",
+      "url": "https://www.kb.dk/en/find-materials/collections/sheet-music-collection/music-editions-and-lists-works-royal-danish-library",
+      "kind": "edition",
+      "note": "Free scores of Nielsen’s symphonies, both operas and the chamber music, each with a preface on the work’s composition and first performances and a critical commentary."
+    },
+    {
+      "cite": "*Catalogue of Carl Nielsen’s Works* (CNW), Royal Danish Library.",
+      "url": "https://www.kb.dk/dcm/cnw.html",
+      "kind": "catalogue",
+      "note": "A dated catalogue of every work, giving instrumentation, manuscripts, the date and place of each first performance, and the letters that mention each piece."
+    },
+    {
+      "cite": "John Fellow (ed.), *Carl Nielsen Brevudgaven* (Multivers, Copenhagen, 2005–15); online edition with English translations (Royal Danish Library and Multivers, 2025).",
+      "url": "https://carlnielsencorrespondence.dk/",
+      "kind": "primary document",
+      "note": "Nielsen’s letters and diaries: 7,380 letters and 492 diary entries by the site’s own count, with English translations. A source for what Nielsen said about a work at the time."
+    }
+  ]
+}

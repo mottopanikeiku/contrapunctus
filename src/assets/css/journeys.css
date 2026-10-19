@@ -17,7 +17,7 @@
 .j-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
 .j-card { display: flex; flex-direction: column; position: relative; min-width: 0; color: inherit; text-decoration: none; border: 1px solid #d4b66e88; background: linear-gradient(145deg, #302a20, #191712 70%); box-shadow: 0 15px 35px #0005, inset 0 0 0 4px #14120f, inset 0 0 0 5px #b18d4b55; transition: border-color .3s, transform .3s; }
 .j-card::after { content: ''; position: absolute; inset: 6px; border: 1px solid #b18d4b35; pointer-events: none; }
-.j-card:hover { border-color: #ffe4a4; transform: translateY(-4px); }
+.j-card:hover { border-color: #ffe4a4; }
 .j-card-art { margin: 10px 10px 0; overflow: hidden; aspect-ratio: 1.6; border-bottom: 1px solid #b18d4b88; }
 .j-card-art img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .j-card-copy { display: flex; flex: 1; flex-direction: column; padding: 1.6rem 1.7rem 1.8rem; }
@@ -25,7 +25,6 @@
 .j-card p { font-size: 1.12rem; line-height: 1.35; color: #d4c6ae; }
 .j-card-composers { color: var(--j-muted); font-size: .94rem; line-height: 1.4; margin: auto 0 1.5rem; }
 .j-card-open { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--j-rule); padding-top: .9rem; color: var(--j-gold); font: 600 .85rem var(--caps); letter-spacing: .12em; }
-.j-card-open > span { font: 1.5rem/1 var(--display); }
 .j-band { padding: 4.5rem 0 5.5rem; border-block: 1px solid #a8843a66; background: radial-gradient(ellipse at 50% 0, #3a3020, transparent 65%), #15130f; }
 .j-band-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2rem; }
 .j-band-heading h2 { font-size: clamp(2.8rem, 5vw, 4.5rem); margin-top: .7rem; }

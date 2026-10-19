@@ -1,21 +1,21 @@
 {
   "id": "chopin-black-keys-cortot-neeman",
-  "title": "Five black keys, two pianists",
+  "title": "Chopin, Étude Op. 10 No. 5: Neeman and Cortot",
   "composer": "chopin",
   "group": "century",
   "work": "Étude in G♭ major, Op. 10 No. 5",
-  "question": "How much of this étude’s wit comes from the left hand beneath those racing black-key runs?",
-  "intro": "Chopin sends the right hand racing over the five black keys, with detached chords and octaves underneath. A loud phrase comes back as a quiet answer; even at speed, the piano seems to be talking to itself. Cortot and Neeman carry this two-handed conversation to a final dash in octaves.",
+  "question": "What part does the left hand play beneath the black-key runs in this étude?",
+  "intro": "Chopin writes the right hand in fast figuration over the five black keys, with detached chords and octaves underneath. A loud phrase returns quietly. Cortot and Neeman play through to a final rapid passage in octaves.",
   "recordings": [
     { "listen": "chopin-etude-op10-5", "label": "Edward Neeman", "year": null, "note": "Neeman’s Chopin recordings include the complete études and thirty-one mazurkas; he also plays piano duets with his wife, Stephanie." },
-    { "listen": "chopin-etude-op10-5-cortot", "label": "Alfred Cortot, 1920", "year": 1920, "note": "Cortot’s teaching edition treats this étude as a lesson in supple hand movement and a brilliant, delicately connected touch." }
+    { "listen": "chopin-etude-op10-5-cortot", "label": "Alfred Cortot, 1920", "year": 1920, "note": "Cortot’s teaching edition treats this étude as a lesson in supple hand movement and a brilliant, finely connected touch." }
   ],
   "reference": "chopin-etude-op10-5",
   "passages": [
-    { "label": "A bold phrase, a quiet answer", "t": 12, "note": "The right-hand triplets skim over detached left-hand chords; loud phrases find quick, quiet answers." },
-    { "label": "The phrase stretches into D♭", "t": 30, "note": "The triplets carry on in D♭ major as the left hand stretches the phrase beyond the opening’s neat four-bar groups." },
-    { "label": "The opening returns", "t": 60, "note": "The opening figure returns in G♭ major, then begins to soften towards a passage marked very delicate and dying away." },
-    { "label": "Both hands join the dash", "t": 96, "note": "Wide arpeggios spread across the keyboard before both hands finish in a rapid, detached run of black-key octaves." }
+    { "label": "Opening: loud and quiet phrases", "t": 12, "note": "The right-hand triplets run over detached left-hand chords; loud phrases are answered quickly and quietly." },
+    { "label": "Extended phrase in D♭ major", "t": 30, "note": "The triplets continue in D♭ major as the left hand extends the phrase beyond the four-bar groups of the opening." },
+    { "label": "Return of the opening in G♭", "t": 60, "note": "The opening figure returns in G♭ major, then grows quieter towards a passage marked very delicate and dying away." },
+    { "label": "Arpeggios and closing octaves", "t": 96, "note": "Wide arpeggios cover the keyboard before both hands finish in a fast, detached run of black-key octaves." }
   ],
   "sources": [
     { "title": "DAHR: Victor matrix B-23953, take 2, 22 April 1920; both études on Victor 64989", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700009148/B-23953-Etude_in_G_flat_op._10_no._5_Black_keys" },

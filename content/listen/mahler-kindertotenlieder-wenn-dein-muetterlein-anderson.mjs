@@ -19,33 +19,33 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, III (Anderson, Monteux, 1950).ogg"
   },
-  "intro": "Marian Anderson sings of a mother entering with a candle and a child who seems, for an instant, to follow her. Pierre Monteux’s San Francisco players accompany her with cor anglais and low strings; Mahler leaves the violins out entirely.",
+  "intro": "Marian Anderson sings “Wenn dein Mütterlein”, the third of Mahler’s Kindertotenlieder, in which a mother enters with a candle and, for an instant, the child is pictured following her. Pierre Monteux’s San Francisco players accompany her with cor anglais and low strings; Mahler leaves the violins out entirely.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Cor anglais at the threshold",
+      "label": "A · Cor anglais melody",
       "m": "A",
-      "mNote": "Bassoons answer above a plucked cello pulse"
+      "mNote": "Bassoons play above a pizzicato cello pulse"
     },
     {
       "t": 106,
-      "label": "A′ · Candlelight and the remembered child",
+      "label": "A′ · opening tune, varied",
       "m": "A′",
-      "mNote": "Harp and double bass join the returning tune"
+      "mNote": "Harp and double bass join the returning tune."
     },
     {
       "t": 218,
-      "label": "Coda · The winds remain",
+      "label": "Coda · Cor anglais, horns and cellos",
       "m": "Coda",
-      "mNote": "Bowed cellos and horns support the last cor anglais phrase"
+      "mNote": "Bowed cellos and horns support the last cor anglais phrase."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Low strings around Anderson",
-      "text": "Plucked cellos mark the pulse beneath cor anglais and bassoons. Their lines keep moving as Anderson enters with the mother at the door. The violins are absent throughout; the score asks for a heavy, muffled sound.",
+      "title": "Low strings and vocal entry",
+      "text": "Plucked cellos mark the pulse beneath cor anglais and bassoons, and their lines keep moving as Anderson enters with the mother at the door. The violins are absent throughout. The score is marked “Schwer, dumpf” (heavy, muffled).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), pp. 33–35: Schwer, dumpf, opening scoring and vocal entry. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -53,8 +53,8 @@ export default {
     {
       "t": 34,
       "kind": "world",
-      "title": "The missing little face",
-      "text": "The father’s glance falls where his daughter’s face should be: “dein lieb Gesichtchen” — your dear little face. Rückert fills the poem with diminutives, from “Mütterlein” to “Töchterlein”. The family’s everyday words survive the child.",
+      "title": "Diminutives in Rückert’s text",
+      "text": "The father looks to the place where his daughter’s face used to be, “dein lieb Gesichtchen” (your dear little face). Rückert used diminutives throughout the poem, from “Mütterlein” to “Töchterlein”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rückert, Wenn dein Mütterlein, German text as set by Mahler at https://en.wikipedia.org/wiki/Kindertotenlieder#Text; our translation."
@@ -62,8 +62,8 @@ export default {
     {
       "t": 68,
       "kind": "music",
-      "title": "A nursery tune for a lost child",
-      "text": "The voice sings in the shape of a nursery song, even of a chanted counting rhyme, and tries in vain to bring the child back. Beneath it the orchestra moves at twice the voice’s speed, in lines that recall the first song.",
+      "title": "Vocal line and accompaniment",
+      "text": "The vocal line follows the pattern of a nursery song and of a chanted counting rhyme. Beneath it the orchestra moves at twice the voice’s speed, in lines that recall the first song.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Reinhold Kubik, Universal Edition introduction to Kindertotenlieder (autumn 2008), on song 3: children’s-song melodies, counting rhymes, and a linear accompaniment moving twice as fast as the voice and recalling the first song: https://www.universaledition.com/en/Kindertotenlieder/P0045027"
@@ -71,8 +71,8 @@ export default {
     {
       "t": 106,
       "kind": "form",
-      "title": "A candle through the door",
-      "text": "The opening tune returns above harp and double bass. Anderson’s second stanza adds the candle’s glimmer and the imagined child slipping into the room. Mahler repeats words and lengthens syllables so that this shorter stanza occupies the first stanza’s musical shape.",
+      "title": "Second stanza, return of opening tune",
+      "text": "The opening tune returns above harp and double bass. Anderson’s second stanza adds the glimmer of the candle and the imagined child slipping into the room. Mahler repeats words and lengthens syllables so that this shorter stanza fills the musical shape of the first.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 40–46. The repeated words and syllable extensions are discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html"
@@ -80,8 +80,8 @@ export default {
     {
       "t": 155,
       "kind": "life",
-      "title": "A chamber orchestra in a small hall",
-      "text": "Mahler prefers small rooms for these songs: the Kleiner Musikvereinssaal for the Vienna performances of 1905, then the Stephaniesaal in Graz. His string section has about ten first violins at most. This song has no violins at all.",
+      "title": "Venues and string numbers, 1905",
+      "text": "Mahler chose small rooms for these songs: the Kleiner Musikvereinssaal for the Vienna performances of 1905, then the Stephaniesaal in Graz. His string section had about ten first violins at most. This song has no violins.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler catalogue, Kindertotenlieder, scoring note: good evidence that the small venues were the composer’s own choice and that the strings were probably no more than 10, 8, 6, 6 and 4 (citing Hefling and Hilmar-Voit). Performances: Vienna 29 January and 3 February 1905, Graz 1 June 1905: https://www.mahlercat.org.uk/Pages/KtL/KtL.htm"
@@ -89,8 +89,8 @@ export default {
     {
       "t": 185,
       "kind": "life",
-      "title": "“Don’t tempt Providence”",
-      "text": "Alma Mahler cannot understand how her husband can bewail the deaths of children “in the best of health and spirits” within an hour of kissing his own. She exclaims: “For Heaven’s sake, don’t tempt Providence!” Mahler completes the cycle in the summer of 1904.",
+      "title": "Alma Mahler on the <i>Kindertotenlieder</i>",
+      "text": "Alma Mahler could not understand how her husband could bewail the deaths of children “in the best of health and spirits” within an hour of kissing his own. She exclaimed: “For Heaven’s sake, don’t tempt Providence!” Mahler completed the cycle in the summer of 1904.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Alma Mahler, Gustav Mahler: Memories and Letters, as quoted by Georg Predota, Interlude, 29 January 2019: https://interlude.hk/mahler-kindertotenlieder-premiered-today-1905/. The exclamation is also given in Michael Kennedy, Mahler (Master Musicians), Edward Seckerson, Mahler: His Life and Times (1982), and Stephen Johnson, Mahler (2007) (full-text excerpts seen); the memoir itself was not opened. Kubik dates songs 2 and 5 to 1904: https://www.universaledition.com/en/Kindertotenlieder/P0045027"
@@ -98,8 +98,8 @@ export default {
     {
       "t": 218,
       "kind": "music",
-      "title": "Cor anglais without words",
-      "text": "After Anderson’s lament, the cor anglais sings its opening phrase once more. Horns and bowed cellos replace the earlier plucked steps. The ending rests on G major, leaving the song’s C-minor home a chord away.",
+      "title": "Return of the cor anglais phrase",
+      "text": "After Anderson’s lament, the cor anglais plays its opening phrase again. Horns and bowed cellos replace the earlier plucked steps. The song ends on a G major chord, the dominant of its home key, C minor.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 47, Wieder wie zu Anfang and the dominant close. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html"
@@ -109,11 +109,11 @@ export default {
     {
       "id": "second-stanza",
       "title": "The cor anglais returns with harp",
-      "from": "A · Cor anglais at the threshold",
-      "to": "A′ · Candlelight and the remembered child",
+      "from": "A · Cor anglais melody",
+      "to": "A′ · opening tune, varied",
       "at": { "t": 106 },
       "span": [96, 118],
-      "how": "<p>The descending vocal phrase closes in C minor. A ritardando leads into <i>Wie zu Anfang</i> — as at the beginning — and the cor anglais recovers its tune. This time harp and plucked double bass carry the pulse, while the bass clarinet sustains across the barline.</p>",
+      "how": "<p>The descending vocal phrase closes in C minor. A ritardando leads into <i>Wie zu Anfang</i> (as at the beginning), and the cor anglais plays its tune again. Harp and plucked double bass now carry the pulse, and the bass clarinet holds a note across the barline.</p>",
       "devices": ["motivic link", "orchestration change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -121,12 +121,12 @@ export default {
     },
     {
       "id": "instrumental-close",
-      "title": "The plucked steps become sustained notes",
-      "from": "A′ · Candlelight and the remembered child",
-      "to": "Coda · The winds remain",
+      "title": "Plucked steps give way to sustained notes",
+      "from": "A′ · opening tune, varied",
+      "to": "Coda · Cor anglais, horns and cellos",
       "at": { "t": 218 },
       "span": [208, 230],
-      "how": "<p>The cor anglais returns under <i>Wieder wie zu Anfang</i>, surrounded by horn lines and bowed cellos. A ritardando lengthens its last descending phrase. Harp and low strings settle on G, and the final G-major chord hangs under fermatas.</p>",
+      "how": "<p>The cor anglais returns at <i>Wieder wie zu Anfang</i>, accompanied by horn lines and bowed cellos. A ritardando lengthens its last descending phrase. Harp and low strings end on G, and the final G-major chord is held under fermatas.</p>",
       "devices": ["motivic link", "orchestration change", "decrescendo", "half cadence"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -213,7 +213,7 @@ export default {
           "cor-anglais",
           "horns"
         ],
-        "note": "Cor anglais, horns and bowed cellos recall the opening before the final G-major chord."
+        "note": "Cor anglais, horns and bowed cellos play the opening material again before the final G-major chord."
       }
     ]
   }

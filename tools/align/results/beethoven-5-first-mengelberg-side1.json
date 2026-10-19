@@ -1,0 +1,1492 @@
+{
+  "uniqueScoreAttacks": 1066,
+  "audioDetectedOnsets": 1015,
+  "medianAbsoluteOnsetDeviation": 0.07926460655184542,
+  "noteWeightedMedianDeviation": 0.06797438124186073,
+  "p95AbsoluteOnsetDeviation": 0.4171293481931926,
+  "fractionWithin150ms": 0.700750469043152,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 8,
+      "median": 0.03276173590003434,
+      "p95": 0.08721699956578428,
+      "max": 0.08724899889033733,
+      "adaptiveMedian": 0.015554108168090441,
+      "adaptiveP95": 0.07499909538283378
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 36,
+      "median": 0.047136464514883514,
+      "p95": 0.21059843440922554,
+      "max": 0.23653833164471294,
+      "adaptiveMedian": 0.025333140348338112,
+      "adaptiveP95": 0.07622448979591834
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 14,
+      "median": 0.04264063781540983,
+      "p95": 0.10888894919670057,
+      "max": 0.11815819944999362,
+      "adaptiveMedian": 0.05914604139528201,
+      "adaptiveP95": 0.08529480870362284
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 30,
+      "median": 0.04657162155642425,
+      "p95": 0.2102514353259029,
+      "max": 0.2902554638876822,
+      "adaptiveMedian": 0.04090256670043679,
+      "adaptiveP95": 0.08192397875680704
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 51,
+      "median": 0.0751172383847134,
+      "p95": 0.2609221064312237,
+      "max": 0.3115240990013035,
+      "adaptiveMedian": 0.03775920297196933,
+      "adaptiveP95": 0.0854262556086276
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 43,
+      "median": 0.06449124330583089,
+      "p95": 0.20360845756742305,
+      "max": 0.24768948714237382,
+      "adaptiveMedian": 0.033327543783478575,
+      "adaptiveP95": 0.07820637332947483
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 20,
+      "median": 0.050381145365950175,
+      "p95": 0.237665653495446,
+      "max": 0.24947797558738927,
+      "adaptiveMedian": 0.029436363197763882,
+      "adaptiveP95": 0.0763102836879469
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 29,
+      "median": 0.04231865441212079,
+      "p95": 0.15834785545423807,
+      "max": 0.17614271240410773,
+      "adaptiveMedian": 0.03417884884451183,
+      "adaptiveP95": 0.07673189559511538
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 36,
+      "median": 0.08175235200462794,
+      "p95": 0.505084792782359,
+      "max": 0.6678581077821235,
+      "adaptiveMedian": 0.027642688280977268,
+      "adaptiveP95": 0.08920256187581899
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 47,
+      "median": 0.11512302793455831,
+      "p95": 0.262468471076373,
+      "max": 0.36811212428231954,
+      "adaptiveMedian": 0.024822453804205225,
+      "adaptiveP95": 0.11462129106960929
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 51,
+      "median": 0.1355003136006161,
+      "p95": 0.34526161528441435,
+      "max": 0.42928426689825017,
+      "adaptiveMedian": 0.030917161190714637,
+      "adaptiveP95": 0.08057328605200809
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 12,
+      "median": 0.0512872099194297,
+      "p95": 0.1214964659622644,
+      "max": 0.1727312201476252,
+      "adaptiveMedian": 0.04291733005258891,
+      "adaptiveP95": 0.0739672407970282
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 16,
+      "median": 0.04671418922178816,
+      "p95": 0.44575137501808726,
+      "max": 0.55972789115647,
+      "adaptiveMedian": 0.020357384088377728,
+      "adaptiveP95": 0.07847192068315323
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 34,
+      "median": 0.07684876610218794,
+      "p95": 0.3222186700921418,
+      "max": 0.44508298354803344,
+      "adaptiveMedian": 0.0290345925605493,
+      "adaptiveP95": 0.12263039754909426
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 4,
+      "median": 0.14773893954745176,
+      "p95": 0.2570650962512701,
+      "max": 0.2677413518598968,
+      "adaptiveMedian": 0.0440524436725056,
+      "adaptiveP95": 0.12490315771698374
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 45,
+      "median": 0.06548125633231905,
+      "p95": 0.26820475708012725,
+      "max": 0.32781613354561046,
+      "adaptiveMedian": 0.032448014666854874,
+      "adaptiveP95": 0.14106527717469236
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 52,
+      "median": 0.17257960631060598,
+      "p95": 0.5547274207555389,
+      "max": 0.7147295797751383,
+      "adaptiveMedian": 0.0342152747623885,
+      "adaptiveP95": 0.08387319679645343
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 32,
+      "median": 0.1356964346022096,
+      "p95": 0.8032562840738989,
+      "max": 0.9194408259757836,
+      "adaptiveMedian": 0.03785617793215579,
+      "adaptiveP95": 0.08171195783277482
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 24,
+      "median": 0.039215757224866366,
+      "p95": 0.18841590678825212,
+      "max": 0.19156752062528426,
+      "adaptiveMedian": 0.022323780576058994,
+      "adaptiveP95": 0.06082653061225183
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 29,
+      "median": 0.06691416992330801,
+      "p95": 0.24022043711101443,
+      "max": 0.29108940029914265,
+      "adaptiveMedian": 0.03673517634004497,
+      "adaptiveP95": 0.08786357890675162
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 37,
+      "median": 0.14703116707676145,
+      "p95": 0.6067867033338129,
+      "max": 0.6891861340280627,
+      "adaptiveMedian": 0.032029237226794294,
+      "adaptiveP95": 0.10985516476092698
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 52,
+      "median": 0.18498817966901981,
+      "p95": 0.7163009480387698,
+      "max": 0.9135236647850604,
+      "adaptiveMedian": 0.03653193901671159,
+      "adaptiveP95": 0.11335164278478656
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 44,
+      "median": 0.1390822357311805,
+      "p95": 0.5570651987745209,
+      "max": 0.6532324986732476,
+      "adaptiveMedian": 0.035113137453564036,
+      "adaptiveP95": 0.12122131157426284
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 8,
+      "median": 0.034840063685010136,
+      "p95": 0.12596051044525033,
+      "max": 0.16676074685193498,
+      "adaptiveMedian": 0.025507912384881593,
+      "adaptiveP95": 0.03844121194564707
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 44,
+      "median": 0.08732426303855334,
+      "p95": 0.33313555989772825,
+      "max": 0.42160563516185334,
+      "adaptiveMedian": 0.027554427799486803,
+      "adaptiveP95": 0.08408903845228936
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 51,
+      "median": 0.06260968784675924,
+      "p95": 0.32141313262893334,
+      "max": 0.4769795435904882,
+      "adaptiveMedian": 0.0350907029478833,
+      "adaptiveP95": 0.0882285183576954
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 52,
+      "median": 0.11218627876678511,
+      "p95": 0.3850238638008519,
+      "max": 0.47251049355909913,
+      "adaptiveMedian": 0.04396181309404312,
+      "adaptiveP95": 0.10361857721812553
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 31,
+      "median": 0.08763014425628057,
+      "p95": 0.22479052081826012,
+      "max": 0.26911323394608644,
+      "adaptiveMedian": 0.052525932358747696,
+      "adaptiveP95": 0.11119385342789201
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 29,
+      "median": 0.1450402856177675,
+      "p95": 0.6035302745211479,
+      "max": 0.6874538042167444,
+      "adaptiveMedian": 0.02912819028321678,
+      "adaptiveP95": 0.11953128769238204
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 25,
+      "median": 0.05920297196891511,
+      "p95": 0.5204716070825322,
+      "max": 0.6769498721474179,
+      "adaptiveMedian": 0.04343899261832007,
+      "adaptiveP95": 0.11995286341487484
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 12,
+      "median": 0.04519419115165135,
+      "p95": 0.2024562647754038,
+      "max": 0.23714285714282823,
+      "adaptiveMedian": 0.02964153037099493,
+      "adaptiveP95": 0.04531417957254007
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 12,
+      "median": 0.03578569016262634,
+      "p95": 0.13463221884497611,
+      "max": 0.16093308245282856,
+      "adaptiveMedian": 0.03213923867420476,
+      "adaptiveP95": 0.07798330679790409
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 13,
+      "median": 0.084003473729922,
+      "p95": 0.3894730544700678,
+      "max": 0.4029661793796322,
+      "adaptiveMedian": 0.04387972210162161,
+      "adaptiveP95": 0.0687229217928234
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 37,
+      "median": 0.045090702947845784,
+      "p95": 0.2705088049403909,
+      "max": 0.39679283060741,
+      "adaptiveMedian": 0.03146620350270268,
+      "adaptiveP95": 0.07210165484632396
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 6,
+      "median": 0.04764172335600847,
+      "p95": 0.15414754909056683,
+      "max": 0.18309620302022722,
+      "adaptiveMedian": 0.06505668934241271,
+      "adaptiveP95": 0.08267784773481424
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 52,
+      "median": 0.18498817966901981,
+      "p95": 0.7163009480387698,
+      "max": 0.9135236647850604,
+      "adaptiveMedian": 0.03653193901671159,
+      "adaptiveP95": 0.11335164278478656
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 52,
+      "median": 0.17257960631060598,
+      "p95": 0.5547274207555389,
+      "max": 0.7147295797751383,
+      "adaptiveMedian": 0.0342152747623885,
+      "adaptiveP95": 0.08387319679645343
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 4,
+      "median": 0.14773893954745176,
+      "p95": 0.2570650962512701,
+      "max": 0.2677413518598968,
+      "adaptiveMedian": 0.0440524436725056,
+      "adaptiveP95": 0.12490315771698374
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 37,
+      "median": 0.14703116707676145,
+      "p95": 0.6067867033338129,
+      "max": 0.6891861340280627,
+      "adaptiveMedian": 0.032029237226794294,
+      "adaptiveP95": 0.10985516476092698
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 29,
+      "median": 0.1450402856177675,
+      "p95": 0.6035302745211479,
+      "max": 0.6874538042167444,
+      "adaptiveMedian": 0.02912819028321678,
+      "adaptiveP95": 0.11953128769238204
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 6,
+      "median": 0.04764172335600847,
+      "p95": 0.15414754909056683,
+      "max": 0.18309620302022722,
+      "adaptiveMedian": 0.06505668934241271,
+      "adaptiveP95": 0.08267784773481424
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 14,
+      "median": 0.04264063781540983,
+      "p95": 0.10888894919670057,
+      "max": 0.11815819944999362,
+      "adaptiveMedian": 0.05914604139528201,
+      "adaptiveP95": 0.08529480870362284
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 31,
+      "median": 0.08763014425628057,
+      "p95": 0.22479052081826012,
+      "max": 0.26911323394608644,
+      "adaptiveMedian": 0.052525932358747696,
+      "adaptiveP95": 0.11119385342789201
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 4,
+      "median": 0.14773893954745176,
+      "p95": 0.2570650962512701,
+      "max": 0.2677413518598968,
+      "adaptiveMedian": 0.0440524436725056,
+      "adaptiveP95": 0.12490315771698374
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 52,
+      "median": 0.11218627876678511,
+      "p95": 0.3850238638008519,
+      "max": 0.47251049355909913,
+      "adaptiveMedian": 0.04396181309404312,
+      "adaptiveP95": 0.10361857721812553
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 272.0,
+      "meanCosine": 0.37697613721256434
+    },
+    {
+      "start": 88.0,
+      "meanCosine": 0.4439701032693131
+    },
+    {
+      "start": 0.0,
+      "meanCosine": 0.541170940210259
+    },
+    {
+      "start": 16.0,
+      "meanCosine": 0.553630049341672
+    },
+    {
+      "start": 184.0,
+      "meanCosine": 0.5569898099065862
+    }
+  ],
+  "sections": [
+    {
+      "bar": "58",
+      "occ": 1,
+      "editorial": 48,
+      "aligned": 48.134042553191485,
+      "difference": 0.13404255319148461,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "127",
+      "occ": 1,
+      "editorial": 188,
+      "aligned": 188.4685106382977,
+      "difference": 0.4685106382976869,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "212",
+      "occ": 1,
+      "editorial": 246,
+      "aligned": 246.3404255319149,
+      "difference": 0.3404255319148888,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.5,
+      "audioSeconds": 0.8458510638297871,
+      "nearestOnsetDeviation": 0.048117190138466825
+    },
+    {
+      "label": "middle",
+      "bar": "50",
+      "occ": 2,
+      "scoreQ": 347.5,
+      "audioSeconds": 136.78648936170214,
+      "nearestOnsetDeviation": 0.060313359386299226
+    },
+    {
+      "label": "last",
+      "bar": "251",
+      "occ": 1,
+      "scoreQ": 748.0,
+      "audioSeconds": 276.47957446808505,
+      "nearestOnsetDeviation": 0.03440440005783785
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 38,
+      "voice": "bassoons",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 38,
+      "voice": "cellos",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 38,
+      "voice": "basses",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 43,
+      "voice": "timpani",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 50,
+      "voice": "bassoons",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 50,
+      "voice": "violas",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 55,
+      "voice": "horns",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 62,
+      "voice": "clarinets",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 62,
+      "voice": "violins-2",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 67,
+      "voice": "horns",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 67,
+      "voice": "trumpets",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 74,
+      "voice": "oboes",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 74,
+      "voice": "clarinets",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 74,
+      "voice": "violins-1",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 79,
+      "voice": "oboes",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 79,
+      "voice": "trumpets",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 86,
+      "voice": "flutes",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    },
+    {
+      "bar": "251",
+      "occ": 1,
+      "midi": 91,
+      "voice": "flutes",
+      "durationQ": 4.0,
+      "onset": 276.47957446808505,
+      "offset": 280.2,
+      "durationSeconds": 3.720425531914941
+    }
+  ],
+  "recurrence": [
+    {
+      "aStart": 3.0,
+      "aEnd": 48.0,
+      "predictedBStart": 95.68212765957446,
+      "bestBStart": 95.5,
+      "offsetSeconds": 92.5,
+      "boundaryResidualSeconds": -0.1821276595744621,
+      "cosine": 0.9364100582730749,
+      "searchRadiusSeconds": 5
+    }
+  ],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.014296235679211122,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7045468841210306,
+  "endAnchor": {
+    "scoreQ": 752.0,
+    "audioSeconds": 280.2,
+    "decodedDuration": 283.3707029478458,
+    "activeEndMinus45dB": 283.36471655328796,
+    "configuredEnd": {
+      "seconds": 280.2,
+      "basis": "MEAS: summed constant-Q energy falls from 12.9 dB (279.8–280.1 s) to 3.5 dB (280.1–280.4 s) and below −3 dB thereafter, relative to about 20 dB during the fermata; the remaining 280.2–283.37 s is decay and side run-out, not a held score note."
+    }
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "beethoven-5-first-mengelberg-side1",
+  "tuningHz": 446.92,
+  "audioSha256": "14067e09d1e17c872ecfc692e9eeefca07a6670601fcf49aff691295148c3333",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "EXT: Mutopia 941, the public-domain Breitkopf & Härtel orchestral encoding already used for the three published first-movement alignments; twelve source staves, published MIDI tracks, existing clarinet/horn transpositions retained and the double-bass line lowered one octave as in those configurations. Section labels identify encoded staves, not separated instruments in this mono transfer.",
+    "Recording scope (EXT, content/listen module and Musical Heritage Organization catalogue cited there): Telefunken SK 2210, side 1 of 2 of the first movement. Only the music on this side is aligned; no notes after bar 252 are claimed.",
+    "Exposition repeat (MEAS, audio-to-audio): free-end chroma DTW of this side against the baseline beethoven-5-first recording, whose published score takes the repeat, maps 100 s to bar 4 occurrence 2 and 188 s to bar 126; a separately computed fixed-lag recurrence is reported in the checks. Repeat and side-end evidence are feature comparisons, not aural review.",
+    "Read content/listen/beethoven-5-first-mengelberg-side1.mjs and cache/analysis/beethoven-5-first-mengelberg-side1.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Fitting constraints: the repeat join, the end of the second exposition, the pianissimo development entry at bars 129–130 and the recapitulation fermatas each had numerically passing but visibly misplaced unconstrained candidates; independent review (RevScores, 2026-10-19) then found bars 22–49 lit up to about 3 s early in both exposition statements and the two bar-129/130 constraints attached to the wrong attacks (q506.5/q508 instead of q504.5/q506). Twenty-three source-pitch constraints, measured from constant-Q pitch-class energy, are disclosed in anchors; they are not independent validation. Long fermata holds are divided between the written note and the following rest by the alignment; for example, the bar-249 E-flat is lit until about 273 s although its pitch energy continues until about 274.6 s. Written durations are warped notation, not measured releases.",
+    "Engraving: the complete printed movement is engraved, as for the other Mutopia 941 publications; only bars 1–252 (with the exposition repeat) carry timings for this side."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      0.18585106382978722,
+      0.86
+    ],
+    [
+      15.797340425531914,
+      22.8
+    ],
+    [
+      16.354893617021276,
+      23.72
+    ],
+    [
+      18.02755319148936,
+      27.14
+    ],
+    [
+      20.81531914893617,
+      29.54
+    ],
+    [
+      23.788936170212764,
+      32.24
+    ],
+    [
+      42.24,
+      48.0
+    ],
+    [
+      92.36797872340425,
+      92.86
+    ],
+    [
+      92.92553191489361,
+      93.64
+    ],
+    [
+      93.85478723404255,
+      96.8
+    ],
+    [
+      94.41234042553191,
+      97.8
+    ],
+    [
+      107.97946808510638,
+      116.04
+    ],
+    [
+      108.53702127659574,
+      116.86
+    ],
+    [
+      110.20968085106382,
+      120.74
+    ],
+    [
+      112.99744680851063,
+      123.24
+    ],
+    [
+      115.97106382978723,
+      125.64
+    ],
+    [
+      182.13404255319148,
+      183.98
+    ],
+    [
+      184.5501063829787,
+      186.36
+    ],
+    [
+      185.10765957446807,
+      187.26
+    ],
+    [
+      185.4781818181818,
+      188.0
+    ],
+    [
+      187.5237234042553,
+      192.9
+    ],
+    [
+      188.08127659574467,
+      193.48
+    ],
+    [
+      248.7,
+      246.0
+    ],
+    [
+      276.5463829787234,
+      272.32
+    ],
+    [
+      277.4756382978723,
+      275.18
+    ],
+    [
+      277.66148936170214,
+      275.6
+    ],
+    [
+      277.8473404255319,
+      275.92
+    ],
+    [
+      278.0331914893617,
+      276.44
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.5,
+      "audioSeconds": 0.86,
+      "peakSeconds": 0.94,
+      "window": [
+        0.85,
+        1.0
+      ],
+      "midiPitches": [
+        43,
+        55,
+        67
+      ],
+      "basis": "MEAS constant-Q pitch-class shares: the opening G band rises at about 0.9 s (G share 0.74–0.92 through 1.6 s), followed by the E-flat fermata from about 1.77 s; the initial broad 0–4 s window mapped the first G at 1.25 s. At the side end, bar 248's F/G figure is near 271.4 s, the bar-249 E-flat fermata rises at 272.33 s, near-silence at 274.7 s is the bar-250 rest, the F-F-F figure rises at 275.23 s and the bar-251 D/G fermata at 276.45 s (20%-of-peak D-band rise), held until the release near 280.0 s. The initial bars 1–247 candidate passed numeric gates while compressing the last eight bars and stretching one chord over ten seconds of later music; it was rejected.",
+      "mappedAudioSeconds": 0.8458510638297871,
+      "mappingDeviationSeconds": -0.014148936170212845
+    },
+    {
+      "label": "bar-22-first-A-flat",
+      "scoreQ": 42.5,
+      "audioSeconds": 22.8,
+      "peakSeconds": 22.84,
+      "window": [
+        22.7,
+        22.92
+      ],
+      "midiPitches": [
+        32,
+        44,
+        56,
+        68,
+        80
+      ],
+      "basis": "MEAS: performed q42.5 is the first of three tutti A-flat eighths in bar 22 (A-flat1–A-flat5 across strings, woodwinds and horns) after the bar-21 fermata. The summed A-flat band (44/56/68/80 plus the bass A-flat1) has separate energy-rise peaks at about 22.84, 22.98, 23.10, 23.36 and 23.50 s before the F at 23.72 s; the first, at 22.80–22.86 s, is the bar-22 entry (the review measured 22.85/23.10/23.49 s for the three eighths). A wider window selects the stronger second rise, so the window is limited to 22.70–22.92 s. The previously published map lit this attack at 21.94 s (independent review RevScores, 2026-10-19). Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 22.8,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-23-F-fermata",
+      "scoreQ": 44.0,
+      "audioSeconds": 23.72,
+      "peakSeconds": 23.78,
+      "window": [
+        23.5,
+        23.85
+      ],
+      "midiPitches": [
+        29,
+        41,
+        53,
+        65,
+        77
+      ],
+      "basis": "MEAS: performed q44 is the tutti F of bars 23–24 (four-quarter tied fermata). The F bands 41/53/65/77 rise from about −25 dB at 23.5 s to −9/−4 dB at 23.7/23.8 s, then hold above 85% of total pitch energy; the previous map placed it at 22.52 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 23.72,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-25-violin-I-A-flat4",
+      "scoreQ": 48.5,
+      "audioSeconds": 27.14,
+      "peakSeconds": 27.24,
+      "window": [
+        27.1,
+        27.27
+      ],
+      "midiPitches": [
+        68
+      ],
+      "basis": "MEAS: performed q48.5 is the first violins' first of three A-flat4 eighths in bar 25, after the F fermata. The F bands decay below −33 dB by 26.7 s; the A-flat4 band then has rises at about 27.14–27.26, 27.30–27.36 and 27.48–27.54 s, and the following violin-II D4 (q50.5) rises at about 27.8 s, giving a consistent eighth of about 0.165 s. The window isolates the first rise; the stronger 27.32 s rise is the second eighth. The previous map lit bar 25 at 24.00 s, on the sounding F. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 27.14,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-29-C-E-flat-chord",
+      "scoreQ": 56.0,
+      "audioSeconds": 29.54,
+      "peakSeconds": 29.68,
+      "window": [
+        29.4,
+        29.8
+      ],
+      "midiPitches": [
+        36,
+        48,
+        60,
+        63
+      ],
+      "basis": "MEAS: performed q56 is the bar-29 C2/C3/C4 and E-flat4 attack in basses, cellos and violins. Their summed bands rise from about −34 dB at 29.4 s to −25/−21.6 dB at 29.6/29.7 s, after the cello/bass G2 entry rises at about 29.2 s; the previous map lit bar 29 at 26.93 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 29.54,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-33-C-minor-tutti-chord",
+      "scoreQ": 64.0,
+      "audioSeconds": 32.24,
+      "peakSeconds": 32.28,
+      "window": [
+        32.0,
+        32.35
+      ],
+      "midiPitches": [
+        36,
+        48,
+        55,
+        60,
+        63,
+        67,
+        72,
+        75
+      ],
+      "basis": "MEAS: performed q64 is the bar-33 C-minor chord (basses/cellos C, horns, clarinets, oboes, violins). The C/E-flat bands 36/48/60/63/72/75 rise from about −35 dB at 32.0 s to −20 dB at 32.2 s; the previous map lit bar 33 at 29.75 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 32.24,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-1-first-G",
+      "scoreQ": 248.5,
+      "audioSeconds": 92.86,
+      "peakSeconds": 92.9,
+      "window": [
+        92.7,
+        92.95
+      ],
+      "midiPitches": [
+        43,
+        55,
+        67
+      ],
+      "basis": "MEAS: performed q248.5 is the first G of the repeated exposition (bar 1, occurrence 2). Constant-Q shares show the exposition's closing E-flat decaying into near-silence at 91.75–92.5 s, then G dominating from 92.75 s (0.47–0.68) with a G-band flux peak at 92.82 s. The unconstrained candidate passed numeric gates but placed this bar at 97.55 s, on the following F figure, and stretched later strings entries into silence; it was rejected. Disclosed fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 92.86,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-2-E-flat-fermata",
+      "scoreQ": 250.0,
+      "audioSeconds": 93.64,
+      "peakSeconds": 93.72,
+      "window": [
+        93.55,
+        93.85
+      ],
+      "midiPitches": [
+        39,
+        51,
+        63
+      ],
+      "basis": "MEAS: performed q250 is the repeated exposition's E-flat fermata (bar 2, occurrence 2). E-flat becomes the dominant pitch class from 93.75 s (0.35–0.69 through 96.25 s), with a band-flux peak at 93.69 s. Disclosed fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 93.64,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-3-first-F",
+      "scoreQ": 252.5,
+      "audioSeconds": 96.8,
+      "peakSeconds": 96.88,
+      "window": [
+        96.6,
+        96.95
+      ],
+      "midiPitches": [
+        41,
+        53,
+        65
+      ],
+      "basis": "MEAS: performed q252.5 is the first F after the bar-3 rest in the repeated exposition. Total energy is near silence at 96.25–96.75 s; F dominates from 96.75 s (0.56–0.74) with a band-flux peak at 96.87 s. Disclosed fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 96.8,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-4-D-fermata",
+      "scoreQ": 254.0,
+      "audioSeconds": 97.8,
+      "peakSeconds": 97.88,
+      "window": [
+        97.45,
+        97.9
+      ],
+      "midiPitches": [
+        38,
+        50,
+        62
+      ],
+      "basis": "MEAS: performed q254 is the repeated exposition's D (bar 4, tied into the bar-5 fermata). D becomes dominant from 97.75 s (0.45, then 0.65–0.83 until 101 s), with band-flux peaks at 97.47 and 97.81 s after the F figure. Disclosed fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 97.8,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-22-first-A-flat",
+      "scoreQ": 290.5,
+      "audioSeconds": 116.04,
+      "peakSeconds": 116.08,
+      "window": [
+        115.85,
+        116.15
+      ],
+      "midiPitches": [
+        32,
+        44,
+        56,
+        68,
+        80
+      ],
+      "basis": "MEAS: performed q290.5 is bar 22, occurrence 2: the repeated exposition's first tutti A-flat eighth. The A-flat bands rise from about −24 dB at 115.9 s to −13/−8 dB at 116.0/116.1 s (68–83% of total pitch energy). Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 116.04,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-23-F-fermata",
+      "scoreQ": 292.0,
+      "audioSeconds": 116.86,
+      "peakSeconds": 116.92,
+      "window": [
+        116.7,
+        117.0
+      ],
+      "midiPitches": [
+        29,
+        41,
+        53,
+        65,
+        77
+      ],
+      "basis": "MEAS: performed q292 is the repeated exposition's bar-23 tutti F fermata. The F bands rise from about −29 dB at 116.7 s to −23/−12 dB at 116.8/116.9 s and then hold above 79% of pitch energy. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 116.86,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-25-violin-I-A-flat4",
+      "scoreQ": 296.5,
+      "audioSeconds": 120.74,
+      "peakSeconds": 120.78,
+      "window": [
+        120.5,
+        120.9
+      ],
+      "midiPitches": [
+        68
+      ],
+      "basis": "MEAS: performed q296.5 is the repeated exposition's first violin-I A-flat4 of bar 25. The A-flat4 band rises from −51 dB at 120.6 s to −41/−37 dB at 120.7/120.8 s, followed by the D4, B3 and A-flat3 imitations at about 121.4, 121.9 and 122.1 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 120.74,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-29-C-E-flat-chord",
+      "scoreQ": 304.0,
+      "audioSeconds": 123.24,
+      "peakSeconds": 123.28,
+      "window": [
+        123.0,
+        123.4
+      ],
+      "midiPitches": [
+        36,
+        48,
+        60,
+        63
+      ],
+      "basis": "MEAS: performed q304 is bar 29, occurrence 2 (C2/C3/C4 and E-flat4). The summed bands rise from about −36 dB at 123.0 s to −27/−22 dB at 123.2/123.3 s, after the G2 entry near 122.7 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 123.24,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-33-C-minor-tutti-chord",
+      "scoreQ": 312.0,
+      "audioSeconds": 125.64,
+      "peakSeconds": 125.68,
+      "window": [
+        125.5,
+        125.95
+      ],
+      "midiPitches": [
+        36,
+        48,
+        55,
+        60,
+        63,
+        67,
+        72,
+        75
+      ],
+      "basis": "MEAS: performed q312 is bar 33, occurrence 2. The C/E-flat chord bands rise from about −31 dB at 125.5 s to −27/−23/−19 dB at 125.6/125.7/125.9 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 125.64,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "repeat-bar-122-E-flat-chord",
+      "scoreQ": 490.0,
+      "audioSeconds": 183.98,
+      "peakSeconds": 184.06,
+      "window": [
+        183.9,
+        184.15
+      ],
+      "midiPitches": [
+        39,
+        51,
+        63,
+        67,
+        70,
+        75,
+        79,
+        87
+      ],
+      "basis": "MEAS: performed q490 is the last exposition E-flat chord (bar 122, occurrence 2) before the two rest bars. Constant-Q shares alternate between B-flat and E-flat chords through 176–184.75 s; this final E-flat rises at 184.04 s (band-flux peak) and is followed by near-silence (−7 to −11 dB) at 185.0–186.0 s. An earlier candidate mapped it at 187.0 s and laid the rest bars over the loud development opening; it was rejected. Disclosed fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 183.98,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-125-development-B-flat",
+      "scoreQ": 496.5,
+      "audioSeconds": 186.36,
+      "peakSeconds": 186.38,
+      "window": [
+        186.15,
+        186.45
+      ],
+      "midiPitches": [
+        70
+      ],
+      "basis": "MEAS: performed q496.5 is the first of the development's three B-flat eighths in clarinets and horns (bar 125). B-flat is 0.87–0.97 of the measured pitch-class energy at 186.25–187.0 s, with a band-flux peak at 186.37 s after the rest bars. Disclosed fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 186.36,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-126-G-fermata",
+      "scoreQ": 498.0,
+      "audioSeconds": 187.26,
+      "peakSeconds": 187.4,
+      "window": [
+        187.1,
+        187.4
+      ],
+      "midiPitches": [
+        67
+      ],
+      "basis": "MEAS: performed q498 is the held G in bassoons, clarinets and horns (bar 126) under the strings' C-sharp figure. G becomes 0.6–0.79 of the measured pitch-class energy from 187.25 s, with an A-flat/G-sharp share consistent with the strings' C-sharp third partial; band-flux peak 187.24 s. Disclosed fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 187.26,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-129-violin-II-C5",
+      "scoreQ": 504.5,
+      "audioSeconds": 192.9,
+      "peakSeconds": 192.94,
+      "window": [
+        192.75,
+        193.0
+      ],
+      "midiPitches": [
+        72
+      ],
+      "basis": "MEAS: performed q504.5 is the second violins' first pianissimo C5 eighth of bar 129 (bar 125 = q496, so bar 129 = q504) after the bar-127–128 hold. The C5 band rises out of near-silence (−56 to −59 dB at 192.4–192.7 s) to −48/−35 dB at 192.8/192.9 s. This replaces an earlier constraint that was mislabelled and attached to q506.5, which is the clarinets' C-sharp5 in bar 130 (independent review RevScores, 2026-10-19). Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 192.9,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-130-A-flat-C-entry",
+      "scoreQ": 506.0,
+      "audioSeconds": 193.48,
+      "peakSeconds": 193.5,
+      "window": [
+        193.35,
+        193.6
+      ],
+      "midiPitches": [
+        53,
+        60,
+        65,
+        68
+      ],
+      "basis": "MEAS: performed q506 is bar 130's downbeat: violin-II A-flat4, viola/cello C4 and bassoon F3/F4. Their summed bands rise from −45 dB at 193.3 s to −40/−32 dB at 193.4/193.5 s. This replaces an earlier constraint attached to q508, which is the clarinets' C5 on the bar-131 downbeat. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 193.48,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-249-E-flat-fermata",
+      "scoreQ": 744.0,
+      "audioSeconds": 272.32,
+      "peakSeconds": 272.36,
+      "window": [
+        272.2,
+        272.5
+      ],
+      "midiPitches": [
+        39,
+        43,
+        51,
+        63,
+        67,
+        75,
+        79,
+        87,
+        91
+      ],
+      "basis": "MEAS: performed q744 is the recapitulation's E-flat tutti fermata (bar 249). Constant-Q E-flat share rises from 0.04 to 0.37 at 272.3 s; the 20%-of-peak E-flat-band rise is 272.334 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 272.32,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-250-F-after-rest",
+      "scoreQ": 746.5,
+      "audioSeconds": 275.18,
+      "peakSeconds": 275.26,
+      "window": [
+        275.0,
+        275.4
+      ],
+      "midiPitches": [
+        41,
+        43,
+        53,
+        55,
+        65,
+        67,
+        77,
+        79,
+        89,
+        91
+      ],
+      "basis": "MEAS: performed q746.5 is the first F of bar 250, after the written eighth rest. Total energy is near silence at 274.7 s; the F-band 20%-of-peak rise is 275.231 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 275.18,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-250-second-F",
+      "scoreQ": 747.0,
+      "audioSeconds": 275.6,
+      "peakSeconds": 275.72,
+      "window": [
+        275.5,
+        275.75
+      ],
+      "midiPitches": [
+        41,
+        43,
+        53,
+        55,
+        65,
+        67,
+        77,
+        79,
+        89,
+        91
+      ],
+      "basis": "MEAS: performed q747 is the second F eighth of bar 250. Log constant-Q F/G-band flux peaks at 275.62 s (onset strength 275.67 s), between the first F at 275.22 s and the third near 275.95 s; the unconstrained map placed it at 276.05 s, compressing the figure against the following D fermata. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 275.6,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-250-third-F",
+      "scoreQ": 747.5,
+      "audioSeconds": 275.92,
+      "peakSeconds": 276.04,
+      "window": [
+        275.85,
+        276.05
+      ],
+      "midiPitches": [
+        41,
+        43,
+        53,
+        55,
+        65,
+        67,
+        77,
+        79,
+        89,
+        91
+      ],
+      "basis": "MEAS: performed q747.5 is the third F eighth of bar 250. F/D/G-band flux peaks at 275.92–275.95 s and onset strength at 275.98 s, before the bar-251 D rise at 276.43–276.46 s; the unconstrained map placed it at 276.25 s. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 275.92,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 748.0,
+      "audioSeconds": 276.44,
+      "peakSeconds": 276.48,
+      "window": [
+        276.3,
+        276.7
+      ],
+      "midiPitches": [
+        38,
+        43,
+        50,
+        55,
+        62,
+        67,
+        74,
+        79,
+        86,
+        91
+      ],
+      "basis": "MEAS constant-Q pitch-class shares: the opening G band rises at about 0.9 s (G share 0.74–0.92 through 1.6 s), followed by the E-flat fermata from about 1.77 s; the initial broad 0–4 s window mapped the first G at 1.25 s. At the side end, bar 248's F/G figure is near 271.4 s, the bar-249 E-flat fermata rises at 272.33 s, near-silence at 274.7 s is the bar-250 rest, the F-F-F figure rises at 275.23 s and the bar-251 D/G fermata at 276.45 s (20%-of-peak D-band rise), held until the release near 280.0 s. The initial bars 1–247 candidate passed numeric gates while compressing the last eight bars and stretching one chord over ten seconds of later music; it was rejected.",
+      "mappedAudioSeconds": 276.47957446808505,
+      "mappingDeviationSeconds": 0.03957446808504983
+    }
+  ],
+  "adaptiveOnsetCount": 1971,
+  "adaptiveMedianDeviation": 0.03339894823173495,
+  "gateReasons": [],
+  "elapsedSeconds": 0.5751241630059667,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 376,
+    "notes": 5594,
+    "voices": 12
+  },
+  "published": true,
+  "configSha256": "ffaad4de4d20180fdad190c50736a3e6f288c898f1ee5f557c5d8e3d49a35a14",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip",
+      "file": "Symphony5_1-lys.zip",
+      "sha256": "a0165591776ac4f277ff4331b075774d739639726f26f162aad57761554abf80"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1.mid",
+      "file": "Symphony5_1.mid",
+      "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046"
+    }
+  ],
+  "comparison": {
+    "previousScore": true,
+    "previousSha256": "c851849bb0be44682bfa4769996764bccd4ebaf73e1523534904747678f46b48",
+    "candidateSha256": "afd9d86cd036c1a468d7bc6137df706a252f34cd24df1969f830af147b5b0388",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 3.089999999999989,
+      "noteDurationSeconds": 2.117,
+      "barSeconds": 3.0400000000000063
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
+  },
+  "overlays": [
+    "work/beethoven-5-first-mengelberg-side1-0-8.84585.png",
+    "work/beethoven-5-first-mengelberg-side1-16-24.png",
+    "work/beethoven-5-first-mengelberg-side1-16-32.png",
+    "work/beethoven-5-first-mengelberg-side1-18.8-30.8.png",
+    "work/beethoven-5-first-mengelberg-side1-19.72-31.72.png",
+    "work/beethoven-5-first-mengelberg-side1-23.14-35.14.png",
+    "work/beethoven-5-first-mengelberg-side1-25.54-37.54.png",
+    "work/beethoven-5-first-mengelberg-side1-28.24-40.24.png",
+    "work/beethoven-5-first-mengelberg-side1-32-48.png",
+    "work/beethoven-5-first-mengelberg-side1-88.86-100.86.png",
+    "work/beethoven-5-first-mengelberg-side1-89.64-101.64.png",
+    "work/beethoven-5-first-mengelberg-side1-92.8-104.8.png",
+    "work/beethoven-5-first-mengelberg-side1-93.8-105.8.png",
+    "work/beethoven-5-first-mengelberg-side1-94-106.png",
+    "work/beethoven-5-first-mengelberg-side1-108-124.png",
+    "work/beethoven-5-first-mengelberg-side1-112-120.png",
+    "work/beethoven-5-first-mengelberg-side1-112.04-124.04.png",
+    "work/beethoven-5-first-mengelberg-side1-112.86-124.86.png",
+    "work/beethoven-5-first-mengelberg-side1-116.74-128.74.png",
+    "work/beethoven-5-first-mengelberg-side1-119.24-131.24.png",
+    "work/beethoven-5-first-mengelberg-side1-121.64-133.64.png",
+    "work/beethoven-5-first-mengelberg-side1-124-140.png",
+    "work/beethoven-5-first-mengelberg-side1-128-136.png",
+    "work/beethoven-5-first-mengelberg-side1-132.786-144.786.png",
+    "work/beethoven-5-first-mengelberg-side1-160-168.png",
+    "work/beethoven-5-first-mengelberg-side1-168-176.png",
+    "work/beethoven-5-first-mengelberg-side1-179.98-191.98.png",
+    "work/beethoven-5-first-mengelberg-side1-182.36-194.36.png",
+    "work/beethoven-5-first-mengelberg-side1-183.26-195.26.png",
+    "work/beethoven-5-first-mengelberg-side1-184-196.png",
+    "work/beethoven-5-first-mengelberg-side1-186-200.png",
+    "work/beethoven-5-first-mengelberg-side1-188.9-200.9.png",
+    "work/beethoven-5-first-mengelberg-side1-189.48-201.48.png",
+    "work/beethoven-5-first-mengelberg-side1-196-208.png",
+    "work/beethoven-5-first-mengelberg-side1-206-218.png",
+    "work/beethoven-5-first-mengelberg-side1-208-216.png",
+    "work/beethoven-5-first-mengelberg-side1-216-224.png",
+    "work/beethoven-5-first-mengelberg-side1-216-228.png",
+    "work/beethoven-5-first-mengelberg-side1-224-232.png",
+    "work/beethoven-5-first-mengelberg-side1-226-238.png",
+    "work/beethoven-5-first-mengelberg-side1-236-248.png",
+    "work/beethoven-5-first-mengelberg-side1-246-258.png",
+    "work/beethoven-5-first-mengelberg-side1-256-268.png",
+    "work/beethoven-5-first-mengelberg-side1-266-280.2.png",
+    "work/beethoven-5-first-mengelberg-side1-268.32-280.32.png",
+    "work/beethoven-5-first-mengelberg-side1-271.18-283.18.png",
+    "work/beethoven-5-first-mengelberg-side1-271.6-283.371.png",
+    "work/beethoven-5-first-mengelberg-side1-271.92-283.371.png",
+    "work/beethoven-5-first-mengelberg-side1-272-280.png",
+    "work/beethoven-5-first-mengelberg-side1-272.48-283.371.png"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "grieg-wedding-day-vetter-2006",
+  "verdict": "pass",
+  "reviewer": "RevScores",
+  "date": "2026-10-19",
+  "scope": "MEAS: independent source/order, bar-map, gate arithmetic, overlay and audio-feature review (score-chroma lag test, per-bar chroma test, audio-to-audio DTW of both repeat and return); not aural review.",
+  "defects": [],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#grieg-wedding-day-vetter-2006",
+    "finding": "The section's counts, order, gates, endpoint/q388 corrections and page count match the current results, checks and publication. Config SHA-256 70c4a9db… equals results.configSha256; work candidate equals the public score; checks equal results; source downloads and cached audio match their pinned SHA-256 values."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/grieg-wedding-day-vetter-2006-checks.json",
+    "primaryMedianSeconds": 0.04489692543683077,
+    "primaryP95Seconds": 0.2478771553412798,
+    "maximumAnchorDeviationSeconds": 0.09301587301587322,
+    "maximumLocalRegionMedianSeconds": 0.059929855275328237,
+    "minimumPublishedNoteDurationSeconds": 0.013,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.013,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 211,
+    "distinctEngravedBars": 179,
+    "sheetPages": 10,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "barAnchoredListenPointers": 0,
+    "finding": "All 3845 notes lie inside their bar occurrence; bar times strictly increase; 179 printed bars in score, index and SVG data-bar sets; order 1–106, 75–179 = 680 quarters. Rasterised p5.svg shows the repeat-start sign at bar 75 (pp dolce). Listen cues use seconds; their bar mentions agree with the map (57 at 121.60 s, 107 at 261.40 s, 163 at 378.51 s)."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revscores_check.py, revscores_scan.py",
+    "tuning": "librosa estimate 0.04 semitone = 441.02 Hz, equal to the published tuningHz.",
+    "globalLag": "Mean framewise cosine between published-score chroma and audio CQT chroma peaks at 0 s lag (0.816), against 0.716/0.693 at ±0.25 s.",
+    "perBar": "Per-bar cosine median 0.893 at the published bar versus 0.739/0.717 for the neighbouring occurrences; 168 of 211 bars best at zero shift. A ±3-s local shift scan flags only bar 77 occurrence 2 (best −1.1 s, 0.777 vs 0.611); 90.5% of bars have best shift within 0.3 s.",
+    "repeat": "Audio-to-audio chroma DTW of the first pass of bars 75–106 (150.90–205.04 s) against the second (205.04–261.40 s): path cosine 0.978 against 0.809/0.777 for control regions; published bar times of the two passes agree with the DTW map within median 0.015 s, maximum 0.137 s.",
+    "return": "Bars 1–56 against 107–162: path cosine 0.979; published bar times agree within median 0.022 s, maximum 0.177 s."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/grieg-wedding-day-vetter-2006-0-10.02.png",
+      "work/grieg-wedding-day-vetter-2006-114-128.png",
+      "work/grieg-wedding-day-vetter-2006-198-212.png",
+      "work/grieg-wedding-day-vetter-2006-226.008-238.008.png",
+      "work/grieg-wedding-day-vetter-2006-256-268.png",
+      "work/grieg-wedding-day-vetter-2006-404.783-416.021.png"
+    ],
+    "finding": "All six are the fresh 02:40 files listed in results (the seven older 02:37 PNGs in work/ are stale and were not used). The D2/A2 opening is at 2.02 s; the march-to-tranquillo silence lies inside bar 56 and bar 57's G2/D3 enters at 121.60 s; the volta join puts bar 75 occurrence 2 on the B/D-sharp/F-sharp arpeggiated chord at 205.04 s; bar 90 occurrence 2 (middle anchor, 230.01 s) and neighbouring attacks coincide with onset peaks; bar 107's D2/A2 enters at 261.40 s after the post-repeat silence; and the final D1/A1/D2 + D5–D6 chord is at 408.78 s. One small unscored onset near 407.3 s inside bar 178 does not move any bar."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=781",
+    "opened": true,
+    "edition": "Schirmer, 1903; arranger/editor Louis Oesterle",
+    "encoder": "David Whipple",
+    "license": "Public Domain"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The complete piece, with the source's single volta repeat of bars 75–106 and the written-out Tempo I return, matches the recording's order; no cut or extra repeat was found. The Oesterle edition is not claimed as Vetter's actual performing copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScores. Feature-based checks establish bar-level correspondence, not individual-attack accuracy; the final written hold runs to 413.12 s and is not a measured release. Public score SHA-256 14e0b7d74c6c4fac5d62a2db1361c41c42421d53eecdc507b85b710bc29b482d."
+}

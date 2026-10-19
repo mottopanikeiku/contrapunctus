@@ -1,21 +1,21 @@
 {
   "id": "mahler-5-adagietto",
-  "title": "Mahler’s Adagietto: a melody takes its time",
+  "title": "Mahler, Symphony No. 5, Adagietto: two recordings",
   "composer": "mahler",
   "work": "Symphony No. 5 — IV. Adagietto",
-  "question": "How much room can a conductor give each violin phrase without letting the Adagietto’s song come apart?",
-  "intro": "Mahler writes for strings and harp, with a violin melody that keeps reaching across the bar-line. Mengelberg’s Concertgebouw players slide together between notes and press forward through the little pickups, then linger when the theme returns. The Peabody Symphony Orchestra supplies the second performance, drawn from its complete recording of the Fifth.",
+  "question": "How far can a conductor stretch the tempo of each violin phrase in the Adagietto before the melodic line loses its continuity?",
+  "intro": "Mahler scored the movement for strings and harp, with a violin melody that repeatedly crosses the bar-line. Mengelberg’s Concertgebouw players slide together between notes and push forward through the short pickups, then slow down when the theme returns. The second performance is by the Peabody Symphony Orchestra, taken from its complete recording of the Fifth.",
   "group": "century",
   "recordings": [
-    { "listen": "mahler-5-adagietto", "label": "Peabody Symphony Orchestra", "year": null, "note": "The strings and harp of the Peabody orchestra, heard within its complete recording of Mahler’s Fifth Symphony." },
+    { "listen": "mahler-5-adagietto", "label": "Peabody Symphony Orchestra", "year": null, "note": "The strings and harp of the Peabody orchestra, from its complete recording of Mahler’s Fifth Symphony." },
     { "listen": "mahler-5-adagietto-mengelberg-1926", "label": "Willem Mengelberg, Concertgebouw Orchestra, 1926", "year": 1926, "note": "The strings slide between notes together; Mengelberg urges the opening pickups forward and slows the returning theme." }
   ],
   "reference": "mahler-5-adagietto",
   "passages": [
-    { "label": "Violins above the harp", "t": 20, "note": "The violins rise into the melody over plucked harp notes. The phrase leans on notes that take a moment to settle." },
-    { "label": "The first great swell", "t": 175, "note": "The violin line reaches higher, and the harp’s arpeggios spread beneath it. The phrase swells before turning down." },
-    { "label": "The harp brings back the song", "t": 415, "note": "The harp returns beneath the opening tune. Mengelberg begins this return more slowly, giving the familiar notes extra room." },
-    { "label": "High violins, rising cellos", "t": 555, "note": "High violins sustain the line while the cellos climb below. Mahler asks for broad bow strokes as the phrase approaches its last great swell." }
+    { "label": "Violin melody over harp", "t": 20, "note": "The violins play the melody over plucked harp notes. The phrase places its weight on notes that resolve only after a delay." },
+    { "label": "First climax", "t": 175, "note": "The violins rise higher, with harp arpeggios beneath them. The phrase grows louder, then falls." },
+    { "label": "Return of the opening melody", "t": 415, "note": "The harp returns beneath the opening tune. Mengelberg takes the start of this return more slowly." },
+    { "label": "High violins, ascending cellos", "t": 555, "note": "High violins sustain the line while the cellos climb below. Mahler asked for broad bow strokes as the phrase approaches its last swell." }
   ],
   "sources": [
     { "title": "Yale University Library — Mengelberg’s rubato and coordinated portamento", "url": "https://guides.library.yale.edu/c.php?g=525668&p=4452898" },

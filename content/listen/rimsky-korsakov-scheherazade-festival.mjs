@@ -19,24 +19,24 @@ export default {
   "forces": "Orchestra with solo violin",
   "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
   "recorded": "3–4 March 1942",
-  "intro": "A crowded festival spills into a storm at sea, and the suite’s old melodies collide. After the wreck, Rimsky-Korsakov leaves Scheherazade’s violin suspended high above a quiet E-major chord.",
+  "intro": "The fourth movement of Rimsky-Korsakov’s <i>Scheherazade</i>, Op. 35, moves from a crowded festival to a storm at sea, and the suite’s earlier melodies return together. After the shipwreck, Scheherazade’s violin holds a high note above a quiet E-major chord.",
   "sections": [
-    { "t": 0, "label": "Frame · Orchestra and violin trade phrases", "m": "Frame", "mNote": "Forceful orchestral calls alternate with the violin’s recitative" },
-    { "t": 74, "label": "A · Flute starts the festival dance", "m": "A", "mNote": "Quick flute notes above a repeated string pulse" },
-    { "t": 150, "label": "B · The lovers’ dance returns", "m": "B", "mNote": "The third movement’s lighter tune joins the festival" },
-    { "t": 190, "label": "A′ · The festival dance returns", "m": "A′", "mNote": "Winds and brass join the rushing strings" },
-    { "t": 352, "label": "Dev · Fanfares among the dancers", "m": "Dev", "mNote": "The Kalendar’s brass calls enter the quick music" },
-    { "t": 474, "label": "Sea · The sea theme sweeps back", "m": "Sea", "mNote": "The first movement’s waves return in the full orchestra" },
-    { "t": 566, "label": "Close · The storm gives way", "m": "Close", "mNote": "Brass chords fade above the strings" },
-    { "t": 588, "label": "Frame′ · Old melodies in quiet voices", "m": "Frame′", "mNote": "Woodwind phrases lead towards the violin’s final recitative" },
-    { "t": 678, "label": "Coda · High violin over E major", "m": "Coda", "mNote": "The violin holds above the final quiet chords" }
+    { "t": 0, "label": "Frame · Orchestra alternating with solo violin", "m": "Frame", "mNote": "Forceful orchestral calls alternate with the violin’s recitative" },
+    { "t": 74, "label": "A · Flute begins the festival dance", "m": "A", "mNote": "Quick flute notes over a repeated string pulse" },
+    { "t": 150, "label": "B · Third-movement dance theme returns", "m": "B", "mNote": "The third movement’s lighter tune returns within the festival music." },
+    { "t": 190, "label": "A′ · Festival dance theme returns", "m": "A′", "mNote": "Winds and brass join the rushing strings." },
+    { "t": 352, "label": "Dev · Brass fanfares in the dance", "m": "Dev", "mNote": "The Kalendar’s brass calls enter the quick music." },
+    { "t": 474, "label": "Sea · Return of the sea theme", "m": "Sea", "mNote": "The first movement’s sea music returns in the full orchestra." },
+    { "t": 566, "label": "Close · Brass chords over strings", "m": "Close", "mNote": "Brass chords fade out above the strings." },
+    { "t": 588, "label": "Frame′ · Old melodies in quiet voices", "m": "Frame′", "mNote": "Woodwind phrases lead to the violin’s final recitative." },
+    { "t": 678, "label": "Coda · High violin over E major", "m": "Coda", "mNote": "The violin holds a high note above the final quiet chords." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The orchestra challenges the violin",
-      "text": "Oboes, clarinets, bassoons and strings launch the Sultan’s phrase. It stops at a silence, leaving the solo violin to answer. The next orchestral interruption brings in brass and percussion; Scheherazade answers that one too.",
+      "title": "Opening Allegro molto and recitatives",
+      "text": "Oboes, clarinets, bassoons and strings play the Sultan’s phrase. It stops on a rest, and the solo violin follows with a recitative. Brass and percussion join the next orchestral interruption, and the solo violin plays a second recitative after it.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, finale, printed pp. 76–79: opening Allegro molto, two Lento recitatives, and the intervening Allegro molto e frenetico. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
@@ -44,8 +44,8 @@ export default {
     {
       "t": 40,
       "kind": "music",
-      "title": "The Sultan reaches for the bass drum",
-      "text": "Rimsky-Korsakov has saved his heaviest percussion for this movement. Across the suite he adds timpani first, then cymbals and triangle, then snare drum and tambourine. Now the Sultan, gruffly impatient, gets the first whack on the bass drum; the tam-tam waits for the wreck.",
+      "title": "Bass drum in the introduction",
+      "text": "Rimsky-Korsakov adds percussion in stages across the suite: timpani first, then cymbals and triangle, then snare drum and tambourine. The bass drum first plays in the introduction to this movement, with the Sultan’s theme. The tam-tam is held back for the shipwreck.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Paul Serotsky describes the staged introduction of percussion across the suite and the bass drum in the finale’s introduction, with the tam-tam at the shipwreck. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -53,8 +53,8 @@ export default {
     {
       "t": 74,
       "kind": "music",
-      "title": "Flute above the dancers",
-      "text": "At <i>Vivo</i>, the strings begin a quick repeated pulse. A flute runs above it, starting the festival dance. The tune keeps moving while other instruments enter around it: clarinet, bassoon, then the bright tap of the triangle.",
+      "title": "Festival dance, flute melody",
+      "text": "At <i>Vivo</i>, the strings begin a quick repeated accompaniment, and a flute plays the festival dance tune above it. At rehearsal A the clarinet and bassoon enter, followed by the triangle.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed p. 79: Vivo, string accompaniment, flute melody, then bassoon, clarinet and triangle at rehearsal A. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
@@ -62,8 +62,8 @@ export default {
     {
       "t": 150,
       "kind": "form",
-      "title": "The lovers join the crowd",
-      "text": "The lighter dance from the prince-and-princess movement returns in the festival. Its familiar little phrases fit into the faster music. The finale keeps finding room for people and tunes from the earlier tales.",
+      "title": "Return of the third-movement dance",
+      "text": "The lighter dance from the third movement, the prince-and-princess movement, returns in the festival as a contrasting theme. Paul Serotsky identified it as the Allegretto from that movement, rescored. Its short phrases are fitted into the faster music.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Paul Serotsky identifies the festival’s contrasting theme as the rescored Allegretto from the third movement. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -71,8 +71,8 @@ export default {
     {
       "t": 250,
       "kind": "world",
-      "title": "Guests from other tales",
-      "text": "Rimsky-Korsakov points out that the Kalender’s principal tune and the Princess’s clarinet theme return as secondary themes of the Baghdad festival. Yet “nothing is said in The Arabian Nights about these persons taking part in the festivities.”",
+      "title": "Kalender and Princess themes in the festival",
+      "text": "Rimsky-Korsakov pointed out that the Kalender’s principal tune and the Princess’s clarinet theme return as secondary themes of the Baghdad festival. He also noted that “nothing is said in The Arabian Nights about these persons taking part in the festivities.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, pp. 247–248, on the recurrence of the Kalender and Princess themes in the Bagdad festival. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
@@ -80,8 +80,8 @@ export default {
     {
       "t": 300,
       "kind": "life",
-      "title": "A summerhouse full of fingerings",
-      "text": "In 1873 Rimsky-Korsakov is appointed Inspector of Music Bands of the Navy. That summer he obtains a trombone, a clarinet and a flute and works out their fingerings at his summerhouse in Pargolovo, playing them “for all the neighbours to hear”. The post is abolished in 1884.",
+      "title": "Inspector of Navy Bands, 1873",
+      "text": "In 1873 the composer was appointed Inspector of Music Bands of the Navy. That summer he obtained a trombone, a clarinet and a flute and worked out their fingerings at his summerhouse in Pargolovo, playing them “for all the neighbours to hear”. The post was abolished in 1884.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition: the appointment and the instruments at Pargolovo, pp. 115–117; release from the post in spring 1884, pp. 226–227. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
@@ -89,8 +89,8 @@ export default {
     {
       "t": 352,
       "kind": "form",
-      "title": "The Kalendar’s brass calls",
-      "text": "The Kalendar’s fanfares enter the festival music. Short brass calls that once interrupted a bassoon’s tale now jostle with the quick dance. The strings keep their feet moving beneath them.",
+      "title": "Kalendar fanfares in the finale",
+      "text": "The brass fanfares of the Kalendar movement return in the festival music, where they once broke into a bassoon’s tale. The short calls now sound against the quick dance, and the strings continue the dance rhythm beneath them. Paul Serotsky identifies this central episode of the finale as a development of those fanfares.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Paul Serotsky identifies the finale’s central episode as a development of the Kalendar movement’s brass fanfares. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -98,8 +98,8 @@ export default {
     {
       "t": 474,
       "kind": "form",
-      "title": "The sea engulfs the festival",
-      "text": "The sea music from the first movement returns, broad and heavy, over the rolling strings. The marking becomes <i>Allegro non troppo maestoso</i>. Woodwind runs and harp sweeps cross the waves while brass and percussion gather towards the shipwreck.",
+      "title": "Return of the sea music",
+      "text": "The sea music from the first movement returns, broad and heavy, over rolling figures in the strings. The marking changes to <i>Allegro non troppo maestoso</i>. Woodwind runs and harp glissandi sound against the string figures, and brass and percussion build to the shipwreck.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed pp. 132–139: Allegro non troppo maestoso, return of the sea material, harp glissandi, and the tam-tam at the culmination. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
@@ -107,8 +107,8 @@ export default {
     {
       "t": 535,
       "kind": "music",
-      "title": "The ship shudders and breaks",
-      "text": "The scene cuts like a film to Sinbad’s storm-tossed ship. Its theme stutters in the basses, and the ship shudders and breaks on a stroke of the tam-tam. A stunned calm follows.",
+      "title": "The shipwreck, tam-tam",
+      "text": "The music cuts abruptly to Sinbad’s ship in the storm. The ship’s theme returns in broken fragments in the basses, and the wreck comes on a stroke of the tam-tam. A calm passage follows.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Paul Serotsky describes the cut to Sinbad’s ship, the stuttering bass theme, the tam-tam and the stunned calm after the wreck. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -116,8 +116,8 @@ export default {
     {
       "t": 566,
       "kind": "world",
-      "title": "One thousand and one nights",
-      "text": "Scheherazade keeps the Sultan waiting for the end of each story. By the thousand-and-first night, he has fallen in love with her and abandons his plan to kill her. The suite’s last pages give his once-threatening phrase a quiet voice.",
+      "title": "The thousand-and-first night",
+      "text": "Scheherazade leaves each story unfinished so that the Sultan has to wait for the ending. By the thousand-and-first night he has fallen in love with her and abandons his plan to kill her. On the suite’s last pages, the Sultan’s theme returns softened.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Herbert Glass summarises the story; Serotsky describes the softened Sultan theme at the close. https://www.laphil.com/works/scheherazade ; https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
@@ -125,8 +125,8 @@ export default {
     {
       "t": 588,
       "kind": "music",
-      "title": "After the wreck",
-      "text": "The epilogue makes room for quiet solo voices. A clarinet traces the waves above soft strings; later, violin and harp return to Scheherazade’s recitative. The final cadenza rises away from the orchestra.",
+      "title": "Epilogue, clarinet and solo violin",
+      "text": "At Poco più tranquillo a solo clarinet plays a wave figure over soft strings. Then, at Lento recitativo, the violin and harp return to Scheherazade’s recitative, and the violin ends with a rising cadenza above the orchestra.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed pp. 140–141: Poco più tranquillo, clarinet over strings, followed by Lento recitativo for violin and harp and the rising cadenza. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
@@ -134,8 +134,8 @@ export default {
     {
       "t": 640,
       "kind": "world",
-      "title": "Bob Varney’s transfer",
-      "text": "Bob Varney transferred Victor’s 78-rpm album DM-920 to digital, and the recording reached the Internet Archive in 2009. The Wikimedia Commons file describes it as restored from the original set.",
+      "title": "Bob Varney’s transfer, 2009",
+      "text": "Bob Varney transferred Victor’s original 78-rpm album to digital, and the recording was added to the Internet Archive in 2009. The Wikimedia Commons file description reads: “Transferred and restored from the original 78 set.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Internet Archive item Sheherazade: transfer from the original Victor 78 set DM-920 by Bob Varney, added 2009. https://archive.org/metadata/Sheherazade/metadata ; Wikimedia Commons file description: “Transferred and restored from the original 78 set.”"
@@ -143,8 +143,8 @@ export default {
     {
       "t": 678,
       "kind": "music",
-      "title": "A violin above E major",
-      "text": "The violin reaches a high E and hangs above the orchestra. Woodwinds, horns and harp hold the quiet harmony beneath it. The last string chords are plucked; the Sultan’s heavy opening has become an E-major farewell.",
+      "title": "Violin high E, closing E major",
+      "text": "The violin plays a high E above the orchestra. Woodwinds, horns and harp hold the harmony beneath it. The last string chords are pizzicato, in E major, after the heavy opening of the Sultan’s theme.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed p. 142: high violin E, sustained wind and horn harmony, harp chords and final pizzicato strings. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
@@ -153,12 +153,12 @@ export default {
   "transitions": [
     {
       "id": "join-1",
-      "title": "The violin releases the dance",
-      "from": "Frame · Orchestra and violin trade phrases",
-      "to": "A · Flute starts the festival dance",
+      "title": "Second violin recitative into the Vivo",
+      "from": "Frame · Orchestra alternating with solo violin",
+      "to": "A · Flute begins the festival dance",
       "at": { "t": 74 },
       "span": [64, 89],
-      "how": "<p>The solo violin’s second recitative slows over held cellos and basses. At <i>Vivo</i>, horns, percussion and strings establish a quick pulse. The flute enters above it with the festival tune, while repeated viola notes keep the dance moving.</p>",
+      "how": "<p>The solo violin’s second recitative slows over held notes in the cellos and basses. At <i>Vivo</i>, horns, percussion and strings set a quick pulse. The flute enters above with the festival tune, and the violas play repeated notes beneath it.</p>",
       "devices": ["cadenza", "tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -166,12 +166,12 @@ export default {
     },
     {
       "id": "join-5",
-      "title": "The dance opens onto the sea",
-      "from": "Dev · Fanfares among the dancers",
-      "to": "Sea · The sea theme sweeps back",
+      "title": "From the dance to the sea music",
+      "from": "Dev · Brass fanfares in the dance",
+      "to": "Sea · Return of the sea theme",
       "at": { "t": 474 },
       "span": [464, 489],
-      "how": "<p>The short dance figures give way to <i>Allegro non troppo maestoso</i>. Violins and cellos recover the first movement’s rolling sea tune, with the other strings repeating their accompaniment beneath it. The winds and brass sustain broad chords; percussion gives the returning waves their weight.</p>",
+      "how": "<p>The short dance figures stop, and the tempo changes to <i>Allegro non troppo maestoso</i>. Violins and cellos play the sea tune from the first movement, and the other strings repeat their accompaniment beneath it. The winds and brass hold broad chords, and the percussion reinforces the returning wave figures.</p>",
       "devices": ["tempo change", "motivic link", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -179,12 +179,12 @@ export default {
     },
     {
       "id": "join-6",
-      "title": "The brass fades after the wreck",
-      "from": "Sea · The sea theme sweeps back",
-      "to": "Close · The storm gives way",
+      "title": "Brass dies away after the shipwreck",
+      "from": "Sea · Return of the sea theme",
+      "to": "Close · Brass chords over strings",
       "at": { "t": 566 },
       "span": [556, 581],
-      "how": "<p>A tam-tam stroke crowns the shipwreck. Low strings and timpani continue beneath the brass, whose held chords are marked <i>morendo</i> — dying away. At <i>Poco più tranquillo</i>, the clarinet takes up the wave figure over soft strings and a sustained bass.</p>",
+      "how": "<p>A tam-tam stroke marks the climax of the shipwreck. Low strings and timpani keep playing beneath the brass, whose held chords are marked <i>morendo</i> (dying away). At <i>Poco più tranquillo</i> the clarinet takes up the wave figure over soft strings and a sustained bass.</p>",
       "devices": ["decrescendo", "tempo change", "orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -192,12 +192,12 @@ export default {
     },
     {
       "id": "join-8",
-      "title": "The violin settles above E major",
+      "title": "The violin holds E above E major",
       "from": "Frame′ · Old melodies in quiet voices",
       "to": "Coda · High violin over E major",
       "at": { "t": 678 },
       "span": [668, 693],
-      "how": "<p>The violin’s cadenza climbs into the high register. At <i>Alla breve, Tempo come I</i>, its held E floats over the strings’ quiet recollection of the sea. Woodwinds and horns join the closing E-major harmony, and plucked string chords leave the violin hanging above them.</p>",
+      "how": "<p>The violin’s cadenza climbs into the high register. At <i>Alla breve, Tempo come I</i>, the violin holds a high E while the strings play beneath it. Woodwinds and horns join the closing E-major harmony, and the strings play pizzicato chords while the violin keeps holding its E above them.</p>",
       "devices": ["cadenza", "register change", "tonic pedal", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -248,7 +248,7 @@ export default {
           "oboes",
           "violins-1"
         ],
-        "note": "Oboes, clarinets, bassoons and strings launch the opening phrase. Flutes, brass and percussion wait."
+        "note": "Oboes, clarinets, bassoons and strings play the opening phrase. Flutes, brass and percussion are silent."
       },
       {
         "t": 30,
@@ -299,7 +299,7 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "The violin’s second recitative unfolds above held cellos and basses; the harp rests."
+        "note": "The solo violin plays its second recitative over held notes in the cellos and basses; the harp rests."
       },
       {
         "t": 74,
@@ -321,7 +321,7 @@ export default {
           "flutes",
           "violas"
         ],
-        "note": "Horns, percussion and strings begin the Vivo pulse. Flute starts the dance, then clarinet and bassoon join."
+        "note": "Horns, percussion and strings begin the Vivo pulse. The flute starts the dance, then the clarinet and bassoon join."
       },
       {
         "t": 100,
@@ -414,7 +414,7 @@ export default {
           "clarinets",
           "bassoons"
         ],
-        "note": "Woodwind phrases emerge above a lighter string accompaniment."
+        "note": "The woodwind play phrases above a lighter string accompaniment."
       },
       {
         "t": 300,
@@ -440,7 +440,7 @@ export default {
           "violins-1",
           "trumpets"
         ],
-        "note": "Brass and percussion strengthen the winds and running strings."
+        "note": "Brass and percussion reinforce the winds and running strings."
       },
       {
         "t": 352,
@@ -486,7 +486,7 @@ export default {
           "violins-1",
           "trumpets"
         ],
-        "note": "High winds and brass join the strings as the festival dance gathers force."
+        "note": "Woodwind and brass join the strings as the festival dance grows louder."
       },
       {
         "t": 474,
@@ -514,7 +514,7 @@ export default {
           "cellos",
           "violins-1"
         ],
-        "note": "The sea tune returns in violins and cellos; winds, brass, percussion and harp sweep around it."
+        "note": "The sea tune returns in violins and cellos, with winds, brass, percussion and harp playing around it."
       },
       {
         "t": 566,
@@ -536,7 +536,7 @@ export default {
           "horns",
           "cellos"
         ],
-        "note": "Brass chords die away over timpani and low strings after the shipwreck."
+        "note": "After the shipwreck, brass chords fade over timpani and low strings."
       },
       {
         "t": 588,
@@ -552,7 +552,7 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "The epilogue recalls Scheherazade’s violin recitative over harp chords."
+        "note": "In the epilogue Scheherazade’s violin recitative returns over harp chords."
       },
       {
         "t": 622,

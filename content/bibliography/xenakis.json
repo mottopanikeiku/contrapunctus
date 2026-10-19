@@ -1,0 +1,41 @@
+{
+  "id": "xenakis",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Bálint András Varga, *Conversations with Iannis Xenakis* (Faber and Faber, 1996).",
+      "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf",
+      "kind": "interviews",
+      "note": "Two interviews with Xenakis, of 1980 and 1989, in which he spoke about his wartime years, Le Corbusier’s studio, Messiaen and the making of Metastaseis."
+    },
+    {
+      "cite": "Iannis Xenakis, *Formalized Music: Thought and Mathematics in Composition*, revised edition, edited by Sharon Kanach (Pendragon Press, 1992).",
+      "kind": "composer’s treatise",
+      "note": "His own account of how probability, set theory and sieves entered his scores, from Pithoprakta and Achorripsis to Nomos Alpha and stochastic synthesis."
+    },
+    {
+      "cite": "Sharon Kanach and Peter Nelson, eds., *Meta-Xenakis: New Perspectives on Iannis Xenakis’s Life, Work, and Legacies* (Open Book Publishers, 2024).",
+      "url": "https://books.openbookpublishers.com/10.11647/obp.0390/contents.xhtml",
+      "kind": "essays, open access",
+      "note": "The volume has more than fifty chapters, among them Guy Pimienta on Le Corbusier’s studio (chapter 22) and Erik Christensen and Lise Bjerno on Pithoprakta (chapter 18)."
+    },
+    {
+      "cite": "Charles Turner, *Xenakis in America* (One Block Avenue, 2014).",
+      "url": "https://monoskop.org/images/6/63/Turner_Charles_Xenakis_in_America.pdf",
+      "kind": "history",
+      "note": "Xenakis in the United States: Tanglewood in 1963, performances of Pithoprakta under Bernstein and Copland, and the Indiana years, documented from archives."
+    },
+    {
+      "cite": "Dimitris Exarchos, ed., *A Xenakis Dictionary* (Les Amis de Xenakis, 2023).",
+      "url": "https://www.iannis-xenakis.org/en/dictionary/",
+      "kind": "online reference",
+      "note": "Signed entries explaining his terms, from sieve theory and ruled surfaces to the UPIC and the polytopes, each with references."
+    },
+    {
+      "cite": "Marc Treib, *Space Calculated in Seconds: The Philips Pavilion, Le Corbusier, Edgard Varèse* (Princeton University Press, 1996).",
+      "url": "https://openlibrary.org/books/OL967661M/Space_calculated_in_seconds",
+      "kind": "study of the pavilion",
+      "note": "A study of the 1958 Philips pavilion that covers how it was conceived and built and treats its architecture, its film and Varèse’s tape together."
+    }
+  ]
+}

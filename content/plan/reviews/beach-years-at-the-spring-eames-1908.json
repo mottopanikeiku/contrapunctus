@@ -1,0 +1,58 @@
+{
+  "id": "beach-years-at-the-spring-eames-1908",
+  "verdict": "pass",
+  "reviewer": "RevBeach",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive file listing and metadata (emma-eames-cd-2, track 13), cached MP3 MD5 against the Archive manifest, pitch and pitch-energy traces of the file, closing-chord tuning, closing chord of the Great 78 Project transfer of the same disc; EXT: DAHR matrix C-6203 and object 55891, New Victor Record Catalogue May 1908 and July 1909 (OCR text, printed page numbers), Romophone booklet scan (OCR and page images), the 1900 A. P. Schmidt print (pp. 2–5 viewed as images), Copyright Office term page, ABS Entertainment v. CBS (9th Cir. 2018), CC Public Domain Mark deed, Directive 2011/77/EU. Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "STRUCTURE_CLAIM_FALSE",
+      "finding": "The intro, the note at 2 s (“Eames sings from the second setting … ‘Morning’s at seven’ and ‘The hillside’s dew-pearled’ … are not sung”), section A and the dossier version field said the track begins at the a tempo restart on p. 4. The sung line in the file follows the whole song in score order: E♭5 at “day’s” (3.9–4.7 s), C5 for “morn” (5.2–6.5 s), F5 at “Morning’s” (6.7–7.1 s), G♭5 at “The hillside’s” (9.1–10.4 s), the held E♭5 of “dew-pearled” (11.7–14.5 s), then A♭4 at 15.6 s for the restart. The restart material does not reach F5 until “thorn” (25.6 s), so the file cannot start at p. 4. The inference had rested on Gadski’s sections, which are themselves misplaced (see the 1905 review).",
+      "fix": "Rewrote the intro, sections (A first setting 0 s, A′ restart 15.5 s, B 25.5 s, C 34.5 s) and the dossier version field and note; removed the false note."
+    },
+    {
+      "basis": "MEAS",
+      "code": "NOTE_COUNT",
+      "finding": "Three notes for a 55.07 s track, two of them at 0 s and 2 s; the limit is ceil(55.07/40) = 2 (tools/validate.mjs allows 3, LISTENING.md and the brief say one per 40 s).",
+      "fix": "Two notes remain: Victor 88008 at 0 s (now also recording that the May 1908 catalogue lists the same number for the 1905 coupling) and the held notes at 34.5 s."
+    },
+    {
+      "basis": "EXT",
+      "code": "RELEASE_YEAR_UNESTABLISHED",
+      "finding": "The dossiers stated as fact that Romophone 81001-2 was issued in 1993. The Archive descriptions say 1993, the Beach discography at amybeach.org gives 1995, and the booklet scan prints no year.",
+      "fix": "Year removed from the credit line, credits, processing and format fields and from the file header; the conflict is recorded in transfer.date with the amybeach.org source added."
+    },
+    {
+      "basis": "EXT",
+      "code": "TWICE_WORDING",
+      "finding": "“Recorded … twice for Victor” and “had first recorded the song in 1905” say more than DAHR does (a destroyed take 1 of the 1905 matrix sits between the sessions).",
+      "fix": "Intro now calls this a remake of the 1905 recording; the cue says she had recorded the song in 1905 on a disc shared with Hahn’s L’Incrédule."
+    },
+    {
+      "basis": "INFERENCE",
+      "code": "LICENCE_URL",
+      "finding": "licenseUrl pointed at the Public Domain Mark, which is the uploader’s statement and not the basis for publication.",
+      "fix": "licenseUrl is now the Copyright Office term page; rights notes expanded and the sources ABS v. CBS and the PDM deed added."
+    }
+  ],
+  "checks": {
+    "source": "emma-eames-cd-2 lists the track as flac and VBR MP3, 55.07 s; the cached MP3 MD5 (22735309…) matches the Archive manifest. The Archive licence field is the Public Domain Mark.",
+    "durationAndPitch": "Sound runs 0.25–49.7 s with about five seconds of silence after the last chord; the booklet gives :50. The closing chord is D♭ major within about −8 to −12 cents of A = 440 Hz. The key D♭ matches the label of the 1905 recording of the song (DAHR); the 1908 label is not documented, so the dossier keeps the key as inferred. The Great 78 Project transfer of IRCC 194-A (item 78_springbyearofthespring_146_06, both of its files, described as digitised at 74 rpm) has the same closing chord 45–49 cents above A = 440, so it plays about half a semitone sharp of this file, as the dossier says. The 1900 edition offers B♭ and D♭ versions (two incipits on the title page); A♭ is not among them and the publisher is Arthur P. Schmidt, Boston, not Schirmer.",
+    "identity": "DAHR: Victor matrix C-6203, take 1, 18 May 1908, New York, Victor 88008 (also IRCC-194 and AGSB-22 reissues), soprano vocal solo with piano, “Also recorded as C-2314”; no pianist named. The Romophone booklet gives C 6203-1, Victor 88008, 18 v 1908, with piano, no accompanist named. The July 1909 catalogue, p. 55, lists 88008 as Spring (Henschel) and The Year’s at the Spring (Beach).",
+    "notes": "After the fixes both notes are supported: DAHR and the catalogues for the first; the 1900 print, p. 5 (B♭ version), for the second. In the file the voice holds A♭5 for “right” from about 35.3 to 39.2 s over the piano chords, sings “world” on D♭5 from 45.1 to 48.4 s, and the piano chord follows, all consistent with the text; 34.5 s is where “All’s” (ff) is sung. Voice rules checked by hand and by the validator; validate.mjs prints ok for the listen file and the dossier."
+  },
+  "rights": {
+    "decision": "Publish: the Public Domain Mark is not relied on, the legal basis supports publication, and no separate claim in the restoration was found that blocks it.",
+    "reasoning": "(1) The recording: matrix C-6203 was made on 18 May 1908 and listed under Victor 88008 in the July 1909 catalogue (p. 55), so it was first published no later than 1909 (DAHR; catalogue). A US recording first published before 1923 has no federal term left after 31 December 2021 (Copyright Office term page). In the EU the 50-year term of a 1908–09 publication ran out long before the 2011 extension to 70 years (Directive 2011/77/EU, recitals 1–3 and 7). (2) The Archive’s Public Domain Mark was applied by the uploader of the CD rips; the same uploader marks the booklet scan CC BY-NC-ND 4.0, and the PDM deed says the work may not be free of restrictions everywhere and that the person who identified it gives no warranty, so the mark is a pointer and not an independent release. (3) The restoration: the audio is Ward Marston’s Romophone transfer. The scanned booklet carries no copyright notice for the transfers (its only © line is for Harold Bruder’s essay; the tray insert is not in the scan). The track is one continuous performance in score order. In the US a remaster that changes the medium, declicks or reduces noise, and adds, removes or reorders no sounds, is presumptively a copy without new authorship (ABS Entertainment v. CBS, 9th Cir. 2018, quoting Copyright Office Circular 56); the presumption can be rebutted by creative contributions, and none is documented for these tracks. (4) What stays open, as the dossier states: no source shows Romophone or Marston dedicating the restoration, and a claim under another jurisdiction’s rules for remastered phonograms is not ruled out. The site streams the Archive’s file and credits Marston and Romophone; the booklet text and the set compilation are not used or claimed."
+  },
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "GADSKI_SECTIONS_MISPLACED",
+      "finding": "See the 1905 review: the published beach-years-at-the-spring has its Beach section at 52 s and its restart cue at 67 s, where the Beach song actually begins at about 64.5 s and restarts at about 77.3 s.",
+      "action": "Not edited (outside this assignment)."
+    }
+  ]
+}

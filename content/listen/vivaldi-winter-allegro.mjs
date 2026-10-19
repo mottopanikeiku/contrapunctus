@@ -19,22 +19,22 @@ export default {
   "source": {
     "file": "File:Vivaldi - Four Seasons 4 Winter mvt 1 Allegro non molto - John Harrison violin.oga"
   },
-  "intro": "Cold gets into the strings: first a shiver, then stamping feet and chattering teeth. Between them the solo violin sends gusts of demisemiquavers across the orchestra.",
+  "intro": "The first movement, Allegro non molto, of Winter, RV 297, from <i>The Four Seasons</i>. The strings depict shivering, stamping feet and chattering teeth, and between these passages the solo violin plays runs of demisemiquavers over the orchestra.",
   "sections": [
-    { "t": 0, "label": "A · Shivering strings", "m": "A", "mNote": "Repeated notes gather from the bass upwards; the violin adds trills" },
-    { "t": 38, "label": "B · The violin’s bitter wind", "m": "B", "mNote": "Rapid broken chords interrupt the shivering" },
-    { "t": 58, "label": "A′ · Shivering turns to stamping", "m": "A′", "mNote": "Repeated quavers tighten into semiquavers and demisemiquavers" },
-    { "t": 84, "label": "C · Solo runs and orchestral gusts", "m": "C", "mNote": "The violin travels from F minor towards E♭ major" },
-    { "t": 122, "label": "A″ · Shivering in E♭ major", "m": "A″", "mNote": "The strings return with the refrain’s repeated notes" },
-    { "t": 141, "label": "D · The violin chatters its teeth", "m": "D", "mNote": "Repeated semiquavers carry the solo back towards F minor" },
-    { "t": 181, "label": "A′ · Stamping in F minor", "m": "A′", "mNote": "The full strings repeat the stamping music to close" }
+    { "t": 0, "label": "A · Repeated notes, strings, bass upwards", "m": "A", "mNote": "Repeated notes enter from the bass upwards; the violin adds trills." },
+    { "t": 38, "label": "B · Violin broken-chord passage", "m": "B", "mNote": "Rapid broken chords in the violin interrupt the shivering figure." },
+    { "t": 58, "label": "A′ · Repeated notes in shorter values", "m": "A′", "mNote": "Repeated quavers shorten to semiquavers, then demisemiquavers." },
+    { "t": 84, "label": "C · Solo violin runs and orchestral tutti", "m": "C", "mNote": "The violin modulates from F minor towards E♭ major." },
+    { "t": 122, "label": "A″ · Refrain in E♭ major", "m": "A″", "mNote": "The strings return with the refrain’s repeated notes." },
+    { "t": 141, "label": "D · Solo violin, repeated semiquavers", "m": "D", "mNote": "Repeated semiquavers take the solo back towards F minor." },
+    { "t": 181, "label": "A′ · Stamping music in F minor", "m": "A′", "mNote": "The full strings repeat the stamping music to close." }
   ],
   "cues": [
     {
       "bar": { "n": "1", "occ": 1 },
       "kind": "music",
-      "title": "Cold from the ground up",
-      "text": "“Aggiacciato tremar trà nevi algenti” — “To shiver, frozen, among icy snows.” The 1725 sonnet starts with a body in the cold. Repeated string notes build upwards from the bass; the solo violin joins with a trill on each short note.",
+      "title": "Opening, bars 1–11",
+      "text": "The 1725 sonnet opens with “Aggiacciato tremar trà nevi algenti” — “To shiver, frozen, among icy snows.” Repeated string notes build upwards from the bass. The solo violin joins with a trill on each short note.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, letter A; translation ours. Mutopia score after Performers’ Facsimiles, I, bars 1–11: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351. The sonnets were published anonymously with Op. 8."
@@ -42,8 +42,8 @@ export default {
     {
       "bar": { "n": "12", "occ": 1 },
       "kind": "music",
-      "title": "The bitter wind",
-      "text": "“Al Severo Spirar d’orrido Vento” — “In the harsh breath of a dreadful wind.” The solo violin breaks into demisemiquavers, leaping through broken chords and racing down scales. Short orchestral interruptions bring back the shivering.",
+      "title": "Solo violin, “Orrido Vento”",
+      "text": "“Al Severo Spirar d’orrido Vento” — “In the harsh breath of a dreadful wind.” The solo violin plays demisemiquavers in broken chords and descending scales. Short orchestral passages bring back the shivering figure.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter B; translation ours. Mutopia score, I, bars 12–18, solo marked Orrido Vento: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -51,8 +51,8 @@ export default {
     {
       "bar": { "n": "22", "occ": 1 },
       "kind": "music",
-      "title": "Feet against the cold",
-      "text": "“Correr battendo i piedi ogni momento” — “To run, stamping one’s feet at every moment.” Vivaldi squeezes the repeated notes closer together. Semiquavers sprout little bursts of demisemiquavers: the shivering body is trying to warm itself.",
+      "title": "Stamping feet, bars 22–26",
+      "text": "“Correr battendo i piedi ogni momento” — “To run, stamping one’s feet at every moment.” Vivaldi set the repeated notes closer together. The semiquavers break into short bursts of demisemiquavers.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter C; translation ours. Mutopia score, I, bars 20–26; the stamping inscription begins halfway through bar 22: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -60,8 +60,8 @@ export default {
     {
       "t": 110,
       "kind": "life",
-      "title": "Faster than a copyist",
-      "text": "In Venice in 1739 Charles de Brosses writes home: “Vivaldi has become one of my intimate friends, to sell me concertos very dear.” The old man, he adds, has a prodigious fury for composing, and boasts that he can write a concerto, with all its parts, faster than a copyist can copy one.",
+      "title": "Charles de Brosses on Vivaldi, 1739",
+      "text": "Charles de Brosses wrote from Venice in 1739: “Vivaldi has become one of my intimate friends, to sell me concertos very dear.” The old man, he added, had a prodigious fury for composing, boasting he could write a concerto, with all its parts, faster than a copyist could copy one.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Charles de Brosses, letter XVIII to M. de Blancey, 29 August (1739), <i>Lettres familières écrites d’Italie</i> (ed. Hippolyte Babou, Poulet-Malassis et de Broise, 1858, vol. 1, pp. 141–148): “Vivaldi s’est fait de mes amis intimes, pour me vendre des concertos bien chers”, “une furie de composition prodigieuse”, and “plus promptement qu’un copiste ne le pourroit copier”; translation ours. https://fr.wikisource.org/wiki/Lettres_famili%C3%A8res_%C3%A9crites_d%E2%80%99Italie_T.1/%C3%80_M._DE_BLANCEY._%E2%80%94_Suite_du_s%C3%A9jour_%C3%A0_Venise"
@@ -69,8 +69,8 @@ export default {
     {
       "bar": { "n": "47", "occ": 1 },
       "kind": "music",
-      "title": "Teeth in the bow",
-      "text": "“E pel Soverchio gel batter i denti” — “And to chatter one’s teeth from the excessive frost.” The solo violin repeats short notes under the words <i>Batter li denti</i>. The teeth keep chattering while the harmony passes through A♭ major and C minor towards F minor.",
+      "title": "Solo violin, “Batter li denti”",
+      "text": "“E pel Soverchio gel batter i denti” — “And to chatter one’s teeth from the excessive frost.” The solo violin repeats short notes under the words <i>Batter li denti</i>. The repeated notes continue while the harmony passes through A♭ major and C minor towards F minor.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter D; translation ours. Mutopia score, I, bars 47–56; harmonic route in José Rodríguez Alvira’s commentary: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
@@ -78,8 +78,8 @@ export default {
     {
       "bar": { "n": "56", "occ": 1 },
       "kind": "form",
-      "title": "One last stamp",
-      "text": "The full strings take over in F minor. Vivaldi brings back the stamping part of the refrain, with its rapid repeated notes, and drives it to the final cadence. The movement ends on its feet.",
+      "title": "Final ritornello",
+      "text": "The full strings take over in F minor for the final ritornello (bars 56–63). Vivaldi brings back the stamping part of the refrain, with its rapid repeated notes, and carries it to the final cadence.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Mutopia score, I, bars 56–63, final ritornello; its use of the stamping music is identified at https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
@@ -88,11 +88,11 @@ export default {
   "transitions": [
     {
       "id": "wind-breaks-in",
-      "title": "A C-minor gust",
-      "from": "A · Shivering strings",
-      "to": "B · The violin’s bitter wind",
+      "title": "From F minor to C minor",
+      "from": "A · Repeated notes, strings, bass upwards",
+      "to": "B · Violin broken-chord passage",
       "at": { "t": 38 },
-      "how": "<p>The shivering passage moves from F minor to C minor. The solo violin begins the wind on C, leaping an octave before racing through the notes of a C-minor chord. The orchestra interrupts with short returns of the shivering rhythm; the Allegro non molto marking remains.</p>",
+      "how": "<p>The shivering passage moves from F minor to C minor. The solo violin begins the wind on C, leaping an octave and then running through the notes of a C-minor chord. The orchestra interrupts with short returns of the shivering rhythm. The marking stays Allegro non molto.</p>",
       "devices": ["texture change", "register change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -100,11 +100,11 @@ export default {
     },
     {
       "id": "refrain-stamps",
-      "title": "The shiver becomes a stamp",
-      "from": "B · The violin’s bitter wind",
-      "to": "A′ · Shivering turns to stamping",
+      "title": "Refrain to the stamping-feet episode",
+      "from": "B · Violin broken-chord passage",
+      "to": "A′ · Repeated notes in shorter values",
       "at": { "t": 58 },
-      "how": "<p>The wind returns to F minor and the full strings resume the repeated-note refrain. At bar 20 the violin turns its short quavers into semiquavers on F. Demisemiquaver bursts then break into that pulse under the inscription about running and stamping feet.</p>",
+      "how": "<p>The wind returns to F minor and the full strings resume the repeated-note refrain. At bar 20 the violin changes its short quavers to semiquavers on F. Demisemiquaver bursts then interrupt the semiquaver pulse under the inscription about running and stamping feet.</p>",
       "devices": ["motivic link", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -112,11 +112,11 @@ export default {
     },
     {
       "id": "second-solo",
-      "title": "The violin runs out of F minor",
-      "from": "A′ · Shivering turns to stamping",
-      "to": "C · Solo runs and orchestral gusts",
+      "title": "Solo violin episode, F minor to E♭ major",
+      "from": "A′ · Repeated notes in shorter values",
+      "to": "C · Solo violin runs and orchestral tutti",
       "at": { "t": 84 },
-      "how": "<p>The stamping strings release the soloist in F minor. Its demisemiquavers wind around F, E♮ and G before climbing higher. The orchestra keeps the shivering figure beneath it, then interrupts with bursts marked winds as the episode travels towards E♭ major.</p>",
+      "how": "<p>In bars 26–38 the stamping string chords stop and the solo violin enters in F minor. Its demisemiquavers circle F, E♮ and G, then climb higher. Beneath it the orchestra keeps the shivering figure, then breaks in with bursts marked winds as the episode moves towards E♭ major.</p>",
       "devices": ["orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -124,11 +124,11 @@ export default {
     },
     {
       "id": "major-refrain",
-      "title": "The strings shiver in E♭",
-      "from": "C · Solo runs and orchestral gusts",
-      "to": "A″ · Shivering in E♭ major",
+      "title": "Refrain returns in E♭ major",
+      "from": "C · Solo violin runs and orchestral tutti",
+      "to": "A″ · Refrain in E♭ major",
       "at": { "t": 122 },
-      "how": "<p>The solo episode reaches E♭ major. The full strings bring back the repeated-note refrain in that key, including its semiquaver version. Vivaldi saves the denser stamping figures for the final return in F minor.</p>",
+      "how": "<p>The solo episode reaches E♭ major. The full strings bring back the repeated-note refrain in that key, including its semiquaver version. Vivaldi kept the denser stamping figures back for the final return in F minor.</p>",
       "devices": ["motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -136,11 +136,11 @@ export default {
     },
     {
       "id": "teeth-episode",
-      "title": "The solo begins to chatter",
-      "from": "A″ · Shivering in E♭ major",
-      "to": "D · The violin chatters its teeth",
+      "title": "Solo episode to the final tutti",
+      "from": "A″ · Refrain in E♭ major",
+      "to": "D · Solo violin, repeated semiquavers",
       "at": { "t": 141 },
-      "how": "<p>The soloist leaves the E♭-major refrain and begins another rapid passage. At bar 47 repeated semiquavers carry the inscription <i>Batter li denti</i>. The episode passes through A♭ major and C minor before reaching F minor for the last tutti.</p>",
+      "how": "<p>The soloist leaves the E♭-major refrain for another rapid passage. At bar 47 the repeated semiquavers carry the inscription <i>Batter li denti</i>. The episode moves through A♭ major and C minor and reaches F minor for the last tutti.</p>",
       "devices": ["orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -148,11 +148,11 @@ export default {
     },
     {
       "id": "final-stamping",
-      "title": "F minor under stamping feet",
-      "from": "D · The violin chatters its teeth",
-      "to": "A′ · Stamping in F minor",
+      "title": "Return to F minor and the stamping music",
+      "from": "D · Solo violin, repeated semiquavers",
+      "to": "A′ · Stamping music in F minor",
       "at": { "t": 181 },
-      "how": "<p>The solo episode reaches F minor and the full strings take up the stamping music. Rapid repeated notes alternate with broken chords. The final refrain keeps this denser part of the earlier tutti through to the F-minor cadence.</p>",
+      "how": "<p>The solo episode reaches F minor, and the full strings take up the stamping music. Rapid repeated notes alternate with broken chords. The final refrain is built on this denser part of the earlier tutti and continues with it to the F-minor cadence.</p>",
       "devices": ["motivic link", "orchestration change", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -183,7 +183,7 @@ export default {
           "basses"
         ],
         "lead": [],
-        "note": "Low repeated notes begin the opening accumulation."
+        "note": "Low repeated notes open the movement and build up the texture."
       },
       {
         "t": 4,
@@ -224,7 +224,7 @@ export default {
           "solo-violin",
           "violins-1"
         ],
-        "note": "The upper violin parts complete the shivering texture, including the soloist’s trills."
+        "note": "The upper violin parts, including the soloist’s trills, complete the texture."
       },
       {
         "t": 38,
@@ -239,7 +239,7 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "Wind solo with brief orchestral interruptions, not continuous full-string playing."
+        "note": "Wind solo with brief orchestral interruptions; the full strings do not play continuously."
       },
       {
         "t": 58,
@@ -267,7 +267,7 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "The next solo passage begins while orchestral upper strings rest."
+        "note": "The next solo passage begins while the orchestral upper strings rest."
       },
       {
         "t": 107,
@@ -325,7 +325,7 @@ export default {
           "solo-violin",
           "violins-1"
         ],
-        "note": "Repeated semiquavers animate the chattering-teeth passage."
+        "note": "Repeated semiquavers depict the chattering teeth."
       },
       {
         "t": 181,

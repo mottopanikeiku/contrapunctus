@@ -1,0 +1,148 @@
+{
+  "id": "smetana-vltava",
+  "work": {
+    "title": "Má vlast",
+    "catalogue": "JB 1:112",
+    "movement": "II. Vltava",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The performing edition is not identified in the Commons documentation."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Musopen Symphony Orchestra",
+        "role": "orchestra"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "commons"
+    ],
+    "note": "Commons names the Musopen Symphony Orchestra as the artist. The embedded Ogg metadata reads “Czech National Symphony Orchestra” as author, which the Commons page does not repeat. No conductor or individual player is credited, and the orchestra’s identity is not documented further in the pages consulted."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons description gives no session date. The upload date of 22 October 2012 is not a session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No recording venue is stated."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Musopen distributes the file; no original label is identified."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No carrier catalogue number is established."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No matrix, take or side information is established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer engineer is credited. The file was uploaded to Commons by the user Morn on 22 October 2012."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "No transfer date is documented; the Commons upload date is not a session or transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "Equalisation, editing and restoration are not described."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Smetana%2C_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg/Smetana%2C_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg.mp3",
+    "sourceChain": [
+      "commons"
+    ],
+    "format": "MP3 access derivative of the Commons Ogg Vorbis file",
+    "durationSeconds": 770.9
+  },
+  "rights": {
+    "composition": {
+      "value": "Smetana died on 12 May 1884; the composition is in the public domain.",
+      "status": "documented",
+      "sourceIds": [
+        "museum"
+      ],
+      "note": "The death date is from the Bedřich Smetana Museum. This does not cover a later edition or arrangement."
+    },
+    "recording": {
+      "value": "CC0 public-domain dedication, as stated on the Commons file page.",
+      "status": "documented",
+      "sourceIds": [
+        "commons"
+      ],
+      "note": "The Commons page tags the file CC0 and names Musopen as the source, whose upload terms require contributors to represent that content is in the public domain. Commons notes that Musopen’s own works are copyrighted, so the CC0 tag on the file page is the only rights statement relied on."
+    },
+    "creditLine": "Smetana, Má vlast: Vltava; Musopen Symphony Orchestra. Wikimedia Commons, CC0, from Musopen.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons: File:Smetana, Má vlast - Vltava - The Moldau.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Smetana,_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg",
+      "locator": "Description, Artist (Musopen Symphony Orchestra), Credit (Musopen), licence CC0, duration 12:51; upload by Morn, 22 October 2012 (imageinfo API).",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "museum",
+      "title": "Bedřich Smetana Museum, National Museum: Life",
+      "url": "https://bedrichsmetana.nm.cz/en/info/life",
+      "locator": "Born 2 March 1824; died 1884 in Prague (12 May 1884 in the museum’s catalogue and in Wellek, Friedrich Smetana, 1895).",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

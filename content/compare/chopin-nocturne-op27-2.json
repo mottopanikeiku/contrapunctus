@@ -1,10 +1,10 @@
 {
   "id": "chopin-nocturne-op27-2",
-  "title": "A song learns to sing in pairs",
+  "title": "Chopin, Nocturne Op. 27 No. 2: Pachmann and Lévy",
   "composer": "chopin",
   "work": "Nocturne in D♭ major, Op. 27 No. 2",
-  "question": "How do Pachmann and Lévy make a single piano sing in two voices?",
-  "intro": "The first D♭-major melody sounds like a singer alone above rippling left-hand notes. Soon the right hand adds a second voice, in thirds and sixths, and each return dresses the song more elaborately. Pachmann and Lévy each have to make two voices breathe through one hand.",
+  "question": "How do Pachmann and Lévy play two voices at once on a single piano?",
+  "intro": "The first D♭-major melody is a single line above an accompaniment of broken left-hand figures. The right hand soon adds a second voice in thirds and sixths, and the melody is more heavily ornamented at each return. Pachmann and Lévy each have to play two voices with one hand.",
   "group": "golden-age",
   "recordings": [
     {
@@ -23,29 +23,29 @@
   "reference": "chopin-nocturne-op27-2",
   "passages": [
     {
-      "label": "Opening song",
+      "label": "Opening melody",
       "t": 5,
-      "note": "The melody begins on F above flowing D♭-major broken chords. Long right-hand notes float over the left hand’s six-note sweeps."
+      "note": "The melody begins on F above broken chords in D♭ major. The right hand holds long notes over six-note figures in the left hand."
     },
     {
-      "label": "The song becomes a duet",
+      "label": "Melody in thirds",
       "t": 42,
-      "note": "A second note joins the melody: the right hand sings in thirds as the bass turns towards B♭ minor."
+      "note": "The right hand plays the melody in thirds as the bass moves towards B♭ minor."
     },
     {
-      "label": "The first homecoming",
+      "label": "First return of the melody",
       "t": 116,
-      "note": "F returns above a low D♭. The opening song comes home, with fresh ornaments gathering round its long notes."
+      "note": "F returns above a low D♭. The opening melody returns, with new ornaments on its long notes."
     },
     {
-      "label": "The third verse",
+      "label": "Third statement of the melody",
       "t": 206,
-      "note": "The melody returns for the third time; its continuation will spill into a long flourish climbing and falling across the keyboard."
+      "note": "The melody returns for the third time; its continuation becomes a long flourish that climbs and falls across the keyboard."
     },
     {
-      "label": "D♭ holds the bass",
+      "label": "Coda over a D♭ pedal",
       "t": 280,
-      "note": "D♭ stays in the bass while pairs of notes descend above it, marked <i>dolcissimo</i> — very sweetly."
+      "note": "The bass holds D♭ while pairs of notes descend above it, marked <i>dolcissimo</i> — very sweetly."
     }
   ],
   "sources": [

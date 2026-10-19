@@ -52,7 +52,7 @@ Period-instrument ensembles often play at A = 415 Hz, a semitone below modern pi
 - `title`: 2–6 words, concrete. “Harp, then horns”, not “A broad early swell”.
 - `text`: at most 55 words, present tense, plain. Name the instrument, the key, the marking. A note may be one sentence.
 - `precision: 'passage'` notes must stay true if they appear ten seconds early or late: write about the passage (“The middle section moves to G♭ …”), not the instant.
-- `evidence` is shown to readers under “How we know”. One or two plain sentences naming the source: the score (edition, bars), a letter, a book with page, a programme note with its URL. Never decibels, file paths, “the report” or analysis figures.
+- `evidence` is shown to readers under “Evidence”. One or two plain sentences naming the source: the score (edition, bars), a letter, a book with page, a programme note with its URL. Never decibels, file paths, “the report” or analysis figures.
 
 ## Timing
 

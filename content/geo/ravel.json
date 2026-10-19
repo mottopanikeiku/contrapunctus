@@ -50,7 +50,7 @@
       "from": "1880",
       "to": "1886",
       "kind": "childhood",
-      "what": "Family lived at 29 rue de Laval, now rue Victor-Massé.",
+      "what": "The family lived at 29 rue de Laval, now rue Victor-Massé.",
       "status": "documented",
       "sources": [
         {
@@ -237,7 +237,7 @@
       "lon": 2.3378469,
       "from": "1902",
       "kind": "heard",
-      "what": "Repeatedly attended Debussy’s Pelléas et Mélisande, admiring its treatment of voice and language.",
+      "what": "Attended Debussy’s Pelléas et Mélisande repeatedly and admired its treatment of voice and language.",
       "work": "Pelléas et Mélisande (Debussy)",
       "status": "documented",
       "sources": [
@@ -578,7 +578,7 @@
       "from": "1905-06",
       "to": "1905-07",
       "kind": "travelled",
-      "what": "Stopped at Ostend on the voyage’s Belgian coastal leg.",
+      "what": "Stopped at Ostend on the Belgian coastal leg of the voyage.",
       "status": "documented",
       "sources": [
         {
@@ -765,7 +765,7 @@
       "lon": -0.1275,
       "from": "1909-04-25",
       "kind": "travelled",
-      "what": "Made his first foreign concert appearance, presenting his own music.",
+      "what": "Made his first concert appearance abroad, performing his own music.",
       "status": "documented",
       "sources": [
         {
@@ -1034,7 +1034,7 @@
       "lon": -1.66,
       "from": "1914",
       "kind": "worked",
-      "what": "Completed the Piano Trio while war began.",
+      "what": "Completed the Piano Trio as war began.",
       "work": "Piano Trio",
       "status": "documented",
       "sources": [
@@ -1202,7 +1202,7 @@
       "from": "1918-11",
       "to": "1919-04",
       "kind": "lived",
-      "what": "Wintered at Hôtel Mont-Blanc; the precise arrival and departure months are approximate.",
+      "what": "Wintered at the Hôtel Mont-Blanc; the arrival and departure months are approximate.",
       "status": "inferred",
       "sources": [
         {
@@ -1371,7 +1371,7 @@
       "from": "1921",
       "to": "1937",
       "kind": "lived",
-      "what": "Made Le Belvédère his permanent home and composed his late masterpieces there.",
+      "what": "Made Le Belvédère his permanent home and composed his late works there.",
       "status": "documented",
       "sources": [
         {
@@ -2437,7 +2437,7 @@
       "lon": -112.07388889,
       "from": "1928-04",
       "kind": "travelled",
-      "what": "Visited Phoenix during the Arizona interlude between Houston and Buffalo.",
+      "what": "Visited Phoenix during the Arizona stop between Houston and Buffalo.",
       "status": "documented",
       "sources": [
         {
@@ -3380,7 +3380,7 @@
       "lon": -6.26666667,
       "from": "1935-03-10",
       "kind": "travelled",
-      "what": "Continued from Marrakesh to Kasba Tadla before travelling onward to Fez.",
+      "what": "Continued from Marrakesh to Kasba Tadla before travelling on to Fez.",
       "status": "documented",
       "sources": [
         {

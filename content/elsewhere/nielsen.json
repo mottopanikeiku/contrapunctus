@@ -1,0 +1,83 @@
+{
+  "composer": "nielsen",
+  "items": [
+    {
+      "work": "Symphony No. 4, Op. 29, “The Inextinguishable”",
+      "year": "1914–16",
+      "performers": "Danish National Symphony Orchestra; Fabio Luisi",
+      "recorded": "",
+      "label": "DR Koncerthuset (YouTube)",
+      "note": "A live video from DR Koncerthuset, the orchestra’s home hall in Copenhagen, uploaded to the hall’s own channel on 28 March 2020. It runs about 36 minutes.",
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=IC0Lf03sGw4",
+          "title": "Symphony No 4 — Carl Nielsen, Danish National Symphony Orchestra with Fabio Luisi (Live), DR Koncerthuset"
+        }
+      ]
+    },
+    {
+      "work": "Symphonies No. 4 and No. 5",
+      "year": "1914–22",
+      "performers": "Danish National Symphony Orchestra; Fabio Luisi",
+      "recorded": "",
+      "label": "Deutsche Grammophon",
+      "note": "The two symphonies on one disc, released on 14 October 2022.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deutschegrammophon.com/en/catalogue/products/nielsen-symphonies-nos-4-5-12804",
+          "title": "Deutsche Grammophon: Nielsen, Symphonies Nos. 4 & 5"
+        }
+      ]
+    },
+    {
+      "work": "Maskarade",
+      "year": "1905–06",
+      "performers": "Johan Reuter, Stephen Milling, Niels Jørgen Riis, Dénise Beck, Anne Margrethe Dahl, Ditte Højgaard Andersen; Danish National Symphony Orchestra and Concert Choir; Michael Schønwandt",
+      "recorded": "12–25 August 2014",
+      "label": "Dacapo, 6.220641-42",
+      "note": "A studio recording made at DR Koncerthuset and released in June 2015. The set runs to 145 minutes on two discs, with 37 tracks, beginning with the overture.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.dacapo-records.dk/en/recordings/nielsen-maskarade-0",
+          "title": "Dacapo Records: Nielsen, Maskarade (6.220641-42)"
+        }
+      ]
+    },
+    {
+      "work": "Songs",
+      "year": "1891 onwards",
+      "performers": "Inger Dam-Jensen, soprano; Morten Ernst Lassen, baritone; Ulrich Stærk, piano",
+      "recorded": "4–6 February 2002",
+      "label": "Dacapo, 8.224218",
+      "note": "Twenty-three tracks recorded in the Black Diamond, the Royal Library, Copenhagen, among them <i>Irmelin Rose</i> and the six songs of Op. 10, which include <i>Sang bag ploven</i>.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.dacapo-records.dk/en/recordings/nielsen-songs-0",
+          "title": "Dacapo Records: Nielsen, Songs (8.224218)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "YouTube oEmbed for IC0Lf03sGw4 (uploader DR Koncerthuset); video description: recorded live at DR Koncerthuset",
+      "url": "https://www.youtube.com/watch?v=IC0Lf03sGw4"
+    },
+    {
+      "title": "Deutsche Grammophon: Nielsen, Symphonies Nos. 4 & 5 — performers and release date 14 October 2022",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/nielsen-symphonies-nos-4-5-12804"
+    },
+    {
+      "title": "Dacapo Records: Maskarade — cast, venue and dates of recording, catalogue number, total runtime",
+      "url": "https://www.dacapo-records.dk/en/recordings/nielsen-maskarade-0"
+    },
+    {
+      "title": "Dacapo Records: Nielsen, Songs — performers, recording dates and venue, track listing",
+      "url": "https://www.dacapo-records.dk/en/recordings/nielsen-songs-0"
+    }
+  ]
+}

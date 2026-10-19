@@ -1,0 +1,458 @@
+{
+  "version": 1,
+  "id": "beethoven-5-first-mengelberg-side1",
+  "source": {
+    "mutopia": 941,
+    "title": "Symphony No. 5, Op. 67 — first movement",
+    "edition": "Breitkopf and Härtel, 1862–1865",
+    "encoder": "Stelios Samelis; LilyPond 2.16.2 adaptation by Johannes Heinecke",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "Symphony5_1-lys/Symphony5_1.ly",
+    "midi": "Symphony5_1.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1-lys.zip",
+        "file": "Symphony5_1-lys.zip",
+        "sha256": "a0165591776ac4f277ff4331b075774d739639726f26f162aad57761554abf80"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1.mid",
+        "file": "Symphony5_1.mid",
+        "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi"
+  },
+  "voices": [
+    {
+      "id": "flutes",
+      "name": "Flutes",
+      "tracks": [
+        1
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "oboes",
+      "name": "Oboes",
+      "tracks": [
+        2
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "clarinets",
+      "name": "Clarinets",
+      "tracks": [
+        3
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "bassoons",
+      "name": "Bassoons",
+      "tracks": [
+        4
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "horns",
+      "name": "Horns",
+      "tracks": [
+        5
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "trumpets",
+      "name": "Trumpets",
+      "tracks": [
+        6
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        7
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "violins-1",
+      "name": "Violins I",
+      "tracks": [
+        8
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "violins-2",
+      "name": "Violins II",
+      "tracks": [
+        9
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "violas",
+      "name": "Violas",
+      "tracks": [
+        10
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "cellos",
+      "name": "Cellos",
+      "tracks": [
+        11
+      ],
+      "transpose": 0
+    },
+    {
+      "id": "basses",
+      "name": "Double basses",
+      "tracks": [
+        12
+      ],
+      "transpose": -12
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 502,
+    "quarters": 2,
+    "overrides": {
+      "268": 12
+    },
+    "order": [
+      [
+        1,
+        124
+      ],
+      [
+        1,
+        252
+      ]
+    ],
+    "description": "Disc side 1 of 2: the exposition, bars 1–124, with its written repeat, then the development and the opening of the recapitulation through the bar-251–252 D fermata, where this side's music stops. The recording continues on a separate side; bars 253–502 are not part of this recording."
+  },
+  "endpoints": {
+    "first": [
+      0.85,
+      1.0
+    ],
+    "last": [
+      276.3,
+      276.7
+    ],
+    "end": {
+      "seconds": 280.2,
+      "basis": "MEAS: summed constant-Q energy falls from 12.9 dB (279.8–280.1 s) to 3.5 dB (280.1–280.4 s) and below −3 dB thereafter, relative to about 20 dB during the fermata; the remaining 280.2–283.37 s is decay and side run-out, not a held score note."
+    },
+    "basis": "MEAS constant-Q pitch-class shares: the opening G band rises at about 0.9 s (G share 0.74–0.92 through 1.6 s), followed by the E-flat fermata from about 1.77 s; the initial broad 0–4 s window mapped the first G at 1.25 s. At the side end, bar 248's F/G figure is near 271.4 s, the bar-249 E-flat fermata rises at 272.33 s, near-silence at 274.7 s is the bar-250 rest, the F-F-F figure rises at 275.23 s and the bar-251 D/G fermata at 276.45 s (20%-of-peak D-band rise), held until the release near 280.0 s. The initial bars 1–247 candidate passed numeric gates while compressing the last eight bars and stretching one chord over ten seconds of later music; it was rejected."
+  },
+  "boundaries": [],
+  "diagnostics": {
+    "recurrences": [
+      {
+        "start": 3,
+        "secondQ": 248,
+        "secondOffset": 3,
+        "length": 45,
+        "search": 5
+      }
+    ],
+    "overlays": [
+      [
+        16,
+        32
+      ],
+      [
+        32,
+        48
+      ],
+      [
+        94,
+        106
+      ],
+      [
+        108,
+        124
+      ],
+      [
+        124,
+        140
+      ],
+      [
+        184,
+        196
+      ],
+      [
+        186,
+        200
+      ],
+      [
+        196,
+        208
+      ],
+      [
+        206,
+        218
+      ],
+      [
+        216,
+        228
+      ],
+      [
+        226,
+        238
+      ],
+      [
+        236,
+        248
+      ],
+      [
+        246,
+        258
+      ],
+      [
+        256,
+        268
+      ],
+      [
+        266,
+        280.2
+      ]
+    ]
+  },
+  "engraving": {
+    "staff": 14,
+    "width": 260,
+    "height": 360
+  },
+  "provenance": [
+    "EXT: Mutopia 941, the public-domain Breitkopf & Härtel orchestral encoding already used for the three published first-movement alignments; twelve source staves, published MIDI tracks, existing clarinet/horn transpositions retained and the double-bass line lowered one octave as in those configurations. Section labels identify encoded staves, not separated instruments in this mono transfer.",
+    "Recording scope (EXT, content/listen module and Musical Heritage Organization catalogue cited there): Telefunken SK 2210, side 1 of 2 of the first movement. Only the music on this side is aligned; no notes after bar 252 are claimed.",
+    "Exposition repeat (MEAS, audio-to-audio): free-end chroma DTW of this side against the baseline beethoven-5-first recording, whose published score takes the repeat, maps 100 s to bar 4 occurrence 2 and 188 s to bar 126; a separately computed fixed-lag recurrence is reported in the checks. Repeat and side-end evidence are feature comparisons, not aural review.",
+    "Read content/listen/beethoven-5-first-mengelberg-side1.mjs and cache/analysis/beethoven-5-first-mengelberg-side1.txt. Editorial sections are coarse; they are not forced alignment anchors.",
+    "Fitting constraints: the repeat join, the end of the second exposition, the pianissimo development entry at bars 129–130 and the recapitulation fermatas each had numerically passing but visibly misplaced unconstrained candidates; independent review (RevScores, 2026-10-19) then found bars 22–49 lit up to about 3 s early in both exposition statements and the two bar-129/130 constraints attached to the wrong attacks (q506.5/q508 instead of q504.5/q506). Twenty-three source-pitch constraints, measured from constant-Q pitch-class energy, are disclosed in anchors; they are not independent validation. Long fermata holds are divided between the written note and the following rest by the alignment; for example, the bar-249 E-flat is lit until about 273 s although its pitch energy continues until about 274.6 s. Written durations are warped notation, not measured releases.",
+    "Engraving: the complete printed movement is engraved, as for the other Mutopia 941 publications; only bars 1–252 (with the exposition repeat) carry timings for this side."
+  ],
+  "anchors": [
+    {
+      "scoreQ": 42.5,
+      "window": [
+        22.7,
+        22.92
+      ],
+      "label": "bar-22-first-A-flat",
+      "basis": "MEAS: performed q42.5 is the first of three tutti A-flat eighths in bar 22 (A-flat1–A-flat5 across strings, woodwinds and horns) after the bar-21 fermata. The summed A-flat band (44/56/68/80 plus the bass A-flat1) has separate energy-rise peaks at about 22.84, 22.98, 23.10, 23.36 and 23.50 s before the F at 23.72 s; the first, at 22.80–22.86 s, is the bar-22 entry (the review measured 22.85/23.10/23.49 s for the three eighths). A wider window selects the stronger second rise, so the window is limited to 22.70–22.92 s. The previously published map lit this attack at 21.94 s (independent review RevScores, 2026-10-19). Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 44,
+      "window": [
+        23.5,
+        23.85
+      ],
+      "label": "bar-23-F-fermata",
+      "basis": "MEAS: performed q44 is the tutti F of bars 23–24 (four-quarter tied fermata). The F bands 41/53/65/77 rise from about −25 dB at 23.5 s to −9/−4 dB at 23.7/23.8 s, then hold above 85% of total pitch energy; the previous map placed it at 22.52 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 48.5,
+      "window": [
+        27.1,
+        27.27
+      ],
+      "label": "bar-25-violin-I-A-flat4",
+      "basis": "MEAS: performed q48.5 is the first violins' first of three A-flat4 eighths in bar 25, after the F fermata. The F bands decay below −33 dB by 26.7 s; the A-flat4 band then has rises at about 27.14–27.26, 27.30–27.36 and 27.48–27.54 s, and the following violin-II D4 (q50.5) rises at about 27.8 s, giving a consistent eighth of about 0.165 s. The window isolates the first rise; the stronger 27.32 s rise is the second eighth. The previous map lit bar 25 at 24.00 s, on the sounding F. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 56,
+      "window": [
+        29.4,
+        29.8
+      ],
+      "label": "bar-29-C-E-flat-chord",
+      "basis": "MEAS: performed q56 is the bar-29 C2/C3/C4 and E-flat4 attack in basses, cellos and violins. Their summed bands rise from about −34 dB at 29.4 s to −25/−21.6 dB at 29.6/29.7 s, after the cello/bass G2 entry rises at about 29.2 s; the previous map lit bar 29 at 26.93 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 64,
+      "window": [
+        32.0,
+        32.35
+      ],
+      "label": "bar-33-C-minor-tutti-chord",
+      "basis": "MEAS: performed q64 is the bar-33 C-minor chord (basses/cellos C, horns, clarinets, oboes, violins). The C/E-flat bands 36/48/60/63/72/75 rise from about −35 dB at 32.0 s to −20 dB at 32.2 s; the previous map lit bar 33 at 29.75 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 248.5,
+      "window": [
+        92.7,
+        92.95
+      ],
+      "label": "repeat-bar-1-first-G",
+      "basis": "MEAS: performed q248.5 is the first G of the repeated exposition (bar 1, occurrence 2). Constant-Q shares show the exposition's closing E-flat decaying into near-silence at 91.75–92.5 s, then G dominating from 92.75 s (0.47–0.68) with a G-band flux peak at 92.82 s. The unconstrained candidate passed numeric gates but placed this bar at 97.55 s, on the following F figure, and stretched later strings entries into silence; it was rejected. Disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 250,
+      "window": [
+        93.55,
+        93.85
+      ],
+      "label": "repeat-bar-2-E-flat-fermata",
+      "basis": "MEAS: performed q250 is the repeated exposition's E-flat fermata (bar 2, occurrence 2). E-flat becomes the dominant pitch class from 93.75 s (0.35–0.69 through 96.25 s), with a band-flux peak at 93.69 s. Disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 252.5,
+      "window": [
+        96.6,
+        96.95
+      ],
+      "label": "repeat-bar-3-first-F",
+      "basis": "MEAS: performed q252.5 is the first F after the bar-3 rest in the repeated exposition. Total energy is near silence at 96.25–96.75 s; F dominates from 96.75 s (0.56–0.74) with a band-flux peak at 96.87 s. Disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 254,
+      "window": [
+        97.45,
+        97.9
+      ],
+      "label": "repeat-bar-4-D-fermata",
+      "basis": "MEAS: performed q254 is the repeated exposition's D (bar 4, tied into the bar-5 fermata). D becomes dominant from 97.75 s (0.45, then 0.65–0.83 until 101 s), with band-flux peaks at 97.47 and 97.81 s after the F figure. Disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 290.5,
+      "window": [
+        115.85,
+        116.15
+      ],
+      "label": "repeat-bar-22-first-A-flat",
+      "basis": "MEAS: performed q290.5 is bar 22, occurrence 2: the repeated exposition's first tutti A-flat eighth. The A-flat bands rise from about −24 dB at 115.9 s to −13/−8 dB at 116.0/116.1 s (68–83% of total pitch energy). Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 292,
+      "window": [
+        116.7,
+        117.0
+      ],
+      "label": "repeat-bar-23-F-fermata",
+      "basis": "MEAS: performed q292 is the repeated exposition's bar-23 tutti F fermata. The F bands rise from about −29 dB at 116.7 s to −23/−12 dB at 116.8/116.9 s and then hold above 79% of pitch energy. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 296.5,
+      "window": [
+        120.5,
+        120.9
+      ],
+      "label": "repeat-bar-25-violin-I-A-flat4",
+      "basis": "MEAS: performed q296.5 is the repeated exposition's first violin-I A-flat4 of bar 25. The A-flat4 band rises from −51 dB at 120.6 s to −41/−37 dB at 120.7/120.8 s, followed by the D4, B3 and A-flat3 imitations at about 121.4, 121.9 and 122.1 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 304,
+      "window": [
+        123.0,
+        123.4
+      ],
+      "label": "repeat-bar-29-C-E-flat-chord",
+      "basis": "MEAS: performed q304 is bar 29, occurrence 2 (C2/C3/C4 and E-flat4). The summed bands rise from about −36 dB at 123.0 s to −27/−22 dB at 123.2/123.3 s, after the G2 entry near 122.7 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 312,
+      "window": [
+        125.5,
+        125.95
+      ],
+      "label": "repeat-bar-33-C-minor-tutti-chord",
+      "basis": "MEAS: performed q312 is bar 33, occurrence 2. The C/E-flat chord bands rise from about −31 dB at 125.5 s to −27/−23/−19 dB at 125.6/125.7/125.9 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 490,
+      "window": [
+        183.9,
+        184.15
+      ],
+      "label": "repeat-bar-122-E-flat-chord",
+      "basis": "MEAS: performed q490 is the last exposition E-flat chord (bar 122, occurrence 2) before the two rest bars. Constant-Q shares alternate between B-flat and E-flat chords through 176–184.75 s; this final E-flat rises at 184.04 s (band-flux peak) and is followed by near-silence (−7 to −11 dB) at 185.0–186.0 s. An earlier candidate mapped it at 187.0 s and laid the rest bars over the loud development opening; it was rejected. Disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 496.5,
+      "window": [
+        186.15,
+        186.45
+      ],
+      "label": "bar-125-development-B-flat",
+      "basis": "MEAS: performed q496.5 is the first of the development's three B-flat eighths in clarinets and horns (bar 125). B-flat is 0.87–0.97 of the measured pitch-class energy at 186.25–187.0 s, with a band-flux peak at 186.37 s after the rest bars. Disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 498,
+      "window": [
+        187.1,
+        187.4
+      ],
+      "label": "bar-126-G-fermata",
+      "basis": "MEAS: performed q498 is the held G in bassoons, clarinets and horns (bar 126) under the strings' C-sharp figure. G becomes 0.6–0.79 of the measured pitch-class energy from 187.25 s, with an A-flat/G-sharp share consistent with the strings' C-sharp third partial; band-flux peak 187.24 s. Disclosed fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 504.5,
+      "window": [
+        192.75,
+        193.0
+      ],
+      "label": "bar-129-violin-II-C5",
+      "basis": "MEAS: performed q504.5 is the second violins' first pianissimo C5 eighth of bar 129 (bar 125 = q496, so bar 129 = q504) after the bar-127–128 hold. The C5 band rises out of near-silence (−56 to −59 dB at 192.4–192.7 s) to −48/−35 dB at 192.8/192.9 s. This replaces an earlier constraint that was mislabelled and attached to q506.5, which is the clarinets' C-sharp5 in bar 130 (independent review RevScores, 2026-10-19). Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 506,
+      "window": [
+        193.35,
+        193.6
+      ],
+      "label": "bar-130-A-flat-C-entry",
+      "basis": "MEAS: performed q506 is bar 130's downbeat: violin-II A-flat4, viola/cello C4 and bassoon F3/F4. Their summed bands rise from −45 dB at 193.3 s to −40/−32 dB at 193.4/193.5 s. This replaces an earlier constraint attached to q508, which is the clarinets' C5 on the bar-131 downbeat. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 744,
+      "window": [
+        272.2,
+        272.5
+      ],
+      "label": "bar-249-E-flat-fermata",
+      "basis": "MEAS: performed q744 is the recapitulation's E-flat tutti fermata (bar 249). Constant-Q E-flat share rises from 0.04 to 0.37 at 272.3 s; the 20%-of-peak E-flat-band rise is 272.334 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 746.5,
+      "window": [
+        275.0,
+        275.4
+      ],
+      "label": "bar-250-F-after-rest",
+      "basis": "MEAS: performed q746.5 is the first F of bar 250, after the written eighth rest. Total energy is near silence at 274.7 s; the F-band 20%-of-peak rise is 275.231 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 747,
+      "window": [
+        275.5,
+        275.75
+      ],
+      "label": "bar-250-second-F",
+      "basis": "MEAS: performed q747 is the second F eighth of bar 250. Log constant-Q F/G-band flux peaks at 275.62 s (onset strength 275.67 s), between the first F at 275.22 s and the third near 275.95 s; the unconstrained map placed it at 276.05 s, compressing the figure against the following D fermata. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    },
+    {
+      "scoreQ": 747.5,
+      "window": [
+        275.85,
+        276.05
+      ],
+      "label": "bar-250-third-F",
+      "basis": "MEAS: performed q747.5 is the third F eighth of bar 250. F/D/G-band flux peaks at 275.92–275.95 s and onset strength at 275.98 s, before the bar-251 D rise at 276.43–276.46 s; the unconstrained map placed it at 276.25 s. Disclosed source-pitch fitting constraint, not independent or aural validation."
+    }
+  ]
+}

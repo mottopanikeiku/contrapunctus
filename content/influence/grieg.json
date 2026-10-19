@@ -7,7 +7,7 @@
       "to": "grieg",
       "kind": "championed",
       "year": 1870,
-      "title": "Liszt sight-reads Grieg’s concerto in Rome",
+      "title": "Liszt’s sight-reading of Grieg’s concerto, Rome",
       "works": {
         "from": "Liszt’s letter of 29 December 1868 and his sight-reading in Rome, 1870",
         "to": "Violin Sonata No. 1 in F major, Op. 8; Piano Concerto in A minor, Op. 16 (manuscript)"
@@ -33,7 +33,7 @@
       "to": "grieg",
       "kind": "dedicated",
       "year": 1888,
-      "title": "Tchaikovsky inscribes Hamlet to Grieg",
+      "title": "Tchaikovsky’s inscription of Hamlet to Grieg",
       "works": {
         "from": "Hamlet, fantasy-overture, Op. 67 (1888), “à Edvard Grieg”",
         "to": "Grieg’s letters to Tchaikovsky of April and May 1888"
@@ -54,12 +54,12 @@
       "to": "grieg",
       "kind": "modelled",
       "year": 1868,
-      "title": "Grieg builds his concerto on Schumann’s example",
+      "title": "Schumann’s concerto as model for Grieg’s",
       "works": {
         "from": "Piano Concerto in A minor, Op. 54",
         "to": "Piano Concerto in A minor, Op. 16"
       },
-      "claim": "<p>Grieg’s only piano concerto, drafted at Søllerød in the summer of 1868, shares its key with [[schumann]]’s A-minor concerto. Like Schumann’s it begins with a flourish for the soloist and has no long orchestral exposition before the piano enters. In Leipzig Grieg had heard Clara Schumann play her husband’s concerto, and half a century later he wrote in his diary that every tempo of her performance stayed stamped on his soul.</p>",
+      "claim": "<p>Grieg’s only piano concerto, drafted at Søllerød in the summer of 1868, is in the same key as [[schumann]]’s A-minor concerto. Like Schumann’s, it opens with a flourish for the soloist and has no long orchestral exposition before the piano enters. In Leipzig Grieg had heard Clara Schumann play her husband’s concerto, and half a century later he wrote in his diary that every tempo of her performance stayed stamped on his soul.</p>",
       "status": "inferred",
       "note": "Grieg’s own remark that he studied the Schumann concerto before writing his is reported in a programme note, and Finn Benestad writes that it was probably his model, above all for the first movement. No letter by Grieg naming the model has been consulted.",
       "sources": [
@@ -81,7 +81,7 @@
       "to": "grieg",
       "kind": "heard",
       "year": 1876,
-      "title": "Grieg reports from the first Bayreuth Festival",
+      "title": "Grieg’s reports from the first Bayreuth Festival",
       "works": {
         "from": "Der Ring des Nibelungen, first Bayreuth Festival, 1876",
         "to": "Grieg’s eight reports for Bergensposten"

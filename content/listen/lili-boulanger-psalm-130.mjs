@@ -20,7 +20,7 @@ export default {
       "evidence": "Everest mono LPBR 6059: sleeve ©1960 Belock Instrument Corp. (https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt); Edwards and Callahan Everest Classical Album Discography lists LPBR 6059 / SDBR 3059 [1960] (https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf). First publication documented by 1960, anywhere; territorial EU rule 3 only. US recording status not established."
     }
   },
-  "intro": "Tuba and solo cello share a low lament in Boulanger’s vast setting of Psalm 130, dedicated to her father’s memory. Igor Markevitch conducts, with Oralia Domínguez’s contralto carrying the long solo prayer at its centre.",
+  "intro": "In Boulanger’s setting of Psalm 130, dedicated to her father’s memory, tuba and solo cello share a low line. Igor Markevitch conducts, and the contralto Oralia Domínguez sings the long solo at the centre of the work.",
   "sections": [
     {
       "t": 0,
@@ -30,47 +30,47 @@ export default {
     },
     {
       "t": 224,
-      "label": "A · The choir enters in octaves",
+      "label": "A · Choir in octaves",
       "m": "A",
-      "mNote": "Quiet repeated notes over a held organ bass"
+      "mNote": "Quiet repeated notes over a held organ bass."
     },
     {
       "t": 664,
       "label": "B · Contralto with solo cello",
       "m": "B",
-      "mNote": "Clarinet figures climb beneath the solo voice"
+      "mNote": "Clarinet figures climb beneath the solo voice."
     },
     {
       "t": 874,
       "label": "C · Bassoon, flute and solo strings",
       "m": "C",
-      "mNote": "A bassoon begins the interlude over running harp notes"
+      "mNote": "A bassoon begins the interlude over running harp notes."
     },
     {
       "t": 1095,
       "label": "D · Contralto and tenor in canon",
       "m": "D",
-      "mNote": "The tenor repeats the contralto’s phrase a fifth lower"
+      "mNote": "The tenor repeats the contralto’s phrase a fifth lower."
     },
     {
       "t": 1275,
-      "label": "E · Low voices and racing strings",
+      "label": "E · Allegro, low voices and fast strings",
       "m": "E",
-      "mNote": "An Allegro sets detached wind and string figures moving"
+      "mNote": "Allegro: detached figures in the wind and strings."
     },
     {
       "t": 1325,
-      "label": "Coda · The slow prayer returns",
+      "label": "Coda · Slow prayer theme, choir, brass, organ",
       "m": "Coda",
-      "mNote": "Brass and organ support the choir’s broad phrases"
+      "mNote": "Brass and organ support the choir’s broad phrases."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Tuba beside a solo cello",
-      "text": "The organ holds its low notes above a soft bass-drum roll and plucked strings. A tuba and a solo cello enter together, falling by a tone. Their line lies deep below the silent choir; muted horns join it.",
+      "title": "Opening, tuba and solo cello",
+      "text": "The organ holds low notes above a soft bass-drum roll and plucked strings. A tuba and a solo cello enter together and fall by a tone. Their line lies deep below the choir, which is silent, and muted horns join it.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score (1925), plate D. & F. 10543, p. 1: Lent librement, organ, bass drum, pizzicato cellos and basses; tuba and solo cello from bar 3, muted horns later on the page. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP393069-PMLP430943-N0856389_PDF_1_-1DM.pdf"
@@ -78,8 +78,8 @@ export default {
     {
       "t": 40,
       "kind": "music",
-      "title": "B♭ minor, the key of the abyss",
-      "text": "Christopher Palmer calls B♭ minor, for Lili, “the key of the abyss, of mourning and despair”. Its gloom covers this psalm and her Musset setting <i>Pour les funérailles d’un soldat</i>. Gerald Larner adds that modal inflections make the introduction’s harmonies more oppressive still.",
+      "title": "B♭ minor in Lili Boulanger’s music",
+      "text": "Christopher Palmer described B♭ minor as, for Lili, “the key of the abyss, of mourning and despair”. She used it for this psalm and for her Musset setting <i>Pour les funérailles d’un soldat</i>. Gerald Larner noted that modal inflections make the harmonies of the introduction more oppressive still.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Christopher Palmer, notes for Hyperion CDA66726 (1994): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66726. Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
@@ -87,8 +87,8 @@ export default {
     {
       "t": 80,
       "kind": "music",
-      "title": "Violins climb out of the bass",
-      "text": "The prelude reaches the violins’ high notes. Both violin sections wind upwards through sharps and naturals, briefly playing alone. A little acceleration carries their runs over the top; <i>Élargi</i> broadens the descent.",
+      "title": "Prelude, violins in the high register",
+      "text": "The prelude rises to the violins’ high register. First and second violins move upwards through sharps and naturals and briefly play alone. A <i>Poco accel.</i> takes their runs over the top, and the descent broadens at <i>Élargi</i>.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 3–4, after figure 1: high first and second violins, Rubato, Poco accel. and Élargi."
@@ -96,8 +96,8 @@ export default {
     {
       "t": 120,
       "kind": "life",
-      "title": "Rome and the family home",
-      "text": "Boulanger begins the psalm in Rome in 1914 and completes its orchestration at Gargenville, the family home, in 1917. The dates and places stand together on the last page.",
+      "title": "Rome and Gargenville, 1914–1917",
+      "text": "Boulanger began the psalm in Rome in 1914 and completed its orchestration at Gargenville, the family home, in 1917. The last page of the Durand full score is dated Rome–Gargenville 1914–1917.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Durand full score, p. 90, dated Rome–Gargenville 1914–1917. Helen Julia Minors’s preface (2011) identifies Gargenville as the family home and dates the completed orchestration to 1917. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1001.html"
@@ -105,8 +105,8 @@ export default {
     {
       "t": 224,
       "kind": "form",
-      "title": "The first human voices",
-      "text": "The choir enters quietly, all four parts singing the same narrow line in octaves. Boulanger writes <i>sobre, mais intense</i> — restrained, but intense. Bassoons and cellos climb underneath; the organ holds the bass.",
+      "title": "Choral entry in octaves",
+      "text": "The choir enters <i>pp</i>, all four parts singing the same narrow line in octaves. Boulanger marks it <i>sobre, mais intense</i> (restrained, but intense). Bassoons and cellos climb underneath, and the organ holds the bass.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, p. 11, figure 4: Tempo lent, pp sobre, mais intense, octave choral entry, rising bassoons and cellos, sustained organ pedal."
@@ -114,8 +114,8 @@ export default {
     {
       "t": 300,
       "kind": "music",
-      "title": "Chanting, then supplication",
-      "text": "On its first entry, Gerald Larner writes, the chorus “merely chants the words”. Only gradually, through a lyrical expansion on the holy names “Iahvé” and “Adonaï”, does it find melody for sustained supplication.",
+      "title": "First choral entry",
+      "text": "Gerald Larner wrote that on its first entry the chorus “merely chants the words”. The vocal line becomes melodic gradually, through a lyrical expansion on the holy names “Iahvé” and “Adonaï”, and moves into sustained supplication.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
@@ -123,8 +123,8 @@ export default {
     {
       "t": 400,
       "kind": "life",
-      "title": "For her father",
-      "text": "Above the title Boulanger writes ‘à la mémoire de mon cher Papa’ — to the memory of my dear Papa. Ernest Boulanger dies in 1900, when she is six. His daughter puts the dedication over the psalm’s first low instrumental notes.",
+      "title": "Dedication to Ernest Boulanger",
+      "text": "Above the title Boulanger wrote ‘à la mémoire de mon cher Papa’ (to the memory of my dear Papa). Ernest Boulanger died in 1900, when she was six. The dedication stands over the psalm’s first low instrumental notes.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Lili Boulanger’s dedication on the first page of Psalm 130, completed in 1917, Durand full score (1925), p. 1. Ernest Boulanger’s death and Lili’s age are given in Helen Julia Minors’s preface (2011). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1001.html"
@@ -132,8 +132,8 @@ export default {
     {
       "t": 500,
       "kind": "world",
-      "title": "The record that changed Palmer’s life",
-      "text": "Christopher Palmer, then a student, first heard Lili Boulanger on “the classic Markevich record originally issued on the Everest label”: this one. He wrote to Nadia at once, and the music, he says, “effectively changed my life”. In the summer of 1967 he studied with her at Fontainebleau.",
+      "title": "Christopher Palmer and the Markevich recording",
+      "text": "Christopher Palmer, then a student, first heard Lili Boulanger on “the classic Markevich record originally issued on the Everest label”, this recording. He wrote to Nadia at once and later said the music “effectively changed my life”. In the summer of 1967 he studied with her at Fontainebleau.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Christopher Palmer, notes for Hyperion CDA66726 (1994): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66726"
@@ -141,8 +141,8 @@ export default {
     {
       "t": 600,
       "kind": "music",
-      "title": "A climax on “Adonaï”",
-      "text": "The quicker second section opens as the first did, with soft chanting, and builds to a broad climax on the “Adonaï” material. Then the chorus yields to the alto soloist, who brings a new melody in E♭ minor at a more relaxed tempo and in a more intimate texture.",
+      "title": "Climax on “Adonaï”; alto solo",
+      "text": "The quicker second section opens like the first, with soft chanting, and builds to a broad climax on the “Adonaï” material. The chorus then stops and the alto soloist enters with a new melody in E♭ minor, at a slower tempo and in a thinner texture.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
@@ -150,8 +150,8 @@ export default {
     {
       "t": 664,
       "kind": "form",
-      "title": "Contralto and cello together",
-      "text": "The choir falls silent as Oralia Domínguez begins the question about human sin. A solo cello joins her line. Clarinets repeat their rising figures, harps mark the pulse, and divided violins hold very soft chords above the voice.",
+      "title": "Contralto entry with solo cello",
+      "text": "The choir stops and Oralia Domínguez begins the question about human sin. A solo cello joins her line. Clarinets repeat their rising figures and harps mark the pulse, while divided violins hold very soft chords above the voice.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 37–40, figure 12: contralto entry, solo cello, repeated clarinet and bass-clarinet figures, two harps and divided violins marked ppp."
@@ -159,8 +159,8 @@ export default {
     {
       "t": 720,
       "kind": "world",
-      "title": "A committee for musicians at war",
-      "text": "When war breaks out Lili is at the Villa Medici in Rome. She writes to fellow musicians to build a support network for those serving in the war, and with Nadia founds the Comité Franco-Américain du Conservatoire. Nadia wins the backing of American artists and diplomats.",
+      "title": "Comité Franco-Américain du Conservatoire",
+      "text": "When war broke out Lili was at the Villa Medici in Rome. She wrote to fellow musicians to build a support network for those serving in the war, and with Nadia founded the Comité Franco-Américain du Conservatoire. Nadia won the backing of American artists and diplomats.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Library of Congress, “Lili Boulanger”, Women in French history research guide: https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger"
@@ -168,8 +168,8 @@ export default {
     {
       "t": 790,
       "kind": "music",
-      "title": "Who can stand?",
-      "text": "The chorus takes fright again, asking with growing insistency “Qui donc pourra tenir?” — who can stand? Its most emphatic asking, Gerald Larner writes, comes on a fortissimo augmentation of the trumpet call from the introduction.",
+      "title": "Chorus, “Qui donc pourra tenir?”",
+      "text": "The chorus repeats “Qui donc pourra tenir?” (who can stand?) with growing insistency. Gerald Larner wrote that the most emphatic statement comes on a fortissimo augmentation of the trumpet call from the introduction.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
@@ -177,8 +177,8 @@ export default {
     {
       "t": 874,
       "kind": "music",
-      "title": "Bassoon, flute, viola, cello",
-      "text": "A solo bassoon begins the interlude, marked <i>chanté, calme</i>. Flute, viola and cello take their turns above running notes in the harps and organ. The string sections put on mutes; the solo viola and cello keep theirs off.",
+      "title": "Interlude, solo bassoon",
+      "text": "A solo bassoon begins the interlude, marked <i>chanté, calme</i>. Flute, viola and cello follow in turn above semiquavers in the harps and organ. The string sections play muted, while the solo viola and cello play without mutes.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 54–56, Modéré and Rubato interlude: solo bassoon and flute, solo viola and cello, harp and organ semiquavers, selective string-muting instructions."
@@ -186,8 +186,8 @@ export default {
     {
       "t": 950,
       "kind": "music",
-      "title": "The turning point",
-      "text": "Gerald Larner calls the third section the turning point of the work. The tempo slows; over rippling arpeggios in harp and organ, a new woodwind melody passes to the alto, who sings “Mais la clémence est en toi”: but mercy is in you.",
+      "title": "Third section, alto entry",
+      "text": "Gerald Larner called the third section the turning point of the work. The tempo slows. Over rippling arpeggios in harp and organ, a new woodwind melody passes to the alto, who sings “Mais la clémence est en toi”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner, programme note on Psaume 130, third section; the English of the sung line is our translation. https://geraldlarner.com/work/boulanger-psaume-130"
@@ -195,8 +195,8 @@ export default {
     {
       "t": 1030,
       "kind": "world",
-      "title": "The conductor, Igor Markevitch",
-      "text": "Igor Markevitch was born in Kiev in 1912. At thirteen he went to Paris to study piano with Alfred Cortot; in his teens he studied with Nadia Boulanger and Paul Dukas. At seventeen he composed a work for Diaghilev’s Ballets Russes.",
+      "title": "Igor Markevitch, conductor",
+      "text": "Igor Markevitch was born in Kiev in 1912. At thirteen he went to Paris to study piano with Alfred Cortot, and in his teens he also studied with Nadia Boulanger and Paul Dukas. At seventeen he composed a work for Diaghilev’s Ballets Russes.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Everest LPBR 6059 (1960), sleeve note on the conductor: https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt"
@@ -204,8 +204,8 @@ export default {
     {
       "t": 1095,
       "kind": "form",
-      "title": "The tenor answers below",
-      "text": "Domínguez sings a new phrase, very softly; Raymond Amade’s tenor repeats it a fifth lower. Their lines overlap above rising flute figures and falling organ notes. The score asks for <i>Sans lenteur</i> — without dragging.",
+      "title": "Canon for contralto and tenor",
+      "text": "Domínguez sings a new phrase very softly, and Raymond Amade’s tenor repeats it a fifth lower. Their lines overlap above rising flute figures and falling organ notes. The marking is <i>Sans lenteur</i> — without dragging.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 70–73, figure 19: Sans lenteur, contralto and tenor canon with flute, harp and organ. The fifth-below imitation is also described in Helen Julia Minors’s preface (2011)."
@@ -213,8 +213,8 @@ export default {
     {
       "t": 1160,
       "kind": "music",
-      "title": "Major harmonies at last",
-      "text": "In the fourth section, where a tenor joins the alto, Gerald Larner hears Lili’s vision “at last” glimpse “the radiance of major harmonies”. The earlier sections stay weighed down by oppressive modal inflections.",
+      "title": "Fourth section, alto and tenor",
+      "text": "In the fourth section a tenor joins the alto. Gerald Larner wrote that here Lili’s vision “at last” glimpses “the radiance of major harmonies”, after the modal inflections of the earlier sections.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
@@ -222,8 +222,8 @@ export default {
     {
       "t": 1215,
       "kind": "life",
-      "title": "Never heard in her lifetime",
-      "text": "Lili never heard her finest scores played. Christopher Palmer lists <i>Du fond de l’abîme</i> among those unperformed in her lifetime and adds that when they were, “no changes were needed apart from a few modifications of dynamics”.",
+      "title": "Performances after her death",
+      "text": "Lili never heard her finest scores played. Christopher Palmer lists <i>Du fond de l’abîme</i> among those unperformed in her lifetime and adds that when they were performed, “no changes were needed apart from a few modifications of dynamics”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Christopher Palmer, notes for Hyperion CDA66726 (1994): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66726"
@@ -231,8 +231,8 @@ export default {
     {
       "t": 1275,
       "kind": "form",
-      "title": "The lower voices press on",
-      "text": "An <i>Allegro</i> breaks into the choir’s held chords. Tenors and basses begin the promise of redemption while clarinets, bassoons and lower strings race through detached figures. The upper strings remove their mutes, and the gathering orchestra accelerates.",
+      "title": "Allegro, tenors and basses",
+      "text": "An <i>Allegro</i> follows the choir’s held chords. Tenors and basses begin the promise of redemption while clarinets, bassoons and lower strings play detached figures. The upper strings remove their mutes, more of the orchestra joins, and the tempo increases.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 81–85, figure 22 onwards: Allegro, lower-voice entry, detached wind and string figures, removal of violin mutes and acceleration."
@@ -240,8 +240,8 @@ export default {
     {
       "t": 1325,
       "kind": "form",
-      "title": "Back into the depths",
-      "text": "The rush gives way to <i>Lent</i>. Choir, brass and organ return to broad calls on God’s name, with the bass plunging below them. The closing prayer gradually sheds its instruments; after the voices stop, one last orchestral swell remains.",
+      "title": "Return to <i>Lent</i>, figure 23",
+      "text": "At figure 23 the tempo changes to <i>Lent</i>. Choir, brass and organ return to broad phrases on God’s name, with the bass moving to a low register beneath them. Instruments drop out one by one in the closing prayer, and after the choir’s release the orchestra plays a final swell.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 86–90, figure 23 Lent, broad choral phrases and low bass writing; De plus en plus lent and Molto rit. on the final page, with the last instrumental swell after the choir’s release."
@@ -249,8 +249,8 @@ export default {
     {
       "t": 1360,
       "kind": "world",
-      "title": "One side of an LP",
-      "text": "Everest puts this whole twenty-four-minute psalm on side one of LPBR 6059. The four shorter works fill side two.",
+      "title": "Everest LP, side one, 1960",
+      "text": "Everest put the whole twenty-four-minute psalm on side one of LPBR 6059. The four shorter works filled side two.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Track listing of the Everest LP, 1960: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d"
@@ -258,8 +258,8 @@ export default {
     {
       "t": 1405,
       "kind": "music",
-      "title": "Without easy consolation",
-      "text": "Gerald Larner hears the work end “without the unambiguous consolation Lili was too honest to provide”, even after a last, liberated climax on “Iahvé, Adonaï” and an ethereal expression of hope.",
+      "title": "Final climax and ending",
+      "text": "The work reaches a last climax on “Iahvé, Adonaï”, followed by an expression of hope. Gerald Larner wrote that it ends “without the unambiguous consolation Lili was too honest to provide”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
@@ -268,9 +268,9 @@ export default {
   "transitions": [
     {
       "id": "into-choral-invocation",
-      "title": "The choir rises from the bass",
+      "title": "Prelude to the choral entry at figure 4",
       "from": "Intro · Tuba and solo cello",
-      "to": "A · The choir enters in octaves",
+      "to": "A · Choir in octaves",
       "at": {
         "t": 224
       },
@@ -278,7 +278,7 @@ export default {
         205,
         246
       ],
-      "how": "<p>The B♭ minor prelude slows, with trombones marked <i>morendo</i>. At figure 4, <i>Tempo lent</i>, the choir enters on repeated notes in octaves. A held organ bass remains beneath the voices while bassoons and cellos climb together. The bass drum rolls softly behind the first words.</p>",
+      "how": "<p>The B♭ minor prelude slows, and the trombones are marked <i>morendo</i>. At figure 4, <i>Tempo lent</i>, the choir enters on repeated notes in octaves. The organ holds a bass note under the voices while bassoons and cellos rise together. The bass drum plays a soft roll under the first words.</p>",
       "devices": [
         "decrescendo",
         "tempo change",
@@ -291,8 +291,8 @@ export default {
     },
     {
       "id": "into-contralto-reflection",
-      "title": "A solo cello joins the singer",
-      "from": "A · The choir enters in octaves",
+      "title": "Contralto and solo cello at figure 12",
+      "from": "A · Choir in octaves",
       "to": "B · Contralto with solo cello",
       "at": {
         "t": 664
@@ -301,7 +301,7 @@ export default {
         643,
         688
       ],
-      "how": "<p>The chorus holds its final vowel as the metre changes to 3/2 at figure 12. The contralto enters over a solo cello, repeated clarinet figures and harp chords. Divided violins hold <i>ppp</i> above her; the organ’s low notes keep the slow pulse while the brass fall silent.</p>",
+      "how": "<p>At figure 12 the chorus holds its final vowel and the metre changes to 3/2. The contralto enters over a solo cello, repeated clarinet figures and harp chords. Divided violins hold <i>ppp</i> above her. The organ plays low notes on the slow pulse, and the brass stop.</p>",
       "devices": [
         "metre change",
         "decrescendo",
@@ -314,7 +314,7 @@ export default {
     },
     {
       "id": "into-chamber-interlude",
-      "title": "The bassoon begins alone",
+      "title": "Solo bassoon at <i>Modéré</i>",
       "from": "B · Contralto with solo cello",
       "to": "C · Bassoon, flute and solo strings",
       "at": {
@@ -324,7 +324,7 @@ export default {
         853,
         901
       ],
-      "how": "<p>At <i>Modéré</i> the choir releases its last syllable and the brass chords die away. A solo bassoon begins above the organ’s held bass and running harp notes. Flute and solo viola follow; the remaining strings put on mutes as the accompaniment thins.</p>",
+      "how": "<p>At <i>Modéré</i> the choir releases its last syllable and the brass chords stop. A solo bassoon enters above the organ’s held bass and running notes in the harp. Flute and solo viola follow. The remaining strings put on mutes, and the accompaniment thins.</p>",
       "devices": [
         "decrescendo",
         "tempo change",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "into-paired-voices",
-      "title": "Two voices over running flutes",
+      "title": "Solo entries over flute semiquavers",
       "from": "C · Bassoon, flute and solo strings",
       "to": "D · Contralto and tenor in canon",
       "at": {
@@ -347,7 +347,7 @@ export default {
         1075,
         1120
       ],
-      "how": "<p>The choir holds its last chord into the new 3/4 metre. At <i>Sans lenteur</i>, flutes rise through semiquavers while the organ’s right hand descends over a held pedal. The contralto begins very softly; the tenor enters one bar later, repeating her phrase a fifth lower.</p>",
+      "how": "<p>The choir holds its last chord into the new 3/4 metre. At <i>Sans lenteur</i>, the flutes rise in semiquavers and the organ’s right hand descends over a held pedal. The contralto enters very softly. One bar later the tenor enters and repeats her phrase a fifth lower.</p>",
       "devices": [
         "metre change",
         "tempo change",
@@ -362,7 +362,7 @@ export default {
       "id": "into-last-gathering",
       "title": "Held chords give way to runs",
       "from": "D · Contralto and tenor in canon",
-      "to": "E · Low voices and racing strings",
+      "to": "E · Allegro, low voices and fast strings",
       "at": {
         "t": 1275
       },
@@ -370,7 +370,7 @@ export default {
         1255,
         1295
       ],
-      "how": "<p>The choir’s long chord softens before figure 22. At <i>Allegro</i>, bass clarinet and bassoon begin detached runs; violas and cellos join them. Tenors and basses bring in the new words above accented horn notes. The upper strings remove their mutes as the short figures spread upwards.</p>",
+      "how": "<p>The choir’s long chord drops to <i>pp</i> subito before figure 22. At <i>Allegro</i>, bass clarinet and bassoon begin detached runs, and violas and cellos join them. Tenors and basses enter with the new words over accented horn notes. The violins remove their mutes as the short figures move up through the strings.</p>",
       "devices": [
         "tempo change",
         "texture change",
@@ -383,9 +383,9 @@ export default {
     },
     {
       "id": "into-closing-supplication",
-      "title": "The running notes fall away",
-      "from": "E · Low voices and racing strings",
-      "to": "Coda · The slow prayer returns",
+      "title": "Allegro to Lent at figure 23",
+      "from": "E · Allegro, low voices and fast strings",
+      "to": "Coda · Slow prayer theme, choir, brass, organ",
       "at": {
         "t": 1325
       },
@@ -393,7 +393,7 @@ export default {
         1307,
         1345
       ],
-      "how": "<p>Wind and string runs climb to the end of the <i>Allegro</i>. Figure 23 replaces them with <i>Lent</i> and broad choral phrases. Brass and organ sustain the harmony while double basses plunge into rapid low figures between held notes. The last pages slow further, returning to the opening’s low instruments.</p>",
+      "how": "<p>Wind and string runs climb to the end of the <i>Allegro</i>. At figure 23 they stop, and the tempo changes to <i>Lent</i> with broad choral phrases. Brass and organ hold the harmony while the double basses play rapid low figures between held notes. The last pages slow further, marked <i>De plus en plus lent</i> and <i>Molto rit.</i>, and return to the low instruments of the opening.</p>",
       "devices": [
         "tempo change",
         "texture change",
@@ -483,7 +483,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "First and second violins climb into high winding phrases after the low wind solos."
+        "note": "After the low wind solos, the first and second violins play high, winding phrases."
       },
       {
         "t": 224,
@@ -547,7 +547,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Contralto and solo cello sing over repeated clarinet figures, harp chords and very soft divided violins."
+        "note": "The contralto sings and the solo cello plays over repeated clarinet figures, harp chords and very soft divided violins."
       },
       {
         "t": 874,
@@ -689,7 +689,7 @@ export default {
           "chorus",
           "clarinets"
         ],
-        "note": "Detached clarinet, bassoon and string figures drive the Allegro beneath tenors and basses."
+        "note": "Detached clarinet, bassoon and string figures accompany the tenors and basses in the Allegro."
       },
       {
         "t": 1325,
@@ -714,7 +714,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "At Lent, broad choral phrases return over brass and organ chords. Double basses plunge through rapid low figures."
+        "note": "At Lent, broad choral phrases return over brass and organ chords. Double basses play rapid low figures."
       },
       {
         "t": 1400,
@@ -742,7 +742,7 @@ export default {
           "organ",
           "chorus"
         ],
-        "note": "The voices sing their last prayer. Organ, low winds, brass and strings make one final swell after the choir stops."
+        "note": "The voices sing their last phrase. After the choir stops, organ, low winds, brass and strings play one final swell."
       }
     ]
   }

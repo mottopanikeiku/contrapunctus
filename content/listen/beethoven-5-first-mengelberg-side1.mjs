@@ -19,39 +19,39 @@ export default {
     "part": 1,
     "of": 2
   },
-  "intro": "Willem Mengelberg and the Concertgebouw Orchestra take Beethoven’s four-note opening from fierce octaves to the soft exchanges of the development. This is the first of two disc sides: the movement continues after the needle reaches the end.",
+  "intro": "Willem Mengelberg conducts the Concertgebouw Orchestra in the first movement, Allegro con brio, of Beethoven’s Symphony No. 5 in C minor, Op. 67. This is the first of two disc sides, which runs from the four-note opening in octaves to the soft exchanges of the development; the movement continues on the second side.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Three Gs and a fermata",
+      "label": "A · Opening motif, three Gs, fermata",
       "m": "A",
-      "mNote": "The opening rhythm passes through the strings"
+      "mNote": "The opening rhythm passes through the strings."
     },
     {
       "t": 48,
-      "label": "B · Horn call and violin song",
+      "label": "B · Horn call and violin melody",
       "m": "B",
       "mNote": "E♭ major; repeated notes continue beneath the melody"
     },
     {
       "t": 188,
-      "label": "C · Fragments of the opening rhythm",
+      "label": "C · Opening rhythm in fragments",
       "m": "C",
-      "mNote": "Short phrases pass between strings and winds"
+      "mNote": "Short phrases pass between strings and winds."
     },
     {
       "t": 246,
-      "label": "D · Single chords across the silence",
+      "label": "D · Single chords between winds and strings",
       "m": "D",
-      "mNote": "Winds and strings take turns before the rhythm returns"
+      "mNote": "Winds and strings take turns before the rhythm returns."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Three Gs, then a hold",
-      "text": "Beethoven begins with a rest, three Gs and an E♭ held under a fermata. Three Fs fall to a longer D. Mengelberg has two written pauses to shape before the strings begin passing the rhythm between them.",
+      "title": "Opening motif and fermatas",
+      "text": "Beethoven begins with a rest, three Gs and an E♭ held under a fermata. Three Fs then fall to a longer D. Mengelberg has two written pauses to shape before the strings begin passing the rhythm between them.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Beethoven, Symphony No. 5, I, bars 1–21; Mutopia 941, based on the Breitkopf & Härtel parts. Opening repeated notes, fermatas and subsequent string imitations."
@@ -59,8 +59,8 @@ export default {
     {
       "t": 48,
       "kind": "music",
-      "title": "A horn call opens out",
-      "text": "The horns keep the three-short-note rhythm and widen its intervals: B♭–B♭–B♭, E♭, F, B♭. The violins answer with a sweet E♭-major song. Below it, the cellos continue the little repeated-note figure.",
+      "title": "Horn call, bars 59–70",
+      "text": "The horns play the three-short-note rhythm with wider intervals: B♭–B♭–B♭, E♭, F, B♭. The violins follow with a melody in E♭ major. Below it, the cellos continue the repeated-note figure.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Symphony No. 5, I, bars 59–70; Mutopia 941, horns, first violins and cellos. Passage at the recording’s existing second-section boundary."
@@ -68,8 +68,8 @@ export default {
     {
       "t": 188,
       "kind": "world",
-      "title": "A Telefunken disc in 1941",
-      "text": "Telefunken issues this performance in 1941. The Concertgebouw Orchestra plays under Mengelberg; SK 2210 carries the first part of the opening movement. A listener at home needs the other side to finish it.",
+      "title": "Telefunken SK 2210, 1941",
+      "text": "Telefunken issued this performance in 1941. The Concertgebouw Orchestra plays under Mengelberg, and SK 2210 carries the first part of the opening movement. The rest of the movement is on the other side.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Musical Heritage Organization’s catalogue for Telefunken SK 2210 identifies Mengelberg, the Concertgebouw Orchestra, recording date 1939–40, first release 1941 and first-movement Part 1: http://pool.musicalheritage.org/index.php/Telefunken-sk2210-022110."
@@ -77,8 +77,8 @@ export default {
     {
       "t": 246,
       "kind": "music",
-      "title": "One chord at a time",
-      "text": "The development pares the four-note rhythm down to slow chords. Winds and strings reply across rests, with Beethoven asking for ever softer playing. The thin exchanges eventually break open as the short repeated notes return.",
+      "title": "Development, alternating chords",
+      "text": "In bars 196–247 the development reduces the four-note rhythm to alternating minim chords. Winds and strings take turns across rests, marked diminuendo and then <i>sempre più piano</i>. The exchanges end when fragments of the repeated-note figure return.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Symphony No. 5, I, bars 196–247; Mutopia 941, alternating minim chords, diminuendo, sempre più piano and returning repeated-note fragments. Passage at the existing final-section boundary."

@@ -10,6 +10,17 @@
   "license": "Public domain",
   "credit": "Bibliothèque nationale de France"
  },
+ "File:1880 Vasnetsov Nach der Schlacht von Igor anagoria.JPG": {
+  "id": "1880-vasnetsov-nach-der-schlacht-von-igor-anagoria",
+  "src": "assets/img/art/1880-vasnetsov-nach-der-schlacht-von-igor-anagoria.webp",
+  "w": 1280,
+  "h": 688,
+  "page": "https://commons.wikimedia.org/wiki/File:1880_Vasnetsov_Nach_der_Schlacht_von_Igor_anagoria.JPG",
+  "artist": "Viktor Vasnetsov",
+  "date": "1880",
+  "license": "Public domain",
+  "credit": "Tretyakov Gallery"
+ },
  "File:Aaron Copland in 1962.jpg": {
   "id": "aaron-copland-in-1962",
   "src": "assets/img/art/aaron-copland-in-1962.webp",
@@ -274,6 +285,17 @@
   "license": "Public domain",
   "credit": "http://www.schoenberg.at/index.php/de/schoenberg/bildnerischeswerk"
  },
+ "File:Arte-moderna-8.jpg": {
+  "id": "arte-moderna-8",
+  "src": "assets/img/art/arte-moderna-8.webp",
+  "w": 564,
+  "h": 634,
+  "page": "https://commons.wikimedia.org/wiki/File:Arte-moderna-8.jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "1922",
+  "license": "Public domain",
+  "credit": "Prefeitura de São Paulo, Brasil"
+ },
  "File:Arvo Pärt, 2011.jpg": {
   "id": "arvo-part-2011",
   "src": "assets/img/art/arvo-part-2011.webp",
@@ -295,6 +317,17 @@
   "date": "between 1875 and 1883 date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1875-00-00T00:00:00Z/9,P1326,+1883-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Gallica"
+ },
+ "File:AudenVanVechten1939.jpg": {
+  "id": "audenvanvechten1939",
+  "src": "assets/img/art/audenvanvechten1939.webp",
+  "w": 901,
+  "h": 1324,
+  "page": "https://commons.wikimedia.org/wiki/File:AudenVanVechten1939.jpg",
+  "artist": "Carl Van Vechten",
+  "date": "1939 date QS:P571,+1939-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Van Vechten Collection at Library of Congress"
  },
  "File:Baigneurs a Asnieres.jpg": {
   "id": "baigneurs-a-asnieres",
@@ -373,6 +406,28 @@
   "license": "Public domain",
   "credit": "1. Tiroler Landesmuseum 2. The New York Times , 6 May 2017"
  },
+ "File:Bernardo Strozzi - Gamba Player - WGA21921.jpg": {
+  "id": "bernardo-strozzi-gamba-player-wga21921",
+  "src": "assets/img/art/bernardo-strozzi-gamba-player-wga21921.webp",
+  "w": 809,
+  "h": 1040,
+  "page": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Gamba_Player_-_WGA21921.jpg",
+  "artist": "Bernardo Strozzi",
+  "date": "circa 1635 date QS:P571,+1635-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "credit": "Web Gallery of Art : Image Info about artwork wga QS:P11807,\"s/strozzi/2/gamba_p\""
+ },
+ "File:Bidú Sayão e Villa Lobos.tif": {
+  "id": "bidu-sayao-e-villa-lobos",
+  "src": "assets/img/art/bidu-sayao-e-villa-lobos.webp",
+  "w": 1280,
+  "h": 1342,
+  "page": "https://commons.wikimedia.org/wiki/File:Bid%C3%BA_Say%C3%A3o_e_Villa_Lobos.tif",
+  "artist": "Unknown Unknown",
+  "date": "1945 date QS:P571,+1945-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Arquivo Nacional"
+ },
  "File:Blaues Selbstportrait.jpg": {
   "id": "blaues-selbstportrait",
   "src": "assets/img/art/blaues-selbstportrait.webp",
@@ -394,6 +449,17 @@
   "date": "1886",
   "license": "Public domain",
   "credit": "Google Arts & Culture — FgEQF8uoob7fhg"
+ },
+ "File:Borodin by Repin.jpg": {
+  "id": "borodin-by-repin",
+  "src": "assets/img/art/borodin-by-repin.webp",
+  "w": 631,
+  "h": 1000,
+  "page": "https://commons.wikimedia.org/wiki/File:Borodin_by_Repin.jpg",
+  "artist": "Ilya Repin",
+  "date": "1888 date QS:P571,+1888-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "http://www.art-catalog.ru/picture.php?id_picture=11575"
  },
  "File:BuxWV83 organ tablature.jpg": {
   "id": "buxwv83-organ-tablature",
@@ -438,6 +504,17 @@
   "date": "1738",
   "license": "Public domain",
   "credit": "Google Arts & Culture — 9wFUXnpnDkgUNQ"
+ },
+ "File:Carl Nielsen c. 1908.jpg": {
+  "id": "carl-nielsen-c-1908",
+  "src": "assets/img/art/carl-nielsen-c-1908.webp",
+  "w": 1280,
+  "h": 1884,
+  "page": "https://commons.wikimedia.org/wiki/File:Carl_Nielsen_c._1908.jpg",
+  "artist": "Georg Lindstrøm 1866-1923",
+  "date": "circa 1908 date QS:P,+1908-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "credit": "Historic Dage: Article from August 19, 2014 entitled \"Til København med Carl Nielsen og H.C. Andersen\" Earlier copies of the file come from The Royal Danish Library: Source ; first photo"
  },
  "File:Carl Philipp Emanuel Bach.jpg": {
   "id": "carl-philipp-emanuel-bach",
@@ -526,6 +603,17 @@
   "date": "January 1943",
   "license": "Public domain",
   "credit": "https://www.loc.gov/pictures/item/2017843756/"
+ },
+ "File:Christian IX Equestrian Statue, Christiansborg (8132129271).jpg": {
+  "id": "christian-ix-equestrian-statue-christiansborg-8132129271",
+  "src": "assets/img/art/christian-ix-equestrian-statue-christiansborg-8132129271.webp",
+  "w": 1280,
+  "h": 1708,
+  "page": "https://commons.wikimedia.org/wiki/File:Christian_IX_Equestrian_Statue,_Christiansborg_(8132129271).jpg",
+  "artist": "Anne Marie Carl-Nielsen",
+  "date": "28 October 2012, 19:38",
+  "license": "Public domain",
+  "credit": "Equestrian Statue"
  },
  "File:Cinderella by Gustav Dore (136548285).jpg": {
   "id": "cinderella-by-gustav-dore-136548285",
@@ -780,6 +868,17 @@
   "license": "Public domain",
   "credit": "http://www.geocities.com/hansenk69/elgar3.jpg (broken link)"
  },
+ "File:Elisabeth Claude Jacquet de La Guerre - L. Crepy sculp. - btv1b8421266c.jpg": {
+  "id": "elisabeth-claude-jacquet-de-la-guerre-l-crepy-sculp-btv1b8421266c",
+  "src": "assets/img/art/elisabeth-claude-jacquet-de-la-guerre-l-crepy-sculp-btv1b8421266c.webp",
+  "w": 1280,
+  "h": 2988,
+  "page": "https://commons.wikimedia.org/wiki/File:Elisabeth_Claude_Jacquet_de_La_Guerre_-_L._Crepy_sculp._-_btv1b8421266c.jpg",
+  "artist": "Crépy, Louis (1680?-1760). Graveur",
+  "date": "1729 date QS:P571,+1729-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Bibliothèque nationale de France"
+ },
  "File:Erik Satie - BNF1.jpeg": {
   "id": "erik-satie-bnf1",
   "src": "assets/img/art/erik-satie-bnf1.webp",
@@ -845,6 +944,17 @@
   "date": "1794 date QS:P571,+1794-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "https://www.britishmuseum.org/collection/object/P_1859-0625-72"
+ },
+ "File:Expo58 building Philips.jpg": {
+  "id": "expo58-building-philips",
+  "src": "assets/img/art/expo58-building-philips.webp",
+  "w": 1280,
+  "h": 1142,
+  "page": "https://commons.wikimedia.org/wiki/File:Expo58_building_Philips.jpg",
+  "artist": "Wouter Hagens",
+  "date": "1958-07",
+  "license": "CC BY-SA 3.0",
+  "credit": "Own work"
  },
  "File:Fannymendelssohn-improved.jpg": {
   "id": "fannymendelssohn-improved",
@@ -966,6 +1076,17 @@
   "date": "1838",
   "license": "Public domain",
   "credit": "photo Shonagon 2024-04-05"
+ },
+ "File:FriedrichSmetana.jpg": {
+  "id": "friedrichsmetana",
+  "src": "assets/img/art/friedrichsmetana.webp",
+  "w": 1280,
+  "h": 1644,
+  "page": "https://commons.wikimedia.org/wiki/File:FriedrichSmetana.jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "before 1880 date QS:P,+1880-00-00T00:00:00Z/7,P1326,+1880-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "www.um-ak.co.kr/jakga/smetana.htm"
  },
  "File:Fux-Gradus-ad-Parnassum.jpg": {
   "id": "fux-gradus-ad-parnassum",
@@ -1209,6 +1330,17 @@
   "license": "Public domain",
   "credit": "Bibliothèque nationale de France"
  },
+ "File:Heitor Villa-lobos TA.jpg": {
+  "id": "heitor-villa-lobos-ta",
+  "src": "assets/img/art/heitor-villa-lobos-ta.webp",
+  "w": 1280,
+  "h": 854,
+  "page": "https://commons.wikimedia.org/wiki/File:Heitor_Villa-lobos_TA.jpg",
+  "artist": "Fritz Cohen",
+  "date": "1952-06-01",
+  "license": "Public domain",
+  "credit": "This is available from National Photo Collection of Israel, Photography dept. Government Press Office ( link ), under the digital ID D597-077 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing for more information."
+ },
  "File:Henri Regnault (French, Paris 1843–1871 Buzenval) - Salomé - Google Art Project.jpg": {
   "id": "henri-regnault-french-paris-1843-1871-buzenval-salome-google-art-project",
   "src": "assets/img/art/henri-regnault-french-paris-1843-1871-buzenval-salome-google-art-project.webp",
@@ -1264,6 +1396,17 @@
   "license": "CC0",
   "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy"
  },
+ "File:Iannis Xenakis 1975.jpg": {
+  "id": "iannis-xenakis-1975",
+  "src": "assets/img/art/iannis-xenakis-1975.webp",
+  "w": 908,
+  "h": 1396,
+  "page": "https://commons.wikimedia.org/wiki/File:Iannis_Xenakis_1975.jpg",
+  "artist": "The Friends of Xenakis ( permission link )",
+  "date": "7 June 2007 (original upload date)",
+  "license": "CC BY 2.5",
+  "credit": "Original source: http://www.iannis-xenakis.org/images/photos/Xenakis1975.jpg Transferred from cs.wikipedia to Commons by sevela.p ."
+ },
  "File:Igor Stravinsky LOC 32392u.jpg": {
   "id": "igor-stravinsky-loc-32392u",
   "src": "assets/img/art/igor-stravinsky-loc-32392u.webp",
@@ -1285,6 +1428,17 @@
   "date": "1881 date QS:P571,+1881-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Google Arts & Culture — wAEto1rus6nXFQ"
+ },
+ "File:In aanbouw zijnde Philipspaviljoen van architect Le Corbusier op het terrein van, Bestanddeelnr 909-1104.jpg": {
+  "id": "in-aanbouw-zijnde-philipspaviljoen-van-architect-le-corbusier-op-het-terrein-van",
+  "src": "assets/img/art/in-aanbouw-zijnde-philipspaviljoen-van-architect-le-corbusier-op-het-terrein-van.webp",
+  "w": 1280,
+  "h": 996,
+  "page": "https://commons.wikimedia.org/wiki/File:In_aanbouw_zijnde_Philipspaviljoen_van_architect_Le_Corbusier_op_het_terrein_van,_Bestanddeelnr_909-1104.jpg",
+  "artist": "Herbert Behrens / Anefo",
+  "date": "1957-11-13",
+  "license": "CC0",
+  "credit": "http://proxy.handle.net/10648/a96e963a-d0b4-102d-bcf8-003048976d84"
  },
  "File:JA-portrait-1-LW.jpg": {
   "id": "ja-portrait-1-lw",
@@ -1318,6 +1472,17 @@
   "date": "1784/85",
   "license": "Public domain",
   "credit": "wartburg.edu"
+ },
+ "File:Jacquet de La Guerre - Céphale et Procris, title page of 1st edition score, Paris 1694.jpg": {
+  "id": "jacquet-de-la-guerre-cephale-et-procris-title-page-of-1st-edition-score-paris-16",
+  "src": "assets/img/art/jacquet-de-la-guerre-cephale-et-procris-title-page-of-1st-edition-score-paris-16.webp",
+  "w": 1280,
+  "h": 2170,
+  "page": "https://commons.wikimedia.org/wiki/File:Jacquet_de_La_Guerre_-_C%C3%A9phale_et_Procris,_title_page_of_1st_edition_score,_Paris_1694.jpg",
+  "artist": "Élisabeth Jacquet de La Guerre / Joseph-François Duché de Vancy",
+  "date": "1694-01-08",
+  "license": "Public domain",
+  "credit": "This file comes from Gallica Digital Library and is available under the digital ID btv1b9062759m"
  },
  "File:James Abbott McNeill Whistler - Nocturne- Blue and Silver - Chelsea - Google Art Project.jpg": {
   "id": "james-abbott-mcneill-whistler-nocturne-blue-and-silver-chelsea-google-art-projec",
@@ -1627,6 +1792,17 @@
   "license": "Public domain",
   "credit": "The Yorck Project (2002) 10.000 Meisterwerke der Malerei (DVD-ROM), distributed by DIRECTMEDIA Publishing GmbH. ISBN : 3936122202 ."
  },
+ "File:Leonard Bernstein 1971.jpg": {
+  "id": "leonard-bernstein-1971",
+  "src": "assets/img/art/leonard-bernstein-1971.webp",
+  "w": 1280,
+  "h": 1936,
+  "page": "https://commons.wikimedia.org/wiki/File:Leonard_Bernstein_1971.jpg",
+  "artist": "Marion S. Trikosko",
+  "date": "1971-09-01",
+  "license": "Public domain",
+  "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ppmsc.03255 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing ."
+ },
  "File:Leoš Janáček.jpg": {
   "id": "leos-janacek",
   "src": "assets/img/art/leos-janacek.webp",
@@ -1825,6 +2001,17 @@
   "license": "Public domain",
   "credit": "Art Renewal Center Museum , image 4444"
  },
+ "File:Nicolas Poussin - Cephalus and Aurora - Google Art Project.jpg": {
+  "id": "nicolas-poussin-cephalus-and-aurora-google-art-project",
+  "src": "assets/img/art/nicolas-poussin-cephalus-and-aurora-google-art-project.webp",
+  "w": 1280,
+  "h": 948,
+  "page": "https://commons.wikimedia.org/wiki/File:Nicolas_Poussin_-_Cephalus_and_Aurora_-_Google_Art_Project.jpg",
+  "artist": "Nicolas Poussin",
+  "date": "1630",
+  "license": "Public domain",
+  "credit": "Google Arts & Culture — NgGsJDVOxO-AoQ"
+ },
  "File:Nuremberg chronicles - Dance of Death (CCLXIIIIv).jpg": {
   "id": "nuremberg-chronicles-dance-of-death-cclxiiiiv",
   "src": "assets/img/art/nuremberg-chronicles-dance-of-death-cclxiiiiv.webp",
@@ -1858,6 +2045,17 @@
   "license": "CC0",
   "credit": "http://proxy.handle.net/10648/ad6b69c0-d0b4-102d-bcf8-003048976d84"
  },
+ "File:Os Batutas em 1921.jpg": {
+  "id": "os-batutas-em-1921",
+  "src": "assets/img/art/os-batutas-em-1921.webp",
+  "w": 823,
+  "h": 592,
+  "page": "https://commons.wikimedia.org/wiki/File:Os_Batutas_em_1921.jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "1921",
+  "license": "Public domain",
+  "credit": "Bessa, Virgínia de Almeida. \"Um bocadinho de cada coisa\": trajetória e obra de Pixinguinha. História e Música Popular no Brasil dos anos 20 e 30. Mestrado. Universidade de São Paulo, 2005"
+ },
  "File:Othello et Desdémone à Venise - Théodore Chassériau - Musée du Louvre Peintures RF 3897.jpg": {
   "id": "othello-et-desdemone-a-venise-theodore-chasseriau-musee-du-louvre-peintures-rf-3",
   "src": "assets/img/art/othello-et-desdemone-a-venise-theodore-chasseriau-musee-du-louvre-peintures-rf-3.webp",
@@ -1890,6 +2088,17 @@
   "date": "1976-05-31",
   "license": "CC0",
   "credit": "https://proxy.handle.net/10648/ac850912-d0b4-102d-bcf8-003048976d84"
+ },
+ "File:Philip Glass 1.jpg": {
+  "id": "philip-glass-1",
+  "src": "assets/img/art/philip-glass-1.webp",
+  "w": 1280,
+  "h": 1588,
+  "page": "https://commons.wikimedia.org/wiki/File:Philip_Glass_1.jpg",
+  "artist": "WNYC New York Public Radio",
+  "date": "2007-12-12",
+  "license": "CC BY-SA 2.0",
+  "credit": "Flickr"
  },
  "File:Photo of Gustav Mahler by Moritz Nähr 10.jpg": {
   "id": "photo-of-gustav-mahler-by-moritz-nahr-10",
@@ -1967,6 +2176,28 @@
   "date": "between 1942 and 1943 date QS:P571,+1942-00-00T00:00:00Z/8,P1319,+1942-00-00T00:00:00Z/9,P1326,+1943-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Transferred from en.wikipedia to Commons."
+ },
+ "File:Pleasures of Euterpe title page.jpeg": {
+  "id": "pleasures-of-euterpe-title-page",
+  "src": "assets/img/art/pleasures-of-euterpe-title-page.webp",
+  "w": 1280,
+  "h": 900,
+  "page": "https://commons.wikimedia.org/wiki/File:Pleasures_of_Euterpe_title_page.jpeg",
+  "artist": "Barbara Strozzi",
+  "date": "",
+  "license": "Public domain",
+  "credit": "https://www.loc.gov/resource/ihas.200154784.0/?sp=5"
+ },
+ "File:Polovtsian dances set design 1913.jpg": {
+  "id": "polovtsian-dances-set-design-1913",
+  "src": "assets/img/art/polovtsian-dances-set-design-1913.webp",
+  "w": 1280,
+  "h": 848,
+  "page": "https://commons.wikimedia.org/wiki/File:Polovtsian_dances_set_design_1913.jpg",
+  "artist": "Nicholas Roerich",
+  "date": "1913 date QS:P571,+1913-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Set design by Nicholas Roerich (1913). Digital copy retrieved online ( http://theredlist.com/wiki-2-20-881-1399-1161-235972-235973-view-1900-1910-1-profile-1909-bles-danses-polovtsiennes-the-polovtsian-dances-b.html )."
  },
  "File:Polyphony, 1932 Paul Klee.jpg": {
   "id": "polyphony-1932-paul-klee",
@@ -2056,6 +2287,17 @@
   "license": "Public domain",
   "credit": "Gallica"
  },
+ "File:Pruitt-igoe collapse-series.jpg": {
+  "id": "pruitt-igoe-collapse-series",
+  "src": "assets/img/art/pruitt-igoe-collapse-series.webp",
+  "w": 1280,
+  "h": 3222,
+  "page": "https://commons.wikimedia.org/wiki/File:Pruitt-igoe_collapse-series.jpg",
+  "artist": "U.S. Department of Housing and Urban Development",
+  "date": "1972-04",
+  "license": "Public domain",
+  "credit": "U.S. Department of Housing and Urban Development"
+ },
  "File:Rachmaninoff at Ivanovka.jpg": {
   "id": "rachmaninoff-at-ivanovka",
   "src": "assets/img/art/rachmaninoff-at-ivanovka.webp",
@@ -2100,6 +2342,17 @@
   "license": "Public domain",
   "credit": "wikimedia commons"
  },
+ "File:Relief of Akhenaten, Nefertiti and three daughers beneath the Aten (Ägyptisches Museum Berlin).jpg": {
+  "id": "relief-of-akhenaten-nefertiti-and-three-daughers-beneath-the-aten-agyptisches-mu",
+  "src": "assets/img/art/relief-of-akhenaten-nefertiti-and-three-daughers-beneath-the-aten-agyptisches-mu.webp",
+  "w": 1280,
+  "h": 802,
+  "page": "https://commons.wikimedia.org/wiki/File:Relief_of_Akhenaten,_Nefertiti_and_three_daughers_beneath_the_Aten_(%C3%84gyptisches_Museum_Berlin).jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "circa -1340",
+  "license": "Public domain",
+  "credit": "[1]"
+ },
  "File:Retrato de Domenico Scarlatti.jpg": {
   "id": "retrato-de-domenico-scarlatti",
   "src": "assets/img/art/retrato-de-domenico-scarlatti.webp",
@@ -2143,6 +2396,17 @@
   "date": "July 1908 date QS:P571,+1908-07-00T00:00:00Z/10",
   "license": "Public domain",
   "credit": "http://www.richardgerstl.com/chronology-of-gerstls-works/gmunden-1908-gerstls-suicide/die-familie-schonberg"
+ },
+ "File:Rigaud Louis XIV 1701.jpg": {
+  "id": "rigaud-louis-xiv-1701",
+  "src": "assets/img/art/rigaud-louis-xiv-1701.webp",
+  "w": 1280,
+  "h": 1860,
+  "page": "https://commons.wikimedia.org/wiki/File:Rigaud_Louis_XIV_1701.jpg",
+  "artist": "Hyacinthe Rigaud",
+  "date": "1701",
+  "license": "Public domain",
+  "credit": "scan by User:Manfred Heyde"
  },
  "File:Rimsky-Korsakov by Repin.jpg": {
   "id": "rimsky-korsakov-by-repin",
@@ -2331,6 +2595,28 @@
   "license": "Public domain",
   "credit": "; Rackham, Arthur (illus) (August 1924) [ 1911 ] Siegfried & The Twilight of the Gods (New Impression ed.), London : William Heinemann, p. p. 4 Retrieved on 22 June 2011."
  },
+ "File:Slowo o polku Igorewe 1800.png": {
+  "id": "slowo-o-polku-igorewe-1800",
+  "src": "assets/img/art/slowo-o-polku-igorewe-1800.webp",
+  "w": 681,
+  "h": 920,
+  "page": "https://commons.wikimedia.org/wiki/File:Slowo_o_polku_Igorewe_1800.png",
+  "artist": "",
+  "date": "",
+  "license": "Public domain",
+  "credit": "Reproduction de l'édition de 1800"
+ },
+ "File:Smetana-NationalTheatreFoundation.jpg": {
+  "id": "smetana-nationaltheatrefoundation",
+  "src": "assets/img/art/smetana-nationaltheatrefoundation.webp",
+  "w": 1034,
+  "h": 2218,
+  "page": "https://commons.wikimedia.org/wiki/File:Smetana-NationalTheatreFoundation.jpg",
+  "artist": "Barbora (Bettina) Smetanová (1840-1908)",
+  "date": "2012-04-08",
+  "license": "Public domain",
+  "credit": "Olga Mojžíšová (ed.): Bedřich Smetana. Doba, život, dílo. Praha, Národní muzeum 1998"
+ },
  "File:Sofia Gubaidulina (2016-11-03).jpg": {
   "id": "sofia-gubaidulina-2016-11-03",
   "src": "assets/img/art/sofia-gubaidulina-2016-11-03.webp",
@@ -2397,6 +2683,17 @@
   "license": "Public domain",
   "credit": "(1993) 1893 : l'Europe des peintres : Paris, Musée d'Orsay, 22 février-23 mai 1993 , Éditions de la Réunion des Musées Nationaux"
  },
+ "File:Svatojanske proudy 1896 Liebscher.jpg": {
+  "id": "svatojanske-proudy-1896-liebscher",
+  "src": "assets/img/art/svatojanske-proudy-1896-liebscher.webp",
+  "w": 768,
+  "h": 582,
+  "page": "https://commons.wikimedia.org/wiki/File:Svatojanske_proudy_1896_Liebscher.jpg",
+  "artist": "Karel Liebscher",
+  "date": "published 1896",
+  "license": "Public domain",
+  "credit": "Die Österreichisch-ungarische Monarchie in Wort und Bild , Band \"Boehmen\", Seite 128 . See also Kronprinzenwerk ."
+ },
  "File:The Attack by Vereshchagin (1887-1895, GIM).jpg": {
   "id": "the-attack-by-vereshchagin-1887-1895-gim",
   "src": "assets/img/art/the-attack-by-vereshchagin-1887-1895-gim.webp",
@@ -2418,6 +2715,17 @@
   "date": "between 1634 and 1636 date QS:P,+1634-00-00T00:00:00Z/8,P1319,+1634-00-00T00:00:00Z/9,P1326,+1636-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "https://www.oxfordartonline.com/page/wallace-collection-guide"
+ },
+ "File:The Fleet's In.jpg": {
+  "id": "the-fleet-s-in",
+  "src": "assets/img/art/the-fleet-s-in.webp",
+  "w": 500,
+  "h": 250,
+  "page": "https://commons.wikimedia.org/wiki/File:The_Fleet%27s_In.jpg",
+  "artist": "Paul Cadmus",
+  "date": "1934 date QS:P571,+1934-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "U.S. Naval Historical Center"
  },
  "File:The Golden Cockerel (Bilibin) 10.jpg": {
   "id": "the-golden-cockerel-bilibin-10",
@@ -2529,6 +2837,17 @@
   "license": "CC0",
   "credit": "https://www.loc.gov/resource/muspre1800.101949/?sp=2&st=gallery"
  },
+ "File:Tiziano, The Miracle of the Jealous Husband.jpg": {
+  "id": "tiziano-the-miracle-of-the-jealous-husband",
+  "src": "assets/img/art/tiziano-the-miracle-of-the-jealous-husband.webp",
+  "w": 900,
+  "h": 1246,
+  "page": "https://commons.wikimedia.org/wiki/File:Tiziano,_The_Miracle_of_the_Jealous_Husband.jpg",
+  "artist": "Titian",
+  "date": "1511 date QS:P571,+1511-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Web Gallery of Art : Image Info about artwork wga QS:P11807,\"/t/tiziano/01_1510s/11padua3\""
+ },
  "File:Topographia Austriae superioris modernae - Closter Florian.jpg": {
   "id": "topographia-austriae-superioris-modernae-closter-florian",
   "src": "assets/img/art/topographia-austriae-superioris-modernae-closter-florian.webp",
@@ -2550,6 +2869,28 @@
   "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://www.bibliotekar.ru/rusVrubel/28.files/image002.jpg"
+ },
+ "File:Vincenc Morstadt - Pohled od Vyšehradu k Pražskému hradu.jpg": {
+  "id": "vincenc-morstadt-pohled-od-vysehradu-k-prazskemu-hradu",
+  "src": "assets/img/art/vincenc-morstadt-pohled-od-vysehradu-k-prazskemu-hradu.webp",
+  "w": 717,
+  "h": 500,
+  "page": "https://commons.wikimedia.org/wiki/File:Vincenc_Morstadt_-_Pohled_od_Vy%C5%A1ehradu_k_Pra%C5%BEsk%C3%A9mu_hradu.jpg",
+  "artist": "Vinzenz Morstadt",
+  "date": "1835",
+  "license": "Public domain",
+  "credit": "http://zastarouprahu.shop4you.cz/vincenc-morstadt-pohled-od-vysehradu-k-prazskemu-hradu/produkt-269/"
+ },
+ "File:Wanda von Debschitz-Kunowski Albert Einstein beim Geigenspiel 1927.jpg": {
+  "id": "wanda-von-debschitz-kunowski-albert-einstein-beim-geigenspiel-1927",
+  "src": "assets/img/art/wanda-von-debschitz-kunowski-albert-einstein-beim-geigenspiel-1927.webp",
+  "w": 1280,
+  "h": 1114,
+  "page": "https://commons.wikimedia.org/wiki/File:Wanda_von_Debschitz-Kunowski_Albert_Einstein_beim_Geigenspiel_1927.jpg",
+  "artist": "Wanda von Debschitz-Kunowski",
+  "date": "1927",
+  "license": "Public domain",
+  "credit": "Zeitbilder 21/1927, 1927-05-22, p. 1 ( online )"
  },
  "File:Wassily Kandinsky - Impression III (Concert) - Google Art Project.jpg": {
   "id": "wassily-kandinsky-impression-iii-concert-google-art-project",
@@ -2649,5 +2990,16 @@
   "date": "1872 date QS:P571,+1872-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "2. https://butlerart.com/collections/19th-century-collection/ 1. Bridgeman Art Library : Object 213713"
+ },
+ "File:Xenakis UPIC system drawing table 1.jpg": {
+  "id": "xenakis-upic-system-drawing-table-1",
+  "src": "assets/img/art/xenakis-upic-system-drawing-table-1.webp",
+  "w": 1280,
+  "h": 960,
+  "page": "https://commons.wikimedia.org/wiki/File:Xenakis_UPIC_system_drawing_table_1.jpg",
+  "artist": "1904.CC",
+  "date": "2025-06-20 13:57:47",
+  "license": "CC0",
+  "credit": "Own work"
  }
 }

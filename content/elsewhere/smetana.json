@@ -1,0 +1,87 @@
+{
+  "composer": "smetana",
+  "items": [
+    {
+      "work": "Má vlast: Vltava",
+      "year": "1874",
+      "performers": "Czech Philharmonic; Karel Ančerl",
+      "recorded": "12 May 1968, Smetana Hall, Municipal House, Prague (Prague Spring concert)",
+      "label": "Supraphon",
+      "note": "Ančerl conducted the whole cycle at the Prague Spring festival of 1968; Supraphon’s own channel carries the Vltava section as a video. The film credits Bohumil Čipera as recording director.",
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=DHBwft-V5FA",
+          "title": "Supraphon: Smetana, Karel Ančerl, Česká filharmonie — Má vlast: Vltava (video, 1968)"
+        }
+      ]
+    },
+    {
+      "work": "The Bartered Bride: overture",
+      "year": "1866",
+      "performers": "Czech Philharmonic; Jiří Bělohlávek",
+      "recorded": "1 January 2013, Rudolfinum, Prague (New Year’s Concert)",
+      "label": "Czech Philharmonic",
+      "note": "A concert video from the orchestra’s own channel, with audio supplied by Czech Radio.",
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=9eWXqxKX0KI",
+          "title": "Česká filharmonie: Prodaná nevěsta, předehra (Bělohlávek, 2013)"
+        }
+      ]
+    },
+    {
+      "work": "String Quartet No. 1 in E minor, “From My Life”",
+      "year": "1876",
+      "performers": "Takács Quartet",
+      "recorded": "August 2014, Concert Hall, Wyastone Estate, Monmouth",
+      "label": "Hyperion, CDA67997",
+      "note": "Hyperion’s track page prints Smetana’s letter on the programme of the quartet with a booklet note by Gavin Plumley. The disc also holds Janáček’s two string quartets.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W13601_67997",
+          "title": "Hyperion Records: Smetana, String Quartet No. 1 (Takács Quartet)"
+        }
+      ]
+    },
+    {
+      "work": "Czech Dances; On the Seashore",
+      "year": "1861–79",
+      "performers": "Garrick Ohlsson, piano",
+      "recorded": "January 2015, Henry Wood Hall, London",
+      "label": "Hyperion, CDA68062",
+      "note": "Smetana’s two sets of Czech Dances for piano, with the piano piece On the Seashore, on one disc.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68062",
+          "title": "Hyperion Records: Smetana, Czech Dances and On the Seashore (Ohlsson)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Supraphon YouTube channel: Má vlast: Vltava, Ančerl, Czech Philharmonic — description with recording date and crew; uploader confirmed through YouTube oEmbed",
+      "url": "https://www.youtube.com/watch?v=DHBwft-V5FA"
+    },
+    {
+      "title": "Czech Philharmonic official YouTube channel (@CzechPhilharmonicOfficial): The Bartered Bride overture, New Year’s Concert 2013, with audio by Czech Radio; uploader confirmed through YouTube oEmbed",
+      "url": "https://www.youtube.com/watch?v=9eWXqxKX0KI"
+    },
+    {
+      "title": "Hyperion Records: Smetana, String Quartet No. 1 — recording details and booklet note",
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W13601_67997"
+    },
+    {
+      "title": "Hyperion Records: Smetana, Czech Dances and On the Seashore — recording details",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68062"
+    },
+    {
+      "title": "Bedřich Smetana Museum: catalogue of works — dates of composition for the Bartered Bride, Má vlast and the quartet",
+      "url": "https://bedrichsmetana.nm.cz/en/catalogue"
+    }
+  ]
+}

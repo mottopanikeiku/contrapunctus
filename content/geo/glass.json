@@ -1,0 +1,311 @@
+{
+  "id": "glass",
+  "places": [
+    {
+      "name": "Baltimore, Maryland",
+      "country": "United States",
+      "lat": 39.28944444,
+      "lon": -76.61527778,
+      "from": "1937-01-31",
+      "kind": "born",
+      "what": "Born in Baltimore; his father repaired radios and sold records in the city, and Philip worked in the shop from the age of twelve.",
+      "status": "documented",
+      "sources": [
+        { "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)", "url": "https://www.arts.gov/honors/opera/philip-glass" },
+        { "title": "Fresh Air, 21 September 1999: Ira Glass interviews Philip Glass (transcript)", "url": "https://freshairarchive.org/segments/ira-glass-interviews-philip-glass" },
+        { "title": "Coordinates: Baltimore (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Baltimore" }
+      ]
+    },
+    {
+      "name": "Peabody Institute, Baltimore",
+      "country": "United States",
+      "lat": 39.2973,
+      "lon": -76.615,
+      "from": "1945",
+      "to": "1951",
+      "kind": "studied",
+      "what": "Studied flute at the Peabody Conservatory through an accelerated programme from the age of eight.",
+      "status": "documented",
+      "sources": [
+        { "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)", "url": "https://www.arts.gov/honors/opera/philip-glass" },
+        { "title": "San Francisco Classical Voice: Philip Glass, biographical outline (Peabody Institute, 1945–1951)", "url": "https://www.sfcv.org/learn/composer-gallery/philip-glass" },
+        { "title": "Coordinates: Peabody Institute (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Peabody%20Institute" }
+      ]
+    },
+    {
+      "name": "University of Chicago",
+      "country": "United States",
+      "lat": 41.78972222,
+      "lon": -87.59972222,
+      "from": "1952",
+      "to": "1956",
+      "kind": "studied",
+      "what": "Entered the university at the age of fifteen; took a liberal-arts degree in 1956.",
+      "status": "documented",
+      "sources": [
+        { "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)", "url": "https://www.arts.gov/honors/opera/philip-glass" },
+        { "title": "Tim Page, notes to Two Pages / Contrary Motion / Music in Fifths / Music in Similar Motion (Nonesuch, 1994): matriculated in the fall of 1952; bachelor’s degree 1956", "url": "https://philipglass.com/recordings/two_pages/" },
+        { "title": "Coordinates: University of Chicago (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=University%20of%20Chicago" }
+      ]
+    },
+    {
+      "name": "Juilliard School, New York",
+      "country": "United States",
+      "lat": 40.77388889,
+      "lon": -73.98333333,
+      "from": "1956",
+      "to": "1961",
+      "kind": "studied",
+      "what": "Studied composition with William Bergsma and Vincent Persichetti, taking the BA in 1959 and the MA in 1961; he left for a time to earn money as a crane operator in Baltimore.",
+      "status": "documented",
+      "sources": [
+        { "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)", "url": "https://www.arts.gov/honors/opera/philip-glass" },
+        { "title": "Coordinates: Juilliard School (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Juilliard%20School" }
+      ]
+    },
+    {
+      "name": "Pittsburgh",
+      "country": "United States",
+      "lat": 40.43972222,
+      "lon": -79.97638889,
+      "from": "1962",
+      "to": "1964",
+      "kind": "worked",
+      "what": "Two years on a Ford Foundation grant writing music for ensembles drawn from the city’s schools, between the master’s degree of 1961 and the move to Paris in 1964.",
+      "status": "inferred",
+      "sources": [
+        { "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)", "url": "https://www.arts.gov/honors/opera/philip-glass" },
+        { "title": "Coordinates: Pittsburgh (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Pittsburgh" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1964",
+      "to": "1966",
+      "kind": "studied",
+      "what": "Studied harmony and counterpoint with Nadia Boulanger on a Fulbright scholarship; in his second year he notated a film score for Ravi Shankar for French studio musicians.",
+      "status": "documented",
+      "sources": [
+        { "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)", "url": "https://www.arts.gov/honors/opera/philip-glass" },
+        { "title": "Tim Page, notes to Two Pages / Contrary Motion / Music in Fifths / Music in Similar Motion (Nonesuch, 1994)", "url": "https://philipglass.com/recordings/two_pages/" },
+        { "title": "San Francisco Classical Voice: Philip Glass, biographical outline (Paris, 1964–1966)", "url": "https://www.sfcv.org/learn/composer-gallery/philip-glass" },
+        { "title": "Coordinates: Paris (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris" }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1967",
+      "kind": "lived",
+      "what": "Returned to New York in 1967 and supported himself with day jobs, among them taxi driving and plumbing, while he formed the Philip Glass Ensemble.",
+      "status": "documented",
+      "sources": [
+        { "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)", "url": "https://www.arts.gov/honors/opera/philip-glass" },
+        { "title": "Fresh Air, 6 April 2015: Philip Glass on Words Without Music (transcript)", "url": "https://freshairarchive.org/segments/philip-glass-legacy-future-its-all-around-us-0" },
+        { "title": "Coordinates: New York City (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=New%20York%20City" }
+      ]
+    },
+    {
+      "name": "Brooklyn Academy of Music",
+      "country": "United States",
+      "lat": 40.6861111,
+      "lon": -73.9769444,
+      "from": "1973",
+      "kind": "heard",
+      "what": "Saw Robert Wilson’s twelve-hour The Life and Times of Josef Stalin in an overnight performance.",
+      "work": "Einstein on the Beach",
+      "status": "documented",
+      "sources": [
+        { "title": "Tim Page, “Einstein on the Beach”—Philip Glass, Robert Wilson (1979), Library of Congress National Recording Registry essay (2012)", "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/EinsteinOnTheBeach.pdf" },
+        { "title": "Coordinates: Brooklyn Academy of Music (OpenStreetMap Nominatim)", "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Brooklyn%20Academy%20of%20Music" }
+      ]
+    },
+    {
+      "name": "The Town Hall, New York",
+      "country": "United States",
+      "lat": 40.756,
+      "lon": -73.9847,
+      "from": "1974",
+      "kind": "premiere",
+      "what": "First performance of Music in Twelve Parts by the Philip Glass Ensemble.",
+      "work": "Music in Twelve Parts",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: Music in Twelve Parts (composition page)", "url": "https://philipglass.com/compositions/music_in_twelve_parts/" },
+        { "title": "Coordinates: The Town Hall (New York City) (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Town%20Hall%20%28New%20York%20City%29" }
+      ]
+    },
+    {
+      "name": "Avignon",
+      "country": "France",
+      "lat": 43.95,
+      "lon": 4.8075,
+      "from": "1976-07-25",
+      "kind": "premiere",
+      "what": "First performance of Einstein on the Beach, by the Philip Glass Ensemble at the Festival d’Avignon.",
+      "work": "Einstein on the Beach",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: Einstein on the Beach (composition page): premiere, 25 July 1976", "url": "https://philipglass.com/compositions/einstein_on_the_beach/" },
+        { "title": "Coordinates: Avignon (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Avignon" }
+      ]
+    },
+    {
+      "name": "Metropolitan Opera House, New York",
+      "country": "United States",
+      "lat": 40.77277778,
+      "lon": -73.98416667,
+      "from": "1976-11-21",
+      "kind": "premiere",
+      "what": "American première of Einstein on the Beach, the first of two sold-out performances.",
+      "work": "Einstein on the Beach",
+      "status": "documented",
+      "sources": [
+        { "title": "The New Yorker, 6 December 1976: “Einstein at the Met”", "url": "https://www.newyorker.com/magazine/1976/12/06/einstein-at-the-met-2" },
+        { "title": "Coordinates: Metropolitan Opera House (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Metropolitan%20Opera%20House%20%28Lincoln%20Center%29" }
+      ]
+    },
+    {
+      "name": "Rotterdam",
+      "country": "Netherlands",
+      "lat": 51.92,
+      "lon": 4.48,
+      "from": "1980-09-05",
+      "kind": "premiere",
+      "what": "First performance of Satyagraha by the Netherlands Opera, conducted by Christopher Keene; the opera was commissioned by the City of Rotterdam.",
+      "work": "Satyagraha",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: Satyagraha (composition page)", "url": "https://philipglass.com/compositions/satyagraha/" },
+        { "title": "Coordinates: Rotterdam (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Rotterdam" }
+      ]
+    },
+    {
+      "name": "The Public Theater, New York",
+      "country": "United States",
+      "lat": 40.72916667,
+      "lon": -73.99166667,
+      "from": "1983",
+      "kind": "premiere",
+      "what": "First performance of String Quartet No. 2, “Company”, written for Mabou Mines’s dramatization of Beckett’s prose poem.",
+      "work": "String Quartet No. 2 (“Company”)",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: String Quartet No. 2 “Company” (composition page)", "url": "https://philipglass.com/compositions/string_quartet_2/" },
+        { "title": "Coordinates: The Public Theater (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=The%20Public%20Theater" }
+      ]
+    },
+    {
+      "name": "Stuttgart",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 48.78027778,
+      "lon": 9.185,
+      "from": "1984-03-24",
+      "kind": "premiere",
+      "what": "First performance of Akhnaten at the Württembergisches Staatstheater, conducted by Dennis Russell Davies, in a production by Achim Freyer.",
+      "work": "Akhnaten",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: Akhnaten (composition page)", "url": "https://philipglass.com/compositions/akhnaten/" },
+        { "title": "Philip Glass: Akhnaten (1987 recording page, with the composer’s note)", "url": "https://philipglass.com/recordings/akhnaten/" },
+        { "title": "Coordinates: Staatstheater Stuttgart (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Staatstheater%20Stuttgart" }
+      ]
+    },
+    {
+      "name": "Munich",
+      "country": "Germany",
+      "lat": 48.1375,
+      "lon": 11.575,
+      "from": "1992-08-30",
+      "kind": "premiere",
+      "what": "First performance of Symphony No. 1, “Low”, by the Junge Deutsche Kammerphilharmonie under Dennis Russell Davies.",
+      "work": "Symphony No. 1 (“Low”)",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: Symphony No. 1 “Low” (composition page)", "url": "https://philipglass.com/compositions/symphony_01_low/" },
+        { "title": "Coordinates: Munich (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Munich" }
+      ]
+    },
+    {
+      "name": "Chan Centre for the Performing Arts, Vancouver",
+      "country": "Canada",
+      "lat": 49.2697484,
+      "lon": -123.2551083,
+      "from": "2013-10-19",
+      "kind": "premiere",
+      "what": "First performance of String Quartet No. 6 by the Kronos Quartet.",
+      "work": "String Quartet No. 6",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: String Quartet No. 6 (composition page)", "url": "https://philipglass.com/compositions/string_quartet_6/" },
+        { "title": "Coordinates: Chan Centre for the Performing Arts (OpenStreetMap Nominatim)", "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Chan%20Centre%20Vancouver" }
+      ]
+    },
+    {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.37277778,
+      "lon": 4.89361111,
+      "from": "2014-07-07",
+      "kind": "premiere",
+      "what": "First performance of String Quartet No. 7 by the Kronos Quartet at the Colours International Dance Festival, in Nederlands Dans Theater’s Spiritwalking.",
+      "work": "String Quartet No. 7",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: String Quartet No. 7 (composition page)", "url": "https://philipglass.com/compositions/string_quartet_7/" },
+        { "title": "Coordinates: Amsterdam (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Amsterdam" }
+      ]
+    },
+    {
+      "name": "Alloway Hall, Winnipeg",
+      "country": "Canada",
+      "lat": 49.9000985,
+      "lon": -97.1369599,
+      "from": "2018-02-01",
+      "kind": "premiere",
+      "what": "First performance of String Quartet No. 8 by the JACK Quartet, commissioned by the Winnipeg Symphony Orchestra New Music Festival and Carnegie Hall.",
+      "work": "String Quartet No. 8",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: String Quartet No. 8 (composition page)", "url": "https://philipglass.com/compositions/string_quartet_8/" },
+        { "title": "Coordinates: Alloway Hall (OpenStreetMap Nominatim)", "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Alloway%20Hall%20Winnipeg" }
+      ]
+    },
+    {
+      "name": "Bozar, Brussels",
+      "country": "Belgium",
+      "lat": 50.8436929,
+      "lon": 4.3598098,
+      "from": "2022-01-15",
+      "kind": "premiere",
+      "what": "First performance of String Quartet No. 9, “King Lear”, by the TANA Quartet at the Palais des Beaux-Arts.",
+      "work": "String Quartet No. 9 (“King Lear”)",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: String Quartet No. 9 “King Lear” (composition page)", "url": "https://philipglass.com/compositions/string_quartet_9/" },
+        { "title": "Coordinates: Palais des Beaux-Arts, Brussels (OpenStreetMap Nominatim)", "url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Bozar%20Brussels" }
+      ]
+    },
+    {
+      "name": "Tanglewood, Lenox, Massachusetts",
+      "country": "United States",
+      "lat": 42.34916667,
+      "lon": -73.31,
+      "from": "2026-07-05",
+      "kind": "premiere",
+      "what": "First performance of Symphony No. 15, “Lincoln”, by the Boston Symphony Orchestra with the baritone Zachary James, conducted by Karen Kamensek.",
+      "work": "Symphony No. 15 (“Lincoln”)",
+      "status": "documented",
+      "sources": [
+        { "title": "Philip Glass: Symphony No. 15 (composition page)", "url": "https://philipglass.com/compositions/symphony_15/" },
+        { "title": "Philip Glass: news, 6 July 2026 (premiere at Tanglewood with Zachary James and Karen Kamensek)", "url": "https://philipglass.com/news/" },
+        { "title": "Coordinates: Tanglewood (Wikipedia API)", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Tanglewood" }
+      ]
+    }
+  ]
+}

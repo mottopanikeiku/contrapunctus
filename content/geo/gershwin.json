@@ -6,7 +6,7 @@
       "country": "United States",
       "lat": 40.6782, "lon": -73.9442,
       "from": "1898-09-26", "kind": "born",
-      "what": "Born in Brooklyn to Russian-Jewish immigrant parents. The map point represents the borough, not a particular birth address.",
+      "what": "Born in Brooklyn to Russian-Jewish immigrant parents. The map point marks the borough and does not mark a particular birth address.",
       "status": "documented",
       "sources": [{ "title": "Library of Congress, George and Ira Gershwin Collection finding aid, biographical note, p. 5", "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu010014/mu010014.pdf" }]
     },
@@ -63,7 +63,7 @@
       "country": "France",
       "lat": 48.8566, "lon": 2.3522,
       "from": "1928", "kind": "travelled",
-      "what": "Visited during the European trip that began in March; worked on An American in Paris and sought taxi horns for its orchestra.",
+      "what": "Visited during the European trip that began in March; worked on An American in Paris and looked for taxi horns for its orchestra.",
       "work": "An American in Paris",
       "status": "documented",
       "sources": [
@@ -86,7 +86,7 @@
       "country": "Cuba",
       "lat": 23.1136, "lon": -82.3666,
       "from": "1932-02", "kind": "travelled",
-      "what": "Holiday in Cuba supplied the experience behind the Cuban Overture, first performed in New York that August as Rumba.",
+      "what": "A holiday in Cuba lay behind the Cuban Overture, first performed in New York that August as Rumba.",
       "work": "Cuban Overture",
       "status": "documented",
       "sources": [

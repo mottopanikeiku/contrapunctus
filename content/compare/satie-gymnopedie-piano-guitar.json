@@ -1,22 +1,22 @@
 {
   "id": "satie-gymnopedie-piano-guitar",
-  "title": "Satie: from piano to six strings",
+  "title": "Satie, Gymnopédie No. 1: Alciatore and Laucke",
   "composer": "satie",
   "group": "century",
   "work": "Gymnopédie No. 1",
-  "question": "How does a guitar keep Satie’s melody singing above the bass and chords?",
-  "intro": "Satie’s first <i>Gymnopédie</i> begins with four bars of bass notes and chords, swaying in three beats. Then a melody enters, hanging above the accompaniment. Robin Alciatore plays the piano original; Michael Laucke fits all three parts onto six guitar strings.",
+  "question": "How does a guitar keep Satie’s melody audible above the bass and chords?",
+  "intro": "Satie’s first <i>Gymnopédie</i> begins with four bars of bass notes and chords in three beats. Then a melody enters above the accompaniment. Robin Alciatore plays the piano original; Michael Laucke arranges all three parts for six guitar strings.",
   "recordings": [
     { "listen": "satie-gymnopedie-1", "label": "Robin Alciatore", "year": null, "note": "Alciatore plays Satie’s original solo-piano version in this recording released through Musopen." },
     { "listen": "satie-gymnopedie-1-laucke", "label": "Michael Laucke", "year": null, "note": "Laucke plays his own arrangement on one classical guitar, without overdubbing." }
   ],
   "reference": "satie-gymnopedie-1",
   "passages": [
-    { "label": "The melody enters", "t": 12, "note": "The melody steps into the space above the bass and chords; its longer notes stretch across the three-beat accompaniment." },
-    { "label": "The melody drops", "t": 42.9, "note": "The piano melody settles on a low E, held while the bass and chords change beneath it." },
-    { "label": "Four bars before the tune", "t": 90.3, "note": "The opening bass notes and chords return alone. Four bars pass before the melody joins them again." },
-    { "label": "The changed ending", "t": 158.5, "note": "In the piano score, F♮ replaces F♯, and the melody’s rising C♯–D–E becomes falling E–D–C." },
-    { "label": "The final minor chord", "t": 176.8, "note": "The piano closes on D minor: F♮ sits between D and A, and the last chord hangs in the air." }
+    { "label": "Melody entry", "t": 12, "note": "The melody enters above the bass and chords; its longer notes are held across the three-beat accompaniment." },
+    { "label": "Melody held on low E", "t": 42.9, "note": "The piano melody settles on a low E, held while the bass and chords change beneath it." },
+    { "label": "Four-bar introduction before the return", "t": 90.3, "note": "The opening bass notes and chords return alone. The melody enters again after four bars." },
+    { "label": "Altered ending with F♮", "t": 158.5, "note": "In the piano score, F♮ replaces F♯, and the melody’s rising C♯–D–E becomes falling E–D–C." },
+    { "label": "Final D minor chord", "t": 176.8, "note": "The piano ends on a D minor chord, with F♮ between D and A." }
   ],
   "sources": [
     { "title": "Alciatore recording, approximate source date and public-domain dedication", "url": "https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg" },

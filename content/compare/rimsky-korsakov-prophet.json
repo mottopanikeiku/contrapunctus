@@ -1,10 +1,10 @@
 {
   "id": "rimsky-korsakov-prophet",
-  "title": "Chaliapin becomes the prophet",
+  "title": "The Prophet, Op. 49 No. 2: Chaliapin, 1921 and 1927",
   "composer": "rimsky-korsakov",
   "work": "The Prophet, Op. 49 No. 2",
   "question": "How does Chaliapin build from the traveller’s quiet story to God’s final command in these two performances?",
-  "intro": "A traveller meets a six-winged seraph in the desert; the angel tears out his heart and puts a burning coal in its place. Rimsky-Korsakov gives Pushkin’s terrible vision to a bass voice, beginning quietly and ending with God’s command to speak. Chaliapin recorded it with Percy Pitt in 1921 and returned to it with Albert Coates in 1927.",
+  "intro": "A traveller meets a six-winged seraph in the desert; the angel tears out his heart and puts a burning coal in its place. Rimsky-Korsakov set Pushkin’s poem for bass voice; the song begins quietly and ends with God’s command to speak. Chaliapin recorded it with Percy Pitt in 1921 and again with Albert Coates in 1927.",
   "group": "singers",
   "recordings": [
     {
@@ -23,24 +23,24 @@
   "reference": "rimsky-korsakov-prophet-chaliapin-1921",
   "passages": [
     {
-      "label": "The traveller speaks",
+      "label": "Opening phrases and seraph’s appearance",
       "t": 35,
-      "note": "The bass tells his story in measured phrases. Flowing notes in the accompaniment surround the voice as the seraph appears."
+      "note": "The bass sings in measured phrases. When the seraph appears, flowing notes in the accompaniment surround the voice."
     },
     {
-      "label": "The voice rises",
+      "label": "Rising vocal line",
       "t": 80,
-      "note": "The bass reaches higher over rippling accompaniment, describing the sounds that fill the traveller’s newly opened ears."
+      "note": "The bass rises higher over a moving accompaniment, describing the sounds that fill the traveller’s newly opened ears."
     },
     {
-      "label": "A pause in the telling",
+      "label": "Instrumental interlude",
       "t": 115,
       "note": "The accompaniment continues between the sung phrases, growing softer and slowing before the story resumes."
     },
     {
-      "label": "God’s command",
+      "label": "God’s command, <i>con forza e maestoso</i>",
       "t": 200,
-      "note": "The bass delivers God’s charge above firm chords. Rimsky-Korsakov marks the passage <i>con forza e maestoso</i>: forcefully and majestically."
+      "note": "The bass sings God’s charge above chords. Rimsky-Korsakov marked the passage <i>con forza e maestoso</i> (forcefully and majestically)."
     }
   ],
   "sources": [

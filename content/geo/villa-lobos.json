@@ -1,0 +1,323 @@
+{
+  "id": "villa-lobos",
+  "places": [
+    {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "from": "1887-03-05",
+      "kind": "born",
+      "what": "Born to Raul Villa-Lobos, an official at the National Library and an amateur cellist, and Noemia Villa-Lobos. The coordinates are those of the city; they do not mark a particular house.",
+      "status": "documented",
+      "sources": [
+        { "title": "Academia Brasileira de Música: Heitor Villa-Lobos, biography", "url": "https://abmusica.org.br/edicoes-abm/compositor/heitor-villa-lobos" },
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" }
+      ]
+    },
+    {
+      "name": "Salvador, Bahia",
+      "country": "Brazil",
+      "lat": -12.9777,
+      "lon": -38.5016,
+      "from": "1905",
+      "to": "1911",
+      "kind": "travelled",
+      "what": "Later accounts place him in Bahia during years of travel in the north and north-east, and say that he first heard music by Debussy there. David Appleby found little evidence that the trips were systematic folk-music collecting. Dates and route are not documented; the point marks the state capital.",
+      "status": "disputed",
+      "sources": [
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" },
+        { "title": "Death of Villa-Lobos, EBSCO Research Starters (absent from Rio 1905–1911; Bahia and Debussy)", "url": "https://www.ebsco.com/research-starters/history/death-villa-lobos" },
+        { "title": "Orlando Fraga, Heitor Villa-Lobos: A Survey of His Guitar Music, Electronic Musicological Review 1.1 (1996)", "url": "http://www.rem.ufpr.br/_REM/REMv1.1/vol1.1/villa.html" }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro: Instituto Nacional de Música",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "from": "1907",
+      "kind": "studied",
+      "what": "Enrolled for a few months in the night course, studying cello with Max Breno Niederberger and harmony with Frederico Nascimento, then left. The record gives the year but not the months.",
+      "status": "documented",
+      "sources": [
+        { "title": "Academia Brasileira de Música: Heitor Villa-Lobos, biography", "url": "https://abmusica.org.br/edicoes-abm/compositor/heitor-villa-lobos" },
+        { "title": "Death of Villa-Lobos, EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/history/death-villa-lobos" }
+      ]
+    },
+    {
+      "name": "Paranaguá",
+      "country": "Brazil",
+      "lat": -25.5161,
+      "lon": -48.5225,
+      "from": "1908-01-26",
+      "kind": "premiere",
+      "what": "Recouli, for flute, clarinet and strings, was first performed at the Teatro Santa Isabel with Villa-Lobos conducting. Orlando Fraga adds that he had worked in a match factory in the town, but gives no dates.",
+      "work": "Recouli (W019)",
+      "status": "documented",
+      "sources": [
+        { "title": "IMSLP: List of works by Heitor Villa-Lobos (W019)", "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos" },
+        { "title": "Orlando Fraga, Heitor Villa-Lobos: A Survey of His Guitar Music, Electronic Musicological Review 1.1 (1996)", "url": "http://www.rem.ufpr.br/_REM/REMv1.1/vol1.1/villa.html" }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "from": "1911",
+      "to": "1923",
+      "kind": "lived",
+      "what": "He was back in Rio by 1911. On 12 November 1913 he married the pianist Lucília Guimarães and moved into her family’s house. He earned a living as a cellist and composed at night.",
+      "status": "documented",
+      "sources": [
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" },
+        { "title": "Death of Villa-Lobos, EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/history/death-villa-lobos" }
+      ]
+    },
+    {
+      "name": "Nova Friburgo",
+      "country": "Brazil",
+      "lat": -22.2819,
+      "lon": -42.5311,
+      "from": "1915",
+      "kind": "worked",
+      "what": "The first concert of his own music, in a town in the state of Rio de Janeiro, before the Rio programme of November 1915.",
+      "status": "documented",
+      "sources": [
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro: Salão Nobre",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "from": "1915-11-13",
+      "kind": "premiere",
+      "what": "A programme in the Salão Nobre (IMSLP: the hall of the Associação dos Empregados do Comércio; Fraga: the Jornal do Comércio hall) that included the First Piano Trio, the Violin Sonata No. 2 and songs. The coordinates mark the city.",
+      "work": "Piano Trio No. 1 (W042)",
+      "status": "documented",
+      "sources": [
+        { "title": "IMSLP: List of works by Heitor Villa-Lobos (W042)", "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos" },
+        { "title": "Orlando Fraga, Heitor Villa-Lobos: A Survey of His Guitar Music, Electronic Musicological Review 1.1 (1996)", "url": "http://www.rem.ufpr.br/_REM/REMv1.1/vol1.1/villa.html" }
+      ]
+    },
+    {
+      "name": "Theatro Municipal, São Paulo",
+      "country": "Brazil",
+      "lat": -23.5455,
+      "lon": -46.6388,
+      "from": "1922-02-13",
+      "to": "1922-02-17",
+      "kind": "worked",
+      "what": "Supplied about twenty pieces for the Semana de Arte Moderna and conducted the Quarteto simbólico and the Danças características africanas. Sesc São Paulo reports that he stayed in the city for nearly a month.",
+      "status": "documented",
+      "sources": [
+        { "title": "Sesc São Paulo: Ao som do modernismo (7 February 2022)", "url": "https://www.sescsp.org.br/editorial/ao-som-do-modernismo" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "from": "1923",
+      "to": "1924",
+      "kind": "lived",
+      "what": "A first stay, funded after Arthur Rubinstein’s recommendation; one account names Arnaldo Guinle as the patron and another names Carlos Guinle. The Nonet was first performed there on 30 May 1924, and he met Andrés Segovia at a party in 1924.",
+      "status": "documented",
+      "sources": [
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" },
+        { "title": "IMSLP: List of works by Heitor Villa-Lobos (W191)", "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos" },
+        { "title": "Clóvis Bulcão, Os Guinle (Intrínseca): chapter excerpt, 1923 entry", "url": "https://www.intrinseca.com.br/upload/livros/1%C2%BACAP_OsGuinle_ISSUU.pdf" },
+        { "title": "Mark Miller, “Villa-Lobos Plays the Guitar for Segovia”, Wisconsin Public Radio (29 June 2020)", "url": "https://www.wpr.org/culture/villa-lobos-plays-guitar-segovia-2" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "from": "1927",
+      "to": "1930",
+      "kind": "lived",
+      "what": "A second, longer stay. Concerts at the Salle Gaveau on 24 October and 5 December 1927 established his reputation. He wrote the twelve guitar Études during these years.",
+      "status": "documented",
+      "sources": [
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" },
+        { "title": "Stanley Yates, Villa-Lobos’ Etudes for Guitar: the 1928 Manuscript (1996)", "url": "https://static1.squarespace.com/static/61fd57f45fbae64fa0b56d86/t/62fdeb7085bc550335bb6882/1660808048997/Villa-Lobos_Etudes.pdf" }
+      ]
+    },
+    {
+      "name": "Salle Gaveau, Paris",
+      "country": "France",
+      "lat": 48.8736,
+      "lon": 2.3104,
+      "from": "1927-10-24",
+      "kind": "premiere",
+      "what": "The Concerts Colonne orchestra under Villa-Lobos gave the first performance of Chôros No. 8, for two pianos and orchestra, with Aline van Barentzen and Tomás Terán; Chôros No. 4 was also first heard here.",
+      "work": "Chôros No. 8 (W208); Chôros No. 4 (W218)",
+      "status": "documented",
+      "sources": [
+        { "title": "IMSLP: List of works by Heitor Villa-Lobos (W208, W218)", "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos" },
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" }
+      ]
+    },
+    {
+      "name": "São Paulo",
+      "country": "Brazil",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "from": "1930",
+      "to": "1932",
+      "kind": "worked",
+      "what": "After the revolution of October 1930 he stayed in Brazil and worked in São Paulo on a programme of music education, which included a touring concert series and an open-air choral rally of 10,400 singers in May 1931.",
+      "status": "documented",
+      "sources": [
+        { "title": "Simon Wright, note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5)", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66257" },
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "from": "1932",
+      "to": "1959-11-17",
+      "kind": "lived",
+      "what": "Returned to Rio in 1932 to head the Superintendência de Educação Musical e Artística; the Conservatório Nacional de Canto Orfeônico was created under his responsibility on 26 November 1942, and he founded the Academia Brasileira de Música in 1945. He travelled abroad for months at a time after 1944 and died in the city.",
+      "status": "documented",
+      "sources": [
+        { "title": "Simon Wright, note to Hyperion CDA66257", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66257" },
+        { "title": "Orlando Fraga, Heitor Villa-Lobos: A Survey of His Guitar Music, Electronic Musicological Review 1.1 (1996)", "url": "http://www.rem.ufpr.br/_REM/REMv1.1/vol1.1/villa.html" },
+        { "title": "Academia Brasileira de Música: Heitor Villa-Lobos, biography", "url": "https://abmusica.org.br/edicoes-abm/compositor/heitor-villa-lobos" }
+      ]
+    },
+    {
+      "name": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lon": 14.4378,
+      "from": "1936-04",
+      "kind": "travelled",
+      "what": "Brazil’s delegate to the First International Congress of Music Education, held 4–9 April 1936. He arrived after it had ended and spoke to a mostly Czech audience about two weeks later.",
+      "status": "documented",
+      "sources": [
+        { "title": "Eduardo Sato, “Cannibalizing Bach: Villa-Lobos in Europe, 1936”, Twentieth-Century Music 21/2 (2024)", "url": "https://www.cambridge.org/core/journals/twentieth-century-music/article/cannibalizing-bach-villalobos-in-europe-1936/A74CEA6420F93221132BACDFB7564B65" }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1936-05",
+      "kind": "travelled",
+      "what": "Part of the same trip, which began on 4 April and ended in Rio on 12 June 1936. Sato places him in Berlin in May: on 20 May he conducted a concert of his works broadcast by German short-wave radio, and on 25 May he played the piano in a song recital that included his compositions. He describes political negotiations with Nazi Germany and an interview in Die Musik-Woche.",
+      "status": "documented",
+      "sources": [
+        { "title": "Eduardo Sato, “Cannibalizing Bach: Villa-Lobos in Europe, 1936”, Twentieth-Century Music 21/2 (2024)", "url": "https://www.cambridge.org/core/journals/twentieth-century-music/article/cannibalizing-bach-villalobos-in-europe-1936/A74CEA6420F93221132BACDFB7564B65" }
+      ]
+    },
+    {
+      "name": "Los Angeles",
+      "country": "United States",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "from": "1944",
+      "kind": "travelled",
+      "what": "First visit to the United States. A New Yorker profile of February 1945 says that he had conducted the Werner Janssen Symphony in Los Angeles after landing about a month earlier.",
+      "status": "documented",
+      "sources": [
+        { "title": "John McCarten, “Villa-Lobos”, The New Yorker, 10 February 1945", "url": "https://www.newyorker.com/magazine/1945/02/10/villa-lobos" },
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" }
+      ]
+    },
+    {
+      "name": "New York",
+      "country": "United States",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "from": "1945-02",
+      "kind": "travelled",
+      "what": "Interviewed at the Waldorf in French; due to conduct the Philharmonic that week and later the New York City Symphony and the Boston Symphony. In later years he spent several months each year in New York and Paris.",
+      "status": "documented",
+      "sources": [
+        { "title": "John McCarten, “Villa-Lobos”, The New Yorker, 10 February 1945", "url": "https://www.newyorker.com/magazine/1945/02/10/villa-lobos" },
+        { "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture", "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959" }
+      ]
+    },
+    {
+      "name": "Tel Aviv",
+      "country": "Israel",
+      "lat": 32.0853,
+      "lon": 34.7818,
+      "from": "1952-06-01",
+      "kind": "travelled",
+      "what": "Photographed bowing to the audience after a concert at the Ohel Shem hall, by Fritz Cohen of the Israeli Government Press Office. The date is that of the photograph.",
+      "status": "documented",
+      "sources": [
+        { "title": "Wikimedia Commons: File:Heitor Villa-lobos TA.jpg (Government Press Office, Israel, digital ID D597-077)", "url": "https://commons.wikimedia.org/wiki/File:Heitor_Villa-lobos_TA.jpg" }
+      ]
+    },
+    {
+      "name": "Philadelphia",
+      "country": "United States",
+      "lat": 39.9526,
+      "lon": -75.1652,
+      "from": "1955-01-14",
+      "kind": "premiere",
+      "what": "Nicanor Zabaleta played the Harp Concerto with the Philadelphia Orchestra under Villa-Lobos.",
+      "work": "Harp Concerto (W515)",
+      "status": "documented",
+      "sources": [
+        { "title": "IMSLP: List of works by Heitor Villa-Lobos (W515)", "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos" }
+      ]
+    },
+    {
+      "name": "Houston",
+      "country": "United States",
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "from": "1956-02-06",
+      "kind": "premiere",
+      "what": "Andrés Segovia played the Guitar Concerto with the Houston Symphony Orchestra under Villa-Lobos at the Music Hall, before an audience of 3,040.",
+      "work": "Guitar Concerto (W501)",
+      "status": "documented",
+      "sources": [
+        { "title": "John Patykula, “A Look at the 1956 Premiere of Villa-Lobos’ Immortal Concerto for Guitar”, Classical Guitar (Summer 2017)", "url": "https://classicalguitarmagazine.com/a-look-at-the-1956-premiere-of-villa-lobos-immortal-concerto-for-guitar-performed-by-andres-segovia/" },
+        { "title": "IMSLP: List of works by Heitor Villa-Lobos (W501)", "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos" }
+      ]
+    },
+    {
+      "name": "Théâtre des Champs-Élysées, Paris",
+      "country": "France",
+      "lat": 48.8661,
+      "lon": 2.3040,
+      "from": "1957-04-04",
+      "kind": "premiere",
+      "what": "First performance of the Symphony No. 10, with Villa-Lobos conducting the Orchestre National and the Choeur de la Radiodiffusion Française.",
+      "work": "Symphony No. 10, “Sume Pater Patrium” (W511)",
+      "status": "documented",
+      "sources": [
+        { "title": "IMSLP: List of works by Heitor Villa-Lobos (W511)", "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos" }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "from": "1959-11-17",
+      "kind": "died",
+      "what": "Died in Rio de Janeiro, aged 72.",
+      "status": "documented",
+      "sources": [
+        { "title": "Academia Brasileira de Música: Heitor Villa-Lobos, biography", "url": "https://abmusica.org.br/edicoes-abm/compositor/heitor-villa-lobos" },
+        { "title": "Death of Villa-Lobos, EBSCO Research Starters", "url": "https://www.ebsco.com/research-starters/history/death-villa-lobos" }
+      ]
+    }
+  ]
+}

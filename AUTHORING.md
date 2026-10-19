@@ -1,63 +1,76 @@
 # Authoring guide
 
-Contrapunctus is written for people who love this music, or are about to. The reader usually has a recording playing and no obligation to keep reading. Write as a well-read friend sitting beside them: someone who knows the score, the letters and the gossip, and says what matters in plain sentences.
+Contrapunctus is a reference work for listeners. Write it the way a good concert programme book, a museum catalogue or a scholarly biography is written: informed, exact, unhurried, and without performance. The reader usually has the music playing. Every sentence should tell them something they did not know; none should be there to sound good.
 
-Exemplars — read one in full before writing: `content/composers/debussy.mjs` and `content/composers/mahler.mjs` (composer pages), `content/listen/debussy-faune.mjs` (Hall notes).
+Exemplars for structure and fields: `content/composers/debussy.mjs` and `content/composers/mahler.mjs` (composer pages), `content/listen/debussy-faune.mjs` (Hall notes). For voice, follow the rules below and the before-and-after pairs at the end of this section.
 
-## House style
+## Voice
 
-### What every paragraph needs
+The site must not read as machine-written. Machine prose is recognisable less by its words than by its devices: every paragraph built to the same shape, every note ending on a turn of phrase, instruments that “refuse” and “remember”, tidy lists of three. A human expert writes unevenly, says the plain thing plainly, and stops when the information runs out.
 
-At least one of these:
+### What to write
 
-- **A scene**: a place, a date, people in a room. “In August 1910 Mahler walked with Freud for four hours through Leiden.”
-- **A sound you could point to in the score**: a named instrument, note, chord, key, bar or marking. “A solo double bass, high and uncomfortable, plays <i>Frère Jacques</i> in the minor.”
-- **A person speaking**, in attested words: the composer, a friend, a critic. “I am a summer composer.”
+- **Information first.** A note or paragraph exists to carry facts: what happens in the score (instrument, key, marking, bar, form), what happened in the world (who, where, when), or what someone said (quoted and attributed). Two facts in plain order beat one fact dressed up.
+- **History in the past tense.** “Brahms finished the symphony in 1876.” The present tense is for what the music does: “The horn enters on G.”
+- **Plain verbs for music.** Instruments enter, play, hold, repeat, double, stop, take over, rest; harmony moves, resolves, modulates; a theme returns, is varied, is inverted. Instruments and themes do not refuse, insist, remember, discover, find, decide, hesitate, persist, wait, sigh, breathe, dream, long or speak. (A marking may: *seufzend*, sighing, is Mahler’s word, so quote it as his.)
+- **Effects are the reader’s business.** Describe what is on the page and in the recording; do not narrate how it feels (“sounds wonderfully fresh”, “makes the return feel inevitable”, “is hard to bear”). A critic’s or composer’s reaction can be quoted, attributed.
+- **Opinion sparingly, and signed.** “The place to start is…” on a recordings list is the site’s view; elsewhere, judgments belong to named people.
+- **Uneven is fine.** One-sentence notes, a long sentence followed by a short one, a paragraph of dates. Do not shape every note as three sentences of fifteen words.
 
-A paragraph made only of categories (“register, texture and density”, “the organisation of musical time”) is not finished. Facts are necessary; they are not sufficient.
+### Devices that make prose read as machine-made (do not use)
 
-### Be specific, then stop
+- **The closing line.** Never end a note or paragraph with a sentence that sums up, reframes or turns a phrase. Not: “The rests carry the joke.” “<i>Pagodes</i> is what he took home.” “The family’s everyday words survive the child.” “The piece discovers that it has much more to say.” End on the last fact.
+- **Personification** of instruments, keys, themes and works (above).
+- **Antithesis frames**: “not X but Y”, “X rather than Y”, “less X than Y”, “X, not Y”, “it is not … it is …”. State the positive fact.
+- **Lists of three for rhythm**: “a summer, a man going back, and his own words”; “quiet, patient and strange”. Lists are for content that is a list.
+- **The colon reveal**: “One thing remains: the silence.” Colons introduce lists, quotations and definitions only.
+- **Mood adverbs and hedging softeners**: quietly, gently, simply, just, almost, somehow, something, a kind of, a sort of, as if, seems.
+- **Programme-note pastiche vocabulary**, unless inside a quotation: luminous, radiant, shimmering, glowing, haunting, poignant, wistful, yearning, aching, brooding, lush, tender, delicate, playful, sly, mischievous, delicious(ly), magical, dreamlike, otherworldly, ethereal, sweeping, soaring, blooms, blossoms, unfolds, lands, arrives (of music), breathes, lingers, weaves, conjures, evokes.
+- **Addressing the reader**: “you”, “we”, “Listen for”, “Notice”, “Imagine”, rhetorical questions.
+- The old list still applies: tapestry, delve, testament to, timeless, masterful, myriad, resonate with, vibrant, breathtaking, nuanced, showcase, realm, seamless, elevate, captivating, unparalleled, profound, soundscape, “genius”, “in the world of”, “the listener”, “a different kind of”, “gives way to”.
 
-- Name things: the note, the instrument, the city, the year, the catalogue number. Explain a term once, by context, the first time it matters (or link the Workshop).
-- Abstract nouns — register, texture, density, material, weight, surface, colour, resonance, gesture, contour, process — are tools for precision, not decoration. One per sentence at most, and only when no concrete word will do.
-- End a paragraph on a fact, an image or a quotation, never on a moral that restates what the reader has just read.
-- Vary sentence length. A four-word sentence is allowed. So is a joke. Opinions are allowed when they are the site’s considered view and read as such (“the place to start is …”).
+### Titles and labels
+
+Titles are labels, as in a catalogue or a score’s table of contents. No metaphors, puns, verbs of personification or full sentences.
+
+- Music notes name the event: “Second subject, violas”, “Return of the opening theme”, “Cadenza”, “Coda in D major”, “Bar 32: the left hand stops”.
+- History notes name the subject and, where it helps, the date: “First performance, Vienna, 1808”, “Letter to Wegeler, 1801”, “The 1945 recording session”.
+- Section labels in `sections[]`: letter and plain description (“A · Theme in the violas”), never an image.
+- Interface text uses nouns and plain verbs: “Programme”, “Recordings”, “Play from the beginning”, “Copy link”. Not invitations (“Follow the threads”, “Enter and listen”) or arrows in prose.
 
 ### Confidence in the text, doubt in the drawer
 
 - The text states the best-supported reading plainly. Sources, alternatives and caveats belong in `evidence` (Hall notes), dossiers, `sources` lists and margin notes.
-- Mention doubt in the text only when the doubt is the story, and then tell it as one: “His family kept his birthday on 1 March; the parish register says 22 February.”
-- Never defend against a misreading the reader did not make: not “an editorial comparison, not a documented source”, “their languages need not be collapsed”, “this is not a narrative”, “is not evidence of a quotation”. If a comparison is editorial, say what it shows and move on.
-- Tell a legend once, as a legend (“the story, as Freud’s biographer Ernest Jones told it”), then let it run.
+- Mention doubt in the text only when the doubt is itself the fact: “His family kept his birthday on 1 March; the parish register gives 22 February.”
+- Never defend against a misreading the reader did not make (“need not”, “is not evidence”, “not a documented source”). If a comparison is editorial, say what it shows.
+- A legend is told once, as a legend, with its teller named.
 
-### Constructions to avoid
+### Mechanical checks
 
-`tools/validate.mjs` checks reader-facing text for these:
-
-- **Machine language** (error): decibels, “relative level”, “the level rises/falls”, “loudest window”, “the report”, “the analysis shows”, “key estimate”, confidence figures, file paths, “Wikipedia hears/says”, “according to the … note”. Audio analysis can help an author find a formal boundary; it never appears in prose, titles or “How we know”.
-- **Defensive hedging** (error): “need not”, “is not evidence”, “not a documented”, “editorial comparison”, “does not claim/establish/identify/imply”, “is claimed”, “not a measurement”.
-- **Instructions to the listener** in Hall notes and recording introductions (error): “Listen for …”, “Follow …”, “Compare …”, “Keep … in mind”, “Notice …”. Say what happens; the reader is already listening.
-- **Contrast by negation** (error above one per 250 words): “X rather than Y”, “not X but Y”, “, not a …”. One in a page is a choice; one in every paragraph is a tic.
-- “the listener”, “a different kind of”, “gives way to”, rhetorical questions, “Imagine …”, adjective triplets, and the old word list: tapestry, delve, testament to, timeless, masterful, myriad, resonate with, journey (except as the Guided Journeys feature name), vibrant, breathtaking, nuanced, showcase, realm, seamless, elevate, captivating, unparalleled, profound, evocative, soundscape, “genius”, “in the world of”.
+`tools/validate.mjs` reports machine language (decibels, “relative level”, “the report”, file paths), defensive hedging, instructions to the reader, contrast by negation above one per 250 words, personified instruments and the pastiche vocabulary above. It cannot see closing lines or rhythmic triplets; authors and reviewers must.
 
 ### Quotations
 
-- Prefer the composers’ own words: letters, criticism, memoirs, conversations recorded at the time. Berlioz, Schumann, Debussy, Mozart, Tchaikovsky, Stravinsky and Satie wrote constantly.
+- Prefer the composers’ own words: letters, criticism, memoirs, conversations recorded at the time.
 - Attribute every quotation: who, to whom or where, and when. Quote only what you have checked against a source, and record the source: composer pages in `content/plan/research/prose/<slug>.md`, Hall notes in the cue’s `evidence`.
 - Translate non-English quotations yourself; keep them short.
 
 ### Typography and accuracy
 
-- British spelling; curly quotes ‘ ’ “ ”; en dashes for ranges (1888–94); em dashes for asides — like this; ♯ ♭ ♮ for accidentals in prose; italics for work titles that are names (<i>La Mer</i>), roman for generic titles (Symphony No. 5).
-- State only what is documented. Dates, keys and catalogue numbers must be right. If you are unsure of a detail, leave it out, and leave it out silently: do not write around the gap.
+- British spelling; curly quotes ‘ ’ “ ”; en dashes for ranges (1888–94); em dashes sparingly; ♯ ♭ ♮ for accidentals in prose; italics for work titles that are names (<i>La Mer</i>), roman for generic titles (Symphony No. 5).
+- State only what is documented. Dates, keys and catalogue numbers must be right. If you are unsure of a detail, leave it out silently.
 
-### The difference, in one paragraph
+### Before and after
 
-> At the 1889 Paris Exposition he heard a Javanese gamelan and Vietnamese theatre. These performances took place within a colonial exhibition. For Debussy they demonstrated ways of organising musical time beyond European symphonic development. … Its pentatonic material, the independent speeds of the layers and the resonance left between attacks all carry the connection.
+> **One bassoon refuses to stop.** The first movement closes in E minor, but the first bassoon holds on to B after the other instruments finish. That single note carries into the Andante. It will rise a semitone to C as the slow movement begins.
 
-> In the summer of 1889 the Exposition universelle brought a Javanese gamelan to Paris, and Debussy kept going back. Twenty-four years later he was still arguing from it: their counterpoint, he wrote, made Palestrina’s look like child’s play. <i>Pagodes</i> (1903) is what he took home.
+> **Bassoon link to the Andante.** The first movement ends in E minor. The first bassoon holds its B after the orchestra stops, then rises to C, the first note of the Andante; Mendelssohn wanted no pause between the movements.
 
-The facts are the same. The second has a summer, a man going back, and his own words.
+> **The missing little face.** The father’s glance falls where his daughter’s face should be: “dein lieb Gesichtchen” — your dear little face. Rückert fills the poem with diminutives, from “Mütterlein” to “Töchterlein”. The family’s everyday words survive the child.
+
+> **Rückert’s diminutives.** The father looks to the doorway where his daughter used to appear: “dein lieb Gesichtchen”, your dear little face. Rückert wrote the poems after two of his children died in the winter of 1833–34; this one is full of household diminutives, “Mütterlein”, “Töchterlein”.
+
+The second version of each has more information and no performance.
 
 ## Files and tools
 

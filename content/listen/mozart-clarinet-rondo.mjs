@@ -18,51 +18,51 @@ export default {
   "source": {
     "file": "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 3. Allegro.ogg"
   },
-  "intro": "The clarinet’s skipping refrain returns between episodes of long-breathed melody and quick runs. William McColl plays this A major rondo on his own handmade basset clarinet, whose low notes give the solo line an unusually deep reach.",
+  "intro": "The third movement of the Clarinet Concerto in A major, K. 622, is a rondo marked Allegro, in which the clarinet’s refrain returns between episodes of melody and quick runs. William McColl plays it on his own handmade basset clarinet, whose low notes extend the range of the solo line.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Clarinet skips above upper strings",
+      "label": "A · Refrain, clarinet above upper strings",
       "m": "A",
-      "mNote": "The A major refrain moves in lilting six-eight"
+      "mNote": "The refrain is in A major and six-eight time."
     },
     {
       "t": 84,
-      "label": "B · A longer tune for clarinet",
+      "label": "B · Longer clarinet theme",
       "m": "B",
-      "mNote": "The solo line opens out towards E major"
+      "mNote": "The solo line moves towards E major."
     },
     {
       "t": 172,
-      "label": "A′ · A brief return to A",
+      "label": "A′ · Rondo refrain, brief return",
       "m": "A′",
-      "mNote": "The refrain returns before another orchestral departure"
+      "mNote": "The refrain returns before another orchestral episode."
     },
     {
       "t": 204,
-      "label": "Dev · The clarinet turns to F♯ minor",
+      "label": "Dev · Clarinet in F♯ minor",
       "m": "Dev",
-      "mNote": "Wide leaps and running figures above quiet strings"
+      "mNote": "Wide leaps and running figures above the strings"
     },
     {
       "t": 272,
-      "label": "B′ · The longer tune returns first",
+      "label": "B′ · Episode theme returns before refrain",
       "m": "B′",
-      "mNote": "Mozart brings back the episode before the full refrain"
+      "mNote": "Mozart brings back the episode before the full refrain."
     },
     {
       "t": 372,
-      "label": "A″ · The skipping refrain comes home",
+      "label": "A″ · Refrain, final return in A major",
       "m": "A″",
-      "mNote": "A major returns for the final solo and orchestral close"
+      "mNote": "A major returns for the final solo and orchestral close."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A light-footed clarinet tune",
-      "text": "The clarinet begins a skipping tune in six-eight above violins and violas. Cellos, double basses and orchestral winds wait for the answering tutti. The upper strings leave plenty of space beneath the soloist’s first phrases.",
+      "title": "Clarinet theme in six-eight",
+      "text": "The solo clarinet plays a skipping tune in six-eight above violins and violas. Cellos, double basses and the orchestral winds rest until the tutti, where they enter.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), III, opening, p. 242: solo clarinet and upper strings; cellos, basses and winds enter with the tutti."
@@ -70,8 +70,8 @@ export default {
     {
       "t": 70,
       "kind": "life",
-      "title": "Coffee, tobacco and Stadler’s rondo",
-      "text": "Vienna, 7 October 1791: Mozart has coffee brought in and enjoys a pipe of tobacco. Writing to Constanze in Baden, he follows these domestic pleasures with a day’s work: “Then I orchestrated almost the whole of Stadler’s rondo.”",
+      "title": "Letter to Constanze, October 1791",
+      "text": "On 7 October 1791 in Vienna, Mozart had coffee brought in and smoked a pipe of tobacco. He told Constanze, who was in Baden, about this in a letter and went on to describe his work that day. “Then I orchestrated almost the whole of Stadler’s rondo.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mozart to Constanze, 7–8 October 1791, Bauer–Deutsch 1193. Our translation of “dann Instrumentirte ich fast das ganze Rondó vom Stadtler”: https://dme.mozarteum.at/DME/objs/raradocs/transcr/pdf/BD_1193.pdf."
@@ -79,8 +79,8 @@ export default {
     {
       "t": 84,
       "kind": "form",
-      "title": "The melody takes longer breaths",
-      "text": "The first episode gives the clarinet a more flowing melody and carries it towards E major. Short string replies support the longer solo phrases. The refrain’s little skips have opened into something more expansive.",
+      "title": "First episode, towards E major",
+      "text": "The first episode gives the clarinet a more flowing melody and moves towards E major. Short string phrases accompany the longer solo lines.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), III, first episode. Calvin Dotsey describes the complementary second theme: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/."
@@ -88,8 +88,8 @@ export default {
     {
       "t": 172,
       "kind": "form",
-      "title": "A short visit from the refrain",
-      "text": "The A major refrain returns briefly. Its familiar rhythm is easy to recognise, but Mozart soon lets the orchestra carry the music away again. This homecoming is a short one.",
+      "title": "First return of the refrain",
+      "text": "The A major refrain returns briefly, in its original rhythm. The orchestra then takes over in a tutti that leads away from it, before the minor-key episode.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), III, first refrain return and ensuing tutti; Calvin Dotsey’s account identifies the brief return before the minor-key episode."
@@ -97,8 +97,8 @@ export default {
     {
       "t": 204,
       "kind": "form",
-      "title": "F♯ minor beneath the runs",
-      "text": "The central episode turns to F♯ minor. The clarinet moves through wide leaps and running figures above quiet strings, with brief wind replies. Its bright upper notes and deep lower phrases now belong to a darker harmony.",
+      "title": "Central episode in F♯ minor",
+      "text": "The central episode moves to F♯ minor. The clarinet plays wide leaps and running figures over quiet strings, with brief replies from the wind, and uses both its high and low registers.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), III, central solo episode, pp. 250–253. Calvin Dotsey discusses the minor-key central episode."
@@ -106,8 +106,8 @@ export default {
     {
       "t": 272,
       "kind": "form",
-      "title": "The second tune arrives first",
-      "text": "Mozart brings back the earlier episode’s melody before restoring the full refrain. The soloist has its longer-breathed tune again, while the skipping opening still waits. The familiar ideas return in an unexpected order.",
+      "title": "Return of the episode theme",
+      "text": "Mozart brings back the melody of the earlier episode before the full refrain returns. The clarinet plays its longer-phrased tune again. The opening theme of the refrain comes back after it.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Calvin Dotsey, Houston Symphony, explicitly identifies the reprise of the second theme before the delayed principal refrain: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/. Breitkopf & Härtel full score (1881), III."
@@ -115,8 +115,8 @@ export default {
     {
       "t": 372,
       "kind": "form",
-      "title": "The skipping tune comes home",
-      "text": "The clarinet finally recovers the full refrain in A major. Upper strings accompany the return; the orchestral winds wait. The soloist still has room for further runs before everyone joins the closing phrases.",
+      "title": "Final return of the refrain",
+      "text": "The clarinet plays the full refrain in A major, accompanied by the upper strings. The orchestral winds rest. The soloist has further runs before the full orchestra enters for the closing phrases.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), III, final refrain, p. 257, and closing continuation."
@@ -124,8 +124,8 @@ export default {
     {
       "t": 490,
       "kind": "world",
-      "title": "A concerto survives without its autograph",
-      "text": "Mozart’s manuscript of the completed concerto is lost. Early printed editions adapt the solo for an ordinary clarinet, moving its lowest phrases upwards. Modern basset-clarinet versions recover the deeper compass for which Mozart writes.",
+      "title": "Lost autograph and early editions",
+      "text": "Mozart’s manuscript of the completed concerto is lost. Early printed editions adapted the solo for an ordinary clarinet and moved its lowest phrases upwards. Modern basset-clarinet versions restore the deeper compass for which Mozart wrote, though the details of individual passages differ between editions.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Calvin Dotsey, Houston Symphony, discusses the lost autograph, adaptations in the early editions and modern reconstructions: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/. Details of individual restored passages differ between editions."
@@ -133,8 +133,8 @@ export default {
     {
       "t": 520,
       "kind": "music",
-      "title": "Everyone joins the last cadence",
-      "text": "Flutes, bassoons and horns join the strings for the closing tutti. The clarinet’s last trill gives way to the orchestra’s A major cadence. After so much nimble solo writing, the last chords are brisk and unanimous.",
+      "title": "Closing tutti and final cadence",
+      "text": "Flutes, bassoons and horns join the strings for the closing tutti. After the clarinet’s last trill, the orchestra plays the cadence in A major.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), III, closing page 264."
@@ -144,12 +144,12 @@ export default {
     {
       "id": "into-first-episode",
       "title": "A longer solo turns towards E",
-      "from": "A · Clarinet skips above upper strings",
-      "to": "B · A longer tune for clarinet",
+      "from": "A · Refrain, clarinet above upper strings",
+      "to": "B · Longer clarinet theme",
       "at": {
         "t": 84
       },
-      "how": "<p>The orchestral continuation of the A major refrain gives way to a longer clarinet melody over quieter strings. The solo phrases and changing bass lead towards E major. The six-eight pulse continues beneath the more sustained line.</p>",
+      "how": "<p>The orchestra continues the A major refrain, then gives way to a longer clarinet melody over quieter strings. The solo phrases and a changing bass lead towards E major. The six-eight pulse continues beneath the more sustained clarinet line.</p>",
       "devices": [
         "link passage",
         "orchestration change",
@@ -161,13 +161,13 @@ export default {
     },
     {
       "id": "first-refrain-return",
-      "title": "The clarinet restores A major",
-      "from": "B · A longer tune for clarinet",
-      "to": "A′ · A brief return to A",
+      "title": "Refrain returns in A major",
+      "from": "B · Longer clarinet theme",
+      "to": "A′ · Rondo refrain, brief return",
       "at": {
         "t": 172
       },
-      "how": "<p>The first episode leads back through E, the dominant of A. The clarinet restores the skipping refrain in A major, with the strings supporting its familiar short phrases. An orchestral continuation soon moves the music on again.</p>",
+      "how": "<p>The first episode leads back through E, the dominant of A. The clarinet plays the refrain in A major, its short phrases accompanied by the strings. An orchestral continuation follows soon after and leads away from the refrain.</p>",
       "devices": [
         "retransition",
         "motivic link",
@@ -179,13 +179,13 @@ export default {
     },
     {
       "id": "into-central-episode",
-      "title": "The orchestra prepares F♯ minor",
-      "from": "A′ · A brief return to A",
-      "to": "Dev · The clarinet turns to F♯ minor",
+      "title": "Orchestral lead-in to F♯ minor",
+      "from": "A′ · Rondo refrain, brief return",
+      "to": "Dev · Clarinet in F♯ minor",
       "at": {
         "t": 204
       },
-      "how": "<p>The orchestral continuation turns away from A major towards F♯ minor. Winds reinforce the cadence, then the clarinet resumes over quiet strings. Its wide leaps and running figures extend the new minor-key passage.</p>",
+      "how": "<p>The orchestral continuation moves away from A major towards F♯ minor. Winds reinforce the cadence, and the clarinet then resumes over quiet strings, extending the new minor-key passage with wide leaps and running figures.</p>",
       "devices": [
         "link passage",
         "texture change",
@@ -197,13 +197,13 @@ export default {
     },
     {
       "id": "earlier-episode-revisited",
-      "title": "The longer melody returns before the refrain",
-      "from": "Dev · The clarinet turns to F♯ minor",
-      "to": "B′ · The longer tune returns first",
+      "title": "The second theme returns before the refrain",
+      "from": "Dev · Clarinet in F♯ minor",
+      "to": "B′ · Episode theme returns before refrain",
       "at": {
         "t": 272
       },
-      "how": "<p>The central minor-key passage gives way to the earlier episode’s flowing clarinet melody. Quieter strings support the solo as it returns towards the home-key region. Mozart postpones the complete A major refrain, bringing the secondary tune back first.</p>",
+      "how": "<p>The central minor-key passage gives way to the flowing clarinet melody of the earlier episode. The strings play more quietly beneath the solo as the music moves back towards the home-key region. Mozart holds back the complete A major refrain and brings the secondary tune back first.</p>",
       "devices": [
         "motivic link",
         "texture change",
@@ -215,13 +215,13 @@ export default {
     },
     {
       "id": "final-refrain",
-      "title": "The clarinet steps back into A",
-      "from": "B′ · The longer tune returns first",
-      "to": "A″ · The skipping refrain comes home",
+      "title": "Return to A major and the refrain",
+      "from": "B′ · Episode theme returns before refrain",
+      "to": "A″ · Refrain, final return in A major",
       "at": {
         "t": 372
       },
-      "how": "<p>The connecting passage brings the harmony back to A major. The clarinet begins the refrain over violins and violas, while winds and lower strings rest. The returning six-eight tune restores the light scoring of the opening.</p>",
+      "how": "<p>The connecting passage brings the harmony back to A major. The clarinet begins the refrain in six-eight over violins and violas, and the winds and lower strings rest. The scoring is the same light scoring as at the opening.</p>",
       "devices": [
         "retransition",
         "motivic link",
@@ -263,7 +263,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "The clarinet begins above violins and violas; cellos and double basses wait for the tutti."
+        "note": "The clarinet enters above violins and violas; cellos and double basses enter at the tutti."
       },
       {
         "t": 60,
@@ -329,7 +329,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "The clarinet’s minor-key phrases unfold above the strings."
+        "note": "The clarinet plays its minor-key phrases above the strings."
       },
       {
         "t": 272,

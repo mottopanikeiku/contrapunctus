@@ -1,0 +1,103 @@
+{
+  "composer": "bernstein",
+  "items": [
+    {
+      "work": "Chichester Psalms — I. Psalm 108, verse 2, and Psalm 100",
+      "year": "1965",
+      "performers": "Israel Philharmonic Orchestra; Wiener Jeunesse-Chor; Leonard Bernstein",
+      "recorded": "23 August 1977, Philharmonie, Berlin",
+      "label": "Leonard Bernstein official YouTube channel",
+      "note": "A filmed performance of the first movement, directed by Humphrey Burton and produced by SFB with Amberson Productions and Polytel. The movement opens with the Psalm 108 introduction and continues with Psalm 100 set as a dance in 7/4.",
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=3kBsS0RVFgk",
+          "title": "Leonard Bernstein: Chichester Psalms — I. Psalm 108 (Verse 2) and 100 (entire)"
+        }
+      ]
+    },
+    {
+      "work": "Candide — Overture",
+      "year": "1956",
+      "performers": "London Symphony Orchestra; Leonard Bernstein",
+      "recorded": "13 December 1989, Barbican Theatre, London",
+      "label": "Leonard Bernstein official YouTube channel; Deutsche Grammophon",
+      "note": "Filmed live at the Barbican Centre during the concert performances of Bernstein’s final version of the score. The video credits Humphrey Burton as director.",
+      "links": [
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=ovFVC2ZsOc4",
+          "title": "Leonard Bernstein — Overture to Candide | London Symphony Orchestra / Bernstein"
+        }
+      ]
+    },
+    {
+      "work": "Symphonic Dances from West Side Story · Symphonic Suite from On the Waterfront",
+      "year": "1960–61",
+      "performers": "New York Philharmonic; Leonard Bernstein",
+      "recorded": "16 May 1960 (On the Waterfront); 6 March 1961 (Symphonic Dances); Manhattan Center, New York",
+      "label": "Sony Classical; originally Columbia",
+      "note": "Bernstein’s recordings of two of his orchestral arrangements, issued together on this Sony album. He recorded the Symphonic Dances three weeks after Lukas Foss conducted the first performance on 13 February 1961.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/bernstein-symphonic-dances-from-west-side-story-symphonic/1207844102",
+          "title": "Bernstein: Symphonic Dances from “West Side Story” & Symphonic Suite from “On The Waterfront” (Remastered) on Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "West Side Story — complete recording",
+      "year": "1984–85",
+      "performers": "Kiri Te Kanawa, José Carreras, Tatiana Troyanos, Kurt Ollmann, Marilyn Horne; orchestra and chorus conducted by Leonard Bernstein",
+      "recorded": "September 1984, New York",
+      "label": "Deutsche Grammophon",
+      "note": "The recording made by the composer with opera singers in the principal roles, issued in 1985. The Bernstein Office’s guide to the show notes that he had not conducted a performance of it before this recording.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/gb/album/bernstein-west-side-story/1452642884",
+          "title": "Bernstein: West Side Story — Te Kanawa, Carreras, Troyanos, Ollmann, Horne, Bernstein on Apple Music"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Leonard Bernstein official YouTube channel: Chichester Psalms I, uploader checked through YouTube oEmbed; description gives the Berlin Philharmonie recording of 23 August 1977 and the credits",
+      "url": "https://www.youtube.com/watch?v=3kBsS0RVFgk"
+    },
+    {
+      "title": "Leonard Bernstein official YouTube channel: Overture to Candide, uploader checked through YouTube oEmbed; description gives the Barbican recording of 13 December 1989",
+      "url": "https://www.youtube.com/watch?v=ovFVC2ZsOc4"
+    },
+    {
+      "title": "Leonard Bernstein Office: Candide (1956), production history and the December 1989 concert and recording",
+      "url": "https://leonardbernstein.com/works/view/10/candide"
+    },
+    {
+      "title": "Leonard Bernstein Office: Chichester Psalms (1965), work page",
+      "url": "https://leonardbernstein.com/works/view/14/chichester-psalms"
+    },
+    {
+      "title": "Leonard Bernstein Office: Discography, New York Philharmonic entries with recording dates for the Symphonic Dances (6 March 1961) and the Waterfront suite (16 May 1960)",
+      "url": "https://www.leonardbernstein.com/discography?page=5&title=&composer=&performer=New+York+Philharmonic&category=&start_year=&end_year="
+    },
+    {
+      "title": "Sony Classical / Apple Music: Symphonic Dances from West Side Story and Symphonic Suite from On the Waterfront, album page",
+      "url": "https://music.apple.com/us/album/bernstein-symphonic-dances-from-west-side-story-symphonic/1207844102"
+    },
+    {
+      "title": "Deutsche Grammophon / Apple Music: Bernstein, West Side Story, album page with cast and 1985 date",
+      "url": "https://music.apple.com/gb/album/bernstein-west-side-story/1452642884"
+    },
+    {
+      "title": "Leonard Bernstein Office: West Side Story (1957), Jack Gottlieb’s guide, credits of the 1985 recording",
+      "url": "https://leonardbernstein.com/works/view/9/west-side-story"
+    },
+    {
+      "title": "Leonard Bernstein Office: Timeline, recording of West Side Story on 4 September 1984 and the premiere of the Symphonic Dances on 13 February 1961",
+      "url": "https://leonardbernstein.com/about/timeline"
+    }
+  ]
+}

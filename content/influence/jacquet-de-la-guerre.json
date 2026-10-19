@@ -1,0 +1,147 @@
+{
+  "batch": "jacquet-de-la-guerre",
+  "edges": [
+    {
+      "id": "lully--jacquet-de-la-guerre-cephale-1694",
+      "from": "lully",
+      "to": "jacquet-de-la-guerre",
+      "kind": "modelled",
+      "year": 1694,
+      "title": "Lully’s tragédie en musique and Céphale et Procris",
+      "works": {
+        "from": "Lully’s tragédies en musique, in a prologue and five acts, at the Académie royale de musique",
+        "to": "Céphale et Procris, tragédie en musique (Paris, 1694)"
+      },
+      "claim": "<p>[[jacquet-de-la-guerre]]’s <i>Céphale et Procris</i> was given by the Académie royale de musique at the Palais-Royal in March 1694 and printed by Christophe Ballard, printer to the king for music. Titon du Tillet described it as a tragedy in five acts with a prologue. Lully had died in 1687. Radio France’s biographical note says she composed it “in the line of” Lully, and the Opéra Royal at Versailles calls its style “distinctly Lullian”.</p>",
+      "status": "inferred",
+      "note": "Her dedication to the king names no model. The connection rests on the genre, the theatre and the descriptions by Radio France and the Opéra Royal; no statement by the composer supports it.",
+      "sources": [
+        {
+          "title": "Radio France, biography of Élisabeth Jacquet de La Guerre (Bibliothèque musicale de Radio France, December 2018)",
+          "url": "https://www.radiofrance.fr/personnes/elisabeth-jacquet-de-la-guerre-0",
+          "locator": "“En savoir plus”: “Dans la lignée de Jean-Baptiste Lully, elle compose notamment la tragédie lyrique Céphale et Procris”"
+        },
+        {
+          "title": "Opéra Royal, Château de Versailles Spectacles: Jacquet de la Guerre, Cephalus and Procris",
+          "url": "https://www.operaroyal-versailles.fr/en/evenement-p/jacquet-de-la-guerre-cephalus-and-procris-2023/",
+          "locator": "Presentation: “distinctly Lullian style”; Programme: lyric tragedy in a prologue and five acts, Duché de Vancy libretto, Palais-Royal 1694"
+        },
+        {
+          "title": "Céphale et Procris, tragédie en musique, libretto printed by Christophe Ballard (Paris, 1694)",
+          "url": "https://archive.org/details/case_ml50_2_a887_l25_1691_3",
+          "locator": "Title page: represented by the Académie royale de musique; prologue and five acts"
+        },
+        {
+          "title": "Titon du Tillet, Le Parnasse françois (Paris, 1732), entry CCXLIX",
+          "url": "https://archive.org/details/bub_gb_KjX7hZEPSsgC",
+          "locator": "p. 636: “Tragédie en cinq Actes avec un Prologue, représenté en 1694. & imprimé in-folio”"
+        }
+      ]
+    },
+    {
+      "id": "corelli--jacquet-de-la-guerre-trio-sonatas-1695",
+      "from": "corelli",
+      "to": "jacquet-de-la-guerre",
+      "kind": "modelled",
+      "year": 1695,
+      "title": "Corelli’s sonata model and her trio sonatas",
+      "works": {
+        "from": "Corelli, trio sonatas, Opp. 1 and 2",
+        "to": "Four trio sonatas, copied by Sébastien de Brossard in 1695"
+      },
+      "claim": "<p>In 1695 [[jacquet-de-la-guerre]] lent Sébastien de Brossard the originals of four trio sonatas “to have them copied”. His manuscript is titled “Sonnatta della signora de la guerre”, with Italian headings for the individual sonatas. Reviewing a recording of the trio sonatas in 2019, Johan van Veen noted that the booklet note names the arrival of Corelli’s trio sonatas, Opp. 1 and 2, in France as a landmark. He heard the influence of Corelli in them and wrote that she was “very much independent of his model”. Of the two solo sonatas copied with them he wrote that she did not follow Corelli’s example slavishly, either in the number of movements or in the order of tempi.</p>",
+      "status": "inferred",
+      "note": "No source reports Jacquet de La Guerre or Brossard naming Corelli as the model for these sonatas. The connection rests on the genre, the Italian titles and a reviewer’s comparison.",
+      "sources": [
+        {
+          "title": "Catalogue de l’œuvre d’Élisabeth Jacquet de La Guerre (CMBV, Philidor): Sonates en trio et sonates pour violon seul, EJG.recueil.03",
+          "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729/Recueils/JACQUET-DE-LA-GUERRE-SONATES-EN-TRIO-ET-SONATES-POUR-VIOLON-SEUL",
+          "locator": "Manuscript F-Pn Vm7 1110 titled “Sonnatta della signora de la guerre”; Brossard’s catalogue: the originals lent in 1695 “pour les faire copier”"
+        },
+        {
+          "title": "Johan van Veen, review of Jacquet de La Guerre, Chamber Music from the Brossard Collection, The Bach Players (Coviello Classics COV91815), MusicWeb International, January 2019",
+          "url": "http://www.musicweb-international.com/classrev/2019/Jan/Jacquet_Brossard_COV91815.htm",
+          "locator": "Paragraphs on Graham Sadler’s liner notes and Corelli’s Opp. 1 and 2; “very much independent of his model”"
+        }
+      ]
+    },
+    {
+      "id": "houdar-de-la-motte--jacquet-de-la-guerre-cantatas-1708",
+      "from": "houdar-de-la-motte",
+      "to": "jacquet-de-la-guerre",
+      "kind": "set-text",
+      "year": 1708,
+      "title": "Cantatas on La Motte’s scriptural poems",
+      "works": {
+        "from": "Antoine Houdar de La Motte, poems on subjects from Scripture",
+        "to": "Cantates françoises sur des sujets tirez de l’Ecriture, livres 1 and 2 (1708, 1711)"
+      },
+      "claim": "<p>The first book of <i>Cantates françoises sur des sujets tirez de l’Ecriture</i> by [[jacquet-de-la-guerre]], printed by Christophe Ballard in 1708, contains Esther, Le Passage de la mer Rouge, Jacob et Rachel, Jonas, Susanne et les vieillards and Judith. The <i>Journal des sçavans</i> of 7 January 1709 named Houdar de La Motte as the author of the words. The Philidor catalogue lists him as the poet of all twelve cantatas in the two books, which Cessac dates to 1708 and 1711.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Catalogue de l’œuvre d’Élisabeth Jacquet de La Guerre (CMBV, Philidor): Cantates spirituelles, I, EJG.recueil.05",
+          "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729/Recueils/JACQUET-DE-LA-GUERRE-CANTATES-SPIRITUELLES-I",
+          "locator": "Title page, 1708; contents; Journal des sçavans, 7 January 1709, p. 13: “M. de la Motte … est l’Auteur des paroles de ces Cantates”"
+        },
+        {
+          "title": "Catalogue de l’œuvre d’Élisabeth Jacquet de La Guerre (CMBV, Philidor): list of works",
+          "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729/Liste-des-aeuvres",
+          "locator": "EJG.25–36: text author Antoine Houdar de La Motte (1672–1731)"
+        },
+        {
+          "title": "Catherine Cessac, Elisabeth Jacquet de La Guerre, France Archives",
+          "url": "https://francearchives.gouv.fr/fr/pages_histoire/39256",
+          "locator": "Two books of cantatas published in 1708 and 1711, on texts by Houdar de La Motte"
+        }
+      ]
+    },
+    {
+      "id": "titon-du-tillet--jacquet-de-la-guerre-parnasse-1732",
+      "from": "titon-du-tillet",
+      "to": "jacquet-de-la-guerre",
+      "kind": "championed",
+      "year": 1732,
+      "title": "Titon du Tillet’s Parnasse françois",
+      "works": {
+        "from": "Le Parnasse françois (Paris, 1732), entry CCXLIX",
+        "to": "Her life and works; the medal inscribed “Aux grands Musiciens j’ay disputé le prix”"
+      },
+      "claim": "<p>Titon du Tillet gave [[jacquet-de-la-guerre]] a long entry in <i>Le Parnasse françois</i> of 1732. He recounted her years at court under Madame de Montespan, her marriage, her improvising and her works, and wrote that “never has anyone of her sex had such great talents as she for composing music”. The Philidor catalogue reports that her portrait appears there as a medallion with the legend “Aux grands Musiciens j’ay disputé le prix”, and a Bibliothèque nationale print by L. Crépy dated 1729 shows the medal with that legend.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Titon du Tillet, Le Parnasse françois (Paris, 1732), entry CCXLIX, pp. 635–636",
+          "url": "https://archive.org/details/bub_gb_KjX7hZEPSsgC",
+          "locator": "Entry on Élisabeth-Claude Jacquet de La Guerre: “jamais personne de son sexe n’a eu d’aussi grands talens qu’elle pour la composition de la musique”"
+        },
+        {
+          "title": "Catalogue de l’œuvre d’Élisabeth Jacquet de La Guerre, introduction (CMBV, Philidor)",
+          "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729/Introduction",
+          "locator": "Last sentence of the first paragraph: Titon’s long, admiring notice and the medallion with its devise"
+        },
+        {
+          "title": "L. Crépy, medal of Élisabeth Claude Jacquet de La Guerre, 1729 (Bibliothèque nationale de France, Gallica btv1b8421266c)",
+          "url": "https://gallica.bnf.fr/ark:/12148/btv1b8421266c",
+          "locator": "Obverse: portrait with her name; reverse: legend “Aux grands Musiciens j’ay disputé le prix”, MDCCXXIX"
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "houdar-de-la-motte",
+      "name": "Antoine Houdar de La Motte",
+      "dates": "1672–1731",
+      "year": 1672,
+      "kind": "poet"
+    },
+    {
+      "id": "titon-du-tillet",
+      "name": "Évrard Titon du Tillet",
+      "dates": "1677–1762",
+      "year": 1677,
+      "kind": "writer"
+    }
+  ]
+}

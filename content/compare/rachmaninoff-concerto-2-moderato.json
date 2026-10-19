@@ -1,10 +1,10 @@
 {
   "id": "rachmaninoff-concerto-2-moderato",
-  "title": "Rachmaninoff and Richter: bells become a song",
+  "title": "Piano Concerto No. 2, Moderato: Rachmaninoff and Richter",
   "composer": "rachmaninoff",
   "work": "Piano Concerto No. 2, Op. 18 — I. Moderato, opening-side comparison only",
-  "question": "How do Rachmaninoff and Richter make the piano sing after its opening chords and rushing accompaniment?",
-  "intro": "The piano’s opening chords toll like bells, then break into running notes beneath a melody for strings and clarinet. Before long the soloist takes a song of its own in E♭ major. Rachmaninoff’s 1929 Philadelphia performance and Richter’s 1959 Warsaw recording meet here over the opening disc side.",
+  "question": "How do Rachmaninoff and Richter handle the piano’s melodic writing after its opening chords and fast accompaniment figures?",
+  "intro": "The piano opens with a series of chords, then moves into running notes beneath a melody for strings and clarinet. Later the soloist plays a theme of its own in E♭ major. Rachmaninoff’s 1929 Philadelphia performance and Richter’s 1959 Warsaw recording are compared here over the opening disc side.",
   "group": "composer-performers",
   "recordings": [
     {
@@ -23,19 +23,19 @@
   "reference": "rachmaninoff-concerto-2-moderato",
   "passages": [
     {
-      "label": "The orchestra sings, the piano runs",
+      "label": "First theme in C minor, strings",
       "t": 30,
-      "note": "Violins, violas and clarinet carry the C minor tune. The piano sweeps through broken chords beneath them, above plucked cellos and basses."
+      "note": "Violins, violas and clarinet play the C minor tune. The piano plays broken chords beneath them, above pizzicato cellos and basses."
     },
     {
-      "label": "The piano steps forward",
+      "label": "Piano figuration over woodwind chords",
       "t": 100,
-      "note": "The piano steps out from beneath the strings, running between held woodwind chords and short orchestral replies."
+      "note": "The piano comes out from under the strings and plays running figures between held woodwind chords and short orchestral replies."
     },
     {
-      "label": "The piano’s E♭ major song",
+      "label": "Second theme in E♭ major",
       "t": 150,
-      "note": "The piano takes the second melody in E♭ major, singing above its own broken chords. Quiet strings and brief wind replies leave room around it."
+      "note": "The piano plays the second theme in E♭ major above its own broken chords. Quiet strings and short wind phrases accompany it."
     }
   ],
   "alignment": {

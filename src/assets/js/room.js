@@ -17,7 +17,7 @@ function spelling(key = '') {
 }
 let NAMES = MIXED;
 const FIFTHS = [0, 7, 2, 9, 4, 11, 6, 1, 8, 3, 10, 5];
-const KIND = { music: 'In the music', form: 'The form', listen: 'Listen for', life: 'The life', world: 'The world around it' };
+const KIND = { music: 'Music', form: 'Form', listen: 'Recording', life: 'Life', world: 'History' };
 const GOLDS = ['#e9cf8c', '#9fc3c6', '#e08c7a', '#b7a6d8', '#c9d58a', '#e6a96b', '#8fb3e0', '#d79bb6', '#a8d4b0', '#f0dfa8', '#c7a0e0', '#e4b38a'];
 const VIEW_LABEL = { score: 'Score', notes: 'Notes', orchestra: 'Orchestra', form: 'Form', sound: 'Sound' };
 
@@ -131,7 +131,7 @@ export async function mount(app) {
     ui.frame.dataset.view = v;
     ui.label.textContent = v === 'sound' ? 'Pitch over time · each band is an octave of C' : '';
     // Without an aligned score the wheel shows what sounds, and its centre names the piece's key: a live chord guess misleads.
-    ui.chordCap.textContent = track.monophonic ? 'one melody · no chords' : score ? 'from the score' : 'key of the piece';
+    ui.chordCap.textContent = track.monophonic ? 'single melodic line' : score ? 'from the score' : 'key of the piece';
     if (!score) ui.chord.textContent = (track.key ?? '').split(/[(;,]/)[0].replace(/ in the .*/, '').trim() || '—';
     ui.readouts.hidden = !score;
     if (v === 'score') viewObj = sheetView();
@@ -201,10 +201,10 @@ export async function mount(app) {
     const base = new URL(`assets/data/${track.id}/sheet/`, app.root);
     const wrap = document.createElement('div');
     wrap.className = 'sheet';
-    wrap.innerHTML = '<p class="sheet-wait">Opening the score…</p>';
+    wrap.innerHTML = '<p class="sheet-wait">Loading the score…</p>';
     const cap = document.createElement('p');
     cap.className = 'sheet-cap';
-    cap.innerHTML = `The written score${track.scoreSource?.title ? `: ${track.scoreSource.title}` : ''}${track.scoreSource?.edition ? `, ${track.scoreSource.edition}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Touch a bar to hear it.`;
+    cap.innerHTML = `The written score${track.scoreSource?.title ? `: ${track.scoreSource.title}` : ''}${track.scoreSource?.edition ? `, ${track.scoreSource.edition}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Select a bar to play from it.`;
     ui.layer.append(wrap, cap);
     const t0 = track;
     let pack = null, pages = [], current = null, lit = [], userScroll = 0, barLen = 0.25, io = null, destroyed = false;
@@ -393,8 +393,8 @@ export async function mount(app) {
     const cap = document.createElement('p');
     cap.className = 'sheet-cap';
     cap.innerHTML = arcs.length
-      ? 'The whole piece, left to right. Each block is a section; an arc joins material to its return (A to A′). Diamonds mark the joins between sections. Touch a block to go there.'
-      : 'The whole piece, left to right, one block per section. Diamonds mark the joins between sections. Touch a block to go there.';
+      ? 'The whole piece, left to right. Each block is a section; an arc joins material to its return (A to A′). Diamonds mark the joins between sections. Select a block to play from that section.'
+      : 'The whole piece, left to right, one block per section. Diamonds mark the joins between sections. Select a block to play from that section.';
     ui.layer.append(svg, cap);
     const head = svg.querySelector('.fm-head'), nowL = svg.querySelector('.fm-now-l'), nowN = svg.querySelector('.fm-now-n');
     const blocks = [...svg.querySelectorAll('.fm-sec')], arcEls = [...svg.querySelectorAll('.fm-arc')];
@@ -495,12 +495,12 @@ export async function mount(app) {
     svg.innerHTML = html;
     const now = document.createElement('div');
     now.className = 'stage-now';
-    now.innerHTML = '<span class="sn-k">Carrying the tune</span><span class="sn-lead">—</span><span class="sn-note"></span>';
+    now.innerHTML = '<span class="sn-k">Melody</span><span class="sn-lead">—</span><span class="sn-note"></span>';
     const cap = document.createElement('p');
     cap.className = 'sheet-cap';
     cap.textContent = score
-      ? 'Each section lights while its written part sounds (from the score, aligned automatically to this recording; not yet checked by ear). The brightest are carrying the tune.'
-      : `Who plays, passage by passage, read from the score${orch?.source?.title ? `: ${orch.source.title}` : ''}. Changes are placed against this recording by passage, so one may land a moment early or late. The brightest sections carry the tune.`;
+      ? 'Each section lights while its written part sounds (from the score, aligned automatically to this recording; not yet checked by ear). The brightest sections have the melody.'
+      : `Who plays in each passage, read from the score${orch?.source?.title ? `: ${orch.source.title}` : ''}. Changes are placed against this recording passage by passage and may fall a moment early or late. The brightest sections have the melody.`;
     ui.layer.append(svg, now, cap);
     const secs = new Map([...svg.querySelectorAll('.sec')].map((g) => [g.dataset.id, { g, level: 0, label: svg.querySelector(`.st-n[data-id="${g.dataset.id}"]`) }]));
     const leadEl = now.querySelector('.sn-lead'), noteEl = now.querySelector('.sn-note');
@@ -560,20 +560,20 @@ export async function mount(app) {
     joinIdx = i;
     if (i < 0) { ui.join.hidden = true; return; }
     const j = track.transitions[i];
-    ui.join.innerHTML = `<span class="join-k"><span class="diamond">◆</span> The join · ${escapeHtml(j.from)} <span class="arrow">→</span> ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span>
+    ui.join.innerHTML = `<span class="join-k"><span class="diamond">◆</span> Join · ${escapeHtml(j.from)} <span class="arrow">→</span> ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span>
 <h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div>
 <div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div>
-<button type="button" class="join-again" data-span="${j.span[0]}">Hear the join again</button>`;
+<button type="button" class="join-again" data-span="${j.span[0]}">Play the join again</button>`;
     ui.join.hidden = false;
-    wideCue.innerHTML = `<span>◆ The join</span>${escapeHtml(j.title)}`;
+    wideCue.innerHTML = `<span>◆ Join</span>${escapeHtml(j.title)}`;
     if (!reduced) { ui.join.classList.remove('enter'); void ui.join.offsetWidth; ui.join.classList.add('enter'); }
   }
   on(ui.join, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
 
   function renderJoinsTab() {
     const js = track.transitions;
-    ui.tabJoins.innerHTML = js.length ? `<p class="joins-intro">How ${escapeHtml(track.composer.short ?? track.composer.name)} gets from one section to the next. Each join appears in <em>As it plays</em> when the music reaches it.</p>` + js.map((j) => `<article class="join-item"><span class="join-k"><span class="diamond">◆</span> ${fmt(j.at)} · ${escapeHtml(j.from)} → ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span><h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div><div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div><button type="button" class="join-again" data-span="${j.span[0]}">Hear this join</button></article>`).join('')
-      : '<p class="joins-intro">This piece runs as one continuous span; there are no section joins to dissect.</p>';
+    ui.tabJoins.innerHTML = js.length ? `<p class="joins-intro">Joins between the sections of this piece by ${escapeHtml(track.composer.short ?? track.composer.name)}. Each join also appears under <em>Listening notes</em> when the recording reaches it.</p>` + js.map((j) => `<article class="join-item"><span class="join-k"><span class="diamond">◆</span> ${fmt(j.at)} · ${escapeHtml(j.from)} → ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span><h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div><div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div><button type="button" class="join-again" data-span="${j.span[0]}">Play this join</button></article>`).join('')
+      : '<p class="joins-intro">No joins between sections are marked for this piece.</p>';
   }
   on(ui.tabJoins, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
 
@@ -584,16 +584,16 @@ export async function mount(app) {
 <p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>— ${c.quote.source}</small></blockquote>` : ''}${c.background}
 <dl><div><dt>Born</dt><dd>${c.born}</dd></div>${c.died ? `<div><dt>Died</dt><dd>${c.died}</dd></div>` : ''}${c.facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
 <div class="inherit"></div>
-${c.page === null ? '' : `<a class="more-link" href="${new URL(c.page ?? `composers/${c.slug}.html`, app.root).href}">${c.era === 'before-bach' || (c.page ?? '').startsWith('origins') ? 'Before Bach: the origins of this music →' : 'The full portrait: life, scores, paintings →'}</a>`}`;
+${c.page === null ? '' : `<a class="more-link" href="${new URL(c.page ?? `composers/${c.slug}.html`, app.root).href}">${c.era === 'before-bach' || (c.page ?? '').startsWith('origins') ? 'Before Bach: origins of this music' : 'Composer chapter: life, scores, paintings'}</a>`}`;
     const t0 = track;
     influence().then((all) => {
       const mine = all?.[c.slug];
       if (!mine || track !== t0 || (!mine.in?.length && !mine.out?.length)) return;
       const item = (e, dir) => `<li><a href="${new URL(`influence.html#edge-${e.id}`, app.root).href}"><span class="ih-y">${e.year ?? ''}</span><span class="ih-t">${escapeHtml(e.title)}</span><span class="ih-w">${dir === 'in' ? 'from' : 'to'} ${escapeHtml(e.name ?? e.from ?? e.to ?? '')} · ${escapeHtml(e.kind)}</span></a></li>`;
-      $('.inherit', ui.tabComposer).innerHTML = `<h4 class="tab-h">Inheritance</h4>
-${mine.in?.length ? `<p class="ih-k">What ${escapeHtml(c.short ?? c.name)} took</p><ol class="ih">${mine.in.map((e) => item(e, 'in')).join('')}</ol>` : ''}
-${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short ?? c.name)}</p><ol class="ih">${mine.out.map((e) => item(e, 'out')).join('')}</ol>` : ''}
-<a class="more-link" href="${new URL(`influence.html#node-${c.slug}`, app.root).href}">See ${escapeHtml(c.short ?? c.name)} in the Web of Influence →</a>`;
+      $('.inherit', ui.tabComposer).innerHTML = `<h4 class="tab-h">Influences</h4>
+${mine.in?.length ? `<p class="ih-k">Influences on ${escapeHtml(c.short ?? c.name)}</p><ol class="ih">${mine.in.map((e) => item(e, 'in')).join('')}</ol>` : ''}
+${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.name)} on others</p><ol class="ih">${mine.out.map((e) => item(e, 'out')).join('')}</ol>` : ''}
+<a class="more-link" href="${new URL(`influence.html#node-${c.slug}`, app.root).href}">${escapeHtml(c.short ?? c.name)} in the Web of Influence</a>`;
     });
   }
   let compareData = null;
@@ -609,13 +609,13 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
       : `<dl class="dossier"><div><dt>Performers</dt><dd>${escapeHtml(t.performers)}</dd></div><div><dt>Recording</dt><dd><a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a> · ${escapeHtml(t.license)}</dd></div></dl>`;
     const cite = `${t.composer.name}, <i>${escapeHtml(t.work)}</i>${t.movement ? `, ${escapeHtml(t.movement)}` : ''}. ${escapeHtml(t.performers)}. Audio: <a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a>. Notes: Contrapunctus, ${location.href.split('#')[0]}#${t.id}.`;
     ui.tabPiece.innerHTML = `<h3>${t.work}${t.movement ? `<br><small style="font-style:italic;font-size:.75em">${t.movement}</small>` : ''}</h3>
-<p class="intro">${t.intro}</p>${t.workPage ? `<p class="work-link"><a href="${new URL(t.workPage, app.root).href}">Every recording of this work, with all its notes →</a></p>` : ''}
+<p class="intro">${t.intro}</p>${t.workPage ? `<p class="work-link"><a href="${new URL(t.workPage, app.root).href}">Work page: every recording, with all its notes</a></p>` : ''}
 <dl>${t.year ? `<div><dt>Composed</dt><dd>${t.year}</dd></div>` : ''}${t.key ? `<div><dt>Key</dt><dd>${t.key}</dd></div>` : ''}<div><dt>Forces</dt><dd>${t.forces}</dd></div></dl>
-<h4 class="tab-h">The recording</h4>${dossier}
+<h4 class="tab-h">Recording details</h4>${dossier}
 <h4 class="tab-h">Form</h4><ol class="sec-list">${t.sections.map((s) => `<li data-t="${s.t}"><span>${fmt(s.t)}</span><span>${s.label}</span></li>`).join('')}</ol>
 <h4 class="tab-h">All listening notes</h4><ol class="cue-list">${t.cues.map((c) => `<li data-t="${c.t}" data-kind="${c.kind}"><span>${fmt(c.t)}</span><span>${c.title}</span></li>`).join('')}</ol>
 <div class="others"></div>
-<h4 class="tab-h">How to cite</h4><p class="cite">${cite}</p>`;
+<h4 class="tab-h">Citation</h4><p class="cite">${cite}</p>`;
     const t0 = t;
     compareIndex().then((idx) => {
       const mine = idx?.[t.id];
@@ -642,7 +642,7 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
   }
   function renderJoinMarkers() {
     const d = track.duration;
-    ui.tlJoins.innerHTML = track.transitions.map((j, i) => `<button type="button" style="left:${(j.at / d) * 100}%" data-join="${i}" title="The join: ${escapeHtml(j.title)}" aria-label="Join at ${fmt(j.at)}: ${escapeHtml(j.title)}">◆</button>`).join('');
+    ui.tlJoins.innerHTML = track.transitions.map((j, i) => `<button type="button" style="left:${(j.at / d) * 100}%" data-join="${i}" title="Join: ${escapeHtml(j.title)}" aria-label="Join at ${fmt(j.at)}: ${escapeHtml(j.title)}">◆</button>`).join('');
   }
   on(ui.tlJoins, 'pointerdown', (e) => e.stopPropagation());
   on(ui.tlJoins, 'click', (e) => { const b = e.target.closest('[data-join]'); if (b) seek(track.transitions[+b.dataset.join].span[0]); });
@@ -842,7 +842,7 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
       text(ui.nsNote, sec?.mNote ?? '');
     }
     const nextSec = track.sections[s + 1];
-    text(ui.nsNext, nextSec ? `Next, in ${fmt(nextSec.t - t)}: ${nextSec.label}` : '');
+    text(ui.nsNext, nextSec ? `Next section in ${fmt(nextSec.t - t)}: ${nextSec.label}` : '');
     if (visible.view) viewObj?.draw?.(t);
     if (score && visible.wheel) scoreReadouts(t);
   }

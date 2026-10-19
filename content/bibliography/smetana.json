@@ -1,0 +1,48 @@
+{
+  "id": "smetana",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Bronislav Wellek, *Friedrich Smetana* (Prague: H. Dominicus [Th. Grüss], 1895; reprinted from *Österreichisch-Ungarische Revue*, vol. 17).",
+      "url": "https://archive.org/details/11658530bsb",
+      "kind": "early biography and letters",
+      "note": "The book prints what Smetana said about his own works and how they were described in the 1890s, including his letters to Liszt, the programmes of Má vlast and his account of the string quartet. It is in German and in Fraktur."
+    },
+    {
+      "cite": "Bedřich Smetana Museum, National Museum, Prague, *Bedřich Smetana: life and catalogue of works*.",
+      "url": "https://bedrichsmetana.nm.cz/en/catalogue",
+      "kind": "catalogue",
+      "note": "For each work the entries give the dates on which it was begun, finished and first performed, with places, performers and editions, and Smetana’s own list of 1875."
+    },
+    {
+      "cite": "Ulrich Hoppe and Frank Rosanowski, “The deafness of Bedrich Smetana”, *GMS Zeitschrift für Audiologie* 6 (2024), Doc02, doi:10.3205/zaud000037.",
+      "url": "https://journals.publisso.de/en/journals/zaud/volume6/zaud000037",
+      "kind": "article",
+      "note": "On the onset and cause of the hearing loss. The article follows Smetana’s diary and letters and sets out the case for syphilis and the arguments against it."
+    },
+    {
+      "cite": "František Bartoš (ed.), *Bedřich Smetana: Letters and Reminiscences* (Prague: Artia, 1955).",
+      "url": "https://archive.org/details/bedrichsmetanale00smet",
+      "kind": "letters",
+      "note": "For what Smetana and his friends wrote at the time, the Internet Archive holds a lending copy. Hoppe and Rosanowski cite the German edition of 1954, *Smetana in Briefen und Erinnerungen*, for Smetana’s diary and for the accounts of Hostinský and Čech."
+    },
+    {
+      "cite": "Brian Large, *Smetana* (New York: Praeger, 1970).",
+      "url": "https://archive.org/details/smetana00larg",
+      "kind": "biography",
+      "note": "A full-length English biography; the Internet Archive record lists its bibliography at pages 460–461."
+    },
+    {
+      "cite": "John Clapham, *Smetana* (London: Dent; New York: Octagon Books, 1972).",
+      "url": "https://archive.org/details/smetana0000clap",
+      "kind": "biography",
+      "note": "A shorter English biography, 161 pages with a bibliography at pages 147–149; the Internet Archive holds a lending copy of the Dent volume."
+    },
+    {
+      "cite": "Marek Nekula, “Language loyalty and language shift in Bohemia in the long 19th century based on the language biography of Friedrich (Bedřich) Smetana”, *Language & History* 64.2 (2021), 92–112, doi:10.1080/17597536.2021.1898126.",
+      "url": "https://epub.uni-regensburg.de/53043/",
+      "kind": "article",
+      "note": "On the languages Smetana used in his letters and diaries, with the dates of his change from German to Czech and from Friedrich to Bedřich."
+    }
+  ]
+}

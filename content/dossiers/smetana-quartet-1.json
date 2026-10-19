@@ -1,0 +1,197 @@
+{
+  "id": "smetana-quartet-1",
+  "work": {
+    "title": "String Quartet No. 1 in E minor, “From My Life”",
+    "catalogue": "JB 1:105",
+    "movement": "Complete",
+    "version": {
+      "value": "The complete quartet, four movements on seven sides",
+      "status": "inferred",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item lists the movements and parts side by side; the edition used by the players is not identified."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Jascha Brodsky",
+        "role": "violin I"
+      },
+      {
+        "name": "Charles Jaffe",
+        "role": "violin II"
+      },
+      {
+        "name": "Max Aronoff",
+        "role": "viola"
+      },
+      {
+        "name": "Orlando Cole",
+        "role": "cello"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "label"
+    ],
+    "note": "The Internet Archive description credits the Curtis String Quartet with these four players and assigns Brodsky to violin I and Jaffe to violin II. The label of side 1 (MM-405 pressing, 70344-D) names Brodsky and Jaffe as violins, Aronoff as viola and Cole as cello, without assigning the violin parts."
+  },
+  "session": {
+    "date": {
+      "value": "1940-03-06",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The Internet Archive description gives 6 March 1940. No second source for the date was found.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York City",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The studio is not named."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label",
+        "columbia-1940"
+      ],
+      "note": "Issued as a 78-rpm album set."
+    },
+    "catalogue": {
+      "value": "M-405 (69849-D to 69852-D); automatic sequence AM-405 (69853-D to 69856-D); later reissue MM-405 (70344-D to 70347-D)",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "label",
+        "columbia-1940"
+      ],
+      "note": "The label scanned in the item reads MM 405-1, 70344-D, the drop-automatic reissue pressing. The item description says the set was issued in May 1940; Columbia’s October 1940 catalogue lists all three number ranges."
+    },
+    "matrixTakeSides": {
+      "value": "Sides 1–7, matrices XCO 27013 to 27019; side 8, XCO 27020, is Tchaikovsky’s scherzo and is not part of this recording",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Side 1: first movement, part 1; side 2: first movement, part 2; side 3: second movement, part 1; side 4: second movement, part 2 and third movement, part 1; side 5: third movement, part 2; side 6: third movement, part 3 and finale, part 1; side 7: finale, part 2. Take numbers are not given."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Shellackophile collection, Internet Archive",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "No personal mastering credit is given."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item was added to the Internet Archive on 4 July 2022; the date of the transfer is not stated."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive",
+        "files"
+      ],
+      "note": "Equipment, equalisation and restoration are not stated. The file is a single continuous MP3 of the seven sides."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/mm-405-smetana-sq-1/MM405%20Smetana%20SQ1.mp3",
+    "sourceChain": [
+      "archive",
+      "files"
+    ],
+    "format": "VBR MP3; the uploader’s continuous transfer of seven 78-rpm sides",
+    "durationSeconds": 1623.31
+  },
+  "rights": {
+    "composition": {
+      "value": "Smetana died on 12 May 1884; the composition is in the public domain.",
+      "status": "documented",
+      "sourceIds": [
+        "museum"
+      ],
+      "note": "The death date is from the Bedřich Smetana Museum. This does not cover a later edition or arrangement."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: first issued in 1940, before 1963",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "columbia-1940",
+        "eu-term"
+      ],
+      "note": "The project’s eu-published-before-1963 rule applies to a Columbia set issued in 1940: the former 50-year phonogram term had expired before the 2011 extension applied on 1 November 2013. The Internet Archive description gives the issue as May 1940. Columbia’s own October 1940 catalogue independently lists the set as M-405 (69849-D to 69852-D), so the first issue was no later than October 1940. This is not US or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Smetana, String Quartet No. 1 in E minor, “From My Life”; Curtis String Quartet. Columbia Masterworks M-405 (1940 issue), Internet Archive transfer. Territorial EU phonogram basis only.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Smetana Quartet No. 1 (Curtis String Quartet, 1940), item description",
+      "url": "https://archive.org/metadata/mm-405-smetana-sq-1",
+      "locator": "Description: the Curtis String Quartet (Brodsky, Jaffe, Aronoff, Cole); recorded 6 March 1940, New York City; issued May 1940 as Columbia Masterworks M-405 (69849-D to 69852-D), AM-405 and MM-405; side and matrix list XCO 27013–27020.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive: file inventory for the Curtis item",
+      "url": "https://archive.org/metadata/mm-405-smetana-sq-1/files",
+      "locator": "MM405 Smetana SQ1.mp3; VBR MP3; 1623.31 seconds; MD5 133ae6af523013a0923cefeb0c87bcc8.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32011L0077",
+      "locator": "Recitals 1–3; Article 1(2) and 1(3): former 50-year term and extension for phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "museum",
+      "title": "Bedřich Smetana Museum, National Museum: Life",
+      "url": "https://bedrichsmetana.nm.cz/en/info/life",
+      "locator": "Born 2 March 1824; died 1884 in Prague (12 May 1884 in the museum’s catalogue and in Wellek, Friedrich Smetana, 1895).",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "columbia-1940",
+      "title": "Columbia Catalog, October 1940 (Columbia Recording Corporation), Internet Archive",
+      "url": "https://archive.org/details/columbia-catalog-october-1940",
+      "locator": "Masterworks sets listed by composer: Smetana, Quartet No. 1 in E Minor, Curtis String Quartet (69849-D to 69852-D), AM (69853-D to 69856-D), MM (70344-D to 70347-D), 8 pts., set M-405, $4.50.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "label",
+      "title": "Internet Archive: label scan of side 1, item mm-405-smetana-sq-1",
+      "url": "https://archive.org/details/mm-405-smetana-sq-1",
+      "locator": "File ‘MM405 label 1.JPG’: Columbia Masterworks MM 405-1, 70344-D (XCO 27013), Curtis String Quartet (Jascha Brodsky and Charles Jaffe, violins; Max Aronoff, viola; Orlando Cole, cello).",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

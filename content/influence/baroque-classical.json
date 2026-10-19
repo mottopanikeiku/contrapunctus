@@ -190,12 +190,12 @@
    "to": "couperin",
    "kind": "championed",
    "year": 1724,
-   "title": "Corelli climbs Couperin’s Parnassus",
+   "title": "Couperin’s Parnassus apotheosis of Corelli",
    "works": {
     "from": "Corelli’s instrumental music",
     "to": "Le Parnasse, ou L’Apothéose de Corelli (1724)"
    },
-   "claim": "<p>Couperin’s 1724 trio sonata sends Corelli up Parnassus in seven named movements. He petitions the Muses, drinks at Hippocrene, sleeps, and takes his place beside Apollo.</p>",
+   "claim": "<p>Couperin’s trio sonata of 1724 depicts Corelli’s ascent of Parnassus in seven named movements. In them Corelli petitions the Muses, drinks at Hippocrene, sleeps, and takes his place beside Apollo.</p>",
    "status": "documented",
    "sources": [
     {
@@ -211,12 +211,12 @@
    "to": "couperin",
    "kind": "championed",
    "year": 1725,
-   "title": "Lully and Corelli reconcile on Parnassus",
+   "title": "Reconciliation of Lully and Corelli on Parnassus",
    "works": {
     "from": "Lully’s French instrumental style",
     "to": "L’Apothéose de Lully (1725)"
    },
-   "claim": "<p>In Couperin’s 1725 instrumental homage, Apollo persuades Lully and Corelli to unite French and Italian tastes. The movement headings give each man a turn: Lully plays the subject while Corelli accompanies, then they swap.</p>",
+   "claim": "<p>In Couperin’s 1725 instrumental homage, Apollo persuades Lully and Corelli to unite French and Italian tastes. According to the movement headings, Lully plays the subject while Corelli accompanies, and then they swap.</p>",
    "status": "documented",
    "sources": [
     {
@@ -232,13 +232,13 @@
    "to": "vivaldi",
    "kind": "quoted",
    "year": 1705,
-   "title": "An inherited dance closes Vivaldi’s first opus",
+   "title": "Inherited dance closing Vivaldi’s first opus",
    "thread": "la-folia",
    "works": {
     "from": "The late Folia melody and harmonic scheme",
     "to": "Trio Sonata in D minor, Op. 1 No. 12, RV 63 (1705)"
    },
-   "claim": "<p>Vivaldi ended his first published collection of trio sonatas with variations on <i>La Folia</i> for two violins and continuo. The opening Adagio states the inherited melody in D minor; the variations change its pace and send the violin parts racing.</p>",
+   "claim": "<p>Vivaldi ended his first published collection of trio sonatas with variations on <i>La Folia</i> for two violins and continuo. The opening Adagio states the inherited melody in D minor. In the variations the tempo changes and the violins play in fast running figures.</p>",
    "status": "documented",
    "note": "The tradition node’s year 1600 is an approximate display date. La Folia’s origins are older and uncertain.",
    "sources": [
@@ -260,12 +260,12 @@
    "to": "rameau",
    "kind": "set-text",
    "year": 1745,
-   "title": "Voltaire supplies Rameau’s comédie-ballet",
+   "title": "Voltaire’s text for Rameau’s comédie-ballet",
    "works": {
     "from": "Voltaire, La Princesse de Navarre",
     "to": "La Princesse de Navarre, RCT 44 (1745)"
    },
-   "claim": "<p>Voltaire wrote the words, Rameau the music: their <i>La Princesse de Navarre</i> of 1745 is a comédie-ballet in three acts, with an overture.</p>",
+   "claim": "<p><i>La Princesse de Navarre</i> (1745), with words by Voltaire and music by Rameau, is a comédie-ballet in three acts, with an overture.</p>",
    "status": "documented",
    "sources": [
     {
@@ -286,7 +286,7 @@
    "to": "bach",
    "kind": "heard",
    "year": 1705,
-   "title": "Bach outstays his leave in Lübeck",
+   "title": "Bach’s overextended leave in Lübeck",
    "works": {
     "from": "Buxtehude’s organ playing in Lübeck",
     "to": "Bach’s visit of 1705–06"
@@ -307,12 +307,12 @@
    "to": "bach",
    "kind": "copied",
    "year": 1714,
-   "title": "Frescobaldi’s organ Masses reach Bach’s desk",
+   "title": "Frescobaldi’s organ Masses and Bach",
    "works": {
     "from": "Fiori musicali (1635)",
     "to": "Bach’s study copy of Fiori musicali"
    },
-   "claim": "<p>A manuscript of Frescobaldi’s <i>Fiori musicali</i> bore Bach’s name and the date 1714. Its chant-based Kyrie versets, canzonas and ricercars brought Italian liturgical organ music to his desk. The volume was lost during the Second World War.</p>",
+   "claim": "<p>A manuscript of Frescobaldi’s <i>Fiori musicali</i> bore Bach’s name and the date 1714. It contained chant-based Kyrie versets, canzonas and ricercars, Italian liturgical organ music that Bach had in his own copy. The volume was lost during the Second World War.</p>",
    "status": "documented",
    "note": "Older accounts call this Bach’s complete autograph copy. The 2026 source suggests a scribal copy signed and dated by him. The copyist’s identity remains uncertain; the edge records manuscript transmission.",
    "sources": [
@@ -334,12 +334,12 @@
    "to": "bach",
    "kind": "copied",
    "year": 1710,
-   "title": "Bach writes out a French organ book",
+   "title": "Bach’s copy of a French organ book",
    "works": {
     "from": "Premier livre d’orgue (1699; reissued 1711)",
     "to": "Bach’s copy of Grigny’s organ collection"
    },
-   "claim": "<p>Bach’s autograph copy of Grigny’s <i>Premier livre d’orgue</i> survives in Frankfurt as Mus Hs 1538. In the same manuscript he copied Dieupart’s harpsichord suites and d’Anglebert’s ornament table: French repertory and instructions for playing its ornaments travelled together into his working library.</p>",
+   "claim": "<p>Bach’s autograph copy of Grigny’s <i>Premier livre d’orgue</i> survives in Frankfurt as Mus Hs 1538. In the same manuscript he also copied Dieupart’s harpsichord suites and d’Anglebert’s ornament table, so French repertory and instructions for playing its ornaments entered his working library together.</p>",
    "status": "documented",
    "note": "The holding library dates the composite manuscript 1709–14, with catalogue metadata c. 1710. The timeline follows that approximate catalogue date.",
    "sources": [
@@ -361,12 +361,12 @@
    "to": "bach",
    "kind": "modelled",
    "year": 1705,
-   "title": "An ensemble sonata becomes a keyboard work",
+   "title": "Ensemble sonata arranged as keyboard work",
    "works": {
     "from": "Hortus musicus, Sonata No. 1",
     "to": "Sonata in A minor, BWV 965 (c. 1705)"
    },
-   "claim": "<p>Bach’s A-minor keyboard Sonata BWV 965 adapts Reincken’s first sonata from <i>Hortus musicus</i>, bringing an ensemble work under two hands. He keeps its succession of introductory, fugal and dance movements.</p>",
+   "claim": "<p>Bach’s A-minor keyboard Sonata BWV 965 is an arrangement of Reincken’s first sonata from <i>Hortus musicus</i>, an ensemble work, for a single keyboard player. He kept its succession of introductory, fugal and dance movements.</p>",
    "status": "documented",
    "note": "The date c. 1705 is approximate.",
    "sources": [
@@ -388,14 +388,14 @@
    "to": "bach",
    "kind": "copied",
    "year": 1713,
-   "title": "Two solo violins move onto Bach’s organ",
+   "title": "Music for two solo violins on Bach’s organ",
    "works": {
     "from": "Concerto in A minor, Op. 3 No. 8, RV 522 (1711)",
     "to": "Organ Concerto in A minor, BWV 593 (c. 1713)"
    },
-   "claim": "<p>Bach transcribed Vivaldi’s A-minor concerto for two violins, strings and continuo as the solo-organ Concerto BWV 593 around 1713. The two manuals let him distinguish tutti and solo material; added ornaments, middle-voice detail and fuller chords adapt the same concerto architecture to the organ.</p>",
+   "claim": "<p>Bach transcribed Vivaldi’s A-minor concerto for two violins, strings and continuo as the solo-organ Concerto BWV 593 around 1713. He used the two manuals to separate tutti and solo material, and he added ornaments, detail in the middle voices and fuller chords while keeping the structure of the concerto.</p>",
    "status": "documented",
-   "note": "The transcription is documented; c. 1713 is an approximate date, and Prince Johann Ernst’s precise role in supplying the print remains a probability.",
+   "note": "The transcription is documented. The date of c. 1713 is approximate, and it is probable, though not certain, that Prince Johann Ernst supplied the print.",
    "sources": [
     {
      "title": "Netherlands Bach Society: Concerto in A minor, BWV 593",
@@ -432,12 +432,12 @@
    "to": "bach",
    "kind": "copied",
    "year": 1730,
-   "title": "Four violins become four harpsichords",
+   "title": "Four violins arranged for four harpsichords",
    "works": {
     "from": "Concerto in B minor, Op. 3 No. 10, RV 580",
     "to": "Concerto for four harpsichords in A minor, BWV 1065 (c. 1730)"
    },
-   "claim": "<p>Bach converted Vivaldi’s B-minor concerto for four violins into an A-minor concerto for four harpsichords and strings. Each violin line becomes a two-handed keyboard part; the broken-chord slow movement remains especially close to Vivaldi’s original, despite the changed instrumental sound.</p>",
+   "claim": "<p>Bach arranged Vivaldi’s B-minor concerto for four violins as an A-minor concerto for four harpsichords and strings. Each violin line becomes a keyboard part for two hands. The slow movement, built on broken chords, stays especially close to Vivaldi’s original.</p>",
    "status": "documented",
    "note": "Around 1730 is an estimate. The original performers are unknown; Bach and three of his children have been proposed.",
    "sources": [
@@ -454,12 +454,12 @@
    "to": "bach",
    "kind": "copied",
    "year": 1714,
-   "title": "An oboe concerto becomes keyboard ornament study",
+   "title": "Oboe concerto arranged as keyboard ornament study",
    "works": {
     "from": "Oboe Concerto in D minor, S D935",
     "to": "Keyboard Concerto in D minor, BWV 974 (c. 1713–14)"
    },
-   "claim": "<p>Bach made BWV 974 from Alessandro Marcello’s D-minor oboe concerto. One keyboard takes over from the oboe and strings, with Bach elaborating the solo line’s ornaments.</p>",
+   "claim": "<p>Bach made BWV 974 from Alessandro Marcello’s D-minor oboe concerto. In the arrangement one keyboard plays the oboe and string parts, and Bach wrote out more elaborate ornaments for the solo line.</p>",
    "status": "documented",
    "note": "The transcription is dated approximately 1713–14; the route by which the manuscript reached Weimar is uncertain.",
    "sources": [
@@ -476,7 +476,7 @@
    "to": "bach",
    "kind": "parodied",
    "year": 1746,
-   "title": "A Stabat mater becomes a German psalm",
+   "title": "Stabat mater reworked as a German psalm",
    "works": {
     "from": "Stabat mater",
     "to": "Tilge, Höchster, meine Sünden, BWV 1083 (1740s)"
@@ -498,14 +498,14 @@
    "to": "bach",
    "kind": "set-text",
    "year": 1730,
-   "title": "Luther’s hymn becomes a contrapuntal fortress",
+   "title": "Contrapuntal setting of Luther’s hymn",
    "works": {
     "from": "Ein feste Burg ist unser Gott",
     "to": "Ein feste Burg ist unser Gott, BWV 80, Leipzig versions"
    },
-   "claim": "<p>Bach expanded an earlier Weimar cantata into a Leipzig Reformation cantata using Luther’s <i>Ein feste Burg</i>. In the opening movement, the instruments sound the chorale in long notes while the chorus works around it in imitation.</p>",
+   "claim": "<p>Bach expanded an earlier Weimar cantata into a Leipzig Reformation cantata on Luther’s <i>Ein feste Burg</i>. In the opening movement the instruments play the chorale in long notes while the chorus sings in imitation around it.</p>",
    "status": "documented",
-   "note": "The Leipzig work developed in stages; 1730 is an approximate timeline date. The later trumpet additions are by Wilhelm Friedemann Bach.",
+   "note": "The Leipzig work developed in stages; 1730 is an approximate date. The later trumpet parts were added by Wilhelm Friedemann Bach.",
    "sources": [
     {
      "title": "Craig Smith, Emmanuel Music: BWV 80 notes",
@@ -520,14 +520,14 @@
    "to": "bach",
    "kind": "quoted",
    "year": 1749,
-   "title": "An old Credo intonation enters Bach’s counterpoint",
+   "title": "Credo intonation in Bach’s counterpoint",
    "works": {
     "from": "Plainchant intonation, Credo in unum Deum",
     "to": "Mass in B minor, BWV 232, opening Credo"
    },
-   "claim": "<p>Bach based the opening of the B-minor Mass’s Credo on an older chant intonation for the words <i>Credo in unum Deum</i>. He gives the borrowed head-motif measured rhythm and sets it over a walking continuo bass, joining an archaic vocal subject to an active instrumental foundation.</p>",
+   "claim": "<p>Bach based the opening of the B-minor Mass’s Credo on an older chant intonation for the words <i>Credo in unum Deum</i>. He set the borrowed head-motif in measured rhythm over a walking continuo bass.</p>",
    "status": "documented",
-   "note": "1749 marks the approximate completion of the assembled Mass; the movement’s first conception is harder to date. The tradition node’s year 800 locates chant broadly on the timeline.",
+   "note": "1749 is the approximate date by which the Mass was assembled; when the movement was first conceived is harder to date. The year 800 given for the tradition node places chant broadly on the timeline.",
    "sources": [
     {
      "title": "Bach Choir of Bethlehem: BWV 232, Credo",
@@ -547,14 +547,14 @@
    "to": "bach",
    "kind": "copied",
    "year": 1725,
-   "title": "Couperin enters the Bach family notebook",
+   "title": "Couperin in the Bach family notebook",
    "works": {
     "from": "Les Bergeries, Second livre, Sixième ordre (1717)",
     "to": "Anna Magdalena Bach’s 1725 notebook, No. 6, BWV Anh. 183"
    },
-   "claim": "<p>Couperin’s <i>Les Bergeries</i>, published in 1717, found a place in the Bach household. The B♭-major rondeau appears as No. 6 in Anna Magdalena’s 1725 notebook.</p>",
+   "claim": "<p>Couperin’s <i>Les Bergeries</i> was published in 1717 and was known in the Bach household. The B♭-major rondeau appears as No. 6 in Anna Magdalena’s 1725 notebook.</p>",
    "status": "documented",
-   "note": "The year names the notebook, whose entries accumulated over time. The edge records a household copy; Johann Sebastian’s hand has not been authenticated for this entry.",
+   "note": "The year is that of the notebook, to which entries were added over time. The edge records a household copy; the entry has not been authenticated as being in Johann Sebastian’s hand.",
    "sources": [
     {
      "title": "Notebook for Anna Magdalena Bach: compositions by other composers",
@@ -569,14 +569,14 @@
    "to": "handel",
    "kind": "studied-with",
    "year": 1693,
-   "title": "Zachow joins counterpoint to foreign repertory",
+   "title": "Zachow: counterpoint and foreign repertory",
    "works": {
     "from": "Zachow’s teaching in Halle",
     "to": "Handel’s childhood training"
    },
-   "claim": "<p>Before his Hamburg apprenticeship, Handel studied with the Halle organist Friedrich Wilhelm Zachow. Alongside counterpoint and figured bass, Zachow put Italian and French instrumental music before his pupil.</p>",
+   "claim": "<p>Before his Hamburg apprenticeship, Handel studied with the Halle organist Friedrich Wilhelm Zachow. As well as counterpoint and figured bass, Zachow taught his pupil Italian and French instrumental music.</p>",
    "status": "documented",
-   "note": "1693 is an approximate childhood timeline anchor. The cited scholarly account explicitly qualifies details inherited from Mainwaring’s retrospective biography.",
+   "note": "1693 is an approximate date for the childhood timeline. The cited scholarly account explicitly qualifies details inherited from Mainwaring’s retrospective biography.",
    "sources": [
     {
      "title": "David Kimbell, Handel on the Stage, chapter 1",
@@ -591,7 +591,7 @@
    "to": "handel",
    "kind": "set-text",
    "year": 1740,
-   "title": "Milton’s opposed poems alternate inside Handel’s ode",
+   "title": "Alternation of Milton’s opposed poems in Handel’s ode",
    "works": {
     "from": "L’Allegro and Il Penseroso",
     "to": "L’Allegro, il Penseroso ed il Moderato (1740)"
@@ -612,12 +612,12 @@
    "to": "handel",
    "kind": "set-text",
    "year": 1736,
-   "title": "Dryden’s musical feast reaches Covent Garden",
+   "title": "Dryden’s musical feast at Covent Garden",
    "works": {
     "from": "Alexander’s Feast, or the Power of Musick",
     "to": "Alexander’s Feast, HWV 75 (1736)"
    },
-   "claim": "<p>The Covent Garden advertisement for 19 February 1736 announces a new ode written by the late Dryden and set by Handel. A letter of 24 January catches it in preparation: Handel played almost the entire work to Shaftesbury, who singled out the chorus beginning ‘Happy, happy’.</p>",
+   "claim": "<p>The Covent Garden advertisement for 19 February 1736 announced a new ode written by the late Dryden and set by Handel. A letter of 24 January records that, while the work was in preparation, Handel played nearly all of it to Shaftesbury, who singled out the chorus beginning ‘Happy, happy’.</p>",
    "status": "documented",
    "sources": [
     {
@@ -633,12 +633,12 @@
    "to": "scarlatti",
    "kind": "heard",
    "year": 1708,
-   "title": "A Roman keyboard contest survives as anecdote",
+   "title": "Roman keyboard contest, as anecdote",
    "works": {
     "from": "Handel’s keyboard playing in Italy",
     "to": "Scarlatti’s reported encounter with Handel"
    },
-   "claim": "<p>In the story handed down by Handel’s biographer Mainwaring, Handel and Scarlatti compete at Cardinal Ottoboni’s in Rome. On the organ, Handel wins.</p>",
+   "claim": "<p>In the story handed down by Handel’s biographer Mainwaring, Handel and Scarlatti competed at Cardinal Ottoboni’s in Rome. Handel won on the organ.</p>",
    "status": "disputed",
    "note": "The contest’s exact date, judging and details lack contemporary confirmation in the sources consulted. Sandra Dolby traces the second-hand, oral transmission of Mainwaring’s Italian anecdotes. The year 1708 follows the cited concise biography.",
    "sources": [
@@ -660,12 +660,12 @@
    "to": "cpe-bach",
    "kind": "studied-with",
    "year": 1731,
-   "title": "Emanuel identifies his only music teacher",
+   "title": "Emanuel’s only music teacher",
    "works": {
     "from": "Johann Sebastian Bach’s household teaching",
     "to": "C. P. E. Bach’s training in keyboard and composition"
    },
-   "claim": "<p>In the autobiography prepared for Burney and published in 1773, Emanuel Bach names his father as his only teacher of composition and keyboard playing. He lists his own first published keyboard minuet under 1731.</p>",
+   "claim": "<p>In the autobiography prepared for Burney and published in 1773, Emanuel Bach named his father as his only teacher of composition and keyboard playing. He listed his own first published keyboard minuet under 1731.</p>",
    "status": "documented",
    "note": "The timeline uses Emanuel’s first listed publication in 1731 to locate his early training. The full span of his lessons is uncertain.",
    "sources": [
@@ -682,12 +682,12 @@
    "to": "haydn",
    "kind": "modelled",
    "year": 1750,
-   "title": "Haydn learns at the keyboard from Emanuel",
+   "title": "Haydn’s keyboard learning from Emanuel",
    "works": {
     "from": "C. P. E. Bach’s keyboard sonatas",
     "to": "Haydn’s independent keyboard studies"
    },
-   "claim": "<p>During his early years of independent study, Haydn kept returning to Emanuel Bach’s keyboard sonatas. He remembered playing them over and over.</p>",
+   "claim": "<p>During his early years of independent study, Haydn returned repeatedly to Emanuel Bach’s keyboard sonatas. He later recalled playing them over and over.</p>",
    "status": "documented",
    "note": "The exact year and sonata volume are not established by the testimony reproduced here; 1750 is an approximate early-career anchor.",
    "sources": [
@@ -704,12 +704,12 @@
    "to": "fux",
    "kind": "modelled",
    "year": 1725,
-   "title": "Palestrina becomes a counterpoint teacher on paper",
+   "title": "Palestrina’s style in written counterpoint instruction",
    "works": {
     "from": "Palestrina’s reputation as a contrapuntal model",
     "to": "Gradus ad Parnassum (1725)"
    },
-   "claim": "<p>Fux’s <i>Gradus ad Parnassum</i> stages an imaginary counterpoint lesson. Aloysius stands for Palestrina, Josephus for Fux; Haydn and Beethoven would later work through the lessons on paper.</p>",
+   "claim": "<p>Fux’s <i>Gradus ad Parnassum</i> is set out as an imaginary counterpoint lesson. Aloysius stands for Palestrina, Josephus for Fux. Haydn and Beethoven later worked through the lessons on paper.</p>",
    "status": "documented",
    "sources": [
     {
@@ -725,12 +725,12 @@
    "to": "haydn",
    "kind": "copied",
    "year": 1750,
-   "title": "Haydn works Fux’s problems more than once",
+   "title": "Haydn’s repeated study of Fux’s exercises",
    "works": {
     "from": "Gradus ad Parnassum (1725)",
     "to": "Haydn’s self-directed counterpoint exercises"
    },
-   "claim": "<p>Haydn solved Fux’s counterpoint problems, put them aside, then returned to check them, as Griesinger recalled. He kept a worn copy of the treatise.</p>",
+   "claim": "<p>According to Griesinger, Haydn worked the counterpoint exercises in Fux’s treatise, put them aside, and later went back to check them. He kept a worn copy of the treatise.</p>",
    "status": "documented",
    "note": "The study belongs to Haydn’s early independent years. The timeline date, 1750, is approximate.",
    "sources": [
@@ -747,12 +747,12 @@
    "to": "haydn",
    "kind": "studied-with",
    "year": 1753,
-   "title": "Accompanying singing lessons teaches Haydn declamation",
+   "title": "Haydn as accompanist at singing lessons",
    "works": {
     "from": "Porpora’s vocal and compositional teaching in Vienna",
     "to": "Haydn’s lessons in the early 1750s"
    },
-   "claim": "<p>In Vienna, Haydn accompanied pupils in Porpora’s singing lessons and received instruction in return. Porpora’s teaching connected composition with singing and Italian declamation, a practical complement to Haydn’s independent keyboard and counterpoint studies.</p>",
+   "claim": "<p>In Vienna, Haydn accompanied pupils in Porpora’s singing lessons and received instruction in return. Porpora’s teaching connected composition with singing and Italian declamation, alongside the keyboard and counterpoint that Haydn studied on his own.</p>",
    "status": "documented",
    "note": "1753 is an approximate placement within the early-1750s association; the sources give slightly different ranges for Porpora’s Vienna residence.",
    "sources": [
@@ -774,12 +774,12 @@
    "to": "haydn",
    "kind": "heard",
    "year": 1791,
-   "title": "Haydn hears Handel’s London festival scale",
+   "title": "Haydn and the London Handel festival",
    "works": {
     "from": "Handel’s music at the London commemoration",
     "to": "Haydn’s London experience in 1791"
    },
-   "claim": "<p>On his first London visit, Haydn attended the Handel commemoration at the end of May 1791. He heard the choral music on a festival scale, years before writing his own English-inspired oratorios.</p>",
+   "claim": "<p>On his first London visit, Haydn attended the Handel commemoration at the end of May 1791. There he heard Handel’s choral music performed on a festival scale, years before he wrote his own English-inspired oratorios.</p>",
    "status": "documented",
    "sources": [
     {
@@ -795,7 +795,7 @@
    "to": "haydn",
    "kind": "heard",
    "year": 1785,
-   "title": "Haydn hears Mozart’s new quartets at home",
+   "title": "Mozart’s new quartets: home performance for Haydn",
    "works": {
     "from": "Quartets K. 387, 421, 428, 458, 464 and 465",
     "to": "Haydn’s hearings in Vienna, January–February 1785"
@@ -816,7 +816,7 @@
    "to": "haydn",
    "kind": "dedicated",
    "year": 1785,
-   "title": "Six quartets are entrusted to Haydn",
+   "title": "Six quartets entrusted to Haydn",
    "works": {
     "from": "Six string quartets, K. 387–465",
     "to": "Dedication to Joseph Haydn in Artaria’s 1785 edition"
@@ -837,12 +837,12 @@
    "to": "mozart",
    "kind": "modelled",
    "year": 1771,
-   "title": "Bach’s keyboard sonatas become Mozart concertos",
+   "title": "Mozart’s concerto arrangements of Bach’s keyboard sonatas",
    "works": {
     "from": "Keyboard Sonatas Op. 5 Nos. 2–4",
     "to": "Three keyboard concertos, K. 107 (after 1770)"
    },
-   "claim": "<p>Mozart’s three concertos K. 107 transform Johann Christian Bach’s Op. 5 Nos. 2, 3 and 4 into works for keyboard with strings. The surviving manuscript contains work by both Wolfgang and Leopold, so these arrangements document a practical family workshop in concerto writing as well as Wolfgang’s admiration for the London Bach.</p>",
+   "claim": "<p>Mozart’s three concertos K. 107 are arrangements of Johann Christian Bach’s Op. 5 Nos. 2, 3 and 4 as works for keyboard with strings. The surviving manuscript is in the hands of both Wolfgang and Leopold, so the arrangements record the two working together on concerto writing, as well as Wolfgang’s admiration for the London Bach.</p>",
    "status": "documented",
    "note": "1771 is approximate. The NMA dates the manuscript no earlier than the end of 1770 and probably later.",
    "sources": [
@@ -859,7 +859,7 @@
    "to": "mozart",
    "kind": "modelled",
    "year": 1767,
-   "title": "Emanuel’s miniature supplies a concerto finale",
+   "title": "Emanuel’s miniature as concerto finale",
    "works": {
     "from": "La Boehmer, published in Musikalisches Allerley (1761)",
     "to": "Keyboard Concerto in D major, K. 40, finale (July 1767)"
@@ -880,12 +880,12 @@
    "to": "mozart",
    "kind": "copied",
    "year": 1782,
-   "title": "Bach’s keyboard fugues acquire string voices",
+   "title": "Bach’s keyboard fugues arranged for strings",
    "works": {
     "from": "Fugues from The Well-Tempered Clavier",
     "to": "Five fugues for string quartet, K. 405 (1782)"
    },
-   "claim": "<p>In 1782 Mozart arranged five Bach fugues for two violins, viola and cello, the group traditionally numbered K. 405. The keyboard’s interweaving lines became four separate string parts.</p>",
+   "claim": "<p>In 1782 Mozart arranged five Bach fugues for two violins, viola and cello, the group traditionally numbered K. 405. He divided the keyboard lines among four separate string parts.</p>",
    "status": "documented",
    "sources": [
     {
@@ -906,12 +906,12 @@
    "to": "mozart",
    "kind": "heard",
    "year": 1782,
-   "title": "Sunday sessions bring Bach and Handel home",
+   "title": "Sunday sessions: Bach and Handel at home",
    "works": {
     "from": "Van Swieten’s Bach and Handel repertory",
     "to": "Mozart’s Prelude and Fugue in C, K. 394 (1782)"
    },
-   "claim": "<p>In his letter to Nannerl of 20 April 1782, Mozart explains that van Swieten lent him Bach and Handel works after he had played them at the baron’s Sunday gatherings. At home, Constanze’s enthusiasm for fugues helped prompt his Prelude and Fugue K. 394.</p>",
+   "claim": "<p>In his letter to Nannerl of 20 April 1782, Mozart explained that van Swieten lent him Bach and Handel works after he had played them at the baron’s Sunday gatherings. At home, Constanze’s enthusiasm for fugues helped prompt his Prelude and Fugue K. 394.</p>",
    "status": "documented",
    "sources": [
     {
@@ -927,12 +927,12 @@
    "to": "mozart",
    "kind": "copied",
    "year": 1789,
-   "title": "Mozart recolours Messiah for Viennese winds",
+   "title": "Mozart’s arrangement of Messiah for Viennese winds",
    "works": {
     "from": "Messiah, HWV 56 (1741)",
     "to": "Der Messias, K. 572 (1789)"
    },
-   "claim": "<p>At van Swieten’s initiative, Mozart arranged Handel’s <i>Messiah</i> for German-language performances in Vienna in 1789, adding new wind parts. The arrangement reached print only after Mozart’s death.</p>",
+   "claim": "<p>At van Swieten’s initiative, Mozart arranged Handel’s <i>Messiah</i> for German-language performances in Vienna in 1789, adding new wind parts. The arrangement was printed only after Mozart’s death.</p>",
    "status": "documented",
    "sources": [
     {
@@ -953,12 +953,12 @@
    "to": "mozart",
    "kind": "modelled",
    "year": 1782,
-   "title": "A Mozart suite looks towards Handel",
+   "title": "Mozart’s suite in the style of Handel",
    "works": {
     "from": "Handel’s keyboard suites",
     "to": "Suite K. 399, overture and dances (1782)"
    },
-   "claim": "<p>Handel’s keyboard suites are the model identified by the critical edition for Mozart’s Suite K. 399, written in 1782. Mozart completed the overture, allemande and courante, then left the sarabande unfinished.</p>",
+   "claim": "<p>The critical edition identifies Handel’s keyboard suites as the model for Mozart’s Suite K. 399, written in 1782. Mozart completed the overture, allemande and courante, and left the sarabande unfinished.</p>",
    "status": "inferred",
    "note": "The model is the critical editor’s stylistic attribution, supported by Nissen’s annotation on the autograph; Mozart did not leave a statement naming a specific Handel suite as his source.",
    "sources": [
@@ -975,12 +975,12 @@
    "to": "beethoven",
    "kind": "studied-with",
    "year": 1793,
-   "title": "Haydn teaches Beethoven counterpoint in Vienna",
+   "title": "Haydn’s counterpoint lessons to Beethoven, Vienna",
    "works": {
     "from": "Haydn’s counterpoint teaching, based on Fux",
     "to": "Beethoven’s Viennese studies, 1793–94"
    },
-   "claim": "<p>Beethoven’s lessons with Haydn began in early 1793 after his move from Bonn to Vienna. The exercises drew on Fux’s <i>Gradus ad Parnassum</i>; when Haydn left for London in January 1794, Beethoven continued contrapuntal study with Albrechtsberger.</p>",
+   "claim": "<p>Beethoven’s lessons with Haydn began in early 1793 after his move from Bonn to Vienna. The exercises drew on Fux’s <i>Gradus ad Parnassum</i>. When Haydn left for London in January 1794, Beethoven continued contrapuntal study with Albrechtsberger.</p>",
    "status": "documented",
    "sources": [
     {
@@ -996,7 +996,7 @@
    "to": "beethoven",
    "kind": "studied-with",
    "year": 1794,
-   "title": "Fugue and canon follow Haydn’s departure",
+   "title": "Fugue and canon after Haydn’s departure",
    "works": {
     "from": "Albrechtsberger’s teaching of counterpoint, fugue and canon",
     "to": "Beethoven’s studies in 1794"
@@ -1017,12 +1017,12 @@
    "to": "beethoven",
    "kind": "studied-with",
    "year": 1800,
-   "title": "Salieri teaches Beethoven Italian vocal style",
+   "title": "Salieri’s lessons to Beethoven in Italian vocal style",
    "works": {
     "from": "Salieri’s instruction in Italian vocal writing",
     "to": "Beethoven’s lessons, around 1800–02"
    },
-   "claim": "<p>Around 1800–02, Beethoven studied Italian vocal and operatic writing with Antonio Salieri. The lessons added work on the singing voice to his earlier counterpoint training with Haydn and Albrechtsberger.</p>",
+   "claim": "<p>Around 1800–02 Beethoven studied Italian vocal and operatic writing with Antonio Salieri. These lessons followed his earlier training in counterpoint with Haydn and Albrechtsberger.</p>",
    "status": "documented",
    "note": "The museum dates the lesson period approximately.",
    "sources": [
@@ -1039,14 +1039,14 @@
    "to": "beethoven",
    "kind": "copied",
    "year": 1809,
-   "title": "Beethoven copies fugues to teach an archduke",
+   "title": "Beethoven’s fugue copies for an archduke’s lessons",
    "works": {
     "from": "Gradus ad Parnassum: two four-part fugues",
     "to": "Beethoven’s autograph study material, HCB Mh 45"
    },
-   "claim": "<p>Beethoven copied two four-part fugues from Fux’s <i>Gradus ad Parnassum</i> into the manuscript now catalogued as HCB Mh 45. Beethoven-Haus places these leaves among the teaching materials he prepared for Archduke Rudolph.</p>",
+   "claim": "<p>Beethoven copied two four-part fugues from Fux’s <i>Gradus ad Parnassum</i> into the manuscript now catalogued as HCB Mh 45. The Beethoven-Haus places these leaves among the teaching materials he prepared for Archduke Rudolph.</p>",
    "status": "documented",
-   "note": "The copying is documented; the intended use for Rudolph remains probable. The year 1809 dates the start of Rudolph’s theoretical tuition; the leaves themselves lack an exact date.",
+   "note": "The copying is documented, but that it was meant for Rudolph is only probable. Rudolph’s theoretical tuition began in 1809; the leaves themselves have no exact date.",
    "sources": [
     {
      "title": "Beethoven-Haus Bonn: Fux, Gradus ad Parnassum, Beethoven autograph, HCB Mh 45",
@@ -1061,14 +1061,14 @@
    "to": "beethoven",
    "kind": "modelled",
    "year": 1783,
-   "title": "The Well-Tempered Clavier enters Beethoven’s early training",
+   "title": "The Well-Tempered Clavier in Beethoven’s early training",
    "works": {
     "from": "The Well-Tempered Clavier",
     "to": "Beethoven’s keyboard studies in Bonn"
    },
    "claim": "<p>Writing to Cramer’s <i>Magazin der Musik</i> on 2 March 1783, Neefe described the young Beethoven playing Bach’s <i>Well-Tempered Clavier</i>. Neefe had supplied the music and was also teaching him thoroughbass and composition.</p>",
    "status": "documented",
-   "note": "Neefe’s promotional account establishes substantial use of the collection. How much of both books Beethoven had mastered is uncertain, and Neefe understates his age as eleven.",
+   "note": "Neefe’s promotional account shows that Beethoven made substantial use of the collection. How much of the two books he had mastered is uncertain, and Neefe gave his age as eleven, which understated it.",
    "sources": [
     {
      "title": "Christian Gottlob Neefe, communication to Cramer’s Magazin der Musik, 2 March 1783, English transcription",
@@ -1088,7 +1088,7 @@
    "to": "beethoven",
    "kind": "copied",
    "year": 1793,
-   "title": "Beethoven copies Emanuel while studying with Haydn",
+   "title": "Beethoven’s copying of Emanuel during Haydn studies",
    "works": {
     "from": "C. P. E. Bach’s keyboard sonatas and Versuch",
     "to": "Beethoven’s copies and theoretical extracts"
@@ -1109,7 +1109,7 @@
    "to": "beethoven",
    "kind": "quoted",
    "year": 1796,
-   "title": "Handel’s conquering hero becomes chamber variations",
+   "title": "Chamber variations on Handel’s “conquering hero”",
    "works": {
     "from": "See, the conqu’ring hero comes, Judas Maccabaeus",
     "to": "Twelve Variations for cello and piano, WoO 45 (1796)"
@@ -1135,14 +1135,14 @@
    "to": "beethoven",
    "kind": "copied",
    "year": 1805,
-   "title": "Beethoven studies Mozart’s ensembles for Fidelio",
+   "title": "Beethoven’s study of Mozart’s ensembles for Fidelio",
    "works": {
     "from": "Don Giovanni: ensemble passages",
     "to": "Beethoven’s study copy during work on Fidelio"
    },
-   "claim": "<p>Beginning work on <i>Fidelio</i>, Beethoven copied passages from Mozart’s <i>Don Giovanni</i> to study how the vocal ensembles worked. Beethoven-Haus has exhibited the manuscript.</p>",
+   "claim": "<p>When he began work on <i>Fidelio</i>, Beethoven copied passages from Mozart’s <i>Don Giovanni</i> to study how the vocal ensembles worked. The Beethoven-Haus has exhibited the manuscript.</p>",
    "status": "documented",
-   "note": "1805 dates the first version of Fidelio. The study copy’s exact date is uncertain.",
+   "note": "The first version of Fidelio dates from 1805. The exact date of the study copy is uncertain.",
    "sources": [
     {
      "title": "Beethoven-Haus Bonn, appassionato 35: Bonn opera exhibition",
@@ -1157,7 +1157,7 @@
    "to": "beethoven",
    "kind": "set-text",
    "year": 1824,
-   "title": "Schiller’s ode enters a symphonic finale",
+   "title": "Schiller’s ode in a symphonic finale",
    "thread": "ode-to-joy",
    "works": {
     "from": "An die Freude",
@@ -1179,7 +1179,7 @@
    "to": "beethoven",
    "kind": "set-text",
    "year": 1810,
-   "title": "Goethe’s tragedy receives Beethoven’s stage music",
+   "title": "Beethoven’s incidental music for Goethe’s tragedy",
    "works": {
     "from": "Egmont",
     "to": "Incidental music to Egmont, Op. 84 (1809–10)"
@@ -1200,14 +1200,14 @@
    "to": "schubert",
    "kind": "studied-with",
    "year": 1812,
-   "title": "Schubert’s early compositions lead to Salieri lessons",
+   "title": "Schubert’s early compositions and lessons with Salieri",
    "works": {
     "from": "Salieri’s compositional teaching in Vienna",
     "to": "Schubert’s early musical training"
    },
-   "claim": "<p>Schubert’s early compositions brought him to Antonio Salieri for lessons in Vienna. The young songwriter was learning from a practising opera composer.</p>",
+   "claim": "<p>Schubert’s early compositions brought him to Antonio Salieri for lessons in Vienna. Salieri was a practising opera composer.</p>",
    "status": "documented",
-   "note": "1812 is an approximate conventional start-year anchor; the cited overview establishes the teaching relationship without dating every lesson.",
+   "note": "1812 is an approximate start year given by convention. The cited overview establishes the teaching relationship but does not date every lesson.",
    "sources": [
     {
      "title": "Christopher H. Gibbs, Chamber Music Society of Lincoln Center: Franz Schubert",
@@ -1222,12 +1222,12 @@
    "to": "schubert",
    "kind": "set-text",
    "year": 1814,
-   "title": "Faust’s spinning scene becomes a piano song",
+   "title": "Faust’s spinning scene as a piano song",
    "works": {
     "from": "Faust: Gretchen’s song",
     "to": "Gretchen am Spinnrade, D. 118 (1814)"
    },
-   "claim": "<p>Schubert set Goethe’s spinning scene as <i>Gretchen am Spinnrade</i>, D. 118, in 1814. The piano takes its own part in telling the poem, a role Schubert would develop further in <i>Erlkönig</i>.</p>",
+   "claim": "<p>Schubert set Goethe’s spinning scene as <i>Gretchen am Spinnrade</i>, D. 118, in 1814. The piano has its own part in telling the poem, and Schubert developed this role further in <i>Erlkönig</i>.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1243,12 +1243,12 @@
    "to": "schubert",
    "kind": "set-text",
    "year": 1815,
-   "title": "Goethe’s ballad becomes Schubert’s first published opus",
+   "title": "Goethe’s ballad as Schubert’s first published opus",
    "works": {
     "from": "Erlkönig",
     "to": "Erlkönig, D. 328, Op. 1 (1815)"
    },
-   "claim": "<p>Schubert set Goethe’s <i>Erlkönig</i> in 1815. When the song reached print, it bore his first opus number.</p>",
+   "claim": "<p>Schubert set Goethe’s <i>Erlkönig</i> in 1815. When the song was printed, it bore his first opus number.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1264,14 +1264,14 @@
    "to": "scarlatti",
    "kind": "modelled",
    "year": 1752,
-   "title": "Spanish strumming enters a keyboard sonata",
+   "title": "Spanish guitar strumming in the keyboard sonata",
    "works": {
     "from": "Spanish plucked-string and dance gestures",
     "to": "Keyboard Sonata in A minor, K. 175"
    },
-   "claim": "<p>The dense, dissonant chords of Scarlatti’s A-minor Sonata K. 175 strike the keyboard with a guitarist’s attack. Giulio d’Amore hears Andalusian strumming and dance in the piece.</p>",
+   "claim": "<p>Scarlatti’s Sonata in A minor, K. 175, is built on dense, dissonant chords played with the attack of a guitarist. Giulio d’Amore hears Andalusian strumming and dance in the piece.</p>",
    "status": "inferred",
-   "note": "The Andalusian connection is d’Amore’s stylistic interpretation; a specific folk melody or commission remains unidentified. The year 1752 dates the principal Venice manuscript copy, while the composition date is uncertain. The tradition node’s year 1700 is an approximate display date.",
+   "note": "The Andalusian connection is d’Amore’s stylistic interpretation; no specific folk melody or commission has been identified. The year 1752 is the date of the principal Venice manuscript copy; the date of composition is uncertain. The year 1700 given for the tradition node is an approximate display date.",
    "sources": [
     {
      "title": "Giulio d’Amore, Scarlatti: Sonata in la minore, K. 175, Accademia di Santa Cecilia programme note (13 February 1998)",
@@ -1296,7 +1296,7 @@
    "to": "schubert",
    "kind": "championed",
    "year": 1827,
-   "title": "Schubert carries a torch for Beethoven",
+   "title": "Schubert and Beethoven",
    "works": {
     "from": "Beethoven’s public memorial in Vienna",
     "to": "Schubert at the funeral, 29 March 1827"
@@ -1318,87 +1318,87 @@
   },
   {
    "id":"bach-cryptogram--bach-art-of-fugue","from":"bach-cryptogram","to":"bach","kind":"quoted","year":1751,
-   "title":"Bach signs the unfinished fugue in notes","thread":"bach-motif",
+   "title":"Bach’s name in notes in the unfinished fugue","thread":"bach-motif",
    "works":{"from":"B♭–A–C–B♮, Bach’s name in German notation","to":"The Art of Fugue, Fuga a 3 soggetti, third subject"},
    "claim":"<p>The unfinished fugue printed with <i>The Art of Fugue</i> introduces B♭–A–C–B♮ as its third subject. In German note names, the four notes spell Bach.</p>",
-   "status":"documented","note":"1751 dates the first posthumous edition and supplies the signature node’s timeline position. The exact composition date is uncertain.",
+   "status":"documented","note":"1751 is the date of the first posthumous edition and fixes the signature node’s timeline position. The exact composition date is uncertain.",
    "sources":[{"title":"Bach-Gesellschaft Ausgabe XXV/1: unfinished fugue, third subject","url":"https://upload.wikimedia.org/wikipedia/commons/6/64/B.W.XXV.%281%29p100_-_third_subject_of_the_unfinished_fugue_of_Art_of_Fugue.jpg","locator":"p. 100: third subject and B-A-C-H annotation"},{"title":"Netherlands Bach Society: The Art of Fugue, BWV 1080","url":"https://www.bachvereniging.nl/en/bwv/bwv-1080","locator":"‘A mountaintop you have to climb at some point’: first edition 1751 and uncertain completion"}]
   },
   {
    "id":"lament-bass--monteverdi-ninfa","from":"lament-bass-tradition","to":"monteverdi","kind":"modelled","year":1638,
-   "title":"The nymph laments over a falling fourth","thread":"lament-bass",
+   "title":"The nymph’s lament over a descending fourth","thread":"lament-bass",
    "works":{"from":"The descending minor tetrachord as a ground","to":"Lamento della ninfa, SV 163, published in Madrigals Book VIII (1638)"},
-   "claim":"<p>In Monteverdi’s <i>Lamento della ninfa</i>, the abandoned nymph sings over a bass that falls through four notes, then starts again. The piece appeared in his eighth book of madrigals in 1638.</p>",
+   "claim":"<p>In Monteverdi’s <i>Lamento della ninfa</i>, the abandoned nymph sings over a bass that falls through four notes and then starts again. The piece appeared in his eighth book of madrigals in 1638.</p>",
    "status":"documented","note":"The edge identifies the shared descending-bass convention. The tradition node’s year 1600 is an approximate historical display date.",
    "sources":[{"title":"Lament bass: definition and documented musical examples","url":"https://en.wikipedia.org/w/index.php?title=Lament_bass&action=raw","locator":"‘Musical works’: Lamento della Ninfa, with reference to Massimo Ossi, Divining the Oracle, p. 173"},{"title":"Monteverdi, Lamento della ninfa, SV 163: work catalogue","url":"https://imslp.org/wiki/Lamento_della_ninfa,_SV_163_(Monteverdi,_Claudio)","locator":"General Information: first publication 1638, Madrigals Book VIII"}]
   },
   {
    "id":"lament-bass--biber-passacaglia","from":"lament-bass-tradition","to":"biber","kind":"modelled","year":1676,
-   "title":"A solo violin carries the descending ground","thread":"lament-bass",
+   "title":"Descending ground for solo violin","thread":"lament-bass",
    "works":{"from":"Descending minor tetrachord, G–F–E♭–D","to":"Passacaglia in G minor, C. 105, concluding the Mystery Sonatas (c. 1676)"},
-   "claim":"<p>Biber’s unaccompanied violin Passacaglia keeps returning to G–F–E♭–D, from tonic down to dominant. The four notes stand exposed, disappear into chords or run through quick figures: one violin carries both the ground and its variations.</p>",
+   "claim":"<p>Biber’s Passacaglia for unaccompanied violin repeats the descending figure G–F–E♭–D, from tonic down to dominant, throughout. The four notes are heard on their own, within chords or inside quick figuration, and the single violin plays both the ground and its variations.</p>",
    "status":"documented","note":"The date is approximate. The manuscript’s guardian-angel image supports a consoling reading of the descending tetrachord, as the cited programme explains.",
    "sources":[{"title":"CUNY Graduate Center, Jessica Oddie recital programme, 28 August 2026","url":"https://www.gc.cuny.edu/sites/default/files/2026-08/8-28-26-Jessica-Oddie-Program_0.pdf","locator":"p. 2: Biber Passacaglia, G–F–E-flat–D, ground-bass transformations and guardian angel"}]
   },
   {
    "id":"lament-bass--purcell-dido","from":"lament-bass-tradition","to":"purcell","kind":"modelled","year":1689,
-   "title":"Dido’s farewell circles a chromatic descent","thread":"lament-bass",
+   "title":"Dido’s farewell over a chromatic descent","thread":"lament-bass",
    "works":{"from":"The chromatic descending fourth and ground-bass convention","to":"When I am laid in earth, Dido and Aeneas, Z. 626"},
-   "claim":"<p>In Purcell’s <i>When I am laid in earth</i>, the bass descends chromatically through G minor and returns to begin again. Above it, Dido keeps asking to be remembered.</p>",
-   "status":"documented","note":"1689 dates an early Chelsea performance; the composition and première dates remain uncertain. The bass belongs to an inherited convention whose route to Purcell is unspecified.",
+   "claim":"<p>In Purcell’s <i>When I am laid in earth</i>, the bass descends chromatically through G minor and then repeats from the beginning. Above it, Dido asks again and again to be remembered.</p>",
+   "status":"documented","note":"An early Chelsea performance dates from 1689; composition and première dates are uncertain. The bass follows an inherited convention; how it reached Purcell is unknown.",
    "sources":[{"title":"Dido’s Lament: analysis and ground-bass notation","url":"https://en.wikipedia.org/wiki/Dido%27s_Lament","locator":"Analysis: chromatic fourth, repeated ground, G minor and 3/2"},{"title":"Dido and Aeneas: chronology and sources","url":"https://en.wikipedia.org/wiki/Dido_and_Aeneas","locator":"Opening and ‘Premiere and early revivals’: uncertain composition date, Chelsea performances by 1689"}]
   },
   {
    "id":"lament-bass--bach-weinen-klagen","from":"lament-bass-tradition","to":"bach","kind":"modelled","year":1714,
-   "title":"Bach’s chorus of tears descends chromatically","thread":"lament-bass",
+   "title":"Bach: chromatic descent in a chorus of tears","thread":"lament-bass",
    "works":{"from":"The chromatic lament-bass convention","to":"Weinen, Klagen, Sorgen, Zagen, BWV 12, opening chorus (1714)"},
-   "claim":"<p>The opening chorus of Bach’s BWV 12 lays sighing vocal entries over a repeating chromatic descent. First performed in Weimar on 22 April 1714, this music returns from a more hopeful middle section to the same sorrowful ground, and later supplies the basis of the B-minor Mass’s <i>Crucifixus</i>.</p>",
+   "claim":"<p>The opening chorus of Bach’s BWV 12 sets the voices over a repeating chromatic descending bass. First performed in Weimar on 22 April 1714, it moves to a contrasting middle section and returns to the same ground; Bach later reworked it as the <i>Crucifixus</i> of the B-minor Mass.</p>",
    "status":"documented",
    "sources":[{"title":"Netherlands Bach Society: Weinen, Klagen, Sorgen, Zagen, BWV 12","url":"https://www.bachvereniging.nl/en/bwv/bwv-12","locator":"‘Beacon in the labyrinth’: opening ostinato, hopeful middle section and Crucifixus reuse; first performance"},{"title":"Lament bass: Bach ground-bass score example","url":"https://en.wikipedia.org/w/index.php?title=Lament_bass&action=raw","locator":"Caption to Bach’s Crucifixus ground: source in the first choral movement of BWV 12"}]
   },
   {
    "id":"lament-bass--bach-crucifixus","from":"lament-bass-tradition","to":"bach","kind":"modelled","year":1749,
-   "title":"The lament ground returns at the Crucifixion","thread":"lament-bass",
+   "title":"Return of the lament ground at the Crucifixion","thread":"lament-bass",
    "works":{"from":"The chromatic ground of BWV 12 and the lament-bass convention","to":"Mass in B minor, BWV 232, Crucifixus (assembled c. 1748–49)"},
-   "claim":"<p>For the <i>Crucifixus</i>, Bach reworked the lamenting chorus of BWV 12 in E minor. The bass repeats beneath the words of the Crucifixion and burial, then changes course near the end, reaching G major before the Resurrection movement.</p>",
-   "status":"documented","note":"Bach’s reuse of BWV 12 is documented. The Bethlehem commentary also compares Purcell’s bass; any direct connection between those composers’ grounds remains unproven.",
+   "claim":"<p>For the <i>Crucifixus</i>, Bach reworked the lamenting chorus of BWV 12 in E minor. The bass repeats beneath the words of the Crucifixion and burial, then modulates near the end to G major before the Resurrection movement.</p>",
+   "status":"documented","note":"Bach’s reuse of BWV 12 is documented. The Bethlehem commentary also compares Purcell’s bass; no direct connection between the two composers’ grounds has been proven.",
    "sources":[{"title":"Netherlands Bach Society: BWV 12, reuse in the Crucifixus","url":"https://www.bachvereniging.nl/en/bwv/bwv-12","locator":"‘Beacon in the labyrinth’: Bach’s arrangement 35 years later"},{"title":"Bach Choir of Bethlehem: Mass in B minor, Credo","url":"https://bach.org/education/bwv-232/credo/","locator":"‘Crucifixus’: E-minor ground and the final turn towards G major"}]
   },
   {
    "id":"lament-bass--beethoven-woo80","from":"lament-bass-tradition","to":"beethoven","kind":"modelled","year":1806,
-   "title":"A falling bass powers thirty-two variations","thread":"lament-bass",
+   "title":"Thirty-two variations on a falling bass","thread":"lament-bass",
    "works":{"from":"The chromatic descending-fourth bass convention","to":"Thirty-two Variations in C minor, WoO 80, theme (1806)"},
-   "claim":"<p>Beethoven’s C-minor Variations, WoO 80, begin with a chromatically descending bass. He holds to its short harmonic scheme through thirty-two variations for piano.</p>",
-   "status":"documented","note":"The edge identifies the bass pattern. A specific earlier source or a lament programme assigned by Beethoven remains undocumented.",
+   "claim":"<p>Beethoven’s C-minor Variations, WoO 80, begin with a chromatically descending bass. He kept to its short harmonic scheme through thirty-two variations for piano.</p>",
+   "status":"documented","note":"The edge identifies the bass pattern. No specific earlier source has been documented, and there is no record that Beethoven assigned it a lament programme.",
    "sources":[{"title":"Lament bass: Beethoven C-minor Variations score example","url":"https://en.wikipedia.org/w/index.php?title=Lament_bass&action=raw","locator":"Caption and score image ‘Lament bass harmonization Beethoven’, citing Walter Frisch, Schubert: Critical and Analytical Studies, p. 10"},{"title":"Beethoven, Thirty-two Variations in C minor, WoO 80","url":"https://imslp.org/wiki/32_Variations_in_C_minor,_WoO_80_(Beethoven,_Ludwig_van)","locator":"General Information: 1806, piano, theme and 32 variations"}]
   },
   {
    "id":"folia-tradition--corelli-op5-12","from":"folia-tradition","to":"corelli","kind":"quoted","year":1700,
-   "title":"Corelli makes an old Folia his finale","thread":"la-folia",
+   "title":"Corelli’s Folia as finale","thread":"la-folia",
    "works":{"from":"The inherited La Folia theme and harmonic scheme","to":"Sonata in D minor, Op. 5 No. 12, Follia (1700)"},
-   "claim":"<p>Corelli closed his Op. 5 violin sonatas, published in Rome in 1700, with variations on the inherited Folia tune. His finale helped make the old melody famous.</p>",
+   "claim":"<p>Corelli closed his Op. 5 violin sonatas, published in Rome in 1700, with variations on the inherited Folia tune. This finale helped to make the old melody widely known.</p>",
    "status":"documented",
    "sources":[{"title":"Norbert Gertsch, Henle: Corelli, La Folia and Rachmaninoff’s Variations, Op. 42","url":"https://blog.henle.de/en/2014/01/06/corelli-la-folia-and-rachmaninoff%E2%80%99s-variations-op-42/","locator":"Opening discussion and reproduced Corelli theme: Op. 5, Rome 1700, pre-existing Folia"}]
   },
   {
    "id":"folia-tradition--marais-couplets","from":"folia-tradition","to":"marais","kind":"quoted","year":1701,
-   "title":"Marais answers the Folia on the viol","thread":"la-folia",
+   "title":"Marais’s viol variations on the Folia","thread":"la-folia",
    "works":{"from":"La Folia / Les folies d’Espagne","to":"Couplets de folies, Pièces de viole, Livre II, No. 20 (1701)"},
-   "claim":"<p>Marais included <i>Couplets de folies</i> in his second book of viol pieces in 1701, with a theme and thirty-one variations for bass viol and continuo. The familiar D-minor framework thus belonged to the viol’s repertory as well as Corelli’s violin and Vivaldi’s trio sonata.</p>",
+   "claim":"<p>Marais included <i>Couplets de folies</i> in his second book of viol pieces in 1701: a theme and thirty-one variations for bass viol and continuo. The same D-minor framework was also used by Corelli for violin and by Vivaldi in a trio sonata.</p>",
    "status":"documented",
    "sources":[{"title":"Marais, Couplets de folies: work catalogue","url":"https://imslp.org/wiki/Couplets_de_folies_(Marais,_Marin)","locator":"General Information: 1701, theme and 31 variations, D minor, bass viol and continuo"},{"title":"Ulrich Leisinger, C. P. E. Bach Complete Works I/7: introduction","url":"https://cpebach.org/pdfs/introductions/I-7-Intro.pdf","locator":"pp. xx–xxi, discussion of Wq 118/9: Corelli 1700 and Marais 1701"}]
   },
   {
    "id":"corelli--geminiani-folia-concerto","from":"corelli","to":"geminiani","kind":"copied","year":1729,
-   "title":"Corelli’s Folia becomes a concerto grosso","thread":"la-folia",
+   "title":"Corelli’s Folia arranged as a concerto grosso","thread":"la-folia",
    "works":{"from":"Violin Sonata Op. 5 No. 12, Follia","to":"Concerto grosso arrangement of Corelli’s Folia (1729)"},
-   "claim":"<p>In 1729 Geminiani expanded Corelli’s solo-violin <i>Folia</i> for a string ensemble. The small concertino group trades passages with the larger ripieno, giving Corelli’s variations a new play of scale.</p>",
+   "claim":"<p>In 1729 Geminiani expanded Corelli’s solo-violin <i>Folia</i> for a string ensemble. The small concertino group and the larger ripieno take turns playing passages of Corelli’s variations.</p>",
    "status":"documented",
    "sources":[{"title":"John Mangum, Los Angeles Philharmonic: La Folia, Francesco Geminiani","url":"https://www.laphil.com/works/la-folia","locator":"Second paragraph: 1729 arrangement of Op. 5 No. 12; concertino and ripieno"}]
   },
   {
    "id":"folia-tradition--cpe-bach-wq118-9","from":"folia-tradition","to":"cpe-bach","kind":"quoted","year":1778,
-   "title":"Emanuel strips the Folia back to essentials","thread":"la-folia",
+   "title":"C. P. E. Bach’s Folia variations","thread":"la-folia",
    "works":{"from":"Les Folies d’Espagne / La Folia","to":"Twelve Variations, Wq 118/9 (1778)"},
    "claim":"<p>Emanuel Bach presents the old <i>Folies d’Espagne</i> tune plainly, then puts it through twelve demanding keyboard variations. The set belongs among the works he wrote for professional players.</p>",
    "status":"documented",

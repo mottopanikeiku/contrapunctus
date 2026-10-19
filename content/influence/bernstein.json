@@ -1,0 +1,105 @@
+{
+  "batch": "bernstein",
+  "edges": [
+    {
+      "id": "mahler--bernstein-complete-cycle-1960",
+      "from": "mahler",
+      "to": "bernstein",
+      "kind": "championed",
+      "year": 1960,
+      "title": "Bernstein’s recording of the first Mahler cycle",
+      "works": {
+        "from": "Mahler’s nine completed symphonies",
+        "to": "Bernstein’s recordings with the New York Philharmonic, 1960–67; No. 8 with the London Symphony Orchestra"
+      },
+      "claim": "<p>In the 1959–60 season Bernstein led a New York Philharmonic festival for the centenary of [[mahler]]’s birth, and in 1960 he made his first commercial recording of a Mahler symphony, the Fourth. Over the next seven years he recorded all nine completed symphonies, the Eighth with the London Symphony Orchestra after a concert at the Royal Albert Hall in 1966. On 24 November 1963 he had conducted the Second Symphony in a televised memorial for President Kennedy.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Sony Masterworks: Leonard Bernstein’s Legendary Recordings of The Complete Mahler Symphonies (press release, 24 April 2009)",
+          "url": "https://sony.mediaroom.com/2009-04-24-Leonard-Bernsteins-Legendary-Recordings-of-The-Complete-Mahler-Symphonies-Released-on-Sony-Masterworks,1",
+          "locator": "The 1959–60 Mahler festival as the origin of the recording project; Symphonies 1–7 and 9 with the New York Philharmonic, No. 8 with the London Symphony Orchestra"
+        },
+        {
+          "title": "Mahler Foundation: Leonard Bernstein (1918–1990)",
+          "url": "https://mahlerfoundation.org/mahler/contemporaries/leonard-bernstein/",
+          "locator": "Section 1960–1969: the festival, the first recording (the Fourth) in 1960, the first complete cycle over seven years and the 1966 concert for the Eighth"
+        },
+        {
+          "title": "Leonard Bernstein Office: An Artist’s Response to Violence",
+          "url": "https://leonardbernstein.com/about/humanitarian/an-artists-response-to-violence",
+          "locator": "Mahler’s Second conducted on 24 November 1963 in a nationally televised memorial for President Kennedy"
+        }
+      ]
+    },
+    {
+      "id": "ives--bernstein-second-symphony-1951",
+      "from": "ives",
+      "to": "bernstein",
+      "kind": "championed",
+      "year": 1951,
+      "title": "Bernstein and Ives’s Second Symphony",
+      "works": {
+        "from": "Symphony No. 2, written about half a century before 1951",
+        "to": "New York Philharmonic première under Bernstein, February 1951; Columbia recording of 1958"
+      },
+      "claim": "<p>The Bernstein Office dates his first performance of [[ives]]’s Second Symphony with the New York Philharmonic to 22 February 1951. The work had been written about half a century earlier and had not been played. Bernstein recorded it with the orchestra for Columbia in 1958 and again for Deutsche Grammophon in 1987.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Leonard Bernstein Office: Timeline",
+          "url": "https://leonardbernstein.com/about/timeline",
+          "locator": "Entry for 22 February 1951: Bernstein conducts the New York Philharmonic in the première of Ives’s Symphony No. 2"
+        },
+        {
+          "title": "Mahler Foundation: Leonard Bernstein (1918–1990)",
+          "url": "https://mahlerfoundation.org/mahler/contemporaries/leonard-bernstein/",
+          "locator": "Section 1951–1959: the symphony written around half a century earlier and never performed; Columbia recording of 1958 and Deutsche Grammophon recording of 1987"
+        }
+      ]
+    },
+    {
+      "id": "shakespeare--bernstein-west-side-story-1957",
+      "from": "shakespeare",
+      "to": "bernstein",
+      "kind": "modelled",
+      "year": 1957,
+      "title": "West Side Story and Romeo and Juliet",
+      "works": {
+        "from": "Romeo and Juliet",
+        "to": "West Side Story, book by Arthur Laurents, opened 26 September 1957"
+      },
+      "claim": "<p>Jack Gottlieb’s guide states that <i>West Side Story</i> is based directly on Shakespeare’s <i>Romeo and Juliet</i>. In 1949 Jerome Robbins first conceived the story as <i>East Side Story</i>, with a Jewish Juliet and an Italian Catholic Romeo, set in the Easter–Passover season. Arthur Laurents wrote his own dialogue and used none of Shakespeare’s words. The musical opened at the Winter Garden Theatre on 26 September 1957.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Leonard Bernstein Office: West Side Story (1957), guide and commentary by Jack Gottlieb",
+          "url": "https://leonardbernstein.com/works/view/9/west-side-story",
+          "locator": "Sections “Story Sources” (Romeo and Juliet; East Side Story in 1949; Laurents’s book) and Details (Broadway opening, 26 September 1957, Winter Garden Theatre)"
+        }
+      ]
+    },
+    {
+      "id": "auden--bernstein-age-of-anxiety-1949",
+      "from": "auden",
+      "to": "bernstein",
+      "kind": "modelled",
+      "year": 1949,
+      "title": "Bernstein’s symphony after Auden’s poem",
+      "works": {
+        "from": "The Age of Anxiety: A Baroque Eclogue (1947)",
+        "to": "Symphony No. 2, The Age of Anxiety, for piano and orchestra (1949)"
+      },
+      "claim": "<p>Bernstein read Auden’s <i>The Age of Anxiety</i> in the summer of 1947 and wrote his Second Symphony, for piano and orchestra, on its plan, using the poem’s six section titles for his movements. He said that the pianist “provides an almost autobiographical protagonist” in the search for faith. Koussevitzky conducted the first performance in Boston on 8 April 1949, with Bernstein as soloist.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Leonard Bernstein Office: Symphony No. 2: The Age of Anxiety (1949)",
+          "url": "https://leonardbernstein.com/works/view/16/symphony-no-2-the-age-of-anxiety",
+          "locator": "Background and programme-note sections: the poem read in summer 1947, the six titles used for the movements, the pianist as protagonist, the première on 8 April 1949"
+        }
+      ]
+    }
+  ],
+  "figures": []
+}

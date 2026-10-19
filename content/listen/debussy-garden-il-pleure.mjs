@@ -26,33 +26,33 @@ export default {
     "part": 1,
     "of": 2
   },
-  "intro": "Mary Garden sings Verlaine’s rain-soaked sorrow with Debussy himself at the piano, in Paris in 1904. His running semiquavers keep falling beneath a voice that cannot explain its grief.",
+  "intro": "“Il pleure dans mon cœur” is the second of Debussy’s <i>Ariettes oubliées</i>, a setting of Verlaine. Mary Garden sings it with Debussy at the piano, in a recording made in Paris in 1904.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Rain in the piano",
+      "label": "A · Piano semiquavers under long vocal notes",
       "m": "A",
-      "mNote": "Long vocal notes stretch above running semiquavers"
+      "mNote": "Long vocal notes held above running semiquavers in the piano."
     },
     {
       "t": 64,
-      "label": "B · The rain pauses for a question",
+      "label": "B · Piano chords under freer vocal line",
       "m": "B",
-      "mNote": "The piano breaks into chords beneath freer singing"
+      "mNote": "The piano changes to chords; the vocal line moves more freely."
     },
     {
       "t": 82,
-      "label": "A′ · Rain beneath the last stanza",
+      "label": "A′ · Last stanza over returning semiquavers",
       "m": "A′",
-      "mNote": "The semiquavers return and outlast the voice"
+      "mNote": "The piano’s semiquavers return and continue after the voice stops."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Rain in the piano",
-      "text": "The piano sets fine semiquavers pattering beneath the song. Against their quick movement, the singer’s notes stretch out, marked <i>triste et monotone</i> — sad and monotonous. Verlaine’s falling rain and inward tears have different speeds.",
+      "title": "Piano semiquavers and vocal line",
+      "text": "The piano plays running semiquavers beneath the song. Over them the voice moves in longer notes, marked <i>triste et monotone</i> (sad and monotonous).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Debussy, Ariettes oubliées, no. 2, voice-and-piano score, printed pp. 12–13: pp, con sordine, running semiquavers and the vocal marking triste et monotone. https://s9.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_%28voice_and_piano%29.pdf"
@@ -60,8 +60,8 @@ export default {
     {
       "t": 30,
       "kind": "world",
-      "title": "A sorrow without a cause",
-      "text": "Verlaine’s rain falls on roofs and the ground. Inside, someone grieves without knowing why: no betrayal, no love or hatred to account for the pain. The poem appears in <i>Romances sans paroles</i> in 1874. Debussy gives its unsettled heart a line that keeps circling back.",
+      "title": "Verlaine’s poem, 1874",
+      "text": "Verlaine’s rain falls on the roofs and the ground, and the speaker grieves without knowing why. There is no betrayal, and neither love nor hatred accounts for the pain. The poem appeared in <i>Romances sans paroles</i> in 1874, and in Debussy’s setting the vocal phrases recur.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Paul Verlaine, Il pleure dans mon cœur, Romances sans paroles (1874), all four stanzas. French text: https://press.uchicago.edu/Misc/Chicago/853446.html. Recurrent vocal phrases are visible in the song score, pp. 12–17."
@@ -69,8 +69,8 @@ export default {
     {
       "t": 82,
       "kind": "form",
-      "title": "The rain returns",
-      "text": "After the freer question about betrayal, the piano’s running notes come back. The final stanza names the worst pain: not knowing why the heart aches. The voice slows and finishes; the piano carries the rain on alone.",
+      "title": "Return of the opening tempo",
+      "text": "After the freer question about betrayal, marked Modéré, the piano’s running notes return at 1° Tempo. The final stanza names the worst pain as not knowing why the heart aches. The voice slows at Molto rallentando and ends, and the piano continues alone in a postlude.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Voice-and-piano score, pp. 15–17: Modéré question, Revenez au 1er Mouvement, final stanza at 1° Tempo, Molto rallentando and piano postlude."
@@ -80,11 +80,11 @@ export default {
     {
       "id": "into-freer-question",
       "title": "The semiquavers stop for the voice",
-      "from": "A · Rain in the piano",
-      "to": "B · The rain pauses for a question",
+      "from": "A · Piano semiquavers under long vocal notes",
+      "to": "B · Piano chords under freer vocal line",
       "at": { "t": 64 },
       "span": [55, 76],
-      "how": "<p>The piano’s running semiquavers stop. Debussy cancels the four-sharp key signature and marks the passage <i>Modéré</i>, allowing the voice to move freely over chords and a short piano reply. The poem asks whether betrayal explains the grief; the regular patter of rain is suspended.</p>",
+      "how": "<p>The piano’s running semiquavers stop. Debussy cancels the four-sharp key signature and marks the passage <i>Modéré</i>. The voice moves freely over chords and a short piano reply, and the score marks it ad libitum. At this point the poem asks whether betrayal explains the grief, in the question beginning <i>Quoi! nulle trahison?</i> (printed score, pp. 15–16).</p>",
       "devices": ["texture change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -92,12 +92,12 @@ export default {
     },
     {
       "id": "into-rain-return",
-      "title": "Semiquavers carry the last stanza",
-      "from": "B · The rain pauses for a question",
-      "to": "A′ · Rain beneath the last stanza",
+      "title": "Semiquavers return for the last stanza",
+      "from": "B · Piano chords under freer vocal line",
+      "to": "A′ · Last stanza over returning semiquavers",
       "at": { "t": 82 },
       "span": [73, 94],
-      "how": "<p>The piano resumes its semiquavers while the voice holds the end of the word <i>raison</i>. <i>Revenez au 1er Mouvement</i> brings back the opening pace; the four-sharp signature returns with the final stanza. The singer’s long notes again stretch above the quick piano figure.</p>",
+      "how": "<p>The piano resumes its semiquavers while the voice holds the end of the word <i>raison</i>. <i>Revenez au 1er Mouvement</i> restores the opening tempo, and the four-sharp signature returns with the final stanza. The voice again sustains long notes above the semiquaver figure in the piano.</p>",
       "devices": ["retransition", "texture change", "tempo change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -125,7 +125,7 @@ export default {
         "lead": [
           "piano"
         ],
-        "note": "Semiquavers patter quietly in the piano."
+        "note": "The piano plays quiet semiquavers."
       },
       {
         "t": 8,
@@ -136,7 +136,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Long vocal notes stretch above the piano’s running semiquavers."
+        "note": "The voice holds long notes above running semiquavers in the piano."
       },
       {
         "t": 64,
@@ -169,7 +169,7 @@ export default {
         "lead": [
           "piano"
         ],
-        "note": "The piano keeps the rain falling after the voice falls silent."
+        "note": "The piano continues the rain figure after the voice stops."
       }
     ]
   }

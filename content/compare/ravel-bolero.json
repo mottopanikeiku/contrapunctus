@@ -1,17 +1,17 @@
 {
   "id": "ravel-bolero",
-  "title": "One drumbeat, two long crescendos",
+  "title": "Boléro: Ravel (1930) and Fricsay",
   "composer": "ravel",
   "work": "Boléro",
-  "question": "How does the chosen pulse change the climb from solo flute to the final brass and percussion?",
-  "intro": "A snare drum starts its two-bar pattern, and a flute begins the tune of <i>Boléro</i>. In 1930 Ravel recorded the long crescendo with the Lamoureux Orchestra; Fricsay conducts the Berlin orchestra in the second performance. The flute’s quiet entrance has a long way to travel before the trombones and percussion bring everything down.",
+  "question": "How does the chosen pulse change the progression from solo flute to the final brass and percussion?",
+  "intro": "A snare drum starts its two-bar pattern, and a flute begins the tune of <i>Boléro</i>. In 1930 Ravel recorded the long crescendo with the Lamoureux Orchestra; Fricsay conducts the Berlin orchestra in the second performance. The flute enters quietly, and the crescendo runs until the trombones and percussion play the ending.",
   "group": "composer-performers",
   "recordings": [
     {
       "listen": "ravel-bolero-ravel-1930",
       "label": "Maurice Ravel, Lamoureux Orchestra, 1930",
       "year": 1930,
-      "note": "The composer conducts the Lamoureux Orchestra for Polydor in January 1930."
+      "note": "The composer conducted the Lamoureux Orchestra for Polydor in January 1930."
     },
     {
       "listen": "ravel-bolero",
@@ -23,29 +23,29 @@
   "reference": "ravel-bolero",
   "passages": [
     {
-      "label": "The flute begins",
+      "label": "Opening flute melody",
       "t": 13,
-      "note": "A solo flute curls through the first tune above the snare drum and plucked strings. The bass alternates C and G."
+      "note": "A solo flute plays the first tune above the snare drum and plucked strings. The bass alternates C and G."
     },
     {
-      "label": "The oboe d’amore’s turn",
+      "label": "First melody, oboe d’amore",
       "t": 190,
-      "note": "The oboe d’amore brings back the first melody. Bassoons take up the drum’s rhythm while the strings keep plucking."
+      "note": "The oboe d’amore brings back the first melody. The bassoons take over the drum’s rhythm and the strings continue pizzicato."
     },
     {
       "label": "Horn, celesta and two piccolos",
       "t": 360,
-      "note": "A horn carries the tune beneath celesta and two piccolos. Their notes at different heights combine into one strange, bright voice."
+      "note": "A horn plays the tune beneath celesta and two piccolos. Their notes at different heights combine into one voice."
     },
     {
-      "label": "Eight bars in E major",
+      "label": "Modulation to E major",
       "t": 770,
-      "note": "The bass finally leaves C, and the orchestra swings into E major. The drum’s two-bar rhythm carries on through the sudden change."
+      "note": "The bass finally leaves C, and the orchestra moves to E major. The drum’s two-bar rhythm continues through the sudden change."
     },
     {
-      "label": "Trombone slides and the final crash",
+      "label": "Return to C major and close",
       "t": 788,
-      "note": "C major returns with trombone slides. Bass drum, cymbals and tam-tam join the last six bars, and the orchestra brings the dance crashing to a halt."
+      "note": "C major returns with trombone slides. Bass drum, cymbals and tam-tam join the last six bars, and the orchestra brings the dance to a halt."
     }
   ],
   "sources": [

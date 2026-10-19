@@ -226,7 +226,7 @@ export function mount(app) {
     active = null; clearTimeout(timer); timer = 0;
     if (nextSpan) beginSpan(nextSpan, ticket);
     else {
-      release('Passage finished; choose A, B or both to listen again.');
+      release('Passage finished; choose A, B or both to play again.');
       player.pause(); refresh();
     }
   }
@@ -242,7 +242,7 @@ export function mount(app) {
       status.textContent = `Playing ${span.side} · ${d[span.side].label}${queue.length ? '; the other passage follows.' : '; playback stops at the end.'}`;
       refresh(); armBoundary();
     } catch {
-      if (alive && ticket === sequence) release('Could not play the recording; you can still read the score notes and charts below.');
+      if (alive && ticket === sequence) release('Could not play the recording; the score notes and charts below are still available.');
     }
   }
   function play(spans, chosenMode, change = -1) {

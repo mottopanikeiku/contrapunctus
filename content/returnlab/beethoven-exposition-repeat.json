@@ -1,23 +1,23 @@
 {
   "id": "beethoven-exposition-repeat",
   "track": "beethoven-5-first",
-  "title": "Beethoven: the exposition, twice",
-  "question": "How do the opening pauses feel the second time?",
+  "title": "Beethoven and the exposition repeat",
+  "question": "Opening pauses, the second time",
   "kind": "literal repeat",
   "status": "provisional",
-  "intro": "Three short Gs land on a held E♭, then three Fs on a held D. At the repeat sign, Beethoven sends the orchestra back through all 124 bars: the pauses, the horn call and the quiet violin tune in E♭ major.",
+  "intro": "Three short Gs fall on a held E♭, then three Fs on a held D. At Beethoven’s repeat sign the orchestra plays all 124 bars again, including the pauses, the horn call and the quiet violin tune in E♭ major.",
   "first": {
     "label": "The exposition",
     "from": { "n": "1", "occ": 1 },
     "to": { "n": "124", "occ": 1 }
   },
   "second": {
-    "label": "The exposition again",
+    "label": "The exposition repeat",
     "from": { "n": "1", "occ": 2 },
     "to": { "n": "124", "occ": 2 }
   },
   "scoreChanges": [],
-  "listenFor": "The held E♭ and D stop the opening in its tracks on each pass, before the strings set off again.",
+  "listenFor": "The held E♭ and D stop the opening on each pass, before the strings start again.",
   "sources": [
     {
       "title": "Mutopia 941: Beethoven, Symphony No. 5, first movement — Breitkopf and Härtel, 1862–65",

@@ -1,46 +1,46 @@
 {
   "id": "volga-boatmen",
-  "title": "Chaliapin’s boatmen, near and far",
+  "title": "Song of the Volga Boatmen: Chaliapin, 1922 and 1927",
   "composer": null,
   "work": "Song of the Volga Boatmen, arranged by Chaliapin and Keneman",
-  "question": "How does Chaliapin build a whole drama from the boatmen’s repeated call?",
-  "intro": "Men hauling barges along the Volga sang to coordinate each heave. Chaliapin and Fyodor Keneman made their work song into a piece for bass and orchestra. Chaliapin keeps returning to the same short call, swelling it into a shout and letting it dwindle.",
+  "question": "How does Chaliapin vary the boatmen’s repeated call across the song?",
+  "intro": "Men hauling barges along the Volga sang to coordinate each heave. Chaliapin and Fyodor Keneman arranged their work song as a piece for bass and orchestra. Chaliapin returns again and again to the same short call, building it to a shout and then letting it die away.",
   "group": "singers",
   "recordings": [
     {
       "listen": "volga-boatmen-chaliapin-1922",
       "label": "Fyodor Chaliapin, George W. Byng",
       "year": 1922,
-      "note": "Made through an acoustic horn, with Byng conducting: Chaliapin’s first recording of the arrangement he helped create."
+      "note": "Chaliapin’s first recording of the arrangement he helped create, made through an acoustic horn with Byng conducting."
     },
     {
       "listen": "volga-boatmen-chaliapin-1927",
       "label": "Fyodor Chaliapin, Albert Coates",
       "year": 1927,
-      "note": "The microphone remake, with Coates conducting, made five years after Chaliapin’s first version."
+      "note": "The electrical remake, conducted by Coates, was made five years after Chaliapin’s first version."
     }
   ],
   "reference": "volga-boatmen-chaliapin-1922",
   "passages": [
     {
-      "label": "The call grows stronger",
+      "label": "Crescendo on the repeated call",
       "t": 35,
-      "note": "The bass gives the repeated call more force, building a long swell from the short phrases."
+      "note": "The bass gives the repeated call more force, and the short phrases build into one long swell."
     },
     {
-      "label": "The first shout subsides",
+      "label": "Quieter phrases after the climax",
       "t": 55,
-      "note": "Chaliapin reaches the top of the swell, then softens the next phrases as the orchestra continues beneath him."
+      "note": "Chaliapin reaches the top of the crescendo, then sings the next phrases more quietly while the orchestra continues beneath him."
     },
     {
-      "label": "The song swells again",
+      "label": "Second crescendo",
       "t": 95,
-      "note": "The repeated call gathers strength again. The bass sustains the rise across successive phrases."
+      "note": "The repeated call grows louder again. The bass holds the rise across successive phrases."
     },
     {
-      "label": "The boatmen recede",
+      "label": "Diminuendo to the close",
       "t": 165,
-      "note": "The voice grows quieter, and the last calls fade into the orchestral accompaniment."
+      "note": "The voice grows quieter, and the last calls die away into the orchestral accompaniment."
     }
   ],
   "sources": [

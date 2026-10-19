@@ -1,22 +1,22 @@
 {
   "id": "elgar-pomp-circumstance-1",
-  "title": "Elgar’s march, three ways",
+  "title": "Pomp and Circumstance March No. 1 in three recordings",
   "composer": "elgar",
   "work": "Pomp and Circumstance — March No. 1, Op. 39",
   "question": "How much can the big tune broaden before the march loses its stride?",
-  "intro": "“I’ve got a tune that will knock ’em — knock ’em flat,” Elgar told Dora Penny in May 1901. Twenty-five years later he and Frederick Stock recorded the march on opposite sides of the Atlantic; Stock brought Chicago’s grand organ. The United States Marine Band puts wind and brass where the orchestral strings sing.",
+  "intro": "“I’ve got a tune that will knock ’em — knock ’em flat,” Elgar told Dora Penny in May 1901. Twenty-five years later he and Frederick Stock recorded the march on opposite sides of the Atlantic; Stock’s recording included Chicago’s grand organ. In the version by the United States Marine Band, wind and brass play the lines that strings play in the orchestral score.",
   "group": "composer-performers",
   "recordings": [
-    { "listen": "elgar-pomp-circumstance-1-elgar-1927", "label": "Edward Elgar, 1926", "year": 1926, "note": "The composer conducts the Royal Albert Hall Orchestra at Queen’s Hall, in his first complete recording of the march." },
-    { "listen": "elgar-pomp-circumstance-1-stock-1926", "label": "Frederick Stock, 1926", "year": 1926, "note": "Stock brings the Chicago Symphony and organist Walter P. Zimmerman together: the grand organ reinforces the orchestral splendour." },
+    { "listen": "elgar-pomp-circumstance-1-elgar-1927", "label": "Edward Elgar, 1926", "year": 1926, "note": "The composer conducted the Royal Albert Hall Orchestra at Queen’s Hall, in his first complete recording of the march." },
+    { "listen": "elgar-pomp-circumstance-1-stock-1926", "label": "Frederick Stock, 1926", "year": 1926, "note": "Stock brings together the Chicago Symphony and the organist Walter P. Zimmerman, whose grand organ reinforces the orchestra." },
     { "listen": "elgar-pomp-circumstance-1-usmb", "label": "United States Marine Band", "year": null, "note": "Wind and brass carry the tune in this concert-band arrangement; the strings’ bow strokes become tongued notes." }
   ],
   "reference": "elgar-pomp-circumstance-1-elgar-1927",
   "passages": [
-    { "label": "The returning march", "t": 140, "note": "The quick march is back in D major. Short string phrases and scampering runs bounce above the bass." },
-    { "label": "Before the broad tune", "t": 170, "note": "Accented phrases keep the orchestra marching; the long trio melody is still waiting for its entrance." },
-    { "label": "The final trio", "t": 195, "note": "The famous tune returns in D major, marked <i>Molto maestoso</i>. High violins sing above the full orchestra." },
-    { "label": "A late sustained crest", "t": 240, "note": "The tune broadens towards its final held notes. A last burst of quick marching waits beyond the cadence." }
+    { "label": "Return of the quick march", "t": 140, "note": "The quick march returns in D major. The strings play short phrases and fast runs above the bass." },
+    { "label": "March before the trio", "t": 170, "note": "Accented phrases keep the orchestra in march time; the long trio melody has not yet entered." },
+    { "label": "Final trio, Molto maestoso", "t": 195, "note": "The famous tune returns in D major, marked <i>Molto maestoso</i>. High violins play above the full orchestra." },
+    { "label": "Broadening of the trio tune", "t": 240, "note": "The tune broadens towards its final held notes. After the cadence, a last passage of quick march music follows." }
   ],
   "sources": [
     { "title": "Elgar Society — first electrical recording, 27 April 1926", "url": "https://www.elgar.org/3pomp-d.htm" },

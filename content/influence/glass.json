@@ -1,0 +1,118 @@
+{
+  "batch": "glass",
+  "edges": [
+    {
+      "id": "nadia-boulanger--glass-paris-1964",
+      "from": "nadia-boulanger",
+      "to": "glass",
+      "kind": "studied-with",
+      "year": 1964,
+      "title": "Glass’s harmony and counterpoint studies with Boulanger",
+      "works": {
+        "from": "Boulanger’s private lessons and group classes on Bach and Mozart, Paris, 1964–66",
+        "to": "Glass’s later operas for chorus and soloists"
+      },
+      "claim": "<p>A Fulbright scholarship took [[glass|Philip Glass]] to Paris in 1964 to study harmony and counterpoint with Nadia Boulanger. He had a private lesson each week, a group analysis class on Wednesdays and the class the students called Black Thursday, and each week he sang one voice of a Bach chorale while playing the other three. Glass told Terry Gross in 2015 that the training “came in very handy” when he began writing opera for a chorus and soloists: “It’s called independence, being able to hear different parts separately.” In 1999 he described what he had learned from her about style: “in order to arrive at a personal style, you have to have the technique to begin with.”</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fresh Air, 6 April 2015: Philip Glass on Words Without Music (transcript)",
+          "url": "https://freshairarchive.org/segments/philip-glass-legacy-future-its-all-around-us-0",
+          "locator": "Boulanger’s three weekly lessons, the Bach chorales, and Glass’s remark that the training helped when he began writing opera"
+        },
+        {
+          "title": "Fresh Air, 21 September 1999: Ira Glass interviews Philip Glass (transcript)",
+          "url": "https://freshairarchive.org/segments/ira-glass-interviews-philip-glass",
+          "locator": "Black Thursday; the lesson on technique and style"
+        },
+        {
+          "title": "National Endowment for the Arts: Philip Glass (2010 Opera Honoree biography)",
+          "url": "https://www.arts.gov/honors/opera/philip-glass",
+          "locator": "Fulbright scholarship to study harmony and counterpoint with Boulanger in Paris"
+        }
+      ]
+    },
+    {
+      "id": "ravi-shankar--glass-notation-paris-1965",
+      "from": "ravi-shankar",
+      "to": "glass",
+      "kind": "studied-with",
+      "year": 1965,
+      "title": "Glass, Shankar and additive rhythm",
+      "works": {
+        "from": "Ravi Shankar’s film score for Conrad Rooks’s Chappaqua, notated by Glass in Paris",
+        "to": "Additive process; Two Pages (1967–68)"
+      },
+      "claim": "<p>In his second year with Nadia Boulanger, [[glass|Philip Glass]] was hired to write out a film score by the sitar player Ravi Shankar for about sixteen French studio musicians; the film was Conrad Rooks’s <i>Chappaqua</i>. Shankar had written nothing down, and the music had no bar lines. Glass worked out that it was built from cycles of beats, and that “it was a question of adding instead of dividing.” Tim Page, in his notes to the Nonesuch recording of Glass’s early keyboard works, derived the additive process of <i>Two Pages</i> from this work. In 1999 Glass said: “I consider Ravi Shankar to have been a wonderful teacher, and I still consider myself a student of his in a way.”</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Fresh Air, 21 September 1999: Ira Glass interviews Philip Glass (transcript)",
+          "url": "https://freshairarchive.org/segments/ira-glass-interviews-philip-glass",
+          "locator": "The session with the French studio orchestra, the absence of bar lines, “adding instead of dividing”, and Glass’s description of Shankar as a teacher"
+        },
+        {
+          "title": "Tim Page, notes to Two Pages / Contrary Motion / Music in Fifths / Music in Similar Motion (Nonesuch, 1994)",
+          "url": "https://philipglass.com/recordings/two_pages/",
+          "locator": "Glass engaged in his second year with Boulanger to transcribe Shankar’s film score; Two Pages and additive process derived from his work with Shankar"
+        },
+        {
+          "title": "San Francisco Classical Voice: Philip Glass, biographical outline",
+          "url": "https://www.sfcv.org/learn/composer-gallery/philip-glass",
+          "locator": "“Passage to India, 1966–1967”: Glass hired to work on the score for Conrad Rooks’s Chappaqua"
+        }
+      ]
+    },
+    {
+      "id": "glass--adams-minimalist-model-1978",
+      "from": "glass",
+      "to": "adams",
+      "kind": "modelled",
+      "year": 1978,
+      "title": "Glass, a minimalist source of Adams’s language",
+      "works": {
+        "from": "Glass’s repetitive music of the 1970s (no single piece is named in the sources)",
+        "to": "Shaker Loops (1978) and Harmonium (1980)"
+      },
+      "claim": "<p>The Boston Symphony Orchestra’s note on <i>Harmonium</i> says that the minimalism of Terry Riley, [[reich|Steve Reich]] and Philip Glass was decisive for [[adams|John Adams]], and that its renewed use of consonance, pulsation and repetition gave him licence to pursue similar directions. In Adams’s own note on <i>Harmonium</i> and <i>Shaker Loops</i>, what was “orderly and patiently evolving in the works of Reich or Glass” was in his works “already subject to violent changes in gesture and mood”.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Boston Symphony Orchestra: Adams, Harmonium (programme note, with Adams’s own note reprinted)",
+          "url": "https://www.bso.org/works/adams-harmonium",
+          "locator": "Paragraph beginning “No less decisive was the minimalism of Terry Riley, Steve Reich, and Philip Glass”; Adams’s note on Harmonium (1980) and Shaker Loops (1978)"
+        }
+      ]
+    },
+    {
+      "id": "david-bowie--glass-low-symphony-1992",
+      "from": "david-bowie",
+      "to": "glass",
+      "kind": "modelled",
+      "year": 1992,
+      "title": "Glass: Symphony on Bowie and Eno’s Low",
+      "works": {
+        "from": "Subterraneans, Some Are and Warszawa, from David Bowie and Brian Eno, Low (1977)",
+        "to": "Symphony No. 1 “Low” (1992)"
+      },
+      "claim": "<p>[[glass|Philip Glass]] wrote his Symphony No. 1 in the spring of 1992 on themes from three instrumentals on <i>Low</i>, the 1977 album by David Bowie and Brian Eno: <i>Subterraneans</i> in the first movement, <i>Some Are</i> in the second and <i>Warszawa</i> in the third. He combined them with material of his own and treated the borrowed themes in the same way as that material, though he wrote that Bowie and Eno’s music “certainly influenced how I worked”. The Fourth Symphony, “Heroes” (1996), is likewise based on the work of Bowie and Eno.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Philip Glass: Symphony No. 1 “Low” (composition page, with the composer’s note)",
+          "url": "https://philipglass.com/compositions/symphony_01_low/",
+          "locator": "Composer’s note: themes from three instrumentals; movement-by-movement sources"
+        },
+        {
+          "title": "Philip Glass: Symphony No. 4 “Heroes” (composition page)",
+          "url": "https://philipglass.com/compositions/symphony_04/",
+          "locator": "Notes: based on the work of Bowie and Eno; commissioned by the Twyla Tharp Dance Company, 1996"
+        }
+      ]
+    }
+  ],
+  "figures": [
+    { "id": "ravi-shankar", "name": "Ravi Shankar", "dates": "1920–2012", "year": 1920, "kind": "performer" },
+    { "id": "david-bowie", "name": "David Bowie", "dates": "1947–2016", "year": 1947, "kind": "performer" }
+  ]
+}

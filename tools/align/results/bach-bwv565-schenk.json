@@ -1,0 +1,946 @@
+{
+  "uniqueScoreAttacks": 2377,
+  "audioDetectedOnsets": 1142,
+  "medianAbsoluteOnsetDeviation": 0.08978025942312229,
+  "noteWeightedMedianDeviation": 0.06348383759103626,
+  "p95AbsoluteOnsetDeviation": 0.7638379755166044,
+  "fractionWithin150ms": 0.7000420698359276,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 12,
+      "median": 0.030937594151879466,
+      "p95": 0.07774425029335724,
+      "max": 0.09396944325515699,
+      "adaptiveMedian": 0.04097259387437946,
+      "adaptiveP95": 0.08229310124399396
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 9,
+      "median": 1.2564720398648976,
+      "p95": 1.5737867687867684,
+      "max": 1.6091905713334285,
+      "adaptiveMedian": 0.046913522984953104,
+      "adaptiveP95": 0.1440861321218463
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 7,
+      "median": 1.0415699578199558,
+      "p95": 4.6022106504606475,
+      "max": 4.67487409415981,
+      "adaptiveMedian": 0.06199665413950939,
+      "adaptiveP95": 0.17708946608947074
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 55,
+      "median": 0.07108100233100245,
+      "p95": 0.2955841737627443,
+      "max": 0.43252148645005306,
+      "adaptiveMedian": 0.03750449946878476,
+      "adaptiveP95": 0.09046883671883418
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 64,
+      "median": 0.1166731284588387,
+      "p95": 0.9870794146329798,
+      "max": 1.3202848342133962,
+      "adaptiveMedian": 0.021423992673994974,
+      "adaptiveP95": 0.056754824540534786
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 21,
+      "median": 0.07016233766233171,
+      "p95": 1.1136330732759276,
+      "max": 1.2460165231593763,
+      "adaptiveMedian": 0.03611099218242941,
+      "adaptiveP95": 0.07016233766233171
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 49,
+      "median": 0.05318114425256937,
+      "p95": 0.10844557030267897,
+      "max": 0.13130332960690083,
+      "adaptiveMedian": 0.04533750971250328,
+      "adaptiveP95": 0.07121834118262312
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 57,
+      "median": 0.05521131646131039,
+      "p95": 0.18741794118579805,
+      "max": 0.20953516721373688,
+      "adaptiveMedian": 0.05333940860727182,
+      "adaptiveP95": 0.0692230507587638
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 46,
+      "median": 0.05298239458952736,
+      "p95": 0.159755371116983,
+      "max": 0.2689804243375704,
+      "adaptiveMedian": 0.05014832885368037,
+      "adaptiveP95": 0.07819042812346311
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 41,
+      "median": 0.0493712834784219,
+      "p95": 0.22659504186290746,
+      "max": 0.25900853115138034,
+      "adaptiveMedian": 0.048171005581707504,
+      "adaptiveP95": 0.0713051829123259
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 32,
+      "median": 0.052332132153551925,
+      "p95": 0.2795174052138393,
+      "max": 0.5807452864595746,
+      "adaptiveMedian": 0.027950759557896276,
+      "adaptiveP95": 0.07395091713842206
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 26,
+      "median": 0.04820058909344027,
+      "p95": 0.2392370228977363,
+      "max": 0.6056153568653571,
+      "adaptiveMedian": 0.04813630813630709,
+      "adaptiveP95": 0.11956769916588783
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 63,
+      "median": 0.08964468071609133,
+      "p95": 0.34550355596785354,
+      "max": 0.5273134801706192,
+      "adaptiveMedian": 0.03139051424766137,
+      "adaptiveP95": 0.056918724132987104
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 54,
+      "median": 0.10231752374610181,
+      "p95": 0.26846604585890715,
+      "max": 0.36945249195251506,
+      "adaptiveMedian": 0.022719383790807512,
+      "adaptiveP95": 0.044309684363265205
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 8,
+      "median": 0.593123919731056,
+      "p95": 2.0063607830661514,
+      "max": 2.1458620942549658,
+      "adaptiveMedian": 0.06582627689769538,
+      "adaptiveP95": 0.35292871216083693
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 15,
+      "median": 1.3193481122052333,
+      "p95": 2.9711257333935803,
+      "max": 3.0030124439053054,
+      "adaptiveMedian": 0.03699829931969134,
+      "adaptiveP95": 0.45758813012381977
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 29,
+      "median": 0.24303587285729122,
+      "p95": 1.782467675181959,
+      "max": 2.0604729199372116,
+      "adaptiveMedian": 0.03015492444066581,
+      "adaptiveP95": 0.11226825951825381
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 49,
+      "median": 0.053283343640458725,
+      "p95": 0.16644141969141504,
+      "max": 0.29219411540839246,
+      "adaptiveMedian": 0.0313628038627769,
+      "adaptiveP95": 0.12795234527378047
+    },
+    {
+      "start": 144.0,
+      "end": 152.0,
+      "attacks": 52,
+      "median": 0.07687603467960002,
+      "p95": 0.15474024190096144,
+      "max": 0.15686335489908743,
+      "adaptiveMedian": 0.045106371802816625,
+      "adaptiveP95": 0.1481961471068473
+    },
+    {
+      "start": 152.0,
+      "end": 160.0,
+      "attacks": 52,
+      "median": 0.08744710646496401,
+      "p95": 0.14806302824159018,
+      "max": 0.28633529169246685,
+      "adaptiveMedian": 0.030944601033880303,
+      "adaptiveP95": 0.06797234412411081
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "attacks": 53,
+      "median": 0.18703314542597127,
+      "p95": 0.764888393352686,
+      "max": 0.9406359909931439,
+      "adaptiveMedian": 0.03139437943008261,
+      "adaptiveP95": 0.06287461348175043
+    },
+    {
+      "start": 168.0,
+      "end": 176.0,
+      "attacks": 52,
+      "median": 0.10671011528157237,
+      "p95": 0.33229567951890276,
+      "max": 0.45273363541221556,
+      "adaptiveMedian": 0.030310681382104576,
+      "adaptiveP95": 0.08915229116120979
+    },
+    {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 52,
+      "median": 0.1725887208030059,
+      "p95": 0.6221280148422933,
+      "max": 0.6879142880928839,
+      "adaptiveMedian": 0.026869895977014835,
+      "adaptiveP95": 0.12347014394336348
+    },
+    {
+      "start": 184.0,
+      "end": 192.0,
+      "attacks": 53,
+      "median": 0.12770408163265756,
+      "p95": 0.39746644228786177,
+      "max": 0.5780004519290287,
+      "adaptiveMedian": 0.054345912024501786,
+      "adaptiveP95": 0.1458401162329551
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 52,
+      "median": 0.10654052544678905,
+      "p95": 0.3938208388833359,
+      "max": 0.4660121822621477,
+      "adaptiveMedian": 0.03843529486388775,
+      "adaptiveP95": 0.09795082100439172
+    },
+    {
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 52,
+      "median": 0.07540550223583864,
+      "p95": 0.2398352609691763,
+      "max": 0.42630684791399176,
+      "adaptiveMedian": 0.031176541712255812,
+      "adaptiveP95": 0.13659486148770833
+    },
+    {
+      "start": 208.0,
+      "end": 216.0,
+      "attacks": 53,
+      "median": 0.024734075448321846,
+      "p95": 0.14880810855810864,
+      "max": 0.15486919826207668,
+      "adaptiveMedian": 0.020025014667851337,
+      "adaptiveP95": 0.05430313813168368
+    },
+    {
+      "start": 216.0,
+      "end": 224.0,
+      "attacks": 52,
+      "median": 0.020147887826453825,
+      "p95": 0.14840922965922515,
+      "max": 0.19597178615035205,
+      "adaptiveMedian": 0.019966858538296606,
+      "adaptiveP95": 0.05233909245513217
+    },
+    {
+      "start": 224.0,
+      "end": 232.0,
+      "attacks": 52,
+      "median": 0.020499252731355,
+      "p95": 0.1434356417391868,
+      "max": 0.14863432202719196,
+      "adaptiveMedian": 0.017846389721356104,
+      "adaptiveP95": 0.05492321269998683
+    },
+    {
+      "start": 232.0,
+      "end": 240.0,
+      "attacks": 53,
+      "median": 0.12202918113629835,
+      "p95": 1.3161339652411015,
+      "max": 1.5258308160093748,
+      "adaptiveMedian": 0.0351914950129526,
+      "adaptiveP95": 0.0923797313797194
+    },
+    {
+      "start": 240.0,
+      "end": 248.0,
+      "attacks": 52,
+      "median": 0.3288133245722378,
+      "p95": 1.0780427479266645,
+      "max": 1.2451493744350728,
+      "adaptiveMedian": 0.03426127443984228,
+      "adaptiveP95": 0.05660902193044848
+    },
+    {
+      "start": 248.0,
+      "end": 256.0,
+      "attacks": 52,
+      "median": 0.15335206460206052,
+      "p95": 0.4567197247197086,
+      "max": 0.4789153307010565,
+      "adaptiveMedian": 0.033839513660922194,
+      "adaptiveP95": 0.06433877432089048
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "attacks": 52,
+      "median": 0.11163301975807371,
+      "p95": 0.28931993403424483,
+      "max": 0.350189711082578,
+      "adaptiveMedian": 0.03458150976007346,
+      "adaptiveP95": 0.06769852815833131
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "attacks": 62,
+      "median": 0.13043823488024486,
+      "p95": 0.48444853757346745,
+      "max": 0.7482893792715117,
+      "adaptiveMedian": 0.034307636807625386,
+      "adaptiveP95": 0.1194854688961185
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "attacks": 52,
+      "median": 0.3381106195391794,
+      "p95": 1.2652358524412104,
+      "max": 1.4435584653442106,
+      "adaptiveMedian": 0.01716824841827247,
+      "adaptiveP95": 0.059132928083801044
+    },
+    {
+      "start": 280.0,
+      "end": 288.0,
+      "attacks": 52,
+      "median": 0.0891725387707254,
+      "p95": 0.2888912476412456,
+      "max": 0.3168631170416347,
+      "adaptiveMedian": 0.030258808651666413,
+      "adaptiveP95": 0.07016974245989897
+    },
+    {
+      "start": 288.0,
+      "end": 296.0,
+      "attacks": 52,
+      "median": 0.12374378399377406,
+      "p95": 0.3480733165643355,
+      "max": 0.44589674214671504,
+      "adaptiveMedian": 0.04306485379694891,
+      "adaptiveP95": 0.07021188385025709
+    },
+    {
+      "start": 296.0,
+      "end": 304.0,
+      "attacks": 53,
+      "median": 0.09016437927152765,
+      "p95": 0.27097897340752297,
+      "max": 0.30387037565611763,
+      "adaptiveMedian": 0.027826360147798823,
+      "adaptiveP95": 0.1043101481851863
+    },
+    {
+      "start": 304.0,
+      "end": 312.0,
+      "attacks": 52,
+      "median": 0.13121336996334776,
+      "p95": 0.7050300800390424,
+      "max": 0.8771429760715819,
+      "adaptiveMedian": 0.041289048253332794,
+      "adaptiveP95": 0.14628319151088362
+    },
+    {
+      "start": 312.0,
+      "end": 320.0,
+      "attacks": 53,
+      "median": 0.09203128220985946,
+      "p95": 0.19830135340847618,
+      "max": 0.2510477221191536,
+      "adaptiveMedian": 0.058740703740681965,
+      "adaptiveP95": 0.145121897943352
+    },
+    {
+      "start": 320.0,
+      "end": 328.0,
+      "attacks": 53,
+      "median": 0.11997012907727367,
+      "p95": 1.3474295783581396,
+      "max": 1.5421418660704376,
+      "adaptiveMedian": 0.04258178329604334,
+      "adaptiveP95": 0.12294305297878054
+    },
+    {
+      "start": 328.0,
+      "end": 336.0,
+      "attacks": 51,
+      "median": 0.2158756917684741,
+      "p95": 0.6979708882387285,
+      "max": 1.0209459786245247,
+      "adaptiveMedian": 0.034635424099690226,
+      "adaptiveP95": 0.10399664819308896
+    },
+    {
+      "start": 336.0,
+      "end": 344.0,
+      "attacks": 53,
+      "median": 0.14608849483852282,
+      "p95": 0.5719085715871186,
+      "max": 0.7442366958438242,
+      "adaptiveMedian": 0.03465988376706264,
+      "adaptiveP95": 0.1144236804862089
+    },
+    {
+      "start": 344.0,
+      "end": 352.0,
+      "attacks": 52,
+      "median": 0.050366161616182126,
+      "p95": 0.22716171824205825,
+      "max": 0.3372760770974992,
+      "adaptiveMedian": 0.030036996733429078,
+      "adaptiveP95": 0.06657419663665676
+    },
+    {
+      "start": 352.0,
+      "end": 360.0,
+      "attacks": 52,
+      "median": 0.10945538588396175,
+      "p95": 0.4322864857117251,
+      "max": 0.5636818142175457,
+      "adaptiveMedian": 0.045940388976106306,
+      "adaptiveP95": 0.1801954716910102
+    },
+    {
+      "start": 360.0,
+      "end": 368.0,
+      "attacks": 38,
+      "median": 0.07424391085109505,
+      "p95": 0.1326414835164712,
+      "max": 0.15469461094465942,
+      "adaptiveMedian": 0.04450416646844246,
+      "adaptiveP95": 0.12921179415822337
+    },
+    {
+      "start": 368.0,
+      "end": 376.0,
+      "attacks": 50,
+      "median": 0.07449524186137069,
+      "p95": 0.5483351186263852,
+      "max": 1.0810943025228426,
+      "adaptiveMedian": 0.04067549513979429,
+      "adaptiveP95": 0.11230072903283025
+    },
+    {
+      "start": 376.0,
+      "end": 384.0,
+      "attacks": 41,
+      "median": 0.054627386502374975,
+      "p95": 0.19079144070212806,
+      "max": 0.30449633699623746,
+      "adaptiveMedian": 0.03417867846417266,
+      "adaptiveP95": 0.06122630345845437
+    },
+    {
+      "start": 384.0,
+      "end": 392.0,
+      "attacks": 11,
+      "median": 2.7647711019136523,
+      "p95": 4.2532719760398265,
+      "max": 4.412559563452419,
+      "adaptiveMedian": 0.03049232513512834,
+      "adaptiveP95": 0.07118598663205944
+    },
+    {
+      "start": 392.0,
+      "end": 400.0,
+      "attacks": 12,
+      "median": 1.1746574655503537,
+      "p95": 2.2257742376670677,
+      "max": 2.2419610944610326,
+      "adaptiveMedian": 0.056921471385493305,
+      "adaptiveP95": 0.26730699062839247
+    },
+    {
+      "start": 400.0,
+      "end": 408.0,
+      "attacks": 68,
+      "median": 0.038506012836307946,
+      "p95": 0.1934102742496719,
+      "max": 0.23126883037599555,
+      "adaptiveMedian": 0.02977400575611,
+      "adaptiveP95": 0.04809239322175642
+    },
+    {
+      "start": 408.0,
+      "end": 416.0,
+      "attacks": 46,
+      "median": 0.044435430640731965,
+      "p95": 0.3026136066314251,
+      "max": 0.38806863771151257,
+      "adaptiveMedian": 0.037908093890195005,
+      "adaptiveP95": 0.06266177522873306
+    },
+    {
+      "start": 416.0,
+      "end": 424.0,
+      "attacks": 35,
+      "median": 0.15586669283101173,
+      "p95": 0.5437809065934004,
+      "max": 0.5775273734203097,
+      "adaptiveMedian": 0.04615792937221386,
+      "adaptiveP95": 0.18228047448581017
+    },
+    {
+      "start": 424.0,
+      "end": 432.0,
+      "attacks": 12,
+      "median": 0.11607532348602945,
+      "p95": 1.0149839565196654,
+      "max": 1.2539276596419313,
+      "adaptiveMedian": 0.06490278075099809,
+      "adaptiveP95": 0.338985851450181
+    },
+    {
+      "start": 432.0,
+      "end": 440.0,
+      "attacks": 4,
+      "median": 1.0797362558068357,
+      "p95": 1.9679081751582799,
+      "max": 1.9881727796014843,
+      "adaptiveMedian": 0.05076114361835948,
+      "adaptiveP95": 0.05333194979615996
+    },
+    {
+      "start": 440.0,
+      "end": 448.0,
+      "attacks": 2,
+      "median": 3.1454735344021003,
+      "p95": 4.072426331604859,
+      "max": 4.17542108684961,
+      "adaptiveMedian": 0.014950406736176092,
+      "adaptiveP95": 0.026146674753871932
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 440.0,
+      "end": 448.0,
+      "attacks": 2,
+      "median": 3.1454735344021003,
+      "p95": 4.072426331604859,
+      "max": 4.17542108684961,
+      "adaptiveMedian": 0.014950406736176092,
+      "adaptiveP95": 0.026146674753871932
+    },
+    {
+      "start": 384.0,
+      "end": 392.0,
+      "attacks": 11,
+      "median": 2.7647711019136523,
+      "p95": 4.2532719760398265,
+      "max": 4.412559563452419,
+      "adaptiveMedian": 0.03049232513512834,
+      "adaptiveP95": 0.07118598663205944
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 15,
+      "median": 1.3193481122052333,
+      "p95": 2.9711257333935803,
+      "max": 3.0030124439053054,
+      "adaptiveMedian": 0.03699829931969134,
+      "adaptiveP95": 0.45758813012381977
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 9,
+      "median": 1.2564720398648976,
+      "p95": 1.5737867687867684,
+      "max": 1.6091905713334285,
+      "adaptiveMedian": 0.046913522984953104,
+      "adaptiveP95": 0.1440861321218463
+    },
+    {
+      "start": 392.0,
+      "end": 400.0,
+      "attacks": 12,
+      "median": 1.1746574655503537,
+      "p95": 2.2257742376670677,
+      "max": 2.2419610944610326,
+      "adaptiveMedian": 0.056921471385493305,
+      "adaptiveP95": 0.26730699062839247
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 8,
+      "median": 0.593123919731056,
+      "p95": 2.0063607830661514,
+      "max": 2.1458620942549658,
+      "adaptiveMedian": 0.06582627689769538,
+      "adaptiveP95": 0.35292871216083693
+    },
+    {
+      "start": 424.0,
+      "end": 432.0,
+      "attacks": 12,
+      "median": 0.11607532348602945,
+      "p95": 1.0149839565196654,
+      "max": 1.2539276596419313,
+      "adaptiveMedian": 0.06490278075099809,
+      "adaptiveP95": 0.338985851450181
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 7,
+      "median": 1.0415699578199558,
+      "p95": 4.6022106504606475,
+      "max": 4.67487409415981,
+      "adaptiveMedian": 0.06199665413950939,
+      "adaptiveP95": 0.17708946608947074
+    },
+    {
+      "start": 312.0,
+      "end": 320.0,
+      "attacks": 53,
+      "median": 0.09203128220985946,
+      "p95": 0.19830135340847618,
+      "max": 0.2510477221191536,
+      "adaptiveMedian": 0.058740703740681965,
+      "adaptiveP95": 0.145121897943352
+    },
+    {
+      "start": 392.0,
+      "end": 400.0,
+      "attacks": 12,
+      "median": 1.1746574655503537,
+      "p95": 2.2257742376670677,
+      "max": 2.2419610944610326,
+      "adaptiveMedian": 0.056921471385493305,
+      "adaptiveP95": 0.26730699062839247
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 24.0,
+      "meanCosine": 0.5464910893462414
+    },
+    {
+      "start": 368.0,
+      "meanCosine": 0.5703530531456199
+    },
+    {
+      "start": 32.0,
+      "meanCosine": 0.581956431771269
+    },
+    {
+      "start": 128.0,
+      "meanCosine": 0.5873944270226545
+    },
+    {
+      "start": 8.0,
+      "meanCosine": 0.6065628591341984
+    }
+  ],
+  "sections": [
+    {
+      "bar": "33",
+      "occ": 1,
+      "editorial": 138,
+      "aligned": 138.7704895104895,
+      "difference": 0.7704895104895115,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "86",
+      "occ": 1,
+      "editorial": 268,
+      "aligned": 268.4222377622378,
+      "difference": 0.42223776223778486,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "130",
+      "occ": 1,
+      "editorial": 382,
+      "aligned": 381.3591608391609,
+      "difference": -0.6408391608391071,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "143",
+      "occ": 1,
+      "editorial": 450,
+      "aligned": 444.2283916083916,
+      "difference": -5.771608391608424,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 0.32,
+      "nearestOnsetDeviation": 0.028299319727891126
+    },
+    {
+      "label": "middle",
+      "bar": "69",
+      "occ": 1,
+      "scoreQ": 274.5,
+      "audioSeconds": 228.37554195804196,
+      "nearestOnsetDeviation": 0.14660771767916003
+    },
+    {
+      "label": "last",
+      "bar": "143",
+      "occ": 1,
+      "scoreQ": 568.0,
+      "audioSeconds": 444.2283916083916,
+      "nearestOnsetDeviation": 4.17542108684961
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "143",
+      "occ": 1,
+      "midi": 38,
+      "voice": "pedal",
+      "durationQ": 4.0,
+      "onset": 444.2283916083916,
+      "offset": 454.66,
+      "durationSeconds": 10.43160839160845
+    },
+    {
+      "bar": "143",
+      "occ": 1,
+      "midi": 50,
+      "voice": "pedal",
+      "durationQ": 4.0,
+      "onset": 444.2283916083916,
+      "offset": 454.66,
+      "durationSeconds": 10.43160839160845
+    },
+    {
+      "bar": "143",
+      "occ": 1,
+      "midi": 53,
+      "voice": "manual-lower",
+      "durationQ": 4.0,
+      "onset": 444.2283916083916,
+      "offset": 454.66,
+      "durationSeconds": 10.43160839160845
+    },
+    {
+      "bar": "143",
+      "occ": 1,
+      "midi": 57,
+      "voice": "manual-upper",
+      "durationQ": 4.0,
+      "onset": 444.2283916083916,
+      "offset": 454.66,
+      "durationSeconds": 10.43160839160845
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.00827396561766136,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7410163437065349,
+  "endAnchor": {
+    "scoreQ": 572.0,
+    "audioSeconds": 454.66,
+    "decodedDuration": 463.96,
+    "activeEndMinus45dB": 454.65832199546486
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "bach-bwv565-schenk",
+  "tuningHz": 440.0,
+  "audioSha256": "6f1072a28933fb0cc2efe50cb20606c4c1dd9dde4fe4d69f1a09bc5a4c49f972",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "EXT: Mutopia 1780 transcribes the Bach-Gesellschaft Ausgabe (1867). The LilyPond 2.12.2 source is converted only in a disposable copy; a LilyPond 2.24.4 compilation of the unchanged staffChurchOrgan expression reproduced the published MIDI's complete 3,651-attack pitch/onset multiset with no missing or extra attacks, and both span 572 quarter units (143 bars of 4/4).",
+    "Voices are the source's three printed staves (two manual staves and pedal), mapped from the published MIDI tracks; they are not separated hands, registrations or audio stems. Same-staff polyphony is merged at staff level, as in the published MIDI.",
+    "Pedal events are written pitch. Organ registration (for example 16-foot pedal stops or manual couplers) is not documented for this recording and is not inferred; the chroma/onset alignment is octave-independent, but pitch-energy overlays may show the sounding pedal an octave below the written line.",
+    "Read content/listen/bach-bwv565-schenk.mjs and cache/analysis/bach-bwv565-schenk.txt. Editorial sections are coarse; they are not forced alignment anchors. The source's notated rhythm of the free toccata and recitative passages is not a transcription of the performer's timing."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      100.68,
+      138.0
+    ],
+    [
+      269.52,
+      268.0
+    ],
+    [
+      410.0163636363636,
+      382.0
+    ],
+    [
+      451.1627972027972,
+      444.22
+    ]
+  ],
+  "sourceChecks": {},
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 0.32,
+      "peakSeconds": 0.4,
+      "window": [
+        0,
+        0.4
+      ],
+      "midiPitches": [
+        69,
+        81
+      ],
+      "basis": "The first A4/A5 mordent and its descending run occupy roughly 0.1–3.3 s; the initial broad window wrongly selected the second, lower mordent statement near 4.24 s despite passing the onset median. The final D-major chord's D2/D3 pedal and manual bands rise near 444.3 s after the preceding chord near 442.1 s.",
+      "mappedAudioSeconds": 0.32,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 568.0,
+      "audioSeconds": 444.22,
+      "peakSeconds": 444.34,
+      "window": [
+        444.0,
+        444.6
+      ],
+      "midiPitches": [
+        38,
+        50,
+        53,
+        57
+      ],
+      "basis": "The first A4/A5 mordent and its descending run occupy roughly 0.1–3.3 s; the initial broad window wrongly selected the second, lower mordent statement near 4.24 s despite passing the onset median. The final D-major chord's D2/D3 pedal and manual bands rise near 444.3 s after the preceding chord near 442.1 s.",
+      "mappedAudioSeconds": 444.2283916083916,
+      "mappingDeviationSeconds": 0.008391608391548289
+    }
+  ],
+  "adaptiveOnsetCount": 2673,
+  "adaptiveMedianDeviation": 0.03462969570114183,
+  "gateReasons": [
+    "A first/middle/last anchor disagrees with the independent onset detector by over 0.5 seconds."
+  ],
+  "elapsedSeconds": 0.7489204090088606,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 143,
+    "notes": 3651,
+    "voices": 3
+  },
+  "published": false,
+  "configSha256": "5deed77f4a62114ed78135c0d5a48f2f4a79bd1768b5762e0e58627e0ef07d83",
+  "sourceDownloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.ly",
+      "file": "ToccataFugue.ly",
+      "sha256": "1640bbd2bf11a95e18db03fea285d30718254af0a694e1c36533d8109d71718c"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.mid",
+      "file": "ToccataFugue.mid",
+      "sha256": "1aabd00967aded08d6633482c211af46f679d97f01cfeaca43c83a59dfeeeb6b"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/bach-bwv565-schenk-0-8.32.png",
+    "work/bach-bwv565-schenk-8-16.png",
+    "work/bach-bwv565-schenk-16-24.png",
+    "work/bach-bwv565-schenk-112-120.png",
+    "work/bach-bwv565-schenk-120-128.png",
+    "work/bach-bwv565-schenk-224.376-236.376.png",
+    "work/bach-bwv565-schenk-312-320.png",
+    "work/bach-bwv565-schenk-384-392.png",
+    "work/bach-bwv565-schenk-392-400.png",
+    "work/bach-bwv565-schenk-424-432.png",
+    "work/bach-bwv565-schenk-440-448.png",
+    "work/bach-bwv565-schenk-440.228-452.228.png"
+  ]
+}

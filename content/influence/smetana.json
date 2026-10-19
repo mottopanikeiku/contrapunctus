@@ -1,0 +1,111 @@
+{
+  "batch": "smetana",
+  "edges": [
+    {
+      "id": "smetana--liszt-morceaux-dedication-1848",
+      "from": "smetana",
+      "to": "liszt",
+      "kind": "dedicated",
+      "year": 1848,
+      "title": "Smetana’s six piano pieces dedicated to Liszt",
+      "works": {
+        "from": "Six morceaux caractéristiques, Op. 1 (completed 23 March 1848), inscribed to Liszt",
+        "to": "Liszt’s reply of 30 March 1848"
+      },
+      "claim": "<p>On 28 March 1848 Smetana, aged twenty-four, wrote to [[liszt]] that he was unknown even among those closest to him, and sent six piano pieces inscribed to Liszt, with a request for a loan of 400 florins to start a music school in Prague. Liszt replied on 30 March that he accepted the dedication, that the pieces were among the best and most finely worked he had lately seen, and that he hoped to find a publisher. The loan was not made; Kistner of Leipzig published the pieces on Liszt’s recommendation. In a letter of 24 October 1858 Smetana asked Liszt to consider him “one of the most zealous disciples of our artistic direction”.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (Prague, 1895)",
+          "url": "https://archive.org/details/11658530bsb",
+          "locator": "pp. 7–8 (Liszt’s reply and the Kistner edition); appendix, letters I and III (Smetana to Liszt, 28 March 1848 and 1858)"
+        },
+        {
+          "title": "Bedřich Smetana Museum: catalogue entry for Six morceaux caractéristiques",
+          "url": "https://bedrichsmetana.nm.cz/en/work/detail/six-morceaux-caracteristiques/55",
+          "locator": "Inscribed to Liszt on the autograph; completed 23 March 1848; Smetana’s list of 1875: Op. 1, dedicated to Liszt, published in Leipzig on his recommendation"
+        },
+        {
+          "title": "F. V. Krejčí, Bedřich Smetana, 2nd edn (Prague, 1924)",
+          "url": "https://archive.org/details/bedrich_smetana-f_v_krejci",
+          "locator": "Section on 1848: the loan did not arrive; Liszt sent encouraging letters and a recommendation to the Leipzig publisher"
+        }
+      ]
+    },
+    {
+      "id": "wagner--smetana-munich-performances-1870",
+      "from": "wagner",
+      "to": "smetana",
+      "kind": "heard",
+      "year": 1870,
+      "title": "Smetana at Wagner’s music dramas in Munich",
+      "works": {
+        "from": "Die Meistersinger (Munich, 1868); Das Rheingold and Die Walküre (Munich, summer 1870); Tristan und Isolde (Munich, 1872)",
+        "to": "Smetana’s opera Dalibor (first performed 16 May 1868), which critics called Wagnerian"
+      },
+      "claim": "<p>Wellek records that Smetana travelled to Munich in 1868 for <i>Die Meistersinger</i>; in the summer of 1870 for <i>Das Rheingold</i> and <i>Die Walküre</i>, the second of which filled him with boundless admiration, and on that visit he met [[liszt]]; and in 1872 for <i>Tristan</i>, which he took for the ideal of a music drama. At Gothenburg in 1857–58 the society he directed performed choruses from <i>Tannhäuser</i> and <i>Lohengrin</i>, and in his own concerts he presented his arrangement of the <i>Tannhäuser</i> overture for four pianos. Conservative critics called <i>Dalibor</i> a work in the wake of Wagner’s principles, and after <i>The Brandenburgers</i> he was accused of being a Wagnerian. He said that he wrote <i>The Bartered Bride</i> “aus Trotz”, out of defiance.</p>",
+      "status": "inferred",
+      "note": "Wellek reports the journeys, Smetana’s admiration for Tristan and the critics’ charge of Wagnerism, and Smetana’s letter to Liszt of 1858 lists the Wagner pieces he conducted. No statement by Smetana naming a passage of Wagner as a source for a passage of his own has been consulted, so the effect on the music is not established here.",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (Prague, 1895)",
+          "url": "https://archive.org/details/11658530bsb",
+          "locator": "p. 54, footnote (Munich, 1868, 1870 and 1872); p. 20 (“aus Trotz”); the Dalibor section (conservative critics); appendix, letter III (Gothenburg repertory and the Tannhäuser arrangement)"
+        }
+      ]
+    },
+    {
+      "id": "smetana--dvorak-provisional-theatre-orchestra-1866",
+      "from": "smetana",
+      "to": "dvorak",
+      "kind": "heard",
+      "year": 1866,
+      "title": "Dvořák as violist in Smetana’s premieres",
+      "works": {
+        "from": "The Brandenburgers in Bohemia (5 January 1866) and The Bartered Bride (30 May 1866), conducted by Smetana",
+        "to": "Dvořák as viola player in the Provisional Theatre orchestra, 1862–71"
+      },
+      "claim": "<p>[[dvorak]] joined the orchestra of the Provisional Theatre in Prague as a viola player on 18 November 1862 and left it in the summer of 1871. He took part in the first performances of Smetana’s <i>The Brandenburgers in Bohemia</i> on 5 January 1866 and <i>The Bartered Bride</i> on 30 May 1866, both conducted by the composer, and in the gala first performance of <i>Dalibor</i> on 16 May 1868. In October 1872 he signed an open letter in Smetana’s defence, and in April 1878 he played the viola at the first, private performance of the String Quartet in E minor, <i>From My Life</i>.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Dvořák chronology, Antonín Dvořák: life and work",
+          "url": "https://www.antonin-dvorak.cz/en/life/important-dates-in-the-life-of-antonin-dvorak/",
+          "locator": "Entries for 18 November 1862, 5 January, 30 May 1866, 16 May 1868, summer 1871, 17 October 1872 and April 1878"
+        },
+        {
+          "title": "Bedřich Smetana Museum: catalogue entry for The Bartered Bride",
+          "url": "https://bedrichsmetana.nm.cz/en/work/detail/the-bartered-bride/121",
+          "locator": "First performance 30 May 1866, Provisional Theatre, conducted by Smetana"
+        }
+      ]
+    },
+    {
+      "id": "smetana--clara-schumann-sketches-dedication-1857",
+      "from": "smetana",
+      "to": "clara-schumann",
+      "kind": "dedicated",
+      "year": 1857,
+      "title": "Smetana’s Sketches, dedicated to Clara Schumann",
+      "works": {
+        "from": "Sketches, Op. 4 (four piano pieces, published in Prague by Veit, 1857 or 1858)",
+        "to": "Clara Schumann’s letter of 18 May 1852 on Smetana’s Stammbuchblätter"
+      },
+      "claim": "<p>Smetana sent [[clara-schumann]] a set of piano pieces, <i>Stammbuchblätter</i>, and she replied from Düsseldorf on 18 May 1852 that she liked Nos. 7, 8, 9, 10 and 13 best but advised him not to print the pieces headed “Romantik”: “it does not seem right to me to look for romanticism in the bizarre”. In 1856–57 he revised pieces from the same album leaves, written between 1848 and 1852, and gave them titles. The four that formed his Op. 4, the <i>Sketches</i>, were dedicated to her and published in Prague by Veit, in 1857 according to Smetana’s own list and in 1858 according to the museum’s record of the first edition.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (Prague, 1895)",
+          "url": "https://archive.org/details/11658530bsb",
+          "locator": "pp. 8–9 (Clara Schumann’s letter, Düsseldorf, 18 May 1852)"
+        },
+        {
+          "title": "Bedřich Smetana Museum: catalogue entry for Sketches, Op. 4",
+          "url": "https://bedrichsmetana.nm.cz/en/work/detail/sketches-op-4/86",
+          "locator": "Dedicated to Clara Schumann; notebooks of album leaves, 1848–52; revised and titled in 1856–57; published in Prague by Veit (1857 in Smetana’s list of 1875, 1858 in the record of the first edition)"
+        }
+      ]
+    }
+  ],
+  "figures": []
+}

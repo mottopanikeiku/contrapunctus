@@ -127,7 +127,7 @@ function citePage(ctx, title) {
   return `<details class="apparatus citation" id="cite"><summary>Cite this page</summary><p id="cite-chicago">${esc(chicago)}</p><button type="button" class="textbook-button" data-copy="cite-chicago">Copy Chicago citation</button><pre id="cite-bibtex"><code>${esc(bibtex)}</code></pre><button type="button" class="textbook-button" data-copy="cite-bibtex">Copy BibTeX</button><p class="copy-status" role="status"></p></details>`;
 }
 
-function hearButton(id, t = 0, label = 'Hear it') {
+function hearButton(id, t = 0, label = 'Play') {
   return listenById.has(id) ? `<button type="button" class="play" data-play-id="${attr(id)}" data-play-t="${t}">${esc(label)}</button>` : '';
 }
 
@@ -149,7 +149,7 @@ function harmonicSeriesSvg() {
     parts.push(`<g class="h" data-n="${n}" tabindex="0" role="button" aria-label="Partial ${n}, ${name}"><rect x="${x - 7}" y="${base - h}" width="14" height="${h}"${off ? ' class="off"' : ''} fill="currentColor" opacity=".85"/><text x="${x}" y="${base + 20}" text-anchor="middle" font-size="17" font-style="italic" fill="currentColor">${n}</text><text x="${x}" y="${base + 40}" text-anchor="middle" font-size="15" fill="currentColor">${name}</text><text x="${x}" y="${base + 56}" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".65">${dev === 0 ? '±0' : (dev > 0 ? '+' : '−') + Math.abs(dev)}¢</text></g>`);
   }
   return `<figure class="series-fig"><svg class="series" viewBox="0 0 ${W} ${H + 20}" role="img" aria-label="The harmonic series over C: partials 1 to 16">${[0, 1, 2, 3, 4].map((i) => `<line x1="${left - 20}" x2="${W - 10}" y1="${base - 40 * i - 0.5}" y2="${base - 40 * i - 0.5}" stroke="currentColor" opacity="${i ? 0.12 : 0.6}"/>`).join('')}${parts.join('')}</svg>
-<figcaption class="label" style="border-left-color:var(--accent)"><span class="who">The harmonic series over C</span>Bar height ≈ relative strength (1/<i>n</i>). Gold partials are more than 20 cents away from the nearest equal-tempered note — the 7th, 11th, 13th and 14th are the ones no keyboard can play. Click a partial to hear it against the fundamental.</figcaption></figure>`;
+<figcaption class="label" style="border-left-color:var(--accent)"><span class="who">The harmonic series over C</span>Bar height ≈ relative strength (1/<i>n</i>). Gold partials are more than 20 cents from the nearest equal-tempered note; these are the 7th, 11th, 13th and 14th, which a keyboard in equal temperament cannot play. Select a partial to play it with the fundamental.</figcaption></figure>`;
 }
 
 function href(ctx, target) {
@@ -241,10 +241,10 @@ function persist(ctx) {
   <div class="np-track" role="presentation"><div class="np-prog"><span></span></div></div>
   <span class="np-time">0:00</span>
   <button class="np-next" type="button" aria-label="Next piece">⏭</button>
-  <a class="np-hall" href="${ctx.base}hall.html">Enter the hall</a>
+  <a class="np-hall" href="${ctx.base}hall.html">The Concert Hall</a>
 </div>
 <dialog class="srch" aria-label="Search">
-  <div class="srch-box"><span class="glyph" aria-hidden="true">𝄞</span><input type="search" placeholder="Search composers, works, recordings, ideas" aria-label="Search" autocomplete="off"><button class="srch-close" type="button" aria-label="Close">×</button></div>
+  <div class="srch-box"><span class="glyph" aria-hidden="true">𝄞</span><input type="search" placeholder="Search composers, works, recordings and terms" aria-label="Search" autocomplete="off"><button class="srch-close" type="button" aria-label="Close">×</button></div>
   <ul class="srch-results"></ul>
 </dialog>
 </div>`;
@@ -286,9 +286,9 @@ ${body}
 <footer class="colophon"><div class="wrap">
 <div>${staffRule()}<a class="brand" href="${ctx.base}index.html"><span class="glyph" aria-hidden="true">𝄞</span>Contrapunctus</a>
 <p>${site.colophon}</p></div>
-<div><h5>Listen</h5><ul><li><a href="${ctx.base}hall.html">The Concert Hall</a></li><li><a href="${ctx.base}works/index.html">Every work</a></li><li><a href="${ctx.base}journeys/index.html">Guided journeys</a></li><li><a href="${ctx.base}compare/index.html">Compare performers</a></li><li><a href="${ctx.base}return-lab/index.html">The Return Lab</a></li><li><a href="${ctx.base}routes.html">Listening routes</a></li><li><a href="${ctx.base}guide.html">Guide</a></li></ul></div>
-<div><h5>Read</h5><ul><li><a href="${ctx.base}composers/index.html">Composers</a></li>${eras.map((e) => `<li><a href="${ctx.base}eras/${e.slug}.html">${e.numeral}. ${esc(e.name)}</a></li>`).join('')}<li><a href="${ctx.base}origins.html">Before Bach</a></li></ul></div>
-<div><h5>Look and learn</h5><ul><li><a href="${ctx.base}workshop.html">The Workshop</a></li><li><a href="${ctx.base}glossary.html">Glossary</a></li><li><a href="${ctx.base}timeline.html">Lifelines</a></li><li><a href="${ctx.base}gallery.html">Sister Arts</a></li><li><a href="${ctx.base}atlas-map.html">The Map</a></li><li><a href="${ctx.base}influence.html">The Web of Influence</a></li></ul></div>
+<div><h5>Recordings</h5><ul><li><a href="${ctx.base}hall.html">The Concert Hall</a></li><li><a href="${ctx.base}works/index.html">Every work</a></li><li><a href="${ctx.base}journeys/index.html">Guided journeys</a></li><li><a href="${ctx.base}compare/index.html">Compare performers</a></li><li><a href="${ctx.base}return-lab/index.html">The Return Lab</a></li><li><a href="${ctx.base}routes.html">Listening routes</a></li><li><a href="${ctx.base}guide.html">Guide</a></li></ul></div>
+<div><h5>Chapters</h5><ul><li><a href="${ctx.base}composers/index.html">Composers</a></li>${eras.map((e) => `<li><a href="${ctx.base}eras/${e.slug}.html">${e.numeral}. ${esc(e.name)}</a></li>`).join('')}<li><a href="${ctx.base}origins.html">Before Bach</a></li></ul></div>
+<div><h5>Reference</h5><ul><li><a href="${ctx.base}workshop.html">The Workshop</a></li><li><a href="${ctx.base}glossary.html">Glossary</a></li><li><a href="${ctx.base}timeline.html">Lifelines</a></li><li><a href="${ctx.base}gallery.html">Sister Arts</a></li><li><a href="${ctx.base}atlas-map.html">The Map</a></li><li><a href="${ctx.base}influence.html">The Web of Influence</a></li></ul></div>
 <div><h5>About</h5><ul><li><a href="${ctx.base}about.html">About Contrapunctus</a></li><li><a href="${ctx.base}sources.html">Sources &amp; method</a></li><li><a href="${ctx.base}credits.html">Image credits</a></li></ul></div>
 <div class="fine"><span>Set in Cormorant Garamond and EB Garamond. Music engraved in the browser with abcjs.</span><span>Paintings are public-domain reproductions via Wikimedia Commons.</span></div>
 </div></footer>
@@ -368,7 +368,7 @@ function workPills(c) {
     const movements = new Set(w.listens.filter((l) => l.set).map((l) => l.movement)).size;
     return movements > 1 ? `${movements} movements` : w.listens.length > 1 ? `${w.listens.length} recordings` : fmtTime(progById.get(w.listens[0].id)?.duration ?? 0);
   };
-  return `<div class="listen-links"><span class="sc">${list.length ? 'Hear it in the Concert Hall' : 'Not yet in the Concert Hall'}</span>${list.map((w) => `<a href="../works/${w.slug}.html"><span class="play-dot" aria-hidden="true"></span>${esc(keyless(w.title))}<small>${esc(count(w))}</small></a>`).join('')}${elsewhere ? `<a href="#elsewhere" class="elsewhere-link">Where to hear it ↓</a>` : ''}</div>`;
+  return `<div class="listen-links"><span class="sc">${list.length ? 'In the Concert Hall' : 'Not yet in the Concert Hall'}</span>${list.map((w) => `<a href="../works/${w.slug}.html"><span class="play-dot" aria-hidden="true"></span>${esc(keyless(w.title))}<small>${esc(count(w))}</small></a>`).join('')}${elsewhere ? `<a href="#elsewhere" class="elsewhere-link">Where to hear it</a>` : ''}</div>`;
 }
 
 /** Official recordings on other services, for composers the Hall cannot host. */
@@ -392,12 +392,12 @@ function composerPage(c, i) {
   if (elsewhere && !composerWorks(c).length) add('elsewhere', 'Where to hear it', elsewhereSection(ctx, elsewhere));
   placesSection(ctx, c.slug, add);
   const inheritance = influenceModule?.influenceSection?.(ctx, c.slug) ?? '';
-  if (inheritance) { toc.push(['inheritance', 'Musical inheritance']); parts.push(inheritance); }
+  if (inheritance) { toc.push(['inheritance', 'Influences']); parts.push(inheritance); }
   if (c.sound?.length) add('sound', 'The Sound', `<div class="anatomy">${c.sound.map((s) => `<div class="reveal"><h4>${s.glyph ? `<span class="glyph">${s.glyph}</span>` : ''}${esc(s.aspect)}</h4>${rich(ctx, s.html)}</div>`).join('')}</div>`);
-  if (c.works?.length) add('works', 'Works', `<ol class="works">${c.works.map((w, j) => { const page = workOfEntry.get(w); return `<li class="reveal" id="work-${j + 1}"><span class="yr">${esc(w.year)}</span><div><span class="t">${page ? `<a href="../works/${page}.html">${w.titleHtml ?? esc(w.title)}</a>` : w.titleHtml ?? esc(w.title)}</span>${w.cat ? `<span class="cat">${esc(w.cat)}</span>` : ''}${w.forces ? `<span class="forces">${esc(w.forces)}</span>` : ''}${w.note ? `<div class="w-note">${rich(ctx, w.note)}</div>` : ''}${page ? `<a class="w-hear" href="../works/${page}.html">Hear it in the Hall →</a>` : ''}</div></li>`; }).join('')}</ol>`, 'A listening path, not a complete catalogue.');
+  if (c.works?.length) add('works', 'Works', `<ol class="works">${c.works.map((w, j) => { const page = workOfEntry.get(w); return `<li class="reveal" id="work-${j + 1}"><span class="yr">${esc(w.year)}</span><div><span class="t">${page ? `<a href="../works/${page}.html">${w.titleHtml ?? esc(w.title)}</a>` : w.titleHtml ?? esc(w.title)}</span>${w.cat ? `<span class="cat">${esc(w.cat)}</span>` : ''}${w.forces ? `<span class="forces">${esc(w.forces)}</span>` : ''}${w.note ? `<div class="w-note">${rich(ctx, w.note)}</div>` : ''}${page ? `<a class="w-hear" href="../works/${page}.html">Recordings in the Hall</a>` : ''}</div></li>`; }).join('')}</ol>`, 'A selection from the composer’s works.');
   if (c.score?.length) add('score', 'In the Score', scores(ctx, c.score), 'Short examples, engraved and playable.');
   if (c.arts?.length) add('arts', 'Sister Arts', arts(ctx, c.arts));
-  if (c.recordings?.length) add('listen', 'Recordings to own', `<ul class="discs">${c.recordings.map((r) => `<li class="reveal"><span class="disc" aria-hidden="true"></span><div><span class="w">${esc(r.work)}</span><span class="p">${esc(r.performers)}</span><span class="m">${esc([r.label, r.year].filter(Boolean).join(' · '))}</span>${r.note ? `<span class="d">${rich(ctx, r.note)}</span>` : ''}</div></li>`).join('')}</ul>`);
+  if (c.recordings?.length) add('listen', 'Recommended recordings', `<ul class="discs">${c.recordings.map((r) => `<li class="reveal"><span class="disc" aria-hidden="true"></span><div><span class="w">${esc(r.work)}</span><span class="p">${esc(r.performers)}</span><span class="m">${esc([r.label, r.year].filter(Boolean).join(' · '))}</span>${r.note ? `<span class="d">${rich(ctx, r.note)}</span>` : ''}</div></li>`).join('')}</ul>`);
   if (elsewhere && composerWorks(c).length) add('elsewhere', 'Where to hear more', elsewhereSection(ctx, elsewhere));
   if (c.lineage) add('lineage', 'Lineage', `<div class="lineage reveal"><div class="side from"><span class="sc">Drew from</span>${(c.lineage.from ?? []).map((s) => chip(ctx, s)).join('')}</div><div class="self">${esc(c.short)}</div><div class="side to"><span class="sc">Passed to</span>${(c.lineage.to ?? []).map((s) => chip(ctx, s)).join('')}</div></div>${c.lineage.note ? `<div class="lineage-note">${rich(ctx, c.lineage.note)}</div>` : ''}`);
   if (bibliography.has(c.slug)) toc.push(['further-reading', 'Further reading']);
@@ -416,7 +416,7 @@ ${facts ? `<dl class="facts">${facts}</dl>` : ''}
 <div>${c.quote ? `<blockquote class="prose c-quote"><span>“${esc(c.quote.text)}”</span><footer class="sc">— ${esc(c.quote.source)}</footer></blockquote>` : ''}
 ${parts.join('\n')}
 ${furtherReading(ctx, c.slug)}${citePage(ctx, c.name)}
-<nav class="pager">${prev ? `<a href="${prev.slug}.html"><span class="sc">← Earlier</span><span class="nm">${esc(prev.name)}</span></a>` : '<span></span>'}${next ? `<a href="${next.slug}.html"><span class="sc">Later →</span><span class="nm">${esc(next.name)}</span></a>` : ''}</nav>
+<nav class="pager">${prev ? `<a href="${prev.slug}.html"><span class="sc">Earlier</span><span class="nm">${esc(prev.name)}</span></a>` : '<span></span>'}${next ? `<a href="${next.slug}.html"><span class="sc">Later</span><span class="nm">${esc(next.name)}</span></a>` : ''}</nav>
 </div></div>`;
   return layout(ctx, {
     title: `${c.name} (${lifespan(c)}) — Contrapunctus`, description: c.epithet, body, dark: true,
@@ -429,7 +429,7 @@ function eraPage(e) {
   const list = composers.filter((c) => c.era === e.slug);
   const parts = [];
   const add = (id, t, inner, sub) => parts.push(chapter(id, t, inner, sub));
-  add('essay', 'The Story', `<div class="prose">${rich(ctx, e.essay)}</div>`);
+  add('essay', 'Overview', `<div class="prose">${rich(ctx, e.essay)}</div>`);
   if (e.glossary?.length) add('terms', 'Terms of Art', `<div class="glossary">${e.glossary.map((g) => `<div class="reveal"><h4>${esc(g.term)}</h4>${rich(ctx, g.html)}</div>`).join('')}</div>`);
   if (e.score?.length) add('score', 'In the Score', scores(ctx, e.score));
   if (e.arts?.length) add('arts', 'Sister Arts', arts(ctx, e.arts));
@@ -443,7 +443,7 @@ function eraPage(e) {
 <div class="wrap"><div><span class="n">${e.numeral}</span><span class="span">${esc(e.span)}</span><h1>${esc(e.name)}</h1><p class="sub">${esc(e.subtitle)}</p></div>
 <p class="hero-caption"><b>${esc(h.artist)}</b><cite>${esc(h.title)}</cite>, ${esc(h.date)}${h.collection ? `<br>${esc(h.collection)}` : ''}</p></div></section>
 <div class="wrap">${parts.join('\n')}${furtherReading(ctx, e.slug)}${citePage(ctx, e.name)}
-<nav class="pager">${prev ? `<a href="${prev.slug}.html"><span class="sc">← ${prev.numeral}</span><span class="nm">${esc(prev.name)}</span></a>` : '<a href="../origins.html"><span class="sc">← Prelude</span><span class="nm">Before Bach</span></a>'}${next ? `<a href="${next.slug}.html"><span class="sc">${next.numeral} →</span><span class="nm">${esc(next.name)}</span></a>` : '<a href="../timeline.html"><span class="sc">Coda →</span><span class="nm">Lifelines</span></a>'}</nav></div>`;
+<nav class="pager">${prev ? `<a href="${prev.slug}.html"><span class="sc">Previous · ${prev.numeral}</span><span class="nm">${esc(prev.name)}</span></a>` : '<a href="../origins.html"><span class="sc">Prelude</span><span class="nm">Before Bach</span></a>'}${next ? `<a href="${next.slug}.html"><span class="sc">Next · ${next.numeral}</span><span class="nm">${esc(next.name)}</span></a>` : '<a href="../timeline.html"><span class="sc">Coda</span><span class="nm">Lifelines</span></a>'}</nav></div>`;
   return layout(ctx, { title: `${e.numeral}. ${e.name} (${e.span}) — Contrapunctus`, description: e.subtitle, body, dark: true, accent: e.accent, nav: 'eras', ogImage: art[normalizeTitle(e.hero.file)]?.src });
 }
 
@@ -468,31 +468,31 @@ function indexPage() {
   }).join('\n');
   const concert = PROG.filter((t) => t.concert !== false);
   const programmes = liveProgrammes();
-  const programmeBand = programmes.length ? `<section class="section night programmes-band" id="programmes"><div class="wrap"><div class="section-head"><span class="kicker">Tonight in the Hall</span><h2>${esc(site.programmesTitle)}</h2><p>${rich(ctx, site.programmesLede)}</p></div>
-<div class="programme-cards">${programmes.map((p) => `<a class="programme-card" href="hall.html#programme-${attr(p.id)}"><span class="pc-meta">${p.tracks.length} pieces · ${hours(p.duration)}</span><h3>${esc(p.title)}</h3><p class="pc-sub">${esc(p.subtitle)}</p><p>${esc(p.note)}</p><span class="pc-go">Play this programme →</span></a>`).join('')}</div></div></section>` : '';
+  const programmeBand = programmes.length ? `<section class="section night programmes-band" id="programmes"><div class="wrap"><div class="section-head"><span class="kicker">The Concert Hall</span><h2>${esc(site.programmesTitle)}</h2><p>${rich(ctx, site.programmesLede)}</p></div>
+<div class="programme-cards">${programmes.map((p) => `<a class="programme-card" href="hall.html#programme-${attr(p.id)}"><span class="pc-meta">${p.tracks.length} pieces · ${hours(p.duration)}</span><h3>${esc(p.title)}</h3><p class="pc-sub">${esc(p.subtitle)}</p><p>${esc(p.note)}</p><span class="pc-go">Play this programme</span></a>`).join('')}</div></div></section>` : '';
   const body = `<section class="hero"><div class="hero-slides">${slides}</div>
 <div class="wrap hero-inner"><div><h1 class="hero-title">Contrapunctus</h1><p class="hero-sub"><span class="sc">${esc(site.kicker)}</span>${esc(site.tagline)}</p>
-<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${concert.length} recordings, ${hours(concert.reduce((a, t) => a + (t.duration || 0), 0))} of music, with notes as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#programmes">Or choose a concert ↓</a><a class="hero-browse" href="hall.html#surprise">Or surprise me</a></div></div>
+<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">Recordings</span><span class="eh-t">The Concert Hall</span><span class="eh-s">${concert.length} recordings, ${hours(concert.reduce((a, t) => a + (t.duration || 0), 0))} of music, with notes timed to the music</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">Connections</span><span class="eh-t">The Web of Influence</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections between composers, painters and poets</span></a><a class="hero-browse" href="#programmes">Evenings</a><a class="hero-browse" href="hall.html#surprise">A piece at random</a></div></div>
 <div><p class="hero-caption" aria-live="polite"></p><div class="hero-dots">${site.heroSlides.map((_, i) => `<button type="button" aria-label="Painting ${i + 1}"${i === 0 ? ' class="on"' : ''}></button>`).join('')}</div></div></div>
-<a class="scroll-cue" href="#prelude">Begin ↓</a></section>
+<a class="scroll-cue" href="#prelude">Introduction</a></section>
 <section class="section" id="prelude"><div class="wrap"><div class="section-head"><span class="kicker">Prelude</span><h2>${esc(site.preludeTitle)}</h2></div>
 <div class="prose">${rich(ctx, site.prelude)}</div></div></section>
 ${programmeBand}
 ${journeys.band(ctx)}
-<section class="section" id="movements"><div class="wrap"><div class="section-head"><span class="kicker">Seven movements</span><h2>${esc(site.erasTitle)}</h2><p>${rich(ctx, site.erasLede)}</p></div>
+<section class="section" id="movements"><div class="wrap"><div class="section-head"><span class="kicker">Chapters</span><h2>${esc(site.erasTitle)}</h2><p>${rich(ctx, site.erasLede)}</p></div>
 <div class="movements">${movements}</div></div></section>
-<section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Who overlapped with whom</h2><p>${rich(ctx, site.lifelinesLede)}</p></div>
-<div class="tl-wrap">${timelineSvg(ctx, { compact: true, dark: true })}</div><p style="margin-top:1.6rem"><a class="more" style="color:var(--gold-hi)" href="timeline.html">The full timeline, with history and painting alongside →</a></p></div></section>
+<section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Composers’ lifespans</h2><p>${rich(ctx, site.lifelinesLede)}</p></div>
+<div class="tl-wrap">${timelineSvg(ctx, { compact: true, dark: true })}</div><p style="margin-top:1.6rem"><a class="more" style="color:var(--gold-hi)" href="timeline.html">Full timeline, with historical events and works of art</a></p></div></section>
 <section class="section"><div class="wrap atlas-pair">
-<div class="reveal"><span class="kicker">Before Bach</span><h2 style="margin:.8rem 0 1rem"><a href="origins.html" style="text-decoration:none">Origins</a></h2><p>${rich(ctx, pages.origins?.lede ?? '')}</p><a class="more" href="origins.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Begin with the monochord →</a></div>
-<div class="reveal"><span class="kicker">How it works</span><h2 style="margin:.8rem 0 1rem"><a href="workshop.html" style="text-decoration:none">The Workshop</a></h2><p>${rich(ctx, pages.workshop?.lede ?? '')}</p><a class="more" href="workshop.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Open the workshop →</a></div>
+<div class="reveal"><span class="kicker">Before Bach</span><h2 style="margin:.8rem 0 1rem"><a href="origins.html" style="text-decoration:none">Origins</a></h2><p>${rich(ctx, pages.origins?.lede ?? '')}</p><a class="more" href="origins.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">From the monochord to figured bass</a></div>
+<div class="reveal"><span class="kicker">Technique</span><h2 style="margin:.8rem 0 1rem"><a href="workshop.html" style="text-decoration:none">The Workshop</a></h2><p>${rich(ctx, pages.workshop?.lede ?? '')}</p><a class="more" href="workshop.html" style="font:600 .86rem var(--caps);letter-spacing:.18em;color:var(--accent)">Lessons from species counterpoint to spectralism</a></div>
 </div></section>`;
   return layout(ctx, { title: `Contrapunctus — ${site.kicker}`, body, dark: true, nav: '', ogImage: art[normalizeTitle(site.heroSlides[0].file)]?.src, head: journeys.head });
 }
 
 function composersIndex() {
   const ctx = { base: '../', page: 'composers/index' };
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth. Or browse <a href="../works/index.html">every work in the Concert Hall</a>.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth. <a href="../works/index.html">Every work in the Concert Hall</a> is listed separately.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
 <div class="wrap section">${eras.map((e) => `<section class="era-group" style="--accent:${e.accent}"><header><span class="n">${e.numeral}</span><h3><a href="../eras/${e.slug}.html">${esc(e.name)}</a></h3><span class="sc">${esc(e.span)}</span></header><div class="composer-grid">${composers.filter((c) => c.era === e.slug).map((c) => card(ctx, c)).join('')}</div></section>`).join('')}</div>`;
   return layout(ctx, { title: 'Composers — Contrapunctus', body, nav: 'composers' });
 }
@@ -529,7 +529,7 @@ function worksIndex() {
   const total = WORKS.size;
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The repertoire</span><h1>Every work</h1><p class="lede">${total} pieces in the Concert Hall, by chapter and composer. Each has a page with every recording and every note.</p></div><span class="bg-glyph" aria-hidden="true">𝄞</span></header>
 <div class="wrap section works-index">
-<fieldset class="wi-filter"><legend class="sc">Show</legend><input type="radio" name="wi" id="wi-all" checked><label for="wi-all">Everything</label>${FORCE_KINDS.map(([k, label]) => `<input type="radio" name="wi" id="wi-${k}"><label for="wi-${k}">${esc(label)}</label>`).join('')}</fieldset>
+<fieldset class="wi-filter"><legend class="sc">Show</legend><input type="radio" name="wi" id="wi-all" checked><label for="wi-all">All</label>${FORCE_KINDS.map(([k, label]) => `<input type="radio" name="wi" id="wi-${k}"><label for="wi-${k}">${esc(label)}</label>`).join('')}</fieldset>
 ${eras.map((e) => {
   const cs = composers.filter((c) => c.era === e.slug && composerWorks(c).length);
   return cs.length ? `<section class="wi-era" style="--accent:${e.accent}"><h2><span class="n">${e.numeral}</span>${esc(e.name)}</h2>${cs.map((c) => `<div class="wi-composer"><h3><a href="../composers/${c.slug}.html">${esc(c.name)}</a><span>${lifespan(c)}</span></h3><ul>${composerWorks(c).map(item).join('')}</ul></div>`).join('')}</section>` : '';
@@ -547,13 +547,13 @@ function workPage(w) {
   const meta = [entry?.year ?? first.year, entry?.cat, entry?.forces ?? first.forces].filter(Boolean).join(' · ');
   const recording = (l) => {
     const t = progById.get(l.id);
-    return `<li class="w-rec"><div class="w-rec-head">${hearButton(l.id, 0, 'Play')}<div><span class="w-mv">${esc(l.movement || l.work)}</span><span class="w-perf">${esc([l.performers, l.recorded].filter(Boolean).join(' · '))}</span></div><span class="w-dur">${fmtTime(t?.duration ?? 0)}</span></div>${l.intro ? `<p class="w-intro">${rich(ctx, l.intro)}</p>` : ''}${notes(l)}<p class="w-hall"><a href="../hall.html#${attr(l.id)}">Open in the Concert Hall${t?.hasSheet ? ', with the score' : ''} →</a></p></li>`;
+    return `<li class="w-rec"><div class="w-rec-head">${hearButton(l.id, 0, 'Play')}<div><span class="w-mv">${esc(l.movement || l.work)}</span><span class="w-perf">${esc([l.performers, l.recorded].filter(Boolean).join(' · '))}</span></div><span class="w-dur">${fmtTime(t?.duration ?? 0)}</span></div>${l.intro ? `<p class="w-intro">${rich(ctx, l.intro)}</p>` : ''}${notes(l)}<p class="w-hall"><a href="../hall.html#${attr(l.id)}">Open in the Concert Hall${t?.hasSheet ? ', with the score' : ''}</a></p></li>`;
   };
   const notes = (l) => {
     const cues = (l.cues ?? []).map((q) => ({ ...q, at: anchorTime(l.id, q) })).filter((q) => q.at != null).sort((a, b) => a.at - b.at);
     const joins = (l.transitions ?? []).map((tr) => ({ ...tr, at: anchorTime(l.id, tr.at ?? {}) })).filter((tr) => tr.at != null).sort((a, b) => a.at - b.at);
     if (!cues.length && !joins.length) return '';
-    return `<details class="w-notes"><summary>Notes as it plays${joins.length ? ' · how it is joined' : ''}</summary><ol class="w-cues">${cues.map((q) => `<li>${hearButton(l.id, q.at, fmtTime(q.at))}<div><b>${esc(q.title)}</b><p>${rich(ctx, q.text)}</p></div></li>`).join('')}</ol>${joins.length ? `<h4>How it is joined</h4><ol class="w-cues w-joins">${joins.map((tr) => `<li>${hearButton(l.id, Math.max(0, tr.at - 8), fmtTime(tr.at))}<div><b>${esc(tr.title)}</b>${rich(ctx, tr.how)}</div></li>`).join('')}</ol>` : ''}</details>`;
+    return `<details class="w-notes"><summary>Listening notes${joins.length ? ' · joins' : ''}</summary><ol class="w-cues">${cues.map((q) => `<li>${hearButton(l.id, q.at, fmtTime(q.at))}<div><b>${esc(q.title)}</b><p>${rich(ctx, q.text)}</p></div></li>`).join('')}</ol>${joins.length ? `<h4>Joins</h4><ol class="w-cues w-joins">${joins.map((tr) => `<li>${hearButton(l.id, Math.max(0, tr.at - 8), fmtTime(tr.at))}<div><b>${esc(tr.title)}</b>${rich(ctx, tr.how)}</div></li>`).join('')}</ol>` : ''}</details>`;
   };
   const concert = w.listens.filter((l) => l.concert !== false), others = w.listens.filter((l) => l.concert === false);
   const comparisons = [...new Map(w.listens.flatMap((l) => compareLinks(l.id)).map((x) => [x.compare, x])).values()];
@@ -561,10 +561,10 @@ function workPage(w) {
   const edges = influenceEdges.filter((e) => ids.has(e.exhibit?.from?.listen?.id) || ids.has(e.exhibit?.to?.listen?.id));
   const terms = GLOSSARY.filter((g) => (g.hear ?? []).some((h) => ids.has(h.listen)));
   const related = [
-    comparisons.length ? `<div><h3>Other performers</h3><ul>${comparisons.map((x) => `<li><a href="../compare/${attr(x.compare)}.html">${esc(x.label)}</a></li>`).join('')}</ul></div>` : '',
+    comparisons.length ? `<div><h3>Performer comparisons</h3><ul>${comparisons.map((x) => `<li><a href="../compare/${attr(x.compare)}.html">${esc(x.label)}</a></li>`).join('')}</ul></div>` : '',
     journeyLinks.length ? `<div><h3>Guided journeys</h3><ul>${journeyLinks.map((j) => `<li><a href="../journeys/${attr(j.id)}.html">${esc(j.title)}</a></li>`).join('')}</ul></div>` : '',
-    edges.length ? `<div><h3>Borrowed and handed on</h3><ul>${edges.map((e) => `<li><a href="../influence.html#edge-${attr(e.id)}">${esc(e.title)}</a></li>`).join('')}</ul></div>` : '',
-    terms.length ? `<div><h3>Terms you can hear here</h3><ul>${terms.map((g) => `<li><a href="../glossary.html#${attr(g.slug)}">${esc(g.term)}</a></li>`).join('')}</ul></div>` : '',
+    edges.length ? `<div><h3>Influences</h3><ul>${edges.map((e) => `<li><a href="../influence.html#edge-${attr(e.id)}">${esc(e.title)}</a></li>`).join('')}</ul></div>` : '',
+    terms.length ? `<div><h3>Glossary terms</h3><ul>${terms.map((g) => `<li><a href="../glossary.html#${attr(g.slug)}">${esc(g.term)}</a></li>`).join('')}</ul></div>` : '',
   ].filter(Boolean).join('');
   const body = `<header class="w-hero" style="--accent:${era?.accent ?? 'var(--gold)'}"><div class="wrap">
 <p class="crumbs"><a href="../composers/${c.slug}.html">${portrait ? `<img src="../${portrait}" alt="" width="40" height="40" loading="lazy" style="object-position:${c.portrait.focus ?? '50% 25%'}">` : ''}${esc(c.name)}</a>${era ? ` / <a href="../eras/${era.slug}.html">${era.numeral}. ${esc(era.name)}</a>` : ''}</p>
@@ -573,10 +573,10 @@ ${entry?.note ? `<div class="w-lede">${rich(ctx, entry.note)}</div>` : ''}
 ${concert.length ? `<p class="w-play">${hearButton(concert[0].id, 0, concert.length > 1 ? 'Play from the beginning' : 'Play')} <span>${concert.length > 1 ? `${concert.length} recordings · ` : ''}${hours(w.duration)}</span></p>` : ''}
 </div></header>
 <div class="wrap w-body">
-${concert.length ? `<section class="chapter" id="recordings"><header><h2>${concert.length > 1 ? 'In the Hall' : 'The recording'}</h2></header><ol class="w-recs">${concert.map(recording).join('')}</ol></section>` : ''}
+${concert.length ? `<section class="chapter" id="recordings"><header><h2>${concert.length > 1 ? 'In the Hall' : 'Recording'}</h2></header><ol class="w-recs">${concert.map(recording).join('')}</ol></section>` : ''}
 ${others.length ? `<section class="chapter" id="other-recordings"><header><h2>${concert.length ? 'Other performances' : 'Recordings'}</h2><p>Historical and comparison recordings, outside the concert’s running order.</p></header><ol class="w-recs">${others.map(recording).join('')}</ol></section>` : ''}
-${related ? `<section class="chapter w-related" id="related"><header><h2>Around this piece</h2></header><div class="w-related-grid">${related}</div></section>` : ''}
-<p class="w-back"><a href="../composers/${c.slug}.html#works">More by ${esc(c.short)} →</a></p>
+${related ? `<section class="chapter w-related" id="related"><header><h2>Related pages</h2></header><div class="w-related-grid">${related}</div></section>` : ''}
+<p class="w-back"><a href="../composers/${c.slug}.html#works">More by ${esc(c.short)}</a></p>
 </div>`;
   return layout(ctx, { title: `${plain(keyless(w.title))} · ${c.name} — Contrapunctus`, description: plain(entry?.note ?? first.intro ?? `${c.name}: ${w.title}`), body, dark: true, accent: era?.accent, nav: 'works', ogImage: art[normalizeTitle(c.portrait.file)]?.src });
 }
@@ -586,7 +586,7 @@ function aboutPage() {
   const concert = PROG.filter((t) => t.concert !== false);
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Colophon</span><h1>About Contrapunctus</h1><div class="lede">${rich(ctx, site.about.lede)}</div></div><span class="bg-glyph" aria-hidden="true">𝄐</span></header>
 <div class="wrap section"><div class="prose about">${rich(ctx, site.about.html)}
-<h3><span class="sc">In numbers</span>What is here</h3>
+<h3><span class="sc">In numbers</span>Contents of the site</h3>
 <ul><li>${composers.length} composers in seven chapters, and ${precursors.length} before Bach.</li><li>${concert.length} recordings in the Concert Hall (${hours(concert.reduce((a, t) => a + (t.duration || 0), 0))}), ${PROG.length - concert.length} more for comparing performers.</li><li>${WORKS.size} works with their own pages, ${PROG.filter((t) => t.hasSheet).length} of them with the score following the recording.</li><li>${INFLUENCE_EDGES} sourced connections in the Web of Influence; ${GLOSSARY.length} terms in the glossary.</li></ul>
 ${rich(ctx, site.about.coda)}</div></div>`;
   return layout(ctx, { title: 'About — Contrapunctus', description: plain(site.about.lede), body, nav: '' });
@@ -639,7 +639,7 @@ const eraLegend = () => `<ul class="tl-legend">${eras.map((e) => `<li><span styl
 function timelinePage() {
   const ctx = { base: '', page: 'timeline' };
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Coda</span><h1>Lifelines</h1><p class="lede">${rich(ctx, site.timelineLede ?? '')}</p></div><span class="bg-glyph" aria-hidden="true">𝄇</span></header>
-<div class="section"><div class="wrap">${eraLegend()}<div class="tl-wrap">${timelineSvg(ctx)}</div><p style="font-size:.95rem;color:var(--muted);margin-top:1rem">Red markers: historical events. Gold markers: painting, literature and theatre. Bars are coloured by chapter; click a name to open the portrait.</p></div></div>`;
+<div class="section"><div class="wrap">${eraLegend()}<div class="tl-wrap">${timelineSvg(ctx)}</div><p style="font-size:.95rem;color:var(--muted);margin-top:1rem">Red markers: historical events. Gold markers: painting, literature and theatre. Bars are coloured by chapter; each name links to the composer’s chapter.</p></div></div>`;
   return layout(ctx, { title: 'Lifelines — Contrapunctus', body, nav: 'timeline' });
 }
 
@@ -660,8 +660,8 @@ function allArt() {
 
 function galleryPage() {
   const ctx = { base: '', page: 'gallery' };
-  const items = allArt().map(({ a, ownerHtml, id }) => `<div class="gallery-object" id="${id}">${['poem', 'text'].includes(a.type) ? `${poem(ctx, a)}<p class="gallery-owner">Read beside ${ownerHtml}</p>` : painting(ctx, a, { sizes: '(max-width: 700px) 100vw, 33vw', thumb: true }).replace('</figcaption>', `<span class="for">Hung beside ${ownerHtml}</span></figcaption>`)}</div>`).join('');
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The salon</span><h1>Sister Arts</h1><p class="lede">${rich(ctx, site.galleryLede ?? '')}</p></div><span class="bg-glyph" aria-hidden="true">𝄋</span></header>
+  const items = allArt().map(({ a, ownerHtml, id }) => `<div class="gallery-object" id="${id}">${['poem', 'text'].includes(a.type) ? `${poem(ctx, a)}<p class="gallery-owner">See ${ownerHtml}</p>` : painting(ctx, a, { sizes: '(max-width: 700px) 100vw, 33vw', thumb: true }).replace('</figcaption>', `<span class="for">See ${ownerHtml}</span></figcaption>`)}</div>`).join('');
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Gallery</span><h1>Sister Arts</h1><p class="lede">${rich(ctx, site.galleryLede ?? '')}</p></div><span class="bg-glyph" aria-hidden="true">𝄋</span></header>
 <div class="section wall"><div class="wrap salon">${items}</div></div>`;
   return layout(ctx, { title: 'Sister Arts — Contrapunctus', body, nav: 'gallery' });
 }
@@ -676,7 +676,7 @@ function creditsPage() {
 
 function routesPage() {
   const ctx = { base: '', page: 'routes' };
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Listen first</span><h1>Listening routes</h1><p class="lede">Follow a returning melody, an independent voice or a change of instrument. Each button starts the recording without leaving the page.</p></div></header><div class="wrap section">${routes.map((r) => `<section class="route" id="${r.id}"><h2>${esc(r.title)}</h2><p>${esc(r.intro)}</p><ol>${r.tracks.filter((t) => listenById.has(t.id)).map((t) => { const l = listenById.get(t.id); return `<li><h3><a href="hall.html#${l.id}">${esc(bySlug.get(l.composer)?.name)} · ${esc(l.work)}</a></h3>${l.movement ? `<p>${esc(l.movement)}</p>` : ''}${t.why ? `<p>${esc(t.why)}</p>` : ''}${hearButton(t.id, 0, 'Play recording')}</li>`; }).join('')}</ol></section>`).join('')}</div>`;
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Recordings</span><h1>Listening routes</h1><p class="lede">Recordings from the Hall grouped by a feature they share: a returning theme, several tunes at once, changes in the orchestra, short complete pieces. Each button starts the recording without leaving the page.</p></div></header><div class="wrap section">${routes.map((r) => `<section class="route" id="${r.id}"><h2>${esc(r.title)}</h2><p>${esc(r.intro)}</p><ol>${r.tracks.filter((t) => listenById.has(t.id)).map((t) => { const l = listenById.get(t.id); return `<li><h3><a href="hall.html#${l.id}">${esc(bySlug.get(l.composer)?.name)} · ${esc(l.work)}</a></h3>${l.movement ? `<p>${esc(l.movement)}</p>` : ''}${t.why ? `<p>${esc(t.why)}</p>` : ''}${hearButton(t.id, 0, 'Play recording')}</li>`; }).join('')}</ol></section>`).join('')}</div>`;
   return layout(ctx, { title: 'Listening routes — Contrapunctus', body });
 }
 
@@ -687,18 +687,18 @@ function anchorTime(id, anchor) {
 
 function joinsSection(ctx) {
   const examples = listens.flatMap((l) => (l.transitions ?? []).slice(0, 1).map((tr) => ({ l, tr, t: anchorTime(l.id, tr.at ?? {}) }))).filter((x) => x.t != null).slice(0, 4);
-  return `<section class="apparatus" id="joins"><span class="kicker">At the boundary</span><h2>How pieces are joined</h2><p>A cadence can close a section; a held bass note, a sequence or a shared motif can carry the music into the next. Four joins from the Hall, each with the passage to hear:</p><div class="join-examples">${examples.map(({ l, tr, t }) => `<article><h3>${esc(tr.title)}</h3><p class="sc">${esc(l.work)} · ${esc(tr.from)} → ${esc(tr.to)}</p>${rich(ctx, tr.how)}${hearButton(l.id, Math.max(0, t - 8), 'Hear the join')} <a href="${workOf.has(l.id) ? `works/${workOf.get(l.id)}.html` : `hall.html#${l.id}`}">More on this piece</a><p class="timing-note">${esc(tr.evidence ?? '')}</p></article>`).join('')}</div></section>`;
+  return `<section class="apparatus" id="joins"><span class="kicker">Joins</span><h2>Joins between sections</h2><p>A cadence can close a section; a held bass note, a sequence or a shared motif can carry the music into the next. Four joins from the Hall, each with its passage:</p><div class="join-examples">${examples.map(({ l, tr, t }) => `<article><h3>${esc(tr.title)}</h3><p class="sc">${esc(l.work)} · ${esc(tr.from)} → ${esc(tr.to)}</p>${rich(ctx, tr.how)}${hearButton(l.id, Math.max(0, t - 8), 'Play the join')} <a href="${workOf.has(l.id) ? `works/${workOf.get(l.id)}.html` : `hall.html#${l.id}`}">More on this piece</a><p class="timing-note">${esc(tr.evidence ?? '')}</p></article>`).join('')}</div></section>`;
 }
 
 function glossaryPage() {
   const ctx = { base: '', page: 'glossary', termSeen: new Set(GLOSSARY.map((g) => g.slug)) };
   const entries = [...GLOSSARY].sort((a, b) => a.term.localeCompare(b.term, 'en'));
   const kinds = [...new Set(entries.map((g) => g.kind))].sort();
-  if (!entries.length) return layout(ctx, { title: 'Glossary — Contrapunctus', nav: 'glossary', body: `<header class="page-hero"><div class="wrap"><span class="kicker">A listening vocabulary</span><h1>Glossary</h1><p class="lede">This edition has no glossary entries. The <a href="workshop.html">Workshop</a> explains musical techniques with notation and listening examples.</p></div></header>` });
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">A listening vocabulary</span><h1>Glossary</h1><p class="lede">Every term, defined in plain words, and wherever we can, played: press Hear it for an example from the recordings.</p></div></header><div class="wrap section"><div class="glossary-controls"><label for="glossary-kind">Show a kind of term</label><select id="glossary-kind"><option value="">All kinds</option>${kinds.map((k) => `<option value="${attr(k)}">${esc(k)}</option>`).join('')}</select><p id="glossary-count" role="status">${entries.length} terms</p></div><nav class="glossary-alphabet" aria-label="Glossary alphabet">${[...new Set(entries.map((g) => g.term[0].toLocaleUpperCase('en')))].map((letter) => `<a href="#${entries.find((g) => g.term[0].toLocaleUpperCase('en') === letter).slug}">${esc(letter)}</a>`).join('')}</nav><div class="glossary-entries">${entries.map((g) => `<article class="glossary-entry" id="${attr(g.slug)}" data-kind="${attr(g.kind)}"><header><span class="kicker">${esc(g.kind)}</span><h2>${esc(g.term)}</h2>${g.aka?.length ? `<p class="aliases">Also: ${g.aka.map(esc).join('; ')}</p>` : ''}</header><p class="definition">${esc(g.short)}</p>${rich(ctx, g.html)}${(g.hear ?? []).map((h) => {
+  if (!entries.length) return layout(ctx, { title: 'Glossary — Contrapunctus', nav: 'glossary', body: `<header class="page-hero"><div class="wrap"><span class="kicker">Reference</span><h1>Glossary</h1><p class="lede">This edition has no glossary entries. The <a href="workshop.html">Workshop</a> explains musical techniques with notation and listening examples.</p></div></header>` });
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">Reference</span><h1>Glossary</h1><p class="lede">Musical terms with short definitions. Where a recording in the Hall illustrates a term, Play starts it at the passage described.</p></div></header><div class="wrap section"><div class="glossary-controls"><label for="glossary-kind">Kind of term</label><select id="glossary-kind"><option value="">All kinds</option>${kinds.map((k) => `<option value="${attr(k)}">${esc(k)}</option>`).join('')}</select><p id="glossary-count" role="status">${entries.length} terms</p></div><nav class="glossary-alphabet" aria-label="Glossary alphabet">${[...new Set(entries.map((g) => g.term[0].toLocaleUpperCase('en')))].map((letter) => `<a href="#${entries.find((g) => g.term[0].toLocaleUpperCase('en') === letter).slug}">${esc(letter)}</a>`).join('')}</nav><div class="glossary-entries">${entries.map((g) => `<article class="glossary-entry" id="${attr(g.slug)}" data-kind="${attr(g.kind)}"><header><span class="kicker">${esc(g.kind)}</span><h2>${esc(g.term)}</h2>${g.aka?.length ? `<p class="aliases">Also: ${g.aka.map(esc).join('; ')}</p>` : ''}</header><p class="definition">${esc(g.short)}</p>${rich(ctx, g.html)}${(g.hear ?? []).map((h) => {
     const t = anchorTime(h.listen, h), l = listenById.get(h.listen), score = scoreIndex.get(h.listen);
     if (!l) return '';
-    return `<div class="term-hear">${t != null ? hearButton(h.listen, t, 'Hear it') : `<a href="hall.html#${h.listen}">Open recording</a>`}<p>${esc(h.note)} <a href="${workOf.has(h.listen) ? `works/${workOf.get(h.listen)}.html` : `hall.html#${h.listen}`}">${esc(l.work)}</a>${h.bar && t != null ? `<small>Bar ${esc(h.bar.n)}${score?.status === 'reviewed' ? '' : ' · timed automatically'}</small>` : ''}</p></div>`;
+    return `<div class="term-hear">${t != null ? hearButton(h.listen, t, 'Play') : `<a href="hall.html#${h.listen}">Open recording</a>`}<p>${esc(h.note)} <a href="${workOf.has(h.listen) ? `works/${workOf.get(h.listen)}.html` : `hall.html#${h.listen}`}">${esc(l.work)}</a>${h.bar && t != null ? `<small>Bar ${esc(h.bar.n)}${score?.status === 'reviewed' ? '' : ' · timed automatically'}</small>` : ''}</p></div>`;
   }).join('')}${g.see?.length ? `<p class="see-also">See also: ${g.see.filter((slug) => GLOSSARY.some((x) => x.slug === slug)).map((slug) => `<a href="#${slug}">${esc(GLOSSARY.find((x) => x.slug === slug).term)}</a>`).join(' · ')}</p>` : ''}</article>`).join('')}</div></div>`;
   return layout(ctx, { title: 'Glossary — Contrapunctus', body, nav: 'glossary' });
 }
@@ -714,7 +714,7 @@ function searchIndex() {
   for (const l of listens) add('recording', `${bySlug.get(l.composer)?.name ?? l.guest?.name ?? ''} · ${l.work}`, `${l.movement ?? ''} · ${l.performers}`, workOf.has(l.id) ? `works/${workOf.get(l.id)}.html` : `hall.html#${l.id}`, l.key);
   for (const w of WORKS.values()) if (!w.entry) add('work', keyless(w.title), `${w.composer.name} · in the Concert Hall`, `works/${w.slug}.html`);
   for (const p of liveProgrammes()) add('programme', p.title, `A concert in the Hall · ${hours(p.duration)}`, `hall.html#programme-${p.id}`, `${p.subtitle} ${p.note}`);
-  add('page', 'About Contrapunctus', 'What this is, how it is made, and how to correct it', 'about.html');
+  add('page', 'About Contrapunctus', 'Contents, method and corrections', 'about.html');
   add('page', 'Every work', 'Every piece in the Concert Hall, by composer, filterable by forces', 'works/index.html');
   for (const p of Object.values(pages)) for (const l of p.lessons ?? []) add('lesson', l.heading, p.title, `${p.slug}.html#${l.id}`, `${l.label} ${l.question ?? ''}`);
   for (const g of GLOSSARY) add('glossary', g.term, g.short, `glossary.html#${g.slug}`, `${(g.aka ?? []).join(' ')} ${g.kind}`);
@@ -723,7 +723,7 @@ function searchIndex() {
   for (const r of routes) add('route', r.title, r.intro, `routes.html#${r.id}`);
   add('return-lab', 'The Return Lab', 'Compare returning passages in the same recording', 'return-lab/index.html');
   add('page', 'The Web of Influence', 'Composers, paintings, poems and the evidence connecting them', 'influence.html');
-  add('page', 'Compare performers', 'Switch performers at the same musical moment', 'compare/index.html');
+  add('page', 'Compare performers', 'Recordings of the same music, switched at the matching point', 'compare/index.html');
   for (const c of comparisonSearch) add('comparison', c.title, `${c.composer} · ${c.work}`, `compare/${c.id}.html`, c.question);
   for (const lesson of guideLessons) add('guide', lesson.title, lesson.promise, `guide.html#${lesson.id}`, `${lesson.feature} tour show me`);
   const figures = new Map(composers.map((c) => [c.slug, { id: c.slug, name: c.name, dates: lifespan(c), kind: 'composer' }]));
@@ -815,15 +815,15 @@ function sourcesPage() {
   const rows = listens.map((l) => {
     const d = dossierById.get(l.id);
     const values = [`${bySlug.get(l.composer)?.name} ${l.work}`, fieldValue(d?.performers?.value), fieldValue(d?.session?.date?.value), `${fieldValue(d?.carrier?.label?.value)} ${fieldValue(d?.carrier?.matrixTakeSides?.value)}`, fieldValue(d?.rights?.recording?.value), evidenceSummary(d)];
-    const cells = [`<a href="#dossier-${l.id}">${esc(bySlug.get(l.composer)?.name)} · ${esc(l.work)}</a>${l.movement ? `<small>${esc(l.movement)}</small>` : ''}`, showField(d?.performers), showField(d?.session?.date), `${showField(d?.carrier?.label)}<span class="matrix">${showField(d?.carrier?.matrixTakeSides)}</span>`, showField(d?.rights?.recording), `${esc(evidenceSummary(d))}<br><a href="#dossier-${l.id}">Read the evidence</a>`];
+    const cells = [`<a href="#dossier-${l.id}">${esc(bySlug.get(l.composer)?.name)} · ${esc(l.work)}</a>${l.movement ? `<small>${esc(l.movement)}</small>` : ''}`, showField(d?.performers), showField(d?.session?.date), `${showField(d?.carrier?.label)}<span class="matrix">${showField(d?.carrier?.matrixTakeSides)}</span>`, showField(d?.rights?.recording), `${esc(evidenceSummary(d))}<br><a href="#dossier-${l.id}">Dossier</a>`];
     return `<tr>${cells.map((cell, i) => `<td data-sort="${attr(values[i])}">${cell}</td>`).join('')}</tr>`;
   }).join('');
   const details = listens.map((l) => {
     const d = dossierById.get(l.id), compact = dossierFor(d);
-    return `<details class="research-dossier" id="dossier-${l.id}"><summary>${esc(bySlug.get(l.composer)?.name)} · ${esc(l.work)}${l.movement ? ` · ${esc(l.movement)}` : ''}</summary><p><a href="hall.html#${l.id}">Hear this recording in the Hall</a></p>${compact ? `<dl>${compact.fields.map((f) => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value || 'Unknown')} <span class="evidence-status">${esc(f.statusText)}</span>${f.note ? `<p>${esc(f.note)}</p>` : ''}${f.alts.length ? `<ul>${f.alts.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}${f.src.map((n) => `<a href="#source-${l.id}-${n}">[${n}]</a>`).join(' ')}</dd></div>`).join('')}</dl><p>${esc(compact.credit)} ${compact.licenseUrl ? `<a href="${attr(compact.licenseUrl)}">Rights statement</a>` : ''}</p><ol class="dossier-sources">${compact.sources.map((s, i) => `<li id="source-${l.id}-${i + 1}"><a href="${attr(s.url)}">${esc(s.title)}</a>${s.locator ? ` — ${esc(s.locator)}` : ''}. Accessed ${esc(s.accessed)}.</li>`).join('')}</ol>` : '<p>No dossier is available for this recording.</p>'}</details>`;
+    return `<details class="research-dossier" id="dossier-${l.id}"><summary>${esc(bySlug.get(l.composer)?.name)} · ${esc(l.work)}${l.movement ? ` · ${esc(l.movement)}` : ''}</summary><p><a href="hall.html#${l.id}">This recording in the Hall</a></p>${compact ? `<dl>${compact.fields.map((f) => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value || 'Unknown')} <span class="evidence-status">${esc(f.statusText)}</span>${f.note ? `<p>${esc(f.note)}</p>` : ''}${f.alts.length ? `<ul>${f.alts.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}${f.src.map((n) => `<a href="#source-${l.id}-${n}">[${n}]</a>`).join(' ')}</dd></div>`).join('')}</dl><p>${esc(compact.credit)} ${compact.licenseUrl ? `<a href="${attr(compact.licenseUrl)}">Rights statement</a>` : ''}</p><ol class="dossier-sources">${compact.sources.map((s, i) => `<li id="source-${l.id}-${i + 1}"><a href="${attr(s.url)}">${esc(s.title)}</a>${s.locator ? ` — ${esc(s.locator)}` : ''}. Accessed ${esc(s.accessed)}.</li>`).join('')}</ol>` : '<p>No dossier is available for this recording.</p>'}</details>`;
   }).join('');
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">For researchers</span><h1>Sources &amp; method</h1><p class="lede">Recording provenance, the evidence behind a claim, and the difference between a written bar and a measured time.</p><nav class="chapter-map" aria-label="On this page"><a href="#method">Method</a><a href="#recordings">Recordings</a><a href="#dossiers">Dossiers</a><a href="#scores">Scores</a><a href="#downloads">Downloads</a><a href="#cite">Citation</a></nav></div></header><div class="wrap">
-<section class="apparatus" id="method"><h2>How claims are labelled</h2><div class="method-grid"><div><h3>Evidence belongs to each field</h3><dl class="method-terms"><dt>Documented</dt><dd>Stated in a cited source. This identifies the source’s claim; it does not guarantee that the source is right.</dd><dt>Inferred</dt><dd>Estimated from the evidence, not explicitly documented. The note gives the reasoning.</dd><dt>Disputed</dt><dd>Sources disagree. The dossier retains the alternatives and their sources.</dd><dt>Unknown</dt><dd>Not established from the sources consulted. An upload date is not a session date; an uploader is not necessarily a performer or transfer engineer.</dd><dt>Not applicable</dt><dd>The field does not apply. This is not a substitute for ‘unknown’.</dd></dl></div><div><h3>What a cue time means</h3><dl class="method-terms"><dt>score-aligned</dt><dd>A written bar is matched to its performed occurrence in this recording. Repeats are counted separately.</dd><dt>score-proportion</dt><dd>Placement estimated from the score’s proportions. Tempo changes and pauses can move the event away from the estimated time.</dd><dt>audio-feature</dt><dd>A measured feature of this recording, such as a silence or a level change, locates the event. It does not by itself identify a chord or instrument.</dd><dt>documented</dt><dd>A fact from a cited source; it need not identify an audible event at that second.</dd><dt>general</dt><dd>A description of the surrounding stretch, not a claim about one instant.</dd></dl></div></div>
+<section class="apparatus" id="method"><h2>How claims are labelled</h2><div class="method-grid"><div><h3>Evidence status, field by field</h3><dl class="method-terms"><dt>Documented</dt><dd>Stated in a cited source. This identifies the source’s claim; it does not guarantee that the source is right.</dd><dt>Inferred</dt><dd>Estimated from the evidence, not explicitly documented. The note gives the reasoning.</dd><dt>Disputed</dt><dd>Sources disagree. The dossier retains the alternatives and their sources.</dd><dt>Unknown</dt><dd>Not established from the sources consulted. An upload date is not a session date; an uploader is not necessarily a performer or transfer engineer.</dd><dt>Not applicable</dt><dd>The field does not apply. This is not a substitute for ‘unknown’.</dd></dl></div><div><h3>What a cue time means</h3><dl class="method-terms"><dt>score-aligned</dt><dd>A written bar is matched to its performed occurrence in this recording. Repeats are counted separately.</dd><dt>score-proportion</dt><dd>Placement estimated from the score’s proportions. Tempo changes and pauses can move the event away from the estimated time.</dd><dt>audio-feature</dt><dd>A measured feature of this recording, such as a silence or a level change, locates the event. It does not by itself identify a chord or instrument.</dd><dt>documented</dt><dd>A fact from a cited source; it need not identify an audible event at that second.</dd><dt>general</dt><dd>A description of the surrounding stretch, not a claim about one instant.</dd></dl></div></div>
 <h3>Provisional alignment</h3><p>A machine has matched score events to the recording; a named listener has not yet checked the published alignment against the score. A provisional bar time is an estimate, not an exact onset. ‘Reviewed’ records a listening check, with its scope and reviewer in the score data. Cue precision distinguishes a moment (about ±2 seconds) from a passage; neither label removes uncertainty in the underlying alignment.</p><p>Rights statements report the sources and their qualifications, not worldwide legal clearance. The composition, edition, performance, recording and digital transfer can have different rights.</p></section>
 <section class="apparatus" id="recordings"><h2>The recording register</h2><p>${listens.length} recordings. Select a column heading to sort; select a work to open its dossier. Evidence counts describe individual fields, not a single confidence score for the recording.</p><p class="table-status" role="status"></p><div class="table-scroll" role="region" aria-label="Recording register; scroll horizontally on small screens" tabindex="0"><table class="recording-table"><thead><tr>${fields.map((f, i) => `<th scope="col" aria-sort="none"><button type="button" data-sort-column="${i}">${f}<span aria-hidden="true"> ↕</span></button></th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div></section>
 <section class="apparatus" id="downloads"><h2>Download the register</h2><p><a class="textbook-button" href="assets/data/recordings.csv" download>Recordings · CSV</a> <a class="textbook-button" href="assets/data/recordings.json" download>Recordings · JSON</a></p><p>One row per recording. Dotted column names preserve the dossier hierarchy; arrays (performers, source identifiers, alternatives and sources) are JSON-encoded strings. Values, evidence statuses, notes and source locators remain separate. A blank CSV value means no value was recorded, not a negative finding.</p></section>
@@ -1020,9 +1020,9 @@ async function roomPage(prog) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Concert Hall — Contrapunctus</title>
-<meta name="description" content="A concert from plainchant to Shostakovich in real recordings, with the score following the music where we have it, and notes on what you are hearing.">
+<meta name="description" content="Recordings from plainchant to Shostakovich in the order the composers were born, with timed notes and, where available, the score following the music.">
 <meta property="og:title" content="The Concert Hall — Contrapunctus">
-<meta property="og:description" content="Real recordings, the score following the music, and notes on what you are hearing as it plays.">
+<meta property="og:description" content="Historical recordings with timed notes and, where available, the score following the music.">
 ${first?.era?.hero ? `<meta property="og:image" content="${SITE_URL}${first.era.hero.replace(/-480\.webp$/, '.webp')}"><meta name="twitter:card" content="summary_large_image">` : ''}
 <meta name="theme-color" content="#0d0b09">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -1053,13 +1053,13 @@ ${headScripts(ctx)}
       <div class="spectro-axis" aria-hidden="true"></div>
       <div class="spectro-label">Pitch over time · each band is an octave of C</div>
       <div class="view-layer" hidden></div>
-      <button class="widen" type="button" aria-pressed="false" aria-label="Fill the hall with the music" title="Fill the hall with the music (F)">⤢</button>
+      <button class="widen" type="button" aria-pressed="false" aria-label="Enlarge the view" title="Enlarge the view (F)">⤢</button>
       <p class="wide-cue" aria-hidden="true"></p>
     </div>
     <div class="viz-row">
       <div class="wheel-wrap">
         <canvas class="wheel" aria-hidden="true"></canvas>
-        <div class="wheel-centre"><span class="chord">—</span><span class="chord-cap">heard harmony</span></div>
+        <div class="wheel-centre"><span class="chord">—</span><span class="chord-cap">harmony</span></div>
       </div>
       <div class="viz-mid">
         <div class="now-section"><span class="ns-k">This section</span><p class="ns-label">—</p><p class="ns-note"></p><p class="ns-next"></p></div>
@@ -1074,14 +1074,14 @@ ${headScripts(ctx)}
 
   <section class="notes">
     <div class="tabs" role="tablist">
-      <button role="tab" aria-selected="true" data-tab="live">As it plays</button>
-      <button role="tab" aria-selected="false" data-tab="joins">The joins</button>
-      <button role="tab" aria-selected="false" data-tab="composer">The composer</button>
-      <button role="tab" aria-selected="false" data-tab="piece">This recording</button>
+      <button role="tab" aria-selected="true" data-tab="live">Listening notes</button>
+      <button role="tab" aria-selected="false" data-tab="joins">Joins</button>
+      <button role="tab" aria-selected="false" data-tab="composer">Composer</button>
+      <button role="tab" aria-selected="false" data-tab="piece">Recording</button>
     </div>
     <div class="tab tab-live" data-panel="live">
       <article class="join-card" hidden></article>
-      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><details class="cue-how"><summary>How we know</summary><p></p></details><span class="cue-next"></span><span class="cue-acts"><button type="button" class="cue-share">Link to this moment</button><button type="button" class="cue-keep">Keep this moment</button></span></article>
+      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><details class="cue-how"><summary>Evidence</summary><p></p></details><span class="cue-next"></span><span class="cue-acts"><button type="button" class="cue-share">Link to this moment</button><button type="button" class="cue-keep">Keep this moment</button></span></article>
       <ol class="cue-past"></ol>
     </div>
     <div class="tab tab-joins" data-panel="joins" hidden></div>
@@ -1095,7 +1095,7 @@ ${headScripts(ctx)}
     <button class="t-prev" aria-label="Previous piece">⏮</button>
     <button class="t-play" aria-label="Play">▶</button>
     <button class="t-next" aria-label="Next piece">⏭</button>
-    <button class="t-guide" type="button" data-tour="hall-welcome" aria-label="Take the 1-minute Hall tour" title="Take the Hall tour">?</button>
+    <button class="t-guide" type="button" data-tour="hall-welcome" aria-label="Hall tour, one minute" title="Hall tour">?</button>
   </div>
   <span class="t-time t-cur">0:00</span>
   <div class="timeline" tabindex="0" role="slider" aria-label="Position in the piece" aria-valuemin="0">
@@ -1107,12 +1107,12 @@ ${headScripts(ctx)}
   <span class="t-time t-dur">0:00</span>
   <button class="t-prog" aria-expanded="false">Programme</button>
 </footer>
-<aside class="hall-hint" hidden aria-label="Welcome to the Hall"><span>New here? <button type="button" data-tour="hall-welcome">Take the 1-minute tour</button></span><button type="button" class="hall-hint-close" aria-label="Dismiss the tour invitation">×</button></aside>
+<aside class="hall-hint" hidden aria-label="Hall tour"><span>A one-minute tour of the Hall: <button type="button" data-tour="hall-welcome">Start tour</button></span><button type="button" class="hall-hint-close" aria-label="Close">×</button></aside>
 
 <aside class="programme" hidden>
-  <header><h2>The programme</h2><p>Choose an evening, or the whole concert: ${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in the order the composers were born. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
-  <section class="p-kept" hidden><h3><span>☆</span>Kept moments</h3><ol></ol></section>
-  ${(() => { const progs = liveProgrammes(); return progs.length ? `<section class="p-curated"><h3><span>✦</span>Evenings</h3><ol>${progs.map((p) => `<li><button data-programme="${attr(p.id)}"><span class="p-c">${esc(p.title)}</span><span class="p-w">${esc(p.subtitle)}</span><span class="p-d">${Math.round(p.duration / 60)} min</span></button></li>`).join('')}<li><button data-programme=""><span class="p-c">The whole concert</span><span class="p-w">Everything, in the order the composers were born</span><span class="p-d">${Math.round(concertSecs / 3600)} h</span></button></li><li><button data-surprise><span class="p-c">Surprise me</span><span class="p-w">One piece from anywhere in the concert, chosen at random</span><span class="p-d">?</span></button></li></ol></section>` : ''; })()}
+  <header><h2>Programme</h2><p>Evenings, or the whole concert: ${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in the order the composers were born. Pieces marked <span class="p-score">score</span> show the engraved score during playback.</p><button class="prog-close" aria-label="Close">×</button></header>
+  <section class="p-kept" hidden><h3>Kept moments</h3><ol></ol></section>
+  ${(() => { const progs = liveProgrammes(); return progs.length ? `<section class="p-curated"><h3>Evenings</h3><ol>${progs.map((p) => `<li><button data-programme="${attr(p.id)}"><span class="p-c">${esc(p.title)}</span><span class="p-w">${esc(p.subtitle)}</span><span class="p-d">${Math.round(p.duration / 60)} min</span></button></li>`).join('')}<li><button data-programme=""><span class="p-c">The whole concert</span><span class="p-w">Every recording, in the order the composers were born</span><span class="p-d">${Math.round(concertSecs / 3600)} h</span></button></li><li><button data-surprise><span class="p-c">A piece at random</span><span class="p-w">One recording from the concert, chosen at random</span><span class="p-d">?</span></button></li></ol></section>` : ''; })()}
   ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t, i) => {
     const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>${(() => { const n = tracks.filter((x) => x.set?.id === t.set.id).length; return n >= t.set.of ? `complete · ${t.set.of} movements` : `${n} of ${t.set.of} movements`; })()}</em></li>` : '';
     return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${t.set ? esc(t.movement || t.work) : `${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}`}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
@@ -1123,9 +1123,9 @@ ${headScripts(ctx)}
   <div class="curtain-inner">
     <span class="kicker">The Concert Hall</span>
     <h2>From plainchant to ${esc(concert.at(-1)?.composer.family ?? '')}</h2>
-    <p>${concertN} recordings, in the order the composers were born. Where we have the score, it follows the music; notes say what you are hearing as it happens. Or open the programme and choose an evening.</p>
-    <button class="begin" disabled>Loading the concert…</button>
-    <small>Browsers need one click before a page may play sound. After that, the music plays on its own.</small>
+    <p>${concertN} recordings, in the order the composers were born. Notes appear as the recording reaches each passage, and where a score is available it follows the music. The programme lists the evenings and every recording.</p>
+    <button class="begin" disabled>Loading…</button>
+    <small>Browsers require one click before a page can play sound. After that, the recordings play in sequence.</small>
   </div>
 </div>
 <div class="interlude" hidden><span class="i-cameo"><img alt=""></span><span class="i-era"></span><span class="i-name"></span><span class="i-work"></span></div>
@@ -1176,7 +1176,7 @@ await writeSearchIndex();
 const recordings = recordingRows();
 await emit('assets/data/recordings.json', JSON.stringify(recordings, null, 2) + '\n');
 await emit('assets/data/recordings.csv', recordingsCsv(recordings));
-await out('404.html', layout({ base: '/contrapunctus/', page: '404' }, { title: 'Not found — Contrapunctus', nav: '', body: `<header class="page-hero"><div class="wrap"><span class="kicker">Tacet</span><h1>A rest, not a note</h1><p class="lede">This page does not exist. The <a href="/contrapunctus/composers/index.html">composers</a> and the <a href="/contrapunctus/index.html">seven chapters</a> are where you left them.</p></div><span class="bg-glyph" aria-hidden="true">𝄽</span></header>` }));
+await out('404.html', layout({ base: '/contrapunctus/', page: '404' }, { title: 'Not found — Contrapunctus', nav: '', body: `<header class="page-hero"><div class="wrap"><span class="kicker">404</span><h1>Page not found</h1><p class="lede">No page exists at this address. The <a href="/contrapunctus/composers/index.html">composers</a> and the <a href="/contrapunctus/index.html">seven chapters</a> are listed from the home page.</p></div><span class="bg-glyph" aria-hidden="true">𝄽</span></header>` }));
 
 // remove stale generated pages
 for (const dir of ['composers', 'eras', 'works']) {

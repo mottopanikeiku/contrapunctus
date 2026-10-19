@@ -1,13 +1,13 @@
 {
   "id": "beethoven-exposition-recapitulation",
   "track": "beethoven-5-first",
-  "title": "Beethoven: the return has changed",
-  "question": "How does C major change the returning second tune?",
+  "title": "Beethoven: the changed return",
+  "question": "The second theme’s return in C major",
   "kind": "tonal return",
   "status": "provisional",
   "intro": "The opening G–G–G–E♭ returns an octave higher in the first violins. Then the orchestra stops for an oboe, alone. Bassoons take the horns’ call, and the second tune comes back in C major.",
   "first": {
-    "label": "The exposition’s first pass",
+    "label": "The exposition, first statement",
     "from": { "n": "1", "occ": 1 },
     "to": { "n": "124", "occ": 1 }
   },
@@ -159,17 +159,17 @@
     {
       "a": ["7", 1],
       "b": ["254", 1],
-      "text": "An oboe holds C above the returning strings; the cellos pluck a C an octave below their earlier held note. The first violins slip in A♭–A♭–A♭–G before the familiar entries. Their C in bar 256 lasts one beat; in bars 9–10 it stretched across three."
+      "text": "An oboe holds C above the returning strings; the cellos pluck a C an octave below their earlier held note. The first violins play A♭–A♭–A♭–G before the familiar entries. Their C in bar 256 lasts one beat; in bars 9–10 it lasted three."
     },
     {
       "a": null,
       "b": ["268", 1],
-      "text": "The orchestra stops, and an oboe is left alone. In bar 268, where bar 21 had a pause, it sings an Adagio: held G, falling F–E♭–D, a quick E♭–D–C–D turn, then F–E♭–D and another pause. All this fits inside one expanded bar."
+      "text": "The orchestra stops and the oboe plays alone. In bar 268, at the point where bar 21 had a pause, the oboe plays an Adagio: a held G, a falling F–E♭–D, a quick E♭–D–C–D turn, then F–E♭–D and another pause. The whole passage fits inside one expanded bar."
     },
     {
       "a": ["22", 1],
       "b": null,
-      "text": "The loud A♭–F cry and its pause in bars 22–24 disappear. After the oboe, bar 269 picks up the soft A♭–A♭–A♭ figure from bar 25, cutting three bars from the transition."
+      "text": "The loud A♭–F figure in bars 22–24 and the pause after it are left out. After the oboe, bar 269 takes up the soft A♭–A♭–A♭ figure from bar 25, so the transition is three bars shorter."
     },
     {
       "a": ["30", 1],
@@ -179,22 +179,22 @@
     {
       "a": ["52", 1],
       "b": ["296", 1],
-      "text": "The cellos leave their repeated C to join the descending quavers. The first violins’ G♭ in bar 54 is written F♯ in bar 298. The chord at bar 58, B♭–D–F, led to E♭ major; at bar 302, G–B–D points to C major."
+      "text": "The cellos leave their repeated C to join the descending quavers. The first violins’ G♭ in bar 54 is written F♯ in bar 298. The chord at bar 58, B♭–D–F, leads to E♭ major; at bar 302, G–B–D leads to C major."
     },
     {
       "a": ["59", 1],
       "b": ["303", 1],
-      "text": "The horns’ B♭–B♭–B♭–E♭–F–B♭ call in bars 59–62 returns in the bassoons at bars 303–306: G–G–G–C–D–G, a minor third lower. The horns wait until bar 306, joining the held G."
+      "text": "The horns’ B♭–B♭–B♭–E♭–F–B♭ call in bars 59–62 returns in the bassoons at bars 303–306 a minor third lower, as G–G–G–C–D–G. The horns enter at bar 306 and join the held G."
     },
     {
       "a": ["63", 1],
       "b": ["307", 1],
-      "text": "The violin tune now sings G–C–B–C–D–A–A–G in C major; its earlier B♭–E♭–D–E♭–F–C–C–B♭ belonged to E♭ major. At bars 311–314, flute and oboes answer while both violin parts rest. Earlier, bars 67–70 gave the tune to clarinet above second violins."
+      "text": "The violin tune now plays G–C–B–C–D–A–A–G in C major; its earlier form, B♭–E♭–D–E♭–F–C–C–B♭, was in E♭ major. At bars 311–314, flute and oboes answer while both violin parts rest. Earlier, at bars 67–70, the tune was given to the clarinet above the second violins."
     },
     {
       "a": null,
       "b": ["319", 1],
-      "text": "The flute sings the C-major tune once more in bars 319–322, supported by oboes and bassoons. The violins fall silent for these four extra bars, inserted where bars 74–75 met in the exposition."
+      "text": "The flute plays the C-major tune again in bars 319–322, accompanied by oboes and bassoons. The violins stop for these four added bars, which are inserted at the point where bars 74 and 75 met in the exposition."
     },
     {
       "a": ["75", 1],
@@ -209,20 +209,20 @@
     {
       "a": null,
       "b": ["339", 1],
-      "text": "First violins turn F♯–G and A–G over the bassoons’ held D in bars 339–342. These are the four extra bars in the pairing; the final three-bar approaches, 91–93 and 343–345, stand opposite each other."
+      "text": "First violins play F♯–G and A–G over the bassoons’ held D in bars 339–342. These are the four extra bars in the pairing; the final three-bar approaches, bars 91–93 and 343–345, correspond to each other."
     },
     {
       "a": ["94", 1],
       "b": ["346", 1],
-      "text": "The closing music lands in C major. At bar 346 the first violins start on a single G, where bar 94 had B♭ in octaves. Their descent is now G–F–E–D–C; the earlier B♭–A♭–G–F–E♭ has moved home, with E♮ brightening the chord."
+      "text": "The closing music is in C major. At bar 346 the first violins start on a single G, where bar 94 had B♭ in octaves. Their descent is now G–F–E–D–C; the earlier B♭–A♭–G–F–E♭ is transposed to the home key, with E♮ in the chord."
     },
     {
       "a": ["122", 1],
       "b": null,
-      "text": "An E♭–G–B♭ chord in bar 122 and two silent bars close the exposition. The return runs straight towards the C-major chord at bar 374, the start of the coda. That arrival lies just beyond these paired passages."
+      "text": "An E♭–G–B♭ chord in bar 122 and two silent bars close the exposition. The return runs straight on to the C-major chord at bar 374, where the coda begins. That chord falls outside these paired passages."
     }
   ],
-  "listenFor": "An oboe holds the orchestra still, then bassoons bring back the horn call and the violins sing the second tune in C major.",
+  "listenFor": "An oboe plays alone while the orchestra stops; then the bassoons play the horn call and the violins play the second theme in C major.",
   "sources": [
     {
       "title": "Mutopia 941: Beethoven, Symphony No. 5, first movement — Breitkopf and Härtel, 1862–65, encoded by Stelios Samelis and adapted by Johannes Heinecke",

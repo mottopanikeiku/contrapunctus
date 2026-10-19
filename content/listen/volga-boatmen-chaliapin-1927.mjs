@@ -15,17 +15,17 @@ export default {
     file: 'File:PDP-CH - Feodor Chaliapin - The Song of the Volga Boatmen - Russian folk song - Fyodor Keneman - Gramophone-db1103-2-022051.flac',
     rights: { basis: 'eu-published-before-1963', published: 1928, evidence: ['https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051'] },
   },
-  intro: 'Chaliapin returns to the <i>Song of the Volga Boatmen</i> with Albert Coates conducting, five years after his recording with Byng. One bass voice carries a refrain once sung by men pulling barges along the Volga.',
+  intro: '<i>Song of the Volga Boatmen</i>, in the arrangement by Chaliapin and Keneman, is a refrain once sung by men pulling barges along the Volga. Chaliapin sang the solo bass part again with Albert Coates conducting, five years after his recording with Byng.',
   sections: [
-    { t: 0, label: 'A · The hauling song', m: 'A', mNote: 'The work song returns in Chaliapin’s bass voice' },
+    { t: 0, label: 'A · The hauling song, bass voice', m: 'A', mNote: 'The work song returns, sung by Chaliapin’s bass voice.' },
     { t: 50, label: 'B · Bass and orchestra', m: 'B' },
     { t: 100, label: 'C · The river song', m: 'C' },
-    { t: 140, label: 'D · The bass’s later phrases', m: 'D' },
+    { t: 140, label: 'D · Later phrases for bass', m: 'D' },
     { t: 160, label: 'E · Closing bars', m: 'E' },
   ],
   cues: [
-    { t: 0, kind: 'music', title: 'The bass and the refrain', text: 'A heaving cry runs through the song: “Ey, ukhnyem!” Chaliapin gives it a solo bass voice. The repeated words keep asking the men for one more pull.', basis: 'general', precision: 'passage', evidence: 'The traditional Russian refrain and lyrics: https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen. Chaliapin’s voice and the orchestral arrangement are documented at https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051' },
-    { t: 50, kind: 'world', title: 'London, October 1927', text: 'Chaliapin and Albert Coates make this recording in London on 20 October 1927. The arrangement bears Chaliapin’s name alongside Fyodor Keneman’s: the singer is also one of the men who brings the work song into the concert hall.', basis: 'documented', precision: 'passage', evidence: 'Public Domain Project, Gramophone DB 1103: session, conductor, singer and both arrangers. https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051' },
-    { t: 140, kind: 'world', title: 'Balakirev writes it down', text: 'In 1866 Mily Balakirev publishes the boatmen’s tune in his collection of Russian folk songs. The page has only one verse. More verses follow later, including the address to the Volga as a mother river, wide and deep.', basis: 'documented', precision: 'passage', evidence: 'Balakirev’s 1866 collection, the original single verse and the later text are described at https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen' },
+    { t: 0, kind: 'music', title: 'Refrain, solo bass', text: 'The refrain “Ey, ukhnyem!” recurs throughout the song. In this arrangement Chaliapin sings it as a solo bass.', basis: 'general', precision: 'passage', evidence: 'The traditional Russian refrain and lyrics: https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen. Chaliapin’s voice and the orchestral arrangement are documented at https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051' },
+    { t: 50, kind: 'world', title: 'Recording session, London, 1927', text: 'Chaliapin and Albert Coates made this recording in London on 20 October 1927. The arrangement bears Chaliapin’s name alongside Fyodor Keneman’s, so the singer was also one of the arrangers who brought the work song into the concert hall.', basis: 'documented', precision: 'passage', evidence: 'Public Domain Project, Gramophone DB 1103: session, conductor, singer and both arrangers. https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051' },
+    { t: 140, kind: 'world', title: 'Balakirev’s folk-song collection, 1866', text: 'In 1866 Mily Balakirev published the boatmen’s tune in his collection of Russian folk songs, with only one verse. Further verses were added later, among them the address to the Volga as a mother river, wide and deep.', basis: 'documented', precision: 'passage', evidence: 'Balakirev’s 1866 collection, the original single verse and the later text are described at https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen' },
   ],
 };

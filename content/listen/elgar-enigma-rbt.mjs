@@ -18,21 +18,21 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme III. R.B.T.ogg"
   },
-  "intro": "Richard Baxter Townshend plays an old man in amateur theatricals, his bass voice suddenly shooting up into a squeak. Elgar casts the oboe and bassoons in this small comedy.",
+  "intro": "Variation III of Elgar’s “Enigma” Variations, Op. 36, “R.B.T.” (Allegretto), portrays Richard Baxter Townshend, who played an old man in amateur theatricals, his bass voice suddenly shooting up into a squeak. Elgar gave the scene to the oboe and bassoons.",
   "sections": [
     {
       "t": 0,
-      "label": "Var 3 · Townshend plays an old man",
+      "label": "Var 3 · Allegretto, oboe and bassoons",
       "m": "Var 3",
-      "mNote": "A pert oboe meets grumbling bassoons"
+      "mNote": "An oboe melody over bassoons in the low register."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Oboe and grumbling bassoons",
-      "text": "The oboe bends the theme into a cheeky little phrase, marked <i>scherzando</i>. Bassoons answer below it while the strings pluck. A theatrical old man has acquired an orchestra: high interjections, low grumbles, and hardly a straight face.",
+      "title": "Oboe solo with bassoons",
+      "text": "The solo oboe plays a varied form of the theme, marked <i>scherzando</i>. Bassoons reply below it over pizzicato strings.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Novello full score, p. 15, rehearsal 8: solo oboe marked scherzando, bassoon replies and pizzicato strings. Elgar describes the oboe’s pert theme and the bassoons’ growing grumpiness in his commentary on variation III: https://en.wikipedia.org/wiki/Enigma_Variations"
@@ -40,8 +40,8 @@ export default {
     {
       "t": 32,
       "kind": "world",
-      "title": "A don on stage",
-      "text": "Townshend is an Oxford don and the author of the <i>Tenderfoot</i> books. Elgar remembers his amateur acting: an old man whose low voice keeps flying into soprano. His brother-in-law, William Meath Baker, is the subject of the very next variation.",
+      "title": "Richard Baxter Townshend",
+      "text": "Townshend was an Oxford don and the author of the <i>Tenderfoot</i> books. Elgar recalled his amateur acting in the part of an old man whose low voice kept flying into soprano. His brother-in-law, William Meath Baker, is the subject of the next variation.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Townshend’s occupation, books, family relationship and Elgar’s recollection of the performance: https://en.wikipedia.org/wiki/Enigma_Variations, variation III, citing Elgar, My Friends Pictured Within (Novello, 1946)."
