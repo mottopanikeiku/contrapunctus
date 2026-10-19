@@ -21,7 +21,7 @@ export default {
     { t: 24, label: 'A · Strings in C minor', m: 'A', mNote: 'The piano’s arpeggios accompany strings and clarinet.' },
     { t: 150, label: 'B · Piano melody in E♭', m: 'B', mNote: 'The piano plays a long melody after its running accompaniment' },
     { t: 240, label: 'Dev · Themes pass between piano and winds', m: 'Dev', mNote: 'Short phrases pass through changing keys' },
-    { t: 380, label: 'A′ · The tune returns against a march', m: 'A′', mNote: 'The orchestra sings while the piano presses forward in chords' },
+    { t: 380, label: 'A′ · The tune returns against a march', m: 'A′', mNote: 'The orchestra plays the melody while the piano plays chords' },
     { t: 500, label: 'B′ · Solo horn in A♭', m: 'B′', mNote: 'The second theme returns over quiet string chords.' },
     { t: 596, label: 'Coda · Meno mosso, then C minor', m: 'Coda', mNote: 'The first theme returns softly before the final acceleration.' },
   ],

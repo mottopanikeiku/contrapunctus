@@ -18,7 +18,7 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme VII. Troyte.ogg"
   },
-  "intro": "Variation VII, “Troyte” (Presto), from Elgar’s Variations on an Original Theme “Enigma”, Op. 36, is an orchestral joke about the architect Arthur Troyte Griffith’s struggles at the piano. The timpani and low strings play his awkward fingers.",
+  "intro": "Variation VII, “Troyte” (Presto), from Elgar’s Variations on an Original Theme “Enigma”, Op. 36, is an orchestral joke about the architect Arthur Troyte Griffith’s struggles at the piano. The timpani and low strings depict his clumsy playing.",
   "sections": [
     {
       "t": 0,

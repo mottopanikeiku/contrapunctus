@@ -102,7 +102,7 @@ export default {
     },
     {
       id: 'into-development',
-      title: 'A muted trumpet takes over',
+      title: 'Transition to muted trumpet',
       from: 'R′ · Refrain in A♭ minor',
       to: 'Dev · Interlude for the orchestra',
       at: { t: 248 },

@@ -1,0 +1,26 @@
+{
+  "id": "nielsen-wind-quintet-menuet",
+  "verdict": "pass",
+  "defects": [],
+  "reviewer": "Rev2A",
+  "date": "2026-10-19",
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "SCORE_BAR_COUNT",
+      "finding": "The opening cue said flute and oboe rest for the first fourteen bars (evidence p. 121, bars 1–14). On p. 122 of the Carl Nielsen Edition both still rest in bar 15 and in the first-time bar 16; the flute enters on the last beat of the second-time bar 16 and the oboe at bar 17.",
+      "fix": "Text now says the first fifteen bars; evidence now pp. 121–122, bars 1–16."
+    }
+  ],
+  "checks": {
+    "source": "MEAS: item db-5200-3-nielsen-wind-quintet-iii read; MP3 (ii) MD5 9802ad47… equals the manifest; 267.76 s. Pitch about +2 cents of A = 440 (whole file and the coda). Menuet in A major, Trio in F major: chroma agrees. Tempo about ♩ = 85–88, no repeats taken: bar 45 at about 95 s, bar 72 at 150.2 s, then the return repeats the opening at a constant offset of 149.5 s (matches at 30, 60 and 78 s), which puts bar 115 at about 242 s (note at 240 s).",
+    "identity": "EXT: HMV label scans viewed: DB 5201 A, 2 Sats: Menuet, 2CS 295, Det Kgl. Kapels Blæserkvintet with Gilbert Jespersen, Felumb, Oxenvad, Kn. Lassen, Hans Sørensen. Gramophone Company Discography (Kelly), queried through its public API: 2CS 291–297, 24–25 Jan 1936; 2CS 295 takes 1–3 January 1936 (no day), take 4 on 5 May 1936 issued as DB5201; Taagen letter 2CS 318, 31 Jan 1936. The issue-number column in the Kelly rows is inconsistent (DB5200 shown against four matrices); the labels and the Archive description are used for the side layout.",
+    "rights": "EXT: The Musical Quarterly, April 1937, Quarterly Record-List (Archive text): Nielsen, Quintet, Op. 43; Taagen letter, Danish Gramophone DB 5200-3 (the entry calls it a brass quintet, a misprint). The New Records vol. 5 no. 6, August 1937: Quintet for Wind Instruments, Det Kgl. Kapels Blaeserkvintet, seven sides and Taagen Letter, 4-12 in. discs DB5200 to DB5203, $2.50 each, at once old-fashioned and modern. So the set was on sale by April 1937. Composition: Nielsen d. 3 Oct 1931, public domain; first edition Wilhelm Hansen 1923.",
+    "notes": "EXT: score pp. 121, 122, 124, 125 and 128 viewed as images: ♩ = 96, 3/4, clarinet mp over bassoon, horn enters p in bar 9, Trio at bar 45 in F major with oboe first and clarinet in bar 46, flute p in bar 48, bar 71 pp fermata, return at bar 72, CODA at bar 115 f with clarinet run and sustained horn, last three bars dim. and rall., bar 122 p fermata. Preface p. xxxv (Gothenburg, Mannheimers, end of March, within a month, finished 24 April; the private performance of 30 April is on p. xxxvi) verified. Six notes for 267.7 s (limit 7). Voice rules checked. Not an aural review."
+  },
+  "rights": {
+    "decision": "Publish on the EU basis stated.",
+    "iaFlags": "Not flagged: curation field reads only checked for malware; no noindex, dark or restriction. Shellackophile collection upload of March 2022 by a private collector with no licence statement; dated first publication is independent of the uploader.",
+    "reasoning": "Dated period sources (Musical Quarterly April 1937; The New Records August 1937) show publication before 1963. Studio recording. Composition public domain, stated in the dossier. US status not established."
+  }
+}

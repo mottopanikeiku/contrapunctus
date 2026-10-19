@@ -13,7 +13,7 @@ export default {
   recorded: '1 April 2014',
   source: { file: 'File:Maurice Ravel - Gaspard de la nuit - 1. Ondine.flac' },
   set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 1, of: 3 },
-  "intro": "<i>Ondine</i> (Lent) is the first of Ravel’s three poems for piano in <i>Gaspard de la nuit</i>, in which a water spirit’s song is set beneath a tremble of piano chords. Andriy Makarevych plays both the song and the chords.",
+  "intro": "<i>Ondine</i> (Lent) is the first of Ravel’s three poems for piano in <i>Gaspard de la nuit</i>, in which a water spirit’s song is set beneath a tremble of piano chords. The pianist is Andriy Makarevych.",
   "sections": [
     { "t": 0, "label": "A · Left-hand song under repeated treble chords", "m": "A", "mNote": "The left hand plays the song below repeated treble chords." },
     { "t": 126, "label": "B · Arpeggios across the keyboard", "m": "B", "mNote": "The water figures span a wider range between bass and treble." },

@@ -295,7 +295,7 @@ const form = [
   {
     slug: 'programme-music', term: 'Programme music', aka: ['program music'], kind: 'form',
     short: 'Programme music is instrumental music linked to a story, scene or other subject beyond the music itself.',
-    html: `<p>The programme may be printed in the score, as a sonnet beside each concerto, or handed to the audience as a prose scenario. It can name a character or place, or describe a sequence of events the music follows. The opposite is called absolute music. Vivaldi’s <i>Four Seasons</i> was published in Amsterdam in 1725 with a sonnet for each concerto. Berlioz supplied a programme for <i>Symphonie fantastique</i>, in which an opium-dazed musician dreams that he has killed his beloved and is led to execution. Near the end of the March to the Scaffold, the fourth movement, a clarinet plays her melody. The orchestra cuts it short with the fall of the blade.</p>`,
+    html: `<p>The programme may be printed in the score, as a sonnet beside each concerto, or handed to the audience as a prose scenario. It can name a character or place, or describe a sequence of events the music follows. The opposite is called absolute music. Vivaldi’s <i>Four Seasons</i> was published in Amsterdam in 1725 with a sonnet for each concerto. Berlioz supplied a programme for <i>Symphonie fantastique</i>, in which an opium-dazed musician dreams that he has killed his beloved and is led to execution. Near the end of the March to the Scaffold, the fourth movement, a clarinet plays her melody. The orchestra then cuts it off, depicting the fall of the blade.</p>`,
     hear: [
       { listen: 'berlioz-fantastique-march', t: 0, note: 'The fourth of five movements, depicting the dream of an execution, with a heavy march tread and more ceremonial passages.' },
       { listen: 'vivaldi-spring-allegro', t: 100, note: 'A sonnet printed beside the parts, with letters linking its lines to passages in the score.' },
@@ -566,14 +566,14 @@ const texture = [
     short: 'A leitmotif is a recurring musical idea associated with a character, object or thought in a drama.',
     html: `<p>A leitmotif can refer to a character who is absent from the stage, or to something a character has not said. It can be altered as the story develops: played slower or more harshly, or harmonised differently. Wagner’s <i>Ring</i> makes extensive use of these associations. In Strauss’s <i>Till Eulenspiegel</i>, the prankster has two themes, a winding horn tune and a clipped clarinet figure, which return through his adventures.</p>`,
     hear: [
-      { listen: 'richard-strauss-till-eulenspiegel', t: 35, note: 'Two musical signatures for one character, returning amid changing episodes.' },
+      { listen: 'richard-strauss-till-eulenspiegel', t: 35, note: 'Two themes for one character, returning amid changing episodes.' },
     ],
     see: ['motif', 'cyclic-form', 'tristan-chord', 'symphonic-poem'],
   },
   {
     slug: 'cyclic-form', term: 'Cyclic form', aka: ['cyclic', 'idée fixe'], kind: 'texture',
     short: 'Cyclic form links the movements of a work by bringing back themes heard in earlier movements.',
-    html: `<p>A familiar theme returns in a new setting. In Berlioz’s <i>Symphonie fantastique</i>, the melody representing the beloved appears in all five movements. It is heard at the ball and becomes grotesque at the Witches’ Sabbath. In the March to the Scaffold, a solo clarinet plays it just before the orchestra’s fatal blow.</p>`,
+    html: `<p>A familiar theme returns in a new setting. In Berlioz’s <i>Symphonie fantastique</i>, the melody representing the beloved appears in all five movements. It is heard at the ball and becomes grotesque at the Witches’ Sabbath. In the March to the Scaffold, a solo clarinet plays it just before the full orchestra cuts it off.</p>`,
     hear: [
       { listen: 'berlioz-fantastique-march', t: 252, note: 'A solo voice interrupts the crowd with the last thought of love, and the orchestra cuts it off with a blow.' },
       { listen: 'dvorak-9-largo', t: 490, note: 'The quicker episode brings back earlier themes: the Largo’s tune is combined with themes from the first movement.' },

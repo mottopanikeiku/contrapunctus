@@ -570,7 +570,7 @@ C,2 G,2 | C,2 G,2 |]`,
 <aside class="note"><b>Register</b>The same instrument sounds different in different parts of its range. A low flute is easily covered by other players; a high flute can be heard above them. The choice of octave for a melody is part of orchestrating it.</aside>
 <p>Ravel also made new voices by combining instruments. A horn carries the tune with celesta and piccolos sounding above it, so that the separate parts suggest the upper tones of one composite instrument. Elsewhere, a muted trumpet shares a statement with a flute, and a high trombone solo brings the line closer to a sliding human voice.</p>
 <p>The way a note begins matters as much as the way it is sustained. A plucked violin string starts sharply and dies away; a bowed note can grow louder after it begins. A mute changes the sound again. <i>Sul ponticello</i> brings the bow close to the bridge; <i>col legno</i> uses its wood. Wind multiphonics use special fingerings and ways of blowing to sound several pitches together.</p>
-<aside class="note"><b>More players, less clarity</b>Doubling a line can make it stronger, but another instrument’s attack may blur its edges. The composer also has to leave space around the melody. A quiet solo flute will struggle against a full brass chord.</aside>
+<aside class="note"><b>Doubling and balance</b>Doubling a line can make it stronger, but another instrument’s attack may blur its edges. The composer also has to leave space around the melody. A quiet solo flute will struggle against a full brass chord.</aside>
 <p><i>Boléro</i> keeps its two tunes and its repeating bass in place for nearly the whole piece, so each new player is conspicuous. Later, whole sections take the melody, and the orchestra around the drum rhythm grows very large. The example below reduces this to two solo sounds: a flute plays a phrase, then an oboe plays the same notes.</p>`,
       score: [
         {
@@ -679,7 +679,7 @@ z4 | z4 | ^G2 B2 | d2 e2 |]`,
           relation: 'documented-use',
           type: 'painting', frame: 'mat', file: 'File:Piero della Francesca - Madonna del Parto - WGA17613.jpg',
           artist: 'Piero della Francesca', title: 'Madonna del Parto', date: 'c. 1450–65', medium: 'Fresco, detached', collection: 'Musei Civici Madonna del Parto, Monterchi',
-          note: '<p>Two angels open a tent; Mary’s fingers part her dress. Grisey saw one opening inside another in Piero’s <i>Madonna del Parto</i>. In his programme note for <i>L’Icône paradoxale</i>, published at Festival Musica in 1996, he described turning the fresco’s proportions, 3:5:8:12, into musical durations. The two singers sing Piero’s names and words from his treatise on perspective. The <a href="https://brahms.ircam.fr/fr/work/l%27icone-paradoxale">composer’s account</a> also describes how these proportions are carried into the divided orchestra.</p>',
+          note: '<p>In Piero’s <i>Madonna del Parto</i>, two angels open a tent and Mary’s fingers part her dress; Grisey saw one opening inside the other. In his programme note for <i>L’Icône paradoxale</i>, published at Festival Musica in 1996, he described turning the fresco’s proportions, 3:5:8:12, into musical durations. The two singers sing Piero’s names and words from his treatise on perspective. The <a href="https://brahms.ircam.fr/fr/work/l%27icone-paradoxale">composer’s account</a> also describes how these proportions are carried into the divided orchestra.</p>',
         },
       ],
     },

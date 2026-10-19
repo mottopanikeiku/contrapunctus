@@ -131,7 +131,7 @@ export default {
       t: 725,
       kind: 'music',
       title: 'Unaccompanied violin, close',
-      text: 'The orchestra stops, and the violin plays unaccompanied in skylark mode to the end of the piece.',
+      text: 'The orchestra stops, and the violin plays unaccompanied to the end of the piece.',
       basis: 'score-proportion',
       precision: 'passage',
       evidence: 'Hyperion note: the work “ends with the unaccompanied violin once more in skylark mode”. https://www.hyperion-records.co.uk/dw.asp?dc=W16127_GBLLH1748604',

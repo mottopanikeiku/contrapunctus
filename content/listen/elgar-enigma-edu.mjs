@@ -18,7 +18,7 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme XIV. Finale E.D.U.ogg"
   },
-  "intro": "Elgar titled the finale of his “Enigma” Variations “E.D.U.” after Edoo, the name his wife Alice used for him. Alice’s music and Jaeger’s, belonging to the two people who kept him composing, return within it.",
+  "intro": "Elgar titled the finale of his “Enigma” Variations “E.D.U.” after Edoo, the name his wife Alice used for him. Music from the variations for Alice and Jaeger, the two people who kept him composing, returns in it.",
   "sections": [
     {
       "t": 0,

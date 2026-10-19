@@ -1,0 +1,54 @@
+{
+  "id": "messiaen-turangalila-jardin",
+  "verdict": "pass",
+  "reviewer": "Rev2C",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata and file list (lp_turangalila-symphonie…, disc2/03.01), cached MP3 MD5 against the Archive manifest, segmentation file, broadband and band-limited envelopes, spectrogram of the last 38 s, spectral peak pitches, rumble period. EXT: OCR of the Vega 28.001/28.002 sleeve and labels, Barbara Heninger’s Redwood Symphony note (Messiaen’s Boston programme note), Wikipedia (Turangalîla-Symphonie; Jeanne Loriod; Yvonne Loriod; Maurice Le Roux in the French edition), Los Angeles Philharmonic page, Jean Roy, Présences contemporaines (Paris, 1962), read as full-text search hits on the Internet Archive scan (the borrowable scan itself was not opened). Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "EXT",
+      "code": "SISTER_UNSOURCED",
+      "finding": "The 75 s cue and the intro call Jeanne Loriod Yvonne’s sister, but the cited evidence (Vega labels, LA Phil) says nothing of it.",
+      "fix": "Wikipedia’s article on Jeanne Loriod (“younger sister of Yvonne Loriod”) added to the cue evidence, the dossier performers note and the dossier sources."
+    },
+    {
+      "basis": "EXT",
+      "code": "SESSION_NOTE",
+      "finding": "The dossier said only that no session date is known. Wikipedia’s table of recordings gives “Recording supervised by Messiaen in 1961”, and the French article on Le Roux gives Vega 1961 with a Grand Prix du Disque of the Académie Charles-Cros.",
+      "fix": "Dossier session note now records the Wikipedia statement as unsourced; status stays unknown and the listen file keeps recorded empty."
+    },
+    {
+      "basis": "EXT",
+      "code": "ROY_NUMBERS",
+      "finding": "The dossier gave Roy’s catalogue numbers without saying how they were read. The full-text hits read “2 disques 30 cm 33 t, Véga, 339-40 (mono) et 20.033-54 (Stéréo)”; the second number is the OCR’s reading of 20.033-34, which agrees with Wikipedia’s “Vega C 30 ST 20033/4”.",
+      "fix": "Catalogue note rewritten with the reading and Wikipedia’s other numbers (C 35 X 940, VAL 127)."
+    }
+  ],
+  "checks": {
+    "source": "Item lists the track as VBR MP3, 613.44 s; the cached MP3 (md5 1a718032…) matches the Archive manifest. Metadata: publisher Vega, catalogue 28.001/002, country FR, date 1962, collections album_recordings, vinyl_universityofillinoisaudioarchive, audio_music, unlockedrecordings, vinyl_john-rockwell_records, vinyl_archive-of-contemporary-music-records; no licence field and no litigation, restriction or dark marker.",
+    "durationAndPitch": "File 613.4 s. The music begins at about 4.5 s (the first 4–5 s are lead-in noise at about 40 dB below the music) and fades out between about 9:40 and 10:05, so the movement lasts about 9:55–10:00 against the label’s 10′05″; a transfer running a semitone (about 6 per cent) fast would be about 30 s shorter than the label, so the timing excludes it. Segmentation: final start 3.995 s of the face capture, moved 5.4 s earlier than the automatic start. Pitch: sustained A♯4, C♯5 (+4 cents), F♯5 (+10), F♯4 (+4) and G♯4, D5 (+2) against A = 440. The sustained notes are mostly degrees of F♯ major, and the final sonority has F♯ and C♯ above a G in the bass, so there is no sign of a semitone shift. A weak rumble periodicity of 1.79 s agrees with 33⅓ rpm (1.80 s) within 0.5 per cent. The tail fades out; the track does not end mid-phrase.",
+    "identity": "Sleeve and labels: “TURANGALILA SYMPHONIE (P) 1962, 28.002 … Face 3, N° 6 – JARDIN DU SOMMEIL D’AMOUR 10′05, N° 7 – TURANGALILA II 4′00; YVONNE LORIOD – Piano, JEANNE LORIOD – Ondes Martenot, ORCHESTRE NATIONAL DE LA R.T.F., Direction: Maurice LE ROUX”. Movement list I–X with VI Jardin du sommeil d’amour and VII Turangalila 2. Segmentation: Jardin and Turangalîla II are adjacent on the face-3 capture, the second starting at 617.415 s where this one ends. The label does not give a session date, place or matrix.",
+    "notes": "Every cue checked. 0 s: movement order and 10′05″ (labels); Joie du sang des étoiles “a long and frenzied dance of joy” (Heninger). 12 s: Messiaen’s note for VI: “Here appears the third cyclic theme: that of love. It is a long slow melody for ondes martenot and the strings, decorated by the vibraphone, the glockenspiel and the bird-song of the piano.”; the sleeve calls the third cyclic theme the most important and the love theme. 75 s: the sleeve says Yvonne Loriod “always plays it at every performance whoever the conductor”; marriage in 1961 (LA Phil and Wikipedia). 150 s: sleeve, “commissioned by Serge Koussevitzky … Boston Symphony Orchestra … July 17, 1946 to November 29, 1948”. 225 s: sleeve (2 December 1949, Symphony Hall, Bernstein, Loriod) and Wikipedia (Ginette Martenot; Koussevitzky “scheduled to conduct the première, but fell ill”). 300 s: Heninger, VIII “develops the three cyclic themes”; X, “two themes … The coda is based on the love-theme”. 390 s: labels (P) 1962 and Roy, 1962. 558 s: audio feature confirmed, the band-limited level falls about 8 dB at 9:20 and about 30 dB by 10:00; Turangalîla II follows on the same face. Section boundaries 2:12, 4:46, 6:46 and 9:18 each coincide with an abrupt change in the band-limited level. Eight notes for 613 s (limit 16). Voice rules read by hand and by the validator.",
+    "validate": "node tools/validate.mjs content/listen/messiaen-turangalila-jardin.mjs content/dossiers/messiaen-turangalila-jardin.json prints ok for both files after the fixes."
+  },
+  "rights": {
+    "decision": "Publish on the territorial EU basis stated in the dossier; US status is not claimed.",
+    "reasoning": "(1) The scanned labels carry the notice (P) 1962, and Jean Roy’s Présences contemporaines (Paris: Nouvelles Éditions Debresse, 1962), whose index of works and discs I searched in full text on the Internet Archive, lists “Turangalila Symphonie : Orchestre National de la R.T.F., dir. Maurice Le Roux. 2 disques 30 cm 33 t, Véga, 339-40 (mono)”. That is an independent dated source for first publication by 1962. The numbers differ from the 28.001/002 of the pressing transferred, so the pressing may be a later one; the recording itself was published by 1962 in any case. (2) A phonogram published in 1962 had run its 50-year EU term by the end of 2012, before the 1 November 2013 cut-off of Directive 2011/77/EU; 1962 is the last year the rule covers, so a first publication in 1963 would have changed the answer and nothing seen suggests it. (3) Provenance: a commercial Vega LP set of a studio-quality performance supervised by Messiaen; neither a live nor a broadcast capture is indicated, and no re-labelling. (4) Composition: Messiaen died in 1992, so the work is in copyright in the EU until the end of 2062; the dossier says so. (5) The Internet Archive item carries no licence and no litigation or restriction marker.",
+    "limits": "Roy was read as search snippets, not page images; the book is borrowable only."
+  },
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "GENERIC_SECTION_LABELS",
+      "finding": "Section labels A–D read “First section” to “Fourth section”. The boundaries fall at real changes in the audio, but nothing available (no score, no source that maps bars to times) supports a more specific description, and the validator accepts them.",
+      "action": "Left as they are."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BASS_G_IN_ANALYSIS",
+      "finding": "The author-side analysis text (cache/analysis) reports G as the bass for most of the movement and calls the closing region G major, which could suggest a semitone error. My peak measurements find a G in the bass of the final sonority, with F♯ and C♯ above it, and sustained notes that are mostly F♯ major degrees at pitch. I could not tie the bass G to the score, so this is recorded as an open reading, not a defect.",
+      "action": "No change."
+    }
+  ]
+}

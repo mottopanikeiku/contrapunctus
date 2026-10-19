@@ -22,7 +22,7 @@ export default {
   "sections": [
     {
       "t": 0,
-      "label": "A · Cellos and dark flames",
+      "label": "A · Cellos",
       "m": "A",
       "mNote": "Cellos climb before the baritone enters"
     },
@@ -114,7 +114,7 @@ export default {
     {
       "id": "central-appeal",
       "title": "The harp introduces D major",
-      "from": "A · Cellos and dark flames",
+      "from": "A · Cellos",
       "to": "B · Harp arpeggios in D major",
       "at": { "t": 146 },
       "span": [136, 158],

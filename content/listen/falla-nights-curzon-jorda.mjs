@@ -113,7 +113,7 @@ export default {
       t: 1030,
       kind: 'music',
       title: 'Piano phrases over strings',
-      text: 'After the opening storm comes a calmer passage. Jessica Schilling’s note for the Los Angeles Philharmonic describes it as “crystalline, guitar-inspired” phrases for the piano over hazy strings. The drama returns soon after.',
+      text: 'After the opening storm comes a calmer passage. Jessica Schilling’s note for the Los Angeles Philharmonic describes it as “crystalline, guitar-inspired” phrases for the piano over hazy strings. The stormy music returns soon after.',
       basis: 'audio-feature',
       precision: 'passage',
       evidence: 'Jessica Schilling’s programme note for the Los Angeles Philharmonic describes the third movement’s orchestral storm, then “a remarkably crystalline, guitar-inspired series of phrases … set for piano over hazy strings”, then the return of the drama. The calmer stretch is audible in this recording. https://www.laphil.com/musicdb/pieces/2450/nights-in-the-gardens-of-spain',

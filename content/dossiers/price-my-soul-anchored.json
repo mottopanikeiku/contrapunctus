@@ -1,0 +1,190 @@
+{
+  "id": "price-my-soul-anchored",
+  "work": {
+    "title": "My Soul’s Been Anchored in de Lord",
+    "catalogue": "Arrangement of a spiritual for voice and piano (composed 1931; published 1937); no opus number",
+    "movement": "",
+    "version": {
+      "value": "Price’s arrangement for voice and piano, as sung by Marian Anderson on Victor 1799. The disc label gives the title as “My Soul’s Been Anchored in the Lord”.",
+      "status": "inferred",
+      "sourceIds": ["dahr-matrix", "catalog", "archive"],
+      "note": "The Discography of American Historical Recordings names Florence Price as arranger, from the disc label, and the Remick edition of 1937 is annotated “As sung by Marian Anderson (Victor Record No. 1799)”. Which printed or manuscript version the singer and pianist used (key, cuts, ending) is not stated, and neither the Remick nor the Gamble edition was seen. The Internet Archive file is titled “My Souls Been Anchored In The Lord”."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Marian Anderson", "role": "contralto" },
+      { "name": "Kosti Vehanen", "role": "piano" }
+    ],
+    "status": "documented",
+    "sourceIds": ["dahr-matrix", "archive"],
+    "note": "The Discography of American Historical Recordings lists Anderson as vocalist (contralto) and Vehanen as pianist, and describes the matrix as a contralto vocal solo with piano. The Internet Archive creator field lists Price, Anderson and Vehanen."
+  },
+  "session": {
+    "date": {
+      "value": "1936-02-04",
+      "status": "documented",
+      "sourceIds": ["dahr-matrix"],
+      "note": "Matrix BS-99538 was recorded on 4 February 1936; takes 1, 1A, 2 and 2A are listed for that day and take 2 is the master issued on Victor 1799 and Gramophone DA-1560. The Internet Archive date of 1937 is the year of release, not of the session.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York, New York, Studio 3",
+      "status": "documented",
+      "sourceIds": ["dahr-matrix"],
+      "note": "As given for every take of the matrix in the Discography of American Historical Recordings."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor (Camden, N.J.), 10-inch double-faced Red Seal; the same take was issued as Gramophone DA-1560",
+      "status": "documented",
+      "sourceIds": ["dahr-object", "dahr-da1560", "archive"],
+      "note": "The Discography of American Historical Recordings describes Victor 1799 as a 10-inch double-faced Red Seal and lists the same two matrices under Gramophone DA-1560. The Internet Archive item gives the publisher as Victor."
+    },
+    "catalogue": {
+      "value": "Victor 1799, side B (coupled with Burleigh’s “Go Down, Moses”, matrix BS-99537); released February 1937",
+      "status": "documented",
+      "sourceIds": ["dahr-object", "arg", "archive"],
+      "note": "Release date 2/1937 is given by the Discography of American Historical Recordings from the Victor catalog. The American Record Guide reviewed the disc in February 1937 at $1.50. The Internet Archive item records the side as “1799-B”, which is the label side designation; its “Matrix number: 1799B” is not a Victor matrix number."
+    },
+    "matrixTakeSides": {
+      "value": "BS-99538, take 2",
+      "status": "documented",
+      "sourceIds": ["dahr-matrix"],
+      "note": "Take 2 is the master issued on Victor 1799 and on Gramophone DA-1560. That the Internet Archive transfer is of the Victor 1799 pressing rests on the item’s description (“Victor (1799-B)”)."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Digitised by George Blood, L.P. for the Internet Archive’s Great 78 Project",
+      "status": "documented",
+      "sourceIds": ["archive-meta"],
+      "note": "The item metadata gives George Blood, L.P. as the scanning centre and the item belongs to the collections 78rpm, georgeblood, archiveofcontemporarymusic and audio_music."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive-meta"],
+      "note": "The Internet Archive lists the item as added on 11 February 2017; that is the upload, not the date of the transfer."
+    },
+    "processing": {
+      "value": "Four styli (2.0, 2.3, 2.8 and 3.3 mil truncated conical) were used; the transfers were made flat and also equalised with a turnover of 500. The preferred version is the equalised transfer with the 2.3 mil stylus, copied as the file used here (named “restored”).",
+      "status": "documented",
+      "sourceIds": ["archive-meta"],
+      "note": "From the item description. Noise reduction and any speed correction are not described."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b/My%20Souls%20Been%20Anchored%20In%20The%20Lord%20-%20Florence%20B.%20Price-restored.mp3",
+    "sourceChain": ["archive-meta", "archive"],
+    "format": "Internet Archive VBR MP3 derivative of a 24-bit FLAC; one disc side, no concatenation or edits by Contrapunctus",
+    "durationSeconds": 131.67
+  },
+  "rights": {
+    "composition": {
+      "value": "Price died on 3 June 1953, so her arrangement has been out of copyright in the EU and the United Kingdom (life plus 70 years) since 1 January 2024. In the United States it was registered for copyright on 12 August 1937 by Gamble Hinged Music Co.; whether that copyright was renewed was not checked. The underlying spiritual is traditional.",
+      "status": "inferred",
+      "sourceIds": ["catalog"],
+      "note": "The registration is documented by the Price Works Catalog. The EU term is a calculation from her death date, which the composer chapter on this site gives. Rights in the composition are separate from rights in the recording and do not block publication."
+    },
+    "recording": {
+      "value": "Territorial EU public domain: first published before 1963 (Victor 1799, released February 1937). United States status not established: a recording first published in 1937 is still within the term of federal protection for pre-1972 recordings, and the Internet Archive item sits in the collection that was the subject of UMG Recordings, Inc. v. Internet Archive.",
+      "status": "documented",
+      "sourceIds": ["dahr-object", "arg", "copyright-office", "mbw", "ia-blog", "archive-meta"],
+      "note": "The release date comes from the Victor catalog as given by the Discography of American Historical Recordings, and a review of the disc appeared in February 1937. For recordings first published between 1923 and 1946 the Copyright Office describes a term of 95 years plus 5 years after first publication, which for 1937 runs to the end of 2037. The Great 78 Project was the subject of a lawsuit by record companies, settled confidentially in September 2025 (reported by Music Business Worldwide, and acknowledged by the Internet Archive on 15 September 2025); its terms were not published. The item’s curation note of 22 August 2025 reads “lawsuit temporary undark and noindex”: the item was restored to view but is withheld from search indexing. On 19 October 2026 the Internet Archive record of the British pressing of the same take (HMV DA 1560, item 78_my-souls-been-anchored-in-the-lord_marian-anderson-kosti-vehanen-price_gbia0125732b) was marked dark. If the Internet Archive withdraws this item, the stream will fail."
+    },
+    "creditLine": "Florence Price, My Soul’s Been Anchored in de Lord (arrangement for voice and piano). Marian Anderson, contralto; Kosti Vehanen, piano. Recorded 4 February 1936, New York (Victor matrix BS-99538, take 2); issued on Victor 1799 in February 1937. Transfer by George Blood, L.P. for the Internet Archive’s Great 78 Project, item 78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b. Territorial EU basis (first published before 1963); US status not established.",
+    "licenseUrl": "https://archive.org/details/78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: My Soul's Been Anchored In The Lord (Florence B. Price; Marian Anderson; Kosti Vehanen), Victor 1799-B",
+      "url": "https://archive.org/details/78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b",
+      "locator": "Item page: publisher Victor (1799-B), publication date 1937, 2:12 file, transfer description, note on the other side of the disc",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "archive-meta",
+      "title": "Internet Archive item metadata and file manifest",
+      "url": "https://archive.org/metadata/78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b",
+      "locator": "metadata.description (styli, equalisation, preferred version), scanningcenter, addeddate, curation note, noindex flag; MP3 derivative of 131.67 s FLAC",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "dahr-matrix",
+      "title": "Discography of American Historical Recordings: Victor matrix BS-99538, My soul's been anchored in the Lord / Marian Anderson; Kosti Vehanen",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/200023267",
+      "locator": "Takes 1, 1A, 2, 2A of 4 February 1936, New York, Studio 3; take 2 master on Victor 1799 and Gramophone DA-1560; Price as arranger (disc label); Anderson contralto, Vehanen piano",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "dahr-object",
+      "title": "Discography of American Historical Recordings: Victor 1799 (10-in. double-faced Red Seal)",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/detail/12544",
+      "locator": "Matrices BS-99537 and BS-99538; release date 2/1937, source Victor catalog",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "dahr-da1560",
+      "title": "Discography of American Historical Recordings: Gramophone DA-1560 (10-in.)",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/detail/168533",
+      "locator": "Matrices BS-99537 and BS-99538 released under this number",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "arg",
+      "title": "The American Record Guide, vol. 2 no. 10 (February 1937), Internet Archive scan",
+      "url": "https://archive.org/details/sim_american-record-guide_1937-02_2_10",
+      "locator": "Record reviews: “Spirituals: Go Down Moses, and My Soul’s Been Anchored in the Lord”, 10-inch Victor 1799, $1.50, signed A. P. D.; read in the scan’s text layer",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "catalog",
+      "title": "Florence B. Price Works Catalog: My Soul's Been Anchored in the Lord",
+      "url": "https://fbpricecatalog.net/price-my-souls-been-anchored/",
+      "locator": "Composition year 1931; manuscript of 30 September 1931 dedicated to Abbie Mitchell; copyright 12 August 1937, Gamble Hinged Music Co., E pub. 63815; Remick Music edition 1937 annotated “As sung by Marian Anderson (Victor Record No. 1799)”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "loc",
+      "title": "Library of Congress, In The Muse: Marian Anderson’s #LincolnMemorialMoment (Cait Miller, 12 May 2022)",
+      "url": "https://blogs.loc.gov/music/2022/05/marian-andersons-lincoln-memorial-moment/",
+      "locator": "Set list of 9 April 1939 with the three spirituals; 75,000 people; six microphones; Kosti Vehanen at the piano",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "songofamerica",
+      "title": "Song of America: My Soul’s Been Anchored in the Lord",
+      "url": "https://songofamerica.net/song/my-souls-been-anchored-in-the-lord",
+      "locator": "Printed text of the song; Hildegard Publishing edition listed as the sheet music",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "copyright-office",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term: 95 years after first publication, plus 5 years for recordings first published 1923–1946",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "mbw",
+      "title": "Music Business Worldwide: Labels settle copyright lawsuit against Internet Archive over streaming of vintage vinyl records (16 September 2025)",
+      "url": "https://www.musicbusinessworldwide.com/labels-settle-copyright-lawsuit-against-internet-archive-over-streaming-of-vintage-vinyl-records",
+      "locator": "Confidential settlement of UMG Recordings, Inc. v. Internet Archive over the Great 78 Project; dismissal expected within 45 days",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "ia-blog",
+      "title": "Internet Archive Blogs: An Update on the Great 78s Lawsuit (Chris Freeland, 15 September 2025)",
+      "url": "https://blog.archive.org/2025/09/15/an-update-on-the-great-78s-lawsuit/",
+      "locator": "The parties have reached a confidential resolution of all claims",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

@@ -30,7 +30,7 @@ export default {
   transitions: [
     {
       id: 'into-second-part',
-      title: 'The same cry in G major',
+      title: 'The same phrase in G major',
       from: 'A · Cries and running semiquavers',
       to: 'B · Passage towards G',
       at: { bar: { n: '9', occ: 1 } },

@@ -50,20 +50,20 @@ not estimates of every visitor’s experience.
 
 ## The Concert Hall
 
-One continuous concert, from Gregorian chant, Hildegard and Machaut to Shostakovich and Bernstein: 370 recordings in the order the composers were born, about 46½ hours of music, streamed from Wikimedia Commons and the Internet Archive. Another 63 recordings (historical takes, comparisons) sit outside the running order, for 433 in all. One player persists across the site.
+One continuous concert, from Gregorian chant, Hildegard and Machaut to Messiaen, Britten, Bernstein and Boulez: 385 recordings in the order the composers were born, about 48½ hours of music, streamed from Wikimedia Commons and the Internet Archive. Another 63 recordings (historical takes, comparisons) sit outside the running order, for 448 in all. One player persists across the site.
 
 - **Evenings**: eight curated programmes (a first evening, Paris 1888–1913, Vienna, the composers playing their own music, late at night, the first recordings, opera, music in America). An evening plays its tracks in order and stops. *A piece at random* (`hall.html#surprise`) plays one recording from anywhere in the concert.
 - **Shareable and keepable moments**: `hall.html#<id>` opens a recording, `#<id>&t=<seconds>` a moment within it, `#programme-<id>` an evening. *Link to this moment* copies the address; *Keep this moment* saves it to a private list at the top of the programme, in your browser.
 - **Views of the music**: the engraved score lighting up bar by bar where an aligned score exists, a note-roll by voice, the orchestra on its stage, the form as an arc diagram, and the live sound (spectrogram, keyboard, pitch wheel). Beneath every view, *This section* names the passage you are in and what comes next. F enlarges any view.
-- **Listening notes**: 3,220 timed notes, written from the score and from documents (letters, premières, recording sessions), each with its *Evidence*, and 1,172 joins between sections, marked ◆ on the timeline. Long works carry notes all the way through, at most one per 40 seconds.
+- **Listening notes**: 3,341 timed notes, written from the score and from documents (letters, premières, recording sessions), each with its *Evidence*, and 1,173 joins between sections, marked ◆ on the timeline. Long works carry notes all the way through, at most one per 40 seconds.
 - **Recording**: a provenance dossier for every recording (documented / inferred / disputed, alternatives, sources, how to cite).
 
 ## Composers and works
 
 - **80 composers** in seven chapters, from Strozzi, Couperin and Bach to Saariaho and Adès. The most recent additions are Barbara Strozzi, Élisabeth Jacquet de La Guerre, Smetana, Borodin, Nielsen, Villa-Lobos, Bernstein, Xenakis and Glass. Each life is built from documented events and the composer’s own words; most quote letters, diaries or memoirs.
 - Each page: the life with margin notes, how the music works (harmony, line, rhythm, orchestration, form), a selection of works, playable engraved score examples, sister arts (public-domain paintings, prints and poems with new translations), recommended recordings and influences.
-- **194 work pages** (`works/<composer>-<work>.html`) gather every recording of a piece, with its notes and joins and a button to play from the beginning. **Every work** (`works/index.html`) lists them by chapter and composer and filters by orchestra, keyboard, voices or chamber music.
-- **Where to hear it**: for 37 composers, selected recordings on official channels (label pages, the artist’s or label’s own YouTube and Spotify uploads, verified through oEmbed). For composers whose recordings are still under copyright, such as Messiaen, Britten, Saariaho, Xenakis or Glass, these are the only recordings the site links to; for the rest they add performances the public domain cannot supply.
+- **205 work pages** (`works/<composer>-<work>.html`) gather every recording of a piece, with its notes and joins and a button to play from the beginning. **Every work** (`works/index.html`) lists them by chapter and composer and filters by orchestra, keyboard, voices or chamber music.
+- **Where to hear it**: for 37 composers, selected recordings on official channels (label pages, the artist’s or label’s own YouTube and Spotify uploads, verified through oEmbed). For composers with no recording published before 1963 that the Hall can stream, such as Ligeti, Reich, Saariaho, Xenakis or Glass, these are the only recordings the site links to; for the rest they add performances the public domain cannot supply.
 
 ## The Web of Influence
 

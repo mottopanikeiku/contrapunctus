@@ -14,7 +14,7 @@ export default {
   intro: 'The <i>Lacrimosa</i> is the eighth movement of the Requiem in D minor, K. 626; two bars for the violins open it before the choir enters with a rising line. Bruno Walter conducts the Vienna choir and orchestra in a live recording made in Salzburg in 1956.',
   sections: [
     { t: 0, label: 'A · Violin figures, rising choral line', m: 'A', mNote: 'Short violin phrases accompany the choir’s rising line' },
-    { t: 92, label: 'B · Huic ergo, sung softly', m: 'B', mNote: 'Repeated choral notes over a wandering bass' },
+    { t: 92, label: 'B · Huic ergo, sung softly', m: 'B', mNote: 'Repeated choral notes over a moving bass' },
     { t: 136, label: 'A′ · Opening melody, “dona eis requiem”', m: 'A′', mNote: 'The opening melody returns with the words “dona eis requiem”.' },
     { t: 180, label: 'Coda · Amen in D major', m: 'Coda', mNote: 'Two held chords end the movement.' },
   ],

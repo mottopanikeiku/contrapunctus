@@ -1,0 +1,66 @@
+// Score: Carl Nielsen Edition, series II, vol. 11, Chamber Music 2 (Edition Wilhelm Hansen, Copenhagen, 2003), Quintet, Op. 43; bar numbers are those printed there: https://www.kb.dk/dcm/assets/cnu/pdf/CNU_II_11_chamber_music_2.pdf
+const SCORE = 'Carl Nielsen Edition, series II, vol. 11, Chamber Music 2 (Edition Wilhelm Hansen, Copenhagen, 2003), Quintet, Op. 43, third movement, with the bar numbers printed there: https://www.kb.dk/dcm/assets/cnu/pdf/CNU_II_11_chamber_music_2.pdf';
+const PREFACE = 'Carl Nielsen Edition, series II, vol. 11 (2003), preface to the Quintet: https://www.kb.dk/dcm/assets/cnu/pdf/CNU_II_11_chamber_music_2.pdf';
+const ITEM = 'Internet Archive item db-5200-3-nielsen-wind-quintet-iii (description and label scans of HMV DB 5200 and DB 5203), https://archive.org/details/db-5200-3-nielsen-wind-quintet-iii';
+const KELLY = 'The Gramophone Company Discography (after Alan Kelly), matrices 2CS 291–297 and 318, https://www.gramophonecompanydiscography.com/';
+
+export default {
+  id: 'nielsen-wind-quintet-variations',
+  composer: 'nielsen',
+  order: 2,
+  work: 'Wind Quintet, Op. 43',
+  movement: 'III. Præludium — Tema med variationer',
+  year: '1922',
+  key: 'A major',
+  forces: 'Flute, oboe (cor anglais), clarinet, horn and bassoon',
+  performers: 'Wind Quintet of the Royal Orchestra, Copenhagen (Det Kgl. Kapels Blæserkvintet): Holger Gilbert-Jespersen, flute; Svend Christian Felumb, oboe and cor anglais; Aage Oxenvad, clarinet; Hans Sørensen, horn; Knud Lassen, bassoon',
+  recorded: '24 January 1936, Copenhagen',
+  source: {
+    archive: { item: 'db-5200-3-nielsen-wind-quintet-iii', file: 'DB5200-3 Nielsen Wind Quintet (iii).mp3' },
+    rights: {
+      basis: 'eu-published-before-1963',
+      published: 1937,
+      evidence: 'The Musical Quarterly, vol. 23 no. 2, April 1937, “Quarterly Record-List”, Nielsen entries, lists Quintet, Op. 43, and Taagen letter as Danish Gramophone DB 5200–3: https://archive.org/details/sim_musical-quarterly_1937-04_23_2 . The four 12-inch discs DB5200–DB5203 are reviewed at $2.50 each in The New Records (H. Royer Smith Co., Philadelphia), vol. 5 no. 6, August 1937: https://archive.org/details/TNR05 . Matrices and recording dates: The Gramophone Company Discography (after Alan Kelly), https://www.gramophonecompanydiscography.com/ . Territorial EU basis only; US status not established.',
+    },
+  },
+  intro: 'The last movement of Nielsen’s Wind Quintet is a Prelude for cor anglais and flute followed by a theme and eleven variations on his hymn tune <i>Min Jesus, lad mit Hjerte faa</i>. Four of these five players had given the first public performance in 1922; this recording was made in Copenhagen in January 1936.',
+  sections: [
+    { t: 0, label: 'Intro · Prelude, cor anglais and flute', m: 'Intro' },
+    { t: 154, label: 'Theme · Hymn tune in A major, five parts', m: 'Theme', mNote: 'A sixteen-bar chorale with the flute on top.' },
+    { t: 202, label: 'Var 1 · Horn and bassoon', m: 'Var 1' },
+    { t: 246, label: 'Var 2 · Flute runs, short staccato notes', m: 'Var 2' },
+    { t: 277, label: 'Var 3 · Oboe melody, Meno mosso', m: 'Var 3' },
+    { t: 324, label: 'Var 4 · Più vivo, all five together', m: 'Var 4' },
+    { t: 350, label: 'Var 5 · Clarinet and bassoon', m: 'Var 5' },
+    { t: 386, label: 'Var 6 · Andantino con moto', m: 'Var 6' },
+    { t: 440, label: 'Var 7 · Bassoon alone', m: 'Var 7' },
+    { t: 503, label: 'Var 8 · Poco meno, low pedal notes', m: 'Var 8' },
+    { t: 557, label: 'Var 9 · Horn alone', m: 'Var 9' },
+    { t: 601, label: 'Var 10 · Allegretto in 6/8', m: 'Var 10' },
+    { t: 660, label: 'Var 11 · Tempo di marcia', m: 'Var 11' },
+    { t: 721, label: 'Coda · Andantino festivo, theme in A major', m: 'Coda', mNote: 'The hymn tune returns in chords, pp rising to ff.' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'Prelude, Adagio', text: 'The Prelude is marked Adagio. Cor anglais, horn and bassoon sound a fortissimo chord marked pesante, the clarinet joins in the third bar and the flute enters in the fourth. The oboist plays cor anglais from here to the end of the theme at bar 42.', basis: 'score-proportion', precision: 'passage', evidence: `${SCORE}, pp. 129–132: bars 1–4, the staff heading “Corno inglese (Oboe)”, and “muta in ob.” at the end of the theme.` },
+    { t: 30, kind: 'music', title: 'Flute alone', text: 'The flute plays alone in long runs of triplets, marked accel. and then rall. Horn and bassoon return at pianissimo in bar 8, clarinet and bassoon play more pianissimo triplets in bar 9, and bar 10 ends on fermatas.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, p. 129, bars 4–10.` },
+    { t: 78, kind: 'music', title: 'Poco agitato, bar 11', text: 'Bar 11 is marked poco agitato. The cor anglais plays a melody in triplets at fortissimo while clarinet, horn and bassoon repeat accented chords, also in triplets. The flute rests until bar 16.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, p. 130, bars 11–16.` },
+    { t: 100, kind: 'life', title: 'Felumb and the cor anglais', text: 'According to Torben Meyer, Nielsen heard Svend Christian Felumb practising a cor anglais solo from Berlioz’s <i>Symphonie fantastique</i> behind the scenes at a concert. That night he telephoned Felumb to ask whether a player could change instruments within a movement, and is said to have composed this Prelude at once.', basis: 'documented', precision: 'passage', evidence: `${PREFACE}, p. xxxvii, retelling Torben Meyer and Frede Schandorf Petersen, <i>Carl Nielsen. Kunstneren og Mennesket</i> (1947–48), vol. 2, pp. 214–215.` },
+    { t: 154, kind: 'form', title: 'Theme, the hymn tune', text: 'After a pause marked lunga the theme begins in A major, Un poco andantino, in 3/4. It is the tune of Nielsen’s hymn <i>Min Jesus, lad mit Hjerte faa</i>, set in five parts with the flute on top at p. It runs for sixteen bars, 27 to 42, and ends on a fermata.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 131–132: “lunga” at bar 26, and bars 27–42. The hymn tune as the theme of the variations: Catalogue of Carl Nielsen’s Works, CNW 70 and CNW 184, https://www.kb.dk/dcm/cnw/document.xq?n=70 and https://www.kb.dk/dcm/cnw/document.xq?n=184` },
+    { t: 202, kind: 'music', title: 'Variation 1, horn and bassoon', text: 'In the first variation, bars 43 to 58, flute, oboe and clarinet rest. Horn and bassoon play a duet at forte, and the variation ends on a fermata for all five.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, p. 133, bars 43–58.` },
+    { t: 246, kind: 'music', title: 'Variation 2, Un poco di più', text: 'The flute plays runs of sixteenth notes above short staccato notes in clarinet and horn. In bar 68 flute, oboe, clarinet and bassoon repeat sixteenth notes together, marked fz and falling to p.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 134–135, bars 59–74.` },
+    { t: 277, kind: 'music', title: 'Variation 3, Meno mosso', text: 'The oboe has the melody at mp, marked espressivo, over a low horn at pp and bassoon at p. The clarinet and flute join later, and the variation ends at bar 90 on a ppp chord with fermatas, marked rall.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 135–136, bars 75–90.` },
+    { t: 324, kind: 'music', title: 'Variation 4, Più vivo', text: 'All five instruments begin together at fortissimo with repeated staccato notes, and triplets appear from bar 93. The variation ends at bar 106 with short accented notes in clarinet, horn and bassoon marked ffz, and a fermata on the last rest.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 136–137, bars 91–106.` },
+    { t: 350, kind: 'music', title: 'Variation 5, clarinet and bassoon', text: 'Tempo giusto. Flute, oboe and horn rest while clarinet and bassoon play a duet. The bassoon plays short bursts of repeated sixteenth notes and the clarinet plays runs, with a long trill in bar 118.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 138–140, bars 107–122.` },
+    { t: 386, kind: 'music', title: 'Variation 6, Andantino con moto', text: 'Flute, clarinet and bassoon start together at p, and oboe and horn join a few bars later. The variation ends at bar 138 with a diminuendo and fermatas, marked rall.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, p. 140, bars 123–138.` },
+    { t: 440, kind: 'music', title: 'Variation 7, bassoon alone', text: 'The bassoon plays alone for sixteen bars, 139 to 154, in flowing triplets that begin at mf. Bar 154 is a fermata for all five, marked lunga.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 141–142, bars 139–154.` },
+    { t: 470, kind: 'world', title: 'Recording, January 1936', text: 'The Wind Quintet of the Royal Orchestra recorded the work for HMV in Copenhagen in January 1936; the Menuet side was re-made in May. The seven sides, with the <i>Taagen letter</i> from Nielsen’s music for <i>Moderen</i> on an eighth, were issued as the four records DB 5200–5203.', basis: 'documented', precision: 'passage', evidence: `Labels of HMV DB 5200 to DB 5203 and the transferor’s description: ${ITEM}. Matrices and recording dates: ${KELLY}.` },
+    { t: 503, kind: 'music', title: 'Variation 8, Poco meno', text: 'The oboe plays the melody at mp and the clarinet answers with marcato figures, while horn and bassoon hold low notes tied across the bars. The flute joins later.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 142–143, bars 155–170.` },
+    { t: 530, kind: 'world', title: 'The set in America, 1937', text: 'In August 1937 the Philadelphia dealer H. Royer Smith listed the four records in its bulletin <i>The New Records</i> at $2.50 each. The reviewer found the quintet “at once old-fashioned and modern”.', basis: 'documented', precision: 'passage', evidence: 'The New Records, vol. 5 no. 6 (H. Royer Smith Company, Philadelphia, August 1937), entry for Nielsen’s Quintet for Wind Instruments, Op. 43, DB5200 to DB5203: https://archive.org/details/TNR05' },
+    { t: 557, kind: 'music', title: 'Variation 9, horn alone', text: 'The horn plays alone from bar 171, Tempo giusto. Its phrases fade to ppp before the pauses marked lunga in bars 174 and 178 and resume at ff. The last phrase ends at pppp in bar 186 on a fermata marked molto lunga.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 143–144, bars 171–186.` },
+    { t: 580, kind: 'life', title: 'Nielsen on the horn variation', text: 'Nielsen told the horn player Hans Sørensen that he imagined him standing on a hill and blowing so that it could be heard in every nook and cranny. Under the horn part in the draft he wrote that without great naive devotion to the mood of nature it would not work.', basis: 'documented', precision: 'passage', evidence: `${PREFACE}, pp. xxxvi–xxxvii, quoting Nielsen’s remark to Sørensen as given by Torben Meyer, and the note under the horn part in the draft (our translations of the Danish).` },
+    { t: 601, kind: 'music', title: 'Variation 10, Allegretto', text: 'The metre is 6/8 and the flute begins alone at mp. The variation lasts thirty-two bars, 187 to 218, twice as long as those before it, and ends with a crescendo to ff, a diminuendo and a rall. to a p chord on a fermata.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 144–145, bars 187–218.` },
+    { t: 660, kind: 'music', title: 'Variation 11, Tempo di marcia', text: 'Tempo di marcia, in 4/4. Clarinet, oboe and bassoon play trills marked fz, with short figures in horn and flute. The tempo quickens at bar 235 (più mosso), and a crescendo, rall. and diminuendo fill bars 243 to 247.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, pp. 146–148, bars 219–247.` },
+    { t: 721, kind: 'form', title: 'Andantino festivo, bar 248', text: 'The hymn tune returns in chords for all five instruments, marked pp and poco a poco cresc. The last chord, in bar 265, is fortissimo under a fermata. In a programme note Nielsen wrote that the variations end with the theme “in all its simplicity”.', basis: 'audio-feature', precision: 'passage', evidence: `${SCORE}, p. 149, bars 248–265. Programme note to Emil Holm (undated), quoted in ${PREFACE}, p. xxxvii (our translation of “i al sin Enkelhed”).` },
+    { t: 750, kind: 'life', title: 'Nielsen’s funeral, 9 October 1931', text: 'The first hymn sung at Nielsen’s funeral on 9 October 1931 was <i>Min Jesus, lad mit Hjerte faa</i>. The wind quintet of the Royal Orchestra played this Andantino festivo at the grave in Vestre Kirkegård as the coffin was lowered.', basis: 'documented', precision: 'passage', evidence: `${PREFACE}, p. xxxix. Burial at Vestre Kirkegård: Dansk Biografisk Leksikon, “Carl Nielsen”, https://biografiskleksikon.lex.dk/Carl_Nielsen` },
+  ],
+};

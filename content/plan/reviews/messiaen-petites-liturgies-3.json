@@ -1,0 +1,54 @@
+{
+  "id": "messiaen-petites-liturgies-3",
+  "verdict": "fail",
+  "reviewer": "Rev2C",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata and file list (3RogerDesormiereMessiaenPathePDT1903, tracks 1–3), cached MP3 MD5, envelopes, band-limited levels, spectrogram of the last 26 s, tuning offsets, pitch-class profiles of all three tracks against a 1964 recording of the whole work (Marcel Couraud, Archive item stu-50200…, streamed in memory, not stored), chroma dynamic-time-warping alignment of track 3 to Couraud’s liturgy III. EXT: label scan of PDT 190, Mercure de France 1 June 1949 (OCR, p. 332 and footnote 13), IRCAM work record, Los Angeles Philharmonic page (Schiavo’s listening guide), Wikipedia (English and French), Ondes Martenot Discography (LAOM) entry for the 1998 Dante CD. Not an aural review.",
+  "defects": [
+    {
+      "basis": "MEAS",
+      "code": "INCOMPLETE_MOVEMENT",
+      "finding": "The transferred track 3 (791.8 s) ends on the final chord of the reprise’s climax, with a hard cut-off, and omits what follows in the movement. (a) The track rises to its loudest point in its last 10 s (12:59–13:08) and stops at 13:09.3, a sustained loud chord cut within a second, then about 2.5 s of silence to the end of the file. (b) In the 1964 Couraud recording, liturgy III is the whole of side 2 (19:56). Chroma alignment of track 3 to that side is smooth and monotone (Pathé 8:00 to Couraud 10:20, 13:00 to 16:54) and ends at Couraud 17:04, where the climax chord is cut off at 17:05; Couraud then has about 4 s of silence and a quiet coda of about 2 min 45 s (17:09 to 19:53). Schiavo’s guide describes “a coda passage that brings the work to a tranquil close”. (c) The three Pathé tracks total 27 min 40 s against about 35 minutes given for the work (IRCAM, French Wikipedia; 36 in English Wikipedia, 37 in the LA Phil page); tracks 1 and 2 run at about 0.84 of Couraud’s lengths for liturgies I and II, which puts the complete third liturgy at about 15 minutes, 2 minutes beyond track 3. (d) Mercure de France, 1 June 1949, footnote 13, gives “Pathé PDT 190 à 194” (five discs); the Archive description gives PDT 190–193 (four) and lists only six matrices for at least eight sides. The coda is probably on a disc that was not transferred. Not established: whether the 1945 performance had the coda at all, since no source says what the 1944 original ended with.",
+      "remedy": "Either a transfer of the missing disc spliced in at 13:09, or a source stating that the 1944 version ended at the climax. Without one of these the track is not a complete movement and should not go live. If the integration owner accepts it, the intro and the dossier already say that the transfer stops at the climax, and every other defect below is fixed."
+    }
+  ],
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "STRUCTURE_FALSE",
+      "finding": "Section B and the 192 s cue put the slow central episode at 3:12–9:57 and said it lasted “nearly seven minutes”. The 192 s point is one of several quiet interludes inside the fast opening part (3:20–3:50, 4:20–4:35, 5:20–5:45, 7:00–7:15). The band-limited level (250–6000 Hz) falls only at 8:05 and the full sound returns at 9:54; alignment with Couraud’s slow episode (10:28–13:08) gives 8:05–9:54 in this track, about 1 min 50 s.",
+      "fix": "Section B and its cue moved to 485 s and reworded (“about two minutes”); section A′ moved from 597 to 594 s; the cue re-ordered; evidence rewritten."
+    },
+    {
+      "basis": "EXT",
+      "code": "SESSION_DATE_CONFLICT",
+      "finding": "The listen file, intro and a cue gave 11 May 1945 as fact (from the uploader’s description). The Ondes Martenot Discography gives 21 April 1945, the day of the première, for the three liturgies of the 1998 Dante CD reissue, and the dossier said the discography “supports the year only”. The PDT 190 label is headed “Édition de la Radiodiffusion Française”, so the recording was made by French radio; whether it was a studio session or the première is not established.",
+      "fix": "listen file: recorded “1945, Paris”, intro “the same year”, cue retitled “Recorded in 1945” with both dates in the evidence; dossier session.date now disputed with two alternatives and a note."
+    },
+    {
+      "basis": "EXT",
+      "code": "PERFORMERS_SOURCE",
+      "finding": "The label scan names only the Orchestre de la Société des Concerts du Conservatoire, a “Chœur de Femmes” and Désormière. Martenot, Loriod and the Gouverné chorale come from the uploader’s description and the première line-up.",
+      "fix": "Dossier performers note and carrier note say so; LAOM (CD credits to Martenot and Loriod) added as a second source."
+    },
+    {
+      "basis": "EXT",
+      "code": "UNSOURCED_PUPIL_YEAR",
+      "finding": "The 520 s cue said Loriod “had been his pupil since 1941”, with the site’s Messiaen chapter as the only evidence. English Wikipedia says only that she became one of his “most avid pupils”.",
+      "fix": "Cue now says “one of his pupils”; Wikipedia added to the evidence."
+    }
+  ],
+  "checks": {
+    "source": "Tracks 1–3 are VBR MP3 of 527.51, 341.22 and 791.82 s; the cached track-3 MP3 (md5 3b282c9f…) matches the Archive manifest. Metadata: collections satyr78rpm, 78rpm, audio_music (not the georgeblood or great78 collections); date 1945-05-11 (the uploader’s); no licence field and no litigation, restriction or dark marker.",
+    "durationAndPitch": "Pitch against A = 440: track 1 +20 cents, track 2 +35, track 3 +33 (Couraud 1964: +21 to +22). The 15-cent spread between tracks suggests slightly different effective speeds from side to side; nothing is near a semitone. No key is written. Track 3 begins with under a second of groove noise.",
+    "identity": "Pitch-class profiles (tuning-corrected) of Pathé tracks 1, 2, 3 against Couraud’s I, II, III correlate at 0.78, 0.97 and 0.93, and no track correlates better with a different liturgy (best alternatives 0.56–0.76), so the three tracks are liturgies I, II and III in order. Label of PDT 190: Pathé, matrix SOFX 1008, “TROIS PETITES LITURGIES DE LA PRÉSENCE DIVINE, Olivier MESSIAEN, Antienne de la Conversation Intérieure (Dieu présent en nom…) (1re partie), ORCHESTRE DE LA SOCIÉTÉ DES CONCERTS DU CONSERVATOIRE & Chœur de Femmes, Dir. Roger DÉSORMIÈRE”, headed “Édition de la Radiodiffusion Française”, BIEM box. The description’s six matrices (SOFX 1008-1, 1009-1, 1006-1, 1007-1, 1003-2, 1004-2) cover three discs; the last of the four listed discs has none.",
+    "notes": "Cue claims checked: first performance, line-up and venue (IRCAM; Wikipedia: Honegger, Poulenc, Braque, Boulez present; “bataille des liturgies”; Rostand’s “acclaimed and crucified at the same time”); form A–B–A with fast outer sections and slow central episode (Schiavo); Florenne in Mercure de France, 1 June 1949, p. 332: “avec la psalmodie finale le musicien atteint à la possession divine dans l’extase la plus pure”; marriage in 1961 (LA Phil). With the fixes, section times and the 485 s cue agree with the audio. Eight notes for 792 s (limit 20). Voice rules read by hand and by the validator.",
+    "validate": "node tools/validate.mjs content/listen/messiaen-petites-liturgies-3.mjs content/dossiers/messiaen-petites-liturgies-3.json printed ok for both files after the fixes; the verdict rests on the blocking defect, not on the validator."
+  },
+  "rights": {
+    "decision": "Do not publish until the completeness question is settled. On rights alone the dated basis stands.",
+    "reasoning": "Mercure de France, 1 June 1949 (vol. 306, no. 1030), p. 332, reviews the Pathé discs, so the set was on sale by June 1949; a French phonogram published in 1949 had run its 50-year term by the end of 1999. Composition: Messiaen died in 1992, in copyright in the EU until the end of 2062; the 1952 and 1990 revisions are not used. The Archive item carries no licence and no litigation or restriction marker. Unresolved: the label’s “Édition de la Radiodiffusion Française” and LAOM’s date of 21 April 1945 leave open that the master is the radio recording of the première; it was nevertheless issued as a Pathé record by 1949, so first publication is not in doubt, but the live-capture rule would need a decision if it were.",
+    "limits": "No session ledger or Pathé catalogue entry with durations was found."
+  },
+  "observations": []
+}

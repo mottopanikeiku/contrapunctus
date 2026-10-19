@@ -33,7 +33,7 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1893,
-   "title": "The fish sermon without words",
+   "title": "Instrumental version of the fish sermon",
    "works": {
     "from": "Des Knaben Wunderhorn: Des Antonius von Padua Fischpredigt",
     "to": "Des Antonius von Padua Fischpredigt; Symphony No. 2, movement III"
@@ -311,7 +311,7 @@
    "to": "mahler",
    "kind": "set-text",
    "year": 1904,
-   "title": "Rückert’s private grief: five song settings",
+   "title": "Five settings of Rückert’s poems of grief",
    "works": {
     "from": "Kindertotenlieder, poems written after the deaths of two children",
     "to": "Kindertotenlieder, 1901–1904"
@@ -437,7 +437,7 @@
    "to": "rachmaninoff",
    "kind": "studied-with",
    "year": 1885,
-   "title": "Zverev’s household as conservatory",
+   "title": "Zverev’s household and teaching",
    "works": {
     "from": "Nikolai Zverev’s residential piano teaching",
     "to": "Rachmaninoff’s Moscow training, from 1885"
@@ -584,7 +584,7 @@
    "to": "rachmaninoff",
    "kind": "quoted",
    "year": 1909,
-   "title": "Dies irae and the crossing of dark water",
+   "title": "Dies irae and the water crossing",
    "thread": "dies-irae",
    "works": {
     "from": "Dies irae, Requiem sequence",
@@ -1043,7 +1043,7 @@
     "from": "Couperin and the French keyboard-suite tradition",
     "to": "Le Tombeau de Couperin, piano suite, 1914–1917"
    },
-   "claim": "<p><i>Le Tombeau de Couperin</i> salutes the French keyboard tradition of [[couperin]] while mourning men killed in the First World War. Each movement has its own memorial dedication. The Toccata remembers Joseph de Marliave; his widow, Marguerite Long, gave the complete suite’s première in 1919.</p>",
+   "claim": "<p><i>Le Tombeau de Couperin</i> salutes the French keyboard tradition of [[couperin]] while mourning men killed in the First World War. Each movement has its own memorial dedication. The Toccata is dedicated to the memory of Joseph de Marliave; his widow, Marguerite Long, gave the complete suite’s première in 1919.</p>",
    "status": "documented",
    "sources": [
     {

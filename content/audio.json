@@ -244,12 +244,26 @@
   "artist": "Mary Garden;  Debussy; Debussy",
   "duration": 132
  },
+ "archive:78_le-bestiaire_pierre-bernac-francis-poulenc-apollinaire-poulenc_gbia0525306a/LE BESTIAIRE - PIERRE BERNAC & FRANCIS POULENC.mp3": {
+  "stream": "https://archive.org/download/78_le-bestiaire_pierre-bernac-francis-poulenc-apollinaire-poulenc_gbia0525306a/LE%20BESTIAIRE%20-%20PIERRE%20BERNAC%20%26%20FRANCIS%20POULENC.mp3",
+  "page": "https://archive.org/details/78_le-bestiaire_pierre-bernac-francis-poulenc-apollinaire-poulenc_gbia0525306a",
+  "license": "",
+  "artist": "PIERRE BERNAC & FRANCIS POULENC; Apollinaire; Poulenc",
+  "duration": 284
+ },
  "archive:78_meslongscheveux_010_14/Meslongscheveux - Mary Garden - Claude Debussy - Claude Debussy.mp3": {
   "stream": "https://archive.org/download/78_meslongscheveux_010_14/Meslongscheveux%20-%20Mary%20Garden%20-%20Claude%20Debussy%20-%20Claude%20Debussy.mp3",
   "page": "https://archive.org/details/78_meslongscheveux_010_14",
   "license": "",
   "artist": "Mary Garden; Claude Debussy; Claude Debussy",
   "duration": 103
+ },
+ "archive:78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b/My Souls Been Anchored In The Lord - Florence B. Price-restored.mp3": {
+  "stream": "https://archive.org/download/78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b/My%20Souls%20Been%20Anchored%20In%20The%20Lord%20-%20Florence%20B.%20Price-restored.mp3",
+  "page": "https://archive.org/details/78_my-souls-been-anchored-in-the-lord_florence-b.-price-marian-anderson-kosti-vehanen_gbia0000781b",
+  "license": "",
+  "artist": "Florence B. Price; Marian Anderson; Kosti Vehanen",
+  "duration": 132
  },
  "archive:78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a/Pagliacci - Vesti la giubba (On With the P - Enrico Caruso.mp3": {
   "stream": "https://archive.org/download/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a/Pagliacci%20-%20Vesti%20la%20giubba%20(On%20With%20the%20P%20-%20Enrico%20Caruso.mp3",
@@ -279,12 +293,33 @@
   "artist": "Sergei Rachmaninoff",
   "duration": 209.64
  },
+ "archive:78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy/AK_1153_AR_8463-2.mp3": {
+  "stream": "https://archive.org/download/78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy/AK_1153_AR_8463-2.mp3",
+  "page": "https://archive.org/details/78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy",
+  "license": "",
+  "artist": "Pears, Peter; Brain, D; Boyd Neel String Orchestra",
+  "duration": 260
+ },
+ "archive:78_serenade-for-tenor-horn-strings-op31-s4-dirge-anon-15th-century_pears-peter/AK_1153_AR_8464-4.mp3": {
+  "stream": "https://archive.org/download/78_serenade-for-tenor-horn-strings-op31-s4-dirge-anon-15th-century_pears-peter/AK_1153_AR_8464-4.mp3",
+  "page": "https://archive.org/details/78_serenade-for-tenor-horn-strings-op31-s4-dirge-anon-15th-century_pears-peter",
+  "license": "",
+  "artist": "Pears, Peter; Brain, D; Boyd Neel String Orchestra",
+  "duration": 253
+ },
  "archive:78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a/Song of the Volga Boatmen - Feodor Chaliapin.mp3": {
   "stream": "https://archive.org/download/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a/Song%20of%20the%20Volga%20Boatmen%20-%20Feodor%20Chaliapin.mp3",
   "page": "https://archive.org/details/78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a",
   "license": "",
   "artist": "Feodor Chaliapin; Chaliapin and Koenemeann",
   "duration": 201.98
+ },
+ "archive:78_tel-jour-telle-nuit-no-3_pierre-bernac-francis-poulenc-poulenc_gbia0553972a/TEL JOUR TELLE NUIT No. 3 - PIERRE BERNAC & FRANCIS POULENC.mp3": {
+  "stream": "https://archive.org/download/78_tel-jour-telle-nuit-no-3_pierre-bernac-francis-poulenc-poulenc_gbia0553972a/TEL%20JOUR%20TELLE%20NUIT%20No.%203%20-%20PIERRE%20BERNAC%20%26%20FRANCIS%20POULENC.mp3",
+  "page": "https://archive.org/details/78_tel-jour-telle-nuit-no-3_pierre-bernac-francis-poulenc-poulenc_gbia0553972a",
+  "license": "",
+  "artist": "PIERRE BERNAC & FRANCIS POULENC; Poulenc",
+  "duration": 286
  },
  "archive:78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b/The Prophet - Feodor Chaliapin - Poushkin.mp3": {
   "stream": "https://archive.org/download/78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b/The%20Prophet%20-%20Feodor%20Chaliapin%20-%20Poushkin.mp3",
@@ -377,12 +412,61 @@
   "artist": "",
   "duration": 543.46
  },
+ "archive:BERGViolinConcerto-NEWTRANSFER/01.I.AndanteAllegretto.mp3": {
+  "stream": "https://archive.org/download/BERGViolinConcerto-NEWTRANSFER/01.I.AndanteAllegretto.mp3",
+  "page": "https://archive.org/details/BERGViolinConcerto-NEWTRANSFER",
+  "license": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "artist": "Louis Krasner, violin",
+  "duration": 631.04
+ },
+ "archive:BERGViolinConcerto-NEWTRANSFER/02.Ii.AllegroAdagioCoda.mp3": {
+  "stream": "https://archive.org/download/BERGViolinConcerto-NEWTRANSFER/02.Ii.AllegroAdagioCoda.mp3",
+  "page": "https://archive.org/details/BERGViolinConcerto-NEWTRANSFER",
+  "license": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "artist": "Louis Krasner, violin",
+  "duration": 739.34
+ },
+ "archive:bp-2-berg-suite-lyrique-iv/BP2 Berg Suite Lyrique (iii).mp3": {
+  "stream": "https://archive.org/download/bp-2-berg-suite-lyrique-iv/BP2%20Berg%20Suite%20Lyrique%20(iii).mp3",
+  "page": "https://archive.org/details/bp-2-berg-suite-lyrique-iv",
+  "license": "",
+  "artist": "Brunswick Record Corp.",
+  "duration": 222.09
+ },
+ "archive:c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez/C 35 A 67•f1.mp3": {
+  "stream": "https://archive.org/download/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez/C%2035%20A%2067%E2%80%A2f1.mp3",
+  "page": "https://archive.org/details/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez",
+  "license": "",
+  "artist": "",
+  "duration": 850.23
+ },
+ "archive:c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez/C 35 A 67•f2.mp3": {
+  "stream": "https://archive.org/download/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez/C%2035%20A%2067%E2%80%A2f2.mp3",
+  "page": "https://archive.org/details/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez",
+  "license": "",
+  "artist": "",
+  "duration": 1020.06
+ },
  "archive:clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945/Curzon Jorda - Falla Nights Decca X 10020-2 1945.mp3": {
   "stream": "https://archive.org/download/clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945/Curzon%20Jorda%20-%20Falla%20Nights%20Decca%20X%2010020-2%201945.mp3",
   "page": "https://archive.org/details/clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945",
   "license": "",
   "artist": "Clifford Curzon, piano; Enrique Jorda, cond.; National S.O.",
   "duration": 1486.11
+ },
+ "archive:db-5200-3-nielsen-wind-quintet-iii/DB5200-3 Nielsen Wind Quintet (ii).mp3": {
+  "stream": "https://archive.org/download/db-5200-3-nielsen-wind-quintet-iii/DB5200-3%20Nielsen%20Wind%20Quintet%20(ii).mp3",
+  "page": "https://archive.org/details/db-5200-3-nielsen-wind-quintet-iii",
+  "license": "",
+  "artist": "The Gramophone Company, Ltd.",
+  "duration": 267.76
+ },
+ "archive:db-5200-3-nielsen-wind-quintet-iii/DB5200-3 Nielsen Wind Quintet (iii).mp3": {
+  "stream": "https://archive.org/download/db-5200-3-nielsen-wind-quintet-iii/DB5200-3%20Nielsen%20Wind%20Quintet%20(iii).mp3",
+  "page": "https://archive.org/details/db-5200-3-nielsen-wind-quintet-iii",
+  "license": "",
+  "artist": "The Gramophone Company, Ltd.",
+  "duration": 802.25
  },
  "archive:dm-1235-poulenc-double-concerto-i/DM1235 Poulenc Double Concerto (ii).mp3": {
   "stream": "https://archive.org/download/dm-1235-poulenc-double-concerto-i/DM1235%20Poulenc%20Double%20Concerto%20(ii).mp3",
@@ -615,6 +699,13 @@
   "artist": "Виктор Мержанов",
   "duration": 706.63
  },
+ "archive:lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen/disc1/02.05. God Among Us.mp3": {
+  "stream": "https://archive.org/download/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen/disc1/02.05.%20God%20Among%20Us.mp3",
+  "page": "https://archive.org/details/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen",
+  "license": "",
+  "artist": "Ernest White; Olivier Messiaen",
+  "duration": 428
+ },
  "archive:lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.01. 1st Tableau: The Shrovetide Fair.mp3": {
   "stream": "https://archive.org/download/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.01.%201st%20Tableau%3A%20The%20Shrovetide%20Fair.mp3",
   "page": "https://archive.org/details/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro",
@@ -727,6 +818,13 @@
   "artist": "Sergei Prokofiev; Nicolai Malko; Philharmonia Orchestra",
   "duration": 825.75
  },
+ "archive:lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte/disc1/01.02. Symphony Opus 21 II.mp3": {
+  "stream": "https://archive.org/download/lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte/disc1/01.02.%20Symphony%20Opus%2021%20II.mp3",
+  "page": "https://archive.org/details/lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte",
+  "license": "",
+  "artist": "Anton Webern; René Leibowitz; Pro Arte Quartet; Paris Chamber Orchestra",
+  "duration": 166.44
+ },
  "archive:lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/disc1/01.03. Taras Bulba: The Profecy And Death Of Taras Bulba.mp3": {
   "stream": "https://archive.org/download/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/disc1/01.03.%20Taras%20Bulba%3A%20The%20Profecy%20And%20Death%20Of%20Taras%20Bulba.mp3",
   "page": "https://archive.org/details/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal",
@@ -782,6 +880,13 @@
   "license": "",
   "artist": "Clara Schumann; Ludwig van Beethoven; The Mannes Gimpel Silva Trio",
   "duration": 339.74
+ },
+ "archive:lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l/disc2/03.01. Jardin Du Sommeil D'Amour.mp3": {
+  "stream": "https://archive.org/download/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l/disc2/03.01.%20Jardin%20Du%20Sommeil%20D'Amour.mp3",
+  "page": "https://archive.org/details/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l",
+  "license": "",
+  "artist": "Olivier Messiaen; Yvonne Loriod; Jeanne Loriod; Maurice Le Roux",
+  "duration": 613.44
  },
  "archive:ml-4325-bernstein-sym-2-ii/ML4325 Bernstein Sym 2 (i).mp3": {
   "stream": "https://archive.org/download/ml-4325-bernstein-sym-2-ii/ML4325%20Bernstein%20Sym%202%20(i).mp3",

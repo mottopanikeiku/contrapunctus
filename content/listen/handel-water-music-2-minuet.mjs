@@ -20,7 +20,7 @@ export default {
     { t: 0, label: 'A · Eight-bar strain in D major', m: 'A', mNote: 'Repeated notes above a moving bass in D major' },
     { t: 36.2, label: 'B · Sixteen-bar strain', m: 'B', mNote: 'The brass rest for the first three bars.' },
     { t: 106, label: 'A′ · First strain returns', m: 'A′', mNote: 'The opening eight bars, now played once.' },
-    { t: 123.3, label: 'B′ · The final answer', m: 'B′', mNote: 'The sixteen-bar strain returns once to close the programme' },
+    { t: 123.3, label: 'B′', m: 'B′', mNote: 'The sixteen-bar strain returns once to close the programme' },
   ],
 
   cues: [
@@ -64,7 +64,7 @@ export default {
       id: 'into-louder-second-strain',
       title: 'From the first strain to the second',
       from: 'A′ · First strain returns',
-      to: 'B′ · The final answer',
+      to: 'B′',
       at: { t: 123.3 },
       span: [118, 134],
       how: '<p>The first strain ends with the upper parts holding D major over the moving bass. The second strain follows directly, without a repeat of the first. In its first three bars the trumpets and horns rest. The full scoring then returns, and the bass reaches D at the close.</p>',

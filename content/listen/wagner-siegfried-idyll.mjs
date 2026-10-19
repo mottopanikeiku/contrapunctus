@@ -98,7 +98,7 @@ export default {
       "t": 684,
       "kind": "world",
       "title": "Sale to Schott, 1878",
-      "text": "Under financial pressure, Wagner sold the <i>Idyll</i> to Schott. The full score was published in 1878. The work had first been played on a staircase.",
+      "text": "Under financial pressure, Wagner sold the <i>Idyll</i>, first played on a staircase, to Schott. The full score was published in 1878.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner on the sale under financial pressure: https://geraldlarner.com/work/wagner-siegfried-idyll. Schott’s first full-score edition is dated 1878 in the Sibley catalogue: https://hdl.handle.net/1802/20380."

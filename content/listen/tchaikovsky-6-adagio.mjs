@@ -19,7 +19,7 @@ export default {
   "performers": "Musopen Symphony",
   "recorded": "",
   "license": "Public domain",
-  "intro": "The first movement, Adagio — Allegro non troppo, of Tchaikovsky’s Symphony No. 6 in B minor, Op. 74, “Pathétique”, opens with a bassoon at the bottom of its range, and the violins later play one of Tchaikovsky’s great love songs. In this movement, a passage marked with six pianissimos is followed by an orchestral explosion.",
+  "intro": "The first movement, Adagio — Allegro non troppo, of Tchaikovsky’s Symphony No. 6 in B minor, Op. 74, “Pathétique”, opens with a bassoon at the bottom of its range, and the violins later play a long lyrical melody. In this movement, a passage marked with six pianissimos is followed by an orchestral explosion.",
   "sections": [
     { "t": 0, "label": "Intro · Adagio, bassoon and low strings", "m": "Intro", "mNote": "A four-note bassoon phrase rises above the double basses." },
     { "t": 98, "label": "A · Allegro non troppo, viola theme", "m": "A", "mNote": "The bassoon’s phrase returns as a quick, detached viola tune." },

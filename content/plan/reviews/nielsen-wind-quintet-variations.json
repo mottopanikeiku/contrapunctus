@@ -1,0 +1,69 @@
+{
+  "id": "nielsen-wind-quintet-variations",
+  "verdict": "pass",
+  "defects": [],
+  "reviewer": "Rev2A",
+  "date": "2026-10-19",
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "SCORE_BAR_CLAIM",
+      "finding": "Prelude, bars 8–9: the note said clarinet, horn and bassoon return at pianissimo in bar 8. On p. 129 only horn and bassoon play in bar 8; clarinet and bassoon play the pianissimo triplets in bar 9.",
+      "fix": "Text corrected."
+    },
+    {
+      "basis": "MEAS",
+      "code": "SCORE_BAR_CLAIM",
+      "finding": "Poco agitato: the flute rests bars 11–15 and enters in bar 16 (Tempo I), not after three bars.",
+      "fix": "Text now says the flute rests until bar 16; evidence bars 11–16."
+    },
+    {
+      "basis": "MEAS",
+      "code": "EVIDENCE_BAR",
+      "finding": "Theme note evidence put lunga at bar 25. The fermata bar is 26 (p. 131 last system: 23, 24, 25, 26; the theme starts with a pick-up labelled 27 on p. 132).",
+      "fix": "Evidence now bar 26."
+    },
+    {
+      "basis": "MEAS",
+      "code": "SCORE_BAR_CLAIM",
+      "finding": "Variation 4 was said to end on a fortissimo chord under a fermata. The last bar (106) has short accented notes marked ffz in clarinet, horn and bassoon; the fermata is on the final rest.",
+      "fix": "Text corrected."
+    },
+    {
+      "basis": "MEAS",
+      "code": "SCORE_BAR_CLAIM",
+      "finding": "Variation 9: the first lunga pause is in bar 174 (bars 171–175 on p. 143 system 2, fermata in the fourth), not 175. Bar 178 and the molto lunga at 186 are right.",
+      "fix": "Text now says bars 174 and 178."
+    },
+    {
+      "basis": "MEAS",
+      "code": "SCORE_BAR_CLAIM",
+      "finding": "Variation 11: più mosso stands after the double bar that follows bar 234, so the faster tempo is from bar 235.",
+      "fix": "Text now says bar 235."
+    },
+    {
+      "basis": "EXT",
+      "code": "QUOTATION_TRUNCATED",
+      "finding": "The Sørensen remark was given as a quotation ending at nook and cranny; the preface’s sentence continues and be delighted by it, and full quotation would pass 25 words.",
+      "fix": "Rewritten as indirect speech."
+    },
+    {
+      "basis": "EXT",
+      "code": "RECORDING_NOTE",
+      "finding": "The recording note said the work was recorded in January 1936; the Menuet side (take 4) is 5 May 1936.",
+      "fix": "Note now adds that the Menuet side was re-made in May; evidence cites labels DB 5200 to 5203."
+    }
+  ],
+  "checks": {
+    "source": "MEAS: MP3 (iii) MD5 ccc5f491… equals the manifest; 802.25 s; silence only from about 796 s. Pitch of the four sides −7 to −17 cents of A = 440 (Theme 154–200 s about −2): no speed problem, no transposition.",
+    "sideJoins": "MEAS: the four sides (matrices 294, 291, 292, 293; labels DB 5201 B, 5202 A, 5202 B and 5203 A viewed, parts 1–4 of the third movement) join with level dips and no silence at about 200.5, 439.5 and 660 s. These coincide with the end of the Theme and the starts of Var 1 (202 s), Var 7 (440 s) and Var 11 (660 s), as the Archive description of the side contents requires (Prelude and Theme; Var 1–6; Var 7–10; Var 11 and Coda). The dossier’s noise changes at 3:22, 7:19 and 11:00 agree. Other section starts fall on quiet dips at the printed fermatas (245, 276, 322, 384, 501, 555, 599 s).",
+    "identity": "EXT: labels read; Kelly API: 2CS 291–294 dated 24 Jan 1936, takes issued 291-1, 292-2, 293-2, 294-2; Archive description lists the same matrices and sides. Performer names and ensemble as on the labels and in Kelly.",
+    "rights": "EXT: Musical Quarterly April 1937 (DB 5200-3 listed) and The New Records August 1937 (four 12-inch discs at $2.50, at once old-fashioned and modern) both opened and read. Composition public domain (Nielsen d. 1931).",
+    "notes": "EXT: all 16 notes’ bar claims checked against score pp. 129–149 viewed as page images (Carl Nielsen Edition, series II vol. 11); only the items above were wrong. Preface verified: Felumb and cor anglais story with Meyer and Schandorf Petersen, vol. 2, pp. 214–215 (Copenhagen 1947–48); Sørensen remark and note under the horn part (Draft p. 16); Holm programme note ending with the theme in all its simplicity; funeral hymn and Andantino festivo played by the Royal Orchestra’s wind quintet, p. xxxix; first public performance 9 Oct 1922, with Hagemann as flautist. Timing: loudness step at about 77 s (poco agitato), flute-led stretch from about 30 s, theme at 154 s; 20 notes for 802.2 s (limit 21). Voice rules checked. Not an aural review."
+  },
+  "rights": {
+    "decision": "Publish on the EU basis stated.",
+    "iaFlags": "Not flagged: no noindex, dark or restriction; curation reads only checked for malware. Private collector’s upload (March 2022) without licence statement.",
+    "reasoning": "Dated period sources show publication before 1963 (by April 1937 at the latest). Studio recording. Composition public domain. US status not established."
+  }
+}

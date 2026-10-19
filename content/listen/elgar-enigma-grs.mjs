@@ -24,7 +24,7 @@ export default {
       "t": 0,
       "label": "Var 11 · Dan in the river",
       "m": "Var 11",
-      "mNote": "Falling strings, paddling bassoons and a bark"
+      "mNote": "Falling strings, bassoons and a bark"
     }
   ],
   "cues": [

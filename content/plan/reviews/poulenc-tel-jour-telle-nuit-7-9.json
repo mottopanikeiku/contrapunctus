@@ -1,0 +1,66 @@
+{
+  "id": "poulenc-tel-jour-telle-nuit-7-9",
+  "verdict": "pass",
+  "reviewer": "Rev2B",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata for the item and for the other three sides of the set, MD5 of the cached MP3 against the manifest, level traces at 0.25–0.5 s, chroma key trace, tuning estimate, the Archive’s automatic Whisper transcript with word times compared with the poems; EXT: The Gramophone Shop Supplement, March 1948 (OCR), Graham Johnson’s note on Hyperion CDH55366, LiederNet text of the nine songs (texts only), John Check in The New Criterion (20 May 2020), Wikipedia (Tel jour, telle nuit). Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "SECTION_B_MISPLACED",
+      "finding": "Section B (“Figure de force brûlante et farouche”) stood at 90 s, which is inside the song. The eighth song begins at 43.7 s: the piano of song 7 dies away between about 37 and 43.5 s at −38 to −45 dB and the eighth song enters at −30 dB, with the first words of its text at about 43.5 s in the Archive transcript. At 89.0–90.2 s the level falls to a near-silence and the music re-enters loudly at 90.25 s; the transcript has the song’s closing lines “Intraitable démesurée … Cette santé bâtit une prison” from 91.2 s. The 90 s boundary had taken that pause for the song boundary.",
+      "fix": "Section B moved to 44 s."
+    },
+    {
+      "basis": "MEAS",
+      "code": "POSTLUDE_LATE",
+      "finding": "The postlude section and cue stood at 260 s. The last sung words, “qui est toujours nouveau”, are at about 227–235 s in the transcript (“nouveau” from 232.6 s); from about 235.5 s the key trace turns to C major (r = 0.62, rising to 0.93 at 239 s), the key of the final chords. At 260 s the postlude was already about 24 s old.",
+      "fix": "Section Coda and the postlude cue moved to 236 s; the March 1948 record note, which sat at 235 s, moved to 262 s so that it follows the postlude cue."
+    },
+    {
+      "basis": "MEAS",
+      "code": "SUNG_PHRASE_AT_SONG_START",
+      "finding": "The cue at 113 s, the start of song 9, named the phrase “Je ris encore”, which the transcript places at about 164.6–165.3 s, some 52 s later.",
+      "fix": "The 113 s cue now carries only Johnson’s remark on the last song; a new cue at 163 s carries Check’s observation on the leap at “Je ris encore” (documented; basis audio-feature, the time taken from the transcript’s word times)."
+    },
+    {
+      "basis": "EXT",
+      "code": "SOURCE_WORDING",
+      "finding": "The supplement says the performances “may be considered authentic, by virtue of the composer’s participation in the recording”; the cue said it “judged” them authentic.",
+      "fix": "Cue now says the supplement wrote that they may be considered authentic, in its words."
+    },
+    {
+      "basis": "EXT",
+      "code": "DOSSIER_COMPOSITION_TERM",
+      "finding": "The dossier gave the end of the EU life-plus-70 term (2033) as the end of protection without noting that some member states extend older works.",
+      "fix": "Composition field now says the standard term runs to the end of 2033 and that wartime extensions, which can lengthen the term in France, were not assessed."
+    }
+  ],
+  "checks": {
+    "source": "The Archive lists TEL JOUR TELLE NUIT No. 3 - PIERRE BERNAC & FRANCIS POULENC.mp3 as a derivative VBR MP3, 4:46 (285.75 s), with the 24-bit FLAC original; the cached copy has the manifest MD5 (015b208f…). The sound begins at about 1 s and the last music is at about 283.5 s. No licence field.",
+    "durationAndPitch": "Three songs on one 12-inch side. Song 7 about 1–43 s, song 8 about 44–108 s, song 9 about 113–235 s with the postlude to the end. Tuning estimate +13 cents (windows +11 to +15.5 cents); the final chords read C major, and the offset is about an eighth of a semitone, so no speed correction is needed.",
+    "identity": "Archive item: songs (a) to (c) of the nine, matrix 2EA11110-1, catalogue D.B.6384, George Blood L.P. transfer for the Great 78 Project. Companion items: No. 1 (D.B.6383, 2EA11108-2, songs 1–2) and No. 2 (D.B.6383, 2EA11109-1, songs 3–6), and the reverse of this side, Dans le jardin d’Anna (D.B.6384, 2EA11131). The Gramophone Shop Supplement, March 1948: “POULENC: Tel jour, tel nuit — Song Cycle (3 sides) & Dans le Jardin d’Anna (1 side) … Two 12-inch imported records, Nos. G-DB6383/4; price $5.24”, with the nine titles and the sentence quoted in the cue. The transcript’s sung words match LiederNet’s texts of songs 7, 8 and 9 in order. The session date and place are stated nowhere I could open; the dossier says unknown.",
+    "notes": "Johnson supports the composition at Noizay in December 1936, completion by January 1937 with the first and last songs composed as a matching pair in Lyon, the eight dedicatees, the title exchange with Éluard in early January 1937 and “the last song a summing-up of what has gone before”; Check supports the leap on the second word of “Je ris encore” and the postlude in a new tonality after “toujours nouveau”. Times after correction: song 7 at 0 s, song 8 at 44 s, song 9 at 113 s (a chord enters at 113.3 s after a near-silence of about 2.8 s), the “Je ris encore” note at 163 s, the postlude at 236 s. Counts: 7 notes, limit 8. Voice rules read by hand and by the validator; validate.mjs prints ok for the listen file and the dossier.",
+    "sideJoins": "The side carries songs 7–9 and has no join inside it."
+  },
+  "rights": {
+    "decision": "Publish on the territorial basis stated in the file.",
+    "reasoning": "(1) First publication: HMV DB 6383 and 6384 were on sale as imports by March 1948 (The Gramophone Shop Supplement, Vol. 11 no. 3, priced $5.24). A recording published in 1948 had no 50-year EU term left after 1998. (2) Provenance: a commercial HMV set transferred by George Blood for the Great 78 Project, not a live or broadcast capture and not a modern re-labelling. (3) Composition: Poulenc died in 1963, so the music is in copyright in the EU under the life-plus-70 term to the end of 2033 (the dossier adds that wartime extensions were not assessed); Éluard died in 1952 and the poems are not assessed; the dossier says so apart from the recording’s rights. (4) The United States status of a 1940s recording made in France is not established and the dossier says so.",
+    "internetArchiveFlags": "No licence field; collections 78rpm, 78rpm_goodfriend, georgeblood, audio_music; no dark, access-restricted, noindex or litigation flag. The Archive metadata for sides 1 and 2 of the set gives “1948-12”, a date later than the March 1948 listing, so it is not a recording or issue date; the dossier already says this."
+  },
+  "observations": [
+    {
+      "basis": "EXT",
+      "code": "RECORDING_YEAR_UNSOURCED",
+      "finding": "Wikipedia says Bernac performed the cycle for recording in 1946, without a source I could open; the listing of March 1948 is the earliest dated evidence found.",
+      "action": "Not used; the dossier keeps the session date unknown."
+    },
+    {
+      "basis": "EXT",
+      "code": "DEDICATEES_BY_SONG",
+      "finding": "Johnson’s list of dedicatees marks Marie-Blanche de Polignac as songs v and vi, and the rest of the list reads in song order (INFERENCE); Wikipedia assigns song 8 to Bernac and song 9 to Gouverné. The dedicatee note does not assign any dedication to a song.",
+      "action": "None."
+    }
+  ]
+}

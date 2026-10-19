@@ -1,0 +1,161 @@
+{
+  "id": "messiaen-nativite-dieu-parmi-nous",
+  "work": {
+    "title": "La Nativité du Seigneur",
+    "catalogue": "",
+    "movement": "IX. Dieu parmi nous",
+    "version": {
+      "value": "Organ cycle of 1935, published by Leduc in 1936; movement IX of nine, ending in a toccata.",
+      "status": "documented",
+      "sourceIds": ["sleeve", "wikipedia", "weir"],
+      "note": "The sleeve calls the work “The Nativity of Our Lord (published in 1936)”; Wikipedia gives Leduc as publisher and says movement IX alone formed the fourth book; Gillian Weir’s programme note describes the piece as ending in a toccata. The sleeve does not name an edition."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Ernest White", "role": "organ" }
+    ],
+    "status": "documented",
+    "sourceIds": ["sleeve", "americanorganist"],
+    "note": "“Ernest White playing the Memorial Hall Organ, Methuen, Mass.” on the sleeve; The American Organist of October 1952 lists the disc under “Ernest White, Methuen Memorial Hall, Mass.”. The sleeve names H. Vose Greenough as supervising engineer."
+  },
+  "session": {
+    "date": {
+      "value": "August 1949",
+      "status": "documented",
+      "sourceIds": ["sleeve"],
+      "note": "The sleeve says “the present recording was accomplished in August of 1949”. The day is not given. The Internet Archive’s date of 1952 for the item is the year of issue, not of the session.",
+      "precision": "month"
+    },
+    "place": {
+      "value": "Memorial Hall, Methuen, Massachusetts",
+      "status": "documented",
+      "sourceIds": ["sleeve"],
+      "note": "The sleeve names the “newly rebuilt organ at Memorial Hall in Methuen, Mass.”, an instrument originally built by Walcker in 1857–62 for the Boston Music Hall and redesigned under G. Donald Harrison of Aeolian-Skinner."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Mercury Classics, 12-inch long-playing record",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive", "americanorganist"],
+      "note": "The Internet Archive record gives publisher Mercury Classics. The sleeve names the Mercury Classics label and, in its note on the artist, three earlier Ernest White discs on the same label (MG 10070, MG 15032, MG 15027)."
+    },
+    "catalogue": {
+      "value": "Mercury Classics MG 10069",
+      "status": "documented",
+      "sourceIds": ["sleeve", "americanorganist", "teacher"],
+      "note": "The sleeve prints “MG 10069”; The American Organist (October 1952) lists it at $4.85 and American Music Teacher (November–December 1952) reviews it. The Internet Archive record dates the item 1952."
+    },
+    "matrixTakeSides": {
+      "value": "Side 2, track 5 of the Internet Archive segmentation (“God Among Us”); matrix and take numbers not read",
+      "status": "documented",
+      "sourceIds": ["archive", "segments"],
+      "note": "The track list on the sleeve gives nine pieces in order. The transferred track is the last on side 2, 428.5 seconds long."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP digitisation; the ripping operator is not credited by name",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item sits in the Internet Archive’s Boston Public Library and other vinyl collections. Collection membership does not establish the original session."
+    },
+    "date": {
+      "value": "2019-10-08",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "From the ripping_date field (20191008). The sleeve was scanned on 18 September 2019."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable, Audio-Technica AT95e cartridge, Radio Design Labs EZ-PH1 phono preamp and Focusrite Scarlett 2i2; side recorded to FLAC and segmented into a VBR MP3 per track.",
+      "status": "documented",
+      "sourceIds": ["archive", "segments"],
+      "note": "The lineage field states the signal chain. The final segmentation of this track is 890.892–1319.348 seconds of the side-2 capture, differing from an automatic start at 915.943 seconds, which suggests a manual correction. The level trace suggests that the first 1.3 seconds carry the end of the previous piece, followed by a short pause before the music of this piece begins at about 1.9 seconds; this is inferred from the trace, not heard. Equalisation, de-clicking and speed correction are not described. The pitch measured from the audio is about 32 cents (roughly a third of a semitone) above A = 440 Hz and steady; the organ’s tuning cannot be separated from the speed of the original recording or the transfer."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen/disc1/02.05.%20God%20Among%20Us.mp3",
+    "sourceChain": ["archive", "sleeve", "segments"],
+    "format": "Internet Archive VBR MP3 derivative of the side-2 capture",
+    "durationSeconds": 428.46
+  },
+  "rights": {
+    "composition": {
+      "value": "Messiaen died in 1992, so the work is in copyright in the EU, under the life-plus-70 term, until the end of 2062.",
+      "status": "documented",
+      "sourceIds": ["wikipediaTurangalila"],
+      "note": "The death year is taken from the Wikipedia article’s dates for Messiaen (1908–1992); the term is our calculation. Rights in the composition are separate from rights in the recording. No United States status is claimed."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: first published by autumn 1952 (before 1963); US status not established.",
+      "status": "documented",
+      "sourceIds": ["americanorganist", "teacher", "sleeve"],
+      "note": "Two American periodicals of autumn 1952 review the disc, so it had been published by then. The first-issue date is not established and may be earlier; the session was in 1949. An EU phonogram published in 1952 had run its 50-year term by the end of 2002 and was not revived by the 2011 extension, which applies to fixations still protected on 1 November 2013. No United States clearance is claimed. The Internet Archive item carries no licence."
+    },
+    "creditLine": "Olivier Messiaen, La Nativité du Seigneur, IX. Dieu parmi nous. Ernest White, organ of Memorial Hall, Methuen, Massachusetts. Recorded August 1949 (engineer H. Vose Greenough); Mercury Classics MG 10069, reviewed in The American Organist, October 1952. Internet Archive vinyl transfer, October 2019. Territorial EU public-domain recording basis; US status not established.",
+    "licenseUrl": "https://archive.org/details/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Messiaen: La Nativite Du Seigneur (“The Nativity Of Our Lord”), Ernest White, Mercury Classics MG 10069: item record and file list",
+      "url": "https://archive.org/metadata/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen",
+      "locator": "publisher Mercury Classics, publisher-catalog-number MG 10069, date 1952; lineage; scandate 20190918; ripping_date 20191008; file disc1/02.05 God Among Us.mp3, 7:08",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "sleeve",
+      "title": "Mercury Classics MG 10069 — scanned sleeve (Internet Archive PDF and OCR text)",
+      "url": "https://archive.org/details/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen",
+      "locator": "Notes: “The Composer”, “The Music” (Messiaen’s preface and the epigraphs of the nine pieces), “The Artist and His Instrument” (Ernest White; the Methuen organ; “recording was accomplished in August of 1949 under the engineering supervision of H. Vose Greenough”)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "segments",
+      "title": "Internet Archive — final track segmentation (segments.json)",
+      "url": "https://archive.org/download/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen_segments.json",
+      "locator": "God Among Us: initial 915.943–1319.348 s, final 890.892–1319.348 s",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "americanorganist",
+      "title": "The American Organist, October 1952 (vol. 35, no. 10), record reviews (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_american-organist-1918_1952-10_35_10",
+      "locator": "Review headed “Ernest White, Methuen Memorial Hall, Mass. 4-81 Walcker 1863, rebuilt by Aeolian-Skinner 1949”, Mercury 12” lp. MG-10069, $4.85, Messiaen, The Nativity of Our Lord; “Another recording of Messiaen’s difficult-to-play and difficult-to-enjoy religious meditations”; compared with an earlier disc by Noehren (June 1952)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "teacher",
+      "title": "American Music Teacher, November–December 1952 (vol. 2, no. 2) (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_american-music-teacher_november-december-1952_2_2",
+      "locator": "Review of Messiaen, La Nativité du Seigneur, played by Ernest White (Mercury MG 10069), quoting Mildred Andrews, University of Oklahoma: “a musical architect of real genius”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia — La Nativité du Seigneur",
+      "url": "https://en.wikipedia.org/wiki/La_Nativit%C3%A9_du_Seigneur",
+      "locator": "Composition in Grenoble, summer 1935; première at La Trinité on 27 February 1936 shared by Daniel-Lesur (1–3), Langlais (4–6) and Grunenwald (7–9); Leduc publication in four books, IV for piece 9 alone",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "weir",
+      "title": "Dame Gillian Weir — programme note on “Dieu parmi nous” (Hollywood Bowl / Los Angeles Philharmonic Association, © 2009)",
+      "url": "https://www.hollywoodbowl.com/musicdb/pieces/18/dieu-parmi-nous-from-la-nativite-du-seigneur",
+      "locator": "Description of the piece: the descent of God, a few serene bars, increasing intensity, “until a dazzling toccata signals the Incarnation”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wikipediaTurangalila",
+      "title": "Wikipedia — Turangalîla-Symphonie",
+      "url": "https://en.wikipedia.org/wiki/Turangal%C3%AEla-Symphonie",
+      "locator": "Opening paragraph: Olivier Messiaen (1908–1992)",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}
