@@ -31,7 +31,6 @@ export async function readInfluence(ROOT) {
 }
 
 const WIDTH = 2700;
-const FAVOURITES = new Set(['mahler', 'rachmaninoff', 'ravel', 'prokofiev']);
 const CHIP_NAMES = { 'dies-irae': 'Dies irae', 'tristan-chord': 'Tristan chord', 'bach-motif': 'B–A–C–H', 'lament-bass': 'Lament bass', 'la-folia': 'La Folia', 'ode-to-joy': 'Ode to Joy', 'frere-jacques': 'Frère Jacques' };
 
 /** Monotone birth-year scale: crowded generations receive more horizontal room. */
@@ -232,7 +231,7 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
   catalogue = { index, nodeById, edgeById, listens: new Set(listens.map((l) => l.id)) };
   const yearX = timeScale(nodes);
   const size = positionNodes(nodes, edges, yearX);
-  const landmarks = new Set([...FAVOURITES, 'bach', 'beethoven', 'wagner', ...composers.filter((c) => c.featured).map((c) => c.slug), ...composers.map((c) => [c.slug, index[c.slug].in.length + index[c.slug].out.length]).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([id]) => id)]);
+  const landmarks = new Set([...composers.map((c) => [c.slug, index[c.slug].in.length + index[c.slug].out.length]).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([id]) => id)]);
   nodes.sort((a, b) => a.year - b.year || a.name.localeCompare(b.name));
   const nodeOrder = new Map(nodes.map((n, i) => [n.id, i]));
   const portraits = nodes.map((n) => ({ x: n.x - n.halfW, y: n.y - n.halfH, w: n.halfW * 2, h: n.halfH * 2 }));
@@ -291,7 +290,7 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
   const cameos = nodes.map((node) => {
     const connections = new Set([...index[node.id].in, ...index[node.id].out].map((e) => e.id)).size;
     const example = index[node.id].in[0] ?? index[node.id].out[0];
-    return `<a class="iw-node ${node.url ? 'iw-composer' : 'iw-figure'}${landmarks.has(node.id) ? ' iw-landmark' : ''}${FAVOURITES.has(node.id) ? ' iw-favourite' : ''}" href="#node-${attr(node.id)}" data-node="${attr(node.id)}" style="left:${node.x}px;top:${node.y}px" aria-label="${attr(`${node.name}, ${node.dates}, ${connections} connections`)}"><span class="iw-time-year">${node.year < 1100 ? 'Before 1100' : node.year}</span><span class="iw-medallion">${picture(node)}</span><span class="iw-node-label">${esc(node.label)}</span><span class="iw-node-fullname">${esc(node.name)}</span><span class="iw-node-dates">${esc(node.dates)}</span><span class="iw-node-count">${connections} sourced ${connections === 1 ? 'connection' : 'connections'} →</span>${example ? `<span class="iw-node-example">${esc(example.title)}</span>` : ''}</a>`;
+    return `<a class="iw-node ${node.url ? 'iw-composer' : 'iw-figure'}${landmarks.has(node.id) ? ' iw-landmark' : ''}" href="#node-${attr(node.id)}" data-node="${attr(node.id)}" style="left:${node.x}px;top:${node.y}px" aria-label="${attr(`${node.name}, ${node.dates}, ${connections} connections`)}"><span class="iw-time-year">${node.year < 1100 ? 'Before 1100' : node.year}</span><span class="iw-medallion">${picture(node)}</span><span class="iw-node-label">${esc(node.label)}</span><span class="iw-node-fullname">${esc(node.name)}</span><span class="iw-node-dates">${esc(node.dates)}</span><span class="iw-node-count">${connections} sourced ${connections === 1 ? 'connection' : 'connections'} →</span>${example ? `<span class="iw-node-example">${esc(example.title)}</span>` : ''}</a>`;
   }).join('');
   const compact = {
     size,
@@ -314,17 +313,18 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
     writeFile(path.join(OUT, 'assets/influence-details.json'), JSON.stringify({ edges: detail, threads: Object.fromEntries(threads.map((t) => [t.id, { ...t, summary: prose(t.summary), abcNote: t.abcNote ? prose(t.abcNote) : '' }])) })),
   ]);
   const backdrop = art[normalizeTitle(eras.find((e) => e.slug === 'fin-de-siecle')?.hero?.file ?? '')];
+  const hub = composers.map((c) => [c, index[c.slug].in.length + index[c.slug].out.length]).sort((a, b) => b[1] - a[1])[0][0];
   const featuredThreads = threads.filter((t) => edges.some((e) => e.thread === t.id));
   const body = `<div class="influence-page" data-influence>
     ${backdrop ? `<img class="iw-backdrop" src="${attr(backdrop.src.replace(/\.webp$/, '-960.webp'))}" alt="" loading="lazy" decoding="async" aria-hidden="true">` : ''}
     <header class="iw-heading"><div><span class="kicker">An atlas of musical inheritance</span><h1>The Web of <em>Influence</em></h1><p>Compare the passages. Read the evidence.</p></div><p class="iw-census"><strong>${edges.length}</strong> sourced connections<br><span>${composers.length} composers · ${figures.length} other voices</span></p></header>
     <form class="iw-controls" aria-label="Explore the web" onsubmit="return false"><label>Connection<select name="kind"><option value="">Every kind</option>${INFLUENCE_KINDS.map((kind) => `<option value="${kind}">${kindLabel(kind)}</option>`).join('')}</select></label><label>Period<select name="era"><option value="">All periods</option>${eras.map((era) => `<option value="${era.slug}">${esc(era.name)}</option>`).join('')}<option value="sister-arts">Sister arts &amp; traditions</option></select></label><button type="button" class="iw-reset" data-action="reset">Reset the sky</button></form>
     <nav class="iw-thread-chips" aria-label="Trace a thread"><span>Trace a thread</span>${threads.map((t) => `<a href="#thread-${attr(t.id)}" title="${attr(t.name)}">${esc(CHIP_NAMES[t.id] ?? t.name)}</a>`).join('')}</nav>
-    <p class="iw-mobile-intro">A timeline of lives.<br>Begin with <a href="#node-mahler">Mahler’s inheritance</a>, or follow the dates.</p>
+    <p class="iw-mobile-intro">A timeline of lives.<br>Begin with <a href="#node-${attr(hub.slug)}">${esc(hub.family ?? hub.name)}’s inheritance</a>, or follow the dates.</p>
     <div class="iw-explore"><section class="iw-sky" aria-label="Interactive influence map"><div class="iw-map" tabindex="0" role="group" aria-label="Influence map. Drag to pan, scroll to zoom. Arrow keys pan, plus and minus zoom, Home resets." aria-describedby="iw-map-help"><div class="iw-world" style="width:${size.width}px;height:${size.height}px"><svg class="iw-threads" viewBox="0 0 ${size.width} ${size.height}" aria-label="Sourced connections between composers and the sister arts"><g class="iw-era-labels">${erasLabel}</g><g class="iw-paths">${paths}</g><g class="iw-year-labels">${years}</g></svg>${cameos}</div></div><div class="iw-map-tools"><button type="button" data-action="zoom-in" aria-label="Zoom in">+</button><button type="button" data-action="zoom-out" aria-label="Zoom out">−</button><button type="button" data-action="fit" aria-label="Fit the whole web">↔</button></div><p class="iw-map-help" id="iw-map-help">Touch a portrait; follow its gold threads. <span>Drag to wander · scroll to look closer</span></p><p class="iw-empty" hidden>No connections match these filters.</p></section>
     <aside class="iw-card" hidden role="dialog" aria-labelledby="iw-card-title" tabindex="-1"><div class="iw-card-toolbar"><span>The evidence room</span><button type="button" data-action="close" aria-label="Close evidence card">×</button></div><div class="iw-card-content"></div></aside></div>
     <div class="iw-programme"><div><span class="kicker">How to read the sky</span><p>Portraits mark lives; threads record particular encounters, not a claim that one composer explains another. Birth years run from left to right: years before 1650 are compressed, and crowded generations have more room. Cards give the date of the connection.</p></div><ul class="iw-legend"><li><i class="iw-swatch bright"></i>Quotation &amp; parody</li><li><i class="iw-swatch"></i>Teaching, copying &amp; models</li><li><i class="iw-swatch dotted"></i>Music heard</li><li><i class="iw-swatch red"></i>Resistance</li><li><i class="iw-swatch teal"></i>Painting &amp; poetry</li></ul></div>
-    <nav class="iw-invitations" aria-label="Begin exploring">${featuredThreads.slice(0, 4).map((t) => `<a href="#thread-${attr(t.id)}"><span>Follow the thread</span>${esc(t.name)} <b>→</b></a>`).join('')}<a href="#node-mahler"><span>Open an inheritance</span>Gustav Mahler <b>→</b></a></nav>
+    <nav class="iw-invitations" aria-label="Begin exploring">${featuredThreads.slice(0, 4).map((t) => `<a href="#thread-${attr(t.id)}"><span>Follow the thread</span>${esc(t.name)} <b>→</b></a>`).join('')}<a href="#node-${attr(hub.slug)}"><span>Open an inheritance</span>${esc(hub.name)} <b>→</b></a></nav>
     ${furtherReading ? `<div class="iw-reading">${furtherReading(ctx, 'influence')}</div>` : ''}
     <p class="iw-status" role="status" aria-live="polite"></p><p class="iw-javascript-note">Interactive evidence cards, filters and playback require JavaScript. The portraits remain readable.</p>
     <script type="application/json" id="influence-data">${serialise(compact)}</script>

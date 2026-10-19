@@ -252,25 +252,9 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .movement .roster li { font: 500 1.28rem var(--display); }
 .movement .roster li:not(:last-child)::after { content: '·'; margin: 0 .55rem; color: var(--accent); }
 .movement .roster a { text-decoration: none; }
-.movement .roster .star { color: var(--accent); font-size: .7em; vertical-align: super; margin-left: .1em; }
 .movement .more { display: inline-block; margin-top: 1.6rem; font: 600 .86rem var(--caps); letter-spacing: .18em; text-decoration: none; color: var(--accent); border-bottom: 1px solid; padding-bottom: .15rem; }
 @media (max-width: 860px) { .movement { grid-template-columns: 1fr; } .movement:nth-child(even) .movement-art { order: 0; } }
 
-/* ---------- Featured portraits ---------- */
-.four { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.2rem, 2.5vw, 2.4rem); }
-@media (max-width: 1000px) { .four { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 520px) { .four { grid-template-columns: 1fr; } }
-.cameo { text-decoration: none; display: grid; justify-items: center; text-align: center; gap: .9rem; }
-.oval {
-  width: 100%; aspect-ratio: 4 / 5; border-radius: 50%; padding: 9px;
-  background: linear-gradient(140deg, #5c4116, #e8cd88 30%, #8a6626 55%, #d9b86c 75%, #4f3712);
-  box-shadow: 0 24px 40px -20px rgba(0, 0, 0, .7), inset 0 0 0 1px rgba(255, 240, 200, .5);
-}
-.oval img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block; filter: grayscale(1) sepia(.3) contrast(1.05) brightness(.95); transition: filter .8s var(--ease); box-shadow: inset 0 0 20px #000; }
-.cameo:hover .oval img { filter: none; }
-.cameo h3 { font-size: 2rem; }
-.cameo .dates { font: 600 .82rem var(--caps); letter-spacing: .2em; color: var(--night-muted); }
-.cameo blockquote { margin: 0; font: italic 1.08rem/1.45 var(--display); color: var(--night-ink); opacity: .85; max-width: 18rem; }
 
 /* ---------- Composer grid ---------- */
 .composer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr)); gap: 2.4rem 1.6rem; }
@@ -282,7 +266,6 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .card h4 { font-size: 1.5rem; line-height: 1.1; }
 .card .dates { font: 600 .76rem var(--caps); letter-spacing: .18em; color: var(--muted); }
 .card .epithet { font-size: .98rem; line-height: 1.35; color: var(--ink-2); font-style: italic; }
-.card .star { color: var(--accent); }
 .era-group { margin-bottom: 5rem; }
 .era-group > header { display: flex; align-items: baseline; gap: 1.2rem; border-bottom: 1px solid var(--rule); padding-bottom: .9rem; margin-bottom: 2rem; }
 .era-group > header .n { font: italic 300 3rem/1 var(--display); color: var(--accent); }
@@ -532,8 +515,6 @@ dialog.lightbox button { position: fixed; top: 1rem; right: 1.4rem; background: 
 @media (max-width: 1080px) { .prose > .series-fig { margin-right: 0; } }
 .series text { font-family: var(--text); }
 .series .h:focus:not(:focus-visible) { outline: none; }
-.oval-in { display: block; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; }
-.cameo { align-content: start; }
 
 /* links from composer pages into the Listening Room */
 .listen-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; align-items: center; }

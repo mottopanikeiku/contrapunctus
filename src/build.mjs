@@ -323,7 +323,7 @@ function chapter(n, id, title, inner, sub) {
 
 function card(ctx, c) {
   return `<a class="card reveal" href="${ctx.base}composers/${c.slug}.html"><span class="pic">${img(ctx, c.portrait.file, c.name, { sizes: '220px' }).replace('<img ', `<img style="object-position:${c.portrait.focus ?? '50% 25%'}" `)}</span>
-<span class="dates">${lifespan(c)}</span><h4>${esc(c.name)}${c.featured ? ' <span class="star" title="Extended portrait">✦</span>' : ''}</h4><span class="epithet">${esc(c.epithet)}</span></a>`;
+<span class="dates">${lifespan(c)}</span><h4>${esc(c.name)}</h4><span class="epithet">${esc(c.epithet)}</span></a>`;
 }
 
 const chip = (ctx, s) => {
@@ -415,10 +415,9 @@ function indexPage() {
     const list = composers.filter((c) => c.era === e.slug);
     return `<article class="movement" style="--accent:${e.accent}"><div class="movement-art">${painting(ctx, { ...e.hero }, { sizes: '(max-width: 860px) 100vw, 50vw' })}</div>
 <div class="reveal"><span class="movement-num">${e.numeral}</span><span class="movement-span">${esc(e.span)}</span><h3><a href="eras/${e.slug}.html">${esc(e.name)}</a></h3><div class="precis">${rich(ctx, e.precis)}</div>
-<ul class="roster">${list.map((c) => `<li><a href="composers/${c.slug}.html">${esc(c.family ?? c.name)}</a>${c.featured ? '<span class="star">✦</span>' : ''}</li>`).join('')}</ul>
+<ul class="roster">${list.map((c) => `<li><a href="composers/${c.slug}.html">${esc(c.family ?? c.name)}</a></li>`).join('')}</ul>
 <a class="more" href="eras/${e.slug}.html">Read the chapter</a></div></article>`;
   }).join('\n');
-  const four = composers.filter((c) => c.featured);
   const body = `<section class="hero"><div class="hero-slides">${slides}</div>
 <div class="wrap hero-inner"><div><h1 class="hero-title">Contrapunctus</h1><p class="hero-sub"><span class="sc">${esc(site.kicker)}</span>${esc(site.tagline)}</p>
 <div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${listens.filter((l) => l.concert !== false).length} recordings · the score lights up as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#prelude">Or wander the Atlas ↓</a></div></div>
@@ -428,8 +427,6 @@ ${journeys.band(ctx)}
 ${readerPaths(ctx)}
 <section class="section" id="prelude"><div class="wrap"><div class="section-head"><span class="kicker">Prelude</span><h2>${esc(site.preludeTitle)}</h2></div>
 <div class="prose">${rich(ctx, site.prelude)}</div></div></section>
-<section class="section night" id="four"><div class="wrap"><div class="section-head center"><span class="kicker">Four portraits</span><h2>${esc(site.fourTitle)}</h2><p>${rich(ctx, site.fourLede)}</p></div>
-<div class="four">${four.map((c) => `<a class="cameo reveal" href="composers/${c.slug}.html"><span class="oval"><span class="oval-in">${img(ctx, c.portrait.file, c.name, { sizes: '(max-width: 1000px) 45vw, 22vw' }).replace('<img ', `<img style="object-position:${c.portrait.focus ?? '50% 25%'}${c.portrait.cameo ? `;transform:scale(${c.portrait.cameo.zoom});transform-origin:${c.portrait.cameo.origin}` : ''}" `)}</span></span><span class="dates">${lifespan(c)}</span><h3>${esc(c.name)}</h3>${c.quote ? `<blockquote>“${esc(c.quote.text)}”</blockquote>` : ''}</a>`).join('')}</div></div></section>
 <section class="section" id="movements"><div class="wrap"><div class="section-head"><span class="kicker">Seven movements</span><h2>${esc(site.erasTitle)}</h2><p>${rich(ctx, site.erasLede)}</p></div>
 <div class="movements">${movements}</div></div></section>
 <section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Who overlapped with whom</h2><p>Every composer in the atlas on one axis. Bach died the year Haydn turned eighteen; Brahms heard the thirty-year-old Mahler conduct <i>Don Giovanni</i> in Budapest in 1890 and praised it; Rachmaninoff outlived Ravel and Mahler and died two years before Bartók.</p></div>
@@ -443,7 +440,7 @@ ${readerPaths(ctx)}
 
 function composersIndex() {
   const ctx = { base: '../', page: 'composers/index' };
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth. Those marked ✦ have extended portraits.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
 <div class="wrap section">${eras.map((e) => `<section class="era-group" style="--accent:${e.accent}"><header><span class="n">${e.numeral}</span><h3><a href="../eras/${e.slug}.html">${esc(e.name)}</a></h3><span class="sc">${esc(e.span)}</span></header><div class="composer-grid">${composers.filter((c) => c.era === e.slug).map((c) => card(ctx, c)).join('')}</div></section>`).join('')}</div>`;
   return layout(ctx, { title: 'Composers — Contrapunctus', body, nav: 'composers' });
 }

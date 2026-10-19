@@ -74,7 +74,7 @@ Six narrated journeys (Vienna 1900, the Dies irae, how the symphony grew, Paris 
 
 ## What's inside
 
-- **60 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès; extended portraits of Mahler, Rachmaninoff, Ravel and Prokofiev.
+- **60 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès.
 - Each page: a life with margin notes, a technical anatomy of the style (harmony, line, rhythm, orchestration, form), a listening path through the works, **playable engraved score examples**, sister arts (public-domain paintings, prints and poems with new translations), recordings and lineage.
 - **Before Bach** — the origins: Pythagoras's ratios, chant, Guido's staff, organum, the ars nova, Renaissance polyphony, the violin family, the birth of opera, figured bass. Includes an interactive harmonic series.
 - **A modern textbook**: numbered chapters and figures, key ideas, questions to take away, further reading (verified bibliographies for every composer, era and topic), citation in Chicago and BibTeX, a 120-term **glossary** with popovers and “hear it” moments, **Sources & method** with downloadable recording data, the **Return Lab** (a passage beside its return), and search (press /).

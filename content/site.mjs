@@ -47,8 +47,6 @@ export default {
 <aside class="note"><b>Where to start</b>If you know nothing, begin with <a href="origins.html">Origins</a>: from Pythagoras’s monochord to the figured bass Bach inherited. If you know the repertoire but not the theory, <a href="workshop.html">The Workshop</a> explains counterpoint, sonata form, the Tristan chord, the octatonic scale and the twelve-tone row with examples.</aside>
 <p>Every page ends with recordings worth finding, and a lineage: who the composer learned from, and whom they taught or provoked. Follow those threads and the three centuries become one long conversation.</p>`,
 
-  fourTitle: 'Mahler, Rachmaninoff, Ravel, Prokofiev',
-  fourLede: 'Four composers born within thirty-one years of one another, given extended portraits here. A symphonist who wanted the symphony to contain the world; a pianist whose melodies grew out of Orthodox chant and church bells; a precisionist who called himself “artificial by nature”; and a modernist who never stopped writing tunes.',
 
   erasTitle: 'Three centuries in seven movements',
   erasLede: 'Each chapter opens with a painting from its own years and a short account of what changed in the music — in harmony, in form, in the instruments themselves.',
