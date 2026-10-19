@@ -139,7 +139,6 @@ body[data-modules~='returnlab'] .brand .glyph { color: var(--gold-hi); }
 .rl-study-spans { display: flex; gap: 1.2rem; margin-top: auto; padding-top: .8rem; color: var(--gold); font-size: .9rem; }
 .rl-study-spans b { color: var(--muted); margin-left: .3rem; font-weight: 400; }
 .rl-study-open { display: flex; justify-content: space-between; align-items: center; margin-top: .8rem; padding-top: .8rem; border-top: 1px solid var(--rule); color: var(--gold-hi); font: 600 .78rem var(--caps); letter-spacing: .12em; }
-.rl-study-open > span { font: 1.2rem var(--text); }
 .rl-reading-guide { display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 2.4rem; }
 .rl-reading-guide h2 { margin-top: .75rem; font: italic 400 2.6rem/1.05 var(--display); }
 .rl-reading-guide h3 { margin: .2rem 0 .7rem; font: italic 500 1.6rem var(--display); color: var(--gold-hi); }

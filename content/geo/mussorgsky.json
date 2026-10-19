@@ -9,7 +9,7 @@
       "from": "1839-03-21",
       "to": "1852",
       "kind": "born",
-      "what": "Born into a wealthy landowning family reputedly descended from Rurik, 400 km south of Saint Petersburg.",
+      "what": "Born into a wealthy landowning family, reputedly descended from Rurik, 400 km south of Saint Petersburg.",
       "status": "documented",
       "sources": [
         {
@@ -63,7 +63,7 @@
       "lon": 37.6178,
       "from": "1859",
       "kind": "travelled",
-      "what": "A formative visit after which he professed love of “everything Russian”; he had also helped stage Glinka’s opera that year.",
+      "what": "A visit after which he professed love of “everything Russian”; that year he had also helped stage Glinka’s opera.",
       "status": "documented",
       "sources": [
         {
@@ -80,7 +80,7 @@
       "from": "1861",
       "to": "1863",
       "kind": "lived",
-      "what": "After the emancipation of the serfs he spent much time on the family estate, failing to stave off ruin.",
+      "what": "After the emancipation of the serfs he spent much time on the family estate, but could not stave off its ruin.",
       "status": "documented",
       "sources": [
         {
@@ -96,7 +96,7 @@
       "lon": 30.3086,
       "from": "1868",
       "kind": "worked",
-      "what": "Set the first eleven scenes of Gogol’s <i>Marriage</i> under Dargomyzhsky’s influence; met the artist Hartmann about then.",
+      "what": "Set the first eleven scenes of Gogol’s <i>Marriage</i> under Dargomyzhsky’s influence; met the artist Hartmann at about the same time.",
       "work": "Zhenitba (Marriage)",
       "status": "inferred",
       "sources": [
@@ -117,7 +117,7 @@
       "lon": 30.2961,
       "from": "1873-02-05",
       "kind": "premiere",
-      "what": "Friends staged three scenes of <i>Boris Godunov</i> as a benefit; the triumph paved the way for full production.",
+      "what": "Friends staged three scenes of <i>Boris Godunov</i> as a benefit; their success led to a full production.",
       "work": "Boris Godunov (excerpts)",
       "status": "documented",
       "sources": [

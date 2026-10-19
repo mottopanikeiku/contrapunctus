@@ -1,10 +1,10 @@
 {
   "id": "chopin-etude-op25-9",
-  "title": "Three pianists set the octaves dancing",
+  "title": "Chopin, Étude Op. 25 No. 9 in three recordings",
   "composer": "chopin",
   "work": "Étude in G♭ major, Op. 25 No. 9",
   "question": "How do these quick octaves stay so light?",
-  "intro": "The <i>Butterfly</i> Étude springs from a tiny four-note figure, with clipped octaves above a leaping left hand. Chopin keeps the same idea flitting through new keys and different reaches of the keyboard. Eugen d’Albert, a pupil of Liszt, shares the piece here with Alfred Cortot and Edward Neeman.",
+  "intro": "The <i>Butterfly</i> Étude is built on a four-note figure, with detached octaves in the right hand over a leaping left hand. Chopin carries the same figure through new keys and into different registers of the keyboard. Eugen d’Albert, a pupil of Liszt, is heard here alongside Alfred Cortot and Edward Neeman.",
   "group": "golden-age",
   "recordings": [
     {
@@ -29,29 +29,29 @@
   "reference": "chopin-etude-op25-9-neeman",
   "passages": [
     {
-      "label": "Four notes take flight",
+      "label": "Opening four-note figure",
       "t": 3,
       "note": "The right hand mixes connected notes with clipped octaves, while the left hand jumps between bass notes and chords."
     },
     {
-      "label": "The harmony starts to wander",
+      "label": "Harmonic movement",
       "t": 12,
-      "note": "The harmony begins to wander, though the right hand keeps the four-note rhythm that set the piece dancing."
+      "note": "The harmony begins to move, though the right hand keeps the four-note rhythm of the opening."
     },
     {
-      "label": "D♭ holds the bass",
+      "label": "D♭ pedal in the bass",
       "t": 22,
-      "note": "D♭ repeats in the bass while the right hand slips through new harmonies above it."
+      "note": "D♭ repeats in the bass while the right hand moves through new harmonies above it."
     },
     {
-      "label": "The opening returns with a fuller bass",
+      "label": "Return of the opening, octave bass",
       "t": 32,
-      "note": "The opening figure comes back with a fuller bass, the left hand now striking octaves before its chords."
+      "note": "The opening figure returns with a fuller bass, the left hand now playing octaves before its chords."
     },
     {
-      "label": "A landing in G♭",
+      "label": "Coda over a G♭ bass",
       "t": 48,
-      "note": "After the forceful rise, the music settles over G♭ in the bass; the right hand resumes its light, hopping figure."
+      "note": "After the loud rising passage, the bass holds G♭ and the right hand resumes its short, detached figure."
     }
   ],
   "sources": [

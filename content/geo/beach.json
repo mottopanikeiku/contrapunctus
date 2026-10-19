@@ -27,7 +27,7 @@
     },
     {
       "name": "Boston Music Hall", "country": "United States", "lat": 42.356, "lon": -71.061, "from": "1883-10-24", "kind": "worked",
-      "what": "Her public debut as a pianist, at A. P. Peck’s Anniversary Concert, in Moscheles’s G minor Concerto and Chopin’s E♭ Rondo. The hall on Winter Street still stands, rebuilt inside as the Orpheum Theatre.",
+      "what": "Her public debut as a pianist was at A. P. Peck’s Anniversary Concert, in Moscheles’s G minor Concerto and Chopin’s E♭ Rondo. The hall on Winter Street still stands; its interior was rebuilt as the Orpheum Theatre.",
       "status": "documented",
       "sources": [
         { "title": "Library of Congress: Amy Beach research guide", "url": "https://guides.loc.gov/amy-beach" },
@@ -67,7 +67,7 @@
     },
     {
       "name": "Jackson Park, Chicago", "country": "United States", "lat": 41.79, "lon": -87.58, "from": "1893-05-01", "kind": "premiere", "work": "Festival Jubilate, Op. 17",
-      "what": "Performed at the World’s Columbian Exposition with a chorus of 300 and Theodore Thomas conducting. She had composed it for the dedication of the Woman’s Building. Coordinates mark the park.",
+      "what": "She composed it for the dedication of the Woman’s Building at the World’s Columbian Exposition, where it was performed by a chorus of 300 conducted by Theodore Thomas. The coordinates mark the park.",
       "status": "documented",
       "sources": [
         { "title": "Amy Beach Project: orchestral works list", "url": "https://www.amybeach.org/music/works-list/orchestral-works-and-works-with-orchestra/" },
@@ -85,13 +85,13 @@
     },
     {
       "name": "Association Hall, Boston", "country": "United States", "lat": 42.351, "lon": -71.074, "from": "1897-01-04", "kind": "premiere", "work": "Violin Sonata, Op. 34",
-      "what": "At the Kneisel Quartet’s fourth concert, with Mrs Beach assisting, the sonata was played for the first time. The hall stood at Boylston and Berkeley Streets; coordinates mark that corner.",
+      "what": "The sonata was first played at the Kneisel Quartet’s fourth concert, with Mrs Beach assisting. The hall stood at the corner of Boylston and Berkeley Streets, and the coordinates mark that corner.",
       "status": "documented",
       "sources": [ { "title": "Boston Symphony Orchestra programme book, 1896–97: Kneisel Quartet announcement", "url": "https://archive.org/details/bostonsymphonysu189697bos" } ]
     },
     {
       "name": "Boston Music Hall", "country": "United States", "lat": 42.356, "lon": -71.061, "from": "1900-04-06", "kind": "premiere", "work": "Piano Concerto, Op. 45",
-      "what": "Beach played the first performance of her Piano Concerto with the Boston Symphony; the programme repeated on 7 April.",
+      "what": "Beach played the first performance of her Piano Concerto with the Boston Symphony; the programme was repeated on 7 April.",
       "status": "documented",
       "sources": [
         { "title": "Boston Symphony Orchestra programme book, 1899–1900, twenty-first concert", "url": "https://archive.org/details/bostonsymphonysu189900bos" },
@@ -100,13 +100,13 @@
     },
     {
       "name": "Potter Hall, Boston", "country": "United States", "lat": 42.36, "lon": -71.06, "from": "1908-02-27", "kind": "premiere", "work": "Piano Quintet, Op. 67",
-      "what": "Beach and the Hoffmann String Quartet gave the first performance. Coordinates mark Boston, not the hall.",
+      "what": "Beach and the Hoffmann String Quartet gave the first performance. The coordinates mark Boston, not the hall.",
       "status": "documented",
       "sources": [ { "title": "Hyperion Records: Piano Quintet in F♯ minor, notes by Nigel Simeone", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W21677_68295" } ]
     },
     {
       "name": "Centerville, Cape Cod", "country": "United States", "lat": 41.65, "lon": -70.34, "from": "1910", "kind": "lived",
-      "what": "After her husband’s funeral she and her mother went to her cottage here, which stayed her main summer residence. The royalties of her song Ecstasy had paid for it.",
+      "what": "After her husband’s funeral she and her mother went to her cottage here, which remained her main summer residence. It had been paid for with the royalties from her song Ecstasy.",
       "status": "documented",
       "sources": [
         { "title": "Cheryl Gillard, ‘Beach, Amy Cheney’, Women in World History (Encyclopedia.com)", "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/beach-amy-cheney-1867-1944" },
@@ -115,7 +115,7 @@
     },
     {
       "name": "Dresden", "country": "Germany", "lat": 51.05, "lon": 13.74, "from": "1912", "kind": "travelled",
-      "what": "Her European concert debut: she played her Violin Sonata with a violinist named Dr Bülau. From the autumn of 1912 she went on to play her concerto, sonata and quintet in German cities.",
+      "what": "At her European concert debut she played her Violin Sonata with a violinist named Dr Bülau. From the autumn of 1912 she played her concerto, sonata and quintet in German cities.",
       "status": "documented",
       "sources": [
         { "title": "Chamber Music Society of Lincoln Center: Amy Beach (1867–1944), biography", "url": "https://www.chambermusicsociety.org/about-the-music/composers/amy-beach" },

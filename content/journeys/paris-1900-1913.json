@@ -1,25 +1,25 @@
 {
   "id": "paris-1900-1913",
   "title": "Paris, 1900–1913",
-  "subtitle": "Quiet pianos, painted water and dancers who shake the floor",
+  "subtitle": "Quiet piano music, paintings of water and dance",
   "minutes": 21,
-  "hero": { "file": "File:Monet - Impression, Sunrise.jpg", "caption": "Claude Monet, <i>Impression, soleil levant</i>, 1872, Musée Marmottan Monet. An orange sun hangs over the boats in Le Havre’s misted harbour." },
-  "intro": "Satie leaves a melody hanging over two quiet piano chords; twenty-five years later, Stravinsky makes an orchestra stamp. Between them lie Debussy’s sea and clouds, Ravel’s birds and plucked strings, and the dancers who brought the Ballets Russes to Paris.",
+  "hero": { "file": "File:Monet - Impression, Sunrise.jpg", "caption": "Claude Monet, <i>Impression, soleil levant</i>, 1872, Musée Marmottan Monet. An orange sun over the boats in the harbour at Le Havre, in mist." },
+  "intro": "Satie set a melody over two quiet piano chords; twenty-five years later, Stravinsky wrote music in which the orchestra stamps. Between them came Debussy’s sea and clouds, Ravel’s birds and plucked strings, and the dancers who brought the Ballets Russes to Paris.",
   "stations": [
     {
       "id": "s1",
-      "title": "Satie leaves a note hanging",
+      "title": "Satie and the unresolved note",
       "listen": { "id": "satie-gymnopedie-1", "from": 2.18, "to": 90.34 },
       "art": null,
       "score": { "listen": "satie-gymnopedie-1", "bar": "1" },
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Satie played the piano at the Chat Noir cabaret, then at the Auberge du Clou, where he met Debussy. His first <i>Gymnopédie</i>, written in 1888, takes its time: a bass note on the first beat, a soft chord on the second. G and D alternate below. Four bars pass before the melody arrives, and its long F♯ hangs over the changing chords. Later, a low E stays put while the harmony darkens beneath it. The first ending recovers a gentle brightness, closing on D major before the music starts again.</p>",
+      "text": "<p>Satie played the piano at the Chat Noir cabaret, then at the Auberge du Clou, where he met Debussy. His first <i>Gymnopédie</i>, written in 1888, opens with a bass note on the first beat and a soft chord on the second. G and D alternate below. The melody enters after four bars, and its long F♯ is held over the changing chords. Later, a low E is held while the harmony moves beneath it. The first ending closes on D major before the music starts again.</p>",
       "cues": [
-        { "at": 12.026, "text": "The melody enters after four bars; its held F♯ floats above the alternating G and D bass notes." },
-        { "at": 42.928, "text": "The melody settles on E while three different chords pass beneath it." },
-        { "at": 71.408, "text": "The closing phrase falls from G to F♯; two full chords bring the first half to rest in D major." }
+        { "at": 12.026, "text": "The melody enters after four bars; its held F♯ sounds above the alternating G and D bass notes." },
+        { "at": 42.928, "text": "The melody holds E while three different chords pass beneath it." },
+        { "at": 71.408, "text": "The closing phrase falls from G to F♯; two full chords close the first half in D major." }
       ],
       "sources": [
         { "title": "Mutopia 37: Gymnopédie No. 1, piano score", "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37" },
@@ -32,17 +32,17 @@
     },
     {
       "id": "s2",
-      "title": "Gongs in Paris, bells at the piano",
+      "title": "Gongs in Paris; bells at the piano",
       "listen": { "id": "debussy-cathedrale-engloutie", "from": 0, "to": 106 },
       "art": null,
       "score": null,
       "map": { "composer": "debussy", "year": 1889 },
       "edge": "gamelan-java--debussy-pagodes",
       "compare": null,
-      "text": "<p>At the 1889 Paris Exposition, Debussy heard Javanese gamelan: gongs ringing beneath quicker instrumental patterns. In the <i>Revue musicale S.I.M.</i> in 1913, he wrote that its counterpoint made Palestrina’s seem like “child’s play”. His <i>Pagodes</i> of 1903 had already brought gong-like bass notes to the piano. Here Marcelle Meyer plays <i>La cathédrale engloutie</i>, published in 1910. Bare fifths rise slowly, leaving long spaces for the notes to ring. As the left hand begins rolling beneath the ascending chords, the cathedral of Breton legend starts to emerge from the sea.</p>",
+      "text": "<p>At the 1889 Paris Exposition, Debussy heard Javanese gamelan, with gongs sounding beneath quicker instrumental patterns. In the <i>Revue musicale S.I.M.</i> in 1913, he wrote that its counterpoint made Palestrina’s seem like “child’s play”. His <i>Pagodes</i> of 1903 had already brought gong-like bass notes to the piano. Here Marcelle Meyer plays <i>La cathédrale engloutie</i>, published in 1910. Bare fifths rise slowly, with long spaces between them in which the notes ring. The left hand then begins rolling figures beneath the ascending chords, which represent the cathedral of Breton legend rising from the sea.</p>",
       "cues": [
-        { "at": 0, "text": "Marcelle Meyer plays <i>La cathédrale engloutie</i>: bare piano fifths rise like bells sounding across water." },
-        { "at": 80, "text": "The left hand begins rolling in triplets beneath the rising chords; the cathedral emerges from the mist." }
+        { "at": 0, "text": "Marcelle Meyer plays <i>La cathédrale engloutie</i>, in which bare fifths rise in the piano." },
+        { "at": 80, "text": "The left hand begins rolling in triplets beneath the rising chords as the cathedral emerges." }
       ],
       "sources": [
         { "title": "Brent Hugh: Debussy’s 1889 gamelan encounter, layers, tuning and Pagodes", "url": "https://brenthugh.com/debnotes/gamelan.html" },
@@ -53,18 +53,18 @@
     },
     {
       "id": "s3",
-      "title": "Flute, harp and an orange sun",
+      "title": "Flute, harp and orange sun",
       "listen": { "id": "debussy-nocturnes-nuages", "from": 268, "to": 372 },
-      "art": { "file": "File:Monet - Impression, Sunrise.jpg", "caption": "Claude Monet, <i>Impression, soleil levant</i>, 1872. An orange sun and dark boats stand out against the mist over Le Havre’s harbour." },
+      "art": { "file": "File:Monet - Impression, Sunrise.jpg", "caption": "Claude Monet, <i>Impression, soleil levant</i>, 1872. An orange sun and dark boats against the mist over the harbour at Le Havre." },
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Paris first heard <i>Nuages</i> in December 1900. Here, in the middle of the piece, flute and harp share a five-note melody over softly held strings, as if a patch of sky has cleared. The cor anglais then returns with its old, narrow phrase, and the sound draws in around it. Monet painted <i>Impression, soleil levant</i> from a hotel window in Le Havre in 1872. Dark boats sit close to the eye; the orange sun and its reflection stand out against the mist. Farther back, cranes and masts almost disappear into the morning haze.</p>",
+      "text": "<p>Paris first heard <i>Nuages</i> in December 1900. In the middle of the piece, flute and harp share a five-note melody over soft held strings. The cor anglais then returns with its earlier narrow phrase. Monet painted <i>Impression, soleil levant</i> from a hotel window in Le Havre in 1872. Dark boats are placed close to the viewer; the orange sun and its reflection stand out against the mist. Farther back, cranes and masts are barely visible in the morning haze.</p>",
       "cues": [
-        { "at": 288, "text": "Flute and harp share a melody made from five notes, floating above softly held strings." },
-        { "at": 324, "text": "The cor anglais returns to its old phrase as the flute-and-harp tune fades." },
-        { "at": 360, "text": "The returning phrases grow shorter, with more air around each wind voice." }
+        { "at": 288, "text": "Flute and harp play a melody built on five notes over quiet held chords in the strings." },
+        { "at": 324, "text": "The cor anglais plays its earlier phrase again as the flute-and-harp tune dies away." },
+        { "at": 360, "text": "The returning phrases grow shorter." }
       ],
       "sources": [
         { "title": "LA Phil: Debussy’s Nocturnes programme and the 1900/1901 premieres", "url": "https://www.laphil.com/works/nocturnes" },
@@ -75,17 +75,17 @@
     },
     {
       "id": "s4",
-      "title": "Ravel’s strings snap, then sing",
+      "title": "Ravel’s writing for strings",
       "listen": { "id": "ravel-quartet-scherzo", "from": 0, "to": 102 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Ravel finished his String Quartet in April 1903 and dedicated it to his teacher, Fauré. The scherzo begins with fingers on strings. Two violins, viola and cello pluck their notes, each with a little sting. A bowed melody then stretches over the continuing pizzicato, the long phrase riding above the short ones. Debussy was interested in how these four voices sat together. Writing to Ravel before the March 1904 première, he suggested a small adjustment to the playing: the viola could be a little quieter.</p>",
+      "text": "<p>Ravel finished his String Quartet in April 1903 and dedicated it to his teacher, Fauré. The scherzo opens pizzicato, with both violins, viola and cello plucking their notes. A bowed melody then enters in a long phrase over the continuing pizzicato. Debussy took an interest in how the four parts sat together. Writing to Ravel before the première in March 1904, he suggested a small change to the playing, that the viola could be a little quieter.</p>",
       "cues": [
-        { "at": 0, "text": "Two violins, viola and cello pluck the dance into life, each short note sharply outlined." },
-        { "at": 40, "text": "The bowed melody stretches across the quick plucked notes, carrying a long breath above their sharp little steps." }
+        { "at": 0, "text": "Two violins, viola and cello play the dance pizzicato in short, separate notes." },
+        { "at": 40, "text": "The bowed melody is played in long notes above quick plucked notes." }
       ],
       "sources": [
         { "title": "Stephen Walsh, Chamber Music Society: Ravel’s quartet, dedication and scherzo technique", "url": "https://www.chambermusicsociety.org/about-the-music/compositions/ravel-string-quartet" },
@@ -95,19 +95,19 @@
     },
     {
       "id": "s5",
-      "title": "Hokusai’s wave on Debussy’s cover",
+      "title": "Hokusai’s wave on the cover of Debussy’s score",
       "listen": { "id": "debussy-la-mer-dawn", "from": 0, "to": 180 },
       "art": { "file": "File:Katsushika Hokusai - Thirty-Six Views of Mount Fuji- The Great Wave Off the Coast of Kanagawa - Google Art Project.jpg", "caption": "Katsushika Hokusai, <i>Under the Wave off Kanagawa</i>, c. 1830–32, colour woodblock print. The wave arches over small boats, with Mount Fuji beyond." },
       "score": null,
       "map": null,
       "edge": "hokusai--debussy-la-mer-cover",
       "compare": null,
-      "text": "<p>The United States Air Force Band plays the opening of <i>La Mer</i> in Lawrence Odom’s concert-band transcription. A low B lies beneath the dawn; small phrases appear above it, separated by stretches of stillness. As the music begins to flow, groups of two and three notes cross one another. When Durand published the score in 1905, its cover carried an adapted detail of Hokusai’s wave. In the complete print, narrow boats lie under the curling crest. Far behind them, Mount Fuji stands beyond the reach of the water.</p>",
+      "text": "<p>The United States Air Force Band plays the opening of <i>La Mer</i> in Lawrence Odom’s concert-band transcription. A low B is held beneath the opening; short phrases enter above it, one at a time. Later, groups of two and three notes cross one another. When Durand published the score in 1905, its cover carried an adapted detail of Hokusai’s wave. In the complete print, narrow boats lie under the curling crest, and Mount Fuji stands far behind them, beyond the reach of the water.</p>",
       "cues": [
-        { "at": 0, "text": "Odom’s concert-band transcription opens over a low B, with small phrases stirring above it." },
-        { "at": 68, "text": "The low notes hold their ground while shorter phrases begin to move overhead." },
-        { "at": 102, "text": "The slow dawn opens into flowing motion; short calls gather over a running accompaniment." },
-        { "at": 164, "text": "Groups of two notes cross groups of three, giving the quiet movement a tug beneath its surface." }
+        { "at": 0, "text": "Odom’s concert-band transcription opens over a held low B, with short phrases above it." },
+        { "at": 68, "text": "The low notes are held while shorter phrases begin to move above them." },
+        { "at": 102, "text": "After the slow opening, the music moves faster; short calls enter over a running accompaniment." },
+        { "at": 164, "text": "Groups of two notes cross groups of three in the quiet movement." }
       ],
       "sources": [
         { "title": "Sibley Music Library: Durand’s 1905 edition and its Hokusai cover detail", "url": "https://www.esm.rochester.edu/sibley/la-mer2/" },
@@ -120,19 +120,19 @@
     },
     {
       "id": "s6",
-      "title": "Birds in the summer heat",
+      "title": "Birds in summer heat",
       "listen": { "id": "ravel-miroirs-oiseaux-tristes", "from": 0, "to": 142 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Ravel described the birds of <i>Oiseaux tristes</i> as lost in a dark forest during the hottest hours of summer. The piano begins high and alone, with a repeated B♭ and a tiny flourish. Beneath the next calls, the left hand moves in threes while the right hand divides its beat in two. A louder cry meets a distant, quiet answer. Ravel dedicated the piece to Ricardo Viñes, who first played <i>Miroirs</i> at the Salle Érard on 6 January 1906. When the opening call returns in D minor, held chords lie beneath it like shade.</p>",
+      "text": "<p>Ravel described the birds of <i>Oiseaux tristes</i> as lost in a dark forest during the hottest hours of summer. The piano begins high and alone, with a repeated B♭ and a short flourish. Beneath the next calls, the left hand moves in threes while the right hand divides its beat in two. A louder call is followed by a quiet answer. Ravel dedicated the piece to Ricardo Viñes, who first played <i>Miroirs</i> at the Salle Érard on 6 January 1906. When the opening call returns in D minor, held chords sound beneath it.</p>",
       "cues": [
-        { "at": 0, "text": "A high B♭ repeats softly, then opens into a small flourish; the left hand waits." },
-        { "at": 22, "text": "The left hand moves in threes beneath the right hand’s twos, circling under the bird’s call." },
-        { "at": 78, "text": "A loud call meets a distant, quiet answer while the lower notes keep turning." },
-        { "at": 108, "text": "The opening call returns in D minor, sheltered by softly held chords." }
+        { "at": 0, "text": "A high B♭ repeats softly, then opens into a small flourish; the left hand is silent." },
+        { "at": 22, "text": "The left hand plays in threes beneath the right hand’s twos and the bird’s call." },
+        { "at": 78, "text": "A loud call is answered quietly, at a distance, while the lower notes continue to turn." },
+        { "at": 108, "text": "The opening call returns in D minor over soft held chords." }
       ],
       "sources": [
         { "title": "Ravel, Miroirs: Demets first edition, Oiseaux tristes on scan pages 10–13", "url": "https://commons.wikimedia.org/wiki/File:IMSLP02693-Ravel-Miroirs_DemetsEd.pdf" },
@@ -144,18 +144,18 @@
     },
     {
       "id": "s7",
-      "title": "Karsavina’s bird takes command",
+      "title": "Karsavina as the bird",
       "listen": { "id": "stravinsky-firebird-infernal-dance", "from": 0, "to": 144 },
       "art": { "file": "File:Léon Bakst 001.jpg", "caption": "Léon Bakst, costume design for the Ballets Russes production of <i>The Firebird</i>, 1910." },
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>On 25 June 1910, Tamara Karsavina danced <i>The Firebird</i> at the Paris Opéra, with choreography by Michel Fokine for Diaghilev’s Ballets Russes. In the <i>Infernal Dance</i>, the bird forces Kashchei and his creatures into motion. The United States Marine Band plays Thomas Knox’s concert-band arrangement here. Short figures jab across the pulse; displaced accents make the dance lurch, and the music keeps springing back. Bakst’s costume design puts the bird on paper, ready for a dancer to inhabit. A longer melody then stretches across the beat, while Kashchei remains caught in her spell.</p>",
+      "text": "<p>On 25 June 1910, Tamara Karsavina danced <i>The Firebird</i> at the Paris Opéra, with choreography by Michel Fokine for Diaghilev’s Ballets Russes. In the <i>Infernal Dance</i>, the bird forces Kashchei and his creatures to dance. The United States Marine Band plays Thomas Knox’s arrangement for concert band. Short figures cut across the pulse, and the accents are displaced. Bakst’s costume design shows the bird on paper, before a dancer wore it. A longer melody then extends across the beat, while Kashchei remains under her spell.</p>",
       "cues": [
-        { "at": 0, "text": "The Marine Band plays Thomas Knox’s arrangement of Kashchei’s forced dance: short phrases strike and spring back." },
-        { "at": 62, "text": "Sharp accents pull across the steady pulse, making the dance lurch." },
-        { "at": 108, "text": "A longer melody stretches across the beat after the clipped opening phrases." }
+        { "at": 0, "text": "The Marine Band plays Thomas Knox’s arrangement of Kashchei’s forced dance, which is built from short phrases." },
+        { "at": 62, "text": "Sharp accents fall across the steady pulse." },
+        { "at": 108, "text": "After the clipped opening phrases, a longer melody runs across the beat." }
       ],
       "sources": [
         { "title": "Library of Congress: Ballets Russes collaboration and the first Paris season", "url": "https://www.loc.gov/collections/ballets-russes-de-serge-diaghilev/about-this-collection/" },
@@ -168,18 +168,18 @@
     },
     {
       "id": "s8",
-      "title": "A bassoon above the orchestra",
+      "title": "Bassoon and orchestra",
       "listen": { "id": "stravinsky-rite-adoration", "from": 0, "to": 180 },
       "art": null,
       "score": null,
       "map": { "composer": "stravinsky", "year": 1913 },
       "edge": null,
       "compare": null,
-      "text": "<p>On 29 May 1913, Pierre Monteux conducted the première of <i>The Rite of Spring</i> at the Théâtre des Champs-Élysées. Nijinsky had choreographed the ballet for Diaghilev’s company. The music begins with a bassoon high in its range, winding through a melody drawn from a Lithuanian folk-song collection. Other winds crowd around it, each finding a separate path through the thicket. This recording brings Stravinsky himself to the podium, conducting the Columbia Symphony Orchestra in January 1960. Near the introduction’s end, the wind calls thin out and the opening bassoon tune comes back, briefly exposed before the stamping begins.</p>",
+      "text": "<p>On 29 May 1913, Pierre Monteux conducted the première of <i>The Rite of Spring</i> at the Théâtre des Champs-Élysées. Nijinsky had choreographed the ballet for Diaghilev’s company. The music begins with a bassoon high in its range, playing a melody drawn from a Lithuanian folk-song collection. Other wind instruments enter around it, each with a separate line. In this recording Stravinsky conducts the Columbia Symphony Orchestra, in January 1960. Near the end of the introduction the wind parts thin out and the opening bassoon tune returns, briefly exposed, before the stamping begins.</p>",
       "cues": [
-        { "at": 0, "text": "A bassoon sings high in its range; other winds gradually gather around its winding tune." },
-        { "at": 75, "text": "Separate wind phrases overlap, cross and interrupt one another, crowding the opening melody." },
-        { "at": 150, "text": "The wind calls begin to thin out, leaving space around the bassoon before the dance." }
+        { "at": 0, "text": "A bassoon plays a winding melody high in its range; the other wind instruments enter one by one." },
+        { "at": 75, "text": "Separate wind phrases overlap, cross and interrupt one another around the opening melody." },
+        { "at": 150, "text": "The wind calls thin out before the dance, leaving space around the bassoon." }
       ],
       "sources": [
         { "title": "Pieter C. van den Toorn: premiere, Lithuanian tune source and opening construction", "url": "https://publishing.cdlib.org/ucpressebooks/public/book/stravinsky-and-the-rite-of-spring.html#d0e414" },
@@ -190,18 +190,18 @@
     },
     {
       "id": "s9",
-      "title": "The strings stamp, the horns strike",
+      "title": "Stamping strings and horn strikes",
       "listen": { "id": "stravinsky-rite-adoration", "from": 180, "to": 363 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>The strings stamp out the same chord at the opening of <i>Augurs of Spring</i>, pressing F♭ major against an E♭ dominant seventh. Horns strike selected attacks harder. The opening bars keep their steady 2/4 while the accents shift, leaving quiet strokes between the blows. In a letter to Nicholas Roerich on 26 September 1911, Stravinsky described an old woman in squirrel fur running in front of the dancers, stopping and interrupting their rhythm. He was composing this very dance with her before his eyes. Around the repeated tread, shorter phrases dart across the orchestra, and the horns strike again.</p>",
+      "text": "<p>The strings repeat the same chord at the opening of <i>Augurs of Spring</i>, F♭ major against an E♭ dominant seventh. Horns play selected attacks harder. The opening bars keep a steady 2/4 while the accents shift, with unaccented strokes between them. In a letter to Nicholas Roerich on 26 September 1911, Stravinsky described an old woman in squirrel fur running in front of the dancers, stopping and interrupting their rhythm. He had her in mind while composing this dance. Around the repeated chord, shorter phrases pass across the orchestra, and the horns enter again.</p>",
       "cues": [
         { "at": 185, "text": "The strings repeat their crowded chord; horns pick out certain strokes with extra force." },
         { "at": 225, "text": "The dance opens in 2/4, with quiet strokes filling the uneven gaps between the accents." },
-        { "at": 305, "text": "The dance swells around its recurring figures, then draws back again." },
+        { "at": 305, "text": "The dance grows louder around its recurring figures, then grows quieter again." },
         { "at": 345, "text": "A repeated tread holds beneath the shorter phrases, with the orchestra stamping and speaking at once." }
       ],
       "sources": [

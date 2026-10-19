@@ -1,0 +1,127 @@
+{
+  "batch": "nielsen",
+  "edges": [
+    {
+      "id": "nielsen--brahms-first-symphony-vienna-1894",
+      "from": "nielsen",
+      "to": "brahms",
+      "kind": "dedicated",
+      "year": 1894,
+      "title": "Nielsen’s inscription of his First Symphony to Brahms",
+      "works": {
+        "from": "Symphony No. 1 in G minor, Op. 7 (score inscribed “in tiefster Verehrung”)",
+        "to": "Brahms’s remark on the symphony, relayed by William Behrend, December 1895"
+      },
+      "claim": "<p>On 7 November 1894 Dr Eduard Schiff took Nielsen to [[brahms]] in Vienna, and Brahms asked to keep the symphony and the F minor String Quartet to look through. Nielsen wrote to him on 25 December. A copy of the First Symphony in the archive of the Gesellschaft der Musikfreunde in Vienna is inscribed to Brahms “in tiefster Verehrung”, in deepest veneration. Brahms did not reply in writing. In December 1895 the critic William Behrend, visiting him, heard him recall a new Danish symphony in G minor, by “a Hansen”, and say that it was good; Behrend brought Nielsen thanks and appreciative remarks.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): letter to Orla Rosenhoff, 13 November 1894",
+          "url": "https://epub3.kb.dk/cnb/EPUB/100520.xhtml",
+          "locator": "Diary extract on the visit to Brahms; he asked to keep the works, CNW 25 and CNW 56"
+        },
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): letter to Brahms, 25 December 1894",
+          "url": "https://epub3.kb.dk/cnb/EPUB/1100935A.xhtml",
+          "locator": "Editorial note: copy of the score of Symphony No. 1 inscribed to Brahms, Gesellschaft der Musikfreunde, Vienna"
+        },
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): draft letter to Brahms, 18 December 1894",
+          "url": "https://epub3.kb.dk/cnb/EPUB/100526.xhtml",
+          "locator": "Editorial note quoting William Behrend, Tilskueren, May 1897, p. 436"
+        }
+      ]
+    },
+    {
+      "id": "wagner--nielsen-dresden-ring-1890",
+      "from": "wagner",
+      "to": "nielsen",
+      "kind": "heard",
+      "year": 1890,
+      "title": "Nielsen and the Ring at Dresden",
+      "works": {
+        "from": "Der Ring des Nibelungen, Dresden, September 1890",
+        "to": "Nielsen’s diary, 10 and 13 September 1890"
+      },
+      "claim": "<p>On his first stay in Germany, on an Ancker grant, Nielsen heard the four operas of the <i>Ring</i> at Dresden in September 1890. His diary for 10 September, after <i>Das Rheingold</i>, reads: “The musician who does not think [[wagner]] great is himself very small.” After <i>Siegfried</i> on 13 September he wrote that the first act was the most manly and energetic music ever written and that it “sparks with steel and swords”. Knud Ketting notes that Nielsen later modified this view considerably.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): diary, 10 September 1890",
+          "url": "https://epub3.kb.dk/cnb/EPUB/100054.xhtml",
+          "locator": "Entry on Das Rheingold and Wagner"
+        },
+        {
+          "title": "Carl Nielsen Brevudgaven (online edition): diary, 13 September 1890",
+          "url": "https://epub3.kb.dk/cnb/EPUB/100057.xhtml",
+          "locator": "Entry on Siegfried, Act I"
+        },
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/",
+          "locator": "Section ‘Young and promising’: the Ring at Dresden in September 1890 and the later modification of his view"
+        }
+      ]
+    },
+    {
+      "id": "mozart--nielsen-wind-quintet-1921",
+      "from": "mozart",
+      "to": "nielsen",
+      "kind": "heard",
+      "year": 1921,
+      "title": "Mozart rehearsal and the Wind Quintet",
+      "works": {
+        "from": "A Mozart piece for piano and winds, rehearsed at Christian Christiansen’s home, autumn 1921",
+        "to": "Wind Quintet, Op. 43 (1922)"
+      },
+      "claim": "<p>In the autumn of 1921 Nielsen telephoned the pianist Christian Christiansen while he was rehearsing a Mozart piece with four members of the Copenhagen Wind Quintet. The players went on playing, Nielsen asked to come and listen, and soon afterwards he told the oboist Svend Christian Felumb that he would like to write a quintet for them. Knud Ketting writes that Nielsen heard how [[mozart]], above all in the variations of the last movement, plays with the character of each instrument. The Wind Quintet, finished in April 1922, ends with a set of variations.</p>",
+      "status": "inferred",
+      "note": "The Carl Nielsen Edition, following Torben Meyer, says only that Nielsen was inspired by hearing the Copenhagen Wind Quintet play a piece by Mozart at Christiansen’s home, and thinks it was probably the Quintet for piano and winds, K. 452. Ketting names Mozart’s Sinfonia Concertante and gives the telephone call. He cites no source for it.",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/",
+          "locator": "Section ‘A whole pile of works’: the origin of the Wind Quintet"
+        },
+        {
+          "title": "The Carl Nielsen Edition II/11, Chamber music 2: preface",
+          "url": "http://img.kb.dk/export/sites/kb_dk/da/nb/dcm/cnu/pdf/CNU_II_11_chamber_music_2.pdf",
+          "locator": "Preface to the Wind Quintet, p. xxxvi and footnote 138 (Torben Meyer; K. 452)"
+        },
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 70: Wind Quintet, Op. 43",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=70",
+          "locator": "Composition note: inspired by the Copenhagen Wind Quintet; dedicated to its five members"
+        }
+      ]
+    },
+    {
+      "id": "liszt--nielsen-fourth-symphony-1914",
+      "from": "liszt",
+      "to": "nielsen",
+      "kind": "modelled",
+      "year": 1914,
+      "title": "Liszt’s sonata and the Fourth Symphony’s single span",
+      "works": {
+        "from": "Piano Sonata in B minor",
+        "to": "Symphony No. 4, Op. 29, “The Inextinguishable”"
+      },
+      "claim": "<p>Knud Ketting writes that the idea of one large work without separate movements is said to have come from [[liszt]]’s B minor Sonata, which Nielsen’s friend Henrik Knudsen had played to him. Nielsen began the Fourth Symphony in 1914 and conducted the first performance on 1 February 1916. Its four sections, Allegro, Poco allegretto, Poco adagio quasi andante and Allegro, are played without a break.</p>",
+      "status": "inferred",
+      "note": "Ketting gives the story as hearsay (“is said to have come from”) and names no letter or diary. No document by Nielsen that mentions Liszt’s sonata has been consulted.",
+      "sources": [
+        {
+          "title": "Knud Ketting: Carl Nielsen biography, Carl Nielsen Society",
+          "url": "https://www.carlnielsen.dk/gb/bio/",
+          "locator": "Section ‘Years of crisis’: the idea for a symphony without separate movements, May 1914"
+        },
+        {
+          "title": "Catalogue of Carl Nielsen’s Works, CNW 28: Symphony No. 4, Op. 29",
+          "url": "https://www.kb.dk/dcm/cnw/document.xq?n=28",
+          "locator": "Composition 1914–16; four numbered sections; first performance 1 February 1916"
+        }
+      ]
+    }
+  ],
+  "figures": []
+}

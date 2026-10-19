@@ -1,5 +1,16 @@
 {
   "id": "beach-years-at-the-spring",
   "verdict": "pass",
-  "defects": []
+  "reviewer": "RevBeach",
+  "date": "2026-10-19",
+  "scope": "MEAS: pitch and pitch-energy trace of the cached National Jukebox MP3 (114.33 s) against the vocal line of the 1900 A. P. Schmidt print (pp. 3–5 viewed as images). Re-timing only; the earlier review of rights, identity and text is unchanged.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "SECTIONS_AND_CUES_EARLY",
+      "finding": "The Beach section and its note were placed at 52 s and the “Return of the opening lines” note at 67 s. In the file, La Forge’s song ends on a held A♭5 at 51.6–55 s with a short tag to about 60 s, and near silence follows. The Beach song’s first note (A♭4) comes at 64.5 s; E♭5 at “day’s” at 67.8 s, F5 at “Morning’s” at 70.4 s and G♭5 at “The hillside’s” at 72.7 s belong to the first setting, whose held “dew-pearled” (E♭5) ends at about 76.8 s; the restart a tempo begins at about 77.3 s. The 52 s note therefore appeared during La Forge’s final note, and the 67 s note described a restart that had not yet been sung.",
+      "fix": "Sections and notes moved to 64.5 s (Beach’s first setting) and 77.3 s (restart). Section B relabelled “First setting of the opening lines”; the evidence of the restart note records that the recording follows the printed order. Note text, titles and basis unchanged; validate.mjs prints ok."
+    }
+  ]
 }

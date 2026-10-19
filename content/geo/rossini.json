@@ -18,7 +18,7 @@
     {
       "name": "Bologna", "country": "Kingdom of Italy (now Italy)", "lat": 44.4939, "lon": 11.3428,
       "from": "1806-04-14", "kind": "studied",
-      "what": "Enrolled at the Liceo Musicale in piano and cello; subsequently studied counterpoint with Stanislao Mattei.",
+      "what": "Enrolled at the Liceo Musicale in piano and cello; later studied counterpoint with Stanislao Mattei.",
       "status": "documented",
       "sources": [{ "title": "Rossini Opera Festival — chronology, 1806", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
     },
@@ -88,7 +88,7 @@
     {
       "name": "Paris", "country": "Second French Empire (now France)", "lat": 48.8567, "lon": 2.3522,
       "from": "1855", "to": "1868", "kind": "lived",
-      "what": "Returned with Olympe Pélissier. Their Paris home and villa at Passy became meeting places for musicians; he wrote the late Péchés de vieillesse and Petite messe solennelle.",
+      "what": "Returned with Olympe Pélissier. Their Paris home and villa at Passy became meeting places for musicians. He wrote the late Péchés de vieillesse and the Petite messe solennelle.",
       "status": "documented",
       "sources": [{ "title": "Rossini Opera Festival — chronology, 1855–68", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
     },

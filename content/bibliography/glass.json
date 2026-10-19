@@ -1,0 +1,42 @@
+{
+ "id": "glass",
+ "kind": "composer",
+ "items": [
+  {
+   "cite": "Philip Glass, *Words Without Music: A Memoir* (Liveright, 2015).",
+   "url": "https://openlibrary.org/works/OL19997303W",
+   "kind": "memoir",
+   "note": "The composer’s own account of the Baltimore record shop, the lessons with Boulanger, the travels in India and Central Asia and the day jobs of the 1960s and 1970s."
+  },
+  {
+   "cite": "Philip Glass, *Music by Philip Glass*, edited by Robert T. Jones (Harper & Row, 1987; Da Capo Press, 1995).",
+   "url": "https://openlibrary.org/works/OL3744840W",
+   "kind": "primary writings",
+   "note": "Glass on his early pieces and the portrait operas; Tim Page’s notes for the Nonesuch recordings quote it on Einstein."
+  },
+  {
+   "cite": "Keith Potter, *Four Musical Minimalists: La Monte Young, Terry Riley, Steve Reich, Philip Glass* (Cambridge University Press, 2000).",
+   "url": "https://openlibrary.org/works/OL6016748W",
+   "kind": "study",
+   "note": "Treats Glass together with La Monte Young, Terry Riley and Steve Reich, and places his early work among his New York contemporaries."
+  },
+  {
+   "cite": "Tim Page, ‘“Einstein on the Beach”—Philip Glass, Robert Wilson (1979)’, essay for the Library of Congress National Recording Registry (2012).",
+   "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/EinsteinOnTheBeach.pdf",
+   "kind": "article",
+   "note": "How Glass and Wilson chose their subject, what the text and music consist of, and how the 1976 performances were received."
+  },
+  {
+   "cite": "Alex Ross, ‘Sound and Vision’, *The New Yorker*, 27 June 2005.",
+   "url": "https://www.newyorker.com/magazine/2005/06/27/sound-and-vision",
+   "kind": "article",
+   "note": "A review of the Lincoln Center performances of the three Reggio films, with an account of how the score for Koyaanisqatsi was fitted to the images."
+  },
+  {
+   "cite": "Philip Glass, official website: compositions, recordings and films.",
+   "url": "https://philipglass.com/compositions/all/",
+   "kind": "catalogue",
+   "note": "Premiere dates, commissions and instrumentation for each work, with the composer’s own notes and the credits of the principal recordings."
+  }
+ ]
+}

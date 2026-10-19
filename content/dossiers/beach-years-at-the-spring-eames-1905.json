@@ -1,0 +1,186 @@
+{
+  "id": "beach-years-at-the-spring-eames-1905",
+  "work": {
+    "title": "The Year’s at the Spring",
+    "catalogue": "Op. 44, No. 1",
+    "movement": "",
+    "version": {
+      "value": "Beach’s Browning setting, complete: both settings of the opening lines, then the rest of the poem. It is the second of two songs on one 12-inch Victor side, after Reynaldo Hahn’s “L’Incrédule” (sung in French). The label gives the key of the Beach song as D♭.",
+      "status": "inferred",
+      "sourceIds": ["dahr-matrix", "catalogue-1908", "booklet", "score"],
+      "note": "The pairing, the languages and the key D♭ are documented: the Discography of American Historical Recordings notes that the original label of Victor 85057 shows the Beach song in D flat, and the May 1908 catalogue lists the same pairing. That the track is the whole song is inferred by comparing its sung pitches with the vocal part of the 1900 edition (B♭ version, read in D♭): the leaps to E♭, F and G♭ of the first setting fall in the first twelve seconds, and the restart on p. 4 follows at about fifteen seconds. No source states it, and the D♭ version of the edition has not been seen."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Emma Eames", "role": "soprano" }
+    ],
+    "status": "documented",
+    "sourceIds": ["dahr-matrix", "booklet", "archive"],
+    "note": "The Discography of American Historical Recordings describes the matrix as “Soprano vocal solo, with piano” and names no pianist; the Romophone booklet lists this track among those with piano and gives no accompanist."
+  },
+  "session": {
+    "date": {
+      "value": "1905-03-16",
+      "status": "documented",
+      "sourceIds": ["dahr-matrix", "booklet", "archive"],
+      "note": "Matrix C-2314, take 2 (the master). Take 1, of 20 February 1905, was destroyed.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York, New York, United States",
+      "status": "documented",
+      "sourceIds": ["dahr-matrix"],
+      "note": "Recording place from the Discography of American Historical Recordings; no studio address is given."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor Talking Machine Company, Red Seal (12-inch single-faced)",
+      "status": "documented",
+      "sourceIds": ["dahr-object", "catalogue-1908"],
+      "note": "The May 1908 catalogue lists the disc on the Emma Eames page at $3.00."
+    },
+    "catalogue": {
+      "value": "Victor 85057; also numbered Victor 88008",
+      "status": "documented",
+      "sourceIds": ["dahr-matrix", "dahr-object-85057", "catalogue-1908", "booklet"],
+      "note": "The Discography of American Historical Recordings lists this matrix under 85057 and under 88008, and the May 1908 catalogue lists the pairing with “L’Incrédule” as 88008. The July 1909 catalogue gives 88008 to Eames’s 1908 remake of the song. The Romophone booklet gives 85057."
+    },
+    "matrixTakeSides": {
+      "value": "C-2314, take 2",
+      "status": "documented",
+      "sourceIds": ["dahr-matrix", "booklet"],
+      "note": "Both songs are on one matrix, which the Discography of American Historical Recordings titles “L’Incrédule” with “The year’s at the spring” as an additional title and which it notes was “Also recorded as C-6203”, the 1908 remake. The Romophone booklet gives C 2314-2."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Ward Marston, transfers and audio restoration; Ward Marston, producer; Virginia Barder, executive producer. Romophone 81001-2, CD 1, track 5.",
+      "status": "documented",
+      "sourceIds": ["booklet", "archive"],
+      "note": "These credits are printed for the whole set. The Internet Archive item (whose own text gives the set number as 81000-2) names the set and the track but no separate engineer for the file; the person who ripped and uploaded it is not credited as an engineer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["booklet", "archive-data", "beach-discography"],
+      "note": "The Archive descriptions date the set to 1993; a Beach discography gives 1995, and the booklet scan prints no year. The dates of the disc transfer and the restoration are not stated. The Internet Archive upload of 8 April 2025 is a copying event, not a transfer date."
+    },
+    "processing": {
+      "value": "Restoration by Ward Marston for the Romophone CD, with no settings stated; the Internet Archive derives its VBR MP3 from an uploaded WAV or FLAC rip of the CD.",
+      "status": "documented",
+      "sourceIds": ["booklet", "archive", "archive-data"],
+      "note": "The closing chord of this track is D♭ major at concert pitch, within about a tenth of a semitone of A = 440 Hz, which agrees with the key on the original label. Stylus, equalisation and noise reduction are not documented. About five seconds of silence follow the last chord."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/emma-eames-cd-1/05%20-%20Emma%20Eames%20-%20CD%201%20-%20The%20Year's%20at%20the%20Spring%20(Beach)%20Mx.%20C-2314-2%20(part)%2C%20Victor%2085057%20(16.III.1905).mp3",
+    "sourceChain": ["dahr-matrix", "booklet", "archive", "archive-data"],
+    "format": "Internet Archive VBR MP3 derivative of one track of a Romophone CD reissue; one file, no concatenation or edits by Contrapunctus",
+    "durationSeconds": 59.04
+  },
+  "rights": {
+    "composition": {
+      "value": "Out of copyright: Beach died in 1944 and Browning in 1889.",
+      "status": "inferred",
+      "sourceIds": ["score"],
+      "note": "Life-plus-70 terms have run out for both; the first edition was published in the United States in 1900. This covers the song, not modern editions."
+    },
+    "recording": {
+      "value": "US public domain: first published by May 1908 as Victor 88008 (recorded 16 March 1905, issued as Victor 85057). The Archive item carries the Public Domain Mark.",
+      "status": "documented",
+      "sourceIds": ["catalogue-1908", "dahr-matrix", "dahr-object-85057", "us-term", "archive", "booklet", "abs-cbs", "pdm"],
+      "note": "Selected under the project’s us-published-before-cutoff rule: a recording first published before 1923 had exhausted its federal term by 31 December 2021. The Discography of American Historical Recordings gives a publication year of [1905] for Victor 85057; the dated catalogue is the source relied on for 1908 as the latest year. The audio is the Romophone restoration by Ward Marston. The Public Domain Mark was applied by the uploader, is a statement by the person who identified the work, and is not the basis for publication. The scanned booklet carries no copyright notice for the transfers (its only © line is for the essay; the tray insert is not in the scan), and the track is one continuous performance in score order. The Ninth Circuit held in ABS Entertainment v. CBS (2018) that a remaster distinguished only by change of medium, declicking or noise reduction generally lacks the originality needed for a new copyright. No source consulted shows Romophone or Marston dedicating the restoration to the public domain, and a claim outside the United States has not been ruled out; the booklet’s text and the set’s compilation are not claimed as public domain."
+    },
+    "creditLine": "Amy Beach, The Year’s at the Spring, Op. 44 No. 1. Emma Eames, soprano, with piano. Victor 85057 (later 88008), matrix C-2314 take 2, New York, 16 March 1905. Transfer and restoration by Ward Marston, Romophone 81001-2, via the Internet Archive. Recording: US public domain (published by 1908).",
+    "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Emma Eames, The Complete Victor Recordings (1905–1911), CD 1",
+      "url": "https://archive.org/details/emma-eames-cd-1",
+      "locator": "Track 5, The Year's at the Spring (Beach), Mx. C-2314-2 (part), Victor 85057 (16.III.1905); Transfers by Ward Marston; Public Domain Mark",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "archive-data",
+      "title": "Internet Archive item metadata and file manifest, emma-eames-cd-1",
+      "url": "https://archive.org/metadata/emma-eames-cd-1",
+      "locator": "Track 5 MP3 length 59.04 s; licence URL; upload date 8 April 2025",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "booklet",
+      "title": "Emma Eames, Complete Victor Recordings 1905–1911, Romophone 81001-2, booklet scan",
+      "url": "https://archive.org/details/eames-complete-victor-recordings-1905-1911-romophone-81001-2-1993",
+      "locator": "Track list: L’Incrédule (Hahn) and The Year's at the Spring (Beach), 16 iii 1905, C 2314-2 (Victor 85057); CD 1 tracks 1–15 with piano; “Transfers and audio restoration by Ward Marston”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "dahr-matrix",
+      "title": "Discography of American Historical Recordings: Victor matrix C-2314, L’Incrédule / Emma Eames",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200003689",
+      "locator": "Take 1, 20 February 1905, destroyed; take 2, 16 March 1905, master, Victor 85057; label key D flat for the second selection; sung in English; “Also recorded as C-6203”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "dahr-object",
+      "title": "Discography of American Historical Recordings: Victor 88008 (Red Seal 12-in. single-faced)",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/55891",
+      "locator": "Matrices C-2314 (1905) and C-6203 (1908) released under this number",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "dahr-object-85057",
+      "title": "Discography of American Historical Recordings: Victor 85057 (Red Seal 12-in. single-faced)",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/55071",
+      "locator": "Matrix C-2314, take 2; MARC publication date [1905]",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "catalogue-1908",
+      "title": "New Victor Record Catalogue (May 1908), Internet Archive",
+      "url": "https://archive.org/details/newvictorrecordc00vict_0",
+      "locator": "p. 45, Emma Eames: 88008, L’Incrédule (French, Reynaldo Hahn) and The Year’s at the Spring (English, Beach), twelve-inch, $3.00",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "score",
+      "title": "Three Browning Songs, Op. 44, A. P. Schmidt, 1900, Internet Archive",
+      "url": "https://archive.org/details/per_women-composers-collection_the-years-at-the-spring_1900",
+      "locator": "No. 1, pp. 3–5: title-page incipits in B♭ and D♭, Allegro di molto, first statement on p. 3, a tempo restart on p. 4, climax and close on p. 5",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "us-term",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term section: recordings first published before 1923, additional period ended 31 December 2021",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "abs-cbs",
+      "title": "ABS Entertainment, Inc. v. CBS Corp., No. 16-55917 (9th Cir., amended opinion, 31 October 2018)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2018/10/31/16-55917.pdf",
+      "locator": "Part IV.A: remastering, originality and derivative sound recordings; quotes Copyright Office Circular 56 on declicking and noise reduction",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "pdm",
+      "title": "Creative Commons: Public Domain Mark 1.0 deed",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "locator": "Other Information: the work may not be free of known copyright restrictions in all jurisdictions; no warranties by the person who identified the work",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "beach-discography",
+      "title": "AMY BEACH (1867–1944): Discography",
+      "url": "https://www.amybeach.org/music/discography/",
+      "locator": "“The year’s at the spring”: Emma Eames: The Complete Victor Recordings (1905–1911), Romophone #81001, 1995",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-19" }
+}

@@ -18,45 +18,45 @@ export default {
   "source": {
     "file": "File:Wolfgang Amadeus Mozart - Clarinet Concerto - 1. Allegro.ogg"
   },
-  "intro": "Mozart gives the clarinet a graceful A major tune, then sends it through quick runs, low phrases and sudden turns into minor keys. William McColl plays a basset clarinet of his own construction with Abraham Kaplan and the University of Washington Symphony Orchestra.",
+  "intro": "The first movement, Allegro, of Mozart’s Clarinet Concerto in A major, K. 622, sets an A major theme for the clarinet among quick runs, low phrases and sudden turns into minor keys. William McColl plays a basset clarinet he built himself, with Abraham Kaplan conducting the University of Washington Symphony Orchestra.",
   "sections": [
     {
       "t": 0,
-      "label": "Intro · The strings introduce the tune",
+      "label": "Intro · Strings present the theme",
       "m": "Intro",
-      "mNote": "A major phrases pass between strings and winds"
+      "mNote": "A major phrases pass between strings and winds."
     },
     {
       "t": 100,
-      "label": "A · The clarinet takes the floor",
+      "label": "A · Clarinet solo entry",
       "m": "A",
-      "mNote": "The soloist extends the theme into new melodies and runs"
+      "mNote": "The soloist extends the theme into new melodies and runs."
     },
     {
       "t": 356,
-      "label": "Dev · The solo tune changes key",
+      "label": "Dev · Solo clarinet theme modulates",
       "m": "Dev",
-      "mNote": "Clarinet phrases travel beyond the exposition’s E major close"
+      "mNote": "Clarinet phrases modulate beyond the exposition’s close in E major."
     },
     {
       "t": 510,
-      "label": "A′ · The tune returns in A",
+      "label": "A′ · Opening theme returns in A major",
       "m": "A′",
-      "mNote": "The clarinet recovers the opening melody above quiet strings"
+      "mNote": "The clarinet plays the opening melody over quiet strings."
     },
     {
       "t": 704,
       "label": "Coda · The orchestra finishes in A",
       "m": "Coda",
-      "mNote": "Strings and winds take over the closing phrases"
+      "mNote": "Strings and winds take over the closing phrases."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The strings begin the conversation",
-      "text": "The strings introduce a graceful A major melody. Winds soon join their answers, and Mozart sets parts of the tune chasing one another in canon. The orchestra has a lively conversation of its own before the first independent solo.",
+      "title": "Opening orchestral exposition",
+      "text": "The strings play the first theme, in A major. The winds soon join, and Mozart sets parts of the tune in canon. The orchestra plays its own exposition before the clarinet’s first independent solo.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), I, pp. 207–211. Calvin Dotsey describes the canon within the opening orchestral exposition: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/."
@@ -64,8 +64,8 @@ export default {
     {
       "t": 100,
       "kind": "form",
-      "title": "The melody gains a soloist",
-      "text": "The clarinet takes up the opening melody over soft strings. It soon extends the tune, adds new phrases and runs farther than the orchestra’s version. The wind section rests at the entry, giving the soloist room.",
+      "title": "First solo entry, clarinet",
+      "text": "The clarinet takes up the opening melody over soft strings. It soon extends the tune with new phrases and runs further than the orchestra’s version does. The wind section rests at the clarinet’s entry.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), I, first solo from bar 57, p. 211. The solo exposition’s new melodies are discussed by Calvin Dotsey."
@@ -73,8 +73,8 @@ export default {
     {
       "t": 150,
       "kind": "life",
-      "title": "First, a basset horn",
-      "text": "A surviving sketch shows Mozart first planning the concerto for a basset horn in G. He soon switches to the new basset clarinet in A, which reaches the octave below middle C, and Stadler plays it with great skill.",
+      "title": "Sketch for basset horn in G",
+      "text": "A surviving sketch shows that Mozart first planned the concerto for a basset horn in G. He soon changed to the new basset clarinet in A, which reached the octave below middle C. Stadler played it with great skill.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto”: the sketch for a basset horn in G, the basset clarinet in A with the octave below middle C, and Stadler’s playing: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
@@ -83,7 +83,7 @@ export default {
       "t": 210,
       "kind": "life",
       "title": "Written for Anton Stadler",
-      "text": "Mozart writes the concerto for Anton Stadler and his extended-range clarinet. Its extra low notes open up another room in the instrument: the solo can descend below the ordinary clarinet’s compass, then climb back into its bright upper voice.",
+      "text": "Mozart wrote the concerto for Anton Stadler and his extended-range clarinet. The instrument’s extra low notes let the solo part descend below the ordinary clarinet’s compass before it climbs back into the upper register.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Calvin Dotsey, Houston Symphony, on Stadler’s basset clarinet and the concerto’s origin: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/. The performance uses McColl’s self-built basset clarinet: https://soniventorum.com/soniventorum_archives.html."
@@ -91,8 +91,8 @@ export default {
     {
       "t": 245,
       "kind": "life",
-      "title": "A friend who never paid",
-      "text": "Stadler is a fellow Freemason and a habitual borrower. Mozart’s widow and sister-in-law later say he never repaid what he borrowed, and that he owed Mozart some 500 florins at his death. Mozart still seems to enjoy his company.",
+      "title": "Anton Stadler and Mozart’s money",
+      "text": "Stadler was a fellow Freemason and a habitual borrower. Mozart’s widow and sister-in-law later said that he never repaid what he borrowed, and that he owed Mozart some 500 florins when Mozart died.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto”, citing comments by Mozart’s widow and sister-in-law (the debt is described as alleged); the accounts were not traced to a primary letter: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
@@ -100,8 +100,8 @@ export default {
     {
       "t": 280,
       "kind": "music",
-      "title": "The soloist accompanies the orchestra",
-      "text": "The clarinet’s quick broken chords make an accompaniment beneath the orchestra’s phrases. Mozart lets the soloist be useful in several ways: it can sing the melody, answer it, or keep a stream of notes moving underneath.",
+      "title": "Clarinet accompanying the orchestra",
+      "text": "Later in the solo exposition the clarinet plays quick broken chords beneath the orchestra’s phrases. Elsewhere in the movement Mozart gives the soloist the melody, or answering phrases.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), I, later solo exposition, orchestral phrases above the clarinet’s running broken-chord figures."
@@ -109,8 +109,8 @@ export default {
     {
       "t": 356,
       "kind": "form",
-      "title": "The tune leaves familiar ground",
-      "text": "After the orchestra closes in E major, the clarinet begins the development with a familiar phrase. Changing keys draw it away from the opening’s easy balance. The soloist’s wide range gives these exchanges a deep bass voice as well as a singing top.",
+      "title": "Development, clarinet entry",
+      "text": "After the orchestra closes in E major, the clarinet begins the development with a phrase heard earlier in the movement. The harmony then modulates through several keys. In these exchanges the soloist uses both the low and the high ends of its range.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), I, development following the E major orchestral close; Calvin Dotsey’s account of the first movement."
@@ -119,7 +119,7 @@ export default {
       "t": 400,
       "kind": "life",
       "title": "The lost autograph",
-      "text": "Stadler says the portmanteau holding Mozart’s manuscripts was stolen in Germany; the widow is told it was pawned there for 73 ducats. The first edition moves the low passages up an octave for an ordinary clarinet and does not say which. Players on a basset clarinet reconstruct them by educated guesses.",
+      "text": "Stadler said that the portmanteau holding Mozart’s manuscripts was stolen in Germany; the widow was told it had been pawned there for 73 ducats. The first edition moved the low passages up an octave for an ordinary clarinet without marking which. Basset clarinettists reconstruct them by educated guesses.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Constanze Mozart to Johann André, 31 May 1800, in the translation given by Matthew Tift, “Excuse Me, Where Can I Find Mozart’s Clarinet Concerto?” (2002): Stadler “declares that while he was in Germany, his portmanteau, with these pieces in it, was stolen”; others assure her it “was pawned there for 73 ducats”: https://matthewtift.com/sites/default/files/2019-03/2002-02-23-excuse-me-where-can-i-find-mozarts-clarinet-concerto.pdf. The transposed first edition and the attempts at reconstruction: Calvin Dotsey, Houston Symphony: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
@@ -127,8 +127,8 @@ export default {
     {
       "t": 455,
       "kind": "world",
-      "title": "McColl’s handmade basset clarinet",
-      "text": "In December 1987, William McColl performs the concerto on a basset clarinet he has built himself. The University of Washington orchestra plays under Abraham Kaplan. The maker and the soloist are the same person.",
+      "title": "McColl’s basset clarinet, 1987",
+      "text": "In December 1987 William McColl played the concerto on a basset clarinet he had built himself. The University of Washington orchestra accompanied him under Abraham Kaplan.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The Soni Ventorum archive identifies the performers, date and McColl’s instrument: https://soniventorum.com/soniventorum_archives.html."
@@ -136,8 +136,8 @@ export default {
     {
       "t": 510,
       "kind": "form",
-      "title": "A major and the opening melody",
-      "text": "The clarinet brings the opening melody back in A major. Quiet strings surround it, with first violins answering the solo line. The familiar phrases have returned, though Mozart still gives the soloist plenty of room to elaborate them.",
+      "title": "Return of the opening theme",
+      "text": "The clarinet plays the opening melody again in A major, with quiet strings around it and first violins replying to the solo line. Mozart leaves the soloist room to elaborate the phrases.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), I, recapitulation, p. 227."
@@ -145,8 +145,8 @@ export default {
     {
       "t": 590,
       "kind": "world",
-      "title": "Prague, October 1791",
-      "text": "The concerto is probably first heard in Prague on 16 October 1791, less than two months before Mozart dies at thirty-five. It is the last major instrumental work he completes.",
+      "title": "First performance, Prague, 1791",
+      "text": "The concerto was probably first heard in Prague on 16 October 1791, less than two months before Mozart died at thirty-five. It was the last major instrumental work he completed.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto” (“likely premiered in Prague on October 16, 1791”; “the last major instrumental composition he composed”): https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
@@ -154,8 +154,8 @@ export default {
     {
       "t": 704,
       "kind": "form",
-      "title": "The orchestra takes the last turn",
-      "text": "Strings and winds take over the closing phrases in A major. Mozart gives this movement no large, separate cadenza: the clarinet’s freedom has been woven through the solos. The final orchestral cadence answers its last flourish.",
+      "title": "Final ritornello in A major",
+      "text": "Strings and winds take over the closing phrases in A major. Mozart wrote no large, separate cadenza for this movement. The final orchestral cadence follows the clarinet’s last flourish.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), I, final ritornello, pp. 234–235. Calvin Dotsey notes the absence of a conventional first-movement cadenza."
@@ -165,12 +165,12 @@ export default {
     {
       "id": "first-solo",
       "title": "The clarinet takes the opening tune",
-      "from": "Intro · The strings introduce the tune",
-      "to": "A · The clarinet takes the floor",
+      "from": "Intro · Strings present the theme",
+      "to": "A · Clarinet solo entry",
       "at": {
         "t": 100
       },
-      "how": "<p>The full orchestra closes in A major. Flutes, bassoons and horns then fall silent, and the clarinet begins its independent solo over quiet strings. The familiar melody carries across the change of players, with the violins supplying answers beneath it.</p>",
+      "how": "<p>The full orchestra closes in A major. Flutes, bassoons and horns then stop, and at bar 57 the clarinet begins its independent solo over quiet strings. The clarinet takes over the familiar melody from the orchestra, and the violins play responses beneath it.</p>",
       "devices": [
         "perfect cadence",
         "orchestration change",
@@ -183,13 +183,13 @@ export default {
     },
     {
       "id": "into-development",
-      "title": "Beyond the E major cadence",
-      "from": "A · The clarinet takes the floor",
-      "to": "Dev · The solo tune changes key",
+      "title": "From exposition to development",
+      "from": "A · Clarinet solo entry",
+      "to": "Dev · Solo clarinet theme modulates",
       "at": {
         "t": 356
       },
-      "how": "<p>The orchestra rounds off the exposition in E major. The clarinet resumes with a familiar melodic phrase over lighter string accompaniment. Repeated figures and changing bass notes carry the solo away from that cadence into the development.</p>",
+      "how": "<p>The orchestra closes the exposition with a cadence in E major. The clarinet re-enters with a phrase heard earlier in the movement, accompanied by lighter strings. Over repeated figures and a moving bass line the solo part leaves E major and leads into the development.</p>",
       "devices": [
         "perfect cadence",
         "texture change",
@@ -202,13 +202,13 @@ export default {
     },
     {
       "id": "into-recapitulation",
-      "title": "E prepares the return to A",
-      "from": "Dev · The solo tune changes key",
-      "to": "A′ · The tune returns in A",
+      "title": "Dominant E leads back to A major",
+      "from": "Dev · Solo clarinet theme modulates",
+      "to": "A′ · Opening theme returns in A major",
       "at": {
         "t": 510
       },
-      "how": "<p>The dominant E prepares the return to A major. The clarinet restores the opening tune over quiet upper strings, with cellos and double basses resting at its entry. First violins answer the solo line as the opening phrases unfold again.</p>",
+      "how": "<p>The harmony rests on the dominant, E, before the return to A major. The clarinet restores the opening tune over the upper strings at a quiet dynamic. Cellos and double basses rest at its entry. First violins reply to the solo line as the opening phrases return.</p>",
       "devices": [
         "retransition",
         "motivic link",
@@ -220,13 +220,13 @@ export default {
     },
     {
       "id": "final-ritornello",
-      "title": "The orchestra completes the soloist’s cadence",
-      "from": "A′ · The tune returns in A",
+      "title": "Clarinet flourish into closing ritornello",
+      "from": "A′ · Opening theme returns in A major",
       "to": "Coda · The orchestra finishes in A",
       "at": {
         "t": 704
       },
-      "how": "<p>The clarinet’s closing flourish leads into the orchestral ritornello in A major. Winds reinforce the strings, then the scoring briefly thins before the final full cadence. Mozart finishes with the orchestra together, without a separate cadenza breaking the approach.</p>",
+      "how": "<p>The clarinet’s closing flourish leads into the orchestral ritornello in A major. The winds reinforce the strings, and the scoring then thins briefly before the final full cadence. The movement ends with the full orchestra and no separate cadenza before the close.</p>",
       "devices": [
         "perfect cadence",
         "orchestration change",
@@ -300,7 +300,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "The clarinet begins its first solo above violins and viola; lower strings join later."
+        "note": "The clarinet plays its first solo above the violins and viola; the lower strings enter later."
       },
       {
         "t": 280,
@@ -380,7 +380,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "The clarinet recovers the opening tune above violins and viola; lower strings join later."
+        "note": "The clarinet plays the opening tune again above violins and viola; the lower strings enter later."
       },
       {
         "t": 704,
@@ -398,7 +398,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "Winds, horns and strings gather for the final A major cadence."
+        "note": "Winds, horns and strings play the final A major cadence."
       },
       {
         "t": 741,

@@ -1,0 +1,36 @@
+{
+  "id": "jacquet-de-la-guerre",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Catherine Cessac, *Élisabeth Jacquet de La Guerre, une femme compositeur sous le règne de Louis XIV* (Arles: Actes Sud, 1995).",
+      "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729/Introduction",
+      "kind": "biography",
+      "note": "The standard biography of a harpsichordist trained at court who became a published composer of sonatas, cantatas and an opera, by the scholar who also compiled the catalogue of the works. Listed in the bibliography of the Philidor catalogue."
+    },
+    {
+      "cite": "Élisabeth-Claude Jacquet de La Guerre, *The Collected Works*, 6 vols. (New York: The Broude Trust, 2005–13). Vol. 1, harpsichord works, ed. Arthur Lawrence, with a biographical essay by Mary Cyr (2008); vol. 2, instrumental works, ed. Mary Cyr (2008); vol. 5, *Céphale et Procris*, ed. Albert Cohen (2013).",
+      "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729/Introduction",
+      "kind": "edition",
+      "note": "The edition prints the harpsichord books, the sonatas, the cantatas and the opera with critical commentary. The commentary sets out which sources survive for each work and how the two printings of the 1687 book and the manuscript copies differ."
+    },
+    {
+      "cite": "Catherine Cessac, *Catalogue de l’œuvre d’Élisabeth Jacquet de La Guerre (1665–1729)*, Centre de musique baroque de Versailles, portail Philidor.",
+      "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729",
+      "kind": "catalogue",
+      "note": "Each entry transcribes the title page of the collection, gives its dedication and reviews, and quotes the Mercure galant, the Journal des sçavans and Brossard’s catalogue."
+    },
+    {
+      "cite": "Évrard Titon du Tillet, *Le Parnasse françois* (Paris: Jean-Baptiste Coignard, 1732), entry CCXLIX, pp. 635–36.",
+      "url": "https://archive.org/details/bub_gb_KjX7hZEPSsgC",
+      "kind": "primary source",
+      "note": "Titon du Tillet’s account, written soon after her death, recounts her years at court, her marriage, her improvising and her works, and records her death and burial."
+    },
+    {
+      "cite": "Mary Cyr, “Elisabeth Jacquet de La Guerre: Myth or Marvel? Seeking the Composer’s Individuality”, *The Musical Times* 149 (Winter 2008), pp. 79–87.",
+      "url": "https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729/Introduction",
+      "kind": "article",
+      "note": "The article takes up the question named in its subtitle, whether her music shows an individual voice. It is listed in the bibliography of the Philidor catalogue."
+    }
+  ]
+}

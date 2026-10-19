@@ -15,17 +15,17 @@ export default {
     archive: { item: '78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a', file: 'Song of the Volga Boatmen - Feodor Chaliapin.mp3' },
     rights: { basis: 'us-published-before-cutoff', published: 1922, evidence: ['https://adp.library.ucsb.edu/index.php/objects/refer/162251', 'https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686'] },
   },
-  intro: 'A song for men hauling barges becomes a solo for Chaliapin’s bass, with George W. Byng conducting the orchestra. Its repeated call still carries the effort of pulling together.',
+  intro: 'The Song of the Volga Boatmen, a song of the men who hauled barges, in an arrangement by Chaliapin and Keneman for solo bass and orchestra. Chaliapin sings, and George W. Byng conducts the orchestra.',
   sections: [
-    { t: 0, label: 'A · The hauling song', m: 'A', mNote: 'A solo bass carries the work song' },
+    { t: 0, label: 'A · The hauling song, solo bass', m: 'A', mNote: 'A solo bass sings the work song.' },
     { t: 52, label: 'B · Bass and orchestra', m: 'B' },
     { t: 95, label: 'C · The river song', m: 'C' },
-    { t: 140, label: 'D · The bass’s later phrases', m: 'D' },
+    { t: 140, label: 'D · Later phrases for bass', m: 'D' },
     { t: 154, label: 'E · Closing bars', m: 'E' },
   ],
   cues: [
-    { t: 0, kind: 'music', title: 'One bass carries the song', text: 'Chaliapin sings a song made for a group of working men. His arrangement with Fyodor Keneman places that repeated hauling call in a single bass voice, with an orchestra beneath it.', basis: 'documented', precision: 'passage', evidence: 'DAHR, Victor 88663: bass solo with orchestra, sung in Russian, arranged by Chaliapin and Keneman. https://adp.library.ucsb.edu/index.php/objects/refer/162251. The song’s origins: https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen' },
-    { t: 52, kind: 'world', title: 'Men on the towpath', text: 'The boatmen are barge-haulers, pulling from the riverbank. Their refrain, “Ey, ukhnyem!”, is a heaving cry. The words call for another effort, then another; the tune belongs to work done by bodies moving together.', basis: 'documented', precision: 'passage', evidence: 'Traditional Russian song and lyrics, collected by Mily Balakirev and published in 1866. “Ey, ukhnyem!” is the recurring hauling call. https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen' },
-    { t: 140, kind: 'world', title: 'Repin’s men at work', text: 'Repin paints the same labour in <i>Barge Haulers on the Volga</i>: men harnessed to a towline, leaning into its pull along the riverbank. The painting dates from 1873; Chaliapin records the song nearly fifty years later.', basis: 'documented', precision: 'passage', evidence: 'Ilya Repin, Barge Haulers on the Volga (1873), reproduced with the song’s history: https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen. The recording date is 9 October 1922: https://adp.library.ucsb.edu/index.php/objects/refer/162251' },
+    { t: 0, kind: 'music', title: 'Solo bass with orchestra', text: 'Chaliapin sings a song made for a group of working men. In his arrangement with Fyodor Keneman, a single bass voice sings the repeated hauling call, sung in Russian, with orchestral accompaniment.', basis: 'documented', precision: 'passage', evidence: 'DAHR, Victor 88663: bass solo with orchestra, sung in Russian, arranged by Chaliapin and Keneman. https://adp.library.ucsb.edu/index.php/objects/refer/162251. The song’s origins: https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen' },
+    { t: 52, kind: 'world', title: 'Barge-haulers and their refrain', text: 'The boatmen are barge-haulers, pulling from the riverbank. Their refrain, “Ey, ukhnyem!”, is the recurring hauling call. The words call for one more effort, and then another.', basis: 'documented', precision: 'passage', evidence: 'Traditional Russian song and lyrics, collected by Mily Balakirev and published in 1866. “Ey, ukhnyem!” is the recurring hauling call. https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen' },
+    { t: 140, kind: 'world', title: 'Repin’s <i>Barge Haulers on the Volga</i>, 1873', text: 'Repin painted the same labour in <i>Barge Haulers on the Volga</i>. It shows men harnessed to a towline, leaning into its pull along the riverbank. The painting dates from 1873, and Chaliapin recorded the song nearly fifty years later.', basis: 'documented', precision: 'passage', evidence: 'Ilya Repin, Barge Haulers on the Volga (1873), reproduced with the song’s history: https://en.wikipedia.org/wiki/The_Song_of_the_Volga_Boatmen. The recording date is 9 October 1922: https://adp.library.ucsb.edu/index.php/objects/refer/162251' },
   ],
 };

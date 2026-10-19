@@ -20,25 +20,25 @@ export default {
       "evidence": "Everest mono LPBR 6059: sleeve ©1960 Belock Instrument Corp. (https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt); Edwards and Callahan Everest Classical Album Discography lists LPBR 6059 / SDBR 3059 [1960] (https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf). First publication documented by 1960, anywhere; territorial EU rule 3 only. US recording status not established."
     }
   },
-  "intro": "Pierre Mollet sings a psalm of persecution and defiance, after an orchestral opening marked <i>Grave, rude</i>. Boulanger saves the women’s voices for the close, where celesta, harp and muted strings surround them.",
+  "intro": "Boulanger’s Psalm 129, “Ils m’ont assez opprimé dès ma jeunesse”, is a psalm of persecution and defiance in which Pierre Mollet sings after an orchestral opening marked <i>Grave, rude</i>. The women’s voices enter only at the close, accompanied by celesta, harp and muted strings.",
   "sections": [
     {
       "t": 0,
-      "label": "Intro · Winds above plucked basses",
+      "label": "Intro · Woodwind and horn chords, plucked basses",
       "m": "Intro",
       "mNote": "Accented woodwind and horn chords begin the D-minor psalm"
     },
     {
       "t": 94,
-      "label": "A · The baritone’s first appeal",
+      "label": "A · First baritone entry",
       "m": "A",
-      "mNote": "The voice holds while descending figures run through the strings"
+      "mNote": "The voice holds over descending figures in the strings."
     },
     {
       "t": 136,
       "label": "B · Triplets in the clarinets",
       "m": "B",
-      "mNote": "Clarinets ripple above the slower bass and vocal line"
+      "mNote": "The clarinets play triplets above the slower bass and voices."
     },
     {
       "t": 284,
@@ -51,8 +51,8 @@ export default {
     {
       "t": 0,
       "kind": "music",
-      "title": "Grave and rough",
-      "text": "<i>Grave, rude</i>: solemn and rough. The woodwinds and horns press accents into their long chords, while double basses pluck beneath them. Violins, violas and cellos wait. Boulanger gives the orchestra thirty bars before a voice sings.",
+      "title": "Orchestral introduction, <i>Grave, rude</i>",
+      "text": "<i>Grave, rude</i>: solemn and rough. Woodwinds and horns play accented long chords over pizzicato double basses, and the violins, violas and cellos rest. The orchestra plays for thirty bars before the voice enters.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, plate D. & F. 10382 (1924), p. 1 and orchestral introduction through p. 7. https://ks15.imslp.org/files/imglnks/usimg/7/74/IMSLP829067-PMLP430945-Boulanger,_L_-_Psalm_129_full_score.pdf"
@@ -60,8 +60,8 @@ export default {
     {
       "t": 55,
       "kind": "music",
-      "title": "A sarrusophone in the bass",
-      "text": "The score lists a sarrusophone after the bassoons: a double-reed instrument made in several sizes, used here as a bass. Boulanger places it beneath the bassoons and the upper horn. Helen Julia Minors singles it out as an example of her use of orchestral colour.",
+      "title": "Sarrusophone in the bass",
+      "text": "The score lists a sarrusophone after the bassoons. It is a double-reed instrument made in several sizes, and here it serves as a bass. Boulanger places it beneath the bassoons and the upper horn, and Helen Julia Minors has cited it as an example of her use of orchestral colour.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Durand full score, instrument list (printed p. 3): https://ks15.imslp.org/files/imglnks/usimg/7/74/IMSLP829067-PMLP430945-Boulanger,_L_-_Psalm_129_full_score.pdf. Helen Julia Minors, preface to Psalm 129 (2011): https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"
@@ -69,8 +69,8 @@ export default {
     {
       "t": 94,
       "kind": "form",
-      "title": "Mollet takes up the words",
-      "text": "Pierre Mollet’s baritone gives words to the orchestra’s anger: the psalm speaks of oppression endured since youth. While the voice holds its notes, descending figures run from the violins down through the violas and cellos to the double basses.",
+      "title": "Entry of the baritone",
+      "text": "Pierre Mollet’s baritone enters with the psalm’s words on oppression endured since youth. While the voice holds its notes, descending figures pass from the violins down through the violas and cellos to the double basses.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score (1924), p. 8, figure 3: opening vocal phrase and descending string figures. The score permits solo baritone in place of the printed male-chorus parts; Mollet is credited on this recording."
@@ -78,8 +78,8 @@ export default {
     {
       "t": 136,
       "kind": "music",
-      "title": "Furrows in the back",
-      "text": "The psalm’s image is brutal: ploughmen cut furrows into the speaker’s back. Clarinets and bass clarinet move up and down in triplets. Beneath them, the bass rises slowly while the voice draws out its complaint.",
+      "title": "Ploughmen verse, figure 4",
+      "text": "The psalm text at this point says that ploughmen cut furrows into the speaker’s back. Clarinets and bass clarinet move up and down in triplets. Beneath them the bass rises slowly, and the voice sings its complaint in long notes.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score (1924), p. 11, figure 4, setting Des laboureurs ont labouré mon dos; clarinet triplets and rising lower parts. Helen Julia Minors, preface (2011). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"
@@ -87,8 +87,8 @@ export default {
     {
       "t": 175,
       "kind": "world",
-      "title": "A concert without the composer",
-      "text": "In 1921 Henri Büsser conducts the first performance at the Salle Pleyel in Paris, for the Concerts Dandelot. Boulanger has been dead for three years. The score she finishes in Rome in 1916 is only now reaching its first audience.",
+      "title": "First performance, Paris, 1921",
+      "text": "In 1921 Henri Büsser conducted the first performance at the Salle Pleyel in Paris, for the Concerts Dandelot. Boulanger had died three years earlier. She had finished the score in Rome in 1916.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Helen Julia Minors, preface to Psalm 129 (Musikproduktion Höflich, 2011), gives the 1916 composition and 1921 première. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"
@@ -96,8 +96,8 @@ export default {
     {
       "t": 225,
       "kind": "world",
-      "title": "Hatred and exasperation",
-      "text": "Georges Migot, writing in <i>La revue musicale</i> in 1924, hears in the chord progressions “the dull hatred and exasperated anger of an oppressed people”. The psalm opens with the words “Ils m’ont assez opprimé dès ma jeunesse”: they have oppressed me since my youth.",
+      "title": "Georges Migot, <i>La revue musicale</i>, 1924",
+      "text": "Writing in <i>La revue musicale</i> in 1924, Georges Migot heard in the chord progressions “the dull hatred and exasperated anger of an oppressed people”. The psalm opens with the words “Ils m’ont assez opprimé dès ma jeunesse” (they have oppressed me since my youth).",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Migot’s French, “Les progressions mâles et puissantes expriment la haine sourde et la colère exaspérée d’un peuple opprimé”, as quoted in Helen Julia Minors’s preface (2011); our translation. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"
@@ -105,8 +105,8 @@ export default {
     {
       "t": 284,
       "kind": "form",
-      "title": "The women enter softly",
-      "text": "The coda slows. Women’s voices enter on a wordless vowel, high above the continuing prayer; flute and celesta trace their line. The strings put on mutes. Harp notes move gently beneath chords that still rub against one another.",
+      "title": "Coda, women’s voices",
+      "text": "The coda slows at figure 8, marked Un peu plus lent. Women’s voices enter <i>ppp</i> on “Ah”, high above the continuing prayer, with flute and celesta doubling their line. The strings are muted, and the harp plays beneath dissonant chords.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score (1924), pp. 22–24, figure 8: Un peu plus lent, women’s voices marked ppp on Ah, flute, celesta, harp and muted strings."
@@ -114,8 +114,8 @@ export default {
     {
       "t": 315,
       "kind": "world",
-      "title": "Three ways to sing it",
-      "text": "Boulanger’s score allows a baritone soloist with optional women’s voices, a men’s chorus, or a mixed chorus. Here Pierre Mollet sings the baritone part. A printed note asks the conductor, when a soloist sings, to keep the brass below the written dynamics.",
+      "title": "Performance options in the score",
+      "text": "Boulanger’s score allows a baritone soloist with optional women’s voices, a men’s chorus, or a mixed chorus. Here Pierre Mollet sings the baritone part. A printed note asks the conductor to keep the brass below the written dynamics when a soloist sings.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Durand full score, printed p. 3, performance options and note: https://ks15.imslp.org/files/imglnks/usimg/7/74/IMSLP829067-PMLP430945-Boulanger,_L_-_Psalm_129_full_score.pdf. Everest LPBR 6059 sleeve names Pierre Mollet, baritone: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d"
@@ -123,8 +123,8 @@ export default {
     {
       "t": 350,
       "kind": "music",
-      "title": "The words run out",
-      "text": "The final vocal phrase has no words. Soft chords hang in the divided strings, with small replies from horn, bassoon and harp. The dissonances remain in place as the last notes die away.",
+      "title": "Final bars, wordless voices",
+      "text": "The final vocal phrase has no words. Divided strings hold soft chords, and horn, bassoon and harp play short solo figures between them. The dissonances are not resolved as the last notes die away.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score (1924), p. 25, final four bars: wordless voices, sustained divided strings and solo instrumental replies. Helen Julia Minors’s preface describes the unresolved closing dissonances."
@@ -133,9 +133,9 @@ export default {
   "transitions": [
     {
       "id": "into-baritone",
-      "title": "The orchestra acquires words",
-      "from": "Intro · Winds above plucked basses",
-      "to": "A · The baritone’s first appeal",
+      "title": "Opening chords return beneath the voice",
+      "from": "Intro · Woodwind and horn chords, plucked basses",
+      "to": "A · First baritone entry",
       "at": {
         "t": 94
       },
@@ -143,7 +143,7 @@ export default {
         79,
         112
       ],
-      "how": "<p>The opening chords return beneath the first vocal phrase, marked <i>a Tempo, grave et rude</i>. The winds hold their accented harmony while the strings launch quick figures. As the baritone holds the end of his phrase, a five-note run passes down the string sections to the double basses.</p>",
+      "how": "<p>The opening chords return beneath the first vocal phrase, marked <i>a Tempo, grave et rude</i>. The winds hold their accented harmony and the strings play quick figures. While the baritone holds the end of his phrase, a five-note run passes down through the string sections to the double basses.</p>",
       "devices": [
         "tempo change",
         "texture change",
@@ -156,7 +156,7 @@ export default {
     {
       "id": "into-flowing-texture",
       "title": "Clarinets begin their triplets",
-      "from": "A · The baritone’s first appeal",
+      "from": "A · First baritone entry",
       "to": "B · Triplets in the clarinets",
       "at": {
         "t": 136
@@ -165,7 +165,7 @@ export default {
         124,
         153
       ],
-      "how": "<p>At figure 4 the clarinets and bass clarinet begin continuous triplets. Bassoons, horns, harp and low strings rise more slowly beneath them. The baritone also begins with a triplet, then stretches the words over the clarinets’ running notes; the vocal part is marked <i>contenu</i>, restrained.</p>",
+      "how": "<p>At figure 4 the clarinets and bass clarinet begin continuous triplets. Bassoons, horns, harp and low strings rise more slowly beneath them. The baritone also begins with a triplet, then sets the words in longer notes over the clarinets’ running triplets; the vocal part is marked <i>contenu</i>, restrained.</p>",
       "devices": [
         "texture change",
         "orchestration change"
@@ -186,7 +186,7 @@ export default {
         266,
         303
       ],
-      "how": "<p><i>Un peu plus lent</i> slows the coda as the metre alternates between four crotchets and three minims. The bass drops in long notes beneath a quiet harp figure. Women’s voices, flute and celesta sing the upper line; the horns and strings are muted.</p>",
+      "how": "<p><i>Un peu plus lent</i> slows the coda, and the metre alternates between four crotchets and three minims. The bass descends in long notes beneath a solo harp figure. Women’s voices, flute and celesta take the upper line. The horns and strings are muted.</p>",
       "devices": [
         "decrescendo",
         "tempo change",
@@ -392,7 +392,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "The women hold wordless chords above muted strings. Harps, celesta and quiet winds carry the closing phrases."
+        "note": "The women hold wordless chords above muted strings. Harps, celesta and quiet winds play the closing phrases."
       }
     ]
   }

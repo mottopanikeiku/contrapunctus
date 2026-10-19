@@ -35,7 +35,7 @@ export async function mount(app) {
     try {
       localStorage.setItem(key, JSON.stringify({ station: current().id, listen: current().listen.id, t: position, complete }));
     } catch {
-      root.querySelector('[data-j-save-note]').textContent = ' · This browser cannot save your place.';
+      root.querySelector('[data-j-save-note]').textContent = ' · This browser cannot save the current station.';
     }
     lastSave = performance.now();
   }
@@ -49,12 +49,12 @@ export async function mount(app) {
   }
   function controls() {
     const playing = engaged && matches() && player.playing;
-    play.textContent = loading ? 'Opening…' : complete ? 'Listen again' : playing ? 'Pause' : started ? 'Resume' : 'Begin';
+    play.textContent = loading ? 'Loading…' : complete ? 'Play again' : playing ? 'Pause' : started ? 'Resume' : 'Begin';
     play.setAttribute('aria-label', playing ? 'Pause journey' : complete ? 'Restart journey' : started ? 'Resume journey' : 'Begin journey');
     play.disabled = loading;
     previous.disabled = loading || index === 0;
     next.disabled = loading || complete;
-    next.innerHTML = index === stations.length - 1 ? '<span>Finish</span> →' : '<span>Next</span> →';
+    next.innerHTML = index === stations.length - 1 ? '<span>Finish</span>' : '<span>Next</span>';
     rail.forEach((button) => { button.disabled = loading; });
     root.classList.toggle('is-playing', playing);
     intro.hidden = started;
@@ -118,7 +118,7 @@ export async function mount(app) {
     if (playMusic || wasEngaged) {
       started = true; acquire();
       const s = current().listen;
-      status.textContent = `Opening station ${index + 1}: ${current().title}.`;
+      status.textContent = `Loading station ${index + 1}: ${current().title}.`;
       try {
         const continuous = automatic && matches() && old.listen.id === s.id && Math.abs(old.listen.to - s.from) < .5 && oldTime >= s.from && oldTime < s.to;
         if (!continuous) {
@@ -131,12 +131,12 @@ export async function mount(app) {
           }
         }
         if (!alive) return;
-        status.textContent = player.playing ? `Station ${index + 1}: ${current().title}; the next station follows automatically.` : 'Paused; press Resume when you are ready.';
+        status.textContent = player.playing ? `Station ${index + 1}: ${current().title}; the next station follows automatically.` : 'Paused. Press Resume to continue.';
       } catch {
         if (alive) status.textContent = 'Could not open the recording; press Resume to try again.';
       }
     } else {
-      status.textContent = `Station ${index + 1}: ${current().title}. Press ${started ? 'Resume' : 'Begin'} to listen here.`;
+      status.textContent = `Station ${index + 1}: ${current().title}. Press ${started ? 'Resume' : 'Begin'} to play this station.`;
     }
     loading = false;
     if (!alive) return;
@@ -148,7 +148,7 @@ export async function mount(app) {
     // Retain the concert override: the player's ended handler runs after ours.
     if (engaged && matches()) player.pause();
     paint(); controls(); save();
-    status.textContent = 'The final station is saved; revisit any station to listen again.';
+    status.textContent = 'Journey complete and saved; any station can be played again.';
   }
   function advance() {
     if (loading || !engaged || complete || !matches()) return;
@@ -182,7 +182,7 @@ export async function mount(app) {
     position = player.time; acquire();
   }
   show(index, { animate: false }); paint();
-  status.textContent = complete ? 'You have reached the end; choose a station or listen again.' : engaged ? 'The music continues where you left it.' : started ? 'Welcome back; press Resume to continue.' : 'Press Begin to start the music.';
+  status.textContent = complete ? 'Journey complete; choose a station or Play again.' : engaged ? 'Playback continues from the saved station.' : started ? 'Saved station restored; press Resume to continue.' : 'Press Begin to start playback.';
   on(play, 'click', toggle);
   on(previous, 'click', () => go(index - 1, { focus: true }));
   on(next, 'click', () => index === stations.length - 1 ? end() : go(index + 1, { focus: true }));
@@ -208,14 +208,14 @@ export async function mount(app) {
   listen('play', () => { if (engaged && matches() && !loading) { controls(); status.textContent = 'Playing; the next station follows automatically.'; } });
   listen('pause', () => {
     if (!engaged || loading || !matches()) return;
-    if (!complete) { paint(player.time); status.textContent = 'Paused, with your place saved.'; }
+    if (!complete) { paint(player.time); status.textContent = 'Paused; position saved.'; }
     controls(); save();
   });
   listen('seek', (t) => { if (engaged && !loading && matches()) { paint(t); save(); } });
   listen('track', () => {
     if (!loading && engaged && !matches()) { save(); release(); controls(); status.textContent = 'Another recording is playing; press Resume to return here.'; }
   });
-  listen('blocked', (blocked) => { if (blocked && engaged) { controls(); status.textContent = 'Your browser paused playback; press Resume to listen.'; } });
+  listen('blocked', (blocked) => { if (blocked && engaged) { controls(); status.textContent = 'The browser paused playback; press Resume to continue.'; } });
   listen('error', () => { if (engaged) { controls(); status.textContent = 'Could not play the recording; try Resume or choose the next station.'; } });
   on(window, 'pagehide', save);
   on(document, 'visibilitychange', () => { if (document.hidden) save(); });

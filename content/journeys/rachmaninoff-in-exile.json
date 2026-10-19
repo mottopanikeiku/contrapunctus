@@ -1,13 +1,13 @@
 {
   "id": "rachmaninoff-in-exile",
   "title": "Rachmaninoff in exile",
-  "subtitle": "Russian scores, American studios, and the pianist between them",
+  "subtitle": "The pianist, Russian scores and American studios",
   "minutes": 24,
   "hero": {
     "file": "File:Somov Sergei Rachmaninoff 1925.JPG",
     "caption": "Sergei Rachmaninoff in 1925, eight years after leaving Russia. Portrait by Konstantin Somov."
   },
-  "intro": "Rachmaninoff left Russia with his family in December 1917; by the following November he was in New York, earning his living at the piano. His records carry the music of Moscow and Ivanovka into American studios, from the three tolling notes of the C♯ minor Prelude to the small, flowering phrases of <i>Lilacs</i>.",
+  "intro": "Rachmaninoff left Russia with his family in December 1917; by the following November he was in New York, earning his living at the piano. His records took the music of Moscow and Ivanovka into American studios, from the three notes of the C♯ minor Prelude to the short phrases of <i>Lilacs</i>.",
   "stations": [
     {
       "id": "s1",
@@ -18,9 +18,9 @@
       "map": { "composer": "rachmaninoff", "year": 1892 },
       "edge": null,
       "compare": null,
-      "text": "<p>A–G♯–C♯: three heavy notes, then a hushed answer in chords. Rachmaninoff wrote this Prelude in 1892, the year he finished his composition studies at the Moscow Conservatory. The following March he presented Tchaikovsky with the five piano pieces of Op. 3; the older composer especially liked the Prelude. Behind the young man stood years of training with Zverev, Siloti, Taneyev and Arensky. Here his own hands return to the piece for Edison in 1919. The quiet answers still sing, their upper notes joined into a melody above the changing chords.</p>",
+      "text": "<p>The Prelude opens with three heavy notes, A–G♯–C♯, answered quietly in chords. Rachmaninoff wrote it in 1892, the year he finished his composition studies at the Moscow Conservatory, after years of training with Zverev, Siloti, Taneyev and Arensky. The following March he presented Tchaikovsky with the five piano pieces of Op. 3; the older composer especially liked the Prelude. Rachmaninoff recorded the piece for Edison in 1919. In the quiet answers the upper notes are joined into a melody above the changing chords.</p>",
       "cues": [
-        { "at": 0, "text": "A–G♯–C♯ rings out; the answering chords are suddenly quiet." },
+        { "at": 0, "text": "A–G♯–C♯ is played loudly; the answering chords are quiet." },
         { "at": 64, "text": "The upper notes of the chords carry a continuous melody." }
       ],
       "sources": [
@@ -32,18 +32,18 @@
     },
     {
       "id": "s2",
-      "title": "The Prelude travels first",
+      "title": "The Prelude’s early circulation",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 106, "to": 227.9 },
       "art": null,
       "score": null,
       "map": { "composer": "rachmaninoff", "year": 1892 },
       "edge": null,
       "compare": null,
-      "text": "<p>Siloti took the Prelude on his 1898 tour of Europe, England and America. Its fame travelled ahead of Rachmaninoff, who was still living in Russia. The piece has a remarkably compact theatre: the slow tolling opens into an <i>Agitato</i> of restless triplets, then the three-note call returns across the keyboard. Two staves can no longer hold it; the score spreads the pianist’s two hands over four. After all that noise, Rachmaninoff leaves room for a quiet coda. The chords draw apart, and the celebrated showpiece ends almost under its breath.</p>",
+      "text": "<p>Siloti took the Prelude on his 1898 tour of Europe, England and America, and its fame travelled ahead of Rachmaninoff, who was still living in Russia. The slow opening chords give way to an <i>Agitato</i> in triplets, after which the three-note motif returns across the keyboard. At that point the score is written on four staves instead of two for the pianist’s two hands. A quiet coda follows, in which the chords move apart, and the piece ends softly.</p>",
       "cues": [
-        { "at": 112, "text": "Restless triplets carry the melody through the <i>Agitato</i>." },
+        { "at": 112, "text": "Triplets carry the melody through the <i>Agitato</i>." },
         { "at": 138, "text": "The three-note call returns in broad chords; the printed score now stretches over four staves." },
-        { "at": 207, "text": "The coda draws the chords apart and lets the piano fall quiet." }
+        { "at": 207, "text": "In the coda the chords are spread apart and the piano part fades to silence." }
       ],
       "sources": [
         { "title": "Boston Symphony Orchestra: Marc Mandel on the Second Concerto and the Prelude’s early international success", "url": "https://www.bso.org/works/piano-concerto-no-2-6" },
@@ -63,11 +63,11 @@
       "map": { "composer": "rachmaninoff", "year": 1902 },
       "edge": null,
       "compare": null,
-      "text": "<p>At Ivanovka, the Satin family’s estate near Tambov, Rachmaninoff wrote <i>Lilacs</i> in 1902. Ekaterina Beketova’s poem sends its speaker among the flowers in search of happiness. Later he made the song into a piano piece, weaving its melody through broken chords and triplets and adding little cadenzas. On 27 December 1923 he recorded that version for Victor in Camden, New Jersey. The piano grows quicker and fuller, pauses over a trill, then resumes its quiet singing. The last flourish scatters a few more notes around the tune.</p>",
+      "text": "<p>Rachmaninoff wrote <i>Lilacs</i> in 1902 at Ivanovka, the Satin family’s estate near Tambov. In Ekaterina Beketova’s poem the speaker goes among the flowers in search of happiness. He later arranged the song as a piano piece, setting its melody among broken chords and triplets and adding short cadenzas. On 27 December 1923 he recorded that version for Victor in Camden, New Jersey. The piano part becomes quicker and fuller, pauses on a trill, then returns to the quiet melody. The final flourish adds a few more notes around the tune.</p>",
       "cues": [
-        { "at": 0, "text": "The melody emerges inside the piano’s broken chords and triplets." },
-        { "at": 64, "text": "The piano quickens and swells towards a trill held under a pause." },
-        { "at": 132, "text": "A quick flourish settles into the quiet closing chord." }
+        { "at": 0, "text": "The melody is played inside the piano’s broken chords and triplets." },
+        { "at": 64, "text": "The piano plays faster and louder, up to a trill held under a pause." },
+        { "at": 132, "text": "A short flourish leads to a soft closing chord." }
       ],
       "sources": [
         { "title": "Yevgeny Sudbin: Rachmaninov liner notes — Ivanovka, the song and its piano transcription", "url": "https://www.yevgenysudbin.com/artist.php?view=prog&rid=458" },
@@ -86,11 +86,11 @@
       "map": { "composer": "rachmaninoff", "year": 1910 },
       "edge": null,
       "compare": null,
-      "text": "<p>By 1910, the C♯ minor Prelude had twenty-three companions. The ten preludes of Op. 23 and thirteen of Op. 32 completed Rachmaninoff’s set of all the major and minor keys. This is the B minor, played here by La Pianista in 2010. Marked <i>Lento</i>, it begins with small moving figures against chords that linger. The hands seem to rock together, then wait for an answer. Gradually those modest phrases acquire heavier chords; the marking becomes <i>pesante</i>. The piano that murmured at the start now fills the room.</p>",
+      "text": "<p>By 1910 the C♯ minor Prelude had twenty-three companions. The ten preludes of Op. 23 and the thirteen of Op. 32 completed Rachmaninoff’s set in all the major and minor keys. This is the B minor, played here by La Pianista in 2010. Marked <i>Lento</i>, it begins with small moving figures against held chords. The two hands move together in a rocking figure, then pause. The phrases gradually take on heavier chords, and the marking becomes <i>pesante</i>.</p>",
       "cues": [
         { "at": 0, "text": "Small figures rock against held chords in B minor." },
-        { "at": 96, "text": "The chords gather force as the heavier <i>pesante</i> passage approaches." },
-        { "at": 160, "text": "The broad chords begin to subside; quieter notes will soon have room around them." }
+        { "at": 96, "text": "The chords become heavier as the <i>pesante</i> passage approaches." },
+        { "at": 160, "text": "The broad chords begin to subside; quieter notes follow." }
       ],
       "sources": [
         { "title": "IMSLP: 13 Preludes, Op. 32 — date, keys and score", "url": "https://imslp.org/wiki/13_Preludes,_Op.32_(Rachmaninoff,_Sergei)" },
@@ -100,18 +100,18 @@
     },
     {
       "id": "s5",
-      "title": "December 1917: leaving Russia",
+      "title": "December 1917: departure from Russia",
       "listen": { "id": "rachmaninoff-prelude-op32-10", "from": 168, "to": 321.01 },
       "art": null,
       "score": null,
       "map": { "composer": "rachmaninoff", "year": 1917 },
       "edge": null,
       "compare": null,
-      "text": "<p>In December 1917 Rachmaninoff left Russia with his wife and two daughters. They travelled through Finland to Sweden, then settled in Copenhagen before sailing for New York in November 1918. He would never see Russia again. The B minor Prelude, already seven years old at their departure, carries on after its great outburst with long notes surrounded by quick decoration. The opening phrases reappear, quietly recognisable after the upheaval of the middle. Near the end, the bass descends and the spaces between the piano’s last sounds grow wider.</p>",
+      "text": "<p>In December 1917 Rachmaninoff left Russia with his wife and two daughters. They travelled through Finland to Sweden, then settled in Copenhagen before sailing for New York in November 1918. He never saw Russia again. The B minor Prelude was already seven years old when they left. After its climax it continues with long notes surrounded by quick decoration. The opening phrases return quietly after the middle section. Near the end the bass descends and the spaces between the piano’s last sounds grow wider.</p>",
       "cues": [
-        { "at": 192, "text": "Quick decoration curls around the longer-held notes." },
-        { "at": 256, "text": "The opening’s small rocking phrases have returned." },
-        { "at": 312, "text": "Low notes and the last quiet chord fade into silence." }
+        { "at": 192, "text": "Quick ornamental figures surround the longer held notes." },
+        { "at": 256, "text": "The small rocking phrases of the opening return." },
+        { "at": 312, "text": "The low notes and the last quiet chord die away." }
       ],
       "sources": [
         { "title": "Tchaikovsky Research: Rachmaninoff’s emigration in December 1917", "url": "https://en.tchaikovsky-research.net/pages/Sergei_Rachmaninoff" },
@@ -122,7 +122,7 @@
     },
     {
       "id": "s6",
-      "title": "America: Edison, then Victor",
+      "title": "America: Edison and Victor recordings",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor-victor-1928", "from": 0, "to": 210.8 },
       "art": {
         "file": "File:Somov Sergei Rachmaninoff 1925.JPG",
@@ -132,12 +132,12 @@
       "map": { "composer": "rachmaninoff", "year": 1918 },
       "edge": null,
       "compare": "rachmaninoff-prelude-c-sharp-minor",
-      "text": "<p>America made the concert pianist Rachmaninoff’s full-time occupation. Records became another part of that working life: Edison in 1919, a contract with Victor in 1920, and repeated visits to the studio with pieces he knew intimately. On 4 April 1928, in New York, he recorded the C♯ minor Prelude again, this time electrically. Victor issued take 23. The opening chords answer the same three-note summons we heard earlier; the triplets hurry towards the great return. Then the hands release their grip, and the coda restores the quiet that made the opening so arresting.</p>",
+      "text": "<p>In America, Rachmaninoff worked full-time as a concert pianist. Recording became another part of that work. He recorded for Edison in 1919, signed a contract with Victor in 1920, and returned to the studio repeatedly with pieces he knew intimately. On 4 April 1928, in New York, he recorded the C♯ minor Prelude again, this time electrically. Victor issued take 23. The opening chords state the same three-note figure heard earlier, and the triplets accelerate towards the return of the opening material. The coda is quiet, as the opening was.</p>",
       "cues": [
-        { "at": 0, "text": "Rachmaninoff returns to his Prelude: New York, 4 April 1928, take 23." },
-        { "at": 92, "text": "The quiet opening breaks into the restless triplets of the middle section." },
-        { "at": 155, "text": "Broad chords carry the opening call across the keyboard." },
-        { "at": 178, "text": "The chords soften and separate as the coda begins." }
+        { "at": 0, "text": "Rachmaninoff recorded his Prelude again in New York on 4 April 1928, take 23." },
+        { "at": 92, "text": "The quiet opening gives way to the triplets of the middle section." },
+        { "at": 155, "text": "The opening call is played in broad chords across the keyboard." },
+        { "at": 178, "text": "The chords become quieter and are spaced apart as the coda begins." }
       ],
       "sources": [
         { "title": "Library of Congress: David B. Cannata on Rachmaninoff’s American performing life and records", "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Rachman.pdf" },
@@ -149,18 +149,18 @@
     },
     {
       "id": "s7",
-      "title": "Philadelphia: the Concerto on shellac",
+      "title": "Philadelphia: the Concerto recording on shellac",
       "listen": { "id": "rachmaninoff-concerto-2-moderato-rachmaninoff-1929-side1", "from": 0, "to": 189.6 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>“You will begin to write your concerto”: Nikolai Dahl repeated the promise to Rachmaninoff during treatment in Moscow in 1900. The Second Concerto, completed the following year, bore the doctor’s dedication. Here Rachmaninoff plays it with Stokowski and the Philadelphia Orchestra at the Academy of Music on 10 April 1929. His opening piano chords grow like approaching bells; the strings take the melody while he supplies the running notes beneath them. This excerpt fills the first original disc side. The melody continues towards the groove’s limit, where a gramophone owner would have to change the record.</p>",
+      "text": "<p>During Rachmaninoff’s treatment in Moscow in 1900, Nikolai Dahl repeated to him the promise “You will begin to write your concerto”. The Second Concerto, completed the following year, was dedicated to Dahl. In this recording, made at the Academy of Music on 10 April 1929, Rachmaninoff plays it with Stokowski and the Philadelphia Orchestra. The piano opens with bell-like chords that grow louder; the strings then take the melody while the piano plays running notes beneath them. The excerpt fills the first side of the original disc. The melody is still continuing when the side ends, at the point where a gramophone owner would have had to change the record.</p>",
       "cues": [
-        { "at": 0, "text": "The piano begins alone, its repeated chords growing like bells." },
-        { "at": 26, "text": "The strings have the melody; the piano runs beneath them." },
-        { "at": 122, "text": "The piano takes up a quieter, singing phrase." },
+        { "at": 0, "text": "The piano begins alone with repeated chords." },
+        { "at": 26, "text": "The strings have the melody; the piano plays beneath them." },
+        { "at": 122, "text": "The piano plays a quieter phrase." },
         { "at": 175, "text": "The first disc side is nearly over; the movement continues on the next record." }
       ],
       "sources": [
@@ -173,19 +173,19 @@
     },
     {
       "id": "s8",
-      "title": "A summer home beside Lake Lucerne",
+      "title": "Summer home on Lake Lucerne",
       "listen": { "id": "rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1", "from": 0, "to": 184.56 },
       "art": null,
       "score": null,
       "map": { "composer": "rachmaninoff", "year": 1934 },
       "edge": "gregorian-chant--rachmaninoff-paganini-dies-irae",
       "compare": null,
-      "text": "<p>In the Second Concerto’s Adagio, muted strings prepare a melody for flute and clarinet above the piano’s moving notes. Rachmaninoff and Stokowski recorded this opening side in Philadelphia in 1929. Five years later, beside Lake Lucerne, Rachmaninoff was writing new music for piano and orchestra: the <i>Rhapsody on a Theme of Paganini</i>. Villa Senar was his summer home from 1933 to 1939. There he made twenty-four variations from Paganini’s last Caprice and brought in another old tune, the <i>Dies irae</i>. In Variation VII the piano sets that chant against fragments of Paganini’s melody.</p>",
+      "text": "<p>In the Second Concerto’s Adagio, muted strings introduce a melody for flute and clarinet above the piano’s moving notes. Rachmaninoff and Stokowski recorded this opening side in Philadelphia in 1929. Five years later, beside Lake Lucerne, Rachmaninoff was writing the <i>Rhapsody on a Theme of Paganini</i> for piano and orchestra. Villa Senar was his summer home from 1933 to 1939. There he wrote twenty-four variations on Paganini’s last Caprice and brought in another old tune, the <i>Dies irae</i>. In Variation VII the piano plays that chant against fragments of Paganini’s melody.</p>",
       "cues": [
         { "at": 0, "text": "Muted strings open the Second Concerto’s Adagio." },
-        { "at": 28, "text": "Flute, then clarinet, sing over the piano’s circling notes." },
+        { "at": 28, "text": "Flute, then clarinet, play over the piano’s circling notes." },
         { "at": 150, "text": "Piano and orchestra continue the Adagio’s long melody." },
-        { "at": 175, "text": "The first Adagio side approaches its end; the song continues on another disc." }
+        { "at": 175, "text": "The first Adagio side ends; the song continues on another disc." }
       ],
       "sources": [
         { "title": "Serge Rachmaninoff Foundation: Villa Senar — summer home, 1933–1939", "url": "https://rachmaninoff.ch/en/history/" },
@@ -198,7 +198,7 @@
     },
     {
       "id": "s9",
-      "title": "Lilacs, once more",
+      "title": "Lilacs, revisited",
       "listen": { "id": "rachmaninoff-lilacs-piano", "from": 0, "to": 153 },
       "art": {
         "file": "File:Rachmaninoff at Ivanovka.jpg",
@@ -208,11 +208,11 @@
       "map": { "composer": "rachmaninoff", "year": 1943 },
       "edge": null,
       "compare": null,
-      "text": "<p>Rachmaninoff died at home in Beverly Hills in March 1943. Here he is twenty years earlier, playing <i>Lilacs</i> in Camden. Victor’s books list twelve takes between 1920 and 1923; this is the ninth, recorded on 27 December 1923. A few minutes of apparently effortless playing had a long studio history. The song’s melody passes through the moving notes, gathers into a trill and finds its way back to quiet. In the photograph he is still a young man at Ivanovka. On the record, his last little flourish reaches the closing chord.</p>",
+      "text": "<p>Rachmaninoff died at home in Beverly Hills in March 1943. This recording was made twenty years earlier, in Camden: he played <i>Lilacs</i>. Victor’s books list twelve takes between 1920 and 1923; this is the ninth, recorded on 27 December 1923. The song’s melody passes through the moving notes, gathers into a trill and returns to a quiet close. In the photograph he is a young man at Ivanovka. On the record, a last short flourish leads to the closing chord.</p>",
       "cues": [
-        { "at": 0, "text": "The 1923 <i>Lilacs</i> returns, its melody tucked among the moving notes." },
-        { "at": 86, "text": "After the trill and quicker passage, the piano sings quietly again." },
-        { "at": 132, "text": "The final run curls into a quiet chord, completing the song." }
+        { "at": 0, "text": "The 1923 <i>Lilacs</i> returns, its melody set among the moving notes." },
+        { "at": 86, "text": "After the trill and the quicker passage, the piano plays quietly again." },
+        { "at": 132, "text": "The final run ends on a quiet chord." }
       ],
       "sources": [
         { "title": "Sergei Rachmaninoff — final years and death in Beverly Hills", "url": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff#1942–1943:_Illness,_move_to_California,_and_death" },

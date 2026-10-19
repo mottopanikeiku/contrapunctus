@@ -23,7 +23,7 @@ async function startTour(id) {
   } catch (error) {
     let note = $('#cp-tour-error');
     if (!note) { note = document.createElement('p'); note.id = 'cp-tour-error'; note.setAttribute('role', 'alert'); $('#cp-persist').append(note); }
-    note.textContent = `${error.message} Use Guide to choose the lesson again.`;
+    note.textContent = `${error.message} The tour can be restarted from the Guide.`;
   }
 }
 document.addEventListener('click', (event) => {
@@ -100,7 +100,7 @@ function openSearch() {
 async function render(q) {
   const version = ++searchVersion, box = $('.srch-results', dlg);
   const terms = fold(q).split(/\s+/).filter(Boolean);
-  if (!terms.length) { box.innerHTML = '<li class="srch-hint">A composer (Ravel), a work (Boléro), a recording, an idea (fugue, sonata form, Tristan chord).</li>'; return; }
+  if (!terms.length) { box.innerHTML = '<li class="srch-hint">Composers (Ravel), works (Boléro), recordings and terms (fugue, sonata form, Tristan chord).</li>'; return; }
   box.innerHTML = '<li class="srch-hint">Loading…</li>';
   try {
     const index = await searchIndex();
@@ -135,7 +135,7 @@ async function render(q) {
       return (await searchShards.get(key))[id % index.size];
     }));
     if (version !== searchVersion) return;
-    box.innerHTML = rows.map(([type, title, sub, url], i) => `<li><a href="${escapeHtml(new URL(url, ROOT).href)}"${i === 0 ? ' class="sel"' : ''}><span class="srch-t">${escapeHtml(type)}</span><span class="srch-n">${escapeHtml(title)}</span><span class="srch-s">${escapeHtml(sub)}</span></a></li>`).join('') || '<li class="srch-hint">Nothing found. Try fewer words.</li>';
+    box.innerHTML = rows.map(([type, title, sub, url], i) => `<li><a href="${escapeHtml(new URL(url, ROOT).href)}"${i === 0 ? ' class="sel"' : ''}><span class="srch-t">${escapeHtml(type)}</span><span class="srch-n">${escapeHtml(title)}</span><span class="srch-s">${escapeHtml(sub)}</span></a></li>`).join('') || '<li class="srch-hint">No results. Fewer words give more matches.</li>';
   } catch (error) {
     if (version !== searchVersion) return;
     if (error.staleSearch) { indexRequest = null; reloadSearch = true; searchShards.clear(); }

@@ -9,7 +9,7 @@
       "from": "1683-09-25",
       "to": "1701",
       "kind": "born",
-      "what": "Born and baptised the same day; his father was an organist in Dijon churches. Taught music before reading.",
+      "what": "Born and baptised on the same day; his father was an organist in Dijon churches. He was taught music before he learned to read.",
       "status": "documented",
       "sources": [
         {
@@ -25,7 +25,7 @@
       "lon": 9.19,
       "from": "1701",
       "kind": "travelled",
-      "what": "Sent to Italy at about eighteen by his father; he got no further than Milan, and little is known.",
+      "what": "His father sent him to Italy at about eighteen; he got no further than Milan, and little is known of the visit.",
       "status": "inferred",
       "sources": [
         {
@@ -45,7 +45,7 @@
       "lon": 4.8075,
       "from": "1702-01",
       "kind": "worked",
-      "what": "Interim organist at the cathedral, awaiting the new titular organist Jean Gilles.",
+      "what": "Interim organist at the cathedral until the arrival of the new titular organist, Jean Gilles.",
       "status": "documented",
       "sources": [
         {
@@ -62,7 +62,7 @@
       "from": "1702-06-30",
       "to": "1706",
       "kind": "worked",
-      "what": "Signed a six-year cathedral organist contract; it ran short, as he was in Paris by 1706.",
+      "what": "Signed a six-year contract as cathedral organist but did not complete it; he was in Paris by 1706.",
       "status": "documented",
       "sources": [
         {
@@ -138,7 +138,7 @@
       "from": "1715-04",
       "to": "1722",
       "kind": "worked",
-      "what": "Back at the cathedral on a 29-year contract that lasted eight years; his <i>Traité de l’harmonie</i> names him there.",
+      "what": "He returned to the cathedral on a 29-year contract that lasted eight years. His <i>Traité de l’harmonie</i> names him there.",
       "work": "Traité de l’harmonie (1722)",
       "status": "documented",
       "sources": [
@@ -213,7 +213,7 @@
       "lon": 2.3369,
       "from": "1733-10-01",
       "kind": "premiere",
-      "what": "His first opera, premiered at fifty; supporters of Lully’s style attacked its harmony.",
+      "what": "His first opera, premiered when he was fifty; supporters of Lully’s style attacked its harmony.",
       "work": "Hippolyte et Aricie",
       "status": "documented",
       "sources": [
@@ -284,7 +284,7 @@
       "lon": 2.345,
       "from": "1764-09-13",
       "kind": "buried",
-      "what": "Buried in the church; sources give 12 or 13 September, and the exact grave site is unknown.",
+      "what": "Buried in the church; sources give 12 or 13 September. The exact grave site is unknown.",
       "status": "disputed",
       "sources": [
         {

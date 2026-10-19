@@ -1,0 +1,385 @@
+{
+  "id": "xenakis",
+  "places": [
+    {
+      "name": "Brăila",
+      "country": "Romania",
+      "lat": 45.2692,
+      "lon": 27.9575,
+      "from": "1922-05-29",
+      "kind": "born",
+      "what": "Born to Greek parents, Clearchos Xenakis and Photini Pavlou. The Friends of Xenakis add that the birth date is uncertain and may have been 1 May 1921.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1922 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Constellation Iannis Xenakis: Biographical Elements", "url": "https://www.centre-iannis-xenakis.org/iannis_xenakis_bio?lang=en" },
+        { "title": "Wikipedia coordinate record: Brăila", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Br%C4%83ila" }
+      ]
+    },
+    {
+      "name": "Spetses",
+      "country": "Greece",
+      "lat": 37.2575,
+      "lon": 23.14,
+      "from": "1932",
+      "to": "1938",
+      "kind": "studied",
+      "what": "Attended the Greek–English school on the island of Spetses after his father took him from Romania to Greece; left for Athens at sixteen.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1932 and 1938 entries", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Varga, Conversations with Iannis Xenakis, 1996, pp. 13–14", "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf" },
+        { "title": "Wikipedia coordinate record: Spetses", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Spetses" }
+      ]
+    },
+    {
+      "name": "Athens",
+      "country": "Greece",
+      "lat": 37.9842,
+      "lon": 23.7281,
+      "from": "1938",
+      "to": "1947",
+      "kind": "lived",
+      "what": "Studied harmony and counterpoint with Aristotle Koundourov, entered the Polytechnic in 1940, joined the Resistance in 1941 and was wounded in the fighting of 1 January 1945. He hid in Athens for two or three months in 1947 before leaving.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1938–47 entries", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Varga, Conversations with Iannis Xenakis, 1996, pp. 13–19", "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf" },
+        { "title": "Wikipedia coordinate record: Athens", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Athens" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1947-11",
+      "to": "2001-02-04",
+      "kind": "lived",
+      "what": "Reached Paris in November 1947 on a false passport and lived there until his death, apart from periods of teaching and travel abroad.",
+      "status": "documented",
+      "sources": [
+        { "title": "Varga, Conversations with Iannis Xenakis, 1996, p. 19", "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf" },
+        { "title": "Les Amis de Xenakis: Biography, 1947 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Paris", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1947-12",
+      "to": "1959-09-01",
+      "kind": "worked",
+      "what": "Engineer and then architect in Le Corbusier’s atelier at 35 rue de Sèvres, until Le Corbusier dismissed him. Coordinates mark Paris, not the studio.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1947 and 1959 entries", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Pimienta, “Iannis Xenakis/Le Corbusier: A Confrontation en sol dur”, Meta-Xenakis, chapter 22", "url": "https://books.openbookpublishers.com/10.11647/obp.0390/ch22.xhtml" },
+        { "title": "Wikipedia coordinate record: Paris", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris" }
+      ]
+    },
+    {
+      "name": "Unité d’habitation, Marseille",
+      "country": "France",
+      "lat": 43.2613,
+      "lon": 5.3963,
+      "from": "1953",
+      "kind": "worked",
+      "what": "At Le Corbusier’s request organised a spatialised concert on the roof terrace for the CIAM congress, with concrete music, Indian and Japanese music and jazz at three points. He had begun in Le Corbusier’s studio by computing concrete elements for the building.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1953 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Carré, “Polytope”, A Xenakis Dictionary", "url": "https://www.iannis-xenakis.org/en/polytope/" },
+        { "title": "Wikipedia coordinate record: Unité d’habitation", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Unit%C3%A9_d%27habitation" }
+      ]
+    },
+    {
+      "name": "Donaueschingen",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 47.9531,
+      "lon": 8.5033,
+      "from": "1955-10-16",
+      "kind": "premiere",
+      "work": "Metastaseis",
+      "what": "First performance of Metastaseis at the Donaueschingen Festival by the Südwestfunk Orchestra under Hans Rosbaud.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Metastaseis, work record", "url": "https://www.iannis-xenakis.org/en/metastaseis/" },
+        { "title": "Boosey & Hawkes: Metastaseis (B)", "url": "https://www.boosey.com/cr/music/Iannis-Xenakis-Metastaseis-B/5872" },
+        { "title": "Wikipedia coordinate record: Donaueschingen", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Donaueschingen" }
+      ]
+    },
+    {
+      "name": "Munich",
+      "country": "Federal Republic of Germany (today Germany)",
+      "lat": 48.1375,
+      "lon": 11.575,
+      "from": "1957-03-08",
+      "kind": "premiere",
+      "work": "Pithoprakta",
+      "what": "First performance of Pithoprakta at the Musica Viva concerts by the Bavarian Radio Orchestra under Hermann Scherchen.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Pithoprakta, work record", "url": "https://www.iannis-xenakis.org/en/pithoprakta/" },
+        { "title": "Les Amis de Xenakis: Biography, 1957 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Munich", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Munich" }
+      ]
+    },
+    {
+      "name": "Heysel Plateau, Brussels",
+      "country": "Belgium",
+      "lat": 50.9,
+      "lon": 4.3369,
+      "from": "1958",
+      "kind": "premiere",
+      "work": "Concret PH",
+      "what": "Concret PH was first heard in the Philips Pavilion at the Brussels World’s Fair, which Xenakis had designed from Le Corbusier’s sketch. Coordinates mark the Heysel Plateau; the pavilion was demolished after the fair.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Concret PH, work record", "url": "https://www.iannis-xenakis.org/en/concret-ph/" },
+        { "title": "Les Amis de Xenakis: Pavillon Philips, Brussels", "url": "https://www.iannis-xenakis.org/en/pavillon-philips-bruxelles/" },
+        { "title": "Kiourtsoglou, “Ruled Surfaces”, A Xenakis Dictionary", "url": "https://www.iannis-xenakis.org/en/ruled-surfaces/" },
+        { "title": "Wikipedia coordinate record: Heysel Plateau", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Heysel_Plateau" }
+      ]
+    },
+    {
+      "name": "Teatro Colón, Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6011,
+      "lon": -58.3831,
+      "from": "1958",
+      "kind": "premiere",
+      "work": "Achorripsis",
+      "what": "First performance of Achorripsis by the Teatro Colón orchestra under Hermann Scherchen. The Friends of Xenakis give the date as 20 July 1958 and Boosey & Hawkes as 24 August 1958.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Achorripsis, work record", "url": "https://www.iannis-xenakis.org/en/achorripsis/" },
+        { "title": "Boosey & Hawkes: Xenakis orchestral brochure, Achorripsis entry (world première 24 August 1958)", "url": "https://www.boosey.com/pdf/brochure/2822_14068.pdf" },
+        { "title": "Les Amis de Xenakis: Biography, 1958 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Teatro Colón", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Teatro_Col%C3%B3n" }
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6897,
+      "lon": 139.6922,
+      "from": "1962-02-02",
+      "kind": "premiere",
+      "work": "Herma",
+      "what": "First performance of Herma by Yuji Takahashi, whom Xenakis had met in Tokyo in April 1961.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Herma, work record", "url": "https://www.iannis-xenakis.org/en/herma/" },
+        { "title": "Les Amis de Xenakis: Biography, 1961–62 entries", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Tokyo", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Tokyo" }
+      ]
+    },
+    {
+      "name": "West Berlin",
+      "country": "West Berlin (today Germany)",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1963",
+      "to": "1964",
+      "kind": "lived",
+      "what": "Lived in West Berlin on a Ford Foundation grant from autumn 1963 to spring 1964. There he wrote Eonta and developed the distinction between outside-time and in-time structures and the theory of sieves.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1963–64 entries", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Exarchos, “Sieve Theory”, A Xenakis Dictionary", "url": "https://www.iannis-xenakis.org/en/sieve-theory/" },
+        { "title": "Varga, Conversations with Iannis Xenakis, 1996, p. 45", "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf" },
+        { "title": "Wikipedia coordinate record: Berlin", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Berlin" }
+      ]
+    },
+    {
+      "name": "Tanglewood, Lenox",
+      "country": "United States",
+      "lat": 42.3492,
+      "lon": -73.31,
+      "from": "1963-06",
+      "to": "1963-08",
+      "kind": "worked",
+      "what": "Taught at the Berkshire Music Center at Aaron Copland’s invitation, began work on Eonta and gave a Fromm concert and lecture on 4 August.",
+      "status": "documented",
+      "sources": [
+        { "title": "Turner, Xenakis in America (2014), chapter 2, Tanglewood", "url": "https://monoskop.org/images/6/63/Turner_Charles_Xenakis_in_America.pdf" },
+        { "title": "Les Amis de Xenakis: Biography, 1963 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Tanglewood", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Tanglewood" }
+      ]
+    },
+    {
+      "name": "Royan",
+      "country": "France",
+      "lat": 45.62,
+      "lon": -1.03,
+      "from": "1966-04-03",
+      "kind": "premiere",
+      "work": "Terretektorh",
+      "what": "First performance of Terretektorh at the Royan Festival by the ORTF Philharmonic under Hermann Scherchen, with the orchestra scattered among the audience.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Terretektorh, work record", "url": "https://www.iannis-xenakis.org/en/terretektorh/" },
+        { "title": "Les Amis de Xenakis: Biography, 1966 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Royan", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Royan" }
+      ]
+    },
+    {
+      "name": "Bremen",
+      "country": "Germany",
+      "lat": 53.0758,
+      "lon": 8.8072,
+      "from": "1966-05-05",
+      "kind": "premiere",
+      "work": "Nomos Alpha",
+      "what": "First performance of Nomos Alpha for solo cello by Siegfried Palm.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Nomos alpha, work record", "url": "https://www.iannis-xenakis.org/en/nomos-alpha/" },
+        { "title": "Les Amis de Xenakis: Biography, 1966 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Bremen", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Bremen" }
+      ]
+    },
+    {
+      "name": "Montreal",
+      "country": "Canada",
+      "lat": 45.5089,
+      "lon": -73.5542,
+      "from": "1967",
+      "kind": "premiere",
+      "work": "Polytope de Montréal",
+      "what": "The first polytope was shown in the French pavilion at the Montreal World’s Fair, with 1,200 flashes on cables and a tape for four ensembles.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1967 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Carré, “Polytope”, A Xenakis Dictionary", "url": "https://www.iannis-xenakis.org/en/polytope/" },
+        { "title": "Wikipedia coordinate record: Montreal", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Montreal" }
+      ]
+    },
+    {
+      "name": "Bloomington, Indiana",
+      "country": "United States",
+      "lat": 39.1672,
+      "lon": -86.5214,
+      "from": "1967-09-20",
+      "kind": "worked",
+      "what": "Arrived to teach at Indiana University and founded a centre for mathematical and automated music; he resigned on 17 May 1972. He told Varga that he was at Bloomington twice a year, for three months each time.",
+      "status": "documented",
+      "sources": [
+        { "title": "Turner, Xenakis in America (2014), chapter 5, Bloomington and chronology", "url": "https://monoskop.org/images/6/63/Turner_Charles_Xenakis_in_America.pdf" },
+        { "title": "Varga, Conversations with Iannis Xenakis, 1996, pp. 45–46", "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf" },
+        { "title": "Wikipedia coordinate record: Indiana University Bloomington", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Indiana_University_Bloomington" }
+      ]
+    },
+    {
+      "name": "Persepolis",
+      "country": "Iran",
+      "lat": 29.935,
+      "lon": 52.89,
+      "from": "1969-09-09",
+      "kind": "premiere",
+      "work": "Persephassa",
+      "what": "First performance of Persephassa by the Percussions de Strasbourg at the Shiraz Festival. The Polytope de Persepolis was performed in the ruins of Darius’s palace on 26 August 1971.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Persephassa, work record", "url": "https://www.iannis-xenakis.org/en/persephassa/" },
+        { "title": "Carré, “Polytope”, A Xenakis Dictionary", "url": "https://www.iannis-xenakis.org/en/polytope/" },
+        { "title": "Wikipedia coordinate record: Persepolis", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Persepolis" }
+      ]
+    },
+    {
+      "name": "Thermes de Cluny, Paris",
+      "country": "France",
+      "lat": 48.8508,
+      "lon": 2.3434,
+      "from": "1972-10-13",
+      "kind": "premiere",
+      "work": "Polytope de Cluny",
+      "what": "The Polytope de Cluny opened in the Roman baths for the first Festival d’Automne and ran until January 1974, with 600 flashes, lasers and 400 mirrors under computer control.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1972 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Carré, “Polytope”, A Xenakis Dictionary", "url": "https://www.iannis-xenakis.org/en/polytope/" },
+        { "title": "Wikipedia coordinate record: Thermes de Cluny", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Thermes_de_Cluny" }
+      ]
+    },
+    {
+      "name": "Athens",
+      "country": "Greece",
+      "lat": 37.9842,
+      "lon": 23.7281,
+      "from": "1974-11",
+      "kind": "travelled",
+      "what": "Returned to Greece in November 1974, after the fall of the military regime and the passing of the law that annulled his sentences. His exile had lasted twenty-seven years.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 1974 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Varga, Conversations with Iannis Xenakis, 1996, p. 45", "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf" },
+        { "title": "Wikipedia coordinate record: Athens", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Athens" }
+      ]
+    },
+    {
+      "name": "Mycenae",
+      "country": "Greece",
+      "lat": 37.7303,
+      "lon": 22.7575,
+      "from": "1978-09-02",
+      "kind": "premiere",
+      "work": "Polytope de Mycenae",
+      "what": "The Polytope de Mycenae was performed on the ancient site from 2 to 5 September 1978, with Mycènes Alpha made on the UPIC. It was his first work created on Greek soil after twenty-seven years of exile.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Polytope de Mycènes", "url": "https://www.iannis-xenakis.org/en/polytope-de-mycenes/" },
+        { "title": "Carré, “Polytope”, A Xenakis Dictionary", "url": "https://www.iannis-xenakis.org/en/polytope/" },
+        { "title": "Wikipedia coordinate record: Mycenae", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Mycenae" }
+      ]
+    },
+    {
+      "name": "Huddersfield",
+      "country": "United Kingdom",
+      "lat": 53.645,
+      "lon": -1.7798,
+      "from": "1997-11-30",
+      "kind": "premiere",
+      "work": "O-Mega",
+      "what": "First performance of his last work, O-Mega, by Evelyn Glennie and the London Sinfonietta under Markus Stenz at the Huddersfield Contemporary Music Festival.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: O-Mega, work record", "url": "https://www.iannis-xenakis.org/en/o-mega/" },
+        { "title": "Les Amis de Xenakis: Biography, 1997 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Wikipedia coordinate record: Huddersfield", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Huddersfield" }
+      ]
+    },
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "lat": 35.0116,
+      "lon": 135.7681,
+      "from": "1997-11-11",
+      "kind": "travelled",
+      "what": "Gave the commemorative lecture “My Way” on receiving the 1997 Kyoto Prize in Arts and Philosophy, and took part in a workshop the next day.",
+      "status": "documented",
+      "sources": [
+        { "title": "Inamori Foundation: Iannis Xenakis, 1997 Kyoto Prize laureate", "url": "https://www.kyotoprize.org/en/laureates/iannis_xenakis/" },
+        { "title": "Wikipedia coordinate record: Kyoto", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Kyoto" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "2001-02-04",
+      "kind": "died",
+      "what": "Died at home at five in the morning.",
+      "status": "documented",
+      "sources": [
+        { "title": "Les Amis de Xenakis: Biography, 2001 entry", "url": "https://www.iannis-xenakis.org/en/biographie/" },
+        { "title": "Constellation Iannis Xenakis: Biographical Elements", "url": "https://www.centre-iannis-xenakis.org/iannis_xenakis_bio?lang=en" },
+        { "title": "Wikipedia coordinate record: Paris", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris" }
+      ]
+    }
+  ]
+}

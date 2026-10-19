@@ -19,24 +19,24 @@ export default {
   "forces": "Orchestra",
   "performers": "Musopen recording; performers uncredited",
   "recorded": "",
-  "intro": "The <i>New World</i> Symphony begins quietly in the lower strings, then finds its voice in a horn call. That call will keep returning through all four movements, even when Dvořák seems to have wandered far from E minor.",
+  "intro": "The first movement of the <i>New World</i> Symphony, Dvořák’s Symphony No. 9 in E minor, Op. 95, opens with an Adagio in the lower strings before a horn call enters. The horn call returns in all four movements, including passages far from E minor.",
   "sections": [
-    { "t": 0, "label": "Intro · Low strings, interrupted phrases", "m": "Intro", "mNote": "Violas and cellos begin quietly; horns and winds answer" },
-    { "t": 120, "label": "A · The E-minor horn call", "m": "A", "mNote": "Horns announce the tune above quiet string chords" },
-    { "t": 180, "label": "B · Flutes and oboes in G minor", "m": "B", "mNote": "A narrow wind tune rides over a repeated horn note" },
-    { "t": 260, "label": "C · A flute song in G major", "m": "C", "mNote": "Solo flute sings above softly held strings" },
-    { "t": 312, "label": "Dev · The horn call changes key", "m": "Dev", "mNote": "The main call and closing tune pass through changing keys" },
-    { "t": 398, "label": "A′ · The E-minor call returns", "m": "A′", "mNote": "The opening call regains its home key" },
-    { "t": 440, "label": "B′ · The wind tune in G♯ minor", "m": "B′", "mNote": "The second tune returns a semitone higher" },
-    { "t": 520, "label": "C′ · The flute song in A♭", "m": "C′", "mNote": "The closing tune also rises a semitone" },
-    { "t": 550, "label": "Coda · Brass and timpani in E minor", "m": "Coda", "mNote": "The opening call rises above the full orchestra" }
+    { "t": 0, "label": "Intro · Adagio, low strings, interrupted phrases", "m": "Intro", "mNote": "Violas and cellos begin softly, then horns and winds enter." },
+    { "t": 120, "label": "A · Horn theme in E minor", "m": "A", "mNote": "Horns play the theme over quiet string chords." },
+    { "t": 180, "label": "B · Flutes and oboes in G minor", "m": "B", "mNote": "A narrow-ranged wind melody over a repeated horn note." },
+    { "t": 260, "label": "C · Flute theme in G major", "m": "C", "mNote": "Solo flute plays the theme over sustained strings." },
+    { "t": 312, "label": "Dev · Horn call, modulating", "m": "Dev", "mNote": "The main horn call and closing theme modulate through several keys." },
+    { "t": 398, "label": "A′ · Opening theme returns in E minor", "m": "A′", "mNote": "The opening theme returns in the home key." },
+    { "t": 440, "label": "B′ · Wind theme in G♯ minor", "m": "B′", "mNote": "The second theme returns a semitone higher." },
+    { "t": 520, "label": "C′ · Flute theme in A♭", "m": "C′", "mNote": "The closing theme also rises a semitone." },
+    { "t": 550, "label": "Coda · Brass and timpani in E minor", "m": "Coda", "mNote": "The opening call returns above the full orchestra." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The lower strings begin",
-      "text": "Violas and cellos start softly, with basses underneath. The violins wait while clarinets, bassoons and horns add short replies. These hesitant phrases already contain the shape of the horn call that will drive the Allegro.",
+      "title": "Opening, lower strings",
+      "text": "Violas and cellos begin softly, with basses underneath. The violins rest while clarinets, bassoons and horns play short phrases. These phrases already contain the outline of the horn call that is the main theme of the Allegro.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, Otakar Šourek edition, movement I, printed pp. 1–7; the thematic connection is described in the Dvořák work catalogue. https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
@@ -44,8 +44,8 @@ export default {
     {
       "t": 45,
       "kind": "music",
-      "title": "Drawn out, where possible",
-      "text": "Dvořák asks for the whole introduction to be “drawn out, where possible”. Its opening outline becomes a signature of his American years: it returns in the third movement of the E♭ major String Quintet and in the Humoresque No. 1.",
+      "title": "Introduction and its later recurrences",
+      "text": "Dvořák asked for the whole introduction to be “drawn out, where possible”. Its opening melodic outline recurs in other works from his American years, in the third movement of the E♭ major String Quintet and in the Humoresque No. 1.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Dvořák work catalogue, Symphony No. 9, “formal structure and content”: the instruction for the introduction, and the recurrence of its melodic outline in the Quintet and the Humoresque. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -53,8 +53,8 @@ export default {
     {
       "t": 120,
       "kind": "form",
-      "title": "The horns announce it",
-      "text": "The horns launch the Allegro’s E-minor tune above quiet string chords and plucked basses. Its opening leaps like a fanfare; the answer falls back. Dvořák will bring this call into every later movement.",
+      "title": "First theme of the Allegro, horns",
+      "text": "From bar 24 the horns play the Allegro’s theme in E minor above quiet string chords and pizzicato basses. It opens with leaps in the manner of a fanfare, and the answering phrase falls. Dvořák brought this theme back in every later movement.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, printed p. 7, bars 24 onwards. The call’s later appearances are documented at https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -62,8 +62,8 @@ export default {
     {
       "t": 156,
       "kind": "life",
-      "title": "A letter from New York",
-      "text": "On 12 April 1893 Dvořák writes from New York to Emil Kozánek about his new symphony: “It pleases me very much and will differ considerably from my early compositions.” He finishes the score on 24 May.",
+      "title": "Letter to Emil Kozánek, 1893",
+      "text": "On 12 April 1893 Dvořák wrote from New York to Emil Kozánek about his new symphony: “It pleases me very much and will differ considerably from my early compositions.” He finished the score on 24 May.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Dvořák to Emil Kozánek, New York, 12 April 1893; letter excerpt and composition dates in the work catalogue, https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -71,8 +71,8 @@ export default {
     {
       "t": 180,
       "kind": "music",
-      "title": "Flutes and oboes answer",
-      "text": "The second tune begins in G minor, shared by flutes and oboes above a repeated horn note. It stays within a small compass and uses F♮, the lowered seventh. Later, the same tune opens out into a dance in major.",
+      "title": "Second theme, flutes and oboes",
+      "text": "From bar 91 the second theme begins in G minor, shared by flutes and oboes above a repeated horn note. It stays within a small compass and uses F♮, the lowered seventh. Later the same theme returns in the major as a dance.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, printed pp. 16–19, from bar 91. The minor-to-major transformation is discussed in the work catalogue, https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -80,8 +80,8 @@ export default {
     {
       "t": 215,
       "kind": "life",
-      "title": "Four pages a day",
-      "text": "In summer 1893, on his first afternoon in Spillville, Iowa, Dvořák gives his assistant Josef Kovařík the 128-page score to copy: four pages a day. Kovařík obeys, and Dvořák grumbles that they are “quite empty ones”. When he copies sixteen, Dvořák rages: “That’s dreadful work, I should know!”",
+      "title": "Copying the score, Spillville, 1893",
+      "text": "In summer 1893, on his first afternoon in Spillville, Iowa, Dvořák gave his assistant Josef Kovařík the 128-page score to copy at four pages a day. Kovařík did so, and Dvořák complained that they were “quite empty ones”. When Kovařík copied sixteen, Dvořák said angrily: “That’s dreadful work, I should know!”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Josef Kovařík’s memoir of Dvořák’s American years, excerpted in the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -89,8 +89,8 @@ export default {
     {
       "t": 260,
       "kind": "music",
-      "title": "The flute’s third tune",
-      "text": "A solo flute sings the third tune in G major. Its opening has the rhythm of the horn call, now softened into a song. The strings hold their chords quietly, leaving the flute plenty of air.",
+      "title": "Third theme, solo flute",
+      "text": "A solo flute plays the third theme in G major. Its opening has the rhythm of the horn call. The strings hold sustained chords beneath it.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, printed p. 26, bar 149 onwards: solo flute and sustained strings. The rhythmic kinship is described in the Dvořák work catalogue."
@@ -98,8 +98,8 @@ export default {
     {
       "t": 285,
       "kind": "music",
-      "title": "A tune close to a spiritual",
-      "text": "The flute’s tune is often compared with the spiritual <i>Swing Low, Sweet Chariot</i>: most scholars find its outline and rhythm too close to be chance. Dvořák told the <i>New York Herald</i> he had “not actually used any of the melodies”, only the spirit of Black and Native American songs.",
+      "title": "Flute theme and <i>Swing Low, Sweet Chariot</i>",
+      "text": "The flute’s tune is often compared with the spiritual <i>Swing Low, Sweet Chariot</i>, and most scholars consider its outline and rhythm too close to be chance. Dvořák told the <i>New York Herald</i> he had “not actually used any of the melodies”, only the spirit of Black and Native American songs.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Dvořák work catalogue, “sources of inspiration” and “formal structure and content”: the closing theme’s resemblance to Swing Low, Sweet Chariot, and Dvořák’s interview in the New York Herald. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -107,8 +107,8 @@ export default {
     {
       "t": 312,
       "kind": "form",
-      "title": "The tunes leave home",
-      "text": "The development takes up the horn call and the opening of the flute song. The keys turn quickly: A major becomes A minor, then F major and F♯ minor. Familiar phrases acquire sharper edges as their bass notes move.",
+      "title": "Development",
+      "text": "The development takes up the horn call and the opening of the flute melody. The music modulates quickly from A major to A minor, then to F major and F♯ minor. The phrases return over moving bass notes.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The Dvořák work catalogue identifies the two principal themes used in the development and gives its key sequence: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -116,8 +116,8 @@ export default {
     {
       "t": 355,
       "kind": "world",
-      "title": "“The folk songs of America”",
-      "text": "Three days before he finishes the score, on 21 May 1893, the <i>New York Herald</i> prints Dvořák’s views under the headline “Real Value of Negro Melodies”. “These are the folk songs of America,” he says, “and your composers must turn to them.”",
+      "title": "New York Herald, 21 May 1893",
+      "text": "On 21 May 1893, three days before he finished the score, the <i>New York Herald</i> printed Dvořák’s views under the headline “Real Value of Negro Melodies”. “These are the folk songs of America,” he said, “and your composers must turn to them.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "New York Herald, Sunday 21 May 1893, p. 28, “Real Value of Negro Melodies”, first column (scan: https://static.qobuz.com/info/IMG/pdf/NYHerald-1893-Mai-21-Recadre.pdf). Completion of the score on 24 May 1893: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
@@ -125,8 +125,8 @@ export default {
     {
       "t": 398,
       "kind": "form",
-      "title": "E minor, then a surprise",
-      "text": "The opening call returns in E minor. The other tunes follow, but both have moved up a semitone: the second begins in G♯ minor, and the flute song returns in A♭ major. Homecoming has a detour built into it.",
+      "title": "Recapitulation",
+      "text": "The opening call returns in E minor. The other themes follow a semitone higher. The second begins in G♯ minor, and the flute melody returns in A♭ major.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, recapitulation, including printed pp. 53–54 and 63. The semitone transpositions are documented in the Dvořák work catalogue."
@@ -134,8 +134,8 @@ export default {
     {
       "t": 429,
       "kind": "world",
-      "title": "Burleigh sings for Dvořák",
-      "text": "In New York, Harry T. Burleigh sings spirituals for Dvořák. They meet repeatedly before he begins the symphony. The songs’ five-note scales and displaced accents feed his thinking as he writes his own melodies.",
+      "title": "Harry T. Burleigh and Dvořák, New York",
+      "text": "In New York, Harry T. Burleigh sang spirituals for Dvořák, and the two met repeatedly before Dvořák began the symphony. The five-note scales and displaced accents of these songs informed the melodies he wrote for it.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The work catalogue describes Burleigh’s meetings with Dvořák and the influence of pentatonic melody and syncopation: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
@@ -143,7 +143,7 @@ export default {
     {
       "t": 480,
       "kind": "world",
-      "title": "Mrs Thurber’s conservatory",
+      "title": "Jeannette Thurber’s National Conservatory",
       "text": "Jeannette Thurber founded New York’s National Conservatory in 1885 and admitted students whatever their race or sex. In 1892 she offered Dvořák its directorship. On 23 January 1894 he conducted its student orchestra and an all-Black choir of 130 at Madison Square Garden Concert Hall, for the <i>Herald</i>’s clothing fund.",
       "basis": "documented",
       "precision": "passage",
@@ -152,8 +152,8 @@ export default {
     {
       "t": 550,
       "kind": "form",
-      "title": "The brass claims E minor",
-      "text": "The coda brings the horn call up through the brass, with timpani driving underneath the full orchestra. After the flute song’s visit to A♭ major, the ending plants both feet in E minor.",
+      "title": "Coda in E minor",
+      "text": "In the coda the horn call passes up through the brass, with timpani prominent beneath the full orchestra. The flute melody earlier moved to A♭ major. The movement ends in E minor.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, closing pages of movement I, printed pp. 64–72. The brass statement and prominent timpani are described in the work catalogue."
@@ -162,12 +162,12 @@ export default {
   "transitions": [
     {
       "id": "join-1",
-      "title": "The horns release the Allegro",
-      "from": "Intro · Low strings, interrupted phrases",
-      "to": "A · The E-minor horn call",
+      "title": "Adagio into Allegro molto",
+      "from": "Intro · Adagio, low strings, interrupted phrases",
+      "to": "A · Horn theme in E minor",
       "at": { "t": 120 },
       "span": [110, 135],
-      "how": "<p>The Adagio’s last outburst subsides onto B, the dominant of E minor. The strings hold quietly as the metre changes to 2/4. At <i>Allegro molto</i>, horns announce the main tune above string chords and plucked cellos and basses.</p>",
+      "how": "<p>The Adagio’s last loud passage ends on B, the dominant of E minor. The strings hold as the metre changes to 2/4. At <i>Allegro molto</i>, the horns play the main tune over string chords, with the cellos and basses plucked.</p>",
       "devices": ["tempo change", "metre change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -175,12 +175,12 @@ export default {
     },
     {
       "id": "join-2",
-      "title": "The winds settle into G minor",
-      "from": "A · The E-minor horn call",
+      "title": "Flutes and oboes begin the G-minor theme",
+      "from": "A · Horn theme in E minor",
       "to": "B · Flutes and oboes in G minor",
       "at": { "t": 180 },
       "span": [170, 195],
-      "how": "<p>The running string phrases quieten. Flutes and oboes begin the G-minor tune above sustained strings, with a solo horn repeating one note underneath. Its F♮ keeps the melody clear of the leading note F♯.</p>",
+      "how": "<p>The running string phrases grow quieter. From bar 91, flutes and oboes play the G-minor tune above sustained strings, and a solo horn repeats one note underneath. The melody uses F♮ in place of the leading note F♯.</p>",
       "devices": ["decrescendo", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -188,12 +188,12 @@ export default {
     },
     {
       "id": "join-3",
-      "title": "A solo flute sings in G",
+      "title": "Solo flute enters in G major",
       "from": "B · Flutes and oboes in G minor",
-      "to": "C · A flute song in G major",
+      "to": "C · Flute theme in G major",
       "at": { "t": 260 },
       "span": [250, 275],
-      "how": "<p>The preceding wind phrases settle and the moving strings soften into held chords. A solo flute introduces the closing tune in G major. Its dotted opening recalls the main call’s rhythm, while the brass and double basses remain silent.</p>",
+      "how": "<p>The preceding wind phrases come to rest, and the moving strings drop in volume to held chords. At bar 149 a solo flute plays the closing tune in G major. Its dotted opening recalls the rhythm of the main call. The brass and double basses are silent.</p>",
       "devices": ["decrescendo", "orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -201,12 +201,12 @@ export default {
     },
     {
       "id": "join-4",
-      "title": "G major loosens its hold",
-      "from": "C · A flute song in G major",
-      "to": "Dev · The horn call changes key",
+      "title": "From the G-major close to the development",
+      "from": "C · Flute theme in G major",
+      "to": "Dev · Horn call, modulating",
       "at": { "t": 312 },
       "span": [302, 327],
-      "how": "<p>The G-major close leads into development beginning in A major. Dvořák takes the main call and the first phrase of the flute song through a sequence of new keys, turning A major to A minor before moving on to F major and F♯ minor.</p>",
+      "how": "<p>The exposition closes in G major, and the development begins in A major. Dvořák moves the main call and the first phrase of the flute song through a sequence of keys. A major turns to A minor, and the music then moves to F major and F♯ minor.</p>",
       "devices": ["sequence", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -214,12 +214,12 @@ export default {
     },
     {
       "id": "join-5",
-      "title": "The call finds E minor",
-      "from": "Dev · The horn call changes key",
-      "to": "A′ · The E-minor call returns",
+      "title": "Return to E minor and the main theme",
+      "from": "Dev · Horn call, modulating",
+      "to": "A′ · Opening theme returns in E minor",
       "at": { "t": 398 },
       "span": [388, 413],
-      "how": "<p>The changing keys lead back to E minor and the main call. Its rising announcement and falling answer restore the opening pattern. The recapitulation then follows the earlier order of themes, with the later wind tunes shifted up a semitone.</p>",
+      "how": "<p>The modulating passage leads back to E minor and the main theme. The rising first phrase and falling second phrase return in their opening pattern. The recapitulation then follows the order of themes in the exposition, and the later wind themes are transposed up a semitone.</p>",
       "devices": ["retransition", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -227,12 +227,12 @@ export default {
     },
     {
       "id": "join-6",
-      "title": "The wind tune rises a semitone",
-      "from": "A′ · The E-minor call returns",
-      "to": "B′ · The wind tune in G♯ minor",
+      "title": "The flute tune returns a semitone higher",
+      "from": "A′ · Opening theme returns in E minor",
+      "to": "B′ · Wind theme in G♯ minor",
       "at": { "t": 440 },
       "span": [430, 455],
-      "how": "<p>The returning fanfare quietens into the second tune. A solo flute recovers its narrow melody over held strings, now in G♯ minor. Plucked bass notes leave plenty of space beneath the line; the other winds join as the phrase unfolds.</p>",
+      "how": "<p>The returning fanfare drops in volume and leads into the second tune. At bar 316, after the strings have prepared the entry, the solo flute plays its narrow melody again over held strings, now in G♯ minor. Plucked bass notes sound beneath the line, and the other winds join as the phrase continues.</p>",
       "devices": ["decrescendo", "orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -241,11 +241,11 @@ export default {
     {
       "id": "join-7",
       "title": "The flute returns in A♭",
-      "from": "B′ · The wind tune in G♯ minor",
-      "to": "C′ · The flute song in A♭",
+      "from": "B′ · Wind theme in G♯ minor",
+      "to": "C′ · Flute theme in A♭",
       "at": { "t": 520 },
       "span": [510, 535],
-      "how": "<p>The busy string accompaniment settles into long chords. A solo flute sings the closing theme in A♭ major, a semitone above its first appearance. The double basses rest while cellos hold the foundation beneath the tune.</p>",
+      "how": "<p>At rehearsal 12 the moving string accompaniment changes to long held chords. A solo flute plays the closing theme in A♭ major, a semitone above its first appearance. The double basses rest, and the cellos hold the bass line under the theme.</p>",
       "devices": ["motivic link", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -253,12 +253,12 @@ export default {
     },
     {
       "id": "join-8",
-      "title": "E minor takes the ending",
-      "from": "C′ · The flute song in A♭",
+      "title": "Coda returns to E minor",
+      "from": "C′ · Flute theme in A♭",
       "to": "Coda · Brass and timpani in E minor",
       "at": { "t": 550 },
       "span": [540, 565],
-      "how": "<p>The flute song’s A♭ major is left behind as the coda turns back to E minor. The main call grows into a brass statement above the full orchestra, with timpani reinforcing the drive to the final chords.</p>",
+      "how": "<p>The coda moves from the A♭ major of the flute song back to E minor. The main call returns in the brass above the full orchestra, and the timpani reinforce the approach to the final chords.</p>",
       "devices": ["motivic link", "orchestration change", "crescendo build"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -305,25 +305,25 @@ export default {
           "violas",
           "cellos"
         ],
-        "note": "Violas and cellos begin quietly; clarinets, bassoons and horns add short replies."
+        "note": "Violas and cellos begin quietly; clarinets, bassoons and horns play short phrases in between."
       },
       {
         "t": 60,
         "playing": ["flutes", "oboes", "clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["timpani", "violins-1"],
-        "note": "Timpani reinforce the introduction’s sudden wind, horn and string outbursts."
+        "note": "Timpani reinforce the sudden outbursts of wind, horns and strings in the introduction."
       },
       {
         "t": 74,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "oboes", "horns"],
-        "note": "The orchestra softens to wind figures, horn replies and quiet strings."
+        "note": "The orchestra plays more quietly, with wind figures, replies from the horn and quiet strings."
       },
       {
         "t": 96,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["horns", "trumpets", "trombones"],
-        "note": "Trumpets and trombones join the winds and strings as the introduction gathers force."
+        "note": "Trumpets and trombones join the winds and strings as the introduction grows louder."
       },
       {
         "t": 120,
@@ -345,7 +345,7 @@ export default {
           "horns",
           "violins-1"
         ],
-        "note": "Horns announce the E-minor call; the strings answer and the orchestra grows around it."
+        "note": "The horns play the E-minor call; the strings answer, and the rest of the orchestra builds up around it."
       },
       {
         "t": 150,
@@ -390,7 +390,7 @@ export default {
         "lead": [
           "flutes"
         ],
-        "note": "A solo flute sings in G major over quiet string chords; the other winds join the unfolding phrase."
+        "note": "A solo flute plays in G major over quiet string chords; the other winds join the phrase."
       },
       {
         "t": 312,
@@ -419,7 +419,7 @@ export default {
         "t": 320,
         "playing": ["piccolo", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["piccolo"],
-        "note": "A piccolo sings a brief phrase over quiet strings, then hands the line to trumpets."
+        "note": "A piccolo plays a short phrase over quiet strings, then the trumpets take over the line."
       },
       {
         "t": 327,
@@ -431,7 +431,7 @@ export default {
         "t": 340,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["horns", "violins-1"],
-        "note": "Winds and brass join the strings as the development grows, with timpani adding weight below."
+        "note": "Winds and brass join the strings as the development builds, and the timpani enter below."
       },
       {
         "t": 398,
@@ -471,7 +471,7 @@ export default {
         "t": 505,
         "playing": ["flutes", "oboes", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "oboes"],
-        "note": "The wind phrases and strings soften as the movement approaches the flute’s closing song."
+        "note": "The wind phrases and the strings grow quieter as the movement approaches the flute’s closing melody."
       },
       {
         "t": 520,
@@ -501,7 +501,7 @@ export default {
           "trumpets",
           "trombones"
         ],
-        "note": "Brass raises the opening call above the full orchestra, with timpani driving towards the E-minor close."
+        "note": "The brass play the opening call above the full orchestra, and the timpani lead towards the close in E minor."
       }
     ]
   }

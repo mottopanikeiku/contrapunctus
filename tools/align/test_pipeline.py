@@ -513,6 +513,36 @@ class MusicXMLConversion(unittest.TestCase):
         self.assertEqual(lily.count('\\grace'), 2)
         self.assertRegex(lily, r'\\grace\s*\{\s*s16\s*\}\s*R2\.\*2')
 
+    def test_initial_grace_skip_precedes_a_leading_tuplet(self):
+        triplet = ''.join(
+            f'<note><pitch><step>{step}</step><octave>4</octave></pitch><duration>2</duration><type>eighth</type>'
+            '<time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification>'
+            f'{notation}</note>'
+            for step, notation in [('E', '<notations><tuplet type="start"/></notations>'), ('F', ''),
+                                   ('G', '<notations><tuplet type="stop"/></notations>')])
+        xml = ET.fromstring(f'''<score-partwise version="3.1">
+  <part-list><score-part id="P1"><part-name>Upper</part-name></score-part>
+    <score-part id="P2"><part-name>Lower</part-name></score-part></part-list>
+  <part id="P1"><measure number="1">
+    <attributes><divisions>6</divisions><time><beats>1</beats><beat-type>4</beat-type></time>
+      <clef><sign>G</sign><line>2</line></clef></attributes>
+    {triplet}
+  </measure></part>
+  <part id="P2"><measure number="1">
+    <attributes><divisions>6</divisions><time><beats>1</beats><beat-type>4</beat-type></time>
+      <clef><sign>F</sign><line>4</line></clef></attributes>
+    <note><grace/><pitch><step>D</step><octave>3</octave></pitch><type>eighth</type></note>
+    <note><pitch><step>C</step><octave>3</octave></pitch><duration>6</duration><type>quarter</type></note>
+  </measure></part>
+</score-partwise>''')
+        music = r'<< \new Staff { \PartPOneVoiceOne } \new Staff { \PartPTwoVoiceOne } >>'
+        before, _, _ = self.convert(ET.tostring(xml, encoding='unicode'), music)
+        mark_initial_grace(xml, {'part': 'P2', 'measure': 1, 'note': 0, 'basis': 'Fixture source grace'})
+        after, lily, _ = self.convert(ET.tostring(xml, encoding='unicode'), music)
+        self.assertEqual(before, after)
+        self.assertEqual(lily.count('\\grace'), 2)
+        self.assertRegex(lily, r'\\grace\s*\{\s*s8\s*\}\s*\\times 2/3')
+
 
 
 class MusicXMLTieRoutes(unittest.TestCase):

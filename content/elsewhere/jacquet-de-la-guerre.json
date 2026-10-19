@@ -1,0 +1,110 @@
+{
+  "composer": "jacquet-de-la-guerre",
+  "items": [
+    {
+      "work": "Céphale et Procris",
+      "year": "1694",
+      "performers": "Reinoud Van Mechelen, Deborah Cachet, Ema Nikolovska, Marc Mauillon; Chœur de Chambre de Namur; A Nocte Temporis",
+      "recorded": "",
+      "label": "Château de Versailles Spectacles, CVS119",
+      "note": "The complete tragédie en musique, with a prologue and five acts, on two CDs, released on 9 February 2024. The track list opens with the Ouverture, 3:44, and lists the dances of the prologue separately.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.operaroyal-versailles.fr/en/evenement-p/jacquet-de-la-guerre-cephalus-and-procris-2023/",
+          "title": "Opéra Royal, Versailles — Cephalus and Procris, concert and 2CD, CVS119"
+        },
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/fr/album/elisabeth-jacquet-de-la-guerre-c%C3%A9phale-et-procris/1724759335",
+          "title": "Céphale et Procris on Apple Music"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/3OeHCpr7kz93nbMlwOUokd",
+          "title": "Céphale et Procris on Spotify"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=hn8n5vhfUII",
+          "title": "Prologue: Ouverture, on the Reinoud Van Mechelen artist channel"
+        }
+      ]
+    },
+    {
+      "work": "Pièces de clavecin — suites from the books of 1687 and 1707",
+      "year": "1687, 1707",
+      "performers": "Blandine Verlet, harpsichord",
+      "recorded": "",
+      "label": "Auvidis",
+      "note": "The recording has twenty-six tracks. The set opens with the D minor suite of 1687, from the Prélude to the Chaconne l’Inconstante, which runs 3:28 here, and continues with the G minor suite and later suites.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/fr/album/jacquet-de-la-guerre-les-pi%C3%A8ces-de-clavecin/1202862219",
+          "title": "Les pièces de clavecin on Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "Sonates pour le violon (1707)",
+      "year": "1707",
+      "performers": "Les Dominos; Florence Malgoire, violin",
+      "recorded": "",
+      "label": "Outhere",
+      "note": "All six sonatas, each movement listed separately. The movement headings include Lent, Presto, Adagio and Aria, with a Courante in the fifth sonata and an Allemande in the sixth.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/jacquet-de-la-guerre-sonates-pour-violon/1572109095",
+          "title": "Sonates pour violon on Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "Le Sommeil d’Ulisse; Samson; Prélude and Chaconne in A minor; Sonata in D minor",
+      "year": "1687–1715",
+      "performers": "Isabelle Desrochers, soprano; Les Voix Humaines; Christine Payeux",
+      "recorded": "",
+      "label": "Alpha",
+      "note": "Two cantatas, two harpsichord pieces and a sonata for violin and continuo in D minor. The Sommeil movement of Le Sommeil d’Ulisse lasts 7:52.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/fr/album/jacquet-de-la-guerre-le-sommeil-dulisse/1572101724",
+          "title": "Le sommeil d’Ulisse on Apple Music"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Opéra Royal, Château de Versailles Spectacles — Cephalus and Procris: cast of the concert, programme, and 2CD no. 119",
+      "url": "https://www.operaroyal-versailles.fr/en/evenement-p/jacquet-de-la-guerre-cephalus-and-procris-2023/"
+    },
+    {
+      "title": "Apple Music — Elisabeth Jacquet de la Guerre: Céphale et Procris: performers, 2024 release, ℗ Château de Versailles Spectacles, track list",
+      "url": "https://music.apple.com/fr/album/elisabeth-jacquet-de-la-guerre-c%C3%A9phale-et-procris/1724759335"
+    },
+    {
+      "title": "Spotify oEmbed — Elisabeth Jacquet de la Guerre: Céphale et Procris (album, 2024, release date 9 February 2024)",
+      "url": "https://open.spotify.com/oembed?url=https://open.spotify.com/album/3OeHCpr7kz93nbMlwOUokd"
+    },
+    {
+      "title": "YouTube oEmbed — Céphale et Procris, Prologue: Ouverture (author: Reinoud Van Mechelen - Topic)",
+      "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=hn8n5vhfUII&format=json"
+    },
+    {
+      "title": "Apple Music — Blandine Verlet, Jacquet de la Guerre: Les pièces de clavecin (℗ 1998 Auvidis), 26-track listing",
+      "url": "https://music.apple.com/fr/album/jacquet-de-la-guerre-les-pi%C3%A8ces-de-clavecin/1202862219"
+    },
+    {
+      "title": "Apple Music — Les Dominos and Florence Malgoire, Jacquet de La Guerre: Sonates pour violon (2011, ℗ Outhere), movement list",
+      "url": "https://music.apple.com/us/album/jacquet-de-la-guerre-sonates-pour-violon/1572109095"
+    },
+    {
+      "title": "Apple Music — Isabelle Desrochers, Les Voix Humaines and Christine Payeux, Jacquet de la Guerre: Le sommeil d’Ulisse (℗ 2000 Alpha), 30-track listing",
+      "url": "https://music.apple.com/fr/album/jacquet-de-la-guerre-le-sommeil-dulisse/1572101724"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "villa-lobos",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "David P. Appleby, *Heitor Villa-Lobos: A Life (1887–1959)* (Scarecrow Press, 2002).",
+      "url": "https://archive.org/details/heitorvillalobos0000appl",
+      "kind": "biography",
+      "note": "The Internet Archive catalogue lists 203 pages with a bibliography and index, and the publisher describes the book as based on the composer’s private papers and correspondence. IMSLP names Appleby’s earlier *Bio-Bibliography* (Greenwood Press, 1988) as the main source of its list of works, and the W numbers there are Appleby numbers."
+    },
+    {
+      "cite": "Gerard Béhague, *Heitor Villa-Lobos: The Search for Brazil’s Musical Soul* (Institute of Latin American Studies, University of Texas at Austin, 1994).",
+      "url": "https://archive.org/details/heitorvillalobos00bh",
+      "kind": "critical study",
+      "note": "The Internet Archive record lists three chapters after Vasco Mariz’s foreword: a critical biography, the musical language, and “National Style versus Musical Nationalism: Villa-Lobos’s Eclecticism”. It helps answer how his style related to musical nationalism."
+    },
+    {
+      "cite": "Simon Wright, *Villa-Lobos* (Oxford University Press, 1992).",
+      "url": "https://archive.org/details/villalobos0000wrig",
+      "kind": "study of the music",
+      "note": "A short volume in the Oxford Studies of Composers series. Wright also wrote the 1987 Hyperion booklet note on the Bachianas Brasileiras Nos. 1 and 5 that this site cites."
+    },
+    {
+      "cite": "Eduardo Sato, “Cannibalizing Bach: Villa-Lobos in Europe, 1936”, *Twentieth-Century Music* 21/2 (2024), 263–295.",
+      "url": "https://doi.org/10.1017/S1478572223000129",
+      "kind": "journal article",
+      "note": "An open-access article on why Bach became the model for the Bachianas Brasileiras. Drawing on archives in Rio and São Paulo, it reads the 1936 trip to Prague and Berlin as the start of the phase that produced the series."
+    },
+    {
+      "cite": "Lisa M. Peppercorn, *The World of Villa-Lobos in Pictures and Documents* (Scolar Press, 1996).",
+      "url": "https://archive.org/details/worldofvillalobo0000pepp",
+      "kind": "documents and illustrations",
+      "note": "What do letters, programmes and photographs add to the standard accounts? Eduardo Sato cites it for the 1936 trip."
+    }
+  ]
+}

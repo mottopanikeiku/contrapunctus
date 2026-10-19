@@ -1,0 +1,543 @@
+{
+  "id": "smetana",
+  "places": [
+    {
+      "name": "Litomyšl",
+      "country": "Czech Republic",
+      "lat": 49.8719,
+      "lon": 16.3106,
+      "from": "1824-03-02",
+      "kind": "born",
+      "what": "Born in the castle brewery, where his father František was a master brewer. On 4 October 1830 he played the piano at an academy given in the town for the emperor’s name day. Coordinates mark the town, not the brewery.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bedřich Smetana Museum, National Museum: Life",
+          "url": "https://bedrichsmetana.nm.cz/en/info/life"
+        },
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Litomyšl",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Litomy%C5%A1l"
+        }
+      ]
+    },
+    {
+      "name": "Jindřichův Hradec (Neuhaus)",
+      "country": "Czech Republic",
+      "lat": 49.1442,
+      "lon": 15.003,
+      "from": "1831",
+      "to": "1836",
+      "kind": "childhood",
+      "what": "His father was brewer to Count Czernin at Neuhaus from 1831 to 1836, and the boy went to school there.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Jindřichův Hradec",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Jind%C5%99ich%C5%AFv_Hradec"
+        }
+      ]
+    },
+    {
+      "name": "Jihlava (Iglau)",
+      "country": "Czech Republic",
+      "lat": 49.4003,
+      "lon": 15.5906,
+      "from": "1836",
+      "to": "1839",
+      "kind": "studied",
+      "what": "Schooled in German at Iglau and Deutschbrod between 1836 and 1839; Wellek does not divide the years between the two towns. Nekula gives Iglau as 1835–36 and Deutschbrod as 1836–39.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "Marek Nekula, Language & History 64.2 (2021)",
+          "url": "https://epub.uni-regensburg.de/53043/"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Jihlava",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Jihlava"
+        }
+      ]
+    },
+    {
+      "name": "Havlíčkův Brod (Deutschbrod)",
+      "country": "Czech Republic",
+      "lat": 49.6078,
+      "lon": 15.5808,
+      "from": "1836",
+      "to": "1839",
+      "kind": "studied",
+      "what": "Schooled at Deutschbrod (now Havlíčkův Brod), in whose district his father owned a small estate from 1836. Wellek does not divide the years between Iglau and Deutschbrod; Nekula gives Deutschbrod as 1836–39.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "Marek Nekula, Language & History 64.2 (2021)",
+          "url": "https://epub.uni-regensburg.de/53043/"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Havlíčkův Brod",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Havl%C3%AD%C4%8Dk%C5%AFv_Brod"
+        }
+      ]
+    },
+    {
+      "name": "Plzeň (Pilsen)",
+      "country": "Czech Republic",
+      "lat": 49.7475,
+      "lon": 13.3775,
+      "from": "1840",
+      "to": "1843",
+      "kind": "studied",
+      "what": "Boarded in the convict of the Premonstratensian gymnasium, under the supervision of his cousin Josef Franz Smetana; wrote piano dances and an overture in 1842.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Plzeň",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Plze%C5%88"
+        }
+      ]
+    },
+    {
+      "name": "Prague",
+      "country": "Czech Republic",
+      "lat": 50.0875,
+      "lon": 14.4214,
+      "from": "1843",
+      "to": "1845",
+      "kind": "studied",
+      "what": "Came to Prague to train as a musician and had about two years of lessons with the blind Josef Proksch, then continued studying alone for two more. Coordinates mark the city, not Proksch’s school.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Prague",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Prague"
+        }
+      ]
+    },
+    {
+      "name": "Poběžovice (Ronsperg)",
+      "country": "Czech Republic",
+      "lat": 49.5104,
+      "lon": 12.8027,
+      "from": "1844",
+      "to": "1847",
+      "kind": "worked",
+      "what": "Music teacher in the household of Count Leopold Thun, who spent part of each year at Ronsperg.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "cs.wikipedia coordinate record: Poběžovice",
+          "url": "https://cs.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Pob%C4%9B%C5%BEovice"
+        }
+      ]
+    },
+    {
+      "name": "Benátky nad Jizerou (Nové Benátky)",
+      "country": "Czech Republic",
+      "lat": 50.2931,
+      "lon": 14.8292,
+      "from": "1844",
+      "to": "1847",
+      "kind": "worked",
+      "what": "The Thun household also spent part of each year at Neu-Benatek near Jungbunzlau; the author identifies this with Nové Benátky, now part of Benátky nad Jizerou. The coordinates mark that town.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "cs.wikipedia coordinate record: Benátky nad Jizerou I",
+          "url": "https://cs.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ben%C3%A1tky_nad_Jizerou_I"
+        }
+      ]
+    },
+    {
+      "name": "Prague, Old Town Square",
+      "country": "Czech Republic",
+      "lat": 50.0875,
+      "lon": 14.4214,
+      "from": "1848",
+      "to": "1849",
+      "kind": "worked",
+      "what": "His address in March 1848 was Old Town Square 548. He opened his music institute in 1848, and the Morceaux caractéristiques were first played at the institute on the Old Town Square on 25 March 1849, at a public examination of his students.",
+      "work": "Six morceaux caractéristiques",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "Bedřich Smetana Museum: catalogue of works",
+          "url": "https://bedrichsmetana.nm.cz/en/catalogue"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Old Town Square",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Old_Town_Square"
+        }
+      ]
+    },
+    {
+      "name": "Gothenburg",
+      "country": "Sweden",
+      "lat": 57.7075,
+      "lon": 11.9675,
+      "from": "1856",
+      "to": "1861-05",
+      "kind": "worked",
+      "what": "Conductor of the Harmoniska Sällskapet, concert pianist and teacher; wrote Richard III, Wallenstein’s Camp and Hakon Jarl.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bedřich Smetana Museum, National Museum: Life",
+          "url": "https://bedrichsmetana.nm.cz/en/info/life"
+        },
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Gothenburg",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Gothenburg"
+        }
+      ]
+    },
+    {
+      "name": "Weimar",
+      "country": "Germany",
+      "lat": 50.9811,
+      "lon": 11.3294,
+      "from": "1857-09-03",
+      "to": "1857-09-07",
+      "kind": "travelled",
+      "what": "Stayed a few days at Weimar at Liszt’s invitation, on his way to Sweden; Wellek dates the stay 3–7 September 1857. The transcription Memories of Weimar was completed there on 5 September 1857.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "Bedřich Smetana Museum: Memories of Weimar",
+          "url": "https://bedrichsmetana.nm.cz/en/work/detail/memories-of-weimar/89"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Weimar",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Weimar"
+        }
+      ]
+    },
+    {
+      "name": "Dresden",
+      "country": "Germany",
+      "lat": 51.05,
+      "lon": 13.74,
+      "from": "1859-04-19",
+      "kind": "travelled",
+      "what": "His first wife Katharina died here on 19 April 1859 on the journey back to Bohemia. Coordinates mark the city.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Dresden",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Dresden"
+        }
+      ]
+    },
+    {
+      "name": "Prague, Provisional Theatre",
+      "country": "Czech Republic",
+      "lat": 50.0807,
+      "lon": 14.4136,
+      "from": "1866",
+      "to": "1874",
+      "kind": "worked",
+      "what": "Principal conductor of the opera after the war of 1866 until deafness ended his conducting in 1874. Wellek places the theatre on the quay near Slavonic Island; the coordinates are the English Wikipedia record for the Provisional Theatre.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Provisional Theatre",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Provisional_Theatre_%28Prague%29"
+        }
+      ]
+    },
+    {
+      "name": "Prague, Provisional Theatre",
+      "country": "Czech Republic",
+      "lat": 50.0807,
+      "lon": 14.4136,
+      "from": "1866-05-30",
+      "kind": "premiere",
+      "what": "First performance of The Bartered Bride under Smetana, in two acts with spoken dialogue. The Brandenburgers in Bohemia had been staged here on 5 January 1866, with Dvořák in the orchestra.",
+      "work": "The Bartered Bride",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bedřich Smetana Museum: catalogue of works",
+          "url": "https://bedrichsmetana.nm.cz/en/catalogue"
+        },
+        {
+          "title": "Dvořák chronology, antonin-dvorak.cz",
+          "url": "https://www.antonin-dvorak.cz/en/life/important-dates-in-the-life-of-antonin-dvorak/"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Provisional Theatre",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Provisional_Theatre_%28Prague%29"
+        }
+      ]
+    },
+    {
+      "name": "Munich",
+      "country": "Germany",
+      "lat": 48.1375,
+      "lon": 11.575,
+      "from": "1870",
+      "kind": "heard",
+      "what": "Went to hear Das Rheingold and Die Walküre in the summer of 1870 and met Liszt there. Wellek also records visits for Die Meistersinger in 1868 and Tristan in 1872. The month is not given in the source.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Munich",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Munich"
+        }
+      ]
+    },
+    {
+      "name": "Würzburg",
+      "country": "Germany",
+      "lat": 49.7944,
+      "lon": 9.9294,
+      "from": "1875-04",
+      "kind": "travelled",
+      "what": "Consulted the ear specialist Dr Tröltsch in April 1875; Wellek names Munich, Salzburg and Linz as the next stops.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "de.wikipedia coordinate record: Würzburg",
+          "url": "https://de.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=W%C3%BCrzburg"
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria",
+      "lat": 48.2083,
+      "lon": 16.3725,
+      "from": "1875",
+      "kind": "travelled",
+      "what": "Consulted the specialist Dr Politzer in 1875 at the end of the same journey; the month is not given.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "Hoppe and Rosanowski, The deafness of Bedrich Smetana (2024)",
+          "url": "https://journals.publisso.de/en/journals/zaud/volume6/zaud000037"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Vienna",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Vienna"
+        }
+      ]
+    },
+    {
+      "name": "Prague, Žofín",
+      "country": "Czech Republic",
+      "lat": 50.0789,
+      "lon": 14.4128,
+      "from": "1875-04-04",
+      "kind": "premiere",
+      "what": "First performance of Vltava under Adolf Čech, at a concert Smetana gave to pay for consultations with specialists. Coordinates are from the Czech Wikipedia record for the Žofín palace.",
+      "work": "Má vlast: Vltava",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bedřich Smetana Museum: catalogue of works",
+          "url": "https://bedrichsmetana.nm.cz/en/catalogue"
+        },
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "cs.wikipedia coordinate record: Palác Žofín",
+          "url": "https://cs.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Pal%C3%A1c_%C5%BDof%C3%ADn"
+        }
+      ]
+    },
+    {
+      "name": "Jabkenice",
+      "country": "Czech Republic",
+      "lat": 50.3241,
+      "lon": 15.0149,
+      "from": "1875",
+      "to": "1884",
+      "kind": "lived",
+      "what": "Lived in the house of his daughter Žofie and her husband, the forester Josef Schwarz; wrote the string quartet From My Life, the last operas and the later poems of Má vlast here. The museum dates the residence from 1876; Smetana’s own list records a poem finished at Jabkenice on 18 October 1875.",
+      "work": "String Quartet No. 1, From My Life",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bedřich Smetana Museum, National Museum: Life",
+          "url": "https://bedrichsmetana.nm.cz/en/info/life"
+        },
+        {
+          "title": "Bedřich Smetana Museum: catalogue of works",
+          "url": "https://bedrichsmetana.nm.cz/en/catalogue"
+        },
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "cs.wikipedia coordinate record: Jabkenice",
+          "url": "https://cs.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Jabkenice"
+        }
+      ]
+    },
+    {
+      "name": "Prague, National Theatre",
+      "country": "Czech Republic",
+      "lat": 50.0811,
+      "lon": 14.4136,
+      "from": "1881-06-11",
+      "kind": "premiere",
+      "what": "First performance of Libuše, at the opening of the National Theatre. A fire on 12 August 1881 destroyed the auditorium, and the reopened theatre played Libuše again on 18 November 1883.",
+      "work": "Libuše",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "National Theatre, Prague: history",
+          "url": "https://www.narodni-divadlo.cz/en/stages/the-national-theatre/history"
+        },
+        {
+          "title": "Bedřich Smetana Museum: catalogue of works",
+          "url": "https://bedrichsmetana.nm.cz/en/catalogue"
+        },
+        {
+          "title": "en.wikipedia coordinate record: National Theatre",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=National_Theatre_%28Prague%29"
+        }
+      ]
+    },
+    {
+      "name": "Prague, Žofín",
+      "country": "Czech Republic",
+      "lat": 50.0789,
+      "lon": 14.4128,
+      "from": "1882-11-05",
+      "kind": "premiere",
+      "what": "First performance of the whole of Má vlast under Adolf Čech; Smetana was staying in Prague with Josef Srb.",
+      "work": "Má vlast",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bedřich Smetana Museum: catalogue of works",
+          "url": "https://bedrichsmetana.nm.cz/en/catalogue"
+        },
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "cs.wikipedia coordinate record: Palác Žofín",
+          "url": "https://cs.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Pal%C3%A1c_%C5%BDof%C3%ADn"
+        }
+      ]
+    },
+    {
+      "name": "Prague",
+      "country": "Czech Republic",
+      "lat": 50.0875,
+      "lon": 14.4214,
+      "from": "1884-05-12",
+      "kind": "died",
+      "what": "He was taken by Srb to the asylum in Prague on 20 April 1884 and died there on 12 May. The sources consulted do not name the street, so the coordinates mark the city.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bronislav Wellek, Friedrich Smetana (1895)",
+          "url": "https://archive.org/details/11658530bsb"
+        },
+        {
+          "title": "Bedřich Smetana Museum, National Museum: Life",
+          "url": "https://bedrichsmetana.nm.cz/en/info/life"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Prague",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Prague"
+        }
+      ]
+    },
+    {
+      "name": "Vyšehrad Cemetery, Prague",
+      "country": "Czech Republic",
+      "lat": 50.065,
+      "lon": 14.4178,
+      "from": "1884",
+      "kind": "buried",
+      "what": "Buried in the Vyšehrad cemetery, field 5, grave 40. The date of the burial is not in the sources consulted. Dvořák took part in a remembrance at the grave on 12 May 1887.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mahler Foundation: Vyšehradský cemetery",
+          "url": "https://mahlerfoundation.org/mahler/locations/czech-republic/prague/vysehradsky-cemetery/"
+        },
+        {
+          "title": "Dvořák chronology, antonin-dvorak.cz",
+          "url": "https://www.antonin-dvorak.cz/en/life/important-dates-in-the-life-of-antonin-dvorak/"
+        },
+        {
+          "title": "en.wikipedia coordinate record: Vyšehrad Cemetery",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Vy%C5%A1ehrad_Cemetery"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export default {
   "source": {
     "file": "File:D. Buxtehude Präludium, Fuge und Chaconne C-Dur BuxWV 137 Fabian Wöhrle Kath. Kirche Gerstetten.mp3"
   },
-  "intro": "The organist begins with the feet alone. Fabian Wöhrle plays Buxtehude’s C-major <i>Praeludium</i>, where that first flourish grows into a fugue and finally a quick dance over a repeating bass.",
+  "intro": "Fabian Wöhrle plays Buxtehude’s <i>Praeludium</i> in C major, BuxWV 137. It opens with a passage for the pedals alone, which is followed by a fugue and then a quick chaconne over a repeating bass.",
   "sections": [
     {
       "t": 0,
@@ -23,29 +23,29 @@ export default {
     },
     {
       "t": 108,
-      "label": "A · The fugue takes up the flourish",
+      "label": "A · Fugue on the pedal figure",
       "m": "A",
-      "mNote": "The opening pedal figure becomes a fugue subject"
+      "mNote": "The opening pedal figure becomes the fugue subject."
     },
     {
       "t": 190,
-      "label": "Link · Runs above the pedals",
+      "label": "Link · Free passagework over pedals",
       "m": "Link",
-      "mNote": "The last fugue entry leads into free running notes"
+      "mNote": "The last fugue entry leads into free running notes."
     },
     {
       "t": 228,
-      "label": "B · A three-bar bass keeps returning",
+      "label": "B · Chaconne on a three-bar ground bass",
       "m": "B",
-      "mNote": "Eight statements of the ground beneath changing upper parts"
+      "mNote": "Eight statements of the ground beneath changing upper parts."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The feet begin alone",
-      "text": "For four bars the organist plays only with the feet. The pedal line leaps, runs and turns back on itself while both hands wait. The first notes on the keyboards arrive near the end of bar five.",
+      "title": "Opening pedal solo",
+      "text": "For four bars the organist plays with the feet alone. The pedal line moves by leaps and in runs that turn back on themselves, and the hands rest. The first notes on the manuals come near the end of bar five.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Les Éditions Outremontaises score (2007), bars 1–5: pedal solo, with the first manual notes late in bar 5. https://s9.imslp.org/files/imglnks/usimg/2/20/IMSLP126836-WIMA.e9e1-Buxtehude_Praeludium_137.pdf"
@@ -53,8 +53,8 @@ export default {
     {
       "t": 70,
       "kind": "life",
-      "title": "Evening music in Lübeck",
-      "text": "Buxtehude takes up the organist’s post at Lübeck’s Marienkirche in 1668. Alongside the services, he develops the church’s public evening concerts, the <i>Abendmusiken</i>. From 1678 these include sacred dramatic works.",
+      "title": "Abendmusiken, Marienkirche, Lübeck",
+      "text": "Buxtehude took up the organist’s post at Lübeck’s Marienkirche in 1668. Alongside the services, he developed the church’s public evening concerts, the <i>Abendmusiken</i>. From 1678 these included sacred dramatic works.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Marienkirche’s historical account gives the 1668 appointment and the sacred dramatic Abendmusiken from 1678. https://www.st-marien-luebeck.de/en/music/dieterich-buxtehude"
@@ -62,8 +62,8 @@ export default {
     {
       "t": 108,
       "kind": "form",
-      "title": "The flourish becomes a fugue",
-      "text": "The quick figure from the pedal solo now passes from voice to voice in a fugue. Each new entry has company: the earlier voice keeps playing as the next one begins.",
+      "title": "Fugue, bars 36–64",
+      "text": "The quick figure from the pedal solo now passes from voice to voice in a fugue. Relf Clark connected the subject with bar 2 of the pedal solo. Each earlier voice continues to play when the next one enters.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Les Éditions Outremontaises score (2007), bars 36–64. Relf Clark connects the fugue subject with bar 2 of the pedal solo. https://www.hyperion-records.co.uk/dw.asp?dc=W10872_GBAJY0861201"
@@ -71,8 +71,8 @@ export default {
     {
       "t": 176,
       "kind": "world",
-      "title": "Bach overstays his leave",
-      "text": "In 1705 [[bach|Bach]] goes to Lübeck to hear Buxtehude. His employers in Arnstadt grant four weeks’ leave; he stays away for four months. Back at work, he has to explain the absence to the church authorities.",
+      "title": "Bach’s visit to Lübeck, 1705",
+      "text": "In 1705 [[bach|Bach]] went to Lübeck to hear Buxtehude. His employers in Arnstadt had granted four weeks’ leave, and he stayed away for four months. On his return he had to explain the absence to the church authorities.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Marienkirche’s account quotes Bach’s obituary and the Arnstadt consistory minutes of 21 February 1706. https://www.st-marien-luebeck.de/en/music/dieterich-buxtehude"
@@ -80,8 +80,8 @@ export default {
     {
       "t": 190,
       "kind": "music",
-      "title": "The keyboards run free",
-      "text": "The last fugue entry opens straight into rapid runs on the keyboards. The pedals alternate moving notes with long-held ones; above them, the hands answer one another with scales.",
+      "title": "Manual passagework after final fugue entry",
+      "text": "The last fugue entry leads without a break into rapid runs on the manuals. The pedals alternate moving notes with long-held ones. Above them, the hands exchange scales.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Les Éditions Outremontaises score (2007), bars 64–74; Relf Clark identifies the unbroken continuation from the final subject entry. https://s9.imslp.org/files/imglnks/usimg/2/20/IMSLP126836-WIMA.e9e1-Buxtehude_Praeludium_137.pdf ; https://www.hyperion-records.co.uk/dw.asp?dc=W10872_GBAJY0861201"
@@ -89,8 +89,8 @@ export default {
     {
       "t": 228,
       "kind": "form",
-      "title": "Three bars, eight times",
-      "text": "<i>Presto Ciacona</i>: a fast dance in triple metre. A three-bar bass pattern returns eight times, while the parts above it change. The little ground grows from the fugue subject, which itself grew from the opening pedal solo.",
+      "title": "Chaconne, from bar 75",
+      "text": "The <i>Presto Ciacona</i> is a fast dance in triple metre. A three-bar bass pattern is heard eight times, and the parts above it change with each statement. The ground is derived from the fugue subject, which is itself derived from the opening pedal solo.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Les Éditions Outremontaises score (2007), from bar 75, marked Presto Ciacona in 3/2. Relf Clark identifies the eight statements and the ground’s relation to the subject. https://www.hyperion-records.co.uk/dw.asp?dc=W10872_GBAJY0861201"
@@ -98,8 +98,8 @@ export default {
     {
       "t": 266,
       "kind": "world",
-      "title": "A 1984 organ in Gerstetten",
-      "text": "Fabian Wöhrle plays the Reiser organ of the Catholic church of St Peter and St Paul in Gerstetten, a town in Baden-Württemberg. Built in 1984, it has two manuals, pedals and 22 stops.",
+      "title": "Reiser organ, Gerstetten, 1984",
+      "text": "Fabian Wöhrle plays the Reiser organ of the Catholic church of St Peter and St Paul in Gerstetten. Built in 1984, it has two manuals, pedal and 22 stops.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The Commons description of this recording names the performer, the church and the Reiser organ, II/P/22, 1984 (two manuals, pedal, 22 stops): https://commons.wikimedia.org/wiki/File:D._Buxtehude_Pr%C3%A4ludium,_Fuge_und_Chaconne_C-Dur_BuxWV_137_Fabian_W%C3%B6hrle_Kath._Kirche_Gerstetten.mp3"
@@ -108,13 +108,13 @@ export default {
   "transitions": [
     {
       "id": "prelude-to-fugue",
-      "title": "The pedal flourish reaches the hands",
+      "title": "From the pedal solo into the fugue",
       "from": "Intro · The pedals begin alone",
-      "to": "A · The fugue takes up the flourish",
+      "to": "A · Fugue on the pedal figure",
       "at": {
         "t": 108
       },
-      "how": "<p>The bass reaches C and the pedals fall silent. A running figure on the keyboards begins the fugue, taking up the shape of the opening pedal solo. Further voices enter one by one; eventually the pedals have the subject again.</p>",
+      "how": "<p>The bass reaches C and the pedals stop. The fugue opens with a running figure on the manuals, taken from the shape of the opening pedal solo. Further voices enter one by one, and later the pedals play the subject again.</p>",
       "devices": [
         "texture change",
         "motivic link"
@@ -125,13 +125,13 @@ export default {
     },
     {
       "id": "fugue-to-free-link",
-      "title": "The last entry runs onwards",
-      "from": "A · The fugue takes up the flourish",
-      "to": "Link · Runs above the pedals",
+      "title": "Final fugue entry into free passage",
+      "from": "A · Fugue on the pedal figure",
+      "to": "Link · Free passagework over pedals",
       "at": {
         "t": 190
       },
-      "how": "<p>The pedals carry the last fugue entry straight into the freer passage. Above them, the right hand spills into a descending scale. Further runs pass between the hands until a long G in the pedals holds the music on the dominant of C.</p>",
+      "how": "<p>The pedals take the last fugue entry, at bar 64, directly into the freer passage. Above them, the right hand plays a descending scale. More runs pass between the hands until the pedals hold a long G, keeping the music on the dominant of C.</p>",
       "devices": [
         "elision",
         "texture change",
@@ -143,13 +143,13 @@ export default {
     },
     {
       "id": "link-to-ciacona",
-      "title": "G resolves into the dancing bass",
-      "from": "Link · Runs above the pedals",
-      "to": "B · A three-bar bass keeps returning",
+      "title": "Held G to the Presto Ciacona",
+      "from": "Link · Free passagework over pedals",
+      "to": "B · Chaconne on a three-bar ground bass",
       "at": {
         "t": 228
       },
-      "how": "<p>The held G prepares C major. At <i>Presto Ciacona</i>, the metre changes to 3/2 and the pedals begin the three-bar ground on C. The hands strike a chord, then leave the bass room to establish its pattern.</p>",
+      "how": "<p>The pedals hold G, the dominant of C major. At bar 75, marked <i>Presto Ciacona</i>, the metre changes to 3/2 and the pedals begin a three-bar ground on C. The hands play one chord and then rest while the pedals state the ground.</p>",
       "devices": [
         "dominant pedal",
         "metre change",

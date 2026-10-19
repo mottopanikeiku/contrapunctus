@@ -19,45 +19,45 @@ export default {
   "source": {
     "file": "File:Corelli - Concerto Grosso Op. 6 No. 4 - 1. Adagio - Allegro.ogg"
   },
-  "intro": "Four slow bars, then the violins are off. The Advent Chamber Orchestra plays Corelli’s D-major concerto, its two solo violins chasing one another through the opening Allegro.",
+  "intro": "The first movement, Adagio — Allegro, of Corelli’s Concerto grosso in D major, Op. 6 No. 4, played by the Advent Chamber Orchestra. Four slow bars open the movement, and the two solo violins then exchange phrases through the Allegro.",
   "sections": [
     {
       "t": 0,
-      "label": "Intro · Four slow bars",
+      "label": "Intro · Adagio, four bars",
       "m": "Intro",
-      "mNote": "The strings pause on A major"
+      "mNote": "The strings stop on an A major chord."
     },
     {
       "t": 20,
-      "label": "A · The violins chase one another",
+      "label": "A · Violins in imitation",
       "m": "A",
-      "mNote": "One solo violin begins; the second answers"
+      "mNote": "The first solo violin begins; the second solo violin follows."
     },
     {
       "t": 59,
-      "label": "A · The first violin starts again",
+      "label": "A · First violin restarts the Allegro",
       "m": "A",
-      "mNote": "The first fast section repeats"
+      "mNote": "The first fast section repeats."
     },
     {
       "t": 102,
-      "label": "B · The violins trade running phrases",
+      "label": "B · Running phrases exchanged between violins",
       "m": "B",
-      "mNote": "The harmony travels from A back to D"
+      "mNote": "The harmony modulates from A major back to D major."
     },
     {
       "t": 152,
-      "label": "B · The second section repeats",
+      "label": "B · Second section repeated",
       "m": "B",
-      "mNote": "The violin exchanges return to their D-major close"
+      "mNote": "The violin exchanges return and close in D major."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "form",
-      "title": "Four bars of Adagio",
-      "text": "The strings open together in D major, pausing after short phrases. Four bars are enough: the last one rests on A major, waiting for the first violin to set the Allegro running.",
+      "title": "Adagio introduction, bars 1–4",
+      "text": "The strings open together in D major, with rests after short phrases. The Adagio lasts four bars and ends on A major. The first violin then begins the Allegro.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Augener full score, Concerto IV, printed p. 56, bars 1–5: four Adagio bars, the A-major dominant and the Allegro entry. https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf"
@@ -65,8 +65,8 @@ export default {
     {
       "t": 20,
       "kind": "music",
-      "title": "The second violin answers",
-      "text": "The first solo violin starts alone; the second follows with the same running figure. The larger string group joins their conversation, then steps back. Corelli’s small solo group consists of two violins and a cello.",
+      "title": "Concertino entries, two violins",
+      "text": "The first solo violin starts alone, and the second follows with the same running figure. The larger string group joins them, then drops out. Corelli’s concertino consists of two violins and a cello.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Augener full score, Concerto IV, printed pp. 56–58, bars 5–25. The 1714 title specifies the concertino of two violins and cello. https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf ; https://imslp.org/wiki/12_Concerti_Grossi,_Op.6_(Corelli,_Arcangelo)"
@@ -74,8 +74,8 @@ export default {
     {
       "t": 93,
       "kind": "world",
-      "title": "Twelve concertos reach Amsterdam",
-      "text": "In 1714 the Amsterdam publisher Estienne Roger issues Corelli’s twelve concerti grossi as Op. 6. The title page allows the larger string parts to be doubled: more players can join the two solo violins and cello.",
+      "title": "Publication, Amsterdam, 1714",
+      "text": "In 1714 the Amsterdam publisher Estienne Roger issued Corelli’s twelve concerti grossi as Op. 6. The title page allowed the larger string parts to be doubled, so that more players could join the two solo violins and cello.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The collection’s 1714 publication details and original title, including “che si potranno radoppiare”, are recorded at https://imslp.org/wiki/12_Concerti_Grossi,_Op.6_(Corelli,_Arcangelo)."
@@ -83,8 +83,8 @@ export default {
     {
       "t": 102,
       "kind": "music",
-      "title": "A phrase changes hands",
-      "text": "The second section starts in A major. One solo violin runs while the other rests, then they exchange roles. The bass moves steadily beneath the conversation as the harmony works its way back to D.",
+      "title": "Second section, solo violins",
+      "text": "The second section begins in A major. One solo violin plays running figures while the other rests, and then they exchange roles. The bass moves steadily beneath them as the harmony returns to D major.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Augener full score, Concerto IV, printed pp. 59–61, bars 26–51: alternating concertino figures and the return to D major. https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf"
@@ -92,8 +92,8 @@ export default {
     {
       "t": 126,
       "kind": "world",
-      "title": "Printed after his death",
-      "text": "Corelli dies on 8 January 1713. His friend Matteo Fornari sees the twelve concerti grossi into print in Amsterdam, with a dedication to Johann Wilhelm, Elector Palatine, dated 20 November 1714. Op. 6 is the only collection of concertos Corelli published.",
+      "title": "Posthumous publication, Amsterdam",
+      "text": "Corelli died on 8 January 1713. His friend Matteo Fornari saw the twelve concerti grossi into print in Amsterdam, with a dedication to Johann Wilhelm, Elector Palatine, dated 20 November 1714. Op. 6 is the only collection of concertos Corelli published.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Dizionario Biografico degli Italiani (Treccani), Corelli entry: he died in the night before 8 January 1713; his will leaves Op. 6 and his papers to Matteo Fornari; Roger’s Amsterdam edition of Op. 6 is undated but carries Fornari’s dedication to the Elector Palatine, signed in Rome on 20 November 1714; Opp. 1–4 are trio sonatas, Op. 5 violin sonatas and Op. 6 the concerti grossi: https://www.treccani.it/enciclopedia/arcangelo-corelli_(Dizionario-Biografico)/ . Publication details also at IMSLP: https://imslp.org/wiki/12_Concerti_Grossi,_Op.6_(Corelli,_Arcangelo)"
@@ -101,8 +101,8 @@ export default {
     {
       "t": 152,
       "kind": "form",
-      "title": "The second section again",
-      "text": "A D-major cadence sends the music back to the start of the second section. The solo violins exchange their phrases once more, and the bass brings them home to D again.",
+      "title": "Repeat of the second section",
+      "text": "After a cadence in D major the second section is repeated from its start. The solo violins exchange their phrases again, and the bass leads back to a close in D.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Augener full score, Concerto IV, printed pp. 59–61: repeat of bars 26–51. https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf"
@@ -111,13 +111,13 @@ export default {
   "transitions": [
     {
       "id": "adagio-to-allegro",
-      "title": "A major releases the first violin",
-      "from": "Intro · Four slow bars",
-      "to": "A · The violins chase one another",
+      "title": "From A-major chord to solo violin",
+      "from": "Intro · Adagio, four bars",
+      "to": "A · Violins in imitation",
       "at": {
         "t": 20
       },
-      "how": "<p>The Adagio holds an A-major chord, the dominant of D. The bass and accompanying strings stop, leaving the first solo violin to begin the Allegro alone. The second solo violin follows with the same quick figure.</p>",
+      "how": "<p>The Adagio holds an A-major chord, the dominant of D. The bass and accompanying strings stop, and the first solo violin begins the Allegro alone. The second solo violin follows with the same quick figure.</p>",
       "devices": [
         "tempo change",
         "texture change",
@@ -129,13 +129,13 @@ export default {
     },
     {
       "id": "first-strain-repeat",
-      "title": "Back to the solitary violin",
-      "from": "A · The violins chase one another",
-      "to": "A · The first violin starts again",
+      "title": "Repeat to the unaccompanied first violin",
+      "from": "A · Violins in imitation",
+      "to": "A · First violin restarts the Allegro",
       "at": {
         "t": 59
       },
-      "how": "<p>The first section closes in A major. Its repeat sends the music straight back to the unaccompanied first violin at the start of the Allegro. The slow introduction stays behind, and the second violin answers again.</p>",
+      "how": "<p>The first section of the Allegro closes in A major at bar 25. The repeat returns to bar 5, the start of the Allegro, where the first violin plays alone. The slow introduction is not repeated. The second violin then enters again with its reply to the first.</p>",
       "devices": [
         "perfect cadence",
         "motivic link",
@@ -148,12 +148,12 @@ export default {
     {
       "id": "into-second-strain",
       "title": "The violins exchange the running line",
-      "from": "A · The first violin starts again",
-      "to": "B · The violins trade running phrases",
+      "from": "A · First violin restarts the Allegro",
+      "to": "B · Running phrases exchanged between violins",
       "at": {
         "t": 102
       },
-      "how": "<p>After the A-major cadence, the first solo violin sets off again over the bass. This time the second violin waits for its partner’s phrase to finish before taking over the running notes. The two trade places as the bass steps through changing harmonies.</p>",
+      "how": "<p>After the A-major cadence, the first solo violin sets off again over the bass. This time the second violin enters with the running notes once its partner’s phrase has finished. The two violins trade places as the bass moves through changing harmonies.</p>",
       "devices": [
         "motivic link",
         "sequence"
@@ -164,13 +164,13 @@ export default {
     },
     {
       "id": "second-strain-repeat",
-      "title": "D major sends the violins back",
-      "from": "B · The violins trade running phrases",
-      "to": "B · The second section repeats",
+      "title": "Cadence in D and repeat",
+      "from": "B · Running phrases exchanged between violins",
+      "to": "B · Second section repeated",
       "at": {
         "t": 152
       },
-      "how": "<p>The bass reaches D and the strings complete their cadence. The repeat returns to the second section’s A-major opening, with the running line again passed between the solo violins. Its final cadence brings the bass back to D.</p>",
+      "how": "<p>The bass reaches D and the strings complete their cadence. The repeat (bars 26–51) returns to the second section’s A-major opening, and the solo violins again pass the running line between them. Its final cadence brings the bass back to D.</p>",
       "devices": [
         "perfect cadence",
         "motivic link"
@@ -258,7 +258,7 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "The two solo violins and larger string group repeat their exchanges."
+        "note": "The two solo violins and the larger string group repeat their exchanges."
       },
       {
         "t": 102,

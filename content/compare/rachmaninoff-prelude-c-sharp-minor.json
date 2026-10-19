@@ -1,10 +1,10 @@
 {
   "id": "rachmaninoff-prelude-c-sharp-minor",
-  "title": "Three bass notes, four performances",
+  "title": "Rachmaninoff, Prelude Op. 3 No. 2, four recordings",
   "composer": "rachmaninoff",
   "work": "Prelude in C-sharp minor, Op. 3 No. 2",
-  "question": "How do Rachmaninoff and Wörner turn three tolling bass notes into a rush of triplets and back again?",
-  "intro": "A–G♯–C♯: three low notes, followed by a hush. Rachmaninoff returned to the Prelude in the recording studio in 1919, 1921 and 1928, carrying its tolling chords from Edison to Victor. Martin Wörner’s 2005 performance places another pair of hands beside the composer’s.",
+  "question": "How do Rachmaninoff and Wörner move from three bass notes to triplets and back again?",
+  "intro": "The Prelude opens with three low notes, A–G♯–C♯. Rachmaninoff recorded the Prelude in 1919, 1921 and 1928, for Edison and later for Victor. Martin Wörner recorded it in 2005.",
   "group": "composer-performers",
   "recordings": [
     {
@@ -17,7 +17,7 @@
       "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1921",
       "label": "Sergei Rachmaninoff, 1921",
       "year": 1921,
-      "note": "Rachmaninoff records the Prelude again for Victor in New York, two years after the Edison performance."
+      "note": "Rachmaninoff recorded the Prelude again for Victor in New York, two years after the Edison performance."
     },
     {
       "listen": "rachmaninoff-prelude-c-sharp-minor-victor-1928",
@@ -35,24 +35,24 @@
   "reference": "rachmaninoff-prelude-c-sharp-minor",
   "passages": [
     {
-      "label": "Three notes, then quiet chords",
+      "label": "Opening three-note motif and chords",
       "t": 5,
-      "note": "Three low notes, A–G♯–C♯, announce the piece. The answering chords fall to a whisper."
+      "note": "The piece opens with three low notes, A–G♯–C♯. The chords that answer them are much quieter."
     },
     {
-      "label": "The melody inside the triplets",
+      "label": "Melody within the triplets",
       "t": 106,
       "note": "A descending melody runs inside the right hand’s triplets, while the left hand keeps changing the bass beneath it."
     },
     {
-      "label": "Triplet chords drive towards the return",
+      "label": "Triplet chords before the return",
       "t": 138,
       "note": "The triplets become thick chords, passed between the hands and driven down the keyboard towards the return of the opening theme."
     },
     {
-      "label": "The chords subside",
+      "label": "Coda over a low C♯",
       "t": 192,
-      "note": "The great chords subside over a low C♯; shorter answers and rests carry the Prelude towards its final quiet chord."
+      "note": "The chords subside over a low C♯; shorter answers and rests lead the Prelude to its final quiet chord."
     }
   ],
   "sources": [

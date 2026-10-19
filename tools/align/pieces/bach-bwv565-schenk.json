@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "bach-bwv565-schenk",
+  "source": {
+    "mutopia": 1780,
+    "title": "Toccata and Fugue in D minor, BWV 565",
+    "edition": "Bach-Gesellschaft Ausgabe, 1867",
+    "encoder": "Anonymous (Mutopia maintainer)",
+    "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1780",
+    "license": "Public Domain",
+    "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+    "main": "ToccataFugue.ly",
+    "midi": "ToccataFugue.mid",
+    "downloads": [
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.ly",
+        "file": "ToccataFugue.ly",
+        "sha256": "1640bbd2bf11a95e18db03fea285d30718254af0a694e1c36533d8109d71718c"
+      },
+      {
+        "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.mid",
+        "file": "ToccataFugue.mid",
+        "sha256": "1aabd00967aded08d6633482c211af46f679d97f01cfeaca43c83a59dfeeeb6b"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "published-midi",
+    "expectedTracks": [
+      null,
+      "RH:1",
+      "LH:",
+      ""
+    ]
+  },
+  "voices": [
+    {
+      "id": "manual-upper",
+      "name": "Manual — upper staff",
+      "tracks": [
+        1
+      ]
+    },
+    {
+      "id": "manual-lower",
+      "name": "Manual — lower staff",
+      "tracks": [
+        2
+      ]
+    },
+    {
+      "id": "pedal",
+      "name": "Pedal (written pitch)",
+      "tracks": [
+        3
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 143,
+    "quarters": 4,
+    "overrides": {},
+    "order": [
+      [
+        1,
+        143
+      ]
+    ],
+    "description": "Play the Toccata, fugue and recitative coda, bars 1–143, once in written order; the source contains no repeat signs, and the pedal's repeated D quarters in bars 115–119 are already written out."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      0.4
+    ],
+    "last": [
+      444.0,
+      444.6
+    ],
+    "basis": "The first A4/A5 mordent and its descending run occupy roughly 0.1–3.3 s; the initial broad window wrongly selected the second, lower mordent statement near 4.24 s despite passing the onset median. The final D-major chord's D2/D3 pedal and manual bands rise near 444.3 s after the preceding chord near 442.1 s."
+  },
+  "boundaries": [],
+  "engraving": {
+    "staff": 18,
+    "width": 230,
+    "height": 297
+  },
+  "provenance": [
+    "EXT: Mutopia 1780 transcribes the Bach-Gesellschaft Ausgabe (1867). The LilyPond 2.12.2 source is converted only in a disposable copy; a LilyPond 2.24.4 compilation of the unchanged staffChurchOrgan expression reproduced the published MIDI's complete 3,651-attack pitch/onset multiset with no missing or extra attacks, and both span 572 quarter units (143 bars of 4/4).",
+    "Voices are the source's three printed staves (two manual staves and pedal), mapped from the published MIDI tracks; they are not separated hands, registrations or audio stems. Same-staff polyphony is merged at staff level, as in the published MIDI.",
+    "Pedal events are written pitch. Organ registration (for example 16-foot pedal stops or manual couplers) is not documented for this recording and is not inferred; the chroma/onset alignment is octave-independent, but pitch-energy overlays may show the sounding pedal an octave below the written line.",
+    "Read content/listen/bach-bwv565-schenk.mjs and cache/analysis/bach-bwv565-schenk.txt. Editorial sections are coarse; they are not forced alignment anchors. The source's notated rhythm of the free toccata and recitative passages is not a transcription of the performer's timing."
+  ]
+}

@@ -159,7 +159,7 @@
       "lon": 8.404,
       "from": "1876-11-04",
       "kind": "premiere",
-      "what": "The First Symphony, begun in 1855, premiered under his friend Felix Otto Dessoff.",
+      "what": "The First Symphony, begun in 1855, was first performed under his friend Felix Otto Dessoff.",
       "work": "Symphony No. 1",
       "status": "documented",
       "sources": [
@@ -177,7 +177,7 @@
       "from": "1877-06",
       "to": "1877-09",
       "kind": "worked",
-      "what": "Composed the Second Symphony in the summer; the Vienna Philharmonic premiered it under Richter on 30 December.",
+      "what": "Composed the Second Symphony in the summer; the Vienna Philharmonic gave the first performance under Richter on 30 December.",
       "work": "Symphony No. 2",
       "status": "documented",
       "sources": [
@@ -323,7 +323,7 @@
       "lon": 16.3725,
       "from": "1897-03-07",
       "kind": "heard",
-      "what": "His last public appearance: he watched Hans Richter conduct his Fourth Symphony, with applause after every movement.",
+      "what": "At his last public appearance he watched Hans Richter conduct his Fourth Symphony, and there was applause after every movement.",
       "status": "documented",
       "sources": [
         {

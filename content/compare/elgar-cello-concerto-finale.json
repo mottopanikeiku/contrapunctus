@@ -1,39 +1,39 @@
 {
   "id": "elgar-cello-concerto-finale",
-  "title": "Harrison’s cello, Elgar’s baton",
+  "title": "Elgar, Cello Concerto, finale, in two recordings",
   "composer": "elgar",
   "group": "composer-performers",
   "work": "Cello Concerto in E minor, Op. 85 — a shared passage from the finale",
   "question": "How sharply should the cello bite into the finale’s march?",
-  "intro": "At Hayes on 22 December 1919, Beatrice Harrison recorded Elgar’s finale with the composer conducting. The whole concerto was squeezed onto four shellac sides. Beside Skidmore’s complete finale, this short passage catches the cello joining the march, marked <i>risoluto</i> — resolute.",
+  "intro": "At Hayes on 22 December 1919, Beatrice Harrison recorded Elgar’s finale with the composer conducting. The whole concerto was recorded on four shellac sides. Beside Skidmore’s complete finale, this short passage is the point at which the cello joins the march, marked <i>risoluto</i> — resolute.",
   "recordings": [
     {
       "listen": "elgar-cello-concerto-harrison-1920",
       "label": "Beatrice Harrison and Edward Elgar, 1919",
       "year": 1919,
-      "note": "Harrison makes the concerto’s first recording with Elgar on the podium; their finale fits a single shellac side."
+      "note": "Harrison made the concerto’s first recording with Elgar conducting; their finale fitted on a single shellac side."
     },
     {
       "listen": "elgar-cello-concerto-finale-skidmore",
       "label": "Skidmore College Orchestra",
       "year": null,
-      "note": "Skidmore plays the finale complete, allowing the cello’s late lament and the return of the concerto’s opening to unfold."
+      "note": "Skidmore plays the finale complete, including the cello’s late lament and the return of the concerto’s opening."
     }
   ],
   "reference": "elgar-cello-concerto-finale-skidmore",
   "passages": [
     {
-      "label": "The cello joins the march",
+      "label": "Solo entry with the march theme",
       "t": 85,
-      "note": "The soloist takes up the brisk tune, marked <i>risoluto</i>. Accents and little rests give it a swagger."
+      "note": "The soloist takes up the brisk tune, marked <i>risoluto</i>. The tune is set with accents and short rests."
     },
     {
-      "label": "The phrase climbs",
+      "label": "Crescendo to accented high notes",
       "t": 98,
-      "note": "The cello climbs through a crescendo towards sharply accented high notes. The orchestra answers while the soloist pauses."
+      "note": "The cello rises through a crescendo to sharply accented high notes. The orchestra plays while the soloist rests."
     },
     {
-      "label": "Cello and orchestra trade places",
+      "label": "Solo and orchestra alternate",
       "t": 111,
       "note": "Short solo phrases alternate with orchestral replies. The cello’s running notes carry the march forward between its clipped accents."
     }

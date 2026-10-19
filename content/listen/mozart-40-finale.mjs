@@ -18,45 +18,45 @@ export default {
   "source": {
     "file": "File:Mozart - Symphony No. 40 in G minor, K550 - IV. Finale. Allegro assai (Musopen Symphony).flac"
   },
-  "intro": "A quiet string arpeggio shoots upwards and the orchestra answers fiercely. Even the finale’s lyrical second tune eventually comes back in G minor; Mozart holds to that key right to the end.",
+  "intro": "The finale of Mozart’s Symphony No. 40 in G minor, K. 550, marked Allegro assai, opens with a rising string arpeggio played piano, and the full orchestra replies forte. The lyrical second theme later returns in G minor, and the movement stays in that key to the end.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Rising strings, fierce orchestral answer",
+      "label": "A · Rising string arpeggio, full orchestra replies",
       "m": "A",
       "mNote": "A quiet arpeggio climbs through G minor"
     },
     {
       "t": 66,
-      "label": "B · A gentler tune in B♭",
+      "label": "B · Second theme in B♭ major",
       "m": "B",
-      "mNote": "Violins and winds share the second theme"
+      "mNote": "Violins and winds share the second theme."
     },
     {
       "t": 116,
-      "label": "Dev · The arpeggio breaks apart",
+      "label": "Dev · Arpeggio theme fragmented",
       "m": "Dev",
       "mNote": "Chromatic unison, then fragments in imitation"
     },
     {
       "t": 188,
-      "label": "A′ · The G minor leap returns",
+      "label": "A′ · G minor leaping theme returns",
       "m": "A′",
-      "mNote": "Quiet strings and the forceful answer return"
+      "mNote": "The quiet string phrase and its forceful continuation return."
     },
     {
       "t": 228,
-      "label": "B′ · The gentle tune in G minor",
+      "label": "B′ · Second theme in G minor",
       "m": "B′",
-      "mNote": "The second theme takes on the home minor key"
+      "mNote": "The second theme returns in the tonic, G minor."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Upwards, then the answer",
-      "text": "The strings climb quietly through a G minor chord. The orchestra answers with a forceful rush. Mozart keeps setting the two against each other: the spare rising phrase and the crowded reply.",
+      "title": "Opening theme, bars 1–16",
+      "text": "The strings rise through a G minor chord. The orchestra follows with a forceful rushing figure. Mozart alternates the spare rising phrase with the fuller, crowded reply throughout the opening.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, bars 1–16. The triadic opening and rushing violin response are described by Marianne Williams Tobias: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/."
@@ -64,8 +64,8 @@ export default {
     {
       "t": 66,
       "kind": "form",
-      "title": "Violins and winds soften",
-      "text": "The second theme sings in B♭ major, shared by violins and winds. Its longer notes make a welcome space in this fast movement. The accompanying pulse continues underneath.",
+      "title": "Second theme in B♭ major",
+      "text": "The second theme is in B♭ major, shared between violins and winds. It moves in longer note values than the material around it. The accompanying pulse continues underneath.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, second group, pp. 37–38 of the numbered scan; Tobias’s Indianapolis Symphony note describes the violin-and-wind melody."
@@ -73,8 +73,8 @@ export default {
     {
       "t": 92,
       "kind": "world",
-      "title": "“Shockingly voluptuous”",
-      "text": "The pianist and critic Charles Rosen finds pleasure inside Mozart’s pain: “In all of Mozart’s supreme expressions of suffering and terror … there is something shockingly voluptuous.”",
+      "title": "Charles Rosen on Mozart’s suffering",
+      "text": "The pianist and critic Charles Rosen wrote: “In all of Mozart’s supreme expressions of suffering and terror … there is something shockingly voluptuous.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Charles Rosen, as quoted in Michael Steinberg, The Symphony: A Listener’s Guide (Oxford, 1995), and in Marianne Williams Tobias’s Indianapolis Symphony Orchestra programme note: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/. In the original sentence the dash list continues through the G minor Symphony, Don Giovanni and Pamina’s aria; Rosen’s own book was not opened."
@@ -82,8 +82,8 @@ export default {
     {
       "t": 116,
       "kind": "form",
-      "title": "The leap breaks loose",
-      "text": "At the development, the opening leap returns in a jagged unison, studded with chromatic notes. The strings then chase fragments of it through overlapping entries. The tidy arpeggio has become difficult to pin down.",
+      "title": "Opening of the development",
+      "text": "At the development, the opening leap returns in unison, with chromatic notes added. The strings then pass fragments of it between them in overlapping entries.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, bars 125–170: chromatic opening of the development and subsequent imitative writing."
@@ -91,8 +91,8 @@ export default {
     {
       "t": 175,
       "kind": "world",
-      "title": "Horns without trumpets",
-      "text": "The whole symphony uses horns, woodwinds and strings. Mozart leaves out trumpets and timpani. Even the finale’s fiercest answers come from this comparatively small orchestra.",
+      "title": "Orchestra without trumpets or timpani",
+      "text": "The whole symphony is scored for horns, woodwinds and strings. Mozart left out trumpets and timpani, and the finale’s loudest passages are played by this comparatively small orchestra.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Instrumentation in both versions of K. 550, listed at https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)."
@@ -100,8 +100,8 @@ export default {
     {
       "t": 188,
       "kind": "form",
-      "title": "The first leap again",
-      "text": "The quiet rising figure is back in G minor, with its fierce answer still attached. After the development’s chromatic scrambling, the notes of the opening chord are suddenly clear again.",
+      "title": "Recapitulation, bar 206",
+      "text": "The rising figure returns <i>piano</i> in G minor, followed as before by its loud reply. After the chromatic passages of the development, it again outlines the notes of the tonic chord.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulation from bar 206."
@@ -109,8 +109,8 @@ export default {
     {
       "t": 228,
       "kind": "form",
-      "title": "The tune turns minor",
-      "text": "The gentle second theme returns in G minor. Its familiar curves remain, but the earlier B♭ major warmth has gone. The symphony keeps this minor key through its final chords.",
+      "title": "Second theme in G minor",
+      "text": "The second theme, first heard in B♭ major, returns in G minor in the recapitulation. The movement stays in G minor to the final chords.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulated second group and final cadence, pp. 46–49 of the numbered scan."
@@ -118,8 +118,8 @@ export default {
     {
       "t": 255,
       "kind": "world",
-      "title": "The most discussed symphony",
-      "text": "Neal Zaslaw says of K. 550: “No symphony of Mozart’s, not even the ‘Jupiter’, has aroused so much comment as this one.” Otto Jahn, in the nineteenth century, hears in it “sorrow and complaining”, and in the finale “a wild merriment that seeks to drown sorrow”.",
+      "title": "Critical reception of K. 550",
+      "text": "Neal Zaslaw wrote of K. 550: “No symphony of Mozart’s, not even the ‘Jupiter’, has aroused so much comment as this one.” In the nineteenth century Otto Jahn heard in it “sorrow and complaining”, and in the finale “a wild merriment that seeks to drown sorrow”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Neal Zaslaw, Mozart’s Symphonies: Context, Performance Practice, Reception (Oxford: Clarendon Press, 1989): the sentence appears in the book (Internet Archive full-text excerpt, page not seen) and is quoted in Marianne Williams Tobias’s note: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/. Otto Jahn, Life of Mozart, trans. P. D. Townsend (1882), vol. 3, chapter on instrumental music: “Sorrow and complaining take the place of joy and gladness”; the finale “brings no peace, only a wild merriment that seeks to drown sorrow”: https://www.gutenberg.org/ebooks/43413"
@@ -128,13 +128,13 @@ export default {
   "transitions": [
     {
       "id": "into-second-group",
-      "title": "F prepares the gentler tune",
-      "from": "A · Rising strings, fierce orchestral answer",
-      "to": "B · A gentler tune in B♭",
+      "title": "Dominant of B♭ before the second theme",
+      "from": "A · Rising string arpeggio, full orchestra replies",
+      "to": "B · Second theme in B♭ major",
       "at": {
         "t": 66
       },
-      "how": "<p>The transition gathers on F, the dominant of B♭ major. After the break, violins and woodwinds share the quieter second theme. Longer notes replace the opening’s rushing answer, while the Allegro assai pulse continues.</p>",
+      "how": "<p>The transition comes to rest on F, the dominant of B♭ major. After the break, violins and woodwinds share the quieter second theme. It moves in longer notes than the rushing answer of the opening, and the Allegro assai tempo continues.</p>",
       "devices": [
         "medial caesura",
         "texture change",
@@ -146,13 +146,13 @@ export default {
     },
     {
       "id": "into-development",
-      "title": "A jagged answer to B♭",
-      "from": "B · A gentler tune in B♭",
-      "to": "Dev · The arpeggio breaks apart",
+      "title": "From exposition to development",
+      "from": "B · Second theme in B♭ major",
+      "to": "Dev · Arpeggio theme fragmented",
       "at": {
         "t": 116
       },
-      "how": "<p>The exposition closes in B♭ major. Its successor is the opening leap stretched into a chromatic unison: the orchestra briefly loses the comfort of a supporting chord. The strings then take up fragments in imitation, one entry pursuing another.</p>",
+      "how": "<p>The exposition closes in B♭ major. The development opens with the opening leap stretched into a chromatic line played in unison by the orchestra, with no supporting chord. The strings then take up fragments of it in imitation, each entry following the one before.</p>",
       "devices": [
         "perfect cadence",
         "motivic link",
@@ -165,13 +165,13 @@ export default {
     },
     {
       "id": "into-recapitulation",
-      "title": "D leads back to G",
-      "from": "Dev · The arpeggio breaks apart",
-      "to": "A′ · The G minor leap returns",
+      "title": "Return from D to G minor",
+      "from": "Dev · Arpeggio theme fragmented",
+      "to": "A′ · G minor leaping theme returns",
       "at": {
         "t": 188
       },
-      "how": "<p>The running string fragments lead to D, the dominant of G minor. The opening arpeggio returns quietly in the strings over its original G minor harmony. Then comes the familiar forceful answer.</p>",
+      "how": "<p>Running fragments in the strings move to D, the dominant of G minor (bars 193–214). The opening arpeggio then returns quietly in the strings, over the same G minor harmony as at the start of the movement. The loud reply follows, as it does in the opening bars.</p>",
       "devices": [
         "retransition",
         "motivic link",
@@ -183,13 +183,13 @@ export default {
     },
     {
       "id": "second-group-home",
-      "title": "D prepares the changed melody",
-      "from": "A′ · The G minor leap returns",
-      "to": "B′ · The gentle tune in G minor",
+      "title": "Dominant preparation for the second theme",
+      "from": "A′ · G minor leaping theme returns",
+      "to": "B′ · Second theme in G minor",
       "at": {
         "t": 228
       },
-      "how": "<p>The returning transition prepares G minor through its dominant, D. Violins and winds resume the quieter second theme in that home key. The orchestral contrast survives; the earlier change to B♭ major is replaced by a G minor melody.</p>",
+      "how": "<p>In the recapitulation the transition prepares G minor through its dominant, D. Violins and winds then resume the quieter second theme in the home key. Where the exposition moved to B♭ major for this theme, the melody now returns in G minor, and the orchestral contrast between the groups is kept.</p>",
       "devices": [
         "standing on the dominant",
         "texture change"
@@ -266,7 +266,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "The violins’ gentler B♭ major tune alternates with wind replies."
+        "note": "The violins’ B♭ major tune alternates with replies from the wind."
       },
       {
         "t": 116,
@@ -316,7 +316,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "The gentler second theme returns in G minor, with strings and winds answering each other."
+        "note": "The second theme returns in G minor, with strings and winds answering each other."
       },
       {
         "t": 266,
@@ -335,7 +335,7 @@ export default {
           "violins-1",
           "violins-2"
         ],
-        "note": "Running strings press towards the close beneath held and accented wind chords."
+        "note": "The strings play running figures up to the close beneath held and accented wind chords."
       }
     ]
   }

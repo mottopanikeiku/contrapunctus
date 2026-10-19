@@ -13,19 +13,19 @@ export default {
   "source": {
     "file": "File:Fryderyk Chopin - Nocturne op. 15 n.2 Fis-dur - Patrizia Prati.ogg"
   },
-  "intro": "Patrizia Prati plays Chopin’s F♯-major Nocturne in the empty rooms of Madrid’s Museum of Romanticism. Its poised opening melody has a quick, murmuring double life in the middle.",
+  "intro": "Patrizia Prati plays Chopin’s Nocturne in F♯ major, Op. 15 No. 2, in the empty rooms of the Museum of Romanticism in Madrid. In the middle of the piece, the opening melody takes a quick, murmuring form.",
   "sections": [
-    { "t": 0, "label": "A · A singing line in F♯", "m": "A", "mNote": "The melody curls above a gently moving left hand" },
-    { "t": 90, "label": "B · The quick, hushed middle", "m": "B", "mNote": "Dotted rhythms and leaping bass, marked doppio movimento" },
-    { "t": 136, "label": "C · The first tune again", "m": "C", "mNote": "A pause prepares the return of the slow melody" },
-    { "t": 194, "label": "D · The F♯-major close", "m": "D", "mNote": "Small notes descend above the final bass" }
+    { "t": 0, "label": "A · Melody in F♯ major", "m": "A", "mNote": "The melody moves above a left-hand accompaniment." },
+    { "t": 90, "label": "B · Middle section, doppio movimento", "m": "B", "mNote": "Dotted rhythms over a leaping bass, marked doppio movimento." },
+    { "t": 136, "label": "C · Return of the opening melody", "m": "C", "mNote": "A pause comes before the slow melody returns." },
+    { "t": 194, "label": "D · Close in F♯ major", "m": "D", "mNote": "Small notes descend above the final bass note." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "An upbeat takes flight",
-      "text": "Two quick notes, A♯ and B, set the melody moving. The phrase falls, rests on repeated C♯s, then sends a flourish upwards. Chopin keeps adding new little runs to a tune that remains easy to recognise.",
+      "title": "Upbeat and opening phrase",
+      "text": "Two quick notes, A♯ and B, form the upbeat to the melody. The phrase falls, rests on repeated C♯s, then rises in a flourish. Chopin keeps adding new short runs to the tune, which remains easy to recognise.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel first edition, upbeat and bars 1–16. https://chopinscores.org/partytura/86"
@@ -33,8 +33,8 @@ export default {
     {
       "t": 60,
       "kind": "world",
-      "title": "Chopin in a Madrid museum",
-      "text": "Prati records at the Museum of Romanticism on 24 November 2015, without an audience: a first concert there had been ruined by coughing and mobile phones. She gives the recordings to Wikimedia Spain, twelve Chopin nocturnes among them.",
+      "title": "Museum of Romanticism recording, 2015",
+      "text": "Prati recorded at the Museum of Romanticism on 24 November 2015 without an audience, because coughing and mobile phones had ruined a first concert there. She gave the recordings, twelve Chopin nocturnes among them, to Wikimedia Spain.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rubén Ojeda (Wikimedia España), “La música del Romanticismo suena en Wikipedia”, 14 February 2016: https://diff.wikimedia.org/es/2016/02/14/la-musica-del-romanticismo-suena-en-wikipedia/ ; Commons file page: https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg"
@@ -42,8 +42,8 @@ export default {
     {
       "t": 90,
       "kind": "form",
-      "title": "Dotted notes over C♯",
-      "text": "The quick middle begins over a C♯ bass. The right hand is suddenly crowded: a dotted melody above a running accompaniment, both played <i>sotto voce</i>. The bass makes wide jumps while the tune grows more insistent.",
+      "title": "Middle section over C♯ bass",
+      "text": "The quick middle section, marked <i>doppio movimento</i>, begins in bar 25 over a C♯ bass. The right hand plays a dotted melody above a running accompaniment, both <i>sotto voce</i>. The bass makes wide leaps.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel first edition, bars 25–32: C♯ dominant harmony, doppio movimento and sotto voce. https://chopinscores.org/partytura/86"
@@ -51,8 +51,8 @@ export default {
     {
       "t": 136,
       "kind": "form",
-      "title": "A familiar upbeat",
-      "text": "The middle ends in repeated figures that slow and die away. A pause separates them from the returning A♯–B upbeat. The song comes back in the first tempo, still growing fresh ornaments.",
+      "title": "Return of the opening theme",
+      "text": "The middle section ends in repeated figures that slow and die away. A pause separates them from the A♯–B upbeat, which returns. The melody comes back in the first tempo with new ornaments.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel first edition, bars 47–52, marked molto rallentando, smorzando and a Tempo. https://chopinscores.org/partytura/86"
@@ -60,8 +60,8 @@ export default {
     {
       "t": 194,
       "kind": "music",
-      "title": "A quiet tumble home",
-      "text": "The closing flourishes tumble down through the notes of F♯ major. <i>Smorzando</i> asks the piano to die away. At the bottom of all that decoration sits the last low F♯.",
+      "title": "Closing flourishes in F♯ major",
+      "text": "The closing flourishes descend through the notes of F♯ major. The marking <i>smorzando</i> directs the piano to die away, and the final low F♯ comes at the bottom of the decoration.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel first edition, bars 60–62. https://chopinscores.org/partytura/86"

@@ -27,7 +27,7 @@ Each concern lives in its own file, so editors never collide. The generator (`sr
   title, text,                 // text ≤ 55 words
   basis: 'score-aligned' | 'score-proportion' | 'audio-feature' | 'documented' | 'general',
   precision: 'moment' | 'passage',   // 'moment': the event is within about ±2 s of t; 'passage': describes the surrounding stretch
-  evidence: '…',               // shown to readers under "How we know": the source in plain English (score edition and bars, letter, book and page, URL); never analysis figures
+  evidence: '…',               // shown to readers under "Evidence": the source in plain English (score edition and bars, letter, book and page, URL); never analysis figures
 }
 ```
 
@@ -193,8 +193,8 @@ omitted. The home page shows them as cards linking to `hall.html#programme-<id>`
 `player.setQueue(id)` plays an evening in its own order and stops after its last
 track (`queue-end`); choosing a recording outside it returns to the whole concert.
 The Hall also accepts `hall.html#<listenId>&t=<seconds>` for a moment and
-`hall.html#surprise` for a random concert recording (also offered as *Surprise
-me* in the programme). *Keep this moment* stores `{ id, t, title, composer, work }`
+`hall.html#surprise` for a random concert recording (also offered as *A piece at
+random* in the programme). *Keep this moment* stores `{ id, t, title, composer, work }`
 in `localStorage['cp-kept']` (newest first, at most 100); kept moments are listed
 at the top of the programme, play from their time, and can be forgotten.
 

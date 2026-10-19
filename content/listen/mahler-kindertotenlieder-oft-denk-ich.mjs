@@ -18,11 +18,11 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, IV (Fischer-Dieskau, Kempe, 1955).ogg"
   },
-  "intro": "The children have only gone for a walk; soon they will come home. Dietrich Fischer-Dieskau sings the fourth <i>Kindertotenlied</i> with Rudolf Kempe and the Berlin Philharmonic, as the same tune slowly changes what those comforting words mean.",
+  "intro": "“Oft denk’ ich, sie sind nur ausgegangen” is the fourth song of the <i>Kindertotenlieder</i>, and its text says the children have only gone out and will soon come home. Dietrich Fischer-Dieskau sings it with the Berlin Philharmonic under Rudolf Kempe.",
   "sections": [
     {
       "t": 0,
-      "label": "A · They have only gone out",
+      "label": "A · “They have only gone out”",
       "m": "A",
       "mNote": "Horn and strings above moving cellos"
     },
@@ -34,17 +34,17 @@ export default {
     },
     {
       "t": 110,
-      "label": "A″ · They have gone ahead",
+      "label": "A″ · Same tune, changed words",
       "m": "A″",
-      "mNote": "The same tune carries the changed words"
+      "mNote": "The same tune returns with changed words."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A walk in the sunshine",
-      "text": "The horn and violins sing above little cello figures, with harp and plucked bass marking the steps. Fischer-Dieskau’s first thought is a familiar one: the children are out somewhere, and the day is fine. Mahler marks the music calmly moving, without haste.",
+      "title": "Opening, horn and violins",
+      "text": "The horn and violins play above short cello figures, with harp and pizzicato bass on the beat. In the first lines, sung by Fischer-Dieskau, the children have only gone out, and the day is fine. Mahler marks the music <i>Ruhig bewegt, ohne zu eilen</i>, calmly moving, without haste.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), pp. 48–49: Ruhig bewegt, ohne zu eilen and Rückert’s first stanza. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -52,8 +52,8 @@ export default {
     {
       "t": 54,
       "kind": "form",
-      "title": "Saying it again",
-      "text": "“Ja wohl, sie sind nur ausgegangen” — yes, surely, they have only gone out. The voice tries the thought again. Much of the orchestra falls silent, leaving clarinets and bassoon around the baritone’s familiar phrase.",
+      "title": "Second stanza, baritone",
+      "text": "“Ja wohl, sie sind nur ausgegangen”: yes, surely, they have only gone out. At rehearsal 3, a tempo, the voice returns to the thought. Much of the orchestra is silent, and clarinets and bassoon accompany the baritone’s familiar phrase.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 52, rehearsal 3, a tempo; Rückert’s second stanza, our translation."
@@ -61,8 +61,8 @@ export default {
     {
       "t": 82,
       "kind": "world",
-      "title": "The one song printed alone",
-      "text": "On 10 May 1905 this is the only song of the five to appear by itself, in a voice-and-piano version printed as the music supplement of the <i>Neue Zeitschrift für Musik</i>. Mahler wants the five kept together; the periodical’s publisher, Kahnt, issues the whole cycle later that year.",
+      "title": "Separate publication, 10 May 1905",
+      "text": "On 10 May 1905 this became the only song of the five to appear by itself, in a version for voice and piano printed as the music supplement of the <i>Neue Zeitschrift für Musik</i>. Mahler had wanted the five kept together. Kahnt, the periodical’s publisher, issued the whole cycle later that year.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler catalogue, Kindertotenlieder: chronology (10 May 1905) and the description of the supplement to Neue Zeitschrift für Musik 72/20, published by Kahnt, “despite Mahler’s stipulation that the cycle was to be considered an indivisible whole”: https://www.mahlercat.org.uk/Pages/KtL/KtLprints.htm"
@@ -70,8 +70,8 @@ export default {
     {
       "t": 110,
       "kind": "form",
-      "title": "One word changes",
-      "text": "“Ausgegangen” becomes “vorausgegangen”: gone out becomes gone ahead. The children will stay where they are; the parents will catch up with them. Fischer-Dieskau sings the familiar tune over the harp’s pulse and the cellos’ moving line.",
+      "title": "Last stanza, “vorausgegangen”",
+      "text": "In the last stanza “ausgegangen” (gone out) becomes “vorausgegangen” (gone ahead), so the parents will follow the children. Fischer-Dieskau sings the familiar tune over a pulse in the harp and a moving line in the cellos.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 56–58, rehearsal 5; Rückert’s last stanza, our translations of ausgegangen and vorausgegangen."
@@ -79,8 +79,8 @@ export default {
     {
       "t": 174,
       "kind": "music",
-      "title": "The distant sunny heights",
-      "text": "The voice reaches the sunny heights of the last line, then the instruments complete the phrase. The horn sings softly, the harp resumes its steady notes, and the strings sink into a closing chord marked “morendo” — dying away.",
+      "title": "Final vocal phrase and postlude",
+      "text": "The voice sings the last line, about the sunny heights, and the instruments complete the phrase. The horn plays softly and the harp resumes its steady notes. The strings descend to a closing chord marked “morendo” (dying away).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 59, final vocal phrase and postlude. The existing closing cue marks this passage."
@@ -89,12 +89,12 @@ export default {
   "transitions": [
     {
       "id": "renewed-reassurance",
-      "title": "Clarinets carry the second promise",
-      "from": "A · They have only gone out",
+      "title": "Clarinets take the phrase at “Ja wohl”",
+      "from": "A · “They have only gone out”",
       "to": "A′ · They will come home",
       "at": { "t": 54 },
       "span": [44, 66],
-      "how": "<p>A brief <i>poco ritardando</i> closes the first stanza. At <i>a tempo</i>, the string parts empty out and clarinets take the moving phrase, with bassoon below. The voice restarts the tune on “Ja wohl”; the harp is silent at the join.</p>",
+      "how": "<p>A short <i>poco ritardando</i> ends the first stanza. At <i>a tempo</i> the strings drop out and the clarinets take the moving phrase, with the bassoon below. The voice starts the tune again on “Ja wohl”. The harp does not play at the join.</p>",
       "devices": ["tempo change", "texture change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -102,12 +102,12 @@ export default {
     },
     {
       "id": "gone-ahead",
-      "title": "The harp restores the pulse",
+      "title": "Third stanza: a tempo with harp",
       "from": "A′ · They will come home",
-      "to": "A″ · They have gone ahead",
+      "to": "A″ · Same tune, changed words",
       "at": { "t": 110 },
       "span": [100, 122],
-      "how": "<p>The third stanza begins <i>a tempo, Nicht eilen</i> — in tempo, without hurrying. The harp marks steady notes while bowed cellos keep the small running figure moving. Clarinets recall the tune above, and the voice is marked <i>schlicht</i> — plain — for the changed words “Sie sind uns nur vorausgegangen”.</p>",
+      "how": "<p>The third stanza begins <i>a tempo, Nicht eilen</i> (in tempo, without hurrying). The harp plays steady notes, and bowed cellos continue the small running figure. Above them the tune returns in the clarinets. The voice is marked <i>schlicht</i> (plain) for the changed words “Sie sind uns nur vorausgegangen”.</p>",
       "devices": ["motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",

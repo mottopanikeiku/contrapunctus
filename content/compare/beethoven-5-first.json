@@ -1,35 +1,35 @@
 {
   "id": "beethoven-5-first",
-  "title": "Four ways to begin Beethoven’s Fifth",
+  "title": "Beethoven’s Fifth, first movement, in four recordings",
   "composer": "beethoven",
   "work": "Symphony No. 5 in C minor, Op. 67 — first movement",
   "question": "Why do the same four notes sound so different from one conductor to another?",
-  "intro": "In November 1913, Arthur Nikisch brought the Berlin Philharmonic into the studio to play Beethoven’s Fifth into a recording horn. Odeon’s house orchestra had got there two years earlier. Mengelberg’s Concertgebouw and the Skidmore College Orchestra join them here at the first three Gs. Each conductor must decide how long the fourth note hangs in the air.",
+  "intro": "In November 1913, Arthur Nikisch recorded Beethoven’s Fifth with the Berlin Philharmonic, playing into a recording horn. Odeon’s house orchestra had recorded it two years earlier. Mengelberg’s Concertgebouw and the Skidmore College Orchestra are compared with them here at the first three Gs. Each conductor sets how long the fourth note is held.",
   "group": "century",
   "recordings": [
     {
       "listen": "beethoven-5-first-odeon-1911",
       "label": "Odeon Orchestra, 1911",
       "year": 1911,
-      "note": "Odeon’s house orchestra made the first complete recording of a symphony: Beethoven’s Fifth, in Berlin in August 1911."
+      "note": "Odeon’s house orchestra made the first complete recording of a symphony, Beethoven’s Fifth, in Berlin in August 1911."
     },
     {
       "listen": "beethoven-5-first-nikisch-1913",
       "label": "Arthur Nikisch, 1913",
       "year": 1913,
-      "note": "Nikisch takes an unusually broad first movement with the Berlin Philharmonic, leaving out the exposition repeat."
+      "note": "Nikisch took the first movement unusually broadly with the Berlin Philharmonic and left out the exposition repeat."
     },
     {
       "listen": "beethoven-5-first-mengelberg-side1",
       "label": "Willem Mengelberg",
       "year": 1940,
-      "note": "This opening side catches Mengelberg with the Concertgebouw Orchestra he had led since 1895."
+      "note": "This opening side has Mengelberg with the Concertgebouw Orchestra, which he had led since 1895."
     },
     {
       "listen": "beethoven-5-first",
       "label": "Skidmore College Orchestra",
       "year": null,
-      "note": "Skidmore takes the exposition repeat, so the horns’ call and the soft E♭-major violin tune have a second hearing."
+      "note": "Skidmore takes the exposition repeat, so the horns’ call and the soft E♭-major violin tune are heard twice."
     }
   ],
   "reference": "beethoven-5-first",
@@ -37,27 +37,27 @@
     {
       "label": "Opening motto, repeated",
       "t": 102.6,
-      "note": "Three Gs fall to E♭; three Fs answer with a held D. Beethoven’s fermatas leave the conductor in charge of the silence."
+      "note": "Three Gs fall to E♭; three Fs follow and fall to a held D. Beethoven marked fermatas here, and their length is left to the conductor."
     },
     {
-      "label": "The strings climb",
+      "label": "Rising string passage",
       "t": 130,
-      "note": "The strings climb, passing the short rhythm from part to part. Woodwinds and horns answer before the orchestra swells."
+      "note": "The strings climb, passing the short rhythm from part to part. Woodwinds and horns answer before the orchestra plays louder."
     },
     {
-      "label": "The horns open a door",
+      "label": "Horn call and second subject",
       "t": 150,
-      "note": "A clipped chord and a pause clear the way for the horns. Their wide call opens onto the violins’ soft E♭-major tune."
+      "note": "A short chord and a pause precede the horns. Their wide call leads into the violins’ soft E♭-major tune."
     },
     {
       "label": "Development",
       "t": 203.1,
-      "note": "Horns call down to G; the strings strike D♭ against it. The familiar rhythm has brought Beethoven into a new argument."
+      "note": "The horns, in the familiar rhythm, move down to G; the strings play D♭ against it."
     },
     {
-      "label": "The ending starts again",
+      "label": "Start of the coda",
       "t": 402.2,
-      "note": "High C hangs in the violins while the bass changes beneath it. The expected ending has become the start of a long coda."
+      "note": "The violins hold a high C while the bass changes beneath it. The cadence that would end the movement leads instead into a long coda."
     }
   ],
   "sources": [

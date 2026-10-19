@@ -7,7 +7,7 @@
       "to": "vaughan-williams",
       "kind": "dedicated",
       "year": 1943,
-      "title": "Vaughan Williams dedicates his Fifth to Sibelius",
+      "title": "Vaughan Williams’s Fifth, dedicated to Sibelius",
       "works": {
         "from": "Sibelius’s symphonies",
         "to": "Symphony No. 5 in D major"
@@ -33,7 +33,7 @@
       "to": "vaughan-williams",
       "kind": "set-text",
       "year": 1938,
-      "title": "Vaughan Williams sets Shakespeare’s moonlit scene for sixteen voices",
+      "title": "Vaughan Williams: Shakespeare setting for sixteen voices",
       "works": {
         "from": "The Merchant of Venice, Act V",
         "to": "Serenade to Music"
@@ -59,7 +59,7 @@
       "to": "vaughan-williams",
       "kind": "championed",
       "year": 1921,
-      "title": "Vaughan Williams conducts the Bach Choir and Dorking Passions",
+      "title": "Conductor of the Bach Choir and Dorking Passions",
       "works": {
         "from": "Bach’s Passions",
         "to": "Vaughan Williams’s conducting at the Bach Choir and Leith Hill Musical Festival"
@@ -90,12 +90,12 @@
       "to": "vaughan-williams",
       "kind": "championed",
       "year": 1905,
-      "title": "Vaughan Williams edits Purcell’s Royal Welcome Songs",
+      "title": "Vaughan Williams’s edition of Purcell’s Royal Welcome Songs",
       "works": {
         "from": "Purcell’s Royal Welcome Songs",
         "to": "Purcell Society Edition, volumes 15 and 18"
       },
-      "claim": "<p>Vaughan Williams edited two volumes of the Purcell Society Edition for Novello: Volume 15 in 1905 and Volume 18 in 1910. Both hold Purcell’s royal welcome songs, and both were later superseded by Bruce Wood’s editions.</p>",
+      "claim": "<p>Vaughan Williams edited two volumes of the Purcell Society Edition for Novello, Volume 15 in 1905 and Volume 18 in 1910. Both contain Purcell’s royal welcome songs, and both were later superseded by Bruce Wood’s editions.</p>",
       "status": "documented",
       "sources": [
         {

@@ -126,7 +126,6 @@ body:has(.influence-page) .colophon { background: #111514; color: #c3b9a4; }
 .iw-connection-year { font: italic 1.1rem var(--display); color: #d3b87b; }
 .iw-connections strong { display: block; font: 500 1.3rem/1.15 var(--display); }
 .iw-connections small { display: block; font-size: .87rem; color: #abae9e; line-height: 1.4; margin-top: .35rem; }
-.iw-connections b { color: #bfa065; font-weight: 400; }
 .iw-journey a { grid-template-columns: 2.8rem 2rem minmax(0, 1fr) .8rem; align-items: start; }
 .iw-stop-cameo { display: grid; place-items: center; width: 2rem; height: 2.4rem; border: 1px solid #c4a56699; border-radius: 50%; overflow: hidden; }
 .iw-stop-cameo img { width: 100%; height: 100%; object-fit: cover; }
@@ -168,7 +167,6 @@ body:has(.influence-page) .colophon { background: #111514; color: #c3b9a4; }
 .iw-invitations { display: flex; gap: 1rem; margin: 1.5rem 3rem 0; padding-top: 1.4rem; border-top: 1px solid var(--iw-rule); }
 .iw-invitations a { flex: 1; text-decoration: none; color: #e2c792; font: italic 1.5rem/1.2 var(--display); padding: .4rem 0; }
 .iw-invitations span { display: block; font: .7rem var(--caps); color: #aab09e; letter-spacing: .09em; margin-bottom: .35rem; }
-.iw-invitations b { font-weight: 400; font-size: 1rem; }
 .iw-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .iw-time-year, .iw-node-fullname, .iw-node-count, .iw-node-example, .iw-mobile-intro { display: none; }
 .np-on .iw-card { max-height: calc(100dvh - 14rem); }

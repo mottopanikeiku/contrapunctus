@@ -1,21 +1,21 @@
 {
   "id": "leoncavallo-vesti-caruso",
-  "title": "Caruso with piano and orchestra",
+  "title": "Vesti la giubba: Caruso, 1902 and 1907",
   "composer": null,
   "group": "singers",
   "work": "Ruggero Leoncavallo: Recitar!… Vesti la giubba",
   "question": "What changes in Caruso’s lament when an orchestra takes the place of the piano?",
-  "intro": "Canio has discovered his wife’s betrayal, and the paying audience is waiting for him to make them laugh. In Leoncavallo’s <i>Pagliacci</i>, he orders himself to put on his costume and powder his face. Caruso recorded the aria with Salvatore Cottone at the piano in Milan in 1902, then with an orchestra in New York in 1907.",
+  "intro": "In Leoncavallo’s <i>Pagliacci</i>, Canio learns of his wife’s betrayal shortly before he has to perform as a clown for a paying audience. In the aria he orders himself to put on his costume and powder his face. Caruso recorded the aria with Salvatore Cottone at the piano in Milan in 1902, then with an orchestra in New York in 1907.",
   "recordings": [
-    { "listen": "leoncavallo-vesti-caruso-1902", "label": "Enrico Caruso, Salvatore Cottone", "year": 1902, "note": "One tenor and one pianist: Cottone supplies the whole accompaniment in this Milan performance of 30 November 1902." },
-    { "listen": "leoncavallo-vesti-caruso-1907", "label": "Enrico Caruso with orchestra", "year": 1907, "note": "An orchestra surrounds Canio’s lament in the later Victor recording, made in New York." }
+    { "listen": "leoncavallo-vesti-caruso-1902", "label": "Enrico Caruso, Salvatore Cottone", "year": 1902, "note": "In this Milan performance of 30 November 1902 the tenor is accompanied by one pianist, Cottone, who plays the whole accompaniment." },
+    { "listen": "leoncavallo-vesti-caruso-1907", "label": "Enrico Caruso with orchestra", "year": 1907, "note": "In the later Victor recording, made in New York, Canio’s lament is accompanied by an orchestra." }
   ],
   "reference": "leoncavallo-vesti-caruso-1902",
   "passages": [
-    { "label": "Voice and piano", "t": 10, "note": "The tenor carries Canio’s lament above the piano accompaniment. His words tell the clown to put on his costume." },
-    { "label": "The phrase rises", "t": 50, "note": "The vocal phrase climbs and subsides; the accompaniment carries the music between the tenor’s breaths." },
-    { "label": "The last plea", "t": 85, "note": "The tenor’s line rises again, stretching towards the aria’s final phrases over the accompaniment." },
-    { "label": "Towards the close", "t": 108, "note": "The last vocal phrases lead towards the accompaniment’s closing bars." }
+    { "label": "Voice and piano", "t": 10, "note": "The tenor sings Canio’s lament above the piano accompaniment. His words tell the clown to put on his costume." },
+    { "label": "Rising and falling vocal line", "t": 50, "note": "The vocal line rises and falls, and the accompaniment plays in the gaps between the tenor’s phrases." },
+    { "label": "Final vocal phrases", "t": 85, "note": "The tenor’s line rises again towards the aria’s final phrases over the accompaniment." },
+    { "label": "Closing bars", "t": 108, "note": "The last vocal phrases lead into the closing bars of the accompaniment." }
   ],
   "sources": [
     { "title": "DAHR — Gramophone 2875b: session and pianist", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/1000003400" },

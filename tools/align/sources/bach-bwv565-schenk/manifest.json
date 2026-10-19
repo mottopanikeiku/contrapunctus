@@ -1,0 +1,24 @@
+{
+  "mutopia": 1780,
+  "title": "Toccata and Fugue in D minor, BWV 565",
+  "edition": "Bach-Gesellschaft Ausgabe, 1867",
+  "encoder": "Anonymous (Mutopia maintainer)",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1780",
+  "license": "Public Domain",
+  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
+  "main": "ToccataFugue.ly",
+  "midi": "ToccataFugue.mid",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.ly",
+      "file": "ToccataFugue.ly",
+      "sha256": "1640bbd2bf11a95e18db03fea285d30718254af0a694e1c36533d8109d71718c"
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV565/ToccataFugue/ToccataFugue.mid",
+      "file": "ToccataFugue.mid",
+      "sha256": "1aabd00967aded08d6633482c211af46f679d97f01cfeaca43c83a59dfeeeb6b"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

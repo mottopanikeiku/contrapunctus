@@ -1,0 +1,144 @@
+{
+  "batch": "villa-lobos",
+  "edges": [
+    {
+      "id": "rubinstein--villa-lobos-paris-1923",
+      "from": "arthur-rubinstein",
+      "to": "villa-lobos",
+      "kind": "championed",
+      "year": 1923,
+      "title": "Rubinstein’s support for Villa-Lobos’s first Paris stay",
+      "works": {
+        "from": "Rubinstein’s recommendation and concert tours, 1918–23",
+        "to": "Rudepoema, dedicated to Rubinstein, first played by him in 1927"
+      },
+      "claim": "<p>The pianist Arthur Rubinstein met Villa-Lobos in Rio in 1918, included his works in his concert tours and urged wealthy Brazilians to support him. With Rubinstein’s recommendation Villa-Lobos secured funds in 1923 for a first stay in Paris. The money came from the Guinle family; one account names Arnaldo Guinle and another names Carlos Guinle. Villa-Lobos dedicated <i>Rudepoema</i> to Rubinstein, who gave its first performance in 1927.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "David P. Appleby, “Villa-Lobos, Heitor”, Encyclopedia of Latin American History and Culture",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/villa-lobos-heitor-1887-1959",
+          "locator": "Paragraph on the Rio concerts and Milhaud: “With a recommendation from Arthur Rubinstein, Villa-Lobos secured funds in 1923 for a short trip to Europe”"
+        },
+        {
+          "title": "Death of Villa-Lobos, EBSCO Research Starters",
+          "url": "https://www.ebsco.com/research-starters/history/death-villa-lobos",
+          "locator": "Summary of Event: meeting with Rubinstein in 1918; concert tours; wealthy Brazilians; Rudepoema dedicated to Rubinstein"
+        },
+        {
+          "title": "Joseph Albert, “Listening Room: Rubinstein & Friends”, Oregon ArtsWatch (29 June 2020)",
+          "url": "https://archive.orartswatch.org/listening-room-rubinstein-friends/",
+          "locator": "Rubinstein’s proposal to Carlos Guinle, as the author reports it from Rubinstein’s memoir My Many Years; Rudepoema dedicated to Rubinstein, who played its first performance in 1927"
+        },
+        {
+          "title": "Clóvis Bulcão, Os Guinle (Intrínseca), chapter excerpt",
+          "url": "https://www.intrinseca.com.br/upload/livros/1%C2%BACAP_OsGuinle_ISSUU.pdf",
+          "locator": "Timeline entry for 1923: Villa-Lobos settles in Paris, financed by Arnaldo Guinle"
+        }
+      ]
+    },
+    {
+      "id": "bach--villa-lobos-bachianas-1930",
+      "from": "bach",
+      "to": "villa-lobos",
+      "kind": "modelled",
+      "year": 1930,
+      "title": "Bach as model for the Bachianas Brasileiras",
+      "works": {
+        "from": "Preludes and fugues of The Well-Tempered Clavier; Mass in B minor",
+        "to": "Bachianas Brasileiras Nos. 1–9, 1930–45"
+      },
+      "claim": "<p>An aunt played preludes and fugues from [[bach|Bach]]’s <i>Well-Tempered Clavier</i> to the young Villa-Lobos, and a manuscript survives of a Bach fugue that he transcribed for cello and piano in 1910. In 1930 he began the <i>Bachianas Brasileiras</i>, nine works in which most movements have a Baroque title and a Brazilian one. In 1935 he gave the Brazilian premiere of the B minor Mass, and in 1941 he transcribed preludes and fugues from the <i>Forty-Eight</i> for an orchestra of cellos. Simon Wright quotes his description of Bach as “a universal folkloric source”.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Simon Wright, note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5)",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66257",
+          "locator": "Paragraphs on the aunt and the 1910 transcription, the 1941 transcriptions, the two titles of each movement, and the Brazilian premiere of the B minor Mass"
+        },
+        {
+          "title": "Academia Brasileira de Música: Heitor Villa-Lobos, biography",
+          "url": "https://abmusica.org.br/edicoes-abm/compositor/heitor-villa-lobos",
+          "locator": "Piano lessons with an aunt and the preludes and fugues of the Well-Tempered Clavier; the nine Bachianas Brasileiras"
+        },
+        {
+          "title": "Eduardo Sato, “Cannibalizing Bach: Villa-Lobos in Europe, 1936”, Twentieth-Century Music 21/2 (2024)",
+          "url": "https://www.cambridge.org/core/journals/twentieth-century-music/article/cannibalizing-bach-villalobos-in-europe-1936/A74CEA6420F93221132BACDFB7564B65",
+          "locator": "Abstract and the section on Bach and Brazilian folk song: the Bachianas as a resignification of Bach’s music"
+        }
+      ]
+    },
+    {
+      "id": "villa-lobos--segovia-etudes-1928",
+      "from": "villa-lobos",
+      "to": "andres-segovia",
+      "kind": "dedicated",
+      "year": 1928,
+      "title": "Villa-Lobos’s twelve études for Segovia",
+      "works": {
+        "from": "Twelve Études for guitar, 1928–29",
+        "to": "Segovia’s preface to the Eschig edition (January 1953); first performance of the Guitar Concerto, Houston, 1956"
+      },
+      "claim": "<p>Villa-Lobos met Andrés Segovia in Paris in 1924. Segovia asked him for a study, and Villa-Lobos wrote twelve, which Eschig later published with a dedication to Segovia on each. In his preface, dated New York, January 1953, Segovia wrote, in Stanley Yates’s translation, that Villa-Lobos “understood the guitar perfectly” and that his fingerings must be strictly obeyed. Segovia also gave the first performance of the Guitar Concerto in Houston on 6 February 1956; he had held out for several years until the composer supplied a cadenza.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "John Patykula, “A Look at the 1956 Premiere of Villa-Lobos’ Immortal Concerto for Guitar”, Classical Guitar (Summer 2017)",
+          "url": "https://classicalguitarmagazine.com/a-look-at-the-1956-premiere-of-villa-lobos-immortal-concerto-for-guitar-performed-by-andres-segovia/",
+          "locator": "Segovia asked for an étude and received twelve; the Fantasia concertante, the cadenza and the Houston premiere of 6 February 1956"
+        },
+        {
+          "title": "Stanley Yates, Villa-Lobos’ Etudes for Guitar: the 1928 Manuscript (1996)",
+          "url": "https://static1.squarespace.com/static/61fd57f45fbae64fa0b56d86/t/62fdeb7085bc550335bb6882/1660808048997/Villa-Lobos_Etudes.pdf",
+          "locator": "Introduction (Segovia’s 1953 preface in English) and note 3 (the Spanish original, signed New York, January 1953); General Observations, p. 2: the dedication “à Andrès Segovia” on each study in the published version"
+        },
+        {
+          "title": "IMSLP: 12 Estudos, W235",
+          "url": "https://imslp.org/wiki/12_Estudos,_W235_(Villa-Lobos,_Heitor)",
+          "locator": "General Information: dedication to Andrés Segovia; composition 1928 or 1929; first publication Paris: Max Eschig"
+        }
+      ]
+    },
+    {
+      "id": "medeiros--villa-lobos-choros-10-1926",
+      "from": "anacleto-de-medeiros",
+      "to": "villa-lobos",
+      "kind": "quoted",
+      "year": 1926,
+      "title": "Chôros No. 10 and Medeiros’s schottische Yará",
+      "works": {
+        "from": "Yará, schottische for piano, with Catulo da Paixão Cearense’s words as the song Rasga o coração",
+        "to": "Chôros No. 10, “Rasga o coração” (1926)"
+      },
+      "claim": "<p>Chôros No. 10 includes the melody of <i>Yará</i>, a schottische by Anacleto de Medeiros (1866–1907). The poet Catulo da Paixão Cearense had added words to it under the title <i>Rasga o coração</i>, and Villa-Lobos used that title as the subtitle of the Chôros, which was first performed in Rio on 11 November 1926. Catulo’s heirs sued over the use of his words. Villa-Lobos replaced them with a vocalise, and the second edition of the score dropped both the words and the subtitle.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Jorge Coli, booklet note to BIS-CD-1520 (Villa-Lobos: Choros Nos 2, 3, 10, 12)",
+          "url": "https://eclassical.textalk.se/shop/art27/BIS-CD-1520_booklet.pdf-25163f.pdf",
+          "locator": "Page 6: the melody of Yara by Anacleto de Medeiros, Catulo’s lyrics, the lawsuit, the vocalise and the second edition"
+        },
+        {
+          "title": "Los Angeles Philharmonic: Chôros No. 10, “Rasga o Coração” (programme note by David Fick)",
+          "url": "https://www.laphil.com/musicdb/pieces/6221/choros-no-10-rasga-o-coracao",
+          "locator": "About this Piece: the lyrical melody by Anacleto de Medeiros; the subtitle and Catulo’s poem"
+        },
+        {
+          "title": "IMSLP: List of works by Heitor Villa-Lobos (W209)",
+          "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos",
+          "locator": "W209: premiere on 11 November 1926 at the Teatro Lírico, Rio de Janeiro"
+        },
+        {
+          "title": "Musica Brasilis: Yará, Anacleto de Medeiros (piano edition by Eduardo Virgilio, CC BY-SA 4.0)",
+          "url": "https://commons.wikimedia.org/wiki/File:Y%C3%A1ra,_Anacleto_de_Medeiros,_Musica_Brasilis.pdf",
+          "locator": "Piano score, “Schottisch”, dedicated to Frederico Bischof"
+        }
+      ]
+    }
+  ],
+  "figures": [
+    { "id": "arthur-rubinstein", "name": "Arthur Rubinstein", "dates": "1887–1982", "year": 1887, "kind": "performer" },
+    { "id": "andres-segovia", "name": "Andrés Segovia", "dates": "1893–1987", "year": 1893, "kind": "performer" },
+    { "id": "anacleto-de-medeiros", "name": "Anacleto de Medeiros", "dates": "1866–1907", "year": 1866, "kind": "composer" }
+  ]
+}

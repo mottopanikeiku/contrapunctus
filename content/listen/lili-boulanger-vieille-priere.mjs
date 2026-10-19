@@ -20,45 +20,45 @@ export default {
       "evidence": "Everest mono LPBR 6059: sleeve ©1960 Belock Instrument Corp. (https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt); Edwards and Callahan Everest Classical Album Discography lists LPBR 6059 / SDBR 3059 [1960] (https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf). First publication documented by 1960, anywhere; territorial EU rule 3 only. US recording status not established."
     }
   },
-  "intro": "Low voices begin Boulanger’s prayer for the happiness of every living being; a solo flute and Michel Sénéchal’s tenor take it up in turn. The quiet chant eventually fills the whole choir and orchestra.",
+  "intro": "Boulanger’s Vieille prière bouddhique, a prayer for the happiness of every living being, begins in the low voices. A solo flute and then the tenor Michel Sénéchal take up the chant, which later passes to the full choir and orchestra.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Altos and basses chant",
+      "label": "A · Altos and basses on repeated notes",
       "m": "A",
-      "mNote": "Repeated Gs in the voices over a C-centred accompaniment"
+      "mNote": "Repeated Gs in the voices over a C-centred accompaniment."
     },
     {
       "t": 148,
-      "label": "B · The flute sings freely",
+      "label": "B · Flute solo",
       "m": "B",
       "mNote": "Solo flute above harps and divided strings"
     },
     {
       "t": 198,
-      "label": "C · One tenor carries the prayer",
+      "label": "C · Tenor solo",
       "m": "C",
-      "mNote": "Bowed and plucked strings alternate beneath the solo voice"
+      "mNote": "Bowed and plucked strings alternate beneath the solo voice."
     },
     {
       "t": 330,
       "label": "D · Choir and strings in octaves",
       "m": "D",
-      "mNote": "The full choir takes the chant after a long pause"
+      "mNote": "After a long pause, the full choir takes the chant."
     },
     {
       "t": 405,
       "label": "Coda · Wordless voices, accelerating orchestra",
       "m": "Coda",
-      "mNote": "Repeated notes accelerate towards the final chord"
+      "mNote": "Repeated notes accelerate towards the final chord."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A chant on G",
-      "text": "Altos and basses begin together, returning insistently to G. The accompaniment rests around C, with the lowered second, D♭, giving the chant its Phrygian sound. Boulanger asks the singers for <i>grave, simple</i> — solemn and simple.",
+      "title": "Opening chant on G",
+      "text": "Altos and basses begin together and return repeatedly to G. The accompaniment centres on C, and the lowered second, D♭, gives the chant its Phrygian sound. Boulanger marks the passage <i>grave, simple</i> (solemn and simple).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, plate D. & F. 10090, p. 1; Konstantin Galluhn’s preface (2010) identifies the opening Phrygian mode on C and repeated G. https://s9.imslp.org/files/imglnks/usimg/4/44/IMSLP21037-PMLP48704-Boulanger_Vielle_Pri%C3%A8re_Bouddhique.pdf https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
@@ -66,8 +66,8 @@ export default {
     {
       "t": 35,
       "kind": "world",
-      "title": "A prayer for everyone",
-      "text": "Suzanne Karpelès supplies Boulanger with the French text in 1914. Its prayer embraces every breathing creature, women and men, gods and humans, east and west, north and south. Each is to overcome suffering and move freely along its own path.",
+      "title": "French text by Suzanne Karpelès, 1914",
+      "text": "Suzanne Karpelès gave Boulanger the French text in 1914. The prayer names every breathing creature, women and men, gods and humans, east and west, north and south. It asks that each overcome suffering and move freely along its own path.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Translator’s credit on the Durand score, p. 1; French text and the date it reached Boulanger in Konstantin Galluhn’s preface (2010). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
@@ -76,7 +76,7 @@ export default {
       "t": 95,
       "kind": "world",
       "title": "The Mettā Sutta",
-      "text": "The prayer’s words come from Buddhist scripture, where they are known as the Mettā Sutta. Boulanger’s score subtitles them <i>Prière quotidienne pour tout l’Univers</i>: a daily prayer for the whole universe.",
+      "text": "The words of the prayer come from Buddhist scripture, where they are known as the Mettā Sutta. Boulanger’s score subtitles them <i>Prière quotidienne pour tout l’Univers</i> (a daily prayer for the whole universe).",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Konstantin Galluhn, preface to Vieille prière bouddhique (2010), with the printed text and subtitle: https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
@@ -84,8 +84,8 @@ export default {
     {
       "t": 148,
       "kind": "form",
-      "title": "The flute takes the chant",
-      "text": "The choir’s last notes linger while a solo flute picks up its phrases. Boulanger asks for the flute to sing freely. Grace notes and quick runs open out the chant above harps, plucked violas and trembling divided violins.",
+      "title": "Flute interlude from bar 36",
+      "text": "The choir’s last notes are held while a solo flute takes up its phrases. Boulanger marked the passage <i>laisser la Flûte chanter librement</i>. The flute decorates the chant with grace notes and quick runs above harps, pizzicato violas and divided violins playing tremolo.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 8–10, flute interlude from bar 36: laisser la Flûte chanter librement, grace notes, harps, divided violin tremolo and pizzicato violas."
@@ -93,8 +93,8 @@ export default {
     {
       "t": 198,
       "kind": "form",
-      "title": "A tenor, calm and clear",
-      "text": "Michel Sénéchal takes the third stanza, marked <i>calme et clair</i>. The divided strings alternate bowed and plucked notes beneath his line. The prayer reaches women, men and fallen beings; its most troubled chords surround the words about those who have fallen.",
+      "title": "Tenor solo, third stanza",
+      "text": "Michel Sénéchal sings the third stanza, marked <i>calme et clair</i>. Beneath his line the divided strings alternate bowed and plucked notes. The prayer names women, men and fallen beings, and the most dissonant chords accompany the words about those who have fallen.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 11–14, tenor solo from bar 48. Konstantin Galluhn’s preface singles out the dissonant setting of ceux qui sont déchus in bars 57–59."
@@ -102,8 +102,8 @@ export default {
     {
       "t": 285,
       "kind": "life",
-      "title": "Rome to Arcachon",
-      "text": "Boulanger begins the score in Rome in 1914 and finishes it at Arcachon, on the Atlantic coast, in 1917. Both places appear on the last page. She never hears the finished work in concert; Henri Büsser conducts its première on 9 June 1921.",
+      "title": "Composition, Rome and Arcachon, 1914–1917",
+      "text": "Boulanger began the score in Rome in 1914 and finished it at Arcachon, on the Atlantic coast, in 1917. Both places appear on the last page. She never heard the finished work in concert; Henri Büsser conducted its première on 9 June 1921.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Durand full score, p. 24, dated Rome 1914 / Arcachon 1917; composition and première history in Konstantin Galluhn’s preface (2010). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
@@ -111,8 +111,8 @@ export default {
     {
       "t": 330,
       "kind": "form",
-      "title": "From humming to full choir",
-      "text": "Closed-mouth humming leads into a long held pause. Then the full choir and strings proclaim the chant in octaves. The strings remove their mutes; the voices are marked <i>clamant</i>, crying out, as the prayer turns to east, west, north and south.",
+      "title": "Humming and full choir",
+      "text": "Closed-mouth humming leads to a long held pause. The full choir and strings then sing and play the chant in octaves. The strings remove their mutes, and the voices are marked <i>clamant</i>, crying out, as the prayer turns to east, west, north and south.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 17–18: bouches fermées, long fermata, unmuted strings and full choir marked ff clamant."
@@ -120,8 +120,8 @@ export default {
     {
       "t": 365,
       "kind": "world",
-      "title": "Compared to Angkor",
-      "text": "Georges Migot, writing on 1 August 1921, finds just enough exotic colour in the piece to leave Western sensibility undisturbed, and an architecture as simple and powerful as the Temple of Angkor.",
+      "title": "Georges Migot on the work, 1921",
+      "text": "Writing on 1 August 1921, Georges Migot found enough exotic colour in the piece to leave Western sensibility undisturbed. He compared its architecture to the Temple of Angkor for its simplicity and power.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Georges Migot, 1 August 1921, as quoted in Konstantin Galluhn’s preface (2010): https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
@@ -129,8 +129,8 @@ export default {
     {
       "t": 405,
       "kind": "form",
-      "title": "One last wordless cry",
-      "text": "The words end, and the choir continues on open vowels. Repeated notes accelerate through the orchestra; harps sweep down with the winds. At <i>Large</i> the rush broadens into a held chord, which swells to <i>fortississimo</i>.",
+      "title": "Coda from bar 98",
+      "text": "The words end, and the choir continues on open vowels. Repeated notes accelerate through the orchestra, and the harps and winds play descending figures. At <i>Large</i> the tempo broadens into a held chord, which grows to <i>fortississimo</i>.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 23–24, coda from bar 98: Accel., wordless Ah, descending harp and wind figures, Large and final crescendo."
@@ -139,9 +139,9 @@ export default {
   "transitions": [
     {
       "id": "into-flute-interlude",
-      "title": "The flute continues the last syllable",
-      "from": "A · Altos and basses chant",
-      "to": "B · The flute sings freely",
+      "title": "Solo flute enters at <i>a Tempo</i>",
+      "from": "A · Altos and basses on repeated notes",
+      "to": "B · Flute solo",
       "at": {
         "t": 148
       },
@@ -149,7 +149,7 @@ export default {
         133,
         168
       ],
-      "how": "<p>The choir holds its last syllable while the bass moves into a new chord. At <i>a Tempo</i> the solo flute begins above repeated harp notes, plucked violas and divided violins trembling over the fingerboard. The chant’s short phrases acquire grace notes and runs as the harmony moves away from its opening C.</p>",
+      "how": "<p>The choir holds its last syllable while the bass moves to a new chord. At <i>a Tempo</i> (bar 36) the solo flute enters above repeated harp notes, pizzicato violas and divided violins playing tremolo <i>sur la touche</i>. The flute takes the chant’s short phrases and adds grace notes and runs, and the harmony moves away from the opening C.</p>",
       "devices": [
         "decrescendo",
         "orchestration change",
@@ -162,9 +162,9 @@ export default {
     },
     {
       "id": "into-tenor-prayer",
-      "title": "A voice after the flute",
-      "from": "B · The flute sings freely",
-      "to": "C · One tenor carries the prayer",
+      "title": "Tenor entry at figure 4",
+      "from": "B · Flute solo",
+      "to": "C · Tenor solo",
       "at": {
         "t": 198
       },
@@ -172,7 +172,7 @@ export default {
         183,
         219
       ],
-      "how": "<p>A <i>Cédez</i> slows the flute’s run before figure 4. At <i>a Tempo</i> the tenor enters, <i>calme et clair</i>. The violins and violas divide between bowed and plucked notes; cellos and basses sustain the slower-moving foundation while bass clarinet and bassoons hold their chords.</p>",
+      "how": "<p>A <i>Cédez</i> slows the flute’s run before figure 4. At <i>a Tempo</i> the tenor enters, <i>calme et clair</i>. The violins and violas divide between bowed and plucked notes. Cellos and basses sustain the slower-moving bass line, and bass clarinet and bassoons hold their chords.</p>",
       "devices": [
         "texture change",
         "orchestration change",
@@ -184,8 +184,8 @@ export default {
     },
     {
       "id": "into-communal-proclamation",
-      "title": "A pause before the cry",
-      "from": "C · One tenor carries the prayer",
+      "title": "Long fermata before the <i>ff</i> entry",
+      "from": "C · Tenor solo",
       "to": "D · Choir and strings in octaves",
       "at": {
         "t": 330
@@ -194,7 +194,7 @@ export default {
         311,
         345
       ],
-      "how": "<p>The voices hum over held wind chords and a descending harp run. A fermata marked <i>long</i> suspends them. The choir then begins in octaves, <i>ff clamant</i>, with the unmuted strings; low winds, trombones and basses reinforce the next sustained chord.</p>",
+      "how": "<p>The voices hum over held wind chords and a descending harp run. A fermata marked <i>long</i> follows. The choir then enters in octaves, <i>ff clamant</i>, with the strings, which have removed their mutes. Low winds, trombones and basses double the next sustained chord.</p>",
       "devices": [
         "fermata",
         "texture change",
@@ -207,7 +207,7 @@ export default {
     },
     {
       "id": "into-wordless-coda",
-      "title": "The vowels carry on",
+      "title": "From the text to the wordless coda",
       "from": "D · Choir and strings in octaves",
       "to": "Coda · Wordless voices, accelerating orchestra",
       "at": {
@@ -217,7 +217,7 @@ export default {
         390,
         425
       ],
-      "how": "<p>The choir leaves its final syllable for an open <i>Ah</i>. Winds repeat accented notes above a descending bass, and <i>Accel.</i> drives the orchestra onwards. A downward sweep in harps and winds reaches <i>Large</i>; the choir holds its chord while brass, strings and percussion swell around it.</p>",
+      "how": "<p>The choir moves from its final syllable to an open <i>Ah</i>. Winds repeat accented notes above a descending bass, and the orchestra accelerates at <i>Accel.</i> A downward run in harps and winds leads to <i>Large</i>. The choir holds its chord while brass, strings and percussion make a crescendo around it.</p>",
       "devices": [
         "tempo change",
         "crescendo build",
@@ -336,7 +336,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The tenor enters, calm and clear, above strings divided between bowed and plucked notes."
+        "note": "The tenor enters above divided strings, some bowed and some plucked."
       },
       {
         "t": 280,
@@ -387,7 +387,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "After a long pause, choir and unmuted strings proclaim the chant in octaves, with low brass and percussion."
+        "note": "After a long pause, choir and unmuted strings sing and play the chant in octaves, with low brass and percussion."
       },
       {
         "t": 405,

@@ -1,21 +1,21 @@
 {
   "id": "chopin-minute-waltz",
-  "title": "A waltz that pauses to sing",
+  "title": "Chopin, Waltz Op. 64 No. 1, in three recordings",
   "composer": "chopin",
   "group": "golden-age",
   "work": "Waltz in D♭ major, Op. 64 No. 1",
-  "question": "How much room does each pianist give the singing middle before the circling notes return?",
-  "intro": "Chopin starts the <i>Minute Waltz</i> with the right hand chasing a little circle of notes. A singing middle, marked <i>sostenuto</i>, opens between the fast passages. Rachmaninoff, Olga Gurevich and Muriel Nguyen Xuan each have that small oasis before the trill sends the tune running again.",
+  "question": "How much time does each pianist take over the middle section before the circling figure returns?",
+  "intro": "Chopin opens the <i>Minute Waltz</i> with the right hand playing a short figure of notes that circles back on itself. A slower middle section, marked <i>sostenuto</i>, comes between the fast passages. Rachmaninoff, Olga Gurevich and Muriel Nguyen Xuan each play this middle section before the trill leads back into the opening figure.",
   "recordings": [
-    { "listen": "chopin-waltz-op64-1-rachmaninoff", "label": "Sergei Rachmaninoff, 1923", "year": 1923, "note": "Rachmaninoff plays a Steinway concert grand, recording Chopin’s dance for Victor on 5 April 1923." },
+    { "listen": "chopin-waltz-op64-1-rachmaninoff", "label": "Sergei Rachmaninoff, 1923", "year": 1923, "note": "Rachmaninoff recorded Chopin’s dance for Victor on 5 April 1923, playing a Steinway concert grand." },
     { "listen": "chopin-waltz-op64-1-gurevich", "label": "Olga Gurevich, c. 2014", "year": 2014, "note": "Born in Baku, Gurevich moved to Moscow at seventeen to study piano at the Gnesin Academy." },
-    { "listen": "chopin-waltz-op64-1-nguyen-xuan", "label": "Muriel Nguyen Xuan, 2007", "year": 2007, "note": "Nguyen Xuan plays a Yamaha grand; Stéphane Magnenat recorded her on 16 July 2007." }
+    { "listen": "chopin-waltz-op64-1-nguyen-xuan", "label": "Muriel Nguyen Xuan, 2007", "year": 2007, "note": "Nguyen Xuan plays a Yamaha grand. Stéphane Magnenat recorded her on 16 July 2007." }
   ],
   "reference": "chopin-waltz-op64-1-rachmaninoff",
   "passages": [
-    { "label": "The circling tune", "t": 12, "note": "The right hand circles around A♭, then spills into a running tune. Bass notes and two answering chords keep the waltz turning." },
-    { "label": "The singing middle", "t": 40, "note": "The quick notes stretch into a sustained melody, marked <i>sostenuto</i>. The left hand keeps its three-beat dance underneath." },
-    { "label": "The running notes return", "t": 78, "note": "The circling figure returns after the long trill, and the bass rejoins it. The running tune is off again." }
+    { "label": "Opening figure around A♭", "t": 12, "note": "The right hand turns around A♭, then moves into a running melody. Bass notes and two answering chords keep up the waltz accompaniment." },
+    { "label": "Sostenuto middle section", "t": 40, "note": "The quick notes stretch into a sustained melody, marked <i>sostenuto</i>. The left hand keeps its three-beat dance underneath." },
+    { "label": "Return of the opening figure", "t": 78, "note": "The circling figure returns after the long trill, and the bass rejoins it. The running melody starts again." }
   ],
   "sources": [
     { "title": "Rachmaninoff — 1923 session and transfer", "url": "https://commons.wikimedia.org/wiki/File:Minute_Waltz,_by_Chopin_-_Performed_by_Sergej_Rachmaninoff.ogg" },

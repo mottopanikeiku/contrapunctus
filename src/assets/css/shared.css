@@ -79,16 +79,14 @@ dialog.srch::backdrop { background: rgba(8, 7, 5, .72); backdrop-filter: blur(3p
 /* ---------- the entrance to the hall, on the title page ---------- */
 .hero-doors { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem 2rem; margin-top: 2.2rem; }
 .enter-hall {
-  position: relative; display: grid; gap: .15rem; padding: 1.05rem 2.4rem 1.1rem 1.6rem; text-decoration: none; color: #f6ecd6;
+  position: relative; display: grid; gap: .15rem; padding: 1.05rem 1.6rem 1.1rem; text-decoration: none; color: #f6ecd6;
   background: linear-gradient(180deg, rgba(20, 17, 13, .55), rgba(20, 17, 13, .78));
   border: 1px solid rgba(230, 203, 133, .75);
   box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(230, 203, 133, .3), 0 20px 60px -20px rgba(0, 0, 0, .8);
   backdrop-filter: blur(6px);
   transition: background .4s, box-shadow .4s, transform .4s cubic-bezier(.2, .7, .1, 1);
 }
-.enter-hall::after { content: '→'; position: absolute; right: 1rem; top: 50%; translate: 0 -50%; font: 1.4rem 'Cormorant Garamond', serif; color: #e9cf8c; transition: translate .4s cubic-bezier(.2, .7, .1, 1); }
-.enter-hall:hover { background: linear-gradient(180deg, rgba(60, 46, 22, .6), rgba(30, 24, 16, .85)); transform: translateY(-2px); box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(230, 203, 133, .55), 0 28px 70px -20px rgba(0, 0, 0, .9), 0 0 40px -10px rgba(233, 207, 140, .35); }
-.enter-hall:hover::after { translate: .35rem -50%; }
+.enter-hall:hover { background: linear-gradient(180deg, rgba(60, 46, 22, .6), rgba(30, 24, 16, .85)); box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(230, 203, 133, .55), 0 28px 70px -20px rgba(0, 0, 0, .9), 0 0 40px -10px rgba(233, 207, 140, .35); }
 .eh-k { font: 600 .7rem 'Cormorant SC', serif; letter-spacing: .3em; text-transform: lowercase; color: #e9cf8c; }
 .eh-t { font: italic 500 clamp(1.7rem, 3vw, 2.3rem)/1.05 'Cormorant Garamond', serif; padding-right: 1.4rem; }
 .eh-s { font: 400 .92rem 'EB Garamond', serif; color: #cdbfa8; }

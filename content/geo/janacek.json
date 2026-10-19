@@ -9,7 +9,7 @@
       "from": "1854-07-03",
       "to": "1865",
       "kind": "born",
-      "what": "Born into a schoolmaster’s family with six surviving siblings, baptised Leo Eugen; a gifted child of limited means.",
+      "what": "Born into a schoolmaster’s family with six surviving siblings and baptised Leo Eugen; a gifted child whose family had limited means.",
       "status": "documented",
       "sources": [
         {
@@ -43,7 +43,7 @@
       "from": "1874",
       "to": "1875-07-24",
       "kind": "studied",
-      "what": "Expelled for criticising Skuherský’s Gregorian mass, then readmitted; he graduated best in his class on 24 July 1875.",
+      "what": "He was expelled for criticising Skuherský’s Gregorian mass, then readmitted, and graduated best in his class on 24 July 1875.",
       "status": "documented",
       "sources": [
         {
@@ -77,7 +77,7 @@
       "from": "1880-04",
       "to": "1880-06",
       "kind": "studied",
-      "what": "Studied composition with Franz Krenn; he left in June, disappointed despite Krenn’s complimentary report.",
+      "what": "Studied composition with Franz Krenn; he left in June, disappointed, although Krenn’s report on him was complimentary.",
       "status": "documented",
       "sources": [
         {
@@ -131,7 +131,7 @@
       "lon": 17.7553,
       "from": "1904",
       "kind": "travelled",
-      "what": "After Prague refused <i>Jenůfa</i>, he went to recover; he met Kamila Urválková, whose love story inspired <i>Osud</i>.",
+      "what": "After Prague rejected <i>Jenůfa</i>, he went away to recover. He met Kamila Urválková, whose love story was the basis of <i>Osud</i>.",
       "status": "inferred",
       "sources": [
         {
@@ -163,7 +163,7 @@
       "lon": 14.4136,
       "from": "1916",
       "kind": "premiere",
-      "what": "The revised <i>Jenůfa</i> was a great success in Prague, bringing his first acclaim and access to the world’s opera stages.",
+      "what": "The revised <i>Jenůfa</i> was a great success in Prague. It brought him his first acclaim and access to the world’s opera stages.",
       "work": "Jenůfa (Prague)",
       "status": "documented",
       "sources": [
@@ -214,7 +214,7 @@
       "lon": 14.4136,
       "from": "1926-06-26",
       "kind": "premiere",
-      "what": "First performance of the <i>Sinfonietta</i> under Václav Talich; it soon won wide critical acclaim.",
+      "what": "First performance of the <i>Sinfonietta</i>, conducted by Václav Talich; the work was soon widely praised by critics.",
       "work": "Sinfonietta",
       "status": "documented",
       "sources": [
@@ -268,7 +268,7 @@
       "lon": 18.2925,
       "from": "1928-08-12",
       "kind": "died",
-      "what": "Died of pneumonia at seventy-four, with the second string quartet, <i>Intimate Letters</i>, newly composed.",
+      "what": "Died of pneumonia at seventy-four, shortly after composing his second string quartet, <i>Intimate Letters</i>.",
       "status": "documented",
       "sources": [
         {

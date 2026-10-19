@@ -30,7 +30,7 @@
       "from": "1853",
       "to": "1856",
       "kind": "studied",
-      "what": "Sent at thirteen to live with his uncle and learn German; a museum marks the stay.",
+      "what": "He was sent at thirteen to live with his uncle and learn German. A museum marks the stay.",
       "status": "documented",
       "sources": [
         {
@@ -68,7 +68,7 @@
       "from": "1862",
       "to": "1871",
       "kind": "worked",
-      "what": "Played viola from 1862 in Komzák’s orchestra, later the Provisional Theatre’s; he left in 1871 to compose.",
+      "what": "He played viola from 1862 in Komzák’s orchestra, which later became the Provisional Theatre’s orchestra; he left in 1871 to compose.",
       "status": "inferred",
       "sources": [
         {
@@ -117,7 +117,7 @@
       "lon": -0.1774,
       "from": "1883-03-10",
       "kind": "premiere",
-      "what": "<i>Stabat Mater</i> was very well received under Joseph Barnby, sparking performances across Britain and the United States.",
+      "what": "<i>Stabat Mater</i> was well received under Joseph Barnby, and performances followed across Britain and the United States.",
       "work": "Stabat Mater (London)",
       "status": "documented",
       "sources": [
@@ -151,7 +151,7 @@
       "lon": -1.9025,
       "from": "1885-08-27",
       "kind": "travelled",
-      "what": "Presented <i>The Spectre’s Bride</i> to 500 voices and 150 players; his <i>Requiem</i> premiered here in 1891.",
+      "what": "Presented <i>The Spectre’s Bride</i> with 500 voices and 150 players; his <i>Requiem</i> had its premiere here in 1891.",
       "work": "The Spectre’s Bride; Requiem",
       "status": "documented",
       "sources": [
@@ -168,7 +168,7 @@
       "lon": 37.6178,
       "from": "1890-03",
       "kind": "travelled",
-      "what": "Visited Russia at Tchaikovsky’s influence, conducting performances of his music in both cities.",
+      "what": "Visited Russia through Tchaikovsky’s influence, conducting performances of his music in both cities.",
       "status": "documented",
       "sources": [
         {
@@ -184,7 +184,7 @@
       "lon": 0.1225,
       "from": "1891",
       "kind": "travelled",
-      "what": "Received an honorary degree from the University; he was also offered a Prague Conservatory professorship that year.",
+      "what": "Received an honorary degree from the University; he was also offered a professorship at the Prague Conservatory that year.",
       "status": "documented",
       "sources": [
         {
@@ -201,7 +201,7 @@
       "from": "1892",
       "to": "1895-04",
       "kind": "worked",
-      "what": "Director for three years; he lived at 327 East 17th Street; salary cuts and homesickness ended it.",
+      "what": "He was director for three years and lived at 327 East 17th Street; salary cuts and homesickness ended his stay.",
       "status": "documented",
       "sources": [
         {
@@ -217,7 +217,7 @@
       "lon": -73.98,
       "from": "1893-12-16",
       "kind": "premiere",
-      "what": "The New York Philharmonic premiere of <i>From the New World</i> under Anton Seidl; each movement drew thunderous applause.",
+      "what": "The New York Philharmonic gave the premiere of <i>From the New World</i> under Anton Seidl; the audience applauded after each movement.",
       "work": "Symphony No. 9 “From the New World”",
       "status": "documented",
       "sources": [
@@ -277,7 +277,7 @@
       "from": "1895-05",
       "to": "1904",
       "kind": "lived",
-      "what": "Family cottage near the Kounic castle, whose fishpond inspired <i>Rusalka</i>; he returned here after the United States.",
+      "what": "Family cottage near the Kounic castle, whose fishpond inspired <i>Rusalka</i>; he returned here after his years in the United States.",
       "status": "documented",
       "sources": [
         {
@@ -351,7 +351,7 @@
       "lon": 14.4214,
       "from": "1904-05-01",
       "kind": "died",
-      "what": "Died of an undiagnosed cause after five weeks of illness and an influenza attack, aged sixty-two.",
+      "what": "Died aged sixty-two, of an undiagnosed cause, after an attack of influenza and five weeks of illness.",
       "status": "documented",
       "sources": [
         {

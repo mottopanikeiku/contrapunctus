@@ -1,0 +1,42 @@
+{
+  "id": "bernstein",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Humphrey Burton, *Leonard Bernstein* (Faber and Faber, new edition 2017).",
+      "url": "https://www.faber.co.uk/product/9780571337934-leonard-bernstein/",
+      "kind": "biography",
+      "note": "Burton directed several of Bernstein’s concert films. This new edition appeared for the centenary of Bernstein’s birth and covers his career as conductor, composer and broadcaster."
+    },
+    {
+      "cite": "Nigel Simeone, ed., *The Leonard Bernstein Letters* (Yale University Press, 2013).",
+      "url": "https://www.thedailybeast.com/felicias-letter-to-leonard-bernstein-you-are-a-homosexual-and-may-never-change/",
+      "kind": "letters",
+      "note": "The edition prints annotated letters by Bernstein and his correspondents written at the time of the work, among them an undated letter from Felicia Bernstein, which the Daily Beast published in 2013 and placed around the time of the 1951 marriage."
+    },
+    {
+      "cite": "Carol J. Oja, *Bernstein Meets Broadway: Collaborative Art in a Time of War* (Oxford University Press, 2014).",
+      "url": "https://books.google.com/books/about/Bernstein_Meets_Broadway_Collaborative_A.html?id=chANBAAAQBAJ",
+      "kind": "study",
+      "note": "Oja follows Bernstein, Robbins, Comden and Green through the war years and the making of Fancy Free and On the Town in 1944, drawing on archives and interviews."
+    },
+    {
+      "cite": "Leonard Bernstein, *Findings* (1982).",
+      "url": "https://leonardbernstein.com/about/humanitarian/an-artists-response-to-violence",
+      "kind": "essays and speeches",
+      "note": "The collection holds Bernstein’s essays, letters and speeches, including the remarks he made at Madison Square Garden on 25 November 1963, which the Bernstein Office prints in full."
+    },
+    {
+      "cite": "Library of Congress, Music Division, *Leonard Bernstein Collection* (finding aid, 2005; revised 2021).",
+      "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu998001/mu998001.pdf",
+      "kind": "archive",
+      "note": "The finding aid lists the scores Bernstein gave to the Library between 1953 and 1967, among them Candide, Chichester Psalms, Fancy Free, Serenade and West Side Story."
+    },
+    {
+      "cite": "Jack Gottlieb, guide and commentary on *West Side Story*, Leonard Bernstein Office website (2001).",
+      "url": "https://leonardbernstein.com/works/view/9/west-side-story",
+      "kind": "commentary",
+      "note": "Gottlieb, Bernstein’s music adviser, covered the sources of the show’s story and music in Shakespeare and Brooke, the casting, the tritone and the changes made for the 1961 film."
+    }
+  ]
+}

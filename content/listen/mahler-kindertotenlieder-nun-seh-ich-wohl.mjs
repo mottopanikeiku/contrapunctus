@@ -18,7 +18,7 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, II (Fischer-Dieskau, Kempe, 1955).ogg"
   },
-  "intro": "A father remembers the fire in his children’s eyes and sees it again in the stars. Dietrich Fischer-Dieskau sings Rückert’s sonnet with Rudolf Kempe and the Berlin Philharmonic, recorded in Berlin’s Jesus-Christus-Kirche in June 1955.",
+  "intro": "The second song of the <i>Kindertotenlieder</i> sets Rückert’s sonnet about a father who sees the fire of his children’s eyes in the stars. Dietrich Fischer-Dieskau sings it with Rudolf Kempe and the Berlin Philharmonic, recorded in Berlin’s Jesus-Christus-Kirche in June 1955.",
   "sections": [
     {
       "t": 0,
@@ -28,7 +28,7 @@ export default {
     },
     {
       "t": 146,
-      "label": "B · Harp and D-major light",
+      "label": "B · Harp arpeggios in D major",
       "m": "B",
       "mNote": "Harp arpeggios beneath the children’s imagined words"
     },
@@ -40,17 +40,17 @@ export default {
     },
     {
       "t": 274,
-      "label": "Coda · Harp rising into C minor",
+      "label": "Coda · Rising harp figure, C minor",
       "m": "Coda",
-      "mNote": "Winds hold the final chord after the voice"
+      "mNote": "The winds hold the final chord after the voice stops."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "The cellos climb",
-      "text": "The cellos begin alone, their melody climbing through an octave across the introduction. Winds and plucked strings gather around them. Fischer-Dieskau takes up the same rising shape for “Nun seh’ ich wohl” — now I see clearly.",
+      "title": "Introduction, cellos",
+      "text": "The cellos begin alone, and their melody rises through an octave across the introduction. Winds and pizzicato strings join them. Fischer-Dieskau sings the same rising shape at “Nun seh’ ich wohl” (now I see clearly).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, p. 18; Rückert’s opening words, our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425. Recording dates and venue: Naxos 8.111300 rear cover, https://cdn.naxos.com/SharedFiles/pdf/rear/8.111300r.pdf"
@@ -58,8 +58,8 @@ export default {
     {
       "t": 35,
       "kind": "world",
-      "title": "Fourteen lines about eyes",
-      "text": "Rückert writes a sonnet: two groups of four lines, then two of three. Its “dunkle Flammen” — dark flames — are the children’s eyes. The father searches their remembered looks for something he failed to understand while they were alive.",
+      "title": "Rückert’s sonnet, “Nun seh’ ich wohl”",
+      "text": "Rückert’s poem is a sonnet, with two groups of four lines followed by two of three. The “dunkle Flammen” (dark flames) are the children’s eyes. In their remembered looks the father searches for what he failed to understand while they were alive.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rückert, Nun seh’ ich wohl, German text reproduced at https://en.wikipedia.org/wiki/Kindertotenlieder#Text; our translation. Sonnet structure discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
@@ -67,8 +67,8 @@ export default {
     {
       "t": 90,
       "kind": "life",
-      "title": "A publisher at the hotel door",
-      "text": "Leipzig, 28 November 1904. Mahler has come to conduct his Third Symphony when the owner of C. F. Kahnt calls on him. He writes to Alma at once of a publisher “eager to acquire my new Lieder and Ballads”. Kahnt prints the cycle the following year.",
+      "title": "Visit from C. F. Kahnt, Leipzig, 1904",
+      "text": "Mahler was in Leipzig to conduct his Third Symphony when the owner of C. F. Kahnt called on him on 28 November 1904. He wrote to Alma straight away about a publisher “eager to acquire my new Lieder and Ballads”. Kahnt published the cycle the following year.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler to Alma, written immediately after the Kahnt visit of 28 November 1904, in Letters to His Wife, trans. Anthony Beaumont (Faber, 2004), p. 192, quoted in the Mahler catalogue chronology (which also dates Kahnt’s first editions to August 1905): https://www.mahlercat.org.uk/Pages/KtL/KtL.htm"
@@ -76,8 +76,8 @@ export default {
     {
       "t": 146,
       "kind": "form",
-      "title": "The children answer",
-      "text": "D major opens beneath the harp’s sweeping arpeggios. The father imagines what the shining eyes were saying: “Wir möchten nah dir immer bleiben gerne” — we would gladly stay close to you always. Mahler marks the voice warm.",
+      "title": "D major, rehearsal 3",
+      "text": "At rehearsal 3 the music moves to D major over harp arpeggios. The father imagines the shining eyes saying “Wir möchten nah dir immer bleiben gerne”. Mahler marks the voice warm.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 26–27, rehearsal 3: two-sharp signature, harp arpeggios and voice marked warm. Rückert’s third stanza; our translation."
@@ -85,8 +85,8 @@ export default {
     {
       "t": 180,
       "kind": "form",
-      "title": "Eyes become stars",
-      "text": "Fate refuses the children’s wish. Earlier phrases return around the baritone, and the poem looks ahead to nights when those eyes will be stars. The flute sings above the darker viola and cello lines.",
+      "title": "Varied return, final stanzas",
+      "text": "From rehearsal 4, earlier phrases return, varied, around the baritone. In the poem fate denies the children’s wish, and the speaker looks ahead to nights when those eyes will be stars. The flute plays above the viola and cello lines.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 28–31, rehearsal 4 onwards. Rückert’s last two stanzas and the varied return are discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
@@ -94,17 +94,17 @@ export default {
     {
       "t": 232,
       "kind": "world",
-      "title": "Berlin, June 1955",
-      "text": "Dietrich Fischer-Dieskau and Rudolf Kempe record the cycle with the Berlin Philharmonic on 20 and 21 June 1955 in the Jesus-Christus-Kirche. Three years earlier, in London’s Kingsway Hall, Fischer-Dieskau had recorded Mahler’s Wayfarer songs with Wilhelm Furtwängler.",
+      "title": "Recording, Berlin, June 1955",
+      "text": "Dietrich Fischer-Dieskau and Rudolf Kempe recorded the cycle with the Berlin Philharmonic on 20 and 21 June 1955 in the Jesus-Christus-Kirche. Three years earlier, in London’s Kingsway Hall, Fischer-Dieskau had recorded Mahler’s <i>Lieder eines fahrenden Gesellen</i> with Wilhelm Furtwängler.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Naxos 8.111300 rear cover: Kindertotenlieder, Berlin Philharmonic Orchestra, Rudolf Kempe, recorded 20th–21st June 1955 in Jesus-Christus-Kirche, Berlin; Lieder eines fahrenden Gesellen, Philharmonia Orchestra, Wilhelm Furtwängler, recorded 24th–25th June 1952 in Kingsway Hall, London: https://cdn.naxos.com/SharedFiles/pdf/rear/8.111300r.pdf"
+      "evidence": "Naxos 8.111300 rear cover (opened): Kindertotenlieder, Berlin Philharmonic Orchestra, Rudolf Kempe, recorded 20th–21st June 1955 in Jesus-Christus-Kirche, Berlin; Lieder eines fahrenden Gesellen, Philharmonia Orchestra, Wilhelm Furtwängler, recorded 24th–25th June 1952 in Kingsway Hall, London: https://cdn.naxos.com/SharedFiles/pdf/rear/8.111300r.pdf. The Wikimedia Commons description of this file gives the same dates, 20 and 21 June 1955, from an EMI CD."
     },
     {
       "t": 274,
       "kind": "music",
-      "title": "The harp climbs away",
-      "text": "After Fischer-Dieskau’s last words, the harp climbs through a chord that seems to promise another key. It settles into C minor. Flutes, clarinets and bassoon hold the chord as the strings disappear.",
+      "title": "Closing harp arpeggio",
+      "text": "After Fischer-Dieskau’s last words, the harp rises through an A♭ seventh chord, which resolves to C minor. Flutes, clarinets and bassoon hold the chord as the strings stop.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 32. Woltjer identifies the A♭ seventh chord and its unexpected resolution to C minor: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
@@ -113,12 +113,12 @@ export default {
   "transitions": [
     {
       "id": "central-appeal",
-      "title": "The harp opens D major",
+      "title": "The harp introduces D major",
       "from": "A · Cellos and dark flames",
-      "to": "B · Harp and D-major light",
+      "to": "B · Harp arpeggios in D major",
       "at": { "t": 146 },
       "span": [136, 158],
-      "how": "<p>A ritardando holds back “mit eurem”. At <i>Tempo I</i>, the key signature changes to two sharps and the harp spreads a D-major chord. Plucked cellos and basses sound D below; flute, clarinet and bassoon sustain above. The voice opens out on “Leuchten” — shining — marked <i>warm</i>.</p>",
+      "how": "<p>A ritardando slows “mit eurem”. At <i>Tempo I</i> the key signature changes to two sharps and the harp plays a spread D-major chord. Cellos and basses play D pizzicato below it, and flute, clarinet and bassoon hold sustained notes above. The voice reaches “Leuchten” (shining), marked <i>warm</i>.</p>",
       "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -126,12 +126,12 @@ export default {
     },
     {
       "id": "returning-fragments",
-      "title": "The bright answer darkens",
-      "from": "B · Harp and D-major light",
+      "title": "D major turns through A7 to G minor",
+      "from": "B · Harp arpeggios in D major",
       "to": "A′ · Fate refuses",
       "at": { "t": 180 },
       "span": [170, 192],
-      "how": "<p>The D-major passage moves through A7 into G minor as the children’s imagined wish meets its refusal. The flute carries the high line; violas sustain below. After the vocal phrase, cellos change from plucking to bowing, and horn and bassoon carry fragments into the next stanza.</p>",
+      "how": "<p>The D-major passage moves through A7 into G minor. The flute plays the high line and the violas hold sustained notes below. After the vocal phrase the cellos change from pizzicato to arco, and horn and bassoon carry fragments into the next stanza.</p>",
       "devices": ["motivic link", "orchestration change", "link passage"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -139,12 +139,12 @@ export default {
     },
     {
       "id": "postlude",
-      "title": "An unexpected C-minor landing",
+      "title": "Harp arpeggio to the closing C-minor chord",
       "from": "A′ · Fate refuses",
-      "to": "Coda · Harp rising into C minor",
+      "to": "Coda · Rising harp figure, C minor",
       "at": { "t": 274 },
       "span": [264, 286],
-      "how": "<p>The strings shorten and soften their phrases after the voice finishes. Over plucked low strings, the harp climbs through an A♭ seventh chord, which could lead to D♭. It resolves into C minor instead. Flutes, clarinets and bassoon hold the last chord, marked <i>morendo</i> — dying away.</p>",
+      "how": "<p>After the voice finishes, the strings play shorter, softer phrases. Over plucked low strings, the harp plays upward through an A♭ seventh chord, a chord that could lead to D♭. The harmony resolves to C minor. Flutes, clarinets and bassoon hold the last chord, marked <i>morendo</i> (dying away).</p>",
       "devices": ["texture change", "decrescendo", "chromatic slide"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -201,7 +201,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The baritone takes up the cellos’ rising melody, surrounded by flute, clarinet and bassoon phrases."
+        "note": "The baritone takes up the cellos’ rising melody, against phrases in the flute, clarinet and bassoon."
       },
       {
         "t": 146,
@@ -242,7 +242,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Flute and violas sustain while bassoon and horn recall short phrases from the opening."
+        "note": "Flute and violas sustain while bassoon and horn repeat short phrases from the opening."
       },
       {
         "t": 274,

@@ -1,0 +1,110 @@
+{
+  "batch": "xenakis",
+  "edges": [
+    {
+      "id": "messiaen--xenakis-conservatoire-class-1951",
+      "from": "messiaen",
+      "to": "xenakis",
+      "kind": "studied-with",
+      "year": 1951,
+      "title": "Xenakis in Messiaen’s Conservatoire class",
+      "works": {
+        "from": "Messiaen’s analysis class at the Paris Conservatoire, from 1951",
+        "to": "Le Sacrifice (1953) and Metastaseis (1953–54)"
+      },
+      "claim": "<p>[[messiaen]] no longer gave private lessons, but after Annette Dieudonné sent Xenakis to him in 1951 he let him attend his Conservatoire class. Xenakis said he went as often as his work in Le Corbusier’s studio allowed, more often for a year or two and then less, and that what interested him most were Messiaen’s analyses of his own works, his combinatorial thinking and his account of Indian rhythms. On 6 July 1954 Messiaen wrote to Pierre Schaeffer recommending Xenakis and the score of <i>Le Sacrifice</i>, whose rhythmic research had attracted Messiaen from the first.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bálint András Varga, Conversations with Iannis Xenakis (Faber and Faber, 1996)",
+          "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf",
+          "locator": "pp. 27–32: Dieudonné’s advice, attendance at the class, “pure combinatorial thought”, Indian rhythms"
+        },
+        {
+          "title": "Les Amis de Xenakis: Biography (chronology by Anne-Sylvie Barthel-Calvet)",
+          "url": "https://www.iannis-xenakis.org/en/biographie/",
+          "locator": "1951 entry (admission to the class); 1954 entry (Messiaen’s letter to Schaeffer, 6 July 1954; French text at https://www.iannis-xenakis.org/biographie/)"
+        }
+      ]
+    },
+    {
+      "id": "copland--xenakis-tanglewood-1963",
+      "from": "copland",
+      "to": "xenakis",
+      "kind": "championed",
+      "year": 1963,
+      "title": "Xenakis at Tanglewood through Copland",
+      "works": {
+        "from": "Copland’s invitation to teach at the Berkshire Music Center, 1963; his performance of Pithoprakta, San Francisco, 4 March 1966",
+        "to": "Eonta (begun at Tanglewood, 1963); Formalized Music (Indiana University Press, 1971)"
+      },
+      "claim": "<p>In 1963, as he planned his retirement as director of the Berkshire Music Center, [[copland]] telephoned Xenakis from New York to ask whether he would teach at Tanglewood. Xenakis, a political refugee with only a refugee certificate, obtained permission to leave for the United States. At Tanglewood that summer he began work on <i>Eonta</i> and gave a Fromm concert and lecture on 4 August. Copland conducted <i>Pithoprakta</i> with the San Francisco Symphony on 4 March 1966, and his endorsement, “a special and original method of composition”, was printed on the jacket of the 1971 English edition of <i>Formalized Music</i>.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Charles Turner, Xenakis in America (One Block Avenue, 2014)",
+          "url": "https://monoskop.org/images/6/63/Turner_Charles_Xenakis_in_America.pdf",
+          "locator": "Chapter 2, Tanglewood: Copland’s invitation (Xenakis quoted from Varga, p. 40), the Fromm concert of 4 August 1963, Copland’s conducting of Pithoprakta on 4 March 1966 and the jacket endorsement of Formalized Music"
+        },
+        {
+          "title": "Les Amis de Xenakis: Biography (chronology by Anne-Sylvie Barthel-Calvet)",
+          "url": "https://www.iannis-xenakis.org/en/biographie/",
+          "locator": "1963 entry (invitation to teach at Tanglewood; work on Eonta begun there)"
+        }
+      ]
+    },
+    {
+      "id": "boulez--xenakis-eonta-domaine-musical-1964",
+      "from": "boulez",
+      "to": "xenakis",
+      "kind": "championed",
+      "year": 1964,
+      "title": "Eonta at the Domaine Musical, conducted by Boulez",
+      "works": {
+        "from": "Domaine Musical concerts directed by Boulez, Paris; Herma played there on 24 April 1963",
+        "to": "Eonta, for piano and five brass (1963–64)"
+      },
+      "claim": "<p>The Domaine Musical, the Paris concert society led by [[boulez]], gave its first Xenakis performance on 24 April 1963, when Georges Pludermacher played <i>Herma</i> and then repeated the whole piece as an encore. The society commissioned <i>Eonta</i>, which Yuji Takahashi and a brass ensemble first played under Boulez on 16 December 1964. Boulez judged the five brass parts unplayable as written and had them shared among ten players. Xenakis said that Boulez had earlier called his music too simple, and that their quarrel deepened after Xenakis’s article of 1955 on the crisis of serial music.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Les Amis de Xenakis: Biography (chronology by Anne-Sylvie Barthel-Calvet)",
+          "url": "https://www.iannis-xenakis.org/en/biographie/",
+          "locator": "1963 entry (Herma at the Domaine Musical, 24 April, with the encore); 1964 entry (Eonta commissioned by the Domaine Musical, première on 16 December 1964, the brass parts shared among ten players)"
+        },
+        {
+          "title": "Les Amis de Xenakis: Eonta, work record",
+          "url": "https://www.iannis-xenakis.org/en/eonta/",
+          "locator": "Scoring (piano, two trumpets, three trombones) and première at the Domaine Musical under Boulez"
+        },
+        {
+          "title": "Bálint András Varga, Conversations with Iannis Xenakis (Faber and Faber, 1996)",
+          "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf",
+          "locator": "p. 29: Boulez’s remark that the music was too simple and the first quarrel"
+        }
+      ]
+    },
+    {
+      "id": "debussy--xenakis-athens-first-hearing-1944",
+      "from": "debussy",
+      "to": "xenakis",
+      "kind": "heard",
+      "year": 1944,
+      "title": "Xenakis’s first hearing of Debussy, Athens",
+      "works": {
+        "from": "Debussy’s music, first heard by Xenakis in Athens in December 1944",
+        "to": "Xenakis’s early search for music matching his ideas of ancient Greece"
+      },
+      "claim": "<p>Xenakis told Bálint András Varga that he first heard [[debussy]]’s music “very late on”, in December 1944, during the fighting against the British in Athens, and that it seemed “closest to what I was searching for”, closer than the Bach, Mozart, Beethoven or Brahms he had heard more often. At the time he was looking for music that matched his ideas of ancient civilisation. In the same account he said that he became acquainted with [[bartok]] then, and that the example of Bartók and Musorgsky later led him to study Greek folk music.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Bálint András Varga, Conversations with Iannis Xenakis (Faber and Faber, 1996)",
+          "url": "https://www.iannis-xenakis.org/wp-content/uploads/2026/01/96-Varga-B.A.-Conversations-with-Iannis-Xenakis.pdf",
+          "locator": "Roots, pp. 51–52: first hearing of Debussy and Bartók in December 1944; the search for music corresponding to his ideas of ancient civilisation"
+        }
+      ]
+    }
+  ],
+  "figures": []
+}

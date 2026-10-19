@@ -12,18 +12,18 @@ export default {
   "source": {
     "file": "File:Ivan Ilić-Chopin Prelude Opus 28 n.4.ogg"
   },
-  "intro": "Ivan Ilić plays a Prelude whose melody scarcely moves while the chords beneath it sink by semitones. The whole drama fits into twenty-five bars.",
+  "intro": "Ivan Ilić plays the Prelude in E minor, Op. 28 No. 4, marked Largo. The melody moves very little over twenty-five bars, and the chords beneath it descend by semitones.",
   "sections": [
     { "t": 0, "label": "A · The chords descend", "m": "A", "mNote": "Repeated quavers beneath a lingering melody" },
-    { "t": 48, "label": "A′ · The melody tries again", "m": "A′", "mNote": "The opening returns, then rises to a forte" },
-    { "t": 90, "label": "Coda · Silence before E minor", "m": "Coda", "mNote": "A held rest separates the last chords" }
+    { "t": 48, "label": "A′ · Opening melody returns, rising to forte", "m": "A′", "mNote": "The opening returns, then rises to a forte." },
+    { "t": 90, "label": "Coda · Rest before E minor", "m": "Coda", "mNote": "A held rest separates the last chords." }
   ],
   "cues": [
     {
       "bar": { "n": "0", "occ": 1 },
       "kind": "music",
-      "title": "B, then its neighbour",
-      "text": "An octave leap lands on B. The melody lingers there, touching C and returning, while the left hand repeats its chords eight times a bar. Inside those chords, individual notes slip down by semitones. The tune hardly has to move.",
+      "title": "Melody on B, bars 1–4",
+      "text": "The melody reaches B by an octave leap and stays there, touching C and returning to B. The left hand repeats its chords eight times a bar, and within them individual notes move down by semitones.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Peters edition, edited by Herrmann Scholtz (1900), upbeat and bars 1–4. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=921"
@@ -31,8 +31,8 @@ export default {
     {
       "t": 34,
       "kind": "world",
-      "title": "Berkeley to Paris",
-      "text": "Ilić comes to Paris with degrees in mathematics and music from Berkeley, then studies at the Paris Conservatoire and the École Normale. He makes this recording in Paris in October 2005. Three years later, his Debussy disc brings together that composer’s twenty-four preludes.",
+      "title": "Ivan Ilić, Berkeley and Paris",
+      "text": "Ilić came to Paris with degrees in mathematics and music from Berkeley, then studied at the Paris Conservatoire and the École Normale. He made this recording in Paris in October 2005. Three years later he released a Debussy disc of that composer’s twenty-four preludes.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Training and the October 2008 Debussy release: https://en.wikipedia.org/wiki/Ivan_Ilić_(pianist). Session: https://commons.wikimedia.org/wiki/File:Ivan_Ilić-Chopin_Prelude_Opus_28_n.4.ogg"
@@ -40,8 +40,8 @@ export default {
     {
       "bar": { "n": "23", "occ": 1 },
       "kind": "music",
-      "title": "A rest with a fermata",
-      "text": "The repeated quavers stop. Chopin puts a fermata over the silence, then asks for the final chords <i>pianissimo</i>. D♯ rises to E in the melody as the bass falls from B to E. After so much slipping away, the two hands finally arrive together.",
+      "title": "Fermata and final cadence",
+      "text": "The repeated quavers stop. Chopin puts a fermata over the rest, then marks the final chords <i>pianissimo</i>. In the melody D♯ rises to E while the bass falls from B to E.",
       "basis": "score-aligned",
       "precision": "moment",
       "evidence": "Peters–Scholtz edition, bars 23–25: fermata over the rest, pp, and the final B7–E minor cadence. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=921"
@@ -50,12 +50,12 @@ export default {
   "transitions": [
     {
       "id": "into-renewed-phrase",
-      "title": "The first melody tries again",
+      "title": "The opening melody returns",
       "from": "A · The chords descend",
-      "to": "A′ · The melody tries again",
+      "to": "A′ · Opening melody returns, rising to forte",
       "at": { "t": 48 },
       "span": [38, 60],
-      "how": "<p>A short right-hand flourish crosses the gap left by the accompaniment. The opening B returns over an E minor chord with G in the bass. The left-hand quavers begin again, quietly; this second phrase will break into <i>stretto</i>, pressing forward towards the forte.</p>",
+      "how": "<p>A short right-hand flourish crosses the gap left by the accompaniment. At bar 13 the opening B returns over an E minor chord with G in the bass, and the left-hand quavers begin again. This second phrase breaks into <i>stretto</i> at bar 16 and presses forward towards the forte.</p>",
       "devices": ["motivic link", "crescendo build"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -64,11 +64,11 @@ export default {
     {
       "id": "into-final-chords",
       "title": "The quavers stop",
-      "from": "A′ · The melody tries again",
-      "to": "Coda · Silence before E minor",
+      "from": "A′ · Opening melody returns, rising to forte",
+      "to": "Coda · Rest before E minor",
       "at": { "t": 90 },
       "span": [80, 102],
-      "how": "<p><i>Smorzando</i> asks the piano to die away. The left-hand quavers stop, a chord hangs, and a rest carries a fermata. Three quiet chords follow; the last two take B7 to E minor, with the melody rising D♯–E above the bass’s B–E.</p>",
+      "how": "<p>The marking <i>smorzando</i> directs the piano to die away. The left-hand quavers stop, a chord is held, and a rest carries a fermata. Three soft chords follow. The last two move from B7 to E minor, with the melody rising D♯–E above B–E in the bass.</p>",
       "devices": ["decrescendo", "fermata", "general pause", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",

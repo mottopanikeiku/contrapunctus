@@ -42,22 +42,39 @@ const INSTRUCT = /(?:^\s*|[.!?:;]\s+|—\s*)(?:Listen|Follow|Compare|Notice|Keep
 const quoted = (s, i) => (s.slice(0, i).match(/“/g)?.length ?? 0) > (s.slice(0, i).match(/”/g)?.length ?? 0);
 const instruction = (s) => [...s.matchAll(INSTRUCT)].find((m) => !quoted(s, m.index + m[0].length));
 const NEGATION = /\brather than\b|[,;—]\s*not (?:a|an|the|as|in|by|to|only|merely|simply|just|one|every)\b|\bnot (?:only|merely|simply|just) [^.]{1,80}? but\b/gi;
+// AUTHORING.md "Devices that make prose read as machine-made": instruments and themes given human will, and
+// programme-note pastiche words. Both are allowed inside a quotation (the person quoted chose them).
+const PERSONIFY = /\b(?:piano|orchestra|violins?|violas?|cellos?|basses|double bass|horns?|oboes?|flutes?|clarinets?|bassoons?|trumpets?|trombones?|tuba|timpani|drums?|strings|woodwinds?|winds|brass|harp|organ|choir|chorus|tune|melody|theme|motif|chords?|harmony|key|music|bass line|left hand|right hand|accompaniment)\s+(?:refuses?|insists?|remembers?|discovers?|decides?|hesitates?|persists?|sighs?|breathes?|dreams?|longs?|wants?|tries|knows?|forgets?|gathers? (?:its|their) breath|takes? (?:its|their) time|holds? (?:its|their) ground|has (?:its|their) say|gets? the last word|finds? (?:a|its|their) (?:voice|way|tune|footing|feet))\b/gi;
+const PASTICHE = /\b(?:luminous|radiant|shimmer(?:s|ing)?|glow(?:s|ing)|haunting(?:ly)?|poignant(?:ly)?|wistful(?:ly)?|yearning|aching(?:ly)?|brooding|lush|playful(?:ly)?|mischievous(?:ly)?|delicious(?:ly)?|magical|dreamlike|otherworldly|ethereal|blooms?|blossoms?|conjures?|evokes?)\b/gi;
+const unquotedMatch = (s, re) => [...s.matchAll(re)].find((m) => !quoted(s, m.index + m[0].length));
 const stripTags = (s) => s.replace(/<[^>]+>/g, ' ').replace(/\[\[[^\]|]+\|([^\]]+)\]\]/g, '$1').replace(/\[\[([^\]]+)\]\]/g, '$1');
-function proseOf(v, key = '', out = { prose: [], evidence: [] }) {
-  if (typeof v === 'string') { if (/[a-z]{3}\s+[a-z]/i.test(v)) (key === 'evidence' ? out.evidence : out.prose).push(stripTags(v)); }
+function proseOf(v, key = '', out = { prose: [], evidence: [], plain: [] }) {
+  if (typeof v === 'string') {
+    if (/[a-z]{3}\s+[a-z]/i.test(v)) {
+      (key === 'evidence' ? out.evidence : out.prose).push(stripTags(v));
+      // Italicised titles (a film called “Delicious”) are names, not the writer’s adjectives.
+      if (key !== 'evidence') out.plain.push(stripTags(v.replace(/<i>[\s\S]*?<\/i>/g, ' ')));
+    }
+  }
   else if (Array.isArray(v)) v.forEach((x) => proseOf(x, key, out));
   else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (!PROSE_SKIP.has(k)) proseOf(x, k, out);
   return out;
 }
 function houseStyle(f, mod, { instruct = false } = {}) {
-  const { prose, evidence } = proseOf(mod);
+  const { prose, evidence, plain } = proseOf(mod);
   const snippet = (s, re) => { const m = s.match(re); const i = Math.max(0, (m?.index ?? 0) - 40); return `“…${s.slice(i, i + 110).trim()}…”`; };
   for (const s of [...prose, ...evidence]) {
     const machine = MACHINE.find((re) => re.test(s)), hedge = HEDGE.find((re) => re.test(s));
     if (machine) err(f, `house style: machine language ${snippet(s, machine)}`);
     if (hedge) err(f, `house style: defensive hedging ${snippet(s, hedge)}`);
   }
-  if (instruct) for (const s of prose) { const m = instruction(s); if (m) err(f, `house style: instruction to the listener “…${s.slice(Math.max(0, m.index - 40), m.index + 70).trim()}…”`); }
+  if (instruct) {
+    for (const s of prose) { const m = instruction(s); if (m) err(f, `house style: instruction to the listener “…${s.slice(Math.max(0, m.index - 40), m.index + 70).trim()}…”`); }
+    for (const s of plain) {
+      const p = unquotedMatch(s, PERSONIFY); if (p) err(f, `house style: personified music “…${s.slice(Math.max(0, p.index - 30), p.index + 60).trim()}…”`);
+      const v = unquotedMatch(s, PASTICHE); if (v) err(f, `house style: pastiche word “${v[0]}” in “…${s.slice(Math.max(0, v.index - 40), v.index + 50).trim()}…”`);
+    }
+  }
   const all = prose.join('\n');
   const words = all.split(/\s+/).filter(Boolean).length;
   const negations = [...all.matchAll(NEGATION)].length;
@@ -228,7 +245,7 @@ for (const f of files) {
           if (!['moment', 'passage'].includes(c.precision)) err(f, `cue "${c.title}" needs precision 'moment' or 'passage'`);
           if (c.precision === 'moment' && !['score-aligned', 'audio-feature'].includes(c.basis)) err(f, `cue "${c.title}": precision 'moment' requires basis score-aligned or audio-feature`);
           if (c.basis === 'score-aligned' && !c.bar) err(f, `cue "${c.title}": basis score-aligned requires bar: { n, occ }`);
-          if (!c.evidence) err(f, `cue "${c.title}" needs evidence (shown to readers under "How we know")`);
+          if (!c.evidence) err(f, `cue "${c.title}" needs evidence (shown to readers under "Evidence")`);
         }
         if (c.bar && (typeof c.bar.n !== 'string' || !c.bar.occ)) err(f, `cue "${c.title}": bar must be { n: '12', occ: 1 }`);
       }

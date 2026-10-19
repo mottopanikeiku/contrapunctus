@@ -1,0 +1,155 @@
+{
+  "id": "villa-lobos-choros-7",
+  "work": {
+    "title": "Chôros No. 7 (Septeto)",
+    "catalogue": "W199 (Appleby)",
+    "movement": "",
+    "version": {
+      "value": "Original septet version for flute, oboe, clarinet, alto saxophone, bassoon, violin and cello, with a tam-tam off stage.",
+      "status": "documented",
+      "sourceIds": ["archive", "imslp"],
+      "note": "The Internet Archive description and the IMSLP list of works give the same scoring. Which edition of the score the performers used is not stated."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Victor Brazilian Orchestra (Orquestra Victor Brasileira)", "role": "ensemble; personnel unidentified, possibly assembled for the session" },
+      { "name": "Heitor Villa-Lobos", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "american"],
+    "note": "The item description says the ensemble is billed on the disc labels as “Victor Brazilian Orchestra”, a mistranslation of “Orchestra Victor Brasileira”, and that the players are unidentified. The 1936 notice calls the group the Brazilian Symphony Orchestra under the composer."
+  },
+  "session": {
+    "date": {
+      "value": "8 January 1932",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Stated in the description written by the transferring discographer and repeated in the FLAC comment field; no ledger was seen. Wikipedia gives only “193-?” for the recording. The matrix numbers are CAVE 65356-1 and CAVE 65357.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Rio de Janeiro, Brazil",
+      "status": "inferred",
+      "sourceIds": ["archive"],
+      "note": "The item description says Rio de Janeiro; the comment field of the FLAC file reads “Rio de Janeiro(?)”. The venue is not stated."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor, as an export issue for South America, with a United States issue in January 1937",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The description reads “Issued (export): 1932 or later / (USA): January 1937”, and says the first export issue date is unknown. The label scans show a Red Seal label printed “RCA Manufacturing Co., Inc., Camden, N.J., U.S.A.”, so the pressing transferred is probably the United States issue."
+    },
+    "catalogue": {
+      "value": "Victor 11214, 12-inch 78 rpm, electrical recording",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The February 1936 notice names the companion discs as Victor 11212–11213, the Carioca String Quartet’s recording of Villa-Lobos’s Quartet No. 5."
+    },
+    "matrixTakeSides": {
+      "value": "CAVE 65356-1 and CAVE 65357-?; the take of the second side is not known",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "As given in the item description and in the comment field of the FLAC file. The label scans read “CHOROS–No. 7–Part 1” (11214-A) and “Part 2” (11214-B), “Victor Brazilian Orchestra under the direction of H. Villa Lobos”; no matrix number is printed on the label faces."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Transfer, restoration and editing by Andrew Hallifax for DogintheManger",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Named in the item description; photographs of the labels are credited to DogintheManger."
+    },
+    "date": {
+      "value": "September to December 2023",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "From the comment field of the FLAC file (“Sep>Dec-23”). The item’s public date, 4 January 2024, is the upload date."
+    },
+    "processing": {
+      "value": "One track of 8 min 36 s that appears to carry both disc sides; the description states “restoration and editing” but not the methods.",
+      "status": "inferred",
+      "sourceIds": ["archive"],
+      "note": "The two matrices and the single track imply that the sides are run together. Equalisation, noise reduction and any speed correction are not described."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/victor-11214-villa-lobos-choros-no7-victor-brazil-orchestra-villa-lobos/Victor%2011214%20Villa-Lobos%20Ch%C3%B4ros%20No7%20%28Septet%29%20Victor%20Brazil%20Orch%2C%20Villa-Lobos.mp3",
+    "sourceChain": ["archive"],
+    "format": "Internet Archive derivative VBR MP3 from an uploaded FLAC",
+    "durationSeconds": 516.21
+  },
+  "rights": {
+    "composition": {
+      "value": "Villa-Lobos died in 1959, so the work is in copyright in the EU, under the life-plus-70 term, until the end of 2029. The IMSLP list of works gives Eschig editions of 1928 and 1955.",
+      "status": "documented",
+      "sourceIds": ["imslp", "imslpwork"],
+      "note": "Rights in the composition are stated separately from rights in the recording. The IMSLP work page places the work in its category for works not in the public domain in the EU and gives no United States status."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: first published before 1963; on sale as an import in the United States by February 1936.",
+      "status": "documented",
+      "sourceIds": ["american", "archive"],
+      "note": "The February 1936 notice announces the importation of the record, so the disc had been published by then. The item description dates the export issue “1932 or later” and the United States issue January 1937, citing a 1937 review that was not consulted. The United States status of a recording made in Brazil in 1932 is not established."
+    },
+    "creditLine": "Heitor Villa-Lobos, Chôros No. 7 (Septeto). Victor Brazilian Orchestra, Heitor Villa-Lobos, conductor. Recorded 8 January 1932; issued as Victor 11214 and on sale as an import in the United States by February 1936. Transfer, restoration and editing by Andrew Hallifax for DogintheManger, 2023; Internet Archive item victor-11214-villa-lobos-choros-no7-victor-brazil-orchestra-villa-lobos. Territorial EU basis (first published before 1963); US status not established.",
+    "licenseUrl": "https://archive.org/details/victor-11214-villa-lobos-choros-no7-victor-brazil-orchestra-villa-lobos"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Victor 11214 Villa-Lobos Chôros No.7 (Septet), Victor Brazil Orchestra, Villa-Lobos: metadata and file inventory",
+      "url": "https://archive.org/metadata/victor-11214-villa-lobos-choros-no7-victor-brazil-orchestra-villa-lobos",
+      "locator": "metadata.description (ensemble, recording date, matrices, issue dates, catalogue number, transfer credit, contemporary sources); FLAC comment field; files 11214-A and 11214-B label images; MP3 derivative 08:36",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "american",
+      "title": "The American Music Lover (later The American Record Guide), vol. 1 no. 10, February 1936 (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_american-record-guide_1936-02_1_10",
+      "locator": "“A Recording from Brazil”: importation of Chôros No. 7 as a companion to Victor 11212–11213; and the review of the Carioca String Quartet’s recording of the Quartet No. 5",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — List of works by Heitor Villa-Lobos",
+      "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos",
+      "locator": "W199: scoring including off-stage tam-tam, dedication to Arnaldo Guinle, premiere in Rio, Eschig 1928 and 1955; W207: Chôros No. 5 dedicated to Arnaldo Guinle",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslpwork",
+      "title": "IMSLP — Chôros No.7, W199 (Villa-Lobos, Heitor)",
+      "url": "https://imslp.org/wiki/Ch%C3%B4ros_No.7,_W199_(Villa-Lobos,_Heitor)",
+      "locator": "General Information: scoring with tam-tam ad lib. (offstage), dedication, first performance 1925-09-17, first publication 1928; category WorkNonPD-EU",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "museu",
+      "title": "Museu Villa-Lobos — Choros n° 7, manuscript 1993.21.0036",
+      "url": "https://museuvillalobos.acervos.museus.gov.br/partituras/choros-n-7/",
+      "locator": "Execuções: first performance 17 September 1925, Rio de Janeiro, Escola Nacional de Música, with Ary Ferreira (flute) and Newton Pádua (cello); duration 8’39”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wright",
+      "title": "Simon Wright — note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5), 1987",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66257",
+      "locator": "Paragraph on the offer from the administration of the Federal District in February 1932",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "guinle",
+      "title": "Clóvis Bulcão — Os Guinle: a história de uma dinastia (Intrínseca), first chapter excerpt",
+      "url": "https://www.intrinseca.com.br/upload/livros/1%C2%BACAP_OsGuinle_ISSUU.pdf",
+      "locator": "Timeline entry for 1923: Villa-Lobos settles in Paris, financed by Arnaldo Guinle",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

@@ -26,7 +26,7 @@ export default {
       "evidence": "IA item lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0: catalogue date 1961 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
     }
   },
-  "intro": "Four slow notes — C–D–F–E — set Mozart’s last symphonic finale in motion. Bruno Walter conducts the Columbia Symphony Orchestra in a movement whose closing pages fit five separate tunes together.",
+  "intro": "The finale of Mozart’s last symphony opens with four slow notes, C–D–F–E, and in its closing pages five separate tunes are played together. Bruno Walter conducts the Columbia Symphony Orchestra.",
   "sections": [
     {
       "t": 0,
@@ -36,29 +36,29 @@ export default {
     },
     {
       "t": 154,
-      "label": "Dev · The four notes change hands",
+      "label": "Dev · Four notes passed between instruments",
       "m": "Dev",
-      "mNote": "Strings and winds pursue the themes through changing keys"
+      "mNote": "Strings and winds take up the themes in changing keys"
     },
     {
       "t": 226,
-      "label": "A′ · The violins recover C major",
+      "label": "A′ · Opening theme in C major, violins",
       "m": "A′",
-      "mNote": "The opening theme returns above moving inner strings"
+      "mNote": "The opening theme returns above moving inner strings."
     },
     {
       "t": 358,
-      "label": "Coda · Five tunes fit together",
+      "label": "Coda · Five themes combined in counterpoint",
       "m": "Coda",
-      "mNote": "The four-note theme turns upside down before the final combinations"
+      "mNote": "The four-note theme is inverted before the final combinations."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Four long violin notes",
-      "text": "The first violins play C–D–F–E in long notes. Quicker figures gather around them, and soon different string parts take up the four-note phrase. Its simplicity is useful: Mozart can turn it upside down or place another tune above it, and it remains recognisable.",
+      "title": "Opening four-note theme, first violins",
+      "text": "The first violins play C–D–F–E in long notes, with quicker figures around them. Other string parts soon take up the four-note phrase. Mozart later inverts it and sets other themes above it.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, opening theme and imitative continuation. K. Dawn Grapes discusses the themes’ contrapuntal treatment: https://fcsymphony.org/mozart-41-jupiter/."
@@ -66,8 +66,8 @@ export default {
     {
       "t": 105,
       "kind": "life",
-      "title": "10 August in Vienna",
-      "text": "Mozart dates this symphony 10 August 1788. The E♭ and G minor symphonies have preceded it that summer. For this C major orchestra he adds the trumpets and timpani that the G minor symphony leaves out.",
+      "title": "Dated 10 August 1788, Vienna",
+      "text": "Mozart dated this symphony 10 August 1788. The E♭ and G minor symphonies had preceded it that summer. For this C major orchestra he added the trumpets and timpani that the G minor symphony leaves out.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Date and scoring in the work records for K. 550 and K. 551: https://imslp.org/wiki/Symphony_No.41_in_C_major,_K.551_(Mozart,_Wolfgang_Amadeus) and https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)."
@@ -75,8 +75,8 @@ export default {
     {
       "t": 154,
       "kind": "form",
-      "title": "Strings pursue the four notes",
-      "text": "In the development, the themes pass between parts and through changing keys. A new entry can begin underneath one already in progress. The four long notes give the ear something solid amid the running strings.",
+      "title": "Development, bars 158–224",
+      "text": "In the development, bars 158–224, the themes pass between parts and through changing keys. A new entry can begin underneath one already in progress. The four long notes sound against running figures in the strings.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, development, bars 158–224."
@@ -84,8 +84,8 @@ export default {
     {
       "t": 226,
       "kind": "form",
-      "title": "C major, with company",
-      "text": "The violins bring back the opening theme in C major, above moving inner strings. The other parts keep answering and overlapping it. The four-note tune has plenty of company now.",
+      "title": "Recapitulation in C major",
+      "text": "At bar 225 the violins bring back the opening theme in C major above moving inner strings. The other parts enter against it and overlap it.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulation from bar 225."
@@ -93,8 +93,8 @@ export default {
     {
       "t": 280,
       "kind": "life",
-      "title": "A letter to Puchberg",
-      "text": "In Vienna on 27 June 1788, Mozart asks Michael Puchberg for a longer loan. His new rooms are cheaper, and he is working hard, but the bills keep overtaking him. He ends the appeal: “I shall be silent and hope.”",
+      "title": "Letter to Michael Puchberg, 1788",
+      "text": "In Vienna on 27 June 1788 Mozart wrote to Michael Puchberg asking for a longer loan. He said his new rooms were cheaper and that he was working hard, but his bills kept outstripping him. He closed the appeal with “I shall be silent and hope.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mozart to Michael Puchberg, 27 June 1788, Bauer–Deutsch 1079. Our translation of “schweigen und hoffen”: https://dme.mozarteum.at/DME/objs/raradocs/transcr/pdf/BD_1079.pdf."
@@ -102,8 +102,8 @@ export default {
     {
       "t": 358,
       "kind": "form",
-      "title": "Five tunes at once",
-      "text": "The coda first turns the four-note idea upside down in a quieter passage. Then Mozart brings five themes together in counterpoint, each with its own rhythm. Long notes, running figures and short replies all fit; the orchestra seems to be finishing several sentences at once.",
+      "title": "Coda, five themes combined",
+      "text": "The coda first inverts the four-note idea in a quieter passage. Mozart then combines five themes in counterpoint, each with its own rhythm, in long notes, running figures and short replies.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, bars 357–404. The five-theme combination is described by K. Dawn Grapes, Fort Collins Symphony: https://fcsymphony.org/mozart-41-jupiter/."
@@ -111,8 +111,8 @@ export default {
     {
       "t": 420,
       "kind": "music",
-      "title": "Trumpets, drums and C major",
-      "text": "The running lines converge on the final C major cadences. Trumpets and timpani join the winds and strings in the closing chords. After all those separate voices, everyone has the same last word.",
+      "title": "Closing C major cadences",
+      "text": "The running lines converge on the final C major cadences. Trumpets and timpani join the winds and strings in the closing chords.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, bars 405–424."
@@ -121,13 +121,13 @@ export default {
   "transitions": [
     {
       "id": "development",
-      "title": "After the G major cadence",
+      "title": "From exposition to development",
       "from": "A · Four notes in the violins",
-      "to": "Dev · The four notes change hands",
+      "to": "Dev · Four notes passed between instruments",
       "at": {
         "t": 154
       },
-      "how": "<p>The exposition closes in G major. In the quieter opening of the development, the strings take familiar figures into new keys. Entries overlap and repeat at different pitches, loosening the hold of the G major cadence.</p>",
+      "how": "<p>The exposition closes with a cadence in G major. The development opens at a lower dynamic, and the strings carry familiar figures into new keys. Entries overlap and are repeated at different pitches, moving the harmony away from G major.</p>",
       "devices": [
         "perfect cadence",
         "texture change",
@@ -140,13 +140,13 @@ export default {
     },
     {
       "id": "recapitulation",
-      "title": "G in the bass prepares C",
-      "from": "Dev · The four notes change hands",
-      "to": "A′ · The violins recover C major",
+      "title": "Dominant pedal into the recapitulation",
+      "from": "Dev · Four notes passed between instruments",
+      "to": "A′ · Opening theme in C major, violins",
       "at": {
         "t": 226
       },
-      "how": "<p>The development settles on the dominant of C major, with G in the bass. The violins restore C–D–F–E above the moving inner strings. The long notes recover their opening key while the accompaniment keeps its quick pulse.</p>",
+      "how": "<p>The development comes to rest on the dominant of C major, with G held in the bass. Above the moving inner strings, the violins bring back C–D–F–E in long notes in the home key, and the accompaniment keeps up its quick pulse.</p>",
       "devices": [
         "retransition",
         "dominant pedal",
@@ -158,13 +158,13 @@ export default {
     },
     {
       "id": "coda",
-      "title": "The four notes turn upside down",
-      "from": "A′ · The violins recover C major",
-      "to": "Coda · Five tunes fit together",
+      "title": "Inversion of the four-note theme",
+      "from": "A′ · Opening theme in C major, violins",
+      "to": "Coda · Five themes combined in counterpoint",
       "at": {
         "t": 358
       },
-      "how": "<p>A C major close is followed by a quieter passage in which the four-note theme turns upside down. The strings begin the final contrapuntal build from these sustained notes, adding the quicker themes one by one before the full orchestra confirms C major.</p>",
+      "how": "<p>A C major close leads into the coda at bar 357. From bar 361 a quieter passage follows, with the four-note theme inverted in sustained notes. From bar 372 the strings start the final contrapuntal combination over these notes and add the quicker themes one at a time. The full orchestra then confirms C major.</p>",
       "devices": [
         "perfect cadence",
         "texture change",
@@ -305,7 +305,7 @@ export default {
           "violins-1",
           "bassoons"
         ],
-        "note": "Full orchestral phrases alternate with lighter passages of interweaving strings and winds."
+        "note": "Full orchestral phrases alternate with lighter passages for strings and winds."
       },
       {
         "t": 358,
@@ -326,7 +326,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "A full orchestral phrase opens the coda, then the players fall quiet."
+        "note": "The full orchestra plays a phrase at the start of the coda, then stops."
       },
       {
         "t": 365,
@@ -341,7 +341,7 @@ export default {
           "cellos",
           "violins-1"
         ],
-        "note": "Sustained string and flute notes reveal the four-note theme turned upside down."
+        "note": "Strings and flute hold long notes that play the four-note theme in inversion."
       },
       {
         "t": 380,

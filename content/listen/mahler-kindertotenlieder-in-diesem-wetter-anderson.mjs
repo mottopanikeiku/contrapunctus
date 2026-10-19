@@ -19,39 +19,39 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, V (Anderson, Monteux, 1950).ogg"
   },
-  "intro": "Marian Anderson sings the storm and the lullaby that end <i>Kindertotenlieder</i>, with Pierre Monteux and the San Francisco Symphony. The parent’s repeated protest finally becomes a song of shelter, accompanied by celesta and rocking strings.",
+  "intro": "Marian Anderson sings “In diesem Wetter, in diesem Braus”, the storm song and lullaby that end <i>Kindertotenlieder</i>, with Pierre Monteux and the San Francisco Symphony. After the parent’s repeated protest, the song turns to a lullaby of shelter, accompanied by celesta and rocking strings.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Wind and the parent’s protest",
+      "label": "A · Short wind phrases over cellos",
       "m": "A",
-      "mNote": "Short wind phrases over trembling cellos"
+      "mNote": "Short wind phrases over trembling cellos."
     },
     {
       "t": 165,
-      "label": "Link · The piccolo’s held note",
+      "label": "Link · Piccolo’s held note",
       "m": "Link",
-      "mNote": "A small bell sounds as the strings slow"
+      "mNote": "A small bell sounds as the strings slow."
     },
     {
       "t": 185,
-      "label": "B · Celesta beneath the lullaby",
+      "label": "B · Lullaby with celesta beneath",
       "m": "B",
       "mNote": "Anderson repeats the weather words over rocking strings"
     },
     {
       "t": 275,
-      "label": "Coda · The orchestra keeps watch",
+      "label": "Coda · bassoon and horns after the voice",
       "m": "Coda",
-      "mNote": "Bassoon and horns continue after the voice"
+      "mNote": "Bassoon and horns continue after the voice stops."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Restless winds, trembling cellos",
-      "text": "The harp strikes sharply while flutes and clarinets toss short phrases across the muted strings. The cellos tremble beneath them. Mahler’s opening direction asks for restless pain; Anderson’s part must speak through this weather.",
+      "title": "Opening, harp and cello tremolos",
+      "text": "The harp plays sharp accents while flutes and clarinets pass short phrases over the muted strings, with the cellos in tremolo beneath. Mahler marked the opening <i>Mit ruhelos schmerzvollem Ausdruck</i> (with restless, painful expression). Anderson’s part is set above this texture.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), p. 60: Mit ruhelos schmerzvollem Ausdruck, muted strings, cello tremolos and harp accents. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -59,8 +59,8 @@ export default {
     {
       "t": 30,
       "kind": "music",
-      "title": "A march from the Third Symphony",
-      "text": "The storm is a march in D minor. Its key and melodic style recall the first movement of Mahler’s Third Symphony, written in 1895–96. No other song in the cycle opens like this.",
+      "title": "Opening march in D minor",
+      "text": "The song opens with a march in D minor, the only song in the cycle to do so. Its key and melodic style recall the first movement of Mahler’s Third Symphony, written in 1895–96.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Reinhold Kubik, Universal Edition introduction to Kindertotenlieder (autumn 2008): song 5 “is the only song to open with a Mahler-style march”, recalling the key and melodic style of the Third Symphony’s first movement (song bar 9, symphony bar 136): https://www.universaledition.com/en/Kindertotenlieder/P0045027"
@@ -77,8 +77,8 @@ export default {
     {
       "t": 105,
       "kind": "music",
-      "title": "A wider orchestra for the storm",
-      "text": "Only this last song calls for a piccolo, a contrabassoon and a third and fourth horn. The cycle has no trumpets or trombones at all.",
+      "title": "Scoring of the fifth song",
+      "text": "Only this last song calls for a piccolo, a contrabassoon and a third and fourth horn. The cycle has no trumpets or trombones.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler catalogue, Kindertotenlieder, scoring list: piccolo and contrabassoon in no. 5 only, horns 3–4 in no. 5 only: https://www.mahlercat.org.uk/Pages/KtL/KtL.htm The Mahler Foundation confirms there are no trumpets: https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/"
@@ -86,8 +86,8 @@ export default {
     {
       "t": 165,
       "kind": "form",
-      "title": "The bell in the clearing",
-      "text": "The piccolo holds high above the orchestra, and a small bell sounds in the gaps. The string phrases grow slower and shorter. This bridge carries Anderson’s final stanza out of the storm.",
+      "title": "Rehearsal 8, piccolo and Glöckchen",
+      "text": "At rehearsal 8 the piccolo holds a high note above the orchestra, and a small bell (Glöckchen) sounds in the gaps. Under the marking <i>Allmählich langsamer</i>, the string phrases become slower and shorter. This bridge leads from the storm music into Anderson’s final stanza.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 78–79: rehearsal 8, piccolo, Glöckchen and Allmählich langsamer."
@@ -95,8 +95,8 @@ export default {
     {
       "t": 185,
       "kind": "form",
-      "title": "“Wie ein Wiegenlied”",
-      "text": "“Wie ein Wiegenlied” — like a lullaby. Anderson returns to the same weather words over celesta and rocking strings. The children now rest as safely as in their mother’s house, “von Gottes Hand bedecket” — covered by God’s hand.",
+      "title": "Final stanza, “Wie ein Wiegenlied”",
+      "text": "Mahler marks the final stanza “Wie ein Wiegenlied” — like a lullaby. Anderson repeats the weather words of the opening over celesta and rocking strings. In Rückert’s text the children now rest as safely as in their mother’s house, “von Gottes Hand bedecket” — covered by God’s hand.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 79–84: Mahler’s marking and Rückert’s last stanza; our translations. The score moves from D minor to D major; this transfer’s playback pitch is unverified."
@@ -104,8 +104,8 @@ export default {
     {
       "t": 235,
       "kind": "life",
-      "title": "What Mahler told Guido Adler",
-      "text": "The cycle is finished in 1904. In July 1907 Mahler’s elder daughter, Maria, dies of scarlet fever and diphtheria. He tells Guido Adler that he had imagined “a child of mine had died”; having truly lost a daughter, he says, he “could not have written these songs any more.”",
+      "title": "Mahler to Guido Adler, 1907",
+      "text": "Mahler finished the cycle in 1904. In July 1907 his elder daughter, Maria, died of scarlet fever and diphtheria. He told Guido Adler that he had imagined “a child of mine had died”, and that after truly losing a daughter he “could not have written these songs any more.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler to Guido Adler after Maria’s death in 1907, as quoted by Theodor Reik, The Haunting Melody (1953), p. 315, and repeated in Peter Russell, Light in Battle with Darkness: Mahler’s Kindertotenlieder (1991) and on the Mahler Foundation’s introduction: https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/ (Reik and Russell seen only as full-text excerpts; the letter itself has not been traced). Maria’s death on 11 July 1907: https://mahlerfoundation.org/mahler/the-man/health/ Kubik places the songs in the summers of 1901 and 1904: https://www.universaledition.com/en/Kindertotenlieder/P0045027"
@@ -113,8 +113,8 @@ export default {
     {
       "t": 275,
       "kind": "music",
-      "title": "After Anderson’s last words",
-      "text": "The violas keep the cradle moving after Anderson finishes. Bassoon and horns sing softly over divided cellos, and the celesta has the small descending figures of the last page. The final chord dwindles under a fermata.",
+      "title": "Orchestral postlude",
+      "text": "The violas continue the cradle rhythm after Anderson’s last words. Bassoon and horns play softly over divided cellos, and the celesta has the short descending figures of the last page. The final chord fades, <i>Morendo</i>, under a fermata.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 84–86, rehearsal 10 and the closing page: weich, Morendo dim. and the final fermata."
@@ -122,8 +122,8 @@ export default {
     {
       "t": 315,
       "kind": "world",
-      "title": "Five songs, no applause",
-      "text": "On the score’s first page, Mahler calls the five songs “ein einheitliches, untrennbares Ganzes” — one unified, inseparable whole. He asks for their continuity to be preserved, including through the silence between songs, without applause.",
+      "title": "Performance instruction in the score, 1905",
+      "text": "In a footnote on the first page of the score, Mahler described the five songs as “ein einheitliches, untrennbares Ganzes” — one unified, inseparable whole. He asked that their continuity be preserved, including through the pauses between songs, and that there be no applause.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler’s performance instruction, C. F. Kahnt full score (1905), p. 3, footnote; our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -131,8 +131,8 @@ export default {
     {
       "t": 335,
       "kind": "music",
-      "title": "A cello melody from the Third",
-      "text": "In the last five bars a cello melody alludes to the first theme of the Third Symphony’s finale, a movement titled “What love tells me”. The musicologist Andreas Dorschel hears in it the cycle’s last word: “that death is powerful, yet love is even stronger.”",
+      "title": "Cello allusion to the Third Symphony",
+      "text": "In the last five bars (bars 129–133) a cello melody alludes to the first theme of the Third Symphony’s finale, a movement titled “What love tells me”. The musicologist Andreas Dorschel took the allusion to state the cycle’s conclusion, “that death is powerful, yet love is even stronger.”",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Andreas Dorschel, “Trost für die Untröstlichen. Mahlers Kindertotenlieder und Bergs Violinkonzert”, Musikfreunde 25 (2012/13), no. 5, pp. 34–37 (article not opened; the allusion, mm. 129–133 of song 5, and the quoted sentence as given on the Mahler Foundation’s introduction): https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/ Kahnt full score, p. 86: the cellos’ pp morendo phrase in the last bars: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -142,11 +142,11 @@ export default {
     {
       "id": "storm-withdrawal",
       "title": "The piccolo holds above the bell",
-      "from": "A · Wind and the parent’s protest",
-      "to": "Link · The piccolo’s held note",
+      "from": "A · Short wind phrases over cellos",
+      "to": "Link · Piccolo’s held note",
       "at": { "t": 165 },
       "span": [155, 177],
-      "how": "<p>A held piccolo note stands above the small bell’s repeated taps. Harp chords and low bassoon notes remain below. The strings fall in diminishing waves under <i>Allmählich langsamer</i> — gradually slower — until the storm leaves room for the lullaby.</p>",
+      "how": "<p>The piccolo holds a note, written D, above repeated taps on the small bell. Harp chords and low bassoon notes continue below. Under <i>Allmählich langsamer</i> (gradually slower), the strings play falling figures that grow smaller with each wave, and the lullaby follows. The passage comes at rehearsal 8 of the Kahnt full score, pp. 78–79.</p>",
       "devices": ["decrescendo", "tempo change", "texture change", "link passage"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -154,12 +154,12 @@ export default {
     },
     {
       "id": "lullaby",
-      "title": "The celesta takes up the cradle",
-      "from": "Link · The piccolo’s held note",
-      "to": "B · Celesta beneath the lullaby",
+      "title": "Celesta entry at the lullaby",
+      "from": "Link · Piccolo’s held note",
+      "to": "B · Lullaby with celesta beneath",
       "at": { "t": 185 },
       "span": [175, 197],
-      "how": "<p>The piccolo sustains across the change from minor to major. At <i>Langsam. Wie ein Wiegenlied</i>, the celesta joins the rocking strings, with the low strings resting beneath Anderson’s quiet return. The melody keeps the opening words about the weather.</p>",
+      "how": "<p>The piccolo holds across the change from D minor to D major. At <i>Langsam. Wie ein Wiegenlied</i>, the celesta joins the rocking strings, and the low strings rest beneath Anderson’s quiet return. The melody keeps the opening words about the weather.</p>",
       "devices": ["tempo change", "orchestration change", "texture change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -168,11 +168,11 @@ export default {
     {
       "id": "orchestral-postlude",
       "title": "Horns take over the lullaby",
-      "from": "B · Celesta beneath the lullaby",
-      "to": "Coda · The orchestra keeps watch",
+      "from": "B · Lullaby with celesta beneath",
+      "to": "Coda · bassoon and horns after the voice",
       "at": { "t": 275 },
       "span": [265, 287],
-      "how": "<p>Anderson’s last “Haus” ends while the violas continue rocking. Divided cellos sustain beneath them. Horn and bassoon begin soft phrases marked <i>weich</i>, carrying the major-key lullaby into the instrumental ending without a break.</p>",
+      "how": "<p>Anderson’s last “Haus” ends while the violas continue their rocking figure. Divided cellos sustain beneath them. Horn and bassoon enter with soft phrases marked <i>weich</i> and carry the major-key lullaby into the instrumental ending without a break.</p>",
       "devices": ["texture change", "orchestration change", "decrescendo"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -251,7 +251,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Anderson’s protests cut across the short wind phrases and restless strings."
+        "note": "Anderson’s line cuts across the short wind phrases and the moving string figures."
       },
       {
         "t": 165,
@@ -317,7 +317,7 @@ export default {
           "horns",
           "clarinets"
         ],
-        "note": "The celesta descends while winds and strings settle into the final chord."
+        "note": "The celesta descends while winds and strings hold the final chord."
       }
     ]
   }

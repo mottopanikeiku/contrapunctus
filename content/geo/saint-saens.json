@@ -63,7 +63,7 @@
       "from": "1861-03",
       "to": "1865-03",
       "kind": "worked",
-      "what": "Piano professor at the École Niedermeyer; Fauré was among his pupils. Coordinates mark the town or site centre, not a building.",
+      "what": "Piano professor at the École Niedermeyer; Fauré was among his pupils. Coordinates mark the centre of the town or site and do not identify a particular building.",
       "status": "documented",
       "sources": [
         {
@@ -79,7 +79,7 @@
       "lon": 2.3522,
       "from": "1871-02-25",
       "kind": "worked",
-      "what": "Founded the Société nationale de musique with Romain Bussine; motto Ars Gallica. Coordinates mark the town or site centre, not a building.",
+      "what": "Founded the Société nationale de musique with Romain Bussine; motto Ars Gallica. Coordinates mark the centre of the town or site and do not identify a particular building.",
       "status": "documented",
       "sources": [
         {
@@ -96,7 +96,7 @@
       "from": "1871-03",
       "to": "1871-05",
       "kind": "exile",
-      "what": "Left Paris when the Commune was proclaimed, in danger as a former national guardsman and the Madeleine’s organist, and stayed until the end of May; gave concerts and wrote songs. Coordinates mark the town or site centre, not a building.",
+      "what": "Left Paris when the Commune was proclaimed, in danger as a former national guardsman and the Madeleine’s organist, and stayed away until the end of May; gave concerts and wrote songs. Coordinates mark the centre of the town or site and do not identify a particular building.",
       "status": "documented",
       "sources": [
         {
@@ -145,7 +145,7 @@
       "lon": 11.3235,
       "from": "1877-12-02",
       "kind": "premiere",
-      "what": "Samson et Dalila first performed at the Grand-Ducal Theatre, in German, under Eduard Lassen, as Liszt had promised. Coordinates mark the town or site centre, not a building.",
+      "what": "Samson et Dalila was first performed at the Grand-Ducal Theatre, in German, under Eduard Lassen, as Liszt had promised. Coordinates mark the centre of the town or site, not a building.",
       "status": "documented",
       "sources": [
         {
@@ -193,7 +193,7 @@
       "lon": 15.7954,
       "from": "1886-02",
       "kind": "worked",
-      "what": "Withdrew here after the Berlin concert was disrupted and wrote Le Carnaval des animaux. Coordinates mark the town or site centre, not a building.",
+      "what": "Withdrew here after the Berlin concert was disrupted and wrote Le Carnaval des animaux. Coordinates mark the centre of the town or site and do not identify a particular building.",
       "status": "documented",
       "sources": [
         {
@@ -243,7 +243,7 @@
       "from": "1896-02",
       "to": "1896-03",
       "kind": "travelled",
-      "what": "Visited Luxor and Karnak with the painter Georges Clairin; finished his Second Violin Sonata here in mid-March. Coordinates mark the town or site centre, not a building.",
+      "what": "Visited Luxor and Karnak with the painter Georges Clairin; finished his Second Violin Sonata here in mid-March. Coordinates mark the centre of the town or site, not a particular building.",
       "status": "documented",
       "sources": [
         {
@@ -264,7 +264,7 @@
       "from": "1896-03-22",
       "to": "1896-04-15",
       "kind": "worked",
-      "what": "Wrote the Piano Concerto No. 5 in about three weeks. Coordinates mark the town or site centre, not a building.",
+      "what": "Wrote the Piano Concerto No. 5 in about three weeks. Coordinates mark the centre of the town or site and do not identify a particular building.",
       "status": "documented",
       "sources": [
         {
@@ -281,7 +281,7 @@
       "from": "1915-05-23",
       "to": "1915-07-09",
       "kind": "travelled",
-      "what": "Represented French artists at the Panama–Pacific Exposition; gave recitals and conducted three concerts of his works. Coordinates mark the town or site centre, not a building.",
+      "what": "Represented French artists at the Panama–Pacific Exposition; gave recitals and conducted three concerts of his works. Coordinates mark the town or site centre; they do not mark a specific building.",
       "status": "documented",
       "sources": [
         {
@@ -330,7 +330,7 @@
       "lon": 2.3258,
       "from": "1921-12-24",
       "kind": "buried",
-      "what": "Buried in the chapel he had built for his children, after a national funeral at La Madeleine. Coordinates mark the town or site centre, not a building.",
+      "what": "Buried in the chapel he had built for his children, after a national funeral at La Madeleine. Coordinates mark the centre of the town or site and do not identify a particular building.",
       "status": "documented",
       "sources": [
         {

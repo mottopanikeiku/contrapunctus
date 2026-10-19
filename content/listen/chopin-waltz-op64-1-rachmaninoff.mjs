@@ -1,27 +1,27 @@
 export default {
-  "intro": "Rachmaninoff records Chopin’s <i>Minute Waltz</i> for Victor in 1923, bringing one composer-pianist’s hands to another’s quicksilver writing. A long melody and an unaccompanied trill interrupt the famous circling notes.",
+  "intro": "Rachmaninoff recorded Chopin’s <i>Minute Waltz</i> for Victor in 1923, one composer-pianist playing the music of another. A long melody and an unaccompanied trill interrupt the famous circling notes.",
   "sections": [
-    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "The left hand waits before joining the dance" },
-    { "t": 36, "label": "B · The singing middle", "m": "B", "mNote": "Sostenuto: longer notes above the waltz accompaniment" },
-    { "t": 72, "label": "A′ · The running notes return", "m": "A′", "mNote": "The circling figure returns, then the bass joins" },
-    { "t": 110, "label": "Coda · D♭ major closes the dance", "m": "Coda", "mNote": "The final scale ends in a firm chord" }
+    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "The left hand enters after the opening right-hand figure" },
+    { "t": 36, "label": "B · Sostenuto middle section", "m": "B", "mNote": "Sostenuto: longer notes above the waltz accompaniment." },
+    { "t": 72, "label": "A′ · Return of the running figure", "m": "A′", "mNote": "The circling figure returns, then the bass enters." },
+    { "t": 110, "label": "Coda · D♭ major", "m": "Coda", "mNote": "A final scale leads to a closing chord." }
   ],
   "cues": [
     {
-      "bar": { "n": "1", "occ": 1 }, "kind": "music", "title": "One hand starts the dance",
-      "text": "Only the right hand plays at first: a quick loop around A♭, marked <i>leggiero</i>. When the bass enters, its single low note and two answering chords make the three beats plain. The melody keeps running across them.",
+      "bar": { "n": "1", "occ": 1 }, "kind": "music", "title": "Opening, right hand alone",
+      "text": "At first only the right hand plays, a quick figure circling A♭, marked <i>leggiero</i>. The bass then enters with a single low note followed by two chords, marking the three beats of the bar. The melody continues in running notes over this accompaniment.",
       "basis": "score-aligned", "precision": "passage",
       "evidence": "Peters edition, bars 1–8. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
     },
     {
-      "t": 36, "kind": "world", "title": "Victor, April 1923",
-      "text": "On 5 April 1923 Rachmaninoff records this waltz for Victor. The day’s sessions also include his playing of a piano arrangement of Strauss’s <i>The Blue Danube</i>. The composer of vast concertos is at work on music for a single record side.",
+      "t": 36, "kind": "world", "title": "Victor recording, April 1923",
+      "text": "On 5 April 1923 Rachmaninoff recorded this waltz for Victor. The same day’s sessions included his recording of a piano arrangement of Strauss’s <i>The Blue Danube</i>.",
       "basis": "documented", "precision": "passage",
       "evidence": "Discography of American Historical Recordings, sessions for 5 April 1923; Chopin matrix B-24192 and Strauss C-27732. https://adp.library.ucsb.edu/index.php/date/browse/1923-04-05"
     },
     {
-      "bar": { "n": "69", "occ": 1 }, "kind": "music", "title": "A trill without a bass",
-      "text": "The accompaniment stops. A long trill occupies the right hand alone, hanging over the gap before the circling quavers resume. For a few bars, Chopin removes the waltz’s feet from the floor.",
+      "bar": { "n": "69", "occ": 1 }, "kind": "music", "title": "Unaccompanied trill, bars 69–77",
+      "text": "The accompaniment stops. The right hand plays a long trill alone while the left hand rests. The running quaver figure then returns, still without accompaniment.",
       "basis": "score-aligned", "precision": "passage",
       "evidence": "Peters edition, bars 69–77: trill above a resting left hand, followed by the unaccompanied running figure. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
     }

@@ -1,0 +1,54 @@
+{
+  "composer": "borodin",
+  "items": [
+    {
+      "work": "String Quartet No. 2 in D major; Piano Quintet in C minor",
+      "year": "2017",
+      "performers": "Goldner String Quartet; Piers Lane, piano",
+      "recorded": "April 2016, Potton Hall, Dunwich, Suffolk",
+      "label": "Hyperion, CDA68166",
+      "note": "The Second Quartet runs 27:51 on Hyperion’s disc, which also holds the Piano Quintet and a Cello Sonata in B minor. The label’s 3:01 trailer carries extracts from the quartet’s Scherzo and from the quintet and the sonata.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68166",
+          "title": "Hyperion Records: Borodin, Piano Quintet and String Quartet No 2 (CDA68166)"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZYZl14V-3zI",
+          "title": "Hyperion Records, trailer for CDA68166"
+        }
+      ]
+    },
+    {
+      "work": "Symphony No. 2 in B minor; Petite Suite (orchestrated Glazunov); Polovtsian Dances, orchestral version",
+      "year": "1995",
+      "performers": "Royal Stockholm Philharmonic Orchestra; Gennady Rozhdestvensky",
+      "recorded": "30–31 March 1993 and 18 March 1994, Concert Hall, Stockholm",
+      "label": "Chandos, CHAN 9386",
+      "note": "Chandos lists the Second Symphony at 29:43 and the Petite Suite at 29:55. The Polovtsian Dances run to 15:07 in eight numbers, from a Presto at the start to an Allegro con spirito at the end.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.chandos.net/products/catalogue/CHAN%209386",
+          "title": "Chandos Records: Borodin, Symphony No. 2 (CHAN 9386)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hyperion Records: CDA68166, recording details (April 2016, Potton Hall) and release date (March 2017)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68166"
+    },
+    {
+      "title": "Hyperion Records on YouTube: trailer for CDA68166, 3:01, with the list of featured extracts (checked through oEmbed: uploader Hyperion Records)",
+      "url": "https://www.youtube.com/watch?v=ZYZl14V-3zI"
+    },
+    {
+      "title": "Chandos Records: CHAN 9386, track listing, timings and recording dates",
+      "url": "https://www.chandos.net/products/catalogue/CHAN%209386"
+    }
+  ]
+}

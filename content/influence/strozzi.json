@@ -1,0 +1,115 @@
+{
+  "batch": "strozzi",
+  "edges": [
+    {
+      "id": "cavalli--strozzi-teacher-1651",
+      "from": "cavalli",
+      "to": "strozzi",
+      "kind": "taught",
+      "year": 1651,
+      "title": "Opus 2 and Cavalli as her teacher",
+      "works": {
+        "from": "Cavalli’s teaching of Barbara Strozzi, from her childhood",
+        "to": "Cantate, ariette e duetti, Op. 2 (Venice, Gardano, 1651), dedication"
+      },
+      "claim": "<p>In the dedication of her second book, dated Venice, 1 June 1651, Barbara Strozzi wrote that she had been encouraged by many professors of the art, “particularly by Signor Francesco Cavalli, one of the most celebrated of this century, my courteous teacher since my childhood”. Ruffini describes Cavalli as one of the most eminent figures of seventeenth-century Venetian music and names him as her music teacher.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Beth L. Glixon, “Strozzi, Barbara”, Dizionario Biografico degli Italiani 94 (2019)",
+          "url": "https://www.treccani.it/enciclopedia/barbara-strozzi_(Dizionario-Biografico)/",
+          "locator": "paragraph on Op. 2: the dedication to Ferdinand III quoted in Italian (“già dalla mia fanciullezza mio cortese precettore”)"
+        },
+        {
+          "title": "Mario Ruffini, “Barbara Strozzi nel Novecento” (Centro Studi Luigi Dallapiccola, 2005)",
+          "url": "https://www.centrostudidallapiccola.it/wp-content/uploads/2020/04/2005_Barbara-Strozzi_STAMPA.pdf",
+          "locator": "pp. 221–224: her musical education with Cavalli; the dedication of Op. 2, dated Venetia il 1 di Giugno 1651"
+        }
+      ]
+    },
+    {
+      "id": "giulio-strozzi--strozzi-madrigali-1644",
+      "from": "giulio-strozzi",
+      "to": "strozzi",
+      "kind": "set-text",
+      "year": 1644,
+      "title": "Giulio Strozzi, author of all Opus 1 texts",
+      "works": {
+        "from": "Verses by Giulio Strozzi for his adopted daughter’s first book",
+        "to": "Il primo libro de’ madrigali, Op. 1 (Venice, Alessandro Vincenti, 1644)"
+      },
+      "claim": "<p>Giulio Strozzi, the poet and librettist who adopted Barbara, wrote the words of every madrigal in her first book, printed in 1644 for two to five voices. In her dedication to Vittoria della Rovere she called the lyric verses “all trifles of him who from my girlhood has given me his surname and a comfortable living”. In the second book, of 1651, only two of the texts are his.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Beth L. Glixon, “Strozzi, Barbara”, Dizionario Biografico degli Italiani 94 (2019)",
+          "url": "https://www.treccani.it/enciclopedia/barbara-strozzi_(Dizionario-Biografico)/",
+          "locator": "paragraph on Op. 1: “I testi dei madrigali furono tutti del genitore”; modern edition of the poems by A. Aurigi (Florence, 1999)"
+        },
+        {
+          "title": "Mario Ruffini, “Barbara Strozzi nel Novecento” (Centro Studi Luigi Dallapiccola, 2005)",
+          "url": "https://www.centrostudidallapiccola.it/wp-content/uploads/2020/04/2005_Barbara-Strozzi_STAMPA.pdf",
+          "locator": "pp. 223–224: the dedication of Op. 1 quoted in Italian (“colui che fin da fanciulletta mi ha dato il cognome e il buon essere”); two of twenty-six texts of Op. 2 are Giulio’s"
+        }
+      ]
+    },
+    {
+      "id": "monteverdi--strozzi-quis-dabit-mihi-1656",
+      "from": "monteverdi",
+      "to": "strozzi",
+      "kind": "modelled",
+      "year": 1656,
+      "title": "Quis dabit mihi and a scene from Ulisse",
+      "works": {
+        "from": "A scene from Il ritorno d’Ulisse in patria",
+        "to": "Quis dabit mihi, motet for alto, tenor and bass, in Sacra corona (Venice, 1656)"
+      },
+      "claim": "<p>Glixon reported that Strozzi’s motet <i>Quis dabit mihi</i>, the first three-voice motet in Bartolomeo Marcesso’s anthology <i>Sacra corona</i>, is close to a paraphrase of a scene from Monteverdi’s <i>Il ritorno d’Ulisse in patria</i>, as R. L. Kendrick argued in 2002–03. If so, Strozzi knew Monteverdi’s music in manuscript. She knew Monteverdi, whose own circle included her father Giulio. She never declared herself his pupil.</p>",
+      "status": "inferred",
+      "note": "The comparison is Kendrick’s, reported through Glixon’s encyclopaedia entry; Kendrick’s article (Recercare 14, 2002) was not consulted. Kendrick’s claim concerns a resemblance, and no document states that Strozzi used a particular Monteverdi score.",
+      "sources": [
+        {
+          "title": "Beth L. Glixon, “Strozzi, Barbara”, Dizionario Biografico degli Italiani 94 (2019)",
+          "url": "https://www.treccani.it/enciclopedia/barbara-strozzi_(Dizionario-Biografico)/",
+          "locator": "paragraph on Op. 1: the motet Quis dabit mihi “che suona quasi come la parafrasi d’una scena del Ritorno d’Ulisse in patria (Kendrick, 2002-2003)”; Monteverdi and Giulio Strozzi in contact since 1621"
+        },
+        {
+          "title": "Susan Clermont, “Barbara Strozzi at 400”, In The Muse (Library of Congress, 2019)",
+          "url": "https://blogs.loc.gov/music/2019/09/barbara-strozzi-at-400/",
+          "locator": "Quis dabit mihi for alto, tenor and bass as the first three-voiced motet in Sacra corona (1656)"
+        }
+      ]
+    },
+    {
+      "id": "strozzi--dallapiccola-amor-dormiglione-1940",
+      "from": "strozzi",
+      "to": "dallapiccola",
+      "kind": "copied",
+      "year": 1940,
+      "title": "Dallapiccola’s orchestration of Amor dormiglione, 1940",
+      "works": {
+        "from": "Amor dormiglione, Cantate, ariette e duetti, Op. 2 (Venice, 1651)",
+        "to": "Orchestration for soprano and chamber orchestra, Palazzo Strozzi, Florence, 4 May 1940 (score lost)"
+      },
+      "claim": "<p>On 4 May 1940 the sixth Maggio Musicale Fiorentino gave a concert of Medici-era music in the Palazzo Strozzi, Florence, conducted by Luigi Colonna. Luigi Dallapiccola prepared an orchestration of Strozzi’s canzonetta <i>Amor dormiglione</i> for soprano, two flutes, oboe, clarinet, bassoon, horn, trumpet, harpsichord and strings. <i>La Nazione</i> reported that it was “orchestrated by Dallapiccola with a certain freedom rich in harmonic fantasy”. His score is lost; Mario Ruffini found the programme and the orchestral parts in 2004 and reconstructed the score from them.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Mario Ruffini, “Barbara Strozzi nel Novecento” (Centro Studi Luigi Dallapiccola, 2005)",
+          "url": "https://www.centrostudidallapiccola.it/wp-content/uploads/2020/04/2005_Barbara-Strozzi_STAMPA.pdf",
+          "locator": "pp. 217–219 and the catalogue entry on p. 227: programme of 4 May 1940, orchestral forces, the review in La Nazione of 5–6 May 1940, p. 3, and the lost score"
+        },
+        {
+          "title": "Antolini, “Dallapiccola, Luigi”, Dizionario Biografico degli Italiani 32 (1986)",
+          "url": "https://www.treccani.it/enciclopedia/luigi-dallapiccola_(Dizionario-Biografico)/",
+          "locator": "birth at Pisino d’Istria, 3 February 1904; death in Florence, 19 February 1975"
+        }
+      ]
+    }
+  ],
+  "figures": [
+    { "id": "cavalli", "name": "Francesco Cavalli", "dates": "1602–1676", "year": 1602, "kind": "composer" },
+    { "id": "giulio-strozzi", "name": "Giulio Strozzi", "dates": "1583–1652", "year": 1583, "kind": "poet" },
+    { "id": "dallapiccola", "name": "Luigi Dallapiccola", "dates": "1904–1975", "year": 1904, "kind": "composer" }
+  ]
+}

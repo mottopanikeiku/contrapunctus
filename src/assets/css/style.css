@@ -77,12 +77,12 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .sc { font-family: var(--caps); letter-spacing: .12em; font-weight: 600; }
 .glyph { font-family: var(--glyph); font-style: normal; line-height: 1; }
 .num { font-feature-settings: 'lnum', 'tnum'; }
+/* A running head, as in a printed book: small caps in the margin colour, no ornament. */
 .kicker {
-  display: inline-flex; align-items: center; gap: .7em;
-  font: 600 .82rem/1 var(--caps); letter-spacing: .2em; text-transform: lowercase; font-variant: small-caps;
-  color: var(--accent);
+  display: inline-block;
+  font: 600 .8rem/1.2 var(--caps); letter-spacing: .14em; text-transform: lowercase; font-variant: small-caps;
+  color: var(--muted);
 }
-.kicker::before { content: ''; width: 2.2em; height: 1px; background: currentColor; opacity: .7; }
 
 .wrap { width: min(100% - 2 * var(--gutter), 78rem); margin-inline: auto; }
 .wrap-narrow { width: min(100% - 2 * var(--gutter), 52rem); margin-inline: auto; }
@@ -223,7 +223,7 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .frame > .canvas { position: relative; display: block; overflow: hidden; background: #2a2218; }
 .frame > .canvas::after { content: ''; position: absolute; inset: 0; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .5), inset 0 3px 12px rgba(0, 0, 0, .45); pointer-events: none; }
 .frame img { display: block; width: 100%; height: auto; transition: transform 1.2s var(--ease); }
-.frame:hover img { transform: scale(1.015); }
+.frame:hover img { transform: none; }
 /* black lacquer frame for modern works, white mat for works on paper */
 .frame.lacquer { background: linear-gradient(135deg, #0d0c0b, #2b2825 40%, #0f0e0d); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .08), 0 28px 50px -22px rgba(20, 15, 10, .7), 0 14px 24px -14px rgba(20, 15, 10, .5); }
 .frame.lacquer::before { border-color: rgba(255, 255, 255, .08); box-shadow: none; }
@@ -262,7 +262,7 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .card .pic { aspect-ratio: 4 / 5; overflow: hidden; background: var(--paper-3); position: relative; box-shadow: 0 0 0 1px var(--rule), 0 18px 30px -22px rgba(30, 20, 10, .55); }
 .card .pic::after { content: ''; position: absolute; inset: 8px; border: 1px solid rgba(255, 245, 225, .45); pointer-events: none; }
 .card img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) sepia(.28) contrast(1.04); transition: filter .7s var(--ease), transform 1.2s var(--ease); }
-.card:hover img { filter: none; transform: scale(1.035); }
+.card:hover img { filter: none; }
 .card h4 { font-size: 1.5rem; line-height: 1.1; }
 .card .dates { font: 600 .76rem var(--caps); letter-spacing: .18em; color: var(--muted); }
 .card .epithet { font-size: .98rem; line-height: 1.35; color: var(--ink-2); font-style: italic; }
@@ -277,7 +277,7 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 .c-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; background: radial-gradient(ellipse at 75% 30%, color-mix(in oklab, var(--accent) 45%, transparent), transparent 60%), radial-gradient(ellipse at 0% 100%, rgba(0, 0, 0, .6), transparent 60%); opacity: .8; }
 .c-hero .wrap { display: grid; grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); gap: clamp(2rem, 6vw, 6rem); align-items: end; padding: 8.5rem 0 4.5rem; }
 .c-hero .portrait { margin: 0; }
-.c-hero .portrait .frame img { filter: sepia(.15); }
+.c-hero .portrait .frame img { filter: sepia(.15); max-height: min(38rem, 62vh); object-fit: cover; object-position: 50% 20%; }
 .c-hero .portrait figcaption { margin-top: .8rem; font-size: .85rem; color: var(--night-muted); }
 .c-hero h1 { font: 400 clamp(3.2rem, 8vw, 7rem)/.88 var(--display); letter-spacing: -.02em; margin: 1rem 0 1.2rem; }
 .c-hero h1 .given { display: block; font-style: italic; font-size: .5em; letter-spacing: 0; color: var(--gold-hi); margin-bottom: .1em; }
@@ -518,15 +518,14 @@ dialog.lightbox button { position: fixed; top: 1rem; right: 1.4rem; background: 
 .series text { font-family: var(--text); }
 .series .h:focus:not(:focus-visible) { outline: none; }
 
-/* links from composer pages into the Listening Room */
-.listen-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; align-items: center; }
-.listen-links .sc { width: 100%; font-size: .74rem; color: var(--gold-hi); letter-spacing: .2em; }
-.listen-links a { display: inline-flex; align-items: center; gap: .6rem; padding: .45rem 1rem .45rem .6rem; border: 1px solid rgba(230, 203, 133, .45); border-radius: 999px; text-decoration: none; font: italic 500 1.05rem var(--display); color: var(--night-ink); }
-.listen-links a small { font: 600 .68rem var(--caps); letter-spacing: .12em; font-style: normal; color: var(--night-muted); }
-.listen-links .elsewhere-link { border-style: dashed; }
-.listen-links a:hover { background: rgba(230, 203, 133, .12); color: var(--gold-hi); }
-.play-dot { width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--gold-hi); position: relative; flex: none; }
-.play-dot::after { content: ''; position: absolute; left: 55%; top: 50%; translate: -50% -50%; border-left: .45rem solid #13110e; border-top: .28rem solid transparent; border-bottom: .28rem solid transparent; }
+/* links from composer pages into the Concert Hall: a short list of works, set as text */
+.listen-links { display: flex; flex-wrap: wrap; column-gap: 1.6rem; row-gap: .35rem; margin-top: 1.6rem; align-items: baseline; max-width: 46rem; }
+.listen-links .sc { width: 100%; margin-bottom: .2rem; font-size: .74rem; color: var(--gold-hi); letter-spacing: .2em; }
+.listen-links a { display: inline-flex; align-items: baseline; gap: .45rem; text-decoration: none; font: italic 500 1.12rem var(--display); color: var(--night-ink); border-bottom: 1px solid rgba(230, 203, 133, .35); padding-bottom: .05rem; }
+.listen-links a small { font: 500 .9rem var(--display); font-style: normal; font-feature-settings: 'lnum'; color: var(--night-muted); }
+.listen-links .elsewhere-link { border-bottom-style: dotted; font-style: normal; font-size: 1rem; }
+.listen-links a:hover { color: var(--gold-hi); border-bottom-color: var(--gold-hi); }
+.play-dot { display: none; }
 
 /* ---------- Textbook apparatus: paper chapters, gilded night doorways ---------- */
 [hidden] { display: none !important; }
@@ -584,16 +583,18 @@ details.citation { padding: 1.6rem 0; }
 .ew-note { margin-top: 1.6rem; font-size: .95rem; color: var(--muted); font-style: italic; max-width: 50rem; }
 .era-elsewhere > section { margin-bottom: 2.8rem; }
 .era-elsewhere h3 { margin-bottom: 1rem; }
-/* home: evenings in the Hall */
+/* home: evenings in the Hall, set like the running order of a printed concert programme */
 .programmes-band { padding-block: clamp(3.5rem, 6vw, 6rem); }
-.programme-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: 1.6rem; }
-.programme-card { display: flex; flex-direction: column; gap: .5rem; padding: 1.7rem 1.6rem 1.4rem; border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); background: radial-gradient(ellipse at 50% 0, rgba(201, 166, 90, .12), transparent 70%), var(--night-2); text-decoration: none; color: var(--night-ink); transition: border-color .3s, transform .3s; }
-.programme-card:hover { border-color: var(--gold-hi); transform: translateY(-2px); }
-.programme-card h3 { font: italic 400 clamp(1.7rem, 2.4vw, 2.2rem)/1.1 var(--display); color: var(--gold-hi); margin: .2rem 0 0; }
-.programme-card .pc-meta, .programme-card .pc-go { font: 600 .72rem var(--caps); letter-spacing: .16em; color: var(--night-muted); }
-.programme-card .pc-sub { font: italic 400 1.1rem/1.35 var(--display); margin: 0; color: var(--night-ink); }
-.programme-card p { margin: 0; font-size: 1rem; line-height: 1.5; color: #cfc4b0; }
-.programme-card .pc-go { margin-top: auto; padding-top: .9rem; color: var(--gold-hi); }
+.programme-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2rem, 5vw, 5rem); border-top: 1px solid var(--gold); }
+.programme-card { display: grid; grid-template-columns: auto minmax(1.5rem, 1fr) auto; grid-template-areas: 'title leader meta' 'sub sub sub' 'note note note'; column-gap: .7rem; align-items: baseline; padding: 1.25rem 0 1.4rem; border-bottom: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); text-decoration: none; color: var(--night-ink); }
+.programme-card::before { content: ''; grid-area: leader; align-self: end; margin-bottom: .45em; border-bottom: 1px dotted color-mix(in srgb, var(--gold) 60%, transparent); }
+.programme-card h3 { grid-area: title; font: italic 400 clamp(1.5rem, 2vw, 1.9rem)/1.1 var(--display); color: var(--gold-hi); margin: 0; }
+.programme-card .pc-meta { grid-area: meta; font: 500 1rem var(--display); font-feature-settings: 'lnum'; color: var(--night-muted); white-space: nowrap; }
+.programme-card .pc-sub { grid-area: sub; font: italic 400 1.08rem/1.35 var(--display); margin: .35rem 0 0; color: var(--night-ink); }
+.programme-card p:not(.pc-sub) { grid-area: note; margin: .45rem 0 0; font-size: .98rem; line-height: 1.5; color: #cfc4b0; max-width: 36rem; }
+.programme-card .pc-go { display: none; }
+.programme-card:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .18em; }
+@media (max-width: 760px) { .programme-cards { grid-template-columns: 1fr; } }
 /* every work: chips filter by forces without script */
 .wi-filter { border: 0; padding: 0; margin: 0 0 2.6rem; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
 .wi-filter legend { float: left; margin-right: .6rem; font: 600 .78rem var(--caps); letter-spacing: .18em; color: var(--muted); }

@@ -19,39 +19,39 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, II (Anderson, Monteux, 1950).ogg"
   },
-  "intro": "Marian Anderson takes the parent’s part in this song about the last looks of dying children, with Pierre Monteux and the San Francisco Symphony. A rising cello phrase becomes the voice’s first attempt to make sense of those eyes.",
+  "intro": "Marian Anderson sings the parent’s part in this song about the last looks of dying children, with Pierre Monteux and the San Francisco Symphony. The voice’s first phrase takes up a rising phrase from the cellos.",
   "sections": [
     {
       "t": 0,
-      "label": "A · A cello phrase becomes speech",
+      "label": "A · Opening cello phrase; contralto entry",
       "m": "A",
-      "mNote": "The contralto takes up the opening ascent"
+      "mNote": "The contralto takes up the opening ascent."
     },
     {
       "t": 116,
-      "label": "B · The children’s wish, in D major",
+      "label": "B · The children’s wish, D major",
       "m": "B",
-      "mNote": "Harp arpeggios and a vocal line marked warm"
+      "mNote": "Harp arpeggios; the vocal line is marked warm."
     },
     {
       "t": 146,
-      "label": "A′ · The eyes grow distant",
+      "label": "A′ · Returning phrases, flute and low strings",
       "m": "A′",
-      "mNote": "Flute and low strings surround the returning phrases"
+      "mNote": "Flute and low strings surround the returning phrases."
     },
     {
       "t": 222,
-      "label": "Coda · C minor after the stars",
+      "label": "Coda · C minor, rising harp, sustaining winds",
       "m": "Coda",
-      "mNote": "A rising harp figure leaves the winds sustaining"
+      "mNote": "A rising harp figure; the winds sustain after it."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Cellos before the contralto",
-      "text": "The cellos’ upward phrase begins quietly and gathers winds and plucked strings around it. Anderson’s opening words inherit that climb. Mahler writes “Ruhig, nicht schleppend” — calm, without dragging.",
+      "title": "Opening cello phrase",
+      "text": "The cellos play a rising phrase, and winds and plucked strings join it. Anderson’s opening words take up the same rising line. Mahler marks the song “Ruhig, nicht schleppend” — calm, without dragging.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, p. 18; our translation of Mahler’s marking. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -59,8 +59,8 @@ export default {
     {
       "t": 34,
       "kind": "world",
-      "title": "A look understood too late",
-      "text": "“Doch ahnt’ ich nicht” — yet I did not suspect. Rückert’s parent remembers a brightness in the children’s eyes that now seems like a farewell. The poem is a sonnet, its fourteen lines ending far from the room, among the stars.",
+      "title": "Rückert’s text, a sonnet",
+      "text": "“Doch ahnt’ ich nicht” — yet I did not suspect. In Rückert’s poem the parent recalls a brightness in the children’s eyes and now reads it as a farewell. The poem is a sonnet of fourteen lines, and its last lines turn to the stars.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rückert, Nun seh’ ich wohl, German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text; our translation. The sonnet form is discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
@@ -68,8 +68,8 @@ export default {
     {
       "t": 80,
       "kind": "life",
-      "title": "A publisher at the hotel door",
-      "text": "Leipzig, 28 November 1904. Mahler has come to conduct his Third Symphony when the owner of C. F. Kahnt calls on him. He writes to Alma at once of a publisher “eager to acquire my new Lieder and Ballads”. Kahnt prints the cycle the following year.",
+      "title": "Visit from C. F. Kahnt, Leipzig, 1904",
+      "text": "On 28 November 1904 Mahler was in Leipzig to conduct his Third Symphony when the owner of C. F. Kahnt called on him. He wrote to Alma at once of a publisher “eager to acquire my new Lieder and Ballads”. Kahnt printed the cycle the following year.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler to Alma, written immediately after the Kahnt visit of 28 November 1904, in Letters to His Wife, trans. Anthony Beaumont (Faber, 2004), p. 192, quoted in the Mahler catalogue chronology (which also dates Kahnt’s first editions to August 1905): https://www.mahlercat.org.uk/Pages/KtL/KtL.htm"
@@ -77,8 +77,8 @@ export default {
     {
       "t": 116,
       "kind": "form",
-      "title": "A wish to stay",
-      "text": "Anderson now gives the children their imagined reply: they want to remain close. The harp opens into broad D-major arpeggios, with soft winds above. Mahler’s direction for the voice is simply “warm”.",
+      "title": "Third stanza, rehearsal 3",
+      "text": "At rehearsal 3 Anderson sings the children’s imagined reply, that they want to remain close. The harp plays broad D-major arpeggios, with soft winds above. Mahler marks the voice “warm”.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 26–27, rehearsal 3; Rückert’s third stanza and the vocal marking warm."
@@ -86,8 +86,8 @@ export default {
     {
       "t": 146,
       "kind": "form",
-      "title": "The stars to come",
-      "text": "The reply ends with fate’s refusal. The flute carries a high, quiet line while viola and cello phrases move below Anderson’s voice. The last stanza turns the children’s eyes into stars shining on future nights.",
+      "title": "Final stanza, rehearsal 4",
+      "text": "The reply ends with fate’s refusal. The flute plays a high line, and below Anderson’s voice the viola and cello have phrases of their own. In Rückert’s last stanza, the children’s eyes become stars that will shine on future nights.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 28–31, rehearsal 4 onwards; Rückert’s concluding stanza. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
@@ -95,8 +95,8 @@ export default {
     {
       "t": 222,
       "kind": "music",
-      "title": "Winds after Anderson",
-      "text": "The harp rises after the contralto’s final phrase. Its chord takes an unexpected turn into C minor; flutes, clarinets and bassoon sustain while the strings fade. The score’s last instruction is “morendo” — dying away.",
+      "title": "Closing bars, harp and winds",
+      "text": "The harp rises after the contralto’s final phrase. Its chord turns to C minor, and flutes, clarinets and bassoon hold while the strings fade. The last instruction in the score is “morendo”, dying away.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 32; our translation of morendo. Woltjer discusses the final harmonic turn: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
@@ -106,11 +106,11 @@ export default {
     {
       "id": "central-appeal",
       "title": "D major beneath “Leuchten”",
-      "from": "A · A cello phrase becomes speech",
-      "to": "B · The children’s wish, in D major",
+      "from": "A · Opening cello phrase; contralto entry",
+      "to": "B · The children’s wish, D major",
       "at": { "t": 116 },
       "span": [106, 128],
-      "how": "<p>The voice holds back before “Leuchten” — shining. At <i>Tempo I</i>, the harp opens a D-major arpeggio above plucked D notes in cellos and basses. Flute, clarinet and bassoon sustain, and Anderson’s line broadens under the direction <i>warm</i>.</p>",
+      "how": "<p>The voice holds back before “Leuchten” (shining). At <i>Tempo I</i>, the harp plays a D-major arpeggio above plucked D notes in the cellos and basses. Flute, clarinet and bassoon sustain, and Anderson’s line broadens under the direction <i>warm</i>.</p>",
       "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -118,12 +118,12 @@ export default {
     },
     {
       "id": "returning-fragments",
-      "title": "The wish meets its refusal",
-      "from": "B · The children’s wish, in D major",
-      "to": "A′ · The eyes grow distant",
+      "title": "D major to G minor",
+      "from": "B · The children’s wish, D major",
+      "to": "A′ · Returning phrases, flute and low strings",
       "at": { "t": 146 },
       "span": [136, 158],
-      "how": "<p>D major darkens through A7 into G minor. The flute continues above the words about fate, with soft violas underneath. The cellos put bow to string after their plucked notes; horn and bassoon recall earlier phrases between the vocal sentences.</p>",
+      "how": "<p>The harmony moves from D major through A7 to G minor. The flute continues above the words about fate, with soft violas underneath. The cellos change from pizzicato to arco, and horn and bassoon repeat earlier phrases between the vocal sentences.</p>",
       "devices": ["motivic link", "orchestration change", "link passage"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -131,12 +131,12 @@ export default {
     },
     {
       "id": "postlude",
-      "title": "The harp turns towards C minor",
-      "from": "A′ · The eyes grow distant",
-      "to": "Coda · C minor after the stars",
+      "title": "Harp cadence moving to C minor",
+      "from": "A′ · Returning phrases, flute and low strings",
+      "to": "Coda · C minor, rising harp, sustaining winds",
       "at": { "t": 222 },
       "span": [212, 234],
-      "how": "<p>After the voice, a rising harp figure outlines an A♭ seventh chord over plucked low strings. The expected D♭ resolution turns into C minor. The strings fall away, leaving flutes, clarinets and bassoon to sustain the final chord under <i>morendo</i>.</p>",
+      "how": "<p>After the voice, the harp plays a rising figure that outlines an A♭ seventh chord over plucked low strings. This chord is the dominant seventh of D♭, but the harmony moves to C minor. The strings stop. Flutes, clarinets and bassoon hold the final chord, marked <i>morendo</i>.</p>",
       "devices": ["texture change", "decrescendo", "chromatic slide"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -234,7 +234,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Flute and violas sustain while bassoon and horn recall short phrases from the opening."
+        "note": "Flute and violas sustain while bassoon and horn repeat short phrases from the opening."
       },
       {
         "t": 222,

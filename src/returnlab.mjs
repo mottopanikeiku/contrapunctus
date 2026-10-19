@@ -126,14 +126,14 @@ export async function buildReturnLab({ out, layout, esc, attr, listens, bySlug, 
   <span class="kicker">${esc(c.kind)} · score comparison</span>
   <h1>${esc(c.title)}</h1><p class="rl-question">${esc(c.question)}</p>
   <p class="rl-intro">${esc(c.intro)}</p>
-  <a class="rl-recording" href="../hall.html#${attr(track.id)}">${cameo(track)}<span><b>${esc(track.work)}${track.movement ? ` · ${esc(track.movement)}` : ''}</b><small>${esc(track.performers)} · Full recording in the hall →</small></span></a>
+  <a class="rl-recording" href="../hall.html#${attr(track.id)}">${cameo(track)}<span><b>${esc(track.work)}${track.movement ? ` · ${esc(track.movement)}` : ''}</b><small>${esc(track.performers)} · Full recording in the Hall</small></span></a>
 </div></header>
 <div class="wrap rl-content">
 <section class="rl-comparison" aria-labelledby="rl-compare-title">
-  <div class="rl-section-title"><span class="kicker">Listen & compare</span><h2 id="rl-compare-title">Two passages, one bar grid</h2></div>
+  <div class="rl-section-title"><span class="kicker">Passages</span><h2 id="rl-compare-title">Passages A and B, bar by bar</h2></div>
   <div class="rl-actions">${sideButton('A')}${sideButton('B')}<button class="rl-play rl-both" type="button" data-rl-play="AB" disabled>${playIcon}<span><b>Play A, then B</b><small>One passage after the other</small></span></button><button class="rl-stop" type="button" data-rl-stop disabled>Stop passage</button></div>
   <p class="rl-status" data-rl-status role="status">Choose A, B or both; playback stops at the end of each passage.</p>
-  <noscript><p>Read the comparison below; playback and the note map need JavaScript.</p></noscript>
+  <noscript><p>Playback and the note map need JavaScript; the comparison below can be read without it.</p></noscript>
   <figure class="rl-map">
     <div class="rl-map-toolbar"><label>Show <select data-rl-window><option value="0">Whole passage</option><option value="32">32 columns</option><option value="16">16 columns</option></select></label><div class="rl-map-pages"><button type="button" data-rl-prev aria-label="Previous bars" disabled>←</button><span class="num" data-rl-range></span><button type="button" data-rl-next aria-label="Next bars" disabled>→</button></div></div>
     <div class="rl-canvas-frame"><canvas data-rl-canvas role="img" aria-label="Notes in passage A above notes in passage B, aligned by corresponding bar; pitch increases upwards." aria-describedby="rl-map-caption"></canvas></div>
@@ -143,19 +143,19 @@ export async function buildReturnLab({ out, layout, esc, attr, listens, bySlug, 
 </section>
 ${staff}
 <div class="rl-evidence">
-<section aria-labelledby="rl-score-title"><span class="kicker">In the score</span><h2 id="rl-score-title">What changes on the page</h2><p class="rl-section-note">Choose a written change to hear up to three bars from each passage.</p>
-  ${d.changes.length ? `<ol class="rl-changes">${d.changes.map((change, i) => `<li><button type="button" data-rl-change="${i}" disabled><span class="rl-change-bars num">${change.ia >= 0 ? `A · b. ${esc(d.pairs[change.ia].a.n)}` : 'A · no separate entry'}<br>${change.ib >= 0 ? `B · b. ${esc(d.pairs[change.ib].b.n)}` : 'B · no separate entry'}</span><span>${esc(change.text)}<small class="rl-hear">${playIcon} Hear the change</small></span></button></li>`).join('')}</ol>` : '<div class="rl-control"><b>The same notes, twice.</b><p>The repeat sign sends the orchestra back through the same notes and markings, so you can compare two performances of identical bars.</p></div>'}
-  <aside class="rl-listen-for"><span class="sc">Listen for</span><p>${esc(c.listenFor)}</p></aside>
+<section aria-labelledby="rl-score-title"><span class="kicker">In the score</span><h2 id="rl-score-title">Written changes</h2><p class="rl-section-note">Choose a written change to play up to three bars from each passage.</p>
+  ${d.changes.length ? `<ol class="rl-changes">${d.changes.map((change, i) => `<li><button type="button" data-rl-change="${i}" disabled><span class="rl-change-bars num">${change.ia >= 0 ? `A · b. ${esc(d.pairs[change.ia].a.n)}` : 'A · no separate entry'}<br>${change.ib >= 0 ? `B · b. ${esc(d.pairs[change.ib].b.n)}` : 'B · no separate entry'}</span><span>${esc(change.text)}<small class="rl-hear">${playIcon} Play the change</small></span></button></li>`).join('')}</ol>` : '<div class="rl-control"><b>No written changes</b><p>The repeat sign sends the players back through the same notes and markings; the two passages are identical in the score and can differ only in performance.</p></div>'}
+  <aside class="rl-listen-for"><span class="sc">In the passage</span><p>${esc(c.listenFor)}</p></aside>
 </section>
-<section aria-labelledby="rl-performance-title"><span class="kicker">In the recording</span><h2 id="rl-performance-title">How the return sounds</h2><p class="rl-section-note">The score, the players, their instruments and the recording all contribute to the differences you hear.</p>
+<section aria-labelledby="rl-performance-title"><span class="kicker">In the recording</span><h2 id="rl-performance-title">Timing and volume</h2><p class="rl-section-note">Differences between the two passages come from the score, the players, their instruments and the recording.</p>
   <p class="rl-measured">${esc(measured)}</p>
   <figure class="rl-tempo"><div class="rl-chart-toolbar"><label>Measure <select data-rl-metric><option value="d">Seconds per bar</option><option value="lvl">Volume</option></select></label><span class="rl-chart-key"><i class="rl-key-a"></i> A <i class="rl-key-b"></i> B</span></div><div data-rl-tempo></div><figcaption data-rl-chart-caption>A higher point means a longer bar, including any pauses or added notes. Gold is A; dashed blue is B. The chart shows the bars selected above.</figcaption></figure>
-  <details class="rl-method"><summary>How to read the charts</summary><p>Each bar is timed from its aligned start to the next bar. The final bar runs to the end of the recording, including the dying sound.</p><p>The volume chart averages the recording’s normalised amplitude samples, taken twice a second, within each bar. It shows changes within this recording.</p><p><b>Totals include matching bars only.</b> Columns with a hatched gap are left out.</p></details>
+  <details class="rl-method"><summary>Chart method</summary><p>Each bar is timed from its aligned start to the next bar. The final bar runs to the end of the recording, including the dying sound.</p><p>The volume chart averages the recording’s normalised amplitude samples, taken twice a second, within each bar. It shows changes within this recording.</p><p><b>Totals include matching bars only.</b> Columns with a hatched gap are left out.</p></details>
   <details class="rl-method rl-table-details"><summary>All bar measurements</summary><div class="rl-table-scroll" tabindex="0" role="region" aria-label="Bar measurements"><table><caption>Seconds and average amplitude; numbers in brackets identify repeats. A dash marks a bar with no counterpart.</caption><thead><tr><th scope="col">Column</th><th scope="col">A bar</th><th scope="col">A seconds</th><th scope="col">A amplitude</th><th scope="col">B bar</th><th scope="col">B seconds</th><th scope="col">B amplitude</th></tr></thead><tbody>${dataRows}</tbody></table></div></details>
   <section class="rl-sources" aria-labelledby="rl-sources-title"><h3 id="rl-sources-title">Sources &amp; timing</h3><ul>${sources(c)}</ul><details class="rl-method"><summary>How the score is timed</summary><p>${esc(d.method)}</p></details><p class="rl-provisional"><b>Automatic timings.</b> These await checking by ear. <a href="https://github.com/mottopanikeiku/contrapunctus/issues">Report a timing problem</a>.</p></section>
 </section>
 </div>
-<nav class="rl-related" aria-label="Other comparisons"><a href="index.html">← All comparisons</a>${list.filter((entry) => entry.c.id !== c.id).map((entry) => `<a href="${attr(entry.c.id)}.html">${esc(entry.c.title)} →</a>`).join('')}</nav>
+<nav class="rl-related" aria-label="Other comparisons"><a href="index.html">All comparisons</a>${list.filter((entry) => entry.c.id !== c.id).map((entry) => `<a href="${attr(entry.c.id)}.html">${esc(entry.c.title)}</a>`).join('')}</nav>
 </div><script type="application/json" data-rl>${JSON.stringify(d).replace(/</g, '\\u003c')}</script>
 </article>`;
     await out(`return-lab/${c.id}.html`, page(c.title, `${c.question} ${c.intro}`, body, track.era?.hero));
@@ -163,14 +163,14 @@ ${staff}
 
   const backdrop = list.find((entry) => entry.track.composer.slug === 'satie')?.track ?? list[0]?.track;
   const body = `<article class="rl-page rl-index"><header class="rl-hero">${painting(backdrop)}<div class="wrap rl-heading">
-  <p class="crumbs"><a href="../hall.html">The concert hall</a><span aria-hidden="true"> / </span>Listening studies</p>
+  <p class="crumbs"><a href="../hall.html">The Concert Hall</a><span aria-hidden="true"> / </span>Listening studies</p>
   <span class="kicker">Score & performance</span><h1>The Return Lab</h1>
-  <p class="rl-question">Hear a passage beside its return.</p><p class="rl-intro">A repeat, a new ending, a return in another key: play two passages from one recording and see their bars side by side.</p>
+  <p class="rl-question">Passages beside their repeats and returns, in one recording.</p><p class="rl-intro">Each study pairs a passage with its repeat or return (a literal repeat, a new ending, a return in another key), plays both from the same recording and sets their bars side by side.</p>
   <p class="rl-honesty"><span class="sc">About the timings</span> Bar times are aligned automatically and await checking by ear.</p>
 </div></header>
-<div class="wrap rl-content"><div class="rl-section-title"><span class="kicker">${list.length} listening studies</span><h2>Choose a comparison</h2></div>
-<ol class="rl-studies">${list.map(({ c, track, comp, data: d }, i) => `<li><a class="rl-study" href="${attr(c.id)}.html"><div class="rl-study-top"><span class="rl-study-number">${String(i + 1).padStart(2, '0')}</span>${cameo(track)}<span class="sc">${esc(comp.family)}<small>${esc(c.kind)}</small></span></div><h3>${esc(c.title)}</h3><p>${esc(c.question)}</p><div class="rl-study-spans"><span>A <b class="num">${fmt(d.A.start)}–${fmt(d.A.end)}</b></span><span>B <b class="num">${fmt(d.B.start)}–${fmt(d.B.end)}</b></span></div><span class="rl-study-open">Compare ${d.A.bars} & ${d.B.bars} bars <span aria-hidden="true">→</span></span></a></li>`).join('')}</ol>
-${staff}<section class="rl-reading-guide" aria-labelledby="rl-guide-title"><div><span class="kicker">On the page, in the performance</span><h2 id="rl-guide-title">See the change, hear the return</h2></div><div><h3>Read the score</h3><p>Find the changed notes, keys and instruments. In a literal repeat, the score stays the same.</p></div><div><h3>Hear the performance</h3><p>Compare the time each bar takes and how its volume changes. Pauses and added notes count towards a bar’s length.</p></div></section>
+<div class="wrap rl-content"><div class="rl-section-title"><span class="kicker">${list.length} listening studies</span><h2>Studies</h2></div>
+<ol class="rl-studies">${list.map(({ c, track, comp, data: d }, i) => `<li><a class="rl-study" href="${attr(c.id)}.html"><div class="rl-study-top"><span class="rl-study-number">${String(i + 1).padStart(2, '0')}</span>${cameo(track)}<span class="sc">${esc(comp.family)}<small>${esc(c.kind)}</small></span></div><h3>${esc(c.title)}</h3><p>${esc(c.question)}</p><div class="rl-study-spans"><span>A <b class="num">${fmt(d.A.start)}–${fmt(d.A.end)}</b></span><span>B <b class="num">${fmt(d.B.start)}–${fmt(d.B.end)}</b></span></div><span class="rl-study-open">${d.A.bars} and ${d.B.bars} bars compared</span></a></li>`).join('')}</ol>
+${staff}<section class="rl-reading-guide" aria-labelledby="rl-guide-title"><div><span class="kicker">Method</span><h2 id="rl-guide-title">Score and performance</h2></div><div><h3>The score</h3><p>The changed notes, keys and instruments are listed under Written changes. In a literal repeat, the score stays the same.</p></div><div><h3>The performance</h3><p>The charts give the time each bar takes and how its volume changes. Pauses and added notes count towards a bar’s length.</p></div></section>
 </div></article>`;
-  await out('return-lab/index.html', page('The Return Lab', 'Hear a passage beside its return, with matching bars, score changes and timing charts from one recording.', body, backdrop?.era?.hero));
+  await out('return-lab/index.html', page('The Return Lab', 'Passages beside their repeats and returns, with matching bars, score changes and timing charts from one recording.', body, backdrop?.era?.hero));
 }

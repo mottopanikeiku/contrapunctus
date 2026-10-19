@@ -1,0 +1,82 @@
+{
+  "id": "beach-years-at-the-spring",
+  "verdict": "pass",
+  "reviewer": "RevScores",
+  "date": "2026-10-19",
+  "scope": "MEAS: independent review of the public score.json, not the listen module's cue times (which are being re-timed elsewhere). Covers source/order, bar map, gate arithmetic, fresh overlays and audio features: chroma transposition and lag tests, per-bar shift scan, vocal-range pitch ranking and traces, pitch-band onsets, and audio-to-audio DTW against both Eames recordings. Not aural review.",
+  "defects": [],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "FINAL_HOLD_RUNS_TO_FILE_END",
+      "finding": "This is non-blocking. The final chord is at 111.2 s, and its pitched D-flat6/F6/D-flat7 band falls from −35 dB at 111.24 s to about −61 dB by 112.4 s. Surface noise keeps whole-file RMS above −45 dB to the end of the file, so the written hold, and bar 29's lighting, runs to 114.32 s. No other music follows. A documented endpoints.end near 112 s, as used for Mengelberg, would end the display at the decay."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#beach-years-at-the-spring",
+    "finding": "The section matches results and checks: start evidence, windows first [64.42, 64.50] and last [111.0, 111.3], the q77.112 constraint at 106.82 s, gates and score SHA-256 9d2dd6ec…5c244. Config SHA-256 4fe3be74… equals results.configSha256; the work candidate equals the public score; checks equal results; the pinned lc6212179.mxl and the cached audio match their SHA-256 values."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/beach-years-at-the-spring-checks.json",
+    "primaryMedianSeconds": 0.046042909287976386,
+    "primaryP95Seconds": 0.20277672696322213,
+    "maximumAnchorDeviationSeconds": 0.311703,
+    "maximumLocalRegionMedianSeconds": 0.04034578792503396,
+    "minimumPublishedNoteDurationSeconds": 0.01,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.01,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 29,
+    "distinctEngravedBars": 29,
+    "sheetPages": 1,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 995 notes lie inside their bar; bar times strictly increase. No score attack precedes 64.42 s, so nothing of the score is placed in La Forge's song. Sheet and note/bar identities are identical to the Eames 1905 publication, whose rasterised page was inspected."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revscores_consist.py, revscores_beach.py, revscores_vtrace.py, revscores_band.py, revscores_a2a.py",
+    "start": "The fresh 60.42–72.42 s overlay shows isolated events at about 61.3, 62.5 and 63.1 s, then near-silence. The grace is placed at 64.42 s, immediately before the bar-1 chord rise at about 64.5 s.",
+    "tuningAndKey": "librosa estimate −0.170 semitone = 435.70 Hz, equal to the published tuningHz. Chroma rotation gives 0.702 at the written key, against ≤0.407 at ±1–3 semitones, so the recording is in D-flat as encoded.",
+    "lag": "Global lag peaks at 0 s (0.702, against 0.656/0.665 at ∓0.25 s). In the per-bar scan 22 of 29 bars fit best within 0.3 s. The exceptions (16, 18, 20–23, 29) gain at most 0.06 in cosine, except bar 23 (−0.9 s, +0.16), which lies inside the A-flat5 hold that the trace below locates.",
+    "voice": "The written vocal pitch ranks first for 35 of 58 sung notes and in the top three for 49; shifting the line by one note gives 13 or 14 firsts. Traces put G-flat5 'heaven' at 94.1–94.4 s (bar 21 at 94.161 s), the A-flat5 'right' hold at 95.8–100.4 s (bar 22 at 95.841 s), G-flat5 'All's' from about 101.3 s (101.281 s) and E-flat5 at 102.8 s (bar 25 at 102.580 s).",
+    "endpoints": "D-flat5 'world' rises 12.5 dB at 106.74 s against the constrained 106.82 s. The bar-28 rises are 109.75/109.76 s (bar 28 at 109.720 s) and 110.68 s (published 110.68 s); the final chord's upper band rises 9.9 dB at 111.24 s (bar 29 at 111.2 s).",
+    "crossRecording": "Audio-to-audio DTW from the independently published Eames 1908 map agrees with this map within ±0.35 s for all of bars 1–26; from the Eames 1905 map it agrees within ±0.45 s for 23 of 26. The exceptions there are a DTW start artefact at bar 1, bar 14 (the 1905 map was confirmed by its own vocal trace) and bar 23 (−0.46 s). Bars 27–29 collapse in every DTW pair under the held D-flat harmony and were checked by pitch bands instead."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/beach-years-at-the-spring-60.42-72.42.png",
+      "work/beach-years-at-the-spring-78.6148-90.6148.png",
+      "work/beach-years-at-the-spring-102.82-114.332.png"
+    ],
+    "finding": "All are in the results' fresh list. The middle window (bars 11–18) follows the vocal pitch bands. Score attacks under the held vocal F5 'thorn' (about 87.6–88.2 s) fall where the faint piano gives almost no onset energy, which is consistent with the disclosed limit. The ending window shows bars 26–29 on the D-flat5 entry, the bar-28 chords and the final chord."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring",
+    "opened": true,
+    "licenseEvidence": "OpenScore Lieder README (fetched): 'These scores are released under Creative Commons Zero (CC0).' The MusicXML <rights> reads 'OpenScore (CC0)'.",
+    "edition": "OpenScore Lieder transcription of IMSLP #522898, D-flat major; printed imprint not established",
+    "encoder": "markpearse / OpenScore Lieder",
+    "license": "CC0 1.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The complete song is sung once in written order, in the encoded key, as the second item on the side. IMSLP #522898 is not claimed as Gadski's or La Forge's performing copy."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScores. The grace is placed, not measured, and the bar-26 constraint is fitting evidence. This voice-dominated side has faint piano, so individual accompaniment attacks are not established; listen-module cue times were not judged. Public score SHA-256 9d2dd6ec03372e4c1306eb21e553aa5be8f2d1a0ab60f31ff58015ba27a5c244."
+}

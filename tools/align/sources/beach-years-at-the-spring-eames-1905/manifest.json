@@ -1,0 +1,25 @@
+{
+  "title": "3 Browning Songs, Op. 44 — No. 1 The Year’s at the Spring",
+  "edition": "OpenScore Lieder transcription by markpearse from IMSLP #522898 (D-flat major); printed-edition imprint not independently established",
+  "encoder": "markpearse / OpenScore Lieder",
+  "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "song.ly",
+  "musicxml": "lc6212179.mxl",
+  "otherDynamicsWords": true,
+  "musicxmlInitialGrace": {
+    "part": "P2",
+    "measure": 1,
+    "note": 27,
+    "basis": "Original lc6212179.mxl P2 measure 1 direct note index 27 is the visible D-flat2 eighth acciaccatura in voice 5/staff 2, before the bass D-flat3 on the first beat. Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes (before the opening triplet group where a voice begins with one); retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.24/Documentation/notation/special-rhythmic-concerns#grace-notes ."
+  },
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring/lc6212179.mxl",
+      "file": "lc6212179.mxl",
+      "sha256": "de6f04d0bebda71809ce9c42f77a6e04dd24c3e378dd9e66821bf20c9307e1e4"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

@@ -1,0 +1,242 @@
+{
+  "id": "bernstein-serenade-phaedrus-pausanias",
+  "work": {
+    "title": "Serenade (after Plato’s Symposium)",
+    "catalogue": "",
+    "movement": "I. Phaedrus; Pausanias — Lento; Allegro marcato",
+    "version": {
+      "value": "Complete first movement of the 1954 score for solo violin, strings, harp and percussion",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "office"
+      ],
+      "note": "The Internet Archive file is the first band of the LP; it contains the whole movement, Phaedrus and Pausanias together."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Isaac Stern",
+        "role": "violin"
+      },
+      {
+        "name": "Symphony of the Air",
+        "role": "orchestra"
+      },
+      {
+        "name": "Leonard Bernstein",
+        "role": "conductor"
+      }
+    ],
+    "status": "disputed",
+    "sourceIds": [
+      "archive",
+      "discogs"
+    ],
+    "note": "The LP’s credit, in the Internet Archive record, Discogs and a Columbia advertisement of November 1956, names the Symphony of the Air; a December 1956 article in The American Record Guide says “members of the Symphony of the Air”. Sony’s 2014 upload of the Eryximachus movement names the New York Philharmonic. The carrier credit is used here.",
+    "alternatives": [
+      {
+        "value": [
+          {
+            "name": "Isaac Stern",
+            "role": "violin"
+          },
+          {
+            "name": "Symphony of the Air",
+            "role": "orchestra"
+          },
+          {
+            "name": "Leonard Bernstein",
+            "role": "conductor"
+          }
+        ],
+        "sourceIds": [
+          "archive",
+          "discogs"
+        ]
+      },
+      {
+        "value": [
+          {
+            "name": "Isaac Stern",
+            "role": "violin"
+          },
+          {
+            "name": "New York Philharmonic",
+            "role": "orchestra"
+          },
+          {
+            "name": "Leonard Bernstein",
+            "role": "conductor"
+          }
+        ],
+        "sourceIds": [
+          "sony"
+        ]
+      }
+    ]
+  },
+  "session": {
+    "date": {
+      "value": "1956-04-19",
+      "status": "documented",
+      "sourceIds": [
+        "sony"
+      ],
+      "note": "Given in the description of Sony’s upload of the Eryximachus movement, which also states a mono recording; the date is taken to apply to the whole Serenade. A Library of Congress photograph on the Bernstein Office page is captioned “recording session for Serenade, 1955”, which this record does not explain.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York City (venue not stated)",
+      "status": "documented",
+      "sourceIds": [
+        "sony"
+      ],
+      "note": "The description names the city only."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "discogs"
+      ],
+      "note": "Mono vinyl LP with a grey six-eye label, per Discogs."
+    },
+    "catalogue": {
+      "value": "ML 5144",
+      "status": "documented",
+      "sourceIds": [
+        "discogs"
+      ],
+      "note": "Discogs lists the US mono LP as ML 5144, 1956."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, first band",
+      "status": "inferred",
+      "sourceIds": [
+        "files"
+      ],
+      "note": "The first of three MP3 files, 420.94 seconds, precedes the 350.83-second file for movements II and III; the side-1 FLAC runs 806.2 seconds, about the length of the two files together. Matrix, take and stamper numbers are not given."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP digitisation",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Institutional transfer credit; no individual mastering credit is stated."
+    },
+    "date": {
+      "value": "2021-01-05",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "From the ripping_date field, 20210105093750. The item’s addeddate is 5 January 2021 as well.",
+      "precision": "day"
+    },
+    "processing": {
+      "value": "24-bit FLAC side transfers with VBR MP3 derivatives split by band",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "files"
+      ],
+      "note": "Equalisation, noise reduction and speed correction are not documented. The research desk measured the pitch of the file at about A = 442 Hz, which is consistent with normal LP speed (inference from the audio)."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_serenade-for-violin-solo-strings-and-percu_leonard-bernstein-symphony-of-the-air-isaa/disc1/01.01.%20Serenade%20For%20Violin%20Solo%2C%20Strings%20And%20Percussion%3A%20I%20-%20Phaedrus%3A%20Pausanias.mp3",
+    "sourceChain": [
+      "archive",
+      "files"
+    ],
+    "format": "VBR MP3 derivative of a mono LP transfer",
+    "durationSeconds": 420.94
+  },
+  "rights": {
+    "composition": {
+      "value": "Copyrighted Bernstein composition; performance licences through Boosey & Hawkes, according to the Leonard Bernstein Office",
+      "status": "documented",
+      "sourceIds": [
+        "office"
+      ],
+      "note": "A phonogram term assessment does not clear the composition, an arrangement or a modern score edition."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: commercial publication in 1956, before 1963; Columbia advertised ML 5144 as newly issued in The American Record Guide of November 1956",
+      "status": "documented",
+      "sourceIds": [
+        "arg",
+        "archive",
+        "discogs",
+        "sony",
+        "eu-term"
+      ],
+      "note": "The American Record Guide for November 1956 carries a Columbia advertisement listing the Serenade, ML 5144, at $3.98 among five Bernstein recordings “issued for the first time”, and the December 1956 issue lists it again. Discogs and the Internet Archive date the LP to 1956, and Sony’s reissue note says ‘Originally released 1956’. The project’s eu-published-before-1963 rule applies: the former 50-year phonogram term had expired before the 2013 extension. This is not US or worldwide clearance, not a Creative Commons licence and not a US-government recording. Rights in the composition are separate."
+    },
+    "creditLine": "Bernstein, Serenade (after Plato’s Symposium), I. Phaedrus; Pausanias; Isaac Stern, violin; Symphony of the Air, Leonard Bernstein. Columbia ML 5144 (advertised November 1956), Internet Archive LP transfer. Territorial EU phonogram basis only; Bernstein’s composition remains copyrighted.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Serenade For Violin Solo, Strings And Percussion (Columbia Masterworks LP), item metadata",
+      "url": "https://archive.org/details/lp_serenade-for-violin-solo-strings-and-percu_leonard-bernstein-symphony-of-the-air-isaa",
+      "locator": "Creators Leonard Bernstein, Symphony Of The Air, Isaac Stern; date 1956; publisher Columbia Masterworks; source vinyl LP; ripping_date 20210105093750; track list.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive: file inventory for the same item",
+      "url": "https://archive.org/metadata/lp_serenade-for-violin-solo-strings-and-percu_leonard-bernstein-symphony-of-the-air-isaa/files",
+      "locator": "disc1/01.01. Serenade For Violin Solo, Strings And Percussion: I - Phaedrus: Pausanias.mp3; VBR MP3; 420.94 seconds; MD5 b3ccbc51e53d77bd50bd5fd5c3c79e32. Side FLACs: side 1, 806.2 seconds; side 2, 1133 seconds.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs: Leonard Bernstein Conducting The Symphony Of The Air, Isaac Stern — Serenade For Violin Solo, Strings And Percussion",
+      "url": "https://www.discogs.com/release/5995545",
+      "locator": "Columbia Masterworks ML 5144; US, 1956; vinyl LP, mono; credits Bernstein, Symphony Of The Air, Isaac Stern.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "sony",
+      "title": "YouTube: Bernstein: Serenade — 3. Eryximachus (Presto), Leonard Bernstein official channel",
+      "url": "https://www.youtube.com/watch?v=vZ6lhjkhZk0",
+      "locator": "Description: recorded on 19 April 1956 in New York City; mono recording; ‘Originally released 1956 Sony Music Entertainment Inc.’; names the New York Philharmonic.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "office",
+      "title": "Leonard Bernstein Office: Serenade (after Plato’s Symposium) (1954)",
+      "url": "https://leonardbernstein.com/works/view/23/serenade-after-platos-symposium",
+      "locator": "Première on 12 September 1954 at Teatro La Fenice with Isaac Stern; Bernstein’s movement guideposts of 8 August 1954; licensing line naming Boosey & Hawkes.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "arg",
+      "title": "The American Record Guide, vol. 23 no. 3 (November 1956) and no. 4 (December 1956) (Internet Archive scans)",
+      "url": "https://archive.org/details/sim_american-record-guide_1956-11_23_3",
+      "locator": "November 1956: Columbia advertisement for five Bernstein recordings “issued for the first time”, including the Serenade, Isaac Stern and the Symphony of the Air, ML 5144, $3.98. December 1956 (https://archive.org/details/sim_american-record-guide_1956-12_23_4): James Lyons, “Leonard Bernstein: Musician and Narrator”, listing ML-5144 with members of the Symphony of the Air.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU: phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32011L0077",
+      "locator": "Recitals 1–3 and 7; Article 1(2) and Article 1(3): the former 50-year term, extended to 70 years only for phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

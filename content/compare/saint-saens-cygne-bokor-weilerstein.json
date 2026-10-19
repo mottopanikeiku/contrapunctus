@@ -1,22 +1,22 @@
 {
   "id": "saint-saens-cygne-bokor-weilerstein",
-  "title": "Two cellos, piano and marimba",
+  "title": "Le Cygne: Bokor (1925) and Weilerstein (2009)",
   "composer": "saint-saens",
   "group": "century",
   "work": "Le Cygne, from Le Carnaval des animaux",
   "question": "What happens to the cello’s long song when marimba replaces piano?",
-  "intro": "At the White House on 4 November 2009, Alisa Weilerstein played <i>Le Cygne</i> with sixteen-year-old Jason Yoder at the marimba. Judith Bokor’s earlier Columbia disc has a pianist beside the cello. Saint-Saëns’s long melody floats above broken chords in both arrangements.",
+  "intro": "At the White House on 4 November 2009, Alisa Weilerstein played <i>Le Cygne</i> with sixteen-year-old Jason Yoder at the marimba. Judith Bokor’s earlier Columbia disc has a pianist accompanying the cello. In both arrangements Saint-Saëns’s long melody is played over broken chords.",
   "recordings": [
     { "listen": "saint-saens-cygne-bokor", "label": "Judith Bokor", "year": 1925, "note": "A Columbia recording for cello and piano, issued on D 9758." },
     { "listen": "saint-saens-cygne-weilerstein", "label": "Alisa Weilerstein · Jason Yoder", "year": 2009, "note": "Live at the White House, with sixteen-year-old Jason Yoder’s marimba accompanying the cello." }
   ],
   "reference": "saint-saens-cygne-bokor",
   "passages": [
-    { "label": "The cello’s first phrase", "t": 10, "note": "The cello begins its long tune above a stream of broken chords." },
-    { "label": "The tune reaches higher", "t": 32, "note": "The cello’s rising phrases stretch above the piano’s continuous broken chords." },
-    { "label": "The melody swells", "t": 70, "note": "The cello’s phrases swell and fall back, while the piano keeps its small, flowing notes beneath them." },
-    { "label": "The last climb", "t": 105, "note": "The cello climbs towards a long high note; beneath it, the piano’s arpeggios continue." },
-    { "label": "The last held note", "t": 135, "note": "A long cello note hangs above the last piano chords, then the bow falls silent." }
+    { "label": "Opening cello phrase", "t": 10, "note": "The cello begins its long tune above a stream of broken chords." },
+    { "label": "Rising phrases over broken chords", "t": 32, "note": "The cello plays rising phrases above the piano’s continuous broken chords." },
+    { "label": "Rising and falling phrases", "t": 70, "note": "The cello’s phrases rise and fall back, while the piano keeps up its running figuration beneath them." },
+    { "label": "Approach to the high note", "t": 105, "note": "The cello climbs towards a long high note; beneath it, the piano’s arpeggios continue." },
+    { "label": "Final held note", "t": 135, "note": "The cello holds a long note above the last piano chords, then stops." }
   ],
   "sources": [
     { "title": "Bokor Commons file and upstream attribution", "url": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac" },

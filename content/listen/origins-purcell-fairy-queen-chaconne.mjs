@@ -14,45 +14,45 @@ export default {
   "source": {
     "file": "File:Purcell TheFairyQueen ActV Chaconne Z629 Esmuc.flac"
   },
-  "intro": "Purcell’s chaconne from <i>The Fairy Queen</i> keeps its three-beat dance going while the bass disappears for sixteen bars. Alba Roca directs the ESMUC early-music orchestra in a piece that can feel wonderfully light on its feet.",
+  "intro": "The Chaconne from Act V of Purcell’s <i>The Fairy Queen</i>, Z. 629, is a dance in triple time in which the bass stops for sixteen bars. Alba Roca directs the ESMUC early-music orchestra.",
   "sections": [
     {
       "t": 0,
       "label": "A · Dotted strings over a walking bass",
       "m": "A",
-      "mNote": "Long-short violin phrases above three steady bass notes"
+      "mNote": "Dotted violin phrases above three steady bass notes"
     },
     {
       "t": 24,
-      "label": "B · The violins begin to run",
+      "label": "B · Violins in quicker running notes",
       "m": "B",
-      "mNote": "Quicker violin notes keep the same three-beat dance"
+      "mNote": "The violins play quicker notes in the same three-beat dance."
     },
     {
       "t": 68,
-      "label": "C · Three strings, no bass",
+      "label": "C · Violins and viola without bass",
       "m": "C",
-      "mNote": "Violins and viola trade short phrases"
+      "mNote": "Violins and viola trade short phrases."
     },
     {
       "t": 94,
-      "label": "D · The bass steps back in",
+      "label": "D · Bass returns",
       "m": "D",
       "mNote": "Short bass notes alternate with rests"
     },
     {
       "t": 114,
-      "label": "E · The bass runs beneath the violins",
+      "label": "E · Moving bass beneath the violins",
       "m": "E",
-      "mNote": "Moving bass notes support the final dance phrases"
+      "mNote": "Moving bass notes under the final dance phrases"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Three steps in the bass",
-      "text": "The bass takes three even steps in each bar. Above it, the violins and viola lean on dotted rhythms — a long note followed by a short one. The tune keeps lifting off that steady tread.",
+      "title": "Chaconne, bars 1–16, bass",
+      "text": "The bass moves in three even steps in each bar. Above it, the violins and viola play dotted rhythms, a long note followed by a short one.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Purcell, Suite from The Fairy Queen, edited by J. S. Shedlock, typeset by Bart Dunn, Chaconne, bars 1–16, printed p. 48. https://s9.imslp.org/files/imglnks/usimg/6/69/IMSLP435506-PMLP237007-Suite_from_The_Fairy_Queen_Complete.pdf"
@@ -60,8 +60,8 @@ export default {
     {
       "t": 35,
       "kind": "world",
-      "title": "A dance in the museum",
-      "text": "This performance takes place among the keyboards of Barcelona’s Museu de la Música. Alba Roca directs the ESMUC early-music orchestra on 7 April 2018; student sound engineer Marc Urrutia records the concert.",
+      "title": "Concert recording, Barcelona, 2018",
+      "text": "The performance took place in the Sala de teclats, the keyboard room of Barcelona’s Museu de la Música, on 7 April 2018. Alba Roca directed the ESMUC early-music orchestra, and the student sound engineer Marc Urrutia recorded the concert.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The ESMUC recording credits name the Sala de teclats, Museu de la Música de Barcelona, Alba Roca, Marc Urrutia and the concert date. https://commons.wikimedia.org/wiki/File:Purcell_TheFairyQueen_ActV_Chaconne_Z629_Esmuc.flac"
@@ -69,8 +69,8 @@ export default {
     {
       "t": 68,
       "kind": "music",
-      "title": "The bass sits out",
-      "text": "For sixteen bars, the bass has nothing to play. The violins and viola pass little phrases between them, often leaving the first beat empty in the violins. The three-beat dance continues on these lighter feet.",
+      "title": "Bars 49–64, bass rests",
+      "text": "For sixteen bars the bass rests. The violins and viola pass short phrases between them, and the violins often leave the first beat empty. The triple metre continues.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Shedlock–Dunn score, Chaconne, bars 49–64, printed pp. 50–51: the basso rests throughout; violin rests and viola entries alternate."
@@ -78,8 +78,8 @@ export default {
     {
       "t": 92,
       "kind": "world",
-      "title": "A spoken play with music",
-      "text": "In May 1692 London’s Queen’s Theatre at Dorset Garden stages <i>The Fairy Queen</i>: Shakespeare’s <i>A Midsummer Night’s Dream</i>, adapted and spoken, with a masque of music in each of the later acts. After Purcell’s death the score is lost. It reappears in the library of the Royal Academy of Music before the Purcell Society prints it in 1903.",
+      "title": "First production, Dorset Garden, 1692",
+      "text": "In May 1692 the Queen’s Theatre at Dorset Garden staged <i>The Fairy Queen</i>, a spoken adaptation of Shakespeare’s <i>A Midsummer Night’s Dream</i> with a masque in each later act. Lost after Purcell’s death, the score reappeared in the Royal Academy of Music library before the Purcell Society printed it in 1903.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Preface to The Works of Henry Purcell, vol. XII (Purcell Society, ed. J. S. Shedlock, Novello, 1903), pp. i–iv: an anonymous adaptation of A Midsummer Night’s Dream produced at the Queen’s (formerly the Dorset Garden) Theatre and reported in the Gentleman’s Journal for May 1692; the long-lost score found in the library of the Royal Academy of Music; the extra Act I music dates from the 1693 revival. The edition’s contents show the masques of songs and dances in Acts II–V and the Chaconne ending Act V: https://s9.imslp.org/files/imglnks/usimg/f/f5/IMSLP611116-PMLP237007-92329-00.fsc.pdf . Andrew Pinnock’s note to Signum SIGCD615 on the production: https://www.hyperion-records.co.uk/dc.asp?dc=D_SIGCD615"
@@ -87,8 +87,8 @@ export default {
     {
       "t": 114,
       "kind": "form",
-      "title": "Running towards the close",
-      "text": "The bass begins moving more freely beneath the violins, with quick notes joining the dance. The first violin answers with little flourishes. All four parts have work to do again.",
+      "title": "Running bass, from bar 82",
+      "text": "From bar 82 the bass moves in quicker notes beneath the violins. The first violin adds short flourishes above it, and all four parts are again fully occupied.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Shedlock–Dunn score, Chaconne, printed pp. 51–53, especially the running basso from bar 82."
@@ -99,11 +99,11 @@ export default {
       "id": "quicker-upper-lines",
       "title": "The violins quicken",
       "from": "A · Dotted strings over a walking bass",
-      "to": "B · The violins begin to run",
+      "to": "B · Violins in quicker running notes",
       "at": {
         "t": 24
       },
-      "how": "<p>The opening phrases settle, and both violins take up quicker dotted figures. The basso keeps its three crotchets to the bar; the viola punctuates the new violin writing with notes and rests. The dance stays in 3/4.</p>",
+      "how": "<p>The two violins take up quicker dotted figures in bars 16–22. The basso keeps its three crotchets to the bar, and the viola punctuates the new violin writing with notes and rests. The dance stays in 3/4.</p>",
       "devices": [
         "texture change",
         "motivic link"
@@ -114,13 +114,13 @@ export default {
     },
     {
       "id": "bass-withdraws",
-      "title": "The bass leaves the dance",
-      "from": "B · The violins begin to run",
-      "to": "C · Three strings, no bass",
+      "title": "The basso drops out",
+      "from": "B · Violins in quicker running notes",
+      "to": "C · Violins and viola without bass",
       "at": {
         "t": 68
       },
-      "how": "<p>After the four parts arrive together at the end of the phrase, the basso rests for sixteen bars. The viola starts the next figure while the violins leave a rest on the first beat, then answer. The upper strings now have the dance to themselves.</p>",
+      "how": "<p>After the four parts reach the end of the phrase together, the basso rests for sixteen bars, from bar 49 in the Shedlock–Dunn score. The three upper strings play on without it. The viola starts the next figure, and the violins rest on the first beat before they enter.</p>",
       "devices": [
         "orchestration change",
         "texture change"
@@ -132,12 +132,12 @@ export default {
     {
       "id": "bass-rejoins",
       "title": "The bass returns between rests",
-      "from": "C · Three strings, no bass",
-      "to": "D · The bass steps back in",
+      "from": "C · Violins and viola without bass",
+      "to": "D · Bass returns",
       "at": {
         "t": 94
       },
-      "how": "<p>The basso returns with three repeated crotchets. Then bass and viola alternate short notes with rests beneath the violins’ dotted phrases. The returning low line has room to breathe between its steps.</p>",
+      "how": "<p>The basso returns with three repeated crotchets. Bass and viola then alternate short notes with rests beneath the violins’ dotted phrases.</p>",
       "devices": [
         "orchestration change",
         "texture change"
@@ -148,13 +148,13 @@ export default {
     },
     {
       "id": "closing-texture",
-      "title": "Quick notes reach the bass",
-      "from": "D · The bass steps back in",
-      "to": "E · The bass runs beneath the violins",
+      "title": "Running figures pass to the bass",
+      "from": "D · Bass returns",
+      "to": "E · Moving bass beneath the violins",
       "at": {
         "t": 114
       },
-      "how": "<p>The first violin adds quick flourishes to its dotted phrases. Beneath it, the basso moves from longer notes into running figures of its own. Those low notes fill the spaces left by the earlier rests and carry the dance towards its close.</p>",
+      "how": "<p>From bar 78 the first violin adds quick flourishes to its dotted phrases. At bar 82 the basso moves from longer notes into running figures, which fill the places taken earlier by rests. The running bass continues towards the close of the Chaconne.</p>",
       "devices": [
         "texture change",
         "orchestration change"
@@ -228,7 +228,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "Running bass notes support the violins’ dotted phrases and little flourishes."
+        "note": "Running bass notes support the violins’ dotted phrases and short flourishes."
       }
     ]
   }

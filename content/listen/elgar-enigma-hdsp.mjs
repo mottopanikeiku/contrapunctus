@@ -18,21 +18,21 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme II. H.D.S.-P.ogg"
   },
-  "intro": "Before a piano trio, Hew David Steuart-Powell runs his fingers over the keys. Elgar turns that familiar warm-up into a little orchestral toccata, adding more chromatic notes than his pianist friend would enjoy.",
+  "intro": "The second of Elgar’s “Enigma” Variations, Op. 36, an Allegro titled “H.D.S.-P.”, portrays the pianist Hew David Steuart-Powell, who ran his fingers over the keys before playing in a piano trio. Elgar turned that warm-up into a short orchestral toccata and added chromatic notes to it.",
   "sections": [
     {
       "t": 0,
-      "label": "Var 2 · The pianist warms up",
+      "label": "Var 2 · Allegro, semiquaver figures in violins",
       "m": "Var 2",
-      "mNote": "The violins trade quick semiquavers"
+      "mNote": "The violins exchange rapid semiquaver figures."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Fingers become violin bows",
-      "text": "The first violins begin a staccato run; the seconds take it up. Sharps and naturals crowd the little figures, turning a pianist’s everyday warm-up into something mischievously awkward. The woodwinds join the game.",
+      "title": "Staccato semiquavers, violins",
+      "text": "The first violins begin a staccato run, and the seconds take it up. Sharps and naturals crowd the short figures, which parody a pianist’s warm-up exercise. The woodwinds follow.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Novello full score, p. 8, rehearsal 5: semiquaver exchanges between the violin sections, followed by woodwinds. Elgar explains the parody in his commentary on variation II, reproduced at https://en.wikipedia.org/wiki/Enigma_Variations"
@@ -40,8 +40,8 @@ export default {
     {
       "t": 22,
       "kind": "world",
-      "title": "Three friends at music",
-      "text": "Steuart-Powell plays piano trios with Elgar on violin and Basil Nevinson on cello. Both colleagues receive a variation: the pianist gets this teasing Allegro; the cellist gets a long singing solo in the twelfth variation.",
+      "title": "Piano trio partners of Elgar",
+      "text": "H.D.S.-P. played piano trios with Elgar on violin and Basil Nevinson on cello. Elgar gave each of them a variation. The pianist’s is this Allegro, and the cellist’s is the twelfth variation, which has a long cello solo.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "The Elgar Society identifies the trio and the subjects of variations II and XII: https://elgar.org/3enigma.htm. Novello full score, pp. 8 and 82."
@@ -79,7 +79,7 @@ export default {
       { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "Woodwinds answer the running string figures (pp. 8–9)." },
       { "t": 14, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets", "violins-1"], "note": "Wind accents punctuate the quick string phrases (pp. 10–11)." },
       { "t": 22, "playing": ["flutes", "oboes", "clarinets", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "Flutes and clarinets answer while the strings alternate running notes and shorter replies (p. 12)." },
-      { "t": 30, "playing": ["flutes", "oboes", "clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "A solo timpani figure joins the last violin exchanges and quiet wind replies (pp. 13–14)." },
+      { "t": 30, "playing": ["flutes", "oboes", "clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "A solo timpani figure enters under the last violin exchanges and the quiet wind replies (pp. 13–14)." },
       { "t": 38, "playing": ["flutes", "clarinets", "violas", "cellos", "basses"], "lead": ["flutes", "clarinets"], "note": "The running violins stop; short flute and clarinet solos finish over the lower strings (p. 14)." }
     ]
   }

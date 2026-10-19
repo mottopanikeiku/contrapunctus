@@ -1,0 +1,68 @@
+{
+  "composer": "villa-lobos",
+  "items": [
+    {
+      "work": "Chôros Nos. 2, 3, 10 and 12; Introduction to the Chôros; Two Chôros (bis)",
+      "year": "1924–29",
+      "performers": "São Paulo Symphony Orchestra and Choir; John Neschling, conductor; Fabio Zanon, guitar; Cláudio Cruz, violin; Johannes Gramsch, cello; Elizabeth Plunk, flute; Ovanir Buosi, clarinet",
+      "recorded": "December 2003 and February 2005, Sala São Paulo",
+      "label": "BIS (BIS-1520)",
+      "note": "Chôros No. 3 for male chorus, Chôros No. 10 for chorus and orchestra with Brazilian percussion, and the Introduction to the Chôros for guitar and orchestra on one disc, with a booklet note by Jorge Coli.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://bis.eclassical.com/label/bis/villa-lobos-choros-volume-3.html",
+          "title": "BIS Records — Villa-Lobos: Choros, Vol. 3 (BIS-1520)"
+        }
+      ]
+    },
+    {
+      "work": "Complete works for solo guitar: Five Preludes, Suite populaire brésilienne, Twelve Études, Chôros No. 1",
+      "year": "1908–40",
+      "performers": "Anders Miolin, guitar",
+      "recorded": "",
+      "label": "BIS (BIS-686)",
+      "note": "The five preludes of 1940, the five pieces of the suite, the twelve studies dedicated to Segovia and Chôros No. 1, about seventy-eight minutes in all, released in 1995.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://bis.eclassical.com/label/bis/villa-lobos-complete-works-for-solo-guitar.html",
+          "title": "BIS Records — Villa-Lobos: Complete Works for Solo Guitar (BIS-686)"
+        }
+      ]
+    },
+    {
+      "work": "Bachianas Brasileiras Nos. 1 and 5; Suite for voice and violin; four Bach preludes and fugues arranged for cellos",
+      "year": "1923–45",
+      "performers": "Pleeth Cello Octet; Jill Gomez, soprano; Peter Manning, violin",
+      "recorded": "May 1987, All Hallows, Gospel Oak, London",
+      "label": "Hyperion (Helios, CDH55316)",
+      "note": "Both Bachianas for an orchestra of cellos, No. 5 with soprano, with the Suite for voice and violin and four of Villa-Lobos’s 1941 Bach transcriptions for cellos. Simon Wright’s booklet note discusses the Chôros, the Bachianas, the Suite and the transcriptions.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDH55316",
+          "title": "Hyperion Records — Villa-Lobos: Bachianas brasileiras Nos 1 & 5 (CDH55316)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "BIS Records — Villa-Lobos: Choros, Vol. 3: catalogue number, soloists, release date Nov 2008",
+      "url": "https://bis.eclassical.com/label/bis/villa-lobos-choros-volume-3.html"
+    },
+    {
+      "title": "Jorge Coli, booklet note to BIS-CD-1520, with recording data (Sala São Paulo; December 2003 and February 2005)",
+      "url": "https://eclassical.textalk.se/shop/art27/BIS-CD-1520_booklet.pdf-25163f.pdf"
+    },
+    {
+      "title": "BIS Records — Villa-Lobos: Complete Works for Solo Guitar (BIS-686): Anders Miolin; Five Preludes, Suite populaire brésilienne, Twelve Études and Chôro No. 1; release date Feb 1995; total time 78'28",
+      "url": "https://bis.eclassical.com/label/bis/villa-lobos-complete-works-for-solo-guitar.html"
+    },
+    {
+      "title": "Hyperion Records — Villa-Lobos: Bachianas brasileiras Nos 1 & 5 (CDH55316): performers, recording details and Simon Wright’s note",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDH55316"
+    }
+  ]
+}

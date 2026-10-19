@@ -1,0 +1,482 @@
+{
+  "uniqueScoreAttacks": 245,
+  "audioDetectedOnsets": 529,
+  "medianAbsoluteOnsetDeviation": 0.046042909287976386,
+  "noteWeightedMedianDeviation": 0.04477457491854864,
+  "p95AbsoluteOnsetDeviation": 0.20277672696322213,
+  "fractionWithin150ms": 0.889795918367347,
+  "regions": [
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 50,
+      "median": 0.04372429116205012,
+      "p95": 0.16195662247286705,
+      "max": 0.21267287623622622,
+      "adaptiveMedian": 0.03324066227014555,
+      "adaptiveP95": 0.09838761408690287
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 55,
+      "median": 0.03952027950684567,
+      "p95": 0.1658727695423223,
+      "max": 0.31831828321497824,
+      "adaptiveMedian": 0.03351585515704869,
+      "adaptiveP95": 0.09834962197275557
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 49,
+      "median": 0.050557292732122505,
+      "p95": 0.20634013300616513,
+      "max": 0.3839982972157685,
+      "adaptiveMedian": 0.04034578792503396,
+      "adaptiveP95": 0.08218235788037018
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 44,
+      "median": 0.031136675405228686,
+      "p95": 0.11271706552809707,
+      "max": 0.2024037116137123,
+      "adaptiveMedian": 0.028843635158075642,
+      "adaptiveP95": 0.08085304573137506
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 21,
+      "median": 0.08667529059023593,
+      "p95": 0.25723735583638074,
+      "max": 0.2644816464629969,
+      "adaptiveMedian": 0.04010328960870879,
+      "adaptiveP95": 0.13893333317429324
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 26,
+      "median": 0.05405919415020577,
+      "p95": 0.20256005578049496,
+      "max": 0.2854739927473986,
+      "adaptiveMedian": 0.039527214297073954,
+      "adaptiveP95": 0.13204293221618357
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 21,
+      "median": 0.08667529059023593,
+      "p95": 0.25723735583638074,
+      "max": 0.2644816464629969,
+      "adaptiveMedian": 0.04010328960870879,
+      "adaptiveP95": 0.13893333317429324
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 26,
+      "median": 0.05405919415020577,
+      "p95": 0.20256005578049496,
+      "max": 0.2854739927473986,
+      "adaptiveMedian": 0.039527214297073954,
+      "adaptiveP95": 0.13204293221618357
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 49,
+      "median": 0.050557292732122505,
+      "p95": 0.20634013300616513,
+      "max": 0.3839982972157685,
+      "adaptiveMedian": 0.04034578792503396,
+      "adaptiveP95": 0.08218235788037018
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 50,
+      "median": 0.04372429116205012,
+      "p95": 0.16195662247286705,
+      "max": 0.21267287623622622,
+      "adaptiveMedian": 0.03324066227014555,
+      "adaptiveP95": 0.09838761408690287
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 55,
+      "median": 0.03952027950684567,
+      "p95": 0.1658727695423223,
+      "max": 0.31831828321497824,
+      "adaptiveMedian": 0.03351585515704869,
+      "adaptiveP95": 0.09834962197275557
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 49,
+      "median": 0.050557292732122505,
+      "p95": 0.20634013300616513,
+      "max": 0.3839982972157685,
+      "adaptiveMedian": 0.04034578792503396,
+      "adaptiveP95": 0.08218235788037018
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 21,
+      "median": 0.08667529059023593,
+      "p95": 0.25723735583638074,
+      "max": 0.2644816464629969,
+      "adaptiveMedian": 0.04010328960870879,
+      "adaptiveP95": 0.13893333317429324
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 26,
+      "median": 0.05405919415020577,
+      "p95": 0.20256005578049496,
+      "max": 0.2854739927473986,
+      "adaptiveMedian": 0.039527214297073954,
+      "adaptiveP95": 0.13204293221618357
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 55,
+      "median": 0.03952027950684567,
+      "p95": 0.1658727695423223,
+      "max": 0.31831828321497824,
+      "adaptiveMedian": 0.03351585515704869,
+      "adaptiveP95": 0.09834962197275557
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 50,
+      "median": 0.04372429116205012,
+      "p95": 0.16195662247286705,
+      "max": 0.21267287623622622,
+      "adaptiveMedian": 0.03324066227014555,
+      "adaptiveP95": 0.09838761408690287
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 112.0,
+      "meanCosine": 0.4430145833559017
+    },
+    {
+      "start": 96.0,
+      "meanCosine": 0.7305443091409345
+    },
+    {
+      "start": 104.0,
+      "meanCosine": 0.7435902388846289
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.7641838617234656
+    },
+    {
+      "start": 64.0,
+      "meanCosine": 0.7671196911135567
+    }
+  ],
+  "sections": [
+    {
+      "bar": "1",
+      "occ": 1,
+      "editorial": 52,
+      "aligned": 64.42,
+      "difference": 12.420000000000002,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "3",
+      "occ": 1,
+      "editorial": 67,
+      "aligned": 67.50252257517754,
+      "difference": 0.5025225751775366,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 64.42,
+      "nearestOnsetDeviation": 0.03106575963718683
+    },
+    {
+      "label": "middle",
+      "bar": "13",
+      "occ": 1,
+      "scoreQ": 39.778645833333336,
+      "audioSeconds": 82.61483269528625,
+      "nearestOnsetDeviation": 0.31170344358557145
+    },
+    {
+      "label": "last",
+      "bar": "29",
+      "occ": 1,
+      "scoreQ": 86.11197916666666,
+      "audioSeconds": 111.20018235483211,
+      "nearestOnsetDeviation": 0.023039497689254063
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 65,
+      "voice": "piano-lower-5",
+      "durationQ": 3.0,
+      "onset": 111.20018235483211,
+      "offset": 114.31999999999998,
+      "durationSeconds": 3.1198176451678705
+    },
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 68,
+      "voice": "piano-lower-5",
+      "durationQ": 3.0,
+      "onset": 111.20018235483211,
+      "offset": 114.31999999999998,
+      "durationSeconds": 3.1198176451678705
+    },
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 73,
+      "voice": "piano-lower-5",
+      "durationQ": 3.0,
+      "onset": 111.20018235483211,
+      "offset": 114.31999999999998,
+      "durationSeconds": 3.1198176451678705
+    },
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 77,
+      "voice": "piano-lower-5",
+      "durationQ": 3.0,
+      "onset": 111.20018235483211,
+      "offset": 114.31999999999998,
+      "durationSeconds": 3.1198176451678705
+    },
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 85,
+      "voice": "piano-upper-1",
+      "durationQ": 3.0,
+      "onset": 111.20018235483211,
+      "offset": 114.31999999999998,
+      "durationSeconds": 3.1198176451678705
+    },
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 89,
+      "voice": "piano-upper-1",
+      "durationQ": 3.0,
+      "onset": 111.20018235483211,
+      "offset": 114.31999999999998,
+      "durationSeconds": 3.1198176451678705
+    },
+    {
+      "bar": "29",
+      "occ": 1,
+      "midi": 97,
+      "voice": "piano-upper-1",
+      "durationQ": 3.0,
+      "onset": 111.20018235483211,
+      "offset": 114.31999999999998,
+      "durationSeconds": 3.1198176451678705
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.009824028202245927,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7577107119062876,
+  "endAnchor": {
+    "scoreQ": 89.11197916666666,
+    "audioSeconds": 114.31999999999998,
+    "decodedDuration": 114.33210884353741,
+    "activeEndMinus45dB": 114.32344671201814
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "beach-years-at-the-spring",
+  "tuningHz": 435.7,
+  "audioSha256": "cc604cdc7c8ddee396a345699b9143cdce4a9cf441c53b8cbc85783d7f8e24c8",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "OpenScore Lieder releases its scores under CC0 (https://github.com/OpenScore/Lieder#license-and-acknowledgement). The MusicXML identification reads 'Transcribed by markpearse from IMSLP #522898' and carries rights 'OpenScore (CC0)'. Exact downloaded MXL bytes match the SHA-256 pinned in this config; no printed-edition imprint beyond that IMSLP reference is asserted.",
+    "Source part P1 is the Voice (one treble line with lyrics); P2 is Piano (two staves with explicitly numbered MusicXML voices 1/2 and 5/6). Each source voice is a separate MIDI track in one simultaneous compilation, not inferred from register. Two print-object=\"no\" rests in piano bars 11 and 13 are omitted by the converter. Voice labels are encoding identities, not separated audio stems.",
+    "Nonstandard MusicXML other-dynamics texts ('a tempo', 'dolce marcato', 'poco rall.') are preserved as printed words via otherDynamicsWords, because LilyPond 2.24.4's converter would otherwise emit invalid identifiers; no note or rhythm changes.",
+    "Initial grace: the piano's opening D-flat2 acciaccatura (voice 5) gives every MIDI track one common 43/384-quarter lead, retained once in bar 1's quarter extent. The guarded grace-priming adapter places nonprinting grace skips before the opening triplet groups of the other voices so that the engraving does not duplicate the initial clef/key/time glyphs; the converted event arrays are identical with and without that priming (995 notes).",
+    "Recording: Johanna Gadski, soprano, with Frank La Forge, piano, Victor 87026, 14 January 1908 (content/listen module). The side couples La Forge's 'How Much I Love You' first; only the Beach song that follows is aligned, and the earlier song is outside the aligned span.",
+    "Key and tuning (MEAS): the voice traces D-flat5 'year's' (65.3 s), B-flat4 'spring', E-flat5 'day's', C5 'morn', G-flat5 'hill-', E-flat5 'pearled', the A-flat5 'right' hold (95.9–100.3 s), G-flat5/E-flat5/F5 'All's right with the' (101.6/102.6/104.2 s) and D-flat5 'world' from about 106.8 s, matching the D-flat source without transposition; global tuning estimate −17 cents.",
+    "Inspection (MEAS, not aural): a per-note dominant-pitch ranking over MIDI 64–89 places the written vocal pitch first in 30 and within the top three in 52 of 58 sung notes; the six misses are short notes under louder piano chords. This voice-dominated acoustic side has faint piano; individual accompaniment attacks are not individually established.",
+    "Initial-grace contexts synchronized by silent grace skips, retaining source notes and main-time durations: Original lc6212179.mxl P2 measure 1 direct note index 27 is the visible D-flat2 eighth acciaccatura in voice 5/staff 2, before the bass D-flat3 on the first beat. Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes (before the opening triplet group where a voice begins with one); retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.24/Documentation/notation/special-rhythmic-concerns#grace-notes ."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      2.799999999999998,
+      67.0
+    ],
+    [
+      43.18036470966422,
+      106.82
+    ],
+    [
+      48.22009117741605,
+      111.2
+    ]
+  ],
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards",
+    "musicxmlInitialGrace": {
+      "part": "P2",
+      "measure": 1,
+      "note": 27,
+      "basis": "Original lc6212179.mxl P2 measure 1 direct note index 27 is the visible D-flat2 eighth acciaccatura in voice 5/staff 2, before the bass D-flat3 on the first beat. Synchronize the other voices with nonprinting, nonsounding grace skips after their original initial attributes (before the opening triplet group where a voice begins with one); retain every pitched grace and all main-time note/bar durations. This follows LilyPond's documented grace-skip remedy for key/time synchronization: https://lilypond.org/doc/v2.24/Documentation/notation/special-rhythmic-concerns#grace-notes ."
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 64.42,
+      "peakSeconds": 64.48,
+      "window": [
+        64.42,
+        64.5
+      ],
+      "midiPitches": [
+        37
+      ],
+      "basis": "MEAS, cached transfer (pitch-band tables; work/beach-years-at-the-spring-58-76.png). La Forge's song ends at about 59.2 s; isolated short events at 61.1–63.1 s precede near-silence, and Beach's bar-1 chord bands (D-flat3/A-flat3/F4/A-flat4) rise from about −48 to −21 dB at 64.48–64.66 s (librosa onsets 64.39/64.56/64.61 s), followed by the voice's D-flat5 'year's' at about 65.26 s. The module's 52 s section marker and an earlier 56–57 s estimate fall inside the end of the preceding song and the pause. The first score attack is the piano's D-flat2 grace, whose own band is not measurable in this acoustic recording; the first window places it immediately before the chord rise, about 0.05 s (43/384 quarter) ahead — a documented placement, not a measurement of the grace. The final bar-29 chord is the only late event with a jump of the D-flat6/F6/D-flat7 band (−46 to −23 dB at 111.2 s); its F5 band rises at the same time. Numerical and visual inspection only; no aural review is claimed.",
+      "mappedAudioSeconds": 64.42,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-26-world-D-flat5",
+      "scoreQ": 77.11197916666666,
+      "audioSeconds": 106.82,
+      "peakSeconds": 106.88,
+      "window": [
+        106.55,
+        106.9
+      ],
+      "midiPitches": [
+        37,
+        49,
+        73,
+        77,
+        80,
+        85,
+        89
+      ],
+      "basis": "MEAS: performed q77.112 is the bar-26 downbeat: the voice's D-flat5 on 'world' with the piano's D-flat bass and F5/A-flat5/D-flat6/F6 triplet chord. After the loud F5/G-flat5/F6 'with the' chords at 104.2–106.4 s, total energy dips at 106.6 s; the D-flat5 band then rises from −43 to −24 dB (106.4→106.8 s) and the D-flat6 band from −52 to −30 dB at 106.8 s. The unconstrained candidate placed this downbeat at 106.34 s, before that rise. Disclosed source-pitch fitting constraint, not independent or aural validation.",
+      "mappedAudioSeconds": 106.82,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 86.11197916666666,
+      "audioSeconds": 111.2,
+      "peakSeconds": 111.26,
+      "window": [
+        111.0,
+        111.3
+      ],
+      "midiPitches": [
+        65,
+        68,
+        73,
+        77,
+        85,
+        89,
+        97
+      ],
+      "basis": "MEAS, cached transfer (pitch-band tables; work/beach-years-at-the-spring-58-76.png). La Forge's song ends at about 59.2 s; isolated short events at 61.1–63.1 s precede near-silence, and Beach's bar-1 chord bands (D-flat3/A-flat3/F4/A-flat4) rise from about −48 to −21 dB at 64.48–64.66 s (librosa onsets 64.39/64.56/64.61 s), followed by the voice's D-flat5 'year's' at about 65.26 s. The module's 52 s section marker and an earlier 56–57 s estimate fall inside the end of the preceding song and the pause. The first score attack is the piano's D-flat2 grace, whose own band is not measurable in this acoustic recording; the first window places it immediately before the chord rise, about 0.05 s (43/384 quarter) ahead — a documented placement, not a measurement of the grace. The final bar-29 chord is the only late event with a jump of the D-flat6/F6/D-flat7 band (−46 to −23 dB at 111.2 s); its F5 band rises at the same time. Numerical and visual inspection only; no aural review is claimed.",
+      "mappedAudioSeconds": 111.20018235483211,
+      "mappingDeviationSeconds": 0.00018235483210560233
+    }
+  ],
+  "adaptiveOnsetCount": 767,
+  "adaptiveMedianDeviation": 0.035488352037390314,
+  "gateReasons": [],
+  "elapsedSeconds": 0.216193717031274,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 29,
+    "notes": 995,
+    "voices": 5
+  },
+  "published": true,
+  "configSha256": "4fe3be7494659eb06444fb994774cb284ae7d825647ec5977e80bff99303b20e",
+  "sourceDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring/lc6212179.mxl",
+      "file": "lc6212179.mxl",
+      "sha256": "de6f04d0bebda71809ce9c42f77a6e04dd24c3e378dd9e66821bf20c9307e1e4"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/beach-years-at-the-spring-60.42-72.42.png",
+    "work/beach-years-at-the-spring-64-72.png",
+    "work/beach-years-at-the-spring-72-80.png",
+    "work/beach-years-at-the-spring-78.6148-90.6148.png",
+    "work/beach-years-at-the-spring-80-88.png",
+    "work/beach-years-at-the-spring-96-104.png",
+    "work/beach-years-at-the-spring-102.82-114.332.png",
+    "work/beach-years-at-the-spring-104-112.png",
+    "work/beach-years-at-the-spring-107.2-114.332.png"
+  ]
+}

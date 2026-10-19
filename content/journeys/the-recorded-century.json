@@ -1,10 +1,10 @@
 {
   "id": "the-recorded-century",
   "title": "The recorded century",
-  "subtitle": "Great performers at the horn and the microphone",
+  "subtitle": "Performers on record: acoustic horn and microphone",
   "minutes": 24,
-  "hero": { "file": "File:His Master's Voice.jpg", "caption": "Francis Barraud, <i>His Master’s Voice</i>, 1898–99. Nipper bends his ear towards a gramophone horn." },
-  "intro": "In Milan in 1902, Caruso and a pianist sent <i>Vesti la giubba</i> into a recording horn. In the 1920s, microphones were catching Rachmaninoff’s piano and Chaliapin’s bass voice, while the records preserved every lingering phrase and sudden rush.",
+  "hero": { "file": "File:His Master's Voice.jpg", "caption": "Francis Barraud, <i>His Master’s Voice</i>, 1898–99. Nipper the dog listens at the horn of a gramophone." },
+  "intro": "In Milan in 1902, Caruso and a pianist recorded <i>Vesti la giubba</i> into a recording horn. In the 1920s, microphones recorded Rachmaninoff’s piano playing and Chaliapin’s bass voice, and the records preserved every slowing and quickening of their phrasing.",
   "stations": [
     {
       "id": "s1",
@@ -15,12 +15,12 @@
       "map": null,
       "edge": null,
       "compare": "leoncavallo-vesti-caruso",
-      "text": "<p>Milan, 30 November 1902: Enrico Caruso sings <i>Vesti la giubba</i> with Salvatore Cottone at the piano. The two men have a horn to satisfy. Sound entering it vibrates a diaphragm, which moves the stylus cutting the groove; their voices and instruments supply the energy themselves. In acoustic studios, distance from the horn can decide whether an accompaniment survives or overwhelms the singer. Here Cottone’s piano makes separate, percussive sounds beneath Caruso’s sustained tenor. Leoncavallo’s clown Canio has to sing while his heart is breaking. The piano supplies his entire theatre.</p>",
+      "text": "<p>On 30 November 1902 in Milan, Enrico Caruso recorded <i>Vesti la giubba</i> with Salvatore Cottone at the piano. Both performed into a horn. Sound entering the horn vibrated a diaphragm, which moved the stylus cutting the groove, so the voices and instruments supplied all the energy themselves. In acoustic studios, a performer’s distance from the horn could determine whether an accompaniment was audible or overwhelmed the singer. On this recording Cottone’s piano plays separate, percussive notes beneath Caruso’s sustained tenor. In the aria, Leoncavallo’s clown Canio has to sing while his heart is breaking.</p>",
       "cues": [
-        { "at": 0, "text": "Cottone’s piano accompanies Caruso’s tenor; two musicians carry the scene." },
+        { "at": 0, "text": "Cottone accompanies Caruso at the piano; there are two performers." },
         { "at": 50, "text": "The tenor’s phrase grows again above the piano’s separate attacks." },
         { "at": 85, "text": "Caruso sustains the broad phrase while Cottone keeps the accompaniment moving." },
-        { "at": 108, "text": "Voice and piano bring the short side to its close." }
+        { "at": 108, "text": "Voice and piano close the short side." }
       ],
       "sources": [
         { "title": "Kolkowski, Miller and Blier-Carruthers: acoustic mechanism, balance and performer directions", "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/" },
@@ -32,19 +32,19 @@
     },
     {
       "id": "s2",
-      "title": "An orchestra behind the clown",
+      "title": "The clown with orchestral accompaniment",
       "listen": { "id": "leoncavallo-vesti-caruso-1907", "from": 0, "to": 142 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "leoncavallo-vesti-caruso",
-      "text": "<p>Now an orchestra surrounds Caruso. On this Victor side the instruments can sustain a phrase beneath his voice, where Cottone’s piano had to strike each note and let it fade. Canio begins with the recitative’s stunned outburst, then orders himself into his costume. In Leoncavallo’s <i>Pagliacci</i>, the audience has paid and expects to laugh; the performer must turn his own tears into the clown’s grimaces. Caruso’s long vowels stretch that impossible command into song. The orchestra holds the scene open around him as the melody broadens.</p>",
+      "text": "<p>Here an orchestra accompanies Caruso. On this Victor side the instruments can sustain a phrase beneath his voice, where Cottone’s piano had to strike each note and let it decay. Canio begins with the outburst of the recitative, then orders himself into his costume. In Leoncavallo’s <i>Pagliacci</i>, the audience has paid and expects to laugh, and the performer must turn his own tears into the clown’s grimaces. Caruso sings the command on long vowels. The orchestra plays beneath him as the melody broadens.</p>",
       "cues": [
         { "at": 0, "text": "Caruso begins Canio’s recitative, now with orchestral accompaniment." },
         { "at": 40, "text": "The voice eases before the next expansion of the phrase." },
-        { "at": 65, "text": "Sustained orchestral sounds surround the tenor’s melody." },
-        { "at": 105, "text": "Canio’s command to laugh becomes a long lament." }
+        { "at": 65, "text": "Sustained notes in the orchestra accompany the tenor’s melody." },
+        { "at": 105, "text": "Canio’s command to laugh, set as a long lament." }
       ],
       "sources": [
         { "title": "DAHR: Victor C-4317, original master and later dub distinction", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029" },
@@ -56,17 +56,17 @@
     },
     {
       "id": "s3",
-      "title": "Beethoven meets the side limit",
+      "title": "Beethoven and the side limit",
       "listen": { "id": "beethoven-5-first-nikisch-1913", "from": 0, "to": 182 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "beethoven-5-first",
-      "text": "<p>On 10 November 1913, Nikisch and the Berlin Philharmonic recorded Beethoven’s Fifth. Getting an orchestra into a groove required ingenuity. Stroh string instruments, fitted with aluminium horns, reinforced the ordinary strings and aimed their sound towards the recording horn. Nikisch also had to fit the music on the disc. At his broad pace, the first movement’s exposition repeat would have overrun the first side, so he left it out. Beethoven’s opening argument passes once, then presses onwards. The conductor can linger over a phrase; the groove is running out all the same.</p>",
+      "text": "<p>On 10 November 1913, Nikisch and the Berlin Philharmonic recorded Beethoven’s Fifth. Recording an orchestra acoustically called for special measures. Stroh string instruments, fitted with aluminium horns, reinforced the ordinary strings and directed their sound towards the recording horn. Nikisch also had to fit the music on the disc. At his broad tempo, the exposition repeat of the first movement would have overrun the first side, so he left it out, and the exposition is heard only once.</p>",
       "cues": [
-        { "at": 50, "text": "Nikisch and the Berlin Philharmonic are recording the complete symphony in a single day." },
-        { "at": 104, "text": "The exposition passes without its written repeat." }
+        { "at": 50, "text": "Nikisch and the Berlin Philharmonic recorded the complete symphony in a single day." },
+        { "at": 104, "text": "The exposition is played without its written repeat." }
       ],
       "sources": [
         { "title": "Science Museum Group Journal: Nikisch session, Stroh reinforcement, side capacity and omitted repeat", "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/" },
@@ -76,19 +76,19 @@
     },
     {
       "id": "s4",
-      "title": "Paderewski’s hands take their time",
+      "title": "Paderewski’s unhurried tempo",
       "listen": { "id": "chopin-nocturne-op15-2-paderewski", "from": 0, "to": 144 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "chopin-nocturne-op15-2",
-      "text": "<p>Paderewski recorded Chopin’s F♯ major Nocturne in New York on 14 May 1917. His hands often arrive separately: the accompaniment sounds, then the melody seems to lean into it. Chords can unfold from bottom to top. In his essay for Henry T. Finck’s <i>Success in Music and How It Is Won</i> (1909), Paderewski rejected, for soloists, the rule that time borrowed in one phrase must be paid back in another: “What is lost is lost.” Chopin’s <i>doppio movimento</i> brings a larger change, doubling the pace for the middle section.</p>",
+      "text": "<p>Paderewski recorded Chopin’s F♯ major Nocturne in New York on 14 May 1917. His hands often play separately: the accompaniment sounds first and the melody follows it. Chords can be spread from bottom to top. In his essay for Henry T. Finck’s <i>Success in Music and How It Is Won</i> (1909), Paderewski rejected, for soloists, the rule that time borrowed in one phrase must be paid back in another: “What is lost is lost.” Chopin’s <i>doppio movimento</i> doubles the pace for the middle section.</p>",
       "cues": [
-        { "at": 0, "text": "The melody leans into its accompaniment; Paderewski’s hands have room to arrive separately." },
-        { "at": 56, "text": "The upper line sings freely over the piano’s supporting notes." },
+        { "at": 0, "text": "The melody rests on its accompaniment, which leaves room for Paderewski to sound his hands separately." },
+        { "at": 56, "text": "The upper line plays the melody freely over the piano’s supporting notes." },
         { "at": 108, "text": "Chopin’s <i>doppio movimento</i> makes the middle section quicker." },
-        { "at": 136, "text": "The forceful middle begins to soften before the opening song returns." }
+        { "at": 136, "text": "The loud middle section gets quieter before the opening song returns." }
       ],
       "sources": [
         { "title": "DAHR: C-19781, take 1, New York, 14 May 1917", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700004863/C-19781-Nocturne_in_F_sharp_major" },
@@ -100,14 +100,14 @@
     },
     {
       "id": "s5",
-      "title": "Rachmaninoff for Edison",
+      "title": "Rachmaninoff’s Edison recordings",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 106, "to": 227.9 },
       "art": { "file": "File:Somov Sergei Rachmaninoff 1925.JPG", "caption": "Konstantin Somov, <i>Sergei Rachmaninoff</i>, 1925, six years after the pianist’s Edison session." },
       "score": null,
       "map": null,
       "edge": null,
       "compare": "rachmaninoff-prelude-c-sharp-minor",
-      "text": "<p>Rachmaninoff sat down for Edison in 1919 and recorded the Prelude that had followed him from Russia. The resulting Diamond Disc reached buyers in December 1920. We enter at the <i>Agitato</i>, where triplets carry the tune towards the huge return of the opening chords. The score spreads that return across four staves, though only two hands are playing. It is an extravagant amount of piano to fit on a small disc. Rachmaninoff then lets the chords subside into the quiet coda, leaving the last sounds widely spaced.</p>",
+      "text": "<p>Rachmaninoff recorded the Prelude for Edison in 1919; it was a piece that had followed him from Russia. The Diamond Disc was issued to buyers in December 1920. The excerpt begins at the <i>Agitato</i>, where triplets carry the tune towards the return of the opening chords. The score sets that return out on four staves, although only two hands are playing. The chords then die away into the quiet coda, and the last sounds are widely spaced.</p>",
       "cues": [
         { "at": 112, "text": "The melody runs through triplets towards the chordal return." },
         { "at": 138, "text": "The opening call returns across four printed staves and the pianist’s two hands." },
@@ -123,18 +123,18 @@
     },
     {
       "id": "s6",
-      "title": "A second sitting for the Prelude",
+      "title": "Prelude: second sitting",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor-victor-1921", "from": 94, "to": 209.59 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "rachmaninoff-prelude-c-sharp-minor",
-      "text": "<p>Two years later, Rachmaninoff made the Prelude again for Victor. The studio still recorded through a horn. His quick central passage arrives after the quiet opening and drives towards the familiar chords, now caught on another day by another company. He can press the triplets forwards and still give the returning chords ample room. In this performance the great return is already close when our excerpt begins. Beyond it, the coda draws the hands apart into quiet.</p>",
+      "text": "<p>Two years later, Rachmaninoff recorded the Prelude again, for Victor. The studio still recorded through a horn. The quick central passage follows the quiet opening and drives towards the familiar chords, here recorded on another day by another company. He presses the triplets forwards and still gives the returning chords ample room. In this performance the great return is already close when the excerpt begins. After it, in the coda, the hands move apart and the dynamic falls to quiet.</p>",
       "cues": [
-        { "at": 94, "text": "The agitated middle sets the piano moving after the quiet opening." },
-        { "at": 120, "text": "The broad returning chords gather across the keyboard." },
-        { "at": 174, "text": "The piano retreats from the great chords towards its quiet close." }
+        { "at": 94, "text": "After the quiet opening, the piano moves in the agitated middle section." },
+        { "at": 120, "text": "The broad chords return across the keyboard." },
+        { "at": 174, "text": "The piano moves from the large chords to a quiet close." }
       ],
       "sources": [
         { "title": "DAHR: B-25650 — 1921 sessions; two issued takes, with this transfer’s take unresolved", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700010909" },
@@ -146,18 +146,18 @@
     },
     {
       "id": "s7",
-      "title": "The microphone takes over",
+      "title": "The microphone",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor-victor-1928", "from": 92, "to": 210.86 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "rachmaninoff-prelude-c-sharp-minor",
-      "text": "<p>By the time Rachmaninoff returned to the Prelude in New York on 4 April 1928, Victor had changed its machinery. A microphone turned the piano’s sound into an electrical signal; amplification supplied the energy to drive the cutting stylus. Victor and Columbia had introduced the process commercially in 1925, capturing a wider range of sound. Rachmaninoff’s issued performance was take 23. The restless triplets and massive chords belong to a piece he had written thirty-six years earlier. At the end, the new apparatus catches the old Prelude withdrawing into its quiet coda.</p>",
+      "text": "<p>By the time Rachmaninoff returned to the Prelude in New York on 4 April 1928, Victor had changed its machinery. A microphone turned the piano’s sound into an electrical signal, and amplification supplied the energy to drive the cutting stylus. Victor and Columbia had introduced the process commercially in 1925; it captured a wider range of sound. The issued performance was take 23. Rachmaninoff had written the piece, with its triplets and heavy chords, thirty-six years earlier. It ends with a quiet coda.</p>",
       "cues": [
-        { "at": 92, "text": "The triplets begin their rush towards the returning chords." },
-        { "at": 155, "text": "The opening call rings out in the broad chordal passage." },
-        { "at": 178, "text": "The coda releases the force of the return, leaving soft chords." }
+        { "at": 92, "text": "The triplets lead into the return of the chords." },
+        { "at": 155, "text": "The opening call sounds in the broad chordal passage." },
+        { "at": 178, "text": "The coda drops from the loud dynamic of the return and ends on soft chords." }
       ],
       "sources": [
         { "title": "Library of Congress, Recorded Sound Timeline: microphone recording and Columbia/Victor’s 1925 introduction", "url": "https://www.loc.gov/static/managed-content/uploads/sites/6/2017/02/recorded_sound_timeline-2013.pdf" },
@@ -171,20 +171,20 @@
     },
     {
       "id": "s8",
-      "title": "Chaliapin’s prophet at the horn",
+      "title": "Chaliapin’s prophet, recorded at the horn",
       "listen": { "id": "rimsky-korsakov-prophet-chaliapin-1921", "from": 4, "to": 224 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "rimsky-korsakov-prophet",
-      "text": "<p>Hayes, 10 October 1921: Chaliapin records Rimsky-Korsakov’s <i>The Prophet</i>, with Percy Pitt conducting the orchestra. Pushkin’s 1826 poem begins with a thirsty wanderer in a dark desert. A six-winged angel opens his eyes and ears, tears out his tongue and replaces his heart with a burning coal. Chaliapin’s bass has to tell this terrible story before it can deliver God’s command. The opening is measured, almost spoken; the accompaniment starts to flow around the voice. At the end the score demands <i>con forza e maestoso</i>, forcefully and majestically. The wanderer has become a prophet.</p>",
+      "text": "<p>On 10 October 1921, at Hayes, Chaliapin recorded Rimsky-Korsakov’s <i>The Prophet</i>, with Percy Pitt conducting the orchestra. Pushkin’s poem of 1826 begins with a thirsty wanderer in a dark desert. A six-winged angel opens his eyes and ears, tears out his tongue and replaces his heart with a burning coal. The bass narrates these events before delivering God’s command. The opening is measured and close to speech. At the end the score is marked <i>con forza e maestoso</i>, forcefully and majestically.</p>",
       "cues": [
         { "at": 35, "text": "Chaliapin’s measured bass phrases open Pushkin’s vision." },
         { "at": 80, "text": "The voice continues above a flowing accompaniment." },
         { "at": 115, "text": "A quiet orchestral passage connects the sung phrases." },
-        { "at": 170, "text": "The measured pace of the opening returns." },
-        { "at": 200, "text": "The bass delivers the final command, marked <i>con forza e maestoso</i>." }
+        { "at": 170, "text": "The opening tempo returns." },
+        { "at": 200, "text": "The bass sings the final command, marked <i>con forza e maestoso</i>." }
       ],
       "sources": [
         { "title": "DAHR: Cc550, Chaliapin with Percy Pitt, 10 October 1921", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007905" },
@@ -197,21 +197,21 @@
     },
     {
       "id": "s9",
-      "title": "The prophet returns to the studio",
+      "title": "The prophet’s return to the studio",
       "listen": { "id": "rimsky-korsakov-prophet-chaliapin-1927", "from": 4, "to": 259 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "rimsky-korsakov-prophet",
-      "text": "<p>On 20 October 1927 Chaliapin recorded <i>The Prophet</i> in London with Albert Coates. Six years separate this electrical performance from the acoustic side with Percy Pitt. The same bass voice tells Pushkin’s story again, taking more time over the whole span. Quiet orchestral passages leave room between the great vocal declarations. When God finally speaks, the song turns outwards: the remade man must cross seas and lands, setting human hearts alight with his words. Chaliapin carries that command above the busy accompaniment. After his last syllable, the instruments keep running towards the final chords.</p>",
+      "text": "<p>On 20 October 1927 Chaliapin recorded <i>The Prophet</i> in London with Albert Coates, six years after the acoustic side with Percy Pitt. In this electrical recording he sings Pushkin’s text again and takes more time over the whole song. There are quiet orchestral passages between the main vocal declamations. In the last section God speaks, and the text turns outwards: the remade man is to cross seas and lands and set human hearts alight with his words. Chaliapin sings this command above a busy accompaniment. After his last syllable the orchestra continues to the final chords.</p>",
       "cues": [
         { "at": 40, "text": "Chaliapin shapes the opening in measured, speech-like phrases." },
-        { "at": 90, "text": "The accompaniment flows beneath the sustained bass line." },
+        { "at": 90, "text": "The accompaniment moves beneath the sustained bass line." },
         { "at": 130, "text": "A quiet orchestral passage leaves space between the vocal phrases." },
         { "at": 195, "text": "The opening pace returns before the final command." },
-        { "at": 225, "text": "The bass sings forcefully and majestically above the running accompaniment." },
-        { "at": 252, "text": "The accompaniment continues beyond the last sung phrase towards the closing chords." }
+        { "at": 225, "text": "The bass sings above the running accompaniment." },
+        { "at": 252, "text": "The accompaniment continues after the last sung phrase to the closing chords." }
       ],
       "sources": [
         { "title": "Swiss Foundation Public Domain: Chaliapin, Coates, 20 October 1927 and electrical transfer", "url": "https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022043" },

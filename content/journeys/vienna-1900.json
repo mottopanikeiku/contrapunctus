@@ -1,27 +1,27 @@
 {
   "id": "vienna-1900",
   "title": "Vienna, 1900",
-  "subtitle": "Mahler’s harp, Klimt’s embrace, and Schoenberg’s singing quartet",
+  "subtitle": "Mahler’s harp, Klimt’s embrace, Schoenberg’s sung quartet",
   "minutes": 23,
   "hero": {
     "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg",
-    "caption": "The lovers embrace at the end of Gustav Klimt’s <i>Beethoven Frieze</i>, painted for the Vienna Secession in 1902."
+    "caption": "The embracing lovers at the end of Gustav Klimt’s <i>Beethoven Frieze</i>, painted for the Vienna Secession in 1902."
   },
-  "intro": "In 1902 Mahler conducted Beethoven at the Secession, where Klimt had painted a world of monsters, longing and a final embrace. Six years later, a soprano stood beside the Rosé Quartet in Vienna and sang of air from another planet; part of the audience laughed.",
+  "intro": "In 1902 Mahler conducted Beethoven at the Secession, where Klimt had painted monsters, figures of longing and a final embrace. Six years later, in Vienna, a soprano performed with the Rosé Quartet and sang words about air from another planet. Part of the audience laughed.",
   "stations": [
     {
       "id": "s1",
-      "title": "Under the gilded dome",
+      "title": "The gilded dome",
       "listen": { "id": "mahler-5-adagietto", "from": 0, "to": 276 },
       "art": { "file": "File:Wiener Secessionsgebäude um 1900.jpg", "caption": "Joseph Maria Olbrich’s Secession building, photographed around 1900. Its gilded dome rose above the entrance to a glass-roofed exhibition hall." },
       "score": null,
       "map": { "composer": "mahler", "year": 1900 },
       "edge": null,
       "compare": null,
-      "text": "<p>On 29 October 1898, after six months of building, the Vienna Secession had its new home. Joseph Maria Olbrich’s gilded dome stood over the entrance; behind it lay a glass-roofed hall for the artists’ exhibitions. A few years later, Mahler’s Fifth Symphony made room for a smaller gathering of musicians: strings and a single harp. The Adagietto begins with soft violas and plucked harp notes. The first violins enter almost tentatively, then stretch their tune over the changing chords. Mahler marks their line <i>seelenvoll</i>, soulfully. Each leaning note takes its time before settling.</p>",
+      "text": "<p>The Vienna Secession’s new building opened on 29 October 1898, after six months of construction. Joseph Maria Olbrich’s gilded dome stood over the entrance, and behind it lay a glass-roofed hall for the artists’ exhibitions. A few years later Mahler scored the Adagietto of his Fifth Symphony for strings and a single harp. The movement begins with soft violas and plucked harp notes. The first violins enter quietly, then extend their melody over the changing chords. Mahler marked their line <i>seelenvoll</i>, soulfully. Each appoggiatura is held before it resolves.</p>",
       "cues": [
         { "at": 20, "text": "The first violins begin their long melody over the harp’s broken chords." },
-        { "at": 80, "text": "The violas and cellos carry the phrase while the first violins fall quiet." },
+        { "at": 80, "text": "The violas and cellos play the phrase while the first violins stop." },
         { "at": 175, "text": "The violin phrase broadens as the lower strings rise beneath it." }
       ],
       "sources": [
@@ -33,16 +33,16 @@
     },
     {
       "id": "s2",
-      "title": "Beethoven fills the Secession",
+      "title": "Beethoven at the Secession",
       "listen": { "id": "mahler-5-adagietto", "from": 276, "to": 415 },
       "art": { "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg", "caption": "Klimt’s embracing couple, 1902. The <i>Beethoven Frieze</i> ends with lovers, a choir and Schiller’s kiss for the whole world." },
       "score": null,
       "map": { "composer": "mahler", "year": 1902 },
       "edge": null,
       "compare": null,
-      "text": "<p>In April 1902, twenty-one artists filled the Secession with a tribute to Beethoven. Max Klinger’s statue occupied the main hall; Klimt’s frieze ran around three walls, ending in an embrace. At the preview on 14 April, the day before the exhibition opened to the public, Mahler conducted a wind arrangement from the Ninth Symphony’s finale. Beethoven was present in stone, paint and breath. Back in Mahler’s Adagietto, the middle section grows more flowing. The harp largely falls silent, and the first violins play on their dark G string. Their line presses upwards as the other strings gather around it.</p>",
+      "text": "<p>In April 1902, twenty-one artists filled the Secession with a tribute to Beethoven. Max Klinger’s statue occupied the main hall, and Klimt’s frieze ran around three walls, ending in an embrace. At the preview on 14 April, the day before the exhibition opened to the public, Mahler conducted a wind arrangement from the finale of the Ninth Symphony. In Mahler’s Adagietto, the middle section becomes more flowing. The harp largely stops, and the first violins play on the G string. Their line rises.</p>",
       "cues": [
-        { "at": 286, "text": "The more flowing middle begins with the first violins on their G string." },
+        { "at": 286, "text": "The more flowing middle section begins with the first violins playing on the G string." },
         { "at": 325, "text": "The strings carry the melody while the harp rests." }
       ],
       "sources": [
@@ -55,17 +55,17 @@
     },
     {
       "id": "s3",
-      "title": "A score sent to Alma",
+      "title": "Score sent to Alma",
       "listen": { "id": "mahler-5-adagietto", "from": 415, "to": 621.27 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>In his conducting score, Willem Mengelberg tells a story about these pages. Mahler sent the Adagietto to Alma Schindler as a declaration of love; she understood and asked him to come. Mengelberg added that both of them had told him about it. The melody returns here with the harp, as if resuming a conversation after a long interruption. Mahler makes the strings wait, then climb once more. Near the end, the violins reach high above the rising cellos. The harp finishes first; the bowed strings hold the last F major until it fades.</p>",
+      "text": "<p>In his conducting score, Willem Mengelberg recorded a story about these pages. Mahler sent the Adagietto to Alma Schindler as a declaration of love; she understood and asked him to come. Mengelberg added that both of them had told him about it. The melody returns here with the harp after a long interruption. The strings pause, then rise once more. Near the end, the violins play high above the rising cellos. The harp stops first; the bowed strings hold the last F major chord until it dies away.</p>",
       "cues": [
         { "at": 425, "text": "The opening melody returns with the harp’s broken chords." },
-        { "at": 555, "text": "High violins stretch the phrase above the rising cellos." },
+        { "at": 555, "text": "The violins hold the phrase in a high register above the rising cellos." },
         { "at": 602, "text": "The harp has stopped; the strings hold the closing F major." }
       ],
       "sources": [
@@ -76,14 +76,14 @@
     },
     {
       "id": "s4",
-      "title": "Brass answers the alto",
+      "title": "Alto and brass in exchange",
       "listen": { "id": "mahler-2-urlicht", "from": 0, "to": 160 },
       "art": { "file": "File:Gustav Klimt - Attersee - Google Art Project.jpg", "caption": "Gustav Klimt, <i>Attersee</i>, 1900. Mahler had worked on <i>Urlicht</i> at Steinbach, beside this lake, seven summers earlier." },
       "score": null,
       "map": { "composer": "mahler", "year": 1893 },
       "edge": null,
       "compare": null,
-      "text": "<p>At the end of an early orchestral manuscript of <i>Urlicht</i>, Mahler wrote the place and date: Steinbach, 19 July 1893. The song would become the fourth movement of his Second Symphony. Its poem came from the 1808 second volume of <i>Des Knaben Wunderhorn</i>, and Mahler gave it to an alto. Her first short phrase is answered by solemn brass chords, like a hymn beginning in a small church. The score asks for solemnity and simplicity. Later, the voice leaves a phrase unfinished, and the oboe completes it with a little turn.</p>",
+      "text": "<p>At the end of an early orchestral manuscript of <i>Urlicht</i>, Mahler wrote the place and date: Steinbach, 19 July 1893. The song became the fourth movement of his Second Symphony. Its poem came from the second volume of <i>Des Knaben Wunderhorn</i>, published in 1808, and Mahler set it for alto. Her first short phrase is answered by brass chords in the manner of a hymn. The score asks for solemnity and simplicity. Later the voice leaves a phrase unfinished, and the oboe completes it with a turn.</p>",
       "cues": [
         { "at": 20, "text": "The alto’s opening phrase is answered by hymn-like brass chords." },
         { "at": 130, "text": "The oboe completes the phrase with a turn." }
@@ -97,14 +97,14 @@
     },
     {
       "id": "s5",
-      "title": "Four strings leave the ground",
+      "title": "Four strings",
       "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 0, "to": 74 },
       "art": null,
       "score": null,
       "map": { "composer": "schoenberg", "year": 1908 },
       "edge": null,
       "compare": null,
-      "text": "<p>In the finale of Schoenberg’s Second Quartet, the strings begin alone. They rise and circle, each line slipping past the others. Schoenberg described this introduction as a departure from earth: the traveller passes through clouds, escaping gravity and the troubles left below. He wrote the quartet in 1907–08. Its earlier movements still have named keys, but here the familiar pull towards a home chord loosens. The two violins, viola and cello keep finding new combinations of notes. Before the soprano has sung a word, the journey in George’s poem is under way.</p>",
+      "text": "<p>In the finale of Schoenberg’s Second Quartet, the strings begin alone. The four lines rise and move around one another. Schoenberg described this introduction as a departure from earth, in which the traveller passes through clouds, escaping gravity and the troubles left below. He wrote the quartet in 1907–08. Its earlier movements still have named keys, but in this movement the pull towards a home chord weakens. The two violins, viola and cello play a succession of new combinations of notes before the soprano enters with George’s poem.</p>",
       "cues": [
         { "at": 0, "text": "Muted strings rise and circle through changing combinations of notes." }
       ],
@@ -123,7 +123,7 @@
       "map": null,
       "edge": "stefan-george--schoenberg-quartet-2",
       "compare": null,
-      "text": "<p>“Ich fühle Luft von anderem Planeten” — “I feel air from another planet.” The soprano begins Stefan George’s <i>Entrückung</i>, from his 1907 collection <i>Der siebente Ring</i>. Familiar faces fade in its darkness; the trees and paths the speaker loved grow so pale that he hardly knows them. Schoenberg gives the words to a fifth musician among the two violins, viola and cello. The strings continue their own lines around her. In his performance instructions he asks for a passage light as breath, with the voice distinguished by its colour. A human vowel can emerge from the four bowed instruments without overwhelming them.</p>",
+      "text": "<p>“Ich fühle Luft von anderem Planeten” — “I feel air from another planet.” The soprano begins with the opening line of Stefan George’s <i>Entrückung</i>, from his 1907 collection <i>Der siebente Ring</i>. In the poem, familiar faces fade in the darkness, and the trees and paths the speaker loved grow so pale that he hardly knows them. Schoenberg gave the words to a fifth musician, the soprano, who joins the two violins, viola and cello. The strings go on playing their own lines while she sings. In his performance instructions he asked for the passage to be as light as breath, with the voice set apart from the strings by its colour.</p>",
       "cues": [
         { "at": 75, "text": "The soprano enters with George’s words about air from another planet." },
         { "at": 145, "text": "The singer and strings continue their separate lines within the same phrase." }
@@ -146,8 +146,8 @@
       "text": "<p>From 1902, Freud’s waiting room at Berggasse 19 hosted the Wednesday Psychological Society. Six years later, on 21 December 1908, the Rosé Quartet and Marie Gutheil-Schoder gave the first performance of Schoenberg’s Second Quartet in the Bösendorfersaal. In his note for the Kolisch Quartet’s private recording, written in Los Angeles in 1936–37, Schoenberg remembered what happened. After the second movement began, “the greater part of the audience started to laugh”. The interruptions continued through both George settings. Gutheil-Schoder had to keep singing through them.</p>",
       "cues": [
         { "at": 215, "text": "The melody changes direction as the voice and strings exchange short phrases." },
-        { "at": 260, "text": "The voice and strings swell, then retreat into quieter phrases." },
-        { "at": 325, "text": "A surge of closely spaced notes subsides into quieter playing." }
+        { "at": 260, "text": "The voice and strings grow louder, then drop back to quieter phrases." },
+        { "at": 325, "text": "A rise of closely spaced notes falls back to quieter playing." }
       ],
       "sources": [
         { "title": "Sigmund Freud Museum: the first waiting room and Wednesday Psychological Society, from 1902", "url": "https://www.freud-museum.at/en/exhibitions-program/exhibition-details/articles/hidden-thoughts-of-a-visual-nature" },
@@ -157,16 +157,16 @@
     },
     {
       "id": "s8",
-      "title": "Mahler and Freud walk through Leiden",
+      "title": "Mahler and Freud in Leiden",
       "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 352, "to": 472 },
       "art": null,
       "score": null,
       "map": { "composer": "mahler", "year": 1910 },
       "edge": null,
       "compare": null,
-      "text": "<p>On 26 August 1910, Mahler met Freud in Leiden. His marriage to Alma was in crisis, and three earlier appointments had been cancelled. Freud was on holiday in the Netherlands, about to leave for Italy. Ernest Jones’s biography describes the two men walking through the city for four hours while they talked. In the quartet, the soprano is still travelling through George’s poem, with its chasms and clear, distant heights. The strings begin quietly again, gather force and subside. A further rise carries the music towards the end of her part.</p>",
+      "text": "<p>On 26 August 1910, Mahler met Freud in Leiden. His marriage to Alma was in crisis, and three earlier appointments had been cancelled. Freud was on holiday in the Netherlands, about to leave for Italy. Ernest Jones’s biography describes the two men walking through the city for four hours while they talked. In the quartet, the soprano is still singing George’s poem, with its chasms and clear, distant heights. The strings begin quietly again, grow louder and fall back. A further rise leads towards the end of her part.</p>",
       "cues": [
-        { "at": 360, "text": "The strings begin quietly again, their small movements gathering force." },
+        { "at": 360, "text": "The strings begin again quietly, and their small figures grow louder." },
         { "at": 425, "text": "The voice and strings rise once more before the soprano’s part ends." }
       ],
       "sources": [
@@ -178,18 +178,18 @@
     },
     {
       "id": "s9",
-      "title": "The hall falls quiet",
+      "title": "Silence in the hall",
       "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 472, "to": 627.9 },
       "art": null,
       "score": null,
       "map": null,
       "edge": "mahler--schoenberg-harmonielehre",
       "compare": null,
-      "text": "<p>The soprano stops and the four string players continue alone. This was the passage that finally quietened the audience at the premiere. Recalling it in Los Angeles in 1936–37, Schoenberg wrote: “Perhaps even my enemies and adversaries might have felt something here.” Three years after the quartet’s first performance, he dedicated his <i>Harmonielehre</i> to Mahler’s memory. The book taught harmony; the quartet had already ventured far beyond the comfort of its opening F♯ minor. At the end of this long coda, the strings find F♯ major and let the chord linger.</p>",
+      "text": "<p>The soprano stops and the four string players continue alone. This was the passage that finally quietened the audience at the premiere. Recalling it in Los Angeles in 1936–37, Schoenberg wrote: “Perhaps even my enemies and adversaries might have felt something here.” Three years after the quartet’s first performance, he dedicated his <i>Harmonielehre</i>, a book on harmony, to Mahler’s memory. The quartet had already moved far from the F♯ minor of its opening. At the end of this long coda the strings reach F♯ major and hold the chord.</p>",
       "cues": [
         { "at": 482, "text": "The four strings continue alone after the soprano’s last phrase." },
-        { "at": 550, "text": "The coda draws towards its final F♯ major." },
-        { "at": 590, "text": "The last major chord hangs in the air, then fades." }
+        { "at": 550, "text": "The coda moves towards its final F♯ major." },
+        { "at": 590, "text": "The last major chord is held, then fades." }
       ],
       "sources": [
         { "title": "Arnold Schönberg Center: instrumental coda and Schoenberg’s 1936–37 Los Angeles recollection, quoted here", "url": "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10" },

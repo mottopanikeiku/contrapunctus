@@ -25,13 +25,13 @@ export default {
       ]
     }
   },
-  "intro": "Pachmann fits two Chopin pieces onto this 1925 HMV side: the F major Étude, Op. 25 No. 3, followed by the C♯ minor Waltz. A pianist born in 1848 meets the new electrical recording process.",
+  "intro": "Vladimir de Pachmann recorded two Chopin pieces on this side of HMV DB 860 in 1925: the Étude in F major, Op. 25 No. 3, followed by the Waltz in C♯ minor, Op. 64 No. 2. Pachmann, born in 1848, made the recording by the new electrical process.",
   "sections": [
-    { "t": 0, "label": "A · The F major Étude", "m": "A", "mNote": "Four piano voices move in a galloping rhythm" },
-    { "t": 68, "label": "B · The Étude continues", "m": "B", "mNote": "The hands keep their quick sideways leaps" },
-    { "t": 117, "label": "C · The C♯ minor Waltz", "m": "C", "mNote": "Held melody notes above three-beat accompaniment" },
-    { "t": 164, "label": "D · Waltz melody and running quavers", "m": "D", "mNote": "The right hand alternates song and quick descending phrases" },
-    { "t": 262, "label": "E · The Waltz’s final chords", "m": "E", "mNote": "The shared record side ends in C♯ minor" }
+    { "t": 0, "label": "A · Étude in F major", "m": "A", "mNote": "Four piano voices move in a galloping rhythm" },
+    { "t": 68, "label": "B · Étude in F major continued", "m": "B", "mNote": "The quick sideways leaps in both hands continue." },
+    { "t": 117, "label": "C · Waltz in C♯ minor", "m": "C", "mNote": "Held melody notes above a three-beat accompaniment" },
+    { "t": 164, "label": "D · Waltz melody and running quavers", "m": "D", "mNote": "The right hand alternates the melody with quick descending phrases." },
+    { "t": 262, "label": "E · Waltz, closing chords in C♯ minor", "m": "E", "mNote": "The record side ends with the Waltz in C♯ minor." }
   ],
   "cues": [
     {
@@ -41,26 +41,26 @@ export default {
       "evidence": "Programme order: https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2. Étude’s four voices and lateral hand movements: https://en.wikipedia.org/wiki/Étude_Op._25,_No._3_(Chopin)"
     },
     {
-      "t": 68, "kind": "world", "title": "Pachmann meets the microphone",
-      "text": "At Hayes on 26 June 1925, Pachmann plays his own Baldwin for HMV. These sessions produce the company’s first electrical solo-piano recordings. In December, the critic K. K. complains about the new sound in <i>The Gramophone</i>, yet welcomes one improvement: “he does not utter a word the whole time.”",
+      "t": 68, "kind": "world", "title": "Electrical recording sessions, Hayes, 1925",
+      "text": "At Hayes on 26 June 1925, Pachmann recorded for HMV on his own Baldwin. These sessions produced the company’s first electrical solo-piano recordings. In <i>The Gramophone</i> that December, the critic K. K. complained about the new sound but welcomed one improvement: “he does not utter a word the whole time.”",
       "basis": "documented", "precision": "passage",
       "evidence": "Session and instrument documentation, quoting K. K., The Gramophone, December 1925, pp. 338–39: https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2"
     },
     {
-      "t": 117, "kind": "music", "title": "A waltz after the Étude",
-      "text": "The C♯ minor Waltz begins with a melody in paired notes, held across the bar line. Short curls answer it, above the left hand’s bass note and two chords. After the Étude’s bustling four voices, the piano settles into three beats.",
+      "t": 117, "kind": "music", "title": "Opening of the C♯ minor Waltz",
+      "text": "The C♯ minor Waltz begins with a melody in paired notes, held across the bar line. Short turning figures follow it, over a bass note and two chords in the left hand. The four voices of the Étude give way to three beats in the bar.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Waltz opening, Knute Snortum engraving (2023), p. 1. The established section boundary marks the change of work. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     },
     {
-      "t": 185, "kind": "world", "title": "Talking at the keyboard",
-      "text": "Onstage, Pachmann talks before playing and sometimes while playing. At Yale, an all-Chopin recital programme announces his Baldwin piano; the inside cover advertises Steinway. Even the printed programme has room for an argument.",
+      "t": 185, "kind": "world", "title": "Pachmann’s recital programme, Yale",
+      "text": "On stage, Pachmann talked before playing and sometimes while playing. The surviving programme of his all-Chopin recital at the Yale School of Music, which is undated, announced his Baldwin piano. Its inside cover carried an advertisement for Steinway.",
       "basis": "documented", "precision": "passage",
       "evidence": "Yale School of Music’s surviving programme and account of Pachmann’s stage manner: https://music.yale.edu/2009/04/03/from-the-archives-vladimir-de-pachmanns-all-chopin-recital-at-the-yale-school-of-music. The programme itself is undated."
     },
     {
-      "t": 262, "kind": "form", "title": "C♯ minor closes the side",
-      "text": "The waltz’s running tune carries the ending. Its descending quavers finally reach the C♯ minor cadence: the second piece, and the record side, end together.",
+      "t": 262, "kind": "form", "title": "Final cadence in C♯ minor",
+      "text": "The waltz’s running tune continues to the end. Its descending quavers reach the cadence in C♯ minor, which ends both the second piece and the record side.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Score, final Più mosso and cadence, p. 5. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     }

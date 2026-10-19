@@ -1,17 +1,17 @@
 {
   "id": "rachmaninoff-concerto-2-adagio",
-  "title": "Rachmaninoff and Richter: passing the song",
+  "title": "Piano Concerto No. 2, Adagio: Rachmaninoff and Richter",
   "composer": "rachmaninoff",
   "work": "Piano Concerto No. 2, Op. 18 — II. Adagio sostenuto, opening-side comparison only",
-  "question": "How do Rachmaninoff and Richter keep the Adagio’s song flowing as it passes from flute and clarinet to piano?",
-  "intro": "Muted strings make the short crossing from C minor into E major, and the piano begins to circle quietly. Flute and clarinet unfold a melody that the pianist will soon take over. Rachmaninoff and Stokowski recorded these opening phrases in Philadelphia in 1929; Richter and Wisłocki revisit them with the Warsaw Philharmonic in 1959.",
+  "question": "How do Rachmaninoff and Richter keep the Adagio’s melody continuous as it passes from flute and clarinet to piano?",
+  "intro": "Muted strings make the short modulation from C minor to E major, and the piano enters quietly with a repeated figure. Flute and clarinet play a melody that the piano later takes over. Rachmaninoff and Stokowski recorded these opening phrases in Philadelphia in 1929; Richter and Wisłocki recorded them with the Warsaw Philharmonic in 1959.",
   "group": "composer-performers",
   "recordings": [
     {
       "listen": "rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1",
       "label": "Rachmaninoff, Stokowski, Philadelphia Orchestra, 1929",
       "year": 1929,
-      "note": "The composer plays at Philadelphia’s Academy of Music on 10 April 1929; this opening side preserves the first take of this passage."
+      "note": "The composer played at Philadelphia’s Academy of Music on 10 April 1929; this opening side preserves the first take of the passage."
     },
     {
       "listen": "rachmaninoff-concerto-2-adagio",
@@ -23,19 +23,19 @@
   "reference": "rachmaninoff-concerto-2-adagio",
   "passages": [
     {
-      "label": "The piano begins to circle",
+      "label": "Broken-chord figures in E major",
       "t": 20,
-      "note": "The strings settle into E major, and the piano opens the chord into quiet, circling notes. The wind melody is still to come."
+      "note": "The strings move to E major, and the piano plays the chord as quiet, repeated broken-chord figures. The wind melody enters later."
     },
     {
-      "label": "Clarinet above the moving piano",
+      "label": "Clarinet melody over piano arpeggios",
       "t": 100,
-      "note": "The clarinet’s long melody floats over the piano’s even arpeggios; the strings sustain the harmony beneath them."
+      "note": "The clarinet plays the long melody over even arpeggios in the piano; the strings hold the harmony beneath them."
     },
     {
-      "label": "The pianist takes the song",
+      "label": "Melody in the piano",
       "t": 180,
-      "note": "The piano now carries the song in its upper notes, while the clarinet supplies quick figures around it."
+      "note": "The piano now plays the melody in its upper notes, while the clarinet plays quick figures around it."
     }
   ],
   "alignment": {

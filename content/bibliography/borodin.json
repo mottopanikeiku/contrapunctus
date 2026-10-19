@@ -1,0 +1,42 @@
+{
+  "id": "borodin",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Alfred Habets, *Borodin and Liszt: I. Life and Works of a Russian Composer; II. Liszt, as Sketched in the Letters of Borodin*, translated by Rosa Newmarch (London: Digby, Long, second edition, c. 1896).",
+      "url": "https://archive.org/details/borodinlisztilif00habe",
+      "kind": "biography and letters",
+      "note": "The book covers what Borodin wrote about his work, his wife and Liszt. The second part prints his letters from Weimar in 1877 and 1881, and the first part quotes his letters on Prince Igor and the Belgian concerts."
+    },
+    {
+      "cite": "Nikolay Rimsky-Korsakov, *My Musical Life*, translated by Judah A. Joffe, edited by Carl Van Vechten (New York: Knopf, 1923).",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf",
+      "kind": "memoir",
+      "note": "Rimsky-Korsakov described how the composers around Balakirev worked together and how Prince Igor was completed, including Borodin’s flat, the tableaux of 1879–80 and the sorting of the manuscripts in 1887."
+    },
+    {
+      "cite": "Serge Dianin, *Borodin* (London and New York: Oxford University Press, 1963).",
+      "url": "https://archive.org/details/borodin0000dian",
+      "kind": "biography",
+      "note": "The chapters follow the life from 1833 to 1887, then take the symphonies, chamber and piano music, songs, Mlada and Prince Igor in turn; a list of works is appended."
+    },
+    {
+      "cite": "Stephen Walsh, “Who Was Alexander Borodin? A Brief Introduction”, Chamber Music Society of Lincoln Center.",
+      "url": "https://www.chambermusicsociety.org/about-the-music/composers/alexander-borodin",
+      "kind": "introduction",
+      "note": "Walsh gives a short account of his two careers and of the chamber music, covering the circle around Balakirev, the two quartets and the unfinished Igor in a few pages."
+    },
+    {
+      "cite": "Takashi Okazoe, “Overview on the history of organofluorine chemistry from the viewpoint of material industry”, *Proceedings of the Japan Academy, Series B* 85 (2009), beginning on p. 276.",
+      "url": "https://www.jstage.jst.go.jp/article/pjab/85/8/85_8_276/_pdf",
+      "kind": "history of chemistry",
+      "note": "The opening section deals with Borodin’s place in chemistry. It describes his halogen exchange with fluoride, reported in 1862, as the first synthesis of an organofluorine compound by that route."
+    },
+    {
+      "cite": "Harlow Robinson, “Overture to Prince Igor”, programme note, Boston Symphony Orchestra.",
+      "url": "https://www.bso.org/works/overture-to-prince-igor",
+      "kind": "programme note",
+      "note": "The note sets out how much of Prince Igor is Borodin’s: what he had orchestrated, what Rimsky-Korsakov and Glazunov supplied, and how Glazunov wrote the overture from memory."
+    }
+  ]
+}

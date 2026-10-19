@@ -1,27 +1,27 @@
 export default {
-  "intro": "Muriel Nguyen Xuan plays Chopin’s <i>Minute Waltz</i> on a Yamaha grand, recorded by Stéphane Magnenat in 2007. Between its whirling outer passages, a melody marked <i>sostenuto</i> stretches out over the same three-beat bass.",
+  "intro": "Muriel Nguyen Xuan plays Chopin’s Waltz in D♭ major, Op. 64 No. 1, the <i>Minute Waltz</i>, on a Yamaha grand, in a recording made by Stéphane Magnenat in 2007. Between the fast outer sections, a melody marked <i>sostenuto</i> runs over the same three-beat bass.",
   "sections": [
-    { "t": 0, "label": "A · The right hand circles", "m": "A", "mNote": "The bass joins after four unaccompanied bars" },
-    { "t": 38, "label": "B · A melody in longer notes", "m": "B", "mNote": "Sostenuto above the left hand’s three beats" },
-    { "t": 70, "label": "A′ · Trills lead back to quavers", "m": "A′", "mNote": "The left hand rests before the running figure returns" },
-    { "t": 110, "label": "Coda · The piano runs downhill", "m": "Coda", "mNote": "A long descending scale reaches the final D♭" }
+    { "t": 0, "label": "A · right-hand circling figure", "m": "A", "mNote": "The bass enters after four unaccompanied bars." },
+    { "t": 38, "label": "B · Sostenuto melody in longer notes", "m": "B", "mNote": "Sostenuto melody above the left hand’s three beats." },
+    { "t": 70, "label": "A′ · Trills, return of quaver theme", "m": "A′", "mNote": "The left hand rests before the running figure returns." },
+    { "t": 110, "label": "Coda · Descending scale to D♭", "m": "Coda", "mNote": "A long descending scale ends on the final D♭." }
   ],
   "cues": [
     {
-      "bar": { "n": "1", "occ": 1 }, "kind": "music", "title": "A small circle",
-      "text": "<i>Molto vivace</i>, very lively; <i>leggiero</i>, lightly. Chopin starts with quavers turning around A♭. The left hand waits four bars, then adds a bass note and two chords to each bar. The right hand soon escapes upwards into a tune.",
+      "bar": { "n": "1", "occ": 1 }, "kind": "music", "title": "Opening, bars 1–12",
+      "text": "<i>Molto vivace</i>, very lively; <i>leggiero</i>, lightly. Chopin begins with quavers turning around A♭. The left hand rests for four bars, then plays a bass note and two chords in each bar, and the right hand soon rises into a tune.",
       "basis": "score-aligned", "precision": "passage",
       "evidence": "Peters edition, bars 1–12, including the opening markings. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
     },
     {
-      "t": 40, "kind": "world", "title": "Two microphones and a piano",
-      "text": "Nguyen Xuan sits at a Yamaha grand; Magnenat records with two AKG microphones and Audacity running on Linux. They put both their names on the recording and make it freely shareable. The piano reaches this page through their 2007 collaboration.",
+      "t": 40, "kind": "world", "title": "Nguyen Xuan and Magnenat recording, 2007",
+      "text": "Nguyen Xuan played a Yamaha grand, and Magnenat recorded her with two AKG microphones and Audacity running on Linux. The recording dates from their collaboration in 2007. They released it under both their names with a licence that allows free sharing.",
       "basis": "documented", "precision": "passage",
       "evidence": "The original recording’s embedded description lists the piano, microphones and software; the licence names both collaborators. https://commons.wikimedia.org/wiki/File:Muriel-Nguyen-Xuan-Chopin-valse-opus64-1.ogg"
     },
     {
-      "bar": { "n": "121", "occ": 1 }, "kind": "music", "title": "Twenty-four notes downhill",
-      "text": "The right hand leaps high, then runs down through twenty-four notes. The left hand leaves most of that descent bare. At the bottom, a final D♭ and a firm bass chord shut the waltz.",
+      "bar": { "n": "121", "occ": 1 }, "kind": "music", "title": "Final descent and cadence",
+      "text": "The right hand leaps up an octave, then runs down through a group of twenty-four notes. For most of the descent the left hand does not play. The waltz ends on a D♭ in the right hand over a bass chord, closing in D♭ major.",
       "basis": "score-aligned", "precision": "moment",
       "evidence": "Peters edition, bars 121–125: octave displacement and the descending group marked 24, followed by the final D♭ major cadence. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=483"
     }

@@ -19,39 +19,39 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, I (Anderson, Monteux, 1950).ogg"
   },
-  "intro": "Marian Anderson sings the first <i>Kindertotenlied</i> with Pierre Monteux and the San Francisco Symphony in 1950. Between the oboe and horn at the start and the small bells at the end, Rückert’s father watches a morning that has no knowledge of his loss.",
+  "intro": "Marian Anderson sings “Nun will die Sonn’ so hell aufgeh’n”, the first of the <i>Kindertotenlieder</i>, with Pierre Monteux and the San Francisco Symphony in 1950. The song opens with oboe and horn and ends with small bells, and Rückert’s text sets a father’s loss against the rising morning sun.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Oboe and horn before dawn",
+      "label": "A · Oboe and horn",
       "m": "A",
-      "mNote": "The contralto joins two bare wind lines"
+      "mNote": "The contralto enters over two wind lines."
     },
     {
       "t": 74,
-      "label": "A′ · One father’s night",
+      "label": "A′ · Voice with flute and bassoon",
       "m": "A′",
-      "mNote": "Flute doubles the voice; bassoon repeats rising steps"
+      "mNote": "Flute doubles the voice; bassoon repeats rising steps."
     },
     {
       "t": 134,
-      "label": "B · The violins reach towards light",
+      "label": "B · Violins",
       "m": "B",
-      "mNote": "Horn and voice exchange the opening phrases"
+      "mNote": "Horn and voice alternate the opening phrases."
     },
     {
       "t": 200,
       "label": "A″ · The little lamp",
       "m": "A″",
-      "mNote": "Oboe, flute and glockenspiel surround the last couplet"
+      "mNote": "Oboe, flute and glockenspiel accompany the last couplet."
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Two winds, then Anderson",
-      "text": "A horn moves slowly beneath the oboe’s questioning little steps. Anderson joins them with the sun’s return: “Nun will die Sonn’ so hell aufgeh’n” — now the sun will rise so brightly. The first page has almost nothing between the contralto and these two wind instruments.",
+      "title": "Opening, oboe, horn and contralto",
+      "text": "A horn moves slowly beneath the oboe’s short steps. Anderson enters with the line “Nun will die Sonn’ so hell aufgeh’n” (now the sun will rise so brightly). On the first page there is little scoring besides the contralto and these two wind instruments.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, p. 3; Rückert’s opening line, our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -59,8 +59,8 @@ export default {
     {
       "t": 38,
       "kind": "world",
-      "title": "Rückert’s two children",
-      "text": "Friedrich Rückert’s children Luise and Ernst die on 31 December 1833 and 16 January 1834. In grief he writes more than four hundred poems, none meant for print. Mahler later picks five of them.",
+      "title": "Deaths of Rückert’s children",
+      "text": "Friedrich Rückert’s children Luise and Ernst died on 31 December 1833 and 16 January 1834. In his grief he wrote more than four hundred poems, none meant for print. Mahler later chose five of them.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Reinhold Kubik, Universal Edition introduction to Kindertotenlieder (autumn 2008), gives the two dates and the 400-odd poems, published after Rückert’s death: https://www.universaledition.com/en/Kindertotenlieder/P0045027. The Mahler Foundation counts 428 poems and says they were not intended for publication: https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/"
@@ -68,8 +68,8 @@ export default {
     {
       "t": 74,
       "kind": "form",
-      "title": "The sun belongs to everyone",
-      "text": "The second couplet sets the father’s “mir allein” — me alone — against a sun that shines on everyone. Mahler brings the opening back with a flute beside Anderson’s line and the bassoon below. The melody now puts its stress on the bereaved person.",
+      "title": "Second couplet, return of the opening",
+      "text": "The second couplet sets the father’s “mir allein” (me alone) against a sun that shines on everyone. Mahler brings back the opening with a flute doubling Anderson’s line and the bassoon below. The vocal rhythm is changed so that the stress falls on the bereaved person.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 6–8; Rückert’s second couplet, our translation. Woltjer explains the changed vocal rhythm and flute doubling: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler1.html"
@@ -77,8 +77,8 @@ export default {
     {
       "t": 134,
       "kind": "form",
-      "title": "The horn remembers",
-      "text": "The horn carries the melody the voice sang earlier. Anderson has a new line against it, and the oboe presses upwards. At “ew’ge Licht” — eternal light — Mahler lets the phrase spread through the violins and outlast the sung words.",
+      "title": "Third couplet, horn melody",
+      "text": "The horn plays the melody the voice sang earlier. Anderson sings a new line against it, and the oboe rises. At “ew’ge Licht” (eternal light) the phrase passes to the violins and continues after the sung words end.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 9–14, third couplet; our translation. Woltjer discusses the horn’s vocal theme and the instrumental continuation: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler1.html"
@@ -86,8 +86,8 @@ export default {
     {
       "t": 168,
       "kind": "world",
-      "title": "One cycle, not five numbers",
-      "text": "A footnote on the first page of the score asks that the five songs be treated as one inseparable whole. Their continuity is to be kept, Mahler adds, even against the applause that would normally follow a “number”.",
+      "title": "Footnote in the full score, 1905",
+      "text": "In a footnote on the first page of the score, Mahler asked that the five songs be treated as one inseparable whole. He added that their continuity was to be kept even against the applause that would normally follow a “number”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), printed p. 3, footnote: “Diese 5 Gesänge sind als ein einheitliches, untrennbares Ganzes gedacht …”; our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 The same instruction is printed on the title page of the 1905 vocal score: https://www.mahlercat.org.uk/Pages/KtL/KtLprints.htm"
@@ -95,8 +95,8 @@ export default {
     {
       "t": 200,
       "kind": "form",
-      "title": "A lamp in the tent",
-      "text": "The last couplet brings the loss down to the size of a lamp: “Ein Lämplein verlosch in meinem Zelt” — a little lamp went out in my tent. The opening melody returns, with oboe and flute close around the contralto.",
+      "title": "Final couplet, return of opening melody",
+      "text": "The last couplet sets the line “Ein Lämplein verlosch in meinem Zelt” (a little lamp went out in my tent). The opening melody returns, with oboe and flute playing close around the contralto.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 14–17; Rückert’s final couplet, our translation. The section boundary marks the returning passage."
@@ -104,8 +104,8 @@ export default {
     {
       "t": 266,
       "kind": "music",
-      "title": "Small bells after the voice",
-      "text": "Anderson’s last phrase salutes the world’s joyful light. Harp and glockenspiel keep going after the voice stops. The score ends with an entire bar of silence, held under fermatas.",
+      "title": "Closing bars, harp and glockenspiel",
+      "text": "Anderson’s last phrase salutes the world’s joyful light. Harp and glockenspiel continue after the voice stops. The score ends with a full bar of rests under fermatas.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 17: final words, harp and glockenspiel, then a bar of rests with fermatas. The existing late cue lies within this closing passage."
@@ -115,11 +115,11 @@ export default {
     {
       "id": "second-stanza",
       "title": "The oboe returns over the harp",
-      "from": "A · Oboe and horn before dawn",
-      "to": "A′ · One father’s night",
+      "from": "A · Oboe and horn",
+      "to": "A′ · Voice with flute and bassoon",
       "at": { "t": 74 },
       "span": [64, 86],
-      "how": "<p>The oboe begins its opening phrase again while the harp rocks on D-minor notes. Glockenspiel taps continue above. The shortened introduction leads to a changed vocal rhythm, with the flute doubling Anderson and the bassoon repeating C♯–D below.</p>",
+      "how": "<p>The oboe begins its opening phrase again while the harp alternates between D-minor notes. The glockenspiel continues its single strokes above. The shortened introduction leads to a changed vocal rhythm, with the flute doubling Anderson and the bassoon repeating C♯–D below.</p>",
       "devices": ["motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -128,11 +128,11 @@ export default {
     {
       "id": "middle-expansion",
       "title": "Horn and contralto exchange phrases",
-      "from": "A′ · One father’s night",
-      "to": "B · The violins reach towards light",
+      "from": "A′ · Voice with flute and bassoon",
+      "to": "B · Violins",
       "at": { "t": 134 },
       "span": [124, 146],
-      "how": "<p>The horn prolongs the second couplet’s closing phrase over low clarinet and bassoon. Oboe figures climb into the next passage. The horn then takes the earlier vocal tune, while the contralto answers it and the harmony moves between D minor and D major.</p>",
+      "how": "<p>The horn extends the closing phrase of the second couplet over low clarinet and bassoon. Rising oboe figures lead into the next passage. The horn then plays the earlier vocal tune, the contralto sings alternate phrases with it, and the harmony moves between D minor and D major.</p>",
       "devices": ["motivic link", "sequence", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -140,12 +140,12 @@ export default {
     },
     {
       "id": "last-stanza",
-      "title": "The oboe’s first phrase, softly",
-      "from": "B · The violins reach towards light",
+      "title": "Return of the oboe’s first phrase",
+      "from": "B · Violins",
       "to": "A″ · The little lamp",
       "at": { "t": 200 },
       "span": [190, 212],
-      "how": "<p>The flute softens its running notes around the oboe’s returning melody. Horns sustain below, and the glockenspiel marks the spaces between phrases. Mahler writes <i>zurückkehrend</i> — returning — before the last couplet takes up the D-minor tune again.</p>",
+      "how": "<p>The flute plays its running notes more softly around the returning oboe melody. The horns hold notes below, and the glockenspiel plays between the phrases. Mahler marks the passage <i>zurückkehrend</i> (returning), and the D-minor tune returns for the last couplet.</p>",
       "devices": ["decrescendo", "retransition", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -186,7 +186,7 @@ export default {
         "lead": [
           "oboes"
         ],
-        "note": "Opening duet: oboe above the first horn; the voice and strings wait."
+        "note": "Opening duet: oboe above the first horn, without voice or strings."
       },
       {
         "t": 32,
@@ -216,7 +216,7 @@ export default {
           "solo-voice",
           "oboes"
         ],
-        "note": "The oboe’s opening phrase returns as the father names the loss that belongs to him alone."
+        "note": "The oboe’s opening phrase returns as the father sings of his own loss."
       },
       {
         "t": 166,
@@ -231,7 +231,7 @@ export default {
           "solo-voice",
           "violins-1"
         ],
-        "note": "The first violins enter with a high melody as the voice turns towards eternal light."
+        "note": "The first violins enter with a high melody as the voice reaches the words about eternal light."
       },
       {
         "t": 200,
