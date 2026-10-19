@@ -1070,13 +1070,137 @@
         "from": "Saint-Saëns’s piano classes at the École Niedermeyer, Paris, from 1861",
         "to": "Fauré’s early mélodies and piano works"
       },
-      "claim": "<p>Gabriel Fauré boarded at the École Niedermeyer in Paris from the age of nine, trained as church organist and choirmaster; Louis Niedermeyer himself taught piano, plainsong and composition. When Niedermeyer died in March 1861, saint-saens took charge of piano studies and introduced the pupils to contemporary music, including that of Schumann, Liszt and Wagner. Fauré recalled this in old age, and Saint-Saëns remained a lifelong friend; in 1877 he took Fauré to Weimar to meet [[liszt]].</p>",
+      "claim": "<p>Gabriel Fauré boarded at the École Niedermeyer in Paris from the age of nine, trained as church organist and choirmaster; Louis Niedermeyer himself taught piano, plainsong and composition. When Niedermeyer died in March 1861, [[saint-saens|Saint-Saëns]] took charge of piano studies and introduced the pupils to contemporary music, including that of Schumann, Liszt and Wagner. Fauré recalled this in old age, and Saint-Saëns remained a lifelong friend; in 1877 he took Fauré to Weimar to meet [[liszt]].</p>",
       "status": "documented",
       "sources": [
         {
           "title": "Gabriel Fauré (Wikipedia): the École Niedermeyer; Saint-Saëns; Weimar",
           "url": "https://en.wikipedia.org/wiki/Gabriel_Faur%C3%A9",
           "locator": "sections on early life and education"
+        },
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1853–1867",
+          "url": "https://camille-saint-saens.org/1853-1867/",
+          "locator": "1861: appointed piano professor at the École Niedermeyer until March 1865; pupils include Fauré; Fauré’s testimony that he played new scores by Chopin, Liszt, Schumann and Wagner"
+        }
+      ]
+    },
+    {
+      "id": "liszt-weimar--saint-saens-samson-et-dalila-1877",
+      "from": "liszt",
+      "to": "saint-saens",
+      "kind": "championed",
+      "year": 1877,
+      "title": "Liszt gets Samson et Dalila staged at Weimar",
+      "works": {
+        "from": "Liszt’s promise at Weimar, June 1870, and the court theatre’s production",
+        "to": "Saint-Saëns, Samson et Dalila, Op. 47 (Weimar, 2 December 1877)"
+      },
+      "claim": "<p>In June 1870 [[saint-saens|Saint-Saëns]] went to Weimar for the Beethoven centenary. [[liszt]] talked with him at length, urged him to finish <i>Samson et Dalila</i> and promised to have it staged there. Paris opera directors refused a biblical subject. Liszt kept his word: the Grand-Ducal Theatre gave the first performance on 2 December 1877, in German, under Eduard Lassen. Saint-Saëns wrote that without Liszt, “who did not know a note of it”, the opera “would never have seen the light”. The Paris Opéra staged it on 23 November 1892.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1868–1874",
+          "url": "https://camille-saint-saens.org/1868-1874/",
+          "locator": "1870: invited to Weimar for the Beethoven centenary; long discussion with Liszt, who urges him to finish Samson et Dalila and promises a Weimar production"
+        },
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1875–1881",
+          "url": "https://camille-saint-saens.org/1875-1881/",
+          "locator": "2 December 1877: creation at the Grand-Ducal Theatre, Weimar, in German, under Eduard Lassen"
+        },
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1889–1893",
+          "url": "https://camille-saint-saens.org/1889-1893/",
+          "locator": "23 November 1892: Samson et Dalila at the Paris Opéra, fifteen years after Weimar"
+        },
+        {
+          "title": "Saint-Saëns, Musical Memories, trans. Edwin Gile Rich (Boston: Small, Maynard, 1919), Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/16459/pg16459.txt",
+          "locator": "Chapter IV, “The History of an Opéra-Comique”: ‘Without the aid of Liszt, who did not know a note of it …’"
+        }
+      ]
+    },
+    {
+      "id": "saint-saens-organ-symphony--liszt-memorial-dedication-1886",
+      "from": "saint-saens",
+      "to": "liszt",
+      "kind": "dedicated",
+      "year": 1886,
+      "title": "Saint-Saëns dedicates the Organ Symphony to Liszt’s memory",
+      "works": {
+        "from": "Saint-Saëns, Symphony No. 3 in C minor, Op. 78 (first performed in London, 19 May 1886)",
+        "to": "The dedication “à la mémoire de Franz Liszt” (Liszt died on 31 July 1886)"
+      },
+      "claim": "<p>[[saint-saens|Saint-Saëns]] had meant to dedicate his new symphony to [[liszt]], who had done more than anyone to further his early career and had staged <i>Samson et Dalila</i> at Weimar. Saint-Saëns conducted the first performance himself at St James’s Hall, London, on 19 May 1886, after playing a Beethoven concerto in the first half. Liszt died on 31 July, and the published dedication reads <i>à la mémoire de Franz Liszt</i>, where Saint-Saëns had meant <i>à Franz Liszt</i>.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hugh Macdonald, programme note on Saint-Saëns’s Symphony No. 3, Boston Symphony Orchestra",
+          "url": "https://www.bso.org/works/saint-saens-symphony-no-3-organ-symphony",
+          "locator": "Paragraph on the dedication, intended “à Franz Liszt” and published “à la mémoire de Franz Liszt”, and the London premiere"
+        },
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1882–1888",
+          "url": "https://camille-saint-saens.org/1882-1888/",
+          "locator": "19 May 1886: London, St James’s Hall; Saint-Saëns plays Beethoven’s G major concerto and conducts the creation of the Third Symphony, commissioned by the Philharmonic Society"
+        },
+        {
+          "title": "Symphony No. 3 (Saint-Saëns), Wikipedia (citing Fallon, 1973)",
+          "url": "https://en.wikipedia.org/wiki/Symphony_No._3_(Saint-Sa%C3%ABns)",
+          "locator": "Premiere on 19 May 1886; Liszt’s death on 31 July 1886; the dedication to his memory and Liszt’s letter of 19 June 1886 acknowledging the intended dedication"
+        }
+      ]
+    },
+    {
+      "id": "rossini-otello--saint-saens-samson-storm",
+      "from": "rossini",
+      "to": "saint-saens",
+      "kind": "modelled",
+      "year": 1877,
+      "title": "Rossini’s Otello storm becomes Samson’s thunder",
+      "works": {
+        "from": "Rossini, Otello (1816): the tempest of the last act, as sung at the Conservatoire",
+        "to": "Saint-Saëns, Samson et Dalila, Act II (first staged 1877)"
+      },
+      "claim": "<p>At the old Paris Conservatoire the pupils gave dramatic recitals of works outside the usual repertoire, among them the last act of [[rossini|Rossini]]’s <i>Otello</i>. [[saint-saens|Saint-Saëns]], a student there, remembered that its tempest “gave me the idea of the one which rumbles through the second act of <i>Samson</i>”.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Saint-Saëns, Musical Memories, trans. Edwin Gile Rich (Boston: Small, Maynard, 1919), Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/16459/pg16459.txt",
+          "locator": "Chapter II, “The Old Conservatoire”: dramatic recitals, Rossini’s Otello and the tempest in Samson"
+        },
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1835–1852",
+          "url": "https://camille-saint-saens.org/1835-1852/",
+          "locator": "1848–49: enters the Conservatoire organ class under François Benoist"
+        }
+      ]
+    },
+    {
+      "id": "faure-tantum-ergo--saint-saens-piano-concerto-2-1868",
+      "from": "faure",
+      "to": "saint-saens",
+      "kind": "quoted",
+      "year": 1868,
+      "title": "Saint-Saëns borrows a theme Fauré set aside",
+      "works": {
+        "from": "Fauré, a theme he decided against using in an early Tantum ergo",
+        "to": "Saint-Saëns, Piano Concerto No. 2 in G minor, Op. 22, first movement"
+      },
+      "claim": "<p>The principal theme of the first movement of [[saint-saens|Saint-Saëns]]’s Second Piano Concerto came from [[faure]], his former pupil at the École Niedermeyer, who had decided against using it in an early <i>Tantum ergo</i>. The movement opens with a long solo passage, a homage to Bach that began in the composer’s organ improvisations. Saint-Saëns was the soloist at the first performance, at the Salle Pleyel on 13 May 1868 with Anton Rubinstein conducting, and played the concerto more often than any other of his own.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Phillip Borg-Wheeler, booklet note to Saint-Saëns: The Complete Works for Piano and Orchestra (Hyperion CDA67331/2, 2001)",
+          "url": "https://www.hyperion-records.co.uk/notes/67331-B.pdf",
+          "locator": "Paragraph on the Second Piano Concerto: the Bach-like opening and the theme borrowed from Fauré"
+        },
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1868–1874",
+          "url": "https://camille-saint-saens.org/1868-1874/",
+          "locator": "13 May 1868: creation of the Concerto No. 2 at the Salle Pleyel, Rubinstein conducting; the concerto he replayed most often"
         }
       ]
     },
@@ -2071,13 +2195,6 @@
       "dates": "1834–1873",
       "year": 1834,
       "kind": "painter"
-    },
-    {
-      "id": "saint-saens",
-      "name": "Camille Saint-Saëns",
-      "dates": "1835–1921",
-      "year": 1835,
-      "kind": "composer"
     },
     {
       "id": "balakirev",

@@ -76,6 +76,15 @@ export default {
       "evidence": "Shedlock–Dunn score, Chaconne, bars 49–64, printed pp. 50–51: the basso rests throughout; violin rests and viola entries alternate."
     },
     {
+      "t": 92,
+      "kind": "world",
+      "title": "A spoken play with music",
+      "text": "In May 1692 London’s Queen’s Theatre at Dorset Garden stages <i>The Fairy Queen</i>: Shakespeare’s <i>A Midsummer Night’s Dream</i>, adapted and spoken, with a masque of music in each of the later acts. After Purcell’s death the score is lost. It reappears in the library of the Royal Academy of Music before the Purcell Society prints it in 1903.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Preface to The Works of Henry Purcell, vol. XII (Purcell Society, ed. J. S. Shedlock, Novello, 1903), pp. i–iv: an anonymous adaptation of A Midsummer Night’s Dream produced at the Queen’s (formerly the Dorset Garden) Theatre and reported in the Gentleman’s Journal for May 1692; the long-lost score found in the library of the Royal Academy of Music; the extra Act I music dates from the 1693 revival. The edition’s contents show the masques of songs and dances in Acts II–V and the Chaconne ending Act V: https://s9.imslp.org/files/imglnks/usimg/f/f5/IMSLP611116-PMLP237007-92329-00.fsc.pdf . Andrew Pinnock’s note to Signum SIGCD615 on the production: https://www.hyperion-records.co.uk/dc.asp?dc=D_SIGCD615"
+    },
+    {
       "t": 114,
       "kind": "form",
       "title": "Running towards the close",

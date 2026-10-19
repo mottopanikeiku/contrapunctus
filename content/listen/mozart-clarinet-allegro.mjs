@@ -71,6 +71,15 @@ export default {
       "evidence": "Breitkopf & Härtel full score (1881), I, first solo from bar 57, p. 211. The solo exposition’s new melodies are discussed by Calvin Dotsey."
     },
     {
+      "t": 150,
+      "kind": "life",
+      "title": "First, a basset horn",
+      "text": "A surviving sketch shows Mozart first planning the concerto for a basset horn in G. He soon switches to the new basset clarinet in A, which reaches the octave below middle C, and Stadler plays it with great skill.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto”: the sketch for a basset horn in G, the basset clarinet in A with the octave below middle C, and Stadler’s playing: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
+    },
+    {
       "t": 210,
       "kind": "life",
       "title": "Written for Anton Stadler",
@@ -78,6 +87,15 @@ export default {
       "basis": "documented",
       "precision": "passage",
       "evidence": "Calvin Dotsey, Houston Symphony, on Stadler’s basset clarinet and the concerto’s origin: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/. The performance uses McColl’s self-built basset clarinet: https://soniventorum.com/soniventorum_archives.html."
+    },
+    {
+      "t": 245,
+      "kind": "life",
+      "title": "A friend who never paid",
+      "text": "Stadler is a fellow Freemason and a habitual borrower. Mozart’s widow and sister-in-law later say he never repaid what he borrowed, and that he owed Mozart some 500 florins at his death. Mozart still seems to enjoy his company.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto”, citing comments by Mozart’s widow and sister-in-law (the debt is described as alleged); the accounts were not traced to a primary letter: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
     },
     {
       "t": 280,
@@ -98,6 +116,15 @@ export default {
       "evidence": "Breitkopf & Härtel full score (1881), I, development following the E major orchestral close; Calvin Dotsey’s account of the first movement."
     },
     {
+      "t": 400,
+      "kind": "life",
+      "title": "The lost autograph",
+      "text": "Stadler says the portmanteau holding Mozart’s manuscripts was stolen in Germany; the widow is told it was pawned there for 73 ducats. The first edition moves the low passages up an octave for an ordinary clarinet and does not say which. Players on a basset clarinet reconstruct them by educated guesses.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Constanze Mozart to Johann André, 31 May 1800, in the translation given by Matthew Tift, “Excuse Me, Where Can I Find Mozart’s Clarinet Concerto?” (2002): Stadler “declares that while he was in Germany, his portmanteau, with these pieces in it, was stolen”; others assure her it “was pawned there for 73 ducats”: https://matthewtift.com/sites/default/files/2019-03/2002-02-23-excuse-me-where-can-i-find-mozarts-clarinet-concerto.pdf. The transposed first edition and the attempts at reconstruction: Calvin Dotsey, Houston Symphony: https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
+    },
+    {
       "t": 455,
       "kind": "world",
       "title": "McColl’s handmade basset clarinet",
@@ -114,6 +141,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1881), I, recapitulation, p. 227."
+    },
+    {
+      "t": 590,
+      "kind": "world",
+      "title": "Prague, October 1791",
+      "text": "The concerto is probably first heard in Prague on 16 October 1791, less than two months before Mozart dies at thirty-five. It is the last major instrumental work he completes.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Calvin Dotsey, Houston Symphony, “Swan Song: Mozart’s Clarinet Concerto” (“likely premiered in Prague on October 16, 1791”; “the last major instrumental composition he composed”): https://houstonsymphony.org/swan-song-mozarts-clarinet-concerto/"
     },
     {
       "t": 704,

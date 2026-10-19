@@ -68,13 +68,22 @@ export default {
       "evidence": "Breitkopf & Härtel full score (1880), III, Trio, bars 43–82. The change to G major is also documented in Tobias’s Indianapolis Symphony note."
     },
     {
+      "t": 135,
+      "kind": "world",
+      "title": "Why the Trio is called a Trio",
+      "text": "The middle dance is called the Trio because the seventeenth-century practice was to score it for three instruments. The name outlived the practice, and Mozart gives his Trio to strings and winds in changing groups.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Harrap’s Illustrated Dictionary of Music and Musicians (1990): the section is known as the trio because it was originally scored for three instruments, a name that survived; Stephen Collins, Classical Music (1997), gives the same account (full-text excerpts seen, pages not recorded). The Trio’s scoring for changing groups: Breitkopf & Härtel full score (1880), III."
+    },
+    {
       "t": 165,
       "kind": "life",
       "title": "An entry in July",
-      "text": "On 25 July 1788 Mozart enters this G minor symphony in his catalogue. The E♭ symphony is already finished; the C major <i>Jupiter</i> follows on 10 August. Three very different orchestras’ evenings come out of one Viennese summer.",
+      "text": "On 25 July 1788 Mozart enters this G minor symphony in his catalogue. The E♭ symphony is already entered, on 26 June; the C major <i>Jupiter</i> follows on 10 August. Three very different symphonies come out of one Viennese summer.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Composition dates in the IMSLP work records for K. 543, K. 550 and K. 551; the summer sequence is discussed by Marianne Williams Tobias, Indianapolis Symphony Orchestra: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/."
+      "evidence": "Mozart’s thematic catalogue (British Library, Zweig MS 63), as listed in the chronological table in Otto Jahn, Life of Mozart, trans. P. D. Townsend (1882), vol. 3: K. 543 on 26 June, K. 550 on 25 July, K. 551 on 10 August 1788. https://www.gutenberg.org/ebooks/43413 ; https://searcharchives.bl.uk/catalog/040-001945812"
     },
     {
       "t": 214,
@@ -84,6 +93,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), III: the Trio ends with the instruction Menuetto da capo, returning to bars 1–42."
+    },
+    {
+      "t": 245,
+      "kind": "world",
+      "title": "A grand symphony in 1791",
+      "text": "In April 1791 the Vienna Tonkünstler-Societät gives its concerts, with Antonio Salieri conducting, and the programme announces “A Grand Symphony composed by Herr Mozart”. This G minor symphony later gains a second version with clarinets, and both versions survive.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Otto Erich Deutsch, Mozart: A Documentary Biography (1965), prints the announcement “A Grand Symphony composed by Herr Mozart”; Ivor Keys, Mozart: His Music in His Life (1980), says Salieri conducted that part of the concert (full-text excerpts seen, pages not recorded; the announcement does not name the symphony). The two versions of K. 550, the second with clarinets, are printed in the Breitkopf & Härtel score (1880) and listed at https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)."
     }
   ],
   "transitions": [

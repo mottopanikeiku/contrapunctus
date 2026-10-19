@@ -32,7 +32,7 @@ Each concern lives in its own file, so editors never collide. The generator (`sr
 ```
 
 - `music` and `form` notes are the primary lane. `life` and `world` notes are context: shown collapsed, never replacing a musical note.
-- 3–10 notes per recording, at most one per 45 seconds of music.
+- At least 3 notes per recording (1–2 for very short tracks), at most one per 40 seconds of music; no fixed ceiling, so long works keep notes throughout.
 - Only `basis: 'score-aligned'` or a strong `audio-feature` (a silence, a large level jump, a strong boundary) may use `precision: 'moment'`. Everything else is `passage`, and its wording must stay true if it appears 10 seconds early or late.
 - Never name an instrument entrance, a sung word or a bar number at a moment unless the basis supports it. Audio analysis may locate a boundary; its figures never appear in `title`, `text` or `evidence`.
 
@@ -180,6 +180,9 @@ these recordings, and glossary terms whose `hear` points at them. The composer's
 matching `works[]` entry (exact title, else longest whole-word prefix) supplies
 the lede, year and forces. Composer headers list works rather than movements.
 Recordings by guests and prologue composers have no work page.
+`works/index.html` lists every work page by chapter and composer; radio chips
+filter it by forces (orchestra, keyboard, voices, chamber, matched on the
+recordings' `forces`) in CSS alone.
 
 ### Evenings: `content/programmes.mjs`
 
@@ -189,7 +192,17 @@ omitted. The home page shows them as cards linking to `hall.html#programme-<id>`
 `programme.json` carries `programmes: [{ id, title, subtitle, ids }]`.
 `player.setQueue(id)` plays an evening in its own order and stops after its last
 track (`queue-end`); choosing a recording outside it returns to the whole concert.
-The Hall also accepts `hall.html#<listenId>&t=<seconds>` for a moment.
+The Hall also accepts `hall.html#<listenId>&t=<seconds>` for a moment and
+`hall.html#surprise` for a random concert recording (also offered as *Surprise
+me* in the programme). *Keep this moment* stores `{ id, t, title, composer, work }`
+in `localStorage['cp-kept']` (newest first, at most 100); kept moments are listed
+at the top of the programme, play from their time, and can be forgotten.
+
+Beneath the Hall's main view, *This section* shows the current `sections[]`
+label and `mNote` and the time to the next section. Without an aligned score the
+pitch wheel's centre names the piece's `key` (text before any parenthesis,
+semicolon or comma); it never shows a live chord guess. With an aligned score it
+shows the score's chord, plus *Lowest note* and *Sounding now* read from the score.
 
 ### Listening elsewhere: `content/elsewhere/<slug>.json`
 

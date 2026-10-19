@@ -47,6 +47,12 @@ export default {
       "evidence": "Demets edition, p. 35: fermata, Plus lent, 3/4 recitative and alternating 1er Mouvement chords."
     },
     {
+      "t": 150, "kind": "life", "title": "Ravel on his clown",
+      "text": "Ravel explains that his clown, the <i>gracioso</i>, is humorous but has an edge to him: less well meaning than Beaumarchais’s Figaro. Roger Nichols adds that the drier tone and lighter action of the Érard pianos Ravel favoured would sharpen the “guitar” chords.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Roger Nichols’s note for Hyperion CDA67731/2 (2011) reports Ravel’s explanation of the clown’s character and makes the point about Érard pianos: https://www.hyperion-records.co.uk/dw.asp?dc=W5434_67731"
+    },
+    {
       "t": 195, "kind": "world", "title": "A jester for a critic",
       "text": "Ravel dedicates this movement to Michel-Dimitri Calvocoressi, the critic and musicologist in his circle of friends. In <i>Miroirs</i>, Calvocoressi receives the Spanish jester; Ricardo Viñes receives the sad birds.",
       "basis": "documented", "precision": "passage",
@@ -69,6 +75,12 @@ export default {
       "text": "Another dry chord stops under a fermata. This time quiet staccato chords follow over low repeated notes. The song stays away: the piano gathers itself for a final rush to D major, with no slowing at the end.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Demets edition, pp. 41–43: sec. fermata chord, pp staccato passage and final sans ralentir. The D-major close is described at https://enc.piano.or.jp/en/musics/329."
+    },
+    {
+      "t": 330, "kind": "world", "title": "A ballet at the Alhambra",
+      "text": "The Ballets russes dance Alborada, in Ravel’s orchestration, at London’s Alhambra Theatre in July 1919 as part of <i>Les jardins d’Aranjuez</i>, with Chabrier’s <i>Menuet pompeux</i> and Fauré’s <i>Pavane</i>. Paris hears the orchestral version first, on 17 May 1919, under Rhené-Baton with the Pasdeloup Orchestra.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Manuel Cornejo’s Maurice Ravel chronology (1919): 17 May, première of the orchestration of Alborada del gracioso, Rhené-Baton, Concerts Pasdeloup, Cirque d’hiver; 18 July, Ballets russes at London’s Alhambra Theatre, with Alborada on the programme: https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf. Roger Nichols, Ravel (2011), chronology: the Ballets russes perform the Menuet pompeux, Alborada del gracioso and Fauré’s Pavane as Les Jardins d’Aranjuez (full-text excerpt seen)."
     }
   ],
 

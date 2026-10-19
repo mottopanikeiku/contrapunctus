@@ -114,7 +114,7 @@ V:2
     { work: 'For Bunita Marcus', performers: 'Marc-André Hamelin', year: '2016; released 2017', label: 'Hyperion', note: 'Hamelin’s quiet playing stays finely differentiated through seventy-two minutes; the rhythm never turns slack. The Wyastone recording gives the piano’s lingering vibrations room to register.' },
   ],
   lineage: {
-    from: ['webern', 'Stefan Wolpe', 'Edgard Varèse', 'John Cage', 'New York abstract painting'],
+    from: ['webern', 'Stefan Wolpe', 'Edgard Varèse', 'cage', 'New York abstract painting'],
     to: ['Howard Skempton', 'Bryn Harrison', 'Jürg Frey'],
     note: `<p>[[webern|Webern]] brought Feldman and [[cage|Cage]] together at Carnegie Hall; Wolpe had already introduced him to Varèse. Howard Skempton’s 1977 interview catches a younger composer learning directly from Feldman’s talk about sounds and instruments. Bryn Harrison drew on ‘Crippled Symmetry’ when devising his own rhythmic grids. Jürg Frey studied Feldman’s scores in the 1980s and found encouragement in their plain, sometimes startling decisions about how a piece could go on.</p>`,
   },

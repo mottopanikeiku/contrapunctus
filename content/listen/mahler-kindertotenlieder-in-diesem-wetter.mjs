@@ -56,6 +56,15 @@ export default {
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), p. 60: Mit ruhelos schmerzvollem Ausdruck and the opening dynamics; our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
+      "t": 30,
+      "kind": "music",
+      "title": "A march from the Third Symphony",
+      "text": "The storm is a march in D minor. Its key and melodic style recall the first movement of Mahler’s Third Symphony, written in 1895–96. No other song in the cycle opens like this.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Reinhold Kubik, Universal Edition introduction to Kindertotenlieder (autumn 2008): song 5 “is the only song to open with a Mahler-style march”, recalling the key and melodic style of the Third Symphony’s first movement (song bar 9, symphony bar 136): https://www.universaledition.com/en/Kindertotenlieder/P0045027"
+    },
+    {
       "t": 70,
       "kind": "world",
       "title": "Carried out of the house",
@@ -63,6 +72,15 @@ export default {
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rückert, In diesem Wetter, first stanza as set by Mahler; German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text. Our translations."
+    },
+    {
+      "t": 105,
+      "kind": "music",
+      "title": "A wider orchestra for the storm",
+      "text": "Only this last song calls for a piccolo, a contrabassoon and a third and fourth horn. The cycle has no trumpets or trombones at all.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mahler catalogue, Kindertotenlieder, scoring list: piccolo and contrabassoon in no. 5 only, horns 3–4 in no. 5 only: https://www.mahlercat.org.uk/Pages/KtL/KtL.htm The Mahler Foundation confirms there are no trumpets: https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/"
     },
     {
       "t": 170,
@@ -83,6 +101,15 @@ export default {
       "evidence": "Kahnt full score, pp. 79–84: lullaby marking, two-sharp signature and Rückert’s final stanza. Our translations."
     },
     {
+      "t": 240,
+      "kind": "life",
+      "title": "What Mahler told Guido Adler",
+      "text": "The cycle is finished in 1904. In July 1907 Mahler’s elder daughter, Maria, dies of scarlet fever and diphtheria. He tells Guido Adler that he had imagined “a child of mine had died”; having truly lost a daughter, he says, he “could not have written these songs any more.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mahler to Guido Adler after Maria’s death in 1907, as quoted by Theodor Reik, The Haunting Melody (1953), p. 315, and repeated in Peter Russell, Light in Battle with Darkness: Mahler’s Kindertotenlieder (1991) and on the Mahler Foundation’s introduction: https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/ (Reik and Russell seen only as full-text excerpts; the letter itself has not been traced). Maria’s death on 11 July 1907: https://mahlerfoundation.org/mahler/the-man/health/ Kubik places the songs in the summers of 1901 and 1904: https://www.universaledition.com/en/Kindertotenlieder/P0045027"
+    },
+    {
       "t": 300,
       "kind": "music",
       "title": "The cradle keeps rocking",
@@ -99,6 +126,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 86: Morendo dim., celesta gänzlich verklingend, final D-major chord at ppp. The existing late cue marks the closing passage."
+    },
+    {
+      "t": 370,
+      "kind": "music",
+      "title": "A cello melody from the Third",
+      "text": "In the last five bars a cello melody alludes to the first theme of the Third Symphony’s finale, a movement titled “What love tells me”. The musicologist Andreas Dorschel hears in it the cycle’s last word: “that death is powerful, yet love is even stronger.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Andreas Dorschel, “Trost für die Untröstlichen. Mahlers Kindertotenlieder und Bergs Violinkonzert”, Musikfreunde 25 (2012/13), no. 5, pp. 34–37 (article not opened; the allusion, mm. 129–133 of song 5, and the quoted sentence as given on the Mahler Foundation’s introduction): https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/ Kahnt full score, p. 86: the cellos’ pp morendo phrase in the last bars: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     }
   ],
   "transitions": [

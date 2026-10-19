@@ -1,9 +1,7 @@
 export default {
   id: 'grieg-wedding-day-vetter-2006',
-  composer: null,
-  guest: { name: 'Edvard Grieg', born: 1843, died: 1907 },
-  concert: false,
-  order: 2,
+  composer: 'grieg',
+  order: 4,
   work: 'Wedding Day at Troldhaugen, Op. 65 No. 6',
   movement: '',
   year: '1896',

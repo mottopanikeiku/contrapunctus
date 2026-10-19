@@ -68,6 +68,15 @@ export default {
       "evidence": "Tchaikovsky to Nadezhda von Meck, letter 1174, 6/18–13/25 May 1879, quoted under Related Works. https://en.tchaikovsky-research.net/index.php?title=Piano_Concerto_No._1"
     },
     {
+      "t": 365,
+      "kind": "world",
+      "title": "Three versions of the concerto",
+      "text": "The concerto exists in three versions: Tchaikovsky’s original of 1875, a revised score printed in 1879 and a third edition of 1889. The 1889 text is the one familiar today.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky Research, Piano Concerto No. 1 (Composition: first, second and third versions; Jurgenson’s ‘3me édition revue et corrigée’ of 1889). The recording’s performing edition is unspecified. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+    },
+    {
       "t": 451,
       "kind": "life",
       "title": "Rubinstein says no",
@@ -86,6 +95,15 @@ export default {
       "evidence": "First-movement development, octave writing and thematic plan: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky); https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/."
     },
     {
+      "t": 625,
+      "kind": "life",
+      "title": "Taneyev’s name struck out",
+      "text": "The autograph score is first dedicated to Sergey Taneyev; his name is struck out and Hans von Bülow’s written in its place. In June 1875 Bülow thanks Tchaikovsky for the dedication and finds in the concerto “such unsurpassed originality, such nobility, such strength”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky Research, Piano Concerto No. 1 (Dedication; Composition, first version): the autograph dedication, and Bülow’s letter of 1/13 June 1875 in the site’s translation. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+    },
+    {
       "t": 710,
       "kind": "form",
       "title": "The Ukrainian tune returns",
@@ -95,6 +113,15 @@ export default {
       "evidence": "The shortened first-subject return and B♭-major recapitulation climax are described at https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
     },
     {
+      "t": 790,
+      "kind": "world",
+      "title": "Boston, 1875",
+      "text": "On 25 October 1875 Bülow plays the première at Boston’s Music Hall, with Benjamin Johnson Lang conducting. The Boston audience receives it enthusiastically, and he repeats it five days later. Within weeks it is heard in New York, Saint Petersburg and Moscow.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky Research, Piano Concerto No. 1 (Performances): Boston, 13/25 and 18/30 October 1875; New York, 10/22 November; Saint Petersburg, 1/13 November; Moscow, 21 November/3 December. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+    },
+    {
       "t": 874,
       "kind": "music",
       "title": "The piano has the room",
@@ -102,6 +129,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "First-movement cadenza and its quiet B♭-minor recollection of the second-subject theme: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
+    },
+    {
+      "t": 940,
+      "kind": "life",
+      "title": "Rubinstein plays it himself",
+      "text": "Nikolay Rubinstein, who sharply criticised the concerto in January 1875, plays it in Moscow on 22 March 1878 and again in Paris that September, at the Trocadéro. In 1880 Tchaikovsky dedicates his Second Piano Concerto to him for his “magnificent” playing of the First.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky Research, Piano Concerto No. 1 (Performances; Dedication): Rubinstein in Moscow, 10/22 March 1878, and at the Trocadéro, 28 August/9 September 1878; the 1880 dedication of the Second Concerto. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
     },
     {
       "t": 1004,

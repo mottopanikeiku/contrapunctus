@@ -240,7 +240,7 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 /* ---------- Movements (eras on index) ---------- */
 .movement {
   display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 6rem); align-items: center;
-  padding: clamp(4rem, 8vw, 7rem) 0; border-top: 1px solid var(--rule);
+  padding: clamp(3rem, 5vw, 4.5rem) 0; border-top: 1px solid var(--rule);
 }
 .movement:nth-child(even) .movement-art { order: 2; }
 .movement-num { font: italic 300 clamp(4.5rem, 10vw, 8.5rem)/.8 var(--display); color: var(--accent); opacity: .9; display: block; margin-bottom: .6rem; }
@@ -315,8 +315,9 @@ abbr { font-variant: all-small-caps; letter-spacing: .04em; text-decoration: non
 
 /* Works catalogue, set like a concert programme */
 .works { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
-.works li { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: 0 1.6rem; padding: 1.25rem 0; border-bottom: 1px solid var(--rule); }
-.works .yr { font: 500 1.3rem/1.2 var(--display); color: var(--accent); font-feature-settings: 'lnum'; }
+.works li { display: grid; grid-template-columns: 5.8rem minmax(0, 1fr); gap: 0 1.6rem; padding: 1.25rem 0; border-bottom: 1px solid var(--rule); }
+.works .yr { font: 500 1.2rem/1.2 var(--display); color: var(--accent); font-feature-settings: 'lnum'; }
+@media (max-width: 600px) { .works li { grid-template-columns: 1fr; gap: .2rem; } .works .yr { font-size: 1.05rem; } }
 .works .t { font: 500 1.5rem/1.2 var(--display); }
 .works .t em { font-style: italic; }
 .works .cat { font: 600 .78rem var(--caps); letter-spacing: .14em; color: var(--muted); margin-left: .5rem; white-space: nowrap; }
@@ -593,6 +594,36 @@ details.citation { padding: 1.6rem 0; }
 .programme-card .pc-sub { font: italic 400 1.1rem/1.35 var(--display); margin: 0; color: var(--night-ink); }
 .programme-card p { margin: 0; font-size: 1rem; line-height: 1.5; color: #cfc4b0; }
 .programme-card .pc-go { margin-top: auto; padding-top: .9rem; color: var(--gold-hi); }
+/* every work: chips filter by forces without script */
+.wi-filter { border: 0; padding: 0; margin: 0 0 2.6rem; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
+.wi-filter legend { float: left; margin-right: .6rem; font: 600 .78rem var(--caps); letter-spacing: .18em; color: var(--muted); }
+.wi-filter input { position: absolute; opacity: 0; pointer-events: none; }
+.wi-filter label { padding: .35rem .95rem; border: 1px solid var(--rule); border-radius: 999px; font: 500 1.02rem var(--display); cursor: pointer; }
+.wi-filter input:checked + label { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.wi-filter input:focus-visible + label { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wi-era { border-top: 1px solid var(--ink); padding: 1.6rem 0 2.4rem; }
+.wi-era h2 { font: 400 clamp(1.8rem, 3vw, 2.4rem)/1.1 var(--display); margin: 0 0 1.4rem; display: flex; align-items: baseline; gap: .8rem; }
+.wi-era h2 .n { font-style: italic; color: var(--accent); }
+.wi-composer { display: grid; grid-template-columns: minmax(12rem, 16rem) minmax(0, 1fr); gap: .4rem 2rem; padding: .9rem 0; border-top: 1px solid var(--rule); }
+.wi-composer h3 { font: 500 1.25rem/1.25 var(--display); margin: 0; }
+.wi-composer h3 a { text-decoration: none; }
+.wi-composer h3 span { display: block; font: 600 .74rem var(--caps); letter-spacing: .14em; color: var(--muted); margin-top: .2rem; }
+.wi-composer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
+.wi-composer li a { font: 500 1.15rem/1.3 var(--display); }
+.wi-meta { display: block; font-size: .92rem; color: var(--muted); }
+.works-index:has(#wi-orchestra:checked) li:not([data-k~='orchestra']),
+.works-index:has(#wi-keyboard:checked) li:not([data-k~='keyboard']),
+.works-index:has(#wi-voices:checked) li:not([data-k~='voices']),
+.works-index:has(#wi-chamber:checked) li:not([data-k~='chamber']),
+.works-index:has(#wi-orchestra:checked) .wi-composer:not(:has(li[data-k~='orchestra'])),
+.works-index:has(#wi-keyboard:checked) .wi-composer:not(:has(li[data-k~='keyboard'])),
+.works-index:has(#wi-voices:checked) .wi-composer:not(:has(li[data-k~='voices'])),
+.works-index:has(#wi-chamber:checked) .wi-composer:not(:has(li[data-k~='chamber'])),
+.works-index:has(#wi-orchestra:checked) .wi-era:not(:has(li[data-k~='orchestra'])),
+.works-index:has(#wi-keyboard:checked) .wi-era:not(:has(li[data-k~='keyboard'])),
+.works-index:has(#wi-voices:checked) .wi-era:not(:has(li[data-k~='voices'])),
+.works-index:has(#wi-chamber:checked) .wi-era:not(:has(li[data-k~='chamber'])) { display: none; }
+@media (max-width: 700px) { .wi-composer { grid-template-columns: 1fr; } }
 /* work pages */
 .w-hero { background: var(--night); color: var(--night-ink); padding: 9rem 0 3.6rem; border-bottom: 1px solid #2d2822; }
 .w-hero .crumbs a { display: inline-flex; align-items: center; gap: .6rem; }

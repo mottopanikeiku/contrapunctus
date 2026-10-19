@@ -1,0 +1,145 @@
+{
+  "id": "beach-years-at-the-spring",
+  "work": {
+    "title": "The Year’s at the Spring",
+    "catalogue": "Op. 44, No. 1",
+    "movement": "",
+    "version": {
+      "value": "Beach’s Browning setting, recorded as the second song on a single-faced 10-inch side, after Frank La Forge’s “How Much I Love You”",
+      "status": "documented",
+      "sourceIds": ["label", "dahr", "catalogue"],
+      "note": "The label lists both songs, (a) La Forge and (b) Beach. The key sung and any cuts or changes to the printed song are not established."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Johanna Gadski", "role": "soprano" },
+      { "name": "Frank La Forge", "role": "piano" }
+    ],
+    "status": "documented",
+    "sourceIds": ["label", "dahr"],
+    "note": "The label reads ‘Soprano with pianoforte’ and names Johanna Gadski; the Discography of American Historical Recordings names La Forge as pianist."
+  },
+  "session": {
+    "date": {
+      "value": "1908-01-14",
+      "status": "documented",
+      "sourceIds": ["dahr", "label"],
+      "note": "Matrix B-5018, take 2; the date is also handwritten on the label.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "New York, New York, United States",
+      "status": "documented",
+      "sourceIds": ["dahr"],
+      "note": "Recording place from the Discography of American Historical Recordings; no studio address is given."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Victor Talking Machine Company, Red Seal",
+      "status": "documented",
+      "sourceIds": ["label", "dahr-object"],
+      "note": "Single-faced 10-inch disc."
+    },
+    "catalogue": {
+      "value": "Victor 87026",
+      "status": "documented",
+      "sourceIds": ["label", "dahr-object", "catalogue"],
+      "note": "Listed on the Gadski page of the Victor catalogue of July 1909."
+    },
+    "matrixTakeSides": {
+      "value": "B-5018, take 2",
+      "status": "documented",
+      "sourceIds": ["dahr", "archive"],
+      "note": "Take 1 was held; take 2 was the master issued as 87026."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Library of Congress Packard Campus for Audio Visual Conservation; National Jukebox MP3 mirrored by Hessel Digital Library",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Credits as stated in the Internet Archive item, which links to the National Jukebox record and notes Sony Music Entertainment or EMI Music as the source of the disc."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The digitisation date is not given. The mirror was added to the Internet Archive on 18 October 2026, a copying event."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "Playback speed, stylus, equalisation and noise reduction are not stated. A separate Great 78 Project transfer of the same disc is about seven per cent longer, so the speed of the Library’s copy is not certain."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/loc-jukebox-125920-how-much-i-love-you/jukebox-125920_how-much-i-love-you.mp3",
+    "sourceChain": ["label", "archive"],
+    "format": "VBR MP3 mirror of a Library of Congress National Jukebox disc transfer",
+    "durationSeconds": 114.36
+  },
+  "rights": {
+    "composition": {
+      "value": "Out of copyright: Beach died in 1944, Browning in 1889 and La Forge in 1953.",
+      "status": "inferred",
+      "sourceIds": ["dahr"],
+      "note": "Life-plus-70 terms have run out for all three; the 1900 edition was published in the United States. This covers the historical songs, not modern editions."
+    },
+    "recording": {
+      "value": "US public domain: first published 1908 or 1909 on Victor 87026; the mirror carries the Public Domain Mark.",
+      "status": "documented",
+      "sourceIds": ["archive", "catalogue", "dahr"],
+      "note": "Selected under the project’s us-published-before-cutoff rule. The July 1909 Victor catalogue lists the disc; the Library of Congress gives 1908. The Public Domain Mark is a status declaration, not a new licence."
+    },
+    "creditLine": "Amy Beach, The Year’s at the Spring, Op. 44 No. 1, with Frank La Forge’s How Much I Love You. Johanna Gadski, soprano; Frank La Forge, piano. Victor 87026 (matrix B-5018-2, 14 January 1908). Library of Congress National Jukebox transfer, mirrored by Hessel Digital Library on Internet Archive.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: How much I love you — National Jukebox 125920 mirror metadata",
+      "url": "https://archive.org/metadata/loc-jukebox-125920-how-much-i-love-you/metadata",
+      "locator": "Matrix B-5018/2; recording date 1908-01-14; first-publication statement; Public Domain Mark; Library of Congress credit",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "label",
+      "title": "Victor 87026 label image accompanying National Jukebox 125920",
+      "url": "https://archive.org/download/loc-jukebox-125920-how-much-i-love-you/jukebox-125920_label.jpg",
+      "locator": "(a) How Much I Love You (La Forge); (b) The Year’s at the Spring (Beach); Johanna Gadski; Soprano with pianoforte, in English; 87026",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "dahr",
+      "title": "Discography of American Historical Recordings: Victor matrix B-5018",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006832",
+      "locator": "Take 2, 14 January 1908, New York; Johanna Gadski and Frank La Forge; composers H. H. A. Beach and Frank La Forge; issued as Victor 87026",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "dahr-object",
+      "title": "Discography of American Historical Recordings: Victor 87026",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/refer/55368",
+      "locator": "Red Seal 10-inch single-faced disc; B-5018 take 2",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "catalogue",
+      "title": "New Victor Record Catalogue (July 1909), Internet Archive",
+      "url": "https://archive.org/details/newvictorrecordc00vict",
+      "locator": "Gadski page: 87026, How Much I Love You (La Forge) and The Year’s at the Spring (Beach), accompanied by Frank La Forge",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Three Browning Songs, Op. 44, A. P. Schmidt, 1900, Internet Archive",
+      "url": "https://archive.org/details/per_women-composers-collection_the-years-at-the-spring_1900",
+      "locator": "No. 1, pp. 3–5: dedication, Allegro di molto, text layout",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

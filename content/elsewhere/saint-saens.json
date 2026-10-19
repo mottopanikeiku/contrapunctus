@@ -1,0 +1,64 @@
+{
+  "composer": "saint-saens",
+  "items": [
+    {
+      "work": "Piano pieces and accompaniments, recorded by the composer",
+      "year": "1904 and 1919",
+      "performers": "Camille Saint-Saëns, piano; with Meyriane Héglon and Gabriel Willaume",
+      "recorded": "26 June 1904; 1919",
+      "label": "Marston Records",
+      "note": "Saint-Saëns at the keyboard: the 1904 Gramophone and Typewriter sides include extracts from the Second Piano Concerto, the Rhapsodie d’Auvergne and an improvised cadenza on Africa, with his 1919 remakes of the Valse mignonne. The set also holds the sides on which he accompanies Héglon in arias from Ascanio and Samson et Dalila.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.marstonrecords.com/products/legendary-piano",
+          "title": "Legendary Piano Recordings: Grieg, Saint-Saëns, Pugno and Diémer, Marston 52054-2"
+        }
+      ]
+    },
+    {
+      "work": "The five piano concertos",
+      "year": "1858–96",
+      "performers": "Stephen Hough, piano; City of Birmingham Symphony Orchestra; Sakari Oramo",
+      "recorded": "September 2000",
+      "label": "Hyperion",
+      "note": "All five concertos in one set, including the Egyptian with its Nubian love song. Phillip Borg-Wheeler’s booklet note is free to read on the label’s page.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67331/2",
+          "title": "Saint-Saëns: The complete works for piano and orchestra, Hyperion CDA67331/2"
+        }
+      ]
+    },
+    {
+      "work": "Symphony No. 3, the Organ Symphony, in Charles Munch’s complete New York recordings",
+      "year": "1886",
+      "performers": "Philharmonic-Symphony Orchestra of New York; Charles Munch; Édouard Nies-Berger, organ",
+      "recorded": "10 November 1947",
+      "label": "Pristine Classical",
+      "note": "A modern restoration of the Columbia set that the Hall plays from the 78s, with Munch’s d’Indy and Mozart sessions.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.pristineclassical.com/products/pasc448",
+          "title": "Munch: The Complete New York Philharmonic Recordings, Pristine PASC448"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Marston Records: Legendary Piano Recordings, track list and Ward Marston’s liner notes",
+      "url": "https://www.marstonrecords.com/products/legendary-piano"
+    },
+    {
+      "title": "Hyperion: CDA67331/2 and booklet note by Phillip Borg-Wheeler",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67331/2"
+    },
+    {
+      "title": "Pristine Classical: PASC448 and Producer’s notes",
+      "url": "https://www.pristineclassical.com/products/pasc448"
+    }
+  ]
+}

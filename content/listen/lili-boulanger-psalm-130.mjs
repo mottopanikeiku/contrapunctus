@@ -76,6 +76,15 @@ export default {
       "evidence": "Durand full score (1925), plate D. & F. 10543, p. 1: Lent librement, organ, bass drum, pizzicato cellos and basses; tuba and solo cello from bar 3, muted horns later on the page. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP393069-PMLP430943-N0856389_PDF_1_-1DM.pdf"
     },
     {
+      "t": 40,
+      "kind": "music",
+      "title": "B♭ minor, the key of the abyss",
+      "text": "Christopher Palmer calls B♭ minor, for Lili, “the key of the abyss, of mourning and despair”. Its gloom covers this psalm and her Musset setting <i>Pour les funérailles d’un soldat</i>. Gerald Larner adds that modal inflections make the introduction’s harmonies more oppressive still.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Christopher Palmer, notes for Hyperion CDA66726 (1994): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66726. Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
+    },
+    {
       "t": 80,
       "kind": "music",
       "title": "Violins climb out of the bass",
@@ -103,6 +112,15 @@ export default {
       "evidence": "Durand full score, p. 11, figure 4: Tempo lent, pp sobre, mais intense, octave choral entry, rising bassoons and cellos, sustained organ pedal."
     },
     {
+      "t": 300,
+      "kind": "music",
+      "title": "Chanting, then supplication",
+      "text": "On its first entry, Gerald Larner writes, the chorus “merely chants the words”. Only gradually, through a lyrical expansion on the holy names “Iahvé” and “Adonaï”, does it find melody for sustained supplication.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
+    },
+    {
       "t": 400,
       "kind": "life",
       "title": "For her father",
@@ -110,6 +128,24 @@ export default {
       "basis": "documented",
       "precision": "passage",
       "evidence": "Lili Boulanger’s dedication on the first page of Psalm 130, completed in 1917, Durand full score (1925), p. 1. Ernest Boulanger’s death and Lili’s age are given in Helen Julia Minors’s preface (2011). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1001.html"
+    },
+    {
+      "t": 500,
+      "kind": "world",
+      "title": "The record that changed Palmer’s life",
+      "text": "Christopher Palmer, then a student, first heard Lili Boulanger on “the classic Markevich record originally issued on the Everest label”: this one. He wrote to Nadia at once, and the music, he says, “effectively changed my life”. In the summer of 1967 he studied with her at Fontainebleau.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Christopher Palmer, notes for Hyperion CDA66726 (1994): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66726"
+    },
+    {
+      "t": 600,
+      "kind": "music",
+      "title": "A climax on “Adonaï”",
+      "text": "The quicker second section opens as the first did, with soft chanting, and builds to a broad climax on the “Adonaï” material. Then the chorus yields to the alto soloist, who brings a new melody in E♭ minor at a more relaxed tempo and in a more intimate texture.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
     },
     {
       "t": 664,
@@ -121,6 +157,24 @@ export default {
       "evidence": "Durand full score, pp. 37–40, figure 12: contralto entry, solo cello, repeated clarinet and bass-clarinet figures, two harps and divided violins marked ppp."
     },
     {
+      "t": 720,
+      "kind": "world",
+      "title": "A committee for musicians at war",
+      "text": "When war breaks out Lili is at the Villa Medici in Rome. She writes to fellow musicians to build a support network for those serving in the war, and with Nadia founds the Comité Franco-Américain du Conservatoire. Nadia wins the backing of American artists and diplomats.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Library of Congress, “Lili Boulanger”, Women in French history research guide: https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger"
+    },
+    {
+      "t": 790,
+      "kind": "music",
+      "title": "Who can stand?",
+      "text": "The chorus takes fright again, asking with growing insistency “Qui donc pourra tenir?” — who can stand? Its most emphatic asking, Gerald Larner writes, comes on a fortissimo augmentation of the trumpet call from the introduction.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
+    },
+    {
       "t": 874,
       "kind": "music",
       "title": "Bassoon, flute, viola, cello",
@@ -130,6 +184,24 @@ export default {
       "evidence": "Durand full score, pp. 54–56, Modéré and Rubato interlude: solo bassoon and flute, solo viola and cello, harp and organ semiquavers, selective string-muting instructions."
     },
     {
+      "t": 950,
+      "kind": "music",
+      "title": "The turning point",
+      "text": "Gerald Larner calls the third section the turning point of the work. The tempo slows; over rippling arpeggios in harp and organ, a new woodwind melody passes to the alto, who sings “Mais la clémence est en toi”: but mercy is in you.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Gerald Larner, programme note on Psaume 130, third section; the English of the sung line is our translation. https://geraldlarner.com/work/boulanger-psaume-130"
+    },
+    {
+      "t": 1030,
+      "kind": "world",
+      "title": "The conductor, Igor Markevitch",
+      "text": "Igor Markevitch was born in Kiev in 1912. At thirteen he went to Paris to study piano with Alfred Cortot; in his teens he studied with Nadia Boulanger and Paul Dukas. At seventeen he composed a work for Diaghilev’s Ballets Russes.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Everest LPBR 6059 (1960), sleeve note on the conductor: https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt"
+    },
+    {
       "t": 1095,
       "kind": "form",
       "title": "The tenor answers below",
@@ -137,6 +209,24 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 70–73, figure 19: Sans lenteur, contralto and tenor canon with flute, harp and organ. The fifth-below imitation is also described in Helen Julia Minors’s preface (2011)."
+    },
+    {
+      "t": 1160,
+      "kind": "music",
+      "title": "Major harmonies at last",
+      "text": "In the fourth section, where a tenor joins the alto, Gerald Larner hears Lili’s vision “at last” glimpse “the radiance of major harmonies”. The earlier sections stay weighed down by oppressive modal inflections.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
+    },
+    {
+      "t": 1215,
+      "kind": "life",
+      "title": "Never heard in her lifetime",
+      "text": "Lili never heard her finest scores played. Christopher Palmer lists <i>Du fond de l’abîme</i> among those unperformed in her lifetime and adds that when they were, “no changes were needed apart from a few modifications of dynamics”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Christopher Palmer, notes for Hyperion CDA66726 (1994): https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66726"
     },
     {
       "t": 1275,
@@ -155,6 +245,24 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 86–90, figure 23 Lent, broad choral phrases and low bass writing; De plus en plus lent and Molto rit. on the final page, with the last instrumental swell after the choir’s release."
+    },
+    {
+      "t": 1360,
+      "kind": "world",
+      "title": "One side of an LP",
+      "text": "Everest puts this whole twenty-four-minute psalm on side one of LPBR 6059. The four shorter works fill side two.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Track listing of the Everest LP, 1960: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d"
+    },
+    {
+      "t": 1405,
+      "kind": "music",
+      "title": "Without easy consolation",
+      "text": "Gerald Larner hears the work end “without the unambiguous consolation Lili was too honest to provide”, even after a last, liberated climax on “Iahvé, Adonaï” and an ethereal expression of hope.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Gerald Larner, programme note on Psaume 130: https://geraldlarner.com/work/boulanger-psaume-130"
     }
   ],
   "transitions": [

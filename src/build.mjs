@@ -286,7 +286,7 @@ ${body}
 <footer class="colophon"><div class="wrap">
 <div>${staffRule()}<a class="brand" href="${ctx.base}index.html"><span class="glyph" aria-hidden="true">𝄞</span>Contrapunctus</a>
 <p>${site.colophon}</p></div>
-<div><h5>Listen</h5><ul><li><a href="${ctx.base}hall.html">The Concert Hall</a></li><li><a href="${ctx.base}journeys/index.html">Guided journeys</a></li><li><a href="${ctx.base}compare/index.html">Compare performers</a></li><li><a href="${ctx.base}return-lab/index.html">The Return Lab</a></li><li><a href="${ctx.base}routes.html">Listening routes</a></li><li><a href="${ctx.base}guide.html">Guide</a></li></ul></div>
+<div><h5>Listen</h5><ul><li><a href="${ctx.base}hall.html">The Concert Hall</a></li><li><a href="${ctx.base}works/index.html">Every work</a></li><li><a href="${ctx.base}journeys/index.html">Guided journeys</a></li><li><a href="${ctx.base}compare/index.html">Compare performers</a></li><li><a href="${ctx.base}return-lab/index.html">The Return Lab</a></li><li><a href="${ctx.base}routes.html">Listening routes</a></li><li><a href="${ctx.base}guide.html">Guide</a></li></ul></div>
 <div><h5>Read</h5><ul><li><a href="${ctx.base}composers/index.html">Composers</a></li>${eras.map((e) => `<li><a href="${ctx.base}eras/${e.slug}.html">${e.numeral}. ${esc(e.name)}</a></li>`).join('')}<li><a href="${ctx.base}origins.html">Before Bach</a></li></ul></div>
 <div><h5>Look and learn</h5><ul><li><a href="${ctx.base}workshop.html">The Workshop</a></li><li><a href="${ctx.base}glossary.html">Glossary</a></li><li><a href="${ctx.base}timeline.html">Lifelines</a></li><li><a href="${ctx.base}gallery.html">Sister Arts</a></li><li><a href="${ctx.base}atlas-map.html">The Map</a></li><li><a href="${ctx.base}influence.html">The Web of Influence</a></li></ul></div>
 <div><h5>About</h5><ul><li><a href="${ctx.base}about.html">About Contrapunctus</a></li><li><a href="${ctx.base}sources.html">Sources &amp; method</a></li><li><a href="${ctx.base}credits.html">Image credits</a></li></ul></div>
@@ -472,13 +472,13 @@ function indexPage() {
 <div class="programme-cards">${programmes.map((p) => `<a class="programme-card" href="hall.html#programme-${attr(p.id)}"><span class="pc-meta">${p.tracks.length} pieces · ${hours(p.duration)}</span><h3>${esc(p.title)}</h3><p class="pc-sub">${esc(p.subtitle)}</p><p>${esc(p.note)}</p><span class="pc-go">Play this programme →</span></a>`).join('')}</div></div></section>` : '';
   const body = `<section class="hero"><div class="hero-slides">${slides}</div>
 <div class="wrap hero-inner"><div><h1 class="hero-title">Contrapunctus</h1><p class="hero-sub"><span class="sc">${esc(site.kicker)}</span>${esc(site.tagline)}</p>
-<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${concert.length} recordings, ${hours(concert.reduce((a, t) => a + (t.duration || 0), 0))} of music, with notes as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#programmes">Or choose a concert ↓</a></div></div>
+<div class="hero-doors"><a class="enter-hall" href="hall.html"><span class="eh-k">The Concert Hall</span><span class="eh-t">Enter and listen</span><span class="eh-s">${concert.length} recordings, ${hours(concert.reduce((a, t) => a + (t.duration || 0), 0))} of music, with notes as it plays</span></a><a class="enter-hall enter-web" href="influence.html"><span class="eh-k">The Web of Influence</span><span class="eh-t">Follow the threads</span><span class="eh-s">${INFLUENCE_EDGES} sourced connections · hear what was borrowed</span></a><a class="hero-browse" href="#programmes">Or choose a concert ↓</a><a class="hero-browse" href="hall.html#surprise">Or surprise me</a></div></div>
 <div><p class="hero-caption" aria-live="polite"></p><div class="hero-dots">${site.heroSlides.map((_, i) => `<button type="button" aria-label="Painting ${i + 1}"${i === 0 ? ' class="on"' : ''}></button>`).join('')}</div></div></div>
-<a class="scroll-cue" href="#programmes">Begin ↓</a></section>
-${programmeBand}
-${journeys.band(ctx)}
+<a class="scroll-cue" href="#prelude">Begin ↓</a></section>
 <section class="section" id="prelude"><div class="wrap"><div class="section-head"><span class="kicker">Prelude</span><h2>${esc(site.preludeTitle)}</h2></div>
 <div class="prose">${rich(ctx, site.prelude)}</div></div></section>
+${programmeBand}
+${journeys.band(ctx)}
 <section class="section" id="movements"><div class="wrap"><div class="section-head"><span class="kicker">Seven movements</span><h2>${esc(site.erasTitle)}</h2><p>${rich(ctx, site.erasLede)}</p></div>
 <div class="movements">${movements}</div></div></section>
 <section class="section night"><div class="wrap"><div class="section-head"><span class="kicker">Lifelines</span><h2>Who overlapped with whom</h2><p>${rich(ctx, site.lifelinesLede)}</p></div>
@@ -492,7 +492,7 @@ ${journeys.band(ctx)}
 
 function composersIndex() {
   const ctx = { base: '../', page: 'composers/index' };
-  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The atlas</span><h1>Composers</h1><p class="lede">${composers.length} composer${composers.length === 1 ? '' : 's'} in seven chapters, ordered by year of birth. Or browse <a href="../works/index.html">every work in the Concert Hall</a>.</p></div><span class="bg-glyph" aria-hidden="true">𝄢</span></header>
 <div class="wrap section">${eras.map((e) => `<section class="era-group" style="--accent:${e.accent}"><header><span class="n">${e.numeral}</span><h3><a href="../eras/${e.slug}.html">${esc(e.name)}</a></h3><span class="sc">${esc(e.span)}</span></header><div class="composer-grid">${composers.filter((c) => c.era === e.slug).map((c) => card(ctx, c)).join('')}</div></section>`).join('')}</div>`;
   return layout(ctx, { title: 'Composers — Contrapunctus', body, nav: 'composers' });
 }
@@ -508,6 +508,34 @@ function longPage(p) {
   const body = `<header class="page-hero"><div class="wrap"><span class="kicker">${esc(p.kicker)}</span><h1>${esc(p.title)}</h1><div class="lede">${rich(ctx, p.lede)}</div></div><span class="bg-glyph" aria-hidden="true">${p.glyph ?? '𝄐'}</span></header>
 <div class="wrap"><nav class="chapter-map" aria-label="Contents">${p.lessons.map((l) => `<a href="#${l.id}"><span>${esc(l.numeral ?? '')}</span> ${esc(l.label || l.heading)}</a>`).join('')}</nav>${lessons}${p.slug === 'workshop' ? joinsSection(ctx) : ''}${furtherReading(ctx, p.slug)}${citePage(ctx, p.title)}</div>`;
   return layout(ctx, { title: `${p.title} — Contrapunctus`, description: plain(p.lede), body, accent: p.accent, nav: p.slug });
+}
+
+// Every work in the Hall, by chapter and composer. Radio chips filter by forces in CSS alone (style.css .works-index).
+const FORCE_KINDS = [
+  ['orchestra', 'Orchestra', /orchestra|symphon|\bband\b/i],
+  ['keyboard', 'Piano and keyboard', /piano|harpsichord|keyboard|organ|clavichord/i],
+  ['voices', 'Voices', /\b(?:voices?|soprano|alto|contralto|mezzo|tenor|baritone|choir|chorus|singers?|narrator)\b/i],
+  ['chamber', 'Chamber music', /quartet|trio|quintet|sextet|octet|\bduo\b|(?:violin|cello|viola|flute|clarinet|oboe) and/i],
+];
+function worksIndex() {
+  const ctx = { base: '../', page: 'works/index' };
+  const kinds = (w) => { const f = w.listens.map((l) => l.forces ?? '').join(' '); return FORCE_KINDS.filter(([, , re]) => re.test(f)).map(([k]) => k); };
+  const item = (w) => {
+    const year = w.entry?.year ?? w.listens[0].year;
+    const n = w.listens.length;
+    const length = w.duration ? fmtTime(w.duration) : fmtTime(progById.get(w.listens[0].id)?.duration ?? 0);
+    return `<li data-k="${kinds(w).join(' ')}"><a href="${attr(w.slug)}.html">${esc(keyless(w.title))}</a><span class="wi-meta">${esc([year, w.listens[0].forces, n > 1 ? `${n} recordings` : length].filter(Boolean).join(' · '))}</span></li>`;
+  };
+  const total = WORKS.size;
+  const body = `<header class="page-hero"><div class="wrap"><span class="kicker">The repertoire</span><h1>Every work</h1><p class="lede">${total} pieces in the Concert Hall, by chapter and composer. Each has a page with every recording and every note.</p></div><span class="bg-glyph" aria-hidden="true">𝄞</span></header>
+<div class="wrap section works-index">
+<fieldset class="wi-filter"><legend class="sc">Show</legend><input type="radio" name="wi" id="wi-all" checked><label for="wi-all">Everything</label>${FORCE_KINDS.map(([k, label]) => `<input type="radio" name="wi" id="wi-${k}"><label for="wi-${k}">${esc(label)}</label>`).join('')}</fieldset>
+${eras.map((e) => {
+  const cs = composers.filter((c) => c.era === e.slug && composerWorks(c).length);
+  return cs.length ? `<section class="wi-era" style="--accent:${e.accent}"><h2><span class="n">${e.numeral}</span>${esc(e.name)}</h2>${cs.map((c) => `<div class="wi-composer"><h3><a href="../composers/${c.slug}.html">${esc(c.name)}</a><span>${lifespan(c)}</span></h3><ul>${composerWorks(c).map(item).join('')}</ul></div>`).join('')}</section>` : '';
+}).join('')}
+</div>`;
+  return layout(ctx, { title: 'Every work — Contrapunctus', description: `${total} pieces in the Concert Hall, each with every recording and every note.`, body, nav: 'composers' });
 }
 
 function workPage(w) {
@@ -687,6 +715,7 @@ function searchIndex() {
   for (const w of WORKS.values()) if (!w.entry) add('work', keyless(w.title), `${w.composer.name} · in the Concert Hall`, `works/${w.slug}.html`);
   for (const p of liveProgrammes()) add('programme', p.title, `A concert in the Hall · ${hours(p.duration)}`, `hall.html#programme-${p.id}`, `${p.subtitle} ${p.note}`);
   add('page', 'About Contrapunctus', 'What this is, how it is made, and how to correct it', 'about.html');
+  add('page', 'Every work', 'Every piece in the Concert Hall, by composer, filterable by forces', 'works/index.html');
   for (const p of Object.values(pages)) for (const l of p.lessons ?? []) add('lesson', l.heading, p.title, `${p.slug}.html#${l.id}`, `${l.label} ${l.question ?? ''}`);
   for (const g of GLOSSARY) add('glossary', g.term, g.short, `glossary.html#${g.slug}`, `${(g.aka ?? []).join(' ')} ${g.kind}`);
   for (const { a, id } of allArt()) add(['poem', 'text'].includes(a.type) ? 'poem' : 'painting', a.title, `${a.author ?? a.artist} · ${a.date ?? ''}`, `gallery.html#${id}`, a.note ?? '');
@@ -1032,12 +1061,13 @@ ${headScripts(ctx)}
         <canvas class="wheel" aria-hidden="true"></canvas>
         <div class="wheel-centre"><span class="chord">—</span><span class="chord-cap">heard harmony</span></div>
       </div>
-      <dl class="readouts">
-        <div><dt class="ro-bass-label">Bass</dt><dd class="ro-bass">—</dd></div>
-        <div><dt class="ro-top-label">Strongest pitches</dt><dd class="ro-top">—</dd></div>
-        <div><dt>Loudness</dt><dd><span class="meter"><span></span></span></dd></div>
-        <div><dt>Brightness</dt><dd><span class="meter bright"><span></span></span></dd></div>
-      </dl>
+      <div class="viz-mid">
+        <div class="now-section"><span class="ns-k">This section</span><p class="ns-label">—</p><p class="ns-note"></p><p class="ns-next"></p></div>
+        <dl class="readouts" hidden>
+          <div><dt>Lowest note</dt><dd class="ro-bass">—</dd></div>
+          <div><dt>Sounding now</dt><dd class="ro-top">—</dd></div>
+        </dl>
+      </div>
       <figure class="cameo-r"><span class="oval-r"><img alt=""></span><figcaption></figcaption></figure>
     </div>
   </section>
@@ -1051,7 +1081,7 @@ ${headScripts(ctx)}
     </div>
     <div class="tab tab-live" data-panel="live">
       <article class="join-card" hidden></article>
-      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><details class="cue-how"><summary>How we know</summary><p></p></details><span class="cue-next"></span><button type="button" class="cue-share">Link to this moment</button></article>
+      <article class="cue-now"><span class="cue-kind"></span><h2 class="cue-title"></h2><p class="cue-text"></p><details class="cue-how"><summary>How we know</summary><p></p></details><span class="cue-next"></span><span class="cue-acts"><button type="button" class="cue-share">Link to this moment</button><button type="button" class="cue-keep">Keep this moment</button></span></article>
       <ol class="cue-past"></ol>
     </div>
     <div class="tab tab-joins" data-panel="joins" hidden></div>
@@ -1081,7 +1111,8 @@ ${headScripts(ctx)}
 
 <aside class="programme" hidden>
   <header><h2>The programme</h2><p>Choose an evening, or the whole concert: ${concertN} recordings, ${Math.round(concertSecs / 3600)} hours, in the order the composers were born. Pieces marked <span class="p-score">score</span> show the engraved score as they play.</p><button class="prog-close" aria-label="Close">×</button></header>
-  ${(() => { const progs = liveProgrammes(); return progs.length ? `<section class="p-curated"><h3><span>✦</span>Evenings</h3><ol>${progs.map((p) => `<li><button data-programme="${attr(p.id)}"><span class="p-c">${esc(p.title)}</span><span class="p-w">${esc(p.subtitle)}</span><span class="p-d">${Math.round(p.duration / 60)} min</span></button></li>`).join('')}<li><button data-programme=""><span class="p-c">The whole concert</span><span class="p-w">Everything, in the order the composers were born</span><span class="p-d">${Math.round(concertSecs / 3600)} h</span></button></li></ol></section>` : ''; })()}
+  <section class="p-kept" hidden><h3><span>☆</span>Kept moments</h3><ol></ol></section>
+  ${(() => { const progs = liveProgrammes(); return progs.length ? `<section class="p-curated"><h3><span>✦</span>Evenings</h3><ol>${progs.map((p) => `<li><button data-programme="${attr(p.id)}"><span class="p-c">${esc(p.title)}</span><span class="p-w">${esc(p.subtitle)}</span><span class="p-d">${Math.round(p.duration / 60)} min</span></button></li>`).join('')}<li><button data-programme=""><span class="p-c">The whole concert</span><span class="p-w">Everything, in the order the composers were born</span><span class="p-d">${Math.round(concertSecs / 3600)} h</span></button></li><li><button data-surprise><span class="p-c">Surprise me</span><span class="p-w">One piece from anywhere in the concert, chosen at random</span><span class="p-d">?</span></button></li></ol></section>` : ''; })()}
   ${eraList.map(({ e, tracks }) => `<section style="--accent:${e.accent}"><h3><span>${e.numeral}</span>${esc(e.name)}</h3><ol>${tracks.map((t, i) => {
     const head = t.set && tracks[i - 1]?.set?.id !== t.set.id ? `<li class="p-set"><span>${esc(t.composer.name)}</span> ${esc(t.set.title)} <em>${(() => { const n = tracks.filter((x) => x.set?.id === t.set.id).length; return n >= t.set.of ? `complete · ${t.set.of} movements` : `${n} of ${t.set.of} movements`; })()}</em></li>` : '';
     return `${head}<li${t.set ? ' class="p-mv"' : ''}><button data-id="${t.id}">${t.composer.thumb ? `<img class="p-i" src="${t.composer.thumb}" alt="" loading="lazy" decoding="async" style="object-position:${t.composer.focus}">` : '<span class="p-i"></span>'}<span class="p-c">${esc(t.composer.name)}${t.hasSheet ? ' <span class="p-score">score</span>' : ''}</span><span class="p-w">${t.set ? esc(t.movement || t.work) : `${esc(t.work)}${t.movement ? ` · ${esc(t.movement)}` : ''}`}</span><span class="p-d">${fmt(t.duration)}</span></button></li>`;
@@ -1128,6 +1159,7 @@ await out('atlas.html', `<!doctype html><meta charset="utf-8"><title>Contrapunct
 await out('composers/index.html', composersIndex());
 for (const [i, c] of composers.entries()) await out(`composers/${c.slug}.html`, composerPage(c, i));
 for (const w of WORKS.values()) await out(`works/${w.slug}.html`, workPage(w));
+await out('works/index.html', worksIndex());
 await out('about.html', aboutPage());
 for (const e of eras) await out(`eras/${e.slug}.html`, eraPage(e));
 for (const p of Object.values(pages)) await out(`${p.slug}.html`, longPage(p));

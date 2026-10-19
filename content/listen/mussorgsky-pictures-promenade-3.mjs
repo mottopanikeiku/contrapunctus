@@ -22,6 +22,7 @@ export default {
 
   cues: [
     { t: 0, kind: 'music', title: 'Brass, then bare notes', text: 'Trumpet and trombones bring back the Promenade with the orchestra behind them. The B-major walk lasts only eight bars. By the end, the chords have fallen away, leaving a slowing fragment that stops on C♯.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano text, Promenade III, bars 1–8; Orrin Howard’s LA Phil note identifies trumpet and trombones. Ravel’s orchestration is inferred for this recording. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-3.ly ; https://www.laphil.com/musicdb/pieces/557/pictures-at-an-exhibition' },
+    { t: 22, kind: 'music', title: 'A cliffhanger in pizzicato', text: 'In Ravel’s scoring the strings pluck and slow to a halt. The next picture, <i>Tuileries</i>, is the Paris park, swarming with children and their nurses.', basis: 'documented', precision: 'passage', evidence: 'Joanna Wyld, Philharmonia listening guide, 7 April 2022, p. 7: Promenade 3 ends with a cliffhanger of slowing pizzicato strings (https://philharmonia-assets.s3.amazonaws.com/uploads/2022/04/07.04.22_RFH-online.pdf). Michael Steinberg’s Boston Symphony note describes Tuileries as the park in Paris “swarming with children and their nurses”: https://www.bso.org/works/pictures-at-an-exhibition' },
   ],
 
   transitions: [

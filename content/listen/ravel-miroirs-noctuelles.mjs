@@ -45,6 +45,12 @@ export default {
       "evidence": "Demets edition, p. 4: Pas trop lent, sombre et expressif, 5/4 and 3/4. B♭ minor and the F–B♭ bass are discussed at https://enc.piano.or.jp/en/musics/329."
     },
     {
+      "t": 100, "kind": "life", "title": "Ravel on his new harmony",
+      "text": "In the autobiographical sketch he dictated in 1928, Ravel says that <i>Miroirs</i> marked a change in his harmony large enough to disconcert the musicians most accustomed to his manner. <i>Noctuelles</i>, with its chromatic moths, opens the set.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Ravel’s notes dictated to Roland-Manuel on 10 October 1928, Bibliothèque nationale de France, Département de la Musique (Gallica btv1b10073212x, sheet 6): “un changement assez considérable pour avoir décontenancé les musiciens les plus accoutumés jusqu’alors à ma manière”. Our translation. Published as the Esquisse autobiographique in La Revue musicale, December 1938; English in Orenstein, A Ravel Reader (2003), as quoted by Kyle Fyr, Music Theory Online 26.4 (2020), paragraph 1: https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.fyr.html. Dictation date: Cornejo’s chronology: https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf"
+    },
+    {
       "t": 148, "kind": "form", "title": "A flutter in the bass",
       "text": "The first tempo returns softly. The quick figure starts low in the keyboard over a repeated bass note, climbs, and breaks into fragments of the slower song. The moths are back among the chords.",
       "basis": "score-proportion", "precision": "passage",

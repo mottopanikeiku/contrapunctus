@@ -146,6 +146,13 @@
   "artist": "Francis Poulenc & Jacques Février, piano 4-mains",
   "duration": 816
  },
+ "archive:3-fernandez-arbos-madrid-so-col-9683-4-sombrero-tres-picos-3-1928/2 Fernandez Arbós, Madrid SO - Col 9683-4 Sombrero tres picos 2 1928.mp3": {
+  "stream": "https://archive.org/download/3-fernandez-arbos-madrid-so-col-9683-4-sombrero-tres-picos-3-1928/2%20Fernandez%20Arb%C3%B3s%2C%20Madrid%20SO%20-%20Col%209683-4%20Sombrero%20tres%20picos%202%201928.mp3",
+  "page": "https://archive.org/details/3-fernandez-arbos-madrid-so-col-9683-4-sombrero-tres-picos-3-1928",
+  "license": "",
+  "artist": "Enrique Fernández Arbós, Madrid Symph. Orch.",
+  "duration": 159
+ },
  "archive:3.-debussy-nocturnes-3-sirenes/1 Debussy Nocturnes 1 Nuages.mp3": {
   "stream": "https://archive.org/download/3.-debussy-nocturnes-3-sirenes/1%20Debussy%20Nocturnes%201%20Nuages.mp3",
   "page": "https://archive.org/details/3.-debussy-nocturnes-3-sirenes",
@@ -159,6 +166,13 @@
   "license": "",
   "artist": "Ansermet Ernest, cond.; OSR",
   "duration": 376.11
+ },
+ "archive:78_4jota_171_09/4.Jota - Maria Barrientos - Manuelde Falla - Manuel De Falla.mp3": {
+  "stream": "https://archive.org/download/78_4jota_171_09/4.Jota%20-%20Maria%20Barrientos%20-%20Manuelde%20Falla%20-%20Manuel%20De%20Falla.mp3",
+  "page": "https://archive.org/details/78_4jota_171_09",
+  "license": "",
+  "artist": "Maria Barrientos; Manuelde Falla; Manuel De Falla",
+  "duration": 185
  },
  "archive:78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/Carmen (\"Love is Like a Wood Bird\") (Ac - Geraldine Farrar.mp3": {
   "stream": "https://archive.org/download/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/Carmen%20(%22Love%20is%20Like%20a%20Wood%20Bird%22)%20(Ac%20-%20Geraldine%20Farrar.mp3",
@@ -342,12 +356,26 @@
   "artist": "",
   "duration": 543.46
  },
+ "archive:clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945/Curzon Jorda - Falla Nights Decca X 10020-2 1945.mp3": {
+  "stream": "https://archive.org/download/clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945/Curzon%20Jorda%20-%20Falla%20Nights%20Decca%20X%2010020-2%201945.mp3",
+  "page": "https://archive.org/details/clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945",
+  "license": "",
+  "artist": "Clifford Curzon, piano; Enrique Jorda, cond.; National S.O.",
+  "duration": 1486.11
+ },
  "archive:dm-1235-poulenc-double-concerto-i/DM1235 Poulenc Double Concerto (ii).mp3": {
   "stream": "https://archive.org/download/dm-1235-poulenc-double-concerto-i/DM1235%20Poulenc%20Double%20Concerto%20(ii).mp3",
   "page": "https://archive.org/details/dm-1235-poulenc-double-concerto-i",
   "license": "",
   "artist": "Radio Corporation of America",
   "duration": 404.77
+ },
+ "archive:dx-1386-7-vw-lark-ascending/DX1386-7 VW Lark Ascending.mp3": {
+  "stream": "https://archive.org/download/dx-1386-7-vw-lark-ascending/DX1386-7%20VW%20Lark%20Ascending.mp3",
+  "page": "https://archive.org/details/dx-1386-7-vw-lark-ascending",
+  "license": "",
+  "artist": "Columbia Graphophone Co., Ltd.",
+  "duration": 844.75
  },
  "archive:hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3": {
   "stream": "https://archive.org/download/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3",
@@ -383,6 +411,13 @@
   "license": "Public domain",
   "artist": "murphy, lambert ; dixon, raymond ; janequin, clément ; carlino, william ; guillaume de machaut ; di stefano, stefano ; weckerlin, j.-b",
   "duration": 98.8
+ },
+ "archive:loc-jukebox-125920-how-much-i-love-you/jukebox-125920_how-much-i-love-you.mp3": {
+  "stream": "https://archive.org/download/loc-jukebox-125920-how-much-i-love-you/jukebox-125920_how-much-i-love-you.mp3",
+  "page": "https://archive.org/details/loc-jukebox-125920-how-much-i-love-you",
+  "license": "Public domain",
+  "artist": "browning, robert",
+  "duration": 114.36
  },
  "archive:loc-jukebox-188720-largo-al-factotum/jukebox-188720_largo-al-factotum.mp3": {
   "stream": "https://archive.org/download/loc-jukebox-188720-largo-al-factotum/jukebox-188720_largo-al-factotum.mp3",
@@ -706,6 +741,27 @@
   "artist": "Clara Schumann; Ludwig van Beethoven; The Mannes Gimpel Silva Trio",
   "duration": 339.74
  },
+ "archive:mm-633-falla-el-amor-brujo/MM633 Falla El Amor Brujo.mp3": {
+  "stream": "https://archive.org/download/mm-633-falla-el-amor-brujo/MM633%20Falla%20El%20Amor%20Brujo.mp3",
+  "page": "https://archive.org/details/mm-633-falla-el-amor-brujo",
+  "license": "",
+  "artist": "Columbia Recording Corporation",
+  "duration": 1359.5
+ },
+ "archive:mm-747-saint-saens-sym-3-i/MM747 Saint-Saens Sym 3 (i).mp3": {
+  "stream": "https://archive.org/download/mm-747-saint-saens-sym-3-i/MM747%20Saint-Saens%20Sym%203%20(i).mp3",
+  "page": "https://archive.org/details/mm-747-saint-saens-sym-3-i",
+  "license": "",
+  "artist": "Columbia Records, Inc.",
+  "duration": 1013.79
+ },
+ "archive:mm-747-saint-saens-sym-3-i/MM747 Saint-Saens Sym 3 (ii).mp3": {
+  "stream": "https://archive.org/download/mm-747-saint-saens-sym-3-i/MM747%20Saint-Saens%20Sym%203%20(ii).mp3",
+  "page": "https://archive.org/details/mm-747-saint-saens-sym-3-i",
+  "license": "",
+  "artist": "Columbia Records, Inc.",
+  "duration": 844.31
+ },
  "archive:Mozart.PianoConcertoNo.21/01 Allegro maestoso.mp3": {
   "stream": "https://archive.org/download/Mozart.PianoConcertoNo.21/01%20Allegro%20maestoso.mp3",
   "page": "https://archive.org/details/Mozart.PianoConcertoNo.21",
@@ -755,6 +811,13 @@
   "artist": "Sergei Rachmaninoff",
   "duration": 211
  },
+ "archive:Saint-saensDanceMacabre/Saint-saensDanceMacabre-1925.mp3": {
+  "stream": "https://archive.org/download/Saint-saensDanceMacabre/Saint-saensDanceMacabre-1925.mp3",
+  "page": "https://archive.org/details/Saint-saensDanceMacabre",
+  "license": "CC BY",
+  "artist": "Camille Saint-Saens",
+  "duration": 428.88
+ },
  "archive:SchubertSymphonyNo.8unfinished_347/01_schubertNo.8M1.mp3": {
   "stream": "https://archive.org/download/SchubertSymphonyNo.8unfinished_347/01_schubertNo.8M1.mp3",
   "page": "https://archive.org/details/SchubertSymphonyNo.8unfinished_347",
@@ -776,12 +839,26 @@
   "artist": "",
   "duration": 2637.04
  },
+ "archive:VaughanWilliamsSymfFHMVDB840692/Vaughan Williams Symf 4 HMV DB8406-9 1.mp3": {
+  "stream": "https://archive.org/download/VaughanWilliamsSymfFHMVDB840692/Vaughan%20Williams%20Symf%204%20HMV%20DB8406-9%201.mp3",
+  "page": "https://archive.org/details/VaughanWilliamsSymfFHMVDB840692",
+  "license": "",
+  "artist": "Ralph Vaughan Williams, cond.; BBC S.O.",
+  "duration": 481
+ },
  "archive:willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926/Willem Mengelberg CGO - Col L 1798 WAX 1548-9 1926.mp3": {
   "stream": "https://archive.org/download/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926/Willem%20Mengelberg%20CGO%20-%20Col%20L%201798%20WAX%201548-9%201926.mp3",
   "page": "https://archive.org/details/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926",
   "license": "",
   "artist": "Concertgebouw Orch.c.b. Willem Mengelberg",
   "duration": 437
+ },
+ "archive:x-159-rvw-english-folksong-suite/X-159 RVW English Folksong Suite.mp3": {
+  "stream": "https://archive.org/download/x-159-rvw-english-folksong-suite/X-159%20RVW%20English%20Folksong%20Suite.mp3",
+  "page": "https://archive.org/details/x-159-rvw-english-folksong-suite",
+  "license": "",
+  "artist": "Columbia Recording Corporation",
+  "duration": 700.71
  },
  "File:\"Ich bin der Welt abhanden gekommen\" from Rückert-Lieder - United States Navy Band.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/%22Ich_bin_der_Welt_abhanden_gekommen%22_from_R%C3%BCckert-Lieder_-_United_States_Navy_Band.ogg/%22Ich_bin_der_Welt_abhanden_gekommen%22_from_R%C3%BCckert-Lieder_-_United_States_Navy_Band.ogg.mp3",
@@ -915,6 +992,13 @@
   "license": "Public domain",
   "artist": "Jascha Heifetz",
   "duration": 782.2533333333333
+ },
+ "File:Banda dell'esercito degli Stati uniti, Ralph Vaughan Williams, Fantasia on a Theme by Thomas Tallis.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Banda_dell%27esercito_degli_Stati_uniti%2C_Ralph_Vaughan_Williams%2C_Fantasia_on_a_Theme_by_Thomas_Tallis.ogg/Banda_dell%27esercito_degli_Stati_uniti%2C_Ralph_Vaughan_Williams%2C_Fantasia_on_a_Theme_by_Thomas_Tallis.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Banda_dell%27esercito_degli_Stati_uniti,_Ralph_Vaughan_Williams,_Fantasia_on_a_Theme_by_Thomas_Tallis.ogg",
+  "license": "Public domain",
+  "artist": "Orchestra d'archi dell'esercito degli Stati Uniti",
+  "duration": 893.6751020408163
  },
  "File:Bartok Op. 17, Second Movement.OGG": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Bartok_Op._17%2C_Second_Movement.OGG/Bartok_Op._17%2C_Second_Movement.OGG.mp3",
@@ -1125,6 +1209,13 @@
   "license": "Public domain",
   "artist": "Giacomo Puccini",
   "duration": 153.921
+ },
+ "File:Edvard Grieg - Concerto in A minor, 1st movement.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/Edvard_Grieg_-_Concerto_in_A_minor%2C_1st_movement.ogg/Edvard_Grieg_-_Concerto_in_A_minor%2C_1st_movement.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_-_Concerto_in_A_minor,_1st_movement.ogg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Edvard Grieg",
+  "duration": 763.5866666666667
  },
  "File:Edvard-Grieg-Lyric-Pieces-Op-65 -No-6-Wedding-Day-at-Troldhaugen.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg/Edvard-Grieg-Lyric-Pieces-Op-65_-No-6-Wedding-Day-at-Troldhaugen.ogg.mp3",
@@ -1391,6 +1482,13 @@
   "license": "Public domain",
   "artist": "Gioachino Rossini, transcribed by Wenzel Sedlak; performed by the United States Marine Corps Band (director: Timothy Foley).",
   "duration": 662.0212244897959
+ },
+ "File:Grieg's Suite for Strings, Op. 40, \"From Holberg’s Time\" - IV. Air - Chamber Orchestra - United States Marine Band.mp3": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/2/28/Grieg%27s_Suite_for_Strings%2C_Op._40%2C_%22From_Holberg%E2%80%99s_Time%22_-_IV._Air_-_Chamber_Orchestra_-_United_States_Marine_Band.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Grieg%27s_Suite_for_Strings,_Op._40,_%22From_Holberg%E2%80%99s_Time%22_-_IV._Air_-_Chamber_Orchestra_-_United_States_Marine_Band.mp3",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 316.89708827447816
  },
  "File:Grieg+plays+Grieg+Wedding+Day+(1903).ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg.mp3",
@@ -2218,6 +2316,13 @@
   "artist": "Frédéric Chopin",
   "duration": 120.18648526077098
  },
+ "File:Musopen - In the Hall Of The Mountain King.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg",
+  "license": "Public domain",
+  "artist": "Grieg, Edvard; Musopen Symphony Orchestra",
+  "duration": 154.09102083333335
+ },
  "File:O frondens 2.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/O_frondens_2.ogg/O_frondens_2.ogg.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:O_frondens_2.ogg",
@@ -2532,6 +2637,13 @@
   "license": "Public domain",
   "artist": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
   "duration": 164.7804081632653
+ },
+ "File:Saint-Saëns - Concerto pour piano n°5, op.103 - II. Andante (Magda Tagliaferro, Jean Fournet 1954).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Saint-Sa%C3%ABns_-_Concerto_pour_piano_n%C2%B05%2C_op.103_-_II._Andante_%28Magda_Tagliaferro%2C_Jean_Fournet_1954%29.flac/Saint-Sa%C3%ABns_-_Concerto_pour_piano_n%C2%B05%2C_op.103_-_II._Andante_%28Magda_Tagliaferro%2C_Jean_Fournet_1954%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Saint-Sa%C3%ABns_-_Concerto_pour_piano_n%C2%B05,_op.103_-_II._Andante_(Magda_Tagliaferro,_Jean_Fournet_1954).flac",
+  "license": "Public domain",
+  "artist": "",
+  "duration": 709.48
  },
  "File:Satie Gymnopedie No 1 performed by Michael Laucke.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac/Satie_Gymnopedie_No_1_performed_by_Michael_Laucke.flac.mp3",

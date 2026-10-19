@@ -1,0 +1,66 @@
+{
+  "batch": "beach",
+  "edges": [
+    {
+      "id": "schiller--beach-eilende-wolken",
+      "from": "schiller",
+      "to": "beach",
+      "kind": "set-text",
+      "year": 1892,
+      "title": "Mary Stuart’s speech becomes a concert aria",
+      "works": { "from": "Schiller, Maria Stuart (1800)", "to": "Eilende Wolken, Segler der Lüfte, Op. 18" },
+      "claim": "<p>When the contralto of the <i>Mass in E♭</i> asked for a grand dramatic aria, Beach set Mary Stuart’s “Eilende Wolken” from Schiller’s play for alto and orchestra. Walter Damrosch and the New York Symphony Society gave it on 2–3 December 1892, the first work by a woman that society had played.</p>",
+      "status": "documented",
+      "sources": [
+        { "title": "Cheryl Gillard, ‘Beach, Amy Cheney’, Women in World History (Encyclopedia.com)", "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/beach-amy-cheney-1867-1944", "locator": "Eilende Wolken, December 1892" },
+        { "title": "Amy Beach Project: orchestral works list", "url": "https://www.amybeach.org/music/works-list/orchestral-works-and-works-with-orchestra/", "locator": "Op. 18: text by F. von Schiller; first performance by C. Katie Alves" }
+      ]
+    },
+    {
+      "id": "dvorak--beach-gaelic-symphony",
+      "from": "dvorak",
+      "to": "beach",
+      "kind": "reacted-against",
+      "year": 1893,
+      "title": "The New World prompts an Irish answer",
+      "works": { "from": "Symphony No. 9, “From the New World”", "to": "“Gaelic” Symphony, Op. 32" },
+      "claim": "<p>Dvořák told the New York <i>Herald</i> in May 1893 that American composers could build on Negro melodies. In December Beach heard the <i>New World</i> in Boston and wrote in her journal that it lacked “the dark, tragic, side!” She told the Boston <i>Herald</i> that Northerners would more likely draw on old English, Scotch or Irish songs. Shortly afterwards she began a symphony on Irish tunes.</p>",
+      "status": "documented",
+      "sources": [
+        { "title": "David Weininger, ‘In a rare concert, the return of Amy Beach’, Boston Globe, 31 July 2019", "url": "https://www.bostonglobe.com/arts/music/2019/07/31/rare-concert-return-amy-beach/6qeLySpOfXN8T5F8dVUPOP/story.html", "locator": "December 1893 journal entry on the New World" },
+        { "title": "Jonathan Blumhofer, ‘Rethinking the Repertoire #9’, The Arts Fuse, 10 March 2016", "url": "https://artsfuse.org/141769/rethinking-the-repertoire-9-amy-beachs-gaelic-symphony", "locator": "Beach’s statement to the Boston Herald" },
+        { "title": "Dvořák American Heritage Association: Transatlantic Debate", "url": "https://www.dvoraknyc.org/transatlantic-debate", "locator": "New York Herald interview, 21 May 1893" }
+      ]
+    },
+    {
+      "id": "birdsong--beach-hermit-thrush",
+      "from": "birdsong",
+      "to": "beach",
+      "kind": "heard",
+      "year": 1921,
+      "title": "Thrush songs written down at MacDowell",
+      "works": { "from": "Hermit thrush, Peterborough, New Hampshire", "to": "A Hermit Thrush at Eve and A Hermit Thrush at Morn, Op. 92" },
+      "claim": "<p>In the summer of 1921, at the MacDowell Colony, Beach transcribed hermit thrush songs and built two piano pieces on them. A footnote to <i>Hermit Thrush at Morn</i> calls the bird-calls “exact notations of hermit thrush songs, in the original keys, but an octave lower”.</p>",
+      "status": "documented",
+      "sources": [
+        { "title": "MacDowell: The Bird Known Best by Composer Amy Beach", "url": "https://www.macdowell.org/special-projects/legacy-amy-beach", "locator": "Summer 1921; Beach’s handwritten note on the score" },
+        { "title": "IMSLP: Hermit Thrush, Op. 92 (A. P. Schmidt, 1922)", "url": "https://imslp.org/wiki/Hermit_Thrush,_Op.92_(Beach,_Amy_Marcy)", "locator": "Footnote at the foot of the first page of No. 2, A Hermit Thrush at Morn" }
+      ]
+    },
+    {
+      "id": "brahms--beach-piano-quintet",
+      "from": "brahms",
+      "to": "beach",
+      "kind": "modelled",
+      "year": 1907,
+      "title": "Brahms’s quintet finale supplies her theme",
+      "works": { "from": "Piano Quintet in F minor, Op. 34, finale (second theme, bar 94)", "to": "Piano Quintet in F♯ minor, Op. 67, first movement" },
+      "claim": "<p>The main theme of Beach’s first movement, first heard on the first violin, is an explicit reference to the second theme of Brahms’s quintet finale. Its falling phrases return in all three movements, and in the coda it appears in octaves in the strings, as in Brahms’s coda.</p>",
+      "status": "documented",
+      "sources": [
+        { "title": "Hyperion Records: Piano Quintet in F sharp minor, Op 67, notes by Nigel Simeone", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W21677_68295", "locator": "Brahms theme from the finale, bar 94; coda in octaves" }
+      ]
+    }
+  ],
+  "figures": []
+}

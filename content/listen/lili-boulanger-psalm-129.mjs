@@ -58,6 +58,15 @@ export default {
       "evidence": "Durand full score, plate D. & F. 10382 (1924), p. 1 and orchestral introduction through p. 7. https://ks15.imslp.org/files/imglnks/usimg/7/74/IMSLP829067-PMLP430945-Boulanger,_L_-_Psalm_129_full_score.pdf"
     },
     {
+      "t": 55,
+      "kind": "music",
+      "title": "A sarrusophone in the bass",
+      "text": "The score lists a sarrusophone after the bassoons: a double-reed instrument made in several sizes, used here as a bass. Boulanger places it beneath the bassoons and the upper horn. Helen Julia Minors singles it out as an example of her use of orchestral colour.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Durand full score, instrument list (printed p. 3): https://ks15.imslp.org/files/imglnks/usimg/7/74/IMSLP829067-PMLP430945-Boulanger,_L_-_Psalm_129_full_score.pdf. Helen Julia Minors, preface to Psalm 129 (2011): https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"
+    },
+    {
       "t": 94,
       "kind": "form",
       "title": "Mollet takes up the words",
@@ -85,6 +94,15 @@ export default {
       "evidence": "Helen Julia Minors, preface to Psalm 129 (Musikproduktion Höflich, 2011), gives the 1916 composition and 1921 première. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"
     },
     {
+      "t": 225,
+      "kind": "world",
+      "title": "Hatred and exasperation",
+      "text": "Georges Migot, writing in <i>La revue musicale</i> in 1924, hears in the chord progressions “the dull hatred and exasperated anger of an oppressed people”. The psalm opens with the words “Ils m’ont assez opprimé dès ma jeunesse”: they have oppressed me since my youth.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Migot’s French, “Les progressions mâles et puissantes expriment la haine sourde et la colère exaspérée d’un peuple opprimé”, as quoted in Helen Julia Minors’s preface (2011); our translation. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1100.html"
+    },
+    {
       "t": 284,
       "kind": "form",
       "title": "The women enter softly",
@@ -92,6 +110,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score (1924), pp. 22–24, figure 8: Un peu plus lent, women’s voices marked ppp on Ah, flute, celesta, harp and muted strings."
+    },
+    {
+      "t": 315,
+      "kind": "world",
+      "title": "Three ways to sing it",
+      "text": "Boulanger’s score allows a baritone soloist with optional women’s voices, a men’s chorus, or a mixed chorus. Here Pierre Mollet sings the baritone part. A printed note asks the conductor, when a soloist sings, to keep the brass below the written dynamics.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Durand full score, printed p. 3, performance options and note: https://ks15.imslp.org/files/imglnks/usimg/7/74/IMSLP829067-PMLP430945-Boulanger,_L_-_Psalm_129_full_score.pdf. Everest LPBR 6059 sleeve names Pierre Mollet, baritone: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d"
     },
     {
       "t": 350,

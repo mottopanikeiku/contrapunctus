@@ -50,6 +50,15 @@ export default {
       "evidence": "Breitkopf & Härtel full score (1880), II, bars 1–8. The order of entries is also described by Marianne Williams Tobias, Indianapolis Symphony Orchestra: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/."
     },
     {
+      "t": 35,
+      "kind": "life",
+      "title": "Three symphonies in a summer",
+      "text": "Mozart enters his last three symphonies in his own catalogue on 26 June, 25 July and 10 August 1788: the E♭ major, this G minor work and the <i>Jupiter</i>. All three are dated within forty-five days.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mozart’s own thematic catalogue (British Library, Zweig MS 63, https://searcharchives.bl.uk/catalog/040-001945812), as listed in the chronological table in Otto Jahn, Life of Mozart, trans. P. D. Townsend (1882), vol. 3: K. 543 on 26 June, K. 550 on 25 July, K. 551 on 10 August 1788. https://www.gutenberg.org/ebooks/43413"
+    },
+    {
       "t": 70,
       "kind": "music",
       "title": "Quick notes between phrases",
@@ -93,6 +102,15 @@ export default {
       "basis": "documented",
       "precision": "passage",
       "evidence": "The two versions are printed in the Breitkopf & Härtel score (1880) and listed at https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)."
+    },
+    {
+      "t": 400,
+      "kind": "world",
+      "title": "Musopen’s Kickstarter",
+      "text": "Musopen, a nonprofit founded by Aaron Dunn in 2006, raised more than $68,000 on Kickstarter in 2010 to record public-domain classics that anyone may use freely. This movement is among the results; Commons credits the players only as “Musopen Symphony”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Jim Farber, “Musopen: Will This Site Set Music Free?”, San Francisco Classical Voice, 25 September 2012 (Dunn and 2006; Kickstarter contributions of $68,630 from 1,276 backers): https://www.sfcv.org/articles/feature/musopen-will-site-set-music-free. Seattle Star, 2012: a $10,000 request that received $68,360: https://www.seattlestar.net/2012/08/musopen-sets-music-free/. The recording’s Commons page files it under the category Musopen Kickstarter Project and credits “Musopen Symphony”: https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_II._Andante_(Musopen_Symphony).flac"
     }
   ],
   "transitions": [

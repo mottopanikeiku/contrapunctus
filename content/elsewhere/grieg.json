@@ -1,0 +1,87 @@
+{
+  "composer": "grieg",
+  "items": [
+    {
+      "work": "Piano Concerto in A minor, Op. 16",
+      "year": "1868–69",
+      "performers": "Leif Ove Andsnes; Berlin Philharmonic; Mariss Jansons",
+      "recorded": "",
+      "label": "Warner Classics",
+      "note": "All three movements of the concerto, paired on the same album with Schumann’s A-minor concerto, the one Grieg had heard Clara Schumann play in Leipzig. The first movement runs about thirteen minutes, cadenza included.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/gb/album/grieg-schumann-piano-concertos/693394415",
+          "title": "Grieg & Schumann: Piano Concertos on Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "Peer Gynt — incidental music, Op. 23 (nineteen numbers)",
+      "year": "1874–75",
+      "performers": "San Francisco Symphony and Chorus; Herbert Blomstedt",
+      "recorded": "",
+      "label": "Decca",
+      "note": "Much more than the two suites: the Act I prelude, Ingrid’s Lament, the troll king’s hall, Morning Mood, Solveig’s Song and the cradle song that ends the play. Nineteen of the twenty-six numbers.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/gb/album/grieg-peer-gynt-incidental-music/1452202475",
+          "title": "Grieg: Peer Gynt (Incidental Music) on Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "Haugtussa, Op. 67, and other songs",
+      "year": "1895–98",
+      "performers": "Anne Sofie von Otter; Bengt Forsberg, piano",
+      "recorded": "",
+      "label": "Deutsche Grammophon",
+      "note": "All eight Haugtussa songs on Arne Garborg’s New Norwegian poems, then the six German songs of Op. 48 and songs to Danish and Norwegian words, including <i>En Svane</i>, <i>Med en Vandlilje</i> and <i>Våren</i>.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/gb/album/grieg-songs/1452156981",
+          "title": "Grieg: Songs on Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "Lyric Pieces — a selection from Op. 12 to Op. 71",
+      "year": "1867–1901",
+      "performers": "Leif Ove Andsnes, piano",
+      "recorded": "",
+      "label": "EMI Classics (now Warner Classics)",
+      "note": "Twenty-four pieces from nine of the ten books, from the <i>Arietta</i> of Op. 12 to <i>Remembrances</i> in Op. 71, the last book Grieg published.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/gb/album/grieg-lyric-pieces/695535671",
+          "title": "Grieg: Lyric Pieces on Apple Music"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple Music — Grieg & Schumann: Piano Concertos (Warner Classics, 2003): Andsnes, Jansons, Berlin Philharmonic; six tracks, Grieg concerto first movement 12.8 minutes",
+      "url": "https://music.apple.com/gb/album/grieg-schumann-piano-concertos/693394415"
+    },
+    {
+      "title": "Apple Music — Grieg: Peer Gynt (Incidental Music): San Francisco Symphony Chorus, Blomstedt and San Francisco Symphony; nineteen tracks (Decca)",
+      "url": "https://music.apple.com/gb/album/grieg-peer-gynt-incidental-music/1452202475"
+    },
+    {
+      "title": "Apple Music — Grieg: Songs: Anne Sofie von Otter and Bengt Forsberg; Haugtussa songs I–VIII among twenty-five tracks (Deutsche Grammophon, 1993)",
+      "url": "https://music.apple.com/gb/album/grieg-songs/1452156981"
+    },
+    {
+      "title": "Apple Music — Grieg: Lyric Pieces: Leif Ove Andsnes; twenty-four tracks from Op. 12 to Op. 71 (EMI Records)",
+      "url": "https://music.apple.com/gb/album/grieg-lyric-pieces/695535671"
+    },
+    {
+      "title": "Finn Benestad — Edvard Grieg, Norsk biografisk leksikon: Clara Schumann’s performance of the Schumann concerto in Leipzig; Peer Gynt in twenty-six numbers; Haugtussa, Op. 67; the Lyric Pieces in ten books, Op. 12 to Op. 71",
+      "url": "https://nbl.snl.no/Edvard_Grieg"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "falla-amor-brujo-reiner",
+  "work": {
+    "title": "El amor brujo",
+    "catalogue": "Gitanería, 1914–15; ballet-pantomime version, 1925",
+    "movement": "Complete, Nos. 1–13",
+    "version": {
+      "value": "The ballet in thirteen numbers, recorded on six 78-rpm sides",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "sony",
+        "laphil"
+      ],
+      "note": "The thirteen numbers are listed side by side on the Columbia set and match the number sequence of the ballet version; the performing edition used by the orchestra is unknown."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Carol Brice",
+        "role": "contralto"
+      },
+      {
+        "name": "Pittsburgh Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Fritz Reiner",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "sony"
+    ],
+    "note": "Carol Brice is credited only on sides 1, 4 and 6. Individual orchestral players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": "1946-02-05",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sony"
+      ],
+      "note": "Both the Internet Archive item and Sony’s box-set notes give 5 February 1946. The same notes record other sessions of 2 and 4 February 1946 for other works.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Syria Mosque, Pittsburgh, Pennsylvania",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sony"
+      ],
+      "note": "The Pittsburgh Symphony’s regular recording venue in these sessions."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sony"
+      ],
+      "note": "78-rpm album set; the set was reissued on a ten-inch LP, ML 2006, in 1948."
+    },
+    "catalogue": {
+      "value": "M-633 (78s 12409-D to 12411-D); automatic sequence MM-633 (12412-D to 12414-D)",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sony"
+      ],
+      "note": "The Internet Archive item is labelled MM-633."
+    },
+    "matrixTakeSides": {
+      "value": "Six sides, matrices XCO 35816 (Nos. 1–3), 35817 (Nos. 4–6), 35818 (Nos. 7–8), 35819 (Nos. 9–10), 35820 (No. 11), 35821 (Nos. 12–13); take 1",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "sony"
+      ],
+      "note": "The Internet Archive item and Sony’s notes give the same matrix numbers and side contents."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Shellackophile collection, Internet Archive",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item sits in the Internet Archive’s shellackophile-recordings collection; no personal mastering credit is given."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item was uploaded on 1 April 2022; the date of the transfer itself is not stated."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Equipment, equalisation and restoration settings are not stated. The file is a single continuous MP3 of the six sides."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/mm-633-falla-el-amor-brujo/MM633%20Falla%20El%20Amor%20Brujo.mp3",
+    "sourceChain": [
+      "archive",
+      "files"
+    ],
+    "format": "VBR MP3; the uploader’s continuous transfer of six 78-rpm sides",
+    "durationSeconds": 1359.5
+  },
+  "rights": {
+    "composition": {
+      "value": "Falla died on 14 November 1946. Spanish law protects the works of authors who died before 7 December 1987 for life plus 80 years, so his music remains protected in Spain until the end of 2026; arrangements and modern editions carry their own rights",
+      "status": "documented",
+      "sourceIds": [
+        "cedro",
+        "argentina"
+      ],
+      "note": "A phonogram term assessment does not clear the composition, an arrangement or a modern score edition."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: commercial publication in 1947, before 1963",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "sony",
+        "discogs"
+      ],
+      "note": "The project’s eu-published-before-1963 rule applied to a Columbia set issued in 1947 (the Internet Archive item says March 1947, Sony’s notes 24 February 1947, Discogs 1947). This is a territorial phonogram basis, not US or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Falla, El amor brujo; Carol Brice, contralto; Pittsburgh Symphony Orchestra; Fritz Reiner. Columbia Masterworks M-633/MM-633 (1947 issue), Internet Archive transfer. Territorial EU phonogram basis only; Falla’s composition remains protected in Spain until the end of 2026.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Falla, El Amor Brujo (Reiner, 1946): item description",
+      "url": "https://archive.org/metadata/mm-633-falla-el-amor-brujo",
+      "locator": "Description: Pittsburgh Symphony Orchestra, Fritz Reiner, Carol Brice; recorded 5 February 1946 at the Syria Mosque; issued March 1947 as Columbia Masterworks M-633 (12409-D to 12411-D) and MM-633 (12412-D to 12414-D); side and matrix list XCO 35816–35821; Brice credited on sides 1, 4 and 6.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive — file inventory for the Reiner item",
+      "url": "https://archive.org/metadata/mm-633-falla-el-amor-brujo/files",
+      "locator": "MM633 Falla El Amor Brujo.mp3; VBR MP3; 1359.5 seconds; MD5 5b25ada5836204e20718743a867588c2.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "sony",
+      "title": "Discogs — Fritz Reiner: The Complete Columbia Album Collection (Sony Classical, 2020), box-set notes",
+      "url": "https://www.discogs.com/release/19465918-Fritz-Reiner-The-Complete-Columbia-Album-Collection",
+      "locator": "CD 6 notes: 78s 12409–11-D in set M-633, 12412–14-D in set MM-633, released 24 February 1947; LP ML 2006 (10-inch) released 28 June 1948; recording at the Syria Mosque, Pittsburgh, 5 February 1946; matrices XCO 35816-1 to 35821-1; Carol Brice, mezzo-soprano vocals credited on the box.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs — master release: De Falla, Pittsburgh Symphony Orchestra with Fritz Reiner with Carol Brice, El Amor Brujo",
+      "url": "https://www.discogs.com/master/1172777",
+      "locator": "Year 1947; notes: “Recorded in 1946. Initial release in 1947 as Columbia Masterworks MM-633.”",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "laphil",
+      "title": "Los Angeles Philharmonic — El amor brujo (programme note by John Henken)",
+      "url": "https://www.laphil.com/works/el-amor-brujo",
+      "locator": "Pastora Imperio, Teatro Lara première April 1915, revisions 1916 and the ballet of 1925; the story of Candelas, Carmelo, Lucía and the ghost.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archivo",
+      "title": "Archivo Manuel de Falla — chronology, Granada 1920–1939",
+      "url": "https://www.manueldefalla.com/en/granada-1920-1939",
+      "locator": "1925: the definitive ballet version of El amor brujo at the Trianon-Lyrique, Paris, 22 May.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "cedro",
+      "title": "CEDRO — Apuntes sobre el dominio público en España (14 April 2026)",
+      "url": "https://www.cedro.org/blog/articulo/blog.cedro.org/2026/04/14/apuntes-sobre-el-dominio-p%C3%BAblico-en-espa%C3%B1a",
+      "locator": "Transitional provision 4: works of authors who died before 7 December 1987 keep the term of the 1879 law, the life of the author and 80 years.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "argentina",
+      "title": "Archivo Manuel de Falla — Argentina (1939–1946)",
+      "url": "https://www.manueldefalla.com/en/argentina",
+      "locator": "1946: Falla dies in his sleep on 14 November at Los Espinillos, near Alta Gracia.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

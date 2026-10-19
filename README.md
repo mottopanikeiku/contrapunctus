@@ -50,24 +50,24 @@ not estimates of every visitor’s experience.
 
 ## The Concert Hall
 
-One continuous concert, from Gregorian chant, Hildegard and Machaut to Copland and Shostakovich: 340 recordings in the order the composers were born, about 41½ hours of music, streamed from Wikimedia Commons and the Internet Archive. Another 64 recordings (historical takes, comparisons) sit outside the running order, for 404 in all. One player follows you through the site.
+One continuous concert, from Gregorian chant, Hildegard and Machaut to Copland and Shostakovich: 357 recordings in the order the composers were born, about 44½ hours of music, streamed from Wikimedia Commons and the Internet Archive. Another 63 recordings (historical takes, comparisons) sit outside the running order, for 420 in all. One player follows you through the site.
 
-- **Evenings**: eight curated programmes (a first evening, Paris 1888–1913, Vienna, the composers playing their own music, late at night, the first recordings, a night at the opera, the New World). An evening plays its tracks in order and stops.
-- **Shareable moments**: `hall.html#<id>` opens a recording, `#<id>&t=<seconds>` a moment within it, `#programme-<id>` an evening. *Link to this moment* copies the address.
-- **Views of the music**: the engraved score lighting up bar by bar where an aligned score exists, a note-roll by voice, the orchestra on its stage, the form as an arc diagram, and the live sound (spectrogram, keyboard, pitch wheel). F fills the hall with any view.
-- **Notes as it plays**: 2,389 timed notes, written from the score and from documents (letters, premières, recording sessions), each with *How we know*, and 1,176 dissected joins between sections, marked ◆ on the timeline.
+- **Evenings**: eight curated programmes (a first evening, Paris 1888–1913, Vienna, the composers playing their own music, late at night, the first recordings, a night at the opera, the New World). An evening plays its tracks in order and stops. *Surprise me* (`hall.html#surprise`) plays one piece from anywhere.
+- **Shareable and keepable moments**: `hall.html#<id>` opens a recording, `#<id>&t=<seconds>` a moment within it, `#programme-<id>` an evening. *Link to this moment* copies the address; *Keep this moment* saves it to a private list at the top of the programme, in your browser.
+- **Views of the music**: the engraved score lighting up bar by bar where an aligned score exists, a note-roll by voice, the orchestra on its stage, the form as an arc diagram, and the live sound (spectrogram, keyboard, pitch wheel). Beneath every view, *This section* names the passage you are in and what comes next. F fills the hall with any view.
+- **Notes as it plays**: 3,133 timed notes, written from the score and from documents (letters, premières, recording sessions), each with *How we know*, and 1,172 dissected joins between sections, marked ◆ on the timeline. Long works carry notes all the way through, at most one per 40 seconds.
 - **This recording**: a provenance dossier for every recording (documented / inferred / disputed, alternatives, sources, how to cite).
 
 ## Composers and works
 
-- **66 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès, with Rossini, Bizet, Florence Price, Gershwin, Copland and Cage among the newest. Each life is built from scenes and the composer’s own words; most quote letters, diaries or memoirs.
+- **71 composers** in seven chapters, from Couperin and Bach to Saariaho and Adès, with Rossini, Grieg, Bizet, Saint-Saëns, Amy Beach, Falla, Vaughan Williams, Florence Price, Gershwin, Copland and Cage among the newest. Each life is built from scenes and the composer’s own words; most quote letters, diaries or memoirs.
 - Each page: the life with margin notes, how the music works (harmony, line, rhythm, orchestration, form), a listening path through the works, playable engraved score examples, sister arts (public-domain paintings, prints and poems with new translations), recordings to own and lineage.
-- **168 work pages** (`works/<composer>-<work>.html`) gather every recording of a piece, with its notes and joins and a button to play from the beginning.
-- **Where to hear it**: for 23 composers, hand-picked recordings on official channels (label pages, the artist’s or label’s own YouTube and Spotify uploads, verified through oEmbed). For composers the Hall cannot host, such as Messiaen, Britten or Saariaho, this is where their music lives on the site; for the rest it adds performances the public domain cannot supply.
+- **185 work pages** (`works/<composer>-<work>.html`) gather every recording of a piece, with its notes and joins and a button to play from the beginning. **Every work** (`works/index.html`) lists them by chapter and composer and filters by orchestra, keyboard, voices or chamber music.
+- **Where to hear it**: for 28 composers, hand-picked recordings on official channels (label pages, the artist’s or label’s own YouTube and Spotify uploads, verified through oEmbed). For composers the Hall cannot host, such as Messiaen, Britten or Saariaho, this is where their music lives on the site; for the rest it adds performances the public domain cannot supply.
 
 ## The Web of Influence
 
-287 sourced connections between the 66 composers and 124 painters, poets, teachers, performers and traditions, laid out across four centuries. Touch a portrait to light what flowed in and out; open a connection for the story, its evidence status and sources, the two passages engraved side by side and playable, or the painting beside the music. Seven motif threads (Dies irae, B–A–C–H, the Tristan chord, the lament bass, La Folia, the Ode to Joy, Frère Jacques) can be traced as one golden path through time.
+307 sourced connections between the 71 composers and 121 painters, poets, teachers, performers and traditions, laid out across four centuries. Touch a portrait to light what flowed in and out; open a connection for the story, its evidence status and sources, the two passages engraved side by side and playable, or the painting beside the music. Seven motif threads (Dies irae, B–A–C–H, the Tristan chord, the lament bass, La Folia, the Ode to Joy, Frère Jacques) can be traced as one golden path through time.
 
 ## Compare performers
 
@@ -75,7 +75,7 @@ One continuous concert, from Gregorian chant, Hildegard and Machaut to Copland a
 
 ## The Map
 
-1,447 sourced places in the lives of all 66 composers on an engraved map of Europe (with a New York inset), animated year by year from 1680 to 1990: homes, journeys, premières, and who was in which city at the same time, each place linked to its recordings.
+1,559 sourced places in the lives of all 71 composers on an engraved map of Europe (with a New York inset), animated year by year from 1680 to 1990: homes, journeys, premières, and who was in which city at the same time, each place linked to its recordings.
 
 ## Guided journeys
 

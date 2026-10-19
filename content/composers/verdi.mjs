@@ -121,7 +121,7 @@ Signifying nothing.`,
     { work: 'Falstaff', performers: 'Tito Gobbi, Elisabeth Schwarzkopf, Rolando Panerai, Philharmonia Orchestra and Chorus, Herbert von Karajan', year: '1956', label: 'EMI', note: 'Gobbi’s honour monologue is a miniature play, full of changes of colour. Karajan and the Philharmonia keep the quick exchanges precise, while Panerai’s Ford gives the comedy a genuinely dangerous temper.' },
   ],
   lineage: {
-    from: ['mozart', 'Gioachino Rossini', 'Vincenzo Bellini', 'Gaetano Donizetti', 'William Shakespeare'],
+    from: ['mozart', 'rossini', 'Vincenzo Bellini', 'Gaetano Donizetti', 'William Shakespeare'],
     to: ['puccini', 'britten', 'Arrigo Boito'],
     note: `<p>[[puccini|Puccini]] inherited theatres and audiences that knew Verdi’s operas by heart. [[britten|Britten]]’s <i>War Requiem</i> draws on Verdi’s handling of the Mass for the Dead. Boito’s place is unusually intimate: a composer himself, he supplied the words, cuts and theatrical inventions that made Verdi’s last two operas possible.</p>`,
   },

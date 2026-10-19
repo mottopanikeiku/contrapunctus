@@ -1,0 +1,77 @@
+{
+  "composer": "vaughan-williams",
+  "items": [
+    {
+      "work": "Symphony No. 5 in D major",
+      "year": "1943",
+      "performers": "London Symphony Orchestra; Sir Antonio Pappano",
+      "recorded": "17 & 18 April 2024, Barbican Hall, London",
+      "label": "LSO Live",
+      "note": "The score is inscribed “Dedicated without permission to Jean Sibelius”. Pappano and the London Symphony Orchestra pair the Fifth, which the label describes as reaching for hope amid the turmoil of war, with the Ninth Symphony on LSO0900. The orchestra’s own channel carries the slow movement, the Romanza.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://lsolive.lso.co.uk/products/lso0900-vaughan-williams",
+          "title": "LSO Live — Vaughan Williams: Symphonies Nos 5 & 9 (LSO0900)"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=oX4pTSRcgSc",
+          "title": "Symphony No 5 ‘Romanza’ — Sir Antonio Pappano & LSO (London Symphony Orchestra channel)"
+        }
+      ]
+    },
+    {
+      "work": "A Pastoral Symphony (No. 3) and Symphony No. 4",
+      "year": "1921; 1935",
+      "performers": "BBC Symphony Orchestra; Martyn Brabbins",
+      "recorded": "Watford Colosseum",
+      "label": "Hyperion",
+      "note": "The war-haunted Pastoral, with its natural-trumpet fanfare in the second movement, sits beside the grinding semitones of the Fourth. Hyperion’s page for CDA68280 carries Robert Matthew-Walker’s booklet note and the label’s listing of both symphonies.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68280",
+          "title": "Hyperion — Vaughan Williams: Symphonies Nos 3 & 4 (CDA68280)"
+        }
+      ]
+    },
+    {
+      "work": "The Lark Ascending — violin and piano",
+      "year": "1920",
+      "performers": "Julia Hwang, violin; Charles Matthews, piano",
+      "recorded": "September 2016, Snape Maltings, Suffolk",
+      "label": "Signum Classics",
+      "note": "The violin-and-piano version that Marie Hall and Geoffrey Mendham gave at Shirehampton on 15 December 1920 appears on Hwang’s debut album Subito (SIGCD486). Hyperion’s page for the release reproduces Richard Bratby’s booklet note on the piece.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_SIGCD486",
+          "title": "Hyperion — Julia Hwang, Subito (Signum Classics SIGCD486)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "LSO Live — Vaughan Williams: Symphonies Nos 5 & 9: performers, recording dates, release date 26 September 2025",
+      "url": "https://lsolive.lso.co.uk/products/lso0900-vaughan-williams"
+    },
+    {
+      "title": "London Symphony Orchestra YouTube channel — Symphony No 5 ‘Romanza’ (oEmbed author: London Symphony Orchestra)",
+      "url": "https://www.youtube.com/@LondonSymphonyOrchestra"
+    },
+    {
+      "title": "Hyperion Records — Symphonies Nos 3 & 4: BBC Symphony Orchestra, Martyn Brabbins, Watford Colosseum, released January 2020",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68280"
+    },
+    {
+      "title": "Hyperion Records — Julia Hwang, Subito (SIGCD486): Snape Maltings, September 2016; released June 2017",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_SIGCD486"
+    },
+    {
+      "title": "Stephen Moss, The Guardian: A wing and a prayer — first performance at Shirehampton, 15 December 1920",
+      "url": "https://www.theguardian.com/music/2020/dec/08/the-lark-ascending-ralph-vaughan-williams-classical-chart-topper-jennifer-pike"
+    }
+  ]
+}

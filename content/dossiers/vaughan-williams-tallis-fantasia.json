@@ -1,0 +1,130 @@
+{
+  "id": "vaughan-williams-tallis-fantasia",
+  "work": {
+    "title": "Fantasia on a Theme by Thomas Tallis",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "armyband"],
+      "note": "The Commons description says only “Fantasia su un tema di Thomas Tallis”. Which of the 1910, 1913 and 1919 versions is played, the performing edition and the number of players in each group are not stated."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "The U.S. Army Strings", "role": "string orchestra" }
+    ],
+    "status": "documented",
+    "sourceIds": ["commons", "armyband"],
+    "note": "Commons credits the artist as “Orchestra d’archi dell’esercito degli Stati Uniti”; the archived Army Band download page is headed The U.S. Army Band “Pershing’s Own” – Army Strings Audio Downloads. Neither names a conductor or soloist. IMSLP lists a 14:53 recording from the U.S. Army Band (uploaded 2010) with the U.S. Army Strings under Lt. Col. John Clanton; the Commons page does not confirm that it is the same file."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "Commons gives “circa 2010” for the file. That is the uploader’s date for the recording, not a documented session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "armyband"],
+      "note": "The ensemble’s home base does not establish the recording venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "armyband"],
+      "note": "The file came from the U.S. Army Band’s own download page, not from a commercial label."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons", "armyband"],
+      "note": "No catalogue number is supplied."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "No matrix, take or original carrier is identified; the digital file alone does not settle whether such identifiers exist."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Imported to Wikimedia Commons from Italian Wikipedia (FileImporter); original source: the U.S. Army Band download page.",
+      "status": "documented",
+      "sourceIds": ["commons", "armyband"],
+      "note": "The Commons import comment and the Credit field give this chain. No personal mastering credit is stated."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["commons"],
+      "note": "The Commons file timestamp (4 October 2012) is an import date, not a transfer or session date."
+    },
+    "processing": {
+      "value": "Ogg Vorbis file with an MP3 access derivative supplied by Wikimedia Commons.",
+      "status": "documented",
+      "sourceIds": ["commons"],
+      "note": "Earlier processing by the Army Band (its page offered MP3 files compressed in zip format) is not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Banda_dell%27esercito_degli_Stati_uniti%2C_Ralph_Vaughan_Williams%2C_Fantasia_on_a_Theme_by_Thomas_Tallis.ogg/Banda_dell%27esercito_degli_Stati_uniti%2C_Ralph_Vaughan_Williams%2C_Fantasia_on_a_Theme_by_Thomas_Tallis.ogg.mp3",
+    "sourceChain": ["armyband", "commons"],
+    "format": "MP3 access derivative; uploaded source Ogg Vorbis",
+    "durationSeconds": 893.7
+  },
+  "rights": {
+    "composition": {
+      "value": "Vaughan Williams’s copyright in the music runs to the end of 2028 in the UK and EU; the Fantasia (first published 1921) is in the public domain in the United States and Canada.",
+      "status": "documented",
+      "sourceIds": ["vwf", "imslp"],
+      "note": "The Vaughan Williams Foundation gives 2028 as the year copyright in his music expires; IMSLP records the work as public domain in Canada and the United States and not in countries with life plus 70 years. Any modern edition has its own rights."
+    },
+    "recording": {
+      "value": "Public domain, as declared on the Wikimedia Commons file page.",
+      "status": "inferred",
+      "sourceIds": ["commons", "armyband"],
+      "note": "The licence status is declared on the file page, but the template used there ({{PD-Old}}) concerns the age of the composition, which cannot apply to Vaughan Williams’s music in the UK or EU, and says nothing about the recording. The likely basis is that a U.S. Army Band recording is a work of the U.S. government; neither the file page nor the archived Army Band page says so. IMSLP lists the 14:53 Army Strings recording under Creative Commons Attribution 3.0."
+    },
+    "creditLine": "Ralph Vaughan Williams, Fantasia on a Theme by Thomas Tallis; The U.S. Army Strings, U.S. Army Band “Pershing’s Own”. Public domain as declared on Wikimedia Commons; original source the Army Band’s download page. Vaughan Williams’s copyright subsists in the UK and EU until the end of 2028.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — File:Banda dell'esercito degli Stati uniti, Ralph Vaughan Williams, Fantasia on a Theme by Thomas Tallis.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Banda_dell%27esercito_degli_Stati_uniti,_Ralph_Vaughan_Williams,_Fantasia_on_a_Theme_by_Thomas_Tallis.ogg",
+      "locator": "Description, Source, Date (circa 2010), Author, licence (public domain); import comment; duration 14 min 54 s.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "armyband",
+      "title": "The U.S. Army Band “Pershing’s Own” — Army Strings Audio Downloads (archived page)",
+      "url": "http://web.archive.org/web/20161016172826/http://www.usarmyband.com:80/Audio/army_strings_audio_downloads.html",
+      "locator": "Page heading and introduction: The U.S. Army Strings audio downloads; MP3 files. Archived 16 October 2016; the live page now returns an error.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Fantasia on a Theme by Thomas Tallis (Vaughan Williams)",
+      "url": "https://imslp.org/wiki/Fantasia_on_a_Theme_by_Thomas_Tallis_(Vaughan_Williams,_Ralph)",
+      "locator": "Copyright status banner; first performance 1910-09-06; first publication 1921, London: Goodwin & Tabb; recording listing: US Army Band, US Army Strings, Lt. Col. John Clanton (conductor), 14:53, Creative Commons Attribution 3.0.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "vwf",
+      "title": "Vaughan Williams Foundation — History",
+      "url": "https://vaughanwilliamsfoundation.org/the-foundation/history/",
+      "locator": "Statement that the Foundation’s work will continue beyond the expiration of copyright in Vaughan Williams’s music in 2028.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

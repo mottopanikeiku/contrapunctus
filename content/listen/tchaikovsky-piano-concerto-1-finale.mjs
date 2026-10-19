@@ -50,6 +50,15 @@ export default {
       "evidence": "Finale’s D♭-major second theme, violin and piano statements, and eventual B♭-major return: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
     },
     {
+      "t": 110,
+      "kind": "world",
+      "title": "A second folk song",
+      "text": "In 1869 Tchaikovsky arranged the Russian folk song “I’m Coming to the Capital” as No. 30 of his <i>Fifty Russian Folksongs</i>, for piano duet. A variant of its tune is thought to be the finale’s broad violin melody.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky Research, Piano Concerto No. 1 (Related Works): the finale’s second subject “may have been derived from” the folk song arranged in 1869 as No. 30 of the <i>Fifty Russian Folksongs</i>. The page on the Fifty Russian Folksongs (arranged August–September 1869, piano duet) repeats it: a variant of the tune may be the finale’s second subject. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1 https://en.tchaikovsky-research.net/pages/Fifty_Russian_Folksongs"
+    },
+    {
       "t": 158,
       "kind": "form",
       "title": "The song climbs a tone",
@@ -62,10 +71,10 @@ export default {
       "t": 194,
       "kind": "life",
       "title": "Shorter and better",
-      "text": "In January 1889, Tchaikovsky writes to the pianist Aleksandr Ziloti about cutting a troublesome passage in this finale. “I think it will be shorter and better,” he says. Fourteen years after composing the concerto, he is still working on it.",
+      "text": "In January 1889 Tchaikovsky tells the pianist Aleksandr Ziloti that he has altered a passage in this finale, “der verfluchte Stelle”, the accursed place. “I think it will be shorter and better,” he says. Fourteen years after composing the concerto, he is still working on it.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Tchaikovsky to Aleksandr Ziloti, letter 3751, 27 December 1888/8 January 1889. The recording’s performing edition is unspecified. https://en.tchaikovsky-research.net/index.php?title=Piano_Concerto_No._1"
+      "evidence": "Tchaikovsky to Aleksandr Ziloti, letter 3751, 27 December 1888/8 January 1889, in the translation printed in Tchaikovsky Research, Piano Concerto No. 1 (Composition, third version): “In the finale, I have now altered der verfluchte Stelle; I think it will be shorter and better”. The recording’s performing edition is unspecified. https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
     },
     {
       "t": 250,
@@ -75,6 +84,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Finale’s extended preparation and octave passage before the B♭-major culmination: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
+    },
+    {
+      "t": 280,
+      "kind": "life",
+      "title": "Bülow’s one comment",
+      "text": "On 13 January 1876 Bülow answers Tchaikovsky’s thoughts of revising the concerto: “no changes are necessary,” he writes, apart from some extra piano notes in a few tutti, which he has already added himself. His one comment on the finale concerns the tempo of the “triumphal 2nd motif” before the last stretta.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Bülow to Tchaikovsky, 1/13 January 1876, in the translation printed in Tchaikovsky Research, Piano Concerto No. 1 (Composition, second version). https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
     },
     {
       "t": 306,

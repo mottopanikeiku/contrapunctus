@@ -90,6 +90,15 @@ export default {
       "evidence": "Augener full score, Concerto IV, printed pp. 59–61, bars 26–51: alternating concertino figures and the return to D major. https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf"
     },
     {
+      "t": 126,
+      "kind": "world",
+      "title": "Printed after his death",
+      "text": "Corelli dies on 8 January 1713. His friend Matteo Fornari sees the twelve concerti grossi into print in Amsterdam, with a dedication to Johann Wilhelm, Elector Palatine, dated 20 November 1714. Op. 6 is the only collection of concertos Corelli published.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Dizionario Biografico degli Italiani (Treccani), Corelli entry: he died in the night before 8 January 1713; his will leaves Op. 6 and his papers to Matteo Fornari; Roger’s Amsterdam edition of Op. 6 is undated but carries Fornari’s dedication to the Elector Palatine, signed in Rome on 20 November 1714; Opp. 1–4 are trio sonatas, Op. 5 violin sonatas and Op. 6 the concerti grossi: https://www.treccani.it/enciclopedia/arcangelo-corelli_(Dizionario-Biografico)/ . Publication details also at IMSLP: https://imslp.org/wiki/12_Concerti_Grossi,_Op.6_(Corelli,_Arcangelo)"
+    },
+    {
       "t": 152,
       "kind": "form",
       "title": "The second section again",

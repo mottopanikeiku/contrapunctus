@@ -37,6 +37,15 @@ export default {
       "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, pp. 11–13: opening cello melody, wind accompaniment and the five-beat dance. https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
     },
     {
+      "t": 60,
+      "kind": "life",
+      "title": "A four-hand version first",
+      "text": "In August 1893, while still scoring the symphony, Tchaikovsky makes a four-hand piano arrangement of it himself. Jurgenson publishes the piano duet in November 1893 and the full score in February 1894.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky Research, Symphony No. 6: the arrangement made between 1/13 and 12/24 August 1893, and the publication history. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
+    },
+    {
       "t": 119,
       "kind": "life",
       "title": "The last page of sketches",

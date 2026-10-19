@@ -1,0 +1,35 @@
+{
+  "id": "falla",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Carol A. Hess, *Sacred Passions: The Life and Music of Manuel de Falla* (Oxford University Press, 2005).",
+      "url": "https://books.google.com/books/about/Sacred_Passions.html?id=d1QSDAAAQBAJ",
+      "kind": "biography",
+      "note": "How do the life, the faith and the music fit together? A biography that draws on the Granada archive and sets Falla’s work in its historical and cultural context."
+    },
+    {
+      "cite": "Carol A. Hess, *Manuel de Falla and Modernism in Spain, 1898–1936* (University of Chicago Press, 2001).",
+      "url": "https://books.google.com/books/about/Manuel_de_Falla_and_Modernism_in_Spain_1.html?id=qrP60BqU634C",
+      "kind": "cultural history",
+      "note": "What was Spanish modernism, and where did Falla stand in the political and cultural arguments before the Civil War? Hess approaches the period through his career."
+    },
+    {
+      "cite": "Manuel de Falla, *On Music and Musicians* (Marion Boyars, 1979), first published in Spanish as *Escritos sobre música y músicos* (1950).",
+      "url": "https://archive.org/details/onmusicmusicians0000fall",
+      "kind": "essays",
+      "note": "What did Falla himself write about the composers and traditions he admired? His collected essays, in English translation."
+    },
+    {
+      "cite": "Archivo Manuel de Falla, Granada: chronology and life-and-work pages.",
+      "url": "https://www.manueldefalla.com/en/chronology",
+      "kind": "archive",
+      "note": "When and where did each work, journey and première happen? Year-by-year dates, with extracts from the letters preserved in the Granada archive."
+    },
+    {
+      "cite": "Jaime Pahissa, *Vida y obra de Manuel de Falla* (Ricordi Americana, 1947; second edition 1956).",
+      "kind": "biography",
+      "note": "What did Falla say about his own life in his last years? Pahissa, a Catalan composer in exile in Buenos Aires, made notes during a visit to Los Espinillos in 1944 for this early life."
+    }
+  ]
+}

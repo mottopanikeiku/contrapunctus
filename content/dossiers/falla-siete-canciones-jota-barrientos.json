@@ -1,0 +1,212 @@
+{
+  "id": "falla-siete-canciones-jota-barrientos",
+  "work": {
+    "title": "Siete canciones populares españolas",
+    "catalogue": "Voice and piano, 1914; Max Eschig, 1922 (plates M.E. 702–708)",
+    "movement": "No. 4, Jota",
+    "version": {
+      "value": "Voice and piano, the fourth song of the cycle",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "archive"
+      ],
+      "note": "DAHR describes the recording as soprano vocal solo with piano. The published edition used and the key sung are not stated in the sources consulted."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "María Barrientos",
+        "role": "soprano"
+      },
+      {
+        "name": "Manuel de Falla",
+        "role": "piano"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "dahr",
+      "archive",
+      "expo"
+    ],
+    "note": "DAHR lists both as personnel for matrix WLX310; the Archivo Manuel de Falla credits them together for the cycle in its 2021 exhibition."
+  },
+  "session": {
+    "date": {
+      "value": "1928-03-31",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "DAHR gives 31 March 1928 for matrix WLX310 from Michael Gray’s compilation of the Columbia recording logs. The Archivo Manuel de Falla’s 2021 exhibition credits give 1930 for other songs of the cycle (Nana, Asturiana), and a 2022 review dates the whole recording between 1928 and 1930.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Paris, France",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "DAHR cites Copeland for the recording location; the studio is not named."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia (France/Belgium)",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "archive"
+      ],
+      "note": "Twelve-inch 78-rpm disc; the Internet Archive item gives the publisher as French Columbia."
+    },
+    "catalogue": {
+      "value": "PFX-1",
+      "status": "documented",
+      "sourceIds": [
+        "dahr",
+        "files"
+      ],
+      "note": "DAHR lists the Jota under Columbia (France/Belgium) PFX-1; the second file of the Internet Archive item is named for Columbia PFX-1."
+    },
+    "matrixTakeSides": {
+      "value": "Matrix WLX310, take 1 (master)",
+      "status": "documented",
+      "sourceIds": [
+        "dahr"
+      ],
+      "note": "The transfer is a single side lasting 3:05; which face of PFX-1 carries the Jota is not stated."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive 78rpm collection",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Item in the Internet Archive’s 78-rpm opera collection; no personal mastering credit is given."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item was uploaded on 22 November 2019; the date of the transfer itself is not stated."
+    },
+    "processing": {
+      "value": "Digitised at 78 rpm; stylus size “40e” as stated in the item",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Equalisation, noise reduction and any restoration settings are not stated."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_4jota_171_09/4.Jota%20-%20Maria%20Barrientos%20-%20Manuelde%20Falla%20-%20Manuel%20De%20Falla.mp3",
+    "sourceChain": [
+      "dahr",
+      "archive",
+      "files"
+    ],
+    "format": "VBR MP3 derivative of one 78-rpm side",
+    "durationSeconds": 185
+  },
+  "rights": {
+    "composition": {
+      "value": "Falla died on 14 November 1946. Spanish law protects the works of authors who died before 7 December 1987 for life plus 80 years, so his music remains protected in Spain until the end of 2026; arrangements and modern editions carry their own rights",
+      "status": "documented",
+      "sourceIds": [
+        "cedro",
+        "argentina"
+      ],
+      "note": "A phonogram term assessment does not clear the composition, an arrangement or a modern score edition."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: issued on Columbia PFX-1 in or after mid-1930, a 78-rpm disc, before 1963",
+      "status": "inferred",
+      "sourceIds": [
+        "dahr",
+        "marston",
+        "expo",
+        "melomano"
+      ],
+      "note": "DAHR places the session in March 1928 and the disc in Columbia’s French catalogue (PFX-1). The Marston track list for its Supervia volume 5 pairs the Jota (matrix WLX 310, 31 March 1928) on PFX-1 with Nana and Canción (WLX 1368, recorded 3 June 1930), so the disc cannot have appeared before mid-1930; the Archivo Manuel de Falla’s credits give 1930 for other songs of the cycle. No dated advertisement, review or catalogue giving the issue date of PFX-1 was found. The Marston restoration of the Jota runs 3:08 against 3:05 here, so this transfer may run slightly fast. This is a territorial phonogram basis, not US or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Falla, Siete canciones populares españolas, No. 4, Jota; María Barrientos, soprano; Manuel de Falla, piano. Columbia (France/Belgium) PFX-1, Internet Archive transfer. Territorial EU phonogram basis only; Falla’s composition remains protected in Spain until the end of 2026.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "dahr",
+      "title": "Discography of American Historical Recordings — Columbia (U.K.) matrix WLX310, Jota, Maria Barrientos; Manuel de Falla",
+      "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000434595/WLX310-Jota",
+      "locator": "Personnel: Manuel de Falla (piano), Maria Barrientos (soprano); take 1, master, 31 March 1928, Paris; issued on Columbia (France/Belgium) PFX-1. Sources cited: Gray (recording date), Copeland (location), RDI (issues), trade catalog. Neighbouring matrices WLX308 and WLX309 (El paño moruno, Seguidilla murciana, Asturiana) carry the same date and Columbia (France) D11701.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive",
+      "title": "Internet Archive — 4.Jota (Maria Barrientos; Manuel de Falla), item 78_4jota_171_09",
+      "url": "https://archive.org/metadata/78_4jota_171_09",
+      "locator": "Publisher FrenchColumbia; date 1928; digitised at 78 rpm with a 40e stylus; MP3 of 3:05 and a second file named _09-Columbia PFX-1.mp3.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive — file inventory for the Jota item",
+      "url": "https://archive.org/metadata/78_4jota_171_09/files",
+      "locator": "4.Jota - Maria Barrientos - Manuelde Falla - Manuel De Falla.mp3; VBR MP3; 03:05; MD5 7cf36a1f36d53332d5d85e63934b87aa.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "expo",
+      "title": "Archivo Manuel de Falla — Exposición Manuel de Falla y París (2021)",
+      "url": "https://www.manueldefalla.com/es/noticias/2021/exposicion-manuel-de-falla-y-paris",
+      "locator": "Music credits: María Barrientos (soprano) and Manuel de Falla (piano), “Nana” and “Asturiana”, Siete canciones populares españolas, 1930.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "melomano",
+      "title": "Melómano — Reseña: María Barrientos y las Siete canciones populares españolas (23 November 2022)",
+      "url": "https://www.melomanodigital.com/resena-maria-barrientos-y-las-siete-canciones-populares-espanolas",
+      "locator": "Review of Virginia Sánchez Rodríguez’s book: the last chapter treats the recording of the cycle by the soprano accompanied by the composer, made between 1928 and 1930.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "chronology",
+      "title": "Archivo Manuel de Falla — chronology, 1914–1946",
+      "url": "https://www.manueldefalla.com/en/granada-1920-1939",
+      "locator": "1930: in Paris in June Falla records the Concerto and some of his songs, accompanying María Barrientos.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "marston",
+      "title": "Marston Records — The Complete Conchita Supervia, Vol. 5 (appendix: María Barrientos with Manuel de Falla)",
+      "url": "https://www.marstonrecords.com/products/supervia5",
+      "locator": "Appendix track list: 20. Jota 3:08, 31 March 1928 (WLX 310) PFX1; 21–22. Nana, Canción, 3 June 1930 (WLX 1368) PFX1.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "cedro",
+      "title": "CEDRO — Apuntes sobre el dominio público en España (14 April 2026)",
+      "url": "https://www.cedro.org/blog/articulo/blog.cedro.org/2026/04/14/apuntes-sobre-el-dominio-p%C3%BAblico-en-espa%C3%B1a",
+      "locator": "Transitional provision 4: works of authors who died before 7 December 1987 keep the term of the 1879 law, the life of the author and 80 years.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "argentina",
+      "title": "Archivo Manuel de Falla — Argentina (1939–1946)",
+      "url": "https://www.manueldefalla.com/en/argentina",
+      "locator": "1946: Falla dies in his sleep on 14 November at Los Espinillos, near Alta Gracia.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

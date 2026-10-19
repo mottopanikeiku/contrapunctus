@@ -58,6 +58,15 @@ export default {
       "evidence": "Spring sonnet, 1725, final two lines, letter G; translation ours. The text is printed with the Mutopia score and reproduced at https://nac-cna.ca/en/event/notes/36996. The sonnets were published anonymously."
     },
     {
+      "t": 124,
+      "kind": "life",
+      "title": "A first opera in Vicenza",
+      "text": "In May 1713 Vivaldi’s first opera entirely his own, <i>Ottone in villa</i>, opens in Vicenza, away from the censorious eyes of his fellow Venetians. It succeeds, and he follows it with the oratorio <i>La vittoria navale</i> before returning to the lagoon.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Michael Talbot, Vivaldi, Dizionario Biografico degli Italiani: 1713 as the year of his first opera and oratorio entirely from his own pen; <i>Ottone in villa</i> (libretto by Domenico Lalli) given in May at Vicenza, a stage outside Venice chosen to shield his debut from his fellow citizens’ censorious eyes; its success; then the oratorio <i>La vittoria navale</i> before his return to Venice. https://www.treccani.it/enciclopedia/antonio-vivaldi_%28Dizionario-Biografico%29/"
+    },
+    {
       "t": 150,
       "kind": "form",
       "title": "G♯ becomes G♮",
@@ -65,6 +74,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mutopia score, III, bars 58–70, including the change to E minor in bar 61 and chromatic bass descent; commentary at https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/03.php."
+    },
+    {
+      "t": 182,
+      "kind": "world",
+      "title": "The Seasons in print",
+      "text": "Amsterdam publisher Michel-Charles Le Cène issues the Seasons in 1725 as the first four of twelve concertos in Op. 8, <i>Il cimento dell’armonia e dell’inventione</i>. They are dedicated to Count Wenzel von Morzin, who has known them for some years. No autograph survives.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Michael Talbot, Dizionario Biografico degli Italiani (Op. VIII published by Le Cène, Amsterdam, 1725, dedicated to Count Wenzel von Morzin, whom Vivaldi had served for several years); IMSLP’s record of the first edition. Paul Everett, <i>Vivaldi: The Four Seasons and Other Concertos, Op. 8</i> (Cambridge Music Handbooks, 1996), on the dedication letter: the Seasons were music Morzin already possessed. Martin Pearlman’s Boston Baroque note: no surviving autograph. https://www.treccani.it/enciclopedia/antonio-vivaldi_%28Dizionario-Biografico%29/ https://imslp.org/wiki/Il_cimento_dell'armonia_e_dell'inventione,_Op.8_(Vivaldi,_Antonio) https://baroque.boston/vivaldi-four-seasons"
     },
     {
       "t": 212,

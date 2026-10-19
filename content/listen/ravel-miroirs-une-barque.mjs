@@ -48,6 +48,12 @@ export default {
       "evidence": "Demets first edition (1906), PDF p. 19: glissandi, the 2/4 continuation, très expressif and slower bass arpeggios.",
     },
     {
+      "t": 150, "kind": "life", "title": "A line from Julius Caesar",
+      "text": "Ravel explains the title <i>Miroirs</i> with a line from Shakespeare’s <i>Julius Caesar</i>: “The eye sees not itself / But by reflection, by some other things.” In 1928 he accepts the label “impressionist” only by analogy.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "The Shakespeare line (Julius Caesar, act 1, scene 2) is in Ravel’s Esquisse autobiographique, in English in Orenstein, A Ravel Reader (2003), p. 35, as quoted by Kyle Fyr, Music Theory Online 26.4 (2020), paragraph 5: https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.fyr.html. The remark on impressionism “by analogy” is in the same text, published in La Revue musicale, December 1938, in English in Ruti Abramovitch, “Maurice Ravel’s Miroirs for Piano” (Indiana University, 2012): https://scholarworks.iu.edu/dspace/bitstream/handle/2022/15206/Abramovitch_Ruti_2012.pdf",
+    },
+    {
       "t": 184, "kind": "form", "title": "Three flats, another wave",
       "text": "Three flats replace the opening’s three sharps. High, quiet tremolos alternate with runs that plunge through both hands, marked <i>fortissimo</i>.",
       "basis": "score-proportion", "precision": "passage",
@@ -64,6 +70,12 @@ export default {
       "text": "The high repeated figure keeps turning while the notes beneath it thicken into chords. Ravel asks for a gradual increase. The hands spread out again, and the circling notes spill into another full-keyboard sweep.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Demets first edition (1906), PDF pp. 25–26: augmentez peu à peu, fuller chords, and ff–fff sweeps.",
+    },
+    {
+      "t": 303, "kind": "world", "title": "Aboard the yacht Aimée",
+      "text": "From 2 June to the end of July 1905 Ravel cruises the canals of France, Belgium, the Netherlands and Germany on the yacht <i>Aimée</i>, owned by Alfred and Misia Edwards. The painter Pierre Bonnard is among the guests. <i>Miroirs</i> is first played in January 1906.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Manuel Cornejo’s Maurice Ravel chronology (1905): the trip of nearly two months aboard the yacht Aimée of Alfred and Misia Edwards, with Cipa and Ida Godebski, Pierre Bonnard and Pierre Laprade, on the canals of France, Belgium, the Netherlands and Germany, from 2 June to about 29–31 July; première of Miroirs on 6 January 1906 (1906 entries): https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf",
     },
     {
       "t": 326, "kind": "music", "title": "A tremolo that melts",

@@ -1,0 +1,611 @@
+{
+  "id": "vaughan-williams",
+  "places": [
+    {
+      "name": "Down Ampney, Gloucestershire",
+      "country": "England",
+      "lat": 51.6667,
+      "lon": -1.85,
+      "from": "1872-10-12",
+      "kind": "born",
+      "what": "Born in the vicarage, the third child of the vicar Arthur Vaughan Williams and Margaret, née Wedgwood. His father died here on 9 February 1875. Coordinates mark the village, not the vicarage.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Westminster Abbey: Ralph Vaughan Williams",
+          "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/ralph-vaughan-williams"
+        },
+        {
+          "title": "Wikipedia coordinate record: Down Ampney",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Down%20Ampney"
+        }
+      ]
+    },
+    {
+      "name": "Leith Hill Place, Holmbury St Mary, Surrey",
+      "country": "England",
+      "lat": 51.1862,
+      "lon": -0.4101,
+      "from": "1875",
+      "kind": "childhood",
+      "what": "After his father’s death in early 1875 his mother took the children to the Wedgwood family house. He gave it to the National Trust in 1945. Coordinates mark Holmbury St Mary, not the house.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Holmbury St Mary",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Holmbury%20St%20Mary"
+        }
+      ]
+    },
+    {
+      "name": "Charterhouse School, Godalming",
+      "country": "England",
+      "lat": 51.1966,
+      "lon": -0.6225,
+      "from": "1887-01",
+      "to": "1890-07",
+      "kind": "studied",
+      "what": "Boarded here from January 1887 until July 1890. He organised concerts and felt he had the makings of a fine viola player.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Charterhouse School",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Charterhouse%20School"
+        }
+      ]
+    },
+    {
+      "name": "Royal College of Music, South Kensington, London",
+      "country": "England",
+      "lat": 51.4997,
+      "lon": -0.1769,
+      "from": "1890-09",
+      "kind": "studied",
+      "what": "Entered the college in September 1890 and, after two terms, became a pupil of Hubert Parry. He returned in 1895, became a close friend of Gustav Holst and went to Stanford for lessons; after the war he taught composition here.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: War and its aftermath",
+          "url": "https://www.rvwsociety.com/war"
+        },
+        {
+          "title": "Wikipedia coordinate record: Royal College of Music",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Royal%20College%20of%20Music"
+        }
+      ]
+    },
+    {
+      "name": "Trinity College, Cambridge",
+      "country": "England",
+      "lat": 52.207,
+      "lon": 0.1146,
+      "from": "1892",
+      "to": "1895",
+      "kind": "studied",
+      "what": "Read history and music, with weekly lessons in London from Parry and teaching from Charles Wood; B.Mus. 1894, history degree 1895.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Trinity College, Cambridge",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Trinity%20College%2C%20Cambridge"
+        }
+      ]
+    },
+    {
+      "name": "South Lambeth, London",
+      "country": "England",
+      "lat": 51.49,
+      "lon": -0.119,
+      "from": "1895",
+      "to": "1899",
+      "kind": "worked",
+      "what": "Organist of St Barnabas, a post he disliked and resigned in 1899. Coordinates mark Lambeth, not the church.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Lambeth",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Lambeth"
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lon": 13.405,
+      "from": "1897",
+      "kind": "studied",
+      "what": "A brief period of study with Max Bruch, after which he returned to his post at St Barnabas. The Society’s biography places it between his marriage in October 1897 and his return to Lambeth but gives no month.",
+      "status": "inferred",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Berlin",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Berlin"
+        }
+      ]
+    },
+    {
+      "name": "Ingrave, Essex",
+      "country": "England",
+      "lat": 51.602,
+      "lon": 0.345,
+      "from": "1903-12",
+      "kind": "heard",
+      "what": "Took down Bushes and Briars here in December 1903, the first song he collected. Over the next ten years he amassed more than 800 songs and carols. Coordinates mark the village.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "English Folk Dance and Song Society: Ralph Vaughan Williams",
+          "url": "https://www.efdss.org/learning/resources/beginners-guides/35-english-folk-collectors/2448-efdss-ralph-vaughan-williams"
+        },
+        {
+          "title": "Wikipedia coordinate record: Ingrave",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ingrave"
+        }
+      ]
+    },
+    {
+      "name": "Dorking, Surrey (Leith Hill Musical Festival)",
+      "country": "England",
+      "lat": 51.2325,
+      "lon": -0.3306,
+      "from": "1905-05-10",
+      "to": "1953",
+      "kind": "worked",
+      "what": "Conducted the first combined concert of the Leith Hill Musical Festival at the Public Hall on 10 May 1905 and remained festival conductor until 1953, rehearsing village choirs and conducting Bach’s St Matthew Passion. Coordinates mark Dorking.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Dorking Museum: Ralph Vaughan Williams Dorking Trail",
+          "url": "https://dorkingmuseum.org.uk/ralph-vaughan-williams-dorking-trail/"
+        },
+        {
+          "title": "Leith Hill Music Festival: About us",
+          "url": "https://lhmf.org.uk/about-us"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Dorking",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Dorking"
+        }
+      ]
+    },
+    {
+      "name": "13 Cheyne Walk, Chelsea, London",
+      "country": "England",
+      "lat": 51.4823,
+      "lon": -0.1727,
+      "from": "1905-11",
+      "to": "1929",
+      "kind": "lived",
+      "what": "Moved in November 1905 and lived here for 24 years. The plaque beside his bust in Chelsea Embankment Gardens lists the Sea, London and Pastoral Symphonies, The Lark Ascending, the Tallis Fantasia and Sancta Civitas from these years. The house no longer stands; coordinates mark Cheyne Walk.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "London Remembers: Ralph Vaughan Williams, bust and plaque",
+          "url": "https://www.londonremembers.com/memorials/ralph-vaughan-williams-bust"
+        },
+        {
+          "title": "Vaughan Williams Foundation: Ursula Vaughan Williams",
+          "url": "https://vaughanwilliamsfoundation.org/the-foundation/ursula-vaughan-williams/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Cheyne Walk",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Cheyne%20Walk"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1907",
+      "to": "1908",
+      "kind": "studied",
+      "what": "About three months of lessons with Maurice Ravel, from late 1907 into 1908. Coordinates mark Paris, not Ravel’s studio.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: A Longer Biography (early years)",
+          "url": "https://www.rvwsociety.com/comprehensive-biography/"
+        },
+        {
+          "title": "Tom Service, The Guardian: The friendship between Ravel and Vaughan Williams",
+          "url": "https://www.theguardian.com/music/tomserviceblog/2014/feb/28/ravel-vaughan-williams-friendship-radio3-ravel-day"
+        },
+        {
+          "title": "Wikipedia coordinate record: Paris",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris"
+        }
+      ]
+    },
+    {
+      "name": "Gloucester Cathedral",
+      "country": "England",
+      "lat": 51.8675,
+      "lon": -2.2467,
+      "from": "1910-09-06",
+      "kind": "premiere",
+      "what": "First performance of the Fantasia on a Theme by Thomas Tallis at the Three Choirs Festival, conducted by the composer, to an audience of about two thousand.",
+      "work": "Fantasia on a Theme by Thomas Tallis",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Rob Young, The Guardian: Cloud of knowing (12 June 2010)",
+          "url": "https://www.theguardian.com/culture/2010/jun/12/vaughan-williams-fantasia-theme-tallis"
+        },
+        {
+          "title": "Terry Blain, BBC Music Magazine: Vaughan Williams Tallis Fantasia (10 April 2025)",
+          "url": "https://www.classical-music.com/features/works/vaughan-williams-tallis-fantasia-premiere"
+        },
+        {
+          "title": "Wikipedia coordinate record: Gloucester Cathedral",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Gloucester%20Cathedral"
+        }
+      ]
+    },
+    {
+      "name": "Écoivres, Pas-de-Calais",
+      "country": "France",
+      "lat": 50.3242,
+      "lon": 2.2889,
+      "from": "1916-06",
+      "to": "1916-11",
+      "kind": "worked",
+      "what": "Went out with the 2/4th London Field Ambulance on 22 June 1916 and drove the ambulance wagon up the line at night; the Pastoral Symphony grew from these nights. Coordinates mark the village.",
+      "work": "A Pastoral Symphony",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: War and its aftermath",
+          "url": "https://www.rvwsociety.com/war"
+        },
+        {
+          "title": "Vaughan Williams Foundation letter VWL353 to Gustav Holst, [late June 1916]",
+          "url": "https://vaughanwilliamsfoundation.org/letter/letter-from-ralph-vaughan-williams-to-gustav-holst-31/"
+        },
+        {
+          "title": "Vaughan Williams Foundation letter VWL1378 to Ursula Wood, [4 October 1938]",
+          "url": "https://vaughanwilliamsfoundation.org/letter/letter-from-ralph-vaughan-williams-to-ursula-wood-100/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Écoivres",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=%C3%89coivres"
+        }
+      ]
+    },
+    {
+      "name": "Thessaloniki (Salonika), Greece",
+      "country": "Greece",
+      "lat": 40.6403,
+      "lon": 22.9356,
+      "from": "1916-11",
+      "kind": "worked",
+      "what": "His field ambulance transferred here in mid-November 1916; in March 1917 he applied for an artillery commission.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: War and its aftermath",
+          "url": "https://www.rvwsociety.com/war"
+        },
+        {
+          "title": "Wikipedia coordinate record: Thessaloniki",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Thessaloniki"
+        }
+      ]
+    },
+    {
+      "name": "Shirehampton Public Hall, Bristol",
+      "country": "England",
+      "lat": 51.4945,
+      "lon": -2.6712,
+      "from": "1920-12-15",
+      "kind": "premiere",
+      "what": "Marie Hall and the pianist Geoffrey Mendham gave the first performance of The Lark Ascending, in the violin-and-piano version. Coordinates mark Shirehampton, not the hall.",
+      "work": "The Lark Ascending",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Stephen Moss, The Guardian: A wing and a prayer (8 December 2020)",
+          "url": "https://www.theguardian.com/music/2020/dec/08/the-lark-ascending-ralph-vaughan-williams-classical-chart-topper-jennifer-pike"
+        },
+        {
+          "title": "Wikipedia coordinate record: Shirehampton",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Shirehampton"
+        }
+      ]
+    },
+    {
+      "name": "Queen’s Hall, Langham Place, London",
+      "country": "England",
+      "lat": 51.5181,
+      "lon": -0.1425,
+      "from": "1922-01-26",
+      "kind": "premiere",
+      "what": "First performance of A Pastoral Symphony. The hall no longer stands; coordinates mark its site in Langham Place.",
+      "work": "A Pastoral Symphony",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hyperion booklet note by Robert Matthew-Walker, Symphonies Nos 3 and 4 (CDA68280)",
+          "url": "https://www.hyperion-records.co.uk/notes/68280-B.pdf"
+        },
+        {
+          "title": "Wikipedia coordinate record: Queen's Hall",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Queen%27s%20Hall"
+        }
+      ]
+    },
+    {
+      "name": "Kneller Hall, Twickenham",
+      "country": "England",
+      "lat": 51.455,
+      "lon": -0.3508,
+      "from": "1923-07-04",
+      "kind": "premiere",
+      "what": "First performance, on 4 July 1923, of the military-band Folk Song Suite, written at the request of the Royal Military School of Music. Coordinates mark Kneller Hall.",
+      "work": "Folk Song Suite",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Alex Burns, Classicalexburns: English Folk Song Suite (21 November 2022)",
+          "url": "https://classicalexburns.com/2022/11/21/ralph-vaughan-williams-english-folk-song-suite-memorable-melodies/"
+        },
+        {
+          "title": "Burgess Hill Symphony Orchestra: English Folk Song Suite",
+          "url": "https://www.bhso.org.uk/work/vaughan-williams-english-folk-song-suite-4/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Kneller Hall",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Kneller%20Hall"
+        }
+      ]
+    },
+    {
+      "name": "The White Gates, Dorking",
+      "country": "England",
+      "lat": 51.2325,
+      "lon": -0.3306,
+      "from": "1929",
+      "to": "1953",
+      "kind": "lived",
+      "what": "Settled here in 1929 after living at Holmbury St Mary and St Paul’s Road; Adeline died here in 1951. The Society lists Symphonies 4–7, Serenade to Music, The Pilgrim’s Progress and Hodie among the works composed here. The house was demolished in 1964; coordinates mark Dorking.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "Dorking Museum: Ralph Vaughan Williams Dorking Trail",
+          "url": "https://dorkingmuseum.org.uk/ralph-vaughan-williams-dorking-trail/"
+        },
+        {
+          "title": "Vaughan Williams Foundation: Ursula Vaughan Williams",
+          "url": "https://vaughanwilliamsfoundation.org/the-foundation/ursula-vaughan-williams/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Dorking",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Dorking"
+        }
+      ]
+    },
+    {
+      "name": "Queen’s Hall, Langham Place, London",
+      "country": "England",
+      "lat": 51.5181,
+      "lon": -0.1425,
+      "from": "1935-04-10",
+      "kind": "premiere",
+      "what": "First performance of Symphony No. 4, by the BBC Symphony Orchestra under Adrian Boult. The hall no longer stands; coordinates mark its site.",
+      "work": "Symphony No. 4",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hyperion booklet note by Robert Matthew-Walker, Symphonies Nos 3 and 4 (CDA68280)",
+          "url": "https://www.hyperion-records.co.uk/notes/68280-B.pdf"
+        },
+        {
+          "title": "Wikipedia coordinate record: Queen's Hall",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Queen%27s%20Hall"
+        }
+      ]
+    },
+    {
+      "name": "Royal Albert Hall, London",
+      "country": "England",
+      "lat": 51.5011,
+      "lon": -0.1774,
+      "from": "1938-10-05",
+      "kind": "premiere",
+      "what": "Serenade to Music, for sixteen solo voices, first sung at Henry Wood’s jubilee concert.",
+      "work": "Serenade to Music",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "BBC Music Magazine: A guide to Vaughan Williams’s Serenade to Music",
+          "url": "https://www.classical-music.com/features/works/a-guide-to-vaughan-williamss-serenade-to-music-and-its-best-recordings"
+        },
+        {
+          "title": "Wikipedia coordinate record: Royal Albert Hall",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Royal%20Albert%20Hall"
+        }
+      ]
+    },
+    {
+      "name": "Royal Albert Hall, London",
+      "country": "England",
+      "lat": 51.5011,
+      "lon": -0.1774,
+      "from": "1943-06-24",
+      "kind": "premiere",
+      "what": "Symphony No. 5, first performed with the composer conducting the London Philharmonic Orchestra.",
+      "work": "Symphony No. 5",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hyperion note by Robert Matthew-Walker, Symphony No 5 (LSO Live)",
+          "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W20128_311900"
+        },
+        {
+          "title": "Wikipedia coordinate record: Royal Albert Hall",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Royal%20Albert%20Hall"
+        }
+      ]
+    },
+    {
+      "name": "Royal Opera House, Covent Garden, London",
+      "country": "England",
+      "lat": 51.5131,
+      "lon": -0.1228,
+      "from": "1951-04-26",
+      "kind": "premiere",
+      "what": "First staging of The Pilgrim’s Progress, conducted by Leonard Hancock and produced by Nevill Coghill, as part of the Festival of Britain.",
+      "work": "The Pilgrim’s Progress",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Later years",
+          "url": "https://www.rvwsociety.com/later-years"
+        },
+        {
+          "title": "Wikipedia coordinate record: Royal Opera House",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Royal%20Opera%20House"
+        }
+      ]
+    },
+    {
+      "name": "10 Hanover Terrace, Regent’s Park, London",
+      "country": "England",
+      "lat": 51.5281,
+      "lon": -0.1631,
+      "from": "1953",
+      "to": "1958-08-26",
+      "kind": "lived",
+      "what": "After their marriage on 7 February 1953 Vaughan Williams and Ursula took the house on a twenty-one-year lease, which he thought too short. Symphonies 8 and 9 were composed here. Coordinates mark Hanover Terrace.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: Later years",
+          "url": "https://www.rvwsociety.com/later-years"
+        },
+        {
+          "title": "Wikipedia coordinate record: Hanover Terrace",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Hanover%20Terrace"
+        }
+      ]
+    },
+    {
+      "name": "London (Hanover Terrace)",
+      "country": "England",
+      "lat": 51.5281,
+      "lon": -0.1631,
+      "from": "1958-08-26",
+      "kind": "died",
+      "what": "He died at his home, 10 Hanover Terrace, on 26 August 1958.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: Later years",
+          "url": "https://www.rvwsociety.com/later-years"
+        },
+        {
+          "title": "London Remembers: Ralph Vaughan Williams (plaque entry, credited to Plaques of London)",
+          "url": "https://www.londonremembers.com/subjects/ralph-vaughan-williams?memorial_id=7121"
+        },
+        {
+          "title": "Westminster Abbey: Ralph Vaughan Williams",
+          "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/ralph-vaughan-williams"
+        },
+        {
+          "title": "Wikipedia coordinate record: Hanover Terrace",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Hanover%20Terrace"
+        }
+      ]
+    },
+    {
+      "name": "Westminster Abbey, London",
+      "country": "England",
+      "lat": 51.4994,
+      "lon": -0.1275,
+      "from": "1958-09-19",
+      "kind": "buried",
+      "what": "After the funeral service of 19 September 1958 the casket was carried to the north choir aisle as the congregation sang Come down, O Love Divine to his tune Down Ampney. His ashes lie near Purcell, Stanford and Howells.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Ralph Vaughan Williams Society: Later years",
+          "url": "https://www.rvwsociety.com/later-years"
+        },
+        {
+          "title": "Westminster Abbey: Ralph Vaughan Williams",
+          "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/ralph-vaughan-williams"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: Places associated with Vaughan Williams",
+          "url": "https://www.rvwsociety.com/rvw-places/"
+        },
+        {
+          "title": "Wikipedia coordinate record: Westminster Abbey",
+          "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Westminster%20Abbey"
+        }
+      ]
+    }
+  ]
+}

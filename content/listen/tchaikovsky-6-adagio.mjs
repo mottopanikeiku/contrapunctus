@@ -75,6 +75,15 @@ export default {
       "evidence": "Letter 4865 to Vladimir Davydov, 11/23 February 1893; dedication on the autograph score. Both are documented at https://en.tchaikovsky-research.net/pages/Symphony_No._6."
     },
     {
+      "t": 420,
+      "kind": "life",
+      "title": "Two pages in a day",
+      "text": "On 3 August 1893, scoring the symphony, Tchaikovsky tells his brother Modest: “Today I spent the whole day sitting over two pages — and nothing came out as I wanted it to.” Twenty years earlier he went full steam ahead without thinking; now he is timid and unsure of himself.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky to Modest Tchaikovsky, letter 4984, 22 July/3 August 1893, quoted in Tchaikovsky Research’s composition history of the symphony. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
+    },
+    {
       "t": 538,
       "kind": "form",
       "title": "Six pianissimos, then fortissimo",
@@ -93,6 +102,15 @@ export default {
       "evidence": "Tchaikovsky Research identifies the Orthodox Requiem quotation in bars 202–205; Harlow Robinson’s Boston Symphony note identifies its brass scoring. https://en.tchaikovsky-research.net/pages/Symphony_No._6 ; https://www.bso.org/works/tchaikovsky-symphony-no-6"
     },
     {
+      "t": 740,
+      "kind": "world",
+      "title": "“A blizzard”, said Balanchine",
+      "text": "George Balanchine, who made a ballet to the symphony’s finale, called this first movement “a blizzard”. In the development, fast strings tear through pieces of the earlier tunes, and the brass drive the music into wider waves, led by trombones and tuba.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Balanchine’s phrase and his ballet on the fourth movement: Harlow Robinson’s Boston Symphony programme note. The development’s fast strings and the trombone-and-tuba waves: Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 10. https://www.bso.org/works/tchaikovsky-symphony-no-6 ; https://qso.com.au/uploads/QSO-Learning-Resource-Breathtaking-Tchaikovsky-1-.pdf"
+    },
+    {
       "t": 838,
       "kind": "form",
       "title": "The song comes home",
@@ -109,6 +127,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 10, describes the wind and brass close over descending pizzicato strings. B-major coda: https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)."
+    },
+    {
+      "t": 990,
+      "kind": "world",
+      "title": "A title before the première",
+      "text": "Modest Tchaikovsky later claimed he thought of the title the day after the première. On 2 October 1893, weeks earlier, the publisher Jurgenson had already written: “What is to be done with pathétique and W. Davidoff or Dawidow?” Davydov, Tchaikovsky’s nephew, is the dedicatee.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky Research, Symphony No. 6, note 1: Modest’s claim (his 1902 life of his brother, vol. 3, p. 645) set against Jurgenson’s letters to Tchaikovsky of 20 September/2 October and 19/31 October 1893; the title page of the autograph score reads “To Vladimir Lvovich Davydov”. https://en.tchaikovsky-research.net/pages/Symphony_No._6"
     }
   ],
   "transitions": [

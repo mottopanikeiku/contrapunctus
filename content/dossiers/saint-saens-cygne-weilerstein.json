@@ -5,12 +5,13 @@
     "catalogue": "",
     "movement": "XIII. Le Cygne",
     "version": {
-      "value": "Cello and one piano",
+      "value": "Cello and marimba",
       "status": "documented",
       "sourceIds": [
-        "commons"
+        "interview",
+        "whitehouse"
       ],
-      "note": "The recording source identifies the forces; the performing edition is not established."
+      "note": "Weilerstein calls Yoder “a marimba player”; the White House describes him as a sixteen-year-old percussionist. Saint-Saëns wrote the movement for cello and two pianos; the performing edition is not established."
     }
   },
   "performers": {
@@ -21,14 +22,16 @@
       },
       {
         "name": "Jason Yoder",
-        "role": "piano"
+        "role": "marimba"
       }
     ],
     "status": "documented",
     "sourceIds": [
-      "commons"
+      "commons",
+      "interview",
+      "whitehouse"
     ],
-    "note": ""
+    "note": "Commons names Weilerstein and Yoder; the instrument comes from Weilerstein’s interview and the White House page."
   },
   "session": {
     "date": {
@@ -126,7 +129,7 @@
       ],
       "note": "Commons explicitly separates composition (PD-old), performance (CC BY 3.0) and recording (PD-USGov). Acceptance rests on those performance/recording statements, not the composition tag or the page’s speculative PD-self phrase."
     },
-    "creditLine": "Camille Saint-Saëns, Le Cygne; Alisa Weilerstein, cello; Jason Yoder, piano. White House, 4 November 2009. Whitehouse.gov recording, audio extraction via Wikimedia Commons. Performance CC BY 3.0; recording PD-USGov in the United States. No audio alteration by Contrapunctus.",
+    "creditLine": "Camille Saint-Saëns, Le Cygne; Alisa Weilerstein, cello; Jason Yoder, marimba. White House, 4 November 2009. Whitehouse.gov recording, audio extraction via Wikimedia Commons. Performance CC BY 3.0; recording PD-USGov in the United States. No audio alteration by Contrapunctus.",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
   },
   "sources": [
@@ -136,6 +139,20 @@
       "url": "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg",
       "locator": "Summary, source, licensing, file history and transcode table.",
       "accessed": "2026-10-17"
+    },
+    {
+      "id": "interview",
+      "title": "Mike Telin, “An interview with cellist Alisa Weilerstein”, Cleveland Classical, 16 November 2009",
+      "url": "https://clevelandclassical.wordpress.com/2009/11/16/an-interview-with-cellist-alisa-weilerstein/",
+      "locator": "Weilerstein on the White House concert: “I also played The Swan with a marimba player named Jason Yoder.”",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "whitehouse",
+      "title": "The White House — Alisa Weilerstein and Jason Yoder Perform at the White House: 5 of 8",
+      "url": "https://obamawhitehouse.archives.gov/photos-and-video/video/alisa-weilerstein-and-jason-yoder-perform-white-house-5-8",
+      "locator": "Video caption: cellist Alisa Weilerstein and 16-year-old percussionist Jason Yoder perform The Swan at the Evening of Classical Music, 4 November 2009.",
+      "accessed": "2026-10-18"
     },
     {
       "id": "work",

@@ -2,9 +2,9 @@
 export default {
   baroque: ['couperin', 'vivaldi', 'rameau', 'bach', 'handel', 'scarlatti'],
   classical: ['cpe-bach', 'haydn', 'mozart', 'beethoven'],
-  romantic: ['rossini', 'schubert', 'berlioz', 'fanny-hensel', 'mendelssohn', 'chopin', 'schumann', 'clara-schumann', 'liszt', 'wagner', 'verdi', 'brahms', 'bruckner', 'mussorgsky', 'tchaikovsky', 'dvorak', 'rimsky-korsakov', 'bizet'],
-  'fin-de-siecle': ['elgar', 'puccini', 'mahler', 'richard-strauss', 'sibelius', 'scriabin', 'rachmaninoff', 'janacek'],
-  french: ['faure', 'debussy', 'satie', 'ravel', 'lili-boulanger', 'poulenc'],
-  modernism: ['ives', 'schoenberg', 'bartok', 'stravinsky', 'webern', 'berg', 'price', 'prokofiev', 'gershwin', 'shostakovich', 'copland'],
+  romantic: ['rossini', 'schubert', 'berlioz', 'fanny-hensel', 'mendelssohn', 'chopin', 'schumann', 'clara-schumann', 'liszt', 'wagner', 'verdi', 'brahms', 'bruckner', 'mussorgsky', 'tchaikovsky', 'dvorak', 'grieg', 'rimsky-korsakov', 'bizet'],
+  'fin-de-siecle': ['elgar', 'puccini', 'mahler', 'richard-strauss', 'sibelius', 'beach', 'scriabin', 'rachmaninoff', 'janacek'],
+  french: ['saint-saens', 'faure', 'debussy', 'satie', 'ravel', 'falla', 'lili-boulanger', 'poulenc'],
+  modernism: ['vaughan-williams', 'ives', 'schoenberg', 'bartok', 'stravinsky', 'webern', 'berg', 'price', 'prokofiev', 'gershwin', 'shostakovich', 'copland'],
   'after-1945': ['messiaen', 'cage', 'britten', 'ligeti', 'boulez', 'feldman', 'gubaidulina', 'kurtag', 'part', 'reich', 'saariaho', 'adams', 'ades'],
 };

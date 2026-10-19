@@ -70,6 +70,15 @@ export default {
       "evidence": "Durand full score (1924), p. 6, figure 3: Un peu moins vite, solo tenor, muted horns, harp ostinato and organ pedal."
     },
     {
+      "t": 105,
+      "kind": "music",
+      "title": "A fanfare ensemble, with harps",
+      "text": "Instead of an orchestra, Boulanger sets the psalm for four-part choir, organ, four horns, three trumpets, four trombones, tuba, timpani and two harps. Apart from the harps, the line-up recalls a fanfare band. The score is dedicated to Jules Griset, director of the Guillot de Saint-Brice choir.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Helen Julia Minors, preface to Psalm 24 (2011): scoring and dedication. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html"
+    },
+    {
       "t": 130,
       "kind": "form",
       "title": "The gates open",

@@ -1,0 +1,197 @@
+{
+  "id": "falla-sombrero-molinero-arbos",
+  "work": {
+    "title": "El sombrero de tres picos",
+    "catalogue": "Ballet, 1919; two suites drawn from it in 1921",
+    "movement": "Suite No. 2: Danza del molinero (Farruca)",
+    "version": {
+      "value": "Orchestral concert version of the Miller’s Dance, issued as the second of three dances from the ballet",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "catalogue",
+        "laphil"
+      ],
+      "note": "The 78 set carries Los vecinos, Danza del molinero and Danza final, the three dances of the second suite as the Los Angeles Philharmonic note lists them. The orchestral edition used and any cuts are unknown."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Orquesta Sinfónica de Madrid",
+        "role": "orchestra"
+      },
+      {
+        "name": "Enrique Fernández Arbós",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "catalogue"
+    ],
+    "note": "The Internet Archive item calls the orchestra the Madrid Symphony Orchestra; Columbia’s Spanish catalogue names it Orquesta Sinfónica de Madrid, director E. Fernández Arbós. Individual players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": "1928-04-18",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Stated in the discographical note of the Internet Archive item. Columbia’s catalogue gives no session dates.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Madrid",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Stated in the Internet Archive item’s discographical note; the studio or hall is not named."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "Twelve-inch 78-rpm discs."
+    },
+    "catalogue": {
+      "value": "Columbia 9683–9684 (original series); AG 8043 and AG 8044 (Columbia’s Spanish catalogue of 1954)",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "The Spanish catalogue pairs “Danza del molinero” with “Los vecinos” on AG 8043 and gives “Danza final” in two parts on AG 8044."
+    },
+    "matrixTakeSides": {
+      "value": "Four sides, matrices WKX 79-2, 80-1, 77-2, 78-1; this dance fills one side",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "The item lists the four matrices together. Which matrix belongs to the Danza del molinero is not stated."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Satyr 78rpm collection, Internet Archive",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item is in the Internet Archive’s satyr78rpm collection; no personal mastering credit is given."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item was uploaded on 24 March 2026; the date of the transfer itself is not stated."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Equipment, equalisation and restoration settings are not stated."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/3-fernandez-arbos-madrid-so-col-9683-4-sombrero-tres-picos-3-1928/2%20Fernandez%20Arb%C3%B3s%2C%20Madrid%20SO%20-%20Col%209683-4%20Sombrero%20tres%20picos%202%201928.mp3",
+    "sourceChain": [
+      "archive",
+      "files",
+      "catalogue"
+    ],
+    "format": "VBR MP3 derivative of one 78-rpm side",
+    "durationSeconds": 159
+  },
+  "rights": {
+    "composition": {
+      "value": "Falla died on 14 November 1946. Spanish law protects the works of authors who died before 7 December 1987 for life plus 80 years, so his music remains protected in Spain until the end of 2026; arrangements and modern editions carry their own rights",
+      "status": "documented",
+      "sourceIds": [
+        "cedro",
+        "argentina"
+      ],
+      "note": "A phonogram term assessment does not clear the composition, an arrangement or a modern score edition."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: published no later than 1954, before 1963",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "The discs are listed in Columbia’s Spanish catalogue of 78 r.p.m. discs published up to 1 January 1954, and were recorded in 1928; the actual first issue date is not established here. This is a territorial phonogram basis, not US or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Falla, El sombrero de tres picos, Danza del molinero; Orquesta Sinfónica de Madrid, Enrique Fernández Arbós. Columbia 9683–9684 (AG 8043), Internet Archive transfer. Territorial EU phonogram basis only; Falla’s composition remains protected in Spain until the end of 2026.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Arbós, Madrid SO: De Falla (Col. 9683-4) 1928",
+      "url": "https://archive.org/metadata/3-fernandez-arbos-madrid-so-col-9683-4-sombrero-tres-picos-3-1928",
+      "locator": "Description: El sombrero de tres picos (suite): 1 Los vecinos, 2 Danza del molinero, 3 Danza final; Madrid Symphony Orchestra, Enrique Fernández Arbós; Columbia 9683–9684; matrices WKX 79-2, 80-1, 77-2, 78-1; recorded Madrid, 18 April 1928.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive — file inventory for the Arbós item",
+      "url": "https://archive.org/metadata/3-fernandez-arbos-madrid-so-col-9683-4-sombrero-tres-picos-3-1928/files",
+      "locator": "2 Fernandez Arbós, Madrid SO - Col 9683-4 Sombrero tres picos 2 1928.mp3; VBR MP3; 02:39; MD5 7ae4dbd11cb26d1f48b000ffd703882e.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "catalogue",
+      "title": "Fábrica de Discos Columbia (San Sebastián) — Catálogo general de discos Columbia y Decca, 78 r.p.m., publicados hasta 1.º de enero de 1954 (ERESBIL copy)",
+      "url": "https://www.eresbil.eus/web/uploads/archivosGeneradorWeb/Catalogos/erelib_NL0212CAT_01_v.pdf",
+      "locator": "Música selecta, orquestas sinfónicas: “Orquesta Sinfónica de Madrid. Director: E. Fernández Arbós”; AG 8043 El sombrero de tres picos, “Danza del molinero” and “Los vecinos”; AG 8044 “Danza final”, parts 1 and 2.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "laphil",
+      "title": "Los Angeles Philharmonic — The Three-Cornered Hat, Suite No. 2 (programme note by John Henken)",
+      "url": "https://www.laphil.com/works/the-three-cornered-hat-suite-no-2",
+      "locator": "About this Piece: the three dances of the second suite; the miller’s farruca as “a dark and fiery flamenco farruca, the earthiest dance in the ballet”.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archivo",
+      "title": "Archivo Manuel de Falla — chronology, 1919 and 1921",
+      "url": "https://www.manueldefalla.com/en/madrid-1914-1919",
+      "locator": "1919: première of El sombrero de tres picos at the Alhambra Theatre, London, 22 July (page Madrid, 1914–1919); 1921: Falla prepares the two suites (page Granada, 1920–1939).",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "cedro",
+      "title": "CEDRO — Apuntes sobre el dominio público en España (14 April 2026)",
+      "url": "https://www.cedro.org/blog/articulo/blog.cedro.org/2026/04/14/apuntes-sobre-el-dominio-p%C3%BAblico-en-espa%C3%B1a",
+      "locator": "Transitional provision 4: works of authors who died before 7 December 1987 keep the term of the 1879 law, the life of the author and 80 years.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "argentina",
+      "title": "Archivo Manuel de Falla — Argentina (1939–1946)",
+      "url": "https://www.manueldefalla.com/en/argentina",
+      "locator": "1946: Falla dies in his sleep on 14 November at Los Espinillos, near Alta Gracia.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

@@ -82,6 +82,15 @@ export default {
       "evidence": "Durand full score, printed pp. 147–150: 6/8 and five flats, moving divided strings and wind phrases."
     },
     {
+      "t": 130,
+      "kind": "world",
+      "title": "Three symphonic sketches",
+      "text": "Debussy tells André Messager on 12 September 1903 that he is working on “three symphonic sketches” under the title <i>La Mer</i>: “Mer belle aux Sanguinaires”, “Jeu de vagues” and “le vent fait danser la mer”. The published sketches are <i>De l’aube à midi sur la mer</i>, <i>Jeux de vagues</i> and <i>Dialogue du vent et de la mer</i>.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Debussy to André Messager, Bichain, 12 September 1903, as printed in the Sotheby’s catalogue of the Debussy–Messager correspondence (17 June 2020, lot 133): « Je travaille à trois esquisses symphoniques intitulées : 1° Mer belle aux Sanguinaires. 2° Jeu de vagues. 3° le vent fait danser la mer. Sous le titre général de La Mer. » https://www.sothebys.com/en/buy/auction/2020/bibliotheque-r-b-l-une-decennie-de-ventes/debussy-correspondance-avec-andre-messager-1902 . Published subtitle, trois esquisses symphoniques, and movement titles: Durand score, IMSLP, https://imslp.org/wiki/La_mer_(Debussy,_Claude) . Simon Trezise, Debussy: La Mer (Cambridge University Press, 1994), p. 47, on the subtitle as a way of avoiding both symphony and symphonic poem, is known only as quoted on Wikipedia and is not used. The English renderings are ours."
+    },
+    {
       "t": 185,
       "kind": "music",
       "title": "Two against three",
@@ -89,6 +98,15 @@ export default {
       "basis": "general",
       "precision": "passage",
       "evidence": "Jacob Greenberg describes the persistent interplay of duplets and triplets in movement I: https://www.bso.org/works/la-mer. Examples appear throughout the Durand score."
+    },
+    {
+      "t": 230,
+      "kind": "world",
+      "title": "Dedicated to his publisher",
+      "text": "Debussy dedicated <i>La Mer</i> to his publisher, Jacques Durand. Camille Chevillard conducted the first performance with the Lamoureux Orchestra in Paris on 15 October 1905, and Durand published the score that November.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "IMSLP work page for La mer: dedication to Jacques Durand (1865–1928), first performance 15 October 1905 (Concerts Lamoureux, Camille Chevillard), first publication 15 November 1905. https://imslp.org/wiki/La_mer_(Debussy,_Claude)"
     },
     {
       "t": 276,
@@ -109,6 +127,15 @@ export default {
       "evidence": "Debussy’s choice of the Hokusai image: Jacob Greenberg, https://www.bso.org/works/la-mer; the first-edition cover is reproduced at https://en.wikipedia.org/wiki/La_mer_(Debussy)."
     },
     {
+      "t": 385,
+      "kind": "life",
+      "title": "Enough to make the fish weep",
+      "text": "Writing to his publisher Durand from Le Puys, near Dieppe, on 8 August 1906, Debussy complains about bathers: “all those arms, those legs moving in such ridiculous rhythms, it’s enough to make the fish weep.” In the sea, he says, there should be nothing but Sirens.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Debussy to Jacques Durand, Le Puys near Dieppe, 8 August 1906: French original (“c’est à faire pleurer les poissons”) in the extracts from Debussy’s letters collected at https://geraldlarner.com/source/debussy-la-mer-from-debussy-s-letters (where the file labels the letter “Durand 44”). The same French passage, headed Grand Hôtel Château de Puys, près Dieppe, 8 août 1906, is quoted by François-Bernard Mâche in his text for the Académie des beaux-arts “Journée Debussy” of 24 October 2012: https://podcasts.institutdefrance.fr/emissions/carrefour-des-arts/debussy-et-la-nature-je-me-suis-fait-une-religion-de-la-mysterieuse-nature . Translation ours."
+    },
+    {
       "t": 438,
       "kind": "form",
       "title": "Horns, trombones, noon",
@@ -116,6 +143,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, rehearsal 14 to the end of movement I, printed pp. 171–173: Très lent, bassoon and brass chorale, flute triplets, harps and D♭-major ending."
+    },
+    {
+      "t": 470,
+      "kind": "world",
+      "title": "Detroit, December 1955",
+      "text": "Paul Paray and the Detroit Symphony recorded <i>La Mer</i> in the city’s Old Orchestra Hall on 3–4 December 1955, for Mercury’s Living Presence series. One Schoeps microphone in the centre and two Neumann U-47s left and right fed three-track half-inch tape.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Recording information for La Mer, Eloquence Mercury Masters Vol. 1, CD 15: Old Orchestra Hall, Detroit, 3–4 December 1955; three-track half-inch tape, Schoeps M201 (centre) and two Neumann U-47. https://www.eloquenceclassics.com/releases-archive/paul-paray-the-mercury-masters-vol-1-1953-1957/"
     }
   ],
   "transitions": [

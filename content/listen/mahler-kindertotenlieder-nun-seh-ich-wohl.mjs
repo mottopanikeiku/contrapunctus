@@ -65,6 +65,15 @@ export default {
       "evidence": "Rückert, Nun seh’ ich wohl, German text reproduced at https://en.wikipedia.org/wiki/Kindertotenlieder#Text; our translation. Sonnet structure discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
     },
     {
+      "t": 90,
+      "kind": "life",
+      "title": "A publisher at the hotel door",
+      "text": "Leipzig, 28 November 1904. Mahler has come to conduct his Third Symphony when the owner of C. F. Kahnt calls on him. He writes to Alma at once of a publisher “eager to acquire my new Lieder and Ballads”. Kahnt prints the cycle the following year.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mahler to Alma, written immediately after the Kahnt visit of 28 November 1904, in Letters to His Wife, trans. Anthony Beaumont (Faber, 2004), p. 192, quoted in the Mahler catalogue chronology (which also dates Kahnt’s first editions to August 1905): https://www.mahlercat.org.uk/Pages/KtL/KtL.htm"
+    },
+    {
       "t": 146,
       "kind": "form",
       "title": "The children answer",
@@ -81,6 +90,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 28–31, rehearsal 4 onwards. Rückert’s last two stanzas and the varied return are discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
+    },
+    {
+      "t": 232,
+      "kind": "world",
+      "title": "Berlin, June 1955",
+      "text": "Dietrich Fischer-Dieskau and Rudolf Kempe record the cycle with the Berlin Philharmonic on 20 and 21 June 1955 in the Jesus-Christus-Kirche. Three years earlier, in London’s Kingsway Hall, Fischer-Dieskau had recorded Mahler’s Wayfarer songs with Wilhelm Furtwängler.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Naxos 8.111300 rear cover: Kindertotenlieder, Berlin Philharmonic Orchestra, Rudolf Kempe, recorded 20th–21st June 1955 in Jesus-Christus-Kirche, Berlin; Lieder eines fahrenden Gesellen, Philharmonia Orchestra, Wilhelm Furtwängler, recorded 24th–25th June 1952 in Kingsway Hall, London: https://cdn.naxos.com/SharedFiles/pdf/rear/8.111300r.pdf"
     },
     {
       "t": 274,

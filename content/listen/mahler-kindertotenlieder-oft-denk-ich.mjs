@@ -59,6 +59,15 @@ export default {
       "evidence": "Kahnt full score, p. 52, rehearsal 3, a tempo; Rückert’s second stanza, our translation."
     },
     {
+      "t": 82,
+      "kind": "world",
+      "title": "The one song printed alone",
+      "text": "On 10 May 1905 this is the only song of the five to appear by itself, in a voice-and-piano version printed as the music supplement of the <i>Neue Zeitschrift für Musik</i>. Mahler wants the five kept together; the periodical’s publisher, Kahnt, issues the whole cycle later that year.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mahler catalogue, Kindertotenlieder: chronology (10 May 1905) and the description of the supplement to Neue Zeitschrift für Musik 72/20, published by Kahnt, “despite Mahler’s stipulation that the cycle was to be considered an indivisible whole”: https://www.mahlercat.org.uk/Pages/KtL/KtLprints.htm"
+    },
+    {
       "t": 110,
       "kind": "form",
       "title": "One word changes",

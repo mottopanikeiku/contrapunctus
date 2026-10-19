@@ -1,0 +1,42 @@
+{
+  "id": "grieg",
+  "kind": "composer",
+  "items": [
+    {
+      "cite": "Finn Benestad and Dag Schjelderup-Ebbe, *Edvard Grieg: The Man and the Artist*, translated by William H. Halverson and Leland B. Sateren (University of Nebraska Press, 1988).",
+      "url": "https://openlibrary.org/works/OL2994155W",
+      "kind": "biography",
+      "note": "How did a Bergen merchant’s son become the voice of Norwegian music? The standard life and works, with letters, diaries and music examples in a parallel column."
+    },
+    {
+      "cite": "Daniel M. Grimley, *Grieg: Music, Landscape and Norwegian Identity* (Boydell Press, 2006).",
+      "url": "https://books.google.com/books/about/Grieg.html?id=Nzyt33bbAvQC",
+      "kind": "critical study",
+      "note": "What did “Norwegian” mean in Grieg’s music, and who decided? Reads the Lyric Pieces, Peer Gynt and the folk-tune settings against the landscape and politics of the time."
+    },
+    {
+      "cite": "Finn Benestad, “Edvard Grieg”, *Norsk biografisk leksikon* (Store norske leksikon).",
+      "url": "https://nbl.snl.no/Edvard_Grieg",
+      "kind": "encyclopaedia article",
+      "note": "Where and when did each work and each meeting happen? A dense, dated account in Norwegian by the editor of Grieg’s letters, with quotations from the letters and diaries."
+    },
+    {
+      "cite": "Henry T. Finck, *Edvard Grieg* (John Lane, 1906).",
+      "url": "https://archive.org/details/edvardgrieg00fincgoog",
+      "kind": "early biography",
+      "note": "What did Grieg himself say about Liszt, Nordraak and his songs? The American critic quotes Grieg’s letters to him, and his letter to his parents about Liszt playing the concerto at sight."
+    },
+    {
+      "cite": "Finn Benestad and William H. Halverson, eds., *Edvard Grieg: Diaries, Articles, Speeches* (Peer Gynt Press, 2001).",
+      "url": "https://www.ebsco.com/research-starters/history/edvard-grieg",
+      "kind": "primary sources",
+      "note": "How did Grieg write about music, politics and his own life? His diaries, articles and speeches in English, edited by Finn Benestad, who also edited his letters."
+    },
+    {
+      "cite": "Edvard Grieg Archive, Bergen Public Library.",
+      "url": "https://bergenbibliotek.no/grieg",
+      "kind": "archive",
+      "note": "Where are the manuscripts and letters? In 1906 Grieg and Nina left his manuscripts, letters and printed music to Bergen Public Library, which keeps the Grieg archive and has put his letters to Tchaikovsky online."
+    }
+  ]
+}
