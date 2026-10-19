@@ -1,0 +1,25 @@
+{
+  "title": "Waltz in C♯ minor, Op. 64 No. 2",
+  "edition": "First edition, Breitkopf & Härtel, Leipzig (Trois Valses Op. 64; RISM 1001035730, PL-Wbfc 4266/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+  "encoder": "Wojciech Jakubiak-Danek (encoding); Zofia Trojan, Mateusz Mrugas (editing); NIFC Chopin Heritage in Open Access project",
+  "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/064-1a-BH-002.krn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+  "main": "waltz.ly",
+  "humdrum": "064-1a-BH-002.krn",
+  "musicxml": "064-1a-BH-002.musicxml",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/064-1a-BH-002.krn",
+      "file": "064-1a-BH-002.krn",
+      "sha256": "9bd6c0e8ee2d83068bdaaab0cba82d1e2eae117fa204b0186170dd413c99cc89"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

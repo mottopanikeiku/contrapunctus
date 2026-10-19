@@ -25,8 +25,9 @@ async function getProgramme() {
       if (!r.ok) throw new Error(`Programme: HTTP ${r.status}`);
       return r.json();
     }).then(({ composers, eras, rows, programmes: evenings = [] }) => {
+      // Most streams are absolute (Commons, Internet Archive); a derived MP3 is hosted under the site root.
       programme = rows.map(([id, stream, duration, composer, work, movement, set, concert, era]) => ({
-        id, stream, duration, composer: composers[composer], work, movement, set, concert: !!concert, era: eras[era] ?? null,
+        id, stream: new URL(stream, ROOT).href, duration, composer: composers[composer], work, movement, set, concert: !!concert, era: eras[era] ?? null,
       }));
       programmes = evenings;
       if (queue && !programmes.some((p) => p.id === queue.id)) queue = null;

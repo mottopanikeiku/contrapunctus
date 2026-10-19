@@ -74,6 +74,55 @@ def crop_notes(notes, extraction):
     return notes
 
 
+def compare_humdrum(cfg, notes):
+    """Assert every compiled attack against the immutable **kern tokens.
+
+    Regular attacks (tied continuations excluded) must match by pitch within one LilyPond MIDI
+    tick (1/384 quarter; septuplet onsets are not tick-exact). Every remaining compiled event
+    must be a source grace note of the same pitch sounding up to one quarter before its main note.
+    """
+    from bisect import bisect_left
+    from humdrum_convert import attacks as humdrum_attacks, grace_leads, parse as humdrum_parse
+    kern = inside(HERE / 'sources' / cfg['id'], cfg['source']['humdrum'])
+    regular, grace, _ = humdrum_attacks(kern)
+    shortened = grace_leads(humdrum_parse(kern)[0])
+    tick = 1 / 384 + 1e-9
+    pool = defaultdict(list)
+    for onset, _, midi, *_ in notes:
+        pool[int(midi)].append(float(onset))
+    for onsets in pool.values():
+        onsets.sort()
+    def take(midi, low, high):
+        onsets = pool[midi]
+        index = bisect_left(onsets, low)
+        if index < len(onsets) and onsets[index] <= high:
+            return onsets.pop(index)
+        return None
+    missing, drift = [], 0.
+    for (time, midi), count in sorted(regular.items()):
+        for _ in range(count):
+            found = take(midi, float(time) - tick, float(time) + tick)
+            if found is None:
+                missing.append([float(time), midi])
+            else:
+                drift = max(drift, abs(found - float(time)))
+    unmatched_graces = []
+    for (time, midi), count in sorted(grace.items()):
+        for _ in range(count):
+            if take(midi, float(time) - 1 - tick, float(time) + tick) is None:
+                unmatched_graces.append([float(time), midi])
+    extra = sorted([onset, midi] for midi, onsets in pool.items() for onset in onsets)
+    if missing or unmatched_graces or extra:
+        raise ValueError(f'{cfg["id"]}: compiled events differ from the **kern source: missing regular {missing[:8]} '
+                         f'({len(missing)}), unmatched graces {unmatched_graces[:8]} ({len(unmatched_graces)}), '
+                         f'extra {extra[:8]} ({len(extra)})')
+    result = {'regularAttacks': sum(regular.values()), 'graceNotes': sum(grace.values()),
+              'maximumRegularOnsetDifferenceQuarters': drift, 'matched': True,
+              'graceValuesShortenedForMidi': shortened}
+    print('HUMDRUM', cfg['id'], json.dumps(result), flush=True)
+    return result
+
+
 def assert_source_literal(cfg, literal):
     text = inside(HERE / 'sources' / cfg['id'], literal['file']).read_text()
     if not literal.get('text') or text.count(literal['text']) != 1:
@@ -172,6 +221,10 @@ def extract(ident, lilypond=LILYPOND, directory=None):
     source_checks = {}
     if cfg['source'].get('musicxml'):
         source_checks['musicxmlConversion'] = 'LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards'
+        if cfg['source'].get('humdrum'):
+            source_checks['humdrumConversion'] = ('Original **kern tokens converted by tools/align/humdrum_convert.py to plain '
+                                                  'MusicXML (notes, rests, ties, tuplets, graces, one-voice slurs, fermatas, '
+                                                  'simple articulations/ornaments, clefs, keys, meters, barline styles)')
         for key in ('musicxmlTieRoutes', 'musicxmlPartialMeasures', 'musicxmlSharedEndingsFrom',
                     'musicxmlTrillSpans', 'musicxmlInitialGrace', 'musicxmlSingleNoteChordTies'):
             if cfg['source'].get(key):
@@ -244,6 +297,8 @@ def extract(ident, lilypond=LILYPOND, directory=None):
         notes = notes[~masks[1]]
     if extraction.get('ties'):
         source_checks['ties'] = extraction['ties']
+    if cfg['source'].get('humdrum'):
+        source_checks['humdrumInventory'] = compare_humdrum(cfg, notes)
     if extraction.get('comparePublished') is not None:
         compare = extraction['comparePublished']
         multiset = bool(cfg['source'].get('legacyRelative') == 'verify-midi' or cfg['source'].get('patches')

@@ -938,3 +938,63 @@ Beach's source opens with a piano D-flat2 acciaccatura (P2 bar 1, voice 5) while
 - **Hauptstimme:** no other Hall match (no Mozart 40, Haydn 94 or Schubert 8). Beethoven Op. 67/ii exists there, but `beethoven-5-andante` was withheld at the primary gate with Mutopia 941 and was not retried.
 
 **Commands run (this section):** `node tools/score.mjs <id>` dry runs for each of the five ids above, all under `flock -w 3600 ~/.cache/direction-compute.lock`; `node tools/score.mjs beach-years-at-the-spring-eames-1905 --publish`, `… -eames-1908 --publish`, `… beach-years-at-the-spring --publish`, `… beethoven-5-first-mengelberg-side1 --publish` (each printed `PUBLISHED … provisional; not checked by ear` and a passing contract line); `tools/align/{fetch,prepare,endpoint_peaks,diagnose}.py`; and one `node tools/engrave.mjs … --prepared` preview into scratch. **Not run:** the unit-test suite (including the new test), the site build, browser checks and any aural review. Review files were not written.
+
+## Humdrum/**kern sweep — 19 October 2026 (ScoreHumdrum)
+
+**Result:** three provisional publications, all Chopin's Nocturne Op. 15 No. 2 from the CC BY 4.0 Chopin First Editions encoding; four candidates withheld after dry runs; the rest withheld before alignment. No NC, ND or unlicensed file was used. No aural review, unit-test run, site build or review file.
+
+### Licences, read from the repositories at the pinned commits (EXT)
+
+| Repository (commit) | Licence evidence | Decision |
+| --- | --- | --- |
+| `pl-wnifc/humdrum-chopin-first-editions` (`95dfb105`) | `LICENSE.txt`: CC BY 4.0, “provided that you acknowledge the source of the data (the first five lines of this file)”; `.krn` files carry encoder/editor records (`!!!ENC/EED`) but no copyright record | **Usable** (attribution required; no share-alike). `LICENSE.txt` is a hash-pinned download in each config; the attribution text is in `source.attribution` and provenance. |
+| `craigsapp/scarlatti-keyboard-sonatas`, `craigsapp/joplin`, `craigsapp/mozart-piano-sonatas` | `LICENSE.txt`: CC BY-NC-SA 4.0 | Rejected (NC). |
+| `craigsapp/beethoven-piano-sonatas` (`2d6627b8`) | no LICENSE file, no licence in README, no `!!!YEM`/`!!!YEC` in `sonata23-1`/`sonata30-*` | Rejected (unclear; sibling repositories are NC). |
+| `craigsapp/chopin-preludes` (`f8fb01f0`) | `prelude28-15.krn`: `!!!YEC: Copyright 2008 by Craig Stuart Sapp`, no licence | Rejected (all rights reserved). |
+
+### Shared support: Humdrum input
+
+Verovio 6.3.0 (installed into the align venv with `uv pip install verovio` for this work; not added to `requirements.txt`) cannot write MusicXML (its `outputTo` list has no MusicXML), and its MIDI omits key-signature accidentals (MEAS: F-sharp-major A-sharp4 exported as 69). music21 9.9.2's Humdrum reader lost 401 of 1,294 Op. 15/2 attacks (it drops `ryy` spacer rests and notes in three-way spine splits). [humdrum_convert.py](humdrum_convert.py) therefore parses the tokens itself and writes plain MusicXML; [prepare.py](prepare.py) runs it for `source.humdrum`, and [score_events.py](score_events.py) asserts the compiled events against the immutable tokens (`sourceChecks.humdrumInventory`). README section “Humdrum **kern input” documents the conversion, the omitted notation, the grace-value adjustment and `--ties`/`--verovio`. During development the inventory check caught, and the converter now handles: unnumbered interior barlines (bar 64 of Op. 64/2 split 2+1, but an unnumbered full bar 97), single-note and rest-ended tuplet brackets, invisible rests inside tuplet brackets (scaled skips), LilyPond “Going back in MIDI time” after graces that follow 1/15- and 1/20-quarter runs, cross-voice ties, and chord members of different lengths.
+
+**Rejected first publication:** the first `--publish` of the Paderewski 1937 nocturne succeeded numerically but its one-page pack showed only bars 1–33; bars 34–62 ran off the page in one line because a **kern beam crossing a barline left a LilyPond beam unterminated. That pack and receipt were removed before anything else ran. Beams are now closed within each measure voice; the republished pack has three pages with all 63 bars, inspected as rasterised pages.
+
+### Nocturne Op. 15 No. 2 — common source
+
+- **EXT source:** [`kern/015-1a-BH-002.krn`](https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn), first edition, Breitkopf & Härtel, Leipzig (RISM 1001035842); encoding Jędrzej Mróz, editing Tomasz Sierawski and Wojciech Jakubiak-Danek. SHA-256 pinned in each config. The performers' editions are not established.
+- **Order:** pickup bar 0 (half a quarter) and bars 1–62 once: **63 bar occurrences, 124.5 quarters, 1,326 notes** (1,294 regular attacks + 32 graces), labelled upper/lower staff (seven encoded voices). No repeats in the source.
+- **MEAS source identity:** compiled events match all 1,294 regular attacks within one MIDI tick (maximum 0.0022 quarter, septuplet rounding) and all 32 graces. Verovio's independent reading: 1,350 notes in both; relative timing agrees in every measure except the 10 containing graces. Twelve eighth graces after fast runs are shortened for LilyPond MIDI (pitches unchanged). Three cross-voice ties (F-sharp3/B3 into bar 42, C-sharp3 into bar 56) are joined by declared `extraction.ties`.
+- **Licence obligation:** published `score.json` and sheets are CC BY 4.0 adaptations; keep the NIFC attribution (`source.attribution`).
+
+#### chopin-nocturne-op15-2 (Luke Faulkner) — published provisionally
+
+- **Rejected candidates:** a broad last window chose an F-sharp/A-sharp rise at 183.2 s, leaving 11 s of coda arpeggios unaligned. The genuine final F-sharp1/A-sharp4 chord rises at 194.5–194.75 s. After that correction the map put 20 attacks of bars 42–48 into the bar-48 fermata silence (energy −40 to −54 dB re the 95th percentile). Three disclosed pitch constraints, **not independent validation**, fix the join: q94.5 D3/D4 → 125.26 s, q95.333 C-sharp4 → 127.26 s, q96 A-sharp4 pickup → 131.74 s. Afterwards no score attack lies in silence.
+- **MEAS gates:** median **0.048250 s**, P95 **0.292579 s**, cosine 0.759065; first/middle/last disagreements **0.021134 / 0.080046 / 0.027185 s**; worst primary 184–192 s 0.2234 s (local 0.0379 s); maximum local median **0.059025 s** (192–200 s); minimum duration 0.0167 s; `gateReasons: []`.
+- **Inspected:** fresh join (121.26–133.26 s) and coda (184–192 s) overlays: the post-fermata pickup and B4 match measured onsets, and the bar-61/62 bass entries match. Final chord 194.599 s, written hold to 202.8 s (not a measured release). Pack: 3 pages, 63 bars, 0 derived, 1,375 marked glyphs.
+
+#### chopin-nocturne-op15-2-paderewski-1937 — published provisionally
+
+- **Rejected candidate:** a broad last window chose 175.8 s and collapsed 70 note durations. The final chord is at 215.5–216.0 s (A-sharp4 rises about 215.8 s). No interior constraint; the energy check finds no score attack in silence.
+- **MEAS gates:** median **0.048466 s**, P95 **0.190672 s**, cosine 0.646834; disagreements **0.006848 / 0.023269 / 0.086833 s**; worst primary 168–176 s 0.1055 s (local 0.0418 s); maximum local median **0.051987 s** (96–104 s); minimum duration 0.0118 s; `gateReasons: []`.
+- **Inspected:** coda overlay 208–216 s (bar-61/62 bass and arpeggios follow the measured onsets) and all three rasterised pages of the pre-publication `engrave.mjs --prepared` preview (3 pages, 63 bars, 0 derived; the published packs report the same 496,938 packed bytes). Final chord 215.765 s, hold to 221.76 s.
+
+#### chopin-nocturne-op15-2-prati-2015 — published provisionally
+
+- **Rejected candidate:** a broad last window chose 176.6 s; the final chord's F-sharp2/A-sharp4 bands jump at 213.25 s, after arpeggios that continue to 207 s. As for Faulkner, three disclosed constraints fix the fermata join: q94.5 → 145.48 s, q95.333 → 147.02 s, q96 → 149.16 s; no score attack then lies in silence.
+- **MEAS gates (dry run with the published config):** median **0.067093 s**, P95 **0.445675 s**, cosine 0.760305; disagreements **0.008707 / 0.069890 / 0.003660 s**; worst primary 144–152 s 0.2119 s (local 0.0292 s); maximum local median **0.068585 s** (192–200 s); minimum duration 0.0055 s; `gateReasons: []`. Final chord 213.086 s, hold to 216.3 s.
+- **Inspection limit:** the pre-constraint 144–152 s overlay and the automatic energy check (no score attack below −35 dB after the constraints) were examined; the post-constraint Prati overlays listed below were generated but not viewed in this round.
+
+### Withheld after dry runs
+
+- **chopin-nocturne-op15-2-dalbert:** broad-window run failed the primary median (0.238 s) and rounding collapsed attacks. Not refined.
+- **chopin-nocturne-op15-2-paderewski (1917):** numerically passing, but mean path chroma cosine **0.279** and tuning estimate **427.72 Hz** (about half a semitone flat) leave the transfer pitch unresolved; not accepted.
+- **chopin-waltz-op64-2-paderewski-1917** (source `064-1a-BH-002.krn`, BH first edition, 194 written-out bars, inventory 1,835/1,835 regular + 19/19 graces matched): numerically passing (median 0.0648 s), but the 150–197.7 s overlay shows bars 160–166 squeezed into about 1 s near 161 s and 17 s of music after the mapped final chord at 180.6 s. The performed order against the first-edition text is not established.
+
+### Withheld before alignment
+
+- **Chopin Op. 64/2 (Gurevich, Pachmann 1925, Rummel 1943):** same unresolved first-edition/performance order as Paderewski 1917; Pachmann's side also begins with an F-major étude. Not run.
+- **Chopin Op. 25/5, 25/6, 25/9, Ballades 2 and 3:** CC BY sources exist (`025-1b-LE-005/006/009`, `038-1-BH`, `047-1-BH`). Op. 25/9 contains the malformed token `16edee-` (line 269), Ballade 2 a pitchless chord member `8` (line 1175), and Ballade 3 two measures whose relative timing differs from Verovio's reading; Op. 25/5 and 25/6 pass the converter checks but were not aligned in this round's request budget.
+- **Op. 28/15, Op. 10/5:** earlier withholdings rest on the recordings' timing gates, not the source. **Beethoven Op. 57/i, Op. 109; Scarlatti; Joplin; Mozart:** no usable licence (above). **fanny-hensel-warum-rosen** (requested mid-round, OpenScore Lieder CC0): not attempted; no command run.
+
+**Publications:** `--publish` printed `PUBLISHED … provisional; not checked by ear`, a passing contract line (63 bars, 1,326 notes, 2 voices) and `3 pages, 63 bars (0 derived), 1375 marked glyphs` for each. Score SHA-256: Faulkner `694da33e87a5f72c931f3ce74302a0173ca756073221f65ee833333118e5c20f`, Paderewski 1937 `315e4d2112fc0917482ca351e8ded767c1a5262d3d49192a251296edededf460`, Prati `8e1e09cd40c9546c23d6dd034c16d1e3c5a3dac13a4c1f40fba6016cb189932e`. Receipts: `results/chopin-nocturne-op15-2{,-paderewski-1937,-prati-2015}.json`. Status **provisional**, `review.by: null`, not checked by ear. Reviewers should inspect `work/chopin-nocturne-op15-2-121.26-133.26.png`, `-184-192.png`, `work/chopin-nocturne-op15-2-paderewski-1937-208-216.png`, `work/chopin-nocturne-op15-2-prati-2015-141.48-153.48.png`, `-192-200.png`, `-209.086-218.86.png`, and the three-page packs. Configs for the four withheld dry-run candidates are kept with `WITHHELD` endpoint bases.
+
+**Commands run:** `node tools/score.mjs <id>` dry runs for the seven ids above and `--publish` for the three nocturnes, all under `flock -w 3600 ~/.cache/direction-compute.lock`; `tools/align/{fetch,prepare,score_events,diagnose,humdrum_convert}.py`; one `node tools/engrave.mjs … --prepared` preview into scratch. **Not run:** unit tests (no new regression test was added), site build, browser checks, aural review.

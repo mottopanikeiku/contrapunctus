@@ -28,7 +28,18 @@ async function serve(req, res) {
     }
     const compressed = entry.gzip && /\bgzip\b/.test(req.headers['accept-encoding'] ?? '');
     const body = compressed ? entry.gzip : entry.raw;
-    res.writeHead(200, { 'Content-Type': types[ext] ?? 'application/octet-stream', 'Content-Length': body.length, 'Cache-Control': 'max-age=600', 'Vary': 'Accept-Encoding', ...(compressed ? { 'Content-Encoding': 'gzip' } : {}) });
+    // Byte ranges for uncompressed files (audio seeking), as GitHub Pages serves them.
+    const range = !compressed && /^bytes=(\d*)-(\d*)$/.exec(req.headers.range ?? '');
+    if (range && (range[1] || range[2])) {
+      const size = body.length;
+      const start = range[1] ? Number(range[1]) : Math.max(0, size - Number(range[2]));
+      const end = range[1] && range[2] ? Math.min(Number(range[2]), size - 1) : size - 1;
+      if (start > end || start >= size) { res.writeHead(416, { 'Content-Range': `bytes */${size}` }).end(); return; }
+      res.writeHead(206, { 'Content-Type': types[ext] ?? 'application/octet-stream', 'Content-Length': end - start + 1, 'Content-Range': `bytes ${start}-${end}/${size}`, 'Accept-Ranges': 'bytes', 'Cache-Control': 'max-age=600' });
+      res.end(req.method === 'HEAD' ? undefined : body.subarray(start, end + 1));
+      return;
+    }
+    res.writeHead(200, { 'Content-Type': types[ext] ?? 'application/octet-stream', 'Content-Length': body.length, 'Cache-Control': 'max-age=600', 'Vary': 'Accept-Encoding', ...(compressed ? { 'Content-Encoding': 'gzip' } : { 'Accept-Ranges': 'bytes' }) });
     res.end(req.method === 'HEAD' ? undefined : body);
   } catch { res.writeHead(404).end('Not found'); }
 }

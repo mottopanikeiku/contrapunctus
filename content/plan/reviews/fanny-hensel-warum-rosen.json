@@ -1,0 +1,88 @@
+{
+  "id": "fanny-hensel-warum-rosen",
+  "verdict": "pass",
+  "reviewer": "RevHensel",
+  "date": "2026-10-19",
+  "scope": "MEAS: SHA-1 and SHA-256 of cache/audio/fanny-hensel-warum-rosen.original.webm; SHA-256 of the MP3 in docs/assets/audio and in cache/audio; ffprobe durations; whole-file cross-correlation of the decoded original audio against the decoded MP3; pitch, bass-attack and chroma-DTW tracks of the MP3 for the section joins, the held E and the closing arpeggio; measure count of the OpenScore MusicXML; node tools/validate.mjs on both files. EXT: Commons file page, raw wikitext and imageinfo API (sha1, size, duration, uploader), the uploader's talk page and contributions, the two sibling files uploaded in the same minute, the ICCARE event page and programme PDF, IMSLP work page H.312 and Op. 1 page, IMSLP #99178 (title page and pp. 9–11 viewed as page images), LiederNet text 7780, Naxos 8.570981 booklet text, Wikipedia chronological list (raw wikitext), fannyhensel.de letters page, OpenScore README, sung-text file and MusicXML, OpenScore Lieder licence, OpenStreetMap building record, GitLab profile feed of @magiraud, CC BY-SA 4.0 legal code (Sections 1, 3(a), 3(b)). Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "EXT",
+      "code": "SESSION_DATE_IS_EVENT_SPAN",
+      "finding": "The dossier (session.date, precision “range”), the credit line and the listen file’s recorded field gave 22–23 January 2026 as the recording date. That is the span of the ICCARE conference days copied from the Commons description. The Commons date field says 2026-01-22, and the ICCARE programme lists the duo’s recital (“Récital chant-piano du duo Béla avec captation libre”, introduced by Mathieu Giraud) on Thursday 22 January, 18:00–19:00; nothing is scheduled for the duo on the 23rd.",
+      "fix": "recorded is now “22 January 2026, Amiens”; session.date is “22 January 2026”, precision day, with a note that the page does not say whether the file is the public recital or another run on the same day; the credit line now reads “recorded on 22 January 2026 at the ICCARE days …”."
+    },
+    {
+      "basis": "EXT",
+      "code": "VENUE_NAMED_BUT_UNUSED",
+      "finding": "The dossier said the hall or building was not named. The ICCARE programme places the days (and so the recital) at the Logis du Roy, Amiens, and the Commons camera coordinates (49.89292 N, 2.299879 E) coincide to five decimals with the OpenStreetMap building “Logis du Roi” (49.8929230 N, 2.2998796 E).",
+      "fix": "session.place is now “Logis du Roy, Amiens, France”, status documented, with the programme and the OpenStreetMap way added as sources (iccare-event, osm-logis); the note says the room is not named."
+    },
+    {
+      "basis": "EXT",
+      "code": "ICCARE_PAGE_NOT_CITED",
+      "finding": "The event page the Commons description points to was never cited, so the rights note could not say what the organisers announced about recording.",
+      "fix": "Added source iccare-event; rights.recording and performers now cite it. The programme bills the recital “avec captation libre” at a conference about open licences and open data, which points to an open release but gives no licence terms."
+    },
+    {
+      "basis": "EXT",
+      "code": "PIANIST_SURNAME_VARIANT",
+      "finding": "Commons spells the pianist Lazayre on all three files the uploader posted; the ICCARE event page and programme PDF spell it Lazayres. No third source turned up (web searches returned nothing relevant).",
+      "fix": "Commons spelling kept (it is the licensor’s own attribution, and the site credits performers as the source documents them); the variant is recorded in performers.note. Unresolved, see observations."
+    },
+    {
+      "basis": "EXT",
+      "code": "EVIDENCE_THIN",
+      "finding": "Cue 2’s evidence did not show what supports “in D minor” (the first edition has no key signature; the printed evidence named only B♭). Cue 1’s evidence gave “Herr Bock’s offer” for the 9 July 1846 letter, while the note says she “had accepted” his terms; the letter says she had “lent a favourable ear” to his courtship and advantageous terms and “begins to publish”.",
+      "fix": "Cue 2 evidence now adds the left hand opening D, E, C, F under the B♭ line (p. 9, system 4). Cue 1 evidence now quotes “ich fange an herauszugeben” and the favourable hearing of Bock’s terms, and cites the title page of #99178 for Berlin, Bote & Bock. The note text is unchanged and agrees with content/composers/fanny-hensel.mjs (“a Berlin publisher had offered good terms … she had accepted”)."
+    },
+    {
+      "basis": "EDITOR",
+      "code": "MP3_RETAGGED",
+      "finding": "The review recommended attribution tags in the MP3 (“Left open”).",
+      "fix": "The editor re-derived the MP3 from the same original with the same encoder settings, adding ID3v2.3 tags for title, performers, licence and Commons page. The file SHA-256 is now e9185202a46df85a80963accd1ac574d478500b12a73f2b5351b2f9a62388130, recorded in the dossier."
+    }
+  ],
+  "checks": {
+    "source": "Commons imageinfo (API) for File:Warum sind denn die Rosen so blass – Fanny Mendelssohn, Heinrich Heine.webm: sha1 e876d1fce86fb1a0c80e13fee6d12908b47689e5, size 99,950,566 bytes, duration 141.203 s, uploader Magiraud, 2026-01-23 09:08:56 UTC, comment “Uploaded own work with UploadWizard”. sha1sum of the cached original gives the identical SHA-1 and the identical byte size; sha256sum gives ba5c6b2dffda834c3d41fd03ae8f39a072ca5dad282b48124cd360e3ea8bc772, as in the dossier. The MP3 in docs/assets/audio and the copy in cache/audio are byte-identical, SHA-256 461c77387df3f09831cbdbf6922db5454b4c2d2844feef70c5958688f46d2668 (as in the dossier).",
+    "durationAndMatch": "Container 141.203 s (63 ms longer than its audio track); Vorbis audio track tag 2:21.140; MP3 141.137 s, 160 kb/s CBR, 44.1 kHz stereo, size 2,823,881 bytes, only tag encoder=Lavf62.12.102. Both decode to 141.137 s of audio. Cross-correlation of the decoded original audio against the decoded MP3 (mono, 22.05 kHz): lag 0 samples, r = 0.99996 over the whole file and ≥ 0.99994 in every 10 s block, difference 25.9 dB below the signal; no trimming, speed change or level change, only the expected lossy re-encode.",
+    "tuningAndKey": "Pitch tracks of the MP3: the piano’s opening E5 and the voice’s A4 and E5 are within about +1 cent of A = 440 Hz; the final high A5 sounds at +3 cents; the closing chord is A minor. The first edition has no key signature and no transposition is needed: it is printed in A minor (IMSLP gives A minor), and the audio is at the printed pitch.",
+    "identity": "IMSLP work page: H.312, Op. 1 No. 3, key A minor, Heine, first publication 1846 in 6 Lieder Op. 1. IMSLP Op. 1 page: first publication 1846, Berlin: Bote & Bock. Title page of #99178 (viewed): “Sechs Lieder für eine Stimme mit Begleitung des Pianoforte von Fanny Hensel geb. Mendelssohn-Bartholdy, 1tes Heft, Op. 1”, Berlin, Ed. Bote & G. Bock; p. 9 heads the song “Warum sind denn die Rosen so blass. Heine.”, No. 3, Andante, 6/8, no key signature; the plate number B. et B. 1046 is printed at the foot of pp. 9–11. LiederNet text 7780: Heine, Lyrisches Intermezzo no. 23, Buch der Lieder (Hamburg, 1827), p. 129, and for Hensel “op. 1 no. 3 (1837), published 1846”. Naxos 8.570981 booklet: “Warum sind denn die Rosen so blass (1837)”. Wikipedia list after Hellwig-Unruh: listed under 1837 as the third item of a list that starts at number 310, so 312, and the title-page caption there reads “n°: 312, 317, 358, 377, 387, 388”. IMSLP gives no composition year, so 1837 rests on those three. The title page’s “Stationers Hall … treaty of March 13 1846” is a copyright formula, not a publication date. OpenScore’s sung-text file and the MusicXML (42 measures, 6/8, markings Andante, cresc., dim., con espress., dim. rallent.) agree with the printed repeat of the last line.",
+    "licence": "Commons wikitext: {{self|cc-by-sa-4.0}}, source {{own}}, author Magiraud, date 2026-01-22, permission field empty, no VRT/permission template, no deletion or doubt tags. The uploader’s talk page holds only the 2020 welcome message; contributions are the three uploads of 23 January 2026 (this file, “Auprès de ma mie – Cécile Chaminade, Octave Pradels” and “Clara Wieck-Schumann – Liebst du um Schönheit”), each with the same description. CC BY-SA 4.0 legal code, Section 3(a)(1): identify the creator(s) and anyone designated for attribution, give a licence notice with its URI, a URI to the Licensed Material where practicable, indicate modifications; 3(a)(2): any reasonable manner, including a hyperlink to a resource carrying the information; 3(b): same licence for Adapted Material, the licence URI, and no additional terms or Effective Technological Measures. Dossier against these: creator and performers named (Magiraud; Adèle Bérard, Laura Lazayre, duo Béla); licence named in the credit line and licenseUrl rendered beside it (room.js line 607, build.mjs line 823); Commons file page is the first listed source; modification stated (video removed, audio re-encoded at 160 kb/s); share-alike stated in credit line and rights.recording; the Commons page supplies no separate copyright notice or warranty-disclaimer notice to retain. No page or file in the repository imposes other terms on the MP3 (README, content/site.mjs; there is no LICENSE file). The site only removes the video and re-encodes; treating the MP3 as Adapted Material and releasing it under the same licence is the conservative reading and costs nothing.",
+    "performerConsent": "INFERENCE, not documented: whether Bérard and Lazayre released the recording themselves is unknown. For the own-work claim: Commons date and description match the ICCARE programme (recital 22 January, Logis du Roy); the programme bills the recital “avec captation libre” inside a conference on open licences and open data, introduced by Mathieu Giraud (CNRS, Algomus), one of the five organisers; the Commons file also links Dezrann, which Giraud presents at the same event, as the interactive score. The Commons handle Magiraud matches the GitLab handle @magiraud, whose profile is Mathieu Giraud’s (activity on algomus.fr/Dezrann); the link is by handle only, the Commons user page is a red link, and the dossier names only the Commons username. Against: no permission or VRT ticket, no statement from the performers on either page, the recital is not among the MP3 recordings ICCARE lists for re-listening, and the performers’ surname is spelt two ways. Nothing found contradicts the claim, so the dossier states the position as it is: the licence is the uploader’s own-work declaration and the page carries no performer statement.",
+    "sections": "Voice, piano and bass tracks of the MP3, each against the printed score. First sound 1.15 s (piano E5, upbeat). Voice’s first note A4 at about 8.3 s, E5 at 8.5 s (A, label 8). Voice pickup A4 for the second stanza at about 32.8 s (B, label 33): the f entry. Pickup for the third stanza at about 62.0 s, E5 at 63.2 s (A′, label 63); chroma DTW of stanza 1 against the recording finds the repeat at 62.6–87.6 s. Pickup for the fourth stanza at about 88.3 s (B′, label 88); chroma DTW of stanza 2 finds the repeat at 88.5–117.2 s, and the E2 attacks at 104.4 s and 115.1 s sit 55 s after those at 49.1 s and 60.1 s in the second stanza. Two-bar E pedal (E2 attack) at 49.1 s, held to about 56 s, where the left hand resumes on A2. Pickup A4 of the repeated last line at about 117.2 s, then E5, F5, E5, B4 at 118.2–118.7 s (label 118). Piano alone from about 121 s; E–A–C–E arpeggio at 131–133.6 s; high A5 from 134.4 s, decaying to silence by about 139 s. All five labelled times lie within about one second of the voice’s first note of the stanza; the average bar is about 3.1–3.3 s.",
+    "notes": "Three notes for a 141.14 s track (limit ceil(141.14/40) = 4; house minimum 3). Cue 1 (life, t 0): composition 1837, publication 1846 (IMSLP, Naxos, LiederNet, Wikipedia list, title page); 22 November 1836 and 9 July 1846 letters checked on fannyhensel.de, and the text matches the composer page. Cue 2 (music, t 33, passage): f entry with B♭, stepwise descent D5–F4 and sixteenth-note figure in the right hand, p. 9 system 4; E held two bars at the end of system 1 and start of system 2 of p. 10 (viewed; audio shows the E2 attack at 49.1 s and the left hand resuming at 56 s); stanza 3 opens with the music of stanza 1 (p. 10, system 2, bar 3; audio repeat at 62.6 s). “D minor” is supported by the opening D bass under B♭ (and by the local key read from the audio); the “dominant pedal” is E in A minor. Cue 3 (music, t 118, passage): “Warum, warum verliessest du mich?” marked con espress. on the music of the opening line (p. 11, system 3, bars 3–4; pitches in the audio match the opening), then dim. rallent. (system 4 bar 2), pp (bar 3), A minor arpeggio and high A with a fermata (bar 4). “Eight of the sixteen lines begin with Warum” was counted on LiederNet’s text (lines 1, 3, 5, 7, 9, 11, 13, 16) and agrees with the sung text in OpenScore.",
+    "voice": "Checked by hand against AUTHORING.md ## Voice: notes end on the last fact; no personification, antithesis frames, lists of three for rhythm, colon reveals, mood adverbs, hedges or pastiche vocabulary; titles and section labels are plain labels (“Composed 1837, published 1846”, “Second stanza in D minor”, “Last line repeated, piano close”); section labels and mNotes within the word limits; text lengths 48, 46 and 49 words. Evidence fields are long but no longer than those of other listen files.",
+    "validator": "node tools/validate.mjs content/listen/fanny-hensel-warum-rosen.mjs content/dossiers/fanny-hensel-warum-rosen.json printed ok for both files before and after the corrections."
+  },
+  "rights": {
+    "decision": "Publish: the file is CC BY-SA 4.0 on Commons, the derived MP3 matches it, and the dossier meets the licence’s attribution, change-indication and share-alike conditions. The performers’ own consent is not documented anywhere, and the dossier says so.",
+    "reasoning": "(1) Licence: CC BY-SA 4.0 under the uploader’s own-work declaration; no deletion, copyright-doubt or permission-pending template on the page; the licence allows redistribution and adaptation, so hosting an audio-only MP3 is permitted (LISTENING.md allows source.derived for CC BY-SA). (2) Derivative: the MP3 is the original’s audio at lag 0, r = 0.99996; the credit line states the changes and the licence. (3) Composition and text: Hensel d. 1847, Heine d. 1856, first edition 1846, so both are in the public domain; the OpenScore encoding is CC0 and is cited only as the score the Commons page links. (4) Residual risk, INFERENCE: the uploader claims the whole video as own work, including the performers’ rendition, and a performer’s consent is a separate matter from the videographer’s. The programme says the recital was given “avec captation libre” at an open-data conference and the uploader appears to be an organiser, but no performer statement exists. If the performers or ICCARE ever object, the file would have to come down; nothing found suggests they will."
+  },
+  "observations": [
+    {
+      "basis": "EXT",
+      "code": "PIANIST_SPELLING_OPEN",
+      "finding": "Lazayre (Commons, three files) against Lazayres (ICCARE page and PDF programme). The site uses the Commons form.",
+      "action": "Not resolved: no third source. If ICCARE or the performers publish a biography, the credit line, the performers field and the dossier need one edit each."
+    },
+    {
+      "basis": "MEAS",
+      "code": "MP3_CARRIES_NO_ATTRIBUTION_TAGS",
+      "finding": "tools/audio.mjs derive strips all container metadata (-map_metadata -1); the MP3 at docs/assets/audio/fanny-hensel-warum-rosen.mp3 holds only the encoder tag. Anyone who copies the file from the site gets no creator, licence or source inside it. CC BY-SA 4.0 Section 3(a)(2) lets the page carry the credit, so this is not a breach.",
+      "action": "Not edited (tool change outside this assignment, and it would change the MP3 hash). A possible improvement is to write title, artist, copyright and a licence URL as ID3 tags in derive."
+    },
+    {
+      "basis": "INFERENCE",
+      "code": "UPLOADER_IDENTITY",
+      "finding": "Magiraud is very probably Mathieu Giraud (handle match, event role, Dezrann link). Not confirmed on Commons.",
+      "action": "Dossier names only the Commons username, as the page does; nothing to change."
+    },
+    {
+      "basis": "EXT",
+      "code": "SHORT_TRACK",
+      "finding": "At 2:21 the track is under LISTENING.md’s “ideally 3–14 minutes”; it is a complete song and above the validator’s 90 s floor.",
+      "action": "None."
+    }
+  ]
+}

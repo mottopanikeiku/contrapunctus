@@ -1,0 +1,201 @@
+{
+  "id": "fanny-hensel-warum-rosen",
+  "work": {
+    "title": "Warum sind denn die Rosen so blass",
+    "catalogue": "Op. 1, No. 3; H-U 312",
+    "movement": "No. 3 of Sechs Lieder, Op. 1 — Andante",
+    "version": {
+      "value": "Complete song as printed in Op. 1 No. 3, sung in the printed key (A minor), with the repeat of the last line",
+      "status": "inferred",
+      "sourceIds": ["commons", "imslp-work", "imslp-op1", "first-edition", "openscore", "naxos-booklet", "lieder-net", "work-list", "letters"],
+      "note": "The Commons title and description identify the song, and the page links the OpenScore Lieder project as the score; its transcription of this song is a CC0 encoding made from the Bote & Bock first edition (IMSLP #99178). That the performance is complete, untransposed and follows the printed repeat is estimated from the audio and the printed score: the piano’s opening E5 measures 659.6 Hz, the soprano’s first notes sound as A4 and E5, the closing chord is A minor, and audio chroma aligned with the encoded score follows four stanzas in printed order and then the repeated last line. Tuning is about A = 440 Hz. The sung words were not transcribed. IMSLP gives the key as A minor and the first edition marks the song Andante (p. 9). The Naxos booklet, LiederNet and the chronological work list after Hellwig-Unruh’s catalogue date the song 1837; IMSLP and the first edition place its publication in 1846, the year Hensel told her brother Felix that she had accepted Herr Bock’s offer (letter of 9 July 1846)."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Adèle Bérard", "role": "soprano" },
+      { "name": "Laura Lazayre", "role": "piano" }
+    ],
+    "status": "documented",
+    "sourceIds": ["commons", "iccare-event"],
+    "note": "The Commons description lists duo Béla with Adèle Bérard, soprano, and Laura Lazayre, piano. The ICCARE programme lists the same duo’s recital with the pianist’s surname spelt Lazayres; no other source for the spelling was found, and the Commons spelling, which appears on all three files the uploader posted, is kept. The file is credited to the uploader Magiraud as own work; the page does not name the uploader as a performer."
+  },
+  "session": {
+    "date": {
+      "value": "22 January 2026",
+      "status": "documented",
+      "sourceIds": ["commons", "iccare-event"],
+      "note": "The Commons date field gives 2026-01-22, and the ICCARE programme places the duo’s recital, billed “avec captation libre”, on Thursday 22 January from 18:00 to 19:00. The Commons description gives 22–23 January, the span of the conference days. The page does not say whether the file records the public recital or another run-through on the same day. The upload timestamp, 23 January 2026 at 09:08 UTC, is not a session date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Logis du Roy, Amiens, France",
+      "status": "documented",
+      "sourceIds": ["commons", "iccare-event", "osm-logis"],
+      "note": "The ICCARE programme places the conference days, with the recital, at the Logis du Roy, Passage du Logis du Roy, Amiens. The coordinates on the Commons page (49.89292 N, 2.299879 E) coincide with the OpenStreetMap building “Logis du Roi” (49.89292 N, 2.29988 E). The room is not named."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": ["commons"],
+      "note": "Born-digital video uploaded to Wikimedia Commons as the uploader’s own work; no record label or publisher is named."
+    },
+    "catalogue": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": ["commons"],
+      "note": "No catalogue number applies. The Commons file name and page ID (182273163) identify the file."
+    },
+    "matrixTakeSides": {
+      "value": null,
+      "status": "not applicable",
+      "sourceIds": ["commons"],
+      "note": "A born-digital session has no matrix, take or side."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Audio track extracted by Contrapunctus from the Wikimedia Commons video “Warum sind denn die Rosen so blass – Fanny Mendelssohn, Heinrich Heine.webm” (uploaded by Magiraud, own work), with ffmpeg -vn -ac 2 -ar 44100 -c:a libmp3lame -b:a 160k, adding ID3v2.3 tags for title, performers, licence and the Commons page. Original file SHA-256 ba5c6b2dffda834c3d41fd03ae8f39a072ca5dad282b48124cd360e3ea8bc772; derived MP3 SHA-256 e9185202a46df85a80963accd1ac574d478500b12a73f2b5351b2f9a62388130.",
+      "status": "documented",
+      "sourceIds": ["commons", "original-file", "derive"],
+      "note": "Commons offers this file only as video, with no MP3 derivative, so the site hosts the audio-only MP3 itself at assets/audio/fanny-hensel-warum-rosen.mp3. The SHA-1 of the cached original, e876d1fce86fb1a0c80e13fee6d12908b47689e5, equals the SHA-1 on the Commons file page. The tool removes the container metadata (-map_metadata -1) and writes its own attribution tags."
+    },
+    "date": {
+      "value": "2026-10-19",
+      "status": "documented",
+      "sourceIds": ["derive"],
+      "note": "Date of the extraction by Contrapunctus, from the time stamps of the cached original and the MP3. The Commons upload on 23 January 2026 is not a transfer date."
+    },
+    "processing": {
+      "value": "Video stream removed; the Vorbis audio (48 kHz, stereo) was decoded and re-encoded as MP3 at 160 kb/s, 44.1 kHz, stereo (libmp3lame). No trimming, level change, equalisation or noise reduction was applied.",
+      "status": "documented",
+      "sourceIds": ["original-file", "derive"],
+      "note": "The original is a WebM file of 99,950,566 bytes with VP8 video (1920 × 1080) and Vorbis audio, 141.2 s long; the MP3 decodes to 141.1 s. Microphones, the recording chain, editing and mastering before upload are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "assets/audio/fanny-hensel-warum-rosen.mp3",
+    "sourceChain": ["commons", "original-file", "derive"],
+    "format": "MP3, 160 kb/s, 44.1 kHz stereo, extracted by Contrapunctus from the audio of a 1920 × 1080 WebM video",
+    "durationSeconds": 141.14
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain: Hensel died in 1847 and Heine in 1856, and the first edition appeared in 1846.",
+      "status": "inferred",
+      "sourceIds": ["imslp-op1", "lieder-net"],
+      "note": "Life-plus-70 terms have run out for both authors, and IMSLP lists the 1846 Bote & Bock edition as public domain. This covers the song and its text, not modern editions; the OpenScore Lieder transcription is released under CC0."
+    },
+    "recording": {
+      "value": "CC BY-SA 4.0 (Wikimedia Commons file licence). The audio-only MP3 derived by Contrapunctus is distributed under the same licence.",
+      "status": "documented",
+      "sourceIds": ["commons", "cc-by-sa", "iccare-event"],
+      "note": "Attribution is required to duo Béla (Adèle Bérard and Laura Lazayre) and to the uploader, Magiraud; the share-alike term passes the licence to the derivative, and the changes (video removed, audio re-encoded) are stated in the credit line. The licence is the uploader’s own-work declaration, and the Commons page carries no separate statement or permission ticket from the performers. The ICCARE programme, which announces the recital as “avec captation libre” at a conference on open licences and open data, points to an open release but gives no licence terms. Nothing on the Commons or ICCARE pages contradicts the own-work claim."
+    },
+    "creditLine": "Fanny Hensel, Warum sind denn die Rosen so blass (Heine), Sechs Lieder, Op. 1 No. 3. Adèle Bérard, soprano, and Laura Lazayre, piano (duo Béla); recorded on 22 January 2026 at the ICCARE days “Science ouverte, données ouvertes et musique”, Logis du Roy, Amiens. Video uploaded to Wikimedia Commons by Magiraud (own work), CC BY-SA 4.0; audio-only MP3 extracted by Contrapunctus (video removed, audio re-encoded at 160 kb/s) and distributed under CC BY-SA 4.0. The composition is in the public domain.",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sources": [
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons — Warum sind denn die Rosen so blass – Fanny Mendelssohn, Heinrich Heine.webm",
+      "url": "https://commons.wikimedia.org/wiki/File:Warum_sind_denn_die_Rosen_so_blass_%E2%80%93_Fanny_Mendelssohn,_Heinrich_Heine.webm",
+      "locator": "Description (duo Béla; Adèle Bérard, soprano; Laura Lazayre, piano; ICCARE days, Amiens, 22–23 January 2026), date 2026-01-22, author Magiraud, source “Own work”, CC BY-SA 4.0, upload 2026-01-23 09:08 UTC, SHA-1 e876d1fc…, links to OpenScore Lieder as the score.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "original-file",
+      "title": "Wikimedia Commons original file (WebM video)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Warum_sind_denn_die_Rosen_so_blass_%E2%80%93_Fanny_Mendelssohn%2C_Heinrich_Heine.webm",
+      "locator": "99,950,566 bytes; VP8 1920 × 1080 video and Vorbis 48 kHz stereo audio, 141.2 s; SHA-256 ba5c6b2d…; the SHA-1 of the cached copy matches the file page.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "derive",
+      "title": "Contrapunctus project repository, tools/audio.mjs derive",
+      "url": "https://github.com/mottopanikeiku/contrapunctus",
+      "locator": "ffmpeg -y -loglevel error -i original -vn -map_metadata -1 -ac 2 -ar 44100 -c:a libmp3lame -b:a 160k; the command prints both SHA-256 digests.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "cc-by-sa",
+      "title": "Creative Commons — Attribution-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "locator": "Attribution, indication of changes and share-alike terms.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "iccare-event",
+      "title": "PEPR ICCARE — Science ouverte, données ouvertes et musique (event page and programme)",
+      "url": "https://pepr-iccare.fr/events/science-ouverte-donnees-ouvertes-et-musique/",
+      "locator": "Journées d’accélération, Amiens, Logis du Roy, 22–23 January 2026; programme for Thursday 22 January, 18:00–19:00: “Récital chant-piano du duo Béla avec captation libre”, Adèle Bérard (soprano) and Laura Lazayres (piano), introduced by Mathieu Giraud (CNRS).",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "osm-logis",
+      "title": "OpenStreetMap — Logis du Roi, Amiens (way 140252353)",
+      "url": "https://www.openstreetmap.org/way/140252353",
+      "locator": "Building “Logis du Roi”, Passage du Logis du Roi, Amiens; centre 49.8929230 N, 2.2998796 E, which matches the Commons camera location.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp-work",
+      "title": "IMSLP — Warum sind denn die Rosen so blass, H.312 (Hensel, Fanny)",
+      "url": "https://imslp.org/wiki/Warum_sind_denn_die_Rosen_so_blass,_H.312_(Hensel,_Fanny)",
+      "locator": "H.312; Op. 1 No. 3; key A minor; first published 1846 in 6 Lieder, Op. 1; text by Heinrich Heine; voice and piano.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp-op1",
+      "title": "IMSLP — 6 Lieder, Op. 1 (Hensel, Fanny)",
+      "url": "https://imslp.org/wiki/6_Lieder,_Op.1_(Hensel,_Fanny)",
+      "locator": "First edition, Berlin: Bote & Bock, n.d. [1846], plate B. et B. 1046 (IMSLP #99178), public domain, scanned by the Staatsbibliothek zu Berlin; No. 3 is the Heine setting.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "first-edition",
+      "title": "Sechs Lieder für eine Stimme mit Begleitung des Pianoforte, Op. 1, Bote & Bock, plate B. et B. 1046 (IMSLP #99178)",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP99178-PMLP194743-Hensel_Fanny_Sechs_Lieder_fuer_eine_Stimme_mit_Begleitung_des_Pianoforte_Op_1_Bote_1046_1846.pdf",
+      "locator": "Title page; No. 3 on pp. 9–11: Andante, 6/8, no key signature, f at the second stanza, con espress. at the repeated last line, dim. rallent. and pp, closing fermata on A. Pages opened and inspected.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "openscore",
+      "title": "OpenScore Lieder Corpus — Hensel, 6 Lieder, Op. 1, No. 3",
+      "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass",
+      "locator": "README names IMSLP file 99178 as the source; MusicXML encoding in 6/8 with no key signature, 42 measures counting the quaver upbeat, and the repeated last line in the sung text.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "lieder-net",
+      "title": "LiederNet — Warum sind denn die Rosen so blaß? (Heinrich Heine)",
+      "url": "https://www.lieder.net/lieder/get_text.html?TextId=7780",
+      "locator": "Text confirmed against Buch der Lieder (Hamburg, 1827), p. 129; Lyrisches Intermezzo no. 23; Heine 1797–1856; Hensel 1805–1847, op. 1 no. 3 (1837), published 1846.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "naxos-booklet",
+      "title": "Naxos 8.570981, Mendelssohn-Hensel: Lieder, Vol. 1 — booklet notes by Caroline Waight",
+      "url": "https://stor.imslp.org/naxos/booklets/booklet-8.570981.pdf",
+      "locator": "Essay: Warum sind denn die Rosen so blass (1837) among the Heine settings; Op. 1 the first music she chose to publish, in 1846.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "work-list",
+      "title": "List of compositions by Fanny Hensel (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_compositions_by_Fanny_Hensel",
+      "locator": "Op. 1 list: No. 3, Andante; chronological list after Renate Hellwig-Unruh’s catalogue places Op. 1.3 in 1837 as number 312.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "letters",
+      "title": "Fanny Hensel Research — Briefe",
+      "url": "https://fannyhensel.de/?page_id=138",
+      "locator": "Letters to Felix of 22 November 1836 (publishing: “Hensel wünscht es, Du bist dagegen”) and 9 July 1846 (“ich fange an herauszugeben”; Herr Bock’s offer for her songs).",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-19" }
+}

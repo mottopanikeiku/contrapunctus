@@ -1,0 +1,25 @@
+{
+  "title": "Nocturne in F♯ major, Op. 15 No. 2",
+  "edition": "First edition, Breitkopf & Härtel, Leipzig (Trois Nocturnes Op. 15; RISM 1001035842, PL-Wbfc 676/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+  "encoder": "Jędrzej Mróz (encoding); Tomasz Sierawski, Wojciech Jakubiak-Danek (editing); NIFC Chopin Heritage in Open Access project",
+  "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+  "main": "nocturne.ly",
+  "humdrum": "015-1a-BH-002.krn",
+  "musicxml": "015-1a-BH-002.musicxml",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
+      "file": "015-1a-BH-002.krn",
+      "sha256": "86621038f96bdef0e99762933fb1df0989a4ecc1458832584eff4a6dce3edbff"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

@@ -278,6 +278,8 @@ body.waiting .backdrop img { filter: blur(0) brightness(.5) saturate(.95); trans
 .sheet .lit, .sheet .lit * { fill: #9b2a17; color: #9b2a17; }
 .sheet-wait { padding: 3rem; text-align: center; font: italic 1.2rem var(--display); color: #7a6a52; }
 .sheet-cap { margin: 0; padding: .45rem 1rem .55rem; font-size: .8rem; line-height: 1.35; color: var(--muted); background: rgba(13, 11, 9, .85); border-top: 1px solid var(--rule); }
+.sheet-cap a { color: inherit; }
+.sheet-attrib { display: block; margin-top: .2rem; font-size: .72rem; opacity: .85; }
 .spectro-frame.paper .sheet-cap { margin: 0 11px 11px; }
 
 /* -- the gold note-roll */

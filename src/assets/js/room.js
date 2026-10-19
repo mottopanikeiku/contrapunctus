@@ -204,7 +204,12 @@ export async function mount(app) {
     wrap.innerHTML = '<p class="sheet-wait">Loading the score…</p>';
     const cap = document.createElement('p');
     cap.className = 'sheet-cap';
-    cap.innerHTML = `The written score${track.scoreSource?.title ? `: ${track.scoreSource.title}` : ''}${track.scoreSource?.edition ? `, ${track.scoreSource.edition}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Select a bar to play from it.`;
+    // Licensed encodings (CC BY / BY-SA) need their credit and licence beside the engraving that adapts them.
+    const src = track.scoreSource ?? {};
+    const licensed = src.license && !/public domain|cc0/i.test(src.license);
+    const licence = src.licenseUrl ? `<a href="${escapeHtml(src.licenseUrl)}" target="_blank" rel="noopener">${escapeHtml(src.license)}</a>` : escapeHtml(src.license ?? '');
+    const credit = licensed ? ` Encoding: ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.encoder || 'source')}</a>` : escapeHtml(src.encoder ?? '')}, ${licence}; engraved and aligned by Contrapunctus under the same terms.${src.attribution ? ` <span class="sheet-attrib">${escapeHtml(src.attribution)}</span>` : ''}` : '';
+    cap.innerHTML = `The written score${src.title ? `: ${src.title}` : ''}${src.edition ? `, ${src.edition}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Select a bar to play from it.${credit}`;
     ui.layer.append(wrap, cap);
     const t0 = track;
     let pack = null, pages = [], current = null, lit = [], userScroll = 0, barLen = 0.25, io = null, destroyed = false;
