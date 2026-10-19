@@ -109,6 +109,7 @@ export async function audioInfo(file) {
     title: p.title,
     duration: vi.duration,
     mime: vi.mime,
+    url: vi.url?.split('?')[0],
     stream: mp3?.split('?')[0],
     page: vi.descriptionurl,
     artist: stripAudio(m.Artist?.value),
@@ -149,8 +150,18 @@ export async function archiveInfo({ item, file }) {
   };
 }
 
-/** Stream information for any recording source. */
+/** Stream information for any recording source. A `derived` source is an MP3 extracted by
+ *  `tools/audio.mjs derive` from an openly licensed Commons file that has no audio derivative
+ *  (e.g. a concert video); it is served from the site itself at `docs/<derived>`. */
 export async function sourceInfo(source) {
+  if (source?.derived) {
+    const info = source.file ? await audioInfo(source.file) : null;
+    if (!info) return null;
+    const { access } = await import('node:fs/promises');
+    const local = new URL(`../docs/${source.derived}`, import.meta.url);
+    try { await access(local); } catch { return { ...info, stream: null }; }
+    return { ...info, stream: source.derived, derived: true };
+  }
   if (source?.file) return audioInfo(source.file);
   if (source?.archive) return archiveInfo(source.archive);
   return null;

@@ -15,6 +15,7 @@ from musicxml_tuplets import flatten_tuplets
 from musicxml_ties import route_ties
 from musicxml_structure import mark_initial_grace, preserve_partial_measures, share_endings
 from musicxml_trills import route_trills
+from humdrum_convert import to_musicxml as humdrum_to_musicxml
 
 
 def definitions(cfg, directory):
@@ -41,6 +42,12 @@ def prepare(cfg, lilypond=LILYPOND):
     shutil.copytree(HERE / 'sources' / cfg['id'], directory)
     source = cfg['source']
     main = inside(directory, source['main'])
+    if source.get('humdrum'):
+        derivative = inside(directory, source.get('musicxml', ''))
+        if not source.get('musicxml') or derivative.exists():
+            raise ValueError('source.humdrum needs a new derivative source.musicxml filename')
+        summary = humdrum_to_musicxml(inside(directory, source['humdrum']), derivative)
+        print('HUMDRUM', cfg['id'], source['humdrum'], '->', source['musicxml'], summary, flush=True)
     if source.get('musicxml'):
         original = inside(directory, source['musicxml'])
         if zipfile.is_zipfile(original):

@@ -226,6 +226,8 @@ for (const f of files) {
       const R = mod.source.rights, usPd = R?.evidence && ((R.basis === 'us-published-before-cutoff' && Number(R.published) <= new Date().getFullYear() - 101) || (R.basis === 'eu-published-before-1963' && Number(R.published) < 1963));
       const openLicence = /public domain|^pd|cc0|cc[- ]by|\boal\b|open audio licen/i.test(info.license) && !/\bnc\b|non-?commercial|\bnd\b|no-?deriv/i.test(info.license);
       if (!openLicence && !usPd) err(f, `licence not allowed: ${info.license || 'none'} (NonCommercial and NoDerivatives licences are not open; archive items without a PD/CC licence need source.rights { basis: 'us-published-before-cutoff' | 'eu-published-before-1963', published, evidence })`);
+      // The site hosts a derived MP3 itself, so only an open host licence will do (never a territorial PD basis).
+      if (mod.source.derived && (!openLicence || mod.source.derived !== `assets/audio/${mod.id}.mp3`)) err(f, `source.derived must be 'assets/audio/${mod.id}.mp3' and the Commons file openly licensed`);
       if (mod.set && (!mod.set.id || !mod.set.title || !(mod.set.part >= 1) || !(mod.set.of >= mod.set.part))) err(f, 'set must be { id, title, part, of }');
       if (info.duration < (mod.set || mod.concert === false || mod.short ? 20 : 90)) err(f, `recording too short (${info.duration}s)`);  // short complete pieces: set movements, comparison-only recordings, or `short: true` (a complete miniature such as an étude)
       const dur = info.duration;

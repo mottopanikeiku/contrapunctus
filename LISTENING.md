@@ -10,7 +10,7 @@ Read `content/listen/debussy-faune.mjs` in full first; it is the exemplar. House
 2. `node tools/audio.mjs check "File:<exact title>"` shows duration, licence, performer, description and the stream URL.
 3. Requirements:
    - Licence is Public domain, CC0, CC BY or CC BY-SA (the host's licence field is authoritative), or an Internet Archive item with a documented US public-domain basis (`source.rights`, see `tools/validate.mjs`).
-   - Must have a stream URL (an MP3 derivative).
+   - Must have a stream URL (an MP3 derivative). An openly licensed Commons file without one (typically a concert video) may be used through `source: { file, derived: 'assets/audio/<id>.mp3' }`: `node tools/audio.mjs derive content/listen/<id>.mjs` extracts the audio track into `docs/assets/audio/` and prints the hashes and ffmpeg settings for the dossier. The site then hosts the MP3 itself, so this is allowed only for host licences that permit redistribution (PD, CC0, CC BY, CC BY-SA), never for a territorial public-domain basis.
    - One complete movement or piece, ideally **3–14 minutes**. Never a fragment that cuts off mid-phrase.
    - The best performance and sound available: professional or major-conservatory ensembles over amateur recordings. **Never a synthesized or MIDI rendering.**
    - The work that shows the composer best. A famous, characteristic movement beats an obscure complete piece.

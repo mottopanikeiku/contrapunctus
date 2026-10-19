@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "id": "chopin-waltz-op64-2-paderewski-1917",
+  "source": {
+    "title": "Waltz in C♯ minor, Op. 64 No. 2",
+    "edition": "First edition, Breitkopf & Härtel, Leipzig (Trois Valses Op. 64; RISM 1001035730, PL-Wbfc 4266/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+    "encoder": "Wojciech Jakubiak-Danek (encoding); Zofia Trojan, Mateusz Mrugas (editing); NIFC Chopin Heritage in Open Access project",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/064-1a-BH-002.krn",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+    "main": "waltz.ly",
+    "humdrum": "064-1a-BH-002.krn",
+    "musicxml": "064-1a-BH-002.musicxml",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/064-1a-BH-002.krn",
+        "file": "064-1a-BH-002.krn",
+        "sha256": "9bd6c0e8ee2d83068bdaaab0cba82d1e2eae117fa204b0186170dd413c99cc89"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+        "file": "LICENSE.txt",
+        "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "music": "\\new StaffGroup << \\new Staff = \"upper-1\" { \\PartPOneVoiceOne } \\new Staff = \"upper-2\" { \\PartPOneVoiceTwo } \\new Staff = \"lower-5\" { \\PartPOneVoiceFive } \\new Staff = \"lower-6\" { \\PartPOneVoiceSix } >>",
+    "ties": [
+      {
+        "origin": {
+          "q": 201.0,
+          "pitch": 65,
+          "voice": "lower",
+          "durationQ": 1.0
+        },
+        "continuation": {
+          "q": 202.0,
+          "pitch": 65,
+          "voice": "lower",
+          "durationQ": 1.0
+        },
+        "basis": "064-1a-BH-002.krn lines 588/591: source tie continues in another encoded voice of the same staff; LilyPond cannot tie across voices, so the note is held, not reattacked."
+      }
+    ]
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        "upper-1:",
+        "upper-2:"
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        "lower-5:",
+        "lower-6:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 193,
+    "quarters": 3,
+    "overrides": {
+      "0": 1
+    },
+    "order": [
+      [
+        0,
+        192
+      ]
+    ],
+    "description": "Pickup bar 0 and bars 1-192 of the written-out first edition once (bar 64 is split 2+1 quarters by an unnumbered double bar). Performed order NOT established; see provenance."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      4
+    ],
+    "last": [
+      175,
+      197
+    ],
+    "basis": "WITHHELD (19 Oct 2026): dry run passed numerically, but overlays show bars 160-166 compressed into about 1 s near 161 s and 17 s of performed music after the mapped final chord at 180.6 s; the performed order versus the first-edition text (194 bars, no repeat signs) is unresolved."
+  },
+  "boundaries": [],
+  "provenance": [
+    "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
+    "Edition: first edition, Breitkopf & Härtel, Leipzig (RISM 1001035730, PL-Wbfc 4266/n).",
+    "WITHHELD (19 Oct 2026): dry run passed numerically, but overlays show bars 160-166 compressed into about 1 s near 161 s and 17 s of performed music after the mapped final chord at 180.6 s; the performed order versus the first-edition text (194 bars, no repeat signs) is unresolved."
+  ]
+}

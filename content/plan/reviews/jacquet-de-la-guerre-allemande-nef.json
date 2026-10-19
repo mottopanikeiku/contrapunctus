@@ -1,5 +1,21 @@
 {
   "id": "jacquet-de-la-guerre-allemande-nef",
   "verdict": "pass",
-  "defects": []
+  "defects": [],
+  "corrections": [
+    {
+      "date": "2026-10-19",
+      "basis": "MEAS",
+      "code": "WORK_IDENTIFIED",
+      "finding": "The recording was labelled only “Pièces de clavecin” because no printed suite had been matched; the 1707 book was not compared because its scan did not download. The 1707 first-edition scan (IMSLP 111449, BnF copy) and Wiberg’s edition (IMSLP 28300) were obtained and set against the audio. Pitch tracking of the file (tuning +25 cents of A = 440, interquartile range 20–30, the same on both sides of the disc) gives an upbeat B4 at about 2.8 s; a G major chord on bar 1 at about 3.3 s with left-hand G–F♯–G–A in semiquavers and B–G–C–A in quavers; a D major chord with the bass running D–C–B–A in bar 8 (about 37–42 s); a spread D major chord opening the second strain (bar 10) at about 83.4 s; and a final G major chord at about 173 s. Each strain is played twice, the first in about 40 s and the second in about 44 s, which is 8 and 9 bars at about 5 s a bar. This is the Allemande of the G major suite of the 1707 book (EJG.06; first edition printed page 21, Wiberg printed page 24); the D minor suite of that book has La Flamande, not an Allemande. None of the four 1687 allemandes is in G major. The F major one, the only candidate for a whole-tone-sharp transfer, has an upbeat C and a first strain of seven bars, and the file has no whole-tone offset. The reviewer’s G major reading and the D major close of the first strain are confirmed. Oiseau-Lyre discography (medieval.org, after Davidson) and the BnF record name no suite; Lyrebird Rising itself was not opened.",
+      "fix": "Listen file: work, movement, year and key filled in; intro and the notes at 0, 42 and 83 s rewritten with bar references. Dossier: work title, catalogue (EJG.06) and movement set; version field recorded as inferred with the comparison; sources facsimile1707, edition1707 and imslp1707 added; processing note updated."
+    },
+    {
+      "date": "2026-10-19",
+      "basis": "MEAS",
+      "code": "SECTION_TIME",
+      "finding": "Section A repeated and its note stood at 40 s, in the middle of the first ending’s bass run. The repeat’s upbeat B4 sounds at about 42.4 s and its bar 1 at about 42.7 s.",
+      "fix": "Section and note moved to 42 s."
+    }
+  ]
 }

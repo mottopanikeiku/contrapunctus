@@ -378,6 +378,8 @@ def run(ident):
     diagnostics = checks(cfg, events, data, sx, ay, scale, score_chroma, path, sections)
     manifest = json.loads((HERE / 'sources' / ident / 'manifest.json').read_text())
     source = {k: manifest[k] for k in ('title', 'edition', 'encoder', 'url', 'license', 'licenseUrl')}
+    if manifest.get('attribution'):  # CC BY/BY-SA sources: the licensor's requested credit line travels with the score
+        source['attribution'] = manifest['attribution']
     score = {'id': ident, 'status': 'provisional', 'review': {'by': None, 'date': None, 'scope': ''},
              'source': source, 'tuningHz': round(440 * 2 ** (float(data['tuning_semitones']) / 12), 2),
              'method': cfg.get('method', 'Public-domain LilyPond/MIDI → voice-aware performed event table; tuning estimated with librosa; Sync Toolbox 1.4.2 memory-restricted multiscale DTW at 50 frames/s, chroma + DLNCO. First/last attacks anchored by score-pitch energy rises in documented inspection windows; section anchors refined by DTW and checked against existing passage labels. Note-offs are warped notation, not measured key releases; final written holds extend to an estimated decay threshold. No aural review. See tools/align/REPORT.md.'),

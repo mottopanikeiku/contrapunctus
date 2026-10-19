@@ -1,5 +1,21 @@
 {
   "id": "jacquet-de-la-guerre-gigue-nef",
   "verdict": "pass",
-  "defects": []
+  "defects": [],
+  "corrections": [
+    {
+      "date": "2026-10-19",
+      "basis": "MEAS",
+      "code": "WORK_IDENTIFIED",
+      "finding": "The recording was labelled only “Pièces de clavecin” because no printed suite had been matched; the 1707 book was not compared because its scan did not download. The 1707 first-edition scan (IMSLP 111449, BnF copy) and Wiberg’s edition (IMSLP 28300) were obtained and set against the audio. Pitch tracking of the file (tuning +25 cents of A = 440, interquartile range 20–30, as on the Allemande side) gives an upbeat A5 at about 2.6 s; bar 1 from about 3.0 s with F5 over left-hand D3, F3, A3 and D4; bar 2 over an E bass with C♯5, B♭4 and G4 at about 4.7 s; B♭5 ending bar 5 at about 11 s; an E major harmony with G♯ in bars 23–24 (about 37.7–40 s) before an A major chord (A, C♯, E) in bar 25 at about 41 s; the repeat from an upbeat A5 at about 42.7 s; the second strain from about 83.7 s (bar 27) to a D minor chord at about 143 s. The strains are 25 and 38 bars at about 1.6 s a bar. This is the 2e Gigue of the D minor suite of the 1707 book (EJG.05; first edition printed pages 13–14, Wiberg printed pages 16–17), the only six-eight gigue in the 1687 and 1707 books; the other eight gigues and doubles are in 6/4, 3/4 or common time. The earlier reading of the Gigue as centred on A minor, with the first strain ending on E with G♯, took the E major harmony of bars 23–24 for the close of the strain, which is on A major. The file has no whole-tone offset. The Allemande on the reverse is from the G major suite of the same book. Oiseau-Lyre discography (medieval.org, after Davidson) and the BnF record name no suite; Lyrebird Rising itself was not opened.",
+      "fix": "Listen file: work, movement, year and key filled in; intro and the notes at 0, 42 and 83 s rewritten with bar references. Dossier: work title, catalogue (EJG.05) and movement set; version field recorded as inferred with the comparison; sources facsimile1707, edition1707 and imslp1707 added; processing note updated."
+    },
+    {
+      "date": "2026-10-19",
+      "basis": "MEAS",
+      "code": "CLOSING_CUE",
+      "finding": "The note at 151 s, “Closing attack”, said the last bars are quieter and the dance closes on a final louder attack. The music ends on a D minor chord (D3, A3, F5) that sounds from about 142.9 s and is held to about 147 s. After that the file holds only surface noise, and the loud event at about 152 s is a thump of the disc or transfer, not a chord.",
+      "fix": "Note replaced by “Final chord” at 143 s, kind music, moment precision."
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
   "id": "jacquet-de-la-guerre-gigue-nef",
   "work": {
-    "title": "Pièces de clavecin",
-    "catalogue": "",
-    "movement": "Gigue",
+    "title": "Pièces de clavecin qui peuvent se joüer sur le viollon",
+    "catalogue": "EJG.05",
+    "movement": "Suite in D minor · 2e Gigue",
     "version": {
-      "value": "A gigue by Jacquet de La Guerre for harpsichord; the printed source (book and suite) is not identified",
-      "status": "unknown",
-      "sourceIds": ["archive", "edition", "imslp"],
-      "note": "The labels and the Internet Archive record name only an Allemande and a Gigue by Elizabeth Jacquet de la Guerre. An earlier comparison of pitch content with the printed gigues of the 1687 book proposed the F major gigue (EJG.04) and could not be reproduced. Re-measured for this review with the mains hum removed, the pitch content is centred on A minor (G♯ present, B♭ rare) and the first strain ends on an E harmony with G♯, which does not fit an F major piece. The gigue of the A minor suite (EJG.03, printed page 28) is a candidate that was matched only on key and first-strain cadence. The Allemande on the reverse sounds in G major, so the two sides may come from different suites. The 1707 book (EJG.05–06) was not compared, because its scan could not be downloaded."
+      "value": "2e Gigue of the Suite in D minor in Jacquet de La Guerre’s Pièces de clavecin qui peuvent se joüer sur le viollon (Paris, 1707), EJG.05, played with the first strain twice and the second strain once, without its repeat",
+      "status": "inferred",
+      "sourceIds": ["facsimile1707", "edition1707", "imslp1707", "archive", "gallica", "medieval", "edition", "imslp"],
+      "note": "The labels, the Internet Archive record, the BnF catalogue and the Oiseau-Lyre discography on medieval.org name only a Gigue and an Allemande; none names a book, suite or key, so the identification rests on comparing the recording with the printed scores. Pitch tracking of the transfer (mains hum removed; tuning 25 cents above A = 440, interquartile range 20–30 cents, as on the reverse side) finds an upbeat A5 at about 2.6 s; bar 1 from about 3.0 s with F5 in the right hand over left-hand D3, F3, A3 and D4; bar 2 over an E in the bass with C♯5, B♭4 and G4 above it; an E major harmony with G♯ at about 37.7–40 s, followed by an A major chord (A, C♯, E) at about 41–42.5 s; the same strain again from an upbeat A5 at about 42.7 s; a second strain from about 83.7 s that ends on a D minor chord at about 143 s; and no second pass of that strain. The first strain takes about 40 s and the second about 60 s. This agrees with the 2e Gigue of the D minor suite in the 1707 book (first edition, printed pages 13–14; Wiberg’s edition, printed pages 16–17): six-eight time, a right-hand upbeat A5, bar 1 on F5 over left-hand D, F, A and D, a first strain of 25 bars that reaches an E major chord with G♯ in bars 23–24 and closes on A major, and a second strain of 38 bars (27–64) that closes on D minor; at about 1.6 s a bar, 25 and 38 bars take about 40 s and 60 s. The earlier reading of the Gigue as centred on A minor, with a first strain ending on E with G♯, took the E major harmony before the A major chord of bar 25 for the close of the strain. Of the nine gigues and doubles in the two books, this is the only one in six-eight; the others are in 6/4 (1687: D minor, A minor, F major; 1707: D minor, its Double, G major), in 3/4 (1687, first G minor gigue) or in common time (1687, second G minor gigue). The file sounds a quarter of a semitone sharp, so there is no whole-tone offset that would turn a G minor or F major gigue into the recording. The earlier proposals, the F major gigue of 1687 (EJG.04) and the A minor gigue (EJG.03), could not be reproduced. The Allemande on the reverse comes from the other suite of the 1707 book, in G major, so the two sides of the disc are from different suites; no source states the pairing."
     }
   },
   "performers": {
@@ -71,7 +71,7 @@
       "value": "Digitised at 78 rpm with four stylus sizes, flat and equalised; the engineer’s preferred version is the one offered, as a variable-bitrate MP3 derived from a 24-bit FLAC.",
       "status": "documented",
       "sourceIds": ["archive"],
-      "note": "The pitch of the file, re-measured for this review, is about 25 cents above A = 440, as on the other side of the disc. The written key of the piece is not established, so the transfer speed cannot be checked against a score; no speed correction was applied here."
+      "note": "The pitch of the file is about 25 cents above A = 440 (interquartile range 20–30 cents), as on the other side of the disc, and the identified score is in D minor, which sounds as written. The offset cannot be divided between the harpsichord’s tuning and the speed of the disc or its transfer; no speed correction was applied here."
     }
   },
   "digital": {
@@ -84,7 +84,7 @@
     "composition": {
       "value": "Out of copyright where the ordinary life-plus-70 term applies.",
       "status": "inferred",
-      "sourceIds": ["imslp"],
+      "sourceIds": ["imslp", "imslp1707"],
       "note": "Jacquet de La Guerre died in 1729. This is a term calculation, not clearance of every edition."
     },
     "recording": {
@@ -126,10 +126,31 @@
       "accessed": "2026-10-19"
     },
     {
+      "id": "facsimile1707",
+      "title": "Élisabeth Jacquet de La Guerre, Pièces de clavecin qui peuvent se joüer sur le viollon (Paris: the author, Foucault, Ribou, Ballard, 1707), first edition, scan of the Bibliothèque nationale de France copy (VM7-1860) via IMSLP 111449",
+      "url": "http://conquest.imslp.info/files/imglnks/usimg/5/55/IMSLP111449-PMLP62189-Jacquet_de_La_Guerre_-_Pieces_de_Clavecin_qui_peuvent_se_jouer_sur_le_Viollon,_1707.pdf",
+      "locator": "2e Gigue of the first suite, in D minor, on printed pages 13–14 (headed 2.e Gigue): six-eight time, an upbeat in the right hand, two strains each marked to repeat with first and second endings, the second headed Reprise.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "edition1707",
+      "title": "Élisabeth Jacquet de La Guerre, Pièces de clavecin qui peuvent se jouer sur le violon (1707), edited and typeset by Steve Wiberg, Due West Editions, 2009, based on a facsimile of the first printing (IMSLP 28300; Creative Commons Attribution-ShareAlike 3.0)",
+      "url": "http://conquest.imslp.info/files/imglnks/usimg/4/40/IMSLP28300-PMLP62189-LaGuerre_PiecesDeClavecin_1707_Complete.pdf",
+      "locator": "Suite in D minor, 2e Gigue, printed pages 16–17: bars 1–25 (first ending bar 25, second ending bar 26) and, after Reprise, bars 27–64 (first ending bar 64, second ending bar 65). Other gigues of the 1707 book: Gigue and Double of the D minor suite (printed pages 12 and 14) and Gigue of the G major suite (printed page 28), all in 6/4.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp1707",
+      "title": "IMSLP: Pièces de clavecin, Livre 2 (Jacquet de La Guerre, Elisabeth)",
+      "url": "https://imslp.org/wiki/Pi%C3%A8ces_de_clavecin,_Livre_2_(Jacquet_de_La_Guerre,_Elisabeth)",
+      "locator": "First publication 1707; two suites, D minor (EJG.05) and G major (EJG.06); dedicated to Louis XIV; first-edition scans from the Bibliothèque nationale de France.",
+      "accessed": "2026-10-19"
+    },
+    {
       "id": "medieval",
       "title": "Pierre-F. Roberge, Early Music FAQ: Oiseau-Lyre OL. 75, Elisabeth Jacquet de la Guerre, Allemande; Gigue, Isabelle Nef",
       "url": "https://medieval.org/emfaq/cds/lol75.htm",
-      "locator": "Recording site and date unknown [1938]; released 1938 or 1939; information from Jim Davidson, Lyrebird Rising: Louise Hanson-Dyer of Oiseau-Lyre 1884–1962 (Amadeus Press, 1994), p. 490, and the BnF catalogue.",
+      "locator": "Recording site and date unknown [1938]; released 1938 or 1939; information from Jim Davidson, Lyrebird Rising: Louise Hanson-Dyer of Oiseau-Lyre 1884–1962 (Amadeus Press, 1994), p. 490, and the BnF catalogue. The listing gives the contents as Allemande and Gigue, with no book, suite or key (Lyrebird Rising itself not opened).",
       "accessed": "2026-10-19"
     }
   ],

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "id": "chopin-nocturne-op15-2-dalbert",
+  "source": {
+    "title": "Nocturne in F♯ major, Op. 15 No. 2",
+    "edition": "First edition, Breitkopf & Härtel, Leipzig (Trois Nocturnes Op. 15; RISM 1001035842, PL-Wbfc 676/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+    "encoder": "Jędrzej Mróz (encoding); Tomasz Sierawski, Wojciech Jakubiak-Danek (editing); NIFC Chopin Heritage in Open Access project",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+    "main": "nocturne.ly",
+    "humdrum": "015-1a-BH-002.krn",
+    "musicxml": "015-1a-BH-002.musicxml",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
+        "file": "015-1a-BH-002.krn",
+        "sha256": "86621038f96bdef0e99762933fb1df0989a4ecc1458832584eff4a6dce3edbff"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+        "file": "LICENSE.txt",
+        "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "music": "\\new StaffGroup << \\new Staff = \"upper-1\" { \\PartPOneVoiceOne } \\new Staff = \"upper-2\" { \\PartPOneVoiceTwo } \\new Staff = \"upper-3\" { \\PartPOneVoiceThree } \\new Staff = \"upper-4\" { \\PartPOneVoiceFour } \\new Staff = \"lower-5\" { \\PartPOneVoiceFive } \\new Staff = \"lower-6\" { \\PartPOneVoiceSix } \\new Staff = \"lower-7\" { \\PartPOneVoiceSeven } >>",
+    "ties": [
+      {
+        "origin": {
+          "q": 82.0,
+          "pitch": 59,
+          "voice": "lower",
+          "durationQ": 0.5
+        },
+        "continuation": {
+          "q": 82.5,
+          "pitch": 59,
+          "voice": "lower",
+          "durationQ": 0.5
+        },
+        "basis": "015-1a-BH-002.krn lines 757/765: source tie continues in another encoded voice of the same staff; LilyPond cannot tie across voices, so the note is held, not reattacked."
+      },
+      {
+        "origin": {
+          "q": 82.0,
+          "pitch": 54,
+          "voice": "lower",
+          "durationQ": 0.5
+        },
+        "continuation": {
+          "q": 82.5,
+          "pitch": 54,
+          "voice": "lower",
+          "durationQ": 0.5
+        },
+        "basis": "015-1a-BH-002.krn lines 757/765: source tie continues in another encoded voice of the same staff; LilyPond cannot tie across voices, so the note is held, not reattacked."
+      },
+      {
+        "origin": {
+          "q": 108.5,
+          "pitch": 49,
+          "voice": "lower",
+          "durationQ": 2.0
+        },
+        "continuation": {
+          "q": 110.5,
+          "pitch": 49,
+          "voice": "lower",
+          "durationQ": 1.875
+        },
+        "basis": "015-1a-BH-002.krn lines 1048/1064: source tie continues in another encoded voice of the same staff; LilyPond cannot tie across voices, so the note is held, not reattacked."
+      }
+    ]
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        "upper-1:",
+        "upper-2:",
+        "upper-3:",
+        "upper-4:"
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        "lower-5:",
+        "lower-6:",
+        "lower-7:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 63,
+    "quarters": 2,
+    "overrides": {
+      "0": 0.5
+    },
+    "order": [
+      [
+        0,
+        62
+      ]
+    ],
+    "description": "Pickup (bar 0, half a quarter) and bars 1-62 once in written order: Larghetto (1-24), Doppio movimento sotto voce (25-48, ending with the fermata rest in bar 48), and the reprise with fioritura and coda (49-62). The source has no repeat signs; nothing is cut or repeated."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      6
+    ],
+    "last": [
+      150,
+      187
+    ],
+    "basis": "WITHHELD (19 Oct 2026): broad-window dry run failed the primary median gate (0.238 s) and rounding collapsed attacks; endpoints were not refined."
+  },
+  "boundaries": [],
+  "provenance": [
+    "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
+    "Edition: first edition, Breitkopf & Härtel, Leipzig (RISM 1001035842, PL-Wbfc 676/n); encoding Jędrzej Mróz, editing Tomasz Sierawski and Wojciech Jakubiak-Danek. The performer's edition is not established; first-edition readings can differ from later editions.",
+    "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source identity (MEAS): the compiled events match all 1,294 regular **kern attacks (tied continuations excluded) by pitch within one MIDI tick, plus all 32 grace notes; maximum regular onset difference 0.0022 quarter (septuplet tick rounding). Independent check with Verovio 6.3.0's Humdrum importer: 1,350 notes in both readings; per-measure relative timing agrees in every measure except the 10 that contain graces (Verovio performs graces on the beat).",
+    "Twelve written eighth-note graces that follow very fast runs are printed and compiled one or two flags shorter: LilyPond 2.24.4 performs a grace group before its main note for about a quarter of its written length and otherwise reports 'Going back in MIDI time' and delays the rest of that voice. Pitches, number and order of the graces are unchanged.",
+    "Three source ties continue in a different encoded voice (F-sharp3/B3 into bar 42, C-sharp3 into bar 56); LilyPond cannot tie across voices, so extraction.ties holds them as one event each. The engraving may show those tie arcs as unterminated.",
+    "WITHHELD (19 Oct 2026): broad-window dry run failed the primary median gate (0.238 s) and rounding collapsed attacks; endpoints were not refined."
+  ]
+}
